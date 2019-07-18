@@ -10,8 +10,8 @@
                 "delete_tag_confirmation": "Czy jesteś pewien, że chcesz usunąć ten tag? Dyskusje oznaczone tym tagiem NIE ZOSTANĄ usunięte.",
                 "description_label": "Opis",
                 "hide_label": "Ukryj z \"wszystkich dyskusji\"",
-                "icon_label": "",
-                "icon_text": "",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
                 "name_label": "=> flarum-tags.ref.name",
                 "name_placeholder": "=> flarum-tags.ref.name",
                 "slug_label": "Slug",
@@ -23,9 +23,9 @@
                 "tags_text": "Wszystkie dyskusje są przypisywane do tagów dzięki czemu można je łatwo sortować i porządkować - działają podobnie do kategorii."
             },
             "permissions": {
-                "allow_edit_tags_label": "W jakim czasie można edytować tagi?",
+                "allow_edit_tags_label": "W jakim czasie można edytować tagi",
                 "restrict_by_tag_heading": "Ustaw po tagu",
-                "tag_discussions_label": "Kto może zmieniać tagi dyskusji?"
+                "tag_discussions_label": "Kto może zmieniać tagi dyskusji"
             },
             "tag_settings": {
                 "range_separator_text": " to ",
