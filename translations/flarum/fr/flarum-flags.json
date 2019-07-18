@@ -1,27 +1,47 @@
 {
-    "flarum-flags.admin.permissions.flag_posts_label": "",
-    "flarum-flags.admin.permissions.view_flags_label": "",
-    "flarum-flags.admin.settings.guidelines_url_label": "",
-    "flarum-flags.admin.settings.title": "",
-    "flarum-flags.forum.flag_post.confirmation_message": "",
-    "flarum-flags.forum.flag_post.dismiss_button": "",
-    "flarum-flags.forum.flag_post.reason_inappropriate_label": "",
-    "flarum-flags.forum.flag_post.reason_inappropriate_text": "",
-    "flarum-flags.forum.flag_post.reason_off_topic_label": "",
-    "flarum-flags.forum.flag_post.reason_off_topic_text": "",
-    "flarum-flags.forum.flag_post.reason_other_label": "",
-    "flarum-flags.forum.flag_post.reason_spam_label": "",
-    "flarum-flags.forum.flag_post.reason_spam_text": "",
-    "flarum-flags.forum.flag_post.submit_button": "",
-    "flarum-flags.forum.flag_post.title": "",
-    "flarum-flags.forum.flagged_posts.empty_text": "",
-    "flarum-flags.forum.flagged_posts.item_text": "",
-    "flarum-flags.forum.flagged_posts.title": "",
-    "flarum-flags.forum.flagged_posts.tooltip": "",
-    "flarum-flags.forum.post.dismiss_flag_button": "",
-    "flarum-flags.forum.post.flagged_by_text": "",
-    "flarum-flags.forum.post.flagged_by_with_reason_text": "",
-    "flarum-flags.forum.post_controls.flag_button": "",
-    "flarum-flags.ref.flag_post": "",
-    "flarum-flags.ref.flagged_posts": ""
+    "flarum-flags": {
+        "admin": {
+            "permissions": {
+                "flag_posts_label": "",
+                "view_flags_label": ""
+            },
+            "settings": {
+                "guidelines_url_label": "",
+                "title": ""
+            }
+        },
+        "forum": {
+            "flag_post": {
+                "confirmation_message": "",
+                "dismiss_button": "",
+                "reason_inappropriate_label": "",
+                "reason_inappropriate_text": "",
+                "reason_off_topic_label": "",
+                "reason_off_topic_text": "",
+                "reason_other_label": "",
+                "reason_spam_label": "",
+                "reason_spam_text": "",
+                "submit_button": "",
+                "title": ""
+            },
+            "flagged_posts": {
+                "empty_text": "",
+                "item_text": "",
+                "title": "",
+                "tooltip": ""
+            },
+            "post": {
+                "dismiss_flag_button": "",
+                "flagged_by_text": "",
+                "flagged_by_with_reason_text": ""
+            },
+            "post_controls": {
+                "flag_button": ""
+            }
+        },
+        "ref": {
+            "flag_post": "",
+            "flagged_posts": ""
+        }
+    }
 }

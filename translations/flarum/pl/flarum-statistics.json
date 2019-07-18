@@ -1,11 +1,17 @@
 {
-    "flarum-statistics.admin.statistics.active_users_text": "{count} aktywnych",
-    "flarum-statistics.admin.statistics.discussions_heading": "=> core.ref.discussions",
-    "flarum-statistics.admin.statistics.last_12_months_label": "Ostatnie 12 miesięcy",
-    "flarum-statistics.admin.statistics.last_28_days_label": "Ostatnie 28 dni",
-    "flarum-statistics.admin.statistics.last_7_days_label": "Ostatnie 7 dni",
-    "flarum-statistics.admin.statistics.posts_heading": "=> core.ref.posts",
-    "flarum-statistics.admin.statistics.today_label": "Dzisiaj",
-    "flarum-statistics.admin.statistics.total_label": "Razem",
-    "flarum-statistics.admin.statistics.users_heading": "=> core.ref.users"
+    "flarum-statistics": {
+        "admin": {
+            "statistics": {
+                "active_users_text": "{count} aktywnych",
+                "discussions_heading": "=> core.ref.discussions",
+                "last_12_months_label": "Ostatnie 12 miesięcy",
+                "last_28_days_label": "Ostatnie 28 dni",
+                "last_7_days_label": "Ostatnie 7 dni",
+                "posts_heading": "=> core.ref.posts",
+                "today_label": "Dzisiaj",
+                "total_label": "Razem",
+                "users_heading": "=> core.ref.users"
+            }
+        }
+    }
 }

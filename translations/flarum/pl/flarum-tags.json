@@ -1,50 +1,84 @@
 {
-    "flarum-tags.admin.basics.tags_label": "=> flarum-tags.ref.tags",
-    "flarum-tags.admin.edit_tag.color_label": "Kolor",
-    "flarum-tags.admin.edit_tag.delete_tag_button": "Usuń tag",
-    "flarum-tags.admin.edit_tag.delete_tag_confirmation": "Czy jesteś pewien, że chcesz usunąć ten tag? Dyskusje oznaczone tym tagiem NIE ZOSTANĄ usunięte.",
-    "flarum-tags.admin.edit_tag.description_label": "Opis",
-    "flarum-tags.admin.edit_tag.hide_label": "Ukryj z \"wszystkich dyskusji\"",
-    "flarum-tags.admin.edit_tag.icon_label": "",
-    "flarum-tags.admin.edit_tag.icon_text": "",
-    "flarum-tags.admin.edit_tag.name_label": "=> flarum-tags.ref.name",
-    "flarum-tags.admin.edit_tag.name_placeholder": "=> flarum-tags.ref.name",
-    "flarum-tags.admin.edit_tag.slug_label": "Slug",
-    "flarum-tags.admin.edit_tag.submit_button": "=> core.ref.save_changes",
-    "flarum-tags.admin.edit_tag.title": "=> flarum-tags.ref.create_tag",
-    "flarum-tags.admin.nav.tags_button": "=> flarum-tags.ref.tags",
-    "flarum-tags.admin.nav.tags_text": "Wszystkie dyskusje są przypisywane do tagów dzięki czemu można je łatwo sortować i porządkować - działają podobnie do kategorii.",
-    "flarum-tags.admin.permissions.allow_edit_tags_label": "W jakim czasie można edytować tagi?",
-    "flarum-tags.admin.permissions.restrict_by_tag_heading": "Ustaw po tagu",
-    "flarum-tags.admin.permissions.tag_discussions_label": "Kto może zmieniać tagi dyskusji?",
-    "flarum-tags.admin.tag_settings.range_separator_text": " to ",
-    "flarum-tags.admin.tag_settings.required_primary_heading": "Wymagana liczba głównych tagów",
-    "flarum-tags.admin.tag_settings.required_primary_text": "Wpisz minimalną i maksymalną ilość głównych tagów, jakimi może być opisana dyskusja.",
-    "flarum-tags.admin.tag_settings.required_secondary_heading": "Wymagana liczba pobocznych tagów",
-    "flarum-tags.admin.tag_settings.required_secondary_text": "Wpisz minimalną i maksymalną ilość pobocznych tagów, jakimi może być opisana dyskusja.",
-    "flarum-tags.admin.tag_settings.title": "Ustawienia tagów",
-    "flarum-tags.admin.tags.about_tags_text": "Tagi są używane, aby opisywać nimi dyskusje. Główne tagi, są jak tradycyjne kategorie forum: mogą być zorganizowane w dwustopniowej hierarchii. Poboczne tagi nie mają hierarchii ani porządku, są więc użyteczne bardziej do mikroorganizacji.",
-    "flarum-tags.admin.tags.create_tag_button": "=> flarum-tags.ref.create_tag",
-    "flarum-tags.admin.tags.primary_heading": "Główne tagi",
-    "flarum-tags.admin.tags.secondary_heading": "Poboczne tagi",
-    "flarum-tags.admin.tags.settings_button": "Ustawienia",
-    "flarum-tags.forum.choose_tags.choose_primary_placeholder": "Wybierz główny tag|Wybierz {count} główne tagi",
-    "flarum-tags.forum.choose_tags.choose_secondary_placeholder": "Wybierz 1 dodatkowy tag|Wybierz {count} dodatkowe tagi|Wybierz {count} dodatkowych tagów",
-    "flarum-tags.forum.choose_tags.edit_title": "Edytuj tagi dla {title}",
-    "flarum-tags.forum.choose_tags.submit_button": "=> core.ref.okay",
-    "flarum-tags.forum.choose_tags.title": "Wybierz tagi do swojej dyskusji",
-    "flarum-tags.forum.composer_discussion.choose_tags_link": "Wybierz tagi",
-    "flarum-tags.forum.discussion_controls.edit_tags_button": "Edytuj tagi",
-    "flarum-tags.forum.header.back_to_tags_tooltip": "Wróć do wyboru kategorii",
-    "flarum-tags.forum.index.more_link": "Więcej...",
-    "flarum-tags.forum.index.tags_link": "=> flarum-tags.ref.tags",
-    "flarum-tags.forum.index.untagged_link": "Bez tagów",
-    "flarum-tags.forum.post_stream.added_and_removed_tags_text": "{username} dodał {tagsAdded} i usunął {tagsRemoved}.",
-    "flarum-tags.forum.post_stream.added_tags_text": "{username} dodał {tagsAdded}.",
-    "flarum-tags.forum.post_stream.removed_tags_text": "{username} usunął {tagsRemoved}.",
-    "flarum-tags.forum.post_stream.tags_text": "tag {tags}|tagi {tags}",
-    "flarum-tags.lib.deleted_tag_text": "Usunięty",
-    "flarum-tags.ref.create_tag": "Utwórz tag",
-    "flarum-tags.ref.name": "Nazwa",
-    "flarum-tags.ref.tags": "Tagi"
+    "flarum-tags": {
+        "admin": {
+            "basics": {
+                "tags_label": "=> flarum-tags.ref.tags"
+            },
+            "edit_tag": {
+                "color_label": "Kolor",
+                "delete_tag_button": "Usuń tag",
+                "delete_tag_confirmation": "Czy jesteś pewien, że chcesz usunąć ten tag? Dyskusje oznaczone tym tagiem NIE ZOSTANĄ usunięte.",
+                "description_label": "Opis",
+                "hide_label": "Ukryj z \"wszystkich dyskusji\"",
+                "icon_label": "",
+                "icon_text": "",
+                "name_label": "=> flarum-tags.ref.name",
+                "name_placeholder": "=> flarum-tags.ref.name",
+                "slug_label": "Slug",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> flarum-tags.ref.create_tag"
+            },
+            "nav": {
+                "tags_button": "=> flarum-tags.ref.tags",
+                "tags_text": "Wszystkie dyskusje są przypisywane do tagów dzięki czemu można je łatwo sortować i porządkować - działają podobnie do kategorii."
+            },
+            "permissions": {
+                "allow_edit_tags_label": "W jakim czasie można edytować tagi?",
+                "restrict_by_tag_heading": "Ustaw po tagu",
+                "tag_discussions_label": "Kto może zmieniać tagi dyskusji?"
+            },
+            "tag_settings": {
+                "range_separator_text": " to ",
+                "required_primary_heading": "Wymagana liczba głównych tagów",
+                "required_primary_text": "Wpisz minimalną i maksymalną ilość głównych tagów, jakimi może być opisana dyskusja.",
+                "required_secondary_heading": "Wymagana liczba pobocznych tagów",
+                "required_secondary_text": "Wpisz minimalną i maksymalną ilość pobocznych tagów, jakimi może być opisana dyskusja.",
+                "title": "Ustawienia tagów"
+            },
+            "tags": {
+                "about_tags_text": "Tagi są używane, aby opisywać nimi dyskusje. Główne tagi, są jak tradycyjne kategorie forum: mogą być zorganizowane w dwustopniowej hierarchii. Poboczne tagi nie mają hierarchii ani porządku, są więc użyteczne bardziej do mikroorganizacji.",
+                "create_tag_button": "=> flarum-tags.ref.create_tag",
+                "primary_heading": "Główne tagi",
+                "secondary_heading": "Poboczne tagi",
+                "settings_button": "Ustawienia"
+            }
+        },
+        "forum": {
+            "choose_tags": {
+                "choose_primary_placeholder": "Wybierz główny tag|Wybierz {count} główne tagi",
+                "choose_secondary_placeholder": "Wybierz 1 dodatkowy tag|Wybierz {count} dodatkowe tagi|Wybierz {count} dodatkowych tagów",
+                "edit_title": "Edytuj tagi dla {title}",
+                "submit_button": "=> core.ref.okay",
+                "title": "Wybierz tagi do swojej dyskusji"
+            },
+            "composer_discussion": {
+                "choose_tags_link": "Wybierz tagi"
+            },
+            "discussion_controls": {
+                "edit_tags_button": "Edytuj tagi"
+            },
+            "header": {
+                "back_to_tags_tooltip": "Wróć do wyboru kategorii"
+            },
+            "index": {
+                "more_link": "Więcej...",
+                "tags_link": "=> flarum-tags.ref.tags",
+                "untagged_link": "Bez tagów"
+            },
+            "post_stream": {
+                "added_and_removed_tags_text": "{username} dodał {tagsAdded} i usunął {tagsRemoved}.",
+                "added_tags_text": "{username} dodał {tagsAdded}.",
+                "removed_tags_text": "{username} usunął {tagsRemoved}.",
+                "tags_text": "tag {tags}|tagi {tags}"
+            }
+        },
+        "lib": {
+            "deleted_tag_text": "Usunięty"
+        },
+        "ref": {
+            "create_tag": "Utwórz tag",
+            "name": "Nazwa",
+            "tags": "Tagi"
+        }
+    }
 }

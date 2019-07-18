@@ -1,9 +1,25 @@
 {
-    "flarum-sticky.admin.permissions.sticky_discussions_label": "",
-    "flarum-sticky.forum.badge.sticky_tooltip": "",
-    "flarum-sticky.forum.discussion_controls.sticky_button": "",
-    "flarum-sticky.forum.discussion_controls.unsticky_button": "",
-    "flarum-sticky.forum.post_stream.discussion_stickied_text": "",
-    "flarum-sticky.forum.post_stream.discussion_unstickied_text": "",
-    "flarum-sticky.ref.sticky": ""
+    "flarum-sticky": {
+        "admin": {
+            "permissions": {
+                "sticky_discussions_label": ""
+            }
+        },
+        "forum": {
+            "badge": {
+                "sticky_tooltip": ""
+            },
+            "discussion_controls": {
+                "sticky_button": "",
+                "unsticky_button": ""
+            },
+            "post_stream": {
+                "discussion_stickied_text": "",
+                "discussion_unstickied_text": ""
+            }
+        },
+        "ref": {
+            "sticky": ""
+        }
+    }
 }

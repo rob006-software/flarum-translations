@@ -1,6 +1,16 @@
 {
-    "flarum-auth-facebook.admin.facebook_settings.app_id_label": "App ID",
-    "flarum-auth-facebook.admin.facebook_settings.app_secret_label": "Sekret aplikacji",
-    "flarum-auth-facebook.admin.facebook_settings.title": "Ustawienia Facebook'a",
-    "flarum-auth-facebook.forum.log_in.with_facebook_button": "Zaloguj się przy użyciu Facebook'a"
+    "flarum-auth-facebook": {
+        "admin": {
+            "facebook_settings": {
+                "app_id_label": "App ID",
+                "app_secret_label": "Sekret aplikacji",
+                "title": "Ustawienia Facebook'a"
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_facebook_button": "Zaloguj się przy użyciu Facebook'a"
+            }
+        }
+    }
 }

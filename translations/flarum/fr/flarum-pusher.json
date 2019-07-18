@@ -1,8 +1,18 @@
 {
-    "flarum-pusher.admin.pusher_settings.app_cluster_label": "",
-    "flarum-pusher.admin.pusher_settings.app_id_label": "",
-    "flarum-pusher.admin.pusher_settings.app_key_label": "",
-    "flarum-pusher.admin.pusher_settings.app_secret_label": "",
-    "flarum-pusher.admin.pusher_settings.title": "",
-    "flarum-pusher.forum.discussion_list.show_updates_text": ""
+    "flarum-pusher": {
+        "admin": {
+            "pusher_settings": {
+                "app_cluster_label": "",
+                "app_id_label": "",
+                "app_key_label": "",
+                "app_secret_label": "",
+                "title": ""
+            }
+        },
+        "forum": {
+            "discussion_list": {
+                "show_updates_text": ""
+            }
+        }
+    }
 }

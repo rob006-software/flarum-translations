@@ -1,6 +1,16 @@
 {
-    "flarum-akismet.admin.akismet_settings.api_key_label": "",
-    "flarum-akismet.admin.akismet_settings.title": "",
-    "flarum-akismet.forum.post.akismet_flagged_text": "",
-    "flarum-akismet.forum.post.not_spam_button": ""
+    "flarum-akismet": {
+        "admin": {
+            "akismet_settings": {
+                "api_key_label": "",
+                "title": ""
+            }
+        },
+        "forum": {
+            "post": {
+                "akismet_flagged_text": "",
+                "not_spam_button": ""
+            }
+        }
+    }
 }

@@ -1,9 +1,25 @@
 {
-    "flarum-approval.admin.permissions.approve_posts_label": "Approve posts",
-    "flarum-approval.admin.permissions.reply_without_approval_label": "Reply to discussions without approval",
-    "flarum-approval.admin.permissions.start_discussions_without_approval_label": "Start discussions without approval",
-    "flarum-approval.forum.badge.awaiting_approval_tooltip": "=> flarum-approval.ref.awaiting_approval",
-    "flarum-approval.forum.post.awaiting_approval_text": "=> flarum-approval.ref.awaiting_approval",
-    "flarum-approval.forum.post_controls.approve_button": "Approve",
-    "flarum-approval.ref.awaiting_approval": "Awaiting approval"
+    "flarum-approval": {
+        "admin": {
+            "permissions": {
+                "approve_posts_label": "Approve posts",
+                "reply_without_approval_label": "Reply to discussions without approval",
+                "start_discussions_without_approval_label": "Start discussions without approval"
+            }
+        },
+        "forum": {
+            "badge": {
+                "awaiting_approval_tooltip": "=> flarum-approval.ref.awaiting_approval"
+            },
+            "post": {
+                "awaiting_approval_text": "=> flarum-approval.ref.awaiting_approval"
+            },
+            "post_controls": {
+                "approve_button": "Approve"
+            }
+        },
+        "ref": {
+            "awaiting_approval": "Awaiting approval"
+        }
+    }
 }

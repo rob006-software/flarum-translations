@@ -1,13 +1,29 @@
 {
-    "flarum-likes.admin.permissions.like_posts_label": "",
-    "flarum-likes.forum.notifications.others_text": "",
-    "flarum-likes.forum.notifications.post_liked_text": "",
-    "flarum-likes.forum.post.like_link": "",
-    "flarum-likes.forum.post.liked_by_self_text": "",
-    "flarum-likes.forum.post.liked_by_text": "",
-    "flarum-likes.forum.post.others_link": "",
-    "flarum-likes.forum.post.unlike_link": "",
-    "flarum-likes.forum.post.you_text": "",
-    "flarum-likes.forum.post_likes.title": "",
-    "flarum-likes.forum.settings.notify_post_liked_label": ""
+    "flarum-likes": {
+        "admin": {
+            "permissions": {
+                "like_posts_label": ""
+            }
+        },
+        "forum": {
+            "notifications": {
+                "others_text": "",
+                "post_liked_text": ""
+            },
+            "post": {
+                "like_link": "",
+                "liked_by_self_text": "",
+                "liked_by_text": "",
+                "others_link": "",
+                "unlike_link": "",
+                "you_text": ""
+            },
+            "post_likes": {
+                "title": ""
+            },
+            "settings": {
+                "notify_post_liked_label": ""
+            }
+        }
+    }
 }

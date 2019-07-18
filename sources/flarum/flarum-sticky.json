@@ -1,9 +1,25 @@
 {
-    "flarum-sticky.admin.permissions.sticky_discussions_label": "Sticky discussions",
-    "flarum-sticky.forum.badge.sticky_tooltip": "=> flarum-sticky.ref.sticky",
-    "flarum-sticky.forum.discussion_controls.sticky_button": "=> flarum-sticky.ref.sticky",
-    "flarum-sticky.forum.discussion_controls.unsticky_button": "Unsticky",
-    "flarum-sticky.forum.post_stream.discussion_stickied_text": "{username} stickied the discussion.",
-    "flarum-sticky.forum.post_stream.discussion_unstickied_text": "{username} unstickied the discussion.",
-    "flarum-sticky.ref.sticky": "Sticky"
+    "flarum-sticky": {
+        "admin": {
+            "permissions": {
+                "sticky_discussions_label": "Sticky discussions"
+            }
+        },
+        "forum": {
+            "badge": {
+                "sticky_tooltip": "=> flarum-sticky.ref.sticky"
+            },
+            "discussion_controls": {
+                "sticky_button": "=> flarum-sticky.ref.sticky",
+                "unsticky_button": "Unsticky"
+            },
+            "post_stream": {
+                "discussion_stickied_text": "{username} stickied the discussion.",
+                "discussion_unstickied_text": "{username} unstickied the discussion."
+            }
+        },
+        "ref": {
+            "sticky": "Sticky"
+        }
+    }
 }

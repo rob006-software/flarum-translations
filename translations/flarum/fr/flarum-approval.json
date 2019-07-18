@@ -1,9 +1,25 @@
 {
-    "flarum-approval.admin.permissions.approve_posts_label": "",
-    "flarum-approval.admin.permissions.reply_without_approval_label": "",
-    "flarum-approval.admin.permissions.start_discussions_without_approval_label": "",
-    "flarum-approval.forum.badge.awaiting_approval_tooltip": "",
-    "flarum-approval.forum.post.awaiting_approval_text": "",
-    "flarum-approval.forum.post_controls.approve_button": "",
-    "flarum-approval.ref.awaiting_approval": ""
+    "flarum-approval": {
+        "admin": {
+            "permissions": {
+                "approve_posts_label": "",
+                "reply_without_approval_label": "",
+                "start_discussions_without_approval_label": ""
+            }
+        },
+        "forum": {
+            "badge": {
+                "awaiting_approval_tooltip": ""
+            },
+            "post": {
+                "awaiting_approval_text": ""
+            },
+            "post_controls": {
+                "approve_button": ""
+            }
+        },
+        "ref": {
+            "awaiting_approval": ""
+        }
+    }
 }
