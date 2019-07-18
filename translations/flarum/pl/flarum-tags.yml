@@ -1,65 +1,65 @@
 flarum-tags:
-    admin:
-        basics:
-            tags_label: '=> flarum-tags.ref.tags'
-        edit_tag:
-            color_label: Kolor
-            delete_tag_button: 'Usuń tag'
-            delete_tag_confirmation: 'Czy jesteś pewien, że chcesz usunąć ten tag? Dyskusje oznaczone tym tagiem NIE ZOSTANĄ usunięte.'
-            description_label: Opis
-            hide_label: 'Ukryj z "wszystkich dyskusji"'
-            icon_label: ''
-            icon_text: ''
-            name_label: '=> flarum-tags.ref.name'
-            name_placeholder: '=> flarum-tags.ref.name'
-            slug_label: Slug
-            submit_button: '=> core.ref.save_changes'
-            title: '=> flarum-tags.ref.create_tag'
-        nav:
-            tags_button: '=> flarum-tags.ref.tags'
-            tags_text: 'Wszystkie dyskusje są przypisywane do tagów dzięki czemu można je łatwo sortować i porządkować - działają podobnie do kategorii.'
-        permissions:
-            allow_edit_tags_label: 'W jakim czasie można edytować tagi?'
-            restrict_by_tag_heading: 'Ustaw po tagu'
-            tag_discussions_label: 'Kto może zmieniać tagi dyskusji?'
-        tag_settings:
-            range_separator_text: ' to '
-            required_primary_heading: 'Wymagana liczba głównych tagów'
-            required_primary_text: 'Wpisz minimalną i maksymalną ilość głównych tagów, jakimi może być opisana dyskusja.'
-            required_secondary_heading: 'Wymagana liczba pobocznych tagów'
-            required_secondary_text: 'Wpisz minimalną i maksymalną ilość pobocznych tagów, jakimi może być opisana dyskusja.'
-            title: 'Ustawienia tagów'
-        tags:
-            about_tags_text: 'Tagi są używane, aby opisywać nimi dyskusje. Główne tagi, są jak tradycyjne kategorie forum: mogą być zorganizowane w dwustopniowej hierarchii. Poboczne tagi nie mają hierarchii ani porządku, są więc użyteczne bardziej do mikroorganizacji.'
-            create_tag_button: '=> flarum-tags.ref.create_tag'
-            primary_heading: 'Główne tagi'
-            secondary_heading: 'Poboczne tagi'
-            settings_button: Ustawienia
-    forum:
-        choose_tags:
-            choose_primary_placeholder: 'Wybierz główny tag|Wybierz {count} główne tagi'
-            choose_secondary_placeholder: 'Wybierz 1 dodatkowy tag|Wybierz {count} dodatkowe tagi|Wybierz {count} dodatkowych tagów'
-            edit_title: 'Edytuj tagi dla {title}'
-            submit_button: '=> core.ref.okay'
-            title: 'Wybierz tagi do swojej dyskusji'
-        composer_discussion:
-            choose_tags_link: 'Wybierz tagi'
-        discussion_controls:
-            edit_tags_button: 'Edytuj tagi'
-        header:
-            back_to_tags_tooltip: 'Wróć do wyboru kategorii'
-        index:
-            more_link: Więcej...
-            tags_link: '=> flarum-tags.ref.tags'
-            untagged_link: 'Bez tagów'
-        post_stream:
-            added_and_removed_tags_text: '{username} dodał {tagsAdded} i usunął {tagsRemoved}.'
-            added_tags_text: '{username} dodał {tagsAdded}.'
-            removed_tags_text: '{username} usunął {tagsRemoved}.'
-            tags_text: 'tag {tags}|tagi {tags}'
-    lib:
-        deleted_tag_text: Usunięty
-    ref:
-        create_tag: 'Utwórz tag'
-        name: Nazwa
-        tags: Tagi
+  admin:
+    basics:
+      tags_label: '=> flarum-tags.ref.tags'
+    edit_tag:
+      color_label: Kolor
+      delete_tag_button: 'Usuń tag'
+      delete_tag_confirmation: 'Czy jesteś pewien, że chcesz usunąć ten tag? Dyskusje oznaczone tym tagiem NIE ZOSTANĄ usunięte.'
+      description_label: Opis
+      hide_label: 'Ukryj z "wszystkich dyskusji"'
+      icon_label: ''
+      icon_text: ''
+      name_label: '=> flarum-tags.ref.name'
+      name_placeholder: '=> flarum-tags.ref.name'
+      slug_label: Slug
+      submit_button: '=> core.ref.save_changes'
+      title: '=> flarum-tags.ref.create_tag'
+    nav:
+      tags_button: '=> flarum-tags.ref.tags'
+      tags_text: 'Wszystkie dyskusje są przypisywane do tagów dzięki czemu można je łatwo sortować i porządkować - działają podobnie do kategorii.'
+    permissions:
+      allow_edit_tags_label: 'W jakim czasie można edytować tagi?'
+      restrict_by_tag_heading: 'Ustaw po tagu'
+      tag_discussions_label: 'Kto może zmieniać tagi dyskusji?'
+    tag_settings:
+      range_separator_text: ' to '
+      required_primary_heading: 'Wymagana liczba głównych tagów'
+      required_primary_text: 'Wpisz minimalną i maksymalną ilość głównych tagów, jakimi może być opisana dyskusja.'
+      required_secondary_heading: 'Wymagana liczba pobocznych tagów'
+      required_secondary_text: 'Wpisz minimalną i maksymalną ilość pobocznych tagów, jakimi może być opisana dyskusja.'
+      title: 'Ustawienia tagów'
+    tags:
+      about_tags_text: 'Tagi są używane, aby opisywać nimi dyskusje. Główne tagi, są jak tradycyjne kategorie forum: mogą być zorganizowane w dwustopniowej hierarchii. Poboczne tagi nie mają hierarchii ani porządku, są więc użyteczne bardziej do mikroorganizacji.'
+      create_tag_button: '=> flarum-tags.ref.create_tag'
+      primary_heading: 'Główne tagi'
+      secondary_heading: 'Poboczne tagi'
+      settings_button: Ustawienia
+  forum:
+    choose_tags:
+      choose_primary_placeholder: 'Wybierz główny tag|Wybierz {count} główne tagi'
+      choose_secondary_placeholder: 'Wybierz 1 dodatkowy tag|Wybierz {count} dodatkowe tagi|Wybierz {count} dodatkowych tagów'
+      edit_title: 'Edytuj tagi dla {title}'
+      submit_button: '=> core.ref.okay'
+      title: 'Wybierz tagi do swojej dyskusji'
+    composer_discussion:
+      choose_tags_link: 'Wybierz tagi'
+    discussion_controls:
+      edit_tags_button: 'Edytuj tagi'
+    header:
+      back_to_tags_tooltip: 'Wróć do wyboru kategorii'
+    index:
+      more_link: Więcej...
+      tags_link: '=> flarum-tags.ref.tags'
+      untagged_link: 'Bez tagów'
+    post_stream:
+      added_and_removed_tags_text: '{username} dodał {tagsAdded} i usunął {tagsRemoved}.'
+      added_tags_text: '{username} dodał {tagsAdded}.'
+      removed_tags_text: '{username} usunął {tagsRemoved}.'
+      tags_text: 'tag {tags}|tagi {tags}'
+  lib:
+    deleted_tag_text: Usunięty
+  ref:
+    create_tag: 'Utwórz tag'
+    name: Nazwa
+    tags: Tagi

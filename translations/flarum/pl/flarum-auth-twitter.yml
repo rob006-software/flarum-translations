@@ -1,9 +1,9 @@
 flarum-auth-twitter:
-    admin:
-        twitter_settings:
-            api_key_label: 'API Key'
-            api_secret_label: 'Sekret aplikacji'
-            title: 'Ustawienia Twittera'
-    forum:
-        log_in:
-            with_twitter_button: 'Zaloguj się przy użyciu Twittera'
+  admin:
+    twitter_settings:
+      api_key_label: 'API Key'
+      api_secret_label: 'Sekret aplikacji'
+      title: 'Ustawienia Twittera'
+  forum:
+    log_in:
+      with_twitter_button: 'Zaloguj się przy użyciu Twittera'

@@ -1,15 +1,15 @@
 flarum-approval:
-    admin:
-        permissions:
-            approve_posts_label: 'Ktos może zatwierdzać posty użytkowników?'
-            reply_without_approval_label: 'Kto może odpowiadać bez moderacji posta?'
-            start_discussions_without_approval_label: 'Kto może rozpocząć dyskusję bez moderacji?'
-    forum:
-        badge:
-            awaiting_approval_tooltip: '=> flarum-approval.ref.awaiting_approval'
-        post:
-            awaiting_approval_text: '=> flarum-approval.ref.awaiting_approval'
-        post_controls:
-            approve_button: Zatwierdź
-    ref:
-        awaiting_approval: 'Czeka na zatwierdzenie'
+  admin:
+    permissions:
+      approve_posts_label: 'Ktos może zatwierdzać posty użytkowników?'
+      reply_without_approval_label: 'Kto może odpowiadać bez moderacji posta?'
+      start_discussions_without_approval_label: 'Kto może rozpocząć dyskusję bez moderacji?'
+  forum:
+    badge:
+      awaiting_approval_tooltip: '=> flarum-approval.ref.awaiting_approval'
+    post:
+      awaiting_approval_text: '=> flarum-approval.ref.awaiting_approval'
+    post_controls:
+      approve_button: Zatwierdź
+  ref:
+    awaiting_approval: 'Czeka na zatwierdzenie'

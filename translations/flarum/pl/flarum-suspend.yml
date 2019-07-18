@@ -1,20 +1,20 @@
 flarum-suspend:
-    admin:
-        permissions:
-            suspend_users_label: 'Kto może banować użytkowników?'
-    forum:
-        notifications:
-            user_suspended_text: '{username} zbanował Cię na {timeReadable}'
-            user_unsuspended_text: '{username} odbanował Cię'
-        suspend_user:
-            indefinitely_label: 'Zbanowany na zawsze'
-            limited_time_days_text: ' dni'
-            limited_time_label: 'Zbanowany na określony czas...'
-            not_suspended_label: 'Nie jest zbanowany'
-            status_heading: 'Wybierz status bana:'
-            submit_button: '=> core.ref.save_changes'
-            title: 'Zbanuj {username}'
-        user_badge:
-            suspended_tooltip: Zbanowany
-        user_controls:
-            suspend_button: Zbanuj
+  admin:
+    permissions:
+      suspend_users_label: 'Kto może banować użytkowników?'
+  forum:
+    notifications:
+      user_suspended_text: '{username} zbanował Cię na {timeReadable}'
+      user_unsuspended_text: '{username} odbanował Cię'
+    suspend_user:
+      indefinitely_label: 'Zbanowany na zawsze'
+      limited_time_days_text: ' dni'
+      limited_time_label: 'Zbanowany na określony czas...'
+      not_suspended_label: 'Nie jest zbanowany'
+      status_heading: 'Wybierz status bana:'
+      submit_button: '=> core.ref.save_changes'
+      title: 'Zbanuj {username}'
+    user_badge:
+      suspended_tooltip: Zbanowany
+    user_controls:
+      suspend_button: Zbanuj
