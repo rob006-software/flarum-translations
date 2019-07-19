@@ -16,4 +16,5 @@ return [
 		'languages' => ['pl'], // this is only a placeholder - no need to really translate it
 	],
 	'fof-user-directory' => 'https://raw.githubusercontent.com/FriendsOfFlarum/user-directory/master/resources/locale/en.yml',
+	'fof-pages' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pages/master/resources/locale/en.yml',
 ];
