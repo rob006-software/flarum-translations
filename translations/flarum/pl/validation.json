@@ -27,21 +27,21 @@
         "dimensions": ":attribute ma nieprawidłowe proporcje obrazka.",
         "distinct": "Pole :attribute ma tę samą wartość.",
         "email": ":attribute musi być prawidłowym adresem e-mail.",
-        "ends_with": "",
+        "ends_with": ":attribute musi kończyć się jedną z podanych wartości: :values",
         "exists": ":attribute jest nieprawidłowy.",
         "file": ":attribute musi być plikiem.",
         "filled": "Pole :attribute musi mieć wartość.",
         "gt": {
-            "numeric": "",
-            "file": "",
-            "string": "",
-            "array": ""
+            "numeric": ":attribute musi być większe niż :value.",
+            "file": ":attribute musi być większe niż :value kilobajtów.",
+            "string": ":attribute musi być większe niż :value znaków.",
+            "array": ":attribute musi mieć więcej niż :value elementów."
         },
         "gte": {
-            "numeric": "",
-            "file": "",
-            "string": "",
-            "array": ""
+            "numeric": ":attribute musi być większe lub równe :value.",
+            "file": ":attribute musi być większe lub równe :value kilobajtów.",
+            "string": ":attribute musi być większe lub równe :value znaków.",
+            "array": ":attribute musi mieć co najmniej :value elementów."
         },
         "image": ":attribute musi być obrazem.",
         "in": ":attribute jest nieprawidłowy.",
@@ -52,16 +52,16 @@
         "ipv6": ":attribute musi być prawdziwym adresem IPv6.",
         "json": ":attribute musi być prawidłowym kodem JSON.",
         "lt": {
-            "numeric": "",
-            "file": "",
-            "string": "",
-            "array": ""
+            "numeric": ":attribute musi być mniejsze niż :value.",
+            "file": ":attribute musi mieć mniej niż :value kilobajtów.",
+            "string": ":attribute musi mieć mniej niż :value znaków.",
+            "array": ":attribute musi mieć mniej niż :value elementów."
         },
         "lte": {
-            "numeric": "",
-            "file": "",
-            "string": "",
-            "array": ""
+            "numeric": ":attribute musi być mniejsze lub równe :value.",
+            "file": ":attribute musi być mniejsze lub równe :value kilobajtów.",
+            "string": ":attribute musi być mniejsze lub równe :value znaków.",
+            "array": ":attribute musi mieć co najwyżej :value elementów."
         },
         "max": {
             "numeric": ":attribute nie może być wartością większą, niż :max.",
@@ -77,8 +77,8 @@
             "string": ":attribute musi zawierać co najmniej :min znaków.",
             "array": ":attribute musi mieć co najmniej :min przedmiotów."
         },
-        "not_in": "The selected :attribute is invalid.",
-        "not_regex": "",
+        "not_in": ":attribute jest nieprawidłowy.",
+        "not_regex": "Format :attribute jest nieprawidłowy.",
         "numeric": ":attribute musi być numerem.",
         "present": "Pole :attribute musi być obecne.",
         "regex": ":attribute ma nieprawidłowy format.",
@@ -96,13 +96,13 @@
             "string": ":attribute musi składać się z :size liter.",
             "array": ":attribute musi zawierać :size przedmiotów."
         },
-        "starts_with": "",
+        "starts_with": ":attribute musi rozpoczynać się jedną z wartości: :values",
         "string": ":attribute musi być kodem.",
         "timezone": ":attribute musi być prawidłową strefą.",
         "unique": ":attribute jest już przez kogoś zajęta.",
         "uploaded": ":attribute nie został wysłany.",
         "url": "Format :attribute jest nieprawidłowy.",
-        "uuid": "",
+        "uuid": ":attribute musi być prawidłowym UUID.",
         "attributes": {
             "username": "Nazwa użytkownika",
             "password": "Hasło",
