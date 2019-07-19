@@ -1,0 +1,28 @@
+{
+    "migratetoflarum-canonical": {
+        "admin": {
+            "settings": {
+                "title": "Canonical Url Settings",
+                "step": {
+                    "how_to": "How to enable the canonical redirect",
+                    "check_config_url": "Check that the url defined in config.php is your preferred canonical URL (currently: {url})",
+                    "admin_on_canonical": "Access the admin panel via the canonical URL",
+                    "enable_temporary": "Enable temporary redirect and check everything works",
+                    "enable_permanent": "Enable permanent redirect",
+                    "suggestions": "Other suggestions that this extension does not enforce or cover",
+                    "use_https": "Use an HTTPS canonical URL",
+                    "use_hsts": "Use HSTS to prevent downgrade attacks"
+                },
+                "field": {
+                    "status": "Redirect type",
+                    "wrong_url": "The extension settings will appear once you access your forum via the canonical URL"
+                },
+                "option": {
+                    "disabled": "Disabled (the extension won't do anything)",
+                    "302": "302 (Temporary redirect, for testing)",
+                    "301": "301 (Permanent redirect, for production)"
+                }
+            }
+        }
+    }
+}
