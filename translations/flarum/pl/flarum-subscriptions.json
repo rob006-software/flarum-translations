@@ -1,0 +1,41 @@
+{
+    "flarum-subscriptions": {
+        "forum": {
+            "badge": {
+                "following_tooltip": "=> flarum-subscriptions.ref.following",
+                "ignoring_tooltip": "=> flarum-subscriptions.ref.ignoring"
+            },
+            "discussion_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "unfollow_button": "Przestań obserwować",
+                "unignore_button": "Przestań ignorować"
+            },
+            "index": {
+                "following_link": "=> flarum-subscriptions.ref.following"
+            },
+            "notifications": {
+                "new_post_text": "{username} odpowiedział"
+            },
+            "settings": {
+                "follow_after_reply_label": "Automatycznie obserwuj dyskusje, w których odpowiedziałem",
+                "notify_new_post_label": "Ktoś odpowiada w dyskusji, którą obserwuję"
+            },
+            "sub_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "following_button": "=> flarum-subscriptions.ref.following",
+                "following_text": "Będziesz powiadamiany o wszystkich odpowiedziach.",
+                "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
+                "ignoring_text": "Nigdy nie będziesz powiadamiany o odpowiedziach, dodatkowo dyskusja ta zniknie z listy dyskusji.",
+                "not_following_button": "Nie obserwujesz",
+                "not_following_text": "Będziesz powiadamiany tylko wtedy, kiedy zostaniesz @wspomniany.",
+                "notify_alert_tooltip": "Dostań powiadomienie na forum, kiedy pojawią się nowe posty",
+                "notify_email_tooltip": "Dostań wiadomość e-mail, kiedy pojawią się nowe posty"
+            }
+        },
+        "ref": {
+            "follow": "Obserwuj",
+            "following": "Obserwujesz",
+            "ignoring": "Ignorujesz"
+        }
+    }
+}

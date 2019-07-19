@@ -1,0 +1,30 @@
+{
+    "flarum-mentions": {
+        "forum": {
+            "composer": {
+                "mention_tooltip": "Wspomnij użytkownika bądź post",
+                "reply_to_post_text": "Odpowiedź na #{number}"
+            },
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_mentioned_text": "{username} odpowiedział na twój post|{username} odpowiedzieli na twój post",
+                "user_mentioned_text": "{username} wspomniał o tobie"
+            },
+            "post": {
+                "mentioned_by_self_text": "{users} odpowiedziełeś na to.|{users} odpowiedzieliście na to.",
+                "mentioned_by_text": "{users} odpowiedział na to.|{users} odpowiedzieli na to.",
+                "others_text": "=> core.ref.some_others",
+                "quote_button": "Cytuj",
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
+            },
+            "settings": {
+                "notify_post_mentioned_label": "Ktoś odpowiada na mój post",
+                "notify_user_mentioned_label": "Ktoś wspomina o mnie w poście"
+            },
+            "user": {
+                "mentions_link": "Wspomniany"
+            }
+        }
+    }
+}

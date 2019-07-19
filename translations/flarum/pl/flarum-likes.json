@@ -1,0 +1,29 @@
+{
+    "flarum-likes": {
+        "admin": {
+            "permissions": {
+                "like_posts_label": "Kto może lajkować posty?"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_liked_text": "{username} polubił twój post|{username} polubili twój post"
+            },
+            "post": {
+                "like_link": "Lubię to",
+                "liked_by_self_text": "{users} lubisz to.|{users} lubicie to.",
+                "liked_by_text": "{users} lubi to.|{users} lubią to.",
+                "others_link": "=> core.ref.some_others",
+                "unlike_link": "Przestań lubić",
+                "you_text": "=> core.ref.you"
+            },
+            "post_likes": {
+                "title": "Użytkownicy, którzy to lubią"
+            },
+            "settings": {
+                "notify_post_liked_label": "Gdy ktoś polubi mój post"
+            }
+        }
+    }
+}
