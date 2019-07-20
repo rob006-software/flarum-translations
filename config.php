@@ -10,6 +10,8 @@
  */
 
 return [
+	'repository' => 'git@github.com:rob006-software/flarum-translations.git',
+	'dir' => __DIR__,
 	'sourcesDir' => __DIR__ . '/sources',
 	'translationsDir' => __DIR__ . '/translations',
 	'projects' => [
@@ -20,5 +22,12 @@ return [
 	'languages' => [
 		'pl',
 		'fr',
+	],
+	'subsplits' => [
+		'pl' => [
+			'repository' => 'git@github.com:rob006-software/flarum-lang-polish.git',
+			'branch' => 'master',
+			'path' => '/locale',
+		],
 	],
 ];
