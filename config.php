@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the flarum-components.
+ * This file is part of the flarum-translations.
  *
  * Copyright (c) 2019 Robert Korulczyk <robert@korulczyk.pl>
  *
