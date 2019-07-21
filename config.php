@@ -15,19 +15,13 @@ return [
 	'sourcesDir' => __DIR__ . '/sources',
 	'translationsDir' => __DIR__ . '/translations',
 	'projects' => [
-		'flarum' => require __DIR__ . '/config/flarum.php',
-		'fof' => require __DIR__ . '/config/fof.php',
-		'various' => require __DIR__ . '/config/various.php',
+		'flarum' => require __DIR__ . '/config/flarum-project.php',
+		'fof' => require __DIR__ . '/config/fof-project.php',
+		'various' => require __DIR__ . '/config/various-project.php',
 	],
 	'languages' => [
 		'pl',
 		'fr',
 	],
-	'subsplits' => [
-		'pl' => [
-			'repository' => 'git@github.com:rob006-software/flarum-lang-polish.git',
-			'branch' => 'master',
-			'path' => '/locale',
-		],
-	],
+	'subsplits' => require __DIR__ . '/config/subsplits.php',
 ];
