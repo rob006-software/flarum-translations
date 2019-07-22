@@ -11,7 +11,9 @@
 
 return [
 	'pl' => [
+		'type' => 'language',
 		'language' => 'pl',
+		'updateReadme' => true,
 		'repository' => 'git@github.com:rob006-software/flarum-lang-polish.git',
 		'branch' => 'master',
 		'path' => '/locale',
