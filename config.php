@@ -24,4 +24,8 @@ return [
 		'fr',
 	],
 	'subsplits' => require __DIR__ . '/config/subsplits.php',
+	'extensions' => require __DIR__ . '/config/extensions.php',
+	'vendors' => [
+		'various' => require __DIR__ . '/config/various-vendors.php',
+	],
 ];

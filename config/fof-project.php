@@ -10,6 +10,7 @@
  */
 
 return [
+	'__weblateId' => 'friends-of-flarum',
 	// do not remove this component - it is used as main component in this project
 	'core' => [
 		'https://raw.githubusercontent.com/rob006-software/flarum-translations/master/placeholders/fof.yml',
