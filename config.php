@@ -19,10 +19,7 @@ return [
 		'fof' => require __DIR__ . '/config/fof-project.php',
 		'various' => require __DIR__ . '/config/various-project.php',
 	],
-	'languages' => [
-		'pl',
-		'fr',
-	],
+	'languages' => require __DIR__ . '/config/languages.php',
 	'subsplits' => require __DIR__ . '/config/subsplits.php',
 	'extensions' => require __DIR__ . '/config/extensions.php',
 	'vendors' => [
