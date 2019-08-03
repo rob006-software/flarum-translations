@@ -2,28 +2,28 @@
     "flarum-best-answer": {
         "admin": {
             "permissions": {
-                "best_answer": "Select Best Answer (own Discussion)",
-                "best_answer_not_own_discussion": "Select Best Answer (not own Discussion)"
+                "best_answer": "=> flarum-best-answer.ref.best_answer",
+                "best_answer_not_own_discussion": ""
             },
             "settings": {
-                "title": "Best Answer Settings",
-                "allow_select_own_post": "Allow user to select their own post",
-                "select_best_answer_reminder_days": "Remind user to select best answer after X days"
+                "title": "",
+                "allow_select_own_post": "",
+                "select_best_answer_reminder_days": ""
             }
         },
         "forum": {
-            "this_best_answer": "This is the best answer",
-            "remove_best_answer": "Remove the current best answer",
-            "header_best_answer": "Tagged by the post creator as the best answer",
-            "best_answer_button": "Best Answer",
-            "best_answer_label": "set by <a>{username}</a>",
+            "this_best_answer": "Oznacz jako najlepszą odpowiedź",
+            "remove_best_answer": "Usuń aktualną najlepszą odpowiedź",
+            "header_best_answer": "Oznaczono przez autora tematu jako najlepsza odpowiedź",
+            "best_answer_button": "=> flarum-best-answer.ref.best_answer",
+            "best_answer_label": "",
             "best_answer": "=> flarum-best-answer.ref.best_answer",
             "notification": {
-                "content": "Please select a best answer if your question has been answered"
+                "content": ""
             }
         },
         "ref": {
-            "best_answer": "Best Answer"
+            "best_answer": "Najlepsza odpowiedź"
         }
     }
 }
