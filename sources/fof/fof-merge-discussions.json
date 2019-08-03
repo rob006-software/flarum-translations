@@ -1,0 +1,29 @@
+{
+    "fof-merge-discussions": {
+        "forum": {
+            "modal": {
+                "title": "Merge Discussions",
+                "type_target_label": "Merge into me",
+                "type_target_help_text": "Choose discussion(s) to merge into <b>{title}</b>.",
+                "type_from_label": "Merge this discussion into another",
+                "type_from_help_text": "Choose target discussion to merge <b>{title}</b> into.",
+                "load_preview_button": "Preview",
+                "submit_button": "=> fof-merge-discussions.ref.merge"
+            },
+            "discussion": {
+                "merge": "=> fof-merge-discussions.ref.merge"
+            },
+            "post": {
+                "merged": "Merged <b>{count}</b> post from {titles}.|Merged <b>{count}</b> posts from {titles}."
+            }
+        },
+        "admin": {
+            "permissions": {
+                "merge_discussions_label": "Merge discussions"
+            }
+        },
+        "ref": {
+            "merge": "Merge"
+        }
+    }
+}
