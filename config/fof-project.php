@@ -19,4 +19,5 @@ return [
 	'fof-user-directory' => 'https://raw.githubusercontent.com/FriendsOfFlarum/user-directory/master/resources/locale/en.yml',
 	'fof-pages' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pages/master/resources/locale/en.yml',
 	'fof-pools' => 'https://raw.githubusercontent.com/FriendsOfFlarum/polls/master/resources/locale/en.yml',
+	'fof-split' => 'https://raw.githubusercontent.com/FriendsOfFlarum/split/master/locale/en.yml',
 ];

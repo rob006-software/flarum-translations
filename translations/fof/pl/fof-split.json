@@ -1,0 +1,24 @@
+{
+    "fof-split": {
+        "admin": {
+            "permissions": {
+                "split_discussion_label": "Kto może przenosić posty w dyskusji?"
+            }
+        },
+        "forum": {
+            "post": {
+                "was_split_to": "{count} post został przeniesiony do {target}.|{count} posty zostały przeniesione do {target}.|{count} postów zostało przeniesionych do {target}.",
+                "was_split_from": "{count} post został przeniesiony z {target}.|{count} posty zostały przeniesione z {target}.|{count} postów zostało przeniesionych z {target}."
+            },
+            "split": {
+                "from": "Przenieś od tego posta",
+                "to": "Przenieś do tego posta"
+            },
+            "modal": {
+                "title": "Przenoszenie postów",
+                "new_discussion_label": "Wprowadź temat nowej dyskusji",
+                "submit_button": "Przenieś"
+            }
+        }
+    }
+}
