@@ -19,4 +19,5 @@ return [
 	'migratetoflarum-canonical' => 'https://raw.githubusercontent.com/migratetoflarum/canonical/master/resources/locale/en.yml',
 	// this extension does not follow naming conventions for translation files
 	'flarum-best-answer' => 'https://raw.githubusercontent.com/wiwatsrt/flarum-ext-best-answer/master/locale/en.yml',
+	'michaelbelgium-discussion-views' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-discussion-views/master/locale/en.yml',
 ];
