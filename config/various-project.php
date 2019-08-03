@@ -24,4 +24,5 @@ return [
 	'flagrow-upload' => 'https://raw.githubusercontent.com/FriendsOfFlarum/upload/master/resources/locale/en.yml',
 	// @todo this should be moved to fof
 	'flagrow-linguist' => 'https://raw.githubusercontent.com/FriendsOfFlarum/linguist/master/resources/locale/en.yml',
+	'extiverse-bazaar' => 'https://raw.githubusercontent.com/extiverse/bazaar/master/resources/locale/en.yml',
 ];
