@@ -53,6 +53,7 @@
 
 | Extension | Status |
 | --- | --- |
+| [Best Answer by Wiwatsrt](https://github.com/wiwatsrt/flarum-ext-best-answer) | [![Translation status](https://weblate.rob006.net/widgets/flarum-extensions/-/flarum-best-answer/svg-badge.svg)](https://weblate.rob006.net/projects/flarum-extensions/flarum-best-answer/) |
 | [Canonical Url by Migratetoflarum](https://github.com/migratetoflarum/canonical) | [![Translation status](https://weblate.rob006.net/widgets/flarum-extensions/-/migratetoflarum-canonical/svg-badge.svg)](https://weblate.rob006.net/projects/flarum-extensions/migratetoflarum-canonical/) |
 
 <!-- various-extensions-list-stop -->
