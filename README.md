@@ -67,14 +67,14 @@
 <th>Friends of Flarum extensions</th>
 </tr>
 <tr>
-<td><a href="https://weblate.rob006.net/engage/flarum/"><img src="https://weblate.rob006.net/widgets/flarum/-/multi-auto.svg" alt="Translation status" data-canonical-src="https://weblate.rob006.net/widgets/flarum/-/multi-auto.svg" style="max-width:100%;"></a></td>
-<td><a href="https://weblate.rob006.net/engage/friends-of-flarum/"><img src="https://weblate.rob006.net/widgets/friends-of-flarum/-/multi-auto.svg" alt="Translation status" data-canonical-src="https://weblate.rob006.net/widgets/friends-of-flarum/-/multi-auto.svg" style="max-width:100%;"></a></td>
+<td><a href="https://weblate.rob006.net/engage/flarum/"><img src="https://weblate.rob006.net/widgets/flarum/-/multi-auto.svg" alt="Translation status" style="max-width:100%;"></a></td>
+<td><a href="https://weblate.rob006.net/engage/friends-of-flarum/"><img src="https://weblate.rob006.net/widgets/friends-of-flarum/-/multi-auto.svg" alt="Translation status" style="max-width:100%;"></a></td>
 </tr>
 <tr>
 <th colspan="2">Community extensions</th>
 </tr>
 <tr>
-<td colspan="2"><a href="https://weblate.rob006.net/engage/flarum-extensions/"><img src="https://weblate.rob006.net/widgets/flarum-extensions/-/multi-auto.svg" alt="Translation status" data-canonical-src="https://weblate.rob006.net/widgets/flarum-extensions/-/multi-auto.svg" style="max-width:100%;"></a></td>
+<td colspan="2"><a href="https://weblate.rob006.net/engage/flarum-extensions/"><img src="https://weblate.rob006.net/widgets/flarum-extensions/-/multi-auto.svg" alt="Translation status" style="max-width:100%;"></a></td>
 </tr>
 </tbody>
 </table>
