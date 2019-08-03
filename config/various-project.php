@@ -17,4 +17,6 @@ return [
 		'languages' => ['pl'], // this is only a placeholder - no need to really translate it
 	],
 	'migratetoflarum-canonical' => 'https://raw.githubusercontent.com/migratetoflarum/canonical/master/resources/locale/en.yml',
+	// this extension does not follow naming conventions for translation files
+	'flarum-best-answer' => 'https://raw.githubusercontent.com/wiwatsrt/flarum-ext-best-answer/master/locale/en.yml',
 ];
