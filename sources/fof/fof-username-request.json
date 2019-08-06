@@ -38,6 +38,8 @@
             "account_label": "Change Username",
             "profile_link": "Username History",
             "dropdown": {
+                "empty_text": "No username requests found",
+                "tooltip": "=> fof-username-request.forum.dropdown.title",
                 "title": "Username Change Requests",
                 "item_text": "{username} requested a username change",
                 "exerpt": "Requsted username: {requestedUsername}"
