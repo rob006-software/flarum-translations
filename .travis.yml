@@ -1,0 +1,17 @@
+language: php
+
+php:
+  - 7.1
+
+cache:
+  directories:
+    - builder
+    - $HOME/.composer/cache
+
+install:
+  - git clone https://github.com/rob006-software/flarum-translations-builder.git builder || git -C builder pull
+  - composer install --working-dir builder
+
+script: builder/yii translations/update '' "@app/../config.php"
+
+after_success: git -C builder diff
