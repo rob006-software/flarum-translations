@@ -21,8 +21,13 @@ return [
 	],
 	'languages' => require __DIR__ . '/config/languages.php',
 	'subsplits' => require __DIR__ . '/config/subsplits.php',
-	'extensions' => require __DIR__ . '/config/extensions.php',
 	'vendors' => [
 		'various' => require __DIR__ . '/config/various-vendors.php',
+	],
+	'supportedVersions' => [
+		'0.1.0-beta.8',
+		'0.1.0-beta-8',
+		'0.1.0-beta.9',
+		'0.1.0-beta.10',
 	],
 ];
