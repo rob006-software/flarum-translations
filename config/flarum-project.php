@@ -15,7 +15,7 @@ return [
 		'https://raw.githubusercontent.com/flarum/lang-english/master/locale/core.yml',
 		'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.8/locale/core.yml',
 	],
-	// begin extensions list
+	/* extensions list begin */
 	'flarum-akismet' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-akismet.yml',
 	'flarum-approval' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-approval.yml',
 	'flarum-auth-facebook' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-auth-facebook.yml',
@@ -34,4 +34,5 @@ return [
 	'flarum-suspend' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-suspend.yml',
 	'flarum-tags' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-tags.yml',
 	'validation' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/validation.yml',
+	/* extensions list end */
 ];

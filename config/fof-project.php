@@ -16,7 +16,7 @@ return [
 		'https://raw.githubusercontent.com/rob006-software/flarum-translations/master/placeholders/fof.yml',
 		'languages' => ['pl'], // this is only a placeholder - no need to really translate it
 	],
-	// begin extensions list
+	/* extensions list begin */
 	'fof-auth-discord' => 'https://raw.githubusercontent.com/FriendsOfFlarum/auth-discord/master/resources/locale/en.yml',
 	'fof-auth-gitlab' => 'https://raw.githubusercontent.com/FriendsOfFlarum/auth-gitlab/master/resources/locale/en.yml',
 	'fof-byobu' => 'https://raw.githubusercontent.com/FriendsOfFlarum/byobu/master/resources/locale/en.yml',
@@ -48,4 +48,5 @@ return [
 	'fof-user-bio' => 'https://raw.githubusercontent.com/FriendsOfFlarum/user-bio/master/resources/locale/en.yml',
 	'fof-user-directory' => 'https://raw.githubusercontent.com/FriendsOfFlarum/user-directory/master/resources/locale/en.yml',
 	'fof-username-request' => 'https://raw.githubusercontent.com/FriendsOfFlarum/username-request/master/resources/locale/en.yml',
+	/* extensions list end */
 ];
