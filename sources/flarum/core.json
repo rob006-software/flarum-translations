@@ -364,7 +364,9 @@
                 "button": "Controls",
                 "delete_button": "=> core.ref.delete",
                 "delete_confirmation": "Are you sure you want to delete this user? All of the user's posts will be deleted.",
-                "edit_button": "=> core.ref.edit"
+                "edit_button": "=> core.ref.edit",
+                "delete_error_message": "Deletion of user <i>{username} ({email})</i> failed",
+                "delete_success_message": "User <i>{username} ({email})</i> was deleted"
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
