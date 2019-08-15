@@ -81,10 +81,13 @@
 
 | Extension | Status |
 | --- | --- |
+| [Analytics by Flagrow](https://github.com/flagrow/analytics) | [![Translation status](https://weblate.rob006.net/widgets/flarum-extensions/-/flagrow-analytics/svg-badge.svg)](https://weblate.rob006.net/projects/flarum-extensions/flagrow-analytics/) |
 | [Bazaar by Extiverse](https://github.com/extiverse/bazaar) | [![Translation status](https://weblate.rob006.net/widgets/flarum-extensions/-/extiverse-bazaar/svg-badge.svg)](https://weblate.rob006.net/projects/flarum-extensions/extiverse-bazaar/) |
 | [Best Answer by Wiwatsrt](https://github.com/wiwatsrt/flarum-ext-best-answer) | [![Translation status](https://weblate.rob006.net/widgets/flarum-extensions/-/wiwatsrt-best-answer/svg-badge.svg)](https://weblate.rob006.net/projects/flarum-extensions/wiwatsrt-best-answer/) |
 | [Canonical Url by Migratetoflarum](https://github.com/migratetoflarum/canonical) | [![Translation status](https://weblate.rob006.net/widgets/flarum-extensions/-/migratetoflarum-canonical/svg-badge.svg)](https://weblate.rob006.net/projects/flarum-extensions/migratetoflarum-canonical/) |
 | [Discussion views by Michaelbelgium](https://github.com/MichaelBelgium/flarum-discussion-views) | [![Translation status](https://weblate.rob006.net/widgets/flarum-extensions/-/michaelbelgium-discussion-views/svg-badge.svg)](https://weblate.rob006.net/projects/flarum-extensions/michaelbelgium-discussion-views/) |
+| [Emoji Picker by Clarkwinkelmann](https://github.com/clarkwinkelmann/flarum-ext-emojionearea) | [![Translation status](https://weblate.rob006.net/widgets/flarum-extensions/-/clarkwinkelmann-emojionearea/svg-badge.svg)](https://weblate.rob006.net/projects/flarum-extensions/clarkwinkelmann-emojionearea/) |
+| [Flagrow Ads by Flagrow](https://github.com/FriendsOfFlarum/ads) | [![Translation status](https://weblate.rob006.net/widgets/flarum-extensions/-/flagrow-ads/svg-badge.svg)](https://weblate.rob006.net/projects/flarum-extensions/flagrow-ads/) |
 | [Flagrow Linguist by Flagrow](https://github.com/flagrow/linguist) | [![Translation status](https://weblate.rob006.net/widgets/flarum-extensions/-/flagrow-linguist/svg-badge.svg)](https://weblate.rob006.net/projects/flarum-extensions/flagrow-linguist/) |
 | [SEO by V17development](https://github.com/v17development/flarum-seo) | [![Translation status](https://weblate.rob006.net/widgets/flarum-extensions/-/v17development-seo/svg-badge.svg)](https://weblate.rob006.net/projects/flarum-extensions/v17development-seo/) |
 | [Upload by Flagrow](https://github.com/flagrow/upload) | [![Translation status](https://weblate.rob006.net/widgets/flarum-extensions/-/flagrow-upload/svg-badge.svg)](https://weblate.rob006.net/projects/flarum-extensions/flagrow-upload/) |
