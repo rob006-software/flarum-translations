@@ -14,4 +14,4 @@ install:
 
 script: builder/yii translations/update '' "@app/../config.php" --update=0
 
-after_success: git diff
+after_success: git add -A . && git diff HEAD
