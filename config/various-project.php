@@ -26,6 +26,7 @@ return [
 	'michaelbelgium-discussion-views' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-discussion-views/master/locale/en.yml',
 	'migratetoflarum-canonical' => 'https://raw.githubusercontent.com/migratetoflarum/canonical/master/resources/locale/en.yml',
 	'reflar-nightmode' => 'https://raw.githubusercontent.com/ReFlar/nightmode/master/resources/locale/en.yml',
+	'reflar-webhooks' => 'https://raw.githubusercontent.com/ReFlar/webhooks/master/resources/locale/en.yml',
 	'v17development-seo' => 'https://raw.githubusercontent.com/v17development/flarum-seo/master/locale/en.yml',
 	'wiwatsrt-best-answer' => 'https://raw.githubusercontent.com/wiwatsrt/flarum-ext-best-answer/master/locale/en.yml',
 	'wuethrich44-sso' => 'https://raw.githubusercontent.com/fabwu/flarum-ext-sso/master/locale/en.yml',
