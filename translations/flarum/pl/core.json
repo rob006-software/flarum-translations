@@ -364,7 +364,9 @@
                 "button": "Opcje",
                 "delete_button": "=> core.ref.delete",
                 "delete_confirmation": "Jesteś pewny, że chcesz usunąć tego użytkownika? Wszystkie jego posty także zostaną usunięte.",
-                "edit_button": "=> core.ref.edit"
+                "edit_button": "=> core.ref.edit",
+                "delete_error_message": "",
+                "delete_success_message": ""
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
@@ -411,6 +413,13 @@
                 "404_return_link": "Wróć na {forum}",
                 "500_message": "Wystąpił bład podczas próby załadowania tej strony.",
                 "503_message": "{forum} jest w trakcie modernizacji. Prosimy o cierpliwość!",
+                "csrf_token_mismatch": "",
+                "csrf_token_mismatch_return_link": "",
+                "forbidden": "",
+                "invalid_confirmation_token": "",
+                "not_found": "",
+                "not_found_return_link": "",
+                "unknown": "",
                 "419_message": "Zbyt długo byłeś nieaktywny.",
                 "419_return_link": "Cofnij się, aby spróbować ponownie"
             },
