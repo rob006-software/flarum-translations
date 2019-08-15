@@ -10,7 +10,6 @@
  */
 
 return [
-	'repository' => 'git@github.com:rob006-software/flarum-translations.git',
 	'dir' => __DIR__,
 	'sourcesDir' => __DIR__ . '/sources',
 	'translationsDir' => __DIR__ . '/translations',
