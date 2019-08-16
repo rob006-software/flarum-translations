@@ -2,28 +2,28 @@
     "flagrow-ads": {
         "admin": {
             "buttons": {
-                "save": ""
+                "save": "Zapisz ustawienia"
             },
             "positions": {
                 "under-header": {
-                    "title": "",
-                    "placeholder": ""
+                    "title": "Pozycja reklamy pod nagłówkiem nawigacyjnym",
+                    "placeholder": "Wprowadź tu kod swojej reklamy."
                 },
                 "between-posts": {
-                    "title": "",
-                    "placeholder": ""
+                    "title": "Pozycja reklamy pomiędzy postami",
+                    "placeholder": "=> flagrow-ads.admin.positions.under-header.placeholder"
                 },
                 "under-nav-items": {
-                    "title": "",
-                    "placeholder": ""
+                    "title": "Pozycja reklamy w lewej kolumnie pod tagami na stronie głównej",
+                    "placeholder": "=> flagrow-ads.admin.positions.under-header.placeholder"
                 }
             },
             "settings": {
                 "start-from-post": "",
-                "between-n-posts": ""
+                "between-n-posts": "Ustal po ilu postach wyświetlać reklamę"
             },
             "tab": {
-                "description": ""
+                "description": "Ustaw preferencje reklam i pozycje."
             }
         }
     }
