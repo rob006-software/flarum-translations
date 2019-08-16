@@ -35,6 +35,7 @@ return [
 	'fof-pages' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pages/master/resources/locale/en.yml',
 	'fof-polls' => 'https://raw.githubusercontent.com/FriendsOfFlarum/polls/master/resources/locale/en.yml',
 	'fof-prevent-necrobumping' => 'https://raw.githubusercontent.com/FriendsOfFlarum/prevent-necrobumping/master/resources/locale/en.yml',
+	'fof-profile-image-crop' => 'https://raw.githubusercontent.com/FriendsOfFlarum/profile-image-crop/master/locale/en.yml',
 	'fof-reactions' => 'https://raw.githubusercontent.com/FriendsOfFlarum/reactions/master/resources/locale/en.yml',
 	'fof-recaptcha' => 'https://raw.githubusercontent.com/FriendsOfFlarum/recaptcha/master/resources/locale/en.yml',
 	'fof-secure-https' => 'https://raw.githubusercontent.com/FriendsOfFlarum/secure-https/master/resources/locale/en.yml',
