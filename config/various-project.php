@@ -22,6 +22,7 @@ return [
 	'flagrow-ads' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ads/master/locale/en.yml',
 	'flagrow-analytics' => 'https://raw.githubusercontent.com/flagrow/analytics/master/resources/locale/en.yml',
 	'flagrow-linguist' => 'https://raw.githubusercontent.com/FriendsOfFlarum/linguist/master/resources/locale/en.yml',
+	'flagrow-terms' => 'https://raw.githubusercontent.com/flagrow/terms/master/resources/locale/en.yml',
 	'flagrow-upload' => 'https://raw.githubusercontent.com/FriendsOfFlarum/upload/master/resources/locale/en.yml',
 	'flagrow-users-list' => 'https://raw.githubusercontent.com/flagrow/users-list/master/resources/locale/en.yml',
 	'matteocontrini-imgur-upload' => 'https://raw.githubusercontent.com/matteocontrini/flarum-imgur-upload/master/locale/en.yml',
