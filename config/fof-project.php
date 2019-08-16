@@ -22,6 +22,7 @@ return [
 	'fof-byobu' => 'https://raw.githubusercontent.com/FriendsOfFlarum/byobu/master/resources/locale/en.yml',
 	'fof-custom-footer' => 'https://raw.githubusercontent.com/FriendsOfFlarum/custom-footer/master/resources/locale/en.yml',
 	'fof-default-group' => 'https://raw.githubusercontent.com/FriendsOfFlarum/default-group/master/resources/locale/en.yml',
+	'fof-default-user-preferences' => 'https://raw.githubusercontent.com/FriendsOfFlarum/default-user-preferences/master/locale/en.yml',
 	'fof-disposable-emails' => 'https://raw.githubusercontent.com/FriendsOfFlarum/disposable-emails/master/locale/en.yml',
 	'fof-follow-tags' => 'https://raw.githubusercontent.com/FriendsOfFlarum/follow-tags/master/resources/locale/en.yml',
 	'fof-formatting' => 'https://raw.githubusercontent.com/FriendsOfFlarum/formatting/master/resources/locale/en.yml',
