@@ -26,6 +26,7 @@ return [
 	'matteocontrini-imgur-upload' => 'https://raw.githubusercontent.com/matteocontrini/flarum-imgur-upload/master/locale/en.yml',
 	'michaelbelgium-discussion-views' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-discussion-views/master/locale/en.yml',
 	'migratetoflarum-canonical' => 'https://raw.githubusercontent.com/migratetoflarum/canonical/master/resources/locale/en.yml',
+	'reflar-cookie-consent' => 'https://raw.githubusercontent.com/ReFlar/cookie-consent/master/resources/locale/en.yml',
 	'reflar-doorman' => 'https://raw.githubusercontent.com/ReFlar/doorman/master/resources/locale/en.yml',
 	'reflar-level-ranks' => 'https://raw.githubusercontent.com/ReFlar/level-ranks/master/resources/locale/en.yml',
 	'reflar-nightmode' => 'https://raw.githubusercontent.com/ReFlar/nightmode/master/resources/locale/en.yml',
