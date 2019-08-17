@@ -21,6 +21,7 @@ return [
 	'flarum-auth-facebook' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-auth-facebook.yml',
 	'flarum-auth-github' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-auth-github.yml',
 	'flarum-auth-twitter' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-auth-twitter.yml',
+	'flarum-embed' => 'https://raw.githubusercontent.com/flarum/embed/master/no-translation-source.yml',
 	'flarum-emoji' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-emoji.yml',
 	'flarum-flags' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-flags.yml',
 	'flarum-likes' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-likes.yml',
