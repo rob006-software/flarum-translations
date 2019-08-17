@@ -67,6 +67,7 @@ return [
 	'squeevee-fancybox' => 'https://raw.githubusercontent.com/squeevee/flarum-ext-fancybox/master/locale/en.yml',
 	'tpokorra-post-notification' => 'https://raw.githubusercontent.com/tpokorra/flarum-ext-post-notification/master/resources/locale/en.yml',
 	'v17development-seo' => 'https://raw.githubusercontent.com/v17development/flarum-seo/master/locale/en.yml',
+	'vaalyn-brg-flarum-bbcodes' => 'https://raw.githubusercontent.com/Vaalyn/brg-flarum-bbcodes/master/no-translation-source.yml',
 	'wiwatsrt-best-answer' => 'https://raw.githubusercontent.com/wiwatsrt/flarum-ext-best-answer/master/locale/en.yml',
 	'wuethrich44-sso' => 'https://raw.githubusercontent.com/fabwu/flarum-ext-sso/master/locale/en.yml',
 	'zhishiq-pusher' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumPusher/master/locale/en.yaml',
