@@ -27,6 +27,7 @@ return [
 	'flagrow-impersonate' => 'https://raw.githubusercontent.com/flagrow/impersonate/master/resources/locale/en.yml',
 	'flagrow-linguist' => 'https://raw.githubusercontent.com/FriendsOfFlarum/linguist/master/resources/locale/en.yml',
 	'flagrow-mason' => 'https://raw.githubusercontent.com/flagrow/mason/master/resources/locale/en.yml',
+	'flagrow-passport' => 'https://raw.githubusercontent.com/flagrow/passport/master/locale/en.yml',
 	'flagrow-terms' => 'https://raw.githubusercontent.com/flagrow/terms/master/resources/locale/en.yml',
 	'flagrow-upload' => 'https://raw.githubusercontent.com/FriendsOfFlarum/upload/master/resources/locale/en.yml',
 	'flagrow-users-list' => 'https://raw.githubusercontent.com/flagrow/users-list/master/resources/locale/en.yml',
