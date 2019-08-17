@@ -1,0 +1,31 @@
+{
+    "kilowhat-mailing": {
+        "admin": {
+            "permissions": {
+                "mail_individual": "Send emails to individual users",
+                "mail_all": "Send emails to all users"
+            }
+        },
+        "forum": {
+            "links": {
+                "mail_individual": "Send an email to this user",
+                "mail_all": "Send an email to all users"
+            },
+            "modal_mail": {
+                "title_text": "Message for",
+                "title_all_text": "all users",
+                "email_label": "To",
+                "subject_label": "Subject",
+                "default_subject": "=> kilowhat-mailing.ref.default_subject",
+                "message_label": "Message",
+                "submit_button": "Send"
+            }
+        },
+        "email": {
+            "default_subject": "=> kilowhat-mailing.ref.default_subject"
+        },
+        "ref": {
+            "default_subject": "Message from forum administration"
+        }
+    }
+}
