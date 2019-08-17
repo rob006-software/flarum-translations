@@ -22,6 +22,7 @@ return [
 	'antoinefr-online' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-online/master/locale/en.yml',
 	'clarkwinkelmann-emojionearea' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-emojionearea/master/locale/en.yml',
 	'datitisev-dashboard' => 'https://raw.githubusercontent.com/datitisev/flarum-ext-dashboard/master/resources/locale/en.yml',
+	'dem13n-auth-yandex' => 'https://raw.githubusercontent.com/Dem13n/auth-yandex/master/resources/locale/en.yml',
 	'dem13n-nickname-changer' => 'https://raw.githubusercontent.com/Dem13n/nickname-changer/master/resources/locale/en.yml',
 	'extiverse-bazaar' => 'https://raw.githubusercontent.com/extiverse/bazaar/master/resources/locale/en.yml',
 	'fajuu-contactbutton' => 'https://raw.githubusercontent.com/Fajuu/ContactButton/master/locale/en.yml',
