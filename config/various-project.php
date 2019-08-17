@@ -18,6 +18,7 @@ return [
 	],
 	/* extensions list begin */
 	'amaurycarrade-syndication' => 'https://raw.githubusercontent.com/AmauryCarrade/flarum-ext-syndication/master/resources/locale/en.yml',
+	'anankke-mediaembed' => 'https://raw.githubusercontent.com/Anankke/flarum-ext-mediaembed-fix/master/no-translation-source.yml',
 	'antoinefr-money' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-money/master/locale/en.yml',
 	'antoinefr-online' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-online/master/locale/en.yml',
 	'clarkwinkelmann-catch-the-fish' => 'https://raw.githubusercontent.com/clarkwinkelmann/catch-the-fish/master/resources/locale/en.yml',
