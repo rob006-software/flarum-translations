@@ -24,6 +24,7 @@ return [
 	'clarkwinkelmann-emojionearea' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-emojionearea/master/locale/en.yml',
 	'datitisev-dashboard' => 'https://raw.githubusercontent.com/datitisev/flarum-ext-dashboard/master/resources/locale/en.yml',
 	'dem13n-auth-mailru' => 'https://raw.githubusercontent.com/Dem13n/auth-mailru/master/resources/locale/en.yml',
+	'dem13n-auth-odnoklassniki' => 'https://raw.githubusercontent.com/Dem13n/auth-odnoklassniki/master/resources/locale/en.yml',
 	'dem13n-auth-vkontakte' => 'https://raw.githubusercontent.com/Dem13n/auth-vkontakte/master/resources/locale/en.yml',
 	'dem13n-auth-yandex' => 'https://raw.githubusercontent.com/Dem13n/auth-yandex/master/resources/locale/en.yml',
 	'dem13n-nickname-changer' => 'https://raw.githubusercontent.com/Dem13n/nickname-changer/master/resources/locale/en.yml',
