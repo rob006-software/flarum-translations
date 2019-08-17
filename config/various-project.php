@@ -32,6 +32,7 @@ return [
 	'flagrow-users-list' => 'https://raw.githubusercontent.com/flagrow/users-list/master/resources/locale/en.yml',
 	'matteocontrini-imgur-upload' => 'https://raw.githubusercontent.com/matteocontrini/flarum-imgur-upload/master/locale/en.yml',
 	'michaelbelgium-discussion-views' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-discussion-views/master/locale/en.yml',
+	'michaelbelgium-mybb-to-flarum' => 'https://raw.githubusercontent.com/MichaelBelgium/mybb_to_flarum/master/locale/en.yml',
 	'migratetoflarum-canonical' => 'https://raw.githubusercontent.com/migratetoflarum/canonical/master/resources/locale/en.yml',
 	'reflar-cookie-consent' => 'https://raw.githubusercontent.com/ReFlar/cookie-consent/master/resources/locale/en.yml',
 	'reflar-doorman' => 'https://raw.githubusercontent.com/ReFlar/doorman/master/resources/locale/en.yml',
