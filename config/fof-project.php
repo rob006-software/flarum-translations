@@ -23,6 +23,7 @@ return [
 	'fof-custom-footer' => 'https://raw.githubusercontent.com/FriendsOfFlarum/custom-footer/master/resources/locale/en.yml',
 	'fof-default-group' => 'https://raw.githubusercontent.com/FriendsOfFlarum/default-group/master/resources/locale/en.yml',
 	'fof-disposable-emails' => 'https://raw.githubusercontent.com/FriendsOfFlarum/disposable-emails/master/locale/en.yml',
+	'fof-drafts' => 'https://raw.githubusercontent.com/FriendsOfFlarum/drafts/master/resources/locale/en.yml',
 	'fof-follow-tags' => 'https://raw.githubusercontent.com/FriendsOfFlarum/follow-tags/master/resources/locale/en.yml',
 	'fof-formatting' => 'https://raw.githubusercontent.com/FriendsOfFlarum/formatting/master/resources/locale/en.yml',
 	'fof-frontpage' => 'https://raw.githubusercontent.com/FriendsOfFlarum/frontpage/master/resources/locale/en.yml',
