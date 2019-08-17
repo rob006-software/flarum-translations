@@ -18,6 +18,7 @@ return [
 	],
 	/* extensions list begin */
 	'amaurycarrade-syndication' => 'https://raw.githubusercontent.com/AmauryCarrade/flarum-ext-syndication/master/resources/locale/en.yml',
+	'antoinefr-money' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-money/master/locale/en.yml',
 	'antoinefr-online' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-online/master/locale/en.yml',
 	'clarkwinkelmann-emojionearea' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-emojionearea/master/locale/en.yml',
 	'datitisev-dashboard' => 'https://raw.githubusercontent.com/datitisev/flarum-ext-dashboard/master/resources/locale/en.yml',
@@ -41,6 +42,7 @@ return [
 	'michaelbelgium-mybb-to-flarum' => 'https://raw.githubusercontent.com/MichaelBelgium/mybb_to_flarum/master/locale/en.yml',
 	'michaelbelgium-profile-views' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-profile-views/master/locale/en.yml',
 	'migratetoflarum-canonical' => 'https://raw.githubusercontent.com/migratetoflarum/canonical/master/resources/locale/en.yml',
+	'nomiscz-auth-linkedin' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-linkedin/master/resources/locale/en.yml',
 	'nomiscz-auth-steam' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-steam/master/resources/locale/en.yml',
 	'push-edx-chat' => 'https://raw.githubusercontent.com/Push-EDX/flarum-ext-chat/master/resources/locale/en.yaml',
 	'reflar-cookie-consent' => 'https://raw.githubusercontent.com/ReFlar/cookie-consent/master/resources/locale/en.yml',
@@ -52,9 +54,12 @@ return [
 	'reflar-webhooks' => 'https://raw.githubusercontent.com/ReFlar/webhooks/master/resources/locale/en.yml',
 	'saleksin-auth-google' => 'https://raw.githubusercontent.com/saleksin/flarum-auth-google/master/locale/en.yml',
 	'squeevee-fancybox' => 'https://raw.githubusercontent.com/squeevee/flarum-ext-fancybox/master/locale/en.yml',
+	'tpokorra-post-notification' => 'https://raw.githubusercontent.com/tpokorra/flarum-ext-post-notification/master/resources/locale/en.yml',
 	'v17development-seo' => 'https://raw.githubusercontent.com/v17development/flarum-seo/master/locale/en.yml',
 	'wiwatsrt-best-answer' => 'https://raw.githubusercontent.com/wiwatsrt/flarum-ext-best-answer/master/locale/en.yml',
 	'wuethrich44-sso' => 'https://raw.githubusercontent.com/fabwu/flarum-ext-sso/master/locale/en.yml',
+	'zhishiq-pusher' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumPusher/master/locale/en.yaml',
+	'zhishiq-queue' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumQueue/master/locale/en.yaml',
 	'zhishiq-redis' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumRedis/master/locale/en.yaml',
 	/* extensions list end */
 ];
