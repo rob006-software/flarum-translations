@@ -20,6 +20,7 @@ return [
 	'amaurycarrade-syndication' => 'https://raw.githubusercontent.com/AmauryCarrade/flarum-ext-syndication/master/resources/locale/en.yml',
 	'antoinefr-money' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-money/master/locale/en.yml',
 	'antoinefr-online' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-online/master/locale/en.yml',
+	'branchzero-qqcaptcha' => 'https://raw.githubusercontent.com/branchzero/flarum-ext-qqcaptcha/master/no-translation-source.yml',
 	'clarkwinkelmann-catch-the-fish' => 'https://raw.githubusercontent.com/clarkwinkelmann/catch-the-fish/master/resources/locale/en.yml',
 	'clarkwinkelmann-emojionearea' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-emojionearea/master/locale/en.yml',
 	'datitisev-dashboard' => 'https://raw.githubusercontent.com/datitisev/flarum-ext-dashboard/master/resources/locale/en.yml',
