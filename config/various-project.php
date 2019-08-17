@@ -27,6 +27,7 @@ return [
 	'dem13n-auth-vkontakte' => 'https://raw.githubusercontent.com/Dem13n/auth-vkontakte/master/resources/locale/en.yml',
 	'dem13n-auth-yandex' => 'https://raw.githubusercontent.com/Dem13n/auth-yandex/master/resources/locale/en.yml',
 	'dem13n-nickname-changer' => 'https://raw.githubusercontent.com/Dem13n/nickname-changer/master/resources/locale/en.yml',
+	'ericychu-bbcode-mentions' => 'https://raw.githubusercontent.com/EricYChu/flarum-ext-bbcode-mentions/master/no-translation-source.yml',
 	'extiverse-bazaar' => 'https://raw.githubusercontent.com/extiverse/bazaar/master/resources/locale/en.yml',
 	'fajuu-contactbutton' => 'https://raw.githubusercontent.com/Fajuu/ContactButton/master/locale/en.yml',
 	'flagrow-ads' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ads/master/locale/en.yml',
