@@ -55,6 +55,7 @@ return [
 	'nikovonlas-web-push' => 'https://raw.githubusercontent.com/NikoVonLas/flarum-ext-web-push/master/locale/en.yml',
 	'nomiscz-auth-linkedin' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-linkedin/master/resources/locale/en.yml',
 	'nomiscz-auth-steam' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-steam/master/resources/locale/en.yml',
+	'persianfla-rtl' => 'https://raw.githubusercontent.com/persianfla/rtl/master/no-translation-source.yml',
 	'push-edx-chat' => 'https://raw.githubusercontent.com/Push-EDX/flarum-ext-chat/master/resources/locale/en.yaml',
 	'reflar-cookie-consent' => 'https://raw.githubusercontent.com/ReFlar/cookie-consent/master/resources/locale/en.yml',
 	'reflar-doorman' => 'https://raw.githubusercontent.com/ReFlar/doorman/master/resources/locale/en.yml',
