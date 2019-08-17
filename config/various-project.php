@@ -40,6 +40,7 @@ return [
 	'flagrow-terms' => 'https://raw.githubusercontent.com/flagrow/terms/master/resources/locale/en.yml',
 	'flagrow-upload' => 'https://raw.githubusercontent.com/FriendsOfFlarum/upload/master/resources/locale/en.yml',
 	'flagrow-users-list' => 'https://raw.githubusercontent.com/flagrow/users-list/master/resources/locale/en.yml',
+	'flarumalshain-myextension' => 'https://raw.githubusercontent.com/flarumalshain/myextension/master/no-translation-source.yml',
 	'giga300-auth-discord' => 'https://raw.githubusercontent.com/giga300/flarum-auth-discord/master/locale/en.yml',
 	'kilowhat-mailing' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-mailing/master/resources/locale/en.yml',
 	'kvothe-keyboard-shortcuts' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-keyboard-shortcuts/master/resources/locale/en.yml',
