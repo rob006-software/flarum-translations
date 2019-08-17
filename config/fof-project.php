@@ -17,6 +17,7 @@ return [
 		'languages' => ['pl'], // this is only a placeholder - no need to really translate it
 	],
 	/* extensions list begin */
+	'fof-amazon-affiliation' => 'https://raw.githubusercontent.com/FriendsOfFlarum/amazon-affiliation/master/resources/locale/en.yml',
 	'fof-auth-discord' => 'https://raw.githubusercontent.com/FriendsOfFlarum/auth-discord/master/resources/locale/en.yml',
 	'fof-auth-gitlab' => 'https://raw.githubusercontent.com/FriendsOfFlarum/auth-gitlab/master/resources/locale/en.yml',
 	'fof-ban-ips' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ban-ips/master/resources/locale/en.yml',
