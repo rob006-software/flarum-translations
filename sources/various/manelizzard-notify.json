@@ -1,0 +1,48 @@
+{
+    "flarum-notify": {
+        "admin": {
+            "title": "Notify",
+            "description": "Manage your notifications to Slack, Hipchat and Gitter.",
+            "services": {
+                "title": "Notification services",
+                "description": "Choose which services should be notified when there is something to notify you about.",
+                "unavailable": "This connector is currently not available; if you want to use it, please follow the <a>installation instructions</a>."
+            },
+            "events": {
+                "title": "Notification events",
+                "description": "Choose which events should trigger a notification. Send notifications, when",
+                "discussion_started": "a new discussion was started",
+                "discussion_deleted": "a discussion was deleted",
+                "post_posted": "a new post was posted",
+                "post_hidden": "a post was hidden",
+                "post_deleted": "a post was deleted"
+            },
+            "slack-modal": {
+                "title": "Slack settings",
+                "description": "In order to obtain the token, visit <a>https://api.slack.com/web</a>",
+                "token": "Slack token",
+                "channel": "Channel to post to",
+                "username": "Username"
+            },
+            "hipchat-modal": {
+                "title": "HipChat settings",
+                "description": "To obtain the token, visit your the room settings over at hipchat.com (Login, click on `rooms` and select your the room you want to post to). Click on `Tokens` and create a new one. The label you provide for the token will be shown with each notification.",
+                "token": "HipChat token",
+                "room": "Room to post to (name or id)",
+                "warning": "Notify does not work with self-hosted HipChat."
+            },
+            "gitter-modal": {
+                "title": "Gitter settings",
+                "description": "In order to get your webhook url, visit the room you want to post to on <a>gitter.im</a>. Click on the <i>Settings</i> icon <i>Integrations</i> <i>Custom</i>. This will create a new webhook url for you.",
+                "webhook": "Gitter webhook"
+            },
+            "telegram-modal": {
+                "title": "Telegram settings",
+                "description": "In order to set up your bot, follow the <aBot>instructions</aBot>. Then <aChatId>obtain a chat ID</aChatId>.",
+                "apiKey": "Telegram API key",
+                "botName": "Telegram bot name",
+                "chatId": "Telegram chat ID"
+            }
+        }
+    }
+}
