@@ -1,0 +1,40 @@
+{
+    "nomiscz-auth-steam": {
+        "forum": {
+            "buttons": {
+                "login": "Log in with Steam",
+                "link": "Link Steam Account",
+                "unlink": "Unlink Steam Account"
+            },
+            "alerts": {
+                "already_linked": "Steam Account is already linked!",
+                "already_used": "Steam Account is already linked to another user!",
+                "link_success": "Steam Account link successful.",
+                "unlink_success": "Steam Account unlink successful.",
+                "error": "Something went wrong, please try again later!"
+            },
+            "modals": {
+                "link": {
+                    "title": "Link Steam Account"
+                },
+                "unlink": {
+                    "title": "Unlink Steam Account",
+                    "info": {
+                        "confirm": "Are you sure, you want unlink your Steam account?",
+                        "no_providers": "You don't have any others login providers! You'll probably have to reset your password."
+                    },
+                    "buttons": {
+                        "confirm": "Yes, unlink account",
+                        "cancel": "No!"
+                    }
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "title": "Steam Auth Settings",
+                "api_key_label": "API Key"
+            }
+        }
+    }
+}
