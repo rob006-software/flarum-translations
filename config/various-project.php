@@ -53,6 +53,7 @@ return [
 	'push-edx-chat' => 'https://raw.githubusercontent.com/Push-EDX/flarum-ext-chat/master/resources/locale/en.yaml',
 	'reflar-cookie-consent' => 'https://raw.githubusercontent.com/ReFlar/cookie-consent/master/resources/locale/en.yml',
 	'reflar-doorman' => 'https://raw.githubusercontent.com/ReFlar/doorman/master/resources/locale/en.yml',
+	'reflar-koseki' => 'https://raw.githubusercontent.com/ReFlar/koseki/master/resources/locale/en.yml',
 	'reflar-level-ranks' => 'https://raw.githubusercontent.com/ReFlar/level-ranks/master/resources/locale/en.yml',
 	'reflar-nightmode' => 'https://raw.githubusercontent.com/ReFlar/nightmode/master/resources/locale/en.yml',
 	'reflar-pwned-passwords' => 'https://raw.githubusercontent.com/ReFlar/pwned-passwords/master/locale/en.yml',
