@@ -37,6 +37,7 @@ return [
 	'reflar-doorman' => 'https://raw.githubusercontent.com/ReFlar/doorman/master/resources/locale/en.yml',
 	'reflar-level-ranks' => 'https://raw.githubusercontent.com/ReFlar/level-ranks/master/resources/locale/en.yml',
 	'reflar-nightmode' => 'https://raw.githubusercontent.com/ReFlar/nightmode/master/resources/locale/en.yml',
+	'reflar-traditional-rank-icons' => 'https://raw.githubusercontent.com/ReFlar/traditional-rank-icons/master/no-translation-source.yml',
 	'reflar-webhooks' => 'https://raw.githubusercontent.com/ReFlar/webhooks/master/resources/locale/en.yml',
 	'saleksin-auth-google' => 'https://raw.githubusercontent.com/saleksin/flarum-auth-google/master/locale/en.yml',
 	'v17development-seo' => 'https://raw.githubusercontent.com/v17development/flarum-seo/master/locale/en.yml',
