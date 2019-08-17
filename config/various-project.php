@@ -30,6 +30,7 @@ return [
 	'flagrow-terms' => 'https://raw.githubusercontent.com/flagrow/terms/master/resources/locale/en.yml',
 	'flagrow-upload' => 'https://raw.githubusercontent.com/FriendsOfFlarum/upload/master/resources/locale/en.yml',
 	'flagrow-users-list' => 'https://raw.githubusercontent.com/flagrow/users-list/master/resources/locale/en.yml',
+	'flarumchina-mediaembed-pro' => 'https://raw.githubusercontent.com/FlarumChina/flarum-ext-mediaembed-pro/master/no-translation-source.yml',
 	'kilowhat-mailing' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-mailing/master/resources/locale/en.yml',
 	'kvothe-signup-button' => 'https://raw.githubusercontent.com/oaklinq/flarum-signup-button/master/resources/locale/en.yml',
 	'matteocontrini-imgur-upload' => 'https://raw.githubusercontent.com/matteocontrini/flarum-imgur-upload/master/locale/en.yml',
