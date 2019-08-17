@@ -17,6 +17,7 @@ return [
 		'languages' => ['pl'], // this is only a placeholder - no need to really translate it
 	],
 	/* extensions list begin */
+	'ahrasis-multenex' => 'https://raw.githubusercontent.com/ahrasis/multenex/master/resources/locale/en.yml',
 	'amaurycarrade-syndication' => 'https://raw.githubusercontent.com/AmauryCarrade/flarum-ext-syndication/master/resources/locale/en.yml',
 	'antoinefr-money' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-money/master/locale/en.yml',
 	'antoinefr-online' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-online/master/locale/en.yml',
