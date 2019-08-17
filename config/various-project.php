@@ -42,6 +42,7 @@ return [
 	'michaelbelgium-mybb-to-flarum' => 'https://raw.githubusercontent.com/MichaelBelgium/mybb_to_flarum/master/locale/en.yml',
 	'michaelbelgium-profile-views' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-profile-views/master/locale/en.yml',
 	'migratetoflarum-canonical' => 'https://raw.githubusercontent.com/migratetoflarum/canonical/master/resources/locale/en.yml',
+	'nikovonlas-web-push' => 'https://raw.githubusercontent.com/NikoVonLas/flarum-ext-web-push/master/locale/en.yml',
 	'nomiscz-auth-linkedin' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-linkedin/master/resources/locale/en.yml',
 	'nomiscz-auth-steam' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-steam/master/resources/locale/en.yml',
 	'push-edx-chat' => 'https://raw.githubusercontent.com/Push-EDX/flarum-ext-chat/master/resources/locale/en.yaml',
