@@ -64,6 +64,7 @@ return [
 	'reflar-twofactor' => 'https://raw.githubusercontent.com/ReFlar/twofactor/master/resources/locale/en.yml',
 	'reflar-webhooks' => 'https://raw.githubusercontent.com/ReFlar/webhooks/master/resources/locale/en.yml',
 	'saleksin-auth-google' => 'https://raw.githubusercontent.com/saleksin/flarum-auth-google/master/locale/en.yml',
+	'skrux1-hello-world' => 'https://raw.githubusercontent.com/skrux1/flarum-hello-world/master/no-translation-source.yml',
 	'squeevee-fancybox' => 'https://raw.githubusercontent.com/squeevee/flarum-ext-fancybox/master/locale/en.yml',
 	'tpokorra-post-notification' => 'https://raw.githubusercontent.com/tpokorra/flarum-ext-post-notification/master/resources/locale/en.yml',
 	'v17development-seo' => 'https://raw.githubusercontent.com/v17development/flarum-seo/master/locale/en.yml',
