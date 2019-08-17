@@ -44,6 +44,7 @@ return [
 	'kilowhat-mailing' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-mailing/master/resources/locale/en.yml',
 	'kvothe-keyboard-shortcuts' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-keyboard-shortcuts/master/resources/locale/en.yml',
 	'kvothe-signup-button' => 'https://raw.githubusercontent.com/oaklinq/flarum-signup-button/master/resources/locale/en.yml',
+	'kvothe-userbars' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-userbars/master/no-translation-source.yml',
 	'manelizzard-notify' => 'https://raw.githubusercontent.com/manelizzard/flarum-notify/master/resources/locale/en.yml',
 	'matteocontrini-imgur-upload' => 'https://raw.githubusercontent.com/matteocontrini/flarum-imgur-upload/master/locale/en.yml',
 	'michaelbelgium-discussion-views' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-discussion-views/master/locale/en.yml',
