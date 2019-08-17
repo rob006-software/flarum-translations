@@ -51,5 +51,6 @@ return [
 	'v17development-seo' => 'https://raw.githubusercontent.com/v17development/flarum-seo/master/locale/en.yml',
 	'wiwatsrt-best-answer' => 'https://raw.githubusercontent.com/wiwatsrt/flarum-ext-best-answer/master/locale/en.yml',
 	'wuethrich44-sso' => 'https://raw.githubusercontent.com/fabwu/flarum-ext-sso/master/locale/en.yml',
+	'zaptech-cookie-consent' => 'https://raw.githubusercontent.com/PartialDev/partialdev-cookie-consent/master/resources/locale/en.yml',
 	/* extensions list end */
 ];
