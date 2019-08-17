@@ -59,5 +59,6 @@ return [
 	'wiwatsrt-best-answer' => 'https://raw.githubusercontent.com/wiwatsrt/flarum-ext-best-answer/master/locale/en.yml',
 	'wuethrich44-sso' => 'https://raw.githubusercontent.com/fabwu/flarum-ext-sso/master/locale/en.yml',
 	'zhishiq-pusher' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumPusher/master/locale/en.yaml',
+	'zhishiq-queue' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumQueue/master/locale/en.yaml',
 	/* extensions list end */
 ];
