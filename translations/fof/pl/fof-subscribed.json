@@ -2,23 +2,23 @@
     "fof-subscribed": {
         "forum": {
             "settings": {
-                "defaults_label": "",
+                "defaults_label": "Ustaw \"{setting}\" domyślnie włączone",
                 "forced_label": "",
-                "notify_discussion_created_label": "",
-                "notify_user_created_label": ""
+                "notify_discussion_created_label": "Ktoś utworzył dyskusję",
+                "notify_user_created_label": "Gdy ktoś się zarejestrował"
             },
             "notifications": {
-                "discussion_created_text": "",
-                "user_created_text": ""
+                "discussion_created_text": "{username} utworzył/a nową dyskusję",
+                "user_created_text": "{username} właśnie się zarejestrował/a"
             }
         },
         "admin": {
             "menu": {
-                "description": ""
+                "description": "Konfiguruj (domyślne) ustawienia subskrypcji"
             },
             "permission": {
-                "subscribe_to_discussion_created": "",
-                "subscribe_to_user_created": ""
+                "subscribe_to_discussion_created": "Może otrzymywać notyfikacje o nowych dyskusjach",
+                "subscribe_to_user_created": "Może otrzymywać notyfikacje o rejestracji nowego użytkownika"
             }
         }
     }
