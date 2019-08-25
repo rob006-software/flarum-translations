@@ -2,87 +2,87 @@
     "core": {
         "forum": {
             "index_sort": {
-                "hot_button": ""
+                "hot_button": "Popularne"
             }
         }
     },
     "fof-gamification": {
         "forum": {
             "votes": "",
-            "vote_title": "",
+            "vote_title": "Pokaż, kto zagłosował",
             "nav": {
-                "name": ""
+                "name": "Rankingi"
             },
             "ranking": {
-                "rank": "",
-                "name": "",
-                "amount": ""
+                "rank": "Miejsce",
+                "name": "Użytkownik",
+                "amount": "Punkty"
             },
             "notification": {
-                "upvote": "",
-                "downvote": ""
+                "upvote": "{username} oddał głos w górę na twój post",
+                "downvote": "{username} oddał głos w dół na twój post"
             },
             "user": {
-                "points": "",
-                "rank": ""
+                "points": "Punkty: {points}",
+                "rank": "{rank}"
             },
             "modal": {
-                "title": "",
-                "upvotes_label": "",
-                "downvotes_label": ""
+                "title": "Głosujący",
+                "upvotes_label": "Upvoters:",
+                "downvotes_label": "Downvoters:"
             },
-            "mod_item": ""
+            "mod_item": "Zobacz Głosujących"
         },
         "admin": {
             "permissions": {
-                "vote_label": "",
-                "see_votes_label": "",
-                "see_ranking_page": ""
+                "vote_label": "Posty w górę/dół",
+                "see_votes_label": "Zobacz posty w górę/dół",
+                "see_ranking_page": "Zobacz stronę rankingową"
             },
             "nav": {
-                "desc": ""
+                "desc": "Gamification dla twojej społeczności Flarum"
             },
             "page": {
                 "rankings": {
                     "blocked": {
-                        "placeholder": "",
-                        "title": "",
-                        "help": ""
+                        "placeholder": "CDK2020, Ralkage, AngelAvila",
+                        "title": "Zignorowani użytkownicy",
+                        "help": "Ci użytkownicy nie będą wyświetlani na stronie rankingu. Nazwy użytkowników powinny być oddzielone przecinkiem i spacją."
                     },
-                    "title": "",
-                    "enable": "",
-                    "custom_image_1": "",
-                    "custom_image_2": "",
-                    "custom_image_3": ""
+                    "title": "Rankingi",
+                    "enable": "Włącz niestandardowe zdjęcia",
+                    "custom_image_1": "Zdjęcie 1",
+                    "custom_image_2": "Zdjęcie 2",
+                    "custom_image_3": "Zdjęcie 3"
                 },
                 "votes": {
-                    "points_title": "",
-                    "points_placeholder": "",
-                    "color_holder": "",
-                    "auto_upvote": "",
+                    "points_title": "Punkty Placeholder",
+                    "points_placeholder": "Punkty: ",
+                    "color_holder": "#ffffff",
+                    "auto_upvote": "Automatycznie śledź posty po ich opublikowaniu",
                     "rate_limit": "",
                     "discussion_page": "",
-                    "title": "",
-                    "vote_color": "",
-                    "icon_name": "",
-                    "icon_help": ""
+                    "title": "Głosy",
+                    "vote_color": "Głosowany kolor",
+                    "icon_name": "Ikonka głosów w górę/dół",
+                    "icon_help": "Wprowadź dowolną ikonę Font-Awesome. Przykłady: arrow, thumbs, chevron"
                 },
-                "save_settings": "",
+                "save_settings": "Zapisz ustawienia",
                 "convert": {
-                    "button": "",
-                    "help": "",
-                    "converting": "",
-                    "converted": ""
+                    "button": "Konwertuj polubienia na głosy w górę",
+                    "help": "Convert your previous likes from flarum-ext-likes into upvotes, as well as calculate the hotness for all current discussions.",
+                    "converting": "Your likes are now being converted. Refresh your site after a few minutes to see the process finished. (Conversion time might take a while depending on your total forum likes)",
+                    "converted": "Pomyślnie skonwertowano wszystkie {number} polubień"
                 },
                 "ranks": {
-                    "title": "",
-                    "ranks": "",
-                    "number_title": "",
+                    "title": "Rangi",
+                    "ranks": "Rangi niestandardowe",
+                    "number_title": "Ile rang należy pokazywać?",
                     "help": {
-                        "color": "",
-                        "help": "",
-                        "points": "",
-                        "name": ""
+                        "color": "#ffffff",
+                        "help": "Wprowadź wymaganą liczbę Głosów w górę, nazwę rangi oraz jej kolor",
+                        "points": "Punkty",
+                        "name": "Nazwa"
                     }
                 }
             }
