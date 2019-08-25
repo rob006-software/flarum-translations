@@ -2,14 +2,14 @@
     "fof-recaptcha": {
         "admin": {
             "settings": {
-                "help_text": "",
-                "type_label": "",
-                "site_key_label": "",
-                "secret_key_label": ""
+                "help_text": "Uzyskaj dane uwierzytelniające dla Google reCAPTCHA <a>tutaj</a>.",
+                "type_label": "reCAPTCHA Type",
+                "site_key_label": "Site Key",
+                "secret_key_label": "Secret Key"
             }
         }
     },
     "validation": {
-        "recaptcha": ""
+        "recaptcha": "Walidacja reCAPTCHA nie powiodła."
     }
 }
