@@ -2,19 +2,19 @@
     "fof-drafts": {
         "admin": {
             "permissions": {
-                "start": ""
+                "start": "Tworzenie szkiców dyskusji"
             }
         },
         "forum": {
             "composer": {
-                "title": "",
-                "alert": ""
+                "title": "Zapisz szkic",
+                "alert": "Szkic został zapisany."
             },
             "dropdown": {
-                "title": "",
-                "button": "",
-                "tooltip": "",
-                "alert": ""
+                "title": "Szkice",
+                "button": "Usuń szkic",
+                "tooltip": "=> fof-drafts.forum.dropdown.title",
+                "alert": "Czy jesteś pewien, że chcesz usunąć ten szkic?"
             }
         }
     }
