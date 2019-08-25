@@ -8,8 +8,8 @@
     },
     "fof-gamification": {
         "forum": {
-            "votes": "",
-            "vote_title": "Pokaż, kto zagłosował",
+            "votes": "Głosy",
+            "vote_title": "Pokaż kto zagłosował",
             "nav": {
                 "name": "Rankingi"
             },
@@ -19,8 +19,8 @@
                 "amount": "Punkty"
             },
             "notification": {
-                "upvote": "{username} oddał głos w górę na twój post",
-                "downvote": "{username} oddał głos w dół na twój post"
+                "upvote": "{username} oddał pozytywny głos na twój post",
+                "downvote": "{username} oddał negatywny głos na twój post"
             },
             "user": {
                 "points": "Punkty: {points}",
@@ -28,16 +28,16 @@
             },
             "modal": {
                 "title": "Głosujący",
-                "upvotes_label": "Upvoters:",
-                "downvotes_label": "Downvoters:"
+                "upvotes_label": "Głosujący pozytywnie:",
+                "downvotes_label": "Głosujący negatywnie:"
             },
-            "mod_item": "Zobacz Głosujących"
+            "mod_item": "Zobacz głosujących"
         },
         "admin": {
             "permissions": {
-                "vote_label": "Posty w górę/dół",
-                "see_votes_label": "Zobacz posty w górę/dół",
-                "see_ranking_page": "Zobacz stronę rankingową"
+                "vote_label": "Oddawanie głosów na posty",
+                "see_votes_label": "Przeglądanie głosów na posty",
+                "see_ranking_page": "Przeglądanie rankingu"
             },
             "nav": {
                 "desc": "Gamification dla twojej społeczności Flarum"
@@ -50,29 +50,29 @@
                         "help": "Ci użytkownicy nie będą wyświetlani na stronie rankingu. Nazwy użytkowników powinny być oddzielone przecinkiem i spacją."
                     },
                     "title": "Rankingi",
-                    "enable": "Włącz niestandardowe zdjęcia",
-                    "custom_image_1": "Zdjęcie 1",
-                    "custom_image_2": "Zdjęcie 2",
-                    "custom_image_3": "Zdjęcie 3"
+                    "enable": "Włącz niestandardowe ikony",
+                    "custom_image_1": "Ikona pierwszego miejsca",
+                    "custom_image_2": "Ikona drugiego miejsca",
+                    "custom_image_3": "Ikona trzeciego miejsca"
                 },
                 "votes": {
-                    "points_title": "Punkty Placeholder",
+                    "points_title": "Placeholder dla punktów",
                     "points_placeholder": "Punkty: ",
                     "color_holder": "#ffffff",
-                    "auto_upvote": "Automatycznie śledź posty po ich opublikowaniu",
-                    "rate_limit": "",
-                    "discussion_page": "",
+                    "auto_upvote": "Automatycznie głosuj w górę na posty po ich opublikowaniu",
+                    "rate_limit": "Wymuś ograniczenie szybkości głosowania (10 sekund)",
+                    "discussion_page": "Wyświetl sumę głosów pierwszego posta na liście dyskusji",
                     "title": "Głosy",
-                    "vote_color": "Głosowany kolor",
+                    "vote_color": "Kolor po zagłosowaniu",
                     "icon_name": "Ikonka głosów w górę/dół",
-                    "icon_help": "Wprowadź dowolną ikonę Font-Awesome. Przykłady: arrow, thumbs, chevron"
+                    "icon_help": "Wprowadź dowolną ikonę Font-Awesome, która ma końcówkę -up lub -down. Przykłady: arrow, thumbs, chevron"
                 },
                 "save_settings": "Zapisz ustawienia",
                 "convert": {
                     "button": "Konwertuj polubienia na głosy w górę",
-                    "help": "Convert your previous likes from flarum-ext-likes into upvotes, as well as calculate the hotness for all current discussions.",
-                    "converting": "Your likes are now being converted. Refresh your site after a few minutes to see the process finished. (Conversion time might take a while depending on your total forum likes)",
-                    "converted": "Pomyślnie skonwertowano wszystkie {number} polubień"
+                    "help": "Przekonwertuj istniejące polubienia z flarum-ext-likes na głosy pozytywne oraz przelicz popularność dla wszystkich istniejących dyskusji.",
+                    "converting": "Twoje polubienia są właśnie konwertowane. Odśwież stronę po kilku minutach aby zobaczyć czy proces się zakończył. (Konwersja może potrwać chwilę w zależności od liczby lajków na twoim forum)",
+                    "converted": "Pomyślnie przekonwertowano wszystkie {number} polubień"
                 },
                 "ranks": {
                     "title": "Rangi",
@@ -80,7 +80,7 @@
                     "number_title": "Ile rang należy pokazywać?",
                     "help": {
                         "color": "#ffffff",
-                        "help": "Wprowadź wymaganą liczbę Głosów w górę, nazwę rangi oraz jej kolor",
+                        "help": "Wprowadź wymaganą liczbę głosów w górę, nazwę rangi oraz jej kolor",
                         "points": "Punkty",
                         "name": "Nazwa"
                     }
