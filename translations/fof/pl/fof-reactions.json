@@ -1,50 +1,50 @@
 {
     "fof-reactions": {
         "forum": {
-            "warning": "",
-            "notification": "",
+            "warning": "Twoja reakcja została przekonwertowana",
+            "notification": "{username} zareagował {reaction} na twój post",
             "settings": {
-                "notify_post_reacted_label": ""
+                "notify_post_reacted_label": "Ktoś zareagował na mój post"
             }
         },
         "admin": {
             "permissions": {
-                "react_posts_label": ""
+                "react_posts_label": "Reakcje na posty"
             },
             "nav": {
-                "desc": ""
+                "desc": "Dodaj niestandardowe reakcje i zmień ich ustawienia."
             },
             "page": {
                 "reactions": {
-                    "title": "",
-                    "reactions": "",
-                    "Helptext": "",
+                    "title": "Niestandardowe reakcje",
+                    "reactions": "Obecne reakcje",
+                    "Helptext": "Podaj nazwę (identyfikator) emoji lub ikony Font Awesome i wybierz typ, z którego chcesz korzystać.",
                     "help": {
-                        "identifier": ""
+                        "identifier": "Identyfikator"
                     }
                 },
                 "convert": {
-                    "help": "",
-                    "button": "",
-                    "converting": "",
-                    "converted": ""
+                    "help": "Jeśli jedynie zaktualizowałeś rozszerzenie, twoje reakcje muszą być przekonwertowane. Jeśli właśnie zainstalowałeś rozszerzenie, możesz bezpiecznie zignorować tę wiadomość.",
+                    "button": "Przekonwertuj stare reakcje",
+                    "converting": "Twoje reakcje są właśnie konwertowane. Odśwież stronę po kilku minutach aby zobaczyć czy proces się zakończył. (Konwersja może potrwać chwilę w zależności od liczby reakcji na twoim forum)",
+                    "converted": "Pomyślnie przekonwertowano wszystkie {number} polubień"
                 },
                 "settings": {
-                    "save_settings": "",
+                    "save_settings": "Zapisz ustawienia",
                     "integrations": {
-                        "legend": "",
-                        "warning": "",
+                        "legend": "Integracje",
+                        "warning": "Ta sama reakcja <strong>nie może</strong> być przekonwertowana na polubienie <strong>oraz</strong> głos pozytywny",
                         "gamification": {
-                            "legend": "",
-                            "upvoteLabel": "",
-                            "upvoteHelptext": "",
-                            "downvoteLabel": "",
-                            "downvoteHelptext": ""
+                            "legend": "Gamification",
+                            "upvoteLabel": "Konwertuj reakcje na głosy pozytywne",
+                            "upvoteHelptext": "Podaj identyfikator reakcji, którą chciałbyś automatycznie przekonwertować na głos pozytywny",
+                            "downvoteLabel": "Konwertuj reakcje na głosy negatywne",
+                            "downvoteHelptext": "Podaj identyfikator reakcji, którą chciałbyś automatycznie przekonwertować na głos negatywny"
                         },
                         "likes": {
-                            "legend": "",
-                            "Label": "",
-                            "Helptext": ""
+                            "legend": "Polubienia",
+                            "Label": "Konwertuj reakcje na polubienia",
+                            "Helptext": "Podaj identyfikator reakcji, którą chciałbyś automatycznie przekonwertować na polubienie"
                         }
                     }
                 }
