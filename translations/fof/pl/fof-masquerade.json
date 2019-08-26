@@ -2,7 +2,7 @@
     "fof-masquerade": {
         "forum": {
             "alerts": {
-                "profile-completion-required": "Uzupełnij poniżej wymagane pola profilu.\n"
+                "profile-completion-required": "Uzupełnij proszę wymagane pola profilu poniżej.\n"
             },
             "buttons": {
                 "view-profile": "Zobacz profil",
@@ -39,30 +39,30 @@
                 "add": "Dodaj pole {field}",
                 "edit": "Edytuj pole {field}",
                 "name": "Nazwa pola",
-                "name-help": "",
-                "description": "",
-                "description-help": "",
-                "required": "",
-                "on_bio": "",
-                "type": "",
-                "validation": "",
-                "validation-help": "",
-                "prefix": "",
-                "prefix-help": "",
-                "icon": "",
-                "icon-help": "",
-                "force-user-to-completion": "",
-                "disable-user-bio": "",
-                "options": "",
-                "option-new": "",
-                "option-coma-warning": ""
+                "name-help": "Publicznie widoczna (nieprzetłumaczalna) etykieta pola.\n",
+                "description": "Opis pola",
+                "description-help": "Opcjonalny opis wyjaśniający przeznaczenie tego pola.\n",
+                "required": "Oznacz pole jako obowiązkowe",
+                "on_bio": "Pokaż wartość tego pola w profilu użytkownika",
+                "type": "Typ",
+                "validation": "Walidacja",
+                "validation-help": "Sprawdź wspierane <a>reguły walidacji Laravela</a>, np. \"string|min:5\" lub \"url\".\n",
+                "prefix": "Prefiks pola",
+                "prefix-help": "Wyświetla twój przedrostek przed wartościami wprowadzonymi do tego pola przez użytkownika.\n",
+                "icon": "Ikona",
+                "icon-help": "Wyświetla ikonę przed wartościami podanymi przez użytkownika. Listę dostępnych ikon możesz znaleźć na <a>stronie Font Awesome</a>. Użyj nazw ikon w prefiksem \"fa-\", np. \"fas fa-info\".\n",
+                "force-user-to-completion": "Wymuś uzupełnienie tego pola przez użytkownika",
+                "disable-user-bio": "Wyłącz pole profilu użytkownika",
+                "options": "Opcje",
+                "option-new": "Nowa opcja",
+                "option-coma-warning": "Etykieta opcji nie może zawierać przecinka (\",\")."
             },
             "types": {
-                "advanced": "",
-                "boolean": "",
-                "email": "",
-                "select": "",
-                "url": ""
+                "advanced": "Zaawansowane",
+                "boolean": "Checkbox",
+                "email": "E-mail",
+                "select": "Lista rozwijana",
+                "url": "URL"
             }
         }
     }
