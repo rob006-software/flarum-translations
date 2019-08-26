@@ -2,43 +2,43 @@
     "fof-masquerade": {
         "forum": {
             "alerts": {
-                "profile-completion-required": ""
+                "profile-completion-required": "Uzupełnij poniżej wymagane pola profilu.\n"
             },
             "buttons": {
-                "view-profile": "",
-                "save-profile": ""
+                "view-profile": "Zobacz profil",
+                "save-profile": "Zapisz"
             },
             "fields": {
                 "select": {
-                    "none-optional": "",
-                    "none-required": ""
+                    "none-optional": "Nie wybrano żadnej opcji (niewymagane)",
+                    "none-required": "Wybierz proszę którąś z opcji (wymagane)"
                 },
                 "boolean": {
-                    "yes": "",
-                    "no": ""
+                    "yes": "Tak",
+                    "no": "Nie"
                 }
             }
         },
         "admin": {
-            "title": "",
-            "general-options": "",
+            "title": "Masquerade",
+            "general-options": "Opcje ogólne",
             "buttons": {
-                "add-field": "",
-                "edit-field": "",
-                "delete-field": ""
+                "add-field": "Utwórz pole",
+                "edit-field": "Zapisz zmiany",
+                "delete-field": "Usuń pole"
             },
             "permissions": {
-                "have-profile": "",
-                "view-profile": ""
+                "have-profile": "Posiadanie profilu masquerade",
+                "view-profile": "Przeglądanie profilu masquerade"
             },
             "menu": {
-                "description": ""
+                "description": "Konfiguruj pola profilu użytkownika.\n"
             },
             "fields": {
-                "title": "",
-                "add": "",
-                "edit": "",
-                "name": "",
+                "title": "Pola",
+                "add": "Dodaj pole {field}",
+                "edit": "Edytuj pole {field}",
+                "name": "Nazwa pola",
                 "name-help": "",
                 "description": "",
                 "description-help": "",
