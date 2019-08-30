@@ -3,7 +3,9 @@
         "admin": {
             "settings": {
                 "dsn_label": "Sentry DSN",
-                "user_feedback_label": "User Feedback"
+                "user_feedback_label": "User Feedback",
+                "javascript_label": "Report JavaScript Errors",
+                "javascript_console_label": "Capture JavaScript Console"
             }
         }
     }
