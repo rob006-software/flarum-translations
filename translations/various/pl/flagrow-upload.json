@@ -7,7 +7,7 @@
             "help_texts": {
                 "description": "Ustaw usługi i preferencje przesyłania plików.\n",
                 "disable-download-logging": "Wyłącz rejestrowanie każdego pobrania przez użytkowników twojego forum. Pozostawienie tej opcji włączonej pozwoli ci na zobaczenie ilości pobrań i innych statystyk w niedalekiej przyszłości.\n",
-                "disable-hotlink-protection": "Ochrona przed hotlinkowaniem zapobiega otwieraniu tutejszych grafik na innych stronach. Obecna metoda wymaga tokenu CSRF i identyfikatora postu.\n",
+                "disable-hotlink-protection": "Ochrona przed hotlinkowaniem zapobiega otwieraniu tutejszych plików z poziomu innych stron. Obecna metoda wymaga tokenu CSRF i identyfikatora postu.\n",
                 "download_templates": "Szablony pobierania decydują o tym jak przesłane pliki są wyświetlane na twoim forum, np. podgląd miniatury, przyciski. Obecnie dostępne:\n",
                 "mime_types": "Proszę skonfiguruj poniżej mapowanie. Każde wyrażenie regularne dla typu MIME będzie obsłużone przez odpowiedni adapter przesyłania i szablon pobierania.\n",
                 "resize": "Wybierz czy chcesz zmienić rozmiar swoich obrazów zanim zostaną przesłane. Możesz wybrać maksymalną szerokość i wysokość w pikselach. Proces zmiany rozmiaru utrzyma proporcje obrazu.\n",
@@ -16,13 +16,13 @@
             "labels": {
                 "aws-s3": {
                     "bucket": "Bucket",
-                    "key": "Klucz",
+                    "key": "Key",
                     "region": "Region",
-                    "secret": "Sekret",
+                    "secret": "Secret",
                     "title": "Ustawienia AWS S3"
                 },
                 "disable-download-logging": {
-                    "title": "Wyłącz rejestrowanie pobierania obrazów",
+                    "title": "Wyłącz rejestrowanie pobrań",
                     "toggle": "Wyłącz"
                 },
                 "disable-hotlink-protection": {
@@ -34,20 +34,20 @@
                     "title": "Ustawienia Imgura"
                 },
                 "local": {
-                    "cdn_url": "URL systemu dostarczania treści (rozpoczyna ścieżki plików)",
-                    "title": "Ustawienia przestrzeni lokalnej"
+                    "cdn_url": "URL usługi CDN (poprzedza ścieżki plików)",
+                    "title": "Ustawienia lokalnego magazynu"
                 },
                 "ovh-svfs": {
-                    "container": "Kontener",
+                    "container": "Container",
                     "password": "Hasło",
                     "region": "Region",
                     "tenantid": "Tenant ID",
                     "title": "Ustawienia magazynu OVH SVFS",
-                    "username": "Nazwa użytkownika"
+                    "username": "Username"
                 },
                 "preferences": {
                     "max_file_size": "Maksymalna wielkość pliku (w kilobajtach)",
-                    "mime_types": "Skonfiguruj typy MIME i mapowania adaptera przesyłania",
+                    "mime_types": "Skonfiguruj mapowanie typu MIME i adaptera przesyłania",
                     "title": "Preferencje ogólne"
                 },
                 "resize": {
@@ -59,21 +59,21 @@
                 "watermark": {
                     "file": "Prześlij swój znak wodny",
                     "position": "Pozycja znaku wodnego",
-                    "title": "Oznaczanie obrazów",
+                    "title": "Oznaczanie obrazów znakiem wodnym",
                     "toggle": "Oznaczaj obrazy znakami wodnymi"
                 }
             },
             "permissions": {
-                "download_label": "Pobierz pliki",
-                "upload_label": "Prześlij pliki"
+                "download_label": "Pobieranie plików",
+                "upload_label": "Przesyłanie plików"
             },
             "templates": {
                 "file": "Domyślny szablon pobierania pliku",
-                "file_description": "Wyświetla nazwę pliku i kilka informacji o nim. Przekierowuje pobieranie przez php, zezwalając na zbieranie statystyk i ochronę przed hotlinkowaniem.\n",
-                "image": "Domyślny szablon grafik",
-                "image-preview": "Szablon podglądu całej grafiki",
-                "image-preview_description": "Wyświetla całe zdjęcie w jednej linii. Brak funkcjonalności pobierania, statystyki nie są zbierane i hotlinkowanie nie będzie blokowane.\n",
-                "image_description": "Wyświetla miniaturę grafiki i przekierowuje pobieranie przez php. Pozwala na zbieranie statystyk i ochronę przed hotlinkowaniem.\n"
+                "file_description": "Wyświetla nazwę pliku i podstawowe informacje o nim. Przekierowuje pobieranie przez PHP, pozwalając na zbieranie statystyk i ochronę przed hotlinkowaniem.\n",
+                "image": "Domyślny szablon dla obrazów",
+                "image-preview": "Szablon z podglądem kompletnego obrazu",
+                "image-preview_description": "Wyświetla cały obraz in-line. Brak funkcji pobierania, statystyki nie są zbierane i hotlinkowanie nie będzie blokowane.\n",
+                "image_description": "Wyświetla miniaturę obrazu i przekierowuje pobieranie przez PHP. Pozwala na zbieranie statystyk i ochronę przed hotlinkowaniem.\n"
             },
             "upload_methods": {
                 "aws-s3": "Amazon S3",
