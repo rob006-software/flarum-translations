@@ -76,5 +76,6 @@ return [
 	'zhishiq-pusher' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumPusher/master/locale/en.yaml',
 	'zhishiq-queue' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumQueue/master/locale/en.yaml',
 	'zhishiq-redis' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumRedis/master/locale/en.yaml',
+	'ziymed-backtowebsite' => 'https://raw.githubusercontent.com/ziymed/BackToWebsite/master/locale/en.yml',
 	/* extensions list end */
 ];
