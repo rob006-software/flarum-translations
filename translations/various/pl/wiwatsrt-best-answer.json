@@ -2,24 +2,24 @@
     "flarum-best-answer": {
         "admin": {
             "permissions": {
-                "best_answer": "=> flarum-best-answer.ref.best_answer",
-                "best_answer_not_own_discussion": ""
+                "best_answer": "Wybieranie najlepszej odpowiedzi (własna dyskusja)",
+                "best_answer_not_own_discussion": "Wybieranie najlepszej odpowiedzi (cudza dyskusja)"
             },
             "settings": {
-                "title": "",
-                "allow_select_own_post": "",
-                "select_best_answer_reminder_days": ""
+                "title": "Ustawienia najlepszych odpowiedzi",
+                "allow_select_own_post": "Pozwól użytkownikom wybrać ich własny post",
+                "select_best_answer_reminder_days": "Przypomnij użytkownikowi o wybraniu najlepszej odpowiedzi po X dniach"
             }
         },
         "forum": {
             "this_best_answer": "Oznacz jako najlepszą odpowiedź",
             "remove_best_answer": "Usuń aktualną najlepszą odpowiedź",
-            "header_best_answer": "Oznaczono przez autora tematu jako najlepsza odpowiedź",
-            "best_answer_button": "=> flarum-best-answer.ref.best_answer",
-            "best_answer_label": "",
+            "header_best_answer": "Oznaczono przez autora jako najlepsza odpowiedź",
+            "best_answer_button": "Najlepsza odpowiedź",
+            "best_answer_label": "wybrana przez <a>{username}</a>",
             "best_answer": "=> flarum-best-answer.ref.best_answer",
             "notification": {
-                "content": ""
+                "content": "Wybierz najlepszą odpowiedź, jeśli twój problem został rozwiązany"
             }
         },
         "ref": {
