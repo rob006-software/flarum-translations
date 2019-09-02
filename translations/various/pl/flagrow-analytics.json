@@ -2,37 +2,37 @@
     "flagrow-analytics": {
         "admin": {
             "popup": {
-                "title": "",
+                "title": "Ustawienia Analytics",
                 "section": {
-                    "googleAnalytics": "",
-                    "piwik": ""
+                    "googleAnalytics": "Google Analytics",
+                    "piwik": "Piwik"
                 },
                 "field": {
-                    "statusGoogle": "",
-                    "googleTrackingCode": "",
-                    "statusPiwik": "",
-                    "piwikUrl": "",
-                    "piwikSiteId": "",
-                    "piwikTrackSubdomain": "",
-                    "piwikPrependDomain": "",
-                    "piwikHideAliasUrl": "",
-                    "piwikAliasUrl": "",
-                    "piwikTrackAccounts": "",
-                    "piwikAuthToken": ""
+                    "statusGoogle": "Włącz Google Analytics",
+                    "googleTrackingCode": "Identyfikator śledzenia",
+                    "statusPiwik": "Włącz Piwik",
+                    "piwikUrl": "Domena lub URL Piwik",
+                    "piwikSiteId": "ID serwisu",
+                    "piwikTrackSubdomain": "Śledź odwiedzających na wszystkich subdomenach forum",
+                    "piwikPrependDomain": "Dodaj domenę do tytułu strony gdy śledzisz",
+                    "piwikHideAliasUrl": "W raporcie \"Outlinks\", ukryj kliknięcia na znane aliasy adresów URL",
+                    "piwikAliasUrl": "URL aliasu",
+                    "piwikTrackAccounts": "Śledź konta użytkowników",
+                    "piwikAuthToken": "Token autentykacji API"
                 },
                 "placeholder": {
-                    "piwikAuthToken": ""
+                    "piwikAuthToken": "Uzupełnij ten token aby włączyć statystyki Piwik w zakładce w panelu admina.\nMożesz go znaleźć w Ustawienia > Osobiste > Token autentykacji API.\n"
                 },
                 "trackAccounts": {
-                    "none": "",
-                    "username": "",
-                    "email": ""
+                    "none": "Nie śledź",
+                    "username": "Śledź na podstawie nazwy użytkownika",
+                    "email": "Śledź na podstawie adresu e-mail"
                 }
             },
             "page": {
                 "nav": {
-                    "title": "",
-                    "description": ""
+                    "title": "Analytics",
+                    "description": "Zerknij na statystyki"
                 }
             }
         }
