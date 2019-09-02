@@ -45,29 +45,29 @@
         },
         "forum": {
             "signup": {
-                "i-accept": "",
-                "must-accept": ""
+                "i-accept": "Akceptuję <a>{policy}</a>",
+                "must-accept": "{policy} musi zostać zaakceptowana."
             },
             "accept-modal": {
-                "title": "",
-                "updated-at": "",
-                "updated-recently": "",
-                "i-accept": "",
-                "accept": "",
-                "close": ""
+                "title": "Aktualizacja warunków korzystania z forum",
+                "updated-at": "Warunki korzystania z forum zostały zaktualizowane {date}",
+                "updated-recently": "Warunki korzystania z forum zostały zaktualizowane od twojej ostatniej wizyty",
+                "i-accept": "Akceptuję nową politykę: <a>{policy}</a>",
+                "accept": "Potwierdź",
+                "close": "Możesz teraz zamknąć to okno"
             },
             "state-modal": {
-                "title": "",
-                "accepted-at": "",
-                "not-accepted": ""
+                "title": "Status akceptacji warunków korzystania dla {username}",
+                "accepted-at": "Zaakceptowano {date}",
+                "not-accepted": "Nie zaakceptowano"
             },
             "update-alert": {
-                "must-accept-message": "",
-                "can-accept-message": "",
-                "review": ""
+                "must-accept-message": "Tymczasowo ograniczyliśmy możliwości twojego konta do czasu aż zaakceptujesz nowe warunki korzystania z forum.",
+                "can-accept-message": "Niedawno zaktualizowaliśmy warunki korzystania z forum. Musisz je zaakceptować aby kontynuować korzystanie z witryny.",
+                "review": "Kliknij tutaj aby zobaczyć i zaakceptować nowe warunki korzystania z forum"
             },
             "user_controls": {
-                "state_button": ""
+                "state_button": "Status akceptacji TOS"
             }
         }
     }
