@@ -63,6 +63,7 @@ return [
 	'reflar-doorman' => 'https://raw.githubusercontent.com/ReFlar/doorman/master/resources/locale/en.yml',
 	'reflar-level-ranks' => 'https://raw.githubusercontent.com/ReFlar/level-ranks/master/resources/locale/en.yml',
 	'reflar-nightmode' => 'https://raw.githubusercontent.com/ReFlar/nightmode/master/resources/locale/en.yml',
+	'reflar-pretty-mail' => 'https://raw.githubusercontent.com/ReFlar/pretty-mail/master/resources/locale/en.yml',
 	'reflar-pwned-passwords' => 'https://raw.githubusercontent.com/ReFlar/pwned-passwords/master/locale/en.yml',
 	'reflar-twofactor' => 'https://raw.githubusercontent.com/ReFlar/twofactor/master/resources/locale/en.yml',
 	'reflar-webhooks' => 'https://raw.githubusercontent.com/ReFlar/webhooks/master/resources/locale/en.yml',
