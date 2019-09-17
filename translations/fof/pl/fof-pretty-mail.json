@@ -2,22 +2,22 @@
     "fof-pretty-mail": {
         "admin": {
             "nav": {
-                "desc": ""
+                "desc": "Dostosuj szablony e-mail HTML."
             },
             "settings": {
-                "label": "",
-                "reset": "",
-                "confirm": "",
-                "default": "",
-                "newPost": "",
+                "label": "Szablony wiadomości e-mail",
+                "reset": "Przywróć domyślne",
+                "confirm": "Czy na pewno chcesz wrócić do podstawowego szablonu wiadomości e-mail dla",
+                "default": "Domyślny szablon",
+                "newPost": "Flarum/subskrypcje Nowy e-mail",
                 "userMentioned": "",
                 "postMentioned": "",
-                "notifications": "",
-                "notificationHelp": "",
+                "notifications": "Szablony powiadomień",
+                "notificationHelp": "Zaleca się stosowanie „$forumStyle” dla tych e-maili, ponieważ mogą one zawierać BBCODE.  Te e-maile mają również „$user”, który zawiera cały model użytkownika wysyłanego pocztą e-mail.",
                 "help": ""
             },
             "css_settings": {
-                "label": "",
+                "label": "Ustawienia CSS",
                 "help": "",
                 "switch_label": ""
             }
