@@ -42,7 +42,7 @@ return [
 	'fof-reactions' => 'https://raw.githubusercontent.com/FriendsOfFlarum/reactions/master/resources/locale/en.yml',
 	'fof-recaptcha' => 'https://raw.githubusercontent.com/FriendsOfFlarum/recaptcha/master/resources/locale/en.yml',
 	'fof-secure-https' => 'https://raw.githubusercontent.com/FriendsOfFlarum/secure-https/master/resources/locale/en.yml',
-	'fof-sentry' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sentry/master/resources/locale/en.yml',
+	'fof-sentry' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sentry/master/locale/en.yml',
 	'fof-share-social' => 'https://raw.githubusercontent.com/FriendsOfFlarum/share-social/master/resources/locale/en.yml',
 	'fof-socialprofile' => 'https://raw.githubusercontent.com/FriendsOfFlarum/socialprofile/master/resources/locale/en.yml',
 	'fof-spamblock' => 'https://raw.githubusercontent.com/FriendsOfFlarum/spamblock/master/locale/en.yml',
