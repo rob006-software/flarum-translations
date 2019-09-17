@@ -3,16 +3,16 @@
         "admin": {
             "settings": {
                 "title": {
-                    "modal": "",
-                    "tags": ""
+                    "modal": "Ustawienia partnera Amazon",
+                    "tags": "Tagi partnerskie"
                 },
                 "field": {
                     "keep-existing-tag": "",
-                    "keep-existing-tag-help": "",
+                    "keep-existing-tag-help": "Domyślnie każdy istniejący tag w oryginalnym adresie URL jest zastępowany tagiem zdefiniowanym poniżej.",
                     "remove-tag-if-unhandled": "",
-                    "remove-tag-if-unhandled-help": "",
-                    "tag": "",
-                    "tag-placeholder": ""
+                    "remove-tag-if-unhandled-help": "Domyślnie linki, które nie są objęte, pozostają takie same, w tym ich znacznik, jeśli taki istnieje.",
+                    "tag": "{name} (amazon.{domain})",
+                    "tag-placeholder": "Pozostaw puste, aby nie zakrywać tych linków"
                 }
             }
         }
