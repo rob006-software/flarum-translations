@@ -2,14 +2,14 @@
     "flarum-akismet": {
         "admin": {
             "akismet_settings": {
-                "api_key_label": "",
-                "title": ""
+                "api_key_label": "API Anahtarı",
+                "title": "Akismet Ayarları"
             }
         },
         "forum": {
             "post": {
-                "akismet_flagged_text": "",
-                "not_spam_button": ""
+                "akismet_flagged_text": "Akismet istenmeyen olarak işaretledi",
+                "not_spam_button": "İstenmeyen Değil"
             }
         }
     }

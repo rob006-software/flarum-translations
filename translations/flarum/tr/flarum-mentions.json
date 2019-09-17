@@ -2,28 +2,28 @@
     "flarum-mentions": {
         "forum": {
             "composer": {
-                "mention_tooltip": "",
-                "reply_to_post_text": ""
+                "mention_tooltip": "Bir kullanıcı veya gönderiden bahsedin",
+                "reply_to_post_text": "#{number}'a yanıt"
             },
             "notifications": {
-                "others_text": "",
-                "post_mentioned_text": "",
-                "user_mentioned_text": ""
+                "others_text": "=> core.ref.some_others",
+                "post_mentioned_text": "{username} senin gönderini yanıtladı",
+                "user_mentioned_text": "{username} senden bahsetti"
             },
             "post": {
-                "mentioned_by_self_text": "",
-                "mentioned_by_text": "",
-                "others_text": "",
-                "quote_button": "",
-                "reply_link": "",
-                "you_text": ""
+                "mentioned_by_self_text": "{users} bunu yanıtladın.",
+                "mentioned_by_text": "{users} bunu yanıtladı.",
+                "others_text": "=> core.ref.some_others",
+                "quote_button": "Alıntı",
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
             },
             "settings": {
-                "notify_post_mentioned_label": "",
-                "notify_user_mentioned_label": ""
+                "notify_post_mentioned_label": "Birisi gönderimi yanıtladığında",
+                "notify_user_mentioned_label": "Birisi bir gönderide benden bahsettiğinde"
             },
             "user": {
-                "mentions_link": ""
+                "mentions_link": "Bahsetmeler"
             }
         }
     }

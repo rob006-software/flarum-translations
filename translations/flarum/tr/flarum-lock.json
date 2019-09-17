@@ -2,26 +2,26 @@
     "flarum-lock": {
         "admin": {
             "permissions": {
-                "lock_discussions_label": ""
+                "lock_discussions_label": "Tartışmayı kilitle"
             }
         },
         "forum": {
             "badge": {
-                "locked_tooltip": ""
+                "locked_tooltip": "Kilitli"
             },
             "discussion_controls": {
-                "lock_button": "",
-                "unlock_button": ""
+                "lock_button": "Kilitle",
+                "unlock_button": "Kilidi kaldır"
             },
             "notifications": {
-                "discussion_locked_text": ""
+                "discussion_locked_text": "{username} kilitledi"
             },
             "post_stream": {
-                "discussion_locked_text": "",
-                "discussion_unlocked_text": ""
+                "discussion_locked_text": "{username} tartışmayı kilitledi.",
+                "discussion_unlocked_text": "{username} tartışmanın kilidini kaldırdı."
             },
             "settings": {
-                "notify_discussion_locked_label": ""
+                "notify_discussion_locked_label": "Birisi başlattığın bir tartışmayı kilitlediğinde"
             }
         }
     }
