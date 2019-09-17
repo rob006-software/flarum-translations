@@ -47,6 +47,7 @@ return [
 	'fof-socialprofile' => 'https://raw.githubusercontent.com/FriendsOfFlarum/socialprofile/master/resources/locale/en.yml',
 	'fof-spamblock' => 'https://raw.githubusercontent.com/FriendsOfFlarum/spamblock/master/locale/en.yml',
 	'fof-split' => 'https://raw.githubusercontent.com/FriendsOfFlarum/split/master/locale/en.yml',
+	'fof-stopforumspam' => 'https://raw.githubusercontent.com/FriendsOfFlarum/stopforumspam/master/locale/en.yml',
 	'fof-subscribed' => 'https://raw.githubusercontent.com/FriendsOfFlarum/subscribed/master/resources/locale/en.yml',
 	'fof-transliterator' => 'https://raw.githubusercontent.com/FriendsOfFlarum/transliterator/master/locale/en.yml',
 	'fof-user-bio' => 'https://raw.githubusercontent.com/FriendsOfFlarum/user-bio/master/resources/locale/en.yml',
