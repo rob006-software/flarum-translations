@@ -2,23 +2,23 @@
     "fof-subscribed": {
         "forum": {
             "settings": {
-                "defaults_label": "",
-                "forced_label": "",
-                "notify_discussion_created_label": "",
-                "notify_user_created_label": ""
+                "defaults_label": "{setting} varsayılan olarak aktif et",
+                "forced_label": "{setting} herkes için etkinleştir",
+                "notify_discussion_created_label": "Birisi tartışma oluşturduğunda",
+                "notify_user_created_label": "Birisi kayıt olduğunda"
             },
             "notifications": {
-                "discussion_created_text": "",
-                "user_created_text": ""
+                "discussion_created_text": "{username}, yeni bir tartışma oluşturdu",
+                "user_created_text": "{username} şimdi kayıt oldu"
             }
         },
         "admin": {
             "menu": {
-                "description": ""
+                "description": "Varsayılan kullanıcı aboneliklerini yapılandırın"
             },
             "permission": {
-                "subscribe_to_discussion_created": "",
-                "subscribe_to_user_created": ""
+                "subscribe_to_discussion_created": "Yeni tartışma başlatıldığında bildirime izin ver",
+                "subscribe_to_user_created": "Yeni kullanıcı kayıt olduğunda bildirime izin ver"
             }
         }
     }

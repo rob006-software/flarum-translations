@@ -1,50 +1,50 @@
 {
     "fof-reactions": {
         "forum": {
-            "warning": "",
-            "notification": "",
+            "warning": "İfadeniz dönüştürüldü",
+            "notification": "{username}, gönderinize {reaction} ifadesi bıraktı",
             "settings": {
-                "notify_post_reacted_label": ""
+                "notify_post_reacted_label": "Birisi gönderime ifade bıraktığında"
             }
         },
         "admin": {
             "permissions": {
-                "react_posts_label": ""
+                "react_posts_label": "Gönderiye ifade bırakma"
             },
             "nav": {
-                "desc": ""
+                "desc": "İfade ekleyin veya düzenleyin."
             },
             "page": {
                 "reactions": {
-                    "title": "",
-                    "reactions": "",
-                    "Helptext": "",
+                    "title": "Özel İfadeler",
+                    "reactions": "Mevcut İfadeler",
+                    "Helptext": "İfadeyi veya Font Awesome için uygun kodu girin ve istediğiniz türü seçin.",
                     "help": {
-                        "identifier": ""
+                        "identifier": "İfade"
                     }
                 },
                 "convert": {
-                    "help": "",
-                    "button": "",
-                    "converting": "",
-                    "converted": ""
+                    "help": "Uzantıyı güncellediyseniz, ifadelerin dönüştürülmesi gerekmektedir. Eğer yeni yüklediyseniz bu mesajı görmezden gelebilirsiniz.",
+                    "button": "Eski ifadeleri dönüştür",
+                    "converting": "İfadeleriniz dönüştürülüyor. İşlem birkaç dakika içerisinde bittiğinde sayfayı yenileyebilirsiniz. (Toplam ifade sayısına göre işlem süresi değişiklik gösterebilir)",
+                    "converted": "{number} beğeninin tamamı başarıyla dönüştürüldü"
                 },
                 "settings": {
-                    "save_settings": "",
+                    "save_settings": "Ayarları Kaydet",
                     "integrations": {
-                        "legend": "",
-                        "warning": "",
+                        "legend": "Entegrasyonlar",
+                        "warning": "Aynı ifade beğeniye <strong>ve</strong> yukarı oya <strong>dönüştürülemez</strong>",
                         "gamification": {
-                            "legend": "",
-                            "upvoteLabel": "",
-                            "upvoteHelptext": "",
-                            "downvoteLabel": "",
-                            "downvoteHelptext": ""
+                            "legend": "Oyunlaştırmak",
+                            "upvoteLabel": "İfadeleri yukarı oya dönüştür",
+                            "upvoteHelptext": "Otomatik olarak yukarı oya dönüştürülmesini istediğiniz ifadeyi seçin",
+                            "downvoteLabel": "İfadeleri aşağı oya dönüştür",
+                            "downvoteHelptext": "Otomatik olarak aşağı oya dönüştürülmesini istediğiniz ifadeyi seçin"
                         },
                         "likes": {
-                            "legend": "",
-                            "Label": "",
-                            "Helptext": ""
+                            "legend": "Beğeniler",
+                            "Label": "İfadeleri beğenilere dönüştür",
+                            "Helptext": "Otomatik olarak beğeniye dönüştürülmesini istediğiniz ifadeyi seçin"
                         }
                     }
                 }

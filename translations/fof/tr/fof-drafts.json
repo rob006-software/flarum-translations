@@ -2,19 +2,19 @@
     "fof-drafts": {
         "admin": {
             "permissions": {
-                "start": ""
+                "start": "Tartışma için taslak oluştur"
             }
         },
         "forum": {
             "composer": {
-                "title": "",
-                "alert": ""
+                "title": "Taslağı Kaydet",
+                "alert": "Taslak kaydedildi."
             },
             "dropdown": {
-                "title": "",
-                "button": "",
-                "tooltip": "",
-                "alert": ""
+                "title": "Taslaklar",
+                "button": "Taslağı Sil",
+                "tooltip": "=> fof-drafts.forum.dropdown.title",
+                "alert": "Taslağınızı silmek istediğine emin misiniz?"
             }
         }
     }

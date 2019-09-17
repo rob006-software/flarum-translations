@@ -2,15 +2,15 @@
     "dem13n-auth-yandex": {
         "admin": {
             "yandex_settings": {
-                "title": "",
-                "app_id_label": "",
-                "app_password_label": "",
-                "app_desc": "",
-                "app_p": ""
+                "title": "Yandex Giriş Ayarları",
+                "app_id_label": "App ID",
+                "app_password_label": "App Şifresi",
+                "app_desc": "Buradan bir uygulama oluşturabilirsin <a>https://oauth.yandex.com.tr</a>",
+                "app_p": "Callback URL"
             }
         },
         "forum": {
-            "login_with_yandex_button": ""
+            "login_with_yandex_button": "Yandex ile Giriş Yap"
         }
     }
 }

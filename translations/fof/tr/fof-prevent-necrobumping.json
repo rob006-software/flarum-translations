@@ -3,21 +3,21 @@
         "forum": {
             "composer": {
                 "warning": {
-                    "title": "",
-                    "description": "",
-                    "checkbox_label": "",
-                    "error": ""
+                    "title": "Bu tartışma <b>{time}</b>'den eski.",
+                    "description": "Bu konu oldukça eskimiş ve muhtemelen daha fazla tartışılmaya uygun değil.",
+                    "checkbox_label": "Bu tartışmanın oldukça eski olduğunu ancak yine de cevap vermek istediğimi onaylıyorum.",
+                    "error": "Bu tartışma yanıtlayamayacağınız kadar eski."
                 }
             }
         },
         "admin": {
             "settings": {
-                "days_label": "",
-                "days_help": "",
-                "message_title_label": "",
-                "message_title_help": "",
-                "message_description_label": "",
-                "message_agreement_label": ""
+                "days_label": "Gün",
+                "days_help": "Bir tartışma, söz konusu tartışmadaki son gönderiden bu yana belirtilen gün sayısı geçtiğinde eski olarak işaretlenir.",
+                "message_title_label": "Özel Mesaj Başlığı",
+                "message_title_help": "<code>[time]</code> alanına örneğin \"14 gün\" yazın.",
+                "message_description_label": "Mesaj Açıklaması",
+                "message_agreement_label": "Mesaj Onay (Onay Kutusu)"
             }
         }
     }

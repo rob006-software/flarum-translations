@@ -2,37 +2,37 @@
     "flagrow-analytics": {
         "admin": {
             "popup": {
-                "title": "",
+                "title": "Analytics Ayarları",
                 "section": {
-                    "googleAnalytics": "",
-                    "piwik": ""
+                    "googleAnalytics": "Google Analytics",
+                    "piwik": "Piwik"
                 },
                 "field": {
-                    "statusGoogle": "",
-                    "googleTrackingCode": "",
-                    "statusPiwik": "",
-                    "piwikUrl": "",
-                    "piwikSiteId": "",
-                    "piwikTrackSubdomain": "",
-                    "piwikPrependDomain": "",
-                    "piwikHideAliasUrl": "",
-                    "piwikAliasUrl": "",
-                    "piwikTrackAccounts": "",
-                    "piwikAuthToken": ""
+                    "statusGoogle": "Google Analytics'i etkinleştir",
+                    "googleTrackingCode": "Takip Kodu ID",
+                    "statusPiwik": "Piwik'i etkinleştir",
+                    "piwikUrl": "Piwik alanadı veya bağlantısı",
+                    "piwikSiteId": "Site ID",
+                    "piwikTrackSubdomain": "Flarum'un tüm alt alanlarındaki ziyaretçileri takip et",
+                    "piwikPrependDomain": "Takip ederken, site alanını sayfa başlığına bağlı tutma",
+                    "piwikHideAliasUrl": "Outlinks raporunda, bilinen diğer bağlantılara yapılan tıklamaları gizle",
+                    "piwikAliasUrl": "Yabancı Bağlantı",
+                    "piwikTrackAccounts": "Tek tek kullanıcı hesaplarını gizleyin",
+                    "piwikAuthToken": "Authentication Token"
                 },
                 "placeholder": {
-                    "piwikAuthToken": ""
+                    "piwikAuthToken": "Yönetici panelinde bir Piwik istatistik sekmesini etkinleştirmek için bu simgeyi doldurun.\nAyarlar > Kişisel > API Kimlik Doğrulama Simgesi'nde bulabilirsiniz.\n"
                 },
                 "trackAccounts": {
-                    "none": "",
-                    "username": "",
-                    "email": ""
+                    "none": "Takip etme",
+                    "username": "Kullanıcı adına göre takip et",
+                    "email": "E-Posta'ya göre takip et"
                 }
             },
             "page": {
                 "nav": {
-                    "title": "",
-                    "description": ""
+                    "title": "Analytics",
+                    "description": "İstatistiklere göz at"
                 }
             }
         }

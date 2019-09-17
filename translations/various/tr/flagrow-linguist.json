@@ -2,30 +2,30 @@
     "flagrow-linguist": {
         "admin": {
             "menu": {
-                "title": "",
-                "description": ""
+                "title": "Linguist",
+                "description": "Çevirileri özelleştirin."
             },
             "buttons": {
-                "apply": "",
-                "reset": "",
-                "copy-original": "",
-                "load-more": ""
+                "apply": "Uygula",
+                "reset": "Aslına döndür",
+                "copy-original": "Asıl metin kopyala",
+                "load-more": "Daha fazla"
             },
             "locales": {
-                "all": ""
+                "all": "Tümü"
             },
             "placeholder": {
-                "not-translated": "",
-                "all-locales": "",
-                "hint": ""
+                "not-translated": "Çevirilmemiş",
+                "all-locales": "Bu alana yazılan bir metin tüm dillerde gösterilir.",
+                "hint": "Asıl değer:"
             },
             "filters": {
-                "search": "",
-                "with-own-translations": "",
-                "with-original-translations-in-locales": "",
-                "without-original-translations-in-locales": "",
-                "for-extension": "",
-                "results": ""
+                "search": "Çeviriler içerisinde ara...",
+                "with-own-translations": "Çevirilerim",
+                "with-original-translations-in-locales": "Asıl çevirilerde",
+                "without-original-translations-in-locales": "Asıl çeviriler olmadan",
+                "for-extension": "Eklentiler için",
+                "results": "{total} eşleşen çeviriden {shown} adeti gösteriliyor"
             }
         }
     }

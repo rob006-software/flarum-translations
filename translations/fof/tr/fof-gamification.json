@@ -2,87 +2,87 @@
     "core": {
         "forum": {
             "index_sort": {
-                "hot_button": ""
+                "hot_button": "Sıralama"
             }
         }
     },
     "fof-gamification": {
         "forum": {
-            "votes": "",
-            "vote_title": "",
+            "votes": "Oylar",
+            "vote_title": "Oy Verenleri Göster",
             "nav": {
-                "name": ""
+                "name": "Sıralamalar"
             },
             "ranking": {
-                "rank": "",
-                "name": "",
-                "amount": ""
+                "rank": "Sıra",
+                "name": "Kullanıcı",
+                "amount": "Puan"
             },
             "notification": {
-                "upvote": "",
-                "downvote": ""
+                "upvote": "{username} paylaşımına yukarı oy verdi",
+                "downvote": "{username} paylaşımına aşağı oy verdi"
             },
             "user": {
-                "points": "",
-                "rank": ""
+                "points": "Puan: {points}",
+                "rank": "{rank}"
             },
             "modal": {
-                "title": "",
-                "upvotes_label": "",
-                "downvotes_label": ""
+                "title": "Oy Verenler",
+                "upvotes_label": "Yukarı oyverenler:",
+                "downvotes_label": "Aşağı oy verenler:"
             },
-            "mod_item": ""
+            "mod_item": "Oy Verenleri Göster"
         },
         "admin": {
             "permissions": {
-                "vote_label": "",
-                "see_votes_label": "",
-                "see_ranking_page": ""
+                "vote_label": "Yukarı/Aşağı oylanan paylaşımlar",
+                "see_votes_label": "See post upvotes/downvotes",
+                "see_ranking_page": "Sıralama sayfasına bak"
             },
             "nav": {
-                "desc": ""
+                "desc": "Flarum topluluğunuz için oyunlaştırma"
             },
             "page": {
                 "rankings": {
                     "blocked": {
-                        "placeholder": "",
-                        "title": "",
-                        "help": ""
+                        "placeholder": "CDK2020, Ralkage, AngelAvila",
+                        "title": "Yoksayılan kullanıcılar",
+                        "help": "Bu kullanıcılar sıralama sayfasında görünmeyecek. Kullanıcı adları virgül ve sonrasında boşluk ile ayrılmalıdır."
                     },
-                    "title": "",
-                    "enable": "",
-                    "custom_image_1": "",
-                    "custom_image_2": "",
-                    "custom_image_3": ""
+                    "title": "Sıralama Sayfası",
+                    "enable": "Özel resimleri aktifleştir",
+                    "custom_image_1": "1. sıra resmi",
+                    "custom_image_2": "2. sıra resmi",
+                    "custom_image_3": "3. sıra resmi"
                 },
                 "votes": {
-                    "points_title": "",
-                    "points_placeholder": "",
-                    "color_holder": "",
-                    "auto_upvote": "",
-                    "rate_limit": "",
-                    "discussion_page": "",
-                    "title": "",
-                    "vote_color": "",
-                    "icon_name": "",
-                    "icon_help": ""
+                    "points_title": "Puanlar",
+                    "points_placeholder": "Points: ",
+                    "color_holder": "#ffffff",
+                    "auto_upvote": "Paylaşıldığında otomatik yukarı oyla",
+                    "rate_limit": "Bir oy oranı limiti uygula (10 saniye)",
+                    "discussion_page": "Orijinal gönderilerin toplam oylarını tartışma listesinde göster",
+                    "title": "Oylar",
+                    "vote_color": "Oylandığındaki renk",
+                    "icon_name": "Upvote/downvote icon",
+                    "icon_help": "İstediğiniz -up ve -down arka eki olan Font-Awesome ikonunu ekleyin. Örn: arrow, thumbs, chevron"
                 },
-                "save_settings": "",
+                "save_settings": "Ayarları Kaydet",
                 "convert": {
-                    "button": "",
-                    "help": "",
-                    "converting": "",
-                    "converted": ""
+                    "button": "Beğenileri yukarı oya çevir",
+                    "help": "flarum-ext-likes eklentisindeki beğenilerinizi yukarı oya çevirin, ve şuanki tüm konularınız için aktifliğini hesaplayın.",
+                    "converting": "Beğenileriniz dönüştürülüyor. Sonucu görmek için sayfayı birkaç dakika sonra yenileyin. (Dönüşüm forum beğenilerinize bağlı olarak zaman alabilir)",
+                    "converted": "{number} beğeni başarıyla dönüştürüldü."
                 },
                 "ranks": {
-                    "title": "",
-                    "ranks": "",
-                    "number_title": "",
+                    "title": "Rütbeler",
+                    "ranks": "Özel rütbeler",
+                    "number_title": "Kaç tane rütbe gözükmeli?",
                     "help": {
-                        "color": "",
-                        "help": "",
-                        "points": "",
-                        "name": ""
+                        "color": "#ffffff",
+                        "help": "Gerekli yukarı oyları, rütbe adını ve rütbe rengini girin",
+                        "points": "Puan",
+                        "name": "İsim"
                     }
                 }
             }

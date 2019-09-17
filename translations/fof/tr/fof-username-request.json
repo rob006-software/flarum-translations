@@ -2,47 +2,47 @@
     "fof-username-request": {
         "admin": {
             "permissions": {
-                "start": "",
-                "moderate": ""
+                "start": "Kullanıcı adı değiştirme talebi",
+                "moderate": "Kullanıcı adı değişiklik isteklerini onayla"
             }
         },
         "forum": {
             "action": {
-                "title": "",
-                "help_text": "",
-                "decision_title": "",
-                "approval_label": "",
-                "denial_label": "",
-                "submit_button": "",
-                "reason_title": "",
-                "success": "",
-                "name": ""
+                "title": "=> fof-username-request.forum.results.title",
+                "help_text": "Kullanıcı adının forum kurallarına uygun olduğundan emin olun.",
+                "decision_title": "Karar",
+                "approval_label": "Onayla",
+                "denial_label": "Reddet",
+                "submit_button": "Gönder",
+                "reason_title": "Reddedilme Nedeni",
+                "success": "Karar gönderildi.",
+                "name": "{username} adlı kullanıcı adı \"{newUsername}\" olarak değiştirildi."
             },
             "results": {
-                "title": "",
-                "approved": "",
-                "new_username": "",
-                "denied": "",
-                "reason": "",
-                "resubmit": ""
+                "title": "Kullanıcı Adı Değişikliği",
+                "approved": "Kullanıcı adı değiştirme talebiniz alındı!",
+                "new_username": "Kullanıcı adınız şu anda \"{username}\"",
+                "denied": "Kullanıcı adınız reddedildi",
+                "reason": "Gerekçe: <i>\"{reason}\"</i>",
+                "resubmit": "Hesap ayarlarınızdan yeniden kullanıcı adı değişikliği talebi oluşturabilirsiniz."
             },
             "request": {
-                "title": "",
-                "current_request": "",
-                "submit_button": "",
-                "delete_button": "",
-                "confirmation_message": "",
-                "dismiss_button": "",
-                "deleted": ""
+                "title": "Kullanıcı Adı Değişikliği Talep Et",
+                "current_request": "Kullanıcı adınızın zaten \"{username}\" olmasını istediniz. Bu isteği güncelleyebilir veya silebilirsiniz.",
+                "submit_button": "İstek Gönderin",
+                "delete_button": "İsteği Silin",
+                "confirmation_message": "İsteğiniz alındı, yakında incelenecek.",
+                "dismiss_button": "Anladım",
+                "deleted": "Kullanıcı adı talebi silindi."
             },
-            "account_label": "",
-            "profile_link": "",
+            "account_label": "Kullanıcı Adını Değiştir",
+            "profile_link": "Kullanıcı Adı Geçmişi",
             "dropdown": {
                 "empty_text": "",
                 "tooltip": "",
-                "title": "",
-                "item_text": "",
-                "exerpt": ""
+                "title": "Kullanıcı Adı Değiştirme Talebi",
+                "item_text": "{username}, kullanıcı adını değiştirmek istedi",
+                "exerpt": "İstenilen kullanıcı adı: {requestedUsername}"
             }
         }
     }

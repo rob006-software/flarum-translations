@@ -2,30 +2,30 @@
     "kilowhat-mailing": {
         "admin": {
             "permissions": {
-                "mail_individual": "",
-                "mail_all": ""
+                "mail_individual": "Tek tek kullanıcılara elektronik posta gönder",
+                "mail_all": "Tüm kullanıcılara elektronik posta gönder"
             }
         },
         "forum": {
             "links": {
-                "mail_individual": "",
-                "mail_all": ""
+                "mail_individual": "Bu kullanıcıya elektronik posta gönder",
+                "mail_all": "Tüm kullanıcılara elektronik posta gönder"
             },
             "modal_mail": {
-                "title_text": "",
-                "title_all_text": "",
-                "email_label": "",
-                "subject_label": "",
-                "default_subject": "",
-                "message_label": "",
-                "submit_button": ""
+                "title_text": "Mesaj",
+                "title_all_text": "tüm kullanıcılar",
+                "email_label": "Alıcı",
+                "subject_label": "Konu",
+                "default_subject": "=> kilowhat-mailing.ref.default_subject",
+                "message_label": "Mesaj",
+                "submit_button": "Gönder"
             }
         },
         "email": {
-            "default_subject": ""
+            "default_subject": "=> kilowhat-mailing.ref.default_subject"
         },
         "ref": {
-            "default_subject": ""
+            "default_subject": "Forum yönetiminden mesaj"
         }
     }
 }

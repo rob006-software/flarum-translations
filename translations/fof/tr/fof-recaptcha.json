@@ -2,14 +2,14 @@
     "fof-recaptcha": {
         "admin": {
             "settings": {
-                "help_text": "",
-                "type_label": "",
-                "site_key_label": "",
-                "secret_key_label": ""
+                "help_text": "Google reCAPTCHA bilgilerinizi <a>buradan</a> alın.",
+                "type_label": "reCAPTCHA Tipi",
+                "site_key_label": "Site Key",
+                "secret_key_label": "Secret Key"
             }
         }
     },
     "validation": {
-        "recaptcha": ""
+        "recaptcha": "reCAPTCHA doğrulaması başarısız."
     }
 }
