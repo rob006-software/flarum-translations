@@ -74,19 +74,19 @@
                 "title": "=> core.ref.custom_header_title"
             },
             "email": {
-                "account_heading": "",
+                "account_heading": "SMTP Hesabı",
                 "addresses_heading": "Adresler",
                 "driver_label": "Sürücü",
-                "encryption_label": "",
+                "encryption_label": "Şifreleme",
                 "from_label": "Gönderen",
                 "heading": "=> core.ref.email",
-                "host_label": "",
-                "password_label": "",
-                "port_label": "",
-                "server_heading": "",
+                "host_label": "Host",
+                "password_label": "=> core.ref.password",
+                "port_label": "Port",
+                "server_heading": "SMTP Sunucusu",
                 "submit_button": "=> core.ref.save_changes",
                 "text": "Forumunun e-posta göndermesi için sürücüyü, ayarları ve adresleri ayarla.",
-                "username_label": "",
+                "username_label": "=> core.ref.username",
                 "driver_heading": "Sürücü Seç",
                 "mail_encryption_label": "Şifreleme",
                 "mail_host_label": "Sunucu",
@@ -151,7 +151,7 @@
                 "view_last_seen_at_label": "Son görülme zamanını görüntüle",
                 "view_post_ips_label": "Gönderilerde IP adresini görüntüle",
                 "view_user_list_label": "Kullanıcı listesini görüntüle",
-                "edit_users_label": ""
+                "edit_users_label": "Kullanıcıları düzenle"
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Sonsuza kadar",
@@ -292,7 +292,7 @@
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "title": "=> core.ref.notifications",
                 "tooltip": "=> core.ref.notifications",
-                "mark_as_read_tooltip": ""
+                "mark_as_read_tooltip": "Okundu Olarak İşaretle"
             },
             "post": {
                 "edited_text": "Düzenlendi",
@@ -367,8 +367,8 @@
                 "delete_button": "=> core.ref.delete",
                 "delete_confirmation": "Bu kullanıcıyı silmek istediğinize emin misiniz? Kullanıcının tüm gönderileri silinecek.",
                 "edit_button": "=> core.ref.edit",
-                "delete_error_message": "",
-                "delete_success_message": ""
+                "delete_error_message": "<i>{username} ({email})</i> adlı kullanıcının silinmesi başarısız oldu",
+                "delete_success_message": "'<i>{username} ({email}) silindi'"
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
@@ -417,12 +417,12 @@
                 "503_message": "{forum} bakım altında. Sabrın için teşekkürler!",
                 "419_message": "Çok uzun zamandır aktif değilsin.",
                 "419_return_link": "Geri dön ve tekrar dene",
-                "csrf_token_mismatch": "",
-                "csrf_token_mismatch_return_link": "",
-                "invalid_confirmation_token": "",
-                "not_authenticated": "",
-                "not_found": "",
-                "not_found_return_link": "",
+                "csrf_token_mismatch": "Çok uzun süre işlem yapmadın.",
+                "csrf_token_mismatch_return_link": "Geri dön, tekrar dene",
+                "invalid_confirmation_token": "Bu onaylama bağlantısı zaten kullanılmış veya geçersiz.",
+                "not_authenticated": "Bu sayfaya erişim izniniz bulunmuyor. Giriş yaptıktan sonra tekrar deneyin.",
+                "not_found": "Aradığınız sayfa bulunamadı.",
+                "not_found_return_link": "{forum} forumuna geri dön",
                 "permission_denied": "",
                 "unknown": ""
             },
