@@ -1,0 +1,25 @@
+{
+    "flarum-approval": {
+        "admin": {
+            "permissions": {
+                "approve_posts_label": "",
+                "reply_without_approval_label": "",
+                "start_discussions_without_approval_label": ""
+            }
+        },
+        "forum": {
+            "badge": {
+                "awaiting_approval_tooltip": ""
+            },
+            "post": {
+                "awaiting_approval_text": ""
+            },
+            "post_controls": {
+                "approve_button": ""
+            }
+        },
+        "ref": {
+            "awaiting_approval": ""
+        }
+    }
+}

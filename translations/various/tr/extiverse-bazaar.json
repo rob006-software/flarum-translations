@@ -1,0 +1,139 @@
+{
+    "bazaar": {
+        "admin": {
+            "loader": {
+                "is_loading": "",
+                "error": "",
+                "refresh": "",
+                "close": "",
+                "report_issue": ""
+            },
+            "nav": {
+                "title": "",
+                "description": ""
+            },
+            "header": {
+                "extensions": "",
+                "tasks": ""
+            },
+            "modal": {
+                "dashboard": {
+                    "title": "",
+                    "visit-remote-dashboard": "",
+                    "sync": {
+                        "switch": "",
+                        "description": ""
+                    }
+                },
+                "settings": {
+                    "title": "",
+                    "field": {
+                        "token": {
+                            "label": "",
+                            "description": ""
+                        },
+                        "use_cron_for_tasks": {
+                            "label": "",
+                            "description": "",
+                            "toggle": ""
+                        }
+                    }
+                },
+                "connect-bazaar": {
+                    "title": "",
+                    "description": ""
+                },
+                "requirements": {
+                    "file-permissions": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "php-memory_limit": {
+                        "title": "",
+                        "description": ""
+                    }
+                }
+            },
+            "page": {
+                "state": {
+                    "no_results_available": "",
+                    "not_authorized": ""
+                },
+                "button": {
+                    "more": "",
+                    "install": "",
+                    "uninstall": "",
+                    "enable": "",
+                    "disable": "",
+                    "update": "",
+                    "connect": "",
+                    "favorite_button": "",
+                    "remove_favorite_button": "",
+                    "subscribe": "",
+                    "unsubscribe": "",
+                    "connect_to_subscribe": ""
+                },
+                "extension": {
+                    "installed": "",
+                    "enabled": "",
+                    "vendor": "",
+                    "downloads": "",
+                    "installed_version": "",
+                    "highest_version": "",
+                    "favorites": "",
+                    "favorited": "",
+                    "pending": "",
+                    "outdated": "",
+                    "premium": "",
+                    "subscribed": "",
+                    "subscribe_check_failed": "",
+                    "incompatible": "",
+                    "next_incompatible": "",
+                    "latest_incompatible": ""
+                },
+                "task": {
+                    "header": {
+                        "status": "",
+                        "command": "",
+                        "output": "",
+                        "time": "",
+                        "details": ""
+                    },
+                    "attribute": {
+                        "created_at": "",
+                        "started_at": "",
+                        "finished_at": ""
+                    },
+                    "status": {
+                        "success": "",
+                        "exception": "",
+                        "working": "",
+                        "unknown": ""
+                    },
+                    "command": {
+                        "sync-lock": "",
+                        "sync-version": "",
+                        "install": "",
+                        "update": "",
+                        "uninstall": ""
+                    },
+                    "group": {
+                        "today": "",
+                        "lastmonth": "",
+                        "older": ""
+                    }
+                }
+            },
+            "search": {
+                "placeholder": "",
+                "filter_installed": "",
+                "filter_update": "",
+                "filter_favorited": "",
+                "filter_subscribed": "",
+                "filter_premium": "",
+                "filter_pending": "",
+                "filter_languages": ""
+            }
+        }
+    }
+}

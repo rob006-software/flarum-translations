@@ -1,0 +1,96 @@
+{
+    "flagrow-upload": {
+        "admin": {
+            "buttons": {
+                "save": ""
+            },
+            "help_texts": {
+                "description": "",
+                "disable-download-logging": "",
+                "disable-hotlink-protection": "",
+                "download_templates": "",
+                "mime_types": "",
+                "resize": "",
+                "watermark": ""
+            },
+            "labels": {
+                "aws-s3": {
+                    "bucket": "",
+                    "key": "",
+                    "region": "",
+                    "secret": "",
+                    "title": ""
+                },
+                "disable-download-logging": {
+                    "title": "",
+                    "toggle": ""
+                },
+                "disable-hotlink-protection": {
+                    "title": "",
+                    "toggle": ""
+                },
+                "imgur": {
+                    "client_id": "",
+                    "title": ""
+                },
+                "local": {
+                    "cdn_url": "",
+                    "title": ""
+                },
+                "ovh-svfs": {
+                    "container": "",
+                    "password": "",
+                    "region": "",
+                    "tenantid": "",
+                    "title": "",
+                    "username": ""
+                },
+                "preferences": {
+                    "max_file_size": "",
+                    "mime_types": "",
+                    "title": ""
+                },
+                "resize": {
+                    "max_height": "",
+                    "max_width": "",
+                    "title": "",
+                    "toggle": ""
+                },
+                "watermark": {
+                    "file": "",
+                    "position": "",
+                    "title": "",
+                    "toggle": ""
+                }
+            },
+            "permissions": {
+                "download_label": "",
+                "upload_label": ""
+            },
+            "templates": {
+                "file": "",
+                "file_description": "",
+                "image": "",
+                "image-preview": "",
+                "image-preview_description": "",
+                "image_description": ""
+            },
+            "upload_methods": {
+                "aws-s3": "",
+                "imgur": "",
+                "local": "",
+                "ovh-svfs": ""
+            }
+        },
+        "forum": {
+            "buttons": {
+                "attach": ""
+            },
+            "states": {
+                "error": "",
+                "loading": "",
+                "success": ""
+            }
+        }
+    }
+}
