@@ -3,21 +3,21 @@
         "forum": {
             "composer": {
                 "warning": {
-                    "title": "",
-                    "description": "",
-                    "checkbox_label": "",
-                    "error": ""
+                    "title": "Ta dyskusja jest starsza niż <b>{time}</b>.",
+                    "description": "Jest bardzo prawdopodobne, że nie jest potrzebna dalsza dyskusja na ten temat i podbijanie go jest bezcelowe.",
+                    "checkbox_label": "Jestem świadomy, że ta dyskusja jest dość stara, ale chcę w niej odpowiedzieć pomimo to.",
+                    "error": "Ta dyskusja jest zbyt stara, aby w niej odpowiedzieć."
                 }
             }
         },
         "admin": {
             "settings": {
-                "days_label": "",
-                "days_help": "",
-                "message_title_label": "",
-                "message_title_help": "",
-                "message_description_label": "",
-                "message_agreement_label": ""
+                "days_label": "Dni",
+                "days_help": "Dyskusja zostanie oznaczona jako stara, jeśli podana liczba dni minie od czasu opublikowania ostatniej odpowiedzi w tej dyskusji.",
+                "message_title_label": "Niestandardowy tytuł wiadomości",
+                "message_title_help": "Użyj <code>[time]</code> dla podania czasu tekstowo, np. \"14 dni\".",
+                "message_description_label": "Niestandardowa treść wiadomości",
+                "message_agreement_label": "Niestandardowa treść potwierdzenia (checkbox)"
             }
         }
     }

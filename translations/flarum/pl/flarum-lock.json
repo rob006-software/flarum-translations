@@ -2,7 +2,7 @@
     "flarum-lock": {
         "admin": {
             "permissions": {
-                "lock_discussions_label": "Kto może zamykać dyskusje?"
+                "lock_discussions_label": "Zamykanie dyskusji"
             }
         },
         "forum": {
@@ -21,7 +21,7 @@
                 "discussion_unlocked_text": "{username} otworzył dyskusję."
             },
             "settings": {
-                "notify_discussion_locked_label": "Gdy ktoś zamknie dyskysję, którą rozpocząłem"
+                "notify_discussion_locked_label": "Ktoś zamknie dyskusję, którą rozpocząłem"
             }
         }
     }

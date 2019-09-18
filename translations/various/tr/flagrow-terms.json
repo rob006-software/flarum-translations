@@ -1,0 +1,74 @@
+{
+    "flagrow-terms": {
+        "admin": {
+            "settings": {
+                "title": "Şart Ayarları",
+                "field": {
+                    "signup-legal-text": "Kayıt formu için ek metin",
+                    "hide-updated-at": "Güncelleme yapıldığında şartların güncellenme tarihini gösterme",
+                    "date-format": "Tarih formatı",
+                    "date-format-help": "Herhangi bir <a>Moment.js</a> formatını kullabilirsiniz. Varsayılan için boş bırakın."
+                }
+            },
+            "titles": {
+                "policies": "Şartlar"
+            },
+            "buttons": {
+                "new-policy": "Yeni Şart",
+                "edit-policy": "Şartı Düzenle",
+                "add-policy": "Şart Ekle",
+                "save-policy": "Şartı Kaydet",
+                "delete-policy": "Şartı Sil",
+                "set-to-now": "Ayarla"
+            },
+            "messages": {
+                "delete-policy-confirmation": "Bu {name} şartını ve bağlantılı bütün kabul etme tarihlerini kalıcı olarak silecek. Yasal nedenleriniz varsa lütfen bu tarihlerin bir yedeği olduğuna emin olunuz. Bu şartı silmek istediğinizden emin misiniz?\n"
+            },
+            "policies": {
+                "name": "İsim",
+                "name-help": "Bu isim güncelleme penceresinin başlığı olarak onay kutusu ile birlikte gözükecek.",
+                "url": "Bağlantı",
+                "url-help": "Şartları okuyabileceğiniz sayfaya giden bir bağlantı. Tıklandığında yeni bir sayfada açılacak.",
+                "update-message": "Mesajı Güncelle",
+                "update-message-help": "Son şartları kabul etmemiş kullanıcılara gösterilecek mesaj.",
+                "terms-updated-at": "Güncelleme:",
+                "terms-updated-at-placeholder": "YYYY-AA-GG (ss:dd:ss)",
+                "terms-updated-at-help": "Son şart güncellemesinin tarihi. Bu değeri ayarlamak önceki şartları kabul etmiş kullanıcıların şartıları tekrar kabul etmesini gerektirecektir. Geçmişte olmak zorunda (yoksa kullanıcılar şartları asla kabul edemez ve pencereyi kapatamayacaklardır).\n",
+                "export-url": "Bağlantıyı dışa aktar",
+                "export-url-help": "\"Bütün şart verilerini dışa aktar\" iznine sahip olan bütün kullanıcılar şartları kabul etmiş kullanıcıların listesini indirme bağlantılarına ulaşabilir. <a>extension wiki</a> bağlantısında daha fazla detay bulabilirsiniz.\n"
+            },
+            "permissions": {
+                "see-user-policies-state": "Kullanıcı şartları durumunu görebilir",
+                "postpone-policies-accept": "Yeni şartları kabul etmeyi erteleyebilir",
+                "export-policies": "Tüm kullanıcı ve şartlar verilerini dışarı aktarabilir"
+            }
+        },
+        "forum": {
+            "signup": {
+                "i-accept": "<a>{policy}</a> kabul ediyorum",
+                "must-accept": "{policy} mutlaka kabul edilmelidir."
+            },
+            "accept-modal": {
+                "title": "Şartlar Güncellemesi",
+                "updated-at": "Şartlar {date} tarihinde güncellendi",
+                "updated-recently": "Şartlar son girişinizden beri güncellendi",
+                "i-accept": "<a>{policy}</a> şartını kabul ediyorum",
+                "accept": "Onayla",
+                "close": "Artık bu pencereyi kapatabilirsiniz"
+            },
+            "state-modal": {
+                "title": "{username} için şartları kabul etme durumu",
+                "accepted-at": "{date} tarihinde kabul edildi",
+                "not-accepted": "Kabul edilmedi"
+            },
+            "update-alert": {
+                "must-accept-message": "Yeni şartlara göz atana kadar hesabınıza erişimi kısıtladık.",
+                "can-accept-message": "Yakın zamanda şartları güncelledik. Siteyi kullanmaya devam etmek için şartları kabul etmelisiniz.",
+                "review": "Yeni şartları incelemek ve kabul etmek için buraya tıklayın"
+            },
+            "user_controls": {
+                "state_button": "Şartları kabul etme durumu"
+            }
+        }
+    }
+}

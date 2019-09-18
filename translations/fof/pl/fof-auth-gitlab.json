@@ -2,14 +2,14 @@
     "fof-auth-gitlab": {
         "admin": {
             "gitlab_settings": {
-                "client_id_label": "",
-                "client_secret_label": "",
-                "title": ""
+                "client_id_label": "Application ID",
+                "client_secret_label": "Secret",
+                "title": "FriendsOfFlarum GitLab Login"
             }
         },
         "forum": {
             "log_in": {
-                "with_gitlab_button": ""
+                "with_gitlab_button": "Zaloguj się przy użyciu GitLaba"
             }
         }
     }

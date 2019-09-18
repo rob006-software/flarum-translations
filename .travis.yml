@@ -6,7 +6,6 @@ php:
 cache:
   directories:
     - builder
-    - $HOME/.composer/cache
 
 install:
   - git clone https://github.com/rob006-software/flarum-translations-builder.git builder || git -C builder pull

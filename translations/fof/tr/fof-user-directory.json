@@ -1,0 +1,35 @@
+{
+    "fof-user-directory": {
+        "forum": {
+            "search": {
+                "users_heading": "Tüm kullanıcılarda ara \"{query}\""
+            },
+            "page": {
+                "nav": "Kullanıcı Listesi",
+                "sort": {
+                    "relevance": "İlgi",
+                    "default": "Varsayılan",
+                    "username_az": "Kullanıcı adı (a-z)",
+                    "username_za": "Kullanıcı adı (z-a)",
+                    "newest": "Yeniye göre",
+                    "oldest": "Eskiye göre",
+                    "seen_recent": "Son aktif olanlar",
+                    "seen_oldest": "Uzun süredir girmeyenler",
+                    "most_posts": "En fazla mesajı olana göre",
+                    "least_posts": "En az mesajı olana göre",
+                    "most_discussions": "En fazla tartışma başlantana göre",
+                    "least_discussions": "En az tartışma başlatana göre"
+                }
+            }
+        },
+        "admin": {
+            "permissions": {
+                "view_user_directory": "Kullanıcı listesini görüntüle"
+            },
+            "settings": {
+                "title": "Kullanıcı Listesi Ayarları",
+                "link": "Kullanıcı listesinin görülebilmesi için anasayfaya bağlantı ekle."
+            }
+        }
+    }
+}

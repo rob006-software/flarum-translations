@@ -4,11 +4,11 @@
             "edit_page": {
                 "content_label": "=> fof-pages.ref.content",
                 "content_placeholder": "=> fof-pages.ref.content",
-                "delete_page_button": "Usuń Stronę",
-                "delete_page_confirmation": "Czy na pewno chcesz usunąć stronę?",
-                "hidden_label": "Zapisz Szkic",
-                "html_label": "Włącz Html",
-                "set_as_home_page_confirmation": "",
+                "delete_page_button": "Usuń stronę",
+                "delete_page_confirmation": "Czy jesteś pewien, że chcesz usunąć tę stronę?",
+                "hidden_label": "Zapisz jako szkic",
+                "html_label": "Włącz HTML",
+                "set_as_home_page_confirmation": "Czy jesteś pewien, że chcesz ustawić tę stronę jako stronę główną forum?",
                 "slug_label": "=> fof-pages.ref.slug",
                 "slug_placeholder": "=> fof-pages.ref.slug",
                 "submit_button": "=> core.ref.save_changes",
@@ -20,24 +20,24 @@
             },
             "nav": {
                 "pages_button": "=> fof-pages.ref.pages",
-                "pages_text": "Stwórz statyczną strone."
+                "pages_text": "Stwórz statyczną stronę."
             },
             "pages": {
-                "about_text": "Stwórz i zarządzaj statyczną stroną.",
+                "about_text": "Twórz i zarządzaj statycznymi stronami.",
                 "create_button": "=> fof-pages.ref.create_page"
             },
             "pages_list": {
-                "empty_text": "Wygląda na to, że nie ma tu żadnych stron.",
+                "empty_text": "Wygląda na to, że nie ma tutaj żadnych stron.",
                 "title": "=> fof-pages.ref.title"
             }
         },
         "ref": {
-            "content": "Zawartość",
+            "content": "Treść",
             "create_page": "Stwórz stronę",
             "pages": "Strony",
             "slug": "Slug",
             "title": "Tytuł",
-            "url": "Url"
+            "url": "URL"
         }
     }
 }

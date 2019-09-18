@@ -2,24 +2,24 @@
     "amaurycarrade-syndication": {
         "forum": {
             "autodiscovery": {
-                "forum_activity": "",
-                "forum_new_discussions": "",
-                "tag_activity": "",
-                "tag_new_discussions": "",
-                "discussion_last_posts": ""
+                "forum_activity": "Aktywność na forum",
+                "forum_new_discussions": "Nowe dyskusje na forum",
+                "tag_activity": "Aktywność dla tagu {tag}",
+                "tag_new_discussions": "Dyskusje w tagu {tag}",
+                "discussion_last_posts": "Ta dyskusja"
             },
             "feeds": {
                 "titles": {
-                    "main_title": "",
-                    "main_subtitle": "",
-                    "main_d_title": "",
-                    "main_d_subtitle": "",
-                    "tag_title": "",
-                    "tag_subtitle": "",
-                    "tag_d_title": "",
-                    "tag_d_subtitle": "",
-                    "discussion_title": "",
-                    "discussion_subtitle": ""
+                    "main_title": "{forum_name}",
+                    "main_subtitle": "Ostatnie posty na forum",
+                    "main_d_title": "Nowe dyskusje na {forum_name}",
+                    "main_d_subtitle": "Najnowsze dyskusje na forum",
+                    "tag_title": "Aktywność w tagu {tag}",
+                    "tag_subtitle": "Ostatnie posty w tagu {tag}",
+                    "tag_d_title": "Nowe dyskusje w tagu {tag}",
+                    "tag_d_subtitle": "Najnowsze dyskusje w tagu {tag}",
+                    "discussion_title": "{discussion_name}",
+                    "discussion_subtitle": "Najnowsze posty w tej dyskusji"
                 }
             }
         }

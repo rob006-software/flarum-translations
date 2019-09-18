@@ -1,0 +1,25 @@
+{
+    "flarum-approval": {
+        "admin": {
+            "permissions": {
+                "approve_posts_label": "Gönderileri onayla",
+                "reply_without_approval_label": "Onay olmadan tartışmaları yanıtlayın",
+                "start_discussions_without_approval_label": "Onay olmadan tartışma başlat"
+            }
+        },
+        "forum": {
+            "badge": {
+                "awaiting_approval_tooltip": "=> flarum-approval.ref.awaiting_approval"
+            },
+            "post": {
+                "awaiting_approval_text": "=> flarum-approval.ref.awaiting_approval"
+            },
+            "post_controls": {
+                "approve_button": "Onayla"
+            }
+        },
+        "ref": {
+            "awaiting_approval": "Onay Bekliyor"
+        }
+    }
+}

@@ -2,33 +2,33 @@
     "fof-user-directory": {
         "forum": {
             "search": {
-                "users_heading": ""
+                "users_heading": "Przeszukaj wszystkich użytkowników dla \"{query}\""
             },
             "page": {
-                "nav": "",
+                "nav": "Katalog użytkowników",
                 "sort": {
-                    "relevance": "",
-                    "default": "",
-                    "username_az": "",
-                    "username_za": "",
-                    "newest": "",
-                    "oldest": "",
-                    "seen_recent": "",
-                    "seen_oldest": "",
-                    "most_posts": "",
-                    "least_posts": "",
-                    "most_discussions": "",
-                    "least_discussions": ""
+                    "relevance": "Najtrafniejsze wyniki",
+                    "default": "Domyślne",
+                    "username_az": "Nazwa użytkownika (a-z)",
+                    "username_za": "Nazwa użytkownika (z-a)",
+                    "newest": "Najnowsi użytkownicy",
+                    "oldest": "Najstarsi użytkownicy",
+                    "seen_recent": "Ostatnio online",
+                    "seen_oldest": "Najdłużej offline",
+                    "most_posts": "Najwięcej postów",
+                    "least_posts": "Najmniej postów",
+                    "most_discussions": "Najwięcej dyskusji",
+                    "least_discussions": "Najmniej dyskusji"
                 }
             }
         },
         "admin": {
             "permissions": {
-                "view_user_directory": ""
+                "view_user_directory": "Przeglądanie katalogu użytkowników"
             },
             "settings": {
-                "title": "",
-                "link": ""
+                "title": "Ustawienia katalogu użytkowników",
+                "link": "Dodaj link do katalogu użytkowników na stronie głównej"
             }
         }
     }

@@ -1,0 +1,21 @@
+{
+    "fof-drafts": {
+        "admin": {
+            "permissions": {
+                "start": "Create discussion drafts"
+            }
+        },
+        "forum": {
+            "composer": {
+                "title": "Save Draft",
+                "alert": "Draft saved."
+            },
+            "dropdown": {
+                "title": "Drafts",
+                "button": "Delete Draft",
+                "tooltip": "=> fof-drafts.forum.dropdown.title",
+                "alert": "Are you sure you want to delete your draft?"
+            }
+        }
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "flarum-tags": {
+        "admin": {
+            "basics": {
+                "tags_label": "=> flarum-tags.ref.tags"
+            },
+            "edit_tag": {
+                "color_label": "=> core.ref.color",
+                "delete_tag_button": "Etiketi Sil",
+                "delete_tag_confirmation": "Bu etiketi silmek istediğinize emin misin? Etiketin tartışmaları silinmeyecek.",
+                "description_label": "Açıklama",
+                "hide_label": "Tüm Tartışmalardan Gizle",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "=> flarum-tags.ref.name",
+                "name_placeholder": "=> flarum-tags.ref.name",
+                "slug_label": "URL",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> flarum-tags.ref.create_tag"
+            },
+            "nav": {
+                "tags_button": "=> flarum-tags.ref.tags",
+                "tags_text": "Tartışma düzenlemek için mevcut etiketlerin listesini yönetin."
+            },
+            "permissions": {
+                "allow_edit_tags_label": "Etiket düzenlemeye izin ver",
+                "restrict_by_tag_heading": "Etikete Göre Sınırla",
+                "tag_discussions_label": "Etiket tartışmaları"
+            },
+            "tag_settings": {
+                "range_separator_text": " to ",
+                "required_primary_heading": "Gerekli Birincil Etiket Sayısı",
+                "required_primary_text": "Bir tartışmada kullanılabilecek minmum ve maksimum birincil etiket sayısını girin.",
+                "required_secondary_heading": "Gerekli İkincil Etiket Sayısı",
+                "required_secondary_text": "Bir tartışmada kullanılabilecek minimum ve maksimum ikincil etiket sayısını girin.",
+                "title": "Etiket Ayarları"
+            },
+            "tags": {
+                "about_tags_text": "Etiketler tartışmaları kategorilere ayırmak için kullanılır. Birincil etiketler geleneksel forum kategorileri gibidir: iki seviyeli bir hiyerarşide düzenlenebilirler. İkincil etiketler hiyerarşi veya sıraya sahip değildir ve mikro kategorilere ayırmak için kullanışlıdır.",
+                "create_tag_button": "=> flarum-tags.ref.create_tag",
+                "primary_heading": "Birincil Etiketler",
+                "secondary_heading": "İkincil Etiketler",
+                "settings_button": "Ayarlar"
+            }
+        },
+        "forum": {
+            "choose_tags": {
+                "choose_primary_placeholder": "Bir birincil etiket seçin|{count} birincil etiket seçin",
+                "choose_secondary_placeholder": "1 tane daha etiket seçin|{count} tane daha etiket seçin",
+                "edit_title": "{title} için Etiketleri Düzenle",
+                "submit_button": "=> core.ref.okay",
+                "title": "Tartışmanız için Etiket Seçin"
+            },
+            "composer_discussion": {
+                "choose_tags_link": "Etiketleri Seç"
+            },
+            "discussion_controls": {
+                "edit_tags_button": "Etiketleri Düzenle"
+            },
+            "header": {
+                "back_to_tags_tooltip": "Etiket Listesine Geri Dön"
+            },
+            "index": {
+                "more_link": "Daha Fazla...",
+                "tags_link": "=> flarum-tags.ref.tags",
+                "untagged_link": "Etiketlenmemiş"
+            },
+            "post_stream": {
+                "added_and_removed_tags_text": "{username}, {tagsAdded} etiketlerini ekledi ve {tagsRemoved} etiketlerini kaldırdı.",
+                "added_tags_text": "{username}, {tagsAdded} etiketlerini ekledi.",
+                "removed_tags_text": "{username}, {tagsRemoved} etiketlerini kaldırdı.",
+                "tags_text": "{tags} etiket | {tags} etiketler"
+            }
+        },
+        "lib": {
+            "deleted_tag_text": "Silindi"
+        },
+        "ref": {
+            "create_tag": "Etiket Oluştur",
+            "name": "İsim",
+            "tags": "Etiketler"
+        }
+    }
+}

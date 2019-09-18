@@ -3,60 +3,60 @@
         "forum": {
             "badges": {
                 "is_private": {
-                    "tooltip": ""
+                    "tooltip": "Prywatna dyskusja"
                 }
             },
             "buttons": {
-                "add_recipients": "",
-                "submit": "",
-                "edit_recipients": "",
-                "send_pd": ""
+                "add_recipients": "Uczestnicy",
+                "submit": "OK",
+                "edit_recipients": "Edytuj uczestników",
+                "send_pd": "Wyślij wiadomość do {username}"
             },
             "labels": {
-                "recipients": "",
-                "user_deleted": ""
+                "recipients": "{count} uczestnik|{count} uczestników",
+                "user_deleted": "-usunięty-"
             },
             "nav": {
-                "private_discussions": ""
+                "private_discussions": "Prywatna dyskusja"
             },
             "input": {
-                "search_recipients": ""
+                "search_recipients": "Wpisz 3 pierwsze znaki aby wyszukać uczestników..."
             },
             "search": {
                 "headings": {
-                    "groups": ""
+                    "groups": "Grupy"
                 }
             },
             "modal": {
                 "titles": {
-                    "update_recipients": "",
-                    "add_recipients": ""
+                    "update_recipients": "Uaktualnij uczestników dla {title}",
+                    "add_recipients": "Dodaj uczestników do swojej dyskusji"
                 }
             },
             "post": {
                 "recipients_modified": {
-                    "added_and_removed": "",
-                    "added": "",
-                    "removed": ""
+                    "added_and_removed": "{username} dodał {added} i usunął {removed} z listy uczestników.",
+                    "added": "{username} dodał {added} do listy uczestników.",
+                    "removed": "{username} usunął {removed} z listy uczestników."
                 }
             },
             "user": {
                 "settings": {
-                    "block_pd": ""
+                    "block_pd": "Blokuj prywatne dyskusje"
                 },
-                "byobu_link": ""
+                "byobu_link": "Prywatne dyskusje"
             }
         },
         "admin": {
             "permission": {
-                "create_private_discussions_with_users": "",
-                "create_private_discussions_with_groups": "",
-                "create_private_discussions_with_blocking_users": "",
-                "edit_user_recipients": "",
-                "edit_group_recipients": ""
+                "create_private_discussions_with_users": "Tworzenie prywatnych dyskusji z użytkownikami",
+                "create_private_discussions_with_groups": "Tworzenie prywatnych dyskusji z grupami",
+                "create_private_discussions_with_blocking_users": "Tworzenie prywatnych dyskusji z użytkownikami, którzy je blokują",
+                "edit_user_recipients": "Edytowanie użytkowników biorących udział w prywatnych dyskusjach",
+                "edit_group_recipients": "Edytowanie grup biorących udział w prywatnych dyskusjach"
             },
             "settings": {
-                "byobu_users_page_label": ""
+                "byobu_users_page_label": "Wyświetlaj prywatne dyskusje w profilu użytkownika"
             }
         }
     }

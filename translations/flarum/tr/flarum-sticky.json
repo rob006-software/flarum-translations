@@ -1,0 +1,25 @@
+{
+    "flarum-sticky": {
+        "admin": {
+            "permissions": {
+                "sticky_discussions_label": "Sabitlenmiş tartışmalar"
+            }
+        },
+        "forum": {
+            "badge": {
+                "sticky_tooltip": "=> flarum-sticky.ref.sticky"
+            },
+            "discussion_controls": {
+                "sticky_button": "=> flarum-sticky.ref.sticky",
+                "unsticky_button": "Sabitten kaldır"
+            },
+            "post_stream": {
+                "discussion_stickied_text": "{username} bu tartışmayı sabitledi.",
+                "discussion_unstickied_text": "{username} bu tartışmayının sabitlenmesini kaldırdı."
+            }
+        },
+        "ref": {
+            "sticky": "Sabitle"
+        }
+    }
+}

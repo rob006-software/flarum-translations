@@ -1,0 +1,163 @@
+{
+    "clarkwinkelmann-catch-the-fish": {
+        "forum": {
+            "moderate": {
+                "add": "Add",
+                "edit": "Edit",
+                "delete": "Delete",
+                "fishes": "Fishes",
+                "rounds": "Rounds"
+            },
+            "nav": {
+                "rankings": "Catch The Fish Rankings",
+                "settings": "Catch The Fish Settings"
+            },
+            "new-round-modal": {
+                "title": "New Round"
+            },
+            "new-fish-modal": {
+                "title": "New Fish"
+            },
+            "edit-round-modal": {
+                "title": "Edit Round \"{name}\""
+            },
+            "edit-fish-modal": {
+                "title": "Edit Fish \"{name}\""
+            },
+            "caught-fish-modal": {
+                "title": "You caught a fish !",
+                "named-by": "Named by",
+                "placed-by": "Placed by",
+                "congratulation": "Congratulation, you caught a fish ! You have caught {catch_count} fishes.",
+                "name": "Fish name",
+                "name-help": "You can rename the fish if you want. The name must respect the forum guidelines.",
+                "placement-help": "You can hide the fish where you want on the forum in recent discussions and active user profiles. You cannot catch a fish you placed yourself.",
+                "submit-name-place-later": "Save name and choose hiding place",
+                "submit-name": "Save name",
+                "submit-place-later": "Yep I'll choose a hiding place",
+                "submit-continue": "Continue",
+                "submit-name-place-random": "Save name and let the fish hide itself",
+                "submit-place-random": "Let the fish hide itself"
+            },
+            "edit-round": {
+                "name": "Name",
+                "name-help": "The public name for this round, will be shown in banner and in ranking",
+                "starts-at": "Start time",
+                "ends-at": "End time",
+                "starting-pack": "Starting Pack",
+                "starting-pack-help": "Will include a few fishes to get you started in no time",
+                "create": "Create round",
+                "save": "Save round",
+                "delete": "Delete round",
+                "delete-confirmation": "Delete round \"{name}\" ?"
+            },
+            "edit-fish": {
+                "name": "Name",
+                "name-help": "The current name of the fish. Can be edited by players if they have the permission to rename fishes",
+                "create": "Create fish",
+                "save": "Save fish",
+                "delete": "Delete fish",
+                "delete-confirmation": "Delete fish \"{name}\" ?"
+            },
+            "moving-fish": {
+                "login": "Login to catch fishes"
+            },
+            "fish-image": {
+                "alt": "Image of fish \"{name}\"",
+                "missing": "Missing fish image"
+            },
+            "round-alert": {
+                "message": "Round \"{name}\", catch as many fishes as you can until {time}",
+                "rankings": "See rankings"
+            },
+            "basket": {
+                "title": "Fish Basket",
+                "drag-help": "Drag and drop the fish on a discussion, post or user profile",
+                "time": "Place until: {time}"
+            },
+            "table-round": {
+                "loading": "Loading...",
+                "title": "Rounds",
+                "new": "New round",
+                "name": "Name",
+                "start": "From",
+                "end": "Until",
+                "actions": "Actions",
+                "edit": "Edit",
+                "fishes": "Fishes"
+            },
+            "table-fish": {
+                "loading": "Loading...",
+                "title": "Fishes for round {name}",
+                "new": "New fish",
+                "image": "Image",
+                "name": "Name",
+                "user-name": "Last named by",
+                "user-place": "Last placed by",
+                "actions": "Actions",
+                "edit": "Edit",
+                "no-user-name": "Not renamed",
+                "no-user-place": "Random",
+                "upload": "Upload new image",
+                "new-from-image": "Create new fishes via bulk image import"
+            },
+            "table-ranking": {
+                "loading": "Loading...",
+                "title": "Ranking of round {name}",
+                "rank": "Name",
+                "count": "Fishes caught",
+                "user": "User"
+            },
+            "page-ranking": {
+                "title": "Rankings",
+                "permission": "You do not have permission to see the rankings",
+                "nothing": "No active rounds"
+            },
+            "drop-area": {
+                "message": "You can drop the fish here",
+                "missing-from-store": "Could not find the fish in the data store"
+            }
+        },
+        "admin": {
+            "settings": {
+                "title": "Catch The Fish Settings",
+                "discussion-age": "How old discussions can be for a fish to be placed on it (days)",
+                "post-age": "How old posts can be for a fish to be placed on it (days)",
+                "user-age": "How long since a user must have been active for a fish to be placed on it (days)",
+                "time-to-place": "Time allowed to place fish before it is randomly placed (minutes)",
+                "alert-round": "Show an altert with the round name and duration on the homepage",
+                "animate-flip": "Flip fish images based on direction"
+            },
+            "permissions": {
+                "visible": "See the fishes",
+                "list-rankings": "Access the rankings page",
+                "participate": "Participate in the rounds and catch fishes",
+                "choose-place": "Choose fish placement after catching",
+                "choose-name": "Choose fish name after catching",
+                "moderate": "Moderate rounds and fishes"
+            }
+        },
+        "api": {
+            "default-fish-name": "Fish #{number}",
+            "wrong-catch-placement": "There is no fish here. Maybe you weren't quick enough and someone else got it first",
+            "too-many-placement-models": "Only one placement is possible at a time",
+            "invalid-discussion-id": "Discussion doesn't seem to exist, maybe it was recently deleted",
+            "invalid-post-id": "Post doesn't seem to exist, maybe it was recently deleted",
+            "invalid-user-id": "User doesn't seem to exist, maybe it was recently deleted",
+            "model-deleted": "Can't place fish on a deleted discussion or post",
+            "model-private": "Can't place fish on a private discussion or post",
+            "inactive-discussion": "Can't place fish on discussion inactive for more than {days} days",
+            "inactive-post": "Can't place fish on post created more than {days} days ago",
+            "inactive-user": "Can't place fish on user inactive for more than {days} days",
+            "non-comment-post": "Can only place fishes on comment posts",
+            "user-suspended": "Can't place fish on a suspended user",
+            "random-error": "Could not generate a random fish placement",
+            "cannot-catch-own-fish": "You cannot catch a fish you placed yourself",
+            "cannot-catch-hold-fish": "The previous catcher needs to release the fish before you can catch it",
+            "fish-update-wrong-user": "You can no longer edit this fish. Somebody else has probably caught it",
+            "fish-update-expired": "Too late, you can no longer edit this fish. It has automatically been placed somewhere in the meantime",
+            "round-not-started": "This round has not started",
+            "round-finished": "This round is finished"
+        }
+    }
+}

@@ -5,9 +5,9 @@
                 "tags_label": "=> flarum-tags.ref.tags"
             },
             "edit_tag": {
-                "color_label": "Kolor",
+                "color_label": "=> core.ref.color",
                 "delete_tag_button": "Usuń tag",
-                "delete_tag_confirmation": "Czy jesteś pewien, że chcesz usunąć ten tag? Dyskusje oznaczone tym tagiem NIE ZOSTANĄ usunięte.",
+                "delete_tag_confirmation": "Czy jesteś pewien, że chcesz usunąć ten tag? Dyskusje oznaczone tym tagiem NIE zostaną usunięte.",
                 "description_label": "Opis",
                 "hide_label": "Ukryj z \"wszystkich dyskusji\"",
                 "icon_label": "=> core.ref.icon",
@@ -20,36 +20,36 @@
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
-                "tags_text": "Wszystkie dyskusje są przypisywane do tagów dzięki czemu można je łatwo sortować i porządkować - działają podobnie do kategorii."
+                "tags_text": "Zarządzaj listą tagów wykorzystywanych do kategoryzacji dyskusji."
             },
             "permissions": {
-                "allow_edit_tags_label": "W jakim czasie można edytować tagi",
-                "restrict_by_tag_heading": "Ustaw po tagu",
-                "tag_discussions_label": "Kto może zmieniać tagi dyskusji"
+                "allow_edit_tags_label": "Edytowanie tagów",
+                "restrict_by_tag_heading": "Ogranicz na podstawie tagu",
+                "tag_discussions_label": "Edycja tagów dyskusji"
             },
             "tag_settings": {
-                "range_separator_text": " to ",
+                "range_separator_text": " do ",
                 "required_primary_heading": "Wymagana liczba głównych tagów",
-                "required_primary_text": "Wpisz minimalną i maksymalną ilość głównych tagów, jakimi może być opisana dyskusja.",
-                "required_secondary_heading": "Wymagana liczba pobocznych tagów",
-                "required_secondary_text": "Wpisz minimalną i maksymalną ilość pobocznych tagów, jakimi może być opisana dyskusja.",
+                "required_primary_text": "Wpisz minimalną i maksymalną liczbę głównych tagów, które mogą być przypisane do dyskusji.",
+                "required_secondary_heading": "Wymagana liczba podrzędnych tagów",
+                "required_secondary_text": "Wpisz minimalną i maksymalną liczbę podrzędnych tagów, które mogą być przypisane do dyskusji.",
                 "title": "Ustawienia tagów"
             },
             "tags": {
-                "about_tags_text": "Tagi są używane, aby opisywać nimi dyskusje. Główne tagi, są jak tradycyjne kategorie forum: mogą być zorganizowane w dwustopniowej hierarchii. Poboczne tagi nie mają hierarchii ani porządku, są więc użyteczne bardziej do mikroorganizacji.",
+                "about_tags_text": "Tagi są używane do kategoryzacji dyskusji. Główne tagi są jak tradycyjne kategorie forum: mogą być zorganizowane w dwustopniowej hierarchii. Podrzędne tagi nie mają hierarchii ani kolejności, są więc użyteczne bardziej do mikro-kategoryzacji.",
                 "create_tag_button": "=> flarum-tags.ref.create_tag",
                 "primary_heading": "Główne tagi",
-                "secondary_heading": "Poboczne tagi",
+                "secondary_heading": "Podrzędne tagi",
                 "settings_button": "Ustawienia"
             }
         },
         "forum": {
             "choose_tags": {
-                "choose_primary_placeholder": "Wybierz główny tag|Wybierz {count} główne tagi",
-                "choose_secondary_placeholder": "Wybierz 1 dodatkowy tag|Wybierz {count} dodatkowe tagi|Wybierz {count} dodatkowych tagów",
+                "choose_primary_placeholder": "Wybierz główny tag|Wybierz {count} główne tagi|Wybierz {count} głównych tagów",
+                "choose_secondary_placeholder": "Wybierz 1 podrzędny tag|Wybierz {count} podrzędne tagi|Wybierz {count} podrzędnych tagów",
                 "edit_title": "Edytuj tagi dla {title}",
                 "submit_button": "=> core.ref.okay",
-                "title": "Wybierz tagi do swojej dyskusji"
+                "title": "Wybierz tagi dla swojej dyskusji"
             },
             "composer_discussion": {
                 "choose_tags_link": "Wybierz tagi"
@@ -58,7 +58,7 @@
                 "edit_tags_button": "Edytuj tagi"
             },
             "header": {
-                "back_to_tags_tooltip": "Wróć do wyboru kategorii"
+                "back_to_tags_tooltip": "Wróć do listy tagów"
             },
             "index": {
                 "more_link": "Więcej...",

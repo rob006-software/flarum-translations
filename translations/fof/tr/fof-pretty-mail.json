@@ -1,0 +1,26 @@
+{
+    "fof-pretty-mail": {
+        "admin": {
+            "nav": {
+                "desc": "HTML ile elektronik posta şablonlarınızı özelleştirin."
+            },
+            "settings": {
+                "label": "E-Posta Şablonları",
+                "reset": "Varsayılana Döndür",
+                "confirm": "Varsayılan elektronik posta şablonuna dönmek istediğinize emin misiniz?",
+                "default": "Varsayılan Şablon",
+                "newPost": "Flarum/Abonelikler Yeni Gönderi E-Postası",
+                "userMentioned": "Flarum/Bahsetmeler Kullanıcı Bahsetme E-Postası",
+                "postMentioned": "Flarum/Bahsetmeler Gönderi Bahsetme E-Postası",
+                "notifications": "Bildirim şablonları",
+                "notificationHelp": "Elektronik postaların BBCode içermeleri muhtemel olduğu için \"$forumStyle\" kullanımı önerilir. Bu elektronik postalarda alıcı için \"$user\" kullanılır.",
+                "help": "\"$body\" elektronik postanın içeriğini gösterir, \"$forumStyle\" <strong>forumun tüm CSS kodunu</strong> ekler, \"$baseUrl\" forumunuzun bağlantısıdır, \"$settings\" SettingsRepositoryInterface kısmı ile etkileşime girmenize izin verir, ve \"$link\" e-posta içersindeki bağlantıyı sağlar. Her değişkenin nasıl kullanıldığını incelemek için aşağıdaki şablonlara göz atın."
+            },
+            "css_settings": {
+                "label": "CSS ayarları",
+                "help": "Forumun CSS'ini elektronik postaya eklemeyi tercih edebilirsiniz. Bunu etkinleştirirseniz, belirli e-posta hizmetleri ile sorun yaşayabilirsiniz.",
+                "switch_label": "forum css kodlarını ekle"
+            }
+        }
+    }
+}

@@ -150,7 +150,8 @@
                 "view_discussions_label": "View discussions",
                 "view_last_seen_at_label": "View user last seen time",
                 "view_post_ips_label": "View post IP addresses",
-                "view_user_list_label": "View user list"
+                "view_user_list_label": "View user list",
+                "edit_users_label": "Edit users"
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Indefinitely",
@@ -290,7 +291,8 @@
                 "empty_text": "No Notifications",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "title": "=> core.ref.notifications",
-                "tooltip": "=> core.ref.notifications"
+                "tooltip": "=> core.ref.notifications",
+                "mark_as_read_tooltip": "Mark as Read"
             },
             "post": {
                 "edited_text": "Edited",
@@ -413,12 +415,15 @@
                 "404_return_link": "Return to {forum}",
                 "500_message": "An error occurred while trying to load this page.",
                 "503_message": "{forum} is undergoing maintenance. Thanks for your patience!",
+                "419_message": "You have been inactive for too long.",
+                "419_return_link": "Go back, to try again",
                 "csrf_token_mismatch": "You have been inactive for too long.",
                 "csrf_token_mismatch_return_link": "Go back, to try again",
-                "forbidden": "You do not have permission to access this page.",
                 "invalid_confirmation_token": "This confirmation link has already been used or is invalid.",
+                "not_authenticated": "You do not have permission to access this page. Try again after logging in.",
                 "not_found": "The page you requested could not be found.",
                 "not_found_return_link": "Return to {forum}",
+                "permission_denied": "You do not have permission to access this page.",
                 "unknown": "An error occurred while trying to load this page."
             },
             "index": {
