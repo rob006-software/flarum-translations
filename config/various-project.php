@@ -31,6 +31,7 @@ return [
 	'dem13n-nickname-changer' => 'https://raw.githubusercontent.com/Dem13n/nickname-changer/master/resources/locale/en.yml',
 	'extiverse-bazaar' => 'https://raw.githubusercontent.com/extiverse/bazaar/master/resources/locale/en.yml',
 	'fajuu-contactbutton' => 'https://raw.githubusercontent.com/Fajuu/ContactButton/master/locale/en.yml',
+	'fajuu-icons' => 'https://raw.githubusercontent.com/Fajuu/flarum-icons/master/resources/locale/en.yml',
 	'flagrow-ads' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ads/master/locale/en.yml',
 	'flagrow-analytics' => 'https://raw.githubusercontent.com/flagrow/analytics/master/resources/locale/en.yml',
 	'flagrow-fonts' => 'https://raw.githubusercontent.com/flagrow/fonts/master/resources/locale/en.yml',
