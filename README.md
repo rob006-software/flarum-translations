@@ -1,14 +1,13 @@
 # Flarum translations monorepo
 
-## Flarum core translation status
+## Flarum core and official extensions translation status 
+
+[![Translation status](https://weblate.rob006.net/widgets/flarum/-/287x66-white.png)](https://weblate.rob006.net/engage/flarum/)
 
 | Component | Status |
 | --- | --- |
 | [Core](https://github.com/flarum/core) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/core/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/core/) |
 | Validation | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/validation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/validation/) |
-
-
-## Official extensions translation status
 
 <!-- flarum-extensions-list-start -->
 
@@ -36,6 +35,8 @@
 
 
 ## Friends of Flarum extensions translation status
+
+[![Translation status](https://weblate.rob006.net/widgets/friends-of-flarum/-/287x66-white.png)](https://weblate.rob006.net/engage/friends-of-flarum/)
 
 <!-- fof-extensions-list-start -->
 
@@ -82,6 +83,8 @@
 
 
 ## Community extensions translation status
+
+[![Translation status](https://weblate.rob006.net/widgets/flarum-extensions/-/287x66-white.png)](https://weblate.rob006.net/engage/flarum-extensions/)
 
 <!-- various-extensions-list-start -->
 
