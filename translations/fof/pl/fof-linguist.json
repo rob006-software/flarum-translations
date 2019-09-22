@@ -2,40 +2,6 @@
     "fof-linguist": {
         "admin": {
             "menu": {
-                "title": "",
-                "description": ""
-            },
-            "buttons": {
-                "apply": "",
-                "reset": "",
-                "copy-original": "",
-                "load-more": ""
-            },
-            "locales": {
-                "all": ""
-            },
-            "placeholder": {
-                "not-translated": "",
-                "all-locales": "",
-                "hint": ""
-            },
-            "filters": {
-                "search": "",
-                "with-own-translations": "",
-                "with-original-translations-in-locales": "",
-                "without-original-translations-in-locales": "",
-                "for-extension": "",
-                "results": ""
-            },
-            "clear-cache": {
-                "text": "",
-                "button": ""
-            }
-        }
-    },
-    "flagrow-linguist": {
-        "admin": {
-            "menu": {
                 "title": "Linguist",
                 "description": "Dostosuj tłumaczenia do swoich potrzeb."
             },
@@ -60,6 +26,10 @@
                 "without-original-translations-in-locales": "Bez oryginalnego tłumaczenia",
                 "for-extension": "Rozszerzenia",
                 "results": "Pokazuje {shown} z {total} wszystkich tłumaczeń"
+            },
+            "clear-cache": {
+                "text": "",
+                "button": ""
             }
         }
     }

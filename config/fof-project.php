@@ -31,6 +31,7 @@ return [
 	'fof-frontpage' => 'https://raw.githubusercontent.com/FriendsOfFlarum/frontpage/master/resources/locale/en.yml',
 	'fof-gamification' => 'https://raw.githubusercontent.com/FriendsOfFlarum/gamification/master/resources/locale/en.yml',
 	'fof-ignore-users' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ignore-users/master/resources/locale/en.yml',
+	'fof-linguist' => 'https://raw.githubusercontent.com/FriendsOfFlarum/linguist/master/resources/locale/en.yml',
 	'fof-links' => 'https://raw.githubusercontent.com/FriendsOfFlarum/links/master/locale/en.yml',
 	'fof-masquerade' => 'https://raw.githubusercontent.com/FriendsOfFlarum/masquerade/master/resources/locale/en.yml',
 	'fof-merge-discussions' => 'https://raw.githubusercontent.com/FriendsOfFlarum/merge-discussions/master/resources/locale/en.yml',
