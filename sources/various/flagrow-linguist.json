@@ -1,5 +1,5 @@
 {
-    "flagrow-linguist": {
+    "fof-linguist": {
         "admin": {
             "menu": {
                 "title": "Linguist",
@@ -26,6 +26,10 @@
                 "without-original-translations-in-locales": "Without original translations in",
                 "for-extension": "For extension",
                 "results": "Showing {shown} of {total} matching translations"
+            },
+            "clear-cache": {
+                "text": "New translations have not yet been applied. Note: clearing the cache can momentarily slow down your forum.\n",
+                "button": "Clear cache now"
             }
         }
     }
