@@ -2,44 +2,44 @@
     "fajuu-icons": {
         "admin": {
             "edit_icon": {
-                "elementPath": "",
-                "originalIcon": "",
-                "modifiedIcon": ""
+                "elementPath": "Ścieżka elementu",
+                "originalIcon": "Oryginalna ikona",
+                "modifiedIcon": "Zmodyfikowana ikona"
             },
             "nav": {
-                "icons_button": "",
-                "icons_text": ""
+                "icons_button": "=> fajuu-icons.ref.icons",
+                "icons_text": "Zmień ikony i zmień ich styl"
             },
             "icon_settings": {
-                "title": "",
-                "key_heading": "",
-                "key_text": ""
+                "title": "Ustawienia ikon",
+                "key_heading": "Kod zestawu",
+                "key_text": "<a> Gdzie mogę znaleźć kod zestawu? </a> Darmowa wersja wymaga również rejestracji. Musisz wygenerować zestaw, aw kodzie zestawu znajdziesz 10-cyfrowy klucz zestawu. Jeśli masz już zestaw, wybierz go i skopiuj jego klucz. \n"
             },
             "icon_import": {
-                "title": "",
-                "about": "",
-                "not_json": "",
-                "import_button": "",
-                "restore_button": ""
+                "title": "Import ikon",
+                "about": "Wprowadź tutaj zaimportowane ikony w postaci JSON.",
+                "not_json": "Treść musi być poprawnym łańcuchem JSON.",
+                "import_button": "Import",
+                "restore_button": "Przywróć domyślne ikony"
             },
             "icon_export": {
-                "title": "",
-                "close_button": "",
-                "copy_button": "",
-                "copy_success": "",
-                "copy_error": ""
+                "title": "Eksport ikon",
+                "close_button": "Zamknij",
+                "copy_button": "Kopiuj",
+                "copy_success": "Treść została skopiowana.",
+                "copy_error": "Treść nie została skopiowana."
             },
             "icons": {
-                "about_icons_text": "",
-                "settings_button": "",
-                "list_icons_button": "",
-                "import_icons_button": "",
-                "export_icons_button": "",
-                "key_error": ""
+                "about_icons_text": "Tutaj możesz zmienić obecne ikony forum na cokolwiek chcesz!\nWyszukaj na forum ikonę, którą chcesz zmienić (oryginalna ikona), wprowadź ścieżkę do niej prowadzącą (element ścieżki) i wybierz nową ikonę (ikona zmodyfikowana).\nWszystkie ikony są pakietem ikon <a>Font Awesome</a>.\n",
+                "settings_button": "Ustawienia",
+                "list_icons_button": "Lista ikon",
+                "import_icons_button": "Importuj ikony",
+                "export_icons_button": "Eksportuj ikony",
+                "key_error": "Kod zestawu nie został znaleziony lub jest niepoprawny. Sprawdź ustawienia ikon i zmień je! Po zapisaniu zmian odśwież stronę."
             }
         },
         "ref": {
-            "icons": ""
+            "icons": "Ikony"
         }
     }
 }
