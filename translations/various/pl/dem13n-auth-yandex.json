@@ -2,15 +2,15 @@
     "dem13n-auth-yandex": {
         "admin": {
             "yandex_settings": {
-                "title": "Ustawienia Logowania Yandex",
-                "app_id_label": "Identyfikator Aplikacji",
-                "app_password_label": "Hasło do Aplikacji",
+                "title": "Ustawienia logowania Yandex",
+                "app_id_label": "App ID",
+                "app_password_label": "App Password",
                 "app_desc": "Możesz zarejestrować aplikację tutaj <a>https://oauth.yandex.ru</a>",
-                "app_p": "Adres zwrotny"
+                "app_p": "Callback URL"
             }
         },
         "forum": {
-            "login_with_yandex_button": "Zaloguj się za pomocą Yandex"
+            "login_with_yandex_button": "Zaloguj się przy użyciu Yandex"
         }
     }
 }
