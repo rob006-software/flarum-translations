@@ -2,16 +2,16 @@
     "dem13n-auth-ok": {
         "admin": {
             "ok_settings": {
-                "title": "Ustawienia Logowania Odnoklassniki",
-                "app_id_label": "Identyfikator Aplikacji",
-                "app_public_label": "Klucz Publiczny Aplikacji",
-                "app_key_label": "Bezpieczny Klucz Aplikacji",
+                "title": "Ustawienia logowania Odnoklassniki",
+                "app_id_label": "App ID",
+                "app_public_label": "App Public Key",
+                "app_key_label": "App Secure Key",
                 "app_desc": "Możesz zarejestrować aplikację tutaj <a>https://ok.ru/dk?st.cmd=appEditBasic&st.vpl.mini=false</a>",
-                "app_p": "Adres zwrotny"
+                "app_p": "Callback URL"
             }
         },
         "forum": {
-            "login_with_ok_button": "Zaloguj się za pomocą Odnoklassniki"
+            "login_with_ok_button": "Zaloguj się przy użyciu Odnoklassniki"
         }
     }
 }
