@@ -2,8 +2,8 @@
     "bazaar": {
         "admin": {
             "loader": {
-                "is_loading": "Przetwarzanie..",
-                "error": "Wystąpił błąd. Sprawdź kartę Historia i dziennik Flarum, aby uzyskać szczegółowe informacje. Nie bój się nam tego zgłosić.",
+                "is_loading": "Przetwarzanie...",
+                "error": "Wystąpił błąd. Sprawdź zakładkę Historia i log Flarum, aby uzyskać szczegółowe informacje. Nie bój się nam tego zgłosić.",
                 "refresh": "Odśwież stronę",
                 "close": "Zamknij",
                 "report_issue": "Zgłoś problem"
@@ -19,34 +19,34 @@
             "modal": {
                 "dashboard": {
                     "title": "Dashboard",
-                    "visit-remote-dashboard": "Odwiedź dashboard",
+                    "visit-remote-dashboard": "Odwiedź kokpit",
                     "sync": {
                         "switch": "Synchronizacja",
-                        "description": "Zsynchronizuj informacje o swoim rozszerzeniu z {host}, aby otrzymywać aktualne powiadomienia o nowych wersjach zainstalowanych rozszerzeń. Ponadto będziemy regularnie wysyłać Ci powiadomienia o nieaktualnych rozszerzeniach we wszystkich Twoich zsynchronizowanych instalacjach Flarum z włączonym bazarem.\n"
+                        "description": "Zsynchronizuj informacje o swoim rozszerzeniu z {host}, aby otrzymywać aktualne powiadomienia o nowych wersjach zainstalowanych rozszerzeń. Ponadto będziemy regularnie wysyłać Ci powiadomienia o nieaktualnych rozszerzeniach we wszystkich Twoich instalacjach Flarum z zsynchronizowanym Bazarem.\n"
                     }
                 },
                 "settings": {
                     "title": "Bazar Flagrow",
                     "field": {
                         "token": {
-                            "label": "Token API",
-                            "description": "Ten token API jest wymagany, aby uzyskać dostęp do interfejsu API rozszerzenia Flagrow. Jeśli już ustawiony, możesz kontynuować!"
+                            "label": "API token",
+                            "description": "Ten token API jest wymagany, aby uzyskać dostęp do API rozszerzenia Flagrow. Jeśli jest już ustawiony, możesz kontynuować!"
                         },
                         "use_cron_for_tasks": {
-                            "label": "Zadania Cron",
-                            "description": "Umożliwiając zadaniu crona przetwarzanie zadań bazaru, procesy te mają mniejsze prawdopodobieństwo przekroczenia limitu czasu. Pamiętaj, że musisz mieć możliwość skonfigurowania cronjob, patrz <a>the wiki</a>.\n",
-                            "toggle": "Użyj cronów do przetwarzania zadań"
+                            "label": "Zadania cron",
+                            "description": "Przetwarzając zadania Bazaru za pomocą crona, procesy te mają mniejsze prawdopodobieństwo przekroczenia limitu czasu. Pamiętaj, że musisz mieć możliwość skonfigurowania crona (patrz <a>wiki</a>).\n",
+                            "toggle": "Użyj crona do przetwarzania zadań"
                         }
                     }
                 },
                 "connect-bazaar": {
                     "title": "Połącz",
-                    "description": "Połącz swoje forum Flarum z kontem osobistym na {host}, aby odblokować zaawansowane funkcje; w tym pulpit, który daje przegląd stanu wszystkich podłączonych instalacji Flarum. Dodamy więcej funkcji, takich jak powiadomienia, gdy twoje forum zawiera nieaktualne rozszerzenia lub możliwość centralnej aktualizacji wszystkich instalacji Flarum.\n"
+                    "description": "Połącz swoje forum Flarum z kontem osobistym na {host}, aby odblokować zaawansowane funkcje, w tym kokpit, który daje podgląd stanu wszystkich podłączonych instalacji Flarum. W przyszłości dodamy więcej funkcji, takich jak powiadomienia, gdy twoje forum zawiera nieaktualne rozszerzenia lub możliwość centralnej aktualizacji wszystkich instalacji Flarum.\n"
                 },
                 "requirements": {
                     "file-permissions": {
-                        "title": "Uprawnienia do plików",
-                        "description": "Wygląda na to, że Bazaar ma niewystarczające uprawnienia do zapisywania plików i / lub katalogów, zapoznaj się z poniższą listą. Aby uzyskać więcej informacji, zobacz <a>the wiki</a>.\n"
+                        "title": "Uprawnienia plików",
+                        "description": "Wygląda na to, że Bazar ma niewystarczające uprawnienia do zapisywania plików i/lub katalogów, zapoznaj się z poniższą listą. Aby uzyskać więcej informacji, sprawdź <a>wiki</a>.\n"
                     },
                     "php-memory_limit": {
                         "title": "Limit pamięci",
@@ -71,7 +71,7 @@
                     "remove_favorite_button": "Usuń rozszerzenie z ulubionych",
                     "subscribe": "Kup subskrypcję",
                     "unsubscribe": "Anuluj subskrypcje",
-                    "connect_to_subscribe": "Połącz swój bazar, aby subskrybować rozszerzenia"
+                    "connect_to_subscribe": "Połącz swój Bazar, aby subskrybować rozszerzenia"
                 },
                 "extension": {
                     "installed": "Rozszerzenie jest zainstalowane",
