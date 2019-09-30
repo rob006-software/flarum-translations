@@ -1,6 +1,6 @@
 # Flarum translations monorepo
 
-This repository contains raw translations data used by [Weblate](https://github.com/rob006-software/flarum-translations/issues) instance - an initiative to facilitate the translation process. You can read more about the project on [forum](https://discuss.flarum.org/d/20807-simplify-translation-process-with-weblate) or [FAQ](https://github.com/rob006-software/flarum-translations/wiki).
+This repository contains raw translations data used by [Weblate](https://github.com/rob006-software/flarum-translations/issues) instance - an initiative to facilitate the translation process. You can read more about the project on [forum](https://discuss.flarum.org/d/20807-simplify-translation-process-with-weblate) or in [FAQ](https://github.com/rob006-software/flarum-translations/wiki).
 
 Currently supported languages:
 
@@ -8,6 +8,29 @@ Currently supported languages:
 * Turkish (no maintainer)
 
 If you're maintaining language pack or want to add it to the collective, open an [issue](https://github.com/rob006-software/flarum-translations/issues) or write on the [forum](https://discuss.flarum.org/d/20807-simplify-translation-process-with-weblate).
+
+
+## Translation status by language
+
+<table>
+<tbody>
+<tr>
+<th>Core and official extensions</th>
+<th>Friends of Flarum extensions</th>
+</tr>
+<tr>
+<td><a href="https://weblate.rob006.net/engage/flarum/"><img src="https://weblate.rob006.net/widgets/flarum/-/multi-auto.svg" alt="Translation status" style="max-width:100%;"></a></td>
+<td><a href="https://weblate.rob006.net/engage/friends-of-flarum/"><img src="https://weblate.rob006.net/widgets/friends-of-flarum/-/multi-auto.svg" alt="Translation status" style="max-width:100%;"></a></td>
+</tr>
+<tr>
+<th colspan="2">Community extensions</th>
+</tr>
+<tr>
+<td colspan="2"><a href="https://weblate.rob006.net/engage/flarum-extensions/"><img src="https://weblate.rob006.net/widgets/flarum-extensions/-/multi-auto.svg" alt="Translation status" style="max-width:100%;"></a></td>
+</tr>
+</tbody>
+</table>
+
 
 ## Flarum core and official extensions translation status 
 
@@ -169,24 +192,3 @@ If you're maintaining language pack or want to add it to the collective, open an
 
 <!-- various-extensions-list-stop -->
 
-
-## Status by language
-
-<table>
-<tbody>
-<tr>
-<th>Core and official extensions</th>
-<th>Friends of Flarum extensions</th>
-</tr>
-<tr>
-<td><a href="https://weblate.rob006.net/engage/flarum/"><img src="https://weblate.rob006.net/widgets/flarum/-/multi-auto.svg" alt="Translation status" style="max-width:100%;"></a></td>
-<td><a href="https://weblate.rob006.net/engage/friends-of-flarum/"><img src="https://weblate.rob006.net/widgets/friends-of-flarum/-/multi-auto.svg" alt="Translation status" style="max-width:100%;"></a></td>
-</tr>
-<tr>
-<th colspan="2">Community extensions</th>
-</tr>
-<tr>
-<td colspan="2"><a href="https://weblate.rob006.net/engage/flarum-extensions/"><img src="https://weblate.rob006.net/widgets/flarum-extensions/-/multi-auto.svg" alt="Translation status" style="max-width:100%;"></a></td>
-</tr>
-</tbody>
-</table>
