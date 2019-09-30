@@ -12,19 +12,21 @@
                 "help_text": "Upewnij się że nazwa użytkownika jest zgodna z regulaminem społeczności.",
                 "decision_title": "Decyzja",
                 "approval_label": "Zatwierdź",
-                "denial_label": "Odrzuć",
+                "rejected_label": "",
                 "submit_button": "Zatwierdź",
                 "reason_title": "Powód odmowy",
                 "success": "Decyzja wysłana.",
-                "name": "{username} poprosił o zmianę nazwy użytkownika na \"{newUsername}\""
+                "name": "{username} poprosił o zmianę nazwy użytkownika na \"{newUsername}\"",
+                "denial_label": "Odrzuć"
             },
             "results": {
                 "title": "Zmiana nazwy użytkownika",
                 "approved": "Twoja prośba o zmianę nazwy użytkownika została zaakceptowana!",
                 "new_username": "Twoja nazwa użytkownika to teraz \"{username}\"",
-                "denied": "Twoja prośba o zmianę nazwy użytkownika została odrzucona",
+                "rejected": "",
                 "reason": "Powód: <i>\"{reason}\"</i>",
-                "resubmit": "Możesz wysłać nową prośbę o zmianę nazwy użytkownika z poziomu ustawień konta."
+                "resubmit": "Możesz wysłać nową prośbę o zmianę nazwy użytkownika z poziomu ustawień konta.",
+                "denied": "Twoja prośba o zmianę nazwy użytkownika została odrzucona"
             },
             "request": {
                 "title": "Poproś o zmianę nazwy użytkownika",
