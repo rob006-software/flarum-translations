@@ -1,5 +1,14 @@
 # Flarum translations monorepo
 
+This repository contains raw translations data used by [Weblate](https://github.com/rob006-software/flarum-translations/issues) instance - an initiative to facilitate the translation process. You can read more about the project on [forum](https://discuss.flarum.org/d/20807-simplify-translation-process-with-weblate) or [FAQ](https://github.com/rob006-software/flarum-translations/wiki).
+
+Currently supported languages:
+
+* [Polish](https://github.com/rob006-software/flarum-lang-polish) maintained by [rob006](https://github.com/rob006)
+* Turkish (no maintainer)
+
+If you're maintaining language pack or want to add it to the collective, open an [issue](https://github.com/rob006-software/flarum-translations/issues) or write on the [forum](https://discuss.flarum.org/d/20807-simplify-translation-process-with-weblate).
+
 ## Flarum core and official extensions translation status 
 
 [![Translation status](https://weblate.rob006.net/widgets/flarum/-/287x66-white.png)](https://weblate.rob006.net/engage/flarum/)
