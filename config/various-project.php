@@ -57,6 +57,7 @@ return [
 	'migratetoflarum-fake-data' => 'https://raw.githubusercontent.com/migratetoflarum/fake-data/master/resources/locale/en.yml',
 	'migratetoflarum-itemlist-order' => 'https://raw.githubusercontent.com/migratetoflarum/itemlist-order/master/resources/locale/en.yml',
 	'migratetoflarum-vbulletin-redirects' => 'https://raw.githubusercontent.com/migratetoflarum/vbulletin-redirects/master/locale/en.yml',
+	'mskian-pwa' => 'https://raw.githubusercontent.com/mskian/pwa/master/no-translation-source.yml',
 	'nikovonlas-auth-vk' => 'https://raw.githubusercontent.com/NikoVonLas/flarum-ext-auth-vk/master/locale/en.yml',
 	'nikovonlas-web-push' => 'https://raw.githubusercontent.com/NikoVonLas/flarum-ext-web-push/master/locale/en.yml',
 	'nomiscz-auth-linkedin' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-linkedin/master/resources/locale/en.yml',
