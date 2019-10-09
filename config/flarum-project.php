@@ -15,7 +15,6 @@ return [
 		'https://raw.githubusercontent.com/flarum/lang-english/master/locale/core.yml',
 		'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.10/locale/core.yml',
 		'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.9/locale/core.yml',
-		'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.8/locale/core.yml',
 	],
 	/* extensions list begin */
 	'flarum-akismet' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-akismet.yml',
