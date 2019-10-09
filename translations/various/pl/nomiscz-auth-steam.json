@@ -2,38 +2,38 @@
     "nomiscz-auth-steam": {
         "forum": {
             "buttons": {
-                "login": "",
-                "link": "",
-                "unlink": ""
+                "login": "Zaloguj się za pomocą Steam",
+                "link": "Połącz konto Steam",
+                "unlink": "Odłącz konto Steam"
             },
             "alerts": {
-                "already_linked": "",
-                "already_used": "",
-                "link_success": "",
-                "unlink_success": "",
-                "error": ""
+                "already_linked": "To konto Steam jest już połączone!",
+                "already_used": "Konto Steam jest już połączone z innym użytkownikiem!",
+                "link_success": "Konto Steam zostało prawidłowo połączone.",
+                "unlink_success": "Konto Steam zostało prawidłowo odłączone.",
+                "error": "Coś poszło nie tak, spróbuj ponownie!"
             },
             "modals": {
                 "link": {
-                    "title": ""
+                    "title": "Połącz konto Steam"
                 },
                 "unlink": {
-                    "title": "",
+                    "title": "Odłącz konto Steam",
                     "info": {
-                        "confirm": "",
-                        "no_providers": ""
+                        "confirm": "Czy jesteś pewien, że chcesz odłączyć twoje konto Steam?",
+                        "no_providers": "Nie masz żadnych innych dostawców logowania! Prawdopodobnie musisz zresetować swoje hasło."
                     },
                     "buttons": {
-                        "confirm": "",
-                        "cancel": ""
+                        "confirm": "Tak, odłącz konto",
+                        "cancel": "Nie!"
                     }
                 }
             }
         },
         "admin": {
             "settings": {
-                "title": "",
-                "api_key_label": ""
+                "title": "Ustawienia logowania Steam",
+                "api_key_label": "API Key"
             }
         }
     }
