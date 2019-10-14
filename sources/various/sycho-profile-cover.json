@@ -1,0 +1,25 @@
+{
+    "sycho-profile-cover": {
+        "admin": {
+            "settings": "ProfileCover Settings",
+            "thumbnails": "Create thumbnails",
+            "cover_size": "Images size",
+            "thumb_size": "Thumbnails size",
+            "size_of_images": "{size} out of {count} image|{size} out of {count} images",
+            "size_of_thumbs": "{size} out of {count} thumbnail|{size} out of {count} thumbnails"
+        },
+        "forum": {
+            "cover": "Cover",
+            "edit_cover": "Edit Cover",
+            "notice": "Maximum size: 2MB",
+            "added": {
+                "success": "Profile cover updated.",
+                "error": "Image could not be uploaded."
+            },
+            "removed": {
+                "success": "Profile cover removed.",
+                "error": "Could not remove cover, try again later."
+            }
+        }
+    }
+}
