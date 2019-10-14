@@ -1,24 +1,24 @@
 {
     "sycho-profile-cover": {
         "admin": {
-            "settings": "",
-            "thumbnails": "",
-            "cover_size": "",
-            "thumb_size": "",
-            "size_of_images": "",
-            "size_of_thumbs": ""
+            "settings": "Ustawienia tła profilu",
+            "thumbnails": "Utwórz miniaturki",
+            "cover_size": "Wielkość obrazków",
+            "thumb_size": "Wielkość miniatur",
+            "size_of_images": "{size} w {count} obrazku|{size} w {count} obrazkach",
+            "size_of_thumbs": "{size} w {count} miniaturce|{size} w {count} miniaturkach"
         },
         "forum": {
-            "cover": "",
-            "edit_cover": "",
-            "notice": "",
+            "cover": "Tło",
+            "edit_cover": "Edytuj tło",
+            "notice": "Maksymalna wielkość: 2 MB",
             "added": {
-                "success": "",
-                "error": ""
+                "success": "Tło profilu zostało zaktualizowane.",
+                "error": "Nie udało się wysłać obrazka."
             },
             "removed": {
-                "success": "",
-                "error": ""
+                "success": "Tło profilu zostało usunięte.",
+                "error": "Nie udało się usunąć tła profilu, spróbuj ponownie za jakiś czas."
             }
         }
     }
