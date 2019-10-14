@@ -3,6 +3,7 @@
         "admin": {
             "settings": "ProfileCover Settings",
             "thumbnails": "Create thumbnails",
+            "max_size": "Maximum profile cover image size (in KB)",
             "cover_size": "Images size",
             "thumb_size": "Thumbnails size",
             "size_of_images": "{size} out of {count} image|{size} out of {count} images",
@@ -11,7 +12,7 @@
         "forum": {
             "cover": "Cover",
             "edit_cover": "Edit Cover",
-            "notice": "Maximum size: 2MB",
+            "notice": "Maximum size: {size}",
             "added": {
                 "success": "Profile cover updated.",
                 "error": "Image could not be uploaded."
