@@ -25,17 +25,17 @@
         },
         "admin": {
             "settings": {
-                "title": "Ustawienia syndykacji",
+                "title": "Ustawienia kanałów RSS",
                 "full-text": {
-                    "label": "",
-                    "help": "",
-                    "recommendation": ""
+                    "label": "Udostępnij pełną treść",
+                    "help": "Jeśli wyłączone, kanał będzie zawierał tylko fragmenty postów. Aby zobaczyć pełną treść posta, użytkownik musi odwiedzić forum.\n",
+                    "recommendation": "Rekomendowane jest pozostawienie tej opcji włączonej - pozwoli to śledzić forum za pomocą czytników RSS.\n"
                 },
                 "html": {
-                    "label": "",
-                    "help": ""
+                    "label": "Formatowanie kanałów",
+                    "help": "Zaznacz aby wyświetlać HTML w treści kanałów. Jeśli wyłączone, kanały będą zawierały jedynie czysty tekst."
                 },
-                "entries-count": ""
+                "entries-count": "Ile pozycji wyświetlać w kanale?"
             }
         }
     }
