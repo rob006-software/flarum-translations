@@ -29,6 +29,7 @@ return [
 	'dem13n-auth-vkontakte' => 'https://raw.githubusercontent.com/Dem13n/auth-vkontakte/master/resources/locale/en.yml',
 	'dem13n-auth-yandex' => 'https://raw.githubusercontent.com/Dem13n/auth-yandex/master/resources/locale/en.yml',
 	'dem13n-nickname-changer' => 'https://raw.githubusercontent.com/Dem13n/nickname-changer/master/resources/locale/en.yml',
+	'dexif-telegram' => 'https://raw.githubusercontent.com/dexif/telegram/dexif/resources/locale/en.yml',
 	'extiverse-bazaar' => 'https://raw.githubusercontent.com/extiverse/bazaar/master/resources/locale/en.yml',
 	'fajuu-contactbutton' => 'https://raw.githubusercontent.com/Fajuu/ContactButton/master/locale/en.yml',
 	'fajuu-icons' => 'https://raw.githubusercontent.com/Fajuu/flarum-icons/master/resources/locale/en.yml',
