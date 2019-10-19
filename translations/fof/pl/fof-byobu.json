@@ -47,8 +47,8 @@
                 "byobu_link": "Prywatne dyskusje"
             },
             "notifications": {
-                "pd_label": "",
-                "pd_text": ""
+                "pd_label": "Ktoś doda mnie do prywatnej dyskusji",
+                "pd_text": "{username} utworzył nową prywatną dyskusję z tobą"
             }
         },
         "admin": {
@@ -65,7 +65,7 @@
         },
         "notifications": {
             "private_discussion_created": {
-                "title": ""
+                "title": "[forum-name] Nowa prywatna dyskusja z user"
             }
         }
     }
