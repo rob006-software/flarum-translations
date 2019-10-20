@@ -74,6 +74,7 @@ return [
 	'reflar-webhooks' => 'https://raw.githubusercontent.com/ReFlar/webhooks/master/resources/locale/en.yml',
 	'saleksin-auth-google' => 'https://raw.githubusercontent.com/saleksin/flarum-auth-google/master/locale/en.yml',
 	'shriker-pronouns' => 'https://raw.githubusercontent.com/shriker/flarum-pronouns/master/resources/locale/en.yml',
+	'sinamics-default-preferences' => 'https://raw.githubusercontent.com/Sinamics/flarum-default-preferences/master/no-translation-source.yml',
 	'squeevee-fancybox' => 'https://raw.githubusercontent.com/squeevee/flarum-ext-fancybox/master/locale/en.yml',
 	'sycho-profile-cover' => 'https://raw.githubusercontent.com/SychO9/flarum-profile-cover/master/resources/locale/en.yml',
 	'tituspijean-auth-ssowat' => 'https://raw.githubusercontent.com/tituspijean/flarum-ext-auth-ssowat/master/locale/en.yml',
