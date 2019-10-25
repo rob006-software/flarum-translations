@@ -45,6 +45,12 @@
                     "title": "Ustawienia magazynu OVH SVFS",
                     "username": "Username"
                 },
+                "qiniu": {
+                    "title": "",
+                    "key": "",
+                    "secret": "",
+                    "bucket": ""
+                },
                 "preferences": {
                     "max_file_size": "Maksymalna wielkość pliku (w kilobajtach)",
                     "mime_types": "Skonfiguruj mapowanie typu MIME i adaptera przesyłania",
@@ -79,7 +85,8 @@
                 "aws-s3": "Amazon S3",
                 "imgur": "Imgur",
                 "local": "Lokalnie",
-                "ovh-svfs": "OVH SVFS"
+                "ovh-svfs": "OVH SVFS",
+                "qiniu": ""
             }
         },
         "forum": {
