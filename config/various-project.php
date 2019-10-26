@@ -75,6 +75,7 @@ return [
 	'shriker-pronouns' => 'https://raw.githubusercontent.com/shriker/flarum-pronouns/master/resources/locale/en.yml',
 	'squeevee-fancybox' => 'https://raw.githubusercontent.com/squeevee/flarum-ext-fancybox/master/locale/en.yml',
 	'sycho-profile-cover' => 'https://raw.githubusercontent.com/SychO9/flarum-profile-cover/master/resources/locale/en.yml',
+	'tank-perspective' => 'https://raw.githubusercontent.com/tankerkiller125/flarum-perspective/master/resources/locale/en.yml',
 	'tituspijean-auth-ssowat' => 'https://raw.githubusercontent.com/tituspijean/flarum-ext-auth-ssowat/master/locale/en.yml',
 	'tpokorra-post-notification' => 'https://raw.githubusercontent.com/tpokorra/flarum-ext-post-notification/master/resources/locale/en.yml',
 	'v17development-seo' => 'https://raw.githubusercontent.com/v17development/flarum-seo/master/locale/en.yml',
