@@ -7,7 +7,7 @@
                     "signup-legal-text": "Dodatkowy tekst w formularzu rejestracji",
                     "hide-updated-at": "Nie pokazuj daty aktualizacji polityk, jeśli aktualizacja jest dostępna",
                     "date-format": "Format daty",
-                    "date-format-help": "Możesz użyć dowolnego formatu obsługiwane przez <a>Moment.js</a>. Zostaw pole puste, aby wykorzystać domyślny format."
+                    "date-format-help": "Możesz użyć dowolnego formatu obsługiwanego przez <a>Moment.js</a>. Zostaw pole puste, aby wykorzystać domyślny format."
                 }
             },
             "titles": {
@@ -33,9 +33,9 @@
                 "update-message-help": "Wiadomość zostanie pokazana zarejestrowanym użytkownikom, którzy jeszcze nie zaakceptowali najnowszej wersji polityki.",
                 "terms-updated-at": "Data aktualizacji",
                 "terms-updated-at-placeholder": "YYYY-MM-DD (hh:mm:ss)",
-                "terms-updated-at-help": "Data ostatniej aktualizacji polityki. Ustawienie tej wartości wymusi ponowną akceptację dla wszystkich użytkowników, którzy zaakceptowali politykę przed tą datą. Data musi być z przeszłości (w przeciwnym razie użytkownicy nigdy nie będą w stanie zaakceptować polityki po tej dacie).\n",
+                "terms-updated-at-help": "Data ostatniej aktualizacji polityki. Ustawienie tej wartości wymusi ponowną akceptację dla wszystkich użytkowników, którzy zaakceptowali politykę przed tą datą. Data musi być z przeszłości (w przeciwnym razie użytkownicy nie będą w stanie zaakceptować polityki).\n",
                 "export-url": "Eksport",
-                "export-url-help": "Każdy użytkownik z uprawnieniem \"Eksportowanie wszystkich danych o politykach\" ma dostęp do tych adresów URL, które pozwalają pobrać listę użytkowników, którzy zaakceptowali daną politykę. Możesz naleźć więcej informacji o dostępnych opcjach na <a>wiki rozszerzenia</a>.\n"
+                "export-url-help": "Każdy użytkownik z uprawnieniem \"Eksportowanie wszystkich danych o politykach\" ma dostęp do tych adresów URL, które pozwalają pobrać listę użytkowników, którzy zaakceptowali daną politykę. Możesz znaleźć więcej informacji o dostępnych opcjach na <a>wiki rozszerzenia</a>.\n"
             },
             "permissions": {
                 "see-user-policies-state": "Przeglądanie statusu akceptacji polityk przez użytkownika",
