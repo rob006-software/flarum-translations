@@ -45,11 +45,11 @@
                 "starts-at": "Czas rozpoczęcia",
                 "ends-at": "Czas zakończenia",
                 "starting-pack": "Pakiet startowy",
-                "starting-pack-help": "Będzie zawierać kilka ryb, które pomogą Ci zacząć w mgnieniu oka",
+                "starting-pack-help": "Będzie zawierać kilka ryb, które pozwolą ci od razu zacząć",
                 "create": "Utwórz rundę",
                 "save": "Zapisz rundę",
                 "delete": "Usuń rundę",
-                "delete-confirmation": "Usunąć rundę \"{name}\" ?"
+                "delete-confirmation": "Usunąć rundę \"{name}\"?"
             },
             "edit-fish": {
                 "name": "Nazwa",
@@ -57,53 +57,53 @@
                 "create": "Utwórz rybę",
                 "save": "Zapisz rybę",
                 "delete": "Usuń rybę",
-                "delete-confirmation": "Usunąć rybę \"{name}\" ?"
+                "delete-confirmation": "Usunąć rybę \"{name}\"?"
             },
             "moving-fish": {
                 "login": "Zaloguj się, aby łowić ryby"
             },
             "fish-image": {
-                "alt": "Obraz ryby \"{name}\"",
-                "missing": "Brak obrazu ryby"
+                "alt": "Obrazek ryby \"{name}\"",
+                "missing": "Brak obrazka ryby"
             },
             "round-alert": {
-                "message": "Okrąż\"{name}\", złap jak najwięcej ryb do {time}",
+                "message": "Runda \"{name}\", złap jak najwięcej ryb do {time}",
                 "rankings": "Zobacz rankingi"
             },
             "basket": {
-                "title": "Koszyk rybny",
+                "title": "Koszyk na ryby",
                 "drag-help": "Przeciągnij i upuść rybę w dyskusji, poście lub profilu użytkownika",
-                "time": "Miejsce do: {time}"
+                "time": "Umieść do: {time}"
             },
             "table-round": {
                 "loading": "Ładowanie...",
                 "title": "Rundy",
                 "new": "Nowa runda",
                 "name": "Nazwa",
-                "start": "Z",
+                "start": "Od",
                 "end": "Do",
-                "actions": "Działania",
+                "actions": "Akcje",
                 "edit": "Edytuj",
                 "fishes": "Ryby"
             },
             "table-fish": {
                 "loading": "Ładowanie...",
-                "title": "Ryby dla rundy {name}",
+                "title": "Ryby dla rundy \"{name}\"",
                 "new": "Nowa ryba",
-                "image": "Obraz",
+                "image": "Obrazek",
                 "name": "Nazwa",
-                "user-name": "Ostatnio nazwany przez",
-                "user-place": "Ostatnio umieszczone przez",
-                "actions": "Działania",
+                "user-name": "Ostatnio nazwana przez",
+                "user-place": "Ostatnio umieszczona przez",
+                "actions": "Akcje",
                 "edit": "Edytuj",
                 "no-user-name": "Nie zmieniono nazwy",
-                "no-user-place": "Losowy",
-                "upload": "Prześlij nowy obraz",
+                "no-user-place": "Losowo",
+                "upload": "Prześlij nowy obrazek",
                 "new-from-image": "Twórz nowe ryby poprzez zbiorczy import obrazów"
             },
             "table-ranking": {
                 "loading": "Ładowanie...",
-                "title": "Ranking rundy {name}",
+                "title": "Ranking rundy \"{name}\"",
                 "rank": "Nazwa",
                 "count": "Złowione ryby",
                 "user": "Użytkownik"
@@ -120,43 +120,43 @@
         },
         "admin": {
             "settings": {
-                "title": "Złap Rybę Ustawienia",
-                "discussion-age": "Jak stare mogą być dyskusje aby móc umieścić w nich rybę (dni)",
-                "post-age": "Jak stare mogą być posty aby umieścić w nich rybę (dni)",
-                "user-age": "Jak długo użytkownik musi być aktywny, aby umieścić na nim rybę (dni)",
-                "time-to-place": "Czas na umieszczenie ryb przed ich losowym umieszczeniem (minuty)",
-                "alert-round": "Pokaż alert z nazwą i czasem trwania na stronie głównej",
+                "title": "Ustawienia łowienia ryb",
+                "discussion-age": "Jak stare mogą być dyskusje, aby móc umieścić na nich rybę (dni)",
+                "post-age": "Jak stare mogą być posty, aby móc umieścić na nich rybę (dni)",
+                "user-age": "Jak długo użytkownik może być nieaktywny, aby móc umieścić na nim rybę (dni)",
+                "time-to-place": "Czas na umieszczenie ryby, zanim zostanie rozmieszczona losowo (minuty)",
+                "alert-round": "Pokaż na stronie głównej alert z nazwą rundy i czasem trwania",
                 "animate-flip": "Odwróć obrazy ryb na podstawie kierunku"
             },
             "permissions": {
-                "visible": "Zobacz ryby",
-                "list-rankings": "Dostęp na stronę rankingów",
-                "participate": "Bierz udział w rundach i łap ryby",
-                "choose-place": "Wybierz miejsce ryb po złowieniu",
-                "choose-name": "Wybierz nazwę ryby po złowieniu",
-                "moderate": "Umiarkowane rundy i ryby"
+                "visible": "Może zobaczyć ryby",
+                "list-rankings": "Dostęp do strony z rankingami",
+                "participate": "Uczestniczenie w rundach i łapaniu ryb",
+                "choose-place": "Wybieranie miejsca dla ryby po jej złowieniu",
+                "choose-name": "Wybieranie nazwy dla ryby po jej złowieniu",
+                "moderate": "Moderowanie rund oraz ryb"
             }
         },
         "api": {
             "default-fish-name": "Ryba #{number}",
-            "wrong-catch-placement": "Tu nie ma ryb. Może nie byłeś wystarczająco szybki i ktoś inny ją dostał",
-            "too-many-placement-models": "Jednorazowo możliwe jest tylko jedno miejsce docelowe",
-            "invalid-discussion-id": "Wydaje się, że dyskusja nie istnieje, być może została niedawno usunięta",
-            "invalid-post-id": "Post wydaje się nie istnieć, być może został niedawno usunięty",
-            "invalid-user-id": "Użytkownik nie istnieje, być może został niedawno usunięty",
-            "model-deleted": "Nie można umieścić ryby w usuniętej dyskusji lub poście",
-            "model-private": "Nie można umieścić ryby w prywatnej dyskusji lub poście",
-            "inactive-discussion": "Nie można umieścić ryby w dyskusji nieaktywnej dłużej niż {days} dni",
-            "inactive-post": "Nie można umieścić ryby na poście utworzonym więcej niż {days} dni temu",
-            "inactive-user": "Nie można umieścić ryb nieaktywnych użytkowników przez dłużej niż  {days} dni",
-            "non-comment-post": "Może umieszczać ryby tylko w komentarzach",
+            "wrong-catch-placement": "Tu nie ma żadnych ryb. Może nie byłeś wystarczająco szybki i ktoś inny złapał ją przed tobą",
+            "too-many-placement-models": "Rybę można umieścić tylko w jednym miejscu",
+            "invalid-discussion-id": "Ta dyskusja nie istnieje, być może została niedawno usunięta",
+            "invalid-post-id": "Ten post nie istnieje, być może został niedawno usunięty",
+            "invalid-user-id": "Ten użytkownik nie istnieje, być może został niedawno usunięty",
+            "model-deleted": "Nie można umieścić ryby na usuniętej dyskusji lub poście",
+            "model-private": "Nie można umieścić ryby na prywatnej dyskusji lub poście",
+            "inactive-discussion": "Nie można umieścić ryby na dyskusji nieaktywnej dłużej niż {days} dni",
+            "inactive-post": "Nie można umieścić ryby na poście utworzonym wcześniej niż {days} dni temu",
+            "inactive-user": "Nie można umieścić ryby na użytkowniku nieaktywnym dłużej niż {days} dni",
+            "non-comment-post": "Można umieszczać ryby tylko na postach",
             "user-suspended": "Nie można umieścić ryby na zawieszonym użytkowniku",
-            "random-error": "Nie można wygenerować losowego umieszczenia ryby",
+            "random-error": "Nie udało się wygenerować losowej pozycji dla tej ryby",
             "cannot-catch-own-fish": "Nie możesz złapać ryby, którą sam umieściłeś",
-            "cannot-catch-hold-fish": "Poprzedni łapacz musi uwolnić rybę, zanim będzie można ją złapać",
+            "cannot-catch-hold-fish": "Użytkownik który poprzednio złapał rybę musi ją uwolnić, zanim będzie można ją złapać ponownie",
             "fish-update-wrong-user": "Nie możesz już edytować tej ryby. Ktoś prawdopodobnie ją złapał",
             "fish-update-expired": "Za późno, nie możesz już edytować tej ryby. W międzyczasie została gdzieś automatycznie umieszczona",
-            "round-not-started": "Ta runda się nie rozpoczęła",
+            "round-not-started": "Ta runda jeszcze się nie rozpoczęła",
             "round-finished": "Ta runda jest zakończona"
         }
     }
