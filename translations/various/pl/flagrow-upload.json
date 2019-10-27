@@ -10,8 +10,8 @@
                 "disable-hotlink-protection": "Ochrona przed hotlinkowaniem zapobiega otwieraniu tutejszych plików z poziomu innych stron. Obecna metoda wymaga tokenu CSRF i identyfikatora postu.\n",
                 "download_templates": "Szablony pobierania decydują o tym jak przesłane pliki są wyświetlane na twoim forum, np. podgląd miniatury, przyciski. Obecnie dostępne:\n",
                 "mime_types": "Proszę skonfiguruj poniżej mapowanie. Każde wyrażenie regularne dla typu MIME będzie obsłużone przez odpowiedni adapter przesyłania i szablon pobierania.\n",
-                "resize": "Wybierz czy chcesz zmienić rozmiar swoich obrazów zanim zostaną przesłane. Możesz wybrać maksymalną szerokość i wysokość w pikselach. Proces zmiany rozmiaru utrzyma proporcje obrazu.\n",
-                "watermark": "Wybierz, czy obrazy będą miały dodany znak wodny podczas przesyłania. Znaki wodne są dodawane do nie-gifów bazując na twoich preferencjach poniżej.\n"
+                "resize": "Wybierz czy chcesz zmienić rozmiar obrazków zanim zostaną przesłane. Możesz wybrać maksymalną szerokość i wysokość w pikselach. Proces zmiany rozmiaru zachowa proporcje obrazka.\n",
+                "watermark": "Wybierz, czy obrazki będą miały dodany znak wodny podczas przesyłania. Znaki wodne są dodawane do nie-gifów bazując na twoich preferencjach poniżej.\n"
             },
             "labels": {
                 "aws-s3": {
@@ -57,16 +57,16 @@
                     "title": "Preferencje ogólne"
                 },
                 "resize": {
-                    "max_height": "Maksymalna wysokość obrazu",
-                    "max_width": "Maksymalna szerokość obrazu",
-                    "title": "Zmiana rozmiaru obrazów",
-                    "toggle": "Zmieniaj rozmiar obrazów"
+                    "max_height": "Maksymalna wysokość obrazka",
+                    "max_width": "Maksymalna szerokość obrazka",
+                    "title": "Zmiana rozmiaru obrazków",
+                    "toggle": "Zmieniaj rozmiar obrazków"
                 },
                 "watermark": {
                     "file": "Prześlij swój znak wodny",
                     "position": "Pozycja znaku wodnego",
-                    "title": "Oznaczanie obrazów znakiem wodnym",
-                    "toggle": "Oznaczaj obrazy znakami wodnymi"
+                    "title": "Oznaczanie obrazków znakiem wodnym",
+                    "toggle": "Oznaczaj obrazki znakiem wodnym"
                 }
             },
             "permissions": {
@@ -76,10 +76,10 @@
             "templates": {
                 "file": "Domyślny szablon pobierania pliku",
                 "file_description": "Wyświetla nazwę pliku i podstawowe informacje o nim. Przekierowuje pobieranie przez PHP, pozwalając na zbieranie statystyk i ochronę przed hotlinkowaniem.\n",
-                "image": "Domyślny szablon dla obrazów",
-                "image-preview": "Szablon z podglądem kompletnego obrazu",
-                "image-preview_description": "Wyświetla cały obraz in-line. Brak funkcji pobierania, statystyki nie są zbierane i hotlinkowanie nie będzie blokowane.\n",
-                "image_description": "Wyświetla miniaturę obrazu i przekierowuje pobieranie przez PHP. Pozwala na zbieranie statystyk i ochronę przed hotlinkowaniem.\n"
+                "image": "Domyślny szablon dla obrazków",
+                "image-preview": "Szablon z podglądem kompletnego obrazka",
+                "image-preview_description": "Wyświetla cały obrazek in-line. Brak funkcji pobierania, statystyki nie są zbierane i hotlinkowanie nie będzie blokowane.\n",
+                "image_description": "Wyświetla miniaturę obrazka i przekierowuje pobieranie przez PHP. Pozwala na zbieranie statystyk i ochronę przed hotlinkowaniem.\n"
             },
             "upload_methods": {
                 "aws-s3": "Amazon S3",
