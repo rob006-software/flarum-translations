@@ -127,6 +127,7 @@ If you're maintaining language pack or want to add it to the collective, open an
 | Extension | Status |
 | --- | --- |
 | [Advanced Pusher by Zhishiq](https://github.com/ZhiShiQ/FlarumPusher) | [![Translation status](https://weblate.rob006.net/widgets/flarum-extensions/-/zhishiq-pusher/svg-badge.svg)](https://weblate.rob006.net/projects/flarum-extensions/zhishiq-pusher/) |
+| [Affiliation Links by Kilowhat](https://github.com/kilowhat/flarum-ext-affiliation-links) | [![Translation status](https://weblate.rob006.net/widgets/flarum-extensions/-/kilowhat-affiliation-links/svg-badge.svg)](https://weblate.rob006.net/projects/flarum-extensions/kilowhat-affiliation-links/) |
 | [Analytics by Flagrow](https://github.com/flagrow/analytics) | [![Translation status](https://weblate.rob006.net/widgets/flarum-extensions/-/flagrow-analytics/svg-badge.svg)](https://weblate.rob006.net/projects/flarum-extensions/flagrow-analytics/) |
 | [Announce by Zerosonesfun](https://github.com/zerosonesfun/announce) | [![Translation status](https://weblate.rob006.net/widgets/flarum-extensions/-/zerosonesfun-announce/svg-badge.svg)](https://weblate.rob006.net/projects/flarum-extensions/zerosonesfun-announce/) |
 | [Author Change by Clarkwinkelmann](https://github.com/clarkwinkelmann/flarum-ext-author-change) | [![Translation status](https://weblate.rob006.net/widgets/flarum-extensions/-/clarkwinkelmann-author-change/svg-badge.svg)](https://weblate.rob006.net/projects/flarum-extensions/clarkwinkelmann-author-change/) |
