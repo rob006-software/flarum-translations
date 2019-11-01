@@ -5,10 +5,12 @@
                 "defaults_label": "Ustaw \"{setting}\" domyślnie włączone",
                 "forced_label": "Wymuś włączenie \"{setting}\" dla wszystkich",
                 "notify_discussion_created_label": "Ktoś utworzył dyskusję",
+                "notify_post_unapproved_label": "",
                 "notify_user_created_label": "Ktoś się zarejestrował"
             },
             "notifications": {
                 "discussion_created_text": "{username} utworzył nową dyskusję",
+                "post_unapproved_text": "",
                 "user_created_text": "{username} właśnie się zarejestrował"
             }
         },
@@ -18,6 +20,7 @@
             },
             "permission": {
                 "subscribe_to_discussion_created": "Otrzymywanie powiadomień o nowych dyskusjach",
+                "subscribe_to_post_unapproved": "",
                 "subscribe_to_user_created": "Otrzymywanie powiadomień o rejestracji nowego użytkownika"
             }
         }
