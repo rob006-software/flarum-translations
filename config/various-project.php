@@ -45,6 +45,7 @@ return [
 	'flagrow-upload' => 'https://raw.githubusercontent.com/FriendsOfFlarum/upload/master/resources/locale/en.yml',
 	'giga300-auth-discord' => 'https://raw.githubusercontent.com/giga300/flarum-auth-discord/master/locale/en.yml',
 	'hiqstd-close' => 'https://raw.githubusercontent.com/HiQStd/flarum-ext-close/master/resources/locale/en.yml',
+	'kilowhat-affiliation-links' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-affiliation-links/master/resources/locale/en.yml',
 	'kilowhat-mailing' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-mailing/master/resources/locale/en.yml',
 	'kvothe-keyboard-shortcuts' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-keyboard-shortcuts/master/resources/locale/en.yml',
 	'kvothe-reply-to-see' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-reply2see/master/resources/locale/en.yml',
