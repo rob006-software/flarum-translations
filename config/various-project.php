@@ -84,6 +84,7 @@ return [
 	'wiwatsrt-best-answer' => 'https://raw.githubusercontent.com/wiwatsrt/flarum-ext-best-answer/master/locale/en.yml',
 	'xmugenx-post-blacklist' => 'https://raw.githubusercontent.com/xmugenx/flarum-ext-post-blacklist/master/resources/locale/en.yml',
 	'zerosonesfun-announce' => 'https://raw.githubusercontent.com/zerosonesfun/announce/master/resources/locale/en.yml',
+	'zerosonesfun-link-previews' => 'https://raw.githubusercontent.com/zerosonesfun/flarum-ext-link-previews/master/no-translation-source.yml',
 	'zhishiq-pusher' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumPusher/master/locale/en.yaml',
 	'zhishiq-queue' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumQueue/master/locale/en.yaml',
 	'zhishiq-redis' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumRedis/master/locale/en.yaml',
