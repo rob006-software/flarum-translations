@@ -21,6 +21,7 @@ return [
 	'fof-auth-discord' => 'https://raw.githubusercontent.com/FriendsOfFlarum/auth-discord/master/resources/locale/en.yml',
 	'fof-auth-gitlab' => 'https://raw.githubusercontent.com/FriendsOfFlarum/auth-gitlab/master/resources/locale/en.yml',
 	'fof-ban-ips' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ban-ips/master/resources/locale/en.yml',
+	'fof-best-answer' => 'https://raw.githubusercontent.com/FriendsOfFlarum/best-answer/master/resources/locale/en.yml',
 	'fof-byobu' => 'https://raw.githubusercontent.com/FriendsOfFlarum/byobu/master/resources/locale/en.yml',
 	'fof-custom-footer' => 'https://raw.githubusercontent.com/FriendsOfFlarum/custom-footer/master/resources/locale/en.yml',
 	'fof-default-group' => 'https://raw.githubusercontent.com/FriendsOfFlarum/default-group/master/resources/locale/en.yml',
