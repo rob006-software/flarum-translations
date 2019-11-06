@@ -12,33 +12,35 @@
                 "help_text": "Upewnij się że nazwa użytkownika jest zgodna z regulaminem społeczności.",
                 "decision_title": "Decyzja",
                 "approval_label": "Zatwierdź",
-                "denial_label": "Odrzuć",
+                "rejected_label": "Odrzuć",
                 "submit_button": "Zatwierdź",
                 "reason_title": "Powód odmowy",
                 "success": "Decyzja wysłana.",
-                "name": "{username} poprosił o zmianę nazwy użytkownika na \"{newUsername}\""
+                "name": "{username} poprosił o zmianę nazwy użytkownika na \"{newUsername}\"",
+                "denial_label": "Odrzuć"
             },
             "results": {
-                "title": "Zmiana nazwy użytkownika",
-                "approved": "Twoja prośba o zmianę nazwy użytkownika została zaakceptowana!",
-                "new_username": "Twoja nazwa użytkownika to teraz \"{username}\"",
-                "denied": "Twoja prośba o zmianę nazwy użytkownika została odrzucona",
-                "reason": "Powód: <i>\"{reason}\"</i>",
-                "resubmit": "Możesz wysłać nową prośbę o zmianę nazwy użytkownika z poziomu ustawień konta."
+                "title": "Prośba o zmianę nazwy użytkownika",
+                "approved": "Twoja prośba o zmianę nazwy użytkownika została zaakceptowana",
+                "new_username": "Twoja nazwa użytkownika została zmieniona na: \"{username}\"",
+                "rejected": "Twoja prośba o zmianę nazwy użytkownika została odrzucona",
+                "reason": "Powód odmowy: <i>\"{reason}\"</i>.",
+                "resubmit": "Od tej chwili możesz wysłać nową prośbę o zmianę nazwy użytkownika z poziomu ustawień konta.",
+                "denied": "Twoja prośba o zmianę nazwy użytkownika została odrzucona"
             },
             "request": {
                 "title": "Poproś o zmianę nazwy użytkownika",
                 "current_request": "Już poprosiłeś o zmianę nazwy użytkownika na \"{username}\". Możesz edytować lub usunąć tę prośbę.",
                 "submit_button": "Wyślij prośbę",
                 "delete_button": "Usuń prośbę",
-                "confirmation_message": "Twoja prośba została wysłana i wkrótce zostanie zweryfikowana.",
-                "dismiss_button": "Rozumiem",
+                "confirmation_message": "Twoja prośba o zmianę nazwy użytkownika została wysłana i oczekuje na akceptację moderatora.",
+                "dismiss_button": "=> core.ref.okay",
                 "deleted": "Prośba o zmianę nazwy użytkownika została usunięta."
             },
             "account_label": "Zmień nazwę użytkownika",
             "profile_link": "Historia nazwy użytkownika",
             "dropdown": {
-                "empty_text": "Nie znaleziono żadnych próśb o zmianę nazwy użytkownika",
+                "empty_text": "Nie znaleziono żadnych próśb o zmianę nazwy użytkownika.",
                 "tooltip": "=> fof-username-request.forum.dropdown.title",
                 "title": "Prośby o zmianę nazwy użytkownika",
                 "item_text": "{username} poprosił o zmianę nazwy użytkownika",

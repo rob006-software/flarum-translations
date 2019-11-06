@@ -13,11 +13,13 @@
         "admin": {
             "settings": {
                 "days_label": "Dni",
-                "days_help": "Dyskusja zostanie oznaczona jako stara, jeśli podana liczba dni minie od czasu opublikowania ostatniej odpowiedzi w tej dyskusji.",
+                "days_help": "Dyskusja zostanie oznaczona jako stara, jeśli podana liczba dni minie od czasu opublikowania ostatniej odpowiedzi w tej dyskusji. Użyj <code>0</code> aby domyślnie wyłączyć.",
                 "message_title_label": "Niestandardowy tytuł wiadomości",
                 "message_title_help": "Użyj <code>[time]</code> dla podania czasu tekstowo, np. \"14 dni\".",
                 "message_description_label": "Niestandardowa treść wiadomości",
-                "message_agreement_label": "Niestandardowa treść potwierdzenia (checkbox)"
+                "message_agreement_label": "Niestandardowa treść potwierdzenia (checkbox)",
+                "tags_title": "Tagi",
+                "tags_help": "Nadpisz globalne ustawienia dla konkretnego tagu. Zostaw puste, aby użyć domyślnej wartości. Jeśli dyskusja ma wiele tagów z różną liczbą dni, zostanie użyta najniższa wartość."
             }
         }
     }

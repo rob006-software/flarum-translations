@@ -9,40 +9,40 @@
         "forum": {
             "action": {
                 "title": "=> fof-username-request.forum.results.title",
-                "help_text": "Make sure the username follows the forum guidelines.",
+                "help_text": "Please make sure that this requested username change follows the forum guidelines.",
                 "decision_title": "Decision",
                 "approval_label": "Approve",
-                "denial_label": "Deny",
+                "rejected_label": "Reject",
                 "submit_button": "Submit",
-                "reason_title": "Reason for Denial",
+                "reason_title": "Reason for Rejection",
                 "success": "Decision sent.",
-                "name": "{username} has requested their username be changed to \"{newUsername}\""
+                "name": "{username} has requested to change their username to \"{newUsername}\""
             },
             "results": {
-                "title": "Username Change",
-                "approved": "Your username change request has been approved!",
-                "new_username": "Your username is now \"{username}\"",
-                "denied": "Your username request was denied",
-                "reason": "Reason: <i>\"{reason}\"</i>",
-                "resubmit": "You may resubmit a new username request from your account settings."
+                "title": "Username Change Request",
+                "approved": "Your username change request has been approved",
+                "new_username": "Your username has been successfully changed to: {username}",
+                "rejected": "Your username change request was rejected",
+                "reason": "Reason for rejection: <i>\"{reason}\"</i>.",
+                "resubmit": "At this time you may resubmit a new username change request from your account settings if you so choose to."
             },
             "request": {
                 "title": "Request Username Change",
-                "current_request": "You have already requested the username \"{username}.\" You can update or delete this request.",
+                "current_request": "You have already requested to change your username to \"{username}\". You can either update your request or delete it.",
                 "submit_button": "Submit Request",
                 "delete_button": "Delete Request",
-                "confirmation_message": "Your request has been received and will be reviewed soon.",
-                "dismiss_button": "Understood",
+                "confirmation_message": "Your username change request has been submitted and is pending approval.",
+                "dismiss_button": "=> core.ref.okay",
                 "deleted": "Username request deleted."
             },
             "account_label": "Change Username",
             "profile_link": "Username History",
             "dropdown": {
-                "empty_text": "No username requests found",
+                "empty_text": "No username change requests found.",
                 "tooltip": "=> fof-username-request.forum.dropdown.title",
                 "title": "Username Change Requests",
                 "item_text": "{username} requested a username change",
-                "exerpt": "Requsted username: {requestedUsername}"
+                "exerpt": "Requested username: {requestedUsername}"
             }
         }
     }

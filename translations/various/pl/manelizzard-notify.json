@@ -1,47 +1,47 @@
 {
     "flarum-notify": {
         "admin": {
-            "title": "",
-            "description": "",
+            "title": "Powiadomienia",
+            "description": "Zarządzaj powiadomieniami na Slacku, HipChacie i Gitterze.",
             "services": {
-                "title": "",
-                "description": "",
-                "unavailable": ""
+                "title": "Usługi powiadomień",
+                "description": "Wybierz które usługi powinny zostać poinformowane, gdy wystąpi jakieś zdarzenie wymagające wysłania powiadomień.",
+                "unavailable": "Ta wtyczka jest obecnie niedostępna. Jeśli chcesz jej użyć, postępuj zgodnie z <a>instrukcją instalacji</a>."
             },
             "events": {
-                "title": "",
-                "description": "",
-                "discussion_started": "",
-                "discussion_deleted": "",
-                "post_posted": "",
-                "post_hidden": "",
-                "post_deleted": ""
+                "title": "Powiadomienia dla zdarzeń",
+                "description": "Wybierz jakie zdarzenia powinny wysyłać powiadomienie. Wyślij powiadomienie gdy:",
+                "discussion_started": "nowa dyskusja zostanie rozpoczęta",
+                "discussion_deleted": "dyskusja zostanie usunięta",
+                "post_posted": "nowy post zostanie opublikowany",
+                "post_hidden": "post zostanie ukryty",
+                "post_deleted": "post zostanie usunięty"
             },
             "slack-modal": {
-                "title": "",
-                "description": "",
-                "token": "",
-                "channel": "",
-                "username": ""
+                "title": "Ustawienia Slacka",
+                "description": "Aby uzyskać token, odwiedź <a>https://api.slack.com/web</a>",
+                "token": "Slack token",
+                "channel": "Kanał dla powiadomień",
+                "username": "Nazwa użytkownika"
             },
             "hipchat-modal": {
-                "title": "",
-                "description": "",
-                "token": "",
-                "room": "",
-                "warning": ""
+                "title": "Ustawienia HipChata",
+                "description": "Aby uzyskać token, odwiedź ustawienia pokoju na hipchat.com (zaloguj się, kliknij na \"rooms\" i wybierz pokój, na którym chcesz publikować powiadomienia). Kliknij na \"Tokens\" aby utworzyć nowy token. Etykieta, którą ustawisz dla tokenu, będzie wyświetlana przy każdym powiadomieniu.",
+                "token": "HipChat token",
+                "room": "Kanał dla powiadomień (nazwa lub ID)",
+                "warning": "Notyfikacje nie działają dla samodzielnie hostowanej (self-hosted) instalacji HipChat."
             },
             "gitter-modal": {
-                "title": "",
-                "description": "",
-                "webhook": ""
+                "title": "Ustawienia Gittera",
+                "description": "Aby uzyskać webhook URL, odwiedź pokój na których chcesz publikować powiadomienia na <a>gitter.im</a>. Kliknij ikonę <i>Settings</i> > <i>Integrations</i> > <i>Custom</i>. To utworzy dla ciebie nowe webhook URL.",
+                "webhook": "Gitter webhook"
             },
             "telegram-modal": {
-                "title": "",
-                "description": "",
-                "apiKey": "",
-                "botName": "",
-                "chatId": ""
+                "title": "Ustawienia Telegrama",
+                "description": "Aby skonfigurować bota, postępuj zgodnie z <aBot>instrukcjami</aBot>. Następnie <aChatId>uzyskaj ID chatu</aChatId>.",
+                "apiKey": "Telegram API key",
+                "botName": "Telegram bot name",
+                "chatId": "Telegram chat ID"
             }
         }
     }

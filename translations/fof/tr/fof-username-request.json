@@ -12,19 +12,21 @@
                 "help_text": "Kullanıcı adının forum kurallarına uygun olduğundan emin olun.",
                 "decision_title": "Karar",
                 "approval_label": "Onayla",
-                "denial_label": "Reddet",
+                "rejected_label": "",
                 "submit_button": "Gönder",
                 "reason_title": "Reddedilme Nedeni",
                 "success": "Karar gönderildi.",
-                "name": "{username} adlı kullanıcı adı \"{newUsername}\" olarak değiştirildi."
+                "name": "{username} adlı kullanıcı adı \"{newUsername}\" olarak değiştirildi.",
+                "denial_label": "Reddet"
             },
             "results": {
                 "title": "Kullanıcı Adı Değişikliği",
                 "approved": "Kullanıcı adı değiştirme talebiniz alındı!",
                 "new_username": "Kullanıcı adınız şu anda \"{username}\"",
-                "denied": "Kullanıcı adınız reddedildi",
+                "rejected": "",
                 "reason": "Gerekçe: <i>\"{reason}\"</i>",
-                "resubmit": "Hesap ayarlarınızdan yeniden kullanıcı adı değişikliği talebi oluşturabilirsiniz."
+                "resubmit": "Hesap ayarlarınızdan yeniden kullanıcı adı değişikliği talebi oluşturabilirsiniz.",
+                "denied": "Kullanıcı adınız reddedildi"
             },
             "request": {
                 "title": "Kullanıcı Adı Değişikliği Talep Et",

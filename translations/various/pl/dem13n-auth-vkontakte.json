@@ -2,15 +2,15 @@
     "dem13n-auth-vkontakte": {
         "admin": {
             "vkontakte_settings": {
-                "title": "",
-                "app_id_label": "",
-                "app_key_label": "",
-                "app_desc": "",
-                "app_p": ""
+                "title": "Ustawienia logowania Vkontakte",
+                "app_id_label": "App ID",
+                "app_key_label": "App Secure Key",
+                "app_desc": "Możesz zarejestrować aplikację tutaj <a>https://vk.com/apps?act=manage</a>",
+                "app_p": "Callback URL"
             }
         },
         "forum": {
-            "login_with_vkontakte_button": ""
+            "login_with_vkontakte_button": "Zaloguj się za pomocą Vkontakte"
         }
     }
 }

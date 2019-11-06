@@ -1,5 +1,5 @@
 {
-    "flagrow-linguist": {
+    "fof-linguist": {
         "admin": {
             "menu": {
                 "title": "Linguist",
@@ -25,7 +25,12 @@
                 "with-original-translations-in-locales": "Z oryginalnym tłumaczeniem",
                 "without-original-translations-in-locales": "Bez oryginalnego tłumaczenia",
                 "for-extension": "Rozszerzenia",
-                "results": "Pokazuje {shown} z {total} wszystkich tłumaczeń"
+                "for-extension-unavailable": "Nie znaleziono żadnych tłumaczeń dla prefiksu \"{namespace}\". Możliwe, że to rozszerzenie nie posiada żadnych testów do przetłumaczenia lub korzysta z innego prefiksu. Spróbuj skorzystać z wyszukiwarki, aby znaleźć brakujące tłumaczenia.\n",
+                "results": "Wyświetlono {shown} z {total} pasujących tłumaczeń"
+            },
+            "clear-cache": {
+                "text": "Nowe tłumaczenia jeszcze nie zostały zastosowane. Uwaga: wyczyszczenie cache może chwilowo spowolnić twoje forum.\n",
+                "button": "Wyczyść cache teraz"
             }
         }
     }

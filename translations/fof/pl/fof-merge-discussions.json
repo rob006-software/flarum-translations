@@ -19,7 +19,14 @@
         },
         "admin": {
             "permissions": {
-                "merge_discussions_label": "Scal dyskusje"
+                "merge_discussions_label": "Scalanie dyskusji"
+            }
+        },
+        "api": {
+            "error": {
+                "merging_failed": "Nie udało się scalić dyskusji.",
+                "updating_failed": "Nie udało się odświeżyć informacji o dyskusji.",
+                "deleting_failed": "Nie udało się usunąć pustej dyskusji."
             }
         },
         "ref": {

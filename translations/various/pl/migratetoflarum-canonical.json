@@ -2,25 +2,25 @@
     "migratetoflarum-canonical": {
         "admin": {
             "settings": {
-                "title": "",
+                "title": "Ustawienia Canonical URL",
                 "step": {
-                    "how_to": "",
-                    "check_config_url": "",
-                    "admin_on_canonical": "",
-                    "enable_temporary": "",
-                    "enable_permanent": "",
-                    "suggestions": "",
-                    "use_https": "",
-                    "use_hsts": ""
+                    "how_to": "Jak włączyć przekierowania na adres kanoniczy",
+                    "check_config_url": "Sprawdź czy adres URL ustawiony w <code>config.php</code> jest preferowanym przez ciebie adresem kanonicznym (obecnie: {url})",
+                    "admin_on_canonical": "Uzyskaj dostęp do panelu admina przez ustawiony adres kanoniczny",
+                    "enable_temporary": "Włącz tymczasowe przekierowanie i sprawdź czy wszystko działa",
+                    "enable_permanent": "Włącz trwałe przekierowanie",
+                    "suggestions": "Inne sugestie, których to rozszerzenie nie wymusza lub nie obejmuje",
+                    "use_https": "Użyj HTTPS dla adresu kanonicznego",
+                    "use_hsts": "Użyj HSTS aby zapobiec atakom typu downgrade (downgrade attacks)"
                 },
                 "field": {
-                    "status": "",
-                    "wrong_url": ""
+                    "status": "Rodzaj przekierowania",
+                    "wrong_url": "Ustawienia rozszerzenia pojawią się gdy uzyskasz dostęp do forum przez adres kanoniczny"
                 },
                 "option": {
-                    "disabled": "",
-                    "302": "",
-                    "301": ""
+                    "disabled": "Wyłączone (rozszerzenie nic nie będzie robić)",
+                    "302": "302 (tymczasowe przekierowanie - dla testów)",
+                    "301": "301 (trwałe przekierowanie - dla środowisk produkcyjnych)"
                 }
             }
         }

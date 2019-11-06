@@ -2,21 +2,21 @@
     "migratetoflarum-vbulletin-redirects": {
         "admin": {
             "settings": {
-                "title": "",
-                "disclaimer": "",
+                "title": "Ustawienia przekierowań VBulletin",
+                "disclaimer": "Bądź ostrożny z tymi ustawieniami. Odpowiednie wartości zostały ustawione podczas migracji i prawdopodobnie nie wymagają żadnych zmian!\n",
                 "field": {
-                    "discussionIncrement": "",
-                    "userIncrement": "",
-                    "tagIncrement": "",
-                    "redirectStatus": ""
+                    "discussionIncrement": "Przesunięcie ID dyskusji (wątku)",
+                    "userIncrement": "Przesunięcie ID użytkownika",
+                    "tagIncrement": "Przesunięcie ID tagu (forum)",
+                    "redirectStatus": "Rodzaj przekierowania"
                 },
                 "option": {
-                    "301": "",
-                    "302": ""
+                    "301": "301 (trwałe przekierowanie - dla środowisk produkcyjnych)",
+                    "302": "302 (tymczasowe przekierowanie - dla testów)"
                 },
                 "button": {
-                    "showAdvanced": "",
-                    "hideAdvanced": ""
+                    "showAdvanced": "Pokaż zaawansowane ustawienia",
+                    "hideAdvanced": "Ukryj zaawansowane ustawienia"
                 }
             }
         }

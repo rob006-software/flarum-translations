@@ -2,13 +2,13 @@
     "tpokorra-post-notification": {
         "admin": {
             "settings": {
-                "title": "",
+                "title": "Ustawienia powiadomień o postach",
                 "recipients": {
-                    "to": "",
-                    "bcc": ""
+                    "to": "Lista adresatów - adresy e-mail rozdzielone przecinkami",
+                    "bcc": "Lista ukrytych adresatów (BCC) - adresy e-mail rozdzielone przecinkami"
                 },
-                "new_post": "",
-                "revised_post": ""
+                "new_post": "Etykieta opisująca nowy post",
+                "revised_post": "Etykieta opisująca edycję posta"
             }
         }
     }

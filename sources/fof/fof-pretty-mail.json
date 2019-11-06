@@ -2,7 +2,7 @@
     "fof-pretty-mail": {
         "admin": {
             "nav": {
-                "desc": "Customize your html email templates."
+                "desc": "Customize your HTML email templates."
             },
             "settings": {
                 "label": "Email Templates",
@@ -14,12 +14,12 @@
                 "postMentioned": "Flarum/mentions Post Mentioned Email",
                 "notifications": "Notification templates",
                 "notificationHelp": "It is recommended to use \"$forumStyle\" for these emails as they may contain BBCODE. These emails also have \"$user\" available which contains the entire user model of the user being emailed.",
-                "help": "\"$body\" will contain the actual content of the email, \"$forumStyle\" contains the <strong>entire forum CSS</strong> \"$baseUrl\" contains your forum url, \"$settings\" allows you to interact with the SettingsRepositoryInterface, and \"$link\" contains the link within the email. See each template for how to use each variable."
+                "help": "\"$body\" will contain the actual content of the email, \"$forumStyle\" contains the <strong>entire forum CSS</strong>, \"$baseUrl\" contains your forum URL, \"$settings\" allows you to interact with the SettingsRepositoryInterface, and \"$link\" contains the link within the email. See each template for how to use each variable."
             },
             "css_settings": {
                 "label": "CSS settings",
                 "help": "You can choose to include the forum's CSS in the email's HTML code. If you enable this, you may have issues with certain email providers.",
-                "switch_label": "include full forum css"
+                "switch_label": "Include full forum CSS"
             }
         }
     }

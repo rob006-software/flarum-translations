@@ -1,0 +1,74 @@
+{
+    "fof-terms": {
+        "admin": {
+            "settings": {
+                "title": "Ustawienia polityk",
+                "field": {
+                    "signup-legal-text": "Dodatkowy tekst w formularzu rejestracji",
+                    "hide-updated-at": "Nie pokazuj daty aktualizacji polityk, jeśli aktualizacja jest dostępna",
+                    "date-format": "Format daty",
+                    "date-format-help": "Możesz użyć dowolnego formatu obsługiwanego przez <a>Moment.js</a>. Zostaw pole puste, aby wykorzystać domyślny format."
+                }
+            },
+            "titles": {
+                "policies": "Polityki"
+            },
+            "buttons": {
+                "new-policy": "Nowa polityka",
+                "edit-policy": "Edytuj politykę",
+                "add-policy": "Dodaj politykę",
+                "save-policy": "Zapisz politykę",
+                "delete-policy": "Usuń politykę",
+                "set-to-now": "Ustaw na teraz"
+            },
+            "messages": {
+                "delete-policy-confirmation": "Polityka \"{name}\" i wszystkie powiązane akceptacje zostaną nieodwracalnie usunięte z bazy danych. Upewnij się że masz kopię zapasową tych danych, jeśli potrzebujesz ich ze względów prawnych. Czy jesteś pewien, że chcesz usunąć tę politykę?\n"
+            },
+            "policies": {
+                "name": "Nazwa",
+                "name-help": "Ta nazwa zostanie pokazana obok checkboxa oraz jako tytuł okna aktualizacji.",
+                "url": "URL",
+                "url-help": "Adres URL do strony, gdzie można przeczytać treść polityki. Zostanie otwarta w nowej karcie po kliknięciu.",
+                "update-message": "Wiadomość dotycząca aktualizacji",
+                "update-message-help": "Wiadomość zostanie pokazana zarejestrowanym użytkownikom, którzy jeszcze nie zaakceptowali najnowszej wersji polityki.",
+                "terms-updated-at": "Data aktualizacji",
+                "terms-updated-at-placeholder": "YYYY-MM-DD (hh:mm:ss)",
+                "terms-updated-at-help": "Data ostatniej aktualizacji polityki. Ustawienie tej wartości wymusi ponowną akceptację dla wszystkich użytkowników, którzy zaakceptowali politykę przed tą datą. Data musi być z przeszłości (w przeciwnym razie użytkownicy nie będą w stanie zaakceptować polityki).\n",
+                "export-url": "Eksport",
+                "export-url-help": "Każdy użytkownik z uprawnieniem \"Eksportowanie wszystkich danych o politykach\" ma dostęp do tych adresów URL, które pozwalają pobrać listę użytkowników, którzy zaakceptowali daną politykę. Możesz znaleźć więcej informacji o dostępnych opcjach na <a>wiki rozszerzenia</a>.\n"
+            },
+            "permissions": {
+                "see-user-policies-state": "Przeglądanie statusu akceptacji polityk przez użytkownika",
+                "postpone-policies-accept": "Może odroczyć zaakceptowanie nowej polityki",
+                "export-policies": "Eksportowanie wszystkich danych o politykach"
+            }
+        },
+        "forum": {
+            "signup": {
+                "i-accept": "Akceptuję <a>{policy}</a>",
+                "must-accept": "{policy} musi zostać zaakceptowana."
+            },
+            "accept-modal": {
+                "title": "Aktualizacja warunków korzystania z forum",
+                "updated-at": "Warunki korzystania z forum zostały zaktualizowane {date}",
+                "updated-recently": "Warunki korzystania z forum zostały zaktualizowane od twojej ostatniej wizyty",
+                "i-accept": "Akceptuję nową politykę: <a>{policy}</a>",
+                "accept": "Potwierdź",
+                "close": "Możesz teraz zamknąć to okno"
+            },
+            "state-modal": {
+                "title": "Status akceptacji warunków korzystania dla {username}",
+                "accepted-at": "Zaakceptowano {date}",
+                "not-accepted": "Nie zaakceptowano"
+            },
+            "update-alert": {
+                "must-accept-message": "Tymczasowo ograniczyliśmy możliwości twojego konta do czasu aż zaakceptujesz nowe warunki korzystania z forum.",
+                "can-accept-message": "Niedawno zaktualizowaliśmy warunki korzystania z forum. Musisz je zaakceptować aby kontynuować korzystanie z witryny.",
+                "review": "Kliknij tutaj aby zobaczyć i zaakceptować nowe warunki korzystania z forum"
+            },
+            "user_controls": {
+                "state_button": "Status akceptacji TOS"
+            }
+        }
+    }
+}

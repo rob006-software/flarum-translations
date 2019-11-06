@@ -45,6 +45,12 @@
                     "title": "OVH SVFS depolama ayarları",
                     "username": "Kullanıcı adı"
                 },
+                "qiniu": {
+                    "title": "",
+                    "key": "",
+                    "secret": "",
+                    "bucket": ""
+                },
                 "preferences": {
                     "max_file_size": "Maksimum dosya boyutu (kilobyte cinsinden)",
                     "mime_types": "Configure your mime type, upload adapter mapping",
@@ -79,7 +85,8 @@
                 "aws-s3": "Amazon S3",
                 "imgur": "Imgur",
                 "local": "Yerel",
-                "ovh-svfs": "OVH SVFS"
+                "ovh-svfs": "OVH SVFS",
+                "qiniu": ""
             }
         },
         "forum": {
