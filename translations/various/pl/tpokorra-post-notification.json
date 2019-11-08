@@ -5,8 +5,8 @@
                 "title": "Ustawienia powiadomień o postach",
                 "recipients": {
                     "new_discussion": {
-                        "to": "",
-                        "bcc": ""
+                        "to": "Lista adresatów, którzy będą powiadamiani o nowych dyskusjach (adresy e-mail rozdzielone przecinkami)",
+                        "bcc": "Lista ukrytych adresatów (BCC), którzy będą powiadamiani o nowych dyskusjach (adresy e-mail rozdzielone przecinkami)"
                     },
                     "new_post": {
                         "to": "Lista adresatów, którzy będą powiadamiani o nowych postach (adresy e-mail rozdzielone przecinkami)",
@@ -19,7 +19,7 @@
                     "to": "Lista adresatów - adresy e-mail rozdzielone przecinkami",
                     "bcc": "Lista ukrytych adresatów (BCC) - adresy e-mail rozdzielone przecinkami"
                 },
-                "new_discussion": "",
+                "new_discussion": "Etykieta opisująca nową dyskusję",
                 "new_post": "Etykieta opisująca nowy post",
                 "revised_post": "Etykieta opisująca edycję posta"
             }
