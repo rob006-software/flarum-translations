@@ -4,6 +4,10 @@
             "settings": {
                 "title": "Post Notification Configuration",
                 "recipients": {
+                    "new_discussion": {
+                        "to": "Comma separated list of email addresses for the To recipient for new discussions",
+                        "bcc": "Comma separated list of email addresses for the BCC recipient for new discussions"
+                    },
                     "new_post": {
                         "to": "Comma separated list of email addresses for the To recipient for new posts",
                         "bcc": "Comma separated list of email addresses for the BCC recipient for new posts"
@@ -13,6 +17,7 @@
                         "bcc": "Comma separated list of email addresses for the BCC recipient for revised posts"
                     }
                 },
+                "new_discussion": "Label for describing a new discussion",
                 "new_post": "Label for describing a new post",
                 "revised_post": "Label for describing a revised post"
             }
