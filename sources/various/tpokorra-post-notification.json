@@ -4,6 +4,9 @@
             "settings": {
                 "title": "Post Notification Configuration",
                 "recipients": {
+                    "post_approval": {
+                        "to": "Comma separated list of email addresses for the To recipient for approval of new posts"
+                    },
                     "new_discussion": {
                         "to": "Comma separated list of email addresses for the To recipient for new discussions",
                         "bcc": "Comma separated list of email addresses for the BCC recipient for new discussions"
@@ -19,7 +22,8 @@
                 },
                 "new_discussion": "Label for describing a new discussion",
                 "new_post": "Label for describing a new post",
-                "revised_post": "Label for describing a revised post"
+                "revised_post": "Label for describing a revised post",
+                "post_approval": "Label for describing a new post that needs approval"
             }
         }
     }
