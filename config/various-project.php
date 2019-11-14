@@ -25,6 +25,7 @@ return [
 	'clarkwinkelmann-catch-the-fish' => 'https://raw.githubusercontent.com/clarkwinkelmann/catch-the-fish/master/resources/locale/en.yml',
 	'clarkwinkelmann-emojionearea' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-emojionearea/master/locale/en.yml',
 	'clarkwinkelmann-post-date' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-post-date/master/resources/locale/en.yml',
+	'clarkwinkelmann-status' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-status/master/resources/locale/en.yml',
 	'datitisev-dashboard' => 'https://raw.githubusercontent.com/datitisev/flarum-ext-dashboard/master/resources/locale/en.yml',
 	'dem13n-auth-mailru' => 'https://raw.githubusercontent.com/Dem13n/auth-mailru/master/resources/locale/en.yml',
 	'dem13n-auth-odnoklassniki' => 'https://raw.githubusercontent.com/Dem13n/auth-odnoklassniki/master/resources/locale/en.yml',
