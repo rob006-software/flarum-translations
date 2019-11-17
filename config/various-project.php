@@ -82,6 +82,7 @@ return [
 	'tituspijean-auth-ssowat' => 'https://raw.githubusercontent.com/tituspijean/flarum-ext-auth-ssowat/master/locale/en.yml',
 	'tpokorra-post-notification' => 'https://raw.githubusercontent.com/tpokorra/flarum-ext-post-notification/master/resources/locale/en.yml',
 	'v17development-seo' => 'https://raw.githubusercontent.com/v17development/flarum-seo/master/locale/en.yml',
+	'velcis-super-sticky' => 'https://raw.githubusercontent.com/velcis/super-sticky/master/no-translation-source.yml',
 	'veriael-markdown' => 'https://raw.githubusercontent.com/Veriael/markdown/master/resources/locale/en.yml',
 	'wiwatsrt-best-answer' => 'https://raw.githubusercontent.com/wiwatsrt/flarum-ext-best-answer/master/locale/en.yml',
 	'xmugenx-post-blacklist' => 'https://raw.githubusercontent.com/xmugenx/flarum-ext-post-blacklist/master/resources/locale/en.yml',
