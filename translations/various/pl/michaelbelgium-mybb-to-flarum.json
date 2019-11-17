@@ -2,34 +2,34 @@
     "mybbtoflarum": {
         "admin": {
             "nav": {
-                "title": "",
-                "description": ""
+                "title": "Migracja MyBB do Flarum",
+                "description": "Konwertuj forum MyBB do tej instalacji Flarum"
             },
             "page": {
-                "text": "",
-                "btnConvert": "",
+                "text": "Konwertuj forum MyBB do tej instalacji Flarum. Wypełnij wymagane dane, po czym kliknij \"Migruj\".",
+                "btnConvert": "Migruj",
                 "form": {
                     "general": {
-                        "title": "",
-                        "migrateAvatars": "",
-                        "migrateSoftThreads": "",
-                        "migrateSoftPosts": ""
+                        "title": "Ustawienia ogólne",
+                        "migrateAvatars": "Migruj awatary",
+                        "migrateSoftThreads": "Migruj ukryte (soft deleted) wątki",
+                        "migrateSoftPosts": "Migruj ukryte (soft deleted) posty"
                     },
                     "mybb": {
-                        "title": "",
-                        "host": "",
-                        "user": "",
-                        "password": "",
-                        "db": "",
-                        "prefix": "",
-                        "mybbPath": ""
+                        "title": "Ustawienia MyBB",
+                        "host": "Host bazy danych",
+                        "user": "Użytkownik bazy danych",
+                        "password": "Hasło do bazy danych",
+                        "db": "Nazwa bazy danych",
+                        "prefix": "Prefiks tabeli",
+                        "mybbPath": "Absolutna ścieżka do MyBB"
                     },
                     "options": {
-                        "title": "",
-                        "migrateUsers": "",
-                        "migrateThreadsPosts": "",
-                        "migrateUserGroups": "",
-                        "migrateCategories": ""
+                        "title": "Ogólnie opcje migracji",
+                        "migrateUsers": "Migruj użytkowników",
+                        "migrateThreadsPosts": "Migruj wątki i posty",
+                        "migrateUserGroups": "Migruj grupy użytkowników",
+                        "migrateCategories": "Migruj kategorie"
                     }
                 }
             }
