@@ -16,7 +16,7 @@
                 "no-option-selected": "Nie wybrano żadnej opcji"
             },
             "tags": {
-                "inadequate-settings": "Ustawienia tagów są nieprawidłowe. Pozwól na maksymalnie jeden tag główny i podrzędny lub wyłącz opcję \"Tagi jako pola\".\n",
+                "inadequate-settings": "Ustawienia tagów są nieprawidłowe. Pozwól na maksymalnie jeden tag główny i podrzędny lub wyłącz opcję \"Pokaż listę wyboru tagów jako pole\".\n",
                 "tags-label": "Tagi"
             }
         },
@@ -30,7 +30,7 @@
                 "add-answer": "Dodaj odpowiedź",
                 "save-answer": "Zapisz zmiany",
                 "delete-answer": "Usuń odpowiedź",
-                "show-user-answers": "Pokaż niezasugerowane odpowiedzi ({count})"
+                "show-user-answers": "Pokaż niesugerowane odpowiedzi ({count})"
             },
             "menu": {
                 "description": "Konfiguruj niestandardowe pola dyskusji.\n"
@@ -49,14 +49,14 @@
                 "show_when_empty-help": "Czy pokazać to pole w dyskusji nawet jeśli nie zostało uzupełnione",
                 "validation": "Walidacja dla wartości wprowadzonych przez użytkownika",
                 "user_values_allowed": "Pozwól użytkowników podawać własne wartości",
-                "user_values_allowed-help": "Jeśli włączone, użytkownicy będą mogli podawać własne wartości zamiast tych zdefiniowanych przez administratora. Te wartości zostaną sprawdzone zgodnie z regułami walidacji podanymi poniżej. Jeśli wyłączone, użytkownicy będą mogli używać jedynie \"zasugerowanych\" odpowiedzi.\n",
+                "user_values_allowed-help": "Jeśli włączone, użytkownicy będą mogli podawać własne wartości zamiast tych zdefiniowanych przez administratora. Te wartości zostaną sprawdzone zgodnie z regułami walidacji podanymi poniżej. Jeśli wyłączone, użytkownicy będą mogli używać jedynie \"sugerowanych\" odpowiedzi.\n",
                 "validation-help": "Sprawdź wspierane <a>reguły walidacji Laravela</a>. Na przykład: \"string|min:5\" lub \"url\".\n",
                 "enable-user-values-for-validation": "Pozwól użytkownikom wprowadzać własne wartości, aby skonfigurować reguły walidacji",
                 "icon": "Ikona",
                 "icon-help": "Pokazuje ikonę przed wartością podaną przez użytkownika. Aby zobaczyć jakie ikony są dostępne, sprawdź <a>stronę FontAwesome</a>. Użyj pełnej klasy ikony zawierającej prefiks, na przykład \"fas fa-bolt\".\n",
                 "icon-preview": "podgląd: {preview}",
                 "save-field-for-answers": "Zapisz pole, aby dodawać odpowiedzi",
-                "is_suggested": "Zasugeruj odpowiedź użytkownikom",
+                "is_suggested": "Sugeruj odpowiedź użytkownikom",
                 "new-answer-placeholder": "Jakiś tekst"
             },
             "messages": {
@@ -69,7 +69,7 @@
                 "fields-section-title-help": "Użytkownicy zobaczą ten tekst nad niestandardowymi polami w edytorze oraz w dyskusji.\n",
                 "column-count": "Liczba kolumn do wyświetlania pól",
                 "n-columns": "{count} kolumn",
-                "labels-as-placeholders": "Pokaz etykiety jako placeholdery pól formularza",
+                "labels-as-placeholders": "Pokaż etykiety jako placeholdery pól formularza",
                 "labels-as-placeholders-help": "Pola będą zajmować mniej przestrzeni w pionie oraz ikony nie będą się wyświetlać. Miej na uwadze, że może mieć to wpływ na czytelność, zwłaszcza podczas edycji uzupełnionych pól.\n",
                 "fields-in-hero": "Pokaż pola w banerze dyskusji zamiast w pierwszym poście",
                 "hide-empty-fields-section": "Ukryj tytuł i kontrolki jeśli wszystkie pola są puste lub ukryte",
@@ -88,8 +88,8 @@
                 "see-own-fields": "Przeglądanie pól we własnych dyskusjach",
                 "see-other-fields": "Przeglądanie pól we wszystkich dyskusjach",
                 "fill-fields": "Uzupełnianie pól dla nowych dyskusji",
-                "update-own-fields": "Uzupełnianie pól we własnych dyskusjach",
-                "update-other-fields": "Uzupełnianie pól we wszystkich dyskusjach",
+                "update-own-fields": "Edycja pól we własnych dyskusjach",
+                "update-other-fields": "Edycja pól we wszystkich dyskusjach",
                 "skip-required-fields": "Pomijanie wymaganych pól"
             }
         }
