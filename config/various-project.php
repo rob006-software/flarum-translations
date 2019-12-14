@@ -46,6 +46,7 @@ return [
 	'flagrow-upload' => 'https://raw.githubusercontent.com/FriendsOfFlarum/upload/master/resources/locale/en.yml',
 	'giga300-auth-discord' => 'https://raw.githubusercontent.com/giga300/flarum-auth-discord/master/locale/en.yml',
 	'hiqstd-close' => 'https://raw.githubusercontent.com/HiQStd/flarum-ext-close/master/resources/locale/en.yml',
+	'irony-code-insert' => 'https://raw.githubusercontent.com/892768447/flarum-ext-code-insert/master/resources/locale/en.yml',
 	'irony-google-search' => 'https://raw.githubusercontent.com/892768447/flarum-ext-google-search/master/resources/locale/en.yml',
 	'irony-login2see' => 'https://raw.githubusercontent.com/892768447/flarum-ext-login2see/master/resources/locale/en.yml',
 	'irony-webhook' => 'https://raw.githubusercontent.com/892768447/flarum-ext-webhook/master/resources/locale/en.yml',
