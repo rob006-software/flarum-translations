@@ -2,12 +2,27 @@
     "migratetoflarum-fake-data": {
         "admin": {
             "generator": {
-                "title": "Generate Fake data",
+                "title": "Generate fake data",
                 "user-count": "Number of users to create",
                 "discussion-count": "Number of discussions to create",
                 "post-count": "Number of posts to create",
                 "send": "Generate data"
             }
+        },
+        "forum": {
+            "link": {
+                "generate-replies": "Generate fake replies"
+            },
+            "generator": {
+                "title": "Generate fake replies",
+                "user-count": "Number of users to create",
+                "post-count": "Number of posts to create",
+                "send": "Generate data"
+            }
+        },
+        "api": {
+            "no-users-matched": "No users matched",
+            "no-discussions-matched": "No discussions matched"
         }
     }
 }
