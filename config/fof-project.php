@@ -32,6 +32,7 @@ return [
 	'fof-frontpage' => 'https://raw.githubusercontent.com/FriendsOfFlarum/frontpage/master/resources/locale/en.yml',
 	'fof-gamification' => 'https://raw.githubusercontent.com/FriendsOfFlarum/gamification/master/resources/locale/en.yml',
 	'fof-geoip' => 'https://raw.githubusercontent.com/FriendsOfFlarum/geoip/master/resources/locale/en.yml',
+	'fof-github-sponsors' => 'https://raw.githubusercontent.com/FriendsOfFlarum/github-sponsors/master/locale/en.yml',
 	'fof-ignore-users' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ignore-users/master/resources/locale/en.yml',
 	'fof-linguist' => 'https://raw.githubusercontent.com/FriendsOfFlarum/linguist/master/resources/locale/en.yml',
 	'fof-links' => 'https://raw.githubusercontent.com/FriendsOfFlarum/links/master/locale/en.yml',
