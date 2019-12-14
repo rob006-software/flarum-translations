@@ -10,7 +10,22 @@
                 "participate": "",
                 "delete-confirmation": "",
                 "like": "",
-                "unlike": ""
+                "already-liked": "",
+                "unlike": "",
+                "refresh": "",
+                "load-more": "",
+                "sort": {
+                    "mostLikes": "",
+                    "fewerLikes": "",
+                    "mostRecent": "",
+                    "leastRecent": ""
+                },
+                "likes": {
+                    "you_text": "",
+                    "others_link": "",
+                    "liked_by_self_text": "",
+                    "liked_by_text": ""
+                }
             },
             "modal": {
                 "title": "",
@@ -20,6 +35,9 @@
                     "circle": "",
                     "square": ""
                 }
+            },
+            "likes_modal": {
+                "title": ""
             }
         },
         "admin": {

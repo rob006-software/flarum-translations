@@ -10,7 +10,22 @@
                 "participate": "Weź udział",
                 "delete-confirmation": "Czy jesteś pewien, że chcesz usunąć dynię \"{name}\" utworzoną przez {username}?",
                 "like": "Lubię to",
-                "unlike": "Przestań lubić"
+                "already-liked": "",
+                "unlike": "Przestań lubić",
+                "refresh": "",
+                "load-more": "",
+                "sort": {
+                    "mostLikes": "",
+                    "fewerLikes": "",
+                    "mostRecent": "",
+                    "leastRecent": ""
+                },
+                "likes": {
+                    "you_text": "",
+                    "others_link": "",
+                    "liked_by_self_text": "",
+                    "liked_by_text": ""
+                }
             },
             "modal": {
                 "title": "Weź udział",
@@ -20,6 +35,9 @@
                     "circle": "Okrąg",
                     "square": "Kwadrat"
                 }
+            },
+            "likes_modal": {
+                "title": ""
             }
         },
         "admin": {
