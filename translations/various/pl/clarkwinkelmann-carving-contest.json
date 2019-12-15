@@ -6,25 +6,25 @@
             },
             "page": {
                 "title": "Zawody w rzeźbieniu w dyni",
-                "loading": "Ładowanie...",
+                "loading": "Ładowanie wyników...",
                 "participate": "Weź udział",
                 "delete-confirmation": "Czy jesteś pewien, że chcesz usunąć dynię \"{name}\" utworzoną przez {username}?",
                 "like": "Lubię to",
-                "already-liked": "",
+                "already-liked": "Lubię to",
                 "unlike": "Przestań lubić",
-                "refresh": "",
-                "load-more": "",
+                "refresh": "Odśwież",
+                "load-more": "Załaduj więcej wyników",
                 "sort": {
-                    "mostLikes": "",
-                    "fewerLikes": "",
-                    "mostRecent": "",
-                    "leastRecent": ""
+                    "mostLikes": "Najwięcej polubień",
+                    "fewerLikes": "Najmniej polubień",
+                    "mostRecent": "Ostatnio dodane",
+                    "leastRecent": "Najdawniej dodane"
                 },
                 "likes": {
-                    "you_text": "",
-                    "others_link": "",
-                    "liked_by_self_text": "",
-                    "liked_by_text": ""
+                    "you_text": "=> core.ref.you",
+                    "others_link": "=> core.ref.some_others",
+                    "liked_by_self_text": "{users} lubisz to.|{users} lubicie to.",
+                    "liked_by_text": "{users} lubi to.|{users} lubią to."
                 }
             },
             "modal": {
@@ -37,7 +37,7 @@
                 }
             },
             "likes_modal": {
-                "title": ""
+                "title": "Użytkownicy, którzy polubili tę pracę"
             }
         },
         "admin": {
