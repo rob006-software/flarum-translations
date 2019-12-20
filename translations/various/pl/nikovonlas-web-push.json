@@ -1,74 +1,74 @@
 {
     "nikovonlas-webpush": {
         "forum": {
-            "subscribe": ""
+            "subscribe": "Włącz powiadomienia push"
         },
         "admin": {
             "settings": {
-                "title": "",
+                "title": "Ustawienia powiadomień push OneSignal",
                 "type": {
-                    "description": "",
-                    "standart": "",
-                    "custom": ""
+                    "description": "Typ połączenia (connector)",
+                    "standart": "Standardowy",
+                    "custom": "Własny"
                 },
-                "app_id": "",
-                "api_key": "",
-                "user_key": "",
-                "subdomain": "",
-                "excerpt": "",
-                "autoprompt": ""
+                "app_id": "App ID",
+                "api_key": "API key",
+                "user_key": "User key",
+                "subdomain": "Subdomena",
+                "excerpt": "Długość podsumowania w powiadomieniu",
+                "autoprompt": "Od razu wyświetl prośbę o przydzielenie uprawnień"
             }
         },
         "notify": {
             "like": {
-                "title": "",
-                "message": ""
+                "title": "Post został polubiony",
+                "message": "{from} polubił twój post: {post}"
             },
             "mention-post": {
-                "title": "",
-                "message": ""
+                "title": "Nowa odpowiedź w: {title}",
+                "message": "{from} odpowiedział na post: {post}"
             },
             "mention": {
-                "title": "",
-                "message": ""
+                "title": "Zostałeś wspomniany w: {title}",
+                "message": "{from} wspomniał cię w poście: {post}"
             },
             "post": {
-                "title": "",
-                "message": ""
+                "title": "Nowy post w obserwowanej dyskusji: {title}",
+                "message": "{from} dodał nowy post: {post}"
             },
             "tag": {
                 "discussion": {
-                    "title": "",
-                    "message": ""
+                    "title": "Nowa dyskusja w obserwowanym tagu",
+                    "message": "{from} rozpoczął nową dyskusję: {title}"
                 },
                 "post": {
-                    "title": "",
-                    "message": ""
+                    "title": "Nowy post w dyskusji: {title}",
+                    "message": "{from} dodał nowy post: {post}"
                 }
             },
             "rename": {
-                "title": "",
-                "message": ""
+                "title": "Zmieniono nazwę dyskusji",
+                "message": "{from} zmienił nazwę dyskusji na: {title}"
             },
             "lock": {
-                "title": "",
-                "message": ""
+                "title": "Dyskusja została zamknięta",
+                "message": "{from} zamknął dyskusję: {title}"
             },
             "delete": {
-                "title": "",
-                "message": ""
+                "title": "Dyskusja została usunięta",
+                "message": "{from} usunął dyskusję: {title}"
             },
             "suspend": {
-                "title": "",
-                "message": ""
+                "title": "Twoje konto zostało zbanowane",
+                "message": "{from} zbanował twoje konto"
             },
             "unsuspend": {
-                "title": "",
-                "message": ""
+                "title": "Twoje konto zostało odbanowane",
+                "message": "{from} odbanował twoje konto"
             },
             "flag": {
-                "title": "",
-                "message": ""
+                "title": "Nowe zgłoszenie",
+                "message": "{from} zgłosił post: {post}"
             }
         }
     }
