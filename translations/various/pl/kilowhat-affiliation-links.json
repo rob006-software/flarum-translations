@@ -25,7 +25,7 @@
                 "match-pattern": "Wzorzec dopasowania",
                 "match-pattern-help": "Wartość, która zostanie porównana do komponentu, wykorzystując wybrany rodzaj dopasowania. Jeśli wybrałeś \"Regex\" nie zapomnij o uwzględnieniu ograniczników dla wyrażenia (expression delimiters).\n",
                 "replacement": "Wartość do zastąpienia",
-                "replacement-help": "URL, który zajmie miejsce oryginalnego, jeśli został dopasowany. Możesz uzyskać dostęp do oryginalnego adresu URL za pomocą <code>{ url }</code> (bez spacji pomiędzy nawiasem klamrowym a nazwą). Jeśli użyty został rodzaj  \"Regex\" możesz uzyskać dostęp do dopasowanych wartości za pomocą <code>{ 1 }</code>, <code>{ 2 }</code>, itd. Wartości są automatycznie zakodowane (URL-encoded) do użycia ich w adresie URL jako parametr. Jeśli potrzebujesz dostępu do nieprzetworzonych wartości, użyj nazwy z  \"raw\" jako prefix (<code>{ rawurl }</code>,<code>{ raw1 }</code>, itd).\n",
+                "replacement-help": "URL, który zajmie miejsce oryginalnego, jeśli został dopasowany. Możesz uzyskać dostęp do oryginalnego adresu URL za pomocą <code>{ url }</code> (bez spacji pomiędzy nawiasem klamrowym a nazwą). Jeśli użyty został rodzaj \"Regex\" możesz uzyskać dostęp do dopasowanych wartości za pomocą <code>{ 1 }</code>, <code>{ 2 }</code>, itd. Wartości są automatycznie zakodowane (URL-encoded) do użycia ich w adresie URL jako parametr. Jeśli potrzebujesz dostępu do nieprzetworzonych wartości, użyj nazwy z \"raw\" jako prefix (<code>{ rawurl }</code>,<code>{ raw1 }</code>, itd).\n",
                 "comment": "Komentarz (opcjonalny, wykorzystywany jedynie jako dokumentacja)"
             },
             "component-options": {
