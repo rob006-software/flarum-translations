@@ -29,6 +29,7 @@ return [
 	'fof-drafts' => 'https://raw.githubusercontent.com/FriendsOfFlarum/drafts/master/resources/locale/en.yml',
 	'fof-follow-tags' => 'https://raw.githubusercontent.com/FriendsOfFlarum/follow-tags/master/resources/locale/en.yml',
 	'fof-formatting' => 'https://raw.githubusercontent.com/FriendsOfFlarum/formatting/master/resources/locale/en.yml',
+	'fof-forum-statistics-widget' => 'https://raw.githubusercontent.com/FriendsOfFlarum/forum-statistics-widget/master/resources/locale/en.yml',
 	'fof-frontpage' => 'https://raw.githubusercontent.com/FriendsOfFlarum/frontpage/master/resources/locale/en.yml',
 	'fof-gamification' => 'https://raw.githubusercontent.com/FriendsOfFlarum/gamification/master/resources/locale/en.yml',
 	'fof-geoip' => 'https://raw.githubusercontent.com/FriendsOfFlarum/geoip/master/resources/locale/en.yml',
