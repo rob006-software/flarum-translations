@@ -63,6 +63,7 @@ return [
 	'michaelbelgium-discussion-views' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-discussion-views/master/locale/en.yml',
 	'michaelbelgium-mybb-to-flarum' => 'https://raw.githubusercontent.com/MichaelBelgium/mybb_to_flarum/master/locale/en.yml',
 	'michaelbelgium-profile-views' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-profile-views/master/locale/en.yml',
+	'mickmelon-coloured-usernames' => 'https://raw.githubusercontent.com/MickMelon/flarum-ext-coloured-usernames/master/no-translation-source.yml',
 	'migratetoflarum-canonical' => 'https://raw.githubusercontent.com/migratetoflarum/canonical/master/resources/locale/en.yml',
 	'migratetoflarum-fake-data' => 'https://raw.githubusercontent.com/migratetoflarum/fake-data/master/resources/locale/en.yml',
 	'migratetoflarum-itemlist-order' => 'https://raw.githubusercontent.com/migratetoflarum/itemlist-order/master/resources/locale/en.yml',
