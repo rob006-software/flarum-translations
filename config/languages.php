@@ -21,7 +21,10 @@ return (static function () {
 		'pl' => [
 			'flarum' => $getProjectComponents('flarum'),
 			'fof' => $getProjectComponents('fof'),
-			'various' => $getProjectComponents('various'),
+			'various' => $getProjectComponents('various', [
+				'minr-auth-qq',
+				'minr-auth-weibo',
+			]),
 		],
 		'tr' => [
 			'flarum' => $getProjectComponents('flarum'),
