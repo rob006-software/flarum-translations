@@ -12,10 +12,7 @@
 return [
 	'__weblateId' => 'friends-of-flarum',
 	// do not remove this component - it is used as main component in this project
-	'core' => [
-		'https://raw.githubusercontent.com/rob006-software/flarum-translations/master/placeholders/fof.yml',
-		'languages' => ['pl'], // this is only a placeholder - no need to really translate it
-	],
+	'core' => 'https://raw.githubusercontent.com/rob006-software/flarum-translations/master/placeholders/fof.yml',
 	/* extensions list begin */
 	'fof-amazon-affiliation' => 'https://raw.githubusercontent.com/FriendsOfFlarum/amazon-affiliation/master/resources/locale/en.yml',
 	'fof-auth-discord' => 'https://raw.githubusercontent.com/FriendsOfFlarum/auth-discord/master/resources/locale/en.yml',

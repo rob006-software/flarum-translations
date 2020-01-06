@@ -12,10 +12,7 @@
 return [
 	'__weblateId' => 'flarum-extensions',
 	// do not remove this component - it is used as main component in this project
-	'core' => [
-		'https://raw.githubusercontent.com/rob006-software/flarum-translations/master/placeholders/various.yml',
-		'languages' => ['pl'], // this is only a placeholder - no need to really translate it
-	],
+	'core' => 'https://raw.githubusercontent.com/rob006-software/flarum-translations/master/placeholders/various.yml',
 	/* extensions list begin */
 	'amaurycarrade-syndication' => 'https://raw.githubusercontent.com/AmauryCarrade/flarum-ext-syndication/master/resources/locale/en.yml',
 	'antoinefr-money' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-money/master/locale/en.yml',
