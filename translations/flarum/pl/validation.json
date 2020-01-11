@@ -14,7 +14,7 @@
             "numeric": ":attribute musi zawierać się w pomiędzy :min a :max.",
             "file": ":attribute musi mieć od :min do :max kilobajtów.",
             "string": ":attribute musi mieć od :min do :max znaków.",
-            "array": ":attribute musi składać się z od :min do :max elementów."
+            "array": ":attribute musi mieć od :min do :max elementów."
         },
         "boolean": ":attribute musi mieć wartość prawda albo fałsz.",
         "confirmed": "Potwierdzenie :attribute nie zgadza się.",
@@ -22,7 +22,7 @@
         "date_equals": ":attribute musi być datą równą :date.",
         "date_format": ":attribute nie jest w formacie :format.",
         "different": ":attribute oraz :other muszą się różnić.",
-        "digits": ":attribute musi składać się z :digits cyfr.",
+        "digits": ":attribute musi mieć :digits cyfr.",
         "digits_between": ":attribute musi mieć od :min do :max cyfr.",
         "dimensions": ":attribute ma nieprawidłowe wymiary.",
         "distinct": ":attribute ma zduplikowane wartości.",
