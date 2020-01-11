@@ -11,7 +11,7 @@
         "before": ":attribute musi być datą wcześniejszą od :date.",
         "before_or_equal": ":attribute musi być datą nie późniejszą niż :date.",
         "between": {
-            "numeric": ":attribute musi zawierać się w granicach :min - :max.",
+            "numeric": ":attribute musi zawierać się w pomiędzy :min a :max.",
             "file": ":attribute musi mieć od :min do :max kilobajtów.",
             "string": ":attribute musi mieć od :min do :max znaków.",
             "array": ":attribute musi składać się z od :min do :max elementów."
