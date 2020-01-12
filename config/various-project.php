@@ -88,6 +88,7 @@ return [
 	'veriael-markdown' => 'https://raw.githubusercontent.com/Veriael/markdown/master/resources/locale/en.yml',
 	'wiwatsrt-best-answer' => 'https://raw.githubusercontent.com/wiwatsrt/flarum-ext-best-answer/master/locale/en.yml',
 	'xmugenx-post-blacklist' => 'https://raw.githubusercontent.com/xmugenx/flarum-ext-post-blacklist/master/resources/locale/en.yml',
+	'zerosonesfun-action' => 'https://raw.githubusercontent.com/zerosonesfun/action/master/no-translation-source.yml',
 	'zerosonesfun-announce' => 'https://raw.githubusercontent.com/zerosonesfun/announce/master/resources/locale/en.yml',
 	'zhishiq-pusher' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumPusher/master/locale/en.yaml',
 	'zhishiq-queue' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumQueue/master/locale/en.yaml',
