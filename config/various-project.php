@@ -54,6 +54,7 @@ return [
 	'kvothe-reply-to-see' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-reply2see/master/resources/locale/en.yml',
 	'kvothe-signup-button' => 'https://raw.githubusercontent.com/oaklinq/flarum-signup-button/master/resources/locale/en.yml',
 	'kvothe-spoiler-bbcode' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-spoiler-bbcode/master/resources/locale/en.yml',
+	'losdevpath-hytale-bbcode' => 'https://raw.githubusercontent.com/losdevpath/hytale-bbcode/master/no-translation-source.yml',
 	'maicol07-sso' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/master/locale/en.yml',
 	'manelizzard-notify' => 'https://raw.githubusercontent.com/manelizzard/flarum-notify/master/resources/locale/en.yml',
 	'matteocontrini-imgur-upload' => 'https://raw.githubusercontent.com/matteocontrini/flarum-imgur-upload/master/locale/en.yml',
