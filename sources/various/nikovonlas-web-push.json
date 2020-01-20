@@ -16,59 +16,59 @@
                 "user_key": "Onesignal user key",
                 "subdomain": "Onesignal subdomain",
                 "excerpt": "Length of excerpt in notifications",
-                "autoprompt": "Show permission prompt immediately to authorize users"
+                "autoprompt": "Auto-prompt (Immediately show prompt)"
             }
         },
         "notify": {
             "like": {
-                "title": "Post was liked",
-                "message": "{from} liked you post: {post}"
+                "title": "{from} liked your post",
+                "message": "{post}"
             },
             "mention-post": {
-                "title": "New reply to post in: {title}",
-                "message": "{from} replied to post: {post}"
+                "title": "{from} replied to your post",
+                "message": "{post}"
             },
             "mention": {
-                "title": "You was mentoined in: {title}",
-                "message": "{from} mentoined you post: {post}"
+                "title": "{from} mentioned you",
+                "message": "{post}"
             },
             "post": {
-                "title": "New post in subscribed discussion: {title}",
-                "message": "{from} create new post: {post}"
+                "title": "New post in {title}",
+                "message": "@{from}: {post}"
             },
             "tag": {
                 "discussion": {
-                    "title": "New discussion with subscribed tag",
-                    "message": "{from} create new discussion: {title}"
+                    "title": "{title}",
+                    "message": "@{from} created a new discussion"
                 },
                 "post": {
-                    "title": "New post in discussion: {title}",
-                    "message": "{from} create new post: {post}"
+                    "title": "New post in {title}",
+                    "message": "@{from}: {post}"
                 }
             },
             "rename": {
-                "title": "Discussion was renamed",
-                "message": "{from} rename you discussion to: {title}"
+                "title": "{title}",
+                "message": "@{from} changed the title to {title}"
             },
             "lock": {
-                "title": "Discussion was locked",
-                "message": "{from} locked you discussion: {title}"
+                "title": "{title}",
+                "message": "@{from} locked this discussion"
             },
             "delete": {
-                "title": "Discussion was deleted",
-                "message": "{from} delete you discussion: {title}"
+                "title": "{title}",
+                "message": "@{from} deleted this discussion"
             },
             "suspend": {
-                "title": "You account was suspended",
-                "message": "{from} suspend you account"
+                "title": "Your account was suspended",
+                "message": "@{from} suspended your account."
             },
             "unsuspend": {
-                "title": "You account was unsuspended",
-                "message": "{from} unsuspend you account"
+                "title": "Your account was unsuspended",
+                "message": "@{from} unsuspended your account."
             },
             "flag": {
-                "title": "New flagged post",
-                "message": "{from} flag post: {post}"
+                "title": "{from} flagged a post",
+                "message": "{post}"
             }
         }
     }
