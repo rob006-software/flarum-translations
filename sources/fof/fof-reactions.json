@@ -1,6 +1,7 @@
 {
     "fof-reactions": {
         "forum": {
+            "disabled-reaction": "You can't use this reaction right now, please refresh the page",
             "warning": "Your reaction was converted",
             "notification": "{username} reacted with {reaction} to your post",
             "settings": {
@@ -20,6 +21,7 @@
                     "reactions": "Current Reactions",
                     "Helptext": "Input the name (identifier) of the emoji or font-awesome icon and select which type you would like.",
                     "help": {
+                        "display": "Display",
                         "identifier": "Identifier"
                     }
                 },
