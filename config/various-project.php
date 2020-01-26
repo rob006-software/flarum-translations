@@ -80,6 +80,7 @@ return [
 	'reflar-webhooks' => 'https://raw.githubusercontent.com/ReFlar/webhooks/master/resources/locale/en.yml',
 	'saleksin-auth-google' => 'https://raw.githubusercontent.com/saleksin/flarum-auth-google/master/locale/en.yml',
 	'shriker-pronouns' => 'https://raw.githubusercontent.com/shriker/flarum-pronouns/master/resources/locale/en.yml',
+	'simonxeko-follow-users' => 'https://raw.githubusercontent.com/simonxeko/follow-users/master/resources/locale/en.yml',
 	'squeevee-fancybox' => 'https://raw.githubusercontent.com/squeevee/flarum-ext-fancybox/master/locale/en.yml',
 	'sycho-profile-cover' => 'https://raw.githubusercontent.com/SychO9/flarum-profile-cover/master/resources/locale/en.yml',
 	'tank-perspective' => 'https://raw.githubusercontent.com/tankerkiller125/flarum-perspective/master/resources/locale/en.yml',
