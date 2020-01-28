@@ -54,7 +54,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-passwordless/1.0.3/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-passwordless/master/resources/locale/en.yml',
 	],
-	'clarkwinkelmann-post-date' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-post-date/master/resources/locale/en.yml',
+	'clarkwinkelmann-post-date' => [
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-post-date/0.1.1/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-post-date/master/resources/locale/en.yml',
+	],
 	'clarkwinkelmann-status' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-status/master/resources/locale/en.yml',
 	'datitisev-dashboard' => 'https://raw.githubusercontent.com/datitisev/flarum-ext-dashboard/master/resources/locale/en.yml',
 	'dem13n-auth-mailru' => 'https://raw.githubusercontent.com/Dem13n/auth-mailru/master/resources/locale/en.yml',
