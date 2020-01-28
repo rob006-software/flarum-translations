@@ -354,7 +354,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumQueue/v0.1.0-beta.8.1/locale/en.yaml',
 		'branch' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumQueue/master/locale/en.yaml',
 	],
-	'zhishiq-redis' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumRedis/master/locale/en.yaml',
+	'zhishiq-redis' => [
+		'tag' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumRedis/v0.1.0-beta.8.1/locale/en.yaml',
+		'branch' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumRedis/master/locale/en.yaml',
+	],
 	'ziymed-backtowebsite' => 'https://raw.githubusercontent.com/ziymed/BackToWebsite/master/locale/en.yml',
 	/* extensions list end */
 ];
