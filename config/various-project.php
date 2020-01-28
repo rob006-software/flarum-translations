@@ -294,7 +294,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/squeevee/flarum-ext-fancybox/0.2-beta/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/squeevee/flarum-ext-fancybox/master/locale/en.yml',
 	],
-	'sycho-profile-cover' => 'https://raw.githubusercontent.com/SychO9/flarum-profile-cover/master/resources/locale/en.yml',
+	'sycho-profile-cover' => [
+		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-profile-cover/v0.1.4/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/SychO9/flarum-profile-cover/master/resources/locale/en.yml',
+	],
 	'tank-perspective' => 'https://raw.githubusercontent.com/tankerkiller125/flarum-perspective/master/resources/locale/en.yml',
 	'the-turk-mathren' => 'https://raw.githubusercontent.com/the-turk/flarum-mathren/master/locale/en.yml',
 	'the-turk-password-strength' => 'https://raw.githubusercontent.com/the-turk/flarum-password-strength/master/locale/en.yml',
