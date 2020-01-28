@@ -162,7 +162,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/spamblock/0.2.1/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/spamblock/master/locale/en.yml',
 	],
-	'fof-split' => 'https://raw.githubusercontent.com/FriendsOfFlarum/split/master/locale/en.yml',
+	'fof-split' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/split/0.4.3/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/split/master/locale/en.yml',
+	],
 	'fof-stopforumspam' => 'https://raw.githubusercontent.com/FriendsOfFlarum/stopforumspam/master/locale/en.yml',
 	'fof-subscribed' => 'https://raw.githubusercontent.com/FriendsOfFlarum/subscribed/master/resources/locale/en.yml',
 	'fof-terms' => 'https://raw.githubusercontent.com/FriendsOfFlarum/terms/master/resources/locale/en.yml',
