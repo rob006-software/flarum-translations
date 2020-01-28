@@ -70,7 +70,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Dem13n/auth-mailru/0.1.0/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/Dem13n/auth-mailru/master/resources/locale/en.yml',
 	],
-	'dem13n-auth-odnoklassniki' => 'https://raw.githubusercontent.com/Dem13n/auth-odnoklassniki/master/resources/locale/en.yml',
+	'dem13n-auth-odnoklassniki' => [
+		'tag' => 'https://raw.githubusercontent.com/Dem13n/auth-odnoklassniki/0.1.1/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/Dem13n/auth-odnoklassniki/master/resources/locale/en.yml',
+	],
 	'dem13n-auth-vkontakte' => 'https://raw.githubusercontent.com/Dem13n/auth-vkontakte/master/resources/locale/en.yml',
 	'dem13n-auth-yandex' => 'https://raw.githubusercontent.com/Dem13n/auth-yandex/master/resources/locale/en.yml',
 	'dem13n-nickname-changer' => 'https://raw.githubusercontent.com/Dem13n/nickname-changer/master/resources/locale/en.yml',
