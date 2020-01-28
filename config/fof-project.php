@@ -50,7 +50,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/disposable-emails/0.1.0/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/disposable-emails/master/locale/en.yml',
 	],
-	'fof-drafts' => 'https://raw.githubusercontent.com/FriendsOfFlarum/drafts/master/resources/locale/en.yml',
+	'fof-drafts' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/drafts/0.1.4/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/drafts/master/resources/locale/en.yml',
+	],
 	'fof-follow-tags' => 'https://raw.githubusercontent.com/FriendsOfFlarum/follow-tags/master/resources/locale/en.yml',
 	'fof-formatting' => 'https://raw.githubusercontent.com/FriendsOfFlarum/formatting/master/resources/locale/en.yml',
 	'fof-forum-statistics-widget' => 'https://raw.githubusercontent.com/FriendsOfFlarum/forum-statistics-widget/master/resources/locale/en.yml',
