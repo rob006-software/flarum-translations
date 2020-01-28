@@ -146,7 +146,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/secure-https/v0.1.0/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/secure-https/master/resources/locale/en.yml',
 	],
-	'fof-sentry' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sentry/master/resources/locale/en.yml',
+	'fof-sentry' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sentry/0.4.6/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sentry/master/resources/locale/en.yml',
+	],
 	'fof-share-social' => 'https://raw.githubusercontent.com/FriendsOfFlarum/share-social/master/resources/locale/en.yml',
 	'fof-socialprofile' => 'https://raw.githubusercontent.com/FriendsOfFlarum/socialprofile/master/resources/locale/en.yml',
 	'fof-spamblock' => 'https://raw.githubusercontent.com/FriendsOfFlarum/spamblock/master/locale/en.yml',
