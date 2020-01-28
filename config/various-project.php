@@ -330,7 +330,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Veriael/markdown/v1.0.2.1/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/Veriael/markdown/master/resources/locale/en.yml',
 	],
-	'wiwatsrt-best-answer' => 'https://raw.githubusercontent.com/wiwatsrt/flarum-ext-best-answer/master/locale/en.yml',
+	'wiwatsrt-best-answer' => [
+		'tag' => 'https://raw.githubusercontent.com/wiwatsrt/flarum-ext-best-answer/v0.2.4/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/wiwatsrt/flarum-ext-best-answer/master/locale/en.yml',
+	],
 	'xelson-chat' => 'https://raw.githubusercontent.com/Xelson/flarum-ext-chat/master/resources/locale/en.yaml',
 	'xmugenx-post-blacklist' => 'https://raw.githubusercontent.com/xmugenx/flarum-ext-post-blacklist/master/resources/locale/en.yml',
 	'zerosonesfun-announce' => 'https://raw.githubusercontent.com/zerosonesfun/announce/master/resources/locale/en.yml',
