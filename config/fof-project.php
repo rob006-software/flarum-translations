@@ -58,7 +58,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/follow-tags/0.3.4/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/follow-tags/master/resources/locale/en.yml',
 	],
-	'fof-formatting' => 'https://raw.githubusercontent.com/FriendsOfFlarum/formatting/master/resources/locale/en.yml',
+	'fof-formatting' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/formatting/0.1.4/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/formatting/master/resources/locale/en.yml',
+	],
 	'fof-forum-statistics-widget' => 'https://raw.githubusercontent.com/FriendsOfFlarum/forum-statistics-widget/master/resources/locale/en.yml',
 	'fof-frontpage' => 'https://raw.githubusercontent.com/FriendsOfFlarum/frontpage/master/resources/locale/en.yml',
 	'fof-gamification' => 'https://raw.githubusercontent.com/FriendsOfFlarum/gamification/master/resources/locale/en.yml',
