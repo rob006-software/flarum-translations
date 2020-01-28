@@ -90,7 +90,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ignore-users/0.1.4/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ignore-users/master/resources/locale/en.yml',
 	],
-	'fof-linguist' => 'https://raw.githubusercontent.com/FriendsOfFlarum/linguist/master/resources/locale/en.yml',
+	'fof-linguist' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/linguist/0.4.1/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/linguist/master/resources/locale/en.yml',
+	],
 	'fof-links' => 'https://raw.githubusercontent.com/FriendsOfFlarum/links/master/locale/en.yml',
 	'fof-masquerade' => 'https://raw.githubusercontent.com/FriendsOfFlarum/masquerade/master/resources/locale/en.yml',
 	'fof-merge-discussions' => 'https://raw.githubusercontent.com/FriendsOfFlarum/merge-discussions/master/resources/locale/en.yml',
