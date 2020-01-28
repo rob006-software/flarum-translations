@@ -36,7 +36,10 @@ return [
 	'flagrow-upload' => 'https://raw.githubusercontent.com/FriendsOfFlarum/upload/master/resources/locale/en.yml',
 	'flagrow-users-list' => 'https://raw.githubusercontent.com/flagrow/users-list/master/resources/locale/en.yml',
 	'kilowhat-mailing' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-mailing/master/resources/locale/en.yml',
-	'kvothe-online-users' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-online-users/master/resources/locale/en.yml',
+	'kvothe-online-users' => [
+		'tag' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-online-users/0.4.0/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-online-users/master/resources/locale/en.yml',
+	],
 	'kvothe-signup-button' => 'https://raw.githubusercontent.com/oaklinq/flarum-signup-button/master/resources/locale/en.yml',
 	'matteocontrini-imgur-upload' => 'https://raw.githubusercontent.com/matteocontrini/flarum-imgur-upload/master/locale/en.yml',
 	'michaelbelgium-discussion-views' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-discussion-views/master/locale/en.yml',
