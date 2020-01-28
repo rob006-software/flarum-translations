@@ -186,7 +186,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/oaklinq/flarum-signup-button/v0.1.4/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/oaklinq/flarum-signup-button/master/resources/locale/en.yml',
 	],
-	'kvothe-spoiler-bbcode' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-spoiler-bbcode/master/resources/locale/en.yml',
+	'kvothe-spoiler-bbcode' => [
+		'tag' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-spoiler-bbcode/0.1.0/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-spoiler-bbcode/master/resources/locale/en.yml',
+	],
 	'maicol07-sso' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/master/locale/en.yml',
 	'manelizzard-notify' => 'https://raw.githubusercontent.com/manelizzard/flarum-notify/master/resources/locale/en.yml',
 	'matteocontrini-imgur-upload' => 'https://raw.githubusercontent.com/matteocontrini/flarum-imgur-upload/master/locale/en.yml',
