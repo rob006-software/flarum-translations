@@ -190,7 +190,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-spoiler-bbcode/0.1.0/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-spoiler-bbcode/master/resources/locale/en.yml',
 	],
-	'maicol07-sso' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/master/locale/en.yml',
+	'maicol07-sso' => [
+		'tag' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/1.4.3/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/master/locale/en.yml',
+	],
 	'manelizzard-notify' => 'https://raw.githubusercontent.com/manelizzard/flarum-notify/master/resources/locale/en.yml',
 	'matteocontrini-imgur-upload' => 'https://raw.githubusercontent.com/matteocontrini/flarum-imgur-upload/master/locale/en.yml',
 	'michaelbelgium-discussion-views' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-discussion-views/master/locale/en.yml',
