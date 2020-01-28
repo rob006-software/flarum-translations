@@ -338,7 +338,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Xelson/flarum-ext-chat/0.7.1/resources/locale/en.yaml',
 		'branch' => 'https://raw.githubusercontent.com/Xelson/flarum-ext-chat/master/resources/locale/en.yaml',
 	],
-	'xmugenx-post-blacklist' => 'https://raw.githubusercontent.com/xmugenx/flarum-ext-post-blacklist/master/resources/locale/en.yml',
+	'xmugenx-post-blacklist' => [
+		'tag' => 'https://raw.githubusercontent.com/xmugenx/flarum-ext-post-blacklist/0.1.4/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/xmugenx/flarum-ext-post-blacklist/master/resources/locale/en.yml',
+	],
 	'zerosonesfun-announce' => 'https://raw.githubusercontent.com/zerosonesfun/announce/master/resources/locale/en.yml',
 	'zhishiq-pusher' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumPusher/master/locale/en.yaml',
 	'zhishiq-queue' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumQueue/master/locale/en.yaml',
