@@ -214,7 +214,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-profile-views/v2.1.6/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-profile-views/master/locale/en.yml',
 	],
-	'migratetoflarum-canonical' => 'https://raw.githubusercontent.com/migratetoflarum/canonical/master/resources/locale/en.yml',
+	'migratetoflarum-canonical' => [
+		'tag' => 'https://raw.githubusercontent.com/migratetoflarum/canonical/0.1.0/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/migratetoflarum/canonical/master/resources/locale/en.yml',
+	],
 	'migratetoflarum-fake-data' => 'https://raw.githubusercontent.com/migratetoflarum/fake-data/master/resources/locale/en.yml',
 	'migratetoflarum-itemlist-order' => 'https://raw.githubusercontent.com/migratetoflarum/itemlist-order/master/resources/locale/en.yml',
 	'migratetoflarum-vbulletin-redirects' => 'https://raw.githubusercontent.com/migratetoflarum/vbulletin-redirects/master/locale/en.yml',
