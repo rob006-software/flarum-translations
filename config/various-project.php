@@ -174,7 +174,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-mailing/0.2.1/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-mailing/master/resources/locale/en.yml',
 	],
-	'kvothe-keyboard-shortcuts' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-keyboard-shortcuts/master/resources/locale/en.yml',
+	'kvothe-keyboard-shortcuts' => [
+		'tag' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-keyboard-shortcuts/v0.1.0/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-keyboard-shortcuts/master/resources/locale/en.yml',
+	],
 	'kvothe-reply-to-see' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-reply2see/master/resources/locale/en.yml',
 	'kvothe-signup-button' => 'https://raw.githubusercontent.com/oaklinq/flarum-signup-button/master/resources/locale/en.yml',
 	'kvothe-spoiler-bbcode' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-spoiler-bbcode/master/resources/locale/en.yml',
