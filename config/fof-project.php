@@ -130,7 +130,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/prevent-necrobumping/0.2.0/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/prevent-necrobumping/master/resources/locale/en.yml',
 	],
-	'fof-pwned-passwords' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pwned-passwords/master/locale/en.yml',
+	'fof-pwned-passwords' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pwned-passwords/0.3.0/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pwned-passwords/master/locale/en.yml',
+	],
 	'fof-reactions' => 'https://raw.githubusercontent.com/FriendsOfFlarum/reactions/master/resources/locale/en.yml',
 	'fof-recaptcha' => 'https://raw.githubusercontent.com/FriendsOfFlarum/recaptcha/master/resources/locale/en.yml',
 	'fof-secure-https' => 'https://raw.githubusercontent.com/FriendsOfFlarum/secure-https/master/resources/locale/en.yml',
