@@ -318,7 +318,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/tituspijean/flarum-ext-auth-ssowat/0.6/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/tituspijean/flarum-ext-auth-ssowat/master/locale/en.yml',
 	],
-	'tpokorra-post-notification' => 'https://raw.githubusercontent.com/tpokorra/flarum-ext-post-notification/master/resources/locale/en.yml',
+	'tpokorra-post-notification' => [
+		'tag' => 'https://raw.githubusercontent.com/tpokorra/flarum-ext-post-notification/0.3.6/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/tpokorra/flarum-ext-post-notification/master/resources/locale/en.yml',
+	],
 	'v17development-seo' => 'https://raw.githubusercontent.com/v17development/flarum-seo/master/locale/en.yml',
 	'veriael-markdown' => 'https://raw.githubusercontent.com/Veriael/markdown/master/resources/locale/en.yml',
 	'wiwatsrt-best-answer' => 'https://raw.githubusercontent.com/wiwatsrt/flarum-ext-best-answer/master/locale/en.yml',
