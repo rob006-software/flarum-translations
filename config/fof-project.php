@@ -122,7 +122,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/polls/0.1.1/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/polls/master/resources/locale/en.yml',
 	],
-	'fof-pretty-mail' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pretty-mail/master/resources/locale/en.yml',
+	'fof-pretty-mail' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pretty-mail/0.1.6/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pretty-mail/master/resources/locale/en.yml',
+	],
 	'fof-prevent-necrobumping' => 'https://raw.githubusercontent.com/FriendsOfFlarum/prevent-necrobumping/master/resources/locale/en.yml',
 	'fof-pwned-passwords' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pwned-passwords/master/locale/en.yml',
 	'fof-reactions' => 'https://raw.githubusercontent.com/FriendsOfFlarum/reactions/master/resources/locale/en.yml',
