@@ -46,7 +46,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-email-as-display-name/1.0.0/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-email-as-display-name/master/locale/en.yml',
 	],
-	'clarkwinkelmann-emojionearea' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-emojionearea/master/locale/en.yml',
+	'clarkwinkelmann-emojionearea' => [
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-emojionearea/0.2.0/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-emojionearea/master/locale/en.yml',
+	],
 	'clarkwinkelmann-passwordless' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-passwordless/master/resources/locale/en.yml',
 	'clarkwinkelmann-post-date' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-post-date/master/resources/locale/en.yml',
 	'clarkwinkelmann-status' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-status/master/resources/locale/en.yml',
