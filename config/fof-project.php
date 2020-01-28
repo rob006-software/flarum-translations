@@ -38,7 +38,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/byobu/0.3.4/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/byobu/master/resources/locale/en.yml',
 	],
-	'fof-custom-footer' => 'https://raw.githubusercontent.com/FriendsOfFlarum/custom-footer/master/resources/locale/en.yml',
+	'fof-custom-footer' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/custom-footer/0.1.3/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/custom-footer/master/resources/locale/en.yml',
+	],
 	'fof-default-group' => 'https://raw.githubusercontent.com/FriendsOfFlarum/default-group/master/resources/locale/en.yml',
 	'fof-disposable-emails' => 'https://raw.githubusercontent.com/FriendsOfFlarum/disposable-emails/master/locale/en.yml',
 	'fof-drafts' => 'https://raw.githubusercontent.com/FriendsOfFlarum/drafts/master/resources/locale/en.yml',
