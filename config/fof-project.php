@@ -186,7 +186,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/user-bio/0.1.3/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/user-bio/master/resources/locale/en.yml',
 	],
-	'fof-user-directory' => 'https://raw.githubusercontent.com/FriendsOfFlarum/user-directory/master/resources/locale/en.yml',
+	'fof-user-directory' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/user-directory/0.3.3/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/user-directory/master/resources/locale/en.yml',
+	],
 	'fof-username-request' => 'https://raw.githubusercontent.com/FriendsOfFlarum/username-request/master/resources/locale/en.yml',
 	/* extensions list end */
 ];
