@@ -98,7 +98,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/links/0.2.1/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/links/master/locale/en.yml',
 	],
-	'fof-masquerade' => 'https://raw.githubusercontent.com/FriendsOfFlarum/masquerade/master/resources/locale/en.yml',
+	'fof-masquerade' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/masquerade/0.3.3/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/masquerade/master/resources/locale/en.yml',
+	],
 	'fof-merge-discussions' => 'https://raw.githubusercontent.com/FriendsOfFlarum/merge-discussions/master/resources/locale/en.yml',
 	'fof-nightmode' => 'https://raw.githubusercontent.com/FriendsOfFlarum/nightmode/master/resources/locale/en.yml',
 	'fof-open-collective' => 'https://raw.githubusercontent.com/FriendsOfFlarum/open-collective/master/resources/locale/en.yml',
