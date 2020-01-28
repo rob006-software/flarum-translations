@@ -66,7 +66,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/datitisev/flarum-ext-dashboard/v0.1.0-beta.8.1/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/datitisev/flarum-ext-dashboard/master/resources/locale/en.yml',
 	],
-	'dem13n-auth-mailru' => 'https://raw.githubusercontent.com/Dem13n/auth-mailru/master/resources/locale/en.yml',
+	'dem13n-auth-mailru' => [
+		'tag' => 'https://raw.githubusercontent.com/Dem13n/auth-mailru/0.1.0/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/Dem13n/auth-mailru/master/resources/locale/en.yml',
+	],
 	'dem13n-auth-odnoklassniki' => 'https://raw.githubusercontent.com/Dem13n/auth-odnoklassniki/master/resources/locale/en.yml',
 	'dem13n-auth-vkontakte' => 'https://raw.githubusercontent.com/Dem13n/auth-vkontakte/master/resources/locale/en.yml',
 	'dem13n-auth-yandex' => 'https://raw.githubusercontent.com/Dem13n/auth-yandex/master/resources/locale/en.yml',
