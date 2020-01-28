@@ -30,7 +30,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-author-change/0.1.4/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-author-change/master/resources/locale/en.yml',
 	],
-	'clarkwinkelmann-carving-contest' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-carving-contest/master/resources/locale/en.yml',
+	'clarkwinkelmann-carving-contest' => [
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-carving-contest/0.2.0/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-carving-contest/master/resources/locale/en.yml',
+	],
 	'clarkwinkelmann-catch-the-fish' => 'https://raw.githubusercontent.com/clarkwinkelmann/catch-the-fish/master/resources/locale/en.yml',
 	'clarkwinkelmann-create-user-modal' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-create-user-modal/master/resources/locale/en.yml',
 	'clarkwinkelmann-email-as-display-name' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-email-as-display-name/master/locale/en.yml',
