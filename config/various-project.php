@@ -94,7 +94,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/dexif/telegram/0.2.0/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/dexif/telegram/dexif/resources/locale/en.yml',
 	],
-	'dotronglong-hide-me' => 'https://raw.githubusercontent.com/dotronglong/flarum-hide-me/master/locale/en.yml',
+	'dotronglong-hide-me' => [
+		'tag' => 'https://raw.githubusercontent.com/dotronglong/flarum-hide-me/v0.0.4/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/dotronglong/flarum-hide-me/master/locale/en.yml',
+	],
 	'extiverse-bazaar' => 'https://raw.githubusercontent.com/extiverse/bazaar/master/resources/locale/en.yml',
 	'fajuu-contactbutton' => 'https://raw.githubusercontent.com/Fajuu/ContactButton/master/locale/en.yml',
 	'fajuu-icons' => 'https://raw.githubusercontent.com/Fajuu/flarum-icons/master/resources/locale/en.yml',
