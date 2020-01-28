@@ -222,7 +222,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/migratetoflarum/fake-data/0.2.0/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/migratetoflarum/fake-data/master/resources/locale/en.yml',
 	],
-	'migratetoflarum-itemlist-order' => 'https://raw.githubusercontent.com/migratetoflarum/itemlist-order/master/resources/locale/en.yml',
+	'migratetoflarum-itemlist-order' => [
+		'tag' => 'https://raw.githubusercontent.com/migratetoflarum/itemlist-order/0.1.0-beta.2/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/migratetoflarum/itemlist-order/master/resources/locale/en.yml',
+	],
 	'migratetoflarum-vbulletin-redirects' => 'https://raw.githubusercontent.com/migratetoflarum/vbulletin-redirects/master/locale/en.yml',
 	'minr-auth-qq' => 'https://raw.githubusercontent.com/minr/flarum-ext-auth-qq/master/locale/en.yml',
 	'minr-auth-weibo' => 'https://raw.githubusercontent.com/minr/auth-weibo/master/locale/en.yml',
