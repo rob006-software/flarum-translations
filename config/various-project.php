@@ -322,7 +322,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/tpokorra/flarum-ext-post-notification/0.3.6/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/tpokorra/flarum-ext-post-notification/master/resources/locale/en.yml',
 	],
-	'v17development-seo' => 'https://raw.githubusercontent.com/v17development/flarum-seo/master/locale/en.yml',
+	'v17development-seo' => [
+		'tag' => 'https://raw.githubusercontent.com/v17development/flarum-seo/1.1/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/v17development/flarum-seo/master/locale/en.yml',
+	],
 	'veriael-markdown' => 'https://raw.githubusercontent.com/Veriael/markdown/master/resources/locale/en.yml',
 	'wiwatsrt-best-answer' => 'https://raw.githubusercontent.com/wiwatsrt/flarum-ext-best-answer/master/locale/en.yml',
 	'xelson-chat' => 'https://raw.githubusercontent.com/Xelson/flarum-ext-chat/master/resources/locale/en.yaml',
