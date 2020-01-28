@@ -78,7 +78,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/geoip/0.1.5/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/geoip/master/resources/locale/en.yml',
 	],
-	'fof-github-sponsors' => 'https://raw.githubusercontent.com/FriendsOfFlarum/github-sponsors/master/locale/en.yml',
+	'fof-github-sponsors' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/github-sponsors/0.1.1/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/github-sponsors/master/locale/en.yml',
+	],
 	'fof-html-errors' => 'https://raw.githubusercontent.com/FriendsOfFlarum/html-errors/master/locale/en.yml',
 	'fof-ignore-users' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ignore-users/master/resources/locale/en.yml',
 	'fof-linguist' => 'https://raw.githubusercontent.com/FriendsOfFlarum/linguist/master/resources/locale/en.yml',
