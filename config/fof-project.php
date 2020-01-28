@@ -138,7 +138,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/reactions/0.2.0/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/reactions/master/resources/locale/en.yml',
 	],
-	'fof-recaptcha' => 'https://raw.githubusercontent.com/FriendsOfFlarum/recaptcha/master/resources/locale/en.yml',
+	'fof-recaptcha' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/recaptcha/0.1.1/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/recaptcha/master/resources/locale/en.yml',
+	],
 	'fof-secure-https' => 'https://raw.githubusercontent.com/FriendsOfFlarum/secure-https/master/resources/locale/en.yml',
 	'fof-sentry' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sentry/master/resources/locale/en.yml',
 	'fof-share-social' => 'https://raw.githubusercontent.com/FriendsOfFlarum/share-social/master/resources/locale/en.yml',
