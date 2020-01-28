@@ -170,7 +170,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-affiliation-links/0.2.0/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-affiliation-links/master/resources/locale/en.yml',
 	],
-	'kilowhat-mailing' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-mailing/master/resources/locale/en.yml',
+	'kilowhat-mailing' => [
+		'tag' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-mailing/0.2.1/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-mailing/master/resources/locale/en.yml',
+	],
 	'kvothe-keyboard-shortcuts' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-keyboard-shortcuts/master/resources/locale/en.yml',
 	'kvothe-reply-to-see' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-reply2see/master/resources/locale/en.yml',
 	'kvothe-signup-button' => 'https://raw.githubusercontent.com/oaklinq/flarum-signup-button/master/resources/locale/en.yml',
