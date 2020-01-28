@@ -358,6 +358,9 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumRedis/v0.1.0-beta.8.1/locale/en.yaml',
 		'branch' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumRedis/master/locale/en.yaml',
 	],
-	'ziymed-backtowebsite' => 'https://raw.githubusercontent.com/ziymed/BackToWebsite/master/locale/en.yml',
+	'ziymed-backtowebsite' => [
+		'tag' => 'https://raw.githubusercontent.com/ziymed/BackToWebsite/0.1.0/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/ziymed/BackToWebsite/master/locale/en.yml',
+	],
 	/* extensions list end */
 ];
