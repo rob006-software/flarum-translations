@@ -230,7 +230,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/migratetoflarum/vbulletin-redirects/0.2.0/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/migratetoflarum/vbulletin-redirects/master/locale/en.yml',
 	],
-	'minr-auth-qq' => 'https://raw.githubusercontent.com/minr/flarum-ext-auth-qq/master/locale/en.yml',
+	'minr-auth-qq' => [
+		'tag' => 'https://raw.githubusercontent.com/minr/flarum-ext-auth-qq/v0.1.6/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/minr/flarum-ext-auth-qq/master/locale/en.yml',
+	],
 	'minr-auth-weibo' => 'https://raw.githubusercontent.com/minr/auth-weibo/master/locale/en.yml',
 	'nikovonlas-auth-vk' => 'https://raw.githubusercontent.com/NikoVonLas/flarum-ext-auth-vk/master/locale/en.yml',
 	'nikovonlas-web-push' => 'https://raw.githubusercontent.com/NikoVonLas/flarum-ext-web-push/master/locale/en.yml',
