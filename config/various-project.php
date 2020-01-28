@@ -106,7 +106,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Fajuu/ContactButton/v3.0/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/Fajuu/ContactButton/master/locale/en.yml',
 	],
-	'fajuu-icons' => 'https://raw.githubusercontent.com/Fajuu/flarum-icons/master/resources/locale/en.yml',
+	'fajuu-icons' => [
+		'tag' => 'https://raw.githubusercontent.com/Fajuu/flarum-icons/0.1.2/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/Fajuu/flarum-icons/master/resources/locale/en.yml',
+	],
 	'flagrow-ads' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ads/master/locale/en.yml',
 	'flagrow-analytics' => 'https://raw.githubusercontent.com/flagrow/analytics/master/resources/locale/en.yml',
 	'flagrow-fonts' => 'https://raw.githubusercontent.com/flagrow/fonts/master/resources/locale/en.yml',
