@@ -234,7 +234,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/minr/flarum-ext-auth-qq/v0.1.6/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/minr/flarum-ext-auth-qq/master/locale/en.yml',
 	],
-	'minr-auth-weibo' => 'https://raw.githubusercontent.com/minr/auth-weibo/master/locale/en.yml',
+	'minr-auth-weibo' => [
+		'tag' => 'https://raw.githubusercontent.com/minr/auth-weibo/v0.1.8/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/minr/auth-weibo/master/locale/en.yml',
+	],
 	'nikovonlas-auth-vk' => 'https://raw.githubusercontent.com/NikoVonLas/flarum-ext-auth-vk/master/locale/en.yml',
 	'nikovonlas-web-push' => 'https://raw.githubusercontent.com/NikoVonLas/flarum-ext-web-push/master/locale/en.yml',
 	'nomiscz-auth-linkedin' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-linkedin/master/resources/locale/en.yml',
