@@ -82,7 +82,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Dem13n/auth-yandex/0.1.0/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/Dem13n/auth-yandex/master/resources/locale/en.yml',
 	],
-	'dem13n-nickname-changer' => 'https://raw.githubusercontent.com/Dem13n/nickname-changer/master/resources/locale/en.yml',
+	'dem13n-nickname-changer' => [
+		'tag' => 'https://raw.githubusercontent.com/Dem13n/nickname-changer/0.1.6/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/Dem13n/nickname-changer/master/resources/locale/en.yml',
+	],
 	'dem13n-quad-theme' => 'https://raw.githubusercontent.com/Dem13n/quad-theme/master/resources/locale/en.yml',
 	'dexif-telegram' => 'https://raw.githubusercontent.com/dexif/telegram/dexif/resources/locale/en.yml',
 	'dotronglong-hide-me' => 'https://raw.githubusercontent.com/dotronglong/flarum-hide-me/master/locale/en.yml',
