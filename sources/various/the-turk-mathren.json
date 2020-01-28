@@ -2,25 +2,37 @@
     "the-turk-mathren": {
         "admin": {
             "settings": {
-                "title": "MathRen Settings",
-                "codeOptionsHeading": "<code /> Tag Options",
-                "enableCode": "Wrap mathematical expressions with <code />",
-                "enableCodeHelp": "Some extensions such as Markdown may cause unwanted formatting on your mathematical expressions. You have to enable this option if you're using such extensions.",
-                "enableCodeWarning": "<strong>Please note</strong> that when disabling or enabling, previous expressions will remain as-is until the respective post is edited.",
-                "codeClasses": "Class names for the <code /> tag",
-                "codeClassesHelp": "You can easily stylize your <code /> wrappers with class names.",
-                "codeClass": "The <code /> tag for block expressions",
-                "inlineCodeClass": "The <code /> tag for inline expressions",
-                "codeStyle": "Stylize <code /> wrappers",
+                "title": "MathRen",
+                "description": "Configure TeX math rendering.",
+                "wrapperOptionsHeading": "Wrapper Options",
+                "mathClasses": "Class names for the <code>span</code> tag",
+                "mathClassesHelp": "You can easily stylize your <code>span</code> wrappers using class names.",
+                "blockMathClass": "The <code>span</code> tag for block expressions",
+                "inlineMathClass": "The <code>span</code> tag for inline expressions",
+                "wrapperStyle": "Stylize <code>span</code> wrappers",
                 "katexOptionsHeading": "KaTeX Options",
                 "enableFleqn": "Enable flush left equations (fleqn)",
                 "enableLeqno": "Enable left equation numbers (leqno)",
-                "ignoredTags": "Ignored tags",
-                "ignoredTagsHelp": "List of DOM node types to ignore when recursing through",
-                "ignoredClasses": "Ignored classes",
-                "ignoredClassesHelp": "List of DOM node class names to ignore when recursing through",
+                "delimiters": "Delimiters",
+                "delimitersHelp": "Separate them with commas. <strong>%e%</strong> stands for mathematical expression.",
+                "mainBlockDelimiter": "Main <strong>BBCode</strong> delimiter for block expressions",
+                "mainInlineDelimiter": "Main <strong>BBCode</strong> delimiter for inline expressions",
+                "aliasBlockDelimiters": "Alias delimiters for block expressions",
+                "aliasInlineDelimiters": "Alias delimiters for inline expressions",
+                "aliasDelimitersHelp": "They meant to be <strong>alias</strong> for <em>main BBCode delimiters</em>. If you have special delimiters (like <code>$$</code>) in your alias delimiters list, MathRen will scan the whole post for these additional delimiters when saving a post and will try to replace them with main BBCode delimiters. This may cause longer waiting time when saving a post. You may want to use additional BBCode delimiters instead of special ones to prevent this action though.",
+                "delimiterWarning": "<strong>CAUTION</strong> <code>\\[%e%\\]</code> must come last in following lists (if you're willing to use it). Otherwise, MathRen will search for <code>\\[</code> before it searches for others. That makes it susceptible to finding a <code>\\\\[0.3em]</code> row delimiter and treating it as if it were the start of a KaTeX math zone.",
+                "ignoringExpressions": "Ignoring Expressions",
+                "ignoringExpressionsHelp": "Separate them with commas.",
+                "decisiveKeywords": "List of decisive keywords to ignore expressions",
+                "decisiveKeywordsHelp": "You will write one of these decisive keywords next to the <em>special</em> right delimiter (other than BBCode) with curly brackets (i.e. <code>$$%e%$${<strong>keyword</strong>}</code>) or inside a BBCode (i.e. <code>[math=<strong>keyword</strong>]%e%[/math]</code>) to prevent expressions from rendering. <strong>Note that</strong> <code>[math]%e%[/math]{<strong>keyword</strong>}</code> is an example of <u>invalid usage</u>.",
+                "decisiveKeywordsInfo": "First keyword in this list will be used as default by text editor.",
+                "decisiveKeywordsWarning": "Do not use special characters! Or it will throw an exception.",
+                "ignoredTags": "List of DOM node types to ignore when recursing through",
+                "ignoredClasses": "List of DOM node class names to ignore when recursing through",
+                "ignoredClassesInfo": "First class in this list will be used as default to wrap ignored expression with.",
                 "outputMode": "Output mode",
                 "outputModeHelp": "Choose the markup language for the output",
+                "enableColorIsTextColor": "Allow <code>\\color</code> command to take two arguments (colorIsTextColor)",
                 "enableThrowOnError": "Throw an error on unsupported command or invalid LaTeX",
                 "errorColor": "Color of unsupported commands or invalid LaTeX",
                 "errorColorHelp": "Choose the color that unsupported commands and invalid LaTeX are rendered in when error throwing is disabled.",
@@ -29,9 +41,17 @@
                 "minRuleThickness": "Minimum thickness (em)",
                 "maxSize": "Maximum size (em)",
                 "macros": "Macros",
-                "macrosHelp": "A collection of custom macros",
+                "macrosHelp": "A collection of custom macros.",
                 "maxExpand": "Maximum expand limit",
-                "katexOptionsInfo": "You can find more information for KaTeX options on https://katex.org/"
+                "katexOptionsInfo": "You can find more information for KaTeX options on https://katex.org/",
+                "otherOptionsHeading": "Other Options",
+                "enableTextEditorButtons": "Show buttons on text editor"
+            }
+        },
+        "forum": {
+            "textEditor": {
+                "blockExpression": "Block Expression",
+                "inlineExpression": "Inline Expression"
             }
         }
     }
