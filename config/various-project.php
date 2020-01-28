@@ -78,7 +78,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Dem13n/auth-vkontakte/0.1.1/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/Dem13n/auth-vkontakte/master/resources/locale/en.yml',
 	],
-	'dem13n-auth-yandex' => 'https://raw.githubusercontent.com/Dem13n/auth-yandex/master/resources/locale/en.yml',
+	'dem13n-auth-yandex' => [
+		'tag' => 'https://raw.githubusercontent.com/Dem13n/auth-yandex/0.1.0/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/Dem13n/auth-yandex/master/resources/locale/en.yml',
+	],
 	'dem13n-nickname-changer' => 'https://raw.githubusercontent.com/Dem13n/nickname-changer/master/resources/locale/en.yml',
 	'dem13n-quad-theme' => 'https://raw.githubusercontent.com/Dem13n/quad-theme/master/resources/locale/en.yml',
 	'dexif-telegram' => 'https://raw.githubusercontent.com/dexif/telegram/dexif/resources/locale/en.yml',
