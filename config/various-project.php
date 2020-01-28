@@ -266,7 +266,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ReFlar/level-ranks/1.2.1/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/ReFlar/level-ranks/master/resources/locale/en.yml',
 	],
-	'reflar-twofactor' => 'https://raw.githubusercontent.com/ReFlar/twofactor/master/resources/locale/en.yml',
+	'reflar-twofactor' => [
+		'tag' => 'https://raw.githubusercontent.com/ReFlar/twofactor/0.1.3/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/ReFlar/twofactor/master/resources/locale/en.yml',
+	],
 	'reflar-webhooks' => 'https://raw.githubusercontent.com/ReFlar/webhooks/master/resources/locale/en.yml',
 	'saleksin-auth-google' => 'https://raw.githubusercontent.com/saleksin/flarum-auth-google/master/locale/en.yml',
 	'shriker-pronouns' => 'https://raw.githubusercontent.com/shriker/flarum-pronouns/master/resources/locale/en.yml',
