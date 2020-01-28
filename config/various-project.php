@@ -52,6 +52,7 @@ return [
 	'irony-google-search' => 'https://raw.githubusercontent.com/892768447/flarum-ext-google-search/master/resources/locale/en.yml',
 	'irony-login2see' => 'https://raw.githubusercontent.com/892768447/flarum-ext-login2see/master/resources/locale/en.yml',
 	'irony-webhook' => 'https://raw.githubusercontent.com/892768447/flarum-ext-webhook/master/resources/locale/en.yml',
+	'itnt-backtop' => 'https://raw.githubusercontent.com/Littlegolden/flarum-backtop/master/no-translation-source.yml',
 	'kilowhat-affiliation-links' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-affiliation-links/master/resources/locale/en.yml',
 	'kilowhat-mailing' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-mailing/master/resources/locale/en.yml',
 	'kvothe-keyboard-shortcuts' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-keyboard-shortcuts/master/resources/locale/en.yml',
