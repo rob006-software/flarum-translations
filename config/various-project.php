@@ -114,7 +114,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ads/0.2.4/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ads/master/locale/en.yml',
 	],
-	'flagrow-analytics' => 'https://raw.githubusercontent.com/flagrow/analytics/master/resources/locale/en.yml',
+	'flagrow-analytics' => [
+		'tag' => 'https://raw.githubusercontent.com/flagrow/analytics/0.8.0/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/flagrow/analytics/master/resources/locale/en.yml',
+	],
 	'flagrow-fonts' => 'https://raw.githubusercontent.com/flagrow/fonts/master/resources/locale/en.yml',
 	'flagrow-impersonate' => 'https://raw.githubusercontent.com/flagrow/impersonate/master/resources/locale/en.yml',
 	'flagrow-mason' => 'https://raw.githubusercontent.com/flagrow/mason/master/resources/locale/en.yml',
