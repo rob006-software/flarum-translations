@@ -138,7 +138,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flagrow/upload/0.7.1/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/flagrow/upload/master/resources/locale/en.yml',
 	],
-	'giga300-auth-discord' => 'https://raw.githubusercontent.com/giga300/flarum-auth-discord/master/locale/en.yml',
+	'giga300-auth-discord' => [
+		'tag' => 'https://raw.githubusercontent.com/giga300/flarum-auth-discord/v1.1.0/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/giga300/flarum-auth-discord/master/locale/en.yml',
+	],
 	'hiqstd-close' => 'https://raw.githubusercontent.com/HiQStd/flarum-ext-close/master/resources/locale/en.yml',
 	'irony-bing-wallpaper' => 'https://raw.githubusercontent.com/892768447/flarum-ext-bing-wallpaper/master/resources/locale/en.yml',
 	'irony-code-insert' => 'https://raw.githubusercontent.com/892768447/flarum-ext-code-insert/master/resources/locale/en.yml',
