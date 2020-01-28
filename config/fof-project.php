@@ -34,7 +34,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/best-answer/0.1.4/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/best-answer/master/resources/locale/en.yml',
 	],
-	'fof-byobu' => 'https://raw.githubusercontent.com/FriendsOfFlarum/byobu/master/resources/locale/en.yml',
+	'fof-byobu' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/byobu/0.3.4/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/byobu/master/resources/locale/en.yml',
+	],
 	'fof-custom-footer' => 'https://raw.githubusercontent.com/FriendsOfFlarum/custom-footer/master/resources/locale/en.yml',
 	'fof-default-group' => 'https://raw.githubusercontent.com/FriendsOfFlarum/default-group/master/resources/locale/en.yml',
 	'fof-disposable-emails' => 'https://raw.githubusercontent.com/FriendsOfFlarum/disposable-emails/master/locale/en.yml',
