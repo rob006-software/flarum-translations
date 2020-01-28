@@ -114,7 +114,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/open-collective/0.1.2/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/open-collective/master/resources/locale/en.yml',
 	],
-	'fof-pages' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pages/master/resources/locale/en.yml',
+	'fof-pages' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pages/0.2.7/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pages/master/resources/locale/en.yml',
+	],
 	'fof-polls' => 'https://raw.githubusercontent.com/FriendsOfFlarum/polls/master/resources/locale/en.yml',
 	'fof-pretty-mail' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pretty-mail/master/resources/locale/en.yml',
 	'fof-prevent-necrobumping' => 'https://raw.githubusercontent.com/FriendsOfFlarum/prevent-necrobumping/master/resources/locale/en.yml',
