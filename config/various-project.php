@@ -346,7 +346,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/zerosonesfun/announce/1.2/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/zerosonesfun/announce/master/resources/locale/en.yml',
 	],
-	'zhishiq-pusher' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumPusher/master/locale/en.yaml',
+	'zhishiq-pusher' => [
+		'tag' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumPusher/v0.1.0-beta.8.1/locale/en.yaml',
+		'branch' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumPusher/master/locale/en.yaml',
+	],
 	'zhishiq-queue' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumQueue/master/locale/en.yaml',
 	'zhishiq-redis' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumRedis/master/locale/en.yaml',
 	'ziymed-backtowebsite' => 'https://raw.githubusercontent.com/ziymed/BackToWebsite/master/locale/en.yml',
