@@ -38,7 +38,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/catch-the-fish/0.1.1/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/clarkwinkelmann/catch-the-fish/master/resources/locale/en.yml',
 	],
-	'clarkwinkelmann-create-user-modal' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-create-user-modal/master/resources/locale/en.yml',
+	'clarkwinkelmann-create-user-modal' => [
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-create-user-modal/1.0.0/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-create-user-modal/master/resources/locale/en.yml',
+	],
 	'clarkwinkelmann-email-as-display-name' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-email-as-display-name/master/locale/en.yml',
 	'clarkwinkelmann-emojionearea' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-emojionearea/master/locale/en.yml',
 	'clarkwinkelmann-passwordless' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-passwordless/master/resources/locale/en.yml',
