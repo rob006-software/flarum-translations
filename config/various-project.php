@@ -198,7 +198,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/manelizzard/flarum-notify/0.2.1/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/manelizzard/flarum-notify/master/resources/locale/en.yml',
 	],
-	'matteocontrini-imgur-upload' => 'https://raw.githubusercontent.com/matteocontrini/flarum-imgur-upload/master/locale/en.yml',
+	'matteocontrini-imgur-upload' => [
+		'tag' => 'https://raw.githubusercontent.com/matteocontrini/flarum-imgur-upload/v3.3.0/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/matteocontrini/flarum-imgur-upload/master/locale/en.yml',
+	],
 	'michaelbelgium-discussion-views' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-discussion-views/master/locale/en.yml',
 	'michaelbelgium-mybb-to-flarum' => 'https://raw.githubusercontent.com/MichaelBelgium/mybb_to_flarum/master/locale/en.yml',
 	'michaelbelgium-profile-views' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-profile-views/master/locale/en.yml',
