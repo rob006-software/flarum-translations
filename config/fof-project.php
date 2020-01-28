@@ -70,7 +70,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/frontpage/0.1.3/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/frontpage/master/resources/locale/en.yml',
 	],
-	'fof-gamification' => 'https://raw.githubusercontent.com/FriendsOfFlarum/gamification/master/resources/locale/en.yml',
+	'fof-gamification' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/gamification/0.1.6/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/gamification/master/resources/locale/en.yml',
+	],
 	'fof-geoip' => 'https://raw.githubusercontent.com/FriendsOfFlarum/geoip/master/resources/locale/en.yml',
 	'fof-github-sponsors' => 'https://raw.githubusercontent.com/FriendsOfFlarum/github-sponsors/master/locale/en.yml',
 	'fof-html-errors' => 'https://raw.githubusercontent.com/FriendsOfFlarum/html-errors/master/locale/en.yml',
