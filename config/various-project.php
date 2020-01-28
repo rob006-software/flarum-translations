@@ -302,7 +302,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/tankerkiller125/flarum-perspective/0.1.7/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/tankerkiller125/flarum-perspective/master/resources/locale/en.yml',
 	],
-	'the-turk-mathren' => 'https://raw.githubusercontent.com/the-turk/flarum-mathren/master/locale/en.yml',
+	'the-turk-mathren' => [
+		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-mathren/0.2.2/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/the-turk/flarum-mathren/v02/locale/en.yml',
+	],
 	'the-turk-password-strength' => 'https://raw.githubusercontent.com/the-turk/flarum-password-strength/master/locale/en.yml',
 	'tituspijean-auth-ldap' => 'https://raw.githubusercontent.com/tituspijean/flarum-ext-auth-ldap/master/locale/en.yml',
 	'tituspijean-auth-ssowat' => 'https://raw.githubusercontent.com/tituspijean/flarum-ext-auth-ssowat/master/locale/en.yml',
