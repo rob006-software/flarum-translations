@@ -170,7 +170,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/stopforumspam/0.2.1/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/stopforumspam/master/locale/en.yml',
 	],
-	'fof-subscribed' => 'https://raw.githubusercontent.com/FriendsOfFlarum/subscribed/master/resources/locale/en.yml',
+	'fof-subscribed' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/subscribed/0.2.3/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/subscribed/master/resources/locale/en.yml',
+	],
 	'fof-terms' => 'https://raw.githubusercontent.com/FriendsOfFlarum/terms/master/resources/locale/en.yml',
 	'fof-transliterator' => 'https://raw.githubusercontent.com/FriendsOfFlarum/transliterator/master/locale/en.yml',
 	'fof-user-bio' => 'https://raw.githubusercontent.com/FriendsOfFlarum/user-bio/master/resources/locale/en.yml',
