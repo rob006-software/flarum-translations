@@ -310,7 +310,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-password-strength/0.1.0/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/the-turk/flarum-password-strength/master/locale/en.yml',
 	],
-	'tituspijean-auth-ldap' => 'https://raw.githubusercontent.com/tituspijean/flarum-ext-auth-ldap/master/locale/en.yml',
+	'tituspijean-auth-ldap' => [
+		'tag' => 'https://raw.githubusercontent.com/tituspijean/flarum-ext-auth-ldap/v1.0/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/tituspijean/flarum-ext-auth-ldap/master/locale/en.yml',
+	],
 	'tituspijean-auth-ssowat' => 'https://raw.githubusercontent.com/tituspijean/flarum-ext-auth-ssowat/master/locale/en.yml',
 	'tpokorra-post-notification' => 'https://raw.githubusercontent.com/tpokorra/flarum-ext-post-notification/master/resources/locale/en.yml',
 	'v17development-seo' => 'https://raw.githubusercontent.com/v17development/flarum-seo/master/locale/en.yml',
