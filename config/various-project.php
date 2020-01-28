@@ -210,7 +210,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/MichaelBelgium/mybb_to_flarum/v4.1/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/MichaelBelgium/mybb_to_flarum/master/locale/en.yml',
 	],
-	'michaelbelgium-profile-views' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-profile-views/master/locale/en.yml',
+	'michaelbelgium-profile-views' => [
+		'tag' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-profile-views/v2.1.6/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-profile-views/master/locale/en.yml',
+	],
 	'migratetoflarum-canonical' => 'https://raw.githubusercontent.com/migratetoflarum/canonical/master/resources/locale/en.yml',
 	'migratetoflarum-fake-data' => 'https://raw.githubusercontent.com/migratetoflarum/fake-data/master/resources/locale/en.yml',
 	'migratetoflarum-itemlist-order' => 'https://raw.githubusercontent.com/migratetoflarum/itemlist-order/master/resources/locale/en.yml',
