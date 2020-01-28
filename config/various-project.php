@@ -194,7 +194,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/1.4.3/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/master/locale/en.yml',
 	],
-	'manelizzard-notify' => 'https://raw.githubusercontent.com/manelizzard/flarum-notify/master/resources/locale/en.yml',
+	'manelizzard-notify' => [
+		'tag' => 'https://raw.githubusercontent.com/manelizzard/flarum-notify/0.2.1/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/manelizzard/flarum-notify/master/resources/locale/en.yml',
+	],
 	'matteocontrini-imgur-upload' => 'https://raw.githubusercontent.com/matteocontrini/flarum-imgur-upload/master/locale/en.yml',
 	'michaelbelgium-discussion-views' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-discussion-views/master/locale/en.yml',
 	'michaelbelgium-mybb-to-flarum' => 'https://raw.githubusercontent.com/MichaelBelgium/mybb_to_flarum/master/locale/en.yml',
