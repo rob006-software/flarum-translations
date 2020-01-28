@@ -274,7 +274,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ReFlar/webhooks/0.2.1/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/ReFlar/webhooks/master/resources/locale/en.yml',
 	],
-	'saleksin-auth-google' => 'https://raw.githubusercontent.com/saleksin/flarum-auth-google/master/locale/en.yml',
+	'saleksin-auth-google' => [
+		'tag' => 'https://raw.githubusercontent.com/saleksin/flarum-auth-google/v0.1.0-beta.8.0.3/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/saleksin/flarum-auth-google/master/locale/en.yml',
+	],
 	'shriker-pronouns' => 'https://raw.githubusercontent.com/shriker/flarum-pronouns/master/resources/locale/en.yml',
 	'simonxeko-follow-users' => 'https://raw.githubusercontent.com/simonxeko/follow-users/master/resources/locale/en.yml',
 	'simonxeko-preview-discussion' => 'https://raw.githubusercontent.com/simonxeko/flarum-ext-preview-discussion/master/resources/locale/en.yml',
