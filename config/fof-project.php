@@ -30,7 +30,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ban-ips/0.1.5/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ban-ips/master/resources/locale/en.yml',
 	],
-	'fof-best-answer' => 'https://raw.githubusercontent.com/FriendsOfFlarum/best-answer/master/resources/locale/en.yml',
+	'fof-best-answer' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/best-answer/0.1.4/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/best-answer/master/resources/locale/en.yml',
+	],
 	'fof-byobu' => 'https://raw.githubusercontent.com/FriendsOfFlarum/byobu/master/resources/locale/en.yml',
 	'fof-custom-footer' => 'https://raw.githubusercontent.com/FriendsOfFlarum/custom-footer/master/resources/locale/en.yml',
 	'fof-default-group' => 'https://raw.githubusercontent.com/FriendsOfFlarum/default-group/master/resources/locale/en.yml',
