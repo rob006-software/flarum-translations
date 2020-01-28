@@ -14,7 +14,10 @@ return [
 	// do not remove this component - it is used as main component in this project
 	'core' => 'https://raw.githubusercontent.com/rob006-software/flarum-translations/master/placeholders/fof.yml',
 	/* extensions list begin */
-	'fof-amazon-affiliation' => 'https://raw.githubusercontent.com/FriendsOfFlarum/amazon-affiliation/master/resources/locale/en.yml',
+	'fof-amazon-affiliation' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/amazon-affiliation/0.2.1/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/amazon-affiliation/master/resources/locale/en.yml',
+	],
 	'fof-auth-discord' => 'https://raw.githubusercontent.com/FriendsOfFlarum/auth-discord/master/resources/locale/en.yml',
 	'fof-auth-gitlab' => 'https://raw.githubusercontent.com/FriendsOfFlarum/auth-gitlab/master/resources/locale/en.yml',
 	'fof-ban-ips' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ban-ips/master/resources/locale/en.yml',
