@@ -126,7 +126,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flagrow/impersonate/0.2.0/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/flagrow/impersonate/master/resources/locale/en.yml',
 	],
-	'flagrow-mason' => 'https://raw.githubusercontent.com/flagrow/mason/master/resources/locale/en.yml',
+	'flagrow-mason' => [
+		'tag' => 'https://raw.githubusercontent.com/flagrow/mason/0.3.1/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/flagrow/mason/master/resources/locale/en.yml',
+	],
 	'flagrow-passport' => 'https://raw.githubusercontent.com/flagrow/passport/master/locale/en.yml',
 	'flagrow-upload' => 'https://raw.githubusercontent.com/FriendsOfFlarum/upload/master/resources/locale/en.yml',
 	'giga300-auth-discord' => 'https://raw.githubusercontent.com/giga300/flarum-auth-discord/master/locale/en.yml',
