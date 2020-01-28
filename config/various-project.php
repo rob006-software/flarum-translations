@@ -286,7 +286,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/simonxeko/follow-users/0.3.5/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/simonxeko/follow-users/master/resources/locale/en.yml',
 	],
-	'simonxeko-preview-discussion' => 'https://raw.githubusercontent.com/simonxeko/flarum-ext-preview-discussion/master/resources/locale/en.yml',
+	'simonxeko-preview-discussion' => [
+		'tag' => 'https://raw.githubusercontent.com/simonxeko/flarum-ext-preview-discussion/0.1.0/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/simonxeko/flarum-ext-preview-discussion/master/resources/locale/en.yml',
+	],
 	'squeevee-fancybox' => 'https://raw.githubusercontent.com/squeevee/flarum-ext-fancybox/master/locale/en.yml',
 	'sycho-profile-cover' => 'https://raw.githubusercontent.com/SychO9/flarum-profile-cover/master/resources/locale/en.yml',
 	'tank-perspective' => 'https://raw.githubusercontent.com/tankerkiller125/flarum-perspective/master/resources/locale/en.yml',
