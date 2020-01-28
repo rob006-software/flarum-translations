@@ -118,7 +118,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flagrow/analytics/0.8.0/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/flagrow/analytics/master/resources/locale/en.yml',
 	],
-	'flagrow-fonts' => 'https://raw.githubusercontent.com/flagrow/fonts/master/resources/locale/en.yml',
+	'flagrow-fonts' => [
+		'tag' => 'https://raw.githubusercontent.com/flagrow/fonts/0.2.0/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/flagrow/fonts/master/resources/locale/en.yml',
+	],
 	'flagrow-impersonate' => 'https://raw.githubusercontent.com/flagrow/impersonate/master/resources/locale/en.yml',
 	'flagrow-mason' => 'https://raw.githubusercontent.com/flagrow/mason/master/resources/locale/en.yml',
 	'flagrow-passport' => 'https://raw.githubusercontent.com/flagrow/passport/master/locale/en.yml',
