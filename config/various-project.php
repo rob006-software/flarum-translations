@@ -150,7 +150,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/892768447/flarum-ext-bing-wallpaper/0.0.2/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/892768447/flarum-ext-bing-wallpaper/master/resources/locale/en.yml',
 	],
-	'irony-code-insert' => 'https://raw.githubusercontent.com/892768447/flarum-ext-code-insert/master/resources/locale/en.yml',
+	'irony-code-insert' => [
+		'tag' => 'https://raw.githubusercontent.com/892768447/flarum-ext-code-insert/0.0.1/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/892768447/flarum-ext-code-insert/master/resources/locale/en.yml',
+	],
 	'irony-google-search' => 'https://raw.githubusercontent.com/892768447/flarum-ext-google-search/master/resources/locale/en.yml',
 	'irony-login2see' => 'https://raw.githubusercontent.com/892768447/flarum-ext-login2see/master/resources/locale/en.yml',
 	'irony-webhook' => 'https://raw.githubusercontent.com/892768447/flarum-ext-webhook/master/resources/locale/en.yml',
