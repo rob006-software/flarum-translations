@@ -270,7 +270,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ReFlar/twofactor/0.1.3/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/ReFlar/twofactor/master/resources/locale/en.yml',
 	],
-	'reflar-webhooks' => 'https://raw.githubusercontent.com/ReFlar/webhooks/master/resources/locale/en.yml',
+	'reflar-webhooks' => [
+		'tag' => 'https://raw.githubusercontent.com/ReFlar/webhooks/0.2.1/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/ReFlar/webhooks/master/resources/locale/en.yml',
+	],
 	'saleksin-auth-google' => 'https://raw.githubusercontent.com/saleksin/flarum-auth-google/master/locale/en.yml',
 	'shriker-pronouns' => 'https://raw.githubusercontent.com/shriker/flarum-pronouns/master/resources/locale/en.yml',
 	'simonxeko-follow-users' => 'https://raw.githubusercontent.com/simonxeko/follow-users/master/resources/locale/en.yml',
