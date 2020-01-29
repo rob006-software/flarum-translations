@@ -9,6 +9,8 @@
  * with this source code in the file LICENSE.
  */
 
+declare(strict_types=1);
+
 return [
 	'__weblateId' => 'friends-of-flarum',
 	// do not remove this component - it is used as main component in this project

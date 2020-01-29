@@ -9,6 +9,8 @@
  * with this source code in the file LICENSE.
  */
 
+declare(strict_types=1);
+
 return (static function () {
 	$getProjectComponents = static function (string $projectId, array $exceptions = []): array {
 		$keys = array_keys(require __DIR__ . "/$projectId-project.php");
