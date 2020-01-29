@@ -74,23 +74,15 @@
                 "title": "=> core.ref.custom_header_title"
             },
             "email": {
-                "account_heading": "SMTP Hesabı",
                 "addresses_heading": "Adresler",
+                "driver_heading": "Sürücü Seç",
                 "driver_label": "Sürücü",
-                "encryption_label": "Şifreleme",
                 "from_label": "Gönderen",
                 "heading": "=> core.ref.email",
-                "host_label": "Host",
-                "password_label": "=> core.ref.password",
-                "port_label": "Port",
-                "server_heading": "SMTP Sunucusu",
-                "submit_button": "=> core.ref.save_changes",
-                "text": "Forumunun e-posta göndermesi için sürücüyü, ayarları ve adresleri ayarla.",
-                "username_label": "=> core.ref.username",
-                "driver_heading": "Sürücü Seç",
                 "mail_encryption_label": "Şifreleme",
                 "mail_host_label": "Sunucu",
                 "mail_mailgun_domain_label": "Alanadı",
+                "mail_mailgun_region_label": "",
                 "mail_mailgun_secret_label": "Gizli anahtar",
                 "mail_mandrill_secret_label": "Gizli anahtar",
                 "mail_password_label": "=> core.ref.password",
@@ -103,7 +95,15 @@
                 "mandrill_heading": "Mandrill Ayarları",
                 "ses_heading": "SES Ayarları",
                 "smtp_heading": "SMTP Ayarları",
-                "mail_mailgun_region_label": ""
+                "submit_button": "=> core.ref.save_changes",
+                "text": "Forumunun e-posta göndermesi için sürücüyü, ayarları ve adresleri ayarla.",
+                "account_heading": "SMTP Hesabı",
+                "encryption_label": "Şifreleme",
+                "host_label": "Host",
+                "password_label": "=> core.ref.password",
+                "port_label": "Port",
+                "server_heading": "SMTP Sunucusu",
+                "username_label": "=> core.ref.username"
             },
             "extensions": {
                 "add_button": "Uzantı Ekle",
@@ -139,6 +139,7 @@
                 "delete_posts_forever_label": "Gönderileri kalıcı olarak sil",
                 "delete_posts_label": "Gönderileri sil",
                 "edit_posts_label": "Gönderileri düzenle",
+                "edit_users_label": "Kullanıcıları düzenle",
                 "global_heading": "Genel",
                 "moderate_heading": "Yönetim",
                 "new_group_button": "Yeni Grup",
@@ -151,8 +152,7 @@
                 "view_discussions_label": "Tartışmalar görüntüle",
                 "view_last_seen_at_label": "Son görülme zamanını görüntüle",
                 "view_post_ips_label": "Gönderilerde IP adresini görüntüle",
-                "view_user_list_label": "Kullanıcı listesini görüntüle",
-                "edit_users_label": "Kullanıcıları düzenle"
+                "view_user_list_label": "Kullanıcı listesini görüntüle"
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Sonsuza kadar",
@@ -291,9 +291,9 @@
                 "discussion_renamed_text": "{username} başlığı değiştirdi",
                 "empty_text": "Bildirim Yok",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "mark_as_read_tooltip": "Okundu Olarak İşaretle",
                 "title": "=> core.ref.notifications",
-                "tooltip": "=> core.ref.notifications",
-                "mark_as_read_tooltip": "Okundu Olarak İşaretle"
+                "tooltip": "=> core.ref.notifications"
             },
             "post": {
                 "edited_text": "Düzenlendi",
@@ -367,9 +367,9 @@
                 "button": "Seçenekler",
                 "delete_button": "=> core.ref.delete",
                 "delete_confirmation": "Bu kullanıcıyı silmek istediğinize emin misiniz? Kullanıcının tüm gönderileri silinecek.",
-                "edit_button": "=> core.ref.edit",
                 "delete_error_message": "<i>{username} ({email})</i> adlı kullanıcının silinmesi başarısız oldu",
-                "delete_success_message": "'<i>{username} ({email}) silindi'"
+                "delete_success_message": "'<i>{username} ({email}) silindi'",
+                "edit_button": "=> core.ref.edit"
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
@@ -411,13 +411,6 @@
                 "previous_page_button": "=> core.ref.previous_page"
             },
             "error": {
-                "403_message": "Bu sayfaya erişim iznin yok.",
-                "404_message": "İstediğin sayfa bulunamadı.",
-                "404_return_link": "{forum}'a dön",
-                "500_message": "Bu sayfa yüklenmeye çalışılırken bir hata oluştu.",
-                "503_message": "{forum} bakım altında. Sabrın için teşekkürler!",
-                "419_message": "Çok uzun zamandır aktif değilsin.",
-                "419_return_link": "Geri dön ve tekrar dene",
                 "csrf_token_mismatch": "Çok uzun süre işlem yapmadın.",
                 "csrf_token_mismatch_return_link": "Geri dön, tekrar dene",
                 "invalid_confirmation_token": "Bu onaylama bağlantısı zaten kullanılmış veya geçersiz.",
@@ -425,7 +418,14 @@
                 "not_found": "Aradığınız sayfa bulunamadı.",
                 "not_found_return_link": "{forum} forumuna geri dön",
                 "permission_denied": "",
-                "unknown": ""
+                "unknown": "",
+                "403_message": "Bu sayfaya erişim iznin yok.",
+                "404_message": "İstediğin sayfa bulunamadı.",
+                "404_return_link": "{forum}'a dön",
+                "500_message": "Bu sayfa yüklenmeye çalışılırken bir hata oluştu.",
+                "503_message": "{forum} bakım altında. Sabrın için teşekkürler!",
+                "419_message": "Çok uzun zamandır aktif değilsin.",
+                "419_return_link": "Geri dön ve tekrar dene"
             },
             "index": {
                 "all_discussions_heading": "=> core.ref.all_discussions",
@@ -477,6 +477,8 @@
             "discussions": "Tartışmalar",
             "edit": "Düzenle",
             "email": "E-posta",
+            "icon": "Simge",
+            "icon_text": "Herhangi bir <a>FontAwesome</a> ikonu adını <code>fas fa-</code> <em>öneki dahil</em> olarak girin.",
             "load_more": "Daha Fazla Yükle",
             "log_in": "Giriş Yap",
             "log_out": "Çıkış Yap",
@@ -500,9 +502,7 @@
             "username": "Kullanıcı Adı",
             "users": "Kullanıcılar",
             "write_a_reply": "Bir Yanıt Yaz...",
-            "you": "Sen",
-            "icon": "Simge",
-            "icon_text": "Herhangi bir <a>FontAwesome</a> ikonu adını <code>fas fa-</code> <em>öneki dahil</em> olarak girin."
+            "you": "Sen"
         },
         "group": {
             "admin": "Yönetici",
