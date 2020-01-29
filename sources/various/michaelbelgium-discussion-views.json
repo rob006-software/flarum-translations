@@ -16,6 +16,9 @@
             },
             "discussion_controls": {
                 "resetviews_button": "Reset views"
+            },
+            "viewlist": {
+                "title": "Latest viewers"
             }
         },
         "admin": {
@@ -26,7 +29,9 @@
                 "title": "Discussionviews settings",
                 "track_unique": "Track unique views",
                 "abbr_numbers": "Abbreviate view numbers",
-                "show_filter": "Enable (un)popular sort field"
+                "show_filter": "Enable (un)popular sort field",
+                "max_viewcount": "Maximum viewlist items",
+                "show_viewlist": "Enable viewlist"
             }
         }
     }
