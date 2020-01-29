@@ -58,7 +58,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.11/locale/flarum-lock.yml',
 		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-lock.yml',
 	],
-	'flarum-markdown' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-markdown.yml',
+	'flarum-markdown' => [
+		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.11/locale/flarum-markdown.yml',
+		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-markdown.yml',
+	],
 	'flarum-mentions' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-mentions.yml',
 	'flarum-pusher' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-pusher.yml',
 	'flarum-statistics' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-statistics.yml',
