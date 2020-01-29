@@ -317,8 +317,9 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/tituspijean/flarum-ext-auth-ldap/master/locale/en.yml',
 	],
 	'tituspijean-auth-ssowat' => [
-		'tag' => 'https://raw.githubusercontent.com/tituspijean/flarum-ext-auth-ssowat/0.6/locale/en.yml',
+		'tag:v0.1.' => 'https://raw.githubusercontent.com/tituspijean/flarum-ext-auth-ssowat/v0.1.0-beta.10-2/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/tituspijean/flarum-ext-auth-ssowat/master/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/tituspijean/flarum-ext-auth-ssowat/0.6/locale/en.yml',
 	],
 	'tpokorra-post-notification' => [
 		'tag' => 'https://raw.githubusercontent.com/tpokorra/flarum-ext-post-notification/0.3.6/resources/locale/en.yml',
