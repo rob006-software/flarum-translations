@@ -12,10 +12,14 @@
 return [
 	// do not remove this component - it is used as main component in this project
 	'core' => [
-		'https://raw.githubusercontent.com/flarum/lang-english/master/locale/core.yml',
+		'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.11/locale/core.yml',
 		'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.10/locale/core.yml',
-		'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.9/locale/core.yml',
-		'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.8/locale/core.yml',
+		'https://raw.githubusercontent.com/flarum/lang-english/master/locale/core.yml',
+	],
+	'validation' => [
+		'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.11/locale/validation.yml',
+		'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.10/locale/validation.yml',
+		'https://raw.githubusercontent.com/flarum/lang-english/master/locale/validation.yml',
 	],
 	/* extensions list begin */
 	'flarum-akismet' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-akismet.yml',
@@ -35,6 +39,5 @@ return [
 	'flarum-subscriptions' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-subscriptions.yml',
 	'flarum-suspend' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-suspend.yml',
 	'flarum-tags' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-tags.yml',
-	'validation' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/validation.yml',
 	/* extensions list end */
 ];
