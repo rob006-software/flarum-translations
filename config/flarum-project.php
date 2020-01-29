@@ -82,7 +82,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.11/locale/flarum-subscriptions.yml',
 		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-subscriptions.yml',
 	],
-	'flarum-suspend' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-suspend.yml',
+	'flarum-suspend' => [
+		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.11/locale/flarum-suspend.yml',
+		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-suspend.yml',
+	],
 	'flarum-tags' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-tags.yml',
 	/* extensions list end */
 ];
