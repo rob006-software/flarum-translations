@@ -3,13 +3,13 @@
         "admin": {
             "settings": {
                 "title": "Ustawienia MathRen",
-                "description": "",
+                "description": "Konfiguruj renderowanie wyrażeń TeX.",
                 "wrapperOptionsHeading": "",
-                "mathClasses": "",
-                "mathClassesHelp": "",
-                "blockMathClass": "",
-                "inlineMathClass": "",
-                "wrapperStyle": "",
+                "mathClasses": "Nazwy klas dla tagu <code>span</code>",
+                "mathClassesHelp": "Możesz łatwo oscylować tagi <code>span</code> wykorzystując własne klasy.",
+                "blockMathClass": "Tag <code>span</code> dla wyrażeń blokowych",
+                "inlineMathClass": "Tag <code>span</code> dla wyrażeń liniowych",
+                "wrapperStyle": "Ostyluj tagi <code>span</code>",
                 "katexOptionsHeading": "Opcje KaTeX",
                 "enableFleqn": "Wyrównaj wzory matematyczne do lewej (fleqn)",
                 "enableLeqno": "Umieszczaj numery wzorów matematycznych na lewym marginesie (leqno)",
@@ -26,8 +26,8 @@
                 "decisiveKeywordsHelp": "",
                 "decisiveKeywordsInfo": "",
                 "decisiveKeywordsWarning": "",
-                "ignoredTags": "Ignorowane tagi",
-                "ignoredClasses": "Ignorowane klasy",
+                "ignoredTags": "Lista typów węzłów DOM, które powinny być ignorowane podczas parsowania treści posta",
+                "ignoredClasses": "Lista klas węzłów DOM, które powinny być ignorowane podczas parsowania treści posta",
                 "ignoredClassesInfo": "",
                 "outputMode": "Tryb wyjściowy",
                 "outputModeHelp": "Wybierz rodzaj składni dla rezultatu renderowania równania",
@@ -40,10 +40,10 @@
                 "minRuleThickness": "Minimalna grubość (em)",
                 "maxSize": "Maksymalna wielkość (em)",
                 "macros": "Makra",
-                "macrosHelp": "Zestaw własnych makr",
+                "macrosHelp": "Zestaw własnych makr.",
                 "maxExpand": "Limit dla rozwinięć makr",
                 "katexOptionsInfo": "Możesz znaleźć więcej informacji na temat opcji KaTeX na https://katex.org/",
-                "otherOptionsHeading": "",
+                "otherOptionsHeading": "Inne opcje",
                 "enableTextEditorButtons": "",
                 "delimiterWarning": "",
                 "codeOptionsHeading": "Opcje tagu <code />",
@@ -61,8 +61,8 @@
         },
         "forum": {
             "textEditor": {
-                "blockExpression": "",
-                "inlineExpression": ""
+                "blockExpression": "Wyrażenia blokowe",
+                "inlineExpression": "Wyrażenia liniowe"
             }
         }
     }
