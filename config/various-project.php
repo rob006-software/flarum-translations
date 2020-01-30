@@ -309,7 +309,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/the-turk/flarum-mathren/v02/locale/en.yml',
 	],
 	'the-turk-password-strength' => [
-		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-password-strength/0.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-password-strength/v0.1.1/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/the-turk/flarum-password-strength/master/locale/en.yml',
 	],
 	'tituspijean-auth-ldap' => [
