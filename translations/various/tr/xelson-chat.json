@@ -14,10 +14,19 @@
                 "placeholder": ""
             },
             "errors": {
-                "unauthenticated": ""
+                "unauthenticated": "",
+                "chatdenied": ""
             }
         },
         "admin": {
+            "permissions": {
+                "post": "",
+                "edit": "",
+                "delete": "",
+                "moderate": {
+                    "delete": ""
+                }
+            },
             "settings": {
                 "title": "",
                 "charlimit": ""
