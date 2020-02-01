@@ -11,11 +11,14 @@
 
 declare(strict_types=1);
 
+use app\components\release\PolishReleaseGenerator;
+
 return [
 	'pl' => [
 		'type' => 'language',
 		'language' => 'pl',
 		'updateReadme' => true,
+		'releaseGenerator' => PolishReleaseGenerator::class,
 		'repository' => 'git@github.com:rob006-software/flarum-lang-polish.git',
 		'branch' => 'master',
 		'path' => '/locale',
