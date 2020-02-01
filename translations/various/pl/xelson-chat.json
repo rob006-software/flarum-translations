@@ -15,16 +15,16 @@
             },
             "errors": {
                 "unauthenticated": "Tylko zarejestrowani użytkownicy mogą korzystać z czatu",
-                "chatdenied": ""
+                "chatdenied": "Nie masz uprawnień aby pisać na czacie"
             }
         },
         "admin": {
             "permissions": {
-                "post": "",
-                "edit": "",
-                "delete": "",
+                "post": "Pisanie na czacie",
+                "edit": "Edycja wiadomości na czacie",
+                "delete": "Usuwanie wiadomości na czacie",
                 "moderate": {
-                    "delete": ""
+                    "delete": "Usuwanie wiadomości na czacie"
                 }
             },
             "settings": {
