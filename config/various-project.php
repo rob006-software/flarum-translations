@@ -249,7 +249,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-linkedin/master/resources/locale/en.yml',
 	],
 	'nomiscz-auth-steam' => [
-		'tag' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-steam/v0.1.5/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-steam/v0.1.6/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-steam/master/resources/locale/en.yml',
 	],
 	'reflar-cookie-consent' => [
