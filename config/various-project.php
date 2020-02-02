@@ -196,10 +196,6 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/1.4.3/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/master/locale/en.yml',
 	],
-	'manelizzard-notify' => [
-		'tag' => 'https://raw.githubusercontent.com/manelizzard/flarum-notify/0.2.1/locale/en.yml',
-		'branch' => 'https://raw.githubusercontent.com/manelizzard/flarum-notify/master/resources/locale/en.yml',
-	],
 	'matteocontrini-imgur-upload' => [
 		'tag' => 'https://raw.githubusercontent.com/matteocontrini/flarum-imgur-upload/v3.3.0/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/matteocontrini/flarum-imgur-upload/master/locale/en.yml',
