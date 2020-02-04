@@ -137,7 +137,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pwned-passwords/master/locale/en.yml',
 	],
 	'fof-reactions' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/reactions/0.2.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/reactions/0.2.1/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/reactions/master/resources/locale/en.yml',
 	],
 	'fof-recaptcha' => [
