@@ -153,7 +153,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sentry/master/resources/locale/en.yml',
 	],
 	'fof-share-social' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/share-social/0.1.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/share-social/0.1.2/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/share-social/master/resources/locale/en.yml',
 	],
 	'fof-socialprofile' => [
