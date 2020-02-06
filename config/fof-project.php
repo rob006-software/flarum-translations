@@ -109,7 +109,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/merge-discussions/master/resources/locale/en.yml',
 	],
 	'fof-nightmode' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/nightmode/0.3.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/nightmode/0.4.0/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/nightmode/master/resources/locale/en.yml',
 	],
 	'fof-open-collective' => [
