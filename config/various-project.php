@@ -193,7 +193,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-spoiler-bbcode/master/resources/locale/en.yml',
 	],
 	'maicol07-sso' => [
-		'tag' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/1.4.4/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/1.4.5/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/master/locale/en.yml',
 	],
 	'matteocontrini-imgur-upload' => [
