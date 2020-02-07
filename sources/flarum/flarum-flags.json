@@ -6,6 +6,7 @@
                 "view_flags_label": "View flagged posts"
             },
             "settings": {
+                "flag_own_posts_label": "Allow users to flag their own posts",
                 "guidelines_url_label": "Community Guidelines URL",
                 "title": "Flags Settings"
             }
@@ -14,8 +15,10 @@
             "flag_post": {
                 "confirmation_message": "Thank you for flagging this post. Our moderators will look into it.",
                 "dismiss_button": "=> core.ref.okay",
+                "reason_details_placeholder": "Additional details (optional)",
                 "reason_inappropriate_label": "Inappropriate",
                 "reason_inappropriate_text": "This post is offensive, abusive, or violates our <a>community guidelines</a>.",
+                "reason_missing_message": "Please provide some details for our moderators.",
                 "reason_off_topic_label": "Off-topic",
                 "reason_off_topic_text": "This post is not relevant to the current discussion and should be moved elsewhere.",
                 "reason_other_label": "Other",

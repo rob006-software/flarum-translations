@@ -6,6 +6,7 @@
                 "view_flags_label": "Bildirilen gönderileri gör"
             },
             "settings": {
+                "flag_own_posts_label": "",
                 "guidelines_url_label": "Topluluk Kuralları Bağlantısı",
                 "title": "Bildirme Ayarları"
             }
@@ -14,8 +15,10 @@
             "flag_post": {
                 "confirmation_message": "Bu gönderiyi bildirdiğiniz için teşekkürler. Moderatörlerimiz en kısa sürede göz atacaklar.",
                 "dismiss_button": "=> core.ref.okay",
+                "reason_details_placeholder": "",
                 "reason_inappropriate_label": "Uygunsuz",
                 "reason_inappropriate_text": "Bu gönderi saldırgan, küfürlü veya <a>topluluk kurallarını</a> ihlal ediyor.",
+                "reason_missing_message": "",
                 "reason_off_topic_label": "Konu dışı",
                 "reason_off_topic_text": "Bu gönderi mevcut tartışma ile ilgili değil ve başka bir yere taşınmalı.",
                 "reason_other_label": "Diğer",
