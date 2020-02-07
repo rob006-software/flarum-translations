@@ -37,10 +37,7 @@ return [
 	'flarum-mentions' => 'https://raw.githubusercontent.com/flarum/lang-english/master/no-translation-source.yml',
 	'flarum-pusher' => 'https://raw.githubusercontent.com/flarum/lang-english/master/no-translation-source.yml',
 	'flarum-statistics' => 'https://raw.githubusercontent.com/flarum/lang-english/master/no-translation-source.yml',
-	'flarum-sticky' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.11/locale/flarum-sticky.yml',
-		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-sticky.yml',
-	],
+	'flarum-sticky' => 'https://raw.githubusercontent.com/flarum/lang-english/master/no-translation-source.yml',
 	'flarum-subscriptions' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.11/locale/flarum-subscriptions.yml',
 		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-subscriptions.yml',
