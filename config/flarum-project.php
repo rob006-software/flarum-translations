@@ -40,9 +40,6 @@ return [
 	'flarum-sticky' => 'https://raw.githubusercontent.com/flarum/lang-english/master/no-translation-source.yml',
 	'flarum-subscriptions' => 'https://raw.githubusercontent.com/flarum/lang-english/master/no-translation-source.yml',
 	'flarum-suspend' => 'https://raw.githubusercontent.com/flarum/lang-english/master/no-translation-source.yml',
-	'flarum-tags' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.11/locale/flarum-tags.yml',
-		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-tags.yml',
-	],
+	'flarum-tags' => 'https://raw.githubusercontent.com/flarum/lang-english/master/no-translation-source.yml',
 	/* extensions list end */
 ];
