@@ -32,10 +32,7 @@ return [
 	'flarum-emoji' => 'https://raw.githubusercontent.com/flarum/lang-english/master/no-translation-source.yml',
 	'flarum-flags' => 'https://raw.githubusercontent.com/flarum/lang-english/master/no-translation-source.yml',
 	'flarum-likes' => 'https://raw.githubusercontent.com/flarum/lang-english/master/no-translation-source.yml',
-	'flarum-lock' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.11/locale/flarum-lock.yml',
-		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-lock.yml',
-	],
+	'flarum-lock' => 'https://raw.githubusercontent.com/flarum/lang-english/master/no-translation-source.yml',
 	'flarum-markdown' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.11/locale/flarum-markdown.yml',
 		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-markdown.yml',
