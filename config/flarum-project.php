@@ -27,10 +27,7 @@ return [
 	'flarum-akismet' => 'https://raw.githubusercontent.com/flarum/lang-english/master/no-translation-source.yml',
 	'flarum-approval' => 'https://raw.githubusercontent.com/flarum/lang-english/master/no-translation-source.yml',
 	'flarum-auth-facebook' => 'https://raw.githubusercontent.com/flarum/lang-english/master/no-translation-source.yml',
-	'flarum-auth-github' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.11/locale/flarum-auth-github.yml',
-		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-auth-github.yml',
-	],
+	'flarum-auth-github' => 'https://raw.githubusercontent.com/flarum/lang-english/master/no-translation-source.yml',
 	'flarum-auth-twitter' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.11/locale/flarum-auth-twitter.yml',
 		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-auth-twitter.yml',
