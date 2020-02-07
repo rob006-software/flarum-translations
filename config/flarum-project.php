@@ -24,10 +24,7 @@ return [
 		'https://raw.githubusercontent.com/flarum/lang-english/master/locale/validation.yml',
 	],
 	/* extensions list begin */
-	'flarum-akismet' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.11/locale/flarum-akismet.yml',
-		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-akismet.yml',
-	],
+	'flarum-akismet' => 'https://raw.githubusercontent.com/flarum/lang-english/master/no-translation-source.yml',
 	'flarum-approval' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.11/locale/flarum-approval.yml',
 		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-approval.yml',
