@@ -9,6 +9,11 @@
                 "title": "Najlepsza odpowiedź",
                 "allow_select_own_post": "Pozwól użytkownikom wybrać ich własny post",
                 "select_best_answer_reminder_days": "Przypomnij użytkownikowi o wybraniu najlepszej odpowiedzi po X dniach",
+                "schedule_on_one_server": "",
+                "schedule_stop_overnight": "",
+                "schedule_log_output": "",
+                "remind_tag_ids": "",
+                "use_alt_ui": "",
                 "schedule-on-one-server": "",
                 "schedule-stop-overnight": "",
                 "schedule-log-output": "",
@@ -24,11 +29,14 @@
             "notification": {
                 "content": "Wybierz najlepszą odpowiedź, jeśli twój problem został rozwiązany",
                 "awarded": "",
-                "awarded-email": "",
-                "select-email-title": "",
+                "awarded_email": "",
+                "select_email_title": "",
                 "preferences": {
+                    "awarde_best_answer": "",
                     "awarded-best-answer": ""
-                }
+                },
+                "awarded-email": "",
+                "select-email-title": ""
             }
         }
     }
