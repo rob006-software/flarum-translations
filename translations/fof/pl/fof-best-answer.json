@@ -12,7 +12,7 @@
                 "schedule_on_one_server": "Użyj dyrektywy 'onOneServer()' dla harmonogramu zadań (task scheduler) (wymaga Redis/Memcache)",
                 "schedule_stop_overnight": "Wyłącz przypomnienia w godzinach nocnych (21.00 - 8.00 według czasu serwera)",
                 "schedule_log_output": "Zapisz logi harmonogramu zadań",
-                "remind_tag_ids": "Aby ograniczyć przypomnienia do konkretnych tagów, wpisz tutaj ich ID (rozdzielone przecinkami)",
+                "remind_tag_ids": "Aby wysyłać przypomnienia tylko dla dyskusji w konkretnych tagach, wpisz tutaj ich ID ( ID tagów rozdzielone przecinkami)",
                 "use_alt_ui": "Użyj alternatywnego układu (przycisk najlepszej odpowiedzi w stopce posta)",
                 "schedule-on-one-server": "",
                 "schedule-stop-overnight": "",
@@ -32,7 +32,7 @@
                 "awarded_email": "Twój post został wybrany jako najlepsza odpowiedź",
                 "select_email_title": "Czy udało ci się rozwiązać twój problem?",
                 "preferences": {
-                    "awarde_best_answer": "Gdy ktoś oznaczy mój post jako najlepsza odpowiedź",
+                    "awarde_best_answer": "Ktoś oznaczy mój post jako najlepsza odpowiedź",
                     "awarded-best-answer": ""
                 },
                 "awarded-email": "",
