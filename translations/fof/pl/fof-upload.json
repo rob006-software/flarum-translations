@@ -10,7 +10,7 @@
                 "disable-hotlink-protection": "Ochrona przed hotlinkowaniem zapobiega otwieraniu tutejszych plików z poziomu innych stron. Obecna metoda wymaga tokenu CSRF i identyfikatora postu.\n",
                 "download_templates": "Szablony pobierania decydują o tym jak przesłane pliki są wyświetlane na twoim forum, np. podgląd miniatury, przyciski. Obecnie dostępne:\n",
                 "mime_types": "Proszę skonfiguruj poniżej mapowanie. Każde wyrażenie regularne dla typu MIME będzie obsłużone przez odpowiedni adapter przesyłania i szablon pobierania.\n",
-                "resize": "Wybierz czy chcesz zmienić rozmiar obrazków zanim zostaną przesłane. Możesz wybrać maksymalną szerokość i wysokość w pikselach. Proces zmiany rozmiaru zachowa proporcje obrazka.\n",
+                "resize": "Wybierz czy chcesz przeskalować obrazki zanim zostaną przesłane. Możesz wybrać maksymalną szerokość i wysokość w pikselach. Proces zmiany rozmiaru zachowa proporcje obrazka.\n",
                 "watermark": "Wybierz, czy obrazki będą miały dodany znak wodny podczas przesyłania. Znaki wodne są dodawane do nie-gifów bazując na twoich preferencjach poniżej.\n"
             },
             "labels": {
@@ -50,8 +50,8 @@
                 },
                 "resize": {
                     "max_width": "Maksymalna szerokość obrazka",
-                    "title": "Zmiana rozmiaru obrazków",
-                    "toggle": "Zmieniaj rozmiar obrazków",
+                    "title": "Przeskaluj obrazki",
+                    "toggle": "Przeskaluj obrazki",
                     "max_height": "Maksymalna wysokość obrazka"
                 },
                 "watermark": {
@@ -95,8 +95,8 @@
             },
             "states": {
                 "error": "Błąd",
-                "loading": "Ładowanie",
-                "unauthorized": "",
+                "loading": "Wysyłanie",
+                "unauthorized": "Nie masz uprawnień aby pobierać pliki",
                 "success": "Powodzenie"
             }
         }
