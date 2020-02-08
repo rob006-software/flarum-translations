@@ -37,14 +37,6 @@
                     "cdn_url": "Content Delivery URL (prefixes files)",
                     "title": "Local storage settings"
                 },
-                "ovh-svfs": {
-                    "container": "Container",
-                    "password": "Password",
-                    "region": "Region",
-                    "tenantid": "Tenant ID",
-                    "title": "OVH SVFS storage settings",
-                    "username": "Username"
-                },
                 "qiniu": {
                     "title": "Qiniu storage settings",
                     "key": "Key",
@@ -57,7 +49,6 @@
                     "title": "General preferences"
                 },
                 "resize": {
-                    "max_height": "Maximum image height",
                     "max_width": "Maximum image width",
                     "title": "Image resize",
                     "toggle": "Resize images"
@@ -95,8 +86,8 @@
             },
             "states": {
                 "error": "Error",
-                "loading": "Loading",
-                "success": "Success"
+                "loading": "Uploading",
+                "unauthorized": "You are not allowed to download files"
             }
         }
     }

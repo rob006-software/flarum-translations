@@ -37,14 +37,6 @@
                     "cdn_url": "URL usługi CDN (poprzedza ścieżki plików)",
                     "title": "Ustawienia lokalnego magazynu"
                 },
-                "ovh-svfs": {
-                    "container": "Container",
-                    "password": "Hasło",
-                    "region": "Region",
-                    "tenantid": "Tenant ID",
-                    "title": "Ustawienia magazynu OVH SVFS",
-                    "username": "Username"
-                },
                 "qiniu": {
                     "title": "Ustawienia Qiniu",
                     "key": "Key",
@@ -57,16 +49,24 @@
                     "title": "Preferencje ogólne"
                 },
                 "resize": {
-                    "max_height": "Maksymalna wysokość obrazka",
                     "max_width": "Maksymalna szerokość obrazka",
                     "title": "Zmiana rozmiaru obrazków",
-                    "toggle": "Zmieniaj rozmiar obrazków"
+                    "toggle": "Zmieniaj rozmiar obrazków",
+                    "max_height": "Maksymalna wysokość obrazka"
                 },
                 "watermark": {
                     "file": "Prześlij swój znak wodny",
                     "position": "Pozycja znaku wodnego",
                     "title": "Oznaczanie obrazków znakiem wodnym",
                     "toggle": "Oznaczaj obrazki znakiem wodnym"
+                },
+                "ovh-svfs": {
+                    "container": "Container",
+                    "password": "Hasło",
+                    "region": "Region",
+                    "tenantid": "Tenant ID",
+                    "title": "Ustawienia magazynu OVH SVFS",
+                    "username": "Username"
                 }
             },
             "permissions": {
@@ -96,6 +96,7 @@
             "states": {
                 "error": "Błąd",
                 "loading": "Ładowanie",
+                "unauthorized": "",
                 "success": "Powodzenie"
             }
         }
