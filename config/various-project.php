@@ -136,10 +136,6 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flagrow/passport/0.2.0-beta/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/flagrow/passport/master/locale/en.yml',
 	],
-	'flagrow-upload' => [
-		'tag' => 'https://raw.githubusercontent.com/flagrow/upload/0.8.0/resources/locale/en.yml',
-		'branch' => 'https://raw.githubusercontent.com/flagrow/upload/master/resources/locale/en.yml',
-	],
 	'giga300-auth-discord' => [
 		'tag' => 'https://raw.githubusercontent.com/giga300/flarum-auth-discord/v1.1.0/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/giga300/flarum-auth-discord/master/locale/en.yml',
