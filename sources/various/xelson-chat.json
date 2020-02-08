@@ -11,7 +11,13 @@
                 "maximize": "Maximize"
             },
             "chat": {
-                "placeholder": "Type your message..."
+                "placeholder": "Type your message...",
+                "message": {
+                    "actions": {
+                        "hide": "Hide",
+                        "resend": "Resend"
+                    }
+                }
             },
             "errors": {
                 "unauthenticated": "Only registered users can use the chat",
@@ -29,7 +35,12 @@
             },
             "settings": {
                 "title": "Chat settings",
-                "charlimit": "Maximum characters in the message"
+                "charlimit": "Maximum characters in the message",
+                "floodgate": {
+                    "title": "Antiflood",
+                    "number": "Number of messages in a row",
+                    "time": "Over a period"
+                }
             }
         }
     }

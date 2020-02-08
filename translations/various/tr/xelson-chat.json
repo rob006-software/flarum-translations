@@ -11,7 +11,13 @@
                 "maximize": ""
             },
             "chat": {
-                "placeholder": ""
+                "placeholder": "",
+                "message": {
+                    "actions": {
+                        "hide": "",
+                        "resend": ""
+                    }
+                }
             },
             "errors": {
                 "unauthenticated": "",
@@ -29,7 +35,12 @@
             },
             "settings": {
                 "title": "",
-                "charlimit": ""
+                "charlimit": "",
+                "floodgate": {
+                    "title": "",
+                    "number": "",
+                    "time": ""
+                }
             }
         }
     }

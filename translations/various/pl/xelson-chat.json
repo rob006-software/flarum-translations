@@ -11,7 +11,13 @@
                 "maximize": "Maksymalizuj"
             },
             "chat": {
-                "placeholder": "Wpisz swoją wiadomość..."
+                "placeholder": "Wpisz swoją wiadomość...",
+                "message": {
+                    "actions": {
+                        "hide": "",
+                        "resend": ""
+                    }
+                }
             },
             "errors": {
                 "unauthenticated": "Tylko zarejestrowani użytkownicy mogą korzystać z czatu",
@@ -29,7 +35,12 @@
             },
             "settings": {
                 "title": "Ustawienia czatu",
-                "charlimit": "Limit znaków w wiadomości"
+                "charlimit": "Limit znaków w wiadomości",
+                "floodgate": {
+                    "title": "",
+                    "number": "",
+                    "time": ""
+                }
             }
         }
     }
