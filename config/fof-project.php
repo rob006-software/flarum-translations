@@ -184,6 +184,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/transliterator/0.2.0/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/transliterator/master/locale/en.yml',
 	],
+	'fof-upload' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/upload/0.8.0/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/upload/master/resources/locale/en.yml',
+	],
 	'fof-user-bio' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/user-bio/0.1.3/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/user-bio/master/resources/locale/en.yml',
