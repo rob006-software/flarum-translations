@@ -14,8 +14,8 @@
                 "placeholder": "Wpisz swoją wiadomość...",
                 "message": {
                     "actions": {
-                        "hide": "",
-                        "resend": ""
+                        "hide": "Ukryj",
+                        "resend": "Wyślij ponownie"
                     }
                 }
             },
@@ -37,9 +37,9 @@
                 "title": "Ustawienia czatu",
                 "charlimit": "Limit znaków w wiadomości",
                 "floodgate": {
-                    "title": "",
-                    "number": "",
-                    "time": ""
+                    "title": "Antyflood",
+                    "number": "Liczba wiadomości wysłanych pod rząd",
+                    "time": "W czasie"
                 }
             }
         }
