@@ -137,7 +137,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/flagrow/passport/master/locale/en.yml',
 	],
 	'flagrow-upload' => [
-		'tag' => 'https://raw.githubusercontent.com/flagrow/upload/0.7.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flagrow/upload/0.8.0/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/flagrow/upload/master/resources/locale/en.yml',
 	],
 	'giga300-auth-discord' => [
