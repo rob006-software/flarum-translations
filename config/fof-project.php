@@ -89,7 +89,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/html-errors/master/locale/en.yml',
 	],
 	'fof-ignore-users' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ignore-users/0.1.4/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ignore-users/0.1.5/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ignore-users/master/resources/locale/en.yml',
 	],
 	'fof-linguist' => [
