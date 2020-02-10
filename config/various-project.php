@@ -28,6 +28,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-online/0.4.0/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-online/master/locale/en.yml',
 	],
+	'askvortsov-auth-sync' => [
+		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-auth-sync/v0.1.2/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/askvortsov1/flarum-auth-sync/master/resources/locale/en.yml',
+	],
 	'askvortsov-saml' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-saml/v0.1.1/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/askvortsov1/flarum-saml/master/resources/locale/en.yml',
