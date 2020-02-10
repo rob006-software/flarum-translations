@@ -296,6 +296,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/tankerkiller125/flarum-perspective/0.1.7/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/tankerkiller125/flarum-perspective/master/resources/locale/en.yml',
 	],
+	'the-turk-diff' => [
+		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-diff/0.1.0-beta.1/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/the-turk/flarum-diff/master/locale/en.yml',
+	],
 	'the-turk-mathren' => [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-mathren/v0.2.5/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/the-turk/flarum-mathren/v02/locale/en.yml',
