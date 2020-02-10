@@ -1,0 +1,35 @@
+{
+    "the-turk-diff": {
+        "forum": {
+            "oldVersion": "Old",
+            "newVersion": "New",
+            "differences": "Differences",
+            "revisionInfo": "Edited {revisionCount} times, newest at the top",
+            "emptyText": "No Revisions"
+        },
+        "admin": {
+            "settings": {
+                "title": "Diff Settings",
+                "displayMode": "Display Mode (HTML)",
+                "customHTML": "Colored custom view without line numbers",
+                "tabularHTML": "Colored tabular view with line numbers",
+                "renderMode": "Render Mode",
+                "inline": "Inline (HTML)",
+                "sideBySide": "Side by Side (HTML)",
+                "neighborLines": "Neighbor Lines",
+                "neighborLinesHelp": "Specify the neighbor line count that you want to show.",
+                "onlyUnsigned": "Only <strong>unsigned integers</strong> are allowed!",
+                "detailLevel": "Detail Level",
+                "noneLevel": "None-level",
+                "lineLevel": "Line-level",
+                "wordLevel": "Word-level",
+                "charLevel": "Char-level",
+                "seperateBlock": "Show a separator between different diff hunks in HTML renderers",
+                "notice": "Changes in <strong>Detail Level</strong> & <strong>Neighbor Lines</strong> settings won't affect the old diffs which were calculated before."
+            },
+            "permissions": {
+                "viewEditHistory": "View edit history"
+            }
+        }
+    }
+}
