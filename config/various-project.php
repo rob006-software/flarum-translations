@@ -33,7 +33,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/askvortsov1/flarum-auth-sync/master/resources/locale/en.yml',
 	],
 	'askvortsov-saml' => [
-		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-saml/v0.1.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-saml/v0.1.4/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/askvortsov1/flarum-saml/master/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-author-change' => [
