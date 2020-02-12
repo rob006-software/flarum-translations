@@ -29,7 +29,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-online/master/locale/en.yml',
 	],
 	'askvortsov-auth-sync' => [
-		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-auth-sync/v0.1.3/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-auth-sync/v0.1.1/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/askvortsov1/flarum-auth-sync/master/resources/locale/en.yml',
 	],
 	'askvortsov-saml' => [
