@@ -3,14 +3,26 @@
         "admin": {
             "title": "",
             "labels": {
+                "idp_metadata_url": "",
                 "idp_metadata": "",
                 "only_option": "",
-                "sync_attributes": ""
+                "sync_attributes": "",
+                "nameid_format": ""
+            },
+            "options": {
+                "nameid_format": {
+                    "persistent": "",
+                    "emailAddress": "",
+                    "unspecified": ""
+                }
             }
         },
         "forum": {
             "log_in": {
-                "with_saml_button": ""
+                "with_saml_button": "",
+                "see_popup_to_login": "",
+                "see_popup_to_register": "",
+                "enable_popups": ""
             }
         }
     }
