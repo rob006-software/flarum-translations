@@ -133,7 +133,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/flagrow/fonts/master/resources/locale/en.yml',
 	],
 	'flagrow-impersonate' => [
-		'tag' => 'https://raw.githubusercontent.com/flagrow/impersonate/0.2.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flagrow/impersonate/0.3.0/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/flagrow/impersonate/master/resources/locale/en.yml',
 	],
 	'flagrow-mason' => [
