@@ -97,7 +97,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/Dem13n/nickname-changer/master/resources/locale/en.yml',
 	],
 	'dem13n-quad-theme' => [
-		'tag' => 'https://raw.githubusercontent.com/Dem13n/quad-theme/0.1.6/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Dem13n/quad-theme/0.1.7/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/Dem13n/quad-theme/master/resources/locale/en.yml',
 	],
 	'dexif-telegram' => [
