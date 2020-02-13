@@ -305,7 +305,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/tankerkiller125/flarum-perspective/master/resources/locale/en.yml',
 	],
 	'the-turk-diff' => [
-		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-diff/0.1.0-beta.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-diff/0.1.0-beta.3/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/the-turk/flarum-diff/master/locale/en.yml',
 	],
 	'the-turk-mathren' => [
