@@ -33,7 +33,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ban-ips/master/resources/locale/en.yml',
 	],
 	'fof-best-answer' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/best-answer/0.1.5/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/best-answer/0.1.6/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/best-answer/master/resources/locale/en.yml',
 	],
 	'fof-byobu' => [
