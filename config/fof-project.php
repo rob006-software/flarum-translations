@@ -56,6 +56,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/drafts/0.1.4/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/drafts/master/resources/locale/en.yml',
 	],
+	'fof-filter' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/filter/0.1.0-beta.1/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/filter/master/resources/locale/en.yml',
+	],
 	'fof-follow-tags' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/follow-tags/0.3.4/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/follow-tags/master/resources/locale/en.yml',
