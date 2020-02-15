@@ -172,6 +172,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/892768447/flarum-ext-webhook/0.0.2/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/892768447/flarum-ext-webhook/master/resources/locale/en.yml',
 	],
+	'issyrocks12-filter' => [
+		'tag' => 'https://raw.githubusercontent.com/KyrneDev/flarum-ext-filter/0.1.0-beta.1/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/KyrneDev/flarum-ext-filter/master/resources/locale/en.yml',
+	],
 	'kilowhat-affiliation-links' => [
 		'tag' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-affiliation-links/0.2.0/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-affiliation-links/master/resources/locale/en.yml',
