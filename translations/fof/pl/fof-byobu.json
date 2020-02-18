@@ -10,14 +10,16 @@
                 "add_recipients": "Uczestnicy",
                 "submit": "OK",
                 "edit_recipients": "Edytuj uczestników",
-                "send_pd": "Wyślij wiadomość do {username}"
+                "send_pd": "Wyślij wiadomość do {username}",
+                "cancel": ""
             },
             "labels": {
                 "recipients": "{count} uczestnik|{count} uczestników",
                 "user_deleted": "-usunięty-"
             },
             "nav": {
-                "private_discussions": "Prywatna dyskusja"
+                "private_discussions": "Prywatna dyskusja",
+                "start_button": ""
             },
             "input": {
                 "search_recipients": "Wpisz 3 pierwsze znaki aby wyszukać uczestników..."
@@ -31,6 +33,10 @@
                 "titles": {
                     "update_recipients": "Uaktualnij uczestników dla {title}",
                     "add_recipients": "Dodaj uczestników do swojej dyskusji"
+                },
+                "help": {
+                    "add_recipients": "",
+                    "update_recipients": ""
                 }
             },
             "post": {
@@ -44,10 +50,13 @@
                 "settings": {
                     "block_pd": "Blokuj prywatne dyskusje"
                 },
-                "byobu_link": "Prywatne dyskusje"
+                "byobu_link": "Prywatne dyskusje",
+                "dropdown_label": ""
             },
             "notifications": {
                 "pd_label": "Ktoś doda mnie do prywatnej dyskusji",
+                "pd_reply_label": "",
+                "pd_reply_text": "",
                 "pd_text": "{username} utworzył nową prywatną dyskusję z tobą"
             }
         },
@@ -57,7 +66,8 @@
                 "create_private_discussions_with_groups": "Tworzenie prywatnych dyskusji z grupami",
                 "create_private_discussions_with_blocking_users": "Tworzenie prywatnych dyskusji z użytkownikami, którzy je blokują",
                 "edit_user_recipients": "Edytowanie użytkowników biorących udział w prywatnych dyskusjach",
-                "edit_group_recipients": "Edytowanie grup biorących udział w prywatnych dyskusjach"
+                "edit_group_recipients": "Edytowanie grup biorących udział w prywatnych dyskusjach",
+                "view_private_discussions-when-flagged": ""
             },
             "settings": {
                 "byobu_users_page_label": "Wyświetlaj prywatne dyskusje w profilu użytkownika"
@@ -66,6 +76,9 @@
         "notifications": {
             "private_discussion_created": {
                 "title": "[forum-name] Nowa prywatna dyskusja z user"
+            },
+            "private_discussion_replied": {
+                "title": ""
             }
         }
     }
