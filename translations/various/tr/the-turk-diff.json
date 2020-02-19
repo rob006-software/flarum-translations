@@ -1,11 +1,16 @@
 {
     "the-turk-diff": {
         "forum": {
-            "oldVersion": "",
-            "newVersion": "",
             "differences": "",
             "revisionInfo": "",
-            "emptyText": ""
+            "emptyText": "",
+            "confirmDelete": "",
+            "deleteSuccessMessage": "",
+            "deleteErrorMessage": "",
+            "deletedText": "",
+            "deletedTooltip": "",
+            "oldVersion": "",
+            "newVersion": ""
         },
         "admin": {
             "settings": {
@@ -29,7 +34,9 @@
                 "seperateBlock": ""
             },
             "permissions": {
-                "viewEditHistory": ""
+                "viewEditHistory": "",
+                "deleteEditHistory": "",
+                "selfDeleteEditHistory": ""
             }
         }
     }

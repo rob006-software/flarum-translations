@@ -1,20 +1,23 @@
 {
     "the-turk-diff": {
         "forum": {
-            "oldVersion": "Old",
-            "newVersion": "New",
             "differences": "Differences",
-            "revisionInfo": "Edited {revisionCount} times, newest at the top",
-            "emptyText": "No Revisions"
+            "revisionInfo": "Edited {revisionCount} time, newest at the top|Edited {revisionCount} times, newest at the top",
+            "emptyText": "No Revisions",
+            "confirmDelete": "Are you sure you want to delete this edit's contents from the history?",
+            "deleteSuccessMessage": "Edit's contents were deleted.",
+            "deleteErrorMessage": "Deletion of edit's contents failed.",
+            "deletedText": "(deleted)",
+            "deletedTooltip": "{username} deleted this content {ago}"
         },
         "admin": {
             "settings": {
                 "title": "Diff Settings",
                 "displayMode": "Display Mode (HTML)",
-                "customHTML": "Colored custom view without line numbers",
-                "tabularHTML": "Colored tabular view with line numbers",
+                "customHTML": "Custom view without line numbers",
+                "tabularHTML": "Tabular view with line numbers",
                 "renderMode": "Render Mode",
-                "inline": "Inline (HTML)",
+                "inline": "Line by Line (HTML)",
                 "sideBySide": "Side by Side (HTML)",
                 "neighborLines": "Neighbor Lines",
                 "neighborLinesHelp": "Specify the neighbor line count that you want to show.",
@@ -25,10 +28,12 @@
                 "wordLevel": "Word-level",
                 "charLevel": "Char-level",
                 "separateBlock": "Show a separator between different diff hunks in HTML renderers",
-                "notice": "Changes in <strong>Detail Level</strong> & <strong>Neighbor Lines</strong> settings won't affect the old diffs which were calculated before."
+                "notice": "Changes in <strong>Neighbor Lines</strong> setting won't affect the old diffs which were calculated before."
             },
             "permissions": {
-                "viewEditHistory": "View edit history"
+                "viewEditHistory": "View edit history",
+                "deleteEditHistory": "Delete others edit history",
+                "selfDeleteEditHistory": "Delete own edit history"
             }
         }
     }
