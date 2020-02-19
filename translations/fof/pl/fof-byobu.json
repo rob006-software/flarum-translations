@@ -11,11 +11,11 @@
                 "submit": "OK",
                 "edit_recipients": "Edytuj uczestników",
                 "send_pd": "Wyślij wiadomość do {username}",
-                "cancel": ""
+                "cancel": "Anuluj"
             },
             "composer_private_discussion": {
-                "submit_button": "",
-                "title_placeholder": ""
+                "submit_button": "Dodaj prywatną dyskusję",
+                "title_placeholder": "Tytuł prywatnej dyskusji"
             },
             "labels": {
                 "recipients": "{count} uczestnik|{count} uczestników",
@@ -23,7 +23,7 @@
             },
             "nav": {
                 "private_discussions": "Prywatna dyskusja",
-                "start_button": ""
+                "start_button": "Nowa prywatna dyskusja"
             },
             "input": {
                 "search_recipients": "Wpisz 3 pierwsze znaki aby wyszukać uczestników..."
@@ -39,8 +39,8 @@
                     "add_recipients": "Dodaj uczestników do swojej dyskusji"
                 },
                 "help": {
-                    "add_recipients": "",
-                    "update_recipients": ""
+                    "add_recipients": "Ta dyskusja będzie widoczna tylko dla wybranych użytkowników. Wymagany jest przynajmniej jeden uczestnik (oprócz ciebie).",
+                    "update_recipients": "Ta dyskusja będzie widoczna tylko dla użytkowników, których tutaj wybierzesz."
                 }
             },
             "post": {
@@ -55,12 +55,12 @@
                     "block_pd": "Blokuj prywatne dyskusje"
                 },
                 "byobu_link": "Prywatne dyskusje",
-                "dropdown_label": ""
+                "dropdown_label": "Prywatne dyskusje"
             },
             "notifications": {
-                "pd_label": "Ktoś doda mnie do prywatnej dyskusji",
-                "pd_reply_label": "",
-                "pd_reply_text": "",
+                "pd_label": "Ktoś doda mnie do nowej prywatnej dyskusji",
+                "pd_reply_label": "Ktoś odpowie w prywatnej dyskusji, w której uczestniczę",
+                "pd_reply_text": "{username} odpowiedział w prywatnej dyskusji, w której uczestniczysz",
                 "pd_text": "{username} utworzył nową prywatną dyskusję z tobą"
             }
         },
@@ -71,7 +71,7 @@
                 "create_private_discussions_with_blocking_users": "Tworzenie prywatnych dyskusji z użytkownikami, którzy je blokują",
                 "edit_user_recipients": "Edytowanie użytkowników biorących udział w prywatnych dyskusjach",
                 "edit_group_recipients": "Edytowanie grup biorących udział w prywatnych dyskusjach",
-                "view_private_discussions-when-flagged": ""
+                "view_private_discussions-when-flagged": "Przeglądanie prywatnych dyskusji innych użytkowników jeśli ktoś je zgłosił"
             },
             "settings": {
                 "byobu_users_page_label": "Wyświetlaj prywatne dyskusje w profilu użytkownika"
@@ -79,10 +79,10 @@
         },
         "notifications": {
             "private_discussion_created": {
-                "title": "[forum-name] Nowa prywatna dyskusja z user"
+                "title": "[Prywatna dyskusja] user rozpoczął prywatną dyskusję z tobą"
             },
             "private_discussion_replied": {
-                "title": ""
+                "title": "[Prywatna dyskusja] user odpowiedział w prywatnej dyskusji"
             }
         }
     }
