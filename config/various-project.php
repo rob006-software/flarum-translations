@@ -172,6 +172,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/892768447/flarum-ext-webhook/0.0.2/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/892768447/flarum-ext-webhook/master/resources/locale/en.yml',
 	],
+	'jjwind320-formatting' => [
+		'tag' => 'https://raw.githubusercontent.com/jjwind320/flarum-ext-formatting/1.0.4/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/jjwind320/flarum-ext-formatting/master/resources/locale/en.yml',
+	],
 	'kilowhat-affiliation-links' => [
 		'tag' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-affiliation-links/0.2.0/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-affiliation-links/master/resources/locale/en.yml',
