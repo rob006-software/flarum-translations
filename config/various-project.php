@@ -350,7 +350,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/wiwatsrt/flarum-ext-best-answer/master/locale/en.yml',
 	],
 	'xelson-chat' => [
-		'tag' => 'https://raw.githubusercontent.com/Xelson/flarum-ext-chat/0.7.1/resources/locale/en.yaml',
+		'tag' => 'https://raw.githubusercontent.com/Xelson/flarum-ext-chat/0.7.2/resources/locale/en.yaml',
 		'branch' => 'https://raw.githubusercontent.com/Xelson/flarum-ext-chat/master/resources/locale/en.yaml',
 	],
 	'xmugenx-post-blacklist' => [
