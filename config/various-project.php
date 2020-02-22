@@ -249,7 +249,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/NikoVonLas/flarum-ext-web-push/master/locale/en.yml',
 	],
 	'nomiscz-auth-linkedin' => [
-		'tag' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-linkedin/v0.1.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-linkedin/v0.1.2/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-linkedin/master/resources/locale/en.yml',
 	],
 	'nomiscz-auth-steam' => [
