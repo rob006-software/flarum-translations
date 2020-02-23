@@ -1,12 +1,12 @@
 {
     "askvortsov-auth-sync": {
         "admin": {
-            "title": "",
+            "title": "Konfiguracja Auth Sync",
             "labels": {
-                "sync_avatar": "",
-                "sync_groups": "",
-                "sync_bio": "",
-                "sync_masquerade": ""
+                "sync_avatar": "Synchronizuj awatar?",
+                "sync_groups": "Synchronizuj grupy?",
+                "sync_bio": "Synchronizuj opis w profilu? Wymaga rozszerzenia <code>fof/user-bio</code>",
+                "sync_masquerade": "Synchronizuj pola profilu masquerade? Wymaga rozszerzenia <code>fof/masquerade</code>."
             }
         }
     }
