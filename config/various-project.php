@@ -257,7 +257,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-steam/master/resources/locale/en.yml',
 	],
 	'nomiscz-auth-wechat' => [
-		'tag' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-wechat/v0.1.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-wechat/v0.1.1/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-wechat/master/resources/locale/en.yml',
 	],
 	'reflar-cookie-consent' => [
