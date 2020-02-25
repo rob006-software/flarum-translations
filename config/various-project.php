@@ -312,6 +312,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-diff/0.1.0-beta.6/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/the-turk/flarum-diff/master/locale/en.yml',
 	],
+	'the-turk-edit-notifications' => [
+		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-edit-notifications/0.1.0/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/the-turk/flarum-edit-notifications/master/locale/en.yml',
+	],
 	'the-turk-mathren' => [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-mathren/v0.2.5/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/the-turk/flarum-mathren/v02/locale/en.yml',
