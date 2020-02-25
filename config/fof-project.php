@@ -189,7 +189,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/transliterator/master/locale/en.yml',
 	],
 	'fof-upload' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/upload/0.8.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/upload/0.8.2/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/upload/master/resources/locale/en.yml',
 	],
 	'fof-user-bio' => [
