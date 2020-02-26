@@ -2,7 +2,32 @@
     "nomiscz-auth-wechat": {
         "forum": {
             "buttons": {
-                "login": "Log in with WeChat"
+                "login": "Log in with WeChat",
+                "link": "Link WeChat Account",
+                "unlink": "Unlink WeChat Account"
+            },
+            "alerts": {
+                "already_linked": "WeChat Account is already linked!",
+                "already_used": "WeChat Account is already linked to another user!",
+                "link_success": "WeChat Account link successful.",
+                "unlink_success": "WeChat Account unlink successful.",
+                "error": "Something went wrong, please try again later!"
+            },
+            "modals": {
+                "link": {
+                    "title": "Link WeChat Account"
+                },
+                "unlink": {
+                    "title": "Unlink WeChat Account",
+                    "info": {
+                        "confirm": "Are you sure, you want unlink your WeChat account?",
+                        "no_providers": "You don't have any others login providers! You'll probably have to reset your password."
+                    },
+                    "buttons": {
+                        "confirm": "Yes, unlink account",
+                        "cancel": "No!"
+                    }
+                }
             }
         },
         "admin": {
