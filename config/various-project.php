@@ -321,7 +321,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/the-turk/flarum-diff/master/locale/en.yml',
 	],
 	'the-turk-edit-notifications' => [
-		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-edit-notifications/0.1.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-edit-notifications/0.1.2/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/the-turk/flarum-edit-notifications/master/locale/en.yml',
 	],
 	'the-turk-mathren' => [
