@@ -7,7 +7,7 @@
                 "delete_page_button": "Usuń stronę",
                 "delete_page_confirmation": "Czy jesteś pewien, że chcesz usunąć tę stronę?",
                 "hidden_label": "Zapisz jako szkic",
-                "restricted_label": "",
+                "restricted_label": "Ogranicz dostęp (w zakładce z uprawnieniami możesz zdecydować kto ma dostęp do stron z ograniczeniami)",
                 "html_label": "Włącz HTML",
                 "set_as_home_page_confirmation": "Czy jesteś pewien, że chcesz ustawić tę stronę jako stronę główną forum?",
                 "slug_label": "=> fof-pages.ref.slug",
@@ -21,7 +21,7 @@
             },
             "nav": {
                 "pages_button": "=> fof-pages.ref.pages",
-                "pages_text": "Stwórz statyczną stronę."
+                "pages_text": "Twórz statyczne strony."
             },
             "pages": {
                 "about_text": "Twórz i zarządzaj statycznymi stronami.",
@@ -32,11 +32,11 @@
                 "title": "=> fof-pages.ref.title"
             },
             "permissions": {
-                "restricted": ""
+                "restricted": "Przeglądanie stron z ograniczeniem dostępu"
             },
             "badges": {
-                "hidden": "",
-                "restricted": ""
+                "hidden": "Szkic",
+                "restricted": "Ograniczenie dostępu"
             }
         },
         "ref": {
