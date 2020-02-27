@@ -121,7 +121,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/open-collective/master/resources/locale/en.yml',
 	],
 	'fof-pages' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pages/0.2.7/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pages/0.3.0/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pages/master/resources/locale/en.yml',
 	],
 	'fof-polls' => [
