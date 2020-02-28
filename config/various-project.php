@@ -332,6 +332,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-password-strength/v0.1.1/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/the-turk/flarum-password-strength/master/locale/en.yml',
 	],
+	'the-turk-quiet-edits' => [
+		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-quiet-edits/0.1.0/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/the-turk/flarum-quiet-edits/master/locale/en.yml',
+	],
 	'the-turk-stargazing-theme' => [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-stargazing-theme/v0.1.0-beta.2/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/the-turk/flarum-stargazing-theme/master/locale/en.yml',
