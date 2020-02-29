@@ -1,0 +1,31 @@
+{
+    "clarkwinkelmann-who-read": {
+        "forum": {
+            "tooltip": {
+                "last_read_at": "{username} read {ago}",
+                "last_read_at_behind": "{username} last read {ago} and is behind",
+                "last_read_at_up_to_date": "{username} read the last post {ago}"
+            },
+            "show-more": "Show {count} more",
+            "stats": {
+                "to_end": "{count} users read to the end",
+                "to_at_least_here": "{count} users read at least up to here"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "see-read": "See read status",
+                "see-subscription": "See subscription status"
+            },
+            "settings": {
+                "title": "Who read settings",
+                "show-in-discussion-list": "Show readers in discussion list",
+                "show-in-hero": "Show readers in discussion hero",
+                "show-between-posts": "Show read status between posts",
+                "hide-when-behind": "Hide a user completely if they are behind that many posts",
+                "max-visible": "Maximum number of users to show before \"read more\"",
+                "only-groups": "Only show read status of users belonging to those groups"
+            }
+        }
+    }
+}
