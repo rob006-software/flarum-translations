@@ -80,6 +80,10 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-status/0.1.0/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-status/master/resources/locale/en.yml',
 	],
+	'clarkwinkelmann-who-read' => [
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-who-read/1.0.0-beta1/resources/locale/en.yml',
+		'branch' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-who-read/master/resources/locale/en.yml',
+	],
 	'datitisev-dashboard' => [
 		'tag' => 'https://raw.githubusercontent.com/datitisev/flarum-ext-dashboard/v0.1.0-beta.8.1/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/datitisev/flarum-ext-dashboard/master/resources/locale/en.yml',
