@@ -97,7 +97,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ignore-users/master/resources/locale/en.yml',
 	],
 	'fof-linguist' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/linguist/0.4.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/linguist/0.4.2/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/linguist/master/resources/locale/en.yml',
 	],
 	'fof-links' => [
