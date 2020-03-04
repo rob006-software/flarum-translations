@@ -185,7 +185,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/subscribed/master/resources/locale/en.yml',
 	],
 	'fof-terms' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/terms/0.4.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/terms/0.4.1/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/FriendsOfFlarum/terms/master/resources/locale/en.yml',
 	],
 	'fof-transliterator' => [
