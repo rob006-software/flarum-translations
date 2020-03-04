@@ -317,7 +317,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/SychO9/flarum-profile-cover/master/resources/locale/en.yml',
 	],
 	'tank-perspective' => [
-		'tag' => 'https://raw.githubusercontent.com/tankerkiller125/flarum-perspective/0.1.7/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/tankerkiller125/flarum-perspective/0.1.8/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/tankerkiller125/flarum-perspective/master/resources/locale/en.yml',
 	],
 	'the-turk-diff' => [
