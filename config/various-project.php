@@ -105,7 +105,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/Dem13n/auth-yandex/master/resources/locale/en.yml',
 	],
 	'dem13n-nickname-changer' => [
-		'tag' => 'https://raw.githubusercontent.com/Dem13n/nickname-changer/0.1.9/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Dem13n/nickname-changer/0.2/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/Dem13n/nickname-changer/master/resources/locale/en.yml',
 	],
 	'dem13n-quad-theme' => [
