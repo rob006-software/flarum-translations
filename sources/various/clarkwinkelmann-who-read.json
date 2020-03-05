@@ -10,12 +10,22 @@
             "stats": {
                 "to_end": "{count} users read to the end",
                 "to_at_least_here": "{count} users read at least up to here"
+            },
+            "controls": {
+                "set-unread": "Mark unread",
+                "remove-unread": "Remove unread"
+            },
+            "badges": {
+                "unread": "Marked as unread"
             }
         },
         "admin": {
             "permissions": {
+                "heading": "Who read",
                 "see-read": "See read status",
-                "see-subscription": "See subscription status"
+                "see-subscription": "See subscription status",
+                "see-unread": "See unread status of other users",
+                "mark-unread": "Mark discussions as unread for own user"
             },
             "settings": {
                 "title": "Who read settings",
