@@ -337,7 +337,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/the-turk/flarum-password-strength/master/locale/en.yml',
 	],
 	'the-turk-quiet-edits' => [
-		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-quiet-edits/0.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-quiet-edits/0.1.1/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/the-turk/flarum-quiet-edits/master/locale/en.yml',
 	],
 	'the-turk-stargazing-theme' => [
