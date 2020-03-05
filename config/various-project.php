@@ -81,7 +81,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-status/master/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-who-read' => [
-		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-who-read/1.0.0-beta1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-who-read/1.0.0-beta2/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-who-read/master/resources/locale/en.yml',
 	],
 	'datitisev-dashboard' => [
