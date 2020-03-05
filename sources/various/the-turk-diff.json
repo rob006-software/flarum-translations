@@ -20,8 +20,8 @@
             "settings": {
                 "title": "Diff Settings",
                 "displayMode": "Display Mode (HTML)",
-                "customHTML": "Custom view without line numbers",
-                "tabularHTML": "Tabular view with line numbers",
+                "customHTML": "Custom view",
+                "tabularHTML": "Tabular view",
                 "renderMode": "Render Mode",
                 "inline": "Line by Line (HTML)",
                 "sideBySide": "Side by Side (HTML)",
@@ -44,8 +44,7 @@
                 "archiveOldsInfo": "If <strong>x ≥ A</strong>, first <strong>y=mx+b</strong> revisions for the post will be stored as merged & compressed. The <strong>x</strong> refers to post's revision count. Float values of <strong>y</strong> will be rounded to the next lowest integer value.",
                 "useCrons": "Use crons to archive old revisions",
                 "useCronsHelp": "You must add Cron entry to your server to make this option work. It'll work weekly on sundays at 02:00 AM. If you disable this option and enable above, all of the post's revisions will be scanned for archiving when the related post is revised.",
-                "archiveInfo": "Keep in mind that you can disable both options and run <code>php flarum diff:archive</code> command to archive old revisions manually.",
-                "notice": "Changes in <strong>Neighbor Lines</strong> setting won't affect the old diffs which were calculated before."
+                "archiveInfo": "Keep in mind that you can disable both options and run <code>php flarum diff:archive</code> command to archive old revisions manually."
             },
             "permissions": {
                 "viewEditHistory": "View edit history",
