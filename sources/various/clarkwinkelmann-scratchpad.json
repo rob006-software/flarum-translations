@@ -1,0 +1,53 @@
+{
+    "clarkwinkelmann-scratchpad": {
+        "admin": {
+            "settings": {
+                "title": "Scratchpad settings",
+                "single-column": "Group editors in a single column instead of 3",
+                "theme": "CodeMirror theme (must refresh to take effect)",
+                "indent": "Number of spaces for indent",
+                "compile-automatically": "Compile JS automatically on save"
+            },
+            "controls": {
+                "refresh": "Refresh",
+                "save": "Save",
+                "compile": "Compile JS",
+                "settings": "Editor settings",
+                "new": "New",
+                "new-confirmation": "Current scratchpad is not saved. Drop it and create new one ?",
+                "delete": "Delete",
+                "delete-confirmation": "Delete \"{title}\" ?",
+                "enable": "Click to enable",
+                "disable": "Click to disable"
+            },
+            "fields": {
+                "title": "Scratchpad name",
+                "admin_js": "Admin JS",
+                "forum_js": "Forum JS",
+                "admin_less": "Admin Less",
+                "forum_less": "Forum Less",
+                "php": "PHP"
+            },
+            "placeholders": {
+                "untitled": "Untitled",
+                "php-comment": "Register extenders here",
+                "js-log": "Hello, {frontend}!"
+            },
+            "compilation-alert": {
+                "success": "Compiled!",
+                "failure": "Compilation failed!",
+                "view-output": "View output"
+            },
+            "compilation-modal": {
+                "title": "Compilation output",
+                "webpack": "Webpack output",
+                "npm": "NPM output",
+                "npm-not-run": "NPM did not run"
+            },
+            "menu": {
+                "title": "Scratchpad",
+                "description": "Easily test code on your development forum"
+            }
+        }
+    }
+}
