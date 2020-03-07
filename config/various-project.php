@@ -390,7 +390,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/xmugenx/flarum-ext-post-blacklist/master/resources/locale/en.yml',
 	],
 	'zerosonesfun-announce' => [
-		'tag' => 'https://raw.githubusercontent.com/zerosonesfun/announce/1.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/zerosonesfun/announce/1.3/resources/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/zerosonesfun/announce/master/resources/locale/en.yml',
 	],
 	'zhishiq-pusher' => [
