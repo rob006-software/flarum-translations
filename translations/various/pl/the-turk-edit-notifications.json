@@ -2,18 +2,18 @@
     "the-turk-edit-notifications": {
         "forum": {
             "notifications": {
-                "interacted_post_edited_text": "",
-                "post_edited_text": ""
+                "interacted_post_edited_text": "{username} edytował swój post",
+                "post_edited_text": "{username} edytował twój post"
             },
             "settings": {
-                "notify_interacted_post_edited_label": "",
-                "notify_post_edited_label": ""
+                "notify_interacted_post_edited_label": "Ktoś edytuje post, na który zareagowałem",
+                "notify_post_edited_label": "Ktoś edytuje mój post"
             }
         },
         "admin": {
             "settings": {
-                "title": "",
-                "enableInteracts": ""
+                "title": "Ustawienia powiadomień o edycji",
+                "enableInteracts": "Włącz powiadomienia o edycji cudzych postów"
             }
         }
     }
