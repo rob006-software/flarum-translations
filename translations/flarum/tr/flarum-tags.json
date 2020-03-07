@@ -44,6 +44,10 @@
             }
         },
         "forum": {
+            "all_tags": {
+                "meta_description_text": "",
+                "meta_title_text": ""
+            },
             "choose_tags": {
                 "choose_primary_placeholder": "Bir birincil etiket seçin|{count} birincil etiket seçin",
                 "choose_secondary_placeholder": "1 tane daha etiket seçin|{count} tane daha etiket seçin",
@@ -70,6 +74,9 @@
                 "added_tags_text": "{username}, {tagsAdded} etiketlerini ekledi.",
                 "removed_tags_text": "{username}, {tagsRemoved} etiketlerini kaldırdı.",
                 "tags_text": "{tags} etiket | {tags} etiketler"
+            },
+            "tag": {
+                "meta_description_text": ""
             }
         },
         "lib": {

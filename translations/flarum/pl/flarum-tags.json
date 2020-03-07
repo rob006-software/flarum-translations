@@ -44,6 +44,10 @@
             }
         },
         "forum": {
+            "all_tags": {
+                "meta_description_text": "",
+                "meta_title_text": ""
+            },
             "choose_tags": {
                 "choose_primary_placeholder": "Wybierz główny tag|Wybierz {count} główne tagi|Wybierz {count} głównych tagów",
                 "choose_secondary_placeholder": "Wybierz 1 podrzędny tag|Wybierz {count} podrzędne tagi|Wybierz {count} podrzędnych tagów",
@@ -70,6 +74,9 @@
                 "added_tags_text": "{username} dodał {tagsAdded}.",
                 "removed_tags_text": "{username} usunął {tagsRemoved}.",
                 "tags_text": "tag {tags}|tagi {tags}"
+            },
+            "tag": {
+                "meta_description_text": ""
             }
         },
         "lib": {
