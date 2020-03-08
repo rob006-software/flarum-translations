@@ -14,9 +14,7 @@
             "deletedTooltip": "{username} usunął treść tej rewizji {ago}",
             "optionsButton": "Opcje",
             "rollbackButton": "Przywróć tę wersję",
-            "noDiff": "Nie ma tu nic do pokazania.",
-            "oldVersion": "",
-            "newVersion": ""
+            "noDiff": "Nie ma tu nic do pokazania."
         },
         "admin": {
             "settings": {
@@ -46,9 +44,7 @@
                 "archiveOldsInfo": "Jeśli <strong>x ≥ A</strong>, pierwszych <strong>y=mx+b</strong> rewizji danego posta zostanie scalonych oraz skompresowanych. <strong>x</strong> to liczba rewizji danego posta. <strong>y</strong> zostanie zaokrąglone w dół do liczby całkowitej.",
                 "useCrons": "Użyj crona do archiwizowania starych rewizji",
                 "useCronsHelp": "Musisz dodać wpis do crona na twoim serwerze, aby ta opcja zadziałała. Zadanie wykona się co tydzień w niedzielę o 2:00. Jeśli wyłączysz tę opcję ale włączysz archiwizowanie, wszystkie rewizje posta zostaną przeskanowane pod kątem archiwizacji podczas edycji posta.",
-                "archiveInfo": "Zauważ że możesz wyłączyć obie opcje i ręcznie uruchomić komendę <code>php flarum diff:archive</code> aby zarchiwizować stare rewizje.",
-                "notice": "Zmiany w ustawieniach dla <strong>sąsiednich linii</strong> nie będą miały efektu dla starszych edycji, które zostały wygenerowane według poprzednich ustawień.",
-                "seperateBlock": ""
+                "archiveInfo": "Zauważ że możesz wyłączyć obie opcje i ręcznie uruchomić komendę <code>php flarum diff:archive</code> aby zarchiwizować stare rewizje."
             },
             "permissions": {
                 "viewEditHistory": "Przeglądanie historii edycji",
