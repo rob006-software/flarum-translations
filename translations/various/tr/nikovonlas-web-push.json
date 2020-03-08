@@ -1,8 +1,7 @@
 {
     "nikovonlas-webpush": {
         "forum": {
-            "subscribe": "Tarayıcı bildirimlerine abone olun",
-            "unsubscribe": "Tarayıcı bildirimleri aboneliklerini durdurun"
+            "subscribe": "Tarayıcı bildirimlerine abone olun"
         },
         "admin": {
             "settings": {
@@ -18,19 +17,6 @@
                 "subdomain": "",
                 "excerpt": "",
                 "autoprompt": ""
-            },
-            "web-push-settings": {
-                "title": "Tarayıcı Bildirimleri Ayarları",
-                "type": {
-                    "description": "OneSignal bağlantı türü",
-                    "standart": "Standart",
-                    "custom": "Özel"
-                },
-                "app_id": "OneSignal App ID",
-                "api_key": "OneSignal App Key",
-                "user_key": "OneSignal User key",
-                "subdomain": "OneSignal Subdomain",
-                "excerpt": "Bildirimdeki alıntıların uzunluğu"
             }
         },
         "notify": {
@@ -83,10 +69,6 @@
             "flag": {
                 "title": "New flagged post",
                 "message": "{from} flag post \"{post}\""
-            },
-            "гтsuspend": {
-                "title": "Hesabınız erişilebilir",
-                "message": "{from} hesabınızın erişimini açtı"
             }
         }
     }
