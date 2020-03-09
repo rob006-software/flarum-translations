@@ -3,6 +3,8 @@
         "admin": {
             "generator": {
                 "title": "Generate fake data",
+                "bulk-mode": "Bulk mode",
+                "bulk-mode-description": "Generates a single random value and re-use it for every entry",
                 "user-count": "Number of users to create",
                 "discussion-count": "Number of discussions to create",
                 "post-count": "Number of posts to create",
