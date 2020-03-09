@@ -77,9 +77,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ignore-users/0.1.5/resources/locale/en.yml',
 	],
 	'fof-linguist' => 'https://raw.githubusercontent.com/FriendsOfFlarum/linguist/master/no-translation-source.yml',
-	'fof-links' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/links/0.2.1/locale/en.yml',
-	],
+	'fof-links' => 'https://raw.githubusercontent.com/FriendsOfFlarum/links/master/no-translation-source.yml',
 	'fof-masquerade' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/masquerade/0.3.3/resources/locale/en.yml',
 	],
