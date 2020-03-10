@@ -2,14 +2,20 @@
     "clarkwinkelmann-who-read": {
         "forum": {
             "tooltip": {
-                "last_read_at": "{username} read {ago}",
-                "last_read_at_behind": "{username} last read {ago} and is behind",
-                "last_read_at_up_to_date": "{username} read the last post {ago}"
+                "last-read-at": "{username} read {ago}",
+                "last-read-at-behind": "{username} last read {ago} and is behind",
+                "last-read-at-up-to-date": "{username} read the last post {ago}"
             },
-            "show-more": "Show {count} more",
-            "stats": {
-                "to_end": "{count} users read to the end",
-                "to_at_least_here": "{count} users read at least up to here"
+            "more": {
+                "show": "Show {count} more",
+                "info": "And {count} more"
+            },
+            "footer": {
+                "to-here-some-stopped": "{total} users read this post. {stopped} did not read further",
+                "to-here-none-stopped": "{total} users read this post. Everybody read further",
+                "to-here-nobody": "Nobody read this post",
+                "to-end": "{total} users read to the end",
+                "to-end-nobody": "Nobody read to the end"
             },
             "controls": {
                 "set-unread": "Mark unread",
@@ -17,6 +23,13 @@
             },
             "badges": {
                 "unread": "Marked as unread"
+            },
+            "modal": {
+                "title": "Readers",
+                "up-to-this-post": "Users who read up to this post",
+                "past-this-post": "Users who read past this post",
+                "to-the-end": "Users who read to the end",
+                "behind": "Users who did not read to the end"
             }
         },
         "admin": {
@@ -32,8 +45,10 @@
                 "show-in-discussion-list": "Show readers in discussion list",
                 "show-in-hero": "Show readers in discussion hero",
                 "show-between-posts": "Show read status between posts",
+                "show-count-of-readers-who-stopped": "Show the number of users who stopped reading instead of total read between posts",
                 "hide-when-behind": "Hide a user completely if they are behind that many posts",
                 "max-visible": "Maximum number of users to show before \"read more\"",
+                "unread-icon": "Icon for the unread badge",
                 "only-groups": "Only show read status of users belonging to those groups"
             }
         }

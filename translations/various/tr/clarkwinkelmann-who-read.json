@@ -2,14 +2,23 @@
     "clarkwinkelmann-who-read": {
         "forum": {
             "tooltip": {
+                "last-read-at": "",
+                "last-read-at-behind": "",
+                "last-read-at-up-to-date": "",
                 "last_read_at": "",
                 "last_read_at_behind": "",
                 "last_read_at_up_to_date": ""
             },
-            "show-more": "",
-            "stats": {
-                "to_end": "",
-                "to_at_least_here": ""
+            "more": {
+                "show": "",
+                "info": ""
+            },
+            "footer": {
+                "to-here-some-stopped": "",
+                "to-here-none-stopped": "",
+                "to-here-nobody": "",
+                "to-end": "",
+                "to-end-nobody": ""
             },
             "controls": {
                 "set-unread": "",
@@ -17,6 +26,18 @@
             },
             "badges": {
                 "unread": ""
+            },
+            "modal": {
+                "title": "",
+                "up-to-this-post": "",
+                "past-this-post": "",
+                "to-the-end": "",
+                "behind": ""
+            },
+            "show-more": "",
+            "stats": {
+                "to_end": "",
+                "to_at_least_here": ""
             }
         },
         "admin": {
@@ -32,8 +53,10 @@
                 "show-in-discussion-list": "",
                 "show-in-hero": "",
                 "show-between-posts": "",
+                "show-count-of-readers-who-stopped": "",
                 "hide-when-behind": "",
                 "max-visible": "",
+                "unread-icon": "",
                 "only-groups": ""
             }
         }
