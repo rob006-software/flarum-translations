@@ -47,7 +47,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-create-user-modal/1.0.1/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-email-as-display-name' => [
-		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-email-as-display-name/1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-email-as-display-name/1.0.1/locale/en.yml',
 	],
 	'clarkwinkelmann-emojionearea' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-emojionearea/0.2.1/locale/en.yml',
