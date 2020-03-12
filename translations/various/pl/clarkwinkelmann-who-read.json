@@ -14,9 +14,9 @@
                 "info": "Oraz {count} więcej"
             },
             "footer": {
-                "read-this-post": "",
-                "read-no-further": "",
-                "read-to-end": "",
+                "read-this-post": "{0} Nikt nie odczytał tego posta|{1} Jeden użytkownik odczytał ten post|]1,Inf] {count} użytkowników odczytało ten post",
+                "read-no-further": "{0} Wszyscy czytali dalej|{1} Jeden użytkownik nie czytał dalej|]1,Inf] {count} nie czytało dalej",
+                "read-to-end": "{0} Nikt nie odczytał do końca|{1} Jeden użytkownik odczytał do końca|]1,Inf] {count} użytkowników odczytało do końca",
                 "to-here-some-stopped": "{total} użytkowników odczytało ten post. {stopped} nie czytało dalej.",
                 "to-here-none-stopped": "{total} użytkowników odczytało ten post. Wszyscy czytali dalej.",
                 "to-here-nobody": "Nikt nie odczytał tego posta",
@@ -28,8 +28,8 @@
                 "remove-unread": "Oznacz jako odczytane"
             },
             "badges": {
-                "following": "",
-                "ignoring": "",
+                "following": "Obserwuje",
+                "ignoring": "Ignoruje",
                 "unread": "Oznaczono jako nieodczytane"
             },
             "modal": {
