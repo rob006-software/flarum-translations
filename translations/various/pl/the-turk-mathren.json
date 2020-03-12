@@ -23,7 +23,7 @@
                 "ignoringExpressions": "Ignorowanie wyrażeń",
                 "ignoringExpressionsHelp": "Rozdziel je przecinkami.",
                 "decisiveKeywords": "Lista słów kluczowych do ignorowania wyrażeń",
-                "decisiveKeywordsHelp": "Możesz dodać jedno ze słów kluczowych zaraz po <em>specjalnym</em> prawym separatorze (nie dotyczy BBCode) wewnątrz nawiasów klamrowych (np. <code>$$%e%$${<strong>keyword</strong>}</code>) lub wewnątrz BBCode (np. <code>[math=<strong>keyword</strong>]%e%[/math]</code>) aby zapobiec renderowaniu wyrażenia. <strong>Zauważ</strong>, że <code>[math]%e%[/math]{<strong>keyword</strong>}</code> jest przykładem <u>nieprawidłowego użycia</u>.",
+                "decisiveKeywordsHelp": "Możesz dodać jedno ze słów kluczowych zaraz po <em>specjalnym</em> prawym separatorze (nie dotyczy BBCode) wewnątrz nawiasów klamrowych (np. <code>$$%e%$${<strong>keyword</strong>}</code>) lub wewnątrz BBCode (np. <code>[math=<strong>keyword</strong>]%e%[/math]</code>), aby zapobiec renderowaniu wyrażenia. <strong>Zauważ</strong>, że <code>[math]%e%[/math]{<strong>keyword</strong>}</code> jest przykładem <u>nieprawidłowego użycia</u>.",
                 "decisiveKeywordsInfo": "Pierwsze słowo kluczowe z tej listy będzie używane jako domyślne w edytorze tekstowym.",
                 "decisiveKeywordsWarning": "Nie używaj znaków specjalnych! W przeciwnym razie zostanie wyrzucony wyjątek.",
                 "ignoredTags": "Lista typów węzłów DOM, które powinny być ignorowane podczas parsowania treści posta",
