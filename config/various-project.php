@@ -65,7 +65,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-see-past-first-post/1.0.0/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-silent-mailchimp' => [
-		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-silent-mailchimp/1.0.0-beta1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-silent-mailchimp/1.0.0/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-status' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-status/0.1.1/resources/locale/en.yml',
