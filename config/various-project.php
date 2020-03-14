@@ -275,7 +275,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/therealsujitk/flarum-ext-gifs/v1.4.7/resources/locale/en.yml',
 	],
 	'therealsujitk-show-password' => [
-		'tag' => 'https://raw.githubusercontent.com/therealsujitk/flarum-ext-show-password/v1.0.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/therealsujitk/flarum-ext-show-password/v1.0.2/resources/locale/en.yml',
 	],
 	'tituspijean-auth-ldap' => [
 		'tag' => 'https://raw.githubusercontent.com/tituspijean/flarum-ext-auth-ldap/v1.0/locale/en.yml',
