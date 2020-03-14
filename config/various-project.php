@@ -31,6 +31,9 @@ return [
 	'askvortsov-help-tags' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-help-tags/v0.1.3/resources/locale/en.yml',
 	],
+	'askvortsov-moderator-strikes' => [
+		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-moderator-strikes/v0.1.0/resources/locale/en.yml',
+	],
 	'askvortsov-saml' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-saml/v1.0.1/resources/locale/en.yml',
 	],
