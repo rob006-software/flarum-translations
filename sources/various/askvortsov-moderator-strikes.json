@@ -1,0 +1,30 @@
+{
+    "askvortsov-moderator-strikes": {
+        "admin": {
+            "permissions": {
+                "createstrikes": "Create moderator strikes",
+                "viewstrikes": "View moderator strikes"
+            }
+        },
+        "forum": {
+            "moderatorStrikes": {
+                "add_button": "New strike",
+                "confirmation_message": "Your strike has been saved. You may need to refresh the page to see it.",
+                "create-heading": "Create a new moderator strike",
+                "dismiss_button": "Done",
+                "points_heading": "How many strikes should be applied?",
+                "input_heading": "Why is <strong>{username}</strong> receiving these strikes?",
+                "list_item_heading": "<strong>{mod_username}</strong> gave <strong>{points}</strong> strikes.",
+                "no_content_given": "An empty strike is not permitted.",
+                "noStrikes": "It looks like there are no strikes here.",
+                "submit_button": "Save strike"
+            },
+            "post_controls": {
+                "strike_button": "Apply Strike"
+            },
+            "user": {
+                "strikes": "Moderator Strikes"
+            }
+        }
+    }
+}
