@@ -17,6 +17,8 @@
             },
             "generator": {
                 "title": "Generuj odpowiedzi",
+                "bulk-mode": "",
+                "bulk-mode-description": "",
                 "user-count": "Liczba użytkowników do utworzenia",
                 "post-count": "Liczba postów do utworzenia",
                 "send": "Wygeneruj dane"
@@ -25,6 +27,14 @@
         "api": {
             "no-users-matched": "Nie znaleziono pasujących użytkowników",
             "no-discussions-matched": "Nie znaleziono pasujących dyskusji"
+        },
+        "ref": {
+            "bulk-mode": "",
+            "bulk-mode-description": "",
+            "user-count": "",
+            "discussion-count": "",
+            "post-count": "",
+            "send": ""
         }
     }
 }
