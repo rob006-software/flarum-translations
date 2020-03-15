@@ -3,12 +3,12 @@
         "admin": {
             "generator": {
                 "title": "Generowanie danych testowych",
-                "bulk-mode": "Tryb masowy",
-                "bulk-mode-description": "Generuje jedną losową wartość i używa jej dla wszystkich wygenerowanych rekordów",
-                "user-count": "Liczba użytkowników do utworzenia",
-                "discussion-count": "Liczba dyskusji do utworzenia",
-                "post-count": "Liczba postów do utworzenia",
-                "send": "Wygeneruj dane"
+                "bulk-mode": "=> migratetoflarum-fake-data.ref.bulk-mode",
+                "bulk-mode-description": "=> migratetoflarum-fake-data.ref.bulk-mode-description",
+                "user-count": "=> migratetoflarum-fake-data.ref.user-count",
+                "discussion-count": "=> migratetoflarum-fake-data.ref.discussion-count",
+                "post-count": "=> migratetoflarum-fake-data.ref.post-count",
+                "send": "=> migratetoflarum-fake-data.ref.send"
             }
         },
         "forum": {
@@ -17,11 +17,11 @@
             },
             "generator": {
                 "title": "Generuj odpowiedzi",
-                "bulk-mode": "",
-                "bulk-mode-description": "",
-                "user-count": "Liczba użytkowników do utworzenia",
-                "post-count": "Liczba postów do utworzenia",
-                "send": "Wygeneruj dane"
+                "bulk-mode": "=> migratetoflarum-fake-data.ref.bulk-mode",
+                "bulk-mode-description": "=> migratetoflarum-fake-data.ref.bulk-mode-description",
+                "user-count": "=> migratetoflarum-fake-data.ref.user-count",
+                "post-count": "=> migratetoflarum-fake-data.ref.post-count",
+                "send": "=> migratetoflarum-fake-data.ref.send"
             }
         },
         "api": {
@@ -29,12 +29,12 @@
             "no-discussions-matched": "Nie znaleziono pasujących dyskusji"
         },
         "ref": {
-            "bulk-mode": "",
-            "bulk-mode-description": "",
-            "user-count": "",
-            "discussion-count": "",
-            "post-count": "",
-            "send": ""
+            "bulk-mode": "Tryb masowy",
+            "bulk-mode-description": "Generuje jedną losową wartość i używa jej dla wszystkich wygenerowanych rekordów",
+            "user-count": "Liczba użytkowników do utworzenia",
+            "discussion-count": "Liczba dyskusji do utworzenia",
+            "post-count": "Liczba postów do utworzenia",
+            "send": "Wygeneruj dane"
         }
     }
 }
