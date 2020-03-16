@@ -128,7 +128,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/share-social/0.1.2/resources/locale/en.yml',
 	],
 	'fof-socialprofile' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/socialprofile/0.1.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/socialprofile/0.1.2/resources/locale/en.yml',
 	],
 	'fof-spamblock' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/spamblock/0.2.1/locale/en.yml',
