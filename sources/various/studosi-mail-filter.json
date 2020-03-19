@@ -3,13 +3,13 @@
         "admin": {
             "nav": {
                 "title": "Mail Filter",
-                "desc": "Allow and disallow registration with specific e-mails"
+                "desc": "Allow and disallow registration with specific emails"
             },
             "settings": {
                 "rule": {
                     "name_placeholder": "Rule name",
                     "delete": {
-                        "question": "Are you sure you want to delete the {rule_name} rule?",
+                        "question": "Are you sure you want to delete the \"{rule_name}\" rule?",
                         "yes": "Yes",
                         "no": "No"
                     }
@@ -17,18 +17,18 @@
             },
             "whitelist": {
                 "label": "Whitelist",
-                "desc": "Exact e-mails to whitelist",
-                "placeholder": "E-mail to whitelist..."
+                "desc": "Exact emails to whitelist",
+                "placeholder": "Email to whitelist..."
             },
             "whitelist_regex": {
                 "label": "Whitelist regular expressions",
-                "desc": "E-mail regular expressions to whitelist",
+                "desc": "Email regular expressions to whitelist",
                 "placeholder": "Regular expression to whitelist..."
             },
             "blacklist": {
                 "label": "Blacklist",
-                "desc": "Exact e-mails to blacklist",
-                "placeholder": "E-mail to blacklist..."
+                "desc": "Exact emails to blacklist",
+                "placeholder": "Email to blacklist..."
             },
             "blacklist_regex": {
                 "label": "Blacklist regular expressions",
@@ -37,7 +37,7 @@
             },
             "import": {
                 "label": "Import settings",
-                "desc": "Import e-mail whitelists, blacklists and regular expression whitelists and blacklists.",
+                "desc": "Import email whitelists, blacklists and regular expression whitelists and blacklists.",
                 "button": "Import"
             },
             "error": {
@@ -47,8 +47,8 @@
         "forum": {
             "error": {
                 "generic": "Something went wrong. Contact this community's administrator.",
-                "blacklisted": "This e-mail or its domain was found on this community's blacklist.",
-                "not_whitelisted": "This e-mail or its domain was not found on this community's whitelist."
+                "blacklisted": "This email or its domain was found on this community's blacklist.",
+                "not_whitelisted": "This email or its domain was not found on this community's whitelist."
             }
         }
     }
