@@ -10,9 +10,14 @@
                     "app-id": "OAuth application ID",
                     "app-secret": "OAuth application secret",
                     "app-scopes": "OAuth scopes to request",
-                    "button-title": "Etykieta przycisku logowania"
+                    "button-title": "Etykieta przycisku logowania",
+                    "button-title-placeholder": "",
+                    "button-icon": ""
                 }
             }
+        },
+        "api": {
+            "default-login-button-title": ""
         }
     }
 }
