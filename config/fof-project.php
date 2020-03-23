@@ -101,7 +101,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pages/0.3.1/resources/locale/en.yml',
 	],
 	'fof-polls' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/polls/0.1.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/polls/0.1.2/resources/locale/en.yml',
 	],
 	'fof-pretty-mail' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pretty-mail/0.1.6/resources/locale/en.yml',
