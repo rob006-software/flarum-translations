@@ -100,6 +100,9 @@ return [
 	'fof-pages' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pages/0.3.1/resources/locale/en.yml',
 	],
+	'fof-passport' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/passport/0.3.0/locale/en.yml',
+	],
 	'fof-polls' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/polls/0.1.2/resources/locale/en.yml',
 	],
