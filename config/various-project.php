@@ -128,7 +128,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flagrow/mason/0.3.1/resources/locale/en.yml',
 	],
 	'flagrow-passport' => [
-		'tag' => 'https://raw.githubusercontent.com/flagrow/passport/0.2.0-beta/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flagrow/passport/0.3.0/locale/en.yml',
 	],
 	'giga300-auth-discord' => [
 		'tag' => 'https://raw.githubusercontent.com/giga300/flarum-auth-discord/v1.1.0/locale/en.yml',
