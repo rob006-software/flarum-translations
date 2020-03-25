@@ -35,7 +35,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-help-tags/v0.1.3/resources/locale/en.yml',
 	],
 	'askvortsov-pwa' => [
-		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-pwa/v0.1.7/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-pwa/v0.1.9/resources/locale/en.yml',
 	],
 	'askvortsov-saml' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-saml/v1.0.1/resources/locale/en.yml',
