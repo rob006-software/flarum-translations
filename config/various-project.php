@@ -217,6 +217,9 @@ return [
 	'nomiscz-auth-wechat' => [
 		'tag' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-wechat/v0.1.3/resources/locale/en.yml',
 	],
+	'objectwheel-auth-discord' => [
+		'tag' => 'https://raw.githubusercontent.com/Objectwheel/auth-discord/0.1.3/resources/locale/en.yml',
+	],
 	'reflar-cookie-consent' => [
 		'tag' => 'https://raw.githubusercontent.com/ReFlar/cookie-consent/0.2.0/resources/locale/en.yml',
 	],
