@@ -29,10 +29,13 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-auth-sync/v1.0.0/resources/locale/en.yml',
 	],
 	'askvortsov-categories' => [
-		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-categories/v0.2.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-categories/v0.2.3/resources/locale/en.yml',
 	],
 	'askvortsov-help-tags' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-help-tags/v0.1.3/resources/locale/en.yml',
+	],
+	'askvortsov-moderator-warnings' => [
+		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-moderator-warnings/v0.1.3/resources/locale/en.yml',
 	],
 	'askvortsov-pwa' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-pwa/v0.1.9/resources/locale/en.yml',
@@ -276,6 +279,9 @@ return [
 	],
 	'therealsujitk-gifs' => [
 		'tag' => 'https://raw.githubusercontent.com/therealsujitk/flarum-ext-gifs/v1.4.7/resources/locale/en.yml',
+	],
+	'therealsujitk-hljs' => [
+		'tag' => 'https://raw.githubusercontent.com/therealsujitk/flarum-ext-hljs/v1.1.2/resources/locale/en.yml',
 	],
 	'therealsujitk-show-password' => [
 		'tag' => 'https://raw.githubusercontent.com/therealsujitk/flarum-ext-show-password/v1.0.3/resources/locale/en.yml',
