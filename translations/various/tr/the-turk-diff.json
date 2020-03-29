@@ -1,8 +1,8 @@
 {
     "the-turk-diff": {
         "forum": {
-            "differences": "",
             "revisionInfo": "",
+            "revisions": "",
             "emptyText": "",
             "confirmDelete": "",
             "confirmRollback": "",
@@ -12,20 +12,25 @@
             "rollbackErrorMessage": "",
             "deletedText": "",
             "deletedTooltip": "",
+            "createdTooltip": "",
             "optionsButton": "",
             "rollbackButton": "",
-            "noDiff": ""
+            "rollbackToOriginalButton": "",
+            "revertChangesButton": "",
+            "noDiff": "",
+            "mostRecent": "",
+            "sideBySide": "",
+            "inline": "",
+            "combined": "",
+            "differences": "",
+            "previewMode": "",
+            "originalContent": "",
+            "currentContent": "",
+            "revisionWithNumber": ""
         },
         "admin": {
             "settings": {
                 "title": "",
-                "displayMode": "",
-                "customHTML": "",
-                "tabularHTML": "",
-                "renderMode": "",
-                "inline": "",
-                "sideBySide": "",
-                "combined": "",
                 "neighborLines": "",
                 "neighborLinesHelp": "",
                 "onlyUnsigned": "",
@@ -36,20 +41,32 @@
                 "wordLevel": "",
                 "charLevel": "",
                 "separateBlock": "",
-                "enableSyncScroll": "",
-                "allowSwitch": "",
                 "mainPostOnly": "",
+                "textFormatting": "",
                 "dbOptimisation": "",
                 "archiveOlds": "",
                 "archiveOldsInfo": "",
                 "useCrons": "",
                 "useCronsHelp": "",
-                "archiveInfo": ""
+                "archiveInfo": "",
+                "mergeThreshold": "",
+                "mergeThresholdHelp": "",
+                "displayMode": "",
+                "customHTML": "",
+                "tabularHTML": "",
+                "renderMode": "",
+                "inline": "",
+                "sideBySide": "",
+                "combined": "",
+                "enableSyncScroll": "",
+                "allowSwitch": ""
             },
             "permissions": {
                 "viewEditHistory": "",
                 "deleteEditHistory": "",
-                "selfDeleteEditHistory": ""
+                "selfDeleteEditHistory": "",
+                "rollbackEditHistory": "",
+                "selfRollbackEditHistory": ""
             }
         }
     }

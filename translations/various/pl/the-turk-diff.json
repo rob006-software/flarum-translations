@@ -1,8 +1,8 @@
 {
     "the-turk-diff": {
         "forum": {
-            "differences": "Różnice",
             "revisionInfo": "Edytowano {revisionCount} raz, najnowsze na górze|Edytowano {revisionCount} razy, najnowsze na górze",
+            "revisions": "",
             "emptyText": "Brak rewizji",
             "confirmDelete": "Czy jesteś pewien, że chcesz usunąć treść tej rewizji z historii?",
             "confirmRollback": "Czy jesteś pewien, że chcesz przywrócić tę wersję? Edycje dokonane po tej rewizji zostaną nieodwracalnie usunięte.",
@@ -12,20 +12,25 @@
             "rollbackErrorMessage": "Nie udało się przywrócić poprzedniej wersji posta.",
             "deletedText": "(usunięto)",
             "deletedTooltip": "{username} usunął treść tej rewizji {ago}",
+            "createdTooltip": "",
             "optionsButton": "Opcje",
             "rollbackButton": "Przywróć tę wersję",
-            "noDiff": "Nie ma tu nic do pokazania."
+            "rollbackToOriginalButton": "",
+            "revertChangesButton": "",
+            "noDiff": "Nie ma tu nic do pokazania.",
+            "mostRecent": "",
+            "sideBySide": "",
+            "inline": "",
+            "combined": "",
+            "differences": "Różnice",
+            "previewMode": "",
+            "originalContent": "",
+            "currentContent": "",
+            "revisionWithNumber": ""
         },
         "admin": {
             "settings": {
                 "title": "Ustawienia historii edycji",
-                "displayMode": "Tryb wyświetlania (HTML)",
-                "customHTML": "Niestandardowy widok",
-                "tabularHTML": "Widok tabelaryczny",
-                "renderMode": "Tryb renderowania",
-                "inline": "W linii (HTML)",
-                "sideBySide": "Obok siebie (HTML)",
-                "combined": "Kombinacja (HTML)",
                 "neighborLines": "Sąsiednie linie",
                 "neighborLinesHelp": "Podaj liczbę sąsiednich linii, które powinny być wyświetlane.",
                 "onlyUnsigned": "Dozwolone są jedynie <strong>nieujemne liczby całkowite</strong>!",
@@ -36,20 +41,32 @@
                 "wordLevel": "Na poziomie słów",
                 "charLevel": "Na poziomie znaków",
                 "separateBlock": "Wyświetl separator pomiędzy osobnymi partiami różnic w wyrenderowanym HTMLu",
-                "enableSyncScroll": "Włącz synchronizację przewijania dla widoku wyświetlania różnic obok siebie",
-                "allowSwitch": "Pozwól użytkownikom przełączać tryb renderowania",
                 "mainPostOnly": "Przechowuj rewizje tylko pierwszego posta w dyskusji",
+                "textFormatting": "",
                 "dbOptimisation": "Optymalizacje bazy danych",
                 "archiveOlds": "Archiwizuj stare rewizje",
                 "archiveOldsInfo": "Jeśli <strong>x ≥ A</strong>, pierwszych <strong>y=mx+b</strong> rewizji danego posta zostanie scalonych oraz skompresowanych. <strong>x</strong> to liczba rewizji danego posta. <strong>y</strong> zostanie zaokrąglone w dół do liczby całkowitej.",
                 "useCrons": "Użyj crona do archiwizowania starych rewizji",
                 "useCronsHelp": "Musisz dodać wpis do crona na twoim serwerze, aby ta opcja zadziałała. Zadanie wykona się co tydzień w niedzielę o 2:00. Jeśli wyłączysz tę opcję ale włączysz archiwizowanie, wszystkie rewizje posta zostaną przeskanowane pod kątem archiwizacji podczas edycji posta.",
-                "archiveInfo": "Zauważ, że możesz wyłączyć obie opcje i ręcznie uruchomić komendę <code>php flarum diff:archive</code>, aby zarchiwizować stare rewizje."
+                "archiveInfo": "Zauważ, że możesz wyłączyć obie opcje i ręcznie uruchomić komendę <code>php flarum diff:archive</code>, aby zarchiwizować stare rewizje.",
+                "mergeThreshold": "",
+                "mergeThresholdHelp": "",
+                "displayMode": "Tryb wyświetlania (HTML)",
+                "customHTML": "Niestandardowy widok",
+                "tabularHTML": "Widok tabelaryczny",
+                "renderMode": "Tryb renderowania",
+                "inline": "W linii (HTML)",
+                "sideBySide": "Obok siebie (HTML)",
+                "combined": "Kombinacja (HTML)",
+                "enableSyncScroll": "Włącz synchronizację przewijania dla widoku wyświetlania różnic obok siebie",
+                "allowSwitch": "Pozwól użytkownikom przełączać tryb renderowania"
             },
             "permissions": {
                 "viewEditHistory": "Przeglądanie historii edycji",
                 "deleteEditHistory": "Usuwanie historii edycji cudzych postów",
-                "selfDeleteEditHistory": "Usuwanie historii edycji własnych postów"
+                "selfDeleteEditHistory": "Usuwanie historii edycji własnych postów",
+                "rollbackEditHistory": "",
+                "selfRollbackEditHistory": ""
             }
         }
     }
