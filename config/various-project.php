@@ -263,7 +263,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-diff/1.0.0/locale/en.yml',
 	],
 	'the-turk-edit-notifications' => [
-		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-edit-notifications/0.1.3/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-edit-notifications/0.1.4/locale/en.yml',
 	],
 	'the-turk-mathren' => [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-mathren/0.2.6/locale/en.yml',
