@@ -109,6 +109,9 @@ return [
 	'dotronglong-hide-me' => [
 		'tag' => 'https://raw.githubusercontent.com/dotronglong/flarum-hide-me/v0.0.4/locale/en.yml',
 	],
+	'estevao-simoes-microsoft-auth' => [
+		'tag' => 'https://raw.githubusercontent.com/estevao-simoes/flarum-microsoft-auth/v0.1.1-beta/resources/locale/en.yml',
+	],
 	'extiverse-bazaar' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/bazaar/0.4.1/resources/locale/en.yml',
 	],
