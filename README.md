@@ -4,8 +4,8 @@ This repository contains raw translations data used by [Weblate](https://github.
 
 Currently supported languages:
 
-* [Polish](https://github.com/rob006-software/flarum-lang-polish) maintained by [rob006](https://github.com/rob006)
-* Turkish (no maintainer)
+* [Polish](https://github.com/rob006-software/flarum-lang-polish) maintained by [rob006](https://github.com/rob006) ([detailed translation status](status/pl.md))
+* Turkish (no maintainer) ([detailed translation status](status/tr.md))
 
 If you're maintaining language pack or want to add it to the collective, open an [issue](https://github.com/rob006-software/flarum-translations/issues) or write on the [forum](https://discuss.flarum.org/d/20807-simplify-translation-process-with-weblate).
 
