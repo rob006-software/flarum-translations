@@ -11,7 +11,9 @@
                 "submit": "OK",
                 "edit_recipients": "Edytuj uczestników",
                 "send_pd": "Wyślij wiadomość do {username}",
-                "cancel": "Anuluj"
+                "cancel": "Anuluj",
+                "remove_from_discussion": "",
+                "make_public": ""
             },
             "composer_private_discussion": {
                 "submit_button": "Dodaj prywatną dyskusję",
@@ -22,8 +24,8 @@
                 "user_deleted": "-usunięty-"
             },
             "nav": {
-                "private_discussions": "Prywatna dyskusja",
-                "start_button": "Nowa prywatna dyskusja"
+                "start_button": "Nowa prywatna dyskusja",
+                "private_discussions": "Prywatna dyskusja"
             },
             "input": {
                 "search_recipients": "Wpisz 3 pierwsze znaki, aby wyszukać uczestników..."
@@ -47,7 +49,8 @@
                 "recipients_modified": {
                     "added_and_removed": "{username} dodał {added} i usunął {removed} z listy uczestników.",
                     "added": "{username} dodał {added} do listy uczestników.",
-                    "removed": "{username} usunął {removed} z listy uczestników."
+                    "removed": "{username} usunął {removed} z listy uczestników.",
+                    "removed_self": ""
                 }
             },
             "user": {
@@ -61,7 +64,14 @@
                 "pd_label": "Ktoś dodał mnie do nowej prywatnej dyskusji",
                 "pd_reply_label": "Ktoś odpowiedział w prywatnej dyskusji, w której uczestniczę",
                 "pd_reply_text": "{username} odpowiedział w prywatnej dyskusji, w której uczestniczysz",
-                "pd_text": "{username} utworzył nową prywatną dyskusję z tobą"
+                "pd_text": "{username} utworzył nową prywatną dyskusję z tobą",
+                "pd_user_left_label": "",
+                "pd_user_left_text": "",
+                "pd_added_text": "",
+                "pd_added_label": ""
+            },
+            "confirm": {
+                "make_public": ""
             }
         },
         "admin": {
@@ -71,6 +81,7 @@
                 "create_private_discussions_with_blocking_users": "Tworzenie prywatnych dyskusji z użytkownikami, którzy je blokują",
                 "edit_user_recipients": "Edytowanie użytkowników biorących udział w prywatnych dyskusjach",
                 "edit_group_recipients": "Edytowanie grup biorących udział w prywatnych dyskusjach",
+                "make_private_into_public": "",
                 "view_private_discussions-when-flagged": "Przeglądanie prywatnych dyskusji innych użytkowników jeśli ktoś je zgłosił"
             },
             "settings": {
@@ -84,6 +95,12 @@
             },
             "private_discussion_replied": {
                 "title": "[Prywatna dyskusja] user odpowiedział w prywatnej dyskusji"
+            },
+            "recipient_removed": {
+                "title": ""
+            },
+            "private_discussion_added": {
+                "title": ""
             }
         }
     }
