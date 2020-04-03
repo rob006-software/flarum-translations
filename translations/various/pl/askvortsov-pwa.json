@@ -6,7 +6,6 @@
                 "pwa_text": ""
             },
             "pwa": {
-                "enable_label": "",
                 "about": {
                     "description_text": "",
                     "name_text": "",
@@ -25,19 +24,20 @@
                 "logo_text": "",
                 "logo_size_text": "",
                 "submit_button": "",
-                "refreshed_message": ""
+                "refreshed_message": "",
+                "enable_label": ""
             },
             "status": {
-                "disabled": "",
                 "config_no_https": "",
                 "possible_https_disabled": "",
                 "no_logo": "",
                 "no_name": "",
+                "success": "",
+                "disabled": "",
                 "manifest_does_not_exist": "",
                 "manifest_not_accessible": "",
                 "sw_does_not_exist": "",
-                "sw_not_accessible": "",
-                "success": ""
+                "sw_not_accessible": ""
             }
         }
     }
