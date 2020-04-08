@@ -49,7 +49,7 @@
                 "useCrons": "Use crons to archive old revisions",
                 "useCronsHelp": "You must add Cron entry to your server to make this option work. It'll work weekly on sundays at 02:00 AM. If you disable this option and enable above, all of the post's revisions will be scanned for archiving when the related post is revised.",
                 "archiveInfo": "Keep in mind that you can disable both options and run <code>php flarum diff:archive</code> command to archive old revisions manually.",
-                "mergeThreshold": "Merge Treshold for the Combined Renderer",
+                "mergeThreshold": "Merge Threshold for the Combined Renderer",
                 "mergeThresholdHelp": "This determines whether a replace-type block should be merged or not depending on the content changed ratio, which values between 0 and 1."
             },
             "permissions": {
