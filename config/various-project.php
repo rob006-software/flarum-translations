@@ -86,7 +86,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-who-read/1.1.0/resources/locale/en.yml',
 	],
 	'datitisev-dashboard' => [
-		'tag' => 'https://raw.githubusercontent.com/datitisev/flarum-ext-dashboard/v0.1.0-beta.8.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/datitisev/flarum-ext-dashboard/v0.1.0-beta.9/resources/locale/en.yml',
 	],
 	'dem13n-auth-mailru' => [
 		'tag' => 'https://raw.githubusercontent.com/Dem13n/auth-mailru/0.1.0/resources/locale/en.yml',
