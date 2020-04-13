@@ -40,6 +40,9 @@ return [
 	'fof-default-group' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/default-group/0.1.0/resources/locale/en.yml',
 	],
+	'fof-discussion-language' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/discussion-language/0.1.0-beta/resources/locale/en.yml',
+	],
 	'fof-disposable-emails' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/disposable-emails/0.1.0/locale/en.yml',
 	],
