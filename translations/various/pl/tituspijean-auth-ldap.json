@@ -9,13 +9,18 @@
                 "title": "Ustawienia LDAP",
                 "field": {
                     "method_name": "Nazwa serwera LDAP (pojawi się po \"Zaloguj się za pomocą\")",
-                    "domain_controllers": "Domeny LDAP (rozdzielone przecinkami)",
+                    "hosts": "",
                     "base_dn": "Bazowa nazwa wyróżniająca (base DN)",
+                    "filter": "",
                     "port": "port",
                     "account_prefix": "Prefiks konta",
                     "account_suffix": "Sufiks konta",
                     "admin_dn": "Nazwa wyróżniająca (DN) administratora LDAP",
-                    "admin_password": "Hasło administratora LDAP"
+                    "admin_password": "Hasło administratora LDAP",
+                    "search_user_fields": "",
+                    "user_mail": "",
+                    "user_username": "",
+                    "domain_controllers": "Domeny LDAP (rozdzielone przecinkami)"
                 },
                 "follow_referrals": "Podążaj za odwołaniami (follow referrals)",
                 "use_ssl": "Użyj SSL",
