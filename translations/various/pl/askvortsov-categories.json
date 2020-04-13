@@ -2,43 +2,43 @@
     "askvortsov-categories": {
         "admin": {
             "basics": {
-                "categories_label": ""
+                "categories_label": "Kategorie"
             },
             "labels": {
-                "keep_tags_nav": "",
-                "child_bare_icon": "",
-                "compact_mobile_mode": "",
-                "full_page_desktop": "",
-                "parent_remove_icon": "",
-                "parent_remove_description": "",
-                "parent_remove_stats": "",
-                "parent_remove_last_discussion": ""
+                "keep_tags_nav": "Zachować link do listy tagów w nawigacji w sidebarze?",
+                "child_bare_icon": "Czy ikony w podkategoriach powinny być wyświetlane bez tła?",
+                "compact_mobile_mode": "Kompaktowy widok mobilny",
+                "full_page_desktop": "Czy nawigacja w sidebarze powinna być zwijana do jednego wiersza (jak na tradycyjnej liście tagów)? To także ukryje widgety (jak na przykład FoF Forum Statistics Widget) z nawigacji w widoku kategorii.",
+                "parent_remove_icon": "Ukryć ikony dla tagów najwyższego poziomu?",
+                "parent_remove_description": "Ukryć opisy dla tagów najwyższego poziomu?",
+                "parent_remove_stats": "Ukryć statystyki dla tagów najwyższego poziomu?",
+                "parent_remove_last_discussion": "Ukryć ostatnie dyskusje dla tagów najwyższego poziomu?"
             },
             "headings": {
-                "nav": "",
-                "layout": "",
-                "parent_display": "",
-                "child_display": ""
+                "nav": "Nawigacja",
+                "layout": "Layout",
+                "parent_display": "Wyświetlanie nadrzędnych kategorii",
+                "child_display": "Wyświetlanie podkategorii"
             },
-            "title": ""
+            "title": "Ustawienia kategorii"
         },
         "forum": {
             "categories": "",
             "header": {
-                "back_to_categories_tooltip": ""
+                "back_to_categories_tooltip": "Wróć do kategorii"
             },
             "index": {
-                "categories_link": ""
+                "categories_link": "Kategorie"
             },
             "meta": {
-                "categories_title": ""
+                "categories_title": "Kategorie"
             },
             "stat-widgets": {
-                "discussion_label": "",
-                "post_label": ""
+                "discussion_label": "Dyskusje",
+                "post_label": "Posty"
             },
             "last_discussion_widget": {
-                "no_discussions": ""
+                "no_discussions": "Nie ma tu jeszcze żadnych dyskusji"
             }
         }
     }
