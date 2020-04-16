@@ -221,7 +221,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-linkedin/v0.1.2/resources/locale/en.yml',
 	],
 	'nomiscz-auth-steam' => [
-		'tag' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-steam/v0.1.6/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-steam/v0.1.7/resources/locale/en.yml',
 	],
 	'nomiscz-auth-wechat' => [
 		'tag' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-wechat/v0.1.3/resources/locale/en.yml',
