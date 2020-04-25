@@ -60,7 +60,7 @@
                 "color_label": "=> core.ref.color",
                 "delete_button": "Usuń grupę",
                 "delete_confirmation": "Czy jesteś pewien, że chcesz usunąć tę grupę? Członkowie tej grupy NIE zostaną usunięci.",
-                "hide_label": "",
+                "hide_label": "Ukryj na forum",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "name_label": "Nazwa",
@@ -146,7 +146,7 @@
                 "sign_up_label": "Rejestracja",
                 "start_discussions_label": "Rozpoczynanie dyskusji",
                 "view_discussions_label": "Przeglądanie dyskusji",
-                "view_hidden_groups_label": "",
+                "view_hidden_groups_label": "Przeglądanie etykiet ukrytych grup",
                 "view_last_seen_at_label": "Dostęp do daty ostatniej wizyty użytkownika",
                 "view_post_ips_label": "Przeglądanie IP użytkowników",
                 "view_user_list_label": "Przeglądanie listy użytkowników"
@@ -299,10 +299,10 @@
             },
             "post_controls": {
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "",
+                "delete_confirmation": "Czy jesteś pewien, że chcesz permanentnie usunąć ten post? Ta operacje nie może zostać cofnięta.",
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "edit_button": "=> core.ref.edit",
-                "hide_confirmation": "",
+                "hide_confirmation": "Czy jesteś pewien, że chcesz usunąć ten post?",
                 "restore_button": "=> core.ref.restore"
             },
             "post_scrubber": {
