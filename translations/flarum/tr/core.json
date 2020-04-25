@@ -299,8 +299,10 @@
             },
             "post_controls": {
                 "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "",
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "edit_button": "=> core.ref.edit",
+                "hide_confirmation": "",
                 "restore_button": "=> core.ref.restore"
             },
             "post_scrubber": {
