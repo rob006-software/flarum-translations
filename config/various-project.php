@@ -169,6 +169,9 @@ return [
 	'kvothe-keyboard-shortcuts' => [
 		'tag' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-keyboard-shortcuts/v0.1.0/resources/locale/en.yml',
 	],
+	'kvothe-online-users' => [
+		'tag' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-online-users/0.4.0/resources/locale/en.yml',
+	],
 	'kvothe-reply-to-see' => [
 		'tag' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-reply2see/v0.1.2/resources/locale/en.yml',
 	],
