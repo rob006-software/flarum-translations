@@ -1,0 +1,37 @@
+{
+    "fof-linguist": {
+        "admin": {
+            "menu": {
+                "title": "Linguist",
+                "description": "Customize translations."
+            },
+            "buttons": {
+                "apply": "Apply",
+                "reset": "Restore original",
+                "copy-original": "Copy original text",
+                "load-more": "Load more"
+            },
+            "locales": {
+                "all": "All"
+            },
+            "placeholder": {
+                "not-translated": "Not translated",
+                "all-locales": "A text defined here will be shown in all languages",
+                "hint": "Original value:"
+            },
+            "filters": {
+                "search": "Search translation strings...",
+                "with-own-translations": "My translations",
+                "with-original-translations-in-locales": "With original translations in",
+                "without-original-translations-in-locales": "Without original translations in",
+                "for-extension": "For extension",
+                "for-extension-unavailable": "No translations were found in the expected namespace \"{namespace}\". Maybe this extension doesn't have any text to translate or is using a different namespace. Try using the search field to locate its translations.\n",
+                "results": "Showing {shown} of {total} matching translations"
+            },
+            "clear-cache": {
+                "text": "New translations have not yet been applied. Note: clearing the cache can momentarily slow down your forum.\n",
+                "button": "Clear cache now"
+            }
+        }
+    }
+}

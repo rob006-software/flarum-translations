@@ -2,25 +2,25 @@
     "antoinefr-money": {
         "admin": {
             "settings": {
-                "title": "",
-                "moneyforpost": "",
-                "moneyfordiscussion": "",
-                "moneyname": "",
-                "postminimumlength": "",
-                "noshowzero": ""
+                "title": "Ustawienia",
+                "moneyforpost": "Pieniądze otrzymane za nowy post",
+                "moneyfordiscussion": "Pieniądze otrzymane za nową dyskusję",
+                "moneyname": "Nazwa dla pieniędzy (np. [money] punktów)",
+                "postminimumlength": "Minimalna długość posta kwalifikując go do otrzymania pieniędzy (ustaw 0 dla braku limitu)",
+                "noshowzero": "Nie pokazuj jeśli wartość to zero"
             },
             "permissions": {
-                "edit_money_label": ""
+                "edit_money_label": "Edytuj pieniądze"
             }
         },
         "forum": {
             "user_controls": {
-                "money_button": ""
+                "money_button": "Edytuj pieniądze"
             },
             "modal": {
-                "title": "",
-                "current": "",
-                "submit_button": ""
+                "title": "Pieniądze użytkownika {username}",
+                "current": "Obecnie:",
+                "submit_button": "=> core.ref.save_changes"
             }
         }
     }

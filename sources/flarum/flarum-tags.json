@@ -44,6 +44,10 @@
             }
         },
         "forum": {
+            "all_tags": {
+                "meta_description_text": "All Tags",
+                "meta_title_text": "=> flarum-tags.ref.tags"
+            },
             "choose_tags": {
                 "choose_primary_placeholder": "Choose a primary tag|Choose {count} primary tags",
                 "choose_secondary_placeholder": "Choose 1 more tag|Choose {count} more tags",
@@ -70,6 +74,9 @@
                 "added_tags_text": "{username} added the {tagsAdded}.",
                 "removed_tags_text": "{username} removed the {tagsRemoved}.",
                 "tags_text": "{tags} tag|{tags} tags"
+            },
+            "tag": {
+                "meta_description_text": "All discussions with the {tag} tag"
             }
         },
         "lib": {

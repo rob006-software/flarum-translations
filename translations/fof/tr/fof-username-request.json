@@ -1,0 +1,49 @@
+{
+    "fof-username-request": {
+        "admin": {
+            "permissions": {
+                "start": "Kullanıcı adı değiştirme talebi",
+                "moderate": "Kullanıcı adı değişiklik isteklerini onayla"
+            }
+        },
+        "forum": {
+            "action": {
+                "title": "=> fof-username-request.forum.results.title",
+                "help_text": "Kullanıcı adının forum kurallarına uygun olduğundan emin olun.",
+                "decision_title": "Karar",
+                "approval_label": "Onayla",
+                "rejected_label": "",
+                "submit_button": "Gönder",
+                "reason_title": "Reddedilme Nedeni",
+                "success": "Karar gönderildi.",
+                "name": "{username} adlı kullanıcı adı \"{newUsername}\" olarak değiştirildi."
+            },
+            "results": {
+                "title": "Kullanıcı Adı Değişikliği",
+                "approved": "Kullanıcı adı değiştirme talebiniz alındı!",
+                "new_username": "Kullanıcı adınız şu anda \"{username}\"",
+                "rejected": "",
+                "reason": "Gerekçe: <i>\"{reason}\"</i>",
+                "resubmit": "Hesap ayarlarınızdan yeniden kullanıcı adı değişikliği talebi oluşturabilirsiniz."
+            },
+            "request": {
+                "title": "Kullanıcı Adı Değişikliği Talep Et",
+                "current_request": "Kullanıcı adınızın zaten \"{username}\" olmasını istediniz. Bu isteği güncelleyebilir veya silebilirsiniz.",
+                "submit_button": "İstek Gönderin",
+                "delete_button": "İsteği Silin",
+                "confirmation_message": "İsteğiniz alındı, yakında incelenecek.",
+                "dismiss_button": "Anladım",
+                "deleted": "Kullanıcı adı talebi silindi."
+            },
+            "account_label": "Kullanıcı Adını Değiştir",
+            "profile_link": "Kullanıcı Adı Geçmişi",
+            "dropdown": {
+                "empty_text": "",
+                "tooltip": "",
+                "title": "Kullanıcı Adı Değiştirme Talebi",
+                "item_text": "{username}, kullanıcı adını değiştirmek istedi",
+                "exerpt": "İstenilen kullanıcı adı: {requestedUsername}"
+            }
+        }
+    }
+}

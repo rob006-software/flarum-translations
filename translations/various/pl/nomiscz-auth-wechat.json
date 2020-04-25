@@ -1,0 +1,41 @@
+{
+    "nomiscz-auth-wechat": {
+        "forum": {
+            "buttons": {
+                "login": "Zaloguj się za pomocą WeChat",
+                "link": "Połącz konto WeChat",
+                "unlink": "Odłącz konto WeChat"
+            },
+            "alerts": {
+                "already_linked": "To konto WeChat jest już połączone!",
+                "already_used": "Konto WeChat jest już połączone z innym użytkownikiem!",
+                "link_success": "Konto WeChat zostało prawidłowo połączone.",
+                "unlink_success": "Konto WeChat zostało prawidłowo odłączone.",
+                "error": "Coś poszło nie tak, spróbuj ponownie!"
+            },
+            "modals": {
+                "link": {
+                    "title": "Połącz konto WeChat"
+                },
+                "unlink": {
+                    "title": "Odłącz konto WeChat",
+                    "info": {
+                        "confirm": "Czy jesteś pewien, że chcesz odłączyć twoje konto WeChat?",
+                        "no_providers": "Nie masz żadnych innych dostawców logowania! Prawdopodobnie musisz zresetować swoje hasło."
+                    },
+                    "buttons": {
+                        "confirm": "Tak, odłącz konto",
+                        "cancel": "Nie!"
+                    }
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "title": "Ustawienia logowania WeChat",
+                "api_app_id": "API App ID",
+                "api_app_secret": "API App Secret"
+            }
+        }
+    }
+}

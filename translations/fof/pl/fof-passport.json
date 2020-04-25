@@ -1,0 +1,23 @@
+{
+    "fof-passport": {
+        "admin": {
+            "popup": {
+                "title": "FoF Passport",
+                "field": {
+                    "app-auth-url": "OAuth authorization URL",
+                    "app-token-url": "OAuth token URL",
+                    "app-user-url": "URL API udostępniający szczegóły użytkownika po uwierzytelnieniu",
+                    "app-id": "OAuth application ID",
+                    "app-secret": "OAuth application secret",
+                    "app-scopes": "OAuth scopes to request",
+                    "button-title": "Etykieta przycisku logowania",
+                    "button-title-placeholder": "=> fof-passport.api.default-login-button-title",
+                    "button-icon": "Ikona przycisku logowania"
+                }
+            }
+        },
+        "api": {
+            "default-login-button-title": "=> core.ref.log_in"
+        }
+    }
+}

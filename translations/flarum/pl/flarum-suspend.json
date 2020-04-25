@@ -2,7 +2,7 @@
     "flarum-suspend": {
         "admin": {
             "permissions": {
-                "suspend_users_label": "Kto może banować użytkowników?"
+                "suspend_users_label": "Banowanie użytkowników"
             }
         },
         "forum": {
@@ -15,7 +15,7 @@
                 "limited_time_days_text": " dni",
                 "limited_time_label": "Zbanowany na określony czas...",
                 "not_suspended_label": "Nie jest zbanowany",
-                "status_heading": "Wybierz status bana:",
+                "status_heading": "Status bana",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Zbanuj {username}"
             },

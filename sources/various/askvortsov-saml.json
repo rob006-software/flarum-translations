@@ -1,0 +1,31 @@
+{
+    "askvortsov-saml": {
+        "admin": {
+            "title": "SAML2 SSO Configuration",
+            "labels": {
+                "idp_metadata_url": "Identity Provider Metadata URL (Alternative to XML)",
+                "idp_metadata": "Identity Provider Metadata XML (Alternative to URL)",
+                "only_option": "Use SAML2 SSO as only login option?",
+                "sync_attributes": "Sync Attributes (Avatar, Groups, Bio, and Profile)? Requires askvortsov/auth-sync extension.",
+                "nameid_format": "NameID Format"
+            },
+            "options": {
+                "nameid_format": {
+                    "persistent": "Persistent (Recommended if supported)",
+                    "emailAddress": "Email (Default. Use if Persistent not supported)",
+                    "unspecified": "Unspecified"
+                }
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_saml_button": "SAML2 SSO",
+                "open_popup": "Click Here to Login",
+                "enable_popups": "Enable Popups to Login / Register"
+            },
+            "sign_up": {
+                "post_saml_title": "One Last Step..."
+            }
+        }
+    }
+}

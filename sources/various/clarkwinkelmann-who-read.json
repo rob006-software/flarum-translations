@@ -1,0 +1,56 @@
+{
+    "clarkwinkelmann-who-read": {
+        "forum": {
+            "tooltip": {
+                "last-read-at": "{username} read {ago}",
+                "last-read-at-behind": "{username} last read {ago} and is behind",
+                "last-read-at-up-to-date": "{username} read the last post {ago}"
+            },
+            "more": {
+                "show": "Show {count} more",
+                "info": "And {count} more"
+            },
+            "footer": {
+                "read-this-post": "{0} Nobody read this post|{1} One user read this post|]1,Inf] {count} users read this post",
+                "read-no-further": "{0} Everybody read further|{1} One user did not read further|]1,Inf] {count} did not read further",
+                "read-to-end": "{0} Nobody read to the end|{1} One user read to the end|]1,Inf] {count} users read to the end"
+            },
+            "controls": {
+                "set-unread": "Mark unread",
+                "remove-unread": "Remove unread"
+            },
+            "badges": {
+                "following": "=> flarum-subscriptions.forum.badge.following_tooltip",
+                "ignoring": "=> flarum-subscriptions.forum.badge.ignoring_tooltip",
+                "unread": "Marked as unread"
+            },
+            "modal": {
+                "title": "Readers",
+                "up-to-this-post": "Users who read up to this post",
+                "past-this-post": "Users who read past this post",
+                "to-the-end": "Users who read to the end",
+                "behind": "Users who did not read to the end"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "heading": "Who read",
+                "see-read": "See read status",
+                "see-subscription": "See subscription status",
+                "see-unread": "See unread status of other users",
+                "mark-unread": "Mark discussions as unread for own user"
+            },
+            "settings": {
+                "title": "Who read settings",
+                "show-in-discussion-list": "Show readers in discussion list",
+                "show-in-hero": "Show readers in discussion hero",
+                "show-between-posts": "Show read status between posts",
+                "show-count-of-readers-who-stopped": "Show the number of users who stopped reading instead of total read between posts",
+                "hide-when-behind": "Hide a user completely if they are behind that many posts",
+                "max-visible": "Maximum number of users to show before \"read more\"",
+                "unread-icon": "Icon for the unread badge",
+                "only-groups": "Only show read status of users belonging to those groups"
+            }
+        }
+    }
+}

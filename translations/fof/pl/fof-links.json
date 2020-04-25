@@ -2,32 +2,32 @@
     "fof-links": {
         "admin": {
             "edit_link": {
-                "delete_link_button": "",
-                "delete_link_confirmation": "",
-                "internal_link": "",
-                "open_newtab": "",
-                "submit_button": "",
-                "title": "",
-                "title_label": "",
-                "title_placeholder": "",
-                "url_label": "",
-                "url_placeholder": ""
+                "delete_link_button": "Usuń link",
+                "delete_link_confirmation": "Czy jesteś pewien, że chcesz usunąć ten link?",
+                "internal_link": "Czy to link wewnętrzny?",
+                "open_newtab": "Otwórz link w nowej karcie",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> fof-links.ref.create_link",
+                "title_label": "=> fof-links.ref.title",
+                "title_placeholder": "=> fof-links.ref.title",
+                "url_label": "=> fof-links.ref.url",
+                "url_placeholder": "=> fof-links.ref.url"
             },
             "links": {
-                "about_text": "",
-                "create_button": "",
-                "links": ""
+                "about_text": "Zarządzaj linkami w głównym menu.",
+                "create_button": "=> fof-links.ref.create_link",
+                "links": "=> fof-links.ref.links"
             },
             "nav": {
-                "links_button": "",
-                "links_text": ""
+                "links_button": "=> fof-links.ref.links",
+                "links_text": "Zarządzaj listą elementów w głównej nawigacji."
             }
         },
         "ref": {
-            "create_link": "",
-            "links": "",
-            "title": "",
-            "url": ""
+            "create_link": "Utwórz link",
+            "links": "Linki",
+            "title": "Tytuł",
+            "url": "URL"
         }
     }
 }

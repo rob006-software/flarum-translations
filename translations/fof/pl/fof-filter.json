@@ -1,0 +1,36 @@
+{
+    "fof-filter": {
+        "forum": {
+            "flagger_name": "Automatyczny moderator",
+            "flaged_text": "Zawiera zablokowane ciągi znaków"
+        },
+        "admin": {
+            "title": "Filtrowanie",
+            "help": "Podaj ciągi znaków do odfiltrowania (rozdzielone za pomocą przecinka + spacji). Jeśli post zawiera któryś z podanych ciągów, post zostanie oznaczony do zatwierdzenia przez moderację. Odporne na 133t.",
+            "help2": "Przedział czasu (w minutach), w którym następujące po sobie posty napisane przez tego samego użytkownika zostaną scalone.",
+            "email_help": "Treść wiadomości e-mail po odfiltrowaniu posta. Akceptuje zarówno HTML jak i czysty tekst.",
+            "filter_label": "Ciągi znaków do odfiltrowania",
+            "countLabel": "Poziom tolerancji cenzora",
+            "cooldownLabel": "Scalanie postów",
+            "input": {
+                "placeholder": "Ciągi znaków do odfiltrowania",
+                "filter_title": "Ciągi znaków do odfiltrowania",
+                "email_label": "Ustawienia e-mail",
+                "switch": {
+                    "email": "Wyślij użytkownikowi wiadomość e-mail po tym jak jego post zostanie odfiltrowany",
+                    "merge": "Automatycznie scalaj podwójne posty"
+                },
+                "email_subject": "Temat",
+                "email_body": "Treść"
+            },
+            "nav": {
+                "text": "Filtrowanie",
+                "desc": "Odfiltruj posty z niedowolnymi słowami."
+            },
+            "email": {
+                "default_subject": "Odnośnie twojego ostatniego posta...",
+                "default_text": "Dzięki że napisałeś! Niestety twój post został ukryty, bo zawierał jedno ze słów zablokowanych na naszym forum.\n\nJeśli uważasz, że to pomyłka, nie martw się - post wkrótce zostanie zweryfikowany przez moderatora. Post pojawi się na forum zaraz po tym jak moderator go zaakceptuje.\n\nDziękujemy za zrozumienie."
+            }
+        }
+    }
+}

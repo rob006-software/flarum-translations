@@ -1,0 +1,30 @@
+{
+    "flarum-suspend": {
+        "admin": {
+            "permissions": {
+                "suspend_users_label": "Kullanıcıları askıya al"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "user_suspended_text": "{username}, {timeReadable} kadar sizi askıya aldı",
+                "user_unsuspended_text": "{username} askıya alınmanı kaldırdı"
+            },
+            "suspend_user": {
+                "indefinitely_label": "Süresiz askıya alındı",
+                "limited_time_days_text": " gün",
+                "limited_time_label": "Sınırlı bir süre için askıya alındı...",
+                "not_suspended_label": "Askıya alınmadı",
+                "status_heading": "Askıya Alma Durumu",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "{username} askıya alındı"
+            },
+            "user_badge": {
+                "suspended_tooltip": "Askıya alındı"
+            },
+            "user_controls": {
+                "suspend_button": "Askıda"
+            }
+        }
+    }
+}

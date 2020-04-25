@@ -1,0 +1,50 @@
+{
+    "flarum-flags": {
+        "admin": {
+            "permissions": {
+                "flag_posts_label": "Bildirilmiş gönderiler",
+                "view_flags_label": "Bildirilen gönderileri gör"
+            },
+            "settings": {
+                "flag_own_posts_label": "",
+                "guidelines_url_label": "Topluluk Kuralları Bağlantısı",
+                "title": "Bildirme Ayarları"
+            }
+        },
+        "forum": {
+            "flag_post": {
+                "confirmation_message": "Bu gönderiyi bildirdiğiniz için teşekkürler. Moderatörlerimiz en kısa sürede göz atacaklar.",
+                "dismiss_button": "=> core.ref.okay",
+                "reason_details_placeholder": "",
+                "reason_inappropriate_label": "Uygunsuz",
+                "reason_inappropriate_text": "Bu gönderi saldırgan, küfürlü veya <a>topluluk kurallarını</a> ihlal ediyor.",
+                "reason_missing_message": "",
+                "reason_off_topic_label": "Konu dışı",
+                "reason_off_topic_text": "Bu gönderi mevcut tartışma ile ilgili değil ve başka bir yere taşınmalı.",
+                "reason_other_label": "Diğer",
+                "reason_spam_label": "İstenmeyen",
+                "reason_spam_text": "Bu gönderi bir reklam.",
+                "submit_button": "=> flarum-flags.ref.flag_post",
+                "title": "=> flarum-flags.ref.flag_post"
+            },
+            "flagged_posts": {
+                "empty_text": "Bildirilmiş gönderi bulunmuyor.",
+                "item_text": "<em> {discussion} </em> içinde {username}",
+                "title": "=> flarum-flags.ref.flagged_posts",
+                "tooltip": "=> flarum-flags.ref.flagged_posts"
+            },
+            "post": {
+                "dismiss_flag_button": "Bildirmeyi Yoksay",
+                "flagged_by_text": "{username] tarafından bildirildi",
+                "flagged_by_with_reason_text": "{username} tarafından {reason} gerekçesiyle bildirildi"
+            },
+            "post_controls": {
+                "flag_button": "Bildir"
+            }
+        },
+        "ref": {
+            "flag_post": "Gönderiyi Bildir",
+            "flagged_posts": "Bildirilmiş Gönderiler"
+        }
+    }
+}

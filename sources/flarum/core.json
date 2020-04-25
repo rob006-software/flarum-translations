@@ -60,6 +60,7 @@
                 "color_label": "=> core.ref.color",
                 "delete_button": "Delete Group",
                 "delete_confirmation": "Are you sure you want to delete this group? The group members will NOT be deleted.",
+                "hide_label": "Hide on forum",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "name_label": "Name",
@@ -74,23 +75,15 @@
                 "title": "=> core.ref.custom_header_title"
             },
             "email": {
-                "account_heading": "SMTP Account",
                 "addresses_heading": "Addresses",
+                "driver_heading": "Choose a Driver",
                 "driver_label": "Driver",
-                "encryption_label": "Encryption",
                 "from_label": "Sender",
                 "heading": "=> core.ref.email",
-                "host_label": "Host",
-                "password_label": "=> core.ref.password",
-                "port_label": "Port",
-                "server_heading": "SMTP Server",
-                "submit_button": "=> core.ref.save_changes",
-                "text": "Configure the driver, settings and addresses your forum will use to send email.",
-                "username_label": "=> core.ref.username",
-                "driver_heading": "Choose a Driver",
                 "mail_encryption_label": "Encryption",
                 "mail_host_label": "Host",
                 "mail_mailgun_domain_label": "Domain",
+                "mail_mailgun_region_label": "Region",
                 "mail_mailgun_secret_label": "Secret key",
                 "mail_mandrill_secret_label": "Secret key",
                 "mail_password_label": "=> core.ref.password",
@@ -101,8 +94,11 @@
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "Mailgun Settings",
                 "mandrill_heading": "Mandrill Settings",
+                "not_sending_message": "Flarum currently does not send emails. This can be due to the selected driver, or errors in its configuration.",
                 "ses_heading": "SES Settings",
-                "smtp_heading": "SMTP Settings"
+                "smtp_heading": "SMTP Settings",
+                "submit_button": "=> core.ref.save_changes",
+                "text": "Configure the driver, settings and addresses your forum will use to send email."
             },
             "extensions": {
                 "add_button": "Add Extension",
@@ -138,17 +134,20 @@
                 "delete_posts_forever_label": "Delete posts forever",
                 "delete_posts_label": "Delete posts",
                 "edit_posts_label": "Edit posts",
+                "edit_users_label": "Edit users",
                 "global_heading": "Global",
                 "moderate_heading": "Moderate",
                 "new_group_button": "New Group",
                 "participate_heading": "Participate",
+                "post_without_throttle_label": "Reply multiple times without waiting",
                 "read_heading": "Read",
                 "rename_discussions_label": "Rename discussions",
                 "reply_to_discussions_label": "Reply to discussions",
                 "sign_up_label": "Sign up",
                 "start_discussions_label": "Start discussions",
                 "view_discussions_label": "View discussions",
-                "view_last_seen_at_label": "View user last seen time",
+                "view_hidden_groups_label": "View hidden group badges",
+                "view_last_seen_at_label": "Always view user last seen time",
                 "view_post_ips_label": "View post IP addresses",
                 "view_user_list_label": "View user list"
             },
@@ -289,6 +288,7 @@
                 "discussion_renamed_text": "{username} changed the title",
                 "empty_text": "No Notifications",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "mark_as_read_tooltip": "Mark as Read",
                 "title": "=> core.ref.notifications",
                 "tooltip": "=> core.ref.notifications"
             },
@@ -299,8 +299,10 @@
             },
             "post_controls": {
                 "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "Are you sure you want to delete this post forever? This action cannot be undone.",
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "edit_button": "=> core.ref.edit",
+                "hide_confirmation": "Are you sure you want to delete this post?",
                 "restore_button": "=> core.ref.restore"
             },
             "post_scrubber": {
@@ -364,9 +366,9 @@
                 "button": "Controls",
                 "delete_button": "=> core.ref.delete",
                 "delete_confirmation": "Are you sure you want to delete this user? All of the user's posts will be deleted.",
-                "edit_button": "=> core.ref.edit",
                 "delete_error_message": "Deletion of user <i>{username} ({email})</i> failed",
-                "delete_success_message": "User <i>{username} ({email})</i> was deleted"
+                "delete_success_message": "User <i>{username} ({email})</i> was deleted",
+                "edit_button": "=> core.ref.edit"
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
@@ -408,17 +410,13 @@
                 "previous_page_button": "=> core.ref.previous_page"
             },
             "error": {
-                "403_message": "You do not have permission to access this page.",
-                "404_message": "The page you requested could not be found.",
-                "404_return_link": "Return to {forum}",
-                "500_message": "An error occurred while trying to load this page.",
-                "503_message": "{forum} is undergoing maintenance. Thanks for your patience!",
                 "csrf_token_mismatch": "You have been inactive for too long.",
                 "csrf_token_mismatch_return_link": "Go back, to try again",
-                "forbidden": "You do not have permission to access this page.",
                 "invalid_confirmation_token": "This confirmation link has already been used or is invalid.",
+                "not_authenticated": "You do not have permission to access this page. Try again after logging in.",
                 "not_found": "The page you requested could not be found.",
                 "not_found_return_link": "Return to {forum}",
+                "permission_denied": "You do not have permission to access this page.",
                 "unknown": "An error occurred while trying to load this page."
             },
             "index": {
@@ -471,6 +469,8 @@
             "discussions": "Discussions",
             "edit": "Edit",
             "email": "Email",
+            "icon": "Icon",
+            "icon_text": "Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the <code>fas fa-</code> prefix.",
             "load_more": "Load More",
             "log_in": "Log In",
             "log_out": "Log Out",
@@ -494,9 +494,7 @@
             "username": "Username",
             "users": "Users",
             "write_a_reply": "Write a Reply...",
-            "you": "You",
-            "icon": "Icon",
-            "icon_text": "Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the <code>fas fa-</code> prefix."
+            "you": "You"
         },
         "group": {
             "admin": "Admin",

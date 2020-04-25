@@ -1,0 +1,53 @@
+{
+    "clarkwinkelmann-carving-contest": {
+        "forum": {
+            "nav": {
+                "contest": "Zawody w rzeźbieniu"
+            },
+            "page": {
+                "title": "Zawody w rzeźbieniu w dyni",
+                "loading": "Ładowanie wyników...",
+                "participate": "Weź udział",
+                "delete-confirmation": "Czy jesteś pewien, że chcesz usunąć dynię \"{name}\" utworzoną przez {username}?",
+                "like": "Lubię to",
+                "already-liked": "Lubię to",
+                "unlike": "Przestań lubić",
+                "refresh": "Odśwież",
+                "load-more": "Załaduj więcej wyników",
+                "sort": {
+                    "mostLikes": "Najwięcej polubień",
+                    "fewerLikes": "Najmniej polubień",
+                    "mostRecent": "Ostatnio dodane",
+                    "leastRecent": "Najdawniej dodane"
+                },
+                "likes": {
+                    "you_text": "=> core.ref.you",
+                    "others_link": "=> core.ref.some_others",
+                    "liked_by_self_text": "{users} lubisz to.|{users} lubicie to.",
+                    "liked_by_text": "{users} lubi to.|{users} lubią to."
+                }
+            },
+            "modal": {
+                "title": "Weź udział",
+                "name": "Nazwij swoje dzieło",
+                "submit": "Wyślij",
+                "tools": {
+                    "circle": "Okrąg",
+                    "square": "Kwadrat"
+                }
+            },
+            "likes_modal": {
+                "title": "Użytkownicy, którzy polubili tę pracę"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "heading": "Zawody w rzeźbieniu",
+                "view": "Przeglądanie prac",
+                "like": "Polubienie prac",
+                "participate": "Uczestnictwo",
+                "moderate": "Moderacja"
+            }
+        }
+    }
+}

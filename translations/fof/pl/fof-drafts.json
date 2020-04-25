@@ -2,19 +2,21 @@
     "fof-drafts": {
         "admin": {
             "permissions": {
-                "start": ""
+                "start": "Tworzenie szkiców dyskusji"
             }
         },
         "forum": {
             "composer": {
-                "title": "",
-                "alert": ""
+                "title": "Zapisz szkic",
+                "alert": "Szkic został zapisany.",
+                "exit_alert": "Porzucić zmiany w tym szkicu?"
             },
             "dropdown": {
-                "title": "",
-                "button": "",
-                "tooltip": "",
-                "alert": ""
+                "empty_text": "Nie zapisałeś żadnego szkicu",
+                "title": "Szkice",
+                "button": "Usuń szkic",
+                "tooltip": "=> fof-drafts.forum.dropdown.title",
+                "alert": "Czy jesteś pewien, że chcesz usunąć ten szkic?"
             }
         }
     }

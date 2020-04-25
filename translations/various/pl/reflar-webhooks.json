@@ -2,103 +2,103 @@
     "reflar-webhooks": {
         "actions": {
             "discussion": {
-                "started": "",
+                "started": "Rozpoczęto dyskusję `{1}`",
                 "renamed": {
-                    "title": "",
-                    "description": ""
+                    "title": "Zmieniono nazwę dyskusji `{1}`",
+                    "description": "Nowy tytuł: {1}"
                 },
-                "hidden": "",
-                "restored": "",
-                "deleted": ""
+                "hidden": "Ukryto dyskusję `{1}`",
+                "restored": "Przywrócono dyskusję `{1}`",
+                "deleted": "Usunięto dyskusję `{1}`"
             },
             "group": {
-                "created": "",
-                "renamed": "",
-                "deleted": ""
+                "created": "Utworzono grupę `{1}`",
+                "renamed": "Zmieniono nazwę grupy na `{1}`",
+                "deleted": "Usunięto grupę `{1}`"
             },
             "post": {
-                "posted": "",
-                "revised": "",
-                "hidden": "",
-                "restored": "",
-                "deleted": ""
+                "posted": "Nowy post w `{1}`",
+                "revised": "Edytowano post w `{1}`",
+                "hidden": "Ukryto post w `{1}`",
+                "restored": "Przywrócono post w `{1}`",
+                "deleted": "Usunięto post w `{1}`"
             },
             "user": {
-                "registered": "",
+                "registered": "Zarejestrował się nowy użytkownik",
                 "renamed": {
-                    "title": "",
-                    "description": ""
+                    "title": "Zmieniono nazwę użytkownika dla `{1}`",
+                    "description": "Nowa nazwa użytkownika: {1}"
                 },
-                "deleted": ""
+                "deleted": "Usunięto użytkownika `{1}`"
             }
         },
         "adapters": {
             "errors": {
-                "404": ""
+                "404": "Webhook nie został znaleziony"
             }
         },
         "admin": {
             "errors": {
-                "service_not_found": "",
-                "url_invalid": ""
+                "service_not_found": "Usługa \"{service}\" nie została odnaleziona.",
+                "url_invalid": "Ten adres URL jest nieprawidłowy dla wybranej usługi."
             },
             "nav": {
-                "desc": ""
+                "desc": "Konfigurowalne wychodzące webhooki dla twojego forum."
             },
             "settings": {
-                "title": "",
+                "title": "Webhooki",
                 "help": {
-                    "disabled": "",
-                    "general": "",
-                    "url": ""
+                    "disabled": "Ten webhook jest wyłączony, ponieważ nie ma żadnych aktywnych zdarzeń.",
+                    "general": "Tutaj możesz dodać, edytować oraz usuwać webhooki dla swojego forum.",
+                    "url": "Docelowy adres URL webhooka"
                 },
                 "modal": {
-                    "title": "",
-                    "description": ""
+                    "title": "Ustawienia webhooka",
+                    "description": "Tutaj możesz ustawić dla jakich zdarzeń webhook będzie wywoływany."
                 },
                 "services": {
-                    "discord": "",
-                    "slack": ""
+                    "discord": "Discord",
+                    "slack": "Slack"
                 },
                 "actions": {
                     "flarum": {
                         "discussion": {
-                            "title": "",
-                            "started": "",
-                            "renamed": "",
-                            "hidden": "",
-                            "restored": "",
-                            "deleted": ""
+                            "title": "Dyskusje",
+                            "started": "Rozpoczęto",
+                            "renamed": "Zmieniono nazwę",
+                            "hidden": "Ukryto",
+                            "restored": "Przywrócono",
+                            "deleted": "Usunięto"
                         },
                         "group": {
-                            "title": "",
-                            "created": "",
-                            "renamed": "",
-                            "deleted": ""
+                            "title": "Grupy",
+                            "created": "Utworzono",
+                            "renamed": "Zmieniono nazwę",
+                            "deleted": "Usunięto"
                         },
                         "post": {
-                            "title": "",
-                            "posted": "",
-                            "revised": "",
-                            "hidden": "",
-                            "restored": "",
-                            "deleted": ""
+                            "title": "Posty",
+                            "posted": "Nowy post",
+                            "revised": "Edytowano",
+                            "hidden": "Ukryto",
+                            "restored": "Przywrócono",
+                            "deleted": "Usunięto"
                         },
                         "user": {
-                            "title": "",
-                            "registered": "",
-                            "renamed": "",
-                            "deleted": ""
+                            "title": "Użytkownicy",
+                            "registered": "Rejestracja",
+                            "renamed": "Zmieniono nazwę",
+                            "deleted": "Usunięto"
                         }
                     }
                 }
             }
         },
         "ref": {
-            "deleted": "",
-            "hidden": "",
-            "renamed": "",
-            "restored": ""
+            "deleted": "Usunięto",
+            "hidden": "Ukryto",
+            "renamed": "Zmieniono nazwę",
+            "restored": "Przywrócono"
         }
     }
 }

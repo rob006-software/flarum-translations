@@ -1,0 +1,77 @@
+{
+    "fof-ban-ips": {
+        "forum": {
+            "ban_ip_button": "=> fof-ban-ips.ref.ban_ip_button",
+            "unban_ip_button": "=> fof-ban-ips.ref.unban_ip_button",
+            "modal": {
+                "ban_options_only_ip": "Yalnıca mevcut IP'yi yasakla (<code>{ip}</code>)",
+                "ban_options_all_ip": "<i>{username}</i> kullanıcısına ait tüm IP'leri yasakla",
+                "ban_ip_no_users": "Yasaklanmış kimse bulunmuyor"
+            },
+            "user_badge": {
+                "banned_tooltip": "Yasaklanmış"
+            },
+            "user_controls": {
+                "ban_button": "=> fof-ban-ips.ref.ban_label",
+                "unban_button": "=> fof-ban-ips.ref.unban_label"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "ban_ip_label": "=> fof-ban-ips.ref.ban_ip_addresses",
+                "view_banned_ip_list_label": "Yasaklanmış IP adresleri listesini görüntüle"
+            },
+            "page": {
+                "create_button": "=> fof-ban-ips.ref.ban_ip_button",
+                "creator_label": "Oluşturucu",
+                "user_label": "Kullanıcı",
+                "address_label": "=> fof-ban-ips.ref.address_label",
+                "reason_label": "=> fof-ban-ips.ref.reason_label",
+                "date_label": "Tarih"
+            },
+            "modal": {
+                "update_title": "Yasaklanmış IP'leri Güncelle",
+                "ban_ip_no_users": "Kimse yasaklanmamış"
+            },
+            "nav": {
+                "title": "IP'leri Yasakla",
+                "desc": "Yasaklı IP ekle, düzenle ve görüntüle."
+            },
+            "empty_text": "Yasaklamış IP bulunamadı."
+        },
+        "error": {
+            "banned_ip_message": "Yetkilendirme başarısız.",
+            "no_ips_found_message": "Kullanıcı için yasaklanmış IP(ler) bulunamadı."
+        },
+        "lib": {
+            "modal": {
+                "title": "=> fof-ban-ips.ref.ban_ip_addresses",
+                "unban_title": "=> fof-ban-ips.ref.unban_ip_addresses",
+                "address_label": "=> fof-ban-ips.ref.address_label",
+                "reason_label": "=> fof-ban-ips.ref.reason_label",
+                "check_button": "Kontrol Et",
+                "save_button": "Kaydet",
+                "ban_ip_confirmation": "Bu IP adresinin foruma erişimini yasaklamak istiyor musunuz? Bu IP'yi kullanan kullanıcılar artık foruma erişim sağlayamaz.",
+                "ban_ip_users": "{users} adlı kullanıcı yasaklanacak|{users} adlı kullanıcı yasaklanacak",
+                "unban_ip_confirmation": "Bu IP adresinin foruma erişim yasağını kaldırmak istiyor musunuz? Bu IP'yi kullanan kullanıcılar artık foruma erişebilir.",
+                "unban_options_only_ip": "Yalnızca mevcut IP'nin yasağını kaldır (<code>{ip}</code>)",
+                "unban_options_all_ip": "<i>{username}</i> tarafından kullanılan tüm IP'lerin yasağını kaldır",
+                "unban_ip_no_users": "Yasaklanmamış kullanıcı yok",
+                "unban_ip_users": "{users} adlı kullanıcının yasağı kalkacak|{users} kullanıcıların yasakları kalkacak",
+                "unbanned_ips": "<code>{ips}</code>.",
+                "ban_button": "=> fof-ban-ips.ref.ban_label",
+                "unban_button": "=> fof-ban-ips.ref.unban_label"
+            }
+        },
+        "ref": {
+            "ban_label": "Yasakla",
+            "ban_ip_addresses": "IP'leri yasakla",
+            "ban_ip_button": "IP Yasakla",
+            "unban_label": "Yasağı Kaldır",
+            "unban_ip_addresses": "IP Yasaklarını Kaldır",
+            "unban_ip_button": "IP Yasağını Kaldır",
+            "address_label": "IP Adres",
+            "reason_label": "Sebep"
+        }
+    }
+}

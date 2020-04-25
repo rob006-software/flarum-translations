@@ -1,0 +1,118 @@
+{
+    "validation": {
+        "accepted": ":attribute kabul edilmek zorunda.",
+        "active_url": ":attribute geçerli bir URL değil.",
+        "after": ":attribute şu tarihten sonrası olmalı; :date.",
+        "after_or_equal": ":attribute şu tarihten sonra yada şu tarihe eşit olmalı; :date.",
+        "alpha": ":attribute sadece harleri içerebilir.",
+        "alpha_dash": ":attribute sadece harf, sayı ve çizgiler içerebilir.",
+        "alpha_num": ":attribute sadece harf ve sayı içerebilir.",
+        "array": ":attribute bir dizi olmalıdır.",
+        "before": ":attribute şu tarihten önce olmalıdır :date.",
+        "before_or_equal": ":attribute şu tarihten önce yada şu tarihe eşit omlaı; :date.",
+        "between": {
+            "numeric": ":attribute şu değerlerin arsaında olmalıdır; :min ve :max.",
+            "file": ":attribute şu değerlerin arasında olmalıdır :min ve :max kilobytes.",
+            "string": ":attribute şu değerlerin arasında olmalıdır :min ve :max karakter.",
+            "array": "The :attribute şu değerlerin arasında olmalıdır :min ve :max."
+        },
+        "boolean": ":attribute true ya da false olmalıdır.",
+        "confirmed": ":attribute doğrulanamıyor.",
+        "date": ":attribute geçerli bir tarih değil.",
+        "date_equals": ":attribute, :date tarihine eşit olmalıdır.",
+        "date_format": ":attribute şu biçim ile uyuşmuyor; :other.",
+        "different": ":attribute ve :other farklı olmalıdır.",
+        "digits": ":attribute :digits olmalıdır.",
+        "digits_between": ":attribute şu değerler arasında olmaldır; :min ve :max",
+        "dimensions": ":attribute geçersiz resim boyutlarına sahip.",
+        "distinct": ":attribute alanı yinelenen bir değere sahip.",
+        "email": ":attribute geçerli bir e-posta adresi olmalıdır.",
+        "ends_with": ":attribute şunlardan biriyle bitmelidir: :values",
+        "exists": "Seçilen :attribute geçersiz.",
+        "file": ":attribute bir dosya olmalıdır.",
+        "filled": ":attribute dosya olmalıdır.",
+        "gt": {
+            "numeric": ":attribute, :value değerinden büyük olmalıdır.",
+            "file": ":attribute, :value kilobayttan daha büyük olmalıdır.",
+            "string": ":attribute, :value karakterden çok olmalıdır.",
+            "array": ":attribute, :value öğeden daha fazla olmalıdır."
+        },
+        "gte": {
+            "numeric": ":attribute, :value değerinden büyük ya da eşit olmalıdır.",
+            "file": ":attribute, :value kilobayttan küçük ya da eşit olmalıdır.",
+            "string": ":attribute, :value karakterden büyük ya da eşit olmalıdır.",
+            "array": ":attribute, :value ya da daha fazla öğe içermelidir."
+        },
+        "image": ":attribute bir fotoğraf olmalıdır.",
+        "in": "Seçilen :attribute geçersiz.",
+        "in_array": ":attribute alanı :other içinde bulunmuyor.",
+        "integer": ":attribute bir sayı olmalıdır.",
+        "ip": ":attribute geçerli bir IP adresi olmalıdır.",
+        "ipv4": ":attribute geçerli bir IPv4 adresi olmalıdır.",
+        "ipv6": ":attribute geçerli bir IPv6 adresi olmalıdır.",
+        "json": ":attribute geçerli bir JSON objesi olmalıdır.",
+        "lt": {
+            "numeric": ":attribute :value değerinden az olmalıdır.",
+            "file": ":attribute, :value kilobayttan küçük olmalıdır.",
+            "string": ":attribute :value karakterden az olmalıdır.",
+            "array": ":attribute, :value öğeden daha az olmalıdır."
+        },
+        "lte": {
+            "numeric": ":attribute, :value değerinden küçük ya da eşit olmalıdır.",
+            "file": ":attribute, :value kilobayttan küçük ya da eşit olmalıdır.",
+            "string": ":attribute, :value değerinden küçük ya da eşit olmalıdır.",
+            "array": ":attribute :value öğeden fazla içermemelidir."
+        },
+        "max": {
+            "numeric": ":attribute, :max sayısından uzun olmamalıdır.",
+            "file": ":attribute :max kilobayttan fazla olamaz.",
+            "string": ":attribute, :max karakterden uzun olmamalıdır.",
+            "array": ":attribute :max öğeden fazlasını içeremez."
+        },
+        "mimes": ":attribute şu dosya tiplerinden biri olmalıdır; :values.",
+        "mimetypes": ":attribute şu dosya tiplerinden biri olmalıdır; :values.",
+        "min": {
+            "numeric": ":attribute şu değerden küçük olmamalıdır; :min.",
+            "file": ":attribute şu değerden küçük olmamalıdır; :min kilobyte.",
+            "string": ":attribute şu değerden küçük olmamalıdır; :min karakter.",
+            "array": ":attribute şu değerden küçük olmamalıdır; :min öğe."
+        },
+        "not_in": "Seçilen :attribute geçersiz.",
+        "not_regex": ":attribute biçimi geçersiz.",
+        "numeric": ":attribute bir sayı olmalıdır.",
+        "present": ":attribute alanı mevcut olmalıdır.",
+        "regex": ":attribute biçimi uygun değil.",
+        "required": ":attribute alanı zorunlu.",
+        "required_if": ":other değeri :value olduğunda :attribute alanı zorunludur.",
+        "required_unless": ":other, :values değerleri arasında olmadığı sürece :attribute alanı zorunludur; ",
+        "required_with": ":values olduğunda :attribute alanı zorunludur.",
+        "required_with_all": ":values olduğunda :attribute alanı zorunludur.",
+        "required_without": ":values olmadığında :attribute alanı zorunludur.",
+        "required_without_all": ":attribute alanı :values değerlerinden hiçbiri olmadığında zorunludur.",
+        "same": ":attribute ve :other eşleşmelidir.",
+        "size": {
+            "numeric": ":attribute :size olmalıdır.",
+            "file": ":attribute :size kilobyte olmalıdır.",
+            "string": ":attribute :size karakter olmalıdır.",
+            "array": ":attribute :size öğe içermelidir."
+        },
+        "starts_with": ":attribute :values değerlerinden biri ile başlamalıdır.",
+        "string": ":attribute bir karakter dizisi olmalıdır.",
+        "timezone": ":attribute geçerli bir bölge olmalıdır.",
+        "unique": ":attribute daha önce alınmış.",
+        "uploaded": ":attribute yüklenemedi.",
+        "url": ":attribute türü geçersiz.",
+        "uuid": ":attribute geçerli bir UUID olmalıdır.",
+        "attributes": {
+            "username": "kullanıcı adı",
+            "password": "şifre",
+            "email": "e-posta",
+            "title": "başlık",
+            "content": "içerik",
+            "name_singular": "tekil isim",
+            "name_plural": "çoğul isim",
+            "tag_count_primary": "birincil etiket sayısı",
+            "tag_count_secondary": "ikincil etiket sayısı"
+        }
+    }
+}

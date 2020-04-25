@@ -2,13 +2,28 @@
     "tpokorra-post-notification": {
         "admin": {
             "settings": {
-                "title": "",
+                "title": "Ustawienia powiadomień o postach",
                 "recipients": {
-                    "to": "",
-                    "bcc": ""
+                    "post_approval": {
+                        "to": "Lista adresatów, którzy będą powiadamiani o nowych postach do zatwierdzenia (adresy e-mail rozdzielone przecinkami)"
+                    },
+                    "new_discussion": {
+                        "to": "Lista adresatów, którzy będą powiadamiani o nowych dyskusjach (adresy e-mail rozdzielone przecinkami)",
+                        "bcc": "Lista ukrytych adresatów (BCC), którzy będą powiadamiani o nowych dyskusjach (adresy e-mail rozdzielone przecinkami)"
+                    },
+                    "new_post": {
+                        "to": "Lista adresatów, którzy będą powiadamiani o nowych postach (adresy e-mail rozdzielone przecinkami)",
+                        "bcc": "Lista ukrytych adresatów (BCC), którzy będą powiadamiani o nowych postach (adresy e-mail rozdzielone przecinkami)"
+                    },
+                    "revised_post": {
+                        "to": "Lista adresatów, którzy będą powiadamiani o edycjach postów (adresy e-mail rozdzielone przecinkami)",
+                        "bcc": "Lista ukrytych adresatów (BCC), którzy będą powiadamiani o edycjach postów (adresy e-mail rozdzielone przecinkami)"
+                    }
                 },
-                "new_post": "",
-                "revised_post": ""
+                "new_discussion": "Etykieta opisująca nową dyskusję",
+                "new_post": "Etykieta opisująca nowy post",
+                "revised_post": "Etykieta opisująca edycję posta",
+                "post_approval": "Etykieta opisująca nowy post wymagający zatwierdzenia"
             }
         }
     }

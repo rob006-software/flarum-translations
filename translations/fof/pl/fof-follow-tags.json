@@ -2,43 +2,43 @@
     "fof-follow-tags": {
         "forum": {
             "settings": {
-                "notify_new_discussion_label": "",
-                "notify_new_post_label": ""
+                "notify_new_discussion_label": "Ktoś utworzył dyskusję w tagu, który obserwuję",
+                "notify_new_post_label": "Ktoś odpowiedział w tagu, który obserwuję"
             },
             "index": {
-                "follow_tag_button": "",
-                "unfollow_tag_button": ""
+                "follow_tag_button": "Obserwuj",
+                "unfollow_tag_button": "Przestań obserwować"
             },
             "sub_controls": {
-                "follow_button": "",
-                "following_button": "",
-                "following_text": "",
-                "hiding_button": "",
-                "hiding_text": "",
-                "ignoring_button": "",
-                "ignoring_text": "",
-                "lurking_button": "",
-                "lurking_text": "",
-                "not_following_button": "",
-                "not_following_text": "",
-                "notify_alert_tooltip": "",
-                "notify_email_tooltip": ""
+                "follow_button": "=> fof-follow-tags.ref.follow",
+                "following_button": "=> fof-follow-tags.ref.following",
+                "following_text": "Będziesz powiadamiany o wszystkich nowych dyskusjach.",
+                "hiding_button": "=> fof-follow-tags.ref.hiding",
+                "hiding_text": "Ukryj dyskusje ze strony \"Wszystkie dyskusje\".",
+                "ignoring_button": "=> fof-follow-tags.ref.ignoring",
+                "ignoring_text": "Nigdy nie będziesz powiadamiany o odpowiedziach.",
+                "lurking_button": "=> fof-follow-tags.ref.lurking",
+                "lurking_text": "Będziesz powiadamiany o wszystkich nowych dyskusjach i odpowiedziach.",
+                "not_following_button": "Nie obserwujesz",
+                "not_following_text": "Będziesz powiadamiany tylko wtedy, kiedy zostaniesz @wspomniany.",
+                "notify_alert_tooltip": "Otrzymuj powiadomienia na forum, kiedy pojawią się nowe dyskusje lub posty",
+                "notify_email_tooltip": "Otrzymuj powiadomienia e-mail, kiedy pojawią się nowe dyskusje lub posty"
             },
             "notifications": {
-                "new_discussion_text": "",
-                "new_post_text": ""
+                "new_discussion_text": "{username} rozpoczął",
+                "new_post_text": "{username} odpowiedział"
             }
         },
         "email": {
-            "newDiscussionInTag": "",
-            "newPostInTag": ""
+            "newDiscussionInTag": "[Nowa dyskusja w obserwowanym tagu] title",
+            "newPostInTag": "[Nowy post w obserwowanym tagu] title"
         },
         "ref": {
-            "follow": "",
-            "following": "",
-            "hiding": "",
-            "ignoring": "",
-            "lurking": ""
+            "follow": "Obserwuj",
+            "following": "Obserwujesz",
+            "hiding": "Ukryte",
+            "ignoring": "Ignorujesz",
+            "lurking": "Podpatrujesz"
         }
     }
 }

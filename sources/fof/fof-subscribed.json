@@ -5,10 +5,12 @@
                 "defaults_label": "Set \"{setting}\" enabled by default",
                 "forced_label": "Force enable \"{setting}\" for everyone",
                 "notify_discussion_created_label": "Someone creates a discussion",
+                "notify_post_unapproved_label": "A created post needs approval",
                 "notify_user_created_label": "When someone registers"
             },
             "notifications": {
                 "discussion_created_text": "{username} created a new discussion",
+                "post_unapproved_text": "{username} created a post that requires approval",
                 "user_created_text": "{username} had just signed up"
             }
         },
@@ -18,6 +20,7 @@
             },
             "permission": {
                 "subscribe_to_discussion_created": "Allowed to receive notification upon new discussion",
+                "subscribe_to_post_unapproved": "Allowed to receive notification upon new unapproved post",
                 "subscribe_to_user_created": "Allowed to receive notification upon new user"
             }
         }

@@ -2,25 +2,28 @@
     "flarum-flags": {
         "admin": {
             "permissions": {
-                "flag_posts_label": "Kto może zgłaszać posty?",
-                "view_flags_label": "Kto może przeglądanąć zgłoszone posty?"
+                "flag_posts_label": "Zgłaszanie postów",
+                "view_flags_label": "Przeglądanie zgłoszonych postów"
             },
             "settings": {
-                "guidelines_url_label": "Community Guidelines URL",
+                "flag_own_posts_label": "Pozwól użytkownikowi zgłosić swój własny post",
+                "guidelines_url_label": "URL do regulaminu społeczności",
                 "title": "Ustawienia zgłaszania postów"
             }
         },
         "forum": {
             "flag_post": {
-                "confirmation_message": "Dziękujemy za zgłoszenie tego posta, nasz moderator przyjrzy się twojemu zgłoszeniu tak szybko jak tylko będzie to możliwe.",
+                "confirmation_message": "Dziękujemy za zgłoszenie tego posta. Nasz moderator przyjrzy się twojemu zgłoszeniu tak szybko jak tylko będzie to możliwe.",
                 "dismiss_button": "=> core.ref.okay",
-                "reason_inappropriate_label": "Niewłaściwy",
+                "reason_details_placeholder": "Dodatkowe informacje (niewymagane)",
+                "reason_inappropriate_label": "Niestosowny",
                 "reason_inappropriate_text": "Ten post jest agresywny, obraźliwy, lub narusza nasz <a>regulamin społeczności</a>.",
+                "reason_missing_message": "Podaj więcej informacji, które pomogą moderatorom zająć się tą sprawą.",
                 "reason_off_topic_label": "Off-topic",
                 "reason_off_topic_text": "Ten post nie pasuje do danej dyskusji i powinien być przeniesiony gdzieś indziej.",
-                "reason_other_label": "Inny",
+                "reason_other_label": "Inny (podaj poniżej)",
                 "reason_spam_label": "Spam",
-                "reason_spam_text": "Ten post to reklama, link do wirusa, nieodpowiednich treści lub wiadomość od bota.",
+                "reason_spam_text": "Ten post to reklama.",
                 "submit_button": "=> flarum-flags.ref.flag_post",
                 "title": "=> flarum-flags.ref.flag_post"
             },
@@ -40,7 +43,7 @@
             }
         },
         "ref": {
-            "flag_post": "Zgłoszony post",
+            "flag_post": "Zgłoś post",
             "flagged_posts": "Zgłoszone posty"
         }
     }

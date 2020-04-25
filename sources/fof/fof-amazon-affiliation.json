@@ -1,0 +1,20 @@
+{
+    "fof-amazon-affiliation": {
+        "admin": {
+            "settings": {
+                "title": {
+                    "modal": "Amazon Affiliation Settings",
+                    "tags": "Affiliate Tags"
+                },
+                "field": {
+                    "keep-existing-tag": "Keep Amazon Affiliate Tags from original links instead of replacing",
+                    "keep-existing-tag-help": "By default any existing tag in the original url is replaced by the tag you define below.",
+                    "remove-tag-if-unhandled": "Remove Amazon Affiliate Tags on Amazon links that aren't covered",
+                    "remove-tag-if-unhandled-help": "By default links that aren't covered are left as-it, including their tag if any.",
+                    "tag": "{name} (amazon.{domain})",
+                    "tag-placeholder": "Leave empty to not cover those links"
+                }
+            }
+        }
+    }
+}

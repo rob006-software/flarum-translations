@@ -9,6 +9,8 @@
  * with this source code in the file LICENSE.
  */
 
+declare(strict_types=1);
+
 return [
 	'dir' => __DIR__,
 	'sourcesDir' => __DIR__ . '/sources',
@@ -28,5 +30,7 @@ return [
 		'0.1.0-beta-8',
 		'0.1.0-beta.9',
 		'0.1.0-beta.10',
+		'0.1.0-beta.11',
+		'0.1.0-beta.12',
 	],
 ];

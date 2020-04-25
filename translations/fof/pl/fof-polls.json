@@ -2,50 +2,44 @@
     "fof-polls": {
         "admin": {
             "permissions": {
-                "moderate": "Kto może edytować i usuwać ankiety?",
-                "self_edit": "Kto może edytować swoje ankiety?",
-                "start": "Kto może tworzyć ankiety?",
-                "vote": "Kto może głosować w ankietach?"
+                "moderate": "Edytowanie i usuwanie ankiet",
+                "self_edit": "Edytowanie swoich własnych ankiet",
+                "start": "Tworzenie ankiet",
+                "vote": "Głosowanie w ankietach"
             }
         },
         "forum": {
-            "days_remaining": "Ankieta zakończy się {time}",
+            "days_remaining": "Ankieta zakończy się {time}.",
             "no_permission": "Nie masz uprawnień do głosowania",
-            "poll_ended": "Ta ankieta zakończyła się",
+            "poll_ended": "Ta ankieta zakończyła się.",
             "public_poll": "Zobacz głosujących",
             "composer_discussion": {
                 "add_poll": "Dodaj ankietę",
-                "edit_poll": "",
-                "edit": "=> reflar-polls.forum.moderation.edit"
+                "edit_poll": "=> fof-polls.forum.moderation.edit"
             },
             "modal": {
                 "add_title": "Dodaj ankietę",
-                "add_option_label": "",
-                "date_placeholder": "Data zakończenia ankiety (opcjonalnie)",
+                "add_option_label": "Dodaj opcję",
+                "date_placeholder": "Data zakończenia ankiety (niewymagane)",
                 "edit_title": "Edytuj ankietę",
-                "include_question": "Musisz dołączyć pytanie do ankiety",
-                "max": "Możesz mieć maksymalnie 10 odpowiedzi",
-                "min": "Musisz uwzględnić co najmniej 2 odpowiedzi",
-                "no_voters": "Brak Głosów",
-                "option_placeholder": "",
-                "options_label": "",
-                "public_poll_label": "",
+                "include_question": "Ankieta musi zawierać pytanie",
+                "max": "Możesz mieć maksymalnie 10 opcji",
+                "min": "Musisz uwzględnić co najmniej 2 opcje",
+                "no_voters": "Brak głosów",
+                "option_placeholder": "Odpowiedź",
+                "options_label": "Odpowiedzi",
+                "public_poll_label": "Pozwól użytkownikom zobaczyć, kto głosował",
                 "question_placeholder": "Pytanie",
-                "submit": "Potwierdź",
-                "switch": "Pozwól użytkownikom zobaczyć, kto głosował",
-                "answer_placeholder": "Odpowiedź",
-                "add": "Dodaj opcję",
-                "answers": "Odpowiedzi"
+                "submit": "Zatwierdź"
             },
             "moderation": {
                 "delete": "Usuń ankietę",
-                "delete_confirm": "Czy na pewno chcesz usunąć tę ankietę?",
+                "delete_confirm": "Czy jesteś pewien, że chcesz usunąć tę ankietę?",
                 "edit": "Edytuj ankietę"
             },
             "tooltip": {
                 "badge": "Ankieta",
-                "votes": "głosów",
-                "vote": "głosów"
+                "votes": "1 głos|{count} głosy|{count} głosów"
             },
             "votes_modal": {
                 "title": "Głosujący użytkownicy"
