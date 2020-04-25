@@ -2,56 +2,56 @@
     "askvortsov-moderator-warnings": {
         "admin": {
             "permissions": {
-                "manage_warnings": "",
-                "view_warnings": "",
-                "delete_warnings": ""
+                "manage_warnings": "Tworzenie oraz usuwanie ostrzeżeń",
+                "view_warnings": "Przeglądanie ostrzeżeń",
+                "delete_warnings": "Permanentne usuwanie ostrzeżeń"
             }
         },
         "forum": {
             "notifications": {
-                "warning_text": "",
-                "warning_no_strikes_text": ""
+                "warning_text": "Dostałeś ostrzeżenie i {strikes} punktów karnych od {mod_username}",
+                "warning_no_strikes_text": "Dostałeś ostrzeżenie bez punktów karnych od {mod_username}"
             },
             "post": {
-                "warning": "",
-                "warning_no_strikes": ""
+                "warning": "Ostrzeżenie i {strikes} punktów karnych od {mod_username}",
+                "warning_no_strikes": "Ostrzeżenie bez punktów karnych od {mod_username}"
             },
             "post_controls": {
-                "warning_button": ""
+                "warning_button": "Ostrzeż użytkownika"
             },
             "user": {
-                "warnings": ""
+                "warnings": "Ostrzeżenia"
             },
             "settings": {
-                "warning_notification_label": ""
+                "warning_notification_label": "Moderator dał mi ostrzeżenie"
             },
             "warning_controls": {
-                "delete_button": "",
-                "restore_button": "",
-                "delete_forever_button": ""
+                "delete_button": "Usuń",
+                "restore_button": "Przywróć",
+                "delete_forever_button": "Usuń permanentnie"
             },
             "warning_list": {
-                "add_button": "",
-                "no-warnings": "",
-                "warnings": "",
-                "warnings_no_strikes": ""
+                "add_button": "Nowe ostrzeżenie",
+                "no-warnings": "Wygląda na to, że nie ma tutaj żadnych ostrzeżeń.",
+                "warnings": "Ostrzeżenia: {strikes} punktów karnych",
+                "warnings_no_strikes": "Ostrzeżenia: bez punktów karnych"
             },
             "warning_list_item": {
-                "list_item_heading": "",
-                "list_item_heading_hidden": "",
-                "public_comment": "",
-                "private_comment": "",
-                "linked_post": ""
+                "list_item_heading": "Ostrzeżenie od <strong>{mod_username}</strong> i <strong>{strikes}</strong> punktów karnych",
+                "list_item_heading_hidden": "Ostrzeżenie od <strong>{mod_username}</strong> i <strong>{strikes}</strong> punktów karnych <strong>(usunięto)</strong>",
+                "public_comment": "Komentarz widoczny dla użytkownika",
+                "private_comment": "Komentarz widoczny dla moderatora",
+                "linked_post": "Powiązany post"
             },
             "warning_modal": {
-                "confirmation_message": "",
-                "dismiss_button": "",
-                "heading": "",
-                "strikes_heading": "",
-                "public_comment_heading": "",
-                "private_comment_heading": "",
-                "no_content_given": "",
-                "submit_button": ""
+                "confirmation_message": "Twoje ostrzeżenie zostało zapisane. Musisz odświeżyć stronę, aby je zobaczyć.",
+                "dismiss_button": "Gotowe",
+                "heading": "Ostrzeż <strong>{username}</strong>",
+                "strikes_heading": "Ile punktów karnych przydzielić?",
+                "public_comment_heading": "Czemu <strong>{username}</strong> otrzymuje to ostrzeżenie? Ten komentarz będzie widoczny dla użytkownika oraz innych moderatorów.",
+                "private_comment_heading": "Czemu <strong>{username}</strong> otrzymuje to ostrzeżenie? Ten komentarz będzie widoczny tylko dla innych moderatorów.",
+                "no_content_given": "Puste ostrzeżenia nie są dozwolone.",
+                "submit_button": "Zapisz ostrzeżenie"
             }
         }
     }
