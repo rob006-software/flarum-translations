@@ -16,6 +16,9 @@ return [
 	// do not remove this component - it is used as main component in this project
 	'core' => 'https://raw.githubusercontent.com/rob006-software/flarum-translations/master/placeholders/various.yml',
 	/* extensions list begin */
+	'aisiv-vipsee' => [
+		'tag' => 'https://raw.githubusercontent.com/aisiv/flarum-ext-vipsee/v1.0/resources/locale/en.yml',
+	],
 	'amaurycarrade-syndication' => [
 		'tag' => 'https://raw.githubusercontent.com/AmauryCarrade/flarum-ext-syndication/v0.3.1/resources/locale/en.yml',
 	],
