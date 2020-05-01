@@ -1,0 +1,34 @@
+{
+    "fof-discussion-language": {
+        "forum": {
+            "change_language": {
+                "edit_title": "Editing Language for {title}",
+                "title": "Editing Language",
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "composer_discussion": {
+                "choose_language_link": "Language"
+            },
+            "discussion_controls": {
+                "change_language_button": "Language"
+            },
+            "index_language": {
+                "any": "Any Language"
+            }
+        },
+        "admin": {
+            "settings": {
+                "title": "FriendsOfFlarum Discussion Language",
+                "native_label": "Use native language names"
+            },
+            "permissions": {
+                "allow_change_language_label": "Allow language editing"
+            }
+        },
+        "api": {
+            "discussion": {
+                "validation_error": "You must select your discussion's language."
+            }
+        }
+    }
+}
