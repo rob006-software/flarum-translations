@@ -3,7 +3,7 @@
         "admin": {
             "title": "Konfiguracja Auth Sync",
             "labels": {
-                "ignored_avatar": "",
+                "ignored_avatar": "Jeśli zwrócony awatar jest taki sam jak podany tutaj, nie zostanie ustawiony podczas synchronizacji. To ustawienie może być wykorzystane do ignorowania domyślnych awatarów.",
                 "stop_avatar_change": "Zablokuj użytkownikom zmianę swojego awatara z poziomu Flarum?",
                 "stop_bio_change": "Zablokuj użytkownikom zmianę swojego opisu w profilu z poziomu Flarum? Wymaga rozszerzenia <code>fof/user-bio</code>.",
                 "sync_avatar": "Synchronizuj awatar?",
