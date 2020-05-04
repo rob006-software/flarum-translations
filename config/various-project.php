@@ -62,7 +62,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-email-as-display-name/1.0.1/locale/en.yml',
 	],
 	'clarkwinkelmann-emojionearea' => [
-		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-emojionearea/0.2.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-emojionearea/0.2.2/locale/en.yml',
 	],
 	'clarkwinkelmann-passwordless' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-passwordless/1.0.3/resources/locale/en.yml',
