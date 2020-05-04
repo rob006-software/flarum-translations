@@ -25,7 +25,7 @@ return [
 	],
 	/* extensions list begin */
 	'flarum-akismet' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.12/locale/flarum-akismet.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.13/locale/flarum-akismet.yml',
 		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-akismet.yml',
 	],
 	'flarum-approval' => [
