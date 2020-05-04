@@ -17,7 +17,7 @@ return [
 	'core' => 'https://raw.githubusercontent.com/rob006-software/flarum-translations/master/placeholders/fof.yml',
 	/* extensions list begin */
 	'fof-amazon-affiliation' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/amazon-affiliation/0.2.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/amazon-affiliation/0.2.2/resources/locale/en.yml',
 	],
 	'fof-auth-discord' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/auth-discord/0.1.3/resources/locale/en.yml',
