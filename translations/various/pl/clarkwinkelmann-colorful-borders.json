@@ -5,32 +5,32 @@
             "default": "Domyślny",
             "apply": "Zastosuj",
             "reset": "Usuń niestandardowe style",
-            "borderColor": "Kolor ramki",
+            "borderColor": "Kolor obramowania",
             "backgroundColor": "Kolor tła",
             "textColor": "Kolor tekstu",
-            "borderWidth": "Szerokość ramki",
-            "borderRadius": "Promień ramki"
+            "borderWidth": "Grubość obramowania",
+            "borderRadius": "Zaokrąglenie obramowania"
         },
         "admin": {
             "permissions": {
                 "heading": "Kolorowe ramki",
-                "editOwnPost": "Edytuj własne style postów",
-                "editAnyPost": "Edytuj dowolne style postów"
+                "editOwnPost": "Edytowanie stylów własnych postów",
+                "editAnyPost": "Edytowanie stylów wszystkich postów"
             },
             "settings": {
                 "title": "Ustawienia kolorowych ramek",
                 "enableBorderColor": "Konfigurowalny kolor obramowania",
                 "enableBackgroundColor": "Konfigurowalny kolor tła",
                 "enableTextColor": "Konfigurowalny kolor tekstu",
-                "enableBorderWidth": "Konfigurowalna szerokość ramki",
-                "enableBorderRadius": "Konfigurowalny promień ramki",
+                "enableBorderWidth": "Konfigurowalna grubość obramowania",
+                "enableBorderRadius": "Konfigurowalne zaokrąglenie obramowania",
                 "min": "Minimum",
                 "max": "Maksimum",
                 "colors": {
                     "simple": "Prosty zestaw kolorów",
                     "all": "Dowolny kolor",
                     "custom": "Niestandardowa lista kolorów",
-                    "custom-help": "Rozdzielana przecinkami lista wartości #hex lub rgb ()"
+                    "custom-help": "Rozdzielona przecinkami lista wartości #hex lub rgb()"
                 }
             }
         }
