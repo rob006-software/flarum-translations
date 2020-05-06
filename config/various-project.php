@@ -133,6 +133,9 @@ return [
 	'flagrow-fonts' => [
 		'tag' => 'https://raw.githubusercontent.com/flagrow/fonts/0.2.0/resources/locale/en.yml',
 	],
+	'flagrow-impersonate' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/impersonate/0.4.0/resources/locale/en.yml',
+	],
 	'flagrow-mason' => [
 		'tag' => 'https://raw.githubusercontent.com/flagrow/mason/0.3.1/resources/locale/en.yml',
 	],
