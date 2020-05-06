@@ -161,7 +161,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-affiliation-links/0.2.0/resources/locale/en.yml',
 	],
 	'kilowhat-mailing' => [
-		'tag' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-mailing/0.2.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-mailing/0.2.3/resources/locale/en.yml',
 	],
 	'kvothe-keyboard-shortcuts' => [
 		'tag' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-keyboard-shortcuts/v0.1.0/resources/locale/en.yml',
