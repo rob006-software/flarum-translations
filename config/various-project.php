@@ -233,7 +233,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/doorman/0.1.5/resources/locale/en.yml',
 	],
 	'reflar-level-ranks' => [
-		'tag' => 'https://raw.githubusercontent.com/ReFlar/level-ranks/1.2.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/ReFlar/level-ranks/1.2.2/resources/locale/en.yml',
 	],
 	'reflar-twofactor' => [
 		'tag' => 'https://raw.githubusercontent.com/ReFlar/twofactor/0.1.3/resources/locale/en.yml',
