@@ -92,9 +92,9 @@
         },
         "api": {
             "upload_errors": {
-                "forbidden_type": "",
-                "unsupported_type": "",
-                "could_not_detect_mime": ""
+                "forbidden_type": "Przesyłanie plików tego typu jest niedozwolone.",
+                "unsupported_type": "Adapter przesyłania nie obsługuje podanego typu MIME: {mime}.",
+                "could_not_detect_mime": "Nie można wykryć typu MIME tego pliku, spróbuj ponownie."
             }
         }
     }
