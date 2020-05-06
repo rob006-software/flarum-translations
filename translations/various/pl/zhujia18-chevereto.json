@@ -2,20 +2,20 @@
     "jasper-chevereto": {
         "admin": {
             "permissions": {
-                "upload": "Prześlij Chevereto"
+                "upload": "Przesyłanie plików Chevereto"
             },
             "setting": {
-                "title": "Ustawienia przesyłania Chevereto",
-                "src": "Źródłowy adres URL wtyczki wyskakującej Chevereto (pup.js)",
-                "url": "Adres URL witryny docelowej Chevereto",
-                "auto-insert": "Osadzanie kodów do automatycznego wstawiania w docelowej edytowalnej treści",
+                "title": "Ustawienia przesyłania plików Chevereto",
+                "src": "Adres URL do pliku z wtyczką wyświetlającą okienko Chevereto (pup.js)",
+                "url": "Adres URL docelowego serwisu Chevereto",
+                "auto-insert": "BBCode  wykorzystywany do automatycznego osadzania obrazków w treści",
                 "lang": "Język"
             },
             "buttons": {
                 "save": "Zapisz ustawienia"
             },
             "AdminNav": {
-                "description": "Skonfiguruj rozszerzenie hostingu obrazu chevereto"
+                "description": "Skonfiguruj przesyłanie plików za pomocą Chevereto"
             }
         }
     }
