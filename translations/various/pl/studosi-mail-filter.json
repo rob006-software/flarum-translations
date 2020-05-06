@@ -2,53 +2,53 @@
     "studosi-mail-filter": {
         "admin": {
             "nav": {
-                "title": "",
-                "desc": ""
+                "title": "Filtr poczty",
+                "desc": "Zezwalaj i nie zezwalaj na rejestrację za pomocą określonych emaili"
             },
             "settings": {
                 "rule": {
-                    "name_placeholder": "",
+                    "name_placeholder": "Nazwa reguły",
                     "delete": {
-                        "question": "",
-                        "yes": "",
-                        "no": ""
+                        "question": "Czy na pewno chcesz usunąć regułę \"{rule_name}\"?",
+                        "yes": "Tak",
+                        "no": "Nie"
                     }
                 }
             },
             "whitelist": {
-                "label": "",
-                "desc": "",
-                "placeholder": ""
+                "label": "Biała lista",
+                "desc": "Dokładne emaile na białą listę",
+                "placeholder": "Email na białą listę..."
             },
             "whitelist_regex": {
-                "label": "",
-                "desc": "",
-                "placeholder": ""
+                "label": "Wyrażenia regularne na białej liście",
+                "desc": "Wyrażenia regularne wysyłaj pocztą elektroniczną na białą listę",
+                "placeholder": "Wyrażenie regularne na białej liście..."
             },
             "blacklist": {
-                "label": "",
-                "desc": "",
-                "placeholder": ""
+                "label": "Czarna lista",
+                "desc": "Dokładne emaile na czarną listę",
+                "placeholder": "Email na czarną listę..."
             },
             "blacklist_regex": {
-                "label": "",
-                "desc": "",
-                "placeholder": ""
+                "label": "Wyrażenia regularne na czarnej liście",
+                "desc": "Wyrażenia regularne wysyłaj pocztą elektroniczną na czarną listę",
+                "placeholder": "Wyrażenie regularne na czarnej liście..."
             },
             "import": {
-                "label": "",
-                "desc": "",
-                "button": ""
+                "label": "Importuj ustawienia",
+                "desc": "Importuj białe listy, czarne listy i wyrażenia regularne emaili.",
+                "button": "Importuj"
             },
             "error": {
-                "invalid_regex": ""
+                "invalid_regex": "Wyrażenie regularne, które próbujesz dodać, jest nieprawidłowe."
             }
         },
         "forum": {
             "error": {
-                "generic": "",
-                "blacklisted": "",
-                "not_whitelisted": ""
+                "generic": "Coś poszło nie tak. Skontaktuj się z administratorem.",
+                "blacklisted": "Ten email lub domena została znaleziona na czarnej liście.",
+                "not_whitelisted": "Ten email lub domena nie została znaleziona na białej liście."
             }
         }
     }
