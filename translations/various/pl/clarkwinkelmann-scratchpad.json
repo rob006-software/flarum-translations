@@ -2,51 +2,51 @@
     "clarkwinkelmann-scratchpad": {
         "admin": {
             "settings": {
-                "title": "",
-                "single-column": "",
-                "theme": "",
-                "indent": "",
-                "compile-automatically": ""
+                "title": "Ustawienia brudnopisu",
+                "single-column": "Grupuj edytory w jednej kolumnie zamiast 3",
+                "theme": "Motyw CodeMirror (należy odświeżyć, aby zadziałał)",
+                "indent": "Liczba spacji dla wcięcia",
+                "compile-automatically": "Kompiluj JS automatycznie po zapisaniu"
             },
             "controls": {
-                "refresh": "",
-                "save": "",
-                "compile": "",
-                "settings": "",
-                "new": "",
-                "new-confirmation": "",
-                "delete": "",
-                "delete-confirmation": "",
-                "enable": "",
-                "disable": ""
+                "refresh": "Odśwież",
+                "save": "Zapisz",
+                "compile": "Kompiluj JS",
+                "settings": "Ustawienia edytora",
+                "new": "Nowy",
+                "new-confirmation": "Bieżący brudnopis nie jest zapisany. Usunąć i utworzyć nowy?",
+                "delete": "Usuń",
+                "delete-confirmation": "Usunąć \"{title}\" ?",
+                "enable": "Kliknij, aby włączyć",
+                "disable": "Kliknij, aby wyłączyć"
             },
             "fields": {
-                "title": "",
-                "admin_js": "",
-                "forum_js": "",
+                "title": "Nazwa notatnika",
+                "admin_js": "Administrator JS",
+                "forum_js": "Forum JS",
                 "admin_less": "",
                 "forum_less": "",
-                "php": ""
+                "php": "PHP"
             },
             "placeholders": {
-                "untitled": "",
+                "untitled": "Bez nazwy",
                 "php-comment": "",
-                "js-log": ""
+                "js-log": "Cześć, {frontend}!"
             },
             "compilation-alert": {
-                "success": "",
-                "failure": "",
-                "view-output": ""
+                "success": "Skompilowano!",
+                "failure": "Niepowodzenie kompilacji!",
+                "view-output": "Wyświetl dane wyjściowe"
             },
             "compilation-modal": {
-                "title": "",
-                "webpack": "",
-                "npm": "",
-                "npm-not-run": ""
+                "title": "Dane wyjściowe kompilacji",
+                "webpack": "Wyjście Webpack",
+                "npm": "Wyjście NPM",
+                "npm-not-run": "NPM nie uruchomił się"
             },
             "menu": {
-                "title": "",
-                "description": ""
+                "title": "Brudnopis",
+                "description": "Łatwo przetestuj kod na swoim forum programistycznym"
             }
         }
     }
