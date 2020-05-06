@@ -2,32 +2,32 @@
     "fof-discussion-language": {
         "forum": {
             "change_language": {
-                "edit_title": "",
-                "title": "",
+                "edit_title": "Język edycji dla {title}",
+                "title": "Język edycji",
                 "submit_button": ""
             },
             "composer_discussion": {
-                "choose_language_link": ""
+                "choose_language_link": "Język"
             },
             "discussion_controls": {
-                "change_language_button": ""
+                "change_language_button": "Ustaw język"
             },
             "index_language": {
-                "any": ""
+                "any": "Dowolny język"
             }
         },
         "admin": {
             "settings": {
-                "title": "",
-                "native_label": ""
+                "title": "FriendsOfFlarum Język dyskusji",
+                "native_label": "Używaj nazw w języku ojczystym"
             },
             "permissions": {
-                "allow_change_language_label": ""
+                "allow_change_language_label": "Zezwalaj na edycję języka"
             }
         },
         "api": {
             "discussion": {
-                "validation_error": ""
+                "validation_error": "Musisz wybrać język dyskusji."
             }
         }
     }
