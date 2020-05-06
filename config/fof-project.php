@@ -79,6 +79,9 @@ return [
 	'fof-ignore-users' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ignore-users/0.1.5/resources/locale/en.yml',
 	],
+	'fof-impersonate' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/impersonate/0.4.0/resources/locale/en.yml',
+	],
 	'fof-linguist' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/linguist/0.4.2/resources/locale/en.yml',
 	],
