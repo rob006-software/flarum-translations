@@ -332,7 +332,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumRedis/v0.1.0-beta.8.1/locale/en.yaml',
 	],
 	'zhujia18-chevereto' => [
-		'tag' => 'https://raw.githubusercontent.com/zhujia18/flarum-chevereto/0.1.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/zhujia18/flarum-chevereto/0.1.2/resources/locale/en.yml',
 	],
 	'ziymed-backtowebsite' => [
 		'tag' => 'https://raw.githubusercontent.com/ziymed/BackToWebsite/0.1.0/locale/en.yml',
