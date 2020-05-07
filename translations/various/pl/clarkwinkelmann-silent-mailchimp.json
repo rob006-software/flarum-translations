@@ -3,13 +3,13 @@
         "admin": {
             "settings": {
                 "title": "Ustawienia Silent Mailchimp",
-                "api-key": "Klucz API",
-                "api-key-help": "Utwórz jedno z sekcji <a>Klucze API</a> w sekcji Konto > Dodatki.",
-                "list-id": "Lista ID",
-                "list-id-help": "Identyfikator można znaleźć na stronie <a>Odbiorcy</a>. Kliknij na listę, a następnie Ustawienia > Nazwa odbiorcy > Identyfikator odbiorcy.",
+                "api-key": "API Key",
+                "api-key-help": "Utwórz go w sekcji <a>API Keys</a> w zakładce Account > Extras.",
+                "list-id": "List ID",
+                "list-id-help": "Identyfikator można znaleźć na stronie <a>Audiences</a>. Kliknij na listę, a następnie Settings > Audience name > Audience ID.",
                 "when": "Kiedy dodać użytkownika do listy",
                 "when-options": {
-                    "activated": "Po aktywacji użytkownika",
+                    "activated": "Po aktywacji konta użytkownika",
                     "registered": "Po rejestracji użytkownika"
                 }
             }
