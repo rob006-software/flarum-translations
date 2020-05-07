@@ -2,14 +2,14 @@
     "studosi-mail-filter": {
         "admin": {
             "nav": {
-                "title": "Filtr poczty",
-                "desc": "Zezwalaj i nie zezwalaj na rejestrację za pomocą określonych emaili"
+                "title": "Filtrowanie adresów e-mail",
+                "desc": "Zezwalaj lub nie zezwalaj na rejestrację za pomocą określonych adresów e-mail"
             },
             "settings": {
                 "rule": {
                     "name_placeholder": "Nazwa reguły",
                     "delete": {
-                        "question": "Czy na pewno chcesz usunąć regułę \"{rule_name}\"?",
+                        "question": "Czy jesteś pewien, że chcesz usunąć regułę \"{rule_name}\"?",
                         "yes": "Tak",
                         "no": "Nie"
                     }
@@ -17,27 +17,27 @@
             },
             "whitelist": {
                 "label": "Biała lista",
-                "desc": "Dokładne emaile na białą listę",
-                "placeholder": "Email na białą listę..."
+                "desc": "Dozwolone adresy e-mail",
+                "placeholder": "Dokładny adres e-mail..."
             },
             "whitelist_regex": {
                 "label": "Wyrażenia regularne na białej liście",
-                "desc": "Wyrażenia regularne wysyłaj pocztą elektroniczną na białą listę",
-                "placeholder": "Wyrażenie regularne na białej liście..."
+                "desc": "Wyrażenia regularne dla dozwolonych adresów e-mail",
+                "placeholder": "Wyrażenie regularne..."
             },
             "blacklist": {
                 "label": "Czarna lista",
-                "desc": "Dokładne emaile na czarną listę",
-                "placeholder": "Email na czarną listę..."
+                "desc": "Niedozwolone adresy e-mail",
+                "placeholder": "Dokładny adres e-mail..."
             },
             "blacklist_regex": {
                 "label": "Wyrażenia regularne na czarnej liście",
-                "desc": "Wyrażenia regularne wysyłaj pocztą elektroniczną na czarną listę",
-                "placeholder": "Wyrażenie regularne na czarnej liście..."
+                "desc": "Wyrażenia regularne dla niedozwolonych adresów e-mail",
+                "placeholder": "Wyrażenie regularne..."
             },
             "import": {
                 "label": "Importuj ustawienia",
-                "desc": "Importuj białe listy, czarne listy i wyrażenia regularne emaili.",
+                "desc": "Importuj białą oraz czarną listę adresów e-mail oraz wyrażeń regularnych.",
                 "button": "Importuj"
             },
             "error": {
@@ -47,8 +47,8 @@
         "forum": {
             "error": {
                 "generic": "Coś poszło nie tak. Skontaktuj się z administratorem.",
-                "blacklisted": "Ten email lub domena została znaleziona na czarnej liście.",
-                "not_whitelisted": "Ten email lub domena nie została znaleziona na białej liście."
+                "blacklisted": "Ten adres e-mail lub jego domena znajduje się na liście niedozwolonych adresów/domen.",
+                "not_whitelisted": "Ten adres e-mail lub jego domena nie znajduje się na liście dozwolonych adresów/domen."
             }
         }
     }
