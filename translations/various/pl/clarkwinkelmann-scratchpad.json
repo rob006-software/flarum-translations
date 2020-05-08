@@ -2,9 +2,9 @@
     "clarkwinkelmann-scratchpad": {
         "admin": {
             "settings": {
-                "title": "Ustawienia brudnopisu",
+                "title": "Ustawienia notatnika",
                 "single-column": "Grupuj edytory w jednej kolumnie zamiast 3",
-                "theme": "Motyw CodeMirror (należy odświeżyć, aby zadziałał)",
+                "theme": "Motyw CodeMirror (wymaga odświeżenia strony po zmianie)",
                 "indent": "Liczba spacji dla wcięcia",
                 "compile-automatically": "Kompiluj JS automatycznie po zapisaniu"
             },
@@ -14,23 +14,23 @@
                 "compile": "Kompiluj JS",
                 "settings": "Ustawienia edytora",
                 "new": "Nowy",
-                "new-confirmation": "Bieżący brudnopis nie jest zapisany. Usunąć i utworzyć nowy?",
+                "new-confirmation": "Bieżący notatnik nie jest zapisany. Porzucić zmiany i utworzyć nowy?",
                 "delete": "Usuń",
-                "delete-confirmation": "Usunąć \"{title}\" ?",
+                "delete-confirmation": "Usunąć \"{title}\"?",
                 "enable": "Kliknij, aby włączyć",
                 "disable": "Kliknij, aby wyłączyć"
             },
             "fields": {
                 "title": "Nazwa notatnika",
-                "admin_js": "Administrator JS",
-                "forum_js": "Forum JS",
-                "admin_less": "Administrator mniej",
-                "forum_less": "Forum mniej",
+                "admin_js": "JS panelu admina",
+                "forum_js": "JS forum",
+                "admin_less": "Less panelu admina",
+                "forum_less": "Less forum",
                 "php": "PHP"
             },
             "placeholders": {
                 "untitled": "Bez nazwy",
-                "php-comment": "Zarejestruj przedłużacze tutaj",
+                "php-comment": "Zarejestruj rozszerzenia (extenders) tutaj",
                 "js-log": "Cześć, {frontend}!"
             },
             "compilation-alert": {
@@ -45,8 +45,8 @@
                 "npm-not-run": "NPM nie uruchomił się"
             },
             "menu": {
-                "title": "Brudnopis",
-                "description": "Łatwo przetestuj kod na swoim forum programistycznym"
+                "title": "Notatnik",
+                "description": "Z łatwością testuj kod na swoim forum developerskim"
             }
         }
     }
