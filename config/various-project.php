@@ -316,9 +316,6 @@ return [
 	'xmugenx-post-blacklist' => [
 		'tag' => 'https://raw.githubusercontent.com/xmugenx/flarum-ext-post-blacklist/0.1.4/resources/locale/en.yml',
 	],
-	'zerosonesfun-announce' => [
-		'tag' => 'https://raw.githubusercontent.com/zerosonesfun/announce/1.3/resources/locale/en.yml',
-	],
 	'zhishiq-pusher' => [
 		'tag' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumPusher/v0.1.0-beta.8.1/locale/en.yaml',
 	],
