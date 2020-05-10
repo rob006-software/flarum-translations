@@ -302,7 +302,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/tpokorra/flarum-ext-post-notification/0.3.7-beta.12/resources/locale/en.yml',
 	],
 	'v17development-seo' => [
-		'tag' => 'https://raw.githubusercontent.com/v17development/flarum-seo/1.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/v17development/flarum-seo/1.2/locale/en.yml',
 	],
 	'veriael-markdown' => [
 		'tag' => 'https://raw.githubusercontent.com/Veriael/markdown/v1.0.2.1/resources/locale/en.yml',
