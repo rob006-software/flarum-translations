@@ -1,37 +1,37 @@
 {
     "flarumite-decontaminator": {
         "admin": {
-            "delete_rule_confirmation": "",
+            "delete_rule_confirmation": "Jesteś pewien?",
             "edit_rule": {
-                "applywhen_label": "",
-                "applywhen_help": "",
-                "delete_confirmation": "",
-                "flag_label": "",
-                "flag_help": "",
-                "name_label": "",
-                "name_help": "",
-                "regex_label": "",
+                "applywhen_label": "Zastosuj kiedy",
+                "applywhen_help": "Domyślnie, 'zapisując post\" powinien być zaznaczony. 'Ładowanie postu' powinno być stosowane oszczędnie i tylko w scenariuszu z potrzebami.",
+                "delete_confirmation": "Czy na pewno chcesz to usunąć?",
+                "flag_label": "Flaga",
+                "flag_help": "Jeśli zostanie znalezione dopasowanie, a Flarum/flagi są włączone, post zostanie oznaczony do sprawdzenia przez moderatora.",
+                "name_label": "Nazwa",
+                "name_help": "Nazwa została nadana tej regule. Będzie również wyświetlana na granicy flagi, jeśli flagowanie jest włączone.",
+                "regex_label": "Regex",
                 "regex_help": "",
-                "replacement_label": "",
-                "replacement_help": "",
-                "delete_button": "",
-                "submit_button": "",
-                "title": "",
+                "replacement_label": "Zastąpienie",
+                "replacement_help": "Jeśli dopasowanie zostanie znalezione, zamień na ten tekst. Pozostaw puste, aby nie zastępować.",
+                "delete_button": "Usuń",
+                "submit_button": "Zapisz zmiany",
+                "title": "Utwórz/edytuj regułę [BRAK]",
                 "action": {
-                    "save": "",
+                    "save": "Zapisywanie posta",
                     "load": ""
                 }
             },
             "decontaminator": {
-                "about_text": "",
-                "create_button": ""
+                "about_text": "Twórz i zarządzaj regułami filtrów.",
+                "create_button": "Stwórz"
             },
             "list": {
-                "empty_text": "",
-                "title": ""
+                "empty_text": "Wygląda na to, że nie ma tutaj żadnych reguł.",
+                "title": "Lista reguł zakazujących wulgaryzmów"
             },
             "permissions": {
-                "bypass-filter": ""
+                "bypass-filter": "Zasady obejścia reguł zdefiniowane w [decontaminator]"
             }
         }
     }
