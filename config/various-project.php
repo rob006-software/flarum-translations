@@ -160,6 +160,9 @@ return [
 	'irony-webhook' => [
 		'tag' => 'https://raw.githubusercontent.com/892768447/flarum-ext-webhook/0.0.2/resources/locale/en.yml',
 	],
+	'itnt-uitab' => [
+		'tag' => 'https://raw.githubusercontent.com/Littlegolden/flarum-uitab/v0.2.0/resources/locale/en.yml',
+	],
 	'kilowhat-affiliation-links' => [
 		'tag' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-affiliation-links/0.2.0/resources/locale/en.yml',
 	],
