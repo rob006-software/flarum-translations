@@ -277,6 +277,9 @@ return [
 	'the-turk-edit-notifications' => [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-edit-notifications/0.1.5/locale/en.yml',
 	],
+	'the-turk-extended-appearance' => [
+		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-extended-appearance/0.1.0/locale/en.yml',
+	],
 	'the-turk-mathren' => [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-mathren/0.2.7/locale/en.yml',
 	],
