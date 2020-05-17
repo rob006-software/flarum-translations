@@ -2,15 +2,15 @@
     "itnt-uitab": {
         "admin": {
             "settings": {
-                "requirement": "",
-                "title": "",
-                "tags_title": "",
-                "help_text": "",
-                "home_page_label": "",
-                "tags_page_label": "",
-                "create_page_label": "",
-                "settings_page_label": "",
-                "notifications_page_label": ""
+                "requirement": "Aby działać prawidłowo, rozszerzenie UI Tab musi być włączone po rozszerzeniu <code>flagrow/direct-links</code>",
+                "title": "Ustawienia UI Tab",
+                "tags_title": "Ustawienia podkatalogu",
+                "help_text": "Jeśli twoje Flarum jest zainstalowane w podkatalogu, poprzedź ścieżki poniżej nazwą tego katalogu, na przykład: <code>/ → /forum</code>, <code>/tags → /forum/tags</code>. W przeciwnym razie pozostaw domyślne wartości.",
+                "home_page_label": "Strona główna",
+                "tags_page_label": "Lista tagów",
+                "create_page_label": "Utwórz",
+                "settings_page_label": "Ustawienia",
+                "notifications_page_label": "Powiadomienia"
             }
         }
     }
