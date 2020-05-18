@@ -9,11 +9,11 @@
         },
         "forum": {
             "notifications": {
-                "warning_text": "You were warned with {strikes} strikes by {mod_username}",
+                "warning_text": "You were warned with {strikes} strike by {mod_username}|You were warned with {strikes} strikes by {mod_username}",
                 "warning_no_strikes_text": "You were warned by {mod_username} (no strikes)"
             },
             "post": {
-                "warning": "Warned with {strikes} strikes by {mod_username}",
+                "warning": "Warned with {strikes} strike by {mod_username}|Warned with {strikes} strikes by {mod_username}",
                 "warning_no_strikes": "Warned with no strikes by {mod_username}"
             },
             "post_controls": {
@@ -33,12 +33,12 @@
             "warning_list": {
                 "add_button": "New warning",
                 "no-warnings": "It looks like there are no warnings here.",
-                "warnings": "Moderator Warnings: {strikes} Strikes Received",
+                "warnings": "Moderator Warnings: {strikes} Strike Received|Moderator Warnings: {strikes} Strikes Received",
                 "warnings_no_strikes": "Moderator Warnings: No Strikes Received"
             },
             "warning_list_item": {
-                "list_item_heading": "<strong>{mod_username}</strong> warned with <strong>{strikes}</strong> strikes",
-                "list_item_heading_hidden": "<strong>{mod_username}</strong> warned with <strong>{strikes}</strong> strikes <strong>(removed)</strong>",
+                "list_item_heading": "<strong>{mod_username}</strong> warned with <strong>{strikes}</strong> strike|<strong>{mod_username}</strong> warned with <strong>{strikes}</strong> strikes",
+                "list_item_heading_hidden": "<strong>{mod_username}</strong> warned with <strong>{strikes}</strong> strike <strong>(removed)</strong>|<strong>{mod_username}</strong> warned with <strong>{strikes}</strong> strikes <strong>(removed)</strong>",
                 "public_comment": "User-Visible Comments",
                 "private_comment": "Moderator-Visible Comments",
                 "linked_post": "Linked Post"
