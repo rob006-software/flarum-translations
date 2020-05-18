@@ -26,7 +26,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-online/0.4.0/locale/en.yml',
 	],
 	'askvortsov-auth-sync' => [
-		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-auth-sync/v1.0.5/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-auth-sync/v1.0.6/resources/locale/en.yml',
 	],
 	'askvortsov-categories' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-categories/v0.2.7/resources/locale/en.yml',
