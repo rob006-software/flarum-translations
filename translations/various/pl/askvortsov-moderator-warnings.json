@@ -9,11 +9,11 @@
         },
         "forum": {
             "notifications": {
-                "warning_text": "Dostałeś ostrzeżenie i {strikes} punktów karnych od {mod_username}",
+                "warning_text": "Dostałeś ostrzeżenie i {strikes} punkt karny od {mod_username}|Dostałeś ostrzeżenie i {strikes} punkty karne od {mod_username}|Dostałeś ostrzeżenie i {strikes} punktów karnych od {mod_username}",
                 "warning_no_strikes_text": "Dostałeś ostrzeżenie bez punktów karnych od {mod_username}"
             },
             "post": {
-                "warning": "Ostrzeżenie i {strikes} punktów karnych od {mod_username}",
+                "warning": "Ostrzeżenie i {strikes} punkt karny od {mod_username}|Ostrzeżenie i {strikes} punkty karne od {mod_username}|Ostrzeżenie i {strikes} punktów karnych od {mod_username}",
                 "warning_no_strikes": "Ostrzeżenie bez punktów karnych od {mod_username}"
             },
             "post_controls": {
@@ -33,12 +33,12 @@
             "warning_list": {
                 "add_button": "Nowe ostrzeżenie",
                 "no-warnings": "Wygląda na to, że nie ma tutaj żadnych ostrzeżeń.",
-                "warnings": "Ostrzeżenia: {strikes} punktów karnych",
+                "warnings": "Ostrzeżenia: {strikes} punkt karny|Ostrzeżenia: {strikes} punkty karne|Ostrzeżenia: {strikes} punktów karnych",
                 "warnings_no_strikes": "Ostrzeżenia: bez punktów karnych"
             },
             "warning_list_item": {
-                "list_item_heading": "Ostrzeżenie od <strong>{mod_username}</strong> i <strong>{strikes}</strong> punktów karnych",
-                "list_item_heading_hidden": "Ostrzeżenie od <strong>{mod_username}</strong> i <strong>{strikes}</strong> punktów karnych <strong>(usunięto)</strong>",
+                "list_item_heading": "Ostrzeżenie od <strong>{mod_username}</strong> i <strong>{strikes}</strong> punkt karny|Ostrzeżenie od <strong>{mod_username}</strong> i <strong>{strikes}</strong> punkty karne|Ostrzeżenie od <strong>{mod_username}</strong> i <strong>{strikes}</strong> punktów karnych",
+                "list_item_heading_hidden": "Ostrzeżenie od <strong>{mod_username}</strong> i <strong>{strikes}</strong> punkt karny <strong>(usunięto)</strong>|Ostrzeżenie od <strong>{mod_username}</strong> i <strong>{strikes}</strong> punkty karne <strong>(usunięto)</strong>|Ostrzeżenie od <strong>{mod_username}</strong> i <strong>{strikes}</strong> punktów karnych <strong>(usunięto)</strong>",
                 "public_comment": "Komentarz widoczny dla użytkownika",
                 "private_comment": "Komentarz widoczny dla moderatora",
                 "linked_post": "Powiązany post"
