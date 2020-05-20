@@ -22,10 +22,10 @@
                     "user_username": "Pole użytkownika LDAP z nazwą użytkownika",
                     "domain_controllers": "Domeny LDAP (rozdzielone przecinkami)"
                 },
-                "follow_referrals": "Podążaj za odwołaniami (follow referrals)",
+                "follow_referrals": "Podążaj za odwołaniami podczas uwierzytelniania przez serwer LDAP",
                 "use_ssl": "Użyj SSL",
                 "use_tls": "Użyj TLS",
-                "onlyUse": "Wyłącz standardowe logowanie Flarum i używaj jednie uwierzytelniania za pomocą LDAP",
+                "onlyUse": "Ukryj standardowe logowanie Flarum i używaj jedynie uwierzytelniania za pomocą LDAP",
                 "use_admin": "Połącz z kontem administratora LDAP"
             }
         }
