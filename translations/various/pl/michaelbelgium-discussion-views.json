@@ -10,29 +10,29 @@
     "michaelbelgium-discussion-views": {
         "forum": {
             "modal_resetviews": {
-                "title": "",
-                "submit_button": "",
-                "label": ""
+                "title": "Zresetuj liczbę wyświetleń dyskusji",
+                "submit_button": "Tak, usuń wszystkie",
+                "label": "Czy jesteś pewien, że chcesz usunąć {count} wyświetlenie tej dyskusji?|Czy jesteś pewien, że chcesz usunąć {count} wyświetlenia tej dyskusji?|Czy jesteś pewien, że chcesz usunąć {count} wyświetleń tej dyskusji?"
             },
             "discussion_controls": {
-                "resetviews_button": ""
+                "resetviews_button": "Zresetuj wyświetlenia"
             },
             "viewlist": {
-                "title": ""
+                "title": "Ostatnio oglądający"
             }
         },
         "admin": {
             "permissions": {
-                "reset_views_label": "",
-                "view_number_label": ""
+                "reset_views_label": "Resetowanie liczby wyświetleń",
+                "view_number_label": "Dostęp do liczby wyświetleń"
             },
             "settings": {
-                "title": "",
-                "track_unique_label": "",
-                "abbr_numbers_label": "",
-                "show_filter_label": "",
-                "max_viewcount_label": "",
-                "show_viewlist_label": ""
+                "title": "Ustawienia liczby wyświetleń dyskusji",
+                "track_unique_label": "Zliczaj unikalne wyświetlania",
+                "abbr_numbers_label": "Skróć liczbę wyświetleń (\"1k\" zamiast \"1000\")",
+                "show_filter_label": "Włącz sortowanie dyskusji na podstawie liczby wyświetleń",
+                "max_viewcount_label": "Liczba ostatnio oglądających wyświetlanych na liście",
+                "show_viewlist_label": "Włącz listę ostatnio oglądających"
             }
         }
     },
