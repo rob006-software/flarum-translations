@@ -1,0 +1,30 @@
+{
+    "flarum-suspend": {
+        "admin": {
+            "permissions": {
+                "suspend_users_label": "封禁用户"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "user_suspended_text": "{username} 将你封禁了 {timeReadable}",
+                "user_unsuspended_text": "{username} 已将你解封"
+            },
+            "suspend_user": {
+                "indefinitely_label": "永久封禁",
+                "limited_time_label": "自定义封禁时间",
+                "limited_time_days_text": " 天",
+                "not_suspended_label": "不封禁",
+                "status_heading": "封禁状态",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "{username} 已被封禁"
+            },
+            "user_badge": {
+                "suspended_tooltip": "封禁中"
+            },
+            "user_controls": {
+                "suspend_button": "封禁用户"
+            }
+        }
+    }
+}
