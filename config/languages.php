@@ -35,7 +35,7 @@ return (static function () {
 				'core', // this is only a placeholder component - no need to translate it
 			]),
 		],
-		'zh-hans' => [
+		'zh_Hans' => [
 			'flarum' => $getProjectComponents('flarum'),
 			'fof' => $getProjectComponents('fof', [
 				'core', // this is only a placeholder component - no need to translate it
