@@ -1,0 +1,27 @@
+{
+    "antoinefr-money": {
+        "admin": {
+            "settings": {
+                "title": "设置",
+                "moneyforpost": "回帖一次可获得",
+                "moneyfordiscussion": "发一次主题贴可获得",
+                "moneyname": "货币名称（例如： [money] 元）",
+                "postminimumlength": "可获得奖励的最少回帖字数（0 表示不限制）",
+                "noshowzero": "若值为 0 则不显示"
+            },
+            "permissions": {
+                "edit_money_label": "修改资产"
+            }
+        },
+        "forum": {
+            "user_controls": {
+                "money_button": "修改资产"
+            },
+            "modal": {
+                "title": "{username} 的资产",
+                "current": "目前：",
+                "submit_button": "=> core.ref.save_changes"
+            }
+        }
+    }
+}

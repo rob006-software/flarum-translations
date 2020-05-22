@@ -35,5 +35,14 @@ return (static function () {
 				'core', // this is only a placeholder component - no need to translate it
 			]),
 		],
+		'zh-hans' => [
+			'flarum' => $getProjectComponents('flarum'),
+			'fof' => $getProjectComponents('fof', [
+				'core', // this is only a placeholder component - no need to translate it
+			]),
+			'various' => $getProjectComponents('various', [
+				'core', // this is only a placeholder component - no need to translate it
+			]),
+		],
 	];
 })();

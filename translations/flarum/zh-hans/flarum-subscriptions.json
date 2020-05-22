@@ -1,0 +1,41 @@
+{
+    "flarum-subscriptions": {
+        "forum": {
+            "badge": {
+                "following_tooltip": "=> flarum-subscriptions.ref.following",
+                "ignoring_tooltip": "=> flarum-subscriptions.ref.ignoring"
+            },
+            "discussion_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "unfollow_button": "取消关注",
+                "unignore_button": "取消忽视"
+            },
+            "index": {
+                "following_link": "我的关注"
+            },
+            "notifications": {
+                "new_post_text": "{username} 回复了你关注的主题"
+            },
+            "settings": {
+                "follow_after_reply_label": "自动关注我回复的主题",
+                "notify_new_post_label": "我关注的主题有新回复"
+            },
+            "sub_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "following_button": "=> flarum-subscriptions.ref.following",
+                "following_text": "当有人回复此主题时通知我",
+                "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
+                "ignoring_text": "不接收任何通知并从主题列表中隐藏此主题。",
+                "not_following_button": "不关注",
+                "not_following_text": "仅当有人提到我时通知我",
+                "notify_alert_tooltip": "有新回复时通知提醒",
+                "notify_email_tooltip": "有新回复时发送邮件"
+            }
+        },
+        "ref": {
+            "follow": "关注",
+            "following": "关注中",
+            "ignoring": "忽视中"
+        }
+    }
+}
