@@ -1,0 +1,25 @@
+{
+    "flarum-approval": {
+        "admin": {
+            "permissions": {
+                "approve_posts_label": "审核主题",
+                "reply_without_approval_label": "回复无需审核",
+                "start_discussions_without_approval_label": "发布主题无需审核"
+            }
+        },
+        "forum": {
+            "badge": {
+                "awaiting_approval_tooltip": "=> flarum-approval.ref.awaiting_approval"
+            },
+            "post": {
+                "awaiting_approval_text": "=> flarum-approval.ref.awaiting_approval"
+            },
+            "post_controls": {
+                "approve_button": "通过审核"
+            }
+        },
+        "ref": {
+            "awaiting_approval": "审核中"
+        }
+    }
+}
