@@ -3,6 +3,8 @@
         "admin": {
             "generator": {
                 "title": "生成虚假数据",
+                "bulk-mode": "",
+                "bulk-mode-description": "",
                 "user-count": "修改用户数",
                 "discussion-count": "修改主题数",
                 "post-count": "修改回复数",
@@ -15,6 +17,8 @@
             },
             "generator": {
                 "title": "生成虚假回复",
+                "bulk-mode": "",
+                "bulk-mode-description": "",
                 "user-count": "修改用户数",
                 "post-count": "修改回复数",
                 "send": "生成数据"
@@ -23,6 +27,14 @@
         "api": {
             "no-users-matched": "用户不存在",
             "no-discussions-matched": "主题不存在"
+        },
+        "ref": {
+            "bulk-mode": "",
+            "bulk-mode-description": "",
+            "user-count": "",
+            "discussion-count": "",
+            "post-count": "",
+            "send": ""
         }
     }
 }

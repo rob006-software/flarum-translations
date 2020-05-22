@@ -30,20 +30,12 @@
                     "toggle": "停用"
                 },
                 "imgur": {
-                    "title": "Imgur 图片存储设置",
-                    "client_id": "Imgur 客户ID"
+                    "client_id": "Imgur 客户ID",
+                    "title": "Imgur 图片存储设置"
                 },
                 "local": {
                     "cdn_url": "OSS 外链域名 / CDN 域名（含 http/https）",
                     "title": "本地、OSS 存储设置"
-                },
-                "ovh-svfs": {
-                    "title": "OVH SVFS 存储设置",
-                    "container": "容器",
-                    "tenantid": "租户ID",
-                    "username": "用户名",
-                    "password": "密码",
-                    "region": "区域"
                 },
                 "qiniu": {
                     "title": "七牛存储设置（需要先安装 composer require overtrue/flysystem-qiniu）",
@@ -57,9 +49,9 @@
                     "title": "偏好设置"
                 },
                 "resize": {
+                    "max_width": "最大图片宽度",
                     "title": "图片缩放功能",
                     "toggle": "开启缩放",
-                    "max_width": "最大图片宽度",
                     "max_height": "最大图片高度"
                 },
                 "watermark": {
@@ -67,6 +59,14 @@
                     "position": "水印位置",
                     "title": "图片水印功能",
                     "toggle": "开启水印"
+                },
+                "ovh-svfs": {
+                    "title": "OVH SVFS 存储设置",
+                    "container": "容器",
+                    "tenantid": "租户ID",
+                    "username": "用户名",
+                    "password": "密码",
+                    "region": "区域"
                 }
             },
             "permissions": {
@@ -94,10 +94,17 @@
                 "attach": "添加附件"
             },
             "states": {
-                "loading": "加载中",
-                "success": "成功",
                 "error": "错误",
-                "unauthorized": "您没有下载权限"
+                "loading": "加载中",
+                "unauthorized": "您没有下载权限",
+                "success": "成功"
+            }
+        },
+        "api": {
+            "upload_errors": {
+                "forbidden_type": "",
+                "unsupported_type": "",
+                "could_not_detect_mime": ""
             }
         }
     }

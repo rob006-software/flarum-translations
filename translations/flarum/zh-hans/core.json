@@ -31,6 +31,8 @@
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "默认语言",
+                "display_name_heading": "",
+                "display_name_text": "",
                 "forum_description_heading": "论坛描述",
                 "forum_description_text": "输入一两句话简单介绍您的论坛。这将会显示为 <meta name=\"description\"> 描述标签，一般为 160 字的文本，用于介绍网页的内容。平常多被搜索引擎截取网页简介用。",
                 "forum_title_heading": "论坛名称",
@@ -105,13 +107,6 @@
                 "settings_button": "=> core.ref.settings",
                 "uninstall_button": "卸载"
             },
-            "advanced": {
-                "help_text": "请注意这些设置仅适用于高级用户",
-                "heading_security": "安全设置",
-                "post_flood_interval": "发送多个帖子之间的等待时间",
-                "post_flood_interval_text": "配置用户在创建另一条帖子之前必须等待的时间（以秒为单位）",
-                "enter_positive_number": "请输入一个正数"
-            },
             "header": {
                 "log_out_button": "=> core.ref.log_out"
             },
@@ -129,10 +124,10 @@
                 "email_text": "配置论坛邮箱服务",
                 "extensions_button": "插件",
                 "extensions_text": "为您的论坛添加插件扩展",
-                "advanced_button": "高级",
-                "advanced_text": "配置专门针对高级用户的设置。",
                 "permissions_button": "权限",
-                "permissions_text": "设置各用户组访问及操作权限"
+                "permissions_text": "设置各用户组访问及操作权限",
+                "advanced_button": "高级",
+                "advanced_text": "配置专门针对高级用户的设置。"
             },
             "permissions": {
                 "allow_post_editing_label": "编辑帖子内容",
@@ -176,12 +171,19 @@
             "upload_image": {
                 "remove_button": "=> core.ref.remove",
                 "upload_button": "选择图片..."
+            },
+            "advanced": {
+                "help_text": "请注意这些设置仅适用于高级用户",
+                "heading_security": "安全设置",
+                "post_flood_interval": "发送多个帖子之间的等待时间",
+                "post_flood_interval_text": "配置用户在创建另一条帖子之前必须等待的时间（以秒为单位）",
+                "enter_positive_number": "请输入一个正数"
             }
         },
         "forum": {
             "change_email": {
-                "confirmation_message": "=> core.ref.confirmation_email_sent",
                 "confirm_password_placeholder": "=> core.ref.confirm_password",
+                "confirmation_message": "=> core.ref.confirmation_email_sent",
                 "dismiss_button": "=> core.ref.okay",
                 "incorrect_password_message": "您输入的密码有误！",
                 "submit_button": "=> core.ref.save_changes",
@@ -328,8 +330,8 @@
                 "time_lapsed_text": "{period} 后"
             },
             "rename_discussion": {
-                "title": "更改主题标题",
-                "submit_button": "=> core.ref.rename"
+                "submit_button": "=> core.ref.rename",
+                "title": "更改主题标题"
             },
             "search": {
                 "all_discussions_button": "搜索“{query}”",
@@ -349,8 +351,8 @@
                 "title": "=> core.ref.settings"
             },
             "sign_up": {
-                "email_placeholder": "=> core.ref.email",
                 "dismiss_button": "=> core.ref.okay",
+                "email_placeholder": "=> core.ref.email",
                 "log_in_text": "已有帐户？ <a>登录</a>",
                 "password_placeholder": "=> core.ref.password",
                 "submit_button": "=> core.ref.sign_up",
@@ -397,8 +399,8 @@
             },
             "number_suffix": {
                 "kilo_text": "千",
-                "ten_kilo_text": "万",
-                "mega_text": "百万"
+                "mega_text": "百万",
+                "ten_kilo_text": "万"
             },
             "series": {
                 "glue_text": "，",
@@ -479,7 +481,7 @@
             "discussions": "主题",
             "edit": "编辑",
             "email": "邮箱",
-            "icon_label": "图标",
+            "icon": "",
             "icon_text": "输入任意一个 <a>Font Awesome</a> 图标名称，<strong>包括</strong>前缀 <code>fas fa-</code>",
             "load_more": "加载更多",
             "log_in": "登录",
@@ -490,8 +492,8 @@
             "okay": "确定",
             "password": "密码",
             "posts": "回复",
-            "remove": "移除",
             "previous_page": "上一页",
+            "remove": "移除",
             "rename": "重命名",
             "reply": "回复",
             "reset_your_password": "重置密码",
@@ -504,7 +506,8 @@
             "username": "用户名",
             "users": "用户",
             "write_a_reply": "说点什么吧...",
-            "you": "你"
+            "you": "你",
+            "icon_label": "图标"
         },
         "group": {
             "admin": "管理员",
