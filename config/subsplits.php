@@ -23,4 +23,12 @@ return [
 		'branch' => 'master',
 		'path' => '/locale',
 	],
+	'zh_Hans' => [
+		'type' => 'language',
+		'language' => 'zh_Hans',
+		'updateReadme' => true,
+		'repository' => 'git@github.com:Littlegolden/flarum-lang-simplified-chinese.git',
+		'branch' => 'master',
+		'path' => '/locale',
+	],
 ];
