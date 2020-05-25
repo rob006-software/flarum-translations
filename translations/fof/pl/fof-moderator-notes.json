@@ -8,14 +8,15 @@
         },
         "forum": {
             "moderatorNotes": {
+                "created_text": "",
                 "add_button": "Nowa notatka",
-                "confirmation_message": "Twoja notatka została zapisana. Musisz odświeżyć stronę, aby ją zobaczyć.",
                 "create-heading": "Utwórz nową notatkę dla moderatorów",
                 "dismiss_button": "Gotowe",
                 "input_heading": "Wpisz notatki dotyczące <strong>{username}</strong>",
                 "no_content_given": "Puste notatki nie są dozwolone.",
                 "noNotes": "Wygląda na to, że nie ma tutaj żadnych notatek.",
-                "submit_button": "Zapisz notatkę"
+                "submit_button": "Zapisz notatkę",
+                "confirmation_message": "Twoja notatka została zapisana. Musisz odświeżyć stronę, aby ją zobaczyć."
             },
             "user": {
                 "notes": "Notatki moderatorów"
@@ -23,7 +24,8 @@
         },
         "api": {
             "auto-note": "Użyłem FoF Impersonate aby przełączyć się na tego użytkownika",
-            "auto-note-actor": "Użyto FoF Impersonate aby przełączyć się na konto \"username\""
+            "auto-note-actor": "Użyto FoF Impersonate aby przełączyć się na konto \"username\"",
+            "no_reason_provided": ""
         }
     }
 }
