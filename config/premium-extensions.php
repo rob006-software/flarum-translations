@@ -12,4 +12,36 @@
 declare(strict_types=1);
 
 return [
+	'datitisev-backup' => [
+		'name' => 'Backup',
+		'packageName' => 'datitisev/flarum-backup',
+	],
+	'datitisev-maintenance' => [
+		'name' => 'Maintenance Mode',
+		'packageName' => 'datitisev/flarum-maintenance',
+	],
+	'kilowhat-custom-paths' => [
+		'name' => 'Custom Paths',
+		'packageName' => 'kilowhat/flarum-ext-custom-paths',
+	],
+	'kilowhat-formulaire' => [
+		'name' => 'Formulaire',
+		'packageName' => 'kilowhat/flarum-ext-formulaire',
+	],
+	'kilowhat-wordpress' => [
+		'name' => 'Wordpress Integration',
+		'packageName' => 'kilowhat/flarum-ext-wordpress',
+	],
+	'kyrne-websocket' => [
+		'name' => 'Websocket',
+		'packageName' => 'kyrne/websocket',
+	],
+	'reflar-recache' => [
+		'name' => 'ReFlar ReCache',
+		'packageName' => 'reflar/recache',
+	],
+	'reflar-webhooks-pro' => [
+		'name' => 'ReFlar Webhooks PRO',
+		'packageName' => 'reflar/webhooks-pro',
+	],
 ];

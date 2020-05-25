@@ -88,8 +88,14 @@ return [
 	'clarkwinkelmann-who-read' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-who-read/1.2.0/resources/locale/en.yml',
 	],
+	'datitisev-backup' => [
+		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/datitisev-backup.yml',
+	],
 	'datitisev-dashboard' => [
 		'tag' => 'https://raw.githubusercontent.com/datitisev/flarum-ext-dashboard/v0.1.0-beta.8.2/resources/locale/en.yml',
+	],
+	'datitisev-maintenance' => [
+		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/datitisev-maintenance.yml',
 	],
 	'dem13n-auth-mailru' => [
 		'tag' => 'https://raw.githubusercontent.com/Dem13n/auth-mailru/0.1.0/resources/locale/en.yml',
@@ -169,8 +175,17 @@ return [
 	'kilowhat-affiliation-links' => [
 		'tag' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-affiliation-links/0.2.0/resources/locale/en.yml',
 	],
+	'kilowhat-custom-paths' => [
+		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/kilowhat-custom-paths.yml',
+	],
+	'kilowhat-formulaire' => [
+		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/kilowhat-formulaire.yml',
+	],
 	'kilowhat-mailing' => [
 		'tag' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-mailing/0.2.3/resources/locale/en.yml',
+	],
+	'kilowhat-wordpress' => [
+		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/kilowhat-wordpress.yml',
 	],
 	'kvothe-keyboard-shortcuts' => [
 		'tag' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-keyboard-shortcuts/v0.1.0/resources/locale/en.yml',
@@ -186,6 +201,9 @@ return [
 	],
 	'kvothe-spoiler-bbcode' => [
 		'tag' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-spoiler-bbcode/0.1.0/resources/locale/en.yml',
+	],
+	'kyrne-websocket' => [
+		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/kyrne-websocket.yml',
 	],
 	'maicol07-sso' => [
 		'tag' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/1.6/locale/en.yml',
@@ -244,11 +262,17 @@ return [
 	'reflar-level-ranks' => [
 		'tag' => 'https://raw.githubusercontent.com/ReFlar/level-ranks/1.2.2/resources/locale/en.yml',
 	],
+	'reflar-recache' => [
+		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/reflar-recache.yml',
+	],
 	'reflar-twofactor' => [
 		'tag' => 'https://raw.githubusercontent.com/ReFlar/twofactor/0.1.3/resources/locale/en.yml',
 	],
 	'reflar-webhooks' => [
 		'tag' => 'https://raw.githubusercontent.com/ReFlar/webhooks/0.2.3/resources/locale/en.yml',
+	],
+	'reflar-webhooks-pro' => [
+		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/reflar-webhooks-pro.yml',
 	],
 	'saleksin-auth-google' => [
 		'tag' => 'https://raw.githubusercontent.com/saleksin/flarum-auth-google/v0.1.0-beta.8.0.3/locale/en.yml',
