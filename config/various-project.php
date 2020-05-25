@@ -29,7 +29,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-auth-sync/v1.0.6/resources/locale/en.yml',
 	],
 	'askvortsov-categories' => [
-		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-categories/v1.0.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-categories/v1.0.3/resources/locale/en.yml',
 	],
 	'askvortsov-copy-links' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-copy-links/v0.1.0/resources/locale/en.yml',
