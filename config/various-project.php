@@ -146,7 +146,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/mason/0.3.1/resources/locale/en.yml',
 	],
 	'flarumite-decontaminator' => [
-		'tag' => 'https://raw.githubusercontent.com/flarumite/flarum-decontaminator/0.1.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarumite/flarum-decontaminator/0.1.3/resources/locale/en.yml',
 	],
 	'giga300-auth-discord' => [
 		'tag' => 'https://raw.githubusercontent.com/giga300/flarum-auth-discord/v1.1.0/locale/en.yml',
