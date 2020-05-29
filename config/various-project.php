@@ -151,6 +151,9 @@ return [
 	'flarumite-decontaminator' => [
 		'tag' => 'https://raw.githubusercontent.com/flarumite/flarum-decontaminator/0.1.4/resources/locale/en.yml',
 	],
+	'flarumite-simple-discussion-views' => [
+		'tag' => 'https://raw.githubusercontent.com/flarumite/simple-discussion-views/0.1.0/resources/locale/en.yml',
+	],
 	'giga300-auth-discord' => [
 		'tag' => 'https://raw.githubusercontent.com/giga300/flarum-auth-discord/v1.1.0/locale/en.yml',
 	],
