@@ -33,6 +33,20 @@
                 "no_name": "You must provide a full name for your app to work.",
                 "success": "No Potential Issues Found!"
             }
+        },
+        "forum": {
+            "discussion_controls": {
+                "share_button": "Share"
+            },
+            "post_controls": {
+                "share_button": "Share",
+                "share_api": {
+                    "title": "{username}'s reply to {title}'"
+                }
+            },
+            "user_controls": {
+                "share_button": "Share"
+            }
         }
     }
 }
