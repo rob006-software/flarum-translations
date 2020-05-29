@@ -67,7 +67,9 @@
                 "pd_user_left_label": "A recipient user leaves a private discussion I'm a part of",
                 "pd_user_left_text": "{username} left the private discussion",
                 "pd_added_text": "{username} added you to a private discussion",
-                "pd_added_label": "Someone adds me to an existing private discussion"
+                "pd_added_label": "Someone adds me to an existing private discussion",
+                "pd_made_public_label": "A private discussion is made public",
+                "pd_made_public_text": "{username} made the discussion public"
             },
             "confirm": {
                 "make_public": "This will make this private discussion visible to everyone. Consider if this is the correct action before proceeding."
@@ -100,6 +102,9 @@
             },
             "private_discussion_added": {
                 "title": "[Private Discussion] user added you to a private discussion"
+            },
+            "made_public": {
+                "title": "[Private Discussion] user made the discussion public"
             }
         }
     }

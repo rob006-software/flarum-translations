@@ -25,6 +25,10 @@
             "settings": {
                 "warning_notification_label": ""
             },
+            "validation": {
+                "public_comment_required": "",
+                "invalid_strike_count": ""
+            },
             "warning_controls": {
                 "delete_button": "",
                 "restore_button": "",
@@ -32,9 +36,10 @@
             },
             "warning_list": {
                 "add_button": "",
-                "no-warnings": "",
+                "no_warnings": "",
                 "warnings": "",
-                "warnings_no_strikes": ""
+                "warnings_no_strikes": "",
+                "no-warnings": ""
             },
             "warning_list_item": {
                 "list_item_heading": "",
@@ -45,13 +50,13 @@
             },
             "warning_modal": {
                 "confirmation_message": "",
-                "dismiss_button": "",
                 "heading": "",
                 "strikes_heading": "",
                 "public_comment_heading": "",
                 "private_comment_heading": "",
-                "no_content_given": "",
-                "submit_button": ""
+                "submit_button": "",
+                "dismiss_button": "",
+                "no_content_given": ""
             }
         }
     }

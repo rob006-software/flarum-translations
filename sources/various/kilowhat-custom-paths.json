@@ -1,0 +1,38 @@
+{
+    "kilowhat-custom-paths": {
+        "admin": {
+            "settings": {
+                "title": "Custom Paths",
+                "head": {
+                    "name": "Name",
+                    "path": "Path"
+                },
+                "extensions": {
+                    "flarum-tags": "Flarum's Tags",
+                    "flarum-subscriptions": "Flarum's Subscriptions",
+                    "flarum-flags": "Flarum's Flags",
+                    "fof-user-directory": "FriendsOfFlarum's User Directory",
+                    "fof-pages": "FriendsOfFlarum's Pages",
+                    "askvortsov-categories": "Askvortsov's Categories"
+                },
+                "paths": {
+                    "index": "Discussion list (when not homepage)",
+                    "discussion": "Discussion",
+                    "user": "User profile",
+                    "settings": "Settings",
+                    "notifications": "Notifications (on mobile)",
+                    "tags": "Tags list",
+                    "tag": "Tag discussions",
+                    "following": "Following",
+                    "flags": "Flags (on mobile)",
+                    "fof-user-directory": "User directory",
+                    "fof-pages": "Page",
+                    "askvortsov-categories": "Categories"
+                },
+                "reset": "Reset path",
+                "disabled": "Extension not enabled",
+                "redirect": "Redirect default Flarum paths to new paths"
+            }
+        }
+    }
+}

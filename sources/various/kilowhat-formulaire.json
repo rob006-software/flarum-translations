@@ -1,0 +1,181 @@
+{
+    "kilowhat-formulaire": {
+        "admin": {
+            "permissions": {
+                "heading": "Formulaire",
+                "heading-advanced": "Formulaire (options for third-party extensions)",
+                "fill": "Fill standalone forms",
+                "create": "Create forms (beta)",
+                "moderate": "Moderate all forms",
+                "listForms": "View the list of forms that aren't deleted",
+                "listSubmissions": "View the list of submissions"
+            },
+            "settings": {
+                "title": "Form global settings",
+                "max-file-size": "Max file size (kB)",
+                "history-controls": "Show undo/redo controls on submission page",
+                "side-nav-on-submission": "Show side navigation on submission page"
+            }
+        },
+        "forum": {
+            "nav": {
+                "forms": "Forms manager"
+            },
+            "form-index": {
+                "title": "Forms manager",
+                "new": "New form",
+                "edit": "Edit",
+                "show": "Show",
+                "submissions": "Submissions",
+                "columns": {
+                    "title": "Title",
+                    "accept-submissions": "Open",
+                    "allow-modification": "Modification",
+                    "submissions": "Submissions",
+                    "actions": "Actions"
+                }
+            },
+            "form-create": {
+                "title": "New form",
+                "field": {
+                    "title": "Title"
+                },
+                "button": {
+                    "create": "Create form"
+                }
+            },
+            "form-edit": {
+                "preview": "Preview",
+                "save-for-preview": "Save for preview",
+                "expert-mode": "Expert mode",
+                "restore": "Restore",
+                "hide": "Delete",
+                "delete": "Delete permanently",
+                "delete-confirmation": "The form \"{title}\" will be permanently deleted",
+                "title": "Edit form",
+                "template": "Template",
+                "field": {
+                    "link": "Special form types",
+                    "title": "Title",
+                    "slug": "Slug (url)",
+                    "accept-submissions": "Accept new submissions",
+                    "allow-modification": "Allow users to edit their existing submissions",
+                    "max-submissions": "Max submissions (leave blank for unlimited)",
+                    "send-confirmation-to-participants": "Send confirmation email to participants",
+                    "notify-emails": "Send a copy of the data to those comma-separated emails",
+                    "web-confirmation-message": "Confirmation message on the web (formatting enabled)",
+                    "email-confirmation-message": "Confirmation message via email (formatting enabled, must enable confirmation above)"
+                },
+                "link-options": {
+                    "standalone": "Standalone",
+                    "groups": "User profile",
+                    "all-groups": "For any group",
+                    "tags": "Discussion fields (beta)",
+                    "all-tags": "For any tag"
+                }
+            },
+            "save-controls": {
+                "validation-errors": "We found some errors in your submission",
+                "unsaved-changes": "You have unsaved changes",
+                "saved-at": "Saved {ago}",
+                "undo": "Undo",
+                "redo": "Redo",
+                "save": "Save"
+            },
+            "permission-controls": {
+                "inherit": "Use defaults",
+                "everyone_button": "=> core.admin.permissions_controls.everyone_button",
+                "members_button": "=> core.group.members"
+            },
+            "template-editor": {
+                "add-field": "Add a field",
+                "title": "Title",
+                "description": "Description",
+                "key": "JSON key in the submission payload",
+                "required": "Required",
+                "rich": "Rich text (TextFormatter)",
+                "min": "Minimum",
+                "max": "Maximum",
+                "integer": "Integer",
+                "email": "Email",
+                "regex": "Regular expression",
+                "mime": "MIME type (comma separated, accepts wildcard as second part)",
+                "duplicate": "Duplicate field",
+                "delete": "Delete field",
+                "missing-title": "Field with no title",
+                "no-answer": "No answer",
+                "type": {
+                    "short": "Short text",
+                    "long": "Long text",
+                    "number": "Number",
+                    "date": "Date",
+                    "upload": "Upload",
+                    "content": "Content",
+                    "items": "Multi-entries"
+                }
+            },
+            "items-editor": {
+                "add": "Add row",
+                "remove": "Remove row"
+            },
+            "upload-editor": {
+                "uploading": "Uploading...",
+                "remove": "Remove file"
+            },
+            "rich-text": {
+                "preview-placeholder": "Start typing for a preview"
+            },
+            "submission": {
+                "form-closed": "This form is closed.",
+                "form-full": "This form has reached the maximum number of submissions.",
+                "edit-forbidden": "You can no longer edit this submission.",
+                "submitted-successfully": "Your submission has ben sent successfully.",
+                "edit-submission": "Edit submission",
+                "submit-other": "Submit another",
+                "unlock": "Unlock",
+                "lock": "Lock",
+                "restore": "Restore",
+                "hide": "Delete",
+                "delete": "Delete permanently",
+                "delete-confirmation": "The submission from {date} will be permanently deleted"
+            },
+            "submission-index": {
+                "form-edit": "Edit form",
+                "form-show": "New submission",
+                "show": "Show",
+                "guest": "Guest",
+                "columns": {
+                    "date": "Date",
+                    "user": "User",
+                    "actions": "Actions"
+                }
+            },
+            "badge": {
+                "locked": "Locked",
+                "hidden": "Hidden"
+            },
+            "error-page": {
+                "denied-title": "Permission denied",
+                "denied-description": "It looks like you don't have access to this content. Try logging in.",
+                "notfound-title": "Not found",
+                "notfound-description": "This content either doesn't exist, or maybe you don't have access to it."
+            }
+        },
+        "api": {
+            "formatter-parsing-error": "Could not parse content: {message}",
+            "not-allowed-to-fill-field": "You are not allowed to change the value of this field",
+            "duplicate-field-key": "Key should be unique",
+            "submission-link-user-invalid": "The user doesn't have the necessary group for this form",
+            "submission-link-discussion-invalid": "The discussion does't have the necessary tag for this form",
+            "submission-link-already-exists": "Duplicate entry for link resource",
+            "cannot-change-form-type": "You cannot change the type of a form that has existing submissions"
+        },
+        "mail": {
+            "title-your-submission": "Your submission for {title}",
+            "title-new-submission": "New submission for {title}",
+            "edit": "Edit",
+            "footer": "Sent from {title}",
+            "sub-entries": "{count} entries"
+        }
+    }
+}

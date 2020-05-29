@@ -8,8 +8,8 @@
         },
         "forum": {
             "moderatorNotes": {
+                "created_text": "{username} created this note on {date}",
                 "add_button": "New note",
-                "confirmation_message": "Your note has been saved. You may need to refresh the page to see it.",
                 "create-heading": "Create a new moderator note",
                 "dismiss_button": "Done",
                 "input_heading": "Enter your notes for <strong>{username}</strong>",
@@ -22,8 +22,9 @@
             }
         },
         "api": {
-            "auto-note": "I used FoF Impersonate to switch to this user",
-            "auto-note-actor": "Used FoF Impersonate to impersonate 'username'"
+            "auto_note": "I switched to this user: reason",
+            "auto_note_actor": "Switched to 'username': reason",
+            "no_reason_provided": "No reason provided"
         }
     }
 }

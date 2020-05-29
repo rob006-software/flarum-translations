@@ -25,6 +25,10 @@
             "settings": {
                 "warning_notification_label": "Moderator dał mi ostrzeżenie"
             },
+            "validation": {
+                "public_comment_required": "Musisz podać publicznie widoczny komentarz.",
+                "invalid_strike_count": "Liczba punktów karnych powinna być liczbą całkowitą z przedziału od 0 do 5."
+            },
             "warning_controls": {
                 "delete_button": "Usuń",
                 "restore_button": "Przywróć",
@@ -32,9 +36,10 @@
             },
             "warning_list": {
                 "add_button": "Nowe ostrzeżenie",
-                "no-warnings": "Wygląda na to, że nie ma tutaj żadnych ostrzeżeń.",
+                "no_warnings": "Wygląda na to, że nie ma tutaj żadnych ostrzeżeń.",
                 "warnings": "Ostrzeżenia: {strikes} punkt karny|Ostrzeżenia: {strikes} punkty karne|Ostrzeżenia: {strikes} punktów karnych",
-                "warnings_no_strikes": "Ostrzeżenia: bez punktów karnych"
+                "warnings_no_strikes": "Ostrzeżenia: bez punktów karnych",
+                "no-warnings": "Wygląda na to, że nie ma tutaj żadnych ostrzeżeń."
             },
             "warning_list_item": {
                 "list_item_heading": "Ostrzeżenie od <strong>{mod_username}</strong> i <strong>{strikes}</strong> punkt karny|Ostrzeżenie od <strong>{mod_username}</strong> i <strong>{strikes}</strong> punkty karne|Ostrzeżenie od <strong>{mod_username}</strong> i <strong>{strikes}</strong> punktów karnych",
@@ -45,13 +50,13 @@
             },
             "warning_modal": {
                 "confirmation_message": "Twoje ostrzeżenie zostało zapisane. Musisz odświeżyć stronę, aby je zobaczyć.",
-                "dismiss_button": "Gotowe",
                 "heading": "Ostrzeż <strong>{username}</strong>",
                 "strikes_heading": "Ile punktów karnych przydzielić?",
                 "public_comment_heading": "Czemu <strong>{username}</strong> otrzymuje to ostrzeżenie? Ten komentarz będzie widoczny dla użytkownika oraz innych moderatorów.",
                 "private_comment_heading": "Czemu <strong>{username}</strong> otrzymuje to ostrzeżenie? Ten komentarz będzie widoczny tylko dla innych moderatorów.",
-                "no_content_given": "Puste ostrzeżenia nie są dozwolone.",
-                "submit_button": "Zapisz ostrzeżenie"
+                "submit_button": "Zapisz ostrzeżenie",
+                "dismiss_button": "Gotowe",
+                "no_content_given": "Puste ostrzeżenia nie są dozwolone."
             }
         }
     }

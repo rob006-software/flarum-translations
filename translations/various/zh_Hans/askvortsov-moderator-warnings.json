@@ -25,6 +25,10 @@
             "settings": {
                 "warning_notification_label": "收到站务警告"
             },
+            "validation": {
+                "public_comment_required": "",
+                "invalid_strike_count": ""
+            },
             "warning_controls": {
                 "delete_button": "移除",
                 "restore_button": "还原",
@@ -32,9 +36,10 @@
             },
             "warning_list": {
                 "add_button": "发送警告",
-                "no-warnings": "该用户暂未收到任何警告",
+                "no_warnings": "",
                 "warnings": "站务警告: 共记 {strikes} 分",
-                "warnings_no_strikes": "站务警告"
+                "warnings_no_strikes": "站务警告",
+                "no-warnings": "该用户暂未收到任何警告"
             },
             "warning_list_item": {
                 "list_item_heading": "来自 <strong>{mod_username}</strong> 的警告，记 <strong>{strikes}</strong> 分",
@@ -45,13 +50,13 @@
             },
             "warning_modal": {
                 "confirmation_message": "您的警告已发出，也许刷新后可见。",
-                "dismiss_button": "完成",
                 "heading": "警告 <strong>{username}</strong>",
                 "strikes_heading": "严重程度：记几分？",
                 "public_comment_heading": "批注。为什么警告 <strong>{username}</strong>？ 批注仅对该用户和其他警告发起者可见。",
                 "private_comment_heading": "备注。为什么警告 <strong>{username}</strong>？备注仅对您和其他警告发起者可见。",
-                "no_content_given": "警告不可为空。",
-                "submit_button": "发送警告"
+                "submit_button": "发送警告",
+                "dismiss_button": "完成",
+                "no_content_given": "警告不可为空。"
             }
         }
     }

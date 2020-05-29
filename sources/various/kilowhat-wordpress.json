@@ -1,0 +1,168 @@
+{
+    "kilowhat-wordpress": {
+        "admin": {
+            "settings": {
+                "section_general_intro": "The base settings required for the extension to work.",
+                "api_key": "Flarum API Key",
+                "wordpress_url": "Wordpress URL",
+                "wordpress_username": "Wordpress admin username",
+                "section_sso_intro": "This feature will seamlessly connects Wordpress users with Flarum. An account will automatically be created for them and kept in sync with Wordpress. If you have existing accounts in Flarum, they will automatically be matched by their email. If you delete a user in Flarum, it will be created again next time the Wordpress account logins. To block a Flarum user, suspend the account in Flarum.\n",
+                "enable_sso": "Enable SSO integration",
+                "cookie_domain": "Cookie Domain",
+                "cookie_domain_help": "Only necessary it's different than Flarum domain",
+                "wordpress_login_path": "Wordpress login path",
+                "wordpress_login_path_help": "Only necessary if you renamed your login endpoint manually or via a plugin",
+                "username_strategy": "Username for new users",
+                "username_strategy_options": {
+                    "user_login": "Username from Wordpress",
+                    "first_name": "First name from Wordpress",
+                    "random": "Random username"
+                },
+                "username_strategy_help": "A number will be appended to the username if it already exists in Flarum",
+                "force_username_choice": "Make users choose their username on first visit",
+                "force_username_choice_help": "A default value will be provided with the rule chosen above.",
+                "welcome_message": "Introduction message",
+                "welcome_message_help": "This message will be shown the first time the user visits the forum, together with the username choice if enabled.",
+                "wordpress_login_only": "Only allow Wordpress login",
+                "wordpress_login_only_help": "Disables Flarum login and directly opens Wordpress login modal when login is required. This will automatically set the \"Sign Up\" permission to Closed.\n",
+                "user_delete": "Action when a user is deleted in Wordpress",
+                "user_delete_options": {
+                    "ignore": "Ignore (keep Flarum user)",
+                    "delete": "Delete Flarum user",
+                    "suspend": "Suspend Flarum user indefinitely (Suspend extension must be enabled)"
+                },
+                "user_delete_desc": "If you select \"delete\", only the user will be deleted, not their content on Flarum.",
+                "section_comments_intro": "This feature replaces Wordpress comments with a Flarum iframe. Guest posting is no longer possible. Discussions are only created for posts with comments enabled in Wordpress. Enabling or disabling comments is synced with Flarum's discussion lock. If your blog already contains posts when you enable this feature, you need to enable and disable comments again on each article for the Flarum discussion to be created.\n",
+                "enable_comments": "Enable comments integration",
+                "excerpt_html_whitelist": "Whitelist of HTML tags to keep in the excerpt (comma separated)",
+                "excerpt_html_nodes": "Length of the content excerpt (in number of HTML nodes)",
+                "excerpt_length": "Length of the content excerpt (in characters)",
+                "comment_tag": "Tag for new comment threads",
+                "comment_tag_none": "Do not assign a tag",
+                "comment_tag_custom": "Custom values",
+                "comment_tag_custom_help": "Comma-separated list of tag IDs",
+                "summary_as_last_post": "Set the summary post as the last post of new discussions",
+                "summary_as_last_post_help": "This makes new comment discussions rise to the top of the discussion list in Flarum as soon as the Wordpress post is published. By default the discussion would only rise to the top once a first user wrote a comment.\n",
+                "use_post_date": "Use Wordpress post date as the discussion creation date",
+                "use_post_date_help": "By default Flarum discussions will use the current time as their creation date. This option allows creating discussions with a past date if the Wordpress post also has a past date.\n",
+                "post_hide": "Action when a Wordpress post is hidden (trashed or moved to draft)",
+                "post_hide_options": {
+                    "ignore": "Ignore (lock discussion according to Allow Comments)",
+                    "lock": "Lock discussion in Flarum",
+                    "hide": "Hide discussion in Flarum",
+                    "delete": "Permanently delete discussion from Flarum"
+                },
+                "post_delete": "Action when a Wordpress post is deleted permanently",
+                "post_delete_options": {
+                    "ignore": "Ignore (keep Flarum discussion in current state)",
+                    "lock": "Keep Flarum discussion and lock",
+                    "hide": "Hide discussion in Flarum",
+                    "delete": "Permanently delete discussion from Flarum"
+                }
+            },
+            "tabs": {
+                "wizard": "Install wizard",
+                "general": "General Settings",
+                "sso": "SSO Integration",
+                "comments": "Comments Integration",
+                "enabled": "Enabled",
+                "disabled": "Disabled"
+            },
+            "appearance": {
+                "edit_css_button": "Edit Custom CSS for Wordpress Embed only"
+            },
+            "edit_css": {
+                "title": "Edit Custom Embed CSS",
+                "customize_text": "Your own LESS/CSS to be applied on top of Flarum's <a>default styles</a> inside the Wordpress iframe only."
+            },
+            "permissions": {
+                "heading": "Wordpress",
+                "gambits": "Third-party gambits (see documentation)"
+            },
+            "menu": {
+                "title": "Wordpress",
+                "description": "Configure the Wordpress integration."
+            },
+            "save-controls": {
+                "validation-errors": "We found some errors in your submission",
+                "unsaved-changes": "You have unsaved changes",
+                "saved-at": "Saved {ago}",
+                "no-unsaved-changes": "Everything is saved",
+                "save": "Save"
+            },
+            "header": {
+                "title": "Premium Wordpress Integration",
+                "documentation": "Full online documentation",
+                "discuss": "Discussion on Flarum Discuss",
+                "version": "Version {version}"
+            },
+            "health": {
+                "title": "Health check",
+                "check": "Check now",
+                "errors": "We found some issues.",
+                "healthy": "Everything is looking good!",
+                "not-run": "The Health check will become available once you connect Wordpress and Flarum.",
+                "request-error": "We failed to perform the Health check."
+            },
+            "wizard": {
+                "intro": "Thanks for purchasing my premium Wordpress extension! Fill in your credentials below to automatically connect your Flarum and Wordpress together.\n",
+                "wordpress_url": "Wordpress URL",
+                "wordpress_url_help": "A link to your Wordpress homepage",
+                "wordpress_username": "Wordpress admin username",
+                "wordpress_password": "Wordpress admin password",
+                "wordpress_password_help": "The password is only used for the initial configuration and is not stored.",
+                "install": "Install"
+            }
+        },
+        "forum": {
+            "welcome-modal": {
+                "title": "Welcome!",
+                "default_message": "Welcome to the forum. Pick a username and you are ready to go!",
+                "username": "Choose a username",
+                "submit": "Enable forum account",
+                "not_now": "Skip and read as guest for now"
+            },
+            "edit-user-modal": {
+                "warning": "This user is kept in sync with Wordpress. You should edit the email and password from Wordpress.\n",
+                "edit_in_wordpress": "Edit in Wordpress",
+                "should_not_edit_email": "You should edit the email in Wordpress. <a>Edit anyway</a>",
+                "unlink": "Unlink this user from the wordpress user",
+                "unlink_help": "If the email matches a Wordpress user, it will be linked again next time that user connects in Wordpress."
+            },
+            "settings": {
+                "edit_on_wordpress": "Change email and password on main website"
+            },
+            "log_in": {
+                "with_wordpress_button": "Log In with Wordpress"
+            },
+            "summary-post": {
+                "head_label": "Wordpress Post",
+                "blog_link": "Read on blog",
+                "read_more": "Read more"
+            },
+            "embed": {
+                "title": "Comments"
+            }
+        },
+        "api": {
+            "blocked_actions": {
+                "login": "This account is linked with Wordpress. Use the main website login form to connect.",
+                "password_reset": "This account is linked with Wordpress. Use the main website login form to reset your password.",
+                "email_change": "This account is linked with Wordpress. Use the main website profile page to change your email."
+            },
+            "wizard": {
+                "already_installed": "Flarum is already connected with Wordpress. To run the wizard again, delete the \"Wordpress URL\" setting in Flarum and the \"Flarum API key\" setting in Wordpress.\n",
+                "api_unauthorized": "We could not authenticate with the given credentials. Double-check the URL, username and password. Check the documentation for more troubleshooting steps.\n",
+                "api_error_get": "Error while performing a GET request to Wordpress settings ({exception}).",
+                "api_error_post": "Error while performing a POST request to Wordpress settings ({exception}).",
+                "invalid_wordpress_url": "The \"WordPress Address (URL)\" setting in Wordpress does not seem to be a valid URL ({actual}).",
+                "plugin_not_installed": "The Wordpress plugin does not appear to be installed or enabled on that Wordpress site. Make sure you have at least version 1.2.0 installed.\n"
+            }
+        },
+        "views": {
+            "error": {
+                "missing_wordpress_embed": "This post doesn't have a comment thread yet. If you are the blog administrator, publish the post, or disable and re-enable comments to start a thread.\n"
+            }
+        }
+    }
+}

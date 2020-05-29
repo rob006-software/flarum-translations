@@ -1,0 +1,173 @@
+{
+    "datitisev-backup": {
+        "admin": {
+            "adapters": {
+                "local": "Pamięć lokalna",
+                "aliyun": "Alibaba Cloud (Aliyun)",
+                "azure": "Microsoft Azure",
+                "aws": "Amazon AWS S3",
+                "dospaces": "Digital Ocean Spaces",
+                "dropbox": "Dropbox",
+                "gdrive": "Google Drive",
+                "ftp": "FTP",
+                "gridfs": "GridFS",
+                "rackspace": "Rackspace",
+                "sftp": "SFTP",
+                "webdav": "Webdav",
+                "zip": "Archiwum Zip"
+            },
+            "settings_button": "Konfiguruj",
+            "required_package_button": "Ustaw",
+            "you-need-for": {
+                "aliyun": "aliyuncs/aliyun-oss-flysystem",
+                "azure": "league/flysystem-azure",
+                "aws": "league/flysystem-aws-s3-v3",
+                "copy": "league/flysystem-copy",
+                "dospaces": "league/flysystem-aws-s3-v3",
+                "dropbox": "spatie/flysystem-dropbox",
+                "gdrive": "nao-pon/flysystem-google-drive",
+                "gridfs": "league/flysystem-gridfs",
+                "rackspace": "league/flysystem-rackspace",
+                "sftp": "league/flysystem-sftp",
+                "webdav": "league/flysystem-webdav"
+            },
+            "required-package-modal": {
+                "title": "Potrzebny jest pakiet dla {adapter}",
+                "content": ""
+            },
+            "adapter-settings-modal": {
+                "title": "Skonfiguruj {adapter}",
+                "local": {
+                    "target": {
+                        "label": "Ścieżka docelowa",
+                        "description": "Podaj katalog, w którym chcesz zapisać kopie zapasowe."
+                    }
+                },
+                "aliyun": {
+                    "endpoint": {
+                        "label": "Punkt końcowy",
+                        "description": "Adres URL do punktu końcowego magazynu."
+                    },
+                    "access-id": {
+                        "label": "ID dostępu",
+                        "description": "Twój identyfikator tokena dostępu"
+                    },
+                    "access-key": {
+                        "label": "Klucz dostępu",
+                        "description": "Twój klucz dostępu tokena uwierzytelnienia"
+                    },
+                    "bucket": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "path-prefix": {
+                        "label": "Prefix ścieżki",
+                        "description": "Opcjonalny domyślny prefiks ścieżki dla plików."
+                    }
+                },
+                "azure": {
+                    "endpoint": {
+                        "label": "Punkt końcowy",
+                        "description": "Adres URL do punktu końcowego magazynu."
+                    },
+                    "container": {
+                        "label": "",
+                        "description": ""
+                    }
+                },
+                "aws": {
+                    "credentials": {
+                        "key": {
+                            "label": "Klucz",
+                            "description": ""
+                        },
+                        "secret": {
+                            "label": "Sekret",
+                            "description": ""
+                        }
+                    },
+                    "region": {
+                        "label": "Region",
+                        "description": ""
+                    },
+                    "version": {
+                        "label": "Wersja",
+                        "description": ""
+                    },
+                    "bucket": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "path-prefix": {
+                        "label": "Prefix ścieżki",
+                        "description": "Opcjonalny domyślny prefiks ścieżki dla plików."
+                    }
+                },
+                "dropbox": {
+                    "access-token": {
+                        "label": "Token dostępu",
+                        "description": "Wygeneruj token dostępu oAuth 2 @ https://www.dropbox.com/developers/apps."
+                    }
+                },
+                "gdrive": {
+                    "client": {
+                        "id": {
+                            "label": "ID klienta",
+                            "description": "Postępuj zgodnie z instrukcjami @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md aby utworzyć projekt Google i pobrać Twój identyfikator klienta oraz klucz tajny klienta.\n"
+                        },
+                        "secret": {
+                            "label": "",
+                            "description": " "
+                        }
+                    },
+                    "refresh-token": {
+                        "label": "Odśwież token",
+                        "description": "Postępuj zgodnie z instrukcjami @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md aby pobrać token odświeżania dla aplikacji Google oAuth.\n"
+                    },
+                    "folder": {
+                        "label": "ID folderu",
+                        "description": "https://drive.google.com/drive/u/0/folders/ID"
+                    }
+                },
+                "ftp": {
+                    "host": {
+                        "label": "Zdalna nazwa hosta",
+                        "description": ""
+                    },
+                    "username": {
+                        "label": "Nazwa użytkownika",
+                        "description": "Nazwa użytkownika do uwierzytelnienia się na serwerze FTP."
+                    },
+                    "password": {
+                        "label": "Hasło",
+                        "description": "Hasło do uwierzytelnienia się na serwerze FTP."
+                    },
+                    "port": {
+                        "label": "Port",
+                        "description": "Port FTP (domyślny to 21)."
+                    },
+                    "root": {
+                        "label": "",
+                        "description": "Zdalna ścieżka katalogu głównego (podkatalog) do przechowywania kopii zapasowych."
+                    },
+                    "passive": {
+                        "toggle": "Połączenie pasywne",
+                        "description": "Określa, czy użyć pasywnego połączenia FTP z serwerem."
+                    },
+                    "ssl": {
+                        "toggle": "SSL",
+                        "description": "Określa, czy ma być używane szyfrowane połączenie SSL z serwerem."
+                    },
+                    "timeout": {
+                        "label": "Koniec czasu",
+                        "description": "Liczba sekund oczekiwania na połączenie z serwerem FTP."
+                    }
+                }
+            },
+            "nav": {
+                "label": "Backup",
+                "description": "Przechowuj kopie swojego forum."
+            }
+        }
+    }
+}

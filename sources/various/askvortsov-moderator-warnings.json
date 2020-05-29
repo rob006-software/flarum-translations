@@ -25,14 +25,18 @@
             "settings": {
                 "warning_notification_label": "A moderator warns me"
             },
+            "validation": {
+                "public_comment_required": "You most provide a public comment.",
+                "invalid_strike_count": "The number of strikes must be an integer between 0 and 5."
+            },
             "warning_controls": {
                 "delete_button": "Remove",
                 "restore_button": "Restore",
                 "delete_forever_button": "Permanently Delete"
             },
             "warning_list": {
-                "add_button": "New warning",
-                "no-warnings": "It looks like there are no warnings here.",
+                "add_button": "New Warning",
+                "no_warnings": "It looks like there are no warnings here.",
                 "warnings": "Moderator Warnings: {strikes} Strike Received|Moderator Warnings: {strikes} Strikes Received",
                 "warnings_no_strikes": "Moderator Warnings: No Strikes Received"
             },
@@ -45,12 +49,10 @@
             },
             "warning_modal": {
                 "confirmation_message": "Your warning has been saved. You may need to refresh the page to see it.",
-                "dismiss_button": "Done",
                 "heading": "Warn <strong>{username}</strong>",
                 "strikes_heading": "How many strikes should be applied?",
                 "public_comment_heading": "Why is <strong>{username}</strong> receiving these warnings? These comments will be visible to the user and other moderators.",
                 "private_comment_heading": "Why is <strong>{username}</strong> receiving these warnings? These comments will ONLY be visible to other moderators.",
-                "no_content_given": "An empty warning is not permitted.",
                 "submit_button": "Save warning"
             }
         }

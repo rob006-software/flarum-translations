@@ -1,0 +1,173 @@
+{
+    "datitisev-backup": {
+        "admin": {
+            "adapters": {
+                "local": "Local storage",
+                "aliyun": "Alibaba Cloud (Aliyun)",
+                "azure": "Microsoft Azure",
+                "aws": "Amazon AWS S3",
+                "dospaces": "Digital Ocean Spaces",
+                "dropbox": "Dropbox",
+                "gdrive": "Google Drive",
+                "ftp": "FTP",
+                "gridfs": "GridFS",
+                "rackspace": "Rackspace",
+                "sftp": "SFTP",
+                "webdav": "Webdav",
+                "zip": "Zip Archive"
+            },
+            "settings_button": "Configure",
+            "required_package_button": "Set up",
+            "you-need-for": {
+                "aliyun": "aliyuncs/aliyun-oss-flysystem",
+                "azure": "league/flysystem-azure",
+                "aws": "league/flysystem-aws-s3-v3",
+                "copy": "league/flysystem-copy",
+                "dospaces": "league/flysystem-aws-s3-v3",
+                "dropbox": "spatie/flysystem-dropbox",
+                "gdrive": "nao-pon/flysystem-google-drive",
+                "gridfs": "league/flysystem-gridfs",
+                "rackspace": "league/flysystem-rackspace",
+                "sftp": "league/flysystem-sftp",
+                "webdav": "league/flysystem-webdav"
+            },
+            "required-package-modal": {
+                "title": "A package is needed for {adapter}",
+                "content": "In order to use this driver you'll need to install a specific package. You can do so by running the following composer command: <code>composer require {package}</code> in your Flarum installation directory.\n"
+            },
+            "adapter-settings-modal": {
+                "title": "Configure {adapter}",
+                "local": {
+                    "target": {
+                        "label": "Target path",
+                        "description": "Specify the local directory to save backups to."
+                    }
+                },
+                "aliyun": {
+                    "endpoint": {
+                        "label": "Endpoint",
+                        "description": "The URL to your storage endpoint."
+                    },
+                    "access-id": {
+                        "label": "Access ID",
+                        "description": "Your authentication Access token ID"
+                    },
+                    "access-key": {
+                        "label": "Access Key",
+                        "description": "Your authentication Access token Key"
+                    },
+                    "bucket": {
+                        "label": "Bucket",
+                        "description": "The storage bucket to use."
+                    },
+                    "path-prefix": {
+                        "label": "Path prefix",
+                        "description": "Optional default path prefix for the files."
+                    }
+                },
+                "azure": {
+                    "endpoint": {
+                        "label": "Endpoint",
+                        "description": "The URL to your storage endpoint."
+                    },
+                    "container": {
+                        "label": "Container",
+                        "description": "Azure container"
+                    }
+                },
+                "aws": {
+                    "credentials": {
+                        "key": {
+                            "label": "Key",
+                            "description": "AWS credentials key"
+                        },
+                        "secret": {
+                            "label": "Secret",
+                            "description": "AWS credentials secret"
+                        }
+                    },
+                    "region": {
+                        "label": "Region",
+                        "description": "Region of your bucket."
+                    },
+                    "version": {
+                        "label": "Version",
+                        "description": "Specify a version or leave blank for latest."
+                    },
+                    "bucket": {
+                        "label": "Bucket",
+                        "description": "S3 bucket to upload to."
+                    },
+                    "path-prefix": {
+                        "label": "Path prefix",
+                        "description": "Optional default path prefix for the files."
+                    }
+                },
+                "dropbox": {
+                    "access-token": {
+                        "label": "Access Token",
+                        "description": "Generate an oAuth 2 access token @ https://www.dropbox.com/developers/apps."
+                    }
+                },
+                "gdrive": {
+                    "client": {
+                        "id": {
+                            "label": "Client ID",
+                            "description": "Follow the instructions @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md to create a Google project and retrieve your Client ID & Client Secret.\n"
+                        },
+                        "secret": {
+                            "label": "Client Secret",
+                            "description": " "
+                        }
+                    },
+                    "refresh-token": {
+                        "label": "Refresh Token",
+                        "description": "Follow the instructions @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md to retrieve the refresh token for your Google oAuth app.\n"
+                    },
+                    "folder": {
+                        "label": "Folder ID",
+                        "description": "https://drive.google.com/drive/u/0/folders/ID"
+                    }
+                },
+                "ftp": {
+                    "host": {
+                        "label": "Remote hostname",
+                        "description": "The hostname to connect to with FTP, eg: <em>ftp.yourdomain.local</em>."
+                    },
+                    "username": {
+                        "label": "Username",
+                        "description": "The username to authenticate with on the FTP server."
+                    },
+                    "password": {
+                        "label": "Password",
+                        "description": "The user password to authenticate with on the FTP server."
+                    },
+                    "port": {
+                        "label": "Port",
+                        "description": "The FTP port (defaults to 21)."
+                    },
+                    "root": {
+                        "label": "Root path",
+                        "description": "The remote root path (subdirectory) to store backups in."
+                    },
+                    "passive": {
+                        "toggle": "Passive connection",
+                        "description": "Whether to use a passive FTP connection to the server."
+                    },
+                    "ssl": {
+                        "toggle": "SSL",
+                        "description": "Whether to use an encrypted SSL connection to the server."
+                    },
+                    "timeout": {
+                        "label": "Timeout",
+                        "description": "The number of seconds to wait for a connection with the FTP server."
+                    }
+                }
+            },
+            "nav": {
+                "label": "Backup",
+                "description": "Store copies of your forum."
+            }
+        }
+    }
+}
