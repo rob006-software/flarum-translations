@@ -2,51 +2,51 @@
     "fof-drafts": {
         "admin": {
             "permissions": {
-                "start": "Tworzenie szkiców dyskusji",
-                "schedule": ""
+                "start": "Tworzenie szkiców",
+                "schedule": "Planowanie publikacji szkiców"
             },
             "settings": {
-                "title": "",
-                "enable_scheduled_drafts": ""
+                "title": "Ustawienia szkiców",
+                "enable_scheduled_drafts": "Włącz planowanie publikacji szkiców"
             }
         },
         "console": {
-            "scheduled_drafts_disabled": ""
+            "scheduled_drafts_disabled": "Planowanie publikacji szkiców jest obecnie wyłączone."
         },
         "forum": {
             "composer": {
                 "title": "Zapisz szkic",
-                "saving": "",
-                "saved": "",
+                "saving": "Zapisywanie...",
+                "saved": "Zapisano!",
                 "exit_alert": "Porzucić zmiany w tym szkicu?",
-                "discard_empty_draft_alert": "",
+                "discard_empty_draft_alert": "Porzucić pusty szkic?",
                 "alert": "Szkic został zapisany."
             },
             "dropdown": {
                 "empty_text": "Nie zapisałeś żadnych szkiców",
                 "title": "Szkice",
-                "delete_button": "",
-                "schedule_button": "",
+                "delete_button": "Usuń szkic",
+                "schedule_button": "Zaplanuj publikację",
                 "tooltip": "=> fof-drafts.forum.dropdown.title",
                 "alert": "Czy jesteś pewien, że chcesz usunąć ten szkic?",
                 "button": "Usuń szkic"
             },
             "schedule_draft_modal": {
-                "title": "",
-                "text": "",
-                "scheduled_text": "",
-                "scheduled_error": "",
-                "unschedule_button": "",
-                "reschedule_button": "",
-                "schedule_button": ""
+                "title": "Zaplanuj publikację szkicu",
+                "text": "Zaplanuj automatyczną publikację szkicu w określonym czasie.",
+                "scheduled_text": "Zaplanowano publikację na: {datetime}.",
+                "scheduled_error": "Publikacja nie powiodła się z powodu: {error}.",
+                "unschedule_button": "Wyłącz zaplanowaną publikację",
+                "reschedule_button": "Zaktualizuj zaplanowaną publikację",
+                "schedule_button": "Zaplanuj publikację"
             },
             "user": {
                 "settings": {
-                    "drafts_heading": "",
-                    "draft_autosave_enable": "",
-                    "draft_autosave_interval_label": "",
-                    "draft_autosave_interval_button": "",
-                    "draft_autosave_interval_invalid": ""
+                    "drafts_heading": "Szkice",
+                    "draft_autosave_enable": "Włącz automatyczny zapis szkiców",
+                    "draft_autosave_interval_label": "Częstotliwość automatycznego zapisu (w sekundach)",
+                    "draft_autosave_interval_button": "Zaktualizuj częstotliwość",
+                    "draft_autosave_interval_invalid": "Częstotliwość musi być liczbą większą niż 4."
                 }
             }
         }
