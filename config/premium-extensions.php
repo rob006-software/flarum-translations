@@ -12,6 +12,7 @@
 declare(strict_types=1);
 
 return [
+	/* extensions list begin */
 	'datitisev-backup' => [
 		'name' => 'Backup',
 		'packageName' => 'datitisev/flarum-backup',
@@ -44,4 +45,9 @@ return [
 		'name' => 'ReFlar Webhooks PRO',
 		'packageName' => 'reflar/webhooks-pro',
 	],
+	'v17development-support' => [
+		'name' => 'Support',
+		'packageName' => 'v17development/flarum-support',
+	],
+	/* extensions list end */
 ];
