@@ -349,6 +349,9 @@ return [
 	'v17development-seo' => [
 		'tag' => 'https://raw.githubusercontent.com/v17development/flarum-seo/1.2.1/locale/en.yml',
 	],
+	'v17development-support' => [
+		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/v17development-support.yml',
+	],
 	'veriael-markdown' => [
 		'tag' => 'https://raw.githubusercontent.com/Veriael/markdown/v1.0.2.1/resources/locale/en.yml',
 	],
