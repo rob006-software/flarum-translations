@@ -2,21 +2,52 @@
     "fof-drafts": {
         "admin": {
             "permissions": {
-                "start": "Tartışma için taslak oluştur"
+                "start": "Tartışma için taslak oluştur",
+                "schedule": ""
+            },
+            "settings": {
+                "title": "",
+                "enable_scheduled_drafts": ""
             }
+        },
+        "console": {
+            "scheduled_drafts_disabled": ""
         },
         "forum": {
             "composer": {
                 "title": "Taslağı Kaydet",
-                "alert": "Taslak kaydedildi.",
-                "exit_alert": ""
+                "saving": "",
+                "saved": "",
+                "exit_alert": "",
+                "discard_empty_draft_alert": "",
+                "alert": "Taslak kaydedildi."
             },
             "dropdown": {
                 "empty_text": "",
                 "title": "Taslaklar",
-                "button": "Taslağı Sil",
+                "delete_button": "",
+                "schedule_button": "",
                 "tooltip": "=> fof-drafts.forum.dropdown.title",
-                "alert": "Taslağınızı silmek istediğine emin misiniz?"
+                "alert": "Taslağınızı silmek istediğine emin misiniz?",
+                "button": "Taslağı Sil"
+            },
+            "schedule_draft_modal": {
+                "title": "",
+                "text": "",
+                "scheduled_text": "",
+                "scheduled_error": "",
+                "unschedule_button": "",
+                "reschedule_button": "",
+                "schedule_button": ""
+            },
+            "user": {
+                "settings": {
+                    "drafts_heading": "",
+                    "draft_autosave_enable": "",
+                    "draft_autosave_interval_label": "",
+                    "draft_autosave_interval_button": "",
+                    "draft_autosave_interval_invalid": ""
+                }
             }
         }
     }

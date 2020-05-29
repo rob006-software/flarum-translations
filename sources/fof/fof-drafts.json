@@ -2,21 +2,50 @@
     "fof-drafts": {
         "admin": {
             "permissions": {
-                "start": "Create discussion drafts"
+                "start": "Create drafts",
+                "schedule": "Schedule drafts"
+            },
+            "settings": {
+                "title": "Drafts Settings",
+                "enable_scheduled_drafts": "Enable Scheduled Drafts"
             }
+        },
+        "console": {
+            "scheduled_drafts_disabled": "Scheduled drafts are currently disabled in settings."
         },
         "forum": {
             "composer": {
                 "title": "Save Draft",
-                "alert": "Draft saved.",
-                "exit_alert": "Discard changes to draft?"
+                "saving": "Saving...",
+                "saved": "Saved!",
+                "exit_alert": "Discard changes to draft?",
+                "discard_empty_draft_alert": "Discard empty draft?"
             },
             "dropdown": {
                 "empty_text": "You haven't saved any drafts",
                 "title": "Drafts",
-                "button": "Delete Draft",
+                "delete_button": "Delete Draft",
+                "schedule_button": "Schedule Draft",
                 "tooltip": "=> fof-drafts.forum.dropdown.title",
                 "alert": "Are you sure you want to delete your draft?"
+            },
+            "schedule_draft_modal": {
+                "title": "Schedule Draft",
+                "text": "Schedule your draft to automatically post at a later time!",
+                "scheduled_text": "Scheduled to post on {datetime}.",
+                "scheduled_error": "Unable to post because: {error}.",
+                "unschedule_button": "Unschedule",
+                "reschedule_button": "Reschedule",
+                "schedule_button": "Schedule"
+            },
+            "user": {
+                "settings": {
+                    "drafts_heading": "Drafts",
+                    "draft_autosave_enable": "Enable Draft Autosave?",
+                    "draft_autosave_interval_label": "Autosave Interval (seconds)",
+                    "draft_autosave_interval_button": "Update Interval",
+                    "draft_autosave_interval_invalid": "The interval must be an integer greater than 4."
+                }
             }
         }
     }

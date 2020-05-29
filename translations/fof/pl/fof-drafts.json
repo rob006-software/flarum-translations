@@ -2,21 +2,52 @@
     "fof-drafts": {
         "admin": {
             "permissions": {
-                "start": "Tworzenie szkiców dyskusji"
+                "start": "Tworzenie szkiców dyskusji",
+                "schedule": ""
+            },
+            "settings": {
+                "title": "",
+                "enable_scheduled_drafts": ""
             }
+        },
+        "console": {
+            "scheduled_drafts_disabled": ""
         },
         "forum": {
             "composer": {
                 "title": "Zapisz szkic",
-                "alert": "Szkic został zapisany.",
-                "exit_alert": "Porzucić zmiany w tym szkicu?"
+                "saving": "",
+                "saved": "",
+                "exit_alert": "Porzucić zmiany w tym szkicu?",
+                "discard_empty_draft_alert": "",
+                "alert": "Szkic został zapisany."
             },
             "dropdown": {
                 "empty_text": "Nie zapisałeś żadnych szkiców",
                 "title": "Szkice",
-                "button": "Usuń szkic",
+                "delete_button": "",
+                "schedule_button": "",
                 "tooltip": "=> fof-drafts.forum.dropdown.title",
-                "alert": "Czy jesteś pewien, że chcesz usunąć ten szkic?"
+                "alert": "Czy jesteś pewien, że chcesz usunąć ten szkic?",
+                "button": "Usuń szkic"
+            },
+            "schedule_draft_modal": {
+                "title": "",
+                "text": "",
+                "scheduled_text": "",
+                "scheduled_error": "",
+                "unschedule_button": "",
+                "reschedule_button": "",
+                "schedule_button": ""
+            },
+            "user": {
+                "settings": {
+                    "drafts_heading": "",
+                    "draft_autosave_enable": "",
+                    "draft_autosave_interval_label": "",
+                    "draft_autosave_interval_button": "",
+                    "draft_autosave_interval_invalid": ""
+                }
             }
         }
     }

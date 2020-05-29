@@ -67,7 +67,9 @@
                 "pd_user_left_label": "有人退出了我加入的私人讨论",
                 "pd_user_left_text": "{username} 退出了私人讨论",
                 "pd_added_text": "{username} 邀请您加入私人讨论",
-                "pd_added_label": "有人邀请我加入私人讨论"
+                "pd_added_label": "有人邀请我加入私人讨论",
+                "pd_made_public_label": "",
+                "pd_made_public_text": ""
             },
             "confirm": {
                 "make_public": "这将使所有人都可以看到此私人讨论，请谨慎操作。"
@@ -100,6 +102,9 @@
             },
             "private_discussion_added": {
                 "title": "【私人讨论】有人邀请您加入"
+            },
+            "made_public": {
+                "title": ""
             }
         }
     }
