@@ -305,7 +305,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum-tank/flarum-perspective/0.1.10/resources/locale/en.yml',
 	],
 	'the-turk-diff' => [
-		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-diff/1.0.7/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-diff/1.0.8/locale/en.yml',
 	],
 	'the-turk-edit-notifications' => [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-edit-notifications/0.1.5/locale/en.yml',
