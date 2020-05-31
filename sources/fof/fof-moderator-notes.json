@@ -3,7 +3,8 @@
         "admin": {
             "permissions": {
                 "createnotes": "Create moderator notes",
-                "viewnotes": "View moderator notes"
+                "viewnotes": "View moderator notes",
+                "deletenotes": "Delete moderator notes"
             }
         },
         "forum": {
@@ -12,10 +13,12 @@
                 "add_button": "New note",
                 "create-heading": "Create a new moderator note",
                 "dismiss_button": "Done",
-                "input_heading": "Enter your notes for <strong>{username}</strong>",
+                "input_heading": "Enter your notes for <strong>{username}</strong>, (markdown is supported)",
                 "no_content_given": "An empty note is not permitted.",
                 "noNotes": "It looks like there are no notes here.",
-                "submit_button": "Save note"
+                "submit_button": "Save note",
+                "delete": "Delete",
+                "confirm": "Are you sure you want to delete this note?"
             },
             "user": {
                 "notes": "Moderator Notes"

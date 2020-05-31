@@ -3,7 +3,8 @@
         "admin": {
             "permissions": {
                 "createnotes": "Tworzenie notatek dla moderatorów",
-                "viewnotes": "Przeglądanie notatek dla moderatorów"
+                "viewnotes": "Przeglądanie notatek dla moderatorów",
+                "deletenotes": ""
             }
         },
         "forum": {
@@ -16,6 +17,8 @@
                 "no_content_given": "Puste notatki nie są dozwolone.",
                 "noNotes": "Wygląda na to, że nie ma tutaj żadnych notatek.",
                 "submit_button": "Zapisz notatkę",
+                "delete": "",
+                "confirm": "",
                 "confirmation_message": "Twoja notatka została zapisana. Musisz odświeżyć stronę, aby ją zobaczyć."
             },
             "user": {

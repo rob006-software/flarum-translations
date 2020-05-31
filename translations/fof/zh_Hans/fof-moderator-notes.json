@@ -3,7 +3,8 @@
         "admin": {
             "permissions": {
                 "createnotes": "发表留言",
-                "viewnotes": "查看留言板"
+                "viewnotes": "查看留言板",
+                "deletenotes": ""
             }
         },
         "forum": {
@@ -16,6 +17,8 @@
                 "no_content_given": "无法发表空留言。",
                 "noNotes": "还没有人发表留言，何不坐第一个沙发？",
                 "submit_button": "发表",
+                "delete": "",
+                "confirm": "",
                 "confirmation_message": "留言成功！您也许需要刷新页面才能看到它。"
             },
             "user": {
