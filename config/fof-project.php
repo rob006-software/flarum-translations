@@ -32,7 +32,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/best-answer/0.1.10/resources/locale/en.yml',
 	],
 	'fof-byobu' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/byobu/0.5.3/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/byobu/0.5.4/resources/locale/en.yml',
 	],
 	'fof-custom-footer' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/custom-footer/0.1.3/resources/locale/en.yml',
