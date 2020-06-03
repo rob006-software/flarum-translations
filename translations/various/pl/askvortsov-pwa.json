@@ -32,7 +32,7 @@
                 "possible_https_disabled": "Twoja strona może nie korzystać z HTTPS. Jeśli korzysta z HTTPS, zignoruj to ostrzeżenie. Jeśli nie, miej na uwadze, że HTTPS jest wymagany do działania Progressive Web App.",
                 "no_logo": "Aby twoja aplikacja działała, musisz wysłać co najmniej jedno logo o minimalnych wymiarach 192px x 192px.",
                 "no_name": "Aby twoja aplikacja działała, musisz podać jej pełną nazwę.",
-                "push_needs_gmp_and_web_push": "",
+                "push_needs_gmp_and_web_push": "Rozszerzenie <code>gmp</code> oraz biblioteka <code>minishlink/web-push</code> (<code>composer require minishlink/web-push</code>) MUSZĄ być włączone aby powiadomienia push działały.",
                 "success": "Nie wyryto żadnych potencjalnych problemów!",
                 "disabled": "",
                 "manifest_does_not_exist": "",
@@ -43,8 +43,8 @@
         },
         "forum": {
             "alerts": {
-                "optin": "",
-                "optin_button": ""
+                "optin": "Masz włączone powiadomienia push, ale nie skonfigurowałeś jeszcze tego urządzenia.",
+                "optin_button": "Skonfiguruj"
             },
             "discussion_controls": {
                 "share_button": "Udostępnij"
@@ -59,14 +59,14 @@
                 "share_button": "Udostępnij"
             },
             "settings": {
-                "push_header": "",
+                "push_header": "Push",
                 "pwa_notifications": {
-                    "access_default": "",
-                    "access_default_button": "",
-                    "access_denied": "",
-                    "access_denied_button": "",
-                    "no_browser_support": "",
-                    "no_browser_support_button": ""
+                    "access_default": "Ze względu na ograniczenia przeglądarki, musisz zgodzić się na otrzymywanie powiadomień push na tym urządzeniu.",
+                    "access_default_button": "Zgadzam się",
+                    "access_denied": "Musisz dostosować ustawienia swojej przeglądarki, aby otrzymywać powiadomienia push na tym urządzeniu.",
+                    "access_denied_button": "Dowiedz się jak",
+                    "no_browser_support": "Ta przeglądarka nie obsługuje powiadomień push dla Progressive Web App.",
+                    "no_browser_support_button": "Dowiedz się więcej"
                 }
             }
         }
