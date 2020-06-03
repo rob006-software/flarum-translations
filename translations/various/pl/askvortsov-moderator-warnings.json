@@ -42,9 +42,9 @@
                 "no-warnings": "Wygląda na to, że nie ma tutaj żadnych ostrzeżeń."
             },
             "warning_list_item": {
-                "list_item_heading": "Ostrzeżenie od <strong>{mod_username}</strong> i <strong>{strikes}</strong> punkt karny|Ostrzeżenie od <strong>{mod_username}</strong> i <strong>{strikes}</strong> punkty karne|Ostrzeżenie od <strong>{mod_username}</strong> i <strong>{strikes}</strong> punktów karnych",
-                "list_item_heading_hidden": "Ostrzeżenie od <strong>{mod_username}</strong> i <strong>{strikes}</strong> punkt karny <strong>(usunięto)</strong>|Ostrzeżenie od <strong>{mod_username}</strong> i <strong>{strikes}</strong> punkty karne <strong>(usunięto)</strong>|Ostrzeżenie od <strong>{mod_username}</strong> i <strong>{strikes}</strong> punktów karnych <strong>(usunięto)</strong>",
-                "public_comment": "Komentarz widoczny dla użytkownika",
+                "list_item_heading": "<strong>{strikes}</strong> punkt karny, {time}|<strong>{strikes}</strong> punkty karne, {time}|<strong>{strikes}</strong> punktów karnych, {time}",
+                "list_item_heading_hidden": "<strong>{strikes}</strong> punkt karny, {time} <strong>(usunięto)</strong>|<strong>{strikes}</strong> punkty karne, {time} <strong>(usunięto)</strong>|<strong>{strikes}</strong> punktów karnych, {time} <strong>(usunięto)</strong>",
+                "public_comment": "Ostrzeżenie",
                 "private_comment": "Komentarz widoczny dla moderatora",
                 "linked_post": "Powiązany post"
             },
