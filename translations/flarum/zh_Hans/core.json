@@ -90,17 +90,17 @@
                 "mail_mandrill_secret_label": "Secret key",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "端口",
-                "mail_ses_key_label": "Key",
-                "mail_ses_region_label": "区域",
-                "mail_ses_secret_label": "Secret",
                 "mail_username_label": "用户名（一般同发件地址）",
                 "mailgun_heading": "Mailgun 设置",
                 "mandrill_heading": "Mandrill 设置",
                 "not_sending_message": "Flarum 当前无法发送电子邮件，请检查邮件驱动及其配置。",
-                "ses_heading": "SES 设置",
                 "smtp_heading": "SMTP 设置",
                 "submit_button": "=> core.ref.save_changes",
-                "text": "配置论坛发信服务方式"
+                "text": "配置论坛发信服务方式",
+                "mail_ses_key_label": "Key",
+                "mail_ses_region_label": "区域",
+                "mail_ses_secret_label": "Secret",
+                "ses_heading": "SES 设置"
             },
             "extensions": {
                 "add_button": "添加插件",

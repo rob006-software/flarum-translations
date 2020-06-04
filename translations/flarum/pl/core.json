@@ -90,17 +90,17 @@
                 "mail_mandrill_secret_label": "Secret key",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "Port",
-                "mail_ses_key_label": "Key",
-                "mail_ses_region_label": "Region",
-                "mail_ses_secret_label": "Secret",
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "Ustawienia Mailguna",
                 "mandrill_heading": "Ustawienia Mandrilla",
                 "not_sending_message": "Obecnie Flarum nie wysyła żadnych wiadomości e-mail. Może to być skutek wybranego sterownika lub błędów w konfiguracji.",
-                "ses_heading": "Ustawienia SES",
                 "smtp_heading": "Ustawienia SMTP",
                 "submit_button": "=> core.ref.save_changes",
-                "text": "Skonfiguruj sterownik, ustawienia i adresy, z których twoje forum będzie korzystać podczas wysyłania wiadomości e-mail."
+                "text": "Skonfiguruj sterownik, ustawienia i adresy, z których twoje forum będzie korzystać podczas wysyłania wiadomości e-mail.",
+                "mail_ses_key_label": "Key",
+                "mail_ses_region_label": "Region",
+                "mail_ses_secret_label": "Secret",
+                "ses_heading": "Ustawienia SES"
             },
             "extensions": {
                 "add_button": "Dodaj rozszerzenie",
