@@ -154,6 +154,9 @@ return [
 	'flarumite-simple-discussion-views' => [
 		'tag' => 'https://raw.githubusercontent.com/flarumite/simple-discussion-views/0.1.0/resources/locale/en.yml',
 	],
+	'fly3949-sso' => [
+		'tag' => 'https://raw.githubusercontent.com/fly3949/flarum-ext-sso/0.0.1/resources/locale/en.yml',
+	],
 	'giga300-auth-discord' => [
 		'tag' => 'https://raw.githubusercontent.com/giga300/flarum-auth-discord/v1.1.0/locale/en.yml',
 	],
