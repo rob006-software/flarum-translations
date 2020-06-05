@@ -1,6 +1,10 @@
 {
     "kyrne-shout": {
         "admin": {
+            "settings": {
+                "title": "",
+                "set_own_password": ""
+            },
             "permissions": {
                 "start_label": ""
             }
@@ -13,8 +17,12 @@
                 "title": "",
                 "header_setup": "",
                 "header_import": "",
+                "header_set_own": "",
+                "passwords_mismatch": "",
+                "invalid_password": "",
                 "button_import": "",
                 "button_setup": "",
+                "confirm_password": "",
                 "success": ""
             },
             "modal": {
