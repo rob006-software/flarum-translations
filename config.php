@@ -22,7 +22,6 @@ return [
 	],
 	'languages' => require __DIR__ . '/config/languages.php',
 	'subsplits' => require __DIR__ . '/config/subsplits.php',
-	'premiumExtensions' => require __DIR__ . '/config/premium-extensions.php',
 	'vendors' => [
 		'various' => require __DIR__ . '/config/various-vendors.php',
 	],
