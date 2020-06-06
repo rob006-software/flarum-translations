@@ -1466,3 +1466,83 @@
 	</tr>
 </tbody>
 </table>
+
+# Turkish translation status of premium extensions
+
+
+<table>
+<thead>
+	<tr>
+		<th>Extension</th>
+		<th>Rank</th>
+		<th>Subscribers</th>
+		<th>Downloads</th>
+		<th>Status</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td><a href="https://extiverse.com/extension/kilowhat/flarum-ext-wordpress" title="kilowhat/flarum-ext-wordpress"><code>kilowhat/flarum-ext-wordpress</code></a></td>
+		<td align="center">1</td>
+		<td align="center">8</td>
+		<td align="center">13</td>
+		<td><a href="https://weblate.rob006.net/projects/flarum-extensions/kilowhat-wordpress/tr/"><img src="https://weblate.rob006.net/widgets/flarum-extensions/tr/kilowhat-wordpress/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td><a href="https://extiverse.com/extension/reflar/recache" title="reflar/recache"><code>reflar/recache</code></a></td>
+		<td align="center">2</td>
+		<td align="center">6</td>
+		<td align="center">40</td>
+		<td><a href="https://weblate.rob006.net/projects/flarum-extensions/reflar-recache/tr/"><img src="https://weblate.rob006.net/widgets/flarum-extensions/tr/reflar-recache/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td><a href="https://extiverse.com/extension/kyrne/websocket" title="kyrne/websocket"><code>kyrne/websocket</code></a></td>
+		<td align="center">3</td>
+		<td align="center">5</td>
+		<td align="center">13</td>
+		<td><a href="https://weblate.rob006.net/projects/flarum-extensions/kyrne-websocket/tr/"><img src="https://weblate.rob006.net/widgets/flarum-extensions/tr/kyrne-websocket/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td><a href="https://extiverse.com/extension/v17development/flarum-support" title="v17development/flarum-support"><code>v17development/flarum-support</code></a></td>
+		<td align="center">4</td>
+		<td align="center">4</td>
+		<td align="center">15</td>
+		<td><a href="https://weblate.rob006.net/projects/flarum-extensions/v17development-support/tr/"><img src="https://weblate.rob006.net/widgets/flarum-extensions/tr/v17development-support/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td><a href="https://extiverse.com/extension/datitisev/flarum-backup" title="datitisev/flarum-backup"><code>datitisev/flarum-backup</code></a></td>
+		<td align="center">5</td>
+		<td align="center">1</td>
+		<td align="center">5</td>
+		<td><a href="https://weblate.rob006.net/projects/flarum-extensions/datitisev-backup/tr/"><img src="https://weblate.rob006.net/widgets/flarum-extensions/tr/datitisev-backup/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td><a href="https://extiverse.com/extension/kilowhat/flarum-ext-custom-paths" title="kilowhat/flarum-ext-custom-paths"><code>kilowhat/flarum-ext-custom-paths</code></a></td>
+		<td align="center">6</td>
+		<td align="center">1</td>
+		<td align="center">5</td>
+		<td><a href="https://weblate.rob006.net/projects/flarum-extensions/kilowhat-custom-paths/tr/"><img src="https://weblate.rob006.net/widgets/flarum-extensions/tr/kilowhat-custom-paths/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td><a href="https://extiverse.com/extension/reflar/webhooks-pro" title="reflar/webhooks-pro"><code>reflar/webhooks-pro</code></a></td>
+		<td align="center">7</td>
+		<td align="center">1</td>
+		<td align="center">1</td>
+		<td><a href="https://weblate.rob006.net/projects/flarum-extensions/reflar-webhooks-pro/tr/"><img src="https://weblate.rob006.net/widgets/flarum-extensions/tr/reflar-webhooks-pro/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td><a href="https://extiverse.com/extension/datitisev/flarum-maintenance" title="datitisev/flarum-maintenance"><code>datitisev/flarum-maintenance</code></a></td>
+		<td align="center">8</td>
+		<td align="center">0</td>
+		<td align="center">0</td>
+		<td><a href="https://weblate.rob006.net/projects/flarum-extensions/datitisev-maintenance/tr/"><img src="https://weblate.rob006.net/widgets/flarum-extensions/tr/datitisev-maintenance/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td><a href="https://extiverse.com/extension/kilowhat/flarum-ext-formulaire" title="kilowhat/flarum-ext-formulaire"><code>kilowhat/flarum-ext-formulaire</code></a></td>
+		<td align="center">9</td>
+		<td align="center">0</td>
+		<td align="center">0</td>
+		<td><a href="https://weblate.rob006.net/projects/flarum-extensions/kilowhat-formulaire/tr/"><img src="https://weblate.rob006.net/widgets/flarum-extensions/tr/kilowhat-formulaire/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+</tbody>
+</table>
