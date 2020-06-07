@@ -8,8 +8,8 @@
             "settings": {
                 "title": "Ustawienia szkiców",
                 "enable_scheduled_drafts": "Włącz planowanie publikacji szkiców",
-                "schedule_on_one_server": "",
-                "schedule_log_output": ""
+                "schedule_on_one_server": "Użyj dyrektywy \"onOneServer()\" dla harmonogramu zadań (task scheduler) (wymaga Redis/Memcache)",
+                "schedule_log_output": "Zapisz logi harmonogramu zadań"
             }
         },
         "console": {
