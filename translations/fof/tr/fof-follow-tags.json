@@ -3,7 +3,8 @@
         "forum": {
             "settings": {
                 "notify_new_discussion_label": "Birisi takip ettiğim bir etikette tartışma başlattığında",
-                "notify_new_post_label": "Birisi takip ettiğim bir etiketteki gönderiye gönderi yazdığında"
+                "notify_new_post_label": "Birisi takip ettiğim bir etiketteki gönderiye gönderi yazdığında",
+                "notify_new_discussion_tag_label": ""
             },
             "index": {
                 "follow_tag_button": "Takip et",
@@ -26,12 +27,14 @@
             },
             "notifications": {
                 "new_discussion_text": "{username} başlattı",
-                "new_post_text": "{username} gönderdi"
+                "new_post_text": "{username} gönderdi",
+                "new_discussion_tag_text": ""
             }
         },
         "email": {
             "newDiscussionInTag": "[Etiket | Yeni Tartışma] başlığı",
-            "newPostInTag": "[Etiket | Yeni Gönderi] başlığı"
+            "newPostInTag": "[Etiket | Yeni Gönderi] başlığı",
+            "newDiscussionTag": ""
         },
         "ref": {
             "follow": "Takip et",

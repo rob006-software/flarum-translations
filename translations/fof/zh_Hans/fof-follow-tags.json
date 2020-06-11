@@ -3,7 +3,8 @@
         "forum": {
             "settings": {
                 "notify_new_discussion_label": "我关注的标签有新主题",
-                "notify_new_post_label": "我关注的标签有新回复"
+                "notify_new_post_label": "我关注的标签有新回复",
+                "notify_new_discussion_tag_label": ""
             },
             "index": {
                 "follow_tag_button": "关注",
@@ -26,12 +27,14 @@
             },
             "notifications": {
                 "new_discussion_text": "{username} 发布了新主题",
-                "new_post_text": "{username} 发布了新回复"
+                "new_post_text": "{username} 发布了新回复",
+                "new_discussion_tag_text": ""
             }
         },
         "email": {
             "newDiscussionInTag": "[节点 | 新主题] 标题",
-            "newPostInTag": "[节点 | 新回复] 标题"
+            "newPostInTag": "[节点 | 新回复] 标题",
+            "newDiscussionTag": ""
         },
         "ref": {
             "follow": "关注",

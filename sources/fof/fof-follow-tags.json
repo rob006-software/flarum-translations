@@ -3,7 +3,8 @@
         "forum": {
             "settings": {
                 "notify_new_discussion_label": "Someone creates a discussion in a tag I'm following",
-                "notify_new_post_label": "Someone posts in a tag I'm following"
+                "notify_new_post_label": "Someone posts in a tag I'm following",
+                "notify_new_discussion_tag_label": "Someone re-tags a discussion to a tag I'm following"
             },
             "index": {
                 "follow_tag_button": "Follow",
@@ -26,12 +27,14 @@
             },
             "notifications": {
                 "new_discussion_text": "{username} started",
-                "new_post_text": "{username} posted"
+                "new_post_text": "{username} posted",
+                "new_discussion_tag_text": "{username} changed the tag"
             }
         },
         "email": {
             "newDiscussionInTag": "[Tag | New Discussion] title",
-            "newPostInTag": "[Tag | New Post] title"
+            "newPostInTag": "[Tag | New Post] title",
+            "newDiscussionTag": "[Tag | Changed Tag] title"
         },
         "ref": {
             "follow": "Follow",

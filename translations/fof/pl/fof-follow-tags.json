@@ -3,7 +3,8 @@
         "forum": {
             "settings": {
                 "notify_new_discussion_label": "Ktoś utworzył dyskusję w tagu, który obserwuję",
-                "notify_new_post_label": "Ktoś odpowiedział w tagu, który obserwuję"
+                "notify_new_post_label": "Ktoś odpowiedział w tagu, który obserwuję",
+                "notify_new_discussion_tag_label": ""
             },
             "index": {
                 "follow_tag_button": "Obserwuj",
@@ -26,12 +27,14 @@
             },
             "notifications": {
                 "new_discussion_text": "{username} rozpoczął",
-                "new_post_text": "{username} odpowiedział"
+                "new_post_text": "{username} odpowiedział",
+                "new_discussion_tag_text": ""
             }
         },
         "email": {
             "newDiscussionInTag": "[Nowa dyskusja w obserwowanym tagu] title",
-            "newPostInTag": "[Nowy post w obserwowanym tagu] title"
+            "newPostInTag": "[Nowy post w obserwowanym tagu] title",
+            "newDiscussionTag": ""
         },
         "ref": {
             "follow": "Obserwuj",
