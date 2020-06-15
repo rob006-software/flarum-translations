@@ -25,6 +25,9 @@ return [
 	'antoinefr-online' => [
 		'tag' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-online/0.4.0/locale/en.yml',
 	],
+	'artuu-imager' => [
+		'tag' => 'https://raw.githubusercontent.com/Artuuuu/flarum-imager/0.1.0/resources/locale/en.yml',
+	],
 	'askvortsov-auth-sync' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-auth-sync/v1.0.6/resources/locale/en.yml',
 	],
