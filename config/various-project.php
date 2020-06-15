@@ -367,6 +367,9 @@ return [
 	'wiwatsrt-best-answer' => [
 		'tag' => 'https://raw.githubusercontent.com/wiwatsrt/flarum-ext-best-answer/v0.2.4/locale/en.yml',
 	],
+	'wvbforum-post-license' => [
+		'tag' => 'https://raw.githubusercontent.com/JC-ProPlus/flarum-ext-post-license/0.1.0/resources/locale/en.yml',
+	],
 	'xelson-chat' => [
 		'tag' => 'https://raw.githubusercontent.com/Xelson/flarum-ext-chat/0.7.3/resources/locale/en.yaml',
 	],
