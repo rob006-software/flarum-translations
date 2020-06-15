@@ -142,6 +142,10 @@
                         "label": "Password",
                         "description": "The user password to authenticate with on the FTP server."
                     },
+                    "private-key": {
+                        "label": "Private Key",
+                        "description": "Path (preferably absolute) to a private key to use when authenticating the FTP connection."
+                    },
                     "port": {
                         "label": "Port",
                         "description": "The FTP port (defaults to 21)."
