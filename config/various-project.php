@@ -52,6 +52,9 @@ return [
 	'askvortsov-saml' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-saml/v1.0.3/resources/locale/en.yml',
 	],
+	'blessing-oauth-client' => [
+		'tag' => 'https://raw.githubusercontent.com/bs-community/flarum-oauth-client/v1.0.0/locale/en.yml',
+	],
 	'clarkwinkelmann-author-change' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-author-change/0.1.5/resources/locale/en.yml',
 	],
