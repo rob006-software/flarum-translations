@@ -143,7 +143,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ads/0.2.4/locale/en.yml',
 	],
 	'flagrow-analytics' => [
-		'tag' => 'https://raw.githubusercontent.com/flagrow/analytics/0.8.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flagrow/analytics/0.9.0/resources/locale/en.yml',
 	],
 	'flagrow-fonts' => [
 		'tag' => 'https://raw.githubusercontent.com/flagrow/fonts/0.2.0/resources/locale/en.yml',
