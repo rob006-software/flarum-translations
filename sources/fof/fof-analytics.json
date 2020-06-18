@@ -2,21 +2,23 @@
     "fof-analytics": {
         "admin": {
             "popup": {
-                "title": "Analytics Settings",
+                "title": "FoF Analytics",
                 "section": {
                     "googleAnalytics": "Google Analytics",
                     "piwik": "Piwik"
                 },
                 "field": {
                     "statusGoogle": "Enable Google Analytics",
+                    "optTrackingCode": "Optimize Tracking Code (optional)",
                     "googleTrackingCode": "Tracking Code ID",
+                    "googleGTMCode": "GTM code ID (optional)",
                     "statusPiwik": "Enable Piwik",
-                    "piwikUrl": "Piwik domain or url",
+                    "piwikUrl": "Piwik domain or URL",
                     "piwikSiteId": "Site ID",
                     "piwikTrackSubdomain": "Track visitors across all subdomains of Flarum",
                     "piwikPrependDomain": "Prepend the site domain to the page title when tracking",
                     "piwikHideAliasUrl": "In the \"Outlinks\" report, hide clicks to known alias URLs",
-                    "piwikAliasUrl": "Alias Url",
+                    "piwikAliasUrl": "Alias URL",
                     "piwikTrackAccounts": "Track individual user accounts",
                     "piwikAuthToken": "Authentication Token"
                 },
