@@ -2,16 +2,16 @@
     "fof-analytics": {
         "admin": {
             "popup": {
-                "title": "Ustawienia statystyk",
+                "title": "FoF Analytics",
                 "section": {
                     "googleAnalytics": "Google Analytics",
                     "piwik": "Piwik"
                 },
                 "field": {
                     "statusGoogle": "Włącz Google Analytics",
-                    "optTrackingCode": "",
+                    "optTrackingCode": "Identyfikator śledzenia Optimize (opcjonalne)",
                     "googleTrackingCode": "Identyfikator śledzenia",
-                    "googleGTMCode": "",
+                    "googleGTMCode": "Identyfikator śledzenia GTM (opcjonalne)",
                     "statusPiwik": "Włącz Piwik",
                     "piwikUrl": "Domena lub URL Piwik",
                     "piwikSiteId": "ID serwisu",
