@@ -4,7 +4,7 @@
             "settings": {
                 "notify_new_discussion_label": "Ktoś utworzył dyskusję w tagu, który obserwuję",
                 "notify_new_post_label": "Ktoś odpowiedział w tagu, który obserwuję",
-                "notify_new_discussion_tag_label": ""
+                "notify_new_discussion_tag_label": "Ktoś zmienił tagi dyskusji na tag, który obserwuję"
             },
             "index": {
                 "follow_tag_button": "Obserwuj",
@@ -28,13 +28,13 @@
             "notifications": {
                 "new_discussion_text": "{username} rozpoczął",
                 "new_post_text": "{username} odpowiedział",
-                "new_discussion_tag_text": ""
+                "new_discussion_tag_text": "{username} zmienił tagi"
             }
         },
         "email": {
             "newDiscussionInTag": "[Nowa dyskusja w obserwowanym tagu] title",
             "newPostInTag": "[Nowy post w obserwowanym tagu] title",
-            "newDiscussionTag": ""
+            "newDiscussionTag": "[Zmieniono tagi dyskusji] title"
         },
         "ref": {
             "follow": "Obserwuj",
