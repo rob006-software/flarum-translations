@@ -7,6 +7,9 @@
             "ask_your_question_on_forum": "Ask your question on the forums",
             "or": "or",
             "settings": "=> core.ref.settings",
+            "send": "Send",
+            "create": "Create",
+            "discard": "Discard",
             "hero": {
                 "help_question": "What can we help you with?",
                 "check_forum": "If you can't find where you're looking for, <a>check out our forum</a>"
@@ -44,10 +47,10 @@
             },
             "article": {
                 "hidden": "Hidden",
-                "created_at": "Created at:",
+                "created_at": "Created at",
                 "author": "Author",
                 "authors": "Authors",
-                "last_modified": "Last modified at:",
+                "last_modified": "Last modified at",
                 "not_found": "Article not found",
                 "share_article": {
                     "title": "Share article",
@@ -57,16 +60,44 @@
                     "rename_article": "Rename article",
                     "edit_article": "Edit article",
                     "edit_tags": "Edit article tags",
-                    "event_logs": "See event logs",
+                    "audit_log": "See audit log",
                     "hide_article": "Hide article",
                     "recover_article": "Recover article",
-                    "delete_forever": "Delete forever"
+                    "delete_forever": "Delete forever",
+                    "view_ratings": "View ratings"
+                }
+            },
+            "support_ratings": {
+                "helful_article": "Was this article helpful?",
+                "helful_support": "Are you satisfied with how we handled your support ticket?",
+                "feedback": "Thank you for your review, do you have any feedback?",
+                "feedback_not_helpful": "Sorry this article was not helpful, what were you looking for?",
+                "enter_feedback": "Enter your feedback here",
+                "finished": "Thank you! Your feedback has been saved.",
+                "validation": {
+                    "invalid_discussion": "Woops, something went wrong. You cannot rate this article/support ticket.",
+                    "guest": "Please log in before you rate this article.",
+                    "invalid_points": "Invalid rating. Please try again.",
+                    "cannot_rate_article": "You cannot rate this article."
                 }
             },
             "modals": {
-                "events": {
-                    "title": "Article events list",
-                    "article_created": "Article was created"
+                "audit_log": {
+                    "title": "Article audit log",
+                    "article_created": "Article was created",
+                    "no_more_events": "No more events found",
+                    "loading_auditlog": "Loading audit log"
+                },
+                "article_ratings": {
+                    "title": "Article ratings",
+                    "loading_ratings": "Loading ratings",
+                    "no_ratings_found": "No ratings found matching your search criteria",
+                    "article_not_rated": "This article has not been rated yet.",
+                    "confirm_delete_rating": "Are you sure you want to delete this rating?",
+                    "feedback": "Feedback",
+                    "rating": "Rating",
+                    "username": "=> core.ref.username",
+                    "rated_on": "Rated on"
                 }
             },
             "utils": {
@@ -74,6 +105,19 @@
                     "title": "Redirecting you to our Knowledge Base article...",
                     "link": "<a>Click here</a> if the page does not redirect you"
                 }
+            },
+            "composer": {
+                "compose_article": "Compose article",
+                "new_article_title": "New article title",
+                "enter_message_here": "Enter your message here",
+                "publish_article": "Publish article",
+                "publish_article_hint": "Publish article after posting.",
+                "manage_tags": "Manage tags",
+                "write": "Write",
+                "view": "View",
+                "nothing_to_preview": "Nothing to preview",
+                "warning_save_changes": "WARNING: You are about to leave this page and haven't saved your changes. Do you want to save your changes before leaving?\n\n[OK] = Yes, save. [CANCEL] = No, don't save\n",
+                "article_saved": "Article has been saved"
             }
         }
     }

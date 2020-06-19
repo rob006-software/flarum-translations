@@ -7,6 +7,9 @@
             "ask_your_question_on_forum": "",
             "or": "",
             "settings": "",
+            "send": "",
+            "create": "",
+            "discard": "",
             "hero": {
                 "help_question": "",
                 "check_forum": ""
@@ -57,13 +60,46 @@
                     "rename_article": "",
                     "edit_article": "",
                     "edit_tags": "",
-                    "event_logs": "",
+                    "audit_log": "",
                     "hide_article": "",
                     "recover_article": "",
-                    "delete_forever": ""
+                    "delete_forever": "",
+                    "view_ratings": "",
+                    "event_logs": ""
+                }
+            },
+            "support_ratings": {
+                "helful_article": "",
+                "helful_support": "",
+                "feedback": "",
+                "feedback_not_helpful": "",
+                "enter_feedback": "",
+                "finished": "",
+                "validation": {
+                    "invalid_discussion": "",
+                    "guest": "",
+                    "invalid_points": "",
+                    "cannot_rate_article": ""
                 }
             },
             "modals": {
+                "audit_log": {
+                    "title": "",
+                    "article_created": "",
+                    "no_more_events": "",
+                    "loading_auditlog": ""
+                },
+                "article_ratings": {
+                    "title": "",
+                    "loading_ratings": "",
+                    "no_ratings_found": "",
+                    "article_not_rated": "",
+                    "confirm_delete_rating": "",
+                    "feedback": "",
+                    "rating": "",
+                    "username": "",
+                    "rated_on": ""
+                },
                 "events": {
                     "title": "",
                     "article_created": ""
@@ -74,6 +110,19 @@
                     "title": "",
                     "link": ""
                 }
+            },
+            "composer": {
+                "compose_article": "",
+                "new_article_title": "",
+                "enter_message_here": "",
+                "publish_article": "",
+                "publish_article_hint": "",
+                "manage_tags": "",
+                "write": "",
+                "view": "",
+                "nothing_to_preview": "",
+                "warning_save_changes": "",
+                "article_saved": ""
             }
         }
     }
