@@ -1,0 +1,57 @@
+{
+    "clarkwinkelmann-scratchpad": {
+        "admin": {
+            "settings": {
+                "title": "Ustawienia notatnika",
+                "single-column": "Grupuj edytory w jednej kolumnie zamiast 3",
+                "theme": "Motyw CodeMirror (wymaga odświeżenia strony po zmianie)",
+                "theme-auto": "Automatycznie (domyślny na jasnym motywie, darcula na ciemnym)",
+                "indent": "Liczba spacji dla wcięcia",
+                "npm-install-command": "Komenda instalacji dla NPM",
+                "webpack-command": "Komenda dla Webpack",
+                "empty-for-default": "Zostaw puste, aby użyć domyślnej komendy",
+                "compile-automatically": "Kompiluj JS automatycznie po zapisaniu"
+            },
+            "controls": {
+                "refresh": "Odśwież",
+                "save": "Zapisz",
+                "compile": "Kompiluj JS",
+                "settings": "Ustawienia edytora",
+                "new": "Nowy",
+                "new-confirmation": "Bieżący notatnik nie jest zapisany. Porzucić zmiany i utworzyć nowy?",
+                "delete": "Usuń",
+                "delete-confirmation": "Usunąć \"{title}\"?",
+                "enable": "Kliknij, aby włączyć",
+                "disable": "Kliknij, aby wyłączyć"
+            },
+            "fields": {
+                "title": "Nazwa notatnika",
+                "admin_js": "JS panelu admina",
+                "forum_js": "JS forum",
+                "admin_less": "Less panelu admina",
+                "forum_less": "Less forum",
+                "php": "PHP"
+            },
+            "placeholders": {
+                "untitled": "Bez nazwy",
+                "php-comment": "Zarejestruj rozszerzenia (extenders) tutaj",
+                "js-log": "Cześć, {frontend}!"
+            },
+            "compilation-alert": {
+                "success": "Skompilowano!",
+                "failure": "Niepowodzenie kompilacji!",
+                "view-output": "Wyświetl dane wyjściowe"
+            },
+            "compilation-modal": {
+                "title": "Dane wyjściowe kompilacji",
+                "webpack": "Wyjście Webpack",
+                "npm": "Wyjście NPM",
+                "npm-not-run": "NPM nie uruchomił się"
+            },
+            "menu": {
+                "title": "Notatnik",
+                "description": "Z łatwością testuj kod na swoim forum developerskim"
+            }
+        }
+    }
+}

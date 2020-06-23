@@ -1,0 +1,47 @@
+{
+    "fof-follow-tags": {
+        "forum": {
+            "settings": {
+                "notify_new_discussion_label": "Ktoś utworzył dyskusję w tagu, który obserwuję",
+                "notify_new_post_label": "Ktoś odpowiedział w tagu, który obserwuję",
+                "notify_new_discussion_tag_label": "Ktoś zmienił tagi dyskusji na tag, który obserwuję"
+            },
+            "index": {
+                "follow_tag_button": "Obserwuj",
+                "unfollow_tag_button": "Przestań obserwować"
+            },
+            "sub_controls": {
+                "follow_button": "=> fof-follow-tags.ref.follow",
+                "following_button": "=> fof-follow-tags.ref.following",
+                "following_text": "Będziesz powiadamiany o wszystkich nowych dyskusjach.",
+                "hiding_button": "=> fof-follow-tags.ref.hiding",
+                "hiding_text": "Ukryj dyskusje ze strony \"Wszystkie dyskusje\".",
+                "ignoring_button": "=> fof-follow-tags.ref.ignoring",
+                "ignoring_text": "Nigdy nie będziesz powiadamiany o odpowiedziach.",
+                "lurking_button": "=> fof-follow-tags.ref.lurking",
+                "lurking_text": "Będziesz powiadamiany o wszystkich nowych dyskusjach i odpowiedziach.",
+                "not_following_button": "Nie obserwujesz",
+                "not_following_text": "Będziesz powiadamiany tylko wtedy, kiedy zostaniesz @wspomniany.",
+                "notify_alert_tooltip": "Otrzymuj powiadomienia na forum, kiedy pojawią się nowe dyskusje lub posty",
+                "notify_email_tooltip": "Otrzymuj powiadomienia e-mail, kiedy pojawią się nowe dyskusje lub posty"
+            },
+            "notifications": {
+                "new_discussion_text": "{username} rozpoczął",
+                "new_post_text": "{username} odpowiedział",
+                "new_discussion_tag_text": "{username} zmienił tagi"
+            }
+        },
+        "email": {
+            "newDiscussionInTag": "[Nowa dyskusja w obserwowanym tagu] title",
+            "newPostInTag": "[Nowy post w obserwowanym tagu] title",
+            "newDiscussionTag": "[Zmieniono tagi dyskusji] title"
+        },
+        "ref": {
+            "follow": "Obserwuj",
+            "following": "Obserwujesz",
+            "hiding": "Ukryte",
+            "ignoring": "Ignorujesz",
+            "lurking": "Podpatrujesz"
+        }
+    }
+}

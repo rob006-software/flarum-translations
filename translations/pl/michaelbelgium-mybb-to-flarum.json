@@ -1,0 +1,74 @@
+{
+    "michaelbelgium-mybb-to-flarum": {
+        "admin": {
+            "nav": {
+                "title": "Migracja MyBB do Flarum",
+                "description_text": "Konwertuj forum MyBB do tej instalacji Flarum"
+            },
+            "content": {
+                "description_text": "Konwertuj forum MyBB do tej instalacji Flarum. Wypełnij wymagane dane, po czym kliknij \"Migruj\".",
+                "convert_button": "Migruj",
+                "form": {
+                    "general": {
+                        "title": "Ustawienia ogólne",
+                        "migrate_avatars_label": "Migruj awatary",
+                        "migrate_soft_threads_label": "Migruj ukryte (soft deleted) wątki",
+                        "migrate_soft_posts_label": "Migruj ukryte (soft deleted) posty"
+                    },
+                    "mybb": {
+                        "title": "Ustawienia MyBB",
+                        "host_label": "Host bazy danych",
+                        "user_label": "Użytkownik bazy danych",
+                        "password_label": "Hasło do bazy danych",
+                        "db_label": "Nazwa bazy danych",
+                        "prefix_label": "Prefiks tabeli",
+                        "path_label": "Absolutna ścieżka do MyBB"
+                    },
+                    "options": {
+                        "title": "Ogólne opcje migracji",
+                        "migrate_users_label": "Migruj użytkowników",
+                        "migrate_threadsPosts_label": "Migruj wątki i posty",
+                        "migrate_userGroups_label": "Migruj grupy użytkowników",
+                        "migrate_categories_label": "Migruj kategorie"
+                    }
+                }
+            }
+        }
+    },
+    "mybbtoflarum": {
+        "admin": {
+            "nav": {
+                "title": "Migracja MyBB do Flarum",
+                "description": "Konwertuj forum MyBB do tej instalacji Flarum"
+            },
+            "page": {
+                "text": "Konwertuj forum MyBB do tej instalacji Flarum. Wypełnij wymagane dane, po czym kliknij \"Migruj\".",
+                "btnConvert": "Migruj",
+                "form": {
+                    "general": {
+                        "title": "Ustawienia ogólne",
+                        "migrateAvatars": "Migruj awatary",
+                        "migrateSoftThreads": "Migruj ukryte (soft deleted) wątki",
+                        "migrateSoftPosts": "Migruj ukryte (soft deleted) posty"
+                    },
+                    "mybb": {
+                        "title": "Ustawienia MyBB",
+                        "host": "Host bazy danych",
+                        "user": "Użytkownik bazy danych",
+                        "password": "Hasło do bazy danych",
+                        "db": "Nazwa bazy danych",
+                        "prefix": "Prefiks tabeli",
+                        "mybbPath": "Absolutna ścieżka do MyBB"
+                    },
+                    "options": {
+                        "title": "Ogólne opcje migracji",
+                        "migrateUsers": "Migruj użytkowników",
+                        "migrateThreadsPosts": "Migruj wątki i posty",
+                        "migrateUserGroups": "Migruj grupy użytkowników",
+                        "migrateCategories": "Migruj kategorie"
+                    }
+                }
+            }
+        }
+    }
+}

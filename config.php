@@ -11,20 +11,16 @@
 
 declare(strict_types=1);
 
+require __DIR__ . '/utils/helpers.php';
+
 return [
 	'dir' => __DIR__,
 	'sourcesDir' => __DIR__ . '/sources',
 	'translationsDir' => __DIR__ . '/translations',
-	'projects' => [
-		'flarum' => require __DIR__ . '/config/flarum-project.php',
-		'fof' => require __DIR__ . '/config/fof-project.php',
-		'various' => require __DIR__ . '/config/various-project.php',
-	],
+	'components' => require __DIR__ . '/config/components.php',
 	'languages' => require __DIR__ . '/config/languages.php',
 	'subsplits' => require __DIR__ . '/config/subsplits.php',
-	'vendors' => [
-		'various' => require __DIR__ . '/config/various-vendors.php',
-	],
+	'vendors' => require __DIR__ . '/config/vendors.php',
 	'supportedVersions' => [
 		'0.1.0-beta.8',
 		'0.1.0-beta-8',
@@ -32,5 +28,6 @@ return [
 		'0.1.0-beta.10',
 		'0.1.0-beta.11',
 		'0.1.0-beta.12',
+		'0.1.0-beta.13',
 	],
 ];

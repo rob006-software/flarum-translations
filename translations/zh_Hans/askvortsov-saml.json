@@ -1,0 +1,32 @@
+{
+    "askvortsov-saml": {
+        "admin": {
+            "title": "SAML2 SSO - 设置",
+            "labels": {
+                "idp_metadata_url": "身份验证服务商元数据 URL（代替 XML）",
+                "idp_metadata": "身份验证服务商元数据 XML（代替 URL）",
+                "only_option": "使用 SAML2 SSO 作为唯一登录选项吗？",
+                "sync_attributes": "同步属性（头像、用户组、个性签名、个人资料）？需要安装 askvortsov/auth-sync 插件（传送门：http://t.cn/A6hwoQnb）。",
+                "nameid_format": ""
+            },
+            "options": {
+                "nameid_format": {
+                    "persistent": "持久化（如果支持，推荐使用此项）",
+                    "emailAddress": "邮箱（默认，如果不支持持久化）",
+                    "unspecified": "不指定"
+                }
+            },
+            "nameid_format": "NameID 格式"
+        },
+        "forum": {
+            "log_in": {
+                "with_saml_button": "SAML2 单点登录",
+                "open_popup": "点此登录",
+                "enable_popups": "启用登录/注册弹窗"
+            },
+            "sign_up": {
+                "post_saml_title": ""
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "jslirola-login2seeplus": {
+        "forum": {
+            "post": "You have to {login} or {register} to see the full post",
+            "link": "Login to see the link",
+            "image": "Login to see the image",
+            "code": "Login to see the code"
+        },
+        "admin": {
+            "title": "Login2SeePlus",
+            "hide": "Hide",
+            "link": "Links",
+            "image": "Images",
+            "code": "Code",
+            "post": {
+                "title": "Hide content exceeding this length",
+                "help": "Enter <em>-1</em> to show all."
+            },
+            "php": {
+                "title": "Legacy Mode",
+                "help": "*NOT RECOMMENDED* Do the work in the backend to support old browsers.  You need to have <code>mb_substr</code> and <code>mb_strlen</code> enabled.",
+                "label": "Use PHP"
+            }
+        }
+    }
+}

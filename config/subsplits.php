@@ -12,6 +12,7 @@
 declare(strict_types=1);
 
 use app\components\release\PolishReleaseGenerator;
+use function rob006\flarum\translations\helpers\getComponents;
 
 return [
 	'pl' => [
@@ -22,5 +23,19 @@ return [
 		'repository' => 'git@github.com:rob006-software/flarum-lang-polish.git',
 		'branch' => 'master',
 		'path' => '/locale',
+		'components' => getComponents([
+			// do not export premium extensions for now - they're only partially translated and existing
+			// translations need verification
+			// @see https://github.com/rob006-software/flarum-lang-polish/issues/5
+			'!datitisev-backup',
+			'!datitisev-maintenance',
+			'!kilowhat-custom-paths',
+			'!kilowhat-formulaire',
+			'!kilowhat-wordpress',
+			'!kyrne-websocket',
+			'!reflar-recache',
+			'!reflar-webhooks-pro',
+			'!v17development-support',
+		]),
 	],
 ];

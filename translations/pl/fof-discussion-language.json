@@ -1,0 +1,34 @@
+{
+    "fof-discussion-language": {
+        "forum": {
+            "change_language": {
+                "edit_title": "Edycja języka dla {title}",
+                "title": "Edycja języka",
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "composer_discussion": {
+                "choose_language_link": "Język"
+            },
+            "discussion_controls": {
+                "change_language_button": "Ustaw język"
+            },
+            "index_language": {
+                "any": "Dowolny język"
+            }
+        },
+        "admin": {
+            "settings": {
+                "title": "Język dyskusji",
+                "native_label": "Używaj lokalnych nazw języków"
+            },
+            "permissions": {
+                "allow_change_language_label": "Edytowanie języka dyskusji"
+            }
+        },
+        "api": {
+            "discussion": {
+                "validation_error": "Musisz wybrać język dyskusji."
+            }
+        }
+    }
+}
