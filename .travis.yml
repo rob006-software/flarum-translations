@@ -11,6 +11,6 @@ install:
   - git clone https://github.com/rob006-software/flarum-translations-builder.git builder || git -C builder pull
   - composer install --working-dir builder
 
-script: builder/yii translations/update '' "@app/../config.php" --update=0
+script: builder/yii translations/update "@app/../config.php" --update=0
 
 after_success: git add -A . && git diff HEAD
