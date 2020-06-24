@@ -12,29 +12,10 @@ If you're maintaining language pack or want to add it to the collective, open an
 
 ## Translation status by language
 
-<table>
-<tbody>
-<tr>
-<th>Core and official extensions</th>
-<th>Friends of Flarum extensions</th>
-</tr>
-<tr>
-<td><a href="https://weblate.rob006.net/engage/flarum/"><img src="https://weblate.rob006.net/widgets/flarum/-/multi-auto.svg" alt="Translation status" style="max-width:100%;"></a></td>
-<td><a href="https://weblate.rob006.net/engage/friends-of-flarum/"><img src="https://weblate.rob006.net/widgets/friends-of-flarum/-/multi-auto.svg" alt="Translation status" style="max-width:100%;"></a></td>
-</tr>
-<tr>
-<th colspan="2">Community extensions</th>
-</tr>
-<tr>
-<td colspan="2"><a href="https://weblate.rob006.net/engage/flarum-extensions/"><img src="https://weblate.rob006.net/widgets/flarum-extensions/-/multi-auto.svg" alt="Translation status" style="max-width:100%;"></a></td>
-</tr>
-</tbody>
-</table>
+<a href="https://weblate.rob006.net/engage/flarum/"><img src="https://weblate.rob006.net/widgets/flarum/-/multi-auto.svg" alt="Translation status" style="max-width:100%;"></a>
 
 
 ## Flarum core and official extensions translation status 
-
-[![Translation status](https://weblate.rob006.net/widgets/flarum/-/287x66-white.png)](https://weblate.rob006.net/engage/flarum/)
 
 | Component | Status |
 | --- | --- |
@@ -67,8 +48,6 @@ If you're maintaining language pack or want to add it to the collective, open an
 
 
 ## Friends of Flarum extensions translation status
-
-[![Translation status](https://weblate.rob006.net/widgets/friends-of-flarum/-/287x66-white.png)](https://weblate.rob006.net/engage/friends-of-flarum/)
 
 <!-- fof-extensions-list-start -->
 
@@ -132,8 +111,6 @@ If you're maintaining language pack or want to add it to the collective, open an
 
 
 ## Community extensions translation status
-
-[![Translation status](https://weblate.rob006.net/widgets/flarum-extensions/-/287x66-white.png)](https://weblate.rob006.net/engage/flarum-extensions/)
 
 <!-- various-extensions-list-start -->
 
