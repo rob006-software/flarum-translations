@@ -4,10 +4,10 @@
             "delete_rule_confirmation": "Czy jesteś pewien, że chcesz usunąć tę regułę?",
             "edit_rule": {
                 "applywhen_label": "Zastosuj podczas",
-                "applywhen_help": "Domyślnie powinno być zaznaczone \"zapisywanie posta\". \"Wczytywanie posta\" powinno być stosowane z rozwagą i tylko gdy to konieczne.",
+                "applywhen_help": "Domyślnie powinno być zaznaczone \"Zapisywanie\". \"Wczytywanie\" powinno być stosowane z rozwagą i tylko gdy to konieczne.",
                 "delete_confirmation": "Czy jesteś pewien, że chcesz usunąć tę regułę?",
                 "flag_label": "Zgłaszanie postów",
-                "flag_help": "Jeśli zostanie znalezione dopasowanie, a rozszerzenie <code>flarum/flags</code> jest włączone, post zostanie oznaczony do sprawdzenia przez moderatora.",
+                "flag_help": "Jeśli zostanie znalezione dopasowanie, a rozszerzenie <code>flarum/flags</code> jest włączone, post zostanie oznaczony do sprawdzenia przez moderatora. Filtrowanie opisu w profilu nie jest obecnie wspierane.",
                 "name_label": "Nazwa",
                 "name_help": "Nazwa nadana tej regule. Będzie również wyświetlana przy zgłoszeniu, jeśli zgłaszanie postów jest włączone.",
                 "regex_label": "Wyrażenie regularne",
@@ -18,8 +18,8 @@
                 "submit_button": "Zapisz zmiany",
                 "title": "Utwórz/edytuj regułę",
                 "action": {
-                    "save": "Zapisywanie posta",
-                    "load": "Wczytywanie posta (to może niekorzystnie wpłynąć na wydajność)"
+                    "save": "Zapisywanie",
+                    "load": "Wczytywanie (to może niekorzystnie wpłynąć na wydajność)"
                 }
             },
             "decontaminator": {
@@ -35,7 +35,7 @@
             }
         },
         "forum": {
-            "tooltip": ""
+            "tooltip": "Ta treść została podmieniona przez filtr"
         }
     }
 }
