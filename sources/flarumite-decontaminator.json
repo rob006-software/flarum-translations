@@ -4,10 +4,10 @@
             "delete_rule_confirmation": "Are you sure?",
             "edit_rule": {
                 "applywhen_label": "Apply When",
-                "applywhen_help": "By default, 'saving a post' should be selected. 'Loading a post' should be used sparingly and only on a needs-must scenario.",
+                "applywhen_help": "By default, 'saving' should be selected. 'Loading' should be used sparingly and only on a needs-must scenario.",
                 "delete_confirmation": "Are you sure you want to delete this?",
                 "flag_label": "Flag",
-                "flag_help": "If a match is found, and flarum/flags is enabled, the post will be flagged for moderator review.",
+                "flag_help": "If a match is found, and flarum/flags is enabled, the post will be flagged for moderator review. Flagging against user bio content is not currently supported",
                 "name_label": "Name",
                 "name_help": "The name given to this rule. Will also be displayed in the post flag border if flagging is enabled.",
                 "regex_label": "Regex",
@@ -18,8 +18,8 @@
                 "submit_button": "Save Changes",
                 "title": "Create/Edit Decontaminator Rule",
                 "action": {
-                    "save": "Saving a Post",
-                    "load": "Loading a Post (this can have an adverse performance impact)"
+                    "save": "Saving",
+                    "load": "Loading (this can have an adverse performance impact)"
                 }
             },
             "decontaminator": {
@@ -32,6 +32,9 @@
             "permissions": {
                 "bypass-filter": "Bypass rules defined in the decontaminator"
             }
+        },
+        "forum": {
+            "tooltip": "This content was replaced by the filter"
         }
     }
 }
