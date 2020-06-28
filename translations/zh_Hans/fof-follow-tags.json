@@ -8,7 +8,16 @@
             },
             "index": {
                 "follow_tag_button": "关注",
-                "unfollow_tag_button": "取消关注"
+                "unfollow_tag_button": "取消关注",
+                "following": {
+                    "following_none_label": "",
+                    "following_all_label": "",
+                    "following_tags_label": ""
+                }
+            },
+            "badge": {
+                "following_tag_tooltip": "",
+                "lurking_tag_tooltip": ""
             },
             "sub_controls": {
                 "follow_button": "=> fof-follow-tags.ref.follow",
@@ -29,6 +38,21 @@
                 "new_discussion_text": "{username} 发布了新主题",
                 "new_post_text": "{username} 发布了新回复",
                 "new_discussion_tag_text": ""
+            },
+            "user": {
+                "settings": {
+                    "heading": "",
+                    "filter_label": ""
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "title": "",
+                "following_page_default_label": "",
+                "following_none_label": "",
+                "following_tags_label": "",
+                "following_all_label": ""
             }
         },
         "email": {
@@ -41,7 +65,12 @@
             "following": "关注中",
             "hiding": "隐藏中",
             "ignoring": "忽视中",
-            "lurking": "吃瓜中"
+            "lurking": "吃瓜中",
+            "filtering_options": {
+                "none": "",
+                "all": "",
+                "tags": ""
+            }
         }
     }
 }
