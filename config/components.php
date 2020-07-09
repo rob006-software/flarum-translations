@@ -419,11 +419,11 @@ return [
 	'kilowhat-affiliation-links' => [
 		'tag' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-affiliation-links/0.2.0/resources/locale/en.yml',
 	],
-	'kilowhat-audit-pro' => [
-		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/kilowhat-audit-pro.yml',
-	],
 	'kilowhat-audit-free' => [
 		'tag' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-audit-free/1.1.0/resources/locale/en.yml',
+	],
+	'kilowhat-audit-pro' => [
+		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/kilowhat-audit-pro.yml',
 	],
 	'kilowhat-custom-paths' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/kilowhat-custom-paths.yml',
