@@ -450,7 +450,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-spoiler-bbcode/0.1.0/resources/locale/en.yml',
 	],
 	'kyrne-shout' => [
-		'tag' => 'https://raw.githubusercontent.com/KyrneDev/Shout-public/0.1.13/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/KyrneDev/Shout-public/0.1.14/resources/locale/en.yml',
 	],
 	'kyrne-websocket' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/kyrne-websocket.yml',
