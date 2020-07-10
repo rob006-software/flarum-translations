@@ -44,6 +44,10 @@
                     "tag": "Tag #{id}",
                     "user": "User #{id}"
                 },
+                "genericResource": {
+                    "comment": "Comment",
+                    "post": "Post"
+                },
                 "permissionGroup": {
                     "everyone": "=> core.admin.permissions_controls.everyone_button",
                     "members": "=> core.admin.permissions_controls.members_button"
@@ -69,6 +73,7 @@
                 "cache_cleared": "Manually cleared the cache",
                 "discussion": {
                     "created": "Started discussion {discussion}",
+                    "create_date_changed": "Changed {discussion} start date from {old_date} to {new_date}",
                     "deleted": "Deleted discussion {discussion}",
                     "hidden": "Hid discussion {discussion}",
                     "locked": "Locked discussion {discussion}",
@@ -79,7 +84,8 @@
                     "stickied": "Stickied discussion {discussion}",
                     "tagged": "Updated {discussion} tags from {old_tags} to {new_tags}",
                     "unlocked": "Unlocked discussion {discussion}",
-                    "unstickied": "Unstickied discussion {discussion}"
+                    "unstickied": "Unstickied discussion {discussion}",
+                    "user_changed": "Changed {discussion} author from {old_user} to {new_user}"
                 },
                 "extension": {
                     "disabled": "Disabled extension {package}",
@@ -92,11 +98,14 @@
                 "permission_changed": "Edited permission {permission} from {old_groups} to {new_groups}",
                 "post": {
                     "created": "Created a {post} in {discussion}",
+                    "create_date_changed": "Changed {postuser}'s {post} start date from {old_date} to {new_date}",
                     "deleted": "Deleted {postuser}'s {post} in {discussion}",
+                    "edit_date_changed": "Changed {postuser}'s {post} edit date from {old_date} to {new_date}",
                     "flagged": "Flagged {postuser}'s {post} in {discussion}",
                     "hidden": "Hid {postuser}'s {post} in {discussion}",
                     "restored": "Restored {postuser}'s {post} in {discussion}",
-                    "revised": "Revised {postuser}'s {post} in {discussion}"
+                    "revised": "Revised {postuser}'s {post} in {discussion}",
+                    "user_changed": "Changed {post} author from {old_user} to {new_user}"
                 },
                 "setting_changed": "Edited setting {key}",
                 "setting_changed_with_values": "Edited setting {key} from {old_value} to {new_value}",
