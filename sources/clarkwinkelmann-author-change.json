@@ -2,11 +2,14 @@
     "clarkwinkelmann-author-change": {
         "forum": {
             "controls": {
-                "edit": "Edit Author"
+                "edit": "Edit Author and Date"
             },
             "modal": {
-                "title-post": "Edit Post Author",
-                "title-discussion": "Edit Discussion Author",
+                "title-post": "Edit Post Author and Date",
+                "title-discussion": "Edit Discussion Author and Date",
+                "user": "Author",
+                "created_at": "Creation time",
+                "edited_at": "Edit time",
                 "submit": "Save",
                 "cancel": "Cancel"
             },
@@ -18,7 +21,8 @@
         },
         "admin": {
             "permissions": {
-                "edit": "Update discussion and post author"
+                "edit-user": "Update discussion and post author",
+                "edit-date": "Update discussion and post date"
             }
         }
     }

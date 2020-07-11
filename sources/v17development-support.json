@@ -45,12 +45,19 @@
                 "use_searchbox_below": "Use the searchbox below to search in our knowledge base.",
                 "no_results": "We couldn't find anything for {searchterm}."
             },
+            "not_found": {
+                "title": "Item not found",
+                "description": "Sorry, this article or category no longer exist on this place.",
+                "solution": "You might use the search box above to find where you were looking for."
+            },
             "article": {
+                "article": "Article",
+                "articles": "Articles",
                 "hidden": "Hidden",
-                "created_at": "Created at",
+                "created_at": "Created at {date}",
                 "author": "Author",
                 "authors": "Authors",
-                "last_modified": "Last modified at",
+                "last_modified": "Last modified at {date}",
                 "not_found": "Article not found",
                 "share_article": {
                     "title": "Share article",
@@ -78,7 +85,9 @@
                     "invalid_discussion": "Woops, something went wrong. You cannot rate this article/support ticket.",
                     "guest": "Please log in before you rate this article.",
                     "invalid_points": "Invalid rating. Please try again.",
-                    "cannot_rate_article": "You cannot rate this article."
+                    "cannot_rate_article": "You cannot rate this article.",
+                    "neutral_emoji_disabled": "The neutral emoji has been disabled.",
+                    "missing_article_id": "Missing or invalid article ID"
                 }
             },
             "modals": {

@@ -1,5 +1,12 @@
 {
-    "fof-userbio": {
+    "fof-user-bio": {
+        "admin": {
+            "permission": {
+                "view": "View bio",
+                "editOwn": "Edit own bio",
+                "editAny": "Edit any bio"
+            }
+        },
         "forum": {
             "userbioPlaceholder": "Write something about yourself"
         }

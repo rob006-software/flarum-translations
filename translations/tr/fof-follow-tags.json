@@ -8,7 +8,16 @@
             },
             "index": {
                 "follow_tag_button": "Takip et",
-                "unfollow_tag_button": "Takibi bırak"
+                "unfollow_tag_button": "Takibi bırak",
+                "following": {
+                    "following_none_label": "",
+                    "following_all_label": "",
+                    "following_tags_label": ""
+                }
+            },
+            "badge": {
+                "following_tag_tooltip": "",
+                "lurking_tag_tooltip": ""
             },
             "sub_controls": {
                 "follow_button": "=> fof-follow-tags.ref.follow",
@@ -29,6 +38,21 @@
                 "new_discussion_text": "{username} başlattı",
                 "new_post_text": "{username} gönderdi",
                 "new_discussion_tag_text": ""
+            },
+            "user": {
+                "settings": {
+                    "heading": "",
+                    "filter_label": ""
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "title": "",
+                "following_page_default_label": "",
+                "following_none_label": "",
+                "following_tags_label": "",
+                "following_all_label": ""
             }
         },
         "email": {
@@ -41,7 +65,12 @@
             "following": "Takip ediliyor",
             "hiding": "Gizle",
             "ignoring": "Engelle",
-            "lurking": "Gizlenmiş"
+            "lurking": "Gizlenmiş",
+            "filtering_options": {
+                "none": "",
+                "all": "",
+                "tags": ""
+            }
         }
     }
 }

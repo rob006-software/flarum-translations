@@ -12,29 +12,10 @@ If you're maintaining language pack or want to add it to the collective, open an
 
 ## Translation status by language
 
-<table>
-<tbody>
-<tr>
-<th>Core and official extensions</th>
-<th>Friends of Flarum extensions</th>
-</tr>
-<tr>
-<td><a href="https://weblate.rob006.net/engage/flarum/"><img src="https://weblate.rob006.net/widgets/flarum/-/multi-auto.svg" alt="Translation status" style="max-width:100%;"></a></td>
-<td><a href="https://weblate.rob006.net/engage/friends-of-flarum/"><img src="https://weblate.rob006.net/widgets/friends-of-flarum/-/multi-auto.svg" alt="Translation status" style="max-width:100%;"></a></td>
-</tr>
-<tr>
-<th colspan="2">Community extensions</th>
-</tr>
-<tr>
-<td colspan="2"><a href="https://weblate.rob006.net/engage/flarum-extensions/"><img src="https://weblate.rob006.net/widgets/flarum-extensions/-/multi-auto.svg" alt="Translation status" style="max-width:100%;"></a></td>
-</tr>
-</tbody>
-</table>
+<a href="https://weblate.rob006.net/engage/flarum/"><img src="https://weblate.rob006.net/widgets/flarum/-/multi-auto.svg" alt="Translation status" style="max-width:100%;"></a>
 
 
 ## Flarum core and official extensions translation status 
-
-[![Translation status](https://weblate.rob006.net/widgets/flarum/-/287x66-white.png)](https://weblate.rob006.net/engage/flarum/)
 
 | Component | Status |
 | --- | --- |
@@ -67,8 +48,6 @@ If you're maintaining language pack or want to add it to the collective, open an
 
 
 ## Friends of Flarum extensions translation status
-
-[![Translation status](https://weblate.rob006.net/widgets/friends-of-flarum/-/287x66-white.png)](https://weblate.rob006.net/engage/friends-of-flarum/)
 
 <!-- fof-extensions-list-start -->
 
@@ -133,8 +112,6 @@ If you're maintaining language pack or want to add it to the collective, open an
 
 ## Community extensions translation status
 
-[![Translation status](https://weblate.rob006.net/widgets/flarum-extensions/-/287x66-white.png)](https://weblate.rob006.net/engage/flarum-extensions/)
-
 <!-- various-extensions-list-start -->
 
 | Extension | Status |
@@ -142,7 +119,8 @@ If you're maintaining language pack or want to add it to the collective, open an
 | [Advanced Pusher by Zhishiq](https://github.com/ZhiShiQ/FlarumPusher) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/zhishiq-pusher/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/zhishiq-pusher/) |
 | [Affiliation Links by Kilowhat](https://github.com/kilowhat/flarum-ext-affiliation-links) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/kilowhat-affiliation-links/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/kilowhat-affiliation-links/) |
 | [Artuu Imager by Artuu](https://github.com/Artuuuu/flarum-imager) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/artuu-imager/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/artuu-imager/) |
-| [Audit by Kilowhat](https://extiverse.com/extension/kilowhat/flarum-ext-audit) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/kilowhat-audit/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/kilowhat-audit/) |
+| [Audit Free by Kilowhat](https://github.com/kilowhat/flarum-ext-audit-free) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/kilowhat-audit-free/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/kilowhat-audit-free/) |
+| [Audit Pro by Kilowhat](https://extiverse.com/extension/kilowhat/flarum-ext-audit-pro) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/kilowhat-audit-pro/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/kilowhat-audit-pro/) |
 | [Author Change by Clarkwinkelmann](https://github.com/clarkwinkelmann/flarum-ext-author-change) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/clarkwinkelmann-author-change/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-author-change/) |
 | [Back To Website by Ziymed](https://github.com/ziymed/BackToWebsite) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/ziymed-backtowebsite/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/ziymed-backtowebsite/) |
 | [Backup by Datitisev](https://extiverse.com/extension/datitisev/flarum-backup) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/datitisev-backup/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/datitisev-backup/) |

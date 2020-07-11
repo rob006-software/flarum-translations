@@ -8,7 +8,16 @@
             },
             "index": {
                 "follow_tag_button": "Obserwuj",
-                "unfollow_tag_button": "Przestań obserwować"
+                "unfollow_tag_button": "Przestań obserwować",
+                "following": {
+                    "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                    "following_all_label": "=> fof-follow-tags.ref.filtering_options.all",
+                    "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
+                }
+            },
+            "badge": {
+                "following_tag_tooltip": "Obserwujesz",
+                "lurking_tag_tooltip": "Podpatrujesz"
             },
             "sub_controls": {
                 "follow_button": "=> fof-follow-tags.ref.follow",
@@ -29,6 +38,21 @@
                 "new_discussion_text": "{username} rozpoczął",
                 "new_post_text": "{username} odpowiedział",
                 "new_discussion_tag_text": "{username} zmienił tagi"
+            },
+            "user": {
+                "settings": {
+                    "heading": "Obserwowanie tagów",
+                    "filter_label": "Co domyślnie wyświetlać na stronie \"Obserwowane\""
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "title": "FriendsOfFlarum Follow Tags",
+                "following_page_default_label": "Domyślny filtr na stronie \"Obserwowane\"",
+                "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags",
+                "following_all_label": "=> fof-follow-tags.ref.filtering_options.all"
             }
         },
         "email": {
@@ -41,7 +65,12 @@
             "following": "Obserwujesz",
             "hiding": "Ukryte",
             "ignoring": "Ignorujesz",
-            "lurking": "Podpatrujesz"
+            "lurking": "Podpatrujesz",
+            "filtering_options": {
+                "none": "Obserwowane dyskusje",
+                "all": "Wszystko co obserwujesz",
+                "tags": "Obserwowane tagi"
+            }
         }
     }
 }
