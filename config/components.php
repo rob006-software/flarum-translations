@@ -510,7 +510,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-wechat/v0.1.4/resources/locale/en.yml',
 	],
 	'reflar-cookie-consent' => [
-		'tag' => 'https://raw.githubusercontent.com/ReFlar/cookie-consent/master/no-translation-source.yml',
+		'tag' => 'https://raw.githubusercontent.com/ReFlar/cookie-consent/0.2.0/resources/locale/en.yml',
 	],
 	'reflar-doorman' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/doorman/master/no-translation-source.yml',
