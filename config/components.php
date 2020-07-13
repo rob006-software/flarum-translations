@@ -606,7 +606,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Veriael/markdown/master/no-translation-source.yml',
 	],
 	'wiwatsrt-best-answer' => [
-		'tag' => 'https://raw.githubusercontent.com/wiwatsrt/flarum-ext-best-answer/v0.2.4/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/wiwatsrt/flarum-ext-best-answer/master/no-translation-source.yml',
 	],
 	'wvbforum-post-license' => [
 		'tag' => 'https://raw.githubusercontent.com/JC-ProPlus/flarum-ext-post-license/0.1.0/resources/locale/en.yml',
