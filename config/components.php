@@ -555,7 +555,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum-tank/flarum-perspective/0.1.10/resources/locale/en.yml',
 	],
 	'the-turk-diff' => [
-		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-diff/master/no-translation-source.yml',
+		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-diff/1.0.8/locale/en.yml',
 	],
 	'the-turk-edit-notifications' => [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-edit-notifications/master/no-translation-source.yml',
