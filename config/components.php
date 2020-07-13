@@ -621,7 +621,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumPusher/v0.1.0-beta.8.1/locale/en.yaml',
 	],
 	'zhishiq-queue' => [
-		'tag' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumQueue/master/no-translation-source.yml',
+		'tag' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumQueue/v0.1.0-beta.8.1/locale/en.yaml',
 	],
 	'zhishiq-redis' => [
 		'tag' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumRedis/master/no-translation-source.yml',
