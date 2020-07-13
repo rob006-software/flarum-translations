@@ -243,7 +243,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/auth-discord/0.1.3/resources/locale/en.yml',
 	],
 	'fof-auth-gitlab' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/auth-gitlab/master/no-translation-source.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/auth-gitlab/0.1.0/resources/locale/en.yml',
 	],
 	'fof-ban-ips' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ban-ips/master/no-translation-source.yml',
