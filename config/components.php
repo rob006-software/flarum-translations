@@ -176,8 +176,8 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-auth-github.yml',
 	],
 	'flarum-auth-twitter' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.13/locale/flarum-auth-twitter.yml',
-		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-auth-twitter.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/master/no-translation-source.yml',
+		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/no-translation-source.yml',
 	],
 	'flarum-emoji' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.13/locale/flarum-emoji.yml',
