@@ -630,7 +630,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/zhujia18/flarum-chevereto/0.1.2/resources/locale/en.yml',
 	],
 	'ziymed-backtowebsite' => [
-		'tag' => 'https://raw.githubusercontent.com/ziymed/BackToWebsite/master/no-translation-source.yml',
+		'tag' => 'https://raw.githubusercontent.com/ziymed/BackToWebsite/0.1.0/locale/en.yml',
 	],
 	/* extensions list end */
 ];
