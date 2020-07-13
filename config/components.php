@@ -249,7 +249,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ban-ips/master/no-translation-source.yml',
 	],
 	'fof-best-answer' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/best-answer/0.1.11/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/best-answer/master/no-translation-source.yml',
 	],
 	'fof-byobu' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/byobu/0.5.6/resources/locale/en.yml',
