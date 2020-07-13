@@ -540,7 +540,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/simonxeko/follow-users/master/no-translation-source.yml',
 	],
 	'simonxeko-preview-discussion' => [
-		'tag' => 'https://raw.githubusercontent.com/simonxeko/flarum-ext-preview-discussion/0.1.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/simonxeko/flarum-ext-preview-discussion/master/no-translation-source.yml',
 	],
 	'squeevee-fancybox' => [
 		'tag' => 'https://raw.githubusercontent.com/squeevee/flarum-ext-fancybox/0.2-beta/locale/en.yml',
