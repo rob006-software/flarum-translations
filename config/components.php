@@ -204,8 +204,8 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-mentions.yml',
 	],
 	'flarum-pusher' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/master/no-translation-source.yml',
-		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/no-translation-source.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.13/locale/flarum-pusher.yml',
+		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-pusher.yml',
 	],
 	'flarum-statistics' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/master/no-translation-source.yml',
