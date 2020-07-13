@@ -534,7 +534,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/saleksin/flarum-auth-google/master/no-translation-source.yml',
 	],
 	'shriker-pronouns' => [
-		'tag' => 'https://raw.githubusercontent.com/shriker/flarum-pronouns/0.1.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/shriker/flarum-pronouns/main/no-translation-source.yml',
 	],
 	'simonxeko-follow-users' => [
 		'tag' => 'https://raw.githubusercontent.com/simonxeko/follow-users/0.3.5/resources/locale/en.yml',
