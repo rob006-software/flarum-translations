@@ -552,7 +552,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-profile-cover/master/no-translation-source.yml',
 	],
 	'tank-perspective' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum-tank/flarum-perspective/0.1.10/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum-tank/flarum-perspective/master/no-translation-source.yml',
 	],
 	'the-turk-diff' => [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-diff/1.0.8/locale/en.yml',
