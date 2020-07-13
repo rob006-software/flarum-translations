@@ -372,7 +372,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/stopforumspam/master/no-translation-source.yml',
 	],
 	'fof-subscribed' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/subscribed/0.2.3/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/subscribed/master/no-translation-source.yml',
 	],
 	'fof-terms' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/terms/0.4.3/resources/locale/en.yml',
