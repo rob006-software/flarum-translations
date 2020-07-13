@@ -507,7 +507,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-steam/v0.1.7/resources/locale/en.yml',
 	],
 	'nomiscz-auth-wechat' => [
-		'tag' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-wechat/master/no-translation-source.yml',
+		'tag' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-wechat/v0.1.4/resources/locale/en.yml',
 	],
 	'reflar-cookie-consent' => [
 		'tag' => 'https://raw.githubusercontent.com/ReFlar/cookie-consent/master/no-translation-source.yml',
