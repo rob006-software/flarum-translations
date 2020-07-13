@@ -531,7 +531,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/reflar-webhooks-pro.yml',
 	],
 	'saleksin-auth-google' => [
-		'tag' => 'https://raw.githubusercontent.com/saleksin/flarum-auth-google/master/no-translation-source.yml',
+		'tag' => 'https://raw.githubusercontent.com/saleksin/flarum-auth-google/v0.1.0-beta.8.0.3/locale/en.yml',
 	],
 	'shriker-pronouns' => [
 		'tag' => 'https://raw.githubusercontent.com/shriker/flarum-pronouns/main/no-translation-source.yml',
