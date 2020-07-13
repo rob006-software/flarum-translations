@@ -366,7 +366,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/spamblock/0.2.2/locale/en.yml',
 	],
 	'fof-split' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/split/master/no-translation-source.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/split/0.4.4/locale/en.yml',
 	],
 	'fof-stopforumspam' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/stopforumspam/master/no-translation-source.yml',
