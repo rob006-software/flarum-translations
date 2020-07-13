@@ -148,7 +148,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Fajuu/ContactButton/v3.0/locale/en.yml',
 	],
 	'fajuu-icons' => [
-		'tag' => 'https://raw.githubusercontent.com/Fajuu/flarum-icons/master/no-translation-source.yml',
+		'tag' => 'https://raw.githubusercontent.com/Fajuu/flarum-icons/0.1.2/resources/locale/en.yml',
 	],
 	'flagrow-ads' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ads/master/no-translation-source.yml',
