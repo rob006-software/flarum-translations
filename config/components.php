@@ -52,7 +52,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-help-tags/master/no-translation-source.yml',
 	],
 	'askvortsov-moderator-warnings' => [
-		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-moderator-warnings/v0.2.4/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-moderator-warnings/master/no-translation-source.yml',
 	],
 	'askvortsov-pwa' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-pwa/v1.0.1/resources/locale/en.yml',
