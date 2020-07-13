@@ -546,7 +546,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/squeevee/flarum-ext-fancybox/master/no-translation-source.yml',
 	],
 	'studosi-mail-filter' => [
-		'tag' => 'https://raw.githubusercontent.com/studosi-flarum/mail-filter/0.2.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/studosi-flarum/mail-filter/master/no-translation-source.yml',
 	],
 	'sycho-profile-cover' => [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-profile-cover/v1.1.5/resources/locale/en.yml',
