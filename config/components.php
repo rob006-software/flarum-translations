@@ -558,7 +558,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-diff/1.0.8/locale/en.yml',
 	],
 	'the-turk-edit-notifications' => [
-		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-edit-notifications/master/no-translation-source.yml',
+		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-edit-notifications/0.1.5/locale/en.yml',
 	],
 	'the-turk-extended-appearance' => [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-extended-appearance/master/no-translation-source.yml',
