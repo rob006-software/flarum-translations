@@ -624,7 +624,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumQueue/v0.1.0-beta.8.1/locale/en.yaml',
 	],
 	'zhishiq-redis' => [
-		'tag' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumRedis/master/no-translation-source.yml',
+		'tag' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumRedis/v0.1.0-beta.8.1/locale/en.yaml',
 	],
 	'zhujia18-chevereto' => [
 		'tag' => 'https://raw.githubusercontent.com/zhujia18/flarum-chevereto/master/no-translation-source.yml',
