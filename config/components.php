@@ -573,7 +573,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-password-strength/master/no-translation-source.yml',
 	],
 	'the-turk-quiet-edits' => [
-		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-quiet-edits/0.1.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-quiet-edits/master/no-translation-source.yml',
 	],
 	'the-turk-stargazing-theme' => [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-stargazing-theme/0.1.1/locale/en.yml',
