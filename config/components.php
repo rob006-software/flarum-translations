@@ -151,7 +151,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Fajuu/flarum-icons/0.1.2/resources/locale/en.yml',
 	],
 	'flagrow-ads' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ads/master/no-translation-source.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ads/0.2.4/locale/en.yml',
 	],
 	'flagrow-fonts' => [
 		'tag' => 'https://raw.githubusercontent.com/flagrow/fonts/master/no-translation-source.yml',
