@@ -618,7 +618,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/xmugenx/flarum-ext-post-blacklist/master/no-translation-source.yml',
 	],
 	'zhishiq-pusher' => [
-		'tag' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumPusher/v0.1.0-beta.8.1/locale/en.yaml',
+		'tag' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumPusher/master/no-translation-source.yml',
 	],
 	'zhishiq-queue' => [
 		'tag' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumQueue/v0.1.0-beta.8.1/locale/en.yaml',
