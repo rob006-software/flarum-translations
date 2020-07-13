@@ -549,7 +549,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/studosi-flarum/mail-filter/master/no-translation-source.yml',
 	],
 	'sycho-profile-cover' => [
-		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-profile-cover/v1.1.5/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-profile-cover/master/no-translation-source.yml',
 	],
 	'tank-perspective' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-tank/flarum-perspective/0.1.10/resources/locale/en.yml',
