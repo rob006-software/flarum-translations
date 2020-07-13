@@ -456,7 +456,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-spoiler-bbcode/master/no-translation-source.yml',
 	],
 	'kyrne-shout' => [
-		'tag' => 'https://raw.githubusercontent.com/KyrneDev/Shout-public/0.1.14/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/KyrneDev/Shout-public/master/no-translation-source.yml',
 	],
 	'kyrne-websocket' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/kyrne-websocket.yml',
