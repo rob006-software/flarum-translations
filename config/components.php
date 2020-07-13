@@ -582,7 +582,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/therealsujitk/flarum-ext-gifs/master/no-translation-source.yml',
 	],
 	'therealsujitk-hljs' => [
-		'tag' => 'https://raw.githubusercontent.com/therealsujitk/flarum-ext-hljs/v1.1.5/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/therealsujitk/flarum-ext-hljs/master/no-translation-source.yml',
 	],
 	'therealsujitk-show-password' => [
 		'tag' => 'https://raw.githubusercontent.com/therealsujitk/flarum-ext-show-password/v1.0.3/resources/locale/en.yml',
