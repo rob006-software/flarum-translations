@@ -279,7 +279,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/formatting/0.1.5/resources/locale/en.yml',
 	],
 	'fof-forum-statistics-widget' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/forum-statistics-widget/master/no-translation-source.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/forum-statistics-widget/0.1.1/resources/locale/en.yml',
 	],
 	'fof-frontpage' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/frontpage/0.1.3/resources/locale/en.yml',
