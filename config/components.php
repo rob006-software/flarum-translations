@@ -603,7 +603,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/v17development-support.yml',
 	],
 	'veriael-markdown' => [
-		'tag' => 'https://raw.githubusercontent.com/Veriael/markdown/master/no-translation-source.yml',
+		'tag' => 'https://raw.githubusercontent.com/Veriael/markdown/v1.0.2.1/resources/locale/en.yml',
 	],
 	'wiwatsrt-best-answer' => [
 		'tag' => 'https://raw.githubusercontent.com/wiwatsrt/flarum-ext-best-answer/master/no-translation-source.yml',
