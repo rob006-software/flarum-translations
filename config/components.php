@@ -252,7 +252,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/best-answer/master/no-translation-source.yml',
 	],
 	'fof-byobu' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/byobu/0.5.6/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/byobu/master/no-translation-source.yml',
 	],
 	'fof-custom-footer' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/custom-footer/0.1.3/resources/locale/en.yml',
