@@ -627,7 +627,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumRedis/master/no-translation-source.yml',
 	],
 	'zhujia18-chevereto' => [
-		'tag' => 'https://raw.githubusercontent.com/zhujia18/flarum-chevereto/0.1.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/zhujia18/flarum-chevereto/master/no-translation-source.yml',
 	],
 	'ziymed-backtowebsite' => [
 		'tag' => 'https://raw.githubusercontent.com/ziymed/BackToWebsite/0.1.0/locale/en.yml',
