@@ -450,7 +450,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-reply2see/v0.1.2/resources/locale/en.yml',
 	],
 	'kvothe-signup-button' => [
-		'tag' => 'https://raw.githubusercontent.com/oaklinq/flarum-signup-button/master/no-translation-source.yml',
+		'tag' => 'https://raw.githubusercontent.com/oaklinq/flarum-signup-button/v0.1.4/resources/locale/en.yml',
 	],
 	'kvothe-spoiler-bbcode' => [
 		'tag' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-spoiler-bbcode/master/no-translation-source.yml',
