@@ -85,7 +85,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-likes-received/0.1.1/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-passwordless' => [
-		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-passwordless/master/no-translation-source.yml',
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-passwordless/1.0.4/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-popular-discussion-badge' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-popular-discussion-badge/master/no-translation-source.yml',
