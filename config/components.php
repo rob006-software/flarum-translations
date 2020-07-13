@@ -609,7 +609,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/wiwatsrt/flarum-ext-best-answer/master/no-translation-source.yml',
 	],
 	'wvbforum-post-license' => [
-		'tag' => 'https://raw.githubusercontent.com/JC-ProPlus/flarum-ext-post-license/0.1.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/JC-ProPlus/flarum-ext-post-license/master/no-translation-source.yml',
 	],
 	'xelson-chat' => [
 		'tag' => 'https://raw.githubusercontent.com/Xelson/flarum-ext-chat/0.7.3/resources/locale/en.yaml',
