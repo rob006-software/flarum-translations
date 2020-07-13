@@ -591,7 +591,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/tituspijean/flarum-ext-auth-ldap/master/no-translation-source.yml',
 	],
 	'tituspijean-auth-ssowat' => [
-		'tag' => 'https://raw.githubusercontent.com/tituspijean/flarum-ext-auth-ssowat/v0.1.0-beta.12/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/tituspijean/flarum-ext-auth-ssowat/master/no-translation-source.yml',
 	],
 	'tpokorra-post-notification' => [
 		'tag' => 'https://raw.githubusercontent.com/tpokorra/flarum-ext-post-notification/0.3.9-beta.13/resources/locale/en.yml',
