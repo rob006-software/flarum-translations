@@ -597,7 +597,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/tpokorra/flarum-ext-post-notification/master/no-translation-source.yml',
 	],
 	'v17development-seo' => [
-		'tag' => 'https://raw.githubusercontent.com/v17development/flarum-seo/1.2.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/v17development/flarum-seo/master/no-translation-source.yml',
 	],
 	'v17development-support' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/v17development-support.yml',
