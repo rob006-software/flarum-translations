@@ -420,7 +420,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/jslirola/flarum-ext-login2seeplus/v0.1.4/locale/en.yml',
 	],
 	'kilowhat-affiliation-links' => [
-		'tag' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-affiliation-links/master/no-translation-source.yml',
+		'tag' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-affiliation-links/0.2.0/resources/locale/en.yml',
 	],
 	'kilowhat-audit-free' => [
 		'tag' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-audit-free/1.2.1/resources/locale/en.yml',
