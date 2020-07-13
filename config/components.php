@@ -543,7 +543,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/simonxeko/flarum-ext-preview-discussion/master/no-translation-source.yml',
 	],
 	'squeevee-fancybox' => [
-		'tag' => 'https://raw.githubusercontent.com/squeevee/flarum-ext-fancybox/0.2-beta/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/squeevee/flarum-ext-fancybox/master/no-translation-source.yml',
 	],
 	'studosi-mail-filter' => [
 		'tag' => 'https://raw.githubusercontent.com/studosi-flarum/mail-filter/0.2.0/locale/en.yml',
