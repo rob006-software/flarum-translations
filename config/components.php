@@ -612,7 +612,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/JC-ProPlus/flarum-ext-post-license/master/no-translation-source.yml',
 	],
 	'xelson-chat' => [
-		'tag' => 'https://raw.githubusercontent.com/Xelson/flarum-ext-chat/0.7.3/resources/locale/en.yaml',
+		'tag' => 'https://raw.githubusercontent.com/Xelson/flarum-ext-chat/master/no-translation-source.yml',
 	],
 	'xmugenx-post-blacklist' => [
 		'tag' => 'https://raw.githubusercontent.com/xmugenx/flarum-ext-post-blacklist/0.1.4/resources/locale/en.yml',
