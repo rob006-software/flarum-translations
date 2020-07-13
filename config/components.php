@@ -453,7 +453,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/oaklinq/flarum-signup-button/v0.1.4/resources/locale/en.yml',
 	],
 	'kvothe-spoiler-bbcode' => [
-		'tag' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-spoiler-bbcode/master/no-translation-source.yml',
+		'tag' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-spoiler-bbcode/0.1.0/resources/locale/en.yml',
 	],
 	'kyrne-shout' => [
 		'tag' => 'https://raw.githubusercontent.com/KyrneDev/Shout-public/master/no-translation-source.yml',
