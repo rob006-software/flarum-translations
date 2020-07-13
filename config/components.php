@@ -564,7 +564,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-extended-appearance/0.1.1/locale/en.yml',
 	],
 	'the-turk-fancybox' => [
-		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-ext-fancybox/master/no-translation-source.yml',
+		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-ext-fancybox/0.2.0-beta.4/locale/en.yml',
 	],
 	'the-turk-mathren' => [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-mathren/0.3.0/locale/en.yml',
