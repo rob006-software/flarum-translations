@@ -360,7 +360,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sitemap/0.5.1/resources/locale/en.yml',
 	],
 	'fof-socialprofile' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/socialprofile/master/no-translation-source.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/socialprofile/0.1.2/resources/locale/en.yml',
 	],
 	'fof-spamblock' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/spamblock/master/no-translation-source.yml',
