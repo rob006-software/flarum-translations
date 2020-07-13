@@ -513,7 +513,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ReFlar/cookie-consent/master/no-translation-source.yml',
 	],
 	'reflar-doorman' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/doorman/0.1.5/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/doorman/master/no-translation-source.yml',
 	],
 	'reflar-level-ranks' => [
 		'tag' => 'https://raw.githubusercontent.com/ReFlar/level-ranks/1.2.3/resources/locale/en.yml',
