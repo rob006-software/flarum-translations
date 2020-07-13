@@ -154,7 +154,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ads/master/no-translation-source.yml',
 	],
 	'flagrow-fonts' => [
-		'tag' => 'https://raw.githubusercontent.com/flagrow/fonts/0.2.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flagrow/fonts/master/no-translation-source.yml',
 	],
 	'flagrow-mason' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/mason/0.3.1/resources/locale/en.yml',
