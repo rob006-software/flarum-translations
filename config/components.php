@@ -516,7 +516,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/doorman/0.1.5/resources/locale/en.yml',
 	],
 	'reflar-level-ranks' => [
-		'tag' => 'https://raw.githubusercontent.com/ReFlar/level-ranks/master/no-translation-source.yml',
+		'tag' => 'https://raw.githubusercontent.com/ReFlar/level-ranks/1.2.3/resources/locale/en.yml',
 	],
 	'reflar-recache' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/reflar-recache.yml',
