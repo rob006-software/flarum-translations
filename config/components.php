@@ -615,7 +615,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Xelson/flarum-ext-chat/0.7.3/resources/locale/en.yaml',
 	],
 	'xmugenx-post-blacklist' => [
-		'tag' => 'https://raw.githubusercontent.com/xmugenx/flarum-ext-post-blacklist/master/no-translation-source.yml',
+		'tag' => 'https://raw.githubusercontent.com/xmugenx/flarum-ext-post-blacklist/0.1.4/resources/locale/en.yml',
 	],
 	'zhishiq-pusher' => [
 		'tag' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumPusher/master/no-translation-source.yml',
