@@ -145,7 +145,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/bazaar/0.4.1/resources/locale/en.yml',
 	],
 	'fajuu-contactbutton' => [
-		'tag' => 'https://raw.githubusercontent.com/Fajuu/ContactButton/master/no-translation-source.yml',
+		'tag' => 'https://raw.githubusercontent.com/Fajuu/ContactButton/v3.0/locale/en.yml',
 	],
 	'fajuu-icons' => [
 		'tag' => 'https://raw.githubusercontent.com/Fajuu/flarum-icons/master/no-translation-source.yml',
