@@ -579,7 +579,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-stargazing-theme/0.1.1/locale/en.yml',
 	],
 	'therealsujitk-gifs' => [
-		'tag' => 'https://raw.githubusercontent.com/therealsujitk/flarum-ext-gifs/master/no-translation-source.yml',
+		'tag' => 'https://raw.githubusercontent.com/therealsujitk/flarum-ext-gifs/v1.4.8/resources/locale/en.yml',
 	],
 	'therealsujitk-hljs' => [
 		'tag' => 'https://raw.githubusercontent.com/therealsujitk/flarum-ext-hljs/master/no-translation-source.yml',
