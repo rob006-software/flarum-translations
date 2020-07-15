@@ -461,6 +461,9 @@ return [
 	'kyrne-websocket' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/kyrne-websocket.yml',
 	],
+	'lcinhk-imgur-upload' => [
+		'tag' => 'https://raw.githubusercontent.com/LCinHK/flarum-imgur-upload/v3.4.0/locale/en.yml',
+	],
 	'maicol07-sso' => [
 		'tag' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/1.6/locale/en.yml',
 	],
