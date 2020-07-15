@@ -9,7 +9,7 @@
                 "title": "Maintenance Mode",
                 "settings_notice": "These settings may not be the current ones. Make sure they are not being overwritten by <code>config.php</code>.",
                 "allow_bypass_label": "Allow bypass of forum & API maintenance using permission",
-                "allow_bypass_hint": "Won't bypass if DB is not accessible. Applies to forum & API (unless API is completely disabled through <code>config.php</code>)",
+                "allow_bypass_hint": "Won't bypass if DB is not accessible. Applies to forum & API (unless API is completely disabled through <code>config.php</code>). If disabled, admins will still be able to access API (unless API is completely disabled) to prevent locking yourself out.",
                 "prefer_db_label": "Prefer DB settings over <code>config.php</code> settings",
                 "prefer_db_hint": "Normally, the values in <code>config.php</code> override the ones seen here. Enable this option to make these options override the ones found in the config file - so those are only used in the event that the DB is not accessible.",
                 "active_label": "Maintenance mode state",
