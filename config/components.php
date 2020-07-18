@@ -461,6 +461,9 @@ return [
 	'kyrne-websocket' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/kyrne-websocket.yml',
 	],
+	'maicol07-mason' => [
+		'tag' => 'https://raw.githubusercontent.com/maicol07/mason/0.4/resources/locale/en.yml',
+	],
 	'maicol07-sso' => [
 		'tag' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/1.6/locale/en.yml',
 	],
