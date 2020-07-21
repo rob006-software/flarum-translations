@@ -2,8 +2,8 @@
     "reflar-doorman": {
         "forum": {
             "email": {
-                "subject": "",
-                "body": ""
+                "subject": "Zaproszenie do rejestracji",
+                "body": "Witaj,\n\nZostałeś zaproszony do rejestracji na {forum}.\n\nGdy będziesz gotowy do utworzenia konta, kliknij poniższy link i wpisz kod zaproszenia podczas rejestracji:\n\nURL: {url}\nKod zaproszenia: {code}\n\nJeśli nie chcesz rejestrować się na forum, po prostu zignoruj tę wiadomość.\n"
             },
             "sign_up": {
                 "invalid_doorkey": "Podany kod zaproszenia jest nieprawidłowy.",
@@ -14,14 +14,14 @@
         },
         "admin": {
             "modal": {
-                "title": "",
-                "group": "",
-                "help": "",
-                "placeholder": "",
-                "invalid_emails": "",
-                "max_use_conflict": "",
-                "send": "",
-                "success": ""
+                "title": "Wyślij kody zaproszeń",
+                "group": "Wysyłanie zaproszeń dla grupy {group}",
+                "help": "Przyjmuje listę rozdzieloną przenikami, spacjami, lub spacjami poprzedzonymi przecinkami. Wpisz pojedynczy adres e-mail lub wklej listę, a następnie wciśnij spację, aby je dodać.",
+                "placeholder": "Podaj adresy e-mail",
+                "invalid_emails": "Podane adresy e-mail są nieprawidłowe: {emails}",
+                "max_use_conflict": "Liczba adresów e-mail przekracza maksymalną liczbę użyć dla tego kodu.",
+                "send": "Wyślij wiadomości e-mail",
+                "success": "Wiadomości e-mail zostały pomyślnie wysłane"
             },
             "invalid_doorkey": "Podany kod zaproszenia jest nieprawidłowy.",
             "doorkey_required": "Musisz podać kod zaproszenia",
