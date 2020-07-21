@@ -1,6 +1,10 @@
 {
     "reflar-doorman": {
         "forum": {
+            "email": {
+                "subject": "",
+                "body": ""
+            },
             "sign_up": {
                 "invalid_doorkey": "Podany kod zaproszenia jest nieprawidłowy.",
                 "doorkey_required": "Wpisz kod zaproszenia.",
@@ -9,6 +13,16 @@
             }
         },
         "admin": {
+            "modal": {
+                "title": "",
+                "group": "",
+                "help": "",
+                "placeholder": "",
+                "invalid_emails": "",
+                "max_use_conflict": "",
+                "send": "",
+                "success": ""
+            },
             "invalid_doorkey": "Podany kod zaproszenia jest nieprawidłowy.",
             "doorkey_required": "Musisz podać kod zaproszenia",
             "nav": {

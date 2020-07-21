@@ -1,6 +1,10 @@
 {
     "reflar-doorman": {
         "forum": {
+            "email": {
+                "subject": "",
+                "body": ""
+            },
             "sign_up": {
                 "invalid_doorkey": "Girilen davet kodu geçersiz.",
                 "doorkey_required": "Lütfen davet kodunu giriniz.",
@@ -9,6 +13,16 @@
             }
         },
         "admin": {
+            "modal": {
+                "title": "",
+                "group": "",
+                "help": "",
+                "placeholder": "",
+                "invalid_emails": "",
+                "max_use_conflict": "",
+                "send": "",
+                "success": ""
+            },
             "invalid_doorkey": "Girdiğiniz davet kodu geçersiz.",
             "doorkey_required": "Bir davet kodu oluşturmalısınız",
             "nav": {

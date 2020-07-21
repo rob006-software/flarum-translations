@@ -1,6 +1,10 @@
 {
     "reflar-doorman": {
         "forum": {
+            "email": {
+                "subject": "",
+                "body": ""
+            },
             "sign_up": {
                 "invalid_doorkey": "您输入的邀请码无效",
                 "doorkey_required": "请输入邀请码",
@@ -9,6 +13,16 @@
             }
         },
         "admin": {
+            "modal": {
+                "title": "",
+                "group": "",
+                "help": "",
+                "placeholder": "",
+                "invalid_emails": "",
+                "max_use_conflict": "",
+                "send": "",
+                "success": ""
+            },
             "invalid_doorkey": "您输入的邀请码无效",
             "doorkey_required": "您必须输入邀请码",
             "nav": {
