@@ -15,14 +15,6 @@ use app\components\release\PolishReleaseGenerator;
 use function rob006\flarum\translations\helpers\getComponents;
 
 return [
-	'zh_Hans' => [
-		'type' => 'language',
-		'language' => 'zh_Hans',
-		'updateReadme' => false,
-		'repository' => 'git@github.com:Littlegolden/flarum-lang-simplified-chinese.git',
-		'branch' => 'master',
-		'path' => '/locale',
-	],
 	'pl' => [
 		'type' => 'language',
 		'language' => 'pl',
@@ -45,5 +37,13 @@ return [
 			'!reflar-webhooks-pro',
 			'!v17development-support',
 		]),
+	],
+	'zh_Hans' => [
+		'type' => 'language',
+		'language' => 'zh_Hans',
+		'updateReadme' => false,
+		'repository' => 'git@github.com:Littlegolden/flarum-lang-simplified-chinese.git',
+		'branch' => 'master',
+		'path' => '/locale',
 	],
 ];
