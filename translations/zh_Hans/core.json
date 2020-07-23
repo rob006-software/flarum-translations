@@ -31,8 +31,8 @@
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "默认语言",
-                "display_name_heading": "",
-                "display_name_text": "",
+                "display_name_heading": "用户外显昵称",
+                "display_name_text": "选择外显昵称的种类，默认为用户名。",
                 "forum_description_heading": "论坛描述",
                 "forum_description_text": "输入一两句话简单介绍您的论坛。这将会显示为 <meta name=\"description\"> 描述标签，一般为 160 字的文本，用于介绍网页的内容。平常多被搜索引擎截取网页简介用。",
                 "forum_title_heading": "论坛名称",
@@ -96,7 +96,7 @@
                 "not_sending_message": "Flarum 当前无法发送电子邮件，请检查邮件驱动及其配置。",
                 "smtp_heading": "SMTP 设置",
                 "submit_button": "=> core.ref.save_changes",
-                "text": "配置论坛发信服务方式",
+                "text": "配置论坛发信服务方式。",
                 "mail_ses_key_label": "Key",
                 "mail_ses_region_label": "区域",
                 "mail_ses_secret_label": "Secret",
@@ -115,15 +115,15 @@
             },
             "nav": {
                 "appearance_button": "外观",
-                "appearance_text": "自定义论坛色调、图标以及其他元素",
+                "appearance_text": "自定义论坛色调、图标以及其他元素。",
                 "basics_button": "常规",
                 "basics_text": "设置论坛名称、语言以及其他常规设置",
                 "dashboard_button": "概览",
                 "dashboard_text": "论坛统计数据概览",
                 "email_button": "=> core.ref.email",
-                "email_text": "配置论坛邮箱服务",
+                "email_text": "配置论坛邮件服务",
                 "extensions_button": "插件",
-                "extensions_text": "为您的论坛添加插件扩展",
+                "extensions_text": "为您的论坛添加插件",
                 "permissions_button": "权限",
                 "permissions_text": "设置各用户组访问及操作权限",
                 "advanced_button": "高级",
@@ -275,7 +275,7 @@
                 "cannot_start_discussion_button": "发帖功能已关闭",
                 "mark_all_as_read_confirmation": "确定要标记所有帖子为已读吗？",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
-                "meta_title_text": "",
+                "meta_title_text": "=> core.ref.all_discussions",
                 "refresh_tooltip": "刷新",
                 "start_discussion_button": "=> core.ref.start_a_discussion"
             },
@@ -424,7 +424,7 @@
             },
             "error": {
                 "csrf_token_mismatch": "您已经发呆很长时间了。",
-                "csrf_token_mismatch_return_link": "返回再试一次。",
+                "csrf_token_mismatch_return_link": "请返回再试一次",
                 "invalid_confirmation_token": "验证链接已使用或无效。",
                 "not_authenticated": "您没有权限访问此页面，请登录后再试。",
                 "not_found": "您访问的页面不存在。",
@@ -450,7 +450,7 @@
             }
         },
         "api": {
-            "invalid_username_message": "用户名只能由字母、数字及连字符（-）组成"
+            "invalid_username_message": "用户名只能由字母、数字及连字符 (-) 组成"
         },
         "email": {
             "activate_account": {
@@ -482,8 +482,8 @@
             "discussions": "主题",
             "edit": "编辑",
             "email": "邮箱",
-            "icon": "",
-            "icon_text": "输入任意一个 <a>Font Awesome</a> 图标名称，<strong>包括</strong>前缀 <code>fas fa-</code>",
+            "icon": "图标",
+            "icon_text": "输入任意一个 <a>Font Awesome</a> 图标名称。<em>包括</em>前缀，例如 <code>fas fa-</code>",
             "load_more": "加载更多",
             "log_in": "登录",
             "log_out": "退出",
