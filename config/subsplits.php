@@ -38,4 +38,12 @@ return [
 			'!v17development-support',
 		]),
 	],
+	'zh_Hans' => [
+		'type' => 'language',
+		'language' => 'zh_Hans',
+		'updateReadme' => false,
+		'repository' => 'git@github.com:Littlegolden/flarum-lang-simplified-chinese.git',
+		'branch' => 'master',
+		'path' => '/locale',
+	],
 ];
