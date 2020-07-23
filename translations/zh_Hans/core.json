@@ -404,7 +404,7 @@
                 "ten_kilo_text": "万"
             },
             "series": {
-                "glue_text": "，",
+                "glue_text": "， ",
                 "three_text": "{first}，{second} 还有 {third}",
                 "two_text": "{first} 和 {second}"
             },
@@ -455,15 +455,15 @@
         "email": {
             "activate_account": {
                 "subject": "账号激活",
-                "body": "您好，{username}！\n\n您使用这个邮箱在 {forum} 进行了注册，若是您本人所为，请点击下面的链接激活您的账号：\n\n{url}\n\n若非您本人注册，请忽略此邮件。\n"
+                "body": "{username}，您好！\n\n您使用这个邮箱在 {forum} 进行了注册，若是您本人所为，请点击下面的链接激活您的账号：\n\n{url}\n\n若非您本人注册，请忽略此邮件。\n"
             },
             "confirm_email": {
                 "subject": "确认邮箱地址",
-                "body": "您好，{username}!\n\n您在 {forum} 的账号邮箱被更改为此邮箱，若是您本人所为，请点击下面的链接完成邮箱确认：\n\n{url}\n\n若非您本人所为，请立即检查账号安全并修改密码。\n"
+                "body": "{username}，您好!\n\n您在 {forum} 的账号邮箱被更改为此邮箱，若是您本人所为，请点击下面的链接完成邮箱确认：\n\n{url}\n\n若非您本人所为，请立即检查账号安全并修改密码。\n"
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": "您好，{username}！\n\n您在 {forum} 请求重置密码，若是您本人所为，请点击下面的链接重置密码：\n\n{url}\n\n如非您本人行为，请忽略此邮件，我们不会受理这个操作。\n"
+                "body": "{username}，您好！\n\n您在 {forum} 请求重置密码，若是您本人所为，请点击下面的链接重置密码：\n\n{url}\n\n如非您本人行为，请忽略此邮件，我们不会受理这个操作。\n"
             }
         },
         "ref": {
