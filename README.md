@@ -4,6 +4,7 @@ This repository contains raw translations data used by [Weblate](https://github.
 
 Currently supported languages:
 
+* [Chinese (Simplified)](https://github.com/Littlegolden/flarum-lang-simplified-chinese) maintained by [Littlegolden](https://github.com/Littlegolden) ([detailed translation status](status/zh_Hans.md))
 * [Polish](https://github.com/rob006-software/flarum-lang-polish) maintained by [rob006](https://github.com/rob006) ([detailed translation status](status/pl.md))
 * Turkish (no maintainer) ([detailed translation status](status/tr.md))
 
