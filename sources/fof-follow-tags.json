@@ -1,0 +1,76 @@
+{
+    "fof-follow-tags": {
+        "forum": {
+            "settings": {
+                "notify_new_discussion_label": "Someone creates a discussion in a tag I'm following",
+                "notify_new_post_label": "Someone posts in a tag I'm following",
+                "notify_new_discussion_tag_label": "Someone re-tags a discussion to a tag I'm following"
+            },
+            "index": {
+                "follow_tag_button": "Follow",
+                "unfollow_tag_button": "Stop Following",
+                "following": {
+                    "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                    "following_all_label": "=> fof-follow-tags.ref.filtering_options.all",
+                    "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
+                }
+            },
+            "badge": {
+                "following_tag_tooltip": "Following",
+                "lurking_tag_tooltip": "Lurking"
+            },
+            "sub_controls": {
+                "follow_button": "=> fof-follow-tags.ref.follow",
+                "following_button": "=> fof-follow-tags.ref.following",
+                "following_text": "Be notified of all new discussions.",
+                "hiding_button": "=> fof-follow-tags.ref.hiding",
+                "hiding_text": "Hide discussions from All Discussions page.",
+                "ignoring_button": "=> fof-follow-tags.ref.ignoring",
+                "ignoring_text": "Never be notified.",
+                "lurking_button": "=> fof-follow-tags.ref.lurking",
+                "lurking_text": "Be notified of all new discussions and replies.",
+                "not_following_button": "Not Following",
+                "not_following_text": "Be notified only when @mentioned.",
+                "notify_alert_tooltip": "Get a forum notification when there are new discussions or posts",
+                "notify_email_tooltip": "Get an email when there are new discussions or posts"
+            },
+            "notifications": {
+                "new_discussion_text": "{username} started",
+                "new_post_text": "{username} posted",
+                "new_discussion_tag_text": "{username} changed the tag"
+            },
+            "user": {
+                "settings": {
+                    "heading": "Follow Tags",
+                    "filter_label": "What to show by default in the Following page"
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "title": "FriendsOfFlarum Follow Tags",
+                "following_page_default_label": "Default Following Page Filtering",
+                "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags",
+                "following_all_label": "=> fof-follow-tags.ref.filtering_options.all"
+            }
+        },
+        "email": {
+            "newDiscussionInTag": "[Tag | New Discussion] title",
+            "newPostInTag": "[Tag | New Post] title",
+            "newDiscussionTag": "[Tag | Changed Tag] title"
+        },
+        "ref": {
+            "follow": "Follow",
+            "following": "Following",
+            "hiding": "Hiding",
+            "ignoring": "Ignoring",
+            "lurking": "Lurking",
+            "filtering_options": {
+                "none": "Followed Discussions",
+                "all": "Everything You Follow",
+                "tags": "Followed Tags"
+            }
+        }
+    }
+}

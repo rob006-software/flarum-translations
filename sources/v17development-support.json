@@ -1,0 +1,133 @@
+{
+    "v17development-flarum-support": {
+        "forum": {
+            "knowledge_base": "Knowledge base",
+            "ask_a_question_on_forums": "Ask a question on the forums",
+            "return_to_home": "Return to the knowledge base home",
+            "ask_your_question_on_forum": "Ask your question on the forums",
+            "or": "or",
+            "settings": "=> core.ref.settings",
+            "send": "Send",
+            "create": "Create",
+            "discard": "Discard",
+            "hero": {
+                "help_question": "What can we help you with?",
+                "check_forum": "If you can't find where you're looking for, <a>check out our forum</a>"
+            },
+            "overview": {
+                "knowledge_base_overview": "Knowledge base overview",
+                "back_to": "Back to {category}",
+                "back_to_overview": "Back to knowledge base overview",
+                "back_to_main_categories": "Back to main categories",
+                "loading_articles": "Loading articles",
+                "no_categories_found": "Sorry, no categories were found here...",
+                "category_not_found": "Category not found",
+                "no_articles_found": "No articles were found in this category",
+                "tools": {
+                    "new_article": "New article",
+                    "rename_category": "Rename category",
+                    "edit_description": "Edit description",
+                    "change_icon": "Change icon"
+                }
+            },
+            "article_events": {
+                "article_hidden": "Article was hidden by {username}",
+                "article_public": "Article was made public by {username}",
+                "article_modified": "{username} has edited this article."
+            },
+            "search": {
+                "title": "Search",
+                "back_to_search_results": "Back to the search results",
+                "search_knowledge_base": "Search our knowledge base",
+                "searching": "Searching",
+                "searching_for": "Searching for {searchterm}",
+                "searched_for": "You have searched for {searchterm}, there were {results} results.",
+                "use_searchbox_below": "Use the searchbox below to search in our knowledge base.",
+                "no_results": "We couldn't find anything for {searchterm}."
+            },
+            "not_found": {
+                "title": "Item not found",
+                "description": "Sorry, this article or category no longer exist on this place.",
+                "solution": "You might use the search box above to find where you were looking for."
+            },
+            "article": {
+                "article": "Article",
+                "articles": "Articles",
+                "hidden": "Hidden",
+                "created_at": "Created at {date}",
+                "author": "Author",
+                "authors": "Authors",
+                "last_modified": "Last modified at {date}",
+                "not_found": "Article not found",
+                "share_article": {
+                    "title": "Share article",
+                    "perma_link": "Permalink to this article:"
+                },
+                "tools": {
+                    "rename_article": "Rename article",
+                    "edit_article": "Edit article",
+                    "edit_tags": "Edit article tags",
+                    "audit_log": "See audit log",
+                    "hide_article": "Hide article",
+                    "recover_article": "Recover article",
+                    "delete_forever": "Delete forever",
+                    "view_ratings": "View ratings"
+                }
+            },
+            "support_ratings": {
+                "helful_article": "Was this article helpful?",
+                "helful_support": "Are you satisfied with how we handled your support ticket?",
+                "feedback": "Thank you for your review, do you have any feedback?",
+                "feedback_not_helpful": "Sorry this article was not helpful, what were you looking for?",
+                "enter_feedback": "Enter your feedback here",
+                "finished": "Thank you! Your feedback has been saved.",
+                "validation": {
+                    "invalid_discussion": "Woops, something went wrong. You cannot rate this article/support ticket.",
+                    "guest": "Please log in before you rate this article.",
+                    "invalid_points": "Invalid rating. Please try again.",
+                    "cannot_rate_article": "You cannot rate this article.",
+                    "neutral_emoji_disabled": "The neutral emoji has been disabled.",
+                    "missing_article_id": "Missing or invalid article ID"
+                }
+            },
+            "modals": {
+                "audit_log": {
+                    "title": "Article audit log",
+                    "article_created": "Article was created",
+                    "no_more_events": "No more events found",
+                    "loading_auditlog": "Loading audit log"
+                },
+                "article_ratings": {
+                    "title": "Article ratings",
+                    "loading_ratings": "Loading ratings",
+                    "no_ratings_found": "No ratings found matching your search criteria",
+                    "article_not_rated": "This article has not been rated yet.",
+                    "confirm_delete_rating": "Are you sure you want to delete this rating?",
+                    "feedback": "Feedback",
+                    "rating": "Rating",
+                    "username": "=> core.ref.username",
+                    "rated_on": "Rated on"
+                }
+            },
+            "utils": {
+                "redirect": {
+                    "title": "Redirecting you to our Knowledge Base article...",
+                    "link": "<a>Click here</a> if the page does not redirect you"
+                }
+            },
+            "composer": {
+                "compose_article": "Compose article",
+                "new_article_title": "New article title",
+                "enter_message_here": "Enter your message here",
+                "publish_article": "Publish article",
+                "publish_article_hint": "Publish article after posting.",
+                "manage_tags": "Manage tags",
+                "write": "Write",
+                "view": "View",
+                "nothing_to_preview": "Nothing to preview",
+                "warning_save_changes": "WARNING: You are about to leave this page and haven't saved your changes. Do you want to save your changes before leaving?\n\n[OK] = Yes, save. [CANCEL] = No, don't save\n",
+                "article_saved": "Article has been saved"
+            }
+        }
+    }
+}

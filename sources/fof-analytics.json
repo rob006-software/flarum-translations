@@ -1,0 +1,42 @@
+{
+    "fof-analytics": {
+        "admin": {
+            "popup": {
+                "title": "FoF Analytics",
+                "section": {
+                    "googleAnalytics": "Google Analytics",
+                    "piwik": "Piwik"
+                },
+                "field": {
+                    "statusGoogle": "Enable Google Analytics",
+                    "optTrackingCode": "Optimize Tracking Code (optional)",
+                    "googleTrackingCode": "Tracking Code ID",
+                    "googleGTMCode": "GTM code ID (optional)",
+                    "statusPiwik": "Enable Piwik",
+                    "piwikUrl": "Piwik domain or URL",
+                    "piwikSiteId": "Site ID",
+                    "piwikTrackSubdomain": "Track visitors across all subdomains of Flarum",
+                    "piwikPrependDomain": "Prepend the site domain to the page title when tracking",
+                    "piwikHideAliasUrl": "In the \"Outlinks\" report, hide clicks to known alias URLs",
+                    "piwikAliasUrl": "Alias URL",
+                    "piwikTrackAccounts": "Track individual user accounts",
+                    "piwikAuthToken": "Authentication Token"
+                },
+                "placeholder": {
+                    "piwikAuthToken": "Fill this token to enable a Piwik stats tab in the admin panel.\nYou can find it in Settings > Personal > API Authentication Token.\n"
+                },
+                "trackAccounts": {
+                    "none": "Do not track",
+                    "username": "Track by username",
+                    "email": "Track by email"
+                }
+            },
+            "page": {
+                "nav": {
+                    "title": "Analytics",
+                    "description": "Take a look at Statistics"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "fof-impersonate": {
+        "admin": {
+            "permissions": {
+                "login": "Login as other users"
+            },
+            "settings": {
+                "title": "FoF Impersonate",
+                "require_reason": "Require a reason to be entered before proceeding to impersonate another user.",
+                "no_settings_available": "No settings are currently available. Try installing fof/moderator-notes"
+            }
+        },
+        "forum": {
+            "modal": {
+                "title": "Login as another user",
+                "label": "With great power comes great responsibility. By continuing, you will become {username} until you log out.",
+                "placeholder_optional": "(Optional) Provide your reason for switching to this user",
+                "placeholder_required": "You must provide your reason for switching to this user before proceeding",
+                "impersonate_username": "Login as {username}"
+            },
+            "user_controls": {
+                "impersonate_button": "Login as user"
+            }
+        }
+    }
+}

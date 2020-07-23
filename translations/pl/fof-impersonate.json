@@ -1,0 +1,26 @@
+{
+    "fof-impersonate": {
+        "admin": {
+            "permissions": {
+                "login": "Logowanie na konta innych użytkowników"
+            },
+            "settings": {
+                "title": "FoF Impersonate",
+                "require_reason": "Wymuś podanie powodu przed przełączeniem się na innego użytkownika.",
+                "no_settings_available": "Żadne ustawienia nie są obecnie dostępne. Spróbuj zainstalować <code>fof/moderator-notes</code>."
+            }
+        },
+        "forum": {
+            "modal": {
+                "title": "Zaloguj się jako inny użytkownik",
+                "label": "Z wielką mocą wiąże się wielka odpowiedzialność. Kontynuując zalogujesz się na konto {username} i zostaniesz na nim aż do wylogowania.",
+                "placeholder_optional": "Podaj powód przełączenia się na tego użytkownika (opcjonalne)",
+                "placeholder_required": "Aby kontynuować, musisz podać powód przełączenia się na tego użytkownika",
+                "impersonate_username": "Zaloguj się jako {username}"
+            },
+            "user_controls": {
+                "impersonate_button": "Zaloguj się jako ten użytkownik"
+            }
+        }
+    }
+}

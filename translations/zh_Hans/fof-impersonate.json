@@ -1,0 +1,38 @@
+{
+    "fof-impersonate": {
+        "admin": {
+            "permissions": {
+                "login": ""
+            },
+            "settings": {
+                "title": "",
+                "require_reason": "",
+                "no_settings_available": ""
+            }
+        },
+        "forum": {
+            "modal": {
+                "title": "",
+                "label": "",
+                "placeholder_optional": "",
+                "placeholder_required": "",
+                "impersonate_username": ""
+            },
+            "user_controls": {
+                "impersonate_button": ""
+            }
+        }
+    },
+    "flagrow-impersonate": {
+        "admin": {
+            "permissions": {
+                "login": "以其他用户的身份登录"
+            }
+        },
+        "forum": {
+            "user_controls": {
+                "impersonate_button": "以该用户身份登录"
+            }
+        }
+    }
+}
