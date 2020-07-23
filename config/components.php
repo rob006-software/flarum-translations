@@ -395,6 +395,9 @@ return [
 	'giga300-auth-discord' => [
 		'tag' => 'https://raw.githubusercontent.com/giga300/flarum-auth-discord/v1.1.0/locale/en.yml',
 	],
+	'hehongyuanlove-auth-qq' => [
+		'tag' => 'https://raw.githubusercontent.com/Hehongyuanlove/flarum-auth-qq/v0.1.8/resources/locale/en.yml',
+	],
 	'hiqstd-close' => [
 		'tag' => 'https://raw.githubusercontent.com/HiQStd/flarum-ext-close/v1.0.0/resources/locale/en.yml',
 	],
