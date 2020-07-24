@@ -570,7 +570,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-ext-fancybox/0.2.0-beta.4/locale/en.yml',
 	],
 	'the-turk-mathren' => [
-		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-mathren/0.3.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-mathren/0.3.1/locale/en.yml',
 	],
 	'the-turk-password-strength' => [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-password-strength/0.1.3/locale/en.yml',
