@@ -494,6 +494,9 @@ return [
 	'minr-auth-weibo' => [
 		'tag' => 'https://raw.githubusercontent.com/minr/auth-weibo/v0.1.8/locale/en.yml',
 	],
+	'nearata-embed-video' => [
+		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-embed-video/v1.0.0/resources/locale/en.yml',
+	],
 	'nearata-minecraft-avatars' => [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-minecraft-avatars/v1.1.1/resources/locale/en.yml',
 	],
