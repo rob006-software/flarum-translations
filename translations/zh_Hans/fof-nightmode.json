@@ -1,8 +1,45 @@
 {
     "fof-nightmode": {
+        "ref": {
+            "auto": "",
+            "light": "",
+            "dark": ""
+        },
+        "admin": {
+            "settings": {
+                "modal": {
+                    "title": "",
+                    "default_theme": "",
+                    "default_theme_helper": "",
+                    "default_theme_important": "",
+                    "theme_auto": "",
+                    "theme_light": "",
+                    "theme_dark": ""
+                }
+            }
+        },
         "forum": {
+            "day": "日间模式",
             "night": "夜间模式",
-            "day": "日间模式"
+            "user": {
+                "settings": {
+                    "heading": "",
+                    "description": "",
+                    "description2": "",
+                    "device_specific_setting_checkbox": "",
+                    "device_specific_setting_checkbox_tooltip": "",
+                    "options": {
+                        "auto": "",
+                        "day": "",
+                        "night": ""
+                    },
+                    "option_descriptions": {
+                        "auto": "",
+                        "day": "",
+                        "night": ""
+                    }
+                }
+            }
         }
     }
 }
