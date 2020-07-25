@@ -1,0 +1,35 @@
+{
+    "fof-user-directory": {
+        "forum": {
+            "search": {
+                "users_heading": "「{query}」を含むユーザーを探す"
+            },
+            "page": {
+                "nav": "ユーザーリスト",
+                "sort": {
+                    "relevance": "関係性",
+                    "default": "デフォルト",
+                    "username_az": "ユーザーネーム (a-z)",
+                    "username_za": "ユーザーネーム (z-a)",
+                    "newest": "最新",
+                    "oldest": "最古",
+                    "seen_recent": "最近までオンライン",
+                    "seen_oldest": "最長オフライン",
+                    "most_posts": "最多投稿",
+                    "least_posts": "最少投稿",
+                    "most_discussions": "最多スレッド",
+                    "least_discussions": "最少スレッド"
+                }
+            }
+        },
+        "admin": {
+            "permissions": {
+                "view_user_directory": "ユーザーリストを見る"
+            },
+            "settings": {
+                "title": "ユーザーリスト設定",
+                "link": "ユーザーが見えるユーザーリストのリンクをホームページに表示する"
+            }
+        }
+    }
+}

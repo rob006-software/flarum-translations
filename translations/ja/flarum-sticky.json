@@ -1,0 +1,25 @@
+{
+    "flarum-sticky": {
+        "admin": {
+            "permissions": {
+                "sticky_discussions_label": "ピン止めされたスレッド"
+            }
+        },
+        "forum": {
+            "badge": {
+                "sticky_tooltip": "=> flarum-sticky.ref.sticky"
+            },
+            "discussion_controls": {
+                "sticky_button": "ピン止めされたスレッド",
+                "unsticky_button": "ピン止めを解除"
+            },
+            "post_stream": {
+                "discussion_stickied_text": "{username}  がピン止めしました",
+                "discussion_unstickied_text": "{username} がピン止めを解除しました"
+            }
+        },
+        "ref": {
+            "sticky": "ピン止め"
+        }
+    }
+}

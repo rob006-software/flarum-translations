@@ -1,0 +1,23 @@
+{
+    "fof-drafts": {
+        "admin": {
+            "permissions": {
+                "start": "新しいトピックの下書き"
+            }
+        },
+        "forum": {
+            "composer": {
+                "title": "下書きを保存",
+                "alert": "下書きが保存されました。",
+                "exit_alert": "編集した下書きを破棄しますか？"
+            },
+            "dropdown": {
+                "empty_text": "下書きがありません",
+                "title": "下書き",
+                "button": "下書きを削除",
+                "tooltip": "=> fof-drafts.forum.dropdown.title",
+                "alert": "下書きを削除してもよろしいですか？"
+            }
+        }
+    }
+}

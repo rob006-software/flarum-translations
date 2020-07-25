@@ -1,0 +1,25 @@
+{
+    "flarum-approval": {
+        "admin": {
+            "permissions": {
+                "approve_posts_label": "投稿を承認する",
+                "reply_without_approval_label": "承認なしでスレッドに返信する",
+                "start_discussions_without_approval_label": "承認なしでスレッドを開始する"
+            }
+        },
+        "forum": {
+            "badge": {
+                "awaiting_approval_tooltip": "=> flarum-approval.ref.awaiting_approval"
+            },
+            "post": {
+                "awaiting_approval_text": "=> flarum-approval.ref.awaiting_approval"
+            },
+            "post_controls": {
+                "approve_button": "承認"
+            }
+        },
+        "ref": {
+            "awaiting_approval": "承認待ち"
+        }
+    }
+}
