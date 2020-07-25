@@ -10,7 +10,7 @@
         "forum": {
             "notifications": {
                 "warning_text": "收到来自 {mod_username} 的警告并记 {strikes} 分",
-                "warning_no_strikes_text": "收到来自 {mod_username} 的站务通知"
+                "warning_no_strikes_text": "收到来自 {mod_username} 的站务警告"
             },
             "post": {
                 "warning": "内容违规，记 {strikes} 分",
@@ -30,14 +30,14 @@
                 "invalid_strike_count": ""
             },
             "warning_controls": {
-                "delete_button": "移除",
+                "delete_button": "撤销",
                 "restore_button": "还原",
-                "delete_forever_button": "永久删除"
+                "delete_forever_button": "永久撤销"
             },
             "warning_list": {
                 "add_button": "发送警告",
                 "no_warnings": "",
-                "warnings": "站务警告: 共记 {strikes} 分",
+                "warnings": "站务警告：共记 {strikes} 分",
                 "warnings_no_strikes": "站务警告",
                 "no-warnings": "该用户暂未收到任何警告"
             },
