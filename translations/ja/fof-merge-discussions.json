@@ -1,0 +1,36 @@
+{
+    "fof-merge-discussions": {
+        "forum": {
+            "modal": {
+                "title": "トピックを統合",
+                "type_target_label": "このトピックに統合",
+                "type_target_help_text": "「<b>{title}</b>」にマージするトピックを選択してください。",
+                "type_from_label": "別のトピックに統合",
+                "type_from_help_text": "「<b>{title}</b>」をマージするターゲットトピックを選択します。",
+                "load_preview_button": "プレビュー",
+                "submit_button": "=> fof-merge-discussions.ref.merge"
+            },
+            "discussion": {
+                "merge": "=> fof-merge-discussions.ref.merge"
+            },
+            "post": {
+                "merged": "トピック「{titles}」の下の <b>{count}</b> 応答がマージされました。|トピック「{titles}」の下の <b>{count}</b> 応答がマージされました。"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "merge_discussions_label": "トピックを統合"
+            }
+        },
+        "api": {
+            "error": {
+                "merging_failed": "トピックのマージに失敗しました。",
+                "updating_failed": "テーマコンテンツの更新に失敗しました。",
+                "deleting_failed": "空のトピックの削除に失敗しました。"
+            }
+        },
+        "ref": {
+            "merge": "マージ"
+        }
+    }
+}
