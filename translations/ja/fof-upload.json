@@ -1,0 +1,104 @@
+{
+    "fof-upload": {
+        "admin": {
+            "buttons": {
+                "save": "設定を保存する"
+            },
+            "help_texts": {
+                "description": "ファイルアップロードサービスの設定を調整する\n",
+                "disable-download-logging": "スイッチをオンにすると、フォーラムユーザーのすべてのダウンロード動作のバックグラウンドレコードが無効になります。 ログ保持機能が有効になっている場合、ファイルのダウンロード数およびその他の関連データを表示できます。 （デフォルトで有効）\n",
+                "disable-hotlink-protection": "盗難防止保護は、 csrf token と post id を検証して、サイト外からのダウンロード要求を防ぐことができます。 （デフォルトで有効）\n",
+                "download_templates": "ダウンロードテンプレートは、プレビュー、ボタンなど、アップロードがフォーラムに表示される方法です。 現在利用可能：\n",
+                "mime_types": "MIME メディアタイプを（詳細：http://t.cn/RIVXXlX）設定する。 各タイプは、設定されたアップロード方法を使用して処理されます。",
+                "resize": "アップロードする前に画像のサイズを変更するかどうかを選択できます。 ピクセル単位で、画像の最大の長さと幅を選択できます。 画像のサイズを変更すると、画像の縦横比が維持されます。\n",
+                "watermark": "写真をアップロードするときに透かしを添付するかどうかを選択します。 次の設定に従って、非GIF画像に透かしが追加されます。\n"
+            },
+            "labels": {
+                "aws-s3": {
+                    "bucket": "Bucket",
+                    "key": "Key",
+                    "region": "地域",
+                    "secret": "Secret",
+                    "title": "AWS S3 ストア設定（http://t.cn/A6zX0V3N）"
+                },
+                "disable-download-logging": {
+                    "title": "ダウンロード履歴統計を無効にする",
+                    "toggle": "無効にする"
+                },
+                "disable-hotlink-protection": {
+                    "title": "盗難防止チェーン保護を無効にする",
+                    "toggle": "無効にする"
+                },
+                "imgur": {
+                    "title": "Imgur 画像を保存した設定",
+                    "client_id": "Imgur 顧客ID"
+                },
+                "local": {
+                    "title": "ローカル、OSS ストレージ設定",
+                    "cdn_url": "OSS/CDN ドメイン名（http/https プレフィックス）"
+                },
+                "ovh-svfs": {
+                    "title": "OVH SVFS ストア設定",
+                    "container": "コンテナ",
+                    "tenantid": "テナントID",
+                    "username": "ユーザー名",
+                    "password": "パスワード",
+                    "region": "地域"
+                },
+                "qiniu": {
+                    "title": "七牛 ストア設定（需要 composer require overtrue/flysystem-qiniu）",
+                    "key": "Key",
+                    "secret": "Secret",
+                    "bucket": "Bucket"
+                },
+                "preferences": {
+                    "title": "プリファレンス",
+                    "max_file_size": "最大ファイルサイズ（KB）",
+                    "mime_types": "MIME タイプに対応するアップロード方法を設定します"
+                },
+                "resize": {
+                    "title": "画像のサイズを変更する",
+                    "toggle": "開く",
+                    "max_width": "最大画像幅",
+                    "max_height": "最大画像高さ"
+                },
+                "watermark": {
+                    "title": "透かし画像",
+                    "toggle": "開く",
+                    "position": "透かしの位置",
+                    "file": "透かし画像をアップロードする"
+                }
+            },
+            "permissions": {
+                "upload_label": "ダウンロードファイルを許可する",
+                "download_label": "アップロードファイルを許可します"
+            },
+            "templates": {
+                "file": "デフォルトのファイルダウンロードテンプレート",
+                "file_description": "ファイル名といくつかの一般情報を表示します。 プロキシは php を介してダウンロードし、統計の収集とホットリンク保護を可能にします。\n",
+                "image": "デフォルトの画像ダウンロードテンプレート",
+                "image-preview": "完全な画像プレビューテンプレート",
+                "image-preview_description": "完全な画像をインラインで表示します。 ダウンロード機能も統計情報も収集されず、ホットリンク保護は無視されます。\n",
+                "image_description": "画像のサムネイルを表示し、PHP を介してプロキシをダウンロードします。 統計の収集とホットリンク保護を許可します。\n"
+            },
+            "upload_methods": {
+                "aws-s3": "AWS S3",
+                "imgur": "Imgur",
+                "local": "ローカル",
+                "ovh-svfs": "OVH SVFS",
+                "qiniu": "七牛"
+            }
+        },
+        "forum": {
+            "buttons": {
+                "attach": "添付ファイルを追加"
+            },
+            "states": {
+                "loading": "読み込み中",
+                "success": "成功",
+                "error": "間違った",
+                "unauthorized": "ダウンロードする権限がありません"
+            }
+        }
+    }
+}
