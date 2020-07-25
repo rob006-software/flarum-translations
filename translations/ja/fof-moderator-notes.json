@@ -1,0 +1,29 @@
+{
+    "fof-moderator-notes": {
+        "admin": {
+            "permissions": {
+                "createnotes": "伝言を投稿する",
+                "viewnotes": "伝言ボードを見る"
+            }
+        },
+        "forum": {
+            "moderatorNotes": {
+                "add_button": "伝言を投稿",
+                "confirmation_message": "伝言成功！ 表示するには、ページを更新する必要がある場合があります。",
+                "create-heading": "伝言を投稿する",
+                "dismiss_button": "わかった",
+                "input_heading": "<strong>{username}</strong>に伝言する",
+                "no_content_given": "空の伝言を投稿できません。",
+                "noNotes": "伝言は一つもないですが。最初の一人になりたいですか？",
+                "submit_button": "保存"
+            },
+            "user": {
+                "notes": "伝言板"
+            }
+        },
+        "api": {
+            "auto-note": "FoF Impersonateを使って、このユーザーに乗り換えました。",
+            "auto-note-actor": "'ユーザー名'の代わりにFoF Impersonateを使用します。"
+        }
+    }
+}
