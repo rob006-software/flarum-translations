@@ -7,9 +7,12 @@
             "modal": {
                 "title-post": "返信作者を変更",
                 "title-discussion": "discussion作者を変更",
-                "search_placeholder": "検索ユーザ",
+                "user": "",
+                "created_at": "",
+                "edited_at": "",
                 "submit": "保存",
-                "cancel": "キャンセルする"
+                "cancel": "キャンセルする",
+                "search_placeholder": "検索ユーザ"
             },
             "search": {
                 "placeholder": "検索ユーザ",
@@ -19,6 +22,8 @@
         },
         "admin": {
             "permissions": {
+                "edit-user": "",
+                "edit-date": "",
                 "edit": "postとレス作者を更新します。"
             }
         }

@@ -1,6 +1,10 @@
 {
     "reflar-doorman": {
         "forum": {
+            "email": {
+                "subject": "",
+                "body": ""
+            },
             "sign_up": {
                 "invalid_doorkey": "入力した招待コードは無効です",
                 "doorkey_required": "招待コードを入力してください",
@@ -9,6 +13,16 @@
             }
         },
         "admin": {
+            "modal": {
+                "title": "",
+                "group": "",
+                "help": "",
+                "placeholder": "",
+                "invalid_emails": "",
+                "max_use_conflict": "",
+                "send": "",
+                "success": ""
+            },
             "invalid_doorkey": "指定した招待コードは無効です",
             "doorkey_required": "招待コードを提供する必要があります",
             "nav": {

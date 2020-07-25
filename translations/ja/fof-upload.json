@@ -30,20 +30,12 @@
                     "toggle": "無効にする"
                 },
                 "imgur": {
-                    "title": "Imgur 画像を保存した設定",
-                    "client_id": "Imgur 顧客ID"
+                    "client_id": "Imgur 顧客ID",
+                    "title": "Imgur 画像を保存した設定"
                 },
                 "local": {
-                    "title": "ローカル、OSS ストレージ設定",
-                    "cdn_url": "OSS/CDN ドメイン名（http/https プレフィックス）"
-                },
-                "ovh-svfs": {
-                    "title": "OVH SVFS ストア設定",
-                    "container": "コンテナ",
-                    "tenantid": "テナントID",
-                    "username": "ユーザー名",
-                    "password": "パスワード",
-                    "region": "地域"
+                    "cdn_url": "OSS/CDN ドメイン名（http/https プレフィックス）",
+                    "title": "ローカル、OSS ストレージ設定"
                 },
                 "qiniu": {
                     "title": "七牛 ストア設定（需要 composer require overtrue/flysystem-qiniu）",
@@ -52,26 +44,34 @@
                     "bucket": "Bucket"
                 },
                 "preferences": {
-                    "title": "プリファレンス",
                     "max_file_size": "最大ファイルサイズ（KB）",
-                    "mime_types": "MIME タイプに対応するアップロード方法を設定します"
+                    "mime_types": "MIME タイプに対応するアップロード方法を設定します",
+                    "title": "プリファレンス"
                 },
                 "resize": {
+                    "max_width": "最大画像幅",
                     "title": "画像のサイズを変更する",
                     "toggle": "開く",
-                    "max_width": "最大画像幅",
                     "max_height": "最大画像高さ"
                 },
                 "watermark": {
-                    "title": "透かし画像",
-                    "toggle": "開く",
+                    "file": "透かし画像をアップロードする",
                     "position": "透かしの位置",
-                    "file": "透かし画像をアップロードする"
+                    "title": "透かし画像",
+                    "toggle": "開く"
+                },
+                "ovh-svfs": {
+                    "title": "OVH SVFS ストア設定",
+                    "container": "コンテナ",
+                    "tenantid": "テナントID",
+                    "username": "ユーザー名",
+                    "password": "パスワード",
+                    "region": "地域"
                 }
             },
             "permissions": {
-                "upload_label": "ダウンロードファイルを許可する",
-                "download_label": "アップロードファイルを許可します"
+                "download_label": "アップロードファイルを許可します",
+                "upload_label": "ダウンロードファイルを許可する"
             },
             "templates": {
                 "file": "デフォルトのファイルダウンロードテンプレート",
@@ -94,10 +94,17 @@
                 "attach": "添付ファイルを追加"
             },
             "states": {
-                "loading": "読み込み中",
-                "success": "成功",
                 "error": "間違った",
-                "unauthorized": "ダウンロードする権限がありません"
+                "loading": "読み込み中",
+                "unauthorized": "ダウンロードする権限がありません",
+                "success": "成功"
+            }
+        },
+        "api": {
+            "upload_errors": {
+                "forbidden_type": "",
+                "unsupported_type": "",
+                "could_not_detect_mime": ""
             }
         }
     }

@@ -25,6 +25,10 @@
             "settings": {
                 "warning_notification_label": "警告"
             },
+            "validation": {
+                "public_comment_required": "",
+                "invalid_strike_count": ""
+            },
             "warning_controls": {
                 "delete_button": "削除する",
                 "restore_button": "戻す",
@@ -32,9 +36,10 @@
             },
             "warning_list": {
                 "add_button": "警告を送る",
-                "no-warnings": "ここには警告がないようです。",
+                "no_warnings": "",
                 "warnings": "警告：合計 {strikes} 点",
-                "warnings_no_strikes": "警告"
+                "warnings_no_strikes": "警告",
+                "no-warnings": "ここには警告がないようです。"
             },
             "warning_list_item": {
                 "list_item_heading": "<strong>{mod_username}</strong> から警告を受けた、<strong>{strikes}</strong> 点減点",
@@ -45,13 +50,13 @@
             },
             "warning_modal": {
                 "confirmation_message": "あなたの警告が発せられました。ページを更新しないと表示されない場合があります。",
-                "dismiss_button": "完全な",
                 "heading": "警告 <strong>{username}</strong>",
                 "strikes_heading": "厳しさ：何点ですか？",
                 "public_comment_heading": "コメント。なぜ <strong>{username}</strong>に警告するのですか？コメントは、このユーザーと他の警告開始者にのみ表示されます。",
                 "private_comment_heading": "リマーク。なぜ <strong>{username}</strong>に警告するのですか？リマーク、あなたと他の警告開始者にのみ表示されます。",
-                "no_content_given": "空の警告は許可されていません。",
-                "submit_button": "警告を送る"
+                "submit_button": "警告を送る",
+                "dismiss_button": "完全な",
+                "no_content_given": "空の警告は許可されていません。"
             }
         }
     }

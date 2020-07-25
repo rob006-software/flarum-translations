@@ -3,11 +3,21 @@
         "forum": {
             "settings": {
                 "notify_new_discussion_label": "フォローしているタグに新しいスレッドがあります",
-                "notify_new_post_label": "フォローしているタグに新しい返信があります"
+                "notify_new_post_label": "フォローしているタグに新しい返信があります",
+                "notify_new_discussion_tag_label": ""
             },
             "index": {
                 "follow_tag_button": "フォロー",
-                "unfollow_tag_button": "フォローをやめる"
+                "unfollow_tag_button": "フォローをやめる",
+                "following": {
+                    "following_none_label": "",
+                    "following_all_label": "",
+                    "following_tags_label": ""
+                }
+            },
+            "badge": {
+                "following_tag_tooltip": "",
+                "lurking_tag_tooltip": ""
             },
             "sub_controls": {
                 "follow_button": "=> fof-follow-tags.ref.follow",
@@ -26,19 +36,41 @@
             },
             "notifications": {
                 "new_discussion_text": "{username} がディスカッションを開始しました",
-                "new_post_text": "{username} が投稿しました"
+                "new_post_text": "{username} が投稿しました",
+                "new_discussion_tag_text": ""
+            },
+            "user": {
+                "settings": {
+                    "heading": "",
+                    "filter_label": ""
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "title": "",
+                "following_page_default_label": "",
+                "following_none_label": "",
+                "following_tags_label": "",
+                "following_all_label": ""
             }
         },
         "email": {
             "newDiscussionInTag": "[Tag | New Discussion] タイトル",
-            "newPostInTag": "[Tag | New Post] タイトル"
+            "newPostInTag": "[Tag | New Post] タイトル",
+            "newDiscussionTag": ""
         },
         "ref": {
             "follow": "フォロー",
             "following": "フォロー中",
             "hiding": "隠す",
             "ignoring": "無視中",
-            "lurking": "ラークする"
+            "lurking": "ラークする",
+            "filtering_options": {
+                "none": "",
+                "all": "",
+                "tags": ""
+            }
         }
     }
 }

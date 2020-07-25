@@ -3,6 +3,8 @@
         "admin": {
             "generator": {
                 "title": "偽のデータを生成する",
+                "bulk-mode": "",
+                "bulk-mode-description": "",
                 "user-count": "新規ユーザー",
                 "discussion-count": "新しいトピックの数",
                 "post-count": "新しい応答の数",
@@ -15,6 +17,8 @@
             },
             "generator": {
                 "title": "偽の応答を生成する",
+                "bulk-mode": "",
+                "bulk-mode-description": "",
                 "user-count": "新規ユーザー",
                 "post-count": "新しい応答の数",
                 "send": "データを生成する"
@@ -23,6 +27,14 @@
         "api": {
             "no-users-matched": "ユーザーが見つかりません",
             "no-discussions-matched": "件名が見つかりません"
+        },
+        "ref": {
+            "bulk-mode": "",
+            "bulk-mode-description": "",
+            "user-count": "",
+            "discussion-count": "",
+            "post-count": "",
+            "send": ""
         }
     }
 }

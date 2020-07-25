@@ -31,6 +31,8 @@
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "デフォルト言語",
+                "display_name_heading": "",
+                "display_name_text": "",
                 "forum_description_heading": "フォーラムの説明",
                 "forum_description_text": "短いフォーラムの説明文を入力してください。これは HTML にメタタグとして記述され、検索エンジンの説明欄に表示される可能性があります。",
                 "forum_title_heading": "フォーラムのタイトル",
@@ -85,32 +87,25 @@
                 "mail_mailgun_domain_label": "ドメイン名",
                 "mail_mailgun_region_label": "地域",
                 "mail_mailgun_secret_label": "Secret key",
-                "mail_mandrill_secret_label": "Secret key",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "ポート番号",
+                "mail_username_label": "ユーザ名（一般的にメールアドレスと同じ）",
+                "mailgun_heading": "Mailgun 設定",
+                "not_sending_message": "Flarum は現在メールを送信できません。メールドライバーとその設定を確認してください。",
+                "smtp_heading": "SMTP 設定",
+                "submit_button": "=> core.ref.save_changes",
+                "text": "メール送信用のSMTP情報を設定します。",
+                "mail_mandrill_secret_label": "Secret key",
                 "mail_ses_key_label": "Key",
                 "mail_ses_region_label": "地域",
                 "mail_ses_secret_label": "Secret",
-                "mail_username_label": "ユーザ名（一般的にメールアドレスと同じ）",
-                "mailgun_heading": "Mailgun 設定",
                 "mandrill_heading": "Mandrill 設定",
-                "not_sending_message": "Flarum は現在メールを送信できません。メールドライバーとその設定を確認してください。",
-                "ses_heading": "SES 設定",
-                "smtp_heading": "SMTP 設定",
-                "submit_button": "=> core.ref.save_changes",
-                "text": "メール送信用のSMTP情報を設定します。"
+                "ses_heading": "SES 設定"
             },
             "extensions": {
                 "add_button": "拡張機能を追加",
                 "settings_button": "=> core.ref.settings",
                 "uninstall_button": "アンインストール"
-            },
-            "advanced": {
-                "help_text": "これらの設定は上級ユーザー向けであることに注意してください",
-                "heading_security": "セキュリティ設定",
-                "post_flood_interval": "複数の投稿間の待機時間",
-                "post_flood_interval_text": "ユーザーが別の投稿を作成するまで待機する時間を設定します（秒単位）",
-                "enter_positive_number": "正数を入力してください"
             },
             "header": {
                 "log_out_button": "=> core.ref.log_out"
@@ -129,10 +124,10 @@
                 "email_text": "フォーラムのメールボックス設定を構成する",
                 "extensions_button": "プラグイン",
                 "extensions_text": "あなたのフォーラムのために追加の機能を追加します",
-                "advanced_button": "シニア",
-                "advanced_text": "上級ユーザー向けの設定を構成します。",
                 "permissions_button": "権限",
-                "permissions_text": "ユーザーアクセスと操作権限の設定"
+                "permissions_text": "ユーザーアクセスと操作権限の設定",
+                "advanced_button": "シニア",
+                "advanced_text": "上級ユーザー向けの設定を構成します。"
             },
             "permissions": {
                 "allow_post_editing_label": "投稿内容の変更を許可",
@@ -176,6 +171,13 @@
             "upload_image": {
                 "remove_button": "=> core.ref.remove",
                 "upload_button": "写真を選択..."
+            },
+            "advanced": {
+                "help_text": "これらの設定は上級ユーザー向けであることに注意してください",
+                "heading_security": "セキュリティ設定",
+                "post_flood_interval": "複数の投稿間の待機時間",
+                "post_flood_interval_text": "ユーザーが別の投稿を作成するまで待機する時間を設定します（秒単位）",
+                "enter_positive_number": "正数を入力してください"
             }
         },
         "forum": {
@@ -273,6 +275,7 @@
                 "cannot_start_discussion_button": "スレッドを開始できません",
                 "mark_all_as_read_confirmation": "すべてを既読にしてもよろしいですか？",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "meta_title_text": "",
                 "refresh_tooltip": "更新",
                 "start_discussion_button": "=> core.ref.start_a_discussion"
             },
@@ -328,8 +331,8 @@
                 "time_lapsed_text": "{period} 後"
             },
             "rename_discussion": {
-                "title": "タイトル変更",
-                "submit_button": "=> core.ref.rename"
+                "submit_button": "=> core.ref.rename",
+                "title": "タイトル変更"
             },
             "search": {
                 "all_discussions_button": "“{query}” を検索",
@@ -478,7 +481,7 @@
             "discussions": "スレッド",
             "edit": "編集",
             "email": "電子メール",
-            "icon_label": "アイコン",
+            "icon": "",
             "icon_text": "接頭辞 <code>fas fa-</code> <strong>を含む</strong> <a>Font Awesome</a> アイコン名を入力します。",
             "load_more": "さらに読み込む",
             "log_in": "ログイン",
@@ -489,8 +492,8 @@
             "okay": "OK",
             "password": "パスワード",
             "posts": "投稿",
-            "remove": "削除",
             "previous_page": "前のページ",
+            "remove": "削除",
             "rename": "リネーム",
             "reply": "返信",
             "reset_your_password": "パスワードをリセット",
@@ -503,7 +506,8 @@
             "username": "ユーザ名",
             "users": "ユーザー",
             "write_a_reply": "返信する...",
-            "you": "あなた"
+            "you": "あなた",
+            "icon_label": "アイコン"
         },
         "group": {
             "admin": "管理者",
