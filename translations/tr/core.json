@@ -92,6 +92,10 @@
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "Mailgun Ayarları",
                 "not_sending_message": "",
+                "send_test_mail_button": "",
+                "send_test_mail_heading": "",
+                "send_test_mail_success": "",
+                "send_test_mail_text": "",
                 "smtp_heading": "SMTP Ayarları",
                 "submit_button": "=> core.ref.save_changes",
                 "text": "Forumunun e-posta göndermesi için sürücüyü, ayarları ve adresleri ayarla.",
@@ -454,6 +458,10 @@
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
                 "body": "Hey {username} !\\n\\nBirisi (umarım sensindir!) {forum} sitesindeki hesabın için şifre sıfırlama talebinde bulundu.\\n\\n Bu sen isen, şifreni sıfırlamak için aşağıdaki bağlantıyı tıkla: \\n {url} \\n \\n Şifreni değiştirmek istemiyorsan, bu e-postayı dikkate alma; hiçbir şey olmayacak. \\n"
+            },
+            "send_test": {
+                "subject": "",
+                "body": ""
             }
         },
         "ref": {

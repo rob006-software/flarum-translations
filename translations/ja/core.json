@@ -92,6 +92,10 @@
                 "mail_username_label": "ユーザ名（一般的にメールアドレスと同じ）",
                 "mailgun_heading": "Mailgun 設定",
                 "not_sending_message": "Flarum は現在メールを送信できません。メールドライバーとその設定を確認してください。",
+                "send_test_mail_button": "",
+                "send_test_mail_heading": "",
+                "send_test_mail_success": "",
+                "send_test_mail_text": "",
                 "smtp_heading": "SMTP 設定",
                 "submit_button": "=> core.ref.save_changes",
                 "text": "メール送信用のSMTP情報を設定します。",
@@ -463,6 +467,10 @@
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
                 "body": "{username} さん、こんにちは!\n\n{forum} のアカウントで、パスワードリセットのリクエストを誰かが（おそらくあなたが）送信しました。\n\nこのURLにアクセスするとアカウントのパスワードをリセットすることができます:\n{url}\n\nこのメールに身に覚えがない場合は、お手数ですがメールを削除してください。\n"
+            },
+            "send_test": {
+                "subject": "",
+                "body": ""
             }
         },
         "ref": {

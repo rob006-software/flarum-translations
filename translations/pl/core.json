@@ -92,6 +92,10 @@
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "Ustawienia Mailguna",
                 "not_sending_message": "Obecnie Flarum nie wysyła żadnych wiadomości e-mail. Może to być skutek wybranego sterownika lub błędów w konfiguracji.",
+                "send_test_mail_button": "",
+                "send_test_mail_heading": "",
+                "send_test_mail_success": "",
+                "send_test_mail_text": "",
                 "smtp_heading": "Ustawienia SMTP",
                 "submit_button": "=> core.ref.save_changes",
                 "text": "Skonfiguruj sterownik, ustawienia i adresy, z których twoje forum będzie korzystać podczas wysyłania wiadomości e-mail.",
@@ -454,6 +458,10 @@
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
                 "body": "Witaj, {username}!\n\nKtoś (mamy nadzieję, że ty!) poprosił o zresetowanie hasła do swojego konta na {forum}.\n\nJeśli byłeś to ty, kliknij ten link, aby zresetować swoje hasło:\n{url}\n\nJeśli nie chcesz zmieniać hasła, po prostu zignoruj ten e-mail, a nic się nie stanie.\n"
+            },
+            "send_test": {
+                "subject": "",
+                "body": ""
             }
         },
         "ref": {
