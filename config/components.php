@@ -576,7 +576,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-mathren/0.3.2/locale/en.yml',
 	],
 	'the-turk-password-strength' => [
-		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-password-strength/0.1.3/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-password-strength/1.0.1/locale/en.yml',
 	],
 	'the-turk-quiet-edits' => [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-quiet-edits/0.1.2/locale/en.yml',
