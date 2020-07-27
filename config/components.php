@@ -105,6 +105,9 @@ return [
 	'clarkwinkelmann-who-read' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-who-read/1.2.0/resources/locale/en.yml',
 	],
+	'danielunited-seo' => [
+		'tag' => 'https://raw.githubusercontent.com/danielunited/flarum-seo/1.2.1/locale/en.yml',
+	],
 	'datitisev-backup' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/datitisev-backup.yml',
 	],
