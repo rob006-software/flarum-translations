@@ -157,7 +157,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flagrow/fonts/0.2.0/resources/locale/en.yml',
 	],
 	'flagrow-mason' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/mason/0.3.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/mason/0.4.0/resources/locale/en.yml',
 	],
 	'flarum-akismet' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.13/locale/flarum-akismet.yml',
