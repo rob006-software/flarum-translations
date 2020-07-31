@@ -308,6 +308,9 @@ return [
 	'fof-links' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/links/0.3.0/locale/en.yml',
 	],
+	'fof-mason' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/mason/0.4.0/resources/locale/en.yml',
+	],
 	'fof-masquerade' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/masquerade/0.3.4/resources/locale/en.yml',
 	],
