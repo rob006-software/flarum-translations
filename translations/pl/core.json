@@ -21,7 +21,7 @@
                 "edit_css_button": "Edytuj niestandardowy CSS",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
-                "enter_hex_message": "Wpisz proszę kod HEX koloru.",
+                "enter_hex_message": "Wpisz kod HEX koloru.",
                 "favicon_heading": "Ikona (favicon)",
                 "favicon_text": "Wyślij obrazek, który będzie wyświetlany jako ikona forum.",
                 "logo_heading": "Logo",
@@ -92,10 +92,10 @@
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "Ustawienia Mailguna",
                 "not_sending_message": "Obecnie Flarum nie wysyła żadnych wiadomości e-mail. Może to być skutek wybranego sterownika lub błędów w konfiguracji.",
-                "send_test_mail_button": "",
-                "send_test_mail_heading": "",
-                "send_test_mail_success": "",
-                "send_test_mail_text": "",
+                "send_test_mail_button": "Wyślij",
+                "send_test_mail_heading": "Wyślij testowy e-mail",
+                "send_test_mail_success": "Testowa wiadomość e-mail została pomyślnie wysłana!",
+                "send_test_mail_text": "Wiadomość zostanie wysłana przy użyciu powyższej konfiguracji na twój adres e-mail, {email}.",
                 "smtp_heading": "Ustawienia SMTP",
                 "submit_button": "=> core.ref.save_changes",
                 "text": "Skonfiguruj sterownik, ustawienia i adresy, z których twoje forum będzie korzystać podczas wysyłania wiadomości e-mail.",
@@ -449,19 +449,19 @@
         "email": {
             "activate_account": {
                 "subject": "Aktywuj swoje nowe konto",
-                "body": "Witaj, {username}!\n\nKtoś (mamy nadzieję, że ty!) zarejestrował się na {forum} używając tego adresu e-mail.\n\nJeśli byłeś to ty, po prostu kliknij ten link i twoje konto zostanie aktywowane:\n{url}\n\nJeśli się nie rejestrowałeś, zignoruj proszę ten e-mail.\n"
+                "body": "Witaj, {username}!\n\nKtoś (mamy nadzieję, że Ty!) zarejestrował się na {forum} używając tego adresu e-mail.\n\nJeśli byłeś to Ty, po prostu kliknij link poniżej i Twoje konto zostanie aktywowane:\n{url}\n\nJeśli się nie rejestrowałeś, zignoruj tę wiadomość.\n"
             },
             "confirm_email": {
                 "subject": "Potwierdź swój adres e-mail",
-                "body": "Witaj, {username}!\n\nKtoś (mamy nadzieję, że ty!) zmienił swój adres e-mail na {forum} na ten.\n\nJeśli byłeś to ty, po prostu kliknij ten link, a twój e-mail zostanie zatwierdzony:\n{url}\n\nJeśli to nie ty, zignoruj proszę ten e-mail.\n"
+                "body": "Witaj, {username}!\n\nKtoś (mamy nadzieję, że Ty!) zmienił swój adres e-mail na {forum} na ten.\n\nJeśli byłeś to Ty, po prostu kliknij link poniżej, a Twój e-mail zostanie zatwierdzony:\n{url}\n\nJeśli to nie Ty, zignoruj tę wiadomość.\n"
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": "Witaj, {username}!\n\nKtoś (mamy nadzieję, że ty!) poprosił o zresetowanie hasła do swojego konta na {forum}.\n\nJeśli byłeś to ty, kliknij ten link, aby zresetować swoje hasło:\n{url}\n\nJeśli nie chcesz zmieniać hasła, po prostu zignoruj ten e-mail, a nic się nie stanie.\n"
+                "body": "Witaj, {username}!\n\nKtoś (mamy nadzieję, że Ty!) poprosił o zresetowanie hasła do swojego konta na {forum}.\n\nJeśli byłeś to Ty, kliknij link poniżej, aby zresetować swoje hasło:\n{url}\n\nJeśli nie chcesz zmieniać hasła, po prostu zignoruj tę wiadomość, a nic się nie stanie.\n"
             },
             "send_test": {
-                "subject": "",
-                "body": ""
+                "subject": "Testowa wiadomość z Flarum",
+                "body": "Witaj {username}!\n\nTo jest testowa wiadomość wysłana przez Flarum, aby potwierdzić, że twoja konfiguracja wysyłki e-mail działa prawidłowo.\n\nJeśli to Ty poprosiłeś o wysłanie tej wiadomości, wszystko działa w porządku!\n\nJeśli to nie Ty, zignoruj tę wiadomość.\n"
             }
         },
         "ref": {
