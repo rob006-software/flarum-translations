@@ -4,13 +4,13 @@
             "add_extension": {
                 "developer_text": "Jeśli jesteś deweloperem, możesz <a>zapoznać się z dokumentacją</a> i rozpocząć pracę nad własnymi rozszerzeniami.",
                 "install_text": "W międzyczasie możesz poszukać rozszerzeń na <a>stronie Flarum Community</a> i zainstalować je ręcznie przy użyciu Composera.",
-                "temporary_text": "Pewnego dnia, w niedalekiej przyszłości, to okienko pozwoli ci na łatwe i szybkie dodanie rozszerzenia do twojego forum. Budujemy ekosystem!",
+                "temporary_text": "Pewnego dnia, w niedalekiej przyszłości, to okienko pozwoli Ci na łatwe i szybkie dodanie rozszerzenia do Twojego forum. Budujemy ekosystem!",
                 "title": "Dodaj rozszerzenie"
             },
             "appearance": {
                 "colored_header_label": "Kolorowy nagłówek",
                 "colors_heading": "Kolory",
-                "colors_text": "Wybierz dwa kolory dla twojego motywu forum. Pierwszy będzie używany jako kolor wiodący, kiedy drugi zapełni elementy tła.",
+                "colors_text": "Wybierz dwa kolory dla Twojego motywu forum. Pierwszy będzie używany jako kolor wiodący, kiedy drugi zapełni elementy tła.",
                 "custom_footer_heading": "Niestandardowa stopka",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Niestandardowy nagłówek",
@@ -34,10 +34,10 @@
                 "display_name_heading": "Wyświetlana nazwa użytkownika",
                 "display_name_text": "Wybierz sterownik, który powinien być używany do wyświetlania nazw użytkowników. Domyślnie wyświetlana jest nazwa użytkownika.",
                 "forum_description_heading": "Opis forum",
-                "forum_description_text": "Wpisz 1-2 krótkie zdania, które opisują twoją społeczność. Ten tekst pojawi się w meta tagu i będzie się pokazywał w wyszukiwarkach.",
+                "forum_description_text": "Wpisz 1-2 krótkie zdania, które opisują Twoją społeczność. Ten tekst pojawi się w meta tagu i będzie się pokazywał w wyszukiwarkach.",
                 "forum_title_heading": "Nazwa forum",
                 "home_page_heading": "Strona domowa",
-                "home_page_text": "Wybierz stronę, którą użytkownicy zobaczą jako pierwszą, gdy odwiedzą twoje forum.",
+                "home_page_text": "Wybierz stronę, którą użytkownicy zobaczą jako pierwszą, gdy odwiedzą Twoje forum.",
                 "saved_message": "Twoje zmiany zostały zapisane.",
                 "show_language_selector_label": "Pokazuj menu wyboru języka",
                 "submit_button": "=> core.ref.save_changes",
@@ -95,10 +95,10 @@
                 "send_test_mail_button": "Wyślij",
                 "send_test_mail_heading": "Wyślij testowy e-mail",
                 "send_test_mail_success": "Testowa wiadomość e-mail została pomyślnie wysłana!",
-                "send_test_mail_text": "Wiadomość zostanie wysłana przy użyciu powyższej konfiguracji na twój adres e-mail, {email}.",
+                "send_test_mail_text": "Wiadomość zostanie wysłana przy użyciu powyższej konfiguracji na Twój adres e-mail, {email}.",
                 "smtp_heading": "Ustawienia SMTP",
                 "submit_button": "=> core.ref.save_changes",
-                "text": "Skonfiguruj sterownik, ustawienia i adresy, z których twoje forum będzie korzystać podczas wysyłania wiadomości e-mail.",
+                "text": "Skonfiguruj sterownik, ustawienia i adresy, z których Twoje forum będzie korzystać podczas wysyłania wiadomości e-mail.",
                 "mail_mandrill_secret_label": "Secret key",
                 "mail_ses_key_label": "Key",
                 "mail_ses_region_label": "Region",
@@ -249,10 +249,10 @@
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
                 "email_placeholder": "=> core.ref.email",
-                "email_sent_message": "Wysłaliśmy do ciebie e-mail zawierający link do zresetowania hasła. Sprawdź folder ze spamem, jeśli nie otrzymasz go w ciągu minuty lub dwóch.",
+                "email_sent_message": "Wysłaliśmy do Ciebie e-mail zawierający link do zresetowania hasła. Sprawdź folder ze spamem, jeśli nie otrzymasz go w ciągu minuty lub dwóch.",
                 "not_found_message": "Nie ma zarejestrowanego użytkownika z tym adresem e-mail.",
                 "submit_button": "Odzyskaj hasło",
-                "text": "Wpisz swój adres e-mail, a my wyślemy ci link do zresetowania hasła.",
+                "text": "Wpisz swój adres e-mail, a my wyślemy Ci link do zresetowania hasła.",
                 "title": "Zapomniane hasło"
             },
             "header": {
@@ -461,7 +461,7 @@
             },
             "send_test": {
                 "subject": "Testowa wiadomość z Flarum",
-                "body": "Witaj {username}!\n\nTo jest testowa wiadomość wysłana przez Flarum, aby potwierdzić, że twoja konfiguracja wysyłki e-mail działa prawidłowo.\n\nJeśli to Ty poprosiłeś o wysłanie tej wiadomości, wszystko działa w porządku!\n\nJeśli to nie Ty, zignoruj tę wiadomość.\n"
+                "body": "Witaj {username}!\n\nTo jest testowa wiadomość wysłana przez Flarum, aby potwierdzić, że konfiguracja wysyłki e-mail na Twoim forum działa prawidłowo.\n\nJeśli to Ty poprosiłeś o wysłanie tej wiadomości, wszystko działa w porządku!\n\nJeśli to nie Ty, zignoruj tę wiadomość.\n"
             }
         },
         "ref": {
