@@ -854,7 +854,7 @@
 		<td align="center"><a href="https://packagist.org/packages/flagrow/mason/stats">2101<br /><img src="https://img.shields.io/badge/-%2B4-brightgreen" alt="+4" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/flagrow/mason/stats">40<br /><img src="https://img.shields.io/badge/--3-red" alt="-3" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/flagrow/mason/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/flagrow-mason/pl/"><img src="https://weblate.rob006.net/widgets/flarum/pl/flagrow-mason/svg-badge.svg" alt="Translation status"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/fof-mason/pl/"><img src="https://weblate.rob006.net/widgets/flarum/pl/fof-mason/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td><a href="https://github.com/flarumite/flarum-decontaminator" title="flarumite/flarum-decontaminator"><code>flarumite/flarum-decontaminator</code></a></td>

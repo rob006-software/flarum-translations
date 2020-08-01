@@ -156,9 +156,6 @@ return [
 	'flagrow-fonts' => [
 		'tag' => 'https://raw.githubusercontent.com/flagrow/fonts/0.2.0/resources/locale/en.yml',
 	],
-	'flagrow-mason' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/mason/0.4.0/resources/locale/en.yml',
-	],
 	'flarum-akismet' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.13/locale/flarum-akismet.yml',
 		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-akismet.yml',
@@ -307,6 +304,9 @@ return [
 	],
 	'fof-links' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/links/0.3.0/locale/en.yml',
+	],
+	'fof-mason' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/mason/0.4.0/resources/locale/en.yml',
 	],
 	'fof-masquerade' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/masquerade/0.3.4/resources/locale/en.yml',
