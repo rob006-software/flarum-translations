@@ -30,6 +30,8 @@
                 "add-answer": "回答を追加",
                 "save-answer": "回答を保存",
                 "delete-answer": "回答を削除",
+                "edit-answer": "",
+                "edit-answer-prompt": "",
                 "show-user-answers": "候補ではない回答を ({count}) つ表示"
             },
             "menu": {
@@ -43,8 +45,6 @@
                 "name-help": "一般に表示され、翻訳できないフィールドラベル\n",
                 "description": "フィールドの説明",
                 "description-help": "このフィールドの目的を説明するオプションの説明\n",
-                "min_answers_count": "回答の最小数",
-                "max_answers_count": "回答の最大数",
                 "show_when_empty": "空のフィールドを表示",
                 "show_when_empty-help": "フィールドが空かどうかを投稿に表示",
                 "validation": "ユーザー入力を確認する",
@@ -57,7 +57,10 @@
                 "icon-preview": "プレビュー： {preview}",
                 "save-field-for-answers": "このフィールドを保存して回答を追加してください",
                 "is_suggested": "ユーザーに提案を表示する",
-                "new-answer-placeholder": "一部のテキスト"
+                "new-answer": "",
+                "new-answer-placeholder": "一部のテキスト",
+                "min_answers_count": "回答の最小数",
+                "max_answers_count": "回答の最大数"
             },
             "messages": {
                 "delete-answer-confirmation": "回答「{content}」を削除しますか？ これは、それを使用するすべての投稿から削除されます。既存の回答を保持する場合は、回答の提案を無効にしてください。 回答を削除しますか？\n",
@@ -81,7 +84,9 @@
             },
             "titles": {
                 "settings": "設定する",
-                "fields": "フィールド"
+                "fields": "フィールド",
+                "field-settings": "",
+                "field-answers": ""
             },
             "permissions": {
                 "mason-heading": "Mason",

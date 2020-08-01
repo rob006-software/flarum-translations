@@ -30,6 +30,8 @@
                 "add-answer": "",
                 "save-answer": "",
                 "delete-answer": "",
+                "edit-answer": "",
+                "edit-answer-prompt": "",
                 "show-user-answers": ""
             },
             "menu": {
@@ -43,8 +45,6 @@
                 "name-help": "",
                 "description": "",
                 "description-help": "",
-                "min_answers_count": "",
-                "max_answers_count": "",
                 "show_when_empty": "",
                 "show_when_empty-help": "",
                 "validation": "",
@@ -57,7 +57,10 @@
                 "icon-preview": "",
                 "save-field-for-answers": "",
                 "is_suggested": "",
-                "new-answer-placeholder": ""
+                "new-answer": "",
+                "new-answer-placeholder": "",
+                "min_answers_count": "",
+                "max_answers_count": ""
             },
             "messages": {
                 "delete-answer-confirmation": "",
@@ -81,7 +84,9 @@
             },
             "titles": {
                 "settings": "",
-                "fields": ""
+                "fields": "",
+                "field-settings": "",
+                "field-answers": ""
             },
             "permissions": {
                 "mason-heading": "",

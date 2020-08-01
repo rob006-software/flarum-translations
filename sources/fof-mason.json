@@ -30,6 +30,8 @@
                 "add-answer": "Add answer",
                 "save-answer": "Save answer changes",
                 "delete-answer": "Delete answer",
+                "edit-answer": "Edit Answer",
+                "edit-answer-prompt": "Edit content everywhere it is used",
                 "show-user-answers": "Show non-suggested answers ({count})"
             },
             "menu": {
@@ -43,8 +45,6 @@
                 "name-help": "The publicly visible (non-translatable) field label.\n",
                 "description": "Field description",
                 "description-help": "An optional description to explain the use/need of this field.\n",
-                "min_answers_count": "Minimum required answers",
-                "max_answers_count": "Maximum allowed answers",
                 "show_when_empty": "Show when empty",
                 "show_when_empty-help": "Whether to show the field on the discussion when it has no answer",
                 "validation": "Validation for user values",
@@ -57,11 +57,12 @@
                 "icon-preview": "preview: {preview}",
                 "save-field-for-answers": "Save the field to add answers",
                 "is_suggested": "Suggest answer to users",
+                "new-answer": "New answer",
                 "new-answer-placeholder": "Some text"
             },
             "messages": {
-                "delete-answer-confirmation": "Are you sure you want to delete answer \"{content}\" ? It will be removed from all discussions that use it. If you want to keep existing answers disable answer suggestion instead. Delete answer ?\n",
-                "delete-field-confirmation": "Are you sure you want to delete field \"{name}\" ? The field and its answers will be removed from all discussions that use them. Delete field ?\n"
+                "delete-answer-confirmation": "Are you sure you want to delete answer \"{content}\"? It will be removed from all discussions that use it. If you want to keep existing answers disable answer suggestion instead. Delete answer?\n",
+                "delete-field-confirmation": "Are you sure you want to delete field \"{name}\"? The field and its answers will be removed from all discussions that use them. Delete field?\n"
             },
             "settings": {
                 "fields-section-title": "Title of the custom fields section",
@@ -81,7 +82,9 @@
             },
             "titles": {
                 "settings": "Settings",
-                "fields": "Fields"
+                "fields": "Fields",
+                "field-settings": "Field settinga",
+                "field-answers": "Field answers"
             },
             "permissions": {
                 "mason-heading": "Mason",

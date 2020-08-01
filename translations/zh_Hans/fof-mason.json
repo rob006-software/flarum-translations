@@ -30,6 +30,8 @@
                 "add-answer": "添加答案",
                 "save-answer": "保存答案",
                 "delete-answer": "删除答案",
+                "edit-answer": "",
+                "edit-answer-prompt": "",
                 "show-user-answers": "显示（{count}）条不建议的答案"
             },
             "menu": {
@@ -43,8 +45,6 @@
                 "name-help": "公开可见且不可翻译的字段标签\n",
                 "description": "字段说明",
                 "description-help": "可选说明以解释这个字段的用途\n",
-                "min_answers_count": "最小答案数",
-                "max_answers_count": "最大答案数",
                 "show_when_empty": "显示空字段",
                 "show_when_empty-help": "不论字段是否为空均在帖文中显示",
                 "validation": "校验用户输入",
@@ -57,7 +57,10 @@
                 "icon-preview": "预览： {preview}",
                 "save-field-for-answers": "保存此字段以添加答案",
                 "is_suggested": "向用户展示建议",
-                "new-answer-placeholder": "一些文本"
+                "new-answer": "",
+                "new-answer-placeholder": "一些文本",
+                "min_answers_count": "最小答案数",
+                "max_answers_count": "最大答案数"
             },
             "messages": {
                 "delete-answer-confirmation": "你确定要删除答案「{content}」？ 这将从所有使用它的帖文中移除，如果你想要保留现有答案请停用答案建议。 删除答案？\n",
@@ -81,7 +84,9 @@
             },
             "titles": {
                 "settings": "设置",
-                "fields": "字段"
+                "fields": "字段",
+                "field-settings": "",
+                "field-answers": ""
             },
             "permissions": {
                 "mason-heading": "Mason",

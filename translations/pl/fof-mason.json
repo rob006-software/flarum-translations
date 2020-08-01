@@ -30,6 +30,8 @@
                 "add-answer": "Dodaj odpowiedź",
                 "save-answer": "Zapisz zmiany",
                 "delete-answer": "Usuń odpowiedź",
+                "edit-answer": "",
+                "edit-answer-prompt": "",
                 "show-user-answers": "Pokaż niesugerowane odpowiedzi ({count})"
             },
             "menu": {
@@ -43,8 +45,6 @@
                 "name-help": "Publicznie widoczna (nieprzetłumaczalna) etykieta pola.\n",
                 "description": "Opis pola",
                 "description-help": "Opcjonalny opis wyjaśniający w jaki sposób pole będzie wykorzystywane.\n",
-                "min_answers_count": "Minimalna liczba odpowiedzi",
-                "max_answers_count": "Maksymalna liczba odpowiedzi",
                 "show_when_empty": "Pokaż jeśli puste",
                 "show_when_empty-help": "Czy pokazać to pole w dyskusji nawet jeśli nie zostało uzupełnione",
                 "validation": "Walidacja dla wartości wprowadzonych przez użytkownika",
@@ -57,7 +57,10 @@
                 "icon-preview": "podgląd: {preview}",
                 "save-field-for-answers": "Zapisz pole, aby dodawać odpowiedzi",
                 "is_suggested": "Sugeruj odpowiedź użytkownikom",
-                "new-answer-placeholder": "Jakiś tekst"
+                "new-answer": "",
+                "new-answer-placeholder": "Jakiś tekst",
+                "min_answers_count": "Minimalna liczba odpowiedzi",
+                "max_answers_count": "Maksymalna liczba odpowiedzi"
             },
             "messages": {
                 "delete-answer-confirmation": "Czy jesteś pewien, że chcesz usunąć odpowiedź \"{content}\"? Zostanie ona usunięta ze wszystkich dyskusji, które ją wykorzystują. Jeśli chcesz zachować istniejące odpowiedzi, wyłącz jedynie sugerowanie tej odpowiedzi. Usunąć odpowiedź?\n",
@@ -81,7 +84,9 @@
             },
             "titles": {
                 "settings": "Ustawienia",
-                "fields": "Pola"
+                "fields": "Pola",
+                "field-settings": "",
+                "field-answers": ""
             },
             "permissions": {
                 "mason-heading": "Mason",
