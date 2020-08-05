@@ -9,12 +9,12 @@
                 "dospaces": "Digital Ocean Spaces",
                 "dropbox": "Dropbox",
                 "gdrive": "Google Drive",
-                "ftp": "",
+                "ftp": "FTP",
                 "gridfs": "GridFS",
                 "rackspace": "Rackspace",
-                "sftp": "",
-                "webdav": "",
-                "zip": ""
+                "sftp": "SFTP",
+                "webdav": "Webdav",
+                "zip": "Zip Archive"
             },
             "settings_button": "配置",
             "required_package_button": "安装",
@@ -46,7 +46,7 @@
                 "aliyun": {
                     "endpoint": {
                         "label": "终端",
-                        "description": "存储终端的 URL"
+                        "description": "存储终端的 URL。"
                     },
                     "access-id": {
                         "label": "Access ID",
@@ -58,7 +58,7 @@
                     },
                     "bucket": {
                         "label": "桶",
-                        "description": "要使用的存储桶"
+                        "description": "要使用的存储桶。"
                     },
                     "path-prefix": {
                         "label": "路径前缀",
@@ -68,7 +68,7 @@
                 "azure": {
                     "endpoint": {
                         "label": "终端",
-                        "description": "存储终端的 URL"
+                        "description": "存储终端的 URL。"
                     },
                     "container": {
                         "label": "容器",
@@ -117,7 +117,7 @@
                         },
                         "secret": {
                             "label": "Client Secret",
-                            "description": ""
+                            "description": " "
                         }
                     },
                     "refresh-token": {
@@ -148,7 +148,7 @@
                     },
                     "port": {
                         "label": "端口",
-                        "description": "FTP 端口（默认 21）"
+                        "description": "FTP 端口（默认 21）。"
                     },
                     "root": {
                         "label": "根路径",
@@ -159,18 +159,18 @@
                         "description": "是否使用被动 FTP 连接到服务器。"
                     },
                     "ssl": {
-                        "toggle": "",
-                        "description": ""
+                        "toggle": "SSL",
+                        "description": "是否使用加密 SSL 连接到服务器。"
                     },
                     "timeout": {
-                        "label": "",
-                        "description": ""
+                        "label": "超时时间",
+                        "description": "等待与 FTP 服务器连接的秒数。"
                     }
                 }
             },
             "nav": {
-                "label": "",
-                "description": ""
+                "label": "备份",
+                "description": "存储您的论坛副本。"
             }
         }
     }
