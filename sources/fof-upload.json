@@ -11,6 +11,7 @@
                 "download_templates": "Download templates are how uploads are shown on your forum, eg like previews, buttons. Currently available:\n",
                 "mime_types": "Please configure your mapping here. Each mime type regular expression will be handled by a specific upload adapter and download template.\n",
                 "resize": "Choose whether you want to resize your images before they get uploaded. You can choose a maximum width and height, in pixels. The resizing process keeps the aspect ratio of the images.\n",
+                "client_extension": "By default Upload will choose a safe file extension based on the MIME type.\nFor some file types based around ZIP or binary data this can result in generic extensions being used instead of the expected one.\nHere you can enter a comma-separated list of file extensions that will be kept verbatim.\n",
                 "watermark": "Choose whether images will have a watermark added during upload. Watermarks are added to non-gifs based on your preferences below.\n"
             },
             "labels": {
@@ -49,9 +50,12 @@
                     "title": "General preferences"
                 },
                 "resize": {
-                    "max_width": "Maximum image width",
+                    "max_width": "Maximum image width/height",
                     "title": "Image resize",
                     "toggle": "Resize images"
+                },
+                "client_extension": {
+                    "title": "User-provided file extensions"
                 },
                 "watermark": {
                     "file": "Upload your watermark image",
@@ -70,7 +74,9 @@
                 "image": "Default image download template",
                 "image-preview": "Complete image preview template",
                 "image-preview_description": "Shows the complete image in-line. No download functionality, no statistics are gathered and hotlink protection is ignored.\n",
-                "image_description": "Shows a thumbnail of the image and proxies download through php. Allowing statistics to be gathered and hotlink protection.\n"
+                "image_description": "Shows a thumbnail of the image and proxies download through php. Allowing statistics to be gathered and hotlink protection.\n",
+                "just-url": "Just URL",
+                "just-url_description": "Inserts just the URL. Rendering can be handled by other extensions with auto-link ability. No download functionality, no statistics are gathered and hotlink protection is ignored.\n"
             },
             "upload_methods": {
                 "aws-s3": "Amazon S3",

@@ -11,6 +11,7 @@
                 "download_templates": "İndirme şablonları, dosyaların forumunuzda nasıl görüneceğini ayarlamanızı sağlar, örneğin önizleme veya düğme gibi. Mevcut olanlar:\n",
                 "mime_types": "Please configure your mapping here. Each mime type regular expression will be handled by a specific upload adapter and download template.\n",
                 "resize": "Resimlerin yüklenmeden önce yeniden boyulandırılıp boyutlandırılmayacağını seçin. Piksel cinsinden maksimum genişlik ve yükseklik belirtebilirsiniz. Yeniden boyutlandırma işlemi görüntülerin enini ve boyunu korur.\n",
+                "client_extension": "",
                 "watermark": "Yükleme sırasında resimlere fligran (watermark) eklenip eklenmeyeceğini seçin. Filigranlar gif olmayan dosyalara eklenebilir.\n"
             },
             "labels": {
@@ -53,6 +54,9 @@
                     "title": "Görüntüleri yeniden boyutlandır",
                     "toggle": "Görüntüleri yeniden boyutlandır"
                 },
+                "client_extension": {
+                    "title": ""
+                },
                 "watermark": {
                     "file": "Filigran yükleyin",
                     "position": "Filigran konumu",
@@ -70,7 +74,9 @@
                 "image": "Varsayılan resim indirme şablonu",
                 "image-preview": "Tam resim önizleme şablonu",
                 "image-preview_description": "Tam resmi satır içerisinde gösterir, indirme işlevine sahip değilir, istatistik toplamaz ve hotlink koruması yoktur.\n",
-                "image_description": "Resimin küçük halini gösterir ve proxyler php yoluyla indirilir. İstatistiklerin toplanması ve hotlink korunması mevcuttur.\n"
+                "image_description": "Resimin küçük halini gösterir ve proxyler php yoluyla indirilir. İstatistiklerin toplanması ve hotlink korunması mevcuttur.\n",
+                "just-url": "",
+                "just-url_description": ""
             },
             "upload_methods": {
                 "aws-s3": "Amazon S3",

@@ -11,6 +11,7 @@
                 "download_templates": "Szablony pobierania decydują o tym jak przesłane pliki są wyświetlane na Twoim forum, np. podgląd miniatury, przyciski. Obecnie dostępne:\n",
                 "mime_types": "Skonfiguruj poniżej mapowanie. Każde wyrażenie regularne dla typu MIME będzie obsłużone przez odpowiedni adapter przesyłania i szablon pobierania.\n",
                 "resize": "Wybierz czy chcesz przeskalować obrazki zanim zostaną przesłane. Możesz wybrać maksymalną szerokość i wysokość w pikselach. Proces zmiany rozmiaru zachowa proporcje obrazka.\n",
+                "client_extension": "",
                 "watermark": "Wybierz, czy obrazki będą miały dodany znak wodny podczas przesyłania. Znaki wodne są dodawane do nie-gifów bazując na Twoich preferencjach poniżej.\n"
             },
             "labels": {
@@ -53,6 +54,9 @@
                     "title": "Przeskaluj obrazki",
                     "toggle": "Przeskaluj obrazki"
                 },
+                "client_extension": {
+                    "title": ""
+                },
                 "watermark": {
                     "file": "Prześlij swój znak wodny",
                     "position": "Pozycja znaku wodnego",
@@ -70,7 +74,9 @@
                 "image": "Domyślny szablon dla obrazków",
                 "image-preview": "Szablon z podglądem kompletnego obrazka",
                 "image-preview_description": "Wyświetla cały obrazek in-line. Brak funkcji pobierania, statystyki nie są zbierane i hotlinkowanie nie będzie blokowane.\n",
-                "image_description": "Wyświetla miniaturę obrazka i przekierowuje pobieranie przez PHP. Pozwala na zbieranie statystyk i ochronę przed hotlinkowaniem.\n"
+                "image_description": "Wyświetla miniaturę obrazka i przekierowuje pobieranie przez PHP. Pozwala na zbieranie statystyk i ochronę przed hotlinkowaniem.\n",
+                "just-url": "",
+                "just-url_description": ""
             },
             "upload_methods": {
                 "aws-s3": "Amazon S3",
