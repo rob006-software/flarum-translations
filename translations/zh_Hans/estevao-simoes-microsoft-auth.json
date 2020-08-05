@@ -2,15 +2,15 @@
     "flarum-microsoft-auth": {
         "admin": {
             "microsoft_settings": {
-                "title": "",
-                "client_id_label": "",
-                "client_secret_label": "",
-                "tenant_id_label": ""
+                "title": "Microsoft - 设置",
+                "client_id_label": "App ID",
+                "client_secret_label": "App Secret",
+                "tenant_id_label": "Tenant ID（可选）"
             }
         },
         "forum": {
             "log_in": {
-                "with_microsoft_button": ""
+                "with_microsoft_button": "Microsoft 账号登录"
             }
         }
     }
