@@ -1,15 +1,15 @@
 {
     "clarkwinkelmann-popular-discussion-badge": {
         "forum": {
-            "badge_label": ""
+            "badge_label": "热门"
         },
         "admin": {
             "settings": {
-                "title": "",
-                "mode": "",
-                "mode_help": "",
+                "title": "热门主题标记 - 设置",
+                "mode": "工作原理",
+                "mode_help": "前台模式是一种不使用数据库的高效解决方案。调度模式需要进行 CRON 计划任务设置，并允许在条件中设置时间段。\n",
                 "mode_options": {
-                    "frontend": "",
+                    "frontend": "前台",
                     "scheduler": ""
                 },
                 "scheduler_frequency": "",
