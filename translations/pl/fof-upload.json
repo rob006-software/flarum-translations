@@ -76,7 +76,7 @@
                 "image-preview_description": "Wyświetla cały obrazek in-line. Brak funkcji pobierania, statystyki nie są zbierane i hotlinkowanie nie będzie blokowane.\n",
                 "image_description": "Wyświetla miniaturę obrazka i przekierowuje pobieranie przez PHP. Pozwala na zbieranie statystyk i ochronę przed hotlinkowaniem.\n",
                 "just-url": "Jedynie URL",
-                "just-url_description": ""
+                "just-url_description": "Wstawia jedynie URL. Renderowanie może być obsłużone przez inne rozszerzenie umożliwiające automatycznie formatowanie. Brak obsługi pobierania, zliczania statystyk oraz ochrony przed hotlinkowaniem.\n"
             },
             "upload_methods": {
                 "aws-s3": "Amazon S3",
