@@ -68,8 +68,8 @@
                 "pd_user_left_text": "{username} 退出了私人讨论",
                 "pd_added_text": "{username} 邀请您加入私人讨论",
                 "pd_added_label": "有人邀请我加入私人讨论",
-                "pd_made_public_label": "",
-                "pd_made_public_text": ""
+                "pd_made_public_label": "一个私人讨论已转为公开",
+                "pd_made_public_text": "{username} 已将此讨论转为公开"
             },
             "confirm": {
                 "make_public": "这将使所有人都可以看到此私人讨论，请谨慎操作。"
@@ -86,11 +86,11 @@
                 "view_private_discussions-when-flagged": "查看他人被举报的私人讨论"
             },
             "settings": {
-                "use_tag_slug": "设置私人讨论创建时自动归入的分类标签",
-                "use_tag_slug_help": "此设置仅对生效后创建的私人讨论有效，留空则允许用户自行选择标签。",
-                "use_tag_slug_no_restriction": "",
-                "byobu_index": "",
-                "byobu_index_help": ""
+                "use_tag_slug": "指定私人讨论创建时自动归入的分类标签",
+                "use_tag_slug_help": "此设置仅对生效后创建的私人讨论有效，选择「{no_restriction}」则允许用户自行选择标签。",
+                "use_tag_slug_no_restriction": "- 不限制 -",
+                "byobu_index": "在首页显示「私人讨论」入口",
+                "byobu_index_help": "启用此选项后，论坛左侧边栏将会添加一个私人讨论的入口链接"
             }
         },
         "notifications": {
@@ -107,7 +107,7 @@
                 "title": "【私人讨论】有人邀请您加入"
             },
             "made_public": {
-                "title": ""
+                "title": "【私人讨论】有讨论转为公开"
             }
         }
     }
