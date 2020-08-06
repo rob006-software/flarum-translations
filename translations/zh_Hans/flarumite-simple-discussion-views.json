@@ -2,25 +2,25 @@
     "core": {
         "forum": {
             "index_sort": {
-                "popular_button": "",
-                "unpopular_button": ""
+                "popular_button": "最多人看",
+                "unpopular_button": "最少人看"
             }
         }
     },
     "flarumite-simple-discussion-views": {
         "forum": {
             "modal_resetviews": {
-                "title": "",
-                "submit": "",
-                "label": ""
+                "title": "重置主题浏览量",
+                "submit": "提交",
+                "label": "设为浏览量"
             },
             "discussion_controls": {
-                "resetviews_button": ""
+                "resetviews_button": "设置浏览量"
             }
         },
         "admin": {
             "permissions": {
-                "reset_views_label": ""
+                "reset_views_label": "设置主题浏览量"
             }
         }
     }
