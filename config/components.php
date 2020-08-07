@@ -503,6 +503,9 @@ return [
 	'nearata-minecraft-avatars' => [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-minecraft-avatars/v1.1.1/resources/locale/en.yml',
 	],
+	'nearata-tags-color-generator' => [
+		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-tags-color-generator/v1.1.0/resources/locale/en.yml',
+	],
 	'nikovonlas-auth-vk' => [
 		'tag' => 'https://raw.githubusercontent.com/NikoVonLas/flarum-ext-auth-vk/v0.1.0-beta.7/locale/en.yml',
 	],
