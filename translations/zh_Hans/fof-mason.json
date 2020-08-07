@@ -12,11 +12,11 @@
                 "no-answer": "无答案"
             },
             "answers": {
-                "choose-option": "选择一个选项",
+                "choose-option": "请选择",
                 "no-option-selected": "未选择"
             },
             "tags": {
-                "inadequate-settings": "节点设置未正确配置。最多允许一个主标签和次标签，或者停用此特性。\n",
+                "inadequate-settings": "标签设置配置不正确。最多允许一个主标签和次标签，或者停用此特性。\n",
                 "tags-label": "标签"
             }
         },
@@ -30,8 +30,8 @@
                 "add-answer": "添加答案",
                 "save-answer": "保存答案",
                 "delete-answer": "删除答案",
-                "edit-answer": "",
-                "edit-answer-prompt": "",
+                "edit-answer": "编辑答案",
+                "edit-answer-prompt": "编辑所有使用的内容",
                 "show-user-answers": "显示（{count}）条不建议的答案"
             },
             "menu": {
@@ -57,14 +57,14 @@
                 "icon-preview": "预览： {preview}",
                 "save-field-for-answers": "保存此字段以添加答案",
                 "is_suggested": "向用户展示建议",
-                "new-answer": "",
+                "new-answer": "新建答案",
                 "new-answer-placeholder": "一些文本",
                 "min_answers_count": "最小答案数",
                 "max_answers_count": "最大答案数"
             },
             "messages": {
-                "delete-answer-confirmation": "你确定要删除答案「{content}」？ 这将从所有使用它的帖文中移除，如果你想要保留现有答案请停用答案建议。 删除答案？\n",
-                "delete-field-confirmation": "你确定要删除字段「{name}」？ 这将从所有使用它的帖文中移除 删除字段？\n"
+                "delete-answer-confirmation": "确定要删除答案「{content}」？ 这将从所有使用它的主题中移除该答案，如果您想要保留现有答案请停用答案建议。 删除答案？\n",
+                "delete-field-confirmation": "你确定要删除表单「{name}」？ 这将从所有使用它们的主题中移除该表单及其答案。删除表单？\n"
             },
             "settings": {
                 "fields-section-title": "自定义字段标题",
@@ -85,15 +85,15 @@
             "titles": {
                 "settings": "设置",
                 "fields": "字段",
-                "field-settings": "",
-                "field-answers": ""
+                "field-settings": "表单设置",
+                "field-answers": "表单答案"
             },
             "permissions": {
                 "mason-heading": "Mason",
                 "see-own-fields": "字段显示于自己的主题",
                 "see-other-fields": "字段显示于全部主题",
                 "fill-fields": "在新主题填充字段",
-                "update-own-fields": "",
+                "update-own-fields": "更新本人主题的表单",
                 "update-other-fields": "更新任意主题字段",
                 "skip-required-fields": "允许跳过必填字段"
             }
