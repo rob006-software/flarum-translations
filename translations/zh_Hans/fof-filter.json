@@ -1,7 +1,7 @@
 {
     "fof-filter": {
         "forum": {
-            "flagger_name": "该贴包含敏感词，已被隐藏",
+            "flagger_name": "包含敏感词",
             "flaged_text": "包含敏感词"
         },
         "admin": {
@@ -11,13 +11,13 @@
             "email_help": "帖子触发敏感词需要审核时，发送邮件通知用户，支持 HTML 或纯文本。",
             "filter_label": "自定义敏感词词库",
             "countLabel": "过滤敏感度",
-            "cooldownLabel": "冷却时间（分钟）",
+            "cooldownLabel": "防刷帖冷却时间（分钟）",
             "input": {
                 "placeholder": "输入敏感词",
                 "filter_title": "要过滤的敏感词",
                 "email_label": "邮件通知设置",
                 "switch": {
-                    "email": "当帖子被过滤时，向用户发送通知邮件。",
+                    "email": "向用户发送被过滤通知邮件",
                     "merge": "防刷帖"
                 },
                 "email_subject": "主题",
@@ -29,7 +29,7 @@
             },
             "email": {
                 "default_subject": "您的帖子已被隐藏",
-                "default_text": "检测到您的帖子包含敏感词、违禁词，已被自动隐藏。\n\n如有异议，请联系论坛管理员申请人工核查。如果核实没有违规内容，我们将恢复您的帖子。\n\n感谢您的理解与配合！"
+                "default_text": "检测到您的帖子包含敏感词、违禁词，已被自动隐藏。\n\n如有异议，请联系论坛管理员申请人工核查。如果核实没有违规内容，我们将恢复您的帖子。\n\n感谢您的理解与配合。"
             }
         }
     }
