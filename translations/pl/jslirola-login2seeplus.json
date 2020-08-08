@@ -1,25 +1,25 @@
 {
     "jslirola-login2seeplus": {
         "forum": {
-            "post": "",
-            "link": "",
-            "image": "",
-            "code": ""
+            "post": "Musisz <a class='jslirolaLogin2seeplusLogin'>zalogować się</a> lub <a class='jslirolaLogin2seeplusRegister'>zarejestrować się</a>, aby zobaczyć pełną treść",
+            "link": "Zaloguj się aby zobaczyć link",
+            "image": "Zaloguj się aby zobaczyć obrazek",
+            "code": "Zaloguj się aby zobaczyć kod"
         },
         "admin": {
-            "title": "",
-            "hide": "",
-            "link": "",
-            "image": "",
-            "code": "",
+            "title": "Login2SeePlus",
+            "hide": "Ukryj",
+            "link": "Linki",
+            "image": "Obrazki",
+            "code": "Kod",
             "post": {
-                "title": "",
-                "help": ""
+                "title": "Ukryj treść przekraczającą tę długość",
+                "help": "Wpisz <em>-1</em> aby pokazać całą."
             },
             "php": {
-                "title": "",
-                "help": "",
-                "label": ""
+                "title": "Tryb legacy",
+                "help": "*NIE ZALECANE* Wykonuje przetwarzanie po stronie backendu, aby obsługiwać przestarzałe przeglądarki. Funkcje <code>mb_substr()</code> oraz <code>mb_strlen()</code> muszą być dostępne.",
+                "label": "Użyj PHP"
             }
         }
     }
