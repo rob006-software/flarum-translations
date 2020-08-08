@@ -1,11 +1,11 @@
 {
     "the-turk-welcome-widgets": {
         "forum": {
-            "users": "",
-            "discussions": "",
-            "posts": "",
-            "sinceLastVisit": "",
-            "welcome": "",
+            "users": "=> core.ref.users",
+            "discussions": "=> core.ref.discussions",
+            "posts": "=> core.ref.posts",
+            "sinceLastVisit": "od <span>ostatniego logowania</span>",
+            "welcome": "Witaj, {username}.",
             "goodMorning": "",
             "goodAfternoon": "",
             "goodEvening": "",
