@@ -9,21 +9,21 @@
         "forum": {
             "action": {
                 "title": "=> fof-username-request.forum.results.title",
-                "help_text": "请确保用户名符合社区规范",
+                "help_text": "请确保用户名符合社区规范。",
                 "decision_title": "审核",
                 "approval_label": "同意",
                 "rejected_label": "拒绝",
                 "submit_button": "提交",
                 "reason_title": "拒绝原因",
-                "success": "审核结果已发送",
+                "success": "审核结果已发送。",
                 "name": "{username} 申请更改用户名为「{newUsername}」"
             },
             "results": {
                 "title": "更改用户名",
-                "approved": "您的用户名更改申请已通过！",
+                "approved": "您的用户名申请已通过",
                 "new_username": "您的用户名已更改为「{username}」",
-                "rejected": "您的用户名更改申请被拒绝。",
-                "reason": "拒绝原因：<i>\"{reason}\"</i>",
+                "rejected": "您的用户名申请被拒绝",
+                "reason": "拒绝原因：<i>「{reason}」</i>。",
                 "resubmit": "您可以重新提交一个新的用户名。"
             },
             "request": {
@@ -38,7 +38,7 @@
             "account_label": "更改用户名",
             "profile_link": "曾用名",
             "dropdown": {
-                "empty_text": "暂无申请",
+                "empty_text": "暂无用户名申请。",
                 "tooltip": "=> fof-username-request.forum.dropdown.title",
                 "title": "用户名更改申请",
                 "item_text": "{username} 申请更改用户名",
