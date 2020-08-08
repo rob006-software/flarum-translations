@@ -11,7 +11,7 @@
                 "download_templates": "启用模板后，您上传的文件将按模板样式显示于帖子中，并增加了“预览”、“下载”等按钮。 当前可用：\n",
                 "mime_types": "文件类型使用 MIME 媒体类型区分（详情：http://t.cn/RIVXXlX）。每一种类型都将会使用设置好的上传方式处理。\n",
                 "resize": "配置图片缩放功能，以像素为单位，超过最大宽度及高度后会被缩放，图片横纵比不变。\n",
-                "client_extension": "",
+                "client_extension": "默认情况下，上传器将根据 MIME 类型选择一个安全的文件扩展名。\n对于某些基于 ZIP 或二进制数据的文件类型，这可能导致使用不正确的通用扩展名。\n在这里，您可以输入一个逗号分隔的文件扩展名列表，该列表将被逐字保留。\n",
                 "watermark": "选择上传图片时是否添加水印。水印会根据下面的偏好设置来添加到非 GIF 图片上。\n"
             },
             "labels": {
@@ -42,7 +42,7 @@
                     "title": "七牛存储设置（需要先安装 composer require overtrue/flysystem-qiniu）",
                     "key": "Key",
                     "secret": "Secret",
-                    "bucket": "Bucket"
+                    "bucket": "空间名称"
                 },
                 "preferences": {
                     "max_file_size": "最大文件大小（单位：KB）",
@@ -50,13 +50,13 @@
                     "title": "偏好设置"
                 },
                 "resize": {
-                    "max_width": "最大图片宽度",
+                    "max_width": "最大图片宽高",
                     "title": "图片缩放功能",
                     "toggle": "开启缩放",
                     "max_height": "最大图片高度"
                 },
                 "client_extension": {
-                    "title": ""
+                    "title": "用户自定义文件扩展名"
                 },
                 "watermark": {
                     "file": "上传水印图片",
@@ -84,8 +84,8 @@
                 "image-preview": "完整图片预览模板",
                 "image-preview_description": "在行内显示完整图片。不支持下载、统计和热链保护。\n",
                 "image_description": "显示图片缩略图，并有 php 代理下载，支持统计和热链保护。\n",
-                "just-url": "",
-                "just-url_description": ""
+                "just-url": "仅链接",
+                "just-url_description": "仅插入 URL。 渲染可以由具有自动链接功能的其他插件处理。没有下载功能，没有统计功能，且没有热链保护。\n"
             },
             "upload_methods": {
                 "aws-s3": "AWS S3",
@@ -108,9 +108,9 @@
         },
         "api": {
             "upload_errors": {
-                "forbidden_type": "",
-                "unsupported_type": "",
-                "could_not_detect_mime": ""
+                "forbidden_type": "不支持此类型文件。",
+                "unsupported_type": "您提供的 MIME 类型 {mime} 不受上传适配器支持。",
+                "could_not_detect_mime": "无法检测到该文件的 MIME 类型，请重试。"
             }
         }
     }
