@@ -2,36 +2,36 @@
     "kilowhat-custom-paths": {
         "admin": {
             "settings": {
-                "title": "",
+                "title": "自定义路径",
                 "head": {
-                    "name": "",
-                    "path": ""
+                    "name": "页面名称",
+                    "path": "路径"
                 },
                 "extensions": {
-                    "flarum-tags": "",
-                    "flarum-subscriptions": "",
-                    "flarum-flags": "",
-                    "fof-user-directory": "",
-                    "fof-pages": "",
-                    "askvortsov-categories": ""
+                    "flarum-tags": "Flarum 标签相关",
+                    "flarum-subscriptions": "Flarum 订阅相关",
+                    "flarum-flags": "Flarum 举报相关",
+                    "fof-user-directory": "FoF 会员名录",
+                    "fof-pages": "FoF 静态页面",
+                    "askvortsov-categories": "Askvortsov 传统板块"
                 },
                 "paths": {
-                    "index": "",
-                    "discussion": "",
-                    "user": "",
-                    "settings": "",
-                    "notifications": "",
-                    "tags": "",
-                    "tag": "",
-                    "following": "",
-                    "flags": "",
-                    "fof-user-directory": "",
-                    "fof-pages": "",
-                    "askvortsov-categories": ""
+                    "index": "全部主题列表（非首页时）",
+                    "discussion": "主题",
+                    "user": "个人主页",
+                    "settings": "设置",
+                    "notifications": "通知（移动端）",
+                    "tags": "全部标签",
+                    "tag": "标签主题",
+                    "following": "我的关注",
+                    "flags": "举报（移动端）",
+                    "fof-user-directory": "会员名录",
+                    "fof-pages": "静态页面",
+                    "askvortsov-categories": "传统板块"
                 },
-                "reset": "",
-                "disabled": "",
-                "redirect": ""
+                "reset": "重置路径",
+                "disabled": "未启用该扩展",
+                "redirect": "将默认 Flarum 路径重定向到新路径"
             }
         }
     }
