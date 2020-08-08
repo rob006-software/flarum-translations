@@ -227,9 +227,6 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.13/locale/flarum-tags.yml',
 		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-tags.yml',
 	],
-	'flarumite-decontaminator' => [
-		'tag' => 'https://raw.githubusercontent.com/flarumite/flarum-decontaminator/0.1.6/resources/locale/en.yml',
-	],
 	'flarumite-simple-discussion-views' => [
 		'tag' => 'https://raw.githubusercontent.com/flarumite/simple-discussion-views/0.1.0/resources/locale/en.yml',
 	],
