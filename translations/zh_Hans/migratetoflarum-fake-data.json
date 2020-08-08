@@ -3,8 +3,8 @@
         "admin": {
             "generator": {
                 "title": "生成虚假数据",
-                "bulk-mode": "",
-                "bulk-mode-description": "",
+                "bulk-mode": "=> migratetoflarum-fake-data.ref.bulk-mode",
+                "bulk-mode-description": "=> migratetoflarum-fake-data.ref.bulk-mode-description",
                 "user-count": "修改用户数",
                 "discussion-count": "修改主题数",
                 "post-count": "修改回复数",
@@ -17,8 +17,8 @@
             },
             "generator": {
                 "title": "生成虚假回复",
-                "bulk-mode": "",
-                "bulk-mode-description": "",
+                "bulk-mode": "=> migratetoflarum-fake-data.ref.bulk-mode",
+                "bulk-mode-description": "=> migratetoflarum-fake-data.ref.bulk-mode-description",
                 "user-count": "修改用户数",
                 "post-count": "修改回复数",
                 "send": "生成数据"
@@ -29,12 +29,12 @@
             "no-discussions-matched": "主题不存在"
         },
         "ref": {
-            "bulk-mode": "",
-            "bulk-mode-description": "",
-            "user-count": "",
-            "discussion-count": "",
-            "post-count": "",
-            "send": ""
+            "bulk-mode": "批量模式",
+            "bulk-mode-description": "生成一个随机值，并在每个条目中重复使用",
+            "user-count": "要创建的用户数",
+            "discussion-count": "要创建的主题数",
+            "post-count": "要创建的回复数",
+            "send": "生成数据"
         }
     }
 }
