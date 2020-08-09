@@ -2,16 +2,16 @@
     "zhishiq": {
         "pusher": {
             "admin": {
-                "setting_title": "",
-                "app_id_label": "",
-                "app_key_label": "",
-                "app_secret_label": "",
-                "app_cluster_label": "",
-                "async_push": ""
+                "setting_title": "高级 Pusher 设置",
+                "app_id_label": "App ID",
+                "app_key_label": "App Key",
+                "app_secret_label": "App Secret",
+                "app_cluster_label": "集群",
+                "async_push": "启用异步推送（1 表示启用，0 表示禁用）"
             },
             "forum": {
                 "discussion_list": {
-                    "show_updates_text": ""
+                    "show_updates_text": "显示 {count} 个更新的主题|显示 {count} 个更新的主题"
                 }
             }
         }
