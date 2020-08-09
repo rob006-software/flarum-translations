@@ -11,7 +11,7 @@
             "create": "发布",
             "discard": "丢弃",
             "hero": {
-                "help_question": "我们能在哪方面帮您？",
+                "help_question": "我们能在哪方面帮助您？",
                 "check_forum": "如果这里没有您想要的内容，<a>到论坛找找？</a>"
             },
             "overview": {
@@ -24,7 +24,7 @@
                 "category_not_found": "分类目录不存在",
                 "no_articles_found": "此分类目录下暂无文章",
                 "tools": {
-                    "new_article": "新建文章",
+                    "new_article": "撰写文章",
                     "rename_category": "重命名分类目录",
                     "edit_description": "编辑描述",
                     "change_icon": "更换图标"
@@ -42,72 +42,72 @@
                 "searching": "正在搜索",
                 "searching_for": "搜索 {searchterm}",
                 "searched_for": "搜索 {searchterm} 完毕，找到约 {results} 条结果。",
-                "use_searchbox_below": "",
-                "no_results": ""
+                "use_searchbox_below": "使用下面的搜索框搜索我们的知识库。",
+                "no_results": "没有找到与 {searchterm} 相关的结果。"
             },
             "not_found": {
-                "title": "",
-                "description": "",
-                "solution": ""
+                "title": "项目未找到",
+                "description": "抱歉，这篇文章或分类目录已经丢失了。",
+                "solution": "您可以使用上面的搜索框搜索要找的内容。"
             },
             "article": {
-                "article": "",
-                "articles": "",
-                "hidden": "",
-                "created_at": "",
-                "author": "",
-                "authors": "",
-                "last_modified": "",
-                "not_found": "",
+                "article": "文章",
+                "articles": "所有文章",
+                "hidden": "已隐藏",
+                "created_at": "创建于 {date}",
+                "author": "作者",
+                "authors": "所有作者",
+                "last_modified": "最后修改于 {date}",
+                "not_found": "文章不存在",
                 "share_article": {
-                    "title": "",
-                    "perma_link": ""
+                    "title": "分享文章",
+                    "perma_link": "固定链接："
                 },
                 "tools": {
-                    "rename_article": "",
-                    "edit_article": "",
-                    "edit_tags": "",
-                    "audit_log": "",
-                    "hide_article": "",
-                    "recover_article": "",
-                    "delete_forever": "",
-                    "view_ratings": "",
+                    "rename_article": "重命名文章",
+                    "edit_article": "编辑文章",
+                    "edit_tags": "编辑文章标签",
+                    "audit_log": "查看审计日志",
+                    "hide_article": "隐藏文章",
+                    "recover_article": "还原文章",
+                    "delete_forever": "永久删除",
+                    "view_ratings": "查看评价",
                     "event_logs": ""
                 }
             },
             "support_ratings": {
-                "helful_article": "",
-                "helful_support": "",
-                "feedback": "",
-                "feedback_not_helpful": "",
-                "enter_feedback": "",
-                "finished": "",
+                "helful_article": "以上信息是否解决了您的问题？",
+                "helful_support": "您满意我们对您的支持服务吗？",
+                "feedback": "感谢您的评价，还有其他要反馈的吗？",
+                "feedback_not_helpful": "很抱歉这篇文章没有帮助到您，您在寻找什么呢？",
+                "enter_feedback": "在此填写反馈",
+                "finished": "感谢！您的反馈已保存。",
                 "validation": {
-                    "invalid_discussion": "",
-                    "guest": "",
-                    "invalid_points": "",
-                    "cannot_rate_article": "",
-                    "neutral_emoji_disabled": "",
-                    "missing_article_id": ""
+                    "invalid_discussion": "糟糕，出了点问题。您无法评价这篇文章/服务记录。",
+                    "guest": "请登录后再评价。",
+                    "invalid_points": "无效评价，请重试。",
+                    "cannot_rate_article": "您无法评价这篇文章。",
+                    "neutral_emoji_disabled": "中性表情符号已被禁用。",
+                    "missing_article_id": "文章 ID 缺失或无效"
                 }
             },
             "modals": {
                 "audit_log": {
-                    "title": "",
-                    "article_created": "",
-                    "no_more_events": "",
-                    "loading_auditlog": ""
+                    "title": "文章审计日志",
+                    "article_created": "文章已发布",
+                    "no_more_events": "未发现更多事件",
+                    "loading_auditlog": "正在加载审计日志"
                 },
                 "article_ratings": {
-                    "title": "",
-                    "loading_ratings": "",
-                    "no_ratings_found": "",
-                    "article_not_rated": "",
-                    "confirm_delete_rating": "",
-                    "feedback": "",
-                    "rating": "",
-                    "username": "",
-                    "rated_on": ""
+                    "title": "文章评价",
+                    "loading_ratings": "正在加载评价",
+                    "no_ratings_found": "找不到符合您搜索条件的评价",
+                    "article_not_rated": "这篇文章尚未被评价。",
+                    "confirm_delete_rating": "确定要删除这条评价吗？",
+                    "feedback": "反馈",
+                    "rating": "评价",
+                    "username": "=> core.ref.username",
+                    "rated_on": "评价时间"
                 },
                 "events": {
                     "title": "",
@@ -116,22 +116,22 @@
             },
             "utils": {
                 "redirect": {
-                    "title": "",
-                    "link": ""
+                    "title": "正在跳转到我们的知识库文章……",
+                    "link": "<a>点击此处</a>手动跳转"
                 }
             },
             "composer": {
-                "compose_article": "",
-                "new_article_title": "",
-                "enter_message_here": "",
-                "publish_article": "",
-                "publish_article_hint": "",
-                "manage_tags": "",
-                "write": "",
-                "view": "",
-                "nothing_to_preview": "",
-                "warning_save_changes": "",
-                "article_saved": ""
+                "compose_article": "撰写文章",
+                "new_article_title": "新文章标题",
+                "enter_message_here": "在此输入您的消息",
+                "publish_article": "发布文章",
+                "publish_article_hint": "回帖后发布文章",
+                "manage_tags": "管理标签",
+                "write": "写文章",
+                "view": "预览",
+                "nothing_to_preview": "没有什么可预览的",
+                "warning_save_changes": "警告：您即将离开此页面，系统不会保存您所做的更改。是否保存更改然后离开？\n\n[OK] = 保存并离开 [CANCEL] = 不保存\n",
+                "article_saved": "文章已保存"
             }
         }
     }
