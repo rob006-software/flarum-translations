@@ -2,8 +2,8 @@
     "studosi-mail-filter": {
         "admin": {
             "nav": {
-                "title": "邮箱过滤器",
-                "desc": "添加注册邮箱黑白名单"
+                "title": "邮件地址过滤器",
+                "desc": "设置注册邮箱黑白名单"
             },
             "settings": {
                 "rule": {
@@ -41,7 +41,7 @@
                 "button": "导入"
             },
             "error": {
-                "invalid_regex": "无效的正则表达式！"
+                "invalid_regex": "无效的正则表达式。"
             }
         },
         "forum": {
