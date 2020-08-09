@@ -17,5 +17,5 @@ return [
 	'ja' => getComponents(),
 	'pl' => getComponents(),
 	'tr' => getComponents(),
-	'zh_Hans' => getComponents(),
+	'zh-Hans' => getComponents(),
 ];
