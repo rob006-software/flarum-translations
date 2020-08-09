@@ -5,70 +5,70 @@
         },
         "admin": {
             "settings": {
-                "title": "网页推送设置",
+                "title": "Web 推送设置",
                 "type": {
-                    "description": "Onesignal 连接类型",
+                    "description": "OneSignal 连接类型",
                     "standart": "标准",
                     "custom": "自定义"
                 },
-                "app_id": "Onesignal app id",
-                "api_key": "Onesignal api key",
-                "user_key": "Onesignal user key",
-                "subdomain": "Onesignal subdomain",
+                "app_id": "OneSignal app id",
+                "api_key": "OneSignal api key",
+                "user_key": "OneSignal user key",
+                "subdomain": "OneSignal 子域名",
                 "excerpt": "通知的摘要长度",
-                "autoprompt": "自动请求（立即显示权限请求)"
+                "autoprompt": "立即显示权限提示以授权用户"
             }
         },
         "notify": {
             "like": {
-                "title": "{from} 赞了你的帖子",
-                "message": "{post}"
+                "title": "帖子被赞",
+                "message": "{from} 点赞您的帖子：{post}"
             },
             "mention-post": {
-                "title": "{from} 回复了你的帖子",
-                "message": "{post}"
+                "title": "{title} 有新回复",
+                "message": "{from} 回复您的帖子：{post}"
             },
             "mention": {
-                "title": "{from} 提及了你",
-                "message": "{post}"
+                "title": "{from} 提及您",
+                "message": "{from} 提及您的帖子：{post}"
             },
             "post": {
                 "title": "「{title}」有新回复",
-                "message": "@{from}: {post}"
+                "message": "{from} 发表新回复：{post}"
             },
             "tag": {
                 "discussion": {
-                    "title": "{title}",
-                    "message": "@{from} 发布了新主题"
+                    "title": "订阅的标签有新主题",
+                    "message": "{from} 发布新主题：{title}"
                 },
                 "post": {
                     "title": "「{title}」有新回复",
-                    "message": "@{from}: {post}"
+                    "message": "{from} 发表回复：{post}"
                 }
             },
             "rename": {
-                "title": "{title}",
-                "message": "@{from} 将你的主题重命名为「{title}」"
+                "title": "主题被重命名",
+                "message": "{from} 重命名您的主题为「{title}」"
             },
             "lock": {
-                "title": "{title}",
-                "message": "@{from} 锁定了你的主题「{title}」"
+                "title": "主题被锁定",
+                "message": "{from} 锁定您的主题「{title}」"
             },
             "delete": {
-                "title": "{title}",
-                "message": "@{from} 删除了你的主题「{title}」"
+                "title": "主题被删除",
+                "message": "{from} 删除您的主题「{title}」"
             },
             "suspend": {
-                "title": "你的账号被封禁",
-                "message": "@{from} 已将您封禁"
+                "title": "您的账号被封禁",
+                "message": "{from} 封禁您的账户"
             },
             "unsuspend": {
-                "title": "你的账号被解除封禁",
-                "message": "@{from} 已将您解禁"
+                "title": "您的账号被解除封禁",
+                "message": "{from} 解除封禁您的账户"
             },
             "flag": {
-                "title": "{from} 标记了帖子",
-                "message": "{post}"
+                "title": "新举报",
+                "message": "{from} 举报帖子「{post}」"
             }
         }
     }
