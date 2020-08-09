@@ -1,22 +1,22 @@
 {
     "nearata-embed-video": {
         "forum": {
-            "button_tooltip_title": "",
+            "button_tooltip_title": "嵌入视频",
             "modal": {
-                "live_mode": "",
-                "submit_button": "",
-                "title": "",
-                "video_type_label": "",
+                "live_mode": "直播模式",
+                "submit_button": "保存",
+                "title": "嵌入视频",
+                "video_type_label": "视频类型",
                 "video_types": {
-                    "normal": "",
-                    "dash": "",
-                    "flv": "",
-                    "hls": "",
-                    "shaka": "",
-                    "webtorrent": ""
+                    "normal": "普通",
+                    "dash": "Dash",
+                    "flv": "Flv",
+                    "hls": "Hls",
+                    "shaka": "Shaka",
+                    "webtorrent": "WebTorrent"
                 },
-                "video_url_label": "",
-                "video_url_placeholder": ""
+                "video_url_label": "视频地址",
+                "video_url_placeholder": "例：https://example.com/filename.mp4"
             }
         }
     }
