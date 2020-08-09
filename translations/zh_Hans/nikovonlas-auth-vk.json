@@ -2,14 +2,14 @@
     "flarum-auth-vk": {
         "admin": {
             "vk_settings": {
-                "title": "",
-                "client_id_label": "",
-                "client_secret_label": ""
+                "title": "VK 登录设置",
+                "client_id_label": "VK Client id",
+                "client_secret_label": "Vk Client secret"
             }
         },
         "forum": {
             "log_in": {
-                "with_vk_button": ""
+                "with_vk_button": "VK 账号登录"
             }
         }
     }
