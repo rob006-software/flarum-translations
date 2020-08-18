@@ -87,6 +87,9 @@ return [
 	'clarkwinkelmann-likes-received' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-likes-received/0.1.1/resources/locale/en.yml',
 	],
+	'clarkwinkelmann-manual-discussion-slug' => [
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-manual-discussion-slug/0.1.0/resources/locale/en.yml',
+	],
 	'clarkwinkelmann-passwordless' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-passwordless/1.0.4/resources/locale/en.yml',
 	],
