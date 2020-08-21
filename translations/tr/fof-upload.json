@@ -39,10 +39,10 @@
                     "title": "Yerel depolama ayarları"
                 },
                 "qiniu": {
-                    "title": "",
-                    "key": "",
-                    "secret": "",
-                    "bucket": ""
+                    "title": "Qiniu depolama ayarları",
+                    "key": "Key",
+                    "secret": "Secret",
+                    "bucket": "Bucket"
                 },
                 "preferences": {
                     "max_file_size": "Maksimum dosya boyutu (kilobyte cinsinden)",
@@ -83,7 +83,7 @@
                 "imgur": "Imgur",
                 "local": "Yerel",
                 "ovh-svfs": "OVH SVFS",
-                "qiniu": ""
+                "qiniu": "QiNiu"
             }
         },
         "forum": {
@@ -93,14 +93,14 @@
             "states": {
                 "error": "Hata",
                 "loading": "Yükleniyor",
-                "unauthorized": ""
+                "unauthorized": "Dosyaları indirmenize izin verilmiyor"
             }
         },
         "api": {
             "upload_errors": {
-                "forbidden_type": "",
-                "unsupported_type": "",
-                "could_not_detect_mime": ""
+                "forbidden_type": "Bu türdeki dosyaların yüklenmesine izin verilmiyor.",
+                "unsupported_type": "Yükleyici bu tür dosya tipini desteklemiyor: {mime}.",
+                "could_not_detect_mime": "Bu dosyanın türü algılanamadı, lütfen tekrar deneyin."
             }
         }
     }

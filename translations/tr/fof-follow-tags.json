@@ -4,20 +4,20 @@
             "settings": {
                 "notify_new_discussion_label": "Birisi takip ettiğim bir etikette tartışma başlattığında",
                 "notify_new_post_label": "Birisi takip ettiğim bir etiketteki gönderiye gönderi yazdığında",
-                "notify_new_discussion_tag_label": ""
+                "notify_new_discussion_tag_label": "Birisi takip ettiğim bir tartışmanın etiketini değiştirdiğinde"
             },
             "index": {
                 "follow_tag_button": "Takip et",
                 "unfollow_tag_button": "Takibi bırak",
                 "following": {
-                    "following_none_label": "",
-                    "following_all_label": "",
-                    "following_tags_label": ""
+                    "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                    "following_all_label": "=> fof-follow-tags.ref.filtering_options.all",
+                    "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
                 }
             },
             "badge": {
-                "following_tag_tooltip": "",
-                "lurking_tag_tooltip": ""
+                "following_tag_tooltip": "Takip Edilen",
+                "lurking_tag_tooltip": "Gizlenmiş"
             },
             "sub_controls": {
                 "follow_button": "=> fof-follow-tags.ref.follow",
@@ -37,28 +37,28 @@
             "notifications": {
                 "new_discussion_text": "{username} başlattı",
                 "new_post_text": "{username} gönderdi",
-                "new_discussion_tag_text": ""
+                "new_discussion_tag_text": "{username} etiketi değiştirdi"
             },
             "user": {
                 "settings": {
-                    "heading": "",
-                    "filter_label": ""
+                    "heading": "Etiketleri Takip Et",
+                    "filter_label": "Varsayılan olarak Takip Ettiklerin sayfasınra gösterilecekler"
                 }
             }
         },
         "admin": {
             "settings": {
-                "title": "",
-                "following_page_default_label": "",
-                "following_none_label": "",
-                "following_tags_label": "",
-                "following_all_label": ""
+                "title": "FriendsOfFlarum Follow Tags",
+                "following_page_default_label": "Varsayılan Takip Etilenler Filtrelemesi",
+                "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags",
+                "following_all_label": "=> fof-follow-tags.ref.filtering_options.all"
             }
         },
         "email": {
             "newDiscussionInTag": "[Etiket | Yeni Tartışma] başlığı",
             "newPostInTag": "[Etiket | Yeni Gönderi] başlığı",
-            "newDiscussionTag": ""
+            "newDiscussionTag": "[Etiket | Değişen Etiket] başlığı"
         },
         "ref": {
             "follow": "Takip et",
@@ -67,9 +67,9 @@
             "ignoring": "Engelle",
             "lurking": "Gizlenmiş",
             "filtering_options": {
-                "none": "",
-                "all": "",
-                "tags": ""
+                "none": "Takip Edilen Tartışmalar",
+                "all": "Takip Ettiğiniz Her Şey",
+                "tags": "Takip Edilen Etiketler"
             }
         }
     }

@@ -2,36 +2,36 @@
     "kilowhat-custom-paths": {
         "admin": {
             "settings": {
-                "title": "",
+                "title": "Özel Dizinler",
                 "head": {
-                    "name": "",
-                    "path": ""
+                    "name": "İsim",
+                    "path": "Dizin"
                 },
                 "extensions": {
-                    "flarum-tags": "",
-                    "flarum-subscriptions": "",
-                    "flarum-flags": "",
-                    "fof-user-directory": "",
-                    "fof-pages": "",
-                    "askvortsov-categories": ""
+                    "flarum-tags": "Flarum Etiketleri",
+                    "flarum-subscriptions": "Flarum Abonelikleri",
+                    "flarum-flags": "Flarum Bildirmeleri",
+                    "fof-user-directory": "FriendsOfFlarum Kullanıcı Dizini",
+                    "fof-pages": "FriendsOfFlarum Sayfalar",
+                    "askvortsov-categories": "Askvortsov Kategoriler"
                 },
                 "paths": {
-                    "index": "",
-                    "discussion": "",
-                    "user": "",
-                    "settings": "",
-                    "notifications": "",
-                    "tags": "",
-                    "tag": "",
-                    "following": "",
-                    "flags": "",
-                    "fof-user-directory": "",
-                    "fof-pages": "",
-                    "askvortsov-categories": ""
+                    "index": "Tartışma listesi (anasayfada olmadığınızda)",
+                    "discussion": "Tartışma",
+                    "user": "Kullanıcı profili",
+                    "settings": "Ayarlar",
+                    "notifications": "Bildirimler (mobilde)",
+                    "tags": "Etiketler listesi",
+                    "tag": "Etiketler tartışması",
+                    "following": "Takip edilenler",
+                    "flags": "Bildirilenler (mobilde)",
+                    "fof-user-directory": "Kullanıcı dizini",
+                    "fof-pages": "Sayfalar",
+                    "askvortsov-categories": "Kategoriler"
                 },
-                "reset": "",
-                "disabled": "",
-                "redirect": ""
+                "reset": "Dizinleri sıfırla",
+                "disabled": "Uzantı etkinleştirilmemiş",
+                "redirect": "Varsayılan Flarum dizinlerini yeni dizinlere yönlendirin"
             }
         }
     }

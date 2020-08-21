@@ -1,27 +1,28 @@
 {
     "askvortsov-saml": {
         "admin": {
-            "title": "",
+            "title": "SAML2 SSO Ayarları",
             "labels": {
-                "idp_metadata_url": "",
-                "idp_metadata": "",
-                "only_option": "",
-                "sync_attributes": "",
-                "nameid_format": ""
+                "idp_metadata_url": "Kimlik Sağlayıcı Metadata URL (XML Alternatifi)",
+                "idp_metadata": "Kimlik Sağlayıcı Metadata XML (URL alternatifi)",
+                "only_option": "SAML2 SSO giriş seçeneği olarak mı kullanıyorsunuz?",
+                "sync_attributes": "Senkronize işlemi yapılsın mı (Avatar, Gruplar, Biyografi, ve Profil)? askvortsov/auth-sync uzantısı gerektirir.",
+                "nameid_format": "NameID Formatı"
             },
             "options": {
                 "nameid_format": {
-                    "persistent": "",
-                    "emailAddress": "",
-                    "unspecified": ""
+                    "persistent": "Persistent (Destekleniyorsa önerilir)",
+                    "emailAddress": "E-Posta (Varsayılan. Persistent desteklenmiyorsa kullanın)",
+                    "unspecified": "Belirtilmemiş"
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_saml_button": "",
-                "open_popup": "",
-                "enable_popups": ""
+                "with_saml_button": "SAML2 SSO",
+                "open_popup": "Giriş Penceresini Yeniden Aç",
+                "enable_popups": "Giriş / Kayıt için Açılır Pencereyi Aktif Et",
+                "see_popup": "Giriş / Kayıt için Açılır Pencereyi Gör"
             },
             "sign_up": {
                 "post_saml_title": ""
