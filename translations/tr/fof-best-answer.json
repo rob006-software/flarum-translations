@@ -2,39 +2,39 @@
     "fof-best-answer": {
         "admin": {
             "permissions": {
-                "best_answer": "",
-                "best_answer_not_own_discussion": ""
+                "best_answer": "En iyi yanıtı seç (kendi tartışmasında)",
+                "best_answer_not_own_discussion": "En iyi yanıtı seç (başkasının tartışmasında)"
             },
             "settings": {
-                "title": "",
-                "allow_select_own_post": "",
-                "select_best_answer_reminder_days": "",
-                "schedule_on_one_server": "",
-                "schedule_stop_overnight": "",
-                "schedule_log_output": "",
-                "remind_tag_ids": "",
-                "use_alt_ui": ""
+                "title": "En İyi Yanıt Ayarları",
+                "allow_select_own_post": "Kullanıcının kendi gönderisini seçmesine izin ver",
+                "select_best_answer_reminder_days": "Kullanıcıya X günden sonra en iyi yanıtı seçmesini hatırlat",
+                "schedule_on_one_server": "Zamanlayıcı için 'onOneServer()' kullanın (Redis/Memcache gerektirir)",
+                "schedule_stop_overnight": "Hatırlatıcının aktif olunmayan saatlerde çalışmasını engelleyin (ÖS 9 - ÖÖ 8 sunucu saati)",
+                "schedule_log_output": "Zamanlayıcı çıktısını kayıt dosyasına ekle",
+                "remind_tag_ids": "Hatırlatıcıyı belirli etiketlerde etkinleştirmek için etiketleri belirleyin (virgülle ayırarak)",
+                "use_alt_ui": "Alternatif şablonu kullanın (En İyi Yanıt butonları gönderinin sonunda yer alır)"
             }
         },
         "forum": {
-            "answered_badge": "",
-            "this_best_answer": "",
-            "remove_best_answer": "",
-            "best_answer_button": "",
-            "best_answer_label": "",
+            "answered_badge": "Yanıtlandı",
+            "this_best_answer": "En iyi yanıt",
+            "remove_best_answer": "Mevcut en iyi yanıtı kaldır",
+            "best_answer_button": "En İyi Yanıt",
+            "best_answer_label": "<a>{username}</a> tarafından {time_set}",
             "errors": {
-                "mismatch": ""
+                "mismatch": "Seçilen gönderi bu tartışmada mevcut değil"
             },
             "notification": {
-                "best_answer_in_discussion": "",
+                "best_answer_in_discussion": "{username} bu tartışmada en iyi yanıtı verdi",
                 "best_answer_set_in_discussion_email": "",
-                "content": "",
-                "awarded": "",
-                "awarded_email": "",
-                "select_email_title": "",
+                "content": "Sorunuz cevaplandıysa lütfen en iyi yanıtı seçin",
+                "awarded": "Gönderiniz {username} tarafından en iyi yanıt olarak seçti",
+                "awarded_email": "Gönderiniz kullanıcı tarafından en iyi yanıt olarak seçti",
+                "select_email_title": "Sorununuzu çözmeyi başardınız mı?",
                 "preferences": {
-                    "awarded_best_answer": "",
-                    "best_answer_in_discussion": ""
+                    "awarded_best_answer": "Birisi gönderimi en iyi yanıt olarak seçtiğinde",
+                    "best_answer_in_discussion": "Yanıtladığım bir tartışmada en iyi yanıt belirlendiğinde"
                 }
             }
         }
