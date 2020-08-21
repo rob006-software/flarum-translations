@@ -1,35 +1,35 @@
 {
     "fof-filter": {
         "forum": {
-            "flagger_name": "",
-            "flaged_text": ""
+            "flagger_name": "Otomatik Moderatör",
+            "flaged_text": "Engellenmiş kelimeler"
         },
         "admin": {
-            "title": "",
-            "help": "",
-            "help2": "",
-            "email_help": "",
-            "filter_label": "",
-            "countLabel": "",
-            "cooldownLabel": "",
+            "title": "Filtre",
+            "help": "Girilen terimler virgül ve boşlukla ayrılmalıdır.",
+            "help2": "Peş peşe atılan gönderilerin birleştirilmesi dakika cinsinden belirlenmelidir",
+            "email_help": "İşaretlenmiş e-posta içeriği. HTML ve düz metin geçerlidir.",
+            "filter_label": "Filtrelenecek kelimeler",
+            "countLabel": "Sansür Toleransı",
+            "cooldownLabel": "Peş peşe birleştirme süresi",
             "input": {
-                "placeholder": "",
-                "filter_title": "",
-                "email_label": "",
+                "placeholder": "Filtrelenecek kelimeler",
+                "filter_title": "Kelime Filtreleme",
+                "email_label": "E-Posta Ayarları",
                 "switch": {
-                    "email": "",
-                    "merge": ""
+                    "email": "Filtreye takılan gönderileri e-posta ile kullanıcıya bildir",
+                    "merge": "Çift gönderileri otomatik birleştir"
                 },
-                "email_subject": "",
-                "email_body": ""
+                "email_subject": "Konu",
+                "email_body": "Metin"
             },
             "nav": {
-                "text": "",
-                "desc": ""
+                "text": "Filtre",
+                "desc": "Gönderileri kelimelere göre filtrele"
             },
             "email": {
-                "default_subject": "",
-                "default_text": ""
+                "default_subject": "Son Gönderiniz Hakkında",
+                "default_text": "Gönderiniz için teşekkürler! Ancak forumumuzda görmek istemediğimiz bazı ifadeler içerdiği için şimdilik gönderiniz şimdilik yayından kaldırıldı.\n\nEğer bunun bir hata düşünüyorsanız şanslısınız, kaldırılan her gönderi moderatörlerimiz tarafından incelenmektedir. Eğer bir yanlışlık varsa gönderiniz tekrar yayına alınacaktır.                \n\nAnlayışınız için teşekkürler.\n"
             }
         }
     }
