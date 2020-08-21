@@ -5,12 +5,12 @@
                 "defaults_label": "{setting} varsayılan olarak aktif et",
                 "forced_label": "{setting} herkes için etkinleştir",
                 "notify_discussion_created_label": "Birisi tartışma oluşturduğunda",
-                "notify_post_unapproved_label": "",
+                "notify_post_unapproved_label": "Bir tartışma onay beklediğinde",
                 "notify_user_created_label": "Birisi kayıt olduğunda"
             },
             "notifications": {
                 "discussion_created_text": "{username}, yeni bir tartışma oluşturdu",
-                "post_unapproved_text": "",
+                "post_unapproved_text": "{username} bir tartışma başlattı ve onay bekliyor",
                 "user_created_text": "{username} şimdi kayıt oldu"
             }
         },
@@ -20,7 +20,7 @@
             },
             "permission": {
                 "subscribe_to_discussion_created": "Yeni tartışma başlatıldığında bildirime izin ver",
-                "subscribe_to_post_unapproved": "",
+                "subscribe_to_post_unapproved": "Onaylanmamış bir tartışma başlatıldığında bildirime izin ver",
                 "subscribe_to_user_created": "Yeni kullanıcı kayıt olduğunda bildirime izin ver"
             }
         }
