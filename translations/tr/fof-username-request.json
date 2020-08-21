@@ -2,45 +2,45 @@
     "fof-username-request": {
         "admin": {
             "permissions": {
-                "start": "Kullanıcı adı değiştirme talebi",
+                "start": "Kullanıcı adı değiştirme isteği",
                 "moderate": "Kullanıcı adı değişiklik isteklerini onayla"
             }
         },
         "forum": {
             "action": {
                 "title": "=> fof-username-request.forum.results.title",
-                "help_text": "Kullanıcı adının forum kurallarına uygun olduğundan emin olun.",
+                "help_text": "Lütfen istediğiniz kullanıcı adı değişikliğinin forum kurallarına uygun olduğundan emin olun.",
                 "decision_title": "Karar",
                 "approval_label": "Onayla",
-                "rejected_label": "",
+                "rejected_label": "Reddet",
                 "submit_button": "Gönder",
                 "reason_title": "Reddedilme Nedeni",
                 "success": "Karar gönderildi.",
                 "name": "{username} adlı kullanıcı adı \"{newUsername}\" olarak değiştirildi."
             },
             "results": {
-                "title": "Kullanıcı Adı Değişikliği",
-                "approved": "Kullanıcı adı değiştirme talebiniz alındı!",
-                "new_username": "Kullanıcı adınız şu anda \"{username}\"",
-                "rejected": "",
-                "reason": "Gerekçe: <i>\"{reason}\"</i>",
-                "resubmit": "Hesap ayarlarınızdan yeniden kullanıcı adı değişikliği talebi oluşturabilirsiniz."
+                "title": "Kullanıcı Adı Değişikliği İsteği",
+                "approved": "Kullanıcı adı değiştirme isteğiniz onaylandı!",
+                "new_username": "Kullanıcı adınız \"{username}\" olarak değiştirildi",
+                "rejected": "Kullanıcı adı değiştirme isteğiniz reddedildi",
+                "reason": "Reddedilme gerekçesi: <i>\"{reason}\"</i>",
+                "resubmit": "Dilerseniz hesap ayarlarınızdan yeniden kullanıcı adı değişikliği isteği oluşturabilirsiniz."
             },
             "request": {
-                "title": "Kullanıcı Adı Değişikliği Talep Et",
-                "current_request": "Kullanıcı adınızın zaten \"{username}\" olmasını istediniz. Bu isteği güncelleyebilir veya silebilirsiniz.",
+                "title": "Kullanıcı Adı Değişikliği İste",
+                "current_request": "Kullanıcı adınızın zaten \"{username}\" olarak değişmesini istediniz. Bu isteği güncelleyebilir veya silebilirsiniz.",
                 "submit_button": "İstek Gönderin",
                 "delete_button": "İsteği Silin",
-                "confirmation_message": "İsteğiniz alındı, yakında incelenecek.",
-                "dismiss_button": "Anladım",
-                "deleted": "Kullanıcı adı talebi silindi."
+                "confirmation_message": "Kullanıcı adı değişikliği isteğiniz gönderildi, onay bekliyor.",
+                "dismiss_button": "=> core.ref.okay",
+                "deleted": "Kullanıcı adı isteği silindi."
             },
             "account_label": "Kullanıcı Adını Değiştir",
             "profile_link": "Kullanıcı Adı Geçmişi",
             "dropdown": {
-                "empty_text": "",
-                "tooltip": "",
-                "title": "Kullanıcı Adı Değiştirme Talebi",
+                "empty_text": "Kullanıcı adı değiştirme isteği yok.",
+                "tooltip": "=> fof-username-request.forum.dropdown.title",
+                "title": "Kullanıcı Adı Değiştirme İsteği",
                 "item_text": "{username}, kullanıcı adını değiştirmek istedi",
                 "exerpt": "İstenilen kullanıcı adı: {requestedUsername}"
             }
