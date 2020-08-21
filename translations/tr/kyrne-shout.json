@@ -11,46 +11,46 @@
         },
         "forum": {
             "dropdown": {
-                "tooltip": ""
+                "tooltip": "Sohbetler"
             },
             "setup": {
-                "title": "",
-                "header_setup": "",
-                "header_import": "",
+                "title": "Özel Mesajlaşmayı Ayarla",
+                "header_setup": "Özel mesajlaşmayı ayarlamak için kullanıcı adı ve şifrenizi girin.",
+                "header_import": "Özel mesajlarınızı içe aktarmak için kullanıcı adınızı ve şifrenizi girin.",
                 "header_set_own": "",
                 "header_set_own_import": "",
                 "passwords_mismatch": "",
                 "invalid_password": "",
-                "button_import": "",
-                "button_setup": "",
+                "button_import": "İçe Aktar",
+                "button_setup": "Ayarla",
                 "confirm_password": "",
-                "success": ""
+                "success": "Özel mesajlaşma sistemi ayarlandı, sayfa yeniden yüklenecek..."
             },
             "modal": {
-                "title": "",
-                "help": "",
+                "title": "Sohbet Başlat",
+                "help": "Sohbete başlamak için bir kullanıcı adı yazın.",
                 "help_start": "",
-                "search_recipients": "",
-                "submit": "",
-                "copied": "",
+                "search_recipients": "Kullanıcı adı girin...",
+                "submit": "Gönder & Sohbet Başlat",
+                "copied": "Mesajınız panoya kopyalandı.",
                 "more_users": "",
-                "already": ""
+                "already": "{username} kullanıcısı ile zaten bir sohbetiniz mevcut."
             },
-            "user_modal_alert": "",
+            "user_modal_alert": "{username} özel mesajlaşmayı ayarlamış, şifreleri güvenli bir şekilde değiştirilemez.",
             "chat": {
-                "chat_with": "",
-                "messages_multiple": "",
-                "messages_single": "",
-                "start": "",
+                "chat_with": "{username} ile sohbet",
+                "messages_multiple": "{count} toplam mesaj",
+                "messages_single": "Yeni sohbet",
+                "start": "Sohbet Başlat",
                 "cant_start": "",
-                "text_placeholder": "",
-                "send": "",
+                "text_placeholder": "Mesajınızı yazın",
+                "send": "Mesaj Gönder",
                 "recovery_message": "",
                 "failed_message": "",
-                "cant_send": "",
+                "cant_send": "{username} yanıt verene kadar yeni bir mesaj gönderemezsiniz (yalnızca ilk mesaj için geçerli)",
                 "cant_send_toomany": "",
-                "failed_to_decrypt": "",
-                "start_of_conversation": ""
+                "failed_to_decrypt": "[Şifre çözülürken hata oluştu]",
+                "start_of_conversation": "Sohbet Başlangıcı"
             }
         }
     }
