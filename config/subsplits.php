@@ -38,6 +38,33 @@ return [
 			'!v17development-support',
 		]),
 	],
+	'tr-lang' => [
+		'type' => 'language',
+		'language' => 'tr',
+		'updateReadme' => false,
+		'repository' => 'git@github.com:tolgaaaltas/flarum-lang-turkish.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'components' => getComponents([
+			'core',
+			'validation',
+			'flarum-*',
+		]),
+	],
+	'tr-ext' => [
+		'type' => 'language',
+		'language' => 'tr',
+		'updateReadme' => false,
+		'repository' => 'git@github.com:tolgaaaltas/flarum-ext-turkish.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'components' => getComponents([
+			'!core',
+			'!validation',
+			'!flarum-*',
+			'*',
+		]),
+	],
 	'zh_Hans' => [
 		'type' => 'language',
 		'language' => 'zh_Hans',
