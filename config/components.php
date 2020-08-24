@@ -395,6 +395,9 @@ return [
 	'funkeye-custom-welcome-hero' => [
 		'tag' => 'https://raw.githubusercontent.com/funkeye/custom-welcome-hero/0.1.1/resources/locale/en.yml',
 	],
+	'funkeye-fancy-discussion-list' => [
+		'tag' => 'https://raw.githubusercontent.com/funkeye/fancy-discussion-list/0.0.9/resources/locale/en.yml',
+	],
 	'giga300-auth-discord' => [
 		'tag' => 'https://raw.githubusercontent.com/giga300/flarum-auth-discord/v1.1.0/locale/en.yml',
 	],
