@@ -2,20 +2,20 @@
     "dexif-telegram": {
         "admin": {
             "settings": {
-                "title": "",
+                "title": "Telegram Ayarları",
                 "field": {
-                    "botUsername": "",
-                    "botToken": "",
-                    "enableNotifications": ""
+                    "botUsername": "Bot Kullanıcı Adı",
+                    "botToken": "Bot Token",
+                    "enableNotifications": "Bildirimleri Etkinleştir"
                 }
             }
         },
         "forum": {
-            "log_in_with_telegram_button": "",
-            "link_telegram_button": "",
+            "log_in_with_telegram_button": "Telegram ile Giriş Yap",
+            "link_telegram_button": "Telegram'a Bağla",
             "settings": {
-                "notify_by_telegram_heading": "",
-                "unblock_telegram_bot": ""
+                "notify_by_telegram_heading": "Telegram",
+                "unblock_telegram_bot": "Görünüşe göre Telegram botunu yetkilendirmediniz veya engellediniz. Bildirimleri etkinleştirmek için <a>{username}</a> kullanıcısına Telegram'dan mesaj gönderin"
             }
         }
     }
