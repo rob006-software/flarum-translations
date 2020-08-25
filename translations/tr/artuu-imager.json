@@ -2,22 +2,22 @@
     "artuu-imager": {
         "admin": {
             "settings": {
-                "title": "",
+                "title": "Imager Ayarları",
                 "about": "",
-                "favicon_size": "",
-                "logo_size": "",
-                "avatars_size": "",
-                "delete_files": "",
+                "favicon_size": "Favicon boyutu {input} pixeldir.",
+                "logo_size": "Logo boyutu {input} pikseldir.",
+                "avatars_size": "Avatar boyutu {input} pikseldir.",
+                "delete_files": "Imager dosyalarını sil",
                 "disposal": {
-                    "avatars": "",
-                    "logo": "",
-                    "favicon": "",
-                    "all": ""
+                    "avatars": "Tüm avatarlar",
+                    "logo": "Logoyu sil",
+                    "favicon": "Faviconı sil",
+                    "all": "Her şey"
                 },
-                "success": ""
+                "success": "Başarılı"
             },
             "permissions": {
-                "resized_avatar": ""
+                "resized_avatar": "Avatarları yeniden boyutlandırmaya izin ver"
             }
         }
     }
