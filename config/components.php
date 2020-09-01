@@ -459,7 +459,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-spoiler-bbcode/0.1.0/resources/locale/en.yml',
 	],
 	'kyrne-evergreen' => [
-		'tag' => 'https://raw.githubusercontent.com/KyrneDev/Evergreen/0.1.5/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/KyrneDev/Evergreen/0.1.7/resources/locale/en.yml',
 	],
 	'kyrne-shout' => [
 		'tag' => 'https://raw.githubusercontent.com/KyrneDev/Shout-public/0.2.3/resources/locale/en.yml',
