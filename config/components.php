@@ -530,6 +530,9 @@ return [
 	'nomiscz-auth-wechat' => [
 		'tag' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-wechat/v0.1.4/resources/locale/en.yml',
 	],
+	'pm7913-flarumjwtauth' => [
+		'tag' => 'https://raw.githubusercontent.com/pm7913/flarum-jwt-auth/v1.4/locale/en.yml',
+	],
 	'reflar-cookie-consent' => [
 		'tag' => 'https://raw.githubusercontent.com/ReFlar/cookie-consent/0.2.0/resources/locale/en.yml',
 	],
