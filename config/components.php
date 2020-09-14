@@ -533,6 +533,9 @@ return [
 	'nomiscz-auth-wechat' => [
 		'tag' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-wechat/v0.1.4/resources/locale/en.yml',
 	],
+	'plaza-plaza' => [
+		'tag' => 'https://raw.githubusercontent.com/PlazaCommunity/plaza/1.0.0/locale/en.yml',
+	],
 	'reflar-cookie-consent' => [
 		'tag' => 'https://raw.githubusercontent.com/ReFlar/cookie-consent/0.2.0/resources/locale/en.yml',
 	],
