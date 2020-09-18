@@ -1,6 +1,13 @@
 {
     "fof-auth-gitlab": {
         "admin": {
+            "settings": {
+                "client_id_heading": "",
+                "client_secret_heading": "",
+                "application_domain_heading": "",
+                "application_domain_text": "",
+                "title": ""
+            },
             "gitlab_settings": {
                 "client_id_label": "Application ID",
                 "client_secret_label": "Secret",

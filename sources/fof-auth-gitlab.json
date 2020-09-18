@@ -1,9 +1,11 @@
 {
     "fof-auth-gitlab": {
         "admin": {
-            "gitlab_settings": {
-                "client_id_label": "Application ID",
-                "client_secret_label": "Secret",
+            "settings": {
+                "client_id_heading": "Application ID",
+                "client_secret_heading": "Secret",
+                "application_domain_heading": "Application Domain",
+                "application_domain_text": "Optional base URL for self-hosted (e.g., https://my.gitlab.example)",
                 "title": "FriendsOfFlarum GitLab Login"
             }
         },
