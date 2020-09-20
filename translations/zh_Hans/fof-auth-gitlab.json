@@ -2,11 +2,11 @@
     "fof-auth-gitlab": {
         "admin": {
             "settings": {
-                "client_id_heading": "",
-                "client_secret_heading": "",
-                "application_domain_heading": "",
-                "application_domain_text": "",
-                "title": ""
+                "client_id_heading": "App ID",
+                "client_secret_heading": "Secret",
+                "application_domain_heading": "App 域名",
+                "application_domain_text": "（可选）自托管用基本 URL（如 https://my.gitlab.example）",
+                "title": "FriendsOfFlarum GitLab 登录"
             },
             "gitlab_settings": {
                 "client_id_label": "Application ID",
