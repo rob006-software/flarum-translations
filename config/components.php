@@ -392,6 +392,9 @@ return [
 	'fof-username-request' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/username-request/0.2.0/resources/locale/en.yml',
 	],
+	'freeflarum-anonfiles-upload' => [
+		'tag' => 'https://raw.githubusercontent.com/CWKevo/flarum-anonfiles-upload/4/locale/en.yml',
+	],
 	'funkeye-custom-welcome-hero' => [
 		'tag' => 'https://raw.githubusercontent.com/funkeye/custom-welcome-hero/0.1.1/resources/locale/en.yml',
 	],
