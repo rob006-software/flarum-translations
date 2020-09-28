@@ -15,6 +15,7 @@ use app\components\release\PolishReleaseGenerator;
 use function rob006\flarum\translations\helpers\getComponents;
 
 return [
+	/*
 	'ja' => [
 		'type' => 'language',
 		'language' => 'ja',
@@ -23,6 +24,7 @@ return [
 		'branch' => 'master',
 		'path' => '/locale',
 	],
+	*/
 	'pl' => [
 		'type' => 'language',
 		'language' => 'pl',
