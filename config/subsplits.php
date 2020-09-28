@@ -15,6 +15,14 @@ use app\components\release\PolishReleaseGenerator;
 use function rob006\flarum\translations\helpers\getComponents;
 
 return [
+	'ja' => [
+		'type' => 'language',
+		'language' => 'ja',
+		'updateReadme' => false,
+		'repository' => 'git@github.com:Littlegolden/flarum-lang-japanese.git',
+		'branch' => 'master',
+		'path' => '/locale',
+	],
 	'pl' => [
 		'type' => 'language',
 		'language' => 'pl',
