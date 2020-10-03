@@ -397,8 +397,8 @@
                 "hidden_tooltip": "隐藏"
             },
             "error": {
-                "dependent_extensions_message": "",
-                "missing_dependencies_message": "",
+                "dependent_extensions_message": "无法停用【{extension}】，请在停用以下依赖扩展后重试：【{extensions}】",
+                "missing_dependencies_message": "无法启用【{extension}】，请在启用以下依赖扩展后重试：【{extensions}】",
                 "generic_message": "糟糕，出错啦！请刷新页面重试。",
                 "not_found_message": "您请求的资源不存在。",
                 "permission_denied_message": "您没有权限进行此操作。",
