@@ -31,9 +31,9 @@ If you're maintaining language pack or want to add it to the collective, open an
 | [Akismet](https://github.com/flarum/akismet) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/flarum-akismet/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/flarum-akismet/) |
 | [Approval](https://github.com/flarum/approval) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/flarum-approval/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/flarum-approval/) |
 | [Emoji](https://github.com/flarum/emoji) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/flarum-emoji/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/flarum-emoji/) |
-| [Facebook Login](https://github.com/flarum/flarum-ext-auth-facebook) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/flarum-auth-facebook/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/flarum-auth-facebook/) |
+| [Facebook Login](https://github.com/flarum/auth-facebook) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/flarum-auth-facebook/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/flarum-auth-facebook/) |
 | [Flags](https://github.com/flarum/flags) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/flarum-flags/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/flarum-flags/) |
-| [GitHub Login](https://github.com/flarum/flarum-ext-auth-github) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/flarum-auth-github/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/flarum-auth-github/) |
+| [GitHub Login](https://github.com/flarum/auth-github) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/flarum-auth-github/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/flarum-auth-github/) |
 | [Likes](https://github.com/flarum/likes) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/flarum-likes/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/flarum-likes/) |
 | [Lock](https://github.com/flarum/lock) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/flarum-lock/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/flarum-lock/) |
 | [Markdown](https://github.com/flarum/markdown) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/flarum-markdown/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/flarum-markdown/) |
@@ -44,7 +44,7 @@ If you're maintaining language pack or want to add it to the collective, open an
 | [Subscriptions](https://github.com/flarum/subscriptions) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/flarum-subscriptions/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/flarum-subscriptions/) |
 | [Suspend](https://github.com/flarum/suspend) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/flarum-suspend/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/flarum-suspend/) |
 | [Tags](https://github.com/flarum/tags) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/flarum-tags/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/flarum-tags/) |
-| [Twitter Login](https://github.com/flarum/flarum-ext-auth-twitter) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/flarum-auth-twitter/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/flarum-auth-twitter/) |
+| [Twitter Login](https://github.com/flarum/auth-twitter) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/flarum-auth-twitter/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/flarum-auth-twitter/) |
 
 <!-- flarum-extensions-list-stop -->
 
