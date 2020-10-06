@@ -81,6 +81,9 @@ return [
 	'clarkwinkelmann-emojionearea' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-emojionearea/0.2.2/locale/en.yml',
 	],
+	'clarkwinkelmann-first-post-approval' => [
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-first-post-approval/0.1.1/resources/locale/en.yml',
+	],
 	'clarkwinkelmann-group-invitation' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-group-invitation/0.1.1/resources/locale/en.yml',
 	],
