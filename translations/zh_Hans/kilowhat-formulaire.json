@@ -5,8 +5,8 @@
                 "heading": "Formulaire",
                 "heading-advanced": "Formulaire（第三方扩展选项）",
                 "fill": "填写独立表单",
-                "seeAnyUser": "",
-                "seeAnyDiscussion": "",
+                "seeAnyUser": "查看提交的用户资料",
+                "seeAnyDiscussion": "查看提交的主题帖字段",
                 "create": "创建表单 (beta)",
                 "moderate": "管理所有表单",
                 "listForms": "查看未删除的表单列表",
@@ -60,8 +60,8 @@
                     "link": "特殊表单类型",
                     "title": "标题",
                     "slug": "别名（URL Slug）",
-                    "automatic-discussion": "",
-                    "automatic-discussion-help": "",
+                    "automatic-discussion": "根据提交内容自动创建主题帖",
+                    "automatic-discussion-help": "启用后，该表单仍像独立表单一样可访问。提交的内容将自动创建并连接新主题帖。\n",
                     "accept-submissions": "接受新的提交结果",
                     "allow-modification": "允许用户编辑他们已提交的结果",
                     "max-submissions": "最多提交量（留空表示不限制）",
@@ -69,9 +69,9 @@
                     "notify-emails": "将数据副本发送至以下以逗号分隔的电子邮箱中",
                     "web-confirmation-message": "在网页中确认信息（格式化启用）",
                     "email-confirmation-message": "通过邮件确认信息（格式化启用，必须启用上方确认项）",
-                    "email-notification-message": "",
-                    "email-confirmation-title": "",
-                    "email-notification-title": ""
+                    "email-notification-message": "邮件通知消息",
+                    "email-confirmation-title": "确认邮件的标题（发给参与者）",
+                    "email-notification-title": "通知邮件的标题"
                 },
                 "link-options": {
                     "standalone": "Standalone",
@@ -80,27 +80,27 @@
                     "tags": "主题字段（beta）",
                     "all-tags": "任何标签"
                 },
-                "auto-discussion-options": "",
-                "email-confirmation-options": "",
-                "email-notification-options": ""
+                "auto-discussion-options": "新主题选项",
+                "email-confirmation-options": "确认邮件模板",
+                "email-notification-options": "通知邮件模板"
             },
             "auto-discussion-options-modal": {
-                "title": "",
-                "introduction": "",
-                "submit": "",
+                "title": "自动主题选项",
+                "introduction": "这些设置将应用于通过提交标签连接的表单自动创建的新讨论。您可以使用一对大括号包裹字段的 slug 来使用表单提交的值。默认情况下，将依次使用 {title} 和 {content}。\n",
+                "submit": "验证变化",
                 "field": {
-                    "title": "",
-                    "tags": "",
-                    "tags-help": "",
-                    "content": ""
+                    "title": "主题标题",
+                    "tags": "主题标签",
+                    "tags-help": "标记分隔符的列表，以逗号分隔。选定的标签将被添加到此表单所连接的标签之后。\n",
+                    "content": "回帖内容"
                 }
             },
             "confirmation-email-options-modal": {
-                "title": "",
-                "submit": "",
+                "title": "邮件模板",
+                "submit": "验证变化",
                 "field": {
-                    "title": "",
-                    "message": ""
+                    "title": "标题",
+                    "message": "正文"
                 }
             },
             "save-controls": {
