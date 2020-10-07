@@ -5,6 +5,8 @@
                 "heading": "Formulaire",
                 "heading-advanced": "Formulaire (options for third-party extensions)",
                 "fill": "Fill standalone forms",
+                "seeAnyUser": "View user profile submissions",
+                "seeAnyDiscussion": "View discussion fields submissions",
                 "create": "Create forms (beta)",
                 "moderate": "Moderate all forms",
                 "listForms": "View the list of forms that aren't deleted",
@@ -58,13 +60,18 @@
                     "link": "Special form types",
                     "title": "Title",
                     "slug": "Slug (url)",
+                    "automatic-discussion": "Automatically create discussions from form submission",
+                    "automatic-discussion-help": "When enabled, the form will continue to be accessible like a standalone form. Submissions will automatically create and connect with new discussions.\n",
                     "accept-submissions": "Accept new submissions",
                     "allow-modification": "Allow users to edit their existing submissions",
                     "max-submissions": "Max submissions (leave blank for unlimited)",
                     "send-confirmation-to-participants": "Send confirmation email to participants",
                     "notify-emails": "Send a copy of the data to those comma-separated emails",
                     "web-confirmation-message": "Confirmation message on the web (formatting enabled)",
-                    "email-confirmation-message": "Confirmation message via email (formatting enabled, must enable confirmation above)"
+                    "email-confirmation-message": "Confirmation message via email (formatting enabled, must enable confirmation above)",
+                    "email-notification-message": "Notification message via email",
+                    "email-confirmation-title": "Title of confirmation email (to participants)",
+                    "email-notification-title": "Title of notification email (to notified emails)"
                 },
                 "link-options": {
                     "standalone": "Standalone",
@@ -72,6 +79,28 @@
                     "all-groups": "For any group",
                     "tags": "Discussion fields (beta)",
                     "all-tags": "For any tag"
+                },
+                "auto-discussion-options": "Options for new discussions",
+                "email-confirmation-options": "Confirmation email template",
+                "email-notification-options": "Notification email template"
+            },
+            "auto-discussion-options-modal": {
+                "title": "Automatic discussion options",
+                "introduction": "These settings will apply to new discussions that have been created automatically by submitting a tag-connected form. You can use values from the form submission using a braces syntax with the field slug. By default {title} and {content} will be used respectively.\n",
+                "submit": "Validate changes",
+                "field": {
+                    "title": "Discussion title",
+                    "tags": "Discussion tags",
+                    "tags-help": "Comma-separated list of tag slugs. The selected tags will be added in addition to the tag this form is connected to.\n",
+                    "content": "Post content"
+                }
+            },
+            "confirmation-email-options-modal": {
+                "title": "Email template",
+                "submit": "Validate changes",
+                "field": {
+                    "title": "Title",
+                    "message": "Body"
                 }
             },
             "save-controls": {

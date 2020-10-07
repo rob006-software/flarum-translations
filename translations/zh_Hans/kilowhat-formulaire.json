@@ -5,6 +5,8 @@
                 "heading": "Formulaire",
                 "heading-advanced": "Formulaire（第三方扩展选项）",
                 "fill": "填写独立表单",
+                "seeAnyUser": "",
+                "seeAnyDiscussion": "",
                 "create": "创建表单 (beta)",
                 "moderate": "管理所有表单",
                 "listForms": "查看未删除的表单列表",
@@ -58,13 +60,18 @@
                     "link": "特殊表单类型",
                     "title": "标题",
                     "slug": "别名（URL Slug）",
+                    "automatic-discussion": "",
+                    "automatic-discussion-help": "",
                     "accept-submissions": "接受新的提交结果",
                     "allow-modification": "允许用户编辑他们已提交的结果",
                     "max-submissions": "最多提交量（留空表示不限制）",
                     "send-confirmation-to-participants": "向参与者发送确认邮件",
                     "notify-emails": "将数据副本发送至以下以逗号分隔的电子邮箱中",
                     "web-confirmation-message": "在网页中确认信息（格式化启用）",
-                    "email-confirmation-message": "通过邮件确认信息（格式化启用，必须启用上方确认项）"
+                    "email-confirmation-message": "通过邮件确认信息（格式化启用，必须启用上方确认项）",
+                    "email-notification-message": "",
+                    "email-confirmation-title": "",
+                    "email-notification-title": ""
                 },
                 "link-options": {
                     "standalone": "Standalone",
@@ -72,6 +79,28 @@
                     "all-groups": "任何用户组",
                     "tags": "主题字段（beta）",
                     "all-tags": "任何标签"
+                },
+                "auto-discussion-options": "",
+                "email-confirmation-options": "",
+                "email-notification-options": ""
+            },
+            "auto-discussion-options-modal": {
+                "title": "",
+                "introduction": "",
+                "submit": "",
+                "field": {
+                    "title": "",
+                    "tags": "",
+                    "tags-help": "",
+                    "content": ""
+                }
+            },
+            "confirmation-email-options-modal": {
+                "title": "",
+                "submit": "",
+                "field": {
+                    "title": "",
+                    "message": ""
                 }
             },
             "save-controls": {

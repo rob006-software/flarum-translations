@@ -5,6 +5,8 @@
                 "heading": "",
                 "heading-advanced": "",
                 "fill": "",
+                "seeAnyUser": "",
+                "seeAnyDiscussion": "",
                 "create": "",
                 "moderate": "",
                 "listForms": "",
@@ -58,13 +60,18 @@
                     "link": "",
                     "title": "",
                     "slug": "",
+                    "automatic-discussion": "",
+                    "automatic-discussion-help": "",
                     "accept-submissions": "",
                     "allow-modification": "",
                     "max-submissions": "",
                     "send-confirmation-to-participants": "",
                     "notify-emails": "",
                     "web-confirmation-message": "",
-                    "email-confirmation-message": ""
+                    "email-confirmation-message": "",
+                    "email-notification-message": "",
+                    "email-confirmation-title": "",
+                    "email-notification-title": ""
                 },
                 "link-options": {
                     "standalone": "",
@@ -72,6 +79,28 @@
                     "all-groups": "",
                     "tags": "",
                     "all-tags": ""
+                },
+                "auto-discussion-options": "",
+                "email-confirmation-options": "",
+                "email-notification-options": ""
+            },
+            "auto-discussion-options-modal": {
+                "title": "",
+                "introduction": "",
+                "submit": "",
+                "field": {
+                    "title": "",
+                    "tags": "",
+                    "tags-help": "",
+                    "content": ""
+                }
+            },
+            "confirmation-email-options-modal": {
+                "title": "",
+                "submit": "",
+                "field": {
+                    "title": "",
+                    "message": ""
                 }
             },
             "save-controls": {
