@@ -276,7 +276,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/follow-tags/0.4.4/resources/locale/en.yml',
 	],
 	'fof-formatting' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/formatting/0.1.5/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/formatting/0.2.0/resources/locale/en.yml',
 	],
 	'fof-forum-statistics-widget' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/forum-statistics-widget/0.2.0/resources/locale/en.yml',
