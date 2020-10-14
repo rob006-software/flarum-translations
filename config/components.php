@@ -638,6 +638,9 @@ return [
 	'veriael-markdown' => [
 		'tag' => 'https://raw.githubusercontent.com/Veriael/markdown/v1.0.2.1/resources/locale/en.yml',
 	],
+	'webbinaro-gpx-preview' => [
+		'tag' => 'https://raw.githubusercontent.com/eddiewebb/flarum-gpx-preview/v0.1.2/resources/locale/en.yml',
+	],
 	'wiwatsrt-best-answer' => [
 		'tag' => 'https://raw.githubusercontent.com/wiwatsrt/flarum-ext-best-answer/v0.2.4/locale/en.yml',
 	],
