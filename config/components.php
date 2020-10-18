@@ -120,6 +120,9 @@ return [
 	'datitisev-maintenance' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/datitisev-maintenance.yml',
 	],
+	'davidnery-nickname-group-formatter' => [
+		'tag' => 'https://raw.githubusercontent.com/DavidNery/flarum-nickname-group-formatter/v0.1/locale/en.yml',
+	],
 	'dem13n-auth-mailru' => [
 		'tag' => 'https://raw.githubusercontent.com/Dem13n/auth-mailru/0.1.0/resources/locale/en.yml',
 	],
