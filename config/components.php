@@ -191,7 +191,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-flags.yml',
 	],
 	'flarum-likes' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.13/locale/flarum-likes.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.14/locale/flarum-likes.yml',
 		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-likes.yml',
 	],
 	'flarum-lock' => [
