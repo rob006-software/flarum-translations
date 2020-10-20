@@ -215,7 +215,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-statistics.yml',
 	],
 	'flarum-sticky' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.13/locale/flarum-sticky.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.14/locale/flarum-sticky.yml',
 		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-sticky.yml',
 	],
 	'flarum-subscriptions' => [
