@@ -53,7 +53,7 @@
                     "members": "=> core.admin.permissions_controls.members_button"
                 },
                 "noValue": "（无值）",
-                "noReason": "",
+                "noReason": "（无原因）",
                 "client": {
                     "session": "Web Session",
                     "api_key": "API key",
@@ -98,13 +98,13 @@
                 },
                 "permission_changed": "修改 {permission} 权限 {old_groups} 为 {new_groups}",
                 "post": {
-                    "approved": "",
+                    "approved": "批准 {postuser} 在 {discussion} 发布的 {post}",
                     "created": "发表回复 {post} 于 {discussion}",
                     "create_date_changed": "修改 {postuser} 的 {post} 回复时间 {old_date} 为 {new_date}",
                     "deleted": "删除 {postuser} 在 {discussion} 中的 {post}",
-                    "dismissed_flags": "",
+                    "dismissed_flags": "撤销举报 {postuser} 在 {discussion} 发布的 {post}",
                     "edit_date_changed": "修改 {postuser} 的 {post} 编辑时间 {old_date} 为 {new_date}",
-                    "flagged": "举报 {postuser} 在 {discussion} 中的 {post}",
+                    "flagged": "举报 {postuser} 在 {discussion} 发布的 {post}，原因：{reason}",
                     "hidden": "隐藏 {postuser} 在 {discussion} 中的 {post}",
                     "restored": "恢复 {postuser} 在 {discussion} 中的 {post}",
                     "revised": "修订 {postuser} 在 {discussion} 中的 {post}",
