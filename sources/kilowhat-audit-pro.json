@@ -53,6 +53,7 @@
                     "members": "=> core.admin.permissions_controls.members_button"
                 },
                 "noValue": "(no value)",
+                "noReason": "(no reason)",
                 "client": {
                     "session": "Web session",
                     "api_key": "API key",
@@ -97,11 +98,13 @@
                 },
                 "permission_changed": "Edited permission {permission} from {old_groups} to {new_groups}",
                 "post": {
+                    "approved": "Approved {postuser}'s {post} in {discussion}",
                     "created": "Created a {post} in {discussion}",
                     "create_date_changed": "Changed {postuser}'s {post} start date from {old_date} to {new_date}",
                     "deleted": "Deleted {postuser}'s {post} in {discussion}",
+                    "dismissed_flags": "Dismissed flags on {postuser}'s {post} in {discussion}",
                     "edit_date_changed": "Changed {postuser}'s {post} edit date from {old_date} to {new_date}",
-                    "flagged": "Flagged {postuser}'s {post} in {discussion}",
+                    "flagged": "Flagged {postuser}'s {post} as {reason} in {discussion}",
                     "hidden": "Hid {postuser}'s {post} in {discussion}",
                     "restored": "Restored {postuser}'s {post} in {discussion}",
                     "revised": "Revised {postuser}'s {post} in {discussion}",
