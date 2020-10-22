@@ -31,10 +31,16 @@
                 "submissions": "Submissions",
                 "columns": {
                     "title": "Title",
+                    "type": "Type",
                     "accept-submissions": "Open",
                     "allow-modification": "Modification",
                     "submissions": "Submissions",
                     "actions": "Actions"
+                },
+                "type-options": {
+                    "standalone": "Standalone",
+                    "groups": "User profile",
+                    "tags": "Discussion fields"
                 }
             },
             "form-create": {
@@ -67,11 +73,7 @@
                     "max-submissions": "Max submissions (leave blank for unlimited)",
                     "send-confirmation-to-participants": "Send confirmation email to participants",
                     "notify-emails": "Send a copy of the data to those comma-separated emails",
-                    "web-confirmation-message": "Confirmation message on the web (formatting enabled)",
-                    "email-confirmation-message": "Confirmation message via email (formatting enabled, must enable confirmation above)",
-                    "email-notification-message": "Notification message via email",
-                    "email-confirmation-title": "Title of confirmation email (to participants)",
-                    "email-notification-title": "Title of notification email (to notified emails)"
+                    "web-confirmation-message": "Confirmation message on the web (formatting enabled)"
                 },
                 "link-options": {
                     "standalone": "Standalone",
@@ -86,7 +88,7 @@
             },
             "auto-discussion-options-modal": {
                 "title": "Automatic discussion options",
-                "introduction": "These settings will apply to new discussions that have been created automatically by submitting a tag-connected form. You can use values from the form submission using a braces syntax with the field slug. By default {title} and {content} will be used respectively.\n",
+                "introduction": "These settings will apply to new discussions that have been created automatically by submitting a tag-connected form. You can use values from the form submission using a braces syntax with the field slug. By default { title } and { content } will be used respectively.\n",
                 "submit": "Validate changes",
                 "field": {
                     "title": "Discussion title",
