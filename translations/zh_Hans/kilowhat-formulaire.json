@@ -31,16 +31,16 @@
                 "submissions": "提交结果",
                 "columns": {
                     "title": "标题",
-                    "type": "",
+                    "type": "类型",
                     "accept-submissions": "开启",
                     "allow-modification": "修改",
                     "submissions": "提交结果",
                     "actions": "动作"
                 },
                 "type-options": {
-                    "standalone": "",
-                    "groups": "",
-                    "tags": ""
+                    "standalone": "独立",
+                    "groups": "用户资料",
+                    "tags": "主题字段"
                 }
             },
             "form-create": {
@@ -92,7 +92,7 @@
             },
             "auto-discussion-options-modal": {
                 "title": "自动主题选项",
-                "introduction": "这些设置将应用于通过提交标签连接的表单自动创建的新讨论。您可以使用一对大括号包裹字段的 slug 来使用表单提交的值。默认情况下，将依次使用 {title} 和 {content}。\n",
+                "introduction": "这些设置将应用于通过提交标签连接的表单自动创建的新讨论。您可以使用一对大括号包裹字段的 slug 来使用表单提交的值。默认情况下，将依次使用 { title } 和 { content }。\n",
                 "submit": "验证变化",
                 "field": {
                     "title": "主题标题",
