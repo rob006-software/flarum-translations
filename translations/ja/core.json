@@ -214,8 +214,10 @@
             },
             "composer_edit": {
                 "discard_confirmation": "未保存の変更があります。破棄しますか？",
+                "edited_message": "",
                 "post_link": "#{number} の {discussion} を投稿",
-                "submit_button": "=> core.ref.save_changes"
+                "submit_button": "=> core.ref.save_changes",
+                "view_button": ""
             },
             "composer_reply": {
                 "body_placeholder": "=> core.ref.write_a_reply",
@@ -398,8 +400,8 @@
             },
             "error": {
                 "dependent_extensions_message": "",
-                "missing_dependencies_message": "",
                 "generic_message": "おっとっと！ エラーが発生しました。ページを再読み込みし、もう一度お試しください。",
+                "missing_dependencies_message": "",
                 "not_found_message": "リクエストされたリソースが見つかりませんでした。",
                 "permission_denied_message": "実行する権限がありません。",
                 "rate_limit_exceeded_message": "実行する間隔が早すぎます。時間が経ってからお試しください。"
@@ -515,6 +517,7 @@
             "start_a_discussion": "新規スレッド",
             "username": "ユーザ名",
             "users": "ユーザー",
+            "view": "",
             "write_a_reply": "返信する...",
             "you": "あなた",
             "icon_label": "アイコン"

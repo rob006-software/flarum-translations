@@ -205,8 +205,10 @@
             },
             "composer_edit": {
                 "discard_confirmation": "Değişikliklerini kaydetmedin. Onları iptal etmek ister misin?",
+                "edited_message": "",
                 "post_link": "{discussion} içinde #{number} gönderi",
-                "submit_button": "=> core.ref.save_changes"
+                "submit_button": "=> core.ref.save_changes",
+                "view_button": ""
             },
             "composer_reply": {
                 "body_placeholder": "=> core.ref.write_a_reply",
@@ -389,8 +391,8 @@
             },
             "error": {
                 "dependent_extensions_message": "{extension} uzantısı şu uzantı kapanmadan önce kapatılamaz: {extensions}",
-                "missing_dependencies_message": "{extension} şu uzantı aktif edilmeden önce aktif edilemez: {extensions}",
                 "generic_message": "Oops! Bir şeyler yanlış gitti. Lütfen sayfayı yenileyin ve tekrar deneyin.",
+                "missing_dependencies_message": "{extension} şu uzantı aktif edilmeden önce aktif edilemez: {extensions}",
                 "not_found_message": "İstenen kaynak bulunamadı.",
                 "permission_denied_message": "Bunu yapmaya yetkiniz bulunmuyor.",
                 "rate_limit_exceeded_message": "Biraz fazla hızlı gidiyorsun. Lütfen birkaç saniye içinde tekrar dene."
@@ -506,6 +508,7 @@
             "start_a_discussion": "Bir Tartışma Başlat",
             "username": "Kullanıcı Adı",
             "users": "Kullanıcılar",
+            "view": "",
             "write_a_reply": "Bir Yanıt Yaz...",
             "you": "Sen"
         },

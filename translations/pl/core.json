@@ -205,8 +205,10 @@
             },
             "composer_edit": {
                 "discard_confirmation": "Nie zapisałeś dokonanych zmian. Czy chcesz je porzucić?",
+                "edited_message": "",
                 "post_link": "Post #{number} w {discussion}",
-                "submit_button": "=> core.ref.save_changes"
+                "submit_button": "=> core.ref.save_changes",
+                "view_button": ""
             },
             "composer_reply": {
                 "body_placeholder": "=> core.ref.write_a_reply",
@@ -389,8 +391,8 @@
             },
             "error": {
                 "dependent_extensions_message": "Nie można wyłączyć {extension}, jeśli następujące zależne rozszerzenia są włączone: {extensions}",
-                "missing_dependencies_message": "Nie można włączyć {extension}, jeśli następujące zależności są wyłączone: {extensions}",
                 "generic_message": "Ups! Coś poszło nie tak. Odśwież stronę i spróbuj ponownie.",
+                "missing_dependencies_message": "Nie można włączyć {extension}, jeśli następujące zależności są wyłączone: {extensions}",
                 "not_found_message": "Żądany zasób nie został znaleziony.",
                 "permission_denied_message": "Nie masz uprawnień, aby to zrobić.",
                 "rate_limit_exceeded_message": "Nie bądź taki hop do przodu! Spróbuj ponownie za kilka sekund."
@@ -506,6 +508,7 @@
             "start_a_discussion": "Rozpocznij dyskusję",
             "username": "Nazwa użytkownika",
             "users": "Użytkownicy",
+            "view": "",
             "write_a_reply": "Napisz odpowiedź...",
             "you": "Ty"
         },
