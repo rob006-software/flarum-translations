@@ -468,7 +468,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/KyrneDev/Evergreen/0.1.7/resources/locale/en.yml',
 	],
 	'kyrne-shout' => [
-		'tag' => 'https://raw.githubusercontent.com/KyrneDev/Shout-public/0.2.3/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/KyrneDev/Shout-public/0.2.4-beta.1/resources/locale/en.yml',
 	],
 	'kyrne-websocket' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/kyrne-websocket.yml',
