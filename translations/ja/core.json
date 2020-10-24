@@ -31,7 +31,7 @@
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "デフォルト言語",
-                "display_name_heading": "",
+                "display_name_heading": "ユーザーの表示名",
                 "display_name_text": "",
                 "forum_description_heading": "フォーラムの説明",
                 "forum_description_text": "短いフォーラムの説明文を入力してください。これは HTML にメタタグとして記述され、検索エンジンの説明欄に表示される可能性があります。",
@@ -93,8 +93,8 @@
                 "mailgun_heading": "Mailgun 設定",
                 "not_sending_message": "Flarum は現在メールを送信できません。メールドライバーとその設定を確認してください。",
                 "send_test_mail_button": "",
-                "send_test_mail_heading": "",
-                "send_test_mail_success": "",
+                "send_test_mail_heading": "テストメールを送信する",
+                "send_test_mail_success": "テストメールの送信に成功しました！",
                 "send_test_mail_text": "",
                 "smtp_heading": "SMTP 設定",
                 "submit_button": "=> core.ref.save_changes",
@@ -214,10 +214,10 @@
             },
             "composer_edit": {
                 "discard_confirmation": "未保存の変更があります。破棄しますか？",
-                "edited_message": "",
+                "edited_message": "編集しました。",
                 "post_link": "#{number} の {discussion} を投稿",
                 "submit_button": "=> core.ref.save_changes",
-                "view_button": ""
+                "view_button": "=> core.ref.view"
             },
             "composer_reply": {
                 "body_placeholder": "=> core.ref.write_a_reply",
@@ -399,9 +399,9 @@
                 "hidden_tooltip": "非表示"
             },
             "error": {
-                "dependent_extensions_message": "",
+                "dependent_extensions_message": "{extension}を無効化するには、これらを先に無効化する必要があります: {extensions}",
                 "generic_message": "おっとっと！ エラーが発生しました。ページを再読み込みし、もう一度お試しください。",
-                "missing_dependencies_message": "",
+                "missing_dependencies_message": "{extension}を有効化するには、これらを先に有効化する必要があります: {extensions}",
                 "not_found_message": "リクエストされたリソースが見つかりませんでした。",
                 "permission_denied_message": "実行する権限がありません。",
                 "rate_limit_exceeded_message": "実行する間隔が早すぎます。時間が経ってからお試しください。"
@@ -473,8 +473,8 @@
                 "body": "{username} さん、こんにちは!\n\n{forum} のアカウントで、パスワードリセットのリクエストを誰かが（おそらくあなたが）送信しました。\n\nこのURLにアクセスするとアカウントのパスワードをリセットすることができます:\n{url}\n\nこのメールに身に覚えがない場合は、お手数ですがメールを削除してください。\n"
             },
             "send_test": {
-                "subject": "",
-                "body": ""
+                "subject": "Flarum Eメールテスト",
+                "body": "やあ{username}!\n\nこのテストメールは、あなたのFlarumのEメール設定が正しく設定されていることを確認するものです。\n\nこのメールに心当たりがあれば、それは設定した項目が正常であることを意味します！\n\nこのメールに心当たりがない場合は、無視してください。\n"
             }
         },
         "ref": {
@@ -493,8 +493,8 @@
             "discussions": "スレッド",
             "edit": "編集",
             "email": "電子メール",
-            "icon": "",
-            "icon_text": "接頭辞 <code>fas fa-</code> <strong>を含む</strong> <a>Font Awesome</a> アイコン名を入力します。",
+            "icon": "アイコン",
+            "icon_text": "接頭辞<code>fas fa-</code><em>を含む</em><a>Font Awesome</a> のアイコン名を入力してください。",
             "load_more": "さらに読み込む",
             "log_in": "ログイン",
             "log_out": "ログアウト",
@@ -517,7 +517,7 @@
             "start_a_discussion": "新規スレッド",
             "username": "ユーザ名",
             "users": "ユーザー",
-            "view": "",
+            "view": "ビュー",
             "write_a_reply": "返信する...",
             "you": "あなた",
             "icon_label": "アイコン"
