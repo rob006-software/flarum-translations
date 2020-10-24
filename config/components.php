@@ -486,7 +486,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/MichaelBelgium/mybb_to_flarum/v6.0/locale/en.yml',
 	],
 	'michaelbelgium-profile-views' => [
-		'tag' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-profile-views/v3.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-profile-views/v4.0.0/locale/en.yml',
 	],
 	'migratetoflarum-canonical' => [
 		'tag' => 'https://raw.githubusercontent.com/migratetoflarum/canonical/0.2.1/resources/locale/en.yml',
