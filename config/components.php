@@ -339,7 +339,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/polls/0.1.2/resources/locale/en.yml',
 	],
 	'fof-pretty-mail' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pretty-mail/0.1.6/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pretty-mail/0.1.7/resources/locale/en.yml',
 	],
 	'fof-prevent-necrobumping' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/prevent-necrobumping/0.3.0/resources/locale/en.yml',
