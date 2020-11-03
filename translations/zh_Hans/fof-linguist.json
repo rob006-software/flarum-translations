@@ -22,11 +22,22 @@
             "filters": {
                 "search": "搜索翻译文本、翻译键...",
                 "with-own-translations": "自定义翻译",
-                "with-original-translations-in-locales": "有原文翻译",
-                "without-original-translations-in-locales": "无原文翻译",
+                "missing": "",
+                "missing-middle-label": "",
+                "negation-options": {
+                    "with": "",
+                    "without": ""
+                },
+                "type-options": {
+                    "any": "",
+                    "original": "",
+                    "own": ""
+                },
                 "for-extension": "筛选插件",
                 "for-extension-unavailable": "命名空间「{namespace}」没有翻译资源。 这个插件可能没有需要翻译的内容，或者使用了其他命名空间。 尝试搜索翻译文本来定位翻译资源吧。\n",
-                "results": "已显示 {shown} 条匹配翻译，共 {total} 条"
+                "results": "已显示 {shown} 条匹配翻译，共 {total} 条",
+                "with-original-translations-in-locales": "有原文翻译",
+                "without-original-translations-in-locales": "无原文翻译"
             },
             "clear-cache": {
                 "text": "新增翻译尚未部署。 Note: 清理缓存会导致论坛短暂性运行缓慢。\n",

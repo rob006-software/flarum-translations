@@ -22,8 +22,17 @@
             "filters": {
                 "search": "Search translation strings...",
                 "with-own-translations": "My translations",
-                "with-original-translations-in-locales": "With original translations in",
-                "without-original-translations-in-locales": "Without original translations in",
+                "missing": "Find missing translations",
+                "missing-middle-label": "translations in",
+                "negation-options": {
+                    "with": "With",
+                    "without": "Without"
+                },
+                "type-options": {
+                    "any": "Original or Custom",
+                    "original": "Original",
+                    "own": "Custom"
+                },
                 "for-extension": "For extension",
                 "for-extension-unavailable": "No translations were found in the expected namespace \"{namespace}\". Maybe this extension doesn't have any text to translate or is using a different namespace. Try using the search field to locate its translations.\n",
                 "results": "Showing {shown} of {total} matching translations"

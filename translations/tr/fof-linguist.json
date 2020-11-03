@@ -22,11 +22,22 @@
             "filters": {
                 "search": "Çeviriler içerisinde ara...",
                 "with-own-translations": "Çevirilerim",
-                "with-original-translations-in-locales": "Asıl çevirilerde",
-                "without-original-translations-in-locales": "Asıl çeviriler olmadan",
+                "missing": "",
+                "missing-middle-label": "",
+                "negation-options": {
+                    "with": "",
+                    "without": ""
+                },
+                "type-options": {
+                    "any": "",
+                    "original": "",
+                    "own": ""
+                },
                 "for-extension": "Eklentiler için",
                 "for-extension-unavailable": "",
-                "results": "{total} eşleşen çeviriden {shown} adeti gösteriliyor"
+                "results": "{total} eşleşen çeviriden {shown} adeti gösteriliyor",
+                "with-original-translations-in-locales": "Asıl çevirilerde",
+                "without-original-translations-in-locales": "Asıl çeviriler olmadan"
             },
             "clear-cache": {
                 "text": "Yeni çeviriler henüz uygulanmadı. Not: Önbelleği temizlemek forumunuzu geçici olarak yavaşlatabilir.\n",
