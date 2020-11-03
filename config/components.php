@@ -267,7 +267,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/disposable-emails/0.1.0/locale/en.yml',
 	],
 	'fof-drafts' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/drafts/0.1.13/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/drafts/0.2.0/resources/locale/en.yml',
 	],
 	'fof-filter' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/filter/0.1.0-beta.2/resources/locale/en.yml',
