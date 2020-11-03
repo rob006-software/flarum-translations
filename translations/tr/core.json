@@ -205,17 +205,17 @@
             },
             "composer_edit": {
                 "discard_confirmation": "Değişikliklerini kaydetmedin. Onları iptal etmek ister misin?",
-                "edited_message": "",
+                "edited_message": "Düzenlemeniz yapıldı.",
                 "post_link": "{discussion} içinde #{number} gönderi",
                 "submit_button": "=> core.ref.save_changes",
-                "view_button": ""
+                "view_button": "=> core.ref.view"
             },
             "composer_reply": {
                 "body_placeholder": "=> core.ref.write_a_reply",
                 "discard_confirmation": "Yanıtınızı henüz göndermediniz. Silmek istediğinize emin misiniz?",
                 "posted_message": "Yanıtın gönderildi.",
                 "submit_button": "Yanıt Gönder",
-                "view_button": "Görüntüle"
+                "view_button": "=> core.ref.view"
             },
             "discussion_controls": {
                 "cannot_reply_button": "Yanıtlayamazsın",
@@ -508,7 +508,7 @@
             "start_a_discussion": "Bir Tartışma Başlat",
             "username": "Kullanıcı Adı",
             "users": "Kullanıcılar",
-            "view": "",
+            "view": "Görüntüle",
             "write_a_reply": "Bir Yanıt Yaz...",
             "you": "Sen"
         },
