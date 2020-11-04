@@ -19,7 +19,7 @@
                 "secure": "强制 WebSocket WSS/HTTPS",
                 "title": "WebSocket / Pusher 设置",
                 "reverse_proxy": "反向代理支持",
-                "auth_only": ""
+                "auth_only": "仅向登录用户开放 Websocket"
             },
             "help": {
                 "app_id": "Pusher App ID - 如果使用内置 WebSocket 服务器，请保持默认值。",
@@ -33,7 +33,7 @@
                 "pk_path": "仅在使用 SSL 而非反向代理时开启。您服务器上的 SSL (HTTPS) 私钥路径 - 通常是一个 .key 或 .pem 文件。",
                 "passphrase": "仅在使用 SSL 而非反向代理时开启。用于启用证书私钥的密码 - 通常不需要填写。",
                 "self_signed": "仅在使用 SSL 而非反向代理时开启。如果您的 SSL (HTTPS) 证书是自签证书，请开启此项。",
-                "auth_only": ""
+                "auth_only": "只允许经过身份认证的用户连接到 websocket 服务器，可以减少 CPU 的负载。"
             }
         }
     }
