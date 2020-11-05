@@ -315,7 +315,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/masquerade/0.3.4/resources/locale/en.yml',
 	],
 	'fof-merge-discussions' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/merge-discussions/0.3.3/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/merge-discussions/0.4.0/resources/locale/en.yml',
 	],
 	'fof-moderator-notes' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/moderator-notes/0.3.0/resources/locale/en.yml',
