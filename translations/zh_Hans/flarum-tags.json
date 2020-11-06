@@ -7,7 +7,7 @@
             "edit_tag": {
                 "color_label": "=> core.ref.color",
                 "delete_tag_button": "删除标签",
-                "delete_tag_confirmation": "确定要删除此标签？此标签下的主题将不会被删除。",
+                "delete_tag_confirmation": "确定要删除此标签？此操作不会删除标签下的主题帖。",
                 "description_label": "描述",
                 "hide_label": "从“全部主题”中隐藏",
                 "icon_label": "=> core.ref.icon",
@@ -30,9 +30,9 @@
             "tag_settings": {
                 "range_separator_text": " 至 ",
                 "required_primary_heading": "主标签数量限制",
-                "required_primary_text": "设置单个主题可添加的主标签数量。",
+                "required_primary_text": "设置每个主题帖需添加的主标签数量。",
                 "required_secondary_heading": "次标签数量限制",
-                "required_secondary_text": "设置单个主题可添加的次标签数量。",
+                "required_secondary_text": "设置每个主题帖需添加的次标签数量。",
                 "title": "标签设置"
             },
             "tags": {
