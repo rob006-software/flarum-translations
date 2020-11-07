@@ -351,7 +351,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/reactions/0.4.2/resources/locale/en.yml',
 	],
 	'fof-recaptcha' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/recaptcha/0.1.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/recaptcha/0.2.0/resources/locale/en.yml',
 	],
 	'fof-secure-https' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/secure-https/0.2.0/resources/locale/en.yml',
