@@ -330,7 +330,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/open-collective/0.1.2/resources/locale/en.yml',
 	],
 	'fof-pages' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pages/0.4.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pages/0.5.0/resources/locale/en.yml',
 	],
 	'fof-passport' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/passport/0.3.0/locale/en.yml',
