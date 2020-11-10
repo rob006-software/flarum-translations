@@ -1,18 +1,22 @@
 {
     "fof-upload": {
         "admin": {
+            "pane": {
+                "title": "",
+                "description": ""
+            },
             "buttons": {
                 "save": "Ayarları kaydet"
             },
             "help_texts": {
-                "description": "Dosya yükleme servisleri ve ayarları.\n",
                 "disable-download-logging": "Forum kullanıcıları tarafından yapılan her indirme işleminin kaydını kapat. Etkinleştirilmesi, gelecekte indirenlerin sayısını ve diğer ölçümleri görmenizi sağlar.\n",
                 "disable-hotlink-protection": "Hotlink koruması, diğer sitelerden indirme yapılmasına engel olur. Geçerli bir csrf token ve post id'si gereklidir.\n",
                 "download_templates": "İndirme şablonları, dosyaların forumunuzda nasıl görüneceğini ayarlamanızı sağlar, örneğin önizleme veya düğme gibi. Mevcut olanlar:\n",
                 "mime_types": "Please configure your mapping here. Each mime type regular expression will be handled by a specific upload adapter and download template.\n",
                 "resize": "Resimlerin yüklenmeden önce yeniden boyulandırılıp boyutlandırılmayacağını seçin. Piksel cinsinden maksimum genişlik ve yükseklik belirtebilirsiniz. Yeniden boyutlandırma işlemi görüntülerin enini ve boyunu korur.\n",
                 "client_extension": "",
-                "watermark": "Yükleme sırasında resimlere fligran (watermark) eklenip eklenmeyeceğini seçin. Filigranlar gif olmayan dosyalara eklenebilir.\n"
+                "watermark": "Yükleme sırasında resimlere fligran (watermark) eklenip eklenmeyeceğini seçin. Filigranlar gif olmayan dosyalara eklenebilir.\n",
+                "description": "Dosya yükleme servisleri ve ayarları.\n"
             },
             "labels": {
                 "aws-s3": {

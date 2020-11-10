@@ -1,11 +1,14 @@
 {
     "fof-upload": {
         "admin": {
+            "pane": {
+                "title": "Upload",
+                "description": "Set up uploading services and preferences."
+            },
             "buttons": {
                 "save": "Save settings"
             },
             "help_texts": {
-                "description": "Set up uploading services and preferences.\n",
                 "disable-download-logging": "Disable logging every download made by users of your forum. Keeping it enabled allows you to view the number of downloads and other metrics in the nearby future.\n",
                 "disable-hotlink-protection": "Hotlink protection prevents opening downloads from other sites. Current method requires a csrf token and post id.\n",
                 "download_templates": "Download templates are how uploads are shown on your forum, eg like previews, buttons. Currently available:\n",
