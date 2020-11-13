@@ -8,6 +8,7 @@
                 "mode_help_runtime_label": "运行时模式",
                 "mode_help_runtime": "适用于小型论坛，比如在共享主机环境下，主题数、用户数、标签数和页面数的总和小于 1 万（最终生成的对应链接数小于 1 万）。此模式下，站点地图是在每次请求时即时生成的。",
                 "mode_help_schedule": "以下模式将会添加相应的计划任务到 Flarum 调度程序。",
+                "mode_help_schedule_setup": "",
                 "mode_help_cache_disk_label": "缓存模式/磁盘模式",
                 "mode_help_cache_disk": "适用于中小型论坛，比如允许 cronjobs（计划任务） 和启用了 Flarum 调度程序的主机环境下（见下文），主题数、用户数、标签数和页面数总和少于 5 万（最终生成的对应链接数小于 5 万）。",
                 "mode_help_large": "技术限制，一个站点地图文件最多含有 5 万条链接。如果您有更多条目存储的需求，请使用以下选项！",
