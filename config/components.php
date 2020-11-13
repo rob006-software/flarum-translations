@@ -297,7 +297,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/github-sponsors/0.1.1/locale/en.yml',
 	],
 	'fof-html-errors' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/html-errors/0.4.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/html-errors/0.4.1/locale/en.yml',
 	],
 	'fof-ignore-users' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ignore-users/0.2.0/resources/locale/en.yml',
