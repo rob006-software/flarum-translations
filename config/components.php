@@ -357,7 +357,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/recaptcha/0.2.0/resources/locale/en.yml',
 	],
 	'fof-secure-https' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/secure-https/0.2.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/secure-https/0.2.1/resources/locale/en.yml',
 	],
 	'fof-sentry' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sentry/0.6.0/resources/locale/en.yml',
