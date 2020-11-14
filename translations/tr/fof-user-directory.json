@@ -6,6 +6,9 @@
             },
             "page": {
                 "nav": "Kullanıcı Listesi",
+                "refresh_tooltip": "",
+                "load_more_button": "",
+                "empty_text": "",
                 "sort": {
                     "relevance": "İlgi",
                     "default": "Varsayılan",
@@ -28,7 +31,24 @@
             },
             "settings": {
                 "title": "Kullanıcı Listesi Ayarları",
-                "link": "Kullanıcı listesinin görülebilmesi için anasayfaya bağlantı ekle."
+                "link": "Kullanıcı listesinin görülebilmesi için anasayfaya bağlantı ekle.",
+                "default-sort": ""
+            }
+        },
+        "lib": {
+            "sort": {
+                "not_specified": "",
+                "default": "",
+                "username_az": "",
+                "username_za": "",
+                "newest": "",
+                "oldest": "",
+                "seen_recent": "",
+                "seen_oldest": "",
+                "most_posts": "",
+                "least_posts": "",
+                "most_discussions": "",
+                "least_discussions": ""
             }
         }
     }

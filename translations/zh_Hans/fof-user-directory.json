@@ -6,6 +6,9 @@
             },
             "page": {
                 "nav": "会员名录",
+                "refresh_tooltip": "",
+                "load_more_button": "",
+                "empty_text": "",
                 "sort": {
                     "relevance": "相关度",
                     "default": "默认",
@@ -28,7 +31,24 @@
             },
             "settings": {
                 "title": "会员名录设置",
-                "link": "在论坛首页侧边栏添加「会员名录」选项卡"
+                "link": "在论坛首页侧边栏添加「会员名录」选项卡",
+                "default-sort": ""
+            }
+        },
+        "lib": {
+            "sort": {
+                "not_specified": "",
+                "default": "",
+                "username_az": "",
+                "username_za": "",
+                "newest": "",
+                "oldest": "",
+                "seen_recent": "",
+                "seen_oldest": "",
+                "most_posts": "",
+                "least_posts": "",
+                "most_discussions": "",
+                "least_discussions": ""
             }
         }
     }

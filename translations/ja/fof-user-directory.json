@@ -6,6 +6,9 @@
             },
             "page": {
                 "nav": "ユーザーリスト",
+                "refresh_tooltip": "",
+                "load_more_button": "",
+                "empty_text": "",
                 "sort": {
                     "relevance": "関係性",
                     "default": "デフォルト",
@@ -28,7 +31,24 @@
             },
             "settings": {
                 "title": "ユーザーリスト設定",
-                "link": "ユーザーが見えるユーザーリストのリンクをホームページに表示する"
+                "link": "ユーザーが見えるユーザーリストのリンクをホームページに表示する",
+                "default-sort": ""
+            }
+        },
+        "lib": {
+            "sort": {
+                "not_specified": "",
+                "default": "",
+                "username_az": "",
+                "username_za": "",
+                "newest": "",
+                "oldest": "",
+                "seen_recent": "",
+                "seen_oldest": "",
+                "most_posts": "",
+                "least_posts": "",
+                "most_discussions": "",
+                "least_discussions": ""
             }
         }
     }
