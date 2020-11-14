@@ -396,7 +396,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/user-bio/0.3.1/resources/locale/en.yml',
 	],
 	'fof-user-directory' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/user-directory/0.3.4/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/user-directory/0.4.0/resources/locale/en.yml',
 	],
 	'fof-username-request' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/username-request/0.3.0/resources/locale/en.yml',
