@@ -152,25 +152,25 @@
                     },
                     "root": {
                         "label": "Root yolu",
-                        "description": ""
+                        "description": "Yedeklerin depolanacağı uzak root yolu (alt dizin)."
                     },
                     "passive": {
-                        "toggle": "",
-                        "description": ""
+                        "toggle": "Pasif bağlantı",
+                        "description": "Sunucuya pasif bir FTP bağlantısı kullanılıp kullanılmayacağı."
                     },
                     "ssl": {
-                        "toggle": "",
-                        "description": ""
+                        "toggle": "SSL",
+                        "description": "Sunucuya şifrelenmiş bir SSL bağlantısı kullanılıp kullanılmayacağı."
                     },
                     "timeout": {
-                        "label": "",
-                        "description": ""
+                        "label": "Zaman aşımı",
+                        "description": "FTP sunucusuyla bir bağlantı için beklenecek saniye sayısı."
                     }
                 }
             },
             "nav": {
-                "label": "",
-                "description": ""
+                "label": "Yedekleme",
+                "description": "Forumunuzun kopyalarını saklayın."
             }
         }
     }
