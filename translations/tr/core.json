@@ -145,7 +145,7 @@
                 "moderate_heading": "Yönetim",
                 "new_group_button": "Yeni Grup",
                 "participate_heading": "Katılma",
-                "post_without_throttle_label": "Beklemeden birçok kez yanıtla",
+                "post_without_throttle_label": "Beklemeden birden çok kez yanıtlayın",
                 "read_heading": "Okuma",
                 "rename_discussions_label": "Tartışmaları yeniden adlandır",
                 "reply_to_discussions_label": "Tartışmalara yanıt ver",
@@ -376,7 +376,7 @@
                 "delete_button": "=> core.ref.delete",
                 "delete_confirmation": "Bu kullanıcıyı silmek istediğinize emin misiniz? Kullanıcının tüm gönderileri silinecek.",
                 "delete_error_message": "<i>{username} ({email})</i> adlı kullanıcının silinmesi başarısız oldu",
-                "delete_success_message": "'<i>{username} ({email}) silindi'",
+                "delete_success_message": "<i>{username} ({email})</i> silindi",
                 "edit_button": "=> core.ref.edit"
             },
             "user_email_confirmation": {
@@ -457,11 +457,11 @@
             },
             "confirm_email": {
                 "subject": "Yeni E-posta Adresini Doğrula",
-                "body": "Hey {username} !\\n\\nBirisi (umarım sensindir!) {forum} sitesindeki hesabının e-posta adresini değiştirdi.\\n\\n Bu sen isen, e-postanı doğrulamak için aşağıdaki bağlantıyı tıkla: \\n {url} \\n \\n Şifreni değiştirmek istemiyorsan, bu e-postayı dikkate alma. \\n"
+                "body": "Hey {username} !\n\nBirisi (umarım sensindir!) {forum} sitesindeki hesabının e-posta adresini değiştirdi.\n\nBu sen isen, e-postanı doğrulamak için aşağıdaki bağlantıyı tıkla: \n{url} \n\nŞifreni değiştirmek istemiyorsan, bu e-postayı dikkate alma.\n"
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": "Hey {username} !\\n\\nBirisi (umarım sensindir!) {forum} sitesindeki hesabın için şifre sıfırlama talebinde bulundu.\\n\\n Bu sen isen, şifreni sıfırlamak için aşağıdaki bağlantıyı tıkla: \\n {url} \\n \\n Şifreni değiştirmek istemiyorsan, bu e-postayı dikkate alma; hiçbir şey olmayacak. \\n"
+                "body": "Hey {username} !\n\nBirisi (umarım sensindir!) {forum} sitesindeki hesabın için şifre sıfırlama talebinde bulundu.\n\nBu sen isen, şifreni sıfırlamak için aşağıdaki bağlantıyı tıkla:\n{url}\n\nŞifreni değiştirmek istemiyorsan, bu e-postayı dikkate alma; hiçbir şey olmayacak.\n"
             },
             "send_test": {
                 "subject": "Flarum Test Postası",
