@@ -96,6 +96,9 @@ return [
 	'clarkwinkelmann-likes-received' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-likes-received/0.1.1/resources/locale/en.yml',
 	],
+	'clarkwinkelmann-mailing' => [
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-mailing/0.3.0/resources/locale/en.yml',
+	],
 	'clarkwinkelmann-passwordless' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-passwordless/1.1.0/resources/locale/en.yml',
 	],
@@ -448,9 +451,6 @@ return [
 	],
 	'kilowhat-formulaire' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/kilowhat-formulaire.yml',
-	],
-	'kilowhat-mailing' => [
-		'tag' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-mailing/0.3.0/resources/locale/en.yml',
 	],
 	'kilowhat-wordpress' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/kilowhat-wordpress.yml',
