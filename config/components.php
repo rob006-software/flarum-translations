@@ -450,7 +450,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/kilowhat-formulaire.yml',
 	],
 	'kilowhat-mailing' => [
-		'tag' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-mailing/0.2.3/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-mailing/0.3.0/resources/locale/en.yml',
 	],
 	'kilowhat-wordpress' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/kilowhat-wordpress.yml',
