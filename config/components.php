@@ -90,6 +90,9 @@ return [
 	'clarkwinkelmann-group-invitation' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-group-invitation/0.1.1/resources/locale/en.yml',
 	],
+	'clarkwinkelmann-group-list' => [
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-group-list/0.1.0/resources/locale/en.yml',
+	],
 	'clarkwinkelmann-likes-received' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-likes-received/0.1.1/resources/locale/en.yml',
 	],
