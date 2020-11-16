@@ -1,5 +1,5 @@
 {
-    "kilowhat-mailing": {
+    "clarkwinkelmann-mailing": {
         "admin": {
             "permissions": {
                 "mail_individual": "Wysyłanie wiadomości e-mail do indywidualnych użytkowników",
@@ -16,7 +16,7 @@
                 "recipients_label": "Adresaci",
                 "recipients_placeholder": "Wpisz innych adresatów...",
                 "subject_label": "Temat",
-                "default_subject": "=> kilowhat-mailing.ref.default_subject",
+                "default_subject": "=> clarkwinkelmann-mailing.ref.default_subject",
                 "message_label": "Wiadomość",
                 "submit_button": "Wyślij"
             },
@@ -34,7 +34,7 @@
             "no_recipients": "Nie znaleziono pasujących adresatów"
         },
         "email": {
-            "default_subject": "=> kilowhat-mailing.ref.default_subject"
+            "default_subject": "=> clarkwinkelmann-mailing.ref.default_subject"
         },
         "ref": {
             "default_subject": "Wiadomość od administratora forum"

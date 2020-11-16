@@ -1,5 +1,5 @@
 {
-    "kilowhat-mailing": {
+    "clarkwinkelmann-mailing": {
         "admin": {
             "permissions": {
                 "mail_individual": "Tek tek kullanıcılara elektronik posta gönder",
@@ -16,7 +16,7 @@
                 "recipients_label": "Alıcılar",
                 "recipients_placeholder": "Diğer alıcıları yazın...",
                 "subject_label": "Konu",
-                "default_subject": "=> kilowhat-mailing.ref.default_subject",
+                "default_subject": "=> clarkwinkelmann-mailing.ref.default_subject",
                 "message_label": "Mesaj",
                 "submit_button": "Gönder",
                 "email_label": "Alıcı"
@@ -35,7 +35,7 @@
             "no_recipients": "Hiçbir alıcı eşleşmedi"
         },
         "email": {
-            "default_subject": "=> kilowhat-mailing.ref.default_subject"
+            "default_subject": "=> clarkwinkelmann-mailing.ref.default_subject"
         },
         "ref": {
             "default_subject": "Forum yönetiminden mesaj"
