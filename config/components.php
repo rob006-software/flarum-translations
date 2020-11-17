@@ -88,7 +88,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-first-post-approval/0.1.2/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-group-invitation' => [
-		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-group-invitation/0.1.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-group-invitation/0.1.2/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-group-list' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-group-list/0.1.0/resources/locale/en.yml',
