@@ -124,7 +124,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/datitisev-backup.yml',
 	],
 	'datitisev-dashboard' => [
-		'tag' => 'https://raw.githubusercontent.com/datitisev/flarum-ext-dashboard/v0.1.0-beta.8.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/datitisev/flarum-ext-dashboard/v0.1.0-beta.9.1/resources/locale/en.yml',
 	],
 	'datitisev-maintenance' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/datitisev-maintenance.yml',
