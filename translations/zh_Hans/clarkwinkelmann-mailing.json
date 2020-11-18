@@ -3,7 +3,7 @@
         "admin": {
             "permissions": {
                 "mail_individual": "向用户单独发送邮件",
-                "mail_all": "向用户群发邮件"
+                "mail_all": "向用户或组群发邮件"
             }
         },
         "forum": {
@@ -14,7 +14,7 @@
             "modal_mail": {
                 "title_text": "写信",
                 "recipients_label": "收件人",
-                "recipients_placeholder": "输入其他收件人...",
+                "recipients_placeholder": "添加其他收件人……",
                 "subject_label": "主题",
                 "default_subject": "=> clarkwinkelmann-mailing.ref.default_subject",
                 "message_label": "正文",
@@ -22,7 +22,7 @@
             },
             "modal_sent": {
                 "title_text": "已发送！",
-                "on_its_way": "Nice！您的邮件正在发送给 {recipientsCount} 个收件人！"
+                "on_its_way": "Nice！您的邮件正在发送给 {recipientsCount} 位收件人！"
             },
             "recipient_kinds": {
                 "user": "用户",
