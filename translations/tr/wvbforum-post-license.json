@@ -2,27 +2,27 @@
     "wvbforum-post-license": {
         "admin": {
             "settings": {
-                "title": "",
+                "title": "Gönderi Lisansı ayarları",
                 "field": {
-                    "require-license": "",
-                    "allow-custom-license": "",
-                    "enabled-licenses": "",
-                    "filter-licenses": ""
+                    "require-license": "Kullanıcıların bir lisans seçmesini zorunlu kılın",
+                    "allow-custom-license": "Özel lisansa izin ver",
+                    "enabled-licenses": "Lisansları Etkinleştir",
+                    "filter-licenses": "Lisansları filtrele"
                 }
             }
         },
         "forum": {
             "license-meta": {
-                "label": "",
-                "custom": "",
-                "custom-explanation": "",
-                "more": ""
+                "label": "{license} lisansı",
+                "custom": "Özel lisans",
+                "custom-explanation": "Kullanıcı özel lisans kullandı",
+                "more": "Daha fazla detay"
             },
             "license-picker": {
-                "label": "",
-                "select": "",
-                "default": "",
-                "custom": ""
+                "label": "Gönderi lisansı",
+                "select": "Lisans seçin",
+                "default": "Varsayılan lisansı kullan",
+                "custom": "Özel bir lisans kullan"
             }
         }
     }
