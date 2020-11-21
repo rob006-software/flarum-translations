@@ -505,7 +505,7 @@
 		<td><a href="https://weblate.rob006.net/projects/flarum/fof-share-social/tr/"><img src="https://weblate.rob006.net/widgets/flarum/tr/fof-share-social/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/FriendsOfFlarum/ads" title="flagrow/ads"><code>flagrow/ads</code></a></td>
+		<td><a href="https://github.com/flagrow/ads" title="flagrow/ads"><code>flagrow/ads</code></a></td>
 		<td align="center">62<br /><img src="https://img.shields.io/badge/-%2B7-red" alt="+7" title="Change from last week"></td>
 		<td align="center"><a href="https://packagist.org/packages/flagrow/ads/stats">7054<br /><img src="https://img.shields.io/badge/-%2B32-brightgreen" alt="+32" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/flagrow/ads/stats">109<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
