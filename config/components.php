@@ -243,7 +243,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarumite/simple-discussion-views/0.2.0/resources/locale/en.yml',
 	],
 	'fof-amazon-affiliation' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/amazon-affiliation/0.2.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/amazon-affiliation/0.3.0/resources/locale/en.yml',
 	],
 	'fof-analytics' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/analytics/0.10.0/resources/locale/en.yml',
