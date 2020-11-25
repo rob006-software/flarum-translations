@@ -37,9 +37,12 @@
             },
             "tags": {
                 "about_tags_text": "Etiketler tartışmaları kategorilere ayırmak için kullanılır. Birincil etiketler geleneksel forum kategorileri gibidir: iki seviyeli bir hiyerarşide düzenlenebilirler. İkincil etiketler hiyerarşi veya sıraya sahip değildir ve mikro kategorilere ayırmak için kullanışlıdır.",
-                "create_tag_button": "=> flarum-tags.ref.create_tag",
+                "create_primary_tag_button": "",
+                "create_secondary_tag_button": "",
                 "primary_heading": "Birincil Etiketler",
                 "secondary_heading": "İkincil Etiketler",
+                "settings_heading": "",
+                "create_tag_button": "=> flarum-tags.ref.create_tag",
                 "settings_button": "Ayarlar"
             }
         },
@@ -83,9 +86,9 @@
             "deleted_tag_text": "Silindi"
         },
         "ref": {
-            "create_tag": "Etiket Oluştur",
             "name": "İsim",
-            "tags": "Etiketler"
+            "tags": "Etiketler",
+            "create_tag": "Etiket Oluştur"
         }
     }
 }

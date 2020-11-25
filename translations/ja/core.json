@@ -1,12 +1,6 @@
 {
     "core": {
         "admin": {
-            "add_extension": {
-                "developer_text": "開発者の方へ。<a>ドキュメントを読んで</a>、オリジナルの拡張機能を作成することが可能です。",
-                "install_text": "また、<a>Flarum Community site</a>で拡張機能を探し、Composerを使って手動でインストールすることも可能です。",
-                "temporary_text": "近い将来、このダイアログを使って簡単にフォーラムへ拡張機能を追加できるようになります。現在システムを構築中！",
-                "title": "拡張機能を追加"
-            },
             "appearance": {
                 "colored_header_label": "カラーヘッダー",
                 "colors_heading": "カラー",
@@ -18,6 +12,7 @@
                 "custom_styles_heading": "カスタムスタイル",
                 "custom_styles_text": "LESS/CSS コードを追加して、ユーザー定義のフォーラムの外観にします。この設定は Flarm のデフォルトスタイルをカバーします。",
                 "dark_mode_label": "ダークモード",
+                "description": "",
                 "edit_css_button": "カスタム CSS を編集",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
@@ -26,11 +21,13 @@
                 "favicon_text": "ショートカットアイコン用の画像をアップロード",
                 "logo_heading": "ロゴ",
                 "logo_text": "タイトル用の画像をアップロード",
-                "submit_button": "=> core.ref.save_changes"
+                "submit_button": "=> core.ref.save_changes",
+                "title": ""
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "デフォルト言語",
+                "description": "",
                 "display_name_heading": "ユーザーの表示名",
                 "display_name_text": "",
                 "forum_description_heading": "フォーラムの説明",
@@ -41,11 +38,14 @@
                 "saved_message": "変更が保存されました。",
                 "show_language_selector_label": "言語選択を表示する",
                 "submit_button": "=> core.ref.save_changes",
+                "title": "",
                 "welcome_banner_heading": "ウェルカムバナー",
                 "welcome_banner_text": "フォーラムにやってきたユーザーにウェルカムを表示しましょう。「全てのスレッド」のページにこの文が出力されます。"
             },
             "dashboard": {
                 "clear_cache_button": "キャッシュをクリア",
+                "description": "",
+                "title": "",
                 "tools_button": "ツール"
             },
             "edit_css": {
@@ -78,10 +78,10 @@
             },
             "email": {
                 "addresses_heading": "アドレス",
+                "description": "",
                 "driver_heading": "ドライブ",
                 "driver_label": "メールドライブ",
                 "from_label": "メールアドレス",
-                "heading": "=> core.ref.email",
                 "mail_encryption_label": "暗号化方式（ssl/tls）",
                 "mail_host_label": "ホスト",
                 "mail_mailgun_domain_label": "ドメイン名",
@@ -98,20 +98,38 @@
                 "send_test_mail_text": "",
                 "smtp_heading": "SMTP 設定",
                 "submit_button": "=> core.ref.save_changes",
-                "text": "メール送信用のSMTP情報を設定します。",
+                "title": "",
+                "heading": "=> core.ref.email",
                 "mail_mandrill_secret_label": "Secret key",
                 "mail_ses_key_label": "Key",
                 "mail_ses_region_label": "地域",
                 "mail_ses_secret_label": "Secret",
                 "mandrill_heading": "Mandrill 設定",
-                "ses_heading": "SES 設定"
+                "ses_heading": "SES 設定",
+                "text": "メール送信用のSMTP情報を設定します。"
             },
-            "extensions": {
-                "add_button": "拡張機能を追加",
-                "settings_button": "=> core.ref.settings",
-                "uninstall_button": "アンインストール"
+            "extension": {
+                "confirm_uninstall": "",
+                "disabled": "",
+                "enabled": "",
+                "enable_to_see": "",
+                "info_links": {
+                    "discuss": "",
+                    "documentation": "",
+                    "donate": "",
+                    "source": "",
+                    "support": "",
+                    "website": ""
+                },
+                "no_permissions": "",
+                "no_settings": "",
+                "open_modal": "",
+                "permissions_title": "",
+                "saved_message": "",
+                "uninstall_button": ""
             },
             "header": {
+                "get_help": "",
                 "log_out_button": "=> core.ref.log_out"
             },
             "loading": {
@@ -119,16 +137,32 @@
             },
             "nav": {
                 "appearance_button": "外観",
-                "appearance_text": "ユーザー定義のフォーラムの色調、アイコン、その他の要素",
+                "appearance_title": "",
                 "basics_button": "基本設定",
-                "basics_text": "フォーラム名、言語、その他の全般設定を設定します。",
+                "basics_title": "",
+                "categories": {
+                    "authentication": "",
+                    "discussion": "",
+                    "feature": "",
+                    "formatting": "",
+                    "language": "",
+                    "moderation": "",
+                    "other": "",
+                    "theme": ""
+                },
                 "dashboard_button": "ダッシュボード",
-                "dashboard_text": "フォーラムのデータ概要",
+                "dashboard_title": "",
                 "email_button": "=> core.ref.email",
+                "email_title": "",
+                "permissions_button": "権限",
+                "permissions_title": "",
+                "search_placeholder": "",
+                "appearance_text": "ユーザー定義のフォーラムの色調、アイコン、その他の要素",
+                "basics_text": "フォーラム名、言語、その他の全般設定を設定します。",
+                "dashboard_text": "フォーラムのデータ概要",
                 "email_text": "フォーラムのメールボックス設定を構成する",
                 "extensions_button": "プラグイン",
                 "extensions_text": "あなたのフォーラムのために追加の機能を追加します",
-                "permissions_button": "権限",
                 "permissions_text": "ユーザーアクセスと操作権限の設定",
                 "advanced_button": "シニア",
                 "advanced_text": "上級ユーザー向けの設定を構成します。"
@@ -141,6 +175,7 @@
                 "delete_discussions_label": "スレッドを削除",
                 "delete_posts_forever_label": "投稿を完全に削除",
                 "delete_posts_label": "投稿を削除",
+                "description": "",
                 "edit_posts_label": "投稿を編集",
                 "edit_users_label": "ユーザーを編集",
                 "global_heading": "全体",
@@ -153,6 +188,7 @@
                 "reply_to_discussions_label": "返信",
                 "sign_up_label": "サインアップ",
                 "start_discussions_label": "书き込み",
+                "title": "",
                 "view_discussions_label": "スレッドを閲覧",
                 "view_hidden_groups_label": "隠されたユーザーグループのバッジを表示",
                 "view_last_seen_at_label": "ユーザーの最後に見た時間の閲覧",
@@ -175,6 +211,17 @@
             "upload_image": {
                 "remove_button": "=> core.ref.remove",
                 "upload_button": "写真を選択..."
+            },
+            "add_extension": {
+                "developer_text": "開発者の方へ。<a>ドキュメントを読んで</a>、オリジナルの拡張機能を作成することが可能です。",
+                "install_text": "また、<a>Flarum Community site</a>で拡張機能を探し、Composerを使って手動でインストールすることも可能です。",
+                "temporary_text": "近い将来、このダイアログを使って簡単にフォーラムへ拡張機能を追加できるようになります。現在システムを構築中！",
+                "title": "拡張機能を追加"
+            },
+            "extensions": {
+                "add_button": "拡張機能を追加",
+                "settings_button": "=> core.ref.settings",
+                "uninstall_button": "アンインストール"
             },
             "advanced": {
                 "help_text": "これらの設定は上級ユーザー向けであることに注意してください",

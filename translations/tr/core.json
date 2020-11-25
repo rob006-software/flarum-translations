@@ -1,12 +1,6 @@
 {
     "core": {
         "admin": {
-            "add_extension": {
-                "developer_text": "Geliştirici isen, <a>dokümanları okuyabilir</a> ve kendi uzantılarını oluşturmaya devam edebilirsin.",
-                "install_text": "Bu arada, <a>Flarum Topluluğu sitesinde</a> uzantıları arayabilir ve bunları Composer kullanarak manuel olarak yükleyebilirsin.",
-                "temporary_text": "Çok uzak olmayan bir gelecekte bir gün, bu iletişim kutusu forumunuza kolaylıkla bir uzantı eklemeni sağlayacak. Konuştuğumuz gibi bir ekosistem inşa ediyoruz!",
-                "title": "Uzantı Ekle"
-            },
             "appearance": {
                 "colored_header_label": "Renkli Üstbilgi",
                 "colors_heading": "Renkler",
@@ -18,6 +12,7 @@
                 "custom_styles_heading": "Özel Stiller",
                 "custom_styles_text": "Flarum'un varsayılan stillerine uygulanacak kendi LESS/CSS kodunu ekleyerek forumunun görünümünü özelleştir.",
                 "dark_mode_label": "Karanlık Mod",
+                "description": "",
                 "edit_css_button": "Özel CSS’i Düzenle",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
@@ -26,11 +21,13 @@
                 "favicon_text": "Forumun kısayol simgesi olarak görüntülenecek bir resim yükleyin.",
                 "logo_heading": "Logo",
                 "logo_text": "Forum başlığının yerine görüntülenecek bir resim yükle.",
-                "submit_button": "=> core.ref.save_changes"
+                "submit_button": "=> core.ref.save_changes",
+                "title": ""
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "Varsayılan Dil",
+                "description": "",
                 "display_name_heading": "Görünen Kullanıcı Adı",
                 "display_name_text": "Kullanıcıların görünen adları için kullanılması gereken tercihi seçin. Varsayılan olarak kullanıcı adı gösterilir.",
                 "forum_description_heading": "Forum Açıklaması",
@@ -41,11 +38,14 @@
                 "saved_message": "Değişikliklerin kaydedildi.",
                 "show_language_selector_label": "Dil seçiciyi göster",
                 "submit_button": "=> core.ref.save_changes",
+                "title": "",
                 "welcome_banner_heading": "Hoşgeldiniz Mesajı",
                 "welcome_banner_text": "Tüm Tartışmalar sayfasında görünecek karşılama yazısını ayarla. Ziyaretçileri karşılamak için bunu kullan."
             },
             "dashboard": {
                 "clear_cache_button": "Önbelleği Temizle",
+                "description": "",
+                "title": "",
                 "tools_button": "Araçlar"
             },
             "edit_css": {
@@ -78,10 +78,10 @@
             },
             "email": {
                 "addresses_heading": "Adresler",
+                "description": "",
                 "driver_heading": "Sürücü Seç",
                 "driver_label": "Sürücü",
                 "from_label": "Gönderen",
-                "heading": "=> core.ref.email",
                 "mail_encryption_label": "Şifreleme",
                 "mail_host_label": "Sunucu",
                 "mail_mailgun_domain_label": "Alanadı",
@@ -98,20 +98,38 @@
                 "send_test_mail_text": "Bu, yukarıdaki yapılandırma ayarları ile {email} adresine gönderilecektir.",
                 "smtp_heading": "SMTP Ayarları",
                 "submit_button": "=> core.ref.save_changes",
-                "text": "Forumunun e-posta göndermesi için sürücüyü, ayarları ve adresleri ayarla.",
+                "title": "",
+                "heading": "=> core.ref.email",
                 "mail_mandrill_secret_label": "Gizli anahtar",
                 "mail_ses_key_label": "Anahtar",
                 "mail_ses_region_label": "Bölge",
                 "mail_ses_secret_label": "Gizli",
                 "mandrill_heading": "Mandrill Ayarları",
-                "ses_heading": "SES Ayarları"
+                "ses_heading": "SES Ayarları",
+                "text": "Forumunun e-posta göndermesi için sürücüyü, ayarları ve adresleri ayarla."
             },
-            "extensions": {
-                "add_button": "Uzantı Ekle",
-                "settings_button": "=> core.ref.settings",
-                "uninstall_button": "Yüklemeyi Kaldır"
+            "extension": {
+                "confirm_uninstall": "",
+                "disabled": "",
+                "enabled": "",
+                "enable_to_see": "",
+                "info_links": {
+                    "discuss": "",
+                    "documentation": "",
+                    "donate": "",
+                    "source": "",
+                    "support": "",
+                    "website": ""
+                },
+                "no_permissions": "",
+                "no_settings": "",
+                "open_modal": "",
+                "permissions_title": "",
+                "saved_message": "",
+                "uninstall_button": ""
             },
             "header": {
+                "get_help": "",
                 "log_out_button": "=> core.ref.log_out"
             },
             "loading": {
@@ -119,16 +137,32 @@
             },
             "nav": {
                 "appearance_button": "Görünüm",
-                "appearance_text": "Forumunun renklerini, logolarını ve diğer değişkenlerini özelleştir.",
+                "appearance_title": "",
                 "basics_button": "Temel Öğeler",
-                "basics_text": "Forum başlığını, dilini ve diğer temel ayarları yap.",
+                "basics_title": "",
+                "categories": {
+                    "authentication": "",
+                    "discussion": "",
+                    "feature": "",
+                    "formatting": "",
+                    "language": "",
+                    "moderation": "",
+                    "other": "",
+                    "theme": ""
+                },
                 "dashboard_button": "Gösterge Paneli",
-                "dashboard_text": "Bir bakışta forumun.",
+                "dashboard_title": "",
                 "email_button": "=> core.ref.email",
+                "email_title": "",
+                "permissions_button": "İzinler",
+                "permissions_title": "",
+                "search_placeholder": "",
+                "appearance_text": "Forumunun renklerini, logolarını ve diğer değişkenlerini özelleştir.",
+                "basics_text": "Forum başlığını, dilini ve diğer temel ayarları yap.",
+                "dashboard_text": "Bir bakışta forumun.",
                 "email_text": "Forumunun e-posta ayarlarını yapılandır.",
                 "extensions_button": "Uzantılar",
                 "extensions_text": "Forumunuza ekstra işlevsellikler ekleyin ve özelleştirin.",
-                "permissions_button": "İzinler",
                 "permissions_text": "Kimlerin görebileceğini ve ne yapabileceğini yapılandırın."
             },
             "permissions": {
@@ -139,6 +173,7 @@
                 "delete_discussions_label": "Tartışmaları sil",
                 "delete_posts_forever_label": "Gönderileri kalıcı olarak sil",
                 "delete_posts_label": "Gönderileri sil",
+                "description": "",
                 "edit_posts_label": "Gönderileri düzenle",
                 "edit_users_label": "Kullanıcıları düzenle",
                 "global_heading": "Genel",
@@ -151,6 +186,7 @@
                 "reply_to_discussions_label": "Tartışmalara yanıt ver",
                 "sign_up_label": "Kaydol",
                 "start_discussions_label": "Tartışmalar başlat",
+                "title": "",
                 "view_discussions_label": "Tartışmalar görüntüle",
                 "view_hidden_groups_label": "Gizli kullanıcı grubu rozetlerini göster",
                 "view_last_seen_at_label": "Son görülme zamanını görüntüle",
@@ -173,6 +209,17 @@
             "upload_image": {
                 "remove_button": "=> core.ref.remove",
                 "upload_button": "Bir görüntü seç..."
+            },
+            "add_extension": {
+                "developer_text": "Geliştirici isen, <a>dokümanları okuyabilir</a> ve kendi uzantılarını oluşturmaya devam edebilirsin.",
+                "install_text": "Bu arada, <a>Flarum Topluluğu sitesinde</a> uzantıları arayabilir ve bunları Composer kullanarak manuel olarak yükleyebilirsin.",
+                "temporary_text": "Çok uzak olmayan bir gelecekte bir gün, bu iletişim kutusu forumunuza kolaylıkla bir uzantı eklemeni sağlayacak. Konuştuğumuz gibi bir ekosistem inşa ediyoruz!",
+                "title": "Uzantı Ekle"
+            },
+            "extensions": {
+                "add_button": "Uzantı Ekle",
+                "settings_button": "=> core.ref.settings",
+                "uninstall_button": "Yüklemeyi Kaldır"
             }
         },
         "forum": {

@@ -1,12 +1,6 @@
 {
     "core": {
         "admin": {
-            "add_extension": {
-                "developer_text": "Jeśli jesteś deweloperem, możesz <a>zapoznać się z dokumentacją</a> i rozpocząć pracę nad własnymi rozszerzeniami.",
-                "install_text": "W międzyczasie możesz poszukać rozszerzeń na <a>stronie Flarum Community</a> i zainstalować je ręcznie przy użyciu Composera.",
-                "temporary_text": "Pewnego dnia, w niedalekiej przyszłości, to okienko pozwoli Ci na łatwe i szybkie dodanie rozszerzenia do Twojego forum. Budujemy ekosystem!",
-                "title": "Dodaj rozszerzenie"
-            },
             "appearance": {
                 "colored_header_label": "Kolorowy nagłówek",
                 "colors_heading": "Kolory",
@@ -18,6 +12,7 @@
                 "custom_styles_heading": "Niestandardowe style",
                 "custom_styles_text": "Edytuj wygląd swojego forum poprzez dodawanie swojego własnego kodu LESS/CSS, który będzie dodany nad domyślnymi stylami Flarum.",
                 "dark_mode_label": "Ciemny motyw",
+                "description": "",
                 "edit_css_button": "Edytuj niestandardowy CSS",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
@@ -26,11 +21,13 @@
                 "favicon_text": "Wyślij obrazek, który będzie wyświetlany jako ikona forum.",
                 "logo_heading": "Logo",
                 "logo_text": "Wyślij obrazek, który będzie wyświetlany jako logo w miejscu nazwy forum.",
-                "submit_button": "=> core.ref.save_changes"
+                "submit_button": "=> core.ref.save_changes",
+                "title": ""
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "Domyślny język",
+                "description": "",
                 "display_name_heading": "Wyświetlana nazwa użytkownika",
                 "display_name_text": "Wybierz sterownik, który powinien być używany do wyświetlania nazw użytkowników. Domyślnie wyświetlana jest nazwa użytkownika.",
                 "forum_description_heading": "Opis forum",
@@ -41,11 +38,14 @@
                 "saved_message": "Twoje zmiany zostały zapisane.",
                 "show_language_selector_label": "Pokazuj menu wyboru języka",
                 "submit_button": "=> core.ref.save_changes",
+                "title": "",
                 "welcome_banner_heading": "Baner powitalny",
                 "welcome_banner_text": "Skonfiguruj tekst, który wyświetla się w banerze na stronie \"Wszystkie dyskusje\". Użyj go, aby powitać gości na swoim forum."
             },
             "dashboard": {
                 "clear_cache_button": "Wyczyść cache",
+                "description": "",
+                "title": "",
                 "tools_button": "Narzędzia"
             },
             "edit_css": {
@@ -78,10 +78,10 @@
             },
             "email": {
                 "addresses_heading": "Adresy",
+                "description": "",
                 "driver_heading": "Wybierz sterownik (driver)",
                 "driver_label": "Sterownik (driver)",
                 "from_label": "Nadawca",
-                "heading": "=> core.ref.email",
                 "mail_encryption_label": "Szyfrowanie (encryption)",
                 "mail_host_label": "Host",
                 "mail_mailgun_domain_label": "Domena",
@@ -98,20 +98,38 @@
                 "send_test_mail_text": "Wiadomość zostanie wysłana przy użyciu powyższej konfiguracji na Twój adres e-mail, {email}.",
                 "smtp_heading": "Ustawienia SMTP",
                 "submit_button": "=> core.ref.save_changes",
-                "text": "Skonfiguruj sterownik, ustawienia i adresy, z których Twoje forum będzie korzystać podczas wysyłania wiadomości e-mail.",
+                "title": "",
+                "heading": "=> core.ref.email",
                 "mail_mandrill_secret_label": "Secret key",
                 "mail_ses_key_label": "Key",
                 "mail_ses_region_label": "Region",
                 "mail_ses_secret_label": "Secret",
                 "mandrill_heading": "Ustawienia Mandrilla",
-                "ses_heading": "Ustawienia SES"
+                "ses_heading": "Ustawienia SES",
+                "text": "Skonfiguruj sterownik, ustawienia i adresy, z których Twoje forum będzie korzystać podczas wysyłania wiadomości e-mail."
             },
-            "extensions": {
-                "add_button": "Dodaj rozszerzenie",
-                "settings_button": "=> core.ref.settings",
-                "uninstall_button": "Odinstaluj"
+            "extension": {
+                "confirm_uninstall": "",
+                "disabled": "",
+                "enabled": "",
+                "enable_to_see": "",
+                "info_links": {
+                    "discuss": "",
+                    "documentation": "",
+                    "donate": "",
+                    "source": "",
+                    "support": "",
+                    "website": ""
+                },
+                "no_permissions": "",
+                "no_settings": "",
+                "open_modal": "",
+                "permissions_title": "",
+                "saved_message": "",
+                "uninstall_button": ""
             },
             "header": {
+                "get_help": "",
                 "log_out_button": "=> core.ref.log_out"
             },
             "loading": {
@@ -119,16 +137,32 @@
             },
             "nav": {
                 "appearance_button": "Wygląd forum",
-                "appearance_text": "Dostosuj kolory, logo oraz inne ustawienia swojego forum.",
+                "appearance_title": "",
                 "basics_button": "Podstawowe",
-                "basics_text": "Ustaw tytuł, język oraz inne podstawowe ustawienia swojego forum.",
+                "basics_title": "",
+                "categories": {
+                    "authentication": "",
+                    "discussion": "",
+                    "feature": "",
+                    "formatting": "",
+                    "language": "",
+                    "moderation": "",
+                    "other": "",
+                    "theme": ""
+                },
                 "dashboard_button": "Kokpit",
-                "dashboard_text": "Podstawowe informacje dotyczące forum.",
+                "dashboard_title": "",
                 "email_button": "=> core.ref.email",
+                "email_title": "",
+                "permissions_button": "Uprawnienia",
+                "permissions_title": "",
+                "search_placeholder": "",
+                "appearance_text": "Dostosuj kolory, logo oraz inne ustawienia swojego forum.",
+                "basics_text": "Ustaw tytuł, język oraz inne podstawowe ustawienia swojego forum.",
+                "dashboard_text": "Podstawowe informacje dotyczące forum.",
                 "email_text": "Skonfiguruj ustawienia wysyłki wiadomości e-mail.",
                 "extensions_button": "Rozszerzenia",
                 "extensions_text": "Dodaj dodatkowe funkcje do forum i dostosuj je pod siebie.",
-                "permissions_button": "Uprawnienia",
                 "permissions_text": "Skonfiguruj uprawnienia użytkowników i grup."
             },
             "permissions": {
@@ -139,6 +173,7 @@
                 "delete_discussions_label": "Usuwanie dyskusji",
                 "delete_posts_forever_label": "Usuwanie postów na zawsze",
                 "delete_posts_label": "Usuwanie postów",
+                "description": "",
                 "edit_posts_label": "Edytowanie postów",
                 "edit_users_label": "Edytowanie użytkowników",
                 "global_heading": "Globalne",
@@ -151,6 +186,7 @@
                 "reply_to_discussions_label": "Odpowiadanie w dyskusji",
                 "sign_up_label": "Rejestracja",
                 "start_discussions_label": "Rozpoczynanie dyskusji",
+                "title": "",
                 "view_discussions_label": "Przeglądanie dyskusji",
                 "view_hidden_groups_label": "Przeglądanie etykiet ukrytych grup",
                 "view_last_seen_at_label": "Dostęp do daty ostatniej wizyty użytkownika",
@@ -173,6 +209,17 @@
             "upload_image": {
                 "remove_button": "=> core.ref.remove",
                 "upload_button": "Wybierz obrazek..."
+            },
+            "add_extension": {
+                "developer_text": "Jeśli jesteś deweloperem, możesz <a>zapoznać się z dokumentacją</a> i rozpocząć pracę nad własnymi rozszerzeniami.",
+                "install_text": "W międzyczasie możesz poszukać rozszerzeń na <a>stronie Flarum Community</a> i zainstalować je ręcznie przy użyciu Composera.",
+                "temporary_text": "Pewnego dnia, w niedalekiej przyszłości, to okienko pozwoli Ci na łatwe i szybkie dodanie rozszerzenia do Twojego forum. Budujemy ekosystem!",
+                "title": "Dodaj rozszerzenie"
+            },
+            "extensions": {
+                "add_button": "Dodaj rozszerzenie",
+                "settings_button": "=> core.ref.settings",
+                "uninstall_button": "Odinstaluj"
             }
         },
         "forum": {
