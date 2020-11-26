@@ -12,7 +12,7 @@
                 "custom_styles_heading": "自定义样式",
                 "custom_styles_text": "添加 LESS/CSS 代码以自定义论坛外观样式，此设置将覆盖 Flarum 默认样式。",
                 "dark_mode_label": "夜间模式",
-                "description": "",
+                "description": "自定义论坛色调、图标以及其他元素",
                 "edit_css_button": "编辑自定义 CSS",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
@@ -22,12 +22,12 @@
                 "logo_heading": "Logo",
                 "logo_text": "上传图片代替论坛名称，并展示在导航栏左侧。",
                 "submit_button": "=> core.ref.save_changes",
-                "title": ""
+                "title": "常规"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "默认语言",
-                "description": "",
+                "description": "设置论坛名称、语言以及其他基础设置",
                 "display_name_heading": "用户外显昵称",
                 "display_name_text": "选择外显昵称的种类，默认为用户名。",
                 "forum_description_heading": "论坛描述",
@@ -38,14 +38,14 @@
                 "saved_message": "您的更改已保存",
                 "show_language_selector_label": "显示选择语言菜单",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "",
+                "title": "常规",
                 "welcome_banner_heading": "欢迎横幅",
                 "welcome_banner_text": "横幅文本将显示于「全部主题」页面顶部，可以用于欢迎论坛访客。"
             },
             "dashboard": {
                 "clear_cache_button": "清除缓存",
-                "description": "",
-                "title": "",
+                "description": "论坛各项数据一览",
+                "title": "仪表盘",
                 "tools_button": "工具"
             },
             "edit_css": {
@@ -78,7 +78,7 @@
             },
             "email": {
                 "addresses_heading": "地址",
-                "description": "",
+                "description": "配置论坛邮件服务",
                 "driver_heading": "驱动",
                 "driver_label": "邮件驱动",
                 "from_label": "发件地址",
@@ -98,7 +98,7 @@
                 "send_test_mail_text": "这将会使用上述设置发送发送邮件到您的邮箱，{email}。",
                 "smtp_heading": "SMTP 设置",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "",
+                "title": "=> core.ref.email",
                 "heading": "=> core.ref.email",
                 "mail_mandrill_secret_label": "Secret key",
                 "mail_ses_key_label": "Key",
@@ -109,60 +109,60 @@
                 "text": "配置论坛发信服务方式。"
             },
             "extension": {
-                "confirm_uninstall": "",
-                "disabled": "",
-                "enabled": "",
-                "enable_to_see": "",
+                "confirm_uninstall": "该扩展程序相关的数据库内容和文件资源将被永久性删除。确定要卸载吗？",
+                "disabled": "关闭",
+                "enabled": "开启",
+                "enable_to_see": "开启扩展程序以查看或变更设置。",
                 "info_links": {
-                    "discuss": "",
-                    "documentation": "",
-                    "donate": "",
-                    "source": "",
-                    "support": "",
-                    "website": ""
+                    "discuss": "讨论帖",
+                    "documentation": "文档",
+                    "donate": "捐助",
+                    "source": "源码",
+                    "support": "支持",
+                    "website": "网站"
                 },
-                "no_permissions": "",
-                "no_settings": "",
-                "open_modal": "",
-                "permissions_title": "",
-                "saved_message": "",
-                "uninstall_button": ""
+                "no_permissions": "无权限项",
+                "no_settings": "无设置项",
+                "open_modal": "打开设置",
+                "permissions_title": "权限",
+                "saved_message": "您的修改已保存。",
+                "uninstall_button": "卸载"
             },
             "header": {
-                "get_help": "",
+                "get_help": "求助",
                 "log_out_button": "=> core.ref.log_out"
             },
             "loading": {
-                "title": "请稍候..."
+                "title": "请稍后……"
             },
             "nav": {
                 "appearance_button": "外观",
-                "appearance_title": "",
+                "appearance_title": "=> core.admin.appearence.description",
                 "basics_button": "常规",
-                "basics_title": "",
+                "basics_title": "=> core.admin.basics.description",
                 "categories": {
-                    "authentication": "",
-                    "discussion": "",
-                    "feature": "",
-                    "formatting": "",
-                    "language": "",
-                    "moderation": "",
-                    "other": "",
-                    "theme": ""
+                    "authentication": "认证",
+                    "discussion": "主题",
+                    "feature": "功能",
+                    "formatting": "格式化",
+                    "language": "语言包",
+                    "moderation": "内容审核",
+                    "other": "其他类型",
+                    "theme": "主题样式"
                 },
                 "dashboard_button": "概览",
-                "dashboard_title": "",
+                "dashboard_title": "=> core.admin.dashboard.description",
                 "email_button": "=> core.ref.email",
-                "email_title": "",
+                "email_title": "=> core.admin.email.description",
                 "permissions_button": "权限",
-                "permissions_title": "",
-                "search_placeholder": "",
+                "permissions_title": "=> core.admin.permissions.description",
+                "search_placeholder": "搜索扩展程序",
                 "appearance_text": "自定义论坛色调、图标以及其他元素。",
                 "basics_text": "设置论坛名称、语言以及其他常规设置",
                 "dashboard_text": "论坛统计数据概览",
                 "email_text": "配置论坛邮件服务",
-                "extensions_button": "插件",
-                "extensions_text": "为您的论坛添加插件",
+                "extensions_button": "扩展程序",
+                "extensions_text": "为您的论坛添加额外的功能",
                 "permissions_text": "设置各用户组访问及操作权限",
                 "advanced_button": "高级",
                 "advanced_text": "配置专门针对高级用户的设置。"
@@ -175,7 +175,7 @@
                 "delete_discussions_label": "删除主题",
                 "delete_posts_forever_label": "永久删除回复",
                 "delete_posts_label": "删除回复",
-                "description": "",
+                "description": "设置各用户组访问及操作权限",
                 "edit_posts_label": "编辑回复",
                 "edit_users_label": "编辑用户",
                 "global_heading": "全局",
@@ -188,7 +188,7 @@
                 "reply_to_discussions_label": "回复",
                 "sign_up_label": "注册",
                 "start_discussions_label": "发布主题",
-                "title": "",
+                "title": "权限",
                 "view_discussions_label": "查看主题",
                 "view_hidden_groups_label": "查看隐藏的用户组徽章",
                 "view_last_seen_at_label": "查看用户上次在线时间",
@@ -213,13 +213,13 @@
                 "upload_button": "选择图片..."
             },
             "add_extension": {
-                "developer_text": "如果您是开发者，您可以阅读<a>开发文档</a>自行开发新的插件。",
-                "install_text": "同时，您可以在 <a>Flarum 社区</a>搜索插件，并通过 Composer 手动安装。",
-                "temporary_text": "不远的将来，这里将能更便捷地添加扩展插件。正如我们所说，我们正在建立一套生态系统！",
-                "title": "添加插件"
+                "developer_text": "如果您是一个开发者，您可以阅读<a>开发文档</a>自行开发扩展程序。",
+                "install_text": "同时，您可以在 <a>Flarum 社区</a>搜索扩展程序，并通过 Composer 手动安装。",
+                "temporary_text": "在不远的将来，这里将为您提供添加扩展程序的便捷途径。如我们所说，我们正在建立一套生态系统！",
+                "title": "添加扩展程序"
             },
             "extensions": {
-                "add_button": "添加插件",
+                "add_button": "添加扩展程序",
                 "settings_button": "=> core.ref.settings",
                 "uninstall_button": "卸载"
             },
