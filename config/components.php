@@ -531,7 +531,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-tags-color-generator/v1.2.0/resources/locale/en.yml',
 	],
 	'niclalalla-group-invitation' => [
-		'tag' => 'https://raw.githubusercontent.com/niclalalla/flarum-ext-group-invitation/0.1.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/niclalalla/flarum-ext-group-invitation/1.0.6/resources/locale/en.yml',
 	],
 	'nikovonlas-auth-vk' => [
 		'tag' => 'https://raw.githubusercontent.com/NikoVonLas/flarum-ext-auth-vk/v0.1.0-beta.7/locale/en.yml',
