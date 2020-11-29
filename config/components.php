@@ -584,6 +584,9 @@ return [
 	'studosi-mail-filter' => [
 		'tag' => 'https://raw.githubusercontent.com/studosi-flarum/mail-filter/0.2.0/locale/en.yml',
 	],
+	'sycho-action-log' => [
+		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-action-log/v0.1.0/resources/locale/en.yml',
+	],
 	'sycho-profile-cover' => [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-profile-cover/v1.2.0/resources/locale/en.yml',
 	],
