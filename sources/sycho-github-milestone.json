@@ -1,0 +1,28 @@
+{
+    "sycho-github-milestone": {
+        "admin": {
+            "repository": "GitHub Repository",
+            "repository_example": "example: flarum/core",
+            "milestone": "Milestone ID",
+            "default_filter": "Default Filter",
+            "closed": "=> sycho-github-milestone.ref.closed",
+            "open": "=> sycho-github-milestone.ref.open",
+            "all": "=> sycho-github-milestone.ref.all"
+        },
+        "forum": {
+            "title": "Milestone",
+            "last_updated": "Last updated {time}",
+            "closed": "=> sycho-github-milestone.ref.closed",
+            "open": "=> sycho-github-milestone.ref.open",
+            "all": "=> sycho-github-milestone.ref.all",
+            "complete": "{progress} Complete",
+            "load_more": "=> core.forum.discussion_list.load_more_button",
+            "tasks_done": "{number} of {total}"
+        },
+        "ref": {
+            "closed": "Closed",
+            "open": "Open",
+            "all": "All"
+        }
+    }
+}
