@@ -389,6 +389,9 @@ return [
 	'fof-subscribed' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/subscribed/0.3.0/resources/locale/en.yml',
 	],
+	'fof-taxonomies' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/taxonomies/0.1.0-beta.1/resources/locale/en.yml',
+	],
 	'fof-terms' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/terms/0.5.0/resources/locale/en.yml',
 	],
