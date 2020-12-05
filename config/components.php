@@ -275,6 +275,9 @@ return [
 	'fof-disposable-emails' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/disposable-emails/0.2.0/locale/en.yml',
 	],
+	'fof-doorman' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/doorman/0.2.0/resources/locale/en.yml',
+	],
 	'fof-drafts' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/drafts/0.2.1/resources/locale/en.yml',
 	],
@@ -547,9 +550,6 @@ return [
 	],
 	'reflar-cookie-consent' => [
 		'tag' => 'https://raw.githubusercontent.com/ReFlar/cookie-consent/0.2.0/resources/locale/en.yml',
-	],
-	'reflar-doorman' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/doorman/0.2.0/resources/locale/en.yml',
 	],
 	'reflar-level-ranks' => [
 		'tag' => 'https://raw.githubusercontent.com/ReFlar/level-ranks/1.2.3/resources/locale/en.yml',
