@@ -9,6 +9,7 @@
                 "seeAnyDiscussion": "查看提交的主题帖字段",
                 "create": "创建表单 (beta)",
                 "moderate": "管理所有表单",
+                "export": "",
                 "listForms": "查看未删除的表单列表",
                 "listSubmissions": "查看提交列表"
             },
@@ -179,6 +180,9 @@
                 "form-show": "新提交",
                 "show": "显示",
                 "guest": "访客",
+                "load-more": "",
+                "empty": "",
+                "export": "",
                 "columns": {
                     "date": "日期",
                     "user": "用户",
@@ -194,6 +198,43 @@
                 "denied-description": "您没有访问此内容的权限，请登陆后重试。",
                 "notfound-title": "未找到",
                 "notfound-description": "这个内容不存在，或者您没有访问权限。"
+            },
+            "submission-sort": {
+                "latest": "",
+                "oldest": ""
+            },
+            "export": {
+                "title": "",
+                "format": "",
+                "heading": "",
+                "fields": "",
+                "meta": "",
+                "more-meta": "",
+                "submit": "",
+                "preview": "",
+                "format-options": {
+                    "xlsx": "",
+                    "xls": "",
+                    "ods": "",
+                    "csv": "",
+                    "json": ""
+                },
+                "heading-options": {
+                    "title": "",
+                    "key": "",
+                    "none": ""
+                },
+                "meta-options": {
+                    "uid": "",
+                    "user_id": "",
+                    "user_username": "",
+                    "user_displayname": "",
+                    "link_id": "",
+                    "locked_at": "",
+                    "created_at": "",
+                    "updated_at": "",
+                    "hidden_at": ""
+                }
             }
         },
         "api": {
@@ -203,7 +244,20 @@
             "submission-link-user-invalid": "该用户的用户组与此表单所需的用户组不匹配",
             "submission-link-discussion-invalid": "该主题的标签与此表单所需的标签不匹配",
             "submission-link-already-exists": "链接重复",
-            "cannot-change-form-type": "您不能更改已收到提交内容的表格类型"
+            "cannot-change-form-type": "您不能更改已收到提交内容的表格类型",
+            "export": {
+                "meta": {
+                    "uid": "",
+                    "user_id": "",
+                    "user_username": "",
+                    "user_displayname": "",
+                    "link_id": "",
+                    "locked_at": "",
+                    "created_at": "",
+                    "updated_at": "",
+                    "hidden_at": ""
+                }
+            }
         },
         "mail": {
             "title-your-submission": "{title} 的提交",
