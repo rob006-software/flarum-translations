@@ -482,6 +482,9 @@ return [
 	'kyrne-websocket' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/kyrne-websocket.yml',
 	],
+	'luuhai48-oauth-linkedin' => [
+		'tag' => 'https://raw.githubusercontent.com/luuhai48/oauth-linkedin/v1.0.0/resources/locale/en.yml',
+	],
 	'maicol07-sso' => [
 		'tag' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/1.7/locale/en.yml',
 	],
