@@ -16,6 +16,8 @@
                 "resize": "Wybierz czy chcesz przeskalować obrazki zanim zostaną przesłane. Możesz wybrać maksymalną szerokość i wysokość w pikselach. Proces zmiany rozmiaru zachowa proporcje obrazka.\n",
                 "client_extension": "Domyślnie wtyczka wybierze bezpieczne rozszerzenie dla wysłanego pliku na podstawie typu MIME.\nDla niektórych typów bazujących na ZIP lub plików binarnych, może to skutkować zastąpieniem oryginalnego rozszerzenia na bardziej ogólne.\nTutaj możesz podać listę rozszerzeń (rozdzielonych przecinkami), które mają zostać pozostawione bez zmian.\n",
                 "watermark": "Wybierz, czy obrazki będą miały dodany znak wodny podczas przesyłania. Znaki wodne są dodawane do nie-gifów bazując na Twoich preferencjach poniżej.\n",
+                "s3_compatible_storage": "",
+                "s3_acl": "",
                 "description": "Ustaw usługi i preferencje przesyłania plików.\n"
             },
             "labels": {
@@ -24,7 +26,11 @@
                     "key": "Key",
                     "region": "Region",
                     "secret": "Secret",
-                    "title": "Ustawienia AWS S3"
+                    "title": "Ustawienia AWS S3",
+                    "advanced_title": "",
+                    "endpoint": "",
+                    "use_path_style_endpoint": "",
+                    "acl": ""
                 },
                 "disable-download-logging": {
                     "title": "Wyłącz rejestrowanie pobrań",

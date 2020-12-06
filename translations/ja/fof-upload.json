@@ -16,6 +16,8 @@
                 "resize": "アップロードする前に画像のサイズを変更するかどうかを選択できます。 ピクセル単位で、画像の最大の長さと幅を選択できます。 画像のサイズを変更すると、画像の縦横比が維持されます。\n",
                 "client_extension": "",
                 "watermark": "写真をアップロードするときに透かしを添付するかどうかを選択します。 次の設定に従って、非GIF画像に透かしが追加されます。\n",
+                "s3_compatible_storage": "",
+                "s3_acl": "",
                 "description": "ファイルアップロードサービスの設定を調整する\n"
             },
             "labels": {
@@ -24,7 +26,11 @@
                     "key": "Key",
                     "region": "地域",
                     "secret": "Secret",
-                    "title": "AWS S3 ストア設定（http://t.cn/A6zX0V3N）"
+                    "title": "AWS S3 ストア設定（http://t.cn/A6zX0V3N）",
+                    "advanced_title": "",
+                    "endpoint": "",
+                    "use_path_style_endpoint": "",
+                    "acl": ""
                 },
                 "disable-download-logging": {
                     "title": "ダウンロード履歴統計を無効にする",

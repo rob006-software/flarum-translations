@@ -16,6 +16,8 @@
                 "resize": "Resimlerin yüklenmeden önce yeniden boyulandırılıp boyutlandırılmayacağını seçin. Piksel cinsinden maksimum genişlik ve yükseklik belirtebilirsiniz. Yeniden boyutlandırma işlemi görüntülerin enini ve boyunu korur.\n",
                 "client_extension": "",
                 "watermark": "Yükleme sırasında resimlere fligran (watermark) eklenip eklenmeyeceğini seçin. Filigranlar gif olmayan dosyalara eklenebilir.\n",
+                "s3_compatible_storage": "",
+                "s3_acl": "",
                 "description": "Dosya yükleme servisleri ve ayarları.\n"
             },
             "labels": {
@@ -24,7 +26,11 @@
                     "key": "Key",
                     "region": "Region",
                     "secret": "Secret",
-                    "title": "AWS S3 depolama ayarları"
+                    "title": "AWS S3 depolama ayarları",
+                    "advanced_title": "",
+                    "endpoint": "",
+                    "use_path_style_endpoint": "",
+                    "acl": ""
                 },
                 "disable-download-logging": {
                     "title": "İndirme kayılarını kapat",
