@@ -25,23 +25,28 @@
                 "forms": "Forms manager"
             },
             "form-index": {
-                "title": "Forms manager",
+                "header": {
+                    "title": "Forms manager",
+                    "documentation": "Full online documentation",
+                    "discuss": "Discussion on Flarum Discuss"
+                },
+                "tabs": {
+                    "standalone": "Standalone forms",
+                    "discussion": "Discussion fields",
+                    "user": "User profile"
+                },
+                "empty": "No forms",
+                "load-more": "Load more",
                 "new": "New form",
                 "edit": "Edit",
                 "show": "Show",
                 "submissions": "Submissions",
                 "columns": {
                     "title": "Title",
-                    "type": "Type",
                     "accept-submissions": "Open",
                     "allow-modification": "Modification",
                     "submissions": "Submissions",
                     "actions": "Actions"
-                },
-                "type-options": {
-                    "standalone": "Standalone",
-                    "groups": "User profile",
-                    "tags": "Discussion fields"
                 }
             },
             "form-create": {
@@ -198,6 +203,10 @@
             "submission-sort": {
                 "latest": "Latest submissions",
                 "oldest": "Oldest submissions"
+            },
+            "form-sort": {
+                "latest": "New forms",
+                "oldest": "Oldest forms"
             },
             "export": {
                 "title": "Export submissions",

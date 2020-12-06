@@ -25,19 +25,31 @@
                 "forms": "表单管理员"
             },
             "form-index": {
-                "title": "表单管理员",
+                "header": {
+                    "title": "",
+                    "documentation": "",
+                    "discuss": ""
+                },
+                "tabs": {
+                    "standalone": "",
+                    "discussion": "",
+                    "user": ""
+                },
+                "empty": "",
+                "load-more": "",
                 "new": "新建表单",
                 "edit": "编辑",
                 "show": "显示",
                 "submissions": "提交结果",
                 "columns": {
                     "title": "标题",
-                    "type": "类型",
                     "accept-submissions": "开启",
                     "allow-modification": "修改",
                     "submissions": "提交结果",
-                    "actions": "动作"
+                    "actions": "动作",
+                    "type": "类型"
                 },
+                "title": "表单管理员",
                 "type-options": {
                     "standalone": "独立",
                     "groups": "用户资料",
@@ -200,6 +212,10 @@
                 "notfound-description": "这个内容不存在，或者您没有访问权限。"
             },
             "submission-sort": {
+                "latest": "",
+                "oldest": ""
+            },
+            "form-sort": {
                 "latest": "",
                 "oldest": ""
             },

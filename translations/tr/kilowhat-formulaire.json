@@ -25,19 +25,31 @@
                 "forms": ""
             },
             "form-index": {
-                "title": "",
+                "header": {
+                    "title": "",
+                    "documentation": "",
+                    "discuss": ""
+                },
+                "tabs": {
+                    "standalone": "",
+                    "discussion": "",
+                    "user": ""
+                },
+                "empty": "",
+                "load-more": "",
                 "new": "",
                 "edit": "",
                 "show": "",
                 "submissions": "",
                 "columns": {
                     "title": "",
-                    "type": "",
                     "accept-submissions": "",
                     "allow-modification": "",
                     "submissions": "",
-                    "actions": ""
+                    "actions": "",
+                    "type": ""
                 },
+                "title": "",
                 "type-options": {
                     "standalone": "",
                     "groups": "",
@@ -200,6 +212,10 @@
                 "notfound-description": ""
             },
             "submission-sort": {
+                "latest": "",
+                "oldest": ""
+            },
+            "form-sort": {
                 "latest": "",
                 "oldest": ""
             },
