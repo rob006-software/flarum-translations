@@ -360,7 +360,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pwned-passwords/0.5.1/locale/en.yml',
 	],
 	'fof-reactions' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/reactions/0.4.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/reactions/0.4.4/resources/locale/en.yml',
 	],
 	'fof-recaptcha' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/recaptcha/0.2.0/resources/locale/en.yml',
