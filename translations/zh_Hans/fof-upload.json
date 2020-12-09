@@ -16,19 +16,19 @@
                 "resize": "配置图片缩放功能，以像素为单位，超过最大宽度及高度后会被缩放，图片横纵比不变。\n",
                 "client_extension": "默认情况下，上传器将根据 MIME 类型选择一个安全的文件扩展名。\n对于某些基于 ZIP 或二进制数据的文件类型，这可能导致使用不正确的通用扩展名。\n在这里，您可以输入一个逗号分隔的文件扩展名列表，该列表将被逐字保留。\n",
                 "watermark": "选择上传图片时是否添加水印。水印会根据下面的偏好设置来添加到非 GIF 图片上。\n",
-                "s3_compatible_storage": "",
-                "s3_acl": "",
+                "s3_compatible_storage": "开启下方设置以配置 S3 兼容存储模式。如果您使用 AWS，请保持留空。\n",
+                "s3_acl": "应用于上传对象的读写权限 ACL（默认私有读写）。 有关可用的值，请参阅 https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
                 "description": "文件上传服务与设置\n"
             },
             "labels": {
                 "aws-s3": {
-                    "bucket": "Bucket",
+                    "bucket": "存储空间（Bucket）",
                     "key": "Key",
-                    "region": "区域",
+                    "region": "区域（Region）",
                     "secret": "Secret",
                     "title": "AWS S3 存储设置（配置请参阅 http://t.cn/A6zX0V3N）",
-                    "advanced_title": "",
-                    "endpoint": "",
+                    "advanced_title": "高级 S3 存储设置",
+                    "endpoint": "访问域名（Endpoint）",
                     "use_path_style_endpoint": "",
                     "acl": ""
                 },
