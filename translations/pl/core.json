@@ -503,19 +503,19 @@
         "email": {
             "activate_account": {
                 "subject": "Aktywuj swoje nowe konto",
-                "body": "Witaj, {username}!\n\nKtoś (mamy nadzieję, że Ty!) zarejestrował się na {forum} używając tego adresu e-mail.\n\nJeśli byłeś to Ty, po prostu kliknij link poniżej i Twoje konto zostanie aktywowane:\n{url}\n\nJeśli się nie rejestrowałeś, zignoruj tę wiadomość.\n"
+                "body": "Witaj {username},\n\nKtoś (mamy nadzieję, że Ty!) zarejestrował się na {forum} używając tego adresu e-mail.\n\nJeśli byłeś to Ty, po prostu kliknij link poniżej i Twoje konto zostanie aktywowane:\n{url}\n\nJeśli się nie rejestrowałeś, zignoruj tę wiadomość.\n"
             },
             "confirm_email": {
                 "subject": "Potwierdź swój adres e-mail",
-                "body": "Witaj, {username}!\n\nKtoś (mamy nadzieję, że Ty!) zmienił swój adres e-mail na {forum} na ten.\n\nJeśli byłeś to Ty, po prostu kliknij link poniżej, a Twój e-mail zostanie zatwierdzony:\n{url}\n\nJeśli to nie Ty, zignoruj tę wiadomość.\n"
+                "body": "Witaj {username},\n\nKtoś (mamy nadzieję, że Ty!) zmienił swój adres e-mail na {forum} na ten.\n\nJeśli byłeś to Ty, po prostu kliknij link poniżej, a Twój e-mail zostanie zatwierdzony:\n{url}\n\nJeśli to nie Ty, zignoruj tę wiadomość.\n"
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": "Witaj, {username}!\n\nKtoś (mamy nadzieję, że Ty!) poprosił o zresetowanie hasła do swojego konta na {forum}.\n\nJeśli byłeś to Ty, kliknij link poniżej, aby zresetować swoje hasło:\n{url}\n\nJeśli nie chcesz zmieniać hasła, po prostu zignoruj tę wiadomość, a nic się nie stanie.\n"
+                "body": "Witaj {username},\n\nKtoś (mamy nadzieję, że Ty!) poprosił o zresetowanie hasła do swojego konta na {forum}.\n\nJeśli byłeś to Ty, kliknij link poniżej, aby zresetować swoje hasło:\n{url}\n\nJeśli nie chcesz zmieniać hasła, po prostu zignoruj tę wiadomość, a nic się nie stanie.\n"
             },
             "send_test": {
                 "subject": "Testowa wiadomość z Flarum",
-                "body": "Witaj {username}!\n\nTo jest testowa wiadomość wysłana przez Flarum, aby potwierdzić, że konfiguracja wysyłki e-mail na Twoim forum działa prawidłowo.\n\nJeśli to Ty poprosiłeś o wysłanie tej wiadomości, wszystko działa w porządku!\n\nJeśli to nie Ty, zignoruj tę wiadomość.\n"
+                "body": "Witaj {username},\n\nTo jest testowa wiadomość wysłana przez Flarum, aby potwierdzić, że konfiguracja wysyłki e-mail na Twoim forum działa prawidłowo.\n\nJeśli to Ty poprosiłeś o wysłanie tej wiadomości, wszystko działa w porządku!\n\nJeśli to nie Ty, zignoruj tę wiadomość.\n"
             }
         },
         "ref": {
