@@ -26,14 +26,14 @@
         },
         "email": {
             "subject": {
-                "newDiscussion": "",
-                "newUser": "",
-                "postUnapproved": ""
+                "newDiscussion": "[Nowa dyskusja] {title}",
+                "newUser": "[Nowy użytkownik] {username}",
+                "postUnapproved": "[Post wymaga zatwierdzenia] {username} napisał w {title}"
             },
             "body": {
-                "newDiscussion": "",
-                "newUser": "",
-                "postUnapproved": ""
+                "newDiscussion": "Witaj {recipient_display_name},\n\n{actor_display_name} utworzył nową dyskusję: {discussion_title}.\n\nAby zobaczyć nową dyskusję, kliknij poniższy link:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newUser": "Witaj {recipient_display_name},\n\n{actor_display_name} właśnie utworzył konto na {forum_url}.\n\nAby zobaczyć profil nowego użytkownika, kliknij poniższy link:\n{user_url}\n",
+                "postUnapproved": "Witaj {recipient_display_name},\n\n{actor_display_name} utworzył post wymagający zatwierdzenia w {discussion_title}.\n\nAby zobaczyć nowy post, kliknij poniższy link:\n{post_url}\n\n---\n\n{post_content}\n"
             }
         }
     }
