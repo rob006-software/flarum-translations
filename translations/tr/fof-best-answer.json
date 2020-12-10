@@ -6,14 +6,14 @@
                 "best_answer_not_own_discussion": "En iyi yanıtı seç (başkasının tartışmasında)"
             },
             "settings": {
-                "title": "En İyi Yanıt Ayarları",
                 "allow_select_own_post": "Kullanıcının kendi gönderisini seçmesine izin ver",
                 "select_best_answer_reminder_days": "Kullanıcıya X günden sonra en iyi yanıtı seçmesini hatırlat",
                 "schedule_on_one_server": "Zamanlayıcı için 'onOneServer()' kullanın (Redis/Memcache gerektirir)",
                 "schedule_stop_overnight": "Hatırlatıcının aktif olunmayan saatlerde çalışmasını engelleyin (ÖS 9 - ÖÖ 8 sunucu saati)",
                 "schedule_log_output": "Zamanlayıcı çıktısını kayıt dosyasına ekle",
                 "remind_tag_ids": "Hatırlatıcıyı belirli etiketlerde etkinleştirmek için etiketleri belirleyin (virgülle ayırarak)",
-                "use_alt_ui": "Alternatif şablonu kullanın (En İyi Yanıt butonları gönderinin sonunda yer alır)"
+                "use_alt_ui": "Alternatif şablonu kullanın (En İyi Yanıt butonları gönderinin sonunda yer alır)",
+                "title": "En İyi Yanıt Ayarları"
             }
         },
         "forum": {
@@ -27,15 +27,27 @@
             },
             "notification": {
                 "best_answer_in_discussion": "{username} bu tartışmada en iyi yanıtı verdi",
-                "best_answer_set_in_discussion_email": "",
                 "content": "Sorunuz cevaplandıysa lütfen en iyi yanıtı seçin",
                 "awarded": "Gönderiniz {username} tarafından en iyi yanıt olarak seçti",
-                "awarded_email": "Gönderiniz kullanıcı tarafından en iyi yanıt olarak seçti",
-                "select_email_title": "Sorununuzu çözmeyi başardınız mı?",
                 "preferences": {
                     "awarded_best_answer": "Birisi gönderimi en iyi yanıt olarak seçtiğinde",
                     "best_answer_in_discussion": "Yanıtladığım bir tartışmada en iyi yanıt belirlendiğinde"
-                }
+                },
+                "best_answer_set_in_discussion_email": "",
+                "awarded_email": "Gönderiniz kullanıcı tarafından en iyi yanıt olarak seçti",
+                "select_email_title": "Sorununuzu çözmeyi başardınız mı?"
+            }
+        },
+        "email": {
+            "subject": {
+                "awarded": "",
+                "ba-set": "",
+                "select": ""
+            },
+            "body": {
+                "awarded": "",
+                "ba-set": "",
+                "select": ""
             }
         }
     }
