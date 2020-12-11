@@ -482,6 +482,9 @@ return [
 	'kyrne-websocket' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/kyrne-websocket.yml',
 	],
+	'luuhai48-avatar-support' => [
+		'tag' => 'https://raw.githubusercontent.com/luuhai48/avatar-support/v1.0.0/resources/locale/en.yml',
+	],
 	'luuhai48-oauth-google' => [
 		'tag' => 'https://raw.githubusercontent.com/luuhai48/oauth-google/v1.1.0/resources/locale/en.yml',
 	],
