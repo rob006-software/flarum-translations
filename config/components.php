@@ -240,7 +240,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-tags.yml',
 	],
 	'flarumite-simple-discussion-views' => [
-		'tag' => 'https://raw.githubusercontent.com/flarumite/simple-discussion-views/0.2.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarumite/simple-discussion-views/0.2.3/resources/locale/en.yml',
 	],
 	'fof-amazon-affiliation' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/amazon-affiliation/0.3.0/resources/locale/en.yml',
