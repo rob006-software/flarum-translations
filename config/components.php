@@ -507,7 +507,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/migratetoflarum/canonical/0.2.2/resources/locale/en.yml',
 	],
 	'migratetoflarum-fake-data' => [
-		'tag' => 'https://raw.githubusercontent.com/migratetoflarum/fake-data/0.3.3/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/migratetoflarum/fake-data/0.3.4/resources/locale/en.yml',
 	],
 	'migratetoflarum-itemlist-order' => [
 		'tag' => 'https://raw.githubusercontent.com/migratetoflarum/itemlist-order/0.1.0-beta.2/resources/locale/en.yml',
