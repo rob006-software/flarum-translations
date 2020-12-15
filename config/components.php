@@ -591,7 +591,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/studosi-flarum/mail-filter/0.2.0/locale/en.yml',
 	],
 	'sycho-github-milestone' => [
-		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-github-milestone/v0.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-github-milestone/v0.1.1/locale/en.yml',
 	],
 	'sycho-profile-cover' => [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-profile-cover/v1.2.0/resources/locale/en.yml',
