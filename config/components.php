@@ -153,6 +153,9 @@ return [
 	'dotronglong-hide-me' => [
 		'tag' => 'https://raw.githubusercontent.com/dotronglong/flarum-hide-me/v0.0.4/locale/en.yml',
 	],
+	'dursun-can-poyraz-ads' => [
+		'tag' => 'https://raw.githubusercontent.com/DursunCanPoyraz/ads/0.2.7.8/resources/locale/en.yml',
+	],
 	'estevao-simoes-microsoft-auth' => [
 		'tag' => 'https://raw.githubusercontent.com/estevao-simoes/flarum-microsoft-auth/v0.1.1-beta/resources/locale/en.yml',
 	],
