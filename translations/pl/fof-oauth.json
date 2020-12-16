@@ -2,7 +2,6 @@
     "fof-oauth": {
         "admin": {
             "settings": {
-                "title": "FriendsOfFlarum OAuth",
                 "only_icons_label": "Pokaż tylko ikony w przyciskach do logowania (alternatywny układ)",
                 "providers": {
                     "callback_url_text": "Jeśli to konieczne, ustaw adres zwrotny (callback URL) na {url}.",
@@ -31,8 +30,14 @@
                         "description": "Utwórz aplikację na {link}. Będziesz musiał ustawić URL do Polityki Prywatności oraz Regulaminu Serwisu. Upewnij się, że dodałeś uprawnienia do uzyskiwania adresu e-mail.",
                         "api_key_label": "API Key",
                         "api_secret_label": "API Secret"
+                    },
+                    "google": {
+                        "description": "",
+                        "client_id_label": "",
+                        "client_secret_label": ""
                     }
-                }
+                },
+                "title": "FriendsOfFlarum OAuth"
             }
         },
         "forum": {
@@ -50,7 +55,8 @@
                 "facebook": "Facebook",
                 "github": "GitHub",
                 "gitlab": "GitLab",
-                "twitter": "Twitter"
+                "twitter": "Twitter",
+                "google": ""
             }
         },
         "ref": {
