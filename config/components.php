@@ -408,7 +408,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/user-directory/0.5.0/resources/locale/en.yml',
 	],
 	'fof-username-request' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/username-request/0.3.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/username-request/0.4.0/resources/locale/en.yml',
 	],
 	'funkeye-custom-welcome-hero' => [
 		'tag' => 'https://raw.githubusercontent.com/funkeye/custom-welcome-hero/0.1.1/resources/locale/en.yml',
