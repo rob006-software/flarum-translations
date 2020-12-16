@@ -255,7 +255,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/auth-gitlab/0.2.0/resources/locale/en.yml',
 	],
 	'fof-ban-ips' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ban-ips/0.3.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ban-ips/0.4.0/resources/locale/en.yml',
 	],
 	'fof-best-answer' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/best-answer/0.2.1/resources/locale/en.yml',
