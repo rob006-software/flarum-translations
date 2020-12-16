@@ -7,6 +7,16 @@
                 "delete_warnings": "Nieodwracalne usuwanie ostrzeżeń"
             }
         },
+        "emails": {
+            "post_warned": {
+                "subject": "",
+                "body": ""
+            },
+            "user_warned": {
+                "subject": "",
+                "body": ""
+            }
+        },
         "forum": {
             "notifications": {
                 "warning_text": "Dostałeś ostrzeżenie i {strikes} punkt karny od {mod_username}|Dostałeś ostrzeżenie i {strikes} punkty karne od {mod_username}|Dostałeś ostrzeżenie i {strikes} punktów karnych od {mod_username}",

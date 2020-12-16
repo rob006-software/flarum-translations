@@ -7,6 +7,16 @@
                 "delete_warnings": "Permanently delete moderator warnings"
             }
         },
+        "emails": {
+            "post_warned": {
+                "subject": "{warner_display_name} warned you with {strikes} strikes in {discussion_title}",
+                "body": "Hey {warnee_display_name}!\n\n{warner_display_name} warned you with {strikes} strikes in {discussion_title}\n\nThe following reason was given:\n\n---\n\n{public_comment}\n"
+            },
+            "user_warned": {
+                "subject": "{warner_display_name} warned you with {strikes} strikes",
+                "body": "Hey {warnee_display_name}!\n\n{warner_display_name} warned you with {strikes} strikes\n\nThe following reason was given:\n\n---\n\n{public_comment}\n"
+            }
+        },
         "forum": {
             "notifications": {
                 "warning_text": "You were warned with {strikes} strike by {mod_username}|You were warned with {strikes} strikes by {mod_username}",
