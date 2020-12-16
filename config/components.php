@@ -399,7 +399,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/transliterator/0.3.0/locale/en.yml',
 	],
 	'fof-upload' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/upload/0.11.3/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/upload/0.12.0/resources/locale/en.yml',
 	],
 	'fof-user-bio' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/user-bio/0.4.0/resources/locale/en.yml',
