@@ -19,13 +19,9 @@
                 "url_label": "=> fof-pages.ref.url",
                 "url_placeholder": "=> fof-pages.ref.url"
             },
-            "nav": {
-                "pages_button": "=> fof-pages.ref.pages",
-                "pages_text": "Sabit sayfalar oluşturun."
-            },
             "pages": {
-                "about_text": "Sabit sayfalar oluşturun ve düzenleyin.",
-                "create_button": "=> fof-pages.ref.create_page"
+                "create_button": "=> fof-pages.ref.create_page",
+                "about_text": "Sabit sayfalar oluşturun ve düzenleyin."
             },
             "pages_list": {
                 "empty_text": "Görünüşe göre hiç sabit sayfa bulunmuyor.",
@@ -37,6 +33,10 @@
             "badges": {
                 "hidden": "Taslak",
                 "restricted": "Kısıtlanmış"
+            },
+            "nav": {
+                "pages_button": "=> fof-pages.ref.pages",
+                "pages_text": "Sabit sayfalar oluşturun."
             }
         },
         "ref": {
