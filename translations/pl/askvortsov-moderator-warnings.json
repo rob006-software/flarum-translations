@@ -9,12 +9,12 @@
         },
         "emails": {
             "post_warned": {
-                "subject": "",
-                "body": ""
+                "subject": "Dostałeś ostrzeżenie i {strikes} punktów karnych od {warner_display_name} w {discussion_title}",
+                "body": "Witaj {warnee_display_name},\n\nDostałeś ostrzeżenie i {strikes} punktów karnych od {warner_display_name} w {discussion_title} z następującego powodu:\n\n---\n\n{public_comment}\n"
             },
             "user_warned": {
-                "subject": "",
-                "body": ""
+                "subject": "Dostałeś ostrzeżenie i {strikes} punktów karnych od {warner_display_name}",
+                "body": "Witaj {warnee_display_name},\n\nDostałeś ostrzeżenie i {strikes} punktów karnych od {warner_display_name} z następującego powodu:\n\n---\n\n{public_comment}\n"
             }
         },
         "forum": {
