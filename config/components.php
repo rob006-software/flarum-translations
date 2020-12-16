@@ -37,7 +37,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Artuuuu/flarum-imager/0.1.0/resources/locale/en.yml',
 	],
 	'askvortsov-auth-sync' => [
-		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-auth-sync/v1.1.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-auth-sync/v2.0.0/resources/locale/en.yml',
 	],
 	'askvortsov-categories' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-categories/v1.1.0/resources/locale/en.yml',
