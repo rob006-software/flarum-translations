@@ -671,6 +671,9 @@ return [
 	'xmugenx-post-blacklist' => [
 		'tag' => 'https://raw.githubusercontent.com/xmugenx/flarum-ext-post-blacklist/0.1.4/resources/locale/en.yml',
 	],
+	'yuetau-school-emails' => [
+		'tag' => 'https://raw.githubusercontent.com/YuetAu/school-emails/0.3.0/locale/en.yml',
+	],
 	'zhishiq-pusher' => [
 		'tag' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumPusher/v0.1.0-beta.8.1/locale/en.yaml',
 	],
