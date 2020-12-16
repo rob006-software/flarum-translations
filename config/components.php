@@ -58,7 +58,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-pwa/v2.0.1/resources/locale/en.yml',
 	],
 	'askvortsov-saml' => [
-		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-saml/v1.1.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-saml/v2.0.0/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-author-change' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-author-change/0.2.1/resources/locale/en.yml',
