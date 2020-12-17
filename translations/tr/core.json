@@ -12,7 +12,7 @@
                 "custom_styles_heading": "Özel Stiller",
                 "custom_styles_text": "Flarum'un varsayılan stillerine uygulanacak kendi LESS/CSS kodunu ekleyerek forumunun görünümünü özelleştir.",
                 "dark_mode_label": "Karanlık Mod",
-                "description": "",
+                "description": "Forumunun renklerini, logosunu ve diğer değişkenlerini özelleştir.",
                 "edit_css_button": "Özel CSS’i Düzenle",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
@@ -22,12 +22,12 @@
                 "logo_heading": "Logo",
                 "logo_text": "Forum başlığının yerine görüntülenecek bir resim yükle.",
                 "submit_button": "=> core.ref.save_changes",
-                "title": ""
+                "title": "Görünüm"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "Varsayılan Dil",
-                "description": "",
+                "description": "Forumunun başlığını, dilini ve diğer temel ayarlarını yapılandır.",
                 "display_name_heading": "Görünen Kullanıcı Adı",
                 "display_name_text": "Kullanıcıların görünen adları için kullanılması gereken tercihi seçin. Varsayılan olarak kullanıcı adı gösterilir.",
                 "forum_description_heading": "Forum Açıklaması",
@@ -37,17 +37,17 @@
                 "home_page_text": "Kullanıcıların forumunu ziyaret ettiklerinde ilk görecekleri sayfayı seçin.",
                 "saved_message": "Değişikliklerin kaydedildi.",
                 "show_language_selector_label": "Dil seçiciyi göster",
-                "slug_driver_heading": "",
-                "slug_driver_text": "",
+                "slug_driver_heading": "Bağlantı Sürücüsü: {model}",
+                "slug_driver_text": "Bağlantılar için bir sürücü modeli seçin.",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "",
+                "title": "Temel Öğeler",
                 "welcome_banner_heading": "Hoşgeldiniz Mesajı",
                 "welcome_banner_text": "Tüm Tartışmalar sayfasında görünecek karşılama yazısını ayarla. Ziyaretçileri karşılamak için bunu kullan."
             },
             "dashboard": {
                 "clear_cache_button": "Önbelleği Temizle",
-                "description": "",
-                "title": "",
+                "description": "Bir bakışta forumun.",
+                "title": "Gösterge Paneli",
                 "tools_button": "Araçlar"
             },
             "edit_css": {
