@@ -246,7 +246,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/amazon-affiliation/0.4.0/resources/locale/en.yml',
 	],
 	'fof-analytics' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/analytics/0.10.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/analytics/0.11.0/resources/locale/en.yml',
 	],
 	'fof-auth-discord' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/auth-discord/0.1.3/resources/locale/en.yml',
