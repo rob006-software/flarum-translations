@@ -1,7 +1,6 @@
 {
     "fof-formatting": {
         "admin": {
-            "title": "FriendsOfFlarum 格式化",
             "plugins": {
                 "Autoimage": "自动识别图片链接，并实时显示图片",
                 "Autovideo": "自动识别视频链接，并在帖子中嵌入视频",
@@ -10,7 +9,8 @@
                 "MediaEmbed": "嵌入受支持的网站的内容（支持的网站：http://t.cn/A6Pjenoe）",
                 "PipeTables": "ASCII 风格表格",
                 "TaskLists": "GitHub/GitLab 风格待办清单"
-            }
+            },
+            "title": "FriendsOfFlarum 格式化"
         }
     }
 }
