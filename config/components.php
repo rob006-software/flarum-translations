@@ -555,7 +555,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-wechat/v0.1.4/resources/locale/en.yml',
 	],
 	'reflar-cookie-consent' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/cookie-consent/0.3.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/cookie-consent/0.4.0/resources/locale/en.yml',
 	],
 	'reflar-level-ranks' => [
 		'tag' => 'https://raw.githubusercontent.com/ReFlar/level-ranks/1.2.3/resources/locale/en.yml',
