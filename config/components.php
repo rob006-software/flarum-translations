@@ -120,6 +120,9 @@ return [
 	'clarkwinkelmann-who-read' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-who-read/1.2.1/resources/locale/en.yml',
 	],
+	'coeragames-gdpr' => [
+		'tag' => 'https://raw.githubusercontent.com/coeragames/flarum-gdpr/0.1.0/resources/locale/en.yml',
+	],
 	'datitisev-backup' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/datitisev-backup.yml',
 	],
