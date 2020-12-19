@@ -168,7 +168,7 @@ If you're maintaining language pack or want to add it to the collective, open an
 | [Flarum Auth Sync by Askvortsov](https://github.com/askvortsov1/flarum-auth-sync) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/askvortsov-auth-sync/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/askvortsov-auth-sync/) |
 | [Flarum Copy Links by Askvortsov](https://github.com/askvortsov1/flarum-copy-links) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/askvortsov-copy-links/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/askvortsov-copy-links/) |
 | [Flarumite Simple Discussion Views by Flarumite](https://github.com/flarumite/simple-discussion-views) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/flarumite-simple-discussion-views/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/flarumite-simple-discussion-views/) |
-| [FoF Cookie Consent by Reflar](https://github.com/FriendsOfFlarum/cookie-consent) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/reflar-cookie-consent/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/reflar-cookie-consent/) |
+| [FoF Cookie Consent by Reflar](https://github.com/FriendsOfFlarum/cookie-consent) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/fof-cookie-consent/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/fof-cookie-consent/) |
 | [Follow Users by Simonxeko](https://github.com/simonxeko/follow-users) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/simonxeko-follow-users/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/simonxeko-follow-users/) |
 | [Formulaire by Kilowhat](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/kilowhat-formulaire/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/kilowhat-formulaire/) |
 | [GIFs by Therealsujitk](https://github.com/therealsujitk/flarum-ext-gifs) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/therealsujitk-gifs/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/therealsujitk-gifs/) |
@@ -265,4 +265,3 @@ If you're maintaining language pack or want to add it to the collective, open an
 | [vBulletin Redirects by Migratetoflarum](https://github.com/migratetoflarum/vbulletin-redirects) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/migratetoflarum-vbulletin-redirects/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/migratetoflarum-vbulletin-redirects/) |
 
 <!-- various-extensions-list-stop -->
-

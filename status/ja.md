@@ -822,7 +822,7 @@
 		<td align="center"><a href="https://packagist.org/packages/reflar/cookie-consent/stats">2484<br /><img src="https://img.shields.io/badge/-%2B18-brightgreen" alt="+18" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/reflar/cookie-consent/stats">66<br /><img src="https://img.shields.io/badge/-%2B7-brightgreen" alt="+7" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/reflar/cookie-consent/stats">0<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/reflar-cookie-consent/ja/"><img src="https://weblate.rob006.net/widgets/flarum/ja/reflar-cookie-consent/svg-badge.svg" alt="Translation status"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/fof-cookie-consent/ja/"><img src="https://weblate.rob006.net/widgets/flarum/ja/fof-cookie-consent/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td><a href="https://github.com/FriendsOfFlarum/mason" title="fof/mason"><code>fof/mason</code></a></td>
