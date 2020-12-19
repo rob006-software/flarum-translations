@@ -817,7 +817,7 @@
 		<td><a href="https://weblate.rob006.net/projects/flarum/jslirola-login2seeplus/ja/"><img src="https://weblate.rob006.net/widgets/flarum/ja/jslirola-login2seeplus/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/ReFlar/cookie-consent" title="reflar/cookie-consent"><code>reflar/cookie-consent</code></a></td>
+		<td><a href="https://github.com/FriendsOfFlarum/cookie-consent" title="reflar/cookie-consent"><code>reflar/cookie-consent</code></a></td>
 		<td align="center">101<br /><img src="https://img.shields.io/badge/--4-brightgreen" alt="-4" title="Change from last week"></td>
 		<td align="center"><a href="https://packagist.org/packages/reflar/cookie-consent/stats">2484<br /><img src="https://img.shields.io/badge/-%2B18-brightgreen" alt="+18" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/reflar/cookie-consent/stats">66<br /><img src="https://img.shields.io/badge/-%2B7-brightgreen" alt="+7" title="Change from last week"></a></td>
