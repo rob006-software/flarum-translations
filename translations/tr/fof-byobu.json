@@ -85,15 +85,31 @@
                 "create_private_discussions_with_blocking_users": "Özel tartışmaları engelleyen kullanıcılarla özel tartışma oluştur",
                 "edit_user_recipients": "Özel tartışmalarda yer alan kullanıcıları düzenle",
                 "edit_group_recipients": "Özel tartışmalarda yer alan grupları düzenle",
-                "make_private_into_public": "Özel tartışmayı herkese açma",
-                "view_private_discussions-when-flagged": "Kullanıcıların bildirdiği özel tarışmaları görüntüle"
+                "view_private_discussions-when-flagged": "Kullanıcıların bildirdiği özel tarışmaları görüntüle",
+                "make_private_into_public": "Özel tartışmayı herkese açma"
             },
             "settings": {
+                "badge-icon": "",
+                "post-event-icon": "",
                 "use_tag_slug": "Özel tartışmaların başlatılacağı etiketi seçin",
                 "use_tag_slug_help": "Özel tartışmaları belirli bir etikette açılmasını zorlamak istemiyorsanız bu alanı boş bırakın, yalnızca yeni başlatılan özel tartışmalar için geçerlidir",
                 "use_tag_slug_no_restriction": "",
                 "byobu_index": "",
                 "byobu_index_help": ""
+            }
+        },
+        "email": {
+            "subject": {
+                "private_discussion_created": "",
+                "private_discussion_replied": "",
+                "recipient_removed": "",
+                "private_discussion_added": ""
+            },
+            "body": {
+                "private_discussion_created": "",
+                "private_discussion_replied": "",
+                "recipient_removed": "",
+                "private_discussion_added": ""
             }
         },
         "notifications": {

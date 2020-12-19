@@ -6,6 +6,12 @@
                 "best_answer_not_own_discussion": "En iyi yanıtı seç (başkasının tartışmasında)"
             },
             "settings": {
+                "label": {
+                    "general": "",
+                    "reminders": "",
+                    "advanced": "",
+                    "reminders_notice": ""
+                },
                 "allow_select_own_post": "Kullanıcının kendi gönderisini seçmesine izin ver",
                 "select_best_answer_reminder_days": "Kullanıcıya X günden sonra en iyi yanıtı seçmesini hatırlat",
                 "schedule_on_one_server": "Zamanlayıcı için 'onOneServer()' kullanın (Redis/Memcache gerektirir)",

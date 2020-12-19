@@ -6,6 +6,12 @@
                 "best_answer_not_own_discussion": "为他人的主题选择最佳回复"
             },
             "settings": {
+                "label": {
+                    "general": "",
+                    "reminders": "",
+                    "advanced": "",
+                    "reminders_notice": ""
+                },
                 "allow_select_own_post": "允许用户将自己的帖子设为最佳回复",
                 "select_best_answer_reminder_days": "于 n 天后提醒用户选择最佳回复",
                 "schedule_on_one_server": "将 “onOneServer()” 用于计划任务服务（需要 PHP 扩展：Redis / Memcache）",

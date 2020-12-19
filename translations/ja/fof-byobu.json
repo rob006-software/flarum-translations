@@ -84,15 +84,31 @@
                 "create_private_discussions_with_blocking_users": "私的なチャットをブロックしたユーザーに私的な雑谈への参加を強制する",
                 "edit_user_recipients": "私的な雑谈のメンバーを編集する",
                 "edit_group_recipients": "私的なディスカッ雑谈に参加しているユーザーグループを編集する",
-                "make_private_into_public": "私的雑談を公にする",
-                "view_private_discussions-when-flagged": "他のユーザーの私的な雑谈を表示する（報告されている場合）"
+                "view_private_discussions-when-flagged": "他のユーザーの私的な雑谈を表示する（報告されている場合）",
+                "make_private_into_public": "私的雑談を公にする"
             },
             "settings": {
+                "badge-icon": "",
+                "post-event-icon": "",
                 "use_tag_slug": "私的な雑谈の作成時に自動的に分類されるカテゴリタグを設定します。",
                 "use_tag_slug_help": "この設定は、設定が有効になった後に作成された私的な雑谈にのみ有効で、ユーザーが独自のラベルを選択できるように空白のままにします。",
                 "use_tag_slug_no_restriction": "",
                 "byobu_index": "",
                 "byobu_index_help": ""
+            }
+        },
+        "email": {
+            "subject": {
+                "private_discussion_created": "",
+                "private_discussion_replied": "",
+                "recipient_removed": "",
+                "private_discussion_added": ""
+            },
+            "body": {
+                "private_discussion_created": "",
+                "private_discussion_replied": "",
+                "recipient_removed": "",
+                "private_discussion_added": ""
             }
         },
         "notifications": {

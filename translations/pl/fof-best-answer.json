@@ -6,6 +6,12 @@
                 "best_answer_not_own_discussion": "Wybieranie najlepszej odpowiedzi (cudza dyskusja)"
             },
             "settings": {
+                "label": {
+                    "general": "",
+                    "reminders": "",
+                    "advanced": "",
+                    "reminders_notice": ""
+                },
                 "allow_select_own_post": "Pozwól użytkownikowi wybrać swój własny post",
                 "select_best_answer_reminder_days": "Przypomnij użytkownikowi o wybraniu najlepszej odpowiedzi po X dniach",
                 "schedule_on_one_server": "Użyj dyrektywy \"onOneServer()\" dla harmonogramu zadań (task scheduler) (wymaga Redis/Memcache)",

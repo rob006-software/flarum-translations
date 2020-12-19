@@ -85,15 +85,31 @@
                 "create_private_discussions_with_blocking_users": "Tworzenie prywatnych dyskusji z użytkownikami, którzy je blokują",
                 "edit_user_recipients": "Edytowanie użytkowników biorących udział w prywatnych dyskusjach",
                 "edit_group_recipients": "Edytowanie grup biorących udział w prywatnych dyskusjach",
-                "make_private_into_public": "Przekształcanie prywatnej dyskusji w publiczną dyskusję",
-                "view_private_discussions-when-flagged": "Przeglądanie prywatnych dyskusji innych użytkowników, jeśli ktoś je zgłosił"
+                "view_private_discussions-when-flagged": "Przeglądanie prywatnych dyskusji innych użytkowników, jeśli ktoś je zgłosił",
+                "make_private_into_public": "Przekształcanie prywatnej dyskusji w publiczną dyskusję"
             },
             "settings": {
+                "badge-icon": "",
+                "post-event-icon": "",
                 "use_tag_slug": "Podaj tag, który powinien być użyty dla wszystkich prywatnych dyskusji",
                 "use_tag_slug_help": "Wybierz \"{no_restriction}\", aby pozwolić użytkownikom wybierać swój własny tag. Ustawienia mają zastosowanie tylko dla nowo utworzonych prywatnych dyskusji.",
                 "use_tag_slug_no_restriction": "- Bez ograniczeń -",
                 "byobu_index": "Wyświetl link do prywatnych dyskusji na stronie głównej",
                 "byobu_index_help": "Gdy ta opcja jest włączona, w głównej nawigacji zostanie wyświetlony link do listy prywatnych dyskusji"
+            }
+        },
+        "email": {
+            "subject": {
+                "private_discussion_created": "",
+                "private_discussion_replied": "",
+                "recipient_removed": "",
+                "private_discussion_added": ""
+            },
+            "body": {
+                "private_discussion_created": "",
+                "private_discussion_replied": "",
+                "recipient_removed": "",
+                "private_discussion_added": ""
             }
         },
         "notifications": {
