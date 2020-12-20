@@ -426,6 +426,9 @@ return [
 	'hiqstd-close' => [
 		'tag' => 'https://raw.githubusercontent.com/HiQStd/flarum-ext-close/v1.0.0/resources/locale/en.yml',
 	],
+	'ianm-diff' => [
+		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-diff/1.0.8/locale/en.yml',
+	],
 	'irony-bing-wallpaper' => [
 		'tag' => 'https://raw.githubusercontent.com/892768447/flarum-ext-bing-wallpaper/0.0.2/resources/locale/en.yml',
 	],
