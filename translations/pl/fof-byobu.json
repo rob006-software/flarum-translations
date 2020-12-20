@@ -89,8 +89,8 @@
                 "make_private_into_public": "Przekształcanie prywatnej dyskusji w publiczną dyskusję"
             },
             "settings": {
-                "badge-icon": "",
-                "post-event-icon": "",
+                "badge-icon": "Ikona w etykiecie dyskusji Byobu",
+                "post-event-icon": "Ikona zdarzeń w dyskusjach Byobu",
                 "use_tag_slug": "Podaj tag, który powinien być użyty dla wszystkich prywatnych dyskusji",
                 "use_tag_slug_help": "Wybierz \"{no_restriction}\", aby pozwolić użytkownikom wybierać swój własny tag. Ustawienia mają zastosowanie tylko dla nowo utworzonych prywatnych dyskusji.",
                 "use_tag_slug_no_restriction": "- Bez ograniczeń -",
@@ -100,16 +100,16 @@
         },
         "email": {
             "subject": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": ""
+                "private_discussion_created": "[Prywatna dyskusja] {display_name} rozpoczął prywatną dyskusję z Tobą",
+                "private_discussion_replied": "[Prywatna dyskusja] {display_name} odpowiedział w prywatnej dyskusji",
+                "recipient_removed": "[Prywatna dyskusja] {display_name} opuścił dyskusję",
+                "private_discussion_added": "[Prywatna dyskusja] {display_name} dodał Cię do prywatnej dyskusji"
             },
             "body": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": ""
+                "private_discussion_created": "Witaj {recipient_display_name},\n\n{actor_display_name} rozpoczął prywatną dyskusję, której jesteś uczestnikiem: \"{discussion_title}\".\n\nAby zobaczyć dyskusję, kliknij poniższy link:\n{discussion_url}\n\nMusisz być zalogowany, aby zobaczyć tę dyskusję.\n",
+                "private_discussion_replied": "Witaj {recipient_display_name},\n\n{actor_display_name} odpowiedział w prywatnej dyskusji, której jesteś uczestnikiem: \"{discussion_title}\".\n\nAby zobaczyć nową zawartość, kliknij poniższy link:\n{post_url}\n\nMusisz być zalogowany, aby zobaczyć tę dyskusję.\n",
+                "recipient_removed": "Witaj {recipient_display_name},\n\n{actor_display_name} opuścił prywatną dyskusję \"{discussion_title}\" i nie ma już dostępu do jej treści.\n\nAby zobaczyć dyskusję, kliknij poniższy link:\n{discussion_url}\n\nMusisz być zalogowany, aby zobaczyć tę dyskusję.\n",
+                "private_discussion_added": "Witaj {recipient_display_name},\n\n{actor_display_name} dodał Cię jako uczestnika do istniejącej prywatnej dyskusji: \"{discussion_title}\".\n\nAby zobaczyć dyskusję, kliknij poniższy link:\n{discussion_url}\n\nMusisz być zalogowany, aby zobaczyć tę dyskusję.\n"
             }
         },
         "notifications": {
