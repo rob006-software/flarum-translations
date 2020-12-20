@@ -8,21 +8,7 @@
                 "nav": "Katalog użytkowników",
                 "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
                 "load_more_button": "=> core.ref.load_more",
-                "empty_text": "Nie udało się znaleźć żadnego użytkownika pasującego do kryteriów wyszukiwania.",
-                "sort": {
-                    "relevance": "Najtrafniejsze wyniki",
-                    "default": "Domyślne",
-                    "username_az": "Nazwa użytkownika (a-z)",
-                    "username_za": "Nazwa użytkownika (z-a)",
-                    "newest": "Najnowsi użytkownicy",
-                    "oldest": "Najstarsi użytkownicy",
-                    "seen_recent": "Ostatnio online",
-                    "seen_oldest": "Najdłużej offline",
-                    "most_posts": "Najwięcej postów",
-                    "least_posts": "Najmniej postów",
-                    "most_discussions": "Najwięcej dyskusji",
-                    "least_discussions": "Najmniej dyskusji"
-                }
+                "empty_text": "Nie udało się znaleźć żadnego użytkownika pasującego do kryteriów wyszukiwania."
             }
         },
         "admin": {
@@ -31,8 +17,7 @@
             },
             "settings": {
                 "link": "Dodaj link do katalogu użytkowników na stronie głównej",
-                "default-sort": "Domyślne sortowanie",
-                "title": "Ustawienia katalogu użytkowników"
+                "default-sort": "Domyślne sortowanie"
             }
         },
         "lib": {
