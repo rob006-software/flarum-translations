@@ -38,6 +38,7 @@ If you're maintaining language pack or want to add it to the collective, open an
 | [Lock](https://github.com/flarum/lock) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/flarum-lock/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/flarum-lock/) |
 | [Markdown](https://github.com/flarum/markdown) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/flarum-markdown/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/flarum-markdown/) |
 | [Mentions](https://github.com/flarum/mentions) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/flarum-mentions/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/flarum-mentions/) |
+| [Nicknames](https://github.com/flarum/nicknames) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/flarum-nicknames/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/flarum-nicknames/) |
 | [Pusher](https://github.com/flarum/pusher) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/flarum-pusher/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/flarum-pusher/) |
 | [Statistics](https://github.com/flarum/statistics) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/flarum-statistics/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/flarum-statistics/) |
 | [Sticky](https://github.com/flarum/sticky) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/flarum-sticky/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/flarum-sticky/) |
