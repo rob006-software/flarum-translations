@@ -102,13 +102,13 @@
                 "submit_button": "=> core.ref.save_changes",
                 "title": "",
                 "heading": "=> core.ref.email",
+                "text": "メール送信用のSMTP情報を設定します。",
                 "mail_mandrill_secret_label": "Secret key",
                 "mail_ses_key_label": "Key",
                 "mail_ses_region_label": "地域",
                 "mail_ses_secret_label": "Secret",
                 "mandrill_heading": "Mandrill 設定",
-                "ses_heading": "SES 設定",
-                "text": "メール送信用のSMTP情報を設定します。"
+                "ses_heading": "SES 設定"
             },
             "extension": {
                 "confirm_uninstall": "",
