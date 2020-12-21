@@ -2,7 +2,6 @@
     "migratetoflarum-canonical": {
         "admin": {
             "settings": {
-                "title": "Ustawienia adresów kanonicznych",
                 "step": {
                     "how_to": "Jak włączyć przekierowania na adres kanoniczy",
                     "check_config_url": "Sprawdź czy adres URL ustawiony w <code>config.php</code> jest preferowanym przez Ciebie adresem kanonicznym (obecnie: {url})",
@@ -21,7 +20,8 @@
                     "disabled": "Wyłączone (rozszerzenie nic nie będzie robić)",
                     "302": "302 (tymczasowe przekierowanie - dla testów)",
                     "301": "301 (trwałe przekierowanie - dla środowisk produkcyjnych)"
-                }
+                },
+                "title": "Ustawienia adresów kanonicznych"
             }
         }
     }
