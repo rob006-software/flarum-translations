@@ -292,7 +292,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/filter/0.3.0/resources/locale/en.yml',
 	],
 	'fof-follow-tags' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/follow-tags/0.6.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/follow-tags/0.6.2/resources/locale/en.yml',
 	],
 	'fof-formatting' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/formatting/0.3.1/resources/locale/en.yml',
