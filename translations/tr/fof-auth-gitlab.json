@@ -2,11 +2,11 @@
     "fof-auth-gitlab": {
         "admin": {
             "settings": {
-                "client_id_heading": "",
-                "client_secret_heading": "",
-                "application_domain_heading": "",
-                "application_domain_text": "",
-                "title": ""
+                "client_id_heading": "Application ID",
+                "client_secret_heading": "Secret",
+                "application_domain_heading": "Uygulama Alan Adı",
+                "application_domain_text": "Barındıranlar için tercihe bağlı bağlantı (örn. https://benim.gitlab.ornek)",
+                "title": "FriendsOfFlarum GitLab Giriş"
             },
             "gitlab_settings": {
                 "client_id_label": "Application ID",
