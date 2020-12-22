@@ -26,9 +26,9 @@
         },
         "email": {
             "subject": {
-                "newDiscussion": "",
-                "newUser": "",
-                "postUnapproved": ""
+                "newDiscussion": "[Abone Olundu | Yeni Tartışma] {title}",
+                "newUser": "[Abone Olundu | Yeni Kullanıcı] {username}",
+                "postUnapproved": "[Abone Olundu | Onaylanmadı] {username}, {title} tartışmasına gönderi yaptı"
             },
             "body": {
                 "newDiscussion": "",
