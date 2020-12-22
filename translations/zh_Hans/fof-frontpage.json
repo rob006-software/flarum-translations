@@ -2,19 +2,19 @@
     "core": {
         "forum": {
             "index_sort": {
-                "front_button": "头版头条"
+                "front_button": "精华"
             },
             "badge": {
-                "frontpage_tooltip": "头条"
+                "frontpage_tooltip": "精华"
             },
             "post_controls": {
-                "push_to_front_button": "推送至头版头条",
-                "pull_from_front_button": "从头版头条撤下"
+                "push_to_front_button": "设为精华",
+                "pull_from_front_button": "取消精华"
             }
         },
         "admin": {
             "permissions": {
-                "can_push_to_frontpage_label": "可推送至头版头条"
+                "can_push_to_frontpage_label": "加精"
             }
         }
     }
