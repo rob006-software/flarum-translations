@@ -28,7 +28,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/AmauryCarrade/flarum-ext-syndication/v0.3.1/resources/locale/en.yml',
 	],
 	'antoinefr-money' => [
-		'tag' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-money/v0.9.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-money/v0.10.0/locale/en.yml',
 	],
 	'antoinefr-online' => [
 		'tag' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-online/0.4.0/locale/en.yml',
