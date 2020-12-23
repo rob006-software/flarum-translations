@@ -652,7 +652,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/tituspijean/flarum-ext-auth-ssowat/v0.1.0-beta.14-1/locale/en.yml',
 	],
 	'tpokorra-post-notification' => [
-		'tag' => 'https://raw.githubusercontent.com/tpokorra/flarum-ext-post-notification/0.3.11-beta.14/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/tpokorra/flarum-ext-post-notification/0.3.12-beta.15/resources/locale/en.yml',
 	],
 	'v17development-blog' => [
 		'tag' => 'https://raw.githubusercontent.com/v17development/flarum-blog/v0.1.2/locale/en.yaml',
