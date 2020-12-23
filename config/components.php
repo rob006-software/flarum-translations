@@ -496,7 +496,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/luuhai48/oauth-linkedin/v1.0.0/resources/locale/en.yml',
 	],
 	'maicol07-sso' => [
-		'tag' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/1.7/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/1.8/locale/en.yml',
 	],
 	'matteocontrini-imgur-upload' => [
 		'tag' => 'https://raw.githubusercontent.com/matteocontrini/flarum-imgur-upload/v3.4.1/locale/en.yml',
