@@ -37,6 +37,8 @@
                 "home_page_text": "ユーザーがあなたのフォーラムにアクセスしたときに最初に表示されるページを選択します。カスタム値を入力する場合は、フォーラムルートに関連するパスを使用します。",
                 "saved_message": "変更が保存されました。",
                 "show_language_selector_label": "言語選択を表示する",
+                "slug_driver_heading": "",
+                "slug_driver_text": "",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "",
                 "welcome_banner_heading": "ウェルカムバナー",
@@ -100,13 +102,13 @@
                 "submit_button": "=> core.ref.save_changes",
                 "title": "",
                 "heading": "=> core.ref.email",
+                "text": "メール送信用のSMTP情報を設定します。",
                 "mail_mandrill_secret_label": "Secret key",
                 "mail_ses_key_label": "Key",
                 "mail_ses_region_label": "地域",
                 "mail_ses_secret_label": "Secret",
                 "mandrill_heading": "Mandrill 設定",
-                "ses_heading": "SES 設定",
-                "text": "メール送信用のSMTP情報を設定します。"
+                "ses_heading": "SES 設定"
             },
             "extension": {
                 "confirm_uninstall": "",
@@ -142,6 +144,7 @@
                 "basics_title": "",
                 "categories": {
                     "authentication": "",
+                    "core": "",
                     "discussion": "",
                     "feature": "",
                     "formatting": "",

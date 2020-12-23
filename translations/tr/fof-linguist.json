@@ -1,10 +1,6 @@
 {
     "fof-linguist": {
         "admin": {
-            "menu": {
-                "title": "Linguist",
-                "description": "Çevirileri özelleştirin."
-            },
             "buttons": {
                 "apply": "Uygula",
                 "reset": "Aslına döndür",
@@ -22,19 +18,19 @@
             "filters": {
                 "search": "Çeviriler içerisinde ara...",
                 "with-own-translations": "Çevirilerim",
-                "missing": "",
-                "missing-middle-label": "",
+                "missing": "Eksik çevirileri bulun",
+                "missing-middle-label": "çeviriler",
                 "negation-options": {
-                    "with": "",
-                    "without": ""
+                    "with": "ile",
+                    "without": "olmadan"
                 },
                 "type-options": {
-                    "any": "",
-                    "original": "",
-                    "own": ""
+                    "any": "Aslı veya Özel",
+                    "original": "Aslı",
+                    "own": "Özel"
                 },
-                "for-extension": "Eklentiler için",
-                "for-extension-unavailable": "",
+                "for-extension": "Uzantılar için",
+                "for-extension-unavailable": "Beklenen \"{namespace}\" ad alanında çeviri bulunamadı. Belki bu uzantı, çevrilecek herhangi bir metne sahip değildir veya farklı bir ad alanı kullanıyor. Çevirilerini bulmak için arama alanını kullanmayı deneyin.",
                 "results": "{total} eşleşen çeviriden {shown} adeti gösteriliyor",
                 "with-original-translations-in-locales": "Asıl çevirilerde",
                 "without-original-translations-in-locales": "Asıl çeviriler olmadan"
@@ -42,6 +38,10 @@
             "clear-cache": {
                 "text": "Yeni çeviriler henüz uygulanmadı. Not: Önbelleği temizlemek forumunuzu geçici olarak yavaşlatabilir.\n",
                 "button": "Önbelleği şimdi temizle"
+            },
+            "menu": {
+                "title": "Linguist",
+                "description": "Çevirileri özelleştirin."
             }
         }
     }

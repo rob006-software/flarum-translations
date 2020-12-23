@@ -40,20 +40,7 @@
                 "enableCopyTeX": "Pozwól kopiować źródło elementów wyrenderowanych za pomocą KaTeX",
                 "mentions": "Musisz włączyć rozszerzenie <code>flarum/mentions</code>, aby aktywować przycisk do cytowania.",
                 "saved_message": "=> core.admin.basics.saved_message",
-                "validation": "Walidacja pola \"{field_key}\" nie powiodła się.",
-                "wrapperOptionsHeading": "Opcje tagów HTML",
-                "mathClasses": "Nazwy klas dla tagu <code>span</code>",
-                "mathClassesHelp": "Możesz łatwo ostylować tagi <code>span</code> wykorzystując własne klasy.",
-                "blockMathClass": "Tag <code>span</code> dla wyrażeń blokowych",
-                "inlineMathClass": "Tag <code>span</code> dla wyrażeń liniowych",
-                "wrapperStyle": "Ostyluj tagi <code>span</code>",
-                "mainBlockDelimiter": "Główny separator <strong>BBCode</strong> dla wyrażeń blokowych",
-                "mainInlineDelimiter": "Główny separator <strong>BBCode</strong> dla wyrażeń liniowych",
-                "aliasBlockDelimiters": "Aliasy separatorów dla wyrażeń blokowych",
-                "aliasInlineDelimiters": "Aliasy separatorów dla wyrażeń liniowych",
-                "aliasDelimitersHelp": "To są <strong>aliasy</strong> dla <em>głównego separatora BBCode</em>. Jeśli masz specjalny separator (np. <code>$$</code>) na liście aliasów, MathRen przeskanuje cały post w poszukiwaniu tych specjalnych separatorów podczas zapisywania posta, i spróbuje zamienić je na główny separator BBCode. To może skutkować dłuższym czasem oczekiwania podczas zapisywania posta. Aby tego uniknąć możesz użyć dodatkowych separatorów BBCode zamiast separatorów specjalnych.",
-                "decisiveKeywordsInfo": "Pierwsze słowo kluczowe z tej listy będzie używane jako domyślne w edytorze tekstowym.",
-                "decisiveKeywordsWarning": "Nie używaj znaków specjalnych! W przeciwnym razie zostanie wyrzucony wyjątek."
+                "validation": "Walidacja pola \"{field_key}\" nie powiodła się."
             }
         },
         "forum": {

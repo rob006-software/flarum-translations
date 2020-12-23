@@ -9,6 +9,7 @@
                 "seeAnyDiscussion": "",
                 "create": "",
                 "moderate": "",
+                "export": "",
                 "listForms": "",
                 "listSubmissions": ""
             },
@@ -24,19 +25,31 @@
                 "forms": ""
             },
             "form-index": {
-                "title": "",
+                "header": {
+                    "title": "",
+                    "documentation": "",
+                    "discuss": ""
+                },
+                "tabs": {
+                    "standalone": "",
+                    "discussion": "",
+                    "user": ""
+                },
+                "empty": "",
+                "load-more": "",
                 "new": "",
                 "edit": "",
                 "show": "",
                 "submissions": "",
                 "columns": {
                     "title": "",
-                    "type": "",
                     "accept-submissions": "",
                     "allow-modification": "",
                     "submissions": "",
-                    "actions": ""
+                    "actions": "",
+                    "type": ""
                 },
+                "title": "",
                 "type-options": {
                     "standalone": "",
                     "groups": "",
@@ -179,6 +192,9 @@
                 "form-show": "",
                 "show": "",
                 "guest": "",
+                "load-more": "",
+                "empty": "",
+                "export": "",
                 "columns": {
                     "date": "",
                     "user": "",
@@ -194,6 +210,47 @@
                 "denied-description": "",
                 "notfound-title": "",
                 "notfound-description": ""
+            },
+            "submission-sort": {
+                "latest": "",
+                "oldest": ""
+            },
+            "form-sort": {
+                "latest": "",
+                "oldest": ""
+            },
+            "export": {
+                "title": "",
+                "format": "",
+                "heading": "",
+                "fields": "",
+                "meta": "",
+                "more-meta": "",
+                "submit": "",
+                "preview": "",
+                "format-options": {
+                    "xlsx": "",
+                    "xls": "",
+                    "ods": "",
+                    "csv": "",
+                    "json": ""
+                },
+                "heading-options": {
+                    "title": "",
+                    "key": "",
+                    "none": ""
+                },
+                "meta-options": {
+                    "uid": "",
+                    "user_id": "",
+                    "user_username": "",
+                    "user_displayname": "",
+                    "link_id": "",
+                    "locked_at": "",
+                    "created_at": "",
+                    "updated_at": "",
+                    "hidden_at": ""
+                }
             }
         },
         "api": {
@@ -203,7 +260,20 @@
             "submission-link-user-invalid": "",
             "submission-link-discussion-invalid": "",
             "submission-link-already-exists": "",
-            "cannot-change-form-type": ""
+            "cannot-change-form-type": "",
+            "export": {
+                "meta": {
+                    "uid": "",
+                    "user_id": "",
+                    "user_username": "",
+                    "user_displayname": "",
+                    "link_id": "",
+                    "locked_at": "",
+                    "created_at": "",
+                    "updated_at": "",
+                    "hidden_at": ""
+                }
+            }
         },
         "mail": {
             "title-your-submission": "",

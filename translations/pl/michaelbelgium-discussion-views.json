@@ -35,35 +35,5 @@
                 "show_viewlist_label": "Włącz listę ostatnio oglądających"
             }
         }
-    },
-    "flarum_discussion_views": {
-        "forum": {
-            "modal_resetviews": {
-                "title": "Zresetuj liczbę wyświetleń dyskusji",
-                "submit": "Tak, usuń wszystkie",
-                "label": "Czy jesteś pewien, że chcesz usunąć {count} wyświetlenie tej dyskusji?|Czy jesteś pewien, że chcesz usunąć {count} wyświetlenia tej dyskusji?|Czy jesteś pewien, że chcesz usunąć {count} wyświetleń tej dyskusji?"
-            },
-            "discussion_controls": {
-                "resetviews_button": "Zresetuj wyświetlenia"
-            },
-            "viewlist": {
-                "title": "Ostatnio oglądający"
-            }
-        },
-        "admin": {
-            "permissions": {
-                "can_reset_views": "Resetowanie liczby wyświetleń",
-                "can_view_number": "Dostęp do liczby wyświetleń",
-                "reset_views_label": "Ustawianie liczby wyświetleń dyskusji"
-            },
-            "settings": {
-                "title": "Ustawienia liczby wyświetleń dyskusji",
-                "track_unique": "Zliczaj unikalne wyświetlania",
-                "abbr_numbers": "Skróć liczbę wyświetleń (\"1k\" zamiast \"1000\")",
-                "show_filter": "Włącz sortowanie dyskusji na podstawie liczby wyświetleń",
-                "max_viewcount": "Liczba ostatnio oglądających wyświetlanych na liście",
-                "show_viewlist": "Włącz listę ostatnio oglądających"
-            }
-        }
     }
 }

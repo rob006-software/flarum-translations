@@ -12,7 +12,7 @@
                 "custom_styles_heading": "Niestandardowe style",
                 "custom_styles_text": "Edytuj wygląd swojego forum poprzez dodawanie swojego własnego kodu LESS/CSS, który będzie dodany nad domyślnymi stylami Flarum.",
                 "dark_mode_label": "Ciemny motyw",
-                "description": "",
+                "description": "Dostosuj kolory, logo oraz inne ustawienia swojego forum.",
                 "edit_css_button": "Edytuj niestandardowy CSS",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
@@ -22,12 +22,12 @@
                 "logo_heading": "Logo",
                 "logo_text": "Wyślij obrazek, który będzie wyświetlany jako logo w miejscu nazwy forum.",
                 "submit_button": "=> core.ref.save_changes",
-                "title": ""
+                "title": "Wygląd forum"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "Domyślny język",
-                "description": "",
+                "description": "Ustaw tytuł, język oraz inne podstawowe ustawienia swojego forum.",
                 "display_name_heading": "Wyświetlana nazwa użytkownika",
                 "display_name_text": "Wybierz sterownik, który powinien być używany do wyświetlania nazw użytkowników. Domyślnie wyświetlana jest nazwa użytkownika.",
                 "forum_description_heading": "Opis forum",
@@ -37,15 +37,17 @@
                 "home_page_text": "Wybierz stronę, którą użytkownicy zobaczą jako pierwszą, gdy odwiedzą Twoje forum.",
                 "saved_message": "Twoje zmiany zostały zapisane.",
                 "show_language_selector_label": "Pokazuj menu wyboru języka",
+                "slug_driver_heading": "Generator slugów: {model}",
+                "slug_driver_text": "Wymierz generator slugów dla tego modelu.",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "",
+                "title": "Podstawowe",
                 "welcome_banner_heading": "Baner powitalny",
                 "welcome_banner_text": "Skonfiguruj tekst, który wyświetla się w banerze na stronie \"Wszystkie dyskusje\". Użyj go, aby powitać gości na swoim forum."
             },
             "dashboard": {
                 "clear_cache_button": "Wyczyść cache",
-                "description": "",
-                "title": "",
+                "description": "Podstawowe informacje dotyczące forum.",
+                "title": "Kokpit",
                 "tools_button": "Narzędzia"
             },
             "edit_css": {
@@ -78,7 +80,7 @@
             },
             "email": {
                 "addresses_heading": "Adresy",
-                "description": "",
+                "description": "Skonfiguruj sterownik, ustawienia i adresy, z których Twoje forum będzie korzystać podczas wysyłania wiadomości e-mail.",
                 "driver_heading": "Wybierz sterownik (driver)",
                 "driver_label": "Sterownik (driver)",
                 "from_label": "Nadawca",
@@ -98,65 +100,60 @@
                 "send_test_mail_text": "Wiadomość zostanie wysłana przy użyciu powyższej konfiguracji na Twój adres e-mail, {email}.",
                 "smtp_heading": "Ustawienia SMTP",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "",
+                "title": "=> core.ref.email",
                 "heading": "=> core.ref.email",
-                "mail_mandrill_secret_label": "Secret key",
-                "mail_ses_key_label": "Key",
-                "mail_ses_region_label": "Region",
-                "mail_ses_secret_label": "Secret",
-                "mandrill_heading": "Ustawienia Mandrilla",
-                "ses_heading": "Ustawienia SES",
                 "text": "Skonfiguruj sterownik, ustawienia i adresy, z których Twoje forum będzie korzystać podczas wysyłania wiadomości e-mail."
             },
             "extension": {
-                "confirm_uninstall": "",
-                "disabled": "",
-                "enabled": "",
-                "enable_to_see": "",
+                "confirm_uninstall": "Odinstalowanie usunie wszystkie wpisy w bazie i zasoby powiązane z tym rozszerzeniem. Czy jesteś pewien, że chcesz kontynuować?",
+                "disabled": "Wyłączone",
+                "enabled": "Włączone",
+                "enable_to_see": "Włącz to rozszerzenie aby uzyskać dostęp do jego ustawień.",
                 "info_links": {
-                    "discuss": "",
-                    "documentation": "",
-                    "donate": "",
-                    "source": "",
-                    "support": "",
-                    "website": ""
+                    "discuss": "Dyskusja",
+                    "documentation": "Dokumentacja",
+                    "donate": "Wesprzyj",
+                    "source": "Źródła",
+                    "support": "Wsparcie",
+                    "website": "Strona internetowa"
                 },
-                "no_permissions": "",
-                "no_settings": "",
-                "open_modal": "",
-                "permissions_title": "",
-                "saved_message": "",
-                "uninstall_button": ""
+                "no_permissions": "To rozszerzenie nie posiada żadnych uprawnień.",
+                "no_settings": "To rozszerzenie nie posiada żadnych ustawień.",
+                "open_modal": "Otwórz ustawienia",
+                "permissions_title": "Uprawnienia",
+                "saved_message": "Twoje zmiany zostały zapisane.",
+                "uninstall_button": "Odinstaluj"
             },
             "header": {
-                "get_help": "",
+                "get_help": "Uzyskaj pomoc",
                 "log_out_button": "=> core.ref.log_out"
             },
             "loading": {
                 "title": "Proszę czekać..."
             },
             "nav": {
-                "appearance_button": "Wygląd forum",
-                "appearance_title": "",
-                "basics_button": "Podstawowe",
-                "basics_title": "",
+                "appearance_button": "=> core.admin.appearance.title",
+                "appearance_title": "=> core.admin.appearance.description",
+                "basics_button": "=> core.admin.basics.title",
+                "basics_title": "=> core.admin.basics.description",
                 "categories": {
-                    "authentication": "",
-                    "discussion": "",
-                    "feature": "",
-                    "formatting": "",
-                    "language": "",
-                    "moderation": "",
-                    "other": "",
-                    "theme": ""
+                    "authentication": "Uwierzytelnianie",
+                    "core": "Główne ustawienia",
+                    "discussion": "Dyskusja",
+                    "feature": "Funkcje",
+                    "formatting": "Formatowanie",
+                    "language": "Języki",
+                    "moderation": "Moderacja",
+                    "other": "Inne rozszerzenia",
+                    "theme": "Motywy"
                 },
-                "dashboard_button": "Kokpit",
-                "dashboard_title": "",
+                "dashboard_button": "=> core.admin.dashboard.title",
+                "dashboard_title": "=> core.admin.dashboard.description",
                 "email_button": "=> core.ref.email",
-                "email_title": "",
-                "permissions_button": "Uprawnienia",
-                "permissions_title": "",
-                "search_placeholder": "",
+                "email_title": "=> core.admin.email.description",
+                "permissions_button": "=> core.admin.permissions.title",
+                "permissions_title": "=> core.admin.permissions.description",
+                "search_placeholder": "Wyszukaj rozszerzenia",
                 "appearance_text": "Dostosuj kolory, logo oraz inne ustawienia swojego forum.",
                 "basics_text": "Ustaw tytuł, język oraz inne podstawowe ustawienia swojego forum.",
                 "dashboard_text": "Podstawowe informacje dotyczące forum.",
@@ -173,7 +170,7 @@
                 "delete_discussions_label": "Usuwanie dyskusji",
                 "delete_posts_forever_label": "Usuwanie postów na zawsze",
                 "delete_posts_label": "Usuwanie postów",
-                "description": "",
+                "description": "Skonfiguruj uprawnienia użytkowników i grup.",
                 "edit_posts_label": "Edytowanie postów",
                 "edit_users_label": "Edytowanie użytkowników",
                 "global_heading": "Globalne",
@@ -186,7 +183,7 @@
                 "reply_to_discussions_label": "Odpowiadanie w dyskusji",
                 "sign_up_label": "Rejestracja",
                 "start_discussions_label": "Rozpoczynanie dyskusji",
-                "title": "",
+                "title": "Uprawnienia",
                 "view_discussions_label": "Przeglądanie dyskusji",
                 "view_hidden_groups_label": "Przeglądanie etykiet ukrytych grup",
                 "view_last_seen_at_label": "Dostęp do daty ostatniej wizyty użytkownika",
@@ -500,19 +497,19 @@
         "email": {
             "activate_account": {
                 "subject": "Aktywuj swoje nowe konto",
-                "body": "Witaj, {username}!\n\nKtoś (mamy nadzieję, że Ty!) zarejestrował się na {forum} używając tego adresu e-mail.\n\nJeśli byłeś to Ty, po prostu kliknij link poniżej i Twoje konto zostanie aktywowane:\n{url}\n\nJeśli się nie rejestrowałeś, zignoruj tę wiadomość.\n"
+                "body": "Witaj {username},\n\nKtoś (mamy nadzieję, że Ty!) zarejestrował się na {forum} używając tego adresu e-mail.\n\nJeśli byłeś to Ty, po prostu kliknij link poniżej i Twoje konto zostanie aktywowane:\n{url}\n\nJeśli się nie rejestrowałeś, zignoruj tę wiadomość.\n"
             },
             "confirm_email": {
                 "subject": "Potwierdź swój adres e-mail",
-                "body": "Witaj, {username}!\n\nKtoś (mamy nadzieję, że Ty!) zmienił swój adres e-mail na {forum} na ten.\n\nJeśli byłeś to Ty, po prostu kliknij link poniżej, a Twój e-mail zostanie zatwierdzony:\n{url}\n\nJeśli to nie Ty, zignoruj tę wiadomość.\n"
+                "body": "Witaj {username},\n\nKtoś (mamy nadzieję, że Ty!) zmienił swój adres e-mail na {forum} na ten.\n\nJeśli byłeś to Ty, po prostu kliknij link poniżej, a Twój e-mail zostanie zatwierdzony:\n{url}\n\nJeśli to nie Ty, zignoruj tę wiadomość.\n"
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": "Witaj, {username}!\n\nKtoś (mamy nadzieję, że Ty!) poprosił o zresetowanie hasła do swojego konta na {forum}.\n\nJeśli byłeś to Ty, kliknij link poniżej, aby zresetować swoje hasło:\n{url}\n\nJeśli nie chcesz zmieniać hasła, po prostu zignoruj tę wiadomość, a nic się nie stanie.\n"
+                "body": "Witaj {username},\n\nKtoś (mamy nadzieję, że Ty!) poprosił o zresetowanie hasła do swojego konta na {forum}.\n\nJeśli byłeś to Ty, kliknij link poniżej, aby zresetować swoje hasło:\n{url}\n\nJeśli nie chcesz zmieniać hasła, po prostu zignoruj tę wiadomość, a nic się nie stanie.\n"
             },
             "send_test": {
                 "subject": "Testowa wiadomość z Flarum",
-                "body": "Witaj {username}!\n\nTo jest testowa wiadomość wysłana przez Flarum, aby potwierdzić, że konfiguracja wysyłki e-mail na Twoim forum działa prawidłowo.\n\nJeśli to Ty poprosiłeś o wysłanie tej wiadomości, wszystko działa w porządku!\n\nJeśli to nie Ty, zignoruj tę wiadomość.\n"
+                "body": "Witaj {username},\n\nTo jest testowa wiadomość wysłana przez Flarum, aby potwierdzić, że konfiguracja wysyłki e-mail na Twoim forum działa prawidłowo.\n\nJeśli to Ty poprosiłeś o wysłanie tej wiadomości, wszystko działa w porządku!\n\nJeśli to nie Ty, zignoruj tę wiadomość.\n"
             }
         },
         "ref": {

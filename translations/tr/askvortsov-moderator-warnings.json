@@ -7,13 +7,23 @@
                 "delete_warnings": "Moderatör uyarılarını kalıcı olarak sil"
             }
         },
+        "emails": {
+            "post_warned": {
+                "subject": "{warner_display_name}, sizi {discussion_title} tartışması için {strikes} ihtarla uyardı",
+                "body": "Merhaba {warnee_display_name}!\n\n{warner_display_name}, sizi {discussion_title} tartışması için {strikes} ihtarla uyardı\n\nNeden aşağıda yazmaktadır:\n\n---\n\n{public_comment}"
+            },
+            "user_warned": {
+                "subject": "{warner_display_name} sizi {strikes} ihtarla uyardı",
+                "body": "Merhaba {warner_display_name}!\n\n{warner_display_name} sizi {strikes} ihtarla uyardı\n\nNeden aşağıda yazmaktadır:\n\n---\n\n{public_comment}"
+            }
+        },
         "forum": {
             "notifications": {
-                "warning_text": "{mod_username} adlı moderatör tarafından {strikes} nedeniyle uyarıldınız!",
+                "warning_text": "{mod_username} adlı moderatör tarafından {strikes} ihtarla uyarıldınız!",
                 "warning_no_strikes_text": "{mod_username} sizi uyardı! (Sebep?)"
             },
             "post": {
-                "warning": "{mod_username} adlı moderatör tarafından {strikes} nedeniyle uyarıldınız!",
+                "warning": "{mod_username} adlı moderatör tarafından {strikes} ihtarla uyarıldınız!",
                 "warning_no_strikes": "{mod_username} tarafından uyarıldınız!"
             },
             "post_controls": {
@@ -26,8 +36,8 @@
                 "warning_notification_label": "Moderatör tarafından uyarıldın"
             },
             "validation": {
-                "public_comment_required": "",
-                "invalid_strike_count": ""
+                "public_comment_required": "Çoğunlukla herkese açık bir yorum sunuyorsunuz.",
+                "invalid_strike_count": "Uyarı sayısı, 0 ile 5 arasında bir tam sayı olmalıdır."
             },
             "warning_controls": {
                 "delete_button": "Sil",

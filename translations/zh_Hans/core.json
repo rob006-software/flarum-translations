@@ -22,21 +22,23 @@
                 "logo_heading": "Logo",
                 "logo_text": "上传图片代替论坛名称，并展示在导航栏左侧。",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "常规"
+                "title": "外观"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "默认语言",
                 "description": "设置论坛名称、语言以及其他基础设置",
-                "display_name_heading": "用户外显昵称",
-                "display_name_text": "选择外显昵称的种类，默认为用户名。",
+                "display_name_heading": "用户外显名称",
+                "display_name_text": "选择外显名称的类型，默认为用户名。",
                 "forum_description_heading": "论坛描述",
                 "forum_description_text": "输入一两句话简单介绍您的论坛。这将会显示为 <meta name=\"description\"> 描述标签，一般为 160 字的文本，用于介绍网页的内容。平常多被搜索引擎截取网页简介用。",
                 "forum_title_heading": "论坛名称",
                 "home_page_heading": "论坛首页",
                 "home_page_text": "选择一种页面作为论坛首页。",
                 "saved_message": "您的更改已保存",
-                "show_language_selector_label": "显示选择语言菜单",
+                "show_language_selector_label": "显示语言选择器",
+                "slug_driver_heading": "别名驱动：{model}",
+                "slug_driver_text": "选择要用于此实体的驱动程序。",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "常规",
                 "welcome_banner_heading": "欢迎横幅",
@@ -95,24 +97,24 @@
                 "send_test_mail_button": "发送",
                 "send_test_mail_heading": "发送测试邮件",
                 "send_test_mail_success": "测试邮件发送成功！",
-                "send_test_mail_text": "这将会使用上述设置发送发送邮件到您的邮箱，{email}。",
+                "send_test_mail_text": "使用上述设置发送测试邮件到您的邮箱：{email}",
                 "smtp_heading": "SMTP 设置",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.email",
                 "heading": "=> core.ref.email",
+                "text": "配置论坛发信服务方式。",
                 "mail_mandrill_secret_label": "Secret key",
                 "mail_ses_key_label": "Key",
                 "mail_ses_region_label": "区域",
                 "mail_ses_secret_label": "Secret",
                 "mandrill_heading": "Mandrill 设置",
-                "ses_heading": "SES 设置",
-                "text": "配置论坛发信服务方式。"
+                "ses_heading": "SES 设置"
             },
             "extension": {
                 "confirm_uninstall": "该扩展程序相关的数据库内容和文件资源将被永久性删除。确定要卸载吗？",
                 "disabled": "关闭",
                 "enabled": "开启",
-                "enable_to_see": "开启扩展程序以查看或变更设置。",
+                "enable_to_see": "开启扩展程序以查看或修改设置。",
                 "info_links": {
                     "discuss": "讨论帖",
                     "documentation": "文档",
@@ -121,40 +123,41 @@
                     "support": "支持",
                     "website": "网站"
                 },
-                "no_permissions": "无权限项",
-                "no_settings": "无设置项",
+                "no_permissions": "此扩展无新增权限。",
+                "no_settings": "此扩展无设置项。",
                 "open_modal": "打开设置",
                 "permissions_title": "权限",
                 "saved_message": "您的修改已保存。",
                 "uninstall_button": "卸载"
             },
             "header": {
-                "get_help": "求助",
+                "get_help": "帮助",
                 "log_out_button": "=> core.ref.log_out"
             },
             "loading": {
                 "title": "请稍后……"
             },
             "nav": {
-                "appearance_button": "外观",
-                "appearance_title": "=> core.admin.appearence.description",
-                "basics_button": "常规",
+                "appearance_button": "=> core.admin.appearance.title",
+                "appearance_title": "=> core.admin.appearance.description",
+                "basics_button": "=> core.admin.basics.title",
                 "basics_title": "=> core.admin.basics.description",
                 "categories": {
                     "authentication": "认证",
+                    "core": "核心配置",
                     "discussion": "主题",
                     "feature": "功能",
                     "formatting": "格式化",
                     "language": "语言包",
                     "moderation": "内容审核",
-                    "other": "其他类型",
-                    "theme": "主题样式"
+                    "other": "其他",
+                    "theme": "样式"
                 },
-                "dashboard_button": "概览",
+                "dashboard_button": "=> core.admin.dashboard.title",
                 "dashboard_title": "=> core.admin.dashboard.description",
                 "email_button": "=> core.ref.email",
                 "email_title": "=> core.admin.email.description",
-                "permissions_button": "权限",
+                "permissions_button": "=> core.admin.permissions.title",
                 "permissions_title": "=> core.admin.permissions.description",
                 "search_placeholder": "搜索扩展程序",
                 "appearance_text": "自定义论坛色调、图标以及其他元素。",
@@ -337,7 +340,7 @@
                 "newest_button": "新鲜出炉",
                 "oldest_button": "陈年旧贴",
                 "relevance_button": "相关推荐",
-                "top_button": "热门回复"
+                "top_button": "热门主题"
             },
             "log_in": {
                 "forgot_password_link": "忘记密码？",

@@ -3,9 +3,9 @@
         "admin": {
             "title": "Auth Sync Ayarları",
             "labels": {
-                "ignored_avatar": "",
-                "stop_avatar_change": "",
-                "stop_bio_change": "",
+                "ignored_avatar": "Döndürülen bir avatar buna eşitse, kimlik doğrulamasından ayarlanmayacaktır. Bu, varsayılan avatar değerlerini göz ardı etmek için kullanılabilir.",
+                "stop_avatar_change": "Kullanıcıların avatarlarını Flarum'dan değiştirmeleri engellensin mi?",
+                "stop_bio_change": "Kullanıcıların biyografilerini Flarum'dan değiştirmeleri engellensin mi? (Friends of Flarum User Bio uzantısını gerektirir)",
                 "sync_avatar": "Avatarı Eşitle?",
                 "sync_groups": "Grupları Eşitle?",
                 "sync_bio": "Biyografiyi Eşitle? (Friends of Flarum User Bio uzantısı gerektirir)",

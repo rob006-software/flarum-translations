@@ -2,7 +2,6 @@
     "fof-oauth": {
         "admin": {
             "settings": {
-                "title": "FriendsOfFlarum OAuth 认证",
                 "only_icons_label": "仅显示登录按钮图标（可选布置）",
                 "providers": {
                     "callback_url_text": "如有必要，将回调 URL 设为 {url}。",
@@ -31,8 +30,14 @@
                         "description": "在 {link} 创建一个应用。您需要提供服务协议和隐私政策 URL，然后确保添加请求邮件权限。",
                         "api_key_label": "API Key",
                         "api_secret_label": "API Secret"
+                    },
+                    "google": {
+                        "description": "前往此处创建应用：{link}",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     }
-                }
+                },
+                "title": "FriendsOfFlarum OAuth 认证"
             }
         },
         "forum": {
@@ -50,7 +55,8 @@
                 "facebook": "Facebook",
                 "github": "GitHub",
                 "gitlab": "GitLab",
-                "twitter": "Twitter"
+                "twitter": "Twitter",
+                "google": "Google"
             }
         },
         "ref": {

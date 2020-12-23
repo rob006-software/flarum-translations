@@ -2,16 +2,15 @@
     "fof-analytics": {
         "admin": {
             "popup": {
-                "title": "Analytics Ayarları",
                 "section": {
                     "googleAnalytics": "Google Analytics",
                     "piwik": "Piwik"
                 },
                 "field": {
                     "statusGoogle": "Google Analytics'i etkinleştir",
-                    "optTrackingCode": "",
+                    "optTrackingCode": "Takip Kodunu Optimize Et (isteğe bağlı)",
                     "googleTrackingCode": "Takip Kodu ID",
-                    "googleGTMCode": "",
+                    "googleGTMCode": "GTM kod ID (isteğe bağlı)",
                     "statusPiwik": "Piwik'i etkinleştir",
                     "piwikUrl": "Piwik alanadı veya bağlantısı",
                     "piwikSiteId": "Site ID",
@@ -29,7 +28,8 @@
                     "none": "Takip etme",
                     "username": "Kullanıcı adına göre takip et",
                     "email": "E-Posta'ya göre takip et"
-                }
+                },
+                "title": "Analytics Ayarları"
             },
             "page": {
                 "nav": {

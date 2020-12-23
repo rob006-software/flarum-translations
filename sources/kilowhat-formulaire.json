@@ -9,6 +9,7 @@
                 "seeAnyDiscussion": "View discussion fields submissions",
                 "create": "Create forms (beta)",
                 "moderate": "Moderate all forms",
+                "export": "Export submission data",
                 "listForms": "View the list of forms that aren't deleted",
                 "listSubmissions": "View the list of submissions"
             },
@@ -24,23 +25,28 @@
                 "forms": "Forms manager"
             },
             "form-index": {
-                "title": "Forms manager",
+                "header": {
+                    "title": "Forms manager",
+                    "documentation": "Full online documentation",
+                    "discuss": "Discussion on Flarum Discuss"
+                },
+                "tabs": {
+                    "standalone": "Standalone forms",
+                    "discussion": "Discussion fields",
+                    "user": "User profile"
+                },
+                "empty": "No forms",
+                "load-more": "Load more",
                 "new": "New form",
                 "edit": "Edit",
                 "show": "Show",
                 "submissions": "Submissions",
                 "columns": {
                     "title": "Title",
-                    "type": "Type",
                     "accept-submissions": "Open",
                     "allow-modification": "Modification",
                     "submissions": "Submissions",
                     "actions": "Actions"
-                },
-                "type-options": {
-                    "standalone": "Standalone",
-                    "groups": "User profile",
-                    "tags": "Discussion fields"
                 }
             },
             "form-create": {
@@ -175,6 +181,9 @@
                 "form-show": "New submission",
                 "show": "Show",
                 "guest": "Guest",
+                "load-more": "Load more",
+                "empty": "No submissions yet",
+                "export": "Export",
                 "columns": {
                     "date": "Date",
                     "user": "User",
@@ -190,6 +199,47 @@
                 "denied-description": "It looks like you don't have access to this content. Try logging in.",
                 "notfound-title": "Not found",
                 "notfound-description": "This content either doesn't exist, or maybe you don't have access to it."
+            },
+            "submission-sort": {
+                "latest": "Latest submissions",
+                "oldest": "Oldest submissions"
+            },
+            "form-sort": {
+                "latest": "New forms",
+                "oldest": "Oldest forms"
+            },
+            "export": {
+                "title": "Export submissions",
+                "format": "Format",
+                "heading": "Heading / keys",
+                "fields": "Fields",
+                "meta": "Metadata",
+                "more-meta": "More meta options",
+                "submit": "Download",
+                "preview": "Preview",
+                "format-options": {
+                    "xlsx": "XLSX",
+                    "xls": "XLS",
+                    "ods": "ODS",
+                    "csv": "CSV",
+                    "json": "JSON"
+                },
+                "heading-options": {
+                    "title": "Field titles",
+                    "key": "Field keys",
+                    "none": "No header line"
+                },
+                "meta-options": {
+                    "uid": "Submission ID",
+                    "user_id": "User ID",
+                    "user_username": "Username",
+                    "user_displayname": "User Display Name",
+                    "link_id": "Linked resource ID",
+                    "locked_at": "Lock Date",
+                    "created_at": "Creation Date",
+                    "updated_at": "Update Date",
+                    "hidden_at": "Soft Deletion Date"
+                }
             }
         },
         "api": {
@@ -199,7 +249,20 @@
             "submission-link-user-invalid": "The user doesn't have the necessary group for this form",
             "submission-link-discussion-invalid": "The discussion does't have the necessary tag for this form",
             "submission-link-already-exists": "Duplicate entry for link resource",
-            "cannot-change-form-type": "You cannot change the type of a form that has existing submissions"
+            "cannot-change-form-type": "You cannot change the type of a form that has existing submissions",
+            "export": {
+                "meta": {
+                    "uid": "Submission ID",
+                    "user_id": "User ID",
+                    "user_username": "Username",
+                    "user_displayname": "User Display Name",
+                    "link_id": "Linked resource ID",
+                    "locked_at": "Lock Date",
+                    "created_at": "Creation Date",
+                    "updated_at": "Update Date",
+                    "hidden_at": "Soft Deletion Date"
+                }
+            }
         },
         "mail": {
             "title-your-submission": "Your submission for {title}",

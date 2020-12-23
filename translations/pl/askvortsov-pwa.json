@@ -24,8 +24,7 @@
                 "logo_text": "Musisz wysłać przynajmniej jedno logo, aby było możliwe zainstalowanie Progressive Web App dla Twojego forum. Zauważ, że logo musi być kwadratem, w przeciwnym razie może zostać rozciągnięte.\n\nJest kilka dostępnych rozmiarów poniżej. Zalecane jest wysłanie tak wielu, jak to tylko możliwe, aby wspierać jak najwięcej różnych urządzeń.\n\nZauważ, że możesz wysłać jedno duże logo dla wszystkich dostępnych rozmiarów. Na przykład możesz wysłać logo o rozmiarze 1000px x 1000px logo dla wszystkich pól poniżej. Jeśli jednak wyślesz logo o rozmiarze 50px x 50px do pola na logo o rozmiarze 512px x 512px, zostanie ono dość mocno rozciągnięte.\n",
                 "logo_size_text": "Wyślij logo, które zostanie przeskalowane do rozmiaru {size} na {size} pikseli.",
                 "submit_button": "Zapisz ustawienia",
-                "refreshed_message": "Konfiguracja PWA została pomyślnie odświeżona.",
-                "enable_label": ""
+                "refreshed_message": "Konfiguracja PWA została pomyślnie odświeżona."
             },
             "status": {
                 "config_no_https": "URL w pliku <code>config.php</code> nie korzysta z HTTPS. HTTPS jest wymagany do działania Progressive Web App.",
@@ -33,12 +32,7 @@
                 "no_logo": "Aby Twoja aplikacja działała, musisz wysłać co najmniej jedno logo o minimalnych wymiarach 196px na 196px.",
                 "no_name": "Aby Twoja aplikacja działała, musisz podać jej pełną nazwę.",
                 "push_needs_gmp_and_web_push": "Rozszerzenie <code>gmp</code> oraz biblioteka <code>minishlink/web-push</code> (<code>composer require minishlink/web-push</code>) MUSZĄ być włączone, aby powiadomienia push działały.",
-                "success": "Nie wyryto żadnych potencjalnych problemów!",
-                "disabled": "",
-                "manifest_does_not_exist": "",
-                "manifest_not_accessible": "",
-                "sw_does_not_exist": "",
-                "sw_not_accessible": ""
+                "success": "Nie wyryto żadnych potencjalnych problemów!"
             }
         },
         "forum": {

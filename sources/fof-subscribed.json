@@ -23,6 +23,18 @@
                 "subscribe_to_post_unapproved": "Allowed to receive notification upon new unapproved post",
                 "subscribe_to_user_created": "Allowed to receive notification upon new user"
             }
+        },
+        "email": {
+            "subject": {
+                "newDiscussion": "[Subscribed | New Discussion] {title}",
+                "newUser": "[Subscribed | New User] {username}",
+                "postUnapproved": "[Subscribed | Unapproved] {username} posted in {title}"
+            },
+            "body": {
+                "newDiscussion": "Hey {recipient_display_name},\n\n{actor_display_name} started a new discussion: {discussion_title}\n\nTo view this new discussion, check out the following link:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newUser": "Hey {recipient_display_name},\n\n{actor_display_name} just joined {forum_url}.\n\nTo view this new user's profile, check out the following link:\n{user_url}\n",
+                "postUnapproved": "Hey {recipient_display_name},\n\n{actor_display_name} created a post that wasn't automatically approved in {discussion_title}\n\nTo view this new post, check out the following link:\n{post_url}\n\n---\n\n{post_content}\n"
+            }
         }
     }
 }

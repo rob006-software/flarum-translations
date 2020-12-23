@@ -23,6 +23,18 @@
                 "subscribe_to_post_unapproved": "Onaylanmamış bir tartışma başlatıldığında bildirime izin ver",
                 "subscribe_to_user_created": "Yeni kullanıcı kayıt olduğunda bildirime izin ver"
             }
+        },
+        "email": {
+            "subject": {
+                "newDiscussion": "[Abone Olundu | Yeni Tartışma] {title}",
+                "newUser": "[Abone Olundu | Yeni Kullanıcı] {username}",
+                "postUnapproved": "[Abone Olundu | Onaylanmadı] {username}, {title} tartışmasına gönderi yaptı"
+            },
+            "body": {
+                "newDiscussion": "",
+                "newUser": "",
+                "postUnapproved": ""
+            }
         }
     }
 }

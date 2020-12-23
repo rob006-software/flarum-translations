@@ -9,6 +9,7 @@
                 "seeAnyDiscussion": "查看提交的主题帖字段",
                 "create": "创建表单 (beta)",
                 "moderate": "管理所有表单",
+                "export": "导出提交数据",
                 "listForms": "查看未删除的表单列表",
                 "listSubmissions": "查看提交列表"
             },
@@ -24,19 +25,31 @@
                 "forms": "表单管理员"
             },
             "form-index": {
-                "title": "表单管理员",
+                "header": {
+                    "title": "表单管理者",
+                    "documentation": "完整在线文档",
+                    "discuss": "Flarum 社区讨论帖"
+                },
+                "tabs": {
+                    "standalone": "独立表单",
+                    "discussion": "主题帖字段",
+                    "user": "用户资料"
+                },
+                "empty": "无表单",
+                "load-more": "加载更多",
                 "new": "新建表单",
                 "edit": "编辑",
                 "show": "显示",
                 "submissions": "提交结果",
                 "columns": {
                     "title": "标题",
-                    "type": "类型",
                     "accept-submissions": "开启",
                     "allow-modification": "修改",
                     "submissions": "提交结果",
-                    "actions": "动作"
+                    "actions": "动作",
+                    "type": "类型"
                 },
+                "title": "表单管理员",
                 "type-options": {
                     "standalone": "独立",
                     "groups": "用户资料",
@@ -126,7 +139,7 @@
                 "add-field": "添加字段",
                 "title": "标题",
                 "description": "描述",
-                "key": "提交有效载荷中的 JSON Key",
+                "key": "在提交数据中有效载荷的 JSON 属性名",
                 "required": "必填",
                 "rich": "富文本（TextFormatter）",
                 "min": "最小",
@@ -179,6 +192,9 @@
                 "form-show": "新提交",
                 "show": "显示",
                 "guest": "访客",
+                "load-more": "加载更多",
+                "empty": "暂未收集到数据",
+                "export": "导出",
                 "columns": {
                     "date": "日期",
                     "user": "用户",
@@ -194,16 +210,70 @@
                 "denied-description": "您没有访问此内容的权限，请登陆后重试。",
                 "notfound-title": "未找到",
                 "notfound-description": "这个内容不存在，或者您没有访问权限。"
+            },
+            "submission-sort": {
+                "latest": "最新",
+                "oldest": "最旧"
+            },
+            "form-sort": {
+                "latest": "最新",
+                "oldest": "最旧"
+            },
+            "export": {
+                "title": "导出收集数据",
+                "format": "格式",
+                "heading": "标题 / 属性名",
+                "fields": "表单",
+                "meta": "元数据",
+                "more-meta": "更多元选项",
+                "submit": "下载",
+                "preview": "预览",
+                "format-options": {
+                    "xlsx": "Excel 工作簿(*.xlsx)",
+                    "xls": "Excel 97-2003 工作簿(*.xls)",
+                    "ods": "OpenDocument 电子表格(*.ods)",
+                    "csv": "CSV (逗号分隔)(*.cvs)",
+                    "json": "JS 对象简谱(*.json)"
+                },
+                "heading-options": {
+                    "title": "表单标题",
+                    "key": "表单属性名",
+                    "none": "不要标题行"
+                },
+                "meta-options": {
+                    "uid": "提交 ID",
+                    "user_id": "用户 ID",
+                    "user_username": "用户名",
+                    "user_displayname": "用户外显昵称",
+                    "link_id": "链接的资源 ID",
+                    "locked_at": "锁定日期",
+                    "created_at": "创建日期",
+                    "updated_at": "更新日期",
+                    "hidden_at": "软删除日期"
+                }
             }
         },
         "api": {
             "formatter-parsing-error": "无法解析内容：{message}",
             "not-allowed-to-fill-field": "您无权更改此字段的值",
-            "duplicate-field-key": "密钥应该是唯一的",
+            "duplicate-field-key": "属性名不得重复",
             "submission-link-user-invalid": "该用户的用户组与此表单所需的用户组不匹配",
             "submission-link-discussion-invalid": "该主题的标签与此表单所需的标签不匹配",
             "submission-link-already-exists": "链接重复",
-            "cannot-change-form-type": "您不能更改已收到提交内容的表格类型"
+            "cannot-change-form-type": "您不能更改已收到提交内容的表格类型",
+            "export": {
+                "meta": {
+                    "uid": "提交 ID",
+                    "user_id": "用户 ID",
+                    "user_username": "用户名",
+                    "user_displayname": "用户外显昵称",
+                    "link_id": "链接的资源 ID",
+                    "locked_at": "锁定日期",
+                    "created_at": "创建日期",
+                    "updated_at": "更新日期",
+                    "hidden_at": "软删除日期"
+                }
+            }
         },
         "mail": {
             "title-your-submission": "{title} 的提交",

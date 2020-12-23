@@ -1,9 +1,9 @@
 {
-    "reflar-doorman": {
+    "fof-doorman": {
         "forum": {
             "email": {
-                "subject": "",
-                "body": ""
+                "subject": "Katılmak için Davet Et",
+                "body": "Merhaba,\n\n{forum} sitesi için bir davetiye aldın.\n\nKayıt olmak için hazır olduğunda aşağıdaki bağlantıyı kullanabilir ve kayıt olurken kodu kullanabilirsin:\n\nBağlantı: {url}\nDavet kodu: {code}\n\nEğer bu mesajı yanlışlıkla aldığınızı düşünüyorsanız görmezden gelebilirsiniz.\n"
             },
             "sign_up": {
                 "invalid_doorkey": "Girilen davet kodu geçersiz.",
@@ -14,10 +14,10 @@
         },
         "admin": {
             "modal": {
-                "title": "",
-                "group": "",
+                "title": "Davetiye Kodu Gönder",
+                "group": "{group} grubu için davetiye gönderiliyor",
                 "help": "",
-                "placeholder": "",
+                "placeholder": "Epostaları girin",
                 "invalid_emails": "",
                 "max_use_conflict": "",
                 "send": "",

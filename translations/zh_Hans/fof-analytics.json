@@ -2,7 +2,6 @@
     "fof-analytics": {
         "admin": {
             "popup": {
-                "title": "FoF 分析",
                 "section": {
                     "googleAnalytics": "Google 分析",
                     "piwik": "Piwik"
@@ -29,7 +28,8 @@
                     "none": "不要追踪",
                     "username": "按用户名追踪",
                     "email": "按邮箱追踪"
-                }
+                },
+                "title": "FoF 分析"
             },
             "page": {
                 "nav": {
