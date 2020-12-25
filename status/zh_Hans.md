@@ -673,7 +673,7 @@
 		<td><a href="https://weblate.rob006.net/projects/flarum/therealsujitk-gifs/zh_Hans/"><img src="https://weblate.rob006.net/widgets/flarum/zh_Hans/therealsujitk-gifs/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/ReFlar/webhooks" title="reflar/webhooks"><code>reflar/webhooks</code></a></td>
+		<td><a href="https://github.com/FriendsOfFlarum/webhooks" title="reflar/webhooks"><code>reflar/webhooks</code></a></td>
 		<td align="center">83<br /><img src="https://img.shields.io/badge/-%2B2-red" alt="+2" title="Change from last week"></td>
 		<td align="center"><a href="https://packagist.org/packages/reflar/webhooks/stats">1810<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/reflar/webhooks/stats">103<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
