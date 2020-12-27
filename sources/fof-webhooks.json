@@ -46,7 +46,9 @@
                 "desc": "Customizable outgoing webhooks for your forum."
             },
             "settings": {
-                "title": "Webhooks",
+                "item": {
+                    "tag_any_label": "Any"
+                },
                 "help": {
                     "disabled": "This webhook is disabled because it doesn't have any events enabled.",
                     "general": "Here you can add, edit, and remove webhooks from your forum.",
@@ -54,11 +56,17 @@
                 },
                 "modal": {
                     "title": "Webhook Settings",
-                    "description": "Here you modify what events the webhook is fired on."
+                    "description": "Here you modify what events the webhook is fired on.",
+                    "extra_text_label": "Extra Text",
+                    "extra_text_help": "Extra text to include in the sent webhook.",
+                    "group_label": "Group",
+                    "group_help": "Send resources that can be seen by this group",
+                    "events_label": "Events"
                 },
                 "services": {
                     "discord": "Discord",
-                    "slack": "Slack"
+                    "slack": "Slack",
+                    "microsoft-teams": "Microsoft Teams"
                 },
                 "actions": {
                     "flarum": {

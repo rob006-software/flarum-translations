@@ -46,7 +46,9 @@
                 "desc": "Konfigurowalne wychodzące webhooki dla Twojego forum."
             },
             "settings": {
-                "title": "Webhooki",
+                "item": {
+                    "tag_any_label": ""
+                },
                 "help": {
                     "disabled": "Ten webhook jest wyłączony, ponieważ nie ma żadnych aktywnych zdarzeń.",
                     "general": "Tutaj możesz dodać, edytować oraz usuwać webhooki dla swojego forum.",
@@ -54,11 +56,17 @@
                 },
                 "modal": {
                     "title": "Ustawienia webhooka",
-                    "description": "Tutaj możesz ustawić dla jakich zdarzeń webhook będzie wywoływany."
+                    "description": "Tutaj możesz ustawić dla jakich zdarzeń webhook będzie wywoływany.",
+                    "extra_text_label": "",
+                    "extra_text_help": "",
+                    "group_label": "",
+                    "group_help": "",
+                    "events_label": ""
                 },
                 "services": {
                     "discord": "Discord",
-                    "slack": "Slack"
+                    "slack": "Slack",
+                    "microsoft-teams": ""
                 },
                 "actions": {
                     "flarum": {
@@ -91,7 +99,8 @@
                             "deleted": "Usunięto"
                         }
                     }
-                }
+                },
+                "title": "Webhooki"
             }
         },
         "ref": {
