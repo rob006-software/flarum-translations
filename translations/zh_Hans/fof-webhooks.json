@@ -1,5 +1,5 @@
 {
-    "reflar-webhooks": {
+    "fof-webhooks": {
         "actions": {
             "discussion": {
                 "started": "发布主题 `{1}`",
@@ -65,30 +65,30 @@
                         "discussion": {
                             "title": "Flarum 主题",
                             "started": "已发布",
-                            "renamed": "=> reflar-webhooks.ref.renamed",
-                            "hidden": "=> reflar-webhooks.ref.hidden",
-                            "restored": "=> reflar-webhooks.ref.restored",
-                            "deleted": "=> reflar-webhooks.ref.deleted"
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "hidden": "=> fof-webhooks.ref.hidden",
+                            "restored": "=> fof-webhooks.ref.restored",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "group": {
                             "title": "Flarum 用户组",
                             "created": "创建",
-                            "renamed": "=> reflar-webhooks.ref.renamed",
-                            "deleted": "=> reflar-webhooks.ref.deleted"
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "post": {
                             "title": "Flarum 回复",
                             "posted": "回复",
                             "revised": "编辑",
-                            "hidden": "=> reflar-webhooks.ref.hidden",
-                            "restored": "=> reflar-webhooks.ref.restored",
-                            "deleted": "=> reflar-webhooks.ref.deleted"
+                            "hidden": "=> fof-webhooks.ref.hidden",
+                            "restored": "=> fof-webhooks.ref.restored",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "user": {
                             "title": "Flarum 用户",
                             "registered": "注册",
-                            "renamed": "=> reflar-webhooks.ref.renamed",
-                            "deleted": "=> reflar-webhooks.ref.deleted"
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         }
                     }
                 }
