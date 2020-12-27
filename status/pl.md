@@ -678,7 +678,7 @@
 		<td align="center"><a href="https://packagist.org/packages/reflar/webhooks/stats">1810<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/reflar/webhooks/stats">103<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/reflar/webhooks/stats">1<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/reflar-webhooks/pl/"><img src="https://weblate.rob006.net/widgets/flarum/pl/reflar-webhooks/svg-badge.svg" alt="Translation status"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/fof-webhooks/pl/"><img src="https://weblate.rob006.net/widgets/flarum/pl/fof-webhooks/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td><a href="https://github.com/therealsujitk/flarum-ext-hljs" title="therealsujitk/flarum-ext-hljs"><code>therealsujitk/flarum-ext-hljs</code></a></td>

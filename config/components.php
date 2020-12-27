@@ -417,6 +417,9 @@ return [
 	'fof-username-request' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/username-request/0.4.0/resources/locale/en.yml',
 	],
+	'fof-webhooks' => [
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/webhooks/0.4.0/resources/locale/en.yml',
+	],
 	'funkeye-custom-welcome-hero' => [
 		'tag' => 'https://raw.githubusercontent.com/funkeye/custom-welcome-hero/0.1.1/resources/locale/en.yml',
 	],
@@ -572,9 +575,6 @@ return [
 	],
 	'reflar-twofactor' => [
 		'tag' => 'https://raw.githubusercontent.com/ReFlar/twofactor/0.1.3/resources/locale/en.yml',
-	],
-	'reflar-webhooks' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/webhooks/0.4.0/resources/locale/en.yml',
 	],
 	'reflar-webhooks-pro' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/reflar-webhooks-pro.yml',
