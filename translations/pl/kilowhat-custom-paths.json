@@ -2,7 +2,6 @@
     "kilowhat-custom-paths": {
         "admin": {
             "settings": {
-                "title": "Niestandardowe ścieżki",
                 "head": {
                     "name": "Nazwa",
                     "path": "Ścieżka"
@@ -13,12 +12,15 @@
                     "flarum-flags": "",
                     "fof-user-directory": "",
                     "fof-pages": "",
+                    "fof-gamification": "",
                     "askvortsov-categories": ""
                 },
                 "paths": {
                     "index": "",
                     "discussion": "",
                     "user": "",
+                    "user-discussions": "",
+                    "user-mentions": "",
                     "settings": "",
                     "notifications": "",
                     "tags": "",
@@ -27,11 +29,13 @@
                     "flags": "",
                     "fof-user-directory": "",
                     "fof-pages": "",
+                    "fof-gamification": "",
                     "askvortsov-categories": ""
                 },
                 "reset": "",
                 "disabled": "",
-                "redirect": ""
+                "redirect": "",
+                "title": "Niestandardowe ścieżki"
             }
         }
     }
