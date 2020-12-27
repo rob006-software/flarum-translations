@@ -47,7 +47,7 @@
             },
             "settings": {
                 "item": {
-                    "tag_any_label": ""
+                    "tag_any_label": "Dowolny"
                 },
                 "help": {
                     "disabled": "Ten webhook jest wyłączony, ponieważ nie ma żadnych aktywnych zdarzeń.",
@@ -57,16 +57,16 @@
                 "modal": {
                     "title": "Ustawienia webhooka",
                     "description": "Tutaj możesz ustawić dla jakich zdarzeń webhook będzie wywoływany.",
-                    "extra_text_label": "",
-                    "extra_text_help": "",
-                    "group_label": "",
-                    "group_help": "",
-                    "events_label": ""
+                    "extra_text_label": "Dodatkowy tekst",
+                    "extra_text_help": "Dodatkowy tekst, który zostanie dołączony podczas wysyłania webhooka.",
+                    "group_label": "Grupa",
+                    "group_help": "Wyślij zasoby, do których ma dostęp ta grupa",
+                    "events_label": "Zdarzenia"
                 },
                 "services": {
                     "discord": "Discord",
                     "slack": "Slack",
-                    "microsoft-teams": ""
+                    "microsoft-teams": "Microsoft Teams"
                 },
                 "actions": {
                     "flarum": {
