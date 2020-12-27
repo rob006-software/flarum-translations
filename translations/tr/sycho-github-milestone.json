@@ -1,28 +1,28 @@
 {
     "sycho-github-milestone": {
         "admin": {
-            "repository": "",
-            "repository_example": "",
-            "milestone": "",
-            "default_filter": "",
-            "closed": "",
-            "open": "",
-            "all": ""
+            "repository": "GitHub Repository",
+            "repository_example": "örnek: flarum/core",
+            "milestone": "Kilometre Taşı ID",
+            "default_filter": "Varsayılan Sıralama",
+            "closed": "=> sycho-github-milestone.ref.closed",
+            "open": "=> sycho-github-milestone.ref.open",
+            "all": "=> sycho-github-milestone.ref.all"
         },
         "forum": {
-            "title": "",
-            "last_updated": "",
-            "closed": "",
-            "open": "",
-            "all": "",
-            "complete": "",
-            "load_more": "",
-            "tasks_done": ""
+            "title": "Kilometre Taşı",
+            "last_updated": "Son güncelleme {time}",
+            "closed": "=> sycho-github-milestone.ref.closed",
+            "open": "=> sycho-github-milestone.ref.open",
+            "all": "=> sycho-github-milestone.ref.all",
+            "complete": "{progress} Tamamlandı",
+            "load_more": "=> core.forum.discussion_list.load_more_button",
+            "tasks_done": "{total} oranında {number}"
         },
         "ref": {
-            "closed": "",
-            "open": "",
-            "all": ""
+            "closed": "Kapandı",
+            "open": "Açık",
+            "all": "Tümü"
         }
     }
 }
