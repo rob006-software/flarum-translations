@@ -40,24 +40,24 @@
         "admin": {
             "errors": {
                 "service_not_found": "",
-                "url_invalid": ""
+                "url_invalid": "Bağlantı, seçilen servis için geçerli değil."
             },
             "nav": {
-                "desc": ""
+                "desc": "Forumunuz için özelleştirilebilir web kancaları."
             },
             "settings": {
                 "item": {
-                    "tag_any_label": ""
+                    "tag_any_label": "Hiç"
                 },
                 "help": {
-                    "disabled": "",
+                    "disabled": "Bu web kancası, etkin bir etkinliğe sahip olmadığı için kapatıldı.",
                     "general": "",
                     "url": ""
                 },
                 "modal": {
-                    "title": "",
+                    "title": "Web Kancaları Ayarları",
                     "description": "",
-                    "extra_text_label": "",
+                    "extra_text_label": "İlave Metin",
                     "extra_text_help": "",
                     "group_label": "",
                     "group_help": "",
@@ -73,30 +73,30 @@
                         "discussion": {
                             "title": "",
                             "started": "",
-                            "renamed": "",
-                            "hidden": "",
-                            "restored": "",
-                            "deleted": ""
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "hidden": "=> fof-webhooks.ref.hidden",
+                            "restored": "=> fof-webhooks.ref.restored",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "group": {
                             "title": "",
                             "created": "",
-                            "renamed": "",
-                            "deleted": ""
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "post": {
                             "title": "",
                             "posted": "",
                             "revised": "",
-                            "hidden": "",
-                            "restored": "",
-                            "deleted": ""
+                            "hidden": "=> fof-webhooks.ref.hidden",
+                            "restored": "=> fof-webhooks.ref.restored",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "user": {
-                            "title": "",
-                            "registered": "",
-                            "renamed": "",
-                            "deleted": ""
+                            "title": "Flarum Kullanıcısı",
+                            "registered": "Kayıtlı",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         }
                     }
                 },
@@ -104,10 +104,10 @@
             }
         },
         "ref": {
-            "deleted": "",
-            "hidden": "",
-            "renamed": "",
-            "restored": ""
+            "deleted": "Silindi",
+            "hidden": "Gizli",
+            "renamed": "Yeniden Adlandırıldı",
+            "restored": "Geri alındı"
         }
     }
 }
