@@ -4,17 +4,17 @@
             "settings": {
                 "step": {
                     "how_to": "Canonical yönlendirme nasıl etkinleştirilir",
-                    "check_config_url": "Config.php'de tanımlanan url'nin tercih ettiğiniz canonical URL olup olmadığını kontrol edin (şu anda: {url})",
-                    "admin_on_canonical": "Canonical URL üzerinden yönetici paneline erişin",
+                    "check_config_url": "Config.php'de tanımlanan bağlantının tercih ettiğiniz canonical bağlantı olup olmadığını kontrol edin (şu anda: {url})",
+                    "admin_on_canonical": "Canonical bağlantı üzerinden yönetici paneline erişin",
                     "enable_temporary": "Geçici yeniden yönlendirmeyi etkinleştirin ve her şeyin çalıştığını kontrol edin",
                     "enable_permanent": "Kalıcı yeniden yönlendirmeyi etkinleştir",
                     "suggestions": "Bu uzantının uygulamadığı veya kapsamadığı diğer öneriler",
-                    "use_https": "Bir HTTPS canonical URL'si kullanın",
+                    "use_https": "Bir HTTPS canonical bağlantısı kullanın",
                     "use_hsts": "Sürüm düşürme saldırılarını önlemek için HSTS kullanın"
                 },
                 "field": {
                     "status": "Yönlendirme türü",
-                    "wrong_url": "Uzantı ayarları, forumunuza canonical URL aracılığıyla eriştiğinizde görünecektir"
+                    "wrong_url": "Uzantı ayarları, forumunuza canonical bağlantısı aracılığıyla eriştiğinizde görünecektir"
                 },
                 "option": {
                     "disabled": "Devre dışı (uzantı hiçbir şey yapmaz)",
