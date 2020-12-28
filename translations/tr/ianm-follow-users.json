@@ -2,48 +2,48 @@
     "ianm-follow-users": {
         "admin": {
             "permissions": {
-                "be_followed_label": ""
+                "be_followed_label": "Kullanıcıların takip etmesine izin ver"
             }
         },
         "forum": {
-            "profile_link": "",
+            "profile_link": "=> ianm-follow-users.lib.following_link",
             "user_controls": {
-                "follow_button": "",
-                "follow_confirmation": "",
-                "unfollow_button": "",
-                "unfollow_confirmation": ""
+                "follow_button": "Takip et",
+                "follow_confirmation": "Bu kullanıcıyı takip etmek istediğinizden emin misiniz?",
+                "unfollow_button": "Takibi bırak",
+                "unfollow_confirmation": "Bu kullanıcıyı takip etmekten vazgeçmek istediğinizden emin misiniz?"
             },
             "settings": {
-                "notify_new_follower_label": "",
-                "notify_new_unfollower_label": "",
-                "notify_new_discussion_label": "",
-                "notify_new_post_label": "",
-                "block_follow": ""
+                "notify_new_follower_label": "Biri beni takip ediyor",
+                "notify_new_unfollower_label": "Birisi beni takip etmeyi bıraktı",
+                "notify_new_discussion_label": "Takip ettiğim biri bir tartışma başlatır",
+                "notify_new_post_label": "Mevcut bir tartışmadaki yayınları takip ettiğim biri",
+                "block_follow": "Kullanıcıların beni takip etmesini engelle"
             },
             "index": {
-                "follow_tag_button": "",
-                "unfollow_tag_button": ""
+                "follow_tag_button": "Takip et",
+                "unfollow_tag_button": "Takibi Bırak"
             },
             "notifications": {
-                "new_discussion_text": "",
-                "new_post_text": "",
-                "new_follower_text": "",
-                "new_unfollower_text": ""
+                "new_discussion_text": "{username} başladı",
+                "new_post_text": "{username} bir tartışma da gönderi paylaştı.",
+                "new_follower_text": "{username} sizi takip etti",
+                "new_unfollower_text": "{username} sizi takip etmeyi bıraktı"
             },
             "badge": {
-                "label": ""
+                "label": "Takip edilen kullanıcı"
             }
         },
         "email": {
-            "new_discussion_by_user_subject": "",
-            "new_follower_subject": "",
-            "new_post_subject": "",
-            "new_discussion_by_user_body": "",
-            "new_follower_body": "",
-            "new_post_body": ""
+            "new_discussion_by_user_subject": "[Kullanıcıyı Takip Et] {title}",
+            "new_follower_subject": "[Kullanıcıyı Takip Et] Yeni bir takipçiniz var!",
+            "new_post_subject": "[Kullanıcıyı Takip Et] {title} tartışmasında yeni gönderi",
+            "new_discussion_by_user_body": "Merhaba {recipient_display_name},\n\n{user_display_name} yeni bir tartışma başlattı: {discussion_title}\n\nYeni tartışmayı görüntülemek için aşağıdaki bağlantıya bakın:\n\n{discussion_url}\n\n---\n\n{post_content}\n",
+            "new_follower_body": "Merhaba {recipient_display_name},\n\n{follower_display_name} sizi takip etmeye başladı, böylece yeni bir tartışma başlattığınızda bilgilendirilecekler.\n\nProfillerini görüntülemek için aşağıdaki bağlantıya bakın:\n\n{profile_url}\n",
+            "new_post_body": "Merhaba {recipient_display_name},\n\n{user_display_name} bir tartışmada gönderi paylaştı: {discussion_title}\n\nYeni etkinliği görüntülemek için aşağıdaki bağlantıya göz atın:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nGüncel olana kadar bu tartışma hakkında başka bildirim almayacaksınız.\n"
         },
         "lib": {
-            "following_link": ""
+            "following_link": "Takip Edilen Kullanıcılar"
         }
     }
 }
