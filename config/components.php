@@ -429,6 +429,9 @@ return [
 	'hiqstd-close' => [
 		'tag' => 'https://raw.githubusercontent.com/HiQStd/flarum-ext-close/v1.0.0/resources/locale/en.yml',
 	],
+	'ianm-follow-users' => [
+		'tag' => 'https://raw.githubusercontent.com/imorland/follow-users/0.1.0/resources/locale/en.yml',
+	],
 	'ianm-synopsis' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/synopsis/0.1.0/resources/locale/en.yml',
 	],
