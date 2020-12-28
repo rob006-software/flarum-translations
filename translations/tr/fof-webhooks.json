@@ -2,44 +2,44 @@
     "fof-webhooks": {
         "actions": {
             "discussion": {
-                "started": "",
+                "started": "Tartışma başlatıldı `{1}`",
                 "renamed": {
-                    "title": "",
-                    "description": ""
+                    "title": "Tartışma yeniden adlandırıldı `{1}`",
+                    "description": "Yeni başlık: {1}"
                 },
-                "hidden": "",
-                "restored": "",
-                "deleted": ""
+                "hidden": "Tartışma gizlendi `{1}`",
+                "restored": "Tartışma geri yüklendi `{1}`",
+                "deleted": "Tartışma silindi `{1}`"
             },
             "group": {
-                "created": "",
-                "renamed": "",
-                "deleted": ""
+                "created": "Grup oluşturuldu `{1}`",
+                "renamed": "Grup adı değiştirildi `{1}`",
+                "deleted": "Grup silindi `{1}`"
             },
             "post": {
-                "posted": "",
-                "revised": "",
-                "hidden": "",
-                "restored": "",
-                "deleted": ""
+                "posted": "Yeni gönderi `{1}`",
+                "revised": "Gönderi düzenlendi `{1}`",
+                "hidden": "Gönderi gizlendi `{1}`",
+                "restored": "Gönderi geri yüklendi `{1}`",
+                "deleted": "Gönderi silindi `{1}`"
             },
             "user": {
-                "registered": "",
+                "registered": "Kayıtlı yeni kullanıcı",
                 "renamed": {
-                    "title": "",
-                    "description": ""
+                    "title": "Kullanıcı adı değiştirildi `{1}`",
+                    "description": "Yeni kullanıcı: {1}"
                 },
-                "deleted": ""
+                "deleted": "Kullanıcı silindi `{1}`"
             }
         },
         "adapters": {
             "errors": {
-                "404": ""
+                "404": "Webhook Bulunamadı"
             }
         },
         "admin": {
             "errors": {
-                "service_not_found": "",
+                "service_not_found": "'{service}' hizmeti bulunamıyor.",
                 "url_invalid": "Bağlantı, seçilen servis için geçerli değil."
             },
             "nav": {
@@ -51,43 +51,43 @@
                 },
                 "help": {
                     "disabled": "Bu web kancası, etkin bir etkinliğe sahip olmadığı için kapatıldı.",
-                    "general": "",
-                    "url": ""
+                    "general": "Burada forumunuza webhooklar ekleyebilir, düzenleyebilir ve kaldırabilirsiniz.",
+                    "url": "Webhook'un yürütülecek uç noktası"
                 },
                 "modal": {
                     "title": "Web Kancaları Ayarları",
-                    "description": "",
+                    "description": "Burada, webhookun hangi olaylarda tetikleneceğini değiştirirsiniz.",
                     "extra_text_label": "İlave Metin",
-                    "extra_text_help": "",
-                    "group_label": "",
-                    "group_help": "",
-                    "events_label": ""
+                    "extra_text_help": "Gönderilen webhooka eklenecek ekstra metin.",
+                    "group_label": "Grup",
+                    "group_help": "Bu grup tarafından görülebilecek kaynakları gönderin",
+                    "events_label": "Etkinlikler"
                 },
                 "services": {
-                    "discord": "",
-                    "slack": "",
-                    "microsoft-teams": ""
+                    "discord": "Discord",
+                    "slack": "Slack",
+                    "microsoft-teams": "Microsoft Teams"
                 },
                 "actions": {
                     "flarum": {
                         "discussion": {
-                            "title": "",
-                            "started": "",
+                            "title": "Flarum Tartışma",
+                            "started": "Başladı",
                             "renamed": "=> fof-webhooks.ref.renamed",
                             "hidden": "=> fof-webhooks.ref.hidden",
                             "restored": "=> fof-webhooks.ref.restored",
                             "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "group": {
-                            "title": "",
-                            "created": "",
+                            "title": "Flarum Grubu",
+                            "created": "Oluşturuldu",
                             "renamed": "=> fof-webhooks.ref.renamed",
                             "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "post": {
-                            "title": "",
-                            "posted": "",
-                            "revised": "",
+                            "title": "Flarum Gönderi",
+                            "posted": "Gönderildi",
+                            "revised": "Düzenlendi",
                             "hidden": "=> fof-webhooks.ref.hidden",
                             "restored": "=> fof-webhooks.ref.restored",
                             "deleted": "=> fof-webhooks.ref.deleted"
