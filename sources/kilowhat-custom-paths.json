@@ -2,7 +2,6 @@
     "kilowhat-custom-paths": {
         "admin": {
             "settings": {
-                "title": "Custom Paths",
                 "head": {
                     "name": "Name",
                     "path": "Path"
@@ -13,12 +12,15 @@
                     "flarum-flags": "Flarum's Flags",
                     "fof-user-directory": "FriendsOfFlarum's User Directory",
                     "fof-pages": "FriendsOfFlarum's Pages",
+                    "fof-gamification": "FriendsOfFlarum's Gamification",
                     "askvortsov-categories": "Askvortsov's Categories"
                 },
                 "paths": {
                     "index": "Discussion list (when not homepage)",
                     "discussion": "Discussion",
                     "user": "User profile",
+                    "user-discussions": "User discussions",
+                    "user-mentions": "User mentions",
                     "settings": "Settings",
                     "notifications": "Notifications (on mobile)",
                     "tags": "Tags list",
@@ -27,6 +29,7 @@
                     "flags": "Flags (on mobile)",
                     "fof-user-directory": "User directory",
                     "fof-pages": "Page",
+                    "fof-gamification": "Rankings",
                     "askvortsov-categories": "Categories"
                 },
                 "reset": "Reset path",

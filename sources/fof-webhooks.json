@@ -1,5 +1,5 @@
 {
-    "reflar-webhooks": {
+    "fof-webhooks": {
         "actions": {
             "discussion": {
                 "started": "Started discussion `{1}`",
@@ -46,7 +46,9 @@
                 "desc": "Customizable outgoing webhooks for your forum."
             },
             "settings": {
-                "title": "Webhooks",
+                "item": {
+                    "tag_any_label": "Any"
+                },
                 "help": {
                     "disabled": "This webhook is disabled because it doesn't have any events enabled.",
                     "general": "Here you can add, edit, and remove webhooks from your forum.",
@@ -54,41 +56,47 @@
                 },
                 "modal": {
                     "title": "Webhook Settings",
-                    "description": "Here you modify what events the webhook is fired on."
+                    "description": "Here you modify what events the webhook is fired on.",
+                    "extra_text_label": "Extra Text",
+                    "extra_text_help": "Extra text to include in the sent webhook.",
+                    "group_label": "Group",
+                    "group_help": "Send resources that can be seen by this group",
+                    "events_label": "Events"
                 },
                 "services": {
                     "discord": "Discord",
-                    "slack": "Slack"
+                    "slack": "Slack",
+                    "microsoft-teams": "Microsoft Teams"
                 },
                 "actions": {
                     "flarum": {
                         "discussion": {
                             "title": "Flarum Discussion",
                             "started": "Started",
-                            "renamed": "=> reflar-webhooks.ref.renamed",
-                            "hidden": "=> reflar-webhooks.ref.hidden",
-                            "restored": "=> reflar-webhooks.ref.restored",
-                            "deleted": "=> reflar-webhooks.ref.deleted"
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "hidden": "=> fof-webhooks.ref.hidden",
+                            "restored": "=> fof-webhooks.ref.restored",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "group": {
                             "title": "Flarum Group",
                             "created": "Created",
-                            "renamed": "=> reflar-webhooks.ref.renamed",
-                            "deleted": "=> reflar-webhooks.ref.deleted"
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "post": {
                             "title": "Flarum Post",
                             "posted": "Posted",
                             "revised": "Edited",
-                            "hidden": "=> reflar-webhooks.ref.hidden",
-                            "restored": "=> reflar-webhooks.ref.restored",
-                            "deleted": "=> reflar-webhooks.ref.deleted"
+                            "hidden": "=> fof-webhooks.ref.hidden",
+                            "restored": "=> fof-webhooks.ref.restored",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "user": {
                             "title": "Flarum User",
                             "registered": "Registered",
-                            "renamed": "=> reflar-webhooks.ref.renamed",
-                            "deleted": "=> reflar-webhooks.ref.deleted"
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         }
                     }
                 }

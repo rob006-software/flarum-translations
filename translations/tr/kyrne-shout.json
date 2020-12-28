@@ -33,7 +33,7 @@
                 "search_recipients": "Kullanıcı adı girin...",
                 "submit": "Gönder & Sohbet Başlat",
                 "copied": "Mesajınız panoya kopyalandı.",
-                "more_users": "",
+                "more_users": "Aradığınız kullanıcıyı göremezseniz, özel mesajlaşma kurulumuna sahip değildir.",
                 "already": "{username} kullanıcısı ile zaten bir sohbetiniz mevcut."
             },
             "user_modal_alert": "{username} özel mesajlaşmayı ayarlamış, şifreleri güvenli bir şekilde değiştirilemez.",
@@ -42,13 +42,13 @@
                 "messages_multiple": "{count} toplam mesaj",
                 "messages_single": "Yeni sohbet",
                 "start": "Sohbet Başlat",
-                "cant_start": "",
+                "cant_start": "Görüşme Başlatılamıyor",
                 "text_placeholder": "Mesajınızı yazın",
                 "send": "Mesaj Gönder",
-                "recovery_message": "",
-                "failed_message": "",
+                "recovery_message": "Sistem mesajı: Şifreleme senkronizasyonu kayboldu ve kurtarıldı",
+                "failed_message": "Mesajın şifresi çözülemedi, kurtarma yöntemi #{method} deneniyor",
                 "cant_send": "{username} yanıt verene kadar yeni bir mesaj gönderemezsiniz (yalnızca ilk mesaj için geçerli)",
-                "cant_send_toomany": "",
+                "cant_send_toomany": "Daha fazla mesaj göndermeden önce lütfen {username} yanıtını bekleyin",
                 "failed_to_decrypt": "[Şifre çözülürken hata oluştu]",
                 "start_of_conversation": "Sohbet Başlangıcı"
             }

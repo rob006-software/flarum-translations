@@ -2,12 +2,12 @@
     "zhishiq": {
         "redis": {
             "admin": {
-                "setting_title": "",
-                "client": "",
-                "host": "",
-                "port": "",
-                "password": "",
-                "database": ""
+                "setting_title": "Redis Bağlama Aracı",
+                "client": "İstemci (Varsayılan: phpredis)",
+                "host": "Host (Varsayılan: 127.0.0.1)",
+                "port": "Port (Varsayılan: 6379)",
+                "password": "Şifre",
+                "database": "Veritabanı (Varsayılan: 0)"
             }
         }
     }

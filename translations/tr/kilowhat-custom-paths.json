@@ -2,7 +2,6 @@
     "kilowhat-custom-paths": {
         "admin": {
             "settings": {
-                "title": "Özel Dizinler",
                 "head": {
                     "name": "İsim",
                     "path": "Dizin"
@@ -13,12 +12,15 @@
                     "flarum-flags": "Flarum Bildirmeleri",
                     "fof-user-directory": "FriendsOfFlarum Kullanıcı Dizini",
                     "fof-pages": "FriendsOfFlarum Sayfalar",
+                    "fof-gamification": "",
                     "askvortsov-categories": "Askvortsov Kategoriler"
                 },
                 "paths": {
                     "index": "Tartışma listesi (anasayfada olmadığınızda)",
                     "discussion": "Tartışma",
                     "user": "Kullanıcı profili",
+                    "user-discussions": "",
+                    "user-mentions": "",
                     "settings": "Ayarlar",
                     "notifications": "Bildirimler (mobilde)",
                     "tags": "Etiketler listesi",
@@ -27,11 +29,13 @@
                     "flags": "Bildirilenler (mobilde)",
                     "fof-user-directory": "Kullanıcı dizini",
                     "fof-pages": "Sayfalar",
+                    "fof-gamification": "",
                     "askvortsov-categories": "Kategoriler"
                 },
                 "reset": "Dizinleri sıfırla",
                 "disabled": "Uzantı etkinleştirilmemiş",
-                "redirect": "Varsayılan Flarum dizinlerini yeni dizinlere yönlendirin"
+                "redirect": "Varsayılan Flarum dizinlerini yeni dizinlere yönlendirin",
+                "title": "Özel Dizinler"
             }
         }
     }

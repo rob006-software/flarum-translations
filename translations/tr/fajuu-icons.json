@@ -19,29 +19,29 @@
             },
             "icon_import": {
                 "title": "Simge İçe Aktarma",
-                "about": "",
-                "not_json": "",
-                "import_button": "",
-                "restore_button": ""
+                "about": "Buraya içe aktarılan simgeleri JSON biçiminde girin.",
+                "not_json": "İçerik, geçerli bir JSON dizesi olmalıdır.",
+                "import_button": "İçe aktar",
+                "restore_button": "Varsayılan simgeleri geri yükleyin"
             },
             "icon_export": {
-                "title": "",
-                "close_button": "",
-                "copy_button": "",
-                "copy_success": "",
-                "copy_error": ""
+                "title": "Simgeleri Dışa Aktar",
+                "close_button": "Kapat",
+                "copy_button": "Kopyala",
+                "copy_success": "İçerik kopyalandı.",
+                "copy_error": "İçerik kopyalanmadı."
             },
             "icons": {
-                "about_icons_text": "",
+                "about_icons_text": "Burada mevcut forum simgelerini istediğiniz gibi değiştirebilirsiniz!\nDeğiştirmek istediğiniz simgeyi forumda arayın (orijinal simge), ona giden yolu (yol öğesi) girin ve yeni bir simge (değiştirilmiş simge) seçin.\nTüm simgeler, <a>Font Awesome</a> simgelerinden oluşan bir pakettir.\n",
                 "settings_button": "Ayarlar",
                 "list_icons_button": "İkonlar listesi",
                 "import_icons_button": "İkonları içe aktar",
                 "export_icons_button": "İkonları dışa aktar",
-                "key_error": ""
+                "key_error": "Kit kodu bulunamadı veya yanlış. Simge ayarlarınızı kontrol edin ve değiştirin! Değişiklikleri kaydettikten sonra sayfayı yenileyin."
             }
         },
         "ref": {
-            "icons": ""
+            "icons": "Simgeler"
         }
     }
 }

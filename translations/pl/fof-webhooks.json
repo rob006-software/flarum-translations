@@ -1,5 +1,5 @@
 {
-    "reflar-webhooks": {
+    "fof-webhooks": {
         "actions": {
             "discussion": {
                 "started": "Rozpoczęto dyskusję `{1}`",
@@ -46,7 +46,9 @@
                 "desc": "Konfigurowalne wychodzące webhooki dla Twojego forum."
             },
             "settings": {
-                "title": "Webhooki",
+                "item": {
+                    "tag_any_label": "Dowolny"
+                },
                 "help": {
                     "disabled": "Ten webhook jest wyłączony, ponieważ nie ma żadnych aktywnych zdarzeń.",
                     "general": "Tutaj możesz dodać, edytować oraz usuwać webhooki dla swojego forum.",
@@ -54,11 +56,17 @@
                 },
                 "modal": {
                     "title": "Ustawienia webhooka",
-                    "description": "Tutaj możesz ustawić dla jakich zdarzeń webhook będzie wywoływany."
+                    "description": "Tutaj możesz ustawić dla jakich zdarzeń webhook będzie wywoływany.",
+                    "extra_text_label": "Dodatkowy tekst",
+                    "extra_text_help": "Dodatkowy tekst, który zostanie dołączony podczas wysyłania webhooka.",
+                    "group_label": "Grupa",
+                    "group_help": "Wyślij zasoby, do których ma dostęp ta grupa",
+                    "events_label": "Zdarzenia"
                 },
                 "services": {
                     "discord": "Discord",
-                    "slack": "Slack"
+                    "slack": "Slack",
+                    "microsoft-teams": "Microsoft Teams"
                 },
                 "actions": {
                     "flarum": {
@@ -91,7 +99,8 @@
                             "deleted": "Usunięto"
                         }
                     }
-                }
+                },
+                "title": "Webhooki"
             }
         },
         "ref": {

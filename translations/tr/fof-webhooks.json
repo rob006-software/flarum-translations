@@ -1,5 +1,5 @@
 {
-    "reflar-webhooks": {
+    "fof-webhooks": {
         "actions": {
             "discussion": {
                 "started": "",
@@ -46,7 +46,9 @@
                 "desc": ""
             },
             "settings": {
-                "title": "",
+                "item": {
+                    "tag_any_label": ""
+                },
                 "help": {
                     "disabled": "",
                     "general": "",
@@ -54,11 +56,17 @@
                 },
                 "modal": {
                     "title": "",
-                    "description": ""
+                    "description": "",
+                    "extra_text_label": "",
+                    "extra_text_help": "",
+                    "group_label": "",
+                    "group_help": "",
+                    "events_label": ""
                 },
                 "services": {
                     "discord": "",
-                    "slack": ""
+                    "slack": "",
+                    "microsoft-teams": ""
                 },
                 "actions": {
                     "flarum": {
@@ -91,7 +99,8 @@
                             "deleted": ""
                         }
                     }
-                }
+                },
+                "title": ""
             }
         },
         "ref": {

@@ -4,8 +4,8 @@ This repository contains raw translations data used by [Weblate](https://github.
 
 Currently supported languages:
 
-* [Chinese (Simplified)](https://github.com/Littlegolden/flarum-lang-simplified-chinese) maintained by [Littlegolden](https://github.com/Littlegolden) ([detailed translation status](status/zh_Hans.md))
-* [Japanese](https://github.com/Littlegolden/flarum-lang-japanese) maintained by [Littlegolden](https://github.com/Littlegolden) and [rikusen0335](https://github.com/rikusen0335) ([detailed translation status](status/ja.md))
+* [Chinese (Simplified)](https://github.com/FFans/lang-simplified-chinese) maintained by [Littlegolden](https://github.com/Littlegolden) ([detailed translation status](status/zh_Hans.md))
+* [Japanese](https://github.com/FFans/lang-japanese) maintained by [Littlegolden](https://github.com/Littlegolden) and [rikusen0335](https://github.com/rikusen0335) ([detailed translation status](status/ja.md))
 * [Polish](https://github.com/rob006-software/flarum-lang-polish) maintained by [rob006](https://github.com/rob006) ([detailed translation status](status/pl.md))
 * Turkish ([core](https://github.com/tolgaaaltas/flarum-lang-turkish) and [extensions](https://github.com/tolgaaaltas/flarum-ext-turkish)) maintained by [tolgaaaltas](https://github.com/tolgaaaltas) ([detailed translation status](status/tr.md))
 
@@ -112,6 +112,7 @@ If you're maintaining language pack or want to add it to the collective, open an
 | [FoF User Bio](https://github.com/FriendsOfFlarum/user-bio) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/fof-user-bio/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/fof-user-bio/) |
 | [FoF User Directory](https://github.com/FriendsOfFlarum/user-directory) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/fof-user-directory/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/fof-user-directory/) |
 | [FoF Username Request](https://github.com/FriendsOfFlarum/username-request) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/fof-username-request/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/fof-username-request/) |
+| [FoF Webhooks](https://github.com/FriendsOfFlarum/webhooks) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/fof-webhooks/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/fof-webhooks/) |
 | [FoF reCAPTCHA](https://github.com/FriendsOfFlarum/recaptcha) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/fof-recaptcha/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/fof-recaptcha/) |
 
 <!-- fof-extensions-list-stop -->
@@ -123,6 +124,7 @@ If you're maintaining language pack or want to add it to the collective, open an
 
 | Extension | Status |
 | --- | --- |
+| [Action Log by Sycho](https://github.com/SychO9/flarum-action-log) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/sycho-action-log/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/sycho-action-log/) |
 | [Advanced Pusher by Zhishiq](https://github.com/ZhiShiQ/FlarumPusher) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/zhishiq-pusher/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/zhishiq-pusher/) |
 | [Affiliation Links by Kilowhat](https://github.com/kilowhat/flarum-ext-affiliation-links) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/kilowhat-affiliation-links/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/kilowhat-affiliation-links/) |
 | [Artuu Imager by Artuu](https://github.com/Artuuuu/flarum-imager) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/artuu-imager/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/artuu-imager/) |
@@ -229,7 +231,6 @@ If you're maintaining language pack or want to add it to the collective, open an
 | [ReFlar Level Ranks by Reflar](https://github.com/ReFlar/level-ranks) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/reflar-level-ranks/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/reflar-level-ranks/) |
 | [ReFlar Two Factor by Reflar](https://github.com/ReFlar/twofactor) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/reflar-twofactor/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/reflar-twofactor/) |
 | [ReFlar Webhooks PRO by Reflar](https://extiverse.com/extension/reflar/webhooks-pro) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/reflar-webhooks-pro/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/reflar-webhooks-pro/) |
-| [ReFlar Webhooks by Reflar](https://github.com/ReFlar/webhooks) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/reflar-webhooks/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/reflar-webhooks/) |
 | [Redis Connector by Zhishiq](https://github.com/ZhiShiQ/FlarumRedis) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/zhishiq-redis/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/zhishiq-redis/) |
 | [Registration Roles by The turk](https://github.com/the-turk/flarum-regrole) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/the-turk-regrole/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/the-turk-regrole/) |
 | [Reply 2 See by Kvothe](https://github.com/oaklinq/flarum-ext-reply2see) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/kvothe-reply-to-see/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/kvothe-reply-to-see/) |
@@ -249,6 +250,7 @@ If you're maintaining language pack or want to add it to the collective, open an
 | [Status by Clarkwinkelmann](https://github.com/clarkwinkelmann/flarum-ext-status) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/clarkwinkelmann-status/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-status/) |
 | [Support by V17development](https://extiverse.com/extension/v17development/flarum-support) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/v17development-support/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/v17development-support/) |
 | [Syndication by Amaurycarrade](https://github.com/AmauryCarrade/flarum-ext-syndication) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/amaurycarrade-syndication/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/amaurycarrade-syndication/) |
+| [Synopsis by Ianm](https://github.com/imorland/synopsis) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/ianm-synopsis/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/ianm-synopsis/) |
 | [Tags Color Generator by Nearata](https://github.com/Nearata/flarum-ext-tags-color-generator) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/nearata-tags-color-generator/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/nearata-tags-color-generator/) |
 | [Telegram by Dexif](https://github.com/dexif/telegram) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/dexif-telegram/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/dexif-telegram/) |
 | [UI Tab  by Itnt](https://github.com/Littlegolden/flarum-uitab) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/itnt-uitab/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/itnt-uitab/) |
