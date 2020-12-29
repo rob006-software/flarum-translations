@@ -460,7 +460,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-affiliation-links/0.2.0/resources/locale/en.yml',
 	],
 	'kilowhat-audit-free' => [
-		'tag' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-audit-free/1.3.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-audit-free/1.3.1/resources/locale/en.yml',
 	],
 	'kilowhat-audit-pro' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/kilowhat-audit-pro.yml',
