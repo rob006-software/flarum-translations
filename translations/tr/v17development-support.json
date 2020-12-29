@@ -42,7 +42,7 @@
                 "searching": "Aranıyor",
                 "searching_for": "{searchterm} için aranıyor",
                 "searched_for": "{searchterm} için {results} arama sonucu bulundu.",
-                "use_searchbox_below": "",
+                "use_searchbox_below": "Bilgi merkezinde arama yapmak için aşağıdaki arama kutusunu kullanın.",
                 "no_results": "{searchterm} için hiç sonuç bulamadık."
             },
             "not_found": {
@@ -83,30 +83,30 @@
                 "enter_feedback": "Geri bildiriminizi buraya girin",
                 "finished": "Teşekkürler! Geri bildirimininiz kaydedildi.",
                 "validation": {
-                    "invalid_discussion": "",
-                    "guest": "",
-                    "invalid_points": "",
-                    "cannot_rate_article": "",
-                    "neutral_emoji_disabled": "",
-                    "missing_article_id": ""
+                    "invalid_discussion": "Ups, bir şeyler yanlış gitti. Bu makaleyi/yardım talebini derecelendiremezsin.",
+                    "guest": "Bu makaleyi derecelendirmeden önce lütfen giriş yapın.",
+                    "invalid_points": "Bilinmeyen derecelendirme. Lütfen tekrar deneyin.",
+                    "cannot_rate_article": "Bu makaleyi derecelendiremezsin.",
+                    "neutral_emoji_disabled": "Kararsız ifadesi devre dışı bırakılmıştır.",
+                    "missing_article_id": "Kayıp veya var olmayan makale ID'si"
                 }
             },
             "modals": {
                 "audit_log": {
-                    "title": "",
-                    "article_created": "",
-                    "no_more_events": "",
-                    "loading_auditlog": ""
+                    "title": "Makale denetim günlüğü",
+                    "article_created": "Makale oluşturuldu",
+                    "no_more_events": "Daha fazla etkinlik bulunamadı",
+                    "loading_auditlog": "Denetim günlüğü yükleniyor"
                 },
                 "article_ratings": {
-                    "title": "",
-                    "loading_ratings": "",
-                    "no_ratings_found": "",
-                    "article_not_rated": "",
-                    "confirm_delete_rating": "",
-                    "feedback": "",
-                    "rating": "",
-                    "username": "",
+                    "title": "Makale derecelendirmeleri",
+                    "loading_ratings": "Derecelendirmeler yükleniyor",
+                    "no_ratings_found": "Arama kriterlerinizle eşleşen derecelendirme bulunamadı",
+                    "article_not_rated": "Bu makale henüz derecelendirilmemiş.",
+                    "confirm_delete_rating": "Bu derecelendirmeyi silmek istediğinize emin misiniz?",
+                    "feedback": "Geri Bildirim",
+                    "rating": "Derecelendirme",
+                    "username": "=> core.ref.username",
                     "rated_on": ""
                 },
                 "events": {
@@ -124,14 +124,14 @@
                 "compose_article": "",
                 "new_article_title": "",
                 "enter_message_here": "",
-                "publish_article": "",
-                "publish_article_hint": "",
-                "manage_tags": "",
-                "write": "",
+                "publish_article": "Makaleyi paylaş",
+                "publish_article_hint": "Makaleyi gönderdikten sonra paylaş.",
+                "manage_tags": "Etiketleri yönet",
+                "write": "Yaz",
                 "view": "",
-                "nothing_to_preview": "",
+                "nothing_to_preview": "Önizlenecek bir şey yok",
                 "warning_save_changes": "",
-                "article_saved": ""
+                "article_saved": "Makale kaydedildi"
             }
         }
     }
