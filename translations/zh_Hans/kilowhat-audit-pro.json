@@ -4,10 +4,6 @@
             "permissions": {
                 "view": "查看审计日志"
             },
-            "menu": {
-                "title": "审计日志",
-                "description": "审查近期的论坛活动。"
-            },
             "header": {
                 "title": "审计",
                 "free": "免费版",
@@ -16,6 +12,10 @@
                 "documentation": "完整的在线文档",
                 "discuss": "Flarum 社区发布帖",
                 "version": "版本 {version}"
+            },
+            "menu": {
+                "title": "审计日志",
+                "description": "审查近期的论坛活动。"
             }
         },
         "forum": {
