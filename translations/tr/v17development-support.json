@@ -10,6 +10,8 @@
             "send": "Gönder",
             "create": "Oluştur",
             "discard": "İptal",
+            "reopen": "",
+            "support_tickets": "",
             "hero": {
                 "help_question": "Sana nasıl yardımcı olabiliriz?",
                 "check_forum": "Aradığını bulamıyorsan <a>foruma göz atabilirsin</a>"
@@ -122,6 +124,7 @@
             },
             "composer": {
                 "compose_article": "Makale oluştur",
+                "compose_ticket": "",
                 "new_article_title": "Yeni makale başlığı",
                 "enter_message_here": "Mesajınızı buraya girin",
                 "publish_article": "Makaleyi paylaş",
@@ -132,6 +135,128 @@
                 "nothing_to_preview": "Önizlenecek bir şey yok",
                 "warning_save_changes": "UYARI: Bu sayfadan ayrılmak üzeresiniz ve değişikliklerinizi kaydetmediniz. Ayrılmadan önce değişikliklerinizi kaydetmek ister misiniz?\n\n[OK] = Evet, kaydet. [CANCEL] = Hayır, kaydetme\n",
                 "article_saved": "Makale kaydedildi"
+            },
+            "tickets": {
+                "ticket": "",
+                "subject": "",
+                "ticket_does_not_exist": "",
+                "return_to_overview": "",
+                "ticket_overview": "",
+                "opened_on": "",
+                "status": {
+                    "new": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "open": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "pending": {
+                        "title": "",
+                        "description": "",
+                        "description_user": ""
+                    },
+                    "closed": {
+                        "title": "",
+                        "description": "",
+                        "is_closed": "",
+                        "close_after_posting": ""
+                    },
+                    "on_hold": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "duplicate": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "solved": {
+                        "title": "",
+                        "description": "",
+                        "mark_as_solved": ""
+                    }
+                },
+                "tools": {
+                    "view_ticket": "",
+                    "update_subject": "",
+                    "assign_me": "",
+                    "remove_me": "",
+                    "update_status": "",
+                    "close_ticket": ""
+                },
+                "new_tickets_dropdown": {
+                    "title": "",
+                    "no_tickets": "",
+                    "ticket_new": "",
+                    "ticket_updated": ""
+                },
+                "fields": {
+                    "language": {
+                        "title": "",
+                        "placeholder": "",
+                        "empty": "",
+                        "description": ""
+                    },
+                    "subject": {
+                        "title": "",
+                        "placeholder": "",
+                        "description": ""
+                    },
+                    "information": {
+                        "title": "",
+                        "placeholder": ""
+                    },
+                    "status": {
+                        "title": "",
+                        "placeholder": ""
+                    },
+                    "assignees": {
+                        "title": "",
+                        "placeholder": ""
+                    }
+                },
+                "compose_ticket": {
+                    "title": "",
+                    "private_support": "",
+                    "not_allowed": ""
+                },
+                "load_more": {
+                    "title": ""
+                },
+                "my_tickets": {
+                    "title": "",
+                    "description": "",
+                    "no_tickets": ""
+                },
+                "overview": {
+                    "title": "",
+                    "description": "",
+                    "no_tickets": "",
+                    "all_tickets": ""
+                }
+            }
+        },
+        "emails": {
+            "replied_to_ticket": {
+                "subject": "",
+                "body": ""
+            },
+            "ticket_status_update": {
+                "subject": "",
+                "body": ""
+            },
+            "ticket_resolved": {
+                "subject": "",
+                "body": ""
+            },
+            "ticket_pending_reply": {
+                "subject": "",
+                "body": ""
+            },
+            "ticket_pending_reply_closed": {
+                "subject": "",
+                "body": ""
             }
         }
     }
