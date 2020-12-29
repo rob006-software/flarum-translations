@@ -103,7 +103,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-passwordless/1.1.0/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-popular-discussion-badge' => [
-		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-popular-discussion-badge/0.2.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-popular-discussion-badge/0.2.2/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-scratchpad' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-scratchpad/1.3.0/resources/locale/en.yml',
