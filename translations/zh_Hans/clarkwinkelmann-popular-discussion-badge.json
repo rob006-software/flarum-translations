@@ -5,7 +5,6 @@
         },
         "admin": {
             "settings": {
-                "title": "热门主题标记 - 设置",
                 "mode": "工作模式",
                 "mode_help": "前端模式是一种不使用数据库的高效解决方案。计划模式需要进行 CRON 计划任务设置，并允许限定时间范围。\n",
                 "mode_options": {
@@ -32,7 +31,8 @@
                 "within_placeholder": "所有",
                 "hours": "小时内",
                 "and": "且",
-                "or": "或"
+                "or": "或",
+                "title": "热门主题标记 - 设置"
             }
         }
     }

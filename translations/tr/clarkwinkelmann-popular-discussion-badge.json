@@ -5,7 +5,6 @@
         },
         "admin": {
             "settings": {
-                "title": "Popüler tartışmalar rozeti ayarları",
                 "mode": "Çalışma modu",
                 "mode_help": "Frontend modu veritabanını kullanmayan verimli bir çözümdür.  Zamanlayıcı modu bir CRON kurulumu gerektirir ve koşullardaki zaman çerçevelerine izin verir.\n",
                 "mode_options": {
@@ -32,7 +31,8 @@
                 "within_placeholder": "tüm",
                 "hours": "s",
                 "and": "VE",
-                "or": "VEYA"
+                "or": "VEYA",
+                "title": "Popüler tartışmalar rozeti ayarları"
             }
         }
     }
