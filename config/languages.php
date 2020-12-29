@@ -17,7 +17,7 @@ return [
 	'ja' => getComponents(),
 	'pl' => getComponents(),
 	'tr' => getComponents([
-		// the-turk extensions has TR translations included
+		// the-turk extensions have TR translations included
 		// @see https://github.com/rob006-software/flarum-translations/issues/425
 		'!the-turk-diff',
 		'!the-turk-edit-notifications',
