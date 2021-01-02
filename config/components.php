@@ -153,9 +153,6 @@ return [
 	'estevao-simoes-microsoft-auth' => [
 		'tag' => 'https://raw.githubusercontent.com/estevao-simoes/flarum-microsoft-auth/v0.1.1-beta/resources/locale/en.yml',
 	],
-	'extiverse-bazaar' => [
-		'tag' => 'https://raw.githubusercontent.com/extiverse/bazaar/0.4.1/resources/locale/en.yml',
-	],
 	'fajuu-contactbutton' => [
 		'tag' => 'https://raw.githubusercontent.com/Fajuu/ContactButton/v3.0/locale/en.yml',
 	],
