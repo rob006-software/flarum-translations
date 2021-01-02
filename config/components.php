@@ -537,6 +537,9 @@ return [
 	'minr-auth-weibo' => [
 		'tag' => 'https://raw.githubusercontent.com/minr/auth-weibo/v0.1.8/locale/en.yml',
 	],
+	'morgandusty-category-russian' => [
+		'tag' => 'https://raw.githubusercontent.com/morgandusty/flarum-category-russian/2.8/resources/locale/en.yml',
+	],
 	'nearata-copy-code-to-clipboard' => [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-copy-code-to-clipboard/v1.1.0/resources/locale/en.yml',
 	],
