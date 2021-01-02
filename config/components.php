@@ -170,10 +170,6 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.15/locale/flarum-approval.yml',
 		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-approval.yml',
 	],
-	'flarum-auth-twitter' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.15/locale/flarum-auth-twitter.yml',
-		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-auth-twitter.yml',
-	],
 	'flarum-emoji' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.15/locale/flarum-emoji.yml',
 		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-emoji.yml',
