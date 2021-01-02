@@ -231,9 +231,6 @@ return [
 	'fof-analytics' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/analytics/0.11.0/resources/locale/en.yml',
 	],
-	'fof-auth-gitlab' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/auth-gitlab/0.2.0/resources/locale/en.yml',
-	],
 	'fof-ban-ips' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ban-ips/0.4.0/resources/locale/en.yml',
 	],
