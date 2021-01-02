@@ -42,9 +42,6 @@ return [
 	'askvortsov-categories' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-categories/v2.0.0/resources/locale/en.yml',
 	],
-	'askvortsov-copy-links' => [
-		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-copy-links/v0.1.1/resources/locale/en.yml',
-	],
 	'askvortsov-discussion-templates' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-discussion-templates/v0.3.0/resources/locale/en.yml',
 	],
