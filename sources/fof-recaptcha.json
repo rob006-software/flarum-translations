@@ -7,7 +7,13 @@
                 "site_key_label": "Site Key",
                 "title": "FriendsOfFlarum reCAPTCHA",
                 "type_label": "reCAPTCHA Type"
+            },
+            "permissions": {
+                "post_without_captcha": "Create posts and discussions without captcha"
             }
+        },
+        "forum": {
+            "error": "There was an error submitting reCAPTCHA. Try again."
         }
     },
     "validation": {
