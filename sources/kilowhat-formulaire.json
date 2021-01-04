@@ -22,18 +22,18 @@
         },
         "forum": {
             "nav": {
-                "forms": "Forms manager"
+                "forms": "=> kilowhat-formulaire.ref.manager"
             },
             "form-index": {
                 "header": {
-                    "title": "Forms manager",
+                    "title": "=> kilowhat-formulaire.ref.manager",
                     "documentation": "Full online documentation",
                     "discuss": "Discussion on Flarum Discuss"
                 },
                 "tabs": {
-                    "standalone": "Standalone forms",
-                    "discussion": "Discussion fields",
-                    "user": "User profile"
+                    "standalone": "=> kilowhat-formulaire.ref.type.standalone",
+                    "discussion": "=> kilowhat-formulaire.ref.type.discussion",
+                    "user": "=> kilowhat-formulaire.ref.type.user"
                 },
                 "empty": "No forms",
                 "load-more": "Load more",
@@ -58,20 +58,45 @@
                     "create": "Create form"
                 }
             },
-            "form-edit": {
-                "preview": "Preview",
-                "save-for-preview": "Save for preview",
-                "expert-mode": "Expert mode",
+            "form-edit-header": {
+                "back": "Back",
+                "category": {
+                    "standalone": "=> kilowhat-formulaire.ref.type.standalone",
+                    "discussion": "=> kilowhat-formulaire.ref.type.discussion",
+                    "user": "=> kilowhat-formulaire.ref.type.user"
+                },
+                "tabs": {
+                    "template": "Template",
+                    "placement": "Placement",
+                    "access": "Access",
+                    "notifications": "Notifications",
+                    "submissions": "Submissions"
+                },
+                "access-status": {
+                    "closed": "Closed",
+                    "create": "Create only",
+                    "edit": "Edit only",
+                    "both": "Create and edit"
+                },
+                "controls": "Controls",
+                "template-export": "Template import/export",
+                "enable-expert-mode": "Enable expert mode",
+                "disable-expert-mode": "Disable expert mode",
                 "restore": "Restore",
                 "hide": "Delete",
                 "delete": "Delete permanently",
                 "delete-confirmation": "The form \"{title}\" will be permanently deleted",
-                "title": "Edit form",
+                "fields": {
+                    "private-title": "Private title",
+                    "slug": "Custom URL slug (optional)"
+                }
+            },
+            "form-edit": {
+                "expert-mode-warning": "Expert mode is enabled. This lets you customize field identifiers and per-field permissions. Make sure you read the documentation about those feature, as you might break things!\n",
                 "template": "Template",
                 "field": {
                     "link": "Special form types",
-                    "title": "Title",
-                    "slug": "Slug (url)",
+                    "title": "Public title",
                     "automatic-discussion": "Automatically create discussions from form submission",
                     "automatic-discussion-help": "When enabled, the form will continue to be accessible like a standalone form. Submissions will automatically create and connect with new discussions.\n",
                     "accept-submissions": "Accept new submissions",
@@ -90,7 +115,10 @@
                 },
                 "auto-discussion-options": "Options for new discussions",
                 "email-confirmation-options": "Confirmation email template",
-                "email-notification-options": "Notification email template"
+                "email-notification-options": "Notification email template",
+                "exiting-with-unsaved-data": "You have unsaved changes. Do you really want to quit the page?",
+                "preview": "Preview in new tab",
+                "save-for-preview": "Save for preview"
             },
             "auto-discussion-options-modal": {
                 "title": "Automatic discussion options",
@@ -128,7 +156,8 @@
                 "add-field": "Add a field",
                 "title": "Title",
                 "description": "Description",
-                "key": "JSON key in the submission payload",
+                "key": "(Expert) JSON key in the submission payload",
+                "fill-permission": "(Expert) Fill permissions",
                 "required": "Required",
                 "rich": "Rich text (TextFormatter)",
                 "min": "Minimum",
@@ -270,6 +299,14 @@
             "edit": "Edit",
             "footer": "Sent from {title}",
             "sub-entries": "{count} entries"
+        },
+        "ref": {
+            "manager": "Forms manager",
+            "type": {
+                "standalone": "Standalone forms",
+                "discussion": "Discussion fields",
+                "user": "User profile"
+            }
         }
     }
 }

@@ -65,20 +65,45 @@
                     "create": ""
                 }
             },
-            "form-edit": {
-                "preview": "",
-                "save-for-preview": "",
-                "expert-mode": "",
+            "form-edit-header": {
+                "back": "",
+                "category": {
+                    "standalone": "",
+                    "discussion": "",
+                    "user": ""
+                },
+                "tabs": {
+                    "template": "",
+                    "placement": "",
+                    "access": "",
+                    "notifications": "",
+                    "submissions": ""
+                },
+                "access-status": {
+                    "closed": "",
+                    "create": "",
+                    "edit": "",
+                    "both": ""
+                },
+                "controls": "",
+                "template-export": "",
+                "enable-expert-mode": "",
+                "disable-expert-mode": "",
                 "restore": "",
                 "hide": "",
                 "delete": "",
                 "delete-confirmation": "",
-                "title": "",
+                "fields": {
+                    "private-title": "",
+                    "slug": ""
+                }
+            },
+            "form-edit": {
+                "expert-mode-warning": "",
                 "template": "",
                 "field": {
                     "link": "",
                     "title": "",
-                    "slug": "",
                     "automatic-discussion": "",
                     "automatic-discussion-help": "",
                     "accept-submissions": "",
@@ -87,6 +112,7 @@
                     "send-confirmation-to-participants": "",
                     "notify-emails": "",
                     "web-confirmation-message": "",
+                    "slug": "",
                     "email-confirmation-message": "",
                     "email-notification-message": "",
                     "email-confirmation-title": "",
@@ -101,7 +127,16 @@
                 },
                 "auto-discussion-options": "",
                 "email-confirmation-options": "",
-                "email-notification-options": ""
+                "email-notification-options": "",
+                "exiting-with-unsaved-data": "",
+                "preview": "",
+                "save-for-preview": "",
+                "expert-mode": "",
+                "restore": "",
+                "hide": "",
+                "delete": "",
+                "delete-confirmation": "",
+                "title": ""
             },
             "auto-discussion-options-modal": {
                 "title": "",
@@ -140,6 +175,7 @@
                 "title": "",
                 "description": "",
                 "key": "",
+                "fill-permission": "",
                 "required": "",
                 "rich": "",
                 "min": "",
@@ -281,6 +317,14 @@
             "edit": "",
             "footer": "",
             "sub-entries": ""
+        },
+        "ref": {
+            "manager": "",
+            "type": {
+                "standalone": "",
+                "discussion": "",
+                "user": ""
+            }
         }
     }
 }

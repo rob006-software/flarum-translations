@@ -65,20 +65,45 @@
                     "create": "创建表单"
                 }
             },
+            "form-edit-header": {
+                "back": "",
+                "category": {
+                    "standalone": "",
+                    "discussion": "",
+                    "user": ""
+                },
+                "tabs": {
+                    "template": "",
+                    "placement": "",
+                    "access": "",
+                    "notifications": "",
+                    "submissions": ""
+                },
+                "access-status": {
+                    "closed": "",
+                    "create": "",
+                    "edit": "",
+                    "both": ""
+                },
+                "controls": "",
+                "template-export": "",
+                "enable-expert-mode": "",
+                "disable-expert-mode": "",
+                "restore": "",
+                "hide": "",
+                "delete": "",
+                "delete-confirmation": "",
+                "fields": {
+                    "private-title": "",
+                    "slug": ""
+                }
+            },
             "form-edit": {
-                "preview": "预览",
-                "save-for-preview": "保存并预览",
-                "expert-mode": "专家模式",
-                "restore": "还原",
-                "hide": "删除",
-                "delete": "永久删除",
-                "delete-confirmation": "表单「{title}」将被永久删除",
-                "title": "编辑表单",
+                "expert-mode-warning": "",
                 "template": "模板",
                 "field": {
                     "link": "特殊表单类型",
                     "title": "标题",
-                    "slug": "别名（URL Slug）",
                     "automatic-discussion": "根据提交内容自动创建主题帖",
                     "automatic-discussion-help": "启用后，该表单仍像独立表单一样可访问。提交的内容将自动创建并连接新主题帖。\n",
                     "accept-submissions": "接受新的提交结果",
@@ -87,6 +112,7 @@
                     "send-confirmation-to-participants": "向参与者发送确认邮件",
                     "notify-emails": "将数据副本发送至以下以逗号分隔的电子邮箱中",
                     "web-confirmation-message": "在网页中确认信息（格式化启用）",
+                    "slug": "别名（URL Slug）",
                     "email-confirmation-message": "通过邮件确认信息（格式化启用，必须启用上方确认项）",
                     "email-notification-message": "邮件通知消息",
                     "email-confirmation-title": "确认邮件的标题（发给参与者）",
@@ -101,7 +127,16 @@
                 },
                 "auto-discussion-options": "新主题选项",
                 "email-confirmation-options": "确认邮件模板",
-                "email-notification-options": "通知邮件模板"
+                "email-notification-options": "通知邮件模板",
+                "exiting-with-unsaved-data": "",
+                "preview": "预览",
+                "save-for-preview": "保存并预览",
+                "expert-mode": "专家模式",
+                "restore": "还原",
+                "hide": "删除",
+                "delete": "永久删除",
+                "delete-confirmation": "表单「{title}」将被永久删除",
+                "title": "编辑表单"
             },
             "auto-discussion-options-modal": {
                 "title": "自动主题选项",
@@ -140,6 +175,7 @@
                 "title": "标题",
                 "description": "描述",
                 "key": "在提交数据中有效载荷的 JSON 属性名",
+                "fill-permission": "",
                 "required": "必填",
                 "rich": "富文本（TextFormatter）",
                 "min": "最小",
@@ -281,6 +317,14 @@
             "edit": "编辑",
             "footer": "来自 {title}",
             "sub-entries": "{count} 条目"
+        },
+        "ref": {
+            "manager": "",
+            "type": {
+                "standalone": "",
+                "discussion": "",
+                "user": ""
+            }
         }
     }
 }
