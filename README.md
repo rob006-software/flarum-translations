@@ -120,6 +120,7 @@ If you're maintaining language pack or want to add it to the collective, open an
 | Extension | Status |
 | --- | --- |
 | [Action Log by Sycho](https://github.com/SychO9/flarum-action-log) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/sycho-action-log/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/sycho-action-log/) |
+| [Advanced Extension Categories by Sycho](https://github.com/SychO9/flarum-advanced-extension-categories) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/sycho-advanced-extension-categories/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/sycho-advanced-extension-categories/) |
 | [Advanced Pusher by Zhishiq](https://github.com/ZhiShiQ/FlarumPusher) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/zhishiq-pusher/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/zhishiq-pusher/) |
 | [Affiliation Links by Kilowhat](https://github.com/kilowhat/flarum-ext-affiliation-links) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/kilowhat-affiliation-links/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/kilowhat-affiliation-links/) |
 | [Artuu Imager by Artuu](https://github.com/Artuuuu/flarum-imager) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/artuu-imager/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/artuu-imager/) |
