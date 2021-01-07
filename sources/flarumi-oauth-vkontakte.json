@@ -1,0 +1,25 @@
+{
+    "fof-oauth": {
+        "admin": {
+            "settings": {
+                "providers": {
+                    "vkontakte": {
+                        "description": "You can register the application here {link}",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
+                    }
+                }
+            }
+        },
+        "lib": {
+            "providers": {
+                "vkontakte": "Vkontakte"
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_vkontakte": "Login with {provider}"
+            }
+        }
+    }
+}
