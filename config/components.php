@@ -24,6 +24,9 @@ return [
 		'https://raw.githubusercontent.com/flarum/lang-english/master/locale/validation.yml',
 	],
 	/* extensions list begin */
+	'alterbyte-offer-field' => [
+		'tag' => 'https://raw.githubusercontent.com/Alterbyte/offer-field/v3.0/resources/locale/en.yml',
+	],
 	'amaurycarrade-syndication' => [
 		'tag' => 'https://raw.githubusercontent.com/AmauryCarrade/flarum-ext-syndication/v0.3.1/resources/locale/en.yml',
 	],
