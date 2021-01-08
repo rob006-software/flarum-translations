@@ -5,8 +5,14 @@
                 "heading": "",
                 "heading-advanced": "",
                 "fill": "",
+                "seeOwnUser": "",
                 "seeAnyUser": "",
+                "editOwnUser": "",
+                "editAnyUser": "",
+                "seeOwnDiscussion": "",
                 "seeAnyDiscussion": "",
+                "editOwnDiscussion": "",
+                "editAnyDiscussion": "",
                 "create": "",
                 "moderate": "",
                 "export": "",
@@ -47,6 +53,21 @@
                     "allow-modification": "",
                     "submissions": "",
                     "actions": ""
+                }
+            },
+            "global-settings": {
+                "title": "",
+                "admin-only": "",
+                "permissions": {
+                    "fill": "",
+                    "seeOwnUser": "",
+                    "seeAnyUser": "",
+                    "editOwnUser": "",
+                    "editAnyUser": "",
+                    "seeOwnDiscussion": "",
+                    "seeAnyDiscussion": "",
+                    "editOwnDiscussion": "",
+                    "editAnyDiscussion": ""
                 }
             },
             "form-create": {
@@ -93,7 +114,10 @@
             },
             "form-edit": {
                 "expert-mode-warning": "",
-                "template": "",
+                "section": {
+                    "template": "",
+                    "permissions": ""
+                },
                 "field": {
                     "link": "",
                     "title": "",
@@ -105,6 +129,10 @@
                     "send-confirmation-to-participants": "",
                     "notify-emails": "",
                     "web-confirmation-message": "",
+                    "permission-see-own": "",
+                    "permission-see-any": "",
+                    "permission-edit-own": "",
+                    "permission-edit-any": "",
                     "slug": ""
                 },
                 "link-options": {
@@ -120,6 +148,7 @@
                 "exiting-with-unsaved-data": "",
                 "preview": "",
                 "save-for-preview": "",
+                "template": "",
                 "expert-mode": "",
                 "restore": "",
                 "hide": "",
@@ -157,6 +186,7 @@
             "permission-controls": {
                 "inherit": "",
                 "everyone_button": "",
+                "disabled_members_button": "",
                 "members_button": ""
             },
             "template-editor": {
@@ -282,9 +312,6 @@
             "formatter-parsing-error": "",
             "not-allowed-to-fill-field": "",
             "duplicate-field-key": "",
-            "submission-link-user-invalid": "",
-            "submission-link-discussion-invalid": "",
-            "submission-link-already-exists": "",
             "cannot-change-form-type": "",
             "export": {
                 "meta": {
@@ -298,7 +325,10 @@
                     "updated_at": "",
                     "hidden_at": ""
                 }
-            }
+            },
+            "submission-link-user-invalid": "",
+            "submission-link-discussion-invalid": "",
+            "submission-link-already-exists": ""
         },
         "mail": {
             "title-your-submission": "",
@@ -313,6 +343,17 @@
                 "standalone": "",
                 "discussion": "",
                 "user": ""
+            },
+            "permissions": {
+                "fill": "",
+                "seeOwnUser": "",
+                "seeAnyUser": "",
+                "editOwnUser": "",
+                "editAnyUser": "",
+                "seeOwnDiscussion": "",
+                "seeAnyDiscussion": "",
+                "editOwnDiscussion": "",
+                "editAnyDiscussion": ""
             }
         }
     }
