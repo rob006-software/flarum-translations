@@ -408,6 +408,9 @@ return [
 	'ianm-follow-users' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/follow-users/0.1.1/resources/locale/en.yml',
 	],
+	'ianm-html-head' => [
+		'tag' => 'https://raw.githubusercontent.com/imorland/html-head/0.1.0/resources/locale/en.yml',
+	],
 	'ianm-regrole' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-regrole/0.1.0/locale/en.yml',
 	],
