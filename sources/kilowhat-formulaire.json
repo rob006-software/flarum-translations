@@ -113,6 +113,12 @@
                 }
             },
             "form-edit": {
+                "warnings": {
+                    "show-on-signup-invalid-permissions": "You need to set \"see own\" and \"edit own\" permission to unapproved members in order to use \"show in sign up\".",
+                    "show-on-composer-invalid-permissions": "Make sure \"see own\" and \"edit own\" permission match who can start discussions with the selected tag(s) in order to use \"show in composer\". Set to \"members\" if not sure. This message can appear even if your settings are correct.\n",
+                    "linked-form-is-draft": "This form is currently in draft mode. Enable \"accept new submissions\" for the fields to appear on the forum.\n",
+                    "auto-link-permission-warning": "Forms with \"automatically create discussions\" option use the global fill permission when accessed standalone.\n"
+                },
                 "expert-mode-warning": "Expert mode is enabled. This lets you customize field identifiers and per-field permissions. Make sure you read the documentation about those feature, as you might break things!\n",
                 "section": {
                     "template": "Template",
@@ -121,6 +127,10 @@
                 "field": {
                     "link": "Special form types",
                     "title": "Public title",
+                    "show-on-creation": {
+                        "discussion": "Show in discussion composer",
+                        "user": "Show in sign up"
+                    },
                     "automatic-discussion": "Automatically create discussions from form submission",
                     "automatic-discussion-help": "When enabled, the form will continue to be accessible like a standalone form. Submissions will automatically create and connect with new discussions.\n",
                     "accept-submissions": "Accept new submissions",
@@ -305,6 +315,8 @@
             "not-allowed-to-fill-field": "You are not allowed to change the value of this field",
             "duplicate-field-key": "Key should be unique",
             "cannot-change-form-type": "You cannot change the type of a form that has existing submissions",
+            "unknown-form": "Unrecognized form ID {id}",
+            "unauthorized-form": "You don't have the necessary permissions to fill form ID {id}",
             "export": {
                 "meta": {
                     "uid": "Submission ID",

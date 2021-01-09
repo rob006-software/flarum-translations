@@ -120,6 +120,12 @@
                 }
             },
             "form-edit": {
+                "warnings": {
+                    "show-on-signup-invalid-permissions": "",
+                    "show-on-composer-invalid-permissions": "",
+                    "linked-form-is-draft": "",
+                    "auto-link-permission-warning": ""
+                },
                 "expert-mode-warning": "",
                 "section": {
                     "template": "",
@@ -128,6 +134,10 @@
                 "field": {
                     "link": "特殊表单类型",
                     "title": "标题",
+                    "show-on-creation": {
+                        "discussion": "",
+                        "user": ""
+                    },
                     "automatic-discussion": "根据提交内容自动创建主题帖",
                     "automatic-discussion-help": "启用后，该表单仍像独立表单一样可访问。提交的内容将自动创建并连接新主题帖。\n",
                     "accept-submissions": "接受新的提交结果",
@@ -324,6 +334,8 @@
             "not-allowed-to-fill-field": "您无权更改此字段的值",
             "duplicate-field-key": "属性名不得重复",
             "cannot-change-form-type": "您不能更改已收到提交内容的表格类型",
+            "unknown-form": "",
+            "unauthorized-form": "",
             "export": {
                 "meta": {
                     "uid": "提交 ID",

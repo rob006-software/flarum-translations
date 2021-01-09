@@ -113,6 +113,12 @@
                 }
             },
             "form-edit": {
+                "warnings": {
+                    "show-on-signup-invalid-permissions": "",
+                    "show-on-composer-invalid-permissions": "",
+                    "linked-form-is-draft": "",
+                    "auto-link-permission-warning": ""
+                },
                 "expert-mode-warning": "",
                 "section": {
                     "template": "",
@@ -121,6 +127,10 @@
                 "field": {
                     "link": "",
                     "title": "",
+                    "show-on-creation": {
+                        "discussion": "",
+                        "user": ""
+                    },
                     "automatic-discussion": "",
                     "automatic-discussion-help": "",
                     "accept-submissions": "",
@@ -313,6 +323,8 @@
             "not-allowed-to-fill-field": "",
             "duplicate-field-key": "",
             "cannot-change-form-type": "",
+            "unknown-form": "",
+            "unauthorized-form": "",
             "export": {
                 "meta": {
                     "uid": "",
