@@ -433,7 +433,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/892768447/flarum-ext-webhook/0.0.2/resources/locale/en.yml',
 	],
 	'itnt-uitab' => [
-		'tag' => 'https://raw.githubusercontent.com/Littlegolden/flarum-uitab/v0.2.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Littlegolden/flarum-uitab/0.3.0/resources/locale/en.yml',
 	],
 	'jslirola-login2seeplus' => [
 		'tag' => 'https://raw.githubusercontent.com/jslirola/flarum-ext-login2seeplus/v0.1.7/locale/en.yml',
