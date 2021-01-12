@@ -223,7 +223,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-tags.yml',
 	],
 	'flarumi-oauth-vkontakte' => [
-		'tag' => 'https://raw.githubusercontent.com/flarumi/oauth-vkontakte/v1.0.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarumi/oauth-vkontakte/v1.0.2/resources/locale/en.yml',
 	],
 	'flarumite-simple-discussion-views' => [
 		'tag' => 'https://raw.githubusercontent.com/flarumite/simple-discussion-views/0.2.3/resources/locale/en.yml',
