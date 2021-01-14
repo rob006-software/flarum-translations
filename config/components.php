@@ -415,7 +415,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-regrole/0.1.0/locale/en.yml',
 	],
 	'ianm-synopsis' => [
-		'tag' => 'https://raw.githubusercontent.com/imorland/synopsis/0.1.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/imorland/synopsis/0.1.2/resources/locale/en.yml',
 	],
 	'irony-bing-wallpaper' => [
 		'tag' => 'https://raw.githubusercontent.com/892768447/flarum-ext-bing-wallpaper/0.0.2/resources/locale/en.yml',
