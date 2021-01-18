@@ -145,7 +145,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Dem13n/nickname-changer/0.2/resources/locale/en.yml',
 	],
 	'dem13n-quad-theme' => [
-		'tag' => 'https://raw.githubusercontent.com/Dem13n/quad-theme/0.1.8/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Dem13n/quad-theme/0.1.9/resources/locale/en.yml',
 	],
 	'dexif-telegram' => [
 		'tag' => 'https://raw.githubusercontent.com/dexif/telegram/0.2.0/resources/locale/en.yml',
