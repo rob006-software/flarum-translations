@@ -4,9 +4,11 @@
             "edit_link": {
                 "delete_link_button": "Usuń link",
                 "delete_link_confirmation": "Czy jesteś pewien, że chcesz usunąć ten link?",
+                "everyone-label": "",
+                "guests-label": "",
                 "internal_link": "Czy to link wewnętrzny?",
+                "members-label": "",
                 "open_newtab": "Otwórz link w nowej karcie",
-                "registered_only": "",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> fof-links.ref.create_link",
                 "title_label": "=> fof-links.ref.title",
@@ -14,7 +16,9 @@
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "url_label": "=> fof-links.ref.url",
-                "url_placeholder": "=> fof-links.ref.url"
+                "url_placeholder": "=> fof-links.ref.url",
+                "visibility": "",
+                "registered_only": ""
             },
             "links": {
                 "create_button": "=> fof-links.ref.create_link",
