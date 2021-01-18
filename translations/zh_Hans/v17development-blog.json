@@ -1,11 +1,44 @@
 {
     "v17development-flarum-blog": {
+        "admin": {
+            "blog": "",
+            "permissions": {
+                "write_articles": "",
+                "auto_approve_posts": "",
+                "approve_posts": ""
+            },
+            "settings": {
+                "no_categories_selected": "",
+                "selected_category_count": "",
+                "select_categories_button": "",
+                "blog_heading": "",
+                "allow_comments_label": "",
+                "allow_comments_text": "",
+                "require_review_label": "",
+                "require_review_text": "",
+                "hide_on_discussion_list_label": "",
+                "hide_on_discussion_list_text": "",
+                "add_sidebar_nav_label": "",
+                "add_sidebar_nav_text": "",
+                "categories_heading": "",
+                "hide_tags_in_taglist_label": "",
+                "hide_tags_in_taglist_text": "",
+                "show_tag_hierarchy_label": "",
+                "show_tag_hierarchy_text": "",
+                "redirects_heading": "",
+                "redirect_articles_label": "",
+                "redirect_articles_text": "",
+                "redirect_tags_label": "",
+                "redirect_tags_text": ""
+            }
+        },
         "forum": {
             "blog": "博客",
             "read_more": "阅读更多",
             "hidden": "隐藏",
             "recent_posts": "近期文章",
             "categories": "分类目录",
+            "forum_nav": "",
             "return_to_overview": "返回博客首页 ",
             "no_more_posts": "没有更多文章了",
             "category_empty": "此分类目录中没有文章",
