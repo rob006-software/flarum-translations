@@ -628,7 +628,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-welcome-widgets/0.1.2/locale/en.yml',
 	],
 	'therealsujitk-gifs' => [
-		'tag' => 'https://raw.githubusercontent.com/therealsujitk/flarum-ext-gifs/v1.4.9/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/therealsujitk/flarum-ext-gifs/v2.0.0/resources/locale/en.yml',
 	],
 	'therealsujitk-hljs' => [
 		'tag' => 'https://raw.githubusercontent.com/therealsujitk/flarum-ext-hljs/v1.3.0/resources/locale/en.yml',
