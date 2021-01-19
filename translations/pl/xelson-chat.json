@@ -14,8 +14,9 @@
                 }
             },
             "chat": {
-                "welcome": "",
-                "welcome.header": "Witaj w Neon Chat!",
+                "welcome": {
+                    "header": "Witaj w Neon Chat!"
+                },
                 "moder": "Moderator",
                 "kick": "Wyrzuć",
                 "leave": "Opuść",
@@ -26,14 +27,18 @@
                         "lost": "Właśnie utraciłeś uprawnienia moderatora w czacie {chatname}."
                     },
                     "form": {
-                        "title": "",
-                        "title.validator": "Co najmniej jeden znak",
-                        "color": "",
-                        "color.validator": "Wpisz kod HEX koloru",
-                        "icon": "",
-                        "icon.validator": "=> core.ref.icon_text",
-                        "users": "",
-                        "users.edit": "Wybierz i edytuj użytkowników",
+                        "title": {
+                            "validator": "Co najmniej jeden znak"
+                        },
+                        "color": {
+                            "validator": "Wpisz kod HEX koloru"
+                        },
+                        "icon": {
+                            "validator": "=> core.ref.icon_text"
+                        },
+                        "users": {
+                            "edit": "Wybierz i edytuj użytkowników"
+                        },
                         "leave": "Opuść czat",
                         "return": "Dołącz do czatu",
                         "delete": {
@@ -69,14 +74,17 @@
                             "exists": "Nie możesz utworzyć kolejnego czatu z tym użytkownikiem!"
                         },
                         "form": {
-                            "title": "",
-                            "title.chat": "Nazwa czatu",
-                            "title.channel": "Nazwa kanału",
-                            "title.validator": "Co najmniej jeden znak",
-                            "icon": "",
-                            "icon.validator": "=> core.ref.icon_text",
-                            "color": "",
-                            "color.validator": "=> xelson-chat.forum.chat.edit_modal.form.color.validator",
+                            "title": {
+                                "chat": "Nazwa czatu",
+                                "channel": "Nazwa kanału",
+                                "validator": "Co najmniej jeden znak"
+                            },
+                            "icon": {
+                                "validator": "=> core.ref.icon_text"
+                            },
+                            "color": {
+                                "validator": "=> xelson-chat.forum.chat.edit_modal.form.color.validator"
+                            },
                             "users": "Wybrani użytkownicy"
                         },
                         "search": {
@@ -86,7 +94,7 @@
                         }
                     }
                 },
-                "placeholder": "Wpisz  swoją wiadomość...",
+                "placeholder": "Wpisz swoją wiadomość...",
                 "message": {
                     "actions": {
                         "hide": "Ukryj",
@@ -134,7 +142,7 @@
             },
             "errors": {
                 "unauthenticated": "Jedynie zarejestrowani użytkownicy mogą korzystać z czatu",
-                "chatdenied": "Twoje grupa nie ma uprawnień aby pisać wiadomości",
+                "chatdenied": "Twoja grupa nie ma uprawnień, aby pisać wiadomości",
                 "removed": "Zostałeś wyrzucony z czatu"
             }
         },
@@ -144,8 +152,9 @@
                 "edit": "Edytowanie wiadomości na czacie",
                 "delete": "Usuwanie wiadomości na czacie",
                 "enabled": "Włączony czat",
-                "create": "",
-                "create.channel": "Tworzenie kanałów",
+                "create": {
+                    "channel": "Tworzenie kanałów"
+                },
                 "moderate": {
                     "delete": "Usuwanie wiadomości na czacie",
                     "vision": "Przeglądanie usuniętych wiadomości"
