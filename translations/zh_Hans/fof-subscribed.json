@@ -26,9 +26,9 @@
         },
         "email": {
             "subject": {
-                "newDiscussion": "【新主题订阅】{title}",
-                "newUser": "【新用户订阅】{username}",
-                "postUnapproved": "【审核订阅】{username} 发表回复于 {title}"
+                "newDiscussion": "【新主题】{title}",
+                "newUser": "【新用户】{username}",
+                "postUnapproved": "【审核通知】{username} 发表回复于 {title}"
             },
             "body": {
                 "newDiscussion": "{recipient_display_name}，你好！\n\n{actor_display_name} 发布了一个主题：{discussion_title}\n\n点击下方链接查看主题帖：\n{discussion_url}\n\n---\n\n{post_content}\n",
