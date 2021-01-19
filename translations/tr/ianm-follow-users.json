@@ -1,0 +1,49 @@
+{
+    "ianm-follow-users": {
+        "admin": {
+            "permissions": {
+                "be_followed_label": "Kullanıcıların takip etmesine izin ver"
+            }
+        },
+        "forum": {
+            "profile_link": "=> ianm-follow-users.lib.following_link",
+            "user_controls": {
+                "follow_button": "Takip et",
+                "follow_confirmation": "Bu kullanıcıyı takip etmek istediğinize emin misiniz?",
+                "unfollow_button": "Takibi bırak",
+                "unfollow_confirmation": "Bu kullanıcıyı takipten çıkmak istediğinize emin misiniz?"
+            },
+            "settings": {
+                "notify_new_follower_label": "Biri beni takip ettiğinde",
+                "notify_new_unfollower_label": "Biri beni takip etmeyi bıraktığında",
+                "notify_new_discussion_label": "Takip ettiğim birisi tartışma başlattığında",
+                "notify_new_post_label": "Mevcut bir tartışmadaki gönderilerini takip ettiğim biri",
+                "block_follow": "Kullanıcıların beni takip etmesini engelle"
+            },
+            "index": {
+                "follow_tag_button": "Takip Et",
+                "unfollow_tag_button": "Takibi Bırak"
+            },
+            "notifications": {
+                "new_discussion_text": "{username} başlattı",
+                "new_post_text": "{username} bir tartışmada gönderi paylaştı",
+                "new_follower_text": "{username} sizi takip etti",
+                "new_unfollower_text": "{username} sizi takip etmeyi bıraktı"
+            },
+            "badge": {
+                "label": "Takip edilen kullanıcı"
+            }
+        },
+        "email": {
+            "new_discussion_by_user_subject": "[Kullanıcıyı Takip Et] {title}",
+            "new_follower_subject": "[Kullanıcıyı Takip Et] Yeni bir takipçiniz var!",
+            "new_post_subject": "[Kullanıcıyı Takip Et] {title} tartışmasında yeni gönderi",
+            "new_discussion_by_user_body": "Hey {recipient_display_name},\n\n{user_display_name} yeni bir tartışma başlattı: {discussion_title}\n\nYeni tartışmayı görüntülemek için aşağıdaki bağlantıya bakın:\n\n{discussion_url}\n\n---\n\n{post_content}\n",
+            "new_follower_body": "Hey {recipient_display_name},\n\n{follower_display_name} sizi takip etmeye başladı, böylece yeni bir tartışma başlattığınızda bilgilendirilecekler.\n\nProfillerini görüntülemek için aşağıdaki bağlantıya bakın:\n\n{profile_url}\n",
+            "new_post_body": "Hey {recipient_display_name},\n\n{user_display_name} bir tartışmada gönderi paylaştı: {discussion_title}\n\nYeni etkinliği görüntülemek için aşağıdaki bağlantıya göz atın:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nGüncel olana kadar bu tartışma hakkında başka bildirim almayacaksınız.\n"
+        },
+        "lib": {
+            "following_link": "Takip Edilen Kullanıcılar"
+        }
+    }
+}

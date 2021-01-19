@@ -1,25 +1,28 @@
 {
     "sycho-profile-cover": {
         "admin": {
-            "settings": "",
-            "thumbnails": "",
-            "max_size": "",
-            "cover_size": "",
-            "thumb_size": "",
-            "size_of_images": "",
-            "size_of_thumbs": ""
+            "thumbnails": "Küçük resimler oluştur",
+            "max_size": "Maksimum profil kapak fotoğrafı boyutu (KB cinsinden)",
+            "permission": {
+                "set_cover": "Profil Kapağını Ayarla"
+            },
+            "settings": "Profil Kapağı Ayarları",
+            "cover_size": "Resim boyutları",
+            "thumb_size": "Küçük resim boyutları",
+            "size_of_images": "{count} resim yüklenmiş ve {size} alan kullanılıyor|{count} resim yüklenmiş ve {size} alan kullanılıyor",
+            "size_of_thumbs": "{count} önizleme var ve {size} alan kullanılıyor|{count} önizleme var ve {size} alan kullanılıyor"
         },
         "forum": {
-            "cover": "",
-            "edit_cover": "",
-            "notice": "",
+            "cover": "Kapak",
+            "edit_cover": "Kapağı Düzenle",
+            "notice": "Maksimum boyut: 2MB",
             "added": {
-                "success": "",
-                "error": ""
+                "success": "Profil kapağı güncellendi.",
+                "error": "Resim yüklenemedi."
             },
             "removed": {
-                "success": "",
-                "error": ""
+                "success": "Profil kapağı kaldırıldı.",
+                "error": "Kapak kaldırılamadı, daha sonra tekrar deneyin"
             }
         }
     }

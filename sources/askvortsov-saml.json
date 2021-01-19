@@ -7,7 +7,9 @@
                 "idp_metadata": "Identity Provider Metadata XML (Alternative to URL)",
                 "only_option": "Use SAML2 SSO as only login option?",
                 "sync_attributes": "Sync Attributes (Avatar, Groups, Bio, and Profile)? Requires askvortsov/auth-sync extension.",
-                "nameid_format": "NameID Format"
+                "nameid_format": "NameID Format",
+                "want_assertions_signed": "Want Assertions Signed?",
+                "want_messages_signed": "Want Messages Signed?"
             },
             "options": {
                 "nameid_format": {

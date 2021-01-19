@@ -14,13 +14,16 @@
                 "app_port_label": "Port",
                 "app_host_label": "Host",
                 "app_id_label": "App ID",
+                "auto_update": "Auto Update Discussions",
                 "app_key_label": "App Key",
                 "app_secret_label": "App Secret",
                 "secure": "Force wss/https for Websocket",
                 "title": "Websocket/Pusher Settings",
-                "reverse_proxy": "Reverse Proxy Support"
+                "reverse_proxy": "Reverse Proxy Support",
+                "auth_only": "Websocket for Logged in Users Only"
             },
             "help": {
+                "auto_update": "Don't show the yellow update banner, immediately update the discussion list.",
                 "app_id": "Pusher App ID - leave as is if using built-in websocket server.",
                 "app_key": "Pusher App Key - leave as is if using built-in websocket server.",
                 "secret": "Pusher App Secret - leave as is if using built-in websocket server.",
@@ -31,7 +34,8 @@
                 "cert_path": "Only needed if using ssl and NOT reverse proxy. Path to your SSL (https) certificate ON THE SERVER your websocket server is on - usually a .crt or .pem file.",
                 "pk_path": "Only needed if using ssl and NOT reverse proxy. Path to your SSL (https) private key ON THE SERVER your websocket server is on - usually a .key or .pem file.",
                 "passphrase": "Only needed if using ssl and NOT reverse proxy. The passphrase used to encode your certificate - not usually needed.",
-                "self_signed": "Only needed if using ssl and NOT reverse proxy. Enable this if your SSL (https) certificate is self-signed."
+                "self_signed": "Only needed if using ssl and NOT reverse proxy. Enable this if your SSL (https) certificate is self-signed.",
+                "auth_only": "Only allow authenticated users to connect to the websocket server, can reduce the CPU load."
             }
         }
     }

@@ -2,37 +2,44 @@
     "core": {
         "forum": {
             "index_sort": {
-                "popular_button": "Popüler",
-                "unpopular_button": "Popüler olmayan"
+                "popular_button": "Görüntülenen",
+                "unpopular_button": "Görüntülenmeyen"
             }
         }
     },
     "michaelbelgium-discussion-views": {
         "forum": {
             "modal_resetviews": {
-                "title": "",
-                "submit_button": "",
-                "label": ""
+                "title": "Tartışmaların görüntülenmesini sıfırla",
+                "submit_button": "Evet, hepsini kaldır",
+                "label": "Bu tartışmaya ait {count} görüntülenme temizlenecektir. Devam ediyor musunuz?|Bu tartışmaya ait {count} görüntülenme temizlenecektir. Devam ediyor musunuz?",
+                "submit": "Evet tümünü sil"
             },
             "discussion_controls": {
-                "resetviews_button": ""
+                "resetviews_button": "Görüntülenmeyi sıfırla"
             },
             "viewlist": {
-                "title": ""
+                "title": "Son Görüntüleyenler"
             }
         },
         "admin": {
             "permissions": {
-                "reset_views_label": "",
-                "view_number_label": ""
+                "reset_views_label": "Tartışma görüntülenmesini sıfırla",
+                "view_number_label": "Tartışma görüntüleme sayısını görüntüle",
+                "can_view_number": "Tartışma görüntülenmesini göster"
             },
             "settings": {
-                "title": "",
-                "track_unique_label": "",
-                "abbr_numbers_label": "",
-                "show_filter_label": "",
-                "max_viewcount_label": "",
-                "show_viewlist_label": ""
+                "title": "Tartışma Görüntülenme Ayarları",
+                "track_unique_label": "Benzersiz görünümleri izleyin (aynı IP 1 defa sayılır)",
+                "abbr_numbers_label": "Görünüm numaralarını kısaltın",
+                "show_filter_label": "Popüler sıralama alanını etkinleştir",
+                "max_viewcount_label": "Maksimum görüntüleme listesi öğesi",
+                "show_viewlist_label": "Görüntüleme listesini etkinleştir",
+                "track_unique": "Tekil görüntülenmeleri say",
+                "abbr_numbers": "Görüntülenme numaralarını kısalt",
+                "show_filter": "Görüntülenen (Görüntülenmeyen) filtresini etkinleştir",
+                "max_viewcount": "Görüntüleyenlerin sayısı",
+                "show_viewlist": "Görüntüleyenleri göster"
             }
         }
     },

@@ -23,11 +23,12 @@ return [
 	'vendors' => require __DIR__ . '/config/vendors.php',
 	'supportedVersions' => [
 		'0.1.0-beta.8',
-		'0.1.0-beta-8',
 		'0.1.0-beta.9',
 		'0.1.0-beta.10',
 		'0.1.0-beta.11',
 		'0.1.0-beta.12',
 		'0.1.0-beta.13',
+		'0.1.0-beta.14',
+		'0.1.0-beta.15',
 	],
 ];

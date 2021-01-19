@@ -1,0 +1,43 @@
+{
+    "clarkwinkelmann-mailing": {
+        "admin": {
+            "permissions": {
+                "mail_individual": "個々のユーザーにメールを送信する",
+                "mail_all": "すべてのユーザーまたはグループユーザーにメールを送信する"
+            }
+        },
+        "forum": {
+            "links": {
+                "mail_individual": "このユーザーにメールを送信",
+                "mail_all": "すべてのユーザーにメールを送信する"
+            },
+            "modal_mail": {
+                "title_text": "メッセージを作成",
+                "recipients_label": "受信者",
+                "recipients_placeholder": "別の受信者を入力してください...",
+                "subject_label": "題名",
+                "default_subject": "=> clarkwinkelmann-mailing.ref.default_subject",
+                "message_label": "テキスト",
+                "submit_button": "送る"
+            },
+            "modal_sent": {
+                "title_text": "メールが送信されました！",
+                "on_its_way": "ハイタッチ！ あなたのメールは {recipientsCount} 人の受信者に届きます！"
+            },
+            "recipient_kinds": {
+                "user": "ユーザー",
+                "group": "グループ",
+                "email": "電子メール"
+            }
+        },
+        "api": {
+            "no_recipients": "一致する受信者はいません"
+        },
+        "email": {
+            "default_subject": "=> clarkwinkelmann-mailing.ref.default_subject"
+        },
+        "ref": {
+            "default_subject": "フォーラムマネージャーからのメッセージ"
+        }
+    }
+}

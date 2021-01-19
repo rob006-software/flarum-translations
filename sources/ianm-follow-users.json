@@ -1,0 +1,49 @@
+{
+    "ianm-follow-users": {
+        "admin": {
+            "permissions": {
+                "be_followed_label": "Allow users to follow"
+            }
+        },
+        "forum": {
+            "profile_link": "=> ianm-follow-users.lib.following_link",
+            "user_controls": {
+                "follow_button": "Follow",
+                "follow_confirmation": "Are you sure you want to follow this user?",
+                "unfollow_button": "Unfollow",
+                "unfollow_confirmation": "Are you sure you want to unfollow this user?"
+            },
+            "settings": {
+                "notify_new_follower_label": "Someone follows me",
+                "notify_new_unfollower_label": "Someone stops following me",
+                "notify_new_discussion_label": "Someone I'm following starts a discussion",
+                "notify_new_post_label": "Someone I'm following posts in an existing discussion",
+                "block_follow": "Prevent users from following me"
+            },
+            "index": {
+                "follow_tag_button": "Follow",
+                "unfollow_tag_button": "Stop Following"
+            },
+            "notifications": {
+                "new_discussion_text": "{username} started",
+                "new_post_text": "{username} posted in a discussion",
+                "new_follower_text": "{username} followed you",
+                "new_unfollower_text": "{username} stopped following you"
+            },
+            "badge": {
+                "label": "Followed user"
+            }
+        },
+        "email": {
+            "new_discussion_by_user_subject": "[Follow User] {title}",
+            "new_follower_subject": "[Follow User] You have a new follower!",
+            "new_post_subject": "[Follow User] New post in {title}",
+            "new_discussion_by_user_body": "Hey {recipient_display_name},\n\n{user_display_name} started a new discussion: {discussion_title}\n\nTo view the new discussion, check out the following link:\n\n{discussion_url}\n\n---\n\n{post_content}\n",
+            "new_follower_body": "Hey {recipient_display_name},\n\n{follower_display_name} started following you, so they'll be notified when you start a new discussion.\n\nTo view their profile, check out the following link:\n\n{profile_url}\n",
+            "new_post_body": "Hey {recipient_display_name},\n\n{user_display_name} posted in a discussion: {discussion_title}\n\nTo view the new activity, check out the following link:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nYou won't receive any more notifications about this discussion until you're up-to-date.\n"
+        },
+        "lib": {
+            "following_link": "Followed Users"
+        }
+    }
+}

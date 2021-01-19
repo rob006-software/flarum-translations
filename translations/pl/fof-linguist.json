@@ -1,10 +1,6 @@
 {
     "fof-linguist": {
         "admin": {
-            "menu": {
-                "title": "Linguist",
-                "description": "Dostosuj tłumaczenia do swoich potrzeb."
-            },
             "buttons": {
                 "apply": "Zastosuj",
                 "reset": "Przywróć oryginał",
@@ -22,8 +18,17 @@
             "filters": {
                 "search": "Szukaj tekstu tłumaczenia...",
                 "with-own-translations": "Moje tłumaczenia",
-                "with-original-translations-in-locales": "Z oryginalnym tłumaczeniem",
-                "without-original-translations-in-locales": "Bez oryginalnego tłumaczenia",
+                "missing": "Znajdź brakujące tłumaczenia",
+                "missing-middle-label": "tłumaczenia dla",
+                "negation-options": {
+                    "with": "Posiadające",
+                    "without": "Nieposiadające"
+                },
+                "type-options": {
+                    "any": "oryginalne lub własne",
+                    "original": "oryginalne",
+                    "own": "własne"
+                },
                 "for-extension": "Rozszerzenia",
                 "for-extension-unavailable": "Nie znaleziono żadnych tłumaczeń dla prefiksu \"{namespace}\". Możliwe, że to rozszerzenie nie posiada żadnych testów do przetłumaczenia lub korzysta z innego prefiksu. Spróbuj skorzystać z wyszukiwarki, aby znaleźć brakujące tłumaczenia.\n",
                 "results": "Wyświetlono {shown} z {total} pasujących tłumaczeń"

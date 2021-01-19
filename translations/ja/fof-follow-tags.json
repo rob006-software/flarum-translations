@@ -11,8 +11,8 @@
                 "unfollow_tag_button": "フォローをやめる",
                 "following": {
                     "following_none_label": "",
-                    "following_all_label": "",
-                    "following_tags_label": ""
+                    "following_tags_label": "",
+                    "following_all_label": ""
                 }
             },
             "badge": {
@@ -48,14 +48,24 @@
         },
         "admin": {
             "settings": {
-                "title": "",
                 "following_page_default_label": "",
                 "following_none_label": "",
                 "following_tags_label": "",
+                "title": "",
                 "following_all_label": ""
             }
         },
         "email": {
+            "subject": {
+                "newDiscussionInTag": "",
+                "newPostInTag": "",
+                "newDiscussionTag": ""
+            },
+            "body": {
+                "newDiscussionInTag": "",
+                "newPostInTag": "",
+                "newDiscussionTag": ""
+            },
             "newDiscussionInTag": "[Tag | New Discussion] タイトル",
             "newPostInTag": "[Tag | New Post] タイトル",
             "newDiscussionTag": ""
@@ -68,8 +78,8 @@
             "lurking": "ラークする",
             "filtering_options": {
                 "none": "",
-                "all": "",
-                "tags": ""
+                "tags": "",
+                "all": ""
             }
         }
     }

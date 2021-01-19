@@ -2,25 +2,28 @@
     "kyrne-websocket": {
         "forum": {
             "discussion_list": {
-                "show_updates_text": ""
+                "show_updates_text": "Güncellenmiş {count} tartışmayı göster|Güncellenmiş {count} tartışmayı göster"
             }
         },
         "admin": {
             "pusher_settings": {
-                "local_cert_path": "",
-                "local_pk_path": "",
-                "passphrase": "",
-                "cert_self_signed": "",
-                "app_port_label": "",
-                "app_host_label": "",
-                "app_id_label": "",
-                "app_key_label": "",
+                "local_cert_path": "Yerel SSL Sertifika Yolu",
+                "local_pk_path": "Yerel SSL Özel Anahtar Yolu",
+                "passphrase": "(İsteğe bağlı) SSL Anahtar Parolası",
+                "cert_self_signed": "Kendinden İmzalı Sertifika Desteği",
+                "app_port_label": "Port",
+                "app_host_label": "Host",
+                "app_id_label": "App ID",
+                "auto_update": "",
+                "app_key_label": "App Key",
                 "app_secret_label": "",
-                "secure": "",
-                "title": "",
-                "reverse_proxy": ""
+                "secure": "Websocket için wss/https zorla",
+                "title": "Websocket/Pusher Ayarları",
+                "reverse_proxy": "Ters Proxy Desteği",
+                "auth_only": "Yalnızca Oturum Açan Kullanıcılar için Websocket"
             },
             "help": {
+                "auto_update": "",
                 "app_id": "",
                 "app_key": "",
                 "secret": "",
@@ -31,7 +34,8 @@
                 "cert_path": "",
                 "pk_path": "",
                 "passphrase": "",
-                "self_signed": ""
+                "self_signed": "",
+                "auth_only": ""
             }
         }
     }

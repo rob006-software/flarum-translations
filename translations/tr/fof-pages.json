@@ -2,48 +2,48 @@
     "fof-pages": {
         "admin": {
             "edit_page": {
-                "content_label": "İçerik",
-                "content_placeholder": "Sayfa içeriğini buraya yazın.",
-                "delete_page_button": "Sayfayı Sil",
+                "content_label": "=> fof-pages.ref.content",
+                "content_placeholder": "=> fof-pages.ref.content",
+                "delete_page_button": "Sayfayı sil",
                 "delete_page_confirmation": "Bu sayfayı silmek istediğinize emin misiniz?",
                 "hidden_label": "Taslak olarak kaydet",
-                "restricted_label": "",
+                "restricted_label": "Erişim kısıtlaması (İzinler sekmesinden kimlerin erişebileceğini seçin)",
                 "html_label": "HTML kullanmayı aktif et",
                 "set_as_home_page_confirmation": "Bu sayfayı, Ana Sayfa olarak kullanmak istediğinize emin misiniz?",
-                "slug_label": "URL",
-                "slug_placeholder": "Sayfa URL'ini buraya yazın.",
-                "submit_button": "Değişiklikleri Kaydet",
-                "title": "Yeni Sayfa Oluştur",
-                "title_label": "Başlık",
-                "title_placeholder": "Sayfa başlığını buraya yazın.",
-                "url_label": "Bağlantı",
-                "url_placeholder": "Bağlantıyı girin"
-            },
-            "nav": {
-                "pages_button": "Sayfalar",
-                "pages_text": "Sabit sayfalar oluşturun."
+                "slug_label": "=> fof-pages.ref.slug",
+                "slug_placeholder": "=> fof-pages.ref.slug",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> fof-pages.ref.create_page",
+                "title_label": "=> fof-pages.ref.title",
+                "title_placeholder": "=> fof-pages.ref.title",
+                "url_label": "=> fof-pages.ref.url",
+                "url_placeholder": "=> fof-pages.ref.url"
             },
             "pages": {
-                "about_text": "Sabit sayfalar oluşturun ve düzenleyin.",
-                "create_button": "Sayfa Oluştur"
+                "create_button": "=> fof-pages.ref.create_page",
+                "about_text": "Sabit sayfalar oluşturun ve düzenleyin."
             },
             "pages_list": {
                 "empty_text": "Görünüşe göre hiç sabit sayfa bulunmuyor.",
-                "title": "Başlık"
+                "title": "=> fof-pages.ref.title"
             },
             "permissions": {
-                "restricted": ""
+                "restricted": "Kısıtlanmış sayfaları görüntüle"
             },
             "badges": {
-                "hidden": "",
-                "restricted": ""
+                "hidden": "Taslak",
+                "restricted": "Kısıtlanmış"
+            },
+            "nav": {
+                "pages_button": "=> fof-pages.ref.pages",
+                "pages_text": "Sabit sayfalar oluşturun."
             }
         },
         "ref": {
             "content": "İçerik",
-            "create_page": "Sayfa Oluştur",
+            "create_page": "Sayfa oluştur",
             "pages": "Sayfalar",
-            "slug": "URL",
+            "slug": "Adres Kısa Adı",
             "title": "Başlık",
             "url": "Bağlantı"
         }

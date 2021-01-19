@@ -2,46 +2,46 @@
     "fajuu-icons": {
         "admin": {
             "edit_icon": {
-                "elementPath": "",
-                "originalIcon": "",
-                "modifiedIcon": "",
-                "create": "",
-                "delete": ""
+                "elementPath": "Öğe yolu",
+                "originalIcon": "Asıl simge",
+                "modifiedIcon": "Değiştirilmiş simge",
+                "create": "Oluştur",
+                "delete": "Sil"
             },
             "nav": {
-                "icons_button": "",
-                "icons_text": ""
+                "icons_button": "=> fajuu-icons.ref.icons",
+                "icons_text": "Simgeleri ve stillerini değiştir"
             },
             "icon_settings": {
-                "title": "",
-                "key_heading": "",
-                "key_text": ""
+                "title": "Simge ayarları",
+                "key_heading": "Kit kodu",
+                "key_text": "<a>Kit kodunu nasıl bulurum?</a> Ücretsiz sürüm kayıt gerektirir. Bir set oluşturun ve 10 haneli kodunuzu edinin. Eğer mevcut bir setiniz varsa kodunu sisteme girin. \n"
             },
             "icon_import": {
-                "title": "",
-                "about": "",
-                "not_json": "",
-                "import_button": "",
-                "restore_button": ""
+                "title": "Simge İçe Aktarma",
+                "about": "Buraya içe aktarılan simgeleri JSON biçiminde girin.",
+                "not_json": "İçerik, geçerli bir JSON dizesi olmalıdır.",
+                "import_button": "İçe aktar",
+                "restore_button": "Varsayılan simgeleri geri yükleyin"
             },
             "icon_export": {
-                "title": "",
-                "close_button": "",
-                "copy_button": "",
-                "copy_success": "",
-                "copy_error": ""
+                "title": "Simgeleri Dışa Aktar",
+                "close_button": "Kapat",
+                "copy_button": "Kopyala",
+                "copy_success": "İçerik kopyalandı.",
+                "copy_error": "İçerik kopyalanmadı."
             },
             "icons": {
-                "about_icons_text": "",
-                "settings_button": "",
-                "list_icons_button": "",
-                "import_icons_button": "",
-                "export_icons_button": "",
-                "key_error": ""
+                "about_icons_text": "Burada mevcut forum simgelerini istediğiniz gibi değiştirebilirsiniz!\nDeğiştirmek istediğiniz simgeyi forumda arayın (orijinal simge), ona giden yolu (yol öğesi) girin ve yeni bir simge (değiştirilmiş simge) seçin.\nTüm simgeler, <a>Font Awesome</a> simgelerinden oluşan bir pakettir.\n",
+                "settings_button": "Ayarlar",
+                "list_icons_button": "Simgeler listesi",
+                "import_icons_button": "Simgeleri içe aktar",
+                "export_icons_button": "Simgeleri dışa aktar",
+                "key_error": "Kit kodu bulunamadı veya yanlış. Simge ayarlarınızı kontrol edin ve değiştirin! Değişiklikleri kaydettikten sonra sayfayı yenileyin."
             }
         },
         "ref": {
-            "icons": ""
+            "icons": "Simgeler"
         }
     }
 }

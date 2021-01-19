@@ -10,6 +10,7 @@
                 "npm-install-command": "NPM install command",
                 "webpack-command": "Webpack command",
                 "empty-for-default": "Leave empty for default command",
+                "validate-live": "Perform a request to homepage to validate Less and PHP before saving",
                 "compile-automatically": "Compile JS automatically on save"
             },
             "controls": {
@@ -47,10 +48,6 @@
                 "webpack": "Webpack output",
                 "npm": "NPM output",
                 "npm-not-run": "NPM did not run"
-            },
-            "menu": {
-                "title": "Scratchpad",
-                "description": "Easily test code on your development forum"
             }
         }
     }

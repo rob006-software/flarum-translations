@@ -2,11 +2,92 @@
     "fof-username-request": {
         "admin": {
             "permissions": {
+                "moderate_requests": "",
+                "request_nickname": "",
+                "request_username": "",
                 "start": "ユーザー名の変更申請",
                 "moderate": "ユーザー名を変更することに同意する"
             }
         },
         "forum": {
+            "nickname_modals": {
+                "action": {
+                    "title": "",
+                    "help_text": "",
+                    "decision_title": "",
+                    "approval_label": "",
+                    "rejected_label": "",
+                    "submit_button": "",
+                    "reason_title": "",
+                    "success": "",
+                    "name": ""
+                },
+                "results": {
+                    "title": "",
+                    "approved": "",
+                    "dismiss_button": "",
+                    "new_name": "",
+                    "rejected": "",
+                    "reason": "",
+                    "resubmit": ""
+                },
+                "request": {
+                    "title": "",
+                    "current_request": "",
+                    "submit_button": "",
+                    "delete_button": "",
+                    "confirmation_message": "",
+                    "dismiss_button": "",
+                    "deleted": ""
+                }
+            },
+            "username_modals": {
+                "action": {
+                    "title": "",
+                    "help_text": "",
+                    "decision_title": "",
+                    "approval_label": "",
+                    "rejected_label": "",
+                    "submit_button": "",
+                    "reason_title": "",
+                    "success": "",
+                    "name": ""
+                },
+                "results": {
+                    "title": "",
+                    "approved": "",
+                    "dismiss_button": "",
+                    "new_name": "",
+                    "rejected": "",
+                    "reason": "",
+                    "resubmit": ""
+                },
+                "request": {
+                    "title": "",
+                    "current_request": "",
+                    "submit_button": "",
+                    "delete_button": "",
+                    "confirmation_message": "",
+                    "dismiss_button": "",
+                    "deleted": ""
+                }
+            },
+            "pending_requests": {
+                "empty_text": "",
+                "nickname_item_text": "",
+                "nickname_exerpt": "",
+                "tooltip": "",
+                "title": "",
+                "username_item_text": "",
+                "username_exerpt": ""
+            },
+            "settings": {
+                "nickname_request_button": "",
+                "username_request_button": ""
+            },
+            "user": {
+                "name_history_link": ""
+            },
             "action": {
                 "title": "=> fof-username-request.forum.results.title",
                 "help_text": "ユーザー名がフォーラムのガイドラインに従っていることを確認する",
@@ -44,6 +125,14 @@
                 "item_text": "{username} ユーザー名の変更リクエスト",
                 "exerpt": "ユーザー名の変更申請： {requestedUsername}"
             }
+        },
+        "ref": {
+            "name_change_request": "",
+            "name_change_requests": "",
+            "nickname_change_request": "",
+            "nickname_change_requests": "",
+            "username_change_request": "",
+            "username_change_requests": ""
         }
     }
 }

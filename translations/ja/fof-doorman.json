@@ -1,0 +1,59 @@
+{
+    "fof-doorman": {
+        "forum": {
+            "email": {
+                "subject": "",
+                "body": ""
+            },
+            "sign_up": {
+                "invalid_doorkey": "入力した招待コードは無効です",
+                "doorkey_required": "招待コードを入力してください",
+                "doorman_placeholder": "招待コード",
+                "doorman_placeholder_optional": "招待コード（オプション）"
+            }
+        },
+        "admin": {
+            "modal": {
+                "title": "",
+                "group": "",
+                "help": "",
+                "placeholder": "",
+                "invalid_emails": "",
+                "max_use_conflict": "",
+                "send": "",
+                "success": ""
+            },
+            "invalid_doorkey": "指定した招待コードは無効です",
+            "doorkey_required": "招待コードを提供する必要があります",
+            "nav": {
+                "desc": "ユーザー登録用の招待コードを作成し、ユーザーグループを割り当てます"
+            },
+            "page": {
+                "title": "ゲートキーパー",
+                "doorkey": {
+                    "used_times": "招待状が1つ残っています|{remaining} 件の招待状が残っています",
+                    "title": "招待コード",
+                    "help": {
+                        "key": "キー：登録時にユーザーが入力した招待コード",
+                        "group": "ユーザーグループ：登録時にユーザーが追加されるユーザーグループ。",
+                        "max": "最大使用量：招待コードを使用できる最大回数。無制限に使用するには、0 に設定します。",
+                        "activates": "ユーザーのアクティブ化：招待コードを介してユーザーを自動的に登録およびアクティブ化します。"
+                    },
+                    "warning": "この招待コードは、最大数まで使用されています。",
+                    "key": "キー",
+                    "max_uses": "最大使用次数",
+                    "heading": {
+                        "key": "キー",
+                        "group": "ユーザーグループ",
+                        "activate": "ユーザーを有効にする",
+                        "max_uses": "最大使用次数"
+                    },
+                    "allow-public": {
+                        "title": "公的な登録を許可する",
+                        "switch-label": "登録時の招待コードはオプションです"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -2,39 +2,39 @@
     "nomiscz-auth-wechat": {
         "forum": {
             "buttons": {
-                "login": "",
-                "link": "",
-                "unlink": ""
+                "login": "WeChat ile Giriş Yap",
+                "link": "WeChat Hesabını Bağla",
+                "unlink": "WeChat Hesabının Bağlantısını Kaldır"
             },
             "alerts": {
-                "already_linked": "",
-                "already_used": "",
-                "link_success": "",
-                "unlink_success": "",
-                "error": ""
+                "already_linked": "WeChat Hesabı zaten bağlı!",
+                "already_used": "WeChat Hesabı zaten başka bir kullanıcıya bağlı!",
+                "link_success": "WeChat Hesabı bağlantısı başarılı.",
+                "unlink_success": "WeChat Hesabı'nın bağlantısı başarıyla kaldırıldı.",
+                "error": "Bir şeyler yanlış oldu. Lütfen sonra tekrar deneyiniz!"
             },
             "modals": {
                 "link": {
-                    "title": ""
+                    "title": "WeChat Hesabını Bağla"
                 },
                 "unlink": {
-                    "title": "",
+                    "title": "WeChat Hesabının Bağlantısını Kaldır",
                     "info": {
-                        "confirm": "",
-                        "no_providers": ""
+                        "confirm": "WeChat hesabınızın bağlantısını kaldırmak istediğinizden emin misiniz?",
+                        "no_providers": "Başka giriş sağlayıcınız yok! Muhtemelen şifrenizi sıfırlamanız gerekecek."
                     },
                     "buttons": {
-                        "confirm": "",
-                        "cancel": ""
+                        "confirm": "Evet, hesabın bağlantısını kaldır",
+                        "cancel": "Hayır!"
                     }
                 }
             }
         },
         "admin": {
             "settings": {
-                "title": "",
-                "api_app_id": "",
-                "api_app_secret": ""
+                "title": "WeChat Giriş Ayarları",
+                "api_app_id": "API App ID",
+                "api_app_secret": "API App Secret"
             }
         }
     }

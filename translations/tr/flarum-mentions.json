@@ -3,7 +3,7 @@
         "forum": {
             "composer": {
                 "mention_tooltip": "Bir kullanıcı veya gönderiden bahsedin",
-                "reply_to_post_text": "#{number}'a yanıt"
+                "reply_to_post_text": "#{number} numaralı gönderiye yanıt"
             },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
@@ -11,7 +11,7 @@
                 "user_mentioned_text": "{username} senden bahsetti"
             },
             "post": {
-                "mentioned_by_self_text": "{users} bunu yanıtladın.",
+                "mentioned_by_self_text": "{users} bunu yanıtladı.",
                 "mentioned_by_text": "{users} bunu yanıtladı.",
                 "others_text": "=> core.ref.some_others",
                 "quote_button": "Alıntı",
@@ -24,6 +24,16 @@
             },
             "user": {
                 "mentions_link": "Bahsetmeler"
+            }
+        },
+        "email": {
+            "post_mentioned": {
+                "subject": "{replier_display_name} senin {title} tartışmasındaki gönderini yanıtladı",
+                "body": "Hey {recipient_display_name}!\n\n{replier_display_name} senin {title} tartışmasından (#{post_number}) numaralı gönderini yanıtladı.\n\n{url}\n\n---\n\n{content}\n"
+            },
+            "user_mentioned": {
+                "subject": "{mentioner_display_name}, {title} tartışmasında senden bahsetti",
+                "body": "Hey {recipient_display_name}!\n\n{mentioner_display_name}, {title} tartışmasında senden bahsetti.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }

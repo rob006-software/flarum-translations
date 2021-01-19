@@ -10,7 +10,7 @@
             },
             "notifications": {
                 "discussion_created_text": "{username} utworzył nową dyskusję",
-                "post_unapproved_text": "{username} utworzył post, który wymaga zatwierdzenia",
+                "post_unapproved_text": "{username} dodał post, który wymaga zatwierdzenia",
                 "user_created_text": "{username} właśnie się zarejestrował"
             }
         },
@@ -22,6 +22,18 @@
                 "subscribe_to_discussion_created": "Otrzymywanie powiadomień o nowych dyskusjach",
                 "subscribe_to_post_unapproved": "Otrzymywanie powiadomień o nowych niezatwierdzonych postach",
                 "subscribe_to_user_created": "Otrzymywanie powiadomień o rejestracji nowego użytkownika"
+            }
+        },
+        "email": {
+            "subject": {
+                "newDiscussion": "[Nowa dyskusja] {title}",
+                "newUser": "[Nowy użytkownik] {username}",
+                "postUnapproved": "[Post wymaga zatwierdzenia] {username} napisał w {title}"
+            },
+            "body": {
+                "newDiscussion": "Witaj {recipient_display_name},\n\n{actor_display_name} utworzył nową dyskusję: {discussion_title}.\n\nAby zobaczyć nową dyskusję, kliknij poniższy link:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newUser": "Witaj {recipient_display_name},\n\n{actor_display_name} właśnie utworzył konto na {forum_url}.\n\nAby zobaczyć profil nowego użytkownika, kliknij poniższy link:\n{user_url}\n",
+                "postUnapproved": "Witaj {recipient_display_name},\n\n{actor_display_name} utworzył post wymagający zatwierdzenia w {discussion_title}.\n\nAby zobaczyć nowy post, kliknij poniższy link:\n{post_url}\n\n---\n\n{post_content}\n"
             }
         }
     }

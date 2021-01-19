@@ -1,47 +1,47 @@
 {
     "clarkwinkelmann-group-invitation": {
         "forum": {
-            "title": "",
-            "generic-title": "",
+            "title": "{group grubuna katılmak için davet edildin!",
+            "generic-title": "Grup davetiyesi",
             "user": {
-                "already-connected": "",
-                "not-connected": "",
-                "not-authorized": "",
-                "already-member": ""
+                "already-connected": "{username} kullanısını {group} grubuna ekleyeceğiz. Doğru kullanıcı değil mi? <a>Başka bir hesapta oturum açın</a>.\n",
+                "not-connected": "Daveti kabul etmek için <a>oturum açın</a>.",
+                "not-authorized": "Mevcut kullanıcınız {username} gruplara katılma iznine sahip değil. <a>Başka bir hesapta oturum açın</a>.",
+                "already-member": "Harika bir haberimiz var, {username} kullanıcınız zaten {group} grubunun bir üyesi! Gruba başka bir kullanıcıyla katılmak ister misiniz? <a>Başka bir hesapta oturum açın</a>."
             },
             "invitation": {
-                "not-found": "",
-                "no-usages-left": ""
+                "not-found": "Üzgünüz, bu grup daveti bulunamadı.",
+                "no-usages-left": "Bu grup daveti artık kullanılamaz."
             },
-            "apply": "",
-            "success-alert": ""
+            "apply": "Gruba katıl",
+            "success-alert": "Gruba başarıyla katıldınız!"
         },
         "admin": {
             "permissions": {
-                "use": ""
+                "use": "Grup davet bağlantılarını kullanın"
             },
             "settings": {
-                "title": "",
+                "title": "Grup Daveti",
                 "head": {
-                    "code": "",
-                    "group": "",
-                    "usage": ""
+                    "code": "Kod",
+                    "group": "Grup",
+                    "usage": "Kullanım"
                 },
                 "placeholder": {
-                    "code": "",
-                    "group": "",
-                    "usage": ""
+                    "code": "Otomatik oluşturuldu",
+                    "group": "Seçildi...",
+                    "usage": "Sınırsız için boş bırakınız"
                 },
-                "empty": "",
-                "unlimited": "",
-                "create": "",
-                "delete": ""
+                "empty": "Şimdiye kadar hiç davetiye oluşturulmadı.",
+                "unlimited": "sınırsız",
+                "create": "Oluştur",
+                "delete": "Kaldır"
             }
         },
         "api": {
             "error": {
-                "not-found": "",
-                "no-usages-left": ""
+                "not-found": "Davet kodu bulunamadı",
+                "no-usages-left": "Davet artık kullanılamaz"
             }
         }
     }

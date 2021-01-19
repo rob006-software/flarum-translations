@@ -2,7 +2,6 @@
     "kilowhat-custom-paths": {
         "admin": {
             "settings": {
-                "title": "",
                 "head": {
                     "name": "",
                     "path": ""
@@ -11,27 +10,35 @@
                     "flarum-tags": "",
                     "flarum-subscriptions": "",
                     "flarum-flags": "",
+                    "kilowhat-formulaire": "",
                     "fof-user-directory": "",
                     "fof-pages": "",
+                    "fof-gamification": "",
                     "askvortsov-categories": ""
                 },
                 "paths": {
                     "index": "",
                     "discussion": "",
                     "user": "",
+                    "user-discussions": "",
+                    "user-mentions": "",
                     "settings": "",
                     "notifications": "",
                     "tags": "",
                     "tag": "",
                     "following": "",
                     "flags": "",
+                    "formulaire-form": "",
+                    "formulaire-submission": "",
                     "fof-user-directory": "",
                     "fof-pages": "",
+                    "fof-gamification": "",
                     "askvortsov-categories": ""
                 },
                 "reset": "",
                 "disabled": "",
-                "redirect": ""
+                "redirect": "",
+                "title": ""
             }
         }
     }

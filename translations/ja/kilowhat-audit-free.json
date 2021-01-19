@@ -4,10 +4,6 @@
             "permissions": {
                 "view": ""
             },
-            "menu": {
-                "title": "",
-                "description": ""
-            },
             "header": {
                 "title": "",
                 "free": "",
@@ -16,6 +12,10 @@
                 "documentation": "",
                 "discuss": "",
                 "version": ""
+            },
+            "menu": {
+                "title": "",
+                "description": ""
             }
         },
         "forum": {
@@ -53,6 +53,7 @@
                     "members": ""
                 },
                 "noValue": "",
+                "noReason": "",
                 "client": {
                     "session": "",
                     "api_key": "",
@@ -97,9 +98,11 @@
                 },
                 "permission_changed": "",
                 "post": {
+                    "approved": "",
                     "created": "",
                     "create_date_changed": "",
                     "deleted": "",
+                    "dismissed_flags": "",
                     "edit_date_changed": "",
                     "flagged": "",
                     "hidden": "",

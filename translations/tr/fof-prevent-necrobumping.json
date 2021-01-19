@@ -5,7 +5,7 @@
                 "warning": {
                     "title": "Bu tartışma <b>{time}</b>'den eski.",
                     "description": "Bu konu oldukça eskimiş ve muhtemelen daha fazla tartışılmaya uygun değil.",
-                    "checkbox_label": "Bu tartışmanın oldukça eski olduğunu ancak yine de cevap vermek istediğimi onaylıyorum.",
+                    "checkbox_label": "Bu tartışmanın oldukça eski olduğunu ancak yine de yanıt vermek istediğimi onaylıyorum.",
                     "error": "Bu tartışma yanıtlayamayacağınız kadar eski."
                 }
             }
@@ -13,13 +13,13 @@
         "admin": {
             "settings": {
                 "days_label": "Gün",
-                "days_help": "Bir tartışma, söz konusu tartışmadaki son gönderiden bu yana belirtilen gün sayısı geçtiğinde eski olarak işaretlenir.",
+                "days_help": "Bir tartışma, söz konusu tartışmadaki son gönderiden bu yana belirtilen gün sayısı geçtiğinde eski olarak işaretlenir. Varsayılan olarak deaktif etmek için <code>0</code> değerini kullanın.",
                 "message_title_label": "Özel Mesaj Başlığı",
                 "message_title_help": "<code>[time]</code> alanına örneğin \"14 gün\" yazın.",
                 "message_description_label": "Mesaj Açıklaması",
                 "message_agreement_label": "Mesaj Onay (Onay Kutusu)",
-                "tags_title": "",
-                "tags_help": ""
+                "tags_title": "Etiketler",
+                "tags_help": "Belirli bir etiket için yanıtlamaları geçersiz kıl. Bu alanı boş bırakırsanız varsayılan değer geçerli sayılır. Bir tartışma için farklı etiketlerde alt limit varsa en küçük değer temel alınır."
             }
         }
     }

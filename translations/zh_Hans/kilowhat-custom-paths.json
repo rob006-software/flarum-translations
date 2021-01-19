@@ -2,7 +2,6 @@
     "kilowhat-custom-paths": {
         "admin": {
             "settings": {
-                "title": "自定义路径",
                 "head": {
                     "name": "页面名称",
                     "path": "路径"
@@ -11,27 +10,35 @@
                     "flarum-tags": "Flarum 标签相关",
                     "flarum-subscriptions": "Flarum 订阅相关",
                     "flarum-flags": "Flarum 举报相关",
+                    "kilowhat-formulaire": "",
                     "fof-user-directory": "FoF 会员名录",
                     "fof-pages": "FoF 静态页面",
+                    "fof-gamification": "FriendsOfFlarum 游戏化",
                     "askvortsov-categories": "Askvortsov 传统板块"
                 },
                 "paths": {
                     "index": "全部主题列表（非首页时）",
                     "discussion": "主题",
                     "user": "个人主页",
+                    "user-discussions": "用户主题帖",
+                    "user-mentions": "用户提及",
                     "settings": "设置",
                     "notifications": "通知（移动端）",
                     "tags": "全部标签",
                     "tag": "标签主题",
                     "following": "我的关注",
                     "flags": "举报（移动端）",
+                    "formulaire-form": "",
+                    "formulaire-submission": "",
                     "fof-user-directory": "会员名录",
                     "fof-pages": "静态页面",
+                    "fof-gamification": "排名",
                     "askvortsov-categories": "传统板块"
                 },
                 "reset": "重置路径",
                 "disabled": "未启用该扩展",
-                "redirect": "将默认 Flarum 路径重定向到新路径"
+                "redirect": "将默认 Flarum 路径重定向到新路径",
+                "title": "自定义路径"
             }
         }
     }

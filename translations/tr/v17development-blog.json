@@ -1,0 +1,99 @@
+{
+    "v17development-flarum-blog": {
+        "admin": {
+            "blog": "",
+            "permissions": {
+                "write_articles": "",
+                "auto_approve_posts": "",
+                "approve_posts": ""
+            },
+            "settings": {
+                "no_categories_selected": "",
+                "selected_category_count": "",
+                "select_categories_button": "",
+                "blog_heading": "",
+                "allow_comments_label": "",
+                "allow_comments_text": "",
+                "require_review_label": "",
+                "require_review_text": "",
+                "hide_on_discussion_list_label": "",
+                "hide_on_discussion_list_text": "",
+                "add_sidebar_nav_label": "",
+                "add_sidebar_nav_text": "",
+                "categories_heading": "",
+                "hide_tags_in_taglist_label": "",
+                "hide_tags_in_taglist_text": "",
+                "show_tag_hierarchy_label": "",
+                "show_tag_hierarchy_text": "",
+                "redirects_heading": "",
+                "redirect_articles_label": "",
+                "redirect_articles_text": "",
+                "redirect_tags_label": "",
+                "redirect_tags_text": ""
+            }
+        },
+        "forum": {
+            "blog": "Blog",
+            "read_more": "Devamını oku",
+            "hidden": "Gizli",
+            "recent_posts": "Son blog gönderileri",
+            "categories": "Kategoriler",
+            "forum_nav": "",
+            "return_to_overview": "Blog görünümüne geri dön ",
+            "no_more_posts": "Daha fazla blog gönderisi yok.",
+            "category_empty": "Bu kategoride bir blog gönderisi bulunmamaktadır.",
+            "compose": {
+                "write_article": "Makale yaz"
+            },
+            "validation": {
+                "missing_id": "Kayıp ID"
+            },
+            "article": {
+                "title": "Başlık",
+                "slug": "Adres Kısa Adı",
+                "summary": "Özet"
+            },
+            "comment_section": {
+                "comments": "Yorumlar",
+                "locked": "Bu makale için yorumlar kısmı kapatılmıştır"
+            },
+            "review_article": {
+                "pending_review_title": "İncelenmeyi bekliyor",
+                "pending_review": "Bu makale incelenmeyi bekliyor ve henüz yayınlanmadı",
+                "approve_article": "Makaleyi onayla",
+                "approve_article_approved": "Makale onaylandı ve yayınlandı"
+            },
+            "tools": {
+                "rename_article": "Makaleyi yeniden adlandır",
+                "edit_article": "Makaleyi düzenle",
+                "update_category": "Kategorileri güncelle",
+                "article_settings": "Makale ayarları",
+                "approve_article": "Makaleyi onayla",
+                "hide_article": "Makaleyi gizle",
+                "recover_article": "Makaleyi kurtar",
+                "delete_forever": "Kalıcı olarak sil",
+                "enable_comments": "Yorumları etkinleştir",
+                "disable_comments": "Yorumları kapat"
+            },
+            "utils": {
+                "redirect": {
+                    "title": "Sizi blog yazımıza yönlendiriyoruz...",
+                    "link": "Eğer yönlendirilmezseniz <a>buraya</a> tıklayın"
+                }
+            },
+            "composer": {
+                "no_title": "Başlık yok",
+                "enter_message_here": "Mesajınızı buraya girin",
+                "post_article": "Makale yayınla",
+                "select_category": "Bir kategori seç",
+                "edit_categories": "Kategorileri düzenleyin",
+                "write": "Yaz",
+                "view": "Görünüm",
+                "nothing_to_preview": "Önizlenecek bir şey yok",
+                "comment_section": "Bir makale oluştururken yorum bölümü kullanılamaz.",
+                "no_blog_tags_selected": "Seçtiğiniz etiketlerin hiçbiri blog etiketi değil. Lütfen en az birini seçin.",
+                "post_without_blog_info": "Bu blog gönderisini göndermek istediğinizden emin misiniz? Henüz bir blog özeti veya resmi girmediniz."
+            }
+        }
+    }
+}

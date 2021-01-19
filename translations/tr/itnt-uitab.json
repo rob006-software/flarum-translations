@@ -2,15 +2,15 @@
     "itnt-uitab": {
         "admin": {
             "settings": {
-                "requirement": "",
-                "title": "",
-                "tags_title": "",
-                "help_text": "",
-                "home_page_label": "",
-                "tags_page_label": "",
-                "create_page_label": "",
-                "settings_page_label": "",
-                "notifications_page_label": ""
+                "help_text": "Eğer Flarum siteniz alt dizine kuruluysa, lütfen aşağıdaki alt dizini belirtin (bölü çizgiyle bitirin), aksi takdirde lütfen varsayılan değeri bırakın. Örneğin, <code>/sub/</code>",
+                "home_page_label": "Anasayfa",
+                "requirement": "UI Tab uzantısını kullanmadan önce mutlaka <code>flagrow/direct-links</code> uzantısını aktif etmelisiniz",
+                "title": "UI Tab Ayarları",
+                "tags_title": "Alt Dizin Adresiniz",
+                "tags_page_label": "Etiketler",
+                "create_page_label": "Oluştur",
+                "settings_page_label": "Ayarlar",
+                "notifications_page_label": "Bildirimler"
             }
         }
     }

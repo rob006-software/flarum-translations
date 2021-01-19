@@ -2,26 +2,26 @@
     "migratetoflarum-canonical": {
         "admin": {
             "settings": {
-                "title": "",
                 "step": {
-                    "how_to": "",
-                    "check_config_url": "",
-                    "admin_on_canonical": "",
-                    "enable_temporary": "",
-                    "enable_permanent": "",
-                    "suggestions": "",
-                    "use_https": "",
-                    "use_hsts": ""
+                    "how_to": "Canonical yönlendirme nasıl etkinleştirilir",
+                    "check_config_url": "Config.php'de tanımlanan bağlantının tercih ettiğiniz canonical bağlantı olup olmadığını kontrol edin (şu anda: {url})",
+                    "admin_on_canonical": "Canonical bağlantı üzerinden yönetici paneline erişin",
+                    "enable_temporary": "Geçici yeniden yönlendirmeyi etkinleştirin ve her şeyin çalıştığını kontrol edin",
+                    "enable_permanent": "Kalıcı yeniden yönlendirmeyi etkinleştir",
+                    "suggestions": "Bu uzantının uygulamadığı veya kapsamadığı diğer öneriler",
+                    "use_https": "Bir HTTPS canonical bağlantısı kullanın",
+                    "use_hsts": "Sürüm düşürme saldırılarını önlemek için HSTS kullanın"
                 },
                 "field": {
-                    "status": "",
-                    "wrong_url": ""
+                    "status": "Yönlendirme türü",
+                    "wrong_url": "Uzantı ayarları, forumunuza canonical bağlantısı aracılığıyla eriştiğinizde görünecektir"
                 },
                 "option": {
-                    "disabled": "",
-                    "302": "",
-                    "301": ""
-                }
+                    "disabled": "Devre dışı (uzantı hiçbir şey yapmaz)",
+                    "302": "302 (Geçici yönlendirme, test için)",
+                    "301": "301 (Kalıcı yeniden yönlendirme)"
+                },
+                "title": ""
             }
         }
     }

@@ -1,0 +1,59 @@
+{
+    "fof-doorman": {
+        "forum": {
+            "email": {
+                "subject": "Katılmak için Davet Et",
+                "body": "Merhaba,\n\n{forum} sitesi için bir davetiye aldın.\n\nKayıt olmak için hazır olduğunda aşağıdaki bağlantıyı kullanabilir ve kayıt olurken kodu kullanabilirsin:\n\nBağlantı: {url}\nDavet kodu: {code}\n\nEğer bu mesajı yanlışlıkla aldığınızı düşünüyorsanız görmezden gelebilirsiniz.\n"
+            },
+            "sign_up": {
+                "invalid_doorkey": "Girilen davet kodu geçersiz.",
+                "doorkey_required": "Lütfen davet kodunu giriniz.",
+                "doorman_placeholder": "Davet Kodu",
+                "doorman_placeholder_optional": "Davet Kodu (isteğe bağlı)"
+            }
+        },
+        "admin": {
+            "modal": {
+                "title": "Davetiye Kodu Gönder",
+                "group": "{group} grubu için davetiye gönderiliyor",
+                "help": "Virgül, boşluk veya virgülle ayrılmış bir listeyi kabul eder. Tek bir e-posta yazın veya bir liste yapıştırın ve ardından/onları eklemek için boşluk tuşuna basın.",
+                "placeholder": "Epostaları girin",
+                "invalid_emails": "Bu e-postalar geçersiz: {emails}",
+                "max_use_conflict": "E-posta sayısı, bu kod için maksimum kullanım sayısını aşıyor.",
+                "send": "Mailleri gönder",
+                "success": "E-postalar başarıyla gönderildi"
+            },
+            "invalid_doorkey": "Girdiğiniz davet kodu geçersiz.",
+            "doorkey_required": "Bir davet kodu oluşturmalısınız",
+            "nav": {
+                "desc": "Kullanıcıların kaydolması ve bir gruba atanması için davet kodları oluşturun"
+            },
+            "page": {
+                "title": "Doorman",
+                "doorkey": {
+                    "used_times": "1 kullanım kaldı|{remaining} kullanım kaldı",
+                    "title": "Davetiye Kodları",
+                    "help": {
+                        "key": "Anahtar: Kayıt sırasında kullanıcının girmesi gereken kod.",
+                        "group": "Grup: Kullanıcının kayıt olurken ekleneceği grup.",
+                        "max": "Maksimum Kullanım: Bir kodun kaç defa kullanılabileceğini belirtir, 0 değeri sınırsız kullanım sağlar",
+                        "activates": "Kullanıcıyı Etkinleştir: Kayıt olan kullanıcıyı otomatik olarak etkinleştirir."
+                    },
+                    "warning": "Bu davet kodu maksimum sayıda kullanılmış.",
+                    "key": "Anahtar",
+                    "max_uses": "Maksimum Kullanım",
+                    "heading": {
+                        "key": "Anahtar",
+                        "group": "Grup",
+                        "activate": "Kullanıcıyı Etkinleştir",
+                        "max_uses": "Maksimum Kullanım"
+                    },
+                    "allow-public": {
+                        "title": "Herkesin kayıt olmasına izin ver",
+                        "switch-label": "Kayıt olurken davet kodu girişini isteğe bağlı tut"
+                    }
+                }
+            }
+        }
+    }
+}

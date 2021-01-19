@@ -35,6 +35,12 @@
                 "notify_email_tooltip": "Get an email when there are new posts"
             }
         },
+        "email": {
+            "new_post": {
+                "subject": "[New Post] {title}",
+                "body": "Hey {recipient_display_name}!\n\n{poster_display_name} made a post in a discussion you're following: {title}.\n\nTo view the new activity, check out the following link:\n{url}\n\n---\n\n{content}\n\n---\n\nYou won't receive any more notifications about this discussion until you're up-to-date.\n"
+            }
+        },
         "ref": {
             "follow": "Follow",
             "following": "Following",

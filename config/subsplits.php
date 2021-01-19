@@ -15,6 +15,14 @@ use app\components\release\PolishReleaseGenerator;
 use function rob006\flarum\translations\helpers\getComponents;
 
 return [
+	'ja' => [
+		'type' => 'language',
+		'language' => 'ja',
+		'updateReadme' => false,
+		'repository' => 'git@github.com:FFans/lang-japanese.git',
+		'branch' => 'master',
+		'path' => '/locale',
+	],
 	'pl' => [
 		'type' => 'language',
 		'language' => 'pl',
@@ -38,11 +46,38 @@ return [
 			'!v17development-support',
 		]),
 	],
+	'tr-lang' => [
+		'type' => 'language',
+		'language' => 'tr',
+		'updateReadme' => false,
+		'repository' => 'git@github.com:tolgaaaltas/flarum-lang-turkish.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'components' => getComponents([
+			'core',
+			'validation',
+			'flarum-*',
+		]),
+	],
+	'tr-ext' => [
+		'type' => 'language',
+		'language' => 'tr',
+		'updateReadme' => false,
+		'repository' => 'git@github.com:tolgaaaltas/flarum-ext-turkish.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'components' => getComponents([
+			'!core',
+			'!validation',
+			'!flarum-*',
+			'*',
+		]),
+	],
 	'zh_Hans' => [
 		'type' => 'language',
 		'language' => 'zh_Hans',
 		'updateReadme' => false,
-		'repository' => 'git@github.com:Littlegolden/flarum-lang-simplified-chinese.git',
+		'repository' => 'git@github.com:FFans/lang-simplified-chinese.git',
 		'branch' => 'master',
 		'path' => '/locale',
 	],

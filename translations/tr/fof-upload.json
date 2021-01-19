@@ -1,18 +1,24 @@
 {
     "fof-upload": {
         "admin": {
+            "pane": {
+                "title": "Yükle",
+                "description": "Yükleme hizmetlerini ve tercihlerini ayarlayın."
+            },
             "buttons": {
                 "save": "Ayarları kaydet"
             },
             "help_texts": {
-                "description": "Dosya yükleme servisleri ve ayarları.\n",
                 "disable-download-logging": "Forum kullanıcıları tarafından yapılan her indirme işleminin kaydını kapat. Etkinleştirilmesi, gelecekte indirenlerin sayısını ve diğer ölçümleri görmenizi sağlar.\n",
                 "disable-hotlink-protection": "Hotlink koruması, diğer sitelerden indirme yapılmasına engel olur. Geçerli bir csrf token ve post id'si gereklidir.\n",
                 "download_templates": "İndirme şablonları, dosyaların forumunuzda nasıl görüneceğini ayarlamanızı sağlar, örneğin önizleme veya düğme gibi. Mevcut olanlar:\n",
                 "mime_types": "Please configure your mapping here. Each mime type regular expression will be handled by a specific upload adapter and download template.\n",
                 "resize": "Resimlerin yüklenmeden önce yeniden boyulandırılıp boyutlandırılmayacağını seçin. Piksel cinsinden maksimum genişlik ve yükseklik belirtebilirsiniz. Yeniden boyutlandırma işlemi görüntülerin enini ve boyunu korur.\n",
-                "client_extension": "",
-                "watermark": "Yükleme sırasında resimlere fligran (watermark) eklenip eklenmeyeceğini seçin. Filigranlar gif olmayan dosyalara eklenebilir.\n"
+                "client_extension": "Varsayılan olarak Yükle, MIME türüne göre güvenli bir dosya uzantısı seçecektir.\nZIP veya ikili verilere dayalı bazı dosya türleri için bu, beklenen uzantıların yerine genel uzantıların kullanılmasına neden olabilir.\nBurada, aynen tutulacak dosya uzantılarının virgülle ayrılmış bir listesini girebilirsiniz.\n",
+                "watermark": "Yükleme sırasında resimlere filigran (watermark) eklenip eklenmeyeceğini seçin. Filigranlar gif olmayan dosyalara eklenebilir.\n",
+                "s3_compatible_storage": "Aşağıdaki ayarlar yalnızca S3 uyumlu depolama kullanılırken gereklidir. AWS kullanıyorsanız, bunları boş bırakabilirsiniz.",
+                "s3_acl": "Yüklenen nesneye uygulanması gereken ACL (varsayılan: özel). Olası değerler için bkz. https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl",
+                "description": "Dosya yükleme servisleri ve ayarları.\n"
             },
             "labels": {
                 "aws-s3": {
@@ -20,7 +26,11 @@
                     "key": "Key",
                     "region": "Region",
                     "secret": "Secret",
-                    "title": "AWS S3 depolama ayarları"
+                    "title": "AWS S3 depolama ayarları",
+                    "advanced_title": "Gelişmiş S3 depolama ayarları",
+                    "endpoint": "Endpoint\n",
+                    "use_path_style_endpoint": "Dizin stili endpoint kullan",
+                    "acl": "Access Control List (ACL)"
                 },
                 "disable-download-logging": {
                     "title": "İndirme kayılarını kapat",
@@ -39,10 +49,10 @@
                     "title": "Yerel depolama ayarları"
                 },
                 "qiniu": {
-                    "title": "",
-                    "key": "",
-                    "secret": "",
-                    "bucket": ""
+                    "title": "Qiniu depolama ayarları",
+                    "key": "Key",
+                    "secret": "Secret",
+                    "bucket": "Bucket"
                 },
                 "preferences": {
                     "max_file_size": "Maksimum dosya boyutu (kilobyte cinsinden)",
@@ -50,12 +60,12 @@
                     "title": "Genel tercihler"
                 },
                 "resize": {
-                    "max_width": "Maksimum resim genişliği",
+                    "max_width": "Maksimum resim genişliği/yüksekliği",
                     "title": "Görüntüleri yeniden boyutlandır",
                     "toggle": "Görüntüleri yeniden boyutlandır"
                 },
                 "client_extension": {
-                    "title": ""
+                    "title": "Kullanıcı tarafından sağlanan dosya uzantıları"
                 },
                 "watermark": {
                     "file": "Filigran yükleyin",
@@ -75,15 +85,15 @@
                 "image-preview": "Tam resim önizleme şablonu",
                 "image-preview_description": "Tam resmi satır içerisinde gösterir, indirme işlevine sahip değilir, istatistik toplamaz ve hotlink koruması yoktur.\n",
                 "image_description": "Resimin küçük halini gösterir ve proxyler php yoluyla indirilir. İstatistiklerin toplanması ve hotlink korunması mevcuttur.\n",
-                "just-url": "",
-                "just-url_description": ""
+                "just-url": "Sadece Bağlantı",
+                "just-url_description": "Yalnızca URL'yi ekler. Oluşturma, otomatik bağlanma özelliğine sahip diğer uzantılar tarafından gerçekleştirilebilir. İndirme işlevi yoktur, hiçbir istatistik toplanmaz ve hotlink koruması göz ardı edilir.\n"
             },
             "upload_methods": {
-                "aws-s3": "Amazon S3",
+                "aws-s3": "S3/Compatible",
                 "imgur": "Imgur",
                 "local": "Yerel",
                 "ovh-svfs": "OVH SVFS",
-                "qiniu": ""
+                "qiniu": "QiNiu"
             }
         },
         "forum": {
@@ -93,14 +103,14 @@
             "states": {
                 "error": "Hata",
                 "loading": "Yükleniyor",
-                "unauthorized": ""
+                "unauthorized": "Dosyaları indirmenize izin verilmiyor"
             }
         },
         "api": {
             "upload_errors": {
-                "forbidden_type": "",
-                "unsupported_type": "",
-                "could_not_detect_mime": ""
+                "forbidden_type": "Bu türdeki dosyaların yüklenmesine izin verilmiyor.",
+                "unsupported_type": "Yükleyici bu tür dosya tipini desteklemiyor: {mime}.",
+                "could_not_detect_mime": "Bu dosyanın türü algılanamadı, lütfen tekrar deneyin."
             }
         }
     }

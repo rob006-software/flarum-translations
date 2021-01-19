@@ -3,10 +3,17 @@
         "admin": {
             "settings": {
                 "help_text": "<a>ここで</a> Google reCAPTCHA 証明書を取得する。",
-                "type_label": "reCAPTCHA 種類",
+                "secret_key_label": "Secret Key",
                 "site_key_label": "Site Key",
-                "secret_key_label": "Secret Key"
+                "title": "",
+                "type_label": "reCAPTCHA 種類"
+            },
+            "permissions": {
+                "post_without_captcha": ""
             }
+        },
+        "forum": {
+            "error": ""
         }
     },
     "validation": {

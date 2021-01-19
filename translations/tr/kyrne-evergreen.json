@@ -1,0 +1,38 @@
+{
+    "kyrne-evergreen": {
+        "forum": {
+            "post": {
+                "show_replies": "{count} Yanıtı Göster",
+                "show_reply": "{count} Yanıtı Göster"
+            }
+        }
+    },
+    "flarum-mentions": {
+        "forum": {
+            "composer": {
+                "mention_tooltip": "Bir kullanıcı veya gönderiden bahset",
+                "reply_to_post_text": "#{number} Yanıtla"
+            },
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_mentioned_text": "{username} senin gönderini yanıtladı",
+                "user_mentioned_text": "{username} senden bahsetti"
+            },
+            "post": {
+                "mentioned_by_self_text": "{users} bunu yanıtladı.",
+                "mentioned_by_text": "{users} bunu yanıtladı.",
+                "others_text": "=> core.ref.some_others",
+                "quote_button": "Alıntıla",
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
+            },
+            "settings": {
+                "notify_post_mentioned_label": "Birisi benim gönderimden bahsettiğinde",
+                "notify_user_mentioned_label": "Birisi benden gönderide bahsettiğinde"
+            },
+            "user": {
+                "mentions_link": "Bahsetmeler"
+            }
+        }
+    }
+}

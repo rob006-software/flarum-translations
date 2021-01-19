@@ -1,0 +1,99 @@
+{
+    "v17development-flarum-blog": {
+        "admin": {
+            "blog": "",
+            "permissions": {
+                "write_articles": "",
+                "auto_approve_posts": "",
+                "approve_posts": ""
+            },
+            "settings": {
+                "no_categories_selected": "",
+                "selected_category_count": "",
+                "select_categories_button": "",
+                "blog_heading": "",
+                "allow_comments_label": "",
+                "allow_comments_text": "",
+                "require_review_label": "",
+                "require_review_text": "",
+                "hide_on_discussion_list_label": "",
+                "hide_on_discussion_list_text": "",
+                "add_sidebar_nav_label": "",
+                "add_sidebar_nav_text": "",
+                "categories_heading": "",
+                "hide_tags_in_taglist_label": "",
+                "hide_tags_in_taglist_text": "",
+                "show_tag_hierarchy_label": "",
+                "show_tag_hierarchy_text": "",
+                "redirects_heading": "",
+                "redirect_articles_label": "",
+                "redirect_articles_text": "",
+                "redirect_tags_label": "",
+                "redirect_tags_text": ""
+            }
+        },
+        "forum": {
+            "blog": "博客",
+            "read_more": "阅读更多",
+            "hidden": "隐藏",
+            "recent_posts": "近期文章",
+            "categories": "分类目录",
+            "forum_nav": "",
+            "return_to_overview": "返回博客首页 ",
+            "no_more_posts": "没有更多文章了",
+            "category_empty": "此分类目录中没有文章",
+            "compose": {
+                "write_article": "写文章"
+            },
+            "validation": {
+                "missing_id": "ID 缺失"
+            },
+            "article": {
+                "title": "标题",
+                "slug": "别名",
+                "summary": "摘要"
+            },
+            "comment_section": {
+                "comments": "评论",
+                "locked": "评论已关闭"
+            },
+            "review_article": {
+                "pending_review_title": "待审核",
+                "pending_review": "此文章需要审核后才会发布",
+                "approve_article": "批准文章",
+                "approve_article_approved": "此文章已批准并发布"
+            },
+            "tools": {
+                "rename_article": "重命名文章",
+                "edit_article": "编辑文章",
+                "update_category": "更新分类目录",
+                "article_settings": "文章设置",
+                "approve_article": "批准文章",
+                "hide_article": "隐藏文章",
+                "recover_article": "恢复文章",
+                "delete_forever": "永久删除",
+                "enable_comments": "开启评论",
+                "disable_comments": "关闭评论"
+            },
+            "utils": {
+                "redirect": {
+                    "title": "正在将您重定向至博客文章……",
+                    "link": "如果没有任何响应，请<a>单击此处</a>"
+                }
+            },
+            "composer": {
+                "no_title": "",
+                "enter_message_here": "",
+                "post_article": "",
+                "select_category": "",
+                "edit_categories": "",
+                "write": "",
+                "view": "",
+                "nothing_to_preview": "",
+                "comment_section": "",
+                "no_blog_tags_selected": "",
+                "post_without_blog_info": ""
+            }
+        }
+    }
+}

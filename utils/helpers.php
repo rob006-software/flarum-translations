@@ -15,6 +15,8 @@ namespace rob006\flarum\translations\helpers;
 
 use function array_filter;
 use function array_keys;
+use function strlen;
+use function strncmp;
 use function substr;
 
 /**
@@ -44,7 +46,7 @@ function getComponents(array $rules = []): array {
 
 			if (
 				$key === $rule || $rule === '*'
-				|| (substr($rule, -1) === '*' && $key === substr($rule, 0, -1))
+				|| (substr($rule, -1) === '*' && strncmp($key, $rule, strlen($rule) - 1) === 0)
 			) {
 				return $allow;
 			}

@@ -5,18 +5,18 @@
         },
         "admin": {
             "settings": {
-                "title": "",
+                "title": "WebPush Ayarları",
                 "type": {
-                    "description": "",
-                    "standart": "",
-                    "custom": ""
+                    "description": "Tek tasarım tipi bağlayıcı",
+                    "standart": "Standart",
+                    "custom": "Özel"
                 },
-                "app_id": "",
-                "api_key": "",
-                "user_key": "",
-                "subdomain": "",
-                "excerpt": "",
-                "autoprompt": ""
+                "app_id": "Onesignal uygulama kimliği",
+                "api_key": "Onesignal api anahtarı",
+                "user_key": "Onesignal kullanıcı anahtarı",
+                "subdomain": "Onesignal alt alan adı",
+                "excerpt": "Bildirimlerdeki alıntı uzunluğu",
+                "autoprompt": "Kullanıcıları yetkilendirmek için hemen izin istemi göster"
             }
         },
         "notify": {
@@ -25,15 +25,15 @@
                 "message": "{from} senin gönderini beğendi \"{post}\""
             },
             "mention-post": {
-                "title": "Bir gönderide bahsedildin",
+                "title": "Şuradaki gönderiye yeni yanıt: {title}",
                 "message": "{from} senden gönderide bahsetti \"{post}\""
             },
             "mention": {
-                "title": "Bir gönderide bahsedildin",
+                "title": "Sizden bahsedildi: {title}",
                 "message": "{from} senden bir gönderide bahsetti \"{post}\""
             },
             "post": {
-                "title": "Abone olduğun bölümde yeni gönderi",
+                "title": "Abone olunan tartışmada yeni gönderi: {title}",
                 "message": "{from} yeni bir gönderi oluşturdu \"{post}\""
             },
             "tag": {
@@ -42,7 +42,7 @@
                     "message": "{from} yeni bir tartışma başlattı \"{title}\""
                 },
                 "post": {
-                    "title": "Takip edilen etikette yeni bir gönderi",
+                    "title": "Tartışmada yeni gönderi: {title}",
                     "message": "{from} yeni bir gönderi oluşturdu \"{post}\""
                 }
             },
@@ -63,12 +63,12 @@
                 "message": "{from} hesabını askıya aldı"
             },
             "unsuspend": {
-                "title": "",
-                "message": ""
+                "title": "Hesabınız askıya alınmadı",
+                "message": "{from} hesabınızın askıya alınmasını kaldırın"
             },
             "flag": {
-                "title": "New flagged post",
-                "message": "{from} flag post \"{post}\""
+                "title": "Yeni işaretli gönderi",
+                "message": "{from} işaretli gönderisi: {post}"
             }
         }
     }

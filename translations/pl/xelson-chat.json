@@ -1,4 +1,172 @@
 {
+    "xelson-chat": {
+        "forum": {
+            "toolbar": {
+                "title": "Czat",
+                "enable_sounds": "Włącz dźwięki",
+                "disable_sounds": "Wyłącz dźwięki",
+                "enable_notifications": "Włącz powiadomienia",
+                "disable_notifications": "Wyłącz powiadomienia",
+                "minimize": "Minimalizuj",
+                "maximize": "Maksymalizuj",
+                "chat": {
+                    "settings": "Ustawienia czatu"
+                }
+            },
+            "chat": {
+                "welcome": "",
+                "welcome.header": "Witaj w Neon Chat!",
+                "moder": "Moderator",
+                "kick": "Wyrzuć",
+                "leave": "Opuść",
+                "edit_modal": {
+                    "title": "Ustawienia czatu",
+                    "moderator": {
+                        "got": "Właśnie uzyskałeś uprawnienia moderatora w czacie {chatname}!",
+                        "lost": "Właśnie utraciłeś uprawnienia moderatora w czacie {chatname}."
+                    },
+                    "form": {
+                        "title": "",
+                        "title.validator": "Co najmniej jeden znak",
+                        "color": "",
+                        "color.validator": "Wpisz kod HEX koloru",
+                        "icon": "",
+                        "icon.validator": "=> core.ref.icon_text",
+                        "users": "",
+                        "users.edit": "Wybierz i edytuj użytkowników",
+                        "leave": "Opuść czat",
+                        "return": "Dołącz do czatu",
+                        "delete": {
+                            "title": "Czy jesteś pewien, że chcesz usunąć ten czat?",
+                            "desc": "Potwierdź nazwę czatu, który chcesz usunąć",
+                            "placeholder": "Nazwa czatu",
+                            "button": "Usuń czat"
+                        }
+                    },
+                    "search": {
+                        "placeholder": "Wyszukaj użytkowników",
+                        "failed": "Nie znaleziono pasujących użytkowników",
+                        "invited": "Zaproszony"
+                    },
+                    "save_button": "=> core.ref.save_changes"
+                },
+                "list": {
+                    "pin": "Przypnij panel",
+                    "unpin": "Odepnij panel",
+                    "placeholder": "Szukaj",
+                    "preview": {
+                        "empty": "Brak wiadomości"
+                    },
+                    "add_modal": {
+                        "title": "Wybierz użytkowników",
+                        "chat": "Czat",
+                        "channel": "Kanał",
+                        "create": {
+                            "chat": "Utwórz nowy czat",
+                            "channel": "Utwórz nowy kanał"
+                        },
+                        "alerts": {
+                            "exists": "Nie możesz utworzyć kolejnego czatu z tym użytkownikiem!"
+                        },
+                        "form": {
+                            "title": "",
+                            "title.chat": "Nazwa czatu",
+                            "title.channel": "Nazwa kanału",
+                            "title.validator": "Co najmniej jeden znak",
+                            "icon": "",
+                            "icon.validator": "=> core.ref.icon_text",
+                            "color": "",
+                            "color.validator": "=> xelson-chat.forum.chat.edit_modal.form.color.validator",
+                            "users": "Wybrani użytkownicy"
+                        },
+                        "search": {
+                            "placeholder": "Wyszukaj użytkowników",
+                            "failed": "Nie znaleziono pasujących użytkowników",
+                            "invited": "Zaproszony"
+                        }
+                    }
+                },
+                "placeholder": "Wpisz  swoją wiadomość...",
+                "message": {
+                    "actions": {
+                        "hide": "Ukryj",
+                        "resend": "Wyślij ponownie"
+                    },
+                    "censored": "Zaloguj się, aby zobaczyć tę wiadomość!",
+                    "deleted": "usunięto przez",
+                    "deleted_forever": "usunięto na zawsze przez",
+                    "you": "Ty",
+                    "type": {
+                        "url": "URL",
+                        "event": "Zdarzenie",
+                        "code": "<Code />"
+                    },
+                    "events": {
+                        "chat": {
+                            "created": "{creatorname} utworzył {chatname} i zaprosił {usernames}"
+                        },
+                        "pm": {
+                            "created": "{creatorname} utworzył czat z {username}"
+                        },
+                        "channel": {
+                            "created": "{creatorname} utworzył kanał {chatname}"
+                        },
+                        "title": {
+                            "edited": "{editorname} zmienił tytuł czatu z {old} na {new}"
+                        },
+                        "icon": {
+                            "edited": "{editorname} zmienił ikonę czatu z {old} na {new}"
+                        },
+                        "color": {
+                            "edited": "{editorname} zmienił kolor czatu z {old} na {new}"
+                        },
+                        "users": {
+                            "invited": "{editorname} zaprosił {usernames}",
+                            "kicked": "{editorname} wyrzucił {usernames}",
+                            "invited_kicked": "{editorname} zaprosił {invitednames} i wyrzucił {kickednames}"
+                        },
+                        "self": {
+                            "leaved": "{username} opuścił czat",
+                            "entered": "{username} dołączył do czatu"
+                        }
+                    }
+                }
+            },
+            "errors": {
+                "unauthenticated": "Jedynie zarejestrowani użytkownicy mogą korzystać z czatu",
+                "chatdenied": "Twoje grupa nie ma uprawnień aby pisać wiadomości",
+                "removed": "Zostałeś wyrzucony z czatu"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "post": "Pisanie wiadomości na czacie",
+                "edit": "Edytowanie wiadomości na czacie",
+                "delete": "Usuwanie wiadomości na czacie",
+                "enabled": "Włączony czat",
+                "create": "",
+                "create.channel": "Tworzenie kanałów",
+                "moderate": {
+                    "delete": "Usuwanie wiadomości na czacie",
+                    "vision": "Przeglądanie usuniętych wiadomości"
+                }
+            },
+            "settings": {
+                "title": "Ustawienia czatu",
+                "charlimit": "Maksymalna liczba znaków w wiadomości",
+                "floodgate": {
+                    "title": "Antiflood",
+                    "number": "Liczba wiadomości wysłanych pod rząd",
+                    "time": "W czasie"
+                },
+                "display": {
+                    "title": "Wyświetlanie",
+                    "minimize": "Wyświetlaj domyślnie zminimalizowany",
+                    "censor": "Cenzuruj wiadomości nieuwierzytelnionym użytkownikom"
+                }
+            }
+        }
+    },
     "pushedx-chat": {
         "forum": {
             "toolbar": {

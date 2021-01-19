@@ -41,16 +41,7 @@
                 "currentContent": "obecną treść",
                 "revisionWithNumber": "rewizję nr {number}",
                 "sentence": "Przeglądasz {content}"
-            },
-            "deletedTooltip": "{username} usunął treść tej rewizji {ago}",
-            "createdTooltip": "{username} utworzył {ago}",
-            "mostRecent": "najnowsze",
-            "sideBySide": "Obok siebie",
-            "inline": "W linii",
-            "combined": "Kombinacja",
-            "originalContent": "oryginalna treść",
-            "currentContent": "obecna treść",
-            "revisionWithNumber": "rewizja nr {number}"
+            }
         },
         "admin": {
             "settings": {
@@ -74,16 +65,7 @@
                 "archiveOldsInfo": "Jeśli <strong>x ≥ A</strong>, pierwszych <strong>y=mx+b</strong> rewizji danego posta zostanie scalonych oraz skompresowanych. <strong>x</strong> to liczba rewizji danego posta. <strong>y</strong> zostanie zaokrąglone w dół do liczby całkowitej.",
                 "useCrons": "Użyj crona do archiwizowania starych rewizji",
                 "useCronsHelp": "Musisz dodać wpis do crona na swoim serwerze, aby ta opcja zadziałała. Zadanie wykona się co tydzień w niedzielę o 2:00. Jeśli wyłączysz tę opcję, ale włączysz archiwizowanie, wszystkie rewizje posta zostaną przeskanowane pod kątem archiwizacji podczas edycji posta.",
-                "archiveInfo": "Zauważ, że możesz wyłączyć obie opcje i ręcznie uruchomić komendę <code>php flarum diff:archive</code>, aby zarchiwizować stare rewizje.",
-                "displayMode": "Tryb wyświetlania (HTML)",
-                "customHTML": "Niestandardowy widok",
-                "tabularHTML": "Widok tabelaryczny",
-                "renderMode": "Tryb renderowania",
-                "inline": "W linii (HTML)",
-                "sideBySide": "Obok siebie (HTML)",
-                "combined": "Kombinacja (HTML)",
-                "enableSyncScroll": "Włącz synchronizację przewijania dla widoku wyświetlania różnic obok siebie",
-                "allowSwitch": "Pozwól użytkownikom przełączać tryb renderowania"
+                "archiveInfo": "Zauważ, że możesz wyłączyć obie opcje i ręcznie uruchomić komendę <code>php flarum diff:archive</code>, aby zarchiwizować stare rewizje."
             },
             "permissions": {
                 "viewEditHistory": "Przeglądanie historii edycji",

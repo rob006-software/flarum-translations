@@ -1,0 +1,43 @@
+{
+    "clarkwinkelmann-mailing": {
+        "admin": {
+            "permissions": {
+                "mail_individual": "Send emails to individual users",
+                "mail_all": "Send emails to groups or all users"
+            }
+        },
+        "forum": {
+            "links": {
+                "mail_individual": "Email This User",
+                "mail_all": "Send Email"
+            },
+            "modal_mail": {
+                "title_text": "Compose Mail",
+                "recipients_label": "Recipients",
+                "recipients_placeholder": "Add more recipients...",
+                "subject_label": "Subject",
+                "default_subject": "=> clarkwinkelmann-mailing.ref.default_subject",
+                "message_label": "Message",
+                "submit_button": "Send"
+            },
+            "modal_sent": {
+                "title_text": "Mail Sent!",
+                "on_its_way": "High Five! Your mail is on its way to {recipientsCount} recipients!"
+            },
+            "recipient_kinds": {
+                "user": "User",
+                "group": "Group",
+                "email": "Email"
+            }
+        },
+        "api": {
+            "no_recipients": "No recipient were matched"
+        },
+        "email": {
+            "default_subject": "=> clarkwinkelmann-mailing.ref.default_subject"
+        },
+        "ref": {
+            "default_subject": "Message from forum administration"
+        }
+    }
+}

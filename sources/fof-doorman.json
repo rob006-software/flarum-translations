@@ -1,0 +1,59 @@
+{
+    "fof-doorman": {
+        "forum": {
+            "email": {
+                "subject": "Invite to Join",
+                "body": "Hello,\n\nYou have been invited to sign up for {forum}.\n\nWhen you are ready to create your account, simply click the following link and enter the code when signing up:\n\nUrl: {url}\nInvite code: {code}\n\nIf you received this in error, please ignore this email.\n"
+            },
+            "sign_up": {
+                "invalid_doorkey": "The invite code your entered is invalid.",
+                "doorkey_required": "Please enter an invite code.",
+                "doorman_placeholder": "Invite Code",
+                "doorman_placeholder_optional": "Invite Code (optional)"
+            }
+        },
+        "admin": {
+            "modal": {
+                "title": "Send Invite Codes",
+                "group": "Sending invites for {group} group",
+                "help": "Accepts a comma, space, or comma-space seperated list. Type an individual email or paste a list then press space to add it/them.",
+                "placeholder": "Enter emails here",
+                "invalid_emails": "The following email(s) are invalid: {emails}",
+                "max_use_conflict": "The number of emails exceeds the max number of uses for this code.",
+                "send": "Send Emails",
+                "success": "Emails successfully sent"
+            },
+            "invalid_doorkey": "The invite code you provided is invalid.",
+            "doorkey_required": "You must provide an Invite Code",
+            "nav": {
+                "desc": "Create invite codes for users to sign up and be assigned to a group"
+            },
+            "page": {
+                "title": "Doorman",
+                "doorkey": {
+                    "used_times": "1 Use left|{remaining} Uses left",
+                    "title": "Invite Codes",
+                    "help": {
+                        "key": "Key: Code the user will type in when registering.",
+                        "group": "Group: The group the user will be added to when the register.",
+                        "max": "Max Uses: The max number of times the code can be used, set to 0 for unlimited uses",
+                        "activates": "Activates User: Automatically activates the user when they register."
+                    },
+                    "warning": "This invite code has been used its max number of times.",
+                    "key": "Key",
+                    "max_uses": "Max Uses",
+                    "heading": {
+                        "key": "Key",
+                        "group": "Group",
+                        "activate": "Activates User",
+                        "max_uses": "Max Uses"
+                    },
+                    "allow-public": {
+                        "title": "Allow public Sign Up",
+                        "switch-label": "Make invite code optional when signing up"
+                    }
+                }
+            }
+        }
+    }
+}

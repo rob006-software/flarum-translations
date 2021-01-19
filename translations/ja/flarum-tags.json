@@ -37,9 +37,12 @@
             },
             "tags": {
                 "about_tags_text": "タグは、スレッドを分類するために使用されます。プライマリタグは従来のフォーラムカテゴリのようなもので、2つのレベルの階層に配置できます。セカンダリタグには階層や順序はなく、カテゴリ化に役立ちます",
-                "create_tag_button": "=> flarum-tags.ref.create_tag",
+                "create_primary_tag_button": "",
+                "create_secondary_tag_button": "",
                 "primary_heading": "プライマリタグ",
                 "secondary_heading": "セカンダリタグ",
+                "settings_heading": "",
+                "create_tag_button": "=> flarum-tags.ref.create_tag",
                 "settings_button": "設定"
             }
         },
@@ -83,9 +86,9 @@
             "deleted_tag_text": "削除済み"
         },
         "ref": {
-            "create_tag": "タグを作成",
             "name": "名前",
-            "tags": "タグ"
+            "tags": "タグ",
+            "create_tag": "タグを作成"
         }
     }
 }

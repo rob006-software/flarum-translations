@@ -12,8 +12,7 @@
                 "edit_recipients": "Edit Recipients",
                 "send_pd": "Send {username} a message",
                 "cancel": "Cancel",
-                "remove_from_discussion": "Leave this private discussion",
-                "make_public": "Make this discussion public"
+                "remove_from_discussion": "Leave this private discussion"
             },
             "composer_private_discussion": {
                 "submit_button": "Post Private Discussion",
@@ -24,7 +23,8 @@
                 "user_deleted": "-deleted-"
             },
             "nav": {
-                "start_button": "New Private Discussion"
+                "start_button": "Discuss Privately",
+                "nav_item": "Private Discussions"
             },
             "input": {
                 "search_recipients": "Search recipient by typing first three characters..."
@@ -54,7 +54,8 @@
             },
             "user": {
                 "settings": {
-                    "block_pd": "Block private discussions"
+                    "block_pd": "Block private discussions",
+                    "unified_index": "Combine private discussions inside unified index"
                 },
                 "byobu_link": "Private Discussions",
                 "dropdown_label": "Private Discussions"
@@ -67,9 +68,7 @@
                 "pd_user_left_label": "A recipient user leaves a private discussion I'm a part of",
                 "pd_user_left_text": "{username} left the private discussion",
                 "pd_added_text": "{username} added you to a private discussion",
-                "pd_added_label": "Someone adds me to an existing private discussion",
-                "pd_made_public_label": "A private discussion is made public",
-                "pd_made_public_text": "{username} made the discussion public"
+                "pd_added_label": "Someone adds me to an existing private discussion"
             },
             "confirm": {
                 "make_public": "This will make this private discussion visible to everyone. Consider if this is the correct action before proceeding."
@@ -82,32 +81,25 @@
                 "create_private_discussions_with_blocking_users": "Create private discussions with users that block it",
                 "edit_user_recipients": "Edit users partaking in private discussions",
                 "edit_group_recipients": "Edit groups partaking in private discussions",
-                "make_private_into_public": "Transform a private discussion into a public discussion",
                 "view_private_discussions-when-flagged": "View private discussions of other users if flagged"
             },
             "settings": {
-                "use_tag_slug": "Specify the tag that all private discussions must use",
-                "use_tag_slug_help": "Select \"{no_restriction}\" to allow users to select their own tag. This applies to newly created private discussions only.",
-                "use_tag_slug_no_restriction": "- No restriction -",
-                "byobu_index": "Display a link to Private Discussions on the index page",
-                "byobu_index_help": "When this option is enabled, a link from the forum main nav items to Private Discussions will be displayed"
+                "badge-icon": "Byobu Discussion Badge",
+                "post-event-icon": "Byobu Post Events"
             }
         },
-        "notifications": {
-            "private_discussion_created": {
-                "title": "[Private Discussion] user started a new private discussion with you"
+        "email": {
+            "subject": {
+                "private_discussion_created": "[Private Discussion] {display_name} started a new private discussion with you",
+                "private_discussion_replied": "[Private Discussion] {display_name} posted in a private discussion",
+                "recipient_removed": "[Private Discussion] {display_name} left the discussion",
+                "private_discussion_added": "[Private Discussion] {display_name} added you to a private discussion"
             },
-            "private_discussion_replied": {
-                "title": "[Private Discussion] user posted in a private discussion"
-            },
-            "recipient_removed": {
-                "title": "[Private Discussion] user left the discussion"
-            },
-            "private_discussion_added": {
-                "title": "[Private Discussion] user added you to a private discussion"
-            },
-            "made_public": {
-                "title": "[Private Discussion] user made the discussion public"
+            "body": {
+                "private_discussion_created": "Hey {recipient_display_name},\n\n{actor_display_name} started a new private discussion with you as a recipient, titled '{discussion_title}'.\n\nView it here:\n{discussion_url}\n\nYou may need to login first before being able to access this link.\n",
+                "private_discussion_replied": "Hey {recipient_display_name},\n\n{actor_display_name} posted in a private discussion with you as a recipient, titled '{discussion_title}'.\n\nView it here:\n{post_url}\n\nYou may need to login first before being able to access this link.\n",
+                "recipient_removed": "Hey {recipient_display_name},\n\n{actor_display_name} left the private discussion '{discussion_title}'. They'll no longer be able to view any of it's content.\n\nView it here:\n{discussion_url}\n\nYou may need to login first before being able to access this link.\n",
+                "private_discussion_added": "Hey {recipient_display_name},\n\n{actor_display_name} added you to an existing private discussion, titled '{discussion_title}'.\n\nView it here:\n{discussion_url}\n\nYou may need to login first before being able to access this link.\n"
             }
         }
     }

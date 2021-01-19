@@ -14,13 +14,16 @@
                 "app_port_label": "",
                 "app_host_label": "",
                 "app_id_label": "",
+                "auto_update": "",
                 "app_key_label": "",
                 "app_secret_label": "",
                 "secure": "",
                 "title": "",
-                "reverse_proxy": ""
+                "reverse_proxy": "",
+                "auth_only": ""
             },
             "help": {
+                "auto_update": "",
                 "app_id": "",
                 "app_key": "",
                 "secret": "",
@@ -31,7 +34,8 @@
                 "cert_path": "",
                 "pk_path": "",
                 "passphrase": "",
-                "self_signed": ""
+                "self_signed": "",
+                "auth_only": ""
             }
         }
     }

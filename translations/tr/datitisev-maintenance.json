@@ -2,46 +2,46 @@
     "datitisev-maintenance": {
         "admin": {
             "dashboard": {
-                "enable_maintenance_mode_button": "",
-                "disable_maintenance_mode_button": ""
+                "enable_maintenance_mode_button": "Bakım Modunu Aç",
+                "disable_maintenance_mode_button": "Bakım Modunu Kapat"
             },
             "settings": {
-                "title": "",
-                "settings_notice": "",
-                "allow_bypass_label": "",
-                "allow_bypass_hint": "",
-                "prefer_db_label": "",
-                "prefer_db_hint": "",
-                "active_label": "",
-                "disable_admin_label": "",
-                "disable_api_label": "",
-                "title_label": "",
-                "message_label": "",
-                "error_page_file_label": "",
-                "error_page_file_hint": "",
-                "error_page_label": "",
-                "error_page_hint": ""
+                "title": "Bakım Modu",
+                "settings_notice": "These settings may not be the current ones. Make sure they are not being overwritten by <code>config.php</code>.",
+                "allow_bypass_label": "İzin kullanarak forum ve API bakımının atlanmasına izin ver",
+                "allow_bypass_hint": "Won't bypass if DB is not accessible. Applies to forum & API (unless API is completely disabled through <code>config.php</code>)",
+                "prefer_db_label": "<code>config.php</code> ayarları yerine DB ayarlarını tercih edin",
+                "prefer_db_hint": "Normally, the values in <code>config.php</code> override the ones seen here. Enable this option to make these options override the ones found in the config file - so those are only used in the event that the DB is not accessible.",
+                "active_label": "Maintenance mode state",
+                "disable_admin_label": "Disable admin access",
+                "disable_api_label": "Disable all API access",
+                "title_label": "Hata Sayfası Başlığı",
+                "message_label": "Hata Sayfası Mesajı",
+                "error_page_file_label": "Error Page File Path",
+                "error_page_file_hint": "Path from Flarum root - where <code>vendor</code> and <code>storage</code> are located.",
+                "error_page_label": "Hata Sayfası HTML/Blade",
+                "error_page_hint": "Blade ile $app, $translator, $settings, $title, ve $message kullanabilirsiniz."
             },
             "permissions": {
-                "allow_bypass_maintenance_label": ""
+                "allow_bypass_maintenance_label": "Bypass maintenance mode (setting must be enabled)"
             }
         },
         "lib": {
-            "maintenance_active_message": "",
-            "maintenance_active_not_db_message": "",
-            "maintenance_active_disabled_api_message": ""
+            "maintenance_active_message": "Bu forum şu anda bakımda.",
+            "maintenance_active_not_db_message": "Bakım modu <code>config.php</code> üzerinden etkinleştirilir.",
+            "maintenance_active_disabled_api_message": "API şu anda herkes için kapalı."
         },
         "views": {
             "error": {
-                "title": "",
-                "message": ""
+                "title": "Bakım",
+                "message": "Şu anda bakım yapıyoruz. Çok kısa sürede yeniden yayında olacağız!"
             }
         }
     },
     "core": {
         "lib": {
             "error": {
-                "maintenance_message": ""
+                "maintenance_message": "Forum şu anda bakım modundadır."
             }
         }
     }

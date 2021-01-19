@@ -1,0 +1,20 @@
+{
+    "fof-oauth": {
+        "admin": {
+            "settings": {
+                "providers": {
+                    "linkedin": {
+                        "description": "https://linkedin.com/developers/apps/new adresinde bir uygulama oluşturun.",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
+                    }
+                }
+            }
+        },
+        "lib": {
+            "providers": {
+                "linkedin": "LinkedIn"
+            }
+        }
+    }
+}

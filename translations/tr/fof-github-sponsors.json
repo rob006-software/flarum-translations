@@ -2,16 +2,16 @@
     "fof-github-sponsors": {
         "admin": {
             "account_types": {
-                "user": "",
-                "organization": ""
+                "user": "Kullanıcı",
+                "organization": "Organizasyon"
             },
             "settings": {
-                "title": "",
-                "desc": "",
-                "api_token_label": "",
-                "account_type_label": "",
-                "login_label": "",
-                "group_label": ""
+                "desc": "API jetonunuzu <a>https://github.com/settings/tokens/new</a> adresinden alın. Bu uzantı, <code>user</code> ve <code>read:org</code> kapsamlarını gerektirir.",
+                "api_token_label": "API Jetonu",
+                "account_type_label": "Hesap Tipi",
+                "login_label": "Oturum aç",
+                "group_label": "Atanacak Grup",
+                "title": ""
             }
         }
     }

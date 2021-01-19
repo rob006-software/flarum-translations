@@ -2,21 +2,21 @@
     "fof-impersonate": {
         "admin": {
             "permissions": {
-                "login": "Kullanıcı olarak giriş yap"
+                "login": "Bu kullanıcı olarak giriş yap"
             },
             "settings": {
-                "title": "",
-                "require_reason": "",
-                "no_settings_available": ""
+                "title": "FoF Impersonate",
+                "require_reason": "Başka bir kullanıcının kimliğine bürünmeye devam etmeden önce bir neden girilmesini zorunlu kılın.",
+                "no_settings_available": "Şu anda hiçbir ayar mevcut değil. fof/moderator-notes yüklemeyi deneyin"
             }
         },
         "forum": {
             "modal": {
-                "title": "",
-                "label": "",
-                "placeholder_optional": "",
-                "placeholder_required": "",
-                "impersonate_username": ""
+                "title": "Başka bir kullanıcı olarak giriş yapın",
+                "label": "Büyük güç büyük sorumluluk getirir. Devam ettiğinizde, çıkış yapana kadar {username} olacaksınız.",
+                "placeholder_optional": "(İsteğe bağlı) Bu kullanıcıya geçiş nedeninizi belirtin",
+                "placeholder_required": "Devam etmeden önce bu kullanıcıya geçiş nedeninizi belirtmelisiniz",
+                "impersonate_username": "{username} olarak giriş yapın"
             },
             "user_controls": {
                 "impersonate_button": "Giriş yapılacak kullanıcı"
