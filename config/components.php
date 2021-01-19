@@ -231,6 +231,9 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.15/locale/flarum-tags.yml',
 		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-tags.yml',
 	],
+	'flarumi-oauth-instagram' => [
+		'tag' => 'https://raw.githubusercontent.com/flarumi/oauth-instagram/v1.0.0/resources/locale/en.yml',
+	],
 	'flarumi-oauth-vkontakte' => [
 		'tag' => 'https://raw.githubusercontent.com/flarumi/oauth-vkontakte/v1.0.2/resources/locale/en.yml',
 	],
