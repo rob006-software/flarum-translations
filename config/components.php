@@ -154,7 +154,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Dem13n/quad-theme/0.1.9/resources/locale/en.yml',
 	],
 	'dem13n-topic-starter-label' => [
-		'tag' => 'https://raw.githubusercontent.com/Dem13n/topic-starter-label/0.1.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Dem13n/topic-starter-label/0.1.2/locale/en.yml',
 	],
 	'dexif-telegram' => [
 		'tag' => 'https://raw.githubusercontent.com/dexif/telegram/0.2.0/resources/locale/en.yml',
