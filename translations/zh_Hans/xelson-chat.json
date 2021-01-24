@@ -14,9 +14,8 @@
                 }
             },
             "chat": {
-                "welcome": {
-                    "header": "欢迎来到 Neon 聊天室！"
-                },
+                "welcome": "",
+                "welcome.header": "欢迎来到 Neon 聊天室！",
                 "moder": "审阅人",
                 "kick": "抖一抖",
                 "leave": "离开",
@@ -27,18 +26,14 @@
                         "lost": "你失去了审阅人权限：{chatname}！"
                     },
                     "form": {
-                        "title": {
-                            "validator": "至少 1 个字符"
-                        },
-                        "color": {
-                            "validator": "十六进制格式"
-                        },
-                        "icon": {
-                            "validator": "=> core.ref.icon_text"
-                        },
-                        "users": {
-                            "edit": "选择或编辑用户"
-                        },
+                        "title": "",
+                        "title.validator": "至少 1 个字符",
+                        "color": "",
+                        "color.validator": "十六进制格式",
+                        "icon": "",
+                        "icon.validator": "=> core.ref.icon_text",
+                        "users": "",
+                        "users.edit": "选择或编辑用户",
                         "leave": "退出聊天",
                         "return": "加入聊天",
                         "delete": {
@@ -74,17 +69,14 @@
                             "exists": ""
                         },
                         "form": {
-                            "title": {
-                                "chat": "",
-                                "channel": "",
-                                "validator": ""
-                            },
-                            "icon": {
-                                "validator": ""
-                            },
-                            "color": {
-                                "validator": ""
-                            },
+                            "title": "",
+                            "title.chat": "",
+                            "title.channel": "",
+                            "title.validator": "",
+                            "icon": "",
+                            "icon.validator": "",
+                            "color": "",
+                            "color.validator": "",
                             "users": ""
                         },
                         "search": {
@@ -152,9 +144,8 @@
                 "edit": "",
                 "delete": "",
                 "enabled": "",
-                "create": {
-                    "channel": ""
-                },
+                "create": "",
+                "create.channel": "",
                 "moderate": {
                     "delete": "",
                     "vision": ""
