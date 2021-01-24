@@ -15,6 +15,7 @@ use function rob006\flarum\translations\helpers\getComponents;
 
 return [
 	'ja' => getComponents(),
+	'ka' => getComponents(),
 	'pl' => getComponents(),
 	'tr' => getComponents([
 		// the-turk extensions have TR translations included
