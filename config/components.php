@@ -502,7 +502,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/luuhai48/oauth-google/v1.1.0/resources/locale/en.yml',
 	],
 	'luuhai48-oauth-linkedin' => [
-		'tag' => 'https://raw.githubusercontent.com/luuhai48/oauth-linkedin/v1.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/luuhai48/oauth-linkedin/v2.0/resources/locale/en.yml',
 	],
 	'maicol07-sso' => [
 		'tag' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/1.8.1/locale/en.yml',
