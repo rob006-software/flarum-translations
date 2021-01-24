@@ -1,0 +1,374 @@
+{
+    "kilowhat-formulaire": {
+        "admin": {
+            "permissions": {
+                "heading": "",
+                "heading-advanced": "",
+                "fill": "",
+                "seeOwnUser": "",
+                "seeAnyUser": "",
+                "editOwnUser": "",
+                "editAnyUser": "",
+                "seeOwnDiscussion": "",
+                "seeAnyDiscussion": "",
+                "editOwnDiscussion": "",
+                "editAnyDiscussion": "",
+                "create": "",
+                "moderate": "",
+                "export": "",
+                "listForms": "",
+                "listSubmissions": ""
+            },
+            "settings": {
+                "title": "",
+                "max-file-size": "",
+                "history-controls": "",
+                "side-nav-on-submission": ""
+            }
+        },
+        "forum": {
+            "nav": {
+                "forms": ""
+            },
+            "form-index": {
+                "header": {
+                    "title": "",
+                    "documentation": "",
+                    "discuss": ""
+                },
+                "tabs": {
+                    "standalone": "",
+                    "discussion": "",
+                    "user": ""
+                },
+                "empty": "",
+                "load-more": "",
+                "new": "",
+                "edit": "",
+                "show": "",
+                "submissions": "",
+                "columns": {
+                    "title": "",
+                    "accept-submissions": "",
+                    "allow-modification": "",
+                    "submissions": "",
+                    "actions": ""
+                }
+            },
+            "global-settings": {
+                "title": "",
+                "admin-only": "",
+                "permissions": {
+                    "fill": "",
+                    "seeOwnUser": "",
+                    "seeAnyUser": "",
+                    "editOwnUser": "",
+                    "editAnyUser": "",
+                    "seeOwnDiscussion": "",
+                    "seeAnyDiscussion": "",
+                    "editOwnDiscussion": "",
+                    "editAnyDiscussion": ""
+                }
+            },
+            "form-create": {
+                "title": "",
+                "field": {
+                    "title": ""
+                },
+                "button": {
+                    "create": ""
+                }
+            },
+            "form-edit-header": {
+                "back": "",
+                "category": {
+                    "standalone": "",
+                    "discussion": "",
+                    "user": ""
+                },
+                "tabs": {
+                    "template": "",
+                    "placement": "",
+                    "access": "",
+                    "notifications": "",
+                    "submissions": ""
+                },
+                "access-status": {
+                    "closed": "",
+                    "create": "",
+                    "edit": "",
+                    "both": ""
+                },
+                "controls": "",
+                "template-export": "",
+                "enable-expert-mode": "",
+                "disable-expert-mode": "",
+                "restore": "",
+                "hide": "",
+                "delete": "",
+                "delete-confirmation": "",
+                "fields": {
+                    "private-title": "",
+                    "slug": ""
+                }
+            },
+            "form-edit": {
+                "warnings": {
+                    "show-on-signup-invalid-permissions": "",
+                    "show-on-composer-invalid-permissions": "",
+                    "linked-form-is-draft": "",
+                    "auto-link-permission-warning": ""
+                },
+                "expert-mode-warning": "",
+                "section": {
+                    "template": "",
+                    "permissions": ""
+                },
+                "field": {
+                    "link": "",
+                    "title": "",
+                    "show-on-creation": {
+                        "discussion": "",
+                        "user": ""
+                    },
+                    "automatic-discussion": "",
+                    "automatic-discussion-help": "",
+                    "accept-submissions": "",
+                    "allow-modification": "",
+                    "max-submissions": "",
+                    "send-confirmation-to-participants": "",
+                    "notify-emails": "",
+                    "web-confirmation-message": "",
+                    "permission-see-own": "",
+                    "permission-see-any": "",
+                    "permission-edit-own": "",
+                    "permission-edit-any": ""
+                },
+                "link-options": {
+                    "standalone": "",
+                    "groups": "",
+                    "all-groups": "",
+                    "tags": "",
+                    "all-tags": ""
+                },
+                "auto-discussion-options": "",
+                "email-confirmation-options": "",
+                "email-notification-options": "",
+                "exiting-with-unsaved-data": "",
+                "preview": "",
+                "save-for-preview": ""
+            },
+            "auto-discussion-options-modal": {
+                "title": "",
+                "introduction": "",
+                "submit": "",
+                "field": {
+                    "title": "",
+                    "tags": "",
+                    "tags-help": "",
+                    "content": ""
+                }
+            },
+            "confirmation-email-options-modal": {
+                "title": "",
+                "submit": "",
+                "field": {
+                    "title": "",
+                    "message": ""
+                }
+            },
+            "save-controls": {
+                "validation-errors": "",
+                "unsaved-changes": "",
+                "saved-at": "",
+                "undo": "",
+                "redo": "",
+                "save": ""
+            },
+            "permission-controls": {
+                "inherit": "",
+                "everyone_button": "",
+                "disabled_members_button": "",
+                "members_button": ""
+            },
+            "template-editor": {
+                "add-field": "",
+                "title": "",
+                "description": "",
+                "key": "",
+                "fill-permission": "",
+                "required": "",
+                "rich": "",
+                "min": "",
+                "max": "",
+                "integer": "",
+                "email": "",
+                "regex": "",
+                "mime": "",
+                "duplicate": "",
+                "delete": "",
+                "missing-title": "",
+                "no-answer": "",
+                "type": {
+                    "short": "",
+                    "long": "",
+                    "number": "",
+                    "date": "",
+                    "upload": "",
+                    "content": "",
+                    "items": ""
+                }
+            },
+            "items-editor": {
+                "add": "",
+                "remove": ""
+            },
+            "upload-editor": {
+                "uploading": "",
+                "remove": ""
+            },
+            "rich-text": {
+                "preview-placeholder": ""
+            },
+            "submission": {
+                "form-closed": "",
+                "form-full": "",
+                "edit-forbidden": "",
+                "submitted-successfully": "",
+                "edit-submission": "",
+                "submit-other": "",
+                "unlock": "",
+                "lock": "",
+                "restore": "",
+                "hide": "",
+                "delete": "",
+                "delete-confirmation": ""
+            },
+            "submission-index": {
+                "form-edit": "",
+                "form-show": "",
+                "show": "",
+                "guest": "",
+                "load-more": "",
+                "empty": "",
+                "export": "",
+                "columns": {
+                    "date": "",
+                    "user": "",
+                    "actions": ""
+                }
+            },
+            "badge": {
+                "locked": "",
+                "hidden": ""
+            },
+            "error-page": {
+                "denied-title": "",
+                "denied-description": "",
+                "notfound-title": "",
+                "notfound-description": ""
+            },
+            "submission-sort": {
+                "latest": "",
+                "oldest": ""
+            },
+            "form-sort": {
+                "latest": "",
+                "oldest": ""
+            },
+            "export": {
+                "title": "",
+                "format": "",
+                "heading": "",
+                "fields": "",
+                "meta": "",
+                "more-meta": "",
+                "submit": "",
+                "preview": "",
+                "format-options": {
+                    "xlsx": "",
+                    "xls": "",
+                    "ods": "",
+                    "csv": "",
+                    "json": ""
+                },
+                "heading-options": {
+                    "title": "",
+                    "key": "",
+                    "none": ""
+                },
+                "meta-options": {
+                    "uid": "",
+                    "user_id": "",
+                    "user_username": "",
+                    "user_displayname": "",
+                    "link_id": "",
+                    "locked_at": "",
+                    "created_at": "",
+                    "updated_at": "",
+                    "hidden_at": ""
+                }
+            }
+        },
+        "api": {
+            "formatter-parsing-error": "",
+            "not-allowed-to-fill-field": "",
+            "duplicate-field-key": "",
+            "cannot-change-form-type": "",
+            "unknown-form": "",
+            "unauthorized-form": "",
+            "file-already-belongs-form": "",
+            "file-already-belongs-submission": "",
+            "export": {
+                "meta": {
+                    "uid": "",
+                    "user_id": "",
+                    "user_username": "",
+                    "user_displayname": "",
+                    "link_id": "",
+                    "locked_at": "",
+                    "created_at": "",
+                    "updated_at": "",
+                    "hidden_at": ""
+                }
+            }
+        },
+        "mail": {
+            "title-your-submission": "",
+            "title-new-submission": "",
+            "edit": "",
+            "footer": "",
+            "sub-entries": ""
+        },
+        "ref": {
+            "manager": "",
+            "type": {
+                "standalone": "",
+                "discussion": "",
+                "user": ""
+            },
+            "permissions": {
+                "fill": "",
+                "seeOwnUser": "",
+                "seeAnyUser": "",
+                "editOwnUser": "",
+                "editAnyUser": "",
+                "seeOwnDiscussion": "",
+                "seeAnyDiscussion": "",
+                "editOwnDiscussion": "",
+                "editAnyDiscussion": ""
+            },
+            "submission-meta": {
+                "uid": "",
+                "user_id": "",
+                "user_username": "",
+                "user_displayname": "",
+                "link_id": "",
+                "locked_at": "",
+                "created_at": "",
+                "updated_at": "",
+                "hidden_at": ""
+            }
+        }
+    }
+}

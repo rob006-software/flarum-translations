@@ -1,0 +1,258 @@
+{
+    "v17development-flarum-support": {
+        "forum": {
+            "knowledge_base": "",
+            "ask_a_question_on_forums": "",
+            "return_to_home": "",
+            "ask_your_question_on_forum": "",
+            "or": "",
+            "settings": "",
+            "send": "",
+            "create": "",
+            "discard": "",
+            "reopen": "",
+            "support_tickets": "",
+            "hero": {
+                "help_question": "",
+                "check_forum": ""
+            },
+            "overview": {
+                "knowledge_base_overview": "",
+                "back_to": "",
+                "back_to_overview": "",
+                "back_to_main_categories": "",
+                "loading_articles": "",
+                "no_categories_found": "",
+                "category_not_found": "",
+                "no_articles_found": "",
+                "tools": {
+                    "new_article": "",
+                    "rename_category": "",
+                    "edit_description": "",
+                    "change_icon": ""
+                }
+            },
+            "article_events": {
+                "article_hidden": "",
+                "article_public": "",
+                "article_modified": ""
+            },
+            "search": {
+                "title": "",
+                "back_to_search_results": "",
+                "search_knowledge_base": "",
+                "searching": "",
+                "searching_for": "",
+                "searched_for": "",
+                "use_searchbox_below": "",
+                "no_results": ""
+            },
+            "not_found": {
+                "title": "",
+                "description": "",
+                "solution": ""
+            },
+            "article": {
+                "article": "",
+                "articles": "",
+                "hidden": "",
+                "created_at": "",
+                "author": "",
+                "authors": "",
+                "last_modified": "",
+                "not_found": "",
+                "share_article": {
+                    "title": "",
+                    "perma_link": ""
+                },
+                "tools": {
+                    "rename_article": "",
+                    "edit_article": "",
+                    "edit_tags": "",
+                    "audit_log": "",
+                    "hide_article": "",
+                    "recover_article": "",
+                    "delete_forever": "",
+                    "view_ratings": ""
+                }
+            },
+            "support_ratings": {
+                "helful_article": "",
+                "helful_support": "",
+                "feedback": "",
+                "feedback_not_helpful": "",
+                "enter_feedback": "",
+                "finished": "",
+                "validation": {
+                    "invalid_discussion": "",
+                    "guest": "",
+                    "invalid_points": "",
+                    "cannot_rate_article": "",
+                    "neutral_emoji_disabled": "",
+                    "missing_article_id": ""
+                }
+            },
+            "modals": {
+                "audit_log": {
+                    "title": "",
+                    "article_created": "",
+                    "no_more_events": "",
+                    "loading_auditlog": ""
+                },
+                "article_ratings": {
+                    "title": "",
+                    "loading_ratings": "",
+                    "no_ratings_found": "",
+                    "article_not_rated": "",
+                    "confirm_delete_rating": "",
+                    "feedback": "",
+                    "rating": "",
+                    "username": "",
+                    "rated_on": ""
+                }
+            },
+            "utils": {
+                "redirect": {
+                    "title": "",
+                    "link": ""
+                }
+            },
+            "composer": {
+                "compose_article": "",
+                "compose_ticket": "",
+                "new_article_title": "",
+                "enter_message_here": "",
+                "publish_article": "",
+                "publish_article_hint": "",
+                "manage_tags": "",
+                "write": "",
+                "view": "",
+                "nothing_to_preview": "",
+                "warning_save_changes": "",
+                "article_saved": ""
+            },
+            "tickets": {
+                "ticket": "",
+                "subject": "",
+                "ticket_does_not_exist": "",
+                "return_to_overview": "",
+                "ticket_overview": "",
+                "opened_on": "",
+                "status": {
+                    "new": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "open": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "pending": {
+                        "title": "",
+                        "description": "",
+                        "description_user": ""
+                    },
+                    "closed": {
+                        "title": "",
+                        "description": "",
+                        "is_closed": "",
+                        "close_after_posting": ""
+                    },
+                    "on_hold": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "duplicate": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "solved": {
+                        "title": "",
+                        "description": "",
+                        "mark_as_solved": ""
+                    }
+                },
+                "tools": {
+                    "view_ticket": "",
+                    "update_subject": "",
+                    "assign_me": "",
+                    "remove_me": "",
+                    "update_status": "",
+                    "close_ticket": ""
+                },
+                "new_tickets_dropdown": {
+                    "title": "",
+                    "no_tickets": "",
+                    "ticket_new": "",
+                    "ticket_updated": ""
+                },
+                "fields": {
+                    "language": {
+                        "title": "",
+                        "placeholder": "",
+                        "empty": "",
+                        "description": ""
+                    },
+                    "subject": {
+                        "title": "",
+                        "placeholder": "",
+                        "description": ""
+                    },
+                    "information": {
+                        "title": "",
+                        "placeholder": ""
+                    },
+                    "status": {
+                        "title": "",
+                        "placeholder": ""
+                    },
+                    "assignees": {
+                        "title": "",
+                        "placeholder": ""
+                    }
+                },
+                "compose_ticket": {
+                    "title": "",
+                    "private_support": "",
+                    "not_allowed": ""
+                },
+                "load_more": {
+                    "title": ""
+                },
+                "my_tickets": {
+                    "title": "",
+                    "description": "",
+                    "no_tickets": ""
+                },
+                "overview": {
+                    "title": "",
+                    "description": "",
+                    "no_tickets": "",
+                    "all_tickets": ""
+                }
+            }
+        },
+        "emails": {
+            "replied_to_ticket": {
+                "subject": "",
+                "body": ""
+            },
+            "ticket_status_update": {
+                "subject": "",
+                "body": ""
+            },
+            "ticket_resolved": {
+                "subject": "",
+                "body": ""
+            },
+            "ticket_pending_reply": {
+                "subject": "",
+                "body": ""
+            },
+            "ticket_pending_reply_closed": {
+                "subject": "",
+                "body": ""
+            }
+        }
+    }
+}

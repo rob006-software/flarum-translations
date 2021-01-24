@@ -1,0 +1,170 @@
+{
+    "xelson-chat": {
+        "forum": {
+            "toolbar": {
+                "title": "",
+                "enable_sounds": "",
+                "disable_sounds": "",
+                "enable_notifications": "",
+                "disable_notifications": "",
+                "minimize": "",
+                "maximize": "",
+                "chat": {
+                    "settings": ""
+                }
+            },
+            "chat": {
+                "welcome": "",
+                "welcome.header": "",
+                "moder": "",
+                "kick": "",
+                "leave": "",
+                "edit_modal": {
+                    "title": "",
+                    "moderator": {
+                        "got": "",
+                        "lost": ""
+                    },
+                    "form": {
+                        "title": "",
+                        "title.validator": "",
+                        "color": "",
+                        "color.validator": "",
+                        "icon": "",
+                        "icon.validator": "",
+                        "users": "",
+                        "users.edit": "",
+                        "leave": "",
+                        "return": "",
+                        "delete": {
+                            "title": "",
+                            "desc": "",
+                            "placeholder": "",
+                            "button": ""
+                        }
+                    },
+                    "search": {
+                        "placeholder": "",
+                        "failed": "",
+                        "invited": ""
+                    },
+                    "save_button": ""
+                },
+                "list": {
+                    "pin": "",
+                    "unpin": "",
+                    "placeholder": "",
+                    "preview": {
+                        "empty": ""
+                    },
+                    "add_modal": {
+                        "title": "",
+                        "chat": "",
+                        "channel": "",
+                        "create": {
+                            "chat": "",
+                            "channel": ""
+                        },
+                        "alerts": {
+                            "exists": ""
+                        },
+                        "form": {
+                            "title": "",
+                            "title.chat": "",
+                            "title.channel": "",
+                            "title.validator": "",
+                            "icon": "",
+                            "icon.validator": "",
+                            "color": "",
+                            "color.validator": "",
+                            "users": ""
+                        },
+                        "search": {
+                            "placeholder": "",
+                            "failed": "",
+                            "invited": ""
+                        }
+                    }
+                },
+                "placeholder": "",
+                "message": {
+                    "actions": {
+                        "hide": "",
+                        "resend": ""
+                    },
+                    "censored": "",
+                    "deleted": "",
+                    "deleted_forever": "",
+                    "you": "",
+                    "type": {
+                        "url": "",
+                        "event": "",
+                        "code": ""
+                    },
+                    "events": {
+                        "chat": {
+                            "created": ""
+                        },
+                        "pm": {
+                            "created": ""
+                        },
+                        "channel": {
+                            "created": ""
+                        },
+                        "title": {
+                            "edited": ""
+                        },
+                        "icon": {
+                            "edited": ""
+                        },
+                        "color": {
+                            "edited": ""
+                        },
+                        "users": {
+                            "invited": "",
+                            "kicked": "",
+                            "invited_kicked": ""
+                        },
+                        "self": {
+                            "leaved": "",
+                            "entered": ""
+                        }
+                    }
+                }
+            },
+            "errors": {
+                "unauthenticated": "",
+                "chatdenied": "",
+                "removed": ""
+            }
+        },
+        "admin": {
+            "permissions": {
+                "post": "",
+                "edit": "",
+                "delete": "",
+                "enabled": "",
+                "create": "",
+                "create.channel": "",
+                "moderate": {
+                    "delete": "",
+                    "vision": ""
+                }
+            },
+            "settings": {
+                "title": "",
+                "charlimit": "",
+                "floodgate": {
+                    "title": "",
+                    "number": "",
+                    "time": ""
+                },
+                "display": {
+                    "title": "",
+                    "minimize": "",
+                    "censor": ""
+                }
+            }
+        }
+    }
+}
