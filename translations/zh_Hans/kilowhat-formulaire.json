@@ -4,15 +4,15 @@
             "permissions": {
                 "heading": "Formulaire",
                 "heading-advanced": "Formulaire（第三方扩展选项）",
-                "fill": "填写独立表单",
-                "seeOwnUser": "",
-                "seeAnyUser": "查看提交的用户资料",
-                "editOwnUser": "",
-                "editAnyUser": "",
-                "seeOwnDiscussion": "",
-                "seeAnyDiscussion": "查看提交的主题帖字段",
-                "editOwnDiscussion": "",
-                "editAnyDiscussion": "",
+                "fill": "=> kilowhat-formulaire.ref.permissions.fill",
+                "seeOwnUser": "=> kilowhat-formulaire.ref.permissions.seeOwnUser",
+                "seeAnyUser": "=> kilowhat-formulaire.ref.permissions.seeAnyUser",
+                "editOwnUser": "=> kilowhat-formulaire.ref.permissions.editOwnUser",
+                "editAnyUser": "=> kilowhat-formulaire.ref.permissions.editAnyUser",
+                "seeOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion",
+                "seeAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.seeAnyDiscussion",
+                "editOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.editOwnDiscussion",
+                "editAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.editAnyDiscussion",
                 "create": "创建表单 (beta)",
                 "moderate": "管理所有表单",
                 "export": "导出提交数据",
@@ -28,18 +28,18 @@
         },
         "forum": {
             "nav": {
-                "forms": "表单管理员"
+                "forms": "=> kilowhat-formulaire.ref.manager"
             },
             "form-index": {
                 "header": {
-                    "title": "表单管理者",
+                    "title": "=> kilowhat-formulaire.ref.manager",
                     "documentation": "完整在线文档",
                     "discuss": "Flarum 社区讨论帖"
                 },
                 "tabs": {
-                    "standalone": "独立表单",
-                    "discussion": "主题帖字段",
-                    "user": "用户资料"
+                    "standalone": "=> kilowhat-formulaire.ref.type.standalone",
+                    "discussion": "=> kilowhat-formulaire.ref.type.discussion",
+                    "user": "=> kilowhat-formulaire.ref.type.user"
                 },
                 "empty": "无表单",
                 "load-more": "加载更多",
@@ -63,18 +63,18 @@
                 }
             },
             "global-settings": {
-                "title": "",
-                "admin-only": "",
+                "title": "全局权限",
+                "admin-only": "只有论坛管理员才能编辑全局设置",
                 "permissions": {
-                    "fill": "",
-                    "seeOwnUser": "",
-                    "seeAnyUser": "",
-                    "editOwnUser": "",
-                    "editAnyUser": "",
-                    "seeOwnDiscussion": "",
-                    "seeAnyDiscussion": "",
-                    "editOwnDiscussion": "",
-                    "editAnyDiscussion": ""
+                    "fill": "=> kilowhat-formulaire.ref.permissions.fill",
+                    "seeOwnUser": "=> kilowhat-formulaire.ref.permissions.seeOwnUser",
+                    "seeAnyUser": "=> kilowhat-formulaire.ref.permissions.seeAnyUser",
+                    "editOwnUser": "=> kilowhat-formulaire.ref.permissions.editOwnUser",
+                    "editAnyUser": "=> kilowhat-formulaire.ref.permissions.editAnyUser",
+                    "seeOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion",
+                    "seeAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.seeAnyDiscussion",
+                    "editOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.editOwnDiscussion",
+                    "editAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.editAnyDiscussion"
                 }
             },
             "form-create": {
@@ -87,18 +87,18 @@
                 }
             },
             "form-edit-header": {
-                "back": "",
+                "back": "返回",
                 "category": {
-                    "standalone": "",
-                    "discussion": "",
-                    "user": ""
+                    "standalone": "=> kilowhat-formulaire.ref.type.standalone",
+                    "discussion": "=> kilowhat-formulaire.ref.type.discussion",
+                    "user": "=> kilowhat-formulaire.ref.type.user"
                 },
                 "tabs": {
-                    "template": "",
+                    "template": "模板",
                     "placement": "",
-                    "access": "",
-                    "notifications": "",
-                    "submissions": ""
+                    "access": "权限",
+                    "notifications": "通知",
+                    "submissions": "提交项"
                 },
                 "access-status": {
                     "closed": "",
