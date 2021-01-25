@@ -209,14 +209,14 @@
             },
             "add_extension": {
                 "developer_text": "თუ დეველოპერი ხართ, შეგიძლიათ <a>წაიკითხოთ დოკუმენტები</a> და გაეცნოთ საკუთარი გაფართოებების შექმნას.",
-                "install_text": "",
-                "temporary_text": "",
-                "title": ""
+                "install_text": "ამასობაში, შეგიძლიათ მოძებნოთ გაფართოებები <a>Flarum Community საიტზე</a> და ხელით დააინსტალიროთ კომპოზიტორის გამოყენებით.",
+                "temporary_text": "არც თუ ისე შორეულ მომავალში, ერთ დღეს, ეს დიალოგი საშუალებას მოგცემთ მარტივად დაამატოთ გაფართოება თქვენს ფორუმში. ჩვენ ვსაუბრობთ ეკოსისტემას!",
+                "title": "გაფართოების დამატება"
             },
             "extensions": {
-                "add_button": "",
+                "add_button": "გაფართოების დამატება",
                 "settings_button": "",
-                "uninstall_button": ""
+                "uninstall_button": "ამოშლა"
             }
         },
         "forum": {
@@ -224,234 +224,234 @@
                 "confirm_password_placeholder": "",
                 "confirmation_message": "",
                 "dismiss_button": "",
-                "incorrect_password_message": "",
+                "incorrect_password_message": "თქვენ მიერ შეყვანილი პაროლი არასწორია.",
                 "submit_button": "",
                 "title": ""
             },
             "change_password": {
-                "send_button": "",
-                "text": "",
+                "send_button": "გაგზავნეთ პაროლის გადაყენების ელ.ფოსტა",
+                "text": "დააწკაპუნეთ ქვემოთ მოცემულ ღილაკზე და შეამოწმეთ თქვენი ელ.ფოსტა, რომ იპოვოთ ბმული პაროლის შესაცვლელად.",
                 "title": ""
             },
             "composer": {
-                "close_tooltip": "",
-                "exit_full_screen_tooltip": "",
-                "full_screen_tooltip": "",
-                "minimize_tooltip": "",
-                "preview_tooltip": ""
+                "close_tooltip": "დახურვა",
+                "exit_full_screen_tooltip": "მთლიანი ეკრანიდან გასვლა",
+                "full_screen_tooltip": "სრული ეკრანი",
+                "minimize_tooltip": "მინიმიზაცია",
+                "preview_tooltip": "გადახედვა"
             },
             "composer_discussion": {
-                "body_placeholder": "",
-                "discard_confirmation": "",
-                "submit_button": "",
+                "body_placeholder": "დაწერე პოსტი...",
+                "discard_confirmation": "თქვენ არ განათავსეთ თქვენი დისკუსია. გსურთ მისი გაუქმება?",
+                "submit_button": "დისკუსიის დაპოსტვა",
                 "title": "",
-                "title_placeholder": ""
+                "title_placeholder": "დისკუსიის სათაური"
             },
             "composer_edit": {
-                "discard_confirmation": "",
-                "edited_message": "",
-                "post_link": "",
+                "discard_confirmation": "თქვენ არ შეინახეთ თქვენი ცვლილებები. გსურთ მათი გაუქმება?",
+                "edited_message": "თქვენი რედაქტირება განხორციელდა.",
+                "post_link": "გამოაქვეყნეთ #{number} {discussion} ში",
                 "submit_button": "",
                 "view_button": ""
             },
             "composer_reply": {
                 "body_placeholder": "",
-                "discard_confirmation": "",
-                "posted_message": "",
-                "submit_button": "",
+                "discard_confirmation": "თქვენ არ გამოაქვეყნეთ თქვენი პასუხი. გსურთ მისი გაუქმება?",
+                "posted_message": "თქვენი პასუხი გამოქვეყნდა.",
+                "submit_button": "პასუხის დაპოსტვა",
                 "view_button": ""
             },
             "discussion_controls": {
-                "cannot_reply_button": "",
-                "cannot_reply_text": "",
+                "cannot_reply_button": "პასუხის გაცემა შეუძლებელია",
+                "cannot_reply_text": "თქვენ არ გაქვთ ამ დისკუსიაზე პასუხის გაცემის უფლება.",
                 "delete_button": "",
-                "delete_confirmation": "",
+                "delete_confirmation": "დარწმუნებული ხართ, რომ გსურთ ამ დისკუსიის წაშლა?",
                 "delete_forever_button": "",
-                "log_in_to_reply_button": "",
+                "log_in_to_reply_button": "შედით პასუხის გასაცემად",
                 "rename_button": "",
                 "reply_button": "",
                 "restore_button": ""
             },
             "discussion_list": {
-                "empty_text": "",
+                "empty_text": "როგორც ჩანს, აქ არანაირი დისკუსია არ არის.",
                 "load_more_button": "",
-                "mark_as_read_tooltip": "",
-                "replied_text": "",
-                "started_text": ""
+                "mark_as_read_tooltip": "წაკითხულად მონიშვნა",
+                "replied_text": "{username} უპასუხა {ago}",
+                "started_text": "{username} დაიწყო {ago}"
             },
             "edit_user": {
-                "activate_button": "",
+                "activate_button": "გაააქტიურეთ მომხმარებელი",
                 "email_heading": "",
                 "email_label": "",
-                "groups_heading": "",
+                "groups_heading": "ჯგუფები",
                 "password_heading": "",
                 "password_label": "",
-                "set_password_label": "",
+                "set_password_label": "დააყენეთ ახალი პაროლი",
                 "submit_button": "",
-                "title": "",
+                "title": "მომხმარებლის რედაქტირება",
                 "username_heading": "",
                 "username_label": ""
             },
             "forgot_password": {
                 "dismiss_button": "",
                 "email_placeholder": "",
-                "email_sent_message": "",
-                "not_found_message": "",
-                "submit_button": "",
-                "text": "",
-                "title": ""
+                "email_sent_message": "ჩვენ გამოგიგზავნეთ ელ.წერილი, რომელიც შეიცავს ბმულს თქვენი პაროლის გადასაყენებლად. შეამოწმეთ თქვენი სპამის საქაღალდე, თუ არ მიიღებთ მომდევნო ერთ ან ორ წუთში.",
+                "not_found_message": "ელ.ფოსტის მისამართზე რეგისტრირებული მომხმარებელი არ არის.",
+                "submit_button": "პაროლის აღდგენა",
+                "text": "შეიყვანეთ თქვენი ელ.ფოსტის მისამართი და ჩვენ გამოგიგზავნით ბმულს თქვენი პაროლის დასაყენებლად.",
+                "title": "პაროლი დაგავიწყდა"
             },
             "header": {
-                "admin_button": "",
-                "back_to_index_tooltip": "",
+                "admin_button": "ადმინისტრაცია",
+                "back_to_index_tooltip": "განხილვის სიაში დაბრუნება",
                 "log_in_link": "",
                 "log_out_button": "",
-                "profile_button": "",
-                "search_placeholder": "",
+                "profile_button": "პროფილი",
+                "search_placeholder": "ფორუმის ძებნა",
                 "settings_button": "",
                 "sign_up_link": ""
             },
             "index": {
                 "all_discussions_link": "",
-                "cannot_start_discussion_button": "",
-                "mark_all_as_read_confirmation": "",
+                "cannot_start_discussion_button": "დისკუსიის დაწყება შეუძლებელია",
+                "mark_all_as_read_confirmation": "დარწმუნებული ხართ, რომ გსურთ ყველა დისკუსიის წაკითხულად მონიშვნა?",
                 "mark_all_as_read_tooltip": "",
                 "meta_title_text": "",
-                "refresh_tooltip": "",
+                "refresh_tooltip": "განახლება",
                 "start_discussion_button": ""
             },
             "index_sort": {
-                "latest_button": "",
-                "newest_button": "",
-                "oldest_button": "",
-                "relevance_button": "",
-                "top_button": ""
+                "latest_button": "უახლესი",
+                "newest_button": "უახლესი",
+                "oldest_button": "უძველესი",
+                "relevance_button": "შესაბამისობა",
+                "top_button": "საუკეთესო"
             },
             "log_in": {
-                "forgot_password_link": "",
-                "invalid_login_message": "",
+                "forgot_password_link": "დაგავიწყდათ პაროლი?",
+                "invalid_login_message": "თქვენი შესვლის მონაცემები არასწორი იყო.",
                 "password_placeholder": "",
-                "remember_me_label": "",
-                "sign_up_text": "",
+                "remember_me_label": "დამიმახსოვრე",
+                "sign_up_text": "არ გაქვთ ანგარიში? <a>დარეგისტრირდით</a>",
                 "submit_button": "",
                 "title": "",
-                "username_or_email_placeholder": ""
+                "username_or_email_placeholder": "მომხმარებლის სახელი ან ელ.ფოსტა"
             },
             "notifications": {
-                "discussion_renamed_text": "",
-                "empty_text": "",
+                "discussion_renamed_text": "{username} მა შეცვალა სათაური",
+                "empty_text": "შეტყობინებები არ არის",
                 "mark_all_as_read_tooltip": "",
-                "mark_as_read_tooltip": "",
+                "mark_as_read_tooltip": "წაკითხულად მონიშვნა",
                 "title": "",
                 "tooltip": ""
             },
             "post": {
-                "edited_text": "",
-                "edited_tooltip": "",
-                "number_tooltip": ""
+                "edited_text": "რედაქტირებულია",
+                "edited_tooltip": "{username} დაარედაქტირა {ago}",
+                "number_tooltip": "პოსტი #{number}"
             },
             "post_controls": {
                 "delete_button": "",
-                "delete_confirmation": "",
+                "delete_confirmation": "დარწმუნებული ხართ, რომ გსურთ სამუდამოდ წაშალოთ ეს პოსტი? ამ მოქმედების გაუქმება შეუძლებელია.",
                 "delete_forever_button": "",
                 "edit_button": "",
-                "hide_confirmation": "",
+                "hide_confirmation": "დარწმუნებული ხართ, რომ გსურთ ამ პოსტის წაშლა?",
                 "restore_button": ""
             },
             "post_scrubber": {
-                "now_link": "",
-                "original_post_link": "",
-                "unread_text": "",
-                "viewing_text": ""
+                "now_link": "ახლა",
+                "original_post_link": "ორიგინალი პოსტი",
+                "unread_text": "{count} წაუკითხავი",
+                "viewing_text": "{count} პოსტიდან {count} პოსტი | {index} სულ {count} პოსტიდან"
             },
             "post_stream": {
-                "discussion_renamed_old_tooltip": "",
-                "discussion_renamed_text": "",
+                "discussion_renamed_old_tooltip": "ძველი სათაური იყო: \"{old}\"",
+                "discussion_renamed_text": "{username} შეცვალა სათაური და გახდა {new}.",
                 "load_more_button": "",
                 "reply_placeholder": "",
-                "time_lapsed_text": ""
+                "time_lapsed_text": "{period} შემდეგ"
             },
             "rename_discussion": {
                 "submit_button": "",
-                "title": ""
+                "title": "დისკუსიის გადარქმევა"
             },
             "search": {
-                "all_discussions_button": "",
+                "all_discussions_button": "ყველა დისკუსიის ძიება \"{query}\" -ისთვის",
                 "discussions_heading": "",
                 "users_heading": ""
             },
             "settings": {
-                "account_heading": "",
+                "account_heading": "ანგარიში",
                 "change_email_button": "",
                 "change_password_button": "",
                 "notifications_heading": "",
                 "notify_by_email_heading": "",
-                "notify_by_web_heading": "",
-                "notify_discussion_renamed_label": "",
-                "privacy_disclose_online_label": "",
-                "privacy_heading": "",
+                "notify_by_web_heading": "ვები",
+                "notify_discussion_renamed_label": "ვიღაც სახელს უცვლის ჩემს დაწყებულ დისკუსიას",
+                "privacy_disclose_online_label": "ნება დართეთ სხვებმა ნახონ, როდის ვარ ონლაინ",
+                "privacy_heading": "კონფიდენციალურობა",
                 "title": ""
             },
             "sign_up": {
                 "dismiss_button": "",
                 "email_placeholder": "",
-                "log_in_text": "",
+                "log_in_text": "უკვე გაქვთ ანგარიში? <a>შედით</a>",
                 "password_placeholder": "",
                 "submit_button": "",
                 "title": "",
                 "username_placeholder": "",
-                "welcome_text": ""
+                "welcome_text": "მოგესალმებით, {username}!"
             },
             "user": {
                 "avatar_remove_button": "",
-                "avatar_upload_button": "",
-                "avatar_upload_tooltip": "",
+                "avatar_upload_button": "ატვირთვა",
+                "avatar_upload_tooltip": "ახალი ავატარის ატვირთვა",
                 "discussions_link": "",
-                "in_discussion_text": "",
-                "joined_date_text": "",
-                "online_text": "",
-                "posts_empty_text": "",
+                "in_discussion_text": "{discussion} ში",
+                "joined_date_text": "შემოუერთდა {ago}",
+                "online_text": "ონლაინი",
+                "posts_empty_text": "როგორც ჩანს, აქ შეტყობინებები არ არის.",
                 "posts_link": "",
                 "posts_load_more_button": "",
                 "settings_link": ""
             },
             "user_controls": {
-                "button": "",
+                "button": "კონტროლი",
                 "delete_button": "",
-                "delete_confirmation": "",
-                "delete_error_message": "",
-                "delete_success_message": "",
+                "delete_confirmation": "დარწმუნებული ხართ, რომ გსურთ ამ მომხმარებლის წაშლა? მომხმარებლის შეტყობინებები არ წაიშლება.",
+                "delete_error_message": "მომხმარებლის <i>{username} ({email)}</ i> წაშლა ვერ მოხერხდა",
+                "delete_success_message": "მომხმარებელი <i>{username} ({email})</ i> წაიშალა",
                 "edit_button": ""
             },
             "user_email_confirmation": {
                 "alert_message": "",
-                "resend_button": "",
-                "sent_message": ""
+                "resend_button": "ხელახლა გაგზავნეთ დამადასტურებელი ელ.ფოსტა",
+                "sent_message": "გაგზავნილი"
             }
         },
         "lib": {
             "badge": {
-                "hidden_tooltip": ""
+                "hidden_tooltip": "დამალული"
             },
             "error": {
-                "dependent_extensions_message": "",
-                "generic_message": "",
-                "missing_dependencies_message": "",
-                "not_found_message": "",
-                "permission_denied_message": "",
-                "rate_limit_exceeded_message": ""
+                "dependent_extensions_message": "შეუძლებელია {extension} გამორთვა სანამ არ მოხდება შემდეგი დამოკიდებული გაფართოებების გამორთვა: {extensions}",
+                "generic_message": "უი! Რაღაც არასწორად წავიდა. გთხოვთ, გადატვირთოთ გვერდი და ისევ სცადოთ.",
+                "missing_dependencies_message": "შეუძელებლია {extension} გაფართოების ჩართვა, სანამ შემდეგი გაფართოებები ჩართულია: {extensions}",
+                "not_found_message": "მოთხოვნილი რესურსი ვერ მოიძებნა.",
+                "permission_denied_message": "თქვენ არ გაქვთ ამის ნებართვა.",
+                "rate_limit_exceeded_message": "ცოტა სწრაფად მიდიხარ. გთხოვთ, სცადოთ ხელახლა რამდენიმე წამში."
             },
             "number_suffix": {
-                "kilo_text": "",
-                "mega_text": ""
+                "kilo_text": "კ",
+                "mega_text": "მ"
             },
             "series": {
-                "glue_text": "",
-                "three_text": "",
-                "two_text": ""
+                "glue_text": ", ",
+                "three_text": "{first}, {second}, და {third}",
+                "two_text": "{first} და {second}"
             },
             "username": {
-                "deleted_text": ""
+                "deleted_text": "[წაშლილია]"
             }
         },
         "views": {
