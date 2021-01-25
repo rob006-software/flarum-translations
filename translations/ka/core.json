@@ -47,13 +47,13 @@
             "dashboard": {
                 "clear_cache_button": "ქეშის გასუფთავება",
                 "description": "თქვენი ფორუმი ერთი შეხედვით.",
-                "title": "",
-                "tools_button": ""
+                "title": "დაფა",
+                "tools_button": "ხელსაწყოები"
             },
             "edit_css": {
-                "customize_text": "",
+                "customize_text": "მოირგეთ თქვენი ფორუმის გარეგნობა და დაამატეთ თქვენი საკუთარი LESS/CSS კოდი, რომელიც უნდა იქნას გამოყენებული Flarum-ის <a>Default styles</a> -ზე.",
                 "submit_button": "",
-                "title": ""
+                "title": "შეცვალეთ მორგებული CSS"
             },
             "edit_footer": {
                 "customize_text": "",
@@ -62,16 +62,16 @@
             },
             "edit_group": {
                 "color_label": "",
-                "delete_button": "",
-                "delete_confirmation": "",
-                "hide_label": "",
+                "delete_button": "ჯგუფის წაშლა",
+                "delete_confirmation": "დარწმუნებული ხართ, რომ გსურთ ამ ჯგუფის წაშლა? ჯგუფის წევრები არ წაიშლება.",
+                "hide_label": "ფორუმზე დამალვა",
                 "icon_label": "",
                 "icon_text": "",
-                "name_label": "",
-                "plural_placeholder": "",
-                "singular_placeholder": "",
+                "name_label": "სახელი",
+                "plural_placeholder": "მრავლობითი (მაგ., მოდები)",
+                "singular_placeholder": "მხოლობითი (მაგ., მოდი)",
                 "submit_button": "",
-                "title": ""
+                "title": "ჯგუფის შექმნა"
             },
             "edit_header": {
                 "customize_text": "",
@@ -79,57 +79,57 @@
                 "title": ""
             },
             "email": {
-                "addresses_heading": "",
-                "description": "",
-                "driver_heading": "",
-                "driver_label": "",
-                "from_label": "",
-                "mail_encryption_label": "",
-                "mail_host_label": "",
-                "mail_mailgun_domain_label": "",
-                "mail_mailgun_region_label": "",
-                "mail_mailgun_secret_label": "",
+                "addresses_heading": "მისამართები",
+                "description": "მძღოლის, პარამეტრებისა და მისამართების კონფიგურაცია, რომელსაც თქვენს ფორუმს გამოიყენებს ელ.ფოსტის გასაგზავნად.",
+                "driver_heading": "აირჩიეთ დრაივერი",
+                "driver_label": "დრაივერი",
+                "from_label": "გამგზავნი",
+                "mail_encryption_label": "დაშიფვრა",
+                "mail_host_label": "ჰოსტი",
+                "mail_mailgun_domain_label": "დომეინი",
+                "mail_mailgun_region_label": "რეგიონი",
+                "mail_mailgun_secret_label": "საიდუმლო გასაღები",
                 "mail_password_label": "",
-                "mail_port_label": "",
+                "mail_port_label": "პორტი",
                 "mail_username_label": "",
-                "mailgun_heading": "",
-                "not_sending_message": "",
-                "send_test_mail_button": "",
-                "send_test_mail_heading": "",
-                "send_test_mail_success": "",
-                "send_test_mail_text": "",
-                "smtp_heading": "",
+                "mailgun_heading": "Mailgun-ის პარამეტრები",
+                "not_sending_message": "Flarum ამჟამად არ გაგზავნის ელ.წერილებს. ეს შეიძლება გამოწვეული იყოს შერჩეული დრაივერით, ან მისი კონფიგურაციის შეცდომებით.",
+                "send_test_mail_button": "გაგზავნა",
+                "send_test_mail_heading": "გაგზავნეთ მეილის ტესტი",
+                "send_test_mail_success": "მეილის ტესტი წარმატებით გაიგზავნა!",
+                "send_test_mail_text": "ეს გამოგზავნის ელ.ფოსტას ზემოთ მოცემული კონფიგურაციით, თქვენს ელ.ფოსტაზე - {email}.",
+                "smtp_heading": "STMP პარამეტრები",
                 "submit_button": "",
                 "title": "",
                 "heading": "",
-                "text": ""
+                "text": "დრაივერის, პარამეტრებისა და მისამართების კონფიგურაცია, რომელსაც  თქვენი ფორუმი გამოიყენებს შეტყობინების გასაგზავნად."
             },
             "extension": {
-                "confirm_uninstall": "",
-                "disabled": "",
-                "enabled": "",
-                "enable_to_see": "",
+                "confirm_uninstall": "ინსტალაციით წაიშლება მონაცემთა ბაზის ყველა ჩანაწერი და აქტივები, რომლებიც დაკავშირებულია გაფართოებასთან. დარწმუნებული ხართ, რომ გსურთ გაგრძელება?",
+                "disabled": "გამორთული",
+                "enabled": "ჩართული",
+                "enable_to_see": "ჩართეთ გაფართოება, რომ ნახოთ და შეცვალოთ პარამეტრები.",
                 "info_links": {
-                    "discuss": "",
-                    "documentation": "",
-                    "donate": "",
-                    "source": "",
-                    "support": "",
-                    "website": ""
+                    "discuss": "დისკუსია",
+                    "documentation": "დოკუმენტაცია",
+                    "donate": "დონაცია",
+                    "source": "წყარო",
+                    "support": "დახმარება",
+                    "website": "ვებ-საიტი"
                 },
-                "no_permissions": "",
-                "no_settings": "",
-                "open_modal": "",
-                "permissions_title": "",
-                "saved_message": "",
-                "uninstall_button": ""
+                "no_permissions": "ამ გაფართოებას არ აქვს უფლებები.",
+                "no_settings": "ამ გაფართოებას არ აქვს პარამეტრები.",
+                "open_modal": "პარამეტრების გახსნა",
+                "permissions_title": "უფლებები",
+                "saved_message": "თქვენი ცვლილებები შენახულია.",
+                "uninstall_button": "წაშლა"
             },
             "header": {
-                "get_help": "",
+                "get_help": "დახმარების მიღება",
                 "log_out_button": ""
             },
             "loading": {
-                "title": ""
+                "title": "გთხოვთ მოიცადოთ..."
             },
             "nav": {
                 "appearance_button": "",
