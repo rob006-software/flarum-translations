@@ -2,25 +2,25 @@
     "antoinefr-money": {
         "admin": {
             "settings": {
-                "title": "",
-                "moneyforpost": "",
-                "moneyfordiscussion": "",
-                "moneyname": "",
-                "postminimumlength": "",
-                "noshowzero": ""
+                "title": "პარამეტრები",
+                "moneyforpost": "თანხა გაცემულია ახალი პოსტისთვის",
+                "moneyfordiscussion": "თანხა გაცემულია ახალი დისკუსიისთვის",
+                "moneyname": "ფულის დასახელება (მაგ. [ფულის] ქულები)",
+                "postminimumlength": "განათავსეთ მინიმალური სიგრძე ფულის მისაღებად (0 გამორთვა)",
+                "noshowzero": "არ აჩვენოთ თუ ნულოვანია მნიშვნელობა"
             },
             "permissions": {
-                "edit_money_label": ""
+                "edit_money_label": "ფულის რედაქტირება"
             }
         },
         "forum": {
             "user_controls": {
-                "money_button": ""
+                "money_button": "ფულის რედაქტირება"
             },
             "modal": {
-                "title": "",
-                "current": "",
-                "submit_button": ""
+                "title": "{username}'(ი)ს ფული",
+                "current": "მიმდინარე:",
+                "submit_button": "=> core.ref.save_changes"
             }
         }
     }
