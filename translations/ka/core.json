@@ -456,23 +456,23 @@
         },
         "views": {
             "content": {
-                "javascript_disabled_message": "",
-                "load_error_message": "",
-                "loading_text": ""
+                "javascript_disabled_message": "ეს საიტი საუკეთესოდ ჩანს თანამედროვე ბრაუზერში, რომელშიც ჩართულია JavaScript.",
+                "load_error_message": "ამ საიტის სრული ვერსიის ჩატვირთვისას მოხდა რაღაც შეცდომა. ცადეთ შეცვალოთ ეს გვერდი შეცდომის გამოსასწორებლად.",
+                "loading_text": "იტვირთება..."
             },
             "discussion": {
                 "next_page_button": "",
                 "previous_page_button": ""
             },
             "error": {
-                "csrf_token_mismatch": "",
-                "csrf_token_mismatch_return_link": "",
-                "invalid_confirmation_token": "",
-                "not_authenticated": "",
-                "not_found": "",
-                "not_found_return_link": "",
-                "permission_denied": "",
-                "unknown": ""
+                "csrf_token_mismatch": "თქვენ იყავით არააქტიური დიდი ხნის განმავლობაში.",
+                "csrf_token_mismatch_return_link": "დაბრუნდით უკან, რომ სცადოთ თავიდან",
+                "invalid_confirmation_token": "ეს დადასტურების ბმული უკვე გამოყენებულია ან არასწორია.",
+                "not_authenticated": "თქვენ არ გაქვთ ამ გვერდზე შესვლის უფლება. სისტემაში შესვლის შემდეგ ხელახლა სცადეთ.",
+                "not_found": "თქვენს მიერ მოთხოვნილი გვერდი ვერ მოიძებნა.",
+                "not_found_return_link": "დაბრუნდით {forum} -ზე",
+                "permission_denied": "თქვენ არ გაქვთ ამ გვერდზე შესვლის უფლება.",
+                "unknown": "ამ გვერდის ჩატვირთვისას მოხდა შეცდომა."
             },
             "index": {
                 "all_discussions_heading": "",
@@ -481,90 +481,90 @@
             },
             "log_out": {
                 "log_out_button": "",
-                "log_out_confirmation": "",
+                "log_out_confirmation": "დარწმუნებული ხართ, რომ გსურთ გამოსვლა {forum} - დან?",
                 "title": ""
             },
             "reset_password": {
-                "confirm_password_label": "",
-                "new_password_label": "",
+                "confirm_password_label": "დაადასტურეთ ახალი პაროლი",
+                "new_password_label": "ახალი პაროლი",
                 "submit_button": "",
                 "title": ""
             }
         },
         "api": {
-            "invalid_username_message": ""
+            "invalid_username_message": "მომხმარებლის სახელი შეიძლება შეიცავდეს მხოლოდ ასოებს, რიცხვებს და ტირეებს."
         },
         "email": {
             "activate_account": {
-                "subject": "",
-                "body": ""
+                "subject": "გაააქტიურეთ თქვენი ახალი ანგარიში",
+                "body": "ჰეი {username}\n\nვიღაცა (იმედია თქვენ!) დარეგისტრირდე {forum} -ზე, ამ ელ.ფოსტის დახმარებით.\n\nთუ თქვენ ეს იყავით, გაჰყევით შემდეგ ლინკს, რათა გაააქტიუროთ ანგარიში:\n{url}\n\nთუ თქვენ არ დარეგისტრირებულხართ, გთხოვთ დააიგნოროთ ეს ელ.ფოსტა\n"
             },
             "confirm_email": {
-                "subject": "",
-                "body": ""
+                "subject": "დაადასტურეთ თქვენი ახალი ელ.ფოსტის მისამართი",
+                "body": "ჰეი {username}!\n\nვიღაცამ (იმედია თქვენ!) შეცვალა ელ.ფოსტის მისამართი {forum} ამ ელ.ფოსტაზე.\n\nთუ ეს თქვენ იყავით, გაჰყევით შემდეგ ლინკს და თქვენი ელ.ფოსტა დადასტურდება:\n{url}\n\nთუ თქვენ ეს არ იყავით, გთხოვთ დააიგნოროთ ელ.ფოსტა.\n"
             },
             "reset_password": {
                 "subject": "",
-                "body": ""
+                "body": "ჰეი {username}!\n\nვიღაცამ (იმედია თქვენ!) დაადასტურა პაროლის დავიწყების მოთხოვნა თქვენი ანგარიშისთვის {forum} -ზე.\n\nთუ ეს თქვენ იყავით, გაჰყევით შემდეგ ლინკს, რომ შეცვალოთ თქვენი პაროლი:\n{url}\n\nთუ თქვენ არ გსურთ პაროლის შეცვლა, უბრალოდ დააიგნორეთ ეს ელ.ფოსტა და არაფერი მოხდება.\n"
             },
             "send_test": {
-                "subject": "",
-                "body": ""
+                "subject": "Flarum ელ.ფოსტის ტესტი",
+                "body": "ჰეი {username}!\n\nეს არის სატესტო ელ.წერილი, რომ დაადასტუროთ, რომ თქვენი Flarum ელ.ფოსტის კონფიგურაცია მუშაობს სწორად.\n\nთუ ეს თქვენ იყავით, ეს ნიშნავს, რომ ელ.ფოსტის კონფიგურაცია წარმატებით მუშაობს!\n\nთუ ეს თქვენ არ იყავით, გთხოვთ დააიგნორეთ ეს ელ.ფოსტა.\n"
             }
         },
         "ref": {
-            "all_discussions": "",
-            "change_email": "",
-            "change_password": "",
-            "color": "",
-            "confirm_password": "",
-            "confirmation_email_sent": "",
-            "custom_footer_text": "",
-            "custom_footer_title": "",
-            "custom_header_text": "",
-            "custom_header_title": "",
-            "delete": "",
-            "delete_forever": "",
-            "discussions": "",
-            "edit": "",
-            "email": "",
-            "icon": "",
-            "icon_text": "",
-            "load_more": "",
-            "log_in": "",
-            "log_out": "",
-            "mark_all_as_read": "",
-            "next_page": "",
-            "notifications": "",
-            "okay": "",
-            "password": "",
-            "posts": "",
-            "previous_page": "",
-            "remove": "",
-            "rename": "",
-            "reply": "",
-            "reset_your_password": "",
-            "restore": "",
-            "save_changes": "",
-            "settings": "",
-            "sign_up": "",
-            "some_others": "",
-            "start_a_discussion": "",
-            "username": "",
-            "users": "",
-            "view": "",
-            "write_a_reply": "",
-            "you": ""
+            "all_discussions": "ყველა დისკუსია",
+            "change_email": "ელ.ფოსტის შეცვლა",
+            "change_password": "პაროლის შეცვლა",
+            "color": "ფერი",
+            "confirm_password": "დაადასტურეთ პაროლი",
+            "confirmation_email_sent": "ჩვენ გამოგიგზავნეთ დამადასტურებელი ელ.წერილი {email} -ზე. თუ ის მალე არ მოვა, შეამოწმეთ თქვენი სპამის საქაღალდე.",
+            "custom_footer_text": "დაამატეთ HTML, რომელიც გამოჩნდება გვერდის ბოლოში.",
+            "custom_footer_title": "დაარედაქტირეთ სასურველი ქვედაკლონტიტული",
+            "custom_header_text": "დაამატეთ HTML, რომელიც გამოჩნდება გვერდის ზედა ნაწილში, ფლარუმის საკუთარი სათაურის ზემოთ.",
+            "custom_header_title": "შეცვალეთ მორგებული სათაური",
+            "delete": "წაშლა",
+            "delete_forever": "სამუდამოდ წაშლა",
+            "discussions": "დისკუსიები",
+            "edit": "რედაქტირება",
+            "email": "ელ.ფოსტა",
+            "icon": "აიქონი",
+            "icon_text": "შეიყვანეთ სახელი ნებისმიერი <a>FontAwesome</a> აიქონის კლასის <em>მათ შორის</em> <code>fas fa-</code> პრეფიქსით.",
+            "load_more": "მეტის ჩატვირთვა",
+            "log_in": "შესვლა",
+            "log_out": "გამოსვლა",
+            "mark_all_as_read": "ყველას წაკითხულად მონიშვნა",
+            "next_page": "შემდეგი გვერდი",
+            "notifications": "შეტყობინებები",
+            "okay": "კარგი",
+            "password": "პაროლი",
+            "posts": "პოსტები",
+            "previous_page": "წინა გვერდი",
+            "remove": "ამოღება",
+            "rename": "გადარქმევა",
+            "reply": "პასუხი",
+            "reset_your_password": "აღადგინეთ თქვენი პაროლი",
+            "restore": "აღდგენა",
+            "save_changes": "ცვლილებების შენახვა",
+            "settings": "პარამეტრები",
+            "sign_up": "რეგისტრაცია",
+            "some_others": "{count} სხვა|{count} სხვები",
+            "start_a_discussion": "დისკუსიის დაწყება",
+            "username": "მომხმარებლის სახელი",
+            "users": "მომხმარებლები",
+            "view": "ნახვა",
+            "write_a_reply": "დაწერეთ პასუხი...",
+            "you": "თქვენ"
         },
         "group": {
-            "admin": "",
-            "admins": "",
-            "guest": "",
-            "guests": "",
-            "member": "",
-            "members": "",
-            "mod": "",
-            "mods": ""
+            "admin": "ადმინი",
+            "admins": "ადმინისტრატორები",
+            "guest": "სტუმარი",
+            "guests": "სტუმრები",
+            "member": "მომხმარებელი",
+            "members": "მომხმარებლები",
+            "mod": "მოდი",
+            "mods": "მოდები"
         }
     }
 }
