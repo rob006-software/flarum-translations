@@ -23,6 +23,14 @@ return [
 		'branch' => 'master',
 		'path' => '/locale',
 	],
+	'ka' => [
+		'type' => 'language',
+		'language' => 'ka',
+		'updateReadme' => false,
+		'repository' => 'git@github.com:B3K4682/lang-georgian.git',
+		'branch' => 'main',
+		'path' => '/locale',
+	],
 	'pl' => [
 		'type' => 'language',
 		'language' => 'pl',
