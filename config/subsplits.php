@@ -18,7 +18,6 @@ return [
 	'ja' => [
 		'type' => 'language',
 		'language' => 'ja',
-		'updateReadme' => false,
 		'repository' => 'git@github.com:FFans/lang-japanese.git',
 		'branch' => 'master',
 		'path' => '/locale',
@@ -26,7 +25,6 @@ return [
 	'ka' => [
 		'type' => 'language',
 		'language' => 'ka',
-		'updateReadme' => false,
 		'repository' => 'git@github.com:B3K4682/lang-georgian.git',
 		'branch' => 'main',
 		'path' => '/locale',
@@ -34,7 +32,6 @@ return [
 	'pl' => [
 		'type' => 'language',
 		'language' => 'pl',
-		'updateReadme' => true,
 		'releaseGenerator' => PolishReleaseGenerator::class,
 		'repository' => 'git@github.com:rob006-software/flarum-lang-polish.git',
 		'branch' => 'master',
@@ -57,7 +54,6 @@ return [
 	'tr-lang' => [
 		'type' => 'language',
 		'language' => 'tr',
-		'updateReadme' => false,
 		'repository' => 'git@github.com:tolgaaaltas/flarum-lang-turkish.git',
 		'branch' => 'master',
 		'path' => '/locale',
@@ -70,7 +66,6 @@ return [
 	'tr-ext' => [
 		'type' => 'language',
 		'language' => 'tr',
-		'updateReadme' => false,
 		'repository' => 'git@github.com:tolgaaaltas/flarum-ext-turkish.git',
 		'branch' => 'master',
 		'path' => '/locale',
@@ -84,7 +79,6 @@ return [
 	'zh_Hans' => [
 		'type' => 'language',
 		'language' => 'zh_Hans',
-		'updateReadme' => false,
 		'repository' => 'git@github.com:FFans/lang-simplified-chinese.git',
 		'branch' => 'master',
 		'path' => '/locale',
