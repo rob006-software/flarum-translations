@@ -594,6 +594,9 @@ return [
 	'shriker-pronouns' => [
 		'tag' => 'https://raw.githubusercontent.com/shriker/flarum-pronouns/1.1.2/resources/locale/en.yml',
 	],
+	'sijad-auth-steam' => [
+		'tag' => 'https://raw.githubusercontent.com/sijad/flarum-ext-auth-steam/0.1.10/locale/en.yml',
+	],
 	'simonxeko-follow-users' => [
 		'tag' => 'https://raw.githubusercontent.com/simonxeko/follow-users/0.3.5/resources/locale/en.yml',
 	],
