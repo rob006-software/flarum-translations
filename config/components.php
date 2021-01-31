@@ -244,7 +244,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarumi/oauth-instagram/v1.0.0/resources/locale/en.yml',
 	],
 	'flarumi-oauth-vkontakte' => [
-		'tag' => 'https://raw.githubusercontent.com/flarumi/oauth-vkontakte/v1.0.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarumi/oauth-vkontakte/v1.0.3/resources/locale/en.yml',
 	],
 	'flarumi-oauth-yandex' => [
 		'tag' => 'https://raw.githubusercontent.com/flarumi/oauth-yandex/v1.0.1/resources/locale/en.yml',
