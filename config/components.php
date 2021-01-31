@@ -678,6 +678,9 @@ return [
 	'veriael-markdown' => [
 		'tag' => 'https://raw.githubusercontent.com/Veriael/markdown/v1.0.2.1/resources/locale/en.yml',
 	],
+	'wiseclock-post-copyright' => [
+		'tag' => 'https://raw.githubusercontent.com/WiseClock/flarum-ext-post-copyright/0.1.7/locale/en.yml',
+	],
 	'wvbforum-post-license' => [
 		'tag' => 'https://raw.githubusercontent.com/JC-ProPlus/flarum-ext-post-license/0.1.0/resources/locale/en.yml',
 	],
