@@ -675,6 +675,9 @@ return [
 	'v17development-support' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/v17development-support.yml',
 	],
+	'vasyltech-algolia-search' => [
+		'tag' => 'https://raw.githubusercontent.com/VasylTech/flarum-algolia-search/1.0.0-alpha.2/locale/en.yml',
+	],
 	'veriael-markdown' => [
 		'tag' => 'https://raw.githubusercontent.com/Veriael/markdown/v1.0.2.1/resources/locale/en.yml',
 	],
