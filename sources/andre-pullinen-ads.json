@@ -1,0 +1,35 @@
+{
+    "flagrow-ads": {
+        "admin": {
+            "buttons": {
+                "save": "Save settings"
+            },
+            "positions": {
+                "under-header": {
+                    "title": "Ad position under navigational header",
+                    "placeholder": "Insert your ad code here."
+                },
+                "between-posts": {
+                    "title": "Ad position between posts",
+                    "placeholder": "=> flagrow-ads.admin.positions.under-header.placeholder"
+                },
+                "under-nav-items": {
+                    "title": "Ad position in the left column under tags on frontpage",
+                    "placeholder": "=> flagrow-ads.admin.positions.under-header.placeholder"
+                }
+            },
+            "settings": {
+                "adsense-title": "AdSense settings",
+                "position-title": "Ad Placements",
+                "adsense-enable": "AdSense enabled",
+                "adsense-client-id": "Provide your publisher ID",
+                "start-from-post": "Specify from which post to start to show an ad",
+                "between-n-posts": "Specify after how many posts to place an ad"
+            },
+            "tab": {
+                "title": "Advertising",
+                "description": "Set ads preferences and positions."
+            }
+        }
+    }
+}
