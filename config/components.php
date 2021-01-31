@@ -27,6 +27,9 @@ return [
 	'amaurycarrade-syndication' => [
 		'tag' => 'https://raw.githubusercontent.com/AmauryCarrade/flarum-ext-syndication/v0.3.1/resources/locale/en.yml',
 	],
+	'andre-pullinen-ads' => [
+		'tag' => 'https://raw.githubusercontent.com/andre-pullinen/ads/0.2.8/resources/locale/en.yml',
+	],
 	'antoinefr-money' => [
 		'tag' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-money/v0.11.0/locale/en.yml',
 	],
