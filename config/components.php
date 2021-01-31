@@ -603,6 +603,9 @@ return [
 	'squeevee-fancybox' => [
 		'tag' => 'https://raw.githubusercontent.com/squeevee/flarum-ext-fancybox/0.2-beta/locale/en.yml',
 	],
+	'stanleysong-auth-wechat' => [
+		'tag' => 'https://raw.githubusercontent.com/StanleySong/flarum-ext-auth-wechat/1.0.3/locale/en.yml',
+	],
 	'studosi-mail-filter' => [
 		'tag' => 'https://raw.githubusercontent.com/studosi-flarum/mail-filter/0.2.0/locale/en.yml',
 	],
