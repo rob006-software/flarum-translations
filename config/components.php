@@ -576,6 +576,9 @@ return [
 	'nomiscz-auth-wechat' => [
 		'tag' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-wechat/v0.1.4/resources/locale/en.yml',
 	],
+	'pnobbe-oauth-discord' => [
+		'tag' => 'https://raw.githubusercontent.com/pnobbe/flarum-ext-oauth-discord/1.0.2/locale/en.yml',
+	],
 	'reflar-level-ranks' => [
 		'tag' => 'https://raw.githubusercontent.com/ReFlar/level-ranks/1.2.3/resources/locale/en.yml',
 	],
