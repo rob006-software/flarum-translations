@@ -582,9 +582,6 @@ return [
 	'reflar-recache' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/reflar-recache.yml',
 	],
-	'reflar-twofactor' => [
-		'tag' => 'https://raw.githubusercontent.com/ReFlar/twofactor/0.1.3/resources/locale/en.yml',
-	],
 	'reflar-webhooks-pro' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/reflar-webhooks-pro.yml',
 	],
