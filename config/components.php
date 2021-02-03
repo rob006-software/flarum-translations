@@ -495,6 +495,9 @@ return [
 	'kvothe-spoiler-bbcode' => [
 		'tag' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-spoiler-bbcode/0.1.0/resources/locale/en.yml',
 	],
+	'kyrne-aegis' => [
+		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/kyrne-aegis.yml',
+	],
 	'kyrne-evergreen' => [
 		'tag' => 'https://raw.githubusercontent.com/KyrneDev/Evergreen/0.1.8/resources/locale/en.yml',
 	],
