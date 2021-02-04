@@ -1184,7 +1184,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Incompatible with recent Flarum">🔴</span>
+			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/askvortsov1/flarum-trust-levels" title="askvortsov/flarum-trust-levels"><code>askvortsov/flarum-trust-levels</code></a>
 		</td>
 		<td align="center">107<br /><img src="https://img.shields.io/badge/--4-brightgreen" alt="-4" title="Change from last week"></td>
@@ -2408,6 +2408,13 @@
 		<td align="center">1<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
 		<td align="center">1<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/reflar-webhooks-pro/ka/"><img src="https://weblate.rob006.net/widgets/flarum/ka/reflar-webhooks-pro/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td><a href="https://extiverse.com/extension/kyrne/aegis" title="kyrne/aegis"><code>kyrne/aegis</code></a></td>
+		<td align="center">12</td>
+		<td align="center">1</td>
+		<td align="center">0</td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/kyrne-aegis/ka/"><img src="https://weblate.rob006.net/widgets/flarum/ka/kyrne-aegis/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 </tbody>
 </table>
