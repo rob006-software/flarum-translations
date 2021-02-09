@@ -57,9 +57,9 @@
                 "modal": {
                     "title": "Ustawienia webhooka",
                     "description": "Tutaj możesz ustawić dla jakich zdarzeń webhook będzie wywoływany.",
-                    "use_plain_text_label": "",
-                    "max_post_content_length_label": "",
-                    "max_post_content_length_help": "",
+                    "use_plain_text_label": "Ogranicz formatowanie treści posta",
+                    "max_post_content_length_label": "Maksymalna długość treści posta",
+                    "max_post_content_length_help": "Ustaw limit długości treści posta dla wszystkich zdarzeń powiązanych z postami. Ustaw zero lub pozostaw pole puste, aby usunąć limit.",
                     "extra_text_label": "Dodatkowy tekst",
                     "extra_text_help": "Dodatkowy tekst, który zostanie dołączony podczas wysyłania webhooka.",
                     "group_label": "Grupa",
