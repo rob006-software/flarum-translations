@@ -5,16 +5,16 @@
                 "contest": "კვეთის კონკურსი"
             },
             "page": {
-                "title": "",
-                "loading": "",
-                "participate": "",
-                "already-participated": "",
-                "delete-confirmation": "",
+                "title": "გოგრაზე კვეთის კონკურსი",
+                "loading": "იტვირთება ჩანაწერები...",
+                "participate": "მონაწილეობა",
+                "already-participated": "თქვენ უკვე მონაწილეობთ",
+                "delete-confirmation": "ნამდვილად გსურთ რომ წაშალოთ \"{name}\" {username}? ეს მომხმარებელი?",
                 "like": "მოწონება",
                 "already-liked": "მომწონს",
                 "unlike": "არ მომწონს",
                 "refresh": "გადატვირთვა",
-                "load-more": "ყველაზე მეტი ლაიქი",
+                "load-more": "მეტი ჩანაწერის ჩატვირთვა",
                 "sort": {
                     "mostLikes": "ყველაზე მეტი ლაიქი",
                     "fewerLikes": "ნაკლები მოწონება",
@@ -24,13 +24,13 @@
                 "likes": {
                     "you_text": "",
                     "others_link": "",
-                    "liked_by_self_text": "",
+                    "liked_by_self_text": "{users} მოწონს ეს.",
                     "liked_by_text": ""
                 }
             },
             "modal": {
                 "title": "მონაწილეობა",
-                "name": "",
+                "name": "დაასახელეთ თქვენი ქმნილება",
                 "submit": "გაგზავნა",
                 "tools": {
                     "circle": "წრე",
@@ -50,8 +50,8 @@
                 "moderate": "ზომიერი"
             },
             "settings": {
-                "title": "",
-                "maxEntriesPerUser": ""
+                "title": "კვეთის კონკურსის პარამეტრები",
+                "maxEntriesPerUser": "მაქსიმალური გაგზავნა თითო მომხმარებელზე"
             }
         }
     }
