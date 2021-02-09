@@ -385,7 +385,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sitemap/0.6.0/resources/locale/en.yml',
 	],
 	'fof-socialprofile' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/socialprofile/0.2.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/socialprofile/0.2.3/resources/locale/en.yml',
 	],
 	'fof-spamblock' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/spamblock/0.4.0/locale/en.yml',
