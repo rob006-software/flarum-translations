@@ -26,6 +26,7 @@ return [
 		'!the-turk-fancybox',
 		'!the-turk-mathren',
 		'!the-turk-password-strength',
+		'!glowingblue-password-strength',
 		'!the-turk-quiet-edits',
 		'!the-turk-regrole',
 		'!the-turk-stargazing-theme',

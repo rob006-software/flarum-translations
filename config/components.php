@@ -426,6 +426,9 @@ return [
 	'giga300-auth-discord' => [
 		'tag' => 'https://raw.githubusercontent.com/giga300/flarum-auth-discord/v1.1.0/locale/en.yml',
 	],
+	'glowingblue-password-strength' => [
+		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-password-strength/2.0.0/locale/en.yml',
+	],
 	'hiqstd-close' => [
 		'tag' => 'https://raw.githubusercontent.com/HiQStd/flarum-ext-close/v1.0.0/resources/locale/en.yml',
 	],
