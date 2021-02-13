@@ -69,6 +69,9 @@ return [
 	'blomstra-readme' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/blomstra-readme.yml',
 	],
+	'blomstra-realtime' => [
+		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/blomstra-realtime.yml',
+	],
 	'clarkwinkelmann-author-change' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-author-change/0.2.2/resources/locale/en.yml',
 	],
