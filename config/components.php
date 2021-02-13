@@ -565,7 +565,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-is-online/v2.0.0/resources/locale/en.yml',
 	],
 	'nearata-minecraft-avatars' => [
-		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-minecraft-avatars/v1.2.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-minecraft-avatars/v1.3.0/resources/locale/en.yml',
 	],
 	'nearata-signup-confirm-password' => [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-signup-confirm-password/v2.1.0/resources/locale/en.yml',
