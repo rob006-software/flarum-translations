@@ -2427,5 +2427,19 @@
 		<td align="center">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/kyrne-aegis/pl/"><img src="https://weblate.rob006.net/widgets/flarum/pl/kyrne-aegis/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
+	<tr>
+		<td><a href="https://extiverse.com/extension/blomstra/readme" title="blomstra/readme"><code>blomstra/readme</code></a></td>
+		<td align="center">13</td>
+		<td align="center">0</td>
+		<td align="center">8</td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/blomstra-readme/pl/"><img src="https://weblate.rob006.net/widgets/flarum/pl/blomstra-readme/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td><a href="https://extiverse.com/extension/blomstra/realtime" title="blomstra/realtime"><code>blomstra/realtime</code></a></td>
+		<td align="center">14</td>
+		<td align="center">0</td>
+		<td align="center">8</td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/blomstra-realtime/pl/"><img src="https://weblate.rob006.net/widgets/flarum/pl/blomstra-realtime/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
 </tbody>
 </table>
