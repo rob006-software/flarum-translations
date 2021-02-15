@@ -1,9 +1,9 @@
 {
     "kyrne-aegis": {
         "mail": {
-            "emailBod": "",
-            "emailSub": "",
-            "reminderBod": "",
+            "emailBod": "Birisi senin {forum} topluluğundaki hesabına girmeye çalışıyor - umarız sensindir.\nBir sonraki adıma geçmeden önce giriş yapanın siz olduğunu doğrulamanız gerekiyor.\n\nLütfen siz olduğunuzu doğrulayın:\n  • {username}\n  • IP Address: {ipAddress}\n  • Location: {location}\n\nGiriş isteğini doğrulamak için <a href=\"{link}\">buraya tıklayın</a>.\n\nEğer siz değilseniz şifrenizi değiştirmeniz gerekmektedir.\n",
+            "emailSub": "Giriş İsteği",
+            "reminderBod": "Bu, hesabınızda İki faktörlü kimlik doğrulamanın etkinleştirildiğine dair dostane bir hatırlatmadır. Bu, oturum açarken her zamanki kullanıcı adınızı ve şifrenizi girmenin yanı sıra TOTP, Authy uygulaması veya telefonunuzda bir metin mesajı yoluyla oluşturulan bir kodu girmeniz gerektiği anlamına gelir. Kurtarma kodlarınızı güvenli bir yerde saklamayı unutmayın. Mobil cihazınıza erişiminizi kaybetmeniz durumunda hesabınıza giriş yapmak için bunlardan birine ihtiyacınız olacak.",
             "reminderSub": ""
         },
         "api": {
