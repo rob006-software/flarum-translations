@@ -34,10 +34,6 @@
                 "edit-answer-prompt": "编辑所有使用的内容",
                 "show-user-answers": "显示非建议答案 ({count})"
             },
-            "menu": {
-                "title": "梅森表单",
-                "description": "配置自定义主题帖的表单字段。"
-            },
             "fields": {
                 "add": "添加字段 {field}",
                 "edit": "编辑字段 {field}",
@@ -90,13 +86,17 @@
                 "field-answers": "字段答案"
             },
             "permissions": {
-                "mason-heading": "梅森表单",
                 "see-own-fields": "查看自己现有主题的表单",
                 "see-other-fields": "查看所有现有主题的表单",
                 "fill-fields": "填写新主题的表单",
                 "update-own-fields": "更新自己主题的表单",
                 "update-other-fields": "更新任意主题的表单",
-                "skip-required-fields": "允许跳过必填字段"
+                "skip-required-fields": "允许跳过必填字段",
+                "mason-heading": "梅森表单"
+            },
+            "menu": {
+                "title": "梅森表单",
+                "description": "配置自定义主题帖的表单字段。"
             }
         }
     }

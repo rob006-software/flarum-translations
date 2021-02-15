@@ -34,10 +34,6 @@
                 "edit-answer-prompt": "İçeriği kullanıldığı her yerde düzenleyin",
                 "show-user-answers": "Önerilmeyen yanıtları göster ({count})"
             },
-            "menu": {
-                "title": "Mason",
-                "description": "Özel tartışma alanlarını yapılandırın."
-            },
             "fields": {
                 "add": "{field} alanını ekleyin",
                 "edit": "{field} alanını düzenleyin",
@@ -90,13 +86,17 @@
                 "field-answers": "Alan yanıtları"
             },
             "permissions": {
-                "mason-heading": "Mason",
                 "see-own-fields": "Alanları kendi mevcut tartışmalarınızda görün",
                 "see-other-fields": "Mevcut tüm tartışmalardaki alanları görün",
                 "fill-fields": "Yeni tartışmalarda alanları doldurun",
                 "update-own-fields": "Kendi tartışma alanlarını güncelle",
                 "update-other-fields": "Herhangi bir tartışmanın alanlarını güncelleyin",
-                "skip-required-fields": "Gerekli alanları atlama izni var"
+                "skip-required-fields": "Gerekli alanları atlama izni var",
+                "mason-heading": "Mason"
+            },
+            "menu": {
+                "title": "Mason",
+                "description": "Özel tartışma alanlarını yapılandırın."
             }
         }
     }

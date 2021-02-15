@@ -34,10 +34,6 @@
                 "edit-answer-prompt": "",
                 "show-user-answers": "候補ではない回答を ({count}) つ表示"
             },
-            "menu": {
-                "title": "",
-                "description": "カスタム投稿フィールドを設定する\n"
-            },
             "fields": {
                 "add": "フィールド {field} を追加",
                 "edit": "編集フィールド {field}",
@@ -90,13 +86,17 @@
                 "field-answers": ""
             },
             "permissions": {
-                "mason-heading": "Mason",
                 "see-own-fields": "自身のトピックに表示されるフィールド",
                 "see-other-fields": "すべてのトピックに表示されるフィールド",
                 "fill-fields": "新しいトピックのフィールドに入力する",
                 "update-own-fields": "自分のディスカッションのフィールドを更新する",
                 "update-other-fields": "件名フィールドを更新する",
-                "skip-required-fields": "必須フィールドのスキップを許可する"
+                "skip-required-fields": "必須フィールドのスキップを許可する",
+                "mason-heading": "Mason"
+            },
+            "menu": {
+                "title": "",
+                "description": "カスタム投稿フィールドを設定する\n"
             }
         }
     }
