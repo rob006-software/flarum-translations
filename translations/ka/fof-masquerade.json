@@ -2,7 +2,8 @@
     "fof-masquerade": {
         "forum": {
             "alerts": {
-                "profile-completion-required": ""
+                "profile-completion-required": "",
+                "profile-completed": ""
             },
             "buttons": {
                 "view-profile": "",
@@ -20,7 +21,6 @@
             }
         },
         "admin": {
-            "title": "",
             "general-options": "",
             "buttons": {
                 "add-field": "",
@@ -30,9 +30,6 @@
             "permissions": {
                 "have-profile": "",
                 "view-profile": ""
-            },
-            "menu": {
-                "description": ""
             },
             "fields": {
                 "title": "",
@@ -62,6 +59,10 @@
                 "email": "",
                 "select": "",
                 "url": ""
+            },
+            "title": "",
+            "menu": {
+                "description": ""
             }
         }
     }

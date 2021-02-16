@@ -2,7 +2,8 @@
     "fof-masquerade": {
         "forum": {
             "alerts": {
-                "profile-completion-required": "以下の必要なプロファイルフィールドに入力してください。\n"
+                "profile-completion-required": "以下の必要なプロファイルフィールドに入力してください。\n",
+                "profile-completed": ""
             },
             "buttons": {
                 "view-profile": "プロフィールを見る",
@@ -20,7 +21,6 @@
             }
         },
         "admin": {
-            "title": "仮面舞踏会",
             "general-options": "一般的なオプション",
             "buttons": {
                 "add-field": "フィールドを作成",
@@ -30,9 +30,6 @@
             "permissions": {
                 "have-profile": "仮面舞踏会のプロフィールを持っている",
                 "view-profile": "仮面舞踏会のプロフィールを見る"
-            },
-            "menu": {
-                "description": "ユーザープロファイルフィールドを構成します。\n"
             },
             "fields": {
                 "title": "フィールド",
@@ -62,6 +59,10 @@
                 "email": "電子メール",
                 "select": "落ちる",
                 "url": "URL"
+            },
+            "title": "仮面舞踏会",
+            "menu": {
+                "description": "ユーザープロファイルフィールドを構成します。\n"
             }
         }
     }

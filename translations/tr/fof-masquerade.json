@@ -2,7 +2,8 @@
     "fof-masquerade": {
         "forum": {
             "alerts": {
-                "profile-completion-required": "Lütfen aşağıdaki gerekli alanları doldurun.\n"
+                "profile-completion-required": "Lütfen aşağıdaki gerekli alanları doldurun.\n",
+                "profile-completed": ""
             },
             "buttons": {
                 "view-profile": "Profili görüntüle",
@@ -20,7 +21,6 @@
             }
         },
         "admin": {
-            "title": "Masquerade",
             "general-options": "Genel ayarlar",
             "buttons": {
                 "add-field": "Alan oluştur",
@@ -30,9 +30,6 @@
             "permissions": {
                 "have-profile": "Masquerade profili var",
                 "view-profile": "Masquerade profilini görüntüle"
-            },
-            "menu": {
-                "description": "Kullanıcı profili alanlarını düzenle.\n"
             },
             "fields": {
                 "title": "Alanlar",
@@ -64,6 +61,10 @@
                 "email": "E-posta",
                 "select": "Açılır menü",
                 "url": "Bağlantı"
+            },
+            "title": "Masquerade",
+            "menu": {
+                "description": "Kullanıcı profili alanlarını düzenle.\n"
             }
         }
     }

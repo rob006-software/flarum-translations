@@ -2,7 +2,8 @@
     "fof-masquerade": {
         "forum": {
             "alerts": {
-                "profile-completion-required": "Uzupełnij wymagane pola profilu poniżej.\n"
+                "profile-completion-required": "Uzupełnij wymagane pola profilu poniżej.\n",
+                "profile-completed": ""
             },
             "buttons": {
                 "view-profile": "Zobacz profil",
@@ -20,7 +21,6 @@
             }
         },
         "admin": {
-            "title": "Masquerade",
             "general-options": "Opcje ogólne",
             "buttons": {
                 "add-field": "Utwórz pole",
@@ -30,9 +30,6 @@
             "permissions": {
                 "have-profile": "Posiadanie profilu masquerade",
                 "view-profile": "Przeglądanie profilu masquerade"
-            },
-            "menu": {
-                "description": "Konfiguruj pola profilu użytkownika.\n"
             },
             "fields": {
                 "title": "Pola",
@@ -62,6 +59,10 @@
                 "email": "E-mail",
                 "select": "Lista rozwijana",
                 "url": "URL"
+            },
+            "title": "Masquerade",
+            "menu": {
+                "description": "Konfiguruj pola profilu użytkownika.\n"
             }
         }
     }
