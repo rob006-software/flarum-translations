@@ -16,12 +16,12 @@ return [
 	'core' => [
 		'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.15/locale/core.yml',
 		'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.14.1/locale/core.yml',
-		'https://raw.githubusercontent.com/flarum/lang-english/master/locale/core.yml',
+		'https://raw.githubusercontent.com/flarum/core/master/locale/core.yml',
 	],
 	'validation' => [
 		'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.15/locale/validation.yml',
 		'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.14.1/locale/validation.yml',
-		'https://raw.githubusercontent.com/flarum/lang-english/master/locale/validation.yml',
+		'https://raw.githubusercontent.com/flarum/core/master/locale/validation.yml',
 	],
 	/* extensions list begin */
 	'amaurycarrade-syndication' => [
@@ -188,63 +188,63 @@ return [
 	],
 	'flarum-akismet' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.15/locale/flarum-akismet.yml',
-		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-akismet.yml',
+		'branch' => 'https://raw.githubusercontent.com/flarum/akismet/master/locale/en.yml',
 	],
 	'flarum-approval' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.15/locale/flarum-approval.yml',
-		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-approval.yml',
+		'branch' => 'https://raw.githubusercontent.com/flarum/approval/master/locale/en.yml',
 	],
 	'flarum-emoji' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.15/locale/flarum-emoji.yml',
-		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-emoji.yml',
+		'branch' => 'https://raw.githubusercontent.com/flarum/emoji/master/locale/en.yml',
 	],
 	'flarum-flags' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.15/locale/flarum-flags.yml',
-		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-flags.yml',
+		'branch' => 'https://raw.githubusercontent.com/flarum/flags/master/locale/en.yml',
 	],
 	'flarum-likes' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.15/locale/flarum-likes.yml',
-		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-likes.yml',
+		'branch' => 'https://raw.githubusercontent.com/flarum/likes/master/locale/en.yml',
 	],
 	'flarum-lock' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.15/locale/flarum-lock.yml',
-		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-lock.yml',
+		'branch' => 'https://raw.githubusercontent.com/flarum/lock/master/locale/en.yml',
 	],
 	'flarum-markdown' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.15/locale/flarum-markdown.yml',
-		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-markdown.yml',
+		'branch' => 'https://raw.githubusercontent.com/flarum/markdown/master/locale/en.yml',
 	],
 	'flarum-mentions' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.15/locale/flarum-mentions.yml',
-		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-mentions.yml',
+		'branch' => 'https://raw.githubusercontent.com/flarum/mentions/master/locale/en.yml',
 	],
 	'flarum-nicknames' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.15/locale/flarum-nicknames.yml',
-		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-nicknames.yml',
+		'branch' => 'https://raw.githubusercontent.com/flarum/nicknames/master/locale/en.yml',
 	],
 	'flarum-pusher' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.15/locale/flarum-pusher.yml',
-		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-pusher.yml',
+		'branch' => 'https://raw.githubusercontent.com/flarum/pusher/master/locale/en.yml',
 	],
 	'flarum-statistics' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.15/locale/flarum-statistics.yml',
-		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-statistics.yml',
+		'branch' => 'https://raw.githubusercontent.com/flarum/statistics/master/locale/en.yml',
 	],
 	'flarum-sticky' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.15/locale/flarum-sticky.yml',
-		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-sticky.yml',
+		'branch' => 'https://raw.githubusercontent.com/flarum/sticky/master/locale/en.yml',
 	],
 	'flarum-subscriptions' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.15/locale/flarum-subscriptions.yml',
-		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-subscriptions.yml',
+		'branch' => 'https://raw.githubusercontent.com/flarum/subscriptions/master/locale/en.yml',
 	],
 	'flarum-suspend' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.15/locale/flarum-suspend.yml',
-		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-suspend.yml',
+		'branch' => 'https://raw.githubusercontent.com/flarum/suspend/master/locale/en.yml',
 	],
 	'flarum-tags' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.15/locale/flarum-tags.yml',
-		'branch' => 'https://raw.githubusercontent.com/flarum/lang-english/master/locale/flarum-tags.yml',
+		'branch' => 'https://raw.githubusercontent.com/flarum/tags/master/locale/en.yml',
 	],
 	'flarumi-oauth-instagram' => [
 		'tag' => 'https://raw.githubusercontent.com/flarumi/oauth-instagram/v1.0.0/resources/locale/en.yml',
