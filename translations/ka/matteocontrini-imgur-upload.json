@@ -2,7 +2,14 @@
     "imgur-upload": {
         "admin": {
             "settings": {
-                "hide-markdown-image": ""
+                "hide-markdown-image": "",
+                "embed-type": {
+                    "title": "",
+                    "preview-with-link": "",
+                    "preview-without-link": "",
+                    "full-with-link": "",
+                    "full-without-link": ""
+                }
             }
         },
         "forum": {
