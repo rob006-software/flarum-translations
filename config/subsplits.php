@@ -15,6 +15,13 @@ use app\components\release\PolishReleaseGenerator;
 use function rob006\flarum\translations\helpers\getComponents;
 
 return [
+	'fr' => [
+		'type' => 'language',
+		'language' => 'fr',
+		'repository' => 'git@github.com:qiaeru/lang-french.git',
+		'branch' => 'master',
+		'path' => '/locale',
+	],
 	'ja' => [
 		'type' => 'language',
 		'language' => 'ja',
