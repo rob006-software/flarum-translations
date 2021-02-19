@@ -1,0 +1,25 @@
+{
+    "fof-oauth": {
+        "admin": {
+            "settings": {
+                "providers": {
+                    "instagram": {
+                        "description": "",
+                        "client_id_label": "",
+                        "client_secret_label": ""
+                    }
+                }
+            }
+        },
+        "lib": {
+            "providers": {
+                "instagram": ""
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_instagram": ""
+            }
+        }
+    }
+}

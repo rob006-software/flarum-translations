@@ -1,0 +1,33 @@
+{
+    "askvortsov-saml": {
+        "admin": {
+            "title": "",
+            "labels": {
+                "idp_metadata_url": "",
+                "idp_metadata": "",
+                "only_option": "",
+                "sync_attributes": "",
+                "nameid_format": "",
+                "want_assertions_signed": "",
+                "want_messages_signed": ""
+            },
+            "options": {
+                "nameid_format": {
+                    "persistent": "",
+                    "emailAddress": "",
+                    "unspecified": ""
+                }
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_saml_button": "",
+                "open_popup": "",
+                "enable_popups": ""
+            },
+            "sign_up": {
+                "post_saml_title": ""
+            }
+        }
+    }
+}

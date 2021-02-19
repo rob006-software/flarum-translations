@@ -1,0 +1,25 @@
+{
+    "fof-oauth": {
+        "admin": {
+            "settings": {
+                "providers": {
+                    "yandex": {
+                        "description": "",
+                        "client_id_label": "",
+                        "client_secret_label": ""
+                    }
+                }
+            }
+        },
+        "lib": {
+            "providers": {
+                "yandex": ""
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_yandex": ""
+            }
+        }
+    }
+}

@@ -100,7 +100,9 @@
                 "send_test_mail_text": "Cela enverra un courriel qui utilisera la configuration paramétrée ci-dessus à votre adresse de courriel {email}.",
                 "smtp_heading": "Paramètres SMTP",
                 "submit_button": "=> core.ref.okay",
-                "title": "=> core.ref.email"
+                "title": "=> core.ref.email",
+                "heading": "",
+                "text": ""
             },
             "extension": {
                 "confirm_uninstall": "La désinstallation supprimera toutes les entrées de la base de données et les ressources liées à l’extension. Êtes-vous sûr de vouloir continuer ?",
@@ -151,7 +153,14 @@
                 "email_title": "=> core.admin.email.description",
                 "permissions_button": "=> core.admin.permissions.title",
                 "permissions_title": "=> core.admin.permissions.description",
-                "search_placeholder": "Rechercher des extensions"
+                "search_placeholder": "Rechercher des extensions",
+                "appearance_text": "",
+                "basics_text": "",
+                "dashboard_text": "",
+                "email_text": "",
+                "extensions_button": "",
+                "extensions_text": "",
+                "permissions_text": ""
             },
             "permissions": {
                 "allow_post_editing_label": "Modifier ses messages",
@@ -197,6 +206,17 @@
             "upload_image": {
                 "remove_button": "=> core.ref.remove",
                 "upload_button": "Sélectionner une image…"
+            },
+            "add_extension": {
+                "developer_text": "",
+                "install_text": "",
+                "temporary_text": "",
+                "title": ""
+            },
+            "extensions": {
+                "add_button": "",
+                "settings_button": "",
+                "uninstall_button": ""
             }
         },
         "forum": {
@@ -476,20 +496,20 @@
         },
         "email": {
             "activate_account": {
-                "body": "Bonjour {username} !\n\nQuelqu’un (en espérant que cela soit vous !) s’est inscrit sur {forum} avec cette adresse de courriel.\n\nSi vous êtes bien à l’origine de cette action, cliquez sur le lien suivant pour que votre compte soit activé :\n{url}\n\nSi vous n’êtes pas à l’origine de cette action, veuillez ignorer ce courriel.\n",
-                "subject": "Activation de votre compte"
+                "subject": "Activation de votre compte",
+                "body": "Bonjour {username} !\n\nQuelqu’un (en espérant que cela soit vous !) s’est inscrit sur {forum} avec cette adresse de courriel.\n\nSi vous êtes bien à l’origine de cette action, cliquez sur le lien suivant pour que votre compte soit activé :\n{url}\n\nSi vous n’êtes pas à l’origine de cette action, veuillez ignorer ce courriel.\n"
             },
             "confirm_email": {
-                "body": "Bonjour {username} !\n\nQuelqu’un (en espérant que cela soit vous !) a demandé à modifier l’adresse de courriel associée à votre compte sur {forum} par celle-ci.\n\nSi vous êtes bien à l’origine de cette action, cliquez sur le lien suivant pour confirmer votre nouvelle adresse de courriel :\n{url}\n\nSi vous ne souhaitez pas modifier votre adresse de courriel, veuillez ignorer ce courriel.\n",
-                "subject": "Modification de votre adresse de courriel"
+                "subject": "Modification de votre adresse de courriel",
+                "body": "Bonjour {username} !\n\nQuelqu’un (en espérant que cela soit vous !) a demandé à modifier l’adresse de courriel associée à votre compte sur {forum} par celle-ci.\n\nSi vous êtes bien à l’origine de cette action, cliquez sur le lien suivant pour confirmer votre nouvelle adresse de courriel :\n{url}\n\nSi vous ne souhaitez pas modifier votre adresse de courriel, veuillez ignorer ce courriel.\n"
             },
             "reset_password": {
-                "body": "Bonjour {username} !\n\nQuelqu’un (en espérant que cela soit vous !) a demandé à réinitialiser le mot de passe associé à votre compte sur {forum}.\n\nSi vous êtes bien à l’origine de cette action, cliquez sur le lien suivant pour réinitialiser votre mot de passe actuel :\n{url}\n\nSi vous ne souhaitez pas réinitialiser votre mot de passe, veuillez ignorer ce courriel.\n",
-                "subject": "Réinitialisation de votre mot de passe"
+                "subject": "Réinitialisation de votre mot de passe",
+                "body": "Bonjour {username} !\n\nQuelqu’un (en espérant que cela soit vous !) a demandé à réinitialiser le mot de passe associé à votre compte sur {forum}.\n\nSi vous êtes bien à l’origine de cette action, cliquez sur le lien suivant pour réinitialiser votre mot de passe actuel :\n{url}\n\nSi vous ne souhaitez pas réinitialiser votre mot de passe, veuillez ignorer ce courriel.\n"
             },
             "send_test": {
-                "body": "Bonjour {username} !\n\nCeci est un courriel de test qui confirme que la configuration des courriels de Flarum fonctionne correctement.\n\nSi vous êtes bien à l’origine de cette action, ce courriel confirme que votre configuration est fonctionnelle !\n\nSi vous n’êtes pas à l’origine de cette action, veuillez ignorer ce courriel.\n",
-                "subject": "Courriel de test de Flarum"
+                "subject": "Courriel de test de Flarum",
+                "body": "Bonjour {username} !\n\nCeci est un courriel de test qui confirme que la configuration des courriels de Flarum fonctionne correctement.\n\nSi vous êtes bien à l’origine de cette action, ce courriel confirme que votre configuration est fonctionnelle !\n\nSi vous n’êtes pas à l’origine de cette action, veuillez ignorer ce courriel.\n"
             }
         },
         "ref": {
