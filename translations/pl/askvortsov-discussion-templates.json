@@ -2,8 +2,8 @@
     "askvortsov-discussion-templates": {
         "admin": {
             "permissions": {
-                "manage_own_discussion_reply_templates": "",
-                "manage_all_reply_templates": ""
+                "manage_own_discussion_reply_templates": "Zarządzanie szablonami odpowiedzi dla własnych dyskusji",
+                "manage_all_reply_templates": "Zarządzanie szablonami odpowiedzi dla wszystkich dyskusji"
             },
             "tags": {
                 "tag_template_heading": "Szablon dyskusji",
@@ -18,11 +18,11 @@
         },
         "forum": {
             "discussion_controls": {
-                "reply_template_button": ""
+                "reply_template_button": "Edytuj szablon odpowiedzi"
             },
             "reply_template": {
-                "title": "",
-                "submit_button": ""
+                "title": "Edycja szablonu odpowiedzi",
+                "submit_button": "Zapisz szablon odpowiedzi"
             }
         }
     }
