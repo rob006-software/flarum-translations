@@ -159,6 +159,9 @@ return [
 	'dem13n-auth-yandex' => [
 		'tag' => 'https://raw.githubusercontent.com/Dem13n/auth-yandex/0.1.0/resources/locale/en.yml',
 	],
+	'dem13n-discussion-cards' => [
+		'tag' => 'https://raw.githubusercontent.com/Dem13n/discussion-cards/0.2.4/locale/en.yml',
+	],
 	'dem13n-nickname-changer' => [
 		'tag' => 'https://raw.githubusercontent.com/Dem13n/nickname-changer/0.2/resources/locale/en.yml',
 	],
