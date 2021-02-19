@@ -1,6 +1,10 @@
 {
     "askvortsov-discussion-templates": {
         "admin": {
+            "permissions": {
+                "manage_own_discussion_reply_templates": "",
+                "manage_all_reply_templates": ""
+            },
             "tags": {
                 "tag_template_heading": "",
                 "tag_template_text": "",
@@ -9,6 +13,15 @@
             "tag_template_modal": {
                 "title": "",
                 "customize_text": "",
+                "submit_button": ""
+            }
+        },
+        "forum": {
+            "discussion_controls": {
+                "reply_template_button": ""
+            },
+            "reply_template": {
+                "title": "",
                 "submit_button": ""
             }
         }

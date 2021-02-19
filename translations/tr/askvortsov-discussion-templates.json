@@ -1,6 +1,10 @@
 {
     "askvortsov-discussion-templates": {
         "admin": {
+            "permissions": {
+                "manage_own_discussion_reply_templates": "",
+                "manage_all_reply_templates": ""
+            },
             "tags": {
                 "tag_template_heading": "Tartışma Şablonu",
                 "tag_template_text": "Bu etiket için yeni tartışma şablonunu yönet.",
@@ -10,6 +14,15 @@
                 "title": "Tartışma Şablonu",
                 "customize_text": "Bu etiket için yeni tartışma şablonunu yönet.",
                 "submit_button": "Şablonu Kaydet"
+            }
+        },
+        "forum": {
+            "discussion_controls": {
+                "reply_template_button": ""
+            },
+            "reply_template": {
+                "title": "",
+                "submit_button": ""
             }
         }
     }

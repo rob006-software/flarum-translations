@@ -1,6 +1,10 @@
 {
     "askvortsov-discussion-templates": {
         "admin": {
+            "permissions": {
+                "manage_own_discussion_reply_templates": "Manage reply templates for their discussions",
+                "manage_all_reply_templates": "Manage reply templates for all discussions"
+            },
             "tags": {
                 "tag_template_heading": "Discussion Template",
                 "tag_template_text": "Manage a template for new discussions in this tag.",
@@ -10,6 +14,15 @@
                 "title": "Discussion Template",
                 "customize_text": "Manage a template for new discussions in this tag.",
                 "submit_button": "Save Template"
+            }
+        },
+        "forum": {
+            "discussion_controls": {
+                "reply_template_button": "Edit Reply Template"
+            },
+            "reply_template": {
+                "title": "Edit Reply Template",
+                "submit_button": "Save Reply Template"
             }
         }
     }
