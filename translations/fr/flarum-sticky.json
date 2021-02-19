@@ -1,0 +1,25 @@
+{
+    "flarum-sticky": {
+        "admin": {
+            "permissions": {
+                "sticky_discussions_label": "Épingler les discussions"
+            }
+        },
+        "forum": {
+            "badge": {
+                "sticky_tooltip": "=> flarum-sticky.ref.sticky"
+            },
+            "discussion_controls": {
+                "sticky_button": "Épingler",
+                "unsticky_button": "Désépingler"
+            },
+            "post_stream": {
+                "discussion_stickied_text": "{username} a épinglé cette discussion.",
+                "discussion_unstickied_text": "{username} a désépinglé cette discussion."
+            }
+        },
+        "ref": {
+            "sticky": "Épinglée"
+        }
+    }
+}
