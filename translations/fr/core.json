@@ -499,19 +499,19 @@
         "email": {
             "activate_account": {
                 "subject": "Activation de votre compte",
-                "body": "Bonjour {username} !\n\nQuelqu'un (en espérant que cela soit vous !) s'est inscrit sur {forum} avec cette adresse de courriel.\n\nSi vous êtes bien à l'origine de cette action, cliquez sur le lien suivant pour que votre compte soit activé :\n{url}\n\nSi vous n'êtes pas à l'origine de cette action, veuillez ignorer ce courriel.\n"
+                "body": "Bonjour {username} !\n\nQuelqu'un (en espérant que cela soit vous !) s'est inscrit sur {forum} avec cette adresse de courriel.\n\nSi vous êtes bien à l'origine de cette action, cliquez sur le lien suivant pour que votre compte soit activé :\n{url}\n\nSi vous n'êtes pas à l'origine de cette action, veuillez ignorer ce courriel.\n"
             },
             "confirm_email": {
                 "subject": "Confirmez votre nouvelle adresse de courriel",
-                "body": "Bonjour {username} !\n\nQuelqu'un (en espérant que cela soit vous !) a demandé à modifier l'adresse de courriel associée à votre compte sur {forum} par celle-ci.\n\nSi vous êtes bien à l'origine de cette action, cliquez sur le lien suivant pour confirmer votre nouvelle adresse de courriel :\n{url}\n\nSi vous ne souhaitez pas modifier votre adresse de courriel, veuillez ignorer ce courriel.\n"
+                "body": "Bonjour {username} !\n\nQuelqu'un (en espérant que cela soit vous !) a demandé à modifier l'adresse de courriel associée à votre compte sur {forum} par celle-ci.\n\nSi vous êtes bien à l'origine de cette action, cliquez sur le lien suivant pour confirmer votre nouvelle adresse de courriel :\n{url}\n\nSi vous ne souhaitez pas modifier votre adresse de courriel, veuillez ignorer ce courriel.\n"
             },
             "reset_password": {
                 "subject": "Réinitialisation de votre mot de passe",
-                "body": "Bonjour {username} !\n\nQuelqu'un (en espérant que cela soit vous !) a demandé à réinitialiser le mot de passe associé à votre compte sur {forum}.\n\nSi vous êtes bien à l'origine de cette action, cliquez sur le lien suivant pour réinitialiser votre mot de passe actuel :\n{url}\n\nSi vous ne souhaitez pas réinitialiser votre mot de passe, veuillez ignorer ce courriel.\n"
+                "body": "Bonjour {username} !\n\nQuelqu'un (en espérant que cela soit vous !) a demandé à réinitialiser le mot de passe associé à votre compte sur {forum}.\n\nSi vous êtes bien à l'origine de cette action, cliquez sur le lien suivant pour réinitialiser votre mot de passe actuel :\n{url}\n\nSi vous ne souhaitez pas réinitialiser votre mot de passe, veuillez ignorer ce courriel.\n"
             },
             "send_test": {
                 "subject": "Courriel de test de Flarum",
-                "body": "Bonjour {username} !\n\nCeci est un courriel de test qui confirme que la configuration de la messagerie de Flarum fonctionne correctement.\n\nSi vous êtes bien à l'origine de cette action, ce courriel confirme que votre configuration est fonctionnelle !\n\nSi vous n'êtes pas à l'origine de cette action, veuillez ignorer ce courriel.\n"
+                "body": "Bonjour {username} !\n\nCeci est un courriel de test qui confirme que la configuration de la messagerie de Flarum fonctionne correctement.\n\nSi vous êtes bien à l'origine de cette action, ce courriel confirme que votre configuration est fonctionnelle !\n\nSi vous n'êtes pas à l'origine de cette action, veuillez ignorer ce courriel.\n"
             }
         },
         "ref": {
