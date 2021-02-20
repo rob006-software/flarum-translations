@@ -21,8 +21,8 @@
                 "favicon_text": "上传图片做为论坛的站点图标，该图标会显示在浏览器标签页、搜索引擎结果条目及书签等多个地方。",
                 "logo_heading": "Logo",
                 "logo_text": "上传图片代替论坛名称，并展示在导航栏左侧。",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "外观"
+                "title": "外观",
+                "submit_button": "=> core.ref.save_changes"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -35,14 +35,14 @@
                 "forum_title_heading": "论坛名称",
                 "home_page_heading": "论坛首页",
                 "home_page_text": "选择一种页面作为论坛首页。",
-                "saved_message": "您的更改已保存",
                 "show_language_selector_label": "显示语言选择器",
                 "slug_driver_heading": "别名驱动：{model}",
                 "slug_driver_text": "选择要用于此实体的驱动程序。",
-                "submit_button": "=> core.ref.save_changes",
                 "title": "常规",
                 "welcome_banner_heading": "欢迎横幅",
-                "welcome_banner_text": "横幅文本将显示于「全部主题」页面顶部，可以用于欢迎论坛访客。"
+                "welcome_banner_text": "横幅文本将显示于「全部主题」页面顶部，可以用于欢迎论坛访客。",
+                "saved_message": "您的更改已保存",
+                "submit_button": "=> core.ref.save_changes"
             },
             "dashboard": {
                 "clear_cache_button": "清除缓存",
@@ -99,9 +99,9 @@
                 "send_test_mail_success": "测试邮件发送成功！",
                 "send_test_mail_text": "使用上述设置发送测试邮件到您的邮箱：{email}",
                 "smtp_heading": "SMTP 设置",
-                "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.email",
                 "heading": "=> core.ref.email",
+                "submit_button": "=> core.ref.save_changes",
                 "text": "配置论坛发信服务方式。",
                 "mail_mandrill_secret_label": "Secret key",
                 "mail_ses_key_label": "Key",
@@ -111,6 +111,7 @@
                 "ses_heading": "SES 设置"
             },
             "extension": {
+                "configure_scopes": "",
                 "confirm_uninstall": "该扩展程序相关的数据库内容和文件资源将被永久性删除。确定要卸载吗？",
                 "disabled": "关闭",
                 "enable_to_see": "开启扩展程序以查看或修改设置。",
@@ -127,8 +128,8 @@
                 "no_settings": "此扩展无设置项。",
                 "open_modal": "打开设置",
                 "permissions_title": "权限",
-                "saved_message": "您的修改已保存。",
-                "uninstall_button": "卸载"
+                "uninstall_button": "卸载",
+                "saved_message": "您的修改已保存。"
             },
             "header": {
                 "get_help": "帮助",
@@ -209,6 +210,7 @@
                 "signup_open_button": "开放注册"
             },
             "settings": {
+                "saved_message": "",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {

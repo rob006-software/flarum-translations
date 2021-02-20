@@ -21,8 +21,8 @@
                 "favicon_text": "Forumun kısayol simgesi olarak görüntülenecek bir resim yükleyin.",
                 "logo_heading": "Logo",
                 "logo_text": "Forum başlığının yerine görüntülenecek bir resim yükle.",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "Görünüm"
+                "title": "Görünüm",
+                "submit_button": "=> core.ref.save_changes"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -35,14 +35,14 @@
                 "forum_title_heading": "Forum Başlığı",
                 "home_page_heading": "Ana Sayfa",
                 "home_page_text": "Kullanıcıların forumunu ziyaret ettiklerinde ilk görecekleri sayfayı seçin.",
-                "saved_message": "Değişikliklerin kaydedildi.",
                 "show_language_selector_label": "Dil seçiciyi göster",
                 "slug_driver_heading": "Adres Kısa Adı Sürücüsü: {model}",
                 "slug_driver_text": "Adres kısa adı için bir sürücü modeli seçin.",
-                "submit_button": "=> core.ref.save_changes",
                 "title": "Temel Öğeler",
                 "welcome_banner_heading": "Hoşgeldiniz Mesajı",
-                "welcome_banner_text": "Tüm Tartışmalar sayfasında görünecek karşılama yazısını ayarla. Ziyaretçileri karşılamak için bunu kullan."
+                "welcome_banner_text": "Tüm Tartışmalar sayfasında görünecek karşılama yazısını ayarla. Ziyaretçileri karşılamak için bunu kullan.",
+                "saved_message": "Değişikliklerin kaydedildi.",
+                "submit_button": "=> core.ref.save_changes"
             },
             "dashboard": {
                 "clear_cache_button": "Önbelleği Temizle",
@@ -99,9 +99,9 @@
                 "send_test_mail_success": "Test postası başarıyla gönderildi!",
                 "send_test_mail_text": "Bu, yukarıdaki yapılandırma ayarları ile {email} adresine gönderilecektir.",
                 "smtp_heading": "SMTP Ayarları",
-                "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.email",
                 "heading": "=> core.ref.email",
+                "submit_button": "=> core.ref.save_changes",
                 "text": "Forumunun e-posta göndermesi için sürücüyü, ayarları ve adresleri ayarla.",
                 "mail_mandrill_secret_label": "Gizli anahtar",
                 "mail_ses_key_label": "Anahtar",
@@ -111,6 +111,7 @@
                 "ses_heading": "SES Ayarları"
             },
             "extension": {
+                "configure_scopes": "",
                 "confirm_uninstall": "Kaldırma işlemi, uzantı ile ilgili tüm veritabanı girişlerini kaldıracaktır. Devam etmek istediğine emin misin?",
                 "disabled": "Devre dışı",
                 "enable_to_see": "Ayarları görüntülemek ve değiştirmek için uzantıyı etkinleştirin.",
@@ -127,8 +128,8 @@
                 "no_settings": "Bu uzantının ayarları yok.",
                 "open_modal": "Ayarları aç",
                 "permissions_title": "İzinler",
-                "saved_message": "Değişiklikleriniz kaydedildi.",
-                "uninstall_button": "Kaldır"
+                "uninstall_button": "Kaldır",
+                "saved_message": "Değişiklikleriniz kaydedildi."
             },
             "header": {
                 "get_help": "Yardım Al",
@@ -207,6 +208,7 @@
                 "signup_open_button": "Açık"
             },
             "settings": {
+                "saved_message": "",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {

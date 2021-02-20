@@ -21,8 +21,8 @@
                 "favicon_text": "Transférez une image qui sera affichée comme l’icône du raccourci du forum.",
                 "logo_heading": "Logo",
                 "logo_text": "Transférez une image qui remplacera le titre du forum.",
-                "submit_button": "=> core.ref.okay",
-                "title": "Apparence"
+                "title": "Apparence",
+                "submit_button": "=> core.ref.okay"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -35,14 +35,14 @@
                 "forum_title_heading": "Titre du forum",
                 "home_page_heading": "Page d’accueil",
                 "home_page_text": "Sélectionnez la page que les utilisateurs verront lorsqu’ils visiteront votre forum pour la première fois.",
-                "saved_message": "Vos modifications ont été enregistrées.",
                 "show_language_selector_label": "Afficher le sélecteur de langue",
                 "slug_driver_heading": "Pilote de l’identifiant : {model}",
                 "slug_driver_text": "Sélectionnez un pilote qui sera utilisé pour l’identifiant de ce modèle.",
-                "submit_button": "=> core.ref.okay",
                 "title": "Essentiels",
                 "welcome_banner_heading": "Bandeau de bienvenue",
-                "welcome_banner_text": "Personnalisez le texte du bandeau qui est affiché sur la page de la liste de discussions. Il vous permet d’accueillir les invités de votre forum."
+                "welcome_banner_text": "Personnalisez le texte du bandeau qui est affiché sur la page de la liste de discussions. Il vous permet d’accueillir les invités de votre forum.",
+                "saved_message": "Vos modifications ont été enregistrées.",
+                "submit_button": "=> core.ref.okay"
             },
             "dashboard": {
                 "clear_cache_button": "Vider le cache",
@@ -99,12 +99,13 @@
                 "send_test_mail_success": "Le courriel de test a été envoyé !",
                 "send_test_mail_text": "Cela enverra un courriel qui utilisera la configuration paramétrée ci-dessus à votre adresse de courriel {email}.",
                 "smtp_heading": "Paramètres SMTP",
-                "submit_button": "=> core.ref.okay",
                 "title": "=> core.ref.email",
                 "heading": "",
+                "submit_button": "=> core.ref.okay",
                 "text": ""
             },
             "extension": {
+                "configure_scopes": "",
                 "confirm_uninstall": "La désinstallation supprimera toutes les entrées de la base de données et les ressources liées à l’extension. Êtes-vous sûr de vouloir continuer ?",
                 "disabled": "Désactivée",
                 "enable_to_see": "Activez l’extension pour afficher et modifier ses paramètres.",
@@ -121,8 +122,8 @@
                 "no_settings": "Cette extension ne détient aucun paramètre.",
                 "open_modal": "Ouvrir les paramètres",
                 "permissions_title": "Permissions",
-                "saved_message": "Vos modifications ont été enregistrées.",
-                "uninstall_button": "Désinstaller"
+                "uninstall_button": "Désinstaller",
+                "saved_message": "Vos modifications ont été enregistrées."
             },
             "header": {
                 "get_help": "Obtenir de l’aide",
@@ -201,6 +202,7 @@
                 "signup_open_button": "Autoriser"
             },
             "settings": {
+                "saved_message": "",
                 "submit_button": "=> core.ref.okay"
             },
             "upload_image": {

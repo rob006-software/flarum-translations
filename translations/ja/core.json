@@ -21,8 +21,8 @@
                 "favicon_text": "ショートカットアイコン用の画像をアップロード",
                 "logo_heading": "ロゴ",
                 "logo_text": "タイトル用の画像をアップロード",
-                "submit_button": "=> core.ref.save_changes",
-                "title": ""
+                "title": "",
+                "submit_button": "=> core.ref.save_changes"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -35,14 +35,14 @@
                 "forum_title_heading": "フォーラムのタイトル",
                 "home_page_heading": "トップページ",
                 "home_page_text": "ユーザーがあなたのフォーラムにアクセスしたときに最初に表示されるページを選択します。カスタム値を入力する場合は、フォーラムルートに関連するパスを使用します。",
-                "saved_message": "変更が保存されました。",
                 "show_language_selector_label": "言語選択を表示する",
                 "slug_driver_heading": "",
                 "slug_driver_text": "",
-                "submit_button": "=> core.ref.save_changes",
                 "title": "",
                 "welcome_banner_heading": "ウェルカムバナー",
-                "welcome_banner_text": "フォーラムにやってきたユーザーにウェルカムを表示しましょう。「全てのスレッド」のページにこの文が出力されます。"
+                "welcome_banner_text": "フォーラムにやってきたユーザーにウェルカムを表示しましょう。「全てのスレッド」のページにこの文が出力されます。",
+                "saved_message": "変更が保存されました。",
+                "submit_button": "=> core.ref.save_changes"
             },
             "dashboard": {
                 "clear_cache_button": "キャッシュをクリア",
@@ -99,9 +99,9 @@
                 "send_test_mail_success": "テストメールの送信に成功しました！",
                 "send_test_mail_text": "",
                 "smtp_heading": "SMTP 設定",
-                "submit_button": "=> core.ref.save_changes",
                 "title": "",
                 "heading": "=> core.ref.email",
+                "submit_button": "=> core.ref.save_changes",
                 "text": "メール送信用のSMTP情報を設定します。",
                 "mail_mandrill_secret_label": "Secret key",
                 "mail_ses_key_label": "Key",
@@ -111,6 +111,7 @@
                 "ses_heading": "SES 設定"
             },
             "extension": {
+                "configure_scopes": "",
                 "confirm_uninstall": "",
                 "disabled": "",
                 "enable_to_see": "",
@@ -127,8 +128,8 @@
                 "no_settings": "",
                 "open_modal": "",
                 "permissions_title": "",
-                "saved_message": "",
-                "uninstall_button": ""
+                "uninstall_button": "",
+                "saved_message": ""
             },
             "header": {
                 "get_help": "",
@@ -209,6 +210,7 @@
                 "signup_open_button": "誰でも"
             },
             "settings": {
+                "saved_message": "",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {

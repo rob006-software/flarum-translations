@@ -21,8 +21,8 @@
                 "favicon_text": "Wyślij obrazek, który będzie wyświetlany jako ikona forum.",
                 "logo_heading": "Logo",
                 "logo_text": "Wyślij obrazek, który będzie wyświetlany jako logo w miejscu nazwy forum.",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "Wygląd forum"
+                "title": "Wygląd forum",
+                "submit_button": "=> core.ref.save_changes"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -35,14 +35,14 @@
                 "forum_title_heading": "Nazwa forum",
                 "home_page_heading": "Strona domowa",
                 "home_page_text": "Wybierz stronę, którą użytkownicy zobaczą jako pierwszą, gdy odwiedzą Twoje forum.",
-                "saved_message": "Twoje zmiany zostały zapisane.",
                 "show_language_selector_label": "Pokazuj menu wyboru języka",
                 "slug_driver_heading": "Generator slugów: {model}",
                 "slug_driver_text": "Wymierz generator slugów dla tego modelu.",
-                "submit_button": "=> core.ref.save_changes",
                 "title": "Podstawowe",
                 "welcome_banner_heading": "Baner powitalny",
-                "welcome_banner_text": "Skonfiguruj tekst, który wyświetla się w banerze na stronie \"Wszystkie dyskusje\". Użyj go, aby powitać gości na swoim forum."
+                "welcome_banner_text": "Skonfiguruj tekst, który wyświetla się w banerze na stronie \"Wszystkie dyskusje\". Użyj go, aby powitać gości na swoim forum.",
+                "saved_message": "Twoje zmiany zostały zapisane.",
+                "submit_button": "=> core.ref.save_changes"
             },
             "dashboard": {
                 "clear_cache_button": "Wyczyść cache",
@@ -99,12 +99,13 @@
                 "send_test_mail_success": "Testowa wiadomość e-mail została pomyślnie wysłana!",
                 "send_test_mail_text": "Wiadomość zostanie wysłana przy użyciu powyższej konfiguracji na Twój adres e-mail, {email}.",
                 "smtp_heading": "Ustawienia SMTP",
-                "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.email",
                 "heading": "=> core.ref.email",
+                "submit_button": "=> core.ref.save_changes",
                 "text": "Skonfiguruj sterownik, ustawienia i adresy, z których Twoje forum będzie korzystać podczas wysyłania wiadomości e-mail."
             },
             "extension": {
+                "configure_scopes": "",
                 "confirm_uninstall": "Odinstalowanie usunie wszystkie wpisy w bazie i zasoby powiązane z tym rozszerzeniem. Czy jesteś pewien, że chcesz kontynuować?",
                 "disabled": "Wyłączone",
                 "enable_to_see": "Włącz to rozszerzenie aby uzyskać dostęp do jego ustawień.",
@@ -121,8 +122,8 @@
                 "no_settings": "To rozszerzenie nie posiada żadnych ustawień.",
                 "open_modal": "Otwórz ustawienia",
                 "permissions_title": "Uprawnienia",
-                "saved_message": "Twoje zmiany zostały zapisane.",
-                "uninstall_button": "Odinstaluj"
+                "uninstall_button": "Odinstaluj",
+                "saved_message": "Twoje zmiany zostały zapisane."
             },
             "header": {
                 "get_help": "Uzyskaj pomoc",
@@ -201,6 +202,7 @@
                 "signup_open_button": "Otwarta"
             },
             "settings": {
+                "saved_message": "",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
