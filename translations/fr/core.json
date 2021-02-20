@@ -36,7 +36,7 @@
                 "home_page_heading": "Page d'accueil",
                 "home_page_text": "Sélectionnez la page que les utilisateurs verront lorsqu'ils visiteront votre forum pour la première fois.",
                 "show_language_selector_label": "Afficher le sélecteur de langue",
-                "slug_driver_heading": "Pilote de l'identifiant : {model}",
+                "slug_driver_heading": "Pilote de l'identifiant : {model}",
                 "slug_driver_text": "Sélectionnez un pilote qui sera utilisé pour l'identifiant de ce modèle.",
                 "title": "Essentiels",
                 "welcome_banner_heading": "Bandeau de bienvenue",
@@ -63,13 +63,13 @@
             "edit_group": {
                 "color_label": "=> core.ref.color",
                 "delete_button": "Supprimer le groupe",
-                "delete_confirmation": "Êtes-vous sûr de vouloir supprimer ce groupe ? Les membres du groupe ne seront pas supprimés.",
+                "delete_confirmation": "Êtes-vous sûr de vouloir supprimer ce groupe ? Les membres du groupe ne seront pas supprimés.",
                 "hide_label": "Masquer sur le forum",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "name_label": "Nom",
-                "plural_placeholder": "Pluriel (tel que « modérateurs »)",
-                "singular_placeholder": "Singulier (tel que « modérateur »)",
+                "plural_placeholder": "Pluriel (tel que « modérateurs »)",
+                "singular_placeholder": "Singulier (tel que « modérateur »)",
                 "submit_button": "=> core.ref.okay",
                 "title": "Créer le groupe"
             },
@@ -106,7 +106,7 @@
             },
             "extension": {
                 "configure_scopes": "Configurer Scopes",
-                "confirm_uninstall": "La désinstallation supprimera toutes les entrées de la base de données et les ressources liées à l'extension. Êtes-vous sûr de vouloir continuer ?",
+                "confirm_uninstall": "La désinstallation supprimera toutes les entrées de la base de données et les ressources liées à l'extension. Êtes-vous sûr de vouloir continuer ?",
                 "disabled": "Désactivée",
                 "enable_to_see": "Activez l'extension pour afficher et modifier ses paramètres.",
                 "enabled": "Activée",
@@ -244,21 +244,21 @@
             },
             "composer_discussion": {
                 "body_placeholder": "Rédigez un message…",
-                "discard_confirmation": "Vous n'avez pas publié votre discussion. Souhaitez-vous l'abandonner ?",
+                "discard_confirmation": "Vous n'avez pas publié votre discussion. Souhaitez-vous l'abandonner ?",
                 "submit_button": "Publier la discussion",
                 "title": "=> core.ref.start_a_discussion",
                 "title_placeholder": "Titre de la discussion"
             },
             "composer_edit": {
-                "discard_confirmation": "Vous n'avez pas enregistré vos modifications. Souhaitez-vous les abandonner ?",
-                "edited_message": "Votre modification a été appliquée.",
+                "discard_confirmation": "Vous n'avez pas enregistré vos modifications. Souhaitez-vous les abandonner ?",
+                "edited_message": "Vos modifications ont été appliquées.",
                 "post_link": "Message #{number} de {discussion}",
                 "submit_button": "=> core.ref.okay",
                 "view_button": "=> core.ref.view"
             },
             "composer_reply": {
                 "body_placeholder": "=> core.ref.write_a_reply",
-                "discard_confirmation": "Vous n'avez pas publié votre réponse. Souhaitez-vous l'abandonner ?",
+                "discard_confirmation": "Vous n'avez pas publié votre réponse. Souhaitez-vous l'abandonner ?",
                 "posted_message": "Votre réponse a été publiée.",
                 "submit_button": "Publier la réponse",
                 "view_button": "=> core.ref.view"
@@ -267,7 +267,7 @@
                 "cannot_reply_button": "Impossible de répondre",
                 "cannot_reply_text": "Vous ne pouvez pas répondre à cette discussion.",
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "Êtes-vous sûr de vouloir supprimer cette discussion ?",
+                "delete_confirmation": "Êtes-vous sûr de vouloir supprimer cette discussion ?",
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "log_in_to_reply_button": "Se connecter pour répondre",
                 "rename_button": "=> core.ref.rename",
@@ -316,7 +316,7 @@
             "index": {
                 "all_discussions_link": "=> core.ref.all_discussions",
                 "cannot_start_discussion_button": "Impossible de démarrer une discussion",
-                "mark_all_as_read_confirmation": "Êtes-vous sûr de vouloir marquer toutes les notifications comme lues ?",
+                "mark_all_as_read_confirmation": "Êtes-vous sûr de vouloir marquer toutes les notifications comme lues ?",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
                 "refresh_tooltip": "Actualiser",
@@ -330,11 +330,11 @@
                 "top_button": "Popularité"
             },
             "log_in": {
-                "forgot_password_link": "Mot de passe oublié ?",
+                "forgot_password_link": "Mot de passe oublié ?",
                 "invalid_login_message": "Vos identifiants sont incorrects.",
                 "password_placeholder": "=> core.ref.password",
                 "remember_me_label": "Se souvenir de moi",
-                "sign_up_text": "Pas encore inscrit ? <a>Inscription</a>",
+                "sign_up_text": "Pas encore inscrit ? <a>Inscription</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
                 "username_or_email_placeholder": "Nom d'utilisateur ou adresse de courriel"
@@ -367,7 +367,7 @@
                 "viewing_text": "{index} sur {count} message|{index} sur {count} messages"
             },
             "post_stream": {
-                "discussion_renamed_old_tooltip": "L'ancien titre était : « {old} »",
+                "discussion_renamed_old_tooltip": "L'ancien titre était : « {old} »",
                 "discussion_renamed_text": "{username} a renommé le titre en {new}.",
                 "load_more_button": "=> core.ref.load_more",
                 "reply_placeholder": "=> core.ref.write_a_reply",
@@ -378,7 +378,7 @@
                 "title": "Renommer la discussion"
             },
             "search": {
-                "all_discussions_button": "Rechercher « {query} » dans toutes les discussions",
+                "all_discussions_button": "Rechercher « {query} » dans toutes les discussions",
                 "discussions_heading": "=> core.ref.discussions",
                 "users_heading": "=> core.ref.users"
             },
@@ -397,7 +397,7 @@
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",
                 "email_placeholder": "=> core.ref.email",
-                "log_in_text": "Déjà inscrit ? <a>Connexion</a>",
+                "log_in_text": "Déjà inscrit ? <a>Connexion</a>",
                 "password_placeholder": "=> core.ref.password",
                 "submit_button": "=> core.ref.sign_up",
                 "title": "=> core.ref.sign_up",
@@ -420,7 +420,7 @@
             "user_controls": {
                 "button": "Commandes",
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "Êtes-vous sûr de vouloir supprimer cet utilisateur ? Veuillez noter que ses messages seront conservés.",
+                "delete_confirmation": "Êtes-vous sûr de vouloir supprimer cet utilisateur ? Veuillez noter que ses messages seront conservés.",
                 "delete_error_message": "La suppression de l'utilisateur <i>{username} ({email})</i> a échoué",
                 "delete_success_message": "L'utilisateur <i>{username} ({email})</i> a été supprimé",
                 "edit_button": "=> core.ref.edit"
@@ -438,7 +438,7 @@
             "error": {
                 "dependent_extensions_message": "Impossible de désactiver {extension}. Veuillez en premier lieu désactiver les extensions dépendantes suivantes : {extensions}",
                 "generic_message": "Oups ! Quelque chose s'est mal passé. Veuillez actualiser la page puis réessayer.",
-                "missing_dependencies_message": "Impossible d'activer {extension}. Veuillez en premier lieu activer les dépendances suivantes : {extensions}",
+                "missing_dependencies_message": "Impossible d'activer {extension}. Veuillez en premier lieu activer les dépendances suivantes : {extensions}",
                 "not_found_message": "La ressource que vous souhaitez atteindre est introuvable.",
                 "permission_denied_message": "Vous n'avez pas la permission de faire cela.",
                 "rate_limit_exceeded_message": "Vous êtes un peu trop rapide. Veuillez réessayer dans quelques secondes."
@@ -483,7 +483,7 @@
             },
             "log_out": {
                 "log_out_button": "=> core.ref.log_out",
-                "log_out_confirmation": "Êtes-vous sûr de vouloir vous déconnecter de {forum} ?",
+                "log_out_confirmation": "Êtes-vous sûr de vouloir vous déconnecter de {forum} ?",
                 "title": "=> core.ref.log_out"
             },
             "reset_password": {
@@ -499,19 +499,19 @@
         "email": {
             "activate_account": {
                 "subject": "Activation de votre compte",
-                "body": "Bonjour {username} !\n\nQuelqu'un (en espérant que cela soit vous !) s'est inscrit sur {forum} avec cette adresse de courriel.\n\nSi vous êtes bien à l'origine de cette action, cliquez sur le lien suivant pour que votre compte soit activé :\n{url}\n\nSi vous n'êtes pas à l'origine de cette action, veuillez ignorer ce courriel.\n"
+                "body": "Bonjour {username} !\n\nQuelqu'un (en espérant que cela soit vous !) s'est inscrit sur {forum} avec cette adresse de courriel.\n\nSi vous êtes bien à l'origine de cette action, cliquez sur le lien suivant pour que votre compte soit activé :\n{url}\n\nSi vous n'êtes pas à l'origine de cette action, veuillez ignorer ce courriel.\n"
             },
             "confirm_email": {
                 "subject": "Confirmez votre nouvelle adresse de courriel",
-                "body": "Bonjour {username} !\n\nQuelqu'un (en espérant que cela soit vous !) a demandé à modifier l'adresse de courriel associée à votre compte sur {forum} par celle-ci.\n\nSi vous êtes bien à l'origine de cette action, cliquez sur le lien suivant pour confirmer votre nouvelle adresse de courriel :\n{url}\n\nSi vous ne souhaitez pas modifier votre adresse de courriel, veuillez ignorer ce courriel.\n"
+                "body": "Bonjour {username} !\n\nQuelqu'un (en espérant que cela soit vous !) a demandé à modifier l'adresse de courriel associée à votre compte sur {forum} par celle-ci.\n\nSi vous êtes bien à l'origine de cette action, cliquez sur le lien suivant pour confirmer votre nouvelle adresse de courriel :\n{url}\n\nSi vous ne souhaitez pas modifier votre adresse de courriel, veuillez ignorer ce courriel.\n"
             },
             "reset_password": {
                 "subject": "Réinitialisation de votre mot de passe",
-                "body": "Bonjour {username} !\n\nQuelqu'un (en espérant que cela soit vous !) a demandé à réinitialiser le mot de passe associé à votre compte sur {forum}.\n\nSi vous êtes bien à l'origine de cette action, cliquez sur le lien suivant pour réinitialiser votre mot de passe actuel :\n{url}\n\nSi vous ne souhaitez pas réinitialiser votre mot de passe, veuillez ignorer ce courriel.\n"
+                "body": "Bonjour {username} !\n\nQuelqu'un (en espérant que cela soit vous !) a demandé à réinitialiser le mot de passe associé à votre compte sur {forum}.\n\nSi vous êtes bien à l'origine de cette action, cliquez sur le lien suivant pour réinitialiser votre mot de passe actuel :\n{url}\n\nSi vous ne souhaitez pas réinitialiser votre mot de passe, veuillez ignorer ce courriel.\n"
             },
             "send_test": {
                 "subject": "Courriel de test de Flarum",
-                "body": "Bonjour {username} !\n\nCeci est un courriel de test qui confirme que la configuration de la messagerie de Flarum fonctionne correctement.\n\nSi vous êtes bien à l'origine de cette action, ce courriel confirme que votre configuration est fonctionnelle !\n\nSi vous n'êtes pas à l'origine de cette action, veuillez ignorer ce courriel.\n"
+                "body": "Bonjour {username} !\n\nCeci est un courriel de test qui confirme que la configuration de la messagerie de Flarum fonctionne correctement.\n\nSi vous êtes bien à l'origine de cette action, ce courriel confirme que votre configuration est fonctionnelle !\n\nSi vous n'êtes pas à l'origine de cette action, veuillez ignorer ce courriel.\n"
             }
         },
         "ref": {
