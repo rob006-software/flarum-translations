@@ -516,6 +516,9 @@ return [
 	'kyrne-shout' => [
 		'tag' => 'https://raw.githubusercontent.com/KyrneDev/Shout-public/0.3.2/resources/locale/en.yml',
 	],
+	'kyrne-signature' => [
+		'tag' => 'https://raw.githubusercontent.com/KyrneDev/signature/0.1.0/locale/en.yml',
+	],
 	'kyrne-websocket' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/kyrne-websocket.yml',
 	],
