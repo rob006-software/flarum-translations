@@ -459,9 +459,6 @@ return [
 	'migratetoflarum-fake-data' => [
 		'tag' => 'https://raw.githubusercontent.com/migratetoflarum/fake-data/0.3.4/resources/locale/en.yml',
 	],
-	'migratetoflarum-vbulletin-redirects' => [
-		'tag' => 'https://raw.githubusercontent.com/migratetoflarum/vbulletin-redirects/0.2.0/locale/en.yml',
-	],
 	'minr-auth-qq' => [
 		'tag' => 'https://raw.githubusercontent.com/minr/flarum-ext-auth-qq/v0.1.6/locale/en.yml',
 	],
