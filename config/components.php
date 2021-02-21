@@ -393,9 +393,6 @@ return [
 	'ianm-synopsis' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/synopsis/0.1.2/resources/locale/en.yml',
 	],
-	'irony-code-insert' => [
-		'tag' => 'https://raw.githubusercontent.com/892768447/flarum-ext-code-insert/0.0.1/resources/locale/en.yml',
-	],
 	'irony-google-search' => [
 		'tag' => 'https://raw.githubusercontent.com/892768447/flarum-ext-google-search/0.0.2/resources/locale/en.yml',
 	],
