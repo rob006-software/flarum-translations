@@ -138,9 +138,6 @@ return [
 	'dem13n-topic-starter-label' => [
 		'tag' => 'https://raw.githubusercontent.com/Dem13n/topic-starter-label/0.1.3/locale/en.yml',
 	],
-	'dexif-telegram' => [
-		'tag' => 'https://raw.githubusercontent.com/dexif/telegram/0.2.0/resources/locale/en.yml',
-	],
 	'dotronglong-hide-me' => [
 		'tag' => 'https://raw.githubusercontent.com/dotronglong/flarum-hide-me/v0.0.4/locale/en.yml',
 	],
