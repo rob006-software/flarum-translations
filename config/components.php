@@ -492,9 +492,6 @@ return [
 	'saleksin-auth-google' => [
 		'tag' => 'https://raw.githubusercontent.com/saleksin/flarum-auth-google/v0.1.0-beta.14.0.0/locale/en.yml',
 	],
-	'shriker-pronouns' => [
-		'tag' => 'https://raw.githubusercontent.com/shriker/flarum-pronouns/1.1.2/resources/locale/en.yml',
-	],
 	'simonxeko-follow-users' => [
 		'tag' => 'https://raw.githubusercontent.com/simonxeko/follow-users/0.3.5/resources/locale/en.yml',
 	],
