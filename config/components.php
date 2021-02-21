@@ -600,9 +600,6 @@ return [
 	'tank-perspective' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-tank/flarum-perspective/0.1.12/resources/locale/en.yml',
 	],
-	'the-turk-extended-appearance' => [
-		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-extended-appearance/0.1.1/locale/en.yml',
-	],
 	'the-turk-fancybox' => [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-ext-fancybox/0.2.0-beta.4/locale/en.yml',
 	],
