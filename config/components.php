@@ -129,9 +129,6 @@ return [
 	'datitisev-maintenance' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/datitisev-maintenance.yml',
 	],
-	'dem13n-auth-odnoklassniki' => [
-		'tag' => 'https://raw.githubusercontent.com/Dem13n/auth-odnoklassniki/0.1.1/resources/locale/en.yml',
-	],
 	'dem13n-auth-vkontakte' => [
 		'tag' => 'https://raw.githubusercontent.com/Dem13n/auth-vkontakte/0.1.1/resources/locale/en.yml',
 	],
