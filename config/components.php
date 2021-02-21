@@ -459,9 +459,6 @@ return [
 	'migratetoflarum-fake-data' => [
 		'tag' => 'https://raw.githubusercontent.com/migratetoflarum/fake-data/0.3.4/resources/locale/en.yml',
 	],
-	'minr-auth-weibo' => [
-		'tag' => 'https://raw.githubusercontent.com/minr/auth-weibo/v0.1.8/locale/en.yml',
-	],
 	'nearata-copy-code-to-clipboard' => [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-copy-code-to-clipboard/v1.2.0/resources/locale/en.yml',
 	],
