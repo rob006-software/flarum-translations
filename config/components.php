@@ -549,9 +549,6 @@ return [
 	'xelson-chat' => [
 		'tag' => 'https://raw.githubusercontent.com/Xelson/flarum-ext-chat/v1.0.0-beta.1/resources/locale/en.yaml',
 	],
-	'zhishiq-queue' => [
-		'tag' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumQueue/v0.1.0-beta.8.1/locale/en.yaml',
-	],
 	'zhishiq-redis' => [
 		'tag' => 'https://raw.githubusercontent.com/ZhiShiQ/FlarumRedis/v0.1.0-beta.8.1/locale/en.yaml',
 	],
