@@ -81,9 +81,6 @@ return [
 	'clarkwinkelmann-catch-the-fish' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/catch-the-fish/0.1.2/resources/locale/en.yml',
 	],
-	'clarkwinkelmann-colorful-borders' => [
-		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-colorful-borders/0.1.0/resources/locale/en.yml',
-	],
 	'clarkwinkelmann-create-user-modal' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-create-user-modal/1.2.0/resources/locale/en.yml',
 	],
