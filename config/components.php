@@ -549,8 +549,5 @@ return [
 	'xelson-chat' => [
 		'tag' => 'https://raw.githubusercontent.com/Xelson/flarum-ext-chat/v1.0.0-beta.1/resources/locale/en.yaml',
 	],
-	'ziymed-backtowebsite' => [
-		'tag' => 'https://raw.githubusercontent.com/ziymed/BackToWebsite/0.1.0/locale/en.yml',
-	],
 	/* extensions list end */
 ];
