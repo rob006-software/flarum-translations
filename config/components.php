@@ -417,9 +417,6 @@ return [
 	'kilowhat-wordpress' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/kilowhat-wordpress.yml',
 	],
-	'kvothe-keyboard-shortcuts' => [
-		'tag' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-keyboard-shortcuts/v0.1.0/resources/locale/en.yml',
-	],
 	'kvothe-online-users' => [
 		'tag' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-online-users/0.4.0/resources/locale/en.yml',
 	],
