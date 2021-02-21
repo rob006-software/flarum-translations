@@ -417,9 +417,6 @@ return [
 	'kilowhat-wordpress' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/kilowhat-wordpress.yml',
 	],
-	'kvothe-online-users' => [
-		'tag' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-online-users/0.4.0/resources/locale/en.yml',
-	],
 	'kvothe-reply-to-see' => [
 		'tag' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-reply2see/v0.1.2/resources/locale/en.yml',
 	],
