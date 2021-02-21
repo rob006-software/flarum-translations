@@ -396,9 +396,6 @@ return [
 	'irony-login2see' => [
 		'tag' => 'https://raw.githubusercontent.com/892768447/flarum-ext-login2see/0.0.1/resources/locale/en.yml',
 	],
-	'irony-webhook' => [
-		'tag' => 'https://raw.githubusercontent.com/892768447/flarum-ext-webhook/0.0.2/resources/locale/en.yml',
-	],
 	'itnt-uitab' => [
 		'tag' => 'https://raw.githubusercontent.com/Littlegolden/flarum-uitab/0.3.0/resources/locale/en.yml',
 	],
