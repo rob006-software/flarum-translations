@@ -603,9 +603,6 @@ return [
 	'the-turk-fancybox' => [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-ext-fancybox/0.2.0-beta.4/locale/en.yml',
 	],
-	'the-turk-quiet-edits' => [
-		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-quiet-edits/0.1.2/locale/en.yml',
-	],
 	'the-turk-regrole' => [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-regrole/1.0.0/locale/en.yml',
 	],
