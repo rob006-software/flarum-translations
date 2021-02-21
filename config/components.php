@@ -411,9 +411,6 @@ return [
 	'glowingblue-password-strength' => [
 		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-password-strength/2.0.1/locale/en.yml',
 	],
-	'hiqstd-close' => [
-		'tag' => 'https://raw.githubusercontent.com/HiQStd/flarum-ext-close/v1.0.0/resources/locale/en.yml',
-	],
 	'ianm-follow-users' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/follow-users/0.1.2/resources/locale/en.yml',
 	],
