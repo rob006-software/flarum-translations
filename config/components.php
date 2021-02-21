@@ -474,9 +474,6 @@ return [
 	'nearata-tags-color-generator' => [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-tags-color-generator/v1.2.0/resources/locale/en.yml',
 	],
-	'nomiscz-auth-linkedin' => [
-		'tag' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-linkedin/v0.1.2/resources/locale/en.yml',
-	],
 	'nomiscz-auth-steam' => [
 		'tag' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-steam/v0.2.1/resources/locale/en.yml',
 	],
