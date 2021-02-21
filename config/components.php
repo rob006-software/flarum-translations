@@ -162,9 +162,6 @@ return [
 	'fajuu-contactbutton' => [
 		'tag' => 'https://raw.githubusercontent.com/Fajuu/ContactButton/v3.0/locale/en.yml',
 	],
-	'fajuu-icons' => [
-		'tag' => 'https://raw.githubusercontent.com/Fajuu/flarum-icons/0.1.2/resources/locale/en.yml',
-	],
 	'flagrow-fonts' => [
 		'tag' => 'https://raw.githubusercontent.com/flagrow/fonts/0.2.0/resources/locale/en.yml',
 	],
