@@ -138,9 +138,6 @@ return [
 	'dem13n-topic-starter-label' => [
 		'tag' => 'https://raw.githubusercontent.com/Dem13n/topic-starter-label/0.1.3/locale/en.yml',
 	],
-	'estevao-simoes-microsoft-auth' => [
-		'tag' => 'https://raw.githubusercontent.com/estevao-simoes/flarum-microsoft-auth/v0.1.1-beta/resources/locale/en.yml',
-	],
 	'fajuu-contactbutton' => [
 		'tag' => 'https://raw.githubusercontent.com/Fajuu/ContactButton/v3.0/locale/en.yml',
 	],
