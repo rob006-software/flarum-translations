@@ -420,9 +420,6 @@ return [
 	'kvothe-reply-to-see' => [
 		'tag' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-reply2see/v0.1.2/resources/locale/en.yml',
 	],
-	'kvothe-spoiler-bbcode' => [
-		'tag' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-spoiler-bbcode/0.1.0/resources/locale/en.yml',
-	],
 	'kyrne-aegis' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/kyrne-aegis.yml',
 	],
