@@ -546,9 +546,6 @@ return [
 	'v17development-support' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/v17development-support.yml',
 	],
-	'wvbforum-post-license' => [
-		'tag' => 'https://raw.githubusercontent.com/JC-ProPlus/flarum-ext-post-license/0.1.0/resources/locale/en.yml',
-	],
 	'xelson-chat' => [
 		'tag' => 'https://raw.githubusercontent.com/Xelson/flarum-ext-chat/v1.0.0-beta.1/resources/locale/en.yaml',
 	],
