@@ -1,6 +1,9 @@
 {
     "xelson-chat": {
         "forum": {
+            "index": {
+                "chat_link": "Chat"
+            },
             "toolbar": {
                 "title": "Chat",
                 "enable_sounds": "Enable sounds",
@@ -53,7 +56,7 @@
                 "list": {
                     "pin": "Pin panel",
                     "unpin": "Unpin panel",
-                    "placeholder": "Search",
+                    "placeholder": "Filter Chats",
                     "preview": {
                         "empty": "No messages"
                     },
@@ -126,7 +129,7 @@
                             "invited_kicked": "{editorname} invited {invitednames} and kicked {kickednames}"
                         },
                         "self": {
-                            "leaved": "{username} leaved the chat",
+                            "leaved": "{username} left the chat",
                             "entered": "{username} entered the chat"
                         }
                     }
