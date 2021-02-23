@@ -143,6 +143,8 @@
                 "return_to_overview": "返回工单概览",
                 "ticket_overview": "工单概览",
                 "opened_on": "打开于",
+                "ticket_activity": "",
+                "reminders_sent": "",
                 "status": {
                     "new": {
                         "title": "新建",
@@ -161,7 +163,8 @@
                         "title": "已关闭",
                         "description": "此工单已被关闭。",
                         "is_closed": "此工单已关闭，回复工单以重新打开。当问题尚未解决时请重新打开工单，若有新问题，请创建新工单。",
-                        "close_after_posting": "回复并关闭工单"
+                        "close_after_posting": "回复并关闭工单",
+                        "is_auto_closed": ""
                     },
                     "on_hold": {
                         "title": "保留",

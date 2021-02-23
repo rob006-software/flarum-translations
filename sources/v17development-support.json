@@ -138,6 +138,8 @@
                 "return_to_overview": "Return to ticket overview",
                 "ticket_overview": "Ticket overview",
                 "opened_on": "Opened on",
+                "ticket_activity": "By {username}, last activity {date}",
+                "reminders_sent": "One reminder sent|{count} reminders sent",
                 "status": {
                     "new": {
                         "title": "New",
@@ -156,7 +158,8 @@
                         "title": "Closed",
                         "description": "This ticket has been closed.",
                         "is_closed": "This ticket is closed, when you reply it will reopen. We recommend only to reopen a ticket when the issue hasn't been solved. If it is a new issue, please open a new ticket.",
-                        "close_after_posting": "Close ticket after posting"
+                        "close_after_posting": "Close ticket after posting",
+                        "is_auto_closed": "This ticket is closed due to inactivity."
                     },
                     "on_hold": {
                         "title": "On hold",
@@ -251,7 +254,7 @@
             },
             "ticket_pending_reply_closed": {
                 "subject": "Ticket #{ticket_id} has been closed due to inactivity",
-                "body": "Dear {recipient_display_name},\n\nRecently {replier_display_name} replied to your ticket #{ticket_id}. Unfortunately we did not get a reply from you. Therefore we have closed your ticket.\n\nIf you still wish to reply, the URL of your ticket is:\n{url}"
+                "body": "Dear {recipient_display_name},\n\nRecently {replier_display_name} replied to your ticket #{ticket_id}. Unfortunately we did not get a reply from you. Your ticket has been automatically closed due to inactivity.\n\nIf you still wish to reply, the URL of your ticket is:\n{url}"
             }
         }
     }
