@@ -1,7 +1,7 @@
 {
     "askvortsov-trust-levels": {
         "admin": {
-            "range_drivers": {
+            "metric_drivers": {
                 "discussions_entered": "Discussions Entered",
                 "discussions_participated": "Discussions Participated",
                 "discussions_started": "Discussions Started",
@@ -26,7 +26,7 @@
                 "list_heading": "Trust Levels",
                 "create_trust_level_button": "Create New Trust Level",
                 "instructions_header": "Instructions",
-                "instructions_text": "<li>Trust levels allow you to automatically manage group membership based on users' activity.</li>\n<li>Each trust level defines criteria that must be met (e.g. discussions started, posts made, etc), and a group.</li>\n<li>Users are automatically added to groups for all the trust levels that they qualify for when they log in.</li>\n<li>Since these groups are managed automatically, we recommend maintaining a separate set of groups for trust levels.</li>\n<li>If you delete a trust level, you should also delete the associated group; otherwise, users in that trust level will remain in that group.</li>\n<li>To prevent errors, you cannot update a trust level's group after it has been created.</li>\n<li>Any ranges left disabled will not be counted. If all ranges are disabled for a given trust level, ALL users will receive that level.</li>\n<li>If a group is managed by multiple trust levels, the user will be added to the group as long as they are in at least one of the trust levels.</li>\n"
+                "instructions_text": "<li>Trust levels allow you to automatically manage group membership based on users' activity.</li>\n<li>Each trust level defines criteria that must be met (e.g. discussions started, posts made, etc), and a group.</li>\n<li>Users are automatically added to groups for all the trust levels that they qualify for when they log in.</li>\n<li>Since these groups are managed automatically, we recommend maintaining a separate set of groups for trust levels.</li>\n<li>If you delete a trust level, you should also delete the associated group; otherwise, users in that trust level will remain in that group.</li>\n<li>To prevent errors, you cannot update a trust level's group after it has been created.</li>\n<li>Any metrics left disabled will not be counted. If all metrics are disabled for a given trust level, ALL users will receive that level.</li>\n<li>If a group is managed by multiple trust levels, the user will be added to the group as long as they are in at least one of the trust levels.</li>\n"
             }
         },
         "forum": {
