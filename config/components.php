@@ -547,7 +547,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/v17development-support.yml',
 	],
 	'xelson-chat' => [
-		'tag' => 'https://raw.githubusercontent.com/Xelson/flarum-ext-chat/v1.0.0-beta.1/resources/locale/en.yaml',
+		'tag' => 'https://raw.githubusercontent.com/Xelson/flarum-ext-chat/v1.0.0-beta.2/resources/locale/en.yaml',
 	],
 	/* extensions list end */
 ];
