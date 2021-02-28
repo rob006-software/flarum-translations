@@ -1,24 +1,24 @@
 {
     "clarkwinkelmann-popular-discussion-badge": {
         "forum": {
-            "badge_label": ""
+            "badge_label": "Popularne"
         },
         "admin": {
             "settings": {
-                "mode": "",
-                "mode_help": "",
+                "mode": "Tryb działania",
+                "mode_help": "Tryb frontendowy jest wydajnym rozwiązaniem, które nie wykorzystuje bazy danych. Tryb harmonogramu wymaga skonfigurowanego crona i pozwala ustawiać zakresy czasu w warunku.\n",
                 "mode_options": {
-                    "frontend": "",
-                    "scheduler": ""
+                    "frontend": "Frontendowy",
+                    "scheduler": "Harmonogram (cron)"
                 },
-                "scheduler_frequency": "",
-                "scheduler_frequency_help": "",
+                "scheduler_frequency": "Częstotliwość dla trybu harmonogramu",
+                "scheduler_frequency_help": "Jak często statystyki popularności powinny być aktualizowane w trybie harmonogramu (w trybie frontendowym status jest natychmiastowo aktualizowany).\n",
                 "scheduler_frequency_options": {
-                    "everyFiveMinutes": "",
-                    "everyTenMinutes": "",
-                    "everyFifteenMinutes": "",
-                    "everyThirtyMinutes": "",
-                    "hourly": ""
+                    "everyFiveMinutes": "Co 5 minut",
+                    "everyTenMinutes": "Co 10 minut",
+                    "everyFifteenMinutes": "Co 15 minut",
+                    "everyThirtyMinutes": "Co 30 minut",
+                    "hourly": "Raz na godzinę"
                 },
                 "conditions": "",
                 "conditions_help": "",
