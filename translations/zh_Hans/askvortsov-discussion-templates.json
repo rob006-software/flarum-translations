@@ -2,8 +2,8 @@
     "askvortsov-discussion-templates": {
         "admin": {
             "permissions": {
-                "manage_own_discussion_reply_templates": "",
-                "manage_all_reply_templates": ""
+                "manage_own_discussion_reply_templates": "管理标签旗下主题贴的回复模板",
+                "manage_all_reply_templates": "管理所有主题帖的回复模板"
             },
             "tags": {
                 "tag_template_heading": "新主题模板",
@@ -18,11 +18,11 @@
         },
         "forum": {
             "discussion_controls": {
-                "reply_template_button": ""
+                "reply_template_button": "编辑回复模板"
             },
             "reply_template": {
-                "title": "",
-                "submit_button": ""
+                "title": "编辑回复模板",
+                "submit_button": "保存回复模板"
             }
         }
     }
