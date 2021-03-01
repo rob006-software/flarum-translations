@@ -143,8 +143,8 @@
                 "return_to_overview": "返回工单概览",
                 "ticket_overview": "工单概览",
                 "opened_on": "打开于",
-                "ticket_activity": "",
-                "reminders_sent": "",
+                "ticket_activity": "由 {username} 创建 · 最后更新 {date}",
+                "reminders_sent": "一条提醒已发送|{count} 条提醒已发送",
                 "status": {
                     "new": {
                         "title": "新建",
@@ -164,7 +164,7 @@
                         "description": "此工单已被关闭。",
                         "is_closed": "此工单已关闭，回复工单以重新打开。当问题尚未解决时请重新打开工单，若有新问题，请创建新工单。",
                         "close_after_posting": "回复并关闭工单",
-                        "is_auto_closed": ""
+                        "is_auto_closed": "由于长时间未得到您的回复，此工单已关闭。"
                     },
                     "on_hold": {
                         "title": "保留",
@@ -259,7 +259,7 @@
             },
             "ticket_pending_reply_closed": {
                 "subject": "工单 #{ticket_id} 由于没有活动现已关闭",
-                "body": "尊敬的用户 {recipient_display_name}，\n\n近期 {replier_display_name} 回复了您的工单 #{ticket_id}。很遗憾我们没有收到您的回复。因此我们已经关闭了您的工单。\n\n如果您还需回复，请点击下方工单链接：\n{url}"
+                "body": "尊敬的用户 {recipient_display_name}，\n\n近期 {replier_display_name} 回复了您的工单 #{ticket_id}。由于长时间未得到您的回复，您的工单已被自动关闭。\n\n如您的问题没有解决，您可以再次回帖：\n{url}"
             }
         }
     }
