@@ -57,9 +57,9 @@
                 "modal": {
                     "title": "Webhook 设置",
                     "description": "您可以在这里修改出发 webhook 的事件。",
-                    "use_plain_text_label": "",
-                    "max_post_content_length_label": "",
-                    "max_post_content_length_help": "",
+                    "use_plain_text_label": "减少帖子内容的格式化数量",
+                    "max_post_content_length_label": "最大贴子内容长度",
+                    "max_post_content_length_help": "设置所有与帖子相关事件的最大帖子内容长度。0 或不填表示无限制。",
                     "extra_text_label": "附加文本",
                     "extra_text_help": "附加文本到发送的 Webhook 中",
                     "group_label": "组群",
