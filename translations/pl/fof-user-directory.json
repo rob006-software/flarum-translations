@@ -2,9 +2,9 @@
     "fof-user-directory": {
         "forum": {
             "search": {
-                "users_heading": "Przeszukaj wszystkich użytkowników dla \"{query}\"",
+                "users_heading": "Wyszukaj użytkowników dla \"{query}\"",
                 "field": {
-                    "placeholder": ""
+                    "placeholder": "Wyszukaj użytkowników"
                 }
             },
             "page": {
@@ -12,7 +12,7 @@
                 "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
                 "load_more_button": "=> core.ref.load_more",
                 "empty_text": "Nie udało się znaleźć żadnego użytkownika pasującego do kryteriów wyszukiwania.",
-                "filter_button": ""
+                "filter_button": "Filtruj po grupie"
             }
         },
         "admin": {
