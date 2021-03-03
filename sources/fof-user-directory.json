@@ -2,13 +2,17 @@
     "fof-user-directory": {
         "forum": {
             "search": {
-                "users_heading": "Search all users for \"{query}\""
+                "users_heading": "Search all users for \"{query}\"",
+                "field": {
+                    "placeholder": "Search all users"
+                }
             },
             "page": {
                 "nav": "User Directory",
                 "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
                 "load_more_button": "=> core.ref.load_more",
-                "empty_text": "We could not find any user matching your search."
+                "empty_text": "We could not find any user matching your search.",
+                "filter_button": "Filter Groups"
             }
         },
         "admin": {
