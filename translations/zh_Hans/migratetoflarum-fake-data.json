@@ -2,13 +2,13 @@
     "migratetoflarum-fake-data": {
         "admin": {
             "generator": {
-                "title": "生成虚假数据",
                 "bulk-mode": "=> migratetoflarum-fake-data.ref.bulk-mode",
                 "bulk-mode-description": "=> migratetoflarum-fake-data.ref.bulk-mode-description",
                 "user-count": "修改用户数",
                 "discussion-count": "修改主题数",
                 "post-count": "修改回复数",
-                "send": "生成数据"
+                "send": "生成数据",
+                "title": "生成虚假数据"
             }
         },
         "forum": {

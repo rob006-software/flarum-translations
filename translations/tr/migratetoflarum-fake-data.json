@@ -2,13 +2,13 @@
     "migratetoflarum-fake-data": {
         "admin": {
             "generator": {
-                "title": "Sahte veriler oluşturun",
                 "bulk-mode": "=> migratetoflarum-fake-data.ref.bulk-mode",
                 "bulk-mode-description": "=> migratetoflarum-fake-data.ref.bulk-mode-description",
                 "user-count": "=> migratetoflarum-fake-data.ref.user-count",
                 "discussion-count": "=> migratetoflarum-fake-data.ref.discussion-count",
                 "post-count": "=> migratetoflarum-fake-data.ref.post-count",
-                "send": "=> migratetoflarum-fake-data.ref.send"
+                "send": "=> migratetoflarum-fake-data.ref.send",
+                "title": "Sahte veriler oluşturun"
             }
         },
         "forum": {
