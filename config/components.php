@@ -210,6 +210,9 @@ return [
 	'flarumite-simple-discussion-views' => [
 		'tag' => 'https://raw.githubusercontent.com/flarumite/simple-discussion-views/0.2.3/resources/locale/en.yml',
 	],
+	'flarumite-simple-spoilers' => [
+		'tag' => 'https://raw.githubusercontent.com/flarumite/simple-spoilers/0.1.2/resources/locale/en.yml',
+	],
 	'fof-amazon-affiliation' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/amazon-affiliation/0.4.0/resources/locale/en.yml',
 	],
