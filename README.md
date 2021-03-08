@@ -220,6 +220,7 @@ If you're maintaining language pack or want to add it to the collective, open an
 | [Websocket by Kyrne](https://extiverse.com/extension/kyrne/websocket) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/kyrne-websocket/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/kyrne-websocket/) |
 | [Who read by Clarkwinkelmann](https://github.com/clarkwinkelmann/flarum-ext-who-read) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/clarkwinkelmann-who-read/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-who-read/) |
 | [Wordpress Integration by Kilowhat](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/kilowhat-wordpress/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/kilowhat-wordpress/) |
+| [davwheat Custom Side Nav Links by Davwheat](https://github.com/davwheat/flarum-ext-custom-sidenav-links) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/davwheat-custom-sidenav-links/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/davwheat-custom-sidenav-links/) |
 | [highlight.js by Therealsujitk](https://github.com/therealsujitk/flarum-ext-hljs) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/therealsujitk-hljs/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/therealsujitk-hljs/) |
 
 <!-- various-extensions-list-stop -->
