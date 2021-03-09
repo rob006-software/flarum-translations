@@ -1,6 +1,7 @@
 {
     "xelson-chat": {
         "forum": {
+            "pusher_not_found": "Pusher or Websockets is required for chat to update in real time.",
             "index": {
                 "chat_link": "Chat"
             },
@@ -17,8 +18,10 @@
                 }
             },
             "chat": {
-                "welcome": "Please select a chat on the left for the conversation",
-                "welcome.header": "Welcome to Neon Chat!",
+                "welcome": {
+                    "header": "Welcome to Neon Chat!",
+                    "subheader": "Please select a chat on the left for the conversation"
+                },
                 "moder": "Moderator",
                 "kick": "Kick",
                 "leave": "Leave",
@@ -29,14 +32,21 @@
                         "lost": "You just lost your Moderator rights in the chat {chatname}."
                     },
                     "form": {
-                        "title": "Chat name",
-                        "title.validator": "At least 1 symbol",
-                        "color": "Color",
-                        "color.validator": "In hex format",
-                        "icon": "=> core.ref.icon",
-                        "icon.validator": "=> core.ref.icon_text",
-                        "users": "Selected users",
-                        "users.edit": "Select and edit users",
+                        "title": {
+                            "label": "Chat name",
+                            "validator": "At least 1 symbol"
+                        },
+                        "color": {
+                            "label": "Color",
+                            "validator": "In hex format"
+                        },
+                        "icon": {
+                            "label": "=> core.ref.icon",
+                            "validator": "=> core.ref.icon_text"
+                        },
+                        "users": {
+                            "edit": "Select and edit users"
+                        },
                         "leave": "Leave the chat",
                         "return": "Enter the chat",
                         "delete": {
@@ -72,14 +82,19 @@
                             "exists": "You can't create another PM with this user!"
                         },
                         "form": {
-                            "title": "Chat name",
-                            "title.chat": "Chat name",
-                            "title.channel": "Channel name",
-                            "title.validator": "At least 1 symbol",
-                            "icon": "=> core.ref.icon",
-                            "icon.validator": "=> core.ref.icon_text",
-                            "color": "=> xelson-chat.forum.chat.edit_modal.form.color",
-                            "color.validator": "=> xelson-chat.forum.chat.edit_modal.form.color.validator",
+                            "title": {
+                                "chat": "Chat name",
+                                "channel": "Channel name",
+                                "validator": "At least 1 symbol"
+                            },
+                            "icon": {
+                                "label": "=> core.ref.icon",
+                                "validator": "=> core.ref.icon_text"
+                            },
+                            "color": {
+                                "label": "=> xelson-chat.forum.chat.edit_modal.form.color.label",
+                                "validator": "=> xelson-chat.forum.chat.edit_modal.form.color.validator"
+                            },
                             "users": "Selected users"
                         },
                         "search": {
@@ -147,8 +162,10 @@
                 "edit": "Edit chat messages",
                 "delete": "Delete chat messages",
                 "enabled": "Enable chat",
-                "create": "Start chats",
-                "create.channel": "Start channels",
+                "create": {
+                    "chat": "Start chats",
+                    "channel": "Start channels"
+                },
                 "moderate": {
                     "delete": "Delete chat messages",
                     "vision": "See deleted messages"

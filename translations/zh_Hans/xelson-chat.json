@@ -1,6 +1,7 @@
 {
     "xelson-chat": {
         "forum": {
+            "pusher_not_found": "",
             "index": {
                 "chat_link": "聊天"
             },
@@ -18,7 +19,6 @@
             },
             "chat": {
                 "welcome": "",
-                "welcome.header": "欢迎来到 Neon 聊天室！",
                 "moder": "审阅人",
                 "kick": "抖一抖",
                 "leave": "离开",
@@ -30,13 +30,9 @@
                     },
                     "form": {
                         "title": "",
-                        "title.validator": "至少 1 个字符",
                         "color": "",
-                        "color.validator": "十六进制格式",
                         "icon": "",
-                        "icon.validator": "=> core.ref.icon_text",
                         "users": "",
-                        "users.edit": "选择或编辑用户",
                         "leave": "退出聊天",
                         "return": "加入聊天",
                         "delete": {
@@ -44,7 +40,14 @@
                             "desc": "复制并粘贴聊天名称以继续",
                             "placeholder": "聊天名称",
                             "button": "删除聊天"
-                        }
+                        },
+                        "title.label": "",
+                        "title.validator": "至少 1 个字符",
+                        "color.label": "",
+                        "color.validator": "十六进制格式",
+                        "icon.label": "",
+                        "icon.validator": "=> core.ref.icon_text",
+                        "users.edit": "选择或编辑用户"
                     },
                     "search": {
                         "placeholder": "搜索用户",
@@ -73,14 +76,16 @@
                         },
                         "form": {
                             "title": "",
+                            "icon": "",
+                            "color": "",
+                            "users": "已选择用户",
                             "title.chat": "聊天名称",
                             "title.channel": "频道名称",
                             "title.validator": "至少 1 字符",
-                            "icon": "",
+                            "icon.label": "",
                             "icon.validator": "=> core.ref.icon_text",
-                            "color": "",
-                            "color.validator": "=> xelson-chat.forum.chat.edit_modal.form.color.validator",
-                            "users": "已选择用户"
+                            "color.label": "",
+                            "color.validator": "=> xelson-chat.forum.chat.edit_modal.form.color.validator"
                         },
                         "search": {
                             "placeholder": "搜索用户",
@@ -133,7 +138,9 @@
                             "entered": "{username} 进入聊天"
                         }
                     }
-                }
+                },
+                "welcome.header": "欢迎来到 Neon 聊天室！",
+                "welcome.subheader": ""
             },
             "errors": {
                 "unauthenticated": "此聊天仅限注册用户加入",
@@ -148,11 +155,12 @@
                 "delete": "删除聊天消息",
                 "enabled": "启用聊天",
                 "create": "",
-                "create.channel": "发起聊天频道",
                 "moderate": {
                     "delete": "删除聊天消息",
                     "vision": "查看删除的消息"
-                }
+                },
+                "create.chat": "",
+                "create.channel": "发起聊天频道"
             },
             "settings": {
                 "title": "聊天设置",

@@ -1,6 +1,7 @@
 {
     "xelson-chat": {
         "forum": {
+            "pusher_not_found": "",
             "index": {
                 "chat_link": ""
             },
@@ -18,7 +19,6 @@
             },
             "chat": {
                 "welcome": "",
-                "welcome.header": "",
                 "moder": "",
                 "kick": "",
                 "leave": "",
@@ -30,13 +30,9 @@
                     },
                     "form": {
                         "title": "",
-                        "title.validator": "",
                         "color": "",
-                        "color.validator": "",
                         "icon": "",
-                        "icon.validator": "",
                         "users": "",
-                        "users.edit": "",
                         "leave": "",
                         "return": "",
                         "delete": {
@@ -44,7 +40,14 @@
                             "desc": "",
                             "placeholder": "",
                             "button": ""
-                        }
+                        },
+                        "title.label": "",
+                        "title.validator": "",
+                        "color.label": "",
+                        "color.validator": "",
+                        "icon.label": "",
+                        "icon.validator": "",
+                        "users.edit": ""
                     },
                     "search": {
                         "placeholder": "",
@@ -73,14 +76,16 @@
                         },
                         "form": {
                             "title": "",
+                            "icon": "",
+                            "color": "",
+                            "users": "",
                             "title.chat": "",
                             "title.channel": "",
                             "title.validator": "",
-                            "icon": "",
+                            "icon.label": "",
                             "icon.validator": "",
-                            "color": "",
-                            "color.validator": "",
-                            "users": ""
+                            "color.label": "",
+                            "color.validator": ""
                         },
                         "search": {
                             "placeholder": "",
@@ -133,7 +138,9 @@
                             "entered": ""
                         }
                     }
-                }
+                },
+                "welcome.header": "",
+                "welcome.subheader": ""
             },
             "errors": {
                 "unauthenticated": "",
@@ -148,11 +155,12 @@
                 "delete": "",
                 "enabled": "",
                 "create": "",
-                "create.channel": "",
                 "moderate": {
                     "delete": "",
                     "vision": ""
-                }
+                },
+                "create.chat": "",
+                "create.channel": ""
             },
             "settings": {
                 "title": "",
