@@ -1,9 +1,9 @@
 {
     "xelson-chat": {
         "forum": {
-            "pusher_not_found": "",
+            "pusher_not_found": "Pusher lub Websockety są wymagane, aby czat aktualizował się w czasie rzeczywistym.",
             "index": {
-                "chat_link": ""
+                "chat_link": "Czat"
             },
             "toolbar": {
                 "title": "Czat",
@@ -18,7 +18,10 @@
                 }
             },
             "chat": {
-                "welcome": "",
+                "welcome": {
+                    "header": "Witaj w Neon Chat!",
+                    "subheader": "Aby porozmawiać, wybierz kanał w panelu po lewej stronie"
+                },
                 "moder": "Moderator",
                 "kick": "Wyrzuć",
                 "leave": "Opuść",
@@ -29,10 +32,21 @@
                         "lost": "Właśnie utraciłeś uprawnienia moderatora w czacie {chatname}."
                     },
                     "form": {
-                        "title": "",
-                        "color": "",
-                        "icon": "",
-                        "users": "",
+                        "title": {
+                            "label": "Nazwa czatu",
+                            "validator": "Co najmniej jeden znak"
+                        },
+                        "color": {
+                            "label": "Kolor",
+                            "validator": "Wpisz kod HEX koloru"
+                        },
+                        "icon": {
+                            "label": "=> core.ref.icon",
+                            "validator": "=> core.ref.icon_text"
+                        },
+                        "users": {
+                            "edit": "Wybierz i edytuj użytkowników"
+                        },
                         "leave": "Opuść czat",
                         "return": "Dołącz do czatu",
                         "delete": {
@@ -40,14 +54,7 @@
                             "desc": "Potwierdź nazwę czatu, który chcesz usunąć",
                             "placeholder": "Nazwa czatu",
                             "button": "Usuń czat"
-                        },
-                        "title.label": "",
-                        "title.validator": "Co najmniej jeden znak",
-                        "color.label": "",
-                        "color.validator": "Wpisz kod HEX koloru",
-                        "icon.label": "",
-                        "icon.validator": "=> core.ref.icon_text",
-                        "users.edit": "Wybierz i edytuj użytkowników"
+                        }
                     },
                     "search": {
                         "placeholder": "Wyszukaj użytkowników",
@@ -59,7 +66,7 @@
                 "list": {
                     "pin": "Przypnij panel",
                     "unpin": "Odepnij panel",
-                    "placeholder": "Szukaj",
+                    "placeholder": "Filtruj czaty",
                     "preview": {
                         "empty": "Brak wiadomości"
                     },
@@ -75,17 +82,20 @@
                             "exists": "Nie możesz utworzyć kolejnego czatu z tym użytkownikiem!"
                         },
                         "form": {
-                            "title": "",
-                            "icon": "",
-                            "color": "",
-                            "users": "Wybrani użytkownicy",
-                            "title.chat": "Nazwa czatu",
-                            "title.channel": "Nazwa kanału",
-                            "title.validator": "Co najmniej jeden znak",
-                            "icon.label": "",
-                            "icon.validator": "=> core.ref.icon_text",
-                            "color.label": "",
-                            "color.validator": "=> xelson-chat.forum.chat.edit_modal.form.color.validator"
+                            "title": {
+                                "chat": "Nazwa czatu",
+                                "channel": "Nazwa kanału",
+                                "validator": "Co najmniej jeden znak"
+                            },
+                            "icon": {
+                                "label": "=> core.ref.icon",
+                                "validator": "=> core.ref.icon_text"
+                            },
+                            "color": {
+                                "label": "=> xelson-chat.forum.chat.edit_modal.form.color.label",
+                                "validator": "=> xelson-chat.forum.chat.edit_modal.form.color.validator"
+                            },
+                            "users": "Wybrani użytkownicy"
                         },
                         "search": {
                             "placeholder": "Wyszukaj użytkowników",
@@ -138,9 +148,7 @@
                             "entered": "{username} dołączył do czatu"
                         }
                     }
-                },
-                "welcome.header": "Witaj w Neon Chat!",
-                "welcome.subheader": ""
+                }
             },
             "errors": {
                 "unauthenticated": "Jedynie zarejestrowani użytkownicy mogą korzystać z czatu",
@@ -154,13 +162,14 @@
                 "edit": "Edytowanie wiadomości na czacie",
                 "delete": "Usuwanie wiadomości na czacie",
                 "enabled": "Włączony czat",
-                "create": "",
+                "create": {
+                    "chat": "Rozpoczynanie czatu",
+                    "channel": "Tworzenie kanałów"
+                },
                 "moderate": {
                     "delete": "Usuwanie wiadomości na czacie",
                     "vision": "Przeglądanie usuniętych wiadomości"
-                },
-                "create.chat": "",
-                "create.channel": "Tworzenie kanałów"
+                }
             },
             "settings": {
                 "title": "Ustawienia czatu",
