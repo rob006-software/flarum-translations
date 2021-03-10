@@ -1,11 +1,21 @@
 {
     "fof-linguist": {
         "admin": {
+            "tabs": {
+                "strings": "",
+                "coverage": "",
+                "export": "",
+                "import": ""
+            },
             "buttons": {
                 "apply": "",
                 "reset": "",
                 "copy-original": "",
-                "load-more": ""
+                "load-more": "",
+                "delete-redundant": "",
+                "delete-redundant-confirm": "",
+                "delete-all": "",
+                "delete-all-confirm": ""
             },
             "locales": {
                 "all": ""
@@ -29,13 +39,79 @@
                     "original": "",
                     "own": ""
                 },
+                "operation-options": {
+                    "or": "",
+                    "and": ""
+                },
                 "for-extension": "",
-                "for-extension-unavailable": "",
-                "results": ""
+                "frontend": "",
+                "frontend-all-except-admin": "",
+                "mass-edit": "",
+                "results": "",
+                "for-extension-unavailable": ""
             },
             "clear-cache": {
                 "text": "",
                 "button": ""
+            },
+            "coverage": {
+                "column-options": {
+                    "locale": "",
+                    "namespace": ""
+                },
+                "total-options": {
+                    "percent": "",
+                    "count": ""
+                },
+                "columns": {
+                    "namespace": "",
+                    "total": "",
+                    "all-except-admin": "",
+                    "all-frontends": ""
+                },
+                "count": {
+                    "percent": "",
+                    "total": "",
+                    "details": ""
+                },
+                "all-namespaces": "",
+                "apply-missing-filter": ""
+            },
+            "export": {
+                "title": "",
+                "warning": "",
+                "locale": "",
+                "locale-all": "",
+                "namespace": "",
+                "namespace-all": "",
+                "include-originals": "",
+                "include-all": "",
+                "output": "",
+                "output-loading": "",
+                "output-empty": "",
+                "download": ""
+            },
+            "import": {
+                "title": "",
+                "input": "",
+                "input-placeholder": "",
+                "locale": "",
+                "locale-all": "",
+                "override-existing": "",
+                "submit": "",
+                "results": "",
+                "results-with-ignore": ""
+            },
+            "known-namespace": {
+                "core": "",
+                "validation": ""
+            },
+            "known-frontend": {
+                "forum": "",
+                "admin": "",
+                "lib": "",
+                "ref": "",
+                "api": ""
             }
         }
     }

@@ -1,11 +1,21 @@
 {
     "fof-linguist": {
         "admin": {
+            "tabs": {
+                "strings": "",
+                "coverage": "",
+                "export": "",
+                "import": ""
+            },
             "buttons": {
                 "apply": "Zastosuj",
                 "reset": "Przywróć oryginał",
                 "copy-original": "Skopiuj oryginalny tekst",
-                "load-more": "Wczytaj więcej"
+                "load-more": "Wczytaj więcej",
+                "delete-redundant": "",
+                "delete-redundant-confirm": "",
+                "delete-all": "",
+                "delete-all-confirm": ""
             },
             "locales": {
                 "all": "Wszystkie"
@@ -29,13 +39,79 @@
                     "original": "oryginalne",
                     "own": "własne"
                 },
+                "operation-options": {
+                    "or": "",
+                    "and": ""
+                },
                 "for-extension": "Rozszerzenia",
-                "for-extension-unavailable": "Nie znaleziono żadnych tłumaczeń dla prefiksu \"{namespace}\". Możliwe, że to rozszerzenie nie posiada żadnych testów do przetłumaczenia lub korzysta z innego prefiksu. Spróbuj skorzystać z wyszukiwarki, aby znaleźć brakujące tłumaczenia.\n",
-                "results": "Wyświetlono {shown} z {total} pasujących tłumaczeń"
+                "frontend": "",
+                "frontend-all-except-admin": "",
+                "mass-edit": "",
+                "results": "Wyświetlono {shown} z {total} pasujących tłumaczeń",
+                "for-extension-unavailable": "Nie znaleziono żadnych tłumaczeń dla prefiksu \"{namespace}\". Możliwe, że to rozszerzenie nie posiada żadnych testów do przetłumaczenia lub korzysta z innego prefiksu. Spróbuj skorzystać z wyszukiwarki, aby znaleźć brakujące tłumaczenia.\n"
             },
             "clear-cache": {
                 "text": "Nowe tłumaczenia jeszcze nie zostały zastosowane. Uwaga: wyczyszczenie cache może chwilowo spowolnić Twoje forum.\n",
                 "button": "Wyczyść cache teraz"
+            },
+            "coverage": {
+                "column-options": {
+                    "locale": "",
+                    "namespace": ""
+                },
+                "total-options": {
+                    "percent": "",
+                    "count": ""
+                },
+                "columns": {
+                    "namespace": "",
+                    "total": "",
+                    "all-except-admin": "",
+                    "all-frontends": ""
+                },
+                "count": {
+                    "percent": "",
+                    "total": "",
+                    "details": ""
+                },
+                "all-namespaces": "",
+                "apply-missing-filter": ""
+            },
+            "export": {
+                "title": "",
+                "warning": "",
+                "locale": "",
+                "locale-all": "",
+                "namespace": "",
+                "namespace-all": "",
+                "include-originals": "",
+                "include-all": "",
+                "output": "",
+                "output-loading": "",
+                "output-empty": "",
+                "download": ""
+            },
+            "import": {
+                "title": "",
+                "input": "",
+                "input-placeholder": "",
+                "locale": "",
+                "locale-all": "",
+                "override-existing": "",
+                "submit": "",
+                "results": "",
+                "results-with-ignore": ""
+            },
+            "known-namespace": {
+                "core": "",
+                "validation": ""
+            },
+            "known-frontend": {
+                "forum": "",
+                "admin": "",
+                "lib": "",
+                "ref": "",
+                "api": ""
             }
         }
     }

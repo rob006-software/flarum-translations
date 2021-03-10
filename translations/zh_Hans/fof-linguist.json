@@ -1,11 +1,21 @@
 {
     "fof-linguist": {
         "admin": {
+            "tabs": {
+                "strings": "",
+                "coverage": "",
+                "export": "",
+                "import": ""
+            },
             "buttons": {
                 "apply": "应用",
                 "reset": "重置",
                 "copy-original": "复制原文",
-                "load-more": "加载更多"
+                "load-more": "加载更多",
+                "delete-redundant": "",
+                "delete-redundant-confirm": "",
+                "delete-all": "",
+                "delete-all-confirm": ""
             },
             "locales": {
                 "all": "全部"
@@ -29,15 +39,81 @@
                     "original": "原始翻译",
                     "own": "自定义翻译"
                 },
+                "operation-options": {
+                    "or": "",
+                    "and": ""
+                },
                 "for-extension": "筛选插件",
-                "for-extension-unavailable": "命名空间「{namespace}」没有翻译资源。 这个插件可能没有需要翻译的内容，或者使用了其他命名空间。 尝试搜索翻译文本来定位翻译资源吧。\n",
+                "frontend": "",
+                "frontend-all-except-admin": "",
+                "mass-edit": "",
                 "results": "已显示 {shown} 条匹配翻译，共 {total} 条",
+                "for-extension-unavailable": "命名空间「{namespace}」没有翻译资源。 这个插件可能没有需要翻译的内容，或者使用了其他命名空间。 尝试搜索翻译文本来定位翻译资源吧。\n",
                 "with-original-translations-in-locales": "有原文翻译",
                 "without-original-translations-in-locales": "无原文翻译"
             },
             "clear-cache": {
                 "text": "新增翻译尚未部署。注意：清理缓存后的论坛首次加载速度会变慢。\n",
                 "button": "立刻清理缓存"
+            },
+            "coverage": {
+                "column-options": {
+                    "locale": "",
+                    "namespace": ""
+                },
+                "total-options": {
+                    "percent": "",
+                    "count": ""
+                },
+                "columns": {
+                    "namespace": "",
+                    "total": "",
+                    "all-except-admin": "",
+                    "all-frontends": ""
+                },
+                "count": {
+                    "percent": "",
+                    "total": "",
+                    "details": ""
+                },
+                "all-namespaces": "",
+                "apply-missing-filter": ""
+            },
+            "export": {
+                "title": "",
+                "warning": "",
+                "locale": "",
+                "locale-all": "",
+                "namespace": "",
+                "namespace-all": "",
+                "include-originals": "",
+                "include-all": "",
+                "output": "",
+                "output-loading": "",
+                "output-empty": "",
+                "download": ""
+            },
+            "import": {
+                "title": "",
+                "input": "",
+                "input-placeholder": "",
+                "locale": "",
+                "locale-all": "",
+                "override-existing": "",
+                "submit": "",
+                "results": "",
+                "results-with-ignore": ""
+            },
+            "known-namespace": {
+                "core": "",
+                "validation": ""
+            },
+            "known-frontend": {
+                "forum": "",
+                "admin": "",
+                "lib": "",
+                "ref": "",
+                "api": ""
             },
             "menu": {
                 "title": "语言学家",
