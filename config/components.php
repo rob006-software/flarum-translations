@@ -141,6 +141,9 @@ return [
 	'dem13n-topic-starter-label' => [
 		'tag' => 'https://raw.githubusercontent.com/Dem13n/topic-starter-label/0.1.3/locale/en.yml',
 	],
+	'ffans-clipboardjs' => [
+		'tag' => 'https://raw.githubusercontent.com/FFans/clipboardjs/v0.1.0-beta.15.1/resources/locale/en.yml',
+	],
 	'flarum-akismet' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.15/locale/flarum-akismet.yml',
 		'branch' => 'https://raw.githubusercontent.com/flarum/akismet/master/locale/en.yml',
