@@ -3,56 +3,72 @@
         "custom_sidenav_links": {
             "admin": {
                 "settings_page": {
-                    "heading": "Customise side nav links",
-                    "add_link_btn": "Add new link",
-                    "confirm_delete": "Confirm deletion of link \"{link}\"",
-                    "alert": {
-                        "fix_errors": "You need to fix the issues above before saving your changes."
-                    },
-                    "table": {
-                        "header": {
-                            "position": "Position",
-                            "icon": "Link icon",
-                            "text": "Link text",
-                            "url": "Link url",
-                            "internal": "Is Flarum URL?",
-                            "delete": "Remove"
-                        },
-                        "placeholders": {
-                            "icon": "fas fa-link",
-                            "text": "My cool site",
-                            "url": "https://flarum.org"
-                        },
-                        "tooltips": {
-                            "move_up": "Move up",
-                            "move_down": "Move down",
-                            "icon_preview": "Icon preview"
-                        }
-                    },
-                    "save_btn": {
-                        "dirty": "Save settings",
-                        "saving": "Saving changes...",
-                        "saved": "No changes to save",
-                        "fix_errors": "Fix errors before saving"
-                    },
-                    "new_link_modal": {
-                        "title": "Add new link",
-                        "submit_btn": {
-                            "add": "Add link",
-                            "loading": "Adding user",
-                            "fix_url": "Invalid URL",
-                            "invalid_form": "Fill in all fields"
+                    "display_options": {
+                        "heading": "Display settings",
+                        "options": {
+                            "position": {
+                                "above-tags-link": "Above \"Tags\" button",
+                                "below-tags-link": "Below \"Tags\" button"
+                            }
                         },
                         "labels": {
-                            "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.table.header.icon",
-                            "text": "=> davwheat.custom_sidenav_links.admin.settings_page.table.header.text",
-                            "url": "=> davwheat.custom_sidenav_links.admin.settings_page.table.header.url",
-                            "internal": "=> davwheat.custom_sidenav_links.admin.settings_page.table.header.internal"
+                            "position": "Link location",
+                            "top_spacer": "Show top spacer",
+                            "bottom_spacer": "Show bottom spacer"
+                        }
+                    },
+                    "link_table": {
+                        "heading": "Customise links",
+                        "add_link_btn": "Add new link",
+                        "confirm_delete": "Confirm deletion of link \"{link}\"",
+                        "alert": {
+                            "fix_errors": "You need to fix the issues above before saving your changes."
                         },
-                        "placeholders": {
-                            "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.table.placeholders.icon",
-                            "text": "=> davwheat.custom_sidenav_links.admin.settings_page.table.placeholders.text",
-                            "url": "=> davwheat.custom_sidenav_links.admin.settings_page.table.placeholders.url"
+                        "table": {
+                            "header": {
+                                "position": "Position",
+                                "icon": "Link icon",
+                                "text": "Link text",
+                                "url": "Link url",
+                                "internal": "Is Flarum URL?",
+                                "delete": "Remove"
+                            },
+                            "placeholders": {
+                                "icon": "fas fa-link",
+                                "text": "My cool site",
+                                "url": "https://flarum.org"
+                            },
+                            "tooltips": {
+                                "move_up": "Move up",
+                                "move_down": "Move down",
+                                "icon_preview": "Icon preview"
+                            }
+                        },
+                        "save_btn": {
+                            "dirty": "Save settings",
+                            "saving": "Saving changes...",
+                            "saved": "No changes to save",
+                            "fix_errors": "Fix errors before saving"
+                        },
+                        "new_link_modal": {
+                            "title": "Add new link",
+                            "submit_btn": {
+                                "add": "Add link",
+                                "loading": "Adding user",
+                                "fix_url": "Invalid URL",
+                                "invalid_form": "Fill in all fields"
+                            },
+                            "labels": {
+                                "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.table.header.icon",
+                                "text": "=> davwheat.custom_sidenav_links.admin.settings_page.table.header.text",
+                                "url": "=> davwheat.custom_sidenav_links.admin.settings_page.table.header.url",
+                                "internal": "=> davwheat.custom_sidenav_links.admin.settings_page.table.header.internal"
+                            },
+                            "placeholders": {
+                                "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.table.placeholders.icon",
+                                "text": "=> davwheat.custom_sidenav_links.admin.settings_page.table.placeholders.text",
+                                "url": "=> davwheat.custom_sidenav_links.admin.settings_page.table.placeholders.url"
+                            }
                         }
                     }
                 }
