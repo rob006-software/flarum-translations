@@ -390,6 +390,9 @@ return [
 	'glowingblue-password-strength' => [
 		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-password-strength/2.0.1/locale/en.yml',
 	],
+	'hona-discussion-views' => [
+		'tag' => 'https://raw.githubusercontent.com/Hona/flarum-discussion-views/v5.0.1/locale/en.yml',
+	],
 	'ianm-follow-users' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/follow-users/0.1.2/resources/locale/en.yml',
 	],
