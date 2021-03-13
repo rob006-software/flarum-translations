@@ -2,8 +2,23 @@
     "nearata-embed-video": {
         "admin": {
             "settings": {
+                "options": {
+                    "airplay": "",
+                    "hotkey": "",
+                    "lang": "",
+                    "logo": "",
+                    "quality_switching": "",
+                    "theme": ""
+                },
                 "permissions": {
                     "can_create_video_player": ""
+                },
+                "video_types": {
+                    "dash": "",
+                    "flv": "",
+                    "hls": "",
+                    "shaka": "",
+                    "webtorrent": ""
                 }
             }
         },
