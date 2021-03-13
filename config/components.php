@@ -523,7 +523,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-profile-cover/v1.2.3/resources/locale/en.yml',
 	],
 	'tank-perspective' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum-tank/flarum-perspective/0.1.12/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum-tank/flarum-perspective/0.1.13/resources/locale/en.yml',
 	],
 	'the-turk-fancybox' => [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-ext-fancybox/0.2.0-beta.4/locale/en.yml',
