@@ -17,7 +17,8 @@
                 "client_extension": "Domyślnie wtyczka wybierze bezpieczne rozszerzenie dla wysłanego pliku na podstawie typu MIME.\nDla niektórych typów bazujących na ZIP lub plików binarnych, może to skutkować zastąpieniem oryginalnego rozszerzenia na bardziej ogólne.\nTutaj możesz podać listę rozszerzeń (rozdzielonych przecinkami), które mają zostać pozostawione bez zmian.\n",
                 "watermark": "Wybierz, czy obrazki będą miały dodany znak wodny podczas przesyłania. Znaki wodne są dodawane do nie-gifów bazując na Twoich preferencjach poniżej.\n",
                 "s3_compatible_storage": "Poniższe ustawienia są wymagane jedynie gdy korzystasz z usługi kompatybilnej z S3. Jeśli korzystasz z AWS, możesz pozostawić je puste.\n",
-                "s3_acl": "ACL, które powinno być zastosowane do wysłanego obiektu (domyślnie: private). Obsługiwane wartości można znaleźć na https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n"
+                "s3_acl": "ACL, które powinno być zastosowane do wysłanego obiektu (domyślnie: private). Obsługiwane wartości można znaleźć na https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "composer_buttons": ""
             },
             "labels": {
                 "aws-s3": {
@@ -71,11 +72,21 @@
                     "position": "Pozycja znaku wodnego",
                     "title": "Oznaczanie obrazków znakiem wodnym",
                     "toggle": "Oznaczaj obrazki znakiem wodnym"
+                },
+                "composer_buttons": {
+                    "title": "",
+                    "options": {
+                        "both": "",
+                        "upload-btn": "",
+                        "media-btn": ""
+                    }
                 }
             },
             "permissions": {
                 "download_label": "Pobieranie plików",
-                "upload_label": "Przesyłanie plików"
+                "upload_label": "Przesyłanie plików",
+                "view_user_uploads_label": "",
+                "delete_uploads_of_others_label": ""
             },
             "templates": {
                 "file": "Domyślny szablon pobierania pliku",
@@ -96,8 +107,30 @@
             }
         },
         "forum": {
+            "media_manager": "",
             "buttons": {
-                "attach": "Załącz"
+                "attach": "Załącz",
+                "upload": "",
+                "user_uploads": "",
+                "cancel": "",
+                "media": ""
+            },
+            "file_list": {
+                "loading": "",
+                "empty": "",
+                "release_to_upload": "",
+                "modal_empty_desktop": "",
+                "modal_empty_phone": "",
+                "select_file_a11y_label": "",
+                "confirm_selection_btn": "",
+                "load_more_files_btn": "",
+                "hide_file": {
+                    "btn_a11y_label": "",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "hide_fail": "",
+                    "loading": ""
+                }
             },
             "states": {
                 "error": "Błąd",

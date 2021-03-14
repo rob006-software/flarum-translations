@@ -18,6 +18,7 @@
                 "watermark": "选择上传图片时是否添加水印。水印会根据下面的偏好设置来添加到非 GIF 图片上。\n",
                 "s3_compatible_storage": "填写下方设置以配置 S3 兼容存储模式。如果您使用 AWS，请保持留空。有关 S3 兼容配置详情，请查阅各大云服务商的文档（七牛云：https://iflarum.cn/qiniu-s3）\n",
                 "s3_acl": "应用于上传对象的读写权限 ACL（默认私有读写）。 有关可用的值，请参阅 https://iflarum.cn/aws-s3acl\n",
+                "composer_buttons": "",
                 "description": "文件上传服务与设置\n"
             },
             "labels": {
@@ -74,6 +75,14 @@
                     "title": "图片水印功能",
                     "toggle": "开启水印"
                 },
+                "composer_buttons": {
+                    "title": "",
+                    "options": {
+                        "both": "",
+                        "upload-btn": "",
+                        "media-btn": ""
+                    }
+                },
                 "ovh-svfs": {
                     "title": "OVH SVFS 存储设置",
                     "container": "容器",
@@ -85,7 +94,9 @@
             },
             "permissions": {
                 "download_label": "允许下载文件",
-                "upload_label": "允许上传文件"
+                "upload_label": "允许上传文件",
+                "view_user_uploads_label": "",
+                "delete_uploads_of_others_label": ""
             },
             "templates": {
                 "file": "默认文件下载模板",
@@ -106,8 +117,30 @@
             }
         },
         "forum": {
+            "media_manager": "",
             "buttons": {
-                "attach": "添加附件"
+                "attach": "添加附件",
+                "upload": "",
+                "user_uploads": "",
+                "cancel": "",
+                "media": ""
+            },
+            "file_list": {
+                "loading": "",
+                "empty": "",
+                "release_to_upload": "",
+                "modal_empty_desktop": "",
+                "modal_empty_phone": "",
+                "select_file_a11y_label": "",
+                "confirm_selection_btn": "",
+                "load_more_files_btn": "",
+                "hide_file": {
+                    "btn_a11y_label": "",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "hide_fail": "",
+                    "loading": ""
+                }
             },
             "states": {
                 "error": "错误",

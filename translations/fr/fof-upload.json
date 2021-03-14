@@ -17,7 +17,8 @@
                 "client_extension": "",
                 "watermark": "",
                 "s3_compatible_storage": "",
-                "s3_acl": ""
+                "s3_acl": "",
+                "composer_buttons": ""
             },
             "labels": {
                 "aws-s3": {
@@ -71,11 +72,21 @@
                     "position": "",
                     "title": "",
                     "toggle": ""
+                },
+                "composer_buttons": {
+                    "title": "",
+                    "options": {
+                        "both": "",
+                        "upload-btn": "",
+                        "media-btn": ""
+                    }
                 }
             },
             "permissions": {
                 "download_label": "",
-                "upload_label": ""
+                "upload_label": "",
+                "view_user_uploads_label": "",
+                "delete_uploads_of_others_label": ""
             },
             "templates": {
                 "file": "",
@@ -96,8 +107,30 @@
             }
         },
         "forum": {
+            "media_manager": "",
             "buttons": {
-                "attach": ""
+                "attach": "",
+                "upload": "",
+                "user_uploads": "",
+                "cancel": "",
+                "media": ""
+            },
+            "file_list": {
+                "loading": "",
+                "empty": "",
+                "release_to_upload": "",
+                "modal_empty_desktop": "",
+                "modal_empty_phone": "",
+                "select_file_a11y_label": "",
+                "confirm_selection_btn": "",
+                "load_more_files_btn": "",
+                "hide_file": {
+                    "btn_a11y_label": "",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "hide_fail": "",
+                    "loading": ""
+                }
             },
             "states": {
                 "error": "",
