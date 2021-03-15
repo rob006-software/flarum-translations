@@ -304,7 +304,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/merge-discussions/0.5.1/resources/locale/en.yml',
 	],
 	'fof-moderator-notes' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/moderator-notes/0.4.4/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/moderator-notes/0.5.0/resources/locale/en.yml',
 	],
 	'fof-nightmode' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/nightmode/0.7.1/resources/locale/en.yml',
