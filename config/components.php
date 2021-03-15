@@ -149,7 +149,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/flarum/akismet/master/locale/en.yml',
 	],
 	'flarum-approval' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.15/locale/flarum-approval.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/approval/v0.1.0-beta.16/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/flarum/approval/master/locale/en.yml',
 	],
 	'flarum-emoji' => [
