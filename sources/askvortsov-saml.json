@@ -1,6 +1,9 @@
 {
     "askvortsov-saml": {
         "admin": {
+            "header": {
+                "text": "Make sure that either the metadata url or the metadata is filled in."
+            },
             "title": "SAML2 SSO Configuration",
             "labels": {
                 "idp_metadata_url": "Identity Provider Metadata URL (Alternative to XML)",
