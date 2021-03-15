@@ -181,7 +181,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/flarum/nicknames/master/locale/en.yml',
 	],
 	'flarum-pusher' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.15/locale/flarum-pusher.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/pusher/v0.1.0-beta.16/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/flarum/pusher/master/locale/en.yml',
 	],
 	'flarum-statistics' => [
