@@ -165,7 +165,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/flarum/likes/master/locale/en.yml',
 	],
 	'flarum-lock' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/lang-english/v0.1.0-beta.15/locale/flarum-lock.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/lock/v0.1.0-beta.16/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/flarum/lock/master/locale/en.yml',
 	],
 	'flarum-markdown' => [
