@@ -451,7 +451,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/1.8.1/locale/en.yml',
 	],
 	'matteocontrini-imgur-upload' => [
-		'tag' => 'https://raw.githubusercontent.com/matteocontrini/flarum-imgur-upload/v3.6.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/matteocontrini/flarum-imgur-upload/v3.7.0/locale/en.yml',
 	],
 	'michaelbelgium-discussion-views' => [
 		'tag' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-discussion-views/v5.0.1/locale/en.yml',
