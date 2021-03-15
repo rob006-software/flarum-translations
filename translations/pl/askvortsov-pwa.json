@@ -17,6 +17,10 @@
                     "background_color_text": "Jest używany jako kolor wypełnienia na ekranie powitalnym, który jest wyświetlany podczas ładowania PWA. Nie jest wykorzystywany gdy aplikacja zostanie załadowana.",
                     "theme_color_text": "Ten kolor jest wykorzystywany w niektórych sytuacjach podczas wyświetlania Twojej aplikacji. Na przykład przełącznik aplikacji w Androidzie użyje go jako kolor wokół strony. Możesz go ustawić, zmieniając kolor wiodący w ustawieniach wyglądu forum w panelu admina."
                 },
+                "maintenance": {
+                    "heading": "",
+                    "debug_label": ""
+                },
                 "heading": "Konfiguracja Progressive Web App",
                 "text": "Skonfiguruj swoje Flarum, aby działało jako Progressive Web App! Zauważ, że nie umieści to Twojej aplikacji w App Store. Zamiast tego przeglądarka udostępni opcję \"Dodaj do ekranu głównego\". Rozszerzenie zapewnia podstawowe sprawdzenie konfiguracji, ale najlepszym sposobem na przetestowanie go jest instalacja i sprawdzenie czy działa (instrukcję instalacji Progressive Web App można znaleźć w Google). Miej na uwadze, że popup \"zainstaluj jako PWA\" jest kontrolowany przez przeglądarkę i nie może być wywołany przez developera/administratora/aplikację. Zalecane jest udostępnienie instrukcji jak zainstalować PWA na Twojej stronie.",
                 "status_check_heading": "Status",
