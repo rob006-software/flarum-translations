@@ -3,12 +3,12 @@
         "admin": {
             "title": "活动日志",
             "description": "查看过去一周所有版主和管理员的活动日志。",
-            "total_entries": "总计 {count} 条日志",
+            "total_entries": "总计 {count} 条日志。",
             "page": "第 {number} 页",
             "no_entries": "无日志",
             "search": "搜索……",
             "settings": "=> core.ref.settings",
-            "action_settings": "在这里设置记录哪些类型的活动",
+            "action_settings": "在这里设置记录哪些类型的活动。",
             "save": "=> core.ref.save_changes",
             "clear": "清空日志",
             "clear_confirmation": "确定要清空日志吗？此操作不可撤销。",
@@ -22,124 +22,124 @@
                 "items": {
                     "type": "活动类型（版主 / 管理员）",
                     "action": "活动名称（删除、创建、启用、标签等等）",
-                    "resource": "",
-                    "actor": ""
+                    "resource": "采取行动的资源类型（例如主题帖）",
+                    "actor": "行动实施者姓名"
                 }
             },
             "actions": {
                 "moderation": {
-                    "label": "",
+                    "label": "版主",
                     "discussion": {
-                        "label": "",
+                        "label": "主题帖",
                         "locked": {
-                            "label": "",
-                            "action": ""
+                            "label": "锁定",
+                            "action": "锁定主题 {discussion}"
                         },
                         "unlocked": {
-                            "label": "",
-                            "action": ""
+                            "label": "解锁",
+                            "action": "解锁主题 {discussion}"
                         },
                         "hidden": {
-                            "label": "",
-                            "action": ""
+                            "label": "隐藏",
+                            "action": "隐藏主题 {discussion}"
                         },
                         "restored": {
-                            "label": "",
-                            "action": ""
+                            "label": "还原",
+                            "action": "还原主题 {discussion}"
                         },
                         "deleted": {
-                            "label": "",
-                            "action": ""
+                            "label": "删除",
+                            "action": "删除主题 {discussion}"
                         },
                         "stickied": {
-                            "label": "",
-                            "action": ""
+                            "label": "置顶",
+                            "action": "置顶主题 {discussion}"
                         },
                         "unstickied": {
-                            "label": "",
-                            "action": ""
+                            "label": "取消置顶",
+                            "action": "取消置顶主题 {discussion}"
                         },
                         "tagged": {
-                            "label": "",
+                            "label": "标签",
                             "action": {
-                                "add_remove": "",
-                                "add": "",
-                                "remove": "",
-                                "tags_text": ""
+                                "add_remove": "添加 {tags}，删除 {oldTags} 于 {discussion}",
+                                "add": "添加 {tags} 于 {discussion}",
+                                "remove": "删除 {oldTags} 于 {discussion}",
+                                "tags_text": "{tags} 标签|{tags} 标签"
                             }
                         },
                         "renamed": {
-                            "label": "",
-                            "action": ""
+                            "label": "重命名",
+                            "action": "重命名 {oldTitle} 为 {discussion}"
                         }
                     },
                     "post": {
-                        "label": "",
+                        "label": "帖子",
                         "approved": {
-                            "label": "",
-                            "action": ""
+                            "label": "批准",
+                            "action": "批准 {author} 发表于 {discussion} 的 {post}"
                         }
                     },
                     "user": {
-                        "label": "",
+                        "label": "用户",
                         "suspended": {
-                            "label": "",
-                            "action": ""
+                            "label": "封禁",
+                            "action": "封禁用户 {u}"
                         },
                         "unsuspended": {
-                            "label": "",
-                            "action": ""
+                            "label": "解除封禁",
+                            "action": "解除封禁用户 {u}"
                         },
                         "activated": {
-                            "label": "",
-                            "action": ""
+                            "label": "激活",
+                            "action": "激活用户 {u}"
                         }
                     }
                 },
                 "administration": {
-                    "label": "",
+                    "label": "管理员",
                     "group": {
-                        "label": "",
+                        "label": "用户组",
                         "created": {
-                            "label": "",
-                            "action": ""
+                            "label": "创建",
+                            "action": "创建用户组 {group}"
                         },
                         "deleted": {
-                            "label": "",
-                            "action": ""
+                            "label": "删除",
+                            "action": "删除用户组 {group}"
                         }
                     },
                     "tag": {
-                        "label": "",
+                        "label": "标签",
                         "created": {
-                            "label": "",
-                            "action": ""
+                            "label": "创建",
+                            "action": "创建标签 {tag}"
                         },
                         "deleted": {
-                            "label": "",
-                            "action": ""
+                            "label": "删除",
+                            "action": "删除标签 {tag}"
                         }
                     },
                     "extension": {
-                        "label": "",
+                        "label": "扩展",
                         "enabled": {
-                            "label": "",
-                            "action": ""
+                            "label": "启用",
+                            "action": "启用扩展 {extension}"
                         },
                         "disabled": {
-                            "label": "",
-                            "action": ""
+                            "label": "禁用",
+                            "action": "禁用扩展 {extension}"
                         },
                         "uninstalled": {
-                            "label": "",
-                            "action": ""
+                            "label": "卸载",
+                            "action": "卸载扩展 {extension}"
                         }
                     },
                     "permission": {
-                        "label": "",
+                        "label": "权限",
                         "edited": {
-                            "label": "",
-                            "action": ""
+                            "label": "设置",
+                            "action": "设置权限 {permission} 到 {groups}"
                         }
                     }
                 }
