@@ -1,27 +1,27 @@
 {
     "sycho-action-log": {
         "admin": {
-            "title": "",
-            "description": "",
-            "total_entries": "",
-            "page": "",
-            "no_entries": "",
-            "search": "",
-            "settings": "",
-            "action_settings": "",
-            "save": "",
-            "clear": "",
-            "clear_confirmation": "",
+            "title": "活动日志",
+            "description": "查看过去一周所有版主和管理员的活动日志。",
+            "total_entries": "总计 {count} 条日志",
+            "page": "第 {number} 页",
+            "no_entries": "无日志",
+            "search": "搜索……",
+            "settings": "=> core.ref.settings",
+            "action_settings": "在这里设置记录哪些类型的活动",
+            "save": "=> core.ref.save_changes",
+            "clear": "清空日志",
+            "clear_confirmation": "确定要清空日志吗？此操作不可撤销。",
             "sort": {
-                "newest": "",
-                "oldest": ""
+                "newest": "=> core.forum.index_sort.newest_button",
+                "oldest": "=> core.forum.index_sort.oldest_button"
             },
             "gambits": {
-                "label": "",
-                "description": "",
+                "label": "高级搜索",
+                "description": "您可以在搜索时使用以下筛选（例如筛选类型：版主）",
                 "items": {
-                    "type": "",
-                    "action": "",
+                    "type": "活动类型（版主 / 管理员）",
+                    "action": "活动名称（删除、创建、启用、标签等等）",
                     "resource": "",
                     "actor": ""
                 }
