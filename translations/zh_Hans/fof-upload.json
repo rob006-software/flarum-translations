@@ -18,7 +18,7 @@
                 "watermark": "选择上传图片时是否添加水印。水印会根据下面的偏好设置来添加到非 GIF 图片上。\n",
                 "s3_compatible_storage": "填写下方设置以配置 S3 兼容存储模式。如果您使用 AWS，请保持留空。有关 S3 兼容配置详情，请查阅各大云服务商的文档（七牛云：https://iflarum.cn/qiniu-s3）\n",
                 "s3_acl": "应用于上传对象的读写权限 ACL（默认私有读写）。 有关可用的值，请参阅 https://iflarum.cn/aws-s3acl\n",
-                "composer_buttons": "",
+                "composer_buttons": "默认情况下，媒体管理按钮和上传按钮皆可见。您可以选择只显示其中一个按钮。\n",
                 "description": "文件上传服务与设置\n"
             },
             "labels": {
@@ -76,11 +76,11 @@
                     "toggle": "开启水印"
                 },
                 "composer_buttons": {
-                    "title": "",
+                    "title": "编辑器按钮",
                     "options": {
-                        "both": "",
-                        "upload-btn": "",
-                        "media-btn": ""
+                        "both": "全部显示",
+                        "upload-btn": "仅上传按钮",
+                        "media-btn": "仅媒体管理按钮"
                     }
                 },
                 "ovh-svfs": {
@@ -95,8 +95,8 @@
             "permissions": {
                 "download_label": "允许下载文件",
                 "upload_label": "允许上传文件",
-                "view_user_uploads_label": "",
-                "delete_uploads_of_others_label": ""
+                "view_user_uploads_label": "查看用户上传的文件",
+                "delete_uploads_of_others_label": "删除用户上传的文件"
             },
             "templates": {
                 "file": "默认文件下载模板",
@@ -117,29 +117,29 @@
             }
         },
         "forum": {
-            "media_manager": "",
+            "media_manager": "媒体管理器",
             "buttons": {
                 "attach": "添加附件",
-                "upload": "",
-                "user_uploads": "",
-                "cancel": "",
-                "media": ""
+                "upload": "上传",
+                "user_uploads": "用户上传",
+                "cancel": "取消",
+                "media": "我的文件"
             },
             "file_list": {
-                "loading": "",
-                "empty": "",
-                "release_to_upload": "",
-                "modal_empty_desktop": "",
-                "modal_empty_phone": "",
-                "select_file_a11y_label": "",
-                "confirm_selection_btn": "",
-                "load_more_files_btn": "",
+                "loading": "加载文件中……",
+                "empty": "没有可展示的文件。",
+                "release_to_upload": "松开鼠标上传",
+                "modal_empty_desktop": "你还没有上传过文件。点击按钮或拖拽文件到这里开始上传吧。",
+                "modal_empty_phone": "你还没有上传过文件。点击上方按钮开始上传吧。",
+                "select_file_a11y_label": "选择文件「{fileName}」",
+                "confirm_selection_btn": "嵌入|嵌入",
+                "load_more_files_btn": "加载更多",
                 "hide_file": {
-                    "btn_a11y_label": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "hide_fail": "",
-                    "loading": ""
+                    "btn_a11y_label": "在文件管理器中隐藏「{fileName}」",
+                    "hide_confirmation": "确定要隐藏「{fileName}」吗？文件只会从你的文件管理器中消失，并不会影响已嵌入文件的帖子。",
+                    "hide_success": "文件隐藏",
+                    "hide_fail": "无法隐藏文件「{fileName}」",
+                    "loading": "正在隐藏文件……"
                 }
             },
             "states": {
