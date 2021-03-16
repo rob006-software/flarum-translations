@@ -4,21 +4,21 @@
             "settings": {
                 "providers": {
                     "vkontakte": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "description": "请在此注册应用 {link}",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     }
                 }
             }
         },
         "lib": {
             "providers": {
-                "vkontakte": ""
+                "vkontakte": "Vkontakte"
             }
         },
         "forum": {
             "log_in": {
-                "with_vkontakte": ""
+                "with_vkontakte": "{provider} 账号登陆"
             }
         }
     }
