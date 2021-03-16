@@ -3,22 +3,22 @@
         "admin": {
             "settings": {
                 "options": {
-                    "airplay": "",
-                    "hotkey": "",
-                    "lang": "",
-                    "logo": "",
-                    "quality_switching": "",
-                    "theme": ""
+                    "airplay": "隔空播放",
+                    "hotkey": "热键",
+                    "lang": "播放器语言",
+                    "logo": "标志 URL",
+                    "quality_switching": "允许切换视频质量",
+                    "theme": "主题色"
                 },
                 "permissions": {
-                    "can_create_video_player": ""
+                    "can_create_video_player": "允许创建视频播放器"
                 },
                 "video_types": {
-                    "dash": "",
-                    "flv": "",
-                    "hls": "",
-                    "shaka": "",
-                    "webtorrent": ""
+                    "dash": "DASH（自适应流媒体传输）",
+                    "flv": "FLV",
+                    "hls": "HLS",
+                    "shaka": "Shaka",
+                    "webtorrent": "WebTorrent"
                 }
             }
         },
