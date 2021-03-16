@@ -51,6 +51,9 @@ return [
 	'askvortsov-help-tags' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-help-tags/v0.4.0/resources/locale/en.yml',
 	],
+	'askvortsov-markdown-tables' => [
+		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-markdown-tables/v1.0.1/resources/locale/en.yml',
+	],
 	'askvortsov-moderator-warnings' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-moderator-warnings/v0.5.0/resources/locale/en.yml',
 	],
