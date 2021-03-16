@@ -274,7 +274,8 @@
                 "log_in_to_reply_button": "შედით პასუხის გასაცემად",
                 "rename_button": "",
                 "reply_button": "",
-                "restore_button": ""
+                "restore_button": "",
+                "toggle_dropdown_accessible_label": ""
             },
             "discussion_list": {
                 "empty_text": "როგორც ჩანს, აქ არანაირი დისკუსია არ არის.",
@@ -309,10 +310,12 @@
             "header": {
                 "admin_button": "ადმინისტრაცია",
                 "back_to_index_tooltip": "განხილვის სიაში დაბრუნება",
+                "locale_dropdown_accessible_label": "",
                 "log_in_link": "",
                 "log_out_button": "",
                 "profile_button": "პროფილი",
                 "search_placeholder": "ფორუმის ძებნა",
+                "session_dropdown_accessible_label": "",
                 "settings_button": "",
                 "sign_up_link": ""
             },
@@ -323,13 +326,15 @@
                 "mark_all_as_read_tooltip": "",
                 "meta_title_text": "",
                 "refresh_tooltip": "განახლება",
-                "start_discussion_button": ""
+                "start_discussion_button": "",
+                "toggle_sidenav_dropdown_accessible_label": ""
             },
             "index_sort": {
                 "latest_button": "უახლესი",
                 "newest_button": "უახლესი",
                 "oldest_button": "უძველესი",
                 "relevance_button": "შესაბამისობა",
+                "toggle_dropdown_accessible_label": "",
                 "top_button": "საუკეთესო"
             },
             "log_in": {
@@ -348,6 +353,7 @@
                 "mark_all_as_read_tooltip": "",
                 "mark_as_read_tooltip": "წაკითხულად მონიშვნა",
                 "title": "",
+                "toggle_dropdown_accessible_label": "",
                 "tooltip": ""
             },
             "post": {
@@ -361,7 +367,8 @@
                 "delete_forever_button": "",
                 "edit_button": "",
                 "hide_confirmation": "დარწმუნებული ხართ, რომ გსურთ ამ პოსტის წაშლა?",
-                "restore_button": ""
+                "restore_button": "",
+                "toggle_dropdown_accessible_label": ""
             },
             "post_scrubber": {
                 "now_link": "ახლა",
@@ -426,7 +433,8 @@
                 "delete_confirmation": "დარწმუნებული ხართ, რომ გსურთ ამ მომხმარებლის წაშლა? მომხმარებლის შეტყობინებები არ წაიშლება.",
                 "delete_error_message": "მომხმარებლის <i>{username} ({email)}</ i> წაშლა ვერ მოხერხდა",
                 "delete_success_message": "მომხმარებელი <i>{username} ({email})</ i> წაიშალა",
-                "edit_button": ""
+                "edit_button": "",
+                "toggle_dropdown_accessible_label": ""
             },
             "user_email_confirmation": {
                 "alert_message": "",
@@ -437,6 +445,9 @@
         "lib": {
             "badge": {
                 "hidden_tooltip": "დამალული"
+            },
+            "dropdown": {
+                "toggle_dropdown_accessible_label": ""
             },
             "error": {
                 "dependent_extensions_message": "შეუძლებელია {extension} გამორთვა სანამ არ მოხდება შემდეგი დამოკიდებული გაფართოებების გამორთვა: {extensions}",

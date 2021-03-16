@@ -289,7 +289,8 @@
                 "log_in_to_reply_button": "ログインして返信",
                 "rename_button": "=> core.ref.rename",
                 "reply_button": "=> core.ref.reply",
-                "restore_button": "=> core.ref.restore"
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": ""
             },
             "discussion_list": {
                 "empty_text": "ここには何もありません。",
@@ -324,10 +325,12 @@
             "header": {
                 "admin_button": "管理パネル",
                 "back_to_index_tooltip": "スレッドリストに戻る",
+                "locale_dropdown_accessible_label": "",
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "マイデータ",
                 "search_placeholder": "検索",
+                "session_dropdown_accessible_label": "",
                 "settings_button": "設定",
                 "sign_up_link": "=> core.ref.sign_up"
             },
@@ -338,13 +341,15 @@
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "",
                 "refresh_tooltip": "更新",
-                "start_discussion_button": "=> core.ref.start_a_discussion"
+                "start_discussion_button": "=> core.ref.start_a_discussion",
+                "toggle_sidenav_dropdown_accessible_label": ""
             },
             "index_sort": {
                 "latest_button": "更新",
                 "newest_button": "最新",
                 "oldest_button": "古い順",
                 "relevance_button": "関連順",
+                "toggle_dropdown_accessible_label": "",
                 "top_button": "人気順"
             },
             "log_in": {
@@ -363,6 +368,7 @@
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "既読にする",
                 "title": "=> core.ref.notifications",
+                "toggle_dropdown_accessible_label": "",
                 "tooltip": "=> core.ref.notifications"
             },
             "post": {
@@ -376,7 +382,8 @@
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "edit_button": "=> core.ref.edit",
                 "hide_confirmation": "この投稿を削除してもよろしいですか？",
-                "restore_button": "=> core.ref.restore"
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": ""
             },
             "post_scrubber": {
                 "now_link": "最新の投稿",
@@ -441,7 +448,8 @@
                 "delete_confirmation": "本当にこのユーザーを削除してもよろしいですか？ このユーザーが投稿した内容は全て削除されます。",
                 "delete_error_message": "ユーザー <i>{username} ({email})</i> の削除に失敗しました",
                 "delete_success_message": "ユーザー <i>{username} ({email})</i> が削除されました",
-                "edit_button": "=> core.ref.edit"
+                "edit_button": "=> core.ref.edit",
+                "toggle_dropdown_accessible_label": ""
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
@@ -452,6 +460,9 @@
         "lib": {
             "badge": {
                 "hidden_tooltip": "非表示"
+            },
+            "dropdown": {
+                "toggle_dropdown_accessible_label": ""
             },
             "error": {
                 "dependent_extensions_message": "{extension}を無効化するには、これらを先に無効化する必要があります: {extensions}",

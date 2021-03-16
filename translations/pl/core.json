@@ -274,7 +274,8 @@
                 "log_in_to_reply_button": "Zaloguj się, aby odpisać",
                 "rename_button": "=> core.ref.rename",
                 "reply_button": "=> core.ref.reply",
-                "restore_button": "=> core.ref.restore"
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": ""
             },
             "discussion_list": {
                 "empty_text": "Wygląda na to, że nie ma tutaj żadnych dyskusji.",
@@ -309,10 +310,12 @@
             "header": {
                 "admin_button": "Administracja",
                 "back_to_index_tooltip": "Wróć do listy dyskusji",
+                "locale_dropdown_accessible_label": "",
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Profil",
                 "search_placeholder": "Przeszukaj forum",
+                "session_dropdown_accessible_label": "",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
             },
@@ -323,13 +326,15 @@
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
                 "refresh_tooltip": "Odśwież",
-                "start_discussion_button": "=> core.ref.start_a_discussion"
+                "start_discussion_button": "=> core.ref.start_a_discussion",
+                "toggle_sidenav_dropdown_accessible_label": ""
             },
             "index_sort": {
                 "latest_button": "Ostatnio aktywne",
                 "newest_button": "Najnowsze dyskusje",
                 "oldest_button": "Najstarsze dyskusje",
                 "relevance_button": "Najtrafniejsze wyniki",
+                "toggle_dropdown_accessible_label": "",
                 "top_button": "Najbardziej aktywne"
             },
             "log_in": {
@@ -348,6 +353,7 @@
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "Oznacz jako przeczytane",
                 "title": "=> core.ref.notifications",
+                "toggle_dropdown_accessible_label": "",
                 "tooltip": "=> core.ref.notifications"
             },
             "post": {
@@ -361,7 +367,8 @@
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "edit_button": "=> core.ref.edit",
                 "hide_confirmation": "Czy jesteś pewien, że chcesz usunąć ten post?",
-                "restore_button": "=> core.ref.restore"
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": ""
             },
             "post_scrubber": {
                 "now_link": "Teraz",
@@ -426,7 +433,8 @@
                 "delete_confirmation": "Czy jesteś pewien, że chcesz usunąć tego użytkownika? Posty napisane przez tego użytkownika NIE zostaną usunięte.",
                 "delete_error_message": "Usunięcie użytkownika <i>{username} ({email})</i> nie powiodło się",
                 "delete_success_message": "Użytkownik <i>{username} ({email})</i> został usunięty",
-                "edit_button": "=> core.ref.edit"
+                "edit_button": "=> core.ref.edit",
+                "toggle_dropdown_accessible_label": ""
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
@@ -437,6 +445,9 @@
         "lib": {
             "badge": {
                 "hidden_tooltip": "Ukryte"
+            },
+            "dropdown": {
+                "toggle_dropdown_accessible_label": ""
             },
             "error": {
                 "dependent_extensions_message": "Nie można wyłączyć {extension}, jeśli następujące zależne rozszerzenia są włączone: {extensions}",
