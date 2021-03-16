@@ -2,12 +2,12 @@
     "fof-user-directory": {
         "forum": {
             "header": {
-                "back_to_user_directory_tooltip": ""
+                "back_to_user_directory_tooltip": "返回会员名录"
             },
             "search": {
                 "users_heading": "搜索用户「{query}」",
                 "field": {
-                    "placeholder": ""
+                    "placeholder": "搜索用户"
                 }
             },
             "page": {
@@ -15,7 +15,7 @@
                 "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
                 "load_more_button": "=> core.ref.load_more",
                 "empty_text": "抱歉，没有找到匹配的用户。",
-                "filter_button": "",
+                "filter_button": "筛选群组",
                 "sort": {
                     "relevance": "相关度",
                     "default": "默认",
