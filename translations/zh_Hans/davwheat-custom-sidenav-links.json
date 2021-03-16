@@ -4,70 +4,70 @@
             "admin": {
                 "settings_page": {
                     "display_options": {
-                        "heading": "",
+                        "heading": "显示设置",
                         "options": {
                             "position": {
-                                "above-tags-link": "",
-                                "below-tags-link": ""
+                                "above-tags-link": "显示于「全部标签」按钮上方",
+                                "below-tags-link": "显示于「全部标签」按钮下方"
                             }
                         },
                         "labels": {
-                            "position": "",
-                            "top_spacer": "",
-                            "bottom_spacer": ""
+                            "position": "链接位置",
+                            "top_spacer": "显示顶部分割线",
+                            "bottom_spacer": "显示底部分割线"
                         }
                     },
                     "link_table": {
-                        "heading": "",
-                        "add_link_btn": "",
-                        "confirm_delete": "",
+                        "heading": "自定义链接",
+                        "add_link_btn": "新建链接",
+                        "confirm_delete": "确认删除链接「{link}」",
                         "alert": {
-                            "fix_errors": ""
+                            "fix_errors": "请改正以上错误再保存。"
                         },
                         "table": {
                             "header": {
-                                "position": "",
-                                "icon": "",
-                                "text": "",
-                                "url": "",
-                                "internal": "",
-                                "delete": ""
+                                "position": "位置",
+                                "icon": "链接图标",
+                                "text": "链接文字",
+                                "url": "链接 URL",
+                                "internal": "是 Flarum URL 吗？",
+                                "delete": "移除"
                             },
                             "placeholders": {
-                                "icon": "",
-                                "text": "",
-                                "url": ""
+                                "icon": "fas fa-link",
+                                "text": "我的小酷站",
+                                "url": "https://flarum.org"
                             },
                             "tooltips": {
-                                "move_up": "",
-                                "move_down": "",
-                                "icon_preview": ""
+                                "move_up": "上移",
+                                "move_down": "下移",
+                                "icon_preview": "图标预览"
                             }
                         },
                         "save_btn": {
-                            "dirty": "",
-                            "saving": "",
-                            "saved": "",
-                            "fix_errors": ""
+                            "dirty": "保存设置",
+                            "saving": "正在保存……",
+                            "saved": "没有要保存的更改",
+                            "fix_errors": "保存前修正错误"
                         },
                         "new_link_modal": {
-                            "title": "",
+                            "title": "新建链接",
                             "submit_btn": {
-                                "add": "",
-                                "loading": "",
-                                "fix_url": "",
-                                "invalid_form": ""
+                                "add": "新建",
+                                "loading": "添加者",
+                                "fix_url": "无效的 URL",
+                                "invalid_form": "填充到所有字段"
                             },
                             "labels": {
-                                "icon": "",
-                                "text": "",
-                                "url": "",
-                                "internal": ""
+                                "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.table.header.icon",
+                                "text": "=> davwheat.custom_sidenav_links.admin.settings_page.table.header.text",
+                                "url": "=> davwheat.custom_sidenav_links.admin.settings_page.table.header.url",
+                                "internal": "=> davwheat.custom_sidenav_links.admin.settings_page.table.header.internal"
                             },
                             "placeholders": {
-                                "icon": "",
-                                "text": "",
-                                "url": ""
+                                "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.table.placeholders.icon",
+                                "text": "=> davwheat.custom_sidenav_links.admin.settings_page.table.placeholders.text",
+                                "url": "=> davwheat.custom_sidenav_links.admin.settings_page.table.placeholders.url"
                             }
                         }
                     },
