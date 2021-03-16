@@ -4,21 +4,21 @@
             "settings": {
                 "providers": {
                     "yandex": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "description": "请在此注册应用 {link}",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     }
                 }
             }
         },
         "lib": {
             "providers": {
-                "yandex": ""
+                "yandex": "Yandex"
             }
         },
         "forum": {
             "log_in": {
-                "with_yandex": ""
+                "with_yandex": "{provider} 账号登陆"
             }
         }
     }
