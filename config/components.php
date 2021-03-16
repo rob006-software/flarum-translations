@@ -54,6 +54,9 @@ return [
 	'askvortsov-pwa' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-pwa/v2.2.0/resources/locale/en.yml',
 	],
+	'askvortsov-rich-text' => [
+		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-rich-text/v1.0.1/resources/locale/en.yml',
+	],
 	'askvortsov-saml' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-saml/v2.2.0/resources/locale/en.yml',
 	],
