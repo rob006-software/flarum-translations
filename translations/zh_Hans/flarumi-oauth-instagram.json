@@ -4,21 +4,21 @@
             "settings": {
                 "providers": {
                     "instagram": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "description": "在此处注册应用 {link}",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     }
                 }
             }
         },
         "lib": {
             "providers": {
-                "instagram": ""
+                "instagram": "Instagram"
             }
         },
         "forum": {
             "log_in": {
-                "with_instagram": ""
+                "with_instagram": "{provider} 账号登陆"
             }
         }
     }
