@@ -21,15 +21,15 @@
                 "monochrome": "黑白"
             },
             "text_color": {
-                "label": "",
+                "label": "文本色",
                 "options": {
-                    "default": "",
-                    "theme_primary_color": "",
-                    "theme_secondary_color": "",
-                    "custom": ""
+                    "default": "默认",
+                    "theme_primary_color": "主题主色调",
+                    "theme_secondary_color": "主题次色调",
+                    "custom": "自定义颜色"
                 },
-                "custom_label": "",
-                "custom_helptext": ""
+                "custom_label": "自定义文本色",
+                "custom_helptext": "请使用十六进制、RGB(A) 或 HLS(A) 色码。"
             },
             "generate_color_button": "生成随机颜色"
         }
