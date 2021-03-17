@@ -46,8 +46,8 @@
                     "title": "Imgur 图片存储设置"
                 },
                 "local": {
-                    "cdn_url": "CDN 域名（含 http/https）",
-                    "title": "本地、OSS 存储设置"
+                    "cdn_url": "文件链接前缀 / 对象存储 CDN 或访问域名（含 http/https）",
+                    "title": "存储设置"
                 },
                 "qiniu": {
                     "title": "七牛存储设置（需要先安装 composer require overtrue/flysystem-qiniu）",
