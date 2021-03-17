@@ -18,7 +18,7 @@
                 "watermark": "Yükleme sırasında resimlere filigran (watermark) eklenip eklenmeyeceğini seçin. Filigranlar gif olmayan dosyalara eklenebilir.\n",
                 "s3_compatible_storage": "Aşağıdaki ayarlar yalnızca S3 uyumlu depolama kullanılırken gereklidir. AWS kullanıyorsanız, bunları boş bırakabilirsiniz.",
                 "s3_acl": "Yüklenen nesneye uygulanması gereken ACL (varsayılan: özel). Olası değerler için bkz. https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl",
-                "composer_buttons": "",
+                "composer_buttons": "Varsayılan olarak hem medya yöneticisi düğmesi hem de yükleme düğmesi görünür durumdadır. Ayrıca yalnızca bir düğmeyi görüntülemeyi de seçebilirsiniz.\n",
                 "description": "Dosya yükleme servisleri ve ayarları.\n"
             },
             "labels": {
@@ -75,19 +75,19 @@
                     "toggle": "Filigran görseli"
                 },
                 "composer_buttons": {
-                    "title": "",
+                    "title": "Editör butonları",
                     "options": {
-                        "both": "",
-                        "upload-btn": "",
-                        "media-btn": ""
+                        "both": "İkisi de",
+                        "upload-btn": "Yalnızca yükleme butonu",
+                        "media-btn": "Yalnızca medya yönetisi butonu"
                     }
                 }
             },
             "permissions": {
                 "download_label": "Dosya indirme",
                 "upload_label": "Dosya yükleme",
-                "view_user_uploads_label": "",
-                "delete_uploads_of_others_label": ""
+                "view_user_uploads_label": "Kullanıcı yüklemelerini göster",
+                "delete_uploads_of_others_label": "Kullanıcı yüklemelerini silin"
             },
             "templates": {
                 "file": "Varsayılan dosya indirme şablonu",
@@ -108,29 +108,29 @@
             }
         },
         "forum": {
-            "media_manager": "",
+            "media_manager": "Medya yöneticisi",
             "buttons": {
                 "attach": "Dosya Ekle",
-                "upload": "",
-                "user_uploads": "",
-                "cancel": "",
-                "media": ""
+                "upload": "Yükle",
+                "user_uploads": "Kullanıcı yüklemeleri",
+                "cancel": "İptal",
+                "media": "Medyalarım"
             },
             "file_list": {
-                "loading": "",
-                "empty": "",
-                "release_to_upload": "",
-                "modal_empty_desktop": "",
-                "modal_empty_phone": "",
-                "select_file_a11y_label": "",
-                "confirm_selection_btn": "",
-                "load_more_files_btn": "",
+                "loading": "Dosyalar yükleniyor...",
+                "empty": "Gösterilecek dosya bulunmuyor.",
+                "release_to_upload": "Yüklemek için bırakın",
+                "modal_empty_desktop": "Dosya listeniz boş. Yüklemek için butona tıklayın veya buraya bir dosya sürükleyin.",
+                "modal_empty_phone": "Dosya listeniz boş. Bir dosya yüklemek için yukarıdaki butona dokunun.",
+                "select_file_a11y_label": "\"{fileName}\" dosyasını seçin",
+                "confirm_selection_btn": "Dosya seçin|Dosyaları seçin",
+                "load_more_files_btn": "Daha fazla dosya yükle",
                 "hide_file": {
-                    "btn_a11y_label": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "hide_fail": "",
-                    "loading": ""
+                    "btn_a11y_label": "\"{fileName}\" dosyasını medya yöneticisinden gizle",
+                    "hide_confirmation": "\"{fileName}\" dosyasını gizlemek istediğinizden emin misiniz? Bir dosyayı gizlemek, onu yalnızca medya yöneticinizden kaldırır ve mevcut gönderileri etkilemez.",
+                    "hide_success": "Dosya gizlendi",
+                    "hide_fail": "\"{fileName}\" dosyası gizlenemedi",
+                    "loading": "Dosya gizleniyor..."
                 }
             },
             "states": {
