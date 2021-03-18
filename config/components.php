@@ -475,7 +475,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/migratetoflarum/canonical/0.2.4/resources/locale/en.yml',
 	],
 	'migratetoflarum-fake-data' => [
-		'tag' => 'https://raw.githubusercontent.com/migratetoflarum/fake-data/0.3.5/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/migratetoflarum/fake-data/0.3.6/resources/locale/en.yml',
 	],
 	'nearata-copy-code-to-clipboard' => [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-copy-code-to-clipboard/v1.3.0/resources/locale/en.yml',
