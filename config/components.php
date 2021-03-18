@@ -97,7 +97,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-emojionearea/0.3.0/locale/en.yml',
 	],
 	'clarkwinkelmann-first-post-approval' => [
-		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-first-post-approval/0.1.3/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-first-post-approval/0.1.4/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-follow-tags-prompt' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-follow-tags-prompt/0.2.0/resources/locale/en.yml',
