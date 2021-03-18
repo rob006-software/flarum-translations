@@ -6,7 +6,13 @@
                 "bulk-mode-description": "=> migratetoflarum-fake-data.ref.bulk-mode-description",
                 "user-count": "=> migratetoflarum-fake-data.ref.user-count",
                 "discussion-count": "=> migratetoflarum-fake-data.ref.discussion-count",
+                "discussion-tags": "",
+                "discussion-tags-none": "",
+                "discussion-tags-random": "",
                 "post-count": "=> migratetoflarum-fake-data.ref.post-count",
+                "date": "",
+                "date-start-placeholder": "",
+                "date-interval-placeholder": "",
                 "send": "=> migratetoflarum-fake-data.ref.send",
                 "title": "Sahte veriler oluşturun"
             }
@@ -21,6 +27,9 @@
                 "bulk-mode-description": "=> migratetoflarum-fake-data.ref.bulk-mode-description",
                 "user-count": "=> migratetoflarum-fake-data.ref.user-count",
                 "post-count": "=> migratetoflarum-fake-data.ref.post-count",
+                "date": "",
+                "date-start-placeholder": "",
+                "date-interval-placeholder": "",
                 "send": "=> migratetoflarum-fake-data.ref.send"
             }
         },
@@ -32,9 +41,12 @@
             "bulk-mode": "Toplu mod",
             "bulk-mode-description": "Tek bir rastgele değer üretir ve her giriş için yeniden kullanır",
             "user-count": "Oluşturulacak kullanıcı sayısı",
-            "discussion-count": "Oluşturulacak tartışma sayısı",
             "post-count": "Oluşturulacak gönderi sayısı",
-            "send": "Veri oluştur"
+            "date": "",
+            "date-start-placeholder": "",
+            "date-interval-placeholder": "",
+            "send": "Veri oluştur",
+            "discussion-count": "Oluşturulacak tartışma sayısı"
         }
     }
 }

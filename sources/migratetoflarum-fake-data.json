@@ -5,8 +5,14 @@
                 "bulk-mode": "=> migratetoflarum-fake-data.ref.bulk-mode",
                 "bulk-mode-description": "=> migratetoflarum-fake-data.ref.bulk-mode-description",
                 "user-count": "=> migratetoflarum-fake-data.ref.user-count",
-                "discussion-count": "=> migratetoflarum-fake-data.ref.discussion-count",
+                "discussion-count": "Number of discussions to create",
+                "discussion-tags": "Tags for new discussions",
+                "discussion-tags-none": "None",
+                "discussion-tags-random": "Random",
                 "post-count": "=> migratetoflarum-fake-data.ref.post-count",
+                "date": "=> migratetoflarum-fake-data.ref.date",
+                "date-start-placeholder": "=> migratetoflarum-fake-data.ref.date-start-placeholder",
+                "date-interval-placeholder": "=> migratetoflarum-fake-data.ref.date-interval-placeholder",
                 "send": "=> migratetoflarum-fake-data.ref.send"
             }
         },
@@ -20,6 +26,9 @@
                 "bulk-mode-description": "=> migratetoflarum-fake-data.ref.bulk-mode-description",
                 "user-count": "=> migratetoflarum-fake-data.ref.user-count",
                 "post-count": "=> migratetoflarum-fake-data.ref.post-count",
+                "date": "=> migratetoflarum-fake-data.ref.date",
+                "date-start-placeholder": "=> migratetoflarum-fake-data.ref.date-start-placeholder",
+                "date-interval-placeholder": "=> migratetoflarum-fake-data.ref.date-interval-placeholder",
                 "send": "=> migratetoflarum-fake-data.ref.send"
             }
         },
@@ -31,8 +40,10 @@
             "bulk-mode": "Bulk mode",
             "bulk-mode-description": "Generates a single random value and re-use it for every entry",
             "user-count": "Number of users to create",
-            "discussion-count": "Number of discussions to create",
             "post-count": "Number of posts to create",
+            "date": "Date seed",
+            "date-start-placeholder": "Start date (default: now)",
+            "date-interval-placeholder": "Interval (default: 1 seconds)",
             "send": "Generate data"
         }
     }

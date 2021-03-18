@@ -35,6 +35,11 @@
                         "description": "前往此处创建应用：{link}",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
+                    },
+                    "linkedin": {
+                        "description": "",
+                        "client_id_label": "",
+                        "client_secret_label": ""
                     }
                 },
                 "title": "FriendsOfFlarum OAuth 认证"
@@ -56,7 +61,8 @@
                 "github": "GitHub",
                 "gitlab": "GitLab",
                 "twitter": "Twitter",
-                "google": "Google"
+                "google": "Google",
+                "linkedin": ""
             }
         },
         "ref": {
