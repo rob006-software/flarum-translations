@@ -120,6 +120,9 @@ return [
 	'clarkwinkelmann-popular-discussion-badge' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-popular-discussion-badge/0.2.2/resources/locale/en.yml',
 	],
+	'clarkwinkelmann-post-permissions' => [
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-post-permissions/0.1.0/resources/locale/en.yml',
+	],
 	'clarkwinkelmann-scratchpad' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-scratchpad/1.4.0/resources/locale/en.yml',
 	],
