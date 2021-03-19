@@ -1827,7 +1827,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
+			<span title="Incompatible with recent Flarum">🔴</span>
 			<a href="https://extiverse.com/extension/reflar/recache" title="reflar/recache"><code>reflar/recache</code></a>
 		</td>
 		<td align="center">2<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
@@ -1837,7 +1837,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
+			<span title="Incompatible with recent Flarum">🔴</span>
 			<a href="https://extiverse.com/extension/blomstra/payments" title="blomstra/payments"><code>blomstra/payments</code></a>
 		</td>
 		<td align="center">3<br /><img src="https://img.shields.io/badge/--2-brightgreen" alt="-2" title="Change from last week"></td>
@@ -1857,7 +1857,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
+			<span title="Incompatible with recent Flarum">🔴</span>
 			<a href="https://extiverse.com/extension/v17development/flarum-support" title="v17development/flarum-support"><code>v17development/flarum-support</code></a>
 		</td>
 		<td align="center">5<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
@@ -1887,7 +1887,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Incompatible with recent Flarum">🔴</span>
+			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://extiverse.com/extension/kilowhat/flarum-ext-audit-pro" title="kilowhat/flarum-ext-audit-pro"><code>kilowhat/flarum-ext-audit-pro</code></a>
 		</td>
 		<td align="center">8<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
@@ -1897,7 +1897,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
+			<span title="Incompatible with recent Flarum">🔴</span>
 			<a href="https://extiverse.com/extension/kyrne/aegis" title="kyrne/aegis"><code>kyrne/aegis</code></a>
 		</td>
 		<td align="center">9<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
@@ -1907,7 +1907,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
+			<span title="Incompatible with recent Flarum">🔴</span>
 			<a href="https://extiverse.com/extension/datitisev/flarum-backup" title="datitisev/flarum-backup"><code>datitisev/flarum-backup</code></a>
 		</td>
 		<td align="center">10<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
@@ -1927,7 +1927,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
+			<span title="Incompatible with recent Flarum">🔴</span>
 			<a href="https://extiverse.com/extension/blomstra/realtime" title="blomstra/realtime"><code>blomstra/realtime</code></a>
 		</td>
 		<td align="center">12<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
@@ -1937,7 +1937,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
+			<span title="Incompatible with recent Flarum">🔴</span>
 			<a href="https://extiverse.com/extension/blomstra/readme" title="blomstra/readme"><code>blomstra/readme</code></a>
 		</td>
 		<td align="center">13<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
@@ -1947,7 +1947,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
+			<span title="Incompatible with recent Flarum">🔴</span>
 			<a href="https://extiverse.com/extension/datitisev/flarum-maintenance" title="datitisev/flarum-maintenance"><code>datitisev/flarum-maintenance</code></a>
 		</td>
 		<td align="center">14<br /><img src="https://img.shields.io/badge/-%2B5-red" alt="+5" title="Change from last week"></td>
