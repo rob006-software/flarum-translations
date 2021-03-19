@@ -1,0 +1,50 @@
+{
+    "flarum-flags": {
+        "admin": {
+            "permissions": {
+                "flag_posts_label": "Rapporteer berichten",
+                "view_flags_label": "Bekijker gerapporteerde berichten"
+            },
+            "settings": {
+                "flag_own_posts_label": "Sta gebruikers toe hun eigen berichten te markeren",
+                "guidelines_url_label": "Gebruikers Richtlijnen URL",
+                "title": "Rapportage instellingen"
+            }
+        },
+        "forum": {
+            "flag_post": {
+                "confirmation_message": "Bedankt voor het rapporteren van dit bericht. Onze beheerders zullen dit in behandeling nemen.",
+                "dismiss_button": "=> core.ref.okay",
+                "reason_details_placeholder": "Aanvullende details (optioneel)",
+                "reason_inappropriate_label": "Ongepast",
+                "reason_inappropriate_text": "Dit bericht is beledigend, grof of schend onze <a>gebruikers richtlijnen</a>.",
+                "reason_missing_message": "Geef enkele details op voor onze moderators.",
+                "reason_off_topic_label": "Off-topic",
+                "reason_off_topic_text": "Dit bericht is niet relevant aan de discussie en moet worden verplaatst.",
+                "reason_other_label": "Overig",
+                "reason_spam_label": "Spam",
+                "reason_spam_text": "Dit bericht is een advertentie.",
+                "submit_button": "=> flarum-flags.ref.flag_post",
+                "title": "=> flarum-flags.ref.flag_post"
+            },
+            "flagged_posts": {
+                "empty_text": "Niets gerapporteerd",
+                "item_text": "{username} in <em>{discussion}</em>",
+                "title": "=> flarum-flags.ref.flagged_posts",
+                "tooltip": "=> flarum-flags.ref.flagged_posts"
+            },
+            "post": {
+                "dismiss_flag_button": "Vlag verwijderen",
+                "flagged_by_text": "{username} heeft dit gerapporteerd",
+                "flagged_by_with_reason_text": "{username} heeft dit gerapporteerd als {reason}"
+            },
+            "post_controls": {
+                "flag_button": "Rapporteer"
+            }
+        },
+        "ref": {
+            "flag_post": "Rapporteer bericht",
+            "flagged_posts": "Gerapporteerde berichten"
+        }
+    }
+}
