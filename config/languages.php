@@ -17,6 +17,7 @@ return [
 	'fr' => getComponents(),
 	'ja' => getComponents(),
 	'ka' => getComponents(),
+	'nl' => getComponents(),
 	'pl' => getComponents(),
 	'tr' => getComponents([
 		// the-turk extensions have TR translations included

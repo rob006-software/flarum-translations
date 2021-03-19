@@ -1,0 +1,39 @@
+{
+    "core": {
+        "forum": {
+            "index_sort": {
+                "popular_button": "Populair",
+                "unpopular_button": "Onpopulair"
+            }
+        }
+    },
+    "michaelbelgium-discussion-views": {
+        "forum": {
+            "modal_resetviews": {
+                "title": "Wijzig aantal keer bekeken",
+                "submit_button": "Ja, alles verwijderen",
+                "label": "Deze actie zal {count} view verwijderen van deze discussie. Doorgaan?|Deze actie zal {count} views verwijderen van deze discussie. Doorgaan?"
+            },
+            "discussion_controls": {
+                "resetviews_button": "Reset aantal keer bekeken"
+            },
+            "viewlist": {
+                "title": "Laatste bezoekers"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "reset_views_label": "Reset aantal keer bekeken van discussie's",
+                "view_number_label": "Bekijk aantal keer bekeken van discussie's"
+            },
+            "settings": {
+                "title": "Discussie \"view\" instellingen",
+                "track_unique_label": "Unieke bezoeken bijhouden",
+                "abbr_numbers_label": "Het aantal keer bekeken nummer afkorten",
+                "show_filter_label": "Sorteerveld (on)populair tonen",
+                "max_viewcount_label": "Maximum items bezoekerlijst",
+                "show_viewlist_label": "Bezoekerlijst inschakelen"
+            }
+        }
+    }
+}

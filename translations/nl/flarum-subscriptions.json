@@ -1,0 +1,50 @@
+{
+    "flarum-subscriptions": {
+        "forum": {
+            "badge": {
+                "following_tooltip": "=> flarum-subscriptions.ref.following",
+                "ignoring_tooltip": "=> flarum-subscriptions.ref.ignoring"
+            },
+            "discussion_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "unfollow_button": "Ontvolgen",
+                "unignore_button": "Stoppen met negeren"
+            },
+            "following": {
+                "meta_title_text": "=> flarum-subscriptions.ref.following"
+            },
+            "index": {
+                "following_link": "=> flarum-subscriptions.ref.following"
+            },
+            "notifications": {
+                "new_post_text": "{username} heeft gereageerd"
+            },
+            "settings": {
+                "follow_after_reply_label": "Automatisch discussies volgen als ik reageer",
+                "notify_new_post_label": "Iemand heeft gereageerd in een discussie die je volgt"
+            },
+            "sub_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "following_button": "=> flarum-subscriptions.ref.following",
+                "following_text": "Word op de hoogte gehouden van alle reacties.",
+                "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
+                "ignoring_text": "Word niet op de hoogte gesteld. Verberg van de discussielijst.",
+                "not_following_button": "Niet volgend",
+                "not_following_text": "Word op de hoogte gesteld wanneer je @genoemd wordt.",
+                "notify_alert_tooltip": "Ontvang een forum notificatie wanneer er nieuwe berichten zijn geplaatst.",
+                "notify_email_tooltip": "Ontvang een email wanneer er nieuwe berichten zijn geplaatst."
+            }
+        },
+        "email": {
+            "new_post": {
+                "subject": "[New Post] {title}",
+                "body": "Hallo {recipient_display_name}!\n\n{poster_display_name} heeft een bericht geplaatst in een discussie die je volgt: {title}.\n\nBekijk de volgende link om de nieuwe activiteit te bekijken:\n{url}\n\n---\n\n{content}\n\n---\n\nU ontvangt geen meldingen meer over deze discussie totdat u up-to-date bent.\n"
+            }
+        },
+        "ref": {
+            "follow": "Volg",
+            "following": "Volgend",
+            "ignoring": "Negerend"
+        }
+    }
+}

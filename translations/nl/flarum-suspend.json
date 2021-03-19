@@ -1,0 +1,30 @@
+{
+    "flarum-suspend": {
+        "admin": {
+            "permissions": {
+                "suspend_users_label": "Gebruikers opschorten"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "user_suspended_text": "{username} heeft je {timeReadable} opgeschort",
+                "user_unsuspended_text": "{username} unsuspended you"
+            },
+            "suspend_user": {
+                "indefinitely_label": "Opgeschort voor onbepaalde tijd",
+                "limited_time_days_text": " dagen",
+                "limited_time_label": "Opgeschort voor een beperkte tijd ...",
+                "not_suspended_label": "Niet geschorst",
+                "status_heading": "Opschortingsstatus",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "{username} opschorten"
+            },
+            "user_badge": {
+                "suspended_tooltip": "Geschorst"
+            },
+            "user_controls": {
+                "suspend_button": "Opschorten"
+            }
+        }
+    }
+}
