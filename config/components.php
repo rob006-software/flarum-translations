@@ -541,7 +541,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-stargazing-theme/0.1.1/locale/en.yml',
 	],
 	'therealsujitk-gifs' => [
-		'tag' => 'https://raw.githubusercontent.com/therealsujitk/flarum-ext-gifs/v2.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/therealsujitk/flarum-ext-gifs/v3.0.0/resources/locale/en.yml',
 	],
 	'therealsujitk-hljs' => [
 		'tag' => 'https://raw.githubusercontent.com/therealsujitk/flarum-ext-hljs/v2.0.0/resources/locale/en.yml',
