@@ -3,17 +3,17 @@
         "admin": {
             "permissions": {
                 "start": "Creare bozze",
-                "schedule": "Programmare bozze"
+                "schedule": "Pianifica bozze"
             },
             "settings": {
                 "title": "FoF Bozze",
-                "enable_scheduled_drafts": "Abilita Programmazione Bozze",
-                "schedule_on_one_server": "Usa direttiva 'onOneServer()' per la programmazione (richiede Redis/Memcache)",
-                "schedule_log_output": "Manda l'output della programmazione al registro log"
+                "enable_scheduled_drafts": "Abilita Pianificazione Bozze",
+                "schedule_on_one_server": "Usa direttiva 'onOneServer()' per la pianificazione (richiede Redis/Memcache)",
+                "schedule_log_output": "Manda l'output della pianificazione al registro log"
             }
         },
         "console": {
-            "scheduled_drafts_disabled": "La programmazione delle bozze è attualmente disabilitata nelle impostazioni."
+            "scheduled_drafts_disabled": "La pianificazione delle bozze è attualmente disabilitata nelle impostazioni."
         },
         "forum": {
             "composer": {
@@ -27,19 +27,19 @@
                 "empty_text": "Non hai salvato alcuna bozza",
                 "title": "Bozze",
                 "delete_button": "Cancella Bozza",
-                "schedule_button": "Programma Bozza",
+                "schedule_button": "Pianifica Bozza",
                 "tooltip": "=> fof-drafts.forum.dropdown.title",
                 "alert": "Sei sicuro di voler cancellare la bozza?",
                 "delete_all_alert": "Sei sicuro di voler cancellare tutte le tue bozze?"
             },
             "schedule_draft_modal": {
-                "title": "Programma Bozza",
-                "text": "Programma la tua bozza per postarla automaticamente in un secondo momento!",
-                "scheduled_text": "Programmato per {datetime}.",
+                "title": "Pianifica Bozza",
+                "text": "Pianifica la tua bozza per postarla automaticamente in un secondo momento!",
+                "scheduled_text": "Pianificato per {datetime}.",
                 "scheduled_error": "Impossibile postare: {error}.",
-                "unschedule_button": "Annulla Programmazione",
-                "reschedule_button": "Riprogramma",
-                "schedule_button": "Programma"
+                "unschedule_button": "Annulla Pianificazione",
+                "reschedule_button": "Ripianifica",
+                "schedule_button": "Pianifica"
             },
             "user": {
                 "settings": {
