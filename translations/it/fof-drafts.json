@@ -8,46 +8,46 @@
             "settings": {
                 "title": "FoF Bozze",
                 "enable_scheduled_drafts": "Abilita Programmazione Bozze",
-                "schedule_on_one_server": "",
-                "schedule_log_output": ""
+                "schedule_on_one_server": "Usa direttiva 'onOneServer()' per la programmazione (richiede Redis/Memcache)",
+                "schedule_log_output": "Manda l'output della programmazione al registro log"
             }
         },
         "console": {
-            "scheduled_drafts_disabled": ""
+            "scheduled_drafts_disabled": "La programmazione delle bozze è attualmente disabilitata nelle impostazioni."
         },
         "forum": {
             "composer": {
-                "title": "",
-                "saving": "",
-                "saved": "",
-                "exit_alert": "",
-                "discard_empty_draft_alert": ""
+                "title": "Salva Bozza",
+                "saving": "Salvo...",
+                "saved": "Salvato!",
+                "exit_alert": "Annullare modifiche alla bozza?",
+                "discard_empty_draft_alert": "Annullare bozza vuota?"
             },
             "dropdown": {
-                "empty_text": "",
-                "title": "",
-                "delete_button": "",
-                "schedule_button": "",
-                "tooltip": "",
-                "alert": "",
-                "delete_all_alert": ""
+                "empty_text": "Non hai salvato alcuna bozza",
+                "title": "Bozze",
+                "delete_button": "Cancella Bozza",
+                "schedule_button": "Programma Bozza",
+                "tooltip": "=> fof-drafts.forum.dropdown.title",
+                "alert": "Sei sicuro di voler cancellare la bozza?",
+                "delete_all_alert": "Sei sicuro di voler cancellare tutte le tue bozze?"
             },
             "schedule_draft_modal": {
-                "title": "",
-                "text": "",
-                "scheduled_text": "",
-                "scheduled_error": "",
-                "unschedule_button": "",
-                "reschedule_button": "",
-                "schedule_button": ""
+                "title": "Programma Bozza",
+                "text": "Programma la tua bozza per postarla automaticamente in un secondo momento!",
+                "scheduled_text": "Programmato per {datetime}.",
+                "scheduled_error": "Impossibile postare: {error}.",
+                "unschedule_button": "Annulla Programmazione",
+                "reschedule_button": "Riprogramma",
+                "schedule_button": "Programma"
             },
             "user": {
                 "settings": {
-                    "drafts_heading": "",
-                    "draft_autosave_enable": "",
-                    "draft_autosave_interval_label": "",
-                    "draft_autosave_interval_button": "",
-                    "draft_autosave_interval_invalid": ""
+                    "drafts_heading": "Bozze",
+                    "draft_autosave_enable": "Abilita Autosalvataggio Bozze?",
+                    "draft_autosave_interval_label": "Invervallo Autosalvataggio (secondi)",
+                    "draft_autosave_interval_button": "Aggiorna Intervallo",
+                    "draft_autosave_interval_invalid": "L'intervallo deve essere un numero intero maggiore di 4."
                 }
             }
         }
