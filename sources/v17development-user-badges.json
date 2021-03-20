@@ -1,0 +1,65 @@
+{
+    "v17development-flarum-badges": {
+        "admin": {
+            "uncategorized": "Uncategorized",
+            "new_badge": "New badge",
+            "create_category": "Create category",
+            "update_badge": "Update badge",
+            "update_category": "Update category",
+            "edit_category": "Edit category",
+            "nothing_here_yet": "You did not create any badges or categories yet.",
+            "permissions": {
+                "give_badge": "Give badge to user",
+                "take_badge": "Take badge from user"
+            },
+            "confirm_dialog": {
+                "title": "Confirm",
+                "no": "No",
+                "yes": "Yes"
+            },
+            "confirm_messages": {
+                "delete_badge": "Are you sure you want to remove this badge? It is removed from all users and is irreversible.",
+                "delete_category": "Are you sure you want to remove this category? If there are any badges in this category, they will be marked as 'uncategorized'."
+            },
+            "badge": {
+                "name": "Badge name",
+                "icon": "Badge icon",
+                "description": "Badge description",
+                "visible": "Visible",
+                "visible_description": "Enable this badge. When disabled, the badge will not be visible."
+            },
+            "badge_category": {
+                "name": "Category name",
+                "description": "Category description",
+                "enabled": "Enabled",
+                "enabled_description": "Enable this category. When disabled, all badges will be disabled and the category will be hidden."
+            }
+        },
+        "forum": {
+            "badge_information": "Badge information",
+            "all_badges": "See all badges",
+            "all_users": "See all users",
+            "give_badge": "Give badge",
+            "update_badge": "Update badge",
+            "select_badge": "Select badge",
+            "user_has_badge": "The user already has this badge.",
+            "badge": {
+                "badge": "Badge",
+                "badges": "Badges",
+                "name": "Badge name",
+                "description": "Badge description",
+                "earning_reason": "Badge earning reason",
+                "update_earning_reason": "Update earning reason",
+                "no_earning_reason": "No earning reason set",
+                "earned_on": "Badge earned on",
+                "category": "Badge category",
+                "earned_count": "<b>{count} user</b> has earned this badge|<b>{count} users</b> have earned this badge"
+            },
+            "moderation": {
+                "remove_badge": "Remove badge from user",
+                "remove_badge_confirm": "Are you sure you want to remove this badge from this user?",
+                "give_badge": "Give badge"
+            }
+        }
+    }
+}
