@@ -3,15 +3,15 @@
         "admin": {
             "permissions": {
                 "moderate_requests": "Approva richiesta cambio username/nickname",
-                "request_nickname": "Richiedi cambio nickname",
-                "request_username": "Richiedi cambio username"
+                "request_nickname": "Richiedi Cambio Nickname",
+                "request_username": "Richiedi Cambio Nome Utente"
             }
         },
         "forum": {
             "nickname_modals": {
                 "action": {
                     "title": "=> fof-username-request.ref.nickname_change_request",
-                    "help_text": "Assicurati che la richiesta di cambio username segua le linee guida del forum.",
+                    "help_text": "Assicurati che il nome utente richiesto segua le linee guida del forum.",
                     "decision_title": "Decisione",
                     "approval_label": "Approva",
                     "rejected_label": "Rifiuta",
@@ -21,16 +21,16 @@
                     "name": "{name} ha richiesto di cambiare il suo nickname in \"{requestedName}\""
                 },
                 "results": {
-                    "title": "Richiesta cambio nickname",
+                    "title": "Richiesta Cambio Nickname",
                     "approved": "La tua richiesta di cambio nickname è stata approvata",
                     "dismiss_button": "=> core.ref.okay",
                     "new_name": "Il tuo nickname è stato cambiato con successo in: {name}",
                     "rejected": "La tua richiesta di cambio nickname è stata rifiutata.",
                     "reason": "Ragione del rifiuto: <i>\"{reason}\"</i>.",
-                    "resubmit": "A questo punto puoi inviare nuovamente una nuova richiesta di modifica del nickname dalle impostazioni del tuo account, se lo desideri."
+                    "resubmit": "Puoi inviare nuovamente una nuova richiesta di modifica del nickname dalle impostazioni del tuo account, se lo desideri."
                 },
                 "request": {
-                    "title": "Richiedi cambio nickname",
+                    "title": "Richiedi Cambio Nickname",
                     "current_request": "Hai già richiesto di cambiare il tuo nickname in \"{name}\". Puoi aggiornare la tua richiesta o eliminarla.",
                     "submit_button": "Invia Richiesta",
                     "delete_button": "Cancella richiesta",
@@ -42,7 +42,7 @@
             "username_modals": {
                 "action": {
                     "title": "=> fof-username-request.ref.username_change_request",
-                    "help_text": "Assicurati che la modifica del nome utente richiesta segua le linee guida del forum.",
+                    "help_text": "Assicurati che la il nome utente richiesto segua le linee guida del forum.",
                     "decision_title": "Decisione",
                     "approval_label": "Approva",
                     "rejected_label": "Rifiuta",
@@ -52,16 +52,16 @@
                     "name": "{name} ha richiesto di cambiare il suo username in \"{requestedName}\""
                 },
                 "results": {
-                    "title": "Richiesta cambio username",
+                    "title": "Richiesta Cambio Username",
                     "approved": "La tua richiesta di cambio username è stata approvata",
                     "dismiss_button": "=> core.ref.okay",
                     "new_name": "Il tuo username è stato cambiato con successo in: {name}",
                     "rejected": "La tua richiesta di cambio username è stata rifiutata",
                     "reason": "Ragione del rifiuto: <i>\"{reason}\"</i>.",
-                    "resubmit": "A questo punto puoi inviare nuovamente una nuova richiesta di modifica del nome utente dalle impostazioni del tuo account, se lo desideri."
+                    "resubmit": "Puoi inviare nuovamente una nuova richiesta di modifica del nome utente dalle impostazioni del tuo account, se lo desideri."
                 },
                 "request": {
-                    "title": "Richiedi cambio username",
+                    "title": "Richiedi Cambio Username",
                     "current_request": "Hai già richiesto di cambiare il tuo username in \"{name}\". Puoi aggiornare la tua richiesta o eliminarla.",
                     "submit_button": "Invia Richiesta",
                     "delete_button": "Cancella Richiesta",
