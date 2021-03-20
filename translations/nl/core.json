@@ -38,10 +38,10 @@
                 "show_language_selector_label": "Toon taalkiezer",
                 "slug_driver_heading": "Slug Driver: {model}",
                 "slug_driver_text": "Selecteer een driver dat moet worden gebruikt om dit model te sluggen.",
-                "title": "Basics",
+                "title": "Basis",
                 "welcome_banner_heading": "Welkom banner",
                 "welcome_banner_text": "Configureer de tekst die wordt weergegeven in de banner op de 'Alle discussies' pagina. Gebruik dit om je gasten welkom te heten.",
-                "saved_message": "De wijzigingen zijn opgeslagen",
+                "saved_message": "De wijzigingen zijn opgeslagen.",
                 "submit_button": "=> core.ref.save_changes"
             },
             "dashboard": {
@@ -103,7 +103,7 @@
                 "submit_button": "=> core.ref.save_changes"
             },
             "extension": {
-                "configure_scopes": "",
+                "configure_scopes": "Configureer bereiken",
                 "confirm_uninstall": "Als u de installatie ongedaan maakt, worden alle database-items en assets die betrekking hebben op de extensie verwijderd. Weet je zeker dat je door wilt gaan?",
                 "disabled": "Uitgeschakeld",
                 "enable_to_see": "Schakel de extensie in om instellingen te bekijken en te wijzigen.",
@@ -165,8 +165,8 @@
                 "description": "Configureer wie wat kan zien en doen.",
                 "edit_posts_label": "Wijzig berichten",
                 "edit_users_label": "Wijzig gebruikers",
-                "edit_users_credentials_label": "",
-                "edit_users_groups_label": "",
+                "edit_users_credentials_label": "Bewerk gebruikersgegevens",
+                "edit_users_groups_label": "Bewerk gebruikersgroepen",
                 "global_heading": "Globaal",
                 "moderate_heading": "Moderatie",
                 "new_group_button": "Nieuwe groep",
@@ -195,7 +195,7 @@
                 "signup_open_button": "Open"
             },
             "settings": {
-                "saved_message": "",
+                "saved_message": "Uw wijzigingen zijn opgeslagen.",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
@@ -208,7 +208,7 @@
                 "confirm_password_placeholder": "=> core.ref.confirm_password",
                 "confirmation_message": "=> core.ref.confirmation_email_sent",
                 "dismiss_button": "=> core.ref.okay",
-                "incorrect_password_message": "Het ingevulde wachtwoord is verkeerd",
+                "incorrect_password_message": "Het ingevulde wachtwoord is verkeerd.",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.change_email"
             },
@@ -255,10 +255,10 @@
                 "rename_button": "=> core.ref.rename",
                 "reply_button": "=> core.ref.reply",
                 "restore_button": "=> core.ref.restore",
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "Toggle actiemenu van discussie"
             },
             "discussion_list": {
-                "empty_text": "Het lijkt erop dat er hier geen discussies zijn. Waarom maak je er niet een aan?",
+                "empty_text": "Het lijkt erop dat er hier geen discussies zijn.",
                 "load_more_button": "=> core.ref.load_more",
                 "mark_as_read_tooltip": "Markeren als gelezen",
                 "replied_text": "{username} heeft {ago} gereageerd",
@@ -269,7 +269,7 @@
                 "email_heading": "=> core.ref.email",
                 "email_label": "=> core.ref.email",
                 "groups_heading": "Groepen",
-                "nothing_available": "",
+                "nothing_available": "Er is op dit moment niets beschikbaar dat u kunt bewerken.",
                 "password_heading": "=> core.ref.password",
                 "password_label": "=> core.ref.password",
                 "set_password_label": "Stel een nieuw wachtwoord in",
@@ -284,18 +284,18 @@
                 "email_sent_message": "We hebben een e-mail gestuurd met een link om uw wachtwoord opnieuw in te stellen. Als je geen e-mail hebt ontvangen controleer dan je spam map.",
                 "not_found_message": "Er is geen gebruiker geregistreerd met dit e-mail adres.",
                 "submit_button": "Wachtwoord opnieuw instellen",
-                "text": "Vul je e-mailadres in, dan sturen we je een e-mail met een link om je wachtwoord opnieuw in te stellen",
+                "text": "Vul je e-mailadres in, dan sturen we je een e-mail met een link om je wachtwoord opnieuw in te stellen.",
                 "title": "Wachtwoord vergeten"
             },
             "header": {
                 "admin_button": "Administratie",
                 "back_to_index_tooltip": "Terug naar discussielijst",
-                "locale_dropdown_accessible_label": "",
+                "locale_dropdown_accessible_label": "Verander forum taal",
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Profiel",
                 "search_placeholder": "Zoeken",
-                "session_dropdown_accessible_label": "",
+                "session_dropdown_accessible_label": "Toggle sessie opties menu",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
             },
@@ -307,14 +307,14 @@
                 "meta_title_text": "=> core.ref.all_discussions",
                 "refresh_tooltip": "Herladen",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
-                "toggle_sidenav_dropdown_accessible_label": ""
+                "toggle_sidenav_dropdown_accessible_label": "Toggle navigatie dropdown menu"
             },
             "index_sort": {
                 "latest_button": "Laatste",
                 "newest_button": "Nieuwste",
                 "oldest_button": "Oudste",
                 "relevance_button": "Relevantste",
-                "toggle_dropdown_accessible_label": "",
+                "toggle_dropdown_accessible_label": "Verander de sortering van de discussielijst",
                 "top_button": "Top"
             },
             "log_in": {
@@ -333,7 +333,7 @@
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "Markeren als gelezen",
                 "title": "=> core.ref.notifications",
-                "toggle_dropdown_accessible_label": "",
+                "toggle_dropdown_accessible_label": "Bekijk meldingen",
                 "tooltip": "=> core.ref.notifications"
             },
             "post": {
