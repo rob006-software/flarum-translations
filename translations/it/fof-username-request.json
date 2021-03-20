@@ -1,0 +1,99 @@
+{
+    "fof-username-request": {
+        "admin": {
+            "permissions": {
+                "moderate_requests": "Approva richiesta cambio username/nickname",
+                "request_nickname": "Richiedi cambio nickname",
+                "request_username": "Richiedi cambio username"
+            }
+        },
+        "forum": {
+            "nickname_modals": {
+                "action": {
+                    "title": "=> fof-username-request.ref.nickname_change_request",
+                    "help_text": "Assicurati che la richiesta di cambio username segua le linee guida del forum.",
+                    "decision_title": "Decisione",
+                    "approval_label": "Approva",
+                    "rejected_label": "Rifiuta",
+                    "submit_button": "Invia",
+                    "reason_title": "Ragione del rifiuto",
+                    "success": "Decisione inviata.",
+                    "name": "{name} ha richiesto di cambiare il suo nickname in \"{requestedName}\""
+                },
+                "results": {
+                    "title": "Richiesta cambio nickname",
+                    "approved": "La tua richiesta di cambio nickname è stata approvata",
+                    "dismiss_button": "=> core.ref.okay",
+                    "new_name": "Il tuo nickname è stato cambiato con successo in: {name}",
+                    "rejected": "La tua richiesta di cambio nickname è stata rifiutata.",
+                    "reason": "Ragione del rifiuto: <i>\"{reason}\"</i>.",
+                    "resubmit": "A questo punto puoi inviare nuovamente una nuova richiesta di modifica del nickname dalle impostazioni del tuo account, se lo desideri."
+                },
+                "request": {
+                    "title": "Richiedi cambio nickname",
+                    "current_request": "Hai già richiesto di cambiare il tuo nickname in \"{name}\". Puoi aggiornare la tua richiesta o eliminarla.",
+                    "submit_button": "Invia Richiesta",
+                    "delete_button": "Cancella richiesta",
+                    "confirmation_message": "La tua richiesta di modifica del nickname è stata inviata ed è in attesa di approvazione.",
+                    "dismiss_button": "=> core.ref.okay",
+                    "deleted": "Richiesta cambio nickname eliminata."
+                }
+            },
+            "username_modals": {
+                "action": {
+                    "title": "=> fof-username-request.ref.username_change_request",
+                    "help_text": "Assicurati che la modifica del nome utente richiesta segua le linee guida del forum.",
+                    "decision_title": "Decisione",
+                    "approval_label": "Approva",
+                    "rejected_label": "Rifiuta",
+                    "submit_button": "Invia",
+                    "reason_title": "Ragione del rifiuto",
+                    "success": "Decisione inviata.",
+                    "name": "{name} ha richiesto di cambiare il suo username in \"{requestedName}\""
+                },
+                "results": {
+                    "title": "Richiesta cambio username",
+                    "approved": "La tua richiesta di cambio username è stata approvata",
+                    "dismiss_button": "=> core.ref.okay",
+                    "new_name": "Il tuo username è stato cambiato con successo in: {name}",
+                    "rejected": "La tua richiesta di cambio username è stata rifiutata",
+                    "reason": "Ragione del rifiuto: <i>\"{reason}\"</i>.",
+                    "resubmit": "A questo punto puoi inviare nuovamente una nuova richiesta di modifica del nome utente dalle impostazioni del tuo account, se lo desideri."
+                },
+                "request": {
+                    "title": "Richiedi cambio username",
+                    "current_request": "Hai già richiesto di cambiare il tuo username in \"{name}\". Puoi aggiornare la tua richiesta o eliminarla.",
+                    "submit_button": "Invia Richiesta",
+                    "delete_button": "Cancella Richiesta",
+                    "confirmation_message": "La tua richiesta di modifica del nome utente è stata inviata ed è in attesa di approvazione.",
+                    "dismiss_button": "=> core.ref.okay",
+                    "deleted": "Richiesta cambio username eliminata."
+                }
+            },
+            "pending_requests": {
+                "empty_text": "Nessuna richiesta di modifica del nome trovata.",
+                "nickname_item_text": "{name} ha richiesto un cambio nickname",
+                "nickname_exerpt": "Nickname richiesto: {requestedName}",
+                "tooltip": "=> fof-username-request.ref.name_change_requests",
+                "title": "=> fof-username-request.ref.name_change_requests",
+                "username_item_text": "{name} ha richiesto un cambio nome utente",
+                "username_exerpt": "Nome utente richiesto: {requestedName}"
+            },
+            "settings": {
+                "nickname_request_button": "Cambia Nickname",
+                "username_request_button": "Cambia Nome Utente"
+            },
+            "user": {
+                "name_history_link": "Storico Nomi"
+            }
+        },
+        "ref": {
+            "name_change_request": "Richiesta di modifica del nome",
+            "name_change_requests": "Richiesta di modifica del nome",
+            "nickname_change_request": "Richiesta di modifica nickname",
+            "nickname_change_requests": "Richiesta di modifica nickname",
+            "username_change_request": "Richiesta di modifica nome utente",
+            "username_change_requests": "Richiesta di modifica nome utente"
+        }
+    }
+}
