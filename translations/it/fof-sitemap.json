@@ -2,30 +2,30 @@
     "fof-sitemap": {
         "admin": {
             "settings": {
-                "title": "",
-                "mode_label": "",
-                "mode_help": "",
-                "mode_help_runtime_label": "",
-                "mode_help_runtime": "",
-                "mode_help_schedule": "",
-                "mode_help_schedule_setup": "",
-                "mode_help_cache_disk_label": "",
-                "mode_help_cache_disk": "",
-                "mode_help_large": "",
-                "mode_help_multi_label": "",
-                "mode_help_multi": "",
-                "advanced_options_label": "",
-                "frequency_label": "",
+                "title": "FoF Sitemap",
+                "mode_label": "Modalità di operazione",
+                "mode_help": "Scegliere la corretta modalità per la dimensione del tuo forum è di vitale importanza.",
+                "mode_help_runtime_label": "Modalità Runtime",
+                "mode_help_runtime": "Per piccoli forum, soprattutto quelli in ambienti di hosting condiviso, con un numero di discussioni, utenti, categorie e pagine che in totale è inferiore a 10.000 oggetti. La sitemap viene generata al volo ad ogni richiesta.",
+                "mode_help_schedule": "Le seguenti modalità aggiungono i loro task alla pianificazione di Flarum.",
+                "mode_help_schedule_setup": "Senza una pianificazione di Flarum correttamente impostata, le seguenti modalità non funzioneranno. Visita qui <a>per maggiori informazioni</a>.",
+                "mode_help_cache_disk_label": "Cache Mode/Disk Mode",
+                "mode_help_cache_disk": "Scelta migliore per piccoli o medi forum, soprattuto quelli in ambienti di hosting con permesso di cronjobs che hanno abilitato la pianificazione di Flarum (vedi sotto), e con un numero di discussioni, utenti, categorie e pagine che in totale è inferiore a 50.000 oggetti.",
+                "mode_help_large": "50.000 è il limite tecnico per i file delle sitemap. Se hai un numero di istanze maggiori, usa la seguente opzione!",
+                "mode_help_multi_label": "Modalità Multi-file",
+                "mode_help_multi": "Scelta migliore per forum grandi, a partire da 50.000 oggetti. File di sitemap compressi e multi-parti verranno generati e archiviati nella cartella /public",
+                "advanced_options_label": "Opzioni avanzate",
+                "frequency_label": "Quanto spesso lo scheduler dovrebbe ricostruire la cache o la sitemap del disco?",
                 "modes": {
-                    "runtime": "",
-                    "cache": "",
-                    "cache_disk": "",
-                    "multi_file": ""
+                    "runtime": "Runtime",
+                    "cache": "Cache",
+                    "cache_disk": "Disco",
+                    "multi_file": "Multi file"
                 },
                 "frequency": {
-                    "hourly": "",
-                    "twice_daily": "",
-                    "daily": ""
+                    "hourly": "Ogni ora",
+                    "twice_daily": "Due volte al giorno",
+                    "daily": "Giornalmente"
                 }
             }
         }
