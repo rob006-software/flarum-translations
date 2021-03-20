@@ -1,0 +1,35 @@
+{
+    "flarum-nicknames": {
+        "admin": {
+            "permissions": {
+                "edit_own_nickname_label": "Modificare il proprio nome utente"
+            },
+            "settings": {
+                "max_label": "Lunghezza massima del nome utente",
+                "min_label": "Lunghezza minima del nome utente",
+                "regex_label": "Regex per validazione",
+                "unique_label": "Nomi utenti univoci?"
+            },
+            "wrong_driver": "Devi selezionare \"nickname\" come driver sulla pagina <a><strong>Impostazioni di base</strong></a> per far funzionare questa estensione."
+        },
+        "api": {
+            "invalid_nickname_message": "Questo nome utente non è valido. Contatta un'amministratore."
+        },
+        "forum": {
+            "change_nickname": {
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> flarum-nicknames.ref.change_nickname"
+            },
+            "edit_user": {
+                "nicknames_heading": "=> flarum-nicknames.ref.change_nickname",
+                "nicknames_text": "Nome utente"
+            },
+            "settings": {
+                "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
+            }
+        },
+        "ref": {
+            "change_nickname": "Cambia nome utente"
+        }
+    }
+}
