@@ -1,64 +1,64 @@
 {
     "v17development-flarum-badges": {
         "admin": {
-            "uncategorized": "",
-            "new_badge": "",
-            "create_category": "",
-            "update_badge": "",
-            "update_category": "",
-            "edit_category": "",
-            "nothing_here_yet": "",
+            "uncategorized": "Senza Categoria",
+            "new_badge": "Nuovo badge",
+            "create_category": "Crea categoria",
+            "update_badge": "Aggiorna badge",
+            "update_category": "Aggiorna categoria",
+            "edit_category": "Modifica categoria",
+            "nothing_here_yet": "Non hai ancora creato badge o categorie.",
             "permissions": {
-                "give_badge": "",
-                "take_badge": ""
+                "give_badge": "Assegna badge a utente",
+                "take_badge": "Prendi badge da utente"
             },
             "confirm_dialog": {
-                "title": "",
-                "no": "",
-                "yes": ""
+                "title": "Conferma",
+                "no": "No",
+                "yes": "Yes"
             },
             "confirm_messages": {
-                "delete_badge": "",
-                "delete_category": ""
+                "delete_badge": "Sei sicuro di voler rimuovere questo badge? Viene rimosso da tutti gli utenti ed è irreversibile.",
+                "delete_category": "Sei sicuro di voler rimuovere questa categoria? Se sono presenti badge in questa categoria, verranno contrassegnati come \"senza categoria\"."
             },
             "badge": {
-                "name": "",
-                "icon": "",
-                "description": "",
-                "visible": "",
-                "visible_description": ""
+                "name": "Nome badge",
+                "icon": "Icona Badge",
+                "description": "Descrizione Badge",
+                "visible": "Visibile",
+                "visible_description": "Abilita questo badge. Quando disabilitato, il badge non sarà visibile."
             },
             "badge_category": {
-                "name": "",
-                "description": "",
-                "enabled": "",
-                "enabled_description": ""
+                "name": "Nome Categoria",
+                "description": "Descrizione categoria",
+                "enabled": "Abilitata",
+                "enabled_description": "Abilita questa categoria. Quando è disabilitata, tutti i badge saranno disabilitati e la categoria sarà nascosta."
             }
         },
         "forum": {
-            "badge_information": "",
-            "all_badges": "",
-            "all_users": "",
-            "give_badge": "",
-            "update_badge": "",
-            "select_badge": "",
-            "user_has_badge": "",
+            "badge_information": "Informazioni Badge",
+            "all_badges": "Guarda tutti i badge",
+            "all_users": "Guarda tutti gli utenti",
+            "give_badge": "Dai badge",
+            "update_badge": "Aggiorna badge",
+            "select_badge": "Scegli badge",
+            "user_has_badge": "L'utente ha già questo badge.",
             "badge": {
-                "badge": "",
-                "badges": "",
-                "name": "",
-                "description": "",
-                "earning_reason": "",
-                "update_earning_reason": "",
-                "no_earning_reason": "",
-                "earned_on": "",
-                "category": "",
-                "earned_count": ""
+                "badge": "Badge",
+                "badges": "Badge",
+                "name": "Nome badge",
+                "description": "Descrizione Badge",
+                "earning_reason": "Motivo assegnazione badge",
+                "update_earning_reason": "Aggiorna motivo assegnazione",
+                "no_earning_reason": "Nessun motivo impostato",
+                "earned_on": "Badge guadagnato il",
+                "category": "Categoria Badge",
+                "earned_count": "<b>{count} utente</b> ha guadagnato questo badge|<b>{count} utenti</b> hanno guadagnato questo badge"
             },
             "moderation": {
-                "remove_badge": "",
-                "remove_badge_confirm": "",
-                "give_badge": ""
+                "remove_badge": "Rimuovi badge da utente",
+                "remove_badge_confirm": "Sei sicuro di voler rimuovere questo badge da questo utente?",
+                "give_badge": "Dai badge"
             }
         }
     }
