@@ -1,0 +1,20 @@
+{
+    "fof-forum-statistics-widget": {
+        "forum": {
+            "navbar": {
+                "widget_title": "Statistiche forum",
+                "discussions_count": "Discussioni: {discussionsCount}",
+                "posts_count": "Post: {postsCount}",
+                "users_count": "Utenti: {usersCount}",
+                "latest_member": "Ultimo utente: "
+            }
+        },
+        "admin": {
+            "settings": {
+                "widget_ignore_private_discussions_label": "Ignora discussioni private",
+                "widget_order_label": "Posizione Widget",
+                "widget_helper_text": "Modifica questa impostazione per regolare la posizione di questo widget nella navbar del tuo forum Flarum. Più alto è il numero, più alto sarà questo widget nell'elenco degli elementi sidenav (questo valore può essere positivo o negativo)."
+            }
+        }
+    }
+}
