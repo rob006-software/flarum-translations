@@ -4,7 +4,7 @@
             "appearance": {
                 "colored_header_label": "Header colorato",
                 "colors_heading": "Colori",
-                "colors_text": "Inserisci due colori per personalizzare il tema. Il primo verrà utilizzato come colore in evidenzia, mentre il secondo verrà usato come colore per gli elementi di sfondo.",
+                "colors_text": "Inserisci due colori per personalizzare il tema. Il primo verrà utilizzato come colore in evidenza, mentre il secondo verrà usato come colore per gli elementi di sfondo.",
                 "custom_footer_heading": "Footer personalizzato",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Header personalizzato",
@@ -31,10 +31,10 @@
                 "display_name_heading": "Nome alternativo",
                 "display_name_text": "Seleziona il driver da utilizzare per visualizzare i nomi alternativi degli utenti. Di predefinito, viene mostrato il nome utente.",
                 "forum_description_heading": "Descrizione del Forum",
-                "forum_description_text": "Scrivi una breve descrizione della tua community. Apparirà nei meta tag e mostrato ai motori di ricerca.",
+                "forum_description_text": "Scrivi una breve descrizione della tua community. Apparirà nei meta tag e verrà mostrato ai motori di ricerca.",
                 "forum_title_heading": "Nome del Forum",
                 "home_page_heading": "Homepage",
-                "home_page_text": "Scegli la pagina che vuoi venga mostrata agli utenti prima di mostrare il forum.",
+                "home_page_text": "Scegli la pagina che gli utenti vedranno per la prima volta quando visitano il tuo forum.",
                 "show_language_selector_label": "Mostra il selettore di lingua",
                 "slug_driver_heading": "Driver Slug: {model}",
                 "slug_driver_text": "Seleziona il driver che verrà utilizzato per creare uno slug di questo modello.",
@@ -74,9 +74,9 @@
                 "title": "Crea gruppo"
             },
             "edit_header": {
-                "customize_text": "Aggiungi codice HTML da visualizzare in cima la pagina, sopra l'header di Flarum.",
+                "customize_text": "=> core.ref.custom_header_text",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Modifica Header"
+                "title": "=> core.ref.custom_header_title"
             },
             "email": {
                 "addresses_heading": "Indirizzi",
