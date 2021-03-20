@@ -2,27 +2,27 @@
     "ffans-clipboardjs": {
         "admin": {
             "settings": {
-                "codeLang_label": "",
-                "copy_enable_label": "",
-                "themes_label": "",
+                "codeLang_label": "Mostra linguaggio codice",
+                "copy_enable_label": "Abilita copia codice",
+                "themes_label": "Stile bottone \"copia\"",
                 "themes": {
-                    "cnblog": "",
-                    "csdn": "",
-                    "default": "",
-                    "github": "",
-                    "jianshu": "",
-                    "lingcoder": "",
-                    "segmentfault": ""
+                    "cnblog": "cnBlogs",
+                    "csdn": "CSDN",
+                    "default": "Clipboardjs di default",
+                    "github": "GitHub",
+                    "jianshu": "Jian Shu",
+                    "lingcoder": "LingCoder",
+                    "segmentfault": "SegmentFault"
                 }
             }
         },
         "forum": {
-            "action_copy": "",
-            "action_cut": "",
-            "ok_btn": "",
-            "error_btn": "",
-            "no_support": "",
-            "msg": ""
+            "action_copy": "Copia",
+            "action_cut": "Taglia",
+            "ok_btn": "Copiato",
+            "error_btn": "Errore",
+            "no_support": "Nessun supporto",
+            "msg": "Premi {actionKey} per {action}"
         }
     }
 }
