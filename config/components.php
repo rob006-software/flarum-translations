@@ -567,6 +567,9 @@ return [
 	'v17development-support' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/v17development-support.yml',
 	],
+	'v17development-user-badges' => [
+		'tag' => 'https://raw.githubusercontent.com/v17development/flarum-user-badges/v0.1.1/locale/en.yaml',
+	],
 	'xelson-chat' => [
 		'tag' => 'https://raw.githubusercontent.com/Xelson/flarum-ext-chat/v1.0.0-beta.5/resources/locale/en.yaml',
 	],
