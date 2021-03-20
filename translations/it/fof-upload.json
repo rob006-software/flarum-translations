@@ -1,0 +1,94 @@
+{
+    "fof-upload": {
+        "admin": {
+            "buttons": {
+                "save": "Salva impostazioni"
+            },
+            "help_texts": {
+                "description": "Imposta i servizi di caricamento e le preferenze.\n",
+                "disable-download-logging": "Disattiva la registrazione di ogni download effettuato dagli utenti del tuo forum. Lasciandolo attivo ti permette di visualizzare il numero di download e altre metriche in futuro.\n",
+                "disable-hotlink-protection": "La protezione da hotlink impedisce l'apertura dei dowload da altri siti. Il metodo attuale richiede un token csrf e id del post.\n",
+                "download_templates": "I modelli di scaricamento servono per cambiare il modo di come i file vengono mostrati sul tuo forum, es come le anteprime e bottoni. Attualmente sono disponibili:\n",
+                "mime_types": "Configura la mappatura qui. Ogni singolo tipo di mime sarà gestito da un adattatore di caricamento specifico.\n",
+                "resize": "Qui puoi decidere se ridimensionare le tue immagini prima che vengano caricate. Puoi impostare le dimensioni massime per larghezza e altezza, in pixel. Il processo di ridimensionamento manterrà il corretto rapporto tra i due lati.\n",
+                "watermark": "Qui puoi decidere se aggiungere un Watermark alle tue immagini. Il Watermark sarà aggiunto a tutte le immagini non GIF seguendo le impostazioni che inserirai qui sotto\n"
+            },
+            "labels": {
+                "aws-s3": {
+                    "bucket": "Bucket",
+                    "key": "Chiave",
+                    "region": "Regione",
+                    "secret": "Codice segreto",
+                    "title": "Impostazioni AWS S3"
+                },
+                "disable-download-logging": {
+                    "title": "Disattiva log degli scaricamenti",
+                    "toggle": "Disattiva"
+                },
+                "disable-hotlink-protection": {
+                    "title": "Disattiva protezione hotlink",
+                    "toggle": "Disattiva"
+                },
+                "imgur": {
+                    "client_id": "Imgur client ID",
+                    "title": "Impostazioni Imgur"
+                },
+                "local": {
+                    "cdn_url": "URL CDN (prefisso file)",
+                    "title": "Impostazioni archiviazione locale"
+                },
+                "qiniu": {
+                    "bucket": "Bucket",
+                    "key": "Chiave",
+                    "secret": "Codice segreto",
+                    "title": "Impostazioni Qiniu"
+                },
+                "preferences": {
+                    "max_file_size": "Dimensione massima dei file (in kb)",
+                    "mime_types": "Configura il mimetype, formato dei file",
+                    "title": "Preferenze generali"
+                },
+                "resize": {
+                    "max_width": "Larghezza massima delle immagini",
+                    "title": "Ridimensionamento immagini",
+                    "toggle": "Ridimensiona immagini"
+                },
+                "watermark": {
+                    "file": "Carica filigrana (watermark)",
+                    "position": "Posizione filigrana (watermark)",
+                    "title": "Filigrana (watermark) sulle immagini",
+                    "toggle": "Attiva filigrana (watermark)"
+                }
+            },
+            "permissions": {
+                "download_label": "Scaricare file",
+                "upload_label": "Caricare file"
+            },
+            "templates": {
+                "file": "Modello predefinito per i file",
+                "file_description": "Mostra il nome del file e alcune info generali. Proxa i download attraverso php, permettendo la raccolta di statistiche e protezione hotlink.\n",
+                "image": "Modello predefinito per le immagini",
+                "image-preview": "Modello di anteprima",
+                "image-preview_description": "Mostra l'immagine completa in-line. Nessuna funzionalità di download, le statistiche non sono raccolte e la protezione da hotlink è ignorata.\n",
+                "image_description": "Mostra una miniatura dell'immagine e proxa il download attraverso php. Permette la raccolta di statistiche e la protezione da hotlink.\n"
+            },
+            "upload_methods": {
+                "aws-s3": "Amazon S3",
+                "imgur": "Imgur",
+                "local": "Locale",
+                "ovh-svfs": "OVH SVFS",
+                "qiniu": "QiNiu"
+            }
+        },
+        "forum": {
+            "buttons": {
+                "attach": "Allega"
+            },
+            "states": {
+                "error": "Errore",
+                "loading": "Caricamento...",
+                "unauthorized": "Non hai permessi per scaricare file"
+            }
+        }
+    }
+}
