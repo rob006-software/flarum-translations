@@ -2,27 +2,27 @@
     "fof-follow-tags": {
         "forum": {
             "settings": {
-                "notify_new_discussion_label": "",
-                "notify_new_post_label": "",
-                "notify_new_discussion_tag_label": ""
+                "notify_new_discussion_label": "Qualcuno crea una discussione in una categoria che sto seguendo",
+                "notify_new_post_label": "Qualcuno posta in una categoria che sto seguendo",
+                "notify_new_discussion_tag_label": "Qualcuno modifica la categoria in una che sto seguendo"
             },
             "index": {
-                "follow_tag_button": "",
-                "unfollow_tag_button": "",
+                "follow_tag_button": "Segui",
+                "unfollow_tag_button": "Smetti di seguire",
                 "following": {
-                    "following_none_label": "",
-                    "following_tags_label": ""
+                    "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                    "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
                 }
             },
             "badge": {
-                "following_tag_tooltip": "",
-                "lurking_tag_tooltip": ""
+                "following_tag_tooltip": "Segui",
+                "lurking_tag_tooltip": "In Agguato"
             },
             "sub_controls": {
-                "follow_button": "",
-                "following_button": "",
-                "following_text": "",
-                "hiding_button": "",
+                "follow_button": "=> fof-follow-tags.ref.follow",
+                "following_button": "=> fof-follow-tags.ref.following",
+                "following_text": "Mandami una notifica per ogni nuova discussione.",
+                "hiding_button": "=> fof-follow-tags.ref.hiding",
                 "hiding_text": "",
                 "ignoring_button": "",
                 "ignoring_text": "",
