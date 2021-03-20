@@ -37,9 +37,9 @@
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
                     "linkedin": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "description": "Crea link applicazione a {link}.",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     }
                 }
             }
@@ -61,7 +61,7 @@
                 "gitlab": "GitLab",
                 "twitter": "Twitter",
                 "google": "Google",
-                "linkedin": ""
+                "linkedin": "LinkedIn"
             }
         },
         "ref": {
