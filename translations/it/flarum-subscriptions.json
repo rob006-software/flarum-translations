@@ -7,8 +7,8 @@
             },
             "discussion_controls": {
                 "follow_button": "=> flarum-subscriptions.ref.follow",
-                "unfollow_button": "Non seguire",
-                "unignore_button": "Non ignorare"
+                "unfollow_button": "Non Seguire",
+                "unignore_button": "Non Ignorare"
             },
             "following": {
                 "meta_title_text": "=> flarum-subscriptions.ref.following"
@@ -28,9 +28,9 @@
                 "following_button": "=> flarum-subscriptions.ref.following",
                 "following_text": "Mandami una notifica per ogni risposta.",
                 "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
-                "ignoring_text": "Nessuna notifica. Nascondimi dalla lista della discussione.",
-                "not_following_button": "Non seguire",
-                "not_following_text": "Mandami una notifica solo quando sono @citato.",
+                "ignoring_text": "Nessuna notifica. Nascondi dalla lista della discussione.",
+                "not_following_button": "Non Seguire",
+                "not_following_text": "Mandami una notifica solo quando vengo @menzionato.",
                 "notify_alert_tooltip": "Ricevi una email quando qualcuno risponde",
                 "notify_email_tooltip": "Ricevi una notifica quando qualcuno risponde"
             }
@@ -38,7 +38,7 @@
         "email": {
             "new_post": {
                 "subject": "[Nuovo Post] {title}",
-                "body": "Ciao {recipient_display_name}!\n\n{poster_display_name} ha pubblicato un post in una discussione che stai seguendo: {title}.\n\nPer visualizzare il nuovo post, clicca sul seguente link:\n{url}\n\n---\n\n{content}\n\n---\n\nNon riceverai più notifiche su questa discussione finché non sarai aggiornato.\n"
+                "body": "Ciao {recipient_display_name}!\n\n{poster_display_name} ha pubblicato un post in una discussione che stai seguendo: {title}.\n\nPer visualizzare il nuovo post, apri il seguente link:\n{url}\n\n---\n\n{content}\n\n---\n\nNon riceverai più notifiche su questa discussione finché non sarai aggiornato.\n"
             }
         },
         "ref": {
