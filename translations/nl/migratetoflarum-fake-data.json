@@ -1,0 +1,50 @@
+{
+    "migratetoflarum-fake-data": {
+        "admin": {
+            "generator": {
+                "bulk-mode": "",
+                "bulk-mode-description": "",
+                "user-count": "",
+                "discussion-count": "",
+                "discussion-tags": "",
+                "discussion-tags-none": "",
+                "discussion-tags-random": "",
+                "post-count": "",
+                "date": "",
+                "date-start-placeholder": "",
+                "date-interval-placeholder": "",
+                "send": ""
+            }
+        },
+        "forum": {
+            "link": {
+                "generate-replies": ""
+            },
+            "generator": {
+                "title": "",
+                "bulk-mode": "",
+                "bulk-mode-description": "",
+                "user-count": "",
+                "post-count": "",
+                "date": "",
+                "date-start-placeholder": "",
+                "date-interval-placeholder": "",
+                "send": ""
+            }
+        },
+        "api": {
+            "no-users-matched": "",
+            "no-discussions-matched": ""
+        },
+        "ref": {
+            "bulk-mode": "",
+            "bulk-mode-description": "",
+            "user-count": "",
+            "post-count": "",
+            "date": "",
+            "date-start-placeholder": "",
+            "date-interval-placeholder": "",
+            "send": ""
+        }
+    }
+}

@@ -3,11 +3,20 @@
         "forum": {
             "settings": {
                 "notify_new_discussion_label": "Iemand start een discussie in een tag die ik volg",
-                "notify_new_post_label": "Iemand post in een tag die ik volg"
+                "notify_new_post_label": "Iemand post in een tag die ik volg",
+                "notify_new_discussion_tag_label": ""
             },
             "index": {
                 "follow_tag_button": "Volgen",
-                "unfollow_tag_button": "Stop met volgen"
+                "unfollow_tag_button": "Stop met volgen",
+                "following": {
+                    "following_none_label": "",
+                    "following_tags_label": ""
+                }
+            },
+            "badge": {
+                "following_tag_tooltip": "",
+                "lurking_tag_tooltip": ""
             },
             "sub_controls": {
                 "follow_button": "=> fof-follow-tags.ref.follow",
@@ -26,10 +35,34 @@
             },
             "notifications": {
                 "new_discussion_text": "{username} start",
-                "new_post_text": "{username} post"
+                "new_post_text": "{username} post",
+                "new_discussion_tag_text": ""
+            },
+            "user": {
+                "settings": {
+                    "heading": "",
+                    "filter_label": ""
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "following_page_default_label": "",
+                "following_none_label": "",
+                "following_tags_label": ""
             }
         },
         "email": {
+            "subject": {
+                "newDiscussionInTag": "",
+                "newPostInTag": "",
+                "newDiscussionTag": ""
+            },
+            "body": {
+                "newDiscussionInTag": "",
+                "newPostInTag": "",
+                "newDiscussionTag": ""
+            },
             "newDiscussionInTag": "[Tag | New Discussion] title",
             "newPostInTag": "[Tag | New Post] title"
         },
@@ -38,7 +71,11 @@
             "following": "Aan het volgen",
             "hiding": "Verborgen",
             "ignoring": "Negeren",
-            "lurking": "Lurken"
+            "lurking": "Lurken",
+            "filtering_options": {
+                "none": "",
+                "tags": ""
+            }
         }
     }
 }

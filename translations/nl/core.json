@@ -21,8 +21,8 @@
                 "favicon_text": "Upload een afbeelding om weergegeven te worden als snelkoppeling.",
                 "logo_heading": "Logo",
                 "logo_text": "Upload een afbeelding om weergegeven te worden i.p.v. de forum titel.",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "Vormgeving"
+                "title": "Vormgeving",
+                "submit_button": "=> core.ref.save_changes"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -35,14 +35,14 @@
                 "forum_title_heading": "Forum titel",
                 "home_page_heading": "Homepage",
                 "home_page_text": "Kies de pagina die gebruikers voor het eerst te zien krijgen wanneer ze je forum bezoeken. Als je zelf een waarde typt, gebruik dan het path relatief aan de forum root.",
-                "saved_message": "De wijzigingen zijn opgeslagen",
                 "show_language_selector_label": "Toon taalkiezer",
                 "slug_driver_heading": "Slug Driver: {model}",
                 "slug_driver_text": "Selecteer een driver dat moet worden gebruikt om dit model te sluggen.",
-                "submit_button": "=> core.ref.save_changes",
                 "title": "Basics",
                 "welcome_banner_heading": "Welkom banner",
-                "welcome_banner_text": "Configureer de tekst die wordt weergegeven in de banner op de 'Alle discussies' pagina. Gebruik dit om je gasten welkom te heten."
+                "welcome_banner_text": "Configureer de tekst die wordt weergegeven in de banner op de 'Alle discussies' pagina. Gebruik dit om je gasten welkom te heten.",
+                "saved_message": "De wijzigingen zijn opgeslagen",
+                "submit_button": "=> core.ref.save_changes"
             },
             "dashboard": {
                 "clear_cache_button": "Cache wissen",
@@ -99,14 +99,15 @@
                 "send_test_mail_success": "Testmail succesvol verzonden!",
                 "send_test_mail_text": "Hiermee wordt een e-mail met de bovenstaande configuratie naar uw e-mailadres gestuurd, {email}.",
                 "smtp_heading": "SMTP instellingen",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "=> core.ref.email"
+                "title": "=> core.ref.email",
+                "submit_button": "=> core.ref.save_changes"
             },
             "extension": {
+                "configure_scopes": "",
                 "confirm_uninstall": "Als u de installatie ongedaan maakt, worden alle database-items en assets die betrekking hebben op de extensie verwijderd. Weet je zeker dat je door wilt gaan?",
                 "disabled": "Uitgeschakeld",
-                "enabled": "Ingeschakeld",
                 "enable_to_see": "Schakel de extensie in om instellingen te bekijken en te wijzigen.",
+                "enabled": "Ingeschakeld",
                 "info_links": {
                     "discuss": "Discussiëren",
                     "documentation": "Documentatie",
@@ -119,8 +120,8 @@
                 "no_settings": "Deze extensie heeft geen instellingen.",
                 "open_modal": "Open instellingen",
                 "permissions_title": "Rechten",
-                "saved_message": "Uw wijzigingen zijn opgeslagen.",
-                "uninstall_button": "Deïnstalleren"
+                "uninstall_button": "Deïnstalleren",
+                "saved_message": "Uw wijzigingen zijn opgeslagen."
             },
             "header": {
                 "get_help": "Krijg hulp",
@@ -164,6 +165,8 @@
                 "description": "Configureer wie wat kan zien en doen.",
                 "edit_posts_label": "Wijzig berichten",
                 "edit_users_label": "Wijzig gebruikers",
+                "edit_users_credentials_label": "",
+                "edit_users_groups_label": "",
                 "global_heading": "Globaal",
                 "moderate_heading": "Moderatie",
                 "new_group_button": "Nieuwe groep",
@@ -192,6 +195,7 @@
                 "signup_open_button": "Open"
             },
             "settings": {
+                "saved_message": "",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
@@ -250,7 +254,8 @@
                 "log_in_to_reply_button": "Log in om te reageren",
                 "rename_button": "=> core.ref.rename",
                 "reply_button": "=> core.ref.reply",
-                "restore_button": "=> core.ref.restore"
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": ""
             },
             "discussion_list": {
                 "empty_text": "Het lijkt erop dat er hier geen discussies zijn. Waarom maak je er niet een aan?",
@@ -264,6 +269,7 @@
                 "email_heading": "=> core.ref.email",
                 "email_label": "=> core.ref.email",
                 "groups_heading": "Groepen",
+                "nothing_available": "",
                 "password_heading": "=> core.ref.password",
                 "password_label": "=> core.ref.password",
                 "set_password_label": "Stel een nieuw wachtwoord in",
@@ -284,10 +290,12 @@
             "header": {
                 "admin_button": "Administratie",
                 "back_to_index_tooltip": "Terug naar discussielijst",
+                "locale_dropdown_accessible_label": "",
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Profiel",
                 "search_placeholder": "Zoeken",
+                "session_dropdown_accessible_label": "",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
             },
@@ -298,13 +306,15 @@
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
                 "refresh_tooltip": "Herladen",
-                "start_discussion_button": "=> core.ref.start_a_discussion"
+                "start_discussion_button": "=> core.ref.start_a_discussion",
+                "toggle_sidenav_dropdown_accessible_label": ""
             },
             "index_sort": {
                 "latest_button": "Laatste",
                 "newest_button": "Nieuwste",
                 "oldest_button": "Oudste",
                 "relevance_button": "Relevantste",
+                "toggle_dropdown_accessible_label": "",
                 "top_button": "Top"
             },
             "log_in": {
@@ -323,6 +333,7 @@
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "Markeren als gelezen",
                 "title": "=> core.ref.notifications",
+                "toggle_dropdown_accessible_label": "",
                 "tooltip": "=> core.ref.notifications"
             },
             "post": {
@@ -336,7 +347,8 @@
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "edit_button": "=> core.ref.edit",
                 "hide_confirmation": "Weet je zeker dat je dit bericht wilt verwijderen?",
-                "restore_button": "=> core.ref.restore"
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": ""
             },
             "post_scrubber": {
                 "now_link": "Nu",
@@ -401,7 +413,8 @@
                 "delete_confirmation": "Weet je zeker dat je deze gebruiker wilt verwijderen? De berichten van de gebruiker worden NIET verwijderd.",
                 "delete_error_message": "Het verwijderen van gebruiker <i>{username} ({email})</i> is niet gelukt",
                 "delete_success_message": "Gebruiker <i>{username} ({email})</i> is verwijderd",
-                "edit_button": "=> core.ref.edit"
+                "edit_button": "=> core.ref.edit",
+                "toggle_dropdown_accessible_label": ""
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
@@ -413,13 +426,13 @@
             "badge": {
                 "hidden_tooltip": "Verborgen"
             },
-            "username": {
-                "deleted_text": "[verwijderd]"
+            "dropdown": {
+                "toggle_dropdown_accessible_label": ""
             },
             "error": {
                 "dependent_extensions_message": "Kan {extension} pas uitschakelen als de volgende afhankelijke extensies zijn uitgeschakeld: {extensions}",
-                "missing_dependencies_message": "Kan {extension} pas inschakelen als de volgende afhankelijke extensies zijn ingeschakeld: {extensions}",
                 "generic_message": "Oeps! Er is iets misgegaan. Herlaad de pagina en probeer het opnieuw.",
+                "missing_dependencies_message": "Kan {extension} pas inschakelen als de volgende afhankelijke extensies zijn ingeschakeld: {extensions}",
                 "not_found_message": "Het opgevraagde kon niet worden gevonden.",
                 "permission_denied_message": "Je hebt geen permissie om dat te doen.",
                 "rate_limit_exceeded_message": "Je gaat een beetje te snel. Probeer het over een paar seconden nog eens."
@@ -432,6 +445,9 @@
                 "glue_text": ", ",
                 "three_text": "{first}, {second}, en {third}",
                 "two_text": "{first} en {second}"
+            },
+            "username": {
+                "deleted_text": "[verwijderd]"
             }
         },
         "views": {
