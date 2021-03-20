@@ -1,0 +1,56 @@
+{
+    "fof-best-answer": {
+        "admin": {
+            "permissions": {
+                "best_answer": "Scegli risposta migliore (propria Discussione)",
+                "best_answer_not_own_discussion": "Scegli risposta migliore (Discussione altrui)"
+            },
+            "settings": {
+                "label": {
+                    "general": "Generale",
+                    "reminders": "Promemoria",
+                    "advanced": "Avanzate",
+                    "reminders_notice": "Affinché i promemoria funzionino correttamente, è necessario aver impostato correttamente lo scheduler di Flarum."
+                },
+                "allow_select_own_post": "Consenti agli utenti di selezionare i propri post",
+                "select_best_answer_reminder_days": "Ricorda agli utenti di selezionare una risposta migliore dopo X giorni",
+                "schedule_on_one_server": "Usa la direttiva 'onOneServer()' per le pianificazioni (richiede Redis/Memcache)",
+                "schedule_stop_overnight": "Impedire l'esecuzione dell'utilità di pianificazione dei promemoria durante le ore non social (9pm - 8am server time)",
+                "schedule_log_output": "Aggiungi l'output dello scheduler alla memoria del registro",
+                "remind_tag_ids": "Per limitare i promemoria a tag particolari, inserisci qui l'ID del tag (separato da virgole)",
+                "use_alt_ui": "Usa layout alternativo (pulsante di risposta migliore nel footer del post)"
+            }
+        },
+        "forum": {
+            "answered_badge": "Risposto",
+            "this_best_answer": "Scegli risposta migliore",
+            "remove_best_answer": "Rimuvi risposta migliore",
+            "best_answer_button": "Risposta migliore",
+            "best_answer_label": "impostato da <a>{username}</a> {time_set}",
+            "errors": {
+                "mismatch": "Il post selezionato non esiste in questa discussione."
+            },
+            "notification": {
+                "best_answer_in_discussion": "{username} ha impostato la risposta migliore nella discussione",
+                "content": "Seleziona una risposta migliore se la tua domanda ha ricevuto una risposta",
+                "awarded": "Il tuo post è stato scelto come migliore risposta da {nome utente}",
+                "preferences": {
+                    "awarded_best_answer": "Quando qualcuno imposta il mio post come una risposta migliore",
+                    "best_answer_in_discussion": "Quando una risposta migliore si trova in una discussione a cui ho partecipato"
+                }
+            }
+        },
+        "email": {
+            "subject": {
+                "awarded": "Il tuo post è stato impostato come migliore risposta da {display_name}",
+                "ba-set": "Una risposta migliore è stata impostata da {display_name}",
+                "select": "Sei riuscito a ottenere una risposta alla tua domanda?"
+            },
+            "body": {
+                "awarded": "Hei {recipient_display_name},\nOttimo lavoro, {actor_display_name} ha scelto il tuo post come risposta migliore nella discussione '{discussion_title}'. Grazie di aver contribuito.\nGuardala qui: {discussion_url}\n",
+                "ba-set": "Hei {recipient_display_name},\n{actor_display_name} ha scelto la risposta migliore nella discussione '{discussion_title}' a cui hai partecipato.\nGuardala ora: {discussion_url}\n",
+                "select": "Hei {recipient_display_name},\nSto controllando alcune cose; a questo punto dovresti avere molte risposte alla tua domanda in - '{discussion_title}'. Spero che uno di loro ti abbia aiutato a risolvere il tuo problema.\nIn tal caso, sarebbe davvero utile per i futuri membri se potessi impostare una risposta migliore alla tua domanda. Aiuterà le persone con lo stesso problema a trovare la risposta di cui hanno bisogno, ed è anche un grande ringraziamento ai membri che ti hanno aiutato. Donano il loro tempo volontariamente, quindi è bello far loro sapere che hanno contribuito a risolvere il problema.\nVisita la discussione qui: {discussion_url}, e seleziona il post più appropriato come risposta migliore.\nGrazie!"
+            }
+        }
+    }
+}
