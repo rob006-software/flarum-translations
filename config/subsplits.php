@@ -22,6 +22,13 @@ return [
 		'branch' => 'master',
 		'path' => '/locale',
 	],
+	'it' => [
+		'type' => 'language',
+		'language' => 'it',
+		'repository' => 'git@github.com:justoverclockl/flarum-italian-ext.git',
+		'branch' => 'main',
+		'path' => '/locale',
+	],
 	'ja' => [
 		'type' => 'language',
 		'language' => 'ja',
