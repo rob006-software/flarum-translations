@@ -2,44 +2,44 @@
     "askvortsov-categories": {
         "admin": {
             "basics": {
-                "categories_label": ""
+                "categories_label": "Categorie"
             },
             "labels": {
-                "keep_tags_nav": "",
-                "child_bare_icon": "",
-                "compact_mobile_mode": "",
-                "full_page_desktop": "",
-                "parent_remove_icon": "",
-                "parent_remove_description": "",
-                "parent_remove_stats": "",
-                "parent_remove_last_discussion": "",
-                "small_forum_optimized": ""
+                "keep_tags_nav": "Lascia il link alla pagina delle categorie nella sidebar",
+                "child_bare_icon": "Icone delle sottocategorie senza sfondo circolare",
+                "compact_mobile_mode": "Modalità mobile compatta",
+                "full_page_desktop": "Menù della sidebar su una riga (come nella pagina delle categorie). Questa funzione nasconderà anche i widgets (come Friends of Flarum Forum Statistics) dalla barra di navigazione.",
+                "parent_remove_icon": "Nascondi le icone per le categorie principali",
+                "parent_remove_description": "Nascondi le descrizioni per le categorie principali",
+                "parent_remove_stats": "Nascondi statistiche per le categorie principali",
+                "parent_remove_last_discussion": "Nascondi le discussioni recenti dalle categorie principali",
+                "small_forum_optimized": "Ottimizza per piccoli forum. Questa funzione fornirà conteggi discussioni/post più accurati, ma rallenterà molto i forum di medie e grandi dimensioni."
             },
             "headings": {
-                "nav": "",
-                "layout": "",
-                "parent_display": "",
-                "child_display": "",
-                "performance": ""
+                "nav": "Navigazione",
+                "layout": "Layout",
+                "parent_display": "Mostra Categoria Principale",
+                "child_display": "Mostra sotto-categoria",
+                "performance": "Prestazioni"
             },
-            "title": ""
+            "title": "Impostazioni Categorie"
         },
         "forum": {
             "header": {
-                "back_to_categories_tooltip": ""
+                "back_to_categories_tooltip": "Torna alle Categorie"
             },
             "index": {
-                "categories_link": ""
+                "categories_link": "Categorie"
             },
             "meta": {
-                "categories_title": ""
+                "categories_title": "Categorie"
             },
             "stat-widgets": {
-                "discussion_label": "",
-                "post_label": ""
+                "discussion_label": "Discussioni",
+                "post_label": "Post"
             },
             "last_discussion_widget": {
-                "no_discussions": ""
+                "no_discussions": "Ancora Nessuna Discussione"
             }
         }
     }
