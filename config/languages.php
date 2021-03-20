@@ -15,6 +15,7 @@ use function rob006\flarum\translations\helpers\getComponents;
 
 return [
 	'fr' => getComponents(),
+	'it' => getComponents(),
 	'ja' => getComponents(),
 	'ka' => getComponents(),
 	'nl' => getComponents(),

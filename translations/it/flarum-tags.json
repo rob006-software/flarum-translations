@@ -1,0 +1,92 @@
+{
+    "flarum-tags": {
+        "admin": {
+            "basics": {
+                "tags_label": "=> flarum-tags.ref.tags"
+            },
+            "edit_tag": {
+                "color_label": "Colore",
+                "delete_tag_button": "Cancella Etichetta",
+                "delete_tag_confirmation": "Sei sicuro di voler cancellare questo etichetta? Le discussioni appartenenti a questa etichetta NON verranno cancellate.",
+                "description_label": "Descrizione",
+                "hide_label": "Nascondi da tutte le discussioni",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "=> flarum-tags.ref.name",
+                "name_placeholder": "=> flarum-tags.ref.name",
+                "slug_label": "Slug",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Crea etichetta"
+            },
+            "nav": {
+                "tags_button": "=> flarum-tags.ref.tags",
+                "tags_text": "Gestisci l'elenco di tag disponibili per organizzare le discussioni."
+            },
+            "permissions": {
+                "allow_edit_tags_label": "Consenti la modifica delle etichette",
+                "bypass_tag_counts_label": "Ignora i requisiti dei tag",
+                "restrict_by_tag_heading": "Limita per etichetta",
+                "tag_discussions_label": "Etichette delle discussioni"
+            },
+            "tag_settings": {
+                "range_separator_text": " a ",
+                "required_primary_heading": "Numero richiesto di etichette primarie",
+                "required_primary_text": "Inserisci il numero minimo e massimo di etichette principali che possono essere applicate ad una discussione",
+                "required_secondary_heading": "Numero richiesto di etichette secondarie",
+                "required_secondary_text": "Inserisci il numero minimo e massimo di etichette secondarie che possono essere applicate ad una discussione",
+                "title": "Impostazioni Etichetta"
+            },
+            "tags": {
+                "about_tags_text": "Le etichette vengono usate per categorizzare le discussioni. Le etichette primarie sono come le categorie tradizionali dei forum: possono essere disposte in una gerarchia a due livelli. Le etichette secondarie non hanno gerarchia o ordine, e sono utili per micro-categorizzare.",
+                "create_primary_tag_button": "Crea etichetta primaria",
+                "create_secondary_tag_button": "Crea etichetta secondaria",
+                "primary_heading": "Etichette Primarie",
+                "secondary_heading": "Etichette Secondarie",
+                "settings_heading": "Impostazioni"
+            }
+        },
+        "forum": {
+            "all_tags": {
+                "meta_description_text": "Tutti i tag",
+                "meta_title_text": "=> flarum-tags.ref.tags"
+            },
+            "choose_tags": {
+                "choose_primary_placeholder": "Scegli una etichetta primaria|Scegli {count} etichette primarie",
+                "choose_secondary_placeholder": "Scegli 1 etichetta in più|Scegli {count} etichette in più",
+                "edit_title": "Modifica etichette per {title}",
+                "submit_button": "=> core.ref.okay",
+                "title": "Scegli le etichette per la tua discussione"
+            },
+            "composer_discussion": {
+                "choose_tags_link": "Scegli Etichette"
+            },
+            "discussion_controls": {
+                "edit_tags_button": "Modifica Etichette"
+            },
+            "header": {
+                "back_to_tags_tooltip": "Ritorna alla lista delle etichette"
+            },
+            "index": {
+                "more_link": "Di più...",
+                "tags_link": "=> flarum-tags.ref.tags",
+                "untagged_link": "Senza etichetta"
+            },
+            "post_stream": {
+                "added_tags_text": "{username} ha aggiunto {tagsAdded}.",
+                "added_and_removed_tags_text": "{username} ha aggiunto {tagsAdded} e rimosso {tagsRemoved}.",
+                "removed_tags_text": "{username} ha rimosso {tagsRemoved}.",
+                "tags_text": "l'etichetta {tags}|le etichette {tags}"
+            },
+            "tag": {
+                "meta_description_text": "Tutte le discussioni con il tag {tag}"
+            }
+        },
+        "lib": {
+            "deleted_tag_text": "Eliminata"
+        },
+        "ref": {
+            "name": "Nome",
+            "tags": "Etichette"
+        }
+    }
+}
