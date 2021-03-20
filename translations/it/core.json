@@ -21,8 +21,8 @@
                 "favicon_text": "Carica un'immagine da utilizzare come favicon del sito",
                 "logo_heading": "Logo",
                 "logo_text": "Carica un'immagine da utilizzare al posto del nome del forum",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "Aspetto"
+                "title": "Aspetto",
+                "submit_button": "=> core.ref.save_changes"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -35,14 +35,14 @@
                 "forum_title_heading": "Nome del Forum",
                 "home_page_heading": "Homepage",
                 "home_page_text": "Scegli la pagina che vuoi venga mostrata agli utenti prima di mostrare il forum.",
-                "saved_message": "Le modifiche sono state salvate",
                 "show_language_selector_label": "Mostra il selettore di lingua",
                 "slug_driver_heading": "Driver Slug: {model}",
                 "slug_driver_text": "Seleziona il driver che verrà utilizzato per creare uno slug di questo modello.",
-                "submit_button": "=> core.ref.save_changes",
                 "title": "Impostazioni di base",
                 "welcome_banner_heading": "Banner di benvenuto",
-                "welcome_banner_text": "Configura il testo da visualizzare sul banner. Apparirà nella pagina <b>Tutte le discussioni</b>."
+                "welcome_banner_text": "Configura il testo da visualizzare sul banner. Apparirà nella pagina <b>Tutte le discussioni</b>.",
+                "saved_message": "Le modifiche sono state salvate",
+                "submit_button": "=> core.ref.save_changes"
             },
             "dashboard": {
                 "clear_cache_button": "Pulisci cache",
@@ -84,7 +84,6 @@
                 "driver_heading": "Seleziona Driver",
                 "driver_label": "Driver",
                 "from_label": "Mittente",
-                "heading": "=> core.ref.email",
                 "mail_encryption_label": "Crittografia",
                 "mail_host_label": "Host",
                 "mail_mailgun_domain_label": "Dominio",
@@ -100,14 +99,16 @@
                 "send_test_mail_success": "Email di prova inviata con successo!",
                 "send_test_mail_text": "This will send an email using the above configuration to your email, {email}.",
                 "smtp_heading": "Impostazioni SMTP",
+                "title": "=> core.ref.email",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "=> core.ref.email"
+                "heading": "=> core.ref.email"
             },
             "extension": {
+                "configure_scopes": "",
                 "confirm_uninstall": "Se decidi di proseguire, tutti i dati presenti nel database e i file prensenti nella cartella assets, correlati all'estensione, verranno eliminati. Sei sicuro?",
                 "disabled": "Disabilitata",
-                "enabled": "Abilitata",
                 "enable_to_see": "Abilita l'estensione per vedere e modificare le impostazioni.",
+                "enabled": "Abilitata",
                 "info_links": {
                     "discuss": "Discuss",
                     "documentation": "Documentazione",
@@ -120,8 +121,8 @@
                 "no_settings": "Non ci sono impostazioni.",
                 "open_modal": "Mostra impostazioni",
                 "permissions_title": "Permessi",
-                "saved_message": "Le tue modifiche sono state salvate",
-                "uninstall_button": "Disinstalla"
+                "uninstall_button": "Disinstalla",
+                "saved_message": "Le tue modifiche sono state salvate"
             },
             "header": {
                 "get_help": "Chiedi aiuto",
@@ -151,12 +152,13 @@
                 "email_button": "=> core.ref.email",
                 "email_title": "=> core.admin.email.description",
                 "permissions_button": "=> core.admin.permissions.title",
-                "permissions_text": "=> core.admin.permissions.description",
-                "search_placeholder": "Cerca estensioni"
+                "permissions_title": "",
+                "search_placeholder": "Cerca estensioni",
+                "permissions_text": "=> core.admin.permissions.description"
             },
             "permissions": {
-                "allow_renaming_label": "Consenti ridenominazione",
                 "allow_post_editing_label": "Consenti la modifica del messaggio",
+                "allow_renaming_label": "Consenti ridenominazione",
                 "create_heading": "Creazione",
                 "delete_discussions_forever_label": "Eliminare le discussioni per sempre",
                 "delete_discussions_label": "Eliminare le discussioni",
@@ -165,6 +167,8 @@
                 "description": "Configura chi può vedere o fare cosa.",
                 "edit_posts_label": "Modificare messaggi",
                 "edit_users_label": "Modificare utenti",
+                "edit_users_credentials_label": "",
+                "edit_users_groups_label": "",
                 "global_heading": "Globale",
                 "moderate_heading": "Moderazione",
                 "new_group_button": "Nuovo Gruppo",
@@ -176,8 +180,8 @@
                 "sign_up_label": "Registrazione",
                 "start_discussions_label": "Iniziare una discussione",
                 "title": "Permessi",
-                "view_hidden_groups_label": "Visualizzare i badge dei gruppi nascosti",
                 "view_discussions_label": "Leggere le discussioni",
+                "view_hidden_groups_label": "Visualizzare i badge dei gruppi nascosti",
                 "view_last_seen_at_label": "Vedere l'ultimo accesso di un utente",
                 "view_post_ips_label": "Visualizzare indirizzi IP di un messaggio",
                 "view_user_list_label": "Visualizzare la lista utenti"
@@ -193,6 +197,7 @@
                 "signup_open_button": "Aperta"
             },
             "settings": {
+                "saved_message": "",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
@@ -202,8 +207,8 @@
         },
         "forum": {
             "change_email": {
-                "confirmation_message": "=> core.ref.confirmation_email_sent",
                 "confirm_password_placeholder": "=> core.ref.confirm_password",
+                "confirmation_message": "=> core.ref.confirmation_email_sent",
                 "dismiss_button": "=> core.ref.okay",
                 "incorrect_password_message": "La password è errata.",
                 "submit_button": "=> core.ref.save_changes",
@@ -251,7 +256,8 @@
                 "log_in_to_reply_button": "Rispondi",
                 "rename_button": "=> core.ref.rename",
                 "reply_button": "=> core.ref.reply",
-                "restore_button": "=> core.ref.restore"
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": ""
             },
             "discussion_list": {
                 "empty_text": "Non ci sono discussioni.",
@@ -265,6 +271,7 @@
                 "email_heading": "=> core.ref.email",
                 "email_label": "=> core.ref.email",
                 "groups_heading": "Gruppi",
+                "nothing_available": "",
                 "password_heading": "=> core.ref.password",
                 "password_label": "=> core.ref.password",
                 "set_password_label": "Imposta nuova password",
@@ -285,10 +292,12 @@
             "header": {
                 "admin_button": "Amministrazione",
                 "back_to_index_tooltip": "Torna all'elenco delle discussioni",
+                "locale_dropdown_accessible_label": "",
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Profilo",
                 "search_placeholder": "Cerca...",
+                "session_dropdown_accessible_label": "",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
             },
@@ -299,13 +308,15 @@
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
                 "refresh_tooltip": "Aggiorna",
-                "start_discussion_button": "=> core.ref.start_a_discussion"
+                "start_discussion_button": "=> core.ref.start_a_discussion",
+                "toggle_sidenav_dropdown_accessible_label": ""
             },
             "index_sort": {
                 "latest_button": "Recenti",
                 "newest_button": "Nuove",
                 "oldest_button": "Vecchie",
                 "relevance_button": "Rilevanti",
+                "toggle_dropdown_accessible_label": "",
                 "top_button": "Top"
             },
             "log_in": {
@@ -324,6 +335,7 @@
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "Segna come letto",
                 "title": "Notifiche",
+                "toggle_dropdown_accessible_label": "",
                 "tooltip": "Notifiche"
             },
             "post": {
@@ -337,7 +349,8 @@
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "edit_button": "=> core.ref.edit",
                 "hide_confirmation": "Sei sicuro di volere cancellare questa discussione?",
-                "restore_button": "=> core.ref.restore"
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": ""
             },
             "post_scrubber": {
                 "now_link": "Ora",
@@ -353,8 +366,8 @@
                 "time_lapsed_text": "{period} dopo"
             },
             "rename_discussion": {
-                "title": "Rinomina discussione",
-                "submit_button": "=> core.ref.rename"
+                "submit_button": "=> core.ref.rename",
+                "title": "Rinomina discussione"
             },
             "search": {
                 "all_discussions_button": "Cerca tutte le discussioni per \"{query}\"",
@@ -374,8 +387,8 @@
                 "title": "=> core.ref.settings"
             },
             "sign_up": {
-                "email_placeholder": "=> core.ref.email",
                 "dismiss_button": "=> core.ref.okay",
+                "email_placeholder": "=> core.ref.email",
                 "log_in_text": "Hai già un account? <a>Accedi</a>",
                 "password_placeholder": "=> core.ref.password",
                 "submit_button": "=> core.ref.sign_up",
@@ -392,8 +405,8 @@
                 "joined_date_text": "Si è iscritto {ago}",
                 "online_text": "Online",
                 "posts_empty_text": "Non ci sono messaggi.",
-                "posts_load_more_button": "=> core.ref.load_more",
                 "posts_link": "=> core.ref.posts",
+                "posts_load_more_button": "=> core.ref.load_more",
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
@@ -402,7 +415,8 @@
                 "delete_confirmation": "Sei sicuro di voler eliminare questo utente? I messaggi inviati da questo utente NON verrano cancellati.",
                 "delete_error_message": "Cancellazione dell'utente <i>{username} ({email})</i> fallito",
                 "delete_success_message": "L'utente <i>{username} ({email})</i> è stato cancellato",
-                "edit_button": "=> core.ref.edit"
+                "edit_button": "=> core.ref.edit",
+                "toggle_dropdown_accessible_label": ""
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
@@ -413,6 +427,9 @@
         "lib": {
             "badge": {
                 "hidden_tooltip": "Nascosto"
+            },
+            "dropdown": {
+                "toggle_dropdown_accessible_label": ""
             },
             "error": {
                 "dependent_extensions_message": "Non puoi disattivare l'estensione {extension} finché non disattiverai le seguenti estensioni: {extensions}",

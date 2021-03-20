@@ -35,6 +35,11 @@
                         "description": "Crea un app all'indirizzo {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
+                    },
+                    "linkedin": {
+                        "description": "",
+                        "client_id_label": "",
+                        "client_secret_label": ""
                     }
                 }
             }
@@ -55,7 +60,8 @@
                 "github": "GitHub",
                 "gitlab": "GitLab",
                 "twitter": "Twitter",
-                "google": "Google"
+                "google": "Google",
+                "linkedin": ""
             }
         },
         "ref": {

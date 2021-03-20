@@ -39,9 +39,6 @@
                 "see_votes_label": "Vedere i messaggi con voti positivi/negativi",
                 "see_ranking_page": "Vedere la pagina della classifica"
             },
-            "nav": {
-                "desc": "Gamification per la community del tuo forum"
-            },
             "page": {
                 "rankings": {
                     "blocked": {
@@ -62,6 +59,7 @@
                     "auto_upvote": "Dai un voto positivo automatico quando i messaggi vengono postati",
                     "rate_limit": "Applica un tempo limite per votare (10 secondi)",
                     "discussion_page": "Mostra i voti totali del messaggio originale nella lista delle discussioni",
+                    "alternate_layout": "",
                     "title": "Voti",
                     "vote_color": "Colore del voto",
                     "icon_name": "Icona voto positivo/negativo",
@@ -85,6 +83,9 @@
                         "name": "Nome"
                     }
                 }
+            },
+            "nav": {
+                "desc": "Gamification per la community del tuo forum"
             }
         }
     }

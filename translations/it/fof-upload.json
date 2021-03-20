@@ -1,17 +1,25 @@
 {
     "fof-upload": {
         "admin": {
+            "pane": {
+                "title": "",
+                "description": ""
+            },
             "buttons": {
                 "save": "Salva impostazioni"
             },
             "help_texts": {
-                "description": "Imposta i servizi di caricamento e le preferenze.\n",
                 "disable-download-logging": "Disattiva la registrazione di ogni download effettuato dagli utenti del tuo forum. Lasciandolo attivo ti permette di visualizzare il numero di download e altre metriche in futuro.\n",
                 "disable-hotlink-protection": "La protezione da hotlink impedisce l'apertura dei dowload da altri siti. Il metodo attuale richiede un token csrf e id del post.\n",
                 "download_templates": "I modelli di scaricamento servono per cambiare il modo di come i file vengono mostrati sul tuo forum, es come le anteprime e bottoni. Attualmente sono disponibili:\n",
                 "mime_types": "Configura la mappatura qui. Ogni singolo tipo di mime sarà gestito da un adattatore di caricamento specifico.\n",
                 "resize": "Qui puoi decidere se ridimensionare le tue immagini prima che vengano caricate. Puoi impostare le dimensioni massime per larghezza e altezza, in pixel. Il processo di ridimensionamento manterrà il corretto rapporto tra i due lati.\n",
-                "watermark": "Qui puoi decidere se aggiungere un Watermark alle tue immagini. Il Watermark sarà aggiunto a tutte le immagini non GIF seguendo le impostazioni che inserirai qui sotto\n"
+                "client_extension": "",
+                "watermark": "Qui puoi decidere se aggiungere un Watermark alle tue immagini. Il Watermark sarà aggiunto a tutte le immagini non GIF seguendo le impostazioni che inserirai qui sotto\n",
+                "s3_compatible_storage": "",
+                "s3_acl": "",
+                "composer_buttons": "",
+                "description": "Imposta i servizi di caricamento e le preferenze.\n"
             },
             "labels": {
                 "aws-s3": {
@@ -19,7 +27,11 @@
                     "key": "Chiave",
                     "region": "Regione",
                     "secret": "Codice segreto",
-                    "title": "Impostazioni AWS S3"
+                    "title": "Impostazioni AWS S3",
+                    "advanced_title": "",
+                    "endpoint": "",
+                    "use_path_style_endpoint": "",
+                    "acl": ""
                 },
                 "disable-download-logging": {
                     "title": "Disattiva log degli scaricamenti",
@@ -38,10 +50,10 @@
                     "title": "Impostazioni archiviazione locale"
                 },
                 "qiniu": {
-                    "bucket": "Bucket",
+                    "title": "Impostazioni Qiniu",
                     "key": "Chiave",
                     "secret": "Codice segreto",
-                    "title": "Impostazioni Qiniu"
+                    "bucket": "Bucket"
                 },
                 "preferences": {
                     "max_file_size": "Dimensione massima dei file (in kb)",
@@ -53,16 +65,29 @@
                     "title": "Ridimensionamento immagini",
                     "toggle": "Ridimensiona immagini"
                 },
+                "client_extension": {
+                    "title": ""
+                },
                 "watermark": {
                     "file": "Carica filigrana (watermark)",
                     "position": "Posizione filigrana (watermark)",
                     "title": "Filigrana (watermark) sulle immagini",
                     "toggle": "Attiva filigrana (watermark)"
+                },
+                "composer_buttons": {
+                    "title": "",
+                    "options": {
+                        "both": "",
+                        "upload-btn": "",
+                        "media-btn": ""
+                    }
                 }
             },
             "permissions": {
                 "download_label": "Scaricare file",
-                "upload_label": "Caricare file"
+                "upload_label": "Caricare file",
+                "view_user_uploads_label": "",
+                "delete_uploads_of_others_label": ""
             },
             "templates": {
                 "file": "Modello predefinito per i file",
@@ -70,7 +95,9 @@
                 "image": "Modello predefinito per le immagini",
                 "image-preview": "Modello di anteprima",
                 "image-preview_description": "Mostra l'immagine completa in-line. Nessuna funzionalità di download, le statistiche non sono raccolte e la protezione da hotlink è ignorata.\n",
-                "image_description": "Mostra una miniatura dell'immagine e proxa il download attraverso php. Permette la raccolta di statistiche e la protezione da hotlink.\n"
+                "image_description": "Mostra una miniatura dell'immagine e proxa il download attraverso php. Permette la raccolta di statistiche e la protezione da hotlink.\n",
+                "just-url": "",
+                "just-url_description": ""
             },
             "upload_methods": {
                 "aws-s3": "Amazon S3",
@@ -81,13 +108,42 @@
             }
         },
         "forum": {
+            "media_manager": "",
             "buttons": {
-                "attach": "Allega"
+                "attach": "Allega",
+                "upload": "",
+                "user_uploads": "",
+                "cancel": "",
+                "media": ""
+            },
+            "file_list": {
+                "loading": "",
+                "empty": "",
+                "release_to_upload": "",
+                "modal_empty_desktop": "",
+                "modal_empty_phone": "",
+                "select_file_a11y_label": "",
+                "confirm_selection_btn": "",
+                "load_more_files_btn": "",
+                "hide_file": {
+                    "btn_a11y_label": "",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "hide_fail": "",
+                    "loading": ""
+                }
             },
             "states": {
                 "error": "Errore",
                 "loading": "Caricamento...",
                 "unauthorized": "Non hai permessi per scaricare file"
+            }
+        },
+        "api": {
+            "upload_errors": {
+                "forbidden_type": "",
+                "unsupported_type": "",
+                "could_not_detect_mime": ""
             }
         }
     }
