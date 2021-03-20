@@ -43,6 +43,13 @@ return [
 		'branch' => 'main',
 		'path' => '/locale',
 	],
+	'nl' => [
+		'type' => 'language',
+		'language' => 'nl',
+		'repository' => 'git@github.com:MichaelBelgium/flarum-dutch.git',
+		'branch' => 'master',
+		'path' => '/locale',
+	],
 	'pl' => [
 		'type' => 'language',
 		'language' => 'pl',
