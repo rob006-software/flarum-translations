@@ -2,16 +2,16 @@
     "blomstra-realtime": {
         "forum": {
             "push": {
-                "discussion-list-new-activity": ""
+                "discussion-list-new-activity": "Mostra {count} discussione aggiornata|Mostra {count} discussioni aggiornate"
             },
             "typing-indicator": {
-                "people-are-typing": "",
-                "no-activity": ""
+                "people-are-typing": "{number} persona sta scrivendo|{number} persone stanno scrivendo",
+                "no-activity": "Nessuno sta scrivendo"
             }
         },
         "admin": {
             "permission": {
-                "view-who-types": ""
+                "view-who-types": "Mostra chi sta scrivendo"
             }
         }
     }
