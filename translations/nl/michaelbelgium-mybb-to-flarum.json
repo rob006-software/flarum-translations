@@ -1,10 +1,6 @@
 {
     "michaelbelgium-mybb-to-flarum": {
         "admin": {
-            "nav": {
-                "title": "MyBB naar Flarum",
-                "description_text": "Converteer een MyBB forum naar deze Flarum installatie"
-            },
             "content": {
                 "description_text": "Converteer een MyBB forum naar deze Flarum installatie. Vul de vereiste gegevens in, klik nadien op \"Migreren\".",
                 "convert_button": "Migreren",
@@ -32,6 +28,10 @@
                         "migrate_categories_label": "Migreer categorieën"
                     }
                 }
+            },
+            "nav": {
+                "title": "MyBB naar Flarum",
+                "description_text": "Converteer een MyBB forum naar deze Flarum installatie"
             }
         }
     }

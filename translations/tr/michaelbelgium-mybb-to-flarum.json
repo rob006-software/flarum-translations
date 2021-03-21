@@ -1,10 +1,6 @@
 {
     "michaelbelgium-mybb-to-flarum": {
         "admin": {
-            "nav": {
-                "title": "MyBB'den Flarum'a",
-                "description_text": "Bir MyBB forumunu bu Flarum örneğine dönüştürün"
-            },
             "content": {
                 "description_text": "Bir Mybb forumunu bu Flarum örneğine dönüştürün. Gerekli verileri doldurun, ardından \"İçe Aktar\" düğmesine tıklayın.",
                 "convert_button": "İçe Aktar",
@@ -32,6 +28,10 @@
                         "migrate_categories_label": "Kategorileri içe aktarın"
                     }
                 }
+            },
+            "nav": {
+                "title": "MyBB'den Flarum'a",
+                "description_text": "Bir MyBB forumunu bu Flarum örneğine dönüştürün"
             }
         }
     },

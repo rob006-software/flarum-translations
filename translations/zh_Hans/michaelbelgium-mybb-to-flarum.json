@@ -1,10 +1,6 @@
 {
     "michaelbelgium-mybb-to-flarum": {
         "admin": {
-            "nav": {
-                "title": "MyBB 到 Flarum",
-                "description_text": "将 MyBB 论坛转换为 Flarum 实例"
-            },
             "content": {
                 "description_text": "将 Mybb 论坛转换为这个 Flarum 实例。填写所需数据，然后点击「迁移」即可。",
                 "convert_button": "迁移",
@@ -32,6 +28,10 @@
                         "migrate_categories_label": "迁移分类目录（标签）"
                     }
                 }
+            },
+            "nav": {
+                "title": "MyBB 到 Flarum",
+                "description_text": "将 MyBB 论坛转换为 Flarum 实例"
             }
         }
     },
