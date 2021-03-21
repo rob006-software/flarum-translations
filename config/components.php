@@ -414,6 +414,9 @@ return [
 	'ianm-synopsis' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/synopsis/0.2.0/resources/locale/en.yml',
 	],
+	'irony-fof-upload-github' => [
+		'tag' => 'https://raw.githubusercontent.com/892768447/fof-upload-github/0.13.1/resources/locale/en.yml',
+	],
 	'irony-login2see' => [
 		'tag' => 'https://raw.githubusercontent.com/892768447/flarum-ext-login2see/0.0.1/resources/locale/en.yml',
 	],
