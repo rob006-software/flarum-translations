@@ -562,7 +562,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/v17development/flarum-blog/v0.2.3/locale/en.yaml',
 	],
 	'v17development-seo' => [
-		'tag' => 'https://raw.githubusercontent.com/v17development/flarum-seo/v1.7.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/v17development/flarum-seo/v1.7.2/locale/en.yml',
 	],
 	'v17development-support' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/v17development-support.yml',
