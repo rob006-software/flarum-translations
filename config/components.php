@@ -88,7 +88,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-carving-contest/0.2.2/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-catch-the-fish' => [
-		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/catch-the-fish/0.1.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/catch-the-fish/0.1.3/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-create-user-modal' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-create-user-modal/1.2.1/resources/locale/en.yml',
