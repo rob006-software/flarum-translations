@@ -1,100 +1,100 @@
 {
     "v17development-flarum-blog": {
         "admin": {
-            "blog": "",
+            "blog": "Blog",
             "permissions": {
-                "write_articles": "",
-                "auto_approve_posts": "",
-                "approve_posts": ""
+                "write_articles": "Schrijf en bewerk blogartikelen",
+                "auto_approve_posts": "Plaats artikelen zonder goedkeuring",
+                "approve_posts": "Kan blogartikelen goedkeuren"
             },
             "settings": {
-                "no_categories_selected": "",
-                "selected_category_count": "",
-                "select_categories_button": "",
-                "blog_heading": "",
-                "allow_comments_label": "",
-                "allow_comments_text": "",
-                "require_review_label": "",
+                "no_categories_selected": "Geen categorieën geselecteerd",
+                "selected_category_count": "Je hebt {count} categorie geselecteerd|Je hebt {count} categorieën geselecteerd",
+                "select_categories_button": "Selecteer blog categorieën",
+                "blog_heading": "Blog",
+                "allow_comments_label": "Reacties toestaan",
+                "allow_comments_text": "Reacties zijn standaard toegestaan. Wanneer deze instelling uitgeschakeld is kan het afzonderlijk per artikel worden ingeschakeld. <b>Opmerking:</b> Het wijzigen van deze instelling heeft geen invloed op al bestaande artikelen.",
+                "require_review_label": "Blogartikelen moeten worden beoordeeld",
                 "require_review_text": "",
-                "hide_on_discussion_list_label": "",
-                "hide_on_discussion_list_text": "",
-                "add_sidebar_nav_label": "",
-                "add_sidebar_nav_text": "",
-                "categories_heading": "",
-                "hide_tags_in_taglist_label": "",
-                "hide_tags_in_taglist_text": "",
-                "show_tag_hierarchy_label": "",
-                "show_tag_hierarchy_text": "",
-                "redirects_heading": "",
-                "redirect_articles_label": "",
-                "redirect_articles_text": "",
-                "redirect_tags_label": "",
-                "redirect_tags_text": "",
-                "default_article_image_label": "",
-                "default_article_image_text": ""
+                "hide_on_discussion_list_label": "Niet weergeven in discussielijst",
+                "hide_on_discussion_list_text": "Verberg blogartikelen van de discussielijst.",
+                "add_sidebar_nav_label": "Toevoegen aan zijbalknavigatie",
+                "add_sidebar_nav_text": "Voeg een link naar de blog toe aan de zijbalknavigatie.",
+                "categories_heading": "Categorieën",
+                "hide_tags_in_taglist_label": "Verberg tags in de taglijst",
+                "hide_tags_in_taglist_text": "Indien ingeschakeld verbergt deze extensie de blogtags op de startpagina.",
+                "show_tag_hierarchy_label": "Toon taghiërarchie",
+                "show_tag_hierarchy_text": "Voeg afstand toe aan onderliggende categorieën en geef de categorielijst weer als hiërarchie.",
+                "redirects_heading": "Omleidingen",
+                "redirect_articles_label": "Leid blogartikelen om",
+                "redirect_articles_text": "Indien ingesteld zal deze extensie originele discussie-URL's omleiden naar de blog-URL.",
+                "redirect_tags_label": "Leid blogtags om",
+                "redirect_tags_text": "Indien ingesteld zal deze extensie blogtags omleiden naar de blogcategorie URL.",
+                "default_article_image_label": "Standaard artikelafbeelding",
+                "default_article_image_text": "Selecteer een standaard artikelafbeelding die zal worden weergeven wanneer er geen afbeelding is ingesteld."
             }
         },
         "forum": {
-            "blog": "",
-            "read_more": "",
-            "hidden": "",
-            "recent_posts": "",
-            "categories": "",
-            "forum_nav": "",
-            "return_to_overview": "",
+            "blog": "Blog",
+            "read_more": "Lees meer",
+            "hidden": "Verborgen",
+            "recent_posts": "Recente blogartikelen",
+            "categories": "Categorieën",
+            "forum_nav": "Forumnavigatie",
+            "return_to_overview": "Terug naar het blogoverzicht ",
             "no_more_posts": "",
-            "category_empty": "",
+            "category_empty": "Er zijn geen blogartikelen in deze categorie.",
             "compose": {
-                "write_article": ""
+                "write_article": "Schrijf artikel"
             },
             "validation": {
-                "missing_id": ""
+                "missing_id": "Het ID ontbreekt"
             },
             "article": {
-                "title": "",
-                "slug": "",
-                "summary": ""
+                "title": "Titel",
+                "slug": "Slug",
+                "summary": "Samenvatting"
             },
             "comment_section": {
-                "comments": "",
-                "locked": ""
+                "comments": "Reacties",
+                "locked": "Reacties zijn uitgeschakeld voor dit artikel"
             },
             "review_article": {
-                "pending_review_title": "",
-                "pending_review": "",
-                "approve_article": "",
-                "approve_article_approved": ""
+                "pending_review_title": "In afwachting van beoordeling",
+                "pending_review": "Dit artikel is in afwachting van beoordeling en is nog niet gepubliceerd",
+                "approve_article": "Artikel goedkeuren",
+                "approve_article_approved": "Dit artikel is goedgekeurd en is gepubliceerd"
             },
             "tools": {
-                "rename_article": "",
-                "edit_article": "",
-                "update_category": "",
-                "article_settings": "",
-                "approve_article": "",
-                "hide_article": "",
-                "recover_article": "",
-                "delete_forever": "",
-                "enable_comments": "",
-                "disable_comments": ""
+                "rename_article": "Hernoem artikel",
+                "edit_article": "Bewerk artikel",
+                "update_category": "Update categorieën",
+                "article_settings": "Artikel instellingen",
+                "approve_article": "Artikel goedkeuren",
+                "hide_article": "Artikel verbergen",
+                "recover_article": "Artikel herstellen",
+                "delete_forever": "Permanent verwijderen",
+                "enable_comments": "Reacties toestaan",
+                "disable_comments": "Reacties uitschakelen"
             },
             "utils": {
                 "redirect": {
-                    "title": "",
-                    "link": ""
+                    "title": "Je wordt omgeleid naar het blogartikel...",
+                    "link": "<a>Klik hier</a> wanneer de pagina je niet automatisch omleid"
                 }
             },
             "composer": {
-                "no_title": "",
-                "enter_message_here": "",
-                "post_article": "",
-                "select_category": "",
-                "edit_categories": "",
-                "write": "",
-                "view": "",
-                "nothing_to_preview": "",
-                "comment_section": "",
-                "no_blog_tags_selected": "",
-                "post_without_blog_info": ""
+                "no_title": "Geen titel",
+                "enter_message_here": "Schrijf een bericht",
+                "post_article": "Plaats artikel",
+                "select_category": "Selecteer een categorie",
+                "edit_categories": "Bewerk categorieën",
+                "write": "Schrijven",
+                "view": "Bekijk",
+                "nothing_to_preview": "Niets om weer te geven",
+                "comment_section": "Reacties zijn uitgeschakeld tijdens het schrijven van een artikel.",
+                "no_blog_tags_selected": "Geen van de categorieën die je hebt geselecteerd is een blogcategorie. Selecteer er in ieder geval één.",
+                "post_without_blog_info": "Weet je zeker dat je dit artikel wilt plaatsen? Je hebt deze nog geen samenvatting of afbeelding gegeven."
             }
         }
     }
