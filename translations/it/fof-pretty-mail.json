@@ -2,24 +2,24 @@
     "fof-pretty-mail": {
         "admin": {
             "nav": {
-                "desc": ""
+                "desc": "Personalizza il tuo template HTML per le email."
             },
             "settings": {
-                "label": "",
-                "reset": "",
-                "confirm": "",
-                "default": "",
-                "newPost": "",
-                "userMentioned": "",
-                "postMentioned": "",
-                "notifications": "",
-                "notificationHelp": "",
-                "help": ""
+                "label": "Template Email",
+                "reset": "Ripristina default",
+                "confirm": "Sei sicuro di voler ripristinare il template email per",
+                "default": "Template di Default",
+                "newPost": "Flarum/subscriptions Email Nuovo Post",
+                "userMentioned": "Flarum/mentions Email per utente menzionato",
+                "postMentioned": "Flarum/mentions Email per post menzionato",
+                "notifications": "Template notifiche",
+                "notificationHelp": "Si consiglia di utilizzare \"$ forumStyle\" per queste e-mail in quanto potrebbero contenere BBCODE. Queste e-mail hanno anche la variabile \"$ user\" disponibile che contiene l'intero modello utente a cui viene inviato il messaggio di posta elettronica.",
+                "help": "\"$ body\" conterrà il contenuto effettivo dell'email, \"$ forumStyle\" contiene l '<strong> intero CSS del forum </strong>, \"$ url\" è Flarums UrlGenerator, \"$ settings\" ti consente di interagire con SettingsRepositoryInterface, e \"$ link\" contiene il collegamento all'interno dell'email. Studia ogni template per  capire come usare ogni variabile."
             },
             "css_settings": {
-                "label": "",
-                "help": "",
-                "switch_label": ""
+                "label": "Impostazioni CSS",
+                "help": "Puoi scegliere di includere il CSS del forum nel codice HTML dell'email. Se lo abiliti, potresti avere problemi con alcuni provider di posta elettronica.",
+                "switch_label": "Includi CSS completo del forum"
             }
         }
     }
