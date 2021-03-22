@@ -2,8 +2,8 @@
     "flarum-flags": {
         "admin": {
             "permissions": {
-                "flag_posts_label": "Segnalare un messaggio",
-                "view_flags_label": "Visualizzare le segnalazioni"
+                "flag_posts_label": "Segnala messaggio",
+                "view_flags_label": "Visualizz post segnalati"
             },
             "settings": {
                 "flag_own_posts_label": "Consenti agli utenti di segnalare i propri messaggi",
@@ -13,7 +13,7 @@
         },
         "forum": {
             "flag_post": {
-                "confirmation_message": "Grazie per la segnalazione.",
+                "confirmation_message": "Grazie per la segnalazione. Un moderatore controllerà presto.",
                 "dismiss_button": "=> core.ref.okay",
                 "reason_details_placeholder": "Dettagli aggiuntivi (opzionale)",
                 "reason_inappropriate_label": "Non appropriato",
