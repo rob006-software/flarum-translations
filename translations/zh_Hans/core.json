@@ -290,7 +290,7 @@
                 "rename_button": "=> core.ref.rename",
                 "reply_button": "=> core.ref.reply",
                 "restore_button": "=> core.ref.restore",
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "主题下拉菜单开关"
             },
             "discussion_list": {
                 "empty_text": "这里空空如也...",
@@ -325,12 +325,12 @@
             "header": {
                 "admin_button": "后台管理",
                 "back_to_index_tooltip": "返回主题列表",
-                "locale_dropdown_accessible_label": "",
+                "locale_dropdown_accessible_label": "更改论坛语言",
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "个人主页",
                 "search_placeholder": "搜索",
-                "session_dropdown_accessible_label": "",
+                "session_dropdown_accessible_label": "会话下拉菜单开关",
                 "settings_button": "设置",
                 "sign_up_link": "=> core.ref.sign_up"
             },
@@ -342,14 +342,14 @@
                 "meta_title_text": "=> core.ref.all_discussions",
                 "refresh_tooltip": "刷新",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
-                "toggle_sidenav_dropdown_accessible_label": ""
+                "toggle_sidenav_dropdown_accessible_label": "导航栏下拉菜单开关"
             },
             "index_sort": {
                 "latest_button": "最新回复",
                 "newest_button": "新鲜出炉",
                 "oldest_button": "陈年旧贴",
                 "relevance_button": "相关推荐",
-                "toggle_dropdown_accessible_label": "",
+                "toggle_dropdown_accessible_label": "更改「全部主题」排序",
                 "top_button": "热门主题"
             },
             "log_in": {
@@ -368,7 +368,7 @@
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "标记为已读",
                 "title": "=> core.ref.notifications",
-                "toggle_dropdown_accessible_label": "",
+                "toggle_dropdown_accessible_label": "查看通知",
                 "tooltip": "=> core.ref.notifications"
             },
             "post": {
@@ -383,7 +383,7 @@
                 "edit_button": "=> core.ref.edit",
                 "hide_confirmation": "确定要删除这个帖子吗？",
                 "restore_button": "=> core.ref.restore",
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "帖子下拉菜单开关"
             },
             "post_scrubber": {
                 "now_link": "最新回复",
@@ -449,7 +449,7 @@
                 "delete_error_message": "删除用户 <i>{username} ({email})</i> 失败",
                 "delete_success_message": "已删除用户 <i>{username} ({email})</i>",
                 "edit_button": "=> core.ref.edit",
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "用户下拉菜单开关"
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
@@ -462,7 +462,7 @@
                 "hidden_tooltip": "隐藏"
             },
             "dropdown": {
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "下拉菜单开关"
             },
             "error": {
                 "dependent_extensions_message": "无法停用「{extension}」，请先停用依赖扩展「{extensions}」",
