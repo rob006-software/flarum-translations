@@ -217,7 +217,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/flarum/tags/master/locale/en.yml',
 	],
 	'flarumi-oauth-instagram' => [
-		'tag' => 'https://raw.githubusercontent.com/flarumi/oauth-instagram/v1.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarumi/oauth-instagram/v1.0.1/resources/locale/en.yml',
 	],
 	'flarumi-oauth-vkontakte' => [
 		'tag' => 'https://raw.githubusercontent.com/flarumi/oauth-vkontakte/v1.0.4/resources/locale/en.yml',
