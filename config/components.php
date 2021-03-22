@@ -223,7 +223,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarumi/oauth-vkontakte/v1.0.5/resources/locale/en.yml',
 	],
 	'flarumi-oauth-yandex' => [
-		'tag' => 'https://raw.githubusercontent.com/flarumi/oauth-yandex/v1.0.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarumi/oauth-yandex/v1.0.2/resources/locale/en.yml',
 	],
 	'flarumite-simple-discussion-views' => [
 		'tag' => 'https://raw.githubusercontent.com/flarumite/simple-discussion-views/0.3.0/resources/locale/en.yml',
