@@ -1,6 +1,6 @@
 # Flarum translations monorepo
 
-This repository contains raw translations data used by [Weblate](https://github.com/rob006-software/flarum-translations/issues) instance - an initiative to facilitate the translation process. You can read more about the project on [forum](https://discuss.flarum.org/d/20807-simplify-translation-process-with-weblate) or in [FAQ](https://github.com/rob006-software/flarum-translations/wiki).
+This repository contains raw translations data used by [Weblate](https://weblate.rob006.net/projects/flarum/) instance - an initiative to facilitate the translation process. You can read more about the project on [forum](https://discuss.flarum.org/d/20807-simplify-translation-process-with-weblate) or in [FAQ](https://github.com/rob006-software/flarum-translations/wiki).
 
 Currently supported languages:
 
@@ -13,7 +13,7 @@ Currently supported languages:
 * [Polish](https://github.com/rob006-software/flarum-lang-polish) maintained by [rob006](https://github.com/rob006) ([detailed translation status](status/pl.md))
 * Turkish ([core](https://github.com/tolgaaaltas/flarum-lang-turkish) and [extensions](https://github.com/tolgaaaltas/flarum-ext-turkish)) maintained by [tolgaaaltas](https://github.com/tolgaaaltas) ([detailed translation status](status/tr.md))
 
-If you're maintaining language pack or want to add it to the collective, open an [issue](https://github.com/rob006-software/flarum-translations/issues) or comment on the [forum](https://discuss.flarum.org/d/20807-simplify-translation-process-with-weblate).
+If you're maintaining language pack and want to add it to the collective, follow [these instructions](https://github.com/rob006-software/flarum-translations/wiki/How-to-start).
 
 
 ## Translation status by language
