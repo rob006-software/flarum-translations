@@ -23,7 +23,7 @@
             },
             "labels": {
                 "aws-s3": {
-                    "bucket": "Bucket",
+                    "bucket": "Cestino",
                     "key": "Chiave",
                     "region": "Regione",
                     "secret": "Codice segreto",
@@ -43,7 +43,7 @@
                 },
                 "imgur": {
                     "client_id": "Imgur client ID",
-                    "title": "Impostazioni Imgur"
+                    "title": "Impostazioni storage Imgur"
                 },
                 "local": {
                     "cdn_url": "URL CDN (prefisso file)",
@@ -53,7 +53,7 @@
                     "title": "Impostazioni Qiniu",
                     "key": "Chiave",
                     "secret": "Codice segreto",
-                    "bucket": "Bucket"
+                    "bucket": "Cestino"
                 },
                 "preferences": {
                     "max_file_size": "Dimensione massima dei file (in kb)",
@@ -84,8 +84,8 @@
                 }
             },
             "permissions": {
-                "download_label": "Scaricare file",
-                "upload_label": "Caricare file",
+                "download_label": "Scarica file",
+                "upload_label": "Carica file",
                 "view_user_uploads_label": "",
                 "delete_uploads_of_others_label": ""
             },
