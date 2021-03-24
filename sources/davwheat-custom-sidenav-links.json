@@ -49,26 +49,26 @@
                             "saving": "Saving changes...",
                             "saved": "No changes to save",
                             "fix_errors": "Fix errors before saving"
+                        }
+                    },
+                    "new_link_modal": {
+                        "title": "Add new link",
+                        "submit_btn": {
+                            "add": "Add link",
+                            "loading": "Adding user",
+                            "fix_url": "Invalid URL",
+                            "invalid_form": "Fill in all fields"
                         },
-                        "new_link_modal": {
-                            "title": "Add new link",
-                            "submit_btn": {
-                                "add": "Add link",
-                                "loading": "Adding user",
-                                "fix_url": "Invalid URL",
-                                "invalid_form": "Fill in all fields"
-                            },
-                            "labels": {
-                                "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.table.header.icon",
-                                "text": "=> davwheat.custom_sidenav_links.admin.settings_page.table.header.text",
-                                "url": "=> davwheat.custom_sidenav_links.admin.settings_page.table.header.url",
-                                "internal": "=> davwheat.custom_sidenav_links.admin.settings_page.table.header.internal"
-                            },
-                            "placeholders": {
-                                "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.table.placeholders.icon",
-                                "text": "=> davwheat.custom_sidenav_links.admin.settings_page.table.placeholders.text",
-                                "url": "=> davwheat.custom_sidenav_links.admin.settings_page.table.placeholders.url"
-                            }
+                        "labels": {
+                            "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.icon",
+                            "text": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.text",
+                            "url": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.url",
+                            "internal": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.internal"
+                        },
+                        "placeholders": {
+                            "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.icon",
+                            "text": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.text",
+                            "url": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.url"
                         }
                     }
                 }

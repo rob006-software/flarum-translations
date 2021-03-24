@@ -6,7 +6,8 @@
                 "manage_all_reply_templates": "Manage reply templates for all discussions"
             },
             "settings": {
-                "append_template_on_tag_change": "When tags are changed, should the new tag's template be appended even if the user has already started writing? Regardless of this setting, if tags are changed and the user has note made modifications, the template will be switched."
+                "no_tag_template": "Default template (used when discussion started with no tags selected):",
+                "append_template_on_tag_change": "When tags are changed, should the new tag's template be appended even if the user has already started writing? Regardless of this setting, if tags are changed and the user has not made modifications, the template will be switched."
             },
             "tags": {
                 "tag_template_heading": "Discussion Template",
