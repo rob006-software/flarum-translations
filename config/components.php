@@ -43,7 +43,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-categories/v2.1.0/resources/locale/en.yml',
 	],
 	'askvortsov-checklist' => [
-		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-checklist/v1.0.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-checklist/v1.1.0/resources/locale/en.yml',
 	],
 	'askvortsov-discussion-templates' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-discussion-templates/v0.6.0/resources/locale/en.yml',
