@@ -565,7 +565,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/tpokorra/flarum-ext-post-notification/0.3.15-beta.16/resources/locale/en.yml',
 	],
 	'v17development-blog' => [
-		'tag' => 'https://raw.githubusercontent.com/v17development/flarum-blog/v0.2.3/locale/en.yaml',
+		'tag' => 'https://raw.githubusercontent.com/v17development/flarum-blog/v0.3.0/locale/en.yaml',
 	],
 	'v17development-seo' => [
 		'tag' => 'https://raw.githubusercontent.com/v17development/flarum-seo/v1.7.2/locale/en.yml',
