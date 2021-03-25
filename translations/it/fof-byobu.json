@@ -93,13 +93,13 @@
                 "private_discussion_created": "[Discussione Privata] {display_name} ha avviato una nuova discussione privata con te",
                 "private_discussion_replied": "[Discussione Privata] {display_name} ha scritto in una discussione privata",
                 "recipient_removed": "[Discussione Privata] {display_name} ha lasciato la discussione",
-                "private_discussion_added": ""
+                "private_discussion_added": "[Discussione Privata] {display_name} ti ha aggiunto a una discussione privata"
             },
             "body": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": ""
+                "private_discussion_created": "Ciao {recipient_display_name},\n\n{actor_display_name} ha avviato una nuova discussione privata con te come destinatario, dal titolo '{discussion_title}'.\n\nGuardala qui:\n{discussion_url}\n\nPotrebbe essere necessario effettuare il login prima di poter accedere a questo collegamento.\n",
+                "private_discussion_replied": "Ciao {recipient_display_name},\n\n{actor_display_name} pubblicato in una discussione privata con te come destinatario, dal titolo '{discussion_title}'.\n\nGuardala qui:\n{post_url}\n\nPotrebbe essere necessario effettuare il login prima di poter accedere a questo collegamento.\n",
+                "recipient_removed": "Ciao {recipient_display_name},\n\n{actor_display_name} ha lasciato la discussione privata '{discussion_title}'. Non sarà più in grado di visualizzare nessuno dei suoi contenuti.\n\nGuarda la discussione qui:\n{discussion_url}\n\nPotrebbe essere necessario effettuare il login prima di poter accedere a questo collegamento.\n",
+                "private_discussion_added": "Ciao {recipient_display_name},\n\n{actor_display_name} ti ha aggiunto a una discussione privata esistente, intotolata '{discussion_title}'.\n\nGuarda la discussione qui:\n{discussion_url}\n\nPotrebbe essere necessario effettuare il login prima di poter accedere a questo collegamento.\n"
             }
         }
     }
