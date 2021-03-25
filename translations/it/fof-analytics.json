@@ -3,31 +3,31 @@
         "admin": {
             "popup": {
                 "section": {
-                    "googleAnalytics": "",
-                    "piwik": ""
+                    "googleAnalytics": "Google Analytics",
+                    "piwik": "Piwik"
                 },
                 "field": {
                     "statusGoogle": "Abilita Google Analytics",
-                    "optTrackingCode": "",
-                    "googleTrackingCode": "",
-                    "googleGTMCode": "",
-                    "statusPiwik": "",
-                    "piwikUrl": "",
-                    "piwikSiteId": "",
-                    "piwikTrackSubdomain": "",
-                    "piwikPrependDomain": "",
-                    "piwikHideAliasUrl": "",
-                    "piwikAliasUrl": "",
-                    "piwikTrackAccounts": "",
-                    "piwikAuthToken": ""
+                    "optTrackingCode": "Ottimizza Tracking Code (opzionale)",
+                    "googleTrackingCode": "Id Tracking Code",
+                    "googleGTMCode": "ID codice GTM (opzionale)",
+                    "statusPiwik": "Abilita Piwik",
+                    "piwikUrl": "Dominio o URL Piwik",
+                    "piwikSiteId": "ID Sito",
+                    "piwikTrackSubdomain": "Tieni traccia dei visitatori in tutti i sottodomini di Flarum",
+                    "piwikPrependDomain": "Anteponi il dominio del sito al titolo della pagina durante il monitoraggio",
+                    "piwikHideAliasUrl": "Nel rapporto \"Outlink\", nascondi i clic su URL alias noti",
+                    "piwikAliasUrl": "URL Alias",
+                    "piwikTrackAccounts": "Tieni traccia dei singoli account utente",
+                    "piwikAuthToken": "Token di Autenticazione"
                 },
                 "placeholder": {
-                    "piwikAuthToken": ""
+                    "piwikAuthToken": "Compila questo token per abilitare una scheda delle statistiche di Piwik nel pannello di amministrazione.\nPuoi trovarlo in Impostazioni> Personale> Token di autenticazione API.\n"
                 },
                 "trackAccounts": {
-                    "none": "",
-                    "username": "",
-                    "email": ""
+                    "none": "Non tracciare",
+                    "username": "Traccia da nome utente",
+                    "email": "Traccia tramite email"
                 }
             }
         }
