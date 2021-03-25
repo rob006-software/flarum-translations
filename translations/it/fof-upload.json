@@ -2,8 +2,8 @@
     "fof-upload": {
         "admin": {
             "pane": {
-                "title": "",
-                "description": ""
+                "title": "Carica",
+                "description": "Configura i servizi di caricamento e le preferenze."
             },
             "buttons": {
                 "save": "Salva impostazioni"
@@ -14,11 +14,11 @@
                 "download_templates": "I modelli di scaricamento servono per cambiare il modo di come i file vengono mostrati sul tuo forum, es come le anteprime e bottoni. Attualmente sono disponibili:\n",
                 "mime_types": "Configura la mappatura qui. Ogni singolo tipo di mime sarà gestito da un adattatore di caricamento specifico.\n",
                 "resize": "Qui puoi decidere se ridimensionare le tue immagini prima che vengano caricate. Puoi impostare le dimensioni massime per larghezza e altezza, in pixel. Il processo di ridimensionamento manterrà il corretto rapporto tra i due lati.\n",
-                "client_extension": "",
+                "client_extension": "Per impostazione predefinita, il caricamento sceglierà un'estensione di file sicura in base al tipo MIME.\nPer alcuni tipi di file basati su ZIP o dati binari, ciò può comportare l'utilizzo di estensioni generiche invece di quelle previste.\nQui puoi inserire un elenco separato da virgole di estensioni di file che verranno mantenute alla lettera.\n",
                 "watermark": "Qui puoi decidere se aggiungere un Watermark alle tue immagini. Il Watermark sarà aggiunto a tutte le immagini non GIF seguendo le impostazioni che inserirai qui sotto\n",
-                "s3_compatible_storage": "",
-                "s3_acl": "",
-                "composer_buttons": "",
+                "s3_compatible_storage": "Le seguenti impostazioni sono necessarie solo quando si utilizza l'archiviazione compatibile S3. Se utilizzi AWS, puoi lasciarli vuoti.\n",
+                "s3_acl": "L'ACL da applicare all'oggetto caricato (predefinito: privato). Per i valori possibili, vedere https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "composer_buttons": "Per impostazione predefinita, sono visibili sia il pulsante del gestore multimediale che il pulsante di caricamento. Puoi anche scegliere di visualizzare un solo pulsante.\n",
                 "description": "Imposta i servizi di caricamento e le preferenze.\n"
             },
             "labels": {
@@ -28,10 +28,10 @@
                     "region": "Regione",
                     "secret": "Codice segreto",
                     "title": "Impostazioni AWS S3",
-                    "advanced_title": "",
-                    "endpoint": "",
-                    "use_path_style_endpoint": "",
-                    "acl": ""
+                    "advanced_title": "Impostazioni di archiviazione S3 avanzate",
+                    "endpoint": "Endpoint",
+                    "use_path_style_endpoint": "Usa path style endpoint",
+                    "acl": "Elenco di controllo accessi (ACL)"
                 },
                 "disable-download-logging": {
                     "title": "Disattiva log degli scaricamenti",
@@ -66,7 +66,7 @@
                     "toggle": "Ridimensiona immagini"
                 },
                 "client_extension": {
-                    "title": ""
+                    "title": "Estensioni di file fornite dall'utente"
                 },
                 "watermark": {
                     "file": "Carica filigrana (watermark)",
@@ -75,19 +75,19 @@
                     "toggle": "Attiva filigrana (watermark)"
                 },
                 "composer_buttons": {
-                    "title": "",
+                    "title": "Bottoni Composer",
                     "options": {
-                        "both": "",
-                        "upload-btn": "",
-                        "media-btn": ""
+                        "both": "Entrambi",
+                        "upload-btn": "Solo pulsante di caricamento",
+                        "media-btn": "Solo pulsante Media manager"
                     }
                 }
             },
             "permissions": {
                 "download_label": "Scarica file",
                 "upload_label": "Carica file",
-                "view_user_uploads_label": "",
-                "delete_uploads_of_others_label": ""
+                "view_user_uploads_label": "Visualizza i caricamenti degli utenti",
+                "delete_uploads_of_others_label": "Cancella caricamenti degli utenti"
             },
             "templates": {
                 "file": "Modello predefinito per i file",
@@ -96,8 +96,8 @@
                 "image-preview": "Modello di anteprima",
                 "image-preview_description": "Mostra l'immagine completa in-line. Nessuna funzionalità di download, le statistiche non sono raccolte e la protezione da hotlink è ignorata.\n",
                 "image_description": "Mostra una miniatura dell'immagine e proxa il download attraverso php. Permette la raccolta di statistiche e la protezione da hotlink.\n",
-                "just-url": "",
-                "just-url_description": ""
+                "just-url": "Solo URL",
+                "just-url_description": "Inserisci solo l'URL. Il rendering può essere gestito da altre estensioni con capacità di collegamento automatico. Nessuna funzionalità di download, nessuna statistica viene raccolta e la protezione hotlink viene ignorata.\n"
             },
             "upload_methods": {
                 "aws-s3": "Amazon S3",
@@ -108,29 +108,29 @@
             }
         },
         "forum": {
-            "media_manager": "",
+            "media_manager": "Media manager",
             "buttons": {
                 "attach": "Allega",
-                "upload": "",
-                "user_uploads": "",
-                "cancel": "",
-                "media": ""
+                "upload": "Carica",
+                "user_uploads": "Caricamenti Utente",
+                "cancel": "Cancella",
+                "media": "I miei media"
             },
             "file_list": {
-                "loading": "",
-                "empty": "",
-                "release_to_upload": "",
-                "modal_empty_desktop": "",
-                "modal_empty_phone": "",
-                "select_file_a11y_label": "",
-                "confirm_selection_btn": "",
-                "load_more_files_btn": "",
+                "loading": "Caricamento file...",
+                "empty": "Non ci sono file da mostrare.",
+                "release_to_upload": "Rilascia per caricare",
+                "modal_empty_desktop": "Il tuo elenco di file è vuoto. Fare clic sul pulsante o trascinare un file qui per caricarlo.",
+                "modal_empty_phone": "Il tuo elenco di file è vuoto. Tocca il pulsante in alto per caricare un file.",
+                "select_file_a11y_label": "Scegli file \"{fileName}\"",
+                "confirm_selection_btn": "Scegli file|Scegli file",
+                "load_more_files_btn": "Carica più file",
                 "hide_file": {
-                    "btn_a11y_label": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "hide_fail": "",
-                    "loading": ""
+                    "btn_a11y_label": "Nascondi \"{fileName}\" dal media manager",
+                    "hide_confirmation": "Sei sicuro di voler nascondere \"{fileName}\"? Nascondere un file lo rimuoverà solo dal tuo gestore multimediale e non influirà sui post esistenti.",
+                    "hide_success": "File nascosti",
+                    "hide_fail": "Impossibile nascondere il file \"{fileName}\"",
+                    "loading": "Nascondo file..."
                 }
             },
             "states": {
@@ -141,9 +141,9 @@
         },
         "api": {
             "upload_errors": {
-                "forbidden_type": "",
-                "unsupported_type": "",
-                "could_not_detect_mime": ""
+                "forbidden_type": "Il caricamento di file di questo tipo non è consentito.",
+                "unsupported_type": "L'adattatore di caricamento non supporta il tipo MIME fornito: {mime}.",
+                "could_not_detect_mime": "Impossibile rilevare il tipo MIME di questo file, riprova."
             }
         }
     }
