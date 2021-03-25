@@ -2,20 +2,20 @@
     "fof-linguist": {
         "admin": {
             "tabs": {
-                "strings": "",
-                "coverage": "",
-                "export": "",
-                "import": ""
+                "strings": "Çeviriler",
+                "coverage": "Kapsam",
+                "export": "Dışa Aktar",
+                "import": "İçe Aktar"
             },
             "buttons": {
                 "apply": "Uygula",
                 "reset": "Aslına döndür",
                 "copy-original": "Asıl metin kopyala",
                 "load-more": "Daha fazla",
-                "delete-redundant": "",
-                "delete-redundant-confirm": "",
-                "delete-all": "",
-                "delete-all-confirm": ""
+                "delete-redundant": "Gereksiz çevirileri sil",
+                "delete-redundant-confirm": "Bu, aynı olan orijinal ve özel değerlere sahip {count} çeviriyi silecektir. Bu, bir dil paketi güncellemesinden sonra temizlemek için yararlı olabilir.\n",
+                "delete-all": "Çevirileri sil",
+                "delete-all-confirm": "Bu, {count} özel çevirinizin TÜMÜNÜ silecektir. Saklamak isteyebileceğiniz her şeyi dışa aktardığınızdan veya yedeklediğinizden emin olun.\n"
             },
             "locales": {
                 "all": "Tümü"
@@ -40,8 +40,8 @@
                     "own": "Özel"
                 },
                 "operation-options": {
-                    "or": "",
-                    "and": ""
+                    "or": "Bir diğeri",
+                    "and": "Tümü"
                 },
                 "for-extension": "Uzantılar için",
                 "frontend": "",
@@ -62,8 +62,8 @@
                     "namespace": ""
                 },
                 "total-options": {
-                    "percent": "",
-                    "count": ""
+                    "percent": "Yüzde",
+                    "count": "Sayı"
                 },
                 "columns": {
                     "namespace": "",
@@ -72,15 +72,15 @@
                     "all-frontends": ""
                 },
                 "count": {
-                    "percent": "",
-                    "total": "",
-                    "details": ""
+                    "percent": "% {percent}",
+                    "total": "{translated} / {total}",
+                    "details": "{total} toplam / {original} orijinal / {custom} özel"
                 },
-                "all-namespaces": "",
+                "all-namespaces": "Tümü",
                 "apply-missing-filter": ""
             },
             "export": {
-                "title": "",
+                "title": "Dışa Aktar",
                 "warning": "",
                 "locale": "",
                 "locale-all": "",
