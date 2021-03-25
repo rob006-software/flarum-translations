@@ -1,64 +1,64 @@
 {
     "v17development-flarum-badges": {
         "admin": {
-            "uncategorized": "",
-            "new_badge": "",
-            "create_category": "",
-            "update_badge": "",
-            "update_category": "",
-            "edit_category": "",
-            "nothing_here_yet": "",
+            "uncategorized": "Kategorize edilmemiş",
+            "new_badge": "Yeni rozet",
+            "create_category": "Kategori oluştur",
+            "update_badge": "Rozeti güncelle",
+            "update_category": "Kategoriyi güncelle",
+            "edit_category": "Kategoriyi düzenle",
+            "nothing_here_yet": "Henüz bir rozet veya kategori oluşturmamışsın.",
             "permissions": {
-                "give_badge": "",
-                "take_badge": ""
+                "give_badge": "Kullanıcıya rozet ver",
+                "take_badge": "Kullanıcıdan rozeti al"
             },
             "confirm_dialog": {
-                "title": "",
-                "no": "",
-                "yes": ""
+                "title": "Onayla",
+                "no": "Hayır",
+                "yes": "Evet"
             },
             "confirm_messages": {
-                "delete_badge": "",
-                "delete_category": ""
+                "delete_badge": "Rozeti kaldırmak istediğinize emin misiniz? Tüm kullanıcılardan kaldırılır ve geri alınamaz.",
+                "delete_category": "Kategoriyi kaldırmak istediğinize emin misiniz? Kategoride rozet versa \"Kategorize edilmemiş\" olarak değiştirilir."
             },
             "badge": {
-                "name": "",
-                "icon": "",
-                "description": "",
-                "visible": "",
-                "visible_description": ""
+                "name": "Rozet adı",
+                "icon": "Rozet simgesi",
+                "description": "Rozet açıklaması",
+                "visible": "Görünür",
+                "visible_description": "Bu rozeti etkinleştir. Etkisizleştirildiğinde rozet görünür olmaz."
             },
             "badge_category": {
-                "name": "",
-                "description": "",
-                "enabled": "",
-                "enabled_description": ""
+                "name": "Kategori adı",
+                "description": "Kategori açıklaması",
+                "enabled": "Etkinleştirildi",
+                "enabled_description": "Bu kategoriyi etkinleştir. Etkisizleştirildiğinde tüm rozetler ve kategori gizlenir."
             }
         },
         "forum": {
-            "badge_information": "",
-            "all_badges": "",
-            "all_users": "",
-            "give_badge": "",
-            "update_badge": "",
-            "select_badge": "",
-            "user_has_badge": "",
+            "badge_information": "Rozet bilgisi",
+            "all_badges": "Tüm rozetleri gör",
+            "all_users": "Tüm kullanıcıları gör",
+            "give_badge": "Rozet ver",
+            "update_badge": "Rozeti güncelle",
+            "select_badge": "Rozeti seç",
+            "user_has_badge": "Bu kullanıcı zaten rozete sahip.",
             "badge": {
-                "badge": "",
-                "badges": "",
-                "name": "",
-                "description": "",
-                "earning_reason": "",
-                "update_earning_reason": "",
-                "no_earning_reason": "",
-                "earned_on": "",
-                "category": "",
-                "earned_count": ""
+                "badge": "Rozet",
+                "badges": "Rozetler",
+                "name": "Rozet adı",
+                "description": "Rozet açıklaması",
+                "earning_reason": "Rozeti kazanma nedeni",
+                "update_earning_reason": "Kazanma nedenini güncelle",
+                "no_earning_reason": "Kazanma nedeni yok",
+                "earned_on": "Rozet şu nedenle kazanıldı",
+                "category": "Rozet kategorisi",
+                "earned_count": "<b>{count} kullanıcı</b> bu rozete sahip|<b>{count} kullanıcı</b> bu rozete sahip"
             },
             "moderation": {
-                "remove_badge": "",
-                "remove_badge_confirm": "",
-                "give_badge": ""
+                "remove_badge": "Kullanıcıdan rozeti kaldır",
+                "remove_badge_confirm": "Bu kullanıcıdan rozeti kaldırmak istediğine emin misiniz?",
+                "give_badge": "Rozet ver"
             }
         }
     }
