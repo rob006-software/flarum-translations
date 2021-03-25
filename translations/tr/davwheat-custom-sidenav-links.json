@@ -4,51 +4,51 @@
             "admin": {
                 "settings_page": {
                     "display_options": {
-                        "heading": "",
+                        "heading": "Görüntü ayarlar",
                         "options": {
                             "position": {
-                                "above-tags-link": "",
-                                "below-tags-link": ""
+                                "above-tags-link": "\"Etiketler düğmesinin üstünde",
+                                "below-tags-link": "\"Etiketler\" düğmesinin altında"
                             }
                         },
                         "labels": {
-                            "position": "",
-                            "top_spacer": "",
-                            "bottom_spacer": ""
+                            "position": "Bağlantı yerleşimi",
+                            "top_spacer": "Üst ayracı göster",
+                            "bottom_spacer": "Alt ayracı göster"
                         }
                     },
                     "link_table": {
-                        "heading": "",
-                        "add_link_btn": "",
-                        "confirm_delete": "",
+                        "heading": "Bağlantıları özelleştir",
+                        "add_link_btn": "Yeni bağlantı ekle",
+                        "confirm_delete": "Bağlantının silinmesini onayla \"{link}\"",
                         "alert": {
-                            "fix_errors": ""
+                            "fix_errors": "Ayarları kaydetmeden önce aşağıda yukarıda belirtilen sorunları giderin."
                         },
                         "table": {
                             "header": {
-                                "position": "",
-                                "icon": "",
-                                "text": "",
-                                "url": "",
-                                "internal": "",
-                                "delete": ""
+                                "position": "Konumlandırma",
+                                "icon": "Bağlantı simgesi",
+                                "text": "Bağlantı metni",
+                                "url": "Bağlantı adresi",
+                                "internal": "Bu Flarum bağlantısı mı?",
+                                "delete": "Kaldır"
                             },
                             "placeholders": {
-                                "icon": "",
-                                "text": "",
-                                "url": ""
+                                "icon": "fas fa-link",
+                                "text": "Benim harika sitem",
+                                "url": "https://flarum.org"
                             },
                             "tooltips": {
-                                "move_up": "",
-                                "move_down": "",
-                                "icon_preview": ""
+                                "move_up": "Yukarı taşı",
+                                "move_down": "Aşağı taşı",
+                                "icon_preview": "Simge önizlemesi"
                             }
                         },
                         "save_btn": {
-                            "dirty": "",
-                            "saving": "",
-                            "saved": "",
-                            "fix_errors": ""
+                            "dirty": "Ayarları kaydet",
+                            "saving": "Ayarlar kaydediliyor...",
+                            "saved": "Kaydedilecek değişiklik bulunmuyor",
+                            "fix_errors": "Kaydetmeden önce hataları giderin"
                         },
                         "new_link_modal": {
                             "title": "",
@@ -72,23 +72,23 @@
                         }
                     },
                     "new_link_modal": {
-                        "title": "",
+                        "title": "Yeni bağlantı ekle",
                         "submit_btn": {
-                            "add": "",
+                            "add": "Yeni bağlantı",
                             "loading": "",
-                            "fix_url": "",
-                            "invalid_form": ""
+                            "fix_url": "Geçersiz bağlantı",
+                            "invalid_form": "Tüm alanları doldurun"
                         },
                         "labels": {
-                            "icon": "",
-                            "text": "",
-                            "url": "",
-                            "internal": ""
+                            "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.icon",
+                            "text": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.text",
+                            "url": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.url",
+                            "internal": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.internal"
                         },
                         "placeholders": {
-                            "icon": "",
-                            "text": "",
-                            "url": ""
+                            "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.icon",
+                            "text": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.text",
+                            "url": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.url"
                         }
                     },
                     "heading": "",
