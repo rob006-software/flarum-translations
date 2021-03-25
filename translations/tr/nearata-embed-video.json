@@ -3,22 +3,22 @@
         "admin": {
             "settings": {
                 "options": {
-                    "airplay": "",
-                    "hotkey": "",
-                    "lang": "",
-                    "logo": "",
-                    "quality_switching": "",
-                    "theme": ""
+                    "airplay": "Airplay",
+                    "hotkey": "Kısayol",
+                    "lang": "Oynatıcı dili",
+                    "logo": "Logo bağlantısı",
+                    "quality_switching": "Kalite Seçimine İzin Ver",
+                    "theme": "Tema rengi"
                 },
                 "permissions": {
-                    "can_create_video_player": ""
+                    "can_create_video_player": "Video oynatıcı oluşturabilir"
                 },
                 "video_types": {
-                    "dash": "",
-                    "flv": "",
-                    "hls": "",
-                    "shaka": "",
-                    "webtorrent": ""
+                    "dash": "Dash",
+                    "flv": "Flv",
+                    "hls": "Hls",
+                    "shaka": "Shaka",
+                    "webtorrent": "WebTorrent"
                 }
             }
         },
