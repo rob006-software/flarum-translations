@@ -97,7 +97,7 @@
                 "send_test_mail_button": "Invia",
                 "send_test_mail_heading": "Invia email di prova",
                 "send_test_mail_success": "Email di prova inviata con successo!",
-                "send_test_mail_text": "This will send an email using the above configuration to your email, {email}.",
+                "send_test_mail_text": "Questo invierà un'email utilizzando la configurazione qui sopra, {email}.",
                 "smtp_heading": "Impostazioni SMTP",
                 "title": "=> core.ref.email",
                 "submit_button": "=> core.ref.save_changes",
@@ -105,7 +105,7 @@
             },
             "extension": {
                 "configure_scopes": "Configura ambiti",
-                "confirm_uninstall": "Se decidi di proseguire, tutti i dati presenti nel database e i file prensenti nella cartella assets, correlati all'estensione, verranno eliminati. Sei sicuro?",
+                "confirm_uninstall": "La disinstallazione rimuoverà tutte le voci del database e le risorse correlate all'estensione. Sei sicuro di voler continuare?",
                 "disabled": "Disabilitata",
                 "enable_to_see": "Abilita l'estensione per vedere e modificare le impostazioni.",
                 "enabled": "Abilitata",
@@ -117,19 +117,19 @@
                     "support": "Assistenza",
                     "website": "Sito web"
                 },
-                "no_permissions": "Non ci sono permessi.",
-                "no_settings": "Non ci sono impostazioni.",
+                "no_permissions": "Questa estensione non ha autorizzazioni.",
+                "no_settings": "Questa estensione non ha impostazioni.",
                 "open_modal": "Mostra impostazioni",
                 "permissions_title": "Permessi",
                 "uninstall_button": "Disinstalla",
-                "saved_message": "Le tue modifiche sono state salvate"
+                "saved_message": "Le tue modifiche sono state salvate."
             },
             "header": {
                 "get_help": "Chiedi aiuto",
                 "log_out_button": "=> core.ref.log_out"
             },
             "loading": {
-                "title": "Caricamento..."
+                "title": "Attendi..."
             },
             "nav": {
                 "appearance_button": "=> core.admin.appearance.title",
@@ -142,7 +142,7 @@
                     "discussion": "Discussione",
                     "feature": "Funzionalità",
                     "formatting": "Formattazione",
-                    "language": "Pacchetti di lingue",
+                    "language": "Lingue",
                     "moderation": "Moderazione",
                     "other": "Altre estensioni",
                     "theme": "Temi"
@@ -157,25 +157,25 @@
                 "permissions_text": "=> core.admin.permissions.description"
             },
             "permissions": {
-                "allow_post_editing_label": "Consenti la modifica del messaggio",
+                "allow_post_editing_label": "Consenti modifica del messaggio",
                 "allow_renaming_label": "Consenti ridenominazione",
                 "create_heading": "Creazione",
-                "delete_discussions_forever_label": "Eliminare le discussioni per sempre",
-                "delete_discussions_label": "Eliminare le discussioni",
-                "delete_posts_forever_label": "Eliminare messaggi per sempre",
-                "delete_posts_label": "Cancellare messaggi",
+                "delete_discussions_forever_label": "Elimina le discussioni per sempre",
+                "delete_discussions_label": "Elimina discussioni",
+                "delete_posts_forever_label": "Elimina i post per sempre",
+                "delete_posts_label": "Elimina post",
                 "description": "Configura chi può vedere o fare cosa.",
-                "edit_posts_label": "Modificare messaggi",
-                "edit_users_label": "Modificare utenti",
+                "edit_posts_label": "Modifica post",
+                "edit_users_label": "Modifica attributi utente",
                 "edit_users_credentials_label": "Modifica credenziali utente",
                 "edit_users_groups_label": "Modifica gruppi utente",
                 "global_heading": "Globale",
                 "moderate_heading": "Moderazione",
                 "new_group_button": "Nuovo Gruppo",
                 "participate_heading": "Partecipazione",
-                "post_without_throttle_label": "Rispondere consecutivamente molteplici volte senza aspettare",
+                "post_without_throttle_label": "Rispondi più volte senza attendere",
                 "read_heading": "Lettura",
-                "rename_discussions_label": "Rinominare le discussioni",
+                "rename_discussions_label": "Rinomina discussioni",
                 "reply_to_discussions_label": "Rispondere alle discussioni",
                 "sign_up_label": "Registrazione",
                 "start_discussions_label": "Iniziare una discussione",
@@ -210,13 +210,13 @@
                 "confirm_password_placeholder": "=> core.ref.confirm_password",
                 "confirmation_message": "=> core.ref.confirmation_email_sent",
                 "dismiss_button": "=> core.ref.okay",
-                "incorrect_password_message": "La password è errata.",
+                "incorrect_password_message": "La password immessa è errata.",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.change_email"
             },
             "change_password": {
-                "send_button": "Cambia Password",
-                "text": "Clicca sul pulsante qui sotto per ricevere una e-mail e cambiare password",
+                "send_button": "Invia e-mail di reimpostazione password",
+                "text": "Clicca sul pulsante qui sotto per ricevere una e-mail e cambiare password.",
                 "title": "=> core.ref.change_password"
             },
             "composer": {
@@ -242,7 +242,7 @@
             },
             "composer_reply": {
                 "body_placeholder": "=> core.ref.write_a_reply",
-                "discard_confirmation": "Sei sicuro di voler cancellare il messaggio?",
+                "discard_confirmation": "Non hai pubblicato la tua risposta. Vuoi scartarla?",
                 "posted_message": "La tua risposta è stata pubblicata.",
                 "submit_button": "Rispondi",
                 "view_button": "=> core.ref.view"
@@ -253,14 +253,14 @@
                 "delete_button": "=> core.ref.delete",
                 "delete_confirmation": "Sei sicuro di voler cancellare questa discussione? Questa azione è irreversibile.",
                 "delete_forever_button": "=> core.ref.delete_forever",
-                "log_in_to_reply_button": "Rispondi",
+                "log_in_to_reply_button": "Accedi per rispondere",
                 "rename_button": "=> core.ref.rename",
                 "reply_button": "=> core.ref.reply",
                 "restore_button": "=> core.ref.restore",
                 "toggle_dropdown_accessible_label": "Attiva/disattiva il menu a discesa delle azioni di discussione"
             },
             "discussion_list": {
-                "empty_text": "Non ci sono discussioni.",
+                "empty_text": "Sembra che non ci siano discussioni qui.",
                 "load_more_button": "=> core.ref.load_more",
                 "mark_as_read_tooltip": "Segna come letto",
                 "replied_text": "{username} ha risposto {ago}",
@@ -284,19 +284,19 @@
                 "dismiss_button": "=> core.ref.okay",
                 "email_placeholder": "=> core.ref.email",
                 "email_sent_message": "Ti abbiamo inviato una e-mail contenente un link per reimpostare la password. Controlla la cartella SPAM se non la ricevi entro 1-2 minuti.",
-                "not_found_message": "E-mail o password errata.",
+                "not_found_message": "Nessun utente registrato con questo indirizzo e-mail.",
                 "submit_button": "Recupera Password",
-                "text": "Inserisci il tuo indirizzo e-mail per reimpostare la password",
+                "text": "Inserisci il tuo indirizzo email e ti invieremo un link per reimpostare la tua password.",
                 "title": "Password dimenticata"
             },
             "header": {
                 "admin_button": "Amministrazione",
                 "back_to_index_tooltip": "Torna all'elenco delle discussioni",
-                "locale_dropdown_accessible_label": "Cambia la lingua del forum",
+                "locale_dropdown_accessible_label": "Cambia lingua del forum",
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Profilo",
-                "search_placeholder": "Cerca...",
+                "search_placeholder": "Cerca",
                 "session_dropdown_accessible_label": "Attiva/disattiva il menu a discesa delle opzioni di sessione",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
@@ -334,9 +334,9 @@
                 "empty_text": "Non ci sono notifiche",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "Segna come letto",
-                "title": "Notifiche",
+                "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Vedi notifiche",
-                "tooltip": "Notifiche"
+                "tooltip": "=> core.ref.notifications"
             },
             "post": {
                 "edited_text": "Modificato",
@@ -348,7 +348,7 @@
                 "delete_confirmation": "Sei sicuro di volere cancellare questa discussione per sempre? Questa azione è irreversibile.",
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "edit_button": "=> core.ref.edit",
-                "hide_confirmation": "Sei sicuro di volere cancellare questa discussione?",
+                "hide_confirmation": "Sei sicuro di voler eliminare questo post?",
                 "restore_button": "=> core.ref.restore",
                 "toggle_dropdown_accessible_label": "Attiva/disattiva il menu a discesa dei controlli del post"
             },
@@ -397,7 +397,7 @@
                 "welcome_text": "Benvenuto, {username}!"
             },
             "user": {
-                "avatar_remove_button": "Rimuovi",
+                "avatar_remove_button": "=> core.ref.remove",
                 "avatar_upload_button": "Carica",
                 "avatar_upload_tooltip": "Carica un avatar",
                 "discussions_link": "=> core.ref.discussions",
