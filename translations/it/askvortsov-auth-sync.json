@@ -1,15 +1,15 @@
 {
     "askvortsov-auth-sync": {
         "admin": {
-            "title": "",
+            "title": "Configurazione Auth Sync",
             "labels": {
-                "ignored_avatar": "",
-                "stop_avatar_change": "",
-                "stop_bio_change": "",
-                "sync_avatar": "",
-                "sync_groups": "",
-                "sync_bio": "",
-                "sync_masquerade": ""
+                "ignored_avatar": "Se un avatar restituito è uguale a questo, non verrà impostato da auth. Questo può essere utilizzato per ignorare i valori di avatar predefiniti.",
+                "stop_avatar_change": "Impedire agli utenti di cambiare il loro avatar da Flarum?",
+                "stop_bio_change": "Impedire agli utenti di modificare la loro biografia da Flarum? (Richiede l'estensione Bio utente di Friends of Flarum)",
+                "sync_avatar": "Sincronizzare avatar?",
+                "sync_groups": "Sincronizzare gruppi?",
+                "sync_bio": "Sincronizzare Bio? (Richiede l'estensione User Bio di Friends of Flarum)",
+                "sync_masquerade": "Sincronizzare gli attributi di Masquerade? Richiede l'estensione Friends of Flarum Masquerade."
             }
         }
     }
