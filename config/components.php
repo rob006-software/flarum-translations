@@ -358,7 +358,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/secure-https/0.3.0/resources/locale/en.yml',
 	],
 	'fof-sentry' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sentry/0.7.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sentry/0.8.0/resources/locale/en.yml',
 	],
 	'fof-share-social' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/share-social/0.3.0/resources/locale/en.yml',
