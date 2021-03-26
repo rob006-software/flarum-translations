@@ -420,6 +420,9 @@ return [
 	'irony-login2see' => [
 		'tag' => 'https://raw.githubusercontent.com/892768447/flarum-ext-login2see/0.0.1/resources/locale/en.yml',
 	],
+	'irony-upload' => [
+		'tag' => 'https://raw.githubusercontent.com/892768447/flarum-upload/0.13.1/resources/locale/en.yml',
+	],
 	'itnt-uitab' => [
 		'tag' => 'https://raw.githubusercontent.com/Littlegolden/flarum-uitab/v0.3.2/resources/locale/en.yml',
 	],
