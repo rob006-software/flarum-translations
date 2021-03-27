@@ -1,0 +1,141 @@
+{
+    "kilowhat-audit": {
+        "admin": {
+            "permissions": {
+                "view": ""
+            },
+            "header": {
+                "title": "",
+                "free": "",
+                "pro": "",
+                "upgrade": ""
+            }
+        },
+        "forum": {
+            "link": {
+                "discussion-audit": "",
+                "user-audit": "",
+                "actor-audit": ""
+            },
+            "modal": {
+                "discussion-title": "",
+                "user-title": "",
+                "actor-title": ""
+            }
+        },
+        "lib": {
+            "browser": {
+                "filterPlaceholder": "",
+                "filterApply": "",
+                "empty": "",
+                "loadMore": "",
+                "withoutActor": "",
+                "deletedResource": {
+                    "discussion": "",
+                    "group": "",
+                    "post": "",
+                    "tag": "",
+                    "user": ""
+                },
+                "genericResource": {
+                    "comment": "",
+                    "post": ""
+                },
+                "permissionGroup": {
+                    "everyone": "",
+                    "members": ""
+                },
+                "noValue": "",
+                "noReason": "",
+                "client": {
+                    "session": "",
+                    "api_key": "",
+                    "access_token": "",
+                    "cli": "",
+                    "unknown": ""
+                },
+                "controls": {
+                    "hideRaw": "",
+                    "showRaw": "",
+                    "filterActor": "",
+                    "filterIp": "",
+                    "filterClient": "",
+                    "filterAction": "",
+                    "filterUser": "",
+                    "filterDiscussion": ""
+                },
+                "cache_cleared": "",
+                "discussion": {
+                    "created": "",
+                    "create_date_changed": "",
+                    "deleted": "",
+                    "hidden": "",
+                    "locked": "",
+                    "renamed": "",
+                    "restored": "",
+                    "split_away": "",
+                    "split_into": "",
+                    "stickied": "",
+                    "tagged": "",
+                    "unlocked": "",
+                    "unstickied": "",
+                    "user_changed": ""
+                },
+                "extension": {
+                    "disabled": "",
+                    "enabled": ""
+                },
+                "fof_ban_ips": {
+                    "banned": "",
+                    "unbanned": ""
+                },
+                "permission_changed": "",
+                "post": {
+                    "approved": "",
+                    "created": "",
+                    "create_date_changed": "",
+                    "deleted": "",
+                    "dismissed_flags": "",
+                    "edit_date_changed": "",
+                    "flagged": "",
+                    "hidden": "",
+                    "restored": "",
+                    "revised": "",
+                    "user_changed": ""
+                },
+                "setting_changed": "",
+                "setting_changed_with_values": "",
+                "tag": {
+                    "created": "",
+                    "deleted": "",
+                    "updated": ""
+                },
+                "user": {
+                    "activated": "",
+                    "activated_with_email": "",
+                    "avatar_changed": "",
+                    "avatar_removed": "",
+                    "bio_changed": "",
+                    "created": "",
+                    "deleted": "",
+                    "email_changed": "",
+                    "email_change_requested": "",
+                    "groups_changed": "",
+                    "impersonated": "",
+                    "logged_in": "",
+                    "logged_in_with_provider": "",
+                    "logged_out": "",
+                    "password_changed": "",
+                    "password_change_requested": "",
+                    "provider_connected": "",
+                    "suspended": "",
+                    "unsuspended": "",
+                    "username_changed": "",
+                    "username_requested": "",
+                    "username_request_approved": "",
+                    "username_request_rejected": ""
+                }
+            }
+        }
+    }
+}

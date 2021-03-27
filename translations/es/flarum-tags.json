@@ -6,12 +6,12 @@
             },
             "edit_tag": {
                 "color_label": "=> core.ref.color",
-                "icon_label": "=> core.ref.icon",
-                "icon_text": "=> core.ref.icon_text",
                 "delete_tag_button": "Borrar Etiqueta",
                 "delete_tag_confirmation": "¿Estás seguro de que quieres eliminar esta etiqueta? Las discusiones de la etiqueta NO serán eliminadas.",
                 "description_label": "Descripción",
                 "hide_label": "Ocultar de la portada",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
                 "name_label": "=> flarum-tags.ref.name",
                 "name_placeholder": "=> flarum-tags.ref.name",
                 "slug_label": "Slug",
@@ -24,6 +24,7 @@
             },
             "permissions": {
                 "allow_edit_tags_label": "Permitir editar etiquetas",
+                "bypass_tag_counts_label": "",
                 "restrict_by_tag_heading": "Restringir por etiqueta",
                 "tag_discussions_label": "Etiquetar discusiones"
             },
@@ -37,13 +38,20 @@
             },
             "tags": {
                 "about_tags_text": "Las etiquetas se utilizan para organizar las discusiones. Las etiquetas principales son para clasificar las discusiones (p. ej. por temática) y pueden ordenarse y organizarse jerárquicamente en dos niveles. Las etiquetas secundarias no tienen orden ni jerarquía y son útiles para la micro organización.",
-                "create_tag_button": "=> flarum-tags.ref.create_tag",
+                "create_primary_tag_button": "",
+                "create_secondary_tag_button": "",
                 "primary_heading": "Etiquetas principales",
                 "secondary_heading": "Etiquetas secundarias",
+                "settings_heading": "",
+                "create_tag_button": "=> flarum-tags.ref.create_tag",
                 "settings_button": "Ajustes"
             }
         },
         "forum": {
+            "all_tags": {
+                "meta_description_text": "",
+                "meta_title_text": ""
+            },
             "choose_tags": {
                 "choose_primary_placeholder": "Elige una etiqueta principal|Elige {count} etiquetas principales",
                 "choose_secondary_placeholder": "Elige una etiqueta más|Elige {count} etiquetas más",
@@ -70,15 +78,18 @@
                 "added_tags_text": "{username} puso {tagsAdded}.",
                 "removed_tags_text": "{username} quitó {tagsRemoved}.",
                 "tags_text": "la etiqueta {tags}|las etiquetas {tags}"
+            },
+            "tag": {
+                "meta_description_text": ""
             }
         },
         "lib": {
             "deleted_tag_text": "Borrada"
         },
         "ref": {
-            "create_tag": "Crear etiqueta",
             "name": "Nombre",
-            "tags": "Etiquetas"
+            "tags": "Etiquetas",
+            "create_tag": "Crear etiqueta"
         }
     }
 }

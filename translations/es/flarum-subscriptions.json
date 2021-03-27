@@ -10,6 +10,9 @@
                 "unfollow_button": "Dejar de seguir",
                 "unignore_button": "Dejar de ignorar"
             },
+            "following": {
+                "meta_title_text": ""
+            },
             "index": {
                 "following_link": "=> flarum-subscriptions.ref.following"
             },
@@ -30,6 +33,12 @@
                 "not_following_text": "Ser notificado sólo cuando te @mencionen.",
                 "notify_alert_tooltip": "Recibir una notificación del foro cuando haya nuevas publicaciones",
                 "notify_email_tooltip": "Recibir un e-mail cuando haya nuevas publicaciones"
+            }
+        },
+        "email": {
+            "new_post": {
+                "subject": "",
+                "body": ""
             }
         },
         "ref": {

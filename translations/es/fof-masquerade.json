@@ -2,7 +2,8 @@
     "fof-masquerade": {
         "forum": {
             "alerts": {
-                "profile-completion-required": "Por favor completa los campos del perfil de usuario.\n"
+                "profile-completion-required": "Por favor completa los campos del perfil de usuario.\n",
+                "profile-completed": ""
             },
             "buttons": {
                 "view-profile": "Ver perfil",
@@ -20,7 +21,6 @@
             }
         },
         "admin": {
-            "title": "Masquerade",
             "general-options": "Configuración",
             "buttons": {
                 "add-field": "Crear campo",
@@ -30,9 +30,6 @@
             "permissions": {
                 "have-profile": "Tener perfil masquerade",
                 "view-profile": "Ver perfil masquerade"
-            },
-            "menu": {
-                "description": "Configurar campos de perfil de usuario.\n"
             },
             "fields": {
                 "title": "Campos",
@@ -62,6 +59,10 @@
                 "email": "Email",
                 "select": "Desplegable",
                 "url": "URL"
+            },
+            "title": "Masquerade",
+            "menu": {
+                "description": "Configurar campos de perfil de usuario.\n"
             }
         }
     }

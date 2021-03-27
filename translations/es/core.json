@@ -1,12 +1,6 @@
 {
     "core": {
         "admin": {
-            "add_extension": {
-                "developer_text": "Si tú eres un desarrollador, puedes <a>leer la documentación</a> y probar a crear tus propias extensiones.",
-                "install_text": "Mientras tanto, puedes encontrar extensiones en <a>Flarum.org</a> e instalarlas manualmente mediante Composer.",
-                "temporary_text": "Un día, en un futuro no muy distante, este diálogo te permitirá añadir una extensión a tu foro con facilidad. ¡Estamos creando la plataforma en este momento!",
-                "title": "Añadir una extensión"
-            },
             "appearance": {
                 "colored_header_label": "Cabecera coloreada",
                 "colors_heading": "Colores",
@@ -27,6 +21,7 @@
                 "favicon_text": "Sube una imagen para que sea mostrada como icono de acceso directo al foro.",
                 "logo_heading": "Logotipo",
                 "logo_text": "Sube una imagen para que sea mostrada en lugar del título del foro.",
+                "title": "",
                 "submit_button": "=> core.ref.save_changes"
             },
             "basics": {
@@ -40,11 +35,14 @@
                 "forum_title_heading": "Título del foro",
                 "home_page_heading": "Página de inicio",
                 "home_page_text": "Elige cuál es la portada que los usuarios verán al llegar al foro.",
-                "saved_message": "Tus cambios fueron guardados.",
                 "show_language_selector_label": "Mostrar el selector de idioma",
-                "submit_button": "=> core.ref.save_changes",
+                "slug_driver_heading": "",
+                "slug_driver_text": "",
+                "title": "",
                 "welcome_banner_heading": "Mensaje de bienvenida",
-                "welcome_banner_text": "Introduce el texto que se mostrará en la lista de discusiones. Utilízalo para dar la bienvenida a los invitados en tu foro."
+                "welcome_banner_text": "Introduce el texto que se mostrará en la lista de discusiones. Utilízalo para dar la bienvenida a los invitados en tu foro.",
+                "saved_message": "Tus cambios fueron guardados.",
+                "submit_button": "=> core.ref.save_changes"
             },
             "dashboard": {
                 "clear_cache_button": "Limpiar caché",
@@ -86,28 +84,34 @@
                 "driver_heading": "Elige un controlador",
                 "driver_label": "Driver",
                 "from_label": "Remitente",
-                "heading": "=> core.ref.email",
                 "mail_encryption_label": "Cifrado",
                 "mail_host_label": "Servidor",
                 "mail_mailgun_domain_label": "Dominio",
                 "mail_mailgun_region_label": "Región",
                 "mail_mailgun_secret_label": "Clave secreta",
-                "mail_mandrill_secret_label": "Clave secreta",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "Puerto",
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "Configuración Mailgun",
-                "mandrill_heading": "Configuración Mandrill",
                 "not_sending_message": "Actualmente Flarum no envía correos electrónicos. Esto puede deberse al controlador seleccionado, o errores en su configuración.",
+                "send_test_mail_button": "",
+                "send_test_mail_heading": "",
+                "send_test_mail_success": "",
+                "send_test_mail_text": "",
                 "smtp_heading": "Configuración SMTP",
+                "title": "",
                 "submit_button": "=> core.ref.save_changes",
+                "heading": "=> core.ref.email",
+                "mail_mandrill_secret_label": "Clave secreta",
+                "mandrill_heading": "Configuración Mandrill",
                 "text": "Configura el servidor SMTP y las direcciones que tu foro usará para enviar correo electrónico."
             },
             "extension": {
+                "configure_scopes": "",
                 "confirm_uninstall": "La desinstalación eliminará todas las entradas de la base de datos y los ficheros relacionados con la extensión. ¿Estás seguro de que quieres continuar?",
                 "disabled": "Desactivada",
-                "enabled": "Activada",
                 "enable_to_see": "Habilite la extensión para ver y cambiar la configuración.",
+                "enabled": "Activada",
                 "info_links": {
                     "discuss": "Discutir",
                     "documentation": "Documentación",
@@ -120,10 +124,11 @@
                 "no_settings": "Esta extensión no tiene configuración.",
                 "open_modal": "Configuración abierta",
                 "permissions_title": "Permisos",
-                "saved_message": "Se guardaron tus cambios.",
-                "uninstall_button": "Desinstalar"
+                "uninstall_button": "Desinstalar",
+                "saved_message": "Se guardaron tus cambios."
             },
             "header": {
+                "get_help": "",
                 "log_out_button": "=> core.ref.log_out"
             },
             "loading": {
@@ -131,16 +136,33 @@
             },
             "nav": {
                 "appearance_button": "Apariencia",
-                "appearance_text": "Personalizar el aspecto del foro.",
+                "appearance_title": "",
                 "basics_button": "Básicos",
-                "basics_text": "Ajustes generales del foro.",
+                "basics_title": "",
+                "categories": {
+                    "authentication": "",
+                    "core": "",
+                    "discussion": "",
+                    "feature": "",
+                    "formatting": "",
+                    "language": "",
+                    "moderation": "",
+                    "other": "",
+                    "theme": ""
+                },
                 "dashboard_button": "Panel de información",
-                "dashboard_text": "El foro en un vistazo.",
+                "dashboard_title": "",
                 "email_button": "=> core.ref.email",
+                "email_title": "",
+                "permissions_button": "Permisos",
+                "permissions_title": "",
+                "search_placeholder": "",
+                "appearance_text": "Personalizar el aspecto del foro.",
+                "basics_text": "Ajustes generales del foro.",
+                "dashboard_text": "El foro en un vistazo.",
                 "email_text": "Configura los ajustes del correo electrónico de tu foro.",
                 "extensions_button": "Extensiones",
                 "extensions_text": "Añadir funcionalidad al foro.",
-                "permissions_button": "Permisos",
                 "permissions_text": "Configura quién puede hacer qué."
             },
             "permissions": {
@@ -154,6 +176,8 @@
                 "description": "Configurar quién puede ver y hacer qué.",
                 "edit_posts_label": "Editar publicaciones",
                 "edit_users_label": "Editar usuarios",
+                "edit_users_credentials_label": "",
+                "edit_users_groups_label": "",
                 "global_heading": "Global",
                 "moderate_heading": "Moderado",
                 "new_group_button": "Nuevo grupo",
@@ -164,6 +188,7 @@
                 "reply_to_discussions_label": "Responder en discusiones",
                 "sign_up_label": "Registro de usuarios",
                 "start_discussions_label": "Crear discusiones",
+                "title": "",
                 "view_discussions_label": "Ver discusiones",
                 "view_hidden_groups_label": "Ver iconos de grupos ocultos",
                 "view_last_seen_at_label": "Ver a qué hora fue la última conexión de un usuario",
@@ -181,11 +206,18 @@
                 "signup_open_button": "Abierto"
             },
             "settings": {
+                "saved_message": "",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
                 "remove_button": "=> core.ref.remove",
                 "upload_button": "Elija una imagen..."
+            },
+            "add_extension": {
+                "developer_text": "Si tú eres un desarrollador, puedes <a>leer la documentación</a> y probar a crear tus propias extensiones.",
+                "install_text": "Mientras tanto, puedes encontrar extensiones en <a>Flarum.org</a> e instalarlas manualmente mediante Composer.",
+                "temporary_text": "Un día, en un futuro no muy distante, este diálogo te permitirá añadir una extensión a tu foro con facilidad. ¡Estamos creando la plataforma en este momento!",
+                "title": "Añadir una extensión"
             }
         },
         "forum": {
@@ -218,8 +250,10 @@
             },
             "composer_edit": {
                 "discard_confirmation": "Aún no has publicado tus cambios. ¿Estás seguro de que deseas descartarlos?",
+                "edited_message": "",
                 "post_link": "Publicación n.º {number} en '{discussion}'",
-                "submit_button": "=> core.ref.save_changes"
+                "submit_button": "=> core.ref.save_changes",
+                "view_button": ""
             },
             "composer_reply": {
                 "body_placeholder": "=> core.ref.write_a_reply",
@@ -237,7 +271,8 @@
                 "log_in_to_reply_button": "Responder",
                 "rename_button": "=> core.ref.rename",
                 "reply_button": "=> core.ref.reply",
-                "restore_button": "=> core.ref.restore"
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": ""
             },
             "discussion_list": {
                 "empty_text": "Parece que no hay discusiones aquí.",
@@ -251,6 +286,7 @@
                 "email_heading": "=> core.ref.email",
                 "email_label": "=> core.ref.email",
                 "groups_heading": "Grupos",
+                "nothing_available": "",
                 "password_heading": "=> core.ref.password",
                 "password_label": "=> core.ref.password",
                 "set_password_label": "Establecer nueva contraseña",
@@ -271,10 +307,12 @@
             "header": {
                 "admin_button": "Administración",
                 "back_to_index_tooltip": "Volver a la lista de discusiones",
+                "locale_dropdown_accessible_label": "",
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Perfil",
                 "search_placeholder": "Buscar en el foro",
+                "session_dropdown_accessible_label": "",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
             },
@@ -283,14 +321,17 @@
                 "cannot_start_discussion_button": "No puedes crear una discusión",
                 "mark_all_as_read_confirmation": "¿Estás seguro de que deseas marcar todas las discusiones como leídas?",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "meta_title_text": "",
                 "refresh_tooltip": "Cargar de nuevo",
-                "start_discussion_button": "=> core.ref.start_a_discussion"
+                "start_discussion_button": "=> core.ref.start_a_discussion",
+                "toggle_sidenav_dropdown_accessible_label": ""
             },
             "index_sort": {
                 "latest_button": "Lo último",
                 "newest_button": "Lo más nuevo",
                 "oldest_button": "Lo más antiguo",
                 "relevance_button": "Lo más relevante",
+                "toggle_dropdown_accessible_label": "",
                 "top_button": "Lo más comentado"
             },
             "log_in": {
@@ -309,6 +350,7 @@
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "Marcar como leído",
                 "title": "=> core.ref.notifications",
+                "toggle_dropdown_accessible_label": "",
                 "tooltip": "=> core.ref.notifications"
             },
             "post": {
@@ -322,7 +364,8 @@
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "edit_button": "=> core.ref.edit",
                 "hide_confirmation": "¿Estás seguro de que deseas eliminar este mensaje?",
-                "restore_button": "=> core.ref.restore"
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": ""
             },
             "post_scrubber": {
                 "now_link": "Ahora",
@@ -387,7 +430,8 @@
                 "delete_confirmation": "¿Estás seguro de que quieres eliminar este usuario? Las publicaciones del usuario serán eliminadas.",
                 "delete_error_message": "Falló la eliminación del usuario <i>{username} ({email})</i>",
                 "delete_success_message": "El usuario <i>{username} ({email})</i> fue eliminado",
-                "edit_button": "=> core.ref.edit"
+                "edit_button": "=> core.ref.edit",
+                "toggle_dropdown_accessible_label": ""
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
@@ -399,8 +443,13 @@
             "badge": {
                 "hidden_tooltip": "Oculto"
             },
+            "dropdown": {
+                "toggle_dropdown_accessible_label": ""
+            },
             "error": {
+                "dependent_extensions_message": "",
                 "generic_message": "¡Caramba! Algo salió mal. Por favor, carga de nuevo la página y vuelve a intentarlo.",
+                "missing_dependencies_message": "",
                 "not_found_message": "¡Recórcholis! El recurso solicitado no fue encontrado.",
                 "permission_denied_message": "¡Nanay de la China! No tienes permiso para hacer eso.",
                 "rate_limit_exceeded_message": "¡Para el carro! Vas tú muy rápido. Por favor, vuelve a intentarlo en unos segundos."
@@ -470,6 +519,10 @@
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
                 "body": "¡Hola, {username}!\n\nAlguien ha enviado una solicitud para restablecer la contraseña de su cuenta de usuario en {forum}.\n\nSi efectivamente has sido tú, por favor, haz click en el siguiente enlace para restablecer tu contraseña:\n{url}\n\nSi por el contrario no has sido tú, por favor, ignora este correo electrónico.\n\nRecibe un cordial saludo,\n\nEl Equipo de {forum}\n"
+            },
+            "send_test": {
+                "subject": "",
+                "body": ""
             }
         },
         "ref": {
@@ -512,6 +565,7 @@
             "start_a_discussion": "Crear discusión",
             "username": "Nombre de usuario",
             "users": "Usuarios",
+            "view": "",
             "write_a_reply": "Escribe una respuesta...",
             "you": "Tú"
         },
