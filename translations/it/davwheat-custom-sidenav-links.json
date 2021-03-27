@@ -4,51 +4,51 @@
             "admin": {
                 "settings_page": {
                     "display_options": {
-                        "heading": "",
+                        "heading": "Impostazioni di visualizzazione",
                         "options": {
                             "position": {
-                                "above-tags-link": "",
-                                "below-tags-link": ""
+                                "above-tags-link": "Sopra link \"Etichette\"",
+                                "below-tags-link": "Sotto link \"Etichette\""
                             }
                         },
                         "labels": {
-                            "position": "",
-                            "top_spacer": "",
-                            "bottom_spacer": ""
+                            "position": "Posizione link",
+                            "top_spacer": "Mostra spaziatura superiore",
+                            "bottom_spacer": "Mostra spaziatura inferiore"
                         }
                     },
                     "link_table": {
-                        "heading": "",
-                        "add_link_btn": "",
-                        "confirm_delete": "",
+                        "heading": "Personalizza link",
+                        "add_link_btn": "Aggiungi nuovo link",
+                        "confirm_delete": "Conferma cancellazione del link \"{link}\"",
                         "alert": {
-                            "fix_errors": ""
+                            "fix_errors": "Devi risolvere il problema sopra prima di salvare le modifiche."
                         },
                         "table": {
                             "header": {
-                                "position": "",
-                                "icon": "",
-                                "text": "",
-                                "url": "",
-                                "internal": "",
-                                "delete": ""
+                                "position": "Posizione",
+                                "icon": "Icona link",
+                                "text": "Testo link",
+                                "url": "Url link",
+                                "internal": "È un URL di Flarum?",
+                                "delete": "Rimuovi"
                             },
                             "placeholders": {
                                 "icon": "",
-                                "text": "",
+                                "text": "Il mio sito",
                                 "url": ""
                             },
                             "tooltips": {
-                                "move_up": "",
-                                "move_down": "",
-                                "icon_preview": ""
+                                "move_up": "Sposta su",
+                                "move_down": "Sposta giù",
+                                "icon_preview": "Anteprima icona"
                             }
                         },
                         "save_btn": {
-                            "dirty": "",
-                            "saving": "",
-                            "saved": "",
-                            "fix_errors": ""
+                            "dirty": "Salva impostazioni",
+                            "saving": "Salvataggio in corso...",
+                            "saved": "Nessuna modifica da salvare",
+                            "fix_errors": "Risolvi gli errori prima di salvare"
                         },
                         "new_link_modal": {
                             "title": "",
@@ -72,12 +72,12 @@
                         }
                     },
                     "new_link_modal": {
-                        "title": "",
+                        "title": "Aggiungi nuovo link",
                         "submit_btn": {
-                            "add": "",
-                            "loading": "",
-                            "fix_url": "",
-                            "invalid_form": ""
+                            "add": "Aggiungi link",
+                            "loading": "Aggiungo",
+                            "fix_url": "URL non valido",
+                            "invalid_form": "Riempi tutti i campi"
                         },
                         "labels": {
                             "icon": "",
