@@ -281,7 +281,7 @@
                 "rename_button": "=> core.ref.rename",
                 "reply_button": "=> core.ref.reply",
                 "restore_button": "=> core.ref.restore",
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "Tartışma eylemleri açılır menüsünü aç / kapat"
             },
             "discussion_list": {
                 "empty_text": "Burada hiç tartışma yok gibi görünüyor.",
@@ -316,12 +316,12 @@
             "header": {
                 "admin_button": "Yönetim",
                 "back_to_index_tooltip": "Tartışma Listesine Dön",
-                "locale_dropdown_accessible_label": "",
+                "locale_dropdown_accessible_label": "Forum dizinini değiştir",
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Profil",
                 "search_placeholder": "Forumda Ara",
-                "session_dropdown_accessible_label": "",
+                "session_dropdown_accessible_label": "Oturum seçenekleri açılır menüsünü aç / kapat",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
             },
@@ -333,14 +333,14 @@
                 "meta_title_text": "=> core.ref.all_discussions",
                 "refresh_tooltip": "Yenile",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
-                "toggle_sidenav_dropdown_accessible_label": ""
+                "toggle_sidenav_dropdown_accessible_label": "Gezinme açılır menüsünü aç / kapat"
             },
             "index_sort": {
                 "latest_button": "En Son",
                 "newest_button": "Yeniler",
                 "oldest_button": "Eskiler",
                 "relevance_button": "Alakalı",
-                "toggle_dropdown_accessible_label": "",
+                "toggle_dropdown_accessible_label": "Tartışma listesi sıralamasını değiştir",
                 "top_button": "Popüler"
             },
             "log_in": {
@@ -359,7 +359,7 @@
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "Okundu Olarak İşaretle",
                 "title": "=> core.ref.notifications",
-                "toggle_dropdown_accessible_label": "",
+                "toggle_dropdown_accessible_label": "Bildirimleri görüntüle",
                 "tooltip": "=> core.ref.notifications"
             },
             "post": {
@@ -374,7 +374,7 @@
                 "edit_button": "=> core.ref.edit",
                 "hide_confirmation": "Bu gönderiyi silmek istediğinize emin misiniz?",
                 "restore_button": "=> core.ref.restore",
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "Yayın kontrolleri açılır menüsünü aç / kapat"
             },
             "post_scrubber": {
                 "now_link": "Şimdi",
@@ -440,7 +440,7 @@
                 "delete_error_message": "<i>{username} ({email})</i> adlı kullanıcının silinmesi başarısız oldu",
                 "delete_success_message": "<i>{username} ({email})</i> silindi",
                 "edit_button": "=> core.ref.edit",
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "Kullanıcı kontrolleri açılır menüsünü aç / kapat"
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
@@ -453,7 +453,7 @@
                 "hidden_tooltip": "Gizli"
             },
             "dropdown": {
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "Açılır menüyü aç / kapat"
             },
             "error": {
                 "dependent_extensions_message": "{extension} uzantısı şu uzantı kapanmadan önce kapatılamaz: {extensions}",
