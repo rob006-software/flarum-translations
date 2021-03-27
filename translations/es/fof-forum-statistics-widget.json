@@ -1,0 +1,21 @@
+{
+    "fof-forum-statistics-widget": {
+        "forum": {
+            "navbar": {
+                "widget_title": "Estadísticas",
+                "discussions_count": "Discusiones: {discussionsCount}",
+                "posts_count": "Mensajes: {postsCount}",
+                "users_count": "Usuarios: {usersCount}",
+                "latest_member": "Último usuario: "
+            }
+        },
+        "admin": {
+            "settings": {
+                "title": "Configuración del Widget",
+                "widget_ignore_private_discussions_label": "Ignorar discusiones privadas",
+                "widget_order_label": "Orden del Widget",
+                "widget_helper_text": "Edite esta configuración para ajustar la posición de este widget en la sección sidenav de su foro. Cuanto mayor sea el número, mayor será este widget en la lista de elementos secundarios (este valor puede ser positivo o negativo)."
+            }
+        }
+    }
+}
