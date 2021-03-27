@@ -1,0 +1,25 @@
+{
+    "flarum-sticky": {
+        "admin": {
+            "permissions": {
+                "sticky_discussions_label": "Poner la chincheta a discusiones"
+            }
+        },
+        "forum": {
+            "badge": {
+                "sticky_tooltip": "=> flarum-sticky.ref.sticky"
+            },
+            "discussion_controls": {
+                "sticky_button": "=> flarum-sticky.ref.sticky",
+                "unsticky_button": "Quitar la chincheta"
+            },
+            "post_stream": {
+                "discussion_stickied_text": "{username} puso la chincheta a la discusión.",
+                "discussion_unstickied_text": "{username} quitó la chincheta a la discusión."
+            }
+        },
+        "ref": {
+            "sticky": "Poner la chincheta"
+        }
+    }
+}
