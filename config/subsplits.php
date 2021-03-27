@@ -15,6 +15,13 @@ use app\components\release\PolishReleaseGenerator;
 use function rob006\flarum\translations\helpers\getComponents;
 
 return [
+	'es' => [
+		'type' => 'language',
+		'language' => 'es',
+		'repository' => 'git@github.com:FlarumES/lang-spanish.git',
+		'branch' => 'main',
+		'path' => '/locale/es-ES-informal',
+	],
 	'fr' => [
 		'type' => 'language',
 		'language' => 'fr',
