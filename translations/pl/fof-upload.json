@@ -18,7 +18,7 @@
                 "watermark": "Wybierz, czy obrazki będą miały dodany znak wodny podczas przesyłania. Znaki wodne są dodawane do nie-gifów bazując na Twoich preferencjach poniżej.\n",
                 "s3_compatible_storage": "Poniższe ustawienia są wymagane jedynie gdy korzystasz z usługi kompatybilnej z S3. Jeśli korzystasz z AWS, możesz pozostawić je puste.\n",
                 "s3_acl": "ACL, które powinno być zastosowane do wysłanego obiektu (domyślnie: private). Obsługiwane wartości można znaleźć na https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
-                "composer_buttons": ""
+                "composer_buttons": "Domyślnie przycisk dla managera plików oraz przycisk do wysyłania plików są jednocześnie widoczne. Ale możesz to zmienić i wyświetlać tylko jeden przycisk.\n"
             },
             "labels": {
                 "aws-s3": {
@@ -74,19 +74,19 @@
                     "toggle": "Oznaczaj obrazki znakiem wodnym"
                 },
                 "composer_buttons": {
-                    "title": "",
+                    "title": "Przyciski w kompozytorze",
                     "options": {
-                        "both": "",
-                        "upload-btn": "",
-                        "media-btn": ""
+                        "both": "Oba",
+                        "upload-btn": "Jedynie przycisk do wysyłania plików",
+                        "media-btn": "Jedynie przycisk managera plików"
                     }
                 }
             },
             "permissions": {
                 "download_label": "Pobieranie plików",
                 "upload_label": "Przesyłanie plików",
-                "view_user_uploads_label": "",
-                "delete_uploads_of_others_label": ""
+                "view_user_uploads_label": "Przeglądanie plików użytkowników",
+                "delete_uploads_of_others_label": "Usuwanie plików użytkowników"
             },
             "templates": {
                 "file": "Domyślny szablon pobierania pliku",
@@ -107,28 +107,28 @@
             }
         },
         "forum": {
-            "media_manager": "",
+            "media_manager": "Manager plików",
             "buttons": {
                 "attach": "Załącz",
-                "upload": "",
-                "user_uploads": "",
-                "cancel": "",
-                "media": ""
+                "upload": "Wyślij",
+                "user_uploads": "Pliki użytkownika",
+                "cancel": "Anuluj",
+                "media": "Moje pliki"
             },
             "file_list": {
-                "loading": "",
-                "empty": "",
-                "release_to_upload": "",
-                "modal_empty_desktop": "",
-                "modal_empty_phone": "",
-                "select_file_a11y_label": "",
-                "confirm_selection_btn": "",
-                "load_more_files_btn": "",
+                "loading": "Ładowanie plików...",
+                "empty": "Nie ma żadnych plików do pokazania.",
+                "release_to_upload": "Upuść aby wysłać",
+                "modal_empty_desktop": "Lista twoich plików jest pusta. Kliknij przycisk lub przeciągnij plik, aby coś wysłać.",
+                "modal_empty_phone": "Lista twoich plików jest pusta. Wciśnij przycisk powyżej, aby wysłać plik.",
+                "select_file_a11y_label": "Wybierz plik \"{fileName}\"",
+                "confirm_selection_btn": "Wybierz plik|Wybierz pliki",
+                "load_more_files_btn": "Załaduj więcej plików",
                 "hide_file": {
-                    "btn_a11y_label": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "hide_fail": "",
+                    "btn_a11y_label": "Ukryj \"{fileName}\" z managera plików",
+                    "hide_confirmation": "Czy jesteś pewien, że chcesz ukryć \"{fileName}\"? Ukrycie pliku jedynie usunie go z twojego managera plików i nie wpłynie na istniejące posty.",
+                    "hide_success": "Plik ukryty",
+                    "hide_fail": "Nie udało się ukryć pliku \"{fileName}\"",
                     "loading": ""
                 }
             },
