@@ -5,14 +5,14 @@
                 "bulk-mode": "=> migratetoflarum-fake-data.ref.bulk-mode",
                 "bulk-mode-description": "=> migratetoflarum-fake-data.ref.bulk-mode-description",
                 "user-count": "=> migratetoflarum-fake-data.ref.user-count",
-                "discussion-count": "=> migratetoflarum-fake-data.ref.discussion-count",
-                "discussion-tags": "",
-                "discussion-tags-none": "",
-                "discussion-tags-random": "",
+                "discussion-count": "Liczba dyskusji do utworzenia",
+                "discussion-tags": "Tagi dla nowych dyskusji",
+                "discussion-tags-none": "Brak",
+                "discussion-tags-random": "Losowo",
                 "post-count": "=> migratetoflarum-fake-data.ref.post-count",
-                "date": "",
-                "date-start-placeholder": "",
-                "date-interval-placeholder": "",
+                "date": "=> migratetoflarum-fake-data.ref.date",
+                "date-start-placeholder": "=> migratetoflarum-fake-data.ref.date-start-placeholder",
+                "date-interval-placeholder": "=> migratetoflarum-fake-data.ref.date-interval-placeholder",
                 "send": "=> migratetoflarum-fake-data.ref.send",
                 "title": "Generowanie danych testowych"
             }
@@ -27,9 +27,9 @@
                 "bulk-mode-description": "=> migratetoflarum-fake-data.ref.bulk-mode-description",
                 "user-count": "=> migratetoflarum-fake-data.ref.user-count",
                 "post-count": "=> migratetoflarum-fake-data.ref.post-count",
-                "date": "",
-                "date-start-placeholder": "",
-                "date-interval-placeholder": "",
+                "date": "=> migratetoflarum-fake-data.ref.date",
+                "date-start-placeholder": "=> migratetoflarum-fake-data.ref.date-start-placeholder",
+                "date-interval-placeholder": "=> migratetoflarum-fake-data.ref.date-interval-placeholder",
                 "send": "=> migratetoflarum-fake-data.ref.send"
             }
         },
@@ -42,9 +42,9 @@
             "bulk-mode-description": "Generuje jedną losową wartość i używa jej dla wszystkich wygenerowanych rekordów",
             "user-count": "Liczba użytkowników do utworzenia",
             "post-count": "Liczba postów do utworzenia",
-            "date": "",
-            "date-start-placeholder": "",
-            "date-interval-placeholder": "",
+            "date": "Ustawienia daty",
+            "date-start-placeholder": "Data początkowa (domyślnie aktualna data)",
+            "date-interval-placeholder": "Interwał (domyślnie 1 sekunda)",
             "send": "Wygeneruj dane",
             "discussion-count": "Liczba dyskusji do utworzenia"
         }
