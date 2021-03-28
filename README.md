@@ -11,7 +11,7 @@ Currently supported languages:
 * [Italian](https://github.com/justoverclockl/flarum-italian-ext) maintained by [Justoverclock](https://github.com/justoverclockl) ([detailed translation status](status/it.md))
 * [Japanese](https://github.com/FFans/lang-japanese) maintained by [Littlegolden](https://github.com/Littlegolden) and [rikusen0335](https://github.com/rikusen0335) ([detailed translation status](status/ja.md))
 * [Polish](https://github.com/rob006-software/flarum-lang-polish) maintained by [rob006](https://github.com/rob006) ([detailed translation status](status/pl.md))
-* [Spanish](https://github.com/FlarumES/lang-spanish) maintained by [Darkle](https://github.com/IamDarkle) ([detailed translation status](status/es.md))
+* [Spanish](https://github.com/FlarumES/lang-spanish) maintained by [Darkle](https://github.com/IamDarkle) and [Javier S. Lirola](https://github.com/jslirola) ([detailed translation status](status/es.md))
 * Turkish ([core](https://github.com/tolgaaaltas/flarum-lang-turkish) and [extensions](https://github.com/tolgaaaltas/flarum-ext-turkish)) maintained by [tolgaaaltas](https://github.com/tolgaaaltas) ([detailed translation status](status/tr.md))
 
 If you're maintaining language pack and want to add it to the collective, follow [these instructions](https://github.com/rob006-software/flarum-translations/wiki/How-to-start). Not sure what it is and if it is worth the trouble? Read [features list](https://github.com/rob006-software/flarum-translations/wiki/Features).
