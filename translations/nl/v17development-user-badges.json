@@ -2,37 +2,37 @@
     "v17development-flarum-badges": {
         "admin": {
             "uncategorized": "",
-            "new_badge": "",
-            "create_category": "",
-            "update_badge": "",
-            "update_category": "",
-            "edit_category": "",
-            "nothing_here_yet": "",
+            "new_badge": "Nieuwe badge",
+            "create_category": "Categorie aanmaken",
+            "update_badge": "Badge aanpassen",
+            "update_category": "Categorie aanpassen",
+            "edit_category": "Bewerk categorie",
+            "nothing_here_yet": "Je hebt nog geen badges of categorieën aangemaakt.",
             "permissions": {
-                "give_badge": "",
-                "take_badge": ""
+                "give_badge": "Geef badge aan gebruiker",
+                "take_badge": "Badge van gebruiker afnemen"
             },
             "confirm_dialog": {
-                "title": "",
-                "no": "",
-                "yes": ""
+                "title": "Bevestigen",
+                "no": "Nee",
+                "yes": "Ja"
             },
             "confirm_messages": {
-                "delete_badge": "",
-                "delete_category": ""
+                "delete_badge": "Weet je zeker dat je deze badge wilt verwijderen? De badge zal worden verwijderd van all gebruikers en is onomkeerbaar.",
+                "delete_category": "Weet je zeker dat je deze categorie wilt verwijderen? Als er badges in deze categorie zijn, worden deze gemarkeerd als 'niet-gecategoriseerd'."
             },
             "badge": {
-                "name": "",
-                "icon": "",
-                "description": "",
-                "visible": "",
-                "visible_description": ""
+                "name": "Badge naam",
+                "icon": "Badge icoon",
+                "description": "Badge beschrijving",
+                "visible": "Zichtbaar",
+                "visible_description": "Schakel deze badge in. Indien uitgeschakeld, is de badge niet zichtbaar."
             },
             "badge_category": {
-                "name": "",
-                "description": "",
-                "enabled": "",
-                "enabled_description": ""
+                "name": "Categorienaam",
+                "description": "Categorie beschrijving",
+                "enabled": "Ingeschakeld",
+                "enabled_description": "Deze categorie inschakelen. Indien uitgeschakeld worden de badges uitgeschakeld en wordt de categorie verborgen."
             }
         },
         "forum": {
