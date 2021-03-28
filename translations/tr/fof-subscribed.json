@@ -26,14 +26,14 @@
         },
         "email": {
             "subject": {
-                "newDiscussion": "",
-                "newUser": "",
-                "postUnapproved": ""
+                "newDiscussion": "[Abone Olundu | Yeni Tartışma] {title}",
+                "newUser": "[Abone Olundu | Yeni Kullanıcı] {username}",
+                "postUnapproved": "[Abone Olundu | Onaylanmadı] {username}, {title} tartışmasına gönderi yaptı"
             },
             "body": {
-                "newDiscussion": "",
-                "newUser": "",
-                "postUnapproved": ""
+                "newDiscussion": "Merhaba {recipient_display_name},\n\n{actor_display_name} yeni bir tartışma başlattı: {discussion_title}\n\nBu yeni tartışmayı görüntülemek için aşağıdaki bağlantıya bakın:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newUser": "Merhaba {recipient_display_name},\n\n{actor_display_name}, {forum_url} forumuna yeni katıldı.\n\nBu yeni kullanıcının profilini görüntülemek için aşağıdaki bağlantıya bakın:\n{user_url}\n",
+                "postUnapproved": "Merhaba {recipient_display_name},\n\n{actor_display_name}, {discussion_title} içinde otomatik olarak onaylanmayan bir yayın oluşturdu\n\nBu yeni gönderiyi görüntülemek için aşağıdaki bağlantıya bakın:\n{post_url}\n\n---\n\n{post_content}\n"
             }
         }
     }

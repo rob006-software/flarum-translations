@@ -1,6 +1,14 @@
 {
     "askvortsov-discussion-templates": {
         "admin": {
+            "permissions": {
+                "manage_own_discussion_reply_templates": "Zarządzanie szablonami odpowiedzi dla własnych dyskusji",
+                "manage_all_reply_templates": "Zarządzanie szablonami odpowiedzi dla wszystkich dyskusji"
+            },
+            "settings": {
+                "no_tag_template": "Domyślny szablon (używany, gdy dyskusja jest tworzona bez wybranych żadnych tagów):",
+                "append_template_on_tag_change": "Czy po zmianie tagów szablon również powinien zostać zmieniony, nawet jeśli użytkownik zaczął pisać? Niezależnie od tego ustawienia, szablon zostanie zmieniony, jeśli użytkownik zmienił tagi, ale nie dokonał żadnych modyfikacji w treści."
+            },
             "tags": {
                 "tag_template_heading": "Szablon dyskusji",
                 "tag_template_text": "Zarządzaj szablonem dla nowych dyskusji oznaczonych tym tagiem.",
@@ -10,6 +18,15 @@
                 "title": "Szablon dyskusji",
                 "customize_text": "Zarządzaj szablonem dla nowych dyskusji oznaczonych tym tagiem.",
                 "submit_button": "Zapisz szablon"
+            }
+        },
+        "forum": {
+            "discussion_controls": {
+                "reply_template_button": "Edytuj szablon odpowiedzi"
+            },
+            "reply_template": {
+                "title": "Edycja szablonu odpowiedzi",
+                "submit_button": "Zapisz szablon odpowiedzi"
             }
         }
     }

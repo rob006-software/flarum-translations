@@ -1,0 +1,29 @@
+{
+    "flarum-likes": {
+        "admin": {
+            "permissions": {
+                "like_posts_label": "Gustar publicaciones"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_liked_text": "A {username} le gustó tu publicación|A {username} les gustó tu publicación"
+            },
+            "post": {
+                "like_link": "Me gusta",
+                "liked_by_self_text": "A {users} te gusta esto.|A {users} os gusta esto.",
+                "liked_by_text": "A {users} le gusta esto.|A {users} les gusta esto.",
+                "others_link": "=> core.ref.some_others",
+                "unlike_link": "Ya no me gusta",
+                "you_text": "=> core.ref.you"
+            },
+            "post_likes": {
+                "title": "Usuarios a quienes les gusta esto"
+            },
+            "settings": {
+                "notify_post_liked_label": "A alguien le gusta tu publicación"
+            }
+        }
+    }
+}

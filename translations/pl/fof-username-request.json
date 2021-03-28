@@ -2,11 +2,92 @@
     "fof-username-request": {
         "admin": {
             "permissions": {
+                "moderate_requests": "Zatwierdzanie zmiany nazwy użytkownika lub pseudonimu",
+                "request_nickname": "Proszenie o zmianę pseudonimu",
+                "request_username": "Proszenie o zmianę nazwy użytkownika",
                 "start": "Proszenie o zmianę nazwy użytkownika",
                 "moderate": "Zatwierdzanie zmiany nazwy użytkownika"
             }
         },
         "forum": {
+            "nickname_modals": {
+                "action": {
+                    "title": "=> fof-username-request.ref.nickname_change_request",
+                    "help_text": "Upewnij się, że pseudonim jest zgodny z regulaminem społeczności.",
+                    "decision_title": "Decyzja",
+                    "approval_label": "Zatwierdź",
+                    "rejected_label": "Odrzuć",
+                    "submit_button": "Wyślij",
+                    "reason_title": "Powód odmowy",
+                    "success": "Decyzja wysłana.",
+                    "name": "{name} poprosił o zmianę pseudonimu na \"{requestedName}\""
+                },
+                "results": {
+                    "title": "Prośba o zmianę pseudonimu",
+                    "approved": "Twoja prośba o zmianę pseudonimu została zaakceptowana",
+                    "dismiss_button": "=> core.ref.okay",
+                    "new_name": "Twój pseudonim został zmieniony na: \"{name}\"",
+                    "rejected": "Twoja prośba o zmianę pseudonimu została odrzucona",
+                    "reason": "Powód odmowy: <i>\"{reason}\"</i>.",
+                    "resubmit": "Od tej chwili możesz wysłać nową prośbę o zmianę pseudonimu z poziomu ustawień konta."
+                },
+                "request": {
+                    "title": "Poproś o zmianę pseudonimu",
+                    "current_request": "Już poprosiłeś o zmianę pseudonimu na \"{name}.\" Możesz edytować lub usunąć tę prośbę.",
+                    "submit_button": "Wyślij prośbę",
+                    "delete_button": "Usuń prośbę",
+                    "confirmation_message": "Twoja prośba o zmianę pseudonimu została wysłana i oczekuje na akceptację moderatora.",
+                    "dismiss_button": "=> core.ref.okay",
+                    "deleted": "Prośba o zmianę pseudonimu została usunięta."
+                }
+            },
+            "username_modals": {
+                "action": {
+                    "title": "=> fof-username-request.ref.nickname_change_request",
+                    "help_text": "Upewnij się, że nazwa użytkownika jest zgodna z regulaminem społeczności.",
+                    "decision_title": "Decyzja",
+                    "approval_label": "Zatwierdź",
+                    "rejected_label": "Odrzuć",
+                    "submit_button": "Wyślij",
+                    "reason_title": "Powód odmowy",
+                    "success": "Decyzja wysłana.",
+                    "name": "{name} poprosił o zmianę nazwy użytkownika na \"{requestedName}\""
+                },
+                "results": {
+                    "title": "Prośba o zmianę nazwy użytkownika",
+                    "approved": "Twoja prośba o zmianę nazwy użytkownika została zaakceptowana",
+                    "dismiss_button": "=> core.ref.okay",
+                    "new_name": "Twoja nazwa użytkownika została zmieniona na: \"{name}\"",
+                    "rejected": "Twoja prośba o zmianę nazwy użytkownika została odrzucona",
+                    "reason": "Powód odmowy: <i>\"{reason}\"</i>.",
+                    "resubmit": "Od tej chwili możesz wysłać nową prośbę o zmianę nazwy użytkownika z poziomu ustawień konta."
+                },
+                "request": {
+                    "title": "Poproś o zmianę nazwy użytkownika",
+                    "current_request": "Już poprosiłeś o zmianę nazwy użytkownika na \"{name}.\" Możesz edytować lub usunąć tę prośbę.",
+                    "submit_button": "Wyślij prośbę",
+                    "delete_button": "Usuń prośbę",
+                    "confirmation_message": "Twoja prośba o zmianę nazwy użytkownika została wysłana i oczekuje na akceptację moderatora.",
+                    "dismiss_button": "=> core.ref.okay",
+                    "deleted": "Prośba o zmianę nazwy użytkownika została usunięta."
+                }
+            },
+            "pending_requests": {
+                "empty_text": "Nie znaleziono żadnych próśb o zmianę nazwy.",
+                "nickname_item_text": "{name} poprosił o zmianę pseudonimu",
+                "nickname_exerpt": "Wnioskowany pseudonim: {requestedName}",
+                "tooltip": "=> fof-username-request.ref.name_change_requests",
+                "title": "=> fof-username-request.ref.name_change_requests",
+                "username_item_text": "{name} poprosił o zmianę nazwy użytkownika",
+                "username_exerpt": "Wnioskowana nazwa użytkownika: {requestedName}"
+            },
+            "settings": {
+                "nickname_request_button": "Zmień pseudonim",
+                "username_request_button": "Zmień nazwę użytkownika"
+            },
+            "user": {
+                "name_history_link": "Historia nazwy"
+            },
             "action": {
                 "title": "=> fof-username-request.forum.results.title",
                 "help_text": "Upewnij się, że nazwa użytkownika jest zgodna z regulaminem społeczności.",
@@ -44,6 +125,14 @@
                 "item_text": "{username} poprosił o zmianę nazwy użytkownika",
                 "exerpt": "Wnioskowana nazwa użytkownika: {requestedUsername}"
             }
+        },
+        "ref": {
+            "name_change_request": "Prośba o zmianę nazwy",
+            "name_change_requests": "Prośby o zmianę nazwy",
+            "nickname_change_request": "Prośba o zmianę pseudonimu",
+            "nickname_change_requests": "Prośby o zmianę pseudonimu",
+            "username_change_request": "Prośba o zmianę nazwy użytkownika",
+            "username_change_requests": "Prośby o zmianę nazwy użytkownika"
         }
     }
 }

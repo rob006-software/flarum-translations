@@ -1,0 +1,92 @@
+{
+    "core": {
+        "forum": {
+            "index_sort": {
+                "hot_button": "Tendenza"
+            }
+        }
+    },
+    "fof-gamification": {
+        "forum": {
+            "votes": "Voti",
+            "vote_title": "Mostra i votanti",
+            "nav": {
+                "name": "Classifica"
+            },
+            "ranking": {
+                "rank": "Posizione",
+                "name": "Utente",
+                "amount": "Punti"
+            },
+            "notification": {
+                "upvote": "{username} ha dato un voto positivo al tuo messaggio",
+                "downvote": "{username} ha dato un voto negativo al tuo messaggio"
+            },
+            "user": {
+                "points": "Punti: {points}",
+                "rank": "{rank}"
+            },
+            "modal": {
+                "title": "Votanti",
+                "upvotes_label": "Voti positivi:",
+                "downvotes_label": "Voti negativi:"
+            },
+            "mod_item": "Mostra votanti"
+        },
+        "admin": {
+            "permissions": {
+                "vote_label": "Dare voti positivi/negativi ai messaggi",
+                "see_votes_label": "Visualizzare i voti positivi/negativi dei messaggi",
+                "see_ranking_page": "Visualizzare la pagina della classifica"
+            },
+            "page": {
+                "rankings": {
+                    "blocked": {
+                        "placeholder": "CDK2020, Ralkage, AngelAvila",
+                        "title": "Ignora utenti",
+                        "help": "Questi utenti non verranno mostrati nella classifica. I nomi utente doveno essere separati da una virgola seguita da uno spazio."
+                    },
+                    "title": "Pagina della classifica",
+                    "enable": "Attiva immagini personalizzate",
+                    "custom_image_1": "Immagine 1° posizione",
+                    "custom_image_2": "Immagine 2° posizione",
+                    "custom_image_3": "Immagine 3° posizione"
+                },
+                "votes": {
+                    "points_title": "Punti (Segnaposto)",
+                    "points_placeholder": "Punti: ",
+                    "color_holder": "#ffffff",
+                    "auto_upvote": "Dai un voto positivo automatico quando i messaggi vengono postati",
+                    "rate_limit": "Applica un tempo limite per votare (10 secondi)",
+                    "discussion_page": "Mostra i voti totali del messaggio originale nella lista delle discussioni",
+                    "alternate_layout": "",
+                    "title": "Voti",
+                    "vote_color": "Colore del voto",
+                    "icon_name": "Icona voto positivo/negativo",
+                    "icon_help": "Inserisci una qualsiasi icona di FontAwesome che è seguita con il suffisso -up e -down. Esempio: arrow, thumbs, chevron"
+                },
+                "save_settings": "Salva impostazioni",
+                "convert": {
+                    "button": "Converti mi piace in voti positivi",
+                    "help": "Converti i mi piace precedenti da flarum-ext-likes in voti positivi, e calcola la tendenza per tutte le discussioni attuali.",
+                    "converting": "I mi piace verrano convertiti. Ricarica il sito dopo un paio di minuti per verificare il processo finito. (Il tempo di conversione può richiedere un po' in base ai mi piace totali presenti sul forum)",
+                    "converted": "Tutti i voti sono stati convertiti ({number})"
+                },
+                "ranks": {
+                    "title": "Grado",
+                    "ranks": "Grado personalizzato",
+                    "number_title": "Quandi badge dovrebbero essere mostrati?",
+                    "help": {
+                        "color": "#ffffff",
+                        "help": "Inserisci il numero richiesto di voti positivi, il nome del rango e il colore del rango in hex",
+                        "points": "Punti",
+                        "name": "Nome"
+                    }
+                }
+            },
+            "nav": {
+                "desc": "Gamification per la community del tuo forum"
+            }
+        }
+    }
+}

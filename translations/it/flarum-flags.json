@@ -1,0 +1,50 @@
+{
+    "flarum-flags": {
+        "admin": {
+            "permissions": {
+                "flag_posts_label": "Segnala messaggio",
+                "view_flags_label": "Visualizz post segnalati"
+            },
+            "settings": {
+                "flag_own_posts_label": "Consenti agli utenti di segnalare i propri messaggi",
+                "guidelines_url_label": "URL Linea di Condotta",
+                "title": "Impostazioni Segnalazioni"
+            }
+        },
+        "forum": {
+            "flag_post": {
+                "confirmation_message": "Grazie per la segnalazione. Un moderatore controllerà presto.",
+                "dismiss_button": "=> core.ref.okay",
+                "reason_details_placeholder": "Dettagli aggiuntivi (opzionale)",
+                "reason_inappropriate_label": "Non appropriato",
+                "reason_inappropriate_text": "Questo messaggio è offensivo, abusivo o viola la nostra <a>Linea di Condotta</a>.",
+                "reason_missing_message": "Per favore argomenta la segnalazione.",
+                "reason_off_topic_label": "Off-topic",
+                "reason_off_topic_text": "Questo messaggio non è rilevante per la discussione in corso e dovrebbe essere spostato altrove.",
+                "reason_other_label": "Altro (specificare)",
+                "reason_spam_label": "Spam",
+                "reason_spam_text": "Questo messaggio è un annuncio.",
+                "submit_button": "=> flarum-flags.ref.flag_post",
+                "title": "=> flarum-flags.ref.flag_post"
+            },
+            "flagged_posts": {
+                "empty_text": "Non ci sono segnalazioni",
+                "item_text": "{username} in <em>{discussion}</em>",
+                "title": "=> flarum-flags.ref.flagged_posts",
+                "tooltip": "=> flarum-flags.ref.flagged_posts"
+            },
+            "post": {
+                "dismiss_flag_button": "Elimina Segnalazione",
+                "flagged_by_text": "Segnalato da {username}",
+                "flagged_by_with_reason_text": "Segnalato da {username} per {reason}"
+            },
+            "post_controls": {
+                "flag_button": "Segnala"
+            }
+        },
+        "ref": {
+            "flag_post": "Segnala Messaggio",
+            "flagged_posts": "Segnalazioni"
+        }
+    }
+}

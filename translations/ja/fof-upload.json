@@ -18,6 +18,7 @@
                 "watermark": "写真をアップロードするときに透かしを添付するかどうかを選択します。 次の設定に従って、非GIF画像に透かしが追加されます。\n",
                 "s3_compatible_storage": "",
                 "s3_acl": "",
+                "composer_buttons": "",
                 "description": "ファイルアップロードサービスの設定を調整する\n"
             },
             "labels": {
@@ -74,6 +75,14 @@
                     "title": "透かし画像",
                     "toggle": "開く"
                 },
+                "composer_buttons": {
+                    "title": "",
+                    "options": {
+                        "both": "",
+                        "upload-btn": "",
+                        "media-btn": ""
+                    }
+                },
                 "ovh-svfs": {
                     "title": "OVH SVFS ストア設定",
                     "container": "コンテナ",
@@ -85,7 +94,9 @@
             },
             "permissions": {
                 "download_label": "アップロードファイルを許可します",
-                "upload_label": "ダウンロードファイルを許可する"
+                "upload_label": "ダウンロードファイルを許可する",
+                "view_user_uploads_label": "",
+                "delete_uploads_of_others_label": ""
             },
             "templates": {
                 "file": "デフォルトのファイルダウンロードテンプレート",
@@ -106,8 +117,30 @@
             }
         },
         "forum": {
+            "media_manager": "",
             "buttons": {
-                "attach": "添付ファイルを追加"
+                "attach": "添付ファイルを追加",
+                "upload": "",
+                "user_uploads": "",
+                "cancel": "",
+                "media": ""
+            },
+            "file_list": {
+                "loading": "",
+                "empty": "",
+                "release_to_upload": "",
+                "modal_empty_desktop": "",
+                "modal_empty_phone": "",
+                "select_file_a11y_label": "",
+                "confirm_selection_btn": "",
+                "load_more_files_btn": "",
+                "hide_file": {
+                    "btn_a11y_label": "",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "hide_fail": "",
+                    "loading": ""
+                }
             },
             "states": {
                 "error": "間違った",

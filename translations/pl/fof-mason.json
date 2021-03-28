@@ -34,10 +34,6 @@
                 "edit-answer-prompt": "Zmień odpowiedź wszędzie, gdzie została użyta",
                 "show-user-answers": "Pokaż niesugerowane odpowiedzi ({count})"
             },
-            "menu": {
-                "title": "Mason",
-                "description": "Konfiguruj niestandardowe pola dyskusji."
-            },
             "fields": {
                 "add": "Dodaj pole {field}",
                 "edit": "Edytuj pole {field}",
@@ -59,9 +55,7 @@
                 "save-field-for-answers": "Zapisz pole, aby dodawać odpowiedzi",
                 "is_suggested": "Sugeruj odpowiedź użytkownikom",
                 "new-answer": "Nowa odpowiedź",
-                "new-answer-placeholder": "Jakiś tekst",
-                "min_answers_count": "Minimalna liczba odpowiedzi",
-                "max_answers_count": "Maksymalna liczba odpowiedzi"
+                "new-answer-placeholder": "Jakiś tekst"
             },
             "messages": {
                 "delete-answer-confirmation": "Czy jesteś pewien, że chcesz usunąć odpowiedź \"{content}\"? Zostanie ona usunięta ze wszystkich dyskusji, które ją wykorzystują. Jeśli chcesz zachować istniejące odpowiedzi, wyłącz jedynie sugerowanie tej odpowiedzi. Usunąć odpowiedź?\n",
@@ -90,13 +84,17 @@
                 "field-answers": "Odpowiedzi dla pola"
             },
             "permissions": {
-                "mason-heading": "Mason",
                 "see-own-fields": "Przeglądanie pól we własnych dyskusjach",
                 "see-other-fields": "Przeglądanie pól we wszystkich dyskusjach",
                 "fill-fields": "Uzupełnianie pól dla nowych dyskusji",
                 "update-own-fields": "Edycja pól we własnych dyskusjach",
                 "update-other-fields": "Edycja pól we wszystkich dyskusjach",
-                "skip-required-fields": "Pomijanie wymaganych pól"
+                "skip-required-fields": "Pomijanie wymaganych pól",
+                "mason-heading": "Mason"
+            },
+            "menu": {
+                "title": "Mason",
+                "description": "Konfiguruj niestandardowe pola dyskusji."
             }
         }
     }

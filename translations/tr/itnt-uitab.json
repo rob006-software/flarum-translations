@@ -2,11 +2,11 @@
     "itnt-uitab": {
         "admin": {
             "settings": {
+                "help_text": "Eğer Flarum siteniz alt dizine kuruluysa, lütfen aşağıdaki alt dizini belirtin (bölü çizgiyle bitirin), aksi takdirde lütfen varsayılan değeri bırakın. Örneğin, <code>/sub/</code>",
+                "home_page_label": "Anasayfa",
                 "requirement": "UI Tab uzantısını kullanmadan önce mutlaka <code>flagrow/direct-links</code> uzantısını aktif etmelisiniz",
                 "title": "UI Tab Ayarları",
                 "tags_title": "Alt Dizin Adresiniz",
-                "help_text": "Eğer Flarum siteniz alt dizinde ise, aşağıdaki alana önadı ekleyin, aksi halde bu alana müdahale etmeyin. örn. <code>/ → /bbs</code>, <code>/tags → /bbs/tags</code>",
-                "home_page_label": "Anasayfa",
                 "tags_page_label": "Etiketler",
                 "create_page_label": "Oluştur",
                 "settings_page_label": "Ayarlar",

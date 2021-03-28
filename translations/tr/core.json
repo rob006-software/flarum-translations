@@ -21,8 +21,8 @@
                 "favicon_text": "Forumun kısayol simgesi olarak görüntülenecek bir resim yükleyin.",
                 "logo_heading": "Logo",
                 "logo_text": "Forum başlığının yerine görüntülenecek bir resim yükle.",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "Görünüm"
+                "title": "Görünüm",
+                "submit_button": "=> core.ref.save_changes"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -35,14 +35,14 @@
                 "forum_title_heading": "Forum Başlığı",
                 "home_page_heading": "Ana Sayfa",
                 "home_page_text": "Kullanıcıların forumunu ziyaret ettiklerinde ilk görecekleri sayfayı seçin.",
-                "saved_message": "Değişikliklerin kaydedildi.",
                 "show_language_selector_label": "Dil seçiciyi göster",
-                "slug_driver_heading": "Bağlantı Sürücüsü: {model}",
-                "slug_driver_text": "Bağlantılar için bir sürücü modeli seçin.",
-                "submit_button": "=> core.ref.save_changes",
+                "slug_driver_heading": "Adres Kısa Adı Sürücüsü: {model}",
+                "slug_driver_text": "Adres kısa adı için bir sürücü modeli seçin.",
                 "title": "Temel Öğeler",
                 "welcome_banner_heading": "Hoşgeldiniz Mesajı",
-                "welcome_banner_text": "Tüm Tartışmalar sayfasında görünecek karşılama yazısını ayarla. Ziyaretçileri karşılamak için bunu kullan."
+                "welcome_banner_text": "Tüm Tartışmalar sayfasında görünecek karşılama yazısını ayarla. Ziyaretçileri karşılamak için bunu kullan.",
+                "saved_message": "Değişikliklerin kaydedildi.",
+                "submit_button": "=> core.ref.save_changes"
             },
             "dashboard": {
                 "clear_cache_button": "Önbelleği Temizle",
@@ -80,7 +80,7 @@
             },
             "email": {
                 "addresses_heading": "Adresler",
-                "description": "",
+                "description": "Forumunuzun e-posta göndermek için kullanacağı sürücüyü, ayarları ve adresleri yapılandırın.",
                 "driver_heading": "Sürücü Seç",
                 "driver_label": "Sürücü",
                 "from_label": "Gönderen",
@@ -99,67 +99,68 @@
                 "send_test_mail_success": "Test postası başarıyla gönderildi!",
                 "send_test_mail_text": "Bu, yukarıdaki yapılandırma ayarları ile {email} adresine gönderilecektir.",
                 "smtp_heading": "SMTP Ayarları",
+                "title": "=> core.ref.email",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "",
                 "heading": "=> core.ref.email",
+                "text": "Forumunun e-posta göndermesi için sürücüyü, ayarları ve adresleri ayarla.",
                 "mail_mandrill_secret_label": "Gizli anahtar",
                 "mail_ses_key_label": "Anahtar",
                 "mail_ses_region_label": "Bölge",
                 "mail_ses_secret_label": "Gizli",
                 "mandrill_heading": "Mandrill Ayarları",
-                "ses_heading": "SES Ayarları",
-                "text": "Forumunun e-posta göndermesi için sürücüyü, ayarları ve adresleri ayarla."
+                "ses_heading": "SES Ayarları"
             },
             "extension": {
-                "confirm_uninstall": "",
-                "disabled": "",
-                "enabled": "",
-                "enable_to_see": "",
+                "configure_scopes": "Kapsamları Yapılandır",
+                "confirm_uninstall": "Kaldırma işlemi, uzantı ile ilgili tüm veritabanı girişlerini kaldıracaktır. Devam etmek istediğine emin misin?",
+                "disabled": "Devre dışı",
+                "enable_to_see": "Ayarları görüntülemek ve değiştirmek için uzantıyı etkinleştirin.",
+                "enabled": "Etkin",
                 "info_links": {
-                    "discuss": "",
-                    "documentation": "",
-                    "donate": "",
-                    "source": "",
-                    "support": "",
-                    "website": ""
+                    "discuss": "Tartışma",
+                    "documentation": "Belgeler",
+                    "donate": "Bağış",
+                    "source": "Kaynak",
+                    "support": "Destek",
+                    "website": "Site"
                 },
-                "no_permissions": "",
-                "no_settings": "",
-                "open_modal": "",
-                "permissions_title": "",
-                "saved_message": "",
-                "uninstall_button": ""
+                "no_permissions": "Bu uzantının izni yok.",
+                "no_settings": "Bu uzantının ayarları yok.",
+                "open_modal": "Ayarları aç",
+                "permissions_title": "İzinler",
+                "uninstall_button": "Kaldır",
+                "saved_message": "Değişiklikleriniz kaydedildi."
             },
             "header": {
-                "get_help": "",
+                "get_help": "Yardım Al",
                 "log_out_button": "=> core.ref.log_out"
             },
             "loading": {
                 "title": "Lütfen Bekleyin..."
             },
             "nav": {
-                "appearance_button": "Görünüm",
-                "appearance_title": "",
-                "basics_button": "Temel Öğeler",
-                "basics_title": "",
+                "appearance_button": "=> core.admin.appearance.title",
+                "appearance_title": "=> core.admin.appearance.description",
+                "basics_button": "=> core.admin.basics.title",
+                "basics_title": "=> core.admin.basics.description",
                 "categories": {
-                    "authentication": "",
-                    "core": "",
-                    "discussion": "",
-                    "feature": "",
-                    "formatting": "",
-                    "language": "",
-                    "moderation": "",
-                    "other": "",
-                    "theme": ""
+                    "authentication": "Doğrulama",
+                    "core": "Çekirdek Yapılandırması",
+                    "discussion": "Tartışma",
+                    "feature": "Özellikler",
+                    "formatting": "Biçimlendirme",
+                    "language": "Diller",
+                    "moderation": "Moderasyon",
+                    "other": "Diğer Uzantılar",
+                    "theme": "Temalar"
                 },
-                "dashboard_button": "Gösterge Paneli",
-                "dashboard_title": "",
+                "dashboard_button": "=> core.admin.dashboard.title",
+                "dashboard_title": "=> core.admin.dashboard.description",
                 "email_button": "=> core.ref.email",
-                "email_title": "",
-                "permissions_button": "İzinler",
-                "permissions_title": "",
-                "search_placeholder": "",
+                "email_title": "=> core.admin.email.description",
+                "permissions_button": "=> core.admin.permissions.title",
+                "permissions_title": "=> core.admin.permissions.description",
+                "search_placeholder": "Uzantıları Ara",
                 "appearance_text": "Forumunun renklerini, logolarını ve diğer değişkenlerini özelleştir.",
                 "basics_text": "Forum başlığını, dilini ve diğer temel ayarları yap.",
                 "dashboard_text": "Bir bakışta forumun.",
@@ -176,9 +177,11 @@
                 "delete_discussions_label": "Tartışmaları sil",
                 "delete_posts_forever_label": "Gönderileri kalıcı olarak sil",
                 "delete_posts_label": "Gönderileri sil",
-                "description": "",
+                "description": "Kimin ne görebileceğini ve ne yapabileceğini yapılandırın.",
                 "edit_posts_label": "Gönderileri düzenle",
                 "edit_users_label": "Kullanıcıları düzenle",
+                "edit_users_credentials_label": "Kullanıcı kimlik bilgilerini düzenle",
+                "edit_users_groups_label": "Kullanıcı gruplarını düzenle",
                 "global_heading": "Genel",
                 "moderate_heading": "Yönetim",
                 "new_group_button": "Yeni Grup",
@@ -189,7 +192,7 @@
                 "reply_to_discussions_label": "Tartışmalara yanıt ver",
                 "sign_up_label": "Kaydol",
                 "start_discussions_label": "Tartışmalar başlat",
-                "title": "",
+                "title": "İzinler",
                 "view_discussions_label": "Tartışmalar görüntüle",
                 "view_hidden_groups_label": "Gizli kullanıcı grubu rozetlerini göster",
                 "view_last_seen_at_label": "Son görülme zamanını görüntüle",
@@ -207,6 +210,7 @@
                 "signup_open_button": "Açık"
             },
             "settings": {
+                "saved_message": "Değişiklikleriniz kaydedildi.",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
@@ -214,7 +218,7 @@
                 "upload_button": "Bir görüntü seç..."
             },
             "add_extension": {
-                "developer_text": "Geliştirici isen, <a>dokümanları okuyabilir</a> ve kendi uzantılarını oluşturmaya devam edebilirsin.",
+                "developer_text": "Geliştirici isen, <a>belgeleri okuyabilir</a> ve kendi uzantılarını oluşturmaya devam edebilirsin.",
                 "install_text": "Bu arada, <a>Flarum Topluluğu sitesinde</a> uzantıları arayabilir ve bunları Composer kullanarak manuel olarak yükleyebilirsin.",
                 "temporary_text": "Çok uzak olmayan bir gelecekte bir gün, bu iletişim kutusu forumunuza kolaylıkla bir uzantı eklemeni sağlayacak. Konuştuğumuz gibi bir ekosistem inşa ediyoruz!",
                 "title": "Uzantı Ekle"
@@ -236,7 +240,7 @@
             },
             "change_password": {
                 "send_button": "Şifre sıfırlama e-postası gönder",
-                "text": "Aşağıdaki butona tıklayın ve şifrenizi değiştirmek için e-postanızı kontrol edin.",
+                "text": "Aşağıdaki düğmeye tıklayın ve şifrenizi değiştirmek için e-postanızı kontrol edin.",
                 "title": "=> core.ref.change_password"
             },
             "composer": {
@@ -276,20 +280,22 @@
                 "log_in_to_reply_button": "Yanıt için giriş yap",
                 "rename_button": "=> core.ref.rename",
                 "reply_button": "=> core.ref.reply",
-                "restore_button": "=> core.ref.restore"
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": "Tartışma eylemleri açılır menüsünü aç / kapat"
             },
             "discussion_list": {
                 "empty_text": "Burada hiç tartışma yok gibi görünüyor.",
                 "load_more_button": "=> core.ref.load_more",
                 "mark_as_read_tooltip": "Okundu olarak işaretle",
-                "replied_text": "{username}, {ago} önce yanıtladı",
-                "started_text": "{username} {ago} önce başlattı"
+                "replied_text": "{username}, {ago} yanıtladı",
+                "started_text": "{username} {ago} başlattı"
             },
             "edit_user": {
                 "activate_button": "Kullanıcıyı Etkinleştir",
                 "email_heading": "=> core.ref.email",
                 "email_label": "=> core.ref.email",
                 "groups_heading": "Gruplar",
+                "nothing_available": "Şu anda düzenleyebileceğiniz hiçbir şey yok.",
                 "password_heading": "=> core.ref.password",
                 "password_label": "=> core.ref.password",
                 "set_password_label": "Yeni şifre ayarla",
@@ -310,10 +316,12 @@
             "header": {
                 "admin_button": "Yönetim",
                 "back_to_index_tooltip": "Tartışma Listesine Dön",
+                "locale_dropdown_accessible_label": "Forum dizinini değiştir",
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Profil",
                 "search_placeholder": "Forumda Ara",
+                "session_dropdown_accessible_label": "Oturum seçenekleri açılır menüsünü aç / kapat",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
             },
@@ -324,13 +332,15 @@
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
                 "refresh_tooltip": "Yenile",
-                "start_discussion_button": "=> core.ref.start_a_discussion"
+                "start_discussion_button": "=> core.ref.start_a_discussion",
+                "toggle_sidenav_dropdown_accessible_label": "Gezinme açılır menüsünü aç / kapat"
             },
             "index_sort": {
                 "latest_button": "En Son",
                 "newest_button": "Yeniler",
                 "oldest_button": "Eskiler",
                 "relevance_button": "Alakalı",
+                "toggle_dropdown_accessible_label": "Tartışma listesi sıralamasını değiştir",
                 "top_button": "Popüler"
             },
             "log_in": {
@@ -349,11 +359,12 @@
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "Okundu Olarak İşaretle",
                 "title": "=> core.ref.notifications",
+                "toggle_dropdown_accessible_label": "Bildirimleri görüntüle",
                 "tooltip": "=> core.ref.notifications"
             },
             "post": {
                 "edited_text": "Düzenlendi",
-                "edited_tooltip": "{username}, {ago} önce düzenledi",
+                "edited_tooltip": "{username}, {ago} düzenledi",
                 "number_tooltip": "Gönderi #{number}"
             },
             "post_controls": {
@@ -362,7 +373,8 @@
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "edit_button": "=> core.ref.edit",
                 "hide_confirmation": "Bu gönderiyi silmek istediğinize emin misiniz?",
-                "restore_button": "=> core.ref.restore"
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": "Yayın kontrolleri açılır menüsünü aç / kapat"
             },
             "post_scrubber": {
                 "now_link": "Şimdi",
@@ -414,7 +426,7 @@
                 "avatar_upload_tooltip": "Yeni bir profil fotoğrafı yükle",
                 "discussions_link": "=> core.ref.discussions",
                 "in_discussion_text": "{discussion} tartışmasında",
-                "joined_date_text": "{ago} önce katıldı",
+                "joined_date_text": "{ago} tarihinde katıldı",
                 "online_text": "Çevrimiçi",
                 "posts_empty_text": "Burada hiç gönderi yok gibi görünüyor.",
                 "posts_link": "=> core.ref.posts",
@@ -427,7 +439,8 @@
                 "delete_confirmation": "Bu kullanıcıyı silmek istediğinize emin misiniz? Kullanıcının tüm gönderileri silinecek.",
                 "delete_error_message": "<i>{username} ({email})</i> adlı kullanıcının silinmesi başarısız oldu",
                 "delete_success_message": "<i>{username} ({email})</i> silindi",
-                "edit_button": "=> core.ref.edit"
+                "edit_button": "=> core.ref.edit",
+                "toggle_dropdown_accessible_label": "Kullanıcı kontrolleri açılır menüsünü aç / kapat"
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
@@ -438,6 +451,9 @@
         "lib": {
             "badge": {
                 "hidden_tooltip": "Gizli"
+            },
+            "dropdown": {
+                "toggle_dropdown_accessible_label": "Açılır menüyü aç / kapat"
             },
             "error": {
                 "dependent_extensions_message": "{extension} uzantısı şu uzantı kapanmadan önce kapatılamaz: {extensions}",
@@ -530,12 +546,12 @@
             "custom_header_text": "Sayfanın en üstünde görüntülenecek HTML kodu ekleyin, Flarum'un kendi üstbilgisinin üstünde.",
             "custom_header_title": "Özel Başlığı Düzenle",
             "delete": "Sil",
-            "delete_forever": "Kalııcı Olarak Sil",
+            "delete_forever": "Kalıcı Olarak Sil",
             "discussions": "Tartışmalar",
             "edit": "Düzenle",
             "email": "E-posta",
             "icon": "Simge",
-            "icon_text": "Herhangi bir <a>FontAwesome</a> ikonu adını <code>fas fa-</code> <em>öneki dahil</em> olarak girin.",
+            "icon_text": "Herhangi bir <a>FontAwesome</a> simgesi adını <code>fas fa-</code> <em>öneki dahil</em> olarak girin.",
             "load_more": "Daha Fazla Yükle",
             "log_in": "Giriş Yap",
             "log_out": "Çıkış Yap",

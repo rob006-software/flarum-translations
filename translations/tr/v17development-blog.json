@@ -1,11 +1,46 @@
 {
     "v17development-flarum-blog": {
+        "admin": {
+            "blog": "Blog",
+            "permissions": {
+                "write_articles": "Blog makaleleri yaz ve düzenle",
+                "auto_approve_posts": "Onay olmadan makaleler yayımlayın",
+                "approve_posts": "Blog makalelerini onaylayabilir"
+            },
+            "settings": {
+                "no_categories_selected": "Kategori seçilmedi",
+                "selected_category_count": "{count} kategori seçtiniz|{count} kategori seçtiniz",
+                "select_categories_button": "Blog kategorilerini seçin",
+                "blog_heading": "Blog",
+                "allow_comments_label": "Yorumlara izin ver",
+                "allow_comments_text": "Varsayılan olarak, blog gönderilerine yorumlara izin verin. Devre dışı bırakıldığında, her blog yazısı için ayrı ayrı etkinleştirilebilir. <b>Not:</b> Bu ayarı değiştirmek, önceden var olan blog gönderilerini etkilemeyecektir.",
+                "require_review_label": "Blog gönderilerinin incelenmesi gerekiyor",
+                "require_review_text": "Bir makale gönderirken, doğrudan görünmez ve bir moderatör tarafından incelenmesi gerekir.",
+                "hide_on_discussion_list_label": "Tartışma listesinde gösterme",
+                "hide_on_discussion_list_text": "Tartışma listesinden blog gönderilerini gizleyin.",
+                "add_sidebar_nav_label": "Kenar çubuğu gezinmesine ekle",
+                "add_sidebar_nav_text": "Kenar çubuğu gezinme menüsünde bloga bir bağlantı ekleyin.",
+                "categories_heading": "Kategoriler",
+                "hide_tags_in_taglist_label": "Etiket listesinde etiketleri gizle",
+                "hide_tags_in_taglist_text": "Etkinleştirildiğinde, bu uzantı blog etiketlerini ana sayfanızdan gizler.",
+                "show_tag_hierarchy_label": "Etiket hiyerarşisini göster",
+                "show_tag_hierarchy_text": "Alt kategorilere boşluk ekleyin ve kategori listesine bir hiyerarşi verin.",
+                "redirects_heading": "Yönlendirmeler",
+                "redirect_articles_label": "Blog makalelerini yeniden yönlendirin",
+                "redirect_articles_text": "Etkinleştirildiğinde, bu uzantı orijinal tartışma URL'lerini kendi blog URL'lerine yönlendirir.",
+                "redirect_tags_label": "Blog etiketlerini yeniden yönlendir",
+                "redirect_tags_text": "Etkinleştirildiğinde, bu uzantı blog etiketi URL'lerini blog kategorisi URL'sine yönlendirir.",
+                "default_article_image_label": "",
+                "default_article_image_text": ""
+            }
+        },
         "forum": {
             "blog": "Blog",
             "read_more": "Devamını oku",
             "hidden": "Gizli",
             "recent_posts": "Son blog gönderileri",
             "categories": "Kategoriler",
+            "forum_nav": "Forum Menüsü",
             "return_to_overview": "Blog görünümüne geri dön ",
             "no_more_posts": "Daha fazla blog gönderisi yok.",
             "category_empty": "Bu kategoride bir blog gönderisi bulunmamaktadır.",
@@ -17,7 +52,7 @@
             },
             "article": {
                 "title": "Başlık",
-                "slug": "Bağlantı",
+                "slug": "Adres Kısa Adı",
                 "summary": "Özet"
             },
             "comment_section": {
@@ -47,6 +82,19 @@
                     "title": "Sizi blog yazımıza yönlendiriyoruz...",
                     "link": "Eğer yönlendirilmezseniz <a>buraya</a> tıklayın"
                 }
+            },
+            "composer": {
+                "no_title": "Başlık yok",
+                "enter_message_here": "Mesajınızı buraya girin",
+                "post_article": "Makale yayınla",
+                "select_category": "Bir kategori seç",
+                "edit_categories": "Kategorileri düzenleyin",
+                "write": "Yaz",
+                "view": "Görünüm",
+                "nothing_to_preview": "Önizlenecek bir şey yok",
+                "comment_section": "Bir makale oluştururken yorum bölümü kullanılamaz.",
+                "no_blog_tags_selected": "Seçtiğiniz etiketlerin hiçbiri blog etiketi değil. Lütfen en az birini seçin.",
+                "post_without_blog_info": "Bu blog gönderisini göndermek istediğinizden emin misiniz? Henüz bir blog özeti veya resmi girmediniz."
             }
         }
     }

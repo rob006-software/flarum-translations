@@ -9,12 +9,12 @@
         },
         "emails": {
             "post_warned": {
-                "subject": "",
-                "body": ""
+                "subject": "您在【{discussion_title}】发表的内容被 {warner_display_name} 警告并记 {strikes} 分",
+                "body": "{warnee_display_name}，你好！\n\n您在【{discussion_title}】发表的内容被 {warner_display_name} 警告并记 {strikes} 分。\n\n原因如下：\n\n---\n\n{public_comment}\n"
             },
             "user_warned": {
-                "subject": "",
-                "body": ""
+                "subject": "收到 {warner_display_name} 的警告并记 {strikes} 分",
+                "body": "{warnee_display_name}，你好！\n\n你收到来自 {warnee_display_name} 的警告并记 {strikes} 分\n\n原因如下\n\n---\n\n{public_comment}\n"
             }
         },
         "forum": {

@@ -1,14 +1,21 @@
 {
     "fof-user-directory": {
         "forum": {
+            "header": {
+                "back_to_user_directory_tooltip": ""
+            },
             "search": {
-                "users_heading": "「{query}」を含むユーザーを探す"
+                "users_heading": "「{query}」を含むユーザーを探す",
+                "field": {
+                    "placeholder": ""
+                }
             },
             "page": {
                 "nav": "ユーザーリスト",
                 "refresh_tooltip": "",
                 "load_more_button": "",
                 "empty_text": "",
+                "filter_button": "",
                 "sort": {
                     "relevance": "関係性",
                     "default": "デフォルト",

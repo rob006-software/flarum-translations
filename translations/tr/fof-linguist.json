@@ -1,11 +1,21 @@
 {
     "fof-linguist": {
         "admin": {
+            "tabs": {
+                "strings": "Çeviriler",
+                "coverage": "Kapsam",
+                "export": "Dışa Aktar",
+                "import": "İçe Aktar"
+            },
             "buttons": {
                 "apply": "Uygula",
                 "reset": "Aslına döndür",
                 "copy-original": "Asıl metin kopyala",
-                "load-more": "Daha fazla"
+                "load-more": "Daha fazla",
+                "delete-redundant": "Gereksiz çevirileri sil",
+                "delete-redundant-confirm": "Bu, aynı olan orijinal ve özel değerlere sahip {count} çeviriyi silecektir. Bu, bir dil paketi güncellemesinden sonra temizlemek için yararlı olabilir.\n",
+                "delete-all": "Çevirileri sil",
+                "delete-all-confirm": "Bu, {count} özel çevirinizin TÜMÜNÜ silecektir. Saklamak isteyebileceğiniz her şeyi dışa aktardığınızdan veya yedeklediğinizden emin olun.\n"
             },
             "locales": {
                 "all": "Tümü"
@@ -29,15 +39,81 @@
                     "original": "Aslı",
                     "own": "Özel"
                 },
+                "operation-options": {
+                    "or": "Bir diğeri",
+                    "and": "Tümü"
+                },
                 "for-extension": "Uzantılar için",
-                "for-extension-unavailable": "Beklenen \"{namespace}\" ad alanında çeviri bulunamadı. Belki bu uzantı, çevrilecek herhangi bir metne sahip değildir veya farklı bir ad alanı kullanıyor. Çevirilerini bulmak için arama alanını kullanmayı deneyin.",
+                "frontend": "",
+                "frontend-all-except-admin": "",
+                "mass-edit": "",
                 "results": "{total} eşleşen çeviriden {shown} adeti gösteriliyor",
+                "for-extension-unavailable": "Beklenen \"{namespace}\" ad alanında çeviri bulunamadı. Belki bu uzantı, çevrilecek herhangi bir metne sahip değildir veya farklı bir ad alanı kullanıyor. Çevirilerini bulmak için arama alanını kullanmayı deneyin.",
                 "with-original-translations-in-locales": "Asıl çevirilerde",
                 "without-original-translations-in-locales": "Asıl çeviriler olmadan"
             },
             "clear-cache": {
                 "text": "Yeni çeviriler henüz uygulanmadı. Not: Önbelleği temizlemek forumunuzu geçici olarak yavaşlatabilir.\n",
                 "button": "Önbelleği şimdi temizle"
+            },
+            "coverage": {
+                "column-options": {
+                    "locale": "",
+                    "namespace": ""
+                },
+                "total-options": {
+                    "percent": "Yüzde",
+                    "count": "Sayı"
+                },
+                "columns": {
+                    "namespace": "",
+                    "total": "",
+                    "all-except-admin": "",
+                    "all-frontends": ""
+                },
+                "count": {
+                    "percent": "% {percent}",
+                    "total": "{translated} / {total}",
+                    "details": "{total} toplam / {original} orijinal / {custom} özel"
+                },
+                "all-namespaces": "Tümü",
+                "apply-missing-filter": ""
+            },
+            "export": {
+                "title": "Dışa Aktar",
+                "warning": "",
+                "locale": "",
+                "locale-all": "",
+                "namespace": "",
+                "namespace-all": "",
+                "include-originals": "",
+                "include-all": "",
+                "output": "",
+                "output-loading": "",
+                "output-empty": "",
+                "download": ""
+            },
+            "import": {
+                "title": "",
+                "input": "",
+                "input-placeholder": "",
+                "locale": "",
+                "locale-all": "",
+                "override-existing": "",
+                "submit": "",
+                "results": "",
+                "results-with-ignore": ""
+            },
+            "known-namespace": {
+                "core": "",
+                "validation": ""
+            },
+            "known-frontend": {
+                "forum": "",
+                "admin": "",
+                "lib": "",
+                "ref": "",
+                "api": ""
             },
             "menu": {
                 "title": "Linguist",

@@ -12,8 +12,7 @@
                 "edit_recipients": "Edytuj uczestników",
                 "send_pd": "Wyślij wiadomość do {username}",
                 "cancel": "Anuluj",
-                "remove_from_discussion": "Opuść tę prywatną dyskusję",
-                "make_public": "Ustaw tę dyskusję jako publiczną"
+                "remove_from_discussion": "Opuść tę prywatną dyskusję"
             },
             "composer_private_discussion": {
                 "submit_button": "Dodaj prywatną dyskusję",
@@ -25,8 +24,7 @@
             },
             "nav": {
                 "start_button": "Prywatna dyskusja",
-                "nav_item": "Prywatne dyskusje",
-                "private_discussions": "Prywatna dyskusja"
+                "nav_item": "Prywatne dyskusje"
             },
             "input": {
                 "search_recipients": "Wpisz 3 pierwsze znaki, aby wyszukać uczestników..."
@@ -67,12 +65,10 @@
                 "pd_reply_label": "Ktoś odpowiedział w prywatnej dyskusji, w której uczestniczę",
                 "pd_reply_text": "{username} odpowiedział w prywatnej dyskusji, w której uczestniczysz",
                 "pd_text": "{username} utworzył nową prywatną dyskusję z Tobą",
-                "pd_user_left_label": "Jeden z uczestników opuści prywatną dyskusję, w której uczestniczę",
+                "pd_user_left_label": "Jeden z uczestników opuścił prywatną dyskusję, w której uczestniczę",
                 "pd_user_left_text": "{username} opuścił prywatną dyskusję",
                 "pd_added_text": "{username} dodał Cię do prywatnej dyskusji",
-                "pd_added_label": "Ktoś dodał mnie do istniejącej prywatnej dyskusji",
-                "pd_made_public_label": "Prywatna dyskusja została upubliczniona",
-                "pd_made_public_text": "{username} upublicznił dyskusję"
+                "pd_added_label": "Ktoś dodał mnie do istniejącej prywatnej dyskusji"
             },
             "confirm": {
                 "make_public": "To sprawi, że ta prywatna dyskusja będzie widoczna dla wszystkich. Upewnij się, że właśnie tego chcesz."
@@ -85,17 +81,11 @@
                 "create_private_discussions_with_blocking_users": "Tworzenie prywatnych dyskusji z użytkownikami, którzy je blokują",
                 "edit_user_recipients": "Edytowanie użytkowników biorących udział w prywatnych dyskusjach",
                 "edit_group_recipients": "Edytowanie grup biorących udział w prywatnych dyskusjach",
-                "view_private_discussions-when-flagged": "Przeglądanie prywatnych dyskusji innych użytkowników, jeśli ktoś je zgłosił",
-                "make_private_into_public": "Przekształcanie prywatnej dyskusji w publiczną dyskusję"
+                "view_private_discussions-when-flagged": "Przeglądanie prywatnych dyskusji innych użytkowników, jeśli ktoś je zgłosił"
             },
             "settings": {
                 "badge-icon": "Ikona w etykiecie dyskusji Byobu",
-                "post-event-icon": "Ikona zdarzeń w dyskusjach Byobu",
-                "use_tag_slug": "Podaj tag, który powinien być użyty dla wszystkich prywatnych dyskusji",
-                "use_tag_slug_help": "Wybierz \"{no_restriction}\", aby pozwolić użytkownikom wybierać swój własny tag. Ustawienia mają zastosowanie tylko dla nowo utworzonych prywatnych dyskusji.",
-                "use_tag_slug_no_restriction": "- Bez ograniczeń -",
-                "byobu_index": "Wyświetl link do prywatnych dyskusji na stronie głównej",
-                "byobu_index_help": "Gdy ta opcja jest włączona, w głównej nawigacji zostanie wyświetlony link do listy prywatnych dyskusji"
+                "post-event-icon": "Ikona zdarzeń w dyskusjach Byobu"
             }
         },
         "email": {
@@ -110,23 +100,6 @@
                 "private_discussion_replied": "Witaj {recipient_display_name},\n\n{actor_display_name} odpowiedział w prywatnej dyskusji, której jesteś uczestnikiem: \"{discussion_title}\".\n\nAby zobaczyć nową zawartość, kliknij poniższy link:\n{post_url}\n\nMusisz być zalogowany, aby zobaczyć tę dyskusję.\n",
                 "recipient_removed": "Witaj {recipient_display_name},\n\n{actor_display_name} opuścił prywatną dyskusję \"{discussion_title}\" i nie ma już dostępu do jej treści.\n\nAby zobaczyć dyskusję, kliknij poniższy link:\n{discussion_url}\n\nMusisz być zalogowany, aby zobaczyć tę dyskusję.\n",
                 "private_discussion_added": "Witaj {recipient_display_name},\n\n{actor_display_name} dodał Cię jako uczestnika do istniejącej prywatnej dyskusji: \"{discussion_title}\".\n\nAby zobaczyć dyskusję, kliknij poniższy link:\n{discussion_url}\n\nMusisz być zalogowany, aby zobaczyć tę dyskusję.\n"
-            }
-        },
-        "notifications": {
-            "private_discussion_created": {
-                "title": "[Prywatna dyskusja] user rozpoczął prywatną dyskusję z Tobą"
-            },
-            "private_discussion_replied": {
-                "title": "[Prywatna dyskusja] user odpowiedział w prywatnej dyskusji"
-            },
-            "recipient_removed": {
-                "title": "[Prywatna dyskusja] user opuścił dyskusję"
-            },
-            "private_discussion_added": {
-                "title": "[Prywatna dyskusja] user dodał Cię do prywatnej dyskusji"
-            },
-            "made_public": {
-                "title": "[Prywatna dyskusja] user upublicznił dyskusję"
             }
         }
     }

@@ -6,11 +6,6 @@
                 "donotstore": "Nie przechowuj",
                 "usemax": "Użyj maksymalnego wyniku",
                 "useexperimental": "Użyj eksperymentalnych modeli (experimental models)",
-                "api_key_help": "Twój klucz API od Google do Perspective API",
-                "threshold_help": "To jest minimalny wynik (jako liczba całkowita), który musi uzyskać post, aby zostać automatycznie zgłoszony",
-                "maxscore_help": "To ustawienie informuje wtyczkę, aby użyć maksymalnego wyniku zamiast średniej",
-                "donotstore_help": "To ustawienie informuje Google, aby nie przechowywać treści postów wysłanych do analizy",
-                "experimental_help": "To ustawienie powinno być włączone tylko wtedy, gdy Twój język nie jest obsługiwany przez produkcyjne modele",
                 "field": {
                     "api_key": "API Key",
                     "threshold": "Próg dla zgłoszeń",
@@ -19,7 +14,12 @@
                     "profanity": "Przekleństwa",
                     "sexually_explicit": "Materiały erotyczne",
                     "flirtation": "Flirtowanie"
-                }
+                },
+                "api_key_help": "Twój klucz API od Google do Perspective API",
+                "threshold_help": "To jest minimalny wynik (jako liczba całkowita), który musi uzyskać post, aby zostać automatycznie zgłoszony",
+                "maxscore_help": "To ustawienie informuje wtyczkę, aby użyć maksymalnego wyniku zamiast średniej",
+                "donotstore_help": "To ustawienie informuje Google, aby nie przechowywać treści postów wysłanych do analizy",
+                "experimental_help": "To ustawienie powinno być włączone tylko wtedy, gdy Twój język nie jest obsługiwany przez produkcyjne modele"
             }
         },
         "forum": {

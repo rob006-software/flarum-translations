@@ -1,0 +1,49 @@
+{
+    "ianm-follow-users": {
+        "admin": {
+            "permissions": {
+                "be_followed_label": "Może być obserwowany"
+            }
+        },
+        "forum": {
+            "profile_link": "=> ianm-follow-users.lib.following_link",
+            "user_controls": {
+                "follow_button": "Obserwuj",
+                "follow_confirmation": "Czy jesteś pewien, że chcesz obserwować tego użytkownika?",
+                "unfollow_button": "Przestań obserwować",
+                "unfollow_confirmation": "Czy jesteś pewien, że chcesz przestać obserwować tego użytkownika?"
+            },
+            "settings": {
+                "notify_new_follower_label": "Ktoś zaczął mnie obserwować",
+                "notify_new_unfollower_label": "Ktoś przestał mnie obserwować",
+                "notify_new_discussion_label": "Obserwowany użytkownik utworzył dyskusję",
+                "notify_new_post_label": "Obserwowany użytkownik odpowiedział w istniejącej dyskusji",
+                "block_follow": "Nie pozwól innym na obserwowanie mnie"
+            },
+            "index": {
+                "follow_tag_button": "Obserwuj",
+                "unfollow_tag_button": "Przestań obserwować"
+            },
+            "notifications": {
+                "new_discussion_text": "{username} rozpoczął",
+                "new_post_text": "{username} odpowiedział w dyskusji",
+                "new_follower_text": "{username} zaczął Cię obserwować",
+                "new_unfollower_text": "{username} przestał Cię obserwować"
+            },
+            "badge": {
+                "label": "Obserwowany użytkownik"
+            }
+        },
+        "email": {
+            "new_discussion_by_user_subject": "[Obserwowany użytkownik] {title}",
+            "new_follower_subject": "[Obserwowany użytkownik] Ktoś zaczął Cię obserwować!",
+            "new_post_subject": "[Obserwowany użytkownik] Nowy post w {title}",
+            "new_discussion_by_user_body": "Witaj {recipient_display_name},\n\n{user_display_name} utworzył nową dyskusję: {discussion_title}\n\nAby zobaczyć nową dyskusję, kliknij poniższy link:\n{discussion_url}\n\n---\n\n{post_content}\n",
+            "new_follower_body": "Witaj {recipient_display_name},\n\n{follower_display_name} zaczął Cię obserwować. Zostanie on poinformowany o każdej nowej dyskusji, jaką rozpoczniesz.\n\nAby zobaczyć jego profil, kliknij poniższy link:\n{profile_url}\n",
+            "new_post_body": "Witaj {recipient_display_name},\n\n{user_display_name} odpowiedział w dyskusji: {discussion_title}\n\nAby zobaczyć nową aktywność, kliknij poniższy link:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nNie dostaniesz nowych powiadomień dotyczących tej dyskusji do czasu, aż zobaczysz nową zawartość.\n"
+        },
+        "lib": {
+            "following_link": "Obserwowani użytkownicy"
+        }
+    }
+}

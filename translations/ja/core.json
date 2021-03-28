@@ -21,8 +21,8 @@
                 "favicon_text": "ショートカットアイコン用の画像をアップロード",
                 "logo_heading": "ロゴ",
                 "logo_text": "タイトル用の画像をアップロード",
-                "submit_button": "=> core.ref.save_changes",
-                "title": ""
+                "title": "",
+                "submit_button": "=> core.ref.save_changes"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -35,14 +35,14 @@
                 "forum_title_heading": "フォーラムのタイトル",
                 "home_page_heading": "トップページ",
                 "home_page_text": "ユーザーがあなたのフォーラムにアクセスしたときに最初に表示されるページを選択します。カスタム値を入力する場合は、フォーラムルートに関連するパスを使用します。",
-                "saved_message": "変更が保存されました。",
                 "show_language_selector_label": "言語選択を表示する",
                 "slug_driver_heading": "",
                 "slug_driver_text": "",
-                "submit_button": "=> core.ref.save_changes",
                 "title": "",
                 "welcome_banner_heading": "ウェルカムバナー",
-                "welcome_banner_text": "フォーラムにやってきたユーザーにウェルカムを表示しましょう。「全てのスレッド」のページにこの文が出力されます。"
+                "welcome_banner_text": "フォーラムにやってきたユーザーにウェルカムを表示しましょう。「全てのスレッド」のページにこの文が出力されます。",
+                "saved_message": "変更が保存されました。",
+                "submit_button": "=> core.ref.save_changes"
             },
             "dashboard": {
                 "clear_cache_button": "キャッシュをクリア",
@@ -99,22 +99,23 @@
                 "send_test_mail_success": "テストメールの送信に成功しました！",
                 "send_test_mail_text": "",
                 "smtp_heading": "SMTP 設定",
-                "submit_button": "=> core.ref.save_changes",
                 "title": "",
+                "submit_button": "=> core.ref.save_changes",
                 "heading": "=> core.ref.email",
+                "text": "メール送信用のSMTP情報を設定します。",
                 "mail_mandrill_secret_label": "Secret key",
                 "mail_ses_key_label": "Key",
                 "mail_ses_region_label": "地域",
                 "mail_ses_secret_label": "Secret",
                 "mandrill_heading": "Mandrill 設定",
-                "ses_heading": "SES 設定",
-                "text": "メール送信用のSMTP情報を設定します。"
+                "ses_heading": "SES 設定"
             },
             "extension": {
+                "configure_scopes": "",
                 "confirm_uninstall": "",
                 "disabled": "",
-                "enabled": "",
                 "enable_to_see": "",
+                "enabled": "",
                 "info_links": {
                     "discuss": "",
                     "documentation": "",
@@ -127,8 +128,8 @@
                 "no_settings": "",
                 "open_modal": "",
                 "permissions_title": "",
-                "saved_message": "",
-                "uninstall_button": ""
+                "uninstall_button": "",
+                "saved_message": ""
             },
             "header": {
                 "get_help": "",
@@ -181,6 +182,8 @@
                 "description": "",
                 "edit_posts_label": "投稿を編集",
                 "edit_users_label": "ユーザーを編集",
+                "edit_users_credentials_label": "",
+                "edit_users_groups_label": "",
                 "global_heading": "全体",
                 "moderate_heading": "管理",
                 "new_group_button": "新しいグループ",
@@ -209,6 +212,7 @@
                 "signup_open_button": "誰でも"
             },
             "settings": {
+                "saved_message": "",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
@@ -285,7 +289,8 @@
                 "log_in_to_reply_button": "ログインして返信",
                 "rename_button": "=> core.ref.rename",
                 "reply_button": "=> core.ref.reply",
-                "restore_button": "=> core.ref.restore"
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": ""
             },
             "discussion_list": {
                 "empty_text": "ここには何もありません。",
@@ -299,6 +304,7 @@
                 "email_heading": "=> core.ref.email",
                 "email_label": "=> core.ref.email",
                 "groups_heading": "ユーザーグループ",
+                "nothing_available": "",
                 "password_heading": "=> core.ref.password",
                 "password_label": "=> core.ref.password",
                 "set_password_label": "新しいパスワードを設定",
@@ -319,10 +325,12 @@
             "header": {
                 "admin_button": "管理パネル",
                 "back_to_index_tooltip": "スレッドリストに戻る",
+                "locale_dropdown_accessible_label": "",
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "マイデータ",
                 "search_placeholder": "検索",
+                "session_dropdown_accessible_label": "",
                 "settings_button": "設定",
                 "sign_up_link": "=> core.ref.sign_up"
             },
@@ -333,13 +341,15 @@
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "",
                 "refresh_tooltip": "更新",
-                "start_discussion_button": "=> core.ref.start_a_discussion"
+                "start_discussion_button": "=> core.ref.start_a_discussion",
+                "toggle_sidenav_dropdown_accessible_label": ""
             },
             "index_sort": {
                 "latest_button": "更新",
                 "newest_button": "最新",
                 "oldest_button": "古い順",
                 "relevance_button": "関連順",
+                "toggle_dropdown_accessible_label": "",
                 "top_button": "人気順"
             },
             "log_in": {
@@ -358,6 +368,7 @@
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "既読にする",
                 "title": "=> core.ref.notifications",
+                "toggle_dropdown_accessible_label": "",
                 "tooltip": "=> core.ref.notifications"
             },
             "post": {
@@ -371,7 +382,8 @@
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "edit_button": "=> core.ref.edit",
                 "hide_confirmation": "この投稿を削除してもよろしいですか？",
-                "restore_button": "=> core.ref.restore"
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": ""
             },
             "post_scrubber": {
                 "now_link": "最新の投稿",
@@ -436,7 +448,8 @@
                 "delete_confirmation": "本当にこのユーザーを削除してもよろしいですか？ このユーザーが投稿した内容は全て削除されます。",
                 "delete_error_message": "ユーザー <i>{username} ({email})</i> の削除に失敗しました",
                 "delete_success_message": "ユーザー <i>{username} ({email})</i> が削除されました",
-                "edit_button": "=> core.ref.edit"
+                "edit_button": "=> core.ref.edit",
+                "toggle_dropdown_accessible_label": ""
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
@@ -447,6 +460,9 @@
         "lib": {
             "badge": {
                 "hidden_tooltip": "非表示"
+            },
+            "dropdown": {
+                "toggle_dropdown_accessible_label": ""
             },
             "error": {
                 "dependent_extensions_message": "{extension}を無効化するには、これらを先に無効化する必要があります: {extensions}",

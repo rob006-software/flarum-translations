@@ -1,0 +1,32 @@
+{
+    "clarkwinkelmann-follow-tags-prompt": {
+        "forum": {
+            "controls": {
+                "choose": "Scegli tag da seguire"
+            },
+            "modal": {
+                "title": "Scegli tag da seguire",
+                "later": "Ricordamelo dopo",
+                "continue": "Continua sul forum"
+            }
+        },
+        "admin": {
+            "settings": {
+                "buttonOnFollowingPage": "Mostra pulsante nella pagina seguente",
+                "allDiscussionsOnFollowingPageForGuests": "Mostra tutte le discussioni nella pagina seguente per gli ospiti",
+                "availableTagStrategy": "Tag in modale",
+                "tagStrategy": {
+                    "primary": "Tag di primo livello",
+                    "primaryAndChildren": "Tutti i tag primari di qualsiasi livello",
+                    "primaryAndSecondary": "Tag di primo e secondo livello",
+                    "secondary": "Solo tag secondari",
+                    "all": "Tutti i tag",
+                    "list": "Tag selezionati di seguito"
+                }
+            },
+            "homepage": {
+                "following": "Seguiti"
+            }
+        }
+    }
+}

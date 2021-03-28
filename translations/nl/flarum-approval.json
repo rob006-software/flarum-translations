@@ -1,0 +1,25 @@
+{
+    "flarum-approval": {
+        "admin": {
+            "permissions": {
+                "approve_posts_label": "Berichten goedkeuren",
+                "reply_without_approval_label": "Reageren op discussies zonder goedkeuring",
+                "start_discussions_without_approval_label": "Begin discussies zonder goedkeuring"
+            }
+        },
+        "forum": {
+            "badge": {
+                "awaiting_approval_tooltip": "=> flarum-approval.ref.awaiting_approval"
+            },
+            "post": {
+                "awaiting_approval_text": "=> flarum-approval.ref.awaiting_approval"
+            },
+            "post_controls": {
+                "approve_button": "Goedkeuren"
+            }
+        },
+        "ref": {
+            "awaiting_approval": "In afwachting van goedkeuring"
+        }
+    }
+}

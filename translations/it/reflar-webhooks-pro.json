@@ -1,0 +1,74 @@
+{
+    "reflar-webhooks": {
+        "actions": {
+            "poll": {
+                "voted": "",
+                "created": ""
+            },
+            "post": {
+                "reacted": "",
+                "unreacted": "",
+                "upvoted": "",
+                "downvoted": ""
+            },
+            "user": {
+                "enabled2fa": ""
+            },
+            "extension": {
+                "installed": "",
+                "updated": ""
+            },
+            "ip": {
+                "banned": "",
+                "unbanned": ""
+            }
+        },
+        "admin": {
+            "settings": {
+                "services": {
+                    "custom": ""
+                },
+                "actions": {
+                    "reflar": {
+                        "twofactor": {
+                            "title": "",
+                            "userenabledtwofactor": ""
+                        }
+                    },
+                    "extiverse": {
+                        "bazaar": {
+                            "title": "",
+                            "extensionwasinstalled": "",
+                            "extensionwasupdated": ""
+                        }
+                    },
+                    "fof": {
+                        "banips": {
+                            "title": "",
+                            "ipwasbanned": "",
+                            "ipwasunbanned": ""
+                        },
+                        "byobu": {
+                            "title": "",
+                            "discussionmadepublic": ""
+                        },
+                        "gamification": {
+                            "title": "",
+                            "postwasvoted": ""
+                        },
+                        "polls": {
+                            "title": "",
+                            "pollwasvoted": "",
+                            "pollwascreated": ""
+                        },
+                        "reactions": {
+                            "title": "",
+                            "postwasreacted": "",
+                            "postwasunreacted": ""
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

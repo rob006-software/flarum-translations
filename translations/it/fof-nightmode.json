@@ -1,0 +1,43 @@
+{
+    "fof-nightmode": {
+        "ref": {
+            "auto": "Automatico (in base alle opzioni del browser o del dispositivo)",
+            "light": "Modalità Giorno",
+            "dark": "Modalità Notte"
+        },
+        "admin": {
+            "settings": {
+                "modal": {
+                    "default_theme": "Tema del forum predefinito",
+                    "default_theme_helper": "Il tema predefinito viene impostato automaticamente per i nuovi utenti, gli ospiti e coloro che non hanno impostato preferenze.",
+                    "theme_auto": "=> fof-nightmode.ref.auto",
+                    "theme_light": "=> fof-nightmode.ref.light",
+                    "theme_dark": "=> fof-nightmode.ref.dark"
+                }
+            }
+        },
+        "forum": {
+            "day": "=> fof-nightmode.ref.light",
+            "night": "=> fof-nightmode.ref.dark",
+            "user": {
+                "settings": {
+                    "heading": "Tema",
+                    "description": "Scegli il tema che desideri utilizzare nel forum.",
+                    "description2": "Questo tema sarà collegato al tuo account e si applicherà a tutti i tuoi dispositivi a meno che non attivi l'interruttore sottostante per le impostazioni per dispositivo.",
+                    "device_specific_setting_checkbox": "Usa per impostazioni del dispositivo",
+                    "device_specific_setting_checkbox_tooltip": "La scelta del tema verrà salvata individualmente per ciascuno dei tuoi dispositivi.",
+                    "options": {
+                        "auto": "=> fof-nightmode.ref.auto",
+                        "day": "=> fof-nightmode.ref.light",
+                        "night": "=> fof-nightmode.ref.dark"
+                    },
+                    "option_descriptions": {
+                        "auto": "Il tema verrà selezionato automaticamente in base alle impostazioni del browser o del dispositivo. Ad esempio, se hai attivato la modalità notte su iOS, anche i forum saranno scuri.",
+                        "day": "L'esperienza classica a cui sei abituato. Amata e testata.",
+                        "night": "Sei un po' nottambulo. Di notte vegli sul forum, mentre gli uccelli dormono e le volpi cacciano. O preferisci semplicemente i colori più scuri!"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -20,6 +20,17 @@
                 "pink": "Pembe",
                 "monochrome": "Tek renkli"
             },
+            "text_color": {
+                "label": "Metin Rengi",
+                "options": {
+                    "default": "Varsayılan",
+                    "theme_primary_color": "Tema Birincil Rengi",
+                    "theme_secondary_color": "Tema İkincil Rengi",
+                    "custom": "Özel Renk"
+                },
+                "custom_label": "Özel Metin Rengi",
+                "custom_helptext": "Hex kodu (\"#\" dahil), rgb(a) veya hls(a) olmalıdır."
+            },
             "generate_color_button": "Rastgele Renk Oluştur"
         }
     }

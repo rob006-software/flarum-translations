@@ -7,10 +7,10 @@
             },
             "settings": {
                 "label": {
-                    "general": "",
-                    "reminders": "",
-                    "advanced": "",
-                    "reminders_notice": ""
+                    "general": "Genel",
+                    "reminders": "Hatırlatıcılar",
+                    "advanced": "Gelişmiş",
+                    "reminders_notice": "Hatırlatıcıların doğru şekilde çalışması için Flarum planlayıcısını doğru şekilde ayarlamış olmanız gerekir."
                 },
                 "allow_select_own_post": "Kullanıcının kendi gönderisini seçmesine izin ver",
                 "select_best_answer_reminder_days": "Kullanıcıya X günden sonra en iyi yanıtı seçmesini hatırlat",
@@ -18,7 +18,7 @@
                 "schedule_stop_overnight": "Hatırlatıcının aktif olunmayan saatlerde çalışmasını engelleyin (ÖS 9 - ÖÖ 8 sunucu saati)",
                 "schedule_log_output": "Zamanlayıcı çıktısını kayıt dosyasına ekle",
                 "remind_tag_ids": "Hatırlatıcıyı belirli etiketlerde etkinleştirmek için etiketleri belirleyin (virgülle ayırarak)",
-                "use_alt_ui": "Alternatif şablonu kullanın (En İyi Yanıt butonları gönderinin sonunda yer alır)",
+                "use_alt_ui": "Alternatif şablonu kullanın (En İyi Yanıt düğmeleri gönderinin sonunda yer alır)",
                 "title": "En İyi Yanıt Ayarları"
             }
         },
@@ -29,11 +29,11 @@
             "best_answer_button": "En İyi Yanıt",
             "best_answer_label": "<a>{username}</a> tarafından {time_set}",
             "errors": {
-                "mismatch": "Seçilen gönderi bu tartışmada mevcut değil"
+                "mismatch": "Seçilen gönderi bu tartışmada mevcut değil."
             },
             "notification": {
                 "best_answer_in_discussion": "{username} bu tartışmada en iyi yanıtı verdi",
-                "content": "Sorunuz cevaplandıysa lütfen en iyi yanıtı seçin",
+                "content": "Sorunuz yanıtlandıysa lütfen en iyi yanıtı seçin",
                 "awarded": "Gönderiniz {username} tarafından en iyi yanıt olarak seçti",
                 "preferences": {
                     "awarded_best_answer": "Birisi gönderimi en iyi yanıt olarak seçtiğinde",
@@ -46,14 +46,14 @@
         },
         "email": {
             "subject": {
-                "awarded": "",
-                "ba-set": "",
-                "select": ""
+                "awarded": "Gönderiniz {display_name} tarafından en iyi yanıt olarak seçildi",
+                "ba-set": "En iyi yanıt {display_name} tarafından seçildi",
+                "select": "Sorunuz yanıtlandı mı?"
             },
             "body": {
-                "awarded": "",
-                "ba-set": "",
-                "select": ""
+                "awarded": "Hey {recipient_display_name},\n\nHarika, {actor_display_name} senin '{discussion_title}' başlıklı tartışmadaki yanıtını en iyi yanıt olarak seçti. Yardımcı olduğun için teşekkürler.\n\nBuradan görüntüle: {discussion_url}\n",
+                "ba-set": "Hey {recipient_display_name},\n\n{actor_display_name} senin de yanıtladığın '{discussion_title}' tartışması için en iyi yanıtı belirledi.\n\nBuradan görüntüle: {discussion_url}\n",
+                "select": "Hey {recipient_display_name},\n\nSadece kontrol ediyorduk ve '{discussion_title}' başlıklı tartışmanızın çok sayıda yanıt aldığını gördük. Umarız bu yanıtlardan birisi sorunu çözmene yardımcı olmuştur.\n\nEğer öyleyse sorunuz için en iyi yanıtı belirlemeniz mevcut ve yeni ziyaretçiler için yol gösterici olacaktır. Aynı sorunu yaşayan kullanıcılar için yardımcı olun ve size en iyi yanıtı verene bir teşekkürü çok görmeyin. Kullanıcılarımız zamanlarını gönüllü olarak ayırıyorlar, bu yüzden takdir edildiklerini bilmelerini sağlamak iyi olurdu.\n\nTartışmayı buradan görüntüle: {discussion_url}, ve bir en iyi yanıt belirle.\n\nTeşekkürler!\n"
             }
         }
     }

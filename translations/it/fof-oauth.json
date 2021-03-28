@@ -1,0 +1,76 @@
+{
+    "fof-oauth": {
+        "admin": {
+            "settings": {
+                "only_icons_label": "Mostra solo le icone dei bottoni (layout alternativo)",
+                "providers": {
+                    "callback_url_text": "Se necessario, imposta il callback su {url}.",
+                    "discord": {
+                        "description": "Crea un app all'indirizzo {link}. Aggiungi il link di redirect nel tab OAuth2.",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
+                    },
+                    "facebook": {
+                        "description": "Crea un app all'indirizzo {link}.",
+                        "app_id_label": "=> fof-oauth.ref.settings.app_id",
+                        "app_secret_label": "=> fof-oauth.ref.settings.app_secret"
+                    },
+                    "github": {
+                        "description": "Crea un app OAuth all'indirizzo {link}.",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
+                    },
+                    "gitlab": {
+                        "description": "Crea un app all'indirizzo {link}. Dai all'applicazione il permesso <code>read_user</code>.",
+                        "client_id_label": "=> fof-oauth.ref.settings.app_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.app_secret",
+                        "domain_label": "Dominio GitLab"
+                    },
+                    "twitter": {
+                        "description": "Crea un app all'indirizzo {link}. Dovrai impostare un URL per i Termini di Servizio e Informativa sulla Privacy. Assicurati di farlo poi aggiungi il permesso per richiedere le email.",
+                        "api_key_label": "Chiave API",
+                        "api_secret_label": "Codice segreto API"
+                    },
+                    "google": {
+                        "description": "Crea un app all'indirizzo {link}.",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
+                    },
+                    "linkedin": {
+                        "description": "Crea link applicazione a {link}.",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
+                    }
+                }
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_button": "Accedi con {provider}"
+            },
+            "error": {
+                "bad_verification_code": "Token di verifica scaduto o non valido. Riprova.",
+                "invalid_state": "Stato non valido. Riprova."
+            }
+        },
+        "lib": {
+            "providers": {
+                "discord": "Discord",
+                "facebook": "Facebook",
+                "github": "GitHub",
+                "gitlab": "GitLab",
+                "twitter": "Twitter",
+                "google": "Google",
+                "linkedin": "LinkedIn"
+            }
+        },
+        "ref": {
+            "settings": {
+                "app_id": "ID App",
+                "app_secret": "Codice segreto App",
+                "client_id": "ID Client",
+                "client_secret": "Codice segreto Client"
+            }
+        }
+    }
+}

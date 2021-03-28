@@ -1,0 +1,55 @@
+{
+    "fof-drafts": {
+        "admin": {
+            "permissions": {
+                "start": "Creare bozze",
+                "schedule": "Pianifica bozze"
+            },
+            "settings": {
+                "title": "FoF Bozze",
+                "enable_scheduled_drafts": "Abilita Pianificazione Bozze",
+                "schedule_on_one_server": "Usa direttiva 'onOneServer()' per la pianificazione (richiede Redis/Memcache)",
+                "schedule_log_output": "Manda l'output della pianificazione al registro log"
+            }
+        },
+        "console": {
+            "scheduled_drafts_disabled": "La pianificazione delle bozze è attualmente disabilitata nelle impostazioni."
+        },
+        "forum": {
+            "composer": {
+                "title": "Salva Bozza",
+                "saving": "Salvo...",
+                "saved": "Salvato!",
+                "exit_alert": "Annullare modifiche alla bozza?",
+                "discard_empty_draft_alert": "Annullare bozza vuota?"
+            },
+            "dropdown": {
+                "empty_text": "Non hai salvato alcuna bozza",
+                "title": "Bozze",
+                "delete_button": "Cancella Bozza",
+                "schedule_button": "Pianifica Bozza",
+                "tooltip": "=> fof-drafts.forum.dropdown.title",
+                "alert": "Sei sicuro di voler cancellare la bozza?",
+                "delete_all_alert": "Sei sicuro di voler cancellare tutte le tue bozze?"
+            },
+            "schedule_draft_modal": {
+                "title": "Pianifica Bozza",
+                "text": "Pianifica la tua bozza per postarla automaticamente in un secondo momento!",
+                "scheduled_text": "Pianificato per {datetime}.",
+                "scheduled_error": "Impossibile postare: {error}.",
+                "unschedule_button": "Annulla Pianificazione",
+                "reschedule_button": "Ripianifica",
+                "schedule_button": "Pianifica"
+            },
+            "user": {
+                "settings": {
+                    "drafts_heading": "Bozze",
+                    "draft_autosave_enable": "Abilita Autosalvataggio Bozze?",
+                    "draft_autosave_interval_label": "Invervallo Autosalvataggio (secondi)",
+                    "draft_autosave_interval_button": "Aggiorna Intervallo",
+                    "draft_autosave_interval_invalid": "L'intervallo deve essere un numero intero maggiore di 4."
+                }
+            }
+        }
+    }
+}

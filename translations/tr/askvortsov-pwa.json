@@ -17,6 +17,10 @@
                     "background_color_text": "Bu renk PWA uygulamanız açılırken açılış ekranı için arkaplan rengi olakcaktır. Uygulama açıldığında herhangi bir fonksiyonu olmaz.",
                     "theme_color_text": "Bu renk uygulamanızın Görev Yöneticindeki rengini belirler. Bu alanı Yönetim sayfasında yer alan 'Görünüm' sekmesinden ayarlayabilirsiniz."
                 },
+                "maintenance": {
+                    "heading": "",
+                    "debug_label": ""
+                },
                 "heading": "İleri Web Uygulaması Ayarları",
                 "text": "Flarum web sitenizi İleri Web Uygulamasına dönüştürün! Bu sitenizi otomatik olarak uygulama mağazasında listelendirmez, kullanıcılar sitenizi ziyaret ettiğinde 'Ana ekrana ekle' hatırlatmasında bulunur.",
                 "status_check_heading": "Durum Kontrolü",
@@ -28,11 +32,11 @@
                 "enable_label": "Etkinleştir"
             },
             "status": {
-                "config_no_https": "The url in your config.php file isn't using HTTPS. HTTPS is required for Progressive Web Apps to work.",
+                "config_no_https": "Config.php dosyanızdaki bağlantı HTTPS kullanmıyor. Progressive Web Uygulamalarının çalışması için HTTPS gereklidir.",
                 "possible_https_disabled": "Your site might not be running on HTTPS. If it is, ignore this. If it isn't keep in mind that HTTPS is required for Progressive Web Apps to work.",
                 "no_logo": "You must upload at least one logo for your app to work.",
                 "no_name": "You must provide a full name for your app to work.",
-                "push_needs_gmp_and_web_push": "",
+                "push_needs_gmp_and_web_push": "Gmp PHP uzantısı ve minishlink/web-push kitaplığı (oluşturucu minishlink/web-push gerektirir) push bildirimlerinin çalışması için etkinleştirilmesi ZORUNLUDUR.",
                 "success": "Potansiyel hata mevcut değil!",
                 "disabled": "İleri Web Uygulamasını aktifleştirmelisiniz.",
                 "manifest_does_not_exist": "The Web Manifest file does not exist. Try saving settings to refresh configuration.",
@@ -43,30 +47,30 @@
         },
         "forum": {
             "alerts": {
-                "optin": "",
-                "optin_button": ""
+                "optin": "Tarayıcı bildirimlerini etkinleştirdiniz ancak bu cihaz için ayarlamadınız.",
+                "optin_button": "Yapılandır"
             },
             "discussion_controls": {
-                "share_button": ""
+                "share_button": "Paylaş"
             },
             "post_controls": {
-                "share_button": "",
+                "share_button": "Paylaş",
                 "share_api": {
-                    "title": ""
+                    "title": "{username} kullanıcısının {title} tartışmasına yanıtı'"
                 }
             },
             "user_controls": {
-                "share_button": ""
+                "share_button": "Paylaş"
             },
             "settings": {
-                "push_header": "",
+                "push_header": "Tarayıcı",
                 "pwa_notifications": {
-                    "access_default": "",
-                    "access_default_button": "",
-                    "access_denied": "",
-                    "access_denied_button": "",
-                    "no_browser_support": "",
-                    "no_browser_support_button": ""
+                    "access_default": "Tarayıcı kısıtlamaları nedeniyle, bu cihazda push bildirimlerini almayı seçmelisiniz.",
+                    "access_default_button": "Kaydol",
+                    "access_denied": "Bu cihazda push bildirimlerini almak için tarayıcı ayarlarınızı yapmanız gerekir.",
+                    "access_denied_button": "Nasıl Olur",
+                    "no_browser_support": "Bu tarayıcı, progresif web uygulamaları için push bildirimlerini desteklemez.",
+                    "no_browser_support_button": "Nasıl Olur"
                 }
             }
         }

@@ -1,0 +1,20 @@
+{
+    "fof-amazon-affiliation": {
+        "admin": {
+            "settings": {
+                "title": {
+                    "modal": "Impostazioni Affiliazione Amazon",
+                    "tags": "Tag Affiliazione"
+                },
+                "field": {
+                    "keep-existing-tag": "Tieni il Tag Affiliazione Amazon dei link originali invece di sostituirli",
+                    "keep-existing-tag-help": "Di default, ogni tag esistente nell'url originale viene sostituito dal tag che definisci sotto.",
+                    "remove-tag-if-unhandled": "Rimuovi Tag Affiliazione Amazon dai link Amazon che non sono coperti",
+                    "remove-tag-if-unhandled-help": "Di default, i link che non sono coperti vengono lasciati così come sono, inclusi i loro tag se presenti.",
+                    "tag": "",
+                    "tag-placeholder": "Lascia vuoto per non coprire questi link"
+                }
+            }
+        }
+    }
+}

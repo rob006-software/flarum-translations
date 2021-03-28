@@ -15,18 +15,51 @@ use app\components\release\PolishReleaseGenerator;
 use function rob006\flarum\translations\helpers\getComponents;
 
 return [
+	'es' => [
+		'type' => 'language',
+		'language' => 'es',
+		'repository' => 'git@github.com:FlarumES/lang-spanish.git',
+		'branch' => 'main',
+		'path' => '/locale/es-ES-informal',
+	],
+	'fr' => [
+		'type' => 'language',
+		'language' => 'fr',
+		'repository' => 'git@github.com:qiaeru/lang-french.git',
+		'branch' => 'master',
+		'path' => '/locale',
+	],
+	'it' => [
+		'type' => 'language',
+		'language' => 'it',
+		'repository' => 'git@github.com:justoverclockl/flarum-italian-ext.git',
+		'branch' => 'main',
+		'path' => '/locale',
+	],
 	'ja' => [
 		'type' => 'language',
 		'language' => 'ja',
-		'updateReadme' => false,
-		'repository' => 'git@github.com:Littlegolden/flarum-lang-japanese.git',
+		'repository' => 'git@github.com:FFans/lang-japanese.git',
+		'branch' => 'master',
+		'path' => '/locale',
+	],
+	'ka' => [
+		'type' => 'language',
+		'language' => 'ka',
+		'repository' => 'git@github.com:B3K4682/lang-georgian.git',
+		'branch' => 'main',
+		'path' => '/locale',
+	],
+	'nl' => [
+		'type' => 'language',
+		'language' => 'nl',
+		'repository' => 'git@github.com:MichaelBelgium/flarum-dutch.git',
 		'branch' => 'master',
 		'path' => '/locale',
 	],
 	'pl' => [
 		'type' => 'language',
 		'language' => 'pl',
-		'updateReadme' => true,
 		'releaseGenerator' => PolishReleaseGenerator::class,
 		'repository' => 'git@github.com:rob006-software/flarum-lang-polish.git',
 		'branch' => 'master',
@@ -49,7 +82,6 @@ return [
 	'tr-lang' => [
 		'type' => 'language',
 		'language' => 'tr',
-		'updateReadme' => false,
 		'repository' => 'git@github.com:tolgaaaltas/flarum-lang-turkish.git',
 		'branch' => 'master',
 		'path' => '/locale',
@@ -62,7 +94,6 @@ return [
 	'tr-ext' => [
 		'type' => 'language',
 		'language' => 'tr',
-		'updateReadme' => false,
 		'repository' => 'git@github.com:tolgaaaltas/flarum-ext-turkish.git',
 		'branch' => 'master',
 		'path' => '/locale',
@@ -76,8 +107,7 @@ return [
 	'zh_Hans' => [
 		'type' => 'language',
 		'language' => 'zh_Hans',
-		'updateReadme' => false,
-		'repository' => 'git@github.com:Littlegolden/flarum-lang-simplified-chinese.git',
+		'repository' => 'git@github.com:FFans/lang-simplified-chinese.git',
 		'branch' => 'master',
 		'path' => '/locale',
 	],

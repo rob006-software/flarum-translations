@@ -1,0 +1,59 @@
+{
+    "fof-reactions": {
+        "forum": {
+            "disabled-reaction": "Non puoi usare questa reazione adesso, prova a ricaricare la pagina",
+            "warning": "La tua reazione è stata convertita",
+            "notification": "{username} ha reagito con {reaction} al tuo post",
+            "settings": {
+                "notify_post_reacted_label": "Qualcuno ha reagito a uno dei miei post"
+            },
+            "reacting-own-post": "Non puoi mettere una reazione ad un tuo post",
+            "modal": {
+                "title": "Reazioni"
+            },
+            "mod_item": "Mostra Reazioni"
+        },
+        "admin": {
+            "permissions": {
+                "react_posts_label": "Metti una reazione ai post",
+                "see_reactions_label": "Mostra chi ha reagito ai post"
+            },
+            "page": {
+                "reactions": {
+                    "title": "Reazioni Personalizzate",
+                    "reactions": "Reazioni Correnti",
+                    "Helptext": "Inserisci il nome (identificatore) dell'emoji o dell'icona font-awesome e scegli quale tipo preferisci.",
+                    "help": {
+                        "display": "Visualizza",
+                        "identifier": "Identificatore"
+                    }
+                },
+                "convert": {
+                    "help": "Se hai appena aggiornato l'estensione, le tue reazioni dovranno essere convertite. Se hai appena installato questa estensione, puoi tranquillamente ignorare questo messaggio.",
+                    "button": "Converti vecchie reazioni",
+                    "converting": "Le tue reazioni verranno ora convertite. Ricarica il tuo sito tra qualche minuto per vedere il processo finito. (La conversione può prendere un po' di tempo a seconda del numero totale delle tue reazioni)",
+                    "converted": "{number} like sono stati convertiti con successo"
+                },
+                "settings": {
+                    "save_settings": "Salva Impostazioni",
+                    "integrations": {
+                        "legend": "Integrazioni",
+                        "warning": "La stessa reazione <strong>non può</strong> essere convertita in un like <strong>e</strong> in un voto negativo",
+                        "gamification": {
+                            "legend": "Gamification",
+                            "upvoteLabel": "Converti reazioni a voti positivi",
+                            "upvoteHelptext": "Inserisci l'identificatore della reazione che vuoi automaticamente convertire in voto positivo",
+                            "downvoteLabel": "Converti reazioni in voti negativi",
+                            "downvoteHelptext": "Inserisci l'identificatore della reazione che vuoi automaticamente convertire in voto negativo"
+                        },
+                        "likes": {
+                            "legend": "Like",
+                            "Label": "Converti reazioni in like",
+                            "Helptext": "Inserisci l'identificatore della reazione che vuoi automaticamente convertire in like"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

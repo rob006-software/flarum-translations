@@ -21,8 +21,8 @@
                 "favicon_text": "Wyślij obrazek, który będzie wyświetlany jako ikona forum.",
                 "logo_heading": "Logo",
                 "logo_text": "Wyślij obrazek, który będzie wyświetlany jako logo w miejscu nazwy forum.",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "Wygląd forum"
+                "title": "Wygląd forum",
+                "submit_button": "=> core.ref.save_changes"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -35,14 +35,14 @@
                 "forum_title_heading": "Nazwa forum",
                 "home_page_heading": "Strona domowa",
                 "home_page_text": "Wybierz stronę, którą użytkownicy zobaczą jako pierwszą, gdy odwiedzą Twoje forum.",
-                "saved_message": "Twoje zmiany zostały zapisane.",
                 "show_language_selector_label": "Pokazuj menu wyboru języka",
                 "slug_driver_heading": "Generator slugów: {model}",
                 "slug_driver_text": "Wymierz generator slugów dla tego modelu.",
-                "submit_button": "=> core.ref.save_changes",
                 "title": "Podstawowe",
                 "welcome_banner_heading": "Baner powitalny",
-                "welcome_banner_text": "Skonfiguruj tekst, który wyświetla się w banerze na stronie \"Wszystkie dyskusje\". Użyj go, aby powitać gości na swoim forum."
+                "welcome_banner_text": "Skonfiguruj tekst, który wyświetla się w banerze na stronie \"Wszystkie dyskusje\". Użyj go, aby powitać gości na swoim forum.",
+                "saved_message": "Twoje zmiany zostały zapisane.",
+                "submit_button": "=> core.ref.save_changes"
             },
             "dashboard": {
                 "clear_cache_button": "Wyczyść cache",
@@ -99,22 +99,17 @@
                 "send_test_mail_success": "Testowa wiadomość e-mail została pomyślnie wysłana!",
                 "send_test_mail_text": "Wiadomość zostanie wysłana przy użyciu powyższej konfiguracji na Twój adres e-mail, {email}.",
                 "smtp_heading": "Ustawienia SMTP",
-                "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.email",
+                "submit_button": "=> core.ref.save_changes",
                 "heading": "=> core.ref.email",
-                "mail_mandrill_secret_label": "Secret key",
-                "mail_ses_key_label": "Key",
-                "mail_ses_region_label": "Region",
-                "mail_ses_secret_label": "Secret",
-                "mandrill_heading": "Ustawienia Mandrilla",
-                "ses_heading": "Ustawienia SES",
                 "text": "Skonfiguruj sterownik, ustawienia i adresy, z których Twoje forum będzie korzystać podczas wysyłania wiadomości e-mail."
             },
             "extension": {
+                "configure_scopes": "Konfiguruj zakresy",
                 "confirm_uninstall": "Odinstalowanie usunie wszystkie wpisy w bazie i zasoby powiązane z tym rozszerzeniem. Czy jesteś pewien, że chcesz kontynuować?",
                 "disabled": "Wyłączone",
-                "enabled": "Włączone",
                 "enable_to_see": "Włącz to rozszerzenie aby uzyskać dostęp do jego ustawień.",
+                "enabled": "Włączone",
                 "info_links": {
                     "discuss": "Dyskusja",
                     "documentation": "Dokumentacja",
@@ -127,8 +122,8 @@
                 "no_settings": "To rozszerzenie nie posiada żadnych ustawień.",
                 "open_modal": "Otwórz ustawienia",
                 "permissions_title": "Uprawnienia",
-                "saved_message": "Twoje zmiany zostały zapisane.",
-                "uninstall_button": "Odinstaluj"
+                "uninstall_button": "Odinstaluj",
+                "saved_message": "Twoje zmiany zostały zapisane."
             },
             "header": {
                 "get_help": "Uzyskaj pomoc",
@@ -138,9 +133,9 @@
                 "title": "Proszę czekać..."
             },
             "nav": {
-                "appearance_button": "Wygląd forum",
+                "appearance_button": "=> core.admin.appearance.title",
                 "appearance_title": "=> core.admin.appearance.description",
-                "basics_button": "Podstawowe",
+                "basics_button": "=> core.admin.basics.title",
                 "basics_title": "=> core.admin.basics.description",
                 "categories": {
                     "authentication": "Uwierzytelnianie",
@@ -153,11 +148,11 @@
                     "other": "Inne rozszerzenia",
                     "theme": "Motywy"
                 },
-                "dashboard_button": "Kokpit",
+                "dashboard_button": "=> core.admin.dashboard.title",
                 "dashboard_title": "=> core.admin.dashboard.description",
                 "email_button": "=> core.ref.email",
                 "email_title": "=> core.admin.email.description",
-                "permissions_button": "Uprawnienia",
+                "permissions_button": "=> core.admin.permissions.title",
                 "permissions_title": "=> core.admin.permissions.description",
                 "search_placeholder": "Wyszukaj rozszerzenia",
                 "appearance_text": "Dostosuj kolory, logo oraz inne ustawienia swojego forum.",
@@ -172,13 +167,15 @@
                 "allow_post_editing_label": "Pozwól na edycję posta",
                 "allow_renaming_label": "Pozwól na zmianę tytułu dyskusji",
                 "create_heading": "Rozpoczynanie dyskusji",
-                "delete_discussions_forever_label": "Usuwanie dyskusji na zawsze",
+                "delete_discussions_forever_label": "Nieodwracalne usuwanie dyskusji",
                 "delete_discussions_label": "Usuwanie dyskusji",
-                "delete_posts_forever_label": "Usuwanie postów na zawsze",
+                "delete_posts_forever_label": "Nieodwracalne usuwanie postów",
                 "delete_posts_label": "Usuwanie postów",
                 "description": "Skonfiguruj uprawnienia użytkowników i grup.",
                 "edit_posts_label": "Edytowanie postów",
-                "edit_users_label": "Edytowanie użytkowników",
+                "edit_users_label": "Edytowanie atrybutów użytkownika",
+                "edit_users_credentials_label": "Edytowanie danych logowania użytkownika",
+                "edit_users_groups_label": "Edytowanie grup użytkownika",
                 "global_heading": "Globalne",
                 "moderate_heading": "Moderacja",
                 "new_group_button": "Nowa grupa",
@@ -207,6 +204,7 @@
                 "signup_open_button": "Otwarta"
             },
             "settings": {
+                "saved_message": "Twoje zmiany zostały zapisane.",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
@@ -276,7 +274,8 @@
                 "log_in_to_reply_button": "Zaloguj się, aby odpisać",
                 "rename_button": "=> core.ref.rename",
                 "reply_button": "=> core.ref.reply",
-                "restore_button": "=> core.ref.restore"
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": "Przełącz rozwijane menu akcji dla dyskusji"
             },
             "discussion_list": {
                 "empty_text": "Wygląda na to, że nie ma tutaj żadnych dyskusji.",
@@ -290,6 +289,7 @@
                 "email_heading": "=> core.ref.email",
                 "email_label": "=> core.ref.email",
                 "groups_heading": "Grupy",
+                "nothing_available": "Nie ma żadnych danych, które mógłbyś edytować.",
                 "password_heading": "=> core.ref.password",
                 "password_label": "=> core.ref.password",
                 "set_password_label": "Ustaw nowe hasło",
@@ -310,10 +310,12 @@
             "header": {
                 "admin_button": "Administracja",
                 "back_to_index_tooltip": "Wróć do listy dyskusji",
+                "locale_dropdown_accessible_label": "Zmień język forum",
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Profil",
                 "search_placeholder": "Przeszukaj forum",
+                "session_dropdown_accessible_label": "Przełącz menu rozwijane z opcjami dla aktualnej sesji",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
             },
@@ -324,13 +326,15 @@
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
                 "refresh_tooltip": "Odśwież",
-                "start_discussion_button": "=> core.ref.start_a_discussion"
+                "start_discussion_button": "=> core.ref.start_a_discussion",
+                "toggle_sidenav_dropdown_accessible_label": "Przełącz menu rozwijane z nawigacją"
             },
             "index_sort": {
                 "latest_button": "Ostatnio aktywne",
                 "newest_button": "Najnowsze dyskusje",
                 "oldest_button": "Najstarsze dyskusje",
                 "relevance_button": "Najtrafniejsze wyniki",
+                "toggle_dropdown_accessible_label": "Zmień sortowanie listy dyskusji",
                 "top_button": "Najbardziej aktywne"
             },
             "log_in": {
@@ -349,6 +353,7 @@
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "Oznacz jako przeczytane",
                 "title": "=> core.ref.notifications",
+                "toggle_dropdown_accessible_label": "Zobacz powiadomienia",
                 "tooltip": "=> core.ref.notifications"
             },
             "post": {
@@ -362,7 +367,8 @@
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "edit_button": "=> core.ref.edit",
                 "hide_confirmation": "Czy jesteś pewien, że chcesz usunąć ten post?",
-                "restore_button": "=> core.ref.restore"
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": "Przełącz menu rozwijane z opcjami posta"
             },
             "post_scrubber": {
                 "now_link": "Teraz",
@@ -392,7 +398,7 @@
                 "change_password_button": "=> core.ref.change_password",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
-                "notify_by_web_heading": "Sieć",
+                "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Ktoś zmienił tytuł dyskusji, którą rozpocząłem",
                 "privacy_disclose_online_label": "Pozwól innym widzieć, kiedy jestem online",
                 "privacy_heading": "Prywatność",
@@ -427,7 +433,8 @@
                 "delete_confirmation": "Czy jesteś pewien, że chcesz usunąć tego użytkownika? Posty napisane przez tego użytkownika NIE zostaną usunięte.",
                 "delete_error_message": "Usunięcie użytkownika <i>{username} ({email})</i> nie powiodło się",
                 "delete_success_message": "Użytkownik <i>{username} ({email})</i> został usunięty",
-                "edit_button": "=> core.ref.edit"
+                "edit_button": "=> core.ref.edit",
+                "toggle_dropdown_accessible_label": "Przełącz menu rozwijane z opcjami użytkownika"
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
@@ -438,6 +445,9 @@
         "lib": {
             "badge": {
                 "hidden_tooltip": "Ukryte"
+            },
+            "dropdown": {
+                "toggle_dropdown_accessible_label": "Przełącz menu rozwijane"
             },
             "error": {
                 "dependent_extensions_message": "Nie można wyłączyć {extension}, jeśli następujące zależne rozszerzenia są włączone: {extensions}",
@@ -530,7 +540,7 @@
             "custom_header_text": "Dodaj własny kod HTML, który będzie wyświetlany na samej górze forum.",
             "custom_header_title": "Edytuj nagłówek",
             "delete": "Usuń",
-            "delete_forever": "Usuń na zawsze",
+            "delete_forever": "Usuń nieodwracalnie",
             "discussions": "Dyskusje",
             "edit": "Edytuj",
             "email": "E-mail",

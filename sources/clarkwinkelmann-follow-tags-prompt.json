@@ -1,0 +1,32 @@
+{
+    "clarkwinkelmann-follow-tags-prompt": {
+        "forum": {
+            "controls": {
+                "choose": "Choose tags to follow"
+            },
+            "modal": {
+                "title": "Choose tags to follow",
+                "later": "Remind me later",
+                "continue": "Continue to forum"
+            }
+        },
+        "admin": {
+            "settings": {
+                "buttonOnFollowingPage": "Show button on Following page",
+                "allDiscussionsOnFollowingPageForGuests": "Show all discussions on the Following page for guests",
+                "availableTagStrategy": "Tags to offer in modal",
+                "tagStrategy": {
+                    "primary": "First-level primary tags",
+                    "primaryAndChildren": "All primary tags of any level",
+                    "primaryAndSecondary": "First-level primary tags and secondary tags",
+                    "secondary": "Only secondary tags",
+                    "all": "All tags",
+                    "list": "Tags selected below"
+                }
+            },
+            "homepage": {
+                "following": "Following"
+            }
+        }
+    }
+}

@@ -4,9 +4,15 @@
             "permissions": {
                 "heading": "Formulaire",
                 "heading-advanced": "Formulaire（第三方扩展选项）",
-                "fill": "填写独立表单",
-                "seeAnyUser": "查看提交的用户资料",
-                "seeAnyDiscussion": "查看提交的主题帖字段",
+                "fill": "=> kilowhat-formulaire.ref.permissions.fill",
+                "seeOwnUser": "=> kilowhat-formulaire.ref.permissions.seeOwnUser",
+                "seeAnyUser": "=> kilowhat-formulaire.ref.permissions.seeAnyUser",
+                "editOwnUser": "=> kilowhat-formulaire.ref.permissions.editOwnUser",
+                "editAnyUser": "=> kilowhat-formulaire.ref.permissions.editAnyUser",
+                "seeOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion",
+                "seeAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.seeAnyDiscussion",
+                "editOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.editOwnDiscussion",
+                "editAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.editAnyDiscussion",
                 "create": "创建表单 (beta)",
                 "moderate": "管理所有表单",
                 "export": "导出提交数据",
@@ -22,18 +28,18 @@
         },
         "forum": {
             "nav": {
-                "forms": "表单管理员"
+                "forms": "=> kilowhat-formulaire.ref.manager"
             },
             "form-index": {
                 "header": {
-                    "title": "表单管理者",
+                    "title": "=> kilowhat-formulaire.ref.manager",
                     "documentation": "完整在线文档",
                     "discuss": "Flarum 社区讨论帖"
                 },
                 "tabs": {
-                    "standalone": "独立表单",
-                    "discussion": "主题帖字段",
-                    "user": "用户资料"
+                    "standalone": "=> kilowhat-formulaire.ref.type.standalone",
+                    "discussion": "=> kilowhat-formulaire.ref.type.discussion",
+                    "user": "=> kilowhat-formulaire.ref.type.user"
                 },
                 "empty": "无表单",
                 "load-more": "加载更多",
@@ -56,6 +62,21 @@
                     "tags": "主题字段"
                 }
             },
+            "global-settings": {
+                "title": "全局权限",
+                "admin-only": "只有论坛管理员才能编辑全局设置",
+                "permissions": {
+                    "fill": "=> kilowhat-formulaire.ref.permissions.fill",
+                    "seeOwnUser": "=> kilowhat-formulaire.ref.permissions.seeOwnUser",
+                    "seeAnyUser": "=> kilowhat-formulaire.ref.permissions.seeAnyUser",
+                    "editOwnUser": "=> kilowhat-formulaire.ref.permissions.editOwnUser",
+                    "editAnyUser": "=> kilowhat-formulaire.ref.permissions.editAnyUser",
+                    "seeOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion",
+                    "seeAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.seeAnyDiscussion",
+                    "editOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.editOwnDiscussion",
+                    "editAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.editAnyDiscussion"
+                }
+            },
             "form-create": {
                 "title": "新建表单",
                 "field": {
@@ -65,20 +86,58 @@
                     "create": "创建表单"
                 }
             },
+            "form-edit-header": {
+                "back": "返回",
+                "category": {
+                    "standalone": "=> kilowhat-formulaire.ref.type.standalone",
+                    "discussion": "=> kilowhat-formulaire.ref.type.discussion",
+                    "user": "=> kilowhat-formulaire.ref.type.user"
+                },
+                "tabs": {
+                    "template": "模板",
+                    "placement": "",
+                    "access": "权限",
+                    "notifications": "通知",
+                    "submissions": "提交项"
+                },
+                "access-status": {
+                    "closed": "",
+                    "create": "",
+                    "edit": "",
+                    "both": ""
+                },
+                "controls": "",
+                "template-export": "",
+                "enable-expert-mode": "",
+                "disable-expert-mode": "",
+                "restore": "",
+                "hide": "",
+                "delete": "",
+                "delete-confirmation": "",
+                "fields": {
+                    "private-title": "",
+                    "slug": ""
+                }
+            },
             "form-edit": {
-                "preview": "预览",
-                "save-for-preview": "保存并预览",
-                "expert-mode": "专家模式",
-                "restore": "还原",
-                "hide": "删除",
-                "delete": "永久删除",
-                "delete-confirmation": "表单「{title}」将被永久删除",
-                "title": "编辑表单",
-                "template": "模板",
+                "warnings": {
+                    "show-on-signup-invalid-permissions": "",
+                    "show-on-composer-invalid-permissions": "",
+                    "linked-form-is-draft": "",
+                    "auto-link-permission-warning": ""
+                },
+                "expert-mode-warning": "",
+                "section": {
+                    "template": "",
+                    "permissions": ""
+                },
                 "field": {
                     "link": "特殊表单类型",
                     "title": "标题",
-                    "slug": "别名（URL Slug）",
+                    "show-on-creation": {
+                        "discussion": "",
+                        "user": ""
+                    },
                     "automatic-discussion": "根据提交内容自动创建主题帖",
                     "automatic-discussion-help": "启用后，该表单仍像独立表单一样可访问。提交的内容将自动创建并连接新主题帖。\n",
                     "accept-submissions": "接受新的提交结果",
@@ -87,6 +146,11 @@
                     "send-confirmation-to-participants": "向参与者发送确认邮件",
                     "notify-emails": "将数据副本发送至以下以逗号分隔的电子邮箱中",
                     "web-confirmation-message": "在网页中确认信息（格式化启用）",
+                    "permission-see-own": "",
+                    "permission-see-any": "",
+                    "permission-edit-own": "",
+                    "permission-edit-any": "",
+                    "slug": "别名（URL Slug）",
                     "email-confirmation-message": "通过邮件确认信息（格式化启用，必须启用上方确认项）",
                     "email-notification-message": "邮件通知消息",
                     "email-confirmation-title": "确认邮件的标题（发给参与者）",
@@ -101,7 +165,17 @@
                 },
                 "auto-discussion-options": "新主题选项",
                 "email-confirmation-options": "确认邮件模板",
-                "email-notification-options": "通知邮件模板"
+                "email-notification-options": "通知邮件模板",
+                "exiting-with-unsaved-data": "",
+                "preview": "预览",
+                "save-for-preview": "保存并预览",
+                "template": "模板",
+                "expert-mode": "专家模式",
+                "restore": "还原",
+                "hide": "删除",
+                "delete": "永久删除",
+                "delete-confirmation": "表单「{title}」将被永久删除",
+                "title": "编辑表单"
             },
             "auto-discussion-options-modal": {
                 "title": "自动主题选项",
@@ -133,6 +207,7 @@
             "permission-controls": {
                 "inherit": "使用默认",
                 "everyone_button": "=> core.admin.permissions_controls.everyone_button",
+                "disabled_members_button": "",
                 "members_button": "=> core.group.members"
             },
             "template-editor": {
@@ -140,6 +215,7 @@
                 "title": "标题",
                 "description": "描述",
                 "key": "在提交数据中有效载荷的 JSON 属性名",
+                "fill-permission": "",
                 "required": "必填",
                 "rich": "富文本（TextFormatter）",
                 "min": "最小",
@@ -257,10 +333,11 @@
             "formatter-parsing-error": "无法解析内容：{message}",
             "not-allowed-to-fill-field": "您无权更改此字段的值",
             "duplicate-field-key": "属性名不得重复",
-            "submission-link-user-invalid": "该用户的用户组与此表单所需的用户组不匹配",
-            "submission-link-discussion-invalid": "该主题的标签与此表单所需的标签不匹配",
-            "submission-link-already-exists": "链接重复",
             "cannot-change-form-type": "您不能更改已收到提交内容的表格类型",
+            "unknown-form": "",
+            "unauthorized-form": "",
+            "file-already-belongs-form": "",
+            "file-already-belongs-submission": "",
             "export": {
                 "meta": {
                     "uid": "提交 ID",
@@ -273,7 +350,10 @@
                     "updated_at": "更新日期",
                     "hidden_at": "软删除日期"
                 }
-            }
+            },
+            "submission-link-user-invalid": "该用户的用户组与此表单所需的用户组不匹配",
+            "submission-link-discussion-invalid": "该主题的标签与此表单所需的标签不匹配",
+            "submission-link-already-exists": "链接重复"
         },
         "mail": {
             "title-your-submission": "{title} 的提交",
@@ -281,6 +361,36 @@
             "edit": "编辑",
             "footer": "来自 {title}",
             "sub-entries": "{count} 条目"
+        },
+        "ref": {
+            "manager": "",
+            "type": {
+                "standalone": "",
+                "discussion": "",
+                "user": ""
+            },
+            "permissions": {
+                "fill": "",
+                "seeOwnUser": "",
+                "seeAnyUser": "",
+                "editOwnUser": "",
+                "editAnyUser": "",
+                "seeOwnDiscussion": "",
+                "seeAnyDiscussion": "",
+                "editOwnDiscussion": "",
+                "editAnyDiscussion": ""
+            },
+            "submission-meta": {
+                "uid": "",
+                "user_id": "",
+                "user_username": "",
+                "user_displayname": "",
+                "link_id": "",
+                "locked_at": "",
+                "created_at": "",
+                "updated_at": "",
+                "hidden_at": ""
+            }
         }
     }
 }

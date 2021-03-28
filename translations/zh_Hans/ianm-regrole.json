@@ -1,0 +1,20 @@
+{
+    "the-turk-regrole": {
+        "admin": {
+            "settings": {
+                "title": "注册角色设置",
+                "roleIds": "自助角色",
+                "roleIdsHelp": "选择用户注册时可自行挑选的角色。",
+                "otherOptions": "其它选项",
+                "multipleRoles": "允许用户拥有多个角色",
+                "forceUsers": "强制用户至少给自己分配一个角色"
+            }
+        },
+        "forum": {
+            "chooseRole": "选择角色",
+            "chooseRoleHelp": "请选择一个角色以继续使用我们的论坛。",
+            "requiredRegRole": "请选择一个角色以继续注册。",
+            "save": "=> core.ref.save_changes"
+        }
+    }
+}

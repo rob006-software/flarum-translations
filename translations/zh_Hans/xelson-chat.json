@@ -1,4 +1,193 @@
 {
+    "xelson-chat": {
+        "forum": {
+            "pusher_not_found": "实时聊天需要 Pusher 或 Websockets。",
+            "index": {
+                "chat_link": "聊天"
+            },
+            "toolbar": {
+                "title": "聊天室",
+                "enable_sounds": "开启声音",
+                "disable_sounds": "关闭声音",
+                "enable_notifications": "开启通知",
+                "disable_notifications": "关闭通知",
+                "minimize": "最小化",
+                "maximize": "最大化",
+                "chat": {
+                    "settings": "聊天室设置"
+                }
+            },
+            "chat": {
+                "welcome": {
+                    "header": "欢迎来到 Neon 聊天室！",
+                    "subheader": "请选择左边的聊天以进行会话"
+                },
+                "moder": "审阅人",
+                "kick": "抖一抖",
+                "leave": "离开",
+                "rejoin": "重新加入",
+                "edit_modal": {
+                    "title": "聊天设置",
+                    "moderator": {
+                        "got": "你获得了审阅人权限：{chatname}！",
+                        "lost": "你已被取消 {chatname} 的管理员身份。"
+                    },
+                    "form": {
+                        "title": {
+                            "label": "聊天名称",
+                            "validator": "至少 1 个字符"
+                        },
+                        "color": {
+                            "label": "颜色",
+                            "validator": "十六进制格式"
+                        },
+                        "icon": {
+                            "label": "=> core.ref.icon",
+                            "validator": "=> core.ref.icon_text"
+                        },
+                        "users": {
+                            "edit": "选择或编辑用户"
+                        },
+                        "leave": "退出聊天",
+                        "return": "加入聊天",
+                        "delete": {
+                            "title": "确定要删除这个聊天吗？",
+                            "desc": "复制并粘贴聊天名称以继续",
+                            "placeholder": "聊天名称",
+                            "button": "删除聊天"
+                        }
+                    },
+                    "search": {
+                        "placeholder": "搜索用户",
+                        "failed": "找不到用户",
+                        "invited": "已邀请"
+                    },
+                    "save_button": "=> core.ref.save_changes"
+                },
+                "list": {
+                    "pin": "固定",
+                    "unpin": "取消固定",
+                    "placeholder": "筛选会话",
+                    "preview": {
+                        "empty": "暂无消息"
+                    },
+                    "add_modal": {
+                        "title": "选择用户",
+                        "chat": "聊天",
+                        "channel": "频道",
+                        "create": {
+                            "chat": "发起新聊天",
+                            "channel": "发起新频道"
+                        },
+                        "alerts": {
+                            "exists": "已存在一个与此用户的私人会话！"
+                        },
+                        "form": {
+                            "title": {
+                                "chat": "聊天名称",
+                                "channel": "频道名称",
+                                "validator": "至少 1 字符"
+                            },
+                            "icon": {
+                                "label": "=> core.ref.icon",
+                                "validator": "=> core.ref.icon_text"
+                            },
+                            "color": {
+                                "label": "=> xelson-chat.forum.chat.edit_modal.form.color.label",
+                                "validator": "=> xelson-chat.forum.chat.edit_modal.form.color.validator"
+                            },
+                            "users": "已选择用户"
+                        },
+                        "search": {
+                            "placeholder": "搜索用户",
+                            "failed": "找不到用户",
+                            "invited": "已邀请"
+                        }
+                    }
+                },
+                "placeholder": "输入消息...",
+                "message": {
+                    "actions": {
+                        "hide": "隐藏",
+                        "resend": "重试"
+                    },
+                    "censored": "登录以查看消息！",
+                    "deleted": "已删除",
+                    "deleted_forever": "永久删除",
+                    "you": "你",
+                    "type": {
+                        "url": "URL",
+                        "event": "事件",
+                        "code": "<Code />"
+                    },
+                    "events": {
+                        "chat": {
+                            "created": "{creatorname} 创建 {chatname} 并邀请 {usernames}"
+                        },
+                        "pm": {
+                            "created": "{creatorname} 和 {username} 创建聊天"
+                        },
+                        "channel": {
+                            "created": "{creatorname} 创建频道 {chatname}"
+                        },
+                        "title": {
+                            "edited": "{editorname} 将聊天名称 {old} 修改为 {new}"
+                        },
+                        "icon": {
+                            "edited": "{editorname} 将聊天图标 {old} 修改为 {new}"
+                        },
+                        "color": {
+                            "edited": "{editorname} 将聊天颜色 {old} 修改为 {new}"
+                        },
+                        "users": {
+                            "invited": "{editorname} 邀请 {usernames}",
+                            "kicked": "{editorname} 移出 {usernames}",
+                            "invited_kicked": "{editorname} 邀请 {invitednames} 并移出 {kickednames}"
+                        },
+                        "self": {
+                            "leaved": "{username} 离开了聊天",
+                            "entered": "{username} 进入聊天"
+                        }
+                    }
+                }
+            },
+            "errors": {
+                "unauthenticated": "此聊天仅限注册用户加入",
+                "chatdenied": "你的用户组无消息发送权限",
+                "removed": "你被移出聊天"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "post": "发送聊天消息",
+                "edit": "编辑聊天消息",
+                "delete": "删除聊天消息",
+                "enabled": "启用聊天",
+                "create": {
+                    "chat": "发起聊天",
+                    "channel": "发起聊天频道"
+                },
+                "moderate": {
+                    "delete": "删除聊天消息",
+                    "vision": "查看删除的消息"
+                }
+            },
+            "settings": {
+                "title": "聊天设置",
+                "charlimit": "最大消息字符数",
+                "floodgate": {
+                    "title": "防刷屏",
+                    "number": "连续发送消息数",
+                    "time": "冷静期"
+                },
+                "display": {
+                    "title": "显示",
+                    "minimize": "最小化",
+                    "censor": "对未经授权的用户进行信息审查"
+                }
+            }
+        }
+    },
     "pushedx-chat": {
         "forum": {
             "toolbar": {

@@ -5,8 +5,14 @@
                 "heading": "",
                 "heading-advanced": "",
                 "fill": "",
+                "seeOwnUser": "",
                 "seeAnyUser": "",
+                "editOwnUser": "",
+                "editAnyUser": "",
+                "seeOwnDiscussion": "",
                 "seeAnyDiscussion": "",
+                "editOwnDiscussion": "",
+                "editAnyDiscussion": "",
                 "create": "",
                 "moderate": "",
                 "export": "",
@@ -46,14 +52,22 @@
                     "accept-submissions": "",
                     "allow-modification": "",
                     "submissions": "",
-                    "actions": "",
-                    "type": ""
-                },
+                    "actions": ""
+                }
+            },
+            "global-settings": {
                 "title": "",
-                "type-options": {
-                    "standalone": "",
-                    "groups": "",
-                    "tags": ""
+                "admin-only": "",
+                "permissions": {
+                    "fill": "",
+                    "seeOwnUser": "",
+                    "seeAnyUser": "",
+                    "editOwnUser": "",
+                    "editAnyUser": "",
+                    "seeOwnDiscussion": "",
+                    "seeAnyDiscussion": "",
+                    "editOwnDiscussion": "",
+                    "editAnyDiscussion": ""
                 }
             },
             "form-create": {
@@ -65,20 +79,58 @@
                     "create": ""
                 }
             },
-            "form-edit": {
-                "preview": "",
-                "save-for-preview": "",
-                "expert-mode": "",
+            "form-edit-header": {
+                "back": "",
+                "category": {
+                    "standalone": "",
+                    "discussion": "",
+                    "user": ""
+                },
+                "tabs": {
+                    "template": "",
+                    "placement": "",
+                    "access": "",
+                    "notifications": "",
+                    "submissions": ""
+                },
+                "access-status": {
+                    "closed": "",
+                    "create": "",
+                    "edit": "",
+                    "both": ""
+                },
+                "controls": "",
+                "template-export": "",
+                "enable-expert-mode": "",
+                "disable-expert-mode": "",
                 "restore": "",
                 "hide": "",
                 "delete": "",
                 "delete-confirmation": "",
-                "title": "",
-                "template": "",
+                "fields": {
+                    "private-title": "",
+                    "slug": ""
+                }
+            },
+            "form-edit": {
+                "warnings": {
+                    "show-on-signup-invalid-permissions": "",
+                    "show-on-composer-invalid-permissions": "",
+                    "linked-form-is-draft": "",
+                    "auto-link-permission-warning": ""
+                },
+                "expert-mode-warning": "",
+                "section": {
+                    "template": "",
+                    "permissions": ""
+                },
                 "field": {
                     "link": "",
                     "title": "",
-                    "slug": "",
+                    "show-on-creation": {
+                        "discussion": "",
+                        "user": ""
+                    },
                     "automatic-discussion": "",
                     "automatic-discussion-help": "",
                     "accept-submissions": "",
@@ -87,10 +139,11 @@
                     "send-confirmation-to-participants": "",
                     "notify-emails": "",
                     "web-confirmation-message": "",
-                    "email-confirmation-message": "",
-                    "email-notification-message": "",
-                    "email-confirmation-title": "",
-                    "email-notification-title": ""
+                    "permission-see-own": "",
+                    "permission-see-any": "",
+                    "permission-edit-own": "",
+                    "permission-edit-any": "",
+                    "slug": ""
                 },
                 "link-options": {
                     "standalone": "",
@@ -101,7 +154,17 @@
                 },
                 "auto-discussion-options": "",
                 "email-confirmation-options": "",
-                "email-notification-options": ""
+                "email-notification-options": "",
+                "exiting-with-unsaved-data": "",
+                "preview": "",
+                "save-for-preview": "",
+                "template": "",
+                "expert-mode": "",
+                "restore": "",
+                "hide": "",
+                "delete": "",
+                "delete-confirmation": "",
+                "title": ""
             },
             "auto-discussion-options-modal": {
                 "title": "",
@@ -133,6 +196,7 @@
             "permission-controls": {
                 "inherit": "",
                 "everyone_button": "",
+                "disabled_members_button": "",
                 "members_button": ""
             },
             "template-editor": {
@@ -140,6 +204,7 @@
                 "title": "",
                 "description": "",
                 "key": "",
+                "fill-permission": "",
                 "required": "",
                 "rich": "",
                 "min": "",
@@ -257,10 +322,11 @@
             "formatter-parsing-error": "",
             "not-allowed-to-fill-field": "",
             "duplicate-field-key": "",
-            "submission-link-user-invalid": "",
-            "submission-link-discussion-invalid": "",
-            "submission-link-already-exists": "",
             "cannot-change-form-type": "",
+            "unknown-form": "",
+            "unauthorized-form": "",
+            "file-already-belongs-form": "",
+            "file-already-belongs-submission": "",
             "export": {
                 "meta": {
                     "uid": "",
@@ -273,7 +339,10 @@
                     "updated_at": "",
                     "hidden_at": ""
                 }
-            }
+            },
+            "submission-link-user-invalid": "",
+            "submission-link-discussion-invalid": "",
+            "submission-link-already-exists": ""
         },
         "mail": {
             "title-your-submission": "",
@@ -281,6 +350,36 @@
             "edit": "",
             "footer": "",
             "sub-entries": ""
+        },
+        "ref": {
+            "manager": "",
+            "type": {
+                "standalone": "",
+                "discussion": "",
+                "user": ""
+            },
+            "permissions": {
+                "fill": "",
+                "seeOwnUser": "",
+                "seeAnyUser": "",
+                "editOwnUser": "",
+                "editAnyUser": "",
+                "seeOwnDiscussion": "",
+                "seeAnyDiscussion": "",
+                "editOwnDiscussion": "",
+                "editAnyDiscussion": ""
+            },
+            "submission-meta": {
+                "uid": "",
+                "user_id": "",
+                "user_username": "",
+                "user_displayname": "",
+                "link_id": "",
+                "locked_at": "",
+                "created_at": "",
+                "updated_at": "",
+                "hidden_at": ""
+            }
         }
     }
 }

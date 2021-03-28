@@ -1,0 +1,81 @@
+{
+    "fof-follow-tags": {
+        "forum": {
+            "settings": {
+                "notify_new_discussion_label": "Iemand start een discussie in een tag die ik volg",
+                "notify_new_post_label": "Iemand post in een tag die ik volg",
+                "notify_new_discussion_tag_label": ""
+            },
+            "index": {
+                "follow_tag_button": "Volgen",
+                "unfollow_tag_button": "Stop met volgen",
+                "following": {
+                    "following_none_label": "",
+                    "following_tags_label": ""
+                }
+            },
+            "badge": {
+                "following_tag_tooltip": "",
+                "lurking_tag_tooltip": ""
+            },
+            "sub_controls": {
+                "follow_button": "=> fof-follow-tags.ref.follow",
+                "following_button": "=> fof-follow-tags.ref.following",
+                "following_text": "Geattendeerd worden op alle nieuwe discussies.",
+                "hiding_button": "=> fof-follow-tags.ref.hiding",
+                "hiding_text": "Verberg discussie op Alle Discussies pagina.",
+                "ignoring_button": "=> fof-follow-tags.ref.ignoring",
+                "ignoring_text": "Geen notificatie.",
+                "lurking_button": "=> fof-follow-tags.ref.lurking",
+                "lurking_text": "Notificaties van alle nieuwe discussies en reacties.",
+                "not_following_button": "Niet volgen",
+                "not_following_text": "Notificaties alleen wanneer @mentioned.",
+                "notify_alert_tooltip": "Ontvang een forum notificatie wanneer er nieuwe discussies of reacties zijn.",
+                "notify_email_tooltip": "Ontvang een email wanneer en nieuwe discussies of reacties zijn."
+            },
+            "notifications": {
+                "new_discussion_text": "{username} start",
+                "new_post_text": "{username} post",
+                "new_discussion_tag_text": ""
+            },
+            "user": {
+                "settings": {
+                    "heading": "",
+                    "filter_label": ""
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "following_page_default_label": "",
+                "following_none_label": "",
+                "following_tags_label": ""
+            }
+        },
+        "email": {
+            "subject": {
+                "newDiscussionInTag": "",
+                "newPostInTag": "",
+                "newDiscussionTag": ""
+            },
+            "body": {
+                "newDiscussionInTag": "",
+                "newPostInTag": "",
+                "newDiscussionTag": ""
+            },
+            "newDiscussionInTag": "[Tag | New Discussion] title",
+            "newPostInTag": "[Tag | New Post] title"
+        },
+        "ref": {
+            "follow": "Volgen",
+            "following": "Aan het volgen",
+            "hiding": "Verborgen",
+            "ignoring": "Negeren",
+            "lurking": "Lurken",
+            "filtering_options": {
+                "none": "",
+                "tags": ""
+            }
+        }
+    }
+}

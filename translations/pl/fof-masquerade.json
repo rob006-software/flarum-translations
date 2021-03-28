@@ -2,7 +2,8 @@
     "fof-masquerade": {
         "forum": {
             "alerts": {
-                "profile-completion-required": "Uzupełnij wymagane pola profilu poniżej.\n"
+                "profile-completion-required": "Uzupełnij wymagane pola profilu poniżej.\n",
+                "profile-completed": "Profil uzupełniony! <a>Przejdź do strony głównej</a>"
             },
             "buttons": {
                 "view-profile": "Zobacz profil",
@@ -20,7 +21,6 @@
             }
         },
         "admin": {
-            "title": "Masquerade",
             "general-options": "Opcje ogólne",
             "buttons": {
                 "add-field": "Utwórz pole",
@@ -30,9 +30,6 @@
             "permissions": {
                 "have-profile": "Posiadanie profilu masquerade",
                 "view-profile": "Przeglądanie profilu masquerade"
-            },
-            "menu": {
-                "description": "Konfiguruj pola profilu użytkownika.\n"
             },
             "fields": {
                 "title": "Pola",
@@ -54,9 +51,7 @@
                 "force-user-to-completion": "Wymuś uzupełnienie tego pola przez użytkownika",
                 "options": "Opcje",
                 "option-new": "Nowa opcja",
-                "option-comma-warning": "Etykieta opcji nie może zawierać przecinka (\",\").",
-                "disable-user-bio": "Wyłącz pole profilu użytkownika",
-                "option-coma-warning": "Etykieta opcji nie może zawierać przecinka (\",\")."
+                "option-comma-warning": "Etykieta opcji nie może zawierać przecinka (\",\")."
             },
             "types": {
                 "advanced": "Zaawansowane",
@@ -64,6 +59,10 @@
                 "email": "E-mail",
                 "select": "Lista rozwijana",
                 "url": "URL"
+            },
+            "title": "Masquerade",
+            "menu": {
+                "description": "Konfiguruj pola profilu użytkownika.\n"
             }
         }
     }

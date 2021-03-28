@@ -16,8 +16,9 @@
                 "resize": "配置图片缩放功能，以像素为单位，超过最大宽度及高度后会被缩放，图片横纵比不变。\n",
                 "client_extension": "默认情况下，上传器将根据 MIME 类型选择一个安全的文件扩展名。\n对于某些基于 ZIP 或二进制数据的文件类型，这可能导致使用不正确的通用扩展名。\n在这里，您可以输入一个逗号分隔的文件扩展名列表，该列表将被逐字保留。\n",
                 "watermark": "选择上传图片时是否添加水印。水印会根据下面的偏好设置来添加到非 GIF 图片上。\n",
-                "s3_compatible_storage": "开启下方设置以配置 S3 兼容存储模式。如果您使用 AWS，请保持留空。有关 S3 兼容配置详情，请查阅各大提供商文档（七牛云：https://iflarum.cn/qiniu-s3）\n",
+                "s3_compatible_storage": "填写下方设置以配置 S3 兼容存储模式。如果您使用 AWS，请保持留空。有关 S3 兼容配置详情，请查阅各大云服务商的文档（七牛云：https://iflarum.cn/qiniu-s3）\n",
                 "s3_acl": "应用于上传对象的读写权限 ACL（默认私有读写）。 有关可用的值，请参阅 https://iflarum.cn/aws-s3acl\n",
+                "composer_buttons": "默认情况下，媒体管理按钮和上传按钮皆可见。您可以选择只显示其中一个按钮。\n",
                 "description": "文件上传服务与设置\n"
             },
             "labels": {
@@ -29,7 +30,7 @@
                     "title": "AWS S3 存储设置（配置请参阅 http://t.cn/A6zX0V3N）",
                     "advanced_title": "高级 S3 存储设置",
                     "endpoint": "访问域名（Endpoint）",
-                    "use_path_style_endpoint": "请使用 path-style 访问域名",
+                    "use_path_style_endpoint": "使用 path-style 访问域名",
                     "acl": "访问控制列表（ACL）"
                 },
                 "disable-download-logging": {
@@ -45,8 +46,8 @@
                     "title": "Imgur 图片存储设置"
                 },
                 "local": {
-                    "cdn_url": "OSS 外链域名 / CDN 域名（含 http/https）",
-                    "title": "本地、OSS 存储设置"
+                    "cdn_url": "文件链接前缀 / 对象存储 CDN 或访问域名（含 http/https）",
+                    "title": "存储设置"
                 },
                 "qiniu": {
                     "title": "七牛存储设置（需要先安装 composer require overtrue/flysystem-qiniu）",
@@ -74,6 +75,14 @@
                     "title": "图片水印功能",
                     "toggle": "开启水印"
                 },
+                "composer_buttons": {
+                    "title": "编辑器按钮",
+                    "options": {
+                        "both": "全部显示",
+                        "upload-btn": "仅上传按钮",
+                        "media-btn": "仅媒体管理按钮"
+                    }
+                },
                 "ovh-svfs": {
                     "title": "OVH SVFS 存储设置",
                     "container": "容器",
@@ -85,7 +94,9 @@
             },
             "permissions": {
                 "download_label": "允许下载文件",
-                "upload_label": "允许上传文件"
+                "upload_label": "允许上传文件",
+                "view_user_uploads_label": "查看用户上传的文件",
+                "delete_uploads_of_others_label": "删除用户上传的文件"
             },
             "templates": {
                 "file": "默认文件下载模板",
@@ -106,8 +117,30 @@
             }
         },
         "forum": {
+            "media_manager": "媒体管理器",
             "buttons": {
-                "attach": "添加附件"
+                "attach": "添加附件",
+                "upload": "上传",
+                "user_uploads": "用户上传",
+                "cancel": "取消",
+                "media": "我的文件"
+            },
+            "file_list": {
+                "loading": "加载文件中……",
+                "empty": "没有可展示的文件。",
+                "release_to_upload": "松开鼠标上传",
+                "modal_empty_desktop": "你还没有上传过文件。点击按钮或拖拽文件到这里开始上传吧。",
+                "modal_empty_phone": "你还没有上传过文件。点击上方按钮开始上传吧。",
+                "select_file_a11y_label": "选择文件「{fileName}」",
+                "confirm_selection_btn": "嵌入|嵌入",
+                "load_more_files_btn": "加载更多",
+                "hide_file": {
+                    "btn_a11y_label": "在文件管理器中隐藏「{fileName}」",
+                    "hide_confirmation": "确定要隐藏「{fileName}」吗？文件只会从你的文件管理器中消失，并不会影响已嵌入文件的帖子。",
+                    "hide_success": "文件隐藏",
+                    "hide_fail": "无法隐藏文件「{fileName}」",
+                    "loading": "正在隐藏文件……"
+                }
             },
             "states": {
                 "error": "错误",

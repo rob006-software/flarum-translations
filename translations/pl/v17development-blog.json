@@ -1,52 +1,100 @@
 {
     "v17development-flarum-blog": {
+        "admin": {
+            "blog": "Blog",
+            "permissions": {
+                "write_articles": "Tworzenie oraz edycja wpisów na blogu",
+                "auto_approve_posts": "Publikowanie wpisów bez zatwierdzenia",
+                "approve_posts": "Zatwierdzanie wpisów na blogu"
+            },
+            "settings": {
+                "no_categories_selected": "Nie wybrano kategorii",
+                "selected_category_count": "Wybrano {count} kategorię|Wybrano {count} kategorie|Wybrano {count} kategorii",
+                "select_categories_button": "Wybierz kategorie bloga",
+                "blog_heading": "Blog",
+                "allow_comments_label": "Pozwól na komentowanie",
+                "allow_comments_text": "Domyślnie włącz komentarze do wpisów na blogu. Komentarze mogą być też włączone indywidualnie dla każdego wpisu. <b>Uwaga:</b> Zmiana tego ustawienia nie wpłynie na istniejące wpisy.",
+                "require_review_label": "Wpisy na blogu wymagające zatwierdzenia",
+                "require_review_text": "Po utworzeniu wpisu nie będzie on publicznie widoczny i będzie wymagał zatwierdzenia przez moderatora.",
+                "hide_on_discussion_list_label": "Nie pokazuj na liście dyskusji",
+                "hide_on_discussion_list_text": "Wpisy z bloga nie będą wyświetlane na liście dyskusji na forum.",
+                "add_sidebar_nav_label": "Dodaj do nawigacji w sidebarze",
+                "add_sidebar_nav_text": "Dodaj link do bloga w menu nawigacyjnym w sidebarze.",
+                "categories_heading": "Kategorie",
+                "hide_tags_in_taglist_label": "Ukryj tagi na liście tagów",
+                "hide_tags_in_taglist_text": "Tagi wykorzystywane przez blog zostaną ukryte na stronie głównej forum.",
+                "show_tag_hierarchy_label": "Pokaż hierarchię tagów",
+                "show_tag_hierarchy_text": "Dodaje odstępy do kategorii podrzędnych oraz uwzględnia hierarchię dla listy kategorii.",
+                "redirects_heading": "Przekierowania",
+                "redirect_articles_label": "Przekieruj wpisy na blogu",
+                "redirect_articles_text": "Przekierowuje oryginalny URL dyskusji na forum na URL wpisu na blogu.",
+                "redirect_tags_label": "Przekieruj tagi bloga",
+                "redirect_tags_text": "Przekierowuje oryginalny URL tagu wykorzystywanego przez blog na URL kategorii na blogu.",
+                "default_article_image_label": "Domyślny obrazek wpisu",
+                "default_article_image_text": "Wybierz domyślny obrazek wyświetlany dla wpisów, które nie mają ustawionego obrazka."
+            }
+        },
         "forum": {
-            "blog": "",
-            "read_more": "",
-            "hidden": "",
-            "recent_posts": "",
-            "categories": "",
-            "return_to_overview": "",
-            "no_more_posts": "",
-            "category_empty": "",
+            "blog": "Blog",
+            "read_more": "Czytaj więcej",
+            "hidden": "Ukryte",
+            "recent_posts": "Ostatnie wpisy na blogu",
+            "categories": "Kategorie",
+            "forum_nav": "Nawigacja forum",
+            "return_to_overview": "Wróć do przeglądu bloga ",
+            "no_more_posts": "Nie ma więcej wpisów.",
+            "category_empty": "W tej kategorii nie ma jeszcze żadnych wpisów.",
             "compose": {
-                "write_article": ""
+                "write_article": "Utwórz wpis"
             },
             "validation": {
-                "missing_id": ""
+                "missing_id": "Brakujące ID"
             },
             "article": {
-                "title": "",
-                "slug": "",
-                "summary": ""
+                "title": "Tytuł",
+                "slug": "Slug",
+                "summary": "Podsumowanie"
             },
             "comment_section": {
-                "comments": "",
-                "locked": ""
+                "comments": "Komentarze",
+                "locked": "Komentarze są wyłączone dla tego wpisu"
             },
             "review_article": {
-                "pending_review_title": "",
-                "pending_review": "",
-                "approve_article": "",
-                "approve_article_approved": ""
+                "pending_review_title": "Oczekuje na zatwierdzenie",
+                "pending_review": "Ten wpis oczekuje na zatwierdzenie i nie został jeszcze opublikowany",
+                "approve_article": "Zaakceptuj wpis",
+                "approve_article_approved": "Ten wpis został zaakceptowany i opublikowany"
             },
             "tools": {
-                "rename_article": "",
-                "edit_article": "",
-                "update_category": "",
-                "article_settings": "",
-                "approve_article": "",
-                "hide_article": "",
-                "recover_article": "",
-                "delete_forever": "",
-                "enable_comments": "",
-                "disable_comments": ""
+                "rename_article": "Zmień tytuł wpisu",
+                "edit_article": "Edytuj wpis",
+                "update_category": "Edytuj kategorie",
+                "article_settings": "Ustawienia wpisu",
+                "approve_article": "Zaakceptuj wpis",
+                "hide_article": "Ukryj wpis",
+                "recover_article": "Odzyskaj wpis",
+                "delete_forever": "Usuń nieodwracalnie",
+                "enable_comments": "Włącz komentarze",
+                "disable_comments": "Wyłącz komentarze"
             },
             "utils": {
                 "redirect": {
-                    "title": "",
-                    "link": ""
+                    "title": "Przekierowuję Cię do wpisu na blogu...",
+                    "link": "<a>Kliknij tutaj</a> jeśli strona nie przekieruje Cię automatycznie"
                 }
+            },
+            "composer": {
+                "no_title": "Brak tytułu",
+                "enter_message_here": "Wpisz treść wpisu tutaj",
+                "post_article": "Opublikuj wpis",
+                "select_category": "Wybierz kategorię",
+                "edit_categories": "Wybierz kategorie",
+                "write": "Edytor",
+                "view": "Podgląd",
+                "nothing_to_preview": "Nie ma nic do podglądu",
+                "comment_section": "Sekcja z komentarzami nie jest dostępna w trakcie tworzenia wpisu.",
+                "no_blog_tags_selected": "Żaden z tagów, które wybrałeś, nie jest tagiem wykorzystywanym przez blog. Musisz wybrać przynajmniej jeden taki tag.",
+                "post_without_blog_info": "Czy jesteś pewien, że chcesz opublikować ten wpis? Nie uzupełniłeś podsumowania lub obrazka wpisu."
             }
         }
     }

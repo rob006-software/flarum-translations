@@ -42,7 +42,7 @@
             "user": {
                 "settings": {
                     "heading": "Etiketleri Takip Et",
-                    "filter_label": "Varsayılan olarak Takip Ettiklerin sayfasınra gösterilecekler"
+                    "filter_label": "Varsayılan olarak Takip Ettiklerin sayfasında gösterilecekler"
                 }
             }
         },
@@ -57,14 +57,14 @@
         },
         "email": {
             "subject": {
-                "newDiscussionInTag": "",
-                "newPostInTag": "",
-                "newDiscussionTag": ""
+                "newDiscussionInTag": "[Etiket | Yeni Tartışma] {title}",
+                "newPostInTag": "[Etiket | Yeni Gönderi] {title}",
+                "newDiscussionTag": "[Etiket | Değişen Etiket] {title}"
             },
             "body": {
-                "newDiscussionInTag": "",
-                "newPostInTag": "",
-                "newDiscussionTag": ""
+                "newDiscussionInTag": "Hey {recipient_display_name},\n\n{actor_display_name} takip ettiğin bir etikette yeni bir tartışma başlattı: {discussion_title}\n\nYeni tartışmayı görüntülemek için bağlantıya göz at:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newPostInTag": "Hey {recipient_display_name},\n\n{actor_display_name} takip ettiğin etiketteki bir tartışmaya yeni bir gönderi bıraktı: {discussion_title}\n\nYeni gönderiyi görüntülemek için bağlantıya göz at:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nTartışmada bir etkinlik gerçekleştirmediğiniz taktirde yeni bildirimleri almayacaksınız.\n",
+                "newDiscussionTag": "Hey {recipient_display_name},\n\n{actor_display_name}, {author_display_name} tarafından başlatılan ve senin takip ettiğin etiketteki tartışmanın etiketini değiştirdi {discussion_title}\n\nDeğişiklikleri görüntülemek için bağlantıya göz at:\n{discussion_url}\n"
             },
             "newDiscussionInTag": "[Etiket | Yeni Tartışma] başlığı",
             "newPostInTag": "[Etiket | Yeni Gönderi] başlığı",

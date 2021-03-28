@@ -1,0 +1,70 @@
+{
+    "askvortsov-moderator-warnings": {
+        "admin": {
+            "permissions": {
+                "manage_warnings": "შექმენით და წაშალეთ მოდერატორის გაფრთხილებები",
+                "view_warnings": "მოდერატორის გაფრთხილებების ნახვა",
+                "delete_warnings": "სამუდამოდ წაშალეთ მოდერატორის გაფრთხილებები"
+            }
+        },
+        "emails": {
+            "post_warned": {
+                "subject": "{warner_display_name} გაგაფრთხილათ {strikes} გაფრთხილებით {discussion_title} -ში",
+                "body": "ჰეი {warnee_display_name}!\n\n{warner_display_name} გაგაფრთხილათ {strikes} გაფრთხილებით {discussion_title} ში\n\nმიზეზი შემდეგია:\n\n---\n\n{public_comment}\n"
+            },
+            "user_warned": {
+                "subject": "{warner_display_name} გაგაფრთხილათ {strikes} გაფრთხილებით",
+                "body": "ჰეი {warnee_display_name}!\n\n{warner_display_name} გაგაფრთხილათ {strikes} გაფრთხილებით\n\nმიზეზი შემდეგია:\n\n---\n\n{public_comment}\n"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "warning_text": "თქვენ გაგაფრთხილეს {strikes} გაფრთხილებით {mod_username} (ს) მიერ|თქვენ გაგაფრთხილეს {strikes} {mod_username} (ს) მიერ",
+                "warning_no_strikes_text": "თქვენ გაგაფრთხილეს {mod_username} (ს) მიერ (სტრაიკი არ არის)"
+            },
+            "post": {
+                "warning": "თქვენ გაგაფრთხილეს {strikes} გაფრთხილებით {mod_username} (ს) მიერ|გაგაფრთხილათ {strikes} გაფრთხილებით {mod_username} (ს) მიერ",
+                "warning_no_strikes": "თქვენ სტრაიკის გარეშე გაგაფრთხილეს {mod_username} მ(ა)"
+            },
+            "post_controls": {
+                "warning_button": "მომხმარებლის გაფრთხილება"
+            },
+            "user": {
+                "warnings": "მოდერატორის გაფრთხილებები"
+            },
+            "settings": {
+                "warning_notification_label": "მოდერატორი მაფრთხილებს მე"
+            },
+            "validation": {
+                "public_comment_required": "თქვენ ყველაზე მეტად გთავაზობთ საზოგადოებრივ კომენტარს.",
+                "invalid_strike_count": "სტრაიკის რაოდენობა უნდა იყოს მთელი რიცხვი 0-დან 5-მდე."
+            },
+            "warning_controls": {
+                "delete_button": "ამოღება",
+                "restore_button": "აღდგენა",
+                "delete_forever_button": "სამუდამოდ წაშლა"
+            },
+            "warning_list": {
+                "add_button": "ახალი გაფრთხილება",
+                "no_warnings": "როგორც ჩანს აქ გაფრთხილებები არ არის.",
+                "warnings": "მოდერატორის გაფრთხილებები: {strikes} სტრაიკი მიღებულია|მოდერატორის გაფრთხილებები: {strikes} სტრაიკი მიღებულია",
+                "warnings_no_strikes": "მოდერატორის გაფრთხილებები: სტრაიკი ვერ მოიძებნა"
+            },
+            "warning_list_item": {
+                "list_item_heading": "<strong>{strikes}</strong> სტრაიკი, {time}|<strong>{strikes}</strong> სტრაიკი, {time}",
+                "list_item_heading_hidden": "<strong>{strikes}</strong> სტრაიკი, {time} <strong>(ამოღებულია)</strong>|<strong>{strikes}</strong> სტრაიკი, {time} <strong>(ამოღებულია)</strong>",
+                "public_comment": "გაფრთხილება",
+                "private_comment": "მოდერატორის-ხილული კომენტარები",
+                "linked_post": "დალინკული პოსტი"
+            },
+            "warning_modal": {
+                "confirmation_message": "თქვენი გაფრთხილება შენახულია. შეიძლება დაგჭირდეთ გვერდის განახლება, რომ ნახოთ.",
+                "heading": "გააფრთხილეთ <strong>{username}</strong>",
+                "strikes_heading": "რამდენი სტრაიკი უნდა იყოს გამოყენებული?",
+                "public_comment_heading": "რატომ იღებს <strong>{username}</strong> ამ გაფრთხილებებს? ეს კომენტარი ხილული იქნება მომხმარებლისთვისა და მოდერატორებისთვის.",
+                "private_comment_heading": "რატომ იღებს <strong>{username}</strong> ამ გაფრთხილებას? ეს კომენტარი ნაჩვენები იქნება მხოლოდ მოდერატორებისთვის.",
+                "submit_button": "გაფრთხილების შენახვა"
+            }
+        }
+    }
+}

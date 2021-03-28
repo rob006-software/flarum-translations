@@ -1,0 +1,586 @@
+{
+    "core": {
+        "admin": {
+            "appearance": {
+                "colored_header_label": "ფერადი სათაური",
+                "colors_heading": "ფერები",
+                "colors_text": "აირჩიეთ ორი ფერი თქვენი ფორუმის თემატიკაზე. პირველი გამოყენებული იქნება ხაზგასმული ფერის სახით, ხოლო მეორე გამოყენებული იქნება ფონის ელემენტების სტილის შესაქმნელად.",
+                "custom_footer_heading": "სასურველი ქვე-კლონტიტული",
+                "custom_footer_text": "",
+                "custom_header_heading": "სასურველი სათაური",
+                "custom_header_text": "",
+                "custom_styles_heading": "სასურველი სტილები",
+                "custom_styles_text": "მოირგეთ თქვენი ფორუმის გარეგნობა და დაამატეთ თქვენი საკუთარი LESS/CSS კოდი, რომელიც უნდა იქნას გამოყენებული Flarum- ის სტანდარტულ სტილებზე.",
+                "dark_mode_label": "მუქი რეჟიმი",
+                "description": "მოირგეთ თქვენი ფორუმის ფერები, ლოგოები და სხვა ცვლადები.",
+                "edit_css_button": "შეცვალეთ მორგებული CSS",
+                "edit_footer_button": "",
+                "edit_header_button": "",
+                "enter_hex_message": "გთხოვთ, შეიყვანოთ თექვსმეტობითი ფერის კოდი.",
+                "favicon_heading": "ფავიკონი",
+                "favicon_text": "ატვირთეთ სურათი, რომელიც გამოვა ფორუმის აიქონად.",
+                "logo_heading": "ლოგო",
+                "logo_text": "ატვირთეთ სურათი, რომლითაც გამოყოფილი იქნება ფორუმის სათაური.",
+                "title": "გარეგნობა",
+                "submit_button": ""
+            },
+            "basics": {
+                "all_discussions_label": "",
+                "default_language_heading": "ნაგულისხმევი ენა",
+                "description": "დააყენეთ თქვენი ფორუმის სათაური, ენა და სხვა ძირითადი პარამეტრები.",
+                "display_name_heading": "მომხმარებლის ჩვენების სახელი",
+                "display_name_text": "აირჩიეთ დრაივერი, რომელიც უნდა იქნას გამოყენებული მომხმარებლების ჩვენების სახელებისათვის. სტანდარტულად ნაჩვენებია მომხმარებლის სახელი.",
+                "forum_description_heading": "ფორუმის აღწერა",
+                "forum_description_text": "შეიყვანეთ მოკლე ან ორი წინადადება, რომელიც აღწერს თქვენს საზოგადოებას. ეს გამოჩნდება მეტა თეგში და გამოჩნდება საძიებო სისტემებში.",
+                "forum_title_heading": "ფორუმის სათაური",
+                "home_page_heading": "მთავარი გვერდი",
+                "home_page_text": "შეარჩიეთ გვერდი, რომელსაც მომხმარებლები პირველად ნახავენ თქვენი ფორუმის მონახულებისას.",
+                "show_language_selector_label": "აჩვენეთ ენის ამრჩევი",
+                "slug_driver_heading": "სლაგ დრაივერი: {model}",
+                "slug_driver_text": "შეარჩიეთ დრაივერი, რომელიც გამოიყენება ამ მოდელის სლუგინგისთვის.",
+                "title": "საფუძვლები",
+                "welcome_banner_heading": "მისალმების ბანერი",
+                "welcome_banner_text": "ტექსტის კონფიგურაცია, რომელიც აჩვენებს ბანერზე ყველა განხილვის გვერდზე. გამოიყენეთ ეს თქვენს ფორუმზე სტუმრების მისასალმებლად.",
+                "saved_message": "თქვენი ცვლილებები შენახულია.",
+                "submit_button": ""
+            },
+            "dashboard": {
+                "clear_cache_button": "ქეშის გასუფთავება",
+                "description": "თქვენი ფორუმი ერთი შეხედვით.",
+                "title": "დაფა",
+                "tools_button": "ხელსაწყოები"
+            },
+            "edit_css": {
+                "customize_text": "მოირგეთ თქვენი ფორუმის გარეგნობა და დაამატეთ თქვენი საკუთარი LESS/CSS კოდი, რომელიც უნდა იქნას გამოყენებული Flarum-ის <a>Default styles</a> -ზე.",
+                "submit_button": "",
+                "title": "შეცვალეთ მორგებული CSS"
+            },
+            "edit_footer": {
+                "customize_text": "",
+                "submit_button": "",
+                "title": ""
+            },
+            "edit_group": {
+                "color_label": "",
+                "delete_button": "ჯგუფის წაშლა",
+                "delete_confirmation": "დარწმუნებული ხართ, რომ გსურთ ამ ჯგუფის წაშლა? ჯგუფის წევრები არ წაიშლება.",
+                "hide_label": "ფორუმზე დამალვა",
+                "icon_label": "",
+                "icon_text": "",
+                "name_label": "სახელი",
+                "plural_placeholder": "მრავლობითი (მაგ., მოდები)",
+                "singular_placeholder": "მხოლობითი (მაგ., მოდი)",
+                "submit_button": "",
+                "title": "ჯგუფის შექმნა"
+            },
+            "edit_header": {
+                "customize_text": "",
+                "submit_button": "",
+                "title": ""
+            },
+            "email": {
+                "addresses_heading": "მისამართები",
+                "description": "მძღოლის, პარამეტრებისა და მისამართების კონფიგურაცია, რომელსაც თქვენს ფორუმს გამოიყენებს ელ.ფოსტის გასაგზავნად.",
+                "driver_heading": "აირჩიეთ დრაივერი",
+                "driver_label": "დრაივერი",
+                "from_label": "გამგზავნი",
+                "mail_encryption_label": "დაშიფვრა",
+                "mail_host_label": "ჰოსტი",
+                "mail_mailgun_domain_label": "დომეინი",
+                "mail_mailgun_region_label": "რეგიონი",
+                "mail_mailgun_secret_label": "საიდუმლო გასაღები",
+                "mail_password_label": "",
+                "mail_port_label": "პორტი",
+                "mail_username_label": "",
+                "mailgun_heading": "Mailgun-ის პარამეტრები",
+                "not_sending_message": "Flarum ამჟამად არ გაგზავნის ელ.წერილებს. ეს შეიძლება გამოწვეული იყოს შერჩეული დრაივერით, ან მისი კონფიგურაციის შეცდომებით.",
+                "send_test_mail_button": "გაგზავნა",
+                "send_test_mail_heading": "გაგზავნეთ მეილის ტესტი",
+                "send_test_mail_success": "მეილის ტესტი წარმატებით გაიგზავნა!",
+                "send_test_mail_text": "ეს გამოგზავნის ელ.ფოსტას ზემოთ მოცემული კონფიგურაციით, თქვენს ელ.ფოსტაზე - {email}.",
+                "smtp_heading": "STMP პარამეტრები",
+                "title": "",
+                "submit_button": "",
+                "heading": "",
+                "text": "დრაივერის, პარამეტრებისა და მისამართების კონფიგურაცია, რომელსაც  თქვენი ფორუმი გამოიყენებს შეტყობინების გასაგზავნად."
+            },
+            "extension": {
+                "configure_scopes": "",
+                "confirm_uninstall": "ინსტალაციით წაიშლება მონაცემთა ბაზის ყველა ჩანაწერი და აქტივები, რომლებიც დაკავშირებულია გაფართოებასთან. დარწმუნებული ხართ, რომ გსურთ გაგრძელება?",
+                "disabled": "გამორთული",
+                "enable_to_see": "ჩართეთ გაფართოება, რომ ნახოთ და შეცვალოთ პარამეტრები.",
+                "enabled": "ჩართული",
+                "info_links": {
+                    "discuss": "დისკუსია",
+                    "documentation": "დოკუმენტაცია",
+                    "donate": "დონაცია",
+                    "source": "წყარო",
+                    "support": "დახმარება",
+                    "website": "ვებ-საიტი"
+                },
+                "no_permissions": "ამ გაფართოებას არ აქვს უფლებები.",
+                "no_settings": "ამ გაფართოებას არ აქვს პარამეტრები.",
+                "open_modal": "პარამეტრების გახსნა",
+                "permissions_title": "უფლებები",
+                "uninstall_button": "წაშლა",
+                "saved_message": "თქვენი ცვლილებები შენახულია."
+            },
+            "header": {
+                "get_help": "დახმარების მიღება",
+                "log_out_button": ""
+            },
+            "loading": {
+                "title": "გთხოვთ მოიცადოთ..."
+            },
+            "nav": {
+                "appearance_button": "",
+                "appearance_title": "",
+                "basics_button": "",
+                "basics_title": "",
+                "categories": {
+                    "authentication": "აუთენტიფიკაცია",
+                    "core": "ძირითადი კონფიგურაცია",
+                    "discussion": "დისკუსია",
+                    "feature": "მახასიათებლები",
+                    "formatting": "ფორმატირება",
+                    "language": "ენები",
+                    "moderation": "მოდერაცია",
+                    "other": "სხვა გაფართოებები",
+                    "theme": "თემები"
+                },
+                "dashboard_button": "",
+                "dashboard_title": "",
+                "email_button": "",
+                "email_title": "",
+                "permissions_button": "",
+                "permissions_title": "",
+                "search_placeholder": "გაფართოებების ძებნა",
+                "appearance_text": "მოირგეთ თქვენი ფორუმის ფერები, ლოგოები და სხვა ცვლადები.",
+                "basics_text": "დააყენეთ თქვენი ფორუმის სათაური, ენა და სხვა ძირითადი პარამეტრები.",
+                "dashboard_text": "თქვენი ფორუმი ერთი შეხედვით.",
+                "email_text": "თქვენი ფორუმის ელ.ფოსტის პარამეტრების კონფიგურაცია.",
+                "extensions_button": "გაფართოებები",
+                "extensions_text": "თქვენს ფორუმს დაამატეთ დამატებითი ფუნქციები და გახადეთ საკუთარი.",
+                "permissions_text": "დააკონფიგურირეთ ვინ რას ხედავს და რას აკეთებს."
+            },
+            "permissions": {
+                "allow_post_editing_label": "პოსტის რედაქტირების დაშვება",
+                "allow_renaming_label": "გადარქმევის დაშვება",
+                "create_heading": "შექმნა",
+                "delete_discussions_forever_label": "დისკუსიების სამუდამოდ წაშლა",
+                "delete_discussions_label": "დისკუსიების წაშლა",
+                "delete_posts_forever_label": "სამუდამოდ წაშალეთ პოსტები",
+                "delete_posts_label": "პოსტების წაშლა",
+                "description": "დააკონფიგურირეთ ვინ რას ხედავს და რას აკეთებს.",
+                "edit_posts_label": "პოსტების რედაქტირება",
+                "edit_users_label": "მომხმარებლების რედაქტირება",
+                "edit_users_credentials_label": "",
+                "edit_users_groups_label": "",
+                "global_heading": "გლობალური",
+                "moderate_heading": "ზომიერი",
+                "new_group_button": "ახალი ჯგუფი",
+                "participate_heading": "მონაწილეობა",
+                "post_without_throttle_label": "რამდენჯერმე პასუხი ლოდინის გარეშე",
+                "read_heading": "წაკითხვა",
+                "rename_discussions_label": "დისკუსიების სახელის შეცვლა",
+                "reply_to_discussions_label": "უპასუხეთ დისკუსიებს",
+                "sign_up_label": "რეგისტრაცია",
+                "start_discussions_label": "დისკუსიის დაწყება",
+                "title": "ნებართვები",
+                "view_discussions_label": "დისკუსიების ნახვა",
+                "view_hidden_groups_label": "ფარული ჯგუფის სამკერდე ნიშნების ნახვა",
+                "view_last_seen_at_label": "მომხმარებლის ბოლოს ნანახი დროის ყოველთვის ნახვა",
+                "view_post_ips_label": "პოსტის IP მისამართების ნახვა",
+                "view_user_list_label": "მომხმარებლის სიის ნახვა"
+            },
+            "permissions_controls": {
+                "allow_indefinitely_button": "განუსაზღვრელად",
+                "allow_some_minutes_button": "{count} წუთით| {count} წუთის განმავლობაში",
+                "allow_ten_minutes_button": "10 წუთის განმავლობაში",
+                "allow_until_reply_button": "შემდეგ პასუხამდე",
+                "everyone_button": "ყველა",
+                "members_button": "",
+                "signup_closed_button": "დახურული",
+                "signup_open_button": "გახსნილი"
+            },
+            "settings": {
+                "saved_message": "",
+                "submit_button": ""
+            },
+            "upload_image": {
+                "remove_button": "",
+                "upload_button": "აირჩიეთ სურათი..."
+            },
+            "add_extension": {
+                "developer_text": "თუ დეველოპერი ხართ, შეგიძლიათ <a>წაიკითხოთ დოკუმენტები</a> და გაეცნოთ საკუთარი გაფართოებების შექმნას.",
+                "install_text": "ამასობაში, შეგიძლიათ მოძებნოთ გაფართოებები <a>Flarum Community საიტზე</a> და ხელით დააინსტალიროთ კომპოზიტორის გამოყენებით.",
+                "temporary_text": "არც თუ ისე შორეულ მომავალში, ერთ დღეს, ეს დიალოგი საშუალებას მოგცემთ მარტივად დაამატოთ გაფართოება თქვენს ფორუმში. ჩვენ ვსაუბრობთ ეკოსისტემას!",
+                "title": "გაფართოების დამატება"
+            },
+            "extensions": {
+                "add_button": "გაფართოების დამატება",
+                "settings_button": "",
+                "uninstall_button": "ამოშლა"
+            }
+        },
+        "forum": {
+            "change_email": {
+                "confirm_password_placeholder": "",
+                "confirmation_message": "",
+                "dismiss_button": "",
+                "incorrect_password_message": "თქვენ მიერ შეყვანილი პაროლი არასწორია.",
+                "submit_button": "",
+                "title": ""
+            },
+            "change_password": {
+                "send_button": "გაგზავნეთ პაროლის გადაყენების ელ.ფოსტა",
+                "text": "დააწკაპუნეთ ქვემოთ მოცემულ ღილაკზე და შეამოწმეთ თქვენი ელ.ფოსტა, რომ იპოვოთ ბმული პაროლის შესაცვლელად.",
+                "title": ""
+            },
+            "composer": {
+                "close_tooltip": "დახურვა",
+                "exit_full_screen_tooltip": "მთლიანი ეკრანიდან გასვლა",
+                "full_screen_tooltip": "სრული ეკრანი",
+                "minimize_tooltip": "მინიმიზაცია",
+                "preview_tooltip": "გადახედვა"
+            },
+            "composer_discussion": {
+                "body_placeholder": "დაწერე პოსტი...",
+                "discard_confirmation": "თქვენ არ განათავსეთ თქვენი დისკუსია. გსურთ მისი გაუქმება?",
+                "submit_button": "დისკუსიის დაპოსტვა",
+                "title": "",
+                "title_placeholder": "დისკუსიის სათაური"
+            },
+            "composer_edit": {
+                "discard_confirmation": "თქვენ არ შეინახეთ თქვენი ცვლილებები. გსურთ მათი გაუქმება?",
+                "edited_message": "თქვენი რედაქტირება განხორციელდა.",
+                "post_link": "გამოაქვეყნეთ #{number} {discussion} ში",
+                "submit_button": "",
+                "view_button": ""
+            },
+            "composer_reply": {
+                "body_placeholder": "",
+                "discard_confirmation": "თქვენ არ გამოაქვეყნეთ თქვენი პასუხი. გსურთ მისი გაუქმება?",
+                "posted_message": "თქვენი პასუხი გამოქვეყნდა.",
+                "submit_button": "პასუხის დაპოსტვა",
+                "view_button": ""
+            },
+            "discussion_controls": {
+                "cannot_reply_button": "პასუხის გაცემა შეუძლებელია",
+                "cannot_reply_text": "თქვენ არ გაქვთ ამ დისკუსიაზე პასუხის გაცემის უფლება.",
+                "delete_button": "",
+                "delete_confirmation": "დარწმუნებული ხართ, რომ გსურთ ამ დისკუსიის წაშლა?",
+                "delete_forever_button": "",
+                "log_in_to_reply_button": "შედით პასუხის გასაცემად",
+                "rename_button": "",
+                "reply_button": "",
+                "restore_button": "",
+                "toggle_dropdown_accessible_label": ""
+            },
+            "discussion_list": {
+                "empty_text": "როგორც ჩანს, აქ არანაირი დისკუსია არ არის.",
+                "load_more_button": "",
+                "mark_as_read_tooltip": "წაკითხულად მონიშვნა",
+                "replied_text": "{username} უპასუხა {ago}",
+                "started_text": "{username} დაიწყო {ago}"
+            },
+            "edit_user": {
+                "activate_button": "გაააქტიურეთ მომხმარებელი",
+                "email_heading": "",
+                "email_label": "",
+                "groups_heading": "ჯგუფები",
+                "nothing_available": "",
+                "password_heading": "",
+                "password_label": "",
+                "set_password_label": "დააყენეთ ახალი პაროლი",
+                "submit_button": "",
+                "title": "მომხმარებლის რედაქტირება",
+                "username_heading": "",
+                "username_label": ""
+            },
+            "forgot_password": {
+                "dismiss_button": "",
+                "email_placeholder": "",
+                "email_sent_message": "ჩვენ გამოგიგზავნეთ ელ.წერილი, რომელიც შეიცავს ბმულს თქვენი პაროლის გადასაყენებლად. შეამოწმეთ თქვენი სპამის საქაღალდე, თუ არ მიიღებთ მომდევნო ერთ ან ორ წუთში.",
+                "not_found_message": "ელ.ფოსტის მისამართზე რეგისტრირებული მომხმარებელი არ არის.",
+                "submit_button": "პაროლის აღდგენა",
+                "text": "შეიყვანეთ თქვენი ელ.ფოსტის მისამართი და ჩვენ გამოგიგზავნით ბმულს თქვენი პაროლის დასაყენებლად.",
+                "title": "პაროლი დაგავიწყდა"
+            },
+            "header": {
+                "admin_button": "ადმინისტრაცია",
+                "back_to_index_tooltip": "განხილვის სიაში დაბრუნება",
+                "locale_dropdown_accessible_label": "",
+                "log_in_link": "",
+                "log_out_button": "",
+                "profile_button": "პროფილი",
+                "search_placeholder": "ფორუმის ძებნა",
+                "session_dropdown_accessible_label": "",
+                "settings_button": "",
+                "sign_up_link": ""
+            },
+            "index": {
+                "all_discussions_link": "",
+                "cannot_start_discussion_button": "დისკუსიის დაწყება შეუძლებელია",
+                "mark_all_as_read_confirmation": "დარწმუნებული ხართ, რომ გსურთ ყველა დისკუსიის წაკითხულად მონიშვნა?",
+                "mark_all_as_read_tooltip": "",
+                "meta_title_text": "",
+                "refresh_tooltip": "განახლება",
+                "start_discussion_button": "",
+                "toggle_sidenav_dropdown_accessible_label": ""
+            },
+            "index_sort": {
+                "latest_button": "უახლესი",
+                "newest_button": "უახლესი",
+                "oldest_button": "უძველესი",
+                "relevance_button": "შესაბამისობა",
+                "toggle_dropdown_accessible_label": "",
+                "top_button": "საუკეთესო"
+            },
+            "log_in": {
+                "forgot_password_link": "დაგავიწყდათ პაროლი?",
+                "invalid_login_message": "თქვენი შესვლის მონაცემები არასწორი იყო.",
+                "password_placeholder": "",
+                "remember_me_label": "დამიმახსოვრე",
+                "sign_up_text": "არ გაქვთ ანგარიში? <a>დარეგისტრირდით</a>",
+                "submit_button": "",
+                "title": "",
+                "username_or_email_placeholder": "მომხმარებლის სახელი ან ელ.ფოსტა"
+            },
+            "notifications": {
+                "discussion_renamed_text": "{username} მა შეცვალა სათაური",
+                "empty_text": "შეტყობინებები არ არის",
+                "mark_all_as_read_tooltip": "",
+                "mark_as_read_tooltip": "წაკითხულად მონიშვნა",
+                "title": "",
+                "toggle_dropdown_accessible_label": "",
+                "tooltip": ""
+            },
+            "post": {
+                "edited_text": "რედაქტირებულია",
+                "edited_tooltip": "{username} დაარედაქტირა {ago}",
+                "number_tooltip": "პოსტი #{number}"
+            },
+            "post_controls": {
+                "delete_button": "",
+                "delete_confirmation": "დარწმუნებული ხართ, რომ გსურთ სამუდამოდ წაშალოთ ეს პოსტი? ამ მოქმედების გაუქმება შეუძლებელია.",
+                "delete_forever_button": "",
+                "edit_button": "",
+                "hide_confirmation": "დარწმუნებული ხართ, რომ გსურთ ამ პოსტის წაშლა?",
+                "restore_button": "",
+                "toggle_dropdown_accessible_label": ""
+            },
+            "post_scrubber": {
+                "now_link": "ახლა",
+                "original_post_link": "ორიგინალი პოსტი",
+                "unread_text": "{count} წაუკითხავი",
+                "viewing_text": "{count} პოსტიდან {count} პოსტი | {index} სულ {count} პოსტიდან"
+            },
+            "post_stream": {
+                "discussion_renamed_old_tooltip": "ძველი სათაური იყო: \"{old}\"",
+                "discussion_renamed_text": "{username} შეცვალა სათაური და გახდა {new}.",
+                "load_more_button": "",
+                "reply_placeholder": "",
+                "time_lapsed_text": "{period} შემდეგ"
+            },
+            "rename_discussion": {
+                "submit_button": "",
+                "title": "დისკუსიის გადარქმევა"
+            },
+            "search": {
+                "all_discussions_button": "ყველა დისკუსიის ძიება \"{query}\" -ისთვის",
+                "discussions_heading": "",
+                "users_heading": ""
+            },
+            "settings": {
+                "account_heading": "ანგარიში",
+                "change_email_button": "",
+                "change_password_button": "",
+                "notifications_heading": "",
+                "notify_by_email_heading": "",
+                "notify_by_web_heading": "ვები",
+                "notify_discussion_renamed_label": "ვიღაც სახელს უცვლის ჩემს დაწყებულ დისკუსიას",
+                "privacy_disclose_online_label": "ნება დართეთ სხვებმა ნახონ, როდის ვარ ონლაინ",
+                "privacy_heading": "კონფიდენციალურობა",
+                "title": ""
+            },
+            "sign_up": {
+                "dismiss_button": "",
+                "email_placeholder": "",
+                "log_in_text": "უკვე გაქვთ ანგარიში? <a>შედით</a>",
+                "password_placeholder": "",
+                "submit_button": "",
+                "title": "",
+                "username_placeholder": "",
+                "welcome_text": "მოგესალმებით, {username}!"
+            },
+            "user": {
+                "avatar_remove_button": "",
+                "avatar_upload_button": "ატვირთვა",
+                "avatar_upload_tooltip": "ახალი ავატარის ატვირთვა",
+                "discussions_link": "",
+                "in_discussion_text": "{discussion} ში",
+                "joined_date_text": "შემოუერთდა {ago}",
+                "online_text": "ონლაინი",
+                "posts_empty_text": "როგორც ჩანს, აქ შეტყობინებები არ არის.",
+                "posts_link": "",
+                "posts_load_more_button": "",
+                "settings_link": ""
+            },
+            "user_controls": {
+                "button": "კონტროლი",
+                "delete_button": "",
+                "delete_confirmation": "დარწმუნებული ხართ, რომ გსურთ ამ მომხმარებლის წაშლა? მომხმარებლის შეტყობინებები არ წაიშლება.",
+                "delete_error_message": "მომხმარებლის <i>{username} ({email)}</ i> წაშლა ვერ მოხერხდა",
+                "delete_success_message": "მომხმარებელი <i>{username} ({email})</ i> წაიშალა",
+                "edit_button": "",
+                "toggle_dropdown_accessible_label": ""
+            },
+            "user_email_confirmation": {
+                "alert_message": "",
+                "resend_button": "ხელახლა გაგზავნეთ დამადასტურებელი ელ.ფოსტა",
+                "sent_message": "გაგზავნილი"
+            }
+        },
+        "lib": {
+            "badge": {
+                "hidden_tooltip": "დამალული"
+            },
+            "dropdown": {
+                "toggle_dropdown_accessible_label": ""
+            },
+            "error": {
+                "dependent_extensions_message": "შეუძლებელია {extension} გამორთვა სანამ არ მოხდება შემდეგი დამოკიდებული გაფართოებების გამორთვა: {extensions}",
+                "generic_message": "უი! Რაღაც არასწორად წავიდა. გთხოვთ, გადატვირთოთ გვერდი და ისევ სცადოთ.",
+                "missing_dependencies_message": "შეუძელებლია {extension} გაფართოების ჩართვა, სანამ შემდეგი გაფართოებები ჩართულია: {extensions}",
+                "not_found_message": "მოთხოვნილი რესურსი ვერ მოიძებნა.",
+                "permission_denied_message": "თქვენ არ გაქვთ ამის ნებართვა.",
+                "rate_limit_exceeded_message": "ცოტა სწრაფად მიდიხარ. გთხოვთ, სცადოთ ხელახლა რამდენიმე წამში."
+            },
+            "number_suffix": {
+                "kilo_text": "კ",
+                "mega_text": "მ"
+            },
+            "series": {
+                "glue_text": ", ",
+                "three_text": "{first}, {second}, და {third}",
+                "two_text": "{first} და {second}"
+            },
+            "username": {
+                "deleted_text": "[წაშლილია]"
+            }
+        },
+        "views": {
+            "content": {
+                "javascript_disabled_message": "ეს საიტი საუკეთესოდ ჩანს თანამედროვე ბრაუზერში, რომელშიც ჩართულია JavaScript.",
+                "load_error_message": "ამ საიტის სრული ვერსიის ჩატვირთვისას მოხდა რაღაც შეცდომა. ცადეთ შეცვალოთ ეს გვერდი შეცდომის გამოსასწორებლად.",
+                "loading_text": "იტვირთება..."
+            },
+            "discussion": {
+                "next_page_button": "",
+                "previous_page_button": ""
+            },
+            "error": {
+                "csrf_token_mismatch": "თქვენ იყავით არააქტიური დიდი ხნის განმავლობაში.",
+                "csrf_token_mismatch_return_link": "დაბრუნდით უკან, რომ სცადოთ თავიდან",
+                "invalid_confirmation_token": "ეს დადასტურების ბმული უკვე გამოყენებულია ან არასწორია.",
+                "not_authenticated": "თქვენ არ გაქვთ ამ გვერდზე შესვლის უფლება. სისტემაში შესვლის შემდეგ ხელახლა სცადეთ.",
+                "not_found": "თქვენს მიერ მოთხოვნილი გვერდი ვერ მოიძებნა.",
+                "not_found_return_link": "დაბრუნდით {forum} -ზე",
+                "permission_denied": "თქვენ არ გაქვთ ამ გვერდზე შესვლის უფლება.",
+                "unknown": "ამ გვერდის ჩატვირთვისას მოხდა შეცდომა."
+            },
+            "index": {
+                "all_discussions_heading": "",
+                "next_page_button": "",
+                "previous_page_button": ""
+            },
+            "log_out": {
+                "log_out_button": "",
+                "log_out_confirmation": "დარწმუნებული ხართ, რომ გსურთ გამოსვლა {forum} - დან?",
+                "title": ""
+            },
+            "reset_password": {
+                "confirm_password_label": "დაადასტურეთ ახალი პაროლი",
+                "new_password_label": "ახალი პაროლი",
+                "submit_button": "",
+                "title": ""
+            }
+        },
+        "api": {
+            "invalid_username_message": "მომხმარებლის სახელი შეიძლება შეიცავდეს მხოლოდ ასოებს, რიცხვებს და ტირეებს."
+        },
+        "email": {
+            "activate_account": {
+                "subject": "გაააქტიურეთ თქვენი ახალი ანგარიში",
+                "body": "ჰეი {username}\n\nვიღაცა (იმედია თქვენ!) დარეგისტრირდე {forum} -ზე, ამ ელ.ფოსტის დახმარებით.\n\nთუ თქვენ ეს იყავით, გაჰყევით შემდეგ ლინკს, რათა გაააქტიუროთ ანგარიში:\n{url}\n\nთუ თქვენ არ დარეგისტრირებულხართ, გთხოვთ დააიგნოროთ ეს ელ.ფოსტა\n"
+            },
+            "confirm_email": {
+                "subject": "დაადასტურეთ თქვენი ახალი ელ.ფოსტის მისამართი",
+                "body": "ჰეი {username}!\n\nვიღაცამ (იმედია თქვენ!) შეცვალა ელ.ფოსტის მისამართი {forum} ამ ელ.ფოსტაზე.\n\nთუ ეს თქვენ იყავით, გაჰყევით შემდეგ ლინკს და თქვენი ელ.ფოსტა დადასტურდება:\n{url}\n\nთუ თქვენ ეს არ იყავით, გთხოვთ დააიგნოროთ ელ.ფოსტა.\n"
+            },
+            "reset_password": {
+                "subject": "",
+                "body": "ჰეი {username}!\n\nვიღაცამ (იმედია თქვენ!) დაადასტურა პაროლის დავიწყების მოთხოვნა თქვენი ანგარიშისთვის {forum} -ზე.\n\nთუ ეს თქვენ იყავით, გაჰყევით შემდეგ ლინკს, რომ შეცვალოთ თქვენი პაროლი:\n{url}\n\nთუ თქვენ არ გსურთ პაროლის შეცვლა, უბრალოდ დააიგნორეთ ეს ელ.ფოსტა და არაფერი მოხდება.\n"
+            },
+            "send_test": {
+                "subject": "Flarum ელ.ფოსტის ტესტი",
+                "body": "ჰეი {username}!\n\nეს არის სატესტო ელ.წერილი, რომ დაადასტუროთ, რომ თქვენი Flarum ელ.ფოსტის კონფიგურაცია მუშაობს სწორად.\n\nთუ ეს თქვენ იყავით, ეს ნიშნავს, რომ ელ.ფოსტის კონფიგურაცია წარმატებით მუშაობს!\n\nთუ ეს თქვენ არ იყავით, გთხოვთ დააიგნორეთ ეს ელ.ფოსტა.\n"
+            }
+        },
+        "ref": {
+            "all_discussions": "ყველა დისკუსია",
+            "change_email": "ელ.ფოსტის შეცვლა",
+            "change_password": "პაროლის შეცვლა",
+            "color": "ფერი",
+            "confirm_password": "დაადასტურეთ პაროლი",
+            "confirmation_email_sent": "ჩვენ გამოგიგზავნეთ დამადასტურებელი ელ.წერილი {email} -ზე. თუ ის მალე არ მოვა, შეამოწმეთ თქვენი სპამის საქაღალდე.",
+            "custom_footer_text": "დაამატეთ HTML, რომელიც გამოჩნდება გვერდის ბოლოში.",
+            "custom_footer_title": "დაარედაქტირეთ სასურველი ქვედაკლონტიტული",
+            "custom_header_text": "დაამატეთ HTML, რომელიც გამოჩნდება გვერდის ზედა ნაწილში, ფლარუმის საკუთარი სათაურის ზემოთ.",
+            "custom_header_title": "შეცვალეთ მორგებული სათაური",
+            "delete": "წაშლა",
+            "delete_forever": "სამუდამოდ წაშლა",
+            "discussions": "დისკუსიები",
+            "edit": "რედაქტირება",
+            "email": "ელ.ფოსტა",
+            "icon": "აიქონი",
+            "icon_text": "შეიყვანეთ სახელი ნებისმიერი <a>FontAwesome</a> აიქონის კლასის <em>მათ შორის</em> <code>fas fa-</code> პრეფიქსით.",
+            "load_more": "მეტის ჩატვირთვა",
+            "log_in": "შესვლა",
+            "log_out": "გამოსვლა",
+            "mark_all_as_read": "ყველას წაკითხულად მონიშვნა",
+            "next_page": "შემდეგი გვერდი",
+            "notifications": "შეტყობინებები",
+            "okay": "კარგი",
+            "password": "პაროლი",
+            "posts": "პოსტები",
+            "previous_page": "წინა გვერდი",
+            "remove": "ამოღება",
+            "rename": "გადარქმევა",
+            "reply": "პასუხი",
+            "reset_your_password": "აღადგინეთ თქვენი პაროლი",
+            "restore": "აღდგენა",
+            "save_changes": "ცვლილებების შენახვა",
+            "settings": "პარამეტრები",
+            "sign_up": "რეგისტრაცია",
+            "some_others": "{count} სხვა|{count} სხვები",
+            "start_a_discussion": "დისკუსიის დაწყება",
+            "username": "მომხმარებლის სახელი",
+            "users": "მომხმარებლები",
+            "view": "ნახვა",
+            "write_a_reply": "დაწერეთ პასუხი...",
+            "you": "თქვენ"
+        },
+        "group": {
+            "admin": "ადმინი",
+            "admins": "ადმინისტრატორები",
+            "guest": "სტუმარი",
+            "guests": "სტუმრები",
+            "member": "მომხმარებელი",
+            "members": "მომხმარებლები",
+            "mod": "მოდი",
+            "mods": "მოდები"
+        }
+    }
+}

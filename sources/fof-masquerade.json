@@ -2,7 +2,8 @@
     "fof-masquerade": {
         "forum": {
             "alerts": {
-                "profile-completion-required": "Please complete the necessary profile fields below.\n"
+                "profile-completion-required": "Please complete the necessary profile fields below.\n",
+                "profile-completed": "Profile completed! <a>Proceed to homepage</a>"
             },
             "buttons": {
                 "view-profile": "View profile",
@@ -20,7 +21,6 @@
             }
         },
         "admin": {
-            "title": "Masquerade",
             "general-options": "General options",
             "buttons": {
                 "add-field": "Create field",
@@ -30,9 +30,6 @@
             "permissions": {
                 "have-profile": "Have masquerade profile",
                 "view-profile": "View masquerade profile"
-            },
-            "menu": {
-                "description": "Configure user profile fields.\n"
             },
             "fields": {
                 "title": "Fields",

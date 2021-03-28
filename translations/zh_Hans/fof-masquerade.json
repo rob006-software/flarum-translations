@@ -2,7 +2,8 @@
     "fof-masquerade": {
         "forum": {
             "alerts": {
-                "profile-completion-required": "请完善下方必填的个人资料。\n"
+                "profile-completion-required": "请完善下方必填的个人资料。\n",
+                "profile-completed": "填写完成！<a>转到首页</a>"
             },
             "buttons": {
                 "view-profile": "个人资料",
@@ -20,7 +21,6 @@
             }
         },
         "admin": {
-            "title": "化装舞会",
             "general-options": "常规选项",
             "buttons": {
                 "add-field": "创建字段",
@@ -30,9 +30,6 @@
             "permissions": {
                 "have-profile": "拥有「化装舞会」个人资料",
                 "view-profile": "查看「化装舞会」个人资料"
-            },
-            "menu": {
-                "description": "配置用户个人资料字段。\n"
             },
             "fields": {
                 "title": "字段",
@@ -64,6 +61,10 @@
                 "email": "电子邮件",
                 "select": "下拉列表",
                 "url": "网址"
+            },
+            "title": "化装舞会",
+            "menu": {
+                "description": "配置用户个人资料字段。\n"
             }
         }
     }

@@ -1,22 +1,44 @@
 {
     "nearata-embed-video": {
-        "forum": {
-            "button_tooltip_title": "",
-            "modal": {
-                "live_mode": "",
-                "submit_button": "",
-                "title": "",
-                "video_type_label": "",
-                "video_types": {
-                    "normal": "",
-                    "dash": "",
-                    "flv": "",
-                    "hls": "",
-                    "shaka": "",
-                    "webtorrent": ""
+        "admin": {
+            "settings": {
+                "options": {
+                    "airplay": "Airplay",
+                    "hotkey": "Kısayol",
+                    "lang": "Oynatıcı dili",
+                    "logo": "Logo bağlantısı",
+                    "quality_switching": "Kalite Seçimine İzin Ver",
+                    "theme": "Tema rengi"
                 },
-                "video_url_label": "",
-                "video_url_placeholder": ""
+                "permissions": {
+                    "can_create_video_player": "Video oynatıcı oluşturabilir"
+                },
+                "video_types": {
+                    "dash": "Dash",
+                    "flv": "Flv",
+                    "hls": "Hls",
+                    "shaka": "Shaka",
+                    "webtorrent": "WebTorrent"
+                }
+            }
+        },
+        "forum": {
+            "button_tooltip_title": "Video Göm",
+            "modal": {
+                "live_mode": "Canlı mod",
+                "submit_button": "Değişiklikleri Kaydet",
+                "title": "Video Göm",
+                "video_type_label": "Video Tipi",
+                "video_types": {
+                    "normal": "Normal",
+                    "dash": "Dash",
+                    "flv": "Flv",
+                    "hls": "Hls",
+                    "shaka": "Shaka",
+                    "webtorrent": "WebTorrent"
+                },
+                "video_url_label": "Video Bağlantısı",
+                "video_url_placeholder": "Örn. https://ornek.com/dosyaadi.mp4"
             }
         }
     }

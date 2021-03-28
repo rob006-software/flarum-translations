@@ -1,14 +1,21 @@
 {
     "fof-user-directory": {
         "forum": {
+            "header": {
+                "back_to_user_directory_tooltip": ""
+            },
             "search": {
-                "users_heading": "Tüm kullanıcılarda ara \"{query}\""
+                "users_heading": "Tüm kullanıcılarda ara \"{query}\"",
+                "field": {
+                    "placeholder": "Tüm kullanıcılarda ara"
+                }
             },
             "page": {
                 "nav": "Kullanıcı Listesi",
                 "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
                 "load_more_button": "=> core.ref.load_more",
                 "empty_text": "Aramanızla eşleşen bir kullanıcı bulamadık.",
+                "filter_button": "Grupları Filtrele",
                 "sort": {
                     "relevance": "İlgi",
                     "default": "Varsayılan",

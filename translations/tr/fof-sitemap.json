@@ -10,22 +10,22 @@
                 "mode_help_schedule": "Aşağıdaki modlar, işlemleri Flarum takvimine ekler.",
                 "mode_help_schedule_setup": "Flarum zamanlayıcısını doğru kurmadığınızda aşağıdaki modlar çalışmayacaktır. Daha fazla bilgi için <a>buraya</a> göz atın.",
                 "mode_help_cache_disk_label": "Önbellek Modu/Disk Modu",
-                "mode_help_cache_disk": "",
-                "mode_help_large": "",
-                "mode_help_multi_label": "",
-                "mode_help_multi": "",
-                "advanced_options_label": "",
-                "frequency_label": "",
+                "mode_help_cache_disk": "Küçük veya orta ölçekli forumlar için en iyisi, büyük olasılıkla cronjob'lara izin veren ve Flarum zamanlayıcıyı etkinleştiren barındırma ortamlarında (aşağıya bakın) ve 50.000'den az öğe olarak özetlenen tartışmalar, kullanıcılar, etiketler ve sayfalar.",
+                "mode_help_large": "50.000 site haritası dosyaları için teknik sınırdır. Saklanacak daha fazla girişiniz varsa, aşağıdaki seçeneği kullanın!",
+                "mode_help_multi_label": "Çoklu Dosya Modu",
+                "mode_help_multi": "50.000 öğeden başlayan daha büyük forumlar için en iyisi. Çok parçalı, sıkıştırılmış site haritası dosyaları oluşturulacak ve /public klasöründe saklanacaktır",
+                "advanced_options_label": "Gelişmiş seçenekler",
+                "frequency_label": "Planlayıcı, önbelleği veya disk tabanlı site haritasını ne sıklıkla yeniden oluşturmalıdır?",
                 "modes": {
-                    "runtime": "",
-                    "cache": "",
-                    "cache_disk": "",
-                    "multi_file": ""
+                    "runtime": "Çalışma yöntemi",
+                    "cache": "Önbellek",
+                    "cache_disk": "Dosya",
+                    "multi_file": "Çoklu dosya"
                 },
                 "frequency": {
-                    "hourly": "",
-                    "twice_daily": "",
-                    "daily": ""
+                    "hourly": "Saatlik",
+                    "twice_daily": "Günde iki kez",
+                    "daily": "Günlük"
                 }
             }
         }

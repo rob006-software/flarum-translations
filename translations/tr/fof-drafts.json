@@ -2,14 +2,14 @@
     "fof-drafts": {
         "admin": {
             "permissions": {
-                "start": "Tartışma için taslak oluştur",
+                "start": "Taslak oluştur",
                 "schedule": "Taslağı zamanla"
             },
             "settings": {
                 "title": "Taslak Ayarları",
                 "enable_scheduled_drafts": "Zamanlanmış taslakları aç",
-                "schedule_on_one_server": "",
-                "schedule_log_output": ""
+                "schedule_on_one_server": "Görev zamanlayıcı için 'onOneServer()' direktifini kullanın (Redis/Memcache gerektirir)",
+                "schedule_log_output": "Depolamayı günlüğe kaydetmek için zamanlayıcı çıktısını ekleyin"
             }
         },
         "console": {
@@ -28,9 +28,10 @@
                 "empty_text": "Herhangi bir taslak kaydetmediniz",
                 "title": "Taslaklar",
                 "delete_button": "Taslağı Sil",
-                "schedule_button": "Taslağı Zzamanla",
+                "schedule_button": "Taslağı Zamanla",
                 "tooltip": "=> fof-drafts.forum.dropdown.title",
                 "alert": "Taslağınızı silmek istediğine emin misiniz?",
+                "delete_all_alert": "Tüm taslaklarınızı silmek istediğinizden emin misiniz?",
                 "button": "Taslağı Sil"
             },
             "schedule_draft_modal": {

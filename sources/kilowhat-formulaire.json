@@ -4,9 +4,15 @@
             "permissions": {
                 "heading": "Formulaire",
                 "heading-advanced": "Formulaire (options for third-party extensions)",
-                "fill": "Fill standalone forms",
-                "seeAnyUser": "View user profile submissions",
-                "seeAnyDiscussion": "View discussion fields submissions",
+                "fill": "=> kilowhat-formulaire.ref.permissions.fill",
+                "seeOwnUser": "=> kilowhat-formulaire.ref.permissions.seeOwnUser",
+                "seeAnyUser": "=> kilowhat-formulaire.ref.permissions.seeAnyUser",
+                "editOwnUser": "=> kilowhat-formulaire.ref.permissions.editOwnUser",
+                "editAnyUser": "=> kilowhat-formulaire.ref.permissions.editAnyUser",
+                "seeOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion",
+                "seeAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.seeAnyDiscussion",
+                "editOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.editOwnDiscussion",
+                "editAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.editAnyDiscussion",
                 "create": "Create forms (beta)",
                 "moderate": "Moderate all forms",
                 "export": "Export submission data",
@@ -22,18 +28,18 @@
         },
         "forum": {
             "nav": {
-                "forms": "Forms manager"
+                "forms": "=> kilowhat-formulaire.ref.manager"
             },
             "form-index": {
                 "header": {
-                    "title": "Forms manager",
+                    "title": "=> kilowhat-formulaire.ref.manager",
                     "documentation": "Full online documentation",
                     "discuss": "Discussion on Flarum Discuss"
                 },
                 "tabs": {
-                    "standalone": "Standalone forms",
-                    "discussion": "Discussion fields",
-                    "user": "User profile"
+                    "standalone": "=> kilowhat-formulaire.ref.type.standalone",
+                    "discussion": "=> kilowhat-formulaire.ref.type.discussion",
+                    "user": "=> kilowhat-formulaire.ref.type.user"
                 },
                 "empty": "No forms",
                 "load-more": "Load more",
@@ -49,6 +55,21 @@
                     "actions": "Actions"
                 }
             },
+            "global-settings": {
+                "title": "Global permissions",
+                "admin-only": "Only forum administrators can edit global settings",
+                "permissions": {
+                    "fill": "=> kilowhat-formulaire.ref.permissions.fill",
+                    "seeOwnUser": "=> kilowhat-formulaire.ref.permissions.seeOwnUser",
+                    "seeAnyUser": "=> kilowhat-formulaire.ref.permissions.seeAnyUser",
+                    "editOwnUser": "=> kilowhat-formulaire.ref.permissions.editOwnUser",
+                    "editAnyUser": "=> kilowhat-formulaire.ref.permissions.editAnyUser",
+                    "seeOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion",
+                    "seeAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.seeAnyDiscussion",
+                    "editOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.editOwnDiscussion",
+                    "editAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.editAnyDiscussion"
+                }
+            },
             "form-create": {
                 "title": "New form",
                 "field": {
@@ -58,20 +79,58 @@
                     "create": "Create form"
                 }
             },
-            "form-edit": {
-                "preview": "Preview",
-                "save-for-preview": "Save for preview",
-                "expert-mode": "Expert mode",
+            "form-edit-header": {
+                "back": "Back",
+                "category": {
+                    "standalone": "=> kilowhat-formulaire.ref.type.standalone",
+                    "discussion": "=> kilowhat-formulaire.ref.type.discussion",
+                    "user": "=> kilowhat-formulaire.ref.type.user"
+                },
+                "tabs": {
+                    "template": "Template",
+                    "placement": "Placement",
+                    "access": "Access",
+                    "notifications": "Notifications",
+                    "submissions": "Submissions"
+                },
+                "access-status": {
+                    "closed": "Closed",
+                    "create": "Create only",
+                    "edit": "Edit only",
+                    "both": "Create and edit"
+                },
+                "controls": "Controls",
+                "template-export": "Template import/export",
+                "enable-expert-mode": "Enable expert mode",
+                "disable-expert-mode": "Disable expert mode",
                 "restore": "Restore",
                 "hide": "Delete",
                 "delete": "Delete permanently",
                 "delete-confirmation": "The form \"{title}\" will be permanently deleted",
-                "title": "Edit form",
-                "template": "Template",
+                "fields": {
+                    "private-title": "Private title",
+                    "slug": "Custom URL slug (optional)"
+                }
+            },
+            "form-edit": {
+                "warnings": {
+                    "show-on-signup-invalid-permissions": "You need to set \"see own\" and \"edit own\" permission to unapproved members in order to use \"show in sign up\".\n",
+                    "show-on-composer-invalid-permissions": "Make sure \"see own\" and \"edit own\" permission match who can start discussions with the selected tag(s) in order to use \"show in composer\". Set to \"members\" if not sure. This message can appear even if your settings are correct.\n",
+                    "linked-form-is-draft": "This form is currently in draft mode. Enable \"accept new submissions\" for the fields to appear on the forum.\n",
+                    "auto-link-permission-warning": "Forms with \"automatically create discussions\" option use the global fill permission when accessed standalone.\n"
+                },
+                "expert-mode-warning": "Expert mode is enabled. This lets you customize field identifiers and per-field permissions. Make sure you read the documentation about those feature, as you might break things!\n",
+                "section": {
+                    "template": "Template",
+                    "permissions": "Permissions"
+                },
                 "field": {
                     "link": "Special form types",
-                    "title": "Title",
-                    "slug": "Slug (url)",
+                    "title": "Public title",
+                    "show-on-creation": {
+                        "discussion": "Show in discussion composer",
+                        "user": "Show in sign up"
+                    },
                     "automatic-discussion": "Automatically create discussions from form submission",
                     "automatic-discussion-help": "When enabled, the form will continue to be accessible like a standalone form. Submissions will automatically create and connect with new discussions.\n",
                     "accept-submissions": "Accept new submissions",
@@ -79,18 +138,25 @@
                     "max-submissions": "Max submissions (leave blank for unlimited)",
                     "send-confirmation-to-participants": "Send confirmation email to participants",
                     "notify-emails": "Send a copy of the data to those comma-separated emails",
-                    "web-confirmation-message": "Confirmation message on the web (formatting enabled)"
+                    "web-confirmation-message": "Confirmation message on the web (formatting enabled)",
+                    "permission-see-own": "See own submission",
+                    "permission-see-any": "See any submission",
+                    "permission-edit-own": "Edit own submission",
+                    "permission-edit-any": "Edit any submission"
                 },
                 "link-options": {
                     "standalone": "Standalone",
                     "groups": "User profile",
                     "all-groups": "For any group",
-                    "tags": "Discussion fields (beta)",
+                    "tags": "Discussion fields",
                     "all-tags": "For any tag"
                 },
                 "auto-discussion-options": "Options for new discussions",
                 "email-confirmation-options": "Confirmation email template",
-                "email-notification-options": "Notification email template"
+                "email-notification-options": "Notification email template",
+                "exiting-with-unsaved-data": "You have unsaved changes. Do you really want to quit the page?",
+                "preview": "Preview in new tab",
+                "save-for-preview": "Save for preview"
             },
             "auto-discussion-options-modal": {
                 "title": "Automatic discussion options",
@@ -122,13 +188,15 @@
             "permission-controls": {
                 "inherit": "Use defaults",
                 "everyone_button": "=> core.admin.permissions_controls.everyone_button",
-                "members_button": "=> core.group.members"
+                "disabled_members_button": "Non-activated and suspended members",
+                "members_button": "Activated members"
             },
             "template-editor": {
                 "add-field": "Add a field",
                 "title": "Title",
                 "description": "Description",
-                "key": "JSON key in the submission payload",
+                "key": "(Expert) JSON key in the submission payload",
+                "fill-permission": "(Expert) Fill permissions",
                 "required": "Required",
                 "rich": "Rich text (TextFormatter)",
                 "min": "Minimum",
@@ -230,15 +298,15 @@
                     "none": "No header line"
                 },
                 "meta-options": {
-                    "uid": "Submission ID",
-                    "user_id": "User ID",
-                    "user_username": "Username",
-                    "user_displayname": "User Display Name",
-                    "link_id": "Linked resource ID",
-                    "locked_at": "Lock Date",
-                    "created_at": "Creation Date",
-                    "updated_at": "Update Date",
-                    "hidden_at": "Soft Deletion Date"
+                    "uid": "=> kilowhat-formulaire.ref.submission-meta.uid",
+                    "user_id": "=> kilowhat-formulaire.ref.submission-meta.user_id",
+                    "user_username": "=> kilowhat-formulaire.ref.submission-meta.user_username",
+                    "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
+                    "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
+                    "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
+                    "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
+                    "updated_at": "=> kilowhat-formulaire.ref.submission-meta.updated_at",
+                    "hidden_at": "=> kilowhat-formulaire.ref.submission-meta.hidden_at"
                 }
             }
         },
@@ -246,21 +314,22 @@
             "formatter-parsing-error": "Could not parse content: {message}",
             "not-allowed-to-fill-field": "You are not allowed to change the value of this field",
             "duplicate-field-key": "Key should be unique",
-            "submission-link-user-invalid": "The user doesn't have the necessary group for this form",
-            "submission-link-discussion-invalid": "The discussion does't have the necessary tag for this form",
-            "submission-link-already-exists": "Duplicate entry for link resource",
             "cannot-change-form-type": "You cannot change the type of a form that has existing submissions",
+            "unknown-form": "Unrecognized form ID {id}",
+            "unauthorized-form": "You don't have the necessary permissions to fill form ID {id}",
+            "file-already-belongs-form": "File {id} belongs to another form",
+            "file-already-belongs-submission": "File {id} belongs to another submission",
             "export": {
                 "meta": {
-                    "uid": "Submission ID",
-                    "user_id": "User ID",
-                    "user_username": "Username",
-                    "user_displayname": "User Display Name",
-                    "link_id": "Linked resource ID",
-                    "locked_at": "Lock Date",
-                    "created_at": "Creation Date",
-                    "updated_at": "Update Date",
-                    "hidden_at": "Soft Deletion Date"
+                    "uid": "=> kilowhat-formulaire.ref.submission-meta.uid",
+                    "user_id": "=> kilowhat-formulaire.ref.submission-meta.user_id",
+                    "user_username": "=> kilowhat-formulaire.ref.submission-meta.user_username",
+                    "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
+                    "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
+                    "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
+                    "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
+                    "updated_at": "=> kilowhat-formulaire.ref.submission-meta.updated_at",
+                    "hidden_at": "=> kilowhat-formulaire.ref.submission-meta.hidden_at"
                 }
             }
         },
@@ -270,6 +339,36 @@
             "edit": "Edit",
             "footer": "Sent from {title}",
             "sub-entries": "{count} entries"
+        },
+        "ref": {
+            "manager": "Forms manager",
+            "type": {
+                "standalone": "Standalone forms",
+                "discussion": "Discussion fields",
+                "user": "User profile"
+            },
+            "permissions": {
+                "fill": "Fill standalone forms",
+                "seeOwnUser": "View own profile fields",
+                "seeAnyUser": "View any profile fields",
+                "editOwnUser": "Edit own profile fields",
+                "editAnyUser": "Edit any profile fields",
+                "seeOwnDiscussion": "See own discussion fields",
+                "seeAnyDiscussion": "See any discussion fields",
+                "editOwnDiscussion": "Edit own discussion fields",
+                "editAnyDiscussion": "Edit any discussion fields"
+            },
+            "submission-meta": {
+                "uid": "Submission ID",
+                "user_id": "User ID",
+                "user_username": "Username",
+                "user_displayname": "User Display Name",
+                "link_id": "Linked resource ID",
+                "locked_at": "Lock Date",
+                "created_at": "Creation Date",
+                "updated_at": "Update Date",
+                "hidden_at": "Soft Deletion Date"
+            }
         }
     }
 }

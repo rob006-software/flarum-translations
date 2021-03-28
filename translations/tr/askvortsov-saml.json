@@ -1,13 +1,18 @@
 {
     "askvortsov-saml": {
         "admin": {
+            "header": {
+                "text": ""
+            },
             "title": "SAML2 SSO Ayarları",
             "labels": {
-                "idp_metadata_url": "Kimlik Sağlayıcı Metadata URL (XML Alternatifi)",
-                "idp_metadata": "Kimlik Sağlayıcı Metadata XML (URL alternatifi)",
+                "idp_metadata_url": "Kimlik Sağlayıcı Metadata Bağlantısı (XML Alternatifi)",
+                "idp_metadata": "Kimlik Sağlayıcı Metadata XML (Bağlantı alternatifi)",
                 "only_option": "SAML2 SSO giriş seçeneği olarak mı kullanıyorsunuz?",
                 "sync_attributes": "Senkronize işlemi yapılsın mı (Avatar, Gruplar, Biyografi, ve Profil)? askvortsov/auth-sync uzantısı gerektirir.",
-                "nameid_format": "NameID Formatı"
+                "nameid_format": "NameID Formatı",
+                "want_assertions_signed": "Onayların İmzalanmasını İstiyor musunuz?",
+                "want_messages_signed": "Mesajların İmzalanmasını İstiyor musunuz?"
             },
             "options": {
                 "nameid_format": {
@@ -25,7 +30,7 @@
                 "see_popup": "Giriş / Kayıt için Açılır Pencereyi Gör"
             },
             "sign_up": {
-                "post_saml_title": ""
+                "post_saml_title": "Son Bir Adım..."
             }
         }
     }

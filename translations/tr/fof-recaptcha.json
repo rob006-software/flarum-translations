@@ -5,9 +5,15 @@
                 "help_text": "Google reCAPTCHA bilgilerinizi <a>buradan</a> alın.",
                 "secret_key_label": "Secret Key",
                 "site_key_label": "Site Key",
-                "title": "",
+                "title": "FriendsOfFlarum reCAPTCHA",
                 "type_label": "reCAPTCHA Tipi"
+            },
+            "permissions": {
+                "post_without_captcha": "Captcha olmadan gönderi ve tartışmalar oluşturun"
             }
+        },
+        "forum": {
+            "error": "reCAPTCHA gönderilirken bir hata oluştu. Tekrar deneyin."
         }
     },
     "validation": {

@@ -2,38 +2,40 @@
     "kyrne-websocket": {
         "forum": {
             "discussion_list": {
-                "show_updates_text": ""
+                "show_updates_text": "Güncellenmiş {count} tartışmayı göster|Güncellenmiş {count} tartışmayı göster"
             }
         },
         "admin": {
             "pusher_settings": {
-                "local_cert_path": "",
-                "local_pk_path": "",
-                "passphrase": "",
-                "cert_self_signed": "",
-                "app_port_label": "",
-                "app_host_label": "",
-                "app_id_label": "",
-                "app_key_label": "",
-                "app_secret_label": "",
-                "secure": "",
-                "title": "",
-                "reverse_proxy": "",
-                "auth_only": ""
+                "local_cert_path": "Yerel SSL Sertifika Yolu",
+                "local_pk_path": "Yerel SSL Özel Anahtar Yolu",
+                "passphrase": "(İsteğe bağlı) SSL Anahtar Parolası",
+                "cert_self_signed": "Kendinden İmzalı Sertifika Desteği",
+                "app_port_label": "Port",
+                "app_host_label": "Host",
+                "app_id_label": "App ID",
+                "auto_update": "Tartışmaları Otomatik Güncelleme",
+                "app_key_label": "App Key",
+                "app_secret_label": "Uygulama Sırrı (App Secret)",
+                "secure": "Websocket için wss/https zorla",
+                "title": "Websocket/Pusher Ayarları",
+                "reverse_proxy": "Ters Proxy Desteği",
+                "auth_only": "Yalnızca Oturum Açan Kullanıcılar için Websocket"
             },
             "help": {
-                "app_id": "",
-                "app_key": "",
-                "secret": "",
-                "secure": "",
-                "host": "",
-                "reverse_proxy": "",
-                "port": "",
-                "cert_path": "",
-                "pk_path": "",
-                "passphrase": "",
-                "self_signed": "",
-                "auth_only": ""
+                "auto_update": "Sarı güncelleme başlığını göstermeyin, tartışma listesini hemen güncelleyin.",
+                "app_id": "Pusher Uygulama Kimliği - yerleşik websocket sunucusu kullanıyormuş gibi bırakın.",
+                "app_key": "Pusher Uygulama Anahtarı - yerleşik websocket sunucusu kullanıyormuş gibi bırakın.",
+                "secret": "Pusher App Secret (Uygulama Sırrı) - yerleşik websocket sunucusu kullanıyormuş gibi bırakın.",
+                "secure": "Websocketini güvenli protokoller kullanmaya zorla - Güvenli bir websocket sunucusu kullanıyorsanız, ancak web sitesi kullanmıyorsanız bunu etkinleştirin.",
+                "host": "Websocket sunucunuzun ana bilgisayarı - sunucu forumunuzla aynı ana bilgisayarsa olduğu gibi bırakın.",
+                "reverse_proxy": "Bu etkinleştirildiğinde, Websockets 443 numaralı bağlantı noktası üzerinden bağlanır - 443 numaralı bağlantı noktasından websocket sunucunuza bir ters proxy kullanıyorsanız bunu kullanın.",
+                "port": "Websocket sunucunuzun bağlantı noktası - sunucu bağlantı noktasındaki yapıyı değiştirmezseniz olduğu gibi bırakın.",
+                "cert_path": "Yalnızca ssl kullanılıyorsa ve ters proxy DEĞİLSE gereklidir. SUNUCU ÜZERİNDEKİ SSL (https) sertifikanızın yolu websocket sunucunuz üzerindedir - genellikle bir .crt veya .pem dosyası.",
+                "pk_path": "Yalnızca ssl kullanılıyorsa ve ters proxy DEĞİLSE gereklidir. SUNUCU ÜZERİNDEKİ SSL (https) özel anahtarınızın yolu websocket sunucunuz açıktır - genellikle bir .key veya .pem dosyası.",
+                "passphrase": "Yalnızca ssl kullanılıyorsa ve ters proxy DEĞİLSE gereklidir. Sertifikanızı kodlamak için kullanılan parola - genellikle gerekli değildir.",
+                "self_signed": "Yalnızca ssl kullanılıyorsa ve ters proxy DEĞİLSE gereklidir. SSL (https) sertifikanız kendinden imzalıysa bunu etkinleştirin.",
+                "auth_only": "Yalnızca kimliği doğrulanmış kullanıcıların websocket sunucusuna bağlanmasına izin ver, CPU yükünü azaltabilir."
             }
         }
     }

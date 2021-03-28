@@ -10,6 +10,8 @@
             "send": "Send",
             "create": "Create",
             "discard": "Discard",
+            "reopen": "reopen",
+            "support_tickets": "Support tickets",
             "hero": {
                 "help_question": "What can we help you with?",
                 "check_forum": "If you can't find where you're looking for, <a>check out our forum</a>"
@@ -117,6 +119,7 @@
             },
             "composer": {
                 "compose_article": "Compose article",
+                "compose_ticket": "Compose ticket",
                 "new_article_title": "New article title",
                 "enter_message_here": "Enter your message here",
                 "publish_article": "Publish article",
@@ -127,6 +130,131 @@
                 "nothing_to_preview": "Nothing to preview",
                 "warning_save_changes": "WARNING: You are about to leave this page and haven't saved your changes. Do you want to save your changes before leaving?\n\n[OK] = Yes, save. [CANCEL] = No, don't save\n",
                 "article_saved": "Article has been saved"
+            },
+            "tickets": {
+                "ticket": "Ticket",
+                "subject": "Subject",
+                "ticket_does_not_exist": "The requested support ticket does not exist.",
+                "return_to_overview": "Return to ticket overview",
+                "ticket_overview": "Ticket overview",
+                "opened_on": "Opened on",
+                "ticket_activity": "By {username}, last activity {date}",
+                "reminders_sent": "One reminder sent|{count} reminders sent",
+                "status": {
+                    "new": {
+                        "title": "New",
+                        "description": "This a new unanswered ticket"
+                    },
+                    "open": {
+                        "title": "Open",
+                        "description": "This ticket has a new response and is waiting for your reply."
+                    },
+                    "pending": {
+                        "title": "Pending",
+                        "description": "This ticket is waiting for reply from the user.",
+                        "description_user": "We are waiting for you to reply or mark this ticket as solved."
+                    },
+                    "closed": {
+                        "title": "Closed",
+                        "description": "This ticket has been closed.",
+                        "is_closed": "This ticket is closed, when you reply it will reopen. We recommend only to reopen a ticket when the issue hasn't been solved. If it is a new issue, please open a new ticket.",
+                        "close_after_posting": "Close ticket after posting",
+                        "is_auto_closed": "This ticket is closed due to inactivity."
+                    },
+                    "on_hold": {
+                        "title": "On hold",
+                        "description": "This ticket has been set on hold."
+                    },
+                    "duplicate": {
+                        "title": "Duplicate",
+                        "description": "This ticket is marked as a duplicate."
+                    },
+                    "solved": {
+                        "title": "Solved",
+                        "description": "This ticket is marked as solved",
+                        "mark_as_solved": "Mark this ticket as solved"
+                    }
+                },
+                "tools": {
+                    "view_ticket": "View ticket",
+                    "update_subject": "Update subject",
+                    "assign_me": "Assign to me",
+                    "remove_me": "Remove me",
+                    "update_status": "Update ticket status",
+                    "close_ticket": "Close ticket"
+                },
+                "new_tickets_dropdown": {
+                    "title": "Ticket Notifications",
+                    "no_tickets": "No ticket notifications",
+                    "ticket_new": "{username} created ticket {ticket}",
+                    "ticket_updated": "{username} posted in {ticket}"
+                },
+                "fields": {
+                    "language": {
+                        "title": "Language",
+                        "placeholder": "Select a language",
+                        "empty": "No language selected",
+                        "description": "Your support ticket will be handled in {language}."
+                    },
+                    "subject": {
+                        "title": "Subject",
+                        "placeholder": "Ticket subject",
+                        "description": "Try to describe your question in one short sentence."
+                    },
+                    "information": {
+                        "title": "Ticket information",
+                        "placeholder": "Tell us what we can help you with"
+                    },
+                    "status": {
+                        "title": "Status",
+                        "placeholder": "The status of the ticket"
+                    },
+                    "assignees": {
+                        "title": "Assignees",
+                        "placeholder": "The status of the ticket"
+                    }
+                },
+                "compose_ticket": {
+                    "title": "Write a new ticket",
+                    "private_support": "For private support, you can use this form to create a new ticket in our support platform. For non-private support matters, please see <a>our public forums</a>.",
+                    "not_allowed": "You cannot open a new support ticket now"
+                },
+                "load_more": {
+                    "title": "Load more tickets"
+                },
+                "my_tickets": {
+                    "title": "My tickets",
+                    "description": "On this page you will be able to find all your private tickets.",
+                    "no_tickets": "You have no tickets yet."
+                },
+                "overview": {
+                    "title": "Tickets overview",
+                    "description": "Smile, you are the hero who saves other people their day.",
+                    "no_tickets": "There are no tickets matching your criteria, probably you're doing a good job!",
+                    "all_tickets": "All tickets"
+                }
+            }
+        },
+        "emails": {
+            "replied_to_ticket": {
+                "subject": "{replier_display_name} replied to your ticket #{ticket_id}",
+                "body": "Dear {recipient_display_name},\n\n{replier_display_name} replied to your ticket #{ticket_id} (subject '{subject}').\n\nPlease use the link below to review the reply:\n{url}\n\nWe are waiting for your reply or until you mark this ticket as resolved.\n"
+            },
+            "ticket_status_update": {
+                "subject": "Ticket #{ticket_id} is marked as {new_status}",
+                "body": "Dear {recipient_display_name},\n\nThe status of your ticket #{ticket_id} has changed to {new_status}.\n\nThe URL of your ticket is:\n{url}\n"
+            },
+            "ticket_resolved": {
+                "subject": "Ticket #{ticket_id} is marked as resolved",
+                "body": "Dear {recipient_display_name},\n\nYour ticket #{ticket_id} has been marked as resolved. This means your ticket has been closed.\n\nThe URL of your ticket is:\n{url}\n\nIf you disagree marking your ticket as resolved, please reply to your ticket to reopen it.\n"
+            },
+            "ticket_pending_reply": {
+                "subject": "Ticket #{ticket_id} is waiting for your reply",
+                "body": "Dear {recipient_display_name},\n\nRecently {replier_display_name} replied to your ticket #{ticket_id} on {replied_date} and we are waiting for your reply.\n\nThe URL of your ticket is:\n{url}\n\nIf the issue has been resolved, please mark the ticket as resolved.\n"
+            },
+            "ticket_pending_reply_closed": {
+                "subject": "Ticket #{ticket_id} has been closed due to inactivity",
+                "body": "Dear {recipient_display_name},\n\nRecently {replier_display_name} replied to your ticket #{ticket_id}. Unfortunately we did not get a reply from you. Your ticket has been automatically closed due to inactivity.\n\nIf you still wish to reply, the URL of your ticket is:\n{url}"
             }
         }
     }

@@ -1,0 +1,119 @@
+{
+    "validation": {
+        "accepted": ":attribute moet worden geacepteerd.",
+        "active_url": ":attribute is geen geldige URL.",
+        "after": ":attribute moet een datum zijn na :date.",
+        "after_or_equal": ":attribute moet een datum na of :date zijn.",
+        "alpha": ":attribute mag alleen letters bevatten.",
+        "alpha_dash": ":attribute mag alleen letters, getallen, en strepen bevatten.",
+        "alpha_num": ":attribute mag alleen letters en getallen bevatten.",
+        "array": ":attribute moet een array zijn.",
+        "before": ":attribute moet een datum zijn vóór :date.",
+        "before_or_equal": ":attribute moet een datum vóór of :date zijn.",
+        "between": {
+            "numeric": ":attribute moet tussen :min en :max zijn.",
+            "file": ":attribute moet tussen :min en :max kilobytes zijn.",
+            "string": ":attribute moet tussen de :min en :max karakters bevatten.",
+            "array": ":attribute moet tussen de :min en :max items bevatten."
+        },
+        "boolean": ":attribute veld moet Ja of Nee zijn.",
+        "confirmed": ":attribute bevestiging komt niet overeen.",
+        "date": ":attribute is geen geldige datum.",
+        "date_equals": ":attribute moet een datum zijn gelijk aan :date.",
+        "date_format": ":attribute komt niet overeen met het formaat :other.",
+        "different": ":attribute en :other moeten verschillen.",
+        "digits": ":attribute moet :digits getallen bevatten.",
+        "digits_between": ":attribute moet tussen de :min en :max getallen bevatten.",
+        "dimensions": ":attribute heeft ongeldige dimensies.",
+        "distinct": ":attribute heeft een dubbele waarde.",
+        "email": ":attribute moet een geldig e-mailadres zijn.",
+        "ends_with": ":attribute moet eindigen met één van de volgende: :values.",
+        "exists": ":attribute is ongeldig.",
+        "file": ":attribute moet een bestand zijn.",
+        "filled": ":attribute is vereist.",
+        "gt": {
+            "numeric": ":attribute moet groter zijn dan :value.",
+            "file": ":attribute moet groter zijn dan :value kilobytes.",
+            "string": ":attribute moet meer dan :value letters hebben.",
+            "array": ":attribute moet meer dan :value items hebben."
+        },
+        "gte": {
+            "numeric": ":attribute moet hoger of gelijk zijn aan :value.",
+            "file": ":attribute moet groter of gelijk zijn aan :value kilobytes.",
+            "string": ":attribute moet meer of hetzelfde aantal letters hebben aan :value.",
+            "array": ":attribute moet :value items hebben of meer."
+        },
+        "image": ":attribute moet een afbeelding zijn.",
+        "in": ":attribute is ongeldig.",
+        "in_array": "Het :attribute veld bestaat niet in :other.",
+        "integer": ":attribute moet een integer zijn.",
+        "ip": ":attribute moet een geldig IP-adres zijn.",
+        "ipv4": ":attribute moet een geldig IPv4 adres zijn.",
+        "ipv6": ":attribute moet een geldig IPv6 adres zijn.",
+        "json": ":attribute moet een geldige JSON string zijn.",
+        "lt": {
+            "numeric": ":attribute moet lager zijn dan :value.",
+            "file": ":attribute moet lager zijn dan :value kilobytes.",
+            "string": ":attribute moet minder dan :value letters hebben.",
+            "array": ":attribute moet minder dan :value items hebben."
+        },
+        "lte": {
+            "numeric": ":attribute moet lager of gelijk zijn aan :value.",
+            "file": ":attribute moet lager of gelijk zijn aan :value kilobytes.",
+            "string": ":attribute moet minder of een gelijk aantal aan :value letters hebben.",
+            "array": ":attribute mag niet meer dan :value items hebben."
+        },
+        "max": {
+            "numeric": ":attribute mag niet groter zijn dan :max.",
+            "file": ":attribute mag niet groter zijn dan :max kilobytes.",
+            "string": ":attribute mag niet langer zijn dan :max karakters.",
+            "array": ":attribute mag niet meer dan :max items bevatten."
+        },
+        "mimes": ":attribute moet een bestand zijn van type: :values.",
+        "mimetypes": ":attribute moet een bestand zijn van type: :values.",
+        "min": {
+            "numeric": ":attribute moet tenminste :min zijn.",
+            "file": ":attribute moet tenminste :min kilobytes zijn.",
+            "string": ":attribute moet tenminste :min karakters bevatten.",
+            "array": ":attribute moet tenminste :min items bevatten."
+        },
+        "not_in": ":attribute is ongeldig.",
+        "not_regex": ":attribute formaat is ongeldig.",
+        "numeric": ":attribute moet een nummer zijn.",
+        "password": "Het wachtwoord is onjuist.",
+        "present": ":attribute moet aanwezig zijn.",
+        "regex": ":attribute formaat is ongeldig.",
+        "required": ":attribute veld is vereist.",
+        "required_if": ":attribute is vereist wanneer :other :value is.",
+        "required_unless": ":attribute is vereist tenzij :other aanwezig is in :values.",
+        "required_with": ":attribute is vereist wanneer :values aanwezig is.",
+        "required_with_all": ":attribute is vereist wanneer :values aanwezig zijn.",
+        "required_without": ":attribute is vereist wanneeer :values niet aanwezig is.",
+        "required_without_all": ":attribute is vereist wanneer geen enkele van :values aanwezig zijn.",
+        "same": ":attribute en :other moeten overeen komen.",
+        "size": {
+            "numeric": ":attribute moet :size zijn.",
+            "file": ":attribute moet :size kilobytes zijn.",
+            "string": ":attribute moet :size karakters zijn.",
+            "array": ":attribute moet :size items bevatten."
+        },
+        "starts_with": ":attribute moet beginnen met één van de volgende: :values.",
+        "string": ":attribute moet een string zijn.",
+        "timezone": ":attribute moet een geldige zone zijn.",
+        "unique": ":attribute is al in gebruik.",
+        "uploaded": ":attribute kon niet geüpload worden.",
+        "url": ":attribute formaat is ongeldig.",
+        "uuid": ":attribute moet een geldige UUID zijn.",
+        "attributes": {
+            "username": "gebruikersnaam",
+            "password": "wachtwoord",
+            "email": "e-mailadres",
+            "title": "titel",
+            "content": "inhoud",
+            "name_singular": "naam enkelvoud",
+            "name_plural": "naam meervoud",
+            "tag_count_primary": "aantal primaire categorieën",
+            "tag_count_secondary": "aantal secundaire categorieën"
+        }
+    }
+}

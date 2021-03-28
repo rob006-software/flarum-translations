@@ -2,34 +2,34 @@
     "flarum-nicknames": {
         "admin": {
             "permissions": {
-                "edit_own_nickname_label": ""
+                "edit_own_nickname_label": "Kullanıcı adını düzenle"
             },
             "settings": {
-                "max_label": "",
-                "min_label": "",
-                "regex_label": "",
-                "unique_label": ""
+                "max_label": "Maksimum kullanıcı adı uzunluğu",
+                "min_label": "Minimum kullanıcı adı uzunluğu",
+                "regex_label": "Doğrulama için normal ifade",
+                "unique_label": "Eşsiz kullanıcı adları gerekli mi?"
             },
-            "wrong_driver": ""
+            "wrong_driver": "Bu uzantının çalışabilmesi için <a><strong>Temel Öğeler</strong></a> sayfasındaki görünen ad sürücüsünü \"kullanıcı adı\" olarak seçmelisiniz."
         },
         "api": {
-            "invalid_nickname_message": ""
+            "invalid_nickname_message": "Bu kullanıcı adı geçerli değildir. Lütfen forum yöneticisi ile iletişime geçerek kullanıcı adı kuralları hakkında daha fazla bilgi edinin."
         },
         "forum": {
             "change_nickname": {
-                "submit_button": "",
-                "title": ""
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> flarum-nicknames.ref.change_nickname"
             },
             "edit_user": {
-                "nicknames_heading": "",
-                "nicknames_text": ""
+                "nicknames_heading": "=> flarum-nicknames.ref.change_nickname",
+                "nicknames_text": "Kullanıcı adı"
             },
             "settings": {
-                "change_nickname_button": ""
+                "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
             }
         },
         "ref": {
-            "change_nickname": ""
+            "change_nickname": "Görünür Adı Değiştir"
         }
     }
 }

@@ -2,11 +2,12 @@
     "kyrne-shout": {
         "admin": {
             "settings": {
-                "title": "",
-                "set_own_password": ""
+                "return_key": "Dönüş tuşu mesaj gönderir",
+                "title": "Shout Ayarları",
+                "set_own_password": "Kullanıcıların kendi şifresini oluşturmasına izin ver - SSO Uyumluluğu"
             },
             "permissions": {
-                "start_label": ""
+                "start_label": "Özel görüşme başlat"
             }
         },
         "forum": {
@@ -17,23 +18,23 @@
                 "title": "Özel Mesajlaşmayı Ayarla",
                 "header_setup": "Özel mesajlaşmayı ayarlamak için kullanıcı adı ve şifrenizi girin.",
                 "header_import": "Özel mesajlarınızı içe aktarmak için kullanıcı adınızı ve şifrenizi girin.",
-                "header_set_own": "",
-                "header_set_own_import": "",
-                "passwords_mismatch": "",
-                "invalid_password": "",
+                "header_set_own": "Özel mesajları hazırlamak için şifre gir.",
+                "header_set_own_import": "Özel mesajlarınızı içe aktarmak için şifrenizi girin.",
+                "passwords_mismatch": "Şifre eşleşmedi",
+                "invalid_password": "Şifren doğru değil.",
                 "button_import": "İçe Aktar",
                 "button_setup": "Ayarla",
-                "confirm_password": "",
+                "confirm_password": "Şifreni Doğrula",
                 "success": "Özel mesajlaşma sistemi ayarlandı, sayfa yeniden yüklenecek..."
             },
             "modal": {
                 "title": "Sohbet Başlat",
                 "help": "Sohbete başlamak için bir kullanıcı adı yazın.",
-                "help_start": "",
+                "help_start": "İlk mesajını yaz. Yeni bir mesajı yalnızca {username} sana yanıt verdikten sonra yazabilirsin. Farklı bir kullanıcı seçmek için tıkla.",
                 "search_recipients": "Kullanıcı adı girin...",
                 "submit": "Gönder & Sohbet Başlat",
                 "copied": "Mesajınız panoya kopyalandı.",
-                "more_users": "",
+                "more_users": "Aradığınız kullanıcıyı göremezseniz, özel mesajlaşma kurulumuna sahip değildir.",
                 "already": "{username} kullanıcısı ile zaten bir sohbetiniz mevcut."
             },
             "user_modal_alert": "{username} özel mesajlaşmayı ayarlamış, şifreleri güvenli bir şekilde değiştirilemez.",
@@ -42,13 +43,13 @@
                 "messages_multiple": "{count} toplam mesaj",
                 "messages_single": "Yeni sohbet",
                 "start": "Sohbet Başlat",
-                "cant_start": "",
+                "cant_start": "Görüşme Başlatılamıyor",
                 "text_placeholder": "Mesajınızı yazın",
                 "send": "Mesaj Gönder",
-                "recovery_message": "",
-                "failed_message": "",
+                "recovery_message": "Sistem mesajı: Şifreleme senkronizasyonu kayboldu ve kurtarıldı",
+                "failed_message": "Mesajın şifresi çözülemedi, kurtarma yöntemi #{method} deneniyor",
                 "cant_send": "{username} yanıt verene kadar yeni bir mesaj gönderemezsiniz (yalnızca ilk mesaj için geçerli)",
-                "cant_send_toomany": "",
+                "cant_send_toomany": "Daha fazla mesaj göndermeden önce lütfen {username} yanıtını bekleyin",
                 "failed_to_decrypt": "[Şifre çözülürken hata oluştu]",
                 "start_of_conversation": "Sohbet Başlangıcı"
             }

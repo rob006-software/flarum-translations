@@ -2,34 +2,34 @@
     "flarum-nicknames": {
         "admin": {
             "permissions": {
-                "edit_own_nickname_label": ""
+                "edit_own_nickname_label": "Edytowanie własnego pseudonimu"
             },
             "settings": {
-                "max_label": "",
-                "min_label": "",
-                "regex_label": "",
-                "unique_label": ""
+                "max_label": "Maksymalna długość pseudonimu",
+                "min_label": "Minimalna długość pseudonimu",
+                "regex_label": "Wyrażenie regularne dla walidacji",
+                "unique_label": "Wymagaj unikalnych pseudonimów?"
             },
-            "wrong_driver": ""
+            "wrong_driver": "Musisz wybrać \"nickname\" jako sterownik, który powinien być używany do wyświetlania nazw użytkowników, na stronie <a><strong>podstawowych ustawień</strong></a>, aby to rozszerzenie zadziałało."
         },
         "api": {
-            "invalid_nickname_message": ""
+            "invalid_nickname_message": "Ten pseudonim jest nieprawidłowy. Skontaktuj się z administratorem forum, aby uzyskać więcej informacji na temat reguł dotyczących pseudonimów."
         },
         "forum": {
             "change_nickname": {
-                "submit_button": "",
-                "title": ""
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> flarum-nicknames.ref.change_nickname"
             },
             "edit_user": {
-                "nicknames_heading": "",
-                "nicknames_text": ""
+                "nicknames_heading": "=> flarum-nicknames.ref.change_nickname",
+                "nicknames_text": "Pseudonim"
             },
             "settings": {
-                "change_nickname_button": ""
+                "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
             }
         },
         "ref": {
-            "change_nickname": ""
+            "change_nickname": "Zmień pseudonim"
         }
     }
 }

@@ -2,7 +2,8 @@
     "fof-masquerade": {
         "forum": {
             "alerts": {
-                "profile-completion-required": "Lütfen aşağıdaki gerekli alanları doldurun.\n"
+                "profile-completion-required": "Lütfen aşağıdaki gerekli alanları doldurun.\n",
+                "profile-completed": "Profil tamamlandı! <a>Ana sayfaya gidin</a>"
             },
             "buttons": {
                 "view-profile": "Profili görüntüle",
@@ -20,7 +21,6 @@
             }
         },
         "admin": {
-            "title": "Masquerade",
             "general-options": "Genel ayarlar",
             "buttons": {
                 "add-field": "Alan oluştur",
@@ -30,9 +30,6 @@
             "permissions": {
                 "have-profile": "Masquerade profili var",
                 "view-profile": "Masquerade profilini görüntüle"
-            },
-            "menu": {
-                "description": "Kullanıcı profili alanlarını düzenle.\n"
             },
             "fields": {
                 "title": "Alanlar",
@@ -46,15 +43,15 @@
                 "on_bio": "Kullanıcı biyografisinde bu alana cevabı göster",
                 "type": "Tip",
                 "validation": "Doğrulama",
-                "validation-help": "Check the supported <a>Laravel validation rules</a>. Eg: \"string|min:5\" or \"url\".\n",
+                "validation-help": "Desteklenen <a>Laravel doğrulama kurallarını</a> kontrol edin. Çrn: \"string|min:5\" ya da \"url\".\n",
                 "prefix": "Alan ön eki",
                 "prefix-help": "Kullanıcının girdiği değerlerin önünde ön eki gösteerir.\n",
-                "icon": "İkon",
-                "icon-help": "Kullanıcının girdiği değerlerin önünde ikon gösterir. Mevcut ikonlar için <a>FontAwesome website</a> websitesini ziyaret edin. İkonları \"fa-\" ön eki ile kullanın Örn:\"fas fa-info\".\n",
-                "force-user-to-completion": "Force user to complete profile",
+                "icon": "Simge",
+                "icon-help": "Kullanıcının girdiği değerlerin önünde simge gösterir. Mevcut simgeler için <a>FontAwesome</a> websitesini ziyaret edin. Simgeleri \"fa-\" ön eki ile kullanın Örn: \"fas fa-info\".\n",
+                "force-user-to-completion": "Kullanıcıyı profilini tamamlamaya zorla",
                 "options": "Seçenekler",
                 "option-new": "Yeni seçenek",
-                "option-comma-warning": "",
+                "option-comma-warning": "Bir seçeneğin etiketi herhangi bir virgül (\",\") içeremez.",
                 "disable-user-bio": "Kullanıcı biyografisi kısmını devre dışı bırak",
                 "option-coma-warning": "Seçeneğin etiketi (\",\") işareti içeremez."
             },
@@ -64,6 +61,10 @@
                 "email": "E-posta",
                 "select": "Açılır menü",
                 "url": "Bağlantı"
+            },
+            "title": "Masquerade",
+            "menu": {
+                "description": "Kullanıcı profili alanlarını düzenle.\n"
             }
         }
     }

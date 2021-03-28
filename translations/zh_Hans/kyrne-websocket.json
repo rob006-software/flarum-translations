@@ -14,6 +14,7 @@
                 "app_port_label": "端口",
                 "app_host_label": "主机",
                 "app_id_label": "App ID",
+                "auto_update": "自动更新主题帖",
                 "app_key_label": "App Key",
                 "app_secret_label": "App Secret",
                 "secure": "强制 WebSocket WSS/HTTPS",
@@ -22,6 +23,7 @@
                 "auth_only": "仅向登录用户开放 Websocket"
             },
             "help": {
+                "auto_update": "即时更新全部主题列表，不再显示「有新内容」黄色横幅。",
                 "app_id": "Pusher App ID - 如果使用内置 WebSocket 服务器，请保持默认值。",
                 "app_key": "Pusher App Key - 如果使用内置 WebSocket 服务器，请保持默认值。",
                 "secret": "Pusher App Secret - 如果使用内置 WebSocket 服务器，请保持默认值。",

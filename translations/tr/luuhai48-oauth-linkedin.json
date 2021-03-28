@@ -4,16 +4,16 @@
             "settings": {
                 "providers": {
                     "linkedin": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "description": "https://linkedin.com/developers/apps/new adresinde bir uygulama oluşturun.",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     }
                 }
             }
         },
         "lib": {
             "providers": {
-                "linkedin": ""
+                "linkedin": "LinkedIn"
             }
         }
     }

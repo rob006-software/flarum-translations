@@ -17,7 +17,8 @@
                 "client_extension": "By default Upload will choose a safe file extension based on the MIME type.\nFor some file types based around ZIP or binary data this can result in generic extensions being used instead of the expected one.\nHere you can enter a comma-separated list of file extensions that will be kept verbatim.\n",
                 "watermark": "Choose whether images will have a watermark added during upload. Watermarks are added to non-gifs based on your preferences below.\n",
                 "s3_compatible_storage": "The following settings are only required when using S3 compatible storage. If you use AWS, you can leave them blank.\n",
-                "s3_acl": "The ACL that should be applied to the uploaded object (default: private). For possible values, see https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n"
+                "s3_acl": "The ACL that should be applied to the uploaded object (default: private). For possible values, see https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "composer_buttons": "By default both the media manager button and upload button are visible. You can also choose to display only one button.\n"
             },
             "labels": {
                 "aws-s3": {
@@ -71,11 +72,21 @@
                     "position": "Watermark position",
                     "title": "Watermark images",
                     "toggle": "Watermark images"
+                },
+                "composer_buttons": {
+                    "title": "Composer buttons",
+                    "options": {
+                        "both": "Both",
+                        "upload-btn": "Upload button only",
+                        "media-btn": "Media manager button only"
+                    }
                 }
             },
             "permissions": {
                 "download_label": "Download files",
-                "upload_label": "Upload files"
+                "upload_label": "Upload files",
+                "view_user_uploads_label": "View user uploads",
+                "delete_uploads_of_others_label": "Delete user uploads"
             },
             "templates": {
                 "file": "Default file download template",
@@ -96,8 +107,30 @@
             }
         },
         "forum": {
+            "media_manager": "Media manager",
             "buttons": {
-                "attach": "Attach"
+                "attach": "Attach",
+                "upload": "Upload",
+                "user_uploads": "User uploads",
+                "cancel": "Cancel",
+                "media": "My media"
+            },
+            "file_list": {
+                "loading": "Loading files...",
+                "empty": "There are no files to show.",
+                "release_to_upload": "Release to upload",
+                "modal_empty_desktop": "Your file list is empty. Click the button or drag a file here to upload.",
+                "modal_empty_phone": "Your file list is empty. Tap the button above to upload a file.",
+                "select_file_a11y_label": "Select file \"{fileName}\"",
+                "confirm_selection_btn": "Select file|Select files",
+                "load_more_files_btn": "Load more files",
+                "hide_file": {
+                    "btn_a11y_label": "Hide \"{fileName}\" from media manager",
+                    "hide_confirmation": "Are you sure you want to hide \"{fileName}\"? Hiding a file will only remove it from your media manager and will not affect existing posts.",
+                    "hide_success": "File hidden",
+                    "hide_fail": "Couldn't hide file \"{fileName}\"",
+                    "loading": "Hiding file..."
+                }
             },
             "states": {
                 "error": "Error",

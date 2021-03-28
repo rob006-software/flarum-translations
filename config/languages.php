@@ -14,8 +14,28 @@ declare(strict_types=1);
 use function rob006\flarum\translations\helpers\getComponents;
 
 return [
+	'es' => getComponents(),
+	'fr' => getComponents(),
+	'it' => getComponents(),
 	'ja' => getComponents(),
+	'ka' => getComponents(),
+	'nl' => getComponents(),
 	'pl' => getComponents(),
-	'tr' => getComponents(),
+	'tr' => getComponents([
+		// the-turk extensions have TR translations included
+		// @see https://github.com/rob006-software/flarum-translations/issues/425
+		'!the-turk-diff',
+		'!the-turk-edit-notifications',
+		'!the-turk-extended-appearance',
+		'!the-turk-fancybox',
+		'!the-turk-mathren',
+		'!the-turk-password-strength',
+		'!glowingblue-password-strength',
+		'!the-turk-quiet-edits',
+		'!the-turk-regrole',
+		'!the-turk-stargazing-theme',
+		'!the-turk-welcome-widgets',
+		'!ianm-regrole',
+	]),
 	'zh_Hans' => getComponents(),
 ];

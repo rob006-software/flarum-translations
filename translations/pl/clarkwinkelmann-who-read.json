@@ -4,10 +4,7 @@
             "tooltip": {
                 "last-read-at": "{username} odczytał {ago}",
                 "last-read-at-behind": "{username} ostatnio odczytał {ago} i ma zaległości",
-                "last-read-at-up-to-date": "{username} odczytał ostatni post {ago}",
-                "last_read_at": "",
-                "last_read_at_behind": "",
-                "last_read_at_up_to_date": ""
+                "last-read-at-up-to-date": "{username} odczytał ostatni post {ago}"
             },
             "more": {
                 "show": "Pokaż {count} więcej",
@@ -16,12 +13,7 @@
             "footer": {
                 "read-this-post": "{0} Nikt nie odczytał tego posta|{1} Jeden użytkownik odczytał ten post|]1,Inf] {count} użytkowników odczytało ten post",
                 "read-no-further": "{0} Wszyscy czytali dalej.|{1} Jeden użytkownik nie czytał dalej.|]1,Inf] {count} nie czytało dalej.",
-                "read-to-end": "{0} Nikt nie odczytał do końca|{1} Jeden użytkownik odczytał do końca|]1,Inf] {count} użytkowników odczytało do końca",
-                "to-here-some-stopped": "{total} użytkowników odczytało ten post. {stopped} nie czytało dalej.",
-                "to-here-none-stopped": "{total} użytkowników odczytało ten post. Wszyscy czytali dalej.",
-                "to-here-nobody": "Nikt nie odczytał tego posta",
-                "to-end": "{total} użytkowników odczytało do końca",
-                "to-end-nobody": "Nikt nie odczytał do końca"
+                "read-to-end": "{0} Nikt nie odczytał do końca|{1} Jeden użytkownik odczytał do końca|]1,Inf] {count} użytkowników odczytało do końca"
             },
             "controls": {
                 "set-unread": "Oznacz jako nieodczytane",
@@ -38,23 +30,17 @@
                 "past-this-post": "Użytkownicy, którzy odczytali dalej niż ten post",
                 "to-the-end": "Użytkownicy, którzy doczytali do końca",
                 "behind": "Użytkownicy, którzy nie doczytali do końca"
-            },
-            "show-more": "",
-            "stats": {
-                "to_end": "",
-                "to_at_least_here": ""
             }
         },
         "admin": {
             "permissions": {
-                "heading": "Kto odczytał",
                 "see-read": "Wyświetlanie kto odczytał",
                 "see-subscription": "Wyświetlanie kto obserwuje",
                 "see-unread": "Wyświetlanie kto oznaczył jako nieodczytane",
-                "mark-unread": "Oznaczanie dyskusji jako nieodczytanej"
+                "mark-unread": "Oznaczanie dyskusji jako nieodczytanej",
+                "heading": "Kto odczytał"
             },
             "settings": {
-                "title": "Ustawienia Kto odczytał",
                 "show-in-discussion-list": "Wyświetl na liście dyskusji informację, kto je odczytał",
                 "show-in-hero": "Wyświetl w nagłówku dyskusji informację, kto ją odczytał",
                 "show-between-posts": "Wyświetl pod każdym postem informację, kto go odczytał",
@@ -62,7 +48,8 @@
                 "hide-when-behind": "Ukryj użytkowników całkowicie, jeśli nie odczytali co najmniej tylu postów",
                 "max-visible": "Maksymalna liczba użytkowników wyświetlanych przed \"czytaj więcej\"",
                 "unread-icon": "Ikona dla oznaczonych jako nieodczytane",
-                "only-groups": "Pokaż status odczytania tylko dla użytkowników należących do tych grup"
+                "only-groups": "Pokaż status odczytania tylko dla użytkowników należących do tych grup",
+                "title": "Ustawienia Kto odczytał"
             }
         }
     }

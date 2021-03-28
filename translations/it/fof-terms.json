@@ -1,0 +1,74 @@
+{
+    "fof-terms": {
+        "admin": {
+            "settings": {
+                "title": "Impostazioni",
+                "field": {
+                    "signup-legal-text": "Testo aggiuntivo sul modulo di iscrizione",
+                    "hide-updated-at": "Non mostrare la data di aggiornamento dei termini quando è disponibile un aggiornamento",
+                    "date-format": "Formato data",
+                    "date-format-help": "Puoi utilizzare un formato valido <a>Day.js</a>. Lascia il campo vuoto per impostazione predefinita."
+                }
+            },
+            "titles": {
+                "policies": "Regole"
+            },
+            "buttons": {
+                "new-policy": "Nuovo Regolamento",
+                "edit-policy": "Modifica regolamento",
+                "add-policy": "Aggiungi Politica",
+                "save-policy": "Salva politica",
+                "delete-policy": "Cancella politica",
+                "set-to-now": "Impostato su adesso"
+            },
+            "messages": {
+                "delete-policy-confirmation": "Ciò eliminerà definitivamente il criterio {nome} e le date di accettazione associate dal database.. Assicurati di aver eseguito un backup di questi dati se ne hai bisogno per motivi legali. Sei sicuro di voler eliminare questa policy?\n"
+            },
+            "policies": {
+                "name": "Nome",
+                "name-help": "Questo nome verrà mostrato accanto alla casella di controllo e come titolo del modale di aggiornamento.",
+                "url": "URL",
+                "url-help": "L'URL della pagina in cui puoi leggere i termini. Si aprirà in una nuova scheda quando si fa clic.",
+                "update-message": "Aggiorna messaggio",
+                "update-message-help": "Un messaggio da mostrare agli utenti esistenti che non hanno ancora accettato i termini più recenti.",
+                "terms-updated-at": "Aggiornato il",
+                "terms-updated-at-placeholder": "YYYY-MM-DD (hh:mm:ss)",
+                "terms-updated-at-help": "La data dell'ultimo aggiornamento dei termini. L'impostazione di questo valore richiederà a tutti gli utenti che hanno accettato prima di tale data di accettare nuovamente. Deve essere nel passato (altrimenti gli utenti non sarebbero mai in grado di accettare dopo la data e superare il modale).\n",
+                "export-url": "Esporta URL",
+                "export-url-help": "Qualsiasi utente con l'autorizzazione \"Esporta tutti i dati dei criteri\" può accedere a tali URL per scaricare l'elenco degli utenti che hanno accettato questa norma. Puoi trovare maggiori dettagli sulle opzioni disponibili in <a>extension wiki</a>.\n"
+            },
+            "permissions": {
+                "see-user-policies-state": "Visualizzare lo stato dei criteri utente",
+                "postpone-policies-accept": "Può posticipare l'accettazione dei nuovi termini",
+                "export-policies": "Esporta tutti i dati di utenti e criteri"
+            }
+        },
+        "forum": {
+            "signup": {
+                "i-accept": "Accetto le <a>{policy}</a>",
+                "must-accept": "La {policy} deve essere accettata."
+            },
+            "accept-modal": {
+                "title": "Aggiornamento dei termini",
+                "updated-at": "I termini sono stati aggiornati il {date}",
+                "updated-recently": "I termini sono stati aggiornati dalla tua ultima visita",
+                "i-accept": "Accetto i nuovi <a>{policy}</a>",
+                "accept": "Conferma",
+                "close": "Puoi ora chiudere questo modale"
+            },
+            "state-modal": {
+                "title": "Stato accettazione termini per utente {username}",
+                "accepted-at": "Accettato {date}",
+                "not-accepted": "Non accettato"
+            },
+            "update-alert": {
+                "must-accept-message": "Abbiamo temporaneamente limitato l'accesso al tuo account durante la verifica dei nuovi termini.",
+                "can-accept-message": "Di recente abbiamo aggiornato i termini. È necessario accettarli per continuare a utilizzare questo sito Web.",
+                "review": "Fare clic qui per esaminare e accettare i nuovi termini"
+            },
+            "user_controls": {
+                "state_button": "I termini accettano lo stato"
+            }
+        }
+    }
+}

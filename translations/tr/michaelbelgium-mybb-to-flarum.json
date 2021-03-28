@@ -1,37 +1,37 @@
 {
     "michaelbelgium-mybb-to-flarum": {
         "admin": {
-            "nav": {
-                "title": "",
-                "description_text": ""
-            },
             "content": {
-                "description_text": "",
-                "convert_button": "",
+                "description_text": "Bir Mybb forumunu bu Flarum örneğine dönüştürün. Gerekli verileri doldurun, ardından \"İçe Aktar\" düğmesine tıklayın.",
+                "convert_button": "İçe Aktar",
                 "form": {
                     "general": {
-                        "title": "",
-                        "migrate_avatars_label": "",
-                        "migrate_soft_threads_label": "",
-                        "migrate_soft_posts_label": ""
+                        "title": "Genel Ayarlar",
+                        "migrate_avatars_label": "Avatarları aktar",
+                        "migrate_soft_threads_label": "Gereksiz olarak silinen konuları içe aktarma",
+                        "migrate_soft_posts_label": "Geri yüklenebilir şekilde silinen yayınları içe aktarma"
                     },
                     "mybb": {
-                        "title": "",
-                        "host_label": "",
-                        "user_label": "",
-                        "password_label": "",
-                        "db_label": "",
-                        "prefix_label": "",
-                        "path_label": ""
+                        "title": "MyBB ayarları",
+                        "host_label": "Veritabanı barındırıcısı",
+                        "user_label": "Veritabanı kullanıcısı",
+                        "password_label": "Veritabanı kullanıcısı",
+                        "db_label": "Veri tabanı ismi",
+                        "prefix_label": "Tablo öneki",
+                        "path_label": "MyBB dizini"
                     },
                     "options": {
-                        "title": "",
-                        "migrate_users_label": "",
-                        "migrate_threadsPosts_label": "",
-                        "migrate_userGroups_label": "",
-                        "migrate_categories_label": ""
+                        "title": "Genel içe aktarma seçenekleri",
+                        "migrate_users_label": "Kullanıcıları içe aktar",
+                        "migrate_threadsPosts_label": "İleti dizilerini ve gönderileri içe aktarın",
+                        "migrate_userGroups_label": "Kullanıcı gruplarını içe aktarın",
+                        "migrate_categories_label": "Kategorileri içe aktarın"
                     }
                 }
+            },
+            "nav": {
+                "title": "MyBB'den Flarum'a",
+                "description_text": "Bir MyBB forumunu bu Flarum örneğine dönüştürün"
             }
         }
     },

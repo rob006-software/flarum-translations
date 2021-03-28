@@ -1,0 +1,93 @@
+{
+    "flarum-tags": {
+        "admin": {
+            "basics": {
+                "tags_label": "=> flarum-tags.ref.tags"
+            },
+            "edit_tag": {
+                "color_label": "=> core.ref.color",
+                "delete_tag_button": "Verwijder categorie",
+                "delete_tag_confirmation": "Weet je zeker dat je deze categorie wilt verwijderen? De bijbehorende discussie zal NIET worden verwijdert.",
+                "description_label": "Beschrijving",
+                "hide_label": "Verbergen voor alle discussies",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "=> flarum-tags.ref.name",
+                "name_placeholder": "=> flarum-tags.ref.name",
+                "slug_label": "Link",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Nieuwe categorie"
+            },
+            "nav": {
+                "tags_button": "=> flarum-tags.ref.tags",
+                "tags_text": "Beheer de lijst met beschikbare categorieën om je discussies mee te organiseren."
+            },
+            "permissions": {
+                "allow_edit_tags_label": "Categorie bewerken toestaan",
+                "bypass_tag_counts_label": "",
+                "restrict_by_tag_heading": "Beperken per categorie",
+                "tag_discussions_label": "Discussies categoriseren"
+            },
+            "tag_settings": {
+                "range_separator_text": " tot ",
+                "required_primary_heading": "Vereist aantal primaire categorieën",
+                "required_primary_text": "Kies het minimale en maximale aantal van primaire categorieën die aan discussie toegevoegd mogen worden.",
+                "required_secondary_heading": "Vereist aantal secundaire categorieën",
+                "required_secondary_text": "Kies het minimale en maximale aantal van secundaire categorieën die aan discussie toegevoegd mogen worden.",
+                "title": "Categorieën"
+            },
+            "tags": {
+                "about_tags_text": "categorieën worden gebruikt voor het indelen van discussies. Primaire categorieën lijken op traditionele forum categorieën: ze kunnen worden gerangschikt op een twee-lagen hierarchie. Secondaire categorieën hebben geen hierarchie of volgorde en zijn erg handig voor micro-categorisatie.",
+                "create_primary_tag_button": "Maak primaire categorie",
+                "create_secondary_tag_button": "Maak secondaire categorie",
+                "primary_heading": "Primaire categorieën",
+                "secondary_heading": "Secundaire categorieën",
+                "settings_heading": "",
+                "settings_button": "Instellingen"
+            }
+        },
+        "forum": {
+            "all_tags": {
+                "meta_description_text": "Alle tags",
+                "meta_title_text": "=> flarum-tags.ref.tags"
+            },
+            "choose_tags": {
+                "choose_primary_placeholder": "Kies een primaire categorie|Kies {count} primaire categorieën",
+                "choose_secondary_placeholder": "Kies nog 1 extra categorie|Kies nog {count} extra categorieën",
+                "edit_title": "Categorieën bijwerken voor {title}",
+                "submit_button": "=> core.ref.okay",
+                "title": "Kies categorieën voor je discussie"
+            },
+            "composer_discussion": {
+                "choose_tags_link": "Kies categorie"
+            },
+            "discussion_controls": {
+                "edit_tags_button": "Categorieën bijwerken"
+            },
+            "header": {
+                "back_to_tags_tooltip": "Terug naar categorielijst"
+            },
+            "index": {
+                "more_link": "Meer...",
+                "tags_link": "=> flarum-tags.ref.tags",
+                "untagged_link": "Geen categorie"
+            },
+            "post_stream": {
+                "added_and_removed_tags_text": "{username} heeft de {tagsAdded} toegevoegd en de {tagsRemoved} verwijderd.",
+                "added_tags_text": "{username} heeft de {tagsAdded} toegevoegd.",
+                "removed_tags_text": "{username} heeft de {tagsRemoved} verwijderd.",
+                "tags_text": "{tags} categorie|{tags} categorieën"
+            },
+            "tag": {
+                "meta_description_text": "Alle discussies met de tag {tag}"
+            }
+        },
+        "lib": {
+            "deleted_tag_text": "Verwijderd"
+        },
+        "ref": {
+            "name": "Naam",
+            "tags": "Categorieën"
+        }
+    }
+}

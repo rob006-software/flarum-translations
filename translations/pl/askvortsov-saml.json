@@ -1,13 +1,18 @@
 {
     "askvortsov-saml": {
         "admin": {
+            "header": {
+                "text": "Upewnij się, że metadane lub URL z metadanymi są uzupełnione."
+            },
             "title": "Konfiguracja SAML2 SSO",
             "labels": {
                 "idp_metadata_url": "URL z metadanymi dostawcy tożsamości (alternatywa dla XML)",
                 "idp_metadata": "XML z metadanymi dostawcy tożsamości (alternatywa dla URL)",
                 "only_option": "Użyj SAML2 SSO jako jedynej opcji logowania?",
                 "sync_attributes": "Synchronizuj atrybuty (awatar, grupy, opis w profilu oraz pola profilu)? Wymaga rozszerzenia <code>askvortsov/auth-sync</code>.",
-                "nameid_format": "NameID Format"
+                "nameid_format": "NameID Format",
+                "want_assertions_signed": "Czy asercje powinny być podpisane?",
+                "want_messages_signed": "Czy wiadomości powinny być podpisane?"
             },
             "options": {
                 "nameid_format": {

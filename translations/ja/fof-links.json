@@ -4,7 +4,10 @@
             "edit_link": {
                 "delete_link_button": "リンクを削除",
                 "delete_link_confirmation": "このリンクを削除してもよろしいですか？",
+                "everyone-label": "",
+                "guests-label": "",
                 "internal_link": "これは Flarum リンクですか？オンにすると、ユーザーがこのリンクにアクセスしたときに、ナビゲーションバーでこのリンクが強調表示されます。",
+                "members-label": "",
                 "open_newtab": "新しいタブで開く",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> fof-links.ref.create_link",
@@ -13,7 +16,9 @@
                 "icon_label": "",
                 "icon_text": "",
                 "url_label": "=> fof-links.ref.url",
-                "url_placeholder": "=> fof-links.ref.url"
+                "url_placeholder": "=> fof-links.ref.url",
+                "visibility": "",
+                "registered_only": ""
             },
             "links": {
                 "create_button": "=> fof-links.ref.create_link",

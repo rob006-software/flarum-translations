@@ -1,0 +1,116 @@
+{
+    "fof-webhooks": {
+        "actions": {
+            "discussion": {
+                "started": "公開されたトピック `{1}`",
+                "renamed": {
+                    "title": "名前を変更したトピック `{1}`",
+                    "description": "新しいタイトル: {1}"
+                },
+                "hidden": "非表示のトピック `{1}`",
+                "restored": "テーマが復元されました `{1}`",
+                "deleted": "削除されたトピック `{1}`"
+            },
+            "group": {
+                "created": "グループを追加しました `{1}`",
+                "renamed": "グループの名前を変更しました `{1}`",
+                "deleted": "削除されたグループ`{1}`"
+            },
+            "post": {
+                "posted": "「返信先」を追加 `{1}`",
+                "revised": "「返信先」を編集 `{1}`",
+                "hidden": "「返信先」を非表示 `{1}`",
+                "restored": "「返信先」に復元 `{1}`",
+                "deleted": "「返信先」を削除しました `{1}`"
+            },
+            "user": {
+                "registered": "メンバーを追加しました",
+                "renamed": {
+                    "title": "メンバー名が `{1}` に変更されました",
+                    "description": "新しいメンバー名: {1}"
+                },
+                "deleted": "削除されたメンバー `{1}`"
+            }
+        },
+        "adapters": {
+            "errors": {
+                "404": "Webhook が見つかりません"
+            }
+        },
+        "admin": {
+            "errors": {
+                "service_not_found": "サービス '{service}' が見つかりませんでした。",
+                "url_invalid": "選択したサービスの URL が無効です。"
+            },
+            "nav": {
+                "desc": "フォーラムにカスタム webhook を設定します。"
+            },
+            "settings": {
+                "item": {
+                    "tag_any_label": ""
+                },
+                "help": {
+                    "disabled": "イベントが有効になっていないため、この webhook は無効になっています。",
+                    "general": "ここで、webhook を追加、編集、削除できます。",
+                    "url": "Webhook はエンドポイントを実行します。"
+                },
+                "modal": {
+                    "title": "Webhook 設定",
+                    "description": "ここで、webhook によって呼び出されるイベントを変更できます。",
+                    "use_plain_text_label": "",
+                    "max_post_content_length_label": "",
+                    "max_post_content_length_help": "",
+                    "extra_text_label": "",
+                    "extra_text_help": "",
+                    "group_label": "",
+                    "group_help": "",
+                    "events_label": ""
+                },
+                "services": {
+                    "discord": "Discord",
+                    "slack": "Slack",
+                    "microsoft-teams": ""
+                },
+                "actions": {
+                    "flarum": {
+                        "discussion": {
+                            "title": "Flarum テーマ",
+                            "started": "追加しました",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "hidden": "=> fof-webhooks.ref.hidden",
+                            "restored": "=> fof-webhooks.ref.restored",
+                            "deleted": "=> fof-webhooks.ref.deleted"
+                        },
+                        "group": {
+                            "title": "Flarum グループ",
+                            "created": "追加しました",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "deleted": "=> fof-webhooks.ref.deleted"
+                        },
+                        "post": {
+                            "title": "Flarum 返信",
+                            "posted": "返信済み",
+                            "revised": "編集済み",
+                            "hidden": "=> fof-webhooks.ref.hidden",
+                            "restored": "=> fof-webhooks.ref.restored",
+                            "deleted": "=> fof-webhooks.ref.deleted"
+                        },
+                        "user": {
+                            "title": "Flarum メンバー",
+                            "registered": "登録済み",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "deleted": "=> fof-webhooks.ref.deleted"
+                        }
+                    }
+                },
+                "title": "Webhooks"
+            }
+        },
+        "ref": {
+            "deleted": "削除しました",
+            "hidden": "非表示",
+            "renamed": "名前変更",
+            "restored": "復元済み"
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "flarum-lock": {
+        "admin": {
+            "permissions": {
+                "lock_discussions_label": "Discussie sluiten"
+            }
+        },
+        "forum": {
+            "badge": {
+                "locked_tooltip": "Gesloten"
+            },
+            "discussion_controls": {
+                "lock_button": "Sluiten",
+                "unlock_button": "Openen"
+            },
+            "notifications": {
+                "discussion_locked_text": "{username} heeft gesloten"
+            },
+            "post_stream": {
+                "discussion_locked_text": "{username} heeft de discussie gesloten.",
+                "discussion_unlocked_text": "{username} heeft de discussie geopent."
+            },
+            "settings": {
+                "notify_discussion_locked_label": "Iemand sluit de discussie die ik heb gestart"
+            }
+        }
+    }
+}

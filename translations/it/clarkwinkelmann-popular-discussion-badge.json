@@ -1,0 +1,38 @@
+{
+    "clarkwinkelmann-popular-discussion-badge": {
+        "forum": {
+            "badge_label": "Popolare"
+        },
+        "admin": {
+            "settings": {
+                "mode": "Modalità di operazione",
+                "mode_help": "La modalità Frontend è una soluzione efficiente che non utilizza il database. La modalità Programmata richiede una configurazione CRON e consente di impostare intervalli di tempo come condizioni.\n",
+                "mode_options": {
+                    "frontend": "",
+                    "scheduler": "Programmata (CRON)"
+                },
+                "scheduler_frequency": "Frequenza per la modalità programmata",
+                "scheduler_frequency_help": "La frequenza con cui lo stato di popolarità verrà aggiornato in modalità Programmata (CRON). (In modalità Frontend, lo stato viene sempre aggiornato immediatamente)\n",
+                "scheduler_frequency_options": {
+                    "everyFiveMinutes": "Ogni 5 minuti",
+                    "everyTenMinutes": "Ogni 10 minuti",
+                    "everyFifteenMinutes": "Ogni 15 minuti",
+                    "everyThirtyMinutes": "Ogni 30 minuti",
+                    "hourly": "Ogni ora"
+                },
+                "conditions": "Condizioni per il badge Popolare",
+                "conditions_help": "Commenti è il numero totale di risposte, incluso il primo post. Le visualizzazioni vengono ottenute dalle estensioni MichaelBelgium o Flarumite. Il periodo di tempo impostato verrà utilizzato per contare i commenti o le visualizzazioni nelle ultime n ore. Solo l'estensione MichaelBelgium è supportata per le visualizzazioni a intervalli di tempo. Lascia vuoto il periodo di tempo o imposta 0 ore per contare tutti i commenti e le visualizzazioni complessive.\n",
+                "add": "Aggiungi un'altra condizione",
+                "comments": "Commenti",
+                "comments_placeholder": "",
+                "views": "Visite",
+                "views_placeholder": "",
+                "within": "entro",
+                "within_placeholder": "sempre",
+                "hours": "",
+                "and": "",
+                "or": ""
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "flarum-mentions": {
+        "forum": {
+            "composer": {
+                "mention_tooltip": "Menziona un utente o un messaggio",
+                "reply_to_post_text": "Rispondi a #{number}"
+            },
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_mentioned_text": "{username} ha risposto al tuo messaggio|{username} hanno risposto al tuo messaggio",
+                "user_mentioned_text": "{username} ti ha menzionato"
+            },
+            "post": {
+                "mentioned_by_self_text": "{users} hai risposto a questo messaggio|{users} hanno risposto a questo messaggio.",
+                "mentioned_by_text": "{users} ha risposto a questo messaggio|{users} hanno risposto a questo messaggio.",
+                "others_text": "=> core.ref.some_others",
+                "quote_button": "Menziona",
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
+            },
+            "settings": {
+                "notify_post_mentioned_label": "Qualcuno ha risposto a un mio messaggio",
+                "notify_user_mentioned_label": "Qualcuno ha menzionato un mio messaggio"
+            },
+            "user": {
+                "mentions_link": "Menzioni"
+            }
+        },
+        "email": {
+            "post_mentioned": {
+                "subject": "{replier_display_name} ha risposto a un tuo post in {title}",
+                "body": "Ciao {recipient_display_name}!\n\n{replier_display_name} ha risposto a un tuo post (#{post_number}) nella discussione {title}.\n\n{url}\n\n---\n\n{content}\n"
+            },
+            "user_mentioned": {
+                "subject": "{mentioner_display_name} ti ha menzionato in {title}",
+                "body": "Ciao {recipient_display_name}!\n\n{mentioner_display_name} ti ha menzionato in un post nella discussione {title}.\n\n{url}\n\n---\n\n{content}\n"
+            }
+        }
+    }
+}

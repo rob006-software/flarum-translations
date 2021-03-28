@@ -10,6 +10,7 @@
                 "desc": "配置缓存设置。"
             },
             "page": {
+                "heading": "设置",
                 "connection_failed": "连接失败。",
                 "switches": {
                     "cache": "启用缓存",
@@ -17,8 +18,6 @@
                     "avatar": "启用图片优化",
                     "lazy": "启用图片懒加载"
                 },
-                "heading": "ReCache",
-                "text": "在下面配置当前活动的缓存驱动。可以随时预先配置任何\n可用的其他驱动程序，之后再切换。\n",
                 "redis": {
                     "label": "Redis",
                     "check": "保存前检查连接状态！",
@@ -30,7 +29,8 @@
                     "fillin": "请完整填写 Redis 表单",
                     "success": "已成功连接至 Redis 服务器。"
                 },
-                "check_button": "检查"
+                "check_button": "检查",
+                "text": "在下面配置当前活动的缓存驱动。可以随时预先配置任何\n可用的其他驱动程序，之后再切换。\n"
             }
         }
     }

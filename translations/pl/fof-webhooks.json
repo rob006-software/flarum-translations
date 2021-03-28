@@ -1,0 +1,116 @@
+{
+    "fof-webhooks": {
+        "actions": {
+            "discussion": {
+                "started": "Rozpoczęto dyskusję `{1}`",
+                "renamed": {
+                    "title": "Zmieniono nazwę dyskusji `{1}`",
+                    "description": "Nowy tytuł: {1}"
+                },
+                "hidden": "Ukryto dyskusję `{1}`",
+                "restored": "Przywrócono dyskusję `{1}`",
+                "deleted": "Usunięto dyskusję `{1}`"
+            },
+            "group": {
+                "created": "Utworzono grupę `{1}`",
+                "renamed": "Zmieniono nazwę grupy na `{1}`",
+                "deleted": "Usunięto grupę `{1}`"
+            },
+            "post": {
+                "posted": "Nowy post w `{1}`",
+                "revised": "Edytowano post w `{1}`",
+                "hidden": "Ukryto post w `{1}`",
+                "restored": "Przywrócono post w `{1}`",
+                "deleted": "Usunięto post w `{1}`"
+            },
+            "user": {
+                "registered": "Zarejestrował się nowy użytkownik",
+                "renamed": {
+                    "title": "Zmieniono nazwę użytkownika dla `{1}`",
+                    "description": "Nowa nazwa użytkownika: {1}"
+                },
+                "deleted": "Usunięto użytkownika `{1}`"
+            }
+        },
+        "adapters": {
+            "errors": {
+                "404": "Webhook nie został znaleziony"
+            }
+        },
+        "admin": {
+            "errors": {
+                "service_not_found": "Usługa \"{service}\" nie została odnaleziona.",
+                "url_invalid": "Ten adres URL jest nieprawidłowy dla wybranej usługi."
+            },
+            "nav": {
+                "desc": "Konfigurowalne wychodzące webhooki dla Twojego forum."
+            },
+            "settings": {
+                "item": {
+                    "tag_any_label": "Dowolny"
+                },
+                "help": {
+                    "disabled": "Ten webhook jest wyłączony, ponieważ nie ma żadnych aktywnych zdarzeń.",
+                    "general": "Tutaj możesz dodać, edytować oraz usuwać webhooki dla swojego forum.",
+                    "url": "Docelowy adres URL webhooka"
+                },
+                "modal": {
+                    "title": "Ustawienia webhooka",
+                    "description": "Tutaj możesz ustawić dla jakich zdarzeń webhook będzie wywoływany.",
+                    "use_plain_text_label": "Ogranicz formatowanie treści posta",
+                    "max_post_content_length_label": "Maksymalna długość treści posta",
+                    "max_post_content_length_help": "Ustaw limit długości treści posta dla wszystkich zdarzeń powiązanych z postami. Ustaw zero lub pozostaw pole puste, aby usunąć limit.",
+                    "extra_text_label": "Dodatkowy tekst",
+                    "extra_text_help": "Dodatkowy tekst, który zostanie dołączony podczas wysyłania webhooka.",
+                    "group_label": "Grupa",
+                    "group_help": "Wyślij zasoby, do których ma dostęp ta grupa",
+                    "events_label": "Zdarzenia"
+                },
+                "services": {
+                    "discord": "Discord",
+                    "slack": "Slack",
+                    "microsoft-teams": "Microsoft Teams"
+                },
+                "actions": {
+                    "flarum": {
+                        "discussion": {
+                            "title": "Dyskusje",
+                            "started": "Rozpoczęto",
+                            "renamed": "Zmieniono nazwę",
+                            "hidden": "Ukryto",
+                            "restored": "Przywrócono",
+                            "deleted": "Usunięto"
+                        },
+                        "group": {
+                            "title": "Grupy",
+                            "created": "Utworzono",
+                            "renamed": "Zmieniono nazwę",
+                            "deleted": "Usunięto"
+                        },
+                        "post": {
+                            "title": "Posty",
+                            "posted": "Nowy post",
+                            "revised": "Edytowano",
+                            "hidden": "Ukryto",
+                            "restored": "Przywrócono",
+                            "deleted": "Usunięto"
+                        },
+                        "user": {
+                            "title": "Użytkownicy",
+                            "registered": "Rejestracja",
+                            "renamed": "Zmieniono nazwę",
+                            "deleted": "Usunięto"
+                        }
+                    }
+                },
+                "title": "Webhooki"
+            }
+        },
+        "ref": {
+            "deleted": "Usunięto",
+            "hidden": "Ukryto",
+            "renamed": "Zmieniono nazwę",
+            "restored": "Przywrócono"
+        }
+    }
+}

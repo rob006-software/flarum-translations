@@ -2,15 +2,8 @@
     "itnt-uitab": {
         "admin": {
             "settings": {
-                "requirement": "The UI Tab extension must be enabled after <code>flagrow/direct-links</code> extension to work",
-                "title": "UI Tab Settings",
-                "tags_title": "Subdirectory Definition",
-                "help_text": "If your Flarum is installed in a subdirectory, prefix the link below with your subdirectory, otherwise please keep and save the default value. e.g. <code>/ → /bbs</code>, <code>/tags → /bbs/tags</code>",
-                "home_page_label": "Home",
-                "tags_page_label": "Tags",
-                "create_page_label": "Create",
-                "settings_page_label": "Settings",
-                "notifications_page_label": "Notifications"
+                "help_text": "If your Flarum is installed in a subdirectory, please specify the subdirectory below (end with a slash), otherwise please leave the default value. e.g. <code>/sub/</code>",
+                "home_page_label": "Subdirectory"
             }
         }
     }

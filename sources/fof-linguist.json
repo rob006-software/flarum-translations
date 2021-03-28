@@ -1,11 +1,21 @@
 {
     "fof-linguist": {
         "admin": {
+            "tabs": {
+                "strings": "Translations",
+                "coverage": "Coverage",
+                "export": "Export",
+                "import": "Import"
+            },
             "buttons": {
                 "apply": "Apply",
                 "reset": "Restore original",
                 "copy-original": "Copy original text",
-                "load-more": "Load more"
+                "load-more": "Load more",
+                "delete-redundant": "Delete redundant translations",
+                "delete-redundant-confirm": "This will delete {count} translations that have identical original and custom values. This can be useful to clean up after a language pack update.\n",
+                "delete-all": "Delete all translations",
+                "delete-all-confirm": "This will delete ALL of your {count} custom translations. Make sure you have exported or backed up everything you might have wanted to keep.\n"
             },
             "locales": {
                 "all": "All"
@@ -29,13 +39,78 @@
                     "original": "Original",
                     "own": "Custom"
                 },
+                "operation-options": {
+                    "or": "Either of",
+                    "and": "All of"
+                },
                 "for-extension": "For extension",
-                "for-extension-unavailable": "No translations were found in the expected namespace \"{namespace}\". Maybe this extension doesn't have any text to translate or is using a different namespace. Try using the search field to locate its translations.\n",
+                "frontend": "For frontend",
+                "frontend-all-except-admin": "All except Admin",
+                "mass-edit": "Mass edit",
                 "results": "Showing {shown} of {total} matching translations"
             },
             "clear-cache": {
                 "text": "New translations have not yet been applied. Note: clearing the cache can momentarily slow down your forum.\n",
                 "button": "Clear cache now"
+            },
+            "coverage": {
+                "column-options": {
+                    "locale": "By language",
+                    "namespace": "By frontend"
+                },
+                "total-options": {
+                    "percent": "Percent",
+                    "count": "Count"
+                },
+                "columns": {
+                    "namespace": "Namespace",
+                    "total": "Total",
+                    "all-except-admin": "Forum and other frontends",
+                    "all-frontends": "Show all frontends"
+                },
+                "count": {
+                    "percent": "{percent} %",
+                    "total": "{translated} / {total}",
+                    "details": "{total} total / {original} original / {custom} custom"
+                },
+                "all-namespaces": "All",
+                "apply-missing-filter": "Show matching missing translations"
+            },
+            "export": {
+                "title": "Export",
+                "warning": "The export format uses Flarum's Yaml-based translation files and is designed to share translations between forums and with language pack maintainers. The format is not designed to move all translations to a new forum. Depending on your use case, copying the database directly might be a better idea.\n",
+                "locale": "Locale",
+                "locale-all": "Pseudo-locale \"All\"",
+                "namespace": "Namespace",
+                "namespace-all": "All",
+                "include-originals": "Include original translations",
+                "include-all": "Include translations defined for \"All\" languages",
+                "output": "Output",
+                "output-loading": "Loading output...",
+                "output-empty": "Empty output",
+                "download": "Download"
+            },
+            "import": {
+                "title": "Import",
+                "input": "Input",
+                "input-placeholder": "Drag and drop or paste a Yaml file here",
+                "locale": "Locale",
+                "locale-all": "Pseudo-locale \"All\"",
+                "override-existing": "Override my existing custom translations",
+                "submit": "Import",
+                "results": "The import is finished. {imported} strings have been imported and {identical} identical strings were skipped. The page will now refresh to show the new translations.\n",
+                "results-with-ignore": "The import is finished. {imported} strings have been imported, {ignored} existing strings have been ignored and {identical} identical strings were skipped. The page will now refresh to show the new translations.\n"
+            },
+            "known-namespace": {
+                "core": "Flarum Core",
+                "validation": "Validation Errors"
+            },
+            "known-frontend": {
+                "forum": "Forum",
+                "admin": "Admin",
+                "lib": "Lib (used on both Forum and Admin)",
+                "ref": "Ref (re-used in other keys)",
+                "api": "API"
             }
         }
     }

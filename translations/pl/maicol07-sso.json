@@ -6,11 +6,20 @@
                 "signup_url": "URL rejestracji",
                 "login_url": "URL logowania",
                 "logout_url": "URL wylogowania",
-                "disable_login_btn": "Wyłącz przycisk logowania",
-                "disable_signup_btn": "Wyłącz przycisk rejestracji",
+                "remove_login_btn": "Usuń przycisk logowania",
+                "remove_signup_btn": "Usuń przycisk rejestracji",
+                "manage_account_url": "URL panelu do zarządzania kontem",
+                "manage_account_btn_open_in_new_tab": "Utwórz panel do zarządzania kontem w nowej karcie",
+                "jwt_section_subtitle": "Ustawienia JWT",
                 "jwt_iss": "Issuer Domain",
-                "jwt_signer_key": "Signer key"
+                "jwt_signer_key": "Signer key",
+                "jwt_signing_algorithm": "Signing Method",
+                "disable_login_btn": "Wyłącz przycisk logowania",
+                "disable_signup_btn": "Wyłącz przycisk rejestracji"
             }
+        },
+        "forum": {
+            "manage_account_btn": "Zarządzaj kontem"
         }
     }
 }
