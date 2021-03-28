@@ -408,6 +408,9 @@ return [
 	'glowingblue-password-strength' => [
 		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-password-strength/2.0.1/locale/en.yml',
 	],
+	'ianm-diff' => [
+		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-diff/2.1.0/locale/en.yml',
+	],
 	'ianm-follow-users' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/follow-users/0.2.0/resources/locale/en.yml',
 	],
