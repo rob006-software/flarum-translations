@@ -427,7 +427,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/HiQStd/flarum-ext-close/v1.0.0/resources/locale/en.yml',
 	],
 	'ianm-diff' => [
-		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-diff/2.0.0-beta.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-diff/2.1.0/locale/en.yml',
 	],
 	'irony-bing-wallpaper' => [
 		'tag' => 'https://raw.githubusercontent.com/892768447/flarum-ext-bing-wallpaper/0.0.2/resources/locale/en.yml',
