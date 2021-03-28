@@ -21,15 +21,15 @@
                 "monochrome": "Szary"
             },
             "text_color": {
-                "label": "",
+                "label": "Kolor tekstu",
                 "options": {
-                    "default": "",
-                    "theme_primary_color": "",
-                    "theme_secondary_color": "",
-                    "custom": ""
+                    "default": "Domyślny",
+                    "theme_primary_color": "Główny kolor motywu",
+                    "theme_secondary_color": "Drugorzędny kolor motywu",
+                    "custom": "Niestandardowy kolor"
                 },
-                "custom_label": "",
-                "custom_helptext": ""
+                "custom_label": "Niestandardowy kolor tekstu",
+                "custom_helptext": "Wpisz kod HEX koloru (włącznie z \"#\"), rgb(a) lub hls(a)."
             },
             "generate_color_button": "Wygeneruj losowy kolor"
         }
