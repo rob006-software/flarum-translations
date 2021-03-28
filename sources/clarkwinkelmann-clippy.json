@@ -1,0 +1,25 @@
+{
+    "clarkwinkelmann-clippy": {
+        "admin": {
+            "settings": {
+                "cdn": "CDN",
+                "cdn-options": {
+                    "s3": "Amazon S3",
+                    "jsdelivr": "jsDelivr",
+                    "custom": "Custom"
+                },
+                "path": "Custom CDN Path",
+                "path-help": "A fully qualified URL without trailing slash to a folder containing the content of the <a>clippy.js repository</a>.",
+                "agent": "Agent",
+                "agent-help": "Each agent has a different set of animations. Changing agent will delete all incompatible animations from your settings.",
+                "events": "Events",
+                "events-help": "Choose which animations and speach bubble to display on each of these events"
+            },
+            "events": {
+                "name": "Event",
+                "animation": "Animation",
+                "text": "Text"
+            }
+        }
+    }
+}
