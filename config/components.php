@@ -568,7 +568,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/v17development-support.yml',
 	],
 	'webbinaro-adkhomepage' => [
-		'tag' => 'https://raw.githubusercontent.com/eddiewebb/flarum-adkhomepage/0.0.2/locale/en.yaml',
+		'tag' => 'https://raw.githubusercontent.com/eddiewebb/flarum-adkhomepage/0.0.3/locale/en.yaml',
 	],
 	'xelson-chat' => [
 		'tag' => 'https://raw.githubusercontent.com/Xelson/flarum-ext-chat/v1.0.0-beta.5/resources/locale/en.yaml',
