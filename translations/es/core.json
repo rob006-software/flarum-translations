@@ -447,12 +447,12 @@
                 "toggle_dropdown_accessible_label": ""
             },
             "error": {
-                "dependent_extensions_message": "",
+                "dependent_extensions_message": "No se puede desactivar {extension} hasta que se desactiven las siguientes extensiones dependientes : {extensions}",
                 "generic_message": "¡Caramba! Algo salió mal. Por favor, carga de nuevo la página y vuelve a intentarlo.",
-                "missing_dependencies_message": "",
+                "missing_dependencies_message": "No se puede activar {extension} hasta que se activen las siguientes extensiones dependientes: {extensions}",
                 "not_found_message": "¡Recórcholis! El recurso solicitado no fue encontrado.",
                 "permission_denied_message": "¡Nanay de la China! No tienes permiso para hacer eso.",
-                "rate_limit_exceeded_message": "¡Para el carro! Vas tú muy rápido. Por favor, vuelve a intentarlo en unos segundos."
+                "rate_limit_exceeded_message": "¡Pare el carro! Va muy rápido. Por favor, vuelva a intentarlo en unos segundos."
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -478,8 +478,8 @@
                 "previous_page_button": "=> core.ref.previous_page"
             },
             "error": {
-                "csrf_token_mismatch": "Has estado inactivo por mucho tiempo.",
-                "csrf_token_mismatch_return_link": "Regresa, para volver a intentarlo.",
+                "csrf_token_mismatch": "Ha estado inactivo durante demasiado tiempo.",
+                "csrf_token_mismatch_return_link": "Vuelva atrás para intentarlo de nuevo",
                 "invalid_confirmation_token": "Este enlace de confirmación ya se ha utilizado o no es válido.",
                 "not_authenticated": "No tienes permiso para acceder a esta página. Inténtalo de nuevo después de iniciar sesión.",
                 "not_found": "¡Recórcholis! La página solicitada no ha podido ser encontrada.",
