@@ -419,7 +419,7 @@
                 "in_discussion_text": "En {discussion}",
                 "joined_date_text": "Se unió {ago}",
                 "online_text": "En línea",
-                "posts_empty_text": "Parece que no hay ninguna discusión aquí... ¿Por qué no creas una?",
+                "posts_empty_text": "Parece que no hay publicaciones aquí.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
                 "settings_link": "=> core.ref.settings"
@@ -427,8 +427,8 @@
             "user_controls": {
                 "button": "Controles",
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "¿Estás seguro de que quieres eliminar este usuario? Las publicaciones del usuario serán eliminadas.",
-                "delete_error_message": "Falló la eliminación del usuario <i>{username} ({email})</i>",
+                "delete_confirmation": "¿Está seguro de que quiere eliminar este usuario? Las publicaciones del usuario NO serán eliminadas.",
+                "delete_error_message": "Error al eliminar el usuario <i>{username} ({email})</i>",
                 "delete_success_message": "El usuario <i>{username} ({email})</i> fue eliminado",
                 "edit_button": "=> core.ref.edit",
                 "toggle_dropdown_accessible_label": ""
