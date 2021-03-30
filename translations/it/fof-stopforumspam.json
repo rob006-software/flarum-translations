@@ -2,26 +2,26 @@
     "fof-stopforumspam": {
         "admin": {
             "settings": {
-                "title": "",
-                "username_label": "",
-                "ip_label": "",
-                "email_label": "",
-                "frequency_label": "",
-                "frequency_text": "",
-                "frequency_example_text": "",
-                "api_key_label": "",
-                "api_key_text": "",
-                "api_key_instructions_text": ""
+                "title": "FriendsOfFlarum Stop Forum Spam",
+                "username_label": "Controllo Spam Nome Utente",
+                "ip_label": "Controllo Spam indirizzo IP",
+                "email_label": "Controllo Spam Email",
+                "frequency_label": "Soglia",
+                "frequency_text": "Il numero di segnalazioni di spam tra tutti i controlli abilitati che faranno scattare il filtro antispam.",
+                "frequency_example_text": "Es: se l'email ha 1 hit e l'IP ha 2 hit, ci saranno 3 hit in totale. Se la soglia è impostata su 3 o meno, impedirà la registrazione.",
+                "api_key_label": "Chiave API",
+                "api_key_text": "Hai abilitato fof/spamblock, ora hai la possibilità di segnalare gli spammer a StopForumSpam per mantenere libera la comunità del forum dallo spam.",
+                "api_key_instructions_text": "<register> Iscriviti a StopForumSpam </register>. Dopo dovrai <key> richiedere una chiave API </key>."
             }
         },
         "forum": {
             "message": {
-                "spam": ""
+                "spam": "Le tue informazioni sono state contrassegnate come spam."
             }
         },
         "api": {
             "error": {
-                "unknown": ""
+                "unknown": "Impossibile segnalare l'utente a StopForumSpam."
             }
         }
     }
