@@ -36,6 +36,7 @@ return [
 		'!the-turk-stargazing-theme',
 		'!the-turk-welcome-widgets',
 		'!ianm-regrole',
+		'!ianm-diff',
 	]),
 	'zh_Hans' => getComponents(),
 ];
