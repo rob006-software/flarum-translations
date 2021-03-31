@@ -2,32 +2,32 @@
     "fof-moderator-notes": {
         "admin": {
             "permissions": {
-                "createnotes": "",
-                "viewnotes": "",
-                "deletenotes": ""
+                "createnotes": "Crea note moderatore",
+                "viewnotes": "Visualizza note moderatore",
+                "deletenotes": "Cancella note moderatore"
             }
         },
         "forum": {
-            "no_content_given": "",
+            "no_content_given": "Non è consentita una nota vuota.",
             "moderatorNotes": {
-                "created_text": "",
-                "add_button": "",
-                "create-heading": "",
-                "dismiss_button": "",
-                "input_heading": "",
-                "noNotes": "",
-                "submit_button": "",
-                "delete": "",
-                "confirm": ""
+                "created_text": "{username} ha creato questa nota il {date}",
+                "add_button": "Nuova nota",
+                "create-heading": "Crea una nuova nota moderatore",
+                "dismiss_button": "Fatto",
+                "input_heading": "Inserisci le tue note per <strong> {nome utente} </strong>, (il markdown è supportato)",
+                "noNotes": "Sembra che non ci siano note qui.",
+                "submit_button": "Salva nota",
+                "delete": "Cancella",
+                "confirm": "Sei sicuro di voler eliminare questa nota?"
             },
             "user": {
-                "notes": ""
+                "notes": "Note moderatore"
             }
         },
         "api": {
             "auto_note": "",
             "auto_note_actor": "",
-            "no_reason_provided": ""
+            "no_reason_provided": "Nessun motivo fornito"
         }
     }
 }
