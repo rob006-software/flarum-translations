@@ -2,29 +2,29 @@
     "fof-pages": {
         "admin": {
             "edit_page": {
-                "content_label": "",
-                "content_placeholder": "",
+                "content_label": "=> fof-pages.ref.content",
+                "content_placeholder": "=> fof-pages.ref.content",
                 "delete_page_button": "Cancella pagina",
                 "delete_page_confirmation": "Sei sicuro di voler cancellare questa pagina?",
                 "hidden_label": "Salva come bozza",
                 "restricted_label": "Limita accesso (configura chi può accedere nel tab Permessi)",
                 "html_label": "Abilita HTML",
                 "set_as_home_page_confirmation": "Sei sicuro di voler impostare questa pagina come tua home page?",
-                "slug_label": "",
-                "slug_placeholder": "",
-                "submit_button": "",
-                "title": "",
-                "title_label": "",
-                "title_placeholder": "",
-                "url_label": "",
-                "url_placeholder": ""
+                "slug_label": "=> fof-pages.ref.slug",
+                "slug_placeholder": "=> fof-pages.ref.slug",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> fof-pages.ref.create_page",
+                "title_label": "=> fof-pages.ref.title",
+                "title_placeholder": "=> fof-pages.ref.title",
+                "url_label": "=> fof-pages.ref.url",
+                "url_placeholder": "=> fof-pages.ref.url"
             },
             "pages": {
-                "create_button": ""
+                "create_button": "=> fof-pages.ref.create_page"
             },
             "pages_list": {
                 "empty_text": "Sembra che non ci siano pagine qui.",
-                "title": ""
+                "title": "=> fof-pages.ref.title"
             },
             "permissions": {
                 "restricted": "Mostra pagine con restrizioni"
