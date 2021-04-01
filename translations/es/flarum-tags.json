@@ -24,7 +24,7 @@
             },
             "permissions": {
                 "allow_edit_tags_label": "Permitir editar etiquetas",
-                "bypass_tag_counts_label": "",
+                "bypass_tag_counts_label": "Ignorar requisitos de etiqueta",
                 "restrict_by_tag_heading": "Restringir por etiqueta",
                 "tag_discussions_label": "Etiquetar discusiones"
             },
@@ -38,19 +38,19 @@
             },
             "tags": {
                 "about_tags_text": "Las etiquetas se utilizan para organizar las discusiones. Las etiquetas principales son para clasificar las discusiones (p. ej. por temática) y pueden ordenarse y organizarse jerárquicamente en dos niveles. Las etiquetas secundarias no tienen orden ni jerarquía y son útiles para la micro organización.",
-                "create_primary_tag_button": "",
-                "create_secondary_tag_button": "",
+                "create_primary_tag_button": "Crear etiqueta principal",
+                "create_secondary_tag_button": "Crear etiqueta secundaria",
                 "primary_heading": "Etiquetas principales",
                 "secondary_heading": "Etiquetas secundarias",
-                "settings_heading": "",
+                "settings_heading": "Ajustes",
                 "create_tag_button": "=> flarum-tags.ref.create_tag",
                 "settings_button": "Ajustes"
             }
         },
         "forum": {
             "all_tags": {
-                "meta_description_text": "",
-                "meta_title_text": ""
+                "meta_description_text": "Todas las etiquetas",
+                "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
                 "choose_primary_placeholder": "Elige una etiqueta principal|Elige {count} etiquetas principales",
@@ -80,7 +80,7 @@
                 "tags_text": "la etiqueta {tags}|las etiquetas {tags}"
             },
             "tag": {
-                "meta_description_text": ""
+                "meta_description_text": "Todas las discusiones con la etiqueta {tag}"
             }
         },
         "lib": {
