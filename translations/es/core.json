@@ -97,7 +97,7 @@
                 "send_test_mail_button": "Enviar",
                 "send_test_mail_heading": "Enviar un correo de prueba",
                 "send_test_mail_success": "¡Correo de prueba enviado con éxito!",
-                "send_test_mail_text": "",
+                "send_test_mail_text": "Esto enviará un correo electrónico utilizando la configuración anterior a tu dirección, {email}.",
                 "smtp_heading": "Configuración SMTP",
                 "title": "=> core.ref.email",
                 "submit_button": "=> core.ref.save_changes",
@@ -136,9 +136,9 @@
             },
             "nav": {
                 "appearance_button": "Apariencia",
-                "appearance_title": "=> core.admin.appearance.description",
+                "appearance_title": "Personaliza los colores, logotipos y otras variables de tu foro.",
                 "basics_button": "Básicos",
-                "basics_title": "=> core.admin.basics.description",
+                "basics_title": "Establece el título, idioma y otras configuraciones básicas de tu foro.",
                 "categories": {
                     "authentication": "Autenticación",
                     "core": "",
@@ -151,12 +151,12 @@
                     "theme": ""
                 },
                 "dashboard_button": "Panel de información",
-                "dashboard_title": "",
+                "dashboard_title": "=> core.admin.dashboard.description",
                 "email_button": "=> core.ref.email",
                 "email_title": "",
                 "permissions_button": "Permisos",
                 "permissions_title": "",
-                "search_placeholder": "",
+                "search_placeholder": "Buscar extensión",
                 "appearance_text": "Personalizar el aspecto del foro.",
                 "basics_text": "Ajustes generales del foro.",
                 "dashboard_text": "El foro en un vistazo.",
@@ -206,7 +206,7 @@
                 "signup_open_button": "Abierto"
             },
             "settings": {
-                "saved_message": "",
+                "saved_message": "Se guardaron tus cambios.",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
@@ -253,7 +253,7 @@
                 "edited_message": "",
                 "post_link": "Publicación n.º {number} en '{discussion}'",
                 "submit_button": "=> core.ref.save_changes",
-                "view_button": ""
+                "view_button": "=> core.ref.view"
             },
             "composer_reply": {
                 "body_placeholder": "=> core.ref.write_a_reply",
