@@ -11,7 +11,7 @@
                 "unignore_button": "Dejar de ignorar"
             },
             "following": {
-                "meta_title_text": ""
+                "meta_title_text": "=> flarum-subscriptions.ref.following"
             },
             "index": {
                 "following_link": "=> flarum-subscriptions.ref.following"
@@ -37,8 +37,8 @@
         },
         "email": {
             "new_post": {
-                "subject": "",
-                "body": ""
+                "subject": "[Nueva publicación] {title}",
+                "body": "Hey {recipient_display_name}!\n\n{poster_display_name} hizo una publicación en una discusión que estás siguiendo: {title}.\n\nPara ver la nueva actividad, consulte el siguiente enlace:\n{url}\n\n---\n\n{content}\n\n---\n\nNo recibirás más notificaciones sobre esta discusión hasta que haya más actualizaciones.\n"
             }
         },
         "ref": {
