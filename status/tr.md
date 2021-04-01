@@ -1411,7 +1411,7 @@
 		<td align="center"><a href="https://packagist.org/packages/ianm/flarum-diff/stats">37<br /><img src="https://img.shields.io/badge/-%2B4-brightgreen" alt="+4" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/ianm/flarum-diff/stats">33<br /><img src="https://img.shields.io/badge/-%2B4-brightgreen" alt="+4" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/ianm/flarum-diff/stats">3<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/ianm-diff/tr/"><img src="https://weblate.rob006.net/widgets/flarum/tr/ianm-diff/svg-badge.svg" alt="Translation status"></a></td>
+		<td><img src="https://img.shields.io/badge/status-disabled-inactive.svg" alt="Translation status"></td>
 	</tr>
 	<tr>
 		<td>
