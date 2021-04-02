@@ -1,0 +1,63 @@
+{
+    "malago-achievements": {
+        "forum": {
+            "achievement_points": "Points",
+            "new_achievement_title": "New achievement!",
+            "new_achievement_name": "Achievement",
+            "new_achievement_close": "Got it!"
+        },
+        "admin": {
+            "achievement_modal": {
+                "title": "Create Achievement",
+                "name_label": "Name",
+                "name_placeholder": "Achievement Name",
+                "active_label": "Active",
+                "description_label": "Description",
+                "description_placeholder": "Achievement Description",
+                "variable_label": "Variable",
+                "computation_label": "Variable to calculate: posts, likes, selflikes, discussions, comments, edits, avatar, contains, years\n",
+                "computation_placeholder": "Number",
+                "points_label": "Points for this achievement",
+                "points_placeholder": "0\n",
+                "image_label": "Image URL",
+                "image_placeholder": "Achievement Image URL",
+                "row_label": "Row",
+                "row_placeholder": 0,
+                "col_label": "Column",
+                "col_placeholder": 0,
+                "width_label": "Image width",
+                "width_placeholder": 32,
+                "height_label": "Image height",
+                "height_placeholder": 32,
+                "submit_button": "=> core.ref.save_changes",
+                "delete_button": "Delete Achievement",
+                "delete_confirmation": "Are you sure you want to delete this achievement?",
+                "add_delete_title": "Add or delete an achievement from a user",
+                "username": "Username",
+                "username_placeholder": "Username",
+                "add_delete_instructions": "If the user does not have the achievement, it will be added to it. If the user does have the achievement, it will be removed from it.",
+                "variable": {
+                    "manual": "Manual",
+                    "posts": "Posts",
+                    "likes": "Likes given",
+                    "selflikes": "Likes received",
+                    "discussions": "Discussions",
+                    "edits": "Edited posts",
+                    "avatar": "Avatar uploaded",
+                    "contains": "Message contains",
+                    "comments": "Responses received in a discussion",
+                    "years": "Years registered",
+                    "meanwords": "Average words",
+                    "tagposts": "Posts in tag"
+                }
+            },
+            "achievements_page": {
+                "list_heading": "Achievements",
+                "create_achievement_button": "Create New Achievement",
+                "instructions_header": "Instructions",
+                "instructions_text": "<li>To create an achievement, you must introduce a name.</li>\n<li>Description is optional.</li>\n<li>Choose which variable you want to calculate for this achievement from the list.</li>\n<li>Introduce the threshold for the achievement to be activated. You can introduce two numbers separated with a comma (,) to indicate a minimum threshold and a maximum threshold (both numbers are inclusive).</li>\n<li>Achievements with two threshold will be removed if the count is beyond the upper threshold.</li>\n<li>For the \"Message contains\" achievement, you must introduce the specified word and then the threshold, separated by a comma (e.g. \"spinach,5\" or \"spinach,5,10\" for minimum and maximum threshold.)</li>\n<li>Introduce the image URL with the icon to be used for this achievement.</li>\n<li>Introduce the width and height of the icon.</li>\n<li>Optional: If the image has more than one achievement icon, you can select which row and column to show for the icon.</li>\n",
+                "add_delete_users": "Add/Delete achievements from user"
+            }
+        }
+    }
+}
