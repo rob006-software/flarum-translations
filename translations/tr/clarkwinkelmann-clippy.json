@@ -2,23 +2,23 @@
     "clarkwinkelmann-clippy": {
         "admin": {
             "settings": {
-                "cdn": "",
+                "cdn": "CDN",
                 "cdn-options": {
-                    "s3": "",
-                    "jsdelivr": "",
-                    "custom": ""
+                    "s3": "Amazon S3",
+                    "jsdelivr": "jsDelivr",
+                    "custom": "Özel"
                 },
-                "path": "",
-                "path-help": "",
-                "agent": "",
-                "agent-help": "",
-                "events": "",
-                "events-help": ""
+                "path": "Özel CDN Yolu",
+                "path-help": "<a>clippy.js deposunun</a> içerek bir klasöre eğik çizgi içermeden tam bağlantı girin.",
+                "agent": "Karakter",
+                "agent-help": "Her karakterin farklı bir animasyon seti vardır. Karakteri değiştirmek, tüm uyumsuz animasyonları ayarlarınızdan silecektir.",
+                "events": "Etkinlikler",
+                "events-help": "Etkinliklerin her birinde hangi animasyonları ve konuşma ifadelerinin görüneceğini seçin"
             },
             "events": {
-                "name": "",
-                "animation": "",
-                "text": ""
+                "name": "Etkinlik",
+                "animation": "Animasyon",
+                "text": "Metin"
             }
         }
     }
