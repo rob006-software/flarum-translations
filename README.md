@@ -123,6 +123,7 @@ If you're maintaining language pack and want to add it to the collective, follow
 
 | Extension | Status |
 | --- | --- |
+| [Achievements by Malago](https://github.com/malago86/flarum-achievements) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/malago-achievements/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/malago-achievements/) |
 | [Action Log by Sycho](https://github.com/SychO9/flarum-action-log) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/sycho-action-log/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/sycho-action-log/) |
 | [Advanced Extension Categories by Sycho](https://github.com/SychO9/flarum-advanced-extension-categories) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/sycho-advanced-extension-categories/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/sycho-advanced-extension-categories/) |
 | [Aegis by Kyrne](https://extiverse.com/extension/kyrne/aegis) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/kyrne-aegis/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/kyrne-aegis/) |
