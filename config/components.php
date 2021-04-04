@@ -430,7 +430,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Littlegolden/flarum-uitab/v0.3.2/resources/locale/en.yml',
 	],
 	'jslirola-login2seeplus' => [
-		'tag' => 'https://raw.githubusercontent.com/jslirola/flarum-ext-login2seeplus/v0.1.9/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/jslirola/flarum-ext-login2seeplus/v0.1.9.1/locale/en.yml',
 	],
 	'kilowhat-audit-free' => [
 		'tag' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-audit-free/1.3.3/resources/locale/en.yml',
