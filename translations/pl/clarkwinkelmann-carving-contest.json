@@ -43,15 +43,22 @@
         },
         "admin": {
             "permissions": {
-                "heading": "Zawody w rzeźbieniu",
                 "view": "Przeglądanie prac",
                 "like": "Polubienie prac",
                 "participate": "Uczestnictwo",
-                "moderate": "Moderacja"
+                "moderate": "Moderacja",
+                "heading": "Zawody w rzeźbieniu"
             },
             "settings": {
-                "title": "Ustawienia zawodów w rzeźbieniu",
-                "maxEntriesPerUser": "Maksymalna liczba zgłoszeń na użytkownika"
+                "maxEntriesPerUser": "Maksymalna liczba zgłoszeń na użytkownika",
+                "colorMode": "",
+                "title": "Ustawienia zawodów w rzeźbieniu"
+            },
+            "colors": {
+                "simple": "",
+                "all": "",
+                "custom": "",
+                "custom-help": ""
             }
         }
     }

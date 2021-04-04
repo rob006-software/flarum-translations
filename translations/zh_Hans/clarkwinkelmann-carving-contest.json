@@ -43,15 +43,22 @@
         },
         "admin": {
             "permissions": {
-                "heading": "雕刻大赛",
                 "view": "查看作品",
                 "like": "点赞作品",
                 "participate": "参加比赛",
-                "moderate": "主持"
+                "moderate": "主持",
+                "heading": "雕刻大赛"
             },
             "settings": {
-                "title": "雕刻大赛设置",
-                "maxEntriesPerUser": "每个用户提交数量限制"
+                "maxEntriesPerUser": "每个用户提交数量限制",
+                "colorMode": "",
+                "title": "雕刻大赛设置"
+            },
+            "colors": {
+                "simple": "",
+                "all": "",
+                "custom": "",
+                "custom-help": ""
             }
         }
     }

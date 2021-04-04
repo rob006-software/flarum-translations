@@ -43,15 +43,20 @@
         },
         "admin": {
             "permissions": {
-                "heading": "Carving Contest",
                 "view": "View entries",
                 "like": "Like entries",
                 "participate": "Participate",
                 "moderate": "Moderate"
             },
             "settings": {
-                "title": "Carving Contest Settings",
-                "maxEntriesPerUser": "Max submissions per user"
+                "maxEntriesPerUser": "Max submissions per user",
+                "colorMode": "Use color mode instead of carve mode"
+            },
+            "colors": {
+                "simple": "Simple color set",
+                "all": "Any color",
+                "custom": "Custom color list",
+                "custom-help": "Comma-separated list of #hex or rgb() values"
             }
         }
     }

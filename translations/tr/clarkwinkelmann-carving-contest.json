@@ -43,15 +43,22 @@
         },
         "admin": {
             "permissions": {
-                "heading": "Oyma Yarışması",
                 "view": "Başvuruları göster",
                 "like": "Başvuruları beğen",
                 "participate": "Katıl",
-                "moderate": "Yönet"
+                "moderate": "Yönet",
+                "heading": "Oyma Yarışması"
             },
             "settings": {
-                "title": "Oyma Yarışması Ayarları",
-                "maxEntriesPerUser": "Kullanıcıların en fazla başvuru sayısı"
+                "maxEntriesPerUser": "Kullanıcıların en fazla başvuru sayısı",
+                "colorMode": "",
+                "title": "Oyma Yarışması Ayarları"
+            },
+            "colors": {
+                "simple": "",
+                "all": "",
+                "custom": "",
+                "custom-help": ""
             }
         }
     }

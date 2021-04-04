@@ -43,15 +43,22 @@
         },
         "admin": {
             "permissions": {
-                "heading": "カービング競技",
                 "view": "作品を見る",
                 "like": "好きな作品",
                 "participate": "競争に参加する",
-                "moderate": "ホスト"
+                "moderate": "ホスト",
+                "heading": "カービング競技"
             },
             "settings": {
-                "title": "",
-                "maxEntriesPerUser": ""
+                "maxEntriesPerUser": "",
+                "colorMode": "",
+                "title": ""
+            },
+            "colors": {
+                "simple": "",
+                "all": "",
+                "custom": "",
+                "custom-help": ""
             }
         }
     }
