@@ -20,29 +20,29 @@
                     "remove_button": "Kaldır"
                 },
                 "additional_items_tooltip": "Ek Kontroller",
-                "bold_tooltip": "",
-                "code_tooltip": "",
-                "code_block_tooltip": "",
-                "header_tooltip": "",
-                "horizontal_rule_tooltip": "",
-                "image_tooltip": "",
-                "italic_tooltip": "",
-                "link_tooltip": "",
-                "ordered_list_tooltip": "",
-                "paragraph_tooltip": "",
-                "quote_tooltip": "",
-                "spoiler_block_tooltip": "",
-                "spoiler_inline_tooltip": "",
-                "strike_tooltip": "",
-                "sub_tooltip": "",
-                "sup_tooltip": "",
-                "text_type_tooltip": "",
-                "unordered_list_tooltip": ""
+                "bold_tooltip": "Kalın metin <{modifierKey}-b>",
+                "code_tooltip": "Satır içi kod <{modifierKey}-`>",
+                "code_block_tooltip": "Blok kod ekle",
+                "header_tooltip": "Başlığı {level} olarak değiştir <shift-{modifierKey}-{level}>",
+                "horizontal_rule_tooltip": "Yatay çizgi ekle",
+                "image_tooltip": "Resim ekle",
+                "italic_tooltip": "Eğik metin <{modifierKey}-i>",
+                "link_tooltip": "Bağlantı ekle",
+                "ordered_list_tooltip": "Numaralı liste <shift-{modifierKey}-9>",
+                "paragraph_tooltip": "Paragrafı değiştir <shift-{modifierKey}-0>",
+                "quote_tooltip": "Alıntı ekle <{modifierKey}-q>",
+                "spoiler_block_tooltip": "Blok Tatkaçıran/Genişletilir Metin",
+                "spoiler_inline_tooltip": "Tatkaçıran <{modifierKey}-;>",
+                "strike_tooltip": "Üstü çizili <alt-shift-5>",
+                "sub_tooltip": "Alt simge <{modifierKey}-,>",
+                "sup_tooltip": "Üst simge <{modifierKey}-.>",
+                "text_type_tooltip": "Metin Türü Seçin",
+                "unordered_list_tooltip": "Madde liste <shift-{modifierKey}-8>"
             },
             "settings": {
-                "composer_heading": "",
-                "use_rich_text_editor_label": "",
-                "rich_text_compact_paragraphs_label": ""
+                "composer_heading": "Düzenleyici",
+                "use_rich_text_editor_label": "Zengin metin editörünü kullan?",
+                "rich_text_compact_paragraphs_label": "Paragrafları yeni satır ile ayırma."
             }
         }
     }
