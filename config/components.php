@@ -508,7 +508,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-minecraft-avatars/v1.5.0/resources/locale/en.yml',
 	],
 	'nearata-no-self-likes' => [
-		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-no-self-likes/v1.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-no-self-likes/main/no-translation-source.yml',
 	],
 	'nearata-signup-confirm-password' => [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-signup-confirm-password/v2.2.0/resources/locale/en.yml',
