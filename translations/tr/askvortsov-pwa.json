@@ -8,7 +8,7 @@
             "pwa": {
                 "about": {
                     "description_text": "Açıklamayı Yönetim sayfasında yer alan 'Temel Öğeler' sekmesinden ayarlayabilirsniz.",
-                    "long_name_text": "",
+                    "long_name_text": "Kullanıcı tarafından görüntülenen web uygulaması adı.",
                     "heading": "Hakkında",
                     "short_name_text": "Kısa adı Yönetim sayfasında yer alan 'Temel Öğeler' sekmesinden ayarlayabilirsiniz.",
                     "name_text": "PWA'de kullanılacak daha uzun bir ad girin"
@@ -19,8 +19,8 @@
                     "theme_color_text": "Bu renk uygulamanızın Görev Yöneticindeki rengini belirler. Bu alanı Yönetim sayfasında yer alan 'Görünüm' sekmesinden ayarlayabilirsiniz."
                 },
                 "maintenance": {
-                    "heading": "",
-                    "debug_label": ""
+                    "heading": "Bakım",
+                    "debug_label": "Hata ayıklama modu? Buna dair kayıtlar `storage/logs` içerisinde tutuluyor."
                 },
                 "heading": "İleri Web Uygulaması Ayarları",
                 "text": "Flarum web sitenizi İleri Web Uygulamasına dönüştürün! Bu sitenizi otomatik olarak uygulama mağazasında listelendirmez, kullanıcılar sitenizi ziyaret ettiğinde 'Ana ekrana ekle' hatırlatmasında bulunur.",
