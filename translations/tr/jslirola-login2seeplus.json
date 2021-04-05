@@ -9,24 +9,26 @@
         "admin": {
             "title": "Login2SeePlus",
             "hide": "Gizle",
-            "link": "Bağlantılar",
-            "image": "Resimler",
+            "link": {
+                "title": "",
+                "no_replace": "",
+                "replace_address": "",
+                "replace_all": ""
+            },
+            "image": {
+                "title": "",
+                "label": ""
+            },
             "code": "Kodlar",
             "post": {
-                "title": "Bu uzunluğu aşan içeriği gizle",
+                "title": "Bu uzunluğu aşan içeriği gizle (<em>-1</em> hepsini gösterir)",
                 "help": "Tümü için <em>-1</em> girin."
             },
             "php": {
                 "title": "Eski Mod",
                 "help": "*ÖNERİLMİYOR* Eski tarayıcıları desteklemek için arka uçta çalışın. <code>mb_substr</code> ve <code>mb_strlen</code>'ı etkinleştirmeniz gerekir.",
                 "label": "PHP Kullan"
-            },
-            "link.title": "",
-            "link.no_replace": "",
-            "link.replace_address": "",
-            "link.replace_all": "",
-            "image.title": "",
-            "image.label": ""
+            }
         }
     }
 }
