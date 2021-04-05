@@ -2,7 +2,6 @@
     "fof-html-errors": {
         "admin": {
             "settings": {
-                "title": "カスタム HTML エラーページ",
                 "error": {
                     "403": "403 アクセスが拒否されました",
                     "404": "404 コンテンツが存在しません",
@@ -11,7 +10,8 @@
                 },
                 "placeholder": {
                     "empty_for_default": "デフォルトの Flarum エラーページを使用するには空白のままにします"
-                }
+                },
+                "title": "カスタム HTML エラーページ"
             }
         }
     }
