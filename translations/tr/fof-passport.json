@@ -2,7 +2,6 @@
     "fof-passport": {
         "admin": {
             "popup": {
-                "title": "FoF Pasaportu",
                 "field": {
                     "app-auth-url": "OAuth yetkilendirme bağlantısı",
                     "app-token-url": "OAuth jeton bağlantısı",
@@ -13,7 +12,8 @@
                     "button-title": "Oturum açma düğmesi etiketi",
                     "button-title-placeholder": "=> fof-passport.api.default-login-button-title",
                     "button-icon": "Oturum açma düğmesi simgesi"
-                }
+                },
+                "title": "FoF Pasaportu"
             }
         },
         "api": {
