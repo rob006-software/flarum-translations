@@ -2,13 +2,13 @@
     "askvortsov-trust-levels": {
         "admin": {
             "metric_drivers": {
-                "discussions_entered": "",
-                "discussions_participated": "",
-                "discussions_started": "",
-                "posts_made": "",
-                "likes_given": "",
-                "likes_received": "",
-                "best_answers": ""
+                "discussions_entered": "Girilen Tartışmalar",
+                "discussions_participated": "Katılınan Tartışmalar",
+                "discussions_started": "Başlatılan Tartışmalar",
+                "posts_made": "Oluşturulan Gönderiler",
+                "likes_given": "Verilen Beğeniler",
+                "likes_received": "Alınan Beğeniler",
+                "best_answers": "En İyi Yanıtlar"
             },
             "group_selector": {
                 "placeholder": "Bir grup seçin"
@@ -26,7 +26,7 @@
                 "list_heading": "Güven Düzeyleri",
                 "create_trust_level_button": "Yeni Güven Düzeyi Oluşturun",
                 "instructions_header": "Talimatlar",
-                "instructions_text": "<li>Güven düzeyleri, kullanıcı etkinliğine göre grup üyeliğini otomatik olarak yönetmenize olanak tanır.</li>\n<li>Her güven düzeyi, karşılanması gereken kriterleri (ör. başlatılan tartışmalar, yapılan gönderiler vb.) ve bir grubu tanımlar.</li>\n<li>Kullanıcılar, oturum açtıklarında hak ettikleri tüm güven düzeyleri için otomatik olarak gruplara eklenir.</li>\n<li>Bu gruplar otomatik olarak yönetildiğinden, güven düzeyleri için ayrı bir grup kümesi bulundurmanızı öneririz.</li>\n<li>Bir güven düzeyini silerseniz, ilişkili grubu da silmeniz gerekir; aksi takdirde, bu güven düzeyindeki kullanıcılar o grupta kalacaktır.</li>\n<li>Hataları önlemek için, oluşturulduktan sonra bir güven düzeyinin grubunu güncelleyemezsiniz.</li>\n<li>Devre dışı bırakılan aralıklar sayılmayacaktır. Belirli bir güven seviyesi için tüm aralıklar devre dışı bırakılırsa, TÜM kullanıcılar bu seviyeyi alacaktır.</li>\n<li>Bir grup birden çok güven düzeyi tarafından yönetiliyorsa, kullanıcı, güven düzeylerinden en az birinde olduğu sürece gruba eklenir.</li>\n"
+                "instructions_text": "<li>Güven düzeyleri, kullanıcı etkinliğine göre grup üyeliğini otomatik olarak yönetmenize olanak tanır.</li>\n<li>Her güven düzeyi, karşılanması gereken kriterleri (ör. başlatılan tartışmalar, yapılan gönderiler vb.) ve bir grubu tanımlar.</li>\n<li>Kullanıcılar, oturum açtıklarında hak ettikleri tüm güven düzeyleri için otomatik olarak gruplara eklenir.</li>\n<li>Bu gruplar otomatik olarak yönetildiğinden, güven düzeyleri için ayrı bir grup kümesi bulundurmanızı öneririz.</li>\n<li>Bir güven düzeyini silerseniz, ilişkili grubu da silmeniz gerekir; aksi takdirde, bu güven düzeyindeki kullanıcılar o grupta kalacaktır.</li>\n<li>Hataları önlemek için, oluşturulduktan sonra bir güven düzeyinin grubunu güncelleyemezsiniz.</li>\n<li>Devre dışı bırakılan metrikler sayılmayacaktır. Belirli bir güven seviyesi için tüm metrikler devre dışı bırakılırsa, TÜM kullanıcılar bu seviyeyi alacaktır.</li>\n<li>Bir grup birden çok güven düzeyi tarafından yönetiliyorsa, kullanıcı, güven düzeylerinden en az birinde olduğu sürece gruba eklenir.</li>\n"
             },
             "range_drivers": {
                 "discussions_entered": "Girilen Tartışmalar",
