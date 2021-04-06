@@ -44,9 +44,9 @@
                     "and": "Tümü"
                 },
                 "for-extension": "Uzantılar için",
-                "frontend": "",
-                "frontend-all-except-admin": "",
-                "mass-edit": "",
+                "frontend": "Ön uç için",
+                "frontend-all-except-admin": "Yönetici hariç tümü",
+                "mass-edit": "Toplu düzenleme",
                 "results": "{total} eşleşen çeviriden {shown} adeti gösteriliyor",
                 "for-extension-unavailable": "Beklenen \"{namespace}\" ad alanında çeviri bulunamadı. Belki bu uzantı, çevrilecek herhangi bir metne sahip değildir veya farklı bir ad alanı kullanıyor. Çevirilerini bulmak için arama alanını kullanmayı deneyin.",
                 "with-original-translations-in-locales": "Asıl çevirilerde",
@@ -58,18 +58,18 @@
             },
             "coverage": {
                 "column-options": {
-                    "locale": "",
-                    "namespace": ""
+                    "locale": "Dile göre",
+                    "namespace": "Ön uca göre"
                 },
                 "total-options": {
                     "percent": "Yüzde",
                     "count": "Sayı"
                 },
                 "columns": {
-                    "namespace": "",
-                    "total": "",
-                    "all-except-admin": "",
-                    "all-frontends": ""
+                    "namespace": "Ad alanı",
+                    "total": "Toplam",
+                    "all-except-admin": "Forum ve diğer ön uçlar",
+                    "all-frontends": "Tüm ön uçları göster"
                 },
                 "count": {
                     "percent": "% {percent}",
@@ -77,16 +77,16 @@
                     "details": "{total} toplam / {original} orijinal / {custom} özel"
                 },
                 "all-namespaces": "Tümü",
-                "apply-missing-filter": ""
+                "apply-missing-filter": "Eşleşen eksik çevirileri göster"
             },
             "export": {
                 "title": "Dışa Aktar",
                 "warning": "",
-                "locale": "",
+                "locale": "Yerel",
                 "locale-all": "",
-                "namespace": "",
-                "namespace-all": "",
-                "include-originals": "",
+                "namespace": "Ad Alanı",
+                "namespace-all": "Tümü",
+                "include-originals": "Tüm asıl çevirileri dahil et",
                 "include-all": "",
                 "output": "",
                 "output-loading": "",
