@@ -195,7 +195,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/flarum/mentions/master/locale/en.yml',
 	],
 	'flarum-nicknames' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/nicknames/v0.1.0-beta.16/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/nicknames/0.1.0-beta.16.1/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/flarum/nicknames/master/locale/en.yml',
 	],
 	'flarum-pusher' => [
