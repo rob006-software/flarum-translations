@@ -427,7 +427,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/892768447/flarum-ext-login2see/0.0.1/resources/locale/en.yml',
 	],
 	'itlad-synopsis' => [
-		'tag' => 'https://raw.githubusercontent.com/itlad/synopsis/v0.1.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/itlad/synopsis/v0.1.3/resources/locale/en.yml',
 	],
 	'itnt-uitab' => [
 		'tag' => 'https://raw.githubusercontent.com/Littlegolden/flarum-uitab/v0.3.2/resources/locale/en.yml',
