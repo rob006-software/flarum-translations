@@ -2,10 +2,12 @@
     "fof-polls": {
         "admin": {
             "permissions": {
-                "moderate": "投票を削除する",
-                "self_edit": "自分が作った投票を編集する",
+                "view_results_without_voting": "",
                 "start": "投票を開始する",
-                "vote": "投票する"
+                "self_edit": "自分が作った投票を編集する",
+                "vote": "投票する",
+                "change_vote": "",
+                "moderate": "投票を削除する"
             }
         },
         "forum": {

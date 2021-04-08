@@ -2,10 +2,12 @@
     "fof-polls": {
         "admin": {
             "permissions": {
-                "moderate": "编辑或删除投票",
-                "self_edit": "允许用户编辑自己发起的投票",
+                "view_results_without_voting": "",
                 "start": "发起投票",
-                "vote": "参与投票"
+                "self_edit": "允许用户编辑自己发起的投票",
+                "vote": "参与投票",
+                "change_vote": "",
+                "moderate": "编辑或删除投票"
             }
         },
         "forum": {

@@ -2,10 +2,12 @@
     "fof-polls": {
         "admin": {
             "permissions": {
-                "moderate": "Anketi düzenle veya sil",
-                "self_edit": "Kullanıcıların anketlerini düzenlemesine izin ver",
+                "view_results_without_voting": "",
                 "start": "Anket oluştur",
-                "vote": "Ankete oy ver"
+                "self_edit": "Kullanıcıların anketlerini düzenlemesine izin ver",
+                "vote": "Ankete oy ver",
+                "change_vote": "",
+                "moderate": "Anketi düzenle veya sil"
             }
         },
         "forum": {

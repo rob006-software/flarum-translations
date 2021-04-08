@@ -2,10 +2,12 @@
     "fof-polls": {
         "admin": {
             "permissions": {
-                "moderate": "",
-                "self_edit": "",
+                "view_results_without_voting": "",
                 "start": "",
-                "vote": ""
+                "self_edit": "",
+                "vote": "",
+                "change_vote": "",
+                "moderate": ""
             }
         },
         "forum": {

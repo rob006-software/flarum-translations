@@ -2,10 +2,12 @@
     "fof-polls": {
         "admin": {
             "permissions": {
-                "moderate": "Edytowanie i usuwanie ankiet",
-                "self_edit": "Edytowanie swoich własnych ankiet",
+                "view_results_without_voting": "",
                 "start": "Tworzenie ankiet",
-                "vote": "Głosowanie w ankietach"
+                "self_edit": "Edytowanie swoich własnych ankiet",
+                "vote": "Głosowanie w ankietach",
+                "change_vote": "",
+                "moderate": "Edytowanie i usuwanie ankiet"
             }
         },
         "forum": {
