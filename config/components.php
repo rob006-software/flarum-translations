@@ -430,7 +430,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Littlegolden/flarum-uitab/v0.3.2/resources/locale/en.yml',
 	],
 	'johnniefucker-embed-video' => [
-		'tag' => 'https://raw.githubusercontent.com/JohnnieFucker/flarum-ext-embed-video/v2.1.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/JohnnieFucker/flarum-ext-embed-video/v2.2.0/resources/locale/en.yml',
 	],
 	'jslirola-login2seeplus' => [
 		'tag' => 'https://raw.githubusercontent.com/jslirola/flarum-ext-login2seeplus/v0.1.9.1/locale/en.yml',
