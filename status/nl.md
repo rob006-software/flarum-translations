@@ -1967,7 +1967,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Incompatible with recent Flarum">🔴</span>
+			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://extiverse.com/extension/v17development/flarum-support" title="v17development/flarum-support"><code>v17development/flarum-support</code></a>
 		</td>
 		<td align="center">5<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
