@@ -2,23 +2,23 @@
     "clarkwinkelmann-clippy": {
         "admin": {
             "settings": {
-                "cdn": "",
+                "cdn": "CDN",
                 "cdn-options": {
-                    "s3": "",
-                    "jsdelivr": "",
-                    "custom": ""
+                    "s3": "Amazon S3",
+                    "jsdelivr": "jsDelivr",
+                    "custom": "Personalizzato"
                 },
-                "path": "",
-                "path-help": "",
-                "agent": "",
-                "agent-help": "",
-                "events": "",
-                "events-help": ""
+                "path": "Percorso CDN personalizzato",
+                "path-help": "Un URL completo senza barra finale a una cartella contenente  <a>clippy.js repository</a>.",
+                "agent": "Agente",
+                "agent-help": "Ogni agente ha una serie diversa di animazioni. La modifica dell'agente eliminerà tutte le animazioni incompatibili dalle impostazioni.",
+                "events": "Eventi",
+                "events-help": "Scegli le animazioni e il fumetto da visualizzare in ciascuno di questi eventi"
             },
             "events": {
-                "name": "",
-                "animation": "",
-                "text": ""
+                "name": "Evento",
+                "animation": "Animazione",
+                "text": "Testo"
             }
         }
     }
