@@ -4,19 +4,19 @@
             "settings": {
                 "notify_new_discussion_label": "Iemand start een discussie in een tag die ik volg",
                 "notify_new_post_label": "Iemand post in een tag die ik volg",
-                "notify_new_discussion_tag_label": ""
+                "notify_new_discussion_tag_label": "Iemand tagt een discussie opnieuw naar een tag die ik volg"
             },
             "index": {
                 "follow_tag_button": "Volgen",
                 "unfollow_tag_button": "Stop met volgen",
                 "following": {
-                    "following_none_label": "",
-                    "following_tags_label": ""
+                    "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                    "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
                 }
             },
             "badge": {
-                "following_tag_tooltip": "",
-                "lurking_tag_tooltip": ""
+                "following_tag_tooltip": "Volgend",
+                "lurking_tag_tooltip": "Lurken"
             },
             "sub_controls": {
                 "follow_button": "=> fof-follow-tags.ref.follow",
@@ -36,11 +36,11 @@
             "notifications": {
                 "new_discussion_text": "{username} start",
                 "new_post_text": "{username} post",
-                "new_discussion_tag_text": ""
+                "new_discussion_tag_text": "{username} heeft de tag veranderd"
             },
             "user": {
                 "settings": {
-                    "heading": "",
+                    "heading": "Volg tags",
                     "filter_label": ""
                 }
             }
@@ -48,15 +48,15 @@
         "admin": {
             "settings": {
                 "following_page_default_label": "",
-                "following_none_label": "",
-                "following_tags_label": ""
+                "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
             }
         },
         "email": {
             "subject": {
-                "newDiscussionInTag": "",
-                "newPostInTag": "",
-                "newDiscussionTag": ""
+                "newDiscussionInTag": "[Tag | Nieuwe discussie] {title}",
+                "newPostInTag": "[Tag | Nieuw bericht] {title}",
+                "newDiscussionTag": "[Tag | Gewijzigde tag] {title}"
             },
             "body": {
                 "newDiscussionInTag": "",
