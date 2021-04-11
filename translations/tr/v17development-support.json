@@ -12,6 +12,7 @@
             "discard": "İptal",
             "reopen": "tekrar aç",
             "support_tickets": "Destek biletleri",
+            "admin_overview": "",
             "hero": {
                 "help_question": "Sana nasıl yardımcı olabiliriz?",
                 "check_forum": "Aradığını bulamıyorsan <a>foruma göz atabilirsin</a>"
@@ -78,6 +79,7 @@
                 }
             },
             "support_ratings": {
+                "score": "",
                 "helful_article": "Bu makale yararlı oldu mu?",
                 "helful_support": "Destek talebinize yaklaşımımızdan memnun kaldınız mı?",
                 "feedback": "Değerlendirmeniz için teşekkürler, herhangi bir geri bildiriminiz var mı?",
@@ -91,6 +93,10 @@
                     "cannot_rate_article": "Bu makaleyi derecelendiremezsin.",
                     "neutral_emoji_disabled": "Kararsız ifadesi devre dışı bırakılmıştır.",
                     "missing_article_id": "Kayıp veya var olmayan makale ID'si"
+                },
+                "switch_sort_score": {
+                    "label": "",
+                    "description": ""
                 }
             },
             "modals": {
@@ -145,6 +151,11 @@
                 "opened_on": "",
                 "ticket_activity": "",
                 "reminders_sent": "",
+                "convert_to_ticket": {
+                    "button": "",
+                    "confirm": "",
+                    "event": ""
+                },
                 "status": {
                     "new": {
                         "title": "",

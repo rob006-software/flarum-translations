@@ -12,6 +12,7 @@
             "discard": "丢弃",
             "reopen": "重新打开",
             "support_tickets": "客服工单",
+            "admin_overview": "",
             "hero": {
                 "help_question": "我们能在哪方面帮助您？",
                 "check_forum": "如果这里没有您想要的内容，<a>到论坛找找？</a>"
@@ -78,6 +79,7 @@
                 }
             },
             "support_ratings": {
+                "score": "",
                 "helful_article": "以上信息是否解决了您的问题？",
                 "helful_support": "您满意我们对您的支持服务吗？",
                 "feedback": "感谢您的评价，还有其他要反馈的吗？",
@@ -91,6 +93,10 @@
                     "cannot_rate_article": "您无法评价这篇文章。",
                     "neutral_emoji_disabled": "中性表情符号已被禁用。",
                     "missing_article_id": "文章 ID 缺失或无效"
+                },
+                "switch_sort_score": {
+                    "label": "",
+                    "description": ""
                 }
             },
             "modals": {
@@ -145,6 +151,11 @@
                 "opened_on": "打开于",
                 "ticket_activity": "由 {username} 创建 · 最后更新 {date}",
                 "reminders_sent": "一条提醒已发送|{count} 条提醒已发送",
+                "convert_to_ticket": {
+                    "button": "",
+                    "confirm": "",
+                    "event": ""
+                },
                 "status": {
                     "new": {
                         "title": "新建",
