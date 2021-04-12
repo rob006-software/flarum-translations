@@ -1,6 +1,20 @@
 {
     "nearata-cakeday": {
         "admin": {
+            "permissions": {
+                "can_view_anniversaries_page": ""
+            },
+            "settings": {
+                "anniversaries_page_label": "",
+                "cake_bg_color_label": "",
+                "cake_bg_color_help": "",
+                "cake_txt_color_label": "",
+                "cake_txt_color_help": "",
+                "new_members": "",
+                "new_members_howlong": "",
+                "new_members_howlong_help": "",
+                "new_members_changelabel": ""
+            },
             "cake_bg_color_label": "Colore di Sfondo",
             "cake_bg_color_help": "Questa impostazione cambia il colore di sfondo della torta. Lasciare vuoto per il colore di default.",
             "cake_txt_color_label": "Colore Icona",
