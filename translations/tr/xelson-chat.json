@@ -152,31 +152,31 @@
                 }
             },
             "errors": {
-                "unauthenticated": "",
-                "chatdenied": "",
-                "removed": ""
+                "unauthenticated": "Yalnızca kayıtlı kullanıcılar sohbeti kullanabilir",
+                "chatdenied": "Grubunuz mesaj yazma iznine sahip değil",
+                "removed": "Sohbetten çıkartıldınız"
             }
         },
         "admin": {
             "permissions": {
                 "post": "",
-                "edit": "",
-                "delete": "",
-                "enabled": "",
+                "edit": "Sohbet mesajlarını düzenleme",
+                "delete": "Sohbet mesajlarını silme",
+                "enabled": "Sohbeti etkinleştirme",
                 "create": {
-                    "chat": "",
-                    "channel": ""
+                    "chat": "Sohbeti başlatma",
+                    "channel": "Kanal oluşturma"
                 },
                 "moderate": {
-                    "delete": "",
-                    "vision": ""
+                    "delete": "Sohbet mesajlarını silme",
+                    "vision": "Silinen mesajları görme"
                 }
             },
             "settings": {
-                "title": "",
-                "charlimit": "",
+                "title": "Sohbet ayarları",
+                "charlimit": "Mesaj karakterlerindeki üst sınır",
                 "floodgate": {
-                    "title": "",
+                    "title": "Tekrar karşıtı",
                     "number": "",
                     "time": ""
                 },
