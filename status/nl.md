@@ -2057,7 +2057,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Incompatible with recent Flarum">🔴</span>
+			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://extiverse.com/extension/datitisev/flarum-maintenance" title="datitisev/flarum-maintenance"><code>datitisev/flarum-maintenance</code></a>
 		</td>
 		<td align="center">14<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
