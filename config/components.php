@@ -106,7 +106,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-follow-tags-prompt/0.2.1/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-group-invitation' => [
-		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-group-invitation/0.1.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-group-invitation/0.1.3/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-group-list' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-group-list/0.2.0/resources/locale/en.yml',
