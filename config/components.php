@@ -118,7 +118,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-mailing/0.4.0/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-manual-discussion-slug' => [
-		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-manual-discussion-slug/0.2.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-manual-discussion-slug/0.2.1/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-passwordless' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-passwordless/1.3.0/resources/locale/en.yml',
