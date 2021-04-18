@@ -2,23 +2,22 @@
     "fof-analytics": {
         "admin": {
             "popup": {
-                "title": "统计设置",
                 "section": {
                     "googleAnalytics": "Google 分析",
                     "piwik": "Piwik"
                 },
                 "field": {
                     "statusGoogle": "启用 Google 分析",
-                    "optTrackingCode": "",
-                    "googleTrackingCode": "Tracking Code ID",
-                    "googleGTMCode": "",
+                    "optTrackingCode": "自定义跟踪代码（可选）",
+                    "googleTrackingCode": "跟踪代码 ID",
+                    "googleGTMCode": "GTM 代码 ID（可选）",
                     "statusPiwik": "启用 Piwik",
-                    "piwikUrl": "Piwik 域名或链接",
+                    "piwikUrl": "Piwik 域名或 URL",
                     "piwikSiteId": "Site ID",
                     "piwikTrackSubdomain": "追踪所有 Flarum 子域访客",
                     "piwikPrependDomain": "追踪时将网站域名放置在网页标题开头",
                     "piwikHideAliasUrl": "在「导出链」报表中隐藏已知别名链接的点击（什么是导出链：http://t.cn/A6PlyGj6）",
-                    "piwikAliasUrl": "别名链接",
+                    "piwikAliasUrl": "别名 URL",
                     "piwikTrackAccounts": "追踪独立访客账户",
                     "piwikAuthToken": "验证 Token"
                 },
@@ -29,7 +28,8 @@
                     "none": "不要追踪",
                     "username": "按用户名追踪",
                     "email": "按邮箱追踪"
-                }
+                },
+                "title": "FoF 分析"
             },
             "page": {
                 "nav": {

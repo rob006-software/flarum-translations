@@ -1,0 +1,132 @@
+{
+    "fof-byobu": {
+        "forum": {
+            "badges": {
+                "is_private": {
+                    "tooltip": "私的な雑谈"
+                }
+            },
+            "buttons": {
+                "add_recipients": "公開",
+                "submit": "OK",
+                "edit_recipients": "メンバーを編集",
+                "send_pd": "{username} と私的なチャット",
+                "cancel": "取り消し",
+                "remove_from_discussion": "雑谈を退出させる",
+                "make_public": "雑谈を公に表示する"
+            },
+            "composer_private_discussion": {
+                "submit_button": "私的な雑谈を投稿する",
+                "title_placeholder": "私的な雑谈のタイトル"
+            },
+            "labels": {
+                "recipients": "{count} 人のみが閲覧可能|{count} 人のみが閲覧可能",
+                "user_deleted": "--削除済み--"
+            },
+            "nav": {
+                "start_button": "私的な雑谈を開始",
+                "nav_item": ""
+            },
+            "input": {
+                "search_recipients": "ユーザー名の最初の3文字を入力して検索します..."
+            },
+            "search": {
+                "headings": {
+                    "groups": "ユーザーグループ"
+                }
+            },
+            "modal": {
+                "titles": {
+                    "update_recipients": "私的な雑谈「{title}」のメンバーを変更",
+                    "add_recipients": "この雑谈に参加するようにユーザーを招待する"
+                },
+                "help": {
+                    "add_recipients": "選択したユーザーのみが表示されます。 少なくとも1人のユーザー（あなたを除く）を追加して、私的な雑谈を開始します。",
+                    "update_recipients": "この雑谈は、選択したユーザーにのみ表示されます。"
+                }
+            },
+            "post": {
+                "recipients_modified": {
+                    "added_and_removed": "{username} は {added} を雑谈に招待し、{removed} を雑谈から削除しました。",
+                    "added": "{username} が雑谈に {added} を招待しました。",
+                    "removed": "{username} は雑谈から {removed} を削除しました。",
+                    "removed_self": "{username} は雑谈に離れました。"
+                }
+            },
+            "user": {
+                "settings": {
+                    "block_pd": "私的な雑谈をブロックする",
+                    "unified_index": ""
+                },
+                "byobu_link": "私的な雑谈",
+                "dropdown_label": "私的な雑谈"
+            },
+            "notifications": {
+                "pd_label": "誰かが私を私的な雑谈を作成に招待しました",
+                "pd_reply_label": "私が参加した私的な雑谈に誰かが投稿しました",
+                "pd_reply_text": "{username} は私が参加した私的な雑谈に投稿しました",
+                "pd_text": "{username} ジャックは私的な雑谈を作成し、あなたが参加するよう招待します",
+                "pd_user_left_label": "誰かが私が参加した私的な雑谈に離れました",
+                "pd_user_left_text": "{username} は私的な雑谈に離れました",
+                "pd_added_text": "{username} が私を私的な雑谈を参加に招待しました",
+                "pd_added_label": "誰かが私を私的な雑谈を参加に招待しました",
+                "pd_made_public_label": "",
+                "pd_made_public_text": ""
+            },
+            "confirm": {
+                "make_public": "これにより、この私的な雑谈が全員に表示されます。慎重に操作してください。"
+            }
+        },
+        "admin": {
+            "permission": {
+                "create_private_discussions_with_users": "ユーザーを私的な雑谈に招待する",
+                "create_private_discussions_with_groups": "ユーザーグループを私的な雑谈に招待する",
+                "create_private_discussions_with_blocking_users": "私的なチャットをブロックしたユーザーに私的な雑谈への参加を強制する",
+                "edit_user_recipients": "私的な雑谈のメンバーを編集する",
+                "edit_group_recipients": "私的なディスカッ雑谈に参加しているユーザーグループを編集する",
+                "view_private_discussions-when-flagged": "他のユーザーの私的な雑谈を表示する（報告されている場合）",
+                "make_private_into_public": "私的雑談を公にする"
+            },
+            "settings": {
+                "badge-icon": "",
+                "post-event-icon": "",
+                "use_tag_slug": "私的な雑谈の作成時に自動的に分類されるカテゴリタグを設定します。",
+                "use_tag_slug_help": "この設定は、設定が有効になった後に作成された私的な雑谈にのみ有効で、ユーザーが独自のラベルを選択できるように空白のままにします。",
+                "use_tag_slug_no_restriction": "",
+                "byobu_index": "",
+                "byobu_index_help": ""
+            }
+        },
+        "email": {
+            "subject": {
+                "private_discussion_created": "",
+                "private_discussion_replied": "",
+                "recipient_removed": "",
+                "private_discussion_added": ""
+            },
+            "body": {
+                "private_discussion_created": "",
+                "private_discussion_replied": "",
+                "recipient_removed": "",
+                "private_discussion_added": ""
+            }
+        },
+        "notifications": {
+            "private_discussion_created": {
+                "title": "【私的な雑谈】新しい私的な雑谈が招待します"
+            },
+            "private_discussion_replied": {
+                "title": "【私的な雑谈】新しい投稿"
+            },
+            "recipient_removed": {
+                "title": "【私的な雑谈】誰か離れました"
+            },
+            "private_discussion_added": {
+                "title": "【私的な雑谈】を参加に招待しました"
+            },
+            "made_public": {
+                "title": ""
+            }
+        }
+    }
+}

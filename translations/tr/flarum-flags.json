@@ -6,7 +6,7 @@
                 "view_flags_label": "Bildirilen gönderileri gör"
             },
             "settings": {
-                "flag_own_posts_label": "",
+                "flag_own_posts_label": "Kullanıcıların kendi gönderilerini bildirmelerine izin ver",
                 "guidelines_url_label": "Topluluk Kuralları Bağlantısı",
                 "title": "Bildirme Ayarları"
             }
@@ -15,13 +15,13 @@
             "flag_post": {
                 "confirmation_message": "Bu gönderiyi bildirdiğiniz için teşekkürler. Moderatörlerimiz en kısa sürede göz atacaklar.",
                 "dismiss_button": "=> core.ref.okay",
-                "reason_details_placeholder": "",
+                "reason_details_placeholder": "Ek ayrıntılar (İsteğe bağlı)",
                 "reason_inappropriate_label": "Uygunsuz",
                 "reason_inappropriate_text": "Bu gönderi saldırgan, küfürlü veya <a>topluluk kurallarını</a> ihlal ediyor.",
-                "reason_missing_message": "",
+                "reason_missing_message": "Lütfen moderatörlerimiz için bazı detayları açıklayın.",
                 "reason_off_topic_label": "Konu dışı",
                 "reason_off_topic_text": "Bu gönderi mevcut tartışma ile ilgili değil ve başka bir yere taşınmalı.",
-                "reason_other_label": "Diğer",
+                "reason_other_label": "Diğer (lütfen açıklayın)",
                 "reason_spam_label": "İstenmeyen",
                 "reason_spam_text": "Bu gönderi bir reklam.",
                 "submit_button": "=> flarum-flags.ref.flag_post",
@@ -35,7 +35,7 @@
             },
             "post": {
                 "dismiss_flag_button": "Bildirmeyi Yoksay",
-                "flagged_by_text": "{username] tarafından bildirildi",
+                "flagged_by_text": "{username} tarafından bildirildi",
                 "flagged_by_with_reason_text": "{username} tarafından {reason} gerekçesiyle bildirildi"
             },
             "post_controls": {

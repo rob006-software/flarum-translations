@@ -2,7 +2,6 @@
     "kilowhat-custom-paths": {
         "admin": {
             "settings": {
-                "title": "Custom Paths",
                 "head": {
                     "name": "Name",
                     "path": "Path"
@@ -11,23 +10,40 @@
                     "flarum-tags": "Flarum's Tags",
                     "flarum-subscriptions": "Flarum's Subscriptions",
                     "flarum-flags": "Flarum's Flags",
+                    "kilowhat-formulaire": "KILOWHAT Formulaire",
                     "fof-user-directory": "FriendsOfFlarum's User Directory",
                     "fof-pages": "FriendsOfFlarum's Pages",
-                    "askvortsov-categories": "Askvortsov's Categories"
+                    "fof-gamification": "FriendsOfFlarum's Gamification",
+                    "fof-byobu": "FriendsOfFlarum's Byobu",
+                    "askvortsov-categories": "Askvortsov's Categories",
+                    "v17development-blog": "v17development's Flarum Blog",
+                    "clarkwinkelmann-group-list": "ClarkWinkelmann's Group List"
                 },
                 "paths": {
                     "index": "Discussion list (when not homepage)",
                     "discussion": "Discussion",
                     "user": "User profile",
+                    "user-discussions": "User discussions",
+                    "user-mentions": "User mentions",
                     "settings": "Settings",
                     "notifications": "Notifications (on mobile)",
                     "tags": "Tags list",
                     "tag": "Tag discussions",
                     "following": "Following",
                     "flags": "Flags (on mobile)",
+                    "formulaire-form": "Form",
+                    "formulaire-submission": "Submission",
                     "fof-user-directory": "User directory",
                     "fof-pages": "Page",
-                    "askvortsov-categories": "Categories"
+                    "fof-gamification": "Rankings",
+                    "fof-byobu": "Private discussions",
+                    "fof-byobu-profile": "User discussions",
+                    "askvortsov-categories": "Categories",
+                    "v17development-blog-overview": "Overview",
+                    "v17development-blog-compose": "Compose",
+                    "v17development-blog-category": "Category",
+                    "v17development-blog-post": "Post",
+                    "clarkwinkelmann-group-list": "Group list"
                 },
                 "reset": "Reset path",
                 "disabled": "Extension not enabled",

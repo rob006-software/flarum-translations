@@ -1,0 +1,51 @@
+{
+    "fof-polls": {
+        "admin": {
+            "permissions": {
+                "view_results_without_voting": "",
+                "start": "投票を開始する",
+                "self_edit": "自分が作った投票を編集する",
+                "vote": "投票する",
+                "change_vote": "",
+                "moderate": "投票を削除する"
+            }
+        },
+        "forum": {
+            "days_remaining": "{time}に投票が終わります。",
+            "no_permission": "あなたは投票する権限を持っていません",
+            "poll_ended": "この投票は終了しました。",
+            "public_poll": "投票者を見る",
+            "composer_discussion": {
+                "add_poll": "投票を追加する",
+                "edit_poll": "=> fof-polls.forum.moderation.edit"
+            },
+            "modal": {
+                "add_title": "回答を追加する",
+                "add_option_label": "回答を追加する",
+                "date_placeholder": "投票終了日（任意）",
+                "edit_title": "投票を編集する",
+                "include_question": "質問を入力してください",
+                "max": "回答は最高 10 個までにしてください",
+                "min": "最低 2 つ以上の回答を作成する必要があります",
+                "no_voters": "投票者はいません",
+                "option_placeholder": "答え",
+                "options_label": "答え",
+                "public_poll_label": "誰が投票したかを見られるようにする",
+                "question_placeholder": "質問",
+                "submit": "作成"
+            },
+            "moderation": {
+                "delete": "投票を削除する",
+                "delete_confirm": "本当にこの投票を削除してもよろしいですか？",
+                "edit": "投票を編集する"
+            },
+            "tooltip": {
+                "badge": "投票",
+                "votes": "{count} 人が投票しました"
+            },
+            "votes_modal": {
+                "title": "投票者"
+            }
+        }
+    }
+}

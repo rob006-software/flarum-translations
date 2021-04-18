@@ -1,0 +1,48 @@
+{
+    "clarkwinkelmann-group-invitation": {
+        "forum": {
+            "title": "{group grubuna katılmak için davet edildin!",
+            "generic-title": "Grup davetiyesi",
+            "user": {
+                "already-connected": "{username} kullanısını {group} grubuna ekleyeceğiz. Doğru kullanıcı değil mi? <a>Başka bir hesapta oturum açın</a>.\n",
+                "not-connected": "Daveti kabul etmek için <a>oturum açın</a>.",
+                "not-authorized": "Mevcut kullanıcınız {username} gruplara katılma iznine sahip değil. <a>Başka bir hesapta oturum açın</a>.",
+                "already-member": "Harika bir haberimiz var, {username} kullanıcınız zaten {group} grubunun bir üyesi! Gruba başka bir kullanıcıyla katılmak ister misiniz? <a>Başka bir hesapta oturum açın</a>."
+            },
+            "invitation": {
+                "not-found": "Üzgünüz, bu grup daveti bulunamadı.",
+                "no-usages-left": "Bu grup daveti artık kullanılamaz."
+            },
+            "apply": "Gruba katıl",
+            "success-alert": "Gruba başarıyla katıldınız!"
+        },
+        "admin": {
+            "permissions": {
+                "use": "Grup davet bağlantılarını kullanın"
+            },
+            "settings": {
+                "head": {
+                    "code": "Kod",
+                    "group": "Grup",
+                    "usage": "Kullanım"
+                },
+                "placeholder": {
+                    "code": "Otomatik oluşturuldu",
+                    "group": "Seçildi...",
+                    "usage": "Sınırsız için boş bırakınız"
+                },
+                "empty": "Şimdiye kadar hiç davetiye oluşturulmadı.",
+                "unlimited": "sınırsız",
+                "create": "Oluştur",
+                "delete": "Kaldır",
+                "title": "Grup Daveti"
+            }
+        },
+        "api": {
+            "error": {
+                "not-found": "Davet kodu bulunamadı",
+                "no-usages-left": "Davet artık kullanılamaz"
+            }
+        }
+    }
+}

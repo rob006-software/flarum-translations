@@ -1,0 +1,20 @@
+{
+    "fof-amazon-affiliation": {
+        "admin": {
+            "settings": {
+                "title": {
+                    "modal": "Amazon アフィリエイト設定",
+                    "tags": "アライアンスタグ"
+                },
+                "field": {
+                    "keep-existing-tag": "アフィリエイトラベルを元のリンクに保持する",
+                    "keep-existing-tag-help": "元のリンクのタグをデフォルトで以下で定義されているタグに置き換えます",
+                    "remove-tag-if-unhandled": "覆われていない Amazon アフィリエイトタグを削除する",
+                    "remove-tag-if-unhandled-help": "リンクでカバーされていない Amazon アフィリエイトタグはデフォルトで保持されます。",
+                    "tag": "{name} (amazon.{domain})",
+                    "tag-placeholder": "これらのリンクをカバーしない場合は空白のままにします"
+                }
+            }
+        }
+    }
+}

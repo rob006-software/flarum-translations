@@ -1,0 +1,41 @@
+{
+    "nomiscz-auth-steam": {
+        "forum": {
+            "buttons": {
+                "login": "Steam でログインする",
+                "link": "Steam アカウントのリンク",
+                "unlink": "Steam アカウントのリンク解除"
+            },
+            "alerts": {
+                "already_linked": "Steam アカウントは既にリンクされています！",
+                "already_used": "Steam アカウントはすでに別のユーザーにリンクされています！",
+                "link_success": "Steam アカウントのリンクが成功しました！",
+                "unlink_success": "Steam アカウントのリンク解除に成功しました！",
+                "error": "問題が発生しました。しばらくしてからもう一度お試しください！"
+            },
+            "modals": {
+                "link": {
+                    "title": "Steam アカウントのリンク"
+                },
+                "unlink": {
+                    "title": "Steam アカウントのリンク解除",
+                    "info": {
+                        "confirm": "Steam アカウントのリンクを解除してもよろしいですか？",
+                        "no_providers": "あなたはログオンするための他の方法を持っていません。最初にアカウントのパスワードをリセットしてください。"
+                    },
+                    "buttons": {
+                        "confirm": "はい、確かです",
+                        "cancel": "キャンセル！"
+                    }
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "title": "Steam ログイン - 設定",
+                "api_key_label": "steam API Key",
+                "use_steam_powered_domain": "steamcommunity.com の代わりに steampowered.com ドメインを使用（後者は中国本土でブロックされています）"
+            }
+        }
+    }
+}

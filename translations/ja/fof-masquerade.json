@@ -1,0 +1,69 @@
+{
+    "fof-masquerade": {
+        "forum": {
+            "alerts": {
+                "profile-completion-required": "以下の必要なプロファイルフィールドに入力してください。\n",
+                "profile-completed": ""
+            },
+            "buttons": {
+                "view-profile": "プロフィールを見る",
+                "save-profile": "保存"
+            },
+            "fields": {
+                "select": {
+                    "none-optional": "オプションが選択されていません（オプション）",
+                    "none-required": "オプションを選択してください（必須）"
+                },
+                "boolean": {
+                    "yes": "はい",
+                    "no": "NO"
+                }
+            }
+        },
+        "admin": {
+            "general-options": "一般的なオプション",
+            "buttons": {
+                "add-field": "フィールドを作成",
+                "edit-field": "変更内容を保存",
+                "delete-field": "フィールドを削除"
+            },
+            "permissions": {
+                "have-profile": "仮面舞踏会のプロフィールを持っている",
+                "view-profile": "仮面舞踏会のプロフィールを見る"
+            },
+            "fields": {
+                "title": "フィールド",
+                "add": "フィールド {field} を追加",
+                "edit": "編集フィールド {field}",
+                "name": "フィールド名",
+                "name-help": "一般公開されている（翻訳できない）フィールドラベル。\n",
+                "description": "フィールドの説明",
+                "description-help": "このフィールドの使用/必要性を説明するオプションの説明。\n",
+                "required": "マークフィールドが必須",
+                "on_bio": "ユーザーの略歴にこのフィールドへの回答を表示",
+                "type": "タイプ",
+                "validation": "検証",
+                "validation-help": "サポートされている <a>Laravel validation rules</a> を参照してください。例： \"string|min:5\" または \"url\"。\n",
+                "prefix": "フィールド接頭辞",
+                "prefix-help": "このフィールドにユーザーが入力した値の前にプレフィックスを表示します。\n",
+                "icon": "Icon",
+                "icon-help": "このフィールドの前に小さなアイコンが表示されます。 利用可能なアイコンは <a>FontAwesome</a> をご覧ください，接頭辞を含む完全なチャートクラス名を使用します。例：「fas fa-bolt」。\n",
+                "force-user-to-completion": "ユーザーにプロファイルの完了を強制する",
+                "options": "オプション",
+                "option-new": "新しいオプション",
+                "option-comma-warning": "オプションのラベルにコンマ（ \",\"）を含めることはできません。"
+            },
+            "types": {
+                "advanced": "高度な",
+                "boolean": "チェックボックス",
+                "email": "電子メール",
+                "select": "落ちる",
+                "url": "URL"
+            },
+            "title": "仮面舞踏会",
+            "menu": {
+                "description": "ユーザープロファイルフィールドを構成します。\n"
+            }
+        }
+    }
+}

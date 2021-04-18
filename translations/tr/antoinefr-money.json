@@ -2,25 +2,25 @@
     "antoinefr-money": {
         "admin": {
             "settings": {
-                "title": "",
-                "moneyforpost": "",
-                "moneyfordiscussion": "",
-                "moneyname": "",
-                "postminimumlength": "",
-                "noshowzero": ""
+                "title": "Ayarlar",
+                "moneyforpost": "Yeni gönderi için verilen tutar",
+                "moneyfordiscussion": "Yeni tartışma için verilen tutar",
+                "moneyname": "Para adı (örn: [para] puan)",
+                "postminimumlength": "Para kazanmak için gönderinin minimum karakter uzunluğu (Devredışı bırakmak için 0 girin)",
+                "noshowzero": "Değer sıfır ise gösterme"
             },
             "permissions": {
-                "edit_money_label": ""
+                "edit_money_label": "Tutarı Düzenle"
             }
         },
         "forum": {
             "user_controls": {
-                "money_button": ""
+                "money_button": "Tutarı Düzenle"
             },
             "modal": {
-                "title": "",
-                "current": "",
-                "submit_button": ""
+                "title": "{username} kullanıcısının parası",
+                "current": "Mevcut:",
+                "submit_button": "=> core.ref.save_changes"
             }
         }
     }

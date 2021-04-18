@@ -1,0 +1,25 @@
+{
+    "flarum-sticky": {
+        "admin": {
+            "permissions": {
+                "sticky_discussions_label": "Vastgezette discussies"
+            }
+        },
+        "forum": {
+            "badge": {
+                "sticky_tooltip": "=> flarum-sticky.ref.sticky"
+            },
+            "discussion_controls": {
+                "sticky_button": "=> flarum-sticky.ref.sticky",
+                "unsticky_button": "Losmaken"
+            },
+            "post_stream": {
+                "discussion_stickied_text": "{username} heeft deze discussie vastgezet.",
+                "discussion_unstickied_text": "{username} heeft deze discussie losgemaakt."
+            }
+        },
+        "ref": {
+            "sticky": "Vastzetten"
+        }
+    }
+}

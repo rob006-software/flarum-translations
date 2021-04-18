@@ -2,16 +2,16 @@
     "fof-github-sponsors": {
         "admin": {
             "account_types": {
-                "user": "",
-                "organization": ""
+                "user": "用户",
+                "organization": "组织"
             },
             "settings": {
-                "title": "",
-                "desc": "",
-                "api_token_label": "",
-                "account_type_label": "",
-                "login_label": "",
-                "group_label": ""
+                "desc": "从 <a>https://github.com/settings/tokens/new</a> 获取您的 API 令牌。本扩展需要 <code>user</code> 和 <code>read:org</code> 权限。",
+                "api_token_label": "API 令牌",
+                "account_type_label": "账户类型",
+                "login_label": "登录",
+                "group_label": "用户组分配",
+                "title": "FriendsOfFlarum GitHub Sponsors"
             }
         }
     }

@@ -1,0 +1,28 @@
+{
+    "migratetoflarum-canonical": {
+        "admin": {
+            "settings": {
+                "step": {
+                    "how_to": "正規リダイレクトを有効にする方法",
+                    "check_config_url": "config.phpで定義されている URL が優先する正規 URL であることを確認してください（現在：{url}）",
+                    "admin_on_canonical": "正規 URL 経由で管理パネルにアクセスします",
+                    "enable_temporary": "一時的なリダイレクトを有効にして、すべてが機能することを確認します",
+                    "enable_permanent": "永続的なリダイレクトを有効にする",
+                    "suggestions": "この拡張機能が適用またはカバーしないその他の提案",
+                    "use_https": "HTTPS正規URLを使用する",
+                    "use_hsts": "HSTS を使用してダウングレード攻撃を防止する"
+                },
+                "field": {
+                    "status": "リダイレクトタイプ",
+                    "wrong_url": "正規のURLからフォーラムにアクセスすると、拡張機能の設定が表示されます"
+                },
+                "option": {
+                    "disabled": "無効（拡張機能は何もしません）",
+                    "302": "302 （テストに適した一時ジャンプ）",
+                    "301": "301 （生産のための永続的なリダイレクト）"
+                },
+                "title": "カノニカルのURL設定"
+            }
+        }
+    }
+}

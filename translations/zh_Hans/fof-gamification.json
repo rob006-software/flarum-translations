@@ -39,9 +39,6 @@
                 "see_votes_label": "查看帖子赞/踩",
                 "see_ranking_page": "查看等级"
             },
-            "nav": {
-                "desc": "增强 Flarum 论坛的游戏性"
-            },
             "page": {
                 "rankings": {
                     "blocked": {
@@ -62,6 +59,7 @@
                     "auto_upvote": "当帖子发布时自动点赞",
                     "rate_limit": "点赞频率限制（10 秒）",
                     "discussion_page": "在帖子列表中显示点赞总数",
+                    "alternate_layout": "使用仿 Reddit 投票布局",
                     "title": "赞",
                     "vote_color": "点赞颜色",
                     "icon_name": "赞/踩图标",
@@ -70,7 +68,7 @@
                 "save_settings": "保存设置",
                 "convert": {
                     "button": "同步原生点赞数据",
-                    "help": "同步 Flarum 论坛原生 Likes 插件产生的点赞数据，并计算所有当前讨论的热度",
+                    "help": "同步 Flarum 论坛原生 Likes 插件产生的点赞数据，并计算所有当前讨论的热度。",
                     "converting": "原生 LIkes 插件的点赞数据正在同步中，请等待几分钟后刷新页面查看同步结果。（同步可能需要一段时间，具体取决于您服务器性能）",
                     "converted": "成功同步 {number} 个喜欢"
                 },
@@ -85,6 +83,9 @@
                         "name": "名称"
                     }
                 }
+            },
+            "nav": {
+                "desc": "增强 Flarum 论坛的游戏性"
             }
         }
     }

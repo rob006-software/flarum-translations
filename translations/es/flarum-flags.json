@@ -1,0 +1,50 @@
+{
+    "flarum-flags": {
+        "admin": {
+            "permissions": {
+                "flag_posts_label": "Reportar mensajes",
+                "view_flags_label": "Ver mensajes reportados"
+            },
+            "settings": {
+                "flag_own_posts_label": "Permitir a usuarios reportar sus propios mensajes",
+                "guidelines_url_label": "Normas del Foro (URL)",
+                "title": "Ajustes de reportes"
+            }
+        },
+        "forum": {
+            "flag_post": {
+                "confirmation_message": "Gracias por reportar el mensaje. El Equipo del Foro lo revisará lo antes posible.",
+                "dismiss_button": "=> core.ref.okay",
+                "reason_details_placeholder": "Detalles adicionales (opcional)",
+                "reason_inappropriate_label": "Inapropiado",
+                "reason_inappropriate_text": "Este mensaje es ofensivo, inapropiado o viola las <a>Normas del Foro</a>.",
+                "reason_missing_message": "Proporciona algunos detalles para nuestros moderadores.",
+                "reason_off_topic_label": "Fuera de tema",
+                "reason_off_topic_text": "Este mensaje no es relevante a la discusión.",
+                "reason_other_label": "Otros",
+                "reason_spam_label": "Spam",
+                "reason_spam_text": "Este mensaje es un anuncio comercial.",
+                "submit_button": "=> flarum-flags.ref.flag_post",
+                "title": "=> flarum-flags.ref.flag_post"
+            },
+            "flagged_posts": {
+                "empty_text": "No hay reportes",
+                "item_text": "{username} en <em>{discussion}</em>",
+                "title": "=> flarum-flags.ref.flagged_posts",
+                "tooltip": "=> flarum-flags.ref.flagged_posts"
+            },
+            "post": {
+                "dismiss_flag_button": "Eliminar reporte",
+                "flagged_by_text": "Reportado por {username}",
+                "flagged_by_with_reason_text": "Reportado por {username} como {reason}"
+            },
+            "post_controls": {
+                "flag_button": "Reportar"
+            }
+        },
+        "ref": {
+            "flag_post": "Reportar mensaje",
+            "flagged_posts": "Reportes"
+        }
+    }
+}

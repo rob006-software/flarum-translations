@@ -1,0 +1,63 @@
+{
+    "malago-achievements": {
+        "forum": {
+            "achievement_points": "Puanlar",
+            "new_achievement_title": "Yeni başarı!",
+            "new_achievement_name": "Başarı",
+            "new_achievement_close": "Anladım!"
+        },
+        "admin": {
+            "achievement_modal": {
+                "title": "Başarı Oluştur",
+                "name_label": "İsim",
+                "name_placeholder": "Başarı Adı",
+                "active_label": "Aktif",
+                "description_label": "Açıklama",
+                "description_placeholder": "Başarı Açıklaması",
+                "variable_label": "Değişken",
+                "computation_label": "Hesaplanacak değişken: gönderiler, yorumlar, kendini beğenmeleri, tartışmalar, yorumlar, düzenlemeler, avatar, yıl\n",
+                "computation_placeholder": "Sayı",
+                "points_label": "Bu başarının puanları",
+                "points_placeholder": "0\n",
+                "image_label": "Görsel Bağlantısı",
+                "image_placeholder": "Görsel Resim Bağlantısı",
+                "row_label": "Satır",
+                "row_placeholder": "0",
+                "col_label": "Sütun",
+                "col_placeholder": "0",
+                "width_label": "Resim genişliği",
+                "width_placeholder": "32",
+                "height_label": "Resim yüksekliği",
+                "height_placeholder": "32",
+                "submit_button": "=> core.ref.save_changes",
+                "delete_button": "Başarıyı Sil",
+                "delete_confirmation": "Bu başarıyı silmek istediğinize emin misiniz?",
+                "add_delete_title": "Kullanıcıdan başarı ekleme veya kaldırma",
+                "username": "Kullanıcı adı",
+                "username_placeholder": "Kullanıcı adı",
+                "add_delete_instructions": "Kullanıcının başarısı yoksa, ona eklenecektir. Kullanıcının başarısı varsa, ondan kaldırılacaktır.",
+                "variable": {
+                    "manual": "Elle",
+                    "posts": "Gönderiler",
+                    "likes": "Verilen beğeniler",
+                    "selflikes": "Alınan beğeniler",
+                    "discussions": "Tartışmalar",
+                    "edits": "Düzenlenen gönderiler",
+                    "avatar": "Avatar yükleme",
+                    "contains": "Şunu içeren mesajlar",
+                    "comments": "Bir tartışmada alınan yanıtlar",
+                    "years": "Kayıt olunan yıl",
+                    "meanwords": "Ortalama kelime",
+                    "tagposts": "Etiketteki gönderiler"
+                }
+            },
+            "achievements_page": {
+                "list_heading": "Başarımlar",
+                "create_achievement_button": "Yeni Başarım Oluştur",
+                "instructions_header": "Talimatlar",
+                "instructions_text": "<li>Bir başarı oluşturmak için bir ad vermelisiniz.</li>\n<li>Açıklama isteğe bağlıdır.</li>\n<li>Başarı için hesaplamak istediğiniz değişkeni listeden seçin.</li>\n<li>Başarının etkinleştirilmesi için aralığı tanıtın. Minimum aralığı ve maksimum aralığı belirtmek için virgülle (,) ayrılmış iki sayı girebilirsiniz (her iki sayı da dahildir).</li>\n<li>İki aralıklı başarılar, sayı üst aralığı aşarsa kaldırılır. </li>\n<li>\"Mesaj içerir\" başarısı için, belirtilen kelimeyi ve ardından virgülle ayrılmış eşiği girmeniz gerekir (ör. minimum ve maksimum eşik için \"ıspanak, 5\" veya \"ıspanak, 5,10\")</ li>\n<li>Bu başarı için kullanılacak simgenin bulunduğu resmin bağlantısını belirtin.</li>\n<li>Simgenin genişliğini ve yüksekliğini belirtin.</li>\n<li>İsteğe bağlı: Resimde birden fazla başarı simgesi varsa, simge için hangi satırı ve sütunun gösterileceğini seçebilirsiniz.</li>\n",
+                "add_delete_users": "Kullanıcıdan başarım ekle/kaldır"
+            }
+        }
+    }
+}

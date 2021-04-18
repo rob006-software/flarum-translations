@@ -2,54 +2,56 @@
     "kyrne-shout": {
         "admin": {
             "settings": {
-                "title": "",
-                "set_own_password": ""
+                "return_key": "Przycisk Enter wysyła wiadomość",
+                "title": "Ustawienia Shout",
+                "set_own_password": "Pozwól użytkownikom ustawić własne hasło (kompatybilność z SSO)"
             },
             "permissions": {
-                "start_label": ""
+                "start_label": "Rozpoczynanie prywatnych konwersacji"
             }
         },
         "forum": {
             "dropdown": {
-                "tooltip": ""
+                "tooltip": "Konwersacje"
             },
             "setup": {
-                "title": "",
-                "header_setup": "",
-                "header_import": "",
-                "header_set_own": "",
-                "passwords_mismatch": "",
-                "invalid_password": "",
-                "button_import": "",
-                "button_setup": "",
-                "confirm_password": "",
-                "success": ""
+                "title": "Skonfiguruj prywatne wiadomości",
+                "header_setup": "Wpisz hasło do swojego konta, aby skonfigurować prywatne wiadomości.",
+                "header_import": "Wpisz hasło do swojego konta, aby zaimportować prywatne wiadomości.",
+                "header_set_own": "Wpisz hasło, aby skonfigurować prywatne wiadomości.",
+                "header_set_own_import": "Wpisz hasło do swoich prywatnych wiadomości, aby je zaimportować.",
+                "passwords_mismatch": "Hasła się nie zgadzają",
+                "invalid_password": "Twoje hasło jest nieprawidłowe.",
+                "button_import": "Importuj",
+                "button_setup": "Konfiguruj",
+                "confirm_password": "Potwierdź hasło",
+                "success": "Prywatne wiadomości zostały skonfigurowane, strona zostanie odświeżona..."
             },
             "modal": {
-                "title": "",
-                "help": "",
-                "help_start": "",
-                "search_recipients": "",
-                "submit": "",
-                "copied": "",
-                "more_users": "",
-                "already": ""
+                "title": "Rozpocznij konwersację",
+                "help": "Wpisz nazwę użytkownika, aby rozpocząć rozmowę.",
+                "help_start": "Wpisz swoją pierwszą wiadomość. To będzie jedyna wiadomość, jaką możesz wysłać, do czasu aż {username} odpowie. Kliknij na użytkownika, aby wybrać innego adresata.",
+                "search_recipients": "Wpisz nazwę użytkownika...",
+                "submit": "Wyślij i rozpocznij konwersację",
+                "copied": "Twoja wiadomość została skopiowana do schowka.",
+                "more_users": "Jeśli nie widzisz użytkownika, którego szukasz, prawdopodobnie nie ma on skonfigurowanych prywatnych wiadomości.",
+                "already": "Już masz rozpoczętą konwersację z {username}."
             },
-            "user_modal_alert": "",
+            "user_modal_alert": "{username} ma skonfigurowane prywatne wiadomości, jego hasło nie może być bezpiecznie zmienione.",
             "chat": {
-                "chat_with": "",
-                "messages_multiple": "",
-                "messages_single": "",
-                "start": "",
-                "cant_start": "",
-                "text_placeholder": "",
-                "send": "",
-                "recovery_message": "",
-                "failed_message": "",
-                "cant_send": "",
-                "cant_send_toomany": "",
-                "failed_to_decrypt": "",
-                "start_of_conversation": ""
+                "chat_with": "Rozmowa z {username}",
+                "messages_multiple": "{count} wiadomości",
+                "messages_single": "Nowa konwersacja",
+                "start": "Rozpocznij konwersację",
+                "cant_start": "Nie możesz rozpocząć konwersacji",
+                "text_placeholder": "Wpisz swoją wiadomość",
+                "send": "Wyślij wiadomość",
+                "recovery_message": "Wiadomość systemowa: Encryption sync lost and recovered",
+                "failed_message": "Nie udało się odszyfrować wiadomości, próba odzyskiwania metodą #{method}",
+                "cant_send": "Nie możesz wysłać wiadomości do czasu aż {username} odpowie (jedynie pierwsza wiadomość)",
+                "cant_send_toomany": "Musisz poczekać na odpowiedź od {username} zanim wyślesz kolejne wiadomości",
+                "failed_to_decrypt": "[Nie udało się odszyfrować]",
+                "start_of_conversation": "Początek konwersacji"
             }
         }
     }

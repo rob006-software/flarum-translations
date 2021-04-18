@@ -1,0 +1,566 @@
+{
+    "core": {
+        "admin": {
+            "appearance": {
+                "colored_header_label": "Gekleurde header",
+                "colors_heading": "Kleuren",
+                "colors_text": "Kies twee kleuren om je forum mee vorm te geven. De eerste zal worden gebruikt als highlight-kleur, terwijl de tweede wordt gebruikt voor achtergrond elementen.",
+                "custom_footer_heading": "Eigen voettekst",
+                "custom_footer_text": "=> core.ref.custom_footer_text",
+                "custom_header_heading": "Eigen header",
+                "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_heading": "Eigen stijl",
+                "custom_styles_text": "Pas je forum's uiterlijk aan doormiddel van eigen LESS/CSS code bovenop Flarum's standaard stijl.",
+                "dark_mode_label": "Donkere stijl",
+                "description": "Pas de kleuren, logo's en andere variabelen van uw forum aan.",
+                "edit_css_button": "Eigen CSS bewerken",
+                "edit_footer_button": "=> core.ref.custom_footer_title",
+                "edit_header_button": "=> core.ref.custom_header_title",
+                "enter_hex_message": "Kies a.u.b. een hexadecimale kleurcode.",
+                "favicon_heading": "Favicon",
+                "favicon_text": "Upload een afbeelding om weergegeven te worden als snelkoppeling.",
+                "logo_heading": "Logo",
+                "logo_text": "Upload een afbeelding om weergegeven te worden i.p.v. de forum titel.",
+                "title": "Vormgeving",
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "basics": {
+                "all_discussions_label": "=> core.ref.all_discussions",
+                "default_language_heading": "Standaard taal",
+                "description": "Stel uw forumtitel, taal en andere basisinstellingen in.",
+                "display_name_heading": "Gebruikersnaam",
+                "display_name_text": "Selecteer de driver dat moet worden gebruikt voor de weergavenamen van gebruikers. Standaard wordt de gebruikersnaam weergegeven.",
+                "forum_description_heading": "Forum beschrijving",
+                "forum_description_text": "Schrijf een zin of twee die je community omschrijft. Deze zal staan in de meta tag en verschijnen in zoekmachines.",
+                "forum_title_heading": "Forum titel",
+                "home_page_heading": "Homepage",
+                "home_page_text": "Kies de pagina die gebruikers voor het eerst te zien krijgen wanneer ze je forum bezoeken. Als je zelf een waarde typt, gebruik dan het path relatief aan de forum root.",
+                "show_language_selector_label": "Toon taalkiezer",
+                "slug_driver_heading": "Slug Driver: {model}",
+                "slug_driver_text": "Selecteer een driver dat moet worden gebruikt om dit model te sluggen.",
+                "title": "Basis",
+                "welcome_banner_heading": "Welkom banner",
+                "welcome_banner_text": "Configureer de tekst die wordt weergegeven in de banner op de 'Alle discussies' pagina. Gebruik dit om je gasten welkom te heten.",
+                "saved_message": "De wijzigingen zijn opgeslagen.",
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "dashboard": {
+                "clear_cache_button": "Cache wissen",
+                "description": "Uw forum in één oogopslag.",
+                "title": "Dashboard",
+                "tools_button": "Hulpmiddelen"
+            },
+            "edit_css": {
+                "customize_text": "Pas je forum's uiterlijk aan doormiddel van eigen LESS/CSS code bovenop Flarum's <a>standaard stijl</a>.",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Eigen CSS bijwerken"
+            },
+            "edit_footer": {
+                "customize_text": "=> core.ref.custom_footer_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_footer_title"
+            },
+            "edit_group": {
+                "color_label": "=> core.ref.color",
+                "delete_button": "Verwijder groep",
+                "delete_confirmation": "Weet je zeker dat je deze groep wilt verwijderen? De groepsleden worden NIET verwijdert.",
+                "hide_label": "Verbergen op forum",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "Naam",
+                "plural_placeholder": "Meervoud (bijv. Moderators)",
+                "singular_placeholder": "Enkelvoud (bijv. Moderator)",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Maak groep"
+            },
+            "edit_header": {
+                "customize_text": "=> core.ref.custom_header_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_header_title"
+            },
+            "email": {
+                "addresses_heading": "Adressen",
+                "description": "Configureer de driver, instellingen en adressen die uw forum zal gebruiken om e-mail te verzenden.",
+                "driver_heading": "Kies een driver",
+                "driver_label": "Driver",
+                "from_label": "Afzender",
+                "mail_encryption_label": "Encryptie",
+                "mail_host_label": "Host",
+                "mail_mailgun_domain_label": "Domein",
+                "mail_mailgun_region_label": "Regio",
+                "mail_mailgun_secret_label": "Privé sleutel",
+                "mail_password_label": "=> core.ref.password",
+                "mail_port_label": "Poort",
+                "mail_username_label": "=> core.ref.username",
+                "mailgun_heading": "Mailgun instellingen",
+                "not_sending_message": "Flarum verzendt momenteel geen e-mails. Dit kan komen door de geselecteerde driver of door fouten in de configuratie.",
+                "send_test_mail_button": "Verstuur",
+                "send_test_mail_heading": "Verstuur testmail",
+                "send_test_mail_success": "Testmail succesvol verzonden!",
+                "send_test_mail_text": "Hiermee wordt een e-mail met de bovenstaande configuratie naar uw e-mailadres gestuurd, {email}.",
+                "smtp_heading": "SMTP instellingen",
+                "title": "=> core.ref.email",
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "extension": {
+                "configure_scopes": "Configureer bereiken",
+                "confirm_uninstall": "Als u de installatie ongedaan maakt, worden alle database-items en assets die betrekking hebben op de extensie verwijderd. Weet je zeker dat je door wilt gaan?",
+                "disabled": "Uitgeschakeld",
+                "enable_to_see": "Schakel de extensie in om instellingen te bekijken en te wijzigen.",
+                "enabled": "Ingeschakeld",
+                "info_links": {
+                    "discuss": "Discussiëren",
+                    "documentation": "Documentatie",
+                    "donate": "Doneren",
+                    "source": "Broncode",
+                    "support": "Support",
+                    "website": "Website"
+                },
+                "no_permissions": "Deze extensie heeft geen rechten.",
+                "no_settings": "Deze extensie heeft geen instellingen.",
+                "open_modal": "Open instellingen",
+                "permissions_title": "Rechten",
+                "uninstall_button": "Deïnstalleren",
+                "saved_message": "Uw wijzigingen zijn opgeslagen."
+            },
+            "header": {
+                "get_help": "Krijg hulp",
+                "log_out_button": "=> core.ref.log_out"
+            },
+            "loading": {
+                "title": "Even geduld..."
+            },
+            "nav": {
+                "appearance_button": "=> core.admin.appearance.title",
+                "appearance_title": "=> core.admin.appearance.description",
+                "basics_button": "=> core.admin.basics.title",
+                "basics_title": "=> core.admin.basics.description",
+                "categories": {
+                    "authentication": "Authenticatie",
+                    "core": "Core Configuratie",
+                    "discussion": "Discussie",
+                    "feature": "Features",
+                    "formatting": "Formattering",
+                    "language": "Talen",
+                    "moderation": "Moderatie",
+                    "other": "Andere Extensies",
+                    "theme": "Thema's"
+                },
+                "dashboard_button": "=> core.admin.dashboard.title",
+                "dashboard_title": "=> core.admin.dashboard.description",
+                "email_button": "=> core.ref.email",
+                "email_title": "=> core.admin.email.description",
+                "permissions_button": "=> core.admin.permissions.title",
+                "permissions_title": "=> core.admin.permissions.description",
+                "search_placeholder": "Extensies zoeken"
+            },
+            "permissions": {
+                "allow_post_editing_label": "Sta bericht bewerking toe",
+                "allow_renaming_label": "Sta hernoemen toe",
+                "create_heading": "Maak",
+                "delete_discussions_forever_label": "Verwijder discussies permanent",
+                "delete_discussions_label": "Verwijder discussies",
+                "delete_posts_forever_label": "Verwijder berichten permanent",
+                "delete_posts_label": "Verwijder berichten",
+                "description": "Configureer wie wat kan zien en doen.",
+                "edit_posts_label": "Wijzig berichten",
+                "edit_users_label": "Wijzig gebruikers",
+                "edit_users_credentials_label": "Bewerk gebruikersgegevens",
+                "edit_users_groups_label": "Bewerk gebruikersgroepen",
+                "global_heading": "Globaal",
+                "moderate_heading": "Moderatie",
+                "new_group_button": "Nieuwe groep",
+                "participate_heading": "Meedoen",
+                "post_without_throttle_label": "Reageer meerdere keren zonder te wachten",
+                "read_heading": "Lezen",
+                "rename_discussions_label": "Discussies hernoemen",
+                "reply_to_discussions_label": "Reageren op discussies",
+                "sign_up_label": "Registreren",
+                "start_discussions_label": "Start discussies",
+                "title": "Permissies",
+                "view_discussions_label": "Bekijk discussies",
+                "view_hidden_groups_label": "Bekijk verborgen groepsbadges",
+                "view_last_seen_at_label": "Bekijk gebruiker laatst gezien",
+                "view_post_ips_label": "Bekijk IP adressen van bericht",
+                "view_user_list_label": "Bekijk gebruikerslijst"
+            },
+            "permissions_controls": {
+                "allow_indefinitely_button": "Voor onbepaalde tijd",
+                "allow_some_minutes_button": "Voor {count} minuut|Voor {count} minuten",
+                "allow_ten_minutes_button": "Voor 10 minuten",
+                "allow_until_reply_button": "Tot de volgende reactie",
+                "everyone_button": "Iedereen",
+                "members_button": "=> core.group.members",
+                "signup_closed_button": "Gesloten",
+                "signup_open_button": "Open"
+            },
+            "settings": {
+                "saved_message": "Uw wijzigingen zijn opgeslagen.",
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "upload_image": {
+                "remove_button": "Verwijderen",
+                "upload_button": "Afbeelding kiezen..."
+            }
+        },
+        "forum": {
+            "change_email": {
+                "confirm_password_placeholder": "=> core.ref.confirm_password",
+                "confirmation_message": "=> core.ref.confirmation_email_sent",
+                "dismiss_button": "=> core.ref.okay",
+                "incorrect_password_message": "Het ingevulde wachtwoord is verkeerd.",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.change_email"
+            },
+            "change_password": {
+                "send_button": "Stuur e-mail",
+                "text": "klik op de onderstaande knop en check je e-mail voor een link om je wachtwoord te veranderen.",
+                "title": "=> core.ref.change_password"
+            },
+            "composer": {
+                "close_tooltip": "Sluiten",
+                "exit_full_screen_tooltip": "Sluit volledig scherm",
+                "full_screen_tooltip": "Volledig scherm",
+                "minimize_tooltip": "Minimaliseren",
+                "preview_tooltip": "Voorvertoning"
+            },
+            "composer_discussion": {
+                "body_placeholder": "Schrijf een bericht...",
+                "discard_confirmation": "Je hebt je bericht nog niet geplaatst. Weet je zeker dat je wilt annuleren?",
+                "submit_button": "Plaatsen",
+                "title": "=> core.ref.start_a_discussion",
+                "title_placeholder": "Discussie titel"
+            },
+            "composer_edit": {
+                "discard_confirmation": "Je hebt je wijzigingen nog niet opgeslagen. Weet je zeker dat je wilt annuleren?",
+                "edited_message": "Je bewerking is gemaakt.",
+                "post_link": "Bericht #{number} in {discussion}",
+                "submit_button": "=> core.ref.save_changes",
+                "view_button": "=> core.ref.view"
+            },
+            "composer_reply": {
+                "body_placeholder": "=> core.ref.write_a_reply",
+                "discard_confirmation": "Je hebt je reactie nog niet geplaatst. Weet je zeker dat je wilt annuleren?",
+                "posted_message": "Je reactie is geplaatst.",
+                "submit_button": "Plaats reactie",
+                "view_button": "=> core.ref.view"
+            },
+            "discussion_controls": {
+                "cannot_reply_button": "Je kan niet reageren",
+                "cannot_reply_text": "Je hebt geen permissie om op deze discussie te reageren.",
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "Weet je zeker dat je deze discussie wilt verwijderen?",
+                "delete_forever_button": "=> core.ref.delete_forever",
+                "log_in_to_reply_button": "Log in om te reageren",
+                "rename_button": "=> core.ref.rename",
+                "reply_button": "=> core.ref.reply",
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": "Toggle actiemenu van discussie"
+            },
+            "discussion_list": {
+                "empty_text": "Het lijkt erop dat er hier geen discussies zijn.",
+                "load_more_button": "=> core.ref.load_more",
+                "mark_as_read_tooltip": "Markeren als gelezen",
+                "replied_text": "{username} heeft {ago} gereageerd",
+                "started_text": "{username} heeft {ago} gereageerd"
+            },
+            "edit_user": {
+                "activate_button": "Activeer gebruiker",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "Groepen",
+                "nothing_available": "Er is op dit moment niets beschikbaar dat u kunt bewerken.",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "Stel een nieuw wachtwoord in",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Gebruiker bewerken",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username"
+            },
+            "forgot_password": {
+                "dismiss_button": "=> core.ref.okay",
+                "email_placeholder": "=> core.ref.email",
+                "email_sent_message": "We hebben een e-mail gestuurd met een link om uw wachtwoord opnieuw in te stellen. Als je geen e-mail hebt ontvangen controleer dan je spam map.",
+                "not_found_message": "Er is geen gebruiker geregistreerd met dit e-mail adres.",
+                "submit_button": "Wachtwoord opnieuw instellen",
+                "text": "Vul je e-mailadres in, dan sturen we je een e-mail met een link om je wachtwoord opnieuw in te stellen.",
+                "title": "Wachtwoord vergeten"
+            },
+            "header": {
+                "admin_button": "Administratie",
+                "back_to_index_tooltip": "Terug naar discussielijst",
+                "locale_dropdown_accessible_label": "Verander forum taal",
+                "log_in_link": "=> core.ref.log_in",
+                "log_out_button": "=> core.ref.log_out",
+                "profile_button": "Profiel",
+                "search_placeholder": "Zoeken",
+                "session_dropdown_accessible_label": "Toggle sessie opties menu",
+                "settings_button": "=> core.ref.settings",
+                "sign_up_link": "=> core.ref.sign_up"
+            },
+            "index": {
+                "all_discussions_link": "=> core.ref.all_discussions",
+                "cannot_start_discussion_button": "Kan Discussie Niet Starten",
+                "mark_all_as_read_confirmation": "Weet je zeker dat je alle discussies als gelezen wilt markeren?",
+                "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "meta_title_text": "=> core.ref.all_discussions",
+                "refresh_tooltip": "Herladen",
+                "start_discussion_button": "=> core.ref.start_a_discussion",
+                "toggle_sidenav_dropdown_accessible_label": "Toggle navigatie dropdown menu"
+            },
+            "index_sort": {
+                "latest_button": "Laatste",
+                "newest_button": "Nieuwste",
+                "oldest_button": "Oudste",
+                "relevance_button": "Relevantste",
+                "toggle_dropdown_accessible_label": "Verander de sortering van de discussielijst",
+                "top_button": "Top"
+            },
+            "log_in": {
+                "forgot_password_link": "Wachtwoord vergeten?",
+                "invalid_login_message": "Logingegevens incorrect.",
+                "password_placeholder": "=> core.ref.password",
+                "remember_me_label": "Ingelogd blijven",
+                "sign_up_text": "Nog geen account? <a>Registreren</a>",
+                "submit_button": "=> core.ref.log_in",
+                "title": "=> core.ref.log_in",
+                "username_or_email_placeholder": "Gebruikersnaam of e-mail"
+            },
+            "notifications": {
+                "discussion_renamed_text": "{username} heeft de titel veranderd",
+                "empty_text": "Geen notificaties",
+                "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "mark_as_read_tooltip": "Markeren als gelezen",
+                "title": "=> core.ref.notifications",
+                "toggle_dropdown_accessible_label": "Bekijk meldingen",
+                "tooltip": "=> core.ref.notifications"
+            },
+            "post": {
+                "edited_text": "Bijgewerkt",
+                "edited_tooltip": "{username} heeft dit {ago} bewerkt",
+                "number_tooltip": "Bericht #{number}"
+            },
+            "post_controls": {
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "Weet je zeker dat je dit bericht voor altijd wilt verwijderen? Deze actie kan niet ongedaan gemaakt worden.",
+                "delete_forever_button": "=> core.ref.delete_forever",
+                "edit_button": "=> core.ref.edit",
+                "hide_confirmation": "Weet je zeker dat je dit bericht wilt verwijderen?",
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": "Toggle actiemenu van bericht"
+            },
+            "post_scrubber": {
+                "now_link": "Nu",
+                "original_post_link": "Origineel bericht",
+                "unread_text": "{count} ongelezen",
+                "viewing_text": "{index} van {count} bericht|{index} van {count} berichten"
+            },
+            "post_stream": {
+                "discussion_renamed_old_tooltip": "De titel was: \"{old}\"",
+                "discussion_renamed_text": "{username} heeft de titel veranderd naar {new}.",
+                "load_more_button": "=> core.ref.load_more",
+                "reply_placeholder": "=> core.ref.write_a_reply",
+                "time_lapsed_text": "{period} later"
+            },
+            "rename_discussion": {
+                "submit_button": "=> core.ref.rename",
+                "title": "Discussie hernoemen"
+            },
+            "search": {
+                "all_discussions_button": "Zoek in alle discussies naar \"{query}\"",
+                "discussions_heading": "=> core.ref.discussions",
+                "users_heading": "=> core.ref.users"
+            },
+            "settings": {
+                "account_heading": "Account",
+                "change_email_button": "=> core.ref.change_email",
+                "change_password_button": "=> core.ref.change_password",
+                "notifications_heading": "=> core.ref.notifications",
+                "notify_by_email_heading": "=> core.ref.email",
+                "notify_by_web_heading": "Web",
+                "notify_discussion_renamed_label": "Iemand heeft een discussie die jij hebt gestart hernoemd",
+                "privacy_disclose_online_label": "Laat anderen zien wanneer ik online ben",
+                "privacy_heading": "Privacy",
+                "title": "=> core.ref.settings"
+            },
+            "sign_up": {
+                "dismiss_button": "=> core.ref.okay",
+                "email_placeholder": "=> core.ref.email",
+                "log_in_text": "Al een account? <a>Log in</a>",
+                "password_placeholder": "=> core.ref.password",
+                "submit_button": "=> core.ref.sign_up",
+                "title": "=> core.ref.sign_up",
+                "username_placeholder": "=> core.ref.username",
+                "welcome_text": "Welkom, {username}!"
+            },
+            "user": {
+                "avatar_remove_button": "Verwijder",
+                "avatar_upload_button": "Upload",
+                "avatar_upload_tooltip": "Upload een nieuwe avatar",
+                "discussions_link": "=> core.ref.discussions",
+                "in_discussion_text": "In {discussion}",
+                "joined_date_text": "Geregistreerd: {ago}",
+                "online_text": "Online",
+                "posts_empty_text": "Zo te zien zijn er hier geen berichten.",
+                "posts_link": "=> core.ref.posts",
+                "posts_load_more_button": "=> core.ref.load_more",
+                "settings_link": "=> core.ref.settings"
+            },
+            "user_controls": {
+                "button": "Acties",
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "Weet je zeker dat je deze gebruiker wilt verwijderen? De berichten van de gebruiker worden NIET verwijderd.",
+                "delete_error_message": "Het verwijderen van gebruiker <i>{username} ({email})</i> is niet gelukt",
+                "delete_success_message": "Gebruiker <i>{username} ({email})</i> is verwijderd",
+                "edit_button": "=> core.ref.edit",
+                "toggle_dropdown_accessible_label": "Toggle actiemenu van gebruiker"
+            },
+            "user_email_confirmation": {
+                "alert_message": "=> core.ref.confirmation_email_sent",
+                "resend_button": "Bevestigings e-mail opnieuw sturen",
+                "sent_message": "Verstuurd"
+            }
+        },
+        "lib": {
+            "badge": {
+                "hidden_tooltip": "Verborgen"
+            },
+            "dropdown": {
+                "toggle_dropdown_accessible_label": "Toggle menu"
+            },
+            "error": {
+                "dependent_extensions_message": "Kan {extension} pas uitschakelen als de volgende afhankelijke extensies zijn uitgeschakeld: {extensions}",
+                "generic_message": "Oeps! Er is iets misgegaan. Herlaad de pagina en probeer het opnieuw.",
+                "missing_dependencies_message": "Kan {extension} pas inschakelen als de volgende afhankelijke extensies zijn ingeschakeld: {extensions}",
+                "not_found_message": "Het opgevraagde kon niet worden gevonden.",
+                "permission_denied_message": "Je hebt geen permissie om dat te doen.",
+                "rate_limit_exceeded_message": "Je gaat een beetje te snel. Probeer het over een paar seconden nog eens."
+            },
+            "number_suffix": {
+                "kilo_text": "K",
+                "mega_text": "M"
+            },
+            "series": {
+                "glue_text": ", ",
+                "three_text": "{first}, {second}, en {third}",
+                "two_text": "{first} en {second}"
+            },
+            "username": {
+                "deleted_text": "[verwijderd]"
+            }
+        },
+        "views": {
+            "content": {
+                "javascript_disabled_message": "Deze website werkt het beste in een moderne browser met JavaScript ingeschakeld.",
+                "load_error_message": "Er is iets misgegaan bij het laden van de volledige versie van deze website.",
+                "loading_text": "Laden..."
+            },
+            "discussion": {
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
+            },
+            "error": {
+                "csrf_token_mismatch": "Je bent te lang inactief geweest.",
+                "csrf_token_mismatch_return_link": "Ga terug om het opnieuw te proberen",
+                "invalid_confirmation_token": "Deze bevestigingslink is al gebruikt of is ongeldig.",
+                "not_authenticated": "U hebt geen toestemming om deze pagina te openen. Probeer het opnieuw na het inloggen.",
+                "not_found": "De door u opgevraagde pagina kon niet worden gevonden.",
+                "not_found_return_link": "Terug naar {forum}",
+                "permission_denied": "U hebt geen toestemming om deze pagina te openen.",
+                "unknown": "Er is een fout opgetreden bij het laden van deze pagina."
+            },
+            "index": {
+                "all_discussions_heading": "=> core.ref.all_discussions",
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
+            },
+            "log_out": {
+                "log_out_button": "=> core.ref.log_out",
+                "log_out_confirmation": "Ben je zeker dat u wilt uitloggen uit {forum}?",
+                "title": "=> core.ref.log_out"
+            },
+            "reset_password": {
+                "confirm_password_label": "Bevestig nieuw wachtwoord",
+                "new_password_label": "Nieuw wachtwoord",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.reset_your_password"
+            }
+        },
+        "api": {
+            "invalid_username_message": "De gebruikersnaam mag alleen letters, cijfers en streepjes (-) bevatten."
+        },
+        "email": {
+            "activate_account": {
+                "subject": "Activeer je nieuwe account",
+                "body": "Hoi {username}!\n\nIemand (hopelijk jij!) heeft zich aangemeld op {forum} met dit e-mailadres.\nAls jij dit was, klik dan op deze link om je account te activeren:\n{url}\n\nAls jij je niet hebt aangemeld, kan je deze e-mail negeren.\n"
+            },
+            "confirm_email": {
+                "subject": "Bevestig je nieuwe e-mailadres",
+                "body": "Hoi {username}!\n\nIemand (hopelijk jij!) heeft zijn e-mailadres op {forum} naar deze veranderd.\nAls jij dit was, klik dan op deze link om je e-mailadres te bevestigen:\n{url}\n\nAls jij dit niet was, kan je deze e-mail negeren.\n"
+            },
+            "reset_password": {
+                "subject": "=> core.ref.reset_your_password",
+                "body": "Hoi {username}!\n\nIemand (hopelijk jij!) heeft aangegeven zijn wachtwoord te zijn vergeten op {forum}.\nAls jij dit was, klik dan op deze link om je wachtwoord opnieuw in te stellen:\n{url}\n\nAls jij dit niet was, kan je deze e-mail negeren. Dan gebeurt er niets.\n"
+            },
+            "send_test": {
+                "subject": "Flarum Email Test",
+                "body": "Hallo {username}!\n\nDit is een testmail om te bevestigen dat uw e-mailconfiguratie van Flarum correct werkt.\n\nAls u dit was, betekent deze e-mail dat uw configuratie werkt!\n\nAls u dit niet was, kunt u deze e-mail negeren.\n"
+            }
+        },
+        "ref": {
+            "all_discussions": "Alle discussies",
+            "change_email": "Verander e-mailadres",
+            "change_password": "Verander wachtwoord",
+            "color": "Kleur",
+            "confirm_password": "Wachtwoord bevestigen",
+            "confirmation_email_sent": "We hebben een verficatie e-mail gestuurd naar {email}. Als je geen e-mail hebt ontvangen controleer dan je spam map.",
+            "custom_footer_text": "HTML toevoegen dat weergegeven wordt onderaan op elke pagina.",
+            "custom_footer_title": "Wijzig eigen voettekst",
+            "custom_header_text": "HTML toevoegen dat weergegeven wordt bovenaan elke pagina, boven Flarum's eigen header.",
+            "custom_header_title": "Wijzig eigen header",
+            "delete": "Verwijderen",
+            "delete_forever": "Permanent verwijderen",
+            "discussions": "Discussies",
+            "edit": "Bewerken",
+            "email": "E-mail",
+            "icon": "Icoon",
+            "icon_text": "Kies een <a>FontAwesome</a> icon class, <em>zonder</em> de <code>fa-</code> prefix.",
+            "load_more": "Meer laden",
+            "log_in": "Inloggen",
+            "log_out": "Uitloggen",
+            "mark_all_as_read": "Alles als gelezen markeren",
+            "next_page": "Volgende pagina",
+            "notifications": "Notificaties",
+            "okay": "Oké",
+            "password": "Wachtwoord",
+            "posts": "Berichten",
+            "previous_page": "Vorige pagina",
+            "remove": "Verwijder",
+            "rename": "Hernoemen",
+            "reply": "Reageren",
+            "reset_your_password": "Wachtwoord opnieuw instellen",
+            "restore": "Terugzetten",
+            "save_changes": "Wijzigingen opslaan",
+            "settings": "Instellingen",
+            "sign_up": "Registreren",
+            "some_others": "{count} ander|{count} andere",
+            "start_a_discussion": "Start een discussie",
+            "username": "Gebruikersnaam",
+            "users": "Gebruikers",
+            "view": "Bekijk",
+            "write_a_reply": "Schrijf een reactie...",
+            "you": "Jij"
+        },
+        "group": {
+            "admin": "Administrator",
+            "admins": "Administrators",
+            "guest": "Gast",
+            "guests": "Gasten",
+            "member": "Lid",
+            "members": "Leden",
+            "mod": "Moderator",
+            "mods": "Moderators"
+        }
+    }
+}

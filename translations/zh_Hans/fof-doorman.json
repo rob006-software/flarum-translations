@@ -1,0 +1,59 @@
+{
+    "fof-doorman": {
+        "forum": {
+            "email": {
+                "subject": "邀请加入",
+                "body": "您好，\n\n您被邀请注册 {forum}。\n\n当您准备好创建帐户时，只需点击下方链接并在注册时输入邀请码即可。\n\n网址：{url}\n邀请码：{code}\n\n如果您错误地收到了这封邮件，请忽略邮件内容。\n"
+            },
+            "sign_up": {
+                "invalid_doorkey": "您输入的邀请码无效。",
+                "doorkey_required": "请输入邀请码。",
+                "doorman_placeholder": "邀请码",
+                "doorman_placeholder_optional": "邀请码（可选）"
+            }
+        },
+        "admin": {
+            "modal": {
+                "title": "发送邀请码",
+                "group": "发送 {group} 用户组邀请",
+                "help": "列表内容可用半角逗号、空格或逗号+空格分隔。输入单个电子邮件地址或粘贴列表，然后按空格键完成添加。",
+                "placeholder": "在此输入电子邮件地址",
+                "invalid_emails": "无效电子邮件地址：{emails}",
+                "max_use_conflict": "电子邮件的数量超过了该代码的最大使用次数。",
+                "send": "发送邮件",
+                "success": "邮件发送成功"
+            },
+            "invalid_doorkey": "您输入的邀请码无效。",
+            "doorkey_required": "您必须输入邀请码",
+            "nav": {
+                "desc": "创建邀请码用于用户注册并分配用户组"
+            },
+            "page": {
+                "title": "看门人",
+                "doorkey": {
+                    "used_times": "剩余 1 次邀请|剩余 {remaining} 次邀请",
+                    "title": "邀请码",
+                    "help": {
+                        "key": "密钥：用户在注册时输入的邀请码。",
+                        "group": "用户组：用户在注册后默认分配到的用户组。",
+                        "max": "最大可用次数：一个邀请码最多可以被使用几次，设置为 0 表示无限次使用",
+                        "activates": "激活用户：通过邀请码注册后，用户账号会被自动激活。"
+                    },
+                    "warning": "此邀请码已达最大可用次数。",
+                    "key": "密钥",
+                    "max_uses": "最大可用次数",
+                    "heading": {
+                        "key": "密钥",
+                        "group": "用户组",
+                        "activate": "激活用户",
+                        "max_uses": "最大可用次数"
+                    },
+                    "allow-public": {
+                        "title": "允许公开注册",
+                        "switch-label": "将注册时的邀请码设置为可选项"
+                    }
+                }
+            }
+        }
+    }
+}

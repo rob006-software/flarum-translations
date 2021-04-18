@@ -2,32 +2,35 @@
     "fof-discussion-language": {
         "forum": {
             "change_language": {
-                "edit_title": "",
-                "title": "",
-                "submit_button": ""
+                "edit_title": "{title} için Dili Düzenle",
+                "title": "Dili Düzenle",
+                "submit_button": "=> core.ref.save_changes"
             },
             "composer_discussion": {
-                "choose_language_link": ""
+                "choose_language_link": "Dil"
             },
             "discussion_controls": {
-                "change_language_button": ""
+                "change_language_button": "Dil Ayarla"
             },
             "index_language": {
-                "any": ""
+                "any": "Herhangi Bir Dil"
             }
         },
         "admin": {
             "settings": {
-                "title": "",
-                "native_label": ""
+                "native_label": "Ana dil adlarını kullanın",
+                "show_flag_label": "Ülke bayraklarını dil adlarıyla göster",
+                "composer_default_label": "Düzenleyicide mevcut yerel ayarı önceden seçin",
+                "locale_sort_label": "Varsayılan tartışma filtresi için algılanan dili kullan",
+                "title": "FriendsOfFlarum Tartışma Dili"
             },
             "permissions": {
-                "allow_change_language_label": ""
+                "allow_change_language_label": "Dil düzenlemesine izin ver"
             }
         },
         "api": {
             "discussion": {
-                "validation_error": ""
+                "validation_error": "Tartışmanın dilini seçmelisin."
             }
         }
     }

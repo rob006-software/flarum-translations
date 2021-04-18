@@ -3,31 +3,32 @@
         "forum": {
             "badges": {
                 "is_private": {
-                    "tooltip": "私人讨论"
+                    "tooltip": "私密主题"
                 }
             },
             "buttons": {
                 "add_recipients": "公开",
                 "submit": "确定",
-                "edit_recipients": "谁可以看",
-                "send_pd": "私信 {username}",
+                "edit_recipients": "可见范围",
+                "send_pd": "发送消息至 {username}",
                 "cancel": "取消",
-                "remove_from_discussion": "退出讨论",
+                "remove_from_discussion": "退出私密主题",
                 "make_public": "转为公开"
             },
             "composer_private_discussion": {
-                "submit_button": "发起私人讨论",
-                "title_placeholder": "私人讨论标题"
+                "submit_button": "新建私密主题",
+                "title_placeholder": "私密主题标题"
             },
             "labels": {
                 "recipients": "仅 {count} 人可见|仅 {count} 人可见",
                 "user_deleted": "--已删除--"
             },
             "nav": {
-                "start_button": "发起私人讨论"
+                "start_button": "私密主题",
+                "nav_item": "私密主题"
             },
             "input": {
-                "search_recipients": "至少输入用户名前三位以搜索用户..."
+                "search_recipients": "至少输入用户名前三位以搜索用户……"
             },
             "search": {
                 "headings": {
@@ -36,61 +37,78 @@
             },
             "modal": {
                 "titles": {
-                    "update_recipients": "更新私人讨论「{title}」的成员",
-                    "add_recipients": "邀请用户加入私人讨论"
+                    "update_recipients": "更新「{title}」的可见范围",
+                    "add_recipients": "邀请用户加入私密主题"
                 },
                 "help": {
-                    "add_recipients": "此讨论仅选中的用户可见。至少添加一个用户（您除外）才能发起私人讨论。",
-                    "update_recipients": "此讨论仅选中的用户可见。"
+                    "add_recipients": "此主题仅选中的用户可见。至少添加一个用户（您除外）才能创建私密主题。",
+                    "update_recipients": "此主题仅选中的用户可见。"
                 }
             },
             "post": {
                 "recipients_modified": {
-                    "added_and_removed": "{username} 邀请 {added} 加入了讨论，并将 {removed} 移出讨论。",
-                    "added": "{username} 邀请 {added} 加入了讨论。",
-                    "removed": "{username} 将 {removed} 移除了讨论。",
-                    "removed_self": "{username} 退出私人讨论。"
+                    "added_and_removed": "{username} 邀请 {added} 加入，并移出 {removed}。",
+                    "added": "{username} 邀请 {added} 加入。",
+                    "removed": "{username} 将 {removed} 移出。",
+                    "removed_self": "{username} 退出私密主题。"
                 }
             },
             "user": {
                 "settings": {
-                    "block_pd": "屏蔽私人讨论"
+                    "block_pd": "屏蔽私密主题",
+                    "unified_index": "合并私密主题至统一的索引"
                 },
-                "byobu_link": "私人讨论",
-                "dropdown_label": "私人讨论"
+                "byobu_link": "私密主题",
+                "dropdown_label": "私密主题"
             },
             "notifications": {
-                "pd_label": "有人邀请我创建私人讨论",
-                "pd_reply_label": "我加入的私人讨论有新贴",
-                "pd_reply_text": "{username} 在私人讨论中发表了新帖",
-                "pd_text": "{username} 创建了私人讨论并邀请了你",
-                "pd_user_left_label": "有人退出了我加入的私人讨论",
-                "pd_user_left_text": "{username} 退出了私人讨论",
-                "pd_added_text": "{username} 邀请您加入私人讨论",
-                "pd_added_label": "有人邀请我加入私人讨论",
-                "pd_made_public_label": "",
-                "pd_made_public_text": ""
+                "pd_label": "有人和我创建私密主题",
+                "pd_reply_label": "参与的私密主题有新贴",
+                "pd_reply_text": "{username} 在私密主题中发表新帖",
+                "pd_text": "{username} 和我创建私密主题",
+                "pd_user_left_label": "有人退出我参与的私密主题",
+                "pd_user_left_text": "{username} 退出私密主题",
+                "pd_added_text": "{username} 邀请您加入私密主题",
+                "pd_added_label": "有人邀请我加入私密主题",
+                "pd_made_public_label": "一个私人讨论已转为公开",
+                "pd_made_public_text": "{username} 已将此讨论转为公开"
             },
             "confirm": {
-                "make_public": "这将使所有人都可以看到此私人讨论，请谨慎操作。"
+                "make_public": "这将对所与人公开私密主题，请谨慎考虑后操作。"
             }
         },
         "admin": {
             "permission": {
-                "create_private_discussions_with_users": "邀请用户创建私人讨论",
-                "create_private_discussions_with_groups": "邀请用户组创建私人讨论",
-                "create_private_discussions_with_blocking_users": "强制屏蔽私人讨论的用户加入私人讨论",
-                "edit_user_recipients": "编辑私人讨论的成员",
-                "edit_group_recipients": "编辑参与私人讨论的用户组",
-                "make_private_into_public": "将私人讨论转为公开",
-                "view_private_discussions-when-flagged": "查看他人被举报的私人讨论"
+                "create_private_discussions_with_users": "与他人创建私密主题",
+                "create_private_discussions_with_groups": "与用户组创建私密主题",
+                "create_private_discussions_with_blocking_users": "强制将私密主题屏蔽的用户加入私密主题",
+                "edit_user_recipients": "设置私密主题用户可见范围",
+                "edit_group_recipients": "设置私密主题用户组可见范围",
+                "view_private_discussions-when-flagged": "查看他人被举报的私密主题",
+                "make_private_into_public": "将私人讨论转为公开"
             },
             "settings": {
-                "use_tag_slug": "设置私人讨论创建时自动归入的分类标签",
-                "use_tag_slug_help": "此设置仅对生效后创建的私人讨论有效，留空则允许用户自行选择标签。",
-                "use_tag_slug_no_restriction": "",
-                "byobu_index": "",
-                "byobu_index_help": ""
+                "badge-icon": "Byobu 主题帖徽章",
+                "post-event-icon": "Byobu 发帖事件",
+                "use_tag_slug": "指定私人讨论创建时自动归入的分类标签",
+                "use_tag_slug_help": "此设置仅对生效后创建的私人讨论有效，选择「{no_restriction}」则允许用户自行选择标签。",
+                "use_tag_slug_no_restriction": "- 不限制 -",
+                "byobu_index": "在首页显示「私人讨论」入口",
+                "byobu_index_help": "启用此选项后，论坛左侧边栏将会添加一个私人讨论的入口链接"
+            }
+        },
+        "email": {
+            "subject": {
+                "private_discussion_created": "【私密主题】{display_name} 与您创建私密主题",
+                "private_discussion_replied": "【私密主题】{display_name} 发表新帖",
+                "recipient_removed": "【私密主题】{display_name} 退出",
+                "private_discussion_added": "【私密主题】{display_name} 将您加入私密主题"
+            },
+            "body": {
+                "private_discussion_created": "{recipient_display_name}，你好！\n\n{actor_display_name} 与您创建了一个私密主题《{discussion_title}》。\n\n点此查看完整内容：\n{discussion_url}\n\n您需要登录方可访问链接。\n",
+                "private_discussion_replied": "{recipient_display_name}，你好！\n\n{actor_display_name} 发表新内容于您参与的私密主题《{discussion_title}》。\n\n点此查看完整内容：\n{post_url}\n\n您需要登录方可访问链接。\n",
+                "recipient_removed": "{recipient_display_name}，你好！\n\n{actor_display_name} 离开了您参与的私密主题《{discussion_title}》，他们将无法再查看此主题的任何内容。\n\n点此查看主题帖：\n{discussion_url}\n\n您需要登录方可访问链接。\n",
+                "private_discussion_added": "{recipient_display_name}，你好！\n\n{actor_display_name} 将您加入私密主题《{discussion_title}》。\n\n点此查看完整内容：\n{discussion_url}\n\n您需要登录方可访问链接。\n"
             }
         },
         "notifications": {
@@ -107,7 +125,7 @@
                 "title": "【私人讨论】有人邀请您加入"
             },
             "made_public": {
-                "title": ""
+                "title": "【私人讨论】有讨论转为公开"
             }
         }
     }

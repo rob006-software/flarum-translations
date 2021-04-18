@@ -1,0 +1,58 @@
+{
+    "clarkwinkelmann-scratchpad": {
+        "admin": {
+            "settings": {
+                "title": "Scratchpad - 設定",
+                "single-column": "エディターを 3 列ではなく単一列にグループ化",
+                "theme": "CodeMirror テーマ（リフレッシュ後に有効になります）",
+                "theme-auto": "自動（デフォルトはライトテーマ、暗いテーマは darcula）",
+                "indent": "インデント用のスペースの数",
+                "npm-install-command": "NPM インストールコマンド",
+                "webpack-command": "Webpack コマンド",
+                "empty-for-default": "デフォルトのコマンドを使用するには、空白のままにします。",
+                "validate-live": "",
+                "compile-automatically": "保存時に JS を自動的にコンパイルします"
+            },
+            "controls": {
+                "refresh": "リフレッシュ",
+                "save": "セーブ",
+                "compile": "JS をコンパイルする",
+                "settings": "エディター設定",
+                "new": "新着",
+                "new-confirmation": "現在の付箋は保存されません。 それをドロップして新しいものを作成しますか？",
+                "delete": "削除する",
+                "delete-confirmation": "「{title}」を削除しますか？",
+                "enable": "クリックして有効にします",
+                "disable": "クリックして無効にします"
+            },
+            "fields": {
+                "title": "",
+                "admin_js": "管理センターインターフェース JS",
+                "forum_js": "フォーラムインターフェース JS",
+                "admin_less": "管理センターインターフェース JS",
+                "forum_less": "フォーラムインターフェース JS",
+                "php": "PHP"
+            },
+            "placeholders": {
+                "untitled": "無題",
+                "php-comment": "ここで extender を登録します",
+                "js-log": "Hello, {frontend}!"
+            },
+            "compilation-alert": {
+                "success": "コンパイルが完了しました！",
+                "failure": "コンパイルに失敗しました！",
+                "view-output": "ログを見る"
+            },
+            "compilation-modal": {
+                "title": "コンパイルログ",
+                "webpack": "Webpack ログ",
+                "npm": "NPM ログ",
+                "npm-not-run": "NPM が実行されていません"
+            },
+            "menu": {
+                "title": "開発者付箋",
+                "description": "開発環境でコードを簡単にテストする"
+            }
+        }
+    }
+}

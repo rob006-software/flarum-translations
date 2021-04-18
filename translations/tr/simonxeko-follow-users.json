@@ -2,55 +2,55 @@
     "simonxeko-follow-users": {
         "admin": {
             "permissions": {
-                "can_not_be_followed_label": ""
+                "can_not_be_followed_label": "Takip edilemez"
             }
         },
         "forum": {
-            "profile_link": "",
+            "profile_link": "Takip Ediliyor",
             "user_controls": {
-                "follow_button": "",
-                "follow_confirmation": "",
-                "unfollow_button": "",
-                "unfollow_confirmation": ""
+                "follow_button": "Takip Et",
+                "follow_confirmation": "Bu kullanıcı takip etmek istedinizden emin misiniz?",
+                "unfollow_button": "Takibi bırak",
+                "unfollow_confirmation": "Bu kullanıcıyı takipten çıkmak istediğinizden emin misiniz?"
             },
             "settings": {
-                "notify_new_discussion_label": "",
-                "notify_new_post_label": ""
+                "notify_new_discussion_label": "Takip ettiğim biri yeni bir tartışma başlattığında",
+                "notify_new_post_label": "Takip ettiğim biri yeni bir gönderi yazdığında"
             },
             "index": {
-                "follow_tag_button": "",
-                "unfollow_tag_button": ""
+                "follow_tag_button": "Takip Et",
+                "unfollow_tag_button": "Takibi Bırak"
             },
             "sub_controls": {
-                "follow_button": "",
-                "following_button": "",
-                "following_text": "",
-                "hiding_button": "",
-                "hiding_text": "",
-                "ignoring_button": "",
-                "ignoring_text": "",
-                "lurking_button": "",
-                "lurking_text": "",
-                "not_following_button": "",
-                "not_following_text": "",
-                "notify_alert_tooltip": "",
-                "notify_email_tooltip": ""
+                "follow_button": "=> simonxeko-follow-users.ref.follow",
+                "following_button": "=> simonxeko-follow-users.ref.following",
+                "following_text": "Tüm yeni tartışmaları bildir.",
+                "hiding_button": "=> simonxeko-follow-users.ref.hiding",
+                "hiding_text": "Tartışmaları Tüm Tartışmalar sayfasında gizle.",
+                "ignoring_button": "=> simonxeko-follow-users.ref.ignoring",
+                "ignoring_text": "Asla bildirme.",
+                "lurking_button": "=> simonxeko-follow-users.ref.lurking",
+                "lurking_text": "Tüm yeni tartışmalarda ve gönderilerde bildir.",
+                "not_following_button": "Not Following",
+                "not_following_text": "Yalnızca birisi @bahsettiğinde bildir.",
+                "notify_alert_tooltip": "Yeni bir tartışma veya gönderi olduğunda forumdan bildir",
+                "notify_email_tooltip": "Yeni bir tartışma veya gönderi olduğunda e-posta ile bildir"
             },
             "notifications": {
-                "new_discussion_text": "",
-                "new_post_text": ""
+                "new_discussion_text": "{username} başlattı",
+                "new_post_text": "{username} gönderdi"
             }
         },
         "email": {
-            "newDiscussionInTag": "",
-            "newPostInTag": ""
+            "newDiscussionInTag": "[Tag | New Discussion] tartışması",
+            "newPostInTag": "[Tag | New Post] başlığı"
         },
         "ref": {
-            "follow": "",
-            "following": "",
-            "hiding": "",
-            "ignoring": "",
-            "lurking": ""
+            "follow": "Takip Et",
+            "following": "Takip Ediliyor",
+            "hiding": "Gizle",
+            "ignoring": "Engelle",
+            "lurking": "Gizlenmiş"
         }
     }
 }

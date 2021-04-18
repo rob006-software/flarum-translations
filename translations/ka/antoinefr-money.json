@@ -1,0 +1,27 @@
+{
+    "antoinefr-money": {
+        "admin": {
+            "settings": {
+                "title": "პარამეტრები",
+                "moneyforpost": "თანხა გაცემულია ახალი პოსტისთვის",
+                "moneyfordiscussion": "თანხა გაცემულია ახალი დისკუსიისთვის",
+                "moneyname": "ფულის დასახელება (მაგ. [ფულის] ქულები)",
+                "postminimumlength": "განათავსეთ მინიმალური სიგრძე ფულის მისაღებად (0 გამორთვა)",
+                "noshowzero": "არ აჩვენოთ თუ ნულოვანია მნიშვნელობა"
+            },
+            "permissions": {
+                "edit_money_label": "ფულის რედაქტირება"
+            }
+        },
+        "forum": {
+            "user_controls": {
+                "money_button": "ფულის რედაქტირება"
+            },
+            "modal": {
+                "title": "{username}'(ი)ს ფული",
+                "current": "მიმდინარე:",
+                "submit_button": "=> core.ref.save_changes"
+            }
+        }
+    }
+}

@@ -11,20 +11,21 @@
                 "submit": "Tamam",
                 "edit_recipients": "Alıcıları Düzenle",
                 "send_pd": "{username} kullanıcısına mesaj gönder",
-                "cancel": "",
-                "remove_from_discussion": "",
-                "make_public": ""
+                "cancel": "İptal",
+                "remove_from_discussion": "Bu özel tartışmadan ayrıl",
+                "make_public": "Bu tartışmayı herkese aç"
             },
             "composer_private_discussion": {
-                "submit_button": "",
-                "title_placeholder": ""
+                "submit_button": "Özel Tartışma Başlat",
+                "title_placeholder": "Özel Tartışma Başlığı"
             },
             "labels": {
                 "recipients": "{count} Alıcı|{count} Alıcı",
                 "user_deleted": "-silinmiş-"
             },
             "nav": {
-                "start_button": "",
+                "start_button": "Özel Tartış",
+                "nav_item": "Özel Tartışmalar",
                 "private_discussions": "Özel tartışma"
             },
             "input": {
@@ -41,8 +42,8 @@
                     "add_recipients": "Tartışmana alıcı ekle"
                 },
                 "help": {
-                    "add_recipients": "",
-                    "update_recipients": ""
+                    "add_recipients": "Bu tartışma yalnızca burada seçtiğiniz kullanıcılar tarafından görüntülenir. En az 1 alıcı (kendiniz hariç) seçmeniz gerekmektedir.",
+                    "update_recipients": "Bu tartışma yalnızca burada seçtiğiniz kullanıcılar tarafından görüntülenir."
                 }
             },
             "post": {
@@ -50,30 +51,31 @@
                     "added_and_removed": "{username}, {added} alıcılara ekledi ve {removed} alıcılardan kaldırdı.",
                     "added": "{username}, {added} alıcılara ekledi.",
                     "removed": "{username}, {removed} alıcılardan kaldırdı.",
-                    "removed_self": ""
+                    "removed_self": "{username} özel tartışmadan ayrıldı."
                 }
             },
             "user": {
                 "settings": {
-                    "block_pd": "Özel tartışmaları engelle"
+                    "block_pd": "Özel tartışmaları engelle",
+                    "unified_index": "Özel tartışmaları akışa ekle"
                 },
                 "byobu_link": "Özel Tartışmalar",
-                "dropdown_label": ""
+                "dropdown_label": "Özel Tartışmalar"
             },
             "notifications": {
-                "pd_label": "",
-                "pd_reply_label": "",
-                "pd_reply_text": "",
-                "pd_text": "",
-                "pd_user_left_label": "",
-                "pd_user_left_text": "",
-                "pd_added_text": "",
-                "pd_added_label": "",
+                "pd_label": "Birisi beni özel tartışmaya dahil ettiğinde",
+                "pd_reply_label": "Birisi alıcısı olduğum özel tartışmaya yeni bir gönderi yazdığında",
+                "pd_reply_text": "{username}, alıcısı olduğunuz özel tartışmaya yeni bir gönderi yazdı",
+                "pd_text": "{username} seninle yeni bir özel tartışma başlattı",
+                "pd_user_left_label": "Bir kullanıcı parçası olduğunuz özel tartışmadan ayrıldığında",
+                "pd_user_left_text": "{username} özel tartışmadan ayrıldı",
+                "pd_added_text": "{username} seni özel tartışmaya ekledi",
+                "pd_added_label": "Birisi beni varolan özel tartışmaya eklediğinde",
                 "pd_made_public_label": "",
                 "pd_made_public_text": ""
             },
             "confirm": {
-                "make_public": ""
+                "make_public": "Bu tartışma herkes tarafından erişilebilir olacaktır. Onaylamadan önce içeriği kontrol etmeyi unutmayınız."
             }
         },
         "admin": {
@@ -83,29 +85,45 @@
                 "create_private_discussions_with_blocking_users": "Özel tartışmaları engelleyen kullanıcılarla özel tartışma oluştur",
                 "edit_user_recipients": "Özel tartışmalarda yer alan kullanıcıları düzenle",
                 "edit_group_recipients": "Özel tartışmalarda yer alan grupları düzenle",
-                "make_private_into_public": "",
-                "view_private_discussions-when-flagged": ""
+                "view_private_discussions-when-flagged": "Kullanıcıların bildirdiği özel tarışmaları görüntüle",
+                "make_private_into_public": "Özel tartışmayı herkese açma"
             },
             "settings": {
-                "use_tag_slug": "",
-                "use_tag_slug_help": "",
+                "badge-icon": "Byobu Tartışma Rozeti",
+                "post-event-icon": "Byobu Gönderi Etkinlikleri",
+                "use_tag_slug": "Özel tartışmaların başlatılacağı etiketi seçin",
+                "use_tag_slug_help": "Özel tartışmaları belirli bir etikette açılmasını zorlamak istemiyorsanız bu alanı boş bırakın, yalnızca yeni başlatılan özel tartışmalar için geçerlidir",
                 "use_tag_slug_no_restriction": "",
                 "byobu_index": "",
                 "byobu_index_help": ""
             }
         },
+        "email": {
+            "subject": {
+                "private_discussion_created": "[Özel Tartışma] {display_name}sizinle yeni bir özel tartışma başlattı",
+                "private_discussion_replied": "[Özel Tartışma] {display_name} yeni bir gönderi girdi",
+                "recipient_removed": "[Özel Tartışma] {display_name} tartışmadan ayrıldı",
+                "private_discussion_added": "[Özel Tartışma]{display_name} seni bir özel tartışmaya ekledi"
+            },
+            "body": {
+                "private_discussion_created": "Hey {recipient_display_name},\n\n{actor_display_name} seni '{discussion_title}' başlıklı bir özel tartışmaya alıcı olarak ekledi.\n\nBuradan göz at:\n{discussion_url}\n\nİçeriği görüntüleyebilmek için önce giriş yapman gerekebilir.\n",
+                "private_discussion_replied": "Hey {recipient_display_name},\n\n{actor_display_name} alıcısı olduğun '{discussion_title}' başlıklı tartışmaya yeni bir gönderi girdi.\n\nBuradan göz at:\n{post_url}\n\nİçeriği görüntüleyebilmek için önce giriş yapman gerekebilir.\n",
+                "recipient_removed": "Hey {recipient_display_name},\n\n{actor_display_name} senin de alıcısı olduğun '{discussion_title}' başlıklı özel tartışmadan ayrıldı. Artık bu tartışmadaki gönderileri göremeyecekler.\n\nBuradan göz at:\n{discussion_url}\n\nİçeriği görüntüleyebilmek için önce giriş yapman gerekebilir.\n",
+                "private_discussion_added": "Hey {recipient_display_name},\n\n{actor_display_name} seni var olan '{discussion_title}' başlıklı özel bir tartışmaya alıcı olarak ekledi.\n\nBuradan göz at:\n{discussion_url}\n\nİçeriği görüntüleyebilmek için önce giriş yapman gerekebilir.\n"
+            }
+        },
         "notifications": {
             "private_discussion_created": {
-                "title": ""
+                "title": "[Özel Tartışma] kullanıcı seninle yeni bir özel tartışma başlattı"
             },
             "private_discussion_replied": {
-                "title": ""
+                "title": "[Özel Tartışma] kullanıcı özel tartışmaya yeni bir gönderi yazdı"
             },
             "recipient_removed": {
-                "title": ""
+                "title": "[Özel Tartışma] kullanıcı tartışmadan ayrıldı"
             },
             "private_discussion_added": {
-                "title": ""
+                "title": "[Özel Tartışma] kullanıcı sizi özel tartışmaya ekledi"
             },
             "made_public": {
                 "title": ""

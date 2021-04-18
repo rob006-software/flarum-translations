@@ -1,0 +1,62 @@
+{
+    "fof-reactions": {
+        "forum": {
+            "disabled-reaction": "現在、この反応を使用できません。ページを更新してください",
+            "warning": "あなたの反応は変換されました",
+            "notification": "{username} はあなたの投稿に対して {reaction} で反応しました",
+            "settings": {
+                "notify_post_reacted_label": "誰かが私の投稿の1つに反応します"
+            },
+            "reacting-own-post": "自分の投稿に反応することはできません",
+            "modal": {
+                "title": ""
+            },
+            "mod_item": ""
+        },
+        "admin": {
+            "permissions": {
+                "react_posts_label": "応答投稿",
+                "see_reactions_label": ""
+            },
+            "page": {
+                "reactions": {
+                    "title": "カスタム応答",
+                    "reactions": "既存の対応",
+                    "Helptext": "絵文字の名前または font-awesome を入力し、好きな種類を選択します",
+                    "help": {
+                        "display": "表示",
+                        "identifier": "識別"
+                    }
+                },
+                "convert": {
+                    "help": "拡張機能を更新したばかりの場合は、反応を変換する必要があります。 この拡張機能をインストールするだけであれば、このメッセージは無視しても問題ありません。",
+                    "button": "古い反応を変換する",
+                    "converting": "あなたの反応は今変換しています。 数分後にサイトを更新して、プロセスが完了したことを確認します。 （反応の合計数によっては、変換に時間がかかる場合があります）",
+                    "converted": "{number} 件のいいね！をすべて正常に変換しました"
+                },
+                "settings": {
+                    "save_settings": "設定を保存する",
+                    "integrations": {
+                        "legend": "統合",
+                        "warning": "同じ反応は<strong>および</strong>のような賛成票に変換することはできません",
+                        "gamification": {
+                            "legend": "ゲーミフィケーション",
+                            "upvoteLabel": "応答を「いいね」に変換する",
+                            "upvoteHelptext": "自動的に投票に変換するリアクションの識別子を入力します",
+                            "downvoteLabel": "応答を「嫌い」に変換する",
+                            "downvoteHelptext": "自動的にダウン票に変換するリアクションの識別子を入力します"
+                        },
+                        "likes": {
+                            "legend": "いいね",
+                            "Label": "応答を「いいね」に変換する",
+                            "Helptext": "自動的にいいねに変換したいリアクションの識別子を入力してください"
+                        }
+                    }
+                }
+            },
+            "nav": {
+                "desc": "カスタム応答を追加して設定を変更する"
+            }
+        }
+    }
+}

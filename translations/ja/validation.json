@@ -1,0 +1,124 @@
+{
+    "validation": {
+        "accepted": ":attribute 受け入れなければならない",
+        "active_url": ":attribute 有効な URL ではありません",
+        "after": ":attribute 後の日付でなければなりません :date",
+        "after_or_equal": ":attribute 以下の日付でなければなりません :date",
+        "alpha": ":attribute 文字のみで構成できます",
+        "alpha_dash": ":attribute 文字、数字、接続番号、アンダースコアのみで構成できます",
+        "alpha_num": ":attribute 文字と数字のみで構成できます",
+        "array": ":attribute 配列でなければなりません",
+        "before": ":attribute 前の日付でなければなりません :date",
+        "before_or_equal": ":attribute は :date 以前の日付でなければなりません。",
+        "between": {
+            "numeric": ":attribute は :min から :max の間でなければなりません。",
+            "file": ":attribute は :min 至 :max kb キロバイトの間になければなりません。",
+            "string": ":attribute は :min 〜 :max 文字の間になければなりません。",
+            "array": ":attribute には :min から :max までのアイテムが必要です。"
+        },
+        "boolean": ":attribute ブール値でなければなりません",
+        "confirmed": ":attribute 一貫性のない2回の入力",
+        "date": ":attribute 法的日付ではありません",
+        "date_equals": ":attribute は :date と等しい日付でなければなりません。",
+        "date_format": ":attribute は :other の形式と一致しません。",
+        "different": ":attribute と :other は異なる必要があります。",
+        "digits": ":attribute は :digits 桁でなければなりません。",
+        "digits_between": ":attribute は、 :min 〜 :max の数字である必要があります。",
+        "dimensions": ":attribute の画像のサイズが無効です。",
+        "distinct": ":attribute 重複する値が含まれています",
+        "email": ":attribute 有効なメールアドレスである必要があります",
+        "ends_with": ":attribute は、次のいずれかで終了する必要があります「:values」",
+        "exists": "選択された :attribute は無効です。",
+        "file": ":attribute 文書でなければなりません。",
+        "filled": ":attribute 空にすることはできません",
+        "gt": {
+            "numeric": ":attribute は :value より大きくなければなりません。",
+            "file": ":attribute は :value kb キロバイトより大きくなければなりません。",
+            "string": ":attribute は :value 文字より大きくなければなりません。",
+            "array": ":attribute には :value 以上のアイテムが必要です。"
+        },
+        "gte": {
+            "numeric": ":attribute は :value 以上でなければなりません。",
+            "file": ":attribute は :value kb キロバイト以上でなければなりません。",
+            "string": ":attribute は :value 文字以上でなければなりません。",
+            "array": ":attribute には :value 以上のアイテムが必要です。"
+        },
+        "image": ":attribute は画像でなければなりません。",
+        "in": "選択された:attribute は無効です。",
+        "in_array": ":attribute フィールドは :other に存在しません。",
+        "integer": ":attribute は整数でなければなりません。",
+        "ip": ":attribute は有効な IP アドレスでなければなりません。",
+        "ipv4": ":attribute は有効な IPv4 アドレスでなければなりません。",
+        "ipv6": ":attribute は有効な IPv6 アドレスでなければなりません。",
+        "json": ":attribute は有効な JSON 文字列でなければなりません。",
+        "lt": {
+            "numeric": ":attribute は :value 未満でなければなりません",
+            "file": ":attribute は :value kb キロバイト未満でなければなりません。",
+            "string": ":attribute は :value 文字未満でなければなりません。",
+            "array": ":attribute には :value 未満のアイテムが必要です。"
+        },
+        "lte": {
+            "numeric": ":attribute は :value 以下でなければなりません。",
+            "file": ":attribute は :value kb キロバイト以下でなければなりません。",
+            "string": ":attribute は :value 文字以下でなければなりません。",
+            "array": ":attribute には :value 以上のアイテムを含めることはできません。"
+        },
+        "max": {
+            "numeric": ":attribute は :max より大きくてはいけません。",
+            "file": ":attribute は :max kb キロバイトを超えることはできません。",
+            "string": ":attribute は :max 文字を超えることはできません。",
+            "array": ":attribute には :max アイテムを超えることはできません。"
+        },
+        "mimes": ":attribute はタイプ :values のファイルでなければなりません。",
+        "mimetypes": ":attribute は、タイプ :values のファイルでなければなりません。",
+        "min": {
+            "numeric": ":attribute は少なくとも :min でなければなりません。",
+            "file": ":attribute は少なくとも :min kb キロバイトでなければなりません。",
+            "string": ":attribute は少なくとも :min 文字でなければなりません。",
+            "array": ":attribute は少なくとも :min 個のアイテムが必要です。"
+        },
+        "not_in": "選択された :attribute は無効です。",
+        "not_regex": ":attribute 形式は無効です。",
+        "numeric": ":attribute は数字でなければなりません。",
+        "password": "",
+        "present": ":attribute フィールドが存在する必要があります。",
+        "regex": ":attribute 形式は無効です。",
+        "required": ":attribute フィールドは必須です。",
+        "required_if": ":other が :value の場合、 :attribute フィールドは必須です。",
+        "required_unless": ":other が :values にない限り、:attribute フィールドは必須です。",
+        "required_with": ":values が存在する場合、 :attribute フィールドは必須です。",
+        "required_with_all": ":values が存在する場合、 :attribute フィールドは必須です。",
+        "required_without": ":values が存在しない場合、 :attribute フィールドは必須です。",
+        "required_without_all": ":values が存在しない場合、 :attribute フィールドは必須です。",
+        "same": ":attribute と :other rは一致する必要があります。",
+        "size": {
+            "numeric": ":attribute は :size でなければなりません。",
+            "file": ":attribute は :size kb キロバイトでなければなりません。",
+            "string": ":attribute は :size でなければなりません。",
+            "array": ":attribute には :size アイテムが含まれている必要があります。"
+        },
+        "starts_with": ":attribute は次のいずれかで開始する必要があります「:values」",
+        "string": ":attribute は文字列でなければなりません。",
+        "timezone": ":attribute は有効なゾーンでなければなりません。",
+        "unique": ":attribute はすでに使用されています。",
+        "uploaded": ":attribute はアップロードに失敗しました。",
+        "url": ":attribute 形式は無効です。",
+        "uuid": ":attribute は有効なUUIDでなければなりません。 UUID",
+        "attributes": {
+            "username": "ユーザー名",
+            "password": "パスワード",
+            "email": "メール",
+            "title": "タイトル",
+            "content": "コンテンツ",
+            "name_singular": "単数名",
+            "name_plural": "複数名",
+            "tag_count_primary": "プライマリタグの数",
+            "tag_count_secondary": "セカンダリタグの数"
+        },
+        "custom": {
+            "username": {
+                "regex": "ユーザー名には、文字、数字、ダッシュ（-）のみを含めることができます"
+            }
+        }
+    }
+}

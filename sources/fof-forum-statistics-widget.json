@@ -11,9 +11,15 @@
         },
         "admin": {
             "settings": {
-                "title": "Widget Settings",
+                "widget_ignore_private_discussions_label": "Ignore Private Discussions",
                 "widget_order_label": "Widget Order",
                 "widget_helper_text": "Edit this setting to adjust this widget's position on the sidenav section of your Flarum forum. The higher the number, the higher this widget will be on the sidenav items list (this value can be either positive or negative)."
+            },
+            "permissions": {
+                "view_discussions_count_label": "View forum statistics widget discussions count",
+                "view_posts_count_label": "View forum statistics widget posts count",
+                "view_users_count_label": "View forum statistics widget users count",
+                "view_lastest_member_label": "View forum statistics widget latest member"
             }
         }
     }

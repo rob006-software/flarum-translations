@@ -1,25 +1,22 @@
 {
     "fof-reactions": {
         "forum": {
-            "disabled-reaction": "",
+            "disabled-reaction": "Bu ifadeyi şu anda kullanamazsınız, lütfen sayfayı yenileyin",
             "warning": "İfadeniz dönüştürüldü",
             "notification": "{username}, gönderinize {reaction} ifadesi bıraktı",
             "settings": {
                 "notify_post_reacted_label": "Birisi gönderime ifade bıraktığında"
             },
-            "reacting-own-post": "",
+            "reacting-own-post": "Kendi gönderine ifade bırakamazsın",
             "modal": {
-                "title": ""
+                "title": "İfadeler"
             },
-            "mod_item": ""
+            "mod_item": "İfadeleri Göster"
         },
         "admin": {
             "permissions": {
                 "react_posts_label": "Gönderiye ifade bırakma",
-                "see_reactions_label": ""
-            },
-            "nav": {
-                "desc": "İfade ekleyin veya düzenleyin."
+                "see_reactions_label": "Kimlerin ifade bıraktığını göster"
             },
             "page": {
                 "reactions": {
@@ -27,7 +24,7 @@
                     "reactions": "Mevcut İfadeler",
                     "Helptext": "İfadeyi veya Font Awesome için uygun kodu girin ve istediğiniz türü seçin.",
                     "help": {
-                        "display": "",
+                        "display": "Görünüm",
                         "identifier": "İfade"
                     }
                 },
@@ -56,6 +53,9 @@
                         }
                     }
                 }
+            },
+            "nav": {
+                "desc": "İfade ekleyin veya düzenleyin."
             }
         }
     }

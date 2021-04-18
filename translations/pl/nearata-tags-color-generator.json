@@ -1,0 +1,37 @@
+{
+    "nearata-tags-color-generator": {
+        "admin": {
+            "color_luminosity_label": "Jasność",
+            "color_luminosity_options": {
+                "random": "Losowo",
+                "light": "Jasny",
+                "bright": "Jaskrawy",
+                "dark": "Ciemny"
+            },
+            "color_hue_label": "Odcień",
+            "color_hue_options": {
+                "random": "Losowo",
+                "red": "Czerwony",
+                "orange": "Pomarańczowy",
+                "yellow": "Żółty",
+                "green": "Zielony",
+                "blue": "Niebieski",
+                "purple": "Purpurowy",
+                "pink": "Różowy",
+                "monochrome": "Szary"
+            },
+            "text_color": {
+                "label": "Kolor tekstu",
+                "options": {
+                    "default": "Domyślny",
+                    "theme_primary_color": "Główny kolor motywu",
+                    "theme_secondary_color": "Drugorzędny kolor motywu",
+                    "custom": "Niestandardowy kolor"
+                },
+                "custom_label": "Niestandardowy kolor tekstu",
+                "custom_helptext": "Wpisz kod HEX koloru (włącznie z \"#\"), rgb(a) lub hls(a)."
+            },
+            "generate_color_button": "Wygeneruj losowy kolor"
+        }
+    }
+}

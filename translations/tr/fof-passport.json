@@ -2,22 +2,22 @@
     "fof-passport": {
         "admin": {
             "popup": {
-                "title": "",
                 "field": {
-                    "app-auth-url": "",
-                    "app-token-url": "",
-                    "app-user-url": "",
-                    "app-id": "",
-                    "app-secret": "",
-                    "app-scopes": "",
-                    "button-title": "",
-                    "button-title-placeholder": "",
-                    "button-icon": ""
-                }
+                    "app-auth-url": "OAuth yetkilendirme bağlantısı",
+                    "app-token-url": "OAuth jeton bağlantısı",
+                    "app-user-url": "API bağlantısı kimlik doğrulaması yapıldığında kullanıcı ayrıntılarını sağlar",
+                    "app-id": "OAuth uygulama kimliği",
+                    "app-secret": "OAuth uygulama sırrı (secret)",
+                    "app-scopes": "İstenecek OAuth kapsamları",
+                    "button-title": "Oturum açma düğmesi etiketi",
+                    "button-title-placeholder": "=> fof-passport.api.default-login-button-title",
+                    "button-icon": "Oturum açma düğmesi simgesi"
+                },
+                "title": "FoF Pasaportu"
             }
         },
         "api": {
-            "default-login-button-title": ""
+            "default-login-button-title": "=> core.ref.log_in"
         }
     }
 }

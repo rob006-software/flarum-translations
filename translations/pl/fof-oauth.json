@@ -1,0 +1,76 @@
+{
+    "fof-oauth": {
+        "admin": {
+            "settings": {
+                "only_icons_label": "Pokaż tylko ikony w przyciskach do logowania (alternatywny układ)",
+                "providers": {
+                    "callback_url_text": "Jeśli to konieczne, ustaw adres zwrotny (callback URL) na {url}.",
+                    "discord": {
+                        "description": "Utwórz aplikację na {link}. Dodaj URL do przekierowania w zakładce OAuth2.",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
+                    },
+                    "facebook": {
+                        "description": "Utwórz aplikację na {link}.",
+                        "app_id_label": "=> fof-oauth.ref.settings.app_id",
+                        "app_secret_label": "=> fof-oauth.ref.settings.app_secret"
+                    },
+                    "github": {
+                        "description": "Utwórz aplikację OAuth na {link}.",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
+                    },
+                    "gitlab": {
+                        "description": "Utwórz aplikację na {link}. Nadaj aplikacji zakres uprawnień <code>read_user</code>.",
+                        "client_id_label": "=> fof-oauth.ref.settings.app_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.app_secret",
+                        "domain_label": "Domena GitLab"
+                    },
+                    "twitter": {
+                        "description": "Utwórz aplikację na {link}. Będziesz musiał ustawić URL do Polityki Prywatności oraz Regulaminu Serwisu. Upewnij się, że dodałeś uprawnienia do uzyskiwania adresu e-mail.",
+                        "api_key_label": "API Key",
+                        "api_secret_label": "API Secret"
+                    },
+                    "google": {
+                        "description": "Utwórz aplikację na {link}.",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
+                    },
+                    "linkedin": {
+                        "description": "Utwórz aplikację na {link}.",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": ""
+                    }
+                }
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_button": "Zaloguj się za pomocą {provider}"
+            },
+            "error": {
+                "bad_verification_code": "Nieprawidłowy lub wygasły token weryfikacyjny. Spróbuj ponownie.",
+                "invalid_state": "Nieprawidłowy status. Spróbuj ponownie."
+            }
+        },
+        "lib": {
+            "providers": {
+                "discord": "Discord",
+                "facebook": "Facebook",
+                "github": "GitHub",
+                "gitlab": "GitLab",
+                "twitter": "Twitter",
+                "google": "Google",
+                "linkedin": "LinkedIn"
+            }
+        },
+        "ref": {
+            "settings": {
+                "app_id": "App ID",
+                "app_secret": "App Secret",
+                "client_id": "Client ID",
+                "client_secret": "Client Secret"
+            }
+        }
+    }
+}

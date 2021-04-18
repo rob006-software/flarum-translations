@@ -1,0 +1,47 @@
+{
+    "fof-user-directory": {
+        "forum": {
+            "header": {
+                "back_to_user_directory_tooltip": "Torna all'Elenco Utenti"
+            },
+            "search": {
+                "users_heading": "Cerca tutti gli utenti con \"{query}\"",
+                "field": {
+                    "placeholder": "Cerca tutti gli utenti"
+                }
+            },
+            "page": {
+                "nav": "Elenco Utenti",
+                "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
+                "load_more_button": "=> core.ref.load_more",
+                "empty_text": "Non ci sono utenti che corrispondono alla tua ricerca.",
+                "filter_button": "Filtra Gruppi"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "view_user_directory": "Visualizzare l'Elenco Utenti"
+            },
+            "settings": {
+                "link": "Aggiungi link in homepage per gli utenti col permesso di vedere l'elenco",
+                "default-sort": "Ordine di Default"
+            }
+        },
+        "lib": {
+            "sort": {
+                "not_specified": "Ordine di default di Flarum",
+                "default": "Predefinito",
+                "username_az": "Alfabetico (a-z)",
+                "username_za": "Alfabetico (z-a)",
+                "newest": "Dal più recente",
+                "oldest": "Dal meno recente",
+                "most_posts": "Con più post",
+                "least_posts": "Con meno post",
+                "most_discussions": "Con più discussioni",
+                "least_discussions": "Con meno discussioni",
+                "seen_recent": "Più recenti online",
+                "seen_oldest": "Meno recenti online"
+            }
+        }
+    }
+}

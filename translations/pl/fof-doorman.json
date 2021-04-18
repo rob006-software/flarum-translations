@@ -1,0 +1,59 @@
+{
+    "fof-doorman": {
+        "forum": {
+            "email": {
+                "subject": "Zaproszenie do rejestracji",
+                "body": "Witaj,\n\nZostałeś zaproszony do rejestracji na {forum}.\n\nGdy będziesz gotowy do utworzenia konta, kliknij poniższy link i wpisz kod zaproszenia podczas rejestracji:\n\nURL: {url}\nKod zaproszenia: {code}\n\nJeśli nie chcesz rejestrować się na forum, po prostu zignoruj tę wiadomość.\n"
+            },
+            "sign_up": {
+                "invalid_doorkey": "Podany kod zaproszenia jest nieprawidłowy.",
+                "doorkey_required": "Wpisz kod zaproszenia.",
+                "doorman_placeholder": "Kod zaproszenia",
+                "doorman_placeholder_optional": "Kod zaproszenia (niewymagane)"
+            }
+        },
+        "admin": {
+            "modal": {
+                "title": "Wyślij kody zaproszeń",
+                "group": "Wysyłanie zaproszeń dla grupy {group}",
+                "help": "Przyjmuje listę rozdzieloną przenikami, spacjami, lub spacjami poprzedzonymi przecinkami. Wpisz pojedynczy adres e-mail lub wklej listę, a następnie wciśnij spację, aby je dodać.",
+                "placeholder": "Podaj adresy e-mail",
+                "invalid_emails": "Podane adresy e-mail są nieprawidłowe: {emails}",
+                "max_use_conflict": "Liczba adresów e-mail przekracza maksymalną liczbę użyć dla tego kodu.",
+                "send": "Wyślij wiadomości e-mail",
+                "success": "Wiadomości e-mail zostały pomyślnie wysłane"
+            },
+            "invalid_doorkey": "Podany kod zaproszenia jest nieprawidłowy.",
+            "doorkey_required": "Musisz podać kod zaproszenia",
+            "nav": {
+                "desc": "Twórz kody zaproszeń dla użytkowników, aby mogli się zarejestrować i zostać przypisani do grupy"
+            },
+            "page": {
+                "title": "Doorman",
+                "doorkey": {
+                    "used_times": "Pozostało 1 użycie|Pozostały {remaining} użycia|Pozostało {remaining} użyć",
+                    "title": "Kody zaproszeń",
+                    "help": {
+                        "key": "Klucz: Kod zaproszenia, który użytkownik poda podczas rejestracji.",
+                        "group": "Grupa: Grupa, do której użytkownik zostanie przypisany po rejestracji.",
+                        "max": "Maksymalna liczba użyć: Kod może być użyty jedynie podaną liczbę razy. Ustaw 0 dla braku limitu.",
+                        "activates": "Aktywuj użytkownika: Automatycznie aktywuje konto użytkownika zaraz po rejestracji."
+                    },
+                    "warning": "Ten kod zaproszenia został już wykorzystany maksymalną liczbę razy.",
+                    "key": "Klucz",
+                    "max_uses": "Maksymalna liczba użyć",
+                    "heading": {
+                        "key": "Klucz",
+                        "group": "Grupa",
+                        "activate": "Aktywuj użytkownika",
+                        "max_uses": "Maksymalna liczba użyć"
+                    },
+                    "allow-public": {
+                        "title": "Pozwól na publiczną rejestrację",
+                        "switch-label": "Kody zaproszeń są opcjonalne podczas rejestracji"
+                    }
+                }
+            }
+        }
+    }
+}

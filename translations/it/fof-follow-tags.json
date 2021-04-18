@@ -1,0 +1,79 @@
+{
+    "fof-follow-tags": {
+        "forum": {
+            "settings": {
+                "notify_new_discussion_label": "Qualcuno crea una discussione in una categoria che sto seguendo",
+                "notify_new_post_label": "Qualcuno posta in una categoria che sto seguendo",
+                "notify_new_discussion_tag_label": "Qualcuno modifica la categoria di una discussione in una che categoria sto seguendo"
+            },
+            "index": {
+                "follow_tag_button": "Segui",
+                "unfollow_tag_button": "Smetti di seguire",
+                "following": {
+                    "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                    "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
+                }
+            },
+            "badge": {
+                "following_tag_tooltip": "Segui",
+                "lurking_tag_tooltip": "Osserva"
+            },
+            "sub_controls": {
+                "follow_button": "=> fof-follow-tags.ref.follow",
+                "following_button": "=> fof-follow-tags.ref.following",
+                "following_text": "Mandami una notifica per ogni nuova discussione.",
+                "hiding_button": "=> fof-follow-tags.ref.hiding",
+                "hiding_text": "Nascondi tutte le discussioni dalla pagina principale.",
+                "ignoring_button": "=> fof-follow-tags.ref.ignoring",
+                "ignoring_text": "Nessuna notifica.",
+                "lurking_button": "=> fof-follow-tags.ref.lurking",
+                "lurking_text": "Mandami una notifica per ogni nuova discussione e ogni risposta.",
+                "not_following_button": "Non Seguire",
+                "not_following_text": "Mandami una notifica solo quando vengo @menzionato.",
+                "notify_alert_tooltip": "Ricevi una notifica quando ci sono nuove discussioni o risposte",
+                "notify_email_tooltip": "Ricevi una email quando ci sono nuove discussioni o risposte"
+            },
+            "notifications": {
+                "new_discussion_text": "{username} ha iniziato",
+                "new_post_text": "{username} ha risposto",
+                "new_discussion_tag_text": "{username} ha cambiato categoria"
+            },
+            "user": {
+                "settings": {
+                    "heading": "Segui Categorie",
+                    "filter_label": "Scegli cosa mostrare di default nella pagina Seguite"
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "following_page_default_label": "Filtraggio di default nella pagina Seguite",
+                "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
+            }
+        },
+        "email": {
+            "subject": {
+                "newDiscussionInTag": "[Categoria | Nuova Discussione] {title}",
+                "newPostInTag": "[Categoria | Nuova Risposta] {title}",
+                "newDiscussionTag": "[Categoria | Categoria Modificata] {title}"
+            },
+            "body": {
+                "newDiscussionInTag": "Ciao {recipient_display_name}!\n\n{actor_display_name} ha iniziato una discussione in una categoria che stai seguendo: {discussion_title}\n\nPer visualizzare la nuova discussione, apri il seguente link:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newPostInTag": "Ciao {recipient_display_name}!\n\n{actor_display_name} ha pubblicato un post in una categoria che stai seguendo: {discussion_title}\n\nPer visualizzare il nuovo post, apri il seguente link\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nNon riceverai più notifiche su questa discussione finché non sarai aggiornato.\n",
+                "newDiscussionTag": "Ciao {recipient_display_name}!\n\n{actor_display_name} ha cambiato la categoria in una discussione di {author_display_name} in una categoria che stai seguendo: {discussion_title}\n\nPer visualizzare la nuova discussione, apri il seguente link:\n{discussion_url}\n"
+            }
+        },
+        "ref": {
+            "follow": "Segui",
+            "following": "Segui",
+            "hiding": "Nascondi",
+            "ignoring": "Ignora",
+            "lurking": "Osserva",
+            "filtering_options": {
+                "none": "Discussioni Seguite",
+                "tags": "Categorie Seguite"
+            }
+        }
+    }
+}

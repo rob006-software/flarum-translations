@@ -1,113 +1,121 @@
 {
     "v17development-flarum-support": {
         "forum": {
-            "knowledge_base": "",
-            "ask_a_question_on_forums": "",
-            "return_to_home": "",
-            "ask_your_question_on_forum": "",
-            "or": "",
-            "settings": "",
-            "send": "",
-            "create": "",
-            "discard": "",
+            "knowledge_base": "Bilgi merkezi",
+            "ask_a_question_on_forums": "Forumlarda soru sorun",
+            "return_to_home": "Bilgi merkezine geri dön",
+            "ask_your_question_on_forum": "Forumlarda sorunu sor",
+            "or": "ya da",
+            "settings": "=> core.ref.settings",
+            "send": "Gönder",
+            "create": "Oluştur",
+            "discard": "İptal",
+            "reopen": "tekrar aç",
+            "support_tickets": "Destek biletleri",
+            "admin_overview": "",
             "hero": {
-                "help_question": "",
-                "check_forum": ""
+                "help_question": "Sana nasıl yardımcı olabiliriz?",
+                "check_forum": "Aradığını bulamıyorsan <a>foruma göz atabilirsin</a>"
             },
             "overview": {
-                "knowledge_base_overview": "",
-                "back_to": "",
-                "back_to_overview": "",
-                "back_to_main_categories": "",
-                "loading_articles": "",
-                "no_categories_found": "",
-                "category_not_found": "",
-                "no_articles_found": "",
+                "knowledge_base_overview": "Bilgi merkezi genel bakış",
+                "back_to": "{category} kategorisine geri dön",
+                "back_to_overview": "Bilgi merkezi genel bakışına geri dön",
+                "back_to_main_categories": "Ana kategorilere geri dön",
+                "loading_articles": "Makaleler yükleniyor",
+                "no_categories_found": "Üzgünüz, burada hiçbir kategori bulunmuyor...",
+                "category_not_found": "Kategori bulunamadı",
+                "no_articles_found": "Bu kategoride makale bulunamadı",
                 "tools": {
-                    "new_article": "",
-                    "rename_category": "",
-                    "edit_description": "",
-                    "change_icon": ""
+                    "new_article": "Yeni makale",
+                    "rename_category": "Kategorini yeniden adlandır",
+                    "edit_description": "Açıklamayı düzenle",
+                    "change_icon": "Simgeyi değiştir"
                 }
             },
             "article_events": {
-                "article_hidden": "",
-                "article_public": "",
-                "article_modified": ""
+                "article_hidden": "Makale {username} tarafından gizlendi",
+                "article_public": "Makale {username} tarafından herkese açıldı",
+                "article_modified": "{username} bu makaleyi düzenledi."
             },
             "search": {
-                "title": "",
-                "back_to_search_results": "",
-                "search_knowledge_base": "",
-                "searching": "",
-                "searching_for": "",
-                "searched_for": "",
-                "use_searchbox_below": "",
-                "no_results": ""
+                "title": "Ara",
+                "back_to_search_results": "Arama sonuçlarına geri dön",
+                "search_knowledge_base": "Bilgi merkezinde ara",
+                "searching": "Aranıyor",
+                "searching_for": "{searchterm} için aranıyor",
+                "searched_for": "{searchterm} için {results} arama sonucu bulundu.",
+                "use_searchbox_below": "Bilgi merkezinde arama yapmak için aşağıdaki arama kutusunu kullanın.",
+                "no_results": "{searchterm} için hiç sonuç bulamadık."
             },
             "not_found": {
-                "title": "",
-                "description": "",
-                "solution": ""
+                "title": "Bulunamadı",
+                "description": "Üzgünüz, bu makale veya kategori artık mevcut değil.",
+                "solution": "Aradığınızı bulmak için yukarıdaki arama kutusunu kullanabilirsiniz."
             },
             "article": {
-                "article": "",
-                "articles": "",
-                "hidden": "",
-                "created_at": "",
-                "author": "",
-                "authors": "",
-                "last_modified": "",
-                "not_found": "",
+                "article": "Makale",
+                "articles": "Makaleler",
+                "hidden": "Gizli",
+                "created_at": "{date} oluşturuldu",
+                "author": "Yazar",
+                "authors": "Yazarlar",
+                "last_modified": "Son düzenleme tarihi {date}",
+                "not_found": "Makale bulunamadı",
                 "share_article": {
-                    "title": "",
-                    "perma_link": ""
+                    "title": "Makaleyi paylaş",
+                    "perma_link": "Bu makalenin kalıcı bağlantısı:"
                 },
                 "tools": {
-                    "rename_article": "",
-                    "edit_article": "",
-                    "edit_tags": "",
-                    "audit_log": "",
-                    "hide_article": "",
-                    "recover_article": "",
-                    "delete_forever": "",
-                    "view_ratings": "",
+                    "rename_article": "Makaleyi yeniden adlandır",
+                    "edit_article": "Makaleyi düzenle",
+                    "edit_tags": "Makale etiketlerini düzenle",
+                    "audit_log": "Denetim günlüğüne bak",
+                    "hide_article": "Makaleyi gizle",
+                    "recover_article": "Makaleyi geri getir",
+                    "delete_forever": "Kalıcı olarak sil",
+                    "view_ratings": "Derecelendirmeleri göster",
                     "event_logs": ""
                 }
             },
             "support_ratings": {
-                "helful_article": "",
-                "helful_support": "",
-                "feedback": "",
-                "feedback_not_helpful": "",
-                "enter_feedback": "",
-                "finished": "",
+                "score": "",
+                "helful_article": "Bu makale yararlı oldu mu?",
+                "helful_support": "Destek talebinize yaklaşımımızdan memnun kaldınız mı?",
+                "feedback": "Değerlendirmeniz için teşekkürler, herhangi bir geri bildiriminiz var mı?",
+                "feedback_not_helpful": "Bu makale yardımcı olamadığı için üzgünüz, ne arıyordunuz?",
+                "enter_feedback": "Geri bildiriminizi buraya girin",
+                "finished": "Teşekkürler! Geri bildirimininiz kaydedildi.",
                 "validation": {
-                    "invalid_discussion": "",
-                    "guest": "",
-                    "invalid_points": "",
-                    "cannot_rate_article": "",
-                    "neutral_emoji_disabled": "",
-                    "missing_article_id": ""
+                    "invalid_discussion": "Ups, bir şeyler yanlış gitti. Bu makaleyi/yardım talebini derecelendiremezsin.",
+                    "guest": "Bu makaleyi derecelendirmeden önce lütfen giriş yapın.",
+                    "invalid_points": "Bilinmeyen derecelendirme. Lütfen tekrar deneyin.",
+                    "cannot_rate_article": "Bu makaleyi derecelendiremezsin.",
+                    "neutral_emoji_disabled": "Kararsız ifadesi devre dışı bırakılmıştır.",
+                    "missing_article_id": "Kayıp veya var olmayan makale ID'si"
+                },
+                "switch_sort_score": {
+                    "label": "",
+                    "description": ""
                 }
             },
             "modals": {
                 "audit_log": {
-                    "title": "",
-                    "article_created": "",
-                    "no_more_events": "",
-                    "loading_auditlog": ""
+                    "title": "Makale denetim günlüğü",
+                    "article_created": "Makale oluşturuldu",
+                    "no_more_events": "Daha fazla etkinlik bulunamadı",
+                    "loading_auditlog": "Denetim günlüğü yükleniyor"
                 },
                 "article_ratings": {
-                    "title": "",
-                    "loading_ratings": "",
-                    "no_ratings_found": "",
-                    "article_not_rated": "",
-                    "confirm_delete_rating": "",
-                    "feedback": "",
-                    "rating": "",
-                    "username": "",
-                    "rated_on": ""
+                    "title": "Makale derecelendirmeleri",
+                    "loading_ratings": "Derecelendirmeler yükleniyor",
+                    "no_ratings_found": "Arama kriterlerinizle eşleşen derecelendirme bulunamadı",
+                    "article_not_rated": "Bu makale henüz derecelendirilmemiş.",
+                    "confirm_delete_rating": "Bu derecelendirmeyi silmek istediğinize emin misiniz?",
+                    "feedback": "Geri Bildirim",
+                    "rating": "Derecelendirme",
+                    "username": "=> core.ref.username",
+                    "rated_on": "Tarihinde derecelendirildi"
                 },
                 "events": {
                     "title": "",
@@ -116,22 +124,153 @@
             },
             "utils": {
                 "redirect": {
-                    "title": "",
-                    "link": ""
+                    "title": "Sizi Bilgi Bankası makalemize yönlendiriyoruz...",
+                    "link": "Sayfa sizi yönlendirmezse <a>burayı tıklayın</a>"
                 }
             },
             "composer": {
-                "compose_article": "",
-                "new_article_title": "",
-                "enter_message_here": "",
-                "publish_article": "",
-                "publish_article_hint": "",
-                "manage_tags": "",
-                "write": "",
-                "view": "",
-                "nothing_to_preview": "",
-                "warning_save_changes": "",
-                "article_saved": ""
+                "compose_article": "Makale oluştur",
+                "compose_ticket": "Bilet oluştur",
+                "new_article_title": "Yeni makale başlığı",
+                "enter_message_here": "Mesajınızı buraya girin",
+                "publish_article": "Makaleyi paylaş",
+                "publish_article_hint": "Makaleyi gönderdikten sonra paylaş.",
+                "manage_tags": "Etiketleri yönet",
+                "write": "Yaz",
+                "view": "Görünüm",
+                "nothing_to_preview": "Önizlenecek bir şey yok",
+                "warning_save_changes": "UYARI: Bu sayfadan ayrılmak üzeresiniz ve değişikliklerinizi kaydetmediniz. Ayrılmadan önce değişikliklerinizi kaydetmek ister misiniz?\n\n[OK] = Evet, kaydet. [CANCEL] = Hayır, kaydetme\n",
+                "article_saved": "Makale kaydedildi"
+            },
+            "tickets": {
+                "ticket": "Bilet",
+                "subject": "Konu",
+                "ticket_does_not_exist": "",
+                "return_to_overview": "",
+                "ticket_overview": "",
+                "opened_on": "",
+                "ticket_activity": "",
+                "reminders_sent": "",
+                "convert_to_ticket": {
+                    "button": "",
+                    "confirm": "",
+                    "event": ""
+                },
+                "status": {
+                    "new": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "open": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "pending": {
+                        "title": "",
+                        "description": "",
+                        "description_user": ""
+                    },
+                    "closed": {
+                        "title": "",
+                        "description": "",
+                        "is_closed": "",
+                        "close_after_posting": "",
+                        "is_auto_closed": ""
+                    },
+                    "on_hold": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "duplicate": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "solved": {
+                        "title": "",
+                        "description": "",
+                        "mark_as_solved": ""
+                    }
+                },
+                "tools": {
+                    "view_ticket": "",
+                    "update_subject": "",
+                    "assign_me": "",
+                    "remove_me": "",
+                    "update_status": "",
+                    "close_ticket": ""
+                },
+                "new_tickets_dropdown": {
+                    "title": "",
+                    "no_tickets": "",
+                    "ticket_new": "",
+                    "ticket_updated": ""
+                },
+                "fields": {
+                    "language": {
+                        "title": "",
+                        "placeholder": "",
+                        "empty": "",
+                        "description": ""
+                    },
+                    "subject": {
+                        "title": "",
+                        "placeholder": "",
+                        "description": ""
+                    },
+                    "information": {
+                        "title": "",
+                        "placeholder": ""
+                    },
+                    "status": {
+                        "title": "",
+                        "placeholder": ""
+                    },
+                    "assignees": {
+                        "title": "",
+                        "placeholder": ""
+                    }
+                },
+                "compose_ticket": {
+                    "title": "",
+                    "private_support": "",
+                    "not_allowed": ""
+                },
+                "load_more": {
+                    "title": ""
+                },
+                "my_tickets": {
+                    "title": "",
+                    "description": "",
+                    "no_tickets": ""
+                },
+                "overview": {
+                    "title": "",
+                    "description": "",
+                    "no_tickets": "",
+                    "all_tickets": ""
+                }
+            }
+        },
+        "emails": {
+            "replied_to_ticket": {
+                "subject": "",
+                "body": ""
+            },
+            "ticket_status_update": {
+                "subject": "",
+                "body": ""
+            },
+            "ticket_resolved": {
+                "subject": "",
+                "body": ""
+            },
+            "ticket_pending_reply": {
+                "subject": "",
+                "body": ""
+            },
+            "ticket_pending_reply_closed": {
+                "subject": "",
+                "body": ""
             }
         }
     }

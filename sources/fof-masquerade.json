@@ -2,7 +2,8 @@
     "fof-masquerade": {
         "forum": {
             "alerts": {
-                "profile-completion-required": "Please complete the necessary profile fields below.\n"
+                "profile-completion-required": "Please complete the necessary profile fields below.\n",
+                "profile-completed": "Profile completed! <a>Proceed to homepage</a>"
             },
             "buttons": {
                 "view-profile": "View profile",
@@ -20,7 +21,6 @@
             }
         },
         "admin": {
-            "title": "Masquerade",
             "general-options": "General options",
             "buttons": {
                 "add-field": "Create field",
@@ -30,9 +30,6 @@
             "permissions": {
                 "have-profile": "Have masquerade profile",
                 "view-profile": "View masquerade profile"
-            },
-            "menu": {
-                "description": "Configure user profile fields.\n"
             },
             "fields": {
                 "title": "Fields",
@@ -52,17 +49,16 @@
                 "icon": "Icon",
                 "icon-help": "Shows an icon in front of values entered by the user. For a reference of available icons, check the <a>FontAwesome website</a>. Use icon names with the \"fa-\" prefix, like \"fas fa-info\".\n",
                 "force-user-to-completion": "Force user to complete profile",
-                "disable-user-bio": "Disable user bio field",
                 "options": "Options",
                 "option-new": "New option",
-                "option-coma-warning": "The label of an option cannot contain any coma (\",\")."
+                "option-comma-warning": "The label of an option cannot contain any comma (\",\")."
             },
             "types": {
                 "advanced": "Advanced",
                 "boolean": "Checkbox",
                 "email": "Email",
                 "select": "Dropdown",
-                "url": "Url"
+                "url": "URL"
             }
         }
     }

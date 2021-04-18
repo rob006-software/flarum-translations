@@ -1,0 +1,86 @@
+{
+    "fof-follow-tags": {
+        "forum": {
+            "settings": {
+                "notify_new_discussion_label": "フォローしているタグに新しいスレッドがあります",
+                "notify_new_post_label": "フォローしているタグに新しい返信があります",
+                "notify_new_discussion_tag_label": ""
+            },
+            "index": {
+                "follow_tag_button": "フォロー",
+                "unfollow_tag_button": "フォローをやめる",
+                "following": {
+                    "following_none_label": "",
+                    "following_tags_label": "",
+                    "following_all_label": ""
+                }
+            },
+            "badge": {
+                "following_tag_tooltip": "",
+                "lurking_tag_tooltip": ""
+            },
+            "sub_controls": {
+                "follow_button": "=> fof-follow-tags.ref.follow",
+                "following_button": "=> fof-follow-tags.ref.following",
+                "following_text": "全てのディスカッションを通知する。",
+                "hiding_button": "=> fof-follow-tags.ref.hiding",
+                "hiding_text": "すべてのポストでディスカッションを隠す",
+                "ignoring_button": "=> fof-follow-tags.ref.ignoring",
+                "ignoring_text": "通知しない",
+                "lurking_button": "=> fof-follow-tags.ref.lurking",
+                "lurking_text": "全てのディスカッションとリプライを通知する。",
+                "not_following_button": "未フォロー",
+                "not_following_text": "@メンションされたときのみ通知する",
+                "notify_alert_tooltip": "新しいディスカッションと投稿をフォーラムで通知する",
+                "notify_email_tooltip": "新しいディスカッションと投稿をメールで通知する"
+            },
+            "notifications": {
+                "new_discussion_text": "{username} がディスカッションを開始しました",
+                "new_post_text": "{username} が投稿しました",
+                "new_discussion_tag_text": ""
+            },
+            "user": {
+                "settings": {
+                    "heading": "",
+                    "filter_label": ""
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "following_page_default_label": "",
+                "following_none_label": "",
+                "following_tags_label": "",
+                "title": "",
+                "following_all_label": ""
+            }
+        },
+        "email": {
+            "subject": {
+                "newDiscussionInTag": "",
+                "newPostInTag": "",
+                "newDiscussionTag": ""
+            },
+            "body": {
+                "newDiscussionInTag": "",
+                "newPostInTag": "",
+                "newDiscussionTag": ""
+            },
+            "newDiscussionInTag": "[Tag | New Discussion] タイトル",
+            "newPostInTag": "[Tag | New Post] タイトル",
+            "newDiscussionTag": ""
+        },
+        "ref": {
+            "follow": "フォロー",
+            "following": "フォロー中",
+            "hiding": "隠す",
+            "ignoring": "無視中",
+            "lurking": "ラークする",
+            "filtering_options": {
+                "none": "",
+                "tags": "",
+                "all": ""
+            }
+        }
+    }
+}

@@ -1,19 +1,19 @@
 {
     "tituspijean-auth-ssowat": {
         "forum": {
-            "log_in": "",
-            "log_in_with": "",
-            "log_out": ""
+            "log_in": "=> core.ref.log_in",
+            "log_in_with": "SSOwat ile Giriş Yap",
+            "log_out": "=> core.ref.log_out"
         },
         "admin": {
-            "description": "",
+            "description": "SSOwat alan adı ayarla",
             "settings": {
-                "title": "",
-                "domain": "",
-                "onlyUse": ""
+                "title": "SSOwat ayarları",
+                "domain": "SSOwat alan adı (\"https://\" veya \"/\" olmadan)",
+                "onlyUse": "Flarum girişi kapat ve yalnızca SSOwat girişi aktif et"
             },
             "buttons": {
-                "save": ""
+                "save": "Kaydet"
             }
         }
     }

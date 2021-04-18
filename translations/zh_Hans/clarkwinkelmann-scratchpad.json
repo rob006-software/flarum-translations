@@ -10,6 +10,7 @@
                 "npm-install-command": "NPM 安装命令",
                 "webpack-command": "Webpack 命令",
                 "empty-for-default": "留空则使用默认命令",
+                "validate-live": "在保存前对主页进行请求以验证 Less 和 PHP",
                 "compile-automatically": "保存时自动编译 JS"
             },
             "controls": {
@@ -20,12 +21,12 @@
                 "new": "新建",
                 "new-confirmation": "当前便笺未保存，确定丢弃并创建新的吗？",
                 "delete": "删除",
-                "delete-confirmation": "确定要删除 \"{title}\" 吗？",
+                "delete-confirmation": "确定要删除「{title}」吗？",
                 "enable": "点击启用",
                 "disable": "点击禁用"
             },
             "fields": {
-                "title": "",
+                "title": "便笺名",
                 "admin_js": "后台管理界面 JS",
                 "forum_js": "前台论坛界面 JS",
                 "admin_less": "后台管理界面 Less",
@@ -35,17 +36,17 @@
             "placeholders": {
                 "untitled": "未命名",
                 "php-comment": "在此处注册 extender",
-                "js-log": "Hello, {frontend}!"
+                "js-log": "你好，{frontend}！"
             },
             "compilation-alert": {
-                "success": "编译完成!",
-                "failure": "编译失败!",
-                "view-output": "查看日志"
+                "success": "编译完成！",
+                "failure": "编译失败！",
+                "view-output": "查看输出"
             },
             "compilation-modal": {
-                "title": "编译日志",
-                "webpack": "Webpack 日志",
-                "npm": "NPM 日志",
+                "title": "编译输出",
+                "webpack": "Webpack 输出",
+                "npm": "NPM 输出",
                 "npm-not-run": "NPM 未运行"
             },
             "menu": {

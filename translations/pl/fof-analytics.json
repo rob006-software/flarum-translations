@@ -2,7 +2,6 @@
     "fof-analytics": {
         "admin": {
             "popup": {
-                "title": "FoF Analytics",
                 "section": {
                     "googleAnalytics": "Google Analytics",
                     "piwik": "Piwik"
@@ -16,8 +15,8 @@
                     "piwikUrl": "Domena lub URL Piwik",
                     "piwikSiteId": "ID serwisu",
                     "piwikTrackSubdomain": "Śledź odwiedzających na wszystkich subdomenach forum",
-                    "piwikPrependDomain": "Dodaj domenę do tytułu strony gdy śledzisz",
-                    "piwikHideAliasUrl": "W raporcie \"Outlinks\", ukryj kliknięcia na znane aliasy adresów URL",
+                    "piwikPrependDomain": "Dodaj domenę do tytułu strony podczas śledzenia",
+                    "piwikHideAliasUrl": "W raporcie \"Outlinks\", ukryj kliknięcia w znane aliasy adresów URL",
                     "piwikAliasUrl": "URL aliasu",
                     "piwikTrackAccounts": "Śledź konta użytkowników",
                     "piwikAuthToken": "Token autentykacji API"
@@ -29,12 +28,6 @@
                     "none": "Nie śledź",
                     "username": "Śledź na podstawie nazwy użytkownika",
                     "email": "Śledź na podstawie adresu e-mail"
-                }
-            },
-            "page": {
-                "nav": {
-                    "title": "Analytics",
-                    "description": "Zerknij na statystyki"
                 }
             }
         }

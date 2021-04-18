@@ -6,18 +6,19 @@
             },
             "page": {
                 "title": "南瓜雕刻比赛",
-                "loading": "载入作品中...",
+                "loading": "载入作品中……",
                 "participate": "参加",
-                "delete-confirmation": "您确定要删除 {username} 的 “{name}” 吗？",
+                "already-participated": "已参加",
+                "delete-confirmation": "您确定要删除 {username} 的「{name}」吗？",
                 "like": "赞",
-                "already-liked": "我觉得很赞",
+                "already-liked": "我喜欢它",
                 "unlike": "踩",
                 "refresh": "刷新",
                 "load-more": "加载更多作品",
                 "sort": {
                     "mostLikes": "最受欢迎",
                     "fewerLikes": "赞数最少",
-                    "mostRecent": "最新发布",
+                    "mostRecent": "最新作品",
                     "leastRecent": "最早发布"
                 },
                 "likes": {
@@ -29,7 +30,7 @@
             },
             "modal": {
                 "title": "参加",
-                "name": "给您的作品命名",
+                "name": "命名您的作品",
                 "submit": "提交",
                 "tools": {
                     "circle": "圆",
@@ -42,11 +43,22 @@
         },
         "admin": {
             "permissions": {
-                "heading": "雕刻比赛",
                 "view": "查看作品",
                 "like": "点赞作品",
                 "participate": "参加比赛",
-                "moderate": "主持"
+                "moderate": "主持",
+                "heading": "雕刻大赛"
+            },
+            "settings": {
+                "maxEntriesPerUser": "每个用户提交数量限制",
+                "colorMode": "",
+                "title": "雕刻大赛设置"
+            },
+            "colors": {
+                "simple": "",
+                "all": "",
+                "custom": "",
+                "custom-help": ""
             }
         }
     }

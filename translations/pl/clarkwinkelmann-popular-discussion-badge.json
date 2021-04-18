@@ -1,0 +1,39 @@
+{
+    "clarkwinkelmann-popular-discussion-badge": {
+        "forum": {
+            "badge_label": "Popularne"
+        },
+        "admin": {
+            "settings": {
+                "mode": "Tryb działania",
+                "mode_help": "Tryb frontendowy jest wydajnym rozwiązaniem, które nie wykorzystuje bazy danych. Tryb harmonogramu wymaga skonfigurowanego crona i pozwala ustawiać zakresy czasu w warunku dla popularnych dyskusji.\n",
+                "mode_options": {
+                    "frontend": "Frontend",
+                    "scheduler": "Harmonogram (cron)"
+                },
+                "scheduler_frequency": "Częstotliwość dla trybu harmonogramu",
+                "scheduler_frequency_help": "Jak często statystyki popularności powinny być aktualizowane w trybie harmonogramu (w trybie frontendowym status jest natychmiastowo aktualizowany).\n",
+                "scheduler_frequency_options": {
+                    "everyFiveMinutes": "Co 5 minut",
+                    "everyTenMinutes": "Co 10 minut",
+                    "everyFifteenMinutes": "Co 15 minut",
+                    "everyThirtyMinutes": "Co 30 minut",
+                    "hourly": "Raz na godzinę"
+                },
+                "conditions": "Warunki dla popularnych dyskusji",
+                "conditions_help": "Komentarze to liczba komentarzy włączając w to pierwszy post. Wyświetlenia są pobierane z rozszerzenia od MichaelBelgium lub Flarumite. Zakres czasu będzie wykorzystany do przeliczenia liczby komentarzy i wyświetleń w ciągu ostatnich n godzin. Jedynie rozszerzenie od MichaelBelgium pozwala ustalać zakresy dla wyświetleń. Zostaw zakres czasu pusty lub ustaw zero, aby zliczać wszystkie komentarze i wyświetlenia, bez względu na czas.\n",
+                "add": "Dodaj kolejny warunek",
+                "comments": "Komentarze",
+                "comments_placeholder": "0",
+                "views": "Wyświetlenia",
+                "views_placeholder": "0",
+                "within": "w ciągu",
+                "within_placeholder": "wszystkie",
+                "hours": "h",
+                "and": "I",
+                "or": "LUB",
+                "title": ""
+            }
+        }
+    }
+}

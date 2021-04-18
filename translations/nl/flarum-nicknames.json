@@ -1,0 +1,35 @@
+{
+    "flarum-nicknames": {
+        "admin": {
+            "permissions": {
+                "edit_own_nickname_label": "Bewerk eigen bijnaam"
+            },
+            "settings": {
+                "max_label": "Maximale lengte bijnaam",
+                "min_label": "Minimale lengte bijnaam",
+                "regex_label": "Reguliere expressie voor validatie",
+                "unique_label": "Unieke bijnamen nodig?"
+            },
+            "wrong_driver": "U moet 'bijnaam' selecteren als de driver voor de weergavenaam op de <a><strong>Basispagina</strong></a> om deze extensie van kracht te laten worden."
+        },
+        "api": {
+            "invalid_nickname_message": "Deze bijnaam is ongeldig. Neem contact op met uw forumbeheerder voor meer informatie over bijnaamregels."
+        },
+        "forum": {
+            "change_nickname": {
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> flarum-nicknames.ref.change_nickname"
+            },
+            "edit_user": {
+                "nicknames_heading": "=> flarum-nicknames.ref.change_nickname",
+                "nicknames_text": "Bijnaam"
+            },
+            "settings": {
+                "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
+            }
+        },
+        "ref": {
+            "change_nickname": "Verander bijnaam"
+        }
+    }
+}

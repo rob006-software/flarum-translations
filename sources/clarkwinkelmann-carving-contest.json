@@ -8,6 +8,7 @@
                 "title": "Pumpkin Carving Contest",
                 "loading": "Loading the entries...",
                 "participate": "Participate",
+                "already-participated": "Already participated",
                 "delete-confirmation": "Do you really want to delete \"{name}\" by {username}?",
                 "like": "Like",
                 "already-liked": "I like it",
@@ -42,11 +43,20 @@
         },
         "admin": {
             "permissions": {
-                "heading": "Carving Contest",
                 "view": "View entries",
                 "like": "Like entries",
                 "participate": "Participate",
                 "moderate": "Moderate"
+            },
+            "settings": {
+                "maxEntriesPerUser": "Max submissions per user",
+                "colorMode": "Use color mode instead of carve mode"
+            },
+            "colors": {
+                "simple": "Simple color set",
+                "all": "Any color",
+                "custom": "Custom color list",
+                "custom-help": "Comma-separated list of #hex or rgb() values"
             }
         }
     }

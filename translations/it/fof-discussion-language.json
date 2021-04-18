@@ -1,0 +1,36 @@
+{
+    "fof-discussion-language": {
+        "forum": {
+            "change_language": {
+                "edit_title": "Modifica lingua per {title}",
+                "title": "Modifica Lingua",
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "composer_discussion": {
+                "choose_language_link": "Lingua"
+            },
+            "discussion_controls": {
+                "change_language_button": "Imposta Lingua"
+            },
+            "index_language": {
+                "any": "Qualsiasi Lingua"
+            }
+        },
+        "admin": {
+            "settings": {
+                "native_label": "Usa nome lingua nativa",
+                "show_flag_label": "Mostra le bandiere dei paesi con i nomi delle lingue",
+                "composer_default_label": "Preseleziona la lingua nel compositore di discussioni",
+                "locale_sort_label": "Usa la lingua rilevata per il filtro discussione predefinito"
+            },
+            "permissions": {
+                "allow_change_language_label": "Consenti la modifica della lingua"
+            }
+        },
+        "api": {
+            "discussion": {
+                "validation_error": "Devi selezionare la lingua della discussione."
+            }
+        }
+    }
+}

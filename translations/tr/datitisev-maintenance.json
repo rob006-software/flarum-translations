@@ -2,46 +2,46 @@
     "datitisev-maintenance": {
         "admin": {
             "dashboard": {
-                "enable_maintenance_mode_button": "",
-                "disable_maintenance_mode_button": ""
+                "enable_maintenance_mode_button": "Bakım Modunu Etkinleştir",
+                "disable_maintenance_mode_button": "Bakım Modunu Kapat"
             },
             "settings": {
-                "title": "",
-                "settings_notice": "",
-                "allow_bypass_label": "",
-                "allow_bypass_hint": "",
-                "prefer_db_label": "",
-                "prefer_db_hint": "",
-                "active_label": "",
-                "disable_admin_label": "",
-                "disable_api_label": "",
-                "title_label": "",
-                "message_label": "",
-                "error_page_file_label": "",
-                "error_page_file_hint": "",
-                "error_page_label": "",
-                "error_page_hint": ""
+                "title": "Bakım Modu",
+                "settings_notice": "Bu ayarlar şu anki ayarlar olmayabilir. <code>config.php</code> tarafından üzerine yazılmadıklarından emin olun.",
+                "allow_bypass_label": "İzin kullanarak forum ve API bakımının atlanmasına izin ver",
+                "allow_bypass_hint": "DB erişilebilir değilse bypass olmaz. Forum ve API için geçerlidir (API, <code>config.php</code> aracılığıyla tamamen devre dışı bırakılmadıkça)",
+                "prefer_db_label": "<code>config.php</code> ayarları yerine DB ayarlarını tercih edin",
+                "prefer_db_hint": "Normalde, <code>config.php</code> içindeki değerler burada görülenleri geçersiz kılar. Bu seçeneklerin yapılandırma dosyasında bulunanları geçersiz kılması için bu seçeneği etkinleştirin - böylece bunlar yalnızca DB'ye erişilemediğinde kullanılır.",
+                "active_label": "Bakım modu durumu",
+                "disable_admin_label": "Yönetici erişimini devre dışı bırakın",
+                "disable_api_label": "Tüm API erişimini devre dışı bırakın",
+                "title_label": "Hata Sayfası Başlığı",
+                "message_label": "Hata Sayfası Mesajı",
+                "error_page_file_label": "Hata Sayfası Dosya Yolu",
+                "error_page_file_hint": "Flarum kökünden yol - <code>vendor</code> ve <code>storage</code> 'nın bulunduğu yer.",
+                "error_page_label": "Hata Sayfası HTML/Blade",
+                "error_page_hint": "Blade ile $app, $translator, $settings, $title, ve $message kullanabilirsiniz."
             },
             "permissions": {
-                "allow_bypass_maintenance_label": ""
+                "allow_bypass_maintenance_label": "Bakım modunu Bypass et (ayar etkinleştirilmelidir)"
             }
         },
         "lib": {
-            "maintenance_active_message": "",
-            "maintenance_active_not_db_message": "",
-            "maintenance_active_disabled_api_message": ""
+            "maintenance_active_message": "Bu forum şu anda bakımda.",
+            "maintenance_active_not_db_message": "Bakım modu <code>config.php</code> üzerinden etkinleştirilir.",
+            "maintenance_active_disabled_api_message": "API şu anda herkes için kapalı."
         },
         "views": {
             "error": {
-                "title": "",
-                "message": ""
+                "title": "Bakım",
+                "message": "Şu anda bakım yapıyoruz. Çok kısa sürede yeniden yayında olacağız!"
             }
         }
     },
     "core": {
         "lib": {
             "error": {
-                "maintenance_message": ""
+                "maintenance_message": "Forum şu anda bakım modundadır."
             }
         }
     }

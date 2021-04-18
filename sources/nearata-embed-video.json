@@ -1,0 +1,45 @@
+{
+    "nearata-embed-video": {
+        "admin": {
+            "settings": {
+                "options": {
+                    "airplay": "Airplay",
+                    "hotkey": "Hotkey",
+                    "lang": "Player language",
+                    "logo": "Logo URL",
+                    "quality_switching": "Allow Quality Switching",
+                    "theme": "Theme color"
+                },
+                "permissions": {
+                    "can_create_video_player": "Can create video player"
+                },
+                "video_types": {
+                    "dash": "Dash",
+                    "flv": "Flv",
+                    "hls": "Hls",
+                    "shaka": "Shaka",
+                    "webtorrent": "WebTorrent"
+                }
+            }
+        },
+        "forum": {
+            "button_tooltip_title": "Embed Video",
+            "modal": {
+                "live_mode": "Live mode",
+                "submit_button": "Save Changes",
+                "title": "Embed Video",
+                "video_type_label": "Video Type",
+                "video_types": {
+                    "normal": "Normal",
+                    "dash": "Dash",
+                    "flv": "Flv",
+                    "hls": "Hls",
+                    "shaka": "Shaka",
+                    "webtorrent": "WebTorrent"
+                },
+                "video_url_label": "Video URL",
+                "video_url_placeholder": "Ex. https://example.com/filename.mp4"
+            }
+        }
+    }
+}

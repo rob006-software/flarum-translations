@@ -1,0 +1,40 @@
+{
+    "flarum-mentions": {
+        "forum": {
+            "composer": {
+                "mention_tooltip": "投稿もしくはユーザーに返信する",
+                "reply_to_post_text": "#{number} 番目に返信"
+            },
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_mentioned_text": "{username} が投稿に返信しました",
+                "user_mentioned_text": "{username} があなたにメンションしました"
+            },
+            "post": {
+                "mentioned_by_self_text": "{users} が返信しました。",
+                "mentioned_by_text": "{users} が返信しました。",
+                "others_text": "=> core.ref.some_others",
+                "quote_button": "引用",
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
+            },
+            "settings": {
+                "notify_post_mentioned_label": "あなたの投稿へ返信されたとき",
+                "notify_user_mentioned_label": "メンションされたとき"
+            },
+            "user": {
+                "mentions_link": "メンション"
+            }
+        },
+        "email": {
+            "post_mentioned": {
+                "subject": "",
+                "body": ""
+            },
+            "user_mentioned": {
+                "subject": "",
+                "body": ""
+            }
+        }
+    }
+}

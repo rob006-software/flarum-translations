@@ -2,60 +2,70 @@
     "askvortsov-moderator-warnings": {
         "admin": {
             "permissions": {
-                "manage_warnings": "",
-                "view_warnings": "",
-                "delete_warnings": ""
+                "manage_warnings": "Uyarı oluştur veya sil",
+                "view_warnings": "Moderatör uyarılarını göster",
+                "delete_warnings": "Moderatör uyarılarını kalıcı olarak sil"
+            }
+        },
+        "emails": {
+            "post_warned": {
+                "subject": "{warner_display_name}, sizi {discussion_title} tartışması için {strikes} ihtarla uyardı",
+                "body": "Merhaba {warnee_display_name}!\n\n{warner_display_name}, sizi {discussion_title} tartışması için {strikes} ihtarla uyardı\n\nNeden aşağıda yazmaktadır:\n\n---\n\n{public_comment}\n"
+            },
+            "user_warned": {
+                "subject": "{warner_display_name} sizi {strikes} ihtarla uyardı",
+                "body": "Merhaba {warner_display_name}!\n\n{warner_display_name} sizi {strikes} ihtarla uyardı\n\nNeden aşağıda yazmaktadır:\n\n---\n\n{public_comment}\n"
             }
         },
         "forum": {
             "notifications": {
-                "warning_text": "",
-                "warning_no_strikes_text": ""
+                "warning_text": "{mod_username} adlı moderatör tarafından {strikes} ihtarla uyarıldınız!",
+                "warning_no_strikes_text": "{mod_username} sizi uyardı! (Sebep?)"
             },
             "post": {
-                "warning": "",
-                "warning_no_strikes": ""
+                "warning": "{mod_username} adlı moderatör tarafından {strikes} ihtarla uyarıldınız!",
+                "warning_no_strikes": "{mod_username} tarafından uyarıldınız!"
             },
             "post_controls": {
-                "warning_button": ""
+                "warning_button": "Kullanıcıyı Uyar"
             },
             "user": {
-                "warnings": ""
+                "warnings": "Moderatör Uyarıları"
             },
             "settings": {
-                "warning_notification_label": ""
+                "warning_notification_label": "Moderatör tarafından uyarıldığımda"
             },
             "validation": {
-                "public_comment_required": "",
-                "invalid_strike_count": ""
+                "public_comment_required": "Çoğunlukla herkese açık bir yorum sunuyorsunuz.",
+                "invalid_strike_count": "Uyarı sayısı, 0 ile 5 arasında bir tam sayı olmalıdır."
             },
             "warning_controls": {
-                "delete_button": "",
-                "restore_button": "",
-                "delete_forever_button": ""
+                "delete_button": "Sil",
+                "restore_button": "Yenile",
+                "delete_forever_button": "Kalıcı Olarak Sil"
             },
             "warning_list": {
-                "add_button": "",
-                "no_warnings": "",
-                "warnings": "",
-                "warnings_no_strikes": "",
+                "add_button": "Yeni Uyarı",
+                "no_warnings": "Burada hiç uyarı yok gibi görünüyor.",
+                "warnings": "Moderatör Uyarıları: {strikes} uyarı aldın!",
+                "warnings_no_strikes": "Moderatör Uyarıları: Hiçbir Uyarı Alınmadı",
                 "no-warnings": ""
             },
             "warning_list_item": {
-                "list_item_heading": "",
-                "list_item_heading_hidden": "",
-                "public_comment": "",
-                "private_comment": "",
-                "linked_post": ""
+                "list_item_heading": "<strong>{mod_username}</strong> adlı moderatör <strong>{strikes}</strong> ihtarla uyardı",
+                "list_item_heading_hidden": "<strong>{mod_username}</strong> adlı moderatör <strong>{strikes}</strong> uyarıları <strong>(silindi)</strong>",
+                "public_comment": "Uyarı",
+                "private_comment": "Moderatörlere Görünür Yorumlar",
+                "linked_post": "Bağlantılı Gönderi"
             },
             "warning_modal": {
-                "confirmation_message": "",
-                "heading": "",
-                "strikes_heading": "",
-                "public_comment_heading": "",
-                "private_comment_heading": "",
-                "submit_button": "",
-                "dismiss_button": "",
+                "confirmation_message": "Uyarı verildi. Görmek için sayfayı yenilemeniz gerekebilir.",
+                "heading": "Uyar: <strong>{username}</strong>",
+                "strikes_heading": "Kaç uyarı verilsin?",
+                "public_comment_heading": "Neden <strong>{username}</strong> bu uyarıları aldı? Bu yoruları moderatörler ve diğer kullanıcılara açıktır.",
+                "private_comment_heading": "Neden <strong>{username}</strong> bu uyarıları aldı? Bu yorumları SADECE moderatörler görebilir.",
+                "submit_button": "Uyarıyı kaydet",
+                "dismiss_button": "Tamam",
                 "no_content_given": ""
             }
         }

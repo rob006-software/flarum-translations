@@ -1,0 +1,36 @@
+{
+    "askvortsov-saml": {
+        "admin": {
+            "header": {
+                "text": ""
+            },
+            "title": "SAML2 SSO კონფიგურაცია",
+            "labels": {
+                "idp_metadata_url": "იდენტურობის მომწოდებლის მეტამონაცემების URL (ალტერნატივა XML– ს)",
+                "idp_metadata": "პირადობის მიმწოდებლის მეტამონაცემები XML (ალტერნატივა URL–ს)",
+                "only_option": "გამოვიყენოთ SAML2 SSO მხოლოდ შესვლის ვარიანტი?",
+                "sync_attributes": "გსურთ სინქრონიზაციის ატრიბუტები (ავატარი, ჯგუფები, ბიო და პროფილი)? მოითხოვს askvortsov/auth- სინქრონიზაციის გაფართოებას.",
+                "nameid_format": "NameID ფორმატი",
+                "want_assertions_signed": "გსურთ მტკიცებების ხელმოწერა?",
+                "want_messages_signed": "გსურთ ხელმოწერილი შეტყობინებები?"
+            },
+            "options": {
+                "nameid_format": {
+                    "persistent": "Persistent (რეკომენდებულია, თუ მხარდაჭერილია)",
+                    "emailAddress": "იმეილი (ნაგულისხმევი. გამოიყენეთ, თუ Persistent არ არის მხარდაჭერილი)",
+                    "unspecified": "დაუზუსტებელი"
+                }
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_saml_button": "SAML2 SSO",
+                "open_popup": "დააჭირეთ აქ, რომ შეხვიდეთ",
+                "enable_popups": "ჩართეთ Popup შესასვლელად/დასარეგისტრირებლად"
+            },
+            "sign_up": {
+                "post_saml_title": "ერთი ბოლო ნაბიჯი..."
+            }
+        }
+    }
+}

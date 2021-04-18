@@ -1,0 +1,16 @@
+{
+    "askvortsov-auth-sync": {
+        "admin": {
+            "title": "認証同期設定",
+            "labels": {
+                "ignored_avatar": "返されたアバターがこれに等しい場合、AUTH では設定されません。 このオプションを使用すると、デフォルトのアバターの値を無視することができます。",
+                "stop_avatar_change": "Flarum経由でのユーザーのアバター変更を禁止？",
+                "stop_bio_change": "Flarum経由でユーザーがプロファイルを変更することを禁止する（プラグイン fof/user-bio が必要）",
+                "sync_avatar": "アバターを同期しますか？",
+                "sync_groups": "グループを同期しますか？",
+                "sync_bio": "パーソナライズされた署名を同期しますか？(プラグイン fof/user-bio が必要)",
+                "sync_masquerade": "マスカレード属性を同期しますか？（プラグイン FoF Masquerade が必要）"
+            }
+        }
+    }
+}

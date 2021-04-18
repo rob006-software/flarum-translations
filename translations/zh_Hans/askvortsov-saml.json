@@ -1,13 +1,18 @@
 {
     "askvortsov-saml": {
         "admin": {
-            "title": "SAML2 SSO - 设置",
+            "header": {
+                "text": "请确保元数据 URL 或元数据都已填写。"
+            },
+            "title": "SAML2 SSO 配置",
             "labels": {
-                "idp_metadata_url": "身份验证服务商元数据 URL（代替 XML）",
-                "idp_metadata": "身份验证服务商元数据 XML（代替 URL）",
+                "idp_metadata_url": "身份提供商元数据 URL（替代 XML）",
+                "idp_metadata": "身份提供商元数据 XML（替代 URL）",
                 "only_option": "使用 SAML2 SSO 作为唯一登录选项吗？",
-                "sync_attributes": "同步属性（头像、用户组、个性签名、个人资料）？需要安装 askvortsov/auth-sync 插件（传送门：http://t.cn/A6hwoQnb）。",
-                "nameid_format": ""
+                "sync_attributes": "同步属性（头像、用户组、签名、资料）？需要安装 askvortsov/auth-sync 插件（传送门：http://t.cn/A6yDXTRB）。",
+                "nameid_format": "NameID 格式",
+                "want_assertions_signed": "Want Assertions Signed?",
+                "want_messages_signed": "Want Messages Signed?"
             },
             "options": {
                 "nameid_format": {
@@ -25,7 +30,7 @@
                 "enable_popups": "启用登录/注册弹窗"
             },
             "sign_up": {
-                "post_saml_title": ""
+                "post_saml_title": "最后一步……"
             }
         }
     }

@@ -2,175 +2,175 @@
     "datitisev-backup": {
         "admin": {
             "adapters": {
-                "local": "",
-                "aliyun": "",
-                "azure": "",
-                "aws": "",
-                "dospaces": "",
-                "dropbox": "",
-                "gdrive": "",
-                "ftp": "",
-                "gridfs": "",
-                "rackspace": "",
-                "sftp": "",
-                "webdav": "",
-                "zip": ""
+                "local": "本地存储",
+                "aliyun": "阿里云",
+                "azure": "微软 Azure",
+                "aws": "亚马逊 AWS S3",
+                "dospaces": "Digital Ocean Spaces",
+                "dropbox": "Dropbox",
+                "gdrive": "Google Drive",
+                "ftp": "FTP",
+                "gridfs": "GridFS",
+                "rackspace": "Rackspace",
+                "sftp": "SFTP",
+                "webdav": "Webdav",
+                "zip": "Zip Archive"
             },
-            "settings_button": "",
-            "required_package_button": "",
+            "settings_button": "配置",
+            "required_package_button": "安装",
             "you-need-for": {
-                "aliyun": "",
-                "azure": "",
-                "aws": "",
-                "copy": "",
-                "dospaces": "",
-                "dropbox": "",
-                "gdrive": "",
-                "gridfs": "",
-                "rackspace": "",
-                "sftp": "",
-                "webdav": ""
+                "aliyun": "aliyuncs/aliyun-oss-flysystem",
+                "azure": "league/flysystem-azure",
+                "aws": "league/flysystem-aws-s3-v3",
+                "copy": "league/flysystem-copy",
+                "dospaces": "league/flysystem-aws-s3-v3",
+                "dropbox": "spatie/flysystem-dropbox",
+                "gdrive": "nao-pon/flysystem-google-drive",
+                "gridfs": "league/flysystem-gridfs",
+                "rackspace": "league/flysystem-rackspace",
+                "sftp": "league/flysystem-sftp",
+                "webdav": "league/flysystem-webdav"
             },
             "required-package-modal": {
-                "title": "",
-                "content": ""
+                "title": "{adapter} 所需的软件包",
+                "content": "为了使用这个驱动程序，您需要安装一个特定的软件包。您可以通过 Flarum 安装目录下运行 <code>composer require {package}</code> 命令来安装。\n"
             },
             "adapter-settings-modal": {
-                "title": "",
+                "title": "配置 {adapter}",
                 "local": {
                     "target": {
-                        "label": "",
-                        "description": ""
+                        "label": "目标路径",
+                        "description": "指定用于存储备份的本地目录。"
                     }
                 },
                 "aliyun": {
                     "endpoint": {
-                        "label": "",
-                        "description": ""
+                        "label": "终端",
+                        "description": "存储终端的 URL。"
                     },
                     "access-id": {
-                        "label": "",
-                        "description": ""
+                        "label": "Access ID",
+                        "description": "您的身份认证访问令牌 ID"
                     },
                     "access-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "Access Key",
+                        "description": "您的身份认证访问令牌密钥"
                     },
                     "bucket": {
-                        "label": "",
-                        "description": ""
+                        "label": "桶",
+                        "description": "要使用的存储桶。"
                     },
                     "path-prefix": {
-                        "label": "",
-                        "description": ""
+                        "label": "路径前缀",
+                        "description": "可选的默认文件路径前缀。"
                     }
                 },
                 "azure": {
                     "endpoint": {
-                        "label": "",
-                        "description": ""
+                        "label": "终端",
+                        "description": "存储终端的 URL。"
                     },
                     "container": {
-                        "label": "",
-                        "description": ""
+                        "label": "容器",
+                        "description": "Azure 容器"
                     }
                 },
                 "aws": {
                     "credentials": {
                         "key": {
-                            "label": "",
-                            "description": ""
+                            "label": "Key",
+                            "description": "AWS credentials key"
                         },
                         "secret": {
-                            "label": "",
-                            "description": ""
+                            "label": "Secret",
+                            "description": "AWS credentials secret"
                         }
                     },
                     "region": {
-                        "label": "",
-                        "description": ""
+                        "label": "区域",
+                        "description": "存储桶的区域。"
                     },
                     "version": {
-                        "label": "",
-                        "description": ""
+                        "label": "版本",
+                        "description": "指定一个版本或留空表示最新版本。"
                     },
                     "bucket": {
-                        "label": "",
-                        "description": ""
+                        "label": "桶",
+                        "description": "要上传到的 S3 存储桶。"
                     },
                     "path-prefix": {
-                        "label": "",
-                        "description": ""
+                        "label": "路径前缀",
+                        "description": "可选的默认文件路径前缀。"
                     }
                 },
                 "dropbox": {
                     "access-token": {
-                        "label": "",
-                        "description": ""
+                        "label": "Access Token",
+                        "description": "生成一个 oAuth 2 访问令牌 @ https://www.dropbox.com/developers/apps."
                     }
                 },
                 "gdrive": {
                     "client": {
                         "id": {
-                            "label": "",
-                            "description": ""
+                            "label": "Client ID",
+                            "description": "按照 @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md 的指示，创建一个 Google 项目，并取回您的 Client ID 和 Client Secret。\n"
                         },
                         "secret": {
-                            "label": "",
-                            "description": ""
+                            "label": "Client Secret",
+                            "description": " "
                         }
                     },
                     "refresh-token": {
-                        "label": "",
-                        "description": ""
+                        "label": "刷新令牌",
+                        "description": "按照 @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md 的指引，取回您的 Google oAuth 应用程序刷新令牌。\n"
                     },
                     "folder": {
-                        "label": "",
-                        "description": ""
+                        "label": "Folder ID",
+                        "description": "https://drive.google.com/drive/u/0/folders/ID"
                     }
                 },
                 "ftp": {
                     "host": {
-                        "label": "",
-                        "description": ""
+                        "label": "远程主机名",
+                        "description": "要连接到的 FTP 主机名，例如 <em>ftp.yourdomain.local</em>。"
                     },
                     "username": {
-                        "label": "",
-                        "description": ""
+                        "label": "用户名",
+                        "description": "要在 FTP 服务器上进行身份验证的用户名。"
                     },
                     "password": {
-                        "label": "",
-                        "description": ""
+                        "label": "密码",
+                        "description": "要在 FTP 服务器上进行身份验证的密码。"
                     },
                     "private-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "私钥",
+                        "description": "FTP 连接认证时使用的私钥的路径（最好是绝对路径）。"
                     },
                     "port": {
-                        "label": "",
-                        "description": ""
+                        "label": "端口",
+                        "description": "FTP 端口（默认 21）。"
                     },
                     "root": {
-                        "label": "",
-                        "description": ""
+                        "label": "根路径",
+                        "description": "存储备份的远程根路径（子目录）。"
                     },
                     "passive": {
-                        "toggle": "",
-                        "description": ""
+                        "toggle": "被动连接",
+                        "description": "是否使用被动 FTP 连接到服务器。"
                     },
                     "ssl": {
-                        "toggle": "",
-                        "description": ""
+                        "toggle": "SSL",
+                        "description": "是否使用加密 SSL 连接到服务器。"
                     },
                     "timeout": {
-                        "label": "",
-                        "description": ""
+                        "label": "超时时间",
+                        "description": "等待与 FTP 服务器连接的秒数。"
                     }
                 }
             },
             "nav": {
-                "label": "",
-                "description": ""
+                "label": "备份",
+                "description": "存储您的论坛副本。"
             }
         }
     }

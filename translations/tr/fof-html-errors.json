@@ -2,7 +2,6 @@
     "fof-html-errors": {
         "admin": {
             "settings": {
-                "title": "Özel HTML Hata Sayfaları",
                 "error": {
                     "403": "403 Yasaklanmış",
                     "404": "404 Bulunamadı",
@@ -11,7 +10,8 @@
                 },
                 "placeholder": {
                     "empty_for_default": "Varsayılan Flarum hata sayfası için boş bırakın"
-                }
+                },
+                "title": "Özel HTML Hata Sayfaları"
             }
         }
     }

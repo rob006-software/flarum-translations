@@ -14,9 +14,9 @@
                 "icon_text": "=> core.ref.icon_text",
                 "name_label": "=> flarum-tags.ref.name",
                 "name_placeholder": "=> flarum-tags.ref.name",
-                "slug_label": "URL",
+                "slug_label": "Adres Kısa Adı",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "=> flarum-tags.ref.create_tag"
+                "title": "Etiket Oluştur"
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
@@ -24,6 +24,7 @@
             },
             "permissions": {
                 "allow_edit_tags_label": "Etiket düzenlemeye izin ver",
+                "bypass_tag_counts_label": "Etiketi atlama gereksinimleri",
                 "restrict_by_tag_heading": "Etikete Göre Sınırla",
                 "tag_discussions_label": "Etiket tartışmaları"
             },
@@ -37,16 +38,19 @@
             },
             "tags": {
                 "about_tags_text": "Etiketler tartışmaları kategorilere ayırmak için kullanılır. Birincil etiketler geleneksel forum kategorileri gibidir: iki seviyeli bir hiyerarşide düzenlenebilirler. İkincil etiketler hiyerarşi veya sıraya sahip değildir ve mikro kategorilere ayırmak için kullanışlıdır.",
-                "create_tag_button": "=> flarum-tags.ref.create_tag",
+                "create_primary_tag_button": "Birincil Etiket Oluşturun",
+                "create_secondary_tag_button": "İkincil Etiket Oluşturun",
                 "primary_heading": "Birincil Etiketler",
                 "secondary_heading": "İkincil Etiketler",
+                "settings_heading": "Ayarlar",
+                "create_tag_button": "=> flarum-tags.ref.create_tag",
                 "settings_button": "Ayarlar"
             }
         },
         "forum": {
             "all_tags": {
-                "meta_description_text": "",
-                "meta_title_text": ""
+                "meta_description_text": "Tüm Etiketler",
+                "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
                 "choose_primary_placeholder": "Bir birincil etiket seçin|{count} birincil etiket seçin",
@@ -70,22 +74,22 @@
                 "untagged_link": "Etiketlenmemiş"
             },
             "post_stream": {
-                "added_and_removed_tags_text": "{username}, {tagsAdded} etiketlerini ekledi ve {tagsRemoved} etiketlerini kaldırdı.",
-                "added_tags_text": "{username}, {tagsAdded} etiketlerini ekledi.",
-                "removed_tags_text": "{username}, {tagsRemoved} etiketlerini kaldırdı.",
-                "tags_text": "{tags} etiket | {tags} etiketler"
+                "added_and_removed_tags_text": "{username}, {tagsAdded} ekledi ve {tagsRemoved} kaldırdı.",
+                "added_tags_text": "{username}, {tagsAdded} ekledi.",
+                "removed_tags_text": "{username}, {tagsRemoved} kaldırdı.",
+                "tags_text": "{tags} etiketini | {tags} etiketlerini"
             },
             "tag": {
-                "meta_description_text": ""
+                "meta_description_text": "{tag} etiketindeki tüm tartışmalar"
             }
         },
         "lib": {
             "deleted_tag_text": "Silindi"
         },
         "ref": {
-            "create_tag": "Etiket Oluştur",
             "name": "İsim",
-            "tags": "Etiketler"
+            "tags": "Etiketler",
+            "create_tag": "Etiket Oluştur"
         }
     }
 }

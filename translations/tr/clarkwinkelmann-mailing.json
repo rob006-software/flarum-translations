@@ -1,0 +1,44 @@
+{
+    "clarkwinkelmann-mailing": {
+        "admin": {
+            "permissions": {
+                "mail_individual": "Tek tek kullanıcılara elektronik posta gönder",
+                "mail_all": "Tüm kullanıcılara e-posta gönder"
+            }
+        },
+        "forum": {
+            "links": {
+                "mail_individual": "Bu Kullanıcıya E-Posta Gönder",
+                "mail_all": "E-posta gönder"
+            },
+            "modal_mail": {
+                "title_text": "Mesaj",
+                "recipients_label": "Alıcılar",
+                "recipients_placeholder": "Daha fazla alıcı ekleyin..",
+                "subject_label": "Konu",
+                "default_subject": "=> clarkwinkelmann-mailing.ref.default_subject",
+                "message_label": "Mesaj",
+                "submit_button": "Gönder",
+                "email_label": "Alıcı"
+            },
+            "modal_sent": {
+                "title_text": "Posta Gönderildi!",
+                "on_its_way": "Çak beşlik! Elektronik postanız {recipientsCount} gönderiliyor!"
+            },
+            "recipient_kinds": {
+                "user": "Kullanıcı",
+                "group": "Grup",
+                "email": "E-Posta"
+            }
+        },
+        "api": {
+            "no_recipients": "Hiçbir alıcı eşleşmedi"
+        },
+        "email": {
+            "default_subject": "=> clarkwinkelmann-mailing.ref.default_subject"
+        },
+        "ref": {
+            "default_subject": "Forum yönetiminden mesaj"
+        }
+    }
+}

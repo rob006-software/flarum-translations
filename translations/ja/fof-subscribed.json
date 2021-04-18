@@ -1,0 +1,40 @@
+{
+    "fof-subscribed": {
+        "forum": {
+            "settings": {
+                "defaults_label": "設定「{setting}」はデフォルトで有効になっています",
+                "forced_label": "すべてのユーザーに対して強制的に「{setting}」をオンにします",
+                "notify_discussion_created_label": "新しいテーマがあります",
+                "notify_post_unapproved_label": "新しいトピックはレビューが必要です",
+                "notify_user_created_label": "新規登録"
+            },
+            "notifications": {
+                "discussion_created_text": "{username} が新しいトピックを投稿しました",
+                "post_unapproved_text": "{username} がレビュー用の新しいトピックを投稿しました",
+                "user_created_text": "{username} がフォーラムに参加しました"
+            }
+        },
+        "admin": {
+            "menu": {
+                "description": "ユーザーサブスクリプションの構成（デフォルト）"
+            },
+            "permission": {
+                "subscribe_to_discussion_created": "ユーザーが新しいトピックに関する通知を受信できるようにする",
+                "subscribe_to_post_unapproved": "ユーザーが新しいトピックのレビュー通知を受信できるようにします",
+                "subscribe_to_user_created": "ユーザーが新規登録の通知を受信できるようにします"
+            }
+        },
+        "email": {
+            "subject": {
+                "newDiscussion": "",
+                "newUser": "",
+                "postUnapproved": ""
+            },
+            "body": {
+                "newDiscussion": "",
+                "newUser": "",
+                "postUnapproved": ""
+            }
+        }
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "fof-terms": {
+        "admin": {
+            "settings": {
+                "title": "利用規約の設定",
+                "field": {
+                    "signup-legal-text": "登録フォームの追加テキスト",
+                    "hide-updated-at": "更新がある場合、利用規約の更新日を表示しない",
+                    "date-format": "日付形式",
+                    "date-format-help": "有効な <a>Moment.js</a> 形式を使用できますが、デフォルトの形式は空白のままにします。"
+                }
+            },
+            "titles": {
+                "policies": "規約"
+            },
+            "buttons": {
+                "new-policy": "新しい条項",
+                "edit-policy": "用語を編集する",
+                "add-policy": "用語を追加する",
+                "save-policy": "条件を保存",
+                "delete-policy": "削除句",
+                "set-to-now": "今"
+            },
+            "messages": {
+                "delete-policy-confirmation": "これにより、用語 {name} および関連する受け入れ日がデータベースから完全に削除されます。 法的な理由で必要な場合は、これらの日付を必ずバックアップしてください。 この句を削除してもよろしいですか？\n"
+            },
+            "policies": {
+                "name": "お名前",
+                "name-help": "この名前はチェックボックスの横に表示され、更新ダイアログのタイトルとして使用されます。",
+                "url": "リンク",
+                "url-help": "利用規約のページリンクを読み、クリックして新しいページで開くことができます。",
+                "update-message": "更新メッセージ",
+                "update-message-help": "最新の条件に同意していないユーザーへのメッセージ。",
+                "terms-updated-at": "更新日",
+                "terms-updated-at-placeholder": "YYYY-MM-DD (hh:mm:ss)",
+                "terms-updated-at-help": "利用規約が最後に更新されました。 この値を設定するには、条件に同意したユーザーが再度同意する必要があります。 経過時間である必要があります（そうでない場合、ユーザーは日付を受け入れてダイアログをスキップできません）。\n",
+                "export-url": "データをエクスポートする",
+                "export-url-help": "「すべての条件データのエクスポート」権限を持つユーザーは、上のボタンをクリックして、条件に同意するユーザーのリストをダウンロードできます。 このオプションの詳細については、<a>プラグインwiki</a> をご覧ください。\n"
+            },
+            "permissions": {
+                "see-user-policies-state": "ユーザーの利用規約の表示",
+                "postpone-policies-accept": "新しい利用規約の遅延受諾を許可する",
+                "export-policies": "すべてのユーザーと利用規約情報をエクスポートします"
+            }
+        },
+        "forum": {
+            "signup": {
+                "i-accept": "利用規約に同意します <a>{policy}</a>",
+                "must-accept": "利用規約に同意する必要があります {policy}"
+            },
+            "accept-modal": {
+                "title": "利用規約の更新",
+                "updated-at": "利用規約は {date} に更新されました",
+                "updated-recently": "前回のアクセス以降、利用規約が更新されました",
+                "i-accept": "新しい利用規約 <a>{policy}</a> に同意します",
+                "accept": "確認する",
+                "close": "このダイアログを閉じることができます"
+            },
+            "state-modal": {
+                "title": "ユーザー {username} 利用規約の承認ステータス",
+                "accepted-at": "{date} に承認されました",
+                "not-accepted": "受け入れない"
+            },
+            "update-alert": {
+                "must-accept-message": "新しい利用規約を確認している間、アカウントへのアクセスを一時的に制限しました。",
+                "can-accept-message": "利用規約を最近更新しました。このサイトを引き続き使用するには同意する必要があります。",
+                "review": "新しい利用規約を表示して同意するには、ここをクリックしてください"
+            },
+            "user_controls": {
+                "state_button": "利用規約の受け入れ状況"
+            }
+        }
+    }
+}

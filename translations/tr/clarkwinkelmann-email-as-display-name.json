@@ -2,18 +2,18 @@
     "clarkwinkelmann-email-as-display-name": {
         "admin": {
             "permissions": {
-                "heading": "",
-                "view-own": "",
-                "view-all": ""
+                "view-own": "Kendi profilinde göster",
+                "view-all": "Tüm profillerde göster",
+                "heading": "Görünen ad olarak e-postayı göster"
             },
             "settings": {
-                "title": "",
-                "remove-username-registration": ""
+                "remove-username-registration": "Kullanıcı adı alanını kayıt formundan kaldır",
+                "title": "Uzantı Ayarları"
             }
         },
         "forum": {
             "log_in": {
-                "username_or_email_placeholder": ""
+                "username_or_email_placeholder": "=> core.ref.email"
             }
         }
     }

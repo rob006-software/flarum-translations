@@ -1,0 +1,26 @@
+{
+    "fof-prevent-necrobumping": {
+        "forum": {
+            "composer": {
+                "warning": {
+                    "title": "このトピックは <b>{time}</b> 以上議論されていません。",
+                    "description": "新しい議論に値しないかもしれないので、返信は必要ありません。",
+                    "checkbox_label": "私はこのトピックが長い間投稿されていることを知っていますが、まだ返信したいです。",
+                    "error": "このトピックは古すぎて返信できません。"
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "days_label": "天数",
+                "days_help": "スレッドに x 日以上新しい返信がない場合、スレッドは古い投稿としてマークされます。 <code>0</code> は無効を意味します。",
+                "message_title_label": "カスタム警告タイトル",
+                "message_title_help": "[time] を使用して、「このスレッドは [time] 日間アイドル状態です」など、上記で設定した時間を示します。",
+                "message_description_label": "カスタム警告コンテンツ",
+                "message_agreement_label": "カスタムメッセージ契約（チェックボックス）",
+                "tags_title": "タグ",
+                "tags_help": "特定のタグのグローバルな日をオーバーライドします。 空の場合、デフォルト値を使用します。 ディスカッションに異なる日の値を持つ複数のタグがある場合、構成されている最小の日数が使用されます。"
+            }
+        }
+    }
+}

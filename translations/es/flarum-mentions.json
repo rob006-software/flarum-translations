@@ -1,0 +1,40 @@
+{
+    "flarum-mentions": {
+        "forum": {
+            "composer": {
+                "mention_tooltip": "Mencionar a un usuario o publicación",
+                "reply_to_post_text": "Respuesta a #{number}"
+            },
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_mentioned_text": "{username} respondió a tu publicación|{username} respondieron a tu publicación",
+                "user_mentioned_text": "{username} te mencionó"
+            },
+            "post": {
+                "mentioned_by_self_text": "{users} respondiste a esto.|{users} respondísteis a esto.",
+                "mentioned_by_text": "{users} respondió a esto.|{users} respondieron a esto.",
+                "others_text": "=> core.ref.some_others",
+                "quote_button": "Citar",
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
+            },
+            "settings": {
+                "notify_post_mentioned_label": "Alguien respondió a tu publicación",
+                "notify_user_mentioned_label": "Alguien te mencionó en una publicación"
+            },
+            "user": {
+                "mentions_link": "Menciones"
+            }
+        },
+        "email": {
+            "post_mentioned": {
+                "subject": "{replier_display_name} respondió a tu publicación en {title}",
+                "body": "Hey {recipient_display_name}!\n\n{replier_display_name} respondió a tu publicación (#{post_number}) en {title}.\n\n{url}\n\n---\n\n{content}\n"
+            },
+            "user_mentioned": {
+                "subject": "{mencioner_display_name} te mencionó en {title}",
+                "body": "Hey {recipient_display_name}!\n\n{mencioner_display_name} te mencionó en una publicación en {title}.\n\n{url}\n\n---\n\n{content}\n"
+            }
+        }
+    }
+}

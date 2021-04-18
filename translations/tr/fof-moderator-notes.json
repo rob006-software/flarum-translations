@@ -2,33 +2,34 @@
     "fof-moderator-notes": {
         "admin": {
             "permissions": {
-                "createnotes": "",
-                "viewnotes": "",
-                "deletenotes": ""
+                "createnotes": "Moderatör notları oluştur",
+                "viewnotes": "Moderatör notlarını görüntüleyin",
+                "deletenotes": "Moderatör notlarını sil"
             }
         },
         "forum": {
+            "no_content_given": "Boş bir nota izin verilmez.",
             "moderatorNotes": {
-                "created_text": "",
-                "add_button": "",
-                "create-heading": "",
-                "dismiss_button": "",
-                "input_heading": "",
-                "no_content_given": "",
-                "noNotes": "",
-                "submit_button": "",
-                "delete": "",
-                "confirm": "",
+                "created_text": "{username}, bu notu {date} tarihinde oluşturdu",
+                "add_button": "Yeni not",
+                "create-heading": "Yeni bir moderatör notu oluştur",
+                "dismiss_button": "Bitti",
+                "input_heading": "<strong>{username}</strong> için notlarınızı girin (markdown desteklenir)",
+                "noNotes": "Görünüşe göre burada hiç not yok.",
+                "submit_button": "Notu kaydet",
+                "delete": "Sil",
+                "confirm": "Bu notu silmek istediğinizden emin misiniz?",
+                "no_content_given": "Boş bir nota izin verilmez.",
                 "confirmation_message": ""
             },
             "user": {
-                "notes": ""
+                "notes": "Moderatör Notları"
             }
         },
         "api": {
-            "auto_note": "",
-            "auto_note_actor": "",
-            "no_reason_provided": "",
+            "auto_note": "_Bu kullanıcıya geçtim: _ neden",
+            "auto_note_actor": "@username olarak değiştirildi_: neden",
+            "no_reason_provided": "Sebep belirtilmedi",
             "auto-note": "",
             "auto-note-actor": ""
         }

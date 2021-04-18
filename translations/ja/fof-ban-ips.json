@@ -1,0 +1,77 @@
+{
+    "fof-ban-ips": {
+        "forum": {
+            "ban_ip_button": "=> fof-ban-ips.ref.ban_ip_button",
+            "unban_ip_button": "=> fof-ban-ips.ref.unban_ip_button",
+            "modal": {
+                "ban_options_only_ip": "現在の IP のみをブロックする (<code>{ip}</code>)",
+                "ban_options_all_ip": "<i>{username}</i> が使用するすべての IP をブロックする",
+                "ban_ip_no_users": "この IP を使用している他のユーザーはいません"
+            },
+            "user_badge": {
+                "banned_tooltip": "禁止された"
+            },
+            "user_controls": {
+                "ban_button": "=> fof-ban-ips.ref.ban_label",
+                "unban_button": "=> fof-ban-ips.ref.unban_label"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "ban_ip_label": "=> fof-ban-ips.ref.ban_ip_addresses",
+                "view_banned_ip_list_label": "ブロックされたIPアドレスのリストを表示する"
+            },
+            "page": {
+                "create_button": "=> fof-ban-ips.ref.ban_ip_button",
+                "creator_label": "作成者",
+                "user_label": "ユーザー",
+                "address_label": "=> fof-ban-ips.ref.address_label",
+                "reason_label": "=> fof-ban-ips.ref.reason_label",
+                "date_label": "日付"
+            },
+            "modal": {
+                "update_title": "ブロックされた IP を更新",
+                "ban_ip_no_users": "この IP を使用している他のユーザーはいません"
+            },
+            "empty_text": "禁止された IP はありません",
+            "nav": {
+                "title": "ブロック IP",
+                "desc": "ブロックされた IP アドレスを追加、削除、表示する"
+            }
+        },
+        "error": {
+            "banned_ip_message": "検証に失敗しました",
+            "no_ips_found_message": "このユーザーの IP が見つかりません"
+        },
+        "lib": {
+            "modal": {
+                "title": "=> fof-ban-ips.ref.ban_ip_addresses",
+                "unban_title": "=> fof-ban-ips.ref.unban_ip_addresses",
+                "address_label": "=> fof-ban-ips.ref.address_label",
+                "reason_label": "=> fof-ban-ips.ref.reason_label",
+                "check_button": "確認する",
+                "save_button": "保存する",
+                "ban_ip_confirmation": "この IP をブロックしてもよろしいですか？ これにより、この IP を使用するユーザーはフォーラムにログインして登録できなくなります。",
+                "ban_ip_users": "ユーザー {users} は禁止されます|ユーザー {users} は禁止されます",
+                "unban_ip_confirmation": "このユーザーとこの IP を使用する他のすべてのユーザーのブロックを解除してもよろしいですか？（別のユーザーが使用する別のIPもブラックリストに含まれている場合、そのユーザーは引き続き禁止されます）",
+                "unban_options_only_ip": "現在の IP のみをブロック解除 (<code>{ip}</code>)",
+                "unban_options_all_ip": "<i>{username}</i> が使用するすべての IP のブロックを解除します",
+                "unban_ip_no_users": "この IP を使用している他のユーザーはいません",
+                "unban_ip_users": "ユーザー {users} のブロックを解除します|ユーザー {users} のブロックを解除します",
+                "unbanned_ips": "ブロック解除 <code>{ips}</code>.",
+                "ban_button": "=> fof-ban-ips.ref.ban_label",
+                "unban_button": "=> fof-ban-ips.ref.unban_label"
+            }
+        },
+        "ref": {
+            "ban_label": "ブロック IP",
+            "ban_ip_addresses": "ブロック IP",
+            "ban_ip_button": "ブロック IP",
+            "unban_label": "ブロック解除",
+            "unban_ip_addresses": "IP のブロックを解除",
+            "unban_ip_button": "IP のブロックを解除",
+            "address_label": "IP アドレス",
+            "reason_label": "原因（任意）"
+        }
+    }
+}

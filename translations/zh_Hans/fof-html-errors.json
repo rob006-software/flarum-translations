@@ -2,7 +2,6 @@
     "fof-html-errors": {
         "admin": {
             "settings": {
-                "title": "自定义 HTML 错误页面",
                 "error": {
                     "403": "403 拒绝访问",
                     "404": "404 网页不存在",
@@ -11,7 +10,8 @@
                 },
                 "placeholder": {
                     "empty_for_default": "留空则使用默认 Flarum 论坛错误页面"
-                }
+                },
+                "title": "自定义 HTML 错误页面"
             }
         }
     }

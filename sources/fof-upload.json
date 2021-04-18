@@ -1,17 +1,24 @@
 {
     "fof-upload": {
         "admin": {
+            "pane": {
+                "title": "Upload",
+                "description": "Set up uploading services and preferences."
+            },
             "buttons": {
                 "save": "Save settings"
             },
             "help_texts": {
-                "description": "Set up uploading services and preferences.\n",
                 "disable-download-logging": "Disable logging every download made by users of your forum. Keeping it enabled allows you to view the number of downloads and other metrics in the nearby future.\n",
                 "disable-hotlink-protection": "Hotlink protection prevents opening downloads from other sites. Current method requires a csrf token and post id.\n",
                 "download_templates": "Download templates are how uploads are shown on your forum, eg like previews, buttons. Currently available:\n",
                 "mime_types": "Please configure your mapping here. Each mime type regular expression will be handled by a specific upload adapter and download template.\n",
                 "resize": "Choose whether you want to resize your images before they get uploaded. You can choose a maximum width and height, in pixels. The resizing process keeps the aspect ratio of the images.\n",
-                "watermark": "Choose whether images will have a watermark added during upload. Watermarks are added to non-gifs based on your preferences below.\n"
+                "client_extension": "By default Upload will choose a safe file extension based on the MIME type.\nFor some file types based around ZIP or binary data this can result in generic extensions being used instead of the expected one.\nHere you can enter a comma-separated list of file extensions that will be kept verbatim.\n",
+                "watermark": "Choose whether images will have a watermark added during upload. Watermarks are added to non-gifs based on your preferences below.\n",
+                "s3_compatible_storage": "The following settings are only required when using S3 compatible storage. If you use AWS, you can leave them blank.\n",
+                "s3_acl": "The ACL that should be applied to the uploaded object (default: private). For possible values, see https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "composer_buttons": "By default both the media manager button and upload button are visible. You can also choose to display only one button.\n"
             },
             "labels": {
                 "aws-s3": {
@@ -19,7 +26,11 @@
                     "key": "Key",
                     "region": "Region",
                     "secret": "Secret",
-                    "title": "AWS S3 storage settings"
+                    "title": "AWS S3 storage settings",
+                    "advanced_title": "Advanced S3 storage settings",
+                    "endpoint": "Endpoint",
+                    "use_path_style_endpoint": "Use path style endpoint",
+                    "acl": "Access Control List (ACL)"
                 },
                 "disable-download-logging": {
                     "title": "Disable logging downloads",
@@ -49,20 +60,33 @@
                     "title": "General preferences"
                 },
                 "resize": {
-                    "max_width": "Maximum image width",
+                    "max_width": "Maximum image width/height",
                     "title": "Image resize",
                     "toggle": "Resize images"
+                },
+                "client_extension": {
+                    "title": "User-provided file extensions"
                 },
                 "watermark": {
                     "file": "Upload your watermark image",
                     "position": "Watermark position",
                     "title": "Watermark images",
                     "toggle": "Watermark images"
+                },
+                "composer_buttons": {
+                    "title": "Composer buttons",
+                    "options": {
+                        "both": "Both",
+                        "upload-btn": "Upload button only",
+                        "media-btn": "Media manager button only"
+                    }
                 }
             },
             "permissions": {
                 "download_label": "Download files",
-                "upload_label": "Upload files"
+                "upload_label": "Upload files",
+                "view_user_uploads_label": "View user uploads",
+                "delete_uploads_of_others_label": "Delete user uploads"
             },
             "templates": {
                 "file": "Default file download template",
@@ -70,10 +94,12 @@
                 "image": "Default image download template",
                 "image-preview": "Complete image preview template",
                 "image-preview_description": "Shows the complete image in-line. No download functionality, no statistics are gathered and hotlink protection is ignored.\n",
-                "image_description": "Shows a thumbnail of the image and proxies download through php. Allowing statistics to be gathered and hotlink protection.\n"
+                "image_description": "Shows a thumbnail of the image and proxies download through php. Allowing statistics to be gathered and hotlink protection.\n",
+                "just-url": "Just URL",
+                "just-url_description": "Inserts just the URL. Rendering can be handled by other extensions with auto-link ability. No download functionality, no statistics are gathered and hotlink protection is ignored.\n"
             },
             "upload_methods": {
-                "aws-s3": "Amazon S3",
+                "aws-s3": "S3/Compatible",
                 "imgur": "Imgur",
                 "local": "Local",
                 "ovh-svfs": "OVH SVFS",
@@ -81,8 +107,30 @@
             }
         },
         "forum": {
+            "media_manager": "Media manager",
             "buttons": {
-                "attach": "Attach"
+                "attach": "Attach",
+                "upload": "Upload",
+                "user_uploads": "User uploads",
+                "cancel": "Cancel",
+                "media": "My media"
+            },
+            "file_list": {
+                "loading": "Loading files...",
+                "empty": "There are no files to show.",
+                "release_to_upload": "Release to upload",
+                "modal_empty_desktop": "Your file list is empty. Click the button or drag a file here to upload.",
+                "modal_empty_phone": "Your file list is empty. Tap the button above to upload a file.",
+                "select_file_a11y_label": "Select file \"{fileName}\"",
+                "confirm_selection_btn": "Select file|Select files",
+                "load_more_files_btn": "Load more files",
+                "hide_file": {
+                    "btn_a11y_label": "Hide \"{fileName}\" from media manager",
+                    "hide_confirmation": "Are you sure you want to hide \"{fileName}\"? Hiding a file will only remove it from your media manager and will not affect existing posts.",
+                    "hide_success": "File hidden",
+                    "hide_fail": "Couldn't hide file \"{fileName}\"",
+                    "loading": "Hiding file..."
+                }
             },
             "states": {
                 "error": "Error",

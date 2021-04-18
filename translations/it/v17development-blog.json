@@ -1,0 +1,101 @@
+{
+    "v17development-flarum-blog": {
+        "admin": {
+            "blog": "Blog",
+            "permissions": {
+                "write_articles": "Scrivi e modifica articoli del blog",
+                "auto_approve_posts": "Pubblica articoli senza approvazione",
+                "approve_posts": "Può approvare articoli del blog"
+            },
+            "settings": {
+                "no_categories_selected": "Nessuna categoria selezionata",
+                "selected_category_count": "Hai {count} categoria selezionata|Hai {count} categorie selezionate",
+                "select_categories_button": "Seleziona le categorie del blog",
+                "blog_heading": "Blog",
+                "allow_comments_label": "Permetti commenti",
+                "allow_comments_text": "Per impostazione predefinita, consenti commenti sui post del blog. Quando disabilitato, può essere abilitato individualmente per i post sul blog. <b>Nota:</b> La modifica di questa impostazione non influirà sui post del blog preesistenti.",
+                "require_review_label": "I post del blog richiedono una revisione",
+                "require_review_text": "Quando si pubblica un articolo, non sarà visibile direttamente e dovrà essere rivisto da un moderatore.",
+                "hide_on_discussion_list_label": "Non mostrare nell'elenco di discussione",
+                "hide_on_discussion_list_text": "Nascondi i post del blog dall'elenco delle discussioni.",
+                "add_sidebar_nav_label": "Aggiungi alla barra di navigazione laterale",
+                "add_sidebar_nav_text": "Includere un collegamento al blog nel menu di navigazione della barra laterale.",
+                "categories_heading": "Categorie",
+                "hide_tags_in_taglist_label": "Nascondi i tag nella taglist",
+                "hide_tags_in_taglist_text": "Se abilitata, questa estensione nasconderà i tag del blog dalla tua home page.",
+                "show_tag_hierarchy_label": "Mostra la gerarchia dei tag",
+                "show_tag_hierarchy_text": "Aggiungi spaziatura alle categorie e assegna una gerarchia all'elenco delle categorie.",
+                "redirects_heading": "Reindirizzamenti",
+                "redirect_articles_label": "Reindirizza gli articoli del blog",
+                "redirect_articles_text": "Se abilitata, questa estensione reindirizzerà gli URL di discussione originali all'URL del loro blog.",
+                "redirect_tags_label": "Reindirizza i tag del blog",
+                "redirect_tags_text": "Quando è abilitata, questa estensione reindirizza gli URL dei tag del blog all'URL della categoria del blog.",
+                "default_article_image_label": "Immagine articolo predefinita",
+                "default_article_image_text": "Seleziona un'immagine di articolo predefinita da visualizzare quando non è impostata alcuna immagine."
+            }
+        },
+        "forum": {
+            "blog": "Blog",
+            "read_more": "Leggi tutto",
+            "hidden": "Nascosto",
+            "recent_posts": "Post recenti del Blog",
+            "categories": "Categorie",
+            "forum_nav": "Forum Nav",
+            "return_to_overview": "Torna alla panoramica del blog",
+            "no_more_posts": "No more blog posts.",
+            "category_empty": "Non ci sono post del blog in questa categoria.",
+            "compose": {
+                "write_article": "Scrivi articolo"
+            },
+            "validation": {
+                "missing_id": "ID mancante"
+            },
+            "article": {
+                "title": "Titolo",
+                "slug": "Slug",
+                "summary": "Sommario"
+            },
+            "comment_section": {
+                "comments": "Commenti",
+                "locked": "La sezione dei commenti è disabilitata per questo articolo"
+            },
+            "review_article": {
+                "pending_review_title": "Revisione in atto",
+                "pending_review": "Questo articolo è in attesa di revisione e non è stato ancora pubblicato",
+                "approve_article": "Approva articolo",
+                "approve_article_approved": "L'articolo è stato approvato e pubblicato"
+            },
+            "tools": {
+                "rename_article": "Rinomina articolo",
+                "edit_article": "Modifica articolo",
+                "update_category": "Aggiorna categorie",
+                "article_settings": "Impostazioni articolo",
+                "approve_article": "Approva articolo",
+                "hide_article": "Nascondi articolo",
+                "recover_article": "Recupera articolo",
+                "delete_forever": "Cancella per sempre",
+                "enable_comments": "Abilita commenti",
+                "disable_comments": "Disabilita commenti"
+            },
+            "utils": {
+                "redirect": {
+                    "title": "Ti stiamo reindirizzando al nostro articolo del blog...",
+                    "link": "<a>Clicca qui</a> se non vieni reindirizzato automaticamente"
+                }
+            },
+            "composer": {
+                "no_title": "Nessun titolo",
+                "enter_message_here": "Scrivi qui il tuo messaggio",
+                "post_article": "Pubblica articolo",
+                "select_category": "Scegli una categoria",
+                "edit_categories": "Modifica categorie",
+                "write": "Scrivi",
+                "view": "Vedi",
+                "nothing_to_preview": "Niente da visualizzare in anteprima",
+                "comment_section": "La sezione commenti non è disponibile durante la composizione di un articolo.",
+                "no_blog_tags_selected": "Nessuno dei tag che hai selezionato è un tag del blog. Selezionane almeno uno.",
+                "post_without_blog_info": "Sei sicuro di voler pubblicare questo post sul blog? Non hai ancora inserito un riepilogo o un'immagine."
+            }
+        }
+    }
+}

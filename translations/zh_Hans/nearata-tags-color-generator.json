@@ -1,0 +1,37 @@
+{
+    "nearata-tags-color-generator": {
+        "admin": {
+            "color_luminosity_label": "颜色亮度",
+            "color_luminosity_options": {
+                "random": "随机",
+                "light": "浅色",
+                "bright": "鲜艳",
+                "dark": "深色"
+            },
+            "color_hue_label": "色调",
+            "color_hue_options": {
+                "random": "随机",
+                "red": "红色",
+                "orange": "橙色",
+                "yellow": "黄色",
+                "green": "绿色",
+                "blue": "蓝色",
+                "purple": "紫色",
+                "pink": "粉色",
+                "monochrome": "黑白"
+            },
+            "text_color": {
+                "label": "文本色",
+                "options": {
+                    "default": "默认",
+                    "theme_primary_color": "主题主色调",
+                    "theme_secondary_color": "主题次色调",
+                    "custom": "自定义颜色"
+                },
+                "custom_label": "自定义文本色",
+                "custom_helptext": "请使用十六进制、RGB(A) 或 HLS(A) 色码。"
+            },
+            "generate_color_button": "生成随机颜色"
+        }
+    }
+}

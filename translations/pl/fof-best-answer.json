@@ -6,7 +6,12 @@
                 "best_answer_not_own_discussion": "Wybieranie najlepszej odpowiedzi (cudza dyskusja)"
             },
             "settings": {
-                "title": "Najlepsza odpowiedź",
+                "label": {
+                    "general": "Ogólne",
+                    "reminders": "Przypomnienia",
+                    "advanced": "Zaawansowane",
+                    "reminders_notice": "Aby przypomnienia działały, harmonogram zadań Flarum musi być prawidłowo skonfigurowany."
+                },
                 "allow_select_own_post": "Pozwól użytkownikowi wybrać swój własny post",
                 "select_best_answer_reminder_days": "Przypomnij użytkownikowi o wybraniu najlepszej odpowiedzi po X dniach",
                 "schedule_on_one_server": "Użyj dyrektywy \"onOneServer()\" dla harmonogramu zadań (task scheduler) (wymaga Redis/Memcache)",
@@ -23,19 +28,28 @@
             "best_answer_button": "Najlepsza odpowiedź",
             "best_answer_label": "wybrana przez <a>{username}</a> {time_set}",
             "errors": {
-                "mismatch": "Wybrany post nie istnieje w tej dyskusji"
+                "mismatch": "Wybrany post nie istnieje w tej dyskusji."
             },
             "notification": {
                 "best_answer_in_discussion": "{username} wybrał najlepszą odpowiedź w tej dyskusji",
-                "best_answer_set_in_discussion_email": "Wybrano najlepszą odpowiedź",
-                "content": "Wybierz najlepszą odpowiedź, jeśli twój problem został rozwiązany",
+                "content": "Wybierz najlepszą odpowiedź, jeśli Twój problem został rozwiązany",
                 "awarded": "Twój post został wybrany jako najlepsza odpowiedź przez {username}",
-                "awarded_email": "Twój post został wybrany jako najlepsza odpowiedź",
-                "select_email_title": "Czy udało ci się rozwiązać twój problem?",
                 "preferences": {
                     "awarded_best_answer": "Ktoś oznaczył mój post jako najlepsza odpowiedź",
                     "best_answer_in_discussion": "Ktoś wybrał najlepszą odpowiedź w dyskusji, w której uczestniczyłem"
                 }
+            }
+        },
+        "email": {
+            "subject": {
+                "awarded": "Twój post został wybrany jako najlepsza odpowiedź przez {display_name}",
+                "ba-set": "Najlepsza odpowiedź została wybrana przez {display_name}",
+                "select": "Czy uzyskałeś odpowiedź na swoje pytanie?"
+            },
+            "body": {
+                "awarded": "Witaj {recipient_display_name},\n\nŚwietna robota, {actor_display_name} właśnie wybrał Twój post jako najlepsza odpowiedź w \"{discussion_title}\". Dzięki za pomoc!\n\nAby zobaczyć dyskusję, kliknij poniższy link:\n{discussion_url}\n",
+                "ba-set": "Witaj {recipient_display_name},\n\n{actor_display_name} właśnie wybrał najlepszą odpowiedź w dyskusji \"{discussion_title}\", w której uczestniczyłeś.\n\nAby zobaczyć dyskusję, kliknij poniższy link:\n{discussion_url}\n",
+                "select": "Witaj {recipient_display_name},\n\nTylko sprawdzamy. Powinieneś mieć już mnóstwo odpowiedzi na swoje pytanie \"{discussion_title}\". Mamy nadzieję, że jedna z nich pomogła Ci rozwiązać Twój problem.\n\nJeśli tak, wybranie najlepszej odpowiedzi bardzo pomogłoby innym użytkownikom mającym podobny problem - dzięki temu łatwiej będzie im znaleźć odpowiedź, której poszukują. Jest to też forma podziękowania użytkownikom, którzy Ci pomogli - poświęcają swój czas charytatywnie, dobrze byłoby dać im znać, że ich wysiłek nie poszedł na marne.\n\nAby przejść do dyskusji i wybrać najbardziej odpowiedni post jako najlepszą odpowiedź, kliknij poniższy link:\n{discussion_url}\n\nDzięki!\n"
             }
         }
     }

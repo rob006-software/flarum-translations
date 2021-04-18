@@ -2,12 +2,21 @@
     "imgur-upload": {
         "admin": {
             "settings": {
+                "hide-markdown-image": "隐藏 Markdown 图片按钮",
+                "allow-paste": "",
+                "embed-type": {
+                    "title": "嵌入类型",
+                    "preview-with-link": "预览图 (1024px) 并链接至原图",
+                    "preview-without-link": "无链接预览图",
+                    "full-with-link": "全尺寸原图带超链接",
+                    "full-without-link": "全尺寸原图无链接"
+                },
                 "title": "Imgur 上传设置"
             }
         },
         "forum": {
-            "upload": "点击或粘贴来上传",
-            "loading": "正在上传...",
+            "upload": "拖动或粘贴上传",
+            "loading": "正在上传……",
             "done": "完成！",
             "error": "错误"
         }

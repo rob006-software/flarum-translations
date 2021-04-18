@@ -1,0 +1,69 @@
+{
+    "fof-masquerade": {
+        "forum": {
+            "alerts": {
+                "profile-completion-required": "Por favor completa los campos del perfil de usuario.\n",
+                "profile-completed": ""
+            },
+            "buttons": {
+                "view-profile": "Ver perfil",
+                "save-profile": "Guardar"
+            },
+            "fields": {
+                "select": {
+                    "none-optional": "Ninguna (opcional)",
+                    "none-required": "Elija una opción (requerido)"
+                },
+                "boolean": {
+                    "yes": "Si",
+                    "no": "No"
+                }
+            }
+        },
+        "admin": {
+            "general-options": "Configuración",
+            "buttons": {
+                "add-field": "Crear campo",
+                "edit-field": "Guardar cambios",
+                "delete-field": "Eliminar campo"
+            },
+            "permissions": {
+                "have-profile": "Tener perfil masquerade",
+                "view-profile": "Ver perfil masquerade"
+            },
+            "fields": {
+                "title": "Campos",
+                "add": "Añadir campo {field}",
+                "edit": "Editar campo {field}",
+                "name": "Nombre",
+                "name-help": "Nombre visible del campo.\n",
+                "description": "Descripción",
+                "description-help": "Descripción opcional para explicar el uso del campo.\n",
+                "required": "Marcar como requerido",
+                "on_bio": "Mostrar campo en la descripción de usuario",
+                "type": "Tipo",
+                "validation": "Validación",
+                "validation-help": "Consulta las <a>reglas de validación de Laravel</a>. Ej: \"string|min:5\" o \"url\".\n",
+                "prefix": "Field prefix",
+                "prefix-help": "Shows your prefix in front of values entered by the user for this field.\n",
+                "icon": "Icono",
+                "icon-help": "Introduce el nombre de alguna clase de <a>FontAwesome</a>, <em>incluyendo</em> el prefijo <code>fas fa-</code>.\n",
+                "force-user-to-completion": "Obligar al usuario a completar el perfil",
+                "options": "Opciones",
+                "option-new": "Nueva opción",
+                "option-comma-warning": "La etiqueta de cualquier opción no puede contener comas (\",\")."
+            },
+            "types": {
+                "advanced": "Avanzado",
+                "boolean": "Checkbox",
+                "email": "Email",
+                "select": "Desplegable",
+                "url": "URL"
+            },
+            "title": "Masquerade",
+            "menu": {
+                "description": "Configurar campos de perfil de usuario.\n"
+            }
+        }
+    }
+}

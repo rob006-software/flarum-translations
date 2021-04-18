@@ -1,0 +1,41 @@
+{
+    "nomiscz-auth-wechat": {
+        "forum": {
+            "buttons": {
+                "login": "WeChat でログインする",
+                "link": "WeChat アカウントのリンク",
+                "unlink": "WeChat アカウントのリンク解除"
+            },
+            "alerts": {
+                "already_linked": "WeChat アカウントは既にリンクされています！",
+                "already_used": "WeChat アカウントはすでに別のユーザーにリンクされています！",
+                "link_success": "WeChat アカウントのリンクが成功しました！",
+                "unlink_success": "WeChat アカウントのリンク解除に成功しました！",
+                "error": "問題が発生しました。しばらくしてからもう一度お試しください！"
+            },
+            "modals": {
+                "link": {
+                    "title": "WeChat アカウントのリンク"
+                },
+                "unlink": {
+                    "title": "WeChat アカウントのリンク解除",
+                    "info": {
+                        "confirm": "WeChat アカウントのリンクを解除してもよろしいですか？",
+                        "no_providers": "あなたはログオンするための他の方法を持っていません。最初にアカウントのパスワードをリセットしてください。"
+                    },
+                    "buttons": {
+                        "confirm": "はい、確かです",
+                        "cancel": "キャンセル！"
+                    }
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "title": "WeChat ログイン - 設定",
+                "api_app_id": "API App ID",
+                "api_app_secret": "API App Secret"
+            }
+        }
+    }
+}

@@ -1,0 +1,95 @@
+{
+    "flarum-tags": {
+        "admin": {
+            "basics": {
+                "tags_label": "=> flarum-tags.ref.tags"
+            },
+            "edit_tag": {
+                "color_label": "=> core.ref.color",
+                "delete_tag_button": "タグを削除",
+                "delete_tag_confirmation": "本当にこのタグを削除してもよろしいですか？ タグに登録されている投稿は削除されません。",
+                "description_label": "説明",
+                "hide_label": "「すべてのディスカッション」から隠す",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "=> flarum-tags.ref.name",
+                "name_placeholder": "=> flarum-tags.ref.name",
+                "slug_label": "英語名（Slug）",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> flarum-tags.ref.create_tag"
+            },
+            "nav": {
+                "tags_button": "タグ",
+                "tags_text": "利用可能なタグのリストを管理します。"
+            },
+            "permissions": {
+                "allow_edit_tags_label": "タグの編集を許可",
+                "bypass_tag_counts_label": "",
+                "restrict_by_tag_heading": "タグ毎の制限",
+                "tag_discussions_label": "タグを変更"
+            },
+            "tag_settings": {
+                "range_separator_text": " to ",
+                "required_primary_heading": "プライマリタグの選択が必要です",
+                "required_primary_text": "スレッドに適用できるプライマリタグの最小数と最大数を入力します",
+                "required_secondary_heading": "必要なセカンダリタグの数",
+                "required_secondary_text": "スレッドに適用できるセカンダリタグの最小数と最大数を入力します。",
+                "title": "タグ設定"
+            },
+            "tags": {
+                "about_tags_text": "タグは、スレッドを分類するために使用されます。プライマリタグは従来のフォーラムカテゴリのようなもので、2つのレベルの階層に配置できます。セカンダリタグには階層や順序はなく、カテゴリ化に役立ちます",
+                "create_primary_tag_button": "",
+                "create_secondary_tag_button": "",
+                "primary_heading": "プライマリタグ",
+                "secondary_heading": "セカンダリタグ",
+                "settings_heading": "",
+                "create_tag_button": "=> flarum-tags.ref.create_tag",
+                "settings_button": "設定"
+            }
+        },
+        "forum": {
+            "all_tags": {
+                "meta_description_text": "すべてのタグ",
+                "meta_title_text": "=> flarum-tags.ref.tags"
+            },
+            "choose_tags": {
+                "choose_primary_placeholder": "1個のプライマリタグを選択|{count}個のプライマリタグを選択",
+                "choose_secondary_placeholder": "1個のセカンダリタグを選択|{count}個のセカンダリタグを選択",
+                "edit_title": "{title} のタグを編集",
+                "submit_button": "=> core.ref.okay",
+                "title": "スレッドにつけるタグを選択してください"
+            },
+            "composer_discussion": {
+                "choose_tags_link": "タグを選択"
+            },
+            "discussion_controls": {
+                "edit_tags_button": "タグを編集"
+            },
+            "header": {
+                "back_to_tags_tooltip": "タグのリストに戻る"
+            },
+            "index": {
+                "more_link": "More...",
+                "tags_link": "=> flarum-tags.ref.tags",
+                "untagged_link": "タグを解除"
+            },
+            "post_stream": {
+                "added_and_removed_tags_text": "{username} が {tagsAdded} を追加し、 {tagsRemoved} を解除しました。",
+                "added_tags_text": "{username} が {tagsAdded} を追加しました。",
+                "removed_tags_text": "{username} が {tagsRemoved} を解除しました。",
+                "tags_text": "{tags}|{tags}"
+            },
+            "tag": {
+                "meta_description_text": "{tag} タグの下のすべてのスレッド"
+            }
+        },
+        "lib": {
+            "deleted_tag_text": "削除済み"
+        },
+        "ref": {
+            "name": "名前",
+            "tags": "タグ",
+            "create_tag": "タグを作成"
+        }
+    }
+}

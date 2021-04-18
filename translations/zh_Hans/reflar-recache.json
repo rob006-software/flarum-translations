@@ -2,35 +2,35 @@
     "reflar-recache": {
         "forum": {
             "redis": {
-                "error_alert": ""
+                "error_alert": "Redis 连接已于 {time} 发生故障。请检查您的设置，在此期间论坛性能将受到很大影响。"
             }
         },
         "admin": {
             "nav": {
-                "desc": ""
+                "desc": "配置缓存设置。"
             },
             "page": {
-                "connection_failed": "",
+                "heading": "设置",
+                "connection_failed": "连接失败。",
                 "switches": {
-                    "cache": "",
-                    "query": "",
-                    "avatar": "",
-                    "lazy": ""
+                    "cache": "启用缓存",
+                    "query": "启用查询缓存（仅限 Redis）",
+                    "avatar": "启用图片优化",
+                    "lazy": "启用图片懒加载"
                 },
-                "heading": "",
-                "text": "",
                 "redis": {
-                    "label": "",
-                    "check": "",
-                    "host": "",
-                    "password": "",
-                    "port": "",
-                    "database": "",
-                    "failed": "",
-                    "fillin": "",
-                    "success": ""
+                    "label": "Redis",
+                    "check": "保存前检查连接状态！",
+                    "host": "主机",
+                    "password": "密码",
+                    "port": "端口",
+                    "database": "数据库",
+                    "failed": "保存设置失败，请确保 \"vendor/flarum/core/src/Database/\" 可以被您的 Web 服务器写入",
+                    "fillin": "请完整填写 Redis 表单",
+                    "success": "已成功连接至 Redis 服务器。"
                 },
-                "check_button": ""
+                "check_button": "检查",
+                "text": "在下面配置当前活动的缓存驱动。可以随时预先配置任何\n可用的其他驱动程序，之后再切换。\n"
             }
         }
     }

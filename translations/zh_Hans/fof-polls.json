@@ -2,16 +2,18 @@
     "fof-polls": {
         "admin": {
             "permissions": {
-                "moderate": "编辑或删除投票",
-                "self_edit": "允许用户编辑自己发起的投票",
+                "view_results_without_voting": "",
                 "start": "发起投票",
-                "vote": "参与投票"
+                "self_edit": "允许用户编辑自己发起的投票",
+                "vote": "参与投票",
+                "change_vote": "",
+                "moderate": "编辑或删除投票"
             }
         },
         "forum": {
             "days_remaining": "投票将于 {time} 结束。",
             "no_permission": "您没有投票权限",
-            "poll_ended": "投票已结束",
+            "poll_ended": "投票已结束。",
             "public_poll": "查看投票参与者",
             "composer_discussion": {
                 "add_poll": "发起投票",

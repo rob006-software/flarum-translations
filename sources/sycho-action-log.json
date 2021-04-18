@@ -1,0 +1,149 @@
+{
+    "sycho-action-log": {
+        "admin": {
+            "title": "Action Log",
+            "description": "View a list of all the moderation/administration actions taken within the past week.",
+            "total_entries": "{count} Total entries.",
+            "page": "Page: {number}",
+            "no_entries": "No Entries",
+            "search": "Search..",
+            "settings": "=> core.ref.settings",
+            "action_settings": "From here you can control which actions to log.",
+            "save": "=> core.ref.save_changes",
+            "clear": "Clear Log",
+            "clear_confirmation": "Are you sure you want to clear the log ? this cannot be undone.",
+            "sort": {
+                "newest": "=> core.forum.index_sort.newest_button",
+                "oldest": "=> core.forum.index_sort.oldest_button"
+            },
+            "gambits": {
+                "label": "Search Filters",
+                "description": "You can use the following filters in the search box. (example, type:moderation)",
+                "items": {
+                    "type": "The type of the action (moderation/administration).",
+                    "action": "The name of the action (deleted, created, enabled, tagged...etc)",
+                    "resource": "The resource type the action was taken on (example: discussion).",
+                    "actor": "Name of the actor who took the action."
+                }
+            },
+            "actions": {
+                "moderation": {
+                    "label": "Moderation",
+                    "discussion": {
+                        "label": "Discussion",
+                        "locked": {
+                            "label": "Locked",
+                            "action": "Locked the discussion {discussion}"
+                        },
+                        "unlocked": {
+                            "label": "Unlocked",
+                            "action": "Unlocked the discussion {discussion}"
+                        },
+                        "hidden": {
+                            "label": "Hidden",
+                            "action": "Hid the discussion {discussion}"
+                        },
+                        "restored": {
+                            "label": "Restored",
+                            "action": "Restored the discussion {discussion}"
+                        },
+                        "deleted": {
+                            "label": "Deleted",
+                            "action": "Deleted the discussion {discussion}"
+                        },
+                        "stickied": {
+                            "label": "Stickied",
+                            "action": "Stickied the discussion {discussion}"
+                        },
+                        "unstickied": {
+                            "label": "Unstickied",
+                            "action": "Unstickied the discussion {discussion}"
+                        },
+                        "tagged": {
+                            "label": "Tagged",
+                            "action": {
+                                "add_remove": "Added the {tags} and removed the {oldTags} from the discussion {discussion}",
+                                "add": "Added the {tags} to the discussion {discussion}",
+                                "remove": "Removed the {oldTags} from the discussion {discussion}",
+                                "tags_text": "{tags} tag|{tags} tags"
+                            }
+                        },
+                        "renamed": {
+                            "label": "Renamed",
+                            "action": "Renamed the discussion {oldTitle} to {discussion}"
+                        }
+                    },
+                    "post": {
+                        "label": "Post",
+                        "approved": {
+                            "label": "Approved",
+                            "action": "Approved the post {post} by {author} from the the discussion {discussion}"
+                        }
+                    },
+                    "user": {
+                        "label": "User",
+                        "suspended": {
+                            "label": "Suspended",
+                            "action": "Suspended the user {u}"
+                        },
+                        "unsuspended": {
+                            "label": "Unsuspended",
+                            "action": "Unsuspended the user {u}"
+                        },
+                        "activated": {
+                            "label": "Activated",
+                            "action": "Activated the user {u}"
+                        }
+                    }
+                },
+                "administration": {
+                    "label": "Administration",
+                    "group": {
+                        "label": "Group",
+                        "created": {
+                            "label": "Created",
+                            "action": "Created a new group {group}"
+                        },
+                        "deleted": {
+                            "label": "Deleted",
+                            "action": "Deleted the group {group}"
+                        }
+                    },
+                    "tag": {
+                        "label": "Tag",
+                        "created": {
+                            "label": "Created",
+                            "action": "Created a new tag {tag}"
+                        },
+                        "deleted": {
+                            "label": "Deleted",
+                            "action": "Deleted the tag {tag}"
+                        }
+                    },
+                    "extension": {
+                        "label": "Extension",
+                        "enabled": {
+                            "label": "Enabled",
+                            "action": "Enabled the extension {extension}"
+                        },
+                        "disabled": {
+                            "label": "Disabled",
+                            "action": "Disabled the extension {extension}"
+                        },
+                        "uninstalled": {
+                            "label": "Uninstalled",
+                            "action": "Uninstalled the extension {extension}"
+                        }
+                    },
+                    "permission": {
+                        "label": "Permission",
+                        "edited": {
+                            "label": "Set",
+                            "action": "Set the permission {permission} to groups {groups}"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "fof-oauth": {
+        "admin": {
+            "settings": {
+                "providers": {
+                    "google": {
+                        "description": "",
+                        "client_id_label": "",
+                        "client_secret_label": ""
+                    }
+                }
+            }
+        },
+        "lib": {
+            "providers": {
+                "google": ""
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_google": ""
+            }
+        },
+        "ref": {
+            "settings": {
+                "client_id": "",
+                "client_secret": ""
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "clarkwinkelmann-follow-tags-prompt": {
+        "forum": {
+            "controls": {
+                "choose": "Takip edilecek etiketleri seçin"
+            },
+            "modal": {
+                "title": "Takip edilecek etiketleri seçin",
+                "later": "Bana daha sonra hatırlat",
+                "continue": "Foruma devam et"
+            }
+        },
+        "admin": {
+            "settings": {
+                "buttonOnFollowingPage": "Takip edilen sayfada düğmeyi göster",
+                "allDiscussionsOnFollowingPageForGuests": "Takip edilen sayfadaki tüm tartışmaları misafirler için göster",
+                "availableTagStrategy": "Model olarak sunulacak etiketler",
+                "tagStrategy": {
+                    "primary": "Birinci düzey birincil etiketler",
+                    "primaryAndChildren": "Herhangi bir seviyedeki tüm birincil etiketler",
+                    "primaryAndSecondary": "Birinci düzey birincil etiketler ve ikincil etiketler",
+                    "secondary": "Yalnızca ikincil etiketler",
+                    "all": "Tüm etiketler",
+                    "list": "Aşağıda seçilen etiketler"
+                }
+            },
+            "homepage": {
+                "following": "Takip etme"
+            }
+        }
+    }
+}

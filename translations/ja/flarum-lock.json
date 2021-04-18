@@ -1,0 +1,28 @@
+{
+    "flarum-lock": {
+        "admin": {
+            "permissions": {
+                "lock_discussions_label": "ロックされたスレッド"
+            }
+        },
+        "forum": {
+            "badge": {
+                "locked_tooltip": "ロックされました"
+            },
+            "discussion_controls": {
+                "lock_button": "ロック",
+                "unlock_button": "ロック解除"
+            },
+            "notifications": {
+                "discussion_locked_text": "{username} がロックしました"
+            },
+            "post_stream": {
+                "discussion_locked_text": "{username} がスレッドをロックしました",
+                "discussion_unlocked_text": "{username} がロックを解除しました"
+            },
+            "settings": {
+                "notify_discussion_locked_label": "あなたのスレッドがロックされたとき"
+            }
+        }
+    }
+}

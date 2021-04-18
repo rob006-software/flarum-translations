@@ -2,36 +2,53 @@
     "kilowhat-custom-paths": {
         "admin": {
             "settings": {
-                "title": "",
                 "head": {
-                    "name": "",
-                    "path": ""
+                    "name": "页面名称",
+                    "path": "路径"
                 },
                 "extensions": {
-                    "flarum-tags": "",
-                    "flarum-subscriptions": "",
-                    "flarum-flags": "",
-                    "fof-user-directory": "",
-                    "fof-pages": "",
-                    "askvortsov-categories": ""
+                    "flarum-tags": "Flarum 标签",
+                    "flarum-subscriptions": "Flarum 我的关注",
+                    "flarum-flags": "Flarum 小黑屋",
+                    "kilowhat-formulaire": "KILOWHAT Formulaire",
+                    "fof-user-directory": "FoF 会员名录",
+                    "fof-pages": "FoF 静态页面",
+                    "fof-gamification": "FriendsOfFlarum 游戏化",
+                    "fof-byobu": "FoF 私密主题",
+                    "askvortsov-categories": "Askvortsov 传统板块",
+                    "v17development-blog": "v17development Flarum 博客",
+                    "clarkwinkelmann-group-list": "ClarkWinkelmann 组群一览"
                 },
                 "paths": {
-                    "index": "",
-                    "discussion": "",
-                    "user": "",
-                    "settings": "",
-                    "notifications": "",
-                    "tags": "",
-                    "tag": "",
-                    "following": "",
-                    "flags": "",
-                    "fof-user-directory": "",
-                    "fof-pages": "",
-                    "askvortsov-categories": ""
+                    "index": "全部主题列表（非首页时）",
+                    "discussion": "主题",
+                    "user": "个人主页",
+                    "user-discussions": "用户主题帖",
+                    "user-mentions": "用户提及",
+                    "settings": "设置",
+                    "notifications": "通知（移动端）",
+                    "tags": "全部标签",
+                    "tag": "标签主题",
+                    "following": "我的关注",
+                    "flags": "举报（移动端）",
+                    "formulaire-form": "表格",
+                    "formulaire-submission": "我的关注",
+                    "fof-user-directory": "会员名录",
+                    "fof-pages": "静态页面",
+                    "fof-gamification": "排名",
+                    "fof-byobu": "私密主题",
+                    "fof-byobu-profile": "个人主题页",
+                    "askvortsov-categories": "传统板块",
+                    "v17development-blog-overview": "博客首页",
+                    "v17development-blog-compose": "写文章",
+                    "v17development-blog-category": "分类目录",
+                    "v17development-blog-post": "帖子",
+                    "clarkwinkelmann-group-list": "组群一览"
                 },
-                "reset": "",
-                "disabled": "",
-                "redirect": ""
+                "reset": "重置路径",
+                "disabled": "未启用该扩展",
+                "redirect": "将默认 Flarum 路径重定向到新路径",
+                "title": "自定义路径"
             }
         }
     }

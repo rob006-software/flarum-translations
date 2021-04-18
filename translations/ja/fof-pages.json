@@ -1,0 +1,51 @@
+{
+    "fof-pages": {
+        "admin": {
+            "edit_page": {
+                "content_label": "=> fof-pages.ref.content",
+                "content_placeholder": "=> fof-pages.ref.content",
+                "delete_page_button": "ページを削除",
+                "delete_page_confirmation": "ページを削除する？",
+                "hidden_label": "下書きとして保存する",
+                "restricted_label": "アクセス制限（権限ページに移動して、カスタムページにアクセスできるユーザーを設定します）",
+                "html_label": "HTML を有効化する",
+                "set_as_home_page_confirmation": "本当にこのページをホームページに設定しますか？",
+                "slug_label": "=> fof-pages.ref.slug",
+                "slug_placeholder": "=> fof-pages.ref.slug",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> fof-pages.ref.create_page",
+                "title_label": "=> fof-pages.ref.title",
+                "title_placeholder": "=> fof-pages.ref.title",
+                "url_label": "=> fof-pages.ref.url",
+                "url_placeholder": "=> fof-pages.ref.url"
+            },
+            "pages": {
+                "create_button": "=> fof-pages.ref.create_page",
+                "about_text": "静的なカスタムページを作成し、管理する"
+            },
+            "pages_list": {
+                "empty_text": "ページが存在しないようです",
+                "title": "=> fof-pages.ref.title"
+            },
+            "permissions": {
+                "restricted": "カスタムの静的ページにアクセスする"
+            },
+            "badges": {
+                "hidden": "下書き",
+                "restricted": "アクセス制限がある"
+            },
+            "nav": {
+                "pages_button": "=> fof-pages.ref.pages",
+                "pages_text": "静的なカスタムページを作成する"
+            }
+        },
+        "ref": {
+            "content": "コンテンツ",
+            "create_page": "ページを作成",
+            "pages": "ページ",
+            "slug": "Slug（リンク）",
+            "title": "タイトル",
+            "url": "Url"
+        }
+    }
+}

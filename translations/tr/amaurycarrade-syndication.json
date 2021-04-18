@@ -19,23 +19,23 @@
                     "tag_d_title": "{tag} etiketindeki son tartışmalar",
                     "tag_d_subtitle": "{tag} etkiketindeki en yeni tartışma",
                     "discussion_title": "{discussion_name}",
-                    "discussion_subtitle": "Bu konudaki son yazılar"
+                    "discussion_subtitle": "Bu tartışmadaki son yazılar"
                 }
             }
         },
         "admin": {
             "settings": {
-                "title": "",
+                "title": "Akış Ayarları",
                 "full-text": {
-                    "label": "",
-                    "help": "",
-                    "recommendation": ""
+                    "label": "Tam Metin Akış",
+                    "help": "Devredışı bırakılırsa, gönderiler yalnıza özet içerir ve kullanıcıların her şeyi okuyabilmesi için siteyi görüntülemeleri gerekir.",
+                    "recommendation": "Forumunuzu RSS ile takip eden kullanıcılarınız varsa bu seçeneği aktif bırakmanız tavsiye edilir."
                 },
                 "html": {
-                    "label": "",
-                    "help": ""
+                    "label": "Zenginleştirilmiş Akış",
+                    "help": "HTML ile oluşturulan gönderileri de yayınlamak için bu seçeneği aktif edin. Devredışı bırakılırsa yayınlar düz metin olarak yayınlanır."
                 },
-                "entries-count": ""
+                "entries-count": "Akışta kaç gönderi olsun?"
             }
         }
     }

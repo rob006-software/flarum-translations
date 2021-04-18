@@ -1,25 +1,21 @@
 {
     "fof-user-directory": {
         "forum": {
+            "header": {
+                "back_to_user_directory_tooltip": "Wróć do katalogu użytkowników"
+            },
             "search": {
-                "users_heading": "Przeszukaj wszystkich użytkowników dla \"{query}\""
+                "users_heading": "Wyszukaj użytkowników dla \"{query}\"",
+                "field": {
+                    "placeholder": "Wyszukaj użytkowników"
+                }
             },
             "page": {
                 "nav": "Katalog użytkowników",
-                "sort": {
-                    "relevance": "Najtrafniejsze wyniki",
-                    "default": "Domyślne",
-                    "username_az": "Nazwa użytkownika (a-z)",
-                    "username_za": "Nazwa użytkownika (z-a)",
-                    "newest": "Najnowsi użytkownicy",
-                    "oldest": "Najstarsi użytkownicy",
-                    "seen_recent": "Ostatnio online",
-                    "seen_oldest": "Najdłużej offline",
-                    "most_posts": "Najwięcej postów",
-                    "least_posts": "Najmniej postów",
-                    "most_discussions": "Najwięcej dyskusji",
-                    "least_discussions": "Najmniej dyskusji"
-                }
+                "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
+                "load_more_button": "=> core.ref.load_more",
+                "empty_text": "Nie udało się znaleźć żadnego użytkownika pasującego do kryteriów wyszukiwania.",
+                "filter_button": "Filtruj po grupie"
             }
         },
         "admin": {
@@ -27,8 +23,24 @@
                 "view_user_directory": "Przeglądanie katalogu użytkowników"
             },
             "settings": {
-                "title": "Ustawienia katalogu użytkowników",
-                "link": "Dodaj link do katalogu użytkowników na stronie głównej"
+                "link": "Dodaj link do katalogu użytkowników na stronie głównej",
+                "default-sort": "Domyślne sortowanie"
+            }
+        },
+        "lib": {
+            "sort": {
+                "not_specified": "Użyj domyślnego dla Flarum",
+                "default": "Domyślne",
+                "username_az": "Nazwa użytkownika (a-z)",
+                "username_za": "Nazwa użytkownika (z-a)",
+                "newest": "Najnowsi użytkownicy",
+                "oldest": "Najstarsi użytkownicy",
+                "most_posts": "Najwięcej postów",
+                "least_posts": "Najmniej postów",
+                "most_discussions": "Najwięcej dyskusji",
+                "least_discussions": "Najmniej dyskusji",
+                "seen_recent": "Ostatnio online",
+                "seen_oldest": "Najdłużej offline"
             }
         }
     }

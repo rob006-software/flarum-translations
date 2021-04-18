@@ -1,0 +1,103 @@
+{
+    "fof-mason": {
+        "forum": {
+            "discussion-controls": {
+                "edit-answers": "Alanları düzenleyin"
+            },
+            "answers-modal": {
+                "edit-title": "{title} için alanları düzenleyin",
+                "save": "Alanları kaydet"
+            },
+            "post-answers": {
+                "no-answer": "Yanıt yok"
+            },
+            "answers": {
+                "choose-option": "Bir seçenek seçin",
+                "no-option-selected": "Hiçbir seçenek seçilmedi"
+            },
+            "tags": {
+                "inadequate-settings": "Etiket ayarları doğru yapılandırılmamış. En fazla bir birincil ve ikincil etikete izin verin veya \"Alan olarak etiketler\" özelliğini devre dışı bırakın.\n",
+                "tags-label": "Etiketler"
+            }
+        },
+        "admin": {
+            "buttons": {
+                "new-field": "Yeni alan",
+                "add-field": "Alan Ekle",
+                "save-field": "Alan değişikliklerini kaydedin",
+                "delete-field": "Alanı sil",
+                "edit-field": "Alanı düzenlemek için tıklayın",
+                "add-answer": "Yanıt ekleyin",
+                "save-answer": "Yanıt değişikliklerini kaydedin",
+                "delete-answer": "Yanıtı sil",
+                "edit-answer": "Yanıtı Düzenle",
+                "edit-answer-prompt": "İçeriği kullanıldığı her yerde düzenleyin",
+                "show-user-answers": "Önerilmeyen yanıtları göster ({count})"
+            },
+            "fields": {
+                "add": "{field} alanını ekleyin",
+                "edit": "{field} alanını düzenleyin",
+                "required": "Gereklidir",
+                "name": "Alan adı",
+                "name-help": "Herkes tarafından görülebilen (çevrilemez) alan etiketi.\n",
+                "description": "Alan açıklaması",
+                "description-help": "Bu alanın kullanımını/ihtiyacını açıklamak için isteğe bağlı bir açıklama.\n",
+                "show_when_empty": "Boş olduğunda göster",
+                "show_when_empty-help": "Cevabı olmadığında alanın tartışmada gösterilip gösterilmeyeceği",
+                "validation": "Kullanıcı değerleri için doğrulama",
+                "user_values_allowed": "Kullanıcı değerlerine izin verilir",
+                "user_values_allowed-help": "Etkinleştirilir ise kullanıcılar yönetici tarafından tanımlananlar yerine kendi değerlerini ekleyebilir. Bu değerler \"Doğrulama\" ayarına göre kontrol edilecektir. Devre dışı bırakılır ise yalnızca \"önerilen\" yanıtları kullanabilirler.\n",
+                "validation-help": "Desteklenen <a>Laravel doğrulama kurallarını</a> kontrol edin. Örneğin: \"string|min:5\" or \"url\".\n",
+                "enable-user-values-for-validation": "Doğrulama kurallarını yapılandırmak için \"kullanıcı değerlerini\" etkinleştirin",
+                "icon": "Simge",
+                "icon-help": "Kullanıcı tarafından girilen değerlerin önünde bir simge gösterir. Mevcut simgelerin referansı için <a>FontAwesome internet sitesine</a> bakın. Önek dahil olmak üzere tam simge sınıfı adını kullanın, örneğin \"fas fa-bolt\".\n",
+                "icon-preview": "Ön izleme: {preview}",
+                "save-field-for-answers": "Yanıt eklemek için alanı kaydedin",
+                "is_suggested": "Kullanıcılara yanıt önerin",
+                "new-answer": "Yeni yanıt",
+                "new-answer-placeholder": "Bazı metin",
+                "min_answers_count": "",
+                "max_answers_count": ""
+            },
+            "messages": {
+                "delete-answer-confirmation": "\"{content}\" yanıtını silmek istediğinizden emin misiniz? Onu kullanan tüm tartışmalardan kaldırılacaktır. Mevcut yanıtları korumak istiyorsanız bunun yerine yanıt önerisini devre dışı bırakın. Yanıt silinsin mi?\n",
+                "delete-field-confirmation": "\"{name}\" alanını silmek istediğinizden emin misiniz? Alan ve yanıtları, onları kullanan tüm tartışmalardan kaldırılacaktır. Alan silinsin mi?\n"
+            },
+            "settings": {
+                "fields-section-title": "Özel alanlar bölümünün başlığı",
+                "fields-section-title-placeholder": "Varsayılan olarak başlık gösterilmeyecektir",
+                "fields-section-title-help": "Kullanıcılar bu metni düzenleyicideki ve tartışmadaki özel alanların üzerinde göreceklerdir.\n",
+                "column-count": "Alanları gösterirken sütun sayısı",
+                "n-columns": "{count} sütun",
+                "labels-as-placeholders": "Etiketleri formda yer tutucu olarak göster",
+                "labels-as-placeholders-help": "Alanlar daha az dikey alan kullanacak ve simgeler artık gösterilmeyecek. Bunun özellikle mevcut alanları düzenlerken kullanılabilirlik üzerinde bir etkisi olabileceğini unutmayın.\n",
+                "fields-in-hero": "Alanlar daha az dikey alan kullanacak ve artık gösterilmeyecek. Bunun özellikle bölümleri kullanılabilirlik üzerinde bir arada kullanılabilir",
+                "hide-empty-fields-section": "Tüm alanlar boş ve gizli olduğunda başlığı ve kontrolleri gizle",
+                "hide-empty-fields-section-help": "Varsayılan olarak, kullanıcı alanları düzenleyebiliyorsa veya bir başlık ayarlanmışsa, tüm alanlar gizli olsa bile bölüm her zaman gösterilecektir. Bu seçenek etkinleştirildiğinde, bölüm gizlenecek ve \"alanları düzenle\" düğmesi yalnızca tüm alanlar boş olduğunda \"yanıtla\" açılır menüsünde kullanılabilecektir.\n",
+                "tags-as-field": "Etiket seçiciyi alan olarak göster",
+                "tags-as-field-help": "Bu, varsayılan etiket seçiciyi gizleyecek ve bunun yerine özel bir açılır menü alanı gösterecektir. Bu, yalnızca bir birincil ve bir ikincil etikete kadar izin verdiyseniz işe yarar!\n",
+                "tags-field-name": "Etiketler alanının etiketi",
+                "tags-field-name-placeholder": "=> fof-mason.forum.tags.tags-label"
+            },
+            "titles": {
+                "settings": "Ayarlar",
+                "fields": "Alanlar",
+                "field-settings": "Alan ayarları",
+                "field-answers": "Alan yanıtları"
+            },
+            "permissions": {
+                "see-own-fields": "Alanları kendi mevcut tartışmalarınızda görün",
+                "see-other-fields": "Mevcut tüm tartışmalardaki alanları görün",
+                "fill-fields": "Yeni tartışmalarda alanları doldurun",
+                "update-own-fields": "Kendi tartışma alanlarını güncelle",
+                "update-other-fields": "Herhangi bir tartışmanın alanlarını güncelleyin",
+                "skip-required-fields": "Gerekli alanları atlama izni var",
+                "mason-heading": "Mason"
+            },
+            "menu": {
+                "title": "Mason",
+                "description": "Özel tartışma alanlarını yapılandırın."
+            }
+        }
+    }
+}

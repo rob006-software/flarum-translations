@@ -1,12 +1,6 @@
 {
     "core": {
         "admin": {
-            "add_extension": {
-                "developer_text": "如果您是开发者，您可以阅读<a>开发文档</a>自行开发新的插件。",
-                "install_text": "同时，您可以在 <a>Flarum 社区</a>搜索插件，并通过 Composer 手动安装。",
-                "temporary_text": "不远的将来，这里将能更便捷地添加扩展插件。正如我们所说，我们正在建立一套生态系统！",
-                "title": "添加插件"
-            },
             "appearance": {
                 "colored_header_label": "彩色导航栏",
                 "colors_heading": "颜色",
@@ -18,6 +12,7 @@
                 "custom_styles_heading": "自定义样式",
                 "custom_styles_text": "添加 LESS/CSS 代码以自定义论坛外观样式，此设置将覆盖 Flarum 默认样式。",
                 "dark_mode_label": "夜间模式",
+                "description": "自定义论坛色调、图标以及其他元素",
                 "edit_css_button": "编辑自定义 CSS",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
@@ -26,26 +21,33 @@
                 "favicon_text": "上传图片做为论坛的站点图标，该图标会显示在浏览器标签页、搜索引擎结果条目及书签等多个地方。",
                 "logo_heading": "Logo",
                 "logo_text": "上传图片代替论坛名称，并展示在导航栏左侧。",
+                "title": "外观",
                 "submit_button": "=> core.ref.save_changes"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "默认语言",
-                "display_name_heading": "",
-                "display_name_text": "",
+                "description": "设置论坛名称、语言以及其他基础设置",
+                "display_name_heading": "用户外显名称",
+                "display_name_text": "选择外显名称的类型，默认为用户名。",
                 "forum_description_heading": "论坛描述",
                 "forum_description_text": "输入一两句话简单介绍您的论坛。这将会显示为 <meta name=\"description\"> 描述标签，一般为 160 字的文本，用于介绍网页的内容。平常多被搜索引擎截取网页简介用。",
                 "forum_title_heading": "论坛名称",
                 "home_page_heading": "论坛首页",
                 "home_page_text": "选择一种页面作为论坛首页。",
-                "saved_message": "您的更改已保存",
-                "show_language_selector_label": "显示选择语言菜单",
-                "submit_button": "=> core.ref.save_changes",
+                "show_language_selector_label": "显示语言选择器",
+                "slug_driver_heading": "别名驱动：{model}",
+                "slug_driver_text": "选择要用于此实体的驱动程序。",
+                "title": "常规",
                 "welcome_banner_heading": "欢迎横幅",
-                "welcome_banner_text": "横幅文本将显示于「全部主题」页面顶部，可以用于欢迎论坛访客。"
+                "welcome_banner_text": "横幅文本将显示于「全部主题」页面顶部，可以用于欢迎论坛访客。",
+                "saved_message": "您的更改已保存",
+                "submit_button": "=> core.ref.save_changes"
             },
             "dashboard": {
                 "clear_cache_button": "清除缓存",
+                "description": "论坛各项数据一览",
+                "title": "仪表盘",
                 "tools_button": "工具"
             },
             "edit_css": {
@@ -78,53 +80,93 @@
             },
             "email": {
                 "addresses_heading": "地址",
+                "description": "配置论坛邮件服务",
                 "driver_heading": "驱动",
                 "driver_label": "邮件驱动",
                 "from_label": "发件地址",
-                "heading": "=> core.ref.email",
-                "mail_encryption_label": "加密协议（ssl 或 tls）",
+                "mail_encryption_label": "加密协议（小写 ssl 或 tls）",
                 "mail_host_label": "主机",
                 "mail_mailgun_domain_label": "域名",
                 "mail_mailgun_region_label": "区域",
                 "mail_mailgun_secret_label": "Secret key",
-                "mail_mandrill_secret_label": "Secret key",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "端口",
-                "mail_username_label": "用户名（一般同发件地址）",
+                "mail_username_label": "用户名（部分邮件服务商要求用户名必须与发件地址一致）",
                 "mailgun_heading": "Mailgun 设置",
-                "mandrill_heading": "Mandrill 设置",
                 "not_sending_message": "Flarum 当前无法发送电子邮件，请检查邮件驱动及其配置。",
+                "send_test_mail_button": "发送",
+                "send_test_mail_heading": "发送测试邮件",
+                "send_test_mail_success": "测试邮件发送成功！",
+                "send_test_mail_text": "使用上述设置发送测试邮件到您的邮箱：{email}",
                 "smtp_heading": "SMTP 设置",
+                "title": "=> core.ref.email",
                 "submit_button": "=> core.ref.save_changes",
-                "text": "配置论坛发信服务方式",
+                "heading": "=> core.ref.email",
+                "text": "配置论坛发信服务方式。",
+                "mail_mandrill_secret_label": "Secret key",
                 "mail_ses_key_label": "Key",
                 "mail_ses_region_label": "区域",
                 "mail_ses_secret_label": "Secret",
+                "mandrill_heading": "Mandrill 设置",
                 "ses_heading": "SES 设置"
             },
-            "extensions": {
-                "add_button": "添加插件",
-                "settings_button": "=> core.ref.settings",
-                "uninstall_button": "卸载"
+            "extension": {
+                "configure_scopes": "设置范围",
+                "confirm_uninstall": "此扩展的的数据库条目和文件资源都将被永久性删除，确定要继续吗？",
+                "disabled": "关闭",
+                "enable_to_see": "开启扩展程序以查看或修改设置。",
+                "enabled": "开启",
+                "info_links": {
+                    "discuss": "讨论帖",
+                    "documentation": "文档",
+                    "donate": "捐助",
+                    "source": "源码",
+                    "support": "支持",
+                    "website": "网站"
+                },
+                "no_permissions": "此扩展无新增权限。",
+                "no_settings": "此扩展无设置项。",
+                "open_modal": "打开设置",
+                "permissions_title": "权限",
+                "uninstall_button": "卸载",
+                "saved_message": "您的修改已保存。"
             },
             "header": {
+                "get_help": "帮助",
                 "log_out_button": "=> core.ref.log_out"
             },
             "loading": {
-                "title": "请稍候..."
+                "title": "请稍后……"
             },
             "nav": {
-                "appearance_button": "外观",
-                "appearance_text": "自定义论坛色调、图标以及其他元素",
-                "basics_button": "常规",
-                "basics_text": "设置论坛名称、语言以及其他常规设置",
-                "dashboard_button": "概览",
-                "dashboard_text": "论坛统计数据概览",
+                "appearance_button": "=> core.admin.appearance.title",
+                "appearance_title": "=> core.admin.appearance.description",
+                "basics_button": "=> core.admin.basics.title",
+                "basics_title": "=> core.admin.basics.description",
+                "categories": {
+                    "authentication": "认证",
+                    "core": "核心配置",
+                    "discussion": "主题",
+                    "feature": "功能",
+                    "formatting": "格式化",
+                    "language": "语言包",
+                    "moderation": "内容审核",
+                    "other": "其他",
+                    "theme": "样式"
+                },
+                "dashboard_button": "=> core.admin.dashboard.title",
+                "dashboard_title": "=> core.admin.dashboard.description",
                 "email_button": "=> core.ref.email",
-                "email_text": "配置论坛邮箱服务",
-                "extensions_button": "插件",
-                "extensions_text": "为您的论坛添加插件扩展",
-                "permissions_button": "权限",
+                "email_title": "=> core.admin.email.description",
+                "permissions_button": "=> core.admin.permissions.title",
+                "permissions_title": "=> core.admin.permissions.description",
+                "search_placeholder": "搜索扩展程序",
+                "appearance_text": "自定义论坛色调、图标以及其他元素。",
+                "basics_text": "设置论坛名称、语言以及其他常规设置",
+                "dashboard_text": "论坛统计数据概览",
+                "email_text": "配置论坛邮件服务",
+                "extensions_button": "扩展程序",
+                "extensions_text": "为您的论坛添加额外的功能",
                 "permissions_text": "设置各用户组访问及操作权限",
                 "advanced_button": "高级",
                 "advanced_text": "配置专门针对高级用户的设置。"
@@ -137,18 +179,22 @@
                 "delete_discussions_label": "删除主题",
                 "delete_posts_forever_label": "永久删除回复",
                 "delete_posts_label": "删除回复",
+                "description": "设置各用户组访问及操作权限",
                 "edit_posts_label": "编辑回复",
-                "edit_users_label": "编辑用户",
+                "edit_users_label": "编辑用户入口",
+                "edit_users_credentials_label": "编辑用户身份标识",
+                "edit_users_groups_label": "编辑用户组",
                 "global_heading": "全局",
                 "moderate_heading": "管理相关",
                 "new_group_button": "添加用户组",
                 "participate_heading": "操作相关",
-                "post_without_throttle_label": "无需等待即可多次回复",
+                "post_without_throttle_label": "发帖频率无限制",
                 "read_heading": "访问相关",
                 "rename_discussions_label": "更改主题标题",
                 "reply_to_discussions_label": "回复",
                 "sign_up_label": "注册",
                 "start_discussions_label": "发布主题",
+                "title": "权限",
                 "view_discussions_label": "查看主题",
                 "view_hidden_groups_label": "查看隐藏的用户组徽章",
                 "view_last_seen_at_label": "查看用户上次在线时间",
@@ -166,11 +212,23 @@
                 "signup_open_button": "开放注册"
             },
             "settings": {
+                "saved_message": "您的修改已保存。",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
                 "remove_button": "=> core.ref.remove",
                 "upload_button": "选择图片..."
+            },
+            "add_extension": {
+                "developer_text": "如果您是一个开发者，您可以阅读<a>开发文档</a>自行开发扩展程序。",
+                "install_text": "同时，您可以在 <a>Flarum 社区</a>搜索扩展程序，并通过 Composer 手动安装。",
+                "temporary_text": "在不远的将来，这里将为您提供添加扩展程序的便捷途径。如我们所说，我们正在建立一套生态系统！",
+                "title": "添加扩展程序"
+            },
+            "extensions": {
+                "add_button": "添加扩展程序",
+                "settings_button": "=> core.ref.settings",
+                "uninstall_button": "卸载"
             },
             "advanced": {
                 "help_text": "请注意这些设置仅适用于高级用户",
@@ -210,15 +268,17 @@
             },
             "composer_edit": {
                 "discard_confirmation": "更改尚未保存，确定要丢弃吗？",
+                "edited_message": "编辑成功",
                 "post_link": "发布 #{number} 于 {discussion}",
-                "submit_button": "=> core.ref.save_changes"
+                "submit_button": "=> core.ref.save_changes",
+                "view_button": "=> core.ref.view"
             },
             "composer_reply": {
                 "body_placeholder": "=> core.ref.write_a_reply",
                 "discard_confirmation": "回复尚未发布，确定要丢弃吗？",
                 "posted_message": "回复成功。",
                 "submit_button": "回复",
-                "view_button": "查看"
+                "view_button": "=> core.ref.view"
             },
             "discussion_controls": {
                 "cannot_reply_button": "回复已关闭",
@@ -229,7 +289,8 @@
                 "log_in_to_reply_button": "登录以回复",
                 "rename_button": "=> core.ref.rename",
                 "reply_button": "=> core.ref.reply",
-                "restore_button": "=> core.ref.restore"
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": "主题下拉菜单开关"
             },
             "discussion_list": {
                 "empty_text": "这里空空如也...",
@@ -243,6 +304,7 @@
                 "email_heading": "=> core.ref.email",
                 "email_label": "=> core.ref.email",
                 "groups_heading": "用户组",
+                "nothing_available": "暂无可供您编辑的项目。",
                 "password_heading": "=> core.ref.password",
                 "password_label": "=> core.ref.password",
                 "set_password_label": "设置新密码",
@@ -263,10 +325,12 @@
             "header": {
                 "admin_button": "后台管理",
                 "back_to_index_tooltip": "返回主题列表",
+                "locale_dropdown_accessible_label": "更改论坛语言",
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "个人主页",
                 "search_placeholder": "搜索",
+                "session_dropdown_accessible_label": "会话下拉菜单开关",
                 "settings_button": "设置",
                 "sign_up_link": "=> core.ref.sign_up"
             },
@@ -275,22 +339,24 @@
                 "cannot_start_discussion_button": "发帖功能已关闭",
                 "mark_all_as_read_confirmation": "确定要标记所有帖子为已读吗？",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
-                "meta_title_text": "",
+                "meta_title_text": "=> core.ref.all_discussions",
                 "refresh_tooltip": "刷新",
-                "start_discussion_button": "=> core.ref.start_a_discussion"
+                "start_discussion_button": "=> core.ref.start_a_discussion",
+                "toggle_sidenav_dropdown_accessible_label": "导航栏下拉菜单开关"
             },
             "index_sort": {
                 "latest_button": "最新回复",
                 "newest_button": "新鲜出炉",
                 "oldest_button": "陈年旧贴",
                 "relevance_button": "相关推荐",
-                "top_button": "热门回复"
+                "toggle_dropdown_accessible_label": "更改「全部主题」排序",
+                "top_button": "热门主题"
             },
             "log_in": {
                 "forgot_password_link": "忘记密码？",
                 "invalid_login_message": "登录信息有误",
                 "password_placeholder": "=> core.ref.password",
-                "remember_me_label": "记住我",
+                "remember_me_label": "记住我的登录状态",
                 "sign_up_text": "还没有帐户？ <a>立即注册</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
@@ -302,6 +368,7 @@
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "标记为已读",
                 "title": "=> core.ref.notifications",
+                "toggle_dropdown_accessible_label": "查看通知",
                 "tooltip": "=> core.ref.notifications"
             },
             "post": {
@@ -315,7 +382,8 @@
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "edit_button": "=> core.ref.edit",
                 "hide_confirmation": "确定要删除这个帖子吗？",
-                "restore_button": "=> core.ref.restore"
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": "帖子下拉菜单开关"
             },
             "post_scrubber": {
                 "now_link": "最新回复",
@@ -379,8 +447,9 @@
                 "delete_button": "=> core.ref.delete",
                 "delete_confirmation": "确定要删除此用户？此账号会被注销，已发布的帖子仍会保留。",
                 "delete_error_message": "删除用户 <i>{username} ({email})</i> 失败",
-                "delete_success_message": "用户 <i>{username} ({email})</i> 已删除",
-                "edit_button": "=> core.ref.edit"
+                "delete_success_message": "已删除用户 <i>{username} ({email})</i>",
+                "edit_button": "=> core.ref.edit",
+                "toggle_dropdown_accessible_label": "用户下拉菜单开关"
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
@@ -392,8 +461,13 @@
             "badge": {
                 "hidden_tooltip": "隐藏"
             },
+            "dropdown": {
+                "toggle_dropdown_accessible_label": "下拉菜单开关"
+            },
             "error": {
+                "dependent_extensions_message": "无法停用「{extension}」，请先停用依赖扩展「{extensions}」",
                 "generic_message": "糟糕，出错啦！请刷新页面重试。",
+                "missing_dependencies_message": "无法启用「{extension}」，请先启用依赖扩展「{extensions}」",
                 "not_found_message": "您请求的资源不存在。",
                 "permission_denied_message": "您没有权限进行此操作。",
                 "rate_limit_exceeded_message": "您的操作太频繁，请稍后再试。"
@@ -404,8 +478,8 @@
                 "ten_kilo_text": "万"
             },
             "series": {
-                "glue_text": "，",
-                "three_text": "{first}，{second} 还有 {third}",
+                "glue_text": "， ",
+                "three_text": "{first}，{second} 和 {third}",
                 "two_text": "{first} 和 {second}"
             },
             "username": {
@@ -424,7 +498,7 @@
             },
             "error": {
                 "csrf_token_mismatch": "您已经发呆很长时间了。",
-                "csrf_token_mismatch_return_link": "返回再试一次。",
+                "csrf_token_mismatch_return_link": "请返回再试一次",
                 "invalid_confirmation_token": "验证链接已使用或无效。",
                 "not_authenticated": "您没有权限访问此页面，请登录后再试。",
                 "not_found": "您访问的页面不存在。",
@@ -450,20 +524,24 @@
             }
         },
         "api": {
-            "invalid_username_message": "用户名只能由字母、数字及连字符（-）组成"
+            "invalid_username_message": "用户名只能由字母、数字及连字符 (-) 组成"
         },
         "email": {
             "activate_account": {
                 "subject": "账号激活",
-                "body": "您好，{username}！\n\n您使用这个邮箱在 {forum} 进行了注册，若是您本人所为，请点击下面的链接激活您的账号：\n\n{url}\n\n若非您本人注册，请忽略此邮件。\n"
+                "body": "{username}，您好！\n\n您使用这个邮箱在 {forum} 进行了注册，若是您本人所为，请点击下面的链接激活您的账号：\n\n{url}\n\n若非您本人注册，请忽略此邮件。\n"
             },
             "confirm_email": {
                 "subject": "确认邮箱地址",
-                "body": "您好，{username}!\n\n您在 {forum} 的账号邮箱被更改为此邮箱，若是您本人所为，请点击下面的链接完成邮箱确认：\n\n{url}\n\n若非您本人所为，请立即检查账号安全并修改密码。\n"
+                "body": "{username}，您好!\n\n您在 {forum} 的账号邮箱被更改为此邮箱，若是您本人所为，请点击下面的链接完成邮箱确认：\n\n{url}\n\n若非您本人所为，请立即检查账号安全并修改密码。\n"
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": "您好，{username}！\n\n您在 {forum} 请求重置密码，若是您本人所为，请点击下面的链接重置密码：\n\n{url}\n\n如非您本人行为，请忽略此邮件，我们不会受理这个操作。\n"
+                "body": "{username}，您好！\n\n您在 {forum} 请求重置密码，若是您本人所为，请点击下面的链接重置密码：\n\n{url}\n\n如非您本人行为，请忽略此邮件，我们不会受理这个操作。\n"
+            },
+            "send_test": {
+                "subject": "Flarum 邮件测试",
+                "body": "{username}，您好！\n\n这是一个测试邮件，用于测试您的邮箱设置是否正确。\n\n若是您本人发送了测试邮件，那么恭喜，这意味着您的设置有效！\n\n若非您本人发送测试邮件，请忽略此内容。\n"
             }
         },
         "ref": {
@@ -482,14 +560,14 @@
             "discussions": "主题",
             "edit": "编辑",
             "email": "邮箱",
-            "icon": "",
-            "icon_text": "输入任意一个 <a>Font Awesome</a> 图标名称，<strong>包括</strong>前缀 <code>fas fa-</code>",
+            "icon": "图标",
+            "icon_text": "输入任意一个 <a>Font Awesome</a> 图标名称。<em>包括</em>前缀，例如 <code>fas fa-</code>",
             "load_more": "加载更多",
             "log_in": "登录",
             "log_out": "退出",
             "mark_all_as_read": "将所有帖子标记为已读",
             "next_page": "下一页",
-            "notifications": "消息通知",
+            "notifications": "通知中心",
             "okay": "确定",
             "password": "密码",
             "posts": "回复",
@@ -506,6 +584,7 @@
             "start_a_discussion": "发布主题",
             "username": "用户名",
             "users": "用户",
+            "view": "查看",
             "write_a_reply": "说点什么吧...",
             "you": "你",
             "icon_label": "图标"

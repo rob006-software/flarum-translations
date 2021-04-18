@@ -19,10 +19,10 @@
                 "title": "新鱼"
             },
             "edit-round-modal": {
-                "title": "编辑回合 “{name}”"
+                "title": "编辑回合「{name}」"
             },
             "edit-fish-modal": {
-                "title": "编辑鱼 \"{name}\""
+                "title": "编辑鱼「{name}」"
             },
             "caught-fish-modal": {
                 "title": "你抓到了一条鱼！",
@@ -45,29 +45,29 @@
                 "starts-at": "开始时间",
                 "ends-at": "结束时间",
                 "starting-pack": "初始包",
-                "starting-pack-help": "初始包包含几条鱼，无需自行设计即可马上开始游戏。",
+                "starting-pack-help": "初始包包含几条鱼，无需自行设计即可马上开始游戏",
                 "create": "创建回合",
                 "save": "保存回合",
                 "delete": "删除回合",
-                "delete-confirmation": "确定要删除回合 “{name}” 吗？"
+                "delete-confirmation": "确定要删除回合「{name}」吗？"
             },
             "edit-fish": {
                 "name": "名字",
-                "name-help": "鱼的名字。如果玩家拥有权限，即可编辑鱼的名字。",
+                "name-help": "这条鱼的名字。如果玩家拥有权限，即可编辑鱼的名字",
                 "create": "造鱼",
                 "save": "保存鱼",
                 "delete": "删除鱼",
-                "delete-confirmation": "确定要删除鱼 “{name}” 吗？"
+                "delete-confirmation": "确定要删除鱼「{name}」吗？"
             },
             "moving-fish": {
                 "login": "登录以抓鱼"
             },
             "fish-image": {
-                "alt": "鱼 “{name}” 的图像",
+                "alt": "鱼「{name}」的图像",
                 "missing": "缺少鱼的图像"
             },
             "round-alert": {
-                "message": "回合 “{name}”，尽情抓鱼吧！倒计时 {time}",
+                "message": "回合「{name}」，尽情抓鱼吧！倒计时 {time}",
                 "rankings": "查看排行榜"
             },
             "basket": {
@@ -87,13 +87,13 @@
                 "fishes": "鱼"
             },
             "table-fish": {
-                "loading": "载入中...",
+                "loading": "载入中……",
                 "title": "回合 {name} 的鱼",
                 "new": "新鱼",
                 "image": "图像",
                 "name": "名字",
-                "user-name": "最后的命名人：",
-                "user-place": "最后的放置人：",
+                "user-name": "最后命名人：",
+                "user-place": "最后放置人：",
                 "actions": "动作",
                 "edit": "编辑",
                 "no-user-name": "不重命名",
@@ -102,7 +102,7 @@
                 "new-from-image": "批量导入图像并创建新鱼"
             },
             "table-ranking": {
-                "loading": "载入中...",
+                "loading": "载入中……",
                 "title": "回合 {name} 排行榜",
                 "rank": "名称",
                 "count": "捕获数",
@@ -139,13 +139,13 @@
         },
         "api": {
             "default-fish-name": "鱼 #{number}",
-            "wrong-catch-placement": "这里没有鱼。 也许您手速不够快，鱼被其他人抓光了。",
+            "wrong-catch-placement": "这里没有鱼。 也许您手速不够快，鱼被其他人抓光了",
             "too-many-placement-models": "一次只能放在一个地方",
             "invalid-discussion-id": "主题帖似乎不存在，可能最近被删除了",
             "invalid-post-id": "回复帖似乎不存在，可能最近被删除了",
             "invalid-user-id": "用户似乎不存在，可能最近被删除了",
             "model-deleted": "无法将鱼放在已删除的主题贴或回复帖上",
-            "model-private": "不能在私人讨论中放置鱼",
+            "model-private": "不能在私密主题中放置鱼",
             "inactive-discussion": "不能将鱼放置在闲置了 {days} 天的帖子中",
             "inactive-post": "不能将鱼放置在 {days} 前创建的主题中",
             "inactive-user": "不能将鱼放在超过 {days} 天没上线的用户这里",
@@ -154,8 +154,8 @@
             "random-error": "无法随机生成放置鱼的位置",
             "cannot-catch-own-fish": "您不能捕您自己放置的鱼",
             "cannot-catch-hold-fish": "先前的捕手将鱼释放后您才能捕捉它",
-            "fish-update-wrong-user": "您无法再编辑这条鱼了，别人可能把它给抓走了。",
-            "fish-update-expired": "太晚了，您无法再编辑这条鱼了。它已经被自动放到了别的地方。",
+            "fish-update-wrong-user": "您无法再编辑这条鱼了，别人可能已经把它抓走了",
+            "fish-update-expired": "太晚了，您无法再编辑这条鱼了。它已经被自动放到了别的地方",
             "round-not-started": "此回合尚未开始",
             "round-finished": "此回合已结束"
         }

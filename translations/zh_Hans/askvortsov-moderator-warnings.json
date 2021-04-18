@@ -7,10 +7,20 @@
                 "delete_warnings": "永久删除站务警告"
             }
         },
+        "emails": {
+            "post_warned": {
+                "subject": "您在【{discussion_title}】发表的内容被 {warner_display_name} 警告并记 {strikes} 分",
+                "body": "{warnee_display_name}，你好！\n\n您在【{discussion_title}】发表的内容被 {warner_display_name} 警告并记 {strikes} 分。\n\n原因如下：\n\n---\n\n{public_comment}\n"
+            },
+            "user_warned": {
+                "subject": "收到 {warner_display_name} 的警告并记 {strikes} 分",
+                "body": "{warnee_display_name}，你好！\n\n你收到来自 {warnee_display_name} 的警告并记 {strikes} 分\n\n原因如下\n\n---\n\n{public_comment}\n"
+            }
+        },
         "forum": {
             "notifications": {
                 "warning_text": "收到来自 {mod_username} 的警告并记 {strikes} 分",
-                "warning_no_strikes_text": "收到来自 {mod_username} 的站务通知"
+                "warning_no_strikes_text": "收到来自 {mod_username} 的站务警告"
             },
             "post": {
                 "warning": "内容违规，记 {strikes} 分",
@@ -26,34 +36,34 @@
                 "warning_notification_label": "收到站务警告"
             },
             "validation": {
-                "public_comment_required": "",
-                "invalid_strike_count": ""
+                "public_comment_required": "您必须填写一个公开评论。",
+                "invalid_strike_count": "记分范围只能是 0 到 5 分。"
             },
             "warning_controls": {
-                "delete_button": "移除",
+                "delete_button": "撤销",
                 "restore_button": "还原",
-                "delete_forever_button": "永久删除"
+                "delete_forever_button": "永久撤销"
             },
             "warning_list": {
                 "add_button": "发送警告",
-                "no_warnings": "",
-                "warnings": "站务警告: 共记 {strikes} 分",
+                "no_warnings": "该用户暂未收到任何警告。",
+                "warnings": "站务警告：共记 {strikes} 分",
                 "warnings_no_strikes": "站务警告",
                 "no-warnings": "该用户暂未收到任何警告"
             },
             "warning_list_item": {
-                "list_item_heading": "来自 <strong>{mod_username}</strong> 的警告，记 <strong>{strikes}</strong> 分",
-                "list_item_heading_hidden": "来自 <strong>{mod_username}</strong> 的警告，记 <strong>{strikes}</strong> 分 <strong>（已移除）</strong>",
-                "public_comment": "批注",
-                "private_comment": "备注",
-                "linked_post": "相关帖子"
+                "list_item_heading": "记 <strong>{strikes}</strong> 分，{time}|记 <strong>{strikes}</strong> 分，{time}",
+                "list_item_heading_hidden": "记 <strong>{strikes}</strong> 分，{time} <strong>（已撤销）</strong>|记 <strong>{strikes}</strong> 分，{time}<strong>（已撤销）</strong>",
+                "public_comment": "警告",
+                "private_comment": "管理员备注",
+                "linked_post": "关联帖子"
             },
             "warning_modal": {
-                "confirmation_message": "您的警告已发出，也许刷新后可见。",
+                "confirmation_message": "您的警告已发出，可能需要刷新后显示。",
                 "heading": "警告 <strong>{username}</strong>",
                 "strikes_heading": "严重程度：记几分？",
-                "public_comment_heading": "批注。为什么警告 <strong>{username}</strong>？ 批注仅对该用户和其他警告发起者可见。",
-                "private_comment_heading": "备注。为什么警告 <strong>{username}</strong>？备注仅对您和其他警告发起者可见。",
+                "public_comment_heading": "用户批注。为什么警告 <strong>{username}</strong>？ 批注仅对该用户和其他管理员可见。",
+                "private_comment_heading": "管理员备注。为什么警告 <strong>{username}</strong>？备注仅对您和其他管理员可见。",
                 "submit_button": "发送警告",
                 "dismiss_button": "完成",
                 "no_content_given": "警告不可为空。"

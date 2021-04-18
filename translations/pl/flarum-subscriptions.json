@@ -35,6 +35,12 @@
                 "notify_email_tooltip": "Otrzymuj powiadomienia e-mail, kiedy pojawią się nowe posty"
             }
         },
+        "email": {
+            "new_post": {
+                "subject": "[Nowy post] {title}",
+                "body": "Witaj {recipient_display_name},\n\n{poster_display_name} odpowiedział w dyskusji, którą śledzisz: {title}.\n\nAby zobaczyć nową aktywność, kliknij poniższy link:\n{url}\n\n---\n\n{content}\n\n---\n\nNie dostaniesz nowych powiadomień dotyczących tej dyskusji do czasu, aż zobaczysz nową zawartość.\n"
+            }
+        },
         "ref": {
             "follow": "Obserwuj",
             "following": "Obserwujesz",

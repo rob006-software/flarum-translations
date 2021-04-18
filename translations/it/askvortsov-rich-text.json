@@ -1,0 +1,49 @@
+{
+    "askvortsov-rich-text": {
+        "admin": {
+            "settings": {
+                "toggle_on_editor": "Mostra pulsante modalità rich text nell'editor?"
+            }
+        },
+        "forum": {
+            "composer": {
+                "toggle_button": "Attiva/disattiva la modalità Rich Text",
+                "insert_button": "Inserire",
+                "insert_image": {
+                    "src_placeholder": "Link",
+                    "title_placeholder": "Titolo"
+                },
+                "insert_link": {
+                    "text_placeholder": "Testo",
+                    "href_placeholder": "URL",
+                    "title_placeholder": "Titolo (mostra al passaggio del mouse)",
+                    "remove_button": "Rimuovi"
+                },
+                "additional_items_tooltip": "Controlli addizionali",
+                "bold_tooltip": "Testo Grassetto <{modifierKey}-b>",
+                "code_tooltip": "Codice in linea <{modifierKey}-`>",
+                "code_block_tooltip": "Inserisci blocco codice",
+                "header_tooltip": "Cambia in intestazione {level} <shift-{modifierKey}-{level}>",
+                "horizontal_rule_tooltip": "Inserisci riga orizzontale",
+                "image_tooltip": "Aggiungi immagine",
+                "italic_tooltip": "Testo corsivo <{modifierKey}-i>",
+                "link_tooltip": "Aggiungi link",
+                "ordered_list_tooltip": "Lista numerata <shift-{modifierKey}-9>",
+                "paragraph_tooltip": "Cambia in paragrafo <shift-{modifierKey}-0>",
+                "quote_tooltip": "Inserisci una citazione <{modifierKey}-q>",
+                "spoiler_block_tooltip": "Blocco Spoiler/Menu a cascata",
+                "spoiler_inline_tooltip": "Spoiler  <{modifierKey}-;>",
+                "strike_tooltip": "Barrato <alt-shift-5>",
+                "sub_tooltip": "Pedice <{modifierKey}-,>",
+                "sup_tooltip": "Apice <{modifierKey}-.>",
+                "text_type_tooltip": "Scegli tipo di testo",
+                "unordered_list_tooltip": "Elenco puntato <shift-{modifierKey}-8>"
+            },
+            "settings": {
+                "composer_heading": "Composer",
+                "use_rich_text_editor_label": "Utilizzare rich text editor?",
+                "rich_text_compact_paragraphs_label": "Non separare i paragrafi con un ritorno a capo"
+            }
+        }
+    }
+}

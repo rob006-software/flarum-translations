@@ -1,32 +1,26 @@
 {
     "jslirola-login2seeplus": {
         "forum": {
-            "post": "",
-            "link": "",
-            "image": "",
-            "code": ""
+            "post": "此内容 {login} 或 {register} 后可见",
+            "link": "链接登录后可见",
+            "image": "图片登录后可见",
+            "code": "代码登录后可见"
         },
         "admin": {
-            "title": "",
-            "hide": "",
-            "link": "",
-            "image": "",
-            "code": "",
+            "title": "登录后可见 Plus",
+            "hide": "隐藏",
+            "link": "链接",
+            "image": "图片",
+            "code": "代码",
             "post": {
-                "title": "",
-                "help": ""
+                "title": "隐藏超过此长度的内容（<em>-1</em> 表示显示全部）",
+                "help": "值为 <em>-1</em> 表示显示全部内容。"
             },
             "php": {
-                "title": "",
-                "help": "",
-                "label": ""
-            },
-            "link.title": "",
-            "link.no_replace": "",
-            "link.replace_address": "",
-            "link.replace_all": "",
-            "image.title": "",
-            "image.label": ""
+                "title": "传统模式",
+                "help": "*不推荐* 用于兼容旧浏览器，插件在后台处理工作。需要启用 <code>mb_substr</code> 和 <code>mb_strlen</code>。",
+                "label": "使用 PHP"
+            }
         }
     }
 }

@@ -8,6 +8,7 @@
                 "title": "Zawody w rzeźbieniu w dyni",
                 "loading": "Ładowanie wyników...",
                 "participate": "Weź udział",
+                "already-participated": "Już bierzesz udział",
                 "delete-confirmation": "Czy jesteś pewien, że chcesz usunąć dynię \"{name}\" utworzoną przez {username}?",
                 "like": "Lubię to",
                 "already-liked": "Lubię to",
@@ -42,11 +43,22 @@
         },
         "admin": {
             "permissions": {
-                "heading": "Zawody w rzeźbieniu",
                 "view": "Przeglądanie prac",
                 "like": "Polubienie prac",
                 "participate": "Uczestnictwo",
-                "moderate": "Moderacja"
+                "moderate": "Moderacja",
+                "heading": "Zawody w rzeźbieniu"
+            },
+            "settings": {
+                "maxEntriesPerUser": "Maksymalna liczba zgłoszeń na użytkownika",
+                "colorMode": "",
+                "title": "Ustawienia zawodów w rzeźbieniu"
+            },
+            "colors": {
+                "simple": "",
+                "all": "",
+                "custom": "",
+                "custom-help": ""
             }
         }
     }

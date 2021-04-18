@@ -2,26 +2,26 @@
     "fof-stopforumspam": {
         "admin": {
             "settings": {
-                "title": "",
-                "username_label": "",
-                "ip_label": "",
-                "email_label": "",
-                "frequency_label": "",
-                "frequency_text": "",
-                "frequency_example_text": "",
-                "api_key_label": "",
-                "api_key_text": "",
-                "api_key_instructions_text": ""
+                "title": "FriendsOfFlarum Stop Forum Spam",
+                "username_label": "Kullanıcı Adı Spam Kontrolü",
+                "ip_label": "IP Adresi Spam Kontrolü",
+                "email_label": "E-Posta Spam Kontrolü",
+                "frequency_label": "Threshold",
+                "frequency_text": "The number of spam reports between all enabled checks that will trip the spam filter.",
+                "frequency_example_text": "Ex: If the email has 1 hit, and the ip has 2 hits, there will be 3 hits in total. If the threshold is set to 3 or less it will prevent the registration.",
+                "api_key_label": "API Key",
+                "api_key_text": "fof/spamblock uzantısını etkinleştirdiniz, you now have the option to report spammers to StopForumSpam in order to keep the greater forum community spam free.",
+                "api_key_instructions_text": "<register>Sign up for StopForumSpam</register>. Then you will need to <key>obtain an API key</key>."
             }
         },
         "forum": {
             "message": {
-                "spam": ""
+                "spam": "Bilgileriniz istenmeyen olarak işaretlendi."
             }
         },
         "api": {
             "error": {
-                "unknown": ""
+                "unknown": "Kullanıcı StopForumSpam sistemine bildirilemedi."
             }
         }
     }

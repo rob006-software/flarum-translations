@@ -2,51 +2,52 @@
     "clarkwinkelmann-scratchpad": {
         "admin": {
             "settings": {
-                "title": "",
-                "single-column": "",
-                "theme": "",
-                "theme-auto": "",
-                "indent": "",
-                "npm-install-command": "",
-                "webpack-command": "",
-                "empty-for-default": "",
-                "compile-automatically": ""
+                "title": "Çalışma Defteri ayarları",
+                "single-column": "Editörlerini 3 yerine tek bir sütunda gruplandırın",
+                "theme": "CodeMirror teması (etkinleşmesi için sayfayı yenileyin)",
+                "theme-auto": "Otomatik (varsayılan açık tema, dracula karanlık tema)",
+                "indent": "Girinti boşluk sayısı",
+                "npm-install-command": "NPM yükleme komutu",
+                "webpack-command": "Webpack komutu",
+                "empty-for-default": "Varsayılan komutu boş bırak",
+                "validate-live": "Kaydetmeden önce Less ve PHP'yi doğrulamak için ana sayfaya bir istekte bulunun",
+                "compile-automatically": "Kaydedildiğinde JS'yi otomatik olarak derleyin"
             },
             "controls": {
-                "refresh": "",
-                "save": "",
-                "compile": "",
-                "settings": "",
-                "new": "",
-                "new-confirmation": "",
-                "delete": "",
-                "delete-confirmation": "",
-                "enable": "",
-                "disable": ""
+                "refresh": "Yenile",
+                "save": "Kaydet",
+                "compile": "JS'yi derle",
+                "settings": "Editör ayarları",
+                "new": "Yeni",
+                "new-confirmation": "Mevcut çalışma defteri kaydedilmedi. Bırakıp yenisini mi oluşturacaksınız?",
+                "delete": "Sil",
+                "delete-confirmation": "Sil \"{title}\" ?",
+                "enable": "Etkinleştirmek için tıkla",
+                "disable": "Kapatmak için tıkla"
             },
             "fields": {
-                "title": "",
-                "admin_js": "",
-                "forum_js": "",
-                "admin_less": "",
-                "forum_less": "",
-                "php": ""
+                "title": "Çalışma Defteri adı",
+                "admin_js": "Admin JS",
+                "forum_js": "Forum JS",
+                "admin_less": "Admin Less",
+                "forum_less": "Forum Less",
+                "php": "PHP"
             },
             "placeholders": {
-                "untitled": "",
-                "php-comment": "",
-                "js-log": ""
+                "untitled": "Başlıksız",
+                "php-comment": "Genişleticileri buraya kaydedin",
+                "js-log": "Merhaba, {frontend}!"
             },
             "compilation-alert": {
-                "success": "",
-                "failure": "",
-                "view-output": ""
+                "success": "Derlendi!",
+                "failure": "Derleme başarısız!",
+                "view-output": "Çıktıyı göster"
             },
             "compilation-modal": {
-                "title": "",
-                "webpack": "",
-                "npm": "",
-                "npm-not-run": ""
+                "title": "Derleme çıktısı",
+                "webpack": "Webpack çıktısı",
+                "npm": "NPM çıktısı",
+                "npm-not-run": "NPM çalışmadı"
             },
             "menu": {
                 "title": "",

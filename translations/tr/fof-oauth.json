@@ -1,0 +1,77 @@
+{
+    "fof-oauth": {
+        "admin": {
+            "settings": {
+                "only_icons_label": "Yalnızca Oturum Aç Düğmesi simgelerini göster (alternatif düzen)",
+                "providers": {
+                    "callback_url_text": "Gerekirse, geri arama bağlantısını {url} olarak ayarlayın.",
+                    "discord": {
+                        "description": "{Link} adresinde bir uygulama oluşturun. Yönlendirme bağlantısını OAuth2 sekmesine ekleyin.",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
+                    },
+                    "facebook": {
+                        "description": "{link} bağlantısında bir uygulama oluşturun.",
+                        "app_id_label": "=> fof-oauth.ref.settings.app_id",
+                        "app_secret_label": "=> fof-oauth.ref.settings.app_secret"
+                    },
+                    "github": {
+                        "description": "{link} bağlantısında bir OAuth uygulaması oluşturun.",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
+                    },
+                    "gitlab": {
+                        "description": "{link} bağlantısında bir uygulama oluşturun. Uygulamaya <code>read_user</code> iznini verin.",
+                        "client_id_label": "=> fof-oauth.ref.settings.app_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.app_secret",
+                        "domain_label": "GitLab Etki Alanı"
+                    },
+                    "twitter": {
+                        "description": "{link} bağlantısında bir uygulama oluşturun. Bir Hizmet Şartları bağlantısı ve Gizlilik Politikası bağlantısı belirlemeniz gerekecektir. Daha sonra istek e-posta iznini eklediğinizden emin olun.",
+                        "api_key_label": "API Anahtarı",
+                        "api_secret_label": "API Secret"
+                    },
+                    "google": {
+                        "description": "{link} bağlantısında bir uygulama oluşturun.",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
+                    },
+                    "linkedin": {
+                        "description": "{link} adresinde bir uygulama oluştur.",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
+                    }
+                },
+                "title": ""
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_button": "{provider} ile giriş yapın"
+            },
+            "error": {
+                "bad_verification_code": "Geçersiz veya süresi dolmuş doğrulama jetonu. Lütfen tekrar deneyin.",
+                "invalid_state": "Geçersiz durum. Lütfen tekrar deneyin."
+            }
+        },
+        "lib": {
+            "providers": {
+                "discord": "Discord",
+                "facebook": "Facebook",
+                "github": "GitHub",
+                "gitlab": "GitLab",
+                "twitter": "Twitter",
+                "google": "Google",
+                "linkedin": "LinkedIn"
+            }
+        },
+        "ref": {
+            "settings": {
+                "app_id": "App ID",
+                "app_secret": "App Secret",
+                "client_id": "Client ID",
+                "client_secret": "Client Secret"
+            }
+        }
+    }
+}

@@ -1,0 +1,115 @@
+{
+    "fof-webhooks": {
+        "actions": {
+            "discussion": {
+                "started": "Started discussion `{1}`",
+                "renamed": {
+                    "title": "Renamed discussion `{1}`",
+                    "description": "New title: {1}"
+                },
+                "hidden": "Hid discussion `{1}`",
+                "restored": "Restored discussion `{1}`",
+                "deleted": "Deleted discussion `{1}`"
+            },
+            "group": {
+                "created": "Created `{1}` group",
+                "renamed": "Renamed a group to `{1}`",
+                "deleted": "Deleted `{1}` group"
+            },
+            "post": {
+                "posted": "New post in `{1}`",
+                "revised": "Edited post in `{1}`",
+                "hidden": "Hid post in `{1}`",
+                "restored": "Restored post in `{1}`",
+                "deleted": "Deleted post in `{1}`"
+            },
+            "user": {
+                "registered": "New user registered",
+                "renamed": {
+                    "title": "Changed username of `{1}`",
+                    "description": "New username: {1}"
+                },
+                "deleted": "Deleted user `{1}`"
+            }
+        },
+        "adapters": {
+            "errors": {
+                "404": "Webhook Not Found"
+            }
+        },
+        "admin": {
+            "errors": {
+                "service_not_found": "The service '{service}' cannot be found.",
+                "url_invalid": "URL is not valid for selected service."
+            },
+            "nav": {
+                "desc": "Customizable outgoing webhooks for your forum."
+            },
+            "settings": {
+                "item": {
+                    "tag_any_label": "Any"
+                },
+                "help": {
+                    "disabled": "This webhook is disabled because it doesn't have any events enabled.",
+                    "general": "Here you can add, edit, and remove webhooks from your forum.",
+                    "url": "The webhook's endpoint to be executed"
+                },
+                "modal": {
+                    "title": "Webhook Settings",
+                    "description": "Here you modify what events the webhook is fired on.",
+                    "use_plain_text_label": "Reduce amount of formatting in post content",
+                    "max_post_content_length_label": "Maximum Post Content Length",
+                    "max_post_content_length_help": "Set a number to limit the post content in all post-related events. Change to 0 or nothing to remove limit.",
+                    "extra_text_label": "Extra Text",
+                    "extra_text_help": "Extra text to include in the sent webhook.",
+                    "group_label": "Group",
+                    "group_help": "Send resources that can be seen by this group",
+                    "events_label": "Events"
+                },
+                "services": {
+                    "discord": "Discord",
+                    "slack": "Slack",
+                    "microsoft-teams": "Microsoft Teams"
+                },
+                "actions": {
+                    "flarum": {
+                        "discussion": {
+                            "title": "Flarum Discussion",
+                            "started": "Started",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "hidden": "=> fof-webhooks.ref.hidden",
+                            "restored": "=> fof-webhooks.ref.restored",
+                            "deleted": "=> fof-webhooks.ref.deleted"
+                        },
+                        "group": {
+                            "title": "Flarum Group",
+                            "created": "Created",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "deleted": "=> fof-webhooks.ref.deleted"
+                        },
+                        "post": {
+                            "title": "Flarum Post",
+                            "posted": "Posted",
+                            "revised": "Edited",
+                            "hidden": "=> fof-webhooks.ref.hidden",
+                            "restored": "=> fof-webhooks.ref.restored",
+                            "deleted": "=> fof-webhooks.ref.deleted"
+                        },
+                        "user": {
+                            "title": "Flarum User",
+                            "registered": "Registered",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "deleted": "=> fof-webhooks.ref.deleted"
+                        }
+                    }
+                }
+            }
+        },
+        "ref": {
+            "deleted": "Deleted",
+            "hidden": "Hidden",
+            "renamed": "Renamed",
+            "restored": "Restored"
+        }
+    }
+}

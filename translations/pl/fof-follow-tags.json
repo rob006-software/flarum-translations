@@ -11,7 +11,6 @@
                 "unfollow_tag_button": "Przestań obserwować",
                 "following": {
                     "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
-                    "following_all_label": "=> fof-follow-tags.ref.filtering_options.all",
                     "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
                 }
             },
@@ -48,17 +47,22 @@
         },
         "admin": {
             "settings": {
-                "title": "FriendsOfFlarum Follow Tags",
                 "following_page_default_label": "Domyślny filtr na stronie \"Obserwowane\"",
                 "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
-                "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags",
-                "following_all_label": "=> fof-follow-tags.ref.filtering_options.all"
+                "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
             }
         },
         "email": {
-            "newDiscussionInTag": "[Nowa dyskusja w obserwowanym tagu] title",
-            "newPostInTag": "[Nowy post w obserwowanym tagu] title",
-            "newDiscussionTag": "[Zmieniono tagi dyskusji] title"
+            "subject": {
+                "newDiscussionInTag": "[Nowa dyskusja w obserwowanym tagu] {title}",
+                "newPostInTag": "[Nowy post w obserwowanym tagu] {title}",
+                "newDiscussionTag": "[Zmieniono tagi dyskusji] {title}"
+            },
+            "body": {
+                "newDiscussionInTag": "Witaj {recipient_display_name},\n\n{actor_display_name} utworzył dyskusję w tagu, który obserwujesz: {discussion_title}.\n\nAby zobaczyć nową dyskusję, kliknij poniższy link:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newPostInTag": "Witaj {recipient_display_name},\n\n{actor_display_name} odpowiedział w dyskusji w tagu, który obserwujesz: {discussion_title}.\n\nAby zobaczyć nową aktywność, kliknij poniższy link:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nNie dostaniesz nowych powiadomień dotyczących tej dyskusji do czasu, aż zobaczysz nową zawartość.\n",
+                "newDiscussionTag": "Witaj {recipient_display_name},\n\n{actor_display_name} właśnie zmienił tagi przypisane do dyskusji utworzonej przez {author_display_name}, na jeden z tagów, które obserwujesz: {discussion_title}.\n\nAby zobaczyć dyskusję, kliknij poniższy link:\n{discussion_url}\n"
+            }
         },
         "ref": {
             "follow": "Obserwuj",
@@ -68,7 +72,6 @@
             "lurking": "Podpatrujesz",
             "filtering_options": {
                 "none": "Obserwowane dyskusje",
-                "all": "Wszystko co obserwujesz",
                 "tags": "Obserwowane tagi"
             }
         }

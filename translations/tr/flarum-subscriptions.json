@@ -11,7 +11,7 @@
                 "unignore_button": "Yoksayılandan Çıkar"
             },
             "following": {
-                "meta_title_text": ""
+                "meta_title_text": "=> flarum-subscriptions.ref.following"
             },
             "index": {
                 "following_link": "=> flarum-subscriptions.ref.following"
@@ -33,6 +33,12 @@
                 "not_following_text": "Yalnızca @bahsedildiğinde haberdar ol.",
                 "notify_alert_tooltip": "Yeni bir gönderi olduğunda forumda bildirim al",
                 "notify_email_tooltip": "Yeni gönderiler olduğunda bir e-posta al"
+            }
+        },
+        "email": {
+            "new_post": {
+                "subject": "[Yeni Gönderi] {title}",
+                "body": "Hey {recipient_display_name}!\n\n{poster_display_name} senin takip ettiğin bir tartışmaya yeni bir gönderi girdi: {title}.\n\nEtkinliği görüntüleyebilmek için bağlantıyı ziyaret etmelisin:\n{url}\n\n---\n\n{content}\n\n---\n\nTartışmayla etkileşime geçmediğin sürece yeni bir bildirim almayacaksın.\n"
             }
         },
         "ref": {

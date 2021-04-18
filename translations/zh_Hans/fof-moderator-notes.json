@@ -3,22 +3,23 @@
         "admin": {
             "permissions": {
                 "createnotes": "发表留言",
-                "viewnotes": "查看留言板",
-                "deletenotes": ""
+                "viewnotes": "查看留言",
+                "deletenotes": "删除留言"
             }
         },
         "forum": {
+            "no_content_given": "禁止空留言。",
             "moderatorNotes": {
-                "created_text": "",
+                "created_text": "{username} 留言于 {date}",
                 "add_button": "我要留言",
                 "create-heading": "发表您的留言",
                 "dismiss_button": "好的",
-                "input_heading": "您正在向 <strong>{username}</strong> 留言",
-                "no_content_given": "无法发表空留言。",
+                "input_heading": "您正在向 <strong>{username}</strong> 留言（支持 Markdown）",
                 "noNotes": "还没有人发表留言，何不坐第一个沙发？",
                 "submit_button": "发表",
-                "delete": "",
-                "confirm": "",
+                "delete": "删除",
+                "confirm": "确定要删除这条留言吗？",
+                "no_content_given": "无法发表空留言。",
                 "confirmation_message": "留言成功！您也许需要刷新页面才能看到它。"
             },
             "user": {
@@ -26,9 +27,9 @@
             }
         },
         "api": {
-            "auto_note": "",
-            "auto_note_actor": "",
-            "no_reason_provided": "",
+            "auto_note": "_切换到此账号：_ reason",
+            "auto_note_actor": "_切换到_ @username：reason",
+            "no_reason_provided": "无理由",
             "auto-note": "我使用 FoF Impersonate 切换到当前用户账户。",
             "auto-note-actor": "使用 FoF Impersonate 替代 '用户名'"
         }

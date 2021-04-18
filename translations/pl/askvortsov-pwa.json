@@ -3,42 +3,41 @@
         "admin": {
             "nav": {
                 "pwa_button": "Progressive Web App",
-                "pwa_text": "Skonfiguruj Flarum aby działało jako Progressive Web App, pozwalając na instalację na urządzeniach mobilnych."
+                "pwa_text": "Skonfiguruj Flarum, aby działało jako Progressive Web App, pozwalając na instalację na urządzeniach mobilnych."
             },
             "pwa": {
                 "about": {
                     "description_text": "Możesz ustawić opis w podstawowych ustawieniach forum w panelu admina.",
-                    "name_text": "Wpisz pełną nazwę, która będzie używana przez PWA.",
+                    "long_name_text": "Nazwa aplikacji wyświetlana użytkownikowi.",
                     "heading": "O forum",
-                    "short_name_text": "Możesz ustawić skróconą nazwę w podstawowych ustawieniach forum w panelu admina."
+                    "short_name_text": "Nazwa aplikacji wyświetlana użytkownikowi, jeśli nie ma wystarczająco miejsca na wyświetlenie pełnej nazwy.",
+                    "name_text": "Wpisz pełną nazwę, która będzie używana przez PWA."
                 },
                 "colors": {
                     "heading": "Kolory",
                     "background_color_text": "Jest używany jako kolor wypełnienia na ekranie powitalnym, który jest wyświetlany podczas ładowania PWA. Nie jest wykorzystywany gdy aplikacja zostanie załadowana.",
-                    "theme_color_text": "Ten kolor jest wykorzystywany w niektórych sytuacjach podczas wyświetlania twojej aplikacji. Na przykład przełącznik aplikacji w Androidzie użyje go jako kolor wokół strony. Możesz go ustawić zmieniając kolor wiodący w ustawieniach wyglądu forum w panelu admina."
+                    "theme_color_text": "Ten kolor jest wykorzystywany w niektórych sytuacjach podczas wyświetlania Twojej aplikacji. Na przykład przełącznik aplikacji w Androidzie użyje go jako kolor wokół strony. Możesz go ustawić, zmieniając kolor wiodący w ustawieniach wyglądu forum w panelu admina."
+                },
+                "maintenance": {
+                    "heading": "Konserwacja",
+                    "debug_label": "Włączyć tryb debug? Informacje o powiadomieniach będą zapisywane w `storage/logs`."
                 },
                 "heading": "Konfiguracja Progressive Web App",
-                "text": "Skonfiguruj swoje Flarum aby działało jako Progressive Web App! Zauważ, że nie umieści twojej aplikacji w App Store. Zamiast tego przeglądarka udostępni opcję \"Dodaj do ekranu głównego\". Rozszerzenie zapewnia podstawowe sprawdzenie konfiguracji, ale najlepszym sposobem na przetestowanie go jest instalacja i sprawdzenie czy działa (instrukcję instalacji Progressive Web App można znaleźć w Google). Miej na uwadze, że popup \"zainstaluj jako PWA\" jest kontrolowany przez przeglądarkę i nie może być wywołany przez developera/administratora/aplikację. Zalecane jest załączenie instrukcji jak zainstalować PWA na twojej stronie.",
+                "text": "Skonfiguruj swoje Flarum, aby działało jako Progressive Web App! Zauważ, że nie umieści to Twojej aplikacji w App Store. Zamiast tego przeglądarka udostępni opcję \"Dodaj do ekranu głównego\". Rozszerzenie zapewnia podstawowe sprawdzenie konfiguracji, ale najlepszym sposobem na przetestowanie go jest instalacja i sprawdzenie czy działa (instrukcję instalacji Progressive Web App można znaleźć w Google). Miej na uwadze, że popup \"zainstaluj jako PWA\" jest kontrolowany przez przeglądarkę i nie może być wywołany przez developera/administratora/aplikację. Zalecane jest udostępnienie instrukcji jak zainstalować PWA na Twojej stronie.",
                 "status_check_heading": "Status",
                 "logo_heading": "Loga i ikony",
-                "logo_text": "Musisz wysłać przynajmniej jedno logo, aby było możliwe zainstalowanie Progressive Web App dla twojego forum. Zauważ że logo musi być kwadratem, w przeciwnym razie może zostać rozciągnięte.\n\nJest kilka dostępnych rozmiarów poniżej. Zalecane jest wysłanie tak wielu jak to tylko możliwe, aby wspierać jak najwięcej różnych urządzeń.\n\nZauważ że możesz wysłać jedno duże logo dla wszystkich dostępnych rozmiarów. Na przykład możesz wysłać logo o rozmiarze 1000px x 1000px logo dla wszystkich pól poniżej. Jeśli jednak wyślesz logo o rozmiarze 50px x 50px do pola na logo o rozmiarze 512px x 512px, zostanie ono dość mocno rozciągnięte.\n",
+                "logo_text": "Musisz wysłać przynajmniej jedno logo, aby było możliwe zainstalowanie Progressive Web App dla Twojego forum. Zauważ, że logo musi być kwadratem, w przeciwnym razie może zostać rozciągnięte.\n\nJest kilka dostępnych rozmiarów poniżej. Zalecane jest wysłanie tak wielu, jak to tylko możliwe, aby wspierać jak najwięcej różnych urządzeń.\n\nZauważ, że możesz wysłać jedno duże logo dla wszystkich dostępnych rozmiarów. Na przykład możesz wysłać logo o rozmiarze 1000px x 1000px logo dla wszystkich pól poniżej. Jeśli jednak wyślesz logo o rozmiarze 50px x 50px do pola na logo o rozmiarze 512px x 512px, zostanie ono dość mocno rozciągnięte.\n",
                 "logo_size_text": "Wyślij logo, które zostanie przeskalowane do rozmiaru {size} na {size} pikseli.",
                 "submit_button": "Zapisz ustawienia",
-                "refreshed_message": "Konfiguracja PWA została prawidłowo odświeżona.",
-                "enable_label": ""
+                "refreshed_message": "Konfiguracja PWA została pomyślnie odświeżona."
             },
             "status": {
                 "config_no_https": "URL w pliku <code>config.php</code> nie korzysta z HTTPS. HTTPS jest wymagany do działania Progressive Web App.",
                 "possible_https_disabled": "Twoja strona może nie korzystać z HTTPS. Jeśli korzysta z HTTPS, zignoruj to ostrzeżenie. Jeśli nie, miej na uwadze, że HTTPS jest wymagany do działania Progressive Web App.",
-                "no_logo": "Aby twoja aplikacja działała, musisz wysłać co najmniej jedno logo o minimalnych wymiarach 192px x 192px.",
-                "no_name": "Aby twoja aplikacja działała, musisz podać jej pełną nazwę.",
-                "push_needs_gmp_and_web_push": "Rozszerzenie <code>gmp</code> oraz biblioteka <code>minishlink/web-push</code> (<code>composer require minishlink/web-push</code>) MUSZĄ być włączone aby powiadomienia push działały.",
-                "success": "Nie wyryto żadnych potencjalnych problemów!",
-                "disabled": "",
-                "manifest_does_not_exist": "",
-                "manifest_not_accessible": "",
-                "sw_does_not_exist": "",
-                "sw_not_accessible": ""
+                "no_logo": "Aby Twoja aplikacja działała, musisz wysłać co najmniej jedno logo o minimalnych wymiarach 196px na 196px.",
+                "no_name": "Aby Twoja aplikacja działała, musisz podać jej pełną nazwę.",
+                "push_needs_gmp_and_web_push": "Rozszerzenie <code>gmp</code> oraz biblioteka <code>minishlink/web-push</code> (<code>composer require minishlink/web-push</code>) MUSZĄ być włączone, aby powiadomienia push działały.",
+                "success": "Nie wyryto żadnych potencjalnych problemów!"
             }
         },
         "forum": {

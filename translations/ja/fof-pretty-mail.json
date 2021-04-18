@@ -1,0 +1,26 @@
+{
+    "fof-pretty-mail": {
+        "admin": {
+            "nav": {
+                "desc": "カスタム HTML メールテンプレート"
+            },
+            "settings": {
+                "label": "メールテンプレート",
+                "reset": "デフォルトに戻す",
+                "confirm": "メールテンプレートを次のように復元しますか？",
+                "default": "デフォルトのテンプレート",
+                "newPost": "Flarum/subscriptions 新しい投稿通知メール",
+                "userMentioned": "Flarum/mentions 言及されたユーザー",
+                "postMentioned": "Flarum/mentions 投稿に言及",
+                "notifications": "通知テンプレート",
+                "notificationHelp": "これらのメッセージには、 \"$forumStyle\"をお勧めします。BBCODE これらのメッセージは、 \"$user\" を使用して、受信者の完全なユーザープロファイルを参照できます。",
+                "help": "\"$body\" はメッセージ本文です。\"$forumStyle\" は<strong>すべてのフォーラム CSS</strong>。\"$baseUrl\" はフォーラムのURLです。\"$settings\" を使用すると、SettingsRepositoryInterfaceと対話できます。\"$link\" は、メッセージ内のリンクです。各テンプレートを確認して、変数の使用方法を学習します。"
+            },
+            "css_settings": {
+                "label": "CSS 設定",
+                "help": "メール HTML コードにフォーラム CSS を埋め込むことを選択できます。この機能を有効にするために、一部のメールサービスプロバイダーで問題が発生する場合があります。",
+                "switch_label": "すべてのフォーラム CSS が含まれています"
+            }
+        }
+    }
+}

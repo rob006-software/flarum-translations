@@ -1,0 +1,103 @@
+{
+    "fof-mason": {
+        "forum": {
+            "discussion-controls": {
+                "edit-answers": "フィールドを編集"
+            },
+            "answers-modal": {
+                "edit-title": "{title} のフィールドを編集",
+                "save": "フィールドを保存"
+            },
+            "post-answers": {
+                "no-answer": "無回答"
+            },
+            "answers": {
+                "choose-option": "オプションを選択してください",
+                "no-option-selected": "選択されていません"
+            },
+            "tags": {
+                "inadequate-settings": "タグ設定が正しく構成されていません。 最大で1つのプライマリラベルとセカンダリラベルを許可するか、この機能を無効にします。\n",
+                "tags-label": "タグ"
+            }
+        },
+        "admin": {
+            "buttons": {
+                "new-field": "フィールドを追加",
+                "add-field": "フィールドを追加",
+                "save-field": "フィールドを保存",
+                "delete-field": "フィールドを削除",
+                "edit-field": "編集フィールドをクリック",
+                "add-answer": "回答を追加",
+                "save-answer": "回答を保存",
+                "delete-answer": "回答を削除",
+                "edit-answer": "",
+                "edit-answer-prompt": "",
+                "show-user-answers": "候補ではない回答を ({count}) つ表示"
+            },
+            "fields": {
+                "add": "フィールド {field} を追加",
+                "edit": "編集フィールド {field}",
+                "required": "必須",
+                "name": "フィールド名",
+                "name-help": "一般に表示され、翻訳できないフィールドラベル\n",
+                "description": "フィールドの説明",
+                "description-help": "このフィールドの目的を説明するオプションの説明\n",
+                "show_when_empty": "空のフィールドを表示",
+                "show_when_empty-help": "フィールドが空かどうかを投稿に表示",
+                "validation": "ユーザー入力を確認する",
+                "user_values_allowed": "ユーザーが許可するもの",
+                "user_values_allowed-help": "有効にすると、ユーザーは管理者が定義した値の代わりに独自の値を追加できます。 これらの値は、検証設定に従ってチェックされます。 無効にした場合、「推奨」回答のみを使用できます。\n",
+                "validation-help": "サポートされている <a>Laravel validation rules</a> を参照してください。例： \"string|min:5\" または \"url\"。\n",
+                "enable-user-values-for-validation": "ユーザー入力を有効にして検証ルールを構成する",
+                "icon": "アイコン",
+                "icon-help": "このフィールドの前に小さなアイコンが表示されます。 利用可能なアイコンは <a>FontAwesome</a> をご覧ください，接頭辞を含む完全なチャートクラス名を使用します。例：「fas fa-bolt」。\n",
+                "icon-preview": "プレビュー： {preview}",
+                "save-field-for-answers": "このフィールドを保存して回答を追加してください",
+                "is_suggested": "ユーザーに提案を表示する",
+                "new-answer": "",
+                "new-answer-placeholder": "一部のテキスト",
+                "min_answers_count": "回答の最小数",
+                "max_answers_count": "回答の最大数"
+            },
+            "messages": {
+                "delete-answer-confirmation": "回答「{content}」を削除しますか？ これは、それを使用するすべての投稿から削除されます。既存の回答を保持する場合は、回答の提案を無効にしてください。 回答を削除しますか？\n",
+                "delete-field-confirmation": "フィールド「{name}」を削除してもよろしいですか？ これは、それを使用するすべての投稿から削除されます。 フィールドを削除しますか？\n"
+            },
+            "settings": {
+                "fields-section-title": "カスタムフィールドタイトル",
+                "fields-section-title-placeholder": "デフォルトではタイトルは表示されません",
+                "fields-section-title-help": "ユーザーには、このテキストがフィールドに表示されます\n",
+                "column-count": "表示されるフィールドの数",
+                "n-columns": "{count} 列",
+                "labels-as-placeholders": "フォームのラベルをプレースホルダーとして表示する",
+                "labels-as-placeholders-help": "フィールドの垂直方向のスペースが少なくなり、小さなアイコンが表示されなくなります。 これは、特に既存のフィールドを編集する場合、使いやすさに影響する可能性があることに注意してください。\n",
+                "fields-in-hero": "フィールドは、最初の投稿ではなく、投稿バナーとして表示されます。",
+                "hide-empty-fields-section": "すべてのフィールドが空で非表示のときにタイトルとコントロールを非表示にします。",
+                "hide-empty-fields-section-help": "このオプションを有効にすると、すべてのフィールドが空の場合、「フィールドの編集」ボタンは「返信」ドロップダウンリストでのみ使用できます。\n",
+                "tags-as-field": "セクションヒットをフィールドとして表示する。",
+                "tags-as-field-help": "これにより、デフォルトのセクションクリック選択が非表示になり、カスタムドロップダウンリストに置き換えられます。 これは、最大1つのプライマリノードと1つのセカンダリノードでのみ機能します！\n",
+                "tags-field-name": "ノードフィールドラベル",
+                "tags-field-name-placeholder": "=> fof-mason.forum.tags.tags-label"
+            },
+            "titles": {
+                "settings": "設定する",
+                "fields": "フィールド",
+                "field-settings": "",
+                "field-answers": ""
+            },
+            "permissions": {
+                "see-own-fields": "自身のトピックに表示されるフィールド",
+                "see-other-fields": "すべてのトピックに表示されるフィールド",
+                "fill-fields": "新しいトピックのフィールドに入力する",
+                "update-own-fields": "自分のディスカッションのフィールドを更新する",
+                "update-other-fields": "件名フィールドを更新する",
+                "skip-required-fields": "必須フィールドのスキップを許可する",
+                "mason-heading": "Mason"
+            },
+            "menu": {
+                "title": "",
+                "description": "カスタム投稿フィールドを設定する\n"
+            }
+        }
+    }
+}

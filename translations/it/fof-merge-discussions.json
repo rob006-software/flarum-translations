@@ -1,0 +1,36 @@
+{
+    "fof-merge-discussions": {
+        "forum": {
+            "modal": {
+                "title": "Unisci Discussioni",
+                "type_target_label": "Unisci qui",
+                "type_target_help_text": "Scegli discussione(i) da unire dentro <b>{title}</b>.",
+                "type_from_label": "Unisci questa discussione in un'altra",
+                "type_from_help_text": "Scegli la discussione di destinazione in cui unire <b>{title}</b>.",
+                "load_preview_button": "Anteprima",
+                "submit_button": "=> fof-merge-discussions.ref.merge"
+            },
+            "discussion": {
+                "merge": "=> fof-merge-discussions.ref.merge"
+            },
+            "post": {
+                "merged": "Unito <b>{count}</b> post da {titles}.|Uniti <b>{count}</b> post da {titles}."
+            }
+        },
+        "admin": {
+            "permissions": {
+                "merge_discussions_label": "Unisci discussioni"
+            }
+        },
+        "api": {
+            "error": {
+                "merging_failed": "Impossibile unire le discussioni.",
+                "updating_failed": "Impossibile aggiornare i dettagli della discussione.",
+                "deleting_failed": "Impossibile eliminare discussioni vuote."
+            }
+        },
+        "ref": {
+            "merge": "Unisci"
+        }
+    }
+}

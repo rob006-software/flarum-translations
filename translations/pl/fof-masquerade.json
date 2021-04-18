@@ -2,7 +2,8 @@
     "fof-masquerade": {
         "forum": {
             "alerts": {
-                "profile-completion-required": "Uzupełnij proszę wymagane pola profilu poniżej.\n"
+                "profile-completion-required": "Uzupełnij wymagane pola profilu poniżej.\n",
+                "profile-completed": "Profil uzupełniony! <a>Przejdź do strony głównej</a>"
             },
             "buttons": {
                 "view-profile": "Zobacz profil",
@@ -11,7 +12,7 @@
             "fields": {
                 "select": {
                     "none-optional": "Nie wybrano żadnej opcji (niewymagane)",
-                    "none-required": "Wybierz proszę którąś z opcji (wymagane)"
+                    "none-required": "Wybierz którąś z opcji (wymagane)"
                 },
                 "boolean": {
                     "yes": "Tak",
@@ -20,7 +21,6 @@
             }
         },
         "admin": {
-            "title": "Masquerade",
             "general-options": "Opcje ogólne",
             "buttons": {
                 "add-field": "Utwórz pole",
@@ -30,9 +30,6 @@
             "permissions": {
                 "have-profile": "Posiadanie profilu masquerade",
                 "view-profile": "Przeglądanie profilu masquerade"
-            },
-            "menu": {
-                "description": "Konfiguruj pola profilu użytkownika.\n"
             },
             "fields": {
                 "title": "Pola",
@@ -48,14 +45,13 @@
                 "validation": "Walidacja",
                 "validation-help": "Sprawdź wspierane <a>reguły walidacji Laravela</a>, np. \"string|min:5\" lub \"url\".\n",
                 "prefix": "Prefiks pola",
-                "prefix-help": "Wyświetla twój przedrostek przed wartościami wprowadzonymi do tego pola przez użytkownika.\n",
+                "prefix-help": "Wyświetla Twój przedrostek przed wartościami wprowadzonymi do tego pola przez użytkownika.\n",
                 "icon": "Ikona",
                 "icon-help": "Wyświetla ikonę przed wartościami podanymi przez użytkownika. Listę dostępnych ikon możesz znaleźć na <a>stronie Font Awesome</a>. Użyj nazw ikon w prefiksem \"fa-\", np. \"fas fa-info\".\n",
                 "force-user-to-completion": "Wymuś uzupełnienie tego pola przez użytkownika",
-                "disable-user-bio": "Wyłącz pole profilu użytkownika",
                 "options": "Opcje",
                 "option-new": "Nowa opcja",
-                "option-coma-warning": "Etykieta opcji nie może zawierać przecinka (\",\")."
+                "option-comma-warning": "Etykieta opcji nie może zawierać przecinka (\",\")."
             },
             "types": {
                 "advanced": "Zaawansowane",
@@ -63,6 +59,10 @@
                 "email": "E-mail",
                 "select": "Lista rozwijana",
                 "url": "URL"
+            },
+            "title": "Masquerade",
+            "menu": {
+                "description": "Konfiguruj pola profilu użytkownika.\n"
             }
         }
     }

@@ -2,14 +2,23 @@
     "imgur-upload": {
         "admin": {
             "settings": {
-                "title": ""
+                "hide-markdown-image": "Markdown görsel düğmesini Gizle",
+                "allow-paste": "Görüntüyü yapıştırarak yüklemeye izin ver",
+                "embed-type": {
+                    "title": "İçe gömme tipi",
+                    "preview-with-link": "Önizleme (1024px) ile tam boyutlu görsele bağlantı",
+                    "preview-without-link": "Önizleme olmadan bağlantı",
+                    "full-with-link": "Tam boyutlu görsel ile bağlantı",
+                    "full-without-link": "Bağlantı olmadan tam boyutlu görsel"
+                },
+                "title": "Imgur Yükleme Ayarları"
             }
         },
         "forum": {
-            "upload": "",
-            "loading": "",
-            "done": "",
-            "error": ""
+            "upload": "Yüklemek için tıkla veya yapıştır",
+            "loading": "Yükleniyor...",
+            "done": "Başarılı!",
+            "error": "Hata"
         }
     }
 }

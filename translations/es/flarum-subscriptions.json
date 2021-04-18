@@ -1,0 +1,50 @@
+{
+    "flarum-subscriptions": {
+        "forum": {
+            "badge": {
+                "following_tooltip": "=> flarum-subscriptions.ref.following",
+                "ignoring_tooltip": "=> flarum-subscriptions.ref.ignoring"
+            },
+            "discussion_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "unfollow_button": "Dejar de seguir",
+                "unignore_button": "Dejar de ignorar"
+            },
+            "following": {
+                "meta_title_text": "=> flarum-subscriptions.ref.following"
+            },
+            "index": {
+                "following_link": "=> flarum-subscriptions.ref.following"
+            },
+            "notifications": {
+                "new_post_text": "{username} publicó"
+            },
+            "settings": {
+                "follow_after_reply_label": "Seguir automáticamente las discusiones en las que tú participes",
+                "notify_new_post_label": "Alguién publicó en una discusión que tú sigues"
+            },
+            "sub_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "following_button": "=> flarum-subscriptions.ref.following",
+                "following_text": "Ser notificado de todas las respuestas.",
+                "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
+                "ignoring_text": "No ser notificado y ocultar esta discusión.",
+                "not_following_button": "Dejar de seguir",
+                "not_following_text": "Ser notificado sólo cuando te @mencionen.",
+                "notify_alert_tooltip": "Recibir una notificación del foro cuando haya nuevas publicaciones",
+                "notify_email_tooltip": "Recibir un e-mail cuando haya nuevas publicaciones"
+            }
+        },
+        "email": {
+            "new_post": {
+                "subject": "[Nueva publicación] {title}",
+                "body": "Hey {recipient_display_name}!\n\n{poster_display_name} hizo una publicación en una discusión que estás siguiendo: {title}.\n\nPara ver la nueva actividad, consulte el siguiente enlace:\n{url}\n\n---\n\n{content}\n\n---\n\nNo recibirás más notificaciones sobre esta discusión hasta que haya más actualizaciones.\n"
+            }
+        },
+        "ref": {
+            "follow": "Seguir",
+            "following": "Siguiendo",
+            "ignoring": "Ignorar"
+        }
+    }
+}

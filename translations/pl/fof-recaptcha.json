@@ -3,10 +3,17 @@
         "admin": {
             "settings": {
                 "help_text": "Uzyskaj dane uwierzytelniające dla Google reCAPTCHA <a>tutaj</a>.",
-                "type_label": "reCAPTCHA Type",
+                "secret_key_label": "Secret Key",
                 "site_key_label": "Site Key",
-                "secret_key_label": "Secret Key"
+                "type_label": "reCAPTCHA Type",
+                "title": "FriendsOfFlarum reCAPTCHA"
+            },
+            "permissions": {
+                "post_without_captcha": "Tworzenie postów i dyskusji z pominięciem mechanizmu CAPTCHA"
             }
+        },
+        "forum": {
+            "error": "Wystąpił błąd podczas przesyłania odpowiedzi reCAPTCHA. Spróbuj ponownie."
         }
     },
     "validation": {

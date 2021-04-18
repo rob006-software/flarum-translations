@@ -28,8 +28,7 @@
             },
             "modal": {
                 "title": "Voters",
-                "upvotes_label": "Upvoters:",
-                "downvotes_label": "Downvoters:"
+                "upvotes_label": "Upvoters:"
             },
             "mod_item": "View Voters"
         },
@@ -38,9 +37,6 @@
                 "vote_label": "Upvote/Downvote posts",
                 "see_votes_label": "See post upvotes/downvotes",
                 "see_ranking_page": "See ranking page"
-            },
-            "nav": {
-                "desc": "Gamification for your Flarum community"
             },
             "page": {
                 "rankings": {
@@ -62,6 +58,7 @@
                     "auto_upvote": "Auto upvote posts when posted",
                     "rate_limit": "Enforce a vote rate limit (10 seconds)",
                     "discussion_page": "Show total votes of original post on discussions list",
+                    "alternate_layout": "Use alternate layout to show and/or do upvotes/downvotes",
                     "title": "Votes",
                     "vote_color": "Voted color",
                     "icon_name": "Upvote/downvote icon",

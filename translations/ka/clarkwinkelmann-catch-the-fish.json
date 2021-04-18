@@ -1,0 +1,163 @@
+{
+    "clarkwinkelmann-catch-the-fish": {
+        "forum": {
+            "moderate": {
+                "add": "დამატება",
+                "edit": "შეცვლა",
+                "delete": "წაშლა",
+                "fishes": "თევზები",
+                "rounds": "ტურები"
+            },
+            "nav": {
+                "rankings": "დაიჭირეთ თევზის რანჟირება",
+                "settings": "დაიჭირეთ თევზის პარამეტრები"
+            },
+            "new-round-modal": {
+                "title": "ახალი რაუნდი"
+            },
+            "new-fish-modal": {
+                "title": "ახალი თევზი"
+            },
+            "edit-round-modal": {
+                "title": ""
+            },
+            "edit-fish-modal": {
+                "title": ""
+            },
+            "caught-fish-modal": {
+                "title": "შენ დაიჭირე თევზი დაიჭირე!",
+                "named-by": "დასახელებულია",
+                "placed-by": "განთავსებულია",
+                "congratulation": "გილოცავ, თევზი დაიჭირე! თქვენ დაიჭირეთ {catch_count} თევზი.",
+                "name": "თევზის სახელწოდება",
+                "name-help": "თუ გსურთ თევზი შეგიძლიათ დაარქვათ. სახელი პატივს უნდა სცემდეს ფორუმის მითითებებს.",
+                "placement-help": "თევზის ფორუმზე დამალვა შეგიძლიათ ფორუმზე, ბოლო დისკუსიებსა და მომხმარებლის აქტიურ პროფილებში. თქვენ ვერ დაიჭერთ თევზს, რომელიც თავად მოათავსეთ.",
+                "submit-name-place-later": "შეინახეთ სახელი და აირჩიეთ სამალავი",
+                "submit-name": "სახელის შენახვა",
+                "submit-place-later": "დიახ, მე ავირჩევ სამალავს",
+                "submit-continue": "გაგრძელება",
+                "submit-name-place-random": "შეინახეთ სახელი და დაელოდეთ თევზს",
+                "submit-place-random": "თევზი დაემალოს"
+            },
+            "edit-round": {
+                "name": "სახელი",
+                "name-help": "ამ ტურის საჯარო სახელი გამოჩნდება ბანერებში და რეიტინგში",
+                "starts-at": "დაწყების დრო",
+                "ends-at": "დასრულების დრო",
+                "starting-pack": "საწყისი პაკეტი",
+                "starting-pack-help": "მოიცავს რამდენიმე თევზს, რომ დროულად დაიწყოთ მუშაობა",
+                "create": "რაუნდის შექმნა",
+                "save": "რაუნდის დასეივება",
+                "delete": "რაუნდის წაშლა",
+                "delete-confirmation": "წაშალეთ რაუნდი \"{name}\" ?"
+            },
+            "edit-fish": {
+                "name": "სახელი",
+                "name-help": "თევზის ამჟამინდელი სახელი. მოთამაშეთა მიერ რედაქტირება შესაძლებელია, თუ მათ აქვთ თევზის სახელის გადარქმევის ნებართვა",
+                "create": "შექმენით თევზი",
+                "save": "დაასეივეთ თევზი",
+                "delete": "თევზის წაშლა",
+                "delete-confirmation": ""
+            },
+            "moving-fish": {
+                "login": "შედით თევზების დასაჭერად"
+            },
+            "fish-image": {
+                "alt": "თევზის სურათი \"{name}\"",
+                "missing": "აკლია თევზის სურათი"
+            },
+            "round-alert": {
+                "message": "შემოხვიეთ \"{name}\" - ზე, დაიჭირეთ რაც შეიძლება მეტი თევზი {time} - მდე",
+                "rankings": "იხილეთ რეიტინგი"
+            },
+            "basket": {
+                "title": "თევზის კალათა",
+                "drag-help": "გადაიტანეთ და ჩამოაგდეთ თევზი დისკუსიაზე, პოსტზე ან მომხმარებლის პროფილზე",
+                "time": ""
+            },
+            "table-round": {
+                "loading": "იტვირთება...",
+                "title": "რაუნდები",
+                "new": "ახალი რაუნდი",
+                "name": "სახელი",
+                "start": "დან",
+                "end": "",
+                "actions": "მოქმედებები",
+                "edit": "ედითი",
+                "fishes": "თევზები"
+            },
+            "table-fish": {
+                "loading": "იტვირთება...",
+                "title": "",
+                "new": "",
+                "image": "",
+                "name": "",
+                "user-name": "",
+                "user-place": "",
+                "actions": "",
+                "edit": "",
+                "no-user-name": "",
+                "no-user-place": "",
+                "upload": "",
+                "new-from-image": ""
+            },
+            "table-ranking": {
+                "loading": "",
+                "title": "",
+                "rank": "",
+                "count": "",
+                "user": ""
+            },
+            "page-ranking": {
+                "title": "",
+                "permission": "",
+                "nothing": ""
+            },
+            "drop-area": {
+                "message": "",
+                "missing-from-store": ""
+            }
+        },
+        "admin": {
+            "settings": {
+                "title": "",
+                "discussion-age": "",
+                "post-age": "",
+                "user-age": "",
+                "time-to-place": "",
+                "alert-round": "",
+                "animate-flip": ""
+            },
+            "permissions": {
+                "visible": "",
+                "list-rankings": "",
+                "participate": "",
+                "choose-place": "",
+                "choose-name": "",
+                "moderate": ""
+            }
+        },
+        "api": {
+            "default-fish-name": "",
+            "wrong-catch-placement": "",
+            "too-many-placement-models": "",
+            "invalid-discussion-id": "",
+            "invalid-post-id": "",
+            "invalid-user-id": "",
+            "model-deleted": "",
+            "model-private": "",
+            "inactive-discussion": "",
+            "inactive-post": "",
+            "inactive-user": "",
+            "non-comment-post": "",
+            "user-suspended": "",
+            "random-error": "",
+            "cannot-catch-own-fish": "",
+            "cannot-catch-hold-fish": "",
+            "fish-update-wrong-user": "",
+            "fish-update-expired": "",
+            "round-not-started": "",
+            "round-finished": ""
+        }
+    }
+}

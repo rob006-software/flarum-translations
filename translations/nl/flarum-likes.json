@@ -1,0 +1,29 @@
+{
+    "flarum-likes": {
+        "admin": {
+            "permissions": {
+                "like_posts_label": "Vind berichten leuk"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_liked_text": "{username} vindt je bericht leuk|{username} vinden je bericht leuk"
+            },
+            "post": {
+                "like_link": "Leuk",
+                "liked_by_self_text": "{users} vindt dit leuk.|{users} vinden dit leuk.",
+                "liked_by_text": "{users} vindt dit leuk.|{users} vinden dit leuk.",
+                "others_link": "=> core.ref.some_others",
+                "unlike_link": "Niet leuk",
+                "you_text": "=> core.ref.you"
+            },
+            "post_likes": {
+                "title": "Gebruikers die dit leuk vinden"
+            },
+            "settings": {
+                "notify_post_liked_label": "Iemand vindt een van mijn berichten leuk"
+            }
+        }
+    }
+}

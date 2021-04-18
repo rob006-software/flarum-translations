@@ -1,0 +1,51 @@
+{
+    "fof-polls": {
+        "admin": {
+            "permissions": {
+                "view_results_without_voting": "",
+                "start": "Avviare un sondaggio",
+                "self_edit": "Consenti agli utenti di modificare i propri sondaggi",
+                "vote": "Votare nei Sondaggi",
+                "change_vote": "",
+                "moderate": "Modifica e rimozione sondaggi"
+            }
+        },
+        "forum": {
+            "days_remaining": "Fine Sondaggio {time}.",
+            "no_permission": "Non possiedi i permessi per votare",
+            "poll_ended": "Questo sondaggio è terminato.",
+            "public_poll": "Visualizza votanti",
+            "composer_discussion": {
+                "add_poll": "Sondaggio",
+                "edit_poll": "=> fof-polls.forum.moderation.edit"
+            },
+            "modal": {
+                "add_title": "Aggiungi Sondaggio",
+                "add_option_label": "Aggiungi opzione",
+                "date_placeholder": "Data fine sondaggio (Opzionale)",
+                "edit_title": "Modifica Sondaggio",
+                "include_question": "Devi includere una domanda",
+                "max": "Puoi avere un massimo di 10 risposte",
+                "min": "Devi includere un minimo di 2 risposte",
+                "no_voters": "Nessun voto",
+                "option_placeholder": "Risposta",
+                "options_label": "Risposte",
+                "public_poll_label": "Consenti alle persone di vedere chi ha votato",
+                "question_placeholder": "Domanda",
+                "submit": "Invia"
+            },
+            "moderation": {
+                "delete": "Rimuovi Sondaggio",
+                "delete_confirm": "Sei sicuro di voler eliminare questo sondaggio?",
+                "edit": "Modifica sondaggio"
+            },
+            "tooltip": {
+                "badge": "Sondaggio",
+                "votes": "1 voto|{count} voti"
+            },
+            "votes_modal": {
+                "title": "Votanti"
+            }
+        }
+    }
+}

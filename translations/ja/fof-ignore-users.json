@@ -1,0 +1,22 @@
+{
+    "fof-ignore-users": {
+        "admin": {
+            "permissions": {
+                "can_not_be_ignored_label": "無視できない"
+            }
+        },
+        "forum": {
+            "profile_link": "無視されたユーザー",
+            "user_controls": {
+                "ignore_button": "無視する",
+                "ignore_confirmation": "この人を無視しますか？",
+                "unignore_button": "取消無視",
+                "unignore_confirmation": "この人を無視してキャンセルしますか？"
+            },
+            "badge": {
+                "user_label": "",
+                "discussion_label": ""
+            }
+        }
+    }
+}

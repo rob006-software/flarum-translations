@@ -1,0 +1,35 @@
+{
+    "flagrow-ads": {
+        "admin": {
+            "buttons": {
+                "save": "Zapisz ustawienia"
+            },
+            "positions": {
+                "under-header": {
+                    "title": "Pozycja reklamy pod nagłówkiem nawigacyjnym",
+                    "placeholder": "Wprowadź tu kod swojej reklamy."
+                },
+                "between-posts": {
+                    "title": "Pozycja reklamy pomiędzy postami",
+                    "placeholder": "=> flagrow-ads.admin.positions.under-header.placeholder"
+                },
+                "under-nav-items": {
+                    "title": "Pozycja reklamy w lewej kolumnie pod listą tagów na stronie głównej",
+                    "placeholder": "=> flagrow-ads.admin.positions.under-header.placeholder"
+                }
+            },
+            "settings": {
+                "adsense-title": "Ustawienia AdSense",
+                "position-title": "Umiejscowienie reklam",
+                "adsense-enable": "AdSense włączone",
+                "adsense-client-id": "Podaj swój Identyfikator wydawcy (publisher ID)",
+                "start-from-post": "Od którego posta zacząć wyświetlać reklamy",
+                "between-n-posts": "Co ile postów wyświetlać reklamę"
+            },
+            "tab": {
+                "title": "Reklamy",
+                "description": "Ustaw preferencje i pozycje reklam."
+            }
+        }
+    }
+}

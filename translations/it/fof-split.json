@@ -1,0 +1,24 @@
+{
+    "fof-split": {
+        "admin": {
+            "permissions": {
+                "split_discussion_label": "Dividi i post dalle discussioni"
+            }
+        },
+        "forum": {
+            "post": {
+                "was_split_to": "{count} post è stato diviso in {target}. | {count} post sono stati divisi in {target}.",
+                "was_split_from": "{count} post è stato diviso da {target}. | {count} post sono stati divisi da {target}."
+            },
+            "split": {
+                "from": "Dividi da qui",
+                "to": "Dividi fino a qui"
+            },
+            "modal": {
+                "title": "Dividi discussione",
+                "new_discussion_label": "Specifica il titolo per la nuova discussione",
+                "submit_button": "Dividi"
+            }
+        }
+    }
+}

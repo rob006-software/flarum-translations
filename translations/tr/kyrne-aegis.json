@@ -1,0 +1,95 @@
+{
+    "kyrne-aegis": {
+        "mail": {
+            "emailBod": "Birisi senin {forum} topluluğundaki hesabına girmeye çalışıyor - umarız sensindir.\nBir sonraki adıma geçmeden önce giriş yapanın siz olduğunu doğrulamanız gerekiyor.\n\nLütfen siz olduğunuzu doğrulayın:\n  • {username}\n  • IP Address: {ipAddress}\n  • Location: {location}\n\nGiriş isteğini doğrulamak için <a href=\"{link}\">buraya tıklayın</a>.\n\nEğer siz değilseniz şifrenizi değiştirmeniz gerekmektedir.\n",
+            "emailSub": "Giriş İsteği",
+            "reminderBod": "Bu, hesabınızda İki faktörlü kimlik doğrulamanın etkinleştirildiğine dair dostane bir hatırlatmadır. Bu, oturum açarken her zamanki kullanıcı adınızı ve şifrenizi girmenin yanı sıra TOTP, Authy uygulaması veya telefonunuzda bir metin mesajı yoluyla oluşturulan bir kodu girmeniz gerektiği anlamına gelir. Kurtarma kodlarınızı güvenli bir yerde saklamayı unutmayın. Mobil cihazınıza erişiminizi kaybetmeniz durumunda hesabınıza giriş yapmak için bunlardan birine ihtiyacınız olacak.",
+            "reminderSub": ""
+        },
+        "api": {
+            "expired-token-error": "",
+            "invalid-token-error": "",
+            "pusher-token-error": "",
+            "request-throttle-error": "",
+            "success": ""
+        },
+        "forum": {
+            "text": "",
+            "onetouch": "",
+            "accountlabel": "",
+            "security_button": "",
+            "incorrect_2fa": "",
+            "2fa_disabled": "",
+            "2fa_enabled": "",
+            "page": {
+                "title": "",
+                "settings_heading": "",
+                "devices_heading": "",
+                "revoke": "",
+                "last_seen": "",
+                "location": "",
+                "ip": "",
+                "my_device": "",
+                "success": ""
+            },
+            "modal": {
+                "not_you": "",
+                "emailModalTitle": "",
+                "emailModalHeader": "",
+                "useACode": "",
+                "twofactor_title": "",
+                "oneTouchTitle": "",
+                "oneTouchHeader": "",
+                "oneTouchCodeHeader": "",
+                "oneTouchHeaderVerified": "",
+                "heading": "",
+                "switch": "",
+                "download": "",
+                "2fa_heading": "",
+                "2fa_required": "",
+                "2fa_required_2": "",
+                "authy_heading": "",
+                "phone_heading": "",
+                "helpQR": "",
+                "helpPhone": "",
+                "helpPhone2": "",
+                "helpAuthy": "",
+                "helpAuthy2": "",
+                "submitPhone": "",
+                "otSetup": "",
+                "placeholder": "",
+                "button": "",
+                "2fa_help": "",
+                "close": "",
+                "recov": "",
+                "login_title": "",
+                "gate_error": "",
+                "recov_header": "",
+                "recov_help1": "",
+                "recov_help2": "",
+                "stPhone": "",
+                "stAuthy": "",
+                "stTOTP": "",
+                "back": ""
+            }
+        },
+        "admin": {
+            "permissions": {
+                "required": ""
+            },
+            "settings": {
+                "help": "",
+                "enable": "",
+                "group_requirement": "",
+                "email_method": "",
+                "authyHelp": "",
+                "enableAuthy": "",
+                "emailHelp": "",
+                "authyApi": "",
+                "sid": "",
+                "token": "",
+                "number": ""
+            }
+        }
+    }
+}

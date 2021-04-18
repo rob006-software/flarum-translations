@@ -1,0 +1,30 @@
+{
+    "flarum-suspend": {
+        "admin": {
+            "permissions": {
+                "suspend_users_label": "Sospendere gli utenti"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "user_suspended_text": "{username} ti ha sospeso per {timeReadable}",
+                "user_unsuspended_text": "{username} ti ha riabilitato"
+            },
+            "suspend_user": {
+                "indefinitely_label": "Sospeso a tempo indeterminato",
+                "limited_time_days_text": " giorni",
+                "limited_time_label": "Sospeso per un tempo limitato...",
+                "not_suspended_label": "Non sospeso",
+                "status_heading": "Stato di sospensione",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Sospendi {username}"
+            },
+            "user_badge": {
+                "suspended_tooltip": "Sospeso"
+            },
+            "user_controls": {
+                "suspend_button": "Sospendi"
+            }
+        }
+    }
+}

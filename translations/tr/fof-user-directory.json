@@ -1,11 +1,21 @@
 {
     "fof-user-directory": {
         "forum": {
+            "header": {
+                "back_to_user_directory_tooltip": "Kullanıcı Listesine Dön"
+            },
             "search": {
-                "users_heading": "Tüm kullanıcılarda ara \"{query}\""
+                "users_heading": "Tüm kullanıcılarda ara \"{query}\"",
+                "field": {
+                    "placeholder": "Tüm kullanıcılarda ara"
+                }
             },
             "page": {
                 "nav": "Kullanıcı Listesi",
+                "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
+                "load_more_button": "=> core.ref.load_more",
+                "empty_text": "Aramanızla eşleşen bir kullanıcı bulamadık.",
+                "filter_button": "Grupları Filtrele",
                 "sort": {
                     "relevance": "İlgi",
                     "default": "Varsayılan",
@@ -27,8 +37,25 @@
                 "view_user_directory": "Kullanıcı listesini görüntüle"
             },
             "settings": {
-                "title": "Kullanıcı Listesi Ayarları",
-                "link": "Kullanıcı listesinin görülebilmesi için anasayfaya bağlantı ekle."
+                "link": "Kullanıcı listesinin görülebilmesi için anasayfaya bağlantı ekle",
+                "default-sort": "Varsayılan sıralama",
+                "title": "Kullanıcı Listesi Ayarları"
+            }
+        },
+        "lib": {
+            "sort": {
+                "not_specified": "Flarum'u varsayılan olarak kullan",
+                "default": "Varsayılan",
+                "username_az": "Kullanıcı Adı (a-z)",
+                "username_za": "Kullanıcı Adı (z-a)",
+                "newest": "En yeni",
+                "oldest": "En eski",
+                "most_posts": "Çok gönderiye göre",
+                "least_posts": "Az gönderiye göre",
+                "most_discussions": "Çok tartışmaya göre",
+                "least_discussions": "Az tartışmaya göre",
+                "seen_recent": "Son çevrimiçi olan",
+                "seen_oldest": "Ziyaret etmeyenler"
             }
         }
     }

@@ -1,15 +1,32 @@
 {
     "askvortsov-discussion-templates": {
         "admin": {
+            "permissions": {
+                "manage_own_discussion_reply_templates": "Tartışmalar için yanıt şablonlarını yönetin",
+                "manage_all_reply_templates": "Tüm tartışmalar için yanıt şablonlarını yönetin"
+            },
+            "settings": {
+                "no_tag_template": "Varsayılan şablon (hiçbir etiket seçilmeden tartışma başladığında kullanılır):",
+                "append_template_on_tag_change": "Etiketler değiştirildiğinde, kullanıcı yazmaya başlamış olsa bile yeni etiketin şablonu eklenmeli mi? Bu ayardan bağımsız olarak, etiketler değiştirilirse ve kullanıcı değişiklik yapmadıysa, şablon değiştirilir."
+            },
             "tags": {
-                "tag_template_heading": "",
-                "tag_template_text": "",
-                "tag_template_button": ""
+                "tag_template_heading": "Tartışma Şablonu",
+                "tag_template_text": "Bu etiket için yeni tartışma şablonunu yönet.",
+                "tag_template_button": "Şablonu Düzenle"
             },
             "tag_template_modal": {
-                "title": "",
-                "customize_text": "",
-                "submit_button": ""
+                "title": "Tartışma Şablonu",
+                "customize_text": "Bu etiket için yeni tartışma şablonunu yönet.",
+                "submit_button": "Şablonu Kaydet"
+            }
+        },
+        "forum": {
+            "discussion_controls": {
+                "reply_template_button": "Yanıt Şablonunu Düzenle"
+            },
+            "reply_template": {
+                "title": "Yanıt Şablonunu Düzenle",
+                "submit_button": "Yanıt Şablonunu Kaydet"
             }
         }
     }

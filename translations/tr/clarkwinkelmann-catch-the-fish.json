@@ -2,162 +2,162 @@
     "clarkwinkelmann-catch-the-fish": {
         "forum": {
             "moderate": {
-                "add": "",
-                "edit": "",
-                "delete": "",
-                "fishes": "",
-                "rounds": ""
+                "add": "Ekle",
+                "edit": "Düzenle",
+                "delete": "Sil",
+                "fishes": "Balıklar",
+                "rounds": "Turlar"
             },
             "nav": {
-                "rankings": "",
-                "settings": ""
+                "rankings": "Balıkları Yakala Derecesi",
+                "settings": "Balıkları Yakala Ayarları"
             },
             "new-round-modal": {
-                "title": ""
+                "title": "Yeni Tur"
             },
             "new-fish-modal": {
-                "title": ""
+                "title": "Yeni Balık"
             },
             "edit-round-modal": {
-                "title": ""
+                "title": "Turu Düzenle \"{name}\""
             },
             "edit-fish-modal": {
-                "title": ""
+                "title": "Balığı Düzenle \"{name}\""
             },
             "caught-fish-modal": {
-                "title": "",
-                "named-by": "",
-                "placed-by": "",
-                "congratulation": "",
-                "name": "",
-                "name-help": "",
-                "placement-help": "",
-                "submit-name-place-later": "",
-                "submit-name": "",
-                "submit-place-later": "",
-                "submit-continue": "",
-                "submit-name-place-random": "",
-                "submit-place-random": ""
+                "title": "Bir balık yakaladın!",
+                "named-by": "Adlandıran",
+                "placed-by": "Yerleştiren",
+                "congratulation": "Tebrikler, bir balık yakaladınız! Toplamda {catch_count} balık yakaladınız.",
+                "name": "Balığın adı",
+                "name-help": "İsterseniz balığı yeniden adlandırabilirsiniz. Adının forum kurallarına uygun olduğundan emin olun.",
+                "placement-help": "Son tartışmalarda ve aktif kullanıcı profillerinde  balıkları gizleyebilirsiniz. Kendi yerleştirdiğiniz balığı yakalayamazsınız.",
+                "submit-name-place-later": "Adı kaydet ve saklama yerini seç",
+                "submit-name": "Adı kaydet",
+                "submit-place-later": "Evet, saklanacak bir yer seçeceğim",
+                "submit-continue": "Devam",
+                "submit-name-place-random": "Adı kaydet ve balığın kendisini gizlemesine izin ver",
+                "submit-place-random": "Balığın kendisini gizlemesine izin ver"
             },
             "edit-round": {
-                "name": "",
-                "name-help": "",
-                "starts-at": "",
-                "ends-at": "",
-                "starting-pack": "",
-                "starting-pack-help": "",
-                "create": "",
-                "save": "",
-                "delete": "",
-                "delete-confirmation": ""
+                "name": "Adı",
+                "name-help": "Bu turun adı, pankartta ve derecelendirmede gözükecektir",
+                "starts-at": "Başlangıç süresi",
+                "ends-at": "Bitiş süresi",
+                "starting-pack": "Başlangıç Paketi",
+                "starting-pack-help": "Will include a few fishes to get you started in no time",
+                "create": "Tur oluştur",
+                "save": "Turu kaydet",
+                "delete": "Turu sil",
+                "delete-confirmation": "Turu sil \"{name}\" ?"
             },
             "edit-fish": {
-                "name": "",
-                "name-help": "",
-                "create": "",
-                "save": "",
-                "delete": "",
-                "delete-confirmation": ""
+                "name": "Adı",
+                "name-help": "Balıkların şu andaki adı budur. Balıkları yeniden adlandırma iznine sahip kullanıcılar adlarını düzenleyebilir.",
+                "create": "Balık oluştur",
+                "save": "Balığı kaydet",
+                "delete": "Balığı sil",
+                "delete-confirmation": "Balığı sil \"{name}\" ?"
             },
             "moving-fish": {
-                "login": ""
+                "login": "Balıkları yakalamak için giriş yapın"
             },
             "fish-image": {
-                "alt": "",
-                "missing": ""
+                "alt": "Balığın resmi \"{name}\"",
+                "missing": "Kayıp balık resmi"
             },
             "round-alert": {
-                "message": "",
-                "rankings": ""
+                "message": "Tur \"{name}\" için {time} süresi boyunca olabildiğince balık yakalayın",
+                "rankings": "Derecelendirmeyi gör"
             },
             "basket": {
-                "title": "",
-                "drag-help": "",
-                "time": ""
+                "title": "Balık sepeti",
+                "drag-help": "Balıkları tartışma, gönderi ve ya kullanıcı profillerine sürükleyip bırakın",
+                "time": "Şu zamana kadar: {time}"
             },
             "table-round": {
-                "loading": "",
-                "title": "",
-                "new": "",
-                "name": "",
-                "start": "",
-                "end": "",
-                "actions": "",
-                "edit": "",
-                "fishes": ""
+                "loading": "Yükleniyor...",
+                "title": "Turlar",
+                "new": "Yeni tur",
+                "name": "Ad",
+                "start": "Başlangıç",
+                "end": "Bitiş",
+                "actions": "Eylemler",
+                "edit": "Düzenle",
+                "fishes": "Balıklar"
             },
             "table-fish": {
-                "loading": "",
-                "title": "",
-                "new": "",
-                "image": "",
-                "name": "",
-                "user-name": "",
-                "user-place": "",
-                "actions": "",
-                "edit": "",
-                "no-user-name": "",
-                "no-user-place": "",
-                "upload": "",
-                "new-from-image": ""
+                "loading": "Yükleniyor...",
+                "title": "Turdaki balıklar {name}",
+                "new": "Yeni balık",
+                "image": "Resim",
+                "name": "Ad",
+                "user-name": "En son adlandıran",
+                "user-place": "En son yerleştiren",
+                "actions": "Eylemler",
+                "edit": "Düzenle",
+                "no-user-name": "Yeniden adlandırılmadı",
+                "no-user-place": "Rastgele",
+                "upload": "Yeni resim yükle",
+                "new-from-image": "Toplu görüntü içe aktararak yeni balıklar oluşturun"
             },
             "table-ranking": {
-                "loading": "",
-                "title": "",
-                "rank": "",
-                "count": "",
-                "user": ""
+                "loading": "Yükleniyor...",
+                "title": "Ranking of round {name}",
+                "rank": "Name",
+                "count": "Fishes caught",
+                "user": "User"
             },
             "page-ranking": {
-                "title": "",
-                "permission": "",
-                "nothing": ""
+                "title": "Rankings",
+                "permission": "You do not have permission to see the rankings",
+                "nothing": "No active rounds"
             },
             "drop-area": {
-                "message": "",
-                "missing-from-store": ""
+                "message": "You can drop the fish here",
+                "missing-from-store": "Could not find the fish in the data store"
             }
         },
         "admin": {
             "settings": {
-                "title": "",
-                "discussion-age": "",
-                "post-age": "",
-                "user-age": "",
-                "time-to-place": "",
-                "alert-round": "",
-                "animate-flip": ""
+                "title": "Catch The Fish Settings",
+                "discussion-age": "How old discussions can be for a fish to be placed on it (days)",
+                "post-age": "How old posts can be for a fish to be placed on it (days)",
+                "user-age": "How long since a user must have been active for a fish to be placed on it (days)",
+                "time-to-place": "Time allowed to place fish before it is randomly placed (minutes)",
+                "alert-round": "Show an altert with the round name and duration on the homepage",
+                "animate-flip": "Flip fish images based on direction"
             },
             "permissions": {
-                "visible": "",
-                "list-rankings": "",
-                "participate": "",
-                "choose-place": "",
-                "choose-name": "",
-                "moderate": ""
+                "visible": "See the fishes",
+                "list-rankings": "Access the rankings page",
+                "participate": "Participate in the rounds and catch fishes",
+                "choose-place": "Choose fish placement after catching",
+                "choose-name": "Choose fish name after catching",
+                "moderate": "Moderate rounds and fishes"
             }
         },
         "api": {
-            "default-fish-name": "",
-            "wrong-catch-placement": "",
-            "too-many-placement-models": "",
-            "invalid-discussion-id": "",
-            "invalid-post-id": "",
-            "invalid-user-id": "",
-            "model-deleted": "",
-            "model-private": "",
-            "inactive-discussion": "",
-            "inactive-post": "",
-            "inactive-user": "",
-            "non-comment-post": "",
-            "user-suspended": "",
-            "random-error": "",
-            "cannot-catch-own-fish": "",
-            "cannot-catch-hold-fish": "",
-            "fish-update-wrong-user": "",
-            "fish-update-expired": "",
-            "round-not-started": "",
-            "round-finished": ""
+            "default-fish-name": "Fish #{number}",
+            "wrong-catch-placement": "There is no fish here. Maybe you weren't quick enough and someone else got it first",
+            "too-many-placement-models": "Only one placement is possible at a time",
+            "invalid-discussion-id": "Discussion doesn't seem to exist, maybe it was recently deleted",
+            "invalid-post-id": "Post doesn't seem to exist, maybe it was recently deleted",
+            "invalid-user-id": "User doesn't seem to exist, maybe it was recently deleted",
+            "model-deleted": "Can't place fish on a deleted discussion or post",
+            "model-private": "Can't place fish on a private discussion or post",
+            "inactive-discussion": "Can't place fish on discussion inactive for more than {days} days",
+            "inactive-post": "Can't place fish on post created more than {days} days ago",
+            "inactive-user": "Can't place fish on user inactive for more than {days} days",
+            "non-comment-post": "Can only place fishes on comment posts",
+            "user-suspended": "Can't place fish on a suspended user",
+            "random-error": "Could not generate a random fish placement",
+            "cannot-catch-own-fish": "You cannot catch a fish you placed yourself",
+            "cannot-catch-hold-fish": "The previous catcher needs to release the fish before you can catch it",
+            "fish-update-wrong-user": "You can no longer edit this fish. Somebody else has probably caught it",
+            "fish-update-expired": "Too late, you can no longer edit this fish. It has automatically been placed somewhere in the meantime",
+            "round-not-started": "This round has not started",
+            "round-finished": "This round is finished"
         }
     }
 }

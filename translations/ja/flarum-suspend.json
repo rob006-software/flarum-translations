@@ -1,0 +1,30 @@
+{
+    "flarum-suspend": {
+        "admin": {
+            "permissions": {
+                "suspend_users_label": "アカウント停止"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "user_suspended_text": "{username} があなたのアカウントを {timeReadable} の間停止しました",
+                "user_unsuspended_text": "{username} があなたのアカウント停止を解除しました"
+            },
+            "suspend_user": {
+                "indefinitely_label": "無期限の停止",
+                "limited_time_days_text": " 日",
+                "limited_time_label": "期限付き停...",
+                "not_suspended_label": "停止を解除",
+                "status_heading": "停止状況",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "{username} のアカウントを停止する"
+            },
+            "user_badge": {
+                "suspended_tooltip": "停止されました"
+            },
+            "user_controls": {
+                "suspend_button": "アカウント停止"
+            }
+        }
+    }
+}

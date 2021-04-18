@@ -1,9 +1,12 @@
 {
     "sycho-profile-cover": {
         "admin": {
-            "settings": "个人主页背景图 - 设置",
             "thumbnails": "创建缩略图",
-            "max_size": "个人资料图片的最大大小（以 KB 为单位）",
+            "max_size": "个人资料背景图片的最大大小（KB）",
+            "permission": {
+                "set_cover": "设置个人资料背景"
+            },
+            "settings": "个人资料背景设置",
             "cover_size": "图片大小",
             "thumb_size": "缩略图大小",
             "size_of_images": "{count} 张图片共 {size}|{count} 张图片共 {size}",

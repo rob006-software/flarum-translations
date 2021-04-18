@@ -1,0 +1,50 @@
+{
+    "flarum-subscriptions": {
+        "forum": {
+            "badge": {
+                "following_tooltip": "=> flarum-subscriptions.ref.following",
+                "ignoring_tooltip": "=> flarum-subscriptions.ref.ignoring"
+            },
+            "discussion_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "unfollow_button": "フォロー解除",
+                "unignore_button": "無視をキャンセル"
+            },
+            "following": {
+                "meta_title_text": ""
+            },
+            "index": {
+                "following_link": "フォロー中のスレッド"
+            },
+            "notifications": {
+                "new_post_text": "{username} フォローしているディスカッションに返信がきました"
+            },
+            "settings": {
+                "follow_after_reply_label": "ディスカッションを自動的にフォローする",
+                "notify_new_post_label": "投稿への新しい返信"
+            },
+            "sub_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "following_button": "=> flarum-subscriptions.ref.following",
+                "following_text": "新しい返信を通知する",
+                "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
+                "ignoring_text": "通知を受信せず、スレッドのリストから非表示にします。",
+                "not_following_button": "フォローしていません",
+                "not_following_text": "@メンションがあったときのみ通知する",
+                "notify_alert_tooltip": "新しい投稿がされたときに通知する",
+                "notify_email_tooltip": "新しい投稿がされたときにメールを送信する"
+            }
+        },
+        "email": {
+            "new_post": {
+                "subject": "",
+                "body": ""
+            }
+        },
+        "ref": {
+            "follow": "フォロー",
+            "following": "フォロー中",
+            "ignoring": "無視中"
+        }
+    }
+}

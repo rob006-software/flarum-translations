@@ -2,51 +2,63 @@
     "clarkwinkelmann-carving-contest": {
         "forum": {
             "nav": {
-                "contest": ""
+                "contest": "Oyma Yarışması"
             },
             "page": {
-                "title": "",
-                "loading": "",
-                "participate": "",
-                "delete-confirmation": "",
-                "like": "",
-                "already-liked": "",
-                "unlike": "",
-                "refresh": "",
-                "load-more": "",
+                "title": "Kabak Oyma Yarışması",
+                "loading": "Katılımlar yükleniyor...",
+                "participate": "Katıl",
+                "already-participated": "Zaten katıldın",
+                "delete-confirmation": "Gerçekten {username} tarafından \"{name}\" içeriğini silmek istiyor musun?",
+                "like": "Beğen",
+                "already-liked": "Beğendim",
+                "unlike": "Beğenmekten vazgeç",
+                "refresh": "Yenile",
+                "load-more": "Daha fazla katılım yükle",
                 "sort": {
-                    "mostLikes": "",
-                    "fewerLikes": "",
-                    "mostRecent": "",
-                    "leastRecent": ""
+                    "mostLikes": "Çok beğenilenler",
+                    "fewerLikes": "Az beğenilenler",
+                    "mostRecent": "Son gönderilenler",
+                    "leastRecent": "En son"
                 },
                 "likes": {
-                    "you_text": "",
-                    "others_link": "",
-                    "liked_by_self_text": "",
-                    "liked_by_text": ""
+                    "you_text": "=> core.ref.you",
+                    "others_link": "=> core.ref.some_others",
+                    "liked_by_self_text": "{users} bunu beğendi.",
+                    "liked_by_text": "{users} bunu beğendi.|{users} bunu beğendi."
                 }
             },
             "modal": {
-                "title": "",
-                "name": "",
-                "submit": "",
+                "title": "Katıl",
+                "name": "Yapınıza isim verin",
+                "submit": "Gönder",
                 "tools": {
-                    "circle": "",
-                    "square": ""
+                    "circle": "Çember",
+                    "square": "Kare"
                 }
             },
             "likes_modal": {
-                "title": ""
+                "title": "Bu başvuruyu beğenen kullanıcılar"
             }
         },
         "admin": {
             "permissions": {
-                "heading": "",
-                "view": "",
-                "like": "",
-                "participate": "",
-                "moderate": ""
+                "view": "Başvuruları göster",
+                "like": "Başvuruları beğen",
+                "participate": "Katıl",
+                "moderate": "Yönet",
+                "heading": "Oyma Yarışması"
+            },
+            "settings": {
+                "maxEntriesPerUser": "Kullanıcıların en fazla başvuru sayısı",
+                "colorMode": "",
+                "title": "Oyma Yarışması Ayarları"
+            },
+            "colors": {
+                "simple": "",
+                "all": "",
+                "custom": "",
+                "custom-help": ""
             }
         }
     }

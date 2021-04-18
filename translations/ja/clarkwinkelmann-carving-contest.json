@@ -1,0 +1,65 @@
+{
+    "clarkwinkelmann-carving-contest": {
+        "forum": {
+            "nav": {
+                "contest": "カービング競技"
+            },
+            "page": {
+                "title": "パンプキンカービングコンテスト",
+                "loading": "作業をロードしています...",
+                "participate": "参加する",
+                "already-participated": "",
+                "delete-confirmation": "{username} の「{name}」を削除してもよろしいですか？",
+                "like": "いいね!",
+                "already-liked": "私はそれが好き",
+                "unlike": "良くない",
+                "refresh": "リフレッシュ",
+                "load-more": "さらに読み込む",
+                "sort": {
+                    "mostLikes": "最も人気",
+                    "fewerLikes": "最も人気のない",
+                    "mostRecent": "最新リリース",
+                    "leastRecent": "最も早いリリース"
+                },
+                "likes": {
+                    "you_text": "=> core.ref.you",
+                    "others_link": "=> core.ref.some_others",
+                    "liked_by_self_text": "{users} はこれが好きです",
+                    "liked_by_text": "{users} はこれが好きです|{users} はこれが好きです"
+                }
+            },
+            "modal": {
+                "title": "参加する",
+                "name": "作品に名前を付けます",
+                "submit": "提出する",
+                "tools": {
+                    "circle": "ラウンド",
+                    "square": "スクエア"
+                }
+            },
+            "likes_modal": {
+                "title": "この作品が好きなユーザー"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "view": "作品を見る",
+                "like": "好きな作品",
+                "participate": "競争に参加する",
+                "moderate": "ホスト",
+                "heading": "カービング競技"
+            },
+            "settings": {
+                "maxEntriesPerUser": "",
+                "colorMode": "",
+                "title": ""
+            },
+            "colors": {
+                "simple": "",
+                "all": "",
+                "custom": "",
+                "custom-help": ""
+            }
+        }
+    }
+}

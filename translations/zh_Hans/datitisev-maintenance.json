@@ -2,46 +2,46 @@
     "datitisev-maintenance": {
         "admin": {
             "dashboard": {
-                "enable_maintenance_mode_button": "",
-                "disable_maintenance_mode_button": ""
+                "enable_maintenance_mode_button": "启用维护模式",
+                "disable_maintenance_mode_button": "禁用维护模式"
             },
             "settings": {
-                "title": "",
-                "settings_notice": "",
-                "allow_bypass_label": "",
-                "allow_bypass_hint": "",
-                "prefer_db_label": "",
-                "prefer_db_hint": "",
-                "active_label": "",
-                "disable_admin_label": "",
-                "disable_api_label": "",
-                "title_label": "",
-                "message_label": "",
-                "error_page_file_label": "",
-                "error_page_file_hint": "",
-                "error_page_label": "",
-                "error_page_hint": ""
+                "title": "维护模式",
+                "settings_notice": "这些设置可能不是当前已生效的设置。请确保它们没有被 <code>config.php</code> 覆盖。",
+                "allow_bypass_label": "允许使用权限绕过论坛和 API 维护",
+                "allow_bypass_hint": "如果数据库无法访问，则无法绕过。适用于论坛和 API（除非通过 <code>config.php</code> 完全禁用 API）。如果禁用此项，管理员仍然可以访问 API 以防止自己被锁定（除非 API 被完全禁用）。",
+                "prefer_db_label": "优先使用数据库设置覆盖 <code>config.php</code> 设置",
+                "prefer_db_hint": "通常，<code>config.php</code> 中的值会覆盖这里的值。启用这个选项可以使这些选项覆盖配置文件中的选项——所以这些选项只会在数据库无法访问时使用。",
+                "active_label": "维护模式状态",
+                "disable_admin_label": "禁用管理员访问权限",
+                "disable_api_label": "禁用所有 API 访问权限",
+                "title_label": "错误页面标题",
+                "message_label": "错误页面消息",
+                "error_page_file_label": "错误页面文件路径",
+                "error_page_file_hint": "Flarum 根目录下的路径——也就是存放 <code>vendor</code> 和 <code>storage</code> 文件夹的地方。",
+                "error_page_label": "错误页面 HTML/Blade",
+                "error_page_hint": "您可以在 blade 中使用 $app、$translator、$settings、$title 和 $message 变量。"
             },
             "permissions": {
-                "allow_bypass_maintenance_label": ""
+                "allow_bypass_maintenance_label": "绕过维护模式（必须启用设置）"
             }
         },
         "lib": {
-            "maintenance_active_message": "",
-            "maintenance_active_not_db_message": "",
-            "maintenance_active_disabled_api_message": ""
+            "maintenance_active_message": "论坛正在维护中。",
+            "maintenance_active_not_db_message": "维护模式通过 <code>config.php</code> 启用。",
+            "maintenance_active_disabled_api_message": "目前 API 以向所有人禁用。"
         },
         "views": {
             "error": {
-                "title": "",
-                "message": ""
+                "title": "维护",
+                "message": "我们正在进行一些维护，很快就会重新上线！"
             }
         }
     },
     "core": {
         "lib": {
             "error": {
-                "maintenance_message": ""
+                "maintenance_message": "论坛目前处于维护模式。"
             }
         }
     }

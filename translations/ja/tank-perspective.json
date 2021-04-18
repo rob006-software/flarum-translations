@@ -1,0 +1,32 @@
+{
+    "tank-perspective": {
+        "admin": {
+            "settings": {
+                "title": "Perspective 設定",
+                "donotstore": "保存されていません",
+                "usemax": "最高の評価を使用する",
+                "useexperimental": "実験モデルの使用",
+                "field": {
+                    "api_key": "API Key",
+                    "threshold": "しきい値",
+                    "toxicity": "有毒",
+                    "threat": "脅威",
+                    "profanity": "言葉を誓う",
+                    "sexually_explicit": "エロチック",
+                    "flirtation": "いじめる"
+                },
+                "api_key_help": "",
+                "threshold_help": "",
+                "maxscore_help": "",
+                "donotstore_help": "",
+                "experimental_help": ""
+            }
+        },
+        "forum": {
+            "post": {
+                "not_toxic_button": "承認",
+                "perspective_flagged_text": "Perspective による自動レビュー"
+            }
+        }
+    }
+}

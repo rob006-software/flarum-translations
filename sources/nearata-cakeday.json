@@ -1,0 +1,37 @@
+{
+    "nearata-cakeday": {
+        "admin": {
+            "permissions": {
+                "can_view_anniversaries_page": "View anniversaries page"
+            },
+            "settings": {
+                "anniversaries_page_label": "Enable Anniversaries Page",
+                "cake_bg_color_label": "Background Color",
+                "cake_bg_color_help": "Help: This setting changes the background color of the cake. Leave empty to default.",
+                "cake_txt_color_label": "Icon Color",
+                "cake_txt_color_help": "Help: This setting changes the text color of the cake. Leave empty to default.",
+                "new_members": "Show a cake icon on new members",
+                "new_members_howlong": "(New Members) For how long",
+                "new_members_howlong_help": "Expressed in days.",
+                "new_members_changelabel": "(New Members) Change the label to: New Member"
+            }
+        },
+        "forum": {
+            "anniversary": "Anniversary",
+            "new_member_label": "New Member",
+            "page": {
+                "anniversaries_between_label": "Anniversaries between {date1} and {date2}",
+                "anniversaries_for_label": "Anniversaries for {date}",
+                "empty": "No anniversaries.",
+                "filter_options": {
+                    "today": "Today",
+                    "tomorrow": "Tomorrow",
+                    "upcoming": "Upcoming",
+                    "all": "All"
+                },
+                "load_more_button": "Load more",
+                "title": "Anniversaries"
+            }
+        }
+    }
+}

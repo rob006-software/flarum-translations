@@ -1,0 +1,39 @@
+{
+    "clarkwinkelmann-popular-discussion-badge": {
+        "forum": {
+            "badge_label": "Popüler"
+        },
+        "admin": {
+            "settings": {
+                "mode": "Çalışma modu",
+                "mode_help": "Frontend modu veritabanını kullanmayan verimli bir çözümdür.  Zamanlayıcı modu bir CRON kurulumu gerektirir ve koşullardaki zaman çerçevelerine izin verir.\n",
+                "mode_options": {
+                    "frontend": "Frontend",
+                    "scheduler": "Zamanlayıcı (CRON)"
+                },
+                "scheduler_frequency": "Zamanlayıcı modu için aralık",
+                "scheduler_frequency_help": "Zamanlayıcı (CRON) modunda ne sıklıkta güncelleneceği. (Frontend modunda, hemen güncellenir)\n",
+                "scheduler_frequency_options": {
+                    "everyFiveMinutes": "Her 5 dakikada bir",
+                    "everyTenMinutes": "Her 10 dakikada bir",
+                    "everyFifteenMinutes": "Her 15 dakikada bir",
+                    "everyThirtyMinutes": "Her 30 dakikada bir",
+                    "hourly": "Saatte bir kez"
+                },
+                "conditions": "Popüler rozet koşulları",
+                "conditions_help": "Yorumlar, ilk gönderi dahil toplam yorum gönderisi sayısıdır. Görüntülenmeler, MichaelBelgium veya Flarumite uzantılarından alınır. Verilen zaman dilimi, son n saat içinde yorumları veya görünümleri saymak için kullanılacaktır. Zaman dilimleri görünümleri için yalnızca MichaelBelgium uzantısı desteklenir. Zaman dilimini boş bırakın veya tüm yorumları veya görünümleri saymak için 0 saat ayarlayın.\n",
+                "add": "Yeni bir koşul ekle",
+                "comments": "Yanıtlar",
+                "comments_placeholder": "0",
+                "views": "Görüntülenmeler",
+                "views_placeholder": "0",
+                "within": "içinde",
+                "within_placeholder": "tüm",
+                "hours": "s",
+                "and": "VE",
+                "or": "VEYA",
+                "title": "Popüler tartışmalar rozeti ayarları"
+            }
+        }
+    }
+}

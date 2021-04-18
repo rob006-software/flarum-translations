@@ -2,63 +2,73 @@
     "fof-follow-tags": {
         "forum": {
             "settings": {
-                "notify_new_discussion_label": "我关注的标签有新主题",
+                "notify_new_discussion_label": "我关注的标签有新建主题",
                 "notify_new_post_label": "我关注的标签有新回复",
-                "notify_new_discussion_tag_label": ""
+                "notify_new_discussion_tag_label": "有人将主题添加到我关注的标签"
             },
             "index": {
                 "follow_tag_button": "关注",
                 "unfollow_tag_button": "取消关注",
                 "following": {
-                    "following_none_label": "",
-                    "following_all_label": "",
-                    "following_tags_label": ""
+                    "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                    "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags",
+                    "following_all_label": "=> fof-follow-tags.ref.filtering_options.all"
                 }
             },
             "badge": {
-                "following_tag_tooltip": "",
-                "lurking_tag_tooltip": ""
+                "following_tag_tooltip": "关注中",
+                "lurking_tag_tooltip": "吃瓜中"
             },
             "sub_controls": {
                 "follow_button": "=> fof-follow-tags.ref.follow",
                 "following_button": "=> fof-follow-tags.ref.following",
-                "following_text": "有新主题时提醒",
+                "following_text": "有新主题时提醒。",
                 "hiding_button": "=> fof-follow-tags.ref.hiding",
-                "hiding_text": "在全部主题页面中隐藏旗下主题",
+                "hiding_text": "在全部主题页面中隐藏旗下主题。",
                 "ignoring_button": "=> fof-follow-tags.ref.ignoring",
-                "ignoring_text": "从不提醒",
+                "ignoring_text": "从不提醒。",
                 "lurking_button": "=> fof-follow-tags.ref.lurking",
-                "lurking_text": "有新主题或新回复时提醒",
+                "lurking_text": "有新主题或新回复时提醒。",
                 "not_following_button": "不关注",
-                "not_following_text": "仅当有人提到我时提醒",
+                "not_following_text": "仅当有人提及我时提醒。",
                 "notify_alert_tooltip": "有新主题或新回复时推送论坛提醒",
                 "notify_email_tooltip": "有新主题或新回复时发送邮件提醒"
             },
             "notifications": {
                 "new_discussion_text": "{username} 发布了新主题",
                 "new_post_text": "{username} 发布了新回复",
-                "new_discussion_tag_text": ""
+                "new_discussion_tag_text": "{username} 修改了标签"
             },
             "user": {
                 "settings": {
-                    "heading": "",
-                    "filter_label": ""
+                    "heading": "关注标签",
+                    "filter_label": "在「我的关注」中默认显示的内容"
                 }
             }
         },
         "admin": {
             "settings": {
-                "title": "",
-                "following_page_default_label": "",
-                "following_none_label": "",
-                "following_tags_label": "",
-                "following_all_label": ""
+                "following_page_default_label": "「我的关注」默认内容",
+                "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags",
+                "title": "FriendsOfFlarum 关注标签",
+                "following_all_label": "=> fof-follow-tags.ref.filtering_options.all"
             }
         },
         "email": {
-            "newDiscussionInTag": "[节点 | 新主题] 标题",
-            "newPostInTag": "[节点 | 新回复] 标题",
-            "newDiscussionTag": ""
+            "subject": {
+                "newDiscussionInTag": "【标签新主题】{title}",
+                "newPostInTag": "【标签新回复】{title}",
+                "newDiscussionTag": "【标签变更】{title}"
+            },
+            "body": {
+                "newDiscussionInTag": "{recipient_display_name}，你好！\n\n{actor_display_name} 发布新主题于你关注的标签：{discussion_title}\n\n点击下方链接查看主题帖：\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newPostInTag": "{recipient_display_name}，你好！\n\n{actor_display_name} 发表回复于你关注的标签：{discussion_title}\n\n点击下方链接查看主题新动态：\n{post_url}\n\n---\n\n{post_content}\n\n---\n\n在您跟上最新进度前，您不会再收到有关此主题的更多通知。\n",
+                "newDiscussionTag": "{recipient_display_name}，你好！\n\n{actor_display_name} 刚刚将 {author_display_name} 的主题标签变更为你关注的标签：{discussion_title}\n\n点击下方链接查看主题帖：\n{discussion_url}\n"
+            },
+            "newDiscussionInTag": "[Tag | New Discussion] title",
+            "newPostInTag": "[Tag | New Post] title",
+            "newDiscussionTag": "[Tag | Changed Tag] title"
         },
         "ref": {
             "follow": "关注",
@@ -67,9 +77,9 @@
             "ignoring": "忽视中",
             "lurking": "吃瓜中",
             "filtering_options": {
-                "none": "",
-                "all": "",
-                "tags": ""
+                "none": "关注的主题",
+                "tags": "关注的标签",
+                "all": "所有关注"
             }
         }
     }

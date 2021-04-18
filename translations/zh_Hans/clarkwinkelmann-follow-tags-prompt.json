@@ -1,0 +1,32 @@
+{
+    "clarkwinkelmann-follow-tags-prompt": {
+        "forum": {
+            "controls": {
+                "choose": "选择要关注的标签"
+            },
+            "modal": {
+                "title": "选择要关注的标签",
+                "later": "稍后提醒我",
+                "continue": "继续浏览论坛"
+            }
+        },
+        "admin": {
+            "settings": {
+                "buttonOnFollowingPage": "在关注页面显示按钮",
+                "allDiscussionsOnFollowingPageForGuests": "给访客在关注页面显示所有主题帖",
+                "availableTagStrategy": "供用户选择的标签",
+                "tagStrategy": {
+                    "primary": "一级主标签",
+                    "primaryAndChildren": "任何级别的主标签",
+                    "primaryAndSecondary": "一级主标签和次标签",
+                    "secondary": "仅次标签",
+                    "all": "所有标签",
+                    "list": "已选择标签"
+                }
+            },
+            "homepage": {
+                "following": "正在关注"
+            }
+        }
+    }
+}

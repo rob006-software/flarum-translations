@@ -2,7 +2,7 @@
     "fof-subscribed": {
         "forum": {
             "settings": {
-                "defaults_label": "默认启用设置「{setting}」",
+                "defaults_label": "将「{setting}」设为默认开启",
                 "forced_label": "强制对所有用户开启「{setting}」",
                 "notify_discussion_created_label": "有新主题",
                 "notify_post_unapproved_label": "有帖子需要审核",
@@ -21,7 +21,19 @@
             "permission": {
                 "subscribe_to_discussion_created": "允许用户接收新主题通知",
                 "subscribe_to_post_unapproved": "允许用户接收新主题审核通知",
-                "subscribe_to_user_created": "允许用户接收新注册通知"
+                "subscribe_to_user_created": "允许用户接收新人注册通知"
+            }
+        },
+        "email": {
+            "subject": {
+                "newDiscussion": "【新主题】{title}",
+                "newUser": "【新用户】{username}",
+                "postUnapproved": "【审核通知】{username} 发表回复于 {title}"
+            },
+            "body": {
+                "newDiscussion": "{recipient_display_name}，你好！\n\n{actor_display_name} 发布了一个主题：{discussion_title}\n\n点击下方链接查看主题帖：\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newUser": "{recipient_display_name}，你好！\n\n{actor_display_name} 刚刚加入 {forum_url}。\n\n点击下方链接查看用户资料：\n{user_url}\n",
+                "postUnapproved": "{recipient_display_name}，你好！\n\n{actor_display_name} 发表于 {discussion_title} 的回复需要人工审核。\n\n点击下方链接查看回复内容：\n{post_url}\n\n---\n\n{post_content}\n"
             }
         }
     }

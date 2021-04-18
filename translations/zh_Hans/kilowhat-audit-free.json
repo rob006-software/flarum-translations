@@ -2,142 +2,145 @@
     "kilowhat-audit": {
         "admin": {
             "permissions": {
-                "view": ""
-            },
-            "menu": {
-                "title": "",
-                "description": ""
+                "view": "查看审计日志"
             },
             "header": {
-                "title": "",
-                "free": "",
-                "pro": "",
-                "upgrade": "",
-                "documentation": "",
-                "discuss": "",
-                "version": ""
+                "title": "审计",
+                "free": "免费版",
+                "pro": "专业版",
+                "upgrade": "升级到专业版",
+                "documentation": "完整的在线文档",
+                "discuss": "Flarum 社区发布帖",
+                "version": "版本 {version}"
+            },
+            "menu": {
+                "title": "审计日志",
+                "description": "审查近期的论坛活动。"
             }
         },
         "forum": {
             "link": {
-                "discussion-audit": "",
-                "user-audit": "",
-                "actor-audit": ""
+                "discussion-audit": "审计日志",
+                "user-audit": "审计日志（账户编辑）",
+                "actor-audit": "审计日志（用户作为行为人）"
             },
             "modal": {
-                "discussion-title": "",
-                "user-title": "",
-                "actor-title": ""
+                "discussion-title": "讨论审计日志",
+                "user-title": "用户审计日志",
+                "actor-title": "行为人审计日志"
             }
         },
         "lib": {
             "browser": {
-                "filterPlaceholder": "",
-                "filterApply": "",
-                "empty": "",
-                "loadMore": "",
-                "withoutActor": "",
+                "filterPlaceholder": "筛选日志",
+                "filterApply": "筛选",
+                "empty": "暂无记录",
+                "loadMore": "加载更多",
+                "withoutActor": "=> core.group.guest",
                 "deletedResource": {
-                    "discussion": "",
-                    "group": "",
-                    "post": "",
-                    "tag": "",
-                    "user": ""
+                    "discussion": "主题 #{id}",
+                    "group": "用户组 #{id}",
+                    "post": "回复 #{id}",
+                    "tag": "标签 #{id}",
+                    "user": "用户 #{id}"
                 },
                 "genericResource": {
-                    "comment": "",
-                    "post": ""
+                    "comment": "回复",
+                    "post": "回复"
                 },
                 "permissionGroup": {
-                    "everyone": "",
-                    "members": ""
+                    "everyone": "=> core.admin.permissions_controls.everyone_button",
+                    "members": "=> core.admin.permissions_controls.members_button"
                 },
-                "noValue": "",
+                "noValue": "（无值）",
+                "noReason": "（无原因）",
                 "client": {
-                    "session": "",
-                    "api_key": "",
-                    "access_token": "",
-                    "cli": "",
-                    "unknown": ""
+                    "session": "Web Session",
+                    "api_key": "API key",
+                    "access_token": "Access token",
+                    "cli": "命令行",
+                    "unknown": "未知客户端"
                 },
                 "controls": {
-                    "hideRaw": "",
-                    "showRaw": "",
-                    "filterActor": "",
-                    "filterIp": "",
-                    "filterClient": "",
-                    "filterAction": "",
-                    "filterUser": "",
-                    "filterDiscussion": ""
+                    "hideRaw": "隐藏原始日志",
+                    "showRaw": "显示原始日志",
+                    "filterActor": "筛选行为人",
+                    "filterIp": "筛选 IP",
+                    "filterClient": "筛选客户类型",
+                    "filterAction": "筛选同类型活动",
+                    "filterUser": "筛选受影响的同一用户",
+                    "filterDiscussion": "筛选受影响的同一主题"
                 },
-                "cache_cleared": "",
+                "cache_cleared": "手动清除缓存",
                 "discussion": {
-                    "created": "",
-                    "create_date_changed": "",
-                    "deleted": "",
-                    "hidden": "",
-                    "locked": "",
-                    "renamed": "",
-                    "restored": "",
-                    "split_away": "",
-                    "split_into": "",
-                    "stickied": "",
-                    "tagged": "",
-                    "unlocked": "",
-                    "unstickied": "",
-                    "user_changed": ""
+                    "created": "发布主题 {discussion}",
+                    "create_date_changed": "修改 {discussion} 的发布时间 {old_date} 为 {new_date}",
+                    "deleted": "删除主题 {discussion}",
+                    "hidden": "隐藏主题 {discussion}",
+                    "locked": "锁定主题 {discussion}",
+                    "renamed": "重命名主题 {old_title} 为 {new_title}",
+                    "restored": "恢复主题 {discussion}",
+                    "split_away": "拆分出 {post_count} 条回复从 {discussion}",
+                    "split_into": "拆分 {post_count} 条回复至 {discussion}",
+                    "stickied": "置顶主题 {discussion}",
+                    "tagged": "更新 {discussion} 的标签 {old_tags} 为 {new_tags}",
+                    "unlocked": "解除锁定 {discussion}",
+                    "unstickied": "取消置顶 {discussion}",
+                    "user_changed": "变更 {discussion} 的作者 {old_user} 为 {new_user}"
                 },
                 "extension": {
-                    "disabled": "",
-                    "enabled": ""
+                    "disabled": "禁用插件 {package}",
+                    "enabled": "启用插件 {package}"
                 },
                 "fof_ban_ips": {
-                    "banned": "",
-                    "unbanned": ""
+                    "banned": "拉黑 IP {ip}",
+                    "unbanned": "取消拉黑 IP {ip}"
                 },
-                "permission_changed": "",
+                "permission_changed": "修改 {permission} 权限 {old_groups} 为 {new_groups}",
                 "post": {
-                    "created": "",
-                    "create_date_changed": "",
-                    "deleted": "",
-                    "edit_date_changed": "",
-                    "flagged": "",
-                    "hidden": "",
-                    "restored": "",
-                    "revised": "",
-                    "user_changed": ""
+                    "approved": "批准 {postuser} 在 {discussion} 发布的 {post}",
+                    "created": "发表回复 {post} 于 {discussion}",
+                    "create_date_changed": "修改 {postuser} 的 {post} 回复时间 {old_date} 为 {new_date}",
+                    "deleted": "删除 {postuser} 在 {discussion} 中的 {post}",
+                    "dismissed_flags": "撤销举报 {postuser} 在 {discussion} 发布的 {post}",
+                    "edit_date_changed": "修改 {postuser} 的 {post} 编辑时间 {old_date} 为 {new_date}",
+                    "flagged": "举报 {postuser} 在 {discussion} 中的 {post}，原因：{reason}",
+                    "hidden": "隐藏 {postuser} 在 {discussion} 中的 {post}",
+                    "restored": "恢复 {postuser} 在 {discussion} 中的 {post}",
+                    "revised": "修订 {postuser} 在 {discussion} 中的 {post}",
+                    "user_changed": "变更 {post} 的作者 {old_user} 为 {new_user}"
                 },
-                "setting_changed": "",
-                "setting_changed_with_values": "",
+                "setting_changed": "修改设置 {key}",
+                "setting_changed_with_values": "修改 {key} 设置 {old_value} 为 {new_value}",
                 "tag": {
-                    "created": "",
-                    "deleted": "",
-                    "updated": ""
+                    "created": "创建标签 {tag}",
+                    "deleted": "删除标签 {tag}",
+                    "updated": "更新标签 {tag}"
                 },
                 "user": {
-                    "activated": "",
-                    "activated_with_email": "",
-                    "avatar_changed": "",
-                    "avatar_removed": "",
-                    "bio_changed": "",
-                    "created": "",
-                    "deleted": "",
-                    "email_changed": "",
-                    "email_change_requested": "",
-                    "groups_changed": "",
-                    "impersonated": "",
-                    "logged_in": "",
-                    "logged_in_with_provider": "",
-                    "logged_out": "",
-                    "password_changed": "",
-                    "password_change_requested": "",
-                    "provider_connected": "",
-                    "suspended": "",
-                    "unsuspended": "",
-                    "username_changed": "",
-                    "username_requested": "",
-                    "username_request_approved": "",
-                    "username_request_rejected": ""
+                    "activated": "手动激活 {username} 的账户",
+                    "activated_with_email": "通过验证链接激活 {username} 的账户",
+                    "avatar_changed": "更换 {username} 的头像",
+                    "avatar_removed": "移除 {username} 的头像",
+                    "bio_changed": "修改 {username} 的个性签名",
+                    "created": "创建 {username} 的账户",
+                    "deleted": "删除用户 {username}",
+                    "email_changed": "变更 {username} 的邮箱 {old_email} 为 {new_email}",
+                    "email_change_requested": "请求变更 {username} 的邮箱为 {new_email}",
+                    "groups_changed": "变更 {username} 的用户组 {old_groups} 为 {new_groups}",
+                    "impersonated": "以 {username} 身份扮演登录",
+                    "logged_in": "登录 {username} 账户",
+                    "logged_in_with_provider": "使用 {provider} 登录到 {username} 账户",
+                    "logged_out": "退出登录 {username} 账户",
+                    "password_changed": "修改 {username} 的密码",
+                    "password_change_requested": "请求修改 {username} 的密码",
+                    "provider_connected": "连接提供商 {provider} 到 {username} 账户",
+                    "suspended": "封禁 {username} 到 {until}",
+                    "unsuspended": "解除封禁 {username}",
+                    "username_changed": "变更 {username} 用户名 {old_username} 为 {new_username}",
+                    "username_requested": "请求变更 {username} 用户名为 {new_username}",
+                    "username_request_approved": "批准 {username} 用户名 {old_username} 变更为 {new_username}",
+                    "username_request_rejected": "拒绝 {username} 的用户名变更请求"
                 }
             }
         }

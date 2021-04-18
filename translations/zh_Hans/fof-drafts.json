@@ -3,52 +3,53 @@
         "admin": {
             "permissions": {
                 "start": "新建草稿",
-                "schedule": ""
+                "schedule": "定时发布"
             },
             "settings": {
-                "title": "",
-                "enable_scheduled_drafts": "",
-                "schedule_on_one_server": "",
-                "schedule_log_output": ""
+                "title": "FoF 草稿箱",
+                "enable_scheduled_drafts": "启用定时发布功能",
+                "schedule_on_one_server": "将使用 onOneServer() 方法用于计划任务（需要 Redis/Memcache）",
+                "schedule_log_output": "保存计划任务日志"
             }
         },
         "console": {
-            "scheduled_drafts_disabled": ""
+            "scheduled_drafts_disabled": "定时发布功能已被禁用。"
         },
         "forum": {
             "composer": {
                 "title": "保存草稿",
-                "saving": "",
-                "saved": "",
+                "saving": "正在保存……",
+                "saved": "保存成功！",
                 "exit_alert": "确定放弃对草稿的更改吗？",
-                "discard_empty_draft_alert": "",
+                "discard_empty_draft_alert": "丢弃空草稿？",
                 "alert": "草稿已保存。"
             },
             "dropdown": {
-                "empty_text": "你还没有草稿",
+                "empty_text": "您还没有草稿",
                 "title": "草稿",
-                "delete_button": "",
-                "schedule_button": "",
+                "delete_button": "删除草稿",
+                "schedule_button": "定时发布",
                 "tooltip": "=> fof-drafts.forum.dropdown.title",
                 "alert": "确定要删除草稿吗？",
+                "delete_all_alert": "确定要删除所有草稿吗？",
                 "button": "删除草稿"
             },
             "schedule_draft_modal": {
-                "title": "",
-                "text": "",
-                "scheduled_text": "",
-                "scheduled_error": "",
-                "unschedule_button": "",
-                "reschedule_button": "",
-                "schedule_button": ""
+                "title": "定时发布",
+                "text": "选择一个稍后的时间自动发布您的草稿！",
+                "scheduled_text": "定时发布于 {datetime}。",
+                "scheduled_error": "发布失败：{error}。",
+                "unschedule_button": "取消定时",
+                "reschedule_button": "重新定时",
+                "schedule_button": "定时"
             },
             "user": {
                 "settings": {
-                    "drafts_heading": "",
-                    "draft_autosave_enable": "",
-                    "draft_autosave_interval_label": "",
-                    "draft_autosave_interval_button": "",
-                    "draft_autosave_interval_invalid": ""
+                    "drafts_heading": "草稿箱",
+                    "draft_autosave_enable": "自动保存草稿",
+                    "draft_autosave_interval_label": "自动保存频率（秒）",
+                    "draft_autosave_interval_button": "更新频率",
+                    "draft_autosave_interval_invalid": "请输入大于4的整数。"
                 }
             }
         }

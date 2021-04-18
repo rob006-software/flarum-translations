@@ -1,0 +1,37 @@
+{
+    "fof-discussion-language": {
+        "forum": {
+            "change_language": {
+                "edit_title": "「{title}」の言語を設定",
+                "title": "言語を選択",
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "composer_discussion": {
+                "choose_language_link": "言語"
+            },
+            "discussion_controls": {
+                "change_language_button": "設定言語"
+            },
+            "index_language": {
+                "any": "すべての言語"
+            }
+        },
+        "admin": {
+            "settings": {
+                "native_label": "母語を使う",
+                "show_flag_label": "",
+                "composer_default_label": "",
+                "locale_sort_label": "",
+                "title": "FoF スレッド言語"
+            },
+            "permissions": {
+                "allow_change_language_label": "許可された編集言語"
+            }
+        },
+        "api": {
+            "discussion": {
+                "validation_error": "スレッドの言語を指定する必要があります。"
+            }
+        }
+    }
+}

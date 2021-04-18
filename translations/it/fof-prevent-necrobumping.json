@@ -1,0 +1,26 @@
+{
+    "fof-prevent-necrobumping": {
+        "forum": {
+            "composer": {
+                "warning": {
+                    "title": "Questa discussione è più vecchia di <b> {time} </b>.",
+                    "description": "È molto probabile che non abbia bisogno di ulteriori risposte e quindi un up non servirebbe a nulla.",
+                    "checkbox_label": "Sono consapevole che questa discussione è piuttosto vecchia, ma vorrei comunque rispondere.",
+                    "error": "Questa discussione è troppo vecchia per rispondere."
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "days_label": "Giorni",
+                "days_help": "Una discussione verrà contrassegnata come vecchia quando il numero di giorni specificato è trascorso dall'ultimo post di quella discussione è stato pubblicato. Usa <code> 0 </code> per disabilitarlo di default.",
+                "message_title_label": "Titolo messaggio personalizzato",
+                "message_title_help": "Utilizza <code> [time] </code> per il testo dell'ora, ad es. \"14 giorni\".",
+                "message_description_label": "Descrizione messaggio personalizzato",
+                "message_agreement_label": "Regole di accettazione personalizzate (Checkbox)",
+                "tags_title": "Tag",
+                "tags_help": "Sostituisci i giorni globali per un tag specifico. Vuoto significa utilizzare il valore predefinito. Se una discussione ha più tag con valori di giorno diversi, utilizzerà il numero minimo di giorni configurato."
+            }
+        }
+    }
+}

@@ -2,175 +2,175 @@
     "datitisev-backup": {
         "admin": {
             "adapters": {
-                "local": "",
-                "aliyun": "",
-                "azure": "",
-                "aws": "",
-                "dospaces": "",
-                "dropbox": "",
-                "gdrive": "",
-                "ftp": "",
-                "gridfs": "",
-                "rackspace": "",
-                "sftp": "",
-                "webdav": "",
-                "zip": ""
+                "local": "Yerel depolama",
+                "aliyun": "Alibaba Cloud (Aliyun)",
+                "azure": "Microsoft Azure",
+                "aws": "Amazon AWS S3",
+                "dospaces": "Digital Ocean Spaces",
+                "dropbox": "Dropbox",
+                "gdrive": "Google Drive",
+                "ftp": "FTP",
+                "gridfs": "GridFS",
+                "rackspace": "Rackspace",
+                "sftp": "SFTP",
+                "webdav": "Webdav",
+                "zip": "Zip Arşivi"
             },
-            "settings_button": "",
-            "required_package_button": "",
+            "settings_button": "Yapılandır",
+            "required_package_button": "Kur",
             "you-need-for": {
-                "aliyun": "",
-                "azure": "",
-                "aws": "",
-                "copy": "",
-                "dospaces": "",
-                "dropbox": "",
-                "gdrive": "",
-                "gridfs": "",
-                "rackspace": "",
-                "sftp": "",
-                "webdav": ""
+                "aliyun": "aliyuncs/aliyun-oss-flysystem",
+                "azure": "league/flysystem-azure",
+                "aws": "league/flysystem-aws-s3-v3",
+                "copy": "league/flysystem-copy\n",
+                "dospaces": "league/flysystem-aws-s3-v3",
+                "dropbox": "spatie/flysystem-dropbox",
+                "gdrive": "nao-pon/flysystem-google-drive",
+                "gridfs": "league/flysystem-gridfs",
+                "rackspace": "league/flysystem-rackspace",
+                "sftp": "league/flysystem-sftp",
+                "webdav": "league/flysystem-webdav"
             },
             "required-package-modal": {
-                "title": "",
-                "content": ""
+                "title": "{adapter} için bir paket gerekli",
+                "content": "Bu seçeneği kullanmak için belirli bir paket yüklemeniz gerekir. Aşağıdaki düzenleyici komutunu çalıştırarak bunu yapabilirsiniz. Flarum kurulum dizininizde: <code> composer require {package} </code>.\n"
             },
             "adapter-settings-modal": {
-                "title": "",
+                "title": "{adapter} yapılandırın",
                 "local": {
                     "target": {
-                        "label": "",
-                        "description": ""
+                        "label": "Hedef yol",
+                        "description": "Yedeklemelerin kaydedileceği yerel dizini belirtin."
                     }
                 },
                 "aliyun": {
                     "endpoint": {
-                        "label": "",
-                        "description": ""
+                        "label": "Uç nokta",
+                        "description": "Depolama uç noktanızın bağlantısı."
                     },
                     "access-id": {
-                        "label": "",
-                        "description": ""
+                        "label": "Erişim Kimliği",
+                        "description": "Kimlik doğrulama Erişim token kimliğiniz"
                     },
                     "access-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "Erişim anahtarı",
+                        "description": "Kimlik doğrulama Erişim token Anahtarınız"
                     },
                     "bucket": {
-                        "label": "",
-                        "description": ""
+                        "label": "Bucket",
+                        "description": "Kullanılacak depolama paketi."
                     },
                     "path-prefix": {
-                        "label": "",
-                        "description": ""
+                        "label": "Yol öneki",
+                        "description": "Dosyalar için isteğe bağlı varsayılan yol öneki."
                     }
                 },
                 "azure": {
                     "endpoint": {
-                        "label": "",
-                        "description": ""
+                        "label": "Uç nokta",
+                        "description": "Depolama uç noktanızın URL'si."
                     },
                     "container": {
-                        "label": "",
-                        "description": ""
+                        "label": "Taşıyıcı",
+                        "description": "Azure taşıyıcı"
                     }
                 },
                 "aws": {
                     "credentials": {
                         "key": {
-                            "label": "",
-                            "description": ""
+                            "label": "Anahtar",
+                            "description": "AWS kimlik bilgileri anahtarı"
                         },
                         "secret": {
-                            "label": "",
-                            "description": ""
+                            "label": "Gizli",
+                            "description": "AWS credentials secret"
                         }
                     },
                     "region": {
-                        "label": "",
-                        "description": ""
+                        "label": "Bölge",
+                        "description": "Depolamanızın bölgesi."
                     },
                     "version": {
-                        "label": "",
-                        "description": ""
+                        "label": "Sürüm",
+                        "description": "Bir sürüm belirtin veya en son sürüm için boş bırakın."
                     },
                     "bucket": {
-                        "label": "",
-                        "description": ""
+                        "label": "Bucket",
+                        "description": "Yüklenecek S3 klasörü."
                     },
                     "path-prefix": {
-                        "label": "",
-                        "description": ""
+                        "label": "Yol öneki",
+                        "description": "Dosyalar için isteğe bağlı varsayılan yol öneki."
                     }
                 },
                 "dropbox": {
                     "access-token": {
-                        "label": "",
-                        "description": ""
+                        "label": "Erişim tokeni",
+                        "description": "https://www.dropbox.com/developers/apps adresinde bir oAuth 2 erişim jetonu oluşturun."
                     }
                 },
                 "gdrive": {
                     "client": {
                         "id": {
-                            "label": "",
-                            "description": ""
+                            "label": "Client ID\n",
+                            "description": "Bir Google projesi oluşturmak ve almak için @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md talimatlarını izleyin. Sizin Client ID ve Client Secret değerlerinizi kaydedin."
                         },
                         "secret": {
-                            "label": "",
-                            "description": ""
+                            "label": "Client Secret",
+                            "description": " "
                         }
                     },
                     "refresh-token": {
-                        "label": "",
-                        "description": ""
+                        "label": "Tokeni Yenile",
+                        "description": "Google oAuth uygulamanız için yenileme jetonunu almak için @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md talimatlarını izleyin."
                     },
                     "folder": {
-                        "label": "",
-                        "description": ""
+                        "label": "Klasör ID'si",
+                        "description": "https://drive.google.com/drive/u/0/folders/ID"
                     }
                 },
                 "ftp": {
                     "host": {
-                        "label": "",
-                        "description": ""
+                        "label": "Uzak ana bilgisayar adı",
+                        "description": "FTP ile bağlanılacak ana bilgisayar adı, örneğin: <em> ftp.yourdomain.local </em>."
                     },
                     "username": {
-                        "label": "",
-                        "description": ""
+                        "label": "Kullanıcı adı",
+                        "description": "FTP sunucusunda kimlik doğrulaması yapılacak kullanıcı adı."
                     },
                     "password": {
-                        "label": "",
-                        "description": ""
+                        "label": "Şifre",
+                        "description": "FTP sunucusunda kimlik doğrulaması yapılacak kullanıcı şifresi."
                     },
                     "private-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "Private Key",
+                        "description": "FTP bağlantısının kimlik doğrulamasında kullanılacak özel bir anahtarın yolu (tercih: absolute)."
                     },
                     "port": {
-                        "label": "",
-                        "description": ""
+                        "label": "Port",
+                        "description": "FTP bağlantı noktası (varsayılan olarak 21'dir)."
                     },
                     "root": {
-                        "label": "",
-                        "description": ""
+                        "label": "Root yolu",
+                        "description": "Yedeklerin depolanacağı uzak root yolu (alt dizin)."
                     },
                     "passive": {
-                        "toggle": "",
-                        "description": ""
+                        "toggle": "Pasif bağlantı",
+                        "description": "Sunucuya pasif bir FTP bağlantısı kullanılıp kullanılmayacağı."
                     },
                     "ssl": {
-                        "toggle": "",
-                        "description": ""
+                        "toggle": "SSL",
+                        "description": "Sunucuya şifrelenmiş bir SSL bağlantısı kullanılıp kullanılmayacağı."
                     },
                     "timeout": {
-                        "label": "",
-                        "description": ""
+                        "label": "Zaman aşımı",
+                        "description": "FTP sunucusuyla bir bağlantı için beklenecek saniye sayısı."
                     }
                 }
             },
             "nav": {
-                "label": "",
-                "description": ""
+                "label": "Yedekleme",
+                "description": "Forumunuzun kopyalarını saklayın."
             }
         }
     }

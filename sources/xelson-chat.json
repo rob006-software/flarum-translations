@@ -1,6 +1,10 @@
 {
-    "pushedx-chat": {
+    "xelson-chat": {
         "forum": {
+            "pusher_not_found": "Pusher or Websockets is required for chat to update in real time.",
+            "index": {
+                "chat_link": "Chat"
+            },
             "toolbar": {
                 "title": "Chat",
                 "enable_sounds": "Enable sounds",
@@ -8,20 +12,149 @@
                 "enable_notifications": "Enable notifications",
                 "disable_notifications": "Disable notifications",
                 "minimize": "Minimize",
-                "maximize": "Maximize"
+                "maximize": "Maximize",
+                "chat": {
+                    "settings": "Chat settings"
+                }
             },
             "chat": {
+                "welcome": {
+                    "header": "Welcome to Neon Chat!",
+                    "subheader": "Please select a chat on the left for the conversation"
+                },
+                "moder": "Moderator",
+                "kick": "Kick",
+                "leave": "Leave",
+                "rejoin": "Rejoin",
+                "edit_modal": {
+                    "title": "Chat settings",
+                    "moderator": {
+                        "got": "You just received Moderator rights in the chat {chatname}!",
+                        "lost": "You just lost your Moderator rights in the chat {chatname}."
+                    },
+                    "form": {
+                        "title": {
+                            "label": "Chat name",
+                            "validator": "At least 1 symbol"
+                        },
+                        "color": {
+                            "label": "Color",
+                            "validator": "In hex format"
+                        },
+                        "icon": {
+                            "label": "=> core.ref.icon",
+                            "validator": "=> core.ref.icon_text"
+                        },
+                        "users": {
+                            "edit": "Select and edit users"
+                        },
+                        "leave": "Leave the chat",
+                        "return": "Enter the chat",
+                        "delete": {
+                            "title": "Are you sure you want to delete this chat?",
+                            "desc": "Copy and paste the chat name to continue",
+                            "placeholder": "Chat name",
+                            "button": "Delete chat"
+                        }
+                    },
+                    "search": {
+                        "placeholder": "Search Users",
+                        "failed": "No matching users found",
+                        "invited": "Invited"
+                    },
+                    "save_button": "=> core.ref.save_changes"
+                },
+                "list": {
+                    "pin": "Pin panel",
+                    "unpin": "Unpin panel",
+                    "placeholder": "Filter Chats",
+                    "preview": {
+                        "empty": "No messages"
+                    },
+                    "add_modal": {
+                        "title": "Select users",
+                        "chat": "Chat",
+                        "channel": "Channel",
+                        "create": {
+                            "chat": "Create a new chat",
+                            "channel": "Create a new channel"
+                        },
+                        "alerts": {
+                            "exists": "You can't create another PM with this user!"
+                        },
+                        "form": {
+                            "title": {
+                                "chat": "Chat name",
+                                "channel": "Channel name",
+                                "validator": "At least 1 symbol"
+                            },
+                            "icon": {
+                                "label": "=> core.ref.icon",
+                                "validator": "=> core.ref.icon_text"
+                            },
+                            "color": {
+                                "label": "=> xelson-chat.forum.chat.edit_modal.form.color.label",
+                                "validator": "=> xelson-chat.forum.chat.edit_modal.form.color.validator"
+                            },
+                            "users": "Selected users"
+                        },
+                        "search": {
+                            "placeholder": "Search Users",
+                            "failed": "No matching users found",
+                            "invited": "Invited"
+                        }
+                    }
+                },
                 "placeholder": "Type your message...",
                 "message": {
                     "actions": {
                         "hide": "Hide",
                         "resend": "Resend"
+                    },
+                    "censored": "Log in to see this message!",
+                    "deleted": "deleted by",
+                    "deleted_forever": "deleted forever by",
+                    "you": "You",
+                    "type": {
+                        "url": "URL",
+                        "event": "Event",
+                        "code": "<Code />"
+                    },
+                    "events": {
+                        "chat": {
+                            "created": "{creatorname} created {chatname} and invited {usernames}"
+                        },
+                        "pm": {
+                            "created": "{creatorname} created chat with {username}"
+                        },
+                        "channel": {
+                            "created": "{creatorname} created channel {chatname}"
+                        },
+                        "title": {
+                            "edited": "{editorname} changed chat's title from {old} to {new}"
+                        },
+                        "icon": {
+                            "edited": "{editorname} changed chat's icon from {old} to {new}"
+                        },
+                        "color": {
+                            "edited": "{editorname} changed chat's color from {old} to {new}"
+                        },
+                        "users": {
+                            "invited": "{editorname} invited {usernames}",
+                            "kicked": "{editorname} kicked {usernames}",
+                            "invited_kicked": "{editorname} invited {invitednames} and kicked {kickednames}"
+                        },
+                        "self": {
+                            "leaved": "{username} left the chat",
+                            "entered": "{username} entered the chat"
+                        }
                     }
                 }
             },
             "errors": {
                 "unauthenticated": "Only registered users can use the chat",
-                "chatdenied": "Your user group is not allowed to write messages"
+                "chatdenied": "Your user group is not allowed to write messages",
+                "removed": "You were removed from the chat"
             }
         },
         "admin": {
@@ -29,8 +162,14 @@
                 "post": "Post chat messages",
                 "edit": "Edit chat messages",
                 "delete": "Delete chat messages",
+                "enabled": "Enable chat",
+                "create": {
+                    "chat": "Start chats",
+                    "channel": "Start channels"
+                },
                 "moderate": {
-                    "delete": "Delete chat messages"
+                    "delete": "Delete chat messages",
+                    "vision": "See deleted messages"
                 }
             },
             "settings": {
@@ -40,6 +179,11 @@
                     "title": "Antiflood",
                     "number": "Number of messages in a row",
                     "time": "Over a period"
+                },
+                "display": {
+                    "title": "Display",
+                    "minimize": "Minimize initially",
+                    "censor": "Censoring messages for unauthorized users"
                 }
             }
         }

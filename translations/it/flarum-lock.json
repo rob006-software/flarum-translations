@@ -1,0 +1,28 @@
+{
+    "flarum-lock": {
+        "admin": {
+            "permissions": {
+                "lock_discussions_label": "Chiudere le discussioni"
+            }
+        },
+        "forum": {
+            "badge": {
+                "locked_tooltip": "Chiusa"
+            },
+            "discussion_controls": {
+                "lock_button": "Chiudi",
+                "unlock_button": "Apri"
+            },
+            "notifications": {
+                "discussion_locked_text": "{username} ha chiuso la discussione"
+            },
+            "post_stream": {
+                "discussion_locked_text": "{username} ha chiuso la discussione.",
+                "discussion_unlocked_text": "{username} ha riaperto la discussione."
+            },
+            "settings": {
+                "notify_discussion_locked_label": "Qualcuno ha chiuso una discussione che ho iniziato"
+            }
+        }
+    }
+}

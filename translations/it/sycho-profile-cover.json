@@ -1,0 +1,24 @@
+{
+    "sycho-profile-cover": {
+        "admin": {
+            "thumbnails": "Crea miniature",
+            "max_size": "Dimensioni massime per la cover del profilo (in KB)",
+            "permission": {
+                "set_cover": "Impostare la cover del profilo"
+            }
+        },
+        "forum": {
+            "cover": "Cover",
+            "edit_cover": "Modifica Cover",
+            "notice": "Dimensione massima: {size}",
+            "added": {
+                "success": "Cover del profilo caricata.",
+                "error": "L'immagine non può essere caricata."
+            },
+            "removed": {
+                "success": "Cover del profilo rimossa.",
+                "error": "Non è possibile rimuovere la cover, riprova più tardi."
+            }
+        }
+    }
+}

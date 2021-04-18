@@ -19,8 +19,8 @@
                 "amount": "Punkty"
             },
             "notification": {
-                "upvote": "{username} pozytywnie ocenił twój post",
-                "downvote": "{username} negatywnie ocenił twój post"
+                "upvote": "{username} pozytywnie ocenił Twój post",
+                "downvote": "{username} negatywnie ocenił Twój post"
             },
             "user": {
                 "points": "Punkty: {points}",
@@ -28,8 +28,7 @@
             },
             "modal": {
                 "title": "Głosujący",
-                "upvotes_label": "Głosujący pozytywnie:",
-                "downvotes_label": "Głosujący negatywnie:"
+                "upvotes_label": "Głosujący pozytywnie:"
             },
             "mod_item": "Zobacz głosujących"
         },
@@ -38,9 +37,6 @@
                 "vote_label": "Oddawanie głosów na posty",
                 "see_votes_label": "Przeglądanie głosów na posty",
                 "see_ranking_page": "Przeglądanie rankingu"
-            },
-            "nav": {
-                "desc": "Gamification dla twojej społeczności Flarum"
             },
             "page": {
                 "rankings": {
@@ -62,6 +58,7 @@
                     "auto_upvote": "Automatycznie oceń pozytywnie posty po ich opublikowaniu",
                     "rate_limit": "Wymuś ograniczenie szybkości głosowania (10 sekund)",
                     "discussion_page": "Wyświetl sumę głosów pierwszego posta na liście dyskusji",
+                    "alternate_layout": "Użyj alternatywnego układu do wyświetlania oraz dodawania głosów",
                     "title": "Głosy",
                     "vote_color": "Kolor po zagłosowaniu",
                     "icon_name": "Ikonki głosowania",
@@ -71,7 +68,7 @@
                 "convert": {
                     "button": "Konwertuj polubienia na głosy pozytywne",
                     "help": "Przekonwertuj istniejące polubienia z flarum-ext-likes na głosy pozytywne oraz przelicz popularność dla wszystkich istniejących dyskusji.",
-                    "converting": "Twoje polubienia są właśnie konwertowane. Odśwież stronę po kilku minutach, aby zobaczyć czy proces się zakończył (konwersja może potrwać chwilę w zależności od liczby polubień na twoim forum).",
+                    "converting": "Twoje polubienia są właśnie konwertowane. Odśwież stronę po kilku minutach, aby zobaczyć czy proces się zakończył (konwersja może potrwać chwilę w zależności od liczby polubień na Twoim forum).",
                     "converted": "Pomyślnie przekonwertowano wszystkie {number} polubień"
                 },
                 "ranks": {

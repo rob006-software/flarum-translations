@@ -1,0 +1,67 @@
+{
+    "v17development-flarum-badges": {
+        "admin": {
+            "uncategorized": "Ongecategoriseerd",
+            "new_badge": "Nieuwe badge",
+            "create_category": "Categorie aanmaken",
+            "update_badge": "Badge aanpassen",
+            "update_category": "Categorie aanpassen",
+            "edit_category": "Bewerk categorie",
+            "nothing_here_yet": "Je hebt nog geen badges of categorieën aangemaakt.",
+            "permissions": {
+                "give_badge": "Geef badge aan gebruiker",
+                "take_badge": "Badge van gebruiker afnemen"
+            },
+            "confirm_dialog": {
+                "title": "Bevestigen",
+                "no": "Nee",
+                "yes": "Ja"
+            },
+            "confirm_messages": {
+                "delete_badge": "Weet je zeker dat je deze badge wilt verwijderen? De badge zal worden verwijderd van all gebruikers en is onomkeerbaar.",
+                "delete_category": "Weet je zeker dat je deze categorie wilt verwijderen? Als er badges in deze categorie zijn, worden deze gemarkeerd als 'niet-gecategoriseerd'."
+            },
+            "badge": {
+                "name": "Badge naam",
+                "icon": "Badge icoon",
+                "description": "Badge beschrijving",
+                "visible": "Zichtbaar",
+                "visible_description": "Schakel deze badge in. Indien uitgeschakeld, is de badge niet zichtbaar."
+            },
+            "badge_category": {
+                "name": "Categorienaam",
+                "description": "Categorie beschrijving",
+                "enabled": "Ingeschakeld",
+                "enabled_description": "Deze categorie inschakelen. Indien uitgeschakeld worden de badges uitgeschakeld en wordt de categorie verborgen."
+            }
+        },
+        "forum": {
+            "badge_information": "Badge informatie",
+            "all_badges": "Bekijk alle badges",
+            "all_users": "Bekijk alle gebruikers",
+            "give_badge": "Geef badge",
+            "update_badge": "Update badge",
+            "select_badge": "Selecteer badge",
+            "user_has_badge": "De gebruiker heeft deze badge al.",
+            "user_no_badges": "Deze gebruiker heeft nog geen badges.",
+            "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
+            "badge": {
+                "badge": "Badge",
+                "badges": "Badges",
+                "name": "Badge naam",
+                "description": "Badge beschrijving",
+                "earning_reason": "Reden voor het verdienen van deze badge",
+                "update_earning_reason": "Update verdienreden",
+                "no_earning_reason": "Geen verdienreden ingesteld",
+                "earned_on": "Badge verdiend op",
+                "category": "Badgecategorie",
+                "earned_count": "<b>{count} gebruiker</b> heeft deze badge ontvangen|<b>{count} gebruikers</b> hebben deze badge ontvangen"
+            },
+            "moderation": {
+                "remove_badge": "Badge verwijderen van deze gebruiker",
+                "remove_badge_confirm": "Weet je zeker dat je deze badge wilt verwijderen van deze gebruiker?",
+                "give_badge": "Geef badge"
+            }
+        }
+    }
+}

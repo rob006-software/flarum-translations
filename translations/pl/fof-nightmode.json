@@ -1,8 +1,43 @@
 {
     "fof-nightmode": {
+        "ref": {
+            "auto": "Automatycznie (na podstawie ustawień przeglądarki lub urządzenia)",
+            "light": "Tryb dzienny",
+            "dark": "Tryb nocny"
+        },
+        "admin": {
+            "settings": {
+                "modal": {
+                    "default_theme": "Domyślny motyw forum",
+                    "default_theme_helper": "Domyślny motyw jest automatycznie ustawiany nowym użytkownikom, gościom oraz wszystkim, którzy nie ustawili jeszcze motywu.",
+                    "theme_auto": "=> fof-nightmode.ref.auto",
+                    "theme_light": "=> fof-nightmode.ref.light",
+                    "theme_dark": "=> fof-nightmode.ref.dark"
+                }
+            }
+        },
         "forum": {
-            "night": "Tryb nocny",
-            "day": "Tryb dzienny"
+            "day": "=> fof-nightmode.ref.light",
+            "night": "=> fof-nightmode.ref.dark",
+            "user": {
+                "settings": {
+                    "heading": "Motyw",
+                    "description": "Wybierz motyw kolorystyczny, który chcesz używać na tym forum.",
+                    "description2": "Ten motyw zostanie powiązany z Twoim kontem i będzie zastosowany na wszystkich urządzeniach, chyba że użyjesz przełącznika poniżej, aby używać osobnych ustawień dla każdego urządzenia.",
+                    "device_specific_setting_checkbox": "Użyj niezależnych ustawień dla każdego urządzenia",
+                    "device_specific_setting_checkbox_tooltip": "Wybrany motyw zostanie zapisany dla każdego Twojego urządzenia niezależnie.",
+                    "options": {
+                        "auto": "=> fof-nightmode.ref.auto",
+                        "day": "=> fof-nightmode.ref.light",
+                        "night": "=> fof-nightmode.ref.dark"
+                    },
+                    "option_descriptions": {
+                        "auto": "Twój motyw zostanie automatycznie wybrany na podstawie ustawień przeglądarki lub urządzenia, z którego korzystasz. Przykładowo, jeśli masz włączony tryb ciemny w iOS, forum również użyje ciemnego motywu.",
+                        "day": "Klasyczny motyw, który dobrze znasz. Sprawdzony i uwielbiany.",
+                        "night": "Jesteś nocnym markiem. Przeglądasz forum nocą, gdy ptaki śpią, a lisy polują. Albo po prostu wolisz ciemne kolory!"
+                    }
+                }
+            }
         }
     }
 }

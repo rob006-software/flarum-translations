@@ -1,0 +1,54 @@
+{
+    "clarkwinkelmann-who-read": {
+        "forum": {
+            "tooltip": {
+                "last-read-at": "{username} ha letto {ago}",
+                "last-read-at-behind": "{username} ultima lettura {ago}",
+                "last-read-at-up-to-date": "{username} ha letto il post {ago}"
+            },
+            "more": {
+                "show": "Mostra altri {count}",
+                "info": "E altri {count}"
+            },
+            "footer": {
+                "read-this-post": "{0} Nessuno ha letto questo post|{1} Un utente ha letto questo post|]1,Inf] {count} utenti hanno letto questo post",
+                "read-no-further": "{0} Tutti hanno letto oltre | {1} Un utente non ha letto oltre |] 1, Inf] {count} non hanno letto oltre",
+                "read-to-end": "{0} Nessuno ha letto fino alla fine | {1} Un utente ha letto fino alla fine |] 1, Inf] {count} utenti hanno letto fino alla fine"
+            },
+            "controls": {
+                "set-unread": "Segna come non letto",
+                "remove-unread": "Rimuovi da leggere"
+            },
+            "badges": {
+                "following": "=> flarum-subscriptions.forum.badge.following_tooltip",
+                "ignoring": "=> flarum-subscriptions.forum.badge.ignoring_tooltip",
+                "unread": "Contrassegnato come da leggere"
+            },
+            "modal": {
+                "title": "Lettori",
+                "up-to-this-post": "Utenti che leggono questo post",
+                "past-this-post": "Utenti che hanno letto questo post",
+                "to-the-end": "Utenti che hanno letto fino alla fine",
+                "behind": "Utenti che non hanno letto fino alla fine"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "see-read": "Visualizza stato di lettura",
+                "see-subscription": "Visualizza stato iscrizioni",
+                "see-unread": "Visualizza lo stato non letto di altri utenti",
+                "mark-unread": "Contrassegna le discussioni come non lette per il proprio utente"
+            },
+            "settings": {
+                "show-in-discussion-list": "Mostra lettori nella lista discussioni",
+                "show-in-hero": "Mostra lettori nella hero della discussione",
+                "show-between-posts": "Mostra lo stato di lettura tra i post",
+                "show-count-of-readers-who-stopped": "Mostra il numero di utenti che hanno smesso di leggere invece del totale lettura tra i post",
+                "hide-when-behind": "Nascondi completamente un utente se si trova in tanti post",
+                "max-visible": "Numero massimo di utenti da mostrare prima di \"leggi tutto\"",
+                "unread-icon": "Icona per badge non letto",
+                "only-groups": "Mostra solo lo stato di lettura degli utenti che appartengono a questi gruppi"
+            }
+        }
+    }
+}

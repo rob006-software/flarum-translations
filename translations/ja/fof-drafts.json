@@ -1,0 +1,57 @@
+{
+    "fof-drafts": {
+        "admin": {
+            "permissions": {
+                "start": "新しいトピックの下書き",
+                "schedule": ""
+            },
+            "settings": {
+                "title": "",
+                "enable_scheduled_drafts": "",
+                "schedule_on_one_server": "",
+                "schedule_log_output": ""
+            }
+        },
+        "console": {
+            "scheduled_drafts_disabled": ""
+        },
+        "forum": {
+            "composer": {
+                "title": "下書きを保存",
+                "saving": "",
+                "saved": "",
+                "exit_alert": "編集した下書きを破棄しますか？",
+                "discard_empty_draft_alert": "",
+                "alert": "下書きが保存されました。"
+            },
+            "dropdown": {
+                "empty_text": "下書きがありません",
+                "title": "下書き",
+                "delete_button": "",
+                "schedule_button": "",
+                "tooltip": "=> fof-drafts.forum.dropdown.title",
+                "alert": "下書きを削除してもよろしいですか？",
+                "delete_all_alert": "",
+                "button": "下書きを削除"
+            },
+            "schedule_draft_modal": {
+                "title": "",
+                "text": "",
+                "scheduled_text": "",
+                "scheduled_error": "",
+                "unschedule_button": "",
+                "reschedule_button": "",
+                "schedule_button": ""
+            },
+            "user": {
+                "settings": {
+                    "drafts_heading": "",
+                    "draft_autosave_enable": "",
+                    "draft_autosave_interval_label": "",
+                    "draft_autosave_interval_button": "",
+                    "draft_autosave_interval_invalid": ""
+                }
+            }
+        }
+    }
+}

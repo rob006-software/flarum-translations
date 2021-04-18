@@ -1,0 +1,31 @@
+{
+    "fof-oauth": {
+        "admin": {
+            "settings": {
+                "providers": {
+                    "google": {
+                        "description": "https://console.developers.google.com bağlantısında bir uygulama oluşturun.",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
+                    }
+                }
+            }
+        },
+        "lib": {
+            "providers": {
+                "google": "Google"
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_google": "{provider} ile giriş yapın"
+            }
+        },
+        "ref": {
+            "settings": {
+                "client_id": "",
+                "client_secret": ""
+            }
+        }
+    }
+}

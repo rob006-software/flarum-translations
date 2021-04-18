@@ -2,14 +2,14 @@
     "clarkwinkelmann-author-change": {
         "forum": {
             "controls": {
-                "edit": "Edytuj Autora"
+                "edit": "Edytuj autora i datę"
             },
             "modal": {
-                "title-post": "Edytuj autora posta",
-                "title-discussion": "Edytuj autora dyskusji",
-                "user": "",
-                "created_at": "",
-                "edited_at": "",
+                "title-post": "Edytuj autora posta oraz datę",
+                "title-discussion": "Edytuj autora dyskusji oraz datę",
+                "user": "Autor",
+                "created_at": "Czas utworzenia",
+                "edited_at": "Edytuj czas",
                 "submit": "Zapisz",
                 "cancel": "Anuluj"
             },
@@ -21,9 +21,8 @@
         },
         "admin": {
             "permissions": {
-                "edit-user": "",
-                "edit-date": "",
-                "edit": "Aktualizowanie autora postów i dyskusji"
+                "edit-user": "Edycja autora postów i dyskusji",
+                "edit-date": "Edycja daty postów i dyskusji"
             }
         }
     }

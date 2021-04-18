@@ -1,8 +1,45 @@
 {
     "fof-nightmode": {
+        "ref": {
+            "auto": "Otomatik (tarayıcınızın veya cihazınızın tercihine göre)",
+            "light": "Gündüz Modu",
+            "dark": "Gece Modu"
+        },
+        "admin": {
+            "settings": {
+                "modal": {
+                    "default_theme": "Varsayılan forum teması",
+                    "default_theme_helper": "Varsayılan tema, yeni kullanıcılar, misafirler ve tercihi ayarlanmamış olanlar için otomatik olarak ayarlanır.",
+                    "theme_auto": "=> fof-nightmode.ref.auto",
+                    "theme_light": "=> fof-nightmode.ref.light",
+                    "theme_dark": "=> fof-nightmode.ref.dark",
+                    "title": "FoF Gece Modu",
+                    "default_theme_important": "Bu aynı zamanda elle tema seçimi gerçekleştirmemiş kullanıcıları da etkiler!"
+                }
+            }
+        },
         "forum": {
-            "night": "Gece Modu",
-            "day": "Gündüz Modu"
+            "day": "=> fof-nightmode.ref.light",
+            "night": "=> fof-nightmode.ref.dark",
+            "user": {
+                "settings": {
+                    "heading": "Tema",
+                    "description": "Forumda hangi renk şemasını kullanmak istediğinizi seçin.",
+                    "description2": "Bu tema, hesabınızda görünür ve cihaz başına ayarını açmazsanız tüm cihazlar da etkinleştirilir.",
+                    "device_specific_setting_checkbox": "Cihaz başına ayar",
+                    "device_specific_setting_checkbox_tooltip": "Tema seçiminiz, cihazlarınızın her biri için ayrı ayrı kaydedilir.",
+                    "options": {
+                        "auto": "=> fof-nightmode.ref.auto",
+                        "day": "=> fof-nightmode.ref.light",
+                        "night": "=> fof-nightmode.ref.dark"
+                    },
+                    "option_descriptions": {
+                        "auto": "Temanız, tarayıcı veya cihaz ayarlarına göre otomatik olarak seçilir. Örneğin iOS'te karanlık modu etkinleştirdiyseniz, forum gece moduna geçer.",
+                        "day": "Alıştığınız klasik deneyim. Test edildi ve sevildi.",
+                        "night": "Biraz gece kuşu gibisin. Kuşlar uyurken ve tilkiler avlanırken forumda geziniyorsun. Ya da sadece koyu renkleri seviyor olabilirsin."
+                    }
+                }
+            }
         }
     }
 }

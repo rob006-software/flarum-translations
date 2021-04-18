@@ -1,0 +1,60 @@
+{
+    "fof-best-answer": {
+        "admin": {
+            "permissions": {
+                "best_answer": "ベストアンサーを選ぶ(自分の投稿のみ)",
+                "best_answer_not_own_discussion": "ベストアンサーを選ぶ(他人の投稿)"
+            },
+            "settings": {
+                "label": {
+                    "general": "",
+                    "reminders": "",
+                    "advanced": "",
+                    "reminders_notice": ""
+                },
+                "allow_select_own_post": "ユーザーが自身の投稿をベストアンサーにすることを許可する",
+                "select_best_answer_reminder_days": "n 日後にベストアンサーを選択するようユーザーに通知します",
+                "schedule_on_one_server": "タスクプランの展開に「onOneServer()」メソッドを使用する（PHP 拡張機能が必要：Redis / Memcache）",
+                "schedule_stop_overnight": "夜は邪魔しないでください（サーバー時間は午後 9 時から午前 8 時、リマインダーサービスは無効）",
+                "schedule_log_output": "スケジュールされたタスクの実行をログに記録します",
+                "remind_tag_ids": "特定のラベルにのみリマインダーを使用するには、ここにラベル ID を入力します（カンマ区切り）",
+                "use_alt_ui": "投稿のフッターに「ベストアンサー」の設定ボタンを表示する",
+                "title": "FoF ベストアンサー設定"
+            }
+        },
+        "forum": {
+            "answered_badge": "解決済み",
+            "this_best_answer": "ベストアンサーに選ぶ",
+            "remove_best_answer": "現在のベストアンサーを消す",
+            "best_answer_button": "ベストアンサー",
+            "best_answer_label": "<a>{username}</a> によって選択",
+            "errors": {
+                "mismatch": ""
+            },
+            "notification": {
+                "best_answer_in_discussion": "{username} がベストアンサーを選んだ",
+                "content": "あなたの質問に回答がついている場合、ベストアンサーを選んで下さい",
+                "awarded": "あなたの投稿は {username} によってベストアンサーとして設定されました",
+                "preferences": {
+                    "awarded_best_answer": "誰かが私の投稿をベストアンサーとして設定したとき",
+                    "best_answer_in_discussion": "私が参加したスレッドにベストアンサーが登場しました"
+                },
+                "best_answer_set_in_discussion_email": "",
+                "awarded_email": "投稿がベストアンサーとして設定されました",
+                "select_email_title": "問題をソートできましたか？"
+            }
+        },
+        "email": {
+            "subject": {
+                "awarded": "",
+                "ba-set": "",
+                "select": ""
+            },
+            "body": {
+                "awarded": "",
+                "ba-set": "",
+                "select": ""
+            }
+        }
+    }
+}

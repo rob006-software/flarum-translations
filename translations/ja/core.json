@@ -1,0 +1,602 @@
+{
+    "core": {
+        "admin": {
+            "appearance": {
+                "colored_header_label": "カラーヘッダー",
+                "colors_heading": "カラー",
+                "colors_text": "二つの色をあなたのフォーラムのテーマに合わせて設定できます。一つ目はハイライトされて全面的に押し出される色、二つ目はバックグラウンドとして使われる色です。",
+                "custom_footer_heading": "カスタムフッター",
+                "custom_footer_text": "=> core.ref.custom_footer_text",
+                "custom_header_heading": "カスタムヘッダー",
+                "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_heading": "カスタムスタイル",
+                "custom_styles_text": "LESS/CSS コードを追加して、ユーザー定義のフォーラムの外観にします。この設定は Flarm のデフォルトスタイルをカバーします。",
+                "dark_mode_label": "ダークモード",
+                "description": "",
+                "edit_css_button": "カスタム CSS を編集",
+                "edit_footer_button": "=> core.ref.custom_footer_title",
+                "edit_header_button": "=> core.ref.custom_header_title",
+                "enter_hex_message": "16進数のカラーコードを入力します（例：#ff0000）",
+                "favicon_heading": "ファビコン",
+                "favicon_text": "ショートカットアイコン用の画像をアップロード",
+                "logo_heading": "ロゴ",
+                "logo_text": "タイトル用の画像をアップロード",
+                "title": "",
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "basics": {
+                "all_discussions_label": "=> core.ref.all_discussions",
+                "default_language_heading": "デフォルト言語",
+                "description": "",
+                "display_name_heading": "ユーザーの表示名",
+                "display_name_text": "",
+                "forum_description_heading": "フォーラムの説明",
+                "forum_description_text": "短いフォーラムの説明文を入力してください。これは HTML にメタタグとして記述され、検索エンジンの説明欄に表示される可能性があります。",
+                "forum_title_heading": "フォーラムのタイトル",
+                "home_page_heading": "トップページ",
+                "home_page_text": "ユーザーがあなたのフォーラムにアクセスしたときに最初に表示されるページを選択します。カスタム値を入力する場合は、フォーラムルートに関連するパスを使用します。",
+                "show_language_selector_label": "言語選択を表示する",
+                "slug_driver_heading": "",
+                "slug_driver_text": "",
+                "title": "",
+                "welcome_banner_heading": "ウェルカムバナー",
+                "welcome_banner_text": "フォーラムにやってきたユーザーにウェルカムを表示しましょう。「全てのスレッド」のページにこの文が出力されます。",
+                "saved_message": "変更が保存されました。",
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "dashboard": {
+                "clear_cache_button": "キャッシュをクリア",
+                "description": "",
+                "title": "",
+                "tools_button": "ツール"
+            },
+            "edit_css": {
+                "customize_text": "Flarum の<a>デフォルトスタイル</a>の上に適用する独自の LESS / CSS コードを追加して、フォーラムの外観をカスタマイズします。",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "カスタム CSS を編集"
+            },
+            "edit_footer": {
+                "customize_text": "=> core.ref.custom_footer_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_footer_title"
+            },
+            "edit_group": {
+                "color_label": "=> core.ref.color",
+                "delete_button": "グループを削除",
+                "delete_confirmation": "本当にこのグループを削除してもよろしいですか？<strong>グループに登録されているユーザーは削除されません。</strong>。",
+                "hide_label": "フォーラムで隠れる",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "名前",
+                "plural_placeholder": "ユーザーグループ（例：管理グループ）",
+                "singular_placeholder": "ユーザーグループのメンバー（例：管理者）",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "ユーザーグループを追加"
+            },
+            "edit_header": {
+                "customize_text": "=> core.ref.custom_header_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_header_title"
+            },
+            "email": {
+                "addresses_heading": "アドレス",
+                "description": "",
+                "driver_heading": "ドライブ",
+                "driver_label": "メールドライブ",
+                "from_label": "メールアドレス",
+                "mail_encryption_label": "暗号化方式（ssl/tls）",
+                "mail_host_label": "ホスト",
+                "mail_mailgun_domain_label": "ドメイン名",
+                "mail_mailgun_region_label": "地域",
+                "mail_mailgun_secret_label": "Secret key",
+                "mail_password_label": "=> core.ref.password",
+                "mail_port_label": "ポート番号",
+                "mail_username_label": "ユーザ名（一般的にメールアドレスと同じ）",
+                "mailgun_heading": "Mailgun 設定",
+                "not_sending_message": "Flarum は現在メールを送信できません。メールドライバーとその設定を確認してください。",
+                "send_test_mail_button": "",
+                "send_test_mail_heading": "テストメールを送信する",
+                "send_test_mail_success": "テストメールの送信に成功しました！",
+                "send_test_mail_text": "",
+                "smtp_heading": "SMTP 設定",
+                "title": "",
+                "submit_button": "=> core.ref.save_changes",
+                "heading": "=> core.ref.email",
+                "text": "メール送信用のSMTP情報を設定します。",
+                "mail_mandrill_secret_label": "Secret key",
+                "mail_ses_key_label": "Key",
+                "mail_ses_region_label": "地域",
+                "mail_ses_secret_label": "Secret",
+                "mandrill_heading": "Mandrill 設定",
+                "ses_heading": "SES 設定"
+            },
+            "extension": {
+                "configure_scopes": "",
+                "confirm_uninstall": "",
+                "disabled": "",
+                "enable_to_see": "",
+                "enabled": "",
+                "info_links": {
+                    "discuss": "",
+                    "documentation": "",
+                    "donate": "",
+                    "source": "",
+                    "support": "",
+                    "website": ""
+                },
+                "no_permissions": "",
+                "no_settings": "",
+                "open_modal": "",
+                "permissions_title": "",
+                "uninstall_button": "",
+                "saved_message": ""
+            },
+            "header": {
+                "get_help": "",
+                "log_out_button": "=> core.ref.log_out"
+            },
+            "loading": {
+                "title": "しばらくお待ちください..."
+            },
+            "nav": {
+                "appearance_button": "外観",
+                "appearance_title": "",
+                "basics_button": "基本設定",
+                "basics_title": "",
+                "categories": {
+                    "authentication": "",
+                    "core": "",
+                    "discussion": "",
+                    "feature": "",
+                    "formatting": "",
+                    "language": "",
+                    "moderation": "",
+                    "other": "",
+                    "theme": ""
+                },
+                "dashboard_button": "ダッシュボード",
+                "dashboard_title": "",
+                "email_button": "=> core.ref.email",
+                "email_title": "",
+                "permissions_button": "権限",
+                "permissions_title": "",
+                "search_placeholder": "",
+                "appearance_text": "ユーザー定義のフォーラムの色調、アイコン、その他の要素",
+                "basics_text": "フォーラム名、言語、その他の全般設定を設定します。",
+                "dashboard_text": "フォーラムのデータ概要",
+                "email_text": "フォーラムのメールボックス設定を構成する",
+                "extensions_button": "プラグイン",
+                "extensions_text": "あなたのフォーラムのために追加の機能を追加します",
+                "permissions_text": "ユーザーアクセスと操作権限の設定",
+                "advanced_button": "シニア",
+                "advanced_text": "上級ユーザー向けの設定を構成します。"
+            },
+            "permissions": {
+                "allow_post_editing_label": "投稿内容の変更を許可",
+                "allow_renaming_label": "スレッドタイトルの変更を許可",
+                "create_heading": "作成",
+                "delete_discussions_forever_label": "スレッドを完全に削除",
+                "delete_discussions_label": "スレッドを削除",
+                "delete_posts_forever_label": "投稿を完全に削除",
+                "delete_posts_label": "投稿を削除",
+                "description": "",
+                "edit_posts_label": "投稿を編集",
+                "edit_users_label": "ユーザーを編集",
+                "edit_users_credentials_label": "",
+                "edit_users_groups_label": "",
+                "global_heading": "全体",
+                "moderate_heading": "管理",
+                "new_group_button": "新しいグループ",
+                "participate_heading": "参加",
+                "post_without_throttle_label": "待たずに複数回返信する",
+                "read_heading": "閲覧",
+                "rename_discussions_label": "ディスカッションのタイトルを変更",
+                "reply_to_discussions_label": "返信",
+                "sign_up_label": "サインアップ",
+                "start_discussions_label": "书き込み",
+                "title": "",
+                "view_discussions_label": "スレッドを閲覧",
+                "view_hidden_groups_label": "隠されたユーザーグループのバッジを表示",
+                "view_last_seen_at_label": "ユーザーの最後に見た時間の閲覧",
+                "view_post_ips_label": "投稿の IP アドレスの表示",
+                "view_user_list_label": "ユーザーリストを閲覧"
+            },
+            "permissions_controls": {
+                "allow_indefinitely_button": "無制限",
+                "allow_some_minutes_button": "{count} 分|{count} 分",
+                "allow_ten_minutes_button": "10 分以内",
+                "allow_until_reply_button": "返信されるまで",
+                "everyone_button": "誰でも",
+                "members_button": "=> core.group.members",
+                "signup_closed_button": "制限あり",
+                "signup_open_button": "誰でも"
+            },
+            "settings": {
+                "saved_message": "",
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "upload_image": {
+                "remove_button": "=> core.ref.remove",
+                "upload_button": "写真を選択..."
+            },
+            "add_extension": {
+                "developer_text": "開発者の方へ。<a>ドキュメントを読んで</a>、オリジナルの拡張機能を作成することが可能です。",
+                "install_text": "また、<a>Flarum Community site</a>で拡張機能を探し、Composerを使って手動でインストールすることも可能です。",
+                "temporary_text": "近い将来、このダイアログを使って簡単にフォーラムへ拡張機能を追加できるようになります。現在システムを構築中！",
+                "title": "拡張機能を追加"
+            },
+            "extensions": {
+                "add_button": "拡張機能を追加",
+                "settings_button": "=> core.ref.settings",
+                "uninstall_button": "アンインストール"
+            },
+            "advanced": {
+                "help_text": "これらの設定は上級ユーザー向けであることに注意してください",
+                "heading_security": "セキュリティ設定",
+                "post_flood_interval": "複数の投稿間の待機時間",
+                "post_flood_interval_text": "ユーザーが別の投稿を作成するまで待機する時間を設定します（秒単位）",
+                "enter_positive_number": "正数を入力してください"
+            }
+        },
+        "forum": {
+            "change_email": {
+                "confirm_password_placeholder": "=> core.ref.confirm_password",
+                "confirmation_message": "=> core.ref.confirmation_email_sent",
+                "dismiss_button": "=> core.ref.okay",
+                "incorrect_password_message": "入力したパスワードが間違っています。",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.change_email"
+            },
+            "change_password": {
+                "send_button": "パスワードリセットメールを送信する",
+                "text": "ボタンをクリックし、メッセージ内のリンクを確認してパスワードをリセットします。",
+                "title": "=> core.ref.change_password"
+            },
+            "composer": {
+                "close_tooltip": "閉じる",
+                "exit_full_screen_tooltip": "全画面表示を終了",
+                "full_screen_tooltip": "フルスクリーン",
+                "minimize_tooltip": "最小化",
+                "preview_tooltip": "プレビュー"
+            },
+            "composer_discussion": {
+                "body_placeholder": "内容を書く…...",
+                "discard_confirmation": "スレッドはまだ公開されていません。破棄しますか？",
+                "submit_button": "投稿する",
+                "title": "=> core.ref.start_a_discussion",
+                "title_placeholder": "題名"
+            },
+            "composer_edit": {
+                "discard_confirmation": "未保存の変更があります。破棄しますか？",
+                "edited_message": "編集しました。",
+                "post_link": "#{number} の {discussion} を投稿",
+                "submit_button": "=> core.ref.save_changes",
+                "view_button": "=> core.ref.view"
+            },
+            "composer_reply": {
+                "body_placeholder": "=> core.ref.write_a_reply",
+                "discard_confirmation": "返信はまだ公開されていません。破棄しますか？",
+                "posted_message": "返信が投稿されました。",
+                "submit_button": "返信する",
+                "view_button": "プレビュー"
+            },
+            "discussion_controls": {
+                "cannot_reply_button": "返信できません",
+                "cannot_reply_text": "このスレッドに返信する権限がありません。",
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "本当にこのスレッドを削除してもよろしいですか？",
+                "delete_forever_button": "=> core.ref.delete_forever",
+                "log_in_to_reply_button": "ログインして返信",
+                "rename_button": "=> core.ref.rename",
+                "reply_button": "=> core.ref.reply",
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": ""
+            },
+            "discussion_list": {
+                "empty_text": "ここには何もありません。",
+                "load_more_button": "=> core.ref.load_more",
+                "mark_as_read_tooltip": "既読にする",
+                "replied_text": "{username} が {ago} に返信しました",
+                "started_text": "{username} が {ago} に投稿されました"
+            },
+            "edit_user": {
+                "activate_button": "ユーザーをアクティベート",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "ユーザーグループ",
+                "nothing_available": "",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "新しいパスワードを設定",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "ユーザーを編集",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username"
+            },
+            "forgot_password": {
+                "dismiss_button": "=> core.ref.okay",
+                "email_placeholder": "=> core.ref.email",
+                "email_sent_message": "パスワードをリセットするためのリンクが記載されたメールをお送りしました。2～3分以内にメールが届かない場合は、迷惑メールフォルダをご確認ください。",
+                "not_found_message": "そのメールアドレスは登録されていません。",
+                "submit_button": "パスワードを復旧する",
+                "text": "指定されたメールアドレスにパスワードリセット用のメールを送信しました。",
+                "title": "パスワードを紛失"
+            },
+            "header": {
+                "admin_button": "管理パネル",
+                "back_to_index_tooltip": "スレッドリストに戻る",
+                "locale_dropdown_accessible_label": "",
+                "log_in_link": "=> core.ref.log_in",
+                "log_out_button": "=> core.ref.log_out",
+                "profile_button": "マイデータ",
+                "search_placeholder": "検索",
+                "session_dropdown_accessible_label": "",
+                "settings_button": "設定",
+                "sign_up_link": "=> core.ref.sign_up"
+            },
+            "index": {
+                "all_discussions_link": "=> core.ref.all_discussions",
+                "cannot_start_discussion_button": "スレッドを開始できません",
+                "mark_all_as_read_confirmation": "すべてを既読にしてもよろしいですか？",
+                "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "meta_title_text": "",
+                "refresh_tooltip": "更新",
+                "start_discussion_button": "=> core.ref.start_a_discussion",
+                "toggle_sidenav_dropdown_accessible_label": ""
+            },
+            "index_sort": {
+                "latest_button": "更新",
+                "newest_button": "最新",
+                "oldest_button": "古い順",
+                "relevance_button": "関連順",
+                "toggle_dropdown_accessible_label": "",
+                "top_button": "人気順"
+            },
+            "log_in": {
+                "forgot_password_link": "パスワードをお忘れですか？",
+                "invalid_login_message": "入力された情報が正しくありません。",
+                "password_placeholder": "=> core.ref.password",
+                "remember_me_label": "ログインしたままにする",
+                "sign_up_text": "アカウント登録がまだですか？<a>新規登録</a>",
+                "submit_button": "=> core.ref.log_in",
+                "title": "=> core.ref.log_in",
+                "username_or_email_placeholder": "ユーザー名またはメールアドレス"
+            },
+            "notifications": {
+                "discussion_renamed_text": "{username} がタイトルを変更しました。",
+                "empty_text": "通知はありません",
+                "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "mark_as_read_tooltip": "既読にする",
+                "title": "=> core.ref.notifications",
+                "toggle_dropdown_accessible_label": "",
+                "tooltip": "=> core.ref.notifications"
+            },
+            "post": {
+                "edited_text": "編集済み",
+                "edited_tooltip": "{username} が {ago} に編集しました",
+                "number_tooltip": "#{number} 番目の投稿"
+            },
+            "post_controls": {
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "この投稿を永久に削除してもよろしいですか？ この操作は取り消すことができません。",
+                "delete_forever_button": "=> core.ref.delete_forever",
+                "edit_button": "=> core.ref.edit",
+                "hide_confirmation": "この投稿を削除してもよろしいですか？",
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": ""
+            },
+            "post_scrubber": {
+                "now_link": "最新の投稿",
+                "original_post_link": "最初の投稿",
+                "unread_text": "{count} 件の未読",
+                "viewing_text": "{index} / {count} 件|{index} / {count} 件"
+            },
+            "post_stream": {
+                "discussion_renamed_old_tooltip": "元のタイトル:  “{old}”",
+                "discussion_renamed_text": "{username} は “{new}” にタイトルを変更しました。",
+                "load_more_button": "=> core.ref.load_more",
+                "reply_placeholder": "=> core.ref.write_a_reply",
+                "time_lapsed_text": "{period} 後"
+            },
+            "rename_discussion": {
+                "submit_button": "=> core.ref.rename",
+                "title": "タイトル変更"
+            },
+            "search": {
+                "all_discussions_button": "“{query}” を検索",
+                "discussions_heading": "=> core.ref.discussions",
+                "users_heading": "=> core.ref.users"
+            },
+            "settings": {
+                "account_heading": "アカウント",
+                "change_email_button": "=> core.ref.change_email",
+                "change_password_button": "=> core.ref.change_password",
+                "notifications_heading": "=> core.ref.notifications",
+                "notify_by_email_heading": "=> core.ref.email",
+                "notify_by_web_heading": "Web",
+                "notify_discussion_renamed_label": "誰かがあなたのスレッド名を変更した時",
+                "privacy_disclose_online_label": "自分のオンライン状態を他ユーザーに表示することを許可する",
+                "privacy_heading": "プライバシー",
+                "title": "=> core.ref.settings"
+            },
+            "sign_up": {
+                "dismiss_button": "=> core.ref.okay",
+                "email_placeholder": "=> core.ref.email",
+                "log_in_text": "すでにアカウントをお持ちですか？ <a>ログイン</a>",
+                "password_placeholder": "=> core.ref.password",
+                "submit_button": "=> core.ref.sign_up",
+                "title": "=> core.ref.sign_up",
+                "username_placeholder": "=> core.ref.username",
+                "welcome_text": "{username} さん、こんにちは！"
+            },
+            "user": {
+                "avatar_remove_button": "=> core.ref.remove",
+                "avatar_upload_button": "アップロード",
+                "avatar_upload_tooltip": "アバターをアップロード",
+                "discussions_link": "=> core.ref.discussions",
+                "in_discussion_text": "{discussion} にて",
+                "joined_date_text": "{ago} に参加しました",
+                "online_text": "オンライン",
+                "posts_empty_text": "まだ投稿されていません。",
+                "posts_link": "=> core.ref.posts",
+                "posts_load_more_button": "=> core.ref.load_more",
+                "settings_link": "=> core.ref.settings"
+            },
+            "user_controls": {
+                "button": "操作",
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "本当にこのユーザーを削除してもよろしいですか？ このユーザーが投稿した内容は全て削除されます。",
+                "delete_error_message": "ユーザー <i>{username} ({email})</i> の削除に失敗しました",
+                "delete_success_message": "ユーザー <i>{username} ({email})</i> が削除されました",
+                "edit_button": "=> core.ref.edit",
+                "toggle_dropdown_accessible_label": ""
+            },
+            "user_email_confirmation": {
+                "alert_message": "=> core.ref.confirmation_email_sent",
+                "resend_button": "アカウント確認メールを再送信する",
+                "sent_message": "送信しました"
+            }
+        },
+        "lib": {
+            "badge": {
+                "hidden_tooltip": "非表示"
+            },
+            "dropdown": {
+                "toggle_dropdown_accessible_label": ""
+            },
+            "error": {
+                "dependent_extensions_message": "{extension}を無効化するには、これらを先に無効化する必要があります: {extensions}",
+                "generic_message": "おっとっと！ エラーが発生しました。ページを再読み込みし、もう一度お試しください。",
+                "missing_dependencies_message": "{extension}を有効化するには、これらを先に有効化する必要があります: {extensions}",
+                "not_found_message": "リクエストされたリソースが見つかりませんでした。",
+                "permission_denied_message": "実行する権限がありません。",
+                "rate_limit_exceeded_message": "実行する間隔が早すぎます。時間が経ってからお試しください。"
+            },
+            "number_suffix": {
+                "kilo_text": "K",
+                "mega_text": "M"
+            },
+            "series": {
+                "glue_text": ", ",
+                "three_text": "{first} や {second}、 {third}",
+                "two_text": "{first} や {second}"
+            },
+            "username": {
+                "deleted_text": "[削除済み]"
+            }
+        },
+        "views": {
+            "content": {
+                "javascript_disabled_message": "このサイトは、ブラウザのJavaScriptを有効にすることでより美しく見ることができます。",
+                "load_error_message": "サイトを読み込む際に異常が発生しました。",
+                "loading_text": "読み込み中..."
+            },
+            "discussion": {
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
+            },
+            "error": {
+                "csrf_token_mismatch": "トークンの期限が切れました。",
+                "csrf_token_mismatch_return_link": "再度戻ってやり直してください。",
+                "invalid_confirmation_token": "この確認リンクは既に使用されているか、無効です。",
+                "not_authenticated": "このページにアクセスする権限がありません。 ログインしてからもう一度お試しください。",
+                "not_found": "リクエストしたページが見つかりませんでした。",
+                "not_found_return_link": "{forum} に戻る",
+                "permission_denied": "このページにアクセスする権限がありません。",
+                "unknown": "このページの読み込み中にエラーが発生しました。"
+            },
+            "index": {
+                "all_discussions_heading": "=> core.ref.all_discussions",
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
+            },
+            "log_out": {
+                "log_out_button": "=> core.ref.log_out",
+                "log_out_confirmation": "{forum} からログアウトしてもよろしいですか？",
+                "title": "=> core.ref.log_out"
+            },
+            "reset_password": {
+                "confirm_password_label": "=> core.ref.confirm_password",
+                "new_password_label": "新しいパスワード",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.reset_your_password"
+            }
+        },
+        "api": {
+            "invalid_username_message": "ユーザー名には、文字、数字、およびダッシュ(-)のみを使用できます。"
+        },
+        "email": {
+            "activate_account": {
+                "subject": "アカウントを有効化する",
+                "body": "{username} さん、こんにちは！\n\n{forum} への登録のリクエストが送信されました。\n\nこちらのURLにアクセスすると、作成したアカウントを有効化することができます:\n{url}\n\nこのメールに身に覚えがない場合は、お手数ですがメールを削除してください。\n"
+            },
+            "confirm_email": {
+                "subject": "新しいメールアドレスの確認",
+                "body": "{username} さん、こんにちは！\n\n{forum} のアカウントで、メールアドレス変更のリクエストが送信されました。\n\nこちらのURLにアクセスするとアカウントのメールアドレスを変更することができます:\n{url}\n\nこのメールに身に覚えがない場合は、お手数ですがメールを削除してください。\n"
+            },
+            "reset_password": {
+                "subject": "=> core.ref.reset_your_password",
+                "body": "{username} さん、こんにちは!\n\n{forum} のアカウントで、パスワードリセットのリクエストを誰かが（おそらくあなたが）送信しました。\n\nこのURLにアクセスするとアカウントのパスワードをリセットすることができます:\n{url}\n\nこのメールに身に覚えがない場合は、お手数ですがメールを削除してください。\n"
+            },
+            "send_test": {
+                "subject": "Flarum Eメールテスト",
+                "body": "やあ{username}!\n\nこのテストメールは、あなたのFlarumのEメール設定が正しく設定されていることを確認するものです。\n\nこのメールに心当たりがあれば、それは設定した項目が正常であることを意味します！\n\nこのメールに心当たりがない場合は、無視してください。\n"
+            }
+        },
+        "ref": {
+            "all_discussions": "すべてのスレッド",
+            "change_email": "メールアドレスの変更",
+            "change_password": "パスワードの変更",
+            "color": "カラー",
+            "confirm_password": "パスワードの確認",
+            "confirmation_email_sent": "{email} にアカウント確認メールを送信しました。メールが届かない場合は、迷惑メールボックスをご確認ください。",
+            "custom_footer_text": "ページの一番下に表示する HTML を追加します。",
+            "custom_footer_title": "カスタムフッターを編集",
+            "custom_header_text": "Flarum のヘッダーの上、つまりページの一番上に表示する HTML を追加します。",
+            "custom_header_title": "カスタムヘッダーを編集",
+            "delete": "削除",
+            "delete_forever": "完全に削除",
+            "discussions": "スレッド",
+            "edit": "編集",
+            "email": "電子メール",
+            "icon": "アイコン",
+            "icon_text": "接頭辞<code>fas fa-</code><em>を含む</em><a>Font Awesome</a> のアイコン名を入力してください。",
+            "load_more": "さらに読み込む",
+            "log_in": "ログイン",
+            "log_out": "ログアウト",
+            "mark_all_as_read": "すべて既読にする",
+            "next_page": "次のページ",
+            "notifications": "通知",
+            "okay": "OK",
+            "password": "パスワード",
+            "posts": "投稿",
+            "previous_page": "前のページ",
+            "remove": "削除",
+            "rename": "リネーム",
+            "reply": "返信",
+            "reset_your_password": "パスワードをリセット",
+            "restore": "復元",
+            "save_changes": "変更を保存",
+            "settings": "設定",
+            "sign_up": "サインアップ",
+            "some_others": "{count} 人|{count} 人",
+            "start_a_discussion": "新規スレッド",
+            "username": "ユーザ名",
+            "users": "ユーザー",
+            "view": "ビュー",
+            "write_a_reply": "返信する...",
+            "you": "あなた",
+            "icon_label": "アイコン"
+        },
+        "group": {
+            "admin": "管理者",
+            "admins": "管理者",
+            "guest": "ゲスト",
+            "guests": "ゲスト",
+            "member": "メンバー",
+            "members": "メンバー",
+            "mod": "モデレーター",
+            "mods": "モデレーター"
+        }
+    }
+}

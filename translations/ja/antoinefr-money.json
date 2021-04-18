@@ -1,0 +1,27 @@
+{
+    "antoinefr-money": {
+        "admin": {
+            "settings": {
+                "title": "設定する",
+                "moneyforpost": "返信ごとに取得できます",
+                "moneyfordiscussion": "新しいスレッドの公開に対する報酬",
+                "moneyname": "通貨名（例： [money] 日本円）",
+                "postminimumlength": "お金を得るための最小長の投稿（0 は無制限を意味します）",
+                "noshowzero": "値が 0 の場合、表示されません"
+            },
+            "permissions": {
+                "edit_money_label": "資産を修正する"
+            }
+        },
+        "forum": {
+            "user_controls": {
+                "money_button": "資産を修正する"
+            },
+            "modal": {
+                "title": "{username} の資産",
+                "current": "現在：",
+                "submit_button": "=> core.ref.save_changes"
+            }
+        }
+    }
+}

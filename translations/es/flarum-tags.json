@@ -1,0 +1,95 @@
+{
+    "flarum-tags": {
+        "admin": {
+            "basics": {
+                "tags_label": "=> flarum-tags.ref.tags"
+            },
+            "edit_tag": {
+                "color_label": "=> core.ref.color",
+                "delete_tag_button": "Borrar Etiqueta",
+                "delete_tag_confirmation": "¿Estás seguro de que quieres eliminar esta etiqueta? Las discusiones de la etiqueta NO serán eliminadas.",
+                "description_label": "Descripción",
+                "hide_label": "Ocultar de la portada",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "=> flarum-tags.ref.name",
+                "name_placeholder": "=> flarum-tags.ref.name",
+                "slug_label": "Slug",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> flarum-tags.ref.create_tag"
+            },
+            "nav": {
+                "tags_button": "=> flarum-tags.ref.tags",
+                "tags_text": "Gestionar la lista de etiquetas con las que se organizan las discusiones."
+            },
+            "permissions": {
+                "allow_edit_tags_label": "Permitir editar etiquetas",
+                "bypass_tag_counts_label": "Ignorar requisitos de etiqueta",
+                "restrict_by_tag_heading": "Restringir por etiqueta",
+                "tag_discussions_label": "Etiquetar discusiones"
+            },
+            "tag_settings": {
+                "range_separator_text": " a ",
+                "required_primary_heading": "Número de etiquetas principales requeridas",
+                "required_primary_text": "Introduce el numero mínimo y máximo de etiquetas principales que pueden ser aplicadas a una discusión.",
+                "required_secondary_heading": "Número de etiquetas secundarias requeridas",
+                "required_secondary_text": "Introduce el número mínimo y máximo de etiquetas secundarias que pueden ser aplicadas a una discusión.",
+                "title": "Configuración de Etiquetas"
+            },
+            "tags": {
+                "about_tags_text": "Las etiquetas se utilizan para organizar las discusiones. Las etiquetas principales son para clasificar las discusiones (p. ej. por temática) y pueden ordenarse y organizarse jerárquicamente en dos niveles. Las etiquetas secundarias no tienen orden ni jerarquía y son útiles para la micro organización.",
+                "create_primary_tag_button": "Crear etiqueta principal",
+                "create_secondary_tag_button": "Crear etiqueta secundaria",
+                "primary_heading": "Etiquetas principales",
+                "secondary_heading": "Etiquetas secundarias",
+                "settings_heading": "Ajustes",
+                "create_tag_button": "=> flarum-tags.ref.create_tag",
+                "settings_button": "Ajustes"
+            }
+        },
+        "forum": {
+            "all_tags": {
+                "meta_description_text": "Todas las etiquetas",
+                "meta_title_text": "=> flarum-tags.ref.tags"
+            },
+            "choose_tags": {
+                "choose_primary_placeholder": "Elige una etiqueta principal|Elige {count} etiquetas principales",
+                "choose_secondary_placeholder": "Elige una etiqueta más|Elige {count} etiquetas más",
+                "edit_title": "Editar las etiquetas para '{title}'",
+                "submit_button": "=> core.ref.okay",
+                "title": "Elige las etiquetas para su discusión"
+            },
+            "composer_discussion": {
+                "choose_tags_link": "Elegir etiquetas"
+            },
+            "discussion_controls": {
+                "edit_tags_button": "Editar etiquetas"
+            },
+            "header": {
+                "back_to_tags_tooltip": "Volver a la lista de etiquetas"
+            },
+            "index": {
+                "more_link": "Más...",
+                "tags_link": "=> flarum-tags.ref.tags",
+                "untagged_link": "Sin etiqueta"
+            },
+            "post_stream": {
+                "added_and_removed_tags_text": "{username} puso {tagsAdded} y quitó {tagsRemoved}.",
+                "added_tags_text": "{username} puso {tagsAdded}.",
+                "removed_tags_text": "{username} quitó {tagsRemoved}.",
+                "tags_text": "la etiqueta {tags}|las etiquetas {tags}"
+            },
+            "tag": {
+                "meta_description_text": "Todas las discusiones con la etiqueta {tag}"
+            }
+        },
+        "lib": {
+            "deleted_tag_text": "Borrada"
+        },
+        "ref": {
+            "name": "Nombre",
+            "tags": "Etiquetas",
+            "create_tag": "Crear etiqueta"
+        }
+    }
+}

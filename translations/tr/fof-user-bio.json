@@ -2,13 +2,16 @@
     "fof-user-bio": {
         "admin": {
             "permission": {
-                "view": "",
-                "editOwn": "",
-                "editAny": ""
+                "view": "Biyografiyi görüntüle",
+                "editOwn": "Kendi biyografisini düzenleme",
+                "editAny": "Herhangi bir biyografiyi düzenleme"
+            },
+            "setting": {
+                "bioLimit": "Biyografi karakter sınırı"
             }
         },
         "forum": {
-            "userbioPlaceholder": ""
+            "userbioPlaceholder": "Kendin hakkında bir şeyler yaz"
         }
     },
     "fof-userbio": {

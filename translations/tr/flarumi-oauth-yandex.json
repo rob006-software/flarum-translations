@@ -1,0 +1,25 @@
+{
+    "fof-oauth": {
+        "admin": {
+            "settings": {
+                "providers": {
+                    "yandex": {
+                        "description": "Başvuruyu buradan yapabilirsiniz {link}",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
+                    }
+                }
+            }
+        },
+        "lib": {
+            "providers": {
+                "yandex": "Yandex"
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_yandex": "{provider} ile giriş yapın"
+            }
+        }
+    }
+}

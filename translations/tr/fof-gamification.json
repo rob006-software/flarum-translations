@@ -39,9 +39,6 @@
                 "see_votes_label": "See post upvotes/downvotes",
                 "see_ranking_page": "Sıralama sayfasına bak"
             },
-            "nav": {
-                "desc": "Flarum topluluğunuz için oyunlaştırma"
-            },
             "page": {
                 "rankings": {
                     "blocked": {
@@ -62,10 +59,11 @@
                     "auto_upvote": "Paylaşıldığında otomatik yukarı oyla",
                     "rate_limit": "Bir oy oranı limiti uygula (10 saniye)",
                     "discussion_page": "Orijinal gönderilerin toplam oylarını tartışma listesinde göster",
+                    "alternate_layout": "Olumlu/olumsuz oylar yapmak için alternatif düzen kullanın",
                     "title": "Oylar",
                     "vote_color": "Oylandığındaki renk",
                     "icon_name": "Upvote/downvote icon",
-                    "icon_help": "İstediğiniz -up ve -down arka eki olan Font-Awesome ikonunu ekleyin. Örn: arrow, thumbs, chevron"
+                    "icon_help": "İstediğiniz -up ve -down arka eki olan FontAwesome simgesini ekleyin. Örn: arrow, thumbs, chevron"
                 },
                 "save_settings": "Ayarları Kaydet",
                 "convert": {
@@ -85,6 +83,9 @@
                         "name": "İsim"
                     }
                 }
+            },
+            "nav": {
+                "desc": "Flarum topluluğunuz için oyunlaştırma"
             }
         }
     }

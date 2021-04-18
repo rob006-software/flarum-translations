@@ -1,0 +1,50 @@
+{
+    "flarum-flags": {
+        "admin": {
+            "permissions": {
+                "flag_posts_label": "報告投稿",
+                "view_flags_label": "報告のリストを表示"
+            },
+            "settings": {
+                "flag_own_posts_label": "ユーザーが自分の投稿を報告できるようにする",
+                "guidelines_url_label": "コミュニティのガイドラインの URL",
+                "title": "報告設定"
+            }
+        },
+        "forum": {
+            "flag_post": {
+                "confirmation_message": "報告をありがとう、管理者はすぐにそれを処理します。",
+                "dismiss_button": "=> core.ref.okay",
+                "reason_details_placeholder": "詳細な説明（オプション）",
+                "reason_inappropriate_label": "わいせつな",
+                "reason_inappropriate_text": "この投稿には攻撃的、虐待的な言葉が含まれているか、<a>フォーラムコード</a>に違反しています",
+                "reason_missing_message": "いくつかの詳細をお知らせください。",
+                "reason_off_topic_label": "オフトピック",
+                "reason_off_topic_text": "この投稿は、現在のディスカッショントピックとは無関係であり、別の場所に移動する必要があります。",
+                "reason_other_label": "その他（具体）",
+                "reason_spam_label": "スパム",
+                "reason_spam_text": "この投稿は広告です。",
+                "submit_button": "=> flarum-flags.ref.flag_post",
+                "title": "=> flarum-flags.ref.flag_post"
+            },
+            "flagged_posts": {
+                "empty_text": "報告なし",
+                "item_text": "<em>{discussion}</em> 内の {username} による投稿",
+                "title": "=> flarum-flags.ref.flagged_posts",
+                "tooltip": "=> flarum-flags.ref.flagged_posts"
+            },
+            "post": {
+                "dismiss_flag_button": "レポートフラグを元に戻す",
+                "flagged_by_text": "{username} による報告：",
+                "flagged_by_with_reason_text": "{username} による報告：{reason}"
+            },
+            "post_controls": {
+                "flag_button": "報告"
+            }
+        },
+        "ref": {
+            "flag_post": "報告投稿",
+            "flagged_posts": "報告された投稿"
+        }
+    }
+}

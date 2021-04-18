@@ -1,25 +1,21 @@
 {
     "fof-user-directory": {
         "forum": {
+            "header": {
+                "back_to_user_directory_tooltip": "Back to User Directory"
+            },
             "search": {
-                "users_heading": "Search all users for \"{query}\""
+                "users_heading": "Search all users for \"{query}\"",
+                "field": {
+                    "placeholder": "Search all users"
+                }
             },
             "page": {
                 "nav": "User Directory",
-                "sort": {
-                    "relevance": "Relevance",
-                    "default": "Default",
-                    "username_az": "Username (a-z)",
-                    "username_za": "Username (z-a)",
-                    "newest": "Newest",
-                    "oldest": "Oldest",
-                    "seen_recent": "Recently online",
-                    "seen_oldest": "Longest away",
-                    "most_posts": "Most posts",
-                    "least_posts": "Least posts",
-                    "most_discussions": "Most discussions",
-                    "least_discussions": "Least discussions"
-                }
+                "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
+                "load_more_button": "=> core.ref.load_more",
+                "empty_text": "We could not find any user matching your search.",
+                "filter_button": "Filter Groups"
             }
         },
         "admin": {
@@ -27,8 +23,22 @@
                 "view_user_directory": "View user directory"
             },
             "settings": {
-                "title": "User Directory Settings",
-                "link": "Add link on homepage for users able to see the directory"
+                "link": "Add link on homepage for users able to see the directory",
+                "default-sort": "Default sort"
+            }
+        },
+        "lib": {
+            "sort": {
+                "not_specified": "Use Flarum default",
+                "default": "Default",
+                "username_az": "Username (a-z)",
+                "username_za": "Username (z-a)",
+                "newest": "Newest",
+                "oldest": "Oldest",
+                "most_posts": "Most posts",
+                "least_posts": "Least posts",
+                "most_discussions": "Most discussions",
+                "least_discussions": "Least discussions"
             }
         }
     }

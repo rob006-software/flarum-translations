@@ -2,28 +2,28 @@
     "clarkwinkelmann-author-change": {
         "forum": {
             "controls": {
-                "edit": "变更作者"
+                "edit": "变更作者和日期"
             },
             "modal": {
-                "title-post": "变更帖子作者",
-                "title-discussion": "变更主题作者",
-                "user": "",
-                "created_at": "",
-                "edited_at": "",
+                "title-post": "变更帖子作者和日期",
+                "title-discussion": "变更主题作者和日期",
+                "user": "作者",
+                "created_at": "创建时间",
+                "edited_at": "编辑时间",
                 "submit": "保存",
                 "cancel": "取消",
                 "search_placeholder": "搜索用户"
             },
             "search": {
                 "placeholder": "搜索用户",
-                "type-more": "搜索需要至少三个字符",
-                "no-results": "用户不存在，请检查输入是否有误"
+                "type-more": "键入至少3个字符以搜索",
+                "no-results": "用户不存在"
             }
         },
         "admin": {
             "permissions": {
-                "edit-user": "",
-                "edit-date": "",
+                "edit-user": "变更主题和帖子作者",
+                "edit-date": "变更主题和帖子日期",
                 "edit": "更新发帖及回帖者"
             }
         }

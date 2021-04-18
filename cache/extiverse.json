@@ -1,62 +1,107 @@
 {
+    "blomstra/payments": {
+        "name": "blomstra/payments",
+        "title": "Payments",
+        "description": "Monetize your Flarum community; pay to post/view/access",
+        "version": "0.2.2",
+        "compatible": true
+    },
+    "blomstra/readme": {
+        "name": "blomstra/readme",
+        "title": "Readme",
+        "description": "Display extension README file in the admin panel",
+        "version": "0.1-beta.3",
+        "compatible": false
+    },
+    "blomstra/realtime": {
+        "name": "blomstra/realtime",
+        "title": "Realtime",
+        "description": "Step up to make your Flarum forum realtime.",
+        "version": "0.1-beta.30",
+        "compatible": false
+    },
     "datitisev/flarum-backup": {
         "name": "datitisev/flarum-backup",
         "title": "Backup",
         "description": "Backup your Flarum files and database to one or more local or remote storages.",
-        "version": "0.2.1"
+        "version": "0.5.0",
+        "compatible": true
     },
     "datitisev/flarum-maintenance": {
         "name": "datitisev/flarum-maintenance",
         "title": "Maintenance Mode",
         "description": "A customizable maintenance mode for your forum!",
-        "version": "0.1.0"
+        "version": "0.4.0",
+        "compatible": true
     },
     "kilowhat/flarum-ext-audit-pro": {
         "name": "kilowhat/flarum-ext-audit-pro",
         "title": "Audit Pro",
         "description": "Audit log for Flarum",
-        "version": "1.1.0"
+        "version": "1.3.3",
+        "compatible": true
     },
     "kilowhat/flarum-ext-custom-paths": {
         "name": "kilowhat/flarum-ext-custom-paths",
         "title": "Custom Paths",
         "description": "Customize Flarum default frontend URL paths",
-        "version": "1.0.2"
+        "version": "1.4.0",
+        "compatible": true
     },
     "kilowhat/flarum-ext-formulaire": {
         "name": "kilowhat/flarum-ext-formulaire",
         "title": "Formulaire",
         "description": "Create standalone forms, user profiles and discussion fields in Flarum",
-        "version": "1.0.2"
+        "version": "1.4.0",
+        "compatible": true
+    },
+    "kilowhat/flarum-ext-guest-posting": {
+        "name": "kilowhat/flarum-ext-guest-posting",
+        "title": "Guest Posting",
+        "description": "Enable guest posting",
+        "version": "0.3.0",
+        "compatible": true
     },
     "kilowhat/flarum-ext-wordpress": {
         "name": "kilowhat/flarum-ext-wordpress",
         "title": "Wordpress Integration",
         "description": "Integrate login, comments and other features with Wordpress",
-        "version": "1.5.0"
+        "version": "1.6.4",
+        "compatible": true
+    },
+    "kyrne/aegis": {
+        "name": "kyrne/aegis",
+        "title": "Aegis",
+        "description": "2 Factor authentication with a multitude of methods for Flarum.",
+        "version": "1.0.12",
+        "compatible": false
     },
     "kyrne/websocket": {
         "name": "kyrne/websocket",
         "title": "Websocket",
-        "description": "Replaces pusher server with an integrated websocket server.",
-        "version": "1.0.5"
+        "description": "Integrated Pusher replacement.",
+        "version": "2.5.0",
+        "compatible": true
     },
     "reflar/recache": {
         "name": "reflar/recache",
-        "title": "ReFlar ReCache",
+        "title": "ReCache",
         "description": "Cache requests and database queries.",
-        "version": "2.0.9"
+        "version": "2.3.3",
+        "compatible": true
     },
     "reflar/webhooks-pro": {
         "name": "reflar/webhooks-pro",
         "title": "ReFlar Webhooks PRO",
         "description": "Webhooks PRO by ReFlar",
-        "version": "0.3.0"
+        "version": "0.3.0",
+        "compatible": false
     },
     "v17development/flarum-support": {
         "name": "v17development/flarum-support",
         "title": "Support",
         "description": "Make from your forum a support platform",
-        "version": "1.2.2"
+        "version": "2.2.2",
+        "compatible": true
     }
 }

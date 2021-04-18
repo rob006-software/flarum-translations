@@ -1,0 +1,73 @@
+{
+    "fof-ban-ips": {
+        "forum": {
+            "ban_ip_button": "=> fof-ban-ips.ref.ban_ip_button",
+            "unban_ip_button": "=> fof-ban-ips.ref.unban_ip_button",
+            "modal": {
+                "ban_options_only_ip": "Banna solo IP corrente (<code>{ip}</code>)",
+                "ban_options_all_ip": "Banna tutti gli IP usati da <i>{username}</i>",
+                "ban_ip_no_users": "Nessun altro verrà bannato"
+            },
+            "user_badge": {
+                "banned_tooltip": "Bannato"
+            },
+            "user_controls": {
+                "ban_button": "=> fof-ban-ips.ref.ban_label",
+                "unban_button": "=> fof-ban-ips.ref.unban_label"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "ban_ip_label": "=> fof-ban-ips.ref.ban_ip_addresses",
+                "view_banned_ip_list_label": "Vedi lista ip bannati"
+            },
+            "page": {
+                "create_button": "=> fof-ban-ips.ref.ban_ip_button",
+                "creator_label": "Creatore",
+                "user_label": "Utente",
+                "address_label": "=> fof-ban-ips.ref.address_label",
+                "reason_label": "=> fof-ban-ips.ref.reason_label",
+                "date_label": "Data"
+            },
+            "modal": {
+                "update_title": "Aggiorna IP Bannati",
+                "ban_ip_no_users": "Nessuno verrà bannato"
+            },
+            "empty_text": "Nessun IP bannato trovato."
+        },
+        "error": {
+            "banned_ip_message": "Autorizzazione fallita.",
+            "no_ips_found_message": "Nessun IP trovato per l'utente."
+        },
+        "lib": {
+            "modal": {
+                "title": "=> fof-ban-ips.ref.ban_ip_addresses",
+                "unban_title": "=> fof-ban-ips.ref.unban_ip_addresses",
+                "address_label": "=> fof-ban-ips.ref.address_label",
+                "reason_label": "=> fof-ban-ips.ref.reason_label",
+                "check_button": "Controlla",
+                "save_button": "Salva",
+                "ban_ip_confirmation": "Sei sicuro di voler bloccare l'utilizzo di questo indirizzo IP nel forum? Ciò impedirà agli utenti con questo indirizzo IP di accedere e registrarsi.",
+                "ban_ip_users": "L'utente {users} verrà bannato|Gli utenti {users} verranno bannati",
+                "unban_ip_confirmation": "Sei sicuro di voler sbloccare questo utente e tutti gli altri utenti non bannati da altri IP?",
+                "unban_options_only_ip": "Sblocca solo l'IP corrente (<code> {ip} </code>)",
+                "unban_options_all_ip": "Annulla il ban di tutti gli IP utilizzati da <i> {username} </i>",
+                "unban_ip_no_users": "Nessun altro verrà bannato",
+                "unban_ip_users": "L'utente {users} verrà sbloccato|Gli utenti {users} verranno sbloccati",
+                "unbanned_ips": "Non bannati <code>{ips}</code>.",
+                "ban_button": "=> fof-ban-ips.ref.ban_label",
+                "unban_button": "=> fof-ban-ips.ref.unban_label"
+            }
+        },
+        "ref": {
+            "ban_label": "Banna",
+            "ban_ip_addresses": "Banna IP",
+            "ban_ip_button": "Banna IP",
+            "unban_label": "Sblocca",
+            "unban_ip_addresses": "Sblocca IP",
+            "unban_ip_button": "Sblocca IP",
+            "address_label": "Indirizzo IP",
+            "reason_label": "Motivazione"
+        }
+    }
+}

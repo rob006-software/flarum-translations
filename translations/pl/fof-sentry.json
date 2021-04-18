@@ -5,7 +5,9 @@
                 "dsn_label": "Sentry DSN",
                 "user_feedback_label": "Feedback od użytkowników",
                 "javascript_label": "Zgłaszaj błędy JavaScriptu",
-                "javascript_console_label": "Przechwytuj konsolę JavaScriptu"
+                "javascript_console_label": "Przechwytuj konsolę JavaScriptu",
+                "javascript_trace_sample_rate": "Procent żądań monitorowanych pod kątem wydajności frontendu (0 - 100)",
+                "monitor_performance_label": "Procent żądań monitorowanych pod kątem wydajności backendu (0 - 100)"
             }
         }
     }

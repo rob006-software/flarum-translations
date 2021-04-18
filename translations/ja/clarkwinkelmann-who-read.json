@@ -1,0 +1,56 @@
+{
+    "clarkwinkelmann-who-read": {
+        "forum": {
+            "tooltip": {
+                "last-read-at": "{ago} に読んだ {username}",
+                "last-read-at-behind": "{ago} に読んだ {username}",
+                "last-read-at-up-to-date": "{username} は {ago} に最新の返信をチェックしました"
+            },
+            "more": {
+                "show": "展開（{count} 人）",
+                "info": "さらに {count} 人"
+            },
+            "footer": {
+                "read-this-post": "{0} 誰もこの投稿を読んでいない|{1} 1 人がこの投稿を見ました|]1,Inf] {count} 人がこの投稿を見ました",
+                "read-no-further": "{0} 誰もがすでに読んだ|{1} 1 人がこの投稿を読みました|]1,Inf] {count} 人がこの投稿を読みました",
+                "read-to-end": "{0} 誰も最後まで読んでいない|{1} 1 人がすべて読む|]1,Inf] {count} 人がすべて読む"
+            },
+            "controls": {
+                "set-unread": "未読にする",
+                "remove-unread": "既読にする"
+            },
+            "badges": {
+                "following": "=> flarum-subscriptions.forum.badge.following_tooltip",
+                "ignoring": "=> flarum-subscriptions.forum.badge.ignoring_tooltip",
+                "unread": "未読にする"
+            },
+            "modal": {
+                "title": "読者",
+                "up-to-this-post": "この投稿のみを読むユーザー",
+                "past-this-post": "ここを読み終えたユーザー",
+                "to-the-end": "すべて読んだユーザー",
+                "behind": "未読ユーザー"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "see-read": "「読書の進捗」の閲覧を許可する",
+                "see-subscription": "サブスクリプションステータスの閲覧を許可する",
+                "see-unread": "他のユーザーの未読ステータスを見る",
+                "mark-unread": "ユーザーがスレッドを未読としてマークできるようにする",
+                "heading": "Who Read"
+            },
+            "settings": {
+                "show-in-discussion-list": "ホームページのスレッドリストに読者を表示する",
+                "show-in-hero": "スレッドページのバナーにリーダーを表示する",
+                "show-between-posts": "ポストストリームで読書の進捗を表示",
+                "show-count-of-readers-who-stopped": "投稿ストリームでは、未読ユーザーの数のみが表示されます。",
+                "hide-when-behind": "読書の進捗が非常に遅いユーザーを表示しない（単位：ポスト）値が1の場合、ユーザーがスレッドに未読の投稿を1つ持っている限り、彼/彼女は読者リストに表示されません。この値をクリアすると、デフォルトに戻ります。",
+                "max-visible": "スレッドバナーに表示するリーダーの最大数を設定します（この数を超えた後、完全なリストを表示するには展開ボタンをクリックする必要があります）",
+                "unread-icon": "アバターの未読バッジアイコン",
+                "only-groups": "グループユーザーの読書の進行状況のみを表示する",
+                "title": "読書の進捗 - 設定"
+            }
+        }
+    }
+}

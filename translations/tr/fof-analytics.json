@@ -2,6 +2,46 @@
     "fof-analytics": {
         "admin": {
             "popup": {
+                "section": {
+                    "googleAnalytics": "Google Analytics",
+                    "piwik": "Piwik"
+                },
+                "field": {
+                    "statusGoogle": "Google Analytics'i etkinleştir",
+                    "optTrackingCode": "Takip Kodunu Optimize Et (isteğe bağlı)",
+                    "googleTrackingCode": "Takip Kodu ID",
+                    "googleGTMCode": "GTM kod ID (isteğe bağlı)",
+                    "statusPiwik": "Piwik'i etkinleştir",
+                    "piwikUrl": "Piwik alanadı veya bağlantısı",
+                    "piwikSiteId": "Site ID",
+                    "piwikTrackSubdomain": "Flarum'un tüm alt alanlarındaki ziyaretçileri takip et",
+                    "piwikPrependDomain": "Takip ederken, site alanını sayfa başlığına bağlı tutma",
+                    "piwikHideAliasUrl": "Outlinks raporunda, bilinen diğer bağlantılara yapılan tıklamaları gizle",
+                    "piwikAliasUrl": "Yabancı Bağlantı",
+                    "piwikTrackAccounts": "Tek tek kullanıcı hesaplarını gizleyin",
+                    "piwikAuthToken": "Authentication Token"
+                },
+                "placeholder": {
+                    "piwikAuthToken": "Yönetici panelinde bir Piwik istatistik sekmesini etkinleştirmek için bu simgeyi doldurun.\nAyarlar > Kişisel > API Kimlik Doğrulama Simgesi'nde bulabilirsiniz.\n"
+                },
+                "trackAccounts": {
+                    "none": "Takip etme",
+                    "username": "Kullanıcı adına göre takip et",
+                    "email": "E-Posta'ya göre takip et"
+                },
+                "title": "Analytics Ayarları"
+            },
+            "page": {
+                "nav": {
+                    "title": "Analytics",
+                    "description": "İstatistiklere göz at"
+                }
+            }
+        }
+    },
+    "flagrow-analytics": {
+        "admin": {
+            "popup": {
                 "title": "Analytics Ayarları",
                 "section": {
                     "googleAnalytics": "Google Analytics",
@@ -9,9 +49,7 @@
                 },
                 "field": {
                     "statusGoogle": "Google Analytics'i etkinleştir",
-                    "optTrackingCode": "",
                     "googleTrackingCode": "Takip Kodu ID",
-                    "googleGTMCode": "",
                     "statusPiwik": "Piwik'i etkinleştir",
                     "piwikUrl": "Piwik alanadı veya bağlantısı",
                     "piwikSiteId": "Site ID",

@@ -1,0 +1,55 @@
+{
+    "fof-drafts": {
+        "admin": {
+            "permissions": {
+                "start": "",
+                "schedule": ""
+            },
+            "settings": {
+                "title": "",
+                "enable_scheduled_drafts": "",
+                "schedule_on_one_server": "",
+                "schedule_log_output": ""
+            }
+        },
+        "console": {
+            "scheduled_drafts_disabled": ""
+        },
+        "forum": {
+            "composer": {
+                "title": "",
+                "saving": "",
+                "saved": "",
+                "exit_alert": "",
+                "discard_empty_draft_alert": ""
+            },
+            "dropdown": {
+                "empty_text": "",
+                "title": "",
+                "delete_button": "",
+                "schedule_button": "",
+                "tooltip": "",
+                "alert": "",
+                "delete_all_alert": ""
+            },
+            "schedule_draft_modal": {
+                "title": "",
+                "text": "",
+                "scheduled_text": "",
+                "scheduled_error": "",
+                "unschedule_button": "",
+                "reschedule_button": "",
+                "schedule_button": ""
+            },
+            "user": {
+                "settings": {
+                    "drafts_heading": "",
+                    "draft_autosave_enable": "",
+                    "draft_autosave_interval_label": "",
+                    "draft_autosave_interval_button": "",
+                    "draft_autosave_interval_invalid": ""
+                }
+            }
+        }
+    }
+}

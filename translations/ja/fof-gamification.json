@@ -1,0 +1,92 @@
+{
+    "core": {
+        "forum": {
+            "index_sort": {
+                "hot_button": "トレンド"
+            }
+        }
+    },
+    "fof-gamification": {
+        "forum": {
+            "votes": "投票",
+            "vote_title": "誰が投票したかを表示",
+            "nav": {
+                "name": "ランキング"
+            },
+            "ranking": {
+                "rank": "場所",
+                "name": "ユーザー",
+                "amount": "👍"
+            },
+            "notification": {
+                "upvote": "{username} が投稿を支持しました",
+                "downvote": "{username} があなたの投稿に投票しました」"
+            },
+            "user": {
+                "points": "👍: {points}",
+                "rank": "{rank}"
+            },
+            "modal": {
+                "title": "有権者",
+                "upvotes_label": "サポーター",
+                "downvotes_label": "相手"
+            },
+            "mod_item": "有権者を表示"
+        },
+        "admin": {
+            "permissions": {
+                "vote_label": "いいね/嫌いな投稿",
+                "see_votes_label": "投稿の高評価/低評価の表示",
+                "see_ranking_page": "表示レベル"
+            },
+            "page": {
+                "rankings": {
+                    "blocked": {
+                        "placeholder": "CDK2020, Ralkage, AngelAvila",
+                        "title": "無視されたユーザー",
+                        "help": "これらのユーザーは、ランキングページには表示されません。 ユーザー名はコンマで区切り、その後にスペースを入れます。"
+                    },
+                    "title": "ランキングページ",
+                    "enable": "カスタム画像を有効にする",
+                    "custom_image_1": "チャンピオンシップ写真",
+                    "custom_image_2": "次点の写真",
+                    "custom_image_3": "3位の写真"
+                },
+                "votes": {
+                    "points_title": "プレースホルダー",
+                    "points_placeholder": "👍: ",
+                    "color_holder": "#ffffff",
+                    "auto_upvote": "投稿が投稿されると自動的にいいね！",
+                    "rate_limit": "投票率の制限を適用します（10 秒）",
+                    "discussion_page": "ディスカッションリストに元の投稿の総投票数を表示する",
+                    "alternate_layout": "",
+                    "title": "投票",
+                    "vote_color": "投票された色",
+                    "icon_name": "好き/嫌いの小さなアイコン",
+                    "icon_help": "Font Awesomeアイコンを入力してください。接尾辞は-upおよび-downです。 例：arrow, thumbs, chevron"
+                },
+                "save_settings": "設定を保存する",
+                "convert": {
+                    "button": "“Likes” をアップ投票に変換する",
+                    "help": "以前のいいねを flarum-ext-likes から upvotes に変換し、現在のすべてのディスカッションの辛さを計算します。",
+                    "converting": "あなたの Likes は現在変換中です。 数分後にサイトを更新して、プロセスが完了したことを確認します。 （フォーラムの総評価数によっては、変換に時間がかかる場合があります）",
+                    "converted": "すべての {number} Likes を正常に変換しました"
+                },
+                "ranks": {
+                    "title": "ランク",
+                    "ranks": "カスタム評価",
+                    "number_title": "バッジはいくつ表示されますか？",
+                    "help": {
+                        "color": "#ffffff",
+                        "help": "好きな数、レベル名、レベルの色を入力してください",
+                        "points": "👍",
+                        "name": "お名前"
+                    }
+                }
+            },
+            "nav": {
+                "desc": "Flarum フォーラムのゲームプレイを強化する"
+            }
+        }
+    }
+}

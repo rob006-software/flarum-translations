@@ -1,0 +1,38 @@
+{
+    "clarkwinkelmann-popular-discussion-badge": {
+        "forum": {
+            "badge_label": "Popular"
+        },
+        "admin": {
+            "settings": {
+                "mode": "Mode of operation",
+                "mode_help": "Frontend mode is an efficient solution that doesn't use the database. Scheduler mode requires a CRON setup and allows timeframes in the conditions.\n",
+                "mode_options": {
+                    "frontend": "Frontend",
+                    "scheduler": "Scheduler (CRON)"
+                },
+                "scheduler_frequency": "Frequency for the scheduled mode",
+                "scheduler_frequency_help": "How often the popular status will be updated in Scheduler (CRON) mode. (In Frontend mode, the status is always immediately updated)\n",
+                "scheduler_frequency_options": {
+                    "everyFiveMinutes": "Every 5 minutes",
+                    "everyTenMinutes": "Every 10 minutes",
+                    "everyFifteenMinutes": "Every 15 minutes",
+                    "everyThirtyMinutes": "Every 30 minutes",
+                    "hourly": "Once per hour"
+                },
+                "conditions": "Conditions for popular badge",
+                "conditions_help": "Comments is the total number of comment posts including the first post. Views are retrieved from either MichaelBelgium or Flarumite extensions. The timeframe given will be used to count the comments or views within the last n hours. Only MichaelBelgium extension is supported for timeframed views. Leave timeframe empty or set 0 hours to count all comments or views ever.\n",
+                "add": "Add another condition",
+                "comments": "Comments",
+                "comments_placeholder": "0",
+                "views": "Views",
+                "views_placeholder": "0",
+                "within": "within",
+                "within_placeholder": "all",
+                "hours": "h",
+                "and": "AND",
+                "or": "OR"
+            }
+        }
+    }
+}

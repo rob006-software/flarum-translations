@@ -2,53 +2,54 @@
     "fof-drafts": {
         "admin": {
             "permissions": {
-                "start": "Tartışma için taslak oluştur",
-                "schedule": ""
+                "start": "Taslak oluştur",
+                "schedule": "Taslağı zamanla"
             },
             "settings": {
-                "title": "",
-                "enable_scheduled_drafts": "",
-                "schedule_on_one_server": "",
-                "schedule_log_output": ""
+                "title": "Taslak Ayarları",
+                "enable_scheduled_drafts": "Zamanlanmış taslakları aç",
+                "schedule_on_one_server": "Görev zamanlayıcı için 'onOneServer()' direktifini kullanın (Redis/Memcache gerektirir)",
+                "schedule_log_output": "Depolamayı günlüğe kaydetmek için zamanlayıcı çıktısını ekleyin"
             }
         },
         "console": {
-            "scheduled_drafts_disabled": ""
+            "scheduled_drafts_disabled": "Zamanlanmış taslıklar ayarlardan kapalıdır."
         },
         "forum": {
             "composer": {
                 "title": "Taslağı Kaydet",
-                "saving": "",
-                "saved": "",
-                "exit_alert": "",
-                "discard_empty_draft_alert": "",
+                "saving": "Kaydediliyor...",
+                "saved": "Kaydedildi!",
+                "exit_alert": "Taslaktaki değişiklikler yok sayılsın mı?",
+                "discard_empty_draft_alert": "Boş taslak silinsin mi?",
                 "alert": "Taslak kaydedildi."
             },
             "dropdown": {
-                "empty_text": "",
+                "empty_text": "Herhangi bir taslak kaydetmediniz",
                 "title": "Taslaklar",
-                "delete_button": "",
-                "schedule_button": "",
+                "delete_button": "Taslağı Sil",
+                "schedule_button": "Taslağı Zamanla",
                 "tooltip": "=> fof-drafts.forum.dropdown.title",
                 "alert": "Taslağınızı silmek istediğine emin misiniz?",
+                "delete_all_alert": "Tüm taslaklarınızı silmek istediğinizden emin misiniz?",
                 "button": "Taslağı Sil"
             },
             "schedule_draft_modal": {
-                "title": "",
-                "text": "",
-                "scheduled_text": "",
-                "scheduled_error": "",
-                "unschedule_button": "",
-                "reschedule_button": "",
-                "schedule_button": ""
+                "title": "Taslağı Zamanla",
+                "text": "Gönderiyi daha sonra yayınlamak için taslağı zamanla!",
+                "scheduled_text": "Gönderinin zamanlandığı tarih {datetime}.",
+                "scheduled_error": "Gönderilemedi, sebebi: {error}.",
+                "unschedule_button": "Zamanlama",
+                "reschedule_button": "Yeniden Zamanla",
+                "schedule_button": "Zamanla"
             },
             "user": {
                 "settings": {
-                    "drafts_heading": "",
-                    "draft_autosave_enable": "",
-                    "draft_autosave_interval_label": "",
-                    "draft_autosave_interval_button": "",
-                    "draft_autosave_interval_invalid": ""
+                    "drafts_heading": "Taslaklar",
+                    "draft_autosave_enable": "Taslaklar için otomatik kayıt etkinleştirilsin mi?",
+                    "draft_autosave_interval_label": "Otomatik Kaydetme Aralığı (saniye)",
+                    "draft_autosave_interval_button": "Güncelleme Aralığı",
+                    "draft_autosave_interval_invalid": "Güncelleme aralığı 4 sayısından büyük olmalıdır."
                 }
             }
         }

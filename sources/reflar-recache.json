@@ -10,6 +10,7 @@
                 "desc": "Configure caching settings."
             },
             "page": {
+                "heading": "Settings",
                 "connection_failed": "Failed to connect.",
                 "switches": {
                     "cache": "Enable cache",
@@ -17,8 +18,6 @@
                     "avatar": "Enable image optimization",
                     "lazy": "Enable lazy loading of images"
                 },
-                "heading": "ReCache",
-                "text": "Configure the currently active caching driver below. Feel free to preconfigure any\nof the other available drivers and switch over afterwards.\n",
                 "redis": {
                     "label": "Redis",
                     "check": "Check connection before saving!!",
