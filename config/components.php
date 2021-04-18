@@ -603,6 +603,9 @@ return [
 	'v17development-user-badges' => [
 		'tag' => 'https://raw.githubusercontent.com/v17development/flarum-user-badges/v0.1.2/locale/en.yaml',
 	],
+	'webbinaro-calendar' => [
+		'tag' => 'https://raw.githubusercontent.com/eddiewebb/flarum-calendar/0.3.0/resources/locale/en.yml',
+	],
 	'xelson-chat' => [
 		'tag' => 'https://raw.githubusercontent.com/Xelson/flarum-ext-chat/v1.0.0/resources/locale/en.yaml',
 	],
