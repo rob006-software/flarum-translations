@@ -135,6 +135,9 @@ return [
 	'clarkwinkelmann-see-past-first-post' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-see-past-first-post/1.1.0/resources/locale/en.yml',
 	],
+	'clarkwinkelmann-status' => [
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-status/0.1.2/resources/locale/en.yml',
+	],
 	'clarkwinkelmann-who-read' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-who-read/1.3.0/resources/locale/en.yml',
 	],
