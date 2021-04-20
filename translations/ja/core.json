@@ -472,6 +472,9 @@
                 "permission_denied_message": "実行する権限がありません。",
                 "rate_limit_exceeded_message": "実行する間隔が早すぎます。時間が経ってからお試しください。"
             },
+            "loading_indicator": {
+                "accessible_label": ""
+            },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
@@ -562,6 +565,7 @@
             "icon": "アイコン",
             "icon_text": "接頭辞<code>fas fa-</code><em>を含む</em><a>Font Awesome</a> のアイコン名を入力してください。",
             "load_more": "さらに読み込む",
+            "loading": "",
             "log_in": "ログイン",
             "log_out": "ログアウト",
             "mark_all_as_read": "すべて既読にする",

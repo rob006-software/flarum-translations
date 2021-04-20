@@ -437,6 +437,9 @@
                 "permission_denied_message": "You do not have permission to do that.",
                 "rate_limit_exceeded_message": "You're going a little too quickly. Please try again in a few seconds."
             },
+            "loading_indicator": {
+                "accessible_label": "=> core.ref.loading"
+            },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
@@ -527,6 +530,7 @@
             "icon": "Icon",
             "icon_text": "Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the <code>fas fa-</code> prefix.",
             "load_more": "Load More",
+            "loading": "Loading...",
             "log_in": "Log In",
             "log_out": "Log Out",
             "mark_all_as_read": "Mark All as Read",

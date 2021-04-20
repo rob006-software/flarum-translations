@@ -472,6 +472,9 @@
                 "permission_denied_message": "您没有权限进行此操作。",
                 "rate_limit_exceeded_message": "您的操作太频繁，请稍后再试。"
             },
+            "loading_indicator": {
+                "accessible_label": ""
+            },
             "number_suffix": {
                 "kilo_text": "千",
                 "mega_text": "百万",
@@ -563,6 +566,7 @@
             "icon": "图标",
             "icon_text": "输入任意一个 <a>Font Awesome</a> 图标名称。<em>包括</em>前缀，例如 <code>fas fa-</code>",
             "load_more": "加载更多",
+            "loading": "",
             "log_in": "登录",
             "log_out": "退出",
             "mark_all_as_read": "将所有帖子标记为已读",
