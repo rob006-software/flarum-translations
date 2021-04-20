@@ -2,63 +2,63 @@
     "fof-masquerade": {
         "forum": {
             "alerts": {
-                "profile-completion-required": "",
-                "profile-completed": ""
+                "profile-completion-required": "Si prega di completare i campi profilo necessari di seguito.\n",
+                "profile-completed": "Profilo completato! <a> Vai alla home </a>"
             },
             "buttons": {
-                "view-profile": "",
-                "save-profile": ""
+                "view-profile": "Vedi profilo",
+                "save-profile": "Salva"
             },
             "fields": {
                 "select": {
-                    "none-optional": "",
-                    "none-required": ""
+                    "none-optional": "Nessuna opzione selezionata (opzionale)",
+                    "none-required": "Seleziona un'opzione (richiesto)"
                 },
                 "boolean": {
-                    "yes": "",
-                    "no": ""
+                    "yes": "Si",
+                    "no": "No"
                 }
             }
         },
         "admin": {
-            "general-options": "",
+            "general-options": "Opzioni Generali",
             "buttons": {
-                "add-field": "",
-                "edit-field": "",
-                "delete-field": ""
+                "add-field": "Crea campo",
+                "edit-field": "Salva modifiche",
+                "delete-field": "Cancella campo"
             },
             "permissions": {
-                "have-profile": "",
-                "view-profile": ""
+                "have-profile": "Ha un profilo masquerade",
+                "view-profile": "Vedi profilo masquerade"
             },
             "fields": {
-                "title": "",
-                "add": "",
-                "edit": "",
-                "name": "",
-                "name-help": "",
-                "description": "",
-                "description-help": "",
-                "required": "",
-                "on_bio": "",
-                "type": "",
-                "validation": "",
-                "validation-help": "",
-                "prefix": "",
-                "prefix-help": "",
-                "icon": "",
-                "icon-help": "",
-                "force-user-to-completion": "",
-                "options": "",
-                "option-new": "",
-                "option-comma-warning": ""
+                "title": "Campi",
+                "add": "Aggiungi campo {field}",
+                "edit": "Modifica campo {field}",
+                "name": "Nome campo",
+                "name-help": "L'etichetta del campo visibile pubblicamente (non traducibile).\n",
+                "description": "Descrizione campo",
+                "description-help": "Una descrizione facoltativa per spiegare l'uso/necessità di questo campo.\n",
+                "required": "Contrassegna campo come obbligatorio",
+                "on_bio": "Mostra la risposta a questo campo nella biografia dell'utente",
+                "type": "Genere",
+                "validation": "Validazione",
+                "validation-help": "Controlla le <a> regole di convalida Laravel </a> supportate. Ad esempio: \"string | min: 5\" o \"url\".\n",
+                "prefix": "Prefisso campo",
+                "prefix-help": "Mostra il tuo prefisso davanti ai valori inseriti dall'utente per questo campo.\n",
+                "icon": "Icona",
+                "icon-help": "Mostra un'icona davanti ai valori inseriti dall'utente. Per un riferimento alle icone disponibili, controlla il <a> sito web FontAwesome </a>. Usa nomi di icone con il prefisso \"fa-\", come \"fas fa-info\".\n",
+                "force-user-to-completion": "Forza l'utente a completare il profilo",
+                "options": "Opzioni",
+                "option-new": "Nuova opzione",
+                "option-comma-warning": "L'etichetta di un'opzione non può contenere virgole (\",\")."
             },
             "types": {
-                "advanced": "",
-                "boolean": "",
-                "email": "",
-                "select": "",
-                "url": ""
+                "advanced": "Avanzate",
+                "boolean": "Checkbox",
+                "email": "Email",
+                "select": "Menu a discesa",
+                "url": "URL"
             }
         }
     }
