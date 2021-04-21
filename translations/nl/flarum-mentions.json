@@ -1,5 +1,11 @@
 {
     "flarum-mentions": {
+        "admin": {
+            "settings": {
+                "allow_username_format_label": "",
+                "allow_username_format_text": ""
+            }
+        },
         "forum": {
             "composer": {
                 "mention_tooltip": "Vermeld een gebruiker of bericht",
@@ -24,6 +30,9 @@
             },
             "user": {
                 "mentions_link": "Vermeldingen"
+            },
+            "post_mention": {
+                "deleted_text": ""
             }
         },
         "email": {

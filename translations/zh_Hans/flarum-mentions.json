@@ -1,5 +1,11 @@
 {
     "flarum-mentions": {
+        "admin": {
+            "settings": {
+                "allow_username_format_label": "",
+                "allow_username_format_text": ""
+            }
+        },
         "forum": {
             "composer": {
                 "mention_tooltip": "提及用户或楼层",
@@ -24,6 +30,9 @@
             },
             "user": {
                 "mentions_link": "被提及"
+            },
+            "post_mention": {
+                "deleted_text": ""
             }
         },
         "email": {

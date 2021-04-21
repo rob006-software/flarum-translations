@@ -1,5 +1,11 @@
 {
     "flarum-mentions": {
+        "admin": {
+            "settings": {
+                "allow_username_format_label": "",
+                "allow_username_format_text": ""
+            }
+        },
         "forum": {
             "composer": {
                 "mention_tooltip": "Wspomnij użytkownika bądź post",
@@ -24,6 +30,9 @@
             },
             "user": {
                 "mentions_link": "Wspomniany"
+            },
+            "post_mention": {
+                "deleted_text": ""
             }
         },
         "email": {

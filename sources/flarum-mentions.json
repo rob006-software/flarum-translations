@@ -1,5 +1,11 @@
 {
     "flarum-mentions": {
+        "admin": {
+            "settings": {
+                "allow_username_format_label": "Allow username mention format (@Username)",
+                "allow_username_format_text": "The current format for user mentions is @\"Display Name\"#ID.\nThis setting allows using the old format of @Username, however it will still be converted to the new format upon saving.\n"
+            }
+        },
         "forum": {
             "composer": {
                 "mention_tooltip": "Mention a user or post",
@@ -24,6 +30,9 @@
             },
             "user": {
                 "mentions_link": "Mentions"
+            },
+            "post_mention": {
+                "deleted_text": "[unknown]"
             }
         },
         "email": {
