@@ -2,8 +2,8 @@
     "flarum-mentions": {
         "admin": {
             "settings": {
-                "allow_username_format_label": "",
-                "allow_username_format_text": ""
+                "allow_username_format_label": "Kullanıcı adıyla bahsetmeye izin ver (@Kullanıcı)",
+                "allow_username_format_text": "Kullanıcının bahsedildiği mevcut format @\"Görünen Ad\"#ID şeklindedir.\nBu ayar eski @Kullanıcı formatının kullanılmasına izin verir, ancak yine de kaydedildikten sonra yeni formata dönüştürecektir.\n"
             }
         },
         "forum": {
@@ -32,7 +32,7 @@
                 "mentions_link": "Bahsetmeler"
             },
             "post_mention": {
-                "deleted_text": ""
+                "deleted_text": "[bilinmeyen]"
             }
         },
         "email": {
