@@ -1,0 +1,29 @@
+{
+    "flarum-ext-contactme": {
+        "settings": {
+            "emaillabel": "Email to which the contact form will be sent"
+        },
+        "admin": {
+            "settings": {
+                "emaillabel": "Email to which the contact form will be sent"
+            }
+        },
+        "forum": {
+            "title": "Contact Us",
+            "notloggedin": "Please login to use the contact form",
+            "placeholderName": "Write your name here",
+            "emailfield": "Write your email address",
+            "pageTitle": ".Contact Us",
+            "subject": "Message from the contact form",
+            "sendForm": "Send Message",
+            "textAreaField": "Write your message here",
+            "pText": "<p>By filling out this contact form you can send us commercial communications, partnerships or simply any type of question, which will be answered within a maximum of 7 days..</p>\n<p><strong>TREATMENT OF PERSONAL DATA</strong></p>\n<p>(Privacy policy art. 13 del d.lgs. 196/2003)</p>\n<p>We inform you that the data you will provide to the operator of this site when filling in the \"contact form\" (also called form mail) of the site itself, will be treated in compliance with the provisions of Legislative Decree 196/2003, Code in subject of personal data protection.\n   The contact form made available on the site has the sole purpose of allowing site visitors to contact, if they so wish, the site manager, by sending an email to the manager via the aforementioned form.\n   This information concerns the personal data sent by the visitor user when filling out the contact form.</p>\n<p>Please follow this rules:</p>\n<li>Do not abuse the contact form for requests that can be made in the forum</li>\n<li>Don't send the same email multiple times</li>\n"
+        },
+        "email": {
+            "contact": {
+                "subject": "New contact via form",
+                "body": "Hello!\n\nYou have received a new contact form submission from {username} (email: {email})\n\nTheir message is:\n\n{message}\n"
+            }
+        }
+    }
+}
