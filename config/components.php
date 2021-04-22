@@ -504,6 +504,9 @@ return [
 	'migratetoflarum-fake-data' => [
 		'tag' => 'https://raw.githubusercontent.com/migratetoflarum/fake-data/0.3.6/resources/locale/en.yml',
 	],
+	'muhammadbaiquni-passport' => [
+		'tag' => 'https://raw.githubusercontent.com/muhammadbaiquni/passport/0.6.0/locale/en.yml',
+	],
 	'nearata-cakeday' => [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-cakeday/v1.3.0/resources/locale/en.yml',
 	],
