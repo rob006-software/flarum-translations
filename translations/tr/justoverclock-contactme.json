@@ -1,28 +1,28 @@
 {
     "flarum-ext-contactme": {
         "settings": {
-            "emaillabel": ""
+            "emaillabel": "İletişim formunun gönderileceği elektronik posta adresi"
         },
         "admin": {
             "settings": {
-                "emaillabel": ""
+                "emaillabel": "İletişim formunun gönderileceği elektronik posta adresi"
             }
         },
         "forum": {
-            "title": "",
-            "notloggedin": "",
-            "placeholderName": "",
-            "emailfield": "",
-            "pageTitle": "",
-            "subject": "",
-            "sendForm": "",
-            "textAreaField": "",
-            "pText": ""
+            "title": "İletişime Geç",
+            "notloggedin": "İletişim formunu kullanmak için lütfen giriş yapın",
+            "placeholderName": "Adınızı buraya yazın",
+            "emailfield": "Elektronik posta adresinizi buraya yazın",
+            "pageTitle": ".İletişime Geç",
+            "subject": "İletişim formundan mesajınız var",
+            "sendForm": "Mesajı Gönder",
+            "textAreaField": "Mesajınızı buraya yazın",
+            "pText": "<p>Bu iletişim formunu doldurarak bize ticari yazışmalar, ortaklıklar ve her türlü sorunuzu sorabilirsiniz, süm sorularınızı en fazla 7 gün içinde yanıtlamaya çalışıyoruz.</p>\n<p><strong>KİŞİSEL VERİLERİN İŞLENMESİ</strong></p>\n<p>(KVKK uyarınca)</p>\n<p>Sitede yer alan iletişim formu (aynı zamanda form postası) doldurarak kişisel verilerinizin bir kısmını bizle paylaşmayı kabul edersiniz.\n   Sitede sunulan iletişim formunun tek amacı, site ziyaretçilerinin istekleri doğrultusunda site yönetimi ile elektronik posta aracılığı ile iletişime geçmesini sağlamaktır.\n   Elde edilecek bilgiler, ziyaretçinin formu doldurduğu esnada kendi girdiği bilgilerden oluşmaktadır.</p>\n<p>Lütfen kurallara dikkat edin:</p>\n<li>Forum üzerinden talep edilebilecek bilgiler için iletişim formunu kullanmayın. Herkese açık olarak sorduğunuz sorular ileride benzer sorunu yaşayacak potansiyel kullanıcılar için faydalı olacaktır.</li>\n<li>Bir mesajı birden fazla göndermeyin, en kısa sürede sizinle iletişime geçmeye çalışacağız.</li>\n"
         },
         "email": {
             "contact": {
-                "subject": "",
-                "body": ""
+                "subject": "Form aracılığıyla yeni iletişim mesajı",
+                "body": "Merhaba!\n\n{username} (email: {email}) kullanıcısından yeni bir iletişim formu mesajı aldınız\n\nKullanıcının mesajı:\n\n{message}\n"
             }
         }
     }
