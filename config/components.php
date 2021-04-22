@@ -441,6 +441,9 @@ return [
 	'jslirola-login2seeplus' => [
 		'tag' => 'https://raw.githubusercontent.com/jslirola/flarum-ext-login2seeplus/v0.1.9.1/locale/en.yml',
 	],
+	'justoverclock-contactme' => [
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-contactme/0.1.2/resources/locale/en.yml',
+	],
 	'kilowhat-audit-free' => [
 		'tag' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-audit-free/1.3.3/resources/locale/en.yml',
 	],
