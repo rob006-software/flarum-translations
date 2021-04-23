@@ -154,8 +154,8 @@
                 "email_title": "=> core.admin.email.description",
                 "permissions_button": "=> core.admin.permissions.title",
                 "permissions_title": "=> core.admin.permissions.description",
-                "userlist_button": "",
-                "userlist_title": "",
+                "userlist_button": "=> core.admin.users.title",
+                "userlist_title": "=> core.admin.users.description",
                 "search_placeholder": "Rechercher des extensions",
                 "appearance_text": "Personnalisez les couleurs, les logos et les autres aspects de votre forum.",
                 "basics_text": "Définissez le titre de votre forum, la langue et d'autres paramètres basiques.",
@@ -214,43 +214,43 @@
                 "upload_button": "Sélectionner une image…"
             },
             "users": {
-                "description": "",
+                "description": "Une liste organisée de tous les utilisateurs de votre forum.",
                 "grid": {
                     "columns": {
                         "edit_user": {
-                            "button": "",
-                            "title": "",
-                            "tooltip": ""
+                            "button": "=> core.ref.edit",
+                            "title": "=> core.ref.edit_user",
+                            "tooltip": "Modifier {username}"
                         },
                         "email": {
-                            "title": "",
-                            "visibility_hide": "",
-                            "visibility_show": ""
+                            "title": "=> core.ref.email",
+                            "visibility_hide": "Masquer l'adresse de courriel",
+                            "visibility_show": "Afficher l'adresse de courriel"
                         },
                         "group_badges": {
-                            "no_badges": "",
-                            "title": ""
+                            "no_badges": "Aucun",
+                            "title": "Groupes"
                         },
                         "join_time": {
-                            "title": ""
+                            "title": "Inscription"
                         },
                         "user_id": {
-                            "title": ""
+                            "title": "Identifiant"
                         },
                         "username": {
-                            "profile_link_tooltip": "",
-                            "title": ""
+                            "profile_link_tooltip": "Consulter le profil de {username}",
+                            "title": "=> core.ref.username"
                         }
                     },
-                    "invalid_column_content": ""
+                    "invalid_column_content": "Invalide"
                 },
                 "pagination": {
-                    "back_button": "",
-                    "next_button": "",
-                    "page_counter": ""
+                    "back_button": "Page précédente",
+                    "next_button": "Page suivante",
+                    "page_counter": "Page {current} sur {total}"
                 },
-                "title": "",
-                "total_users": ""
+                "title": "=> core.ref.users",
+                "total_users": "Nombre total d'utilisateurs : {count}"
             },
             "add_extension": {
                 "developer_text": "Si vous êtes un développeur, vous pouvez <a>lire la documentation</a> et vous essayer à créer vos propres extensions.",
@@ -491,17 +491,17 @@
                 "toggle_dropdown_accessible_label": "Afficher le menu déroulant"
             },
             "edit_user": {
-                "activate_button": "",
-                "email_heading": "",
-                "email_label": "",
-                "groups_heading": "",
-                "password_heading": "",
-                "password_label": "",
-                "set_password_label": "",
-                "submit_button": "",
-                "title": "",
-                "username_heading": "",
-                "username_label": ""
+                "activate_button": "Activer l'utilisateur",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "Groupes",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "Définir un nouveau mot de passe",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.edit_user",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username"
             },
             "error": {
                 "dependent_extensions_message": "Impossible de désactiver {extension}. Veuillez en premier lieu désactiver les extensions dépendantes suivantes : {extensions}",
@@ -512,7 +512,7 @@
                 "rate_limit_exceeded_message": "Vous êtes un peu trop rapide. Veuillez réessayer dans quelques secondes."
             },
             "loading_indicator": {
-                "accessible_label": ""
+                "accessible_label": "=> core.ref.loading"
             },
             "number_suffix": {
                 "kilo_text": "k",
@@ -600,12 +600,12 @@
             "delete_forever": "Supprimer définitivement",
             "discussions": "Discussions",
             "edit": "Modifier",
-            "edit_user": "",
+            "edit_user": "Modifier l'utilisateur",
             "email": "Adresse de courriel",
             "icon": "Icône",
             "icon_text": "Saisissez le nom d'une des classes d'icônes de <a>Font Awesome</a> <em>en incluant</em> le préfixe <code>fas fa-</code>.",
             "load_more": "Charger davantage",
-            "loading": "",
+            "loading": "Chargement…",
             "log_in": "Connexion",
             "log_out": "Déconnexion",
             "mark_all_as_read": "Tout marquer comme lu",
