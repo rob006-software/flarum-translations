@@ -246,6 +246,9 @@ return [
 	'flarumite-simple-spoilers' => [
 		'tag' => 'https://raw.githubusercontent.com/flarumite/simple-spoilers/0.1.2/resources/locale/en.yml',
 	],
+	'flarumtr-post-bookmarks' => [
+		'tag' => 'https://raw.githubusercontent.com/flarumtr/flarum-ext-post-bookmarks/0.1.0/resources/locale/en.yml',
+	],
 	'fof-amazon-affiliation' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/amazon-affiliation/0.5.1/resources/locale/en.yml',
 	],
