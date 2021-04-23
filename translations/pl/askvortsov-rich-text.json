@@ -2,7 +2,7 @@
     "askvortsov-rich-text": {
         "admin": {
             "settings": {
-                "toggle_on_editor": "Pokazać przełącznik trybu edytora wizualnego w edytorze?"
+                "toggle_on_editor": "Pokazać przełącznik trybu edytora wizualnego?"
             }
         },
         "forum": {
@@ -15,13 +15,13 @@
                 },
                 "insert_link": {
                     "text_placeholder": "Tekst",
-                    "href_placeholder": "Adres URL",
+                    "href_placeholder": "URL",
                     "title_placeholder": "Tytuł (pokazywany po najechaniu kursorem)",
                     "remove_button": "Usuń"
                 },
                 "additional_items_tooltip": "Dodatkowe elementy",
                 "bold_tooltip": "Pogrubiony tekst <{modifierKey}-b>",
-                "code_tooltip": "Kod liniowy <{modifierKey}-`>",
+                "code_tooltip": "Kod w tekście <{modifierKey}-`>",
                 "code_block_tooltip": "Wstaw blok kodu",
                 "header_tooltip": "Zmień na nagłówek {level} <shift-{modifierKey}-{level}>",
                 "horizontal_rule_tooltip": "Wstaw poziomą linię",
@@ -31,12 +31,12 @@
                 "ordered_list_tooltip": "Lista numerowana <shift-{modifierKey}-9>",
                 "paragraph_tooltip": "Zmień na akapit <shift-{modifierKey}-0>",
                 "quote_tooltip": "Wstaw cytat <{modifierKey}-q>",
-                "spoiler_block_tooltip": "Blok spoilera/rozwijany",
-                "spoiler_inline_tooltip": "Spoiler  <{modifierKey}-;>",
+                "spoiler_block_tooltip": "Rozwijany blok ze spoilerem",
+                "spoiler_inline_tooltip": "Spoiler <{modifierKey}-;>",
                 "strike_tooltip": "Przekreślenie <alt-shift-5>",
-                "sub_tooltip": "Indeks dolny  <{modifierKey}-,>",
+                "sub_tooltip": "Indeks dolny <{modifierKey}-,>",
                 "sup_tooltip": "Indeks górny <{modifierKey}-.>",
-                "text_type_tooltip": "Wybierz typ tekstu",
+                "text_type_tooltip": "Wybierz styl tekstu",
                 "unordered_list_tooltip": "Lista punktowana <shift-{modifierKey}-8>"
             },
             "settings": {
