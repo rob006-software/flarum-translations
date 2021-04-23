@@ -2,8 +2,8 @@
     "flarum-mentions": {
         "admin": {
             "settings": {
-                "allow_username_format_label": "",
-                "allow_username_format_text": ""
+                "allow_username_format_label": "Autoriser le système de mention de nom d'utilisateur (@utilisateur)",
+                "allow_username_format_text": "Le format actuel des mentions d'utilisateurs est @\"Nom d'affichage\"#Identifiant.\nCe paramètre permet d'utiliser l'ancien format @\"Nom d'utilisateur\", qui sera néanmoins converti au nouveau format lors de la sauvegarde.\n"
             }
         },
         "forum": {
@@ -32,7 +32,7 @@
                 "mentions_link": "Mentions"
             },
             "post_mention": {
-                "deleted_text": ""
+                "deleted_text": "[inconnu]"
             }
         },
         "email": {
