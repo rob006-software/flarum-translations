@@ -79,6 +79,13 @@ return [
 			'!v17development-support',
 		]),
 	],
+	'si' => [
+		'type' => 'language',
+		'language' => 'si',
+		'repository' => 'git@gitlab.com:flarum-sinhala/language-pack.git',
+		'branch' => 'master',
+		'path' => '/locale',
+	],
 	'tr-lang' => [
 		'type' => 'language',
 		'language' => 'tr',
