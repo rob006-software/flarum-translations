@@ -1,0 +1,106 @@
+{
+    "fof-byobu": {
+        "forum": {
+            "badges": {
+                "is_private": {
+                    "tooltip": ""
+                }
+            },
+            "buttons": {
+                "add_recipients": "",
+                "submit": "",
+                "edit_recipients": "",
+                "send_pd": "",
+                "cancel": "",
+                "remove_from_discussion": ""
+            },
+            "composer_private_discussion": {
+                "submit_button": "",
+                "title_placeholder": ""
+            },
+            "labels": {
+                "recipients": "",
+                "user_deleted": ""
+            },
+            "nav": {
+                "start_button": "",
+                "nav_item": ""
+            },
+            "input": {
+                "search_recipients": ""
+            },
+            "search": {
+                "headings": {
+                    "groups": ""
+                }
+            },
+            "modal": {
+                "titles": {
+                    "update_recipients": "",
+                    "add_recipients": ""
+                },
+                "help": {
+                    "add_recipients": "",
+                    "update_recipients": ""
+                }
+            },
+            "post": {
+                "recipients_modified": {
+                    "added_and_removed": "",
+                    "added": "",
+                    "removed": "",
+                    "removed_self": ""
+                }
+            },
+            "user": {
+                "settings": {
+                    "block_pd": "",
+                    "unified_index": ""
+                },
+                "byobu_link": "",
+                "dropdown_label": ""
+            },
+            "notifications": {
+                "pd_label": "",
+                "pd_reply_label": "",
+                "pd_reply_text": "",
+                "pd_text": "",
+                "pd_user_left_label": "",
+                "pd_user_left_text": "",
+                "pd_added_text": "",
+                "pd_added_label": ""
+            },
+            "confirm": {
+                "make_public": ""
+            }
+        },
+        "admin": {
+            "permission": {
+                "create_private_discussions_with_users": "",
+                "create_private_discussions_with_groups": "",
+                "create_private_discussions_with_blocking_users": "",
+                "edit_user_recipients": "",
+                "edit_group_recipients": "",
+                "view_private_discussions-when-flagged": ""
+            },
+            "settings": {
+                "badge-icon": "",
+                "post-event-icon": ""
+            }
+        },
+        "email": {
+            "subject": {
+                "private_discussion_created": "",
+                "private_discussion_replied": "",
+                "recipient_removed": "",
+                "private_discussion_added": ""
+            },
+            "body": {
+                "private_discussion_created": "",
+                "private_discussion_replied": "",
+                "recipient_removed": "",
+                "private_discussion_added": ""
+            }
+        }
+    }
+}

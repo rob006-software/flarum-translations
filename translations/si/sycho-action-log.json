@@ -1,0 +1,149 @@
+{
+    "sycho-action-log": {
+        "admin": {
+            "title": "",
+            "description": "",
+            "total_entries": "",
+            "page": "",
+            "no_entries": "",
+            "search": "",
+            "settings": "",
+            "action_settings": "",
+            "save": "",
+            "clear": "",
+            "clear_confirmation": "",
+            "sort": {
+                "newest": "",
+                "oldest": ""
+            },
+            "gambits": {
+                "label": "",
+                "description": "",
+                "items": {
+                    "type": "",
+                    "action": "",
+                    "resource": "",
+                    "actor": ""
+                }
+            },
+            "actions": {
+                "moderation": {
+                    "label": "",
+                    "discussion": {
+                        "label": "",
+                        "locked": {
+                            "label": "",
+                            "action": ""
+                        },
+                        "unlocked": {
+                            "label": "",
+                            "action": ""
+                        },
+                        "hidden": {
+                            "label": "",
+                            "action": ""
+                        },
+                        "restored": {
+                            "label": "",
+                            "action": ""
+                        },
+                        "deleted": {
+                            "label": "",
+                            "action": ""
+                        },
+                        "stickied": {
+                            "label": "",
+                            "action": ""
+                        },
+                        "unstickied": {
+                            "label": "",
+                            "action": ""
+                        },
+                        "tagged": {
+                            "label": "",
+                            "action": {
+                                "add_remove": "",
+                                "add": "",
+                                "remove": "",
+                                "tags_text": ""
+                            }
+                        },
+                        "renamed": {
+                            "label": "",
+                            "action": ""
+                        }
+                    },
+                    "post": {
+                        "label": "",
+                        "approved": {
+                            "label": "",
+                            "action": ""
+                        }
+                    },
+                    "user": {
+                        "label": "",
+                        "suspended": {
+                            "label": "",
+                            "action": ""
+                        },
+                        "unsuspended": {
+                            "label": "",
+                            "action": ""
+                        },
+                        "activated": {
+                            "label": "",
+                            "action": ""
+                        }
+                    }
+                },
+                "administration": {
+                    "label": "",
+                    "group": {
+                        "label": "",
+                        "created": {
+                            "label": "",
+                            "action": ""
+                        },
+                        "deleted": {
+                            "label": "",
+                            "action": ""
+                        }
+                    },
+                    "tag": {
+                        "label": "",
+                        "created": {
+                            "label": "",
+                            "action": ""
+                        },
+                        "deleted": {
+                            "label": "",
+                            "action": ""
+                        }
+                    },
+                    "extension": {
+                        "label": "",
+                        "enabled": {
+                            "label": "",
+                            "action": ""
+                        },
+                        "disabled": {
+                            "label": "",
+                            "action": ""
+                        },
+                        "uninstalled": {
+                            "label": "",
+                            "action": ""
+                        }
+                    },
+                    "permission": {
+                        "label": "",
+                        "edited": {
+                            "label": "",
+                            "action": ""
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
