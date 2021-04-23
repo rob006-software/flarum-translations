@@ -154,6 +154,8 @@
                 "email_title": "=> core.admin.email.description",
                 "permissions_button": "=> core.admin.permissions.title",
                 "permissions_title": "=> core.admin.permissions.description",
+                "userlist_button": "",
+                "userlist_title": "",
                 "search_placeholder": "Wyszukaj rozszerzenia",
                 "appearance_text": "Dostosuj kolory, logo oraz inne ustawienia swojego forum.",
                 "basics_text": "Ustaw tytuł, język oraz inne podstawowe ustawienia swojego forum.",
@@ -210,6 +212,45 @@
             "upload_image": {
                 "remove_button": "=> core.ref.remove",
                 "upload_button": "Wybierz obrazek..."
+            },
+            "users": {
+                "description": "",
+                "grid": {
+                    "columns": {
+                        "edit_user": {
+                            "button": "",
+                            "title": "",
+                            "tooltip": ""
+                        },
+                        "email": {
+                            "title": "",
+                            "visibility_hide": "",
+                            "visibility_show": ""
+                        },
+                        "group_badges": {
+                            "no_badges": "",
+                            "title": ""
+                        },
+                        "join_time": {
+                            "title": ""
+                        },
+                        "user_id": {
+                            "title": ""
+                        },
+                        "username": {
+                            "profile_link_tooltip": "",
+                            "title": ""
+                        }
+                    },
+                    "invalid_column_content": ""
+                },
+                "pagination": {
+                    "back_button": "",
+                    "next_button": "",
+                    "page_counter": ""
+                },
+                "title": "",
+                "total_users": ""
             },
             "add_extension": {
                 "developer_text": "Jeśli jesteś deweloperem, możesz <a>zapoznać się z dokumentacją</a> i rozpocząć pracę nad własnymi rozszerzeniami.",
@@ -283,20 +324,6 @@
                 "mark_as_read_tooltip": "Oznacz jako przeczytane",
                 "replied_text": "{username} odpowiedział {ago}",
                 "started_text": "{username} rozpoczął {ago}"
-            },
-            "edit_user": {
-                "activate_button": "Aktywuj użytkownika",
-                "email_heading": "=> core.ref.email",
-                "email_label": "=> core.ref.email",
-                "groups_heading": "Grupy",
-                "nothing_available": "Nie ma żadnych danych, które mógłbyś edytować.",
-                "password_heading": "=> core.ref.password",
-                "password_label": "=> core.ref.password",
-                "set_password_label": "Ustaw nowe hasło",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "Edytuj użytkownika",
-                "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -440,6 +467,20 @@
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "Wyślij ponownie e-mail aktywacyjny",
                 "sent_message": "Wysłano"
+            },
+            "edit_user": {
+                "activate_button": "Aktywuj użytkownika",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "Grupy",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "Ustaw nowe hasło",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Edytuj użytkownika",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username",
+                "nothing_available": "Nie ma żadnych danych, które mógłbyś edytować."
             }
         },
         "lib": {
@@ -448,6 +489,19 @@
             },
             "dropdown": {
                 "toggle_dropdown_accessible_label": "Przełącz menu rozwijane"
+            },
+            "edit_user": {
+                "activate_button": "",
+                "email_heading": "",
+                "email_label": "",
+                "groups_heading": "",
+                "password_heading": "",
+                "password_label": "",
+                "set_password_label": "",
+                "submit_button": "",
+                "title": "",
+                "username_heading": "",
+                "username_label": ""
             },
             "error": {
                 "dependent_extensions_message": "Nie można wyłączyć {extension}, jeśli następujące zależne rozszerzenia są włączone: {extensions}",
@@ -546,6 +600,7 @@
             "delete_forever": "Usuń nieodwracalnie",
             "discussions": "Dyskusje",
             "edit": "Edytuj",
+            "edit_user": "",
             "email": "E-mail",
             "icon": "Ikona",
             "icon_text": "Wpisz nazwę dowolnej klasy z <a>Font Awesome</a>, <em>włącznie</em> z prefiksem <code>fas fa-</code>.",

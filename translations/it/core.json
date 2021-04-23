@@ -153,6 +153,8 @@
                 "email_title": "=> core.admin.email.description",
                 "permissions_button": "=> core.admin.permissions.title",
                 "permissions_title": "=> core.admin.permissions.description",
+                "userlist_button": "",
+                "userlist_title": "",
                 "search_placeholder": "Cerca estensioni",
                 "permissions_text": "=> core.admin.permissions.description"
             },
@@ -203,6 +205,45 @@
             "upload_image": {
                 "remove_button": "=> core.ref.remove",
                 "upload_button": "Scegli un'immagine..."
+            },
+            "users": {
+                "description": "",
+                "grid": {
+                    "columns": {
+                        "edit_user": {
+                            "button": "",
+                            "title": "",
+                            "tooltip": ""
+                        },
+                        "email": {
+                            "title": "",
+                            "visibility_hide": "",
+                            "visibility_show": ""
+                        },
+                        "group_badges": {
+                            "no_badges": "",
+                            "title": ""
+                        },
+                        "join_time": {
+                            "title": ""
+                        },
+                        "user_id": {
+                            "title": ""
+                        },
+                        "username": {
+                            "profile_link_tooltip": "",
+                            "title": ""
+                        }
+                    },
+                    "invalid_column_content": ""
+                },
+                "pagination": {
+                    "back_button": "",
+                    "next_button": "",
+                    "page_counter": ""
+                },
+                "title": "",
+                "total_users": ""
             }
         },
         "forum": {
@@ -265,20 +306,6 @@
                 "mark_as_read_tooltip": "Segna come letto",
                 "replied_text": "{username} ha risposto {ago}",
                 "started_text": "Iniziata da {username} {ago}"
-            },
-            "edit_user": {
-                "activate_button": "Attiva utente",
-                "email_heading": "=> core.ref.email",
-                "email_label": "=> core.ref.email",
-                "groups_heading": "Gruppi",
-                "nothing_available": "Non c’è nulla di editabile per te al momento.",
-                "password_heading": "=> core.ref.password",
-                "password_label": "=> core.ref.password",
-                "set_password_label": "Imposta nuova password",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "Modifica utente",
-                "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -422,6 +449,20 @@
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "Reinvia e-mail di conferma",
                 "sent_message": "Inviata"
+            },
+            "edit_user": {
+                "activate_button": "Attiva utente",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "Gruppi",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "Imposta nuova password",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Modifica utente",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username",
+                "nothing_available": "Non c’è nulla di editabile per te al momento."
             }
         },
         "lib": {
@@ -430,6 +471,19 @@
             },
             "dropdown": {
                 "toggle_dropdown_accessible_label": "Attiva/disattiva il menu a discesa"
+            },
+            "edit_user": {
+                "activate_button": "",
+                "email_heading": "",
+                "email_label": "",
+                "groups_heading": "",
+                "password_heading": "",
+                "password_label": "",
+                "set_password_label": "",
+                "submit_button": "",
+                "title": "",
+                "username_heading": "",
+                "username_label": ""
             },
             "error": {
                 "dependent_extensions_message": "Non puoi disattivare l'estensione {extension} finché non disattiverai le seguenti estensioni: {extensions}",
@@ -528,6 +582,7 @@
             "delete_forever": "Cancella per sempre",
             "discussions": "Discussioni",
             "edit": "Modifica",
+            "edit_user": "",
             "email": "E-mail",
             "icon": "Icona",
             "icon_text": "Inserisci il nome di una qualsiasi icona di <a>FontAwesome</a>, <em>includendo</em> il prefisso <code>fas fa-</code>.",

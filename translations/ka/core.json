@@ -154,6 +154,8 @@
                 "email_title": "",
                 "permissions_button": "",
                 "permissions_title": "",
+                "userlist_button": "",
+                "userlist_title": "",
                 "search_placeholder": "გაფართოებების ძებნა",
                 "appearance_text": "მოირგეთ თქვენი ფორუმის ფერები, ლოგოები და სხვა ცვლადები.",
                 "basics_text": "დააყენეთ თქვენი ფორუმის სათაური, ენა და სხვა ძირითადი პარამეტრები.",
@@ -210,6 +212,45 @@
             "upload_image": {
                 "remove_button": "",
                 "upload_button": "აირჩიეთ სურათი..."
+            },
+            "users": {
+                "description": "",
+                "grid": {
+                    "columns": {
+                        "edit_user": {
+                            "button": "",
+                            "title": "",
+                            "tooltip": ""
+                        },
+                        "email": {
+                            "title": "",
+                            "visibility_hide": "",
+                            "visibility_show": ""
+                        },
+                        "group_badges": {
+                            "no_badges": "",
+                            "title": ""
+                        },
+                        "join_time": {
+                            "title": ""
+                        },
+                        "user_id": {
+                            "title": ""
+                        },
+                        "username": {
+                            "profile_link_tooltip": "",
+                            "title": ""
+                        }
+                    },
+                    "invalid_column_content": ""
+                },
+                "pagination": {
+                    "back_button": "",
+                    "next_button": "",
+                    "page_counter": ""
+                },
+                "title": "",
+                "total_users": ""
             },
             "add_extension": {
                 "developer_text": "თუ დეველოპერი ხართ, შეგიძლიათ <a>წაიკითხოთ დოკუმენტები</a> და გაეცნოთ საკუთარი გაფართოებების შექმნას.",
@@ -283,20 +324,6 @@
                 "mark_as_read_tooltip": "წაკითხულად მონიშვნა",
                 "replied_text": "{username} უპასუხა {ago}",
                 "started_text": "{username} დაიწყო {ago}"
-            },
-            "edit_user": {
-                "activate_button": "გაააქტიურეთ მომხმარებელი",
-                "email_heading": "",
-                "email_label": "",
-                "groups_heading": "ჯგუფები",
-                "nothing_available": "",
-                "password_heading": "",
-                "password_label": "",
-                "set_password_label": "დააყენეთ ახალი პაროლი",
-                "submit_button": "",
-                "title": "მომხმარებლის რედაქტირება",
-                "username_heading": "",
-                "username_label": ""
             },
             "forgot_password": {
                 "dismiss_button": "",
@@ -440,6 +467,20 @@
                 "alert_message": "",
                 "resend_button": "ხელახლა გაგზავნეთ დამადასტურებელი ელ.ფოსტა",
                 "sent_message": "გაგზავნილი"
+            },
+            "edit_user": {
+                "activate_button": "გაააქტიურეთ მომხმარებელი",
+                "email_heading": "",
+                "email_label": "",
+                "groups_heading": "ჯგუფები",
+                "password_heading": "",
+                "password_label": "",
+                "set_password_label": "დააყენეთ ახალი პაროლი",
+                "submit_button": "",
+                "title": "მომხმარებლის რედაქტირება",
+                "username_heading": "",
+                "username_label": "",
+                "nothing_available": ""
             }
         },
         "lib": {
@@ -448,6 +489,19 @@
             },
             "dropdown": {
                 "toggle_dropdown_accessible_label": ""
+            },
+            "edit_user": {
+                "activate_button": "",
+                "email_heading": "",
+                "email_label": "",
+                "groups_heading": "",
+                "password_heading": "",
+                "password_label": "",
+                "set_password_label": "",
+                "submit_button": "",
+                "title": "",
+                "username_heading": "",
+                "username_label": ""
             },
             "error": {
                 "dependent_extensions_message": "შეუძლებელია {extension} გამორთვა სანამ არ მოხდება შემდეგი დამოკიდებული გაფართოებების გამორთვა: {extensions}",
@@ -546,6 +600,7 @@
             "delete_forever": "სამუდამოდ წაშლა",
             "discussions": "დისკუსიები",
             "edit": "რედაქტირება",
+            "edit_user": "",
             "email": "ელ.ფოსტა",
             "icon": "აიქონი",
             "icon_text": "შეიყვანეთ სახელი ნებისმიერი <a>FontAwesome</a> აიქონის კლასის <em>მათ შორის</em> <code>fas fa-</code> პრეფიქსით.",

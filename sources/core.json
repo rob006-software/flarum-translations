@@ -152,6 +152,8 @@
                 "email_title": "=> core.admin.email.description",
                 "permissions_button": "=> core.admin.permissions.title",
                 "permissions_title": "=> core.admin.permissions.description",
+                "userlist_button": "=> core.admin.users.title",
+                "userlist_title": "=> core.admin.users.description",
                 "search_placeholder": "Search Extensions"
             },
             "permissions": {
@@ -201,6 +203,45 @@
             "upload_image": {
                 "remove_button": "=> core.ref.remove",
                 "upload_button": "Choose an Image..."
+            },
+            "users": {
+                "description": "A paginated list of all users on your forum.",
+                "grid": {
+                    "columns": {
+                        "edit_user": {
+                            "button": "=> core.ref.edit",
+                            "title": "=> core.ref.edit_user",
+                            "tooltip": "Edit {username}"
+                        },
+                        "email": {
+                            "title": "=> core.ref.email",
+                            "visibility_hide": "Hide email address",
+                            "visibility_show": "Show email address"
+                        },
+                        "group_badges": {
+                            "no_badges": "None",
+                            "title": "Groups"
+                        },
+                        "join_time": {
+                            "title": "Joined"
+                        },
+                        "user_id": {
+                            "title": "ID"
+                        },
+                        "username": {
+                            "profile_link_tooltip": "Visit {username}'s profile",
+                            "title": "=> core.ref.username"
+                        }
+                    },
+                    "invalid_column_content": "Invalid"
+                },
+                "pagination": {
+                    "back_button": "Previous page",
+                    "next_button": "Next page",
+                    "page_counter": "Page {current} of {total}"
+                },
+                "title": "=> core.ref.users",
+                "total_users": "Total users: {count}"
             }
         },
         "forum": {
@@ -263,20 +304,6 @@
                 "mark_as_read_tooltip": "Mark as Read",
                 "replied_text": "{username} replied {ago}",
                 "started_text": "{username} started {ago}"
-            },
-            "edit_user": {
-                "activate_button": "Activate User",
-                "email_heading": "=> core.ref.email",
-                "email_label": "=> core.ref.email",
-                "groups_heading": "Groups",
-                "nothing_available": "There is nothing available for you to edit at this time.",
-                "password_heading": "=> core.ref.password",
-                "password_label": "=> core.ref.password",
-                "set_password_label": "Set new password",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "Edit User",
-                "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -420,6 +447,20 @@
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "Resend Confirmation Email",
                 "sent_message": "Sent"
+            },
+            "edit_user": {
+                "activate_button": "Activate User",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "Groups",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "Set new password",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Edit User",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username",
+                "nothing_available": "There is nothing available for you to edit at this time."
             }
         },
         "lib": {
@@ -428,6 +469,19 @@
             },
             "dropdown": {
                 "toggle_dropdown_accessible_label": "Toggle dropdown menu"
+            },
+            "edit_user": {
+                "activate_button": "Activate User",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "Groups",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "Set new password",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.edit_user",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username"
             },
             "error": {
                 "dependent_extensions_message": "Cannot disable {extension} until the following dependent extensions are disabled: {extensions}",
@@ -526,6 +580,7 @@
             "delete_forever": "Delete Forever",
             "discussions": "Discussions",
             "edit": "Edit",
+            "edit_user": "Edit User",
             "email": "Email",
             "icon": "Icon",
             "icon_text": "Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the <code>fas fa-</code> prefix.",

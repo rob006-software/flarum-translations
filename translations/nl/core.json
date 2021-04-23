@@ -152,6 +152,8 @@
                 "email_title": "=> core.admin.email.description",
                 "permissions_button": "=> core.admin.permissions.title",
                 "permissions_title": "=> core.admin.permissions.description",
+                "userlist_button": "",
+                "userlist_title": "",
                 "search_placeholder": "Extensies zoeken"
             },
             "permissions": {
@@ -201,6 +203,45 @@
             "upload_image": {
                 "remove_button": "Verwijderen",
                 "upload_button": "Afbeelding kiezen..."
+            },
+            "users": {
+                "description": "",
+                "grid": {
+                    "columns": {
+                        "edit_user": {
+                            "button": "",
+                            "title": "",
+                            "tooltip": ""
+                        },
+                        "email": {
+                            "title": "",
+                            "visibility_hide": "",
+                            "visibility_show": ""
+                        },
+                        "group_badges": {
+                            "no_badges": "",
+                            "title": ""
+                        },
+                        "join_time": {
+                            "title": ""
+                        },
+                        "user_id": {
+                            "title": ""
+                        },
+                        "username": {
+                            "profile_link_tooltip": "",
+                            "title": ""
+                        }
+                    },
+                    "invalid_column_content": ""
+                },
+                "pagination": {
+                    "back_button": "",
+                    "next_button": "",
+                    "page_counter": ""
+                },
+                "title": "",
+                "total_users": ""
             }
         },
         "forum": {
@@ -263,20 +304,6 @@
                 "mark_as_read_tooltip": "Markeren als gelezen",
                 "replied_text": "{username} heeft {ago} gereageerd",
                 "started_text": "{username} heeft {ago} gereageerd"
-            },
-            "edit_user": {
-                "activate_button": "Activeer gebruiker",
-                "email_heading": "=> core.ref.email",
-                "email_label": "=> core.ref.email",
-                "groups_heading": "Groepen",
-                "nothing_available": "Er is op dit moment niets beschikbaar dat u kunt bewerken.",
-                "password_heading": "=> core.ref.password",
-                "password_label": "=> core.ref.password",
-                "set_password_label": "Stel een nieuw wachtwoord in",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "Gebruiker bewerken",
-                "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -420,6 +447,20 @@
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "Bevestigings e-mail opnieuw sturen",
                 "sent_message": "Verstuurd"
+            },
+            "edit_user": {
+                "activate_button": "Activeer gebruiker",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "Groepen",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "Stel een nieuw wachtwoord in",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Gebruiker bewerken",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username",
+                "nothing_available": "Er is op dit moment niets beschikbaar dat u kunt bewerken."
             }
         },
         "lib": {
@@ -428,6 +469,19 @@
             },
             "dropdown": {
                 "toggle_dropdown_accessible_label": "Toggle menu"
+            },
+            "edit_user": {
+                "activate_button": "",
+                "email_heading": "",
+                "email_label": "",
+                "groups_heading": "",
+                "password_heading": "",
+                "password_label": "",
+                "set_password_label": "",
+                "submit_button": "",
+                "title": "",
+                "username_heading": "",
+                "username_label": ""
             },
             "error": {
                 "dependent_extensions_message": "Kan {extension} pas uitschakelen als de volgende afhankelijke extensies zijn uitgeschakeld: {extensions}",
@@ -526,6 +580,7 @@
             "delete_forever": "Permanent verwijderen",
             "discussions": "Discussies",
             "edit": "Bewerken",
+            "edit_user": "",
             "email": "E-mail",
             "icon": "Icoon",
             "icon_text": "Kies een <a>FontAwesome</a> icon class, <em>zonder</em> de <code>fa-</code> prefix.",

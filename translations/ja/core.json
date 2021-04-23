@@ -160,6 +160,8 @@
                 "email_title": "",
                 "permissions_button": "権限",
                 "permissions_title": "",
+                "userlist_button": "",
+                "userlist_title": "",
                 "search_placeholder": "",
                 "appearance_text": "ユーザー定義のフォーラムの色調、アイコン、その他の要素",
                 "basics_text": "フォーラム名、言語、その他の全般設定を設定します。",
@@ -218,6 +220,45 @@
             "upload_image": {
                 "remove_button": "=> core.ref.remove",
                 "upload_button": "写真を選択..."
+            },
+            "users": {
+                "description": "",
+                "grid": {
+                    "columns": {
+                        "edit_user": {
+                            "button": "",
+                            "title": "",
+                            "tooltip": ""
+                        },
+                        "email": {
+                            "title": "",
+                            "visibility_hide": "",
+                            "visibility_show": ""
+                        },
+                        "group_badges": {
+                            "no_badges": "",
+                            "title": ""
+                        },
+                        "join_time": {
+                            "title": ""
+                        },
+                        "user_id": {
+                            "title": ""
+                        },
+                        "username": {
+                            "profile_link_tooltip": "",
+                            "title": ""
+                        }
+                    },
+                    "invalid_column_content": ""
+                },
+                "pagination": {
+                    "back_button": "",
+                    "next_button": "",
+                    "page_counter": ""
+                },
+                "title": "",
+                "total_users": ""
             },
             "add_extension": {
                 "developer_text": "開発者の方へ。<a>ドキュメントを読んで</a>、オリジナルの拡張機能を作成することが可能です。",
@@ -298,20 +339,6 @@
                 "mark_as_read_tooltip": "既読にする",
                 "replied_text": "{username} が {ago} に返信しました",
                 "started_text": "{username} が {ago} に投稿されました"
-            },
-            "edit_user": {
-                "activate_button": "ユーザーをアクティベート",
-                "email_heading": "=> core.ref.email",
-                "email_label": "=> core.ref.email",
-                "groups_heading": "ユーザーグループ",
-                "nothing_available": "",
-                "password_heading": "=> core.ref.password",
-                "password_label": "=> core.ref.password",
-                "set_password_label": "新しいパスワードを設定",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "ユーザーを編集",
-                "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -455,6 +482,20 @@
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "アカウント確認メールを再送信する",
                 "sent_message": "送信しました"
+            },
+            "edit_user": {
+                "activate_button": "ユーザーをアクティベート",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "ユーザーグループ",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "新しいパスワードを設定",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "ユーザーを編集",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username",
+                "nothing_available": ""
             }
         },
         "lib": {
@@ -463,6 +504,19 @@
             },
             "dropdown": {
                 "toggle_dropdown_accessible_label": ""
+            },
+            "edit_user": {
+                "activate_button": "",
+                "email_heading": "",
+                "email_label": "",
+                "groups_heading": "",
+                "password_heading": "",
+                "password_label": "",
+                "set_password_label": "",
+                "submit_button": "",
+                "title": "",
+                "username_heading": "",
+                "username_label": ""
             },
             "error": {
                 "dependent_extensions_message": "{extension}を無効化するには、これらを先に無効化する必要があります: {extensions}",
@@ -561,6 +615,7 @@
             "delete_forever": "完全に削除",
             "discussions": "スレッド",
             "edit": "編集",
+            "edit_user": "",
             "email": "電子メール",
             "icon": "アイコン",
             "icon_text": "接頭辞<code>fas fa-</code><em>を含む</em><a>Font Awesome</a> のアイコン名を入力してください。",

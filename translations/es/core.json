@@ -156,6 +156,8 @@
                 "email_title": "Configura el driver, la configuración y las direcciones que usará tu foro para enviar correo electrónico.",
                 "permissions_button": "Permisos",
                 "permissions_title": "Configura quién puede ver y hacer qué.",
+                "userlist_button": "",
+                "userlist_title": "",
                 "search_placeholder": "Buscar extensión",
                 "appearance_text": "Personalizar el aspecto del foro.",
                 "basics_text": "Ajustes generales del foro.",
@@ -212,6 +214,45 @@
             "upload_image": {
                 "remove_button": "=> core.ref.remove",
                 "upload_button": "Elija una imagen..."
+            },
+            "users": {
+                "description": "",
+                "grid": {
+                    "columns": {
+                        "edit_user": {
+                            "button": "",
+                            "title": "",
+                            "tooltip": ""
+                        },
+                        "email": {
+                            "title": "",
+                            "visibility_hide": "",
+                            "visibility_show": ""
+                        },
+                        "group_badges": {
+                            "no_badges": "",
+                            "title": ""
+                        },
+                        "join_time": {
+                            "title": ""
+                        },
+                        "user_id": {
+                            "title": ""
+                        },
+                        "username": {
+                            "profile_link_tooltip": "",
+                            "title": ""
+                        }
+                    },
+                    "invalid_column_content": ""
+                },
+                "pagination": {
+                    "back_button": "",
+                    "next_button": "",
+                    "page_counter": ""
+                },
+                "title": "",
+                "total_users": ""
             },
             "add_extension": {
                 "developer_text": "Si tú eres un desarrollador, puedes <a>leer la documentación</a> y probar a crear tus propias extensiones.",
@@ -280,20 +321,6 @@
                 "mark_as_read_tooltip": "Marcar como leído",
                 "replied_text": "{username} respondió {ago}",
                 "started_text": "{username} creó {ago}"
-            },
-            "edit_user": {
-                "activate_button": "Activar usuario",
-                "email_heading": "=> core.ref.email",
-                "email_label": "=> core.ref.email",
-                "groups_heading": "Grupos",
-                "nothing_available": "No hay nada disponible para editar en este momento.",
-                "password_heading": "=> core.ref.password",
-                "password_label": "=> core.ref.password",
-                "set_password_label": "Establecer nueva contraseña",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "Editar usuario",
-                "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -437,6 +464,20 @@
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "Re-enviar correo electrónico de confirmación",
                 "sent_message": "Enviado"
+            },
+            "edit_user": {
+                "activate_button": "Activar usuario",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "Grupos",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "Establecer nueva contraseña",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Editar usuario",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username",
+                "nothing_available": "No hay nada disponible para editar en este momento."
             }
         },
         "lib": {
@@ -445,6 +486,19 @@
             },
             "dropdown": {
                 "toggle_dropdown_accessible_label": ""
+            },
+            "edit_user": {
+                "activate_button": "",
+                "email_heading": "",
+                "email_label": "",
+                "groups_heading": "",
+                "password_heading": "",
+                "password_label": "",
+                "set_password_label": "",
+                "submit_button": "",
+                "title": "",
+                "username_heading": "",
+                "username_label": ""
             },
             "error": {
                 "dependent_extensions_message": "No se puede desactivar {extension} hasta que se desactiven las siguientes extensiones dependientes: {extensions}",
@@ -543,6 +597,7 @@
             "delete_forever": "Eliminar para siempre",
             "discussions": "Discusiones",
             "edit": "Editar",
+            "edit_user": "",
             "email": "Correo electrónico",
             "icon": "Icono",
             "icon_text": "Introduce el nombre de alguna clase de <a>FontAwesome</a>, <em>incluyendo</em> el prefijo <code>fas fa-</code>.",

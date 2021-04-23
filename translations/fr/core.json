@@ -154,6 +154,8 @@
                 "email_title": "=> core.admin.email.description",
                 "permissions_button": "=> core.admin.permissions.title",
                 "permissions_title": "=> core.admin.permissions.description",
+                "userlist_button": "",
+                "userlist_title": "",
                 "search_placeholder": "Rechercher des extensions",
                 "appearance_text": "Personnalisez les couleurs, les logos et les autres aspects de votre forum.",
                 "basics_text": "Définissez le titre de votre forum, la langue et d'autres paramètres basiques.",
@@ -210,6 +212,45 @@
             "upload_image": {
                 "remove_button": "=> core.ref.remove",
                 "upload_button": "Sélectionner une image…"
+            },
+            "users": {
+                "description": "",
+                "grid": {
+                    "columns": {
+                        "edit_user": {
+                            "button": "",
+                            "title": "",
+                            "tooltip": ""
+                        },
+                        "email": {
+                            "title": "",
+                            "visibility_hide": "",
+                            "visibility_show": ""
+                        },
+                        "group_badges": {
+                            "no_badges": "",
+                            "title": ""
+                        },
+                        "join_time": {
+                            "title": ""
+                        },
+                        "user_id": {
+                            "title": ""
+                        },
+                        "username": {
+                            "profile_link_tooltip": "",
+                            "title": ""
+                        }
+                    },
+                    "invalid_column_content": ""
+                },
+                "pagination": {
+                    "back_button": "",
+                    "next_button": "",
+                    "page_counter": ""
+                },
+                "title": "",
+                "total_users": ""
             },
             "add_extension": {
                 "developer_text": "Si vous êtes un développeur, vous pouvez <a>lire la documentation</a> et vous essayer à créer vos propres extensions.",
@@ -283,20 +324,6 @@
                 "mark_as_read_tooltip": "Marquer comme lu",
                 "replied_text": "{username} a répondu à cette discussion {ago}",
                 "started_text": "{username} a publié cette discussion {ago}"
-            },
-            "edit_user": {
-                "activate_button": "Activer l'utilisateur",
-                "email_heading": "=> core.ref.email",
-                "email_label": "=> core.ref.email",
-                "groups_heading": "Groupes",
-                "nothing_available": "Il n'y a rien à modifier pour le moment.",
-                "password_heading": "=> core.ref.password",
-                "password_label": "=> core.ref.password",
-                "set_password_label": "Définir un nouveau mot de passe",
-                "submit_button": "=> core.ref.okay",
-                "title": "Modifier l'utilisateur",
-                "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -440,6 +467,20 @@
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "Renvoyer le courriel de confirmation",
                 "sent_message": "Envoyé"
+            },
+            "edit_user": {
+                "activate_button": "Activer l'utilisateur",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "Groupes",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "Définir un nouveau mot de passe",
+                "submit_button": "=> core.ref.okay",
+                "title": "Modifier l'utilisateur",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username",
+                "nothing_available": "Il n'y a rien à modifier pour le moment."
             }
         },
         "lib": {
@@ -448,6 +489,19 @@
             },
             "dropdown": {
                 "toggle_dropdown_accessible_label": "Afficher le menu déroulant"
+            },
+            "edit_user": {
+                "activate_button": "",
+                "email_heading": "",
+                "email_label": "",
+                "groups_heading": "",
+                "password_heading": "",
+                "password_label": "",
+                "set_password_label": "",
+                "submit_button": "",
+                "title": "",
+                "username_heading": "",
+                "username_label": ""
             },
             "error": {
                 "dependent_extensions_message": "Impossible de désactiver {extension}. Veuillez en premier lieu désactiver les extensions dépendantes suivantes : {extensions}",
@@ -546,6 +600,7 @@
             "delete_forever": "Supprimer définitivement",
             "discussions": "Discussions",
             "edit": "Modifier",
+            "edit_user": "",
             "email": "Adresse de courriel",
             "icon": "Icône",
             "icon_text": "Saisissez le nom d'une des classes d'icônes de <a>Font Awesome</a> <em>en incluant</em> le préfixe <code>fas fa-</code>.",
