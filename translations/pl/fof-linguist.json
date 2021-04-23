@@ -13,9 +13,9 @@
                 "copy-original": "Skopiuj oryginalny tekst",
                 "load-more": "Wczytaj więcej",
                 "delete-redundant": "Usuń redundantne tłumaczenia",
-                "delete-redundant-confirm": "",
-                "delete-all": "",
-                "delete-all-confirm": ""
+                "delete-redundant-confirm": "Spowoduje to usunięcie {count} tłumaczeń, które mają niestandardowe tłumaczenie takie same jak oryginalne tłumaczenie. Może to być przydatne do czyszczenia niepotrzebnych tłumaczeń po aktualizacji pakietu językowego.\n",
+                "delete-all": "Usuń wszystkie tłumaczenia",
+                "delete-all-confirm": "Spowoduje to usunięcie wszystkich {count} niestandardowych tłumaczeń. Upewnij się, że masz kopię wszystkich tłumaczeń, które chciałbyś zachować.\n"
             },
             "locales": {
                 "all": "Wszystkie"
@@ -40,8 +40,8 @@
                     "own": "własne"
                 },
                 "operation-options": {
-                    "or": "",
-                    "and": ""
+                    "or": "dowolnego z wybranych:",
+                    "and": "wszystkich wybranych:"
                 },
                 "for-extension": "Rozszerzenia",
                 "frontend": "",
