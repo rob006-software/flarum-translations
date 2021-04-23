@@ -7,12 +7,12 @@
             },
             "toolbar": {
                 "title": "",
-                "enable_sounds": "",
-                "disable_sounds": "",
-                "enable_notifications": "",
-                "disable_notifications": "",
-                "minimize": "",
-                "maximize": "",
+                "enable_sounds": "ශබ්දය සබල කරන්න",
+                "disable_sounds": "ශබ්දය අබල කරන්න",
+                "enable_notifications": "දැනුම්දීම් සබල කරන්න",
+                "disable_notifications": "දැනුම්දීම් අබල කරන්න",
+                "minimize": "හකුළන්න",
+                "maximize": "විහිදුවන්න",
                 "chat": {
                     "settings": ""
                 }
@@ -24,8 +24,8 @@
                 },
                 "moder": "",
                 "kick": "",
-                "leave": "",
-                "rejoin": "",
+                "leave": "හැරයන්න",
+                "rejoin": "නැවත එක්වන්න",
                 "edit_modal": {
                     "title": "",
                     "moderator": {
@@ -42,11 +42,11 @@
                             "validator": ""
                         },
                         "icon": {
-                            "label": "",
-                            "validator": ""
+                            "label": "=> core.ref.icon",
+                            "validator": "=> core.ref.icon_text"
                         },
                         "users": {
-                            "edit": ""
+                            "edit": "පරිශීලකයින් තොරාගෙන සංස්කරණය කරන්න"
                         },
                         "leave": "",
                         "return": "",
@@ -58,11 +58,11 @@
                         }
                     },
                     "search": {
-                        "placeholder": "",
-                        "failed": "",
-                        "invited": ""
+                        "placeholder": "පරිශීලකයින් සොයන්න",
+                        "failed": "ගැලපෙන පරිශීලකයින් හමු නොවිණී",
+                        "invited": "ආරාධනා කළා"
                     },
-                    "save_button": ""
+                    "save_button": "=> core.ref.save_changes"
                 },
                 "list": {
                     "pin": "",
@@ -74,7 +74,7 @@
                     "add_modal": {
                         "title": "",
                         "chat": "",
-                        "channel": "",
+                        "channel": "නාලිකාව",
                         "create": {
                             "chat": "",
                             "channel": ""
@@ -85,22 +85,22 @@
                         "form": {
                             "title": {
                                 "chat": "",
-                                "channel": "",
+                                "channel": "නාලිකාවේ නම",
                                 "validator": ""
                             },
                             "icon": {
-                                "label": "",
-                                "validator": ""
+                                "label": "=> core.ref.icon",
+                                "validator": "=> core.ref.icon_text"
                             },
                             "color": {
-                                "label": "",
-                                "validator": ""
+                                "label": "=> xelson-chat.forum.chat.edit_modal.form.color.label",
+                                "validator": "=> xelson-chat.forum.chat.edit_modal.form.color.validator"
                             },
-                            "users": ""
+                            "users": "තොරාගත් පරිශීලකයින්"
                         },
                         "search": {
-                            "placeholder": "",
-                            "failed": "",
+                            "placeholder": "පරිශීලකයින් සොයන්න",
+                            "failed": "ගැලපෙන පරිශීලකයින් හමු නොවිණී",
                             "invited": ""
                         }
                     }
@@ -108,17 +108,17 @@
                 "placeholder": "",
                 "message": {
                     "actions": {
-                        "hide": "",
-                        "resend": ""
+                        "hide": "සඟවන්න",
+                        "resend": "නැවත යවන්න"
                     },
-                    "censored": "",
+                    "censored": "මෙම පණිවිඩය බැලීමට පිවිසෙන්න!",
                     "deleted": "",
                     "deleted_forever": "",
-                    "you": "",
+                    "you": "ඔබ",
                     "type": {
-                        "url": "",
+                        "url": "ඒ.ස.නි. (URL)",
                         "event": "",
-                        "code": ""
+                        "code": "<Code />"
                     },
                     "events": {
                         "chat": {
