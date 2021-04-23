@@ -21,6 +21,7 @@ return [
 	'ka' => getComponents(),
 	'nl' => getComponents(),
 	'pl' => getComponents(),
+	'si' => getComponents(),
 	'tr' => getComponents([
 		// the-turk extensions have TR translations included
 		// @see https://github.com/rob006-software/flarum-translations/issues/425
