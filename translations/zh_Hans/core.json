@@ -160,8 +160,8 @@
                 "email_title": "=> core.admin.email.description",
                 "permissions_button": "=> core.admin.permissions.title",
                 "permissions_title": "=> core.admin.permissions.description",
-                "userlist_button": "",
-                "userlist_title": "",
+                "userlist_button": "=> core.admin.users.title",
+                "userlist_title": "=> core.admin.users.description",
                 "search_placeholder": "搜索扩展程序",
                 "appearance_text": "自定义论坛色调、图标以及其他元素。",
                 "basics_text": "设置论坛名称、语言以及其他常规设置",
@@ -222,43 +222,43 @@
                 "upload_button": "选择图片..."
             },
             "users": {
-                "description": "",
+                "description": "论坛用户分页列表。",
                 "grid": {
                     "columns": {
                         "edit_user": {
-                            "button": "",
-                            "title": "",
-                            "tooltip": ""
+                            "button": "=> core.ref.edit",
+                            "title": "=> core.ref.edit_user",
+                            "tooltip": "编辑 {username}"
                         },
                         "email": {
-                            "title": "",
-                            "visibility_hide": "",
-                            "visibility_show": ""
+                            "title": "=> core.ref.email",
+                            "visibility_hide": "隐藏邮箱地址",
+                            "visibility_show": "显示邮箱地址"
                         },
                         "group_badges": {
-                            "no_badges": "",
-                            "title": ""
+                            "no_badges": "无",
+                            "title": "用户组"
                         },
                         "join_time": {
-                            "title": ""
+                            "title": "已加入"
                         },
                         "user_id": {
-                            "title": ""
+                            "title": "ID"
                         },
                         "username": {
-                            "profile_link_tooltip": "",
-                            "title": ""
+                            "profile_link_tooltip": "访问 {username} 的主页",
+                            "title": "=> core.ref.username"
                         }
                     },
-                    "invalid_column_content": ""
+                    "invalid_column_content": "非法"
                 },
                 "pagination": {
-                    "back_button": "",
-                    "next_button": "",
-                    "page_counter": ""
+                    "back_button": "上一页",
+                    "next_button": "下一页",
+                    "page_counter": "第 {current} 页 / 共 {total} 页"
                 },
-                "title": "",
-                "total_users": ""
+                "title": "=> core.ref.users",
+                "total_users": "用户数：{count}"
             },
             "add_extension": {
                 "developer_text": "如果您是一个开发者，您可以阅读<a>开发文档</a>自行开发扩展程序。",
@@ -506,17 +506,17 @@
                 "toggle_dropdown_accessible_label": "下拉菜单开关"
             },
             "edit_user": {
-                "activate_button": "",
-                "email_heading": "",
-                "email_label": "",
-                "groups_heading": "",
-                "password_heading": "",
-                "password_label": "",
-                "set_password_label": "",
-                "submit_button": "",
-                "title": "",
-                "username_heading": "",
-                "username_label": ""
+                "activate_button": "激活用户",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "用户组",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "修改密码",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.edit_user",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username"
             },
             "error": {
                 "dependent_extensions_message": "无法停用「{extension}」，请先停用依赖扩展「{extensions}」",
@@ -527,7 +527,7 @@
                 "rate_limit_exceeded_message": "您的操作太频繁，请稍后再试。"
             },
             "loading_indicator": {
-                "accessible_label": ""
+                "accessible_label": "=> core.ref.loading"
             },
             "number_suffix": {
                 "kilo_text": "千",
@@ -616,12 +616,12 @@
             "delete_forever": "永久删除",
             "discussions": "主题",
             "edit": "编辑",
-            "edit_user": "",
+            "edit_user": "编辑用户",
             "email": "邮箱",
             "icon": "图标",
             "icon_text": "输入任意一个 <a>Font Awesome</a> 图标名称。<em>包括</em>前缀，例如 <code>fas fa-</code>",
             "load_more": "加载更多",
-            "loading": "",
+            "loading": "正在加载……",
             "log_in": "登录",
             "log_out": "退出",
             "mark_all_as_read": "将所有帖子标记为已读",
