@@ -21,6 +21,7 @@ return [
 	'languages' => require __DIR__ . '/config/languages.php',
 	'subsplits' => require __DIR__ . '/config/subsplits.php',
 	'vendors' => require __DIR__ . '/config/vendors.php',
+	'ignoredExtensions' => require __DIR__ . '/config/ignored-extensions.php',
 	'unsupportedVersions' => [
 		'0.1.0-beta.13',
 	],
