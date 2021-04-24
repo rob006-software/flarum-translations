@@ -29,12 +29,12 @@
             "deletedInfo": "{username} 于 {ago} 删除了此条编辑记录",
             "createdInfo": "{username} 创建于 {ago}",
             "revisionInfo": "已编辑 {revisionCount} 次，新到旧排序|已编辑 {revisionCount} 次，新到旧排序",
-            "noDiff": "这两个内容之间没有发现差异。",
+            "noDiff": "此版本之间无差异。",
             "differences": {
                 "originalContent": "=> the-turk-diff.ref.originalContent",
                 "currentContent": "=> the-turk-diff.ref.currentContent",
                 "revisionWithNumber": "=> the-turk-diff.ref.revisionWithNumber",
-                "sentence": "正在查看 {old} 与 {new} 之间的差异"
+                "sentence": "正在查看 {old} 与 {new} 的差异"
             },
             "previewMode": {
                 "originalContent": "=> the-turk-diff.ref.originalContent",
@@ -63,8 +63,8 @@
                 "dbOptimisation": "数据库优化",
                 "archiveOlds": "归档旧修订记录",
                 "archiveOldsInfo": "当 <strong>x ≥ A</strong> 时，一个帖子早期的 <strong>y=mx+b</strong> 个修订记录将被合并、压缩后归档。<strong>x</strong> 表示该贴的修订次数。当 <strong>y</strong> 的值为浮点数时，将会被四舍五入为整数值。",
-                "useCrons": "使用 Cron 计划任务归档旧修订记录",
-                "useCronsHelp": "您必须将 Cron 计划任务条目添加至服务器才能使此选项生效。计划任务将在每周日凌晨 2 点执行。如果您启用了上方的归档功能，却禁用本项，那么在每次编辑完帖子后，将会扫描该帖的修订记录，以检查是否应该执行归档操作。",
+                "useCrons": "使用计划任务归档旧修订记录",
+                "useCronsHelp": "您必须将计划任务条目添加至服务器才能使此选项生效。计划任务将在每周日凌晨 2 点执行。如果您启用了上方的归档功能，却禁用本项，那么在每次编辑完帖子后，将会扫描该帖的修订记录，以检查是否应该执行归档操作。",
                 "archiveInfo": "请记住，您可以在禁用下方两个选项的情况下，运行 <code>php flarum diff:archive</code> 命令来手动归档旧修订记录。"
             },
             "permissions": {
