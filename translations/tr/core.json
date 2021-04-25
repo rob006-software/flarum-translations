@@ -160,8 +160,8 @@
                 "email_title": "=> core.admin.email.description",
                 "permissions_button": "=> core.admin.permissions.title",
                 "permissions_title": "=> core.admin.permissions.description",
-                "userlist_button": "",
-                "userlist_title": "",
+                "userlist_button": "=> core.admin.users.title",
+                "userlist_title": "=> core.admin.users.description",
                 "search_placeholder": "Uzantıları Ara",
                 "appearance_text": "Forumunun renklerini, logolarını ve diğer değişkenlerini özelleştir.",
                 "basics_text": "Forum başlığını, dilini ve diğer temel ayarları yap.",
@@ -220,43 +220,43 @@
                 "upload_button": "Bir görüntü seç..."
             },
             "users": {
-                "description": "",
+                "description": "Forumunuzdaki tüm kullanıcıların sayfalandırılmış bir listesi.",
                 "grid": {
                     "columns": {
                         "edit_user": {
-                            "button": "",
-                            "title": "",
-                            "tooltip": ""
+                            "button": "=> core.ref.edit",
+                            "title": "=> core.ref.edit_user",
+                            "tooltip": "Düzenle {username}"
                         },
                         "email": {
-                            "title": "",
-                            "visibility_hide": "",
-                            "visibility_show": ""
+                            "title": "=> core.ref.email",
+                            "visibility_hide": "E-posta adresini gizle",
+                            "visibility_show": "E-posta adresini göster"
                         },
                         "group_badges": {
-                            "no_badges": "",
-                            "title": ""
+                            "no_badges": "Yok",
+                            "title": "Gruplar"
                         },
                         "join_time": {
-                            "title": ""
+                            "title": "Katıldı"
                         },
                         "user_id": {
-                            "title": ""
+                            "title": "ID"
                         },
                         "username": {
-                            "profile_link_tooltip": "",
-                            "title": ""
+                            "profile_link_tooltip": "{username} kullanıcısının profilini ziyaret et",
+                            "title": "=> core.ref.username"
                         }
                     },
-                    "invalid_column_content": ""
+                    "invalid_column_content": "Geçersiz"
                 },
                 "pagination": {
-                    "back_button": "",
-                    "next_button": "",
-                    "page_counter": ""
+                    "back_button": "Önceki sayfa",
+                    "next_button": "Sonraki sayfa",
+                    "page_counter": "{total} sayfadan {current}"
                 },
-                "title": "",
-                "total_users": ""
+                "title": "=> core.ref.users",
+                "total_users": "Toplam kullanıcılar: {count}"
             },
             "add_extension": {
                 "developer_text": "Geliştirici isen, <a>belgeleri okuyabilir</a> ve kendi uzantılarını oluşturmaya devam edebilirsin.",
@@ -497,17 +497,17 @@
                 "toggle_dropdown_accessible_label": "Açılır menüyü aç / kapat"
             },
             "edit_user": {
-                "activate_button": "",
-                "email_heading": "",
-                "email_label": "",
-                "groups_heading": "",
-                "password_heading": "",
-                "password_label": "",
-                "set_password_label": "",
-                "submit_button": "",
-                "title": "",
-                "username_heading": "",
-                "username_label": ""
+                "activate_button": "Aktif Kullanıcılar",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "Gruplar",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "Yeni şifre ayarla",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.edit_user",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username"
             },
             "error": {
                 "dependent_extensions_message": "{extension} uzantısı şu uzantı kapanmadan önce kapatılamaz: {extensions}",
@@ -606,7 +606,7 @@
             "delete_forever": "Kalıcı Olarak Sil",
             "discussions": "Tartışmalar",
             "edit": "Düzenle",
-            "edit_user": "",
+            "edit_user": "Kullanıcıyı Düzenle",
             "email": "E-posta",
             "icon": "Simge",
             "icon_text": "Herhangi bir <a>FontAwesome</a> simgesi adını <code>fas fa-</code> <em>öneki dahil</em> olarak girin.",
