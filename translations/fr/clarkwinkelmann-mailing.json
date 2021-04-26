@@ -2,42 +2,42 @@
     "clarkwinkelmann-mailing": {
         "admin": {
             "permissions": {
-                "mail_individual": "",
-                "mail_all": ""
+                "mail_individual": "Envoyer des emails à des utilisateurs individuellement",
+                "mail_all": "Envoyer des emails à tous les utilisateurs"
             }
         },
         "forum": {
             "links": {
-                "mail_individual": "",
-                "mail_all": ""
+                "mail_individual": "Envoyer un email à cet utilisateur",
+                "mail_all": "Envoyer un email à tous les utilisateurs"
             },
             "modal_mail": {
-                "title_text": "",
-                "recipients_label": "",
-                "recipients_placeholder": "",
-                "subject_label": "",
-                "default_subject": "",
-                "message_label": "",
-                "submit_button": ""
+                "title_text": "Écrire un email",
+                "recipients_label": "Destinataires",
+                "recipients_placeholder": "Indiquez d’autres destinataires ...",
+                "subject_label": "Sujet",
+                "default_subject": "=> kilowhat-mailing.ref.default_subject",
+                "message_label": "Message",
+                "submit_button": "Envoyer"
             },
             "modal_sent": {
-                "title_text": "",
-                "on_its_way": ""
+                "title_text": "Email envoyé !",
+                "on_its_way": "Tape m’en cinq! Votre email est en route vers {recipientsCount} destinataires !"
             },
             "recipient_kinds": {
-                "user": "",
-                "group": "",
-                "email": ""
+                "user": "Utilisateur",
+                "group": "Groupe",
+                "email": "Email"
             }
         },
         "api": {
-            "no_recipients": ""
+            "no_recipients": "No recipient were matched"
         },
         "email": {
-            "default_subject": ""
+            "default_subject": "=> kilowhat-mailing.ref.default_subject"
         },
         "ref": {
-            "default_subject": ""
+            "default_subject": "Message de l’administration du forum"
         }
     }
 }
