@@ -3,103 +3,103 @@
         "forum": {
             "badges": {
                 "is_private": {
-                    "tooltip": ""
+                    "tooltip": "Discussion privée"
                 }
             },
             "buttons": {
-                "add_recipients": "",
-                "submit": "",
-                "edit_recipients": "",
-                "send_pd": "",
-                "cancel": "",
-                "remove_from_discussion": ""
+                "add_recipients": "Destinataires",
+                "submit": "Envoyer",
+                "edit_recipients": "Modifier les destinataires",
+                "send_pd": "Envoyer un message à {username}",
+                "cancel": "Annuler",
+                "remove_from_discussion": "Quitter cette discussion privée"
             },
             "composer_private_discussion": {
-                "submit_button": "",
-                "title_placeholder": ""
+                "submit_button": "Publier une discussion privée",
+                "title_placeholder": "Titre de la discussion privée"
             },
             "labels": {
-                "recipients": "",
-                "user_deleted": ""
+                "recipients": "{count} destinataire|{count} destinataires",
+                "user_deleted": "-supprimé-"
             },
             "nav": {
-                "start_button": "",
-                "nav_item": ""
+                "start_button": "Nouvelle discussion privée",
+                "nav_item": "Discussions privées"
             },
             "input": {
-                "search_recipients": ""
+                "search_recipients": "Rechercher un destinataire en saisissant ses trois premiers caractères…"
             },
             "search": {
                 "headings": {
-                    "groups": ""
+                    "groups": "Groupes de permissions"
                 }
             },
             "modal": {
                 "titles": {
-                    "update_recipients": "",
-                    "add_recipients": ""
+                    "update_recipients": "Mettre à jour les destinataires de {title}",
+                    "add_recipients": "Ajouter des destinataires à votre discussion"
                 },
                 "help": {
-                    "add_recipients": "",
-                    "update_recipients": ""
+                    "add_recipients": "Cette discussion ne sera visible que par les utilisateurs que vous choisissez ici. Au moins 1 destinataire (autre que vous-même) est requis",
+                    "update_recipients": "Cette discussion ne sera visible que par les utilisateurs que vous choisissez ici."
                 }
             },
             "post": {
                 "recipients_modified": {
-                    "added_and_removed": "",
-                    "added": "",
-                    "removed": "",
-                    "removed_self": ""
+                    "added_and_removed": "{username} a ajouté {added} et a supprimé {removed} aux destinataires.",
+                    "added": "{username} a ajouté {added} aux destinataires.",
+                    "removed": "{username} a supprimé {removed} des destinataires.",
+                    "removed_self": "{username} a quitté la discussion privée."
                 }
             },
             "user": {
                 "settings": {
-                    "block_pd": "",
-                    "unified_index": ""
+                    "block_pd": "Bloquer les discussions privées",
+                    "unified_index": "Combinez des discussions privées dans un index unifié"
                 },
-                "byobu_link": "",
-                "dropdown_label": ""
+                "byobu_link": "Discussions privées",
+                "dropdown_label": "Discussions privées"
             },
             "notifications": {
-                "pd_label": "",
-                "pd_reply_label": "",
-                "pd_reply_text": "",
-                "pd_text": "",
-                "pd_user_left_label": "",
-                "pd_user_left_text": "",
-                "pd_added_text": "",
-                "pd_added_label": ""
+                "pd_label": "Quelqu’un m’a inclus dans une discussion privée",
+                "pd_reply_label": "Quelqu’un a posté dans une discussion privée dont je suis le destinataire",
+                "pd_reply_text": "{username} a posté dans une discussion privée dont vous faites partie",
+                "pd_text": "a démarré une nouvelle discussion privée avec vous",
+                "pd_user_left_label": "Un utilisateur destinataire quitte une discussion privée dont je fais partie",
+                "pd_user_left_text": "{username} a quitté la discussion privée",
+                "pd_added_text": "{username} vous a ajouté à une discussion privée",
+                "pd_added_label": "Quelqu’un m’ajoute à une discussion privée existante"
             },
             "confirm": {
-                "make_public": ""
+                "make_public": "Cela rendra cette discussion privée visible pour tout le monde. Vérifiez s’il s’agit de la bonne action avant de continuer."
             }
         },
         "admin": {
             "permission": {
-                "create_private_discussions_with_users": "",
-                "create_private_discussions_with_groups": "",
-                "create_private_discussions_with_blocking_users": "",
-                "edit_user_recipients": "",
-                "edit_group_recipients": "",
-                "view_private_discussions-when-flagged": ""
+                "create_private_discussions_with_users": "Créer des discussions privées avec des utilisateurs",
+                "create_private_discussions_with_groups": "Créer des discussions privées avec des groupes",
+                "create_private_discussions_with_blocking_users": "Créer des discussions privées avec des utilisateurs qui ont bloqué cette fonctionnalité",
+                "edit_user_recipients": "Modifier les utilisateurs participant à des discussions privées",
+                "edit_group_recipients": "Modifier les groupes participant à des discussions privées",
+                "view_private_discussions-when-flagged": "Afficher les discussions privées des autres utilisateurs qui ont été signalées"
             },
             "settings": {
-                "badge-icon": "",
-                "post-event-icon": ""
+                "badge-icon": "Badge de discussion Byobu",
+                "post-event-icon": "Événements de publication Byobu"
             }
         },
         "email": {
             "subject": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": ""
+                "private_discussion_created": "[Private Discussion] {display_name} a commencé une nouvelle discussion privée avec vous",
+                "private_discussion_replied": "[Private Discussion] {display_name} a publié dans une discussion privée",
+                "recipient_removed": "[Private Discussion] {display_name} a quitté la discussion",
+                "private_discussion_added": "[Private Discussion] {display_name} vous a ajouté à une discussion privée"
             },
             "body": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": ""
+                "private_discussion_created": "Hey {recipient_display_name},\n{actor_display_name} a commencé une nouvelle discussion privée avec vous en tant que destinataire, intitulée  '{discussion_title}'.\nRegardez-le ici:\n{discussion_url}\nVous devrez peut-être vous connecter avant de pouvoir accéder à ce lien.\n",
+                "private_discussion_replied": "Hey {recipient_display_name},\n{actor_display_name} a publié dans une discussion privée avec vous en tant que destinataire, intitulée  '{discussion_title}'.\nRegardez-le ici:\n{post_url}\nVous devrez peut-être vous connecter avant de pouvoir accéder à ce lien.\n",
+                "recipient_removed": "Hey {recipient_display_name},\n{actor_display_name} a quitté la discussion privée '{discussion_title}'. Il ne pourra plus voir son contenu.\nRegardez-le ici:\n{discussion_url}\nVous devrez peut-être vous connecter avant de pouvoir accéder à ce lien.\n",
+                "private_discussion_added": "Hey {recipient_display_name},\n{actor_display_name} vous a ajouté à une discussion privée existante, intitulée '{discussion_title}'.\nRegardez-le ici:\n{discussion_url}\nVous devrez peut-être vous connecter avant de pouvoir accéder à ce lien.\n"
             }
         }
     }
