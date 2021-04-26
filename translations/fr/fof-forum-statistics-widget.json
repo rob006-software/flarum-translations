@@ -2,18 +2,18 @@
     "fof-forum-statistics-widget": {
         "forum": {
             "navbar": {
-                "widget_title": "",
-                "discussions_count": "",
-                "posts_count": "",
-                "users_count": "",
-                "latest_member": ""
+                "widget_title": "Statistiques",
+                "discussions_count": "Discussions: {discussionsCount}",
+                "posts_count": "Messages: {postsCount}",
+                "users_count": "Membres: {usersCount}",
+                "latest_member": "Dernier membre: "
             }
         },
         "admin": {
             "settings": {
-                "widget_ignore_private_discussions_label": "",
-                "widget_order_label": "",
-                "widget_helper_text": ""
+                "widget_ignore_private_discussions_label": "Ignorer les discussions privées",
+                "widget_order_label": "Ordre des widgets",
+                "widget_helper_text": "Modifiez ce paramètre pour ajuster la position de ce widget sur la section de navigation latérale de votre forum. Plus le nombre est élevé, plus ce widget sera élevé dans la liste des éléments de navigation latérale (cette valeur peut être positive ou négative)."
             },
             "permissions": {
                 "view_discussions_count_label": "",
