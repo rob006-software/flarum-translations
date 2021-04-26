@@ -2,45 +2,45 @@
     "fof-user-directory": {
         "forum": {
             "header": {
-                "back_to_user_directory_tooltip": ""
+                "back_to_user_directory_tooltip": "Retour au répertoire des utilisateurs"
             },
             "search": {
-                "users_heading": "",
+                "users_heading": "Rechercher tous les utilisateurs pour \"{query}\"",
                 "field": {
-                    "placeholder": ""
+                    "placeholder": "Rechercher tous les utilisateurs"
                 }
             },
             "page": {
-                "nav": "",
-                "refresh_tooltip": "",
-                "load_more_button": "",
-                "empty_text": "",
-                "filter_button": ""
+                "nav": "Répertoire utilisateurs",
+                "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
+                "load_more_button": "=> core.ref.load_more",
+                "empty_text": "Nous n’avons trouvé aucun utilisateur correspondant à votre recherche.",
+                "filter_button": "Groupes de filtres"
             }
         },
         "admin": {
             "permissions": {
-                "view_user_directory": ""
+                "view_user_directory": "Voir le répertoire utilisateur"
             },
             "settings": {
-                "link": "",
-                "default-sort": ""
+                "link": "Ajouter un lien sur la page d’accueil pour les utilisateurs pouvant voir le répertoire",
+                "default-sort": "Tri par défaut"
             }
         },
         "lib": {
             "sort": {
-                "not_specified": "",
-                "default": "",
-                "username_az": "",
-                "username_za": "",
-                "newest": "",
-                "oldest": "",
-                "most_posts": "",
-                "least_posts": "",
-                "most_discussions": "",
-                "least_discussions": "",
-                "seen_recent": "",
-                "seen_oldest": ""
+                "not_specified": "Utiliser Flarum par défaut",
+                "default": "Par défaut",
+                "username_az": "Nom d’utilisateur (a-z)",
+                "username_za": "Nom d’utilisateur (z-a)",
+                "newest": "Le plus récent",
+                "oldest": "Le plus ancien",
+                "most_posts": "Le plus de messages",
+                "least_posts": "Le moins de messages",
+                "most_discussions": "Le plus de discussions",
+                "least_discussions": "Le moins de discussions",
+                "seen_recent": "Récemment en ligne",
+                "seen_oldest": "Hors-ligne depuis longtemps"
             }
         }
     }
