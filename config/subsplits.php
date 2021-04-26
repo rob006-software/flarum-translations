@@ -28,6 +28,24 @@ return [
 		'repository' => 'git@github.com:qiaeru/lang-french.git',
 		'branch' => 'master',
 		'path' => '/locale',
+		'components' => getComponents([
+			'core',
+			'validation',
+			'flarum-*',
+		]),
+	],
+	'fr-extended' => [
+		'type' => 'language',
+		'language' => 'fr',
+		'repository' => 'git@github.com:rooaaar/lang-french-extended.git',
+		'branch' => 'master',
+		'path' => '/locale',
+		'components' => getComponents([
+			'!core',
+			'!validation',
+			'!flarum-*',
+			'*',
+		]),
 	],
 	'it' => [
 		'type' => 'language',
