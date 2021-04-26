@@ -3,15 +3,15 @@
         "admin": {
             "settings": {
                 "error": {
-                    "403": "",
-                    "404": "",
-                    "500": "",
-                    "503": ""
+                    "403": "403 Interdit",
+                    "404": "404 Introuvable",
+                    "500": "500 Erreur Interne du Serveur",
+                    "503": "503 Service indisponible (Arrêté pour maintenance)"
                 },
                 "placeholder": {
-                    "empty_for_default": ""
+                    "empty_for_default": "Laissez vide pour que soit affichée par défaut la page d’erreur de Flarum"
                 },
-                "title": ""
+                "title": "Pages d’erreur HTML personnalisées"
             }
         }
     }
