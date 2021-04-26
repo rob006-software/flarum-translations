@@ -3,23 +3,23 @@
         "forum": {
             "composer": {
                 "warning": {
-                    "title": "",
-                    "description": "",
-                    "checkbox_label": "",
-                    "error": ""
+                    "title": "Ce sujet a plus de <b>{time}</b> jours.",
+                    "description": "Il est très probable que ce sujet ne nécessite pas plus de discussion, le faire remonter n’est (peut-être) pas utile.",
+                    "checkbox_label": "Je suis conscient que cette discussion est plutôt ancienne, mais j’aimerais quand même répondre.",
+                    "error": "Cette discussion est trop ancienne pour y répondre."
                 }
             }
         },
         "admin": {
             "settings": {
-                "days_label": "",
-                "days_help": "",
-                "message_title_label": "",
-                "message_title_help": "",
-                "message_description_label": "",
-                "message_agreement_label": "",
-                "tags_title": "",
-                "tags_help": ""
+                "days_label": "Jours",
+                "days_help": "Une discussion sera considérée comme ancienne lorsque le nombre de jours spécifié sera écoulé depuis la publication du dernier message.",
+                "message_title_label": "Titre du message personnalisé",
+                "message_title_help": "Utilisez <code>[time]</code> pour le texte temporel, c’est à dire \"14 jours\".",
+                "message_description_label": "Description du message personnalisée",
+                "message_agreement_label": "Message personnalisé d’accord (case à cocher)",
+                "tags_title": "Étiquettes",
+                "tags_help": "Remplacez les jours globaux pour une étiquette spécifique. Vide signifie utiliser la valeur par défaut. Si une discussion comporte plusieurs étiquettes avec des valeurs de jour différentes, elle utilisera le plus petit nombre de jours configurés."
             }
         }
     }
