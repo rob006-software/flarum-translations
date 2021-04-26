@@ -2,84 +2,84 @@
     "core": {
         "forum": {
             "index_sort": {
-                "hot_button": ""
+                "hot_button": "Tendances"
             }
         }
     },
     "fof-gamification": {
         "forum": {
-            "votes": "",
-            "vote_title": "",
+            "votes": "Votes",
+            "vote_title": "Afficher qui a voté",
             "nav": {
-                "name": ""
+                "name": "Classements"
             },
             "ranking": {
-                "rank": "",
-                "name": "",
-                "amount": ""
+                "rank": "Rang",
+                "name": "Utilisateurs",
+                "amount": "Points"
             },
             "notification": {
-                "upvote": "",
-                "downvote": ""
+                "upvote": "{username} a voté positivement votre message",
+                "downvote": "{username} a voté négativement votre message"
             },
             "user": {
-                "points": "",
-                "rank": ""
+                "points": "Points: {points}",
+                "rank": "{rank}"
             },
             "modal": {
-                "title": "",
-                "upvotes_label": ""
+                "title": "Votants",
+                "upvotes_label": "Votants positifs:"
             },
-            "mod_item": ""
+            "mod_item": "Voir les votants"
         },
         "admin": {
             "permissions": {
-                "vote_label": "",
-                "see_votes_label": "",
-                "see_ranking_page": ""
+                "vote_label": "Votes positifs/négatifs des messages",
+                "see_votes_label": "Voir les votes positifs/négatifs des messages",
+                "see_ranking_page": "Voir la page de classement"
             },
             "page": {
                 "rankings": {
                     "blocked": {
-                        "placeholder": "",
-                        "title": "",
-                        "help": ""
+                        "placeholder": "CDK2020, Ralkage, AngelAvila",
+                        "title": "Utilisateurs ignorés",
+                        "help": "Ces utilisateurs ne seront pas affichés sur la page de classement. Les noms d’utilisateur doivent être séparés par une virgule suivie d’un espace."
                     },
-                    "title": "",
-                    "enable": "",
-                    "custom_image_1": "",
-                    "custom_image_2": "",
-                    "custom_image_3": ""
+                    "title": "Page de classement",
+                    "enable": "Activer les images personnalisées",
+                    "custom_image_1": "Image de la 1ère place",
+                    "custom_image_2": "Image de la 2ème place",
+                    "custom_image_3": "Image de la 3ème place"
                 },
                 "votes": {
-                    "points_title": "",
-                    "points_placeholder": "",
-                    "color_holder": "",
-                    "auto_upvote": "",
-                    "rate_limit": "",
-                    "discussion_page": "",
-                    "alternate_layout": "",
-                    "title": "",
-                    "vote_color": "",
-                    "icon_name": "",
-                    "icon_help": ""
+                    "points_title": "Points d’espace réservé",
+                    "points_placeholder": "Points: ",
+                    "color_holder": "#ffffff",
+                    "auto_upvote": "Attribuer automatiquement un vote positif lorsqu’un message est publié",
+                    "rate_limit": "Appliquer une limite de taux de vote (10 secondes)",
+                    "discussion_page": "Afficher le nombre total de votes du message original sur la liste de discussion",
+                    "alternate_layout": "Utiliser une autre mise en page pour afficher et / ou faire des votes positifs / négatifs",
+                    "title": "Votes",
+                    "vote_color": "Couleur votée",
+                    "icon_name": "Icône de vote positif/négatif",
+                    "icon_help": "Entrez n’importe quelle icône Font-Awesome ayant le suffixe -up et -down. Exemples: flèche, pouce, chevron"
                 },
-                "save_settings": "",
+                "save_settings": "Enregistrer les paramètres",
                 "convert": {
-                    "button": "",
-                    "help": "",
-                    "converting": "",
-                    "converted": ""
+                    "button": "Convertir les \"j’aime\" en votes positifs",
+                    "help": "Converti vos \"j’aime\" précédents en votes positifs et calcule la popularité de toutes les discussions en cours.",
+                    "converting": "Vos \"j’aime\" sont en cours de conversion. Actualisez votre site après quelques minutes pour voir le processus terminé. (Le temps de conversion peut prendre un certain temps en fonction du nombre total de \"j’aime\" sur le forum)",
+                    "converted": "Les {number} \"j’aime\" ont été convertis avec succès"
                 },
                 "ranks": {
-                    "title": "",
-                    "ranks": "",
-                    "number_title": "",
+                    "title": "Rangs",
+                    "ranks": "Rangs personnalisés",
+                    "number_title": "Combien de badges de grade doivent être affichés?",
                     "help": {
-                        "color": "",
-                        "help": "",
-                        "points": "",
-                        "name": ""
+                        "color": "#ffffff",
+                        "help": "Entrez le nombre requis de votes positifs, le nom du rang et la couleur hexadécimale du rang",
+                        "points": "Points",
+                        "name": "Nom"
                     }
                 }
             }
