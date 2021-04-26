@@ -3,48 +3,48 @@
         "admin": {
             "permissions": {
                 "view_results_without_voting": "",
-                "start": "",
-                "self_edit": "",
-                "vote": "",
+                "start": "Démarrer un sondage",
+                "self_edit": "Modifier ses propres sondages",
+                "vote": "Voter sur les sondages",
                 "change_vote": "",
-                "moderate": ""
+                "moderate": "Modifier ou supprimer les sondages"
             }
         },
         "forum": {
-            "days_remaining": "",
-            "no_permission": "",
-            "poll_ended": "",
-            "public_poll": "",
+            "days_remaining": "Le sondage se termine dans {time}",
+            "no_permission": "Vous n’avez pas la permission de voter",
+            "poll_ended": "Ce sondage est terminé",
+            "public_poll": "Voir les votants",
             "composer_discussion": {
-                "add_poll": "",
-                "edit_poll": ""
+                "add_poll": "Ajouter un sondage",
+                "edit_poll": "=> fof-polls.forum.moderation.edit"
             },
             "modal": {
-                "add_title": "",
-                "add_option_label": "",
-                "date_placeholder": "",
-                "edit_title": "",
-                "include_question": "",
-                "max": "",
-                "min": "",
-                "no_voters": "",
-                "option_placeholder": "",
-                "options_label": "",
-                "public_poll_label": "",
-                "question_placeholder": "",
-                "submit": ""
+                "add_title": "Ajouter un sondage",
+                "add_option_label": "Ajouter une option",
+                "date_placeholder": "Date de fin du sondage (facultatif)",
+                "edit_title": "Modifier le sondage",
+                "include_question": "Vous devez inclure une question",
+                "max": "Vous pouvez avoir un maximum de 10 réponses",
+                "min": "Vous devez inclure au minimum de 2 réponses",
+                "no_voters": "Aucun vote",
+                "option_placeholder": "Répondre",
+                "options_label": "Réponses",
+                "public_poll_label": "Permettre aux utilisateurs de voir qui a voté",
+                "question_placeholder": "Question",
+                "submit": "Soumettre"
             },
             "moderation": {
-                "delete": "",
-                "delete_confirm": "",
-                "edit": ""
+                "delete": "Supprimer le sondage",
+                "delete_confirm": "Êtes-vous sûr de vouloir supprimer ce sondage?",
+                "edit": "Modifier le sondage"
             },
             "tooltip": {
-                "badge": "",
-                "votes": ""
+                "badge": "Sondage",
+                "votes": "1 vote|{count} votes"
             },
             "votes_modal": {
-                "title": ""
+                "title": "Votants"
             }
         }
     }
