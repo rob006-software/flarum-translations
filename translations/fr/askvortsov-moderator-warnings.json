@@ -2,68 +2,68 @@
     "askvortsov-moderator-warnings": {
         "admin": {
             "permissions": {
-                "manage_warnings": "",
-                "view_warnings": "",
-                "delete_warnings": ""
+                "manage_warnings": "Créer et supprimer des avertissements du modérateur",
+                "view_warnings": "Afficher les avertissements du modérateur",
+                "delete_warnings": "Supprimer définitivement les avertissements du modérateur"
             }
         },
         "emails": {
             "post_warned": {
-                "subject": "",
-                "body": ""
+                "subject": "{warner_display_name} vous a averti avec {strikes} strikes dans {discussion_title}",
+                "body": "Salut {warnee_display_name}!\n {warner_display_name} vous a averti pour {strikes} dans {discussion_title}\n La raison suivante a été invoquée:\n ---\n {public_comment}\n"
             },
             "user_warned": {
-                "subject": "",
-                "body": ""
+                "subject": "{warner_display_name} vous a averti avec {strikes} strikes",
+                "body": "Hey {warnee_display_name}!\n{warner_display_name} vous a averti avec {strikes} strikes\nLa raison suivante a été invoquée:\n---\n{public_comment}\n"
             }
         },
         "forum": {
             "notifications": {
-                "warning_text": "",
-                "warning_no_strikes_text": ""
+                "warning_text": "Vous avez été averti avec {strikes} strike par {mod_username}|Vous avez été averti avec {strikes} strikes par {mod_username}",
+                "warning_no_strikes_text": "Vous avez été averti par {mod_username} (aucun strike)"
             },
             "post": {
-                "warning": "",
-                "warning_no_strikes": ""
+                "warning": "Vous avez été averti avec {strikes} strike par {mod_username}|Vous avez été averti avec {strikes} strikes par {mod_username}",
+                "warning_no_strikes": "Vous avez été averti sans aucun strike par {mod_username}"
             },
             "post_controls": {
-                "warning_button": ""
+                "warning_button": "Avertir l’utilisateur"
             },
             "user": {
-                "warnings": ""
+                "warnings": "Avertissements"
             },
             "settings": {
-                "warning_notification_label": ""
+                "warning_notification_label": "Un modérateur m’a averti"
             },
             "validation": {
-                "public_comment_required": "",
-                "invalid_strike_count": ""
+                "public_comment_required": "Vous devez fournir un commentaire public.",
+                "invalid_strike_count": "Le nombre de strikes doit être un entier compris entre 0 et 5."
             },
             "warning_controls": {
-                "delete_button": "",
-                "restore_button": "",
-                "delete_forever_button": ""
+                "delete_button": "Retirer",
+                "restore_button": "Restaurer",
+                "delete_forever_button": "Effacé définitivement"
             },
             "warning_list": {
-                "add_button": "",
-                "no_warnings": "",
-                "warnings": "",
-                "warnings_no_strikes": ""
+                "add_button": "Nouvel avertissement",
+                "no_warnings": "Il semble qu’il n’y ait aucun avertissement ici.",
+                "warnings": "Avertissements du modérateur: {strikes} strike reçu|Avertissements du modérateur: {strikes} strikes reçus",
+                "warnings_no_strikes": "Avertissements du modérateur: aucun strike reçu"
             },
             "warning_list_item": {
-                "list_item_heading": "",
-                "list_item_heading_hidden": "",
-                "public_comment": "",
-                "private_comment": "",
-                "linked_post": ""
+                "list_item_heading": "<strong>{mod_username}</strong> vous a averti avec <strong>{strikes}</strong> strike|<strong>{mod_username}</strong> vous a averti avec <strong>{strikes}</strong> strikes",
+                "list_item_heading_hidden": "<strong>{mod_username}</strong> vous a averti avec <strong>{strikes}</strong> strike <strong>(retiré)</strong>|<strong>{mod_username}</strong> vous a averti avec <strong>{strikes}</strong> strikes <strong>(retiré)</strong>",
+                "public_comment": "Commentaires visibles par l’utilisateur",
+                "private_comment": "Commentaires visibles par le modérateur",
+                "linked_post": "Message lié"
             },
             "warning_modal": {
-                "confirmation_message": "",
-                "heading": "",
-                "strikes_heading": "",
-                "public_comment_heading": "",
-                "private_comment_heading": "",
-                "submit_button": ""
+                "confirmation_message": "Votre avertissement a été enregistré. Vous devrez peut-être actualiser la page pour la voir.",
+                "heading": "Avertir <strong>{username}</strong>",
+                "strikes_heading": "Combien de strikes doivent être appliqués?",
+                "public_comment_heading": "Pourquoi <strong>{username}</strong> reçoit-il ces avertissements? Ces commentaires seront visibles par l’utilisateur et les autres modérateurs.",
+                "private_comment_heading": "Pourquoi <strong>{username}</strong> reçoit-il ces avertissements? Ces commentaires seront UNIQUEMENT visibles par les autres modérateurs.",
+                "submit_button": "Enregistrer l’avertissement"
             }
         }
     }
