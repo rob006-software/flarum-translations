@@ -2,34 +2,34 @@
     "askvortsov-saml": {
         "admin": {
             "header": {
-                "text": ""
+                "text": "Assurez-vous que l’URL des métadonnées ou les métadonnées sont renseignées."
             },
-            "title": "",
+            "title": "Configuration SSO SAML2",
             "labels": {
-                "idp_metadata_url": "",
-                "idp_metadata": "",
-                "only_option": "",
-                "sync_attributes": "",
-                "nameid_format": "",
-                "want_assertions_signed": "",
-                "want_messages_signed": ""
+                "idp_metadata_url": "URL des métadonnées du fournisseur d’identité (alternative à XML)",
+                "idp_metadata": "XML de métadonnées du fournisseur d’identité (alternative à l'URL)",
+                "only_option": "Utiliser SAML2 SSO comme seule option de connexion?",
+                "sync_attributes": "Attributs de synchronisation (avatar, groupes, biographie et profil)? Nécessite l’extension askvortsov / auth-sync.",
+                "nameid_format": "Format NameID",
+                "want_assertions_signed": "Vous voulez que les assertions soient signées?",
+                "want_messages_signed": "Vous voulez que les messages soient signés?"
             },
             "options": {
                 "nameid_format": {
-                    "persistent": "",
-                    "emailAddress": "",
-                    "unspecified": ""
+                    "persistent": "Persistant (recommandé si pris en charge)",
+                    "emailAddress": "E-mail (par défaut. À utiliser si Persistant n’est pas pris en charge)",
+                    "unspecified": "Non spécifié"
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_saml_button": "",
-                "open_popup": "",
-                "enable_popups": ""
+                "with_saml_button": "SAML2 SSO",
+                "open_popup": "Cliquez ici pour vous identifier",
+                "enable_popups": "Activer les fenêtres contextuelles pour se connecter / s’inscrire"
             },
             "sign_up": {
-                "post_saml_title": ""
+                "post_saml_title": "Une dernière étape ..."
             }
         }
     }
