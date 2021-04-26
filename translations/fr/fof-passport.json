@@ -3,21 +3,21 @@
         "admin": {
             "popup": {
                 "field": {
-                    "app-auth-url": "",
-                    "app-token-url": "",
-                    "app-user-url": "",
-                    "app-id": "",
-                    "app-secret": "",
-                    "app-scopes": "",
-                    "button-title": "",
-                    "button-title-placeholder": "",
-                    "button-icon": ""
+                    "app-auth-url": "URL d’autorisation OAuth",
+                    "app-token-url": "URL du jeton OAuth",
+                    "app-user-url": "URL de l’API fournissant les détails de l’utilisateur, lors de l’authentification",
+                    "app-id": "Identifiant de l’application OAuth",
+                    "app-secret": "Secret de l’application OAuth",
+                    "app-scopes": "OAuth portées à la demande",
+                    "button-title": "Intitulé pour le bouton de connexion",
+                    "button-title-placeholder": "=> fof-passport.api.default-login-button-title",
+                    "button-icon": "Icône pour le bouton de connexion"
                 },
-                "title": ""
+                "title": "Flagrow Passport"
             }
         },
         "api": {
-            "default-login-button-title": ""
+            "default-login-button-title": "=> core.ref.log_in"
         }
     }
 }
