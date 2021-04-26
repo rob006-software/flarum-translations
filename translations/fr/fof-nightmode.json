@@ -1,40 +1,40 @@
 {
     "fof-nightmode": {
         "ref": {
-            "auto": "",
-            "light": "",
-            "dark": ""
+            "auto": "Automatique (en fonction des options du navigateur ou de l’appareil)",
+            "light": "Mode jour",
+            "dark": "Mode nuit"
         },
         "admin": {
             "settings": {
                 "modal": {
-                    "default_theme": "",
-                    "default_theme_helper": "",
-                    "theme_auto": "",
-                    "theme_light": "",
-                    "theme_dark": ""
+                    "default_theme": "Thème de forum par défaut",
+                    "default_theme_helper": "Le thème par défaut est automatiquement défini pour les nouveaux utilisateurs et invités.",
+                    "theme_auto": "=> fof-nightmode.ref.auto",
+                    "theme_light": "=> fof-nightmode.ref.light",
+                    "theme_dark": "=> fof-nightmode.ref.dark"
                 }
             }
         },
         "forum": {
-            "day": "",
-            "night": "",
+            "day": "=> fof-nightmode.ref.light",
+            "night": "=> fof-nightmode.ref.dark",
             "user": {
                 "settings": {
-                    "heading": "",
-                    "description": "",
-                    "description2": "",
-                    "device_specific_setting_checkbox": "",
-                    "device_specific_setting_checkbox_tooltip": "",
+                    "heading": "Thème",
+                    "description": "Choisissez le thème de couleur que vous souhaitez utiliser sur le forum.",
+                    "description2": "Ce thème sera lié à votre compte et s’applique à tous vos appareils, sauf si vous activez le commutateur ci-dessous pour les paramètres par appareil.",
+                    "device_specific_setting_checkbox": "Utiliser les paramètres par appareil",
+                    "device_specific_setting_checkbox_tooltip": "Votre choix de thème sera enregistré individuellement pour chacun de vos appareils.",
                     "options": {
-                        "auto": "",
-                        "day": "",
-                        "night": ""
+                        "auto": "=> fof-nightmode.ref.auto",
+                        "day": "=> fof-nightmode.ref.light",
+                        "night": "=> fof-nightmode.ref.dark"
                     },
                     "option_descriptions": {
-                        "auto": "",
-                        "day": "",
-                        "night": ""
+                        "auto": "Votre thème sera automatiquement sélectionné en fonction des paramètres de votre navigateur ou de votre appareil. Par exemple, si vous avez activé le mode sombre dans iOS, les forums seront également sombres.",
+                        "day": "L’expérience classique à laquelle vous êtes habitué. Aimé et testé.",
+                        "night": "Vous êtes un peu un oiseau de nuit. Vous surveillez le forum la nuit, pendant que les oiseaux dorment et que les renards chassent. Ou vous préférez simplement les couleurs plus foncées!"
                     }
                 }
             }

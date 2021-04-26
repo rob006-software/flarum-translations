@@ -2,18 +2,18 @@
     "nearata-cakeday": {
         "admin": {
             "permissions": {
-                "can_view_anniversaries_page": ""
+                "can_view_anniversaries_page": "Afficher la page des anniversaires"
             },
             "settings": {
-                "anniversaries_page_label": "",
-                "cake_bg_color_label": "",
-                "cake_bg_color_help": "",
-                "cake_txt_color_label": "",
-                "cake_txt_color_help": "",
-                "new_members": "",
-                "new_members_howlong": "",
-                "new_members_howlong_help": "",
-                "new_members_changelabel": ""
+                "anniversaries_page_label": "Activer la page des anniversaires",
+                "cake_bg_color_label": "Couleur de l’arrière plan",
+                "cake_bg_color_help": "Aide: ce paramètre modifie la couleur d’arrière-plan du gâteau. Laissez vide par défaut.",
+                "cake_txt_color_label": "Couleur de l’icône",
+                "cake_txt_color_help": "Aide: ce paramètre modifie la couleur du texte du gâteau. Laissez vide par défaut.",
+                "new_members": "Afficher une icône de gâteau sur les nouveaux membres",
+                "new_members_howlong": "(Nouveaux membres) Pendant combien de temps",
+                "new_members_howlong_help": "Exprimé en jours.",
+                "new_members_changelabel": "(Nouveaux membres) Remplacez le libellé par: Nouveau membre"
             },
             "cake_bg_color_label": "",
             "cake_bg_color_help": "",
@@ -25,20 +25,20 @@
             "new_members_changelabel": ""
         },
         "forum": {
-            "anniversary": "",
-            "new_member_label": "",
+            "anniversary": "Anniversaire",
+            "new_member_label": "Nouveau membre",
             "page": {
-                "anniversaries_between_label": "",
-                "anniversaries_for_label": "",
-                "empty": "",
+                "anniversaries_between_label": "Anniversaires entre le {date1} et le {date2}",
+                "anniversaries_for_label": "Anniversaires pour {date}",
+                "empty": "Pas d’anniversaire.",
                 "filter_options": {
-                    "today": "",
-                    "tomorrow": "",
-                    "upcoming": "",
-                    "all": ""
+                    "today": "Aujourd’hui",
+                    "tomorrow": "Demain",
+                    "upcoming": "A venir",
+                    "all": "Tout"
                 },
-                "load_more_button": "",
-                "title": ""
+                "load_more_button": "Charger plus",
+                "title": "Anniversaires"
             }
         }
     }

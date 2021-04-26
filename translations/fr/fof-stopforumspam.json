@@ -2,26 +2,26 @@
     "fof-stopforumspam": {
         "admin": {
             "settings": {
-                "title": "",
-                "username_label": "",
-                "ip_label": "",
-                "email_label": "",
-                "frequency_label": "",
-                "frequency_text": "",
-                "frequency_example_text": "",
-                "api_key_label": "",
-                "api_key_text": "",
-                "api_key_instructions_text": ""
+                "title": "FriendsOfFlarum Stop Forum Spam",
+                "username_label": "Vérification anti-spam du nom d’utilisateur",
+                "ip_label": "Vérification anti-spam de l’adresse IP",
+                "email_label": "Vérification anti-spam de l’email",
+                "frequency_label": "Seuil",
+                "frequency_text": "Le nombre de rapports de spam entre tous les contrôles activés qui déclencheront le filtre anti-spam.",
+                "frequency_example_text": "Ex: Si l’email a un rapport et l’adresse IP deux rapports, cela fera trois avertissements au total. Si le seuil est fixé à 3 ou moins, cela empêchera l’enregistrement.",
+                "api_key_label": "Clé API",
+                "api_key_text": "Vous avez fof/spamblock d’activé, vous avez maintenant la possibilité de signaler les spammeurs à StopForumSpam afin de préserver du spam une plus grande communauté.",
+                "api_key_instructions_text": "<register>Inscrivez-vous à StopForumSpam</register>. Ensuite, vous devrez <key>obtenir une clé API</key>."
             }
         },
         "forum": {
             "message": {
-                "spam": ""
+                "spam": "Vos informations ont été marquées comme spam."
             }
         },
         "api": {
             "error": {
-                "unknown": ""
+                "unknown": "Impossible de signaler l’utilisateur à StopForumSpam."
             }
         }
     }

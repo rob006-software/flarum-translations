@@ -2,24 +2,24 @@
     "fof-pretty-mail": {
         "admin": {
             "nav": {
-                "desc": ""
+                "desc": "Personnalisez vos modèles d’email HTML."
             },
             "settings": {
-                "label": "",
-                "reset": "",
-                "confirm": "",
-                "default": "",
-                "newPost": "",
-                "userMentioned": "",
-                "postMentioned": "",
-                "notifications": "",
-                "notificationHelp": "",
-                "help": ""
+                "label": "Modèles d’email",
+                "reset": "Revenir à la valeur par défaut",
+                "confirm": "Êtes-vous sûr de vouloir revenir au modèle d’email pour",
+                "default": "Modèle par défaut",
+                "newPost": "Flarum/abonnements nouveau message",
+                "userMentioned": "Flarum/mentions mention d’un utilisateur",
+                "postMentioned": "Flarum/mentions mention d’un message",
+                "notifications": "Modèles de notification",
+                "notificationHelp": "Il est recommandé d’utiliser \"$forumStyle\" pour ces emails, car ils peuvent contenir du BBCODE. \"$User\" est également disponible dans ces emails, qui contient le modèle complet de l’utilisateur envoyé par email.",
+                "help": "\"$body\" contient le contenu actuel de l’email, \"$forumStyle\" contient le <strong>CSS entier du forum</strong>, \"$baseUrl\" contient l’URL de votre forum;  \"$settings\" vous permet d’interagir avec SettingsRepositoryInterface, et \"$link\"contient le lien dans l’email. Voir chaque modèle pour savoir comment utiliser chaque variable."
             },
             "css_settings": {
-                "label": "",
-                "help": "",
-                "switch_label": ""
+                "label": "Paramètres CSS",
+                "help": "Vous pouvez choisir d’inclure le code CSS du forum dans le code HTML de l’email. Si vous l’activez, vous pourriez avoir des problèmes avec certains fournisseurs de messagerie.",
+                "switch_label": "inclure le css complet du forum"
             }
         }
     }

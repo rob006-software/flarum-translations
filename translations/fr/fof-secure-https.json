@@ -2,12 +2,12 @@
     "fof-secure-https": {
         "admin": {
             "settings": {
-                "replace": ""
+                "replace": "Procurer les images via HTTPS"
             }
         },
         "forum": {
-            "removed": "",
-            "show": ""
+            "removed": "Image supprimée en raison de l’absence de connexion sécurisée via HTTPS.",
+            "show": "Afficher quand même"
         }
     }
 }

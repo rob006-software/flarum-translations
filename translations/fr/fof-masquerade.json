@@ -2,64 +2,70 @@
     "fof-masquerade": {
         "forum": {
             "alerts": {
-                "profile-completion-required": "",
+                "profile-completion-required": "Veuillez compléter les champs de profil nécessaires ci-dessous.\n",
                 "profile-completed": ""
             },
             "buttons": {
-                "view-profile": "",
-                "save-profile": ""
+                "view-profile": "Voir le profil",
+                "save-profile": "Sauvegarder"
             },
             "fields": {
                 "select": {
-                    "none-optional": "",
-                    "none-required": ""
+                    "none-optional": "Aucune option sélectionnée (facultatif)",
+                    "none-required": "Veuillez sélectionner une option (obligatoire)"
                 },
                 "boolean": {
-                    "yes": "",
-                    "no": ""
+                    "yes": "Oui",
+                    "no": "Non"
                 }
             }
         },
         "admin": {
-            "general-options": "",
+            "general-options": "Principales options",
             "buttons": {
-                "add-field": "",
-                "edit-field": "",
-                "delete-field": ""
+                "add-field": "Créer un champ",
+                "edit-field": "Sauvegarder les modifications",
+                "delete-field": "Supprimer le champ"
             },
             "permissions": {
-                "have-profile": "",
-                "view-profile": ""
+                "have-profile": "Avoir un profil masquerade",
+                "view-profile": "Voir le profil masquerade"
             },
             "fields": {
-                "title": "",
-                "add": "",
-                "edit": "",
-                "name": "",
-                "name-help": "",
-                "description": "",
-                "description-help": "",
-                "required": "",
-                "on_bio": "",
-                "type": "",
-                "validation": "",
-                "validation-help": "",
-                "prefix": "",
-                "prefix-help": "",
-                "icon": "",
-                "icon-help": "",
-                "force-user-to-completion": "",
-                "options": "",
-                "option-new": "",
-                "option-comma-warning": ""
+                "title": "Champs",
+                "add": "Ajouter le champ {field}",
+                "edit": "Modifier le champ {field}",
+                "name": "Nom du champ",
+                "name-help": "L’étiquette de champ visible publiquement (non traduisible).\n",
+                "description": "Description du champ",
+                "description-help": "Une description facultative pour expliquer l’utilisation / la nécessité de ce champ.\n",
+                "required": "Marquer le champ comme obligatoire",
+                "on_bio": "Afficher la réponse à ce champ dans la biographie de l’utilisateur",
+                "type": "Type",
+                "validation": "Validation",
+                "validation-help": "Consultez les <a>règles de validation Laravel</a> supportées. Ex.: \"string|min:5\" ou \"url\".\n",
+                "prefix": "Préfixe de champ",
+                "prefix-help": "Affiche votre préfixe devant les valeurs entrées par l’utilisateur pour ce champ.\n",
+                "icon": "Icône",
+                "icon-help": "Affiche une icône devant les valeurs entrées par l’utilisateur. Pour une référence des icônes disponibles, consultez <a>FontAwesome website</a>. Utilisez des noms d’icônes avec le préfixe \"fa-\", comme \"fas fa-info\".\n",
+                "force-user-to-completion": "Forcer l’utilisateur à compléter son profil",
+                "options": "Options",
+                "option-new": "Nouvelle option",
+                "option-comma-warning": "",
+                "disable-user-bio": "Désactiver le champ biographie de l’utilisateur",
+                "option-coma-warning": "L’étiquette d’une option ne peut contenir aucune virgule (\",\")."
             },
             "types": {
-                "advanced": "",
-                "boolean": "",
-                "email": "",
-                "select": "",
-                "url": ""
-            }
+                "advanced": "Avancées",
+                "boolean": "Case à cocher",
+                "email": "Email",
+                "select": "Menu déroulant",
+                "url": "Url"
+            },
+            "menu": {
+                "description": "Configurer les champs de profil utilisateur.\n"
+            },
+            "title": "Masquerade"
         }
     }
 }

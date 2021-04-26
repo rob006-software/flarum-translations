@@ -2,44 +2,44 @@
     "askvortsov-categories": {
         "admin": {
             "basics": {
-                "categories_label": ""
+                "categories_label": "Catégories"
             },
             "labels": {
-                "keep_tags_nav": "",
-                "child_bare_icon": "",
-                "compact_mobile_mode": "",
-                "full_page_desktop": "",
-                "parent_remove_icon": "",
-                "parent_remove_description": "",
-                "parent_remove_stats": "",
-                "parent_remove_last_discussion": "",
-                "small_forum_optimized": ""
+                "keep_tags_nav": "Conserver le lien vers la page des étiquettes dans la barre latérale de navigation?",
+                "child_bare_icon": "Les icônes des catégories enfants doivent-elles être affichées sans arrière-plan circulaire?",
+                "compact_mobile_mode": "mode mobile compact",
+                "full_page_desktop": "Le menu de navigation de la barre latérale doit-il être réduit à une ligne (comme sur la page des balises traditionnelles)? Cela masquera également les widgets (tels que les statistiques de FoF) dans la barre de navigation de la page des catégories.",
+                "parent_remove_icon": "Masquer les icônes des étiquettes de niveau supérieur?",
+                "parent_remove_description": "Masquer les descriptions des étiquettes de niveau supérieur?",
+                "parent_remove_stats": "Masquer les statistiques des étiquettes de niveau supérieur?",
+                "parent_remove_last_discussion": "Masquer les discussions les plus récentes des étiquettes de niveau supérieur?",
+                "small_forum_optimized": "Optimiser pour les petits forums? Cela donnera des comptes de discussion / publication plus précis, mais ralentira considérablement les forums moyens et grands."
             },
             "headings": {
-                "nav": "",
-                "layout": "",
-                "parent_display": "",
-                "child_display": "",
-                "performance": ""
+                "nav": "Navigation",
+                "layout": "Mise en page",
+                "parent_display": "Affichage de la catégorie parent",
+                "child_display": "Affichage de la catégorie enfant",
+                "performance": "Performance"
             },
-            "title": ""
+            "title": "Paramètres des catégories"
         },
         "forum": {
             "header": {
-                "back_to_categories_tooltip": ""
+                "back_to_categories_tooltip": "Retour aux catégories"
             },
             "index": {
-                "categories_link": ""
+                "categories_link": "Catégories"
             },
             "meta": {
-                "categories_title": ""
+                "categories_title": "Catégories"
             },
             "stat-widgets": {
-                "discussion_label": "",
-                "post_label": ""
+                "discussion_label": "Discussions",
+                "post_label": "Messages"
             },
             "last_discussion_widget": {
-                "no_discussions": ""
+                "no_discussions": "Pas de discussions (Pour le moment!)"
             }
         }
     }

@@ -2,147 +2,147 @@
     "fof-upload": {
         "admin": {
             "pane": {
-                "title": "",
-                "description": ""
+                "title": "Upload",
+                "description": "Configurez les services et les préférences de téléchargement."
             },
             "buttons": {
-                "save": ""
+                "save": "Enregistrer les paramètres"
             },
             "help_texts": {
-                "disable-download-logging": "",
-                "disable-hotlink-protection": "",
-                "download_templates": "",
-                "mime_types": "",
-                "resize": "",
-                "client_extension": "",
-                "watermark": "",
-                "s3_compatible_storage": "",
-                "s3_acl": "",
-                "composer_buttons": ""
+                "disable-download-logging": "Désactivez la journalisation de chaque téléchargement effectué par les utilisateurs de votre forum. Le laisser activé vous permet d’afficher le nombre de téléchargements et d’autres statistiques dans un avenir proche.\n",
+                "disable-hotlink-protection": "La protection contre les liens automatiques empêche l’ouverture de téléchargements depuis d’autres sites. La méthode actuelle nécessite un jeton csrf et un identifiant de publication.\n",
+                "download_templates": "Les modèles de téléchargement indiquent comment les téléchargements sont affichés sur votre forum, par exemple des aperçus, des boutons. Actuellement disponible:\n",
+                "mime_types": "Veuillez configurer votre cartographie ici. Chaque expression régulière de type mime sera gérée par un adaptateur de téléchargement et un modèle de téléchargement spécifiques.\n",
+                "resize": "Choisissez si vous souhaitez redimensionner vos images avant leur téléchargement. Vous pouvez choisir une largeur et une hauteur maximales, en pixels. Le processus de redimensionnement conserve le rapport hauteur / largeur des images.\n",
+                "client_extension": "Par défaut, Upload choisira une extension de fichier sûre en fonction du type MIME.\n Pour certains types de fichiers basés sur des données ZIP ou binaires, cela peut entraîner l’utilisation d’extensions génériques au lieu de celles attendues.\n Ici, vous pouvez entrer une liste d’extensions de fichiers séparées par des virgules qui seront conservées textuellement.\n",
+                "watermark": "Choisissez si un filigrane sera ajouté aux images pendant le téléchargement. Les filigranes sont ajoutés aux non-gifs en fonction de vos préférences ci-dessous.\n",
+                "s3_compatible_storage": "Les paramètres suivants ne sont requis que lors de l’utilisation du stockage compatible S3. Si vous utilisez AWS, vous pouvez les laisser vides.\n",
+                "s3_acl": "L’ACL qui doit être appliquée à l’objet téléchargé (par défaut: privé). Pour les valeurs possibles, voir https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "composer_buttons": "Par défaut, le bouton du gestionnaire de médias et le bouton de téléchargement sont visibles. Vous pouvez également choisir d’afficher un seul bouton.\n"
             },
             "labels": {
                 "aws-s3": {
-                    "bucket": "",
-                    "key": "",
-                    "region": "",
-                    "secret": "",
-                    "title": "",
-                    "advanced_title": "",
-                    "endpoint": "",
-                    "use_path_style_endpoint": "",
-                    "acl": ""
+                    "bucket": "Bucket",
+                    "key": "Clé",
+                    "region": "Région",
+                    "secret": "Secret",
+                    "title": "Paramètres de stockage AWS S3",
+                    "advanced_title": "Paramètres de stockage S3 avancés",
+                    "endpoint": "Endpoint",
+                    "use_path_style_endpoint": "Utiliser le point de terminaison de style de tracé",
+                    "acl": "Liste de contrôle d’accès (ACL)"
                 },
                 "disable-download-logging": {
-                    "title": "",
-                    "toggle": ""
+                    "title": "Désactiver la journalisation des téléchargements",
+                    "toggle": "Désactiver"
                 },
                 "disable-hotlink-protection": {
-                    "title": "",
-                    "toggle": ""
+                    "title": "Désactiver la protection contre les liens automatiques (hotlink)",
+                    "toggle": "Désactiver"
                 },
                 "imgur": {
-                    "client_id": "",
-                    "title": ""
+                    "client_id": "Identifiant client d’Imgur",
+                    "title": "Paramètres de stockage d’images Imgur"
                 },
                 "local": {
-                    "cdn_url": "",
-                    "title": ""
+                    "cdn_url": "URL de diffusion de contenu (fichiers de préfixes)",
+                    "title": "Paramètres de stockage local"
                 },
                 "qiniu": {
-                    "title": "",
-                    "key": "",
-                    "secret": "",
-                    "bucket": ""
+                    "title": "Paramètres de stockage Qiniu",
+                    "key": "Clé",
+                    "secret": "Secret",
+                    "bucket": "Bucket"
                 },
                 "preferences": {
-                    "max_file_size": "",
-                    "mime_types": "",
-                    "title": ""
+                    "max_file_size": "Taille maximale du fichier (en kilo-octets)",
+                    "mime_types": "Configurez votre type MIME (téléversez la cartographie de téléchargement)",
+                    "title": "Préférences générales"
                 },
                 "resize": {
-                    "max_width": "",
-                    "title": "",
-                    "toggle": ""
+                    "max_width": "Largeur maximale de l’image",
+                    "title": "Redimensionner l’image",
+                    "toggle": "Redimensionner les images"
                 },
                 "client_extension": {
-                    "title": ""
+                    "title": "Extensions de fichier fournies par l'utilisateur"
                 },
                 "watermark": {
-                    "file": "",
-                    "position": "",
-                    "title": "",
-                    "toggle": ""
+                    "file": "Téléversez votre image qui servira de filigrane",
+                    "position": "Position du filigrane",
+                    "title": "Images en filigrane",
+                    "toggle": "Images en filigrane"
                 },
                 "composer_buttons": {
-                    "title": "",
+                    "title": "Boutons du compositeur",
                     "options": {
-                        "both": "",
-                        "upload-btn": "",
-                        "media-btn": ""
+                        "both": "Tous les deux",
+                        "upload-btn": "Bouton de téléchargement uniquement",
+                        "media-btn": "Bouton du gestionnaire de médias uniquement"
                     }
                 }
             },
             "permissions": {
-                "download_label": "",
-                "upload_label": "",
-                "view_user_uploads_label": "",
-                "delete_uploads_of_others_label": ""
+                "download_label": "Télécharger des fichiers",
+                "upload_label": "Téléverser des fichiers",
+                "view_user_uploads_label": "Afficher les téléchargements d’utilisateurs",
+                "delete_uploads_of_others_label": "Supprimer les téléchargements d’utilisateurs"
             },
             "templates": {
-                "file": "",
-                "file_description": "",
-                "image": "",
-                "image-preview": "",
-                "image-preview_description": "",
-                "image_description": "",
-                "just-url": "",
-                "just-url_description": ""
+                "file": "Modèle de téléchargement de fichier par défaut",
+                "file_description": "Affiche le nom du fichier et des informations générales. Les téléchargements sont procurés via php, ce qui permet la collecte de statistiques et la protection contre les liens automatiques (hotlink).\n",
+                "image": "Modèle de téléchargement d’image par défaut",
+                "image-preview": "Modèle complet d’aperçu de l’image",
+                "image-preview_description": "Affiche l’image complète en ligne. Aucune fonctionnalité de téléchargement, aucune statistique n’est collectée et la protection contre les liens automatiques est ignorée.\n",
+                "image_description": "Affiche une miniature de l’image et le téléchargement des proxies via php. Permettre la collecte de statistiques et la protection contre les liens automatiques (hotlink).\n",
+                "just-url": "Uniquement l’URL",
+                "just-url_description": "Insère uniquement l’URL. Le rendu peut être géré par d’autres extensions avec une capacité de liaison automatique. Aucune fonctionnalité de téléchargement, aucune statistique n’est collectée et la protection par hotlink est ignorée.\n"
             },
             "upload_methods": {
-                "aws-s3": "",
-                "imgur": "",
-                "local": "",
-                "ovh-svfs": "",
-                "qiniu": ""
+                "aws-s3": "Amazon S3",
+                "imgur": "Imgur",
+                "local": "Local",
+                "ovh-svfs": "OVH SVFS",
+                "qiniu": "QiNiu"
             }
         },
         "forum": {
-            "media_manager": "",
+            "media_manager": "Gestionnaire de médias",
             "buttons": {
-                "attach": "",
-                "upload": "",
-                "user_uploads": "",
-                "cancel": "",
-                "media": ""
+                "attach": "Joindre",
+                "upload": "Télécharger",
+                "user_uploads": "Téléchargements d’utilisateurs",
+                "cancel": "Annuler",
+                "media": "Mes médias"
             },
             "file_list": {
-                "loading": "",
-                "empty": "",
-                "release_to_upload": "",
-                "modal_empty_desktop": "",
-                "modal_empty_phone": "",
-                "select_file_a11y_label": "",
-                "confirm_selection_btn": "",
-                "load_more_files_btn": "",
+                "loading": "Chargement des fichiers ...",
+                "empty": "Il n’y a aucun fichier à afficher.",
+                "release_to_upload": "Publiez pour télécharger",
+                "modal_empty_desktop": "Votre liste de fichiers est vide. Cliquez sur le bouton ou faites glisser un fichier ici pour le télécharger.",
+                "modal_empty_phone": "Votre liste de fichiers est vide. Appuyez sur le bouton ci-dessus pour télécharger un fichier.",
+                "select_file_a11y_label": "Sélectionnez le fichier \"{fileName}\"",
+                "confirm_selection_btn": "Sélectionnez le fichier|Sélectionnez les fichiers",
+                "load_more_files_btn": "Charger plus de fichiers",
                 "hide_file": {
-                    "btn_a11y_label": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "hide_fail": "",
-                    "loading": ""
+                    "btn_a11y_label": "Masquer \"{fileName}\" du gestionnaire de médias",
+                    "hide_confirmation": "Voulez-vous vraiment masquer \"{fileName}\"? Masquer un fichier ne le supprimera que de votre gestionnaire multimédia et n’affectera pas les publications existantes. ",
+                    "hide_success": "Fichier caché",
+                    "hide_fail": "Impossible de masquer le fichier \"{fileName}\"",
+                    "loading": "Masquage du fichier ..."
                 }
             },
             "states": {
-                "error": "",
-                "loading": "",
-                "unauthorized": ""
+                "error": "Erreur",
+                "loading": "Chargement",
+                "unauthorized": "Vous n’êtes pas autorisé à télécharger des fichiers"
             }
         },
         "api": {
             "upload_errors": {
-                "forbidden_type": "",
-                "unsupported_type": "",
-                "could_not_detect_mime": ""
+                "forbidden_type": "Le téléchargement de fichiers de ce type n’est pas autorisé.",
+                "unsupported_type": "L’adaptateur de téléchargement ne prend pas en charge le type MIME fourni: {MIME}.",
+                "could_not_detect_mime": "Impossible de détecter le type MIME de ce fichier, veuillez réessayer."
             }
         }
     }

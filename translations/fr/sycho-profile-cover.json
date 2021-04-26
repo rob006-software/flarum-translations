@@ -1,23 +1,23 @@
 {
     "sycho-profile-cover": {
         "admin": {
-            "thumbnails": "",
-            "max_size": "",
+            "thumbnails": "Créer des vignettes",
+            "max_size": "Taille maximale de l’image de couverture de profil (en Ko)",
             "permission": {
-                "set_cover": ""
+                "set_cover": "Définir la couverture du profil"
             }
         },
         "forum": {
-            "cover": "",
-            "edit_cover": "",
-            "notice": "",
+            "cover": "Couverture",
+            "edit_cover": "Modifier la couverture",
+            "notice": "Taille maximale: {size}",
             "added": {
-                "success": "",
-                "error": ""
+                "success": "La couverture du profil a été mise à jour.",
+                "error": "l’image n’a pas pu être téléchargée."
             },
             "removed": {
-                "success": "",
-                "error": ""
+                "success": "La couverture de profil a été retirée.",
+                "error": "Impossible de retirer la couverture, réessayez plus tard."
             }
         }
     }

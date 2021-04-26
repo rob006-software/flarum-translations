@@ -2,24 +2,24 @@
     "fof-impersonate": {
         "admin": {
             "permissions": {
-                "login": ""
+                "login": "Se connecter en tant que d’autres utilisateurs"
             },
             "settings": {
-                "title": "",
-                "require_reason": "",
-                "no_settings_available": ""
+                "title": "FoF Impersonate",
+                "require_reason": "Exiger qu’une raison soit saisie avant de continuer à se faire passer pour un autre utilisateur.",
+                "no_settings_available": "Aucun paramètre n’est actuellement disponible. Essayez d’installer fof/moderator-notes"
             }
         },
         "forum": {
             "modal": {
-                "title": "",
-                "label": "",
-                "placeholder_optional": "",
-                "placeholder_required": "",
-                "impersonate_username": ""
+                "title": "Connectez-vous en tant qu’un autre utilisateur",
+                "label": "Un grand pouvoir implique de grandes responsabilités. En continuant, vous deviendrez {username} jusqu’à ce que vous vous déconnectiez.",
+                "placeholder_optional": "(Facultatif) Indiquez la raison de votre passage à cet utilisateur",
+                "placeholder_required": "Vous devez indiquer la raison de votre passage à cet utilisateur avant de continuer",
+                "impersonate_username": "Se connecter en tant que {username}"
             },
             "user_controls": {
-                "impersonate_button": ""
+                "impersonate_button": "Se connecter en tant que l’utilisateur"
             }
         }
     }

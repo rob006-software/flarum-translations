@@ -2,61 +2,61 @@
     "fof-webhooks": {
         "actions": {
             "discussion": {
-                "started": "",
+                "started": "Discussion démarrée {1}",
                 "renamed": {
-                    "title": "",
-                    "description": ""
+                    "title": "Discussion renommée {1}",
+                    "description": "Nouveau titre: {1}"
                 },
-                "hidden": "",
-                "restored": "",
-                "deleted": ""
+                "hidden": "Discussion cachée {1}",
+                "restored": "Discussion restaurée {1}",
+                "deleted": "Discussion supprimée {1}"
             },
             "group": {
-                "created": "",
-                "renamed": "",
-                "deleted": ""
+                "created": "Groupe {1} créé",
+                "renamed": "Renommé un groupe en {1}",
+                "deleted": "Groupe {1} supprimé"
             },
             "post": {
-                "posted": "",
-                "revised": "",
-                "hidden": "",
-                "restored": "",
-                "deleted": ""
+                "posted": "Nouveau message dans {1}",
+                "revised": "Message édité dans {1}",
+                "hidden": "Message caché dans {1}",
+                "restored": "Message restauré dans {1}",
+                "deleted": "Message supprimé dans {1}"
             },
             "user": {
-                "registered": "",
+                "registered": "Nouvel utilisateur enregistré",
                 "renamed": {
-                    "title": "",
-                    "description": ""
+                    "title": "Nom d’utilisateur modifié de {1}",
+                    "description": "Nouveau nom d’utilisateur: {1}"
                 },
-                "deleted": ""
+                "deleted": "Utilisateur supprimé {1}"
             }
         },
         "adapters": {
             "errors": {
-                "404": ""
+                "404": "Webhook introuvable"
             }
         },
         "admin": {
             "errors": {
-                "service_not_found": "",
-                "url_invalid": ""
+                "service_not_found": "Le service {service} ne peut être trouvé.",
+                "url_invalid": "L’URL n’est pas valide pour le service sélectionné."
             },
             "nav": {
-                "desc": ""
+                "desc": "Webhooks sortants personnalisables pour votre forum."
             },
             "settings": {
                 "item": {
                     "tag_any_label": ""
                 },
                 "help": {
-                    "disabled": "",
-                    "general": "",
-                    "url": ""
+                    "disabled": "Ce Webhook est désactivé car aucun événement n’est activé.",
+                    "general": "Ici vous pouvez ajouter, éditer et supprimer des webhooks de votre forum.",
+                    "url": "L’url du webhook endpoint à exécuter"
                 },
                 "modal": {
-                    "title": "",
-                    "description": "",
+                    "title": "Paramètres Webhook",
+                    "description": "Ici vous pouvez modifier les événements sur lesquels le Webhook est déclenché.",
                     "use_plain_text_label": "",
                     "max_post_content_length_label": "",
                     "max_post_content_length_help": "",
@@ -67,49 +67,50 @@
                     "events_label": ""
                 },
                 "services": {
-                    "discord": "",
-                    "slack": "",
+                    "discord": "Discord",
+                    "slack": "Slack",
                     "microsoft-teams": ""
                 },
                 "actions": {
                     "flarum": {
                         "discussion": {
-                            "title": "",
-                            "started": "",
-                            "renamed": "",
-                            "hidden": "",
-                            "restored": "",
-                            "deleted": ""
+                            "title": "Discussion Flarum",
+                            "started": "Démarré",
+                            "renamed": "=> reflar-webhooks.ref.renamed",
+                            "hidden": "=> reflar-webhooks.ref.hidden",
+                            "restored": "=> reflar-webhooks.ref.restored",
+                            "deleted": "=> reflar-webhooks.ref.deleted"
                         },
                         "group": {
-                            "title": "",
-                            "created": "",
-                            "renamed": "",
-                            "deleted": ""
+                            "title": "Groupe Flarum",
+                            "created": "Créé",
+                            "renamed": "=> reflar-webhooks.ref.renamed",
+                            "deleted": "=> reflar-webhooks.ref.deleted"
                         },
                         "post": {
-                            "title": "",
-                            "posted": "",
-                            "revised": "",
-                            "hidden": "",
-                            "restored": "",
-                            "deleted": ""
+                            "title": "Message Flarum",
+                            "posted": "Publié",
+                            "revised": "Édité",
+                            "hidden": "=> reflar-webhooks.ref.hidden",
+                            "restored": "=> reflar-webhooks.ref.restored",
+                            "deleted": "=> reflar-webhooks.ref.deleted"
                         },
                         "user": {
-                            "title": "",
-                            "registered": "",
-                            "renamed": "",
-                            "deleted": ""
+                            "title": "Utilisateur Flarum",
+                            "registered": "Enregistré",
+                            "renamed": "=> reflar-webhooks.ref.renamed",
+                            "deleted": "=> reflar-webhooks.ref.deleted"
                         }
                     }
-                }
+                },
+                "title": "Webhooks"
             }
         },
         "ref": {
-            "deleted": "",
-            "hidden": "",
-            "renamed": "",
-            "restored": ""
+            "deleted": "Supprimé",
+            "hidden": "Caché",
+            "renamed": "Renommé",
+            "restored": "Restauré"
         }
     }
 }

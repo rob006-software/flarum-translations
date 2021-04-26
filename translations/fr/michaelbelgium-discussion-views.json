@@ -2,37 +2,37 @@
     "core": {
         "forum": {
             "index_sort": {
-                "popular_button": "",
-                "unpopular_button": ""
+                "popular_button": "Populaire",
+                "unpopular_button": "Unpopulaire"
             }
         }
     },
     "michaelbelgium-discussion-views": {
         "forum": {
             "modal_resetviews": {
-                "title": "",
-                "submit_button": "",
-                "label": ""
+                "title": "Réinitialiser le compteur de vues",
+                "submit_button": "Oui, tout supprimer",
+                "label": "Définir le nombre de vues"
             },
             "discussion_controls": {
-                "resetviews_button": ""
+                "resetviews_button": "Définir le nombre de vues"
             },
             "viewlist": {
-                "title": ""
+                "title": "Derniers visiteurs"
             }
         },
         "admin": {
             "permissions": {
-                "reset_views_label": "",
-                "view_number_label": ""
+                "reset_views_label": "Réinitialiser les vues d’une discussion",
+                "view_number_label": "Afficher le nombre de vues d’une discussion"
             },
             "settings": {
-                "title": "",
-                "track_unique_label": "",
-                "abbr_numbers_label": "",
-                "show_filter_label": "",
-                "max_viewcount_label": "",
-                "show_viewlist_label": ""
+                "title": "Paramètres des vues de discussion",
+                "track_unique_label": "Suivi des vues uniques",
+                "abbr_numbers_label": "Numéros de vue abrégés",
+                "show_filter_label": "Activer le champ de tri impopulaire",
+                "max_viewcount_label": "Nombre maximal d’éléments dans la liste de visualisation",
+                "show_viewlist_label": "Activer la liste de visualisation"
             }
         }
     }
