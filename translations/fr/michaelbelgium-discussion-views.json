@@ -3,7 +3,7 @@
         "forum": {
             "index_sort": {
                 "popular_button": "Populaire",
-                "unpopular_button": "Unpopulaire"
+                "unpopular_button": "Impopulaire"
             }
         }
     },
@@ -12,10 +12,10 @@
             "modal_resetviews": {
                 "title": "Réinitialiser le compteur de vues",
                 "submit_button": "Oui, tout supprimer",
-                "label": "Définir le nombre de vues"
+                "label": "Cela supprimera {count} vue de cette discussion. Continuer ? | Cela supprimera {count} vues de cette discussion. Continuer ?"
             },
             "discussion_controls": {
-                "resetviews_button": "Définir le nombre de vues"
+                "resetviews_button": "Réinitialiser les vues"
             },
             "viewlist": {
                 "title": "Derniers visiteurs"
@@ -30,7 +30,7 @@
                 "title": "Paramètres des vues de discussion",
                 "track_unique_label": "Suivi des vues uniques",
                 "abbr_numbers_label": "Numéros de vue abrégés",
-                "show_filter_label": "Activer le champ de tri impopulaire",
+                "show_filter_label": "Activer le champ de tri (im)populaire",
                 "max_viewcount_label": "Nombre maximal d’éléments dans la liste de visualisation",
                 "show_viewlist_label": "Activer la liste de visualisation"
             }
