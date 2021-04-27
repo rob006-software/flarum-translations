@@ -10,11 +10,11 @@
         "emails": {
             "post_warned": {
                 "subject": "{warner_display_name} vous a averti avec {strikes} strikes dans {discussion_title}",
-                "body": "Salut {warnee_display_name}!\n {warner_display_name} vous a averti pour {strikes} dans {discussion_title}\n La raison suivante a été invoquée:\n ---\n {public_comment}\n"
+                "body": "Salut {warnee_display_name} !\n {warner_display_name} vous a averti pour {strikes} dans {discussion_title}\n La raison suivante a été invoquée :\n ---\n {public_comment}\n"
             },
             "user_warned": {
                 "subject": "{warner_display_name} vous a averti avec {strikes} strikes",
-                "body": "Hey {warnee_display_name}!\n{warner_display_name} vous a averti avec {strikes} strikes\nLa raison suivante a été invoquée:\n---\n{public_comment}\n"
+                "body": "Hey {warnee_display_name} !\n{warner_display_name} vous a averti avec {strikes} strikes\nLa raison suivante a été invoquée :\n---\n{public_comment}\n"
             }
         },
         "forum": {
@@ -47,22 +47,22 @@
             "warning_list": {
                 "add_button": "Nouvel avertissement",
                 "no_warnings": "Il semble qu’il n’y ait aucun avertissement ici.",
-                "warnings": "Avertissements du modérateur: {strikes} strike reçu|Avertissements du modérateur: {strikes} strikes reçus",
-                "warnings_no_strikes": "Avertissements du modérateur: aucun strike reçu"
+                "warnings": "Avertissements du modérateur : {strikes} strike reçu|Avertissements du modérateur : {strikes} strikes reçus",
+                "warnings_no_strikes": "Avertissements du modérateur : aucun strike reçu"
             },
             "warning_list_item": {
-                "list_item_heading": "<strong>{mod_username}</strong> vous a averti avec <strong>{strikes}</strong> strike|<strong>{mod_username}</strong> vous a averti avec <strong>{strikes}</strong> strikes",
-                "list_item_heading_hidden": "<strong>{mod_username}</strong> vous a averti avec <strong>{strikes}</strong> strike <strong>(retiré)</strong>|<strong>{mod_username}</strong> vous a averti avec <strong>{strikes}</strong> strikes <strong>(retiré)</strong>",
-                "public_comment": "Commentaires visibles par l’utilisateur",
+                "list_item_heading": "<strong>{strikes}</strong> avertissements, {time} | <strong>{strikes}</strong> avertissements, {time}",
+                "list_item_heading_hidden": "<strong>{strikes}</strong> avertissement, {time} <strong>(supprimé)</strong> | <strong>{strikes}</strong> avertissements, {time} <strong>(supprimé)</strong >",
+                "public_comment": "Avertissement",
                 "private_comment": "Commentaires visibles par le modérateur",
                 "linked_post": "Message lié"
             },
             "warning_modal": {
-                "confirmation_message": "Votre avertissement a été enregistré. Vous devrez peut-être actualiser la page pour la voir.",
+                "confirmation_message": "Votre avertissement a été enregistré. Vous devrez peut-être actualiser la page pour le voir.",
                 "heading": "Avertir <strong>{username}</strong>",
-                "strikes_heading": "Combien de strikes doivent être appliqués?",
-                "public_comment_heading": "Pourquoi <strong>{username}</strong> reçoit-il ces avertissements? Ces commentaires seront visibles par l’utilisateur et les autres modérateurs.",
-                "private_comment_heading": "Pourquoi <strong>{username}</strong> reçoit-il ces avertissements? Ces commentaires seront UNIQUEMENT visibles par les autres modérateurs.",
+                "strikes_heading": "Combien de strikes doivent être appliqués ?",
+                "public_comment_heading": "Pourquoi <strong>{username}</strong> reçoit-il ces avertissements ? Ces commentaires seront visibles par l’utilisateur et les autres modérateurs.",
+                "private_comment_heading": "Pourquoi <strong>{username}</strong> reçoit-il ces avertissements ? Ces commentaires seront UNIQUEMENT visibles par les autres modérateurs.",
                 "submit_button": "Enregistrer l’avertissement"
             }
         }
