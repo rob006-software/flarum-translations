@@ -9,7 +9,7 @@
                 "save": "Ayarları kaydet"
             },
             "help_texts": {
-                "disable-download-logging": "Forum kullanıcıları tarafından yapılan her indirme işleminin kaydını kapat. Etkinleştirilmesi, gelecekte indirenlerin sayısını ve diğer ölçümleri görmenizi sağlar.\n",
+                "disable-download-logging": "Forum kullanıcıları tarafından yapılan her indirme işleminin kaydını etkisizleştir. Etkinleştirilmesi, gelecekte indirenlerin sayısını ve diğer ölçümleri görmenizi sağlar.\n",
                 "disable-hotlink-protection": "Hotlink koruması, diğer sitelerden indirme yapılmasına engel olur. Geçerli bir csrf token ve post id'si gereklidir.\n",
                 "download_templates": "İndirme şablonları, dosyaların forumunuzda nasıl görüneceğini ayarlamanızı sağlar, örneğin önizleme veya düğme gibi. Mevcut olanlar:\n",
                 "mime_types": "Please configure your mapping here. Each mime type regular expression will be handled by a specific upload adapter and download template.\n",
@@ -34,12 +34,12 @@
                     "acl": "Access Control List (ACL)"
                 },
                 "disable-download-logging": {
-                    "title": "İndirme kayılarını kapat",
-                    "toggle": "Kapat"
+                    "title": "İndirme kayıtlarını etkisizleştir",
+                    "toggle": "Etkisizleştir"
                 },
                 "disable-hotlink-protection": {
-                    "title": "Hotlink korumasını kapat",
-                    "toggle": "Kapat"
+                    "title": "Hotlink korumasını etkisizleştir",
+                    "toggle": "Etkisizleştir"
                 },
                 "imgur": {
                     "client_id": "Imgur client ID",
