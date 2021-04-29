@@ -13,7 +13,7 @@
                 "select_categories_button": "Blog kategorilerini seçin",
                 "blog_heading": "Blog",
                 "allow_comments_label": "Yorumlara izin ver",
-                "allow_comments_text": "Varsayılan olarak, blog gönderilerine yorumlara izin verin. Devre dışı bırakıldığında, her blog yazısı için ayrı ayrı etkinleştirilebilir. <b>Not:</b> Bu ayarı değiştirmek, önceden var olan blog gönderilerini etkilemeyecektir.",
+                "allow_comments_text": "Varsayılan olarak, blog gönderilerine yorumlara izin verin. Etkisizleştirildiğinde, her blog yazısı için ayrı ayrı etkinleştirilebilir. <b>Not:</b> Bu ayarı değiştirmek, önceden var olan blog gönderilerini etkilemeyecektir.",
                 "require_review_label": "Blog gönderilerinin incelenmesi gerekiyor",
                 "require_review_text": "Bir makale gönderirken, doğrudan görünmez ve bir moderatör tarafından incelenmesi gerekir.",
                 "hide_on_discussion_list_label": "Tartışma listesinde gösterme",
@@ -57,7 +57,7 @@
             },
             "comment_section": {
                 "comments": "Yorumlar",
-                "locked": "Bu makale için yorumlar kısmı kapatılmıştır"
+                "locked": "Bu makale için yorumlar kısmı etkisizleştirilmiştir"
             },
             "review_article": {
                 "pending_review_title": "İncelenmeyi bekliyor",
@@ -75,7 +75,7 @@
                 "recover_article": "Makaleyi kurtar",
                 "delete_forever": "Kalıcı olarak sil",
                 "enable_comments": "Yorumları etkinleştir",
-                "disable_comments": "Yorumları kapat"
+                "disable_comments": "Yorumları etkisizleştir"
             },
             "utils": {
                 "redirect": {
