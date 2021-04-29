@@ -113,7 +113,7 @@
             "extension": {
                 "configure_scopes": "Kapsamları Yapılandır",
                 "confirm_uninstall": "Kaldırma işlemi, uzantı ile ilgili tüm veritabanı girişlerini kaldıracaktır. Devam etmek istediğine emin misin?",
-                "disabled": "Devre dışı",
+                "disabled": "Etkisizleştirildi",
                 "enable_to_see": "Ayarları görüntülemek ve değiştirmek için uzantıyı etkinleştirin.",
                 "enabled": "Etkin",
                 "info_links": {
@@ -510,7 +510,7 @@
                 "username_label": "=> core.ref.username"
             },
             "error": {
-                "dependent_extensions_message": "{extension} uzantısı şu uzantı kapanmadan önce kapatılamaz: {extensions}",
+                "dependent_extensions_message": "{extension} uzantısı şu uzantı etkisizleştirilmeden önce etkisizleştirilemez: {extensions}",
                 "generic_message": "Oops! Bir şeyler yanlış gitti. Lütfen sayfayı yenileyin ve tekrar deneyin.",
                 "missing_dependencies_message": "{extension} şu uzantı aktif edilmeden önce aktif edilemez: {extensions}",
                 "not_found_message": "İstenen kaynak bulunamadı.",
