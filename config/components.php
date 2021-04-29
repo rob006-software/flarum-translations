@@ -450,6 +450,9 @@ return [
 	'justoverclock-socialcards' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-socialcards/0.1.1/resources/locale/en.yml',
 	],
+	'justoverclock-welcomebox' => [
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-welcomebox/1.1.2/resources/locale/en.yml',
+	],
 	'kilowhat-audit-free' => [
 		'tag' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-audit-free/1.3.3/resources/locale/en.yml',
 	],
