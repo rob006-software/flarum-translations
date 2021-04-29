@@ -16,7 +16,7 @@
                 "no-option-selected": "Hiçbir seçenek seçilmedi"
             },
             "tags": {
-                "inadequate-settings": "Etiket ayarları doğru yapılandırılmamış. En fazla bir birincil ve ikincil etikete izin verin veya \"Alan olarak etiketler\" özelliğini devre dışı bırakın.\n",
+                "inadequate-settings": "Etiket ayarları doğru yapılandırılmamış. En fazla bir birincil ve ikincil etikete izin verin veya \"Alan olarak etiketler\" özelliğini etkisizleştirin.\n",
                 "tags-label": "Etiketler"
             }
         },
@@ -46,7 +46,7 @@
                 "show_when_empty-help": "Cevabı olmadığında alanın tartışmada gösterilip gösterilmeyeceği",
                 "validation": "Kullanıcı değerleri için doğrulama",
                 "user_values_allowed": "Kullanıcı değerlerine izin verilir",
-                "user_values_allowed-help": "Etkinleştirilir ise kullanıcılar yönetici tarafından tanımlananlar yerine kendi değerlerini ekleyebilir. Bu değerler \"Doğrulama\" ayarına göre kontrol edilecektir. Devre dışı bırakılır ise yalnızca \"önerilen\" yanıtları kullanabilirler.\n",
+                "user_values_allowed-help": "Etkinleştirilir ise kullanıcılar yönetici tarafından tanımlananlar yerine kendi değerlerini ekleyebilir. Bu değerler \"Doğrulama\" ayarına göre kontrol edilecektir. Etkisizleştirilir ise yalnızca \"önerilen\" yanıtları kullanabilirler.\n",
                 "validation-help": "Desteklenen <a>Laravel doğrulama kurallarını</a> kontrol edin. Örneğin: \"string|min:5\" or \"url\".\n",
                 "enable-user-values-for-validation": "Doğrulama kurallarını yapılandırmak için \"kullanıcı değerlerini\" etkinleştirin",
                 "icon": "Simge",
@@ -60,7 +60,7 @@
                 "max_answers_count": ""
             },
             "messages": {
-                "delete-answer-confirmation": "\"{content}\" yanıtını silmek istediğinizden emin misiniz? Onu kullanan tüm tartışmalardan kaldırılacaktır. Mevcut yanıtları korumak istiyorsanız bunun yerine yanıt önerisini devre dışı bırakın. Yanıt silinsin mi?\n",
+                "delete-answer-confirmation": "\"{content}\" yanıtını silmek istediğinizden emin misiniz? Onu kullanan tüm tartışmalardan kaldırılacaktır. Mevcut yanıtları korumak istiyorsanız bunun yerine yanıt önerisini etkisizleştirin. Yanıt silinsin mi?\n",
                 "delete-field-confirmation": "\"{name}\" alanını silmek istediğinizden emin misiniz? Alan ve yanıtları, onları kullanan tüm tartışmalardan kaldırılacaktır. Alan silinsin mi?\n"
             },
             "settings": {
