@@ -26,14 +26,14 @@
         },
         "email": {
             "subject": {
-                "newDiscussion": "[Subscribed | New Discussion] {title}",
-                "newUser": "[Subscribed | New User] {username}",
-                "postUnapproved": "[Subscribed | Unapproved] {username} a publié {title}"
+                "newDiscussion": "[Abonné | Nouvelle Discussion] {title}",
+                "newUser": "[Abonné | Nouvel Utilisateur] {username}",
+                "postUnapproved": "[Abonné | Désapprouvé] {username} a publié {title}"
             },
             "body": {
-                "newDiscussion": "Hey {recipient_display_name},\n{actor_display_name} a commencé une nouvelle discussion: {discussion_title}\nPour afficher cette nouvelle discussion, consultez le lien suivant:\n{discussion_url}\n---\n{post_content}\n",
-                "newUser": "Hey {recipient_display_name},\n{actor_display_name}vient de rejoindre {forum_url}.\nPour afficher le profil de ce nouvel utilisateur, consultez le lien suivant:\n{user_url}\n",
-                "postUnapproved": "Hey {recipient_display_name},\n{actor_display_name} a créé un message qui n’a pas été automatiquement approuvé dans {discussion_title}\nPour voir ce nouveau message, consultez le lien suivant:\n{post_url}\n---\n{post_content}\n"
+                "newDiscussion": "Hey {recipient_display_name},\n{actor_display_name} a commencé une nouvelle discussion : {discussion_title}\nPour afficher cette nouvelle discussion, consultez le lien suivant :\n{discussion_url}\n---\n{post_content}\n",
+                "newUser": "Hey {recipient_display_name},\n{actor_display_name} vient de rejoindre {forum_url}.\nPour afficher le profil de ce nouvel utilisateur, consultez le lien suivant :\n{user_url}\n",
+                "postUnapproved": "Hey {recipient_display_name},\n{actor_display_name} a créé un message qui n’a pas été automatiquement approuvé dans {discussion_title}\nPour voir ce nouveau message, consultez le lien suivant :\n{post_url}\n---\n{post_content}\n"
             }
         }
     }
