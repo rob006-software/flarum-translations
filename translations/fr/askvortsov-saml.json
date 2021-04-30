@@ -2,17 +2,17 @@
     "askvortsov-saml": {
         "admin": {
             "header": {
-                "text": "Assurez-vous que l’URL des métadonnées ou les métadonnées sont renseignées."
+                "text": "Assurez-vous que l’URL des métadonnées ou les métadonnées sont renseignés."
             },
             "title": "Configuration SSO SAML2",
             "labels": {
                 "idp_metadata_url": "URL des métadonnées du fournisseur d’identité (alternative à XML)",
                 "idp_metadata": "XML de métadonnées du fournisseur d’identité (alternative à l'URL)",
-                "only_option": "Utiliser SAML2 SSO comme seule option de connexion?",
-                "sync_attributes": "Attributs de synchronisation (avatar, groupes, biographie et profil)? Nécessite l’extension askvortsov / auth-sync.",
+                "only_option": "Utiliser SAML2 SSO comme seule option de connexion ?",
+                "sync_attributes": "Attributs de synchronisation (avatar, groupes, biographie et profil) ? Nécessite l’extension askvortsov / auth-sync.",
                 "nameid_format": "Format NameID",
-                "want_assertions_signed": "Vous voulez que les assertions soient signées?",
-                "want_messages_signed": "Vous voulez que les messages soient signés?"
+                "want_assertions_signed": "Voulez-vous que les assertions soient signées ?",
+                "want_messages_signed": "Voulez- vous que les messages soient signés ?"
             },
             "options": {
                 "nameid_format": {
