@@ -7,6 +7,22 @@
         "admin": {
             "settings": {
                 "title": "LDAP 设置",
+                "method_name": "",
+                "hosts": "",
+                "base_dn": "",
+                "filter": "",
+                "port": "",
+                "account_prefix": "",
+                "account_suffix": "",
+                "admin_dn": "",
+                "admin_password": "",
+                "search_user_fields": "",
+                "user_mail": "",
+                "user_username": "",
+                "follow_referrals": "关注推荐",
+                "use_ssl": "使用 SSL",
+                "use_tls": "使用 TLS",
+                "onlyUse": "禁用 Flarum 登录，仅使用 LDAP 身份认证",
                 "field": {
                     "method_name": "LDAP 服务名称 (将会显示在 \"Login with\" 后)",
                     "hosts": "LDAP 域名或服务器 IP 地址（半角逗号分隔）",
@@ -22,10 +38,6 @@
                     "user_username": "LDAP 用户名字段",
                     "domain_controllers": "LDAP 域名 (英文逗号分隔)"
                 },
-                "follow_referrals": "关注推荐",
-                "use_ssl": "使用 SSL",
-                "use_tls": "使用 TLS",
-                "onlyUse": "禁用 Flarum 登录，仅使用 LDAP 身份认证",
                 "use_admin": "连接 LDAP 管理员账号"
             }
         }

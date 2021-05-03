@@ -7,6 +7,22 @@
         "admin": {
             "settings": {
                 "title": "LDAP ayarları",
+                "method_name": "",
+                "hosts": "",
+                "base_dn": "",
+                "filter": "",
+                "port": "",
+                "account_prefix": "",
+                "account_suffix": "",
+                "admin_dn": "",
+                "admin_password": "",
+                "search_user_fields": "",
+                "user_mail": "",
+                "user_username": "",
+                "follow_referrals": "LDAP sunucusuna bağlanmak için adımları izleyin",
+                "use_ssl": "SSL kullan",
+                "use_tls": "TLS kullan",
+                "onlyUse": "Flarum varsayılan giriş yöntemini gizleyin",
                 "field": {
                     "method_name": "LDAP sunucu adı (\"Şununla Giriş Yap\" ifadesinden sonra görünür)",
                     "hosts": "LDAP alan adı veya sunucu IP adresi (virgülle ayırarak)",
@@ -22,10 +38,6 @@
                     "user_username": "LDAP kullanıcı adı alanı",
                     "domain_controllers": ""
                 },
-                "follow_referrals": "LDAP sunucusuna bağlanmak için adımları izleyin",
-                "use_ssl": "SSL kullan",
-                "use_tls": "TLS kullan",
-                "onlyUse": "Flarum varsayılan giriş yöntemini gizleyin",
                 "use_admin": ""
             }
         }
