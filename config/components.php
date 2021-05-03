@@ -600,6 +600,9 @@ return [
 	'therealsujitk-show-password' => [
 		'tag' => 'https://raw.githubusercontent.com/therealsujitk/flarum-ext-show-password/v2.0.0/resources/locale/en.yml',
 	],
+	'tituspijean-auth-ldap' => [
+		'tag' => 'https://raw.githubusercontent.com/tituspijean/flarum-ext-auth-ldap/v0.1.0-beta.16-1/locale/en.yml',
+	],
 	'tituspijean-auth-ssowat' => [
 		'tag' => 'https://raw.githubusercontent.com/tituspijean/flarum-ext-auth-ssowat/v0.1.0-beta.14-1/locale/en.yml',
 	],
