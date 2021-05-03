@@ -1,0 +1,21 @@
+{
+    "miniflar-sidenav-download-button": {
+        "admin": {
+            "permissions": {
+                "view_download_button_label": "View download button on sideNav"
+            },
+            "settings": {
+                "button_order_heading": "Button Order",
+                "button_order_text": "Edit this setting to adjust this widget's position on the sideNav section of your Flarum forum. The higher the number, the higher this widget will be on the sidenav items list (this value can be either positive or negative).",
+                "button_link_heading": "Download Link",
+                "button_link_text": "Enter a valid URL (e.g., https://example.com).",
+                "enter_link_message": "Please enter a valid URL."
+            }
+        },
+        "forum": {
+            "index": {
+                "download_button": "Download"
+            }
+        }
+    }
+}
