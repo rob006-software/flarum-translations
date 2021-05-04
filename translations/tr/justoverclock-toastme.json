@@ -1,24 +1,24 @@
 {
     "flarum-ext-toastme": {
         "admin": {
-            "enabletoast": "",
-            "helpenable": "",
-            "offsetyy": "",
-            "offsetydesc": "",
-            "offsetxx": "",
-            "offsetxdesc": "",
-            "dest": "",
-            "destdesc": "",
-            "duration": "",
-            "durdesc": "",
-            "gravity": "",
-            "gravdesc": "",
-            "position": "",
-            "posdesc": "",
-            "background": "",
-            "backgrounddesc": "",
-            "message": "",
-            "messagedesc": ""
+            "enabletoast": "Duyuruyu Etkinleştir/Etkisizleştir",
+            "helpenable": "Bu ayarı duyuruları etkinleştirmek veya etkisizleştirmek için kullanın",
+            "offsetyy": "Y düzlemi - dikey eksen kenar boşluğu (px) (varsayılan için boş bırakın)",
+            "offsetydesc": "Dikey eksen - piksel değerini gösteren bir sayı olabilir. Örnek 20 (piksel)",
+            "offsetxx": "X düzlemi - yatay eksen kenar boşluğu (px) (varsayılan için boş bırakın)",
+            "offsetxdesc": "Dikey eksen - piksel değerini gösteren bir sayı olabilir. Örneğin 20 (piksel)",
+            "dest": "Hedef Bağlantı",
+            "destdesc": "Duyuru tıklandığında tarayıcının gideceği sayfa bağlantısı",
+            "duration": "Duyurunun kalıcı olarak gösterilmesi için değeri -1 olarak girin",
+            "durdesc": "Milisaniye kullanın - örneğin 3 saniye için \"3000\"",
+            "gravity": "Sabitleme - Üst için \"top\" veya alt için \"bottom\" olmalıdır",
+            "gravdesc": "Duyurunun konumunu ayarlayın, üst ve alt seçenekleri geçerlidir",
+            "position": "Yerleşim - Sol için \"left\", sağ için \"right\" veya orta için \"center\" olmalıdır",
+            "posdesc": "Duyurunun nerede gözükmesini istersiniz? Sol, sağ veya orta?",
+            "background": "Arkaplan Rengi (hex formatında)",
+            "backgrounddesc": "Arkaplan renginizi HEX formatında giriniz - örn \"#ffcc00\"",
+            "message": "Duyuru Metni",
+            "messagedesc": "Duyuru alanında gözükmesini istediğiniz metni giriniz"
         },
         "forum": {
             "message1": ""
