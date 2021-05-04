@@ -77,6 +77,7 @@
             "string": ":attribute moet tenminste :min karakters bevatten.",
             "array": ":attribute moet tenminste :min items bevatten."
         },
+        "multiple_of": "",
         "not_in": ":attribute is ongeldig.",
         "not_regex": ":attribute formaat is ongeldig.",
         "numeric": ":attribute moet een nummer zijn.",
@@ -90,6 +91,9 @@
         "required_with_all": ":attribute is vereist wanneer :values aanwezig zijn.",
         "required_without": ":attribute is vereist wanneeer :values niet aanwezig is.",
         "required_without_all": ":attribute is vereist wanneer geen enkele van :values aanwezig zijn.",
+        "prohibited": "",
+        "prohibited_if": "",
+        "prohibited_unless": "",
         "same": ":attribute en :other moeten overeen komen.",
         "size": {
             "numeric": ":attribute moet :size zijn.",

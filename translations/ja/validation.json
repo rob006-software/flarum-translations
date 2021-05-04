@@ -77,6 +77,7 @@
             "string": ":attribute は少なくとも :min 文字でなければなりません。",
             "array": ":attribute は少なくとも :min 個のアイテムが必要です。"
         },
+        "multiple_of": "",
         "not_in": "選択された :attribute は無効です。",
         "not_regex": ":attribute 形式は無効です。",
         "numeric": ":attribute は数字でなければなりません。",
@@ -90,6 +91,9 @@
         "required_with_all": ":values が存在する場合、 :attribute フィールドは必須です。",
         "required_without": ":values が存在しない場合、 :attribute フィールドは必須です。",
         "required_without_all": ":values が存在しない場合、 :attribute フィールドは必須です。",
+        "prohibited": "",
+        "prohibited_if": "",
+        "prohibited_unless": "",
         "same": ":attribute と :other rは一致する必要があります。",
         "size": {
             "numeric": ":attribute は :size でなければなりません。",

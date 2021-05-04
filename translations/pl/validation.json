@@ -77,6 +77,7 @@
             "string": ":attribute musi mieć przynajmniej :min znaków.",
             "array": ":attribute musi mieć przynajmniej :min elementów."
         },
+        "multiple_of": "",
         "not_in": "Zaznaczony :attribute jest nieprawidłowy.",
         "not_regex": "Format :attribute jest nieprawidłowy.",
         "numeric": ":attribute musi być liczbą.",
@@ -90,6 +91,9 @@
         "required_with_all": "Pole :attribute jest wymagane gdy :values jest obecny.",
         "required_without": "Pole :attribute jest wymagane gdy :values nie jest obecny.",
         "required_without_all": "Pole :attribute jest wymagane gdy żadne z :values nie są obecne.",
+        "prohibited": "",
+        "prohibited_if": "",
+        "prohibited_unless": "",
         "same": "Pole :attribute i :other muszą się zgadzać.",
         "size": {
             "numeric": ":attribute musi mieć :size.",

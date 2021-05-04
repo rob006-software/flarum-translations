@@ -77,6 +77,7 @@
             "string": ":attribute 不得少于 :min 个字符",
             "array": ":attribute 不得少于 :min 项"
         },
+        "multiple_of": "",
         "not_in": "所选 :attribute 无效",
         "not_regex": ":attribute 格式非法",
         "numeric": ":attribute 必须由数字组成",
@@ -90,6 +91,9 @@
         "required_with_all": "当 :values 都存在时 :attribute 不能为空",
         "required_without": "当 :values 不存在时 :attribute 不能为空",
         "required_without_all": "当 :values 都不存在时 :attribute 不能为空",
+        "prohibited": "",
+        "prohibited_if": "",
+        "prohibited_unless": "",
         "same": ":attribute 和 :other 不匹配",
         "size": {
             "numeric": ":attribute 必须为 :size",
