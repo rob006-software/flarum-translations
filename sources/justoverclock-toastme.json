@@ -1,0 +1,27 @@
+{
+    "flarum-ext-toastme": {
+        "admin": {
+            "enabletoast": "Enable/Disable Toast Alert",
+            "helpenable": "Use this setting to enable or disable the toast alert",
+            "offsetyy": "Offset Y - vertical axis margin (px) (blank for default)",
+            "offsetydesc": "vertical axis margin - can be a number indicating pixel value. Example 20 (pixel)",
+            "offsetxx": "Offset X - orizontal axis margin (px) (blank for default)",
+            "offsetxdesc": "orizontal axis margin - can be a number indicating pixel value. Example 20 (pixel)",
+            "dest": "URL destination",
+            "destdesc": "URL to which the browser should be navigated on click of the toast",
+            "duration": "Duration for which the toast should be displayed -1 for permanent toast",
+            "durdesc": "Use milliseconds - example \"3000\" for 3 seconds",
+            "gravity": "Gravity - Could be \"top\" or \"bottom\"",
+            "gravdesc": "Set the position of the toast, top or bottom are accepted",
+            "position": "Position - Clould be \"left\", \"right\" or \"center\"",
+            "posdesc": "Where u want that the toast appear? left, right or center?",
+            "background": "Background Color (hex format)",
+            "backgrounddesc": "put your background color in HEX format - eg \"#ffcc00\"",
+            "message": "Text of the Toast",
+            "messagedesc": "Here u can put the text of your alert toast"
+        },
+        "forum": {
+            "message1": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+        }
+    }
+}
