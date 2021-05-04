@@ -77,7 +77,7 @@
             "string": ":attribute şu değerden küçük olmamalıdır; :min karakter.",
             "array": ":attribute şu değerden küçük olmamalıdır; :min öğe."
         },
-        "multiple_of": "",
+        "multiple_of": ":attribute, :value değerinin katı olmalıdır.",
         "not_in": "Seçilen :attribute geçersiz.",
         "not_regex": ":attribute biçimi geçersiz.",
         "numeric": ":attribute bir sayı olmalıdır.",
@@ -91,9 +91,9 @@
         "required_with_all": ":values olduğunda :attribute alanı zorunludur.",
         "required_without": ":values olmadığında :attribute alanı zorunludur.",
         "required_without_all": ":attribute alanı :values değerlerinden hiçbiri olmadığında zorunludur.",
-        "prohibited": "",
-        "prohibited_if": "",
-        "prohibited_unless": "",
+        "prohibited": ":attribute alanı yasaktır.",
+        "prohibited_if": ":other, :value olduğunda :attribute alanı yasaklanmıştır.",
+        "prohibited_unless": ":attribute alanı,  :other :values içinde olmadığı sürece yasaklanmıştır.",
         "same": ":attribute ve :other eşleşmelidir.",
         "size": {
             "numeric": ":attribute :size olmalıdır.",
