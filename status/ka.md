@@ -2018,6 +2018,17 @@
 		<td align="center"><a href="https://packagist.org/packages/fof/open-collective/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/fof-open-collective/ka/"><img src="https://weblate.rob006.net/widgets/flarum/ka/fof-open-collective/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/justoverclockl/flarum-ext-toastme" title="justoverclock/flarum-ext-toastme"><code>justoverclock/flarum-ext-toastme</code></a>
+		</td>
+		<td align="center">183</td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-toastme/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-toastme/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-toastme/stats">0</a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-toastme/ka/"><img src="https://weblate.rob006.net/widgets/flarum/ka/justoverclock-toastme/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
 </tbody>
 </table>
 
