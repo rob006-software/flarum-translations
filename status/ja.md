@@ -2021,9 +2021,20 @@
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/justoverclockl/flarum-ext-toastme" title="justoverclock/flarum-ext-toastme"><code>justoverclock/flarum-ext-toastme</code></a>
+			<a href="https://github.com/miniflar/admin-notepad-widget" title="miniflar/admin-notepad-widget"><code>miniflar/admin-notepad-widget</code></a>
 		</td>
 		<td align="center">183</td>
+		<td align="center"><a href="https://packagist.org/packages/miniflar/admin-notepad-widget/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/miniflar/admin-notepad-widget/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/miniflar/admin-notepad-widget/stats">0</a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/miniflar-admin-notepad-widget/ja/"><img src="https://weblate.rob006.net/widgets/flarum/ja/miniflar-admin-notepad-widget/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/justoverclockl/flarum-ext-toastme" title="justoverclock/flarum-ext-toastme"><code>justoverclock/flarum-ext-toastme</code></a>
+		</td>
+		<td align="center">184</td>
 		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-toastme/stats">0</a></td>
 		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-toastme/stats">0</a></td>
 		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-toastme/stats">0</a></td>
