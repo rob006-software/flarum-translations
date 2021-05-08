@@ -1,27 +1,27 @@
 {
     "flarum-ext-toastme": {
         "admin": {
-            "enabletoast": "",
-            "helpenable": "",
-            "offsetyy": "",
-            "offsetydesc": "",
-            "offsetxx": "",
-            "offsetxdesc": "",
-            "dest": "",
-            "destdesc": "",
-            "duration": "",
-            "durdesc": "",
-            "gravity": "",
-            "gravdesc": "",
-            "position": "",
-            "posdesc": "",
-            "background": "",
-            "backgrounddesc": "",
-            "message": "",
-            "messagedesc": ""
+            "enabletoast": "Abilita/Disabilita Alert Toast",
+            "helpenable": "Usa questa impostazione per abilitare o disabilitare l'alert",
+            "offsetyy": "Offset Y - margine verticale espresso in pixel (in bianco per default)",
+            "offsetydesc": "Margine asse verticale - può essere un numero che indica il valore in pixel",
+            "offsetxx": "Offset X - margine orizzontale espresso in pixel (in bianco per default)",
+            "offsetxdesc": "Margine orizzontale - può essere un numero che indica il valore in pixel del margine",
+            "dest": "URL di destinazione",
+            "destdesc": "URL al quale si verrà reindirizzati se qualcuno clicca sull'alert",
+            "duration": "Durata oltre la quale l'alert deve essere chiuso, -1 per renderlo permanente",
+            "durdesc": "Espresso in millisecondi - esempio: \"3000 equivale a 3 secondi",
+            "gravity": "Gravità - Può essere \"top\" o \"bottom\"",
+            "gravdesc": "Imposta la posizione del toast, top o bottom sono i valori accettati",
+            "position": "Posizione - Può essere \"left\", \"right\" o \"center\"",
+            "posdesc": "Dove vuoi che appaia il toast?  left, right o center?",
+            "background": "Colore di Sfondo (esadecimale)",
+            "backgrounddesc": "imposta il colore di sfondo in esadecimale - es.  \"#ffcc00\"",
+            "message": "Testo dell'alert",
+            "messagedesc": "Qui puoi personalizzare il testo dell'alert"
         },
         "forum": {
-            "message1": ""
+            "message1": "È un fatto consolidato da tempo che un lettore sarà distratto dal contenuto leggibile di una pagina quando guarda il suo layout."
         }
     }
 }
