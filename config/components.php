@@ -526,7 +526,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/miniflar/admin-notepad-widget/0.1.0/resources/locale/en.yml',
 	],
 	'miniflar-sidenav-download-button' => [
-		'tag' => 'https://raw.githubusercontent.com/miniflar/sidenav-download-button/0.2.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/miniflar/sidenav-download-button/0.2.1/resources/locale/en.yml',
 	],
 	'nearata-cakeday' => [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-cakeday/v1.3.0/resources/locale/en.yml',
