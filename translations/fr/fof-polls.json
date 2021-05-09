@@ -2,18 +2,18 @@
     "fof-polls": {
         "admin": {
             "permissions": {
-                "view_results_without_voting": "",
+                "view_results_without_voting": "Afficher les résultats sans voter",
                 "start": "Démarrer un sondage",
-                "self_edit": "Modifier ses propres sondages",
+                "self_edit": "Autoriser les utilisateurs à modifier leurs propres sondages",
                 "vote": "Voter sur les sondages",
-                "change_vote": "",
-                "moderate": "Modifier ou supprimer les sondages"
+                "change_vote": "Changer de vote",
+                "moderate": "Modifier et supprimer les sondages"
             }
         },
         "forum": {
-            "days_remaining": "Le sondage se termine dans {time}",
+            "days_remaining": "Le sondage se termine dans {time}.",
             "no_permission": "Vous n’avez pas la permission de voter",
-            "poll_ended": "Ce sondage est terminé",
+            "poll_ended": "Ce sondage est terminé.",
             "public_poll": "Voir les votants",
             "composer_discussion": {
                 "add_poll": "Ajouter un sondage",
@@ -36,7 +36,7 @@
             },
             "moderation": {
                 "delete": "Supprimer le sondage",
-                "delete_confirm": "Êtes-vous sûr de vouloir supprimer ce sondage?",
+                "delete_confirm": "Êtes-vous sûr de vouloir supprimer ce sondage ?",
                 "edit": "Modifier le sondage"
             },
             "tooltip": {
