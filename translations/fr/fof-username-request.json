@@ -14,19 +14,19 @@
                     "help_text": "Assurez-vous que le pseudonyme respecte les directives du forum.",
                     "decision_title": "Décision",
                     "approval_label": "Approuver",
-                    "rejected_label": "Refuser",
+                    "rejected_label": "Rejeter",
                     "submit_button": "Soumettre",
-                    "reason_title": "Motif du refus",
-                    "success": "Décision envoyée",
+                    "reason_title": "Motif du rejet",
+                    "success": "Décision envoyée.",
                     "name": "{name} a demandé à ce que son pseudonyme soit changé en \"{requestedName}\""
                 },
                 "results": {
                     "title": "Demande de changement de pseudonyme",
                     "approved": "Votre demande de changement de pseudonyme a été approuvée",
                     "dismiss_button": "=> core.ref.okay",
-                    "new_name": "Votre pseudonyme a été changé avec succès en:  {name}",
-                    "rejected": "Votre demande de pseudonyme a été refusée",
-                    "reason": "Motif du refus: <i>\"{reason}\"</i>.",
+                    "new_name": "Votre pseudonyme a été changé avec succès en :  {name}",
+                    "rejected": "Votre demande de pseudonyme a été rejetée",
+                    "reason": "Motif du rejet : <i>\"{reason}\"</i>.",
                     "resubmit": "Vous pouvez soumettre une nouvelle demande de pseudonyme à partir des paramètres de votre compte."
                 },
                 "request": {
@@ -45,27 +45,27 @@
                     "help_text": "Assurez-vous que le nom d’utilisateur respecte les directives du forum.",
                     "decision_title": "Décision",
                     "approval_label": "Approuver",
-                    "rejected_label": "Refuser",
+                    "rejected_label": "Rejeter",
                     "submit_button": "Soumettre",
-                    "reason_title": "Motif du refus",
-                    "success": "Décision envoyée",
+                    "reason_title": "Motif du rejet",
+                    "success": "Décision envoyée.",
                     "name": "{name} a demandé à changer son nom d’utilisateur en \"{requestedName}\""
                 },
                 "results": {
                     "title": "Changement de nom d’utilisateur",
-                    "approved": "Votre demande de changement de nom d’utilisateur a été approuvée!",
+                    "approved": "Votre demande de changement de nom d’utilisateur a été approuvée",
                     "dismiss_button": "=> core.ref.okay",
-                    "new_name": "Votre nom d’utilisateur est maintenant \"{username}\"",
-                    "rejected": "Votre demande de nom d’utilisateur a été refusée",
-                    "reason": "Motif du refus: <i>\"{reason}\"</i>",
+                    "new_name": "Votre nom d’utilisateur  a bien été remplacé par : \"{username}\"",
+                    "rejected": "Votre demande de nom d’utilisateur a été rejetée",
+                    "reason": "Motif du rejet : <i>\"{reason}\"</i>.",
                     "resubmit": "Vous pouvez soumettre une nouvelle demande de nom d’utilisateur à partir des paramètres de votre compte."
                 },
                 "request": {
                     "title": "Demander un changement de nom d’utilisateur",
-                    "current_request": "Vous avez déjà demandé le nom d’utilisateur \"{username}.\" Vous pouvez mettre à jour ou supprimer cette demande.",
+                    "current_request": "Vous avez déjà demandé de changer votre nom d’utilisateur pour \"{username}.\" Vous pouvez mettre à jour ou supprimer cette demande.",
                     "submit_button": "Soumettre la demande",
                     "delete_button": "Supprimer la demande",
-                    "confirmation_message": "Votre demande a été reçue et sera examinée bientôt.",
+                    "confirmation_message": "Votre demande a été soumise et est en attente d'approbation.",
                     "dismiss_button": "=> core.ref.okay",
                     "deleted": "Demande de nom d’utilisateur supprimée."
                 }
@@ -73,11 +73,11 @@
             "pending_requests": {
                 "empty_text": "Aucune demande de changement de nom trouvée.",
                 "nickname_item_text": "{name} a demandé un changement de pseudonyme",
-                "nickname_exerpt": "Pseudonyme demandé: {requestedName}",
+                "nickname_exerpt": "Pseudonyme demandé : {requestedName}",
                 "tooltip": "=> fof-username-request.ref.name_change_requests",
                 "title": "=> fof-username-request.ref.name_change_requests",
                 "username_item_text": "{name} a demandé un changement de nom d’utilisateur",
-                "username_exerpt": "Nom d’utilisateur demandé: {requestedName}"
+                "username_exerpt": "Nom d’utilisateur demandé : {requestedName}"
             },
             "settings": {
                 "nickname_request_button": "Changer de pseudonyme",
