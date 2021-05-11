@@ -639,5 +639,8 @@ return [
 	'xelson-chat' => [
 		'tag' => 'https://raw.githubusercontent.com/Xelson/flarum-ext-chat/v1.0.0/resources/locale/en.yaml',
 	],
+	'zerosonesfun-prevent-necrobumping-hide' => [
+		'tag' => 'https://raw.githubusercontent.com/zerosonesfun/prevent-necrobumping-hide/0.4/resources/locale/en.yml',
+	],
 	/* extensions list end */
 ];
