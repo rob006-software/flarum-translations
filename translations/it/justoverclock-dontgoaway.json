@@ -1,27 +1,27 @@
 {
     "flarum-ext-dontgoaway": {
         "admin": {
-            "modtitle": "",
-            "modtitledesc": "",
-            "modtext": "",
-            "modtextdesc": "",
-            "urltext": "",
-            "urltextdesc": "",
-            "widthtext": "",
-            "widthdesc": "",
-            "heightext": "",
-            "heightdesc": "",
-            "altext": "",
-            "altdesc": "",
-            "btn": "",
-            "btndesc": "",
-            "enableExtLink": ""
+            "modtitle": "Titolo Modale",
+            "modtitledesc": "Personalizza titolo del popup",
+            "modtext": "Testo Modale",
+            "modtextdesc": "Qui puoi personalizzare il testo del popup.",
+            "urltext": "Url dell'immagine",
+            "urltextdesc": "Incolla qui l'url della tua immagine personalizzata",
+            "widthtext": "Larghezza Immagine",
+            "widthdesc": "Imposta la larghezza dell'immagine (es 450)",
+            "heightext": "Altezza Immagine",
+            "heightdesc": "Imposta l'altezza dell'immagine (es 450)",
+            "altext": "Attributo ALT dell'immagine",
+            "altdesc": "Imposta l'attributo ALT dell'immagine",
+            "btn": "Personalizza pulsanti. La sintassi da utiliizare è nel placeholder",
+            "btndesc": "puoi personalizzare la tua icona fontawesome per il pulsante",
+            "enableExtLink": "Abilita Popup per i link esterni"
         },
         "forum": {
-            "extlinktitle": "",
-            "extlinktext": "",
-            "confbutton": "",
-            "cancelbutton": ""
+            "extlinktitle": "Link Esterno Rilevato",
+            "extlinktext": "Verrai reindirizzato ad un sito esterno cliccando su questo link",
+            "confbutton": "Continua",
+            "cancelbutton": "Resta qui!"
         }
     }
 }
