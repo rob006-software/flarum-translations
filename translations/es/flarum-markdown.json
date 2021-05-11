@@ -1,11 +1,5 @@
 {
     "flarum-markdown": {
-        "admin": {
-            "settings": {
-                "mdarea_help": "mdarea es una utilidad de área de texto que continúa automáticamente las listas, ayuda con el formato de código y la sangría.",
-                "mdarea_label": "¿Habilitar mdarea?"
-            }
-        },
         "forum": {
             "composer": {
                 "bold_tooltip": "Añadir texto en negrita",
@@ -17,6 +11,12 @@
                 "ordered_list_tooltip": "Añadir lista numerada",
                 "quote_tooltip": "Insertar cita",
                 "unordered_list_tooltip": "Añadir lista de viñetas"
+            }
+        },
+        "admin": {
+            "settings": {
+                "mdarea_help": "mdarea es una utilidad de área de texto que continúa automáticamente las listas, ayuda con el formato de código y la sangría.",
+                "mdarea_label": "¿Habilitar mdarea?"
             }
         }
     }

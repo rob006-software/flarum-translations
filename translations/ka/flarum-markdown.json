@@ -1,11 +1,5 @@
 {
     "flarum-markdown": {
-        "admin": {
-            "settings": {
-                "mdarea_help": "",
-                "mdarea_label": ""
-            }
-        },
         "forum": {
             "composer": {
                 "bold_tooltip": "",
@@ -17,6 +11,12 @@
                 "ordered_list_tooltip": "",
                 "quote_tooltip": "",
                 "unordered_list_tooltip": ""
+            }
+        },
+        "admin": {
+            "settings": {
+                "mdarea_help": "",
+                "mdarea_label": ""
             }
         }
     }

@@ -1,11 +1,5 @@
 {
     "flarum-markdown": {
-        "admin": {
-            "settings": {
-                "mdarea_help": "",
-                "mdarea_label": "Mdera inschakelen?"
-            }
-        },
         "forum": {
             "composer": {
                 "bold_tooltip": "Voeg vette tekst toe",
@@ -17,6 +11,12 @@
                 "ordered_list_tooltip": "Nummerieke lijst toevoegen",
                 "quote_tooltip": "Plaats een quote",
                 "unordered_list_tooltip": "Niet ge-ordende lijst toevoegen"
+            }
+        },
+        "admin": {
+            "settings": {
+                "mdarea_help": "",
+                "mdarea_label": "Mdera inschakelen?"
             }
         }
     }

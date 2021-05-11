@@ -1,11 +1,5 @@
 {
     "flarum-markdown": {
-        "admin": {
-            "settings": {
-                "mdarea_help": "mdarea è un'utilità textarea che continua automaticamente gli elenchi, aiuta con la formattazione del codice e aiuta con il rientro del testo.",
-                "mdarea_label": "Abilita mdarea?"
-            }
-        },
         "forum": {
             "composer": {
                 "bold_tooltip": "Grassetto",
@@ -17,6 +11,12 @@
                 "ordered_list_tooltip": "Elenco numerato",
                 "quote_tooltip": "Citazione",
                 "unordered_list_tooltip": "Elenco puntato"
+            }
+        },
+        "admin": {
+            "settings": {
+                "mdarea_help": "mdarea è un'utilità textarea che continua automaticamente gli elenchi, aiuta con la formattazione del codice e aiuta con il rientro del testo.",
+                "mdarea_label": "Abilita mdarea?"
             }
         }
     }

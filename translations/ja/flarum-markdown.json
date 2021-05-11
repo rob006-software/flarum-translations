@@ -1,11 +1,5 @@
 {
     "flarum-markdown": {
-        "admin": {
-            "settings": {
-                "mdarea_help": "",
-                "mdarea_label": ""
-            }
-        },
         "forum": {
             "composer": {
                 "bold_tooltip": "太字を追加",
@@ -17,6 +11,12 @@
                 "ordered_list_tooltip": "番号付きリストを追加",
                 "quote_tooltip": "引用を挿入",
                 "unordered_list_tooltip": "箇条書きリストを追加"
+            }
+        },
+        "admin": {
+            "settings": {
+                "mdarea_help": "",
+                "mdarea_label": ""
             }
         }
     }
