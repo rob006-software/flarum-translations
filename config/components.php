@@ -450,6 +450,9 @@ return [
 	'justoverclock-infocards' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-infocards/0.1.3/resources/locale/en.yml',
 	],
+	'justoverclock-newsfeed' => [
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-newsfeed/0.1.0/resources/locale/en.yml',
+	],
 	'justoverclock-newsletter' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-newsletter/0.1.2/resources/locale/en.yml',
 	],
