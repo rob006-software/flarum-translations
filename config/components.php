@@ -553,7 +553,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-tags-color-generator/v1.4.0/resources/locale/en.yml',
 	],
 	'nearata-twofactor' => [
-		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-twofactor/v1.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-twofactor/v1.0.1/resources/locale/en.yml',
 	],
 	'nomiscz-auth-steam' => [
 		'tag' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-steam/v0.2.1/resources/locale/en.yml',
