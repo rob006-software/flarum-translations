@@ -2,57 +2,57 @@
     "kilowhat-formulaire": {
         "admin": {
             "permissions": {
-                "heading": "",
-                "heading-advanced": "",
-                "fill": "",
-                "seeOwnUser": "",
-                "seeAnyUser": "",
-                "editOwnUser": "",
-                "editAnyUser": "",
-                "seeOwnDiscussion": "",
-                "seeAnyDiscussion": "",
-                "editOwnDiscussion": "",
-                "editAnyDiscussion": "",
-                "create": "",
-                "moderate": "",
-                "export": "",
-                "listForms": "",
-                "listSubmissions": ""
+                "heading": "Formulaire",
+                "heading-advanced": "Formulaire (üçüncü parti uzantılar için tercihler)",
+                "fill": "=> kilowhat-formulaire.ref.permissions.fill",
+                "seeOwnUser": "=> kilowhat-formulaire.ref.permissions.seeOwnUser",
+                "seeAnyUser": "=> kilowhat-formulaire.ref.permissions.seeAnyUser",
+                "editOwnUser": "=> kilowhat-formulaire.ref.permissions.editOwnUser",
+                "editAnyUser": "=> kilowhat-formulaire.ref.permissions.editAnyUser",
+                "seeOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion",
+                "seeAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.seeAnyDiscussion",
+                "editOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.editOwnDiscussion",
+                "editAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.editAnyDiscussion",
+                "create": "Form oluştur (beta)",
+                "moderate": "Tüm formları yönet",
+                "export": "Gönderim verilerini dışa aktar",
+                "listForms": "Silinmeyen formların listesini görüntüle",
+                "listSubmissions": "Gönderimlerin listesini görüntüle"
             },
             "settings": {
-                "title": "",
-                "max-file-size": "",
-                "history-controls": "",
-                "side-nav-on-submission": ""
+                "title": "Form genel ayarları",
+                "max-file-size": "Belge boyutu üst limiti (kB)",
+                "history-controls": "Gönderim sayfasında geri / ileri kontrollerini göster",
+                "side-nav-on-submission": "Gönderim sayfasında yan menüyü göster"
             }
         },
         "forum": {
             "nav": {
-                "forms": ""
+                "forms": "=> kilowhat-formulaire.ref.manager"
             },
             "form-index": {
                 "header": {
-                    "title": "",
-                    "documentation": "",
-                    "discuss": ""
+                    "title": "=> kilowhat-formulaire.ref.manager",
+                    "documentation": "Tam çevrimiçi belgeler",
+                    "discuss": "Flarum Tartışması"
                 },
                 "tabs": {
-                    "standalone": "",
-                    "discussion": "",
-                    "user": ""
+                    "standalone": "=> kilowhat-formulaire.ref.type.standalone",
+                    "discussion": "=> kilowhat-formulaire.ref.type.discussion",
+                    "user": "=> kilowhat-formulaire.ref.type.user"
                 },
-                "empty": "",
-                "load-more": "",
-                "new": "",
-                "edit": "",
-                "show": "",
-                "submissions": "",
+                "empty": "Form yok",
+                "load-more": "Daha fazla",
+                "new": "Yeni form",
+                "edit": "Düzenle",
+                "show": "Göster",
+                "submissions": "Gönderimler",
                 "columns": {
-                    "title": "",
-                    "accept-submissions": "",
-                    "allow-modification": "",
-                    "submissions": "",
-                    "actions": "",
+                    "title": "Başlık",
+                    "accept-submissions": "Açık",
+                    "allow-modification": "Değişiklik",
+                    "submissions": "Başvurumlar",
+                    "actions": "Eylemler",
                     "type": ""
                 },
                 "title": "",
@@ -63,60 +63,60 @@
                 }
             },
             "global-settings": {
-                "title": "",
-                "admin-only": "",
+                "title": "Genel izinler",
+                "admin-only": "Yalnızca forum yöneticileri genel ayarları düzenleyebilirler",
                 "permissions": {
-                    "fill": "",
-                    "seeOwnUser": "",
-                    "seeAnyUser": "",
-                    "editOwnUser": "",
-                    "editAnyUser": "",
+                    "fill": "=> kilowhat-formulaire.ref.permissions.fill",
+                    "seeOwnUser": "=> kilowhat-formulaire.ref.permissions.seeOwnUser",
+                    "seeAnyUser": "=> kilowhat-formulaire.ref.permissions.seeAnyUser",
+                    "editOwnUser": "=> kilowhat-formulaire.ref.permissions.editOwnUser",
+                    "editAnyUser": "=> kilowhat-formulaire.ref.permissions.editAnyUser",
                     "seeOwnDiscussion": "",
-                    "seeAnyDiscussion": "",
-                    "editOwnDiscussion": "",
-                    "editAnyDiscussion": ""
+                    "seeAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.seeAnyDiscussion",
+                    "editOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.editOwnDiscussion",
+                    "editAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.editAnyDiscussion"
                 }
             },
             "form-create": {
-                "title": "",
+                "title": "Yeni form",
                 "field": {
-                    "title": ""
+                    "title": "Başlık"
                 },
                 "button": {
-                    "create": ""
+                    "create": "Form oluştur"
                 }
             },
             "form-edit-header": {
-                "back": "",
+                "back": "Geri",
                 "category": {
-                    "standalone": "",
-                    "discussion": "",
-                    "user": ""
+                    "standalone": "=> kilowhat-formulaire.ref.type.standalone",
+                    "discussion": "=> kilowhat-formulaire.ref.type.discussion",
+                    "user": "=> kilowhat-formulaire.ref.type.user"
                 },
                 "tabs": {
-                    "template": "",
-                    "placement": "",
-                    "access": "",
-                    "notifications": "",
-                    "submissions": ""
+                    "template": "Şablon",
+                    "placement": "Yerleşim",
+                    "access": "Erişim",
+                    "notifications": "Bildirimler",
+                    "submissions": "Başvurumlar"
                 },
                 "access-status": {
-                    "closed": "",
-                    "create": "",
-                    "edit": "",
-                    "both": ""
+                    "closed": "Kapalı",
+                    "create": "Sadece oluştur",
+                    "edit": "Yalnızca düzenle",
+                    "both": "Oluştur ve düzenle"
                 },
-                "controls": "",
-                "template-export": "",
-                "enable-expert-mode": "",
-                "disable-expert-mode": "",
-                "restore": "",
-                "hide": "",
-                "delete": "",
-                "delete-confirmation": "",
+                "controls": "Kontroller",
+                "template-export": "Şablon içe aktar/dışa aktar",
+                "enable-expert-mode": "Uzman modunu etkinleştir",
+                "disable-expert-mode": "Uzman modunu etkisizleştir",
+                "restore": "Geri al",
+                "hide": "Sil",
+                "delete": "Kalıcı olarak sil",
+                "delete-confirmation": "\"{title}\" başlıklı form kalıcı olarak silindi",
                 "fields": {
-                    "private-title": "",
-                    "slug": ""
+                    "private-title": "Gizli başlık",
+                    "slug": "Özel URL (opsiyonel)"
                 }
             },
             "form-edit": {
