@@ -2,13 +2,13 @@
     "kilowhat-audit": {
         "admin": {
             "permissions": {
-                "view": ""
+                "view": "Denetim günlüğünü görüntüle"
             },
             "header": {
-                "title": "",
-                "free": "",
-                "pro": "",
-                "upgrade": "",
+                "title": "Denetim",
+                "free": "Bedava",
+                "pro": "Pro",
+                "upgrade": "Pro'ya yükselt",
                 "documentation": "",
                 "discuss": "",
                 "version": ""
@@ -20,54 +20,54 @@
         },
         "forum": {
             "link": {
-                "discussion-audit": "",
-                "user-audit": "",
-                "actor-audit": ""
+                "discussion-audit": "Denetim günlüğü",
+                "user-audit": "Denetim günlüğü (hesap düzenlemeleri)",
+                "actor-audit": "Denetim günlüğü (katılımcı olarak kullanıcı)"
             },
             "modal": {
-                "discussion-title": "",
-                "user-title": "",
-                "actor-title": ""
+                "discussion-title": "Tartışma Denetim Günlüğü",
+                "user-title": "Kullanıcı Denetim Günlüğü",
+                "actor-title": "Katılımcı Denetim Günlüğü"
             }
         },
         "lib": {
             "browser": {
-                "filterPlaceholder": "",
-                "filterApply": "",
-                "empty": "",
-                "loadMore": "",
-                "withoutActor": "",
+                "filterPlaceholder": "Günlükleri filtrele",
+                "filterApply": "Uygula",
+                "empty": "Sonuç yok",
+                "loadMore": "Daha fazla",
+                "withoutActor": "=> core.group.guest",
                 "deletedResource": {
-                    "discussion": "",
-                    "group": "",
-                    "post": "",
-                    "tag": "",
-                    "user": ""
+                    "discussion": "Tartışma #{id}",
+                    "group": "Grup #{id}",
+                    "post": "Gönderi #{id}",
+                    "tag": "Etiket #{id}",
+                    "user": "Kullanıcı #{id}"
                 },
                 "genericResource": {
-                    "comment": "",
-                    "post": ""
+                    "comment": "Yorum",
+                    "post": "Gönderi"
                 },
                 "permissionGroup": {
-                    "everyone": "",
-                    "members": ""
+                    "everyone": "=> core.admin.permissions_controls.everyone_button",
+                    "members": "=> core.admin.permissions_controls.members_button"
                 },
-                "noValue": "",
-                "noReason": "",
+                "noValue": "(değer yok)",
+                "noReason": "(gerekçe yok)",
                 "client": {
-                    "session": "",
-                    "api_key": "",
-                    "access_token": "",
-                    "cli": "",
-                    "unknown": ""
+                    "session": "Web oturumu",
+                    "api_key": "API anahtarı",
+                    "access_token": "Erişim bileti",
+                    "cli": "Komut satırı",
+                    "unknown": "Bilinmeyen istemci"
                 },
                 "controls": {
-                    "hideRaw": "",
-                    "showRaw": "",
-                    "filterActor": "",
-                    "filterIp": "",
-                    "filterClient": "",
-                    "filterAction": "",
+                    "hideRaw": "Ham günlüğü gizle",
+                    "showRaw": "Ham günlüğü göster",
+                    "filterActor": "Bu kullanıcının günlüklerini göster",
+                    "filterIp": "Bu IP'ye göre günlüğü göster",
+                    "filterClient": "Bu istemci tipine göre günlüğü göster",
+                    "filterAction": "Aynı eylemlere ait günlüğü göster",
                     "filterUser": "",
                     "filterDiscussion": ""
                 },
