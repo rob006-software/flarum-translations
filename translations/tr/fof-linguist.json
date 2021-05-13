@@ -81,39 +81,39 @@
             },
             "export": {
                 "title": "Dışa Aktar",
-                "warning": "",
+                "warning": "Dışa aktarma biçimi Flarum'un YAML tabanlı çeviri dosyalarında ve çevirileri forumlar arasında dil paketi oluşturmak için kullanılır. Format, tüm çevirileri yeni bir foruma taşımak için tasarlanmamıştır. Kullanım durumunuza bağlı olarak veritabanından doğrudan kopyalamak daha iyi olabilir.\n",
                 "locale": "Yerel",
-                "locale-all": "",
+                "locale-all": "\"Tümü\"",
                 "namespace": "Ad Alanı",
                 "namespace-all": "Tümü",
                 "include-originals": "Tüm asıl çevirileri dahil et",
-                "include-all": "",
+                "include-all": "\"Tüm\" diller için tanımlanan çevirileri dahil et",
                 "output": "Çıktı",
                 "output-loading": "Dışa aktarma yükleniyor...",
-                "output-empty": "",
+                "output-empty": "Boş çıktı",
                 "download": "İndir"
             },
             "import": {
                 "title": "İçe Aktar",
-                "input": "",
-                "input-placeholder": "",
-                "locale": "",
-                "locale-all": "",
-                "override-existing": "",
+                "input": "Giriş",
+                "input-placeholder": "YAML dosyasını sürükleyip bırakın veya yapıştırın",
+                "locale": "Yerel",
+                "locale-all": "\"Tümü\"",
+                "override-existing": "Mevcut özel çevirilerimi geçersiz kıl",
                 "submit": "İçe Aktar",
-                "results": "",
-                "results-with-ignore": ""
+                "results": "İçe aktarma tamamlandı. {imported} dize içe aktarıldı ve {identical} dize atlandı. Sayfa şimdi yeni çevirileri gösterecek şekilde yenilenecektir.\n",
+                "results-with-ignore": "İçe aktarma tamamlandı. {imported} dize içe aktarıldı, {ignored} dize yok sayıldı ve {identical} aynı dize atlandı. Sayfa şimdi yeni çevirileri gösterecek şekilde yenilenecektir.\n"
             },
             "known-namespace": {
-                "core": "",
-                "validation": ""
+                "core": "Flarum Çekirdeği",
+                "validation": "Doğrulama Hataları"
             },
             "known-frontend": {
                 "forum": "Forum",
                 "admin": "Yönetici",
-                "lib": "",
-                "ref": "",
-                "api": ""
+                "lib": "Lib (Hem Forumda hem de Yönetici Panelinde kullanılır)",
+                "ref": "Ref (diğer anahtarlar yeniden kullanılır)",
+                "api": "API"
             },
             "menu": {
                 "title": "Linguist",
