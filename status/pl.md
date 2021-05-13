@@ -2062,6 +2062,17 @@
 		<td align="center"><a href="https://packagist.org/packages/luuhai48/oauth-linkedin/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/luuhai48-oauth-linkedin/pl/"><img src="https://weblate.rob006.net/widgets/flarum/pl/luuhai48-oauth-linkedin/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/justoverclockl/flarum-ext-newsfeed" title="justoverclock/flarum-ext-newsfeed"><code>justoverclock/flarum-ext-newsfeed</code></a>
+		</td>
+		<td align="center">187</td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-newsfeed/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-newsfeed/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-newsfeed/stats">0</a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-newsfeed/pl/"><img src="https://weblate.rob006.net/widgets/flarum/pl/justoverclock-newsfeed/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
 </tbody>
 </table>
 
