@@ -5,46 +5,46 @@
                 "purchase-control": "Görüntülemek için Ödeme Yapın",
                 "purchase-log-in": "Giriş Yap ve Görüntülemek için Ödeme Yap",
                 "purchase-completed": "Kilitli değil",
-                "description": ""
+                "description": "Bu noktanın devamında gönderiler ödeme yapmayanlar için kilitlenir, ödeme sağlayıcısı olan Stripe ile ödeme yaparak içerik kilidi açılır.\n"
             },
             "pay-to-post": {
-                "purchase-control": "",
-                "purchase": "",
-                "purchase_required": ""
+                "purchase-control": "Yayınlamak için Ödeme Yapın",
+                "purchase": "Yayınlamak için Satın Alın",
+                "purchase_required": "Bu tartışma, ödeme sağlayıcımız olan Stripe aracılığı ile ödemeyi tamamladığınızda yayınlanacaktır. Maliyet ve ödeme seçeneklerini görüntülemek için satın al düğmesine tıklayın.\n"
             },
             "tag": {
-                "require-payment-label": ""
+                "require-payment-label": "Ödeme Gerekiyor"
             },
             "payment-options-modal": {
-                "title": "",
-                "description": ""
+                "title": "{group} erişimi sağlamak için ödeme seçenekleri",
+                "description": "Gruba erişiminizi başlatmak için aşağıdaki seçeneklerden herhangi birini seçin. Ödeme işlemi için ödeme sağlayıcımız Stripe'a yönlendirileceksiniz.\n"
             },
             "access-portal": {
                 "options": "ayarlar",
                 "purchase": "satın al"
             },
             "nav": {
-                "access_portal": ""
+                "access_portal": "Erişim portalı"
             }
         },
         "admin": {
             "edit-tag": {
-                "select-ptp-product": "",
-                "select-ptp-product-description": "",
-                "select-ptv-product": "",
-                "select-ptv-product-description": "",
-                "visible-from": "",
-                "visible-from-description": ""
+                "select-ptp-product": "(PTP) Gerekli ürün",
+                "select-ptp-product-description": "Bu seçenek ile, o etiketteki her tartışma için o ürünün satın alınmasını gerektirir. Gönderi başına ödeme, örneğin reklamlar için harikadır. Stripe gösterge tablonuzda \"tek ödemeli\" fiyatla bir ürün oluşturun ve <code>prod_</code> ile başlayan kimliği bu alana kopyalayın.\n",
+                "select-ptv-product": "(PTV) Gerekli ürün",
+                "select-ptv-product-description": "Bu seçenek ile, gizli içerikler için tüm yayınlara kalıcı olarak erişimi sağlar. Stripe panonuzda bir ürün oluşturun ve <code>prod_</code> ile başlayan kimliği bu alana kopyalayın.\n",
+                "visible-from": "İçeriğin devamını gizle",
+                "visible-from-description": "Burada belirttiğiniz sayı değeri, yayınlar için ödeme yapmayan kullanıcılara hangi noktada içeriğin gizleneceğini belirler. Hepsini gizlemek için 0 değerini, OP sonrası için 1 değerini kullanın.\n"
             },
             "edit-group": {
-                "select-pta-product": "",
-                "select-pta-product-description": ""
+                "select-pta-product": "(PTA) Gerekli ürün",
+                "select-pta-product-description": "Bu seçenek ile, ödeme yaptıktan sonra gruba erişime izin verilir. Abonelik durumunda erişim, abonelik iptalinin ardından otomatik olarak son bulur. Stripe kontrol panelinizden bir ürün oluşturun ve <code>prod_</code> ile başlayan kimliği bu alana kopyalayın.\n"
             },
             "settings": {
-                "pk": "",
-                "sk": "Secret (api) key",
-                "webhook-secret": "",
-                "link-access-portal": ""
+                "pk": "Publishable (api) anahtarı",
+                "sk": "Secret (api) anahtarı",
+                "webhook-secret": "Webhook signing secret",
+                "link-access-portal": "Kullanıcı açılır menüsünde erişim portalı için bağlantı"
             }
         }
     }
