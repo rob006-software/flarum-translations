@@ -2,15 +2,15 @@
     "flarum-ext-welcomebox": {
         "forum": {
             "wback": "Bentornato,",
-            "npost": "",
-            "discussion": "",
-            "welcomeguest": "",
-            "notregistered": "",
+            "npost": "=> core.forum.user.posts_link",
+            "discussion": "=> core.forum.user.discussions_link",
+            "welcomeguest": "Bencenuto Ospite",
+            "notregistered": "Attualmente non sei registrato al forum.",
             "logout": "",
             "groupwb": ""
         },
         "admin": {
-            "enablepostbox": ""
+            "enablepostbox": "Abilita Welcome Box Ospiti"
         }
     }
 }
