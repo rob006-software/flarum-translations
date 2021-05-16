@@ -154,8 +154,8 @@
                 "email_title": "=> core.admin.email.description",
                 "permissions_button": "=> core.admin.permissions.title",
                 "permissions_title": "=> core.admin.permissions.description",
-                "userlist_button": "",
-                "userlist_title": "",
+                "userlist_button": "=> core.admin.users.title",
+                "userlist_title": "=> core.admin.users.description",
                 "search_placeholder": "Wyszukaj rozszerzenia",
                 "appearance_text": "Dostosuj kolory, logo oraz inne ustawienia swojego forum.",
                 "basics_text": "Ustaw tytuł, język oraz inne podstawowe ustawienia swojego forum.",
@@ -186,11 +186,11 @@
                 "read_heading": "Czytanie",
                 "rename_discussions_label": "Zmiana tytułu dyskusji",
                 "reply_to_discussions_label": "Odpowiadanie w dyskusji",
-                "search_users_label": "",
+                "search_users_label": "Wyszukiwanie użytkowników",
                 "sign_up_label": "Rejestracja",
                 "start_discussions_label": "Rozpoczynanie dyskusji",
                 "title": "Uprawnienia",
-                "view_forum_label": "",
+                "view_forum_label": "Przeglądanie forum (dyskusji i użytkowników)",
                 "view_hidden_groups_label": "Przeglądanie etykiet ukrytych grup",
                 "view_last_seen_at_label": "Dostęp do daty ostatniej wizyty użytkownika",
                 "view_post_ips_label": "Przeglądanie IP użytkowników",
@@ -216,43 +216,43 @@
                 "upload_button": "Wybierz obrazek..."
             },
             "users": {
-                "description": "",
+                "description": "Stronicowana lista wszystkich użytkowników na twoim forum.",
                 "grid": {
                     "columns": {
                         "edit_user": {
-                            "button": "",
-                            "title": "",
-                            "tooltip": ""
+                            "button": "=> core.ref.edit",
+                            "title": "=> core.ref.edit_user",
+                            "tooltip": "Edytuj {username}"
                         },
                         "email": {
-                            "title": "",
-                            "visibility_hide": "",
-                            "visibility_show": ""
+                            "title": "=> core.ref.email",
+                            "visibility_hide": "Ukryj adres e-mail",
+                            "visibility_show": "Wyświetl adres e-mail"
                         },
                         "group_badges": {
-                            "no_badges": "",
-                            "title": ""
+                            "no_badges": "Brak",
+                            "title": "Grupy"
                         },
                         "join_time": {
-                            "title": ""
+                            "title": "Dołączył"
                         },
                         "user_id": {
-                            "title": ""
+                            "title": "ID"
                         },
                         "username": {
-                            "profile_link_tooltip": "",
-                            "title": ""
+                            "profile_link_tooltip": "Zobacz profil {username}",
+                            "title": "=> core.ref.username"
                         }
                     },
-                    "invalid_column_content": ""
+                    "invalid_column_content": "Nieprawidłowe"
                 },
                 "pagination": {
-                    "back_button": "",
-                    "next_button": "",
-                    "page_counter": ""
+                    "back_button": "Poprzednia strona",
+                    "next_button": "Następna strona",
+                    "page_counter": "Strona {current} z {total}"
                 },
-                "title": "",
-                "total_users": ""
+                "title": "=> core.ref.users",
+                "total_users": "Wszystkich użytkowników: {count}"
             },
             "add_extension": {
                 "developer_text": "Jeśli jesteś deweloperem, możesz <a>zapoznać się z dokumentacją</a> i rozpocząć pracę nad własnymi rozszerzeniami.",
@@ -493,17 +493,17 @@
                 "toggle_dropdown_accessible_label": "Przełącz menu rozwijane"
             },
             "edit_user": {
-                "activate_button": "",
-                "email_heading": "",
-                "email_label": "",
-                "groups_heading": "",
-                "password_heading": "",
-                "password_label": "",
-                "set_password_label": "",
-                "submit_button": "",
-                "title": "",
-                "username_heading": "",
-                "username_label": ""
+                "activate_button": "Aktywuj użytkownika",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "Grupy",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "Ustaw nowe hasło",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.edit_user",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username"
             },
             "error": {
                 "dependent_extensions_message": "Nie można wyłączyć {extension}, jeśli następujące zależne rozszerzenia są włączone: {extensions}",
@@ -514,7 +514,7 @@
                 "rate_limit_exceeded_message": "Nie bądź taki hop do przodu! Spróbuj ponownie za kilka sekund."
             },
             "loading_indicator": {
-                "accessible_label": ""
+                "accessible_label": "=> core.ref.loading"
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -602,12 +602,12 @@
             "delete_forever": "Usuń nieodwracalnie",
             "discussions": "Dyskusje",
             "edit": "Edytuj",
-            "edit_user": "",
+            "edit_user": "Edytuj użytkownika",
             "email": "E-mail",
             "icon": "Ikona",
             "icon_text": "Wpisz nazwę dowolnej klasy z <a>Font Awesome</a>, <em>włącznie</em> z prefiksem <code>fas fa-</code>.",
             "load_more": "Wczytaj więcej",
-            "loading": "",
+            "loading": "Ładowanie...",
             "log_in": "Zaloguj się",
             "log_out": "Wyloguj się",
             "mark_all_as_read": "Oznacz wszystko jako przeczytane",
