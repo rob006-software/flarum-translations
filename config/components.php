@@ -24,6 +24,9 @@ return [
 		'https://raw.githubusercontent.com/flarum/core/master/locale/validation.yml',
 	],
 	/* extensions list begin */
+	'0.1.x-dev-upload' => [
+		'tag' => 'https://raw.githubusercontent.com/StarsRivers/upload/0.14.0/resources/locale/en.yml',
+	],
 	'amaurycarrade-syndication' => [
 		'tag' => 'https://raw.githubusercontent.com/AmauryCarrade/flarum-ext-syndication/v0.3.1/resources/locale/en.yml',
 	],
