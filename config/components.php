@@ -643,7 +643,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Xelson/flarum-ext-chat/v1.0.0/resources/locale/en.yaml',
 	],
 	'zerosonesfun-expired-posts' => [
-		'tag' => 'https://raw.githubusercontent.com/zerosonesfun/expired-posts/0.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/zerosonesfun/expired-posts/0.2/resources/locale/en.yml',
 	],
 	/* extensions list end */
 ];
