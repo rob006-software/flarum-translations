@@ -1,60 +1,60 @@
 {
     "v17development-flarum-badges": {
         "admin": {
-            "uncategorized": "",
-            "new_badge": "",
-            "create_category": "",
-            "update_badge": "",
-            "update_category": "",
-            "edit_category": "",
-            "nothing_here_yet": "",
+            "uncategorized": "Brak kategorii",
+            "new_badge": "Nowa odznaka",
+            "create_category": "Utwórz kategorię",
+            "update_badge": "Popraw odznakę",
+            "update_category": "Popraw kategorię",
+            "edit_category": "Edytuj kategorię",
+            "nothing_here_yet": "Nie utworzono jeszcze żadnych odznak i kategorii.",
             "permissions": {
-                "give_badge": "",
-                "take_badge": ""
+                "give_badge": "Przyznaj odznakę",
+                "take_badge": "Odbierz odznakę"
             },
             "confirm_dialog": {
-                "title": "",
-                "no": "",
-                "yes": ""
+                "title": "Zatwierdź",
+                "no": "Nie",
+                "yes": "Tak"
             },
             "confirm_messages": {
-                "delete_badge": "",
-                "delete_category": ""
+                "delete_badge": "Czy na pewno chcesz usunąć tę odznakę? Zostanie ona odebrana wszystkim użytkownikom i jest to nieodwracalne.",
+                "delete_category": "Czy na pewno chcesz usunąć tę kategorię? Jeżeli są w niej jakieś odznaki, zostaną one oznaczone jako 'Bez kategorii'."
             },
             "badge": {
-                "name": "",
-                "icon": "",
-                "description": "",
-                "visible": "",
-                "visible_description": ""
+                "name": "Nazwa odznaki",
+                "icon": "Ikona odznaki",
+                "description": "Opis odznaki",
+                "visible": "Widoczność",
+                "visible_description": "Włącz tę odznakę. Jeżeli wyłączona, odznaka nie będzie widoczna."
             },
             "badge_category": {
-                "name": "",
-                "description": "",
-                "enabled": "",
-                "enabled_description": ""
+                "name": "Nazwa kategorii",
+                "description": "Opis kategorii",
+                "enabled": "Włączone",
+                "enabled_description": "Włącz tę kategorię. Jeżeli wyłączona, wszystkie odznaki zostaną wyłączone a kategoria nie będzie widoczna."
             }
         },
         "forum": {
-            "badge_information": "",
-            "all_badges": "",
-            "all_users": "",
-            "give_badge": "",
-            "update_badge": "",
-            "select_badge": "",
-            "user_has_badge": "",
-            "user_no_badges": "",
+            "badge_information": "Informacje o odznace",
+            "all_badges": "Zobacz wszystkie odznaki",
+            "all_users": "Zobacz wszystkich użytkowników",
+            "give_badge": "Przyznaj odznakę",
+            "update_badge": "Popraw odznakę",
+            "select_badge": "Wybierz odznakę",
+            "user_has_badge": "Ten użytkownik już ma tę odznakę.",
+            "user_no_badges": "Ten użytkownik nie ma jeszcze żadnych odznak.",
             "uncategorized": "",
             "badge": {
-                "badge": "",
-                "badges": "",
-                "name": "",
-                "description": "",
-                "earning_reason": "",
-                "update_earning_reason": "",
+                "badge": "Odznaka",
+                "badges": "Odznaki",
+                "name": "Nazwa odznaki",
+                "description": "Opis odznaki",
+                "earning_reason": "Powód przyznania odznaki",
+                "update_earning_reason": "Popraw powód przyznania odznaki",
                 "no_earning_reason": "",
                 "earned_on": "",
-                "category": "",
+                "category": "Kategoria odznaki",
                 "earned_count": ""
             },
             "moderation": {
