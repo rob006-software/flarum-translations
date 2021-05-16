@@ -1426,7 +1426,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Compatibility status with recent Flarum is unknown">🟡</span>
+			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/AntoineFr/flarum-ext-online" title="antoinefr/flarum-ext-online"><code>antoinefr/flarum-ext-online</code></a>
 		</td>
 		<td align="center">129<br /><img src="https://img.shields.io/badge/-%2B2-red" alt="+2" title="Change from last week"></td>
