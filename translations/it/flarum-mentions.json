@@ -2,8 +2,8 @@
     "flarum-mentions": {
         "admin": {
             "settings": {
-                "allow_username_format_label": "",
-                "allow_username_format_text": ""
+                "allow_username_format_label": "Consenti menzioni nome utente (@Nomeutente)",
+                "allow_username_format_text": "Il formato corrente per menzionare un utente è @\"Display Name\"#ID.\nQuesta impostazione consente di utilizzare il vecchio formato di @Username, tuttavia verrà comunque convertito nel nuovo formato al momento del salvataggio.\n"
             }
         },
         "forum": {
@@ -20,7 +20,7 @@
                 "mentioned_by_self_text": "{users} hai risposto a questo messaggio|{users} hanno risposto a questo messaggio.",
                 "mentioned_by_text": "{users} ha risposto a questo messaggio|{users} hanno risposto a questo messaggio.",
                 "others_text": "=> core.ref.some_others",
-                "quote_button": "Menziona",
+                "quote_button": "Cita",
                 "reply_link": "=> core.ref.reply",
                 "you_text": "=> core.ref.you"
             },
@@ -32,7 +32,7 @@
                 "mentions_link": "Menzioni"
             },
             "post_mention": {
-                "deleted_text": ""
+                "deleted_text": "[sconosciuto]"
             }
         },
         "email": {
