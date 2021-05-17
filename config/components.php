@@ -157,7 +157,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/datitisev-maintenance.yml',
 	],
 	'davwheat-custom-sidenav-links' => [
-		'tag' => 'https://raw.githubusercontent.com/davwheat/flarum-ext-custom-sidenav-links/0.2.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/davwheat/flarum-ext-custom-sidenav-links/1.0.0/locale/en.yml',
 	],
 	'dem13n-discussion-cards' => [
 		'tag' => 'https://raw.githubusercontent.com/Dem13n/discussion-cards/0.3.0/locale/en.yml',
