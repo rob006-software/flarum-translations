@@ -1,0 +1,27 @@
+{
+    "nearata-auth-minecraft": {
+        "api": {
+            "error_403": "Invalid or expired token.",
+            "invalid_token_format": "The token must be numeric."
+        },
+        "forum": {
+            "change_email_modal": {
+                "confirmation_message": "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder.",
+                "dismiss_button": "OK",
+                "submit_button": "Change Email",
+                "title": "Change Email",
+                "token_placeholder": "Token"
+            },
+            "log_in_modal": {
+                "submit_button": "Validate",
+                "title": "Log In with Minecraft"
+            },
+            "log_in_button_title": "Log In with Minecraft",
+            "settings": {
+                "change_email_button": "Change Email"
+            },
+            "token_help": "Join the server <strong>srv.mc-oauth.net:25565</strong> to get an access token.",
+            "token_placeholder": "Token"
+        }
+    }
+}
