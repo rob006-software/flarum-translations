@@ -448,7 +448,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-guestengagement/0.1.7/resources/locale/en.yml',
 	],
 	'justoverclock-infocards' => [
-		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-infocards/0.1.3/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-infocards/0.1.4/resources/locale/en.yml',
 	],
 	'justoverclock-newsfeed' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-newsfeed/0.1.0/resources/locale/en.yml',
