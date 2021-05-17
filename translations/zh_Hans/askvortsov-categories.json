@@ -15,6 +15,11 @@
                 "parent_remove_last_discussion": "隐藏主版块的最新主题",
                 "small_forum_optimized": "针对小型论坛进行优化？ 这样可以更精准的统计主题/回复数，但会大大减慢中型和大型论坛的速度。"
             },
+            "help": {
+                "child_bare_icon": "",
+                "full_page_desktop": "",
+                "small_forum_optimized": ""
+            },
             "headings": {
                 "nav": "导航栏",
                 "layout": "布局",
@@ -25,14 +30,15 @@
             "title": "传统版块 - 设置"
         },
         "forum": {
+            "all_categories": {
+                "meta_description_text": "",
+                "meta_title_text": ""
+            },
             "header": {
                 "back_to_categories_tooltip": "返回全部版块"
             },
             "index": {
                 "categories_link": "版块"
-            },
-            "meta": {
-                "categories_title": "全部版块"
             },
             "stat-widgets": {
                 "discussion_label": "主题",
@@ -40,7 +46,13 @@
             },
             "last_discussion_widget": {
                 "no_discussions": "暂无主题"
+            },
+            "meta": {
+                "categories_title": "全部版块"
             }
+        },
+        "ref": {
+            "categories": ""
         }
     }
 }

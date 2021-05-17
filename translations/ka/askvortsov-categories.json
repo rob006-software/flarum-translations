@@ -15,6 +15,11 @@
                 "parent_remove_last_discussion": "გსურთ უახლესი დისკუსიების დამალვა, ზედა დონის თეგებისთვის?",
                 "small_forum_optimized": "გსურთ მცირე ფორუმების ოპტიმიზაცია? ეს უფრო ზუსტ დისკუსიას/პოსტების დათვლას მოგცემთ, მაგრამ საშუალო და მსხვილი ფორუმები მკვეთრად შეანელებს."
             },
+            "help": {
+                "child_bare_icon": "",
+                "full_page_desktop": "",
+                "small_forum_optimized": ""
+            },
             "headings": {
                 "nav": "ნავიგაცია",
                 "layout": "განლაგება  (Layout)",
@@ -25,14 +30,15 @@
             "title": "კატეგორიების პარამეტრები"
         },
         "forum": {
+            "all_categories": {
+                "meta_description_text": "",
+                "meta_title_text": ""
+            },
             "header": {
                 "back_to_categories_tooltip": "უკან კატეგორიებში"
             },
             "index": {
                 "categories_link": "კატეგორიები"
-            },
-            "meta": {
-                "categories_title": "კატეგორიები"
             },
             "stat-widgets": {
                 "discussion_label": "დისკუსიები",
@@ -40,7 +46,13 @@
             },
             "last_discussion_widget": {
                 "no_discussions": "არ არის დისკუსიები (ჯერ!)"
+            },
+            "meta": {
+                "categories_title": "კატეგორიები"
             }
+        },
+        "ref": {
+            "categories": ""
         }
     }
 }

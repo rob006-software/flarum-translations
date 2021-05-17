@@ -15,6 +15,11 @@
                 "parent_remove_last_discussion": "Masquer les discussions les plus récentes des étiquettes de niveau supérieur ?",
                 "small_forum_optimized": "Optimiser pour les petits forums ? Cela donnera des comptes de discussion / publication plus précis, mais ralentira considérablement les forums moyens et grands."
             },
+            "help": {
+                "child_bare_icon": "",
+                "full_page_desktop": "",
+                "small_forum_optimized": ""
+            },
             "headings": {
                 "nav": "Navigation",
                 "layout": "Mise en page",
@@ -25,14 +30,15 @@
             "title": "Paramètres des catégories"
         },
         "forum": {
+            "all_categories": {
+                "meta_description_text": "",
+                "meta_title_text": ""
+            },
             "header": {
                 "back_to_categories_tooltip": "Retour aux catégories"
             },
             "index": {
                 "categories_link": "Catégories"
-            },
-            "meta": {
-                "categories_title": "Catégories"
             },
             "stat-widgets": {
                 "discussion_label": "Discussions",
@@ -40,7 +46,13 @@
             },
             "last_discussion_widget": {
                 "no_discussions": "Pas de discussions (Pour le moment!)"
+            },
+            "meta": {
+                "categories_title": "Catégories"
             }
+        },
+        "ref": {
+            "categories": ""
         }
     }
 }

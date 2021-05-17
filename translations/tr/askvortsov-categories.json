@@ -15,6 +15,11 @@
                 "parent_remove_last_discussion": "Ana kategoride etiketteki en güncel tartışma görülsün mü?",
                 "small_forum_optimized": "Küçük topluluklar için optimize edilsin mi? Daha doğru tartışma ve gönderi sayısı gösterir ancak büyük topluluklar için sorgu sayısını arttırır."
             },
+            "help": {
+                "child_bare_icon": "",
+                "full_page_desktop": "",
+                "small_forum_optimized": ""
+            },
             "headings": {
                 "nav": "Navigasyon",
                 "layout": "Yerleşim",
@@ -25,14 +30,15 @@
             "title": "Kategoriler Ayarları"
         },
         "forum": {
+            "all_categories": {
+                "meta_description_text": "",
+                "meta_title_text": ""
+            },
             "header": {
                 "back_to_categories_tooltip": "Kategorilere Geri Dön"
             },
             "index": {
                 "categories_link": "Kategoriler"
-            },
-            "meta": {
-                "categories_title": "Kategoriler"
             },
             "stat-widgets": {
                 "discussion_label": "Tartışmalar",
@@ -41,6 +47,12 @@
             "last_discussion_widget": {
                 "no_discussions": "Hiç Tartışma Yok (Şimdilik!)"
             },
+            "meta": {
+                "categories_title": "Kategoriler"
+            },
+            "categories": ""
+        },
+        "ref": {
             "categories": ""
         }
     }

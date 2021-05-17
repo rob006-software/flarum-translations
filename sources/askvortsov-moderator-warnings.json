@@ -9,21 +9,21 @@
         },
         "emails": {
             "post_warned": {
-                "subject": "{warner_display_name} warned you with {strikes} strikes in {discussion_title}",
-                "body": "Hey {warnee_display_name}!\n\n{warner_display_name} warned you with {strikes} strikes in {discussion_title}\n\nThe following reason was given:\n\n---\n\n{public_comment}\n"
+                "subject": "{warner_display_name} warned you with {strikes, plural, one {# strike} other {# strikes}} in {discussion_title}",
+                "body": "Hey {warnee_display_name}!\n\n{warner_display_name} warned you with {strikes, plural, one {# strike} other {# strikes}} in {discussion_title}\n\nThe following reason was given:\n\n---\n\n{public_comment}\n"
             },
             "user_warned": {
-                "subject": "{warner_display_name} warned you with {strikes} strikes",
-                "body": "Hey {warnee_display_name}!\n\n{warner_display_name} warned you with {strikes} strikes\n\nThe following reason was given:\n\n---\n\n{public_comment}\n"
+                "subject": "{warner_display_name} warned you with {strikes, plural, one {# strike} other {# strikes}}",
+                "body": "Hey {warnee_display_name}!\n\n{warner_display_name} warned you with {strikes, plural, one {# strike} other {# strikes}}\n\nThe following reason was given:\n\n---\n\n{public_comment}\n"
             }
         },
         "forum": {
             "notifications": {
-                "warning_text": "You were warned with {strikes} strike by {mod_username}|You were warned with {strikes} strikes by {mod_username}",
+                "warning_text": "{strikes, plural, one {You were warned with # strike by {mod_username}} other {You were warned with # strikes by {mod_username}}}",
                 "warning_no_strikes_text": "You were warned by {mod_username} (no strikes)"
             },
             "post": {
-                "warning": "Warned with {strikes} strike by {mod_username}|Warned with {strikes} strikes by {mod_username}",
+                "warning": "{strikes, plural, one {Warned with # strike by {mod_username}} other {Warned with # strikes by {mod_username}}}",
                 "warning_no_strikes": "Warned with no strikes by {mod_username}"
             },
             "post_controls": {
@@ -47,12 +47,12 @@
             "warning_list": {
                 "add_button": "New Warning",
                 "no_warnings": "It looks like there are no warnings here.",
-                "warnings": "Moderator Warnings: {strikes} Strike Received|Moderator Warnings: {strikes} Strikes Received",
+                "warnings": "{strikes, plural, one {Moderator Warnings: # Strike Received} other {Moderator Warnings: # Strikes Received}}",
                 "warnings_no_strikes": "Moderator Warnings: No Strikes Received"
             },
             "warning_list_item": {
-                "list_item_heading": "<strong>{strikes}</strong> strike, {time}|<strong>{strikes}</strong> strikes, {time}",
-                "list_item_heading_hidden": "<strong>{strikes}</strong> strike, {time} <strong>(removed)</strong>|<strong>{strikes}</strong> strikes, {time} <strong>(removed)</strong>",
+                "list_item_heading": "{strikes, plural, one {<strong>#</strong> strike, {time}} other {<strong>#</strong> strikes, {time}}}",
+                "list_item_heading_hidden": "{strikes, plural, one {<strong>#</strong> strike, {time} <strong>(removed)</strong>} other {<strong>#</strong> strikes, {time} <strong>(removed)</strong>}}",
                 "public_comment": "Warning",
                 "private_comment": "Moderator-Visible Comments",
                 "linked_post": "Linked Post"

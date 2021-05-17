@@ -15,6 +15,11 @@
                 "parent_remove_last_discussion": "板の最新のスレッドを非表示",
                 "small_forum_optimized": ""
             },
+            "help": {
+                "child_bare_icon": "",
+                "full_page_desktop": "",
+                "small_forum_optimized": ""
+            },
             "headings": {
                 "nav": "ナビゲーションバー",
                 "layout": "レイアウト",
@@ -25,14 +30,15 @@
             "title": "掲示板一覧 - 設定"
         },
         "forum": {
+            "all_categories": {
+                "meta_description_text": "",
+                "meta_title_text": ""
+            },
             "header": {
                 "back_to_categories_tooltip": "掲示板一覧に戻る"
             },
             "index": {
                 "categories_link": "掲示板一覧"
-            },
-            "meta": {
-                "categories_title": "掲示板リスト"
             },
             "stat-widgets": {
                 "discussion_label": "スレッド",
@@ -40,7 +46,13 @@
             },
             "last_discussion_widget": {
                 "no_discussions": "スレッドなし"
+            },
+            "meta": {
+                "categories_title": "掲示板リスト"
             }
+        },
+        "ref": {
+            "categories": ""
         }
     }
 }

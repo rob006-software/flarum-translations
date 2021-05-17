@@ -15,6 +15,11 @@
                 "parent_remove_last_discussion": "Nascondi le discussioni recenti dalle categorie principali?",
                 "small_forum_optimized": "Ottimizza per piccoli forum. Questa funzione fornirà conteggi discussioni/post più accurati, ma rallenterà molto i forum di medie e grandi dimensioni."
             },
+            "help": {
+                "child_bare_icon": "",
+                "full_page_desktop": "",
+                "small_forum_optimized": ""
+            },
             "headings": {
                 "nav": "Navigazione",
                 "layout": "Layout",
@@ -25,14 +30,15 @@
             "title": "Impostazioni Categorie"
         },
         "forum": {
+            "all_categories": {
+                "meta_description_text": "",
+                "meta_title_text": ""
+            },
             "header": {
                 "back_to_categories_tooltip": "Torna alle Categorie"
             },
             "index": {
                 "categories_link": "Categorie"
-            },
-            "meta": {
-                "categories_title": "Categorie"
             },
             "stat-widgets": {
                 "discussion_label": "Discussioni",
@@ -40,7 +46,13 @@
             },
             "last_discussion_widget": {
                 "no_discussions": "Ancora Nessuna Discussione"
+            },
+            "meta": {
+                "categories_title": "Categorie"
             }
+        },
+        "ref": {
+            "categories": ""
         }
     }
 }
