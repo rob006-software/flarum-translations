@@ -16,11 +16,11 @@
                 "edit_css_button": "Modifica CSS",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
-                "enter_hex_message": "Inserisci un codice colore esadecimale",
+                "enter_hex_message": "Inserisci un codice colore esadecimale.",
                 "favicon_heading": "Favicon",
-                "favicon_text": "Carica un'immagine da utilizzare come favicon del sito",
+                "favicon_text": "Carica un'immagine da utilizzare come favicon del sito.",
                 "logo_heading": "Logo",
-                "logo_text": "Carica un'immagine da utilizzare al posto del nome del forum",
+                "logo_text": "Carica un'immagine da utilizzare al posto del nome del forum.",
                 "title": "Aspetto",
                 "submit_button": "=> core.ref.save_changes"
             },
@@ -41,12 +41,12 @@
                 "title": "Impostazioni di base",
                 "welcome_banner_heading": "Banner di benvenuto",
                 "welcome_banner_text": "Configura il testo da visualizzare sul banner. Apparirà nella pagina <b>Tutte le discussioni</b>.",
-                "saved_message": "Le modifiche sono state salvate",
+                "saved_message": "Le modifiche sono state salvate.",
                 "submit_button": "=> core.ref.save_changes"
             },
             "dashboard": {
                 "clear_cache_button": "Pulisci cache",
-                "description": "Il tuo forum a colpo d'occhio",
+                "description": "Il tuo forum a colpo d'occhio.",
                 "title": "Dashboard",
                 "tools_button": "Strumenti"
             },
@@ -80,7 +80,7 @@
             },
             "email": {
                 "addresses_heading": "Indirizzi",
-                "description": "Configura le impostazioni SMTP e gli indirizzi che il tuo forum utilizzerà per inviare e-mail",
+                "description": "Configura le impostazioni SMTP e gli indirizzi che il tuo forum utilizzerà per inviare e-mail.",
                 "driver_heading": "Seleziona Driver",
                 "driver_label": "Driver",
                 "from_label": "Mittente",
@@ -153,8 +153,8 @@
                 "email_title": "=> core.admin.email.description",
                 "permissions_button": "=> core.admin.permissions.title",
                 "permissions_title": "=> core.admin.permissions.description",
-                "userlist_button": "",
-                "userlist_title": "",
+                "userlist_button": "=> core.admin.users.title",
+                "userlist_title": "=> core.admin.users.description",
                 "search_placeholder": "Cerca estensioni",
                 "permissions_text": "=> core.admin.permissions.description"
             },
@@ -179,11 +179,11 @@
                 "read_heading": "Lettura",
                 "rename_discussions_label": "Rinomina discussioni",
                 "reply_to_discussions_label": "Rispondere alle discussioni",
-                "search_users_label": "",
+                "search_users_label": "Cerca utenti",
                 "sign_up_label": "Registrazione",
                 "start_discussions_label": "Iniziare una discussione",
                 "title": "Permessi",
-                "view_forum_label": "",
+                "view_forum_label": "Guarda forum (discussioni e utenti)",
                 "view_hidden_groups_label": "Visualizzare i badge dei gruppi nascosti",
                 "view_last_seen_at_label": "Visualizza sempre l'ora dell'ultimo accesso di un utente",
                 "view_post_ips_label": "Visualizzare indirizzi IP di un messaggio",
@@ -209,43 +209,43 @@
                 "upload_button": "Scegli un'immagine..."
             },
             "users": {
-                "description": "",
+                "description": "Un elenco impaginato di tutti gli utenti sul tuo forum.",
                 "grid": {
                     "columns": {
                         "edit_user": {
-                            "button": "",
-                            "title": "",
-                            "tooltip": ""
+                            "button": "=> core.ref.edit",
+                            "title": "=> core.ref.edit_user",
+                            "tooltip": "Modifica {username}"
                         },
                         "email": {
-                            "title": "",
-                            "visibility_hide": "",
-                            "visibility_show": ""
+                            "title": "=> core.ref.email",
+                            "visibility_hide": "Nascondi indirizzo email",
+                            "visibility_show": "Mostra indirizzo email"
                         },
                         "group_badges": {
-                            "no_badges": "",
-                            "title": ""
+                            "no_badges": "Nessuna",
+                            "title": "Gruppi"
                         },
                         "join_time": {
-                            "title": ""
+                            "title": "Iscritto"
                         },
                         "user_id": {
-                            "title": ""
+                            "title": "ID"
                         },
                         "username": {
-                            "profile_link_tooltip": "",
-                            "title": ""
+                            "profile_link_tooltip": "Visita profilo di {username}",
+                            "title": "=> core.ref.username"
                         }
                     },
-                    "invalid_column_content": ""
+                    "invalid_column_content": "Non valido"
                 },
                 "pagination": {
-                    "back_button": "",
-                    "next_button": "",
-                    "page_counter": ""
+                    "back_button": "Pagina precedente",
+                    "next_button": "Pagina successiva",
+                    "page_counter": "Pagina {current} di {total}"
                 },
-                "title": "",
-                "total_users": ""
+                "title": "=> core.ref.users",
+                "total_users": "Utenti totali: {count}"
             }
         },
         "forum": {
@@ -389,7 +389,7 @@
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "Il vecchio titolo era: \"{old}\"",
-                "discussion_renamed_text": "{username} ha cambiato il titolo in {new}",
+                "discussion_renamed_text": "{username} ha cambiato il titolo in {new}.",
                 "load_more_button": "=> core.ref.load_more",
                 "reply_placeholder": "=> core.ref.write_a_reply",
                 "time_lapsed_text": "{period} dopo"
@@ -475,17 +475,17 @@
                 "toggle_dropdown_accessible_label": "Attiva/disattiva il menu a discesa"
             },
             "edit_user": {
-                "activate_button": "",
-                "email_heading": "",
-                "email_label": "",
-                "groups_heading": "",
-                "password_heading": "",
-                "password_label": "",
-                "set_password_label": "",
-                "submit_button": "",
-                "title": "",
-                "username_heading": "",
-                "username_label": ""
+                "activate_button": "Attiva Utente",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "Gruppi",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "Imposta nuova password",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.edit_user",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username"
             },
             "error": {
                 "dependent_extensions_message": "Non puoi disattivare l'estensione {extension} finché non disattiverai le seguenti estensioni: {extensions}",
@@ -496,7 +496,7 @@
                 "rate_limit_exceeded_message": "Stai scrivendo un po' troppo in fretta. Riprova tra qualche secondo."
             },
             "loading_indicator": {
-                "accessible_label": ""
+                "accessible_label": "=> core.ref.loading"
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -549,7 +549,7 @@
             }
         },
         "api": {
-            "invalid_username_message": "Il nome utente può contenere solo lettere, numeri e trattini"
+            "invalid_username_message": "Il nome utente può contenere solo lettere, numeri e trattini."
         },
         "email": {
             "activate_account": {
@@ -576,7 +576,7 @@
             "color": "Colore",
             "confirm_password": "Conferma password",
             "confirmation_email_sent": "Abbiamo inviato una e-mail di conferma a {email}. Ricordati di controllare la cartella spam.",
-            "custom_footer_text": "Aggiungi codice HTML nella parte inferiore della pagina",
+            "custom_footer_text": "Aggiungi codice HTML nella parte inferiore della pagina.",
             "custom_footer_title": "Modifica footer",
             "custom_header_text": "Aggiungi codice HTML da visualizzare in cima della pagina, sopra l'header di Flarum.",
             "custom_header_title": "Modifica header",
@@ -584,12 +584,12 @@
             "delete_forever": "Cancella per sempre",
             "discussions": "Discussioni",
             "edit": "Modifica",
-            "edit_user": "",
+            "edit_user": "Modifica Utente",
             "email": "E-mail",
             "icon": "Icona",
             "icon_text": "Inserisci il nome di una qualsiasi icona di <a>FontAwesome</a>, <em>includendo</em> il prefisso <code>fas fa-</code>.",
             "load_more": "Carica di più",
-            "loading": "",
+            "loading": "Caricamento...",
             "log_in": "Accedi",
             "log_out": "Esci",
             "mark_all_as_read": "Segna tutto come letto",
