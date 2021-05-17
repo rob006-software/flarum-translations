@@ -49,7 +49,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-discussion-templates/v0.7.0/resources/locale/en.yml',
 	],
 	'askvortsov-help-tags' => [
-		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-help-tags/v0.4.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-help-tags/v1.0.0/resources/locale/en.yml',
 	],
 	'askvortsov-markdown-tables' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-markdown-tables/v1.0.1/resources/locale/en.yml',
