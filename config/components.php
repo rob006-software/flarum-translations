@@ -265,7 +265,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/custom-footer/0.4.0/resources/locale/en.yml',
 	],
 	'fof-default-group' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/default-group/0.4.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/default-group/1.0.0/resources/locale/en.yml',
 	],
 	'fof-discussion-language' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/discussion-language/0.4.0/resources/locale/en.yml',
