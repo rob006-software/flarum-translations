@@ -61,7 +61,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-pwa/v3.0.2/resources/locale/en.yml',
 	],
 	'askvortsov-rich-text' => [
-		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-rich-text/v2.0.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-rich-text/v2.0.3/resources/locale/en.yml',
 	],
 	'askvortsov-saml' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-saml/v2.3.0/resources/locale/en.yml',
