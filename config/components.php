@@ -64,7 +64,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-rich-text/v2.0.2/resources/locale/en.yml',
 	],
 	'askvortsov-saml' => [
-		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-saml/v2.2.3/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-saml/v2.3.0/resources/locale/en.yml',
 	],
 	'askvortsov-trust-levels' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-trust-levels/v0.2.1/resources/locale/en.yml',
