@@ -11,8 +11,16 @@
                 "only_option": "Use SAML2 SSO as only login option?",
                 "sync_attributes": "Sync Attributes (Avatar, Groups, Bio, and Profile)? Requires askvortsov/auth-sync extension.",
                 "nameid_format": "NameID Format",
+                "slo": "Enable SLO? If your IDP does not support this, this will do nothing.",
+                "authn_requests_signed": "Sign authn requests?",
+                "logout_request_signed": "Sign logout requests?",
+                "logout_response_signed": "Sign logout responses?",
+                "sign_metadata": "Sign metadata?",
+                "want_assertions_encrypted": "Want Assertions Encrypted?",
                 "want_assertions_signed": "Want Assertions Signed?",
-                "want_messages_signed": "Want Messages Signed?"
+                "want_messages_signed": "Want Messages Signed?",
+                "x509_cert": "x509 Certificate (needed for signing, if enabled)",
+                "x509_key": "x509 Private Key (needed for signing, if enabled)"
             },
             "options": {
                 "nameid_format": {

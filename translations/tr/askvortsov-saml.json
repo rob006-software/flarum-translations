@@ -11,8 +11,16 @@
                 "only_option": "SAML2 SSO giriş seçeneği olarak mı kullanıyorsunuz?",
                 "sync_attributes": "Senkronize işlemi yapılsın mı (Avatar, Gruplar, Biyografi, ve Profil)? askvortsov/auth-sync uzantısı gerektirir.",
                 "nameid_format": "NameID Formatı",
+                "slo": "",
+                "authn_requests_signed": "",
+                "logout_request_signed": "",
+                "logout_response_signed": "",
+                "sign_metadata": "",
+                "want_assertions_encrypted": "",
                 "want_assertions_signed": "Onayların İmzalanmasını İstiyor musunuz?",
-                "want_messages_signed": "Mesajların İmzalanmasını İstiyor musunuz?"
+                "want_messages_signed": "Mesajların İmzalanmasını İstiyor musunuz?",
+                "x509_cert": "",
+                "x509_key": ""
             },
             "options": {
                 "nameid_format": {

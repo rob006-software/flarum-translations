@@ -11,8 +11,16 @@
                 "only_option": "Użyj SAML2 SSO jako jedynej opcji logowania?",
                 "sync_attributes": "Synchronizuj atrybuty (awatar, grupy, opis w profilu oraz pola profilu)? Wymaga rozszerzenia <code>askvortsov/auth-sync</code>.",
                 "nameid_format": "NameID Format",
+                "slo": "",
+                "authn_requests_signed": "",
+                "logout_request_signed": "",
+                "logout_response_signed": "",
+                "sign_metadata": "",
+                "want_assertions_encrypted": "",
                 "want_assertions_signed": "Czy asercje powinny być podpisane?",
-                "want_messages_signed": "Czy wiadomości powinny być podpisane?"
+                "want_messages_signed": "Czy wiadomości powinny być podpisane?",
+                "x509_cert": "",
+                "x509_key": ""
             },
             "options": {
                 "nameid_format": {
