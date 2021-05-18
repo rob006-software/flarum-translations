@@ -463,7 +463,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-socialcards/0.1.1/resources/locale/en.yml',
 	],
 	'justoverclock-toastme' => [
-		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-toastme/0.1.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-toastme/0.1.1/resources/locale/en.yml',
 	],
 	'justoverclock-welcomebox' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-welcomebox/1.1.7/resources/locale/en.yml',
