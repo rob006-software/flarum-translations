@@ -5,7 +5,47 @@
                 "toggle_on_editor": "Düzenleyicide zengin metin moduna geçiş gösterilsin mi?"
             }
         },
+        "lib": {
+            "composer": {
+                "toggle_button": "",
+                "insert_button": "",
+                "insert_image": {
+                    "src_placeholder": "",
+                    "title_placeholder": ""
+                },
+                "insert_link": {
+                    "text_placeholder": "",
+                    "href_placeholder": "",
+                    "title_placeholder": "",
+                    "remove_button": ""
+                },
+                "additional_items_tooltip": "",
+                "bold_tooltip": "",
+                "code_tooltip": "",
+                "code_block_tooltip": "",
+                "header_tooltip": "",
+                "horizontal_rule_tooltip": "",
+                "image_tooltip": "",
+                "italic_tooltip": "",
+                "link_tooltip": "",
+                "ordered_list_tooltip": "",
+                "paragraph_tooltip": "",
+                "quote_tooltip": "",
+                "spoiler_block_tooltip": "",
+                "spoiler_inline_tooltip": "",
+                "strike_tooltip": "",
+                "sub_tooltip": "",
+                "sup_tooltip": "",
+                "text_type_tooltip": "",
+                "unordered_list_tooltip": ""
+            }
+        },
         "forum": {
+            "settings": {
+                "composer_heading": "Düzenleyici",
+                "use_rich_text_editor_label": "Zengin metin editörünü kullan?",
+                "rich_text_compact_paragraphs_label": "Paragrafları yeni satır ile ayırma."
+            },
             "composer": {
                 "toggle_button": "Zengin Metin Moduna Geç",
                 "insert_button": "Ekle",
@@ -38,11 +78,6 @@
                 "sup_tooltip": "Üst simge <{modifierKey}-.>",
                 "text_type_tooltip": "Metin Türü Seçin",
                 "unordered_list_tooltip": "Madde liste <shift-{modifierKey}-8>"
-            },
-            "settings": {
-                "composer_heading": "Düzenleyici",
-                "use_rich_text_editor_label": "Zengin metin editörünü kullan?",
-                "rich_text_compact_paragraphs_label": "Paragrafları yeni satır ile ayırma."
             }
         }
     }
