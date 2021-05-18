@@ -22,6 +22,10 @@
                     "heading": "Konserwacja",
                     "debug_label": "Włączyć tryb debug? Informacje o powiadomieniach będą zapisywane w `storage/logs`."
                 },
+                "other": {
+                    "heading": "",
+                    "force_portrait_text": ""
+                },
                 "heading": "Konfiguracja Progressive Web App",
                 "text": "Skonfiguruj swoje Flarum, aby działało jako Progressive Web App! Zauważ, że nie umieści to Twojej aplikacji w App Store. Zamiast tego przeglądarka udostępni opcję \"Dodaj do ekranu głównego\". Rozszerzenie zapewnia podstawowe sprawdzenie konfiguracji, ale najlepszym sposobem na przetestowanie go jest instalacja i sprawdzenie czy działa (instrukcję instalacji Progressive Web App można znaleźć w Google). Miej na uwadze, że popup \"zainstaluj jako PWA\" jest kontrolowany przez przeglądarkę i nie może być wywołany przez developera/administratora/aplikację. Zalecane jest udostępnienie instrukcji jak zainstalować PWA na Twojej stronie.",
                 "status_check_heading": "Status",
@@ -36,8 +40,10 @@
                 "possible_https_disabled": "Twoja strona może nie korzystać z HTTPS. Jeśli korzysta z HTTPS, zignoruj to ostrzeżenie. Jeśli nie, miej na uwadze, że HTTPS jest wymagany do działania Progressive Web App.",
                 "no_logo": "Aby Twoja aplikacja działała, musisz wysłać co najmniej jedno logo o minimalnych wymiarach 196px na 196px.",
                 "no_name": "Aby Twoja aplikacja działała, musisz podać jej pełną nazwę.",
-                "push_needs_gmp_and_web_push": "Rozszerzenie <code>gmp</code> oraz biblioteka <code>minishlink/web-push</code> (<code>composer require minishlink/web-push</code>) MUSZĄ być włączone, aby powiadomienia push działały.",
-                "success": "Nie wyryto żadnych potencjalnych problemów!"
+                "key_gen_failed": "",
+                "suggest_gmp": "",
+                "success": "Nie wyryto żadnych potencjalnych problemów!",
+                "push_needs_gmp_and_web_push": "Rozszerzenie <code>gmp</code> oraz biblioteka <code>minishlink/web-push</code> (<code>composer require minishlink/web-push</code>) MUSZĄ być włączone, aby powiadomienia push działały."
             }
         },
         "forum": {
