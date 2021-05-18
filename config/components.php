@@ -598,7 +598,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-github-milestone/v0.1.1/locale/en.yml',
 	],
 	'sycho-profile-cover' => [
-		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-profile-cover/v1.2.4/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-profile-cover/v1.3.0/resources/locale/en.yml',
 	],
 	'tank-perspective' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum-tank/flarum-perspective/0.1.14/resources/locale/en.yml',
