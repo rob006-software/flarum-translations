@@ -52,7 +52,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-help-tags/v1.0.0/resources/locale/en.yml',
 	],
 	'askvortsov-markdown-tables' => [
-		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-markdown-tables/v1.1.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-markdown-tables/v1.2.1/resources/locale/en.yml',
 	],
 	'askvortsov-moderator-warnings' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-moderator-warnings/v0.6.0/resources/locale/en.yml',
