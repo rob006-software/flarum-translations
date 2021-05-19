@@ -459,6 +459,9 @@ return [
 	'justoverclock-pwgen' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-pwgen/0.1.1/resources/locale/en.yml',
 	],
+	'justoverclock-realtimecode' => [
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-realtimecode/0.1.1/resources/locale/en.yml',
+	],
 	'justoverclock-socialcards' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-socialcards/0.1.1/resources/locale/en.yml',
 	],
