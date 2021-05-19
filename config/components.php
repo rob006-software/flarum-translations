@@ -132,6 +132,9 @@ return [
 	'clarkwinkelmann-post-permissions' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-post-permissions/0.1.1/resources/locale/en.yml',
 	],
+	'clarkwinkelmann-predefined-avatars' => [
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-predefined-avatars/0.1.0/resources/locale/en.yml',
+	],
 	'clarkwinkelmann-quiz-polls' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-quiz-polls/0.1.0/resources/locale/en.yml',
 	],
