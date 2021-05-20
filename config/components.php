@@ -391,7 +391,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/stopforumspam/0.5.0/locale/en.yml',
 	],
 	'fof-subscribed' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/subscribed/0.5.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/subscribed/1.0.0/resources/locale/en.yml',
 	],
 	'fof-terms' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/terms/0.6.2/resources/locale/en.yml',
