@@ -2,32 +2,32 @@
     "clarkwinkelmann-predefined-avatars": {
         "admin": {
             "settings": {
-                "predefinedAvatarsOnly": "",
-                "predefinedAvatarsOnlyHelp": "",
-                "predefinedAvatarsNoRemove": "",
-                "predefinedAvatarsNoRemoveHelp": "",
-                "predefinedAvatarsDefault": "",
-                "predefinedAvatarsDefaultHelp": "",
-                "predefinedAvatars": "",
-                "predefinedAvatarsHelp": "",
+                "predefinedAvatarsOnly": "Yalnızca önceden tanımlanmış avatarlara izin ver",
+                "predefinedAvatarsOnlyHelp": "Aşağıdaki izin, özel avatar yükleme özelliğini kaldırır.",
+                "predefinedAvatarsNoRemove": "Avatar belirlemeyi önle",
+                "predefinedAvatarsNoRemoveHelp": "Halihazırda özel veya önceden tanımlanmış bir avatarı olan kullanıcılar, aşağıdaki izine sahip olmadıkları sürece varsayılan \"baş harfleri\" avatarına geri dönemezler.",
+                "predefinedAvatarsDefault": "Varsayılan Avatar",
+                "predefinedAvatarsDefaultHelp": "Kayıt sırasında yeni kullanıcılar için geçerlidir.",
+                "predefinedAvatars": "Mevcut avatarlar",
+                "predefinedAvatarsHelp": "Dosyalar yeniden boyutlandırılmaz veya dönüştürülmez. Yüklemeden önce bunları seçtiğiniz formatta yeniden boyutlandırdığınızdan, sıkıştırdığınızdan ve dışa aktardığınızdan emin olun. Flarum en iyi kare 100x100 png veya jpg resimlerle çalışır, ancak özel CSS ile diğer çözünürlüklerden yararlanabilirsiniz.\n",
                 "defaultOptions": {
-                    "none": "",
-                    "first": "",
-                    "random": ""
+                    "none": "Avatar yok",
+                    "first": "Listedeki ilk avatar",
+                    "random": "Listeden rastgele avatar"
                 }
             },
             "permissions": {
-                "setPredefinedAvatar": "",
-                "setCustomAvatarAlways": ""
+                "setPredefinedAvatar": "Önceden tanımlanmış listeden bir avatar seç",
+                "setCustomAvatarAlways": "İstediğin zaman özel bir avatar belirle"
             }
         },
         "forum": {
             "modal": {
-                "title": "",
-                "imageAlt": ""
+                "title": "Bir avatar seç",
+                "imageAlt": "Avatar"
             },
             "editor": {
-                "setPredefinedAvatar": ""
+                "setPredefinedAvatar": "Önceden tanımlanmış bir avatar seç"
             }
         }
     }
