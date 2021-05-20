@@ -4,6 +4,15 @@
             "permissions": {
                 "view_tag_label": "View Tag"
             }
+        },
+        "forum": {
+            "discussion_controls": {
+                "show_to_all_button": "Show to all who can post here.",
+                "unshow_to_all_button": "Only show to those who can viewForum"
+            },
+            "badge": {
+                "show_to_all_tooltip": "This discussion is visible to all users who can post in its tags."
+            }
         }
     }
 }
