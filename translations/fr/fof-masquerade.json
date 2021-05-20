@@ -3,7 +3,7 @@
         "forum": {
             "alerts": {
                 "profile-completion-required": "Veuillez compléter les champs de profil nécessaires ci-dessous.\n",
-                "profile-completed": ""
+                "profile-completed": "Profil terminé ! <a>Accéder à la page d’accueil</a>"
             },
             "buttons": {
                 "view-profile": "Voir le profil",
@@ -21,7 +21,7 @@
             }
         },
         "admin": {
-            "general-options": "Principales options",
+            "general-options": "Options générales",
             "buttons": {
                 "add-field": "Créer un champ",
                 "edit-field": "Sauvegarder les modifications",
@@ -43,7 +43,7 @@
                 "on_bio": "Afficher la réponse à ce champ dans la biographie de l’utilisateur",
                 "type": "Type",
                 "validation": "Validation",
-                "validation-help": "Consultez les <a>règles de validation Laravel</a> supportées. Ex.: \"string|min:5\" ou \"url\".\n",
+                "validation-help": "Consultez les <a>règles de validation Laravel</a> supportées. Ex. : \"string|min :5\" ou \"url\".\n",
                 "prefix": "Préfixe de champ",
                 "prefix-help": "Affiche votre préfixe devant les valeurs entrées par l’utilisateur pour ce champ.\n",
                 "icon": "Icône",
@@ -51,16 +51,16 @@
                 "force-user-to-completion": "Forcer l’utilisateur à compléter son profil",
                 "options": "Options",
                 "option-new": "Nouvelle option",
-                "option-comma-warning": "",
+                "option-comma-warning": "L’étiquette d'une option ne peut contenir aucune virgule (\",\").",
                 "disable-user-bio": "Désactiver le champ biographie de l’utilisateur",
                 "option-coma-warning": "L’étiquette d’une option ne peut contenir aucune virgule (\",\")."
             },
             "types": {
                 "advanced": "Avancées",
                 "boolean": "Case à cocher",
-                "email": "Email",
+                "email": "E-mail",
                 "select": "Menu déroulant",
-                "url": "Url"
+                "url": "Lien"
             },
             "menu": {
                 "description": "Configurer les champs de profil utilisateur.\n"
