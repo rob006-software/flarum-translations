@@ -72,6 +72,12 @@
                     "no_browser_support_button": "Learn More"
                 }
             }
+        },
+        "views": {
+            "offline": {
+                "header": "Network connection error",
+                "text": "This app requires a network connection; it cannot be used offline. Please check your connection."
+            }
         }
     }
 }
