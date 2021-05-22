@@ -511,7 +511,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/luuhai48/oauth-linkedin/v2.0/resources/locale/en.yml',
 	],
 	'maicol07-sso' => [
-		'tag' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/1.9/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/1.10/locale/en.yml',
 	],
 	'malago-achievements' => [
 		'tag' => 'https://raw.githubusercontent.com/malago86/flarum-achievements/0.2.8/locale/en.yml',
