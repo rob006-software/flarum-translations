@@ -355,7 +355,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pretty-mail/0.4.0/resources/locale/en.yml',
 	],
 	'fof-prevent-necrobumping' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/prevent-necrobumping/0.5.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/prevent-necrobumping/1.0.0/resources/locale/en.yml',
 	],
 	'fof-pwned-passwords' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pwned-passwords/0.7.0/locale/en.yml',
