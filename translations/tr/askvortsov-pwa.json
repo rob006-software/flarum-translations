@@ -38,11 +38,11 @@
             },
             "status": {
                 "config_no_https": "Config.php dosyanızdaki bağlantı HTTPS kullanmıyor. Progressive Web Uygulamalarının çalışması için HTTPS gereklidir.",
-                "possible_https_disabled": "Your site might not be running on HTTPS. If it is, ignore this. If it isn't keep in mind that HTTPS is required for Progressive Web Apps to work.",
+                "possible_https_disabled": "Siteniz HTTPS üzerinde çalışmıyor olabilir.. Önbelleği temizlemek (Yönetim > Araçlar butonu) yardımcı olacaktır. Eğer HTTPS üzerinde çalışıyorsa bu uyarıyı görmezden gelin. İleri Web Uygulamasının çalışması için HTTPS kullanmanız gerektiğini unutmayın.",
                 "no_logo": "You must upload at least one logo for your app to work.",
                 "no_name": "You must provide a full name for your app to work.",
-                "key_gen_failed": "",
-                "suggest_gmp": "",
+                "key_gen_failed": "Anlık bildirimler için gerekli anahtarların oluşturulması başarısız oldu. Tam hata mesajı: {error}",
+                "suggest_gmp": "Gmp PHP uzantısı sunucunuzda etkin görünmüyor. Kesinlikle gerekli değil, ancak performansı artırabilir ve önerilir. Paylaşılan sunucu kullanıyorsanız desteklemeyebilir.",
                 "success": "Potansiyel hata mevcut değil!",
                 "push_needs_gmp_and_web_push": "Gmp PHP uzantısı ve minishlink/web-push kitaplığı (düzenleyici minishlink/web-push gerektirir) push bildirimlerinin çalışması için etkinleştirilmesi ZORUNLUDUR.",
                 "disabled": "İleri Web Uygulamasını aktifleştirmelisiniz.",
@@ -83,8 +83,8 @@
         },
         "views": {
             "offline": {
-                "header": "",
-                "text": ""
+                "header": "Ağ bağlantı hatası",
+                "text": "Bu uygulama ağ bağlantısı gerektirir; çevrimdışı olarak kullanılamaz. Lütfen bağlantınızı kontrol edin."
             }
         }
     }
