@@ -154,67 +154,67 @@
                 "convert_to_ticket": {
                     "button": "Bilete dönüştür",
                     "confirm": "Bu tartışmayı bir bilete dönüştürmek istediğinizden emin misiniz?",
-                    "event": ""
+                    "event": "{ticket_title} tartışması bilete dönüştürüldü"
                 },
                 "status": {
                     "new": {
-                        "title": "",
-                        "description": ""
+                        "title": "Yeni",
+                        "description": "Bu yeni bir yanıtlanmamış bilettir"
                     },
                     "open": {
-                        "title": "",
-                        "description": ""
+                        "title": "Açık",
+                        "description": "Bu biletin yeni bir yanıtı var ve yanıtınızı bekliyor."
                     },
                     "pending": {
-                        "title": "",
-                        "description": "",
-                        "description_user": ""
+                        "title": "Bekliyor",
+                        "description": "Bu bilet, kullanıcıdan yanıt bekliyor.",
+                        "description_user": "Bu bileti yanıtlamanızı veya çözüldü olarak işaretlemenizi bekliyoruz."
                     },
                     "closed": {
-                        "title": "",
-                        "description": "",
-                        "is_closed": "",
-                        "close_after_posting": "",
-                        "is_auto_closed": ""
+                        "title": "Kapandı",
+                        "description": "Bu bilet kapandı.",
+                        "is_closed": "Bu bilet kapandı, yanıtladığınızda yeniden açılacaktır. Yalnızca sorun çözülmediğinde bir bileti yeniden açmanızı öneririz. Yeni bir sorun ise lütfen yeni bir destek talebi açın.",
+                        "close_after_posting": "Gönderdikten sonra bileti kapat",
+                        "is_auto_closed": "Etkinlik olmaması nedeniyle bu bilet kapandı."
                     },
                     "on_hold": {
-                        "title": "",
-                        "description": ""
+                        "title": "Beklemede",
+                        "description": "Bu bilet beklemeye alındı."
                     },
                     "duplicate": {
-                        "title": "",
-                        "description": ""
+                        "title": "Çoğalt",
+                        "description": "Bu bilet çoğaltılmış olarak işaretlendi."
                     },
                     "solved": {
-                        "title": "",
-                        "description": "",
-                        "mark_as_solved": ""
+                        "title": "Çözüldü",
+                        "description": "Bu bilet çözüldü olarak işaretlendi",
+                        "mark_as_solved": "Bu bileti çözüldü olarak işaretle"
                     }
                 },
                 "tools": {
-                    "view_ticket": "",
-                    "update_subject": "",
-                    "assign_me": "",
-                    "remove_me": "",
-                    "update_status": "",
-                    "close_ticket": ""
+                    "view_ticket": "Bileti göster",
+                    "update_subject": "Konuyu güncelle",
+                    "assign_me": "Bana ata",
+                    "remove_me": "Beni sil",
+                    "update_status": "Bilet durumunu güncelle",
+                    "close_ticket": "Bileti kapat"
                 },
                 "new_tickets_dropdown": {
-                    "title": "",
-                    "no_tickets": "",
-                    "ticket_new": "",
-                    "ticket_updated": ""
+                    "title": "Bilet Bildirimleri",
+                    "no_tickets": "Bilet bildirimi yok",
+                    "ticket_new": "{username}, {ticket} biletini oluşturdu",
+                    "ticket_updated": "{username}, {ticket} biletine gönderi yazdı"
                 },
                 "fields": {
                     "language": {
-                        "title": "",
-                        "placeholder": "",
-                        "empty": "",
-                        "description": ""
+                        "title": "Dil",
+                        "placeholder": "Dil seç",
+                        "empty": "Dil tespit edilmedi",
+                        "description": "Destek biletiniz {language} olarak ele alınacaktır."
                     },
                     "subject": {
-                        "title": "",
-                        "placeholder": "",
+                        "title": "Konu",
+                        "placeholder": "Bilet konusu",
                         "description": ""
                     },
                     "information": {
