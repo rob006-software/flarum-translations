@@ -12,7 +12,7 @@
             "discard": "İptal",
             "reopen": "tekrar aç",
             "support_tickets": "Destek biletleri",
-            "admin_overview": "",
+            "admin_overview": "Yönetici genel bakışını aç",
             "hero": {
                 "help_question": "Sana nasıl yardımcı olabiliriz?",
                 "check_forum": "Aradığını bulamıyorsan <a>foruma göz atabilirsin</a>"
@@ -79,7 +79,7 @@
                 }
             },
             "support_ratings": {
-                "score": "",
+                "score": "Derece",
                 "helful_article": "Bu makale yararlı oldu mu?",
                 "helful_support": "Destek talebinize yaklaşımımızdan memnun kaldınız mı?",
                 "feedback": "Değerlendirmeniz için teşekkürler, herhangi bir geri bildiriminiz var mı?",
@@ -95,8 +95,8 @@
                     "missing_article_id": "Kayıp veya var olmayan makale ID'si"
                 },
                 "switch_sort_score": {
-                    "label": "",
-                    "description": ""
+                    "label": "Düşükten yükseğe doğru puan alan makaleleri göster",
+                    "description": "Yalnızca geri bildirim alan makaleleri en düşük puanlı makaleye göre sıralayarak gösterin."
                 }
             },
             "modals": {
@@ -145,15 +145,15 @@
             "tickets": {
                 "ticket": "Bilet",
                 "subject": "Konu",
-                "ticket_does_not_exist": "",
-                "return_to_overview": "",
-                "ticket_overview": "",
-                "opened_on": "",
-                "ticket_activity": "",
-                "reminders_sent": "",
+                "ticket_does_not_exist": "İstenen destek bileti mevcut değil.",
+                "return_to_overview": "Bilete genel bakışa dön",
+                "ticket_overview": "Bilet genel bakışı",
+                "opened_on": "Açıldı",
+                "ticket_activity": "{username} tarafından son eylem {date}",
+                "reminders_sent": "Bir hatırlatıcı gönderildi|{count} hatırlatıcı gönderildi",
                 "convert_to_ticket": {
-                    "button": "",
-                    "confirm": "",
+                    "button": "Bilete dönüştür",
+                    "confirm": "Bu tartışmayı bir bilete dönüştürmek istediğinizden emin misiniz?",
                     "event": ""
                 },
                 "status": {
