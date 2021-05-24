@@ -131,22 +131,22 @@
                             "created": "{creatorname}, {chatname} kanalını oluşturdu"
                         },
                         "title": {
-                            "edited": ""
+                            "edited": "{editorname}, {old} başlıklı sohbeti {new} olarak değiştirdi"
                         },
                         "icon": {
-                            "edited": ""
+                            "edited": "{editorname}, {old} simgeli sohbeti {new} olarak değiştirdi"
                         },
                         "color": {
-                            "edited": ""
+                            "edited": "{editorname}, {old} renkli sohbeti {new} olarak değiştirdi"
                         },
                         "users": {
-                            "invited": "",
-                            "kicked": "",
-                            "invited_kicked": ""
+                            "invited": "{editorname, {usernames} davet etti",
+                            "kicked": "{editorname, {usernames} attı",
+                            "invited_kicked": "{editorname}, {invitednames} davet etti ve  {kickednames} attı"
                         },
                         "self": {
-                            "leaved": "",
-                            "entered": ""
+                            "leaved": "{username} sohbetten ayrıldı",
+                            "entered": "{username} sohbete katıldı"
                         }
                     }
                 }
@@ -159,7 +159,7 @@
         },
         "admin": {
             "permissions": {
-                "post": "",
+                "post": "Sohbet mesajı gönder",
                 "edit": "Sohbet mesajlarını düzenleme",
                 "delete": "Sohbet mesajlarını silme",
                 "enabled": "Sohbeti etkinleştirme",
@@ -177,13 +177,13 @@
                 "charlimit": "Mesaj karakterlerindeki üst sınır",
                 "floodgate": {
                     "title": "Tekrar karşıtı",
-                    "number": "",
-                    "time": ""
+                    "number": "Peş peşe gönderilecek mesaj sayısı",
+                    "time": "Bir dönem boyunca"
                 },
                 "display": {
-                    "title": "",
-                    "minimize": "",
-                    "censor": ""
+                    "title": "Göster",
+                    "minimize": "Başlangıçta küçült",
+                    "censor": "Yetkisiz kullanıcılar için mesajları sansürle"
                 }
             }
         }
