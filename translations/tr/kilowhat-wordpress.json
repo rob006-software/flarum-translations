@@ -23,23 +23,23 @@
                 "force_username_choice_help": "",
                 "welcome_message": "",
                 "welcome_message_help": "",
-                "wordpress_login_only": "",
+                "wordpress_login_only": "Yalnızca WordPress ile girişe izin ver",
                 "wordpress_login_only_help": "",
                 "user_delete": "",
                 "user_delete_options": {
                     "ignore": "",
-                    "delete": "",
+                    "delete": "Flarum kullanıcısını sil",
                     "suspend": ""
                 },
                 "user_delete_desc": "",
                 "section_comments_intro": "",
-                "enable_comments": "",
+                "enable_comments": "Yorum entegrasyonunu etkinleştir",
                 "excerpt_html_whitelist": "",
                 "excerpt_html_nodes": "",
                 "excerpt_length": "",
                 "comment_tag": "",
                 "comment_tag_none": "",
-                "comment_tag_custom": "",
+                "comment_tag_custom": "Özel değerler",
                 "comment_tag_custom_help": "",
                 "summary_as_last_post": "",
                 "summary_as_last_post_help": "",
@@ -48,23 +48,23 @@
                 "post_hide": "",
                 "post_hide_options": {
                     "ignore": "",
-                    "lock": "",
-                    "hide": "",
-                    "delete": ""
+                    "lock": "Flarum'da tartışmayı kilitle",
+                    "hide": "Flarum'da tartışmayı gizle",
+                    "delete": "Flarum'da tartışmayı kalıcı olarak sil"
                 },
                 "post_delete": "",
                 "post_delete_options": {
                     "ignore": "",
-                    "lock": "",
-                    "hide": "",
-                    "delete": ""
+                    "lock": "Flarum tartışmasını tut ve kilitle",
+                    "hide": "Flarum'da tartışmayı gizle",
+                    "delete": "Flarum'da tartışmayı kalıcı olarak sil"
                 }
             },
             "tabs": {
-                "wizard": "",
-                "general": "",
-                "sso": "",
-                "comments": "",
+                "wizard": "Kurulum sihirbazı",
+                "general": "Genel Ayarlar",
+                "sso": "SSO Entegrasyonu",
+                "comments": "Yorum Entegrasyonu",
                 "enabled": "Etkinleştirildi",
                 "disabled": "Etkisizleştirildi"
             },
@@ -81,16 +81,16 @@
             },
             "save-controls": {
                 "validation-errors": "",
-                "unsaved-changes": "",
-                "saved-at": "",
-                "no-unsaved-changes": "",
-                "save": ""
+                "unsaved-changes": "Kaydedilmeyen değişiklikler var",
+                "saved-at": "{ago} kaydedildi",
+                "no-unsaved-changes": "Her şey kaydedildi",
+                "save": "Kaydet"
             },
             "health": {
-                "title": "",
-                "check": "",
-                "errors": "",
-                "healthy": "",
+                "title": "Sağlık kontrolü",
+                "check": "Şimdi kontrol et",
+                "errors": "Bazı sorumlar bulduk.",
+                "healthy": "Her şey harika görünüyor!",
                 "not-run": "",
                 "request-error": ""
             },
@@ -101,7 +101,7 @@
                 "wordpress_username": "",
                 "wordpress_password": "",
                 "wordpress_password_help": "",
-                "install": ""
+                "install": "Kur"
             },
             "menu": {
                 "title": "",
@@ -116,11 +116,11 @@
         },
         "forum": {
             "welcome-modal": {
-                "title": "",
-                "default_message": "",
-                "username": "",
-                "submit": "",
-                "not_now": ""
+                "title": "Hoşgeldin!",
+                "default_message": "Forum'a hoşgeldin. Bir kullanıcı adı belirle ve kullanmaya başla!",
+                "username": "Kullanıcı adı seç",
+                "submit": "Forum hesabını etkinleştir",
+                "not_now": "Atla ve ziyareti olarak okumaya devam et"
             },
             "edit-user-modal": {
                 "warning": "",
@@ -133,25 +133,25 @@
                 "edit_on_wordpress": ""
             },
             "log_in": {
-                "with_wordpress_button": ""
+                "with_wordpress_button": "WordPress ile Giriş Yap"
             },
             "summary-post": {
-                "head_label": "",
-                "blog_link": "",
-                "read_more": ""
+                "head_label": "WordPress Gönderisi",
+                "blog_link": "Blog'da oku",
+                "read_more": "Devamını oku"
             },
             "embed": {
-                "title": ""
+                "title": "Yorumlar"
             }
         },
         "api": {
             "blocked_actions": {
-                "login": "",
-                "password_reset": "",
-                "email_change": ""
+                "login": "Bu hesap WordPress ile ilişkikendirildi. Bağlanmak için ana siteden giriş yap.",
+                "password_reset": "Bu hesap WordPress ile ilişkilendirildi. Şifreyi sıfırlamak için ana siteyi kullan.",
+                "email_change": "Bu hesap WordPress ile ilişkilendirildi. Elektronik postanı değiştirmek için ana siteyi kullan."
             },
             "wizard": {
-                "already_installed": "",
+                "already_installed": "Flarum zaten WordPress'e bağlı. Sihirbazı tekrar çalıştırın, Flarum'daki \"WordPress Bağlantısını\" ve WordPress'teki \"Flarum API Anahtarını\" silin.\n",
                 "api_unauthorized": "",
                 "api_error_get": "",
                 "api_error_post": "",
