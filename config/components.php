@@ -594,6 +594,9 @@ return [
 	'squeevee-fancybox' => [
 		'tag' => 'https://raw.githubusercontent.com/squeevee/flarum-ext-fancybox/0.2-beta/locale/en.yml',
 	],
+	'subasteve-action-log' => [
+		'tag' => 'https://raw.githubusercontent.com/subasteve/flarum-action-log/v0.1.4/resources/locale/en.yml',
+	],
 	'sycho-action-log' => [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-action-log/v0.1.3/resources/locale/en.yml',
 	],
