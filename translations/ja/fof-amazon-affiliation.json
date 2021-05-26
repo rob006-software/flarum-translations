@@ -4,11 +4,13 @@
             "settings": {
                 "title": {
                     "modal": "Amazon アフィリエイト設定",
-                    "tags": "アライアンスタグ"
+                    "tags": "アライアンスタグ",
+                    "tags-mediaembed": ""
                 },
                 "field": {
                     "keep-existing-tag": "アフィリエイトラベルを元のリンクに保持する",
                     "keep-existing-tag-help": "元のリンクのタグをデフォルトで以下で定義されているタグに置き換えます",
+                    "help-mediaembed": "",
                     "remove-tag-if-unhandled": "覆われていない Amazon アフィリエイトタグを削除する",
                     "remove-tag-if-unhandled-help": "リンクでカバーされていない Amazon アフィリエイトタグはデフォルトで保持されます。",
                     "tag": "{name} (amazon.{domain})",

@@ -4,11 +4,13 @@
             "settings": {
                 "title": {
                     "modal": "Amazon Satış Ortağı Ayarları",
-                    "tags": "Ortaklık Etiketleri"
+                    "tags": "Ortaklık Etiketleri",
+                    "tags-mediaembed": ""
                 },
                 "field": {
                     "keep-existing-tag": "Amazon Satış Ortaklığı Etiketlerini değiştirmek yerine orijinal bağlantılardan uzak tutun",
                     "keep-existing-tag-help": "Varsayılan olarak, asıl bağlantıda bulunan herhangi bir etiket aşağıda tanımladığınız etiketle değiştirilir.",
+                    "help-mediaembed": "",
                     "remove-tag-if-unhandled": "Kapsanmayan Amazon bağlantılarındaki Amazon Satış Ortaklığı Etiketlerini kaldırın",
                     "remove-tag-if-unhandled-help": "Varsayılan olarak, kapsanmayan bağlantılar varsa etiketleri de dahil olmak üzere bırakılır.",
                     "tag": "{name} (amazon.{domain})",

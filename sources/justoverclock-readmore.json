@@ -1,8 +1,13 @@
 {
     "flarum-ext-readmore": {
+        "forum": {
+            "readmore": "Read More..."
+        },
         "admin": {
             "charlenght": "Character Lenght",
-            "charlenghtdesc": "Set the number of characters beyond which to insert the \"read more\" link"
+            "charlenghtdesc": "Set the number of characters beyond which to insert the \"read more\" link",
+            "AlsoPost": "Enable Excerpt for PostStream",
+            "AlsoPostdesc": "This will allow extension to work with all of your Flarum post (not only on Profile Page)"
         }
     }
 }
