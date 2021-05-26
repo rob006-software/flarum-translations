@@ -394,7 +394,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/subscribed/1.0.0/resources/locale/en.yml',
 	],
 	'fof-terms' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/terms/0.6.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/terms/1.0.0/resources/locale/en.yml',
 	],
 	'fof-transliterator' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/transliterator/0.3.0/locale/en.yml',
