@@ -51,8 +51,8 @@
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
-                "choose_primary_placeholder": "Scegli una etichetta primaria|Scegli {count} etichette primarie",
-                "choose_secondary_placeholder": "Scegli 1 etichetta in più|Scegli {count} etichette in più",
+                "choose_primary_placeholder": "{count, plural, one {Scegli una categoria primaria} other {Scegli # categorie primarie}}",
+                "choose_secondary_placeholder": "{count, plural, one {Scegli ancora un Tag} other {Scegli # più tag}}",
                 "edit_title": "Modifica etichette per {title}",
                 "submit_button": "=> core.ref.okay",
                 "title": "Scegli le etichette per la tua discussione"
@@ -75,7 +75,7 @@
                 "added_and_removed_tags_text": "{username} ha aggiunto {tagsAdded} e rimosso {tagsRemoved}.",
                 "added_tags_text": "{username} ha aggiunto {tagsAdded}.",
                 "removed_tags_text": "{username} ha rimosso {tagsRemoved}.",
-                "tags_text": "l'etichetta {tags}|le etichette {tags}"
+                "tags_text": "{count, plural, one {{tags} tag} other {{tags} tag}}"
             },
             "tag": {
                 "meta_description_text": "Tutte le discussioni con il tag {tag}"
