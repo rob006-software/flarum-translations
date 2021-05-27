@@ -18,8 +18,7 @@
                 "watermark": "写真をアップロードするときに透かしを添付するかどうかを選択します。 次の設定に従って、非GIF画像に透かしが追加されます。\n",
                 "s3_compatible_storage": "",
                 "s3_acl": "",
-                "composer_buttons": "",
-                "description": "ファイルアップロードサービスの設定を調整する\n"
+                "composer_buttons": ""
             },
             "labels": {
                 "aws-s3": {
@@ -63,8 +62,7 @@
                 "resize": {
                     "max_width": "最大画像幅",
                     "title": "画像のサイズを変更する",
-                    "toggle": "開く",
-                    "max_height": "最大画像高さ"
+                    "toggle": "開く"
                 },
                 "client_extension": {
                     "title": ""
@@ -82,14 +80,6 @@
                         "upload-btn": "",
                         "media-btn": ""
                     }
-                },
-                "ovh-svfs": {
-                    "title": "OVH SVFS ストア設定",
-                    "container": "コンテナ",
-                    "tenantid": "テナントID",
-                    "username": "ユーザー名",
-                    "password": "パスワード",
-                    "region": "地域"
                 }
             },
             "permissions": {
@@ -145,8 +135,7 @@
             "states": {
                 "error": "間違った",
                 "loading": "読み込み中",
-                "unauthorized": "ダウンロードする権限がありません",
-                "success": "成功"
+                "unauthorized": "ダウンロードする権限がありません"
             }
         },
         "api": {

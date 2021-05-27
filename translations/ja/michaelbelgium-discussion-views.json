@@ -35,34 +35,5 @@
                 "show_viewlist_label": ""
             }
         }
-    },
-    "flarum_discussion_views": {
-        "forum": {
-            "modal_resetviews": {
-                "title": "閲覧回数をリセット",
-                "submit": "保存",
-                "label": "これにより、このディスカッションの{count}閲覧回数をクリアします。続行してもよろしいですか？"
-            },
-            "discussion_controls": {
-                "resetviews_button": "閲覧回数をリセット"
-            },
-            "viewlist": {
-                "title": "最新の閲覧者"
-            }
-        },
-        "admin": {
-            "permissions": {
-                "can_reset_views": "閲覧回数をリセット",
-                "can_view_number": "閲覧回数を見る"
-            },
-            "settings": {
-                "title": "閲覧回数設定",
-                "track_unique": "UVを追跡",
-                "abbr_numbers": "閲覧回数を略する",
-                "show_filter": "並べ替え方法を追加（閲覧最多/閲覧最少）",
-                "max_viewcount": "閲覧者リストの人数の上限",
-                "show_viewlist": "閲覧者リストを表示"
-            }
-        }
     }
 }

@@ -21,8 +21,7 @@
                 "favicon_text": "ショートカットアイコン用の画像をアップロード",
                 "logo_heading": "ロゴ",
                 "logo_text": "タイトル用の画像をアップロード",
-                "title": "",
-                "submit_button": "=> core.ref.save_changes"
+                "title": ""
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -40,9 +39,7 @@
                 "slug_driver_text": "",
                 "title": "",
                 "welcome_banner_heading": "ウェルカムバナー",
-                "welcome_banner_text": "フォーラムにやってきたユーザーにウェルカムを表示しましょう。「全てのスレッド」のページにこの文が出力されます。",
-                "saved_message": "変更が保存されました。",
-                "submit_button": "=> core.ref.save_changes"
+                "welcome_banner_text": "フォーラムにやってきたユーザーにウェルカムを表示しましょう。「全てのスレッド」のページにこの文が出力されます。"
             },
             "dashboard": {
                 "clear_cache_button": "キャッシュをクリア",
@@ -99,16 +96,7 @@
                 "send_test_mail_success": "テストメールの送信に成功しました！",
                 "send_test_mail_text": "",
                 "smtp_heading": "SMTP 設定",
-                "title": "",
-                "submit_button": "=> core.ref.save_changes",
-                "heading": "=> core.ref.email",
-                "text": "メール送信用のSMTP情報を設定します。",
-                "mail_mandrill_secret_label": "Secret key",
-                "mail_ses_key_label": "Key",
-                "mail_ses_region_label": "地域",
-                "mail_ses_secret_label": "Secret",
-                "mandrill_heading": "Mandrill 設定",
-                "ses_heading": "SES 設定"
+                "title": ""
             },
             "extension": {
                 "configure_scopes": "",
@@ -128,8 +116,7 @@
                 "no_settings": "",
                 "open_modal": "",
                 "permissions_title": "",
-                "uninstall_button": "",
-                "saved_message": ""
+                "uninstall_button": ""
             },
             "header": {
                 "get_help": "",
@@ -162,16 +149,7 @@
                 "permissions_title": "",
                 "userlist_button": "",
                 "userlist_title": "",
-                "search_placeholder": "",
-                "appearance_text": "ユーザー定義のフォーラムの色調、アイコン、その他の要素",
-                "basics_text": "フォーラム名、言語、その他の全般設定を設定します。",
-                "dashboard_text": "フォーラムのデータ概要",
-                "email_text": "フォーラムのメールボックス設定を構成する",
-                "extensions_button": "プラグイン",
-                "extensions_text": "あなたのフォーラムのために追加の機能を追加します",
-                "permissions_text": "ユーザーアクセスと操作権限の設定",
-                "advanced_button": "シニア",
-                "advanced_text": "上級ユーザー向けの設定を構成します。"
+                "search_placeholder": ""
             },
             "permissions": {
                 "allow_post_editing_label": "投稿内容の変更を許可",
@@ -201,9 +179,7 @@
                 "view_forum_label": "",
                 "view_hidden_groups_label": "隠されたユーザーグループのバッジを表示",
                 "view_last_seen_at_label": "ユーザーの最後に見た時間の閲覧",
-                "view_post_ips_label": "投稿の IP アドレスの表示",
-                "view_discussions_label": "スレッドを閲覧",
-                "view_user_list_label": "ユーザーリストを閲覧"
+                "view_post_ips_label": "投稿の IP アドレスの表示"
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "無制限",
@@ -261,24 +237,6 @@
                 },
                 "title": "",
                 "total_users": ""
-            },
-            "add_extension": {
-                "developer_text": "開発者の方へ。<a>ドキュメントを読んで</a>、オリジナルの拡張機能を作成することが可能です。",
-                "install_text": "また、<a>Flarum Community site</a>で拡張機能を探し、Composerを使って手動でインストールすることも可能です。",
-                "temporary_text": "近い将来、このダイアログを使って簡単にフォーラムへ拡張機能を追加できるようになります。現在システムを構築中！",
-                "title": "拡張機能を追加"
-            },
-            "extensions": {
-                "add_button": "拡張機能を追加",
-                "settings_button": "=> core.ref.settings",
-                "uninstall_button": "アンインストール"
-            },
-            "advanced": {
-                "help_text": "これらの設定は上級ユーザー向けであることに注意してください",
-                "heading_security": "セキュリティ設定",
-                "post_flood_interval": "複数の投稿間の待機時間",
-                "post_flood_interval_text": "ユーザーが別の投稿を作成するまで待機する時間を設定します（秒単位）",
-                "enter_positive_number": "正数を入力してください"
             }
         },
         "forum": {
@@ -484,20 +442,6 @@
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "アカウント確認メールを再送信する",
                 "sent_message": "送信しました"
-            },
-            "edit_user": {
-                "activate_button": "ユーザーをアクティベート",
-                "email_heading": "=> core.ref.email",
-                "email_label": "=> core.ref.email",
-                "groups_heading": "ユーザーグループ",
-                "password_heading": "=> core.ref.password",
-                "password_label": "=> core.ref.password",
-                "set_password_label": "新しいパスワードを設定",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "ユーザーを編集",
-                "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username",
-                "nothing_available": ""
             }
         },
         "lib": {
@@ -646,8 +590,7 @@
             "users": "ユーザー",
             "view": "ビュー",
             "write_a_reply": "返信する...",
-            "you": "あなた",
-            "icon_label": "アイコン"
+            "you": "あなた"
         },
         "group": {
             "admin": "管理者",
