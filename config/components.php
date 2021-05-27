@@ -185,7 +185,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/flarum/emoji/master/locale/en.yml',
 	],
 	'flarum-flags' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/flags/v0.1.0-beta.16/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/flags/v1.0.0/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/flarum/flags/master/locale/en.yml',
 	],
 	'flarum-likes' => [
