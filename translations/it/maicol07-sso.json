@@ -2,22 +2,22 @@
     "maicol07-sso": {
         "admin": {
             "settings": {
-                "title": "",
-                "signup_url": "",
-                "login_url": "",
-                "logout_url": "",
-                "remove_login_btn": "",
-                "remove_signup_btn": "",
-                "manage_account_url": "",
-                "manage_account_btn_open_in_new_tab": "",
-                "jwt_section_subtitle": "",
-                "jwt_iss": "",
-                "jwt_signer_key": "",
-                "jwt_signing_algorithm": ""
+                "title": "Impostazioni SSO",
+                "signup_url": "URL registrazione",
+                "login_url": "URL accesso",
+                "logout_url": "URL disconnessione",
+                "remove_login_btn": "Rimuovi il pulsante Accedi",
+                "remove_signup_btn": "Rimuovi il pulsante Registrati",
+                "manage_account_url": "URL gestione accoun",
+                "manage_account_btn_open_in_new_tab": "Apri la pagina di gestione dell'account in una nuova scheda",
+                "jwt_section_subtitle": "Impostazioni relative al componente aggiuntivo JWT",
+                "jwt_iss": "URL dell'emittente",
+                "jwt_signer_key": "Chiave del firmatario",
+                "jwt_signing_algorithm": "Algoritmo firma"
             }
         },
         "forum": {
-            "manage_account_btn": ""
+            "manage_account_btn": "Gestisci account"
         }
     }
 }
