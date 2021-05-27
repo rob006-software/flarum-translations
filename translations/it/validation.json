@@ -77,7 +77,7 @@
             "string": ":attribute deve contenere almeno :min caratteri.",
             "array": ":attribute deve avere almeno :min elementi."
         },
-        "multiple_of": "",
+        "multiple_of": ":attribute deve essere un multiplo di :value.",
         "not_in": "Il valore selezionato per :attribute non è valido.",
         "not_regex": "Il formato di :attribute non è valido.",
         "numeric": ":attribute deve essere un numero.",
@@ -91,7 +91,7 @@
         "required_with_all": "Il campo :attribute è richiesto quando :values sono presenti.",
         "required_without": "Il campo :attribute è richiesto quando :values non è presente.",
         "required_without_all": "Il campo :attribute è richiesto quando nessuno di :values è presente.",
-        "prohibited": "",
+        "prohibited": "Il campo :attribute è proibito.",
         "prohibited_if": "",
         "prohibited_unless": "",
         "same": ":attribute e :other devono coincidere.",
