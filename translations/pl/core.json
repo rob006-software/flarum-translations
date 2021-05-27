@@ -183,7 +183,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Cały czas",
-                "allow_some_minutes_button": "Na {count} minutę|Na {count} minuty|Na {count} minut",
+                "allow_some_minutes_button": "{count, plural, one {Na # minutę} few {Na # minuty} many {Na # minut} other {Na # minuty}}",
                 "allow_ten_minutes_button": "Przez 10 minut",
                 "allow_until_reply_button": "Aż ktoś odpisze w dyskusji",
                 "everyone_button": "Wszyscy",
@@ -492,7 +492,7 @@
             "content": {
                 "javascript_disabled_message": "Ta strona najlepiej działa w nowoczesnych przeglądarkach z włączonym JavaScriptem.",
                 "load_error_message": "Coś poszło nie tak podczas ładowania pełnej wersji strony. Jeśli problem będzie się powtarzał, wyczyść pamięć przeglądarki (cache) i spróbuj ponownie.",
-                "loading_text": "Ładowanie..."
+                "loading_text": "=> core.ref.loading"
             },
             "discussion": {
                 "next_page_button": "=> core.ref.next_page",
@@ -584,7 +584,7 @@
             "save_changes": "Zapisz zmiany",
             "settings": "Ustawienia",
             "sign_up": "Zarejestruj się",
-            "some_others": "{count} inny|{count} inni",
+            "some_others": "{count, plural, one {# inny} other {# innych}}",
             "start_a_discussion": "Rozpocznij dyskusję",
             "username": "Nazwa użytkownika",
             "users": "Użytkownicy",
