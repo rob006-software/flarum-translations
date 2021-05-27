@@ -18,8 +18,7 @@
                 "watermark": "选择上传图片时是否添加水印。水印会根据下面的偏好设置来添加到非 GIF 图片上。\n",
                 "s3_compatible_storage": "填写下方设置以配置 S3 兼容存储模式。如果您使用 AWS，请保持留空。有关 S3 兼容配置详情，请查阅各大云服务商的文档（七牛云：https://iflarum.cn/qiniu-s3）\n",
                 "s3_acl": "应用于上传对象的读写权限 ACL（默认私有读写）。 有关可用的值，请参阅 https://iflarum.cn/aws-s3acl\n",
-                "composer_buttons": "默认情况下，媒体管理按钮和上传按钮皆可见。您可以选择只显示其中一个按钮。\n",
-                "description": "文件上传服务与设置\n"
+                "composer_buttons": "默认情况下，媒体管理按钮和上传按钮皆可见。您可以选择只显示其中一个按钮。\n"
             },
             "labels": {
                 "aws-s3": {
@@ -63,8 +62,7 @@
                 "resize": {
                     "max_width": "最大图片宽高",
                     "title": "图片缩放功能",
-                    "toggle": "开启缩放",
-                    "max_height": "最大图片高度"
+                    "toggle": "开启缩放"
                 },
                 "client_extension": {
                     "title": "用户自定义文件扩展名"
@@ -82,14 +80,6 @@
                         "upload-btn": "仅上传按钮",
                         "media-btn": "仅媒体管理按钮"
                     }
-                },
-                "ovh-svfs": {
-                    "title": "OVH SVFS 存储设置",
-                    "container": "容器",
-                    "tenantid": "租户ID",
-                    "username": "用户名",
-                    "password": "密码",
-                    "region": "区域"
                 }
             },
             "permissions": {
@@ -145,8 +135,7 @@
             "states": {
                 "error": "错误",
                 "loading": "加载中",
-                "unauthorized": "您没有下载权限",
-                "success": "成功"
+                "unauthorized": "您没有下载权限"
             }
         },
         "api": {

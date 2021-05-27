@@ -15,21 +15,7 @@
                 "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
                 "load_more_button": "=> core.ref.load_more",
                 "empty_text": "抱歉，没有找到匹配的用户。",
-                "filter_button": "筛选用户组",
-                "sort": {
-                    "relevance": "相关度",
-                    "default": "默认",
-                    "username_az": "用户名（a-z）",
-                    "username_za": "用户名（z-a）",
-                    "newest": "新用户",
-                    "oldest": "老用户",
-                    "seen_recent": "最近上线",
-                    "seen_oldest": "离线最久",
-                    "most_posts": "回复最多",
-                    "least_posts": "回复最少",
-                    "most_discussions": "主题最多",
-                    "least_discussions": "主题最少"
-                }
+                "filter_button": "筛选用户组"
             }
         },
         "admin": {
@@ -39,8 +25,7 @@
             "settings": {
                 "link": "在论坛首页侧边栏添加「会员名录」选项卡",
                 "default-sort": "默认排序",
-                "use-small-cards": "使用小型用户卡片",
-                "title": "会员名录设置"
+                "use-small-cards": "使用小型用户卡片"
             }
         },
         "lib": {
@@ -54,9 +39,7 @@
                 "most_posts": "发帖最多",
                 "least_posts": "发帖最少",
                 "most_discussions": "主题最多",
-                "least_discussions": "主题最少",
-                "seen_recent": "最近上线",
-                "seen_oldest": "离线最久"
+                "least_discussions": "主题最少"
             }
         }
     }
