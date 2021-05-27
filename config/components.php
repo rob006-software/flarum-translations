@@ -173,7 +173,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FFans/clipboardjs/v0.1.0-beta.16.1/resources/locale/en.yml',
 	],
 	'flarum-akismet' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/akismet/v0.1.0-beta.16/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/akismet/v1.0.0/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/flarum/akismet/master/locale/en.yml',
 	],
 	'flarum-approval' => [
