@@ -12,8 +12,8 @@
             },
             "post": {
                 "like_link": "Lubię to",
-                "liked_by_self_text": "{users} lubisz to.|{users} lubicie to.",
-                "liked_by_text": "{users} lubi to.|{users} lubią to.",
+                "liked_by_self_text": "{count, plural, one {{users} lubisz to} other {{users} lubicie to}}.",
+                "liked_by_text": "{users} {count, plural, one {lubi to} =2 {lubią to} =3 {lubią to} =4 {lubią to} other {lubi to}}.",
                 "others_link": "=> core.ref.some_others",
                 "unlike_link": "Przestań lubić",
                 "you_text": "=> core.ref.you"
