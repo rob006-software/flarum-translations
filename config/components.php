@@ -229,7 +229,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/flarum/suspend/master/locale/en.yml',
 	],
 	'flarum-tags' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/tags/v0.1.0-beta.16/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/tags/v1.0.0/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/flarum/tags/master/locale/en.yml',
 	],
 	'flarumi-oauth-instagram' => [
