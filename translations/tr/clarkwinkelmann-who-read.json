@@ -4,10 +4,7 @@
             "tooltip": {
                 "last-read-at": "{username}, {ago} okudu",
                 "last-read-at-behind": "{username} en son {ago} okudu",
-                "last-read-at-up-to-date": "{username} son gönderiyi {ago} okudu",
-                "last_read_at": "",
-                "last_read_at_behind": "",
-                "last_read_at_up_to_date": ""
+                "last-read-at-up-to-date": "{username} son gönderiyi {ago} okudu"
             },
             "more": {
                 "show": "{count} daha göster",
@@ -16,12 +13,7 @@
             "footer": {
                 "read-this-post": "{0} Bu gönderiyi kimse okumadı|{1} Bir kullanıcı bu gönderiyi okudu|]1,Inf] {count} kullanıcı bu gönderiyi okudu",
                 "read-no-further": "{0} Herkes devamını okudu|{1} Bir kullanıcı devamını okumadı|]1,Inf] {count} kullanıcı devamını okumadı",
-                "read-to-end": "{0} Kimse sonuna kadar okumadı|{1} Bir kullanıcı sonuna kadar okudu|]1,Inf] {count} kullanıcı sonuna kadar okudu",
-                "to-here-some-stopped": "",
-                "to-here-none-stopped": "",
-                "to-here-nobody": "",
-                "to-end": "",
-                "to-end-nobody": ""
+                "read-to-end": "{0} Kimse sonuna kadar okumadı|{1} Bir kullanıcı sonuna kadar okudu|]1,Inf] {count} kullanıcı sonuna kadar okudu"
             },
             "controls": {
                 "set-unread": "Okunmadı olarak işaretle",
@@ -38,11 +30,6 @@
                 "past-this-post": "Okumuş kullanıcılar",
                 "to-the-end": "Sonuna kadar okuyan kullanıcılar",
                 "behind": "Sonuna kadar okumayan kullanıcılar"
-            },
-            "show-more": "",
-            "stats": {
-                "to_end": "",
-                "to_at_least_here": ""
             }
         },
         "admin": {
@@ -50,8 +37,7 @@
                 "see-read": "Okuma durumunu göster",
                 "see-subscription": "Abonelik durumunu göster",
                 "see-unread": "Okunmadı olarak işaretleyenleri göster",
-                "mark-unread": "Okunmadı olarak işaretlemelerine izin ver",
-                "heading": "Kim okudu"
+                "mark-unread": "Okunmadı olarak işaretlemelerine izin ver"
             },
             "settings": {
                 "show-in-discussion-list": "Okuyanları tartışmada göster",
@@ -61,8 +47,7 @@
                 "hide-when-behind": "Çok fazla gönderiyi okumadıysa kullanıcıyı gizle",
                 "max-visible": "Daha fazla düğmesine tıklanmadan önce gösterilecek kullanıcı sayısı",
                 "unread-icon": "Okumamışlar için rozet",
-                "only-groups": "Yalnızca bu gruplardaki kullanıcıların okundu durumunu göster",
-                "title": "Kim okudu ayarları"
+                "only-groups": "Yalnızca bu gruplardaki kullanıcıların okundu durumunu göster"
             }
         }
     }
