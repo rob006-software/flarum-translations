@@ -4,9 +4,9 @@
         "active_url": ":attribute 不是合法的 URL",
         "after": ":attribute 必须是 :date 之后的日期",
         "after_or_equal": ":attribute 必须是 :date 当天或之后的日期",
-        "alpha": ":attribute 只能由字母组成",
-        "alpha_dash": ":attribute 只能由字母、数字、连字符或下划线组成",
-        "alpha_num": ":attribute 只能由字母或数字组成",
+        "alpha": ":attribute 必须只包含字母。",
+        "alpha_dash": ":attribute 必须只包含字母、数字、破折号和下划线。",
+        "alpha_num": ":attribute 必须只能是字母或数字。",
         "array": ":attribute 必须是数字",
         "before": ":attribute 必须是早于 :date 的日期",
         "before_or_equal": ":attribute 必须是 :date 当天或之前的日期",
@@ -64,10 +64,10 @@
             "array": ":attribute 不得多于 :value 项"
         },
         "max": {
-            "numeric": ":attribute 不得大于 :max",
-            "file": ":attribute 不得大于 :max KB",
-            "string": ":attribute 不得多于 :max 个字符",
-            "array": ":attribute 不得多于 :max 项"
+            "numeric": ":attribute 不得大于 :max.",
+            "file": ":attribute 不得大于 :max KB.",
+            "string": ":attribute 不得多于 :max 个字符.",
+            "array": ":attribute 不得多于 :max 项."
         },
         "mimes": ":attribute 文件类型只能是 :values",
         "mimetypes": ":attribute 文件类型只能是 :values",
@@ -77,7 +77,7 @@
             "string": ":attribute 不得少于 :min 个字符",
             "array": ":attribute 不得少于 :min 项"
         },
-        "multiple_of": "",
+        "multiple_of": ":attribute 必须是 :value 的倍数.",
         "not_in": "所选 :attribute 无效",
         "not_regex": ":attribute 格式非法",
         "numeric": ":attribute 必须由数字组成",
