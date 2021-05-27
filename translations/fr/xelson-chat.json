@@ -18,7 +18,6 @@
                 }
             },
             "chat": {
-                "welcome": "",
                 "moder": "",
                 "kick": "",
                 "leave": "",
@@ -30,10 +29,6 @@
                         "lost": ""
                     },
                     "form": {
-                        "title": "",
-                        "color": "",
-                        "icon": "",
-                        "users": "",
                         "leave": "",
                         "return": "",
                         "delete": {
@@ -42,13 +37,21 @@
                             "placeholder": "",
                             "button": ""
                         },
-                        "title.label": "",
-                        "title.validator": "",
-                        "color.label": "",
-                        "color.validator": "",
-                        "icon.label": "",
-                        "icon.validator": "",
-                        "users.edit": ""
+                        "title": {
+                            "label": "",
+                            "validator": ""
+                        },
+                        "color": {
+                            "label": "",
+                            "validator": ""
+                        },
+                        "icon": {
+                            "label": "",
+                            "validator": ""
+                        },
+                        "users": {
+                            "edit": ""
+                        }
                     },
                     "search": {
                         "placeholder": "",
@@ -76,17 +79,20 @@
                             "exists": ""
                         },
                         "form": {
-                            "title": "",
-                            "icon": "",
-                            "color": "",
                             "users": "",
-                            "title.chat": "",
-                            "title.channel": "",
-                            "title.validator": "",
-                            "icon.label": "",
-                            "icon.validator": "",
-                            "color.label": "",
-                            "color.validator": ""
+                            "title": {
+                                "chat": "",
+                                "channel": "",
+                                "validator": ""
+                            },
+                            "icon": {
+                                "label": "",
+                                "validator": ""
+                            },
+                            "color": {
+                                "label": "",
+                                "validator": ""
+                            }
                         },
                         "search": {
                             "placeholder": "",
@@ -140,8 +146,10 @@
                         }
                     }
                 },
-                "welcome.header": "",
-                "welcome.subheader": ""
+                "welcome": {
+                    "header": "",
+                    "subheader": ""
+                }
             },
             "errors": {
                 "unauthenticated": "",
@@ -155,13 +163,14 @@
                 "edit": "",
                 "delete": "",
                 "enabled": "",
-                "create": "",
                 "moderate": {
                     "delete": "",
                     "vision": ""
                 },
-                "create.chat": "",
-                "create.channel": ""
+                "create": {
+                    "chat": "",
+                    "channel": ""
+                }
             },
             "settings": {
                 "title": "",
