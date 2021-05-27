@@ -21,8 +21,7 @@
                 "favicon_text": "Wyślij obrazek, który będzie wyświetlany jako ikona forum.",
                 "logo_heading": "Logo",
                 "logo_text": "Wyślij obrazek, który będzie wyświetlany jako logo w miejscu nazwy forum.",
-                "title": "Wygląd forum",
-                "submit_button": "=> core.ref.save_changes"
+                "title": "Wygląd forum"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -40,9 +39,7 @@
                 "slug_driver_text": "Wymierz generator slugów dla tego modelu.",
                 "title": "Podstawowe",
                 "welcome_banner_heading": "Baner powitalny",
-                "welcome_banner_text": "Skonfiguruj tekst, który wyświetla się w banerze na stronie \"Wszystkie dyskusje\". Użyj go, aby powitać gości na swoim forum.",
-                "saved_message": "Twoje zmiany zostały zapisane.",
-                "submit_button": "=> core.ref.save_changes"
+                "welcome_banner_text": "Skonfiguruj tekst, który wyświetla się w banerze na stronie \"Wszystkie dyskusje\". Użyj go, aby powitać gości na swoim forum."
             },
             "dashboard": {
                 "clear_cache_button": "Wyczyść cache",
@@ -99,10 +96,7 @@
                 "send_test_mail_success": "Testowa wiadomość e-mail została pomyślnie wysłana!",
                 "send_test_mail_text": "Wiadomość zostanie wysłana przy użyciu powyższej konfiguracji na Twój adres e-mail, {email}.",
                 "smtp_heading": "Ustawienia SMTP",
-                "title": "=> core.ref.email",
-                "submit_button": "=> core.ref.save_changes",
-                "heading": "=> core.ref.email",
-                "text": "Skonfiguruj sterownik, ustawienia i adresy, z których Twoje forum będzie korzystać podczas wysyłania wiadomości e-mail."
+                "title": "=> core.ref.email"
             },
             "extension": {
                 "configure_scopes": "Konfiguruj zakresy",
@@ -122,8 +116,7 @@
                 "no_settings": "To rozszerzenie nie posiada żadnych ustawień.",
                 "open_modal": "Otwórz ustawienia",
                 "permissions_title": "Uprawnienia",
-                "uninstall_button": "Odinstaluj",
-                "saved_message": "Twoje zmiany zostały zapisane."
+                "uninstall_button": "Odinstaluj"
             },
             "header": {
                 "get_help": "Uzyskaj pomoc",
@@ -156,14 +149,7 @@
                 "permissions_title": "=> core.admin.permissions.description",
                 "userlist_button": "=> core.admin.users.title",
                 "userlist_title": "=> core.admin.users.description",
-                "search_placeholder": "Wyszukaj rozszerzenia",
-                "appearance_text": "Dostosuj kolory, logo oraz inne ustawienia swojego forum.",
-                "basics_text": "Ustaw tytuł, język oraz inne podstawowe ustawienia swojego forum.",
-                "dashboard_text": "Podstawowe informacje dotyczące forum.",
-                "email_text": "Skonfiguruj ustawienia wysyłki wiadomości e-mail.",
-                "extensions_button": "Rozszerzenia",
-                "extensions_text": "Dodaj dodatkowe funkcje do forum i dostosuj je pod siebie.",
-                "permissions_text": "Skonfiguruj uprawnienia użytkowników i grup."
+                "search_placeholder": "Wyszukaj rozszerzenia"
             },
             "permissions": {
                 "allow_post_editing_label": "Pozwól na edycję posta",
@@ -193,9 +179,7 @@
                 "view_forum_label": "Przeglądanie forum (dyskusji i użytkowników)",
                 "view_hidden_groups_label": "Przeglądanie etykiet ukrytych grup",
                 "view_last_seen_at_label": "Dostęp do daty ostatniej wizyty użytkownika",
-                "view_post_ips_label": "Przeglądanie IP użytkowników",
-                "view_discussions_label": "Przeglądanie dyskusji",
-                "view_user_list_label": "Przeglądanie listy użytkowników"
+                "view_post_ips_label": "Przeglądanie IP użytkowników"
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Cały czas",
@@ -253,17 +237,6 @@
                 },
                 "title": "=> core.ref.users",
                 "total_users": "Wszystkich użytkowników: {count}"
-            },
-            "add_extension": {
-                "developer_text": "Jeśli jesteś deweloperem, możesz <a>zapoznać się z dokumentacją</a> i rozpocząć pracę nad własnymi rozszerzeniami.",
-                "install_text": "W międzyczasie możesz poszukać rozszerzeń na <a>stronie Flarum Community</a> i zainstalować je ręcznie przy użyciu Composera.",
-                "temporary_text": "Pewnego dnia, w niedalekiej przyszłości, to okienko pozwoli Ci na łatwe i szybkie dodanie rozszerzenia do Twojego forum. Budujemy ekosystem!",
-                "title": "Dodaj rozszerzenie"
-            },
-            "extensions": {
-                "add_button": "Dodaj rozszerzenie",
-                "settings_button": "=> core.ref.settings",
-                "uninstall_button": "Odinstaluj"
             }
         },
         "forum": {
@@ -469,20 +442,6 @@
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "Wyślij ponownie e-mail aktywacyjny",
                 "sent_message": "Wysłano"
-            },
-            "edit_user": {
-                "activate_button": "Aktywuj użytkownika",
-                "email_heading": "=> core.ref.email",
-                "email_label": "=> core.ref.email",
-                "groups_heading": "Grupy",
-                "password_heading": "=> core.ref.password",
-                "password_label": "=> core.ref.password",
-                "set_password_label": "Ustaw nowe hasło",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "Edytuj użytkownika",
-                "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username",
-                "nothing_available": "Nie ma żadnych danych, które mógłbyś edytować."
             }
         },
         "lib": {
