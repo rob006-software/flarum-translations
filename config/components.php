@@ -225,7 +225,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/flarum/subscriptions/master/locale/en.yml',
 	],
 	'flarum-suspend' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/suspend/v0.1.0-beta.16/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/suspend/v1.0.0/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/flarum/suspend/master/locale/en.yml',
 	],
 	'flarum-tags' => [
