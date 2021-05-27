@@ -19,7 +19,7 @@
                 "title_placeholder": "Private Discussion Title"
             },
             "labels": {
-                "recipients": "{count} Recipient|{count} Recipients",
+                "recipients": "{count, plural, one {{count} Recipient} other {{count} Recipients}}",
                 "user_deleted": "-deleted-"
             },
             "nav": {
@@ -54,8 +54,7 @@
             },
             "user": {
                 "settings": {
-                    "block_pd": "Block private discussions",
-                    "unified_index": "Combine private discussions inside unified index"
+                    "block_pd": "Block private discussions"
                 },
                 "byobu_link": "Private Discussions",
                 "dropdown_label": "Private Discussions"
@@ -69,9 +68,6 @@
                 "pd_user_left_text": "{username} left the private discussion",
                 "pd_added_text": "{username} added you to a private discussion",
                 "pd_added_label": "Someone adds me to an existing private discussion"
-            },
-            "confirm": {
-                "make_public": "This will make this private discussion visible to everyone. Consider if this is the correct action before proceeding."
             }
         },
         "admin": {
@@ -96,10 +92,10 @@
                 "private_discussion_added": "[Private Discussion] {display_name} added you to a private discussion"
             },
             "body": {
-                "private_discussion_created": "Hey {recipient_display_name},\n\n{actor_display_name} started a new private discussion with you as a recipient, titled '{discussion_title}'.\n\nView it here:\n{discussion_url}\n\nYou may need to login first before being able to access this link.\n",
-                "private_discussion_replied": "Hey {recipient_display_name},\n\n{actor_display_name} posted in a private discussion with you as a recipient, titled '{discussion_title}'.\n\nView it here:\n{post_url}\n\nYou may need to login first before being able to access this link.\n",
-                "recipient_removed": "Hey {recipient_display_name},\n\n{actor_display_name} left the private discussion '{discussion_title}'. They'll no longer be able to view any of it's content.\n\nView it here:\n{discussion_url}\n\nYou may need to login first before being able to access this link.\n",
-                "private_discussion_added": "Hey {recipient_display_name},\n\n{actor_display_name} added you to an existing private discussion, titled '{discussion_title}'.\n\nView it here:\n{discussion_url}\n\nYou may need to login first before being able to access this link.\n"
+                "private_discussion_created": "Hey {recipient_display_name},\n\n{actor_display_name} started a new private discussion with you as a recipient: {discussion_title}.\n\nView it here:\n{discussion_url}\n\nYou may need to login first before being able to access this link.\n",
+                "private_discussion_replied": "Hey {recipient_display_name},\n\n{actor_display_name} posted in a private discussion with you as a recipient: {discussion_title}.\n\nView it here:\n{post_url}\n\nYou may need to login first before being able to access this link.\n",
+                "recipient_removed": "Hey {recipient_display_name},\n\n{actor_display_name} left the private discussion: {discussion_title}. They'll no longer be able to view any of it's content.\n\nView it here:\n{discussion_url}\n\nYou may need to login first before being able to access this link.\n",
+                "private_discussion_added": "Hey {recipient_display_name},\n\n{actor_display_name} added you to an existing private discussion: {discussion_title}.\n\nView it here:\n{discussion_url}\n\nYou may need to login first before being able to access this link.\n"
             }
         }
     }
