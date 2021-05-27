@@ -90,6 +90,7 @@ return [
 		'branch' => 'master',
 		'path' => '/locale',
 	],
+	/*
 	'tr-lang' => [
 		'type' => 'language',
 		'language' => 'tr',
@@ -115,6 +116,7 @@ return [
 			'*',
 		]),
 	],
+	*/
 	'zh_Hans' => [
 		'type' => 'language',
 		'language' => 'zh_Hans',
