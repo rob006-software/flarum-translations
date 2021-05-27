@@ -21,8 +21,7 @@
                 "favicon_text": "Carica un'immagine da utilizzare come favicon del sito.",
                 "logo_heading": "Logo",
                 "logo_text": "Carica un'immagine da utilizzare al posto del nome del forum.",
-                "title": "Aspetto",
-                "submit_button": "=> core.ref.save_changes"
+                "title": "Aspetto"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -40,9 +39,7 @@
                 "slug_driver_text": "Seleziona il driver che verrà utilizzato per creare uno slug di questo modello.",
                 "title": "Impostazioni di base",
                 "welcome_banner_heading": "Banner di benvenuto",
-                "welcome_banner_text": "Configura il testo da visualizzare sul banner. Apparirà nella pagina <b>Tutte le discussioni</b>.",
-                "saved_message": "Le modifiche sono state salvate.",
-                "submit_button": "=> core.ref.save_changes"
+                "welcome_banner_text": "Configura il testo da visualizzare sul banner. Apparirà nella pagina <b>Tutte le discussioni</b>."
             },
             "dashboard": {
                 "clear_cache_button": "Pulisci cache",
@@ -99,9 +96,7 @@
                 "send_test_mail_success": "Email di prova inviata con successo!",
                 "send_test_mail_text": "Questo invierà un'email utilizzando la configurazione qui sopra, {email}.",
                 "smtp_heading": "Impostazioni SMTP",
-                "title": "=> core.ref.email",
-                "submit_button": "=> core.ref.save_changes",
-                "heading": "=> core.ref.email"
+                "title": "=> core.ref.email"
             },
             "extension": {
                 "configure_scopes": "Configura ambiti",
@@ -121,8 +116,7 @@
                 "no_settings": "Questa estensione non ha impostazioni.",
                 "open_modal": "Mostra impostazioni",
                 "permissions_title": "Permessi",
-                "uninstall_button": "Disinstalla",
-                "saved_message": "Le tue modifiche sono state salvate."
+                "uninstall_button": "Disinstalla"
             },
             "header": {
                 "get_help": "Chiedi aiuto",
@@ -155,8 +149,7 @@
                 "permissions_title": "=> core.admin.permissions.description",
                 "userlist_button": "=> core.admin.users.title",
                 "userlist_title": "=> core.admin.users.description",
-                "search_placeholder": "Cerca estensioni",
-                "permissions_text": "=> core.admin.permissions.description"
+                "search_placeholder": "Cerca estensioni"
             },
             "permissions": {
                 "allow_post_editing_label": "Consenti modifica del messaggio",
@@ -186,9 +179,7 @@
                 "view_forum_label": "Guarda forum (discussioni e utenti)",
                 "view_hidden_groups_label": "Visualizzare i badge dei gruppi nascosti",
                 "view_last_seen_at_label": "Visualizza sempre l'ora dell'ultimo accesso di un utente",
-                "view_post_ips_label": "Visualizzare indirizzi IP di un messaggio",
-                "view_discussions_label": "Leggere le discussioni",
-                "view_user_list_label": "Visualizzare la lista utenti"
+                "view_post_ips_label": "Visualizzare indirizzi IP di un messaggio"
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Indefinitamente",
@@ -451,20 +442,6 @@
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "Reinvia e-mail di conferma",
                 "sent_message": "Inviata"
-            },
-            "edit_user": {
-                "activate_button": "Attiva utente",
-                "email_heading": "=> core.ref.email",
-                "email_label": "=> core.ref.email",
-                "groups_heading": "Gruppi",
-                "password_heading": "=> core.ref.password",
-                "password_label": "=> core.ref.password",
-                "set_password_label": "Imposta nuova password",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "Modifica utente",
-                "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username",
-                "nothing_available": "Non c’è nulla di editabile per te al momento."
             }
         },
         "lib": {

@@ -4,9 +4,7 @@
             "permissions": {
                 "moderate_requests": "",
                 "request_nickname": "",
-                "request_username": "",
-                "start": "ユーザー名の変更申請",
-                "moderate": "ユーザー名を変更することに同意する"
+                "request_username": ""
             }
         },
         "forum": {
@@ -87,43 +85,6 @@
             },
             "user": {
                 "name_history_link": ""
-            },
-            "action": {
-                "title": "=> fof-username-request.forum.results.title",
-                "help_text": "ユーザー名がフォーラムのガイドラインに従っていることを確認する",
-                "decision_title": "復習",
-                "approval_label": "同意する",
-                "rejected_label": "ごみ",
-                "submit_button": "提出する",
-                "reason_title": "拒否の理由",
-                "success": "監査結果が送信されました",
-                "name": "{username} ユーザー名「{newUsername}」の変更をリクエストしました"
-            },
-            "results": {
-                "title": "ユーザー名を変更",
-                "approved": "ユーザー名の変更リクエストが承認されました！",
-                "new_username": "ユーザー名が「{username}」に変更されました",
-                "rejected": "ユーザー名の変更リクエストは拒否されました。",
-                "reason": "拒否の理由： <i>\"{reason}\"</i>",
-                "resubmit": "新しいユーザー名を再送信できます。"
-            },
-            "request": {
-                "title": "ユーザー名の変更申請",
-                "current_request": "ユーザー名を「{username}」に変更するように要求しました。アプリケーションを更新または削除できます。",
-                "submit_button": "申請書を提出",
-                "delete_button": "アプリケーションを削除",
-                "confirmation_message": "申請書は受領されており、後で審査されます。",
-                "dismiss_button": "理解する",
-                "deleted": "アプリケーションが削除されました。"
-            },
-            "account_label": "ユーザー名を変更",
-            "profile_link": "ユーザー名変更履歴",
-            "dropdown": {
-                "empty_text": "申し込みなし",
-                "tooltip": "=> fof-username-request.forum.dropdown.title",
-                "title": "ユーザー名変更リクエスト",
-                "item_text": "{username} ユーザー名の変更リクエスト",
-                "exerpt": "ユーザー名の変更申請： {requestedUsername}"
             }
         },
         "ref": {

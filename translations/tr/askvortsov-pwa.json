@@ -10,8 +10,7 @@
                     "description_text": "Açıklamayı Yönetim sayfasında yer alan 'Temel Öğeler' sekmesinden ayarlayabilirsniz.",
                     "long_name_text": "Kullanıcı tarafından görüntülenen web uygulaması adı.",
                     "heading": "Hakkında",
-                    "short_name_text": "Uzun ad için yeterli alan yoksa, kullanıcıya gösterilen uygulama adı.",
-                    "name_text": "PWA'de kullanılacak daha uzun bir ad girin"
+                    "short_name_text": "Uzun ad için yeterli alan yoksa, kullanıcıya gösterilen uygulama adı."
                 },
                 "colors": {
                     "heading": "Renkler",
@@ -33,8 +32,7 @@
                 "logo_text": "You must upload at least one logo for your progressive web app to be installable. Please note that all logos must be square; if they are not, they will be resized and possibly stretched.\nThere are a number of size options available below. I would recommend trying to upload a logo to as many as you can: this supports more devices.\nPlease note that you can upload 1 large logo to inputs for smaller logos. For instance, you can upload a 1000px x 1000px logo to ALL the file inputs below. However, if you try to upload a 50px x 50px logo to the 512x512 input, it will be stretched a lot.\n",
                 "logo_size_text": "Upload a logo which will be scaled to {size} pixels by {size} pixels size.",
                 "submit_button": "Ayarları Kaydet",
-                "refreshed_message": "PWA config refreshed successfully.",
-                "enable_label": "Etkinleştir"
+                "refreshed_message": "PWA config refreshed successfully."
             },
             "status": {
                 "config_no_https": "Config.php dosyanızdaki bağlantı HTTPS kullanmıyor. Progressive Web Uygulamalarının çalışması için HTTPS gereklidir.",
@@ -43,13 +41,7 @@
                 "no_name": "You must provide a full name for your app to work.",
                 "key_gen_failed": "Anlık bildirimler için gerekli anahtarların oluşturulması başarısız oldu. Tam hata mesajı: {error}",
                 "suggest_gmp": "Gmp PHP uzantısı sunucunuzda etkin görünmüyor. Kesinlikle gerekli değil, ancak performansı artırabilir ve önerilir. Paylaşılan sunucu kullanıyorsanız desteklemeyebilir.",
-                "success": "Potansiyel hata mevcut değil!",
-                "push_needs_gmp_and_web_push": "Gmp PHP uzantısı ve minishlink/web-push kitaplığı (düzenleyici minishlink/web-push gerektirir) push bildirimlerinin çalışması için etkinleştirilmesi ZORUNLUDUR.",
-                "disabled": "İleri Web Uygulamasını aktifleştirmelisiniz.",
-                "manifest_does_not_exist": "The Web Manifest file does not exist. Try saving settings to refresh configuration.",
-                "manifest_not_accessible": "The Web Manifest file is not accessible. It should be at https://YOUR_FLARUM_SITE_URL/webmanifest.json. If it not there, please review your web server's configuration. If not, you can ignore this message.",
-                "sw_does_not_exist": "The Service Worker file does not exist. Try saving settings to refresh configuration.",
-                "sw_not_accessible": "The service worker file is not accessible. It should be at https://YOUR_FLARUM_SITE_URL/sw.js. If it not there, please review your web server's configuration. If not, you can ignore this message."
+                "success": "Potansiyel hata mevcut değil!"
             }
         },
         "forum": {

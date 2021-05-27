@@ -48,8 +48,7 @@
                 "add_button": "发送警告",
                 "no_warnings": "该用户暂未收到任何警告。",
                 "warnings": "站务警告：共记 {strikes} 分",
-                "warnings_no_strikes": "站务警告",
-                "no-warnings": "该用户暂未收到任何警告"
+                "warnings_no_strikes": "站务警告"
             },
             "warning_list_item": {
                 "list_item_heading": "记 <strong>{strikes}</strong> 分，{time}|记 <strong>{strikes}</strong> 分，{time}",
@@ -64,9 +63,7 @@
                 "strikes_heading": "严重程度：记几分？",
                 "public_comment_heading": "用户批注。为什么警告 <strong>{username}</strong>？ 批注仅对该用户和其他管理员可见。",
                 "private_comment_heading": "管理员备注。为什么警告 <strong>{username}</strong>？备注仅对您和其他管理员可见。",
-                "submit_button": "发送警告",
-                "dismiss_button": "完成",
-                "no_content_given": "警告不可为空。"
+                "submit_button": "发送警告"
             }
         }
     }

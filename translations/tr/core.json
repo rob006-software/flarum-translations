@@ -21,8 +21,7 @@
                 "favicon_text": "Forumun kısayol simgesi olarak görüntülenecek bir resim yükleyin.",
                 "logo_heading": "Logo",
                 "logo_text": "Forum başlığının yerine görüntülenecek bir resim yükle.",
-                "title": "Görünüm",
-                "submit_button": "=> core.ref.save_changes"
+                "title": "Görünüm"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -40,9 +39,7 @@
                 "slug_driver_text": "Adres kısa adı için bir sürücü modeli seçin.",
                 "title": "Temel Öğeler",
                 "welcome_banner_heading": "Hoşgeldiniz Mesajı",
-                "welcome_banner_text": "Tüm Tartışmalar sayfasında görünecek karşılama yazısını ayarla. Ziyaretçileri karşılamak için bunu kullan.",
-                "saved_message": "Değişikliklerin kaydedildi.",
-                "submit_button": "=> core.ref.save_changes"
+                "welcome_banner_text": "Tüm Tartışmalar sayfasında görünecek karşılama yazısını ayarla. Ziyaretçileri karşılamak için bunu kullan."
             },
             "dashboard": {
                 "clear_cache_button": "Önbelleği Temizle",
@@ -99,16 +96,7 @@
                 "send_test_mail_success": "Test postası başarıyla gönderildi!",
                 "send_test_mail_text": "Bu, yukarıdaki yapılandırma ayarları ile {email} adresine gönderilecektir.",
                 "smtp_heading": "SMTP Ayarları",
-                "title": "=> core.ref.email",
-                "submit_button": "=> core.ref.save_changes",
-                "heading": "=> core.ref.email",
-                "text": "Forumunun e-posta göndermesi için sürücüyü, ayarları ve adresleri ayarla.",
-                "mail_mandrill_secret_label": "Gizli anahtar",
-                "mail_ses_key_label": "Anahtar",
-                "mail_ses_region_label": "Bölge",
-                "mail_ses_secret_label": "Gizli",
-                "mandrill_heading": "Mandrill Ayarları",
-                "ses_heading": "SES Ayarları"
+                "title": "=> core.ref.email"
             },
             "extension": {
                 "configure_scopes": "Kapsamları Yapılandır",
@@ -128,8 +116,7 @@
                 "no_settings": "Bu uzantının ayarları yok.",
                 "open_modal": "Ayarları aç",
                 "permissions_title": "İzinler",
-                "uninstall_button": "Kaldır",
-                "saved_message": "Değişiklikleriniz kaydedildi."
+                "uninstall_button": "Kaldır"
             },
             "header": {
                 "get_help": "Yardım Al",
@@ -162,14 +149,7 @@
                 "permissions_title": "=> core.admin.permissions.description",
                 "userlist_button": "=> core.admin.users.title",
                 "userlist_title": "=> core.admin.users.description",
-                "search_placeholder": "Uzantıları Ara",
-                "appearance_text": "Forumunun renklerini, logolarını ve diğer değişkenlerini özelleştir.",
-                "basics_text": "Forum başlığını, dilini ve diğer temel ayarları yap.",
-                "dashboard_text": "Bir bakışta forumun.",
-                "email_text": "Forumunun e-posta ayarlarını yapılandır.",
-                "extensions_button": "Uzantılar",
-                "extensions_text": "Forumunuza ekstra işlevsellikler ekleyin ve özelleştirin.",
-                "permissions_text": "Kimlerin görebileceğini ve ne yapabileceğini yapılandırın."
+                "search_placeholder": "Uzantıları Ara"
             },
             "permissions": {
                 "allow_post_editing_label": "Gönderi düzenlemeye izin ver",
@@ -199,9 +179,7 @@
                 "view_forum_label": "Forumu görüntüle (tartışmalar ve kullanıcılar)",
                 "view_hidden_groups_label": "Gizli kullanıcı grubu rozetlerini göster",
                 "view_last_seen_at_label": "Son görülme zamanını görüntüle",
-                "view_post_ips_label": "Gönderilerde IP adresini görüntüle",
-                "view_discussions_label": "Tartışmalar görüntüle",
-                "view_user_list_label": "Kullanıcı listesini görüntüle"
+                "view_post_ips_label": "Gönderilerde IP adresini görüntüle"
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Sonsuza kadar",
@@ -259,17 +237,6 @@
                 },
                 "title": "=> core.ref.users",
                 "total_users": "Toplam kullanıcılar: {count}"
-            },
-            "add_extension": {
-                "developer_text": "Geliştirici isen, <a>belgeleri okuyabilir</a> ve kendi uzantılarını oluşturmaya devam edebilirsin.",
-                "install_text": "Bu arada, <a>Flarum Topluluğu sitesinde</a> uzantıları arayabilir ve bunları Composer kullanarak manuel olarak yükleyebilirsin.",
-                "temporary_text": "Çok uzak olmayan bir gelecekte bir gün, bu iletişim kutusu forumunuza kolaylıkla bir uzantı eklemeni sağlayacak. Konuştuğumuz gibi bir ekosistem inşa ediyoruz!",
-                "title": "Uzantı Ekle"
-            },
-            "extensions": {
-                "add_button": "Uzantı Ekle",
-                "settings_button": "=> core.ref.settings",
-                "uninstall_button": "Yüklemeyi Kaldır"
             }
         },
         "forum": {
@@ -475,20 +442,6 @@
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "Onay E-postasını Yeniden Gönder",
                 "sent_message": "Gönderildi"
-            },
-            "edit_user": {
-                "activate_button": "Kullanıcıyı Etkinleştir",
-                "email_heading": "=> core.ref.email",
-                "email_label": "=> core.ref.email",
-                "groups_heading": "Gruplar",
-                "password_heading": "=> core.ref.password",
-                "password_label": "=> core.ref.password",
-                "set_password_label": "Yeni şifre ayarla",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "Kullanıcıyı Düzenle",
-                "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username",
-                "nothing_available": "Şu anda düzenleyebileceğiniz hiçbir şey yok."
             }
         },
         "lib": {

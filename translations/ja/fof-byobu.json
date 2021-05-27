@@ -12,8 +12,7 @@
                 "edit_recipients": "メンバーを編集",
                 "send_pd": "{username} と私的なチャット",
                 "cancel": "取り消し",
-                "remove_from_discussion": "雑谈を退出させる",
-                "make_public": "雑谈を公に表示する"
+                "remove_from_discussion": "雑谈を退出させる"
             },
             "composer_private_discussion": {
                 "submit_button": "私的な雑谈を投稿する",
@@ -55,8 +54,7 @@
             },
             "user": {
                 "settings": {
-                    "block_pd": "私的な雑谈をブロックする",
-                    "unified_index": ""
+                    "block_pd": "私的な雑谈をブロックする"
                 },
                 "byobu_link": "私的な雑谈",
                 "dropdown_label": "私的な雑谈"
@@ -69,12 +67,7 @@
                 "pd_user_left_label": "誰かが私が参加した私的な雑谈に離れました",
                 "pd_user_left_text": "{username} は私的な雑谈に離れました",
                 "pd_added_text": "{username} が私を私的な雑谈を参加に招待しました",
-                "pd_added_label": "誰かが私を私的な雑谈を参加に招待しました",
-                "pd_made_public_label": "",
-                "pd_made_public_text": ""
-            },
-            "confirm": {
-                "make_public": "これにより、この私的な雑谈が全員に表示されます。慎重に操作してください。"
+                "pd_added_label": "誰かが私を私的な雑谈を参加に招待しました"
             }
         },
         "admin": {
@@ -84,17 +77,11 @@
                 "create_private_discussions_with_blocking_users": "私的なチャットをブロックしたユーザーに私的な雑谈への参加を強制する",
                 "edit_user_recipients": "私的な雑谈のメンバーを編集する",
                 "edit_group_recipients": "私的なディスカッ雑谈に参加しているユーザーグループを編集する",
-                "view_private_discussions-when-flagged": "他のユーザーの私的な雑谈を表示する（報告されている場合）",
-                "make_private_into_public": "私的雑談を公にする"
+                "view_private_discussions-when-flagged": "他のユーザーの私的な雑谈を表示する（報告されている場合）"
             },
             "settings": {
                 "badge-icon": "",
-                "post-event-icon": "",
-                "use_tag_slug": "私的な雑谈の作成時に自動的に分類されるカテゴリタグを設定します。",
-                "use_tag_slug_help": "この設定は、設定が有効になった後に作成された私的な雑谈にのみ有効で、ユーザーが独自のラベルを選択できるように空白のままにします。",
-                "use_tag_slug_no_restriction": "",
-                "byobu_index": "",
-                "byobu_index_help": ""
+                "post-event-icon": ""
             }
         },
         "email": {
@@ -109,23 +96,6 @@
                 "private_discussion_replied": "",
                 "recipient_removed": "",
                 "private_discussion_added": ""
-            }
-        },
-        "notifications": {
-            "private_discussion_created": {
-                "title": "【私的な雑谈】新しい私的な雑谈が招待します"
-            },
-            "private_discussion_replied": {
-                "title": "【私的な雑谈】新しい投稿"
-            },
-            "recipient_removed": {
-                "title": "【私的な雑谈】誰か離れました"
-            },
-            "private_discussion_added": {
-                "title": "【私的な雑谈】を参加に招待しました"
-            },
-            "made_public": {
-                "title": ""
             }
         }
     }

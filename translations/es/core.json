@@ -21,8 +21,7 @@
                 "favicon_text": "Sube una imagen para que sea mostrada como icono de acceso directo al foro.",
                 "logo_heading": "Logotipo",
                 "logo_text": "Sube una imagen para que sea mostrada en lugar del título del foro.",
-                "title": "Apariencia",
-                "submit_button": "=> core.ref.save_changes"
+                "title": "Apariencia"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -40,9 +39,7 @@
                 "slug_driver_text": "",
                 "title": "Lo esencial",
                 "welcome_banner_heading": "Mensaje de bienvenida",
-                "welcome_banner_text": "Introduce el texto que se mostrará en la lista de discusiones. Utilízalo para dar la bienvenida a los invitados en tu foro.",
-                "saved_message": "Tus cambios fueron guardados.",
-                "submit_button": "=> core.ref.save_changes"
+                "welcome_banner_text": "Introduce el texto que se mostrará en la lista de discusiones. Utilízalo para dar la bienvenida a los invitados en tu foro."
             },
             "dashboard": {
                 "clear_cache_button": "Limpiar caché",
@@ -99,12 +96,7 @@
                 "send_test_mail_success": "¡Correo de prueba enviado con éxito!",
                 "send_test_mail_text": "Esto enviará un correo electrónico utilizando la configuración anterior a tu dirección, {email}.",
                 "smtp_heading": "Configuración SMTP",
-                "title": "=> core.ref.email",
-                "submit_button": "=> core.ref.save_changes",
-                "heading": "=> core.ref.email",
-                "mail_mandrill_secret_label": "Clave secreta",
-                "mandrill_heading": "Configuración Mandrill",
-                "text": "Configura el servidor SMTP y las direcciones que tu foro usará para enviar correo electrónico."
+                "title": "=> core.ref.email"
             },
             "extension": {
                 "configure_scopes": "Configurar ámbitos",
@@ -124,8 +116,7 @@
                 "no_settings": "Esta extensión no tiene configuración.",
                 "open_modal": "Configuración abierta",
                 "permissions_title": "Permisos",
-                "uninstall_button": "Desinstalar",
-                "saved_message": "Se guardaron tus cambios."
+                "uninstall_button": "Desinstalar"
             },
             "header": {
                 "get_help": "Obtener ayuda",
@@ -158,14 +149,7 @@
                 "permissions_title": "Configura quién puede ver y hacer qué.",
                 "userlist_button": "",
                 "userlist_title": "",
-                "search_placeholder": "Buscar extensión",
-                "appearance_text": "Personalizar el aspecto del foro.",
-                "basics_text": "Ajustes generales del foro.",
-                "dashboard_text": "El foro en un vistazo.",
-                "email_text": "Configura los ajustes del correo electrónico de tu foro.",
-                "extensions_button": "Extensiones",
-                "extensions_text": "Añadir funcionalidad al foro.",
-                "permissions_text": "Configura quién puede hacer qué."
+                "search_placeholder": "Buscar extensión"
             },
             "permissions": {
                 "allow_post_editing_label": "Permitir editar publicaciones",
@@ -195,9 +179,7 @@
                 "view_forum_label": "",
                 "view_hidden_groups_label": "Ver iconos de grupos ocultos",
                 "view_last_seen_at_label": "Ver a qué hora fue la última conexión de un usuario",
-                "view_post_ips_label": "Ver direcciones IP de las publicaciones",
-                "view_discussions_label": "Ver discusiones",
-                "view_user_list_label": "Ver la lista de usuarios"
+                "view_post_ips_label": "Ver direcciones IP de las publicaciones"
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Indefinidamente",
@@ -255,12 +237,6 @@
                 },
                 "title": "",
                 "total_users": ""
-            },
-            "add_extension": {
-                "developer_text": "Si tú eres un desarrollador, puedes <a>leer la documentación</a> y probar a crear tus propias extensiones.",
-                "install_text": "Mientras tanto, puedes encontrar extensiones en <a>Flarum.org</a> e instalarlas manualmente mediante Composer.",
-                "temporary_text": "Un día, en un futuro no muy distante, este diálogo te permitirá añadir una extensión a tu foro con facilidad. ¡Estamos creando la plataforma en este momento!",
-                "title": "Añadir una extensión"
             }
         },
         "forum": {
@@ -466,20 +442,6 @@
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "Re-enviar correo electrónico de confirmación",
                 "sent_message": "Enviado"
-            },
-            "edit_user": {
-                "activate_button": "Activar usuario",
-                "email_heading": "=> core.ref.email",
-                "email_label": "=> core.ref.email",
-                "groups_heading": "Grupos",
-                "password_heading": "=> core.ref.password",
-                "password_label": "=> core.ref.password",
-                "set_password_label": "Establecer nueva contraseña",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "Editar usuario",
-                "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username",
-                "nothing_available": "No hay nada disponible para editar en este momento."
             }
         },
         "lib": {

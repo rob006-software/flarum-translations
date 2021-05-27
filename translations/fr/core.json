@@ -21,8 +21,7 @@
                 "favicon_text": "Transférez une image qui sera affichée comme icône de raccourci du forum.",
                 "logo_heading": "Logo",
                 "logo_text": "Transférez une image qui sera affichée à la place du titre du forum.",
-                "title": "Apparence",
-                "submit_button": "=> core.ref.save_changes"
+                "title": "Apparence"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -40,9 +39,7 @@
                 "slug_driver_text": "Sélectionnez un pilote qui sera utilisé pour l'identifiant texte unique de ce modèle.",
                 "title": "Essentiels",
                 "welcome_banner_heading": "Bannière de bienvenue",
-                "welcome_banner_text": "Personnalisez le texte qui s'affiche dans la bannière sur la page de la liste de toutes les discussions. Il vous permet d'accueillir les invités sur votre forum.",
-                "saved_message": "Vos modifications ont été enregistrées.",
-                "submit_button": "=> core.ref.save_changes"
+                "welcome_banner_text": "Personnalisez le texte qui s'affiche dans la bannière sur la page de la liste de toutes les discussions. Il vous permet d'accueillir les invités sur votre forum."
             },
             "dashboard": {
                 "clear_cache_button": "Effacer le cache",
@@ -99,10 +96,7 @@
                 "send_test_mail_success": "Le courriel de test a été envoyé !",
                 "send_test_mail_text": "Cela enverra un courriel utilisant la configuration spécifiée ci-dessus à votre adresse de courriel {email}.",
                 "smtp_heading": "Paramètres SMTP",
-                "title": "=> core.ref.email",
-                "submit_button": "=> core.ref.save_changes",
-                "heading": "=> core.ref.email",
-                "text": "Configurer le pilote, les paramètres et les adresses que votre forum utilisera pour envoyer des courriels."
+                "title": "=> core.ref.email"
             },
             "extension": {
                 "configure_scopes": "Configurer Scopes",
@@ -122,8 +116,7 @@
                 "no_settings": "Cette extension n'a pas de paramètre.",
                 "open_modal": "Ouvrir les paramètres",
                 "permissions_title": "Permissions",
-                "uninstall_button": "Désinstaller",
-                "saved_message": "Vos modifications ont été enregistrées."
+                "uninstall_button": "Désinstaller"
             },
             "header": {
                 "get_help": "Obtenir de l'aide",
@@ -156,14 +149,7 @@
                 "permissions_title": "=> core.admin.permissions.description",
                 "userlist_button": "=> core.admin.users.title",
                 "userlist_title": "=> core.admin.users.description",
-                "search_placeholder": "Rechercher des extensions",
-                "appearance_text": "Personnalisez les couleurs, les logos et les autres aspects de votre forum.",
-                "basics_text": "Définissez le titre de votre forum, la langue et d'autres paramètres basiques.",
-                "dashboard_text": "Votre forum en un coup d'œil.",
-                "email_text": "Configurez les paramètres de messagerie de votre forum.",
-                "extensions_button": "Extensions",
-                "extensions_text": "Ajoutez des fonctionnalités supplémentaires à votre forum pour vous l'approprier.",
-                "permissions_text": "Configurer qui peut voir et faire quoi."
+                "search_placeholder": "Rechercher des extensions"
             },
             "permissions": {
                 "allow_post_editing_label": "Autoriser la modification des messages",
@@ -193,9 +179,7 @@
                 "view_forum_label": "Voir le forum (discussions et utilisateurs)",
                 "view_hidden_groups_label": "Afficher les badges des groupes masqués",
                 "view_last_seen_at_label": "Toujours afficher la dernière connexion des utilisateurs",
-                "view_post_ips_label": "Voir les adresses IP des messages",
-                "view_discussions_label": "Voir les discussions",
-                "view_user_list_label": "Voir la liste des utilisateurs"
+                "view_post_ips_label": "Voir les adresses IP des messages"
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Indéfiniment",
@@ -253,17 +237,6 @@
                 },
                 "title": "=> core.ref.users",
                 "total_users": "Nombre total d'utilisateurs : {count}"
-            },
-            "add_extension": {
-                "developer_text": "Si vous êtes un développeur, vous pouvez <a>lire la documentation</a> et vous essayer à créer vos propres extensions.",
-                "install_text": "En attendant, vous pouvez rechercher des extensions sur <a>le site de la communauté de Flarum</a> et les installer manuellement à l'aide de Composer.",
-                "temporary_text": "Un jour, dans un avenir pas si lointain, cette fenêtre de dialogue vous permettra d'ajouter facilement une extension à votre forum. Nous sommes en train de construire un écosystème en ce moment même !",
-                "title": "Ajouter une extension"
-            },
-            "extensions": {
-                "add_button": "Ajouter une extension",
-                "settings_button": "=> core.ref.settings",
-                "uninstall_button": "Désinstaller"
             }
         },
         "forum": {
@@ -469,20 +442,6 @@
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "Renvoyer le courriel de confirmation",
                 "sent_message": "Envoyé"
-            },
-            "edit_user": {
-                "activate_button": "Activer l'utilisateur",
-                "email_heading": "=> core.ref.email",
-                "email_label": "=> core.ref.email",
-                "groups_heading": "Groupes",
-                "password_heading": "=> core.ref.password",
-                "password_label": "=> core.ref.password",
-                "set_password_label": "Définir un nouveau mot de passe",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "Modifier l'utilisateur",
-                "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username",
-                "nothing_available": "Il n'y a rien que vous puissiez modifier pour le moment."
             }
         },
         "lib": {

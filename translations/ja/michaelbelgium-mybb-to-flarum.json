@@ -28,46 +28,6 @@
                         "migrate_categories_label": ""
                     }
                 }
-            },
-            "nav": {
-                "title": "",
-                "description_text": ""
-            }
-        }
-    },
-    "mybbtoflarum": {
-        "admin": {
-            "nav": {
-                "title": "MyBB to Flarum",
-                "description": "MyBB フォーラムを Flarum に変換する"
-            },
-            "page": {
-                "text": "MyBBフォーラムをFlarumに変換する。以下の情報を入力して、「移行」をクリックします。",
-                "btnConvert": "移行",
-                "form": {
-                    "general": {
-                        "title": "移行設定",
-                        "migrateAvatars": "アバターの移行",
-                        "migrateSoftThreads": "ソフト削除トピックの移行",
-                        "migrateSoftPosts": "ソフト削除の返信の移行"
-                    },
-                    "mybb": {
-                        "title": "MyBB 設定",
-                        "host": "データベースアドレス",
-                        "user": "データベースのユーザー名",
-                        "password": "データベースのパスワード",
-                        "db": "データベース名",
-                        "prefix": "テーブルのプレフィックス",
-                        "mybbPath": "MyBB 絶対パス"
-                    },
-                    "options": {
-                        "title": "移行オプション",
-                        "migrateUsers": "ユーザーを移行する",
-                        "migrateThreadsPosts": "移行のトピックと対応",
-                        "migrateUserGroups": "ユーザーグループを移行する",
-                        "migrateCategories": "移行分類"
-                    }
-                }
             }
         }
     }

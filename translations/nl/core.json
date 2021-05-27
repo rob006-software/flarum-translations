@@ -21,8 +21,7 @@
                 "favicon_text": "Upload een afbeelding om weergegeven te worden als snelkoppeling.",
                 "logo_heading": "Logo",
                 "logo_text": "Upload een afbeelding om weergegeven te worden i.p.v. de forum titel.",
-                "title": "Vormgeving",
-                "submit_button": "=> core.ref.save_changes"
+                "title": "Vormgeving"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -40,9 +39,7 @@
                 "slug_driver_text": "Selecteer een driver dat moet worden gebruikt om dit model te sluggen.",
                 "title": "Basis",
                 "welcome_banner_heading": "Welkom banner",
-                "welcome_banner_text": "Configureer de tekst die wordt weergegeven in de banner op de 'Alle discussies' pagina. Gebruik dit om je gasten welkom te heten.",
-                "saved_message": "De wijzigingen zijn opgeslagen.",
-                "submit_button": "=> core.ref.save_changes"
+                "welcome_banner_text": "Configureer de tekst die wordt weergegeven in de banner op de 'Alle discussies' pagina. Gebruik dit om je gasten welkom te heten."
             },
             "dashboard": {
                 "clear_cache_button": "Cache wissen",
@@ -99,8 +96,7 @@
                 "send_test_mail_success": "Testmail succesvol verzonden!",
                 "send_test_mail_text": "Hiermee wordt een e-mail met de bovenstaande configuratie naar uw e-mailadres gestuurd, {email}.",
                 "smtp_heading": "SMTP instellingen",
-                "title": "=> core.ref.email",
-                "submit_button": "=> core.ref.save_changes"
+                "title": "=> core.ref.email"
             },
             "extension": {
                 "configure_scopes": "Configureer bereiken",
@@ -120,8 +116,7 @@
                 "no_settings": "Deze extensie heeft geen instellingen.",
                 "open_modal": "Open instellingen",
                 "permissions_title": "Rechten",
-                "uninstall_button": "Deïnstalleren",
-                "saved_message": "Uw wijzigingen zijn opgeslagen."
+                "uninstall_button": "Deïnstalleren"
             },
             "header": {
                 "get_help": "Krijg hulp",
@@ -184,9 +179,7 @@
                 "view_forum_label": "",
                 "view_hidden_groups_label": "Bekijk verborgen groepsbadges",
                 "view_last_seen_at_label": "Bekijk gebruiker laatst gezien",
-                "view_post_ips_label": "Bekijk IP adressen van bericht",
-                "view_discussions_label": "Bekijk discussies",
-                "view_user_list_label": "Bekijk gebruikerslijst"
+                "view_post_ips_label": "Bekijk IP adressen van bericht"
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Voor onbepaalde tijd",
@@ -449,20 +442,6 @@
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "Bevestigings e-mail opnieuw sturen",
                 "sent_message": "Verstuurd"
-            },
-            "edit_user": {
-                "activate_button": "Activeer gebruiker",
-                "email_heading": "=> core.ref.email",
-                "email_label": "=> core.ref.email",
-                "groups_heading": "Groepen",
-                "password_heading": "=> core.ref.password",
-                "password_label": "=> core.ref.password",
-                "set_password_label": "Stel een nieuw wachtwoord in",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "Gebruiker bewerken",
-                "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username",
-                "nothing_available": "Er is op dit moment niets beschikbaar dat u kunt bewerken."
             }
         },
         "lib": {
