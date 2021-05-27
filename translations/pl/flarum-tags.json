@@ -51,8 +51,8 @@
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
-                "choose_primary_placeholder": "Wybierz główny tag|Wybierz {count} główne tagi|Wybierz {count} głównych tagów",
-                "choose_secondary_placeholder": "Wybierz 1 podrzędny tag|Wybierz {count} podrzędne tagi|Wybierz {count} podrzędnych tagów",
+                "choose_primary_placeholder": "{count, plural, one {Wybierz główny tag} few {Wybierz # główne tagi} other {Wybierz # głównych tagów}}",
+                "choose_secondary_placeholder": "{count, plural, one {Wybierz 1 dodatkowy tag} few {Wybierz # dodatkowe tagi} other {Wybierz # dodatkowych tagów}}",
                 "edit_title": "Edytuj tagi dla {title}",
                 "submit_button": "=> core.ref.okay",
                 "title": "Wybierz tagi dla swojej dyskusji"
@@ -75,7 +75,7 @@
                 "added_and_removed_tags_text": "{username} dodał {tagsAdded} i usunął {tagsRemoved}.",
                 "added_tags_text": "{username} dodał {tagsAdded}.",
                 "removed_tags_text": "{username} usunął {tagsRemoved}.",
-                "tags_text": "tag {tags}|tagi {tags}"
+                "tags_text": "{count, plural, one {tag {tags}} other {tagi {tags}}}"
             },
             "tag": {
                 "meta_description_text": "Wszystkie dyskusje oznaczone tagiem {tag}"
