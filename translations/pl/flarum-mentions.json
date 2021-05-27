@@ -17,8 +17,8 @@
                 "user_mentioned_text": "{username} wspomniał o Tobie"
             },
             "post": {
-                "mentioned_by_self_text": "{users} odpowiedziałeś na to.|{users} odpowiedzieliście na to.",
-                "mentioned_by_text": "{users} odpowiedział na to.|{users} odpowiedzieli na to.",
+                "mentioned_by_self_text": "{count, plural, one {{users} odpowiedziałeś na to} other {{users} odpowiedziliście na to}}.",
+                "mentioned_by_text": "{users} {count, plural, one {odpowiedział na to} =2 {odpowiedzieli na to} =3 {odpowiedzieli na to} =4 {odpowiedzieli na to} other {odpowiedziało na to}}.",
                 "others_text": "=> core.ref.some_others",
                 "quote_button": "Cytuj",
                 "reply_link": "=> core.ref.reply",
