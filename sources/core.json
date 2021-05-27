@@ -10,7 +10,7 @@
                 "custom_header_heading": "Custom Header",
                 "custom_header_text": "=> core.ref.custom_header_text",
                 "custom_styles_heading": "Custom Styles",
-                "custom_styles_text": "Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's default styles.",
+                "custom_styles_text": "Customize your forum's appearance by adding your own Less/CSS code to be applied on top of Flarum's default styles.",
                 "dark_mode_label": "Dark Mode",
                 "description": "Customize your forum's colors, logos, and other variables.",
                 "edit_css_button": "Edit Custom CSS",
@@ -21,8 +21,7 @@
                 "favicon_text": "Upload an image to be displayed as the forum's shortcut icon.",
                 "logo_heading": "Logo",
                 "logo_text": "Upload an image to be displayed in place of the forum title.",
-                "title": "Appearance",
-                "submit_button": "=> core.ref.save_changes"
+                "title": "Appearance"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -40,9 +39,7 @@
                 "slug_driver_text": "Select a driver to be used for slugging this model.",
                 "title": "Basics",
                 "welcome_banner_heading": "Welcome Banner",
-                "welcome_banner_text": "Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum.",
-                "saved_message": "Your changes were saved.",
-                "submit_button": "=> core.ref.save_changes"
+                "welcome_banner_text": "Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum."
             },
             "dashboard": {
                 "clear_cache_button": "Clear Cache",
@@ -51,7 +48,7 @@
                 "tools_button": "Tools"
             },
             "edit_css": {
-                "customize_text": "Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's <a>default styles</a>.",
+                "customize_text": "Customize your forum's appearance by adding your own Less/CSS code to be applied on top of Flarum's <a>default styles</a>.",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Edit Custom CSS"
             },
@@ -99,8 +96,7 @@
                 "send_test_mail_success": "Test mail sent successfully!",
                 "send_test_mail_text": "This will send an email using the above configuration to your email, {email}.",
                 "smtp_heading": "SMTP Settings",
-                "title": "=> core.ref.email",
-                "submit_button": "=> core.ref.save_changes"
+                "title": "=> core.ref.email"
             },
             "extension": {
                 "configure_scopes": "Configure Scopes",
@@ -120,8 +116,7 @@
                 "no_settings": "This extension has no settings.",
                 "open_modal": "Open Settings",
                 "permissions_title": "Permissions",
-                "uninstall_button": "Uninstall",
-                "saved_message": "Your changes were saved."
+                "uninstall_button": "Uninstall"
             },
             "header": {
                 "get_help": "Get Help",
@@ -184,13 +179,11 @@
                 "view_forum_label": "View forum (discussions and users)",
                 "view_hidden_groups_label": "View hidden group badges",
                 "view_last_seen_at_label": "Always view user last seen time",
-                "view_post_ips_label": "View post IP addresses",
-                "view_discussions_label": "View discussions",
-                "view_user_list_label": "View user list"
+                "view_post_ips_label": "View post IP addresses"
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Indefinitely",
-                "allow_some_minutes_button": "For {count} minute|For {count} minutes",
+                "allow_some_minutes_button": "{count, plural, one {For # minute} other {For # minutes}}",
                 "allow_ten_minutes_button": "For 10 minutes",
                 "allow_until_reply_button": "Until next reply",
                 "everyone_button": "Everyone",
@@ -383,7 +376,7 @@
                 "now_link": "Now",
                 "original_post_link": "Original Post",
                 "unread_text": "{count} unread",
-                "viewing_text": "{index} of {count} post|{index} of {count} posts"
+                "viewing_text": "{count, plural, one {{index} of {formattedCount} post} other {{index} of {formattedCount} posts}}"
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "The old title was: \"{old}\"",
@@ -449,20 +442,6 @@
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "Resend Confirmation Email",
                 "sent_message": "Sent"
-            },
-            "edit_user": {
-                "activate_button": "Activate User",
-                "email_heading": "=> core.ref.email",
-                "email_label": "=> core.ref.email",
-                "groups_heading": "Groups",
-                "password_heading": "=> core.ref.password",
-                "password_label": "=> core.ref.password",
-                "set_password_label": "Set new password",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "Edit User",
-                "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username",
-                "nothing_available": "There is nothing available for you to edit at this time."
             }
         },
         "lib": {
@@ -513,7 +492,7 @@
             "content": {
                 "javascript_disabled_message": "This site is best viewed in a modern browser with JavaScript enabled.",
                 "load_error_message": "Something went wrong while trying to load the full version of this site. Try hard-refreshing this page to fix the error.",
-                "loading_text": "Loading..."
+                "loading_text": "=> core.ref.loading"
             },
             "discussion": {
                 "next_page_button": "=> core.ref.next_page",
@@ -605,7 +584,7 @@
             "save_changes": "Save Changes",
             "settings": "Settings",
             "sign_up": "Sign Up",
-            "some_others": "{count} other|{count} others",
+            "some_others": "{count, plural, one {# other} other {# others}}",
             "start_a_discussion": "Start a Discussion",
             "username": "Username",
             "users": "Users",
