@@ -192,7 +192,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Indefinitamente",
-                "allow_some_minutes_button": "Per {count} minuto|Per {count} minuti",
+                "allow_some_minutes_button": "{count, plural, one {Per # minuto} other {Per # minuti}}",
                 "allow_ten_minutes_button": "Per 10 minuti",
                 "allow_until_reply_button": "Fino alla prossima risposta",
                 "everyone_button": "Tutti",
@@ -385,7 +385,7 @@
                 "now_link": "Ora",
                 "original_post_link": "Messaggio originale",
                 "unread_text": "{count} non letti",
-                "viewing_text": "{index} di {count} messaggio|{index} di {count} messaggi"
+                "viewing_text": "{count, plural, one {{index} di {formattedCount} post} other {{index} di {formattedCount} post}}"
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "Il vecchio titolo era: \"{old}\"",
@@ -607,7 +607,7 @@
             "save_changes": "Salva cambiamenti",
             "settings": "Impostazioni",
             "sign_up": "Registrati",
-            "some_others": "{count} altro|{count} altri",
+            "some_others": "{count, plural, one {# altro} other {# altri}}",
             "start_a_discussion": "Inizia una discussione",
             "username": "Nome utente",
             "users": "Utenti",
