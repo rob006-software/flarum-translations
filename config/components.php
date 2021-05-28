@@ -577,6 +577,9 @@ return [
 	'nomiscz-auth-wechat' => [
 		'tag' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-wechat/v0.1.4/resources/locale/en.yml',
 	],
+	'reazzon-pages' => [
+		'tag' => 'https://raw.githubusercontent.com/FlusherDock1/pages/1.0.0/resources/locale/en.yml',
+	],
 	'reflar-level-ranks' => [
 		'tag' => 'https://raw.githubusercontent.com/ReFlar/level-ranks/1.2.3/resources/locale/en.yml',
 	],
