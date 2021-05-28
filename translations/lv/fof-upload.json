@@ -107,42 +107,42 @@
             }
         },
         "forum": {
-            "media_manager": "",
+            "media_manager": "Multivides menedžeris",
             "buttons": {
-                "attach": "",
-                "upload": "",
-                "user_uploads": "",
-                "cancel": "",
-                "media": ""
+                "attach": "Pievienot",
+                "upload": "Augšupielādēt",
+                "user_uploads": "Lietotāja augšupielādes",
+                "cancel": "Atcelt",
+                "media": "Mana multivide"
             },
             "file_list": {
-                "loading": "",
-                "empty": "",
-                "release_to_upload": "",
-                "modal_empty_desktop": "",
-                "modal_empty_phone": "",
-                "select_file_a11y_label": "",
-                "confirm_selection_btn": "",
-                "load_more_files_btn": "",
+                "loading": "Notiek failu ielāde...",
+                "empty": "Nav failu, ko parādīt.",
+                "release_to_upload": "Atlaid, lai augšupielādētu",
+                "modal_empty_desktop": "Tavs failu saraksts ir tukšs. Lai augšupielādētu, noklikšķini uz pogas vai velc failu šeit.",
+                "modal_empty_phone": "Tavs failu saraksts ir tukšs. Klikšķini pogu augšpusē, lai augšupielādētu failu.",
+                "select_file_a11y_label": "Izvēlies failu \"{fileName}\"",
+                "confirm_selection_btn": "{fileCount, plural, =0 {None selected} one {Select file} other {Select files}}",
+                "load_more_files_btn": "Ielādēt vairāk failus",
                 "hide_file": {
-                    "btn_a11y_label": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "hide_fail": "",
-                    "loading": ""
+                    "btn_a11y_label": "Noslēpt \"{fileName}\"",
+                    "hide_confirmation": "Vai esi pārliecināts, ka vēlies noslēpt \"{fileName}\"? Noslēpšana šo failu dzēsīs tikai no galerijas un neietekmēs nevienu ziņojumu.",
+                    "hide_success": "Fails noslēpts",
+                    "hide_fail": "Nevarēja noslēpt failu \"{fileName}\"",
+                    "loading": "Slēpjam failu..."
                 }
             },
             "states": {
-                "error": "",
-                "loading": "",
-                "unauthorized": ""
+                "error": "Kļūda",
+                "loading": "Augšupielādē",
+                "unauthorized": "Jums nav atļaujas lejupielādēt failus"
             }
         },
         "api": {
             "upload_errors": {
-                "forbidden_type": "",
-                "unsupported_type": "",
-                "could_not_detect_mime": ""
+                "forbidden_type": "Šāda faila tipa augšupielāde nav atļauta.",
+                "unsupported_type": "Augšupielāde neatbalsta šādu 'mime' tipu: {mime}.",
+                "could_not_detect_mime": "Nevarēja noteikt šī faila MIME tipu. Lūdzu, mēģiniet vēlreiz."
             }
         }
     }
