@@ -19,7 +19,7 @@
                 "title_placeholder": "Özel Tartışma Başlığı"
             },
             "labels": {
-                "recipients": "{count} Alıcı|{count} Alıcı",
+                "recipients": "{count, plural, one {{count} Alıcı} other {{count} Alıcı}}",
                 "user_deleted": "-silinmiş-"
             },
             "nav": {
@@ -92,10 +92,10 @@
                 "private_discussion_added": "[Özel Tartışma]{display_name} seni bir özel tartışmaya ekledi"
             },
             "body": {
-                "private_discussion_created": "Hey {recipient_display_name},\n\n{actor_display_name} seni '{discussion_title}' başlıklı bir özel tartışmaya alıcı olarak ekledi.\n\nBuradan göz at:\n{discussion_url}\n\nİçeriği görüntüleyebilmek için önce giriş yapman gerekebilir.\n",
-                "private_discussion_replied": "Hey {recipient_display_name},\n\n{actor_display_name} alıcısı olduğun '{discussion_title}' başlıklı tartışmaya yeni bir gönderi girdi.\n\nBuradan göz at:\n{post_url}\n\nİçeriği görüntüleyebilmek için önce giriş yapman gerekebilir.\n",
-                "recipient_removed": "Hey {recipient_display_name},\n\n{actor_display_name} senin de alıcısı olduğun '{discussion_title}' başlıklı özel tartışmadan ayrıldı. Artık bu tartışmadaki gönderileri göremeyecekler.\n\nBuradan göz at:\n{discussion_url}\n\nİçeriği görüntüleyebilmek için önce giriş yapman gerekebilir.\n",
-                "private_discussion_added": "Hey {recipient_display_name},\n\n{actor_display_name} seni var olan '{discussion_title}' başlıklı özel bir tartışmaya alıcı olarak ekledi.\n\nBuradan göz at:\n{discussion_url}\n\nİçeriği görüntüleyebilmek için önce giriş yapman gerekebilir.\n"
+                "private_discussion_created": "Hey {recipient_display_name},\n\n{actor_display_name} seni {discussion_title} özel tartışmasına alıcı olarak ekledi.\n\nBuradan göz at:\n{discussion_url}\n\nİçeriği görüntüleyebilmek için önce giriş yapman gerekebilir.\n",
+                "private_discussion_replied": "Hey {recipient_display_name},\n\n{actor_display_name} alıcısı olduğun {discussion_title} özel tartışmasına yeni bir gönderi girdi.\n\nBuradan göz at:\n{post_url}\n\nİçeriği görüntüleyebilmek için önce giriş yapman gerekebilir.\n",
+                "recipient_removed": "Hey {recipient_display_name},\n\n{actor_display_name} senin de alıcısı olduğun {discussion_title} özel tartışmasından ayrıldı. Artık bu tartışmadaki gönderileri göremeyecekler.\n\nBuradan göz at:\n{discussion_url}\n\nİçeriği görüntüleyebilmek için önce giriş yapman gerekebilir.\n",
+                "private_discussion_added": "Hey {recipient_display_name},\n\n{actor_display_name} seni var olan {discussion_title} özel bir tartışmasına alıcı olarak ekledi.\n\nBuradan göz at:\n{discussion_url}\n\nİçeriği görüntüleyebilmek için önce giriş yapman gerekebilir.\n"
             }
         }
     }
