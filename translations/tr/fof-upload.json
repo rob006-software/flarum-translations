@@ -122,7 +122,7 @@
                 "modal_empty_desktop": "Dosya listeniz boş. Yüklemek için düğmeye tıklayın veya buraya bir dosya sürükleyin.",
                 "modal_empty_phone": "Dosya listeniz boş. Bir dosya yüklemek için yukarıdaki düğmeye dokunun.",
                 "select_file_a11y_label": "\"{fileName}\" dosyasını seçin",
-                "confirm_selection_btn": "Dosya seçin|Dosyaları seçin",
+                "confirm_selection_btn": "{fileCount, plural, =0 {Seçilmedi} one {Dosya seçin} other {Dosyaları seçin}}",
                 "load_more_files_btn": "Daha fazla dosya yükle",
                 "hide_file": {
                     "btn_a11y_label": "\"{fileName}\" dosyasını medya yöneticisinden gizle",
