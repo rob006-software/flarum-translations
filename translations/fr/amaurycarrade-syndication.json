@@ -2,40 +2,40 @@
     "amaurycarrade-syndication": {
         "forum": {
             "autodiscovery": {
-                "forum_activity": "",
-                "forum_new_discussions": "",
-                "tag_activity": "",
-                "tag_new_discussions": "",
-                "discussion_last_posts": ""
+                "forum_activity": "Activité du forum",
+                "forum_new_discussions": "Nouvelles discussions du forum",
+                "tag_activity": "Activité pour l’étiquette {tag}",
+                "tag_new_discussions": "Discussions dans l’étiquette {tag}",
+                "discussion_last_posts": "Cette discussion"
             },
             "feeds": {
                 "titles": {
-                    "main_title": "",
-                    "main_subtitle": "",
-                    "main_d_title": "",
-                    "main_d_subtitle": "",
-                    "tag_title": "",
-                    "tag_subtitle": "",
-                    "tag_d_title": "",
-                    "tag_d_subtitle": "",
-                    "discussion_title": "",
-                    "discussion_subtitle": ""
+                    "main_title": "{forum_name}",
+                    "main_subtitle": "Derniers messages sur le forum",
+                    "main_d_title": "Nouvelles discussions dans {forum_name}",
+                    "main_d_subtitle": "Les dernières discussions du forum",
+                    "tag_title": "Activité dans l’étiquette {tag}",
+                    "tag_subtitle": "Derniers messages dans l’étiquette {tag}",
+                    "tag_d_title": "Nouvelles discussions dans l’étiquette {tag}",
+                    "tag_d_subtitle": "Les dernières discussions dans l’étiquette {tag}",
+                    "discussion_title": "{discussion_name}",
+                    "discussion_subtitle": "Derniers messages de cette discussion"
                 }
             }
         },
         "admin": {
             "settings": {
-                "title": "",
+                "title": "Paramètres de syndication",
                 "full-text": {
-                    "label": "",
-                    "help": "",
-                    "recommendation": ""
+                    "label": "Flux de texte intégral",
+                    "help": "S’il est désactivé, les flux ne contiendront que des extraits de messages et les utilisateurs devront se rendre sur le forum pour tout lire.",
+                    "recommendation": "Il est recommandé de laisser cette option active afin de respecter les personnes qui suivent le forum depuis un agrégateur RSS - le cas échéant."
                 },
                 "html": {
-                    "label": "",
-                    "help": ""
+                    "label": "Flux formatés",
+                    "help": "Cochez cette case pour conserver le HTML dans les flux générés. Si désactivé, les flux seront en texte brut."
                 },
-                "entries-count": ""
+                "entries-count": "Combien d’entrées par flux ?"
             }
         }
     }
