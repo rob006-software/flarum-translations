@@ -7,22 +7,22 @@
         },
         "forum": {
             "notifications": {
-                "others_text": "",
-                "post_liked_text": ""
+                "others_text": "=> core.ref.some_others",
+                "post_liked_text": "{username} patīk tavs ieraksts"
             },
             "post": {
-                "like_link": "",
-                "liked_by_self_text": "",
+                "like_link": "Patīk",
+                "liked_by_self_text": "{users} patīk šis.",
                 "liked_by_text": "",
-                "others_link": "",
-                "unlike_link": "",
-                "you_text": ""
+                "others_link": "=> core.ref.some_others",
+                "unlike_link": "Noņemt patīk",
+                "you_text": "=> core.ref.you"
             },
             "post_likes": {
-                "title": ""
+                "title": "Lietotāji kuriem patīk šis"
             },
             "settings": {
-                "notify_post_liked_label": ""
+                "notify_post_liked_label": "Kādam patīk viena no manām ziņām"
             }
         }
     }
