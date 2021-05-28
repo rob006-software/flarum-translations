@@ -68,6 +68,13 @@ return [
 		'branch' => 'main',
 		'path' => '/locale',
 	],
+	'lv' => [
+		'type' => 'language',
+		'language' => 'lv',
+		'repository' => 'git@github.com:edevrob/flarum-lang-latvian.git',
+		'branch' => 'master',
+		'path' => '/locale',
+	],
 	'nl' => [
 		'type' => 'language',
 		'language' => 'nl',

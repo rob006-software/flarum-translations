@@ -22,6 +22,7 @@ return [
 	'it' => getComponents(),
 	'ja' => getComponents(),
 	'ka' => getComponents(),
+	'lv' => getComponents(),
 	'nl' => getComponents(),
 	'pl' => getComponents(),
 	'si' => getComponents(),
