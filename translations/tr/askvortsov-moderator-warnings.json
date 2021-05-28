@@ -9,21 +9,21 @@
         },
         "emails": {
             "post_warned": {
-                "subject": "{warner_display_name}, sizi {discussion_title} tartışması için {strikes} ihtarla uyardı",
-                "body": "Merhaba {warnee_display_name}!\n\n{warner_display_name}, sizi {discussion_title} tartışması için {strikes} ihtarla uyardı\n\nNeden aşağıda yazmaktadır:\n\n---\n\n{public_comment}\n"
+                "subject": "{warner_display_name} sizi {discussion_title} tartışması için {strikes, plural, one {# ihtarla} other {# ihtarla}} uyardı",
+                "body": "Merhaba {warnee_display_name}!\n\n{warner_display_name}, sizi {discussion_title} tartışması için {strikes, plural, one {# ihtarla} other {# ihtarla}} uyardı\n\nNeden aşağıda yazmaktadır:\n\n---\n\n{public_comment}\n"
             },
             "user_warned": {
-                "subject": "{warner_display_name} sizi {strikes} ihtarla uyardı",
-                "body": "Merhaba {warner_display_name}!\n\n{warner_display_name} sizi {strikes} ihtarla uyardı\n\nNeden aşağıda yazmaktadır:\n\n---\n\n{public_comment}\n"
+                "subject": "{warner_display_name} sizi {strikes, plural, one {# ihtarla} other {# ihtarla}} uyardı",
+                "body": "Merhaba {warner_display_name}!\n\n{warner_display_name} sizi {strikes, plural, one {# ihtarla} other {# ihtarla}} uyardı\n\nNeden aşağıda yazmaktadır:\n\n---\n\n{public_comment}\n"
             }
         },
         "forum": {
             "notifications": {
-                "warning_text": "{mod_username} adlı moderatör tarafından {strikes} ihtarla uyarıldınız!",
+                "warning_text": "{mod_username} adlı moderatör tarafından {strikes, plural, one {# ihtarla} other {# ihtarla}} uyarıldınız",
                 "warning_no_strikes_text": "{mod_username} sizi uyardı! (Sebep?)"
             },
             "post": {
-                "warning": "{mod_username} adlı moderatör tarafından {strikes} ihtarla uyarıldınız!",
+                "warning": "{mod_username} adlı moderatör tarafından {strikes, plural, one {# ihtarla} other {# ihtarla}} uyarıldınız!",
                 "warning_no_strikes": "{mod_username} tarafından uyarıldınız!"
             },
             "post_controls": {
@@ -47,12 +47,12 @@
             "warning_list": {
                 "add_button": "Yeni Uyarı",
                 "no_warnings": "Burada hiç uyarı yok gibi görünüyor.",
-                "warnings": "Moderatör Uyarıları: {strikes} uyarı aldın!",
+                "warnings": "{strikes, plural, one {Moderatör Uyarıları: # uyarı aldın} other {Moderatör Uyarıları: # uyarı aldın}}",
                 "warnings_no_strikes": "Moderatör Uyarıları: Hiçbir Uyarı Alınmadı"
             },
             "warning_list_item": {
-                "list_item_heading": "<strong>{mod_username}</strong> adlı moderatör <strong>{strikes}</strong> ihtarla uyardı",
-                "list_item_heading_hidden": "<strong>{mod_username}</strong> adlı moderatör <strong>{strikes}</strong> uyarıları <strong>(silindi)</strong>",
+                "list_item_heading": "{strikes, plural, one {<strong>#</strong> ihtar, {time}} other {<strong>#</strong> ihtar, {time}}}",
+                "list_item_heading_hidden": "{strikes, plural, one {<strong>#</strong> ihtar, {time} <strong>(silindi)</strong>} other {<strong>#</strong> ihtar, {time} <strong>(silindi)</strong>}}",
                 "public_comment": "Uyarı",
                 "private_comment": "Moderatörlere Görünür Yorumlar",
                 "linked_post": "Bağlantılı Gönderi"
