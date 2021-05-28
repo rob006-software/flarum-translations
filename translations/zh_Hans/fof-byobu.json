@@ -19,7 +19,7 @@
                 "title_placeholder": "私密主题标题"
             },
             "labels": {
-                "recipients": "仅 {count} 人可见|仅 {count} 人可见",
+                "recipients": "{count, plural, one {{count}} other {{count}}} 人可见",
                 "user_deleted": "--已删除--"
             },
             "nav": {
