@@ -22,6 +22,13 @@ return [
 		'branch' => 'main',
 		'path' => '/locale/es-ES-informal',
 	],
+	'et' => [
+		'type' => 'language',
+		'language' => 'et',
+		'repository' => 'git@github.com:aprold/flarum-lang-estonian.git',
+		'branch' => 'master',
+		'path' => '/locale',
+	],
 	'fr' => [
 		'type' => 'language',
 		'language' => 'fr',
