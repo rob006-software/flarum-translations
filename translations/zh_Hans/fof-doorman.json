@@ -31,7 +31,7 @@
             "page": {
                 "title": "看门人",
                 "doorkey": {
-                    "used_times": "剩余 1 次邀请|剩余 {remaining} 次邀请",
+                    "used_times": "{remaining, plural, one {剩余 {remaining} 次} other {剩余 {remaining} 次}}",
                     "title": "邀请码",
                     "help": {
                         "key": "邀请码：用户在注册时输入的邀请码。",
