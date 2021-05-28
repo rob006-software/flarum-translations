@@ -241,49 +241,49 @@
         },
         "forum": {
             "change_email": {
-                "confirm_password_placeholder": "",
-                "confirmation_message": "",
-                "dismiss_button": "",
-                "incorrect_password_message": "",
-                "submit_button": "",
-                "title": ""
+                "confirm_password_placeholder": "=> core.ref.confirm_password",
+                "confirmation_message": "=> core.ref.confirmation_email_sent",
+                "dismiss_button": "=> core.ref.okay",
+                "incorrect_password_message": "Ievadītā parole nav pareiza.",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.change_email"
             },
             "change_password": {
-                "send_button": "",
-                "text": "",
-                "title": ""
+                "send_button": "Nosūtīt paroles atjaunošanas e-pastu",
+                "text": "Noklikšķiniet uz tālāk esošās pogas un pārbaudiet, vai e-pastā nav saites, lai mainītu paroli.",
+                "title": "=> core.ref.change_password"
             },
             "composer": {
-                "close_tooltip": "",
-                "exit_full_screen_tooltip": "",
-                "full_screen_tooltip": "",
-                "minimize_tooltip": "",
-                "preview_tooltip": ""
+                "close_tooltip": "Aizvērt",
+                "exit_full_screen_tooltip": "Iziet no pilnekrāna",
+                "full_screen_tooltip": "Pilnekrāns",
+                "minimize_tooltip": "Minimizēt",
+                "preview_tooltip": "Priekšskatījums"
             },
             "composer_discussion": {
-                "body_placeholder": "",
-                "discard_confirmation": "",
-                "submit_button": "",
-                "title": "",
-                "title_placeholder": ""
+                "body_placeholder": "Rakstīt ziņu...",
+                "discard_confirmation": "Jūs neesat publicējis diskusiju. Vai vēlaties to atmest?",
+                "submit_button": "Publicēt diskusiju",
+                "title": "=> core.ref.start_a_discussion",
+                "title_placeholder": "Diskusijas nosaukums"
             },
             "composer_edit": {
-                "discard_confirmation": "",
-                "edited_message": "",
-                "post_link": "",
-                "submit_button": "",
-                "view_button": ""
+                "discard_confirmation": "Jūs neesat saglabājis izmaiņas. Vai vēlaties tās atmest?",
+                "edited_message": "Jūsu labojums tika veikts.",
+                "post_link": "Ieraksts #{number} iekš {discussion}",
+                "submit_button": "=> core.ref.save_changes",
+                "view_button": "=> core.ref.view"
             },
             "composer_reply": {
-                "body_placeholder": "",
-                "discard_confirmation": "",
-                "posted_message": "",
-                "submit_button": "",
-                "view_button": ""
+                "body_placeholder": "=> core.ref.write_a_reply",
+                "discard_confirmation": "Jūs neesat publicējis šo atbildi. Vai vēlaties to atmest?",
+                "posted_message": "Jūsu atbilde tika publicēta.",
+                "submit_button": "Publicēt atbildi",
+                "view_button": "=> core.ref.view"
             },
             "discussion_controls": {
-                "cannot_reply_button": "",
-                "cannot_reply_text": "",
+                "cannot_reply_button": "Nevar atbildēt",
+                "cannot_reply_text": "Jums nav atļaujas atbildēt uz šo diskusiju.",
                 "delete_button": "",
                 "delete_confirmation": "",
                 "delete_forever_button": "",
