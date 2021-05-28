@@ -15,6 +15,7 @@ use function rob006\flarum\translations\helpers\getComponents;
 
 return [
 	'es' => getComponents(),
+	'et' => getComponents(),
 	'fr' => getComponents([
 		// translations included in extension
 		'!tituspijean-auth-ldap',
