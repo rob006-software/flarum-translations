@@ -18,6 +18,10 @@
                 }
             },
             "chat": {
+                "welcome": {
+                    "header": "",
+                    "subheader": ""
+                },
                 "moder": "",
                 "kick": "",
                 "leave": "",
@@ -29,14 +33,6 @@
                         "lost": ""
                     },
                     "form": {
-                        "leave": "",
-                        "return": "",
-                        "delete": {
-                            "title": "",
-                            "desc": "",
-                            "placeholder": "",
-                            "button": ""
-                        },
                         "title": {
                             "label": "",
                             "validator": ""
@@ -51,6 +47,14 @@
                         },
                         "users": {
                             "edit": ""
+                        },
+                        "leave": "",
+                        "return": "",
+                        "delete": {
+                            "title": "",
+                            "desc": "",
+                            "placeholder": "",
+                            "button": ""
                         }
                     },
                     "search": {
@@ -79,7 +83,6 @@
                             "exists": ""
                         },
                         "form": {
-                            "users": "",
                             "title": {
                                 "chat": "",
                                 "channel": "",
@@ -92,7 +95,8 @@
                             "color": {
                                 "label": "",
                                 "validator": ""
-                            }
+                            },
+                            "users": ""
                         },
                         "search": {
                             "placeholder": "",
@@ -145,10 +149,6 @@
                             "entered": ""
                         }
                     }
-                },
-                "welcome": {
-                    "header": "",
-                    "subheader": ""
                 }
             },
             "errors": {
@@ -163,13 +163,13 @@
                 "edit": "",
                 "delete": "",
                 "enabled": "",
-                "moderate": {
-                    "delete": "",
-                    "vision": ""
-                },
                 "create": {
                     "chat": "",
                     "channel": ""
+                },
+                "moderate": {
+                    "delete": "",
+                    "vision": ""
                 }
             },
             "settings": {
