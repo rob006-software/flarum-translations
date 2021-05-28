@@ -7,37 +7,37 @@
         },
         "lib": {
             "composer": {
-                "toggle_button": "",
-                "insert_button": "",
+                "toggle_button": "切换富文本模式",
+                "insert_button": "插入",
                 "insert_image": {
-                    "src_placeholder": "",
-                    "title_placeholder": ""
+                    "src_placeholder": "链接",
+                    "title_placeholder": "标题"
                 },
                 "insert_link": {
-                    "text_placeholder": "",
-                    "href_placeholder": "",
-                    "title_placeholder": "",
-                    "remove_button": ""
+                    "text_placeholder": "文本",
+                    "href_placeholder": "地址URL",
+                    "title_placeholder": "标题（在悬停时显示）",
+                    "remove_button": "移除"
                 },
-                "additional_items_tooltip": "",
-                "bold_tooltip": "",
-                "code_tooltip": "",
-                "code_block_tooltip": "",
-                "header_tooltip": "",
-                "horizontal_rule_tooltip": "",
-                "image_tooltip": "",
-                "italic_tooltip": "",
-                "link_tooltip": "",
-                "ordered_list_tooltip": "",
-                "paragraph_tooltip": "",
-                "quote_tooltip": "",
-                "spoiler_block_tooltip": "",
+                "additional_items_tooltip": "附加控制",
+                "bold_tooltip": "粗体文本  <{modifierKey}-b>",
+                "code_tooltip": "内联代码 <{modifierKey}-`>",
+                "code_block_tooltip": "插入一个代码区块",
+                "header_tooltip": "更改为标题 {level} <shift-{modifierKey}-{level}>",
+                "horizontal_rule_tooltip": "插入水平线规则",
+                "image_tooltip": "添加图片",
+                "italic_tooltip": "斜体文本 <{modifierKey}-i>",
+                "link_tooltip": "添加一个链接",
+                "ordered_list_tooltip": "有序列表 <shift-{modifierKey}-9>",
+                "paragraph_tooltip": "修改为段落  <shift-{modifierKey}-0>",
+                "quote_tooltip": "插入引用 <{modifierKey}-q>",
+                "spoiler_block_tooltip": "下拉菜单",
                 "spoiler_inline_tooltip": "",
-                "strike_tooltip": "",
-                "sub_tooltip": "",
-                "sup_tooltip": "",
-                "text_type_tooltip": "",
-                "unordered_list_tooltip": ""
+                "strike_tooltip": "删除线<alt-shift-5>",
+                "sub_tooltip": "下标<{modifierKey}-,>",
+                "sup_tooltip": "上标<{modifierKey}-.>",
+                "text_type_tooltip": "选择文本类型",
+                "unordered_list_tooltip": "带标题的列表 <shift-{modifierKey}-8>"
             }
         },
         "forum": {
