@@ -10,7 +10,7 @@
                 "custom_header_heading": "Özel Üstbilgi",
                 "custom_header_text": "=> core.ref.custom_header_text",
                 "custom_styles_heading": "Özel Stiller",
-                "custom_styles_text": "Flarum'un varsayılan stillerine uygulanacak kendi LESS/CSS kodunu ekleyerek forumunun görünümünü özelleştir.",
+                "custom_styles_text": "Flarum'un varsayılan stillerine uygulanacak kendi Less/CSS kodunu ekleyerek forumunun görünümünü özelleştir.",
                 "dark_mode_label": "Karanlık Mod",
                 "description": "Forumunun renklerini, logosunu ve diğer değişkenlerini özelleştir.",
                 "edit_css_button": "Özel CSS’i Düzenle",
@@ -48,7 +48,7 @@
                 "tools_button": "Araçlar"
             },
             "edit_css": {
-                "customize_text": "Forumununun görünümünü, Flarum'un <a> varsayılan stillerine </a> uygulanacak kendi LESS/CSS kodunu ekleyerek özelleştir.",
+                "customize_text": "Forumununun görünümünü, Flarum'un <a> varsayılan stillerine </a> uygulanacak kendi Less/CSS kodunu ekleyerek özelleştir.",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Özel CSS’i Düzenle"
             },
@@ -183,7 +183,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Sonsuza kadar",
-                "allow_some_minutes_button": "{count} dakika içinde|{count} dakika içinde",
+                "allow_some_minutes_button": "{count, plural, one {# dakika içinde} other {# dakika içinde}}",
                 "allow_ten_minutes_button": "10 dakikalığına",
                 "allow_until_reply_button": "Bir sonraki yanıta kadar",
                 "everyone_button": "Herkes",
@@ -376,7 +376,7 @@
                 "now_link": "Şimdi",
                 "original_post_link": "İlk Gönderi",
                 "unread_text": "{count} okunmamış",
-                "viewing_text": "{index} < {count} gönderi|{index} < {count} gönderi"
+                "viewing_text": "{count, plural, one {{index} of {formattedCount} gender} other {{index} of {formattedCount} gender}}"
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "Eski başlık şuydu: \"{old}\"",
@@ -492,7 +492,7 @@
             "content": {
                 "javascript_disabled_message": "Bu site en iyi JavaScript etkinleştirilmiş modern bir tarayıcıda görüntülenir.",
                 "load_error_message": "Bu sitenin tam sürümünü yüklemeye çalışırken bir şeyler ters gitti. Hatayı düzeltmek için bu sayfayı yenilemeyi deneyin.",
-                "loading_text": "Yükleniyor..."
+                "loading_text": "=> core.ref.loading"
             },
             "discussion": {
                 "next_page_button": "=> core.ref.next_page",
@@ -584,7 +584,7 @@
             "save_changes": "Değişiklikleri Kaydet",
             "settings": "Ayarlar",
             "sign_up": "Kaydol",
-            "some_others": "{count} diğer|{count} diğer",
+            "some_others": "{count, plural, one {# diğer} other {# diğer}}",
             "start_a_discussion": "Bir Tartışma Başlat",
             "username": "Kullanıcı Adı",
             "users": "Kullanıcılar",
