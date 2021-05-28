@@ -9,15 +9,15 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Cabecera personalizada",
                 "custom_header_text": "=> core.ref.custom_header_text",
-                "custom_styles_heading": "Estilos personalizados",
+                "custom_styles_heading": "Estilos Personalizados",
                 "custom_styles_text": "Personaliza la apariencia de tu foro añadiendo tu propio código Less/CSS, que se aplicará sobre los estilos por defecto de Flarum.",
-                "dark_mode_label": "Modo oscuro",
+                "dark_mode_label": "Modo Oscuro",
                 "description": "Personaliza los colores, logotipos y otras variables de tu foro.",
-                "edit_css_button": "Editar los estilos personalizados",
+                "edit_css_button": "Editar los Estilos Personalizados",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
                 "enter_hex_message": "Por favor, introduce un código hexadecimal de color.",
-                "favicon_heading": "Icono de Favoritos o <em>Favicon</em>",
+                "favicon_heading": "Favicon",
                 "favicon_text": "Sube una imagen para que sea mostrada como icono de acceso directo al foro.",
                 "logo_heading": "Logotipo",
                 "logo_text": "Sube una imagen para que sea mostrada en lugar del título del foro.",
@@ -376,7 +376,7 @@
                 "now_link": "Ahora",
                 "original_post_link": "Publicación original",
                 "unread_text": "{count} sin leer",
-                "viewing_text": "{index} de {count} publicación|{index} de {count} publicaciones"
+                "viewing_text": "{count, plural, one {{index} de {formattedCount} publicación} other {{index} de {formattedCount} publicaciones}}"
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "El título anterior era: \"{old}\"",
@@ -436,7 +436,7 @@
                 "delete_error_message": "Error al eliminar el usuario <i>{username} ({email})</i>",
                 "delete_success_message": "El usuario <i>{username} ({email})</i> fue eliminado",
                 "edit_button": "=> core.ref.edit",
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "Activar el menú desplegable de los controles del usuario"
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
@@ -449,20 +449,20 @@
                 "hidden_tooltip": "Oculto"
             },
             "dropdown": {
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "Activar el menú desplegable"
             },
             "edit_user": {
-                "activate_button": "",
-                "email_heading": "",
-                "email_label": "",
-                "groups_heading": "",
-                "password_heading": "",
-                "password_label": "",
-                "set_password_label": "",
-                "submit_button": "",
-                "title": "",
-                "username_heading": "",
-                "username_label": ""
+                "activate_button": "Activar usuario",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "Grupos",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "Establecer una nueva contraseña",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.edit_user",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username"
             },
             "error": {
                 "dependent_extensions_message": "No se puede desactivar {extension} hasta que se desactiven las siguientes extensiones dependientes: {extensions}",
@@ -473,7 +473,7 @@
                 "rate_limit_exceeded_message": "¡Para el carro! Vas tú muy rápido. Por favor, vuelve a intentarlo en unos segundos."
             },
             "loading_indicator": {
-                "accessible_label": ""
+                "accessible_label": "=> core.ref.loading"
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -492,7 +492,7 @@
             "content": {
                 "javascript_disabled_message": "Este sitio web se vé mejor en un navegador moderno con JavaScript activado.",
                 "load_error_message": "Algo salió mal cuando se intentó cargar la versión completa de este sitio web.",
-                "loading_text": "Cargando..."
+                "loading_text": "=> core.ref.loading"
             },
             "discussion": {
                 "next_page_button": "=> core.ref.next_page",
@@ -561,12 +561,12 @@
             "delete_forever": "Eliminar para siempre",
             "discussions": "Discusiones",
             "edit": "Editar",
-            "edit_user": "",
+            "edit_user": "Editar usuario",
             "email": "Correo electrónico",
             "icon": "Icono",
             "icon_text": "Introduce el nombre de alguna clase de <a>FontAwesome</a>, <em>incluyendo</em> el prefijo <code>fas fa-</code>.",
             "load_more": "Cargar más",
-            "loading": "",
+            "loading": "Cargando...",
             "log_in": "Acceder",
             "log_out": "Desconectarse",
             "mark_all_as_read": "Marcar todas como leídas",
@@ -584,7 +584,7 @@
             "save_changes": "Guardar cambios",
             "settings": "Configuración",
             "sign_up": "Regístrate",
-            "some_others": "{count} más|{count} más",
+            "some_others": "{count, plural, one {# más} other {# más}}",
             "start_a_discussion": "Crear discusión",
             "username": "Nombre de usuario",
             "users": "Usuarios",
