@@ -51,8 +51,8 @@
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
-                "choose_primary_placeholder": "Bir birincil etiket seçin|{count} birincil etiket seçin",
-                "choose_secondary_placeholder": "1 tane daha etiket seçin|{count} tane daha etiket seçin",
+                "choose_primary_placeholder": "{count, plural, one {Bir birincil etiket seçin} other {# birincil etiket seçin}}",
+                "choose_secondary_placeholder": "{count, plural, one {1 tane daha etiket seçin} other {# tane daha etiket seçin}}",
                 "edit_title": "{title} için Etiketleri Düzenle",
                 "submit_button": "=> core.ref.okay",
                 "title": "Tartışmanız için Etiket Seçin"
@@ -75,7 +75,7 @@
                 "added_and_removed_tags_text": "{username}, {tagsAdded} ekledi ve {tagsRemoved} kaldırdı.",
                 "added_tags_text": "{username}, {tagsAdded} ekledi.",
                 "removed_tags_text": "{username}, {tagsRemoved} kaldırdı.",
-                "tags_text": "{tags} etiketini | {tags} etiketlerini"
+                "tags_text": "{count, plural, one {{tags} etiketini} other {{tags} etiketlerini}}"
             },
             "tag": {
                 "meta_description_text": "{tag} etiketindeki tüm tartışmalar"
