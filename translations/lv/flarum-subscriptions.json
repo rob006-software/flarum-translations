@@ -2,49 +2,49 @@
     "flarum-subscriptions": {
         "forum": {
             "badge": {
-                "following_tooltip": "",
-                "ignoring_tooltip": ""
+                "following_tooltip": "=> flarum-subscriptions.ref.following",
+                "ignoring_tooltip": "=> flarum-subscriptions.ref.ignoring"
             },
             "discussion_controls": {
-                "follow_button": "",
-                "unfollow_button": "",
-                "unignore_button": ""
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "unfollow_button": "Atsekot",
+                "unignore_button": "Vairs neignorēt"
             },
             "following": {
-                "meta_title_text": ""
+                "meta_title_text": "=> flarum-subscriptions.ref.following"
             },
             "index": {
-                "following_link": ""
+                "following_link": "=> flarum-subscriptions.ref.following"
             },
             "notifications": {
-                "new_post_text": ""
+                "new_post_text": "{username} ievietoja ziņu"
             },
             "settings": {
-                "follow_after_reply_label": "",
-                "notify_new_post_label": ""
+                "follow_after_reply_label": "Automātiski sekot diskusijām kurās esmu ievietojis atbildi",
+                "notify_new_post_label": "Kāds ierakstīja ziņu diskusijā kurai tu seko"
             },
             "sub_controls": {
-                "follow_button": "",
-                "following_button": "",
-                "following_text": "",
-                "ignoring_button": "",
-                "ignoring_text": "",
-                "not_following_button": "",
-                "not_following_text": "",
-                "notify_alert_tooltip": "",
-                "notify_email_tooltip": ""
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "following_button": "=> flarum-subscriptions.ref.following",
+                "following_text": "Saņem paziņojumus par visām ziņām.",
+                "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
+                "ignoring_text": "Nekad nesaņemt paziņojumus. Paslēpt no diskusiju saraksta.",
+                "not_following_button": "Neseko",
+                "not_following_text": "Saņemt paziņojumus tikai kad esi @pieminēts.",
+                "notify_alert_tooltip": "Saņem foruma paziņojumus, kad ir jaunas ziņas",
+                "notify_email_tooltip": "Saņem e-pastu, kad ir jaunas ziņas"
             }
         },
         "email": {
             "new_post": {
-                "subject": "",
+                "subject": "[Jauna ziņa] {title}",
                 "body": ""
             }
         },
         "ref": {
-            "follow": "",
-            "following": "",
-            "ignoring": ""
+            "follow": "Sekot",
+            "following": "Sekoju",
+            "ignoring": "Ignorēju"
         }
     }
 }
