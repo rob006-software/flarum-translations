@@ -7,8 +7,8 @@
         },
         "forum": {
             "post": {
-                "was_split_to": "{count} gönderi {target} tartışmasına taşındı.|{count} gönderi {target} tartışmasına taşındı.",
-                "was_split_from": "{count} gönderi {target} tartışmasından taşındı.|{count} gönderi {target} tartışmasından taşındı."
+                "was_split_to": "{count, plural, one {{count} gönderi {target} tartışmasına taşındı.} other {{count} gönderi {target} tartışmasına taşındı.}}",
+                "was_split_from": "{count, plural, one {{count} gönderi {target} tartışmasından taşındı.} other {{count} gönderi {target} tartışmasından taşındı.}}"
             },
             "split": {
                 "from": "Buradan ayır",
