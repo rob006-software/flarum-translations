@@ -140,7 +140,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-quiz-polls/0.1.0/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-scratchpad' => [
-		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-scratchpad/1.4.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-scratchpad/1.5.1/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-see-past-first-post' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-see-past-first-post/1.1.0/resources/locale/en.yml',
