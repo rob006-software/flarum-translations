@@ -443,7 +443,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/jslirola/flarum-ext-login2seeplus/v0.1.9.1/locale/en.yml',
 	],
 	'justoverclock-contactme' => [
-		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-contactme/0.1.5/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-contactme/0.2.0/resources/locale/en.yml',
 	],
 	'justoverclock-dontgoaway' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-dontgoaway/0.2.5/resources/locale/en.yml',
