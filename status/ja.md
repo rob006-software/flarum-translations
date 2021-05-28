@@ -370,7 +370,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Incompatible with recent Flarum">🔴</span>
+			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/FriendsOfFlarum/sitemap" title="fof/sitemap"><code>fof/sitemap</code></a>
 		</td>
 		<td align="center">33<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
