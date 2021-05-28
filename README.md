@@ -6,6 +6,7 @@ Currently supported languages:
 
 * [Chinese (Simplified)](https://github.com/FFans/lang-simplified-chinese) maintained by [Littlegolden](https://github.com/Littlegolden) ([detailed translation status](status/zh_Hans.md))
 * [Dutch](https://github.com/MichaelBelgium/flarum-dutch) maintained by [Michael V.](https://github.com/MichaelBelgium) ([detailed translation status](status/nl.md))
+* [Estonian](https://github.com/aprold/flarum-lang-estonian) maintained by [aprold](https://github.com/aprold) ([detailed translation status](status/et.md))
 * French: [core](https://github.com/qiaeru/lang-french) maintained by [Qiaeru](https://github.com/qiaeru) and [extensions](https://github.com/rooaaar/lang-french-extended) maintained by [Hiobi](https://github.com/Hiobi) ([detailed translation status](status/fr.md))
 * [Georgian](https://github.com/B3K4682/lang-georgian) maintained by [B3K4](https://github.com/B3K4682) ([detailed translation status](status/ka.md))
 * [Italian](https://github.com/flarum-lang/italian) maintained by [Justoverclock](https://github.com/justoverclockl) ([detailed translation status](status/it.md))
