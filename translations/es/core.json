@@ -183,7 +183,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Indefinidamente",
-                "allow_some_minutes_button": "Durante {count} minuto|Durante {count} minutos",
+                "allow_some_minutes_button": "{count, plural, one {Durante # minuto} other {Durante # minutos}}",
                 "allow_ten_minutes_button": "Durante 10 minutos",
                 "allow_until_reply_button": "Hasta la siguiente respuesta",
                 "everyone_button": "Todos",
@@ -200,32 +200,32 @@
                 "upload_button": "Elija una imagen..."
             },
             "users": {
-                "description": "",
+                "description": "Una lista paginada de todos los usuarios de su foro.",
                 "grid": {
                     "columns": {
                         "edit_user": {
-                            "button": "",
-                            "title": "",
-                            "tooltip": ""
+                            "button": "=> core.ref.edit",
+                            "title": "=> core.ref.edit_user",
+                            "tooltip": "Editar {username}"
                         },
                         "email": {
-                            "title": "",
+                            "title": "=> core.ref.email",
                             "visibility_hide": "Ocultar correo electrónico",
                             "visibility_show": "Mostrar correo electrónico"
                         },
                         "group_badges": {
-                            "no_badges": "",
+                            "no_badges": "Ninguno",
                             "title": "Grupos"
                         },
                         "join_time": {
-                            "title": ""
+                            "title": "Se unió"
                         },
                         "user_id": {
-                            "title": ""
+                            "title": "ID"
                         },
                         "username": {
-                            "profile_link_tooltip": "",
-                            "title": ""
+                            "profile_link_tooltip": "Visita el perfil de {username}",
+                            "title": "=> core.ref.username"
                         }
                     },
                     "invalid_column_content": "Inválido"
@@ -233,10 +233,10 @@
                 "pagination": {
                     "back_button": "Página anterior",
                     "next_button": "Siguiente página",
-                    "page_counter": ""
+                    "page_counter": "Página {current} de {total}"
                 },
                 "title": "=> core.ref.users",
-                "total_users": ""
+                "total_users": "Total de usuarios: {count}"
             }
         },
         "forum": {
@@ -291,7 +291,7 @@
                 "rename_button": "=> core.ref.rename",
                 "reply_button": "=> core.ref.reply",
                 "restore_button": "=> core.ref.restore",
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "Alternar el menú desplegable de acciones de discusión"
             },
             "discussion_list": {
                 "empty_text": "Parece que no hay discusiones aquí.",
@@ -317,7 +317,7 @@
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Perfil",
                 "search_placeholder": "Buscar en el foro",
-                "session_dropdown_accessible_label": "",
+                "session_dropdown_accessible_label": "Alternar el menú desplegable de opciones de sesión",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
             },
@@ -329,7 +329,7 @@
                 "meta_title_text": "=> core.ref.all_discussions",
                 "refresh_tooltip": "Cargar de nuevo",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
-                "toggle_sidenav_dropdown_accessible_label": ""
+                "toggle_sidenav_dropdown_accessible_label": "Alternar el menú desplegable de navegación"
             },
             "index_sort": {
                 "latest_button": "Lo último",
@@ -370,7 +370,7 @@
                 "edit_button": "=> core.ref.edit",
                 "hide_confirmation": "¿Estás seguro de que deseas eliminar este mensaje?",
                 "restore_button": "=> core.ref.restore",
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "Alternar el menú desplegable de los controles del post"
             },
             "post_scrubber": {
                 "now_link": "Ahora",
