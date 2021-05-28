@@ -101,7 +101,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-email-as-display-name/1.1.0/locale/en.yml',
 	],
 	'clarkwinkelmann-emojionearea' => [
-		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-emojionearea/0.3.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-emojionearea/1.0.0/locale/en.yml',
 	],
 	'clarkwinkelmann-first-post-approval' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-first-post-approval/1.0.0/resources/locale/en.yml',
