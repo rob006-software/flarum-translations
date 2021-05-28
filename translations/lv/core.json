@@ -379,180 +379,180 @@
                 "viewing_text": ""
             },
             "post_stream": {
-                "discussion_renamed_old_tooltip": "",
-                "discussion_renamed_text": "",
-                "load_more_button": "",
-                "reply_placeholder": "",
-                "time_lapsed_text": ""
+                "discussion_renamed_old_tooltip": "Vecais nosaukums bija: \"{old}\"",
+                "discussion_renamed_text": "{username} nomainīja nosaukumu uz {new}.",
+                "load_more_button": "=> core.ref.load_more",
+                "reply_placeholder": "=> core.ref.write_a_reply",
+                "time_lapsed_text": "{period} vēlāk"
             },
             "rename_discussion": {
-                "submit_button": "",
-                "title": ""
+                "submit_button": "=> core.ref.rename",
+                "title": "Pārdēvēt diskusiju"
             },
             "search": {
-                "all_discussions_button": "",
-                "discussions_heading": "",
-                "users_heading": ""
+                "all_discussions_button": "Meklēt visas diskusijas pēc \"{query}\"",
+                "discussions_heading": "=> core.ref.discussions",
+                "users_heading": "=> core.ref.users"
             },
             "settings": {
-                "account_heading": "",
-                "change_email_button": "",
-                "change_password_button": "",
-                "notifications_heading": "",
-                "notify_by_email_heading": "",
+                "account_heading": "Profils",
+                "change_email_button": "=> core.ref.change_email",
+                "change_password_button": "=> core.ref.change_password",
+                "notifications_heading": "=> core.ref.notifications",
+                "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "",
-                "notify_discussion_renamed_label": "",
-                "privacy_disclose_online_label": "",
-                "privacy_heading": "",
-                "title": ""
+                "notify_discussion_renamed_label": "Kāds pārdēvē manis iesākto diskusiju",
+                "privacy_disclose_online_label": "Atļaut citiem redzēt, kad esmu tiešsaistē",
+                "privacy_heading": "Privātums",
+                "title": "=> core.ref.settings"
             },
             "sign_up": {
-                "dismiss_button": "",
-                "email_placeholder": "",
-                "log_in_text": "",
-                "password_placeholder": "",
-                "submit_button": "",
-                "title": "",
-                "username_placeholder": "",
-                "welcome_text": ""
+                "dismiss_button": "=> core.ref.okay",
+                "email_placeholder": "=> core.ref.email",
+                "log_in_text": "Jau esi reģistrējies? <a>Ielogoties</a>",
+                "password_placeholder": "=> core.ref.password",
+                "submit_button": "=> core.ref.sign_up",
+                "title": "=> core.ref.sign_up",
+                "username_placeholder": "=> core.ref.username",
+                "welcome_text": "Laipni lūgts, {username}!"
             },
             "user": {
-                "avatar_remove_button": "",
-                "avatar_upload_button": "",
-                "avatar_upload_tooltip": "",
-                "discussions_link": "",
-                "in_discussion_text": "",
-                "joined_date_text": "",
-                "online_text": "",
-                "posts_empty_text": "",
-                "posts_link": "",
-                "posts_load_more_button": "",
-                "settings_link": ""
+                "avatar_remove_button": "=> core.ref.remove",
+                "avatar_upload_button": "Augšupielādēt",
+                "avatar_upload_tooltip": "Augšupielādēt jaunu profila bildi",
+                "discussions_link": "=> core.ref.discussions",
+                "in_discussion_text": "Iekš {discussion}",
+                "joined_date_text": "Pievienojās {ago}",
+                "online_text": "Tiešsaistē",
+                "posts_empty_text": "Izskatās, ka šeit nav neviena ziņojuma.",
+                "posts_link": "=> core.ref.posts",
+                "posts_load_more_button": "=> core.ref.load_more",
+                "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
                 "button": "",
-                "delete_button": "",
-                "delete_confirmation": "",
-                "delete_error_message": "",
-                "delete_success_message": "",
-                "edit_button": "",
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "Vai tiešām vēlaties dzēst šo lietotāju? Lietotāja ziņas NETIKS dzēstas.",
+                "delete_error_message": "Lietotāja <i>{username} ({email})</i> dzēšana neizdevās",
+                "delete_success_message": "Lietotājs <i>{username} ({email})</i> izdzēsts",
+                "edit_button": "=> core.ref.edit",
                 "toggle_dropdown_accessible_label": ""
             },
             "user_email_confirmation": {
-                "alert_message": "",
-                "resend_button": "",
-                "sent_message": ""
+                "alert_message": "=> core.ref.confirmation_email_sent",
+                "resend_button": "Vēlreiz nosūtīt apstiprinājuma e-pastu",
+                "sent_message": "Nosūtīts"
             }
         },
         "lib": {
             "badge": {
-                "hidden_tooltip": ""
+                "hidden_tooltip": "Noslēpts"
             },
             "dropdown": {
                 "toggle_dropdown_accessible_label": ""
             },
             "edit_user": {
-                "activate_button": "",
-                "email_heading": "",
-                "email_label": "",
-                "groups_heading": "",
-                "password_heading": "",
-                "password_label": "",
-                "set_password_label": "",
-                "submit_button": "",
-                "title": "",
-                "username_heading": "",
-                "username_label": ""
+                "activate_button": "Aktivizēt lietotāju",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "Grupas",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "Uzstādīt jaunu paroli",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.edit_user",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username"
             },
             "error": {
-                "dependent_extensions_message": "",
-                "generic_message": "",
-                "missing_dependencies_message": "",
-                "not_found_message": "",
-                "permission_denied_message": "",
-                "rate_limit_exceeded_message": ""
+                "dependent_extensions_message": "Nevar atspējot {extension} kamēr sekojošie paplašinājumi ir deaktivizēti: {extensions}",
+                "generic_message": "Ups! Kaut kas nogāja greizi. Lūdzu, atkārtoti ielādējiet lapu un mēģiniet vēlreiz.",
+                "missing_dependencies_message": "Nevar iespējot {extension}, kamēr nav iespējoti šie paplašinājumi: {extensions}",
+                "not_found_message": "Pieprasītais resurss netika atrasts.",
+                "permission_denied_message": "Jums nav atļaujas to darīt.",
+                "rate_limit_exceeded_message": "Tu esi mazliet par ātri. Pēc dažām sekundēm mēģini vēlreiz."
             },
             "loading_indicator": {
-                "accessible_label": ""
+                "accessible_label": "=> core.ref.loading"
             },
             "number_suffix": {
-                "kilo_text": "",
-                "mega_text": ""
+                "kilo_text": "K",
+                "mega_text": "M"
             },
             "series": {
-                "glue_text": "",
-                "three_text": "",
-                "two_text": ""
+                "glue_text": ", ",
+                "three_text": "{first}, {second}, un {third}",
+                "two_text": "{first} un {second}"
             },
             "username": {
-                "deleted_text": ""
+                "deleted_text": "[deleted]"
             }
         },
         "views": {
             "content": {
-                "javascript_disabled_message": "",
-                "load_error_message": "",
-                "loading_text": ""
+                "javascript_disabled_message": "Šo vietni vislabāk var apskatīt modernā pārlūkprogrammā, kurā ir iespējots JavaScript.",
+                "load_error_message": "Mēģinot ielādēt šīs vietnes pilno versiju, radās kļūda. Lai novērstu kļūdu, mēģiniet atsvaidzināt šo lapu.",
+                "loading_text": "=> core.ref.loading"
             },
             "discussion": {
-                "next_page_button": "",
-                "previous_page_button": ""
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
             },
             "error": {
-                "csrf_token_mismatch": "",
-                "csrf_token_mismatch_return_link": "",
-                "invalid_confirmation_token": "",
-                "not_authenticated": "",
-                "not_found": "",
-                "not_found_return_link": "",
-                "permission_denied": "",
-                "unknown": ""
+                "csrf_token_mismatch": "Tu esi bijis neaktīvs pārāk ilgi.",
+                "csrf_token_mismatch_return_link": "Atgriezies, lai mēģinātu vēlreiz",
+                "invalid_confirmation_token": "Šī apstiprinājuma saite jau ir izmantota vai nav derīga.",
+                "not_authenticated": "Tev nav atļaujas piekļūt šai lapai. Pēc pieteikšanās mēģini vēlreiz.",
+                "not_found": "Pieprasītā lapa nav atrasta.",
+                "not_found_return_link": "Atgriezties uz {forum}",
+                "permission_denied": "Tev nav atļaujat piekļūt šai lapai.",
+                "unknown": "Radās kļūda ielādējot lapu."
             },
             "index": {
-                "all_discussions_heading": "",
-                "next_page_button": "",
-                "previous_page_button": ""
+                "all_discussions_heading": "=> core.ref.all_discussions",
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
             },
             "log_out": {
-                "log_out_button": "",
-                "log_out_confirmation": "",
-                "title": ""
+                "log_out_button": "=> core.ref.log_out",
+                "log_out_confirmation": "Vai esi pārliecināts, ka vēlies izlogoties no {forum}?",
+                "title": "=> core.ref.log_out"
             },
             "reset_password": {
-                "confirm_password_label": "",
-                "new_password_label": "",
-                "submit_button": "",
-                "title": ""
+                "confirm_password_label": "Apstiprini jauno paroli",
+                "new_password_label": "Jaunā parole",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.reset_your_password"
             }
         },
         "api": {
-            "invalid_username_message": ""
+            "invalid_username_message": "Lietotājvārds drīkst saturēt tikai burtus, ciparus un domuzīmes."
         },
         "email": {
             "activate_account": {
-                "subject": "",
-                "body": ""
+                "subject": "Aktivizē savu jauno kontu",
+                "body": "Sveiks {username}!\n\nKāds (cerams, ka tu!) ir reģistrējies {forum} ar šo e-pasta adresi.\n\nJa tas biji tu, vienkārši klikšķini uz saites un aktivizē savu kontu:\n{url}\n\nJa neesi reģistrējies, ignorē šo e-pastu.\n"
             },
             "confirm_email": {
-                "subject": "",
-                "body": ""
+                "subject": "Apstiprini savu jauno e-pasta adresi",
+                "body": "Sveiks {username}!\n\nKāds (cerams, ka tu!) ir nomainījis e-pasta adresi {forum} uz šo.\n\nJa tas biji tu, vienkārši klikšķini uz saites, lai apstiprinātu e-pasta adresi\n{url}\n\nJa tas nebiji tu, ignorē šo e-pastu.\n"
             },
             "reset_password": {
-                "subject": "",
-                "body": ""
+                "subject": "=> core.ref.reset_your_password",
+                "body": "Sveiks {username}!\n\nKāds (cerams, ka tu!) ir pieteicis aizmirstu paroli šeit {forum}.\n\nJa tas bijis tu, vienkārši klikšķini uz saites, lai atjaunotu paroli\n{url}\n\nJa nevēlies mainīt paroli, vienkārši ignorē šo e-pastu.\n"
             },
             "send_test": {
-                "subject": "",
+                "subject": "Flarum E-pasta tests",
                 "body": ""
             }
         },
         "ref": {
-            "all_discussions": "",
-            "change_email": "",
-            "change_password": "",
-            "color": "",
-            "confirm_password": "",
-            "confirmation_email_sent": "",
+            "all_discussions": "Visas diskusijas",
+            "change_email": "Mainīt e-pastu",
+            "change_password": "Mainīt paroli",
+            "color": "Krāsa",
+            "confirm_password": "Apstiprini paroli",
+            "confirmation_email_sent": "Mēs esam nosūtījuši apstiprinājuma e-pastu uz {email}. Ja tas drīz nepienāk, pārbaudiet savu surogātpasta mapi.",
             "custom_footer_text": "",
             "custom_footer_title": "",
             "custom_header_text": "",
@@ -565,42 +565,42 @@
             "email": "",
             "icon": "",
             "icon_text": "",
-            "load_more": "",
-            "loading": "",
-            "log_in": "",
-            "log_out": "",
-            "mark_all_as_read": "",
-            "next_page": "",
-            "notifications": "",
-            "okay": "",
-            "password": "",
-            "posts": "",
-            "previous_page": "",
-            "remove": "",
-            "rename": "",
-            "reply": "",
-            "reset_your_password": "",
-            "restore": "",
-            "save_changes": "",
-            "settings": "",
-            "sign_up": "",
-            "some_others": "",
-            "start_a_discussion": "",
-            "username": "",
-            "users": "",
-            "view": "",
-            "write_a_reply": "",
-            "you": ""
+            "load_more": "Ielādēt vairāk",
+            "loading": "Ielādē...",
+            "log_in": "Ielogoties",
+            "log_out": "Izlogoties",
+            "mark_all_as_read": "Atzīmēt kā izlasītu",
+            "next_page": "Nākamā lapa",
+            "notifications": "Paziņojumi",
+            "okay": "OK",
+            "password": "Parole",
+            "posts": "Ziņojumi",
+            "previous_page": "Iepriekšējā lapa",
+            "remove": "Dzēst",
+            "rename": "Pārdēvēt",
+            "reply": "Atbildēt",
+            "reset_your_password": "Atjaunināt paroli",
+            "restore": "Atjaunot",
+            "save_changes": "Saglabāt izmaiņas",
+            "settings": "Iestatījumi",
+            "sign_up": "Reģistrēties",
+            "some_others": "{count, plural, one {# other} citi {# others}}",
+            "start_a_discussion": "Sākt diskusiju",
+            "username": "Lietotājvārds",
+            "users": "Lietotāji",
+            "view": "Apskatīt",
+            "write_a_reply": "Rakstīt atbildi...",
+            "you": "Tu"
         },
         "group": {
-            "admin": "",
-            "admins": "",
-            "guest": "",
-            "guests": "",
-            "member": "",
-            "members": "",
-            "mod": "",
-            "mods": ""
+            "admin": "Administrators",
+            "admins": "Administratori",
+            "guest": "Viesis",
+            "guests": "Viesi",
+            "member": "Lietotājs",
+            "members": "Lietotāji",
+            "mod": "Moderators",
+            "mods": "Moderatori"
         }
     }
 }
