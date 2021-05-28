@@ -122,7 +122,7 @@
                 "modal_empty_desktop": "你还没有上传过文件。点击按钮或拖拽文件到这里开始上传吧。",
                 "modal_empty_phone": "你还没有上传过文件。点击上方按钮开始上传吧。",
                 "select_file_a11y_label": "选择文件「{fileName}」",
-                "confirm_selection_btn": "嵌入|嵌入",
+                "confirm_selection_btn": "{fileCount, plural, =0 {未选择} one {嵌入} other {嵌入所选文件}}",
                 "load_more_files_btn": "加载更多",
                 "hide_file": {
                     "btn_a11y_label": "在文件管理器中隐藏「{fileName}」",
