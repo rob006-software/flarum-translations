@@ -10,6 +10,7 @@ Currently supported languages:
 * [Georgian](https://github.com/B3K4682/lang-georgian) maintained by [B3K4](https://github.com/B3K4682) ([detailed translation status](status/ka.md))
 * [Italian](https://github.com/justoverclockl/flarum-italian-ext) maintained by [Justoverclock](https://github.com/justoverclockl) ([detailed translation status](status/it.md))
 * [Japanese](https://github.com/FFans/lang-japanese) maintained by [Littlegolden](https://github.com/Littlegolden) and [rikusen0335](https://github.com/rikusen0335) ([detailed translation status](status/ja.md))
+* [Latvian](https://github.com/edevrob/flarum-lang-latvian) maintained by [edevrob](https://github.com/edevrob) ([detailed translation status](status/lv.md))
 * [Polish](https://github.com/rob006-software/flarum-lang-polish) maintained by [rob006](https://github.com/rob006) ([detailed translation status](status/pl.md))
 * [Sinhala](https://gitlab.com/flarum-sinhala/language-pack) maintained by [Sayuri](https://gitlab.com/sayuri-) ([detailed translation status](status/si.md))
 * [Spanish](https://github.com/FlarumES/lang-spanish) maintained by [Darkle](https://github.com/IamDarkle) and [Javier S. Lirola](https://github.com/jslirola) ([detailed translation status](status/es.md))
