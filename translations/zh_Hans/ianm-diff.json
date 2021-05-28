@@ -1,7 +1,7 @@
 {
     "the-turk-diff": {
         "forum": {
-            "revisions": "共 {revisionCount} 次修订|共 {revisionCount} 次修订",
+            "revisions": "{revisionCount, plural, one {共 {revisionCount} 次修订} other {共 {revisionCount} 次修订}}",
             "emptyText": "无修订记录",
             "editedText": "=> core.forum.post.edited_text",
             "deletedText": "（已删除）",
@@ -28,7 +28,7 @@
             "editedInfo": "=> core.forum.post.edited_tooltip",
             "deletedInfo": "{username} 于 {ago} 删除了此条编辑记录",
             "createdInfo": "{username} 创建于 {ago}",
-            "revisionInfo": "已编辑 {revisionCount} 次，新到旧排序|已编辑 {revisionCount} 次，新到旧排序",
+            "revisionInfo": "已编辑 {revisionCount, plural, one {{revisionCount}} other {{revisionCount}}} 次，新到旧排序",
             "noDiff": "此版本之间无差异。",
             "differences": {
                 "originalContent": "=> the-turk-diff.ref.originalContent",
