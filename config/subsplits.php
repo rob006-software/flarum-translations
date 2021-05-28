@@ -50,7 +50,7 @@ return [
 	'it' => [
 		'type' => 'language',
 		'language' => 'it',
-		'repository' => 'git@github.com:justoverclockl/flarum-italian-ext.git',
+		'repository' => 'git@github.com:flarum-lang/italian.git',
 		'branch' => 'main',
 		'path' => '/locale',
 	],
