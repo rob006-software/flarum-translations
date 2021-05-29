@@ -436,7 +436,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Incompatible with recent Flarum">🔴</span>
+			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/clarkwinkelmann/flarum-ext-emojionearea" title="clarkwinkelmann/flarum-ext-emojionearea"><code>clarkwinkelmann/flarum-ext-emojionearea</code></a>
 		</td>
 		<td align="center">39<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
@@ -733,7 +733,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Incompatible with recent Flarum">🔴</span>
+			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/clarkwinkelmann/flarum-ext-author-change" title="clarkwinkelmann/flarum-ext-author-change"><code>clarkwinkelmann/flarum-ext-author-change</code></a>
 		</td>
 		<td align="center">66<br /><img src="https://img.shields.io/badge/--9-brightgreen" alt="-9" title="Change from last week"></td>
@@ -887,7 +887,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Incompatible with recent Flarum">🔴</span>
+			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/FriendsOfFlarum/cookie-consent" title="fof/cookie-consent"><code>fof/cookie-consent</code></a>
 		</td>
 		<td align="center">80<br /><img src="https://img.shields.io/badge/-%2B9-red" alt="+9" title="Change from last week"></td>
@@ -1195,7 +1195,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Incompatible with recent Flarum">🔴</span>
+			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/clarkwinkelmann/flarum-ext-first-post-approval" title="clarkwinkelmann/flarum-ext-first-post-approval"><code>clarkwinkelmann/…first-post-approval</code></a>
 		</td>
 		<td align="center">108<br /><img src="https://img.shields.io/badge/-%2B7-red" alt="+7" title="Change from last week"></td>
@@ -1382,7 +1382,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Incompatible with recent Flarum">🔴</span>
+			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/tpokorra/flarum-ext-post-notification" title="tpokorra/flarum-ext-post-notification"><code>tpokorra/flarum-ext-post-notification</code></a>
 		</td>
 		<td align="center">125<br /><img src="https://img.shields.io/badge/--21-brightgreen" alt="-21" title="Change from last week"></td>
@@ -1415,7 +1415,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Incompatible with recent Flarum">🔴</span>
+			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/migratetoflarum/canonical" title="migratetoflarum/canonical"><code>migratetoflarum/canonical</code></a>
 		</td>
 		<td align="center">128<br /><img src="https://img.shields.io/badge/-%2B3-red" alt="+3" title="Change from last week"></td>
@@ -1426,7 +1426,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Incompatible with recent Flarum">🔴</span>
+			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/clarkwinkelmann/flarum-ext-create-user-modal" title="clarkwinkelmann/flarum-ext-create-user-modal"><code>clarkwinkelmann/…create-user-modal</code></a>
 		</td>
 		<td align="center">129<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
@@ -1613,7 +1613,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Incompatible with recent Flarum">🔴</span>
+			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/clarkwinkelmann/flarum-ext-passwordless" title="clarkwinkelmann/flarum-ext-passwordless"><code>clarkwinkelmann/flarum-ext-passwordless</code></a>
 		</td>
 		<td align="center">146<br /><img src="https://img.shields.io/badge/--7-brightgreen" alt="-7" title="Change from last week"></td>
@@ -1800,7 +1800,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Incompatible with recent Flarum">🔴</span>
+			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/clarkwinkelmann/flarum-ext-predefined-avatars" title="clarkwinkelmann/flarum-ext-predefined-avatars"><code>clarkwinkelmann/…predefined-avatars</code></a>
 		</td>
 		<td align="center">163<br /><img src="https://img.shields.io/badge/--21-brightgreen" alt="-21" title="Change from last week"></td>
@@ -1899,7 +1899,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Incompatible with recent Flarum">🔴</span>
+			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/clarkwinkelmann/flarum-ext-scratchpad" title="clarkwinkelmann/flarum-ext-scratchpad"><code>clarkwinkelmann/flarum-ext-scratchpad</code></a>
 		</td>
 		<td align="center">172<br /><img src="https://img.shields.io/badge/-%2B3-red" alt="+3" title="Change from last week"></td>
