@@ -4,7 +4,12 @@
             "achievement_points": "积分",
             "new_achievement_title": "新成就！",
             "new_achievement_name": "成就",
-            "new_achievement_close": "达成！"
+            "new_achievement_close": "达成！",
+            "list_heading": "",
+            "achievement_total_points": "",
+            "your_achievements": "",
+            "other_achievements": "",
+            "hidden_achievements": ""
         },
         "admin": {
             "achievement_modal": {
@@ -12,6 +17,7 @@
                 "name_label": "名称",
                 "name_placeholder": "成就名称",
                 "active_label": "激活",
+                "hidden_label": "",
                 "description_label": "描述",
                 "description_placeholder": "成就描述",
                 "variable_label": "条件",
@@ -49,6 +55,18 @@
                     "years": "注册年数",
                     "meanwords": "平均字数",
                     "tagposts": "发表到指定标签"
+                },
+                "tooltip": {
+                    "posts": "",
+                    "likes": "",
+                    "selflikes": "",
+                    "discussions": "",
+                    "edits": "",
+                    "contains": "",
+                    "comments": "",
+                    "years": "",
+                    "meanwords": "",
+                    "tagposts": ""
                 }
             },
             "achievements_page": {

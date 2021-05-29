@@ -4,7 +4,12 @@
             "achievement_points": "Puanlar",
             "new_achievement_title": "Yeni başarı!",
             "new_achievement_name": "Başarı",
-            "new_achievement_close": "Anladım!"
+            "new_achievement_close": "Anladım!",
+            "list_heading": "",
+            "achievement_total_points": "",
+            "your_achievements": "",
+            "other_achievements": "",
+            "hidden_achievements": ""
         },
         "admin": {
             "achievement_modal": {
@@ -12,6 +17,7 @@
                 "name_label": "İsim",
                 "name_placeholder": "Başarı Adı",
                 "active_label": "Aktif",
+                "hidden_label": "",
                 "description_label": "Açıklama",
                 "description_placeholder": "Başarı Açıklaması",
                 "variable_label": "Değişken",
@@ -49,6 +55,18 @@
                     "years": "Kayıt olunan yıl",
                     "meanwords": "Ortalama kelime",
                     "tagposts": "Etiketteki gönderiler"
+                },
+                "tooltip": {
+                    "posts": "",
+                    "likes": "",
+                    "selflikes": "",
+                    "discussions": "",
+                    "edits": "",
+                    "contains": "",
+                    "comments": "",
+                    "years": "",
+                    "meanwords": "",
+                    "tagposts": ""
                 }
             },
             "achievements_page": {

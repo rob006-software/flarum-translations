@@ -4,7 +4,12 @@
             "achievement_points": "Punti",
             "new_achievement_title": "Nuovo traguardo!",
             "new_achievement_name": "Traguardo",
-            "new_achievement_close": "Ricevi Premio!"
+            "new_achievement_close": "Ricevi Premio!",
+            "list_heading": "",
+            "achievement_total_points": "",
+            "your_achievements": "",
+            "other_achievements": "",
+            "hidden_achievements": ""
         },
         "admin": {
             "achievement_modal": {
@@ -12,6 +17,7 @@
                 "name_label": "Nome",
                 "name_placeholder": "Nome Traguardo",
                 "active_label": "Attivo",
+                "hidden_label": "",
                 "description_label": "Descrizione",
                 "description_placeholder": "Descrizione Traguardo",
                 "variable_label": "{",
@@ -49,6 +55,18 @@
                     "years": "Registrato da Anni",
                     "meanwords": "Media parole",
                     "tagposts": "Post in un Tag"
+                },
+                "tooltip": {
+                    "posts": "",
+                    "likes": "",
+                    "selflikes": "",
+                    "discussions": "",
+                    "edits": "",
+                    "contains": "",
+                    "comments": "",
+                    "years": "",
+                    "meanwords": "",
+                    "tagposts": ""
                 }
             },
             "achievements_page": {

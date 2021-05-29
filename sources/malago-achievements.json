@@ -4,7 +4,12 @@
             "achievement_points": "Points",
             "new_achievement_title": "New achievement!",
             "new_achievement_name": "Achievement",
-            "new_achievement_close": "Got it!"
+            "new_achievement_close": "Got it!",
+            "list_heading": "Achievements",
+            "achievement_total_points": "Total",
+            "your_achievements": "Your achievements",
+            "other_achievements": "Other achievements",
+            "hidden_achievements": "Hidden achievements"
         },
         "admin": {
             "achievement_modal": {
@@ -12,6 +17,7 @@
                 "name_label": "Name",
                 "name_placeholder": "Achievement Name",
                 "active_label": "Active",
+                "hidden_label": "Hide from all achievements list",
                 "description_label": "Description",
                 "description_placeholder": "Achievement Description",
                 "variable_label": "Variable",
@@ -49,6 +55,18 @@
                     "years": "Years registered",
                     "meanwords": "Average words",
                     "tagposts": "Posts in tag"
+                },
+                "tooltip": {
+                    "posts": "Minimum number of posts (e.g. 10) or inclusive range (e.g. 10,19)",
+                    "likes": "Minimum number of likes given (e.g. 10) or inclusive range (e.g. 10,19)",
+                    "selflikes": "Minimum number of likes received (e.g. 10) or inclusive range (e.g. 10,19)",
+                    "discussions": "Minimum number of discussions created (e.g. 10) or inclusive range (e.g. 10,19)",
+                    "edits": "Minimum number of posts edited (e.g. 10) or inclusive range (e.g. 10,19)",
+                    "contains": "Word or words and minimum number of posts containing it (e.g. chicken,10) or inclusive range (e.g. chicken,10,19)",
+                    "comments": "Minimum number of responses received in a discussion (e.g. 10) or inclusive range (e.g. 10,19)",
+                    "years": "Minimum number of years registered (e.g. 10) or inclusive range (e.g. 10,19)",
+                    "meanwords": "Word to look for and minimum number of average appearances (e.g. chicken,10) or inclusive range (e.g. chicken,10,19)",
+                    "tagposts": "Slug of the tag to look for and minimum number of posts (e.g. off-topic,10) or inclusive range (e.g. off-topic,10,19)"
                 }
             },
             "achievements_page": {
