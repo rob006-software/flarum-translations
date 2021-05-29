@@ -15,6 +15,9 @@
         "console": {
             "scheduled_drafts_disabled": "Scheduled drafts are currently disabled in settings."
         },
+        "ref": {
+            "schedule_draft": "Schedule draft"
+        },
         "forum": {
             "composer": {
                 "title": "Save Draft",
@@ -26,20 +29,27 @@
             "dropdown": {
                 "empty_text": "You haven't saved any drafts",
                 "title": "Drafts",
-                "delete_button": "Delete Draft",
-                "schedule_button": "Schedule Draft",
+                "delete_all_button": "Delete all drafts",
+                "delete_button": "Delete draft",
+                "schedule_button": "=> fof-drafts.ref.schedule_draft",
+                "scheduled_icon_tooltip": "Scheduled for {datetime}",
+                "scheduled_icon_tooltip_formatter": "L [at] LT",
                 "tooltip": "=> fof-drafts.forum.dropdown.title",
                 "alert": "Are you sure you want to delete your draft?",
                 "delete_all_alert": "Are you sure you want to delete all your drafts?"
             },
             "schedule_draft_modal": {
-                "title": "Schedule Draft",
+                "title": "=> fof-drafts.ref.schedule_draft",
                 "text": "Schedule your draft to automatically post at a later time!",
-                "scheduled_text": "Scheduled to post on {datetime}.",
-                "scheduled_error": "Unable to post because: {error}.",
+                "scheduled_text": "Currently scheduled to post on {datetime}.",
+                "scheduled_error": "Unable to schedule draft: {error}.",
                 "unschedule_button": "Unschedule",
+                "unschedule_warning": "Are you sure you want to unschedule this draft?",
                 "reschedule_button": "Reschedule",
-                "schedule_button": "Schedule"
+                "schedule_button": "Schedule",
+                "schedule_time_preview": "This draft will be automatically published on <b>{datetime}</b>.",
+                "schedule_time_preview_formatter": "LLLL",
+                "schedule_time_preview_invalid": "Invalid date and/or time"
             },
             "user": {
                 "settings": {

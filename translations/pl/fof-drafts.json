@@ -15,6 +15,9 @@
         "console": {
             "scheduled_drafts_disabled": "Planowanie publikacji szkiców jest obecnie wyłączone."
         },
+        "ref": {
+            "schedule_draft": ""
+        },
         "forum": {
             "composer": {
                 "title": "Zapisz szkic",
@@ -26,8 +29,11 @@
             "dropdown": {
                 "empty_text": "Nie zapisałeś żadnych szkiców",
                 "title": "Szkice",
+                "delete_all_button": "",
                 "delete_button": "Usuń szkic",
                 "schedule_button": "Zaplanuj publikację",
+                "scheduled_icon_tooltip": "",
+                "scheduled_icon_tooltip_formatter": "",
                 "tooltip": "=> fof-drafts.forum.dropdown.title",
                 "alert": "Czy jesteś pewien, że chcesz usunąć ten szkic?",
                 "delete_all_alert": "Czy jesteś pewien, że chcesz usunąć wszystkie swoje szkice?"
@@ -38,8 +44,12 @@
                 "scheduled_text": "Zaplanowano publikację na: {datetime}.",
                 "scheduled_error": "Publikacja nie powiodła się z powodu: {error}.",
                 "unschedule_button": "Wyłącz zaplanowaną publikację",
+                "unschedule_warning": "",
                 "reschedule_button": "Zaktualizuj zaplanowaną publikację",
-                "schedule_button": "Zaplanuj publikację"
+                "schedule_button": "Zaplanuj publikację",
+                "schedule_time_preview": "",
+                "schedule_time_preview_formatter": "",
+                "schedule_time_preview_invalid": ""
             },
             "user": {
                 "settings": {

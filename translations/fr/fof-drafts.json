@@ -15,6 +15,9 @@
         "console": {
             "scheduled_drafts_disabled": "Les brouillons planifiés sont actuellement désactivés dans les paramètres."
         },
+        "ref": {
+            "schedule_draft": ""
+        },
         "forum": {
             "composer": {
                 "title": "Enregistrer le brouillon",
@@ -26,8 +29,11 @@
             "dropdown": {
                 "empty_text": "Vous n’avez enregistré aucun brouillon",
                 "title": "Brouillons",
+                "delete_all_button": "",
                 "delete_button": "Supprimer le brouillon",
                 "schedule_button": "Planifier le brouillon",
+                "scheduled_icon_tooltip": "",
+                "scheduled_icon_tooltip_formatter": "",
                 "tooltip": "=> fof-drafts.forum.dropdown.title",
                 "alert": "Êtes-vous sûr de vouloir supprimer votre brouillon?",
                 "delete_all_alert": "Voulez-vous vraiment supprimer tous vos brouillons?"
@@ -38,8 +44,12 @@
                 "scheduled_text": "Publication prévue le {datetime}.",
                 "scheduled_error": "Impossible de publier car: {error}.",
                 "unschedule_button": "Déplanifier",
+                "unschedule_warning": "",
                 "reschedule_button": "Replanifier",
-                "schedule_button": "Planifier"
+                "schedule_button": "Planifier",
+                "schedule_time_preview": "",
+                "schedule_time_preview_formatter": "",
+                "schedule_time_preview_invalid": ""
             },
             "user": {
                 "settings": {

@@ -15,6 +15,9 @@
         "console": {
             "scheduled_drafts_disabled": ""
         },
+        "ref": {
+            "schedule_draft": ""
+        },
         "forum": {
             "composer": {
                 "title": "下書きを保存",
@@ -26,8 +29,11 @@
             "dropdown": {
                 "empty_text": "下書きがありません",
                 "title": "下書き",
+                "delete_all_button": "",
                 "delete_button": "",
                 "schedule_button": "",
+                "scheduled_icon_tooltip": "",
+                "scheduled_icon_tooltip_formatter": "",
                 "tooltip": "=> fof-drafts.forum.dropdown.title",
                 "alert": "下書きを削除してもよろしいですか？",
                 "delete_all_alert": ""
@@ -38,8 +44,12 @@
                 "scheduled_text": "",
                 "scheduled_error": "",
                 "unschedule_button": "",
+                "unschedule_warning": "",
                 "reschedule_button": "",
-                "schedule_button": ""
+                "schedule_button": "",
+                "schedule_time_preview": "",
+                "schedule_time_preview_formatter": "",
+                "schedule_time_preview_invalid": ""
             },
             "user": {
                 "settings": {

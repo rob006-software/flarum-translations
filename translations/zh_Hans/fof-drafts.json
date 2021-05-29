@@ -15,6 +15,9 @@
         "console": {
             "scheduled_drafts_disabled": "定时发布功能已被禁用。"
         },
+        "ref": {
+            "schedule_draft": ""
+        },
         "forum": {
             "composer": {
                 "title": "保存草稿",
@@ -26,8 +29,11 @@
             "dropdown": {
                 "empty_text": "您还没有草稿",
                 "title": "草稿",
+                "delete_all_button": "",
                 "delete_button": "删除草稿",
                 "schedule_button": "定时发布",
+                "scheduled_icon_tooltip": "",
+                "scheduled_icon_tooltip_formatter": "",
                 "tooltip": "=> fof-drafts.forum.dropdown.title",
                 "alert": "确定要删除草稿吗？",
                 "delete_all_alert": "确定要删除所有草稿吗？"
@@ -38,8 +44,12 @@
                 "scheduled_text": "定时发布于 {datetime}。",
                 "scheduled_error": "发布失败：{error}。",
                 "unschedule_button": "取消定时",
+                "unschedule_warning": "",
                 "reschedule_button": "重新定时",
-                "schedule_button": "定时"
+                "schedule_button": "定时",
+                "schedule_time_preview": "",
+                "schedule_time_preview_formatter": "",
+                "schedule_time_preview_invalid": ""
             },
             "user": {
                 "settings": {

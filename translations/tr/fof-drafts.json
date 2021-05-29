@@ -15,6 +15,9 @@
         "console": {
             "scheduled_drafts_disabled": "Zamanlanmış taslaklar şu anda ayarlardan etkisizleştirilmiştir."
         },
+        "ref": {
+            "schedule_draft": ""
+        },
         "forum": {
             "composer": {
                 "title": "Taslağı Kaydet",
@@ -26,8 +29,11 @@
             "dropdown": {
                 "empty_text": "Herhangi bir taslak kaydetmediniz",
                 "title": "Taslaklar",
+                "delete_all_button": "",
                 "delete_button": "Taslağı Sil",
                 "schedule_button": "Taslağı Zamanla",
+                "scheduled_icon_tooltip": "",
+                "scheduled_icon_tooltip_formatter": "",
                 "tooltip": "=> fof-drafts.forum.dropdown.title",
                 "alert": "Taslağınızı silmek istediğine emin misiniz?",
                 "delete_all_alert": "Tüm taslaklarınızı silmek istediğinizden emin misiniz?"
@@ -38,8 +44,12 @@
                 "scheduled_text": "Gönderinin zamanlandığı tarih {datetime}.",
                 "scheduled_error": "Gönderilemedi, sebebi: {error}.",
                 "unschedule_button": "Zamanlama",
+                "unschedule_warning": "",
                 "reschedule_button": "Yeniden Zamanla",
-                "schedule_button": "Zamanla"
+                "schedule_button": "Zamanla",
+                "schedule_time_preview": "",
+                "schedule_time_preview_formatter": "",
+                "schedule_time_preview_invalid": ""
             },
             "user": {
                 "settings": {

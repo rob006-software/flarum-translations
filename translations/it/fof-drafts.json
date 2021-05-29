@@ -15,6 +15,9 @@
         "console": {
             "scheduled_drafts_disabled": "La pianificazione delle bozze è attualmente disabilitata nelle impostazioni."
         },
+        "ref": {
+            "schedule_draft": ""
+        },
         "forum": {
             "composer": {
                 "title": "Salva Bozza",
@@ -26,8 +29,11 @@
             "dropdown": {
                 "empty_text": "Non hai salvato alcuna bozza",
                 "title": "Bozze",
+                "delete_all_button": "",
                 "delete_button": "Cancella Bozza",
                 "schedule_button": "Pianifica Bozza",
+                "scheduled_icon_tooltip": "",
+                "scheduled_icon_tooltip_formatter": "",
                 "tooltip": "=> fof-drafts.forum.dropdown.title",
                 "alert": "Sei sicuro di voler cancellare la bozza?",
                 "delete_all_alert": "Sei sicuro di voler cancellare tutte le tue bozze?"
@@ -38,8 +44,12 @@
                 "scheduled_text": "Pianificato per {datetime}.",
                 "scheduled_error": "Impossibile postare: {error}.",
                 "unschedule_button": "Annulla Pianificazione",
+                "unschedule_warning": "",
                 "reschedule_button": "Ripianifica",
-                "schedule_button": "Pianifica"
+                "schedule_button": "Pianifica",
+                "schedule_time_preview": "",
+                "schedule_time_preview_formatter": "",
+                "schedule_time_preview_invalid": ""
             },
             "user": {
                 "settings": {
