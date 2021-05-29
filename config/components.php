@@ -521,7 +521,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/1.10/locale/en.yml',
 	],
 	'malago-achievements' => [
-		'tag' => 'https://raw.githubusercontent.com/malago86/flarum-achievements/0.2.8/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/malago86/flarum-achievements/0.3.0/locale/en.yml',
 	],
 	'matteocontrini-imgur-upload' => [
 		'tag' => 'https://raw.githubusercontent.com/matteocontrini/flarum-imgur-upload/v3.8.0/locale/en.yml',
