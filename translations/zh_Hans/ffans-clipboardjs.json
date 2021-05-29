@@ -3,12 +3,12 @@
         "admin": {
             "settings": {
                 "codeLang_label": "显示代码语言",
-                "copy_enable_label": "启用代码复制",
-                "themes_label": "复制按钮的样式",
+                "copy_enable_label": "开启复制功能",
+                "themes_label": "复制按钮风格",
                 "themes": {
-                    "cnblog": "cnBlogs",
+                    "cnblog": "博客园",
                     "csdn": "CSDN",
-                    "default": "Clipboardjs 默认",
+                    "default": "原生 Clipboardjs 风格",
                     "github": "GitHub",
                     "jianshu": "简书",
                     "lingcoder": "LingCoder",
@@ -18,11 +18,11 @@
         },
         "forum": {
             "action_copy": "复制",
-            "action_cut": "剪贴",
-            "ok_btn": "已复制",
-            "error_btn": "错误",
-            "no_support": "不支持",
-            "msg": "点击  {actionKey} 以 {action}"
+            "action_cut": "剪切",
+            "ok_btn": "复制成功",
+            "error_btn": "复制失败",
+            "no_support": "不支持 :(",
+            "msg": "按 {actionKey} {action}"
         }
     }
 }
