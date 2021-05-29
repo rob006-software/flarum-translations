@@ -2,27 +2,27 @@
     "ffans-clipboardjs": {
         "admin": {
             "settings": {
-                "codeLang_label": "",
-                "copy_enable_label": "",
-                "themes_label": "",
+                "codeLang_label": "显示代码语言",
+                "copy_enable_label": "启用代码复制",
+                "themes_label": "复制按钮的样式",
                 "themes": {
-                    "cnblog": "",
-                    "csdn": "",
-                    "default": "",
-                    "github": "",
-                    "jianshu": "",
-                    "lingcoder": "",
-                    "segmentfault": ""
+                    "cnblog": "cnBlogs",
+                    "csdn": "CSDN",
+                    "default": "Clipboardjs 默认",
+                    "github": "GitHub",
+                    "jianshu": "简书",
+                    "lingcoder": "LingCoder",
+                    "segmentfault": "思否"
                 }
             }
         },
         "forum": {
-            "action_copy": "",
-            "action_cut": "",
-            "ok_btn": "",
-            "error_btn": "",
-            "no_support": "",
-            "msg": ""
+            "action_copy": "复制",
+            "action_cut": "剪贴",
+            "ok_btn": "已复制",
+            "error_btn": "错误",
+            "no_support": "不支持",
+            "msg": "点击  {actionKey} 以 {action}"
         }
     }
 }
