@@ -16,12 +16,12 @@
             "scheduled_drafts_disabled": "定时发布功能已被禁用。"
         },
         "ref": {
-            "schedule_draft": ""
+            "schedule_draft": "定时发布"
         },
         "forum": {
             "composer": {
                 "title": "保存草稿",
-                "saving": "正在保存……",
+                "saving": "正在保存…",
                 "saved": "保存成功！",
                 "exit_alert": "确定放弃对草稿的更改吗？",
                 "discard_empty_draft_alert": "丢弃空草稿？"
@@ -29,27 +29,27 @@
             "dropdown": {
                 "empty_text": "您还没有草稿",
                 "title": "草稿",
-                "delete_all_button": "",
+                "delete_all_button": "删除所有草稿",
                 "delete_button": "删除草稿",
-                "schedule_button": "定时发布",
-                "scheduled_icon_tooltip": "",
-                "scheduled_icon_tooltip_formatter": "",
+                "schedule_button": "=> fof-drafts.ref.schedule_draft",
+                "scheduled_icon_tooltip": "{datetime} 发布",
+                "scheduled_icon_tooltip_formatter": "LL [at] LT",
                 "tooltip": "=> fof-drafts.forum.dropdown.title",
                 "alert": "确定要删除草稿吗？",
                 "delete_all_alert": "确定要删除所有草稿吗？"
             },
             "schedule_draft_modal": {
-                "title": "定时发布",
+                "title": "=> fof-drafts.ref.schedule_draft",
                 "text": "选择一个稍后的时间自动发布您的草稿！",
                 "scheduled_text": "定时发布于 {datetime}。",
-                "scheduled_error": "发布失败：{error}。",
+                "scheduled_error": "定时发布失败：{error}。",
                 "unschedule_button": "取消定时",
-                "unschedule_warning": "",
+                "unschedule_warning": "确定要取消定时发布这个草稿？",
                 "reschedule_button": "重新定时",
                 "schedule_button": "定时",
-                "schedule_time_preview": "",
-                "schedule_time_preview_formatter": "",
-                "schedule_time_preview_invalid": ""
+                "schedule_time_preview": "此草稿将于 <b>{datetime}</b> 自动发布。",
+                "schedule_time_preview_formatter": "llll",
+                "schedule_time_preview_invalid": "无效的日期或时间"
             },
             "user": {
                 "settings": {
