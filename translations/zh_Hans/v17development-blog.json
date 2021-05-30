@@ -9,7 +9,7 @@
             },
             "settings": {
                 "no_categories_selected": "请选择分类目录",
-                "selected_category_count": "已指定 {count} 个分类目录|已指定 {count} 个分类目录",
+                "selected_category_count": "已指定 {count, plural, one {#} other {#}} 个分类目录",
                 "select_categories_button": "选择博客分类目录",
                 "blog_heading": "博客",
                 "allow_comments_label": "允许评论",
@@ -30,8 +30,8 @@
                 "redirect_articles_text": "开启后，原始主题帖将重定向至其博客页面。",
                 "redirect_tags_label": "重定向博客标签",
                 "redirect_tags_text": "开启后，博客标签将重定向至分类目录页面。",
-                "default_article_image_label": "默认文章头图",
-                "default_article_image_text": "选择在未指定头图时，默认使用的文章头图。"
+                "default_article_image_label": "默认封面图",
+                "default_article_image_text": "设置默认使用的文章封面图。"
             }
         },
         "forum": {
@@ -80,22 +80,22 @@
             "utils": {
                 "redirect": {
                     "title": "正在将您重定向至博客文章……",
-                    "link": "如果没有任何响应，请<a>单击此处</a>"
+                    "link": "如果没有任何响应，请<a>点击此处</a>"
                 }
             },
             "composer": {
-                "no_title": "未命名标题",
+                "no_title": "标题",
                 "enter_message_here": "在此输入正文内容",
                 "post_article": "发布文章",
                 "select_category": "选择分类目录",
                 "edit_categories": "编辑分类目录",
-                "update_settings": "",
+                "update_settings": "文章设置",
                 "write": "写作",
                 "view": "预览",
-                "nothing_to_preview": "什么都还没有写",
+                "nothing_to_preview": "什么都还没写呢",
                 "comment_section": "撰写文章时，评论区无法使用。",
                 "no_blog_tags_selected": "您选择的标签中没有一个是博客标签，请至少选择一个博客标签。",
-                "post_without_blog_info": "确定要发布这篇文章吗？您还没有输入博客摘要或头图。"
+                "post_without_blog_info": "确定要发布这篇文章吗？您还没有输入博客摘要或上传封面图。"
             }
         }
     }
