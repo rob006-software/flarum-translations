@@ -33,6 +33,29 @@
                 "description": "Categorie beschrijving",
                 "enabled": "Ingeschakeld",
                 "enabled_description": "Deze categorie inschakelen. Indien uitgeschakeld worden de badges uitgeschakeld en wordt de categorie verborgen."
+            },
+            "auto_moderator": {
+                "not_installed": {
+                    "title": "",
+                    "content": "",
+                    "install": "",
+                    "dismiss": ""
+                },
+                "action_drivers": {
+                    "badge_id": "",
+                    "give_badge": "",
+                    "remove_badge": ""
+                },
+                "requirement_drivers": {
+                    "has_badge": ""
+                },
+                "metric_drivers": {
+                    "badges_received": ""
+                },
+                "badge_selector": {
+                    "placeholder": "",
+                    "loading_badges": ""
+                }
             }
         },
         "forum": {
