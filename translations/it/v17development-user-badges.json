@@ -33,6 +33,29 @@
                 "description": "Descrizione categoria",
                 "enabled": "Abilitata",
                 "enabled_description": "Abilita questa categoria. Quando è disabilitata, tutti i badge saranno disabilitati e la categoria sarà nascosta."
+            },
+            "auto_moderator": {
+                "not_installed": {
+                    "title": "",
+                    "content": "",
+                    "install": "",
+                    "dismiss": ""
+                },
+                "action_drivers": {
+                    "badge_id": "",
+                    "give_badge": "",
+                    "remove_badge": ""
+                },
+                "requirement_drivers": {
+                    "has_badge": ""
+                },
+                "metric_drivers": {
+                    "badges_received": ""
+                },
+                "badge_selector": {
+                    "placeholder": "",
+                    "loading_badges": ""
+                }
             }
         },
         "forum": {

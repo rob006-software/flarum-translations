@@ -33,6 +33,29 @@
                 "description": "Opis kategorii",
                 "enabled": "Włączona",
                 "enabled_description": "Jeśli wyłączysz kategorię, wszystkie zawarte w niej odznaki zostaną ukryte, a kategoria nie będzie widoczna."
+            },
+            "auto_moderator": {
+                "not_installed": {
+                    "title": "",
+                    "content": "",
+                    "install": "",
+                    "dismiss": ""
+                },
+                "action_drivers": {
+                    "badge_id": "",
+                    "give_badge": "",
+                    "remove_badge": ""
+                },
+                "requirement_drivers": {
+                    "has_badge": ""
+                },
+                "metric_drivers": {
+                    "badges_received": ""
+                },
+                "badge_selector": {
+                    "placeholder": "",
+                    "loading_badges": ""
+                }
             }
         },
         "forum": {
