@@ -36,25 +36,25 @@
             },
             "auto_moderator": {
                 "not_installed": {
-                    "title": "",
-                    "content": "",
-                    "install": "",
-                    "dismiss": ""
+                    "title": "Kullanıcıları rozetlerle otomatik olarak ödüllendirin",
+                    "content": "Bu uzantı, <a>Otomatik Moderatör</a> kurulup etkinleştirildiğinde daha fazla işlevsellik sunar. Bu uzantıyı yüklediğinizde, kullanıcılar bir topluluk çalışanının müdahalesi olmadan otomatik olarak rozetlerle ödüllendirilebilir!",
+                    "install": "Yükle",
+                    "dismiss": "Tekrar gösterme"
                 },
                 "action_drivers": {
-                    "badge_id": "",
-                    "give_badge": "",
-                    "remove_badge": ""
+                    "badge_id": "Rozet ID",
+                    "give_badge": "Rozet ver",
+                    "remove_badge": "Rozeti kaldır"
                 },
                 "requirement_drivers": {
-                    "has_badge": ""
+                    "has_badge": "Rozeti var"
                 },
                 "metric_drivers": {
-                    "badges_received": ""
+                    "badges_received": "Rozetler alındı"
                 },
                 "badge_selector": {
-                    "placeholder": "",
-                    "loading_badges": ""
+                    "placeholder": "Bir rozet seçin",
+                    "loading_badges": "Rozetler yükleniyor"
                 }
             }
         },
@@ -78,7 +78,7 @@
                 "no_earning_reason": "Kazanma nedeni yok",
                 "earned_on": "Rozet şu nedenle kazanıldı",
                 "category": "Rozet kategorisi",
-                "earned_count": "<b>{count} kullanıcı</b> bu rozete sahip|<b>{count} kullanıcı</b> bu rozete sahip"
+                "earned_count": "{count, plural, one  {<b># kullanıcı</b> bu rozeti kazandı} other {<b># kullanıcı</b> bu rozeti kazandı}}"
             },
             "moderation": {
                 "remove_badge": "Kullanıcıdan rozeti kaldır",
