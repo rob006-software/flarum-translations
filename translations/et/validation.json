@@ -3,29 +3,29 @@
         "accepted": ":attribute peab olema aktsepteeritud.",
         "active_url": ":attribute pole õige URL.",
         "after": ":attribute peab olema kuupäev peale :date.",
-        "after_or_equal": ":attribute peab olema kuupäev võrdne või peale :date.",
+        "after_or_equal": ":attribute ei tohi olla kuupäev enne :date.",
         "alpha": ":attribute võib sisaldada ainult tähti.",
         "alpha_dash": ":attribute võib sisaldada ainult tähti, numbreid, side- ja alakriipsu.",
         "alpha_num": ":attribute võib sisaldada ainult tähti ja numbreid.",
         "array": ":attribute peab olema massiiv.",
         "before": ":attribute peab olema kuupäev enne :date.",
-        "before_or_equal": ":attribute peab olema kuupäev võrdne või enne :date.",
+        "before_or_equal": ":attribute ei tohi olla kuupäev peale :date.",
         "between": {
             "numeric": ":attribute peab olema vahemikus :min kuni :max.",
             "file": ":attribute peab olema vahemikus :min kuni :max kilobaiti.",
             "string": ":attribute peab olema vahemikus :min kuni :max tähemärki.",
-            "array": ":attribute peab olema vahemikus :min kuni :max elementi."
+            "array": ":attribute peab sisaldama :min kuni :max elementi."
         },
         "boolean": ":attribute peab olemas kas tõene või väär.",
         "confirmed": ":attribute kinnitus ei klapi.",
         "date": ":attribute pole õige kuupäev.",
         "date_equals": ":attribute kuupäev peab olema :date.",
-        "date_format": ":attribute ei vasta formaadile :format.",
+        "date_format": ":attribute formaat :format ei klapi.",
         "different": ":attribute ja :other peavad erinema.",
         "digits": ":attribute peab olema :digits numbrit pikk.",
         "digits_between": ":attribute peab olema vahemikus :min kuni :max numbrit.",
-        "dimensions": ":attribute pole õigete pildimõõtudega.",
-        "distinct": ":attribute väljal on topeltväärtus.",
+        "dimensions": ":attribute pilt pole õigete mõõtudega.",
+        "distinct": ":attribute peab erinema olemasolevatest väärtustest.",
         "email": ":attribute pole õige meiliaadress.",
         "ends_with": ":attribute peab lõppema ühega järgnevatest: :values.",
         "exists": "Valitud :attribute pole õige.",
@@ -35,7 +35,7 @@
             "numeric": ":attribute peab olema suurem kui :value.",
             "file": ":attribute peab olema suurem kui :value kilobaiti.",
             "string": ":attribute peab olema pikem kui :value tähemärki.",
-            "array": ":attribute peab olema pikem kui :value elementi."
+            "array": ":attribute peab sisaldama rohkem kui :value elementi."
         },
         "gte": {
             "numeric": ":attribute peab olema vähemalt :value.",
@@ -58,7 +58,7 @@
             "array": ":attribute peab sisaldama vähem kui :value elementi."
         },
         "lte": {
-            "numeric": ":attribute ei tohi olla pikem kui :value.",
+            "numeric": ":attribute ei tohi olla suurem kui :value.",
             "file": ":attribute ei tohi olla suurem kui :value kilobaiti.",
             "string": ":attribute ei tohi olla pikem kui :value tähemärki.",
             "array": ":attribute ei tohi sisaldada rohkem kui :value elementi."
@@ -74,7 +74,7 @@
         "min": {
             "numeric": ":attribute peab olema vähemalt :min.",
             "file": ":attribute peab olema vähemalt :min kilobaiti.",
-            "string": ":attribute peab olema vähemalt :min tähemärki.",
+            "string": ":attribute peab olema vähemalt :min tähemärki pikk.",
             "array": ":attribute peab sisaldama vähemalt :min elementi."
         },
         "multiple_of": ":attribute peab olema :value kordaja.",
@@ -84,8 +84,8 @@
         "password": "Parool pole õige.",
         "present": ":attribute peab olema väärtustatud.",
         "regex": ":attribute formaat pole õige.",
-        "required": ":attribute väli on nõutud.",
-        "required_if": ":attribute väli on nõutud, kui :other on :value.",
+        "required": ":attribute on nõutud.",
+        "required_if": ":attribute on nõutud, kui :other on :value.",
         "required_unless": ":attribute on nõutud, kui :other pole :values hulgas.",
         "required_with": ":attribute on nõutud, kui :values on väärtustatud.",
         "required_with_all": ":attribute on nõutud, kui :values on väärtustatud.",
@@ -94,30 +94,30 @@
         "prohibited": ":attribute väärtust pole lubatud.",
         "prohibited_if": ":attribute väärtust pole lubatud, kui :other on :value.",
         "prohibited_unless": ":attribute väärtust pole lubatud, kui :other pole :values hulgas.",
-        "same": "",
+        "same": ":attribute ja :other peavad olema samad.",
         "size": {
-            "numeric": "",
-            "file": "",
-            "string": "",
-            "array": ""
+            "numeric": ":attribute suurus peab olema :size.",
+            "file": ":attribute suurus peab olema :size kilobaiti.",
+            "string": ":attribute pikkus peab olema :size tähemärki.",
+            "array": ":attribute peab sisaldama :size elementi."
         },
-        "starts_with": "",
-        "string": "",
-        "timezone": "",
-        "unique": "",
-        "uploaded": "",
-        "url": "",
-        "uuid": "",
+        "starts_with": ":attribute peab algama ühega järgnevatest: :values.",
+        "string": ":attribute peab olema string.",
+        "timezone": ":attribute peab olema ajatsoon.",
+        "unique": ":attribute on juba kasutusel.",
+        "uploaded": ":attribute üleslaadimine ebaõnnestus.",
+        "url": ":attribute formaat pole õige.",
+        "uuid": ":attribute peab olema UUID.",
         "attributes": {
-            "username": "",
-            "password": "",
-            "email": "",
-            "title": "",
-            "content": "",
-            "name_singular": "",
-            "name_plural": "",
-            "tag_count_primary": "",
-            "tag_count_secondary": ""
+            "username": "kasutajanimi",
+            "password": "parool",
+            "email": "meiliaadress",
+            "title": "pealkiri",
+            "content": "sisu",
+            "name_singular": "nimi ainsuses",
+            "name_plural": "nimi mitmuses",
+            "tag_count_primary": "põhisiltide arv",
+            "tag_count_secondary": "teisejärguliste siltide arv"
         }
     }
 }
