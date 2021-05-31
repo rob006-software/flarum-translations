@@ -9,7 +9,7 @@
             },
             "settings": {
                 "no_categories_selected": "Kategori seçilmedi",
-                "selected_category_count": "{count} kategori seçtiniz|{count} kategori seçtiniz",
+                "selected_category_count": "{count, plural, one {# kategori seçtiniz} other {# kategori seçtiniz}}",
                 "select_categories_button": "Blog kategorilerini seçin",
                 "blog_heading": "Blog",
                 "allow_comments_label": "Yorumlara izin ver",
@@ -89,7 +89,7 @@
                 "post_article": "Makale yayınla",
                 "select_category": "Bir kategori seç",
                 "edit_categories": "Kategorileri düzenleyin",
-                "update_settings": "",
+                "update_settings": "Blog ayarlarını güncelle",
                 "write": "Yaz",
                 "view": "Görünüm",
                 "nothing_to_preview": "Önizlenecek bir şey yok",
