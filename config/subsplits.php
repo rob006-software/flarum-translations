@@ -104,30 +104,12 @@ return [
 		'branch' => 'master',
 		'path' => '/locale',
 	],
-	'tr-lang' => [
+	'tr' => [
 		'type' => 'language',
 		'language' => 'tr',
-		'repository' => 'git@github.com:tolgaaaltas/flarum-lang-turkish.git',
-		'branch' => 'master',
+		'repository' => 'git@github.com:flarum-lang/turkish.git',
+		'branch' => 'main',
 		'path' => '/locale',
-		'components' => getComponents([
-			'core',
-			'validation',
-			'flarum-*',
-		]),
-	],
-	'tr-ext' => [
-		'type' => 'language',
-		'language' => 'tr',
-		'repository' => 'git@github.com:tolgaaaltas/flarum-ext-turkish.git',
-		'branch' => 'master',
-		'path' => '/locale',
-		'components' => getComponents([
-			'!core',
-			'!validation',
-			'!flarum-*',
-			'*',
-		]),
 	],
 	'zh_Hans' => [
 		'type' => 'language',
