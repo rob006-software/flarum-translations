@@ -2,9 +2,9 @@
     "glowingblue-redis-setup": {
         "admin": {
             "settings": {
-                "enable_cache": "",
-                "enable_redis_sessions": "",
-                "enable_queue": ""
+                "enable_cache": "Redis önbelleğini etkinleştir",
+                "enable_redis_sessions": "Redis oturumlarını etkinleştirin (bu ayar değiştirildikten sonra tüm kullanıcıların oturumu kapatılacaktır)",
+                "enable_queue": "Redis queue etkinleştir"
             }
         }
     }
