@@ -2,91 +2,91 @@
     "flarum-tags": {
         "admin": {
             "basics": {
-                "tags_label": ""
+                "tags_label": "=> flarum-tags.ref.tags"
             },
             "edit_tag": {
-                "color_label": "",
-                "delete_tag_button": "",
-                "delete_tag_confirmation": "",
-                "description_label": "",
-                "hide_label": "",
-                "icon_label": "",
-                "icon_text": "",
-                "name_label": "",
-                "name_placeholder": "",
-                "slug_label": "",
-                "submit_button": "",
-                "title": ""
+                "color_label": "=> core.ref.color",
+                "delete_tag_button": "Kustuta silt",
+                "delete_tag_confirmation": "Oled kindel, et soovid seda silti kustutada? Selle sildiga teemasid ei kustutata.",
+                "description_label": "Kirjeldus",
+                "hide_label": "Peida kõikidest teemadest",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "=> flarum-tags.ref.name",
+                "name_placeholder": "=> flarum-tags.ref.name",
+                "slug_label": "Slug",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Loo uus silt"
             },
             "nav": {
-                "tags_button": "",
-                "tags_text": ""
+                "tags_button": "=> flarum-tags.ref.tags",
+                "tags_text": "Toimeta nimekirja siltidest, mis on teemade organiseerimiseks kasutatavad."
             },
             "permissions": {
-                "allow_edit_tags_label": "",
-                "bypass_tag_counts_label": "",
-                "restrict_by_tag_heading": "",
-                "tag_discussions_label": ""
+                "allow_edit_tags_label": "Luba siltide muutmist",
+                "bypass_tag_counts_label": "Ignoreeri siltide nõudeid",
+                "restrict_by_tag_heading": "Piira sildi järgi",
+                "tag_discussions_label": "Sildista teemasid"
             },
             "tag_settings": {
-                "range_separator_text": "",
-                "required_primary_heading": "",
-                "required_primary_text": "",
-                "required_secondary_heading": "",
-                "required_secondary_text": "",
-                "title": ""
+                "range_separator_text": " kuni ",
+                "required_primary_heading": "Nõutud põhisiltide arv",
+                "required_primary_text": "Sisesta vähim ja suurim põhistiltide arv, mida saab teemale määrata.",
+                "required_secondary_heading": "Nõutud teisejärguliste siltide arv",
+                "required_secondary_text": "Sisesta vähim ja suurim teisejärguliste siltide arv, mida saab teemale määrata.",
+                "title": "Siltide seaded"
             },
             "tags": {
-                "about_tags_text": "",
-                "create_primary_tag_button": "",
-                "create_secondary_tag_button": "",
-                "primary_heading": "",
-                "secondary_heading": "",
-                "settings_heading": ""
+                "about_tags_text": "Silte kasutatakse teemade organiseerimiseks. Põhisildid on nagu tavalised foorumi kategooriad: neid saab panna kahetasemelises hierarhias. Teisejärgulistel siltidel pole hierarhiat ega järjekorda ning neid saab kasutada alamkategoriseerimiseks.",
+                "create_primary_tag_button": "Loo uus põhisilt",
+                "create_secondary_tag_button": "Loo uus teisejärguline silt",
+                "primary_heading": "Põhisildid",
+                "secondary_heading": "Teisejärgulised sildid",
+                "settings_heading": "Seaded"
             }
         },
         "forum": {
             "all_tags": {
-                "meta_description_text": "",
-                "meta_title_text": ""
+                "meta_description_text": "Kõik sildid",
+                "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
-                "choose_primary_placeholder": "",
-                "choose_secondary_placeholder": "",
-                "edit_title": "",
-                "submit_button": "",
-                "title": ""
+                "choose_primary_placeholder": "{count, plural, one {Vali põhisilt} other {Vali # põhisilti}}",
+                "choose_secondary_placeholder": "{count, plural, one {Vali veel üks silt} other {Vali veel # silti}}",
+                "edit_title": "Muuda {title} silte",
+                "submit_button": "=> core.ref.okay",
+                "title": "Vali oma teema jaoks sildid"
             },
             "composer_discussion": {
-                "choose_tags_link": ""
+                "choose_tags_link": "Vali sildid"
             },
             "discussion_controls": {
-                "edit_tags_button": ""
+                "edit_tags_button": "Muuda silte"
             },
             "header": {
-                "back_to_tags_tooltip": ""
+                "back_to_tags_tooltip": "Tagasi siltide nimekirja"
             },
             "index": {
-                "more_link": "",
-                "tags_link": "",
-                "untagged_link": ""
+                "more_link": "Veel...",
+                "tags_link": "=> flarum-tags.ref.tags",
+                "untagged_link": "Siltideta"
             },
             "post_stream": {
-                "added_and_removed_tags_text": "",
-                "added_tags_text": "",
-                "removed_tags_text": "",
-                "tags_text": ""
+                "added_and_removed_tags_text": "{username} lisas {tagsAdded} ja kustutas {tagsRemoved}.",
+                "added_tags_text": "{username} lisas {tagsAdded}.",
+                "removed_tags_text": "{username} kustutas {tagsRemoved}.",
+                "tags_text": "{count, plural, one {{tags} silt} other {{tags} silti}}"
             },
             "tag": {
-                "meta_description_text": ""
+                "meta_description_text": "Kõik teemad {tag} sildiga"
             }
         },
         "lib": {
-            "deleted_tag_text": ""
+            "deleted_tag_text": "Kustutatud"
         },
         "ref": {
-            "name": "",
-            "tags": ""
+            "name": "Nimi",
+            "tags": "Sildid"
         }
     }
 }
