@@ -5,14 +5,14 @@
                 "bulk-mode": "=> migratetoflarum-fake-data.ref.bulk-mode",
                 "bulk-mode-description": "=> migratetoflarum-fake-data.ref.bulk-mode-description",
                 "user-count": "=> migratetoflarum-fake-data.ref.user-count",
-                "discussion-count": "=> migratetoflarum-fake-data.ref.discussion-count",
-                "discussion-tags": "",
-                "discussion-tags-none": "",
-                "discussion-tags-random": "",
+                "discussion-count": "Oluşturulacak tartışma sayısı",
+                "discussion-tags": "Yeni tartışmalar için etiketler",
+                "discussion-tags-none": "Yok",
+                "discussion-tags-random": "Rastgele",
                 "post-count": "=> migratetoflarum-fake-data.ref.post-count",
-                "date": "",
-                "date-start-placeholder": "",
-                "date-interval-placeholder": "",
+                "date": "=> migratetoflarum-fake-data.ref.date",
+                "date-start-placeholder": "=> migratetoflarum-fake-data.ref.date-start-placeholder",
+                "date-interval-placeholder": "=> migratetoflarum-fake-data.ref.date-interval-placeholder",
                 "send": "=> migratetoflarum-fake-data.ref.send"
             }
         },
@@ -26,9 +26,9 @@
                 "bulk-mode-description": "=> migratetoflarum-fake-data.ref.bulk-mode-description",
                 "user-count": "=> migratetoflarum-fake-data.ref.user-count",
                 "post-count": "=> migratetoflarum-fake-data.ref.post-count",
-                "date": "",
-                "date-start-placeholder": "",
-                "date-interval-placeholder": "",
+                "date": "=> migratetoflarum-fake-data.ref.date",
+                "date-start-placeholder": "=> migratetoflarum-fake-data.ref.date-start-placeholder",
+                "date-interval-placeholder": "=> migratetoflarum-fake-data.ref.date-interval-placeholder",
                 "send": "=> migratetoflarum-fake-data.ref.send"
             }
         },
@@ -41,9 +41,9 @@
             "bulk-mode-description": "Tek bir rastgele değer üretir ve her giriş için yeniden kullanır",
             "user-count": "Oluşturulacak kullanıcı sayısı",
             "post-count": "Oluşturulacak gönderi sayısı",
-            "date": "",
-            "date-start-placeholder": "",
-            "date-interval-placeholder": "",
+            "date": "Date seed",
+            "date-start-placeholder": "Başlangıç tarihi (varsayılan: şimdi)",
+            "date-interval-placeholder": "Aralık (varsayılan: 1 saniye)",
             "send": "Veri oluştur"
         }
     }
