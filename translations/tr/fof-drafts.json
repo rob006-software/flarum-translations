@@ -16,7 +16,7 @@
             "scheduled_drafts_disabled": "Zamanlanmış taslaklar şu anda ayarlardan etkisizleştirilmiştir."
         },
         "ref": {
-            "schedule_draft": ""
+            "schedule_draft": "Taslağı planla"
         },
         "forum": {
             "composer": {
@@ -29,27 +29,27 @@
             "dropdown": {
                 "empty_text": "Herhangi bir taslak kaydetmediniz",
                 "title": "Taslaklar",
-                "delete_all_button": "",
+                "delete_all_button": "Tüm taslakları sil",
                 "delete_button": "Taslağı Sil",
-                "schedule_button": "Taslağı Zamanla",
-                "scheduled_icon_tooltip": "",
-                "scheduled_icon_tooltip_formatter": "",
+                "schedule_button": "=> fof-drafts.ref.schedule_draft",
+                "scheduled_icon_tooltip": "{datetime} için planlandı",
+                "scheduled_icon_tooltip_formatter": "L [at] LT",
                 "tooltip": "=> fof-drafts.forum.dropdown.title",
                 "alert": "Taslağınızı silmek istediğine emin misiniz?",
                 "delete_all_alert": "Tüm taslaklarınızı silmek istediğinizden emin misiniz?"
             },
             "schedule_draft_modal": {
-                "title": "Taslağı Zamanla",
+                "title": "=> fof-drafts.ref.schedule_draft",
                 "text": "Gönderiyi daha sonra yayınlamak için taslağı zamanla!",
-                "scheduled_text": "Gönderinin zamanlandığı tarih {datetime}.",
+                "scheduled_text": "Şu anda {datetime} tarihinde yayımlanması planlanıyor.",
                 "scheduled_error": "Gönderilemedi, sebebi: {error}.",
                 "unschedule_button": "Zamanlama",
-                "unschedule_warning": "",
+                "unschedule_warning": "Bu taslağı iptal etmek istediğinizden emin misiniz?",
                 "reschedule_button": "Yeniden Zamanla",
                 "schedule_button": "Zamanla",
-                "schedule_time_preview": "",
-                "schedule_time_preview_formatter": "",
-                "schedule_time_preview_invalid": ""
+                "schedule_time_preview": "Bu taslak otomatik olarak <b>{datetime}</b> tarihinde yayınlanacaktır.",
+                "schedule_time_preview_formatter": "LLLL",
+                "schedule_time_preview_invalid": "Geçersiz tarih ve/veya saat"
             },
             "user": {
                 "settings": {
