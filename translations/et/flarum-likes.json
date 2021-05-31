@@ -2,24 +2,24 @@
     "flarum-likes": {
         "admin": {
             "permissions": {
-                "like_posts_label": ""
+                "like_posts_label": "Postituste meeldivaks märkimine"
             }
         },
         "forum": {
             "notifications": {
-                "others_text": "",
-                "post_liked_text": ""
+                "others_text": "=> core.ref.some_others",
+                "post_liked_text": "Kasutajale {username} meeldis sinu postitus"
             },
             "post": {
-                "like_link": "",
-                "liked_by_self_text": "",
-                "liked_by_text": "",
-                "others_link": "",
-                "unlike_link": "",
-                "you_text": ""
+                "like_link": "Mulle meeldib",
+                "liked_by_self_text": "Kasutajatele {users} meeldib see.",
+                "liked_by_text": "{count, plural, one {Kasutajale {users} meeldib see} other {Kasutajatele {users} meeldib see}}",
+                "others_link": "=> core.ref.some_others",
+                "unlike_link": "Mulle enam ei meeldi",
+                "you_text": "=> core.ref.you"
             },
             "post_likes": {
-                "title": ""
+                "title": "Kasutajad, kellele see meeldib"
             },
             "settings": {
                 "notify_post_liked_label": ""
