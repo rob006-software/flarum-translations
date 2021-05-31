@@ -1,0 +1,11 @@
+{
+    "glowingblue-redis-setup": {
+        "admin": {
+            "settings": {
+                "enable_cache": "Enable Redis cache",
+                "enable_redis_sessions": "Enable Redis sessions (all users will be logged out after changing this setting)",
+                "enable_queue": "Enable Redis queue"
+            }
+        }
+    }
+}
