@@ -2,24 +2,24 @@
     "flarum-sticky": {
         "admin": {
             "permissions": {
-                "sticky_discussions_label": ""
+                "sticky_discussions_label": "Nööpnõelaga teemad"
             }
         },
         "forum": {
             "badge": {
-                "sticky_tooltip": ""
+                "sticky_tooltip": "=> flarum-sticky.ref.sticky"
             },
             "discussion_controls": {
-                "sticky_button": "",
-                "unsticky_button": ""
+                "sticky_button": "=> flarum-sticky.ref.sticky",
+                "unsticky_button": "Eemalda nööpnõel"
             },
             "post_stream": {
-                "discussion_stickied_text": "",
-                "discussion_unstickied_text": ""
+                "discussion_stickied_text": "{username} pani teemale nööpnõela.",
+                "discussion_unstickied_text": "{username} võttis teemalt nööpnõela."
             }
         },
         "ref": {
-            "sticky": ""
+            "sticky": "Pane nööpnõel"
         }
     }
 }
