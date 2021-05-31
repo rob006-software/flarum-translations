@@ -15,7 +15,7 @@ Currently supported languages:
 * [Polish](https://github.com/rob006-software/flarum-lang-polish) maintained by [rob006](https://github.com/rob006) ([detailed translation status](status/pl.md))
 * [Sinhala](https://gitlab.com/flarum-sinhala/language-pack) maintained by [Sayuri](https://gitlab.com/sayuri-) ([detailed translation status](status/si.md))
 * [Spanish](https://github.com/FlarumES/lang-spanish) maintained by [Darkle](https://github.com/IamDarkle) and [Javier S. Lirola](https://github.com/jslirola) ([detailed translation status](status/es.md))
-* Turkish: [core](https://github.com/tolgaaaltas/flarum-lang-turkish) and [extensions](https://github.com/tolgaaaltas/flarum-ext-turkish) maintained by [tolgaaaltas](https://github.com/tolgaaaltas) ([detailed translation status](status/tr.md))
+* [Turkish](https://github.com/flarum-lang/turkish) maintained by [tolgaaaltas](https://github.com/tolgaaaltas) ([detailed translation status](status/tr.md))
 
 If you're maintaining language pack and want to add it to the collective, follow [these instructions](https://github.com/rob006-software/flarum-translations/wiki/How-to-start). Not sure what it is and if it is worth the trouble? Read [features list](https://github.com/rob006-software/flarum-translations/wiki/Features).
 
