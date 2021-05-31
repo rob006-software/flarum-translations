@@ -233,7 +233,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/flarum/tags/master/locale/en.yml',
 	],
 	'flarumi-oauth-vkontakte' => [
-		'tag' => 'https://raw.githubusercontent.com/flarumi/oauth-vkontakte/v1.0.5/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarumi/oauth-vkontakte/v1.0.6/resources/locale/en.yml',
 	],
 	'flarumi-oauth-yandex' => [
 		'tag' => 'https://raw.githubusercontent.com/flarumi/oauth-yandex/v1.0.2/resources/locale/en.yml',
