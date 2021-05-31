@@ -210,62 +210,62 @@
                     "subject": {
                         "title": "Konu",
                         "placeholder": "Bilet konusu",
-                        "description": ""
+                        "description": "Sorunuzu kısa bir cümleyle açıklamaya çalışın."
                     },
                     "information": {
-                        "title": "",
-                        "placeholder": ""
+                        "title": "Bilet Bilgileri",
+                        "placeholder": "Size nasıl yardımcı olabileceğimizi bize söyleyin"
                     },
                     "status": {
-                        "title": "",
-                        "placeholder": ""
+                        "title": "Durum",
+                        "placeholder": "Biletin durumu"
                     },
                     "assignees": {
-                        "title": "",
-                        "placeholder": ""
+                        "title": "Atananlar",
+                        "placeholder": "Biletin durumu"
                     }
                 },
                 "compose_ticket": {
-                    "title": "",
-                    "private_support": "",
-                    "not_allowed": ""
+                    "title": "Yeni bir bilet yaz",
+                    "private_support": "Özel destek için, destek platformumuzda yeni bir bilet oluşturmak için bu formu kullanabilirsiniz. Özel olmayan destek konuları için lütfen <a>genel forumlarımıza</a> bakın.",
+                    "not_allowed": "Şimdi yeni bir destek bileti açamazsınız"
                 },
                 "load_more": {
-                    "title": ""
+                    "title": "Daha fazla bilet yükle"
                 },
                 "my_tickets": {
-                    "title": "",
-                    "description": "",
-                    "no_tickets": ""
+                    "title": "Biletlerim",
+                    "description": "Bu sayfada tüm özel biletlerinizi bulabileceksiniz.",
+                    "no_tickets": "Henüz biletiniz yok."
                 },
                 "overview": {
-                    "title": "",
-                    "description": "",
-                    "no_tickets": "",
-                    "all_tickets": ""
+                    "title": "Biletlere genel bakış",
+                    "description": "Gülümse, sen diğer insanların günlerini kurtaran kahramansın.",
+                    "no_tickets": "Kriterlerinize uyan bilet yok, muhtemelen iyi bir iş çıkarıyorsunuz!",
+                    "all_tickets": "Tüm biletler"
                 }
             }
         },
         "emails": {
             "replied_to_ticket": {
-                "subject": "",
-                "body": ""
+                "subject": "{replier_display_name}, #{ticket_id} numaralı biletinizi yanıtladı",
+                "body": "Sayın {recipient_display_name},\n\n{replier_display_name}, #{ticket_id} numaralı biletinizi yanıtladı (konu '{subject}').\n\nYanıtı incelemek için lütfen aşağıdaki bağlantıyı kullanın:\n{url}\n\nCevap verebilirsiniz veya bu bileti çözüldü olarak işaretleyebilirsiniz.\n"
             },
             "ticket_status_update": {
-                "subject": "",
-                "body": ""
+                "subject": "#{ticket_id} numaralı bilet {new_status} olarak işaretlendi",
+                "body": "Sayın {recipient_display_name},\n\n#{ticket_id} numaralı biletinizin durumu {new_status} olarak değişti.\n\nBiletinizin URL'si:\n{url}\n"
             },
             "ticket_resolved": {
-                "subject": "",
-                "body": ""
+                "subject": "#{ticket_id} numaralı bilet çözüldü olarak işaretlendi",
+                "body": "Sayın {recipient_display_name},\n\n#{ticket_id} numaralı biletiniz çözüldü olarak işaretlendi. Bu, biletinizin kapatıldığı anlamına gelir.\n\nBiletinizin URL'si:\n{url}\n\nBiletinizi çözüldü olarak işaretlemeyi kabul etmiyorsanız, yeniden açmak için lütfen biletinizi yanıtlayın.\n"
             },
             "ticket_pending_reply": {
-                "subject": "",
-                "body": ""
+                "subject": "#{ticket_id} numaralı bilet yanıtınızı bekliyor",
+                "body": "Sayın {recipient_display_name},\n\nKısa bir süre önce {replier_display_name}, {replied_date} tarihinde #{ticket_id} numaralı biletinize yanıt verdi ve yanıtınızı bekliyoruz.\n\nBiletinizin URL'si:\n{url}\n\nSorun çözüldüyse, lütfen bileti çözüldü olarak işaretleyin.\n"
             },
             "ticket_pending_reply_closed": {
-                "subject": "",
-                "body": ""
+                "subject": "#{ticket_id} numaralı bilet, hareketsizlik nedeniyle kapatıldı",
+                "body": "Sayın {recipient_display_name},\n\nKısa süre önce {replier_display_name}, #{ticket_id} numaralı biletinize yanıt verdi. Maalesef sizden bir cevap alamadık. Etkinlik olmaması nedeniyle biletiniz otomatik olarak kapatıldı.\n\nYine de yanıtlamak istiyorsanız, biletinizin URL'si:\n{url}"
             }
         }
     }
