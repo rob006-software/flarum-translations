@@ -5,11 +5,11 @@
             "new_achievement_title": "Yeni başarı!",
             "new_achievement_name": "Başarı",
             "new_achievement_close": "Anladım!",
-            "list_heading": "",
-            "achievement_total_points": "",
-            "your_achievements": "",
-            "other_achievements": "",
-            "hidden_achievements": ""
+            "list_heading": "Başarılar",
+            "achievement_total_points": "Toplam",
+            "your_achievements": "Başarılarınız",
+            "other_achievements": "Diğer başarılar",
+            "hidden_achievements": "Gizli başarılar"
         },
         "admin": {
             "achievement_modal": {
@@ -17,7 +17,7 @@
                 "name_label": "İsim",
                 "name_placeholder": "Başarı Adı",
                 "active_label": "Aktif",
-                "hidden_label": "",
+                "hidden_label": "Tüm başarılar listesinden gizle",
                 "description_label": "Açıklama",
                 "description_placeholder": "Başarı Açıklaması",
                 "variable_label": "Değişken",
@@ -57,16 +57,16 @@
                     "tagposts": "Etiketteki gönderiler"
                 },
                 "tooltip": {
-                    "posts": "",
-                    "likes": "",
-                    "selflikes": "",
-                    "discussions": "",
-                    "edits": "",
-                    "contains": "",
-                    "comments": "",
-                    "years": "",
-                    "meanwords": "",
-                    "tagposts": ""
+                    "posts": "Minimum gönderi sayısı (ör. 10) veya kapsamlı aralık (ör. 10,19)",
+                    "likes": "Minimum beğeni sayısı (ör. 10) veya kapsayıcı aralık (ör. 10,19)",
+                    "selflikes": "Alınan minimum beğeni sayısı (ör. 10) veya kapsayıcı aralık (ör. 10,19)",
+                    "discussions": "Oluşturulan minimum tartışma sayısı (ör. 10) veya kapsayıcı aralık (ör. 10,19)",
+                    "edits": "Düzenlenen minimum gönderi sayısı (ör. 10) veya kapsayıcı aralık (ör. 10,19)",
+                    "contains": "Kelime veya kelimeler ve onu içeren minimum gönderi sayısı (ör. tavuk,10) veya kapsayıcı aralık (ör. tavuk,10,19)",
+                    "comments": "Bir tartışmada (ör. 10) veya kapsayıcı aralıkta (ör. 10,19) alınan minimum yanıt sayısı",
+                    "years": "Kayıtlı minimum yıl sayısı (ör. 10) veya kapsayıcı aralık (ör. 10,19)",
+                    "meanwords": "Aranacak kelime ve minimum ortalama görünüm sayısı (ör. tavuk, 10) veya kapsayıcı aralık (ör. Tavuk, 10,19)",
+                    "tagposts": "Aranacak etiket bilgisi ve minimum gönderi sayısı (ör. konu dışı,10) veya kapsayıcı aralık (ör. konu dışı,10,19)"
                 }
             },
             "achievements_page": {
