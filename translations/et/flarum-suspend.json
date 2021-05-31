@@ -2,28 +2,28 @@
     "flarum-suspend": {
         "admin": {
             "permissions": {
-                "suspend_users_label": ""
+                "suspend_users_label": "Kasutajate keelamine"
             }
         },
         "forum": {
             "notifications": {
-                "user_suspended_text": "",
-                "user_unsuspended_text": ""
+                "user_suspended_text": "{username} keelas sinu kasutaja {timeReadable}",
+                "user_unsuspended_text": "{username} lubas sinu kasutaja"
             },
             "suspend_user": {
-                "indefinitely_label": "",
-                "limited_time_days_text": "",
-                "limited_time_label": "",
-                "not_suspended_label": "",
-                "status_heading": "",
-                "submit_button": "",
-                "title": ""
+                "indefinitely_label": "Keelatud määramata ajaks",
+                "limited_time_days_text": " päevaks",
+                "limited_time_label": "Keelatud määratud ajaks...",
+                "not_suspended_label": "Pole keelatud",
+                "status_heading": "Keelamise staatus",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Keela {username}"
             },
             "user_badge": {
-                "suspended_tooltip": ""
+                "suspended_tooltip": "Keelatud"
             },
             "user_controls": {
-                "suspend_button": ""
+                "suspend_button": "Keela"
             }
         }
     }
