@@ -418,189 +418,189 @@
             },
             "user": {
                 "avatar_remove_button": "=> core.ref.remove",
-                "avatar_upload_button": "",
-                "avatar_upload_tooltip": "",
-                "discussions_link": "",
-                "in_discussion_text": "",
-                "joined_date_text": "",
-                "online_text": "",
-                "posts_empty_text": "",
-                "posts_link": "",
-                "posts_load_more_button": "",
-                "settings_link": ""
+                "avatar_upload_button": "Laadi üles",
+                "avatar_upload_tooltip": "Laadi üles uus avatar",
+                "discussions_link": "=> core.ref.discussions",
+                "in_discussion_text": "Teemas {discussion}",
+                "joined_date_text": "Liitus {ago}",
+                "online_text": "Sees",
+                "posts_empty_text": "Siin ei ole ühtegi postitust.",
+                "posts_link": "=> core.ref.posts",
+                "posts_load_more_button": "=> core.ref.load_more",
+                "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
-                "button": "",
-                "delete_button": "",
-                "delete_confirmation": "",
-                "delete_error_message": "",
-                "delete_success_message": "",
-                "edit_button": "",
-                "toggle_dropdown_accessible_label": ""
+                "button": "Juhtpaneel",
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "Oled kindel, et soovid antud kasutaja kustutada? Kasutaja postitusi ei kustutata.",
+                "delete_error_message": "Kasutaja <i>{username} ({email})</i> kustutamine ebaõnnestus",
+                "delete_success_message": "Kasutaja <i>{username} ({email})</i> on kustutatud",
+                "edit_button": "=> core.ref.edit",
+                "toggle_dropdown_accessible_label": "Näita kasutaja juhtpaneeli"
             },
             "user_email_confirmation": {
-                "alert_message": "",
-                "resend_button": "",
-                "sent_message": ""
+                "alert_message": "=> core.ref.confirmation_email_sent",
+                "resend_button": "Saada kinnitusmeil uuesti",
+                "sent_message": "Saadetud"
             }
         },
         "lib": {
             "badge": {
-                "hidden_tooltip": ""
+                "hidden_tooltip": "Peidetud"
             },
             "dropdown": {
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "Näita menüüd"
             },
             "edit_user": {
-                "activate_button": "",
-                "email_heading": "",
-                "email_label": "",
-                "groups_heading": "",
-                "password_heading": "",
-                "password_label": "",
-                "set_password_label": "",
-                "submit_button": "",
-                "title": "",
-                "username_heading": "",
-                "username_label": ""
+                "activate_button": "Aktiveeri kasutaja",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "Grupid",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "Määra uus parool",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.edit_user",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username"
             },
             "error": {
-                "dependent_extensions_message": "",
-                "generic_message": "",
-                "missing_dependencies_message": "",
-                "not_found_message": "",
-                "permission_denied_message": "",
-                "rate_limit_exceeded_message": ""
+                "dependent_extensions_message": "{extension} laiendust ei saa keelata enne nende laienduste keelamist: {extensions}",
+                "generic_message": "Oih! Juhtus ootamatu viga. Palun laadi leht uuesti ja proovi veel kord.",
+                "missing_dependencies_message": "{extension} laiendust ei saa lubada enne nende laienduste lubamist: {extensions}",
+                "not_found_message": "Nõutud ressurssi ei leitud.",
+                "permission_denied_message": "Sul ei ole selle jaoks õigust.",
+                "rate_limit_exceeded_message": "Postitad liiga kiiresti. Proovi mõne sekundi pärast uuest."
             },
             "loading_indicator": {
-                "accessible_label": ""
+                "accessible_label": "=> core.ref.loading"
             },
             "number_suffix": {
-                "kilo_text": "",
-                "mega_text": ""
+                "kilo_text": "k",
+                "mega_text": "M"
             },
             "series": {
-                "glue_text": "",
-                "three_text": "",
-                "two_text": ""
+                "glue_text": ", ",
+                "three_text": "{first}, {second} ja {third}",
+                "two_text": "{first} ja {second}"
             },
             "username": {
-                "deleted_text": ""
+                "deleted_text": "[kustutatud]"
             }
         },
         "views": {
             "content": {
-                "javascript_disabled_message": "",
-                "load_error_message": "",
-                "loading_text": ""
+                "javascript_disabled_message": "Seda lehte on soovitatav külastada kaasaegse veebilehitsejaga, kus on JavaScript lubatud.",
+                "load_error_message": "Miskit läks lehe laadimisel valesti. Äkki aitab lehe täismahus uuesti laadimine?",
+                "loading_text": "=> core.ref.loading"
             },
             "discussion": {
-                "next_page_button": "",
-                "previous_page_button": ""
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
             },
             "error": {
-                "csrf_token_mismatch": "",
-                "csrf_token_mismatch_return_link": "",
-                "invalid_confirmation_token": "",
-                "not_authenticated": "",
-                "not_found": "",
-                "not_found_return_link": "",
-                "permission_denied": "",
-                "unknown": ""
+                "csrf_token_mismatch": "Sa pole olnud kaua aktiivne.",
+                "csrf_token_mismatch_return_link": "Mine tagasi, et uuesti proovida",
+                "invalid_confirmation_token": "See kinnituslink pole õige või seda on juba kasutatud.",
+                "not_authenticated": "Sul pole selle lehe ligipääsuõigust. Proovi peale sisselogimist uuesti.",
+                "not_found": "Nõutud lehte ei leitud.",
+                "not_found_return_link": "Mine tagasi {forum} lehele",
+                "permission_denied": "Sul pole sellele lehele ligipääsuõigust.",
+                "unknown": "Lehel laadimisel tekkis viga."
             },
             "index": {
-                "all_discussions_heading": "",
-                "next_page_button": "",
-                "previous_page_button": ""
+                "all_discussions_heading": "=> core.ref.all_discussions",
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
             },
             "log_out": {
-                "log_out_button": "",
-                "log_out_confirmation": "",
-                "title": ""
+                "log_out_button": "=> core.ref.log_out",
+                "log_out_confirmation": "Oled kindel, et soovida {forum} lehelt väljuda?",
+                "title": "=> core.ref.log_out"
             },
             "reset_password": {
-                "confirm_password_label": "",
-                "new_password_label": "",
-                "submit_button": "",
-                "title": ""
+                "confirm_password_label": "Kinnita uus parool",
+                "new_password_label": "Uus parool",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.reset_your_password"
             }
         },
         "api": {
-            "invalid_username_message": ""
+            "invalid_username_message": "Kasutajanimes võivad olla vaid tähed, numbrid ja sidekriips."
         },
         "email": {
             "activate_account": {
-                "subject": "",
-                "body": ""
+                "subject": "Aktiveeri oma uus konto",
+                "body": "Tere {username}!\n\nKeegi (loodetavasti sina ise!) liitus selle meiliaadressiga {forum} lehele.\n\nKui see olid sina, siis kliki konto aktiveerimiseks allolevale lingile:\n{url}\n\nKui see ei olnud sina, siis lihtsalt ignoreeri seda kirja.\n"
             },
             "confirm_email": {
-                "subject": "",
-                "body": ""
+                "subject": "Kinnita oma uus meiliaadress",
+                "body": "Tere {username}!\n\nKeegi (loodetavasti sina ise!) muutis oma meiliaadressi {forum} lehel selleks aadressiks.\n\nKui see olid sina, siis kliki oma meiliaadressi kinnituseks alloleval lingil:\n{url}\n\nKui see ei olnud sina, siis lihtsalt ignoreeri seda kirja.\n"
             },
             "reset_password": {
-                "subject": "",
-                "body": ""
+                "subject": "=> core.ref.reset_your_password",
+                "body": "Tere {username}!\n\nKeegi (loodetavasti sina ise!) on palunud {forum} lehel saata sellele meiliaadressile paroolivahetuse lingi.\n\nKui see olid sina, siis kliki paroolivahetuseks alloleval lingil:\n{url}\n\nKui sa ei soovi oma parooli muuta, siis lihtsalt ignoreeri seda kirja.\n"
             },
             "send_test": {
-                "subject": "",
-                "body": ""
+                "subject": "Flarumi proovikiri",
+                "body": "Tere {username}!\n\nSee proovikiri on kinnituseks sellele, et sinu Flarumi meiliseadistused töötavad korralikult.\n\nKui see ei olnud sina, kes seda proovi tegi, siis lihtsalt ignoreeri seda kirja.\n"
             }
         },
         "ref": {
-            "all_discussions": "",
-            "change_email": "",
-            "change_password": "",
-            "color": "",
-            "confirm_password": "",
-            "confirmation_email_sent": "",
-            "custom_footer_text": "",
-            "custom_footer_title": "",
-            "custom_header_text": "",
-            "custom_header_title": "",
-            "delete": "",
-            "delete_forever": "",
-            "discussions": "",
-            "edit": "",
-            "edit_user": "",
-            "email": "",
-            "icon": "",
-            "icon_text": "",
-            "load_more": "",
-            "loading": "",
-            "log_in": "",
-            "log_out": "",
-            "mark_all_as_read": "",
-            "next_page": "",
-            "notifications": "",
-            "okay": "",
-            "password": "",
-            "posts": "",
-            "previous_page": "",
-            "remove": "",
-            "rename": "",
-            "reply": "",
-            "reset_your_password": "",
-            "restore": "",
-            "save_changes": "",
-            "settings": "",
-            "sign_up": "",
-            "some_others": "",
-            "start_a_discussion": "",
-            "username": "",
-            "users": "",
-            "view": "",
-            "write_a_reply": "",
-            "you": ""
+            "all_discussions": "Kõik teemad",
+            "change_email": "Muuda meiliaadressi",
+            "change_password": "Muuda parooli",
+            "color": "Värv",
+            "confirm_password": "Kinnita parool",
+            "confirmation_email_sent": "Saatsime kinnituskirja {email} aadressile. Kui seda ei tule, vaadake ka oma spämmikausta.",
+            "custom_footer_text": "Lisa lehe jalusesse see HTML.",
+            "custom_footer_title": "Kohandatud jalus",
+            "custom_header_text": "Lisa lehe päisesse Flarumi päise kohale see HTML.",
+            "custom_header_title": "Kohandatud päis",
+            "delete": "Kustuta",
+            "delete_forever": "Kustuta igaveseks",
+            "discussions": "Teemad",
+            "edit": "Muuda",
+            "edit_user": "Muuda kasutajat",
+            "email": "Meiliaadress",
+            "icon": "Ikoon",
+            "icon_text": "Sisesta <a>FontAwesome</a> ikooni klassinimi <em>koos</em> <code>fas fa-</code> klassinimedega.",
+            "load_more": "Laadi juurde",
+            "loading": "Laadin...",
+            "log_in": "Sisene",
+            "log_out": "Välju",
+            "mark_all_as_read": "Märgi kõik loetuks",
+            "next_page": "Järgmine lehekülg",
+            "notifications": "Teated",
+            "okay": "OK",
+            "password": "Parool",
+            "posts": "Postitused",
+            "previous_page": "Eelmine lehekülg",
+            "remove": "Eemalda",
+            "rename": "Nimeta ringi",
+            "reply": "Vasta",
+            "reset_your_password": "Taasta parool",
+            "restore": "Taasta",
+            "save_changes": "Salvesta muudatused",
+            "settings": "Seaded",
+            "sign_up": "Registreeru",
+            "some_others": "{count, plural, one {# teine} other {# teist}}",
+            "start_a_discussion": "Alusta uut teemat",
+            "username": "Kasutajanimi",
+            "users": "Kasutajad",
+            "view": "Vaata",
+            "write_a_reply": "Kirjuta vastus...",
+            "you": "Sina"
         },
         "group": {
-            "admin": "",
-            "admins": "",
-            "guest": "",
-            "guests": "",
-            "member": "",
-            "members": "",
-            "mod": "",
-            "mods": ""
+            "admin": "Administraator",
+            "admins": "Administraatorid",
+            "guest": "Külaline",
+            "guests": "Külalised",
+            "member": "Liige",
+            "members": "Liikmed",
+            "mod": "Moderaator",
+            "mods": "Moderaatorid"
         }
     }
 }
