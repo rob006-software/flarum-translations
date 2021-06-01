@@ -3,14 +3,14 @@
         "admin": {
             "settings": {
                 "step": {
-                    "how_to": "",
-                    "check_config_url": "",
-                    "admin_on_canonical": "",
-                    "enable_temporary": "",
-                    "enable_permanent": "",
+                    "how_to": "Comment activer la redirection vers le lien canonique",
+                    "check_config_url": "Vérifier si le lien définie dans config.php est le lien canonique par défaut (currently: {url})",
+                    "admin_on_canonical": "Accéder au panel d'administration via le lien canonique",
+                    "enable_temporary": "Activer la redirection temporaire et vérifier que tout fonctionne",
+                    "enable_permanent": "Activer la redirection permanente",
                     "suggestions": "",
-                    "use_https": "",
-                    "use_hsts": ""
+                    "use_https": "Utiliser un lien canonique HTTPS",
+                    "use_hsts": "Utiliser HSTS pour prévenir les attaques par repli"
                 },
                 "field": {
                     "status": "",
