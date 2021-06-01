@@ -2,57 +2,57 @@
     "askvortsov-auto-moderator": {
         "admin": {
             "action_drivers": {
-                "activate_email": "",
-                "add_to_group": "",
-                "remove_from_group": "",
-                "suspend": "",
-                "unsuspend": ""
+                "activate_email": "Activer le mél",
+                "add_to_group": "Ajouter au Groupe",
+                "remove_from_group": "Enlever du Groupe",
+                "suspend": "Suspendre",
+                "unsuspend": "Reprendre"
             },
             "metric_drivers": {
-                "discussions_entered": "",
-                "discussions_participated": "",
-                "discussions_started": "",
-                "posts_made": "",
-                "likes_given": "",
-                "likes_received": "",
-                "best_answers": "",
-                "moderator_strikes": ""
+                "discussions_entered": "Discussions saisies",
+                "discussions_participated": "Discussions avec participation",
+                "discussions_started": "Discussions commencées",
+                "posts_made": "Messages créés",
+                "likes_given": "J'aime reçus",
+                "likes_received": "J'aime reçus",
+                "best_answers": "Meilleures réponses",
+                "moderator_strikes": "Avertissement d'un modérateur"
             },
             "requirement_drivers": {
-                "email_confirmed": "",
-                "in_group": "",
-                "suspended": "",
+                "email_confirmed": "Mél confirmé",
+                "in_group": "Dans le Groupe",
+                "suspended": "Suspendu",
                 "email_matches_regex": ""
             },
             "in_group_settings": {
-                "regex": ""
+                "regex": "Expressions régulières pour les méls valides (pas de barres obliques)"
             },
             "group_selector": {
-                "placeholder": ""
+                "placeholder": "Sélectionner un groupe"
             },
             "suspend_selector": {
-                "days": "",
-                "indefinitely": ""
+                "days": "Jours pour la suspension",
+                "indefinitely": "Suspendre indéfiniment ?"
             },
             "criterion_status": {
-                "heading": "",
-                "invalid": "",
-                "no_actions": "",
-                "no_metrics_or_reqs": "",
-                "valid": "",
-                "action_validation_errors": "",
+                "heading": "Vérification du statut",
+                "invalid": "La condition est actuellement invalide. Merci de vérifier les pilotes ci-dessous pour les erreurs.",
+                "no_actions": "Aucunes actions ne sont définies pour cette condition. Rien ne se passera lorsque l'utilisateur bénéficiera ou perdra cette condition.",
+                "no_metrics_or_reqs": "Aucuns critères ou obligations ne sont définies pour cette condition. Cela signifie que TOUS les utilisateurs seront compatibles avec cette condition.",
+                "valid": "Cette condition est valide !",
+                "action_validation_errors": "Les erreurs suivant la validation du pilote d'action ont été rencontrées :",
                 "requirement_validation_errors": ""
             },
             "criterion_page": {
-                "driver_missing_ext": "",
-                "back": "",
-                "name_label": "",
-                "icon_label": "",
-                "description_label": "",
-                "new_criterion": "",
-                "negated": "",
-                "loading": "",
-                "delete_button": "",
+                "driver_missing_ext": "Ce pilote dépend d'extensions qui ne sont pas activées.",
+                "back": "Retourner à la liste des conditions",
+                "name_label": "Nom",
+                "icon_label": "Icône",
+                "description_label": "Description",
+                "new_criterion": "Créer une condition",
+                "negated": "Annuler ?",
+                "loading": "=> core.ref.loading",
+                "delete_button": "=> core.ref.delete",
                 "metrics_and_requirements_label": "",
                 "metrics_and_requirements_help": "",
                 "metrics_heading": "",
