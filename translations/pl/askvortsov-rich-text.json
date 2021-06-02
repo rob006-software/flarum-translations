@@ -7,7 +7,7 @@
         },
         "lib": {
             "composer": {
-                "toggle_button": "Przełącz tryb tekstu sformatowanego",
+                "toggle_button": "Przełącz tryb wizualny",
                 "insert_button": "Wstaw",
                 "insert_image": {
                     "src_placeholder": "Link",
@@ -16,27 +16,27 @@
                 "insert_link": {
                     "text_placeholder": "Tekst",
                     "href_placeholder": "URL",
-                    "title_placeholder": "Tytuł (pokazuje się  po najechaniu)",
+                    "title_placeholder": "Tytuł (pokazywany po najechaniu kursorem)",
                     "remove_button": "Usuń"
                 },
                 "additional_items_tooltip": "Dodatkowe elementy",
                 "bold_tooltip": "Pogrubiony tekst <{modifierKey}-b>",
-                "code_tooltip": "Kod liniowy <{modifierKey}-`>",
+                "code_tooltip": "Kod w tekście <{modifierKey}-`>",
                 "code_block_tooltip": "Wstaw blok kodu",
                 "header_tooltip": "Zmień na nagłówek {level} <shift-{modifierKey}-{level}>",
-                "horizontal_rule_tooltip": "Wstaw linię poziomą",
+                "horizontal_rule_tooltip": "Wstaw poziomą linię",
                 "image_tooltip": "Wstaw obrazek",
                 "italic_tooltip": "Kursywa <{modifierKey}-i>",
                 "link_tooltip": "Wstaw link",
                 "ordered_list_tooltip": "Lista numerowana <shift-{modifierKey}-9>",
                 "paragraph_tooltip": "Zmień na akapit <shift-{modifierKey}-0>",
                 "quote_tooltip": "Wstaw cytat <{modifierKey}-q>",
-                "spoiler_block_tooltip": "Spoiler blokowy/rozwijany",
-                "spoiler_inline_tooltip": "Spoiler  <{modifierKey}-;>",
+                "spoiler_block_tooltip": "Rozwijany blok ze spoilerem",
+                "spoiler_inline_tooltip": "Spoiler <{modifierKey}-;>",
                 "strike_tooltip": "Przekreślenie <alt-shift-5>",
                 "sub_tooltip": "Indeks dolny <{modifierKey}-,>",
                 "sup_tooltip": "Indeks górny <{modifierKey}-.>",
-                "text_type_tooltip": "Wybierz typ tekstu",
+                "text_type_tooltip": "Wybierz styl tekstu",
                 "unordered_list_tooltip": "Lista punktowana <shift-{modifierKey}-8>"
             }
         },
