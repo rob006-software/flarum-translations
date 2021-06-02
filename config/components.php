@@ -197,7 +197,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/flarum/lock/master/locale/en.yml',
 	],
 	'flarum-markdown' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/markdown/v1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/markdown/v1.0.1/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/flarum/markdown/master/locale/en.yml',
 	],
 	'flarum-mentions' => [
