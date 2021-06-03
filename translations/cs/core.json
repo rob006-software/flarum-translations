@@ -1,0 +1,547 @@
+{
+    "core": {
+        "admin": {
+            "appearance": {
+                "colored_header_label": "Barevné záhlaví",
+                "colors_heading": "Barvy",
+                "colors_text": "Zvol dvě barvy, kterými nastyluješ své fórum. První bude použita pro zvýraznění, zatímco druhá bude použita jako barva pozadí prvků.",
+                "custom_footer_heading": "Vlastní zápatí",
+                "custom_footer_text": "=> core.ref.custom_footer_text",
+                "custom_header_heading": "Vlastní záhlaví",
+                "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_heading": "Vlastní styly",
+                "custom_styles_text": "Uprav si vzhled svého fóra přidáním vlastního LESS/CSS kódu, který bude použit nad defaultními Flarum styly.",
+                "dark_mode_label": "Dark Mode",
+                "description": "Uprav si barvy, loga a další proměnné svého fóra.",
+                "edit_css_button": "Upravit vlastní CSS",
+                "edit_footer_button": "=> core.ref.custom_footer_title",
+                "edit_header_button": "=> core.ref.custom_header_title",
+                "enter_hex_message": "Prosím zadej hexadecimální kód barvy.",
+                "favicon_heading": "Favicon",
+                "favicon_text": "Nahraj obrázek, který se zobrazí jako favicon (náhledová ikonka v prohlížeči) tvého fóra.",
+                "logo_heading": "Logo",
+                "logo_text": "Nahraj obrázek, který se zobrazí na místě názvu tvého fóra.",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Vzhled"
+            },
+            "basics": {
+                "all_discussions_label": "=> core.ref.all_discussions",
+                "default_language_heading": "Výchozí jazyk",
+                "description": "Nastav si název svého fóra, jazyk a další základní nastavení.",
+                "display_name_heading": "Uživatelské jméno k zobrazení",
+                "display_name_text": "Vyber driver, který by měl být použit pro uživatelská jména k zobrazení. Ve výchozím stavu jsou už. jména zobrazena.",
+                "forum_description_heading": "Popis fóra",
+                "forum_description_text": "Vlož krátkou větičku, nebo dvě, které popisují tvou komunitu. Tento popis se ukáže v meta tagu a ve výsledcích vyhledávání.",
+                "forum_title_heading": "Název fóra",
+                "home_page_heading": "Hlavní stránka",
+                "home_page_text": "Zvol stránku, kterou uvidí uživatelé jako první, když přijdou na tvé fórum.",
+                "saved_message": "Tvé změny byly uloženy.",
+                "show_language_selector_label": "Zobrazit výběr jazyků",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Základní nastavení",
+                "welcome_banner_heading": "Uvítací banner",
+                "welcome_banner_text": "Nastav si text uvítacího banneru, který se zobrazí na všech diskuzních stránkách. Využij ho pro přivítání hostů na fóru."
+            },
+            "dashboard": {
+                "clear_cache_button": "Smazat Cache",
+                "description": "Přehled vašeho fóra.",
+                "title": "Nástěnka",
+                "tools_button": "Nástroje"
+            },
+            "edit_css": {
+                "customize_text": "Uprav si vzhled svého fóra přidáním vlastního LESS/CSS kódu, který bude použit nad <a>defaultními Flarum styly</a>.",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Úprava vlastního CSS"
+            },
+            "edit_footer": {
+                "customize_text": "=> core.ref.custom_footer_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_footer_title"
+            },
+            "edit_group": {
+                "color_label": "core.ref.color",
+                "delete_button": "Smazat skupinu",
+                "delete_confirmation": "Opravdu chceš smazat tuto skupinu? Její členové odstraněni nebudou.",
+                "hide_label": "Skrýt na fóru",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "Název",
+                "plural_placeholder": "Plurál (např. Správci)",
+                "singular_placeholder": "Singulár (např. Správce)",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Vytvořit skupinu"
+            },
+            "edit_header": {
+                "customize_text": "=> core.ref.custom_header_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_header_title"
+            },
+            "email": {
+                "addresses_heading": "Adresy",
+                "driver_heading": "Vyber způsob odesílání (Driver)",
+                "description": "Nastav si způsob odesílání (Driver), další nastavení a adresu, kterou tvé fórum bude využívat pro odesílání emailů.",
+                "driver_label": "Driver",
+                "from_label": "Odesilatel",
+                "mail_encryption_label": "Šifrování",
+                "mail_host_label": "Hostitel",
+                "mail_mailgun_domain_label": "Doména",
+                "mail_mailgun_region_label": "Region",
+                "mail_mailgun_secret_label": "Tajný klíč (Secret key)",
+                "mail_password_label": "=> core.ref.password",
+                "mail_port_label": "Port",
+                "mail_username_label": "=> core.ref.username",
+                "mailgun_heading": "Mailgun Nastavení",
+                "not_sending_message": "Flarum momentálně neposílá emaily. To může být způsobeno vybraným driverem, nebo chybami v jeho nastavení.",
+                "send_test_mail_button": "Odeslat",
+                "send_test_mail_heading": "Odeslat testovací email",
+                "send_test_mail_success": "Testovací email úspěšně odeslán!",
+                "send_test_mail_text": "Pošle email za použití nastavení výše na tvou emailovou adresu, {email}.",
+                "smtp_heading": "SMTP Nastavení",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.email"
+            },
+            "extension": {
+                "confirm_uninstall": "Odinstalováním se smažou všechny záznamy v databázi a soubory související s rozšířením. Opravdu chceš pokračovat?",
+                "disabled": "Deaktivovat",
+                "enabled": "Povolit",
+                "enable_to_see": "Povolit rozšíření zobrazovat a měnit nastavení.",
+                "info_links": {
+                    "discuss": "Discuss",
+                    "documentation": "Dokumentace",
+                    "donate": "Darovat",
+                    "source": "Zdroj",
+                    "support": "Podpora",
+                    "website": "Web"
+                },
+                "no_permissions": "Žádné oprávnění",
+                "no_settings": "Žádná nastavení",
+                "open_modal": "Otevřít nastavení",
+                "permissions_title": "Oprávnění",
+                "saved_message": "Změny byly uloženy.",
+                "uninstall_button": "Odinstalovat"
+            },
+            "header": {
+                "get_help": "Získat pomoc",
+                "log_out_button": "=> core.ref.log_out"
+            },
+            "loading": {
+                "title": "Prosím čekejte…"
+            },
+            "nav": {
+                "appearance_button": "=> core.admin.appearance.title",
+                "appearance_title": "=> core.admin.appearence.description",
+                "basics_button": "=> core.admin.basics.title",
+                "basics_title": "=> core.admin.basics.description",
+                "categories": {
+                    "authentication": "Autentizace",
+                    "discussion": "Diskuze",
+                    "feature": "Funkce",
+                    "formatting": "Formátování",
+                    "language": "Jazyky",
+                    "moderation": "Moderace",
+                    "other": "Další rozšíření",
+                    "theme": "Motivy"
+                },
+                "dashboard_button": "=> core.admin.dashboard.title",
+                "dashboard_title": "=> core.admin.dashboard.description",
+                "email_button": "=> core.ref.email",
+                "email_title": "=> core.admin.email.description",
+                "permissions_button": "=> core.admin.permissions.title",
+                "permissions_title": "=> core.admin.permissions.description",
+                "search_placeholder": "Vyhledat rozšíření"
+            },
+            "permissions": {
+                "allow_post_editing_label": "Povolit úpravu příspěvků",
+                "allow_renaming_label": "Povolit zbývající",
+                "create_heading": "Vytvořit",
+                "delete_discussions_forever_label": "Smazat diskuze navždy",
+                "delete_discussions_label": "Smazat diskuze",
+                "delete_posts_forever_label": "Smazat příspěvky navždy",
+                "delete_posts_label": "Smazat příspěvky",
+                "description": "Nastav si, kdo může co vidět a provádět na fóru.",
+                "edit_posts_label": "Upravit přízpěvky",
+                "edit_users_label": "Upravit uživatele",
+                "global_heading": "Globální",
+                "moderate_heading": "Moderovat",
+                "new_group_button": "Nová skupina",
+                "participate_heading": "Zúčastnit se",
+                "post_without_throttle_label": "Odpovědět vícekrát bez čekání",
+                "read_heading": "Číst",
+                "rename_discussions_label": "Přejmenovat diskuzi",
+                "reply_to_discussions_label": "Odpovědět v diskuzi",
+                "sign_up_label": "Registrace",
+                "start_discussions_label": "Začít diskuzi",
+                "title": "Oprávnění",
+                "view_discussions_label": "Zobrazit diskuzi",
+                "view_hidden_groups_label": "Zobrazit schované odznáčky skupiny",
+                "view_last_seen_at_label": "Vždy zobrazit poslední čas zobrazení",
+                "view_post_ips_label": "Zobrazit IP adresu příspěvku",
+                "view_user_list_label": "Zobrazit seznam uživatelů"
+            },
+            "permissions_controls": {
+                "allow_indefinitely_button": "Kdykoli",
+                "allow_some_minutes_button": "První {count} minutu|První {count} minuty|Prvních {count} minut",
+                "allow_ten_minutes_button": "Na 10 minut",
+                "allow_until_reply_button": "Do další odpovědi",
+                "everyone_button": "Všichni",
+                "members_button": "=> core.group.members",
+                "signup_closed_button": "Uzavřena",
+                "signup_open_button": "Otevřena"
+            },
+            "settings": {
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "upload_image": {
+                "remove_button": "=> core.ref.remove",
+                "upload_button": "Zvolit obrázek…"
+            }
+        },
+        "forum": {
+            "change_email": {
+                "confirm_password_placeholder": "=> core.ref.confirm_password",
+                "confirmation_message": "=> core.ref.confirmation_email_sent",
+                "dismiss_button": "=> core.ref.okay",
+                "incorrect_password_message": "Zadané heslo nesedí.",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.change_email"
+            },
+            "change_password": {
+                "send_button": "Odeslat e-mail pro obnovu hesla",
+                "text": "Klikni na tlačítko níže a zkontroluj si email, kde budeš mít odkaz pro změnu hesla.",
+                "title": "=> core.ref.change_password"
+            },
+            "composer": {
+                "close_tooltip": "Zavřít",
+                "exit_full_screen_tooltip": "Ukončit režim celé obrazovky",
+                "full_screen_tooltip": "Celá obrazovka",
+                "minimize_tooltip": "Minimalizovat",
+                "preview_tooltip": "Náhled"
+            },
+            "composer_discussion": {
+                "body_placeholder": "Napsat příspěvek…",
+                "discard_confirmation": "Nezveřejnil jsi své téma. Chceš jej zahodit?",
+                "submit_button": "Zveřejnit téma",
+                "title": "=> core.ref.start_a_discussion",
+                "title_placeholder": "Téma"
+            },
+            "composer_edit": {
+                "discard_confirmation": "Neuložil jsi své změny. Chceš je zahodit?",
+                "edited_message": "Tvá úprava byla provedena.",
+                "post_link": "Příspěvek č. {number} ve vlákně {discussion}",
+                "submit_button": "=> core.ref.save_changes",
+                "view_button": "=> core.ref.view"
+            },
+            "composer_reply": {
+                "body_placeholder": "=> core.ref.write_a_reply",
+                "discard_confirmation": "Ještě jsi odpověď neodeslal. Chceš ji zahodit?",
+                "posted_message": "Tvá odpověď byla odeslána.",
+                "submit_button": "Odpovědět",
+                "view_button": "Zobrazit"
+            },
+            "discussion_controls": {
+                "cannot_reply_button": "Nelze odpovědět",
+                "cannot_reply_text": "V tomto vlákně nemůžeš odpovídat.",
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "Opravdu chceš toto vlákno smazat?",
+                "delete_forever_button": "=> core.ref.delete_forever",
+                "log_in_to_reply_button": "Přihlásit se a odpovědět",
+                "rename_button": "=> core.ref.rename",
+                "reply_button": "=> core.ref.reply",
+                "restore_button": "=> core.ref.restore"
+            },
+            "discussion_list": {
+                "empty_text": "Nebyla nalezena žádná vlákna.",
+                "load_more_button": "=> core.ref.load_more",
+                "mark_as_read_tooltip": "Označit jako přečtené",
+                "replied_text": "Uživatel {username} odpověděl {ago}",
+                "started_text": "Uživatel {username} začal {ago}"
+            },
+            "edit_user": {
+                "activate_button": "Aktivovat účet",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "Skupiny",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "Set new password",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Úprava účtu",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username"
+            },
+            "forgot_password": {
+                "dismiss_button": "=> core.ref.okay",
+                "email_placeholder": "=> core.ref.email",
+                "email_sent_message": "Zaslali jsme ti e-mail s odkazem na změnu hesla. Pokud jsi ho neobdržel, podívej se do spamu.",
+                "not_found_message": "Tato e-mailová adresa není v naší databázi.",
+                "submit_button": "Obnovit heslo",
+                "text": "Zadej svou e-mailovou adresu a my ti pošleme e-mail s odkazem na jeho resetování.",
+                "title": "Zapomenuté heslo"
+            },
+            "header": {
+                "admin_button": "Administrace",
+                "back_to_index_tooltip": "Zpět na seznam diskuzí",
+                "log_in_link": "=> core.ref.log_in",
+                "log_out_button": "=> core.ref.log_out",
+                "profile_button": "Profil",
+                "search_placeholder": "Prohledat fórum",
+                "settings_button": "=> core.ref.settings",
+                "sign_up_link": "=> core.ref.sign_up"
+            },
+            "index": {
+                "all_discussions_link": "=> core.ref.all_discussions",
+                "cannot_start_discussion_button": "Nemůžeš založit vlákno",
+                "mark_all_as_read_confirmation": "Opravdu chceš všechna vlákna označit jako přečtená?",
+                "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "meta_title_text": "=> core.ref.all_discussions",
+                "refresh_tooltip": "Obnovit",
+                "start_discussion_button": "=> core.ref.start_a_discussion"
+            },
+            "index_sort": {
+                "latest_button": "Nejaktuálnější",
+                "newest_button": "Nejnovější",
+                "oldest_button": "Nejstarší",
+                "relevance_button": "Nejrelevantnější",
+                "top_button": "Nejlepší"
+            },
+            "log_in": {
+                "forgot_password_link": "Zapomenuté heslo?",
+                "invalid_login_message": "Tvé přihlašovací údaje nejsou správné.",
+                "password_placeholder": "=> core.ref.password",
+                "remember_me_label": "Zapamatuj si mě",
+                "sign_up_text": "Nemáš účet? <a>Zaregistruj se</a>",
+                "submit_button": "=> core.ref.log_in",
+                "title": "=> core.ref.log_in",
+                "username_or_email_placeholder": "Přezdívka nebo e-mail"
+            },
+            "notifications": {
+                "discussion_renamed_text": "{username} změnil nadpis",
+                "empty_text": "Žádná oznámení",
+                "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "mark_as_read_tooltip": "Označit jako přečteno",
+                "title": "=> core.ref.notifications",
+                "tooltip": "=> core.ref.notifications"
+            },
+            "post": {
+                "edited_text": "Upraveno",
+                "edited_tooltip": "{username} upravil {ago}",
+                "number_tooltip": "Příspěvek č. {number}"
+            },
+            "post_controls": {
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "Opravdu chceš navždy smazat tento příspěvek? Tato akce je nezvratná.",
+                "delete_forever_button": "=> core.ref.delete_forever",
+                "edit_button": "=> core.ref.edit",
+                "hide_confirmation": "Opravdu chceš smazat tento příspěvek?",
+                "restore_button": "=> core.ref.restore"
+            },
+            "post_scrubber": {
+                "now_link": "Současnost",
+                "original_post_link": "Úvodní příspěvek",
+                "unread_text": "{count} nepřečtený|{count} nepřečtené|{count} nepřečtených",
+                "viewing_text": "{index} z {count} příspěvku|{index} ze {count} příspěvků|{index} z {count} příspěvků"
+            },
+            "post_stream": {
+                "discussion_renamed_old_tooltip": "Původní nadpis byl: „{old}“",
+                "discussion_renamed_text": "{username} změnil nadpis na {new}.",
+                "load_more_button": "=> core.ref.load_more",
+                "reply_placeholder": "=> core.ref.write_a_reply",
+                "time_lapsed_text": "o {period} později"
+            },
+            "rename_discussion": {
+                "submit_button": "=> core.ref.rename",
+                "title": "Přejmenovat diskuzi"
+            },
+            "search": {
+                "all_discussions_button": "Hledat „{query}“ ve všech vláknech",
+                "discussions_heading": "=> core.ref.discussions",
+                "users_heading": "=> core.ref.users"
+            },
+            "settings": {
+                "account_heading": "Účet",
+                "change_email_button": "=> core.ref.change_email",
+                "change_password_button": "=> core.ref.change_password",
+                "notifications_heading": "=> core.ref.notifications",
+                "notify_by_email_heading": "=> core.ref.email",
+                "notify_by_web_heading": "Web",
+                "notify_discussion_renamed_label": "Někdo přejmenuje téma, které jsem založil",
+                "privacy_disclose_online_label": "Umožnit ostatním uživatelům vidět, že jsem on-line",
+                "privacy_heading": "Soukromí",
+                "title": "=> core.ref.settings"
+            },
+            "sign_up": {
+                "dismiss_button": "=> core.ref.okay",
+                "email_placeholder": "=> core.ref.email",
+                "log_in_text": "Již máš účet? <a>Přihlas se</a>",
+                "password_placeholder": "=> core.ref.password",
+                "submit_button": "=> core.ref.sign_up",
+                "title": "=> core.ref.sign_up",
+                "username_placeholder": "=> core.ref.username",
+                "welcome_text": "Vítej, uživateli {username}!"
+            },
+            "user": {
+                "avatar_remove_button": "=> core.ref.remove",
+                "avatar_upload_button": "Nahrát",
+                "avatar_upload_tooltip": "Nahrát nový avatar",
+                "discussions_link": "=> core.ref.discussions",
+                "in_discussion_text": "V {discussion}",
+                "joined_date_text": "Připojil se {ago}",
+                "online_text": "Online",
+                "posts_empty_text": "Zdá se, že tu nejsou žádné příspěvky.",
+                "posts_link": "=> core.ref.posts",
+                "posts_load_more_button": "=> core.ref.load_more",
+                "settings_link": "=> core.ref.settings"
+            },
+            "user_controls": {
+                "button": "Upravit",
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "Opravdu chceš uživatele smazat? Příspěvky tohoto uživatele NEBUDOU smazány.",
+                "delete_error_message": "<i>{username} ({email})</i> se nepodařilo smazat",
+                "delete_success_message": "Uživatel <i>{username} ({email})</i> byl smazán",
+                "edit_button": "=> core.ref.edit"
+            },
+            "user_email_confirmation": {
+                "alert_message": "=> core.ref.confirmation_email_sent",
+                "resend_button": "Znovu odeslat potvrzovací zprávu",
+                "sent_message": "Odesláno"
+            }
+        },
+        "lib": {
+            "badge": {
+                "hidden_tooltip": "Schované"
+            },
+            "error": {
+                "dependent_extensions_message": "Není možné deaktivovat {extension} dokud nejsou deaktivována tato závislá rozšíření: {extensions}",
+                "missing_dependencies_message": "Není možné povolit {extension} dokud nejsou povolena tato rozšíření: {extensions}",
+                "generic_message": "Jejda, něco se pokazilo. Obnov prosím stránku a zkus to znovu.",
+                "not_found_message": "Požadovaný zdroj nebyl nalezen.",
+                "permission_denied_message": "Na tuto operaci nemáte dostatečná práva.",
+                "rate_limit_exceeded_message": "Jsi moc rychlý, zpomal."
+            },
+            "number_suffix": {
+                "kilo_text": " tisíc",
+                "mega_text": " miliónů"
+            },
+            "series": {
+                "glue_text": ", ",
+                "three_text": "{first}, {second} a {third}",
+                "two_text": "{first} a {second}"
+            },
+            "username": {
+                "deleted_text": "[smazaný]"
+            }
+        },
+        "views": {
+            "content": {
+                "javascript_disabled_message": "Tento web funguje nejlépe v moderním prohlížeči se zapnutým JavaScriptem.",
+                "load_error_message": "Něco se pokazilo, když jsi se pokusil načíst plnou verzi tohoto webu. Zkus stránku natvrdo obnovit.",
+                "loading_text": "Načítání…"
+            },
+            "discussion": {
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
+            },
+            "error": {
+                "csrf_token_mismatch": "Byl jsi moc dlouho neaktivní.",
+                "csrf_token_mismatch_return_link": "Běž zpět a zkus to znovu.",
+                "invalid_confirmation_token": "Potvrzovací odkaz byl již využit a nebo není validní.",
+                "not_authenticated": "Nemáš oprávnění navštívit tuto stránku. Zkus to znovu po přihlášení.",
+                "not_found": "Požadovaná stránka nebyla nalezena.",
+                "not_found_return_link": "Vrať se na {forum}",
+                "permission_denied": "Nemáš oprávnění navštívit tuto stránku.",
+                "unknown": "Při načítání stránky se vyskytla chyba."
+            },
+            "index": {
+                "all_discussions_heading": "=> core.ref.all_discussions",
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
+            },
+            "log_out": {
+                "log_out_button": "=> core.ref.log_out",
+                "log_out_confirmation": "Opravdu se chceš odhlásit z fóra {forum}?",
+                "title": "=> core.ref.log_out"
+            },
+            "reset_password": {
+                "confirm_password_label": "Potvrzení nového hesla",
+                "new_password_label": "Nové heslo",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.reset_your_password"
+            }
+        },
+        "api": {
+            "invalid_username_message": "Přezdívka smí obsahovat pouze písmena, čísla a pomlčky."
+        },
+        "email": {
+            "activate_account": {
+                "subject": "Aktivace nového účtu",
+                "body": "Ahoj, {username}.\n\nNěkdo (snad ty!) se na {forum} registroval s touto email adresou.\n\nPokud jsi to byl/a ty, klikni na tento odkaz a tvůj účet bude aktivován:\n{url}\n\nPokud o ničem takovém nevíš, tento email ignoruj.\n"
+            },
+            "confirm_email": {
+                "subject": "Potvrzení nového emailu",
+                "body": "Ahoj, {username}!\n\nNěkdo (snad ty!) na {forum} změnil svou emailovou adresu na tu tvoji.\n\nPokud jsi to byl/a ty, tak klikni na odkaz níže a potvrď to:\n{url}\n\nPokud to udělal někdo jiný, tento email ignotuj.\n"
+            },
+            "reset_password": {
+                "subject": "=> core.ref.reset_your_password",
+                "body": "Ahoj, {username}.\n\nNěkdo (snad ty!) na {forum} zažádal o reset hesla.\n\nPokud jsi to byl/a ty, klikni na odkaz níže a resetuj si ho:\n{url}\n\nPokud si ho změnit nechceš, tento email ignoruj a nic se nestane.\n"
+            },
+            "send_test": {
+                "subject": "Flarum Email Test",
+                "body": "Ahoj {username}!\n\nToto je testovací email k potvrzení správnosti nastavení emailu ve Flarum.\n\nPokud jsi to byl ty, tak to znamená, že tvé Flarum nastavení emailu funguje!\n\nPokud jsi to nebyl ty, prosím ignoruj tento email.\n"
+            }
+        },
+        "ref": {
+            "all_discussions": "Všechny diskuze",
+            "change_email": "Změnit e-mail",
+            "change_password": "Změnit heslo",
+            "color": "Barva",
+            "confirm_password": "Potvrdit heslo",
+            "confirmation_email_sent": "Poslali jsme potvrzovací zprávu na adresu {email}. Pokud brzy nedorazí, zkus se kouknout do složky s nevyžádanou poštou.",
+            "custom_footer_text": "Přidej HTML, která se zobrazí na samém konci stránky.",
+            "custom_footer_title": "Upravit vlastní zápatí",
+            "custom_header_text": "Přidej HTML, které se zobrazí na úplném začátku stránky, nad Flarum záhlavím.",
+            "custom_header_title": "Upravit vlastní záhlaví",
+            "delete": "Smazat",
+            "delete_forever": "Smazat navždy",
+            "discussions": "Diskuze",
+            "edit": "Upravit",
+            "email": "E-Mail",
+            "icon": "Ikona",
+            "icon_text": "Vložte název <a>FontAwesome</a> ikony, <em>i s</em> <code>fas fa-</code> prefixem.",
+            "load_more": "Načíst další",
+            "log_in": "Přihlásit se",
+            "log_out": "Odhlásit se",
+            "mark_all_as_read": "Označit vše jako přečtené",
+            "next_page": "Další stránka",
+            "notifications": "Oznámení",
+            "okay": "OK",
+            "password": "Heslo",
+            "posts": "Příspěvky",
+            "previous_page": "Předchozí stránka",
+            "remove": "Odstranit",
+            "rename": "Přejmenovat",
+            "reply": "Odpovědět",
+            "reset_your_password": "Obnovit heslo",
+            "restore": "Obnovit",
+            "save_changes": "Uložit změny",
+            "settings": "Nastavení",
+            "sign_up": "Registrovat se",
+            "some_others": "{count} další|{count} další|{count} dalších",
+            "start_a_discussion": "Začít diskuzi",
+            "username": "Přezdívka",
+            "users": "Uživatelé",
+            "view": "Zobrazit",
+            "write_a_reply": "Odpovědět…",
+            "you": "Ty"
+        },
+        "group": {
+            "admin": "Správce",
+            "admins": "Správci",
+            "guest": "Host",
+            "guests": "Hosté",
+            "member": "Člen",
+            "members": "Členové",
+            "mod": "Moderátor",
+            "mods": "Moderátoři"
+        }
+    }
+}
