@@ -5,9 +5,6 @@
                 "title": "Przesyłanie plików",
                 "description": "Skonfiguruj ustawienia przesyłania plików."
             },
-            "buttons": {
-                "save": "Zapisz ustawienia"
-            },
             "help_texts": {
                 "disable-download-logging": "Wyłącz rejestrowanie każdego pobrania przez użytkowników Twojego forum. Pozostawienie tej opcji włączonej pozwoli Ci na zobaczenie ilości pobrań i innych statystyk w niedalekiej przyszłości.\n",
                 "disable-hotlink-protection": "Ochrona przed hotlinkowaniem zapobiega otwieraniu tutejszych plików z poziomu innych stron. Obecna metoda wymaga tokenu CSRF i identyfikatora postu.\n",
@@ -104,6 +101,9 @@
                 "local": "Lokalnie",
                 "ovh-svfs": "OVH SVFS",
                 "qiniu": "QiNiu"
+            },
+            "buttons": {
+                "save": "Zapisz ustawienia"
             }
         },
         "forum": {

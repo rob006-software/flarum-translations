@@ -5,9 +5,6 @@
                 "title": "",
                 "description": ""
             },
-            "buttons": {
-                "save": "設定を保存する"
-            },
             "help_texts": {
                 "disable-download-logging": "スイッチをオンにすると、フォーラムユーザーのすべてのダウンロード動作のバックグラウンドレコードが無効になります。 ログ保持機能が有効になっている場合、ファイルのダウンロード数およびその他の関連データを表示できます。 （デフォルトで有効）\n",
                 "disable-hotlink-protection": "盗難防止保護は、 csrf token と post id を検証して、サイト外からのダウンロード要求を防ぐことができます。 （デフォルトで有効）\n",
@@ -104,6 +101,9 @@
                 "local": "ローカル",
                 "ovh-svfs": "OVH SVFS",
                 "qiniu": "七牛"
+            },
+            "buttons": {
+                "save": "設定を保存する"
             }
         },
         "forum": {

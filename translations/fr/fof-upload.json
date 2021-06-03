@@ -5,9 +5,6 @@
                 "title": "Upload",
                 "description": "Configurez les services et les préférences de téléchargement."
             },
-            "buttons": {
-                "save": "Enregistrer les paramètres"
-            },
             "help_texts": {
                 "disable-download-logging": "Désactivez la journalisation de chaque téléchargement effectué par les utilisateurs de votre forum. Le laisser activé vous permet d’afficher le nombre de téléchargements et d’autres statistiques dans un avenir proche.\n",
                 "disable-hotlink-protection": "La protection contre les liens automatiques empêche l’ouverture de téléchargements depuis d’autres sites. La méthode actuelle nécessite un jeton csrf et un identifiant de publication.\n",
@@ -104,6 +101,9 @@
                 "local": "Local",
                 "ovh-svfs": "OVH SVFS",
                 "qiniu": "QiNiu"
+            },
+            "buttons": {
+                "save": "Enregistrer les paramètres"
             }
         },
         "forum": {

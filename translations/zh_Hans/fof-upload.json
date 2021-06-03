@@ -5,9 +5,6 @@
                 "title": "上传",
                 "description": "设置上传服务和首选项。"
             },
-            "buttons": {
-                "save": "保存设置"
-            },
             "help_texts": {
                 "disable-download-logging": "（默认启用）保持开启，以便在将来查看下载记录及其他数据。打开下方的开关，即可停止记录下载日志。\n",
                 "disable-hotlink-protection": "（默认启用）防盗链将通过验证 CSRF TOKEN 和 POST ID 来保护你的文件不会被其他站点调用下载。\n",
@@ -104,6 +101,9 @@
                 "local": "本地",
                 "ovh-svfs": "OVH SVFS",
                 "qiniu": "七牛"
+            },
+            "buttons": {
+                "save": "保存设置"
             }
         },
         "forum": {
