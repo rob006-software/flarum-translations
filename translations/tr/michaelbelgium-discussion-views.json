@@ -12,7 +12,7 @@
             "modal_resetviews": {
                 "title": "Tartışmaların görüntülenmesini sıfırla",
                 "submit_button": "Evet, hepsini kaldır",
-                "label": "Bu tartışmaya ait {count} görüntülenme temizlenecektir. Devam ediyor musunuz?|Bu tartışmaya ait {count} görüntülenme temizlenecektir. Devam ediyor musunuz?"
+                "label": "{count, plural, one {Bu tartışmaya ait {count} görüntülenme temizlenecektir. Devam ediyor musunuz?} other {Bu tartışmaya ait {count} görüntülenme temizlenecektir. Devam ediyor musunuz?}}"
             },
             "discussion_controls": {
                 "resetviews_button": "Görüntülenmeyi sıfırla"
