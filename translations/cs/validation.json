@@ -1,0 +1,119 @@
+{
+    "validation": {
+        "accepted": "Pole :attribute musí být přijato.",
+        "active_url": "Pole :attribute není platná URL.",
+        "after": "Pole :attribute musí být datum po :date.",
+        "after_or_equal": "Pole :attribute musí být datum po nebo včetně :date.",
+        "alpha": "Pole :attribute smí obsahovat pouze písmena.",
+        "alpha_dash": "Pole :attribute smí obsahovat pouze písmena, číslice, pomlčky a podtržítka.",
+        "alpha_num": "Pole :attribute smí obsahovat pouze písmena a číslice.",
+        "array": "Pole :attribute musí být pole.",
+        "before": "Pole :attribute musí být datum před :date.",
+        "before_or_equal": "Pole :attribute musí být datum před nebo včetně :date.",
+        "between": {
+            "numeric": "Pole :attribute musí ležet mezi :min a :max.",
+            "file": "Pole :attribute musí mít mezi :min a :max kilobajty.",
+            "string": "Pole :attribute musí mít mezi :min a :max znaky.",
+            "array": "Pole :attribute must mít mezi :min a :max položkami."
+        },
+        "boolean": "Pole :attribute musí být buď ano, nebo ne.",
+        "confirmed": "Potvrzení pole :attribute nesouhlasí.",
+        "date": "Pole :attribute není platné datum.",
+        "date_equals": "Pole :attribute musí být rovno :date.",
+        "date_format": "Pole :attribute neodpovídá formátu :other.",
+        "different": "Pole :attribute a :other se musí lišit.",
+        "digits": "Pole :attribute musí mít :digits cifer.",
+        "digits_between": "Pole :attribute musí mít mezi :min a :max ciframi.",
+        "dimensions": "Pole :attribute má nesprávný rozměr obrázku.",
+        "distinct": "Pole :attribute má duplicitní hodnotu.",
+        "email": "Pole :attribute musí být platná e-mailová adresa.",
+        "ends_with": "Pole :attribute musí končit jedním z následujících: :values",
+        "exists": "Zvolené :attribute není platné.",
+        "file": "Pole :attribute musí být soubor.",
+        "filled": "Pole :attribute musí mít hodnotu.",
+        "gt": {
+            "numeric": "Pole :attribute musí být větší než :value.",
+            "file": "Pole :attribute musí být větší než :value kilobytů.",
+            "string": "Pole :attribute musí být větší než :value znaků.",
+            "array": "Pole :attribute musí mít více než :value položek."
+        },
+        "gte": {
+            "numeric": "Pole :attribute musí být větší nebo rovno :value.",
+            "file": "Pole :attribute musí být větší nebo rovno :value kilobytes.",
+            "string": "Pole :attribute musí být větší nebo rovno :value characters.",
+            "array": "Pole :attribute musí mít :value položek, nebo více."
+        },
+        "image": "Pole :attribute musí být obrázek.",
+        "in": "Zvolený prvek :attribute není platný.",
+        "in_array": "Pole :attribute neexistuje v :other.",
+        "integer": "Pole :attribute musí být celé číslo.",
+        "ip": "Pole :attribute musí být platná IP adresa.",
+        "ipv4": "Pole :attribute musí být validní IPv4 adresa.",
+        "ipv6": "Pole :attribute musí být validní IPv6 adresa.",
+        "json": "Pole :attribute musí být platný JSON řetězec.",
+        "lt": {
+            "numeric": "Pole :attribute musí být méně než :value.",
+            "file": "Pole :attribute musí být méně než :value kilobytů.",
+            "string": "Pole :attribute musí být méně než :value znaků.",
+            "array": "Pole :attribute musí mít méně než :value položek."
+        },
+        "lte": {
+            "numeric": "Pole :attribute musí být menší nebo rovno :value.",
+            "file": "Pole :attribute musí být menší nebo rovno :value kilobytů.",
+            "string": "Pole :attribute musí být menší nebo rovno :value znaků.",
+            "array": "Pole :attribute nesmí mít více než :value položek."
+        },
+        "max": {
+            "numeric": "Pole :attribute nesmí být větší než :max.",
+            "file": "Pole :attribute nesmí být větší než :max kilobajtů.",
+            "string": "Pole :attribute nesmí být delší než :max znaků.",
+            "array": "Pole :attribute nesmí obsahovat více než :max položek."
+        },
+        "mimes": "Pole :attribute musí být soubor typu :values.",
+        "mimetypes": "Pole :attribute musí být soubor typu :values.",
+        "min": {
+            "numeric": "Pole :attribute musí být nejméně :min.",
+            "file": "Pole :attribute musí být nejméně :min kilobajtů.",
+            "string": "Pole :attribute musí být nejméně :min znaků.",
+            "array": "Pole :attribute musí mít nejméně :min položek."
+        },
+        "not_in": "Vybraný prvek :attribute není platný.",
+        "not_regex": "Formát prvku :attribute není platný.",
+        "numeric": "Pole :attribute musí být číslo.",
+        "password": "Heslo je nesprávné.",
+        "present": "Pole :attribute musí být přítomno.",
+        "regex": "Formát pole :attribute není platný.",
+        "required": "Pole :attribute je vyžadováno.",
+        "required_if": "Pole :attribute je vyžadováno když :other je :value.",
+        "required_unless": "Pole :attribute je vyžadováno jestliže :other není jeden z :values.",
+        "required_with": "Pole :attribute je vyžadováno když :values je přítomno.",
+        "required_with_all": "Pole :attribute je vyžadováno když :values jsou přítomny.",
+        "required_without": "Pole :attribute je vyžadováno když :values není přítomno.",
+        "required_without_all": "Pole :attribute je vyžadováno když žádná z :values není přítomna.",
+        "same": "Pole :attribute a :other musí souhlasit.",
+        "size": {
+            "numeric": "Pole :attribute musí být :size.",
+            "file": "Pole :attribute musí být :size kilobajtů.",
+            "string": "Pole :attribute musí být :size znaků.",
+            "array": "Pole :attribute musí obsahovat :size položek."
+        },
+        "starts_with": "Pole :attribute musí začínat jedním z následujících: :values",
+        "string": "Pole :attribute musí být řetězec.",
+        "timezone": "Pole :attribute musí být platné časové pásmo.",
+        "unique": "Pole :attribute je již obsazeno.",
+        "uploaded": "Pole :attribute nebylo možné nahrát.",
+        "url": "Pole :attribute format není platný.",
+        "uuid": "Pole :attribute musí být platné UUID.",
+        "attributes": {
+            "username": "uživatelské jméno",
+            "password": "heslo",
+            "email": "e-mail",
+            "title": "téma",
+            "content": "obsah",
+            "name_singular": "singulár názvu",
+            "name_plural": "plurál názvu",
+            "tag_count_primary": "počet hlavních štítků",
+            "tag_count_secondary": "počet vedlejších štítků"
+        }
+    }
+}

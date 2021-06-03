@@ -1,0 +1,50 @@
+{
+    "flarum-flags": {
+        "admin": {
+            "permissions": {
+                "flag_posts_label": "Nahlásit příspěvky",
+                "view_flags_label": "Zobrazit nahlášené příspěvky"
+            },
+            "settings": {
+                "flag_own_posts_label": "Povolit uživatelům nahlašovat jejich vlastní příspěvky",
+                "guidelines_url_label": "URL Pravidel Komunity",
+                "title": "Nastavení Nahlašování"
+            }
+        },
+        "forum": {
+            "flag_post": {
+                "confirmation_message": "Děkujeme za nahlášení tohoto příspěvku. Naši moderátoři na to mrknou.",
+                "dismiss_button": "=> core.ref.okay",
+                "reason_details_placeholder": "Další detaily (nepovinné)",
+                "reason_inappropriate_label": "Nevhodné",
+                "reason_inappropriate_text": "Tento příspěvek je urážlivý, hanlivý, nebo porušuje naše <a>pravidla komunity</a>.",
+                "reason_missing_message": "Prosím uveď nějaké detaily pro naše moderátory.",
+                "reason_off_topic_label": "Mimo téma",
+                "reason_off_topic_text": "Tento příspěvek není relevantní pro tuto diskuzi a měl by být přesunut jinam.",
+                "reason_other_label": "Jiný (prosím specifikuj)",
+                "reason_spam_label": "Spam",
+                "reason_spam_text": "Tento příspěvek je reklama.",
+                "submit_button": "=> flarum-flags.ref.flag_post",
+                "title": "=> flarum-flags.ref.flag_post"
+            },
+            "flagged_posts": {
+                "empty_text": "Žádná nahlášení",
+                "item_text": "{username} v diskuzi <em>{discussion}</em>",
+                "title": "=> flarum-flags.ref.flagged_posts",
+                "tooltip": "=> flarum-flags.ref.flagged_posts"
+            },
+            "post": {
+                "dismiss_flag_button": "Zamítnout Nahlášení",
+                "flagged_by_text": "Nahlášeno uživatelem {username}",
+                "flagged_by_with_reason_text": "Nahlášeno uživatelem {username} jako {reason}"
+            },
+            "post_controls": {
+                "flag_button": "Nahlášení"
+            }
+        },
+        "ref": {
+            "flag_post": "Nahlásit příspěvek",
+            "flagged_posts": "Nahlášené příspěvky"
+        }
+    }
+}

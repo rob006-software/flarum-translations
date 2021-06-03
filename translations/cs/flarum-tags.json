@@ -1,0 +1,91 @@
+{
+    "flarum-tags": {
+        "admin": {
+            "basics": {
+                "tags_label": "=> flarum-tags.ref.tags"
+            },
+            "edit_tag": {
+                "color_label": "core.ref.color",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "delete_tag_button": "Smazat štítek",
+                "delete_tag_confirmation": "Opravdu chceš smazat tento štítek? Témata jím označená smazána NEBUDOU.",
+                "description_label": "Popis",
+                "hide_label": "Skrýt z přehledu témat",
+                "name_label": "=> flarum-tags.ref.name",
+                "name_placeholder": "=> flarum-tags.ref.name",
+                "slug_label": "Adresa",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Vytvořit štítek"
+            },
+            "nav": {
+                "tags_button": "=> flarum-tags.ref.tags",
+                "tags_text": "Spravuj seznam tagů pomocí kterých můžeš organizovat diskuze."
+            },
+            "permissions": {
+                "allow_edit_tags_label": "Povolit úpravu štítků",
+                "restrict_by_tag_heading": "Omezit Tagem",
+                "tag_discussions_label": "Otagovat diskuze"
+            },
+            "tag_settings": {
+                "range_separator_text": " do ",
+                "required_primary_heading": "Požadovaný Počet Hlavních Tagů",
+                "required_primary_text": "Zvol minimální a maximální počet hlavních tagů, které mohou být přiděleny k diskuzi.",
+                "required_secondary_heading": "Požadovaný Počet Vedlejších Tagů",
+                "required_secondary_text": "Zvol minimální a maximální počet vedlejších tagů, které mohou být přiděleny k diskuzi.",
+                "title": "Nastavení štítků"
+            },
+            "tags": {
+                "about_tags_text": "Tagy se používají ke kategorizaci diskuzí. Hlavní tagy slouží jako tradiční kategorie na fórech: mohou být uspořádány do dvouúrovňové hierarchie. Vedlejší tagy nemají hierarchii nebo řád a jsou užitečné pro mikro-kategorizaci.",
+                "create_primary_tag_button": "Vytvořit Hlavní Štítek",
+                "create_secondary_tag_button": "Vytvořit Vedlejší Štítek",
+                "primary_heading": "Hlavní štítky",
+                "secondary_heading": "Vedlejší štítky",
+                "settings_heading": "Nastavení"
+            }
+        },
+        "forum": {
+            "all_tags": {
+                "meta_description_text": "Všechny Štítky",
+                "meta_title_text": "=> flarum-tags.ref.tags"
+            },
+            "choose_tags": {
+                "choose_primary_placeholder": "Zvol hlavní štítek|Zvol {count} hlavní štítky|Zvol {count} hlavních štítků",
+                "choose_secondary_placeholder": "Přidej ještě jeden štítek|Přidej ještě {count} štítky|Přidej ještě {count} štítků",
+                "edit_title": "Úprava štítků tématu {title}",
+                "submit_button": "=> core.ref.okay",
+                "title": "Volba štítků tvého tématu"
+            },
+            "composer_discussion": {
+                "choose_tags_link": "Zvol štítky"
+            },
+            "discussion_controls": {
+                "edit_tags_button": "Upravit štítky"
+            },
+            "header": {
+                "back_to_tags_tooltip": "Zpět na Seznam Tagů"
+            },
+            "index": {
+                "more_link": "Více…",
+                "tags_link": "=> flarum-tags.ref.tags",
+                "untagged_link": "Beze štítku"
+            },
+            "post_stream": {
+                "added_and_removed_tags_text": "{username} přidal {tagsAdded} a odebral {tagsRemoved}.",
+                "added_tags_text": "{username} přidal {tagsAdded}.",
+                "removed_tags_text": "{username} odebral {tagsRemoved}.",
+                "tags_text": "štítek {tags}|štítky {tags}"
+            },
+            "tag": {
+                "meta_description_text": "All discussions with the {tag} tag"
+            }
+        },
+        "lib": {
+            "deleted_tag_text": "Smazaný štítek"
+        },
+        "ref": {
+            "name": "Název",
+            "tags": "Štítky"
+        }
+    }
+}

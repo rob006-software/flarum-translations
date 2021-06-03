@@ -15,6 +15,13 @@ use app\components\release\PolishReleaseGenerator;
 use function rob006\flarum\translations\helpers\getComponents;
 
 return [
+	'cs' => [
+		'type' => 'language',
+		'language' => 'cs',
+		'repository' => 'git@github.com:madnest/flarum-lang-czech.git',
+		'branch' => 'master',
+		'path' => '/locale',
+	],
 	'es' => [
 		'type' => 'language',
 		'language' => 'es',
