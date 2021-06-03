@@ -1,0 +1,40 @@
+{
+    "flarum-mentions": {
+        "forum": {
+            "composer": {
+                "mention_tooltip": "Zmínit uživatele nebo příspěvek",
+                "reply_to_post_text": "Odpovědět na příspěvek č. {number}"
+            },
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_mentioned_text": "Uživatel {username} odpověděl na tvůj příspěvek|Uživatelé {username} odpověděli na tvůj příspěvek",
+                "user_mentioned_text": "Uživatel {username} tě zmínil|Uživatelé {username} tě zmínili"
+            },
+            "post": {
+                "mentioned_by_self_text": "{users} replied to this.",
+                "mentioned_by_text": "{users} replied to this.",
+                "others_text": "=> core.ref.some_others",
+                "quote_button": "Citovat",
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
+            },
+            "settings": {
+                "notify_post_mentioned_label": "Někdo odpoví na jeden z mých přípěvků",
+                "notify_user_mentioned_label": "Někdo mě v příspěvku zmíní"
+            },
+            "user": {
+                "mentions_link": "Zmínky"
+            }
+        },
+        "email": {
+            "post_mentioned": {
+                "subject": "{replier_display_name} odpověděl na tvůj příspěvek v {title}",
+                "body": "Ahoj {recipient_display_name}!\n\n{replier_display_name} odpověděl na tvůj příspěvek (#{post_number}) v {title}.\n\n{url}\n\n---\n\n{content}\n"
+            },
+            "user_mentioned": {
+                "subject": "{mentioner_display_name} tě zmínil v {title}",
+                "body": "Ahoj {recipient_display_name}!\n\n{mentioner_display_name} tě zmínil v příspěvku v {title}.\n\n{url}\n\n---\n\n{content}\n"
+            }
+        }
+    }
+}
