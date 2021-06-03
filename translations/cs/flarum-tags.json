@@ -6,12 +6,12 @@
             },
             "edit_tag": {
                 "color_label": "core.ref.color",
-                "icon_label": "=> core.ref.icon",
-                "icon_text": "=> core.ref.icon_text",
                 "delete_tag_button": "Smazat štítek",
                 "delete_tag_confirmation": "Opravdu chceš smazat tento štítek? Témata jím označená smazána NEBUDOU.",
                 "description_label": "Popis",
                 "hide_label": "Skrýt z přehledu témat",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
                 "name_label": "=> flarum-tags.ref.name",
                 "name_placeholder": "=> flarum-tags.ref.name",
                 "slug_label": "Adresa",
@@ -24,6 +24,7 @@
             },
             "permissions": {
                 "allow_edit_tags_label": "Povolit úpravu štítků",
+                "bypass_tag_counts_label": "",
                 "restrict_by_tag_heading": "Omezit Tagem",
                 "tag_discussions_label": "Otagovat diskuze"
             },

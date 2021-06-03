@@ -77,6 +77,7 @@
             "string": "Pole :attribute musí být nejméně :min znaků.",
             "array": "Pole :attribute musí mít nejméně :min položek."
         },
+        "multiple_of": "",
         "not_in": "Vybraný prvek :attribute není platný.",
         "not_regex": "Formát prvku :attribute není platný.",
         "numeric": "Pole :attribute musí být číslo.",
@@ -90,6 +91,9 @@
         "required_with_all": "Pole :attribute je vyžadováno když :values jsou přítomny.",
         "required_without": "Pole :attribute je vyžadováno když :values není přítomno.",
         "required_without_all": "Pole :attribute je vyžadováno když žádná z :values není přítomna.",
+        "prohibited": "",
+        "prohibited_if": "",
+        "prohibited_unless": "",
         "same": "Pole :attribute a :other musí souhlasit.",
         "size": {
             "numeric": "Pole :attribute musí být :size.",
