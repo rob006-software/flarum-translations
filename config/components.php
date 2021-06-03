@@ -524,7 +524,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/malago86/flarum-achievements/0.3.0/locale/en.yml',
 	],
 	'malago-ads' => [
-		'tag' => 'https://raw.githubusercontent.com/malago86/flarum-ads/0.3.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/malago86/flarum-ads/0.3.1/resources/locale/en.yml',
 	],
 	'matteocontrini-imgur-upload' => [
 		'tag' => 'https://raw.githubusercontent.com/matteocontrini/flarum-imgur-upload/v3.8.0/locale/en.yml',
