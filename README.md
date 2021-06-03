@@ -5,6 +5,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 Currently supported languages:
 
 * [Chinese (Simplified)](https://github.com/FFans/lang-simplified-chinese) maintained by [Littlegolden](https://github.com/Littlegolden) ([detailed translation status](status/zh_Hans.md))
+* [Czech](https://github.com/madnest/flarum-lang-czech) maintained by [Jakub Theimer](https://github.com/theimerj) ([detailed translation status](status/cs.md))
 * [Dutch](https://github.com/MichaelBelgium/flarum-dutch) maintained by [Michael V.](https://github.com/MichaelBelgium) ([detailed translation status](status/nl.md))
 * [Estonian](https://github.com/aprold/flarum-lang-estonian) maintained by [aprold](https://github.com/aprold) ([detailed translation status](status/et.md))
 * French: [core](https://github.com/qiaeru/lang-french) maintained by [Qiaeru](https://github.com/qiaeru) and [extensions](https://github.com/rooaaar/lang-french-extended) maintained by [Hiobi](https://github.com/Hiobi) ([detailed translation status](status/fr.md))
