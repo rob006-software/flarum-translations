@@ -2,49 +2,49 @@
     "blomstra-payments": {
         "forum": {
             "pay-to-view": {
-                "purchase-control": "",
-                "purchase-log-in": "",
-                "purchase-completed": "",
-                "description": ""
+                "purchase-control": "Betaal om te Bekijken",
+                "purchase-log-in": "Log In & Betaal om te Bekijken",
+                "purchase-completed": "Ontsloten",
+                "description": "Vervolgberichten zijn vergrendeld achter een betalingsmuur, je kan ze ontsluiten door een betaling te voldoen via onze betalingsprovider Stripe.\n"
             },
             "pay-to-post": {
-                "purchase-control": "",
-                "purchase": "",
-                "purchase_required": ""
+                "purchase-control": "Betaal om te Publiceren",
+                "purchase": "Betaal om te Publiceren",
+                "purchase_required": "Deze discussie zal gepubliceerd worden wanneer betaling via onze betalingsprovider Stripe voldaan is. Klik om de kosten en betaalopties in te zien.\n"
             },
             "tag": {
-                "require-payment-label": ""
+                "require-payment-label": "Betaling Vereist"
             },
             "payment-options-modal": {
-                "title": "",
-                "description": ""
+                "title": "Betalingsopties om toegang te verkrijgen tot {group}",
+                "description": "Kies uit de volgende opties om toegang to verkrijgen tot de groep. Je wordt doorgestuurd naar onze betalingsprovider Stripe voor het verwerken van de betaling.\n"
             },
             "access-portal": {
-                "options": "",
-                "purchase": ""
+                "options": "opties",
+                "purchase": "schaf aan"
             },
             "nav": {
-                "access_portal": ""
+                "access_portal": "Toegangsportaal"
             }
         },
         "admin": {
             "edit-tag": {
-                "select-ptp-product": "",
-                "select-ptp-product-description": "",
-                "select-ptv-product": "",
-                "select-ptv-product-description": "",
-                "visible-from": "",
-                "visible-from-description": ""
+                "select-ptp-product": "(PTP) Vereist product",
+                "select-ptp-product-description": "Door een produkt te kiezen zal betaling daarvan benodigd zijn bij het plaatsen van discussies in die tag. Betaal per post, bijvoorbeeld ideaal voor advertorials. Maak een produkt met een enkele \"one time\" prijs in het Stripe portaal en kopieer zijn ID dat begint met <code>prod_</code> in dit veld.\n",
+                "select-ptv-product": "(PTV) Vereist product",
+                "select-ptv-product-description": "Door een produkt te kiezen zal betaling daarvan benodigd zijn bij het inzien van berichten voorbij de betaalgrens. Maak een produkt met een enkele \"one time\" prijs in het Stripe portaal en kopieer zijn ID dat begint met <code>prod_</code> in dit veld.\n",
+                "visible-from": "Verberg berichten voorbij deze grens",
+                "visible-from-description": "Het aantal dat je hier opgeeft betaalt welke berichten niet meer getoond worden in een discussie, daarna zal betaling benodigd zijn. Gebruik 0 om alle posts te vergergen, 1 voor de eerste reactie op de OP.\n"
             },
             "edit-group": {
-                "select-pta-product": "",
-                "select-pta-product-description": ""
+                "select-pta-product": "(PTA) Vereist product",
+                "select-pta-product-description": "Door een produkt te kiezen zal betaling daarvan benodigd zijn voor toegang tot de groep. Bij een produkt met abonnement zal aan het einde van het abonnement toegang automatisch ontnomen worden. Maak een produkt in het Stripe portaal en kopieer zijn ID dat begint met <code>prod_</code> in dit veld.\n"
             },
             "settings": {
-                "pk": "",
-                "sk": "",
-                "webhook-secret": "",
-                "link-access-portal": ""
+                "pk": "Publishable (api) key",
+                "sk": "Secret (api) key",
+                "webhook-secret": "Webhook signing secret",
+                "link-access-portal": "Voeg een link naar het toegangsportaal toe aan de gebruikersmenu"
             }
         }
     }
