@@ -137,7 +137,7 @@
                 "basics_title": "=> core.admin.basics.description",
                 "categories": {
                     "authentication": "Autentizace",
-                    "core": "",
+                    "core": "Základní Nastavení",
                     "discussion": "Diskuze",
                     "feature": "Funkce",
                     "formatting": "Formátování",
@@ -152,8 +152,8 @@
                 "email_title": "=> core.admin.email.description",
                 "permissions_button": "=> core.admin.permissions.title",
                 "permissions_title": "=> core.admin.permissions.description",
-                "userlist_button": "",
-                "userlist_title": "",
+                "userlist_button": "=> core.admin.users.title",
+                "userlist_title": "=> core.admin.users.description",
                 "search_placeholder": "Vyhledat rozšíření"
             },
             "permissions": {
@@ -167,8 +167,8 @@
                 "description": "Nastav si, kdo může co vidět a provádět na fóru.",
                 "edit_posts_label": "Upravit přízpěvky",
                 "edit_users_label": "Upravit uživatele",
-                "edit_users_credentials_label": "",
-                "edit_users_groups_label": "",
+                "edit_users_credentials_label": "Úprava přihlašovacích údajů",
+                "edit_users_groups_label": "Úprava uživatelských skupin",
                 "global_heading": "Globální",
                 "moderate_heading": "Moderovat",
                 "new_group_button": "Nová skupina",
@@ -177,11 +177,11 @@
                 "read_heading": "Číst",
                 "rename_discussions_label": "Přejmenovat diskuzi",
                 "reply_to_discussions_label": "Odpovědět v diskuzi",
-                "search_users_label": "",
+                "search_users_label": "Vyhledávání uživatelů",
                 "sign_up_label": "Registrace",
                 "start_discussions_label": "Začít diskuzi",
                 "title": "Oprávnění",
-                "view_forum_label": "",
+                "view_forum_label": "Zobrazení fóra (dizkuze a uživatele)",
                 "view_hidden_groups_label": "Zobrazit schované odznáčky skupiny",
                 "view_last_seen_at_label": "Vždy zobrazit poslední čas zobrazení",
                 "view_post_ips_label": "Zobrazit IP adresu příspěvku",
@@ -199,7 +199,7 @@
                 "signup_open_button": "Otevřena"
             },
             "settings": {
-                "saved_message": "",
+                "saved_message": "Změny byly uloženy.",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
