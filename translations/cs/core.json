@@ -36,8 +36,8 @@
                 "home_page_heading": "Hlavní stránka",
                 "home_page_text": "Zvol stránku, kterou uvidí uživatelé jako první, když přijdou na tvé fórum.",
                 "show_language_selector_label": "Zobrazit výběr jazyků",
-                "slug_driver_heading": "",
-                "slug_driver_text": "",
+                "slug_driver_heading": "Ovladač přepisu názvu do URL: {model}",
+                "slug_driver_text": "Zvolte ovladač pro přepis názvu do URL pro tento model.",
                 "title": "Základní nastavení",
                 "welcome_banner_heading": "Uvítací banner",
                 "welcome_banner_text": "Nastav si text uvítacího banneru, který se zobrazí na všech diskuzních stránkách. Využij ho pro přivítání hostů na fóru.",
@@ -61,7 +61,7 @@
                 "title": "=> core.ref.custom_footer_title"
             },
             "edit_group": {
-                "color_label": "core.ref.color",
+                "color_label": "=> core.ref.color",
                 "delete_button": "Smazat skupinu",
                 "delete_confirmation": "Opravdu chceš smazat tuto skupinu? Její členové odstraněni nebudou.",
                 "hide_label": "Skrýt na fóru",
@@ -98,18 +98,18 @@
                 "send_test_mail_heading": "Odeslat testovací email",
                 "send_test_mail_success": "Testovací email úspěšně odeslán!",
                 "send_test_mail_text": "Pošle email za použití nastavení výše na tvou emailovou adresu, {email}.",
-                "smtp_heading": "SMTP Nastavení",
+                "smtp_heading": "Nastavení SMTP",
                 "title": "=> core.ref.email",
                 "submit_button": "=> core.ref.save_changes"
             },
             "extension": {
-                "configure_scopes": "",
+                "configure_scopes": "Konfigurace rozsahu",
                 "confirm_uninstall": "Odinstalováním se smažou všechny záznamy v databázi a soubory související s rozšířením. Opravdu chceš pokračovat?",
-                "disabled": "Deaktivovat",
-                "enable_to_see": "Povolit rozšíření zobrazovat a měnit nastavení.",
-                "enabled": "Povolit",
+                "disabled": "Deaktivováno",
+                "enable_to_see": "Povolit tomuto rozšíření zobrazovat a měnit nastavení.",
+                "enabled": "Povoleno",
                 "info_links": {
-                    "discuss": "Discuss",
+                    "discuss": "Diskutovat",
                     "documentation": "Dokumentace",
                     "donate": "Darovat",
                     "source": "Zdroj",
@@ -137,7 +137,7 @@
                 "basics_title": "=> core.admin.basics.description",
                 "categories": {
                     "authentication": "Autentizace",
-                    "core": "Základní Nastavení",
+                    "core": "Základní nastavení",
                     "discussion": "Diskuze",
                     "feature": "Funkce",
                     "formatting": "Formátování",
@@ -298,7 +298,7 @@
                 "rename_button": "=> core.ref.rename",
                 "reply_button": "=> core.ref.reply",
                 "restore_button": "=> core.ref.restore",
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "Přepnutí rozevírací nabídky diskusních akcí"
             },
             "discussion_list": {
                 "empty_text": "Nebyla nalezena žádná vlákna.",
@@ -319,7 +319,7 @@
             "header": {
                 "admin_button": "Administrace",
                 "back_to_index_tooltip": "Zpět na seznam diskuzí",
-                "locale_dropdown_accessible_label": "",
+                "locale_dropdown_accessible_label": "Změna lokalizace fóra",
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Profil",
@@ -377,11 +377,11 @@
                 "edit_button": "=> core.ref.edit",
                 "hide_confirmation": "Opravdu chceš smazat tento příspěvek?",
                 "restore_button": "=> core.ref.restore",
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "Přepnutí rozbalovací nabídky ovládacích prvků příspěvku"
             },
             "post_scrubber": {
                 "now_link": "Současnost",
-                "original_post_link": "Úvodní příspěvek",
+                "original_post_link": "Původní příspěvek",
                 "unread_text": "{count} nepřečtený|{count} nepřečtené|{count} nepřečtených",
                 "viewing_text": "{index} z {count} příspěvku|{index} ze {count} příspěvků|{index} z {count} příspěvků"
             },
@@ -472,7 +472,7 @@
                 "toggle_dropdown_accessible_label": "Přepínání rozbalovacího menu"
             },
             "edit_user": {
-                "activate_button": "",
+                "activate_button": "Aktivace uživatele",
                 "email_heading": "=> core.ref.email",
                 "email_label": "=> core.ref.email",
                 "groups_heading": "Skupiny",
