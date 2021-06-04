@@ -29,7 +29,7 @@
                 "default_language_heading": "Výchozí jazyk",
                 "description": "Nastav si název svého fóra, jazyk a další základní nastavení.",
                 "display_name_heading": "Uživatelské jméno k zobrazení",
-                "display_name_text": "Vyber driver, který by měl být použit pro uživatelská jména k zobrazení. Ve výchozím stavu jsou už. jména zobrazena.",
+                "display_name_text": "Vyber ovladač, který by měl být použit pro uživatelská jména k zobrazení. Ve výchozím stavu jsou už. jména zobrazena.",
                 "forum_description_heading": "Popis fóra",
                 "forum_description_text": "Vlož krátkou větičku, nebo dvě, které popisují tvou komunitu. Tento popis se ukáže v meta tagu a ve výsledcích vyhledávání.",
                 "forum_title_heading": "Název fóra",
@@ -81,13 +81,13 @@
             "email": {
                 "addresses_heading": "Adresy",
                 "description": "Nastav si způsob odesílání (Driver), další nastavení a adresu, kterou tvé fórum bude využívat pro odesílání emailů.",
-                "driver_heading": "Vyber způsob odesílání (Driver)",
-                "driver_label": "Driver",
+                "driver_heading": "Vyber způsob odesílání (Ovladač)",
+                "driver_label": "Ovladač",
                 "from_label": "Odesilatel",
                 "mail_encryption_label": "Šifrování",
                 "mail_host_label": "Hostitel",
                 "mail_mailgun_domain_label": "Doména",
-                "mail_mailgun_region_label": "Region",
+                "mail_mailgun_region_label": "Oblast",
                 "mail_mailgun_secret_label": "Tajný klíč (Secret key)",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "Port",
@@ -109,7 +109,7 @@
                 "enable_to_see": "Povolit tomuto rozšíření zobrazovat a měnit nastavení.",
                 "enabled": "Povoleno",
                 "info_links": {
-                    "discuss": "Diskutovat",
+                    "discuss": "Diskutovat o",
                     "documentation": "Dokumentace",
                     "donate": "Darovat",
                     "source": "Zdroj",
@@ -339,7 +339,7 @@
                 "toggle_sidenav_dropdown_accessible_label": "Přepínání navigačního rozbalovacího menu"
             },
             "index_sort": {
-                "latest_button": "Nejaktuálnější",
+                "latest_button": "Poslední",
                 "newest_button": "Nejnovější",
                 "oldest_button": "Nejstarší",
                 "relevance_button": "Nejrelevantnější",
@@ -437,7 +437,7 @@
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
-                "button": "Upravit",
+                "button": "Nastavení",
                 "delete_button": "=> core.ref.delete",
                 "delete_confirmation": "Opravdu chceš uživatele smazat? Příspěvky tohoto uživatele NEBUDOU smazány.",
                 "delete_error_message": "<i>{username} ({email})</i> se nepodařilo smazat",
@@ -466,7 +466,7 @@
         },
         "lib": {
             "badge": {
-                "hidden_tooltip": "Schované"
+                "hidden_tooltip": "Skryté"
             },
             "dropdown": {
                 "toggle_dropdown_accessible_label": "Přepínání rozbalovacího menu"
@@ -490,7 +490,7 @@
                 "missing_dependencies_message": "Není možné povolit {extension} dokud nejsou povolena tato rozšíření: {extensions}",
                 "not_found_message": "Požadovaný zdroj nebyl nalezen.",
                 "permission_denied_message": "Na tuto operaci nemáte dostatečná práva.",
-                "rate_limit_exceeded_message": "Jsi moc rychlý, zpomal."
+                "rate_limit_exceeded_message": "Jsi moc rychlý, zkus to prosím za několik sekund znovu."
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
@@ -520,7 +520,7 @@
             },
             "error": {
                 "csrf_token_mismatch": "Byl jsi moc dlouho neaktivní.",
-                "csrf_token_mismatch_return_link": "Běž zpět a zkus to znovu",
+                "csrf_token_mismatch_return_link": "Vrátit se zpět, a zkusit to znovu",
                 "invalid_confirmation_token": "Potvrzovací odkaz byl již využit a nebo není validní.",
                 "not_authenticated": "Nemáš oprávnění navštívit tuto stránku. Zkus to znovu po přihlášení.",
                 "not_found": "Požadovaná stránka nebyla nalezena.",
@@ -535,7 +535,7 @@
             },
             "log_out": {
                 "log_out_button": "=> core.ref.log_out",
-                "log_out_confirmation": "Opravdu se chceš odhlásit z fóra {forum}?",
+                "log_out_confirmation": "Opravdu se chceš z fóra {forum} odhlásit?",
                 "title": "=> core.ref.log_out"
             },
             "reset_password": {
@@ -562,7 +562,7 @@
                 "body": "Ahoj, {username}.\n\nNěkdo (snad ty!) na {forum} zažádal o reset hesla.\n\nPokud jsi to byl/a ty, klikni na odkaz níže a resetuj si ho:\n{url}\n\nPokud si ho změnit nechceš, tento email ignoruj a nic se nestane.\n"
             },
             "send_test": {
-                "subject": "Flarum Email Test",
+                "subject": "Flarum testovací email",
                 "body": "Ahoj {username}!\n\nToto je testovací email k potvrzení správnosti nastavení emailu ve Flarum.\n\nPokud jsi to byl ty, tak to znamená, že tvé Flarum nastavení emailu funguje!\n\nPokud jsi to nebyl ty, prosím ignoruj tento email.\n"
             }
         },
