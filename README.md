@@ -1,31 +1,144 @@
 # Flarum translations monorepo
 
-This repository contains raw translations data used by [Weblate](https://weblate.rob006.net/projects/flarum/) instance - an initiative to facilitate the translation process. You can read more about the project on [forum](https://discuss.flarum.org/d/20807-simplify-translation-process-with-weblate) or in [FAQ](https://github.com/rob006-software/flarum-translations/wiki).
+This repository contains raw translations data used by [Weblate](https://weblate.rob006.net/projects/flarum/) instance - an initiative to facilitate the translation process for Flarum core and community extensions. You can read more about the project on [forum](https://discuss.flarum.org/d/20807-simplify-translation-process-with-weblate) or in [FAQ](https://github.com/rob006-software/flarum-translations/wiki).
 
-Currently supported languages:
 
-* [Chinese (Simplified)](https://github.com/FFans/lang-simplified-chinese) maintained by [Littlegolden](https://github.com/Littlegolden) ([detailed translation status](status/zh_Hans.md))
-* [Czech](https://github.com/madnest/flarum-lang-czech) maintained by [Jakub Theimer](https://github.com/theimerj) ([detailed translation status](status/cs.md))
-* [Dutch](https://github.com/MichaelBelgium/flarum-dutch) maintained by [Michael V.](https://github.com/MichaelBelgium) ([detailed translation status](status/nl.md))
-* [Estonian](https://github.com/aprold/flarum-lang-estonian) maintained by [aprold](https://github.com/aprold) ([detailed translation status](status/et.md))
-* French: [core](https://github.com/qiaeru/lang-french) maintained by [Qiaeru](https://github.com/qiaeru) and [extensions](https://github.com/rooaaar/lang-french-extended) maintained by [Hiobi](https://github.com/Hiobi) ([detailed translation status](status/fr.md))
-* [Georgian](https://github.com/B3K4682/lang-georgian) maintained by [B3K4](https://github.com/B3K4682) ([detailed translation status](status/ka.md))
-* [Italian](https://github.com/flarum-lang/italian) maintained by [Justoverclock](https://github.com/justoverclockl) ([detailed translation status](status/it.md))
-* [Japanese](https://github.com/FFans/lang-japanese) maintained by [Littlegolden](https://github.com/Littlegolden) and [rikusen0335](https://github.com/rikusen0335) ([detailed translation status](status/ja.md))
-* [Latvian](https://github.com/edevrob/flarum-lang-latvian) maintained by [edevrob](https://github.com/edevrob) ([detailed translation status](status/lv.md))
-* [Polish](https://github.com/rob006-software/flarum-lang-polish) maintained by [rob006](https://github.com/rob006) ([detailed translation status](status/pl.md))
-* [Sinhala](https://gitlab.com/flarum-sinhala/language-pack) maintained by [Sayuri](https://gitlab.com/sayuri-) ([detailed translation status](status/si.md))
-* [Spanish](https://github.com/FlarumES/lang-spanish) maintained by [Darkle](https://github.com/IamDarkle) and [Javier S. Lirola](https://github.com/jslirola) ([detailed translation status](status/es.md))
-* [Turkish](https://github.com/flarum-lang/turkish) maintained by [tolgaaaltas](https://github.com/tolgaaaltas) ([detailed translation status](status/tr.md))
+## Supported languages
+
+<!--suppress HtmlDeprecatedAttribute -->
+<table>
+<thead>
+	<tr>
+		<th>Language</th>
+		<th>Maintainers</th>
+		<th>Translation status</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td><a href="https://github.com/FFans/lang-simplified-chinese">Chinese (Simplified)</a></td>
+		<td><a href="https://github.com/Littlegolden">Littlegolden</a></td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/zh_Hans.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/zh_Hans/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td><a href="https://github.com/madnest/flarum-lang-czech">Czech</a></td>
+		<td><a href="https://github.com/theimerj">Jakub Theimer</a></td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/cs.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/cs/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td><a href="https://github.com/MichaelBelgium/flarum-dutch">Dutch</a></td>
+		<td><a href="https://github.com/MichaelBelgium">Michael V.</a></td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/nl.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/nl/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td><a href="https://github.com/aprold/flarum-lang-estonian">Estonian</a></td>
+		<td><a href="https://github.com/aprold">aprold</a></td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/et.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/et/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td>French (<a href="https://github.com/qiaeru/lang-french">core</a> & <a href="https://github.com/rooaaar/lang-french-extended">extensions</a>)</td>
+		<td><a href="https://github.com/qiaeru">Qiaeru</a>, <a href="https://github.com/Hiobi">Hiobi</a></td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/fr.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/fr/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td><a href="https://github.com/B3K4682/lang-georgian">Georgian</a></td>
+		<td><a href="https://github.com/B3K4682">B3K4</a></td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/ka.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/ka/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td><a href="https://github.com/flarum-lang/italian">Italian</a></td>
+		<td><a href="https://github.com/justoverclockl">Justoverclock</a></td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/it.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/it/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td><a href="https://github.com/FFans/lang-japanese">Japanese</a></td>
+		<td><a href="https://github.com/Littlegolden">Littlegolden</a>, <a href="https://github.com/rikusen0335">rikusen0335</a></td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/ja.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/ja/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td><a href="https://github.com/edevrob/flarum-lang-latvian">Latvian</a></td>
+		<td><a href="https://github.com/edevrob">edevrob</a></td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/lv.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/lv/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td><a href="https://github.com/rob006-software/flarum-lang-polish">Polish</a></td>
+		<td><a href="https://github.com/rob006">rob006</a></td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/pl.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/pl/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td><a href="https://gitlab.com/flarum-sinhala/language-pack">Sinhala</a></td>
+		<td><a href="https://gitlab.com/sayuri-">Sayuri</a></td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/si.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/si/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td><a href="https://github.com/FlarumES/lang-spanish">Spanish</a></td>
+		<td><a href="https://github.com/IamDarkle">Darkle</a>, <a href="https://github.com/jslirola">Javier S. Lirola</a></td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/es.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/es/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td><a href="https://github.com/flarum-lang/turkish">Turkish</a></td>
+		<td><a href="https://github.com/tolgaaaltas">tolgaaaltas</a></td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/tr.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/tr/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+</tbody>
+</table>
 
 If you're maintaining language pack and want to add it to the collective, follow [these instructions](https://github.com/rob006-software/flarum-translations/wiki/How-to-start). Not sure what it is and if it is worth the trouble? Read [features list](https://github.com/rob006-software/flarum-translations/wiki/Features).
 
-## Translation status by language
 
-<a href="https://weblate.rob006.net/engage/flarum/"><img src="https://weblate.rob006.net/widgets/flarum/-/multi-auto.svg" alt="Translation status" style="max-width:100%;"></a>
-
-
-## Flarum core and official extensions translation status 
+## Flarum core and official extensions translation status
 
 | Component | Status |
 | --- | --- |
