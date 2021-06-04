@@ -92,8 +92,8 @@ return [
 	'nl' => [
 		'type' => 'language',
 		'language' => 'nl',
-		'repository' => 'git@github.com:MichaelBelgium/flarum-dutch.git',
-		'branch' => 'master',
+		'repository' => 'git@github.com:flarum-lang/dutch.git',
+		'branch' => 'main',
 		'path' => '/locale',
 	],
 	'pl' => [
