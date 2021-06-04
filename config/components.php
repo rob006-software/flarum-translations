@@ -496,6 +496,9 @@ return [
 	'kilowhat-wordpress' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/kilowhat-wordpress.yml',
 	],
+	'kindyear-uitab' => [
+		'tag' => 'https://raw.githubusercontent.com/kindyear/flarum-uitab/v1.0.1/resources/locale/en.yml',
+	],
 	'kvothe-reply-to-see' => [
 		'tag' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-reply2see/v0.1.2/resources/locale/en.yml',
 	],
