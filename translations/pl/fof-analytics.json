@@ -4,15 +4,15 @@
             "popup": {
                 "section": {
                     "googleAnalytics": "Google Analytics",
-                    "piwik": "Piwik"
+                    "piwik": "Matomo"
                 },
                 "field": {
                     "statusGoogle": "Włącz Google Analytics",
                     "optTrackingCode": "Identyfikator śledzenia Optimize (opcjonalne)",
                     "googleTrackingCode": "Identyfikator śledzenia",
                     "googleGTMCode": "Identyfikator śledzenia GTM (opcjonalne)",
-                    "statusPiwik": "Włącz Piwik",
-                    "piwikUrl": "Domena lub URL Piwik",
+                    "statusPiwik": "Włącz Matomo",
+                    "piwikUrl": "Domena lub URL Matomo",
                     "piwikSiteId": "ID serwisu",
                     "piwikTrackSubdomain": "Śledź odwiedzających na wszystkich subdomenach forum",
                     "piwikPrependDomain": "Dodaj domenę do tytułu strony podczas śledzenia",
@@ -22,7 +22,7 @@
                     "piwikAuthToken": "Token autentykacji API"
                 },
                 "placeholder": {
-                    "piwikAuthToken": "Uzupełnij ten token, aby włączyć statystyki Piwik w zakładce w panelu admina.\nMożesz go znaleźć w Ustawienia > Osobiste > Token autentykacji API.\n"
+                    "piwikAuthToken": "Uzupełnij ten token, aby włączyć widget ze statystykami Matomo w panelu admina.\nMożesz go znaleźć w Ustawienia > Osobiste > Token autentykacji API.\n"
                 },
                 "trackAccounts": {
                     "none": "Nie śledź",
@@ -31,7 +31,7 @@
                 }
             },
             "matomo-widget": {
-                "title": ""
+                "title": "Matomo"
             }
         }
     }
