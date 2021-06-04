@@ -2,33 +2,33 @@
     "fof-links": {
         "admin": {
             "edit_link": {
-                "delete_link_button": "",
-                "delete_link_confirmation": "",
-                "everyone-label": "",
-                "guests-label": "",
-                "internal_link": "",
-                "members-label": "",
-                "open_newtab": "",
-                "submit_button": "",
-                "title": "",
-                "title_label": "",
-                "title_placeholder": "",
-                "icon_label": "",
-                "icon_text": "",
-                "url_label": "",
-                "url_placeholder": "",
-                "visibility": ""
+                "delete_link_button": "Smazat odkaz",
+                "delete_link_confirmation": "Opravdu chcete tento odkaz odstranit?",
+                "everyone-label": "Všichni",
+                "guests-label": "Hosté",
+                "internal_link": "Jedná se o interní odkaz?",
+                "members-label": "Registrovaní uživatelé",
+                "open_newtab": "Otevřít odkaz na nové kartě",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> fof-links.ref.create_link",
+                "title_label": "=> fof-links.ref.title",
+                "title_placeholder": "=> fof-links.ref.title",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "url_label": "=> fof-links.ref.url",
+                "url_placeholder": "=> fof-links.ref.url",
+                "visibility": "Viditelnost odkazů"
             },
             "links": {
-                "create_button": "",
-                "links": ""
+                "create_button": "=> fof-links.ref.create_link",
+                "links": "=> fof-links.ref.links"
             }
         },
         "ref": {
-            "create_link": "",
-            "links": "",
-            "title": "",
-            "url": ""
+            "create_link": "Vytvořit odkaz",
+            "links": "Odkazy",
+            "title": "Název",
+            "url": "URL"
         }
     }
 }
