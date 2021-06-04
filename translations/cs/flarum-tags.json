@@ -14,7 +14,7 @@
                 "icon_text": "=> core.ref.icon_text",
                 "name_label": "=> flarum-tags.ref.name",
                 "name_placeholder": "=> flarum-tags.ref.name",
-                "slug_label": "Adresa",
+                "slug_label": "Adresa (Slug)",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Vytvořit štítek"
             },
@@ -38,8 +38,8 @@
             },
             "tags": {
                 "about_tags_text": "Tagy se používají ke kategorizaci diskuzí. Hlavní tagy slouží jako tradiční kategorie na fórech: mohou být uspořádány do dvouúrovňové hierarchie. Vedlejší tagy nemají hierarchii nebo řád a jsou užitečné pro mikro-kategorizaci.",
-                "create_primary_tag_button": "Vytvořit Hlavní Štítek",
-                "create_secondary_tag_button": "Vytvořit Vedlejší Štítek",
+                "create_primary_tag_button": "Vytvořit hlavní štítek",
+                "create_secondary_tag_button": "Vytvořit vedlejší štítek",
                 "primary_heading": "Hlavní štítky",
                 "secondary_heading": "Vedlejší štítky",
                 "settings_heading": "Nastavení"
@@ -47,12 +47,12 @@
         },
         "forum": {
             "all_tags": {
-                "meta_description_text": "Všechny Štítky",
+                "meta_description_text": "Všechny štítky",
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
-                "choose_primary_placeholder": "Zvol hlavní štítek|Zvol {count} hlavní štítky|Zvol {count} hlavních štítků",
-                "choose_secondary_placeholder": "Přidej ještě jeden štítek|Přidej ještě {count} štítky|Přidej ještě {count} štítků",
+                "choose_primary_placeholder": "{count, plural, one {Zvol hlavní štítek} other {Zvol # hlavních štítků}}",
+                "choose_secondary_placeholder": "{count, plural, one {Přidej ještě jeden štítek} other {Přidej ještě # štítků}}",
                 "edit_title": "Úprava štítků tématu {title}",
                 "submit_button": "=> core.ref.okay",
                 "title": "Volba štítků tvého tématu"
@@ -64,7 +64,7 @@
                 "edit_tags_button": "Upravit štítky"
             },
             "header": {
-                "back_to_tags_tooltip": "Zpět na Seznam Tagů"
+                "back_to_tags_tooltip": "Zpět na seznam štítků"
             },
             "index": {
                 "more_link": "Více…",
@@ -75,10 +75,10 @@
                 "added_and_removed_tags_text": "{username} přidal {tagsAdded} a odebral {tagsRemoved}.",
                 "added_tags_text": "{username} přidal {tagsAdded}.",
                 "removed_tags_text": "{username} odebral {tagsRemoved}.",
-                "tags_text": "štítek {tags}|štítky {tags}"
+                "tags_text": "{count, plural, one {{tags} štítek} other {{tags} štítků}}"
             },
             "tag": {
-                "meta_description_text": "All discussions with the {tag} tag"
+                "meta_description_text": "Všechny diskuze se štítkem {tag}"
             }
         },
         "lib": {
