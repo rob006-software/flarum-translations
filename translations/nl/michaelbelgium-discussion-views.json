@@ -12,7 +12,7 @@
             "modal_resetviews": {
                 "title": "Wijzig aantal keer bekeken",
                 "submit_button": "Ja, alles verwijderen",
-                "label": "Deze actie zal {count} view verwijderen van deze discussie. Doorgaan?|Deze actie zal {count} views verwijderen van deze discussie. Doorgaan?"
+                "label": "{count, plural, one {Deze actie zal {count} view verwijderen van deze discussie. Doorgaan?} other {Deze actie zal {count} views verwijderen van deze discussie. Doorgaan?}}"
             },
             "discussion_controls": {
                 "resetviews_button": "Reset aantal keer bekeken"
