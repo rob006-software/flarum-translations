@@ -8,12 +8,12 @@
         "forum": {
             "notifications": {
                 "others_text": "=> core.ref.some_others",
-                "post_liked_text": "{username} ha messo mi piace al tuo messaggio"
+                "post_liked_text": "{count, plural, one {{username} ha messo mi piace} other {{username} hanno messo mi piace}}"
             },
             "post": {
                 "like_link": "Mi piace",
-                "liked_by_self_text": "A {users} piace.",
-                "liked_by_text": "{count, plural, one {A {users} piace} other {{users} piace}}",
+                "liked_by_self_text": "{count, plural, one {{users} hai messo mi piace} other {{users} hanno messo mi piace}}",
+                "liked_by_text": "{count, plural, one {{users} ha messo mi piace} other {{users} hanno messo mi piace}}",
                 "others_link": "=> core.ref.some_others",
                 "unlike_link": "Non mi piace",
                 "you_text": "=> core.ref.you"
