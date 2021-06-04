@@ -2,72 +2,72 @@
     "fof-terms": {
         "admin": {
             "settings": {
-                "title": "",
+                "title": "Nastavení podmínek",
                 "field": {
-                    "signup-legal-text": "",
-                    "hide-updated-at": "",
-                    "date-format": "",
-                    "date-format-help": ""
+                    "signup-legal-text": "Doplňkový text na přihlašovacím formuláři",
+                    "hide-updated-at": "Nezobrazovat datum aktualizace podmínek, pokud je aktualizace k dispozici",
+                    "date-format": "Formát data",
+                    "date-format-help": "Můžete použít jakýkoli platný formát <a>Day.js</a>. Pro výchozí nastavení nechte pole prázdné."
                 }
             },
             "titles": {
-                "policies": ""
+                "policies": "Zásady"
             },
             "buttons": {
-                "new-policy": "",
-                "edit-policy": "",
-                "add-policy": "",
-                "save-policy": "",
-                "delete-policy": "",
-                "set-to-now": ""
+                "new-policy": "Nové zásady",
+                "edit-policy": "Upravit zásady",
+                "add-policy": "Přidat zásady",
+                "save-policy": "Uložit zásady",
+                "delete-policy": "Smazat zásady",
+                "set-to-now": "Nastavit na nyní"
             },
             "messages": {
-                "delete-policy-confirmation": ""
+                "delete-policy-confirmation": "Tím se z databáze trvale odstraní zásada {název} a související data přijetí. Ujistěte se, že jste si vytvořili zálohu těchto dat, pokud je potřebujete z právních důvodů. Jste si jisti, že chcete tuto zásadu odstranit ?\n"
             },
             "policies": {
-                "name": "",
-                "name-help": "",
-                "url": "",
-                "url-help": "",
-                "update-message": "",
-                "update-message-help": "",
-                "terms-updated-at": "",
-                "terms-updated-at-placeholder": "",
-                "terms-updated-at-help": "",
-                "export-url": "",
-                "export-url-help": ""
+                "name": "Název",
+                "name-help": "Tento název se zobrazí vedle zaškrtávacího políčka a jako název modálního okna aktualizace.",
+                "url": "URL",
+                "url-help": "Adresa URL na stránku, kde si můžete přečíst podmínky. Po kliknutí se otevře na nové kartě.",
+                "update-message": "Aktualizovat zprávu",
+                "update-message-help": "Zpráva, která se zobrazí stávajícím uživatelům, kteří ještě nepřijali nejnovější podmínky.",
+                "terms-updated-at": "Aktualizováno na",
+                "terms-updated-at-placeholder": "YYYY-MM-DD (hh:mm:ss)",
+                "terms-updated-at-help": "Datum poslední aktualizace podmínek. Nastavení této hodnoty bude vyžadovat, aby všichni uživatelé, kteří přijali podmínky před tímto datem, přijali podmínky znovu. Musí být v minulosti (jinak by uživatelé nikdy nemohli akceptovat po tomto datu a dostat se přes modální okno).\n",
+                "export-url": "Exportovat URL",
+                "export-url-help": "Každý uživatel s oprávněním \"Exportovat všechna data zásad\" může přistupovat k těmto adresám URL a stáhnout si seznam uživatelů, kteří tuto zásadu přijali. Další podrobnosti o dostupných možnostech najdete na <a>extension wiki</a>.\n"
             },
             "permissions": {
-                "see-user-policies-state": "",
-                "postpone-policies-accept": "",
-                "export-policies": ""
+                "see-user-policies-state": "Zobrazit stav zásad uživatele",
+                "postpone-policies-accept": "Může odložit přijetí nových podmínek",
+                "export-policies": "Export dat všech uživatelů a zásad"
             }
         },
         "forum": {
             "signup": {
-                "i-accept": "",
-                "must-accept": ""
+                "i-accept": "Přijímám <a>{policy}</a>",
+                "must-accept": "Zásady {policy} musí být akceptovány."
             },
             "accept-modal": {
-                "title": "",
-                "updated-at": "",
-                "updated-recently": "",
-                "i-accept": "",
-                "accept": "",
-                "close": ""
+                "title": "Aktualizace podmínek",
+                "updated-at": "Podmínky byly aktualizovány dne {date}",
+                "updated-recently": "Podmínky byly od vaší poslední návštěvy aktualizovány",
+                "i-accept": "Přijímám nové zásady <a>{policy}</a>",
+                "accept": "Potvrdit",
+                "close": "Děkujeme za přijetí, nyní se můžete vrátit na fórum"
             },
             "state-modal": {
-                "title": "",
-                "accepted-at": "",
-                "not-accepted": ""
+                "title": "Podmínky přijetí stavu pro uživatele {username}",
+                "accepted-at": "Přijato {date}",
+                "not-accepted": "Nepřijato"
             },
             "update-alert": {
-                "must-accept-message": "",
-                "can-accept-message": "",
-                "review": ""
+                "must-accept-message": "Dočasně jsme omezili přístup k vašemu účtu, než se seznámíte s novými podmínkami.",
+                "can-accept-message": "Nedávno jsme aktualizovali podmínky. Chcete-li nadále používat tyto webové stránky, musíte je přijmout.",
+                "review": "Kliknutím zde si můžete prohlédnout a přijmout nové podmínky"
             },
             "user_controls": {
-                "state_button": ""
+                "state_button": "Stav akceptace podmínek"
             }
         }
     }
