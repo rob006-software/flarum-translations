@@ -34,8 +34,8 @@ This repository contains raw translations data used by [Weblate](https://weblate
 		</td>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/MichaelBelgium/flarum-dutch">Dutch</a></td>
-		<td><a href="https://github.com/MichaelBelgium">Michael V.</a></td>
+		<td><a href="https://github.com/flarum-lang/dutch">Dutch</a></td>
+		<td><a href="https://github.com/luceos">Daniël Klabbers</a></td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/nl.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/nl/svg-badge.svg" alt="detailed translation status" />
