@@ -2,17 +2,17 @@
     "fof-user-bio": {
         "admin": {
             "permission": {
-                "view": "",
-                "editOwn": "",
-                "editAny": ""
+                "view": "Zobrazit životopis",
+                "editOwn": "Upravit vlastní bio",
+                "editAny": "Upravit jakékoliv bio"
             },
             "setting": {
-                "bioLimit": ""
+                "bioLimit": "Omezení počtu znaků v bio"
             }
         },
         "forum": {
-            "userbioPlaceholder": "",
-            "userbioPlaceholderOtherUser": ""
+            "userbioPlaceholder": "Napište něco o sobě",
+            "userbioPlaceholderOtherUser": "Napište životopis pro {username}"
         }
     }
 }
