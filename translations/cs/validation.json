@@ -59,7 +59,7 @@
         },
         "lte": {
             "numeric": "Pole :attribute musí být menší nebo rovno :value.",
-            "file": "Pole :attribute musí být menší nebo rovno :value kilobytů.",
+            "file": "Pole :attribute musí být menší nebo rovno :value kilobajtů.",
             "string": "Pole :attribute musí být menší nebo rovno :value znaků.",
             "array": "Pole :attribute nesmí mít více než :value položek."
         },
@@ -92,8 +92,8 @@
         "required_without": "Pole :attribute je vyžadováno když :values není přítomno.",
         "required_without_all": "Pole :attribute je vyžadováno když žádná z :values není přítomna.",
         "prohibited": "Pole :atribut je zakázáno.",
-        "prohibited_if": "",
-        "prohibited_unless": "",
+        "prohibited_if": "Pole :attribute je zakázáno, když :other je :value.",
+        "prohibited_unless": "Pole :attribute je zakázáno, pokud :other není :value.",
         "same": "Pole :attribute a :other musí souhlasit.",
         "size": {
             "numeric": "Pole :attribute musí být :size.",
