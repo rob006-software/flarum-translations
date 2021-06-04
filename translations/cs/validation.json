@@ -27,7 +27,7 @@
         "dimensions": "Pole :attribute má nesprávný rozměr obrázku.",
         "distinct": "Pole :attribute má duplicitní hodnotu.",
         "email": "Pole :attribute musí být platná e-mailová adresa.",
-        "ends_with": "Pole :attribute musí končit jedním z následujících: :values",
+        "ends_with": "Pole :attribute musí končit jedním z následujících: :values.",
         "exists": "Zvolené :attribute není platné.",
         "file": "Pole :attribute musí být soubor.",
         "filled": "Pole :attribute musí mít hodnotu.",
@@ -77,7 +77,7 @@
             "string": "Pole :attribute musí být nejméně :min znaků.",
             "array": "Pole :attribute musí mít nejméně :min položek."
         },
-        "multiple_of": "Atribut :attribute musí být násobkem :value.",
+        "multiple_of": ":attribute musí být násobkem :value.",
         "not_in": "Vybraný prvek :attribute není platný.",
         "not_regex": "Formát prvku :attribute není platný.",
         "numeric": "Pole :attribute musí být číslo.",
@@ -101,7 +101,7 @@
             "string": "Pole :attribute musí být :size znaků.",
             "array": "Pole :attribute musí obsahovat :size položek."
         },
-        "starts_with": "Pole :attribute musí začínat jedním z následujících: :values",
+        "starts_with": "Pole :attribute musí začínat jedním z následujících: :values.",
         "string": "Pole :attribute musí být řetězec.",
         "timezone": "Pole :attribute musí být platné časové pásmo.",
         "unique": "Pole :attribute je již obsazeno.",
