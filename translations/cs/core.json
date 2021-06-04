@@ -165,8 +165,8 @@
                 "delete_posts_forever_label": "Smazat příspěvky navždy",
                 "delete_posts_label": "Smazat příspěvky",
                 "description": "Nastav si, kdo může co vidět a provádět na fóru.",
-                "edit_posts_label": "Upravit přízpěvky",
-                "edit_users_label": "Upravit uživatele",
+                "edit_posts_label": "Upravit příspěvky",
+                "edit_users_label": "Úprava atributů uživatele",
                 "edit_users_credentials_label": "Úprava přihlašovacích údajů",
                 "edit_users_groups_label": "Úprava uživatelských skupin",
                 "global_heading": "Globální",
@@ -211,12 +211,12 @@
                 "grid": {
                     "columns": {
                         "edit_user": {
-                            "button": "",
-                            "title": "",
+                            "button": "=> core.ref.edit",
+                            "title": "=> core.ref.edit_user",
                             "tooltip": "Upravit {uživatelské jméno}"
                         },
                         "email": {
-                            "title": "",
+                            "title": "=> core.ref.email",
                             "visibility_hide": "Skrýt e-mailovou adresu",
                             "visibility_show": "Zobrazit e-mailovou adresu"
                         },
@@ -231,7 +231,7 @@
                             "title": "ID"
                         },
                         "username": {
-                            "profile_link_tooltip": "",
+                            "profile_link_tooltip": "Navštívit profil uživatele {username}",
                             "title": "=> core.ref.username"
                         }
                     },
