@@ -2,24 +2,24 @@
     "fof-forum-statistics-widget": {
         "forum": {
             "navbar": {
-                "widget_title": "",
-                "discussions_count": "",
-                "posts_count": "",
-                "users_count": "",
-                "latest_member": ""
+                "widget_title": "Statistiky fóra",
+                "discussions_count": "Diskuse: {discussionsCount}",
+                "posts_count": "Příspěvky: {postsCount}",
+                "users_count": "Členové: {usersCount}",
+                "latest_member": "Nejnovější člen: "
             }
         },
         "admin": {
             "settings": {
-                "widget_ignore_private_discussions_label": "",
-                "widget_order_label": "",
-                "widget_helper_text": ""
+                "widget_ignore_private_discussions_label": "Ignorovat soukromé diskuze",
+                "widget_order_label": "Řazení widgetu",
+                "widget_helper_text": "Upravte toto nastavení a upravte pozici tohoto widgetu v postranní části fóra Flarum. Čím vyšší číslo, tím výše bude tento widget v seznamu položek postranní lišty (tato hodnota může být kladná nebo záporná)."
             },
             "permissions": {
-                "view_discussions_count_label": "",
-                "view_posts_count_label": "",
-                "view_users_count_label": "",
-                "view_lastest_member_label": ""
+                "view_discussions_count_label": "Zobrazit statistiky fóra widget počet diskusí",
+                "view_posts_count_label": "Zobrazit widget statistiky fóra počet příspěvků",
+                "view_users_count_label": "Zobrazit statistiky fóra widget počet uživatelů",
+                "view_lastest_member_label": "Zobrazit widget statistiky fóra nejnovější člen"
             }
         }
     }
