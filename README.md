@@ -284,6 +284,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [Scratchpad by Clarkwinkelmann](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-scratchpad) | [`clarkwinkelmann/flarum-ext-scratchpad`](https://github.com/clarkwinkelmann/flarum-ext-scratchpad)|
 | [See past first post by Clarkwinkelmann](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-see-past-first-post) | [`clarkwinkelmann/flarum-ext-see-past-first-post`](https://github.com/clarkwinkelmann/flarum-ext-see-past-first-post)|
 | [Status by Clarkwinkelmann](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-status) | [`clarkwinkelmann/flarum-ext-status`](https://github.com/clarkwinkelmann/flarum-ext-status)|
+| [Translation Inspector by Clarkwinkelmann](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-translation-inspector) | [`clarkwinkelmann/flarum-ext-translation-inspector`](https://github.com/clarkwinkelmann/flarum-ext-translation-inspector)|
 | [Who read by Clarkwinkelmann](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-who-read) | [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read)|
 | [Backup by Datitisev](https://weblate.rob006.net/projects/flarum/datitisev-backup) | [`datitisev/flarum-backup`](https://extiverse.com/extension/datitisev/flarum-backup)|
 | [Dashboard by Datitisev](https://weblate.rob006.net/projects/flarum/datitisev-dashboard) | [`datitisev/flarum-ext-dashboard`](https://github.com/datitisev/flarum-ext-dashboard)|
