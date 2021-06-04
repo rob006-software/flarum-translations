@@ -140,6 +140,11 @@ If you're maintaining language pack and want to add it to the collective, follow
 
 ## Supported extensions
 
+Click [here](https://rob006-software.github.io/flarum-translations/status/summary.html) to see detailed translation status for every supported extension.
+
+Missing extension? Read [this](https://github.com/rob006-software/flarum-translations/wiki#how-to-add-missing-extension).
+
+
 ### Official extensions
 
 <!-- flarum-extensions-list-start -->
@@ -400,5 +405,3 @@ If you're maintaining language pack and want to add it to the collective, follow
 | [Support by V17development](https://weblate.rob006.net/projects/flarum/v17development-support) | [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support)|
 
 <!-- premium-extensions-list-stop -->
-
-Missing extension? Read [this](https://github.com/rob006-software/flarum-translations/wiki#how-to-add-missing-extension).
