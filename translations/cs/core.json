@@ -11,7 +11,7 @@
                 "custom_header_text": "=> core.ref.custom_header_text",
                 "custom_styles_heading": "Vlastní styly",
                 "custom_styles_text": "Uprav si vzhled svého fóra přidáním vlastního LESS/CSS kódu, který bude použit nad defaultními Flarum styly.",
-                "dark_mode_label": "Dark Mode",
+                "dark_mode_label": "Tmavý režim",
                 "description": "Uprav si barvy, loga a další proměnné svého fóra.",
                 "edit_css_button": "Upravit vlastní CSS",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
@@ -45,7 +45,7 @@
                 "submit_button": "=> core.ref.save_changes"
             },
             "dashboard": {
-                "clear_cache_button": "Smazat Cache",
+                "clear_cache_button": "Vymazat mezipaměť",
                 "description": "Přehled vašeho fóra.",
                 "title": "Nástěnka",
                 "tools_button": "Nástroje"
@@ -116,8 +116,8 @@
                     "support": "Podpora",
                     "website": "Web"
                 },
-                "no_permissions": "Žádné oprávnění",
-                "no_settings": "Žádná nastavení",
+                "no_permissions": "Toto rozšíření nemá žádná oprávnění.",
+                "no_settings": "Toto rozšíření nemá žádné nastavení.",
                 "open_modal": "Otevřít nastavení",
                 "permissions_title": "Oprávnění",
                 "uninstall_button": "Odinstalovat",
@@ -207,43 +207,43 @@
                 "upload_button": "Zvolit obrázek…"
             },
             "users": {
-                "description": "",
+                "description": "Stránkovaný seznam všech uživatelů vašeho fóra.",
                 "grid": {
                     "columns": {
                         "edit_user": {
                             "button": "",
                             "title": "",
-                            "tooltip": ""
+                            "tooltip": "Upravit {uživatelské jméno}"
                         },
                         "email": {
                             "title": "",
-                            "visibility_hide": "",
-                            "visibility_show": ""
+                            "visibility_hide": "Skrýt e-mailovou adresu",
+                            "visibility_show": "Zobrazit e-mailovou adresu"
                         },
                         "group_badges": {
-                            "no_badges": "",
-                            "title": ""
+                            "no_badges": "Žádné",
+                            "title": "Skupiny"
                         },
                         "join_time": {
-                            "title": ""
+                            "title": "Připojil se"
                         },
                         "user_id": {
-                            "title": ""
+                            "title": "ID"
                         },
                         "username": {
                             "profile_link_tooltip": "",
-                            "title": ""
+                            "title": "=> core.ref.username"
                         }
                     },
-                    "invalid_column_content": ""
+                    "invalid_column_content": "Neplatný"
                 },
                 "pagination": {
-                    "back_button": "",
-                    "next_button": "",
-                    "page_counter": ""
+                    "back_button": "Předchozí stránka",
+                    "next_button": "Další stránka",
+                    "page_counter": "Strana {current} z {total}"
                 },
-                "title": "",
-                "total_users": ""
+                "title": "=> core.ref.users",
+                "total_users": "Celkový počet uživatelů: {count}"
             }
         },
         "forum": {
@@ -343,7 +343,7 @@
                 "newest_button": "Nejnovější",
                 "oldest_button": "Nejstarší",
                 "relevance_button": "Nejrelevantnější",
-                "toggle_dropdown_accessible_label": "",
+                "toggle_dropdown_accessible_label": "Změna řazení seznamu diskuzí",
                 "top_button": "Nejlepší"
             },
             "log_in": {
@@ -362,7 +362,7 @@
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "Označit jako přečteno",
                 "title": "=> core.ref.notifications",
-                "toggle_dropdown_accessible_label": "",
+                "toggle_dropdown_accessible_label": "Zobrazit oznámení",
                 "tooltip": "=> core.ref.notifications"
             },
             "post": {
@@ -473,16 +473,16 @@
             },
             "edit_user": {
                 "activate_button": "",
-                "email_heading": "",
-                "email_label": "",
-                "groups_heading": "",
-                "password_heading": "",
-                "password_label": "",
-                "set_password_label": "",
-                "submit_button": "",
-                "title": "",
-                "username_heading": "",
-                "username_label": ""
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "Skupiny",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "Nastavit nové heslo",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.edit_user",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username"
             },
             "error": {
                 "dependent_extensions_message": "Není možné deaktivovat {extension} dokud nejsou deaktivována tato závislá rozšíření: {extensions}",
@@ -493,11 +493,11 @@
                 "rate_limit_exceeded_message": "Jsi moc rychlý, zpomal."
             },
             "loading_indicator": {
-                "accessible_label": ""
+                "accessible_label": "=> core.ref.loading"
             },
             "number_suffix": {
-                "kilo_text": " tisíc",
-                "mega_text": " miliónů"
+                "kilo_text": "tisíc",
+                "mega_text": "miliónů"
             },
             "series": {
                 "glue_text": ", ",
@@ -512,7 +512,7 @@
             "content": {
                 "javascript_disabled_message": "Tento web funguje nejlépe v moderním prohlížeči se zapnutým JavaScriptem.",
                 "load_error_message": "Něco se pokazilo, když jsi se pokusil načíst plnou verzi tohoto webu. Zkus stránku natvrdo obnovit.",
-                "loading_text": "Načítání…"
+                "loading_text": "=> core.ref.loading"
             },
             "discussion": {
                 "next_page_button": "=> core.ref.next_page",
@@ -581,12 +581,12 @@
             "delete_forever": "Smazat navždy",
             "discussions": "Diskuze",
             "edit": "Upravit",
-            "edit_user": "",
+            "edit_user": "Upravit uživatele",
             "email": "E-Mail",
             "icon": "Ikona",
             "icon_text": "Vložte název <a>FontAwesome</a> ikony, <em>i s</em> <code>fas fa-</code> prefixem.",
             "load_more": "Načíst další",
-            "loading": "",
+            "loading": "Načítání...",
             "log_in": "Přihlásit se",
             "log_out": "Odhlásit se",
             "mark_all_as_read": "Označit vše jako přečtené",
