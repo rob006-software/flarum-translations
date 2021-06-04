@@ -1,5 +1,15 @@
-# Sinhala translation status of extensions
+# Sinhala translation status 
 
+
+## Flarum core
+
+| Component | Status |
+| --- | --- |
+| [Core](https://github.com/flarum/core) | [![Translation status](https://weblate.rob006.net/widgets/flarum/si/core/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/core/si/) |
+| Validation | [![Translation status](https://weblate.rob006.net/widgets/flarum/si/validation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/validation/si/) |
+
+
+## Free extensions
 
 <table>
 <thead>
@@ -832,7 +842,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Incompatible with recent Flarum">🔴</span>
+			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/FriendsOfFlarum/masquerade" title="fof/masquerade"><code>fof/masquerade</code></a>
 		</td>
 		<td align="center">75<br /><img src="https://img.shields.io/badge/-%2B13-red" alt="+13" title="Change from last week"></td>
@@ -2150,11 +2160,22 @@
 		<td align="center"><a href="https://packagist.org/packages/luuhai48/oauth-linkedin/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/luuhai48-oauth-linkedin/si/"><img src="https://weblate.rob006.net/widgets/flarum/si/luuhai48-oauth-linkedin/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/clarkwinkelmann/flarum-ext-translation-inspector" title="clarkwinkelmann/flarum-ext-translation-inspector"><code>clarkwinkelmann/…translation-inspector</code></a>
+		</td>
+		<td align="center">195</td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-translation-inspector/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-translation-inspector/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-translation-inspector/stats">0</a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-translation-inspector/si/"><img src="https://weblate.rob006.net/widgets/flarum/si/clarkwinkelmann-translation-inspector/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
 </tbody>
 </table>
 
-# Sinhala translation status of premium extensions
 
+## Premium extensions
 
 <table>
 <thead>
