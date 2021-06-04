@@ -2,8 +2,8 @@
     "flarum-mentions": {
         "admin": {
             "settings": {
-                "allow_username_format_label": "",
-                "allow_username_format_text": ""
+                "allow_username_format_label": "Povolit formát zmínky o uživatelském jménu (@Username)",
+                "allow_username_format_text": "Aktuální formát pro zmínky o uživatelích je @\"Display Name\"#ID.\nToto nastavení umožňuje použití starého formátu @Username, nicméně při uložení bude stále převeden na nový formát.\n"
             }
         },
         "forum": {
@@ -32,7 +32,7 @@
                 "mentions_link": "Zmínky"
             },
             "post_mention": {
-                "deleted_text": ""
+                "deleted_text": "[unknown]"
             }
         },
         "email": {
