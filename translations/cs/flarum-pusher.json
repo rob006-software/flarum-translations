@@ -6,12 +6,12 @@
                 "app_id_label": "App ID",
                 "app_key_label": "App Key",
                 "app_secret_label": "App Secret",
-                "title": "Pusher Nastavení"
+                "title": "Nastavení Pusheru"
             }
         },
         "forum": {
             "discussion_list": {
-                "show_updates_text": "Zobrazit {count} aktualizovanou diskuzi|Zobrazit {count} aktualizovaných diskuzí"
+                "show_updates_text": "{count, plural, one {Zobrazit # aktualizovanou diskuzi} other {Zobrazit # aktualizovaných diskuzí}}"
             }
         }
     }
