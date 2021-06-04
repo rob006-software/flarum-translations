@@ -383,7 +383,7 @@
                 "now_link": "Současnost",
                 "original_post_link": "Původní příspěvek",
                 "unread_text": "{count} nepřečtený|{count} nepřečtené|{count} nepřečtených",
-                "viewing_text": "{index} z {count} příspěvku|{index} ze {count} příspěvků|{index} z {count} příspěvků"
+                "viewing_text": "{count, plural, one {{index} z {formattedCount} příspěvku} other {{index} z {formattedCount} příspěvků}}"
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "Původní nadpis byl: „{old}“",
