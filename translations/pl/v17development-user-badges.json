@@ -36,25 +36,25 @@
             },
             "auto_moderator": {
                 "not_installed": {
-                    "title": "",
-                    "content": "",
-                    "install": "",
-                    "dismiss": ""
+                    "title": "Automatycznie nagradzaj użytkowników odznakami",
+                    "content": "To rozszerzenie oferuje większą funkcjonalność jeśli rozszerzenie <a>Auto Moderator</a> jest włączone. Użytkownicy mogą być wtedy automatycznie nagradzani odznakami bez udziału moderatorów lub administracji!",
+                    "install": "Zainstaluj",
+                    "dismiss": "Nie pokazuj ponownie"
                 },
                 "action_drivers": {
-                    "badge_id": "",
-                    "give_badge": "",
-                    "remove_badge": ""
+                    "badge_id": "ID odznaki",
+                    "give_badge": "Przyznaj odznakę",
+                    "remove_badge": "Odbierz odznakę"
                 },
                 "requirement_drivers": {
-                    "has_badge": ""
+                    "has_badge": "Posiada odznakę"
                 },
                 "metric_drivers": {
-                    "badges_received": ""
+                    "badges_received": "Przyznano odznaki"
                 },
                 "badge_selector": {
-                    "placeholder": "",
-                    "loading_badges": ""
+                    "placeholder": "Wybierz odznakę",
+                    "loading_badges": "Ładowanie odznak"
                 }
             }
         },
@@ -78,7 +78,7 @@
                 "no_earning_reason": "Nie podano powodu przyznania odznaki",
                 "earned_on": "Odznakę przyznano",
                 "category": "Kategoria odznaki",
-                "earned_count": "<b>{count} użytkownik</b> uzyskał tę odznakę|<b>{count} użytkowników</b> uzyskało tę odznakę"
+                "earned_count": "{count, plural, one {<b>{count} użytkownik</b> uzyskał} other {<b>{count} użytkowników</b> uzyskało}} tę odznakę"
             },
             "moderation": {
                 "remove_badge": "Odbierz odznakę użytkownikowi",
