@@ -9,7 +9,7 @@
             },
             "settings": {
                 "no_categories_selected": "Nie wybrano kategorii",
-                "selected_category_count": "Wybrano {count} kategorię|Wybrano {count} kategorie|Wybrano {count} kategorii",
+                "selected_category_count": "{count, plural, one {Wybrano {count} kategorię} few {Wybrano {count} kategorie} other {Wybrano {count} kategorii}}",
                 "select_categories_button": "Wybierz kategorie bloga",
                 "blog_heading": "Blog",
                 "allow_comments_label": "Pozwól na komentowanie",
@@ -89,7 +89,7 @@
                 "post_article": "Opublikuj wpis",
                 "select_category": "Wybierz kategorię",
                 "edit_categories": "Wybierz kategorie",
-                "update_settings": "",
+                "update_settings": "Zaktualizuj ustawienia bloga",
                 "write": "Edytor",
                 "view": "Podgląd",
                 "nothing_to_preview": "Nie ma nic do podglądu",
