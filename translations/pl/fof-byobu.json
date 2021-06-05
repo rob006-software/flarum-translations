@@ -19,7 +19,7 @@
                 "title_placeholder": "Tytuł prywatnej dyskusji"
             },
             "labels": {
-                "recipients": "{count} uczestnik|{count} uczestników",
+                "recipients": "{count, plural, one {{count} uczestnik} other {{count} uczestników}}",
                 "user_deleted": "-usunięty-"
             },
             "nav": {
