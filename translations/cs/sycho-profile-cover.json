@@ -1,23 +1,23 @@
 {
     "sycho-profile-cover": {
         "admin": {
-            "thumbnails": "",
-            "max_size": "",
+            "thumbnails": "Vytvořit náhledy",
+            "max_size": "Maximální velikost náhledového obrázku v profilu (v KB)",
             "permission": {
-                "set_cover": ""
+                "set_cover": "Nastavit náhledový obrázek"
             }
         },
         "forum": {
-            "cover": "",
-            "edit_cover": "",
-            "notice": "",
+            "cover": "Náhledový obrázek",
+            "edit_cover": "Upravit náhledový obrázek",
+            "notice": "Maximální velikost: {size}",
             "added": {
-                "success": "",
-                "error": ""
+                "success": "Profilový obrázek aktualizován.",
+                "error": "Obrázek se nepodařilo nahrát."
             },
             "removed": {
-                "success": "",
-                "error": ""
+                "success": "Profilový obrázek byl odstraněn.",
+                "error": "Náhledový obrázek se nepodařilo odstranit, zkuste to později."
             }
         }
     }
