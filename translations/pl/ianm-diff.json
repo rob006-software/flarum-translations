@@ -1,7 +1,7 @@
 {
     "the-turk-diff": {
         "forum": {
-            "revisions": "{revisionCount} rewizja | {revisionCount} rewizje | {revisionCount} rewizji",
+            "revisions": "{revisionCount, plural, one {{revisionCount} rewizja} few {{revisionCount} rewizje} other {{revisionCount} rewizji}}",
             "emptyText": "Brak rewizji",
             "editedText": "=> core.forum.post.edited_text",
             "deletedText": "(usunięto)",
@@ -28,7 +28,7 @@
             "editedInfo": "=> core.forum.post.edited_tooltip",
             "deletedInfo": "{username} usunął tę treść {ago}",
             "createdInfo": "{username} utworzył {ago}",
-            "revisionInfo": "Edytowano {revisionCount} raz, najnowsze na górze|Edytowano {revisionCount} razy, najnowsze na górze",
+            "revisionInfo": "Edytowano {revisionCount, plural, one {{revisionCount} raz} other {{revisionCount} razy}}, najnowsze na górze",
             "noDiff": "Te dwie wersje niczym się nie różnią.",
             "differences": {
                 "originalContent": "oryginalną treścią",
