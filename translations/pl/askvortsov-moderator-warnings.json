@@ -9,21 +9,21 @@
         },
         "emails": {
             "post_warned": {
-                "subject": "Dostałeś ostrzeżenie i {strikes} punktów karnych od {warner_display_name} w {discussion_title}",
-                "body": "Witaj {warnee_display_name},\n\nDostałeś ostrzeżenie i {strikes} punktów karnych od {warner_display_name} w {discussion_title} z następującego powodu:\n\n---\n\n{public_comment}\n"
+                "subject": "Dostałeś ostrzeżenie i {strikes, plural, one {# punkt karny} few {# punkty karne} other {# punktów karnych}} od {warner_display_name} w {discussion_title}",
+                "body": "Witaj {warnee_display_name},\n\nDostałeś ostrzeżenie i {strikes, plural, one {# punkt karny} few {# punkty karne} other {# punktów karnych}} od {warner_display_name} w {discussion_title} z następującego powodu:\n\n---\n\n{public_comment}\n"
             },
             "user_warned": {
-                "subject": "Dostałeś ostrzeżenie i {strikes} punktów karnych od {warner_display_name}",
-                "body": "Witaj {warnee_display_name},\n\nDostałeś ostrzeżenie i {strikes} punktów karnych od {warner_display_name} z następującego powodu:\n\n---\n\n{public_comment}\n"
+                "subject": "Dostałeś ostrzeżenie i {strikes, plural, one {# punkt karny} few {# punkty karne} other {# punktów karnych}} od {warner_display_name}",
+                "body": "Witaj {warnee_display_name},\n\nDostałeś ostrzeżenie i {strikes, plural, one {# punkt karny} few {# punkty karne} other {# punktów karnych}} od {warner_display_name} z następującego powodu:\n\n---\n\n{public_comment}\n"
             }
         },
         "forum": {
             "notifications": {
-                "warning_text": "Dostałeś ostrzeżenie i {strikes} punkt karny od {mod_username}|Dostałeś ostrzeżenie i {strikes} punkty karne od {mod_username}|Dostałeś ostrzeżenie i {strikes} punktów karnych od {mod_username}",
+                "warning_text": "Dostałeś ostrzeżenie i {strikes, plural, one {# punkt karny} few {# punkty karne} other {# punktów karnych}} od {mod_username}",
                 "warning_no_strikes_text": "Dostałeś ostrzeżenie bez punktów karnych od {mod_username}"
             },
             "post": {
-                "warning": "Ostrzeżenie i {strikes} punkt karny od {mod_username}|Ostrzeżenie i {strikes} punkty karne od {mod_username}|Ostrzeżenie i {strikes} punktów karnych od {mod_username}",
+                "warning": "Ostrzeżenie i {strikes, plural, one {# punkt karny} few {# punkty karne} other {# punktów karnych}} od {mod_username}",
                 "warning_no_strikes": "Ostrzeżenie bez punktów karnych od {mod_username}"
             },
             "post_controls": {
@@ -47,12 +47,12 @@
             "warning_list": {
                 "add_button": "Nowe ostrzeżenie",
                 "no_warnings": "Wygląda na to, że nie ma tutaj żadnych ostrzeżeń.",
-                "warnings": "Ostrzeżenia: {strikes} punkt karny|Ostrzeżenia: {strikes} punkty karne|Ostrzeżenia: {strikes} punktów karnych",
+                "warnings": "Ostrzeżenia: {strikes, plural, one {# punkt karny} few {# punkty karne} other {# punktów karnych}}",
                 "warnings_no_strikes": "Ostrzeżenia: bez punktów karnych"
             },
             "warning_list_item": {
-                "list_item_heading": "<strong>{strikes}</strong> punkt karny, {time}|<strong>{strikes}</strong> punkty karne, {time}|<strong>{strikes}</strong> punktów karnych, {time}",
-                "list_item_heading_hidden": "<strong>{strikes}</strong> punkt karny, {time} <strong>(usunięto)</strong>|<strong>{strikes}</strong> punkty karne, {time} <strong>(usunięto)</strong>|<strong>{strikes}</strong> punktów karnych, {time} <strong>(usunięto)</strong>",
+                "list_item_heading": "{strikes, plural, one {<strong>{strikes}</strong> punkt karny} few {<strong>{strikes}</strong> punkty karne} other {<strong>{strikes}</strong> punktów karnych}}, {time}",
+                "list_item_heading_hidden": "{strikes, plural, one {<strong>{strikes}</strong> punkt karny} few {<strong>{strikes}</strong> punkty karne} other {<strong>{strikes}</strong> punktów karnych}}, {time} <strong>(usunięto)</strong>",
                 "public_comment": "Ostrzeżenie",
                 "private_comment": "Komentarz widoczny dla moderatora",
                 "linked_post": "Powiązany post"
