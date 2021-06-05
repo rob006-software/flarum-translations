@@ -31,7 +31,7 @@
             "page": {
                 "title": "Doorman",
                 "doorkey": {
-                    "used_times": "Pozostało 1 użycie|Pozostały {remaining} użycia|Pozostało {remaining} użyć",
+                    "used_times": "{remaining, plural, one {Pozostało {remaining} użycie} few {Pozostały {remaining} użycia} other {Pozostało {remaining} użyć}}",
                     "title": "Kody zaproszeń",
                     "help": {
                         "key": "Klucz: Kod zaproszenia, który użytkownik poda podczas rejestracji.",
