@@ -2,11 +2,11 @@
     "clarkwinkelmann-shadow-ban": {
         "admin": {
             "setting": {
-                "hideUsers": ""
+                "hideUsers": "Gizlice askıya alınmış kullanıcıların profillerini gizle"
             },
             "permission": {
-                "ban": "",
-                "hide": ""
+                "ban": "Gizlice askıya alınmış kullanıcılar",
+                "hide": "Tartışmalarını ve gönderilerini gizle"
             }
         },
         "forum": {
@@ -22,15 +22,15 @@
                 "ban": ""
             },
             "banUser": {
-                "title": "",
+                "title": "{username} askıya al",
                 "until": "",
                 "quick": "",
                 "quickChoiceReset": "",
                 "quickChoiceDays": "",
-                "submit": ""
+                "submit": "Kaydet"
             },
             "badge": {
-                "user": "",
+                "user": "Gizlice askıya alınmış",
                 "discussion": "",
                 "post": ""
             }
