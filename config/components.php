@@ -548,7 +548,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/migratetoflarum/fake-data/1.0.1/resources/locale/en.yml',
 	],
 	'miniflar-admin-notepad-widget' => [
-		'tag' => 'https://raw.githubusercontent.com/miniflar/admin-notepad-widget/0.1.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/miniflar/admin-notepad-widget/1.0.0/resources/locale/en.yml',
 	],
 	'miniflar-sidenav-download-button' => [
 		'tag' => 'https://raw.githubusercontent.com/miniflar/sidenav-download-button/0.2.1/resources/locale/en.yml',
