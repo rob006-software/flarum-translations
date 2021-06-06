@@ -15,22 +15,40 @@ use function rob006\flarum\translations\helpers\getComponents;
 
 return [
 	'cs' => getComponents(),
-	'es' => getComponents(),
+	'es' => getComponents([
+		// translations included in extension
+		'!clarkwinkelmann-emojionearea',
+		'!malago-achievements',
+		'!malago-ads',
+		'!v17development-seo',
+	]),
 	'et' => getComponents(),
 	'fr' => getComponents([
 		// translations included in extension
+		'!antoinefr-money',
+		'!antoinefr-online',
+		'!clarkwinkelmann-create-user-modal',
+		'!clarkwinkelmann-emojionearea',
+		'!clarkwinkelmann-passwordless',
 		'!tituspijean-auth-ldap',
+		'!v17development-seo',
 	]),
-	'it' => getComponents(),
+	'it' => getComponents([
+		// translations included in extension
+		'!clarkwinkelmann-emojionearea',
+		'!maicol07-sso',
+	]),
 	'ja' => getComponents(),
 	'ka' => getComponents(),
 	'lv' => getComponents(),
-	'nl' => getComponents(),
+	'nl' => getComponents([
+		// translations included in extension
+		'!v17development-seo',
+	]),
 	'pl' => getComponents(),
 	'si' => getComponents(),
 	'tr' => getComponents([
-		// the-turk extensions have TR translations included
-		// @see https://github.com/rob006-software/flarum-translations/issues/425
+		// translations included in extension
 		'!the-turk-diff',
 		'!the-turk-edit-notifications',
 		'!the-turk-extended-appearance',
