@@ -226,7 +226,6 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [FoF Stop Forum Spam](https://weblate.rob006.net/projects/flarum/fof-stopforumspam) | [`fof/stopforumspam`](https://github.com/FriendsOfFlarum/stopforumspam)|
 | [FoF Subscribed](https://weblate.rob006.net/projects/flarum/fof-subscribed) | [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed)|
 | [FoF Terms](https://weblate.rob006.net/projects/flarum/fof-terms) | [`fof/terms`](https://github.com/FriendsOfFlarum/terms)|
-| [FoF URL Transliterator](https://weblate.rob006.net/projects/flarum/fof-transliterator) | [`fof/transliterator`](https://github.com/FriendsOfFlarum/transliterator)|
 | [FoF Upload](https://weblate.rob006.net/projects/flarum/fof-upload) | [`fof/upload`](https://github.com/FriendsOfFlarum/upload)|
 | [FoF User Bio](https://weblate.rob006.net/projects/flarum/fof-user-bio) | [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)|
 | [FoF User Directory](https://weblate.rob006.net/projects/flarum/fof-user-directory) | [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)|
