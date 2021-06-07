@@ -17,10 +17,10 @@ return [
 	'cs' => getComponents(),
 	'es' => getComponents([
 		// translations included in extension
-		'!clarkwinkelmann-emojionearea',
+		// '!clarkwinkelmann-emojionearea', https://github.com/clarkwinkelmann/flarum-ext-emojionearea/issues/28#issuecomment-855995493
 		'!malago-achievements',
 		'!malago-ads',
-		'!v17development-seo',
+		// '!v17development-seo', https://github.com/v17development/flarum-seo/issues/61#issuecomment-855474306
 	]),
 	'et' => getComponents(),
 	'fr' => getComponents([
@@ -31,11 +31,11 @@ return [
 		'!clarkwinkelmann-emojionearea',
 		'!clarkwinkelmann-passwordless',
 		'!tituspijean-auth-ldap',
-		'!v17development-seo',
+		// '!v17development-seo', https://github.com/v17development/flarum-seo/issues/61#issuecomment-855474306
 	]),
 	'it' => getComponents([
 		// translations included in extension
-		'!clarkwinkelmann-emojionearea',
+		// '!clarkwinkelmann-emojionearea', https://github.com/clarkwinkelmann/flarum-ext-emojionearea/issues/28#issuecomment-855995493
 		'!maicol07-sso',
 	]),
 	'ja' => getComponents(),
