@@ -15,7 +15,7 @@
             "confirm_dialog": {
                 "title": "Conferma",
                 "no": "No",
-                "yes": "Yes"
+                "yes": "Si"
             },
             "confirm_messages": {
                 "delete_badge": "Sei sicuro di voler rimuovere questo badge? Viene rimosso da tutti gli utenti ed è irreversibile.",
@@ -36,25 +36,25 @@
             },
             "auto_moderator": {
                 "not_installed": {
-                    "title": "",
-                    "content": "",
-                    "install": "",
-                    "dismiss": ""
+                    "title": "Premia automaticamente gli utenti con badge",
+                    "content": "Questa estensione offre più funzionalità quando <a>Auto Moderatore</a> è installato e attivato. Quando installi questa estensione, gli utenti possono essere automaticamente premiati con badge senza l'intervento di un amministratore o moderatore!",
+                    "install": "Installa",
+                    "dismiss": "Non mostrare ancora"
                 },
                 "action_drivers": {
-                    "badge_id": "",
-                    "give_badge": "",
-                    "remove_badge": ""
+                    "badge_id": "ID Badge",
+                    "give_badge": "Assegna badge",
+                    "remove_badge": "Rimuovi badge"
                 },
                 "requirement_drivers": {
-                    "has_badge": ""
+                    "has_badge": "Ha un badge"
                 },
                 "metric_drivers": {
-                    "badges_received": ""
+                    "badges_received": "Badge ricevuti"
                 },
                 "badge_selector": {
-                    "placeholder": "",
-                    "loading_badges": ""
+                    "placeholder": "Scegli badge",
+                    "loading_badges": "Caricamento badge"
                 }
             }
         },
@@ -66,8 +66,8 @@
             "update_badge": "Aggiorna badge",
             "select_badge": "Scegli badge",
             "user_has_badge": "L'utente ha già questo badge.",
-            "user_no_badges": "",
-            "uncategorized": "",
+            "user_no_badges": "Questo utente non ha ancora alcun badge.",
+            "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
             "badge": {
                 "badge": "Badge",
                 "badges": "Badge",
@@ -78,7 +78,7 @@
                 "no_earning_reason": "Nessun motivo impostato",
                 "earned_on": "Badge guadagnato il",
                 "category": "Categoria Badge",
-                "earned_count": "<b>{count} utente</b> ha guadagnato questo badge|<b>{count} utenti</b> hanno guadagnato questo badge"
+                "earned_count": "{count, plural, one {<b># utente</b> ha guadagnato questo badge} other {<b># utenti</b> hanno guadagnato questo badge}}"
             },
             "moderation": {
                 "remove_badge": "Rimuovi badge da utente",
