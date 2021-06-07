@@ -235,7 +235,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/flarum/suspend/master/locale/en.yml',
 	],
 	'flarum-tags' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/tags/v1.0.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/tags/v1.0.2/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/flarum/tags/master/locale/en.yml',
 	],
 	'flarumi-oauth-vkontakte' => [
