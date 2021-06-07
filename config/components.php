@@ -628,9 +628,6 @@ return [
 	'tituspijean-auth-ldap' => [
 		'tag' => 'https://raw.githubusercontent.com/tituspijean/flarum-ext-auth-ldap/v1.0.0-p1/locale/en.yml',
 	],
-	'tituspijean-auth-ssowat' => [
-		'tag' => 'https://raw.githubusercontent.com/tituspijean/flarum-ext-auth-ssowat/v0.1.0-beta.14-1/locale/en.yml',
-	],
 	'tpokorra-post-notification' => [
 		'tag' => 'https://raw.githubusercontent.com/tpokorra/flarum-ext-post-notification/0.4.4/resources/locale/en.yml',
 	],
