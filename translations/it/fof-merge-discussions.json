@@ -14,7 +14,7 @@
                 "merge": "=> fof-merge-discussions.ref.merge"
             },
             "post": {
-                "merged": "Unito <b>{count}</b> post da {titles}.|Uniti <b>{count}</b> post da {titles}."
+                "merged": "{count, plural, one {Unito<b>#</b> post da {titles}.} other {Uniti<b>#</b> post da {titles}.}}"
             }
         },
         "admin": {
