@@ -67,9 +67,6 @@ return [
 	'askvortsov-saml' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-saml/v2.3.0/resources/locale/en.yml',
 	],
-	'askvortsov-trust-levels' => [
-		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-trust-levels/v0.2.1/resources/locale/en.yml',
-	],
 	'blomstra-payments' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/blomstra-payments.yml',
 	],
@@ -436,9 +433,6 @@ return [
 	'ianm-synopsis' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/synopsis/1.0.0/resources/locale/en.yml',
 	],
-	'irony-login2see' => [
-		'tag' => 'https://raw.githubusercontent.com/892768447/flarum-ext-login2see/0.0.1/resources/locale/en.yml',
-	],
 	'itnt-uitab' => [
 		'tag' => 'https://raw.githubusercontent.com/Littlegolden/flarum-uitab/v0.3.3/resources/locale/en.yml',
 	],
@@ -583,14 +577,8 @@ return [
 	'nomiscz-auth-wechat' => [
 		'tag' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-wechat/v0.1.4/resources/locale/en.yml',
 	],
-	'reflar-level-ranks' => [
-		'tag' => 'https://raw.githubusercontent.com/ReFlar/level-ranks/1.2.3/resources/locale/en.yml',
-	],
 	'reflar-recache' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/reflar-recache.yml',
-	],
-	'reflar-webhooks-pro' => [
-		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/reflar-webhooks-pro.yml',
 	],
 	'saleksin-auth-google' => [
 		'tag' => 'https://raw.githubusercontent.com/saleksin/flarum-auth-google/v0.1.0-beta.14.0.0/locale/en.yml',
@@ -639,9 +627,6 @@ return [
 	],
 	'tituspijean-auth-ldap' => [
 		'tag' => 'https://raw.githubusercontent.com/tituspijean/flarum-ext-auth-ldap/v1.0.0-p1/locale/en.yml',
-	],
-	'tituspijean-auth-ssowat' => [
-		'tag' => 'https://raw.githubusercontent.com/tituspijean/flarum-ext-auth-ssowat/v0.1.0-beta.14-1/locale/en.yml',
 	],
 	'tpokorra-post-notification' => [
 		'tag' => 'https://raw.githubusercontent.com/tpokorra/flarum-ext-post-notification/0.4.4/resources/locale/en.yml',
