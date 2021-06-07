@@ -580,9 +580,6 @@ return [
 	'reflar-recache' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/reflar-recache.yml',
 	],
-	'reflar-webhooks-pro' => [
-		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/reflar-webhooks-pro.yml',
-	],
 	'saleksin-auth-google' => [
 		'tag' => 'https://raw.githubusercontent.com/saleksin/flarum-auth-google/v0.1.0-beta.14.0.0/locale/en.yml',
 	],
