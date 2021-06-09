@@ -12,20 +12,20 @@
                 "mode_help_cache_disk_label": "Mode cache / Mode disque",
                 "mode_help_cache_disk": "Idéal pour les forums de petite ou moyenne taille, généralement sur des environnements d'hébergement autorisant les tâches cron et activant la planification Flarum (voir ci-dessous), avec des discussions, des utilisateurs, des balises et des pages résumées à moins de 50 000 éléments.",
                 "mode_help_large": "50 000 est la limite technique pour les fichiers de plan de site. Si vous avez plus d’entrées à stocker, utilisez l’option suivante !",
-                "mode_help_multi_label": "Mode plusieurs fichiers",
-                "mode_help_multi": "",
-                "advanced_options_label": "",
-                "frequency_label": "",
+                "mode_help_multi_label": "Mode fichiers multiples",
+                "mode_help_multi": "Idéal pour les grands forums, à partir de 50 000 articles. En plusieurs parties, les fichiers de plan de site compressés seront générés et stockés dans le dossier /public",
+                "advanced_options_label": "Options avancées",
+                "frequency_label": "À quelle fréquence le planificateur doit-il reconstruire le plan du site basé sur le cache ou le disque ?",
                 "modes": {
-                    "runtime": "",
-                    "cache": "",
-                    "cache_disk": "",
-                    "multi_file": ""
+                    "runtime": "Environnement d'éxecution",
+                    "cache": "Cache",
+                    "cache_disk": "Disque",
+                    "multi_file": "Fichiers multiples"
                 },
                 "frequency": {
-                    "hourly": "",
-                    "twice_daily": "",
-                    "daily": ""
+                    "hourly": "Toutes les heures",
+                    "twice_daily": "Deux fois dans le jour",
+                    "daily": "Quotidiennement"
                 }
             }
         }
