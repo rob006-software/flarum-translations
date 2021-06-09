@@ -1,27 +1,27 @@
 {
     "flarum-ext-toastme": {
         "admin": {
-            "enabletoast": "",
-            "helpenable": "",
-            "offsetyy": "",
-            "offsetydesc": "",
-            "offsetxx": "",
-            "offsetxdesc": "",
-            "dest": "",
-            "destdesc": "",
-            "duration": "",
-            "durdesc": "",
-            "gravity": "",
-            "gravdesc": "",
-            "position": "",
-            "posdesc": "",
-            "background": "",
-            "backgrounddesc": "",
-            "message": "",
-            "messagedesc": ""
+            "enabletoast": "Activer/Désactiver l'alerte Toast",
+            "helpenable": "Utiliser ce paramètre pour activer ou désactiver l'alerte toast",
+            "offsetyy": "Décalage Y − marge de l’axe vertical (px) (vide par défaut)",
+            "offsetydesc": "marge de l’axe vertical − peut être un nombre indiquant une valeur en pixel. Exemple 20 (pixel)",
+            "offsetxx": "Décalage X − marge de l’axe horizontal (px) (vide par défaut)",
+            "offsetxdesc": "marge de l’axe horizontal − peut être un nombre indiquant une valeur en pixel. Exemple 20 (pixel)",
+            "dest": "Lien de la destination",
+            "destdesc": "Lien vers lequel le navigateur doit être redirigé en cliquant sur le toast",
+            "duration": "Durée pendant laquelle le toast devrait être affiché -1 pour le toast permanent",
+            "durdesc": "Utiliser les millisecondes − exemple « 3000 » pour 3 secondes",
+            "gravity": "Gravité − Peut être « haut » ou « bas »",
+            "gravdesc": "Définir la position du toast, haut et bas sont acceptés",
+            "position": "Position − Peut être « gauche », « droite », ou « centre »",
+            "posdesc": "Où souhaitez-vous que le toast apparaisse ? À gauche, à droite ou au centre ?",
+            "background": "Couleur de fond (format hexadécimal)",
+            "backgrounddesc": "mettre la couleur de fond au format hexadécimal − ex. « #ffcc00 »",
+            "message": "Texte du Toast",
+            "messagedesc": "Ici vous pouvez insérer le texte de votre alerte toast"
         },
         "forum": {
-            "message1": ""
+            "message1": "C’est un fait établi de longue date qu’un lecteur sera distrait par le contenu lisible d’une page en regardant sa mise en page."
         }
     }
 }
