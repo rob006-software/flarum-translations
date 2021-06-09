@@ -2,74 +2,74 @@
     "fof-oauth": {
         "admin": {
             "settings": {
-                "only_icons_label": "",
+                "only_icons_label": "Afficher seulement les icônes des boutons de connexion (disposition alternative)",
                 "providers": {
-                    "callback_url_text": "",
+                    "callback_url_text": "Si nécessaire, paramétrer le lien de la fonction de rappel vers {url}.",
                     "discord": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "description": "Créer une application à {link}. Ajouter le lien de redirection dans l'onglet de OAuth2.",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
                     "facebook": {
-                        "description": "",
-                        "app_id_label": "",
-                        "app_secret_label": ""
+                        "description": "Créer une application à {link}.",
+                        "app_id_label": "=> fof-oauth.ref.settings.app_id",
+                        "app_secret_label": "=> fof-oauth.ref.settings.app_secret"
                     },
                     "github": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "description": "Créer une application OAuth à {link}.",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
                     "gitlab": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": "",
-                        "domain_label": ""
+                        "description": "Créer une application à {link}. Donner à l'application la portée <code>read_user</code>.",
+                        "client_id_label": "=> fof-oauth.ref.settings.app_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.app_secret",
+                        "domain_label": "Domaine GitLab"
                     },
                     "twitter": {
-                        "description": "",
-                        "api_key_label": "",
-                        "api_secret_label": ""
+                        "description": "Créer une application à {link}. Vous devrez définir un lien vers les conditions d'utilisation et un lien vers la politique de confidentialité. Assurez-vous ensuite d'ajouter l'autorisation de demande de courrier électronique.",
+                        "api_key_label": "Clé de l'API",
+                        "api_secret_label": "Code secret de l'API"
                     },
                     "google": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "description": "Créer une application à {link}.",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
                     "linkedin": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "description": "Créer une application à {link}.",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_button": ""
+                "with_button": "Se connecter avec {provider}"
             },
             "error": {
-                "bad_verification_code": "",
-                "invalid_state": ""
+                "bad_verification_code": "Jeton de vérification invalide ou expiré. Merci d'essayer à nouveau.",
+                "invalid_state": "Statut invalide. Merci d'essayer à nouveau."
             }
         },
         "lib": {
             "providers": {
-                "discord": "",
-                "facebook": "",
-                "github": "",
-                "gitlab": "",
-                "twitter": "",
-                "google": "",
-                "linkedin": ""
+                "discord": "Discord",
+                "facebook": "Facebook",
+                "github": "GitHub",
+                "gitlab": "GitLab",
+                "twitter": "Twitter",
+                "google": "Google",
+                "linkedin": "LinkedIn"
             }
         },
         "ref": {
             "settings": {
-                "app_id": "",
-                "app_secret": "",
-                "client_id": "",
-                "client_secret": ""
+                "app_id": "Identifiant application",
+                "app_secret": "Code secret application",
+                "client_id": "Identifiant client",
+                "client_secret": "Code secret client"
             }
         }
     }
