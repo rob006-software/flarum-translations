@@ -1,27 +1,27 @@
 {
     "flarum-ext-dontgoaway": {
         "admin": {
-            "modtitle": "",
-            "modtitledesc": "",
-            "modtext": "",
-            "modtextdesc": "",
-            "urltext": "",
-            "urltextdesc": "",
-            "widthtext": "",
-            "widthdesc": "",
-            "heightext": "",
-            "heightdesc": "",
-            "altext": "",
-            "altdesc": "",
-            "btn": "",
-            "btndesc": "",
-            "enableExtLink": ""
+            "modtitle": "Titre modal",
+            "modtitledesc": "Personnaliser le titre de la fenêtre surgissante",
+            "modtext": "Texte modal",
+            "modtextdesc": "Ici vous pouvez personnaliser le texte de votre fenêtre surgissante modale.",
+            "urltext": "Lien de votre image personnalisée",
+            "urltextdesc": "Coller ici le lien de votre image personnalisée",
+            "widthtext": "Largeur de l'image",
+            "widthdesc": "Définir la largeur de votre image (ex. 450)",
+            "heightext": "Hauteur de l'image",
+            "heightdesc": "Définir la hauteur de votre image (ex. 450)",
+            "altext": "Texte alternatif pour l'image",
+            "altdesc": "Définir l'attribut \"alternative\" de votre image",
+            "btn": "Personnaliser le bouton. Exemple de syntaxe dans l'espace réservé",
+            "btndesc": "vous pouvez paramétrer le texte et l'icône fontawesome de votre bouton",
+            "enableExtLink": "Activer les fenêtres surgissantes pour un lien externe"
         },
         "forum": {
-            "extlinktitle": "",
-            "extlinktext": "",
-            "confbutton": "",
-            "cancelbutton": ""
+            "extlinktitle": "Lien externe",
+            "extlinktext": "Vous quittez le site en cliquant sur un lien externe",
+            "confbutton": "Continuer",
+            "cancelbutton": "Rester ici !"
         }
     }
 }
