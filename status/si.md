@@ -1117,7 +1117,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Incompatible with recent Flarum">🔴</span>
+			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/clarkwinkelmann/flarum-ext-popular-discussion-badge" title="clarkwinkelmann/flarum-ext-popular-discussion-badge"><code>clarkwinkelmann/…popular-discussion-badg…</code></a>
 		</td>
 		<td align="center">100<br /><img src="https://img.shields.io/badge/-%2B17-red" alt="+17" title="Change from last week"></td>
@@ -1513,7 +1513,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Incompatible with recent Flarum">🔴</span>
+			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/clarkwinkelmann/flarum-ext-group-list" title="clarkwinkelmann/flarum-ext-group-list"><code>clarkwinkelmann/flarum-ext-group-list</code></a>
 		</td>
 		<td align="center">136<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
@@ -1821,7 +1821,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Incompatible with recent Flarum">🔴</span>
+			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/clarkwinkelmann/flarum-ext-group-invitation" title="clarkwinkelmann/flarum-ext-group-invitation"><code>clarkwinkelmann/…group-invitation</code></a>
 		</td>
 		<td align="center">164<br /><img src="https://img.shields.io/badge/-%2B4-red" alt="+4" title="Change from last week"></td>
@@ -2207,7 +2207,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Incompatible with recent Flarum">🔴</span>
+			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://extiverse.com/extension/kilowhat/flarum-ext-custom-paths" title="kilowhat/flarum-ext-custom-paths"><code>kilowhat/flarum-ext-custom-paths</code></a>
 		</td>
 		<td align="center">6<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
@@ -2217,7 +2217,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Incompatible with recent Flarum">🔴</span>
+			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://extiverse.com/extension/kilowhat/flarum-ext-formulaire" title="kilowhat/flarum-ext-formulaire"><code>kilowhat/flarum-ext-formulaire</code></a>
 		</td>
 		<td align="center">7<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
