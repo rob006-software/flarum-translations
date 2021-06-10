@@ -121,7 +121,7 @@ return [
 	'zh_Hans' => [
 		'type' => 'language',
 		'language' => 'zh_Hans',
-		'repository' => 'git@github.com:FFans/lang-simplified-chinese.git',
+		'repository' => 'git@github.com:flarum-lang/chinese-simplified.git',
 		'branch' => 'master',
 		'path' => '/locale',
 	],
