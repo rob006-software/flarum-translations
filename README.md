@@ -297,6 +297,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [Registration Roles by Ianm](https://weblate.rob006.net/projects/flarum/ianm-regrole) | [`ianm/flarum-regrole`](https://github.com/imorland/flarum-regrole)|
 | [Follow Users by Ianm](https://weblate.rob006.net/projects/flarum/ianm-follow-users) | [`ianm/follow-users`](https://github.com/imorland/follow-users)|
 | [HTML Head Items by Ianm](https://weblate.rob006.net/projects/flarum/ianm-html-head) | [`ianm/html-head`](https://github.com/imorland/html-head)|
+| [Syndication by Ianm](https://weblate.rob006.net/projects/flarum/ianm-syndication) | [`ianm/syndication`](https://github.com/imorland/syndication)|
 | [Synopsis by Ianm](https://weblate.rob006.net/projects/flarum/ianm-synopsis) | [`ianm/synopsis`](https://github.com/imorland/synopsis)|
 | [UI Tab  by Itnt](https://weblate.rob006.net/projects/flarum/itnt-uitab) | [`itnt/flarum-uitab`](https://github.com/Littlegolden/flarum-uitab)|
 | [Login2SeePlus by Jslirola](https://weblate.rob006.net/projects/flarum/jslirola-login2seeplus) | [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus)|
