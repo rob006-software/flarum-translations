@@ -1,0 +1,42 @@
+{
+    "ianm-syndication": {
+        "forum": {
+            "autodiscovery": {
+                "forum_activity": "Forum activity",
+                "forum_new_discussions": "Forum's new discussions",
+                "tag_activity": "Activity for the {tag} tag",
+                "tag_new_discussions": "Discussions in the {tag} tag",
+                "discussion_last_posts": "This discussion"
+            },
+            "feeds": {
+                "titles": {
+                    "main_title": "{forum_name}",
+                    "main_subtitle": "Last posts in the forum",
+                    "main_d_title": "New discussions in {forum_name}",
+                    "main_d_subtitle": "The newest discussions in the forum",
+                    "tag_title": "Activity in the {tag} tag",
+                    "tag_subtitle": "Last posts in the {tag} tag",
+                    "tag_d_title": "New discussions in the {tag} tag",
+                    "tag_d_subtitle": "The newest discussions in the {tag} tag",
+                    "discussion_title": "{discussion_name}",
+                    "discussion_subtitle": "Last messages in this discussion"
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "title": "Syndication Settings",
+                "full-text": {
+                    "label": "Full-Text Feeds",
+                    "help": "If disabled, feeds will only contain excerpts of posts, and users will have to go to the forum to read everything.",
+                    "recommendation": "I would recommend to leave this option active in order to respect the people following the forum from an RSS aggregator—if any."
+                },
+                "html": {
+                    "label": "Formatted Feeds",
+                    "help": "Check this to keep the HTML in the generated feeds. If disabled, the feeds will be in plain text."
+                },
+                "entries-count": "How many entries per feed?"
+            }
+        }
+    }
+}
