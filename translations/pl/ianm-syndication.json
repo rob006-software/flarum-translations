@@ -25,7 +25,6 @@
         },
         "admin": {
             "settings": {
-                "title": "Ustawienia kanałów RSS",
                 "full-text": {
                     "label": "Udostępnij pełną treść",
                     "help": "Jeśli wyłączone, kanał będzie zawierał tylko fragmenty postów. Aby zobaczyć pełną treść posta, użytkownik musi odwiedzić forum.",
@@ -35,7 +34,8 @@
                     "label": "Formatowanie kanałów",
                     "help": "Zaznacz, aby wyświetlać HTML w treści kanałów. Jeśli wyłączone, kanały będą zawierały jedynie czysty tekst."
                 },
-                "entries-count": "Ile pozycji wyświetlać w kanale?"
+                "entries-count": "Ile pozycji wyświetlać w kanale?",
+                "title": "Ustawienia kanałów RSS"
             }
         }
     }

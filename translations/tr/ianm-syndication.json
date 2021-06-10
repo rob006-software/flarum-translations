@@ -25,7 +25,6 @@
         },
         "admin": {
             "settings": {
-                "title": "Akış Ayarları",
                 "full-text": {
                     "label": "Tam Metin Akış",
                     "help": "Etkisizleştirilirse, gönderiler yalnıza özet içerir ve kullanıcıların her şeyi okuyabilmesi için siteyi görüntülemeleri gerekir.",
@@ -35,7 +34,8 @@
                     "label": "Zenginleştirilmiş Akış",
                     "help": "HTML ile oluşturulan gönderileri de yayınlamak için bu seçeneği aktif edin. Etkisizleştirilirse yayınlar düz metin olarak yayınlanır."
                 },
-                "entries-count": "Akışta kaç gönderi olsun?"
+                "entries-count": "Akışta kaç gönderi olsun?",
+                "title": "Akış Ayarları"
             }
         }
     }
