@@ -145,7 +145,7 @@
                 "ticket_overview": "Ticket overview",
                 "opened_on": "Opened on",
                 "ticket_activity": "By {username}, last activity {date}",
-                "reminders_sent": "One reminder sent|{count} reminders sent",
+                "reminders_sent": "{count, plural, one {One reminder sent} other {# reminders sent}}",
                 "convert_to_ticket": {
                     "button": "Convert to ticket",
                     "confirm": "Are you sure you want to convert this discussion into a ticket?",
@@ -265,7 +265,7 @@
             },
             "ticket_pending_reply_closed": {
                 "subject": "Ticket #{ticket_id} has been closed due to inactivity",
-                "body": "Dear {recipient_display_name},\n\nRecently {replier_display_name} replied to your ticket #{ticket_id}. Unfortunately we did not get a reply from you. Your ticket has been automatically closed due to inactivity.\n\nIf you still wish to reply, the URL of your ticket is:\n{url}"
+                "body": "Dear {recipient_display_name},\n\nRecently {replier_display_name} replied to your ticket #{ticket_id}. Unfortunately we did not get a reply from you. Your ticket has been automatically closed due to inactivity.\n\nIf you still wish to reply, the URL of your ticket is:\n{url}\n"
             }
         }
     }
