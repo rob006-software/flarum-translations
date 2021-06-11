@@ -80,7 +80,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-author-change/1.0.1/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-bookmarks' => [
-		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-bookmarks/0.1.3/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-bookmarks/1.0.0/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-carving-contest' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-carving-contest/0.2.3/resources/locale/en.yml',
