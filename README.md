@@ -258,7 +258,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [SAML2 SSO by Askvortsov](https://weblate.rob006.net/projects/flarum/askvortsov-saml) | [`askvortsov/flarum-saml`](https://github.com/askvortsov1/flarum-saml)|
 | [Catch the fish by Clarkwinkelmann](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-catch-the-fish) | [`clarkwinkelmann/catch-the-fish`](https://github.com/clarkwinkelmann/catch-the-fish)|
 | [Author Change by Clarkwinkelmann](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-author-change) | [`clarkwinkelmann/flarum-ext-author-change`](https://github.com/clarkwinkelmann/flarum-ext-author-change)|
-| [Bookmarks by Clarkwinkelmann](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-bookmarks) | [`clarkwinkelmann/flarum-ext-bookmarks`](https://github.com/clarkwinkelmann/flarum-ext-bookmarks)|
+| [Discussion Bookmarks by Clarkwinkelmann](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-bookmarks) | [`clarkwinkelmann/flarum-ext-bookmarks`](https://github.com/clarkwinkelmann/flarum-ext-bookmarks)|
 | [Carving Contest by Clarkwinkelmann](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-carving-contest) | [`clarkwinkelmann/flarum-ext-carving-contest`](https://github.com/clarkwinkelmann/flarum-ext-carving-contest)|
 | [Clippy by Clarkwinkelmann](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-clippy) | [`clarkwinkelmann/flarum-ext-clippy`](https://github.com/clarkwinkelmann/flarum-ext-clippy)|
 | [Create User Modal by Clarkwinkelmann](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-create-user-modal) | [`clarkwinkelmann/flarum-ext-create-user-modal`](https://github.com/clarkwinkelmann/flarum-ext-create-user-modal)|
