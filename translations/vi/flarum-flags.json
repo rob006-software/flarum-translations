@@ -1,0 +1,50 @@
+{
+    "flarum-flags": {
+        "admin": {
+            "permissions": {
+                "flag_posts_label": "Gắn cờ bài viết",
+                "view_flags_label": "Xem các bài viết được gắn cờ"
+            },
+            "settings": {
+                "flag_own_posts_label": "Cho phép người dùng báo cáo tin nhắn của riêng họ",
+                "guidelines_url_label": "URL Nguyên tắc cộng đồng",
+                "title": "Cài đặt gắn cờ"
+            }
+        },
+        "forum": {
+            "flag_post": {
+                "confirmation_message": "Cảm ơn bạn đã gắn cờ bài này. Người điều hành của chúng tôi sẽ xem xét nó.",
+                "dismiss_button": "=> core.ref.okay",
+                "reason_details_placeholder": "Chi tiết bổ sung (tùy chọn)",
+                "reason_inappropriate_label": "Không thích hợp",
+                "reason_inappropriate_text": "Bài đăng này gây khó chịu, lạm dụng hoặc vi phạm <a>hướng dẫn cộng đồng</a>.",
+                "reason_missing_message": "Nó cung cấp một số chi tiết cho người điều hành của chúng tôi.",
+                "reason_off_topic_label": "Ngoài chủ đề",
+                "reason_off_topic_text": "Bài đăng này không liên quan đến cuộc thảo luận hiện tại và nên được chuyển sang thẻ khác.",
+                "reason_other_label": "Khác",
+                "reason_spam_label": "Spam",
+                "reason_spam_text": "Bài này là một quảng cáo.",
+                "submit_button": "=> flarum-flags.ref.flag_post",
+                "title": "=> flarum-flags.ref.flag_post"
+            },
+            "flagged_posts": {
+                "empty_text": "Không có gắn cờ",
+                "item_text": "{username} trong <em>{discussion}</em>",
+                "title": "=> flarum-flags.ref.flagged_posts",
+                "tooltip": "=> flarum-flags.ref.flagged_posts"
+            },
+            "post": {
+                "dismiss_flag_button": "Bỏ gắn cờ",
+                "flagged_by_text": "Được gắn cờ bởi {username}",
+                "flagged_by_with_reason_text": "Được gắn cờ bởi {username} do {reason}"
+            },
+            "post_controls": {
+                "flag_button": "Gắn cờ"
+            }
+        },
+        "ref": {
+            "flag_post": "Gắn cờ bài viết",
+            "flagged_posts": "Bài viết bị gắn cờ"
+        }
+    }
+}

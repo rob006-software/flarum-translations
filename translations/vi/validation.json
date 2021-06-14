@@ -1,0 +1,123 @@
+{
+    "validation": {
+        "accepted": ":attribute phải được chấp nhận.",
+        "active_url": ":attribute không phải là một URL hợp lệ.",
+        "after": ":attribute phải là một ngày sau :date.",
+        "after_or_equal": ":attribute phải là một ngày sau hoặc bằng :date.",
+        "alpha": ":attribute chỉ có thể chứa các chữ cái.",
+        "alpha_dash": ":attribute chỉ có thể chứa các chữ cái, số, dấu gạch ngang và dấu gạch dưới.",
+        "alpha_num": ":attribute chỉ có thể chứa các chữ cái và số.",
+        "array": ":attribute phải là một mảng.",
+        "before": ":attribute phải là một ngày trước :date.",
+        "before_or_equal": ":attribute phải là một ngày trước hoặc bằng :date.",
+        "between": {
+            "numeric": ":attribute phải từ :min đến :max.",
+            "file": ":attribute phải từ :min đến :max kilobytes.",
+            "string": ":attribute phải từ :min đến :max ký tự.",
+            "array": ":attribute phải có giữa :min và :max mục."
+        },
+        "boolean": ":attribute trường phải đúng hoặc sai.",
+        "confirmed": ":attribute nhận đinh không phù hợp.",
+        "date": ":attribute không phải là ngày hợp lệ.",
+        "date_equals": ":attribute phải là một ngày bằng :date.",
+        "date_format": ":attribute không phù hợp với định dạng :other.",
+        "different": ":attribute và :other phải khác.",
+        "digits": ":attribute phải là :digits chữ số.",
+        "digits_between": ":attribute phải từ :min đến :max chữ số.",
+        "dimensions": ":attribute có kích thước hình ảnh không hợp lệ.",
+        "distinct": ":attribute trường có giá trị trùng lặp.",
+        "email": ":attribute phải la một địa chỉ email hợp lệ.",
+        "ends_with": ":attribute phải kết thúc bằng một trong các cách sau: :values",
+        "exists": ":attribute được chọn không hợp lệ.",
+        "file": ":attribute phải là một tập tin",
+        "filled": "Trường :attribute phải có một giá trị.",
+        "gt": {
+            "numeric": ":attribute phải lớn hơn :value.",
+            "file": ":attribute phải lớn hơn :value kilobytes.",
+            "string": ":attribute phải lớn hơn :value ký tự.",
+            "array": ":attribute phải có nhiều hơn :value mục."
+        },
+        "gte": {
+            "numeric": ":attribute phải lớn hơn hoặc bằng :value.",
+            "file": ":attribute phải lớn hơn hoặc bằng :value kilobytes.",
+            "string": ":attribute phải lớn hơn hoặc bằng :value ký tự.",
+            "array": ":attribute phải có :value mục hoặc nhiều hơn."
+        },
+        "image": ":attribute phải là một hình ảnh",
+        "in": ":attribute được chọn không hợp lệ.",
+        "in_array": ":attribute trường không tồn tại trong :other.",
+        "integer": ":attribute phải là số nguyên.",
+        "ip": ":attribute phải là một địa chỉ IP hợp lệ.",
+        "ipv4": ":attribute phải là một địa chỉ IPv4 hợp lệ.",
+        "ipv6": ":attribute phải là một địa chỉ IPv6 hợp lệ.",
+        "json": ":attribute phải là một chuỗi JSON hợp lệ.",
+        "lt": {
+            "numeric": ":attribute phải nhỏ hơn :value.",
+            "file": ":attribute phải nhỏ hơn :value kilobytes.",
+            "string": ":attribute phải nhỏ hơn :value ký tự.",
+            "array": ":attribute phải có ít hơn :value mục."
+        },
+        "lte": {
+            "numeric": ":attribute phải nhỏ hơn hoặc bằng :value.",
+            "file": ":attribute phải nhỏ hơn hoặc bằng :value kilobytes.",
+            "string": ":attribute phải nhỏ hơn hoặc bằng :value ký tự.",
+            "array": ":attribute không được có nhiều hơn :value mục."
+        },
+        "max": {
+            "numeric": ":attribute có thể không lớn hơn :max.",
+            "file": ":attribute có thể không lớn hơn :max kilobytes.",
+            "string": ":attribute có thể không lớn hơn :max ký tự.",
+            "array": ":attribute có thể không có nhiều hơn :max mục."
+        },
+        "mimes": ":attributephải là một loại tệp: :values.",
+        "mimetypes": ":attributephải là một loại tệp: :values.",
+        "min": {
+            "numeric": ":attribute phải có ít nhất :min.",
+            "file": ":attribute phải có ít nhất :min kilobytes.",
+            "string": ":attribute phải có ít nhất :min ký tự.",
+            "array": ":attribute phải có ít nhất :min mục."
+        },
+        "multiple_of": "",
+        "not_in": ":attribute đã chọn không hợp lệ.",
+        "not_regex": ":attribute định dạng không hợp lệ.",
+        "numeric": ":attribute phải là một số.",
+        "password": "La contraseña es incorrecta.",
+        "present": ":attribute trường phải có mặt",
+        "regex": ":attribute định dạng không hợp lệ.",
+        "required": ":attribute trường được yêu cầu",
+        "required_if": ":attribute trường được yêu cầu khi :other là :value.",
+        "required_unless": ":attribute trường là bắt buộc trừ khi :other trong :values.",
+        "required_with": ":attribute trường được yêu cầu khi :values là quà tặng.",
+        "required_with_all": ":attribute trường được yêu cầu khi :values có mặt",
+        "required_without": ":attribute trường được yêu cầu khi :values không có mặt.",
+        "required_without_all": ":attribute trường được yêu cầu khi none of :values có mặt",
+        "prohibited": "",
+        "prohibited_if": "",
+        "prohibited_unless": "",
+        "same": ":attribute và :other phải khớp.",
+        "size": {
+            "numeric": ":attribute cần có :size.",
+            "file": ":attribute cần có :size kilobytes.",
+            "string": ":attribute cần có :size ký tự.",
+            "array": ":attribute phải chứa :size mục."
+        },
+        "starts_with": ":attribute phải bắt đầu bằng một trong những điều sau đây: :values",
+        "string": ":attribute phải là một chuỗi.",
+        "timezone": ":attribute phải là một khu vực hợp lệ.",
+        "unique": ":attribute đã được thực hiện.",
+        "uploaded": ":attribute không thể tải lên.",
+        "url": ":attribute định dạng không hợp lệ.",
+        "uuid": ":attribute phải là một UUID hợp lệ.",
+        "attributes": {
+            "username": "tên tài khoản",
+            "password": "mật khẩu",
+            "email": "email",
+            "title": "tiêu đề",
+            "content": "nội dung",
+            "name_singular": "tên số ít",
+            "name_plural": "tên số nhiều",
+            "tag_count_primary": "số lượng thẻ chính",
+            "tag_count_secondary": "số lượng thẻ phụ"
+        }
+    }
+}   

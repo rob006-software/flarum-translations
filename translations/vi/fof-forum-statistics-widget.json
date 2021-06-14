@@ -1,0 +1,26 @@
+{
+    "fof-forum-statistics-widget": {
+        "forum": {
+            "navbar": {
+                "widget_title": "Số liệu thống kê",
+                "discussions_count": "Thảo luận: {discussionsCount}",
+                "posts_count": "Thông điệp: {postsCount}",
+                "users_count": "Người dùng: {usersCount}",
+                "latest_member": "Người dùng cuối cùng: "
+            }
+        },
+        "admin": {
+            "settings": {
+                "widget_ignore_private_discussions_label": "Bỏ qua các cuộc thảo luận riêng tư.",
+                "widget_order_label": "Thứ tự widget.",
+                "widget_helper_text": "Chỉnh sửa cấu hình này để điều chỉnh vị trí của tiện ích này trong phần SIDENAV của diễn đàn của bạn.Số càng lớn, tiện ích này càng lớn trong danh sách các phần tử thứ cấp (giá trị này có thể tích cực hoặc tiêu cực)."
+            },
+            "permissions": {
+                "view_discussions_count_label": "",
+                "view_posts_count_label": "",
+                "view_users_count_label": "",
+                "view_lastest_member_label": ""
+            }
+        }
+    }
+}

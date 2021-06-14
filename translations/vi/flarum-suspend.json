@@ -1,0 +1,29 @@
+{
+    "flarum-suspend": {
+        "admin": {
+            "permissions": {
+                "suspend_users_label": "Đình chỉ người dùng"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "user_suspended_text": "{username} đã đình chỉ bạn trong {timeReadable}",
+                "user_unsuspended_text": "{username} đã mở đình chỉ cho bạn"
+            },
+            "suspend_user": {
+                "indefinitely_label": "Đình chỉ vô thời hạn",
+                "limited_time_days_text": " ngày",
+                "limited_time_label": "Đình chỉ trong thời gian giới hạn...",
+                "not_suspended_label": "Không bị đình chỉ",
+                "status_heading": "Tình trạng đình chỉ",
+                "title": "Đình chỉ {username}"
+            },
+            "user_badge": {
+                "suspended_tooltip": "Đình chỉ"
+            },
+            "user_controls": {
+                "suspend_button": "Đình chỉ"
+            }
+        }
+    }
+}

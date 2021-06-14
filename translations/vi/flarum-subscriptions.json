@@ -1,0 +1,50 @@
+{
+    "flarum-subscriptions": {
+        "forum": {
+            "badge": {
+                "following_tooltip": "=> flarum-subscriptions.ref.following",
+                "ignoring_tooltip": "=> flarum-subscriptions.ref.ignoring"
+            },
+            "discussion_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "unfollow_button": "Hủy theo dõi",
+                "unignore_button": "Hủy bỏ qua"
+            },
+            "following": {
+                "meta_title_text": "=> flarum-subscriptions.ref.following"
+            },
+            "index": {
+                "following_link": "=> flarum-subscriptions.ref.following"
+            },
+            "notifications": {
+                "new_post_text": "{username} đã đăng"
+            },
+            "settings": {
+                "follow_after_reply_label": "Tự động theo dõi các cuộc thảo luận mà tôi trả lời",
+                "notify_new_post_label": "Ai đó đăng bài trong một cuộc thảo luận tôi đang theo dõi"
+            },
+            "sub_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "following_button": "=> flarum-subscriptions.ref.following",
+                "following_text": "Được thông báo về tất cả các câu trả lời.",
+                "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
+                "ignoring_text": "Không bao giờ được thông báo. Ẩn khỏi danh sách thảo luận.",
+                "not_following_button": "Không theo dõi",
+                "not_following_text": "Chỉ được thông báo khi @mentioned.",
+                "notify_alert_tooltip": "Nhận thông báo diễn đàn khi có bài viết mới",
+                "notify_email_tooltip": "Nhận email khi có bài viết mới"
+            }
+        },
+        "email": {
+            "new_post": {
+                "subject": "[Ấn phẩm mới] {title}",
+                "body": "Hey {recipient_display_name}!\n\n{poster_display_name} đã bình luận trong một cuộc thảo luận rằng bạn đang theo dõi: {title}.\n\nĐể xem hoạt động mới, hãy tham khảo liên kết sau:\n{url}\n\n---\n\n{content}\n\n---\n\nBạn sẽ không nhận được nhiều thông báo hơn về cuộc thảo luận này cho đến khi có nhiều cập nhật hơn.\n"
+            }
+        },
+        "ref": {
+            "follow": "Theo dõi",
+            "following": "Đang theo dõi",
+            "ignoring": "Bỏ qua"
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "flarum-lock": {
+        "admin": {
+            "permissions": {
+                "lock_discussions_label": "Khóa thảo luận"
+            }
+        },
+        "forum": {
+            "badge": {
+                "locked_tooltip": "Đã khóa"
+            },
+            "discussion_controls": {
+                "lock_button": "Khóa",
+                "unlock_button": "Mở khóa"
+            },
+            "notifications": {
+                "discussion_locked_text": "{username} đã khóa"
+            },
+            "post_stream": {
+                "discussion_locked_text": "{username} đã khóa cuộc thảo luận.",
+                "discussion_unlocked_text": "{username} đã mở khóa cuộc thảo luận."
+            },
+            "settings": {
+                "notify_discussion_locked_label": "Ai đó khóa một cuộc thảo luận bạn đã đăng"
+            }
+        }
+    }
+}
