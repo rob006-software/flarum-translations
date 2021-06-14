@@ -46,7 +46,23 @@
         },
         "forum": {
             "log_in": {
-                "with_button": "Accedi con {provider}"
+                "with_button": "Accedi con {provider}",
+                "with_discord_button": "",
+                "with_facebook_button": "",
+                "with_github_button": "",
+                "with_gitlab_button": "",
+                "with_google_button": "",
+                "with_linkedin_button": "",
+                "with_twitter_button": ""
+            },
+            "providers": {
+                "discord": "",
+                "facebook": "",
+                "github": "",
+                "gitlab": "",
+                "google": "",
+                "linkedin": "",
+                "twitter": ""
             },
             "error": {
                 "bad_verification_code": "Token di verifica scaduto o non valido. Riprova.",
