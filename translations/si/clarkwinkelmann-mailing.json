@@ -13,10 +13,10 @@
             },
             "modal_mail": {
                 "title_text": "",
-                "recipients_label": "",
+                "recipients_label": "ලබන්නන්",
                 "recipients_placeholder": "",
-                "subject_label": "",
-                "default_subject": "",
+                "subject_label": "මාතෘකාව",
+                "default_subject": "=> clarkwinkelmann-mailing.ref.default_subject",
                 "message_label": "පණිවිඩය",
                 "submit_button": "යවන්න"
             },
@@ -25,16 +25,16 @@
                 "on_its_way": ""
             },
             "recipient_kinds": {
-                "user": "",
-                "group": "",
-                "email": ""
+                "user": "පරිශීලක",
+                "group": "සමූහය",
+                "email": "විද්‍යුත් තැපෑල"
             }
         },
         "api": {
             "no_recipients": ""
         },
         "email": {
-            "default_subject": ""
+            "default_subject": "=> clarkwinkelmann-mailing.ref.default_subject"
         },
         "ref": {
             "default_subject": ""
