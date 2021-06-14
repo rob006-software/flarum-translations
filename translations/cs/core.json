@@ -190,7 +190,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Kdykoli",
-                "allow_some_minutes_button": "První {count} minutu|První {count} minuty|Prvních {count} minut",
+                "allow_some_minutes_button": "{count, plural, one {První # minutu} other {Prvních # minut}}",
                 "allow_ten_minutes_button": "Na 10 minut",
                 "allow_until_reply_button": "Do další odpovědi",
                 "everyone_button": "Všichni",
