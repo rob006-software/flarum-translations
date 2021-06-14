@@ -6,11 +6,11 @@
                 "forum_new_discussions": "",
                 "tag_activity": "",
                 "tag_new_discussions": "",
-                "discussion_last_posts": ""
+                "discussion_last_posts": "මෙම සාකච්ඡාව"
             },
             "feeds": {
                 "titles": {
-                    "main_title": "",
+                    "main_title": "{forum_name}",
                     "main_subtitle": "",
                     "main_d_title": "",
                     "main_d_subtitle": "",
@@ -18,8 +18,8 @@
                     "tag_subtitle": "",
                     "tag_d_title": "",
                     "tag_d_subtitle": "",
-                    "discussion_title": "",
-                    "discussion_subtitle": ""
+                    "discussion_title": "{discussion_name}",
+                    "discussion_subtitle": "මෙම සාකච්ඡාවෙහි අවසන් පණිවිඩ"
                 }
             }
         },
