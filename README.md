@@ -328,6 +328,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [Keywords by Justoverclock](https://weblate.rob006.net/projects/flarum/justoverclock-keywords) | [`justoverclock/flarum-ext-keywords`](https://github.com/justoverclockl/flarum-ext-keywords)|
 | [NewsFeed by Justoverclock](https://weblate.rob006.net/projects/flarum/justoverclock-newsfeed) | [`justoverclock/flarum-ext-newsfeed`](https://github.com/justoverclockl/flarum-ext-newsfeed)|
 | [Newsletter by Justoverclock](https://weblate.rob006.net/projects/flarum/justoverclock-newsletter) | [`justoverclock/flarum-ext-newsletter`](https://github.com/justoverclockl/flarum-ext-newsletter)|
+| [Purify by Justoverclock](https://weblate.rob006.net/projects/flarum/justoverclock-purify) | [`justoverclock/flarum-ext-purify`](https://github.com/justoverclockl/flarum-ext-purify)|
 | [Pwgen by Justoverclock](https://weblate.rob006.net/projects/flarum/justoverclock-pwgen) | [`justoverclock/flarum-ext-pwgen`](https://github.com/justoverclockl/flarum-ext-pwgen)|
 | [ReadMore by Justoverclock](https://weblate.rob006.net/projects/flarum/justoverclock-readmore) | [`justoverclock/flarum-ext-readmore`](https://github.com/justoverclockl/flarum-ext-readmore)|
 | [Realtimecode by Justoverclock](https://weblate.rob006.net/projects/flarum/justoverclock-realtimecode) | [`justoverclock/flarum-ext-realtimecode`](https://github.com/justoverclockl/flarum-ext-realtimecode)|
