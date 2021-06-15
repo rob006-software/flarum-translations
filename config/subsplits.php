@@ -113,6 +113,13 @@ return [
 		'branch' => 'master',
 		'path' => '/locale',
 	],
+	'te' => [
+		'type' => 'language',
+		'language' => 'te',
+		'repository' => 'git@github.com:flarum-lang/telugu.git',
+		'branch' => 'master',
+		'path' => '/locale',
+	],
 	'tr' => [
 		'type' => 'language',
 		'language' => 'tr',
