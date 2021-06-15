@@ -469,6 +469,9 @@ return [
 	'justoverclock-newsletter' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-newsletter/0.1.2/resources/locale/en.yml',
 	],
+	'justoverclock-purify' => [
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-purify/0.1.0/resources/locale/en.yml',
+	],
 	'justoverclock-pwgen' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-pwgen/1.0.0/resources/locale/en.yml',
 	],
