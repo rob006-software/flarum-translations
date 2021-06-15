@@ -48,6 +48,7 @@ return [
 	]),
 	'pl' => getComponents(),
 	'si' => getComponents(),
+	'te' => getComponents(),
 	'tr' => getComponents([
 		// translations included in extension
 		'!the-turk-diff',
