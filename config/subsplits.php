@@ -109,8 +109,8 @@ return [
 	'si' => [
 		'type' => 'language',
 		'language' => 'si',
-		'repository' => 'git@gitlab.com:flarum-sinhala/language-pack.git',
-		'branch' => 'master',
+		'repository' => 'git@github.com:flarum-lang/sinhala.git',
+		'branch' => 'main',
 		'path' => '/locale',
 	],
 	'tr' => [
