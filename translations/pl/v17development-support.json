@@ -15,7 +15,7 @@
             "admin_overview": "Otwórz przegląd administratora",
             "hero": {
                 "help_question": "W czym możemy Ci pomóc?",
-                "check_forum": "Jeśli nie możesz znaleźć, czego szukasz, <a>sprawdź nasze forum</a>"
+                "check_forum": "Jeśli nie możesz znaleźć tego, czego szukasz, <a>sprawdź nasze forum</a>"
             },
             "overview": {
                 "knowledge_base_overview": "Przegląd bazy wiedzy",
@@ -30,7 +30,7 @@
                     "new_article": "Nowy artykuł",
                     "rename_category": "Zmień nazwę kategorii",
                     "edit_description": "Edytuj opis",
-                    "change_icon": "Zmień ikonkę"
+                    "change_icon": "Zmień ikonę"
                 }
             },
             "article_events": {
@@ -82,14 +82,14 @@
                 "helful_article": "Czy ten artykuł był pomocny?",
                 "helful_support": "Czy jesteś zadowolony z tego, jak obsłużyliśmy Twoje zgłoszenie?",
                 "feedback": "Dziękujemy za ocenę, czy masz jakieś uwagi?",
-                "feedback_not_helpful": "Przykro nam, że ten artykuł nie był pomocny, czego szukałeś?",
+                "feedback_not_helpful": "Przykro nam, że ten artykuł nie był pomocny. Czego szukałeś?",
                 "enter_feedback": "Wpisz tutaj swoją opinię",
                 "finished": "Dziękujemy! Twoja opinia została zapisana.",
                 "validation": {
                     "invalid_discussion": "Ups, coś poszło nie tak. Nie możesz ocenić tego artykułu/zgłoszenia.",
                     "guest": "Zaloguj się zanim ocenisz ten artykuł.",
                     "invalid_points": "Nieprawidłowa ocena. Proszę spróbować ponownie.",
-                    "cannot_rate_article": "Nie możesz oceniać tego artykułu.",
+                    "cannot_rate_article": "Nie możesz ocenić tego artykułu.",
                     "neutral_emoji_disabled": "Neutralne emoji zostało wyłączone.",
                     "missing_article_id": "Brakujący lub nieprawidłowy identyfikator artykułu"
                 },
@@ -110,7 +110,7 @@
                     "loading_ratings": "Wczytywanie ocen",
                     "no_ratings_found": "Nie znaleziono ocen spełniających kryteria wyszukiwania",
                     "article_not_rated": "Ten artykuł nie został jeszcze oceniony.",
-                    "confirm_delete_rating": "Czy na pewno chcesz usunąć tę ocenę?",
+                    "confirm_delete_rating": "Czy jesteś pewien, że chcesz usunąć tę ocenę?",
                     "feedback": "Opinia",
                     "rating": "Ocena",
                     "username": "=> core.ref.username",
@@ -120,7 +120,7 @@
             "utils": {
                 "redirect": {
                     "title": "Przekierowywanie do naszego artykułu w bazie wiedzy..",
-                    "link": "<a>Kliknij tutaj</a> jeśli strona nie przekieruje Cię"
+                    "link": "<a>Kliknij tutaj</a>, jeśli strona nie przekieruje Cię automatycznie"
                 }
             },
             "composer": {
@@ -129,7 +129,7 @@
                 "new_article_title": "Tytuł nowego artykułu",
                 "enter_message_here": "Wpisz swoją wiadomość tutaj",
                 "publish_article": "Opublikuj artykuł",
-                "publish_article_hint": "Opublikuj artykuł po zamieszczeniu.",
+                "publish_article_hint": "Opublikuj artykuł po zapisaniu.",
                 "manage_tags": "Zarządzaj tagami",
                 "write": "Tekst",
                 "view": "Podgląd",
@@ -148,7 +148,7 @@
                 "reminders_sent": "{count, plural, one {Wysłano przypomnienie} few {# wysłane przypomnienia} other {# wysłanych przypomnień}}",
                 "convert_to_ticket": {
                     "button": "Konwertuj na zgłoszenie",
-                    "confirm": "Czy na pewno chcesz przekształcić tę dyskusję w zgłoszenie?",
+                    "confirm": "Czy jesteś pewien, chcesz przekształcić tę dyskusję w zgłoszenie?",
                     "event": "Dyskusja {ticket_title} została przekształcona w zgłoszenie"
                 },
                 "status": {
@@ -163,17 +163,17 @@
                     "pending": {
                         "title": "Oczekujące",
                         "description": "To zgłoszenie oczekuje na odpowiedź od użytkownika.",
-                        "description_user": "Czekamy aż odpowiesz lub oznaczysz to zgłoszenie jako rozwiązane."
+                        "description_user": "Czekamy, aż odpowiesz lub oznaczysz to zgłoszenie jako rozwiązane."
                     },
                     "closed": {
                         "title": "Zamknięte",
                         "description": "To zgłoszenie zostało zamknięte.",
-                        "is_closed": "To zgłoszenie jest zamknięte, gdy odpowiesz, zostanie ponownie otwarte. Zalecamy ponowne otwarcie zgłoszenia, gdy problem nie został rozwiązany. Jeśli jest to nowa sprawa, otwórz nowe zgłoszenie.",
+                        "is_closed": "To zgłoszenie jest zamknięte. Gdy odpowiesz, zostanie ponownie otwarte. Zalecamy ponowne otwarcie zgłoszenia, gdy problem nie został rozwiązany. Jeśli jest to nowa sprawa, otwórz nowe zgłoszenie.",
                         "close_after_posting": "Zamknij zgłoszenie po przesłaniu odpowiedzi",
                         "is_auto_closed": "To zgłoszenie zostało zamknięte z powodu braku aktywności."
                     },
                     "on_hold": {
-                        "title": "Na wstrzymaniu",
+                        "title": "Wstrzymane",
                         "description": "To zgłoszenie zostało wstrzymane."
                     },
                     "duplicate": {
@@ -188,7 +188,7 @@
                 },
                 "tools": {
                     "view_ticket": "Zobacz zgłoszenie",
-                    "update_subject": "Zaktualizuj zgłoszenie",
+                    "update_subject": "Zaktualizuj temat",
                     "assign_me": "Przypisz do mnie",
                     "remove_me": "Usuń mnie",
                     "update_status": "Zaktualizuj status zgłoszenia",
@@ -214,7 +214,7 @@
                     },
                     "information": {
                         "title": "Informacje o zgłoszeniu",
-                        "placeholder": "Powiedz nam w czym możemy Ci pomóc"
+                        "placeholder": "Powiedz nam, w czym możemy Ci pomóc"
                     },
                     "status": {
                         "title": "Status",
@@ -228,7 +228,7 @@
                 "compose_ticket": {
                     "title": "Utwórz nowe zgłoszenie",
                     "private_support": "W przypadku pomocy prywatnej możesz użyć tego formularza, aby utworzyć nowe zgłoszenie na naszej platformie. W przypadku innych niż prywatne sprawy odwiedź <a>nasze forum</a>.",
-                    "not_allowed": "Nie możesz otworzyć nowego zgłoszenia obecnie"
+                    "not_allowed": "Obecnie nie możesz otworzyć nowego zgłoszenia"
                 },
                 "load_more": {
                     "title": "Załaduj więcej zgłoszeń"
@@ -249,7 +249,7 @@
         "emails": {
             "replied_to_ticket": {
                 "subject": "{replier_display_name} odpowiedział na Twoje zgłoszenie #{ticket_id}",
-                "body": "Witaj {recipient_display_name},\n\n{replier_display_name} odpowiedział na Twoje zgłoszenie #{ticket_id} (temat '{subject}').\n\nProszę użyj tego linku poniżej, aby zobaczyć odpowiedź:\n{url}\n\nCzekamy na Twoją odpowiedź lub dopóki nie oznaczysz sprawy jako rozwiązaną.\n"
+                "body": "Witaj {recipient_display_name},\n\n{replier_display_name} odpowiedział na Twoje zgłoszenie #{ticket_id} (temat \"{subject}\").\n\nUżyj linku poniżej, aby zobaczyć odpowiedź:\n{url}\n\nCzekamy na Twoją odpowiedź lub dopóki nie oznaczysz sprawy jako rozwiązaną.\n"
             },
             "ticket_status_update": {
                 "subject": "Zgłoszenie #{ticket_id} zmieniło status na {new_status}",
@@ -257,7 +257,7 @@
             },
             "ticket_resolved": {
                 "subject": "Zgłoszenie #{ticket_id} zostało oznaczone jako rozwiązane",
-                "body": "Witaj {recipient_display_name},\n\nTwoje zgłoszenie #{ticket_id} zostało oznaczone jako rozwiązane. Oznacza to, że zostało zamknięte.\n\n Link do Twojego zgłoszenia:\n{url}\n\nJeśli nie zgadzasz się z oznaczeniem swojego zgłoszenia jako rozwiązanego, odpowiedz na zgłoszenie, aby je ponownie otworzyć.\n"
+                "body": "Witaj {recipient_display_name},\n\nTwoje zgłoszenie #{ticket_id} zostało oznaczone jako rozwiązane. Oznacza to, że zostało zamknięte.\n\n Link do Twojego zgłoszenia:\n{url}\n\nJeśli nie zgadzasz się z oznaczeniem swojego zgłoszenia jako rozwiązane, odpowiedz na zgłoszenie, aby je ponownie otworzyć.\n"
             },
             "ticket_pending_reply": {
                 "subject": "Zgłoszenie #{ticket_id} oczekuje na Twoją odpowiedź",
