@@ -586,6 +586,9 @@ return [
 	'nomiscz-auth-wechat' => [
 		'tag' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-wechat/v0.1.4/resources/locale/en.yml',
 	],
+	'nyu8-email-filter' => [
+		'tag' => 'https://raw.githubusercontent.com/nyu8/flarum-email-filter/v1.0.2/locale/en.yml',
+	],
 	'reflar-recache' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/reflar-recache.yml',
 	],
