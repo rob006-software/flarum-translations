@@ -48,6 +48,7 @@ return [
 			'flarum-*',
 		]),
 	],
+	/*
 	'fr-extended' => [
 		'type' => 'language',
 		'language' => 'fr',
@@ -61,6 +62,7 @@ return [
 			'*',
 		]),
 	],
+	*/
 	'it' => [
 		'type' => 'language',
 		'language' => 'it',
