@@ -52,7 +52,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 		</td>
 	</tr>
 	<tr>
-		<td>French (<a href="https://github.com/qiaeru/lang-french">core</a> & <a href="https://github.com/rooaaar/lang-french-extended">extensions</a>)</td>
+		<td><a href="https://github.com/flarum-lang/french">French</a></td>
 		<td><a href="https://github.com/qiaeru">Qiaeru</a>, <a href="https://github.com/Hiobi">Hiobi</a></td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/fr.html" title="Click to see detailed translation status for each extension">
