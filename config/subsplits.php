@@ -9,6 +9,8 @@
  * with this source code in the file LICENSE.
  */
 
+/* @noinspection PhpUnusedAliasInspection */
+
 declare(strict_types=1);
 
 use app\components\release\PolishReleaseGenerator;
@@ -39,30 +41,10 @@ return [
 	'fr' => [
 		'type' => 'language',
 		'language' => 'fr',
-		'repository' => 'git@github.com:qiaeru/lang-french.git',
+		'repository' => 'git@github.com:flarum-lang/french.git',
 		'branch' => 'master',
 		'path' => '/locale',
-		'components' => getComponents([
-			'core',
-			'validation',
-			'flarum-*',
-		]),
 	],
-	/*
-	'fr-extended' => [
-		'type' => 'language',
-		'language' => 'fr',
-		'repository' => 'git@github.com:rooaaar/lang-french-extended.git',
-		'branch' => 'master',
-		'path' => '/locale',
-		'components' => getComponents([
-			'!core',
-			'!validation',
-			'!flarum-*',
-			'*',
-		]),
-	],
-	*/
 	'hi' => [
 		'type' => 'language',
 		'language' => 'hi',
