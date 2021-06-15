@@ -63,6 +63,13 @@ return [
 		]),
 	],
 	*/
+	'hi' => [
+		'type' => 'language',
+		'language' => 'hi',
+		'repository' => 'git@github.com:flarum-lang/hindi.git',
+		'branch' => 'master',
+		'path' => '/locale',
+	],
 	'it' => [
 		'type' => 'language',
 		'language' => 'it',
