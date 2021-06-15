@@ -16,7 +16,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 </thead>
 <tbody>
 	<tr>
-		<td><a href="https://github.com/FFans/lang-simplified-chinese">Chinese (Simplified)</a></td>
+		<td><a href="https://github.com/flarum-lang/chinese-simplified">Chinese (Simplified)</a></td>
 		<td><a href="https://github.com/Littlegolden">Littlegolden</a></td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/zh_Hans.html" title="Click to see detailed translation status for each extension">
