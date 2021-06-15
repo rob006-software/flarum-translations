@@ -115,8 +115,8 @@ This repository contains raw translations data used by [Weblate](https://weblate
 		</td>
 	</tr>
 	<tr>
-		<td><a href="https://gitlab.com/flarum-sinhala/language-pack">Sinhala</a></td>
-		<td><a href="https://gitlab.com/sayuri-">Sayuri</a></td>
+		<td><a href="https://github.com/flarum-lang/sinhala">Sinhala</a></td>
+		<td><a href="https://github.com/sayuri-gi">Sayuri</a></td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/si.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/si/svg-badge.svg" alt="detailed translation status" />
