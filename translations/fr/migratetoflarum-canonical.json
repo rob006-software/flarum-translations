@@ -8,17 +8,17 @@
                     "admin_on_canonical": "Accéder au panel d'administration via le lien canonique",
                     "enable_temporary": "Activer la redirection temporaire et vérifier que tout fonctionne",
                     "enable_permanent": "Activer la redirection permanente",
-                    "suggestions": "",
+                    "suggestions": "Autres suggestions que cette extension n’applique pas ou ne couvre pas",
                     "use_https": "Utiliser un lien canonique HTTPS",
                     "use_hsts": "Utiliser HSTS pour prévenir les attaques par repli"
                 },
                 "field": {
-                    "status": "",
+                    "status": "Type de redirection",
                     "wrong_url": "Les paramètres de l'extension apparaîtront lorsque vous accéderez à votre forum via le lien canonique"
                 },
                 "option": {
                     "disabled": "Désactivé (l'extension ne fera rien)",
-                    "302": "",
+                    "302": "302 (redirection temporaire, pour tester)",
                     "301": "301 (Redirection permanente, pour la mise en place)"
                 }
             }
