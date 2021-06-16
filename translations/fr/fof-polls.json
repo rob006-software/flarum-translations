@@ -41,7 +41,7 @@
             },
             "tooltip": {
                 "badge": "Sondage",
-                "votes": "1 vote|{count} votes"
+                "votes": "{count, plural, one {# vote} other {# votes}}"
             },
             "votes_modal": {
                 "title": "Votants"
