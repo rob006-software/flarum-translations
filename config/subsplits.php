@@ -102,6 +102,13 @@ return [
 		'branch' => 'main',
 		'path' => '/locale',
 	],
+	'ta' => [
+		'type' => 'language',
+		'language' => 'ta',
+		'repository' => 'git@github.com:flarum-lang/tamil.git',
+		'branch' => 'main',
+		'path' => '/locale',
+	],
 	'te' => [
 		'type' => 'language',
 		'language' => 'te',
