@@ -1,8 +1,8 @@
 {
     "fof-ban-ips": {
         "forum": {
-            "ban_ip_button": "",
-            "unban_ip_button": "",
+            "ban_ip_button": "=> fof-ban-ips.ref.ban_ip_button",
+            "unban_ip_button": "=> fof-ban-ips.ref.unban_ip_button",
             "modal": {
                 "ban_options_only_ip": "",
                 "ban_options_all_ip": "",
@@ -12,22 +12,22 @@
                 "banned_tooltip": ""
             },
             "user_controls": {
-                "ban_button": "",
-                "unban_button": ""
+                "ban_button": "=> fof-ban-ips.ref.ban_label",
+                "unban_button": "=> fof-ban-ips.ref.unban_label"
             }
         },
         "admin": {
             "permissions": {
-                "ban_ip_label": "",
+                "ban_ip_label": "=> fof-ban-ips.ref.ban_ip_addresses",
                 "view_banned_ip_list_label": ""
             },
             "page": {
-                "create_button": "",
+                "create_button": "=> fof-ban-ips.ref.ban_ip_button",
                 "creator_label": "",
                 "user_label": "",
-                "address_label": "",
-                "reason_label": "",
-                "date_label": ""
+                "address_label": "=> fof-ban-ips.ref.address_label",
+                "reason_label": "=> fof-ban-ips.ref.reason_label",
+                "date_label": "தேதி"
             },
             "modal": {
                 "update_title": "",
@@ -41,12 +41,12 @@
         },
         "lib": {
             "modal": {
-                "title": "",
-                "unban_title": "",
-                "address_label": "",
-                "reason_label": "",
+                "title": "=> fof-ban-ips.ref.ban_ip_addresses",
+                "unban_title": "=> fof-ban-ips.ref.unban_ip_addresses",
+                "address_label": "=> fof-ban-ips.ref.address_label",
+                "reason_label": "=> fof-ban-ips.ref.reason_label",
                 "check_button": "",
-                "save_button": "",
+                "save_button": "சேமி",
                 "ban_ip_confirmation": "",
                 "ban_ip_users": "",
                 "unban_ip_confirmation": "",
@@ -55,8 +55,8 @@
                 "unban_ip_no_users": "",
                 "unban_ip_users": "",
                 "unbanned_ips": "",
-                "ban_button": "",
-                "unban_button": ""
+                "ban_button": "=> fof-ban-ips.ref.ban_label",
+                "unban_button": "=> fof-ban-ips.ref.unban_label"
             }
         },
         "ref": {
@@ -67,7 +67,7 @@
             "unban_ip_addresses": "",
             "unban_ip_button": "",
             "address_label": "",
-            "reason_label": ""
+            "reason_label": "காரணம்"
         }
     }
 }
