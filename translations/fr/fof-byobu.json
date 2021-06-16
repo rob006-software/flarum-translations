@@ -19,8 +19,8 @@
                 "title_placeholder": "Titre de la discussion privée"
             },
             "labels": {
-                "recipients": "{count} destinataire|{count} destinataires",
-                "user_deleted": "-supprimé-"
+                "recipients": "{count, plural, one {{count} destinataire} other {{count} destinataires}}",
+                "user_deleted": "-supprimé(e)-"
             },
             "nav": {
                 "start_button": "Nouvelle discussion privée",
@@ -40,7 +40,7 @@
                     "add_recipients": "Ajouter des destinataires à votre discussion"
                 },
                 "help": {
-                    "add_recipients": "Cette discussion ne sera visible que par les utilisateurs que vous choisissez ici. Au moins 1 destinataire (autre que vous-même) est requis",
+                    "add_recipients": "Cette discussion ne sera visible que par les utilisateurs que vous choisissez ici. Au moins 1 destinataire (autre que vous-même) est requis.",
                     "update_recipients": "Cette discussion ne sera visible que par les utilisateurs que vous choisissez ici."
                 }
             },
@@ -60,14 +60,14 @@
                 "dropdown_label": "Discussions privées"
             },
             "notifications": {
-                "pd_label": "Quelqu’un m’a inclus dans une discussion privée",
+                "pd_label": "Quelqu’un m’a inclus dans une nouvelle discussion privée",
                 "pd_reply_label": "Quelqu’un a posté dans une discussion privée dont je suis le destinataire",
                 "pd_reply_text": "{username} a posté dans une discussion privée dont vous faites partie",
                 "pd_text": "a démarré une nouvelle discussion privée avec vous",
-                "pd_user_left_label": "Un utilisateur destinataire quitte une discussion privée dont je fais partie",
+                "pd_user_left_label": "Un utilisateur destinataire a quitté une discussion privée dont je fais partie",
                 "pd_user_left_text": "{username} a quitté la discussion privée",
                 "pd_added_text": "{username} vous a ajouté à une discussion privée",
-                "pd_added_label": "Quelqu’un m’ajoute à une discussion privée existante"
+                "pd_added_label": "Quelqu’un m’a ajouté à une discussion privée existante"
             }
         },
         "admin": {
@@ -86,16 +86,16 @@
         },
         "email": {
             "subject": {
-                "private_discussion_created": "[Private Discussion] {display_name} a commencé une nouvelle discussion privée avec vous",
-                "private_discussion_replied": "[Private Discussion] {display_name} a publié dans une discussion privée",
-                "recipient_removed": "[Private Discussion] {display_name} a quitté la discussion",
-                "private_discussion_added": "[Private Discussion] {display_name} vous a ajouté à une discussion privée"
+                "private_discussion_created": "[Discussion privée] {display_name} a commencé une nouvelle discussion privée avec vous",
+                "private_discussion_replied": "[Discussion privée] {display_name} a publié dans une discussion privée",
+                "recipient_removed": "[Discussion privée] {display_name} a quitté la discussion",
+                "private_discussion_added": "[Discussion privée] {display_name} vous a ajouté à une discussion privée"
             },
             "body": {
-                "private_discussion_created": "Hey {recipient_display_name},\n{actor_display_name} a commencé une nouvelle discussion privée avec vous en tant que destinataire, intitulée  '{discussion_title}'.\nRegardez-le ici:\n{discussion_url}\nVous devrez peut-être vous connecter avant de pouvoir accéder à ce lien.\n",
-                "private_discussion_replied": "Hey {recipient_display_name},\n{actor_display_name} a publié dans une discussion privée avec vous en tant que destinataire, intitulée  '{discussion_title}'.\nRegardez-le ici:\n{post_url}\nVous devrez peut-être vous connecter avant de pouvoir accéder à ce lien.\n",
-                "recipient_removed": "Hey {recipient_display_name},\n{actor_display_name} a quitté la discussion privée '{discussion_title}'. Il ne pourra plus voir son contenu.\nRegardez-le ici:\n{discussion_url}\nVous devrez peut-être vous connecter avant de pouvoir accéder à ce lien.\n",
-                "private_discussion_added": "Hey {recipient_display_name},\n{actor_display_name} vous a ajouté à une discussion privée existante, intitulée '{discussion_title}'.\nRegardez-le ici:\n{discussion_url}\nVous devrez peut-être vous connecter avant de pouvoir accéder à ce lien.\n"
+                "private_discussion_created": "Hey {recipient_display_name},\n{actor_display_name} a commencé une nouvelle discussion privée avec vous en tant que destinataire :  '{discussion_title}'.\nRegardez-le ici :\n{discussion_url}\nVous devrez peut-être vous connecter avant de pouvoir accéder à ce lien.\n",
+                "private_discussion_replied": "Hey {recipient_display_name},\n{actor_display_name} a publié dans une discussion privée avec vous en tant que destinataire :  '{discussion_title}'.\nRegardez-le ici :\n{post_url}\nVous devrez peut-être vous connecter avant de pouvoir accéder à ce lien.\n",
+                "recipient_removed": "Hey {recipient_display_name},\n{actor_display_name} a quitté la discussion privée : {discussion_title}. Il ne pourra plus voir son contenu.\nRegardez-le ici :\n{discussion_url}\nVous devrez peut-être vous connecter avant de pouvoir accéder à ce lien.\n",
+                "private_discussion_added": "Hey {recipient_display_name},\n{actor_display_name} vous a ajouté à une discussion privée existante : {discussion_title}.\nRegardez-le ici :\n{discussion_url}\nVous devrez peut-être vous connecter avant de pouvoir accéder à ce lien.\n"
             }
         }
     }
