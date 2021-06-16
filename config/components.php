@@ -175,6 +175,9 @@ return [
 	'dem13n-topic-starter-label' => [
 		'tag' => 'https://raw.githubusercontent.com/Dem13n/topic-starter-label/0.1.5/locale/en.yml',
 	],
+	'dursun-can-poyraz-pallet-theme' => [
+		'tag' => 'https://raw.githubusercontent.com/DursunCanPoyraz/flarum-pallet-theme/0.1.0-beta.2/locale/en.yml',
+	],
 	'ffans-clipboardjs' => [
 		'tag' => 'https://raw.githubusercontent.com/FFans/clipboardjs/v0.1.0-beta.16.1/resources/locale/en.yml',
 	],
