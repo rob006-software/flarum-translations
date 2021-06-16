@@ -10,11 +10,11 @@
         "emails": {
             "post_warned": {
                 "subject": "{warner_display_name} vous a envoyé {strikes, plural, one {# avertissement} other {# avertissements}} dans {discussion_title}",
-                "body": "Bonjour {warnee_display_name} !\n\n{warner_display_name} vous a envoyé {strikes, plural, one {# avertissement} other {# avertissements}} dans {discussion_title}\n\nLa raison suivante a été invoquée :\n\n---\n\n{public_comment}"
+                "body": "Bonjour {warnee_display_name} !\n\n{warner_display_name} vous a envoyé {strikes, plural, one {# avertissement} other {# avertissements}} dans {discussion_title}\n\nLa raison suivante a été invoquée :\n\n---\n\n{public_comment}\n"
             },
             "user_warned": {
                 "subject": "{warner_display_name} vous a envoyé {strikes, plural, one {# avertissement} other {# avertissements}}",
-                "body": "Bonjour {warnee_display_name} !\n\n{warner_display_name} vous a envoyé {strikes, plural, one {# avertissement} other {# avertissements}}\n\nLa raison suivante a été invoquée :\n\n---\n\n{public_comment}"
+                "body": "Bonjour {warnee_display_name} !\n\n{warner_display_name} vous a envoyé {strikes, plural, one {# strike} other {# strike}}\n\nLa raison suivante a été invoquée :\n\n---\n\n{public_comment}\n"
             }
         },
         "forum": {
