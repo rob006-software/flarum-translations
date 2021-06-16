@@ -7,16 +7,16 @@
         },
         "forum": {
             "notifications": {
-                "others_text": "",
+                "others_text": "=> core.ref.some_others",
                 "post_liked_text": ""
             },
             "post": {
                 "like_link": "",
                 "liked_by_self_text": "",
                 "liked_by_text": "",
-                "others_link": "",
+                "others_link": "=> core.ref.some_others",
                 "unlike_link": "",
-                "you_text": ""
+                "you_text": "=> core.ref.you"
             },
             "post_likes": {
                 "title": ""
