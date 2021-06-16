@@ -22,6 +22,9 @@ return [
 		'https://raw.githubusercontent.com/flarum/core/master/locale/validation.yml',
 	],
 	/* extensions list begin */
+	'2006bt-login2seeplus' => [
+		'tag' => 'https://raw.githubusercontent.com/2006bt/flarum-ext-login2seeplus/v0.2.0/locale/en.yml',
+	],
 	'amaurycarrade-syndication' => [
 		'tag' => 'https://raw.githubusercontent.com/AmauryCarrade/flarum-ext-syndication/v0.3.1/resources/locale/en.yml',
 	],
