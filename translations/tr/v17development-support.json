@@ -265,7 +265,7 @@
             },
             "ticket_pending_reply_closed": {
                 "subject": "#{ticket_id} numaralı bilet, hareketsizlik nedeniyle kapatıldı",
-                "body": "Sayın {recipient_display_name},\n\nKısa süre önce {replier_display_name}, #{ticket_id} numaralı biletinize yanıt verdi. Maalesef sizden bir cevap alamadık. Etkinlik olmaması nedeniyle biletiniz otomatik olarak kapatıldı.\n\nYine de yanıtlamak istiyorsanız, biletinizin URL'si:\n{url}"
+                "body": "Sayın {recipient_display_name},\n\nKısa süre önce {replier_display_name}, #{ticket_id} numaralı biletinize yanıt verdi. Maalesef sizden bir cevap alamadık. Etkinlik olmaması nedeniyle biletiniz otomatik olarak kapatıldı.\n\nYine de yanıtlamak istiyorsanız, biletinizin URL'si:\n{url}\n"
             }
         }
     }
