@@ -11,16 +11,16 @@
                 "only_option": "Utiliser SAML2 SSO comme seule option de connexion ?",
                 "sync_attributes": "Attributs de synchronisation (avatar, groupes, biographie et profil) ? Nécessite l’extension askvortsov / auth-sync.",
                 "nameid_format": "Format NameID",
-                "slo": "",
-                "authn_requests_signed": "",
-                "logout_request_signed": "",
-                "logout_response_signed": "",
-                "sign_metadata": "",
-                "want_assertions_encrypted": "",
+                "slo": "Activer SLO ? Si votre IDP ne prend pas en charge cette fonction, cela ne servira à rien.",
+                "authn_requests_signed": "Signer les requêtes d’autorisation ?",
+                "logout_request_signed": "Signer les requêtes de déconnexion ?",
+                "logout_response_signed": "Signer les réponses de déconnexion ?",
+                "sign_metadata": "Signer les métadonnées ?",
+                "want_assertions_encrypted": "Voulez-vous que les assertions soient chiffrées ?",
                 "want_assertions_signed": "Voulez-vous que les assertions soient signées ?",
                 "want_messages_signed": "Voulez- vous que les messages soient signés ?",
-                "x509_cert": "",
-                "x509_key": ""
+                "x509_cert": "Certificat x509 (nécessaire pour la signature, si activée)",
+                "x509_key": "Clé privée x509 (nécessaire pour la signature, si activée)"
             },
             "options": {
                 "nameid_format": {
