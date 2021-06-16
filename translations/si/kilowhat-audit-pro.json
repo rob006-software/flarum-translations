@@ -5,8 +5,8 @@
                 "view": ""
             },
             "header": {
-                "title": "",
-                "free": "",
+                "title": "විගණනය",
+                "free": "නොමිලේ",
                 "pro": "",
                 "upgrade": ""
             }
@@ -26,33 +26,33 @@
         "lib": {
             "browser": {
                 "filterPlaceholder": "",
-                "filterApply": "",
-                "empty": "",
-                "loadMore": "",
-                "withoutActor": "",
+                "filterApply": "යොදන්න",
+                "empty": "ප්‍රතිඵල නැත",
+                "loadMore": "තව පූරනය කරන්න",
+                "withoutActor": "=> core.group.guest",
                 "deletedResource": {
-                    "discussion": "",
-                    "group": "",
+                    "discussion": "සාකච්ඡාව #{id}",
+                    "group": "සමූහය #{id}",
                     "post": "",
                     "tag": "",
-                    "user": ""
+                    "user": "පරිශීලක #{id}"
                 },
                 "genericResource": {
-                    "comment": "",
+                    "comment": "සටහන",
                     "post": ""
                 },
                 "permissionGroup": {
-                    "everyone": "",
-                    "members": ""
+                    "everyone": "=> core.admin.permissions_controls.everyone_button",
+                    "members": "=> core.admin.permissions_controls.members_button"
                 },
-                "noValue": "",
-                "noReason": "",
+                "noValue": "(අගයක් නැත)",
+                "noReason": "(හේතුවක් නැත)",
                 "client": {
                     "session": "",
-                    "api_key": "",
+                    "api_key": "යෙ.ක්‍ර. අ.මු. (API) යතුර",
                     "access_token": "",
                     "cli": "",
-                    "unknown": ""
+                    "unknown": "නොදන්නා අනුග්‍රාහකයෙකි"
                 },
                 "controls": {
                     "hideRaw": "",
@@ -64,10 +64,10 @@
                     "filterUser": "",
                     "filterDiscussion": ""
                 },
-                "cache_cleared": "",
+                "cache_cleared": "නිහිතය අතින් හිස්කරන ලදි",
                 "discussion": {
-                    "created": "",
-                    "create_date_changed": "",
+                    "created": "ආරම්භ කළ සාකච්ඡාව {discussion}",
+                    "create_date_changed": "{discussion} ආරම්භක දිනය {old_date} සිට {new_date} දක්වා වෙනස් කරන ලදි",
                     "deleted": "",
                     "hidden": "",
                     "locked": "",
