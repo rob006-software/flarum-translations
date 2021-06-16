@@ -2,7 +2,7 @@
     "askvortsov-rich-text": {
         "admin": {
             "settings": {
-                "toggle_on_editor": "Afficher l'onglet du mode texte enrichi dans l'éditeur ?"
+                "toggle_on_editor": "Afficher l’onglet du mode texte enrichi dans l’éditeur ?"
             }
         },
         "lib": {
@@ -15,24 +15,24 @@
                 },
                 "insert_link": {
                     "text_placeholder": "Texte",
-                    "href_placeholder": "Lien",
-                    "title_placeholder": "Titre (s'affiche au survol)",
-                    "remove_button": "Enlever"
+                    "href_placeholder": "URL",
+                    "title_placeholder": "Titre (s’affiche au survol)",
+                    "remove_button": "Supprimer"
                 },
-                "additional_items_tooltip": "Contrôles additionnels",
+                "additional_items_tooltip": "Contrôles supplémentaires",
                 "bold_tooltip": "Texte en gras <{modifierKey}-b>",
-                "code_tooltip": "Code en ligne <{modifierKey}-`>",
+                "code_tooltip": "Code intégré <{modifierKey}-`>",
                 "code_block_tooltip": "Insérer un bloc de code",
-                "header_tooltip": "Passer à l'en-tête le {level} <shift-{modifierKey}-{level}>",
+                "header_tooltip": "Passer à l’en-tête {level} <shift-{modifierKey}-{level}>",
                 "horizontal_rule_tooltip": "Insérer une règle horizontale",
                 "image_tooltip": "Ajouter une image",
                 "italic_tooltip": "Texte en italique  <{modifierKey}-i>",
                 "link_tooltip": "Ajouter un lien",
-                "ordered_list_tooltip": "Liste numéraire <shift-{modifierKey}-9>",
+                "ordered_list_tooltip": "Liste numérotée <shift-{modifierKey}-9>",
                 "paragraph_tooltip": "Changer de paragraphe <shift-{modifierKey}-0>",
                 "quote_tooltip": "Insérer une citation <{modifierKey}-q>",
-                "spoiler_block_tooltip": "Bloc caché / Menu déroulant",
-                "spoiler_inline_tooltip": "Caché  <{modifierKey}-;>",
+                "spoiler_block_tooltip": "Bloc spoiler / Menu déroulant",
+                "spoiler_inline_tooltip": "Spoiler <{modifierKey}-;>",
                 "strike_tooltip": "Barré <alt-shift-5>",
                 "sub_tooltip": "Indice <{modifierKey}-,>",
                 "sup_tooltip": "Exposant <{modifierKey}-.>",
@@ -43,7 +43,7 @@
         "forum": {
             "settings": {
                 "composer_heading": "Compositeur",
-                "use_rich_text_editor_label": "Utiliser l'éditeur de texte enrichi ?",
+                "use_rich_text_editor_label": "Utiliser l’éditeur de texte enrichi ?",
                 "rich_text_compact_paragraphs_label": "Ne pas séparer les paragraphes avec une nouvelle ligne."
             }
         }
