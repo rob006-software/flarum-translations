@@ -14,7 +14,7 @@
                 "merge": "=> fof-merge-discussions.ref.merge"
             },
             "post": {
-                "merged": "Fusion de <b>{count}</b> messages de {titles}.|Fusion de <b>{count}</b> messages de {titles}."
+                "merged": "{count, plural, one {Fusion de <b>#</b> messages de {titles}.} other {Fusion de <b>#</b> messages de {titles}.}}"
             }
         },
         "admin": {
