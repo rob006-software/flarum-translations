@@ -383,6 +383,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [Profile Cover by Sycho](https://weblate.rob006.net/projects/flarum/sycho-profile-cover) | [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover)|
 | [Perspective by Tank](https://weblate.rob006.net/projects/flarum/tank-perspective) | [`tank/perspective`](https://github.com/flarum-tank/flarum-perspective)|
 | [FancyBox by The turk](https://weblate.rob006.net/projects/flarum/the-turk-fancybox) | [`the-turk/flarum-ext-fancybox`](https://github.com/the-turk/flarum-ext-fancybox)|
+| [Pallet Theme by The turk](https://weblate.rob006.net/projects/flarum/the-turk-pallet-theme) | [`the-turk/flarum-pallet-theme`](https://github.com/the-turk/flarum-pallet-theme)|
 | [Stargazing Theme by The turk](https://weblate.rob006.net/projects/flarum/the-turk-stargazing-theme) | [`the-turk/flarum-stargazing-theme`](https://github.com/the-turk/flarum-stargazing-theme)|
 | [GIFs by Therealsujitk](https://weblate.rob006.net/projects/flarum/therealsujitk-gifs) | [`therealsujitk/flarum-ext-gifs`](https://github.com/therealsujitk/flarum-ext-gifs)|
 | [highlight.js by Therealsujitk](https://weblate.rob006.net/projects/flarum/therealsujitk-hljs) | [`therealsujitk/flarum-ext-hljs`](https://github.com/therealsujitk/flarum-ext-hljs)|
