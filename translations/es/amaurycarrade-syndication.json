@@ -2,40 +2,40 @@
     "amaurycarrade-syndication": {
         "forum": {
             "autodiscovery": {
-                "forum_activity": "",
-                "forum_new_discussions": "",
-                "tag_activity": "",
-                "tag_new_discussions": "",
-                "discussion_last_posts": ""
+                "forum_activity": "Actividad del foro",
+                "forum_new_discussions": "Nuevas discusiones del foro",
+                "tag_activity": "Actividad para la etiqueta {tag}",
+                "tag_new_discussions": "Discusiones en la etiqueta {tag}",
+                "discussion_last_posts": "Esta discusión"
             },
             "feeds": {
                 "titles": {
-                    "main_title": "",
-                    "main_subtitle": "",
-                    "main_d_title": "",
-                    "main_d_subtitle": "",
-                    "tag_title": "",
-                    "tag_subtitle": "",
-                    "tag_d_title": "",
-                    "tag_d_subtitle": "",
-                    "discussion_title": "",
-                    "discussion_subtitle": ""
+                    "main_title": "{forum_name}",
+                    "main_subtitle": "Últimos mensajes en el foro",
+                    "main_d_title": "Nuevas discusiones en {forum_name}",
+                    "main_d_subtitle": "Las discusiones más recientes del foro",
+                    "tag_title": "Actividad en la etiqueta {tag}",
+                    "tag_subtitle": "Últimos mensajes en la etiqueta {tag}",
+                    "tag_d_title": "Nuevas discusiones en la etiqueta {tag}",
+                    "tag_d_subtitle": "Las discusiones más recientes en la etiqueta {tag}",
+                    "discussion_title": "{discussion_name}",
+                    "discussion_subtitle": "Últimos mensajes en esta discusión"
                 }
             }
         },
         "admin": {
             "settings": {
-                "title": "",
+                "title": "Configuración de Syndication",
                 "full-text": {
-                    "label": "",
-                    "help": "",
-                    "recommendation": ""
+                    "label": "Full-Text Feeds",
+                    "help": "Si se desactiva, los feeds sólo contendrán extractos de los mensajes, y los usuarios tendrán que ir al foro para leer todo.",
+                    "recommendation": "Se recomienda dejar esta opción activa para respetar a las personas que siguen el foro desde un agregador RSS, si es que lo hay."
                 },
                 "html": {
-                    "label": "",
-                    "help": ""
+                    "label": "Feeds con formato",
+                    "help": "Marque esta opción para mantener el HTML en los feeds generados. Si se desactiva, los feeds estarán en texto plano."
                 },
-                "entries-count": ""
+                "entries-count": "¿Cuántas entradas por feed?"
             }
         }
     }
