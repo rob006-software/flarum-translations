@@ -373,6 +373,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [NomisCZ WeChat Login by Nomiscz](https://weblate.rob006.net/projects/flarum/nomiscz-auth-wechat) | [`nomiscz/flarum-ext-auth-wechat`](https://github.com/NomisCZ/flarum-ext-auth-wechat)|
 | [Email Filter by Nyu8](https://weblate.rob006.net/projects/flarum/nyu8-email-filter) | [`nyu8/flarum-email-filter`](https://github.com/nyu8/flarum-email-filter)|
 | [Google Login by Saleksin](https://weblate.rob006.net/projects/flarum/saleksin-auth-google) | [`saleksin/flarum-auth-google`](https://github.com/saleksin/flarum-auth-google)|
+| [Discord Theme by Serakoi](https://weblate.rob006.net/projects/flarum/serakoi-flarumdiscordtheme) | [`serakoi/flarumdiscordtheme`](https://github.com/Serakoi/flarum-discord-theme-2)|
 | [Personal Pronouns by Shriker](https://weblate.rob006.net/projects/flarum/shriker-pronouns) | [`shriker/flarum-pronouns`](https://github.com/shriker/flarum-pronouns)|
 | [Follow Users by Simonxeko](https://weblate.rob006.net/projects/flarum/simonxeko-follow-users) | [`simonxeko/follow-users`](https://github.com/simonxeko/follow-users)|
 | [Preview Discussion by Simonxeko](https://weblate.rob006.net/projects/flarum/simonxeko-preview-discussion) | [`simonxeko/preview-discussion`](https://github.com/simonxeko/flarum-ext-preview-discussion)|
