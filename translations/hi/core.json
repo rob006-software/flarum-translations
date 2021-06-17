@@ -2,55 +2,55 @@
     "core": {
         "admin": {
             "appearance": {
-                "colored_header_label": "",
-                "colors_heading": "",
-                "colors_text": "",
-                "custom_footer_heading": "",
-                "custom_footer_text": "",
-                "custom_header_heading": "",
+                "colored_header_label": "रंगीन शीर्ष लेख",
+                "colors_heading": "रंग",
+                "colors_text": "अपने फ़ोरम को तीम देने के लिए दो रंग चुनें। पहले का उपयोग प्रकाशित रंग के रूप में किया जाएगा, जबकि दूसरे का उपयोग पीछे के क्षेत्रों में रंग बरने के लिए किया जाएगा।",
+                "custom_footer_heading": "विशेष पाद लेख",
+                "custom_footer_text": "=> core.ref.custom_footer_text",
+                "custom_header_heading": "विशेष शीर्ष लेख",
                 "custom_header_text": "",
-                "custom_styles_heading": "",
+                "custom_styles_heading": "विशेष कपडे",
                 "custom_styles_text": "",
-                "dark_mode_label": "",
+                "dark_mode_label": "काला रूप",
                 "description": "",
-                "edit_css_button": "",
+                "edit_css_button": "विशेष सीइसइस को बदले",
                 "edit_footer_button": "",
                 "edit_header_button": "",
-                "enter_hex_message": "",
-                "favicon_heading": "",
-                "favicon_text": "",
-                "logo_heading": "",
-                "logo_text": "",
-                "title": ""
+                "enter_hex_message": "कृपया एक हेक्साडेसिमल रंग कोड दर्ज करें।",
+                "favicon_heading": "फेविकोण",
+                "favicon_text": "फ़ोरम के शॉर्टकट आइकन के रूप में प्रदर्शित होने के लिए एक छवि अपलोड करें।",
+                "logo_heading": "लोगो",
+                "logo_text": "फ़ोरम शीर्षक के स्थान पर प्रदर्शित होने वाली छवि अपलोड करें।",
+                "title": "रूप"
             },
             "basics": {
                 "all_discussions_label": "",
-                "default_language_heading": "",
-                "description": "",
-                "display_name_heading": "",
+                "default_language_heading": "प्रधम भाषा",
+                "description": "अपना फ़ोरम शीर्षक, भाषा और अन्य मूलभूत दर्ज करें|",
+                "display_name_heading": "उपयोगकर्ता प्रदर्शन नाम",
                 "display_name_text": "",
-                "forum_description_heading": "",
+                "forum_description_heading": "फोरम विवरण",
                 "forum_description_text": "",
-                "forum_title_heading": "",
-                "home_page_heading": "",
-                "home_page_text": "",
-                "show_language_selector_label": "",
-                "slug_driver_heading": "",
+                "forum_title_heading": "फोरम शीर्षक",
+                "home_page_heading": "प्रधम पन्ना",
+                "home_page_text": "वह पन्ना चुनें जिसे उपयोगकर्ता आपके फ़ोरम पर आने पर सबसे पहले देखेंगे।",
+                "show_language_selector_label": "भाषा चयनकर्ता दिखाएं",
+                "slug_driver_heading": "स्लग ड्राइवर: {मॉडल}",
                 "slug_driver_text": "",
-                "title": "",
-                "welcome_banner_heading": "",
+                "title": "मूल बातें",
+                "welcome_banner_heading": "स्वागत बैनर",
                 "welcome_banner_text": ""
             },
             "dashboard": {
-                "clear_cache_button": "",
-                "description": "",
-                "title": "",
-                "tools_button": ""
+                "clear_cache_button": "कैश को साफ़ करें",
+                "description": "आपका मंच एक नजर में।",
+                "title": "नियंत्रण पन्ना",
+                "tools_button": "उपकरण"
             },
             "edit_css": {
                 "customize_text": "",
                 "submit_button": "",
-                "title": ""
+                "title": "विशेष सीइसइस को बदले"
             },
             "edit_footer": {
                 "customize_text": "",
@@ -59,16 +59,16 @@
             },
             "edit_group": {
                 "color_label": "",
-                "delete_button": "",
-                "delete_confirmation": "",
-                "hide_label": "",
+                "delete_button": "समूह हटाएं",
+                "delete_confirmation": "क्या आप वाकई इस समूह को हटाना चाहते हैं? समूह के सदस्यों को हटाया नहीं जाएगा।",
+                "hide_label": "मंच पर छुपाएं",
                 "icon_label": "",
                 "icon_text": "",
-                "name_label": "",
-                "plural_placeholder": "",
-                "singular_placeholder": "",
+                "name_label": "नाम",
+                "plural_placeholder": "बहुवचन (जैसे कि मॉडस)",
+                "singular_placeholder": "एकवचन (जैसे मॉड)",
                 "submit_button": "",
-                "title": ""
+                "title": "समूह बनाएँ"
             },
             "edit_header": {
                 "customize_text": "",
@@ -76,54 +76,54 @@
                 "title": ""
             },
             "email": {
-                "addresses_heading": "",
+                "addresses_heading": "पतों",
                 "description": "",
-                "driver_heading": "",
+                "driver_heading": "ड्राइवर चुने",
                 "driver_label": "",
-                "from_label": "",
-                "mail_encryption_label": "",
-                "mail_host_label": "",
-                "mail_mailgun_domain_label": "",
-                "mail_mailgun_region_label": "",
-                "mail_mailgun_secret_label": "",
+                "from_label": "प्रेषक",
+                "mail_encryption_label": "एन्क्रिप्शन",
+                "mail_host_label": "मेज़बान",
+                "mail_mailgun_domain_label": "डोमेन",
+                "mail_mailgun_region_label": "क्षेत्र",
+                "mail_mailgun_secret_label": "गुप्त कुंजी",
                 "mail_password_label": "",
-                "mail_port_label": "",
+                "mail_port_label": "द्वार",
                 "mail_username_label": "",
-                "mailgun_heading": "",
+                "mailgun_heading": "मेलगन सेटिंग्स",
                 "not_sending_message": "",
-                "send_test_mail_button": "",
-                "send_test_mail_heading": "",
-                "send_test_mail_success": "",
+                "send_test_mail_button": "भेजें",
+                "send_test_mail_heading": "टेस्ट मेल भेजें",
+                "send_test_mail_success": "परीक्षण मेल सफलतापूर्वक भेजा गया!",
                 "send_test_mail_text": "",
-                "smtp_heading": "",
+                "smtp_heading": "एसएमटीपी सेटिंग्स",
                 "title": ""
             },
             "extension": {
                 "configure_scopes": "",
                 "confirm_uninstall": "",
-                "disabled": "",
+                "disabled": "अक्षम",
                 "enable_to_see": "",
-                "enabled": "",
+                "enabled": "सक्रिय",
                 "info_links": {
-                    "discuss": "",
+                    "discuss": "चर्चा",
                     "documentation": "",
-                    "donate": "",
-                    "source": "",
-                    "support": "",
-                    "website": ""
+                    "donate": "दान करना",
+                    "source": "स्रोत",
+                    "support": "समर्थन",
+                    "website": "वेबसाइट"
                 },
-                "no_permissions": "",
-                "no_settings": "",
-                "open_modal": "",
-                "permissions_title": "",
-                "uninstall_button": ""
+                "no_permissions": "हम इस एक्सटेंशन की कोई अनुमति नहीं चाहिए|",
+                "no_settings": "इस एक्सटेंशन की कोई सेटिंग नहीं है।",
+                "open_modal": "सेटिंग्स खोलें",
+                "permissions_title": "अनुमतियां",
+                "uninstall_button": "स्थापना रद्द करें"
             },
             "header": {
-                "get_help": "",
+                "get_help": "मदद लें",
                 "log_out_button": ""
             },
             "loading": {
-                "title": ""
+                "title": "कृपया प्रतीक्षा करें..."
             },
             "nav": {
                 "appearance_button": "",
@@ -131,15 +131,15 @@
                 "basics_button": "",
                 "basics_title": "",
                 "categories": {
-                    "authentication": "",
-                    "core": "",
-                    "discussion": "",
-                    "feature": "",
-                    "formatting": "",
-                    "language": "",
-                    "moderation": "",
-                    "other": "",
-                    "theme": ""
+                    "authentication": "प्रमाणीकरण",
+                    "core": "कोर विन्यास",
+                    "discussion": "विचार-विमर्श",
+                    "feature": "विशेषताएं",
+                    "formatting": "स्वरूपण",
+                    "language": "भाषाई",
+                    "moderation": "चर्चा नियंत्रण",
+                    "other": "अन्य एक्सटेंशन",
+                    "theme": "अन्य रूप"
                 },
                 "dashboard_button": "",
                 "dashboard_title": "",
@@ -149,94 +149,94 @@
                 "permissions_title": "",
                 "userlist_button": "",
                 "userlist_title": "",
-                "search_placeholder": ""
+                "search_placeholder": "एक्सटेंशन खोजे"
             },
             "permissions": {
-                "allow_post_editing_label": "",
-                "allow_renaming_label": "",
-                "create_heading": "",
-                "delete_discussions_forever_label": "",
-                "delete_discussions_label": "",
-                "delete_posts_forever_label": "",
-                "delete_posts_label": "",
-                "description": "",
-                "edit_posts_label": "",
-                "edit_users_label": "",
-                "edit_users_credentials_label": "",
-                "edit_users_groups_label": "",
-                "global_heading": "",
-                "moderate_heading": "",
-                "new_group_button": "",
-                "participate_heading": "",
-                "post_without_throttle_label": "",
-                "read_heading": "",
-                "rename_discussions_label": "",
-                "reply_to_discussions_label": "",
-                "search_users_label": "",
-                "sign_up_label": "",
-                "start_discussions_label": "",
-                "title": "",
-                "view_forum_label": "",
-                "view_hidden_groups_label": "",
-                "view_last_seen_at_label": "",
-                "view_post_ips_label": ""
+                "allow_post_editing_label": "पोस्ट संपादन की अनुमति दें",
+                "allow_renaming_label": "नाम बदलने की अनुमति दें",
+                "create_heading": "बनाये",
+                "delete_discussions_forever_label": "चर्चाओं को हमेशा के लिए हटाएं",
+                "delete_discussions_label": "चर्चा हटाएं",
+                "delete_posts_forever_label": "पोस्टें  हमेशा के लिए हटाएं",
+                "delete_posts_label": "पोस्टें  हटाएं",
+                "description": "कॉन्फ़िगर करें कि कौन देख सकता है और क्या कर सकता है।",
+                "edit_posts_label": "पोस्ट संपादित करें",
+                "edit_users_label": "उपयोगकर्ता विशेषताओं को संपादित करें",
+                "edit_users_credentials_label": "उपयोगकर्ता विशेषण संपादित करें",
+                "edit_users_groups_label": "उपयोगकर्ता समूह संपादित करें",
+                "global_heading": "वैश्विक",
+                "moderate_heading": "नियंत्रण करे",
+                "new_group_button": "नया समूह",
+                "participate_heading": "भाग लेना",
+                "post_without_throttle_label": "प्रतीक्षा किए बिना कई बार उत्तर दें",
+                "read_heading": "पढ़ना",
+                "rename_discussions_label": "चर्चाओं का नाम बदलें",
+                "reply_to_discussions_label": "चर्चाओं का उत्तर दें",
+                "search_users_label": "उपयोगकर्ता खोजें",
+                "sign_up_label": "साइन अप करें",
+                "start_discussions_label": "चर्चा शुरू करें",
+                "title": "अनुमतियां",
+                "view_forum_label": "फ़ोरम देखें (चर्चाएँ और उपयोगकर्ता)",
+                "view_hidden_groups_label": "छिपे हुए समूह बेडज देखें",
+                "view_last_seen_at_label": "उपयोगकर्ता को हमेशा अंतिम बार देखे जाने का समय देखें",
+                "view_post_ips_label": "पोस्ट आईपी पते देखें"
             },
             "permissions_controls": {
-                "allow_indefinitely_button": "",
+                "allow_indefinitely_button": "अनिश्चित काल के लिए",
                 "allow_some_minutes_button": "",
-                "allow_ten_minutes_button": "",
-                "allow_until_reply_button": "",
-                "everyone_button": "",
+                "allow_ten_minutes_button": "10 मिनट के लिए",
+                "allow_until_reply_button": "अगले उत्तर तक",
+                "everyone_button": "सब लोग",
                 "members_button": "",
-                "signup_closed_button": "",
-                "signup_open_button": ""
+                "signup_closed_button": "बंद है",
+                "signup_open_button": "खुला है"
             },
             "settings": {
-                "saved_message": "",
+                "saved_message": "आपके परिवर्तन सहेजे गए थे।",
                 "submit_button": ""
             },
             "upload_image": {
                 "remove_button": "",
-                "upload_button": ""
+                "upload_button": "एक छवि चुनें..."
             },
             "users": {
-                "description": "",
+                "description": "आपके फ़ोरम के सभी उपयोगकर्ताओं की पृष्ठांकित सूची।",
                 "grid": {
                     "columns": {
                         "edit_user": {
                             "button": "",
                             "title": "",
-                            "tooltip": ""
+                            "tooltip": "{उपयोगकर्ता नाम} संपादित करें"
                         },
                         "email": {
                             "title": "",
-                            "visibility_hide": "",
-                            "visibility_show": ""
+                            "visibility_hide": "ईमेल पता छुपाएं",
+                            "visibility_show": "ईमेल पता दिखाएं"
                         },
                         "group_badges": {
-                            "no_badges": "",
-                            "title": ""
+                            "no_badges": "कुछ नहीं",
+                            "title": "समूहों"
                         },
                         "join_time": {
-                            "title": ""
+                            "title": "में शामिल हो गए"
                         },
                         "user_id": {
-                            "title": ""
+                            "title": "ईडी"
                         },
                         "username": {
-                            "profile_link_tooltip": "",
+                            "profile_link_tooltip": "{username} की प्रोफ़ाइल पर जाएं",
                             "title": ""
                         }
                     },
-                    "invalid_column_content": ""
+                    "invalid_column_content": "अमान्य"
                 },
                 "pagination": {
-                    "back_button": "",
-                    "next_button": "",
-                    "page_counter": ""
+                    "back_button": "पिछला पन्ना",
+                    "next_button": "अगला पन्ना",
+                    "page_counter": "{total} का पन्ना {current}"
                 },
                 "title": "",
-                "total_users": ""
+                "total_users": "कुल उपयोगकर्ता: {count}"
             }
         },
         "forum": {
@@ -244,28 +244,28 @@
                 "confirm_password_placeholder": "",
                 "confirmation_message": "",
                 "dismiss_button": "",
-                "incorrect_password_message": "",
+                "incorrect_password_message": "आपके द्वारा दर्ज किया गया पासवर्ड गलत है।",
                 "submit_button": "",
                 "title": ""
             },
             "change_password": {
-                "send_button": "",
-                "text": "",
+                "send_button": "पासवर्ड बदलने का ईमेल भेजें",
+                "text": "नीचे दिए गए बटन पर क्लिक करें और अपना पासवर्ड बदलने के लिए लिंक के लिए अपना ईमेल देखें।",
                 "title": ""
             },
             "composer": {
-                "close_tooltip": "",
-                "exit_full_screen_tooltip": "",
-                "full_screen_tooltip": "",
-                "minimize_tooltip": "",
-                "preview_tooltip": ""
+                "close_tooltip": "बंद करे",
+                "exit_full_screen_tooltip": "पूर्ण स्क्रीन से बाहर निकलें",
+                "full_screen_tooltip": "पूर्ण स्क्रीन",
+                "minimize_tooltip": "छोटा करना",
+                "preview_tooltip": "पूर्वावलोकन"
             },
             "composer_discussion": {
-                "body_placeholder": "",
-                "discard_confirmation": "",
-                "submit_button": "",
+                "body_placeholder": "पोस्ट लिखें...",
+                "discard_confirmation": "आपने अपनी चर्चा पोस्ट नहीं की है। क्या आप इसे त्यागना चाहते हैं?",
+                "submit_button": "चर्चा पोस्ट करें",
                 "title": "",
-                "title_placeholder": ""
+                "title_placeholder": "चर्चा शीर्षक"
             },
             "composer_edit": {
                 "discard_confirmation": "",
