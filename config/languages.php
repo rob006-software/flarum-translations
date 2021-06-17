@@ -58,6 +58,7 @@ return [
 		'!the-turk-fancybox',
 		'!the-turk-mathren',
 		'!the-turk-password-strength',
+		'!the-turk-pallet-theme', 
 		'!glowingblue-password-strength',
 		'!the-turk-quiet-edits',
 		'!the-turk-regrole',
