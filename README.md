@@ -371,6 +371,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [Tags Color Generator by Nearata](https://weblate.rob006.net/projects/flarum/nearata-tags-color-generator) | [`nearata/flarum-ext-tags-color-generator`](https://github.com/Nearata/flarum-ext-tags-color-generator)|
 | [NomisCZ Steam Login by Nomiscz](https://weblate.rob006.net/projects/flarum/nomiscz-auth-steam) | [`nomiscz/flarum-ext-auth-steam`](https://github.com/NomisCZ/flarum-ext-auth-steam)|
 | [NomisCZ WeChat Login by Nomiscz](https://weblate.rob006.net/projects/flarum/nomiscz-auth-wechat) | [`nomiscz/flarum-ext-auth-wechat`](https://github.com/NomisCZ/flarum-ext-auth-wechat)|
+| [Email Filter by Nyu8](https://weblate.rob006.net/projects/flarum/nyu8-email-filter) | [`nyu8/flarum-email-filter`](https://github.com/nyu8/flarum-email-filter)|
 | [Google Login by Saleksin](https://weblate.rob006.net/projects/flarum/saleksin-auth-google) | [`saleksin/flarum-auth-google`](https://github.com/saleksin/flarum-auth-google)|
 | [Personal Pronouns by Shriker](https://weblate.rob006.net/projects/flarum/shriker-pronouns) | [`shriker/flarum-pronouns`](https://github.com/shriker/flarum-pronouns)|
 | [Follow Users by Simonxeko](https://weblate.rob006.net/projects/flarum/simonxeko-follow-users) | [`simonxeko/follow-users`](https://github.com/simonxeko/follow-users)|
