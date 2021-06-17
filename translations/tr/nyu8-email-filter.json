@@ -1,16 +1,16 @@
 {
     "nyu8-email-filter": {
         "admin": {
-            "general": "",
-            "custom_failure_message_label": "",
-            "custom_failure_message_hint": "",
-            "rule_settings": "",
-            "name_placeholder": "",
-            "invalid_regular_expression": "",
+            "general": "Genel",
+            "custom_failure_message_label": "Özel Hata Mesajı",
+            "custom_failure_message_hint": "Özel hata mesajı, elektronik posta uygun olmadığında gösterilir. Bu alanı boş bırakırsanız varsayılan mesaj gösterilir.",
+            "rule_settings": "Kural Ayarları",
+            "name_placeholder": "Kural adı",
+            "invalid_regular_expression": "Geçersiz ifade",
             "whitelist_literal": {
-                "label": "",
-                "description": "",
-                "placeholder": ""
+                "label": "Beyaz Liste",
+                "description": "Beyaz listeye alınacak tüm e-postalar",
+                "placeholder": "Beyaz listeye e-posta gönder..."
             },
             "whitelist_regex": {
                 "label": "",
@@ -18,9 +18,9 @@
                 "placeholder": ""
             },
             "blacklist_literal": {
-                "label": "",
-                "description": "",
-                "placeholder": ""
+                "label": "Kara liste",
+                "description": "Kara listeye alınacak tüm e-postalar",
+                "placeholder": "Kara listeye e-posta gönder..."
             },
             "blacklist_regex": {
                 "label": "",
