@@ -379,51 +379,51 @@
                 "viewing_text": ""
             },
             "post_stream": {
-                "discussion_renamed_old_tooltip": "",
-                "discussion_renamed_text": "",
-                "load_more_button": "",
-                "reply_placeholder": "",
-                "time_lapsed_text": ""
+                "discussion_renamed_old_tooltip": "पुराना शीर्षक था: \"{old}\"",
+                "discussion_renamed_text": "{username} ने शीर्षक बदलकर {new} कर दिया।",
+                "load_more_button": "=> core.ref.load_more",
+                "reply_placeholder": "=> core.ref.write_a_reply",
+                "time_lapsed_text": "{period} बाद में"
             },
             "rename_discussion": {
-                "submit_button": "",
-                "title": ""
+                "submit_button": "=> core.ref.rename",
+                "title": "चर्चा का नाम बदलें"
             },
             "search": {
-                "all_discussions_button": "",
-                "discussions_heading": "",
-                "users_heading": ""
+                "all_discussions_button": "\"{query}\" के लिए सभी चर्चाएं खोजें",
+                "discussions_heading": "=> core.ref.discussions",
+                "users_heading": "=> core.ref.users"
             },
             "settings": {
-                "account_heading": "",
-                "change_email_button": "",
-                "change_password_button": "",
-                "notifications_heading": "",
-                "notify_by_email_heading": "",
-                "notify_by_web_heading": "",
-                "notify_discussion_renamed_label": "",
-                "privacy_disclose_online_label": "",
-                "privacy_heading": "",
-                "title": ""
+                "account_heading": "खाता",
+                "change_email_button": "=> core.ref.change_email",
+                "change_password_button": "=> core.ref.change_password",
+                "notifications_heading": "=> core.ref.notifications",
+                "notify_by_email_heading": "=> core.ref.email",
+                "notify_by_web_heading": "वेब",
+                "notify_discussion_renamed_label": "किसी ने मेरे द्वारा शुरू की गई चर्चा का नाम बदल दिया",
+                "privacy_disclose_online_label": "दूसरों को देखने दें कि मैं कब ऑनलाइन हूं",
+                "privacy_heading": "एकांत",
+                "title": "=> core.ref.settings"
             },
             "sign_up": {
-                "dismiss_button": "",
-                "email_placeholder": "",
-                "log_in_text": "",
-                "password_placeholder": "",
-                "submit_button": "",
-                "title": "",
-                "username_placeholder": "",
-                "welcome_text": ""
+                "dismiss_button": "=> core.ref.okay",
+                "email_placeholder": "=> core.ref.email",
+                "log_in_text": "पहले से ही एक खाता है? <a>लॉग इन करें</a>",
+                "password_placeholder": "=> core.ref.password",
+                "submit_button": "=> core.ref.sign_up",
+                "title": "=> core.ref.sign_up",
+                "username_placeholder": "=> core.ref.username",
+                "welcome_text": "स्वागत है, {username}!"
             },
             "user": {
-                "avatar_remove_button": "",
-                "avatar_upload_button": "",
-                "avatar_upload_tooltip": "",
-                "discussions_link": "",
-                "in_discussion_text": "",
-                "joined_date_text": "",
-                "online_text": "",
+                "avatar_remove_button": "=> core.ref.remove",
+                "avatar_upload_button": "अपलोड",
+                "avatar_upload_tooltip": "एक नया अवतार अपलोड करें",
+                "discussions_link": "=> core.ref.discussions",
+                "in_discussion_text": "{discussion} में",
+                "joined_date_text": "{ago} शामिल हुए",
+                "online_text": "ऑनलाइन",
                 "posts_empty_text": "",
                 "posts_link": "",
                 "posts_load_more_button": "",
