@@ -27,7 +27,7 @@ return [
 	'es' => [
 		'type' => 'language',
 		'language' => 'es',
-		'repository' => 'git@github.com:FlarumES/lang-spanish.git',
+		'repository' => 'git@github.com:flarum-lang/spanish.git',
 		'branch' => 'main',
 		'path' => '/locale/es-ES-informal',
 	],
