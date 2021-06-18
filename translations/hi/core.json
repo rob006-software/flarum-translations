@@ -424,147 +424,147 @@
                 "in_discussion_text": "{discussion} में",
                 "joined_date_text": "{ago} शामिल हुए",
                 "online_text": "ऑनलाइन",
-                "posts_empty_text": "",
-                "posts_link": "",
-                "posts_load_more_button": "",
-                "settings_link": ""
+                "posts_empty_text": "ऐसा लगता है कि यहां कोई पोस्ट नहीं है।",
+                "posts_link": "=> core.ref.posts",
+                "posts_load_more_button": "=> core.ref.load_more",
+                "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
-                "button": "",
-                "delete_button": "",
-                "delete_confirmation": "",
-                "delete_error_message": "",
-                "delete_success_message": "",
-                "edit_button": "",
-                "toggle_dropdown_accessible_label": ""
+                "button": "नियंत्रण",
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "क्या आप वाकई इस उपयोगकर्ता को हटाना चाहते हैं? उपयोगकर्ता की पोस्ट नहीं हटाई जाएगी।",
+                "delete_error_message": "उपयोगकर्ता को हटाना <i>{username} ({email})</i> विफल रहा",
+                "delete_success_message": "उपयोगकर्ता <i>{username} ({email)}</i> हटा दिया गया था",
+                "edit_button": "=> core.ref.edit",
+                "toggle_dropdown_accessible_label": "उपयोगकर्ता नियंत्रण ड्रॉपडाउन मेनू टॉगल करे"
             },
             "user_email_confirmation": {
-                "alert_message": "",
-                "resend_button": "",
-                "sent_message": ""
+                "alert_message": "=> core.ref.confirmation_email_sent",
+                "resend_button": "पुष्टिकरण ईमेल पुन: भेजें",
+                "sent_message": "भेज दिया"
             }
         },
         "lib": {
             "badge": {
-                "hidden_tooltip": ""
+                "hidden_tooltip": "छिपा हुआ"
             },
             "dropdown": {
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "ड्रॉपडाउन मेनू टॉगल करें"
             },
             "edit_user": {
-                "activate_button": "",
-                "email_heading": "",
-                "email_label": "",
-                "groups_heading": "",
-                "password_heading": "",
-                "password_label": "",
-                "set_password_label": "",
-                "submit_button": "",
-                "title": "",
-                "username_heading": "",
-                "username_label": ""
+                "activate_button": "उपयोगकर्ता को सक्रिय करें",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "समूहों",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "नए पासवर्ड का उपयोग करें",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.edit_user",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username"
             },
             "error": {
-                "dependent_extensions_message": "",
-                "generic_message": "",
-                "missing_dependencies_message": "",
-                "not_found_message": "",
-                "permission_denied_message": "",
-                "rate_limit_exceeded_message": ""
+                "dependent_extensions_message": "निम्न आश्रित एक्सटेंशन अक्षम होने तक {extension} को अक्षम नहीं किया जा सकता: {extensions}",
+                "generic_message": "उफ़! कुछ गलत हो गया। कृपया पेज लोड करें और पुन: प्रयास करें।",
+                "missing_dependencies_message": "निम्न निर्भरताएँ सक्षम होने तक {extension} को सक्षम नहीं किया जा सकता: {extensions}",
+                "not_found_message": "अनुरोधित संसाधन नहीं मिला।",
+                "permission_denied_message": "आपको ऐसा करने की अनुमति नहीं है।",
+                "rate_limit_exceeded_message": "आप थोड़ी जल्दी कर रहे हो। कृपया कुछ क्षणों में पुन: प्रयास करें।"
             },
             "loading_indicator": {
-                "accessible_label": ""
+                "accessible_label": "=> core.ref.loading"
             },
             "number_suffix": {
-                "kilo_text": "",
-                "mega_text": ""
+                "kilo_text": "की",
+                "mega_text": "मे"
             },
             "series": {
-                "glue_text": "",
-                "three_text": "",
-                "two_text": ""
+                "glue_text": ", ",
+                "three_text": "{first}, {second}, ओर {third}",
+                "two_text": "{first} ओर {second}"
             },
             "username": {
-                "deleted_text": ""
+                "deleted_text": "[हटाया गया]"
             }
         },
         "views": {
             "content": {
-                "javascript_disabled_message": "",
-                "load_error_message": "",
-                "loading_text": ""
+                "javascript_disabled_message": "यह साइट एक आधुनिक ब्राउज़र में सबसे अच्छी तरह से देखी जा सकती है जिसमें जावास्क्रिप्ट सक्षम है।",
+                "load_error_message": "इस साइट के पूर्ण संस्करण को लोड करने का प्रयास करते समय कुछ गलत हुआ। ठीक करने के लिए इस पन्ने को हार्ड-रीफ्रेश करने का प्रयास करें।",
+                "loading_text": "=> core.ref.loading"
             },
             "discussion": {
-                "next_page_button": "",
-                "previous_page_button": ""
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
             },
             "error": {
-                "csrf_token_mismatch": "",
-                "csrf_token_mismatch_return_link": "",
-                "invalid_confirmation_token": "",
-                "not_authenticated": "",
-                "not_found": "",
-                "not_found_return_link": "",
-                "permission_denied": "",
-                "unknown": ""
+                "csrf_token_mismatch": "आप बहुत लंबे समय से निष्क्रिय हैं।",
+                "csrf_token_mismatch_return_link": "पुन: प्रयास करने के लिए वापस जाएं",
+                "invalid_confirmation_token": "यह पुष्टिकरण लिंक पहले ही उपयोग किया जा चुका है या अमान्य है।",
+                "not_authenticated": "आपको इस पन्ने का उपयोग करने की अनुमति नहीं है। लॉग इन करने के बाद पुनः प्रयास करें।",
+                "not_found": "आपने जिस पन्ने का अनुरोध किया है वह नहीं मिल सका।",
+                "not_found_return_link": "{forum} पर लौटें",
+                "permission_denied": "आपको इस पन्ने को उपयोग करने की अनुमति नहीं है।",
+                "unknown": "इस पन्ने को लाने का प्रयास करते समय एक खराबी हुई।"
             },
             "index": {
-                "all_discussions_heading": "",
-                "next_page_button": "",
-                "previous_page_button": ""
+                "all_discussions_heading": "=> core.ref.all_discussions",
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
             },
             "log_out": {
-                "log_out_button": "",
-                "log_out_confirmation": "",
-                "title": ""
+                "log_out_button": "=> core.ref.log_out",
+                "log_out_confirmation": "क्या आप वाकई {forum} से लॉग आउट करना चाहते हैं?",
+                "title": "=> core.ref.log_out"
             },
             "reset_password": {
-                "confirm_password_label": "",
-                "new_password_label": "",
-                "submit_button": "",
-                "title": ""
+                "confirm_password_label": "नए पासवर्ड की पुष्टि करें",
+                "new_password_label": "नए पासवर्ड",
+                "submit_button": "अपना पासवर्ड रीसेट करें",
+                "title": "=> core.ref.reset_your_password"
             }
         },
         "api": {
-            "invalid_username_message": ""
+            "invalid_username_message": "उपयोगकर्ता नाम में केवल अक्षर, संख्याएं और डैश हो सकते हैं।"
         },
         "email": {
             "activate_account": {
-                "subject": "",
-                "body": ""
+                "subject": "अपना नया खाता सक्रिय करें",
+                "body": "हे {username}!\n\nकिसी ने (उम्मीद है कि आप!) ने इस ईमेल पते से {forum} में साइन अप किया है।\n\nयदि यह आप थे, तो बस निम्न लिंक पर क्लिक करें और आपका खाता सक्रिय हो जाएगा:\n{url}\n\nयदि आपने साइन अप नहीं किया है, तो कृपया इस ईमेल पर ध्यान न दें।\n"
             },
             "confirm_email": {
-                "subject": "",
-                "body": ""
+                "subject": "अपने नए ईमेल पते की पुष्टि करें",
+                "body": "हे {username}!\n\nकिसी ने (उम्मीद है कि आप!) ने {forum} पर अपना ईमेल पता इस में बदल दिया है।\n\nयदि यह आप थे, तो बस निम्न लिंक पर क्लिक करें और आपके ईमेल की पुष्टि हो जाएगी:\n{url}\n\nयदि यह आप नहीं थे, तो कृपया इस ईमेल पर ध्यान न दें।\n"
             },
             "reset_password": {
-                "subject": "",
-                "body": ""
+                "subject": "=> core.ref.reset_your_password",
+                "body": "हे {username}!\n\nकिसी ने (उम्मीद है कि आप!) ने {forum} पर आपके खाते के लिए पासवर्ड भूल जाने का अनुरोध सबमिट कर दिया है।\n\nयदि यह आप थे, तो अपना पासवर्ड रीसेट करने के लिए निम्न लिंक पर क्लिक करें:\n{url}\n\nयदि आप अपना पासवर्ड नहीं बदलना चाहते हैं, तो बस इस ईमेल को अनदेखा करें और कुछ नहीं होगा।\n"
             },
             "send_test": {
-                "subject": "",
-                "body": ""
+                "subject": "फ्लॉरुम ईमेल परीक्षण",
+                "body": "हे {username}!\n\nयह पुष्टि करने के लिए एक परीक्षण ईमेल है कि आपका फ्लॉरुम ईमेल कॉन्फ़िगरेशन ठीक से काम कर रहा है।\n\nअगर यह आप थे, तो इस ईमेल का मतलब है कि आपका कॉन्फ़िगरेशन काम करता है!\n\nयदि यह आप नहीं थे, तो कृपया इस ईमेल पर ध्यान न दें।\n"
             }
         },
         "ref": {
-            "all_discussions": "",
-            "change_email": "",
-            "change_password": "",
-            "color": "",
-            "confirm_password": "",
-            "confirmation_email_sent": "",
-            "custom_footer_text": "",
-            "custom_footer_title": "",
-            "custom_header_text": "",
-            "custom_header_title": "",
-            "delete": "",
-            "delete_forever": "",
-            "discussions": "",
-            "edit": "",
-            "edit_user": "",
-            "email": "",
-            "icon": "",
-            "icon_text": "",
+            "all_discussions": "सभी चर्चा",
+            "change_email": "ईमेल बदलें",
+            "change_password": "पासवर्ड बदलें",
+            "color": "रंग",
+            "confirm_password": "पासवर्ड की पुष्टि कीजिये",
+            "confirmation_email_sent": "हमने {email} पर एक पुष्टिकरण ईमेल भेजा है। यदि यह जल्दी नहीं आता है, तो अपने स्पैम फ़ोल्डर की जाँच करें।",
+            "custom_footer_text": "पन्ने के सबसे नीचे प्रदर्शित होने के लिए एचटीएम्एल  दे।",
+            "custom_footer_title": "विशेष पाद लेख संपादित करें",
+            "custom_header_text": "फलरूम के अपने शीर्षलेख के ऊपर, पन्ने के शीर्ष पर प्रदर्शित होने के लिए एचटीएम्एल दे।",
+            "custom_header_title": "विशेष शीर्षलेख संपादित करें",
+            "delete": "हटाएं",
+            "delete_forever": "हमेशा के लिए हटाएं",
+            "discussions": "चर्चाएँ",
+            "edit": "संपादित करें",
+            "edit_user": "उपयोगकर्ता को संपादित करो",
+            "email": "ईमेल",
+            "icon": "आइकन",
+            "icon_text": "किसी भी <a>FontAwesome</a> आइकन वर्ग का नाम दर्ज करें, <em>सहित</em> <code>fas fa-</code> उपसर्ग।",
             "load_more": "",
             "loading": "",
             "log_in": "",
