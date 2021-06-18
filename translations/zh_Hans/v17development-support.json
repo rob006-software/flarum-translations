@@ -145,7 +145,7 @@
                 "ticket_overview": "工单概览",
                 "opened_on": "打开于",
                 "ticket_activity": "由 {username} 创建 · 最后更新 {date}",
-                "reminders_sent": "一条提醒已发送|{count} 条提醒已发送",
+                "reminders_sent": "{count, plural, one {1 条提醒已发送} other {# 条提醒已发送}}",
                 "convert_to_ticket": {
                     "button": "转为工单",
                     "confirm": "确定要将此主题帖转为工单吗？",
@@ -265,7 +265,7 @@
             },
             "ticket_pending_reply_closed": {
                 "subject": "工单 #{ticket_id} 由于没有活动现已关闭",
-                "body": "尊敬的用户 {recipient_display_name}，\n\n近期 {replier_display_name} 回复了您的工单 #{ticket_id}。由于长时间未得到您的回复，您的工单已被自动关闭。\n\n如您的问题没有解决，您可以再次回帖：\n{url}"
+                "body": "尊敬的用户 {recipient_display_name}，\n\n近期 {replier_display_name} 回复了您的工单 #{ticket_id}。由于长时间未得到您的回复，您的工单已被自动关闭。\n\n如您的问题没有解决，您可以再次回帖：\n{url}\n"
             }
         }
     }
