@@ -34,9 +34,9 @@
                                 "delete": "Rimuovi"
                             },
                             "placeholders": {
-                                "icon": "",
+                                "icon": "fas fa-link",
                                 "text": "Il mio sito",
-                                "url": ""
+                                "url": "https://flarum.it"
                             },
                             "tooltips": {
                                 "move_up": "Sposta su",
@@ -55,20 +55,20 @@
                         "title": "Aggiungi nuovo link",
                         "submit_btn": {
                             "add": "Aggiungi link",
-                            "loading": "Aggiungo",
+                            "loading": "Aggiunta del link",
                             "fix_url": "URL non valido",
                             "invalid_form": "Riempi tutti i campi"
                         },
                         "labels": {
-                            "icon": "",
-                            "text": "",
-                            "url": "",
-                            "internal": ""
+                            "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.icon",
+                            "text": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.text",
+                            "url": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.url",
+                            "internal": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.internal"
                         },
                         "placeholders": {
-                            "icon": "",
-                            "text": "",
-                            "url": ""
+                            "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.icon",
+                            "text": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.text",
+                            "url": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.url"
                         }
                     }
                 }
