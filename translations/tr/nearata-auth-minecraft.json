@@ -1,8 +1,8 @@
 {
     "nearata-auth-minecraft": {
         "api": {
-            "error_403": "Geçersiz veya süresi dolmuş anahtar.",
-            "invalid_token_format": "Anahtar numaralardan oluşmalıdır."
+            "invalid_token_format": "Anahtar numaralardan oluşmalıdır.",
+            "error_403": "Geçersiz veya süresi dolmuş anahtar."
         },
         "forum": {
             "change_email_modal": {
@@ -12,6 +12,7 @@
                 "title": "E-Posta Değiştir",
                 "token_placeholder": "Anahtar"
             },
+            "error_403": "",
             "log_in_modal": {
                 "submit_button": "Doğrulama",
                 "title": "Minecraft ile Giriş Yap"

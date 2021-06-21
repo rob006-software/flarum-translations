@@ -1,8 +1,8 @@
 {
     "nearata-auth-minecraft": {
         "api": {
-            "error_403": "Token scaduto o non valido.",
-            "invalid_token_format": "Il token deve essere numerico."
+            "invalid_token_format": "Il token deve essere numerico.",
+            "error_403": "Token scaduto o non valido."
         },
         "forum": {
             "change_email_modal": {
@@ -12,6 +12,7 @@
                 "title": "Cambia Email",
                 "token_placeholder": "Token"
             },
+            "error_403": "",
             "log_in_modal": {
                 "submit_button": "Valida",
                 "title": "Login con Minecraft"
