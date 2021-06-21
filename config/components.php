@@ -560,7 +560,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/miniflar/sidenav-download-button/1.0.0/resources/locale/en.yml',
 	],
 	'nearata-auth-minecraft' => [
-		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-auth-minecraft/v1.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-auth-minecraft/v2.0.0/resources/locale/en.yml',
 	],
 	'nearata-cakeday' => [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-cakeday/v1.3.0/resources/locale/en.yml',
