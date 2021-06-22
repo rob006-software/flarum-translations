@@ -2,19 +2,19 @@
     "clarkwinkelmann-external-email-validation": {
         "admin": {
             "settings": {
-                "method": "",
-                "uri": "",
-                "uri-help": "",
-                "body": "",
-                "body-help": "",
-                "headers": "",
-                "headers-help": "",
-                "use-response-status": "",
-                "use-response-status-help": "",
-                "response-success-key": "",
+                "method": "请求方法",
+                "uri": "请求的URL",
+                "uri-help": "您可以插入要替换为电子邮件值的短代码，请参阅自述。",
+                "body": "请求的正文",
+                "body-help": "您可以插入要替换为电子邮件值的短代码，请参阅自述。",
+                "headers": "请求头",
+                "headers-help": "一个请求头占一行",
+                "use-response-status": "使用HTTP响应状态作为有效性状态",
+                "use-response-status-help": "状态码为 2xx 响应将被视为有效，4xx 响应将被视为无效。",
+                "response-success-key": "具有有效状态的JSON属性的路径",
                 "response-success-key-help": "",
-                "default-error-message": "",
-                "default-error-message-help": "",
+                "default-error-message": "默认的错误消息",
+                "default-error-message-help": "如果找不到其他消息，则当电子邮件验证失败时，将向用户显示此消息。如果需要翻译此消息，请将该字段留空，并与语言学家一起自定义内置的默认错误消息。\n",
                 "response-error-key": "",
                 "response-error-key-help": ""
             }
