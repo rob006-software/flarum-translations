@@ -17,8 +17,8 @@
             },
             "help": {
                 "child_bare_icon": "",
-                "full_page_desktop": "",
-                "small_forum_optimized": ""
+                "full_page_desktop": "Il menu nav della barra laterale dovrebbe essere ridotto a una riga (come nella tradizionale pagina dei tag)? Questo nasconderà anche i widget (come Friends of Flarum Forum Statistics) dalla navbar della pagina delle categorie.",
+                "small_forum_optimized": "Questo darà un conteggio delle discussioni/post più accurato, ma rallenterà drammaticamente i forum medi e grandi."
             },
             "headings": {
                 "nav": "Navigazione",
@@ -31,8 +31,8 @@
         },
         "forum": {
             "all_categories": {
-                "meta_description_text": "",
-                "meta_title_text": ""
+                "meta_description_text": "Tutte le categorie",
+                "meta_title_text": "=> askvortsov-categories.ref.categories"
             },
             "header": {
                 "back_to_categories_tooltip": "Torna alle Categorie"
@@ -49,7 +49,7 @@
             }
         },
         "ref": {
-            "categories": ""
+            "categories": "Categorie"
         }
     }
 }
