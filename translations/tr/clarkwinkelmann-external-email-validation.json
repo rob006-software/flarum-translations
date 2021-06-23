@@ -2,25 +2,25 @@
     "clarkwinkelmann-external-email-validation": {
         "admin": {
             "settings": {
-                "method": "",
-                "uri": "",
-                "uri-help": "",
-                "body": "",
-                "body-help": "",
-                "headers": "",
-                "headers-help": "",
-                "use-response-status": "",
-                "use-response-status-help": "",
+                "method": "İstek Yöntemi",
+                "uri": "İstek URI",
+                "uri-help": "E-posta değeriyle değiştirilecek kısa kodlar ekleyebilirsiniz, bkz. README.",
+                "body": "İstek Gövdesi",
+                "body-help": "E-posta değeriyle değiştirilecek kısa kodlar ekleyebilirsiniz, bkz. README.",
+                "headers": "İstek Başlığı",
+                "headers-help": "Her satır yeni bir başlıktır",
+                "use-response-status": "Doğrulama durumu için HTTP yanıt durumunu kullan",
+                "use-response-status-help": "2xx yanıtlar geçerli sayılacaktır. 4xx yanıtları geçersiz sayılacaktır.",
                 "response-success-key": "",
                 "response-success-key-help": "",
-                "default-error-message": "",
+                "default-error-message": "Varsayılan hata mesajı",
                 "default-error-message-help": "",
                 "response-error-key": "",
                 "response-error-key-help": ""
             }
         },
         "api": {
-            "email-validation-error": ""
+            "email-validation-error": "E-posta harici doğrulamayı geçemedi."
         }
     }
 }
