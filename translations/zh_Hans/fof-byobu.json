@@ -39,9 +39,15 @@
                     "update_recipients": "更新「{title}」的可见范围",
                     "add_recipients": "邀请用户加入私密主题"
                 },
+                "labels": {
+                    "selected_users": "",
+                    "search_field": ""
+                },
                 "help": {
                     "add_recipients": "此主题仅选中的用户可见。至少添加一个用户（您除外）才能创建私密主题。",
-                    "update_recipients": "此主题仅选中的用户可见。"
+                    "update_recipients": "此主题仅选中的用户可见。",
+                    "selected_users": "",
+                    "click_user_to_remove_tooltip": ""
                 }
             },
             "post": {
