@@ -623,7 +623,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-advanced-extension-categories/v0.1.3/locale/en.yml',
 	],
 	'sycho-github-milestone' => [
-		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-github-milestone/v0.1.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-github-milestone/v0.1.2/locale/en.yml',
 	],
 	'sycho-profile-cover' => [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-profile-cover/v1.3.0/resources/locale/en.yml',
