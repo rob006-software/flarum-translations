@@ -424,6 +424,9 @@ return [
 	'glowingblue-redis-setup' => [
 		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-redis-setup/1.0.1/resources/locale/en.yml',
 	],
+	'glowingblue-rich-text' => [
+		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-rich-text/v2.0.4-beta.1/resources/locale/en.yml',
+	],
 	'ianm-diff' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-diff/3.0.0/locale/en.yml',
 	],
