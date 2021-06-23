@@ -433,6 +433,9 @@ return [
 	'ianm-html-head' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/html-head/1.0.0/resources/locale/en.yml',
 	],
+	'ianm-level-ranks' => [
+		'tag' => 'https://raw.githubusercontent.com/imorland/level-ranks/1.0.0/resources/locale/en.yml',
+	],
 	'ianm-regrole' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-regrole/1.0.0/locale/en.yml',
 	],
