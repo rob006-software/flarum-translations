@@ -4,12 +4,12 @@
             "ban_ip_button": "=> fof-ban-ips.ref.ban_ip_button",
             "unban_ip_button": "=> fof-ban-ips.ref.unban_ip_button",
             "modal": {
-                "ban_options_only_ip": "Bannir uniquement l’adresse IP actuelle (<code>{ip}</code>)",
-                "ban_options_all_ip": "Bannir toutes les IP utilisées par<i>{username}</i>",
-                "ban_ip_no_users": "Personne d’autre ne sera banni"
+                "ban_options_only_ip": "Bannir uniquement l'adresse IP actuelle (<code>{ip}</code>)",
+                "ban_options_all_ip": "Bannir toutes les adresses IP utilisées par<i>{username}</i>",
+                "ban_ip_no_users": "Personne d'autre ne sera banni"
             },
             "user_badge": {
-                "banned_tooltip": "Banni(e)"
+                "banned_tooltip": "Banni"
             },
             "user_controls": {
                 "ban_button": "=> fof-ban-ips.ref.ban_label",
@@ -19,7 +19,7 @@
         "admin": {
             "permissions": {
                 "ban_ip_label": "=> fof-ban-ips.ref.ban_ip_addresses",
-                "view_banned_ip_list_label": "Afficher la liste d’adresses IP bannies"
+                "view_banned_ip_list_label": "Afficher la liste des adresses IP bannies"
             },
             "page": {
                 "create_button": "=> fof-ban-ips.ref.ban_ip_button",
@@ -30,14 +30,14 @@
                 "date_label": "Date"
             },
             "modal": {
-                "update_title": "Mettre à jour l’IP bannie",
+                "update_title": "Mettre à jour l'adresse IP bannie",
                 "ban_ip_no_users": "Personne ne sera banni"
             },
             "empty_text": "Aucune adresse IP bannie trouvée."
         },
         "error": {
-            "banned_ip_message": "L’autorisation à échouée.",
-            "no_ips_found_message": "Aucune adresse IP trouvée pour l’utilisateur."
+            "banned_ip_message": "L'autorisation a échouée.",
+            "no_ips_found_message": "Aucune adresse IP trouvée pour l'utilisateur."
         },
         "lib": {
             "modal": {
@@ -47,14 +47,14 @@
                 "reason_label": "=> fof-ban-ips.ref.reason_label",
                 "check_button": "Vérifier",
                 "save_button": "Enregistrer",
-                "ban_ip_confirmation": "Êtes-vous sûr de vouloir bloquer l’utilisation de cette adresse IP sur le forum? Cela empêchera les utilisateurs possédant cette adresse IP de se connecter et de s’inscrire.",
-                "ban_ip_users": "L’utilisateur {users} sera banni|Les utilisateurs {users} seront bannis",
-                "unban_ip_confirmation": "Êtes-vous sûr de vouloir débannir cet utilisateur et tous les autres utilisateurs non bannis par d’autres adresses IP?",
-                "unban_options_only_ip": "Débannir uniquement l’adresse IP actuelle (<code>{ip}</code>)",
-                "unban_options_all_ip": "Débannir toutes les adresses IP utilisées par <i>{username}</i>",
-                "unban_ip_no_users": "Personne d’autre ne sera débanni",
-                "unban_ip_users": "L’utilisateur {users} sera débanni|Les utilisateurs {users} seront débannis",
-                "unbanned_ips": "Débannir <code>{ips}</code>.",
+                "ban_ip_confirmation": "Êtes-vous sûr de vouloir bloquer l'utilisation de cette adresse IP sur le forum ? Cela empêchera les utilisateurs possédant cette adresse IP de se connecter et de s'inscrire.",
+                "ban_ip_users": "L'utilisateur {users} sera banni|Les utilisateurs {users} seront bannis",
+                "unban_ip_confirmation": "Êtes-vous sûr de vouloir dé-bannir cet utilisateur et tous les autres utilisateurs non bannis par d'autres IP ?",
+                "unban_options_only_ip": "Dé-bannir uniquement l'adresse IP actuelle (<code>{ip}</code>)",
+                "unban_options_all_ip": "Dé-bannir toutes les adresses IP utilisées par <i>{username}</i>",
+                "unban_ip_no_users": "Personne d'autre ne sera dé-banni",
+                "unban_ip_users": "L'utilisateur {users} sera débanni|Les utilisateurs {users} seront débannis",
+                "unbanned_ips": "Dé-bannir <code>{ips}</code>.",
                 "ban_button": "=> fof-ban-ips.ref.ban_label",
                 "unban_button": "=> fof-ban-ips.ref.unban_label"
             }
@@ -63,9 +63,9 @@
             "ban_label": "Bannir",
             "ban_ip_addresses": "Bannir des adresses IP",
             "ban_ip_button": "Bannir une adresse IP",
-            "unban_label": "Débannir",
-            "unban_ip_addresses": "Débannir des adresses IP",
-            "unban_ip_button": "Débannir une adresse IP",
+            "unban_label": "Dé-bannir",
+            "unban_ip_addresses": "Dé-bannir des adresses IP",
+            "unban_ip_button": "Dé-bannir une adresse IP",
             "address_label": "Adresse IP",
             "reason_label": "Motif"
         }
