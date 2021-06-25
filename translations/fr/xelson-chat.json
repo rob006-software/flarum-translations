@@ -1,189 +1,189 @@
 {
     "xelson-chat": {
         "forum": {
-            "pusher_not_found": "",
+            "pusher_not_found": "Pusher ou WebSockets est nécessaire pour que le chat soit mis à jour en temps réel.",
             "index": {
-                "chat_link": ""
+                "chat_link": "Chat"
             },
             "toolbar": {
-                "title": "",
-                "enable_sounds": "",
-                "disable_sounds": "",
-                "enable_notifications": "",
-                "disable_notifications": "",
-                "minimize": "",
-                "maximize": "",
+                "title": "Chat",
+                "enable_sounds": "Activer les sons",
+                "disable_sounds": "Désactiver les sons",
+                "enable_notifications": "Activer les notifications",
+                "disable_notifications": "Désactiver les notifications",
+                "minimize": "Minimiser",
+                "maximize": "Maximiser",
                 "chat": {
-                    "settings": ""
+                    "settings": "Paramètres du chat"
                 }
             },
             "chat": {
                 "welcome": {
-                    "header": "",
-                    "subheader": ""
+                    "header": "Bienvenue sur le chat Neon !",
+                    "subheader": "Veuillez sélectionner un chat sur la gauche pour la conversation"
                 },
-                "moder": "",
-                "kick": "",
-                "leave": "",
-                "rejoin": "",
+                "moder": "Modérateur",
+                "kick": "Expulser",
+                "leave": "Quitter",
+                "rejoin": "Rejoindre",
                 "edit_modal": {
-                    "title": "",
+                    "title": "Paramètres de chat",
                     "moderator": {
-                        "got": "",
-                        "lost": ""
+                        "got": "Vous venez de recevoir les droits de modérateur dans le chat {chatname} !",
+                        "lost": "Vous venez de perdre vos droits de modérateur dans le chat {chatname}."
                     },
                     "form": {
                         "title": {
-                            "label": "",
-                            "validator": ""
+                            "label": "Nom du chat",
+                            "validator": "Au moins 1 symbole"
                         },
                         "color": {
-                            "label": "",
-                            "validator": ""
+                            "label": "Couleur",
+                            "validator": "Au format hexadécimal"
                         },
                         "icon": {
-                            "label": "",
-                            "validator": ""
+                            "label": "=> core.ref.icon",
+                            "validator": "=> core.ref.icon_text"
                         },
                         "users": {
-                            "edit": ""
+                            "edit": "Sélectionner et modifier les utilisateurs"
                         },
-                        "leave": "",
-                        "return": "",
+                        "leave": "Quitter le chat",
+                        "return": "Entrer dans le chat",
                         "delete": {
-                            "title": "",
-                            "desc": "",
-                            "placeholder": "",
-                            "button": ""
+                            "title": "Êtes-vous sûr de vouloir supprimer ce chat ?",
+                            "desc": "Copiez et collez le nom du chat pour continuer",
+                            "placeholder": "Nom du chat",
+                            "button": "Supprimer le chat"
                         }
                     },
                     "search": {
-                        "placeholder": "",
-                        "failed": "",
-                        "invited": ""
+                        "placeholder": "Rechercher des utilisateurs",
+                        "failed": "Aucun utilisateur correspondant n'a été trouvé",
+                        "invited": "Invité"
                     },
-                    "save_button": ""
+                    "save_button": "=> core.ref.save_changes"
                 },
                 "list": {
-                    "pin": "",
-                    "unpin": "",
-                    "placeholder": "",
+                    "pin": "Épingler le panneau",
+                    "unpin": "Désépingler le panneau",
+                    "placeholder": "Filtrer les chats",
                     "preview": {
-                        "empty": ""
+                        "empty": "Aucun message"
                     },
                     "add_modal": {
-                        "title": "",
-                        "chat": "",
-                        "channel": "",
+                        "title": "Sélectionner les utilisateurs",
+                        "chat": "Chat",
+                        "channel": "Canal",
                         "create": {
-                            "chat": "",
-                            "channel": ""
+                            "chat": "Créer un nouveau chat",
+                            "channel": "Créez un nouveau canal"
                         },
                         "alerts": {
-                            "exists": ""
+                            "exists": "Vous ne pouvez pas créer un autre message privé avec cet utilisateur !"
                         },
                         "form": {
                             "title": {
-                                "chat": "",
-                                "channel": "",
-                                "validator": ""
+                                "chat": "Nom du chat",
+                                "channel": "Nom du canal",
+                                "validator": "Au moins 1 symbole"
                             },
                             "icon": {
-                                "label": "",
-                                "validator": ""
+                                "label": "=> core.ref.icon",
+                                "validator": "=> core.ref.icon_text"
                             },
                             "color": {
-                                "label": "",
-                                "validator": ""
+                                "label": "=> xelson-chat.forum.chat.edit_modal.form.color.label",
+                                "validator": "=> xelson-chat.forum.chat.edit_modal.form.color.validator"
                             },
-                            "users": ""
+                            "users": "Utilisateurs sélectionnés"
                         },
                         "search": {
-                            "placeholder": "",
-                            "failed": "",
-                            "invited": ""
+                            "placeholder": "Rechercher des utilisateurs",
+                            "failed": "Aucun utilisateur correspondant n'a été trouvé",
+                            "invited": "Invité"
                         }
                     }
                 },
-                "placeholder": "",
+                "placeholder": "Saisissez votre message...",
                 "message": {
                     "actions": {
-                        "hide": "",
-                        "resend": ""
+                        "hide": "Masquer",
+                        "resend": "Renvoyer"
                     },
-                    "censored": "",
-                    "deleted": "",
-                    "deleted_forever": "",
-                    "you": "",
+                    "censored": "Se connecter pour voir ce message !",
+                    "deleted": "supprimé par",
+                    "deleted_forever": "supprimé définitivement par",
+                    "you": "Vous",
                     "type": {
-                        "url": "",
-                        "event": "",
-                        "code": ""
+                        "url": "URL",
+                        "event": "Événement",
+                        "code": "<Code />"
                     },
                     "events": {
                         "chat": {
-                            "created": ""
+                            "created": "{creatorname} a créé {chatname} et a invité {usernames}"
                         },
                         "pm": {
-                            "created": ""
+                            "created": "{creatorname} a créé un chat avec {username}"
                         },
                         "channel": {
-                            "created": ""
+                            "created": "{creatorname} a créé le canal {chatname}"
                         },
                         "title": {
-                            "edited": ""
+                            "edited": "{editorname} a modifié le titre de ce chat de {old} en {new}"
                         },
                         "icon": {
-                            "edited": ""
+                            "edited": "{editorname} a modifié l'icône du chat de {old} en {new}"
                         },
                         "color": {
-                            "edited": ""
+                            "edited": "{editorname} a modifié l'icône de la couleur du chat de {old} en {new}"
                         },
                         "users": {
-                            "invited": "",
-                            "kicked": "",
-                            "invited_kicked": ""
+                            "invited": "{editorname} a invité {usernames}",
+                            "kicked": "{editorname} a expulsé {usernames}",
+                            "invited_kicked": "{editorname} a invité {invitednames} et a expulsé {kickednames}"
                         },
                         "self": {
-                            "leaved": "",
-                            "entered": ""
+                            "leaved": "{username} a quitté le chat",
+                            "entered": "{username} a rejoint le chat"
                         }
                     }
                 }
             },
             "errors": {
-                "unauthenticated": "",
-                "chatdenied": "",
-                "removed": ""
+                "unauthenticated": "Seuls les utilisateurs inscrits peuvent utiliser le chat",
+                "chatdenied": "Votre groupe d'utilisateurs n'est pas autorisé à rédiger des messages",
+                "removed": "Vous avez été retiré du chat"
             }
         },
         "admin": {
             "permissions": {
-                "post": "",
-                "edit": "",
-                "delete": "",
-                "enabled": "",
+                "post": "Publier des messages sur le chat",
+                "edit": "Modifier les messages du chat",
+                "delete": "Supprimer des messages du chat",
+                "enabled": "Activer le chat",
                 "create": {
-                    "chat": "",
-                    "channel": ""
+                    "chat": "Démarrer les chats",
+                    "channel": "Démarrer les canaux"
                 },
                 "moderate": {
-                    "delete": "",
-                    "vision": ""
+                    "delete": "Supprimer les messages du chat",
+                    "vision": "Voir les messages supprimés"
                 }
             },
             "settings": {
-                "title": "",
-                "charlimit": "",
+                "title": "Paramètres du chat",
+                "charlimit": "Nombre maximum de caractères dans le message",
                 "floodgate": {
-                    "title": "",
-                    "number": "",
-                    "time": ""
+                    "title": "Anti-flood",
+                    "number": "Nombre de messages à la suite",
+                    "time": "Au cours d'une période"
                 },
                 "display": {
-                    "title": "",
-                    "minimize": "",
-                    "censor": ""
+                    "title": "Affichage",
+                    "minimize": "Minimiser au début",
+                    "censor": "Censure des messages pour les utilisateurs non autorisés"
                 }
             }
         }
