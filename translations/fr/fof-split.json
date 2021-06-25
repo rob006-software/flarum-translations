@@ -2,7 +2,7 @@
     "fof-split": {
         "admin": {
             "permissions": {
-                "split_discussion_label": "Diviser les messages des discussions"
+                "split_discussion_label": "Séparer les messages des discussions"
             }
         },
         "forum": {
@@ -11,13 +11,13 @@
                 "was_split_from": "{count, plural, one {{count} message a été séparé de {target}.} other {{count} messages ont été séparés de {target}.}}"
             },
             "split": {
-                "from": "Diviser à partir d’ici",
-                "to": "Diviser jusque-là"
+                "from": "Séparer à partir d'ici",
+                "to": "Séparer jusqu'ici"
             },
             "modal": {
-                "title": "Diviser la discussion",
-                "new_discussion_label": "Préciser le titre de la nouvelle discussion",
-                "submit_button": "Diviser"
+                "title": "Séparer la discussion",
+                "new_discussion_label": "Indiquez le titre de la nouvelle discussion",
+                "submit_button": "Séparer"
             }
         }
     }
