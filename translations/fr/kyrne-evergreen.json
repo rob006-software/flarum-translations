@@ -2,36 +2,36 @@
     "kyrne-evergreen": {
         "forum": {
             "post": {
-                "show_replies": "",
-                "show_reply": ""
+                "show_replies": "Afficher {count} réponses",
+                "show_reply": "Afficher {count} réponse"
             }
         }
     },
     "flarum-mentions": {
         "forum": {
             "composer": {
-                "mention_tooltip": "",
-                "reply_to_post_text": ""
+                "mention_tooltip": "Mentionner un utilisateur ou un message",
+                "reply_to_post_text": "Répondre à #{number}"
             },
             "notifications": {
-                "others_text": "",
-                "post_mentioned_text": "",
-                "user_mentioned_text": ""
+                "others_text": "=> core.ref.some_others",
+                "post_mentioned_text": "{username} a répondu à votre message",
+                "user_mentioned_text": "{username} vous a mentionné"
             },
             "post": {
-                "mentioned_by_self_text": "",
-                "mentioned_by_text": "",
-                "others_text": "",
-                "quote_button": "",
-                "reply_link": "",
-                "you_text": ""
+                "mentioned_by_self_text": "{users} avez répondu à ça.",
+                "mentioned_by_text": "{users} ont répondu à ça.",
+                "others_text": "=> core.ref.some_others",
+                "quote_button": "Citer",
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
             },
             "settings": {
-                "notify_post_mentioned_label": "",
-                "notify_user_mentioned_label": ""
+                "notify_post_mentioned_label": "Quelqu'un répond à l'un de mes messages",
+                "notify_user_mentioned_label": "Quelqu'un me mentionne dans un message"
             },
             "user": {
-                "mentions_link": ""
+                "mentions_link": "Mentions"
             }
         }
     }
