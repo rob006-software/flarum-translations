@@ -2,155 +2,155 @@
     "kilowhat-wordpress": {
         "admin": {
             "settings": {
-                "section_general_intro": "",
-                "api_key": "",
-                "wordpress_url": "",
-                "wordpress_username": "",
-                "section_sso_intro": "",
-                "enable_sso": "",
-                "cookie_domain": "",
-                "cookie_domain_help": "",
-                "wordpress_login_path": "",
-                "wordpress_login_path_help": "",
-                "username_strategy": "",
+                "section_general_intro": "Les paramètres de base requis pour que l'extension fonctionne.",
+                "api_key": "Clé API de Flarum",
+                "wordpress_url": "URL de WordPress",
+                "wordpress_username": "Nom d'utilisateur de l'administrateur WordPress",
+                "section_sso_intro": "Cette fonctionnalité permettra de connecter de manière transparente les utilisateurs de WordPress à Flarum. Un compte sera automatiquement créé pour ces derniers et synchronisé avec WordPress. Si vous avez des comptes existants dans Flarum, ils seront automatiquement associés à leur adresse de courriel. Si vous supprimez un utilisateur dans Flarum, il sera recréé la prochaine fois que le compte WordPress se connectera. Pour bloquer un utilisateur de Flarum, suspendez le compte dans Flarum.\n",
+                "enable_sso": "Activer l'intégration SSO",
+                "cookie_domain": "Domaine du cookie",
+                "cookie_domain_help": "Uniquement nécessaire si différent du domaine de Flarum",
+                "wordpress_login_path": "Chemin d'accès à WordPress",
+                "wordpress_login_path_help": "Uniquement nécessaire si vous avez renommé votre point d'accès manuellement ou via un plugin",
+                "username_strategy": "Nom d'utilisateur pour les nouveaux utilisateurs",
                 "username_strategy_options": {
-                    "user_login": "",
-                    "first_name": "",
-                    "random": ""
+                    "user_login": "Nom d'utilisateur à partir de WordPress",
+                    "first_name": "Prénom à partir de WordPress",
+                    "random": "Nom d'utilisateur aléatoire"
                 },
-                "username_strategy_help": "",
-                "force_username_choice": "",
-                "force_username_choice_help": "",
-                "welcome_message": "",
-                "welcome_message_help": "",
-                "wordpress_login_only": "",
-                "wordpress_login_only_help": "",
-                "user_delete": "",
+                "username_strategy_help": "Un numéro sera ajouté au nom d'utilisateur s'il existe déjà dans Flarum",
+                "force_username_choice": "Faire en sorte que les utilisateurs choisissent leur nom d'utilisateur lors de la première visite",
+                "force_username_choice_help": "Une valeur par défaut sera fournie avec la règle choisie ci-dessus.",
+                "welcome_message": "Message d'introduction",
+                "welcome_message_help": "Ce message sera affiché lors de la première visite de l'utilisateur sur le forum, ainsi que le choix du nom d'utilisateur, s'il est activé.",
+                "wordpress_login_only": "Autoriser uniquement la connexion WordPress",
+                "wordpress_login_only_help": "Désactive la connexion Flarum et ouvre directement la fenêtre de connexion WordPress lorsque la connexion est requise. Ceci mettra automatiquement la permission « S'inscrire » sur « Fermé ».\n",
+                "user_delete": "Action lorsqu'un utilisateur est supprimé dans WordPress",
                 "user_delete_options": {
-                    "ignore": "",
-                    "delete": "",
-                    "suspend": ""
+                    "ignore": "Ignorer (préserver l'utilisateur de Flarum)",
+                    "delete": "Supprimer l'utilisateur de Flarum",
+                    "suspend": "Suspendre indéfiniment l'utilisateur de Flarum (l'extension Suspend doit être activée)"
                 },
-                "user_delete_desc": "",
-                "section_comments_intro": "",
-                "enable_comments": "",
-                "excerpt_html_whitelist": "",
-                "excerpt_html_nodes": "",
-                "excerpt_length": "",
-                "comment_tag": "",
-                "comment_tag_none": "",
-                "comment_tag_custom": "",
-                "comment_tag_custom_help": "",
-                "summary_as_last_post": "",
-                "summary_as_last_post_help": "",
-                "use_post_date": "",
-                "use_post_date_help": "",
-                "post_hide": "",
+                "user_delete_desc": "Si vous sélectionnez « Supprimer », seul l'utilisateur sera supprimé, pas son contenu sur Flarum.",
+                "section_comments_intro": "Cette fonctionnalité remplace les commentaires WordPress par une fenêtre imbriquée de Flarum. La publication en tant qu'invité n'est plus possible. Les discussions ne sont créées que pour les articles dont les commentaires sont activés dans WordPress. L'activation ou la désactivation des commentaires est synchronisée avec le verrouillage des discussions de Flarum. Si votre blog contient déjà des articles lorsque vous activez cette fonctionnalité, vous devez à nouveau activer et désactiver les commentaires sur chaque article pour que la discussion Flarum soit créée.\n",
+                "enable_comments": "Activer l'intégration des commentaires",
+                "excerpt_html_whitelist": "Liste blanche des balises HTML à conserver dans l'extrait (séparées par des virgules)",
+                "excerpt_html_nodes": "Longueur de l'extrait de contenu (en nombre de nœuds HTML)",
+                "excerpt_length": "Longueur de l'extrait de contenu (en caractères)",
+                "comment_tag": "Étiquette pour les nouveaux fils de commentaires",
+                "comment_tag_none": "Ne pas attribuer d'étiquette",
+                "comment_tag_custom": "Valeurs personnalisées",
+                "comment_tag_custom_help": "Liste d'identifiants d'étiquettes séparés par des virgules",
+                "summary_as_last_post": "Définir le message de résumé comme le dernier message des nouvelles discussions",
+                "summary_as_last_post_help": "Grâce à ce système, les nouvelles discussions de commentaires se retrouvent en tête de la liste de discussions de Flarum dès que l'article WordPress est publié. Par défaut, la discussion ne s'affiche en haut de la liste qu'une fois qu'un premier utilisateur a écrit un commentaire.\n",
+                "use_post_date": "Utiliser la date de publication de WordPress comme date de création de la discussion",
+                "use_post_date_help": "Par défaut, les discussions de Flarum utiliseront l'heure actuelle comme date de création. Cette option permet de créer des discussions avec une date antérieure si l'article WordPress a aussi une date antérieure.\n",
+                "post_hide": "Action lorsqu'un article WordPress est masqué (mis à la corbeille ou déplacé comme brouillon)",
                 "post_hide_options": {
-                    "ignore": "",
-                    "lock": "",
-                    "hide": "",
-                    "delete": ""
+                    "ignore": "Ignorer (verrouiller la discussion en fonction de l'option « Autoriser les commentaires »)",
+                    "lock": "Verrouiller la discussion de Flarum",
+                    "hide": "Masquer la discussion de Flarum",
+                    "delete": "Supprimer définitivement la discussion de Flarum"
                 },
-                "post_delete": "",
+                "post_delete": "Action lorsqu'un article WordPress est supprimé définitivement",
                 "post_delete_options": {
-                    "ignore": "",
-                    "lock": "",
-                    "hide": "",
-                    "delete": ""
+                    "ignore": "Ignorer (préserver la discussion de Flarum dans son état actuel)",
+                    "lock": "Préserver la discussion sur Flarum et verrouiller",
+                    "hide": "Masquer la discussion de Flarum",
+                    "delete": "Supprimer définitivement la discussion de Flarum"
                 }
             },
             "tabs": {
-                "wizard": "",
-                "general": "",
-                "sso": "",
-                "comments": "",
-                "enabled": "",
-                "disabled": ""
+                "wizard": "Assistant d'installation",
+                "general": "Paramètres généraux",
+                "sso": "Intégration de SSO",
+                "comments": "Intégration des commentaires",
+                "enabled": "Activé",
+                "disabled": "Désactivé"
             },
             "appearance": {
-                "edit_css_button": ""
+                "edit_css_button": "Modifier uniquement le CSS personnalisé pour WordPress Embed"
             },
             "edit_css": {
-                "title": "",
-                "customize_text": ""
+                "title": "Modifier le CSS intégré personnalisé",
+                "customize_text": "Votre propre code LESS/CSS à appliquer par-dessus les styles <a>par défaut</a> de Flarum uniquement à l'intérieur de la fenêtre imbriquée de WordPress."
             },
             "permissions": {
-                "gambits": ""
+                "gambits": "Jeux tiers de WordPress (voir la documentation)"
             },
             "save-controls": {
-                "validation-errors": "",
-                "unsaved-changes": "",
-                "saved-at": "",
-                "no-unsaved-changes": "",
-                "save": ""
+                "validation-errors": "Nous avons trouvé quelques erreurs dans votre soumission",
+                "unsaved-changes": "Vous avez des modifications non enregistrées",
+                "saved-at": "Enregistré {ago}",
+                "no-unsaved-changes": "Tout est enregistré",
+                "save": "Enregistrer"
             },
             "health": {
-                "title": "",
-                "check": "",
-                "errors": "",
-                "healthy": "",
-                "not-run": "",
-                "request-error": ""
+                "title": "Bilan de santé",
+                "check": "Vérifier maintenant",
+                "errors": "Nous avons trouvé quelques erreurs.",
+                "healthy": "Tout se présente bien !",
+                "not-run": "Le bilan de santé sera disponible une fois que vous aurez connecté WordPress et Flarum.",
+                "request-error": "Nous avons échoué à effectuer le bilan de santé."
             },
             "wizard": {
-                "intro": "",
-                "wordpress_url": "",
-                "wordpress_url_help": "",
-                "wordpress_username": "",
-                "wordpress_password": "",
-                "wordpress_password_help": "",
-                "install": ""
+                "intro": "Merci d'avoir acheté mon extension premium WordPress ! Remplissez vos informations d'identification ci-dessous pour connecter automatiquement votre Flarum et votre WordPress.\n",
+                "wordpress_url": "URL de WordPress",
+                "wordpress_url_help": "Un lien vers votre page d'accueil WordPress",
+                "wordpress_username": "Nom d'utilisateur de l'administrateur sur WordPress",
+                "wordpress_password": "Mot de passe de l'administrateur sur WordPress",
+                "wordpress_password_help": "Le mot de passe n'est utilisé que pour la configuration initiale et n'est pas stocké.",
+                "install": "Installer"
             }
         },
         "forum": {
             "welcome-modal": {
-                "title": "",
-                "default_message": "",
-                "username": "",
-                "submit": "",
-                "not_now": ""
+                "title": "Bienvenue !",
+                "default_message": "Bienvenue sur le forum. Choisissez un nom d'utilisateur et c'est parti !",
+                "username": "Choisissez un nom d'utilisateur",
+                "submit": "Activer le compte du forum",
+                "not_now": "Ignorer et lire en tant qu'invité pour le moment"
             },
             "edit-user-modal": {
-                "warning": "",
-                "edit_in_wordpress": "",
-                "should_not_edit_email": "",
-                "unlink": "",
-                "unlink_help": ""
+                "warning": "Cet utilisateur est maintenu en synchronisation avec WordPress. Vous devez modifier l'adresse de courriel et le mot de passe depuis WordPress.\n",
+                "edit_in_wordpress": "Modifier dans WordPress",
+                "should_not_edit_email": "Vous devriez modifier l'adresse de courriel dans WordPress. <a>Modifier quand même</a>",
+                "unlink": "Détacher cet utilisateur de l'utilisateur WordPress",
+                "unlink_help": "Si l'adresse de courriel correspond à un utilisateur de WordPress, il sera lié à nouveau la prochaine fois que cet utilisateur se connectera dans WordPress."
             },
             "settings": {
-                "edit_on_wordpress": ""
+                "edit_on_wordpress": "Modifier l'adresse de courriel et le mot de passe sur le site principal"
             },
             "log_in": {
-                "with_wordpress_button": ""
+                "with_wordpress_button": "Se connecter avec WordPress"
             },
             "summary-post": {
-                "head_label": "",
-                "blog_link": "",
-                "read_more": ""
+                "head_label": "Article WordPress",
+                "blog_link": "Lire sur le blog",
+                "read_more": "Lire la suite"
             },
             "embed": {
-                "title": ""
+                "title": "Commentaires"
             }
         },
         "api": {
             "blocked_actions": {
-                "login": "",
-                "password_reset": "",
-                "email_change": ""
+                "login": "Ce compte est lié à WordPress. Utilisez le formulaire de connexion du site principal pour vous connecter.",
+                "password_reset": "Ce compte est lié à WordPress. Utilisez le formulaire de connexion du site principal pour réinitialiser votre mot de passe.",
+                "email_change": "Ce compte est lié à WordPress. Utilisez la page de profil du site principal pour modifier votre adresse de courriel."
             },
             "wizard": {
-                "already_installed": "",
-                "api_unauthorized": "",
-                "api_error_get": "",
-                "api_error_post": "",
-                "invalid_wordpress_url": "",
-                "plugin_not_installed": ""
+                "already_installed": "Flarum est déjà connecté à WordPress. Pour relancer l'assistant, supprimez le paramètre « URL de WordPress » dans Flarum ainsi que le paramètre « Clé API de Flarum » dans WordPress.\n",
+                "api_unauthorized": "Nous n'avons pas pu nous authentifier avec les informations d'identification fournies. Vérifiez à nouveau l'URL, le nom d'utilisateur et le mot de passe. Consultez la documentation pour plus d'étapes de dépannage.\n",
+                "api_error_get": "Erreur lors de l'exécution d'une requête GET vers les paramètres de WordPress ({exception}).",
+                "api_error_post": "Erreur lors de l'exécution d'une requête POST vers les paramètres de WordPress ({exception}).",
+                "invalid_wordpress_url": "Le paramètre « Adresse (URL) de WordPress » dans WordPress ne semble pas être une URL valide ({actual}).",
+                "plugin_not_installed": "Le plugin WordPress ne semble pas être installé ou activé sur ce site WordPress. Assurez-vous de disposer d'au moins la version 1.2.0.\n"
             }
         },
         "views": {
             "error": {
-                "missing_wordpress_embed": ""
+                "missing_wordpress_embed": "Cet article n'a pas encore de fil de commentaires. Si vous êtes l'administrateur du blog, publiez l'article ou désactivez puis réactivez les commentaires pour lancer un fil de discussion.\n"
             }
         }
     }
