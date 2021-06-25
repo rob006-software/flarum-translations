@@ -312,62 +312,62 @@
         },
         "api": {
             "formatter-parsing-error": "Impossible d'analyser le contenu : {message}",
-            "not-allowed-to-fill-field": "",
-            "duplicate-field-key": "",
-            "cannot-change-form-type": "",
-            "unknown-form": "",
-            "unauthorized-form": "",
-            "file-already-belongs-form": "",
-            "file-already-belongs-submission": "",
+            "not-allowed-to-fill-field": "Vous n'êtes pas autorisé à modifier la valeur de ce champ",
+            "duplicate-field-key": "La clé doit être unique",
+            "cannot-change-form-type": "Vous ne pouvez pas modifier le type d'un formulaire qui contient déjà des soumissions",
+            "unknown-form": "Identifiant de formulaire {id} non reconnu",
+            "unauthorized-form": "Vous n'avez pas les permissions nécessaires pour remplir l'identifiant de formulaire {id}",
+            "file-already-belongs-form": "Le fichier {id} appartient à un autre formulaire",
+            "file-already-belongs-submission": "Le fichier {id} appartient à une autre soumission",
             "export": {
                 "meta": {
-                    "uid": "",
-                    "user_id": "",
-                    "user_username": "",
-                    "user_displayname": "",
-                    "link_id": "",
-                    "locked_at": "",
-                    "created_at": "",
-                    "updated_at": "",
-                    "hidden_at": ""
+                    "uid": "=> kilowhat-formulaire.ref.submission-meta.uid",
+                    "user_id": "=> kilowhat-formulaire.ref.submission-meta.user_id",
+                    "user_username": "=> kilowhat-formulaire.ref.submission-meta.user_username",
+                    "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
+                    "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
+                    "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
+                    "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
+                    "updated_at": "=> kilowhat-formulaire.ref.submission-meta.updated_at",
+                    "hidden_at": "=> kilowhat-formulaire.ref.submission-meta.hidden_at"
                 }
             }
         },
         "mail": {
-            "title-your-submission": "",
-            "title-new-submission": "",
-            "edit": "",
-            "footer": "",
-            "sub-entries": ""
+            "title-your-submission": "Votre soumission pour {title}",
+            "title-new-submission": "Nouvelle soumission pour {title}",
+            "edit": "Modifier",
+            "footer": "Envoyé depuis {title}",
+            "sub-entries": "{count} entrées"
         },
         "ref": {
-            "manager": "",
+            "manager": "Gestionnaire de formulaires",
             "type": {
-                "standalone": "",
-                "discussion": "",
-                "user": ""
+                "standalone": "Formulaires autonomes",
+                "discussion": "Champs de discussion",
+                "user": "Profil de l'utilisateur"
             },
             "permissions": {
-                "fill": "",
-                "seeOwnUser": "",
-                "seeAnyUser": "",
-                "editOwnUser": "",
-                "editAnyUser": "",
-                "seeOwnDiscussion": "",
-                "seeAnyDiscussion": "",
-                "editOwnDiscussion": "",
-                "editAnyDiscussion": ""
+                "fill": "Remplir les formulaires autonomes",
+                "seeOwnUser": "Afficher les champs de votre propre profil",
+                "seeAnyUser": "Afficher les champs de tout profil",
+                "editOwnUser": "Modifier les champs de son propre profil",
+                "editAnyUser": "Modifier les champs de tout profil",
+                "seeOwnDiscussion": "Voir les champs de ses propres discussions",
+                "seeAnyDiscussion": "Voir les champs de toute discussion",
+                "editOwnDiscussion": "Modifier les champs de ses propres discussions",
+                "editAnyDiscussion": "Modifier les champs de toute discussion"
             },
             "submission-meta": {
-                "uid": "",
-                "user_id": "",
-                "user_username": "",
-                "user_displayname": "",
-                "link_id": "",
-                "locked_at": "",
-                "created_at": "",
-                "updated_at": "",
-                "hidden_at": ""
+                "uid": "Identifiant de la soumission",
+                "user_id": "Identifiant de l'utilisateur",
+                "user_username": "Nom d'utilisateur",
+                "user_displayname": "Nom d'affichage de l'utilisateur",
+                "link_id": "Identifiant de la ressource liée",
+                "locked_at": "Date de verrouillage",
+                "created_at": "Date de création",
+                "updated_at": "Date de mise à jour",
+                "hidden_at": "Date de suppression sans destruction"
             }
         }
     }
