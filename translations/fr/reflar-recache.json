@@ -2,34 +2,34 @@
     "reflar-recache": {
         "forum": {
             "redis": {
-                "error_alert": ""
+                "error_alert": "La connexion Redis a échoué à partir de {time}. Veuillez vérifier vos paramètres car les performances du forum en souffriront grandement."
             }
         },
         "admin": {
             "nav": {
-                "desc": ""
+                "desc": "Configurer les paramètres de mise en cache."
             },
             "page": {
-                "heading": "",
-                "connection_failed": "",
+                "heading": "Paramètres",
+                "connection_failed": "Échec de la connexion.",
                 "switches": {
-                    "cache": "",
-                    "query": "",
-                    "avatar": "",
-                    "lazy": ""
+                    "cache": "Activer le cache",
+                    "query": "Activer le cache de requête (Redis uniquement)",
+                    "avatar": "Activer l'optimisation des images",
+                    "lazy": "Activer le chargement lent des images"
                 },
                 "redis": {
-                    "label": "",
-                    "check": "",
-                    "host": "",
-                    "password": "",
-                    "port": "",
-                    "database": "",
-                    "failed": "",
-                    "fillin": "",
-                    "success": ""
+                    "label": "Redis",
+                    "check": "Vérifiez la connexion avant d'enregistrer !",
+                    "host": "Hôte",
+                    "password": "Mot de passe",
+                    "port": "Port",
+                    "database": "Base de données",
+                    "failed": "Échec de l'enregistrement des paramètres, veuillez vous assurer que « vendor/flarum/core/src/Database/ » est accessible en écriture par votre serveur internet",
+                    "fillin": "Veuillez remplir complètement le formulaire Redis",
+                    "success": "Connecté au serveur Redis."
                 },
-                "check_button": ""
+                "check_button": "Vérifier"
             }
         }
     }
