@@ -649,6 +649,9 @@ return [
 	'the-turk-stargazing-theme' => [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-stargazing-theme/0.1.1/locale/en.yml',
 	],
+	'the-turk-stickiest' => [
+		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-stickiest/v2.0.0-beta.1/locale/en.yml',
+	],
 	'therealsujitk-gifs' => [
 		'tag' => 'https://raw.githubusercontent.com/therealsujitk/flarum-ext-gifs/v4.0.0/resources/locale/en.yml',
 	],
