@@ -27,7 +27,7 @@
                 "nav_item": "私密主题"
             },
             "input": {
-                "search_recipients": "至少输入用户名前三位以搜索用户……"
+                "search_recipients": "输入用户名前三位……"
             },
             "search": {
                 "headings": {
@@ -40,14 +40,14 @@
                     "add_recipients": "邀请用户加入私密主题"
                 },
                 "labels": {
-                    "selected_users": "",
-                    "search_field": ""
+                    "selected_users": "已选用户",
+                    "search_field": "搜索用户"
                 },
                 "help": {
                     "add_recipients": "此主题仅选中的用户可见。至少添加一个用户（您除外）才能创建私密主题。",
                     "update_recipients": "此主题仅选中的用户可见。",
-                    "selected_users": "",
-                    "click_user_to_remove_tooltip": ""
+                    "selected_users": "单击以移除用户。",
+                    "click_user_to_remove_tooltip": "单击移除"
                 }
             },
             "post": {
