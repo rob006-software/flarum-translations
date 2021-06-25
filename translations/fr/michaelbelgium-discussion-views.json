@@ -10,7 +10,7 @@
     "michaelbelgium-discussion-views": {
         "forum": {
             "modal_resetviews": {
-                "title": "Réinitialiser le compteur de vues",
+                "title": "Réinitialiser le nombre de vues de la discussion",
                 "submit_button": "Oui, tout supprimer",
                 "label": "{count, plural, one {Cela supprimera {count} vue de cette discussion. Continuer ?} other {Cela supprimera {count} vues de cette discussion. Continuer ?}}"
             },
@@ -23,16 +23,16 @@
         },
         "admin": {
             "permissions": {
-                "reset_views_label": "Réinitialiser les vues d’une discussion",
-                "view_number_label": "Afficher le nombre de vues d’une discussion"
+                "reset_views_label": "Réinitialiser les vues de la discussion",
+                "view_number_label": "Afficher le compteur de vues de la discussion"
             },
             "settings": {
-                "title": "Paramètres des vues de discussion",
-                "track_unique_label": "Suivi des vues uniques",
-                "abbr_numbers_label": "Numéros de vue abrégés",
+                "title": "Paramètres des vues de la discussion",
+                "track_unique_label": "Suivre les vues uniques",
+                "abbr_numbers_label": "Abréger le nombre de vues",
                 "show_filter_label": "Activer le champ de tri (im)populaire",
-                "max_viewcount_label": "Nombre maximal d’éléments dans la liste de visualisation",
-                "show_viewlist_label": "Activer la liste de visualisation"
+                "max_viewcount_label": "Nombre maximal d'éléments de la liste d'affichage",
+                "show_viewlist_label": "Activer la liste d'affichage"
             }
         }
     }
