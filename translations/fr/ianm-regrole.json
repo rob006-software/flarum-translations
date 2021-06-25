@@ -2,19 +2,19 @@
     "the-turk-regrole": {
         "admin": {
             "settings": {
-                "title": "",
-                "roleIds": "",
-                "roleIdsHelp": "",
-                "otherOptions": "",
-                "multipleRoles": "",
-                "forceUsers": ""
+                "title": "Paramètres des rôles de l'inscription",
+                "roleIds": "Rôles autorisés",
+                "roleIdsHelp": "Choisissez les rôles que les utilisateurs sont autorisés à s'attribuer.",
+                "otherOptions": "Autres options",
+                "multipleRoles": "Autoriser les utilisateurs à avoir plusieurs rôles assignés",
+                "forceUsers": "Obliger les utilisateurs à s'attribuer au moins un rôle"
             }
         },
         "forum": {
-            "chooseRole": "",
-            "chooseRoleHelp": "",
-            "requiredRegRole": "",
-            "save": ""
+            "chooseRole": "Choisir un rôle",
+            "chooseRoleHelp": "Veuillez choisir un rôle pour continuer à utiliser notre forum.",
+            "requiredRegRole": "Vous devez choisir un rôle pour poursuivre l'inscription.",
+            "save": "=> core.ref.save_changes"
         }
     }
 }
