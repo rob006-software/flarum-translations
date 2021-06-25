@@ -3,42 +3,42 @@
         "admin": {
             "settings": {
                 "options": {
-                    "airplay": "",
-                    "hotkey": "",
-                    "lang": "",
-                    "logo": "",
-                    "quality_switching": "",
-                    "theme": ""
+                    "airplay": "Temps d'antenne",
+                    "hotkey": "Touche de raccourci",
+                    "lang": "Langue du lecteur",
+                    "logo": "URL du logo",
+                    "quality_switching": "Permettre le changement de qualité",
+                    "theme": "Couleur du thème"
                 },
                 "permissions": {
-                    "can_create_video_player": ""
+                    "can_create_video_player": "Peut créer un lecteur vidéo"
                 },
                 "video_types": {
-                    "dash": "",
-                    "flv": "",
-                    "hls": "",
-                    "shaka": "",
-                    "webtorrent": ""
+                    "dash": "Tableau de bord",
+                    "flv": "FLV",
+                    "hls": "HLS",
+                    "shaka": "Shaka",
+                    "webtorrent": "WebTorrent"
                 }
             }
         },
         "forum": {
-            "button_tooltip_title": "",
+            "button_tooltip_title": "Intégrer la vidéo",
             "modal": {
-                "live_mode": "",
-                "submit_button": "",
-                "title": "",
-                "video_type_label": "",
+                "live_mode": "Mode en direct",
+                "submit_button": "Enregistrer les modifications",
+                "title": "Intégrer la vidéo",
+                "video_type_label": "Type de vidéo",
                 "video_types": {
-                    "normal": "",
-                    "dash": "",
-                    "flv": "",
-                    "hls": "",
-                    "shaka": "",
-                    "webtorrent": ""
+                    "normal": "Normal",
+                    "dash": "Tableau de bord",
+                    "flv": "FLV",
+                    "hls": "HLS",
+                    "shaka": "Shaka",
+                    "webtorrent": "WebTorrent"
                 },
-                "video_url_label": "",
-                "video_url_placeholder": ""
+                "video_url_label": "URL de la vidéo",
+                "video_url_placeholder": "Exemple : https://exemple.com/nomdufichier.mp4"
             }
         }
     }
