@@ -1,89 +1,89 @@
 {
     "v17development-flarum-badges": {
         "admin": {
-            "uncategorized": "",
-            "new_badge": "",
-            "create_category": "",
-            "update_badge": "",
-            "update_category": "",
-            "edit_category": "",
-            "nothing_here_yet": "",
+            "uncategorized": "Sans catégorie",
+            "new_badge": "Nouveau badge",
+            "create_category": "Créer une catégorie",
+            "update_badge": "Mettre à jour le badge",
+            "update_category": "Mettre à jour la catégorie",
+            "edit_category": "Modifier la catégorie",
+            "nothing_here_yet": "Vous n'avez pas encore créé de badges ou de catégories.",
             "permissions": {
-                "give_badge": "",
-                "take_badge": ""
+                "give_badge": "Donner un badge à l'utilisateur",
+                "take_badge": "Prendre le badge de l'utilisateur"
             },
             "confirm_dialog": {
-                "title": "",
-                "no": "",
-                "yes": ""
+                "title": "Confirmer",
+                "no": "Non",
+                "yes": "Oui"
             },
             "confirm_messages": {
-                "delete_badge": "",
-                "delete_category": ""
+                "delete_badge": "Êtes-vous sûr de vouloir retirer ce badge ? Il est retiré à tous les utilisateurs et cette opération est irréversible.",
+                "delete_category": "Êtes-vous sûr de vouloir supprimer cette catégorie ? Si des badges existent dans cette catégorie, ils seront marqués comme « sans catégorie »."
             },
             "badge": {
-                "name": "",
-                "icon": "",
-                "description": "",
-                "visible": "",
-                "visible_description": ""
+                "name": "Nom du badge",
+                "icon": "Icône du badge",
+                "description": "Description du badge",
+                "visible": "Visible",
+                "visible_description": "Activer ce badge. Lorsque cette option est désactivée, le badge n'est pas visible."
             },
             "badge_category": {
-                "name": "",
-                "description": "",
-                "enabled": "",
-                "enabled_description": ""
+                "name": "Nom de la catégorie",
+                "description": "Description de la catégorie",
+                "enabled": "Activée",
+                "enabled_description": "Activer cette catégorie. Lorsque cette option est désactivée, tous les badges sont désactivés et la catégorie est masquée."
             },
             "auto_moderator": {
                 "not_installed": {
-                    "title": "",
-                    "content": "",
-                    "install": "",
-                    "dismiss": ""
+                    "title": "Récompenser automatiquement les utilisateurs avec des badges",
+                    "content": "Cette extension offre plus de fonctionnalités lorsque l'extension <a>Auto Moderator</a> est installée et activée. Lorsque vous installez cette extension, les utilisateurs peuvent être automatiquement récompensés par des badges sans l'intervention d'un membre de la communauté !",
+                    "install": "Installer",
+                    "dismiss": "Ne plus afficher"
                 },
                 "action_drivers": {
-                    "badge_id": "",
-                    "give_badge": "",
-                    "remove_badge": ""
+                    "badge_id": "Identifiant du badge",
+                    "give_badge": "Donner un badge",
+                    "remove_badge": "Retirer un badge"
                 },
                 "requirement_drivers": {
-                    "has_badge": ""
+                    "has_badge": "Possède un badge"
                 },
                 "metric_drivers": {
-                    "badges_received": ""
+                    "badges_received": "Badges reçus"
                 },
                 "badge_selector": {
-                    "placeholder": "",
-                    "loading_badges": ""
+                    "placeholder": "Sélectionner un badge",
+                    "loading_badges": "Chargement des badges"
                 }
             }
         },
         "forum": {
-            "badge_information": "",
-            "all_badges": "",
-            "all_users": "",
-            "give_badge": "",
-            "update_badge": "",
-            "select_badge": "",
-            "user_has_badge": "",
-            "user_no_badges": "",
-            "uncategorized": "",
+            "badge_information": "Informations sur les badges",
+            "all_badges": "Voir tous les badges",
+            "all_users": "Voir tous les utilisateurs",
+            "give_badge": "Donner un badge",
+            "update_badge": "Mettre à jour le badge",
+            "select_badge": "Sélectionner le badge",
+            "user_has_badge": "L'utilisateur possède déjà ce badge.",
+            "user_no_badges": "Cet utilisateur n'a pas encore de badge.",
+            "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
             "badge": {
-                "badge": "",
-                "badges": "",
-                "name": "",
-                "description": "",
-                "earning_reason": "",
-                "update_earning_reason": "",
-                "no_earning_reason": "",
-                "earned_on": "",
-                "category": "",
-                "earned_count": ""
+                "badge": "Badge",
+                "badges": "Badges",
+                "name": "Nom du badge",
+                "description": "Description du badge",
+                "earning_reason": "Motif d'obtention du badge",
+                "update_earning_reason": "Mettre à jour le motif d'obtention",
+                "no_earning_reason": "Aucun motif d'obtention défini",
+                "earned_on": "Badge obtenu le",
+                "category": "Catégorie de badge",
+                "earned_count": "{count, plural, one {<b># utilisateur</b> a obtenu ce badge} other {<b># utilisateurs</b> ont obtenu ce badge}}"
             },
             "moderation": {
-                "remove_badge": "",
-                "remove_badge_confirm": "",
-                "give_badge": ""
+                "remove_badge": "Retirer le badge de l'utilisateur",
+                "remove_badge_confirm": "Êtes-vous sûr de vouloir retirer ce badge à cet utilisateur ?",
+                "give_badge": "Donner un badge"
             }
         }
     }
