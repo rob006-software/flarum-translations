@@ -449,7 +449,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Littlegolden/flarum-uitab/v0.3.3/resources/locale/en.yml',
 	],
 	'jslirola-login2seeplus' => [
-		'tag' => 'https://raw.githubusercontent.com/jslirola/flarum-ext-login2seeplus/v0.1.9.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/jslirola/flarum-ext-login2seeplus/v0.2/locale/en.yml',
 	],
 	'justoverclock-contactme' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-contactme/0.2.0/resources/locale/en.yml',
