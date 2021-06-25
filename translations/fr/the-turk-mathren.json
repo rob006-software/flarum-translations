@@ -36,17 +36,17 @@
                 "enableThrowOnError": "Afficher une erreur en cas de commande non prise en charge ou de LaTeX non valide",
                 "regexInfo": "Ils ne doivent être composés que de lettres majuscules ou minuscules et de tirets.",
                 "otherOptionsHeading": "Autres options",
-                "enableTextEditorButtons": "",
-                "enableCopyTeX": "",
-                "mentions": "",
-                "saved_message": "",
-                "validation": ""
+                "enableTextEditorButtons": "Afficher les boutons de l'éditeur de texte",
+                "enableCopyTeX": "Autoriser de copier la source des éléments rendus par KaTeX",
+                "mentions": "Vous devez activer l'extension <code>flarum/mentions</code> pour activer le bouton de citation.",
+                "saved_message": "=> core.admin.basics.saved_message",
+                "validation": "La validation du champ « {field_key} » a échoué."
             }
         },
         "forum": {
             "textEditor": {
-                "blockExpression": "",
-                "inlineExpression": ""
+                "blockExpression": "Expression en bloc",
+                "inlineExpression": "Expression en ligne"
             }
         }
     }
