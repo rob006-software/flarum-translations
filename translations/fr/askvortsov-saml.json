@@ -7,7 +7,7 @@
             "title": "Configuration de SSO SAML2",
             "labels": {
                 "idp_metadata_url": "URL des métadonnées du fournisseur d'identité (alternative à XML)",
-                "idp_metadata": "XML des métadonnées du fournisseur d’identité (alternative à l'URL)",
+                "idp_metadata": "XML des métadonnées du fournisseur d'identité (alternative à l'URL)",
                 "only_option": "Utiliser SAML2 SSO comme seule option de connexion ?",
                 "sync_attributes": "Synchroniser les attributs (avatar, groupes, biographie et profil) ? Requiert l'extension askvortsov/auth-sync.",
                 "nameid_format": "Format de NameID",
