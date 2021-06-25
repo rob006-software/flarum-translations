@@ -1,145 +1,145 @@
 {
     "sycho-action-log": {
         "admin": {
-            "title": "",
-            "description": "",
-            "total_entries": "",
-            "page": "",
-            "no_entries": "",
-            "search": "",
-            "settings": "",
-            "action_settings": "",
-            "save": "",
-            "clear": "",
-            "clear_confirmation": "",
+            "title": "Journal des actions",
+            "description": "Afficher une liste de toutes les actions de modération et d'administration prises au cours de la semaine écoulée.",
+            "total_entries": "{count} entrées au total.",
+            "page": "Page : {number}",
+            "no_entries": "Aucune entrée",
+            "search": "Rechercher...",
+            "settings": "=> core.ref.settings",
+            "action_settings": "Vous pouvez contrôler ici quelles actions sont à enregistrer.",
+            "save": "=> core.ref.save_changes",
+            "clear": "Effacer le journal",
+            "clear_confirmation": "Êtes-vous sûr de vouloir effacer le journal ? Cette action est irréversible.",
             "sort": {
-                "newest": "",
-                "oldest": ""
+                "newest": "=> core.forum.index_sort.newest_button",
+                "oldest": "=> core.forum.index_sort.oldest_button"
             },
             "gambits": {
-                "label": "",
-                "description": "",
+                "label": "Filtres de recherche",
+                "description": "Vous pouvez utiliser les filtres suivants dans la zone de recherche. (Par exemple : type:moderation)",
                 "items": {
-                    "type": "",
-                    "action": "",
-                    "resource": "",
-                    "actor": ""
+                    "type": "Le type d'action (modération ou administration).",
+                    "action": "Le nom de l'action (supprimé, créé, activé, étiqueté, etc.)",
+                    "resource": "Le type de ressource sur lequel l'action a été effectuée (par exemple : discussion).",
+                    "actor": "Nom de l'acteur qui a pris l'action."
                 }
             },
             "actions": {
                 "moderation": {
-                    "label": "",
+                    "label": "Modération",
                     "discussion": {
-                        "label": "",
+                        "label": "Discussion",
                         "locked": {
-                            "label": "",
-                            "action": ""
+                            "label": "Verrouillée",
+                            "action": "La discussion {discussion} a été verrouillée"
                         },
                         "unlocked": {
-                            "label": "",
-                            "action": ""
+                            "label": "Déverrouillée",
+                            "action": "La discussion {discussion} a été déverrouillée"
                         },
                         "hidden": {
-                            "label": "",
-                            "action": ""
+                            "label": "Masquée",
+                            "action": "La discussion {discussion} a été masquée"
                         },
                         "restored": {
-                            "label": "",
-                            "action": ""
+                            "label": "Restaurée",
+                            "action": "La discussion {discussion} a été restaurée"
                         },
                         "deleted": {
-                            "label": "",
-                            "action": ""
+                            "label": "Supprimée",
+                            "action": "La discussion {discussion} a été supprimée"
                         },
                         "stickied": {
-                            "label": "",
-                            "action": ""
+                            "label": "Épinglée",
+                            "action": "La discussion {discussion} a été épinglée"
                         },
                         "unstickied": {
-                            "label": "",
-                            "action": ""
+                            "label": "Désépinglée",
+                            "action": "La discussion {discussion} a été désépinglée"
                         },
                         "tagged": {
-                            "label": "",
+                            "label": "Étiquetée",
                             "action": {
-                                "add_remove": "",
-                                "add": "",
-                                "remove": "",
-                                "tags_text": ""
+                                "add_remove": "Les étiquettes {tags} ont été ajoutées et {oldTags} ont été supprimées de la discussion {discussion}",
+                                "add": "Les étiquettes {tags} ont été ajoutées à la discussion {discussion}",
+                                "remove": "Les étiquettes {oldTags} ont été supprimées de la discussion {discussion}",
+                                "tags_text": "Étiquette {tags}|Étiquettes {tags}"
                             }
                         },
                         "renamed": {
-                            "label": "",
-                            "action": ""
+                            "label": "Renommée",
+                            "action": "La discussion {oldTitle} a été renommée en {discussion}"
                         }
                     },
                     "post": {
-                        "label": "",
+                        "label": "Message",
                         "approved": {
-                            "label": "",
-                            "action": ""
+                            "label": "Approuvé",
+                            "action": "Le message {post} a été approuvé par {author} dans la discussion {discussion}"
                         }
                     },
                     "user": {
-                        "label": "",
+                        "label": "Utilisateur",
                         "suspended": {
-                            "label": "",
-                            "action": ""
+                            "label": "Suspendu",
+                            "action": "L'utilisateur {u} a été suspendu"
                         },
                         "unsuspended": {
-                            "label": "",
-                            "action": ""
+                            "label": "Désuspendu",
+                            "action": "L'utilisateur {u} a été désuspendu"
                         },
                         "activated": {
-                            "label": "",
-                            "action": ""
+                            "label": "Activé",
+                            "action": "L'utilisateur {u} a été activé"
                         }
                     }
                 },
                 "administration": {
-                    "label": "",
+                    "label": "Administration",
                     "group": {
-                        "label": "",
+                        "label": "Groupe",
                         "created": {
-                            "label": "",
-                            "action": ""
+                            "label": "Créé",
+                            "action": "Un nouveau groupe {group} a été créé"
                         },
                         "deleted": {
-                            "label": "",
-                            "action": ""
+                            "label": "Supprimé",
+                            "action": "Le groupe {group} a été supprimé"
                         }
                     },
                     "tag": {
-                        "label": "",
+                        "label": "Étiquette",
                         "created": {
-                            "label": "",
-                            "action": ""
+                            "label": "Créée",
+                            "action": "Une nouvelle étiquette {tag} a été créée"
                         },
                         "deleted": {
-                            "label": "",
-                            "action": ""
+                            "label": "Supprimée",
+                            "action": "L'étiquette {tag} a été supprimée"
                         }
                     },
                     "extension": {
-                        "label": "",
+                        "label": "Extension",
                         "enabled": {
-                            "label": "",
-                            "action": ""
+                            "label": "Activée",
+                            "action": "L'extension {extension} a été activée"
                         },
                         "disabled": {
-                            "label": "",
-                            "action": ""
+                            "label": "Désactivée",
+                            "action": "L'extension {extension} a été désactivée"
                         },
                         "uninstalled": {
-                            "label": "",
-                            "action": ""
+                            "label": "Désinstallée",
+                            "action": "L'extension {extension} a été désinstallée"
                         }
                     },
                     "permission": {
-                        "label": "",
+                        "label": "Permission",
                         "edited": {
-                            "label": "",
-                            "action": ""
+                            "label": "Définir",
+                            "action": "Définir la permission {permission} aux groupes {groups}"
                         }
                     }
                 }
