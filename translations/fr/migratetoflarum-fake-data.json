@@ -6,7 +6,7 @@
                 "bulk-mode-description": "=> migratetoflarum-fake-data.ref.bulk-mode-description",
                 "user-count": "=> migratetoflarum-fake-data.ref.user-count",
                 "discussion-count": "Nombre de discussions à créer",
-                "discussion-tags": "Étiquettes pour les nouvelles discussions",
+                "discussion-tags": "Étiquettes des nouvelles discussions",
                 "discussion-tags-none": "Aucun",
                 "discussion-tags-random": "Aléatoire",
                 "post-count": "=> migratetoflarum-fake-data.ref.post-count",
@@ -33,13 +33,13 @@
             }
         },
         "api": {
-            "no-users-matched": "Aucun utilisateur correspondant",
+            "no-users-matched": "Aucun utilisateur ne correspond",
             "no-discussions-matched": "Aucune discussion ne correspond"
         },
         "ref": {
             "bulk-mode": "Mode en masse",
             "bulk-mode-description": "Génère une seule valeur aléatoire et la réutilise pour chaque entrée",
-            "user-count": "Nombre d’utilisateurs à créer",
+            "user-count": "Nombre d'utilisateurs à créer",
             "post-count": "Nombre de messages à créer",
             "date": "Graine de génération de la date",
             "date-start-placeholder": "Date de début (par défaut : maintenant)",
