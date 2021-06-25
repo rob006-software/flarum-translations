@@ -5,35 +5,35 @@
                 "back_to_user_directory_tooltip": "Retour au répertoire des utilisateurs"
             },
             "search": {
-                "users_heading": "Rechercher tous les utilisateurs pour \"{query}\"",
+                "users_heading": "Rechercher tous les utilisateurs pour « {query} »",
                 "field": {
                     "placeholder": "Rechercher tous les utilisateurs"
                 }
             },
             "page": {
-                "nav": "Répertoire utilisateurs",
+                "nav": "Répertoire des utilisateurs",
                 "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
                 "load_more_button": "=> core.ref.load_more",
-                "empty_text": "Nous n’avons trouvé aucun utilisateur correspondant à votre recherche.",
+                "empty_text": "Nous n'avons trouvé aucun utilisateur correspondant à votre recherche.",
                 "filter_button": "Groupes de filtres"
             }
         },
         "admin": {
             "permissions": {
-                "view_user_directory": "Voir le répertoire utilisateur"
+                "view_user_directory": "Voir le répertoire des utilisateurs"
             },
             "settings": {
-                "link": "Ajouter un lien sur la page d’accueil pour les utilisateurs pouvant voir le répertoire",
+                "link": "Ajouter un lien sur la page d'accueil pour que les utilisateurs puissent voir le répertoire",
                 "default-sort": "Tri par défaut",
-                "use-small-cards": "Utiliser de petites cartes d’utilisateur"
+                "use-small-cards": "Utiliser de petites cartes d'utilisateur"
             }
         },
         "lib": {
             "sort": {
                 "not_specified": "Utiliser Flarum par défaut",
                 "default": "Par défaut",
-                "username_az": "Nom d’utilisateur (a-z)",
-                "username_za": "Nom d’utilisateur (z-a)",
+                "username_az": "Nom d'utilisateur (a-z)",
+                "username_za": "Nom d'utilisateur (z-a)",
                 "newest": "Le plus récent",
                 "oldest": "Le plus ancien",
                 "most_posts": "Le plus de messages",
