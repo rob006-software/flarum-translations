@@ -2,61 +2,61 @@
     "clarkwinkelmann-carving-contest": {
         "forum": {
             "nav": {
-                "contest": ""
+                "contest": "Concours de sculpture"
             },
             "page": {
-                "title": "",
-                "loading": "",
-                "participate": "",
-                "already-participated": "",
-                "delete-confirmation": "",
-                "like": "",
-                "already-liked": "",
-                "unlike": "",
-                "refresh": "",
-                "load-more": "",
+                "title": "Concours de sculpture sur citrouille",
+                "loading": "Chargement des entrées...",
+                "participate": "Participer",
+                "already-participated": "A déjà participé",
+                "delete-confirmation": "Voulez-vous vraiment supprimer « {name} » de {username} ?",
+                "like": "J'aime",
+                "already-liked": "J'aime ça",
+                "unlike": "Je n'aime pas",
+                "refresh": "Actualiser",
+                "load-more": "Charger davantage d'entrées",
                 "sort": {
-                    "mostLikes": "",
-                    "fewerLikes": "",
-                    "mostRecent": "",
-                    "leastRecent": ""
+                    "mostLikes": "Les plus aimées",
+                    "fewerLikes": "Les moins aimées",
+                    "mostRecent": "Les plus récentes",
+                    "leastRecent": "Les moins récentes"
                 },
                 "likes": {
-                    "you_text": "",
-                    "others_link": "",
-                    "liked_by_self_text": "",
-                    "liked_by_text": ""
+                    "you_text": "=> core.ref.you",
+                    "others_link": "=> core.ref.some_others",
+                    "liked_by_self_text": "{users} aiment ça.",
+                    "liked_by_text": "{users} aime ça.|{users} aiment ça."
                 }
             },
             "modal": {
-                "title": "",
-                "name": "",
-                "submit": "",
+                "title": "Participer",
+                "name": "Nommez votre création",
+                "submit": "Envoyer",
                 "tools": {
-                    "circle": "",
-                    "square": ""
+                    "circle": "Cercle",
+                    "square": "Carré"
                 }
             },
             "likes_modal": {
-                "title": ""
+                "title": "Utilisateurs qui ont aimé cette entrée"
             }
         },
         "admin": {
             "permissions": {
-                "view": "",
-                "like": "",
-                "participate": "",
-                "moderate": ""
+                "view": "Voir les entrées",
+                "like": "Aimer les entrées",
+                "participate": "Participer",
+                "moderate": "Modérer"
             },
             "settings": {
-                "maxEntriesPerUser": "",
-                "colorMode": ""
+                "maxEntriesPerUser": "Soumissions maximales par utilisateur",
+                "colorMode": "Utiliser le mode couleur au lieu du mode sculpture"
             },
             "colors": {
-                "simple": "",
-                "all": "",
-                "custom": "",
-                "custom-help": ""
+                "simple": "Jeu de couleurs simple",
+                "all": "N'importe quelle couleur",
+                "custom": "Liste de couleurs personnalisées",
+                "custom-help": "Liste de valeurs #HEX ou RGB() séparées par des virgules"
             }
         }
     }
