@@ -2,7 +2,7 @@
     "clarkwinkelmann-shadow-ban": {
         "admin": {
             "setting": {
-                "hideUsers": "Masquer les profils d’utilisateurs bannis furtivement"
+                "hideUsers": "Masquer les profils d'utilisateurs bannis furtivement"
             },
             "permission": {
                 "ban": "Utilisateurs bannis furtivement",
@@ -23,16 +23,16 @@
             },
             "banUser": {
                 "title": "Suspendre {username}",
-                "until": "Jusqu’à la date (UTC)",
+                "until": "Jusqu’à la date (au format UTC)",
                 "quick": "Choix rapides",
-                "quickChoiceReset": "Non banni",
+                "quickChoiceReset": "Pas banni",
                 "quickChoiceDays": "{count, plural, one {# jour} other {# jours}}",
                 "submit": "Enregistrer"
             },
             "badge": {
                 "user": "Banni furtivement",
-                "discussion": "Caché furtivement",
-                "post": "Caché furtivement"
+                "discussion": "Masqué furtivement",
+                "post": "Masqué furtivement"
             }
         }
     }
