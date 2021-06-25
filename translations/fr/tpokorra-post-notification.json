@@ -5,25 +5,25 @@
                 "title": "Configuration des notifications de messages",
                 "recipients": {
                     "post_approval": {
-                        "to": ""
+                        "to": "Liste d'adresses de courriel séparées par des virgules pour le destinataire en « À » de l'approbation des nouveaux messages"
                     },
                     "new_discussion": {
-                        "to": "",
-                        "bcc": ""
+                        "to": "Liste d'adresses de courriel séparées par des virgules pour le destinataire en « À » des nouvelles discussions",
+                        "bcc": "Liste d'adresses de courriel séparées par des virgules pour le destinataire en « Cci » des nouvelles discussions"
                     },
                     "new_post": {
-                        "to": "",
-                        "bcc": ""
+                        "to": "Liste d'adresses de courriel séparées par des virgules pour le destinataire en « À » des nouveaux messages",
+                        "bcc": "Liste d'adresses de courriel séparées par des virgules pour le destinataire en « Cci » des nouveaux messages"
                     },
                     "revised_post": {
-                        "to": "",
-                        "bcc": ""
+                        "to": "Liste d'adresses de courriel séparées par des virgules pour le destinataire en « À » des messages révisés",
+                        "bcc": "Liste d'adresses de courriel séparées par des virgules pour le destinataire en « Cci » des messages révisés"
                     }
                 },
-                "new_discussion": "",
-                "new_post": "",
-                "revised_post": "",
-                "post_approval": ""
+                "new_discussion": "Libellé pour décrire une nouvelle discussion",
+                "new_post": "Libellé pour décrire un nouveau message",
+                "revised_post": "Libellé pour décrire un message révisé",
+                "post_approval": "Libellé pour décrire un nouveau message qui doit être approuvé"
             }
         }
     }
