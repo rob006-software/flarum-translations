@@ -4,8 +4,8 @@
             "autodiscovery": {
                 "forum_activity": "Activité du forum",
                 "forum_new_discussions": "Nouvelles discussions du forum",
-                "tag_activity": "Activité pour l’étiquette {tag}",
-                "tag_new_discussions": "Discussions dans l’étiquette {tag}",
+                "tag_activity": "Activité sous l'étiquette {tag}",
+                "tag_new_discussions": "Discussions sous l'étiquette {tag}",
                 "discussion_last_posts": "Cette discussion"
             },
             "feeds": {
@@ -14,10 +14,10 @@
                     "main_subtitle": "Derniers messages du forum",
                     "main_d_title": "Nouvelles discussions dans {forum_name}",
                     "main_d_subtitle": "Les dernières discussions du forum",
-                    "tag_title": "Activité dans l’étiquette {tag}",
-                    "tag_subtitle": "Derniers messages dans l’étiquette {tag}",
-                    "tag_d_title": "Nouvelles discussions dans l’étiquette {tag}",
-                    "tag_d_subtitle": "Les discussions récentes dans l’étiquette {tag}",
+                    "tag_title": "Activité sous l'étiquette {tag}",
+                    "tag_subtitle": "Derniers messages sous l'étiquette {tag}",
+                    "tag_d_title": "Nouvelles discussions sous l'étiquette {tag}",
+                    "tag_d_subtitle": "Les discussions récentes sous l'étiquette {tag}",
                     "discussion_title": "{discussion_name}",
                     "discussion_subtitle": "Derniers messages de cette discussion"
                 }
@@ -28,14 +28,14 @@
                 "title": "Paramètres de syndication",
                 "full-text": {
                     "label": "Flux de texte intégral",
-                    "help": "Si désactivé, les flux ne contiendront que des extraits de messages et les utilisateurs devront se rendre sur le forum pour tout lire.",
-                    "recommendation": "Il est recommandé de laisser cette option active afin de respecter les personnes qui suivent le forum depuis un agrégateur RSS — pour autant qu'il y en ait un."
+                    "help": "Si cette option est désactivée, les flux ne contiendront que des extraits de messages et les utilisateurs devront se rendre sur le forum pour tout lire.",
+                    "recommendation": "Il est recommandé de laisser cette option activée afin de respecter les personnes qui suivent le forum depuis un agrégateur RSS — pour autant qu'il y en ait un."
                 },
                 "html": {
                     "label": "Flux formatés",
-                    "help": "Cochez cette case pour conserver le HTML dans les flux générés. Si désactivée, les flux seront en texte brut."
+                    "help": "Cochez cette case pour conserver le HTML dans les flux générés. Si cette option est désactivée, les flux seront en texte brut."
                 },
-                "entries-count": "Combien d’entrées par flux ?"
+                "entries-count": "Combien d'entrées par flux ?"
             }
         }
     }
