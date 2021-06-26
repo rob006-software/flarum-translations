@@ -1,0 +1,35 @@
+{
+    "flarum-nicknames": {
+        "admin": {
+            "permissions": {
+                "edit_own_nickname_label": "Redaguoti savo slapyvardį"
+            },
+            "settings": {
+                "max_label": "Ilgiausias slapyvardis",
+                "min_label": "Trumpiausias slapyvardis",
+                "regex_label": "Reguliari patvirtinimo išraiška",
+                "unique_label": "Reikalauti unikalių slapyvardžių?"
+            },
+            "wrong_driver": "Turite pasirinkti \"slapyvardį\" kaip rodomą vartotojo vardą <a><strong>Pagrindiniame puslapyje</strong></a>, kad šis įskiepis įsigaliotų."
+        },
+        "api": {
+            "invalid_nickname_message": "Šis slapyvardis yra neteisingas. Norėdami gauti daugiau informacijos apie slapyvardžio taisykles, susiekite su administracija."
+        },
+        "forum": {
+            "change_nickname": {
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> flarum-nicknames.ref.change_nickname"
+            },
+            "edit_user": {
+                "nicknames_heading": "=> flarum-nicknames.ref.change_nickname",
+                "nicknames_text": "Slapyvardis"
+            },
+            "settings": {
+                "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
+            }
+        },
+        "ref": {
+            "change_nickname": "Keisti slapyvardį"
+        }
+    }
+}

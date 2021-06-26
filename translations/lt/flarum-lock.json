@@ -1,0 +1,28 @@
+{
+    "flarum-lock": {
+        "admin": {
+            "permissions": {
+                "lock_discussions_label": "Lock discussions"
+            }
+        },
+        "forum": {
+            "badge": {
+                "locked_tooltip": "Užrakinta"
+            },
+            "discussion_controls": {
+                "lock_button": "Rakinti",
+                "unlock_button": "Atrakinti"
+            },
+            "notifications": {
+                "discussion_locked_text": "{username} užrakino"
+            },
+            "post_stream": {
+                "discussion_locked_text": "{username} užrakino šią temą.",
+                "discussion_unlocked_text": "{username} atrakino šią temą."
+            },
+            "settings": {
+                "notify_discussion_locked_label": "Kažkas užrakino temą kurią pradėjau"
+            }
+        }
+    }
+}
