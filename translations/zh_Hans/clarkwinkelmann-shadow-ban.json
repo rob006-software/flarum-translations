@@ -2,37 +2,37 @@
     "clarkwinkelmann-shadow-ban": {
         "admin": {
             "setting": {
-                "hideUsers": ""
+                "hideUsers": "隐藏Shadow ban已禁止的用户的资料"
             },
             "permission": {
-                "ban": "",
-                "hide": ""
+                "ban": "隐藏Shadow ban禁止的用户",
+                "hide": "隐藏讨论和帖子"
             }
         },
         "forum": {
             "discussionControl": {
-                "hide": "",
-                "restore": ""
+                "hide": "隐藏",
+                "restore": "隐藏恢复"
             },
             "postControl": {
-                "hide": "",
-                "restore": ""
+                "hide": "隐藏起来",
+                "restore": "从隐藏中恢复"
             },
             "userControl": {
-                "ban": ""
+                "ban": "Shadow ban"
             },
             "banUser": {
-                "title": "",
-                "until": "",
-                "quick": "",
-                "quickChoiceReset": "",
-                "quickChoiceDays": "",
-                "submit": ""
+                "title": "停止 {username} 用户",
+                "until": "截止日期 为 (UTC)",
+                "quick": "快速选择",
+                "quickChoiceReset": "没有禁止",
+                "quickChoiceDays": "{count, plural, one {# day} other {# days}}",
+                "submit": "保存"
             },
             "badge": {
-                "user": "",
-                "discussion": "",
-                "post": ""
+                "user": "已经禁止了",
+                "discussion": "已经隐藏了",
+                "post": "已经隐藏了"
             }
         }
     }
