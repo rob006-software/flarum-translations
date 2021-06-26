@@ -41,6 +41,7 @@ return [
 	]),
 	'ja' => getComponents(),
 	'ka' => getComponents(),
+	'lt' => getComponents(),
 	'lv' => getComponents(),
 	'nl' => getComponents([
 		// translations included in extension
@@ -58,7 +59,7 @@ return [
 		'!the-turk-fancybox',
 		'!the-turk-mathren',
 		'!the-turk-password-strength',
-		'!the-turk-pallet-theme', 
+		'!the-turk-pallet-theme',
 		'!glowingblue-password-strength',
 		'!the-turk-quiet-edits',
 		'!the-turk-regrole',
