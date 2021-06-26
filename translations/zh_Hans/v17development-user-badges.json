@@ -9,6 +9,7 @@
             "edit_category": "编辑分组",
             "nothing_here_yet": "您还没有创建任何徽章或分组。",
             "permissions": {
+                "badge_detail_users": "",
                 "give_badge": "分配用户徽章",
                 "take_badge": "撤除用户徽章"
             },
@@ -31,6 +32,8 @@
             "badge_category": {
                 "name": "分组名",
                 "description": "分组描述",
+                "blockview": "",
+                "blockview_description": "",
                 "enabled": "启用",
                 "enabled_description": "启用此分组。禁用时，所有徽章将不可用且分组被隐藏。"
             },
@@ -67,6 +70,7 @@
             "select_badge": "选择徽章",
             "user_has_badge": "该用户已拥有此徽章。",
             "user_no_badges": "该用户尚未拥有徽章。",
+            "no_received": "",
             "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
             "badge": {
                 "badge": "徽章",
@@ -78,12 +82,19 @@
                 "no_earning_reason": "无授予理由",
                 "earned_on": "徽章授予于",
                 "category": "徽章分组",
-                "earned_count": "<b>{count} 用户</b> 已获得此徽章|<b>{count} 用户</b> 已获得此徽章"
+                "received_on": "",
+                "badge_details": "",
+                "earned_count": "<b>{count} 用户</b> 已获得此徽章|<b>{count} 用户</b> 已获得此徽章",
+                "earned_by_count": ""
             },
             "moderation": {
                 "remove_badge": "移除徽章",
                 "remove_badge_confirm": "确定要移除该用户的这个徽章吗？",
                 "give_badge": "授予徽章"
+            },
+            "notification": {
+                "title": "",
+                "settings": ""
             }
         }
     }

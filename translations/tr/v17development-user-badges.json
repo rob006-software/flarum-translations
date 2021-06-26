@@ -9,6 +9,7 @@
             "edit_category": "Kategoriyi düzenle",
             "nothing_here_yet": "Henüz bir rozet veya kategori oluşturmamışsın.",
             "permissions": {
+                "badge_detail_users": "",
                 "give_badge": "Kullanıcıya rozet ver",
                 "take_badge": "Kullanıcıdan rozeti al"
             },
@@ -31,6 +32,8 @@
             "badge_category": {
                 "name": "Kategori adı",
                 "description": "Kategori açıklaması",
+                "blockview": "",
+                "blockview_description": "",
                 "enabled": "Etkinleştirildi",
                 "enabled_description": "Bu kategoriyi etkinleştir. Etkisizleştirildiğinde tüm rozetler ve kategori gizlenir."
             },
@@ -67,6 +70,7 @@
             "select_badge": "Rozeti seç",
             "user_has_badge": "Bu kullanıcı zaten rozete sahip.",
             "user_no_badges": "Bu kullanıcı herhangi bir rozete sahip değil.",
+            "no_received": "",
             "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
             "badge": {
                 "badge": "Rozet",
@@ -78,12 +82,19 @@
                 "no_earning_reason": "Kazanma nedeni yok",
                 "earned_on": "Rozet şu nedenle kazanıldı",
                 "category": "Rozet kategorisi",
-                "earned_count": "{count, plural, one  {<b># kullanıcı</b> bu rozeti kazandı} other {<b># kullanıcı</b> bu rozeti kazandı}}"
+                "received_on": "",
+                "badge_details": "",
+                "earned_count": "{count, plural, one  {<b># kullanıcı</b> bu rozeti kazandı} other {<b># kullanıcı</b> bu rozeti kazandı}}",
+                "earned_by_count": ""
             },
             "moderation": {
                 "remove_badge": "Kullanıcıdan rozeti kaldır",
                 "remove_badge_confirm": "Bu kullanıcıdan rozeti kaldırmak istediğine emin misiniz?",
                 "give_badge": "Rozet ver"
+            },
+            "notification": {
+                "title": "",
+                "settings": ""
             }
         }
     }

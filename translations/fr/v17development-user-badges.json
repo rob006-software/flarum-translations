@@ -9,6 +9,7 @@
             "edit_category": "Modifier la catégorie",
             "nothing_here_yet": "Vous n'avez pas encore créé de badges ou de catégories.",
             "permissions": {
+                "badge_detail_users": "",
                 "give_badge": "Donner un badge à l'utilisateur",
                 "take_badge": "Prendre le badge de l'utilisateur"
             },
@@ -31,6 +32,8 @@
             "badge_category": {
                 "name": "Nom de la catégorie",
                 "description": "Description de la catégorie",
+                "blockview": "",
+                "blockview_description": "",
                 "enabled": "Activée",
                 "enabled_description": "Activer cette catégorie. Lorsque cette option est désactivée, tous les badges sont désactivés et la catégorie est masquée."
             },
@@ -67,6 +70,7 @@
             "select_badge": "Sélectionner le badge",
             "user_has_badge": "L'utilisateur possède déjà ce badge.",
             "user_no_badges": "Cet utilisateur n'a pas encore de badge.",
+            "no_received": "",
             "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
             "badge": {
                 "badge": "Badge",
@@ -78,12 +82,19 @@
                 "no_earning_reason": "Aucun motif d'obtention défini",
                 "earned_on": "Badge obtenu le",
                 "category": "Catégorie de badge",
-                "earned_count": "{count, plural, one {<b># utilisateur</b> a obtenu ce badge} other {<b># utilisateurs</b> ont obtenu ce badge}}"
+                "received_on": "",
+                "badge_details": "",
+                "earned_count": "{count, plural, one {<b># utilisateur</b> a obtenu ce badge} other {<b># utilisateurs</b> ont obtenu ce badge}}",
+                "earned_by_count": ""
             },
             "moderation": {
                 "remove_badge": "Retirer le badge de l'utilisateur",
                 "remove_badge_confirm": "Êtes-vous sûr de vouloir retirer ce badge à cet utilisateur ?",
                 "give_badge": "Donner un badge"
+            },
+            "notification": {
+                "title": "",
+                "settings": ""
             }
         }
     }

@@ -9,6 +9,7 @@
             "edit_category": "Modifica categoria",
             "nothing_here_yet": "Non hai ancora creato badge o categorie.",
             "permissions": {
+                "badge_detail_users": "",
                 "give_badge": "Assegna badge a utente",
                 "take_badge": "Prendi badge da utente"
             },
@@ -31,6 +32,8 @@
             "badge_category": {
                 "name": "Nome Categoria",
                 "description": "Descrizione categoria",
+                "blockview": "",
+                "blockview_description": "",
                 "enabled": "Abilitata",
                 "enabled_description": "Abilita questa categoria. Quando è disabilitata, tutti i badge saranno disabilitati e la categoria sarà nascosta."
             },
@@ -67,6 +70,7 @@
             "select_badge": "Scegli badge",
             "user_has_badge": "L'utente ha già questo badge.",
             "user_no_badges": "Questo utente non ha ancora alcun badge.",
+            "no_received": "",
             "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
             "badge": {
                 "badge": "Badge",
@@ -78,12 +82,19 @@
                 "no_earning_reason": "Nessun motivo impostato",
                 "earned_on": "Badge guadagnato il",
                 "category": "Categoria Badge",
-                "earned_count": "{count, plural, one {<b># utente</b> ha guadagnato questo badge} other {<b># utenti</b> hanno guadagnato questo badge}}"
+                "received_on": "",
+                "badge_details": "",
+                "earned_count": "{count, plural, one {<b># utente</b> ha guadagnato questo badge} other {<b># utenti</b> hanno guadagnato questo badge}}",
+                "earned_by_count": ""
             },
             "moderation": {
                 "remove_badge": "Rimuovi badge da utente",
                 "remove_badge_confirm": "Sei sicuro di voler rimuovere questo badge da questo utente?",
                 "give_badge": "Dai badge"
+            },
+            "notification": {
+                "title": "",
+                "settings": ""
             }
         }
     }
