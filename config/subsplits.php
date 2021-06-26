@@ -73,6 +73,13 @@ return [
 		'branch' => 'main',
 		'path' => '/locale',
 	],
+	'lt' => [
+		'type' => 'language',
+		'language' => 'lt',
+		'repository' => 'git@github.com:flarum-lang/lithuanian.git',
+		'branch' => 'main',
+		'path' => '/locale',
+	],
 	'lv' => [
 		'type' => 'language',
 		'language' => 'lv',
