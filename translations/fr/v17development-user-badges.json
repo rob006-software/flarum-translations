@@ -9,9 +9,9 @@
             "edit_category": "Modifier la catégorie",
             "nothing_here_yet": "Vous n'avez pas encore créé de badges ou de catégories.",
             "permissions": {
-                "badge_detail_users": "",
-                "give_badge": "Donner un badge à l'utilisateur",
-                "take_badge": "Prendre le badge de l'utilisateur"
+                "badge_detail_users": "Peut voir les utilisateurs sur la page d'informations des badges",
+                "give_badge": "Distribuer un badge à l'utilisateur",
+                "take_badge": "Retirer le badge de l'utilisateur"
             },
             "confirm_dialog": {
                 "title": "Confirmer",
@@ -32,8 +32,8 @@
             "badge_category": {
                 "name": "Nom de la catégorie",
                 "description": "Description de la catégorie",
-                "blockview": "",
-                "blockview_description": "",
+                "blockview": "Vue en bloc",
+                "blockview_description": "Afficher les badges de catégorie dans un bloc sur la vue d'ensemble des badges. Lorsque cette option est désactivée, tous les badges sont affichés dans un tableau.",
                 "enabled": "Activée",
                 "enabled_description": "Activer cette catégorie. Lorsque cette option est désactivée, tous les badges sont désactivés et la catégorie est masquée."
             },
@@ -46,14 +46,14 @@
                 },
                 "action_drivers": {
                     "badge_id": "Identifiant du badge",
-                    "give_badge": "Donner un badge",
+                    "give_badge": "Distribuer un badge",
                     "remove_badge": "Retirer un badge"
                 },
                 "requirement_drivers": {
                     "has_badge": "Possède un badge"
                 },
                 "metric_drivers": {
-                    "badges_received": "Badges reçus"
+                    "badges_received": "Badges obtenus"
                 },
                 "badge_selector": {
                     "placeholder": "Sélectionner un badge",
@@ -65,12 +65,12 @@
             "badge_information": "Informations sur les badges",
             "all_badges": "Voir tous les badges",
             "all_users": "Voir tous les utilisateurs",
-            "give_badge": "Donner un badge",
+            "give_badge": "Distribuer un badge",
             "update_badge": "Mettre à jour le badge",
             "select_badge": "Sélectionner le badge",
             "user_has_badge": "L'utilisateur possède déjà ce badge.",
-            "user_no_badges": "Cet utilisateur n'a pas encore de badge.",
-            "no_received": "",
+            "user_no_badges": "Cet utilisateur n'a pas encore obtenu de badge.",
+            "no_received": "Aucun utilisateur n'a obtenu ce badge.",
             "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
             "badge": {
                 "badge": "Badge",
@@ -79,22 +79,22 @@
                 "description": "Description du badge",
                 "earning_reason": "Motif d'obtention du badge",
                 "update_earning_reason": "Mettre à jour le motif d'obtention",
-                "no_earning_reason": "Aucun motif d'obtention défini",
+                "no_earning_reason": "Aucun motif d'obtention n'a été défini",
                 "earned_on": "Badge obtenu le",
                 "category": "Catégorie de badge",
-                "received_on": "",
-                "badge_details": "",
+                "received_on": "Obtenu le {date}",
+                "badge_details": "Informations sur le badge",
                 "earned_count": "{count, plural, one {<b># utilisateur</b> a obtenu ce badge} other {<b># utilisateurs</b> ont obtenu ce badge}}",
-                "earned_by_count": ""
+                "earned_by_count": "{count, plural, one {Obtenu par <b># utilisateur</b>} other {Obtenu par <b># utilisateurs</b>}}"
             },
             "moderation": {
                 "remove_badge": "Retirer le badge de l'utilisateur",
                 "remove_badge_confirm": "Êtes-vous sûr de vouloir retirer ce badge à cet utilisateur ?",
-                "give_badge": "Donner un badge"
+                "give_badge": "Distribuer un badge"
             },
             "notification": {
-                "title": "",
-                "settings": ""
+                "title": "Vous avez obtenu un nouveau badge",
+                "settings": "J'ai obtenu un badge"
             }
         }
     }
