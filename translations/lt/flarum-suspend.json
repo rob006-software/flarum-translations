@@ -1,0 +1,30 @@
+{
+    "flarum-suspend": {
+        "admin": {
+            "permissions": {
+                "suspend_users_label": "Blokuoti narius"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "user_suspended_text": "{username} užblokavo jus už {timeReadable}",
+                "user_unsuspended_text": "{username} atblokavo jus"
+            },
+            "suspend_user": {
+                "indefinitely_label": "Užblokuotas neribotam laikui",
+                "limited_time_days_text": " dienų",
+                "limited_time_label": "Laikinai užblokavo...",
+                "not_suspended_label": "Neužblokuotas",
+                "status_heading": "Blokavimo statusas",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Blokuoti {username}"
+            },
+            "user_badge": {
+                "suspended_tooltip": "Užblokuotas"
+            },
+            "user_controls": {
+                "suspend_button": "Blokuoti"
+            }
+        }
+    }
+}
