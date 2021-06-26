@@ -1,11 +1,5 @@
 {
     "flarum-markdown": {
-        "admin": {
-            "settings": {
-                "mdarea_help": "\"Mdarea\" is a text box utility that automatically continues lists, helps with code formatting, and facilitates indentation.",
-                "mdarea_label": "Activate \"Mdarea\"?"
-            }
-        },
         "forum": {
             "composer": {
                 "bold_tooltip": "Pridėti paryškintą tekstą",
@@ -17,6 +11,12 @@
                 "ordered_list_tooltip": "Pridėti sunumeruotą sąrašą",
                 "quote_tooltip": "Įterpti citatą",
                 "unordered_list_tooltip": "Pridėti sąrašą su ženkleliais"
+            }
+        },
+        "admin": {
+            "settings": {
+                "mdarea_help": "\"Mdarea\" is a text box utility that automatically continues lists, helps with code formatting, and facilitates indentation.",
+                "mdarea_label": "Activate \"Mdarea\"?"
             }
         }
     }

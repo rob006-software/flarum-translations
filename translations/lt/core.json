@@ -21,8 +21,8 @@
                 "favicon_text": "Upload an image to be displayed as the forum's shortcut icon.",
                 "logo_heading": "Logo",
                 "logo_text": "Upload an image to be displayed in place of the forum title.",
-                "submit_button": "=> core.ref.okay",
-                "title": "Appearance"
+                "title": "Appearance",
+                "submit_button": "=> core.ref.okay"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -35,14 +35,14 @@
                 "forum_title_heading": "Forumo pavadinimas",
                 "home_page_heading": "Pagrindinis puslapis",
                 "home_page_text": "Pasirinkite puslapį, kurį vartotojai pirmą kartą pamatys apsilankę jūsų forume.",
-                "saved_message": "Jūsų pakeitimai buvo išsaugoti.",
                 "show_language_selector_label": "Rodyti kalbos parinkiklį",
                 "slug_driver_heading": "Slug Driver: {model}",
                 "slug_driver_text": "Select a driver to be used for slugging this model.",
-                "submit_button": "=> core.ref.save_changes",
                 "title": "Pagrindai",
                 "welcome_banner_heading": "Welcome Banner",
-                "welcome_banner_text": "Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum."
+                "welcome_banner_text": "Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum.",
+                "saved_message": "Jūsų pakeitimai buvo išsaugoti.",
+                "submit_button": "=> core.ref.save_changes"
             },
             "dashboard": {
                 "clear_cache_button": "Clear Cache",
@@ -99,14 +99,15 @@
                 "send_test_mail_success": "Test mail sent successfully!",
                 "send_test_mail_text": "This will send an email using the above configuration to your email, {email}.",
                 "smtp_heading": "SMTP Settings",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "=> core.ref.email"
+                "title": "=> core.ref.email",
+                "submit_button": "=> core.ref.save_changes"
             },
             "extension": {
+                "configure_scopes": "",
                 "confirm_uninstall": "Uninstalling will remove all database entries and assets related to the extension. Are you sure you want to continue?",
                 "disabled": "Disabled",
-                "enabled": "Enabled",
                 "enable_to_see": "Enable the extension to view and change settings.",
+                "enabled": "Enabled",
                 "info_links": {
                     "discuss": "Discuss",
                     "documentation": "Documentation",
@@ -119,8 +120,8 @@
                 "no_settings": "This extension has no settings.",
                 "open_modal": "Open Settings",
                 "permissions_title": "Permissions",
-                "saved_message": "Your changes were saved.",
-                "uninstall_button": "Uninstall"
+                "uninstall_button": "Uninstall",
+                "saved_message": "Your changes were saved."
             },
             "header": {
                 "get_help": "Pagalba",
@@ -151,6 +152,8 @@
                 "email_title": "=> core.admin.email.description",
                 "permissions_button": "=> core.admin.permissions.title",
                 "permissions_title": "=> core.admin.permissions.description",
+                "userlist_button": "",
+                "userlist_title": "",
                 "search_placeholder": "Ieškoti įskiepių"
             },
             "permissions": {
@@ -164,6 +167,8 @@
                 "description": "Configure who can see and do what.",
                 "edit_posts_label": "Edit posts",
                 "edit_users_label": "Edit users",
+                "edit_users_credentials_label": "",
+                "edit_users_groups_label": "",
                 "global_heading": "Edit users",
                 "moderate_heading": "Moderate",
                 "new_group_button": "New Group",
@@ -172,13 +177,15 @@
                 "read_heading": "Read",
                 "rename_discussions_label": "Rename discussions",
                 "reply_to_discussions_label": "Reply to discussions",
+                "search_users_label": "",
                 "sign_up_label": "Sign up",
                 "start_discussions_label": "Start discussions",
                 "title": "Permissions",
-                "view_discussions_label": "View discussions",
+                "view_forum_label": "",
                 "view_hidden_groups_label": "View hidden group badges",
                 "view_last_seen_at_label": "Always view user last seen time",
                 "view_post_ips_label": "View post IP addresses",
+                "view_discussions_label": "View discussions",
                 "view_user_list_label": "View user list"
             },
             "permissions_controls": {
@@ -192,7 +199,51 @@
                 "signup_open_button": "Open"
             },
             "settings": {
+                "saved_message": "",
                 "submit_button": "=> core.ref.save_changes"
+            },
+            "upload_image": {
+                "remove_button": "",
+                "upload_button": ""
+            },
+            "users": {
+                "description": "",
+                "grid": {
+                    "columns": {
+                        "edit_user": {
+                            "button": "",
+                            "title": "",
+                            "tooltip": ""
+                        },
+                        "email": {
+                            "title": "",
+                            "visibility_hide": "",
+                            "visibility_show": ""
+                        },
+                        "group_badges": {
+                            "no_badges": "",
+                            "title": ""
+                        },
+                        "join_time": {
+                            "title": ""
+                        },
+                        "user_id": {
+                            "title": ""
+                        },
+                        "username": {
+                            "profile_link_tooltip": "",
+                            "title": ""
+                        }
+                    },
+                    "invalid_column_content": ""
+                },
+                "pagination": {
+                    "back_button": "",
+                    "next_button": "",
+                    "page_counter": ""
+                },
+                "title": "",
+                "total_users": ""
             }
         },
         "forum": {
@@ -246,7 +297,8 @@
                 "log_in_to_reply_button": "Rašyti temoje galima tik prisijungus",
                 "rename_button": "=> core.ref.rename",
                 "reply_button": "=> core.ref.reply",
-                "restore_button": "=> core.ref.restore"
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": ""
             },
             "discussion_list": {
                 "empty_text": "Panašu, kad šiame forume temų nėra.",
@@ -254,19 +306,6 @@
                 "mark_as_read_tooltip": "Pažymėti kaip perskaitytą",
                 "replied_text": "{username} parašė {ago}",
                 "started_text": "{username} sukūrė temą {ago}"
-            },
-            "edit_user": {
-                "activate_button": "Aktyvuoti vartotoją",
-                "email_heading": "=> core.ref.email",
-                "email_label": "=> core.ref.email",
-                "groups_heading": "Grupės",
-                "password_heading": "=> core.ref.password",
-                "password_label": "=> core.ref.password",
-                "set_password_label": "Nustatyti naują slaptažodį",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "Redaguoti vartotoją",
-                "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -280,10 +319,12 @@
             "header": {
                 "admin_button": "Administracija",
                 "back_to_index_tooltip": "Atgal į temų sąrašą",
+                "locale_dropdown_accessible_label": "",
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Profilis",
                 "search_placeholder": "Paeiška forume",
+                "session_dropdown_accessible_label": "",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
             },
@@ -294,13 +335,15 @@
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
                 "refresh_tooltip": "Atnaujinti",
-                "start_discussion_button": "=> core.ref.start_a_discussion"
+                "start_discussion_button": "=> core.ref.start_a_discussion",
+                "toggle_sidenav_dropdown_accessible_label": ""
             },
             "index_sort": {
                 "latest_button": "Paskutinės",
                 "newest_button": "Naujausios",
                 "oldest_button": "Seniausios",
                 "relevance_button": "Aktualiausios",
+                "toggle_dropdown_accessible_label": "",
                 "top_button": "Populiariausios"
             },
             "log_in": {
@@ -319,6 +362,7 @@
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "Pažymėti kaip perskaitytą",
                 "title": "=> core.ref.notifications",
+                "toggle_dropdown_accessible_label": "",
                 "tooltip": "=> core.ref.notifications"
             },
             "post": {
@@ -332,7 +376,8 @@
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "edit_button": "=> core.ref.edit",
                 "hide_confirmation": "Ar tikrai norite ištrinti šį įrašą?",
-                "restore_button": "=> core.ref.restore"
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": ""
             },
             "post_scrubber": {
                 "now_link": "Dabar",
@@ -397,17 +442,47 @@
                 "delete_confirmation": "Ar tikrai norite ištrinti šį vartotoją? Vartotojo įrašai NEBUS ištrinti.",
                 "delete_error_message": "Vartotojo <i>{username} ({email})</i> ištrynimas nepavyko",
                 "delete_success_message": "Vartotojas <i>{username} ({email})</i> buvo ištrintas",
-                "edit_button": "=> core.ref.edit"
+                "edit_button": "=> core.ref.edit",
+                "toggle_dropdown_accessible_label": ""
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "Iš naujo išsiųsti patvirtinimo el. laišką",
                 "sent_message": "Išsiųsta"
+            },
+            "edit_user": {
+                "activate_button": "Aktyvuoti vartotoją",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "Grupės",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "Nustatyti naują slaptažodį",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Redaguoti vartotoją",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username"
             }
         },
         "lib": {
             "badge": {
                 "hidden_tooltip": "Paslėpta"
+            },
+            "dropdown": {
+                "toggle_dropdown_accessible_label": ""
+            },
+            "edit_user": {
+                "activate_button": "",
+                "email_heading": "",
+                "email_label": "",
+                "groups_heading": "",
+                "password_heading": "",
+                "password_label": "",
+                "set_password_label": "",
+                "submit_button": "",
+                "title": "",
+                "username_heading": "",
+                "username_label": ""
             },
             "error": {
                 "dependent_extensions_message": "Įskiepio {extension} išjungimas yra negalimas kol {extensions} įskiepiai yra išjungti.",
@@ -416,6 +491,9 @@
                 "not_found_message": "Prašomas šaltinis nerastas.",
                 "permission_denied_message": "Šiam veiksmui atlikti neturite leidimo.",
                 "rate_limit_exceeded_message": "Jūs šiek tiek per greitas. Bandykite dar kartą po kelių sekundžių."
+            },
+            "loading_indicator": {
+                "accessible_label": ""
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -503,10 +581,12 @@
             "delete_forever": "Ištrinti visam laikui",
             "discussions": "Temos",
             "edit": "Redaguoti",
+            "edit_user": "",
             "email": "El. pašto adresas",
             "icon": "Ikona",
             "icon_text": "Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the <code>fas fa-</code> prefix.",
             "load_more": "Įkelti daugiau",
+            "loading": "",
             "log_in": "Prisijungti",
             "log_out": "Atsijungti",
             "mark_all_as_read": "Pažymėti visus kaip skaitytus",

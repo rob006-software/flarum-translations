@@ -24,15 +24,15 @@
                 "reply_link": "=> core.ref.reply",
                 "you_text": "=> core.ref.you"
             },
-            "post_mention": {
-                "deleted_text": "[ištrinta]"
-            },
             "settings": {
                 "notify_post_mentioned_label": "Kažkas atsakė į vieną iš mano pranešimų",
                 "notify_user_mentioned_label": "Kažkas paminėjo mane pranešime"
             },
             "user": {
                 "mentions_link": "Paminėjimai"
+            },
+            "post_mention": {
+                "deleted_text": "[ištrinta]"
             }
         },
         "email": {

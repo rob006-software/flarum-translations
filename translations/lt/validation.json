@@ -77,6 +77,7 @@
             "string": ":attribute turi būti mažiausiai :min raidžių.",
             "array": ":attribute turi turėti mažiausiai :min éléments."
         },
+        "multiple_of": "",
         "not_in": "pasirinktas :attribute yra neteisingas.",
         "not_regex": ":attribute formatas netinkamas.",
         "numeric": ":attribute turi būti skaičius.",
@@ -90,6 +91,9 @@
         "required_with_all": ":attribute yra privalomas jei le :values yra nustatytos.",
         "required_without": ":attribute yra privalomas jei le :values nėra nustatytos.",
         "required_without_all": ":attribute yra privalomas jei nei vienas iš :values yra nustatytos.",
+        "prohibited": "",
+        "prohibited_if": "",
+        "prohibited_unless": "",
         "same": ":attribute ir :other privalo sutapti.",
         "size": {
             "numeric": ":attribute turi būti :size.",
