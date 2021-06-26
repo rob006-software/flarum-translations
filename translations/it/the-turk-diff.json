@@ -1,0 +1,84 @@
+{
+    "the-turk-diff": {
+        "forum": {
+            "revisions": "{revisionCount} revisione | {revisionCount} revisioni",
+            "emptyText": "Nessuna Revisione",
+            "editedText": "",
+            "deletedText": "(cancellato)",
+            "tooltips": {
+                "mostRecent": "più recente",
+                "originalContent": "",
+                "revisionWithNumber": "",
+                "sideBySide": "Affiancate",
+                "inline": "Linea per linea",
+                "combined": "Combinate",
+                "preview": ""
+            },
+            "optionsButton": "Opzioni",
+            "deleteButton": "",
+            "rollbackButton": "Ripristina Revisione {number}",
+            "rollbackToOriginalButton": "Ripristina Originale",
+            "revertChangesButton": "Ripristina Modifiche",
+            "confirmRollback": "Sei sicuro di voler modificare il post corrente?",
+            "confirmDelete": "Sei sicuro di voler cancellare il contenuto di questa modifica dalla cronologia?",
+            "rollbackErrorMessage": "Ripristino modifiche fallito.",
+            "deleteErrorMessage": "Eliminazione contenuto della modifica fallito.",
+            "rollbackSuccessMessage": "Le modifiche sono state ripristinate.",
+            "deleteSuccessMessage": "Il contenuto della modifica è stato cancellato.",
+            "editedInfo": "",
+            "deletedInfo": "{username} ha cancellato questa modifica {ago}",
+            "createdInfo": "{username} ha creato {ago}",
+            "revisionInfo": "Modificato {revisionCount} volta, la più recente in alto|Modificato {revisionCount} volte, le più recenti in alto",
+            "noDiff": "Nessuna differenza trovata tra queste due modifiche.",
+            "differences": {
+                "originalContent": "",
+                "currentContent": "",
+                "revisionWithNumber": "",
+                "sentence": "Stai visualizzando le differenze tra {old} e {new}"
+            },
+            "previewMode": {
+                "originalContent": "",
+                "currentContent": "",
+                "revisionWithNumber": "",
+                "sentence": "Stai visualizzando l'anteprima per"
+            }
+        },
+        "admin": {
+            "settings": {
+                "title": "Impostazioni Diff",
+                "onlyUnsigned": "Solo <strong>i numeri interi senza segni</strong> sono consentiti!",
+                "usePoint": "Usa il <strong>punto</strong> come separatore decimale per valori in virgola mobile.",
+                "separateBlock": "Mostra un separatore tra le diverse istanze diff nel render HTML",
+                "mainPostOnly": "Memorizza solo le revisioni del primo post",
+                "textFormatting": "Abilita formattazione testo nelle anteprime",
+                "detailLevel": "Livello di Dettaglio",
+                "noneLevel": "Nessuno",
+                "lineLevel": "Linea",
+                "wordLevel": "Parola",
+                "charLevel": "Carattere",
+                "neighborLines": "Linee Vicine",
+                "neighborLinesHelp": "Specifica il numero di linee vicine che vuoi mostrare.",
+                "mergeThreshold": "Soglia di unione per la visualizzazione Combinata",
+                "mergeThresholdHelp": "Questo valore determina se un blocco di sostituzione deve essere unito o meno a seconda del rapporto di modifica del contenuto, con valori compresi tra 0 e 1.",
+                "dbOptimisation": "Ottimizzazione Database",
+                "archiveOlds": "Archivia vecchie revisioni",
+                "archiveOldsInfo": "Se <strong>x ≥ A</strong>, le prime <strong>y=mx+b</strong> revisioni del post verranno memorizzate come unite e compresse. La <strong>x</strong> si riferisce al numero di revisioni del post. I valori mobili di <strong>y</strong> verranno arrotondati per difetto al valore intero più vicino.",
+                "useCrons": "Usa CRON per archiviare le vecchie revisioni",
+                "useCronsHelp": "Devi aggiungere una voce Cron al tuo server per far funzionare questa opzione. Questa verrà eseguita settimanalmente ogni domenica alle 02:00 AM. Se disabiliti questa opzione e attivi quella sopra, tutti le revisioni dei post verranno scansionate per essere archiviate alla prossima modifica del post.",
+                "archiveInfo": "Tieni presente che puoi disattivare entrambe le opzioni ed eseguire il comando <code>php flarum diff:archive2</code> per archiviare manualmente le vecchie revisioni."
+            },
+            "permissions": {
+                "viewEditHistory": "Visualizzare cronologia modifiche",
+                "deleteEditHistory": "Cancellare la cronologia modifiche altrui",
+                "selfDeleteEditHistory": "Cancellare la propria cronologia modifiche",
+                "rollbackEditHistory": "Ripristinare la cronologia modifiche altrui",
+                "selfRollbackEditHistory": "Ripristinare la propria cronologia modifiche"
+            }
+        },
+        "ref": {
+            "originalContent": "il contenuto originale",
+            "currentContent": "il contenuto corrente",
+            "revisionWithNumber": "la revisione {number}"
+        }
+    }
+}
