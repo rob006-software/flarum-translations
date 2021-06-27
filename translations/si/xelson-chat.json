@@ -8,33 +8,33 @@
             "toolbar": {
                 "title": "සංවාදය",
                 "enable_sounds": "ශබ්ද සබල කරන්න",
-                "disable_sounds": "ශබ්දය අබල කරන්න",
+                "disable_sounds": "ශබ්ද අබල කරන්න",
                 "enable_notifications": "දැනුම්දීම් සබල කරන්න",
                 "disable_notifications": "දැනුම්දීම් අබල කරන්න",
                 "minimize": "හකුළන්න",
                 "maximize": "විහිදුවන්න",
                 "chat": {
-                    "settings": ""
+                    "settings": "සංවාදයේ සැකසුම්"
                 }
             },
             "chat": {
                 "welcome": {
-                    "header": "",
-                    "subheader": ""
+                    "header": "නියෝන් සංවාදය වෙත සාදරයෙන් පිළිගනිමු!",
+                    "subheader": "කරුණාකර සම්භාෂණය සඳහා වම්පසින් සංවාදයක් තෝරන්න"
                 },
                 "moder": "",
                 "kick": "",
                 "leave": "හැරයන්න",
                 "rejoin": "නැවත එක්වන්න",
                 "edit_modal": {
-                    "title": "",
+                    "title": "සංවාදයේ සැකසුම්",
                     "moderator": {
                         "got": "",
                         "lost": ""
                     },
                     "form": {
                         "title": {
-                            "label": "",
+                            "label": "සංවාදයේ නම",
                             "validator": ""
                         },
                         "color": {
@@ -48,12 +48,12 @@
                         "users": {
                             "edit": "පරිශීලකයින් තොරාගෙන සංස්කරණය කරන්න"
                         },
-                        "leave": "",
-                        "return": "",
+                        "leave": "සංවාදය හැරයන්න",
+                        "return": "සංවාදයට ඇතුල් වෙන්න",
                         "delete": {
                             "title": "",
                             "desc": "",
-                            "placeholder": "",
+                            "placeholder": "සංවාදයේ නම",
                             "button": ""
                         }
                     },
@@ -67,16 +67,16 @@
                 "list": {
                     "pin": "",
                     "unpin": "",
-                    "placeholder": "",
+                    "placeholder": "සංවාද පෙරන්න",
                     "preview": {
                         "empty": "පණිවිඩ නැත"
                     },
                     "add_modal": {
                         "title": "පරිශීලකයින් තෝරන්න",
-                        "chat": "",
+                        "chat": "සංවාදය",
                         "channel": "නාලිකාව",
                         "create": {
-                            "chat": "",
+                            "chat": "නව සංවාදයක් සාදන්න",
                             "channel": "නව නාලිකාවක් සාදන්න"
                         },
                         "alerts": {
@@ -84,7 +84,7 @@
                         },
                         "form": {
                             "title": {
-                                "chat": "",
+                                "chat": "සංවාදයේ නම",
                                 "channel": "නාලිකාවේ නම",
                                 "validator": ""
                             },
@@ -145,8 +145,8 @@
                             "invited_kicked": ""
                         },
                         "self": {
-                            "leaved": "",
-                            "entered": ""
+                            "leaved": "{username} සංවාදය හැරගියා",
+                            "entered": "{username} සංවාදයට ඇතුළු විය"
                         }
                     }
                 }
@@ -160,11 +160,11 @@
         "admin": {
             "permissions": {
                 "post": "",
-                "edit": "",
+                "edit": "සංවාද පණිවිඩ සංස්කරණය",
                 "delete": "",
-                "enabled": "",
+                "enabled": "සංවාදය සබල කරන්න",
                 "create": {
-                    "chat": "",
+                    "chat": "සංවාද අරඹන්න",
                     "channel": "නාලිකා අරඔන්න"
                 },
                 "moderate": {
@@ -173,7 +173,7 @@
                 }
             },
             "settings": {
-                "title": "",
+                "title": "සංවාදයේ සැකසුම්",
                 "charlimit": "",
                 "floodgate": {
                     "title": "",
