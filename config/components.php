@@ -580,6 +580,9 @@ return [
 	'nearata-embed-video' => [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-embed-video/v3.0.0/resources/locale/en.yml',
 	],
+	'nearata-listen-moe' => [
+		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-listen-moe/v2.0.0/resources/locale/en.yml',
+	],
 	'nearata-minecraft-avatars' => [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-minecraft-avatars/v1.5.0/resources/locale/en.yml',
 	],
