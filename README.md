@@ -411,6 +411,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [User badges by V17development](https://weblate.rob006.net/projects/flarum/v17development-user-badges) | [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)|
 | [Calendar(Events) by Webbinaro](https://weblate.rob006.net/projects/flarum/webbinaro-calendar) | [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar)|
 | [Neon Chat by Xelson](https://weblate.rob006.net/projects/flarum/xelson-chat) | [`xelson/flarum-ext-chat`](https://github.com/Xelson/flarum-ext-chat)|
+| [Expired Posts by Zerosonesfun](https://weblate.rob006.net/projects/flarum/zerosonesfun-expired-posts) | [`zerosonesfun/expired-posts`](https://github.com/zerosonesfun/expired-posts)|
 
 <!-- various-extensions-list-stop -->
 

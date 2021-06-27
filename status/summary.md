@@ -239,6 +239,7 @@
 | [User badges by V17development](https://github.com/v17development/flarum-user-badges) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/v17development-user-badges/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/v17development-user-badges/) |
 | [Calendar(Events) by Webbinaro](https://github.com/eddiewebb/flarum-calendar) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/webbinaro-calendar/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/webbinaro-calendar/) |
 | [Neon Chat by Xelson](https://github.com/Xelson/flarum-ext-chat) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/xelson-chat/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/xelson-chat/) |
+| [Expired Posts by Zerosonesfun](https://github.com/zerosonesfun/expired-posts) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/zerosonesfun-expired-posts/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/zerosonesfun-expired-posts/) |
 
 <!-- various-extensions-list-stop -->
 
