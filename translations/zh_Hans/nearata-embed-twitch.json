@@ -2,7 +2,10 @@
     "nearata-embed-twitch": {
         "admin": {
             "allowfullscreen": "允许全屏",
-            "autoplay": "自动播放"
+            "autoplay": "自动播放",
+            "permissions": {
+                "create_twitch": ""
+            }
         },
         "forum": {
             "modal": {

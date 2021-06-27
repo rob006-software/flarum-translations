@@ -14,11 +14,13 @@
                 "flood_time_multiplier_label": "Flood time multiplier",
                 "flood_time_multiplier_text": "The standard minimum time (which is 10 seconds) between messages can be multiplied to make miserable users wait longer between posting.",
                 "redirection_chance_label": "Redirection chance",
-                "redirection_chance_text": "Enter the percentage chance that a miserable user will be redirected to the home page.",
+                "redirection_chance_text": "Enter the percentage chance that a miserable user will be redirected to the redirection page URL.",
                 "redirection_page_url_label": "Redirection page URL",
                 "redirection_page_url_text": "You may randomly redirect miserable users to a different page. Leave this blank to redirect to the forum home page.",
                 "log_out_chance_label": "Log out chance",
-                "log_out_chance_text": "Enter the percentage chance that a miserable user will be logged out and redirected back to the home page. <b>Remember!</b> Once logged out, they're not miserable anymore."
+                "log_out_chance_text": "Enter the percentage chance that a miserable user will be logged out and redirected back to the home page. <b>Remember!</b> Once logged out, they're not miserable anymore.",
+                "shuffle_post_chance_label": "Shuffle post chance",
+                "shuffle_post_chance_text": "You may randomly shuffle a miserable user's post. Enter the percentage chance of this happening."
             }
         },
         "forum": {
