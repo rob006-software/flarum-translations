@@ -644,7 +644,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-mathren/0.3.5/locale/en.yml',
 	],
 	'the-turk-miserable-users' => [
-		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-miserable-users/1.0.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-miserable-users/1.0.2/locale/en.yml',
 	],
 	'the-turk-pallet-theme' => [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-pallet-theme/0.1.0-beta.4/locale/en.yml',
