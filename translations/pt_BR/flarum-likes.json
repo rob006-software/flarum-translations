@@ -1,0 +1,29 @@
+{
+    "flarum-likes": {
+        "admin": {
+            "permissions": {
+                "like_posts_label": "Curtir posts"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_liked_text": "{username} curtiu seu post|{username} curtiram seu post"
+            },
+            "post": {
+                "like_link": "Curtir",
+                "liked_by_self_text": "{users} curtiu isso.|{users} curtiram isso.",
+                "liked_by_text": "{users} curtiu isso.|{users} curtiram isso.",
+                "others_link": "=> core.ref.some_others",
+                "unlike_link": "Descurtir",
+                "you_text": "=> core.ref.you"
+            },
+            "post_likes": {
+                "title": "Usuários que Curtiram Isso"
+            },
+            "settings": {
+                "notify_post_liked_label": "Alguém curtiu um dos meus posts"
+            }
+        }
+    }
+}

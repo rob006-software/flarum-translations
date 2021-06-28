@@ -1,0 +1,118 @@
+{
+    "validation": {
+        "accepted": "O :attribute deve ser aceito.",
+        "active_url": "O :attribute não é uma URL válida.",
+        "after": "O :attribute deve ser uma data após :date.",
+        "after_or_equal": "O :attribute deve ser uma data após ou igual a :date.",
+        "alpha": "O :attribute pode conter apenas letras.",
+        "alpha_dash": "O :attribute pode apenas conter letras, números e traços.",
+        "alpha_num": "O :attribute pode apenas conter letras e números.",
+        "array": "O :attribute deve ser uma array.",
+        "attributes": {
+            "content": "conteúdo",
+            "email": "e-mail",
+            "name_plural": "nome plural",
+            "name_singular": "nome singular",
+            "password": "senha",
+            "tag_count_primary": "número de tags primárias",
+            "tag_count_secondary": "número de tags secundárias",
+            "title": "título",
+            "username": "nome de usuário"
+        },
+        "before": "O :attribute deve ser uma data antes de :date.",
+        "before_or_equal": "O :attribute deve ser uma data antes ou igual a :date.",
+        "between": {
+            "array": "O :attribute deve ter entre :min e :max items.",
+            "file": "O :attribute deve ser entre :min e :max kilobytes.",
+            "numeric": "O :attribute deve estar entre :min e :max.",
+            "string": "O :attribute deve ser entre :min e :max caracteres."
+        },
+        "boolean": "O campo :attribute deve ser verdadeiro ou falso.",
+        "confirmed": "A confirmação de :attribute não combina.",
+        "date": "o :attribute não é uma data válida.",
+        "date_format": "O :attribute não combina com o formato :other.",
+        "different": "O :attribute e :other deve ser diferentes.",
+        "digits": "O :attribute deve ser :digits dígitos.",
+        "digits_between": "O :attribute deve estar entre :min e :max dígitos.",
+        "dimensions": "O :attribute tem dimensões inválidas de imagem.",
+        "distinct": "O campo :attribute tem um valor duplicado.",
+        "email": "O :attribute deve ser um endereço de e-mail válido.",
+        "exists": "O :attribute selecionado ja existe.",
+        "file": "O :attribute deve ser um arquivo.",
+        "filled": "O campo :attribute é exigido.",
+        "gt": {
+            "array": "O :attribute deve ter mais que :value itens.",
+            "file": "O :attribute deve ser maior que :value kilobytes.",
+            "numeric": "O :attribute deve ser maior que :value.",
+            "string": "O :attribute deve ser maior que :value caracteres."
+        },
+        "gte": {
+            "array": "O :attribute deve ter :value itens ou mais.",
+            "file": "O :attribute deve ser maior ou igual a :value kilobytes.",
+            "numeric": "O :attribute deve ser maior ou igual a :value.",
+            "string": "O :attribute deve ser maior ou igual a :value caracteres."
+        },
+        "image": "O :attribute deve ser uma imagem.",
+        "in": "O :attribute selecionado é inválido.",
+        "in_array": "O campo :attribute não existe em :other.",
+        "integer": "O :attribute deve ser um inteiro.",
+        "ip": "O :attribute deve ser um endereço IP válido.",
+        "ipv4": "O :attribute deve ser um endereço IPv4 válido.",
+        "ipv6": "O :attribute deve ser um endereço IPv6 válido.",
+        "json": "O :attribute deve ser uma string JSON válida.",
+        "lt": {
+            "array": "O :attribute deve ter menos que :value itens.",
+            "file": "O :attribute deve ser menor que :value kilobytes.",
+            "numeric": "O :attribute deve ser menor que :value.",
+            "string": "O :attribute deve ser menor que :value caracteres."
+        },
+        "lte": {
+            "array": "O :attribute não deve ter mais que :value itens.",
+            "file": "O :attribute deve ser menor ou igual a :value kilobytes.",
+            "numeric": "O :attribute deve ser menor ou igual a :value.",
+            "string": "O :attribute deve ser menor ou igual a :value caracteres."
+        },
+        "max": {
+            "array": "O :attribute não pode ter mais do que :max ítens.",
+            "file": "O :attribute não pode ser não pode ser maior do que :max kilobytes.",
+            "numeric": "O :attribute não pode ser maior do que :max.",
+            "string": "O :attribute não pode ser maior do que :max caracteres."
+        },
+        "mimes": "O :attribute deve ser um arquivo do tipo: :values.",
+        "mimetypes": "O :attribute deve ser um arquivo do tipo: :values.",
+        "min": {
+            "array": "O :attribute must have at least :min items.",
+            "file": "O :attribute deve ter no mínimo :min kilobytes.",
+            "numeric": "O :attribute deve ter no mínimo :min.",
+            "string": "O :attribute precisa ter ao menos :min caracteres."
+        },
+        "not_in": "O :attribute selecionado é inválido.",
+        "not_regex": "O formato do :attribute é inválido.",
+        "numeric": "O :attribute deve ser um número.",
+        "present": "O campo :attribute deve estar presente.",
+        "regex": "O formato do :attribute é inválido.",
+        "required": "O campo :attribute é exigido.",
+        "required_if": "O campo :attribute é exigido quando :other é :value.",
+        "required_unless": "O campo :attribute é obrigatório a menos que :other esteja em :values.",
+        "required_with": "O campo :attribute é exigido quando :values está presente.",
+        "required_with_all": "O campo :attribute é exigido quando :values está presente.",
+        "required_without": "O campo :attribute é exigido quando :values não está presente.",
+        "required_without_all": "O campo :attribute é exigido quando nenhum dos :values está presente.",
+        "same": "O :attribute e :other devem combinar.",
+        "size": {
+            "array": "O :attribute deve conter :size ítens.",
+            "file": "O :attribute deve ter :size kilobytes.",
+            "numeric": "O :attribute deve ter :size.",
+            "string": "O :attribute deve ter :size caracteres."
+        },
+        "string": "O :attribute deve ser uma string.",
+        "timezone": "O :attribute deve ser um fuso horário.",
+        "unique": "O :attribute já existe.",
+        "uploaded": "O :attribute falhou ao fazer upload.",
+        "url": "O formato do :attribute é inválido.",
+        "uuid": "O :attribute deve ser um UUID válido.",
+        "date_equals": "O :attribute deve ser uma data igual a :date.",
+        "ends_with": "O :attribute deve terminar com um dos seguintes: :values",
+        "starts_with": "O :attribute deve terminar com um dos seguintes: :values"
+    }
+}
