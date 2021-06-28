@@ -22,6 +22,9 @@ return [
 		'https://raw.githubusercontent.com/flarum/core/master/locale/validation.yml',
 	],
 	/* extensions list begin */
+	'afrux-asirem' => [
+		'tag' => 'https://raw.githubusercontent.com/afrux/asirem/v0.1.1/locale/en.yml',
+	],
 	'amaurycarrade-syndication' => [
 		'tag' => 'https://raw.githubusercontent.com/AmauryCarrade/flarum-ext-syndication/v0.3.1/resources/locale/en.yml',
 	],
