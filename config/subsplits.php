@@ -101,6 +101,13 @@ return [
 		'branch' => 'main',
 		'path' => '/locale',
 	],
+	'pt_BR' => [
+		'type' => 'language',
+		'language' => 'pt_BR',
+		'repository' => 'git@github.com:flarum-lang/brazilian.git',
+		'branch' => 'main',
+		'path' => '/locale',
+	],
 	'pl' => [
 		'type' => 'language',
 		'language' => 'pl',
