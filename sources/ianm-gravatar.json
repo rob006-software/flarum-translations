@@ -2,6 +2,10 @@
     "ianm-gravatar": {
         "admin": {
             "settings": {
+                "proxy": {
+                    "title": "Proxy gravatars",
+                    "helptext": "By default, gravatar URLs are fetched directly from gravatar.com. This enables all gravatar requests to be served directly by the forum itself."
+                },
                 "replace-flarum-custom": {
                     "title": "Replace custom avatars uploaded to Forum",
                     "helptext": "Replace custom avatars already uploaded to the forum with a Gravatar"
