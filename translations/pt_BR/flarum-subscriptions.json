@@ -10,6 +10,9 @@
                 "unfollow_button": "Deixar de Seguir",
                 "unignore_button": "Deixar de Ignorar"
             },
+            "following": {
+                "meta_title_text": "=> flarum-subscriptions.ref.following"
+            },
             "index": {
                 "following_link": "=> flarum-subscriptions.ref.following"
             },
@@ -30,9 +33,12 @@
                 "not_following_text": "Seja notificado apenas quando @mencionado.",
                 "notify_alert_tooltip": "Receber uma notificação no fórum quando houver novos posts",
                 "notify_email_tooltip": "Receber um email quando houver novos posts"
-            },
-            "following": {
-                "meta_title_text": "=> flarum-subscriptions.ref.following"
+            }
+        },
+        "email": {
+            "new_post": {
+                "subject": "",
+                "body": ""
             }
         },
         "ref": {

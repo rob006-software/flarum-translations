@@ -1,5 +1,10 @@
 {
     "flarum-suspend": {
+        "admin": {
+            "permissions": {
+                "suspend_users_label": "Suspender usuários"
+            }
+        },
         "forum": {
             "notifications": {
                 "user_suspended_text": "{username} suspendeu você por {timeReadable}",
@@ -19,11 +24,6 @@
             },
             "user_controls": {
                 "suspend_button": "Suspender"
-            }
-        },
-        "admin": {
-            "permissions": {
-                "suspend_users_label": "Suspender usuários"
             }
         }
     }

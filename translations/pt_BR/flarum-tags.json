@@ -24,13 +24,9 @@
             },
             "permissions": {
                 "allow_edit_tags_label": "Permitir edição de Tag",
+                "bypass_tag_counts_label": "",
                 "restrict_by_tag_heading": "Restringir por Tag",
                 "tag_discussions_label": "Escolher Tag para discussões"
-            },
-            "tags": {
-                "about_tags_text": "Tags são utilizadas para categorizar discussões. Tags primárias são como categorias tradicionais de fórum: elas podem ser organizadas numa hierarquia de dois níveis. Tags secundárias não possuem hierarquia ou ordem, e são úteis para micro-categorização.",
-                "primary_heading": "Tags Primárias",
-                "secondary_heading": "Tags Secundárias"
             },
             "tag_settings": {
                 "range_separator_text": " a ",
@@ -39,9 +35,21 @@
                 "required_secondary_heading": "Número Exigido de Tags Secundárias",
                 "required_secondary_text": "Entre com o número mínimo e máximo de tags secundárias que podem ser aplicadas a uma discussão.",
                 "title": "Configurações de Tag"
+            },
+            "tags": {
+                "about_tags_text": "Tags são utilizadas para categorizar discussões. Tags primárias são como categorias tradicionais de fórum: elas podem ser organizadas numa hierarquia de dois níveis. Tags secundárias não possuem hierarquia ou ordem, e são úteis para micro-categorização.",
+                "create_primary_tag_button": "",
+                "create_secondary_tag_button": "",
+                "primary_heading": "Tags Primárias",
+                "secondary_heading": "Tags Secundárias",
+                "settings_heading": ""
             }
         },
         "forum": {
+            "all_tags": {
+                "meta_description_text": "Todas as Tags",
+                "meta_title_text": "=> flarum-tags.ref.tags"
+            },
             "choose_tags": {
                 "choose_primary_placeholder": "Escolha uma tag primária|Escolha {count} tags primárias",
                 "choose_secondary_placeholder": "Escolha mais 1 tag|Escolha mais {count} tags",
@@ -68,10 +76,6 @@
                 "added_tags_text": "{username} adicionou {tagsAdded}.",
                 "removed_tags_text": "{username} removeu {tagsRemoved}.",
                 "tags_text": "a tag {tags}|as tags {tags}"
-            },
-            "all_tags": {
-                "meta_description_text": "Todas as Tags",
-                "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "tag": {
                 "meta_description_text": "Todas as discussões com a tag {tag}"

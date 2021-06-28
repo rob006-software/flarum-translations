@@ -12,6 +12,7 @@
                 "custom_styles_heading": "Estilos personalizados",
                 "custom_styles_text": "Personalize a aparência do seu fórum adicionando seu próprio código Less / CSS a ser aplicado sobre os estilos padrão do Flarum.",
                 "dark_mode_label": "Modo escuro",
+                "description": "",
                 "edit_css_button": "Editar CSS personalizado",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
@@ -19,11 +20,15 @@
                 "favicon_heading": "Favicon",
                 "favicon_text": "Carregue uma imagem para ser exibida como ícone de atalho do fórum.",
                 "logo_heading": "Logotipo",
-                "logo_text": "Carregue uma imagem para ser exibida no lugar do título do fórum."
+                "logo_text": "Carregue uma imagem para ser exibida no lugar do título do fórum.",
+                "title": ""
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "Idioma padrão",
+                "description": "",
+                "display_name_heading": "Nome de exibição do usuário",
+                "display_name_text": "Selecione o driver que deve ser usado para os nomes de exibição dos usuários. Por padrão, o nome de usuário é mostrado.",
                 "forum_description_heading": "Descrição do Fórum",
                 "forum_description_text": "Digite uma ou duas frases curtas que descrevam sua comunidade. Isso aparecerá na metatag e aparecerá nos mecanismos de pesquisa.",
                 "forum_title_heading": "Título do Fórum",
@@ -32,13 +37,14 @@
                 "show_language_selector_label": "Mostrar seletor de idioma",
                 "slug_driver_heading": "Slug Driver: {model}",
                 "slug_driver_text": "Selecione o driver que será utilizado para o slugging deste modelo.",
+                "title": "",
                 "welcome_banner_heading": "Banner de boas-vindas",
-                "welcome_banner_text": "Configure o texto exibido no banner na página Todas as discussões. Use isso para receber convidados no seu fórum.",
-                "display_name_heading": "Nome de exibição do usuário",
-                "display_name_text": "Selecione o driver que deve ser usado para os nomes de exibição dos usuários. Por padrão, o nome de usuário é mostrado."
+                "welcome_banner_text": "Configure o texto exibido no banner na página Todas as discussões. Use isso para receber convidados no seu fórum."
             },
             "dashboard": {
                 "clear_cache_button": "Limpar cache",
+                "description": "",
+                "title": "",
                 "tools_button": "Ferramentas"
             },
             "edit_css": {
@@ -55,14 +61,14 @@
                 "color_label": "=> core.ref.color",
                 "delete_button": "Excluir grupo",
                 "delete_confirmation": "Tem certeza de que deseja excluir este grupo? Os membros do grupo NÃO serão excluídos.",
+                "hide_label": "Ocultar no fórum",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "name_label": "Nome",
                 "plural_placeholder": "Plural (por exemplo, Mods)",
                 "singular_placeholder": "Singular (por exemplo, Mod)",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Criar Grupo",
-                "hide_label": "Ocultar no fórum"
+                "title": "Criar Grupo"
             },
             "edit_header": {
                 "customize_text": "=> core.ref.custom_header_text",
@@ -71,6 +77,7 @@
             },
             "email": {
                 "addresses_heading": "Endereços",
+                "description": "",
                 "driver_heading": "Escolha um driver",
                 "driver_label": "Criptografia",
                 "from_label": "Remetente",
@@ -83,23 +90,40 @@
                 "mail_port_label": "Porta",
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "Configurações de Mailgun",
-                "smtp_heading": "Configurações SMTP",
                 "not_sending_message": "Flarum atualmente não envia e-mails. Isso pode ocorrer devido ao driver selecionado ou a erros de configuração.",
                 "send_test_mail_button": "Enviar",
                 "send_test_mail_heading": "Enviar teste de e-mail",
                 "send_test_mail_success": "Teste de e-mail enviado com sucesso!",
                 "send_test_mail_text": "Isso enviará um e-mail usando a configuração acima para o seu e-mail, {email}.",
+                "smtp_heading": "Configurações SMTP",
+                "title": "",
                 "mail_ses_secret_label": "Secret",
                 "mail_ses_region_label": "Região",
                 "ses_heading": "Configurações do SES",
                 "mail_ses_key_label": "Chave"
             },
-            "extensions": {
-                "add_button": "Adicionar extensão",
-                "settings_button": "=> core.ref.settings",
-                "uninstall_button": "Desinstalar"
+            "extension": {
+                "configure_scopes": "",
+                "confirm_uninstall": "",
+                "disabled": "",
+                "enable_to_see": "",
+                "enabled": "",
+                "info_links": {
+                    "discuss": "",
+                    "documentation": "",
+                    "donate": "",
+                    "source": "",
+                    "support": "",
+                    "website": ""
+                },
+                "no_permissions": "",
+                "no_settings": "",
+                "open_modal": "",
+                "permissions_title": "",
+                "uninstall_button": ""
             },
             "header": {
+                "get_help": "",
                 "log_out_button": "=> core.ref.log_out"
             },
             "loading": {
@@ -107,14 +131,29 @@
             },
             "nav": {
                 "appearance_button": "Aparência",
+                "appearance_title": "",
                 "basics_button": "Basico",
+                "basics_title": "",
+                "categories": {
+                    "authentication": "",
+                    "core": "",
+                    "discussion": "",
+                    "feature": "",
+                    "formatting": "",
+                    "language": "",
+                    "moderation": "",
+                    "other": "",
+                    "theme": ""
+                },
                 "dashboard_button": "Painel de controle",
+                "dashboard_title": "",
                 "email_button": "=> core.ref.email",
+                "email_title": "",
                 "permissions_button": "Permissões",
                 "permissions_title": "Configure quem pode ver o conteúdo.",
-                "search_placeholder": "Buscar extensão",
                 "userlist_button": "=> core.admin.users.title",
-                "userlist_title": "=> core.admin.users.description"
+                "userlist_title": "=> core.admin.users.description",
+                "search_placeholder": "Buscar extensão"
             },
             "permissions": {
                 "allow_post_editing_label": "Permitir edição pós",
@@ -124,12 +163,16 @@
                 "delete_discussions_label": "Excluir discussões",
                 "delete_posts_forever_label": "Excluir postagens para sempre",
                 "delete_posts_label": "Excluir postagens",
+                "description": "",
                 "edit_posts_label": "Editar postagens",
                 "edit_users_label": "Editar usuários",
+                "edit_users_credentials_label": "",
+                "edit_users_groups_label": "",
                 "global_heading": "Global",
                 "moderate_heading": "Moderar",
                 "new_group_button": "Novo grupo",
                 "participate_heading": "Participar",
+                "post_without_throttle_label": "Responda várias vezes sem esperar",
                 "read_heading": "Ler",
                 "rename_discussions_label": "Renomear discussões",
                 "reply_to_discussions_label": "Responder às discussões",
@@ -138,10 +181,9 @@
                 "start_discussions_label": "Iniciar discussões",
                 "title": "Permissões",
                 "view_forum_label": "Ver forum (discussões e usuários)",
+                "view_hidden_groups_label": "Ver emblemas de grupo ocultos",
                 "view_last_seen_at_label": "Ver a última vez que o usuário visualizou",
-                "view_post_ips_label": "Exibir endereços IP da postagem",
-                "post_without_throttle_label": "Responda várias vezes sem esperar",
-                "view_hidden_groups_label": "Ver emblemas de grupo ocultos"
+                "view_post_ips_label": "Exibir endereços IP da postagem"
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Indefinidamente",
@@ -154,6 +196,7 @@
                 "signup_open_button": "Abrir"
             },
             "settings": {
+                "saved_message": "",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
@@ -198,6 +241,11 @@
                 },
                 "title": "=> core.ref.users",
                 "total_users": "Total de usuários: {count}"
+            },
+            "extensions": {
+                "add_button": "Adicionar extensão",
+                "settings_button": "=> core.ref.settings",
+                "uninstall_button": "Desinstalar"
             }
         },
         "forum": {
@@ -230,9 +278,9 @@
             },
             "composer_edit": {
                 "discard_confirmation": "Você não salvou suas alterações. Deseja descartá-las?",
+                "edited_message": "Sua edição foi feita.",
                 "post_link": "Postagem nº{number} em {discussion}",
                 "submit_button": "=> core.ref.save_changes",
-                "edited_message": "Sua edição foi feita.",
                 "view_button": "=> core.ref.view"
             },
             "composer_reply": {
@@ -273,6 +321,7 @@
             "header": {
                 "admin_button": "Administração",
                 "back_to_index_tooltip": "Voltar à lista de discussão",
+                "locale_dropdown_accessible_label": "",
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Perfil",
@@ -286,16 +335,17 @@
                 "cannot_start_discussion_button": "Não é possível iniciar a discussão",
                 "mark_all_as_read_confirmation": "Tem certeza de que deseja marcar todas as discussões como lidas?",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "meta_title_text": "=> core.ref.all_discussions",
                 "refresh_tooltip": "Atualizar",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
-                "toggle_sidenav_dropdown_accessible_label": "Abrir o menu de navegação",
-                "meta_title_text": "=> core.ref.all_discussions"
+                "toggle_sidenav_dropdown_accessible_label": "Abrir o menu de navegação"
             },
             "index_sort": {
                 "latest_button": "Mais recentes",
                 "newest_button": "Mais novas",
                 "oldest_button": "Mais antigas",
                 "relevance_button": "Relevância",
+                "toggle_dropdown_accessible_label": "",
                 "top_button": "Topo"
             },
             "log_in": {
@@ -314,6 +364,7 @@
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "Marcar como Lido",
                 "title": "=> core.ref.notifications",
+                "toggle_dropdown_accessible_label": "",
                 "tooltip": "=> core.ref.notifications"
             },
             "post": {
@@ -323,12 +374,12 @@
             },
             "post_controls": {
                 "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "Tem certeza de que deseja excluir esta postagem para sempre? Essa ação não pode ser desfeita.",
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "edit_button": "=> core.ref.edit",
+                "hide_confirmation": "Tem certeza de que deseja excluir esta postagem?",
                 "restore_button": "=> core.ref.restore",
-                "toggle_dropdown_accessible_label": "Abrir o menu do controle de postagens",
-                "delete_confirmation": "Tem certeza de que deseja excluir esta postagem para sempre? Essa ação não pode ser desfeita.",
-                "hide_confirmation": "Tem certeza de que deseja excluir esta postagem?"
+                "toggle_dropdown_accessible_label": "Abrir o menu do controle de postagens"
             },
             "post_scrubber": {
                 "now_link": "agora",
@@ -423,12 +474,12 @@
                 "username_label": "=> core.ref.username"
             },
             "error": {
+                "dependent_extensions_message": "Não é possível desativar {extension} até que as seguintes extensões dependentes sejam desativadas: {extensions}",
                 "generic_message": "Opa! Algo deu errado. Por favor, recarregue a página e tente novamente.",
+                "missing_dependencies_message": "Não é possível ativar {extension} até que as seguintes dependências sejam ativadas: {extensions}",
                 "not_found_message": "O recurso solicitado não foi encontrado.",
                 "permission_denied_message": "Você não tem permissão para fazer isso.",
-                "rate_limit_exceeded_message": "Você está indo um pouco rápido demais. Tente novamente em alguns segundos.",
-                "dependent_extensions_message": "Não é possível desativar {extension} até que as seguintes extensões dependentes sejam desativadas: {extensions}",
-                "missing_dependencies_message": "Não é possível ativar {extension} até que as seguintes dependências sejam ativadas: {extensions}"
+                "rate_limit_exceeded_message": "Você está indo um pouco rápido demais. Tente novamente em alguns segundos."
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
@@ -546,9 +597,9 @@
             "start_a_discussion": "Iniciar Discussão",
             "username": "Nome de usuário",
             "users": "Usuários",
+            "view": "Ver",
             "write_a_reply": "Escreva uma resposta...",
-            "you": "Você",
-            "view": "Ver"
+            "you": "Você"
         },
         "group": {
             "admin": "Administrador",
