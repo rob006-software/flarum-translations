@@ -101,19 +101,19 @@ return [
 		'branch' => 'main',
 		'path' => '/locale',
 	],
-	'pt_BR' => [
-		'type' => 'language',
-		'language' => 'pt_BR',
-		'repository' => 'git@github.com:flarum-lang/brazilian.git',
-		'branch' => 'main',
-		'path' => '/locale',
-	],
 	'pl' => [
 		'type' => 'language',
 		'language' => 'pl',
 		'releaseGenerator' => PolishReleaseGenerator::class,
 		'repository' => 'git@github.com:rob006-software/flarum-lang-polish.git',
 		'branch' => 'master',
+		'path' => '/locale',
+	],
+	'pt_BR' => [
+		'type' => 'language',
+		'language' => 'pt_BR',
+		'repository' => 'git@github.com:flarum-lang/brazilian.git',
+		'branch' => 'main',
 		'path' => '/locale',
 	],
 	'si' => [
