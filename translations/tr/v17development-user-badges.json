@@ -32,8 +32,8 @@
             "badge_category": {
                 "name": "Kategori adı",
                 "description": "Kategori açıklaması",
-                "blockview": "",
-                "blockview_description": "",
+                "blockview": "Blok-görünüm",
+                "blockview_description": "Kategori rozetlerini blok görünümünde gösterin. Devre dışı bırakıldığında, tüm rozetler bir tabloda görüntülenecektir.",
                 "enabled": "Etkinleştirildi",
                 "enabled_description": "Bu kategoriyi etkinleştir. Etkisizleştirildiğinde tüm rozetler ve kategori gizlenir."
             },
@@ -70,7 +70,7 @@
             "select_badge": "Rozeti seç",
             "user_has_badge": "Bu kullanıcı zaten rozete sahip.",
             "user_no_badges": "Bu kullanıcı herhangi bir rozete sahip değil.",
-            "no_received": "",
+            "no_received": "Hiçbir kullanıcı bu rozeti kazanmadı.",
             "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
             "badge": {
                 "badge": "Rozet",
@@ -82,10 +82,10 @@
                 "no_earning_reason": "Kazanma nedeni yok",
                 "earned_on": "Rozet şu nedenle kazanıldı",
                 "category": "Rozet kategorisi",
-                "received_on": "",
-                "badge_details": "",
+                "received_on": "{date} edindi",
+                "badge_details": "Rozet detayları",
                 "earned_count": "{count, plural, one  {<b># kullanıcı</b> bu rozeti kazandı} other {<b># kullanıcı</b> bu rozeti kazandı}}",
-                "earned_by_count": ""
+                "earned_by_count": "{count, plural, one {<b># kullanıcı</b> tarafından edinildi} other {<b># kullanıcı</b> tarafından edinildi}}"
             },
             "moderation": {
                 "remove_badge": "Kullanıcıdan rozeti kaldır",
@@ -93,8 +93,8 @@
                 "give_badge": "Rozet ver"
             },
             "notification": {
-                "title": "",
-                "settings": ""
+                "title": "Yeni bir rozet edindin",
+                "settings": "Yeni bir rozet edindim"
             }
         }
     }
