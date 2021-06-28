@@ -334,6 +334,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [Diff by Ianm](https://weblate.rob006.net/projects/flarum/ianm-diff) | [`ianm/flarum-diff`](https://github.com/imorland/flarum-diff)|
 | [Registration Roles by Ianm](https://weblate.rob006.net/projects/flarum/ianm-regrole) | [`ianm/flarum-regrole`](https://github.com/imorland/flarum-regrole)|
 | [Follow Users by Ianm](https://weblate.rob006.net/projects/flarum/ianm-follow-users) | [`ianm/follow-users`](https://github.com/imorland/follow-users)|
+| [Gravatar by Ianm](https://weblate.rob006.net/projects/flarum/ianm-gravatar) | [`ianm/gravatar`](https://github.com/imorland/gravatar)|
 | [HTML Head Items by Ianm](https://weblate.rob006.net/projects/flarum/ianm-html-head) | [`ianm/html-head`](https://github.com/imorland/html-head)|
 | [Level Ranks by Ianm](https://weblate.rob006.net/projects/flarum/ianm-level-ranks) | [`ianm/level-ranks`](https://github.com/imorland/level-ranks)|
 | [Syndication by Ianm](https://weblate.rob006.net/projects/flarum/ianm-syndication) | [`ianm/syndication`](https://github.com/imorland/syndication)|
