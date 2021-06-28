@@ -295,6 +295,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 
 | Extension name | Package name |
 | --- | --- |
+| [Asirem by Afrux](https://weblate.rob006.net/projects/flarum/afrux-asirem) | [`afrux/asirem`](https://github.com/afrux/asirem)|
 | [Syndication by Amaurycarrade](https://weblate.rob006.net/projects/flarum/amaurycarrade-syndication) | [`amaurycarrade/flarum-ext-syndication`](https://github.com/AmauryCarrade/flarum-ext-syndication)|
 | [Flagrow Ads by Andre pullinen](https://weblate.rob006.net/projects/flarum/andre-pullinen-ads) | [`andre-pullinen/ads`](https://github.com/andre-pullinen/ads)|
 | [Money by Antoinefr](https://weblate.rob006.net/projects/flarum/antoinefr-money) | [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)|
