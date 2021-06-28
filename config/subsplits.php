@@ -87,6 +87,13 @@ return [
 		'branch' => 'master',
 		'path' => '/locale',
 	],
+	'ml' => [
+		'type' => 'language',
+		'language' => 'ml',
+		'repository' => 'git@github.com:flarum-lang/malayalam.git',
+		'branch' => 'master',
+		'path' => '/locale',
+	],
 	'nl' => [
 		'type' => 'language',
 		'language' => 'nl',
