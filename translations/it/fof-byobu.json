@@ -19,7 +19,7 @@
                 "title_placeholder": "Titolo discussione privata"
             },
             "labels": {
-                "recipients": "{count} Destinatario|{count} Destinatari",
+                "recipients": "{count, plural, one {{count} Destinatario} other {{count} Destinatari}}",
                 "user_deleted": "-rimosso-"
             },
             "nav": {
@@ -40,14 +40,14 @@
                     "add_recipients": "Aggiungi destinatari alla tua discussione"
                 },
                 "labels": {
-                    "selected_users": "",
-                    "search_field": ""
+                    "selected_users": "Utenti selezionati",
+                    "search_field": "Cerca utente"
                 },
                 "help": {
                     "add_recipients": "Questa discussione sarà visibile solo agli utenti che scegli qui. È richiesto almeno 1 destinatario (diverso da te).",
                     "update_recipients": "Questa discussione sarà visibile solo agli utenti che scegli qui.",
-                    "selected_users": "",
-                    "click_user_to_remove_tooltip": ""
+                    "selected_users": "Fare clic sul nome di un utente per rimuoverlo.",
+                    "click_user_to_remove_tooltip": "Fare clic per rimuovere"
                 }
             },
             "post": {
