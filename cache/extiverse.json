@@ -17,7 +17,7 @@
         "name": "blomstra/realtime",
         "title": "Realtime",
         "description": "Step up to make your Flarum forum realtime.",
-        "version": "0.1-beta.31",
+        "version": "0.2-beta.2",
         "requiredFlarum": "^1.0.0"
     },
     "datitisev/flarum-backup": {
@@ -80,6 +80,13 @@
         "name": "glowingblue/modern-theme",
         "title": "GB Modern Theme",
         "description": "A modern theme for Flarum",
+        "version": "0.2.0",
+        "requiredFlarum": ">=0.1.0-beta.15 <0.1.0-beta.16"
+    },
+    "glowingblue/modmsg": {
+        "name": "glowingblue/modmsg",
+        "title": "GB ModMsg",
+        "description": "Let moderators control to be contacted by users.",
         "version": "0.2.0",
         "requiredFlarum": ">=0.1.0-beta.15 <0.1.0-beta.16"
     },
