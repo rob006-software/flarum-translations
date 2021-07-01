@@ -1,0 +1,37 @@
+name: Update translations
+
+on: [pull_request]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '7.3'
+
+      - name: Cache builder
+        id: builder-cache
+        uses: actions/cache@v2
+        with:
+          path: builder
+          key: ${{ runner.os }}-builder-
+          restore-keys: |
+            ${{ runner.os }}-builder-
+
+      - name: Checkout builder
+        run: git clone https://github.com/rob006-software/flarum-translations-builder.git builder || git -C builder pull
+
+      - name: Install builder dependencies
+        run: composer install --working-dir builder
+
+      - name: Update
+        run: builder/yii translations/update "@app/../config.php" --update=0
+
+      - name: Diff
+        run: git add -A . && git diff HEAD
