@@ -418,6 +418,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [FancyBox by The turk](https://weblate.rob006.net/projects/flarum/the-turk-fancybox) | [`the-turk/flarum-ext-fancybox`](https://github.com/the-turk/flarum-ext-fancybox)|
 | [MathRen by The turk](https://weblate.rob006.net/projects/flarum/the-turk-mathren) | [`the-turk/flarum-mathren`](https://github.com/the-turk/flarum-mathren)|
 | [Miserable Users by The turk](https://weblate.rob006.net/projects/flarum/the-turk-miserable-users) | [`the-turk/flarum-miserable-users`](https://github.com/the-turk/flarum-miserable-users)|
+| [Prevent Double-Posting by The turk](https://weblate.rob006.net/projects/flarum/the-turk-nodp) | [`the-turk/flarum-nodp`](https://github.com/the-turk/flarum-nodp)|
 | [Pallet Theme by The turk](https://weblate.rob006.net/projects/flarum/the-turk-pallet-theme) | [`the-turk/flarum-pallet-theme`](https://github.com/the-turk/flarum-pallet-theme)|
 | [Registration Roles by The turk](https://weblate.rob006.net/projects/flarum/the-turk-regrole) | [`the-turk/flarum-regrole`](https://github.com/the-turk/flarum-regrole)|
 | [Stargazing Theme by The turk](https://weblate.rob006.net/projects/flarum/the-turk-stargazing-theme) | [`the-turk/flarum-stargazing-theme`](https://github.com/the-turk/flarum-stargazing-theme)|
