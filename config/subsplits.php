@@ -38,6 +38,13 @@ return [
 		'branch' => 'master',
 		'path' => '/locale',
 	],
+	'fa' => [
+		'type' => 'language',
+		'language' => 'fa',
+		'repository' => 'git@github.com:flarum-lang/persian.git',
+		'branch' => 'master',
+		'path' => '/locale',
+	],
 	'fr' => [
 		'type' => 'language',
 		'language' => 'fr',
