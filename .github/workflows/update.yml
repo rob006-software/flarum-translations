@@ -3,7 +3,7 @@ name: Update translations
 on:
   pull_request:
   schedule:
-    - cron: '30 8 * * *'
+    - cron: '1 0 * * *'
 
 jobs:
   build:
@@ -18,12 +18,15 @@ jobs:
         with:
           php-version: '7.3'
 
+      - name: Get current time for cache
+        run: echo "DATE=$(date "+%F")" >> $GITHUB_ENV
+
       - name: Cache builder
         id: builder-cache
         uses: actions/cache@v2
         with:
           path: builder
-          key: ${{ runner.os }}-builder-
+          key: ${{ runner.os }}-builder-${{ env.DATE }}
           restore-keys: |
             ${{ runner.os }}-builder-
 
