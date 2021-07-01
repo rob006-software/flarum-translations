@@ -1,0 +1,41 @@
+{
+    "flarum-subscriptions": {
+        "forum": {
+            "badge": {
+                "following_tooltip": "=> flarum-subscriptions.ref.following",
+                "ignoring_tooltip": "=> flarum-subscriptions.ref.ignoring"
+            },
+            "discussion_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "unfollow_button": "دنبال نکردن",
+                "unignore_button": "حذف نادیده گرفتن"
+            },
+            "index": {
+                "following_link": "=> flarum-subscriptions.ref.following"
+            },
+            "notifications": {
+                "new_post_text": "{username} چیزی نوشت"
+            },
+            "settings": {
+                "follow_after_reply_label": "به‌صورت خودکار مبحث‌هایی که به آن‌ها پاسخ می‌دهم را دنبال کن",
+                "notify_new_post_label": "کسی در مبحثی که دنبال می‌کنم چیزی نوشت"
+            },
+            "sub_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "following_button": "=> flarum-subscriptions.ref.following",
+                "following_text": "از تمامی پاسخ‌ها مطلع شوید.",
+                "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
+                "ignoring_text": "هرگز متوجه نشودید. از لیست مباحث پنهان شود.",
+                "not_following_button": "دنبال نشده",
+                "not_following_text": "فقط وقتی که از من @نام برده شد.",
+                "notify_alert_tooltip": "دریافت اعلان جدید وقتی کسی چیزی نوشت",
+                "notify_email_tooltip": "دریافت ایمیل وقتی کسی چیز جدیدی نوشت"
+            }
+        },
+        "ref": {
+            "follow": "دنبال کردن",
+            "following": "دنبال شده",
+            "ignoring": "نادیده گرفتن"
+        }
+    }
+}
