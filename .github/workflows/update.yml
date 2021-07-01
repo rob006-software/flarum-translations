@@ -1,6 +1,9 @@
 name: Update translations
 
-on: [pull_request]
+on:
+  pull_request:
+  schedule:
+    - cron: '30 8 * * *'
 
 jobs:
   build:
