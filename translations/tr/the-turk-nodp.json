@@ -2,17 +2,17 @@
     "the-turk-nodp": {
         "admin": {
             "permissions": {
-                "double_posting_label": ""
+                "double_posting_label": "Çift Gönderme"
             },
             "settings": {
-                "time_limit_label": "",
-                "time_limit_text": ""
+                "time_limit_label": "Süre Limiti",
+                "time_limit_text": "Bir tartışmadaki son gönderiden bu yana <b>xxx</b> dakikadan fazla süre geçmişse, son gönderen gönderisini düzenlemek zorunda kalır. Zaman sınırını devre dışı bırakmak için değeri <b>0</b> olarak ayarlayın."
             }
         },
         "forum": {
             "composer_edit": {
-                "double_posting_warning_title": "",
-                "double_posting_warning_description": ""
+                "double_posting_warning_title": "Bu tartışmanın son gönderi yazarı sizsiziniz.",
+                "double_posting_warning_description": "Bu tartışmaya kısa bir süre önce cevap verdiğiniz için, lütfen yeni bir tane gönderi yazmak yerine son gönderinizi düzenleyin."
             }
         }
     }
