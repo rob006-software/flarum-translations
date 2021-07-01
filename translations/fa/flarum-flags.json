@@ -1,0 +1,47 @@
+{
+    "flarum-flags": {
+        "admin": {
+            "permissions": {
+                "flag_posts_label": "Flag posts",
+                "view_flags_label": "View flagged posts"
+            },
+            "settings": {
+                "guidelines_url_label": "Community Guidelines URL",
+                "title": "Flags Settings"
+            }
+        },
+        "forum": {
+            "flag_post": {
+                "confirmation_message": "با تشکر از علامت زدن این پست. مدیران انجمن به‌زودی این مورد را بررسی می‌کند.",
+                "dismiss_button": "=> core.ref.okay",
+                "reason_inappropriate_label": "نامناسب",
+                "reason_inappropriate_text": "این نوشته توهین‌آمیز. زشت و نامناسب است و یا <a>مقررات انجمن</a> را نقض می‌کند.",
+                "reason_off_topic_label": "خارج از موضوع",
+                "reason_off_topic_text": "این نوشته مرتبط با این مبحث نیست و باید به‌جایی دیگر منتقل شود.",
+                "reason_other_label": "دیگر",
+                "reason_spam_label": "هرزنامه",
+                "reason_spam_text": "این یک نوشته تبلیغاتی است.",
+                "submit_button": "=> flarum-flags.ref.flag_post",
+                "title": "=> flarum-flags.ref.flag_post"
+            },
+            "flagged_posts": {
+                "empty_text": "علامت نخورده",
+                "item_text": "{username} در <em>{discussion}</em>",
+                "title": "=> flarum-flags.ref.flagged_posts",
+                "tooltip": "=> flarum-flags.ref.flagged_posts"
+            },
+            "post": {
+                "dismiss_flag_button": "حذف علامت",
+                "flagged_by_text": "علامت زده شده توسط {username}",
+                "flagged_by_with_reason_text": "علامت زده شده توسط {username} به عنوان {reason}"
+            },
+            "post_controls": {
+                "flag_button": "علامت"
+            }
+        },
+        "ref": {
+            "flag_post": "علامت نوشته",
+            "flagged_posts": "نوشته‌های علامت خورده"
+        }
+    }
+}

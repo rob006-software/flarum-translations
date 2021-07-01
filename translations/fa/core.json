@@ -1,0 +1,485 @@
+{
+    "core": {
+        "admin": {
+            "add_extension": {
+                "developer_text": "If you're a developer, you can <a>read the docs</a> and have a go at building your own extensions.",
+                "install_text": "In the meantime, you can look for extensions at the <a>Flarum Community site</a> and install them manually using Composer.",
+                "temporary_text": "One day in the not-too-distant future, this dialog will allow you to add an extension to your forum with ease. We're building an ecosystem as we speak!",
+                "title": "Add Extension"
+            },
+            "appearance": {
+                "colored_header_label": "Colored Header",
+                "colors_heading": "Colors",
+                "colors_text": "Choose two colors to theme your forum with. The first will be used as a highlight color, while the second will be used to style background elements.",
+                "custom_footer_heading": "Custom Footer",
+                "custom_footer_text": "=> core.ref.custom_footer_text",
+                "custom_header_heading": "Custom Header",
+                "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_heading": "Custom Styles",
+                "custom_styles_text": "Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's default styles.",
+                "dark_mode_label": "Dark Mode",
+                "edit_css_button": "Edit Custom CSS",
+                "edit_footer_button": "=> core.ref.custom_footer_title",
+                "edit_header_button": "=> core.ref.custom_header_title",
+                "enter_hex_message": "Please enter a hexadecimal color code.",
+                "favicon_heading": "Favicon",
+                "favicon_text": "Upload an image to be displayed as the forum's shortcut icon.",
+                "logo_heading": "Logo",
+                "logo_text": "Upload an image to be displayed in place of the forum title.",
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "basics": {
+                "all_discussions_label": "=> core.ref.all_discussions",
+                "default_language_heading": "Default Language",
+                "forum_description_heading": "Forum Description",
+                "forum_description_text": "Enter a short sentence or two that describes your community. This will appear in the meta tag and show up in search engines.",
+                "forum_title_heading": "Forum Title",
+                "home_page_heading": "Home Page",
+                "home_page_text": "Choose the page which users will first see when they visit your forum.",
+                "saved_message": "Your changes were saved.",
+                "show_language_selector_label": "Show language selector",
+                "submit_button": "=> core.ref.save_changes",
+                "welcome_banner_heading": "Welcome Banner",
+                "welcome_banner_text": "Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum."
+            },
+            "dashboard": {
+                "clear_cache_button": "Clear Cache",
+                "tools_button": "Tools"
+            },
+            "edit_css": {
+                "customize_text": "Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's <a>default styles</a>.",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Edit Custom CSS"
+            },
+            "edit_footer": {
+                "customize_text": "=> core.ref.custom_footer_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_footer_title"
+            },
+            "edit_group": {
+                "color_label": "=> core.ref.color",
+                "delete_button": "Delete Group",
+                "delete_confirmation": "Are you sure you want to delete this group? The group members will NOT be deleted.",
+                "icon_label": "Icon",
+                "icon_text": "Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the <code>fas fa-</code> prefix.",
+                "name_label": "Name",
+                "plural_placeholder": "Plural (e.g. Mods)",
+                "singular_placeholder": "Singular (e.g. Mod)",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Create Group"
+            },
+            "edit_header": {
+                "customize_text": "=> core.ref.custom_header_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_header_title"
+            },
+            "email": {
+                "account_heading": "SMTP Account",
+                "addresses_heading": "Addresses",
+                "driver_label": "Driver",
+                "encryption_label": "Encryption",
+                "from_label": "Sender",
+                "heading": "=> core.ref.email",
+                "host_label": "Host",
+                "password_label": "=> core.ref.password",
+                "port_label": "Port",
+                "server_heading": "SMTP Server",
+                "submit_button": "=> core.ref.save_changes",
+                "text": "Configure the SMTP settings and addresses your forum will use to send email.",
+                "username_label": "=> core.ref.username"
+            },
+            "extensions": {
+                "add_button": "Add Extension",
+                "settings_button": "=> core.ref.settings",
+                "uninstall_button": "Uninstall"
+            },
+            "header": {
+                "log_out_button": "=> core.ref.log_out"
+            },
+            "loading": {
+                "title": "Please Wait..."
+            },
+            "nav": {
+                "appearance_button": "Appearance",
+                "appearance_text": "Customize your forum's colors, logos, and other variables.",
+                "basics_button": "تنظیمات اصلی",
+                "basics_text": "عنوان، زبان و دیگر تنظیمات مرتبط انجمن.",
+                "dashboard_button": "پیشخوان",
+                "dashboard_text": "انجمن شما در یک نگاه.",
+                "email_button": "=> core.ref.email",
+                "email_text": "پیکربندی تنظیمات رایانامه انجمن.",
+                "extensions_button": "افزونه‌ها",
+                "extensions_text": "افزودن قابلیت‌های جدید به انجمن و شخصی‌سازی آن، به سلیقه خودتان.",
+                "permissions_button": "دسترسی‌ها",
+                "permissions_text": "پیکربندی اینکه چه کسی بتواند چه چیزهایی را ببیند و چه‌کارهایی را انجام دهد."
+            },
+            "permissions": {
+                "allow_post_editing_label": "اجازه ویرایش نوشته‌ها",
+                "allow_renaming_label": "اجازه تغییر نام",
+                "create_heading": "ساختن",
+                "delete_discussions_forever_label": "حذف مباحث برای همیشه",
+                "delete_discussions_label": "حذف مباحث",
+                "delete_posts_forever_label": "حذف نوشته‌ها برای همیشه",
+                "delete_posts_label": "Delete posts",
+                "edit_posts_label": "Edit posts",
+                "global_heading": "همگانی",
+                "moderate_heading": "مدیریت",
+                "new_group_button": "گروه جدید",
+                "participate_heading": "مشارکت",
+                "read_heading": "خواندن",
+                "rename_discussions_label": "تغییر نام مباحث",
+                "reply_to_discussions_label": "پاسخ به مباحث",
+                "sign_up_label": "ثبت‌نام",
+                "start_discussions_label": "شروع مبحث جدید",
+                "view_discussions_label": "دیدن مباحث",
+                "view_last_seen_at_label": "View user last seen time",
+                "view_post_ips_label": "نمایش آدرس IP نوشته‌ها",
+                "view_user_list_label": "View user list"
+            },
+            "permissions_controls": {
+                "allow_indefinitely_button": "برای همیشه",
+                "allow_some_minutes_button": "برای {count} دقیقه|برای {count} دقیقه",
+                "allow_ten_minutes_button": "برای 10 دقیقه",
+                "allow_until_reply_button": "تا ارسال بعدی",
+                "everyone_button": "همه",
+                "members_button": "=> core.group.members",
+                "signup_closed_button": "بسته‌شده",
+                "signup_open_button": "باز"
+            },
+            "settings": {
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "upload_image": {
+                "remove_button": "=> core.ref.remove",
+                "upload_button": "انتخاب تصویر..."
+            }
+        },
+        "forum": {
+            "change_email": {
+                "confirm_password_placeholder": "=> core.ref.confirm_password",
+                "confirmation_message": "=> core.ref.confirmation_email_sent",
+                "dismiss_button": "=> core.ref.okay",
+                "incorrect_password_message": "گذرواژه وارد شده صحیح نیست.",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.change_email"
+            },
+            "change_password": {
+                "send_button": "ارسال نامه تغییر گذرواژه",
+                "text": "روی دکمه زیر کلیک کنید، نامه‌ای برای شما در خصوص تغییر گذرواژه‌تان ارسال می‌شود.",
+                "title": "=> core.ref.change_password"
+            },
+            "composer": {
+                "close_tooltip": "بستن",
+                "exit_full_screen_tooltip": "خروج از حالت تمام صفحه",
+                "full_screen_tooltip": "تمام صفحه",
+                "minimize_tooltip": "کوچک کردن",
+                "preview_tooltip": "پیشنمایش"
+            },
+            "composer_discussion": {
+                "body_placeholder": "نوشتن مبحث جدید...",
+                "discard_confirmation": "مبحث شما هنوز ارسال نشده است، می‌خواهید آن را بی‌خیال شوید؟",
+                "submit_button": "ارسال مبحث",
+                "title": "=> core.ref.start_a_discussion",
+                "title_placeholder": "عنوان مبحث"
+            },
+            "composer_edit": {
+                "discard_confirmation": "تغییرات شما هنوز ثبت‌نشده است، می‌خواهید آن‌ها را بی‌خیال شوید؟",
+                "post_link": "نوشته #{number} در {discussion}",
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "composer_reply": {
+                "body_placeholder": "=> core.ref.write_a_reply",
+                "discard_confirmation": "پاسخ شما هنوز ارسال نشده است، می‌خواهید آن را بی‌خیال شوید؟",
+                "posted_message": "پاسخ شما ثبت شد.",
+                "submit_button": "ارسال پاسخ",
+                "view_button": "نمایش"
+            },
+            "discussion_controls": {
+                "cannot_reply_button": "نمی‌توان پاسخ داد",
+                "cannot_reply_text": "شما اجازه ارسال پاسخ در این مبحث را ندارید.",
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "برای حذف این مبحث مطمئن هستید؟",
+                "delete_forever_button": "=> core.ref.delete_forever",
+                "log_in_to_reply_button": "برای ارسال پاسخ وارد شوید",
+                "rename_button": "=> core.ref.rename",
+                "reply_button": "=> core.ref.reply",
+                "restore_button": "=> core.ref.restore"
+            },
+            "discussion_list": {
+                "empty_text": "به نظر می‌رسد که مبحثی تاکنون در اینجا ارسال نشده است.",
+                "load_more_button": "=> core.ref.load_more",
+                "mark_as_read_tooltip": "علامت به‌عنوان خوانده‌شده",
+                "replied_text": "{username} در {ago} پاسخ داد",
+                "started_text": "{username} در {ago} شروع نمود"
+            },
+            "edit_user": {
+                "activate_button": "فعال کردن کاربر",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "گروه‌ها",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "تغییر گذرواژه",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "ویرایش کاربر",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username"
+            },
+            "forgot_password": {
+                "dismiss_button": "=> core.ref.okay",
+                "email_placeholder": "=> core.ref.email",
+                "email_sent_message": "برای شما نامه‌ای در خصوص تغییر گذرواژه‌تان ارسال گردید. درصورتی‌که طی دقایق آتی آن را دریافت نکردید، پوشه هرزنامه‌های خود را بررسی نمایید.",
+                "not_found_message": "کاربری با رایانامه وارد شده وجود ندارد.",
+                "submit_button": "بازیابی گذرواژه",
+                "text": "برای بازیابی گذرواژه، رایانامه خود را وارد کنید.",
+                "title": "فراموشی گذرواژه"
+            },
+            "header": {
+                "admin_button": "مدیریت",
+                "back_to_index_tooltip": "بازگشت به لیست مباحث",
+                "log_in_link": "=> core.ref.log_in",
+                "log_out_button": "=> core.ref.log_out",
+                "profile_button": "پروفایل",
+                "search_placeholder": "جستجو انجمن",
+                "settings_button": "=> core.ref.settings",
+                "sign_up_link": "=> core.ref.sign_up"
+            },
+            "index": {
+                "all_discussions_link": "=> core.ref.all_discussions",
+                "cannot_start_discussion_button": "نمی‌توان بحثی را آغاز کرد",
+                "mark_all_as_read_confirmation": "برای علامت تمامی مباحث به‌عنوان خوانده‌شده اطمینان دارید؟",
+                "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "refresh_tooltip": "تازه کردن",
+                "start_discussion_button": "=> core.ref.start_a_discussion"
+            },
+            "index_sort": {
+                "latest_button": "آخرین",
+                "newest_button": "جدیدترین",
+                "oldest_button": "قدیمی‌ترین",
+                "relevance_button": "مرتبط",
+                "top_button": "بالا"
+            },
+            "log_in": {
+                "forgot_password_link": "گذرواژه‌تان را فراموش کردید؟",
+                "invalid_login_message": "اطلاعات واردشده صحیح نیست.",
+                "password_placeholder": "=> core.ref.password",
+                "remember_me_label": "مرا به خاطر بسپار",
+                "sign_up_text": "حساب کاربری ندارید؟ <a>ثبت‌نام</a> کنید.",
+                "submit_button": "=> core.ref.log_in",
+                "title": "=> core.ref.log_in",
+                "username_or_email_placeholder": "نام کاربری یا رایانامه"
+            },
+            "notifications": {
+                "discussion_renamed_text": "{username} عنوان را تغییر داد",
+                "empty_text": "اعلانی وجود ندارد",
+                "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "title": "=> core.ref.notifications",
+                "tooltip": "=> core.ref.notifications"
+            },
+            "post": {
+                "edited_text": "ویرایش شده",
+                "edited_tooltip": "{username} در {ago} ویرایش کرد",
+                "number_tooltip": "نوشته #{number}"
+            },
+            "post_controls": {
+                "delete_button": "=> core.ref.delete",
+                "delete_forever_button": "=> core.ref.delete_forever",
+                "edit_button": "=> core.ref.edit",
+                "restore_button": "=> core.ref.restore"
+            },
+            "post_scrubber": {
+                "now_link": "هم‌اکنون",
+                "original_post_link": "نوشته اصلی",
+                "unread_text": "{count} خوانده‌نشده",
+                "viewing_text": "{index} از {count} نوشته|{index} از {count} نوشته"
+            },
+            "post_stream": {
+                "discussion_renamed_old_tooltip": "عنوان قدیمی: \"{old}\"",
+                "discussion_renamed_text": "{username} عنوان را به {new} تغییر داد.",
+                "load_more_button": "=> core.ref.load_more",
+                "reply_placeholder": "=> core.ref.write_a_reply",
+                "time_lapsed_text": "{period} بعد"
+            },
+            "rename_discussion": {
+                "submit_button": "=> core.ref.rename",
+                "title": "تغییر نام مبحث"
+            },
+            "search": {
+                "all_discussions_button": "جستجو \"{query}\" در همه مباحث",
+                "discussions_heading": "=> core.ref.discussions",
+                "users_heading": "=> core.ref.users"
+            },
+            "settings": {
+                "account_heading": "حساب کاربری",
+                "change_email_button": "=> core.ref.change_email",
+                "change_password_button": "=> core.ref.change_password",
+                "notifications_heading": "=> core.ref.notifications",
+                "notify_by_email_heading": "=> core.ref.email",
+                "notify_by_web_heading": "وب‌سایت",
+                "notify_discussion_renamed_label": "اگر کسی نام مباحث من را تغییر داد",
+                "privacy_disclose_online_label": "اگر آنلاین بودم به دیگران نمایش بده",
+                "privacy_heading": "حریم شخصی",
+                "title": "=> core.ref.settings"
+            },
+            "sign_up": {
+                "dismiss_button": "=> core.ref.okay",
+                "email_placeholder": "=> core.ref.email",
+                "log_in_text": "قبلاً ثبت‌نام کرید؟ <a>وارد شوید</a>",
+                "password_placeholder": "=> core.ref.password",
+                "submit_button": "=> core.ref.sign_up",
+                "title": "=> core.ref.sign_up",
+                "username_placeholder": "=> core.ref.username",
+                "welcome_text": "{username} عزیز، خوش‌آمدید!"
+            },
+            "user": {
+                "avatar_remove_button": "=> core.ref.remove",
+                "avatar_upload_button": "بارگذاری",
+                "avatar_upload_tooltip": "بارگذاری آواتار جدید",
+                "discussions_link": "=> core.ref.discussions",
+                "in_discussion_text": "در {discussion}",
+                "joined_date_text": "ثبت‌نام در {ago}",
+                "online_text": "آنلاین",
+                "posts_empty_text": "به نظر می‌رسد که نوشته‌ای تاکنون در اینجا ارسال نشده است.",
+                "posts_link": "=> core.ref.posts",
+                "posts_load_more_button": "=> core.ref.load_more",
+                "settings_link": "=> core.ref.settings"
+            },
+            "user_controls": {
+                "button": "مدیریت",
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "برای حذف این کاربر مطمئن هستید؟ تمامی نوشته‌های کاربر حذف خواهد شد.",
+                "edit_button": "=> core.ref.edit"
+            },
+            "user_email_confirmation": {
+                "alert_message": "=> core.ref.confirmation_email_sent",
+                "resend_button": "ارسال دوباره تأییدیه",
+                "sent_message": "ارسال شد"
+            }
+        },
+        "lib": {
+            "badge": {
+                "hidden_tooltip": "پنهان"
+            },
+            "error": {
+                "generic_message": "متأسفانه خطایی رخ داد. لطفاً صفحه را دوباره بارگذاری کنید.",
+                "not_found_message": "یافت نشد.",
+                "permission_denied_message": "شما دسترسی لازم برای انجام این کار را ندارید.",
+                "rate_limit_exceeded_message": "سرعت عمل شما خیلی زیاد است. لطفاً کمی صبر کنید."
+            },
+            "number_suffix": {
+                "kilo_text": "K",
+                "mega_text": "M"
+            },
+            "series": {
+                "glue_text": "،",
+                "three_text": "{first}, {second}, و {third}",
+                "two_text": "{first} و {second}"
+            },
+            "username": {
+                "deleted_text": "[حذف شده]"
+            }
+        },
+        "views": {
+            "content": {
+                "javascript_disabled_message": "این وب‌سایت در مرورگرهای جدید، و با جاوا اسکریپت فعال به بهترین شکل نمایش میابد.",
+                "load_error_message": "Something went wrong while trying to load the full version of this site. Try hard-refreshing this page to fix the error.",
+                "loading_text": "بارگذاری..."
+            },
+            "discussion": {
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
+            },
+            "error": {
+                "403_message": "شما دسترسی لازم برای دسترسی به این صفحه را ندارید.",
+                "404_message": "صفحه‌ای که درخواست کردید یافت نشد.",
+                "404_return_link": "بازگشت به {forum}",
+                "500_message": "خطایی در بارگذاری این صفحه رخ داد.",
+                "503_message": "{forum} در حال تعمیر است. از صبر و شکیبایی شما سپاسگزاریم!"
+            },
+            "index": {
+                "all_discussions_heading": "=> core.ref.all_discussions",
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
+            },
+            "log_out": {
+                "log_out_button": "=> core.ref.log_out",
+                "log_out_confirmation": "برای خروج از {forum} مطمئن هستید؟",
+                "title": "=> core.ref.log_out"
+            },
+            "reset_password": {
+                "confirm_password_label": "تائید گذرواژه جدید",
+                "new_password_label": "گذرواژه جدید",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.reset_your_password"
+            }
+        },
+        "api": {
+            "invalid_username_message": "نام کاربری فقط می‌تواند شامل حروف، اعداد، و خطوط تیره باشد."
+        },
+        "email": {
+            "activate_account": {
+                "subject": "تأیید حساب کاربری جدید",
+                "body": "سلام {username}!\n\nاین نامه مبنی بر تکمیل فرایند ثبت‌نام در {forum} برای شما ارسال شده است.\n\nبرای تایید شدن رایانامه خود در می‌توانید از پیوند زیر استفاده کنید:\n{url}\n\nدر غیر این صورت (اگر این شما نبودید که این درخواست را ثبت کرده) این نامه را نادیده بگیرید.\n"
+            },
+            "confirm_email": {
+                "subject": "تأیید رایانامه جدید",
+                "body": "سلام {username}!\n\nدرخواستی مبنی بر تغییر رایانامه حساب کاربری شما در {forum} ثبت‌شده.\n\nمی‌توانید از پیوند زیر برای تکمیل فرایند تغییر رایانامه و تأیید شدن رایانامه جدید استفاده کنید:\n{url}\n\nدر غیر این صورت (اگر این شما نبودید که این درخواست را ثبت کرده) این نامه را نادیده بگیرید.\n"
+            },
+            "reset_password": {
+                "subject": "=> core.ref.reset_your_password",
+                "body": "سلام {username}!\n\nدرخواستی مبنی بر تغییر گذرواژه حساب کاربری شما در {forum} ثبت‌شده.\n\nاگر این خود شما بوده‌اید که این درخواست را ثبت کرده‌اید، می‌توانید از طریق پیوند زیر آن را تکمیل نمایید:\n{url}\n\nدر غیر این صورت (اگر این شما نبودید که این درخواست را ثبت کرده) این نامه را نادیده بگیرید.\n"
+            }
+        },
+        "ref": {
+            "all_discussions": "همه مباحث",
+            "change_email": "تغییر رایانامه",
+            "change_password": "تغییر گذرواژه",
+            "color": "Color",
+            "confirm_password": "تائید گذرواژه",
+            "confirmation_email_sent": "رایانامه‌ای در خصوص تاییدیه حساب کاربری به {email} ارسال گردید. اگر به‌زودی آن را دریافت ننمودید پوشه هرزنامه‌های خود را بررسی کنید.",
+            "custom_footer_text": "Add HTML to be displayed at the very bottom of the page.",
+            "custom_footer_title": "Edit Custom Footer",
+            "custom_header_text": "Add HTML to be displayed at the very top of the page, above Flarum's own header.",
+            "custom_header_title": "Edit Custom Header",
+            "delete": "حذف",
+            "delete_forever": "حذف برای همیشه",
+            "discussions": "مباحث",
+            "edit": "ویرایش",
+            "email": "رایانامه",
+            "load_more": "بیشتر",
+            "log_in": "ورود",
+            "log_out": "خروج",
+            "mark_all_as_read": "علامت همه به‌عنوان خوانده‌شده",
+            "next_page": "صفحه بعد",
+            "notifications": "اعلان‌ها",
+            "okay": "باشه",
+            "password": "گذرواژه",
+            "posts": "نوشته‌ها",
+            "previous_page": "صفحه قبل",
+            "remove": "حذف",
+            "rename": "تغییر نام",
+            "reply": "پاسخ",
+            "reset_your_password": "تنظیم دوباره گذرواژه",
+            "restore": "بازیابی",
+            "save_changes": "ذخیره تغییرات",
+            "settings": "تنظیمات",
+            "sign_up": "ثبت‌نام",
+            "some_others": "{count} دیگر|{count} دیگر",
+            "start_a_discussion": "شروع بحث جدید",
+            "username": "نام کاربری",
+            "users": "کاربران",
+            "write_a_reply": "پاسخ شما...",
+            "you": "شما"
+        },
+        "group": {
+            "admin": "مدیر کل",
+            "admins": "مدیران کل",
+            "guest": "مهمان",
+            "guests": "مهمانان",
+            "member": "کاربر",
+            "members": "کاربران",
+            "mod": "مدیر",
+            "mods": "مدیران"
+        }
+    }
+}
