@@ -625,6 +625,9 @@ return [
 	'simonxeko-preview-discussion' => [
 		'tag' => 'https://raw.githubusercontent.com/simonxeko/flarum-ext-preview-discussion/0.1.0/resources/locale/en.yml',
 	],
+	'spookygames-auth-keycloak' => [
+		'tag' => 'https://raw.githubusercontent.com/spookygames/flarum-ext-auth-keycloak/1.0.0.3/locale/en.yml',
+	],
 	'squeevee-fancybox' => [
 		'tag' => 'https://raw.githubusercontent.com/squeevee/flarum-ext-fancybox/0.2-beta/locale/en.yml',
 	],
