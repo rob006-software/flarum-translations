@@ -418,6 +418,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [Personal Pronouns by Shriker](https://weblate.rob006.net/projects/flarum/shriker-pronouns) | [`shriker/flarum-pronouns`](https://github.com/shriker/flarum-pronouns)|
 | [Follow Users by Simonxeko](https://weblate.rob006.net/projects/flarum/simonxeko-follow-users) | [`simonxeko/follow-users`](https://github.com/simonxeko/follow-users)|
 | [Preview Discussion by Simonxeko](https://weblate.rob006.net/projects/flarum/simonxeko-preview-discussion) | [`simonxeko/preview-discussion`](https://github.com/simonxeko/flarum-ext-preview-discussion)|
+| [Keycloak Login by Spookygames](https://weblate.rob006.net/projects/flarum/spookygames-auth-keycloak) | [`spookygames/flarum-ext-auth-keycloak`](https://github.com/spookygames/flarum-ext-auth-keycloak)|
 | [FancyBox by Squeevee](https://weblate.rob006.net/projects/flarum/squeevee-fancybox) | [`squeevee/flarum-ext-fancybox`](https://github.com/squeevee/flarum-ext-fancybox)|
 | [Action Log by Sycho](https://weblate.rob006.net/projects/flarum/sycho-action-log) | [`sycho/flarum-action-log`](https://github.com/SychO9/flarum-action-log)|
 | [Advanced Extension Categories by Sycho](https://weblate.rob006.net/projects/flarum/sycho-advanced-extension-categories) | [`sycho/flarum-advanced-extension-categories`](https://github.com/SychO9/flarum-advanced-extension-categories)|
