@@ -393,6 +393,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [SSO (Single Sign On) by Maicol07](https://weblate.rob006.net/projects/flarum/maicol07-sso) | [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)|
 | [Achievements by Malago](https://weblate.rob006.net/projects/flarum/malago-achievements) | [`malago/flarum-achievements`](https://github.com/malago86/flarum-achievements)|
 | [Ads by Malago](https://weblate.rob006.net/projects/flarum/malago-ads) | [`malago/flarum-ads`](https://github.com/malago86/flarum-ads)|
+| [Link Preview by Malago](https://weblate.rob006.net/projects/flarum/malago-linkpreview) | [`malago/flarum-linkpreview`](https://github.com/malago86/flarum-linkpreview)|
 | [Imgur Upload by Matteocontrini](https://weblate.rob006.net/projects/flarum/matteocontrini-imgur-upload) | [`matteocontrini/flarum-imgur-upload`](https://github.com/matteocontrini/flarum-imgur-upload)|
 | [Discussion views by Michaelbelgium](https://weblate.rob006.net/projects/flarum/michaelbelgium-discussion-views) | [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)|
 | [Profile views by Michaelbelgium](https://weblate.rob006.net/projects/flarum/michaelbelgium-profile-views) | [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views)|
