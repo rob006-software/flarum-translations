@@ -2,46 +2,46 @@
     "the-turk-miserable-users": {
         "admin": {
             "permissions": {
-                "miserable_user_label": ""
+                "miserable_user_label": "=> the-turk-miserable-users.ref.miserable_user"
             },
             "settings": {
-                "range_separator_text": "",
-                "range_seconds_text": "",
-                "loading_delay_label": "",
-                "loading_delay_text": "",
-                "broken_page_chance_label": "",
-                "broken_page_chance_text": "",
-                "flood_time_multiplier_label": "",
-                "flood_time_multiplier_text": "",
-                "redirection_chance_label": "",
-                "redirection_chance_text": "",
-                "redirection_page_url_label": "",
-                "redirection_page_url_text": "",
-                "log_out_chance_label": "",
-                "log_out_chance_text": "",
-                "shuffle_post_chance_label": "",
-                "shuffle_post_chance_text": ""
+                "range_separator_text": " ila ",
+                "range_seconds_text": " Saniye",
+                "loading_delay_label": "Yükleme gecikmesi",
+                "loading_delay_text": "Perişan kullanıcılar, burada sağlanan iki değer arasında rastgele bir süre sayfa yükleme gecikmesine tabi tutulur.",
+                "broken_page_chance_label": "Bozuk sayfa şansı",
+                "broken_page_chance_text": "Zaman zaman perişan kullanıcılara bozuk bir sayfa sunabilirsiniz. Bunun olma olasılığını yüzde olarak girin.",
+                "flood_time_multiplier_label": "Rahatsız edici zaman çarpanı",
+                "flood_time_multiplier_text": "Mesajlar arasındaki standart minimum süre (10 saniyedir), perişan kullanıcıların gönderiler arasında daha uzun süre beklemesini sağlamak için çarpılabilir.",
+                "redirection_chance_label": "Yönlendirme şansı",
+                "redirection_chance_text": "Perişan bir kullanıcının yeniden yönlendirme sayfa bağlantısına yeniden yönlendirilme olasılığını yüzde olarak girin.",
+                "redirection_page_url_label": "Yönlendirme bağlantısı",
+                "redirection_page_url_text": "Perişan kullanıcıları rastgele farklı bir sayfaya yönlendirebilirsiniz. Forum ana sayfasına yönlendirmek için burayı boş bırakın.",
+                "log_out_chance_label": "Çıkış şansı",
+                "log_out_chance_text": "Perişan bir kullanıcının oturumunun kapatılıp ana sayfaya geri yönlendirilme olasılığını yüzde olarak girin. <b>Unutmayın!</b> Çıkış yaptıktan sonra, artık perişan olmazlar.",
+                "shuffle_post_chance_label": "Rastgele gönderi şansı",
+                "shuffle_post_chance_text": "Perişan bir kullanıcının gönderisini rastgele karıştırabilirsiniz. Bunun olma olasılığını yüzde olarak girin."
             }
         },
         "forum": {
             "user_badge": {
-                "miserable_user_tooltip": ""
+                "miserable_user_tooltip": "=> the-turk-miserable-users.ref.miserable_user"
             },
             "user_controls": {
-                "miserable_user_button": ""
+                "miserable_user_button": "=> the-turk-miserable-users.ref.miserable_user"
             },
             "miserable_user": {
-                "title": "",
-                "status_heading": "",
-                "not_miserable_label": "",
-                "indefinitely_label": "",
-                "limited_time_label": "",
-                "limited_time_days_text": "",
-                "submit_button": ""
+                "title": "Perişan {username}",
+                "status_heading": "Perişanlık Durumu",
+                "not_miserable_label": "Perişan değil",
+                "indefinitely_label": "Süresiz perişan",
+                "limited_time_label": "Sınırlı bir süre için perişan...",
+                "limited_time_days_text": " gün",
+                "submit_button": "=> core.ref.save_changes"
             }
         },
         "ref": {
-            "miserable_user": ""
+            "miserable_user": "Perişan Kullanıcı"
         }
     }
 }
