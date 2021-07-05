@@ -22,6 +22,9 @@ return [
 		'https://raw.githubusercontent.com/flarum/core/master/locale/validation.yml',
 	],
 	/* extensions list begin */
+	'acpl-my-tags' => [
+		'tag' => 'https://raw.githubusercontent.com/android-com-pl/my-tags/1.0.1/locale/en.yml',
+	],
 	'afrux-asirem' => [
 		'tag' => 'https://raw.githubusercontent.com/afrux/asirem/v0.1.1/locale/en.yml',
 	],
