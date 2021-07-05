@@ -304,6 +304,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 
 | Extension name | Package name |
 | --- | --- |
+| [My Tags by Acpl](https://weblate.rob006.net/projects/flarum/acpl-my-tags) | [`acpl/my-tags`](https://github.com/android-com-pl/my-tags)|
 | [Asirem by Afrux](https://weblate.rob006.net/projects/flarum/afrux-asirem) | [`afrux/asirem`](https://github.com/afrux/asirem)|
 | [Syndication by Amaurycarrade](https://weblate.rob006.net/projects/flarum/amaurycarrade-syndication) | [`amaurycarrade/flarum-ext-syndication`](https://github.com/AmauryCarrade/flarum-ext-syndication)|
 | [Flagrow Ads by Andre pullinen](https://weblate.rob006.net/projects/flarum/andre-pullinen-ads) | [`andre-pullinen/ads`](https://github.com/andre-pullinen/ads)|

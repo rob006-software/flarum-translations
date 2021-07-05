@@ -105,6 +105,7 @@
 
 | Extension | Status |
 | --- | --- |
+| [My Tags by Acpl](https://github.com/android-com-pl/my-tags) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/acpl-my-tags/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/acpl-my-tags/) |
 | [Asirem by Afrux](https://github.com/afrux/asirem) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/afrux-asirem/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/afrux-asirem/) |
 | [Syndication by Amaurycarrade](https://github.com/AmauryCarrade/flarum-ext-syndication) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/amaurycarrade-syndication/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/amaurycarrade-syndication/) |
 | [Flagrow Ads by Andre pullinen](https://github.com/andre-pullinen/ads) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/andre-pullinen-ads/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/andre-pullinen-ads/) |
