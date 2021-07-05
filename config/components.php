@@ -431,7 +431,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-password-strength/3.0.0/locale/en.yml',
 	],
 	'glowingblue-redis-setup' => [
-		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-redis-setup/1.0.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-redis-setup/1.0.3/resources/locale/en.yml',
 	],
 	'ianm-diff' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-diff/3.0.0/locale/en.yml',
