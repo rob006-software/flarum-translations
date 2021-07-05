@@ -2,67 +2,67 @@
     "fof-webhooks": {
         "actions": {
             "poll": {
-                "voted": "",
-                "created": ""
+                "voted": "A voté sur le sondage `{1}`",
+                "created": "A créé le sondage `{1}`"
             },
             "post": {
-                "reacted": "",
-                "unreacted": "",
-                "upvoted": "",
-                "downvoted": ""
+                "reacted": "A réagi à un message avec `{1}`",
+                "unreacted": "A supprimé leur réaction d'un message",
+                "upvoted": "A voté positivement un message",
+                "downvoted": "A voté négativement un message"
             },
             "user": {
-                "enabled2fa": ""
+                "enabled2fa": "A activé l'A2F"
             },
             "extension": {
-                "installed": "",
-                "updated": ""
+                "installed": "A installé l'extension `{1}`",
+                "updated": "A mis à jour l'extension `{1}`"
             },
             "ip": {
-                "banned": "",
-                "unbanned": ""
+                "banned": "A banni l'adresse IP `{1}`",
+                "unbanned": "A débanni l'adresse IP `{1}`"
             }
         },
         "admin": {
             "settings": {
                 "services": {
-                    "custom": ""
+                    "custom": "Personnalisé"
                 },
                 "actions": {
                     "extiverse": {
                         "bazaar": {
-                            "title": "",
-                            "extensionwasinstalled": "",
-                            "extensionwasupdated": ""
+                            "title": "Extiverse Bazaar",
+                            "extensionwasinstalled": "Extension installée",
+                            "extensionwasupdated": "Extension mise à jour"
                         }
                     },
                     "fof": {
                         "banips": {
-                            "title": "",
-                            "ipwasbanned": "",
-                            "ipwasunbanned": ""
+                            "title": "Ban IPs de FriendsOfFlarum",
+                            "ipwasbanned": "Bannie",
+                            "ipwasunbanned": "Débannie"
                         },
                         "byobu": {
-                            "title": "",
-                            "discussionmadepublic": ""
+                            "title": "Byobu de FriendsOfFlarum",
+                            "discussionmadepublic": "Discussion rendue publique"
                         },
                         "gamification": {
-                            "title": "",
-                            "postwasvoted": ""
+                            "title": "Gamification de FriendsOfFlarum",
+                            "postwasvoted": "Message voté positivement/négativement"
                         },
                         "polls": {
-                            "title": "",
-                            "pollwasvoted": "",
-                            "pollwascreated": ""
+                            "title": "Polls de FriendsOfFlarum",
+                            "pollwasvoted": "Voté",
+                            "pollwascreated": "Créé"
                         },
                         "reactions": {
-                            "title": "",
-                            "postwasreacted": "",
-                            "postwasunreacted": ""
+                            "title": "Reactions de FriendsOfFlarum",
+                            "postwasreacted": "Message avec réaction",
+                            "postwasunreacted": "Message sans réaction"
                         },
                         "twofactor": {
-                            "title": "",
-                            "userenabledtwofactor": ""
+                            "title": "Two Factor de FriendsOfFlarum",
+                            "userenabledtwofactor": "L'utilisateur a activé l'A2F"
                         }
                     },
                     "reflar": {
