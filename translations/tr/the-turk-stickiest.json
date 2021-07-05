@@ -2,35 +2,35 @@
     "the-turk-stickiest": {
         "admin": {
             "settings": {
-                "badge_icon_label": "",
-                "badge_icon_text": ""
+                "badge_icon_label": "Süper sabit rozet simgesi",
+                "badge_icon_text": "=> core.ref.icon_text"
             }
         },
         "forum": {
             "badge": {
-                "sticky_tooltip": "",
-                "super_sticky_tooltip": "",
-                "tag_sticky_tooltip": ""
+                "sticky_tooltip": "=> the-turk-stickiest.ref.sticky",
+                "super_sticky_tooltip": "=> the-turk-stickiest.ref.super_sticky",
+                "tag_sticky_tooltip": "=> the-turk-stickiest.ref.tag_sticky"
             },
             "discussion_controls": {
-                "sticky_button": "",
-                "unsticky_button": "",
-                "super_sticky_button": "",
-                "common_sticky_button": "",
-                "tag_sticky_button": "",
-                "all_sticky_button": ""
+                "sticky_button": "=> the-turk-stickiest.ref.sticky",
+                "unsticky_button": "=> flarum-sticky.forum.discussion_controls.unsticky_button",
+                "super_sticky_button": "=> the-turk-stickiest.ref.super_sticky",
+                "common_sticky_button": "Normal Sabitle",
+                "tag_sticky_button": "=> the-turk-stickiest.ref.tag_sticky",
+                "all_sticky_button": "Tümünde Sabitle"
             },
             "post_stream": {
-                "discussion_stickied_text": "",
-                "discussion_unstickied_text": "",
-                "discussion_super_stickied_text": "",
-                "discussion_common_stickied_text": ""
+                "discussion_stickied_text": "=> flarum-sticky.forum.post_stream.discussion_stickied_text",
+                "discussion_unstickied_text": "=> flarum-sticky.forum.post_stream.discussion_unstickied_text",
+                "discussion_super_stickied_text": "{username} bu tartışmayı süper sabitledi.",
+                "discussion_common_stickied_text": "{username} bu tartışmayının süper sabitlenmesini kaldırdı."
             }
         },
         "ref": {
-            "sticky": "",
-            "super_sticky": "",
-            "tag_sticky": ""
+            "sticky": "=> flarum-sticky.ref.sticky",
+            "super_sticky": "Süper Sabit",
+            "tag_sticky": "Etikette Sabitle"
         }
     }
 }
