@@ -433,6 +433,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [Pallet Theme by The turk](https://weblate.rob006.net/projects/flarum/the-turk-pallet-theme) | [`the-turk/flarum-pallet-theme`](https://github.com/the-turk/flarum-pallet-theme)|
 | [Registration Roles by The turk](https://weblate.rob006.net/projects/flarum/the-turk-regrole) | [`the-turk/flarum-regrole`](https://github.com/the-turk/flarum-regrole)|
 | [Stargazing Theme by The turk](https://weblate.rob006.net/projects/flarum/the-turk-stargazing-theme) | [`the-turk/flarum-stargazing-theme`](https://github.com/the-turk/flarum-stargazing-theme)|
+| [Stickiest by The turk](https://weblate.rob006.net/projects/flarum/the-turk-stickiest) | [`the-turk/flarum-stickiest`](https://github.com/the-turk/flarum-stickiest)|
 | [GIFs by Therealsujitk](https://weblate.rob006.net/projects/flarum/therealsujitk-gifs) | [`therealsujitk/flarum-ext-gifs`](https://github.com/therealsujitk/flarum-ext-gifs)|
 | [highlight.js by Therealsujitk](https://weblate.rob006.net/projects/flarum/therealsujitk-hljs) | [`therealsujitk/flarum-ext-hljs`](https://github.com/therealsujitk/flarum-ext-hljs)|
 | [Show Password by Therealsujitk](https://weblate.rob006.net/projects/flarum/therealsujitk-show-password) | [`therealsujitk/flarum-ext-show-password`](https://github.com/therealsujitk/flarum-ext-show-password)|
