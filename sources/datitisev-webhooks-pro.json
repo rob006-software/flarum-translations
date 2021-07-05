@@ -1,0 +1,74 @@
+{
+    "fof-webhooks": {
+        "actions": {
+            "poll": {
+                "voted": "Voted on poll `{1}`",
+                "created": "Created poll `{1}`"
+            },
+            "post": {
+                "reacted": "Reacted to a post with `{1}`",
+                "unreacted": "Removed their reaction from a post",
+                "upvoted": "Upvoted a post",
+                "downvoted": "Downvoted a post"
+            },
+            "user": {
+                "enabled2fa": "Enabled 2FA"
+            },
+            "extension": {
+                "installed": "Installed extension `{1}`",
+                "updated": "Updated extension `{1}`"
+            },
+            "ip": {
+                "banned": "IP banned `{1}`",
+                "unbanned": "IP unbanned `{1}`"
+            }
+        },
+        "admin": {
+            "settings": {
+                "services": {
+                    "custom": "Custom"
+                },
+                "actions": {
+                    "reflar": {
+                        "twofactor": {
+                            "title": "ReFlar Two Factor",
+                            "userenabledtwofactor": "User Enabled 2FA"
+                        }
+                    },
+                    "extiverse": {
+                        "bazaar": {
+                            "title": "Extiverse Bazaar",
+                            "extensionwasinstalled": "Extension Installed",
+                            "extensionwasupdated": "Extension Updated"
+                        }
+                    },
+                    "fof": {
+                        "banips": {
+                            "title": "FriendsOfFlarum Ban IPs",
+                            "ipwasbanned": "Banned",
+                            "ipwasunbanned": "Unbanned"
+                        },
+                        "byobu": {
+                            "title": "FriendsOfFlarum Byobu",
+                            "discussionmadepublic": "Discussion Made Public"
+                        },
+                        "gamification": {
+                            "title": "FriendsOfFlarum Gamification",
+                            "postwasvoted": "Post Upvoted/Downvoted"
+                        },
+                        "polls": {
+                            "title": "FriendsOfFlarum Polls",
+                            "pollwasvoted": "Voted",
+                            "pollwascreated": "Created"
+                        },
+                        "reactions": {
+                            "title": "FriendsOfFlarum Reactions",
+                            "postwasreacted": "Post Reacted",
+                            "postwasunreacted": "Post Unreacted"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
