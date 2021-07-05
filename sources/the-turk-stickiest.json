@@ -1,0 +1,36 @@
+{
+    "the-turk-stickiest": {
+        "admin": {
+            "settings": {
+                "badge_icon_label": "Super sticky badge icon",
+                "badge_icon_text": "=> core.ref.icon_text"
+            }
+        },
+        "forum": {
+            "badge": {
+                "sticky_tooltip": "=> the-turk-stickiest.ref.sticky",
+                "super_sticky_tooltip": "=> the-turk-stickiest.ref.super_sticky",
+                "tag_sticky_tooltip": "=> the-turk-stickiest.ref.tag_sticky"
+            },
+            "discussion_controls": {
+                "sticky_button": "=> the-turk-stickiest.ref.sticky",
+                "unsticky_button": "=> flarum-sticky.forum.discussion_controls.unsticky_button",
+                "super_sticky_button": "=> the-turk-stickiest.ref.super_sticky",
+                "common_sticky_button": "Common Sticky",
+                "tag_sticky_button": "=> the-turk-stickiest.ref.tag_sticky",
+                "all_sticky_button": "All Sticky"
+            },
+            "post_stream": {
+                "discussion_stickied_text": "=> flarum-sticky.forum.post_stream.discussion_stickied_text",
+                "discussion_unstickied_text": "=> flarum-sticky.forum.post_stream.discussion_unstickied_text",
+                "discussion_super_stickied_text": "{username} marked the discussion as super sticky.",
+                "discussion_common_stickied_text": "{username} unmarked the discussion as super sticky."
+            }
+        },
+        "ref": {
+            "sticky": "=> flarum-sticky.ref.sticky",
+            "super_sticky": "Super Sticky",
+            "tag_sticky": "Tag Sticky"
+        }
+    }
+}
