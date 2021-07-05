@@ -461,6 +461,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [Realtime by Blomstra](https://weblate.rob006.net/projects/flarum/blomstra-realtime) | [`blomstra/realtime`](https://extiverse.com/extension/blomstra/realtime)|
 | [Backup by Datitisev](https://weblate.rob006.net/projects/flarum/datitisev-backup) | [`datitisev/flarum-backup`](https://extiverse.com/extension/datitisev/flarum-backup)|
 | [Maintenance Mode by Datitisev](https://weblate.rob006.net/projects/flarum/datitisev-maintenance) | [`datitisev/flarum-maintenance`](https://extiverse.com/extension/datitisev/flarum-maintenance)|
+| [Webhooks PRO by Datitisev](https://weblate.rob006.net/projects/flarum/datitisev-webhooks-pro) | [`datitisev/flarum-webhooks-pro`](https://extiverse.com/extension/datitisev/flarum-webhooks-pro)|
 | [Audit Pro by Kilowhat](https://weblate.rob006.net/projects/flarum/kilowhat-audit-pro) | [`kilowhat/flarum-ext-audit-pro`](https://extiverse.com/extension/kilowhat/flarum-ext-audit-pro)|
 | [Custom Paths by Kilowhat](https://weblate.rob006.net/projects/flarum/kilowhat-custom-paths) | [`kilowhat/flarum-ext-custom-paths`](https://extiverse.com/extension/kilowhat/flarum-ext-custom-paths)|
 | [Formulaire by Kilowhat](https://weblate.rob006.net/projects/flarum/kilowhat-formulaire) | [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)|
