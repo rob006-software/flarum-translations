@@ -29,12 +29,6 @@
                     "custom": "自定义"
                 },
                 "actions": {
-                    "reflar": {
-                        "twofactor": {
-                            "title": "ReFlar 两步验证",
-                            "userenabledtwofactor": "用户开启两步验证"
-                        }
-                    },
                     "extiverse": {
                         "bazaar": {
                             "title": "Extiverse 市场",
@@ -65,6 +59,16 @@
                             "title": "FriendsOfFlarum 表情反应",
                             "postwasreacted": "戳表情",
                             "postwasunreacted": "移除表情"
+                        },
+                        "twofactor": {
+                            "title": "",
+                            "userenabledtwofactor": ""
+                        }
+                    },
+                    "reflar": {
+                        "twofactor": {
+                            "title": "ReFlar 两步验证",
+                            "userenabledtwofactor": "用户开启两步验证"
                         }
                     }
                 }

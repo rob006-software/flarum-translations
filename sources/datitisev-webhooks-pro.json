@@ -29,12 +29,6 @@
                     "custom": "Custom"
                 },
                 "actions": {
-                    "reflar": {
-                        "twofactor": {
-                            "title": "ReFlar Two Factor",
-                            "userenabledtwofactor": "User Enabled 2FA"
-                        }
-                    },
                     "extiverse": {
                         "bazaar": {
                             "title": "Extiverse Bazaar",
@@ -65,6 +59,10 @@
                             "title": "FriendsOfFlarum Reactions",
                             "postwasreacted": "Post Reacted",
                             "postwasunreacted": "Post Unreacted"
+                        },
+                        "twofactor": {
+                            "title": "FriendsOfFlarum Two Factor",
+                            "userenabledtwofactor": "User Enabled 2FA"
                         }
                     }
                 }
