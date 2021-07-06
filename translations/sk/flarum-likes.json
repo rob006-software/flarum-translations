@@ -1,0 +1,29 @@
+{
+    "flarum-likes": {
+        "admin": {
+            "permissions": {
+                "like_posts_label": "Lajkovať príspevky"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_liked_text": "Používateľovi {username} sa páči tvoj príspevok"
+            },
+            "post": {
+                "like_link": "Toto sa mi páči",
+                "liked_by_self_text": "{users} používateľom sa to páči.",
+                "liked_by_text": "Používateľovi {users} sa to páči.|Používateľom {users} sa to páči",
+                "others_link": "=> core.ref.some_others",
+                "unlike_link": "Už sa mi to nepáči",
+                "you_text": "=> core.ref.you"
+            },
+            "post_likes": {
+                "title": "Používatelia Ktorým Sa To Páči"
+            },
+            "settings": {
+                "notify_post_liked_label": "Niekomu sa páči môj príspevok"
+            }
+        }
+    }
+}
