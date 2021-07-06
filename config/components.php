@@ -452,7 +452,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-regrole/1.0.0/locale/en.yml',
 	],
 	'ianm-syndication' => [
-		'tag' => 'https://raw.githubusercontent.com/imorland/syndication/1.0.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/imorland/syndication/1.0.2/resources/locale/en.yml',
 	],
 	'ianm-synopsis' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/synopsis/1.0.0/resources/locale/en.yml',
