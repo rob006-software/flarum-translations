@@ -1,0 +1,22 @@
+{
+    "flarum-sticky": {
+        "admin": {
+            "permissions": {
+                "sticky_discussions_label": "Prilepiť diskusie"
+            }
+        },
+        "forum": {
+            "badge": {
+                "sticky_tooltip": "Prilepené"
+            },
+            "discussion_controls": {
+                "sticky_button": "Prilepiť",
+                "unsticky_button": "Unsticky"
+            },
+            "post_stream": {
+                "discussion_stickied_text": "{username} prilepil túto diskusiu.",
+                "discussion_unstickied_text": "{username} odlepil túto diskusiu."
+            }
+        }
+    }
+}
