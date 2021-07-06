@@ -21,8 +21,8 @@
                 "favicon_text": "Nahraj obrázok ktorý bude použitý ako favicon tvojho fóra.",
                 "logo_heading": "Logo",
                 "logo_text": "Nahraj obrázok ktorý bude použitý namiesto názvu tvojho fóra.",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "Vzhľad"
+                "title": "Vzhľad",
+                "submit_button": "=> core.ref.save_changes"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -35,14 +35,14 @@
                 "forum_title_heading": "Názov Fóra",
                 "home_page_heading": "Domovská Stránka",
                 "home_page_text": "Vyber stránku ktorú tvoji návštevníci uvidia ako prvú keď navštívia tvoje fórum.",
-                "saved_message": "Tvoje zmeny boli uložené.",
                 "show_language_selector_label": "Zobraziť výber jazyka.",
                 "slug_driver_heading": "Ovládač Identifikátorov: {model}",
                 "slug_driver_text": "Vyber ovládač ktorý sa použije na identifikovanie tohto modelu.",
-                "submit_button": "=> core.ref.save_changes",
                 "title": "Základy",
                 "welcome_banner_heading": "Uvítacie Tablo",
-                "welcome_banner_text": "Vyber textové tablo, ktoré sa zobrazí na vrchole stránky \"Všetky Diskusie\". Využi to pre privítanie tvojich užívateľov."
+                "welcome_banner_text": "Vyber textové tablo, ktoré sa zobrazí na vrchole stránky \"Všetky Diskusie\". Využi to pre privítanie tvojich užívateľov.",
+                "saved_message": "Tvoje zmeny boli uložené.",
+                "submit_button": "=> core.ref.save_changes"
             },
             "dashboard": {
                 "clear_cache_button": "Vymazať Vyrovnávaciu Pamäť",
@@ -99,14 +99,15 @@
                 "send_test_mail_success": "Test mail bol úspešne odoslaný!",
                 "send_test_mail_text": "Toto odošle testovací E-Mail podľa hornej konfigurácie na tvoju mailovú adresu, {email}.",
                 "smtp_heading": "SMTP Nastavenia",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "=> core.ref.email"
+                "title": "=> core.ref.email",
+                "submit_button": "=> core.ref.save_changes"
             },
             "extension": {
+                "configure_scopes": "",
                 "confirm_uninstall": "Odinštalovanie vymaže všetky údaje o tomto doplnku v databáze a jeho nahrané súbory. Si si istý že chceš pokračovať?",
                 "disabled": "Deaktivovaný",
-                "enabled": "Aktivovaný",
                 "enable_to_see": "Aktivuj tento doplnok pre zobrazenie a zmenu jeho nastavení.",
+                "enabled": "Aktivovaný",
                 "info_links": {
                     "discuss": "Diskusia",
                     "documentation": "Dokumentácia",
@@ -119,8 +120,8 @@
                 "no_settings": "Tento doplnok neobsahuje žiadne nastavenia.",
                 "open_modal": "Otvoriť Nastavenia",
                 "permissions_title": "Oprávnenia",
-                "saved_message": "Tvoje zmeny boli uložené.",
-                "uninstall_button": "Odinštalovať"
+                "uninstall_button": "Odinštalovať",
+                "saved_message": "Tvoje zmeny boli uložené."
             },
             "header": {
                 "get_help": "Pomoc",
@@ -151,6 +152,8 @@
                 "email_title": "=> core.admin.email.description",
                 "permissions_button": "=> core.admin.permissions.title",
                 "permissions_title": "=> core.admin.permissions.description",
+                "userlist_button": "",
+                "userlist_title": "",
                 "search_placeholder": "Vyhľadať doplnky"
             },
             "permissions": {
@@ -164,6 +167,8 @@
                 "description": "Vyber, kto môže čo robiť.",
                 "edit_posts_label": "Upraviť príspevky",
                 "edit_users_label": "Upraviť používateľov",
+                "edit_users_credentials_label": "",
+                "edit_users_groups_label": "",
                 "global_heading": "Globálne",
                 "moderate_heading": "Moderácia",
                 "new_group_button": "Nová skupina",
@@ -172,13 +177,15 @@
                 "read_heading": "Viditeľnosť",
                 "rename_discussions_label": "Premenovať diskusie",
                 "reply_to_discussions_label": "Odpovedať na diskusie",
+                "search_users_label": "",
                 "sign_up_label": "Registrovať sa",
                 "start_discussions_label": "Začat diskusie",
                 "title": "Oprávnenia",
-                "view_discussions_label": "Zobraziť diskusie",
+                "view_forum_label": "",
                 "view_hidden_groups_label": "Zobraziť skryté skupiny",
                 "view_last_seen_at_label": "Vždy zobraziť čas poslednej návštevy používateľa",
                 "view_post_ips_label": "Zobraziť IP adresy príspevkov",
+                "view_discussions_label": "Zobraziť diskusie",
                 "view_user_list_label": "Zobraziť zoznam používateľov"
             },
             "permissions_controls": {
@@ -192,11 +199,51 @@
                 "signup_open_button": "Otvorená"
             },
             "settings": {
+                "saved_message": "",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
                 "remove_button": "=> core.ref.remove",
                 "upload_button": "Vybrať Obrázok..."
+            },
+            "users": {
+                "description": "",
+                "grid": {
+                    "columns": {
+                        "edit_user": {
+                            "button": "",
+                            "title": "",
+                            "tooltip": ""
+                        },
+                        "email": {
+                            "title": "",
+                            "visibility_hide": "",
+                            "visibility_show": ""
+                        },
+                        "group_badges": {
+                            "no_badges": "",
+                            "title": ""
+                        },
+                        "join_time": {
+                            "title": ""
+                        },
+                        "user_id": {
+                            "title": ""
+                        },
+                        "username": {
+                            "profile_link_tooltip": "",
+                            "title": ""
+                        }
+                    },
+                    "invalid_column_content": ""
+                },
+                "pagination": {
+                    "back_button": "",
+                    "next_button": "",
+                    "page_counter": ""
+                },
+                "title": "",
+                "total_users": ""
             }
         },
         "forum": {
@@ -250,7 +297,8 @@
                 "log_in_to_reply_button": "Prihlás Sa Aby Si Mohol Odpovedať.",
                 "rename_button": "=> core.ref.rename",
                 "reply_button": "=> core.ref.reply",
-                "restore_button": "=> core.ref.restore"
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": ""
             },
             "discussion_list": {
                 "empty_text": "Vyzerá to tak že tu nie sú žiadne diskusie.",
@@ -258,19 +306,6 @@
                 "mark_as_read_tooltip": "Označiť Ako Prečítané",
                 "replied_text": "{username} odpovedal {ago}",
                 "started_text": "{username} začal {ago}"
-            },
-            "edit_user": {
-                "activate_button": "Aktivovať Používateľa",
-                "email_heading": "=> core.ref.email",
-                "email_label": "=> core.ref.email",
-                "groups_heading": "Skupiny",
-                "password_heading": "=> core.ref.password",
-                "password_label": "=> core.ref.password",
-                "set_password_label": "Set new password",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "Upraviť Používateľa",
-                "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -284,10 +319,12 @@
             "header": {
                 "admin_button": "Administrácia",
                 "back_to_index_tooltip": "Naspäť na zoznam diskusií",
+                "locale_dropdown_accessible_label": "",
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Profil",
                 "search_placeholder": "Prehľadať Fórum",
+                "session_dropdown_accessible_label": "",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
             },
@@ -298,13 +335,15 @@
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
                 "refresh_tooltip": "Znovunačítať",
-                "start_discussion_button": "=> core.ref.start_a_discussion"
+                "start_discussion_button": "=> core.ref.start_a_discussion",
+                "toggle_sidenav_dropdown_accessible_label": ""
             },
             "index_sort": {
                 "latest_button": "Naposledy aktualizované",
                 "newest_button": "Najnovšie",
                 "oldest_button": "Najstaršie",
                 "relevance_button": "Relevantné",
+                "toggle_dropdown_accessible_label": "",
                 "top_button": "Top"
             },
             "log_in": {
@@ -323,6 +362,7 @@
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "Označiť Ako Prečítané",
                 "title": "=> core.ref.notifications",
+                "toggle_dropdown_accessible_label": "",
                 "tooltip": "=> core.ref.notifications"
             },
             "post": {
@@ -336,7 +376,8 @@
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "edit_button": "=> core.ref.edit",
                 "hide_confirmation": "Si si istý že chceš skryť tento príspevok?",
-                "restore_button": "=> core.ref.restore"
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": ""
             },
             "post_scrubber": {
                 "now_link": "Súčasnosť",
@@ -401,17 +442,47 @@
                 "delete_confirmation": "Si si istý že chceš odstrániť tohto používateľa? Ich príspevky NEBUDÚ odstránené.",
                 "delete_error_message": "Odstránenie používateľa <i>{username} ({email})</i> zlyhalo",
                 "delete_success_message": "Používateľ <i>{username} ({email})</i> bol odstránený",
-                "edit_button": "=> core.ref.edit"
+                "edit_button": "=> core.ref.edit",
+                "toggle_dropdown_accessible_label": ""
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "Znovu Odoslať Potvrdzovací Mail",
                 "sent_message": "Poslané"
+            },
+            "edit_user": {
+                "activate_button": "Aktivovať Používateľa",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "Skupiny",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "Set new password",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Upraviť Používateľa",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username"
             }
         },
         "lib": {
             "badge": {
                 "hidden_tooltip": "Skrytá"
+            },
+            "dropdown": {
+                "toggle_dropdown_accessible_label": ""
+            },
+            "edit_user": {
+                "activate_button": "",
+                "email_heading": "",
+                "email_label": "",
+                "groups_heading": "",
+                "password_heading": "",
+                "password_label": "",
+                "set_password_label": "",
+                "submit_button": "",
+                "title": "",
+                "username_heading": "",
+                "username_label": ""
             },
             "error": {
                 "dependent_extensions_message": "Nemožno deaktivovať {extension} pokiaľ nie sú deaktivované aj nasledujúce doplnky: {extensions}",
@@ -420,6 +491,9 @@
                 "not_found_message": "Požadovaný obsah sa nenašiel.",
                 "permission_denied_message": "Na toto nemáš oprávnenie.",
                 "rate_limit_exceeded_message": "Ideš trošku prirýchlo. Skús to znova neskôr."
+            },
+            "loading_indicator": {
+                "accessible_label": ""
             },
             "number_suffix": {
                 "kilo_text": " tis.",
@@ -507,10 +581,12 @@
             "delete_forever": "Odstrániť Navždy",
             "discussions": "Diskusie",
             "edit": "Upraviť",
+            "edit_user": "",
             "email": "Email",
             "icon": "Ikona",
             "icon_text": "Uveď názov akejkoľvek <a>FontAwesome</a> ikonovej triedy, <em>zároveň s</em> predponou <code>fas fa-</code>.",
             "load_more": "Načítať Viac",
+            "loading": "",
             "log_in": "Prihlásiť Sa",
             "log_out": "Odhlásiť Sa",
             "mark_all_as_read": "Označiť Všetky ako prečítané",
