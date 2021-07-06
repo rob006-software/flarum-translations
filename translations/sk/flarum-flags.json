@@ -1,0 +1,50 @@
+{
+    "flarum-flags": {
+        "admin": {
+            "permissions": {
+                "flag_posts_label": "Označiť príspevky",
+                "view_flags_label": "Zobraziť označené príspevky"
+            },
+            "settings": {
+                "flag_own_posts_label": "Umožniť používateľom označiť ich vlastné príspevky",
+                "guidelines_url_label": "URL Pravidiel Komunity",
+                "title": "Nastavenie Označovania"
+            }
+        },
+        "forum": {
+            "flag_post": {
+                "confirmation_message": "Ďakujeme za označenie tohto príspevku. Naši moderátori to skontrolujú.",
+                "dismiss_button": "=> core.ref.okay",
+                "reason_details_placeholder": "Doplňujúce detaily (volitelné)",
+                "reason_inappropriate_label": "Nevhodné",
+                "reason_inappropriate_text": "Tento príspevok je urážlivý, násilnícky alebo nespĺňa naše <a>pravidlá komunity</a>.",
+                "reason_missing_message": "Prosím poskytnite nejaké detaily pre našich moderátorov.",
+                "reason_off_topic_label": "Mimo témy",
+                "reason_off_topic_text": "Tento príspevok nie je relevantný k tejto diskusií a mal by byť presunutý do inej diskusie.",
+                "reason_other_label": "Iné (prosím spresnite)",
+                "reason_spam_label": "Spam",
+                "reason_spam_text": "Tento príspevok je nevyžiadaná reklama",
+                "submit_button": "=> flarum-flags.ref.flag_post",
+                "title": "=> flarum-flags.ref.flag_post"
+            },
+            "flagged_posts": {
+                "empty_text": "Žiadne Označenia",
+                "item_text": "{username} v <em>{discussion}</em>",
+                "title": "=> flarum-flags.ref.flagged_posts",
+                "tooltip": "=> flarum-flags.ref.flagged_posts"
+            },
+            "post": {
+                "dismiss_flag_button": "Zamietnuť Označenie",
+                "flagged_by_text": "Označené používateľom {username}",
+                "flagged_by_with_reason_text": "Označené používateľom {username} ako {reason}"
+            },
+            "post_controls": {
+                "flag_button": "Označiť"
+            }
+        },
+        "ref": {
+            "flag_post": "Označiť Príspevok",
+            "flagged_posts": "Označené Príspevky"
+        }
+    }
+}
