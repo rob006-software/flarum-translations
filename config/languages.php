@@ -53,6 +53,7 @@ return [
 	'pl' => getComponents(),
 	'pt_BR' => getComponents(),
 	'si' => getComponents(),
+	'sk' => getComponents(),
 	'ta' => getComponents(),
 	'te' => getComponents(),
 	'tr' => getComponents([

@@ -130,6 +130,13 @@ return [
 		'branch' => 'main',
 		'path' => '/locale',
 	],
+	'sk' => [
+		'type' => 'language',
+		'language' => 'sk',
+		'repository' => 'git@github.com:flarum-lang/slovak.git',
+		'branch' => 'master',
+		'path' => '/locale',
+	],
 	'ta' => [
 		'type' => 'language',
 		'language' => 'ta',
