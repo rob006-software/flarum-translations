@@ -362,6 +362,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [davwheat Custom Side Nav Links by Davwheat](https://weblate.rob006.net/projects/flarum/davwheat-custom-sidenav-links) | [`davwheat/custom-sidenav-links`](https://github.com/davwheat/flarum-ext-custom-sidenav-links)|
 | [Discussion Сards by Dem13n](https://weblate.rob006.net/projects/flarum/dem13n-discussion-cards) | [`dem13n/discussion-cards`](https://github.com/Dem13n/discussion-cards)|
 | [Topic Starter Label by Dem13n](https://weblate.rob006.net/projects/flarum/dem13n-topic-starter-label) | [`dem13n/topic-starter-label`](https://github.com/Dem13n/topic-starter-label)|
+| [Mercury by Extiverse](https://weblate.rob006.net/projects/flarum/extiverse-mercury) | [`extiverse/mercury`](https://github.com/extiverse/mercury)|
 | [FFans Clipboardjs by Ffans](https://weblate.rob006.net/projects/flarum/ffans-clipboardjs) | [`ffans/clipboardjs`](https://github.com/FFans/clipboardjs)|
 | [Oauth Vkontakte by Flarumi](https://weblate.rob006.net/projects/flarum/flarumi-oauth-vkontakte) | [`flarumi/oauth-vkontakte`](https://github.com/flarumi/oauth-vkontakte)|
 | [Oauth Yandex by Flarumi](https://weblate.rob006.net/projects/flarum/flarumi-oauth-yandex) | [`flarumi/oauth-yandex`](https://github.com/flarumi/oauth-yandex)|
