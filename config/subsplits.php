@@ -20,7 +20,7 @@ return [
 	'ar' => [
 		'type' => 'language',
 		'language' => 'ar',
-		'repository' => 'https://github.com/neerugupta/flarum-lang-arabic.git',
+		'repository' => 'git@github.com:neerugupta/flarum-lang-arabic.git',
 		'branch' => 'master',
 		'path' => '/locale',
 	],
