@@ -616,6 +616,9 @@ return [
 	'nyu8-email-filter' => [
 		'tag' => 'https://raw.githubusercontent.com/nyu8/flarum-email-filter/v1.0.5/locale/en.yml',
 	],
+	'nyu8-auth0' => [
+		'tag' => 'https://raw.githubusercontent.com/nyu8/flarum-auth0/v1.0.6/locale/en.yml',
+	],
 	'reflar-recache' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/reflar-recache.yml',
 	],
