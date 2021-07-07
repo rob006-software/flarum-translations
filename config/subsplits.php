@@ -17,6 +17,13 @@ use app\components\release\PolishReleaseGenerator;
 use function rob006\flarum\translations\helpers\getComponents;
 
 return [
+	'ar' => [
+		'type' => 'language',
+		'language' => 'ar',
+		'repository' => 'https://github.com/neerugupta/flarum-lang-arabic.git',
+		'branch' => 'master',
+		'path' => '/locale',
+	],
 	'cs' => [
 		'type' => 'language',
 		'language' => 'cs',
