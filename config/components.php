@@ -187,6 +187,9 @@ return [
 	'dem13n-topic-starter-label' => [
 		'tag' => 'https://raw.githubusercontent.com/Dem13n/topic-starter-label/0.1.5/locale/en.yml',
 	],
+	'extiverse-mercury' => [
+		'tag' => 'https://raw.githubusercontent.com/extiverse/mercury/0.1.3/resources/locale/en.yml',
+	],
 	'ffans-clipboardjs' => [
 		'tag' => 'https://raw.githubusercontent.com/FFans/clipboardjs/v0.1.0-beta.16.1/resources/locale/en.yml',
 	],
