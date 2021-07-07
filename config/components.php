@@ -26,7 +26,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/android-com-pl/my-tags/1.0.1/locale/en.yml',
 	],
 	'afrux-asirem' => [
-		'tag' => 'https://raw.githubusercontent.com/afrux/asirem/v0.1.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/afrux/asirem/master/no-translation-source.yml',
 	],
 	'amaurycarrade-syndication' => [
 		'tag' => 'https://raw.githubusercontent.com/AmauryCarrade/flarum-ext-syndication/v0.3.1/resources/locale/en.yml',
