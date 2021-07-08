@@ -2,40 +2,40 @@
     "amaurycarrade-syndication": {
         "forum": {
             "autodiscovery": {
-                "forum_activity": "",
-                "forum_new_discussions": "",
-                "tag_activity": "",
-                "tag_new_discussions": "",
-                "discussion_last_posts": ""
+                "forum_activity": "Aktivita fóra",
+                "forum_new_discussions": "Nové diskusie fóra",
+                "tag_activity": "Aktivita pre štítok {tag}",
+                "tag_new_discussions": "Diskusie so štítkom {tag}",
+                "discussion_last_posts": "Táto diskusia"
             },
             "feeds": {
                 "titles": {
-                    "main_title": "",
-                    "main_subtitle": "",
-                    "main_d_title": "",
-                    "main_d_subtitle": "",
-                    "tag_title": "",
-                    "tag_subtitle": "",
-                    "tag_d_title": "",
-                    "tag_d_subtitle": "",
-                    "discussion_title": "",
-                    "discussion_subtitle": ""
+                    "main_title": "{forum_name}",
+                    "main_subtitle": "Najnovšie príspevky na fóre",
+                    "main_d_title": "Najnovšie príspevky v {forum_name}",
+                    "main_d_subtitle": "Najnovšie diskusie na fóre",
+                    "tag_title": "Aktivita v štítku {tag}",
+                    "tag_subtitle": "Posledné príspevky v štítku {tag}",
+                    "tag_d_title": "Nové diskusie v štítku {tag}",
+                    "tag_d_subtitle": "Najnovšie diskusie v štítku {tag}",
+                    "discussion_title": "{discussion_name}",
+                    "discussion_subtitle": "Posledné správy v tejto diskusii"
                 }
             }
         },
         "admin": {
             "settings": {
-                "title": "",
+                "title": "Nastavenia Syndikácie",
                 "full-text": {
-                    "label": "",
-                    "help": "",
-                    "recommendation": ""
+                    "label": "Plno-textové zdroje",
+                    "help": "Ak je toto zakázané, potom budú zdroje obsahovať iba excerpty príspevkov, a používatelia budú musieť ísť na fórum aby si všetko mohli prečítať.",
+                    "recommendation": "Odporúčam túto možnosť nechať povolenú aby boli rešpektovaní ľudia sledujúci fórum z RSS agregátoru - ak nejaký existuje."
                 },
                 "html": {
-                    "label": "",
-                    "help": ""
+                    "label": "Formátované Zdroje",
+                    "help": "Zaškrtnite toto pre zanechanie HTML v generovaných zdrojoch. Ak je toto zakázané, potom budú zdroje v čistom texte."
                 },
-                "entries-count": ""
+                "entries-count": "Koľko záznamov na jeden zdroj?"
             }
         }
     }
