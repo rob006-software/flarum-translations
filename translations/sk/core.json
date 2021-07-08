@@ -92,31 +92,31 @@
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "Port",
                 "mail_username_label": "=> core.ref.username",
-                "mailgun_heading": "Nastavenia Mailgunu",
-                "not_sending_message": "Flarum momentále neposiela žiadne maily. Môže to byť vďaka nesprávnemu ovládaču alebo chybe v jeho konfigurácii.",
+                "mailgun_heading": "Nastavenia Mailgun",
+                "not_sending_message": "Flarum momentálne neodosiela žiadne maily. Môže to byť vďaka nesprávnemu ovládaču alebo chybe v jeho konfigurácii.",
                 "send_test_mail_button": "Odoslať",
                 "send_test_mail_heading": "Odoslať Testovací Mail",
-                "send_test_mail_success": "Test mail bol úspešne odoslaný!",
-                "send_test_mail_text": "Toto odošle testovací E-Mail podľa hornej konfigurácie na tvoju mailovú adresu, {email}.",
+                "send_test_mail_success": "Testovací mail bol úspešne odoslaný!",
+                "send_test_mail_text": "Toto odošle testovací email podľa konfigurácie vyššie na Váš email, {email}.",
                 "smtp_heading": "SMTP Nastavenia",
                 "title": "=> core.ref.email",
                 "submit_button": "=> core.ref.save_changes"
             },
             "extension": {
-                "configure_scopes": "",
-                "confirm_uninstall": "Odinštalovanie vymaže všetky údaje o tomto doplnku v databáze a jeho nahrané súbory. Si si istý že chceš pokračovať?",
+                "configure_scopes": "Nastaviť Rozsahy",
+                "confirm_uninstall": "Odinštalovanie vymaže všetky údaje o tomto doplnku v databáze a jeho súbory. Ste si istý že chcete pokračovať?",
                 "disabled": "Deaktivovaný",
-                "enable_to_see": "Aktivuj tento doplnok pre zobrazenie a zmenu jeho nastavení.",
+                "enable_to_see": "Aktivujte tento doplnok pre zobrazenie a zmenu jeho nastavení.",
                 "enabled": "Aktivovaný",
                 "info_links": {
-                    "discuss": "Diskusia",
+                    "discuss": "Discuss",
                     "documentation": "Dokumentácia",
                     "donate": "Prispieť",
-                    "source": "Zdrojový Kód",
+                    "source": "Zdrojový kód",
                     "support": "Podpora",
-                    "website": "Webová Stránka"
+                    "website": "Webová stránka"
                 },
-                "no_permissions": "Tento doplnok neobsahuje žiadne oprávnenia.",
+                "no_permissions": "Tento doplnok neobsahuje žiadne nastavenia oprávnení.",
                 "no_settings": "Tento doplnok neobsahuje žiadne nastavenia.",
                 "open_modal": "Otvoriť Nastavenia",
                 "permissions_title": "Oprávnenia",
@@ -124,11 +124,11 @@
                 "saved_message": "Tvoje zmeny boli uložené."
             },
             "header": {
-                "get_help": "Pomoc",
+                "get_help": "Získať Pomoc",
                 "log_out_button": "=> core.ref.log_out"
             },
             "loading": {
-                "title": "Prosím čakaj..."
+                "title": "Prosím čakajte..."
             },
             "nav": {
                 "appearance_button": "=> core.admin.appearance.title",
@@ -142,7 +142,7 @@
                     "feature": "Funkcie",
                     "formatting": "Formátovanie",
                     "language": "Jazyky",
-                    "moderation": "Moderácia",
+                    "moderation": "Moderovanie",
                     "other": "Ostatné Doplnky",
                     "theme": "Témy"
                 },
@@ -152,37 +152,37 @@
                 "email_title": "=> core.admin.email.description",
                 "permissions_button": "=> core.admin.permissions.title",
                 "permissions_title": "=> core.admin.permissions.description",
-                "userlist_button": "",
-                "userlist_title": "",
-                "search_placeholder": "Vyhľadať doplnky"
+                "userlist_button": "=> core.admin.users.title",
+                "userlist_title": "=> core.admin.users.description",
+                "search_placeholder": "Prehľadávať Doplnky"
             },
             "permissions": {
-                "allow_post_editing_label": "Umožnenie upravenia príspevku",
-                "allow_renaming_label": "Umožnenie premenovania diskusie",
+                "allow_post_editing_label": "Umožniť upravovať príspevky",
+                "allow_renaming_label": "Umožniť premenovať",
                 "create_heading": "Vytvoriť",
                 "delete_discussions_forever_label": "Navždy odstrániť diskusie",
                 "delete_discussions_label": "Odstrániť diskusie",
                 "delete_posts_forever_label": "Navždy odstrániť príspevky",
                 "delete_posts_label": "Odstrániť príspevky",
-                "description": "Vyber, kto môže čo robiť.",
+                "description": "Vyberte, kto môže čo vidieť a robiť.",
                 "edit_posts_label": "Upraviť príspevky",
-                "edit_users_label": "Upraviť používateľov",
-                "edit_users_credentials_label": "",
-                "edit_users_groups_label": "",
+                "edit_users_label": "Upraviť používateľa",
+                "edit_users_credentials_label": "Upraviť prihlasovacie údaje používateľa",
+                "edit_users_groups_label": "Upraviť skupiny používateľa",
                 "global_heading": "Globálne",
-                "moderate_heading": "Moderácia",
-                "new_group_button": "Nová skupina",
-                "participate_heading": "Zúčastňovanie",
-                "post_without_throttle_label": "Reply multiple times without waiting",
-                "read_heading": "Viditeľnosť",
+                "moderate_heading": "Moderovať",
+                "new_group_button": "Nová Skupina",
+                "participate_heading": "Zúčastniť sa",
+                "post_without_throttle_label": "Odpovedať viackrát bez čakania",
+                "read_heading": "Čítať",
                 "rename_discussions_label": "Premenovať diskusie",
                 "reply_to_discussions_label": "Odpovedať na diskusie",
-                "search_users_label": "",
+                "search_users_label": "Prehľadávať používateľov",
                 "sign_up_label": "Registrovať sa",
-                "start_discussions_label": "Začat diskusie",
+                "start_discussions_label": "Začať diskusie",
                 "title": "Oprávnenia",
-                "view_forum_label": "",
-                "view_hidden_groups_label": "Zobraziť skryté skupiny",
+                "view_forum_label": "Zobraziť fórum (diskusie a používateľov)",
+                "view_hidden_groups_label": "Zobraziť skryté odznaky skupín",
                 "view_last_seen_at_label": "Vždy zobraziť čas poslednej návštevy používateľa",
                 "view_post_ips_label": "Zobraziť IP adresy príspevkov",
                 "view_discussions_label": "Zobraziť diskusie",
@@ -190,7 +190,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Na neurčito",
-                "allow_some_minutes_button": "Na {count} minútu|Na {count} minút(y)",
+                "allow_some_minutes_button": "{count, plural, one {Na # minútu} count, plural, few {Na # minúty} other {Na # minút}}",
                 "allow_ten_minutes_button": "Na 10 minút",
                 "allow_until_reply_button": "Do ďalšej odpovede",
                 "everyone_button": "Všetci",
@@ -199,7 +199,7 @@
                 "signup_open_button": "Otvorená"
             },
             "settings": {
-                "saved_message": "",
+                "saved_message": "Vaše zmeny boli uložené.",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
@@ -207,43 +207,43 @@
                 "upload_button": "Vybrať Obrázok..."
             },
             "users": {
-                "description": "",
+                "description": "Stránkovaný zoznam všetkých používateľov na Vašom fóre.",
                 "grid": {
                     "columns": {
                         "edit_user": {
-                            "button": "",
-                            "title": "",
-                            "tooltip": ""
+                            "button": "=> core.ref.edit",
+                            "title": "=> core.ref.edit_user",
+                            "tooltip": "Upraviť používateľa {username}"
                         },
                         "email": {
-                            "title": "",
-                            "visibility_hide": "",
-                            "visibility_show": ""
+                            "title": "=> core.ref.email",
+                            "visibility_hide": "Skryť emailovú adresu",
+                            "visibility_show": "Zobraziť emailovú adresu"
                         },
                         "group_badges": {
-                            "no_badges": "",
-                            "title": ""
+                            "no_badges": "Žiadne",
+                            "title": "Skupiny"
                         },
                         "join_time": {
-                            "title": ""
+                            "title": "Pripojili sa"
                         },
                         "user_id": {
-                            "title": ""
+                            "title": "ID"
                         },
                         "username": {
-                            "profile_link_tooltip": "",
-                            "title": ""
+                            "profile_link_tooltip": "Navštíviť profil používateľa {username}",
+                            "title": "=> core.ref.username"
                         }
                     },
-                    "invalid_column_content": ""
+                    "invalid_column_content": "Neplatné"
                 },
                 "pagination": {
-                    "back_button": "",
-                    "next_button": "",
-                    "page_counter": ""
+                    "back_button": "Predchádzajúca strana",
+                    "next_button": "Nasledujúca strana",
+                    "page_counter": "Strana {current} z {total}"
                 },
-                "title": "",
-                "total_users": ""
+                "title": "=> core.ref.users",
+                "total_users": "Celkový počet používateľov: {count}"
             }
         },
         "forum": {
@@ -251,13 +251,13 @@
                 "confirm_password_placeholder": "=> core.ref.confirm_password",
                 "confirmation_message": "=> core.ref.confirmation_email_sent",
                 "dismiss_button": "=> core.ref.okay",
-                "incorrect_password_message": "Heslo ktoré si zadal je nesprávne",
+                "incorrect_password_message": "Heslo ktoré ste zadali je nesprávne.",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.change_email"
             },
             "change_password": {
-                "send_button": "Poslať E-Mail s Obnovou Hesla",
-                "text": "Klikni na tlačidlo pre odoslanie E-mailu s odkazom na obnovenie hesla.",
+                "send_button": "Poslať Email s Obnovou Hesla",
+                "text": "Kliknite na tlačidlo pre odoslanie emailu s odkazom na obnovenie hesla.",
                 "title": "=> core.ref.change_password"
             },
             "composer": {
@@ -268,33 +268,33 @@
                 "preview_tooltip": "Náhľad"
             },
             "composer_discussion": {
-                "body_placeholder": "Napíš tvoj príspevok...",
-                "discard_confirmation": "Neposlal si tvoju diskusiu. Chceš ju zahodiť?",
+                "body_placeholder": "Napíšte Váš príspevok...",
+                "discard_confirmation": "Neodoslali ste Vašu diskusiu. Želáte si ju zahodiť?",
                 "submit_button": "Odoslať Diskusiu",
                 "title": "=> core.ref.start_a_discussion",
                 "title_placeholder": "Názov Diskusie"
             },
             "composer_edit": {
-                "discard_confirmation": "Neuložil si tvoje nastavenia. Chceš ich zahodiť?",
-                "edited_message": "Tvoja zmena sa vykonala.",
+                "discard_confirmation": "Neuložili ste Vaše nastavenia. Želáte si ich zahodiť?",
+                "edited_message": "Vaša úprava bola vykonaná.",
                 "post_link": "Príspevok č. {number} v {discussion}",
                 "submit_button": "=> core.ref.save_changes",
                 "view_button": "=> core.ref.view"
             },
             "composer_reply": {
                 "body_placeholder": "=> core.ref.write_a_reply",
-                "discard_confirmation": "Ešte si neposlal tvoj príspevok. Chceš ju zahodiť?",
-                "posted_message": "Tvoj príspevok bol odoslaný.",
-                "submit_button": "Odoslať Príspevok",
+                "discard_confirmation": "Ešte ste neodoslali Váš príspevok. Želáte si ho zahodiť?",
+                "posted_message": "Vás príspevok bol odoslaný.",
+                "submit_button": "Odoslať Odpoveď",
                 "view_button": "=> core.ref.view"
             },
             "discussion_controls": {
                 "cannot_reply_button": "Nemožno Odpovedať",
-                "cannot_reply_text": "Nemáš oprávnenie na to aby si mohol odpovedať na túto diskusiu.",
+                "cannot_reply_text": "Nemáte oprávnenie na to aby ste mohli odpovedať na túto diskusiu.",
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "Si si istý že chceš zmazať túto diskusiu?",
+                "delete_confirmation": "Ste si istý že chcete zmazať túto diskusiu?",
                 "delete_forever_button": "=> core.ref.delete_forever",
-                "log_in_to_reply_button": "Prihlás Sa Aby Si Mohol Odpovedať.",
+                "log_in_to_reply_button": "Prihláste Sa pre Odpoveď",
                 "rename_button": "=> core.ref.rename",
                 "reply_button": "=> core.ref.reply",
                 "restore_button": "=> core.ref.restore",
