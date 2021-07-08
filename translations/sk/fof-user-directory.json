@@ -2,44 +2,44 @@
     "fof-user-directory": {
         "forum": {
             "header": {
-                "back_to_user_directory_tooltip": ""
+                "back_to_user_directory_tooltip": "Späť na Zoznam Používateľov"
             },
             "search": {
-                "users_heading": "",
+                "users_heading": "Vyhľadať všetkých používateľov pre dopyt \"{query}\"",
                 "field": {
-                    "placeholder": ""
+                    "placeholder": "Vyhľadať všetkých používateľov"
                 }
             },
             "page": {
-                "nav": "",
-                "refresh_tooltip": "",
-                "load_more_button": "",
-                "empty_text": "",
-                "filter_button": ""
+                "nav": "Zoznam Používateľov",
+                "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
+                "load_more_button": "=> core.ref.load_more",
+                "empty_text": "Nedokázali sme nájsť žiadneho používateľa ktorý by spĺňal Vaše kritériá.",
+                "filter_button": "Filtrovať Skupiny"
             }
         },
         "admin": {
             "permissions": {
-                "view_user_directory": ""
+                "view_user_directory": "Zobraziť používateľský zoznam"
             },
             "settings": {
-                "link": "",
-                "default-sort": "",
-                "use-small-cards": ""
+                "link": "Pridať odkaz na hlavnú stránku pre používateľov ktorí môžu vidieť zoznam",
+                "default-sort": "Predvolené triedenie",
+                "use-small-cards": "Použiť malé karty používateľov"
             }
         },
         "lib": {
             "sort": {
-                "not_specified": "",
-                "default": "",
-                "username_az": "",
-                "username_za": "",
-                "newest": "",
-                "oldest": "",
-                "most_posts": "",
-                "least_posts": "",
-                "most_discussions": "",
-                "least_discussions": ""
+                "not_specified": "Použiť predvolené Flarum nastavenie",
+                "default": "Predvolené",
+                "username_az": "Používateľské meno (a-z)",
+                "username_za": "Používateľské meno (z-a)",
+                "newest": "Najnovší",
+                "oldest": "Najstarší",
+                "most_posts": "Najviac príspevkov",
+                "least_posts": "Najmenej príspevkov",
+                "most_discussions": "Najviac diskusií",
+                "least_discussions": "Najmenej diskusií"
             }
         }
     }
