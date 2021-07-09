@@ -1,0 +1,45 @@
+{
+    "justoverclock-feedback": {
+        "admin": {
+            "contactmail": "Email address to send feedback to",
+            "contactdesc": "This must be filled in to fully enable the feedback widget",
+            "collect-email": "Display (optional) email address field to users",
+            "collect-email-help": "When enabled, users are able to add their email address to the feedback",
+            "position": "Widget position",
+            "position-help": "Select bottom left or bottom right to display the feedback button",
+            "right_label": "Right",
+            "left_label": "Left",
+            "background-color": "Widget background color",
+            "background-color-help": "Provide a hex color code to use as the background color, ie '#fff'",
+            "font-color": "Widget font color",
+            "font-color-help": "Provide a hex color code to use as the font color, ie '#000'"
+        },
+        "api": {
+            "validation_error": "You cannot send empty feedback"
+        },
+        "forum": {
+            "button-title": "Feedback",
+            "feedback-widget": {
+                "title": "Flarum Feedback",
+                "placeholder": "Enter your feedback here",
+                "submit": "Submit",
+                "back": "Back",
+                "contact-text": "Or send an email!",
+                "type-message": "What feedback do you have?",
+                "success": "Thanks!👊",
+                "failed-title": "Oops, an error ocurred",
+                "failed-message": "Please try again. If this keeps happening, try to send an email instead.",
+                "types": {
+                    "general": "General feedback",
+                    "idea": "I have an idea",
+                    "bug": "Bug Report"
+                }
+            },
+            "email": {
+                "guest": "an anonymous user",
+                "subject": "Feedback",
+                "body": "New {type} feedback from {user}!\n\n{message}\n\nEmail: {email}\nUrl: {url}\n"
+            }
+        }
+    }
+}
