@@ -390,6 +390,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [Login2SeePlus by Jslirola](https://weblate.rob006.net/projects/flarum/jslirola-login2seeplus) | [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus)|
 | [Contactme by Justoverclock](https://weblate.rob006.net/projects/flarum/justoverclock-contactme) | [`justoverclock/flarum-ext-contactme`](https://github.com/justoverclockl/flarum-ext-contactme)|
 | [Dontgoaway by Justoverclock](https://weblate.rob006.net/projects/flarum/justoverclock-dontgoaway) | [`justoverclock/flarum-ext-dontgoaway`](https://github.com/justoverclockl/flarum-ext-dontgoaway)|
+| [Feedback by Justoverclock](https://weblate.rob006.net/projects/flarum/justoverclock-feedback) | [`justoverclock/flarum-ext-feedback`](https://github.com/justoverclockl/flarum-ext-feedback)|
 | [Guestengagement by Justoverclock](https://weblate.rob006.net/projects/flarum/justoverclock-guestengagement) | [`justoverclock/flarum-ext-guestengagement`](https://github.com/justoverclockl/flarum-ext-guestengagement)|
 | [Hashtag by Justoverclock](https://weblate.rob006.net/projects/flarum/justoverclock-hashtag) | [`justoverclock/flarum-ext-hashtag`](https://github.com/justoverclockl/flarum-ext-hashtag)|
 | [Infocards by Justoverclock](https://weblate.rob006.net/projects/flarum/justoverclock-infocards) | [`justoverclock/flarum-ext-infocards`](https://github.com/justoverclockl/flarum-ext-infocards)|
