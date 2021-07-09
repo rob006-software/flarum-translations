@@ -2,46 +2,46 @@
     "fof-pages": {
         "admin": {
             "edit_page": {
-                "content_label": "",
-                "content_placeholder": "",
-                "delete_page_button": "",
-                "delete_page_confirmation": "",
-                "hidden_label": "",
-                "restricted_label": "",
-                "html_label": "",
-                "set_as_home_page_confirmation": "",
-                "set_as_home_page_done": "",
-                "slug_label": "",
-                "slug_placeholder": "",
-                "submit_button": "",
-                "title": "",
-                "title_label": "",
-                "title_placeholder": "",
-                "url_label": "",
-                "url_placeholder": ""
+                "content_label": "=> fof-pages.ref.content",
+                "content_placeholder": "=> fof-pages.ref.content",
+                "delete_page_button": "Odstrániť stránku",
+                "delete_page_confirmation": "Ste si istí že chcete odstrániť túto stránku?",
+                "hidden_label": "Uložiť ako návrh",
+                "restricted_label": "Obmedziť prístup (konfigurujte kto má k stránke prístup na table Povolenia)",
+                "html_label": "Povoliť HTML",
+                "set_as_home_page_confirmation": "Ste si istí že chcete nastaviť túto stránku ako Vašu domovskú stránku fóra?",
+                "set_as_home_page_done": "Domovská stránka bola aktualizovaná",
+                "slug_label": "=> fof-pages.ref.slug",
+                "slug_placeholder": "=> fof-pages.ref.slug",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> fof-pages.ref.create_page",
+                "title_label": "=> fof-pages.ref.title",
+                "title_placeholder": "=> fof-pages.ref.title",
+                "url_label": "=> fof-pages.ref.url",
+                "url_placeholder": "=> fof-pages.ref.url"
             },
             "pages": {
-                "create_button": ""
+                "create_button": "=> fof-pages.ref.create_page"
             },
             "pages_list": {
-                "empty_text": "",
-                "title": ""
+                "empty_text": "Vyzerá to tak že tu nie sú žiadne stránky.",
+                "title": "=> fof-pages.ref.title"
             },
             "permissions": {
-                "restricted": ""
+                "restricted": "Zobraziť obmedzené stránky"
             },
             "badges": {
-                "hidden": "",
-                "restricted": ""
+                "hidden": "Návrh",
+                "restricted": "Obmedzené"
             }
         },
         "ref": {
-            "content": "",
-            "create_page": "",
-            "pages": "",
-            "slug": "",
-            "title": "",
-            "url": ""
+            "content": "Obsah",
+            "create_page": "Vytvoriť stránku",
+            "pages": "Stránky",
+            "slug": "Slug",
+            "title": "Názov",
+            "url": "URL"
         }
     }
 }
