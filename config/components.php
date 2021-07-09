@@ -613,6 +613,9 @@ return [
 	'nyu8-email-filter' => [
 		'tag' => 'https://raw.githubusercontent.com/nyu8/flarum-email-filter/v1.0.5/locale/en.yml',
 	],
+	'ramesh-dada-realtime' => [
+		'tag' => 'https://raw.githubusercontent.com/ramesh-dada/realtime/100.1/resources/locale/en.yml',
+	],
 	'reflar-recache' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/reflar-recache.yml',
 	],
