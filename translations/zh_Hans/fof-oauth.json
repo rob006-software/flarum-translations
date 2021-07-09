@@ -47,22 +47,22 @@
         "forum": {
             "log_in": {
                 "with_button": "{provider} 账号登录",
-                "with_discord_button": "",
-                "with_facebook_button": "",
-                "with_github_button": "",
-                "with_gitlab_button": "",
-                "with_google_button": "",
-                "with_linkedin_button": "",
-                "with_twitter_button": ""
+                "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_github_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_gitlab_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_google_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_linkedin_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_twitter_button": "=> fof-oauth.forum.log_in.with_button"
             },
             "providers": {
-                "discord": "",
-                "facebook": "",
-                "github": "",
-                "gitlab": "",
-                "google": "",
-                "linkedin": "",
-                "twitter": ""
+                "discord": "=> fof-oauth.lib.providers.discord",
+                "facebook": "=> fof-oauth.lib.providers.facebook",
+                "github": "=> fof-oauth.lib.providers.github",
+                "gitlab": "=> fof-oauth.lib.providers.gitlab",
+                "google": "=> fof-oauth.lib.providers.google",
+                "linkedin": "=> fof-oauth.lib.providers.linkedin",
+                "twitter": "=> fof-oauth.lib.providers.twitter"
             },
             "error": {
                 "bad_verification_code": "无效或过期的验证令牌，请重试。",
