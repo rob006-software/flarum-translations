@@ -10,7 +10,7 @@
                 "delimitersHelp": "定界符之间用半角逗号分隔。<strong>%e%</strong> 表示数学表达式。",
                 "blockDelimiters": "用于段落表达式的 <strong>BBCode</strong> 定界符",
                 "inlineDelimiters": "用于行内表达式的 <strong>BBCode</strong> 定界符",
-                "mainDelimitersInfo": "上方列表中的第一个定界符将被编辑器视为默认定界符。",
+                "mainDelimitersInfo": "上方列表中的第一个定界符将被文本编辑器视为默认定界符。",
                 "ignoringExpressions": "忽略渲染功能",
                 "ignoringExpressionsHelp": "半角逗号分隔。",
                 "decisiveKeywords": "忽略渲染功能的关键词列表",
@@ -30,13 +30,13 @@
                 "macrosHelp": "自定义宏集合。",
                 "syntaxInfo": "你必须使用 JavaScript 语法编写宏代码。",
                 "maxExpand": "最大扩展极限",
-                "enableFleqn": "开启行间公式左对齐 (（fleqn 参数）",
-                "enableLeqno": "开启在公式左侧自动编号 （leqno 参数）",
-                "enableColorIsTextColor": "允许<code>\\color</code> 命令接受两个参数 （colorIsTextColor）",
-                "enableThrowOnError": "对于不支持的命令或无效的 LaTeX 排版格式弹出错误提示",
+                "enableFleqn": "开启行间公式左对齐 （fleqn 参数）",
+                "enableLeqno": "开启公式左侧自动编号 （leqno 参数）",
+                "enableColorIsTextColor": "允许 <code>\\color</code> 命令接受两个参数 （colorIsTextColor）",
+                "enableThrowOnError": "对不支持的命令或无效的 LaTeX 代码弹出错误提示",
                 "regexInfo": "定界符只能由大小写字母、连字符构成。",
-                "otherOptionsHeading": "其它选项",
-                "enableTextEditorButtons": "在文本编辑器上显示按钮",
+                "otherOptionsHeading": "其它项",
+                "enableTextEditorButtons": "在文本编辑器中显示公式按钮",
                 "enableCopyTeX": "允许复制 KaTeX 公式源码",
                 "mentions": "你必须启用 <code>flarum/mentions</code> 扩展才能激活引用按钮。",
                 "saved_message": "=> core.admin.basics.saved_message",
@@ -58,8 +58,8 @@
         },
         "forum": {
             "textEditor": {
-                "blockExpression": "块表达式",
-                "inlineExpression": "内联表达式"
+                "blockExpression": "段落公式",
+                "inlineExpression": "行内公式"
             }
         }
     }
