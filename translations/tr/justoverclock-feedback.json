@@ -1,44 +1,44 @@
 {
     "justoverclock-feedback": {
         "admin": {
-            "contactmail": "",
-            "contactdesc": "",
-            "collect-email": "",
-            "collect-email-help": "",
-            "position": "",
-            "position-help": "",
-            "right_label": "",
-            "left_label": "",
-            "background-color": "",
-            "background-color-help": "",
-            "font-color": "",
-            "font-color-help": ""
+            "contactmail": "Geri bildirimin gönderileceği e-posta adresi",
+            "contactdesc": "Geri bildirim aracını tam olarak etkinleştirmek için bu doldurulmalıdır",
+            "collect-email": "Kullanıcılara (isteğe bağlı) e-posta adresi alanını göster",
+            "collect-email-help": "Etkinleştirildiğinde, kullanıcılar e-posta adreslerini geri bildirime ekleyebilir",
+            "position": "Araç yerleşimi",
+            "position-help": "Geribildirim düğmesini görüntülemek için sol alt veya sağ alt yerleşimini seçin",
+            "right_label": "Sağ",
+            "left_label": "Sol",
+            "background-color": "Araç arkaplan rengi",
+            "background-color-help": "Arka plan rengi olarak kullanılacak bir hex kodu girin, örn. '#fff'",
+            "font-color": "Araç yazı rengi",
+            "font-color-help": "Yazı tipi rengi olarak kullanılacak bir hex kodu girin, örn. '#000'"
         },
         "api": {
-            "validation_error": ""
+            "validation_error": "Boş geribildirimde bulunamazsınız"
         },
         "forum": {
-            "button-title": "",
+            "button-title": "Geribildirim",
             "feedback-widget": {
-                "title": "",
-                "placeholder": "",
-                "submit": "",
-                "back": "",
-                "contact-text": "",
-                "type-message": "",
-                "success": "",
-                "failed-title": "",
-                "failed-message": "",
+                "title": "Flarum Geribildirim",
+                "placeholder": "Geribildiriminizi buraya giriniz",
+                "submit": "Gönder",
+                "back": "Geri",
+                "contact-text": "Veya bir e-posta gönderin!",
+                "type-message": "Ne tür geri bildirimleriniz var?",
+                "success": "Teşekkürler!👊",
+                "failed-title": "Oops, bir hata meydana geldi",
+                "failed-message": "Lütfen daha sonra tekrar deneyin. Eğer devam ederse, bizimle e-posta ile iletişime geçin.",
                 "types": {
-                    "general": "",
-                    "idea": "",
-                    "bug": ""
+                    "general": "Genel geribildirim",
+                    "idea": "Bir fikrim var",
+                    "bug": "Hata bildirimi"
                 }
             },
             "email": {
-                "guest": "",
-                "subject": "",
-                "body": ""
+                "guest": "anonim kullanıcı",
+                "subject": "Geribildirim",
+                "body": "{user} kullanıcısından {type} hakkında yeni bir geribildirim aldınız!\n\n{message}\n\nE-Posta: {email}\nBağlantı: {url}\n"
             }
         }
     }
