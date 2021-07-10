@@ -1,6 +1,9 @@
 {
     "fof-user-directory": {
         "forum": {
+            "header": {
+                "back_to_user_directory_tooltip": ""
+            },
             "search": {
                 "users_heading": "Durchsuche alle Benutzer nach \"{query}\"",
                 "field": {
@@ -33,12 +36,12 @@
                 "username_za": "Nutzername (z-a)",
                 "newest": "Neueste",
                 "oldest": "Älteste",
-                "seen_recent": "Zuletzt online",
-                "seen_oldest": "Am längsten weg",
                 "most_posts": "Meiste Beiträge",
                 "least_posts": "Wenigste Beiträge",
                 "most_discussions": "Meiste Diskussionen",
-                "least_discussions": "Wenigste Diskussionen"
+                "least_discussions": "Wenigste Diskussionen",
+                "seen_recent": "Zuletzt online",
+                "seen_oldest": "Am längsten weg"
             }
         }
     }

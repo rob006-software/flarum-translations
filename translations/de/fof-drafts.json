@@ -15,6 +15,9 @@
         "console": {
             "scheduled_drafts_disabled": "Geplante Entwürfe sind derzeit in den Einstellungen deaktiviert."
         },
+        "ref": {
+            "schedule_draft": ""
+        },
         "forum": {
             "composer": {
                 "title": "Entwurf speichern",
@@ -26,8 +29,11 @@
             "dropdown": {
                 "empty_text": "Du hast keine Entwürfe gespeichert",
                 "title": "Entwürfe",
+                "delete_all_button": "",
                 "delete_button": "Entwurf löschen",
                 "schedule_button": "Entwurf planen",
+                "scheduled_icon_tooltip": "",
+                "scheduled_icon_tooltip_formatter": "",
                 "tooltip": "=> fof-drafts.forum.dropdown.title",
                 "alert": "Bist du sicher, dass du den Entwurf löschen möchtest?",
                 "delete_all_alert": "Bist du sicher, dass du alle deine Entwürfe löschen willst?"
@@ -38,8 +44,12 @@
                 "scheduled_text": "Beitrag wird am {datetime} veröffentlicht.",
                 "scheduled_error": "Konnte Beitrag nicht veröffentlichen wegen: {error}.",
                 "unschedule_button": "Plan entfernen",
+                "unschedule_warning": "",
                 "reschedule_button": "Plan aktualisieren",
-                "schedule_button": "Planen"
+                "schedule_button": "Planen",
+                "schedule_time_preview": "",
+                "schedule_time_preview_formatter": "",
+                "schedule_time_preview_invalid": ""
             },
             "user": {
                 "settings": {

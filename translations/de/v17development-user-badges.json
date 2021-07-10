@@ -9,6 +9,7 @@
             "edit_category": "Kategorie bearbeiten",
             "nothing_here_yet": "Du hast noch keine Kategorien oder Abzeichen erstellt.",
             "permissions": {
+                "badge_detail_users": "",
                 "give_badge": "Abzeichen für Benutzer hinzufügen",
                 "take_badge": "Abzeichen von Benutzer entfernen"
             },
@@ -31,6 +32,8 @@
             "badge_category": {
                 "name": "Kategorie Name",
                 "description": "Kategorie Beschreibung",
+                "blockview": "",
+                "blockview_description": "",
                 "enabled": "Aktiviert",
                 "enabled_description": "Aktiviere diese Kategorie. Wenn sie deaktiviert ist, werden alle Abzeichen deaktiviert und die Kategorie wird ausgeblendet."
             },
@@ -67,6 +70,7 @@
             "select_badge": "Abzeichen auswählen",
             "user_has_badge": "Der Benutzer hat dieses Abzeichen bereits.",
             "user_no_badges": "Der Benutzer hat noch keine Abzeichen erhalten.",
+            "no_received": "",
             "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
             "badge": {
                 "badge": "Abzeichen",
@@ -78,12 +82,19 @@
                 "no_earning_reason": "Kein Grund angegeben",
                 "earned_on": "Abzeichen erhalten am",
                 "category": "Abzeichen Kategorie",
-                "earned_count": "{count, plural, one {<b># Benutzer</b> hat dieses Abzeichen erhalten} other {<b># Benutzer</b> haben dieses Abzeichen erhalten}}"
+                "received_on": "",
+                "badge_details": "",
+                "earned_count": "{count, plural, one {<b># Benutzer</b> hat dieses Abzeichen erhalten} other {<b># Benutzer</b> haben dieses Abzeichen erhalten}}",
+                "earned_by_count": ""
             },
             "moderation": {
                 "remove_badge": "Abzeichen vom Benutzer entfernen",
                 "remove_badge_confirm": "Bist du sicher, dass du dieses Abzeichen von diesem Benutzer entfernen möchtest?",
                 "give_badge": "Abzeichen vergeben"
+            },
+            "notification": {
+                "title": "",
+                "settings": ""
             }
         }
     }

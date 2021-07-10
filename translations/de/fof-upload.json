@@ -5,9 +5,6 @@
                 "title": "Hochladen",
                 "description": "Konfiguriere Upload-Dienste und Präferenzen."
             },
-            "buttons": {
-                "save": "Einstellungen speichern"
-            },
             "help_texts": {
                 "disable-download-logging": "Deaktiviere die Protokollierung aller Downloads, die von Nutzern deines Forums getätigt werden. Wenn du es aktiviert lässt, kannst du die Anzahl der Downloads und andere Metriken in der nahen Zukunft einsehen.\n",
                 "disable-hotlink-protection": "Der Hotlink-Schutz verhindert das Öffnen von Downloads auf anderen Seiten. Die aktuelle Methode erfordert ein csrf-Token und eine Post-ID.\n",
@@ -17,7 +14,8 @@
                 "client_extension": "Standardmäßig wählt Upload eine sichere Dateierweiterung basierend auf dem MIME-Typ.\nBei einigen Dateitypen, die auf ZIP- oder Binärdaten basieren, kann dies dazu führen, dass generische Erweiterungen statt der erwarteten verwendet werden.\nHier kannst du eine kommagetrennte Liste von Dateierweiterungen eingeben, die genau beibehalten werden sollen.\n",
                 "watermark": "Wähle aus, ob Bilder beim Hochladen mit einem Wasserzeichen versehen werden sollen. Wasserzeichen werden basierend auf deinen Einstellungen unten hinzugefügt, jedoch nicht bei GIF's.\n",
                 "s3_compatible_storage": "Die folgenden Einstellungen sind nur erforderlich, wenn du S3 kompatiblen Speicher verwendest. Wenn du AWS verwendest, kannst du sie leer lassen.\n",
-                "s3_acl": "Die Zugriffssteuerungsliste (ACL), die auf das hochgeladene Objekt angewendet werden soll (Standard: private). Für mögliche Werte, siehe https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n"
+                "s3_acl": "Die Zugriffssteuerungsliste (ACL), die auf das hochgeladene Objekt angewendet werden soll (Standard: private). Für mögliche Werte, siehe https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "composer_buttons": ""
             },
             "labels": {
                 "aws-s3": {
@@ -71,11 +69,21 @@
                     "position": "Wasserzeichen Position",
                     "title": "Wasserzeichen auf Bildern",
                     "toggle": "Bilder mit Wasserzeichen versehen"
+                },
+                "composer_buttons": {
+                    "title": "",
+                    "options": {
+                        "both": "",
+                        "upload-btn": "",
+                        "media-btn": ""
+                    }
                 }
             },
             "permissions": {
                 "download_label": "Dateien herunterladen",
-                "upload_label": "Dateien hochladen"
+                "upload_label": "Dateien hochladen",
+                "view_user_uploads_label": "",
+                "delete_uploads_of_others_label": ""
             },
             "templates": {
                 "file": "Standard Datei-Downloadvorlage",
@@ -93,11 +101,36 @@
                 "local": "Lokal",
                 "ovh-svfs": "OVH SVFS",
                 "qiniu": "QiNiu"
+            },
+            "buttons": {
+                "save": "Einstellungen speichern"
             }
         },
         "forum": {
+            "media_manager": "",
             "buttons": {
-                "attach": "Anhängen"
+                "attach": "Anhängen",
+                "upload": "",
+                "user_uploads": "",
+                "cancel": "",
+                "media": ""
+            },
+            "file_list": {
+                "loading": "",
+                "empty": "",
+                "release_to_upload": "",
+                "modal_empty_desktop": "",
+                "modal_empty_phone": "",
+                "select_file_a11y_label": "",
+                "confirm_selection_btn": "",
+                "load_more_files_btn": "",
+                "hide_file": {
+                    "btn_a11y_label": "",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "hide_fail": "",
+                    "loading": ""
+                }
             },
             "states": {
                 "error": "Fehler",
