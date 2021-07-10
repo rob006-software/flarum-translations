@@ -16,6 +16,7 @@ use function rob006\flarum\translations\helpers\getComponents;
 return [
 	'ar' => getComponents(),
 	'cs' => getComponents(),
+	'de' => getComponents(),
 	'es' => getComponents([
 		// translations included in extension
 		// '!clarkwinkelmann-emojionearea', https://github.com/clarkwinkelmann/flarum-ext-emojionearea/issues/28#issuecomment-855995493

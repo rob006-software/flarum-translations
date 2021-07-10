@@ -1,0 +1,29 @@
+{
+    "flarum-likes": {
+        "admin": {
+            "permissions": {
+                "like_posts_label": "\"Gefällt mir\" bei Beiträgen"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "post_liked_text": "{username} gefällt dein Beitrag",
+                "others_text": "=> core.ref.some_others"
+            },
+            "post": {
+                "like_link": "Gefällt mir",
+                "liked_by_self_text": "{users} gefällt das.",
+                "liked_by_text": "{count, plural, one {{users} gefällt das} other {{users} gefällt das}}",
+                "others_link": "=> core.ref.some_others",
+                "unlike_link": "Gefällt mir nicht mehr",
+                "you_text": "=> Dir"
+            },
+            "post_likes": {
+                "title": "Mitglieder, denen dieser Beitrag gefällt"
+            },
+            "settings": {
+                "notify_post_liked_label": "Jemandem gefällt dein Beitrag"
+            }
+        }
+    }
+}

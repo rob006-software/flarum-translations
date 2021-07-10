@@ -1,0 +1,22 @@
+{
+    "fof-recaptcha": {
+        "admin": {
+            "settings": {
+                "help_text": "Erhalte deine Google reCAPTCHA-Zugangsdaten <a>hier</a>.",
+                "secret_key_label": "Geheimer Schlüssel",
+                "site_key_label": "Seiten-Schlüssel (Site Key)",
+                "title": "FriendsOfFlarum reCAPTCHA",
+                "type_label": "reCAPTCHA Typ"
+            },
+            "permissions": {
+                "post_without_captcha": "Beiträge und Diskussionen ohne Captcha erstellen"
+            }
+        },
+        "forum": {
+            "error": "Beim Absenden vom reCAPTCHA ist ein Fehler aufgetreten, bitte versuch es erneut."
+        }
+    },
+    "validation": {
+        "recaptcha": "reCAPTCHA Validierung fehlgeschlagen."
+    }
+}
