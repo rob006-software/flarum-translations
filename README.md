@@ -88,20 +88,20 @@ This repository contains raw translations data used by [Weblate](https://weblate
 		</td>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/flarum-lang/italian">Italian</a></td>
-		<td><a href="https://github.com/justoverclockl">Justoverclock</a></td>
-		<td align="right">
-			<a href="https://rob006-software.github.io/flarum-translations/status/it.html" title="Click to see detailed translation status for each extension">
-				<img src="https://weblate.rob006.net/widgets/flarum/it/svg-badge.svg" alt="detailed translation status" />
-			</a>
-		</td>
-	</tr>
-	<tr>
 		<td><a href="https://github.com/flarum-lang/hindi">Hindi</a></td>
 		<td><a href="https://github.com/meetdilip">Dilip</a></td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/hi.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/hi/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td><a href="https://github.com/flarum-lang/italian">Italian</a></td>
+		<td><a href="https://github.com/justoverclockl">Justoverclock</a></td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/it.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/it/svg-badge.svg" alt="detailed translation status" />
 			</a>
 		</td>
 	</tr>
