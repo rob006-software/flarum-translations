@@ -447,6 +447,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [Perspective by Tank](https://weblate.rob006.net/projects/flarum/tank-perspective) | [`tank/perspective`](https://github.com/flarum-tank/flarum-perspective)|
 | [Diff by The turk](https://weblate.rob006.net/projects/flarum/the-turk-diff) | [`the-turk/flarum-diff`](https://github.com/the-turk/flarum-diff)|
 | [FancyBox by The turk](https://weblate.rob006.net/projects/flarum/the-turk-fancybox) | [`the-turk/flarum-ext-fancybox`](https://github.com/the-turk/flarum-ext-fancybox)|
+| [Flamoji by The turk](https://weblate.rob006.net/projects/flarum/the-turk-flamoji) | [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji)|
 | [MathRen by The turk](https://weblate.rob006.net/projects/flarum/the-turk-mathren) | [`the-turk/flarum-mathren`](https://github.com/the-turk/flarum-mathren)|
 | [Miserable Users by The turk](https://weblate.rob006.net/projects/flarum/the-turk-miserable-users) | [`the-turk/flarum-miserable-users`](https://github.com/the-turk/flarum-miserable-users)|
 | [Prevent Double-Posting by The turk](https://weblate.rob006.net/projects/flarum/the-turk-nodp) | [`the-turk/flarum-nodp`](https://github.com/the-turk/flarum-nodp)|
