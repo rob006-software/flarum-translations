@@ -51,7 +51,7 @@ return [
 		// translations included in extension
 		// '!clarkwinkelmann-emojionearea', https://github.com/clarkwinkelmann/flarum-ext-emojionearea/issues/28#issuecomment-855995493
 		'!maicol07-sso',
-		// '!matteocontrini-imgur-upload', https://github.com/matteocontrini/flarum-imgur-upload/issues/9
+		'!matteocontrini-imgur-upload',
 	]),
 	'ja' => getComponents(),
 	'ka' => getComponents(),
