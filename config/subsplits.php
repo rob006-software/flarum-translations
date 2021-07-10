@@ -31,6 +31,13 @@ return [
 		'branch' => 'master',
 		'path' => '/locale',
 	],
+	'de' => [
+		'type' => 'language',
+		'language' => 'de',
+		'repository' => 'git@github.com:flarum-lang/german.git',
+		'branch' => 'master',
+		'path' => '/locale',
+	],
 	'es' => [
 		'type' => 'language',
 		'language' => 'es',
