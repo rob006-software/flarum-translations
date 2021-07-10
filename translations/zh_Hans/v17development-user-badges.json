@@ -14,7 +14,7 @@
                 "take_badge": "撤除用户徽章"
             },
             "confirm_dialog": {
-                "title": "确认",
+                "title": "危险！",
                 "no": "取消",
                 "yes": "是"
             },
@@ -57,7 +57,7 @@
                 },
                 "badge_selector": {
                     "placeholder": "选择徽章",
-                    "loading_badges": ""
+                    "loading_badges": "加载徽章中"
                 }
             }
         },
@@ -70,7 +70,7 @@
             "select_badge": "选择徽章",
             "user_has_badge": "该用户已拥有此徽章。",
             "user_no_badges": "该用户尚未拥有徽章。",
-            "no_received": "",
+            "no_received": "没有人获得此徽章。",
             "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
             "badge": {
                 "badge": "徽章",
@@ -82,9 +82,9 @@
                 "no_earning_reason": "无授予理由",
                 "earned_on": "徽章授予于",
                 "category": "徽章分组",
-                "received_on": "",
-                "badge_details": "",
-                "earned_count": "<b>{count} 用户</b> 已获得此徽章|<b>{count} 用户</b> 已获得此徽章",
+                "received_on": "获得于 {date}",
+                "badge_details": "徽章详情",
+                "earned_count": "{count, plural, one {<b># 用户</b>已获得此徽章} other {<b># 用户</b>已获得此徽章}}",
                 "earned_by_count": ""
             },
             "moderation": {
