@@ -2,96 +2,96 @@
     "the-turk-flamoji": {
         "admin": {
             "settings": {
-                "emoji_settings_heading": "",
-                "category_settings_heading": "",
-                "general_ui_settings_heading": "",
-                "show_variants_label": "",
-                "show_variants_text": "",
-                "auto_hide_label": "",
-                "auto_hide_text": "",
-                "show_preview_label": "",
-                "show_category_buttons_label": "",
-                "show_search_label": "",
-                "show_recents_label": "",
-                "recents_count_label": "",
-                "recents_count_text": "",
-                "emoji_style_label": "",
-                "emoji_version_label": "",
-                "emoji_version_text": "",
-                "initial_category_label": "",
-                "initial_category_text": "",
-                "specify_categories_label": "",
-                "specify_categories_text": "",
-                "emoji_data_label": "",
-                "emoji_data_text": "",
-                "emoji_style_native_option": "",
+                "emoji_settings_heading": "İfade Ayarları",
+                "category_settings_heading": "Kategori Ayarları",
+                "general_ui_settings_heading": "Genel Kullanıcı Arayüzü Ayarları",
+                "show_variants_label": "Değişkenleri göster",
+                "show_variants_text": "Bazı ifadelerin cilt tonu çeşitleri vardır. Seçicide değişkenleri olan bir emoji seçildiğinde, kullanıcının istediği değişkeni seçebilmesi için bir değişken açılır penceresi görünür.",
+                "auto_hide_label": "Otomatik gizle",
+                "auto_hide_text": "İfade seçildiğinde seçiciyi gizle.",
+                "show_preview_label": "Önizleme bölümünü göster",
+                "show_category_buttons_label": "Kategoriler düğmesini göster",
+                "show_search_label": "Arama girdisini göster",
+                "show_recents_label": "En son kullanılan ifadeleri göster (ve kaydet)",
+                "recents_count_label": "Son kullanılan ifadelerin sayısı",
+                "recents_count_text": "Kaydedilecek son kullanılan ifadelerin sayısı.",
+                "emoji_style_label": "İfade tipi",
+                "emoji_version_label": "İfade sürümü",
+                "emoji_version_text": "Kullanılacak ifadenin belirlenmiş sürümü.",
+                "initial_category_label": "İlk kategori",
+                "initial_category_text": "Varsayılan olarak seçici, Suratlar ve Duygu kategorisini göstermeye başlar.",
+                "specify_categories_label": "Kategorileri belirtin",
+                "specify_categories_text": "Burada bir kategori listesi belirtebilirsiniz,  seçici yalnızca bu kategorileri gösterir.",
+                "emoji_data_label": "İfade verisi",
+                "emoji_data_text": "Bu genellikle çevrilmiş ifade adları sağlamak için kullanılır.",
+                "emoji_style_native_option": "Yerel",
                 "emoji_categories": {
-                    "smileys": "",
-                    "people": "",
-                    "animals": "",
-                    "food": "",
-                    "travel": "",
-                    "activities": "",
-                    "objects": "",
-                    "symbols": "",
-                    "flags": ""
+                    "smileys": "=> the-turk-flamoji.ref.emoji_categories.smileys",
+                    "people": "=> the-turk-flamoji.ref.emoji_categories.people",
+                    "animals": "=> the-turk-flamoji.ref.emoji_categories.animals",
+                    "food": "=> the-turk-flamoji.ref.emoji_categories.food",
+                    "travel": "=> the-turk-flamoji.ref.emoji_categories.travel",
+                    "activities": "=> the-turk-flamoji.ref.emoji_categories.activities",
+                    "objects": "=> the-turk-flamoji.ref.emoji_categories.objects",
+                    "symbols": "=> the-turk-flamoji.ref.emoji_categories.symbols",
+                    "flags": "=> the-turk-flamoji.ref.emoji_categories.flags"
                 }
             },
             "custom_emojis_section": {
-                "heading_title": "",
-                "import_json_button": "",
-                "export_json_button": "",
-                "import_emojis_message": "",
+                "heading_title": "Özel İfadeler",
+                "import_json_button": "JSON'dan İçe Aktar",
+                "export_json_button": "JSON Olarak Dışa Aktar",
+                "import_emojis_message": "Bu, yalnızca ifade yapılandırmalarını içe aktaracaktır. İfade resimlerini manuel olarak yüklemeniz gerekir.",
                 "edit_emoji": {
-                    "modal_title": "",
-                    "emoji_title_label": "",
-                    "delete_emoji_confirmation": "",
-                    "text_to_replace_label": "",
-                    "path_or_url_label": "",
-                    "submit_button": "",
-                    "delete_emoji_button": "",
-                    "saved_message": ""
+                    "modal_title": "İfade Ekle",
+                    "emoji_title_label": "İfade Başlığı",
+                    "delete_emoji_confirmation": "Bu ifadeyi silmek istediğinizden emin misiniz?",
+                    "text_to_replace_label": "Değiştirilecek Metin",
+                    "path_or_url_label": "Dizin veya Bağlantı",
+                    "submit_button": "=> core.ref.save_changes",
+                    "delete_emoji_button": "İfadeyi sil",
+                    "saved_message": "=> core.admin.settings.saved_message"
                 },
                 "emoji_list": {
-                    "load_more_button": ""
+                    "load_more_button": "=> core.forum.post_stream.load_more_button"
                 }
             }
         },
         "forum": {
             "composer": {
-                "emoji_tooltip": ""
+                "emoji_tooltip": "İfade ekle"
             },
             "emoji-button": {
-                "search_placeholder": "",
-                "no_emojis_found_message": "",
+                "search_placeholder": "İfadelerde Ara",
+                "no_emojis_found_message": "İfade bulunamadı",
                 "categories": {
-                    "recents": "",
-                    "smileys": "",
-                    "people": "",
-                    "animals": "",
-                    "food": "",
-                    "travel": "",
-                    "activities": "",
-                    "objects": "",
-                    "symbols": "",
-                    "flags": "",
-                    "custom": ""
+                    "recents": "=> the-turk-flamoji.ref.emoji_categories.recents",
+                    "smileys": "=> the-turk-flamoji.ref.emoji_categories.smileys",
+                    "people": "=> the-turk-flamoji.ref.emoji_categories.people",
+                    "animals": "=> the-turk-flamoji.ref.emoji_categories.animals",
+                    "food": "=> the-turk-flamoji.ref.emoji_categories.food",
+                    "travel": "=> the-turk-flamoji.ref.emoji_categories.travel",
+                    "activities": "=> the-turk-flamoji.ref.emoji_categories.activities",
+                    "objects": "=> the-turk-flamoji.ref.emoji_categories.objects",
+                    "symbols": "=> the-turk-flamoji.ref.emoji_categories.symbols",
+                    "flags": "=> the-turk-flamoji.ref.emoji_categories.flags",
+                    "custom": "=> the-turk-flamoji.ref.emoji_categories.custom"
                 }
             }
         },
         "ref": {
             "emoji_categories": {
-                "recents": "",
-                "smileys": "",
-                "people": "",
-                "animals": "",
-                "food": "",
-                "travel": "",
-                "activities": "",
-                "objects": "",
-                "symbols": "",
-                "flags": "",
-                "custom": ""
+                "recents": "Son İfadeler",
+                "smileys": "Suratlar ve Duygu",
+                "people": "İnsan ve Vücut",
+                "animals": "Hayvanler ve Doğa",
+                "food": "Yiyecek ve İçecek",
+                "travel": "Seyhahat ve Mekanlar",
+                "activities": "Eylemler",
+                "objects": "Nesneler",
+                "symbols": "Simgeler",
+                "flags": "Bayraklar",
+                "custom": "Özel"
             }
         }
     }
