@@ -2,12 +2,12 @@
     "fof-webhooks": {
         "actions": {
             "poll": {
-                "voted": "",
-                "created": ""
+                "voted": "Ankete oy verdi `{1}`",
+                "created": "Anket oluşturdu `{1}`"
             },
             "post": {
-                "reacted": "",
-                "unreacted": "",
+                "reacted": "Bir gönderiye tepki verdi `{1}`",
+                "unreacted": "Bir gönderiden tepkisini kaldırdı",
                 "upvoted": "",
                 "downvoted": ""
             },
@@ -19,21 +19,21 @@
                 "updated": ""
             },
             "ip": {
-                "banned": "",
-                "unbanned": ""
+                "banned": "IP yasaklandı `{1}`",
+                "unbanned": "IP yasağı kalktı `{1}`"
             }
         },
         "admin": {
             "settings": {
                 "services": {
-                    "custom": ""
+                    "custom": "Özel"
                 },
                 "actions": {
                     "extiverse": {
                         "bazaar": {
-                            "title": "",
-                            "extensionwasinstalled": "",
-                            "extensionwasupdated": ""
+                            "title": "Extiverse Bazaar",
+                            "extensionwasinstalled": "Uzantı Yüklendi",
+                            "extensionwasupdated": "Uzantı Güncellendi"
                         }
                     },
                     "fof": {
@@ -51,7 +51,7 @@
                             "postwasvoted": ""
                         },
                         "polls": {
-                            "title": "",
+                            "title": "FriendsOfFlarum Polls",
                             "pollwasvoted": "",
                             "pollwascreated": ""
                         },
@@ -62,7 +62,7 @@
                         },
                         "twofactor": {
                             "title": "",
-                            "userenabledtwofactor": ""
+                            "userenabledtwofactor": "Kullanıcı 2FA Etkinleştirdi"
                         }
                     },
                     "reflar": {
