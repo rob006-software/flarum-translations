@@ -40,12 +40,15 @@
         "admin": {
             "errors": {
                 "service_not_found": "\"{service}\" 服务未找到或不存在。",
-                "url_invalid": "所选服务的 URL 无效。"
+                "url_invalid": "所选服务的 URL 无效。",
+                "tag_invalid": ""
             },
             "nav": {
                 "desc": "为您的论坛设置自定义 Outgoing Webhooks。"
             },
             "settings": {
+                "debug_label": "",
+                "debug_help": "",
                 "item": {
                     "tag_any_label": "任一"
                 },

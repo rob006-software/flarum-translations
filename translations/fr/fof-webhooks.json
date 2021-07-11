@@ -40,12 +40,15 @@
         "admin": {
             "errors": {
                 "service_not_found": "Le service « {service} » est introuvable.",
-                "url_invalid": "L'URL n'est pas valide pour le service sélectionné."
+                "url_invalid": "L'URL n'est pas valide pour le service sélectionné.",
+                "tag_invalid": ""
             },
             "nav": {
                 "desc": "Des webhooks sortants personnalisables pour votre forum."
             },
             "settings": {
+                "debug_label": "",
+                "debug_help": "",
                 "item": {
                     "tag_any_label": "N'importe lequel"
                 },

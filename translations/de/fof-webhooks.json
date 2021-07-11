@@ -40,12 +40,15 @@
         "admin": {
             "errors": {
                 "service_not_found": "Der Dienst '{service}' konnte nicht gefunden werden.",
-                "url_invalid": "URL ist für den gewählten Dienst nicht gültig."
+                "url_invalid": "URL ist für den gewählten Dienst nicht gültig.",
+                "tag_invalid": ""
             },
             "nav": {
                 "desc": "Anpassbare ausgehende Webhooks für dein Forum."
             },
             "settings": {
+                "debug_label": "",
+                "debug_help": "",
                 "item": {
                     "tag_any_label": "Beliebig"
                 },

@@ -40,12 +40,15 @@
         "admin": {
             "errors": {
                 "service_not_found": "'{service}' hizmeti bulunamıyor.",
-                "url_invalid": "Bağlantı, seçilen servis için geçerli değil."
+                "url_invalid": "Bağlantı, seçilen servis için geçerli değil.",
+                "tag_invalid": ""
             },
             "nav": {
                 "desc": "Forumunuz için özelleştirilebilir web kancaları."
             },
             "settings": {
+                "debug_label": "",
+                "debug_help": "",
                 "item": {
                     "tag_any_label": "Hiç"
                 },
