@@ -97,6 +97,15 @@ This repository contains raw translations data used by [Weblate](https://weblate
 		</td>
 	</tr>
 	<tr>
+		<td><a href="https://github.com/flarum-lang/hungarian">Hungarian</a></td>
+		<td><a href="https://github.com/Rebootcodesoft">Rebootcodesoft</a></td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/hu.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/hu/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
 		<td><a href="https://github.com/flarum-lang/italian">Italian</a></td>
 		<td><a href="https://github.com/justoverclockl">Justoverclock</a></td>
 		<td align="right">
