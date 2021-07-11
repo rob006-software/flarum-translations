@@ -73,6 +73,13 @@ return [
 		'branch' => 'master',
 		'path' => '/locale',
 	],
+	'hu' => [
+		'type' => 'language',
+		'language' => 'hu',
+		'repository' => 'git@github.com:flarum-lang/hungarian.git',
+		'branch' => 'master',
+		'path' => '/locale',
+	],
 	'it' => [
 		'type' => 'language',
 		'language' => 'it',

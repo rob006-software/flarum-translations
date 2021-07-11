@@ -1,0 +1,29 @@
+{
+    "flarum-likes": {
+        "admin": {
+            "permissions": {
+                "like_posts_label": "Posztok lájkolása"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_liked_text": "{username} lájkolta a posztodat."
+            },
+            "post": {
+                "like_link": "Tetszik",
+                "liked_by_self_text": "{users} lájkolta ezt.",
+                "liked_by_text": "{users} lájkolta ezt.|{users} lájkolták ezt.",
+                "others_link": "=> core.ref.some_others",
+                "unlike_link": "Mégsem tetszik",
+                "you_text": "=> core.ref.you"
+            },
+            "post_likes": {
+                "title": "Felhasználók, akiknek tetszett"
+            },
+            "settings": {
+                "notify_post_liked_label": "Valaki lájkolta az egyik posztomat"
+            }
+        }
+    }
+}

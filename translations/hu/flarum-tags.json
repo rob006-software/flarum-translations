@@ -1,0 +1,91 @@
+{
+    "flarum-tags": {
+        "admin": {
+            "basics": {
+                "tags_label": "=> flarum-tags.ref.tags"
+            },
+            "edit_tag": {
+                "color_label": "=> core.ref.color",
+                "delete_tag_button": "Tag törlése",
+                "delete_tag_confirmation": "Biztosan törölni szeretnéd ezt a taget? A témák amelyek használták ezt a taget NEM fognak törlődni.",
+                "description_label": "Leírás",
+                "hide_label": "Elrejtés az 'Összes téma' panelről",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "=> flarum-tags.ref.name",
+                "name_placeholder": "=> flarum-tags.ref.name",
+                "slug_label": "Slug",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> flarum-tags.ref.create_tag"
+            },
+            "nav": {
+                "tags_button": "=> flarum-tags.ref.tags",
+                "tags_text": "Itt tudod kezelni a tageket, hogy átláthatóak és strukturáltak legyenek a témák."
+            },
+            "permissions": {
+                "allow_edit_tags_label": "Tagek szerkesztésének engedélyezése",
+                "restrict_by_tag_heading": "Korlátozás téma által",
+                "tag_discussions_label": "Témák tagelése"
+            },
+            "tag_settings": {
+                "range_separator_text": " - ",
+                "required_primary_heading": "Szükséges elsődleges tagek száma",
+                "required_primary_text": "Add meg az elsődleges tagek minimális és maximális számát, amelyet egy témához lehessen adni.",
+                "required_secondary_heading": "Szükséges másodlagos tagek száma",
+                "required_secondary_text": "Add meg az másodlagos tagek minimális és maximális számát, amelyet egy témához lehessen adni.",
+                "title": "Tag-beállítások"
+            },
+            "tags": {
+                "about_tags_text": "A tagek a témák kategorizálására használhatóak. Az elsődleges tagek hasonlóak, mint a hagyományos fórumkategóriák: kétszintes hierarchiába rendezhetőek. A másodlagos tagek nem rendelkeznek hierarchiával, mikro-kategorizálásra használhatóak.",
+                "create_tag_button": "=> flarum-tags.ref.create_tag",
+                "primary_heading": "Elsődleges tagek",
+                "secondary_heading": "Másodlagos tagek",
+                "settings_button": "Beállítások"
+            }
+        },
+        "forum": {
+            "all_tags": {
+                "meta_description_text": "Az összes tag",
+                "meta_title_text": "=> flarum-tags.ref.tags"
+            },
+            "choose_tags": {
+                "choose_primary_placeholder": "Válassz egy elsődleges taget|Válassz {count} elsődleges taget",
+                "choose_secondary_placeholder": "Válassz még egy taget|Válassz {count} további taget",
+                "edit_title": "Tagek módosítása - {title}",
+                "submit_button": "=> core.ref.okay",
+                "title": "Válassz tageket a témádhoz"
+            },
+            "composer_discussion": {
+                "choose_tags_link": "Válassz tageket"
+            },
+            "discussion_controls": {
+                "edit_tags_button": "Tagek szerkesztése"
+            },
+            "header": {
+                "back_to_tags_tooltip": "Vissza a tagekhez"
+            },
+            "index": {
+                "more_link": "Több...",
+                "tags_link": "=> flarum-tags.ref.tags",
+                "untagged_link": "Címkétlen"
+            },
+            "post_stream": {
+                "added_and_removed_tags_text": "{username} hozzáadta a {tagsAdded} és eltávolította a {tagsRemoved}.",
+                "added_tags_text": "{username} hozzáadta a {tagsAdded}.",
+                "removed_tags_text": "{username} eltávolította a {tagsRemoved}.",
+                "tags_text": "{tags} taget|{tags} tageket"
+            },
+            "tag": {
+                "meta_description_text": "Az összes téma a(z) {tag} taggel"
+            }
+        },
+        "lib": {
+            "deleted_tag_text": "Törölve"
+        },
+        "ref": {
+            "create_tag": "Tag létrehozása",
+            "name": "Név",
+            "tags": "Tagek"
+        }
+    }
+}
