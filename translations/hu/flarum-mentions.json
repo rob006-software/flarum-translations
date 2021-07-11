@@ -1,0 +1,30 @@
+{
+    "flarum-mentions": {
+        "forum": {
+            "composer": {
+                "mention_tooltip": "Említs meg egy felhasználót vagy posztot.",
+                "reply_to_post_text": "Válaszolj a #{number} posztra"
+            },
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_mentioned_text": "{username} válaszolt a posztodra",
+                "user_mentioned_text": "{username} megemlített Téged"
+            },
+            "post": {
+                "mentioned_by_self_text": "{users} válaszolt erre.|{users} válaszoltak erre.",
+                "mentioned_by_text": "{users} válaszolt erre.|{users} válaszoltak erre.",
+                "others_text": "=> core.ref.some_others",
+                "quote_button": "Idézem",
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
+            },
+            "settings": {
+                "notify_post_mentioned_label": "Valaki válaszolt az egyik posztomra",
+                "notify_user_mentioned_label": "Valaki megemlített egy posztban"
+            },
+            "user": {
+                "mentions_link": "Megemlítések"
+            }
+        }
+    }
+}
