@@ -24,6 +24,7 @@
             },
             "permissions": {
                 "allow_edit_tags_label": "Tagek szerkesztésének engedélyezése",
+                "bypass_tag_counts_label": "",
                 "restrict_by_tag_heading": "Korlátozás téma által",
                 "tag_discussions_label": "Témák tagelése"
             },
@@ -37,9 +38,12 @@
             },
             "tags": {
                 "about_tags_text": "A tagek a témák kategorizálására használhatóak. Az elsődleges tagek hasonlóak, mint a hagyományos fórumkategóriák: kétszintes hierarchiába rendezhetőek. A másodlagos tagek nem rendelkeznek hierarchiával, mikro-kategorizálásra használhatóak.",
-                "create_tag_button": "=> flarum-tags.ref.create_tag",
+                "create_primary_tag_button": "",
+                "create_secondary_tag_button": "",
                 "primary_heading": "Elsődleges tagek",
                 "secondary_heading": "Másodlagos tagek",
+                "settings_heading": "",
+                "create_tag_button": "=> flarum-tags.ref.create_tag",
                 "settings_button": "Beállítások"
             }
         },
@@ -83,9 +87,9 @@
             "deleted_tag_text": "Törölve"
         },
         "ref": {
-            "create_tag": "Tag létrehozása",
             "name": "Név",
-            "tags": "Tagek"
+            "tags": "Tagek",
+            "create_tag": "Tag létrehozása"
         }
     }
 }

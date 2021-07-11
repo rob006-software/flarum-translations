@@ -19,6 +19,7 @@
         "boolean": "A(z) :attribute mező csak true vagy false értéket kaphat!",
         "confirmed": "A(z) :attribute nem egyezik a megerősítéssel.",
         "date": "A(z) :attribute nem érvényes dátum.",
+        "date_equals": "",
         "date_format": "A(z) :attribute nem egyezik az alábbi dátum formátummal :format!",
         "different": "A(z) :attribute és :other értékei különbözőek kell, hogy legyenek!",
         "digits": "A(z) :attribute :digits számjegyű kell, hogy legyen!",
@@ -30,6 +31,18 @@
         "exists": "A(z) :attribute már létezik.",
         "file": "A(z) :attribute fájl kell, hogy legyen!",
         "filled": "A(z) :attribute megadása kötelező!",
+        "gt": {
+            "numeric": "",
+            "file": "",
+            "string": "",
+            "array": ""
+        },
+        "gte": {
+            "numeric": "",
+            "file": "",
+            "string": "",
+            "array": ""
+        },
         "image": "A(z) :attribute képfájl kell, hogy legyen!",
         "in": "A kiválasztott :attribute érvénytelen.",
         "in_array": "A(z) :attribute értéke nem található a(z) :other értékek között.",
@@ -38,6 +51,18 @@
         "ipv4": "A(z) :attribute érvényes IPv4 cím kell, hogy legyen!",
         "ipv6": "A(z) :attribute érvényes IPv6 cím kell, hogy legyen!",
         "json": "A(z) :attribute érvényes JSON szöveg kell, hogy legyen!",
+        "lt": {
+            "numeric": "",
+            "file": "",
+            "string": "",
+            "array": ""
+        },
+        "lte": {
+            "numeric": "",
+            "file": "",
+            "string": "",
+            "array": ""
+        },
         "max": {
             "numeric": "A(z) :attribute értéke nem lehet nagyobb, mint :max!",
             "file": "A(z) :attribute mérete nem lehet több, mint :max kilobájt.",
@@ -52,8 +77,11 @@
             "string": "A(z) :attribute hossza nem lehet kevesebb, mint :min karakter.",
             "array": "A(z) :attribute legalább :min elemet kell, hogy tartalmazzon."
         },
+        "multiple_of": "",
         "not_in": "A(z) :attribute értéke érvénytelen.",
+        "not_regex": "",
         "numeric": "A(z) :attribute szám kell, hogy legyen!",
+        "password": "",
         "present": "A(z) :attribute mező nem található!",
         "regex": "A(z) :attribute formátuma érvénytelen.",
         "required": "A(z) :attribute megadása kötelező!",
@@ -63,6 +91,9 @@
         "required_with_all": "A(z) :attribute megadása kötelező, ha a(z) :values értékek léteznek.",
         "required_without": "A(z) :attribute megadása kötelező, ha a(z) :values érték nem létezik.",
         "required_without_all": "A(z) :attribute megadása kötelező, ha egyik :values érték sem létezik.",
+        "prohibited": "",
+        "prohibited_if": "",
+        "prohibited_unless": "",
         "same": "A(z) :attribute és :other mezőknek egyezniük kell!",
         "size": {
             "numeric": "A(z) :attribute értéke :size kell, hogy legyen!",
@@ -79,8 +110,15 @@
         "uuid": ":attribute érvényes UUID-val kell rendelkezzen.",
         "attributes": {
             "username": "felhasználónév",
-            "name": "név",
-            "password": "jelszó"
+            "password": "jelszó",
+            "email": "",
+            "title": "",
+            "content": "",
+            "name_singular": "",
+            "name_plural": "",
+            "tag_count_primary": "",
+            "tag_count_secondary": "",
+            "name": "név"
         }
     }
 }

@@ -10,6 +10,9 @@
                 "unfollow_button": "Leiratkozás",
                 "unignore_button": "Mellőzés feloldása"
             },
+            "following": {
+                "meta_title_text": ""
+            },
             "index": {
                 "following_link": "=> flarum-subscriptions.ref.following"
             },
@@ -30,6 +33,12 @@
                 "not_following_text": "Értesítés csak említésnél. @felhasznalonev.",
                 "notify_alert_tooltip": "Új hozzászólás esetén fórum-értesítést kapsz.",
                 "notify_email_tooltip": "Új hozzászólás esetén értesítést kapsz emailben."
+            }
+        },
+        "email": {
+            "new_post": {
+                "subject": "",
+                "body": ""
             }
         },
         "ref": {

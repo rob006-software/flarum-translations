@@ -1,12 +1,6 @@
 {
     "core": {
         "admin": {
-            "add_extension": {
-                "developer_text": "Ha fejlesztő vagy, bátran olvasd el <a>dokumentációnkat</a> és készítsd el a saját kiegészítődet.",
-                "install_text": "Addig is a <a>Flarum Community oldalán</a> kereshetsz és telepíthetsz is kiegészítőket (manuálisan, a Composer segítségével).",
-                "temporary_text": "Egy nap majd - a nem túl távoli jövőben - ennek a panelnak a segítségével könnyedén fogsz majd tudni kiegészítőket hozzáadni a fórumodhoz.",
-                "title": "Kiegészítő hozzáadása"
-            },
             "appearance": {
                 "colored_header_label": "Színes fejléc",
                 "colors_heading": "Színek",
@@ -18,6 +12,7 @@
                 "custom_styles_heading": "Egyéni stílus",
                 "custom_styles_text": "Szabd testre a fórumod kinézetét LESS/CSS kód hozzáadásával, amellyel felülírhatod a Flarum saját stílusát.",
                 "dark_mode_label": "Sötét mód",
+                "description": "",
                 "edit_css_button": "Egyéni CSS szerkesztése",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
@@ -26,24 +21,33 @@
                 "favicon_text": "Tölts fel egy képet amelyet faviconként szeretnél használni (a böngésző tab-jában megjelenő oldalcím melletti kis kép).",
                 "logo_heading": "Logo",
                 "logo_text": "Tölts fel egy képet amely a fórumcím helyett fog megjelenni.",
+                "title": "",
                 "submit_button": "=> core.ref.save_changes"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "Alapértelmezett nyelv",
+                "description": "",
+                "display_name_heading": "",
+                "display_name_text": "",
                 "forum_description_heading": "Fórum leírás",
                 "forum_description_text": "Írj pár mondatot a közösségedről. Ez meg fog jelenni a meta-címkékben és a keresőkben is.",
                 "forum_title_heading": "Fórumcím",
                 "home_page_heading": "Kezdőlap",
                 "home_page_text": "Válaszd ki az oldalt amelyet a látogatóid először látni fognak, amikor meglátogatják a fórumodat. Ha egyéni értéket adsz meg, akkor használj relatív útvonalat a fórum gyökérmappájához képest.",
-                "saved_message": "A változtatásokat elmentettük.",
                 "show_language_selector_label": "Nyelv-választó mutatása",
-                "submit_button": "=> core.ref.save_changes",
+                "slug_driver_heading": "",
+                "slug_driver_text": "",
+                "title": "",
                 "welcome_banner_heading": "Üdvözlő banner",
-                "welcome_banner_text": "Szabd testre a szöveget amellyel köszönteni szeretnéd a látogatóidat az 'Összes téma' lapon."
+                "welcome_banner_text": "Szabd testre a szöveget amellyel köszönteni szeretnéd a látogatóidat az 'Összes téma' lapon.",
+                "saved_message": "A változtatásokat elmentettük.",
+                "submit_button": "=> core.ref.save_changes"
             },
             "dashboard": {
                 "clear_cache_button": "Cache törlése",
+                "description": "",
+                "title": "",
                 "tools_button": "Eszközök"
             },
             "edit_css": {
@@ -60,6 +64,7 @@
                 "color_label": "=> core.ref.color",
                 "delete_button": "Csoport törlése",
                 "delete_confirmation": "Biztosan törölni szeretnéd ezt a csoportot? A csoport tagjai NEM lesznek törölve.",
+                "hide_label": "",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "name_label": "Név",
@@ -75,36 +80,58 @@
             },
             "email": {
                 "addresses_heading": "Címek",
+                "description": "",
                 "driver_heading": "Válassz egy driver-t",
                 "driver_label": "Driver",
                 "from_label": "Küldő",
-                "heading": "=> core.ref.email",
                 "mail_encryption_label": "Titkosítás",
                 "mail_host_label": "Hoszt",
                 "mail_mailgun_domain_label": "Domain",
                 "mail_mailgun_region_label": "Régió",
                 "mail_mailgun_secret_label": "Titkos kulcs",
-                "mail_mandrill_secret_label": "Titkos kulcs",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "Port",
+                "mail_username_label": "=> core.ref.username",
+                "mailgun_heading": "Mailgun beállítások",
+                "not_sending_message": "A Flarum jelenleg nem küld ki emaileket. Ennek oka lehet a kiválasztott driver, vagy a rosszul megadott beállítások.",
+                "send_test_mail_button": "",
+                "send_test_mail_heading": "",
+                "send_test_mail_success": "",
+                "send_test_mail_text": "",
+                "smtp_heading": "SMTP beállítások",
+                "title": "",
+                "heading": "=> core.ref.email",
+                "mail_mandrill_secret_label": "Titkos kulcs",
                 "mail_ses_key_label": "Kulcs",
                 "mail_ses_region_label": "Régió",
                 "mail_ses_secret_label": "Secret",
-                "mail_username_label": "=> core.ref.username",
-                "mailgun_heading": "Mailgun beállítások",
                 "mandrill_heading": "Mandrill beállítások",
-                "not_sending_message": "A Flarum jelenleg nem küld ki emaileket. Ennek oka lehet a kiválasztott driver, vagy a rosszul megadott beállítások.",
                 "ses_heading": "SES beállítások",
-                "smtp_heading": "SMTP beállítások",
                 "submit_button": "=> core.ref.save_changes",
                 "text": "Állítsd be a megfelelő driver-t, a beállításokat és a címeket, hogy a fórumod emaileket tudjon küldeni."
             },
-            "extensions": {
-                "add_button": "Kiegészítő hozzáadása",
-                "settings_button": "=> core.ref.settings",
-                "uninstall_button": "Eltávolítás"
+            "extension": {
+                "configure_scopes": "",
+                "confirm_uninstall": "",
+                "disabled": "",
+                "enable_to_see": "",
+                "enabled": "",
+                "info_links": {
+                    "discuss": "",
+                    "documentation": "",
+                    "donate": "",
+                    "source": "",
+                    "support": "",
+                    "website": ""
+                },
+                "no_permissions": "",
+                "no_settings": "",
+                "open_modal": "",
+                "permissions_title": "",
+                "uninstall_button": ""
             },
             "header": {
+                "get_help": "",
                 "log_out_button": "=> core.ref.log_out"
             },
             "loading": {
@@ -112,16 +139,35 @@
             },
             "nav": {
                 "appearance_button": "Megjelenés",
-                "appearance_text": "Szabd testre a fórumod színeit, logóit, stílusait.",
+                "appearance_title": "",
                 "basics_button": "Alapok",
-                "basics_text": "Itt állíthatod be az alapvető fórum-beállításokat: cím, nyelv, leírás.",
+                "basics_title": "",
+                "categories": {
+                    "authentication": "",
+                    "core": "",
+                    "discussion": "",
+                    "feature": "",
+                    "formatting": "",
+                    "language": "",
+                    "moderation": "",
+                    "other": "",
+                    "theme": ""
+                },
                 "dashboard_button": "Irányítópult",
-                "dashboard_text": "A kis Flarum-fórumod.",
+                "dashboard_title": "",
                 "email_button": "=> core.ref.email",
+                "email_title": "",
+                "permissions_button": "Jogosultságok",
+                "permissions_title": "",
+                "userlist_button": "",
+                "userlist_title": "",
+                "search_placeholder": "",
+                "appearance_text": "Szabd testre a fórumod színeit, logóit, stílusait.",
+                "basics_text": "Itt állíthatod be az alapvető fórum-beállításokat: cím, nyelv, leírás.",
+                "dashboard_text": "A kis Flarum-fórumod.",
                 "email_text": "Itt tudod beállítani a fórumod email-beállításait.",
                 "extensions_button": "Kiegészítők",
                 "extensions_text": "További funkciókat tudsz a fórumodhoz adni.",
-                "permissions_button": "Jogosultságok",
                 "permissions_text": "Állítsd be, hogy ki milyen jogokkal rendelkezzen és ezekkel a jogokkal mit tehessen."
             },
             "permissions": {
@@ -132,8 +178,11 @@
                 "delete_discussions_label": "Téma törlése",
                 "delete_posts_forever_label": "Poszt végleges törlése",
                 "delete_posts_label": "Posztok törlése",
+                "description": "",
                 "edit_posts_label": "Posztok szerkesztése",
                 "edit_users_label": "Felhasználók szerkesztése",
+                "edit_users_credentials_label": "",
+                "edit_users_groups_label": "",
                 "global_heading": "Globális",
                 "moderate_heading": "Moderálás",
                 "new_group_button": "Új csoport",
@@ -142,11 +191,15 @@
                 "read_heading": "Olvasás",
                 "rename_discussions_label": "Téma átnevezése",
                 "reply_to_discussions_label": "Válaszolás egy témához",
+                "search_users_label": "",
                 "sign_up_label": "Regisztráció",
                 "start_discussions_label": "Téma indítása",
-                "view_discussions_label": "Témák megtekintése",
+                "title": "",
+                "view_forum_label": "",
+                "view_hidden_groups_label": "",
                 "view_last_seen_at_label": "Utolsó látogatás idejének megtekintése",
                 "view_post_ips_label": "IP-címek megtekintése",
+                "view_discussions_label": "Témák megtekintése",
                 "view_user_list_label": "Tagok listájának megtekintése"
             },
             "permissions_controls": {
@@ -160,11 +213,62 @@
                 "signup_open_button": "Nyitva"
             },
             "settings": {
+                "saved_message": "",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
                 "remove_button": "=> core.ref.remove",
                 "upload_button": "Válassz egy képet..."
+            },
+            "users": {
+                "description": "",
+                "grid": {
+                    "columns": {
+                        "edit_user": {
+                            "button": "",
+                            "title": "",
+                            "tooltip": ""
+                        },
+                        "email": {
+                            "title": "",
+                            "visibility_hide": "",
+                            "visibility_show": ""
+                        },
+                        "group_badges": {
+                            "no_badges": "",
+                            "title": ""
+                        },
+                        "join_time": {
+                            "title": ""
+                        },
+                        "user_id": {
+                            "title": ""
+                        },
+                        "username": {
+                            "profile_link_tooltip": "",
+                            "title": ""
+                        }
+                    },
+                    "invalid_column_content": ""
+                },
+                "pagination": {
+                    "back_button": "",
+                    "next_button": "",
+                    "page_counter": ""
+                },
+                "title": "",
+                "total_users": ""
+            },
+            "add_extension": {
+                "developer_text": "Ha fejlesztő vagy, bátran olvasd el <a>dokumentációnkat</a> és készítsd el a saját kiegészítődet.",
+                "install_text": "Addig is a <a>Flarum Community oldalán</a> kereshetsz és telepíthetsz is kiegészítőket (manuálisan, a Composer segítségével).",
+                "temporary_text": "Egy nap majd - a nem túl távoli jövőben - ennek a panelnak a segítségével könnyedén fogsz majd tudni kiegészítőket hozzáadni a fórumodhoz.",
+                "title": "Kiegészítő hozzáadása"
+            },
+            "extensions": {
+                "add_button": "Kiegészítő hozzáadása",
+                "settings_button": "=> core.ref.settings",
+                "uninstall_button": "Eltávolítás"
             }
         },
         "forum": {
@@ -197,8 +301,10 @@
             },
             "composer_edit": {
                 "discard_confirmation": "Nem mentetted el a változtatásaidat. El szeretnéd vetni a változtatásaidat?",
+                "edited_message": "",
                 "post_link": "#{number} poszt itt: {discussion}",
-                "submit_button": "=> core.ref.save_changes"
+                "submit_button": "=> core.ref.save_changes",
+                "view_button": ""
             },
             "composer_reply": {
                 "body_placeholder": "=> core.ref.write_a_reply",
@@ -216,7 +322,8 @@
                 "log_in_to_reply_button": "Jelentkezz be, ha válaszolni szeretnél!",
                 "rename_button": "=> core.ref.rename",
                 "reply_button": "=> core.ref.reply",
-                "restore_button": "=> core.ref.restore"
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": ""
             },
             "discussion_list": {
                 "empty_text": "Úgy tűnik, hogy itt (még) nincs semmi.",
@@ -224,19 +331,6 @@
                 "mark_as_read_tooltip": "Olvasottnak jelölöm",
                 "replied_text": "{username} válaszolt {ago}",
                 "started_text": "{username} indította {ago}"
-            },
-            "edit_user": {
-                "activate_button": "Felhasználó aktiválása",
-                "email_heading": "=> core.ref.email",
-                "email_label": "=> core.ref.email",
-                "groups_heading": "Csoportok",
-                "password_heading": "=> core.ref.password",
-                "password_label": "=> core.ref.password",
-                "set_password_label": "Set new password",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "Felhasználó szerkesztése",
-                "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -250,10 +344,12 @@
             "header": {
                 "admin_button": "Adminisztráció",
                 "back_to_index_tooltip": "Vissza a témákhoz",
+                "locale_dropdown_accessible_label": "",
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Profil",
                 "search_placeholder": "Keresés",
+                "session_dropdown_accessible_label": "",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
             },
@@ -262,14 +358,17 @@
                 "cannot_start_discussion_button": "Nem indíthatsz új témát",
                 "mark_all_as_read_confirmation": "Biztosan olvasottnak szeretnéd jelölni az összes témát?",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "meta_title_text": "",
                 "refresh_tooltip": "Frissítés",
-                "start_discussion_button": "=> core.ref.start_a_discussion"
+                "start_discussion_button": "=> core.ref.start_a_discussion",
+                "toggle_sidenav_dropdown_accessible_label": ""
             },
             "index_sort": {
                 "latest_button": "Legutóbbi",
                 "newest_button": "Legújabb",
                 "oldest_button": "Legrégebbi",
                 "relevance_button": "Relevancia",
+                "toggle_dropdown_accessible_label": "",
                 "top_button": "Top"
             },
             "log_in": {
@@ -288,6 +387,7 @@
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "Megjelölés olvasottként",
                 "title": "=> core.ref.notifications",
+                "toggle_dropdown_accessible_label": "",
                 "tooltip": "=> core.ref.notifications"
             },
             "post": {
@@ -297,9 +397,12 @@
             },
             "post_controls": {
                 "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "",
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "edit_button": "=> core.ref.edit",
-                "restore_button": "=> core.ref.restore"
+                "hide_confirmation": "",
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": ""
             },
             "post_scrubber": {
                 "now_link": "Most",
@@ -364,23 +467,58 @@
                 "delete_confirmation": "Biztosan törölni szeretnéd ezt a felhasználói fiókot? A felhasználó hozzászólásai NEM fognak törlődni.",
                 "delete_error_message": "<i>{username} ({email})</i> felhasználó törlése sikertelen volt",
                 "delete_success_message": "<i>{username} ({email})</i> felhasználó törölve",
-                "edit_button": "=> core.ref.edit"
+                "edit_button": "=> core.ref.edit",
+                "toggle_dropdown_accessible_label": ""
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "Megerősítő e-mail újraküldése",
                 "sent_message": "Elküldve"
+            },
+            "edit_user": {
+                "activate_button": "Felhasználó aktiválása",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "Csoportok",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "Set new password",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Felhasználó szerkesztése",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username"
             }
         },
         "lib": {
             "badge": {
                 "hidden_tooltip": "Rejtett"
             },
+            "dropdown": {
+                "toggle_dropdown_accessible_label": ""
+            },
+            "edit_user": {
+                "activate_button": "",
+                "email_heading": "",
+                "email_label": "",
+                "groups_heading": "",
+                "password_heading": "",
+                "password_label": "",
+                "set_password_label": "",
+                "submit_button": "",
+                "title": "",
+                "username_heading": "",
+                "username_label": ""
+            },
             "error": {
+                "dependent_extensions_message": "",
                 "generic_message": "Hoppá! Valami hiba történt. Kérlek, frissítsd az oldalt.",
+                "missing_dependencies_message": "",
                 "not_found_message": "A kért erőforrás nem található.",
                 "permission_denied_message": "Nem rendelkezel megfelelő jogokkal ehhez.",
                 "rate_limit_exceeded_message": "Hűű, picit túl gyors vagy! Próbáld meg picit később."
+            },
+            "loading_indicator": {
+                "accessible_label": ""
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -427,9 +565,10 @@
             },
             "reset_password": {
                 "confirm_password_label": "=> core.ref.confirm_password",
-                "password_label": "=> core.ref.password",
+                "new_password_label": "",
                 "submit_button": "Jelszó visszaállítása",
-                "title": "=> core.ref.reset_your_password"
+                "title": "=> core.ref.reset_your_password",
+                "password_label": "=> core.ref.password"
             }
         },
         "api": {
@@ -447,6 +586,10 @@
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
                 "body": "Helló, {username}!\n\nValaki (remélhetőleg Te!) jelszó-visszaállítást kezdeményezett ezzel a felhasználói fiókkal a fórumunkon ({forum}).\n\nHa Te voltál az, akkor csak kattints az alábbi linkre és visszaállítjuk a jelszavadat:\n{url}\n\nHa mégsem szeretnéd a jelszavadat megváltoztatni, akkor csak ahgyd figyelmen kívül ezt a levelet.n.\n"
+            },
+            "send_test": {
+                "subject": "",
+                "body": ""
             }
         },
         "ref": {
@@ -464,10 +607,12 @@
             "delete_forever": "Végleges törlés",
             "discussions": "Témák",
             "edit": "Szerkesztés",
+            "edit_user": "",
             "email": "Email",
             "icon": "Ikon",
             "icon_text": "Adj meg egy nevet bármely <a>FontAwesome</a> ikon-osztályból a <code>fas fa-</code> prefix <em>hozzáadásával</em>.",
             "load_more": "Továbbiak betöltése",
+            "loading": "",
             "log_in": "Bejelentkezés",
             "log_out": "Kijelentkezés",
             "mark_all_as_read": "Összes megjelölése olvasottként",
@@ -489,6 +634,7 @@
             "start_a_discussion": "Új téma indítása",
             "username": "Felhasználónév",
             "users": "Felhasználók",
+            "view": "",
             "write_a_reply": "Válasz írása...",
             "you": "Te"
         },
