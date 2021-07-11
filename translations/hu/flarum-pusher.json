@@ -1,0 +1,18 @@
+{
+    "flarum-pusher": {
+        "admin": {
+            "pusher_settings": {
+                "app_cluster_label": "Cluster",
+                "app_id_label": "Alkalmazás azonosító (ID)",
+                "app_key_label": "Alkalmazás kulcs",
+                "app_secret_label": "Alkalmazás secret-kulcsa",
+                "title": "Pusher beállítás"
+            }
+        },
+        "forum": {
+            "discussion_list": {
+                "show_updates_text": "Mutasd a {count} frissített témát|Mutasd a {count} frissített témákat"
+            }
+        }
+    }
+}
