@@ -1,0 +1,25 @@
+{
+    "flarum-sticky": {
+        "admin": {
+            "permissions": {
+                "sticky_discussions_label": "Témák kitűzése"
+            }
+        },
+        "forum": {
+            "badge": {
+                "sticky_tooltip": "=> flarum-sticky.ref.sticky"
+            },
+            "discussion_controls": {
+                "sticky_button": "Téma kitűzése",
+                "unsticky_button": "Kitűzés eltávolítása"
+            },
+            "post_stream": {
+                "discussion_stickied_text": "{username} kitűzte a témát.",
+                "discussion_unstickied_text": "{username} eltávolította a kitűzést."
+            }
+        },
+        "ref": {
+            "sticky": "Kitűzve"
+        }
+    }
+}
