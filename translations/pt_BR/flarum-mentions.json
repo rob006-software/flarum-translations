@@ -2,8 +2,8 @@
     "flarum-mentions": {
         "admin": {
             "settings": {
-                "allow_username_format_label": "",
-                "allow_username_format_text": ""
+                "allow_username_format_label": "Permitir menção de nome de usuário (@Username)",
+                "allow_username_format_text": "O formato atual para menções do usuário é @\"Nome\"#ID.\nEsta configuração permite usar o formato antigo de @Username, no entanto, ele ainda será convertido para o novo formato ao salvar.\n"
             }
         },
         "forum": {
@@ -32,7 +32,7 @@
                 "mentions_link": "Menções"
             },
             "post_mention": {
-                "deleted_text": ""
+                "deleted_text": "[desconhecido]"
             }
         },
         "email": {
