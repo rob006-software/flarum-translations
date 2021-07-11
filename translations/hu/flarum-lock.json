@@ -1,0 +1,28 @@
+{
+    "flarum-lock": {
+        "admin": {
+            "permissions": {
+                "lock_discussions_label": "Téma lezárása"
+            }
+        },
+        "forum": {
+            "badge": {
+                "locked_tooltip": "Lezárva"
+            },
+            "discussion_controls": {
+                "lock_button": "Táma lezárása",
+                "unlock_button": "Téma újranyítása"
+            },
+            "notifications": {
+                "discussion_locked_text": "{username} lezárta a témát."
+            },
+            "post_stream": {
+                "discussion_locked_text": "{username} lezárta a témát.",
+                "discussion_unlocked_text": "{username} újranyitotta a témát."
+            },
+            "settings": {
+                "notify_discussion_locked_label": "Valaki lezárta a témámat"
+            }
+        }
+    }
+}
