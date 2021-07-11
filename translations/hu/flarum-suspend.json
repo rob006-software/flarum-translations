@@ -1,0 +1,30 @@
+{
+    "flarum-suspend": {
+        "admin": {
+            "permissions": {
+                "suspend_users_label": "Felhasználó felfüggesztése"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "user_suspended_text": "{username} felfüggesztett {timeReadable}",
+                "user_unsuspended_text": "{username} feloldotta a felfüggesztésedet."
+            },
+            "suspend_user": {
+                "indefinitely_label": "Felfüggesztve határozatlan ideig",
+                "limited_time_days_text": " napra",
+                "limited_time_label": "Felfüggesztve határozott ideig...",
+                "not_suspended_label": "Nincs felfüggesztve",
+                "status_heading": "Felfüggesztés állapota",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "{username} felfüggesztése"
+            },
+            "user_badge": {
+                "suspended_tooltip": "Felfüggesztve"
+            },
+            "user_controls": {
+                "suspend_button": "Felfüggesztés"
+            }
+        }
+    }
+}
