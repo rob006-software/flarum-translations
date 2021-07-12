@@ -2,7 +2,7 @@
     "flarum-mentions": {
         "admin": {
             "settings": {
-                "allow_username_format_label": "",
+                "allow_username_format_label": "A felhasználó megemlítésének engedélyezése (@Felhasználó)",
                 "allow_username_format_text": ""
             }
         },
@@ -32,16 +32,16 @@
                 "mentions_link": "Megemlítések"
             },
             "post_mention": {
-                "deleted_text": ""
+                "deleted_text": "[ismeretlen]"
             }
         },
         "email": {
             "post_mentioned": {
-                "subject": "",
+                "subject": "{replier_display_name} válaszolt a hozzászólásodra itt: {title}",
                 "body": ""
             },
             "user_mentioned": {
-                "subject": "",
+                "subject": "{mentioner_display_name} megemlített téged itt: {title}",
                 "body": ""
             }
         }
