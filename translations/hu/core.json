@@ -9,7 +9,7 @@
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Egyéni fejléc",
                 "custom_header_text": "=> core.ref.custom_header_text",
-                "custom_styles_heading": "Egyéni stílus",
+                "custom_styles_heading": "Egyéni stílusok",
                 "custom_styles_text": "Szabd testre a fórumod kinézetét LESS/CSS kód hozzáadásával, amellyel felülírhatod a Flarum saját stílusát.",
                 "dark_mode_label": "Sötét mód",
                 "description": "Fórum színek, logók és más változók beállítása.",
@@ -17,9 +17,9 @@
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
                 "enter_hex_message": "Kérlek adj meg egy hexadecimális színkódot.",
-                "favicon_heading": "Favicon",
+                "favicon_heading": "Favikon",
                 "favicon_text": "Tölts fel egy képet amelyet faviconként szeretnél használni (a böngésző tab-jában megjelenő oldalcím melletti kis kép).",
-                "logo_heading": "Logo",
+                "logo_heading": "Logó",
                 "logo_text": "Tölts fel egy képet amely a fórumcím helyett fog megjelenni.",
                 "title": "Megjelenítés",
                 "submit_button": "=> core.ref.save_changes"
@@ -34,7 +34,7 @@
                 "forum_description_text": "Írj pár mondatot a közösségedről. Ez meg fog jelenni a meta-címkékben és a keresőkben is.",
                 "forum_title_heading": "Fórumcím",
                 "home_page_heading": "Kezdőlap",
-                "home_page_text": "Válaszd ki az oldalt amelyet a látogatóid először látni fognak, amikor meglátogatják a fórumodat. Ha egyéni értéket adsz meg, akkor használj relatív útvonalat a fórum gyökérmappájához képest.",
+                "home_page_text": "Válaszd ki az oldalt amelyet a látogatóid először látni fognak, amikor meglátogatják a fórumodat.",
                 "show_language_selector_label": "Nyelv-választó mutatása",
                 "slug_driver_heading": "",
                 "slug_driver_text": "",
@@ -47,7 +47,7 @@
             "dashboard": {
                 "clear_cache_button": "Cache törlése",
                 "description": "A fórum egy pillanat alatt.",
-                "title": "Vezérlőpúlt",
+                "title": "Vezérlőpult",
                 "tools_button": "Eszközök"
             },
             "edit_css": {
@@ -97,7 +97,7 @@
                 "send_test_mail_button": "Küldés",
                 "send_test_mail_heading": "Teszt levél küldése",
                 "send_test_mail_success": "A teszt levelet sikeresen elküldtük!",
-                "send_test_mail_text": "Egy levelet küldünk a megadott beállításokkal az e-mail címedre: {email}.",
+                "send_test_mail_text": "Egy levelet küldünk a megadott beállításokkal az e-mail címedre {email}.",
                 "smtp_heading": "SMTP beállítások",
                 "title": "",
                 "heading": "=> core.ref.email",
@@ -337,8 +337,8 @@
                 "email_placeholder": "=> core.ref.email",
                 "email_sent_message": "Elküldtünk egy emailt amellyel visszaállíthatod a jelszavadat. (Ha nem érkezik meg pár percen belül az email, akkor nézd meg a spam mappát is.)",
                 "not_found_message": "Nincs felhasználónk ilyen email-címmel.",
-                "submit_button": "Jelszó visszaszerzése",
-                "text": "Add meg az email-címedet és mi el fogjuk küldeni Neked a jelszó-visszaállításhoz szükséges emailt.",
+                "submit_button": "Jelszó visszaállítása",
+                "text": "Add meg az email-címedet és mi el fogjuk küldeni neked a jelszó-visszaállításhoz szükséges emailt.",
                 "title": "Elfelejtettem a jelszavam"
             },
             "header": {
@@ -373,7 +373,7 @@
             },
             "log_in": {
                 "forgot_password_link": "Elfelejtetted a jelszavadat?",
-                "invalid_login_message": "A belépési adataid hibások voltak.",
+                "invalid_login_message": "A belépési adataid hibásak.",
                 "password_placeholder": "=> core.ref.password",
                 "remember_me_label": "Emlékezz rám",
                 "sign_up_text": "Nincs még felhasználód? <a>Regisztrálj!</a>",
@@ -393,7 +393,7 @@
             "post": {
                 "edited_text": "Módosítva",
                 "edited_tooltip": "{username} módosította {ago}",
-                "number_tooltip": "Poszt #{number}"
+                "number_tooltip": "Hozzászólás #{number}"
             },
             "post_controls": {
                 "delete_button": "=> core.ref.delete",
@@ -406,7 +406,7 @@
             },
             "post_scrubber": {
                 "now_link": "Most",
-                "original_post_link": "Eredeti poszt",
+                "original_post_link": "Eredeti hozzászólás",
                 "unread_text": "{count} olvasatlan",
                 "viewing_text": "{index} a {count} posztból|{index} a {count} posztból"
             },
@@ -427,7 +427,7 @@
                 "users_heading": "=> core.ref.users"
             },
             "settings": {
-                "account_heading": "Felhasználó",
+                "account_heading": "Fiók",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
                 "notifications_heading": "=> core.ref.notifications",
@@ -454,9 +454,9 @@
                 "avatar_upload_tooltip": "Új avatar feltöltése",
                 "discussions_link": "=> core.ref.discussions",
                 "in_discussion_text": "Itt: {discussion}",
-                "joined_date_text": "Csatlakozott: {ago}",
+                "joined_date_text": "Csatlakozott {ago}",
                 "online_text": "Online",
-                "posts_empty_text": "Úgy tűnik, hogy itt nincs egy poszt sem.",
+                "posts_empty_text": "Úgy tűnik, hogy itt nincs egy hozzászólás sem.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
                 "settings_link": "=> core.ref.settings"
@@ -511,7 +511,7 @@
             },
             "error": {
                 "dependent_extensions_message": "",
-                "generic_message": "Hoppá! Valami hiba történt. Kérlek, frissítsd az oldalt.",
+                "generic_message": "Hoppá! Valami hiba történt. Kérlek, frissítsd az oldalt és próbáld meg még egyszer.",
                 "missing_dependencies_message": "",
                 "not_found_message": "A kért erőforrás nem található.",
                 "permission_denied_message": "Nem rendelkezel megfelelő jogokkal ehhez.",
@@ -535,7 +535,7 @@
         },
         "views": {
             "content": {
-                "javascript_disabled_message": "A legjobb élményhez egy modern böngésző szükséges engedélyezett JavaScript-tel..",
+                "javascript_disabled_message": "A legjobb élményhez egy modern böngésző szükséges engedélyezett JavaScript-tel.",
                 "load_error_message": "Valami félresikerült az oldal betöltése közben.",
                 "loading_text": "Betöltés..."
             },
@@ -545,7 +545,7 @@
             },
             "error": {
                 "csrf_token_mismatch": "Túl sokáig voltál inaktív.",
-                "csrf_token_mismatch_return_link": "Vissza, hogy megpróbáljam mégegyszer",
+                "csrf_token_mismatch_return_link": "Vissza, hogy megpróbáljam még egyszer",
                 "invalid_confirmation_token": "Ez a megerősítő link már fel lett használva vagy érvénytelen.",
                 "not_authenticated": "Nem rendelkezel megfelelő jogokkal az oldal megtekintéséhez. Próbáld meg újra bejelentkezés után.",
                 "not_found": "A keresett oldal nem található.",
@@ -572,7 +572,7 @@
             }
         },
         "api": {
-            "invalid_username_message": "A felhasználónév csak betűket, számokat és gondolatjelet tartalmazhat."
+            "invalid_username_message": "A felhasználónév csak betűket, számokat és kötőjeleket tartalmazhat."
         },
         "email": {
             "activate_account": {
@@ -585,7 +585,7 @@
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": "Helló, {username}!\n\nValaki (remélhetőleg Te!) jelszó-visszaállítást kezdeményezett ezzel a felhasználói fiókkal a fórumunkon ({forum}).\n\nHa Te voltál az, akkor csak kattints az alábbi linkre és visszaállítjuk a jelszavadat:\n{url}\n\nHa mégsem szeretnéd a jelszavadat megváltoztatni, akkor csak ahgyd figyelmen kívül ezt a levelet.n.\n"
+                "body": "Helló, {username}!\n\nValaki (remélhetőleg Te!) jelszó-visszaállítást kezdeményezett ezzel a felhasználói fiókkal a fórumunkon ({forum}).\n\nHa Te voltál az, akkor csak kattints az alábbi linkre és visszaállítjuk a jelszavadat:\n{url}\n\nHa mégsem szeretnéd a jelszavadat megváltoztatni, akkor csak hagyd figyelmen kívül ezt a levelet.\n"
             },
             "send_test": {
                 "subject": "",
@@ -597,7 +597,7 @@
             "change_email": "E-mail cseréje",
             "change_password": "Jelszó cseréje",
             "color": "Szín",
-            "confirm_password": "Jelkszó megerősítése",
+            "confirm_password": "Jelszó megerősítése",
             "confirmation_email_sent": "Elküldtük a megerősítő emailt a {email} címre. Ha nem érkezik meg hamarosan, akkor ellenőrizd a spam mappát is.",
             "custom_footer_text": "Adj meg HTML-t, amely az oldal alján fog megjelenni.",
             "custom_footer_title": "Egyéni lábléc szerkesztése",
@@ -608,7 +608,7 @@
             "discussions": "Témák",
             "edit": "Szerkesztés",
             "edit_user": "",
-            "email": "Email",
+            "email": "E-mail",
             "icon": "Ikon",
             "icon_text": "Adj meg egy nevet bármely <a>FontAwesome</a> ikon-osztályból a <code>fas fa-</code> prefix <em>hozzáadásával</em>.",
             "load_more": "Továbbiak betöltése",
@@ -620,14 +620,14 @@
             "notifications": "Értesítések",
             "okay": "OK",
             "password": "Jelszó",
-            "posts": "Posztok",
+            "posts": "Hozzászólások",
             "previous_page": "Előző oldal",
             "remove": "Eltávolítás",
             "rename": "Átnevezés",
             "reply": "Válasz",
             "reset_your_password": "Jelszó visszaállítása",
             "restore": "Visszaállítás",
-            "save_changes": "Változások mentése",
+            "save_changes": "Változtatások mentése",
             "settings": "Beállítások",
             "sign_up": "Regisztráció",
             "some_others": "{count} további|{count} további",
