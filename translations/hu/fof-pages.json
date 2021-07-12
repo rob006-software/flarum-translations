@@ -2,46 +2,46 @@
     "fof-pages": {
         "admin": {
             "edit_page": {
-                "content_label": "",
-                "content_placeholder": "",
-                "delete_page_button": "",
-                "delete_page_confirmation": "",
-                "hidden_label": "",
-                "restricted_label": "",
-                "html_label": "",
-                "set_as_home_page_confirmation": "",
-                "set_as_home_page_done": "",
+                "content_label": "Szöveg",
+                "content_placeholder": "Szöveg",
+                "delete_page_button": "Oldal törlése",
+                "delete_page_confirmation": "Tényleg törlöd az oldalt?",
+                "hidden_label": "Mentés vázlatként",
+                "restricted_label": "Hozzáférés korlátozása (állítsd be ki férjen hozzá a Hozzáférések fülben)",
+                "html_label": "HTML engedélyezése",
+                "set_as_home_page_confirmation": "Biztosan be szeretnéd állítani ezt az oldalt főoldalnak?",
+                "set_as_home_page_done": "Főoldal frissítve",
                 "slug_label": "",
                 "slug_placeholder": "",
-                "submit_button": "",
+                "submit_button": "Mentés",
                 "title": "",
-                "title_label": "",
-                "title_placeholder": "",
-                "url_label": "",
-                "url_placeholder": ""
+                "title_label": "Cím",
+                "title_placeholder": "Cím",
+                "url_label": "Url",
+                "url_placeholder": "Url"
             },
             "pages": {
                 "create_button": ""
             },
             "pages_list": {
-                "empty_text": "",
-                "title": ""
+                "empty_text": "Úgy látszik nincs egy oldal sem.",
+                "title": "Cím"
             },
             "permissions": {
-                "restricted": ""
+                "restricted": "Korlátozott oldalak megtekintése"
             },
             "badges": {
-                "hidden": "",
-                "restricted": ""
+                "hidden": "Vázlat",
+                "restricted": "Korlátozott"
             }
         },
         "ref": {
-            "content": "",
-            "create_page": "",
-            "pages": "",
+            "content": "Tartalom",
+            "create_page": "Oldal készítése",
+            "pages": "Oldalak",
             "slug": "",
-            "title": "",
-            "url": ""
+            "title": "Cím",
+            "url": "URL"
         }
     }
 }
