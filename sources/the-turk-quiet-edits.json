@@ -2,12 +2,10 @@
     "the-turk-quiet-edits": {
         "admin": {
             "settings": {
-                "title": "Quiet Edits Settings",
-                "gracePeriod": "Grace period (seconds)",
-                "gracePeriodHelp": "Edits made within the grace period immediately after posting are not considered formal edits.",
-                "onlyUnsigned": "Only <strong>unsigned integers</strong> are allowed!",
-                "ignoreCase": "Ignore case differences",
-                "ignoreWhitespace": "Ignore whitespace differences"
+                "grace_period_label": "Grace period (seconds)",
+                "grace_period_text": "Edits made within the grace period immediately after posting are not considered formal edits.",
+                "ignore_case_differences_label": "Ignore case differences",
+                "ignore_whitespace_differences_label": "Ignore whitespace differences"
             }
         }
     }
