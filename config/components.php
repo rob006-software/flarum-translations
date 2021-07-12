@@ -587,7 +587,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-auth-minecraft/v2.0.0/resources/locale/en.yml',
 	],
 	'nearata-cakeday' => [
-		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-cakeday/v1.3.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-cakeday/v2.0.0/resources/locale/en.yml',
 	],
 	'nearata-copy-code-to-clipboard' => [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-copy-code-to-clipboard/v2.0.0/resources/locale/en.yml',
