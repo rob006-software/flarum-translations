@@ -12,7 +12,7 @@
                 "custom_styles_heading": "Egyéni stílus",
                 "custom_styles_text": "Szabd testre a fórumod kinézetét LESS/CSS kód hozzáadásával, amellyel felülírhatod a Flarum saját stílusát.",
                 "dark_mode_label": "Sötét mód",
-                "description": "",
+                "description": "Fórum színek, logók és más változók beállítása.",
                 "edit_css_button": "Egyéni CSS szerkesztése",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
@@ -21,15 +21,15 @@
                 "favicon_text": "Tölts fel egy képet amelyet faviconként szeretnél használni (a böngésző tab-jában megjelenő oldalcím melletti kis kép).",
                 "logo_heading": "Logo",
                 "logo_text": "Tölts fel egy képet amely a fórumcím helyett fog megjelenni.",
-                "title": "",
+                "title": "Megjelenítés",
                 "submit_button": "=> core.ref.save_changes"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "Alapértelmezett nyelv",
-                "description": "",
-                "display_name_heading": "",
-                "display_name_text": "",
+                "description": "Állítsd be a fórum címét, nyelvét, és más alapbeállításait.",
+                "display_name_heading": "Felhasználó megjelenített neve",
+                "display_name_text": "Válaszd ki, mi legyen használva a felhasználók megjelenítési nevéhez. Alapértelmezés szerint a felhasználónév jelenik meg.",
                 "forum_description_heading": "Fórum leírás",
                 "forum_description_text": "Írj pár mondatot a közösségedről. Ez meg fog jelenni a meta-címkékben és a keresőkben is.",
                 "forum_title_heading": "Fórumcím",
@@ -38,7 +38,7 @@
                 "show_language_selector_label": "Nyelv-választó mutatása",
                 "slug_driver_heading": "",
                 "slug_driver_text": "",
-                "title": "",
+                "title": "Alapok",
                 "welcome_banner_heading": "Üdvözlő banner",
                 "welcome_banner_text": "Szabd testre a szöveget amellyel köszönteni szeretnéd a látogatóidat az 'Összes téma' lapon.",
                 "saved_message": "A változtatásokat elmentettük.",
@@ -46,8 +46,8 @@
             },
             "dashboard": {
                 "clear_cache_button": "Cache törlése",
-                "description": "",
-                "title": "",
+                "description": "A fórum egy pillanat alatt.",
+                "title": "Vezérlőpúlt",
                 "tools_button": "Eszközök"
             },
             "edit_css": {
@@ -64,7 +64,7 @@
                 "color_label": "=> core.ref.color",
                 "delete_button": "Csoport törlése",
                 "delete_confirmation": "Biztosan törölni szeretnéd ezt a csoportot? A csoport tagjai NEM lesznek törölve.",
-                "hide_label": "",
+                "hide_label": "Elrejtés a fórumban",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "name_label": "Név",
@@ -94,10 +94,10 @@
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "Mailgun beállítások",
                 "not_sending_message": "A Flarum jelenleg nem küld ki emaileket. Ennek oka lehet a kiválasztott driver, vagy a rosszul megadott beállítások.",
-                "send_test_mail_button": "",
-                "send_test_mail_heading": "",
-                "send_test_mail_success": "",
-                "send_test_mail_text": "",
+                "send_test_mail_button": "Küldés",
+                "send_test_mail_heading": "Teszt levél küldése",
+                "send_test_mail_success": "A teszt levelet sikeresen elküldtük!",
+                "send_test_mail_text": "Egy levelet küldünk a megadott beállításokkal az e-mail címedre: {email}.",
                 "smtp_heading": "SMTP beállítások",
                 "title": "",
                 "heading": "=> core.ref.email",
@@ -111,27 +111,27 @@
                 "text": "Állítsd be a megfelelő driver-t, a beállításokat és a címeket, hogy a fórumod emaileket tudjon küldeni."
             },
             "extension": {
-                "configure_scopes": "",
-                "confirm_uninstall": "",
-                "disabled": "",
-                "enable_to_see": "",
-                "enabled": "",
+                "configure_scopes": "Célok beállítása",
+                "confirm_uninstall": "A bővítmény eltávolítása törli az összes bővítménnyel kapcsolatos adatbázis bejegyzést és beállítást. Biztos folytatni szeretnéd?",
+                "disabled": "Tiltva",
+                "enable_to_see": "Kapcsold be a bővítményt hogy hozzáférj a beállításaihoz.",
+                "enabled": "Engedélyezve",
                 "info_links": {
                     "discuss": "",
-                    "documentation": "",
-                    "donate": "",
-                    "source": "",
-                    "support": "",
-                    "website": ""
+                    "documentation": "Dokumentáció",
+                    "donate": "Adakozz",
+                    "source": "Forrás",
+                    "support": "Szupport",
+                    "website": "Weboldal"
                 },
-                "no_permissions": "",
-                "no_settings": "",
-                "open_modal": "",
-                "permissions_title": "",
-                "uninstall_button": ""
+                "no_permissions": "Ennek a bővítménynek nincsenek engedély beállításai.",
+                "no_settings": "Ennek a bővítménynek nincsenek beállításai.",
+                "open_modal": "Beállítások megnyitása",
+                "permissions_title": "Engedélyek",
+                "uninstall_button": "Eltávolítás"
             },
             "header": {
-                "get_help": "",
+                "get_help": "Kapj segítséget",
                 "log_out_button": "=> core.ref.log_out"
             },
             "loading": {
@@ -143,15 +143,15 @@
                 "basics_button": "Alapok",
                 "basics_title": "",
                 "categories": {
-                    "authentication": "",
-                    "core": "",
-                    "discussion": "",
-                    "feature": "",
-                    "formatting": "",
-                    "language": "",
-                    "moderation": "",
-                    "other": "",
-                    "theme": ""
+                    "authentication": "Hitelesítés",
+                    "core": "Alapbeállítások",
+                    "discussion": "Beszélgetés",
+                    "feature": "Tulajdonságok",
+                    "formatting": "Formázás",
+                    "language": "Nyelvek",
+                    "moderation": "Moderálás",
+                    "other": "Más bővítmények",
+                    "theme": "Témák"
                 },
                 "dashboard_button": "Irányítópult",
                 "dashboard_title": "",
@@ -161,7 +161,7 @@
                 "permissions_title": "",
                 "userlist_button": "",
                 "userlist_title": "",
-                "search_placeholder": "",
+                "search_placeholder": "Bővítmények keresése",
                 "appearance_text": "Szabd testre a fórumod színeit, logóit, stílusait.",
                 "basics_text": "Itt állíthatod be az alapvető fórum-beállításokat: cím, nyelv, leírás.",
                 "dashboard_text": "A kis Flarum-fórumod.",
@@ -171,18 +171,18 @@
                 "permissions_text": "Állítsd be, hogy ki milyen jogokkal rendelkezzen és ezekkel a jogokkal mit tehessen."
             },
             "permissions": {
-                "allow_post_editing_label": "Posztok szerkesztésének engedélyezése",
+                "allow_post_editing_label": "Hozzászólások szerkesztésének engedélyezése",
                 "allow_renaming_label": "Átnevezés engedélyezése",
                 "create_heading": "Létrehozás",
                 "delete_discussions_forever_label": "Téma végleges törlése",
                 "delete_discussions_label": "Téma törlése",
-                "delete_posts_forever_label": "Poszt végleges törlése",
-                "delete_posts_label": "Posztok törlése",
-                "description": "",
-                "edit_posts_label": "Posztok szerkesztése",
+                "delete_posts_forever_label": "Hozzászólás végleges törlése",
+                "delete_posts_label": "Hozzászólások törlése",
+                "description": "Állítsd be, ki mit láthat és mit csinálhat.",
+                "edit_posts_label": "Hozzászólások szerkesztése",
                 "edit_users_label": "Felhasználók szerkesztése",
-                "edit_users_credentials_label": "",
-                "edit_users_groups_label": "",
+                "edit_users_credentials_label": "Felhasználói adatok szerkesztése",
+                "edit_users_groups_label": "Felhasználó csoportok szerkesztése",
                 "global_heading": "Globális",
                 "moderate_heading": "Moderálás",
                 "new_group_button": "Új csoport",
@@ -191,12 +191,12 @@
                 "read_heading": "Olvasás",
                 "rename_discussions_label": "Téma átnevezése",
                 "reply_to_discussions_label": "Válaszolás egy témához",
-                "search_users_label": "",
+                "search_users_label": "Felhasználó keresése",
                 "sign_up_label": "Regisztráció",
                 "start_discussions_label": "Téma indítása",
-                "title": "",
-                "view_forum_label": "",
-                "view_hidden_groups_label": "",
+                "title": "Engedélyek",
+                "view_forum_label": "Fórum megtekintése (témák és felhasználók)",
+                "view_hidden_groups_label": "Rejtett csoport jelvények megtekintése",
                 "view_last_seen_at_label": "Utolsó látogatás idejének megtekintése",
                 "view_post_ips_label": "IP-címek megtekintése",
                 "view_discussions_label": "Témák megtekintése",
@@ -213,7 +213,7 @@
                 "signup_open_button": "Nyitva"
             },
             "settings": {
-                "saved_message": "",
+                "saved_message": "A módosításokat mentettük.",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
@@ -227,37 +227,37 @@
                         "edit_user": {
                             "button": "",
                             "title": "",
-                            "tooltip": ""
+                            "tooltip": "Szerkeszt {username}"
                         },
                         "email": {
                             "title": "",
-                            "visibility_hide": "",
-                            "visibility_show": ""
+                            "visibility_hide": "E-mail-cím elrejtése",
+                            "visibility_show": "E-mail-cím mutatása"
                         },
                         "group_badges": {
-                            "no_badges": "",
-                            "title": ""
+                            "no_badges": "Nem",
+                            "title": "Csoportok"
                         },
                         "join_time": {
-                            "title": ""
+                            "title": "Csatlakozott"
                         },
                         "user_id": {
-                            "title": ""
+                            "title": "ID"
                         },
                         "username": {
-                            "profile_link_tooltip": "",
+                            "profile_link_tooltip": "Nézd meg  {username} profilját",
                             "title": ""
                         }
                     },
-                    "invalid_column_content": ""
+                    "invalid_column_content": "Érvénytelen"
                 },
                 "pagination": {
-                    "back_button": "",
-                    "next_button": "",
-                    "page_counter": ""
+                    "back_button": "Előző oldal",
+                    "next_button": "Következő oldal",
+                    "page_counter": "{current} / {total}"
                 },
                 "title": "",
-                "total_users": ""
+                "total_users": "Össz felhasználó: {count}"
             },
             "add_extension": {
                 "developer_text": "Ha fejlesztő vagy, bátran olvasd el <a>dokumentációnkat</a> és készítsd el a saját kiegészítődet.",
@@ -293,7 +293,7 @@
                 "preview_tooltip": "Előnézet"
             },
             "composer_discussion": {
-                "body_placeholder": "Téma leírása...",
+                "body_placeholder": "Írj egy hozzászólást...",
                 "discard_confirmation": "Nem hoztad létre a témádat. El szeretnéd vetni az eddig megírtakat?",
                 "submit_button": "Téma elküldése",
                 "title": "=> core.ref.start_a_discussion",
@@ -301,8 +301,8 @@
             },
             "composer_edit": {
                 "discard_confirmation": "Nem mentetted el a változtatásaidat. El szeretnéd vetni a változtatásaidat?",
-                "edited_message": "",
-                "post_link": "#{number} poszt itt: {discussion}",
+                "edited_message": "A szerkesztés megtörtént.",
+                "post_link": "#{number} hozzászólás itt: {discussion}",
                 "submit_button": "=> core.ref.save_changes",
                 "view_button": ""
             },
