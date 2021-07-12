@@ -470,6 +470,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`the-turk-miserable-users`](https://weblate.rob006.net/projects/flarum/the-turk-miserable-users) | [`the-turk/flarum-miserable-users`](https://github.com/the-turk/flarum-miserable-users) |
 | [`the-turk-nodp`](https://weblate.rob006.net/projects/flarum/the-turk-nodp) | [`the-turk/flarum-nodp`](https://github.com/the-turk/flarum-nodp) |
 | [`the-turk-pallet-theme`](https://weblate.rob006.net/projects/flarum/the-turk-pallet-theme) | [`the-turk/flarum-pallet-theme`](https://github.com/the-turk/flarum-pallet-theme) |
+| [`the-turk-quiet-edits`](https://weblate.rob006.net/projects/flarum/the-turk-quiet-edits) | [`the-turk/flarum-quiet-edits`](https://github.com/the-turk/flarum-quiet-edits) |
 | [`the-turk-regrole`](https://weblate.rob006.net/projects/flarum/the-turk-regrole) | [`the-turk/flarum-regrole`](https://github.com/the-turk/flarum-regrole) |
 | [`the-turk-stargazing-theme`](https://weblate.rob006.net/projects/flarum/the-turk-stargazing-theme) | [`the-turk/flarum-stargazing-theme`](https://github.com/the-turk/flarum-stargazing-theme) |
 | [`the-turk-stickiest`](https://weblate.rob006.net/projects/flarum/the-turk-stickiest) | [`the-turk/flarum-stickiest`](https://github.com/the-turk/flarum-stickiest) |
