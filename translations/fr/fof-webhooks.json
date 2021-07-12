@@ -41,14 +41,14 @@
             "errors": {
                 "service_not_found": "Le service « {service} » est introuvable.",
                 "url_invalid": "L'URL n'est pas valide pour le service sélectionné.",
-                "tag_invalid": ""
+                "tag_invalid": "Ce webhook est restreint à une étiquette non valide. La restriction ne s'appliquera pas. Assurez-vous que cette action est volontaire."
             },
             "nav": {
                 "desc": "Des webhooks sortants personnalisables pour votre forum."
             },
             "settings": {
-                "debug_label": "",
-                "debug_help": "",
+                "debug_label": "Débogage",
+                "debug_help": "Ajoute des journaux d'événements supplémentaires au fichier journal de Flarum pour déboguer les problèmes avec les webhooks et/ou les événements qui ne fonctionnent pas correctement.",
                 "item": {
                     "tag_any_label": "N'importe lequel"
                 },
