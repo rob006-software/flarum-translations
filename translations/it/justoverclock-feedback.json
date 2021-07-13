@@ -1,44 +1,44 @@
 {
     "justoverclock-feedback": {
         "admin": {
-            "contactmail": "",
-            "contactdesc": "",
-            "collect-email": "",
-            "collect-email-help": "",
-            "position": "",
-            "position-help": "",
-            "right_label": "",
-            "left_label": "",
-            "background-color": "",
-            "background-color-help": "",
-            "font-color": "",
-            "font-color-help": ""
+            "contactmail": "Email a cui inviare i Feedback",
+            "contactdesc": "Questo campo deve essere compilato per abilitare il widget",
+            "collect-email": "Mostra campo email opzionale agli utenti",
+            "collect-email-help": "Se abilitato, gli utenti possono aggiungere il proprio indirizzo e-mail al feedback",
+            "position": "Posizione Widget",
+            "position-help": "Seleziona la posizione del widget",
+            "right_label": "Destra",
+            "left_label": "Sinistra",
+            "background-color": "Colore di sfondo Widget",
+            "background-color-help": "Fornisci un codice colore esadecimale da utilizzare come colore di sfondo, ad esempio '#fff'",
+            "font-color": "Colore font Widget",
+            "font-color-help": "Fornisci un codice colore esadecimale da utilizzare come colore del carattere, ad esempio '#000'"
         },
         "api": {
-            "validation_error": ""
+            "validation_error": "Non puoi inviare feedback vuoti"
         },
         "forum": {
-            "button-title": "",
+            "button-title": "Feedback",
             "feedback-widget": {
-                "title": "",
-                "placeholder": "",
-                "submit": "",
-                "back": "",
-                "contact-text": "",
-                "type-message": "",
-                "success": "",
-                "failed-title": "",
-                "failed-message": "",
+                "title": "Feedback",
+                "placeholder": "Inserisci qui il tuo feedback",
+                "submit": "Invia",
+                "back": "Indietro",
+                "contact-text": "O invia un email!",
+                "type-message": "Cosa vuoi segnalarci?",
+                "success": "Grazie!👊",
+                "failed-title": "Oops, errore riscontrato",
+                "failed-message": "Per favore riprova. Se continua a succedere, prova a inviare un'email.",
                 "types": {
-                    "general": "",
-                    "idea": "",
-                    "bug": ""
+                    "general": "Feedback Generale",
+                    "idea": "Ho un idea",
+                    "bug": "Report di un Bug"
                 }
             },
             "email": {
-                "guest": "",
-                "subject": "",
-                "body": ""
+                "guest": "un utente anonimo",
+                "subject": "Feedback",
+                "body": "Nuovo Feedback {type} da {user}!\n\n{message}\n\nEmail: {email}\nUrl: {url}\n"
             }
         }
     }
