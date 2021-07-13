@@ -2,24 +2,24 @@
     "amaurycarrade-syndication": {
         "forum": {
             "autodiscovery": {
-                "forum_activity": "",
-                "forum_new_discussions": "",
-                "tag_activity": "",
-                "tag_new_discussions": "",
-                "discussion_last_posts": ""
+                "forum_activity": "Fórum aktivitás",
+                "forum_new_discussions": "Új témák a fórumban",
+                "tag_activity": "Aktivitás a {tag} címkén",
+                "tag_new_discussions": "Beszélgetés a {tag} címkén",
+                "discussion_last_posts": "Ez a beszélgetés"
             },
             "feeds": {
                 "titles": {
-                    "main_title": "",
-                    "main_subtitle": "",
-                    "main_d_title": "",
-                    "main_d_subtitle": "",
-                    "tag_title": "",
-                    "tag_subtitle": "",
-                    "tag_d_title": "",
-                    "tag_d_subtitle": "",
-                    "discussion_title": "",
-                    "discussion_subtitle": ""
+                    "main_title": "{forum_name}",
+                    "main_subtitle": "Utolsó hozzászólás a fórumban",
+                    "main_d_title": "Új beszélgetés itt: {forum_name}",
+                    "main_d_subtitle": "A legújabb beszélgetés a fórumban",
+                    "tag_title": "Aktivitás a {tag} címkén",
+                    "tag_subtitle": "Utolsó hozzászólás a {tag}  címkén",
+                    "tag_d_title": "Új beszélgetés a {tag} címkén",
+                    "tag_d_subtitle": "Legújabb beszélgetés a {tag} címkén",
+                    "discussion_title": "{discussion_name}",
+                    "discussion_subtitle": "Utolsó üzenetek a beszélgetésben"
                 }
             }
         },
@@ -27,15 +27,15 @@
             "settings": {
                 "title": "",
                 "full-text": {
-                    "label": "",
+                    "label": "Teljes szöveg csatorna",
                     "help": "",
                     "recommendation": ""
                 },
                 "html": {
-                    "label": "",
+                    "label": "Formázott feed",
                     "help": ""
                 },
-                "entries-count": ""
+                "entries-count": "Mennyi elem legyen feed-enként?"
             }
         }
     }
