@@ -41,14 +41,14 @@
             "errors": {
                 "service_not_found": "'{service}' hizmeti bulunamıyor.",
                 "url_invalid": "Bağlantı, seçilen servis için geçerli değil.",
-                "tag_invalid": ""
+                "tag_invalid": "Bu web kancası geçersiz bir etiketle sınırlandırılmıştır. Kısıtlama uygulanmayacaktır. Bunun amaçlandığından emin olun."
             },
             "nav": {
                 "desc": "Forumunuz için özelleştirilebilir web kancaları."
             },
             "settings": {
-                "debug_label": "",
-                "debug_help": "",
+                "debug_label": "Hata Gider",
+                "debug_help": "Web kancaları ve/veya düzgün çalışmayan olaylarla ilgili sorunları ayıklamak için Flarum günlük dosyasına fazladan günlükler ekleyin.",
                 "item": {
                     "tag_any_label": "Hiç"
                 },
