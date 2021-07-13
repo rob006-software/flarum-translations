@@ -470,7 +470,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-dontgoaway/0.2.5/resources/locale/en.yml',
 	],
 	'justoverclock-feedback' => [
-		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-feedback/0.1.5/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-feedback/0.1.6/locale/en.yml',
 	],
 	'justoverclock-guestengagement' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-guestengagement/1.0.0/resources/locale/en.yml',
