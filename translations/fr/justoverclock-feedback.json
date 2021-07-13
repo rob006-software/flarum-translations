@@ -2,6 +2,18 @@
     "justoverclock-feedback": {
         "admin": {
             "contactmail": "Adresse de courriel à laquelle envoyer les retours d'expérience",
+            "feedback1-title": "",
+            "feedback1-title-help": "",
+            "feedback1-icon": "",
+            "feedback1-icon-help": "",
+            "feedback2-title": "",
+            "feedback2-title-help": "",
+            "feedback2-icon": "",
+            "feedback2-icon-help": "",
+            "feedback3-title": "",
+            "feedback3-title-help": "",
+            "feedback3-icon": "",
+            "feedback3-icon-help": "",
             "contactdesc": "Ce champ doit être rempli pour activer complètement le widget des retours d'expérience",
             "collect-email": "Afficher le champ de l'adresse de courriel aux utilisateurs (facultatif)",
             "collect-email-help": "Lorsque cette option est activée, les utilisateurs peuvent ajouter leur adresse de courriel aux retours d'expérience",
@@ -12,7 +24,9 @@
             "background-color": "Couleur d'arrière-plan du widget",
             "background-color-help": "Saisissez un code de couleur hexadécimal à utiliser comme couleur d'arrière-plan, tel que '#fff'",
             "font-color": "Couleur de la police du widget",
-            "font-color-help": "Saisissez un code de couleur hexadécimal à utiliser comme couleur de police, tel que '#000'"
+            "font-color-help": "Saisissez un code de couleur hexadécimal à utiliser comme couleur de police, tel que '#000'",
+            "box-title": "",
+            "box-title-help": ""
         },
         "api": {
             "validation_error": "Vous ne pouvez pas envoyer de retour d'expérience vide"
@@ -22,6 +36,7 @@
             "feedback-widget": {
                 "title": "Retour d'expérience de Flarum",
                 "placeholder": "Saisissez ici votre retour d'expérience",
+                "email-placeholder": "",
                 "submit": "Envoyer",
                 "back": "Retour",
                 "contact-text": "Ou envoyez un courriel !",
@@ -29,6 +44,7 @@
                 "success": "Merci ! 👊",
                 "failed-title": "Oups, une erreur est survenue",
                 "failed-message": "Veuillez réessayer. Si le problème persiste, essayez plutôt d'envoyer un courriel.",
+                "email-field-placeholder": "",
                 "types": {
                     "general": "Retour d'expérience général",
                     "idea": "J'ai une idée",

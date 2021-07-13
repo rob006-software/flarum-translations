@@ -2,6 +2,18 @@
     "justoverclock-feedback": {
         "admin": {
             "contactmail": "Email a cui inviare i Feedback",
+            "feedback1-title": "",
+            "feedback1-title-help": "",
+            "feedback1-icon": "",
+            "feedback1-icon-help": "",
+            "feedback2-title": "",
+            "feedback2-title-help": "",
+            "feedback2-icon": "",
+            "feedback2-icon-help": "",
+            "feedback3-title": "",
+            "feedback3-title-help": "",
+            "feedback3-icon": "",
+            "feedback3-icon-help": "",
             "contactdesc": "Questo campo deve essere compilato per abilitare il widget",
             "collect-email": "Mostra campo email opzionale agli utenti",
             "collect-email-help": "Se abilitato, gli utenti possono aggiungere il proprio indirizzo e-mail al feedback",
@@ -12,7 +24,9 @@
             "background-color": "Colore di sfondo Widget",
             "background-color-help": "Fornisci un codice colore esadecimale da utilizzare come colore di sfondo, ad esempio '#fff'",
             "font-color": "Colore font Widget",
-            "font-color-help": "Fornisci un codice colore esadecimale da utilizzare come colore del carattere, ad esempio '#000'"
+            "font-color-help": "Fornisci un codice colore esadecimale da utilizzare come colore del carattere, ad esempio '#000'",
+            "box-title": "",
+            "box-title-help": ""
         },
         "api": {
             "validation_error": "Non puoi inviare feedback vuoti"
@@ -22,6 +36,7 @@
             "feedback-widget": {
                 "title": "Feedback",
                 "placeholder": "Inserisci qui il tuo feedback",
+                "email-placeholder": "",
                 "submit": "Invia",
                 "back": "Indietro",
                 "contact-text": "O invia un email!",
@@ -29,6 +44,7 @@
                 "success": "Grazie!👊",
                 "failed-title": "Oops, errore riscontrato",
                 "failed-message": "Per favore riprova. Se continua a succedere, prova a inviare un'email.",
+                "email-field-placeholder": "",
                 "types": {
                     "general": "Feedback Generale",
                     "idea": "Ho un idea",
