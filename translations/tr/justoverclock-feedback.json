@@ -3,17 +3,17 @@
         "admin": {
             "contactmail": "Geri bildirimin gönderileceği e-posta adresi",
             "feedback1-title": "Geribildirim türü 1",
-            "feedback1-title-help": "",
-            "feedback1-icon": "",
-            "feedback1-icon-help": "",
-            "feedback2-title": "",
-            "feedback2-title-help": "",
-            "feedback2-icon": "",
-            "feedback2-icon-help": "",
-            "feedback3-title": "",
-            "feedback3-title-help": "",
-            "feedback3-icon": "",
-            "feedback3-icon-help": "",
+            "feedback1-title-help": "\"Geribildirim türünüzün\" adını özelleştirin",
+            "feedback1-icon": "Geribildirim türü 1 için simge",
+            "feedback1-icon-help": "\"⚠, ☎, ✎\" gibi bir simge ekleyin - Daha fazla simge için https://coolsymbol.com/",
+            "feedback2-title": "Geribildirim türü 2",
+            "feedback2-title-help": "\"Geribildirim türünüzün\" adını özelleştirin",
+            "feedback2-icon": "Geribildirim türü 2 için simge",
+            "feedback2-icon-help": "\"⚠, ☎, ✎\" gibi bir simge ekleyin - Daha fazla simge için https://coolsymbol.com/",
+            "feedback3-title": "Geribildirim türü 3",
+            "feedback3-title-help": "\"Geribildirim türünüzün\" adını özelleştirin",
+            "feedback3-icon": "Geribildirim türü 3 için simge",
+            "feedback3-icon-help": "\"⚠, ☎, ✎\" gibi bir simge ekleyin - Daha fazla simge için https://coolsymbol.com/",
             "contactdesc": "Geri bildirim aracını tam olarak etkinleştirmek için bu doldurulmalıdır",
             "collect-email": "Kullanıcılara (isteğe bağlı) e-posta adresi alanını göster",
             "collect-email-help": "Etkinleştirildiğinde, kullanıcılar e-posta adreslerini geri bildirime ekleyebilir",
@@ -25,8 +25,8 @@
             "background-color-help": "Arka plan rengi olarak kullanılacak bir hex kodu girin, örn. '#fff'",
             "font-color": "Araç yazı rengi",
             "font-color-help": "Yazı tipi rengi olarak kullanılacak bir hex kodu girin, örn. '#000'",
-            "box-title": "",
-            "box-title-help": ""
+            "box-title": "Kutu Başlığı",
+            "box-title-help": "Açılır geri bildirim aracının başlığını ayarlayın (eskiden \"Flarum Geribildirim\" idi)"
         },
         "api": {
             "validation_error": "Boş geribildirimde bulunamazsınız"
@@ -36,7 +36,7 @@
             "feedback-widget": {
                 "title": "Flarum Geribildirim",
                 "placeholder": "Geribildiriminizi buraya giriniz",
-                "email-placeholder": "",
+                "email-placeholder": "E-Posta (isteğe bağlı)",
                 "submit": "Gönder",
                 "back": "Geri",
                 "contact-text": "Veya bir e-posta gönderin!",
@@ -44,7 +44,7 @@
                 "success": "Teşekkürler!👊",
                 "failed-title": "Oops, bir hata meydana geldi",
                 "failed-message": "Lütfen daha sonra tekrar deneyin. Eğer devam ederse, bizimle e-posta ile iletişime geçin.",
-                "email-field-placeholder": "",
+                "email-field-placeholder": "E-Posta (isteğe bağlı)",
                 "types": {
                     "general": "Genel geribildirim",
                     "idea": "Bir fikrim var",
