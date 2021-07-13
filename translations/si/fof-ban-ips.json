@@ -13,21 +13,21 @@
             },
             "user_controls": {
                 "ban_button": "=> fof-ban-ips.ref.ban_label",
-                "unban_button": ""
+                "unban_button": "=> fof-ban-ips.ref.unban_label"
             }
         },
         "admin": {
             "permissions": {
-                "ban_ip_label": "",
+                "ban_ip_label": "=> fof-ban-ips.ref.ban_ip_addresses",
                 "view_banned_ip_list_label": ""
             },
             "page": {
-                "create_button": "",
+                "create_button": "=> fof-ban-ips.ref.ban_ip_button",
                 "creator_label": "",
-                "user_label": "",
-                "address_label": "",
-                "reason_label": "",
-                "date_label": ""
+                "user_label": "පරිශීලක",
+                "address_label": "=> fof-ban-ips.ref.address_label",
+                "reason_label": "=> fof-ban-ips.ref.reason_label",
+                "date_label": "දිනය"
             },
             "modal": {
                 "update_title": "",
@@ -41,12 +41,12 @@
         },
         "lib": {
             "modal": {
-                "title": "",
-                "unban_title": "",
-                "address_label": "",
-                "reason_label": "",
+                "title": "=> fof-ban-ips.ref.ban_ip_addresses",
+                "unban_title": "=> fof-ban-ips.ref.unban_ip_addresses",
+                "address_label": "=> fof-ban-ips.ref.address_label",
+                "reason_label": "=> fof-ban-ips.ref.reason_label",
                 "check_button": "",
-                "save_button": "",
+                "save_button": "සුරකින්න",
                 "ban_ip_confirmation": "",
                 "ban_ip_users": "",
                 "unban_ip_confirmation": "",
