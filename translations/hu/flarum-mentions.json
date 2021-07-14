@@ -3,7 +3,7 @@
         "admin": {
             "settings": {
                 "allow_username_format_label": "A felhasználó megemlítésének engedélyezése (@Felhasználó)",
-                "allow_username_format_text": ""
+                "allow_username_format_text": "A jelenlegi formátuma a felhasználó megemlítésének: @\"Megjelenítendő név\"#ID.\nEz a beállítás megengedi a régi formátumot (@Felhasználónév) de mentéskor az új formátum lesz használva.\n"
             }
         },
         "forum": {
@@ -38,11 +38,11 @@
         "email": {
             "post_mentioned": {
                 "subject": "{replier_display_name} válaszolt a hozzászólásodra itt: {title}",
-                "body": ""
+                "body": "Helló, {recipient_display_name}!\n\n{replier_display_name} válaszolt a hozzászólásodra (#{post_number}) itt: {title}\n\n{url}\n\n---\n\n{content}\n"
             },
             "user_mentioned": {
                 "subject": "{mentioner_display_name} megemlített téged itt: {title}",
-                "body": ""
+                "body": "Helló {recipient_display_name}!\n\n{mentioner_display_name} megemlített ttéged egy hozzászólásban itt: {title}.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }
