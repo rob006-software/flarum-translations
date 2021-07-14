@@ -2,22 +2,22 @@
     "fof-split": {
         "admin": {
             "permissions": {
-                "split_discussion_label": ""
+                "split_discussion_label": "Hozzászólás leválasztása a beszélgetésről"
             }
         },
         "forum": {
             "post": {
-                "was_split_to": "",
-                "was_split_from": ""
+                "was_split_to": "{count} hozzászólás leválasztásra került ettől: {target}",
+                "was_split_from": "{count} hozzászólás leválasztásra került ettől: {target}"
             },
             "split": {
-                "from": "",
-                "to": ""
+                "from": "Leválasztás innen",
+                "to": "Leválasztás ide"
             },
             "modal": {
-                "title": "",
-                "new_discussion_label": "",
-                "submit_button": ""
+                "title": "Beszélgetés szétválasztása",
+                "new_discussion_label": "Add meg az új beszélgetés címét",
+                "submit_button": "Szétválasztás"
             }
         }
     }
