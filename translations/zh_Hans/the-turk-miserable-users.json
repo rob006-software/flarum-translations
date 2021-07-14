@@ -19,29 +19,29 @@
                 "redirection_page_url_text": "你可以把制裁的用户重定向到不是他想要访问的页面，留空则默认跳转到论坛首页。",
                 "log_out_chance_label": "飞机票",
                 "log_out_chance_text": "百分比概率让用户退出登录并跳转到首页。<b>注意！</b>本扩展程序的所有功能只能制裁登录的用户。",
-                "shuffle_post_chance_label": "",
-                "shuffle_post_chance_text": ""
+                "shuffle_post_chance_label": "胡言乱语",
+                "shuffle_post_chance_text": "以百分比概率打乱用户的帖子内容。此功能暂时只支持英文内容，UTF-8 字符会报错。"
             }
         },
         "forum": {
             "user_badge": {
-                "miserable_user_tooltip": ""
+                "miserable_user_tooltip": "=> the-turk-miserable-users.ref.miserable_user"
             },
             "user_controls": {
-                "miserable_user_button": ""
+                "miserable_user_button": "=> the-turk-miserable-users.ref.miserable_user"
             },
             "miserable_user": {
-                "title": "",
-                "status_heading": "",
-                "not_miserable_label": "",
-                "indefinitely_label": "",
-                "limited_time_label": "",
-                "limited_time_days_text": "",
-                "submit_button": ""
+                "title": "制裁 {username}",
+                "status_heading": "制裁状态",
+                "not_miserable_label": "不制裁",
+                "indefinitely_label": "永久制裁",
+                "limited_time_label": "自定义时长",
+                "limited_time_days_text": " 天",
+                "submit_button": "=> core.ref.save_changes"
             }
         },
         "ref": {
-            "miserable_user": ""
+            "miserable_user": "制裁"
         }
     }
 }
