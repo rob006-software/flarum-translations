@@ -146,15 +146,15 @@
                         },
                         "self": {
                             "leaved": "{username} සංවාදය හැරගියා",
-                            "entered": "{username} සංවාදයට ඇතුළු විය"
+                            "entered": "{username} සංවාදයට ඇතුල් විය"
                         }
                     }
                 }
             },
             "errors": {
-                "unauthenticated": "",
-                "chatdenied": "",
-                "removed": ""
+                "unauthenticated": "සංවාදය භාවිතා කළ හැකි වන්නේ ලියාපදිංචි වූ පරිශීලකයින්ට පමණි",
+                "chatdenied": "ඔබගේ පරිශීලක සමූහයට පණිවිඩ ලිවීමට ඉඩ දී නැත",
+                "removed": "ඔබව සංවාදයෙන් ඉවත් කර ඇත"
             }
         },
         "admin": {
@@ -174,7 +174,7 @@
             },
             "settings": {
                 "title": "සංවාදයේ සැකසුම්",
-                "charlimit": "",
+                "charlimit": "පණිවිඩයේ උපරිම අකුරු",
                 "floodgate": {
                     "title": "",
                     "number": "පේළියක ඇති පණිවිඩ ගණන",
