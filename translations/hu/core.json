@@ -6,26 +6,26 @@
                 "colors_heading": "Színek",
                 "colors_text": "Válassz két színt a fórumodhoz. Az első szín kiemeléseknél lesz használatban, míg a második a háttérelemek színét fogja megadni.",
                 "custom_footer_heading": "Egyéni lábléc",
-                "custom_footer_text": "=> core.ref.custom_footer_text",
+                "custom_footer_text": "Tetszőleges lábléc szöveg",
                 "custom_header_heading": "Egyéni fejléc",
-                "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_header_text": "Tetszőleges fejléc szöveg",
                 "custom_styles_heading": "Egyéni stílusok",
                 "custom_styles_text": "Szabd testre a fórumod kinézetét LESS/CSS kód hozzáadásával, amellyel felülírhatod a Flarum saját stílusát.",
                 "dark_mode_label": "Sötét mód",
                 "description": "Fórum színek, logók és más változók beállítása.",
                 "edit_css_button": "Egyéni CSS szerkesztése",
-                "edit_footer_button": "=> core.ref.custom_footer_title",
-                "edit_header_button": "=> core.ref.custom_header_title",
+                "edit_footer_button": "Tetszőleges lábléc cím",
+                "edit_header_button": "Tetszőleges fejléc cím",
                 "enter_hex_message": "Kérlek adj meg egy hexadecimális színkódot.",
                 "favicon_heading": "Favikon",
-                "favicon_text": "Tölts fel egy képet amelyet faviconként szeretnél használni (a böngésző tab-jában megjelenő oldalcím melletti kis kép).",
+                "favicon_text": "Tölts fel egy képet amelyet favikonként szeretnél használni (a böngésző tab-jában megjelenő oldalcím melletti kis kép).",
                 "logo_heading": "Logó",
                 "logo_text": "Tölts fel egy képet amely a fórumcím helyett fog megjelenni.",
                 "title": "Megjelenítés",
                 "submit_button": "=> core.ref.save_changes"
             },
             "basics": {
-                "all_discussions_label": "=> core.ref.all_discussions",
+                "all_discussions_label": "Összes téma",
                 "default_language_heading": "Alapértelmezett nyelv",
                 "description": "Állítsd be a fórum címét, nyelvét, és más alapbeállításait.",
                 "display_name_heading": "Felhasználó megjelenített neve",
@@ -36,7 +36,7 @@
                 "home_page_heading": "Kezdőlap",
                 "home_page_text": "Válaszd ki az oldalt amelyet a látogatóid először látni fognak, amikor meglátogatják a fórumodat.",
                 "show_language_selector_label": "Nyelv-választó mutatása",
-                "slug_driver_heading": "",
+                "slug_driver_heading": "Slug meghajtó: {model}",
                 "slug_driver_text": "",
                 "title": "Alapok",
                 "welcome_banner_heading": "Üdvözlő banner",
@@ -46,36 +46,36 @@
             },
             "dashboard": {
                 "clear_cache_button": "Cache törlése",
-                "description": "A fórum egy pillanat alatt.",
+                "description": "Fórum összefoglaló.",
                 "title": "Vezérlőpult",
                 "tools_button": "Eszközök"
             },
             "edit_css": {
                 "customize_text": "Szabd testre a fórumod kinézetét LESS/CSS kód hozzáadásával, amellyel felülírhatod a Flarum <a>saját, alapértelmezett stílusát</a>.",
-                "submit_button": "=> core.ref.save_changes",
+                "submit_button": "Módosítások mentése",
                 "title": "Egyéni CSS szerkesztése"
             },
             "edit_footer": {
-                "customize_text": "=> core.ref.custom_footer_text",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "=> core.ref.custom_footer_title"
+                "customize_text": "Egyedi lábléc szöveg",
+                "submit_button": "Változtatások mentése",
+                "title": "Egyedi lábléc cím"
             },
             "edit_group": {
-                "color_label": "=> core.ref.color",
+                "color_label": "Szín",
                 "delete_button": "Csoport törlése",
                 "delete_confirmation": "Biztosan törölni szeretnéd ezt a csoportot? A csoport tagjai NEM lesznek törölve.",
                 "hide_label": "Elrejtés a fórumban",
-                "icon_label": "=> core.ref.icon",
-                "icon_text": "=> core.ref.icon_text",
+                "icon_label": "Ikon",
+                "icon_text": "Ikon leírás",
                 "name_label": "Név",
                 "plural_placeholder": "Többesszám (pl.\":\" Moderátorok)",
                 "singular_placeholder": "Egyesszám (pl.\":\" Moderátor)",
-                "submit_button": "=> core.ref.save_changes",
+                "submit_button": "Módosítások mentése",
                 "title": "Csoport létrehozása"
             },
             "edit_header": {
-                "customize_text": "=> core.ref.custom_header_text",
-                "submit_button": "=> core.ref.save_changes",
+                "customize_text": "Egyedi fejléc szöveg",
+                "submit_button": "Módosítások mentése",
                 "title": "=> core.ref.custom_header_title"
             },
             "email": {
@@ -497,22 +497,22 @@
                 "toggle_dropdown_accessible_label": ""
             },
             "edit_user": {
-                "activate_button": "",
+                "activate_button": "Felhasználó aktiválása",
                 "email_heading": "",
                 "email_label": "",
-                "groups_heading": "",
+                "groups_heading": "Csoportok",
                 "password_heading": "",
                 "password_label": "",
-                "set_password_label": "",
+                "set_password_label": "Új jelszó adása",
                 "submit_button": "",
                 "title": "",
                 "username_heading": "",
                 "username_label": ""
             },
             "error": {
-                "dependent_extensions_message": "",
+                "dependent_extensions_message": "Nem kapcsolhatod ki a(z) {extension} amíg aktív ez a bővítmény: {extension}",
                 "generic_message": "Hoppá! Valami hiba történt. Kérlek, frissítsd az oldalt és próbáld meg még egyszer.",
-                "missing_dependencies_message": "",
+                "missing_dependencies_message": "Nem kapcsolhatod ki a(z) {extension}  amíg ez a bővítmény be van kapcsolva: {extension}",
                 "not_found_message": "A kért erőforrás nem található.",
                 "permission_denied_message": "Nem rendelkezel megfelelő jogokkal ehhez.",
                 "rate_limit_exceeded_message": "Hűű, picit túl gyors vagy! Próbáld meg picit később."
@@ -565,7 +565,7 @@
             },
             "reset_password": {
                 "confirm_password_label": "=> core.ref.confirm_password",
-                "new_password_label": "",
+                "new_password_label": "Új jelszó",
                 "submit_button": "Jelszó visszaállítása",
                 "title": "=> core.ref.reset_your_password",
                 "password_label": "=> core.ref.password"
@@ -588,8 +588,8 @@
                 "body": "Helló, {username}!\n\nValaki (remélhetőleg Te!) jelszó-visszaállítást kezdeményezett ezzel a felhasználói fiókkal a fórumunkon ({forum}).\n\nHa Te voltál az, akkor csak kattints az alábbi linkre és visszaállítjuk a jelszavadat:\n{url}\n\nHa mégsem szeretnéd a jelszavadat megváltoztatni, akkor csak hagyd figyelmen kívül ezt a levelet.\n"
             },
             "send_test": {
-                "subject": "",
-                "body": ""
+                "subject": "Flarum teszt e-mail",
+                "body": "Heló {username}!\n\nEz egy teszt e-mail, hogy bebizonyosodj működnek az e-mail beállítások.\n\nHa te küldted, akkor az e-mail működik!\n\nHa nem te küldted, hagyd figyelmen kívül ezt a levelet.\n"
             }
         },
         "ref": {
@@ -607,12 +607,12 @@
             "delete_forever": "Végleges törlés",
             "discussions": "Témák",
             "edit": "Szerkesztés",
-            "edit_user": "",
+            "edit_user": "Felhasználó szerkesztése",
             "email": "E-mail",
             "icon": "Ikon",
             "icon_text": "Adj meg egy nevet bármely <a>FontAwesome</a> ikon-osztályból a <code>fas fa-</code> prefix <em>hozzáadásával</em>.",
             "load_more": "Továbbiak betöltése",
-            "loading": "",
+            "loading": "Betöltés...",
             "log_in": "Bejelentkezés",
             "log_out": "Kijelentkezés",
             "mark_all_as_read": "Összes megjelölése olvasottként",
@@ -634,7 +634,7 @@
             "start_a_discussion": "Új téma indítása",
             "username": "Felhasználónév",
             "users": "Felhasználók",
-            "view": "",
+            "view": "Megtekintés",
             "write_a_reply": "Válasz írása...",
             "you": "Te"
         },
