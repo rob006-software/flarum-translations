@@ -2,24 +2,24 @@
     "extiverse-mercury": {
         "admin": {
             "extension-updates-page": {
-                "extension-name": "",
-                "extension-is-up-to-date": "",
-                "highest-version": "",
-                "installed-version": ""
+                "extension-name": "Estensione",
+                "extension-is-up-to-date": "Aggiornata",
+                "highest-version": "Ultima release",
+                "installed-version": "Versione installata"
             },
             "settings": {
-                "token": "",
-                "token-description": ""
+                "token": "Token di Extiverse (<a>richiedilo</a>)",
+                "token-description": "Recupera un token API da <a>Extiverse</a> in modo che Mercury possa comunicare in modo sicuro con la tua community Flarum.\n"
             },
             "header-secondary": {
-                "no-token": "",
-                "updates": ""
+                "no-token": "Token Richiesto",
+                "updates": "{count, plural, =0 {Nessun Aggiornamento} one {One update} other {# aggiornamenti}}"
             }
         },
         "email": {
             "new-extension-update": {
-                "subject": "",
-                "body": ""
+                "subject": "{count, plural, one {Un aggiornamento disponibile per la tua community} other {# aggiornamenti disponibili per la tua community}}",
+                "body": "Hey {recipient_display_name}!\n\n{count} aggiornamenti sono da eseguire nella tua community. Si consiglia vivamente di\naggiornare il prima possibile.\n\nGli aggiornamenti includono le seguenti estensioni {extensions}.\n\nVisita la tua community per ulteriori informazioni: {url}.\n"
             }
         }
     }
