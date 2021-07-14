@@ -2,27 +2,27 @@
     "ffans-clipboardjs": {
         "admin": {
             "settings": {
-                "codeLang_label": "",
-                "copy_enable_label": "",
-                "themes_label": "",
+                "codeLang_label": "Nyelv kód mutatása",
+                "copy_enable_label": "Kód másolás bekapcsolása",
+                "themes_label": "A Másolás gomb stílusa",
                 "themes": {
-                    "cnblog": "",
-                    "csdn": "",
-                    "default": "",
-                    "github": "",
-                    "jianshu": "",
-                    "lingcoder": "",
-                    "segmentfault": ""
+                    "cnblog": "cnBlogs",
+                    "csdn": "CSDN",
+                    "default": "Alapértelmezett Clipboardjs",
+                    "github": "GitHub",
+                    "jianshu": "Jian Shu",
+                    "lingcoder": "LingCoder",
+                    "segmentfault": "SegmentFault"
                 }
             }
         },
         "forum": {
-            "action_copy": "",
-            "action_cut": "",
-            "ok_btn": "",
-            "error_btn": "",
-            "no_support": "",
-            "msg": ""
+            "action_copy": "Másolás",
+            "action_cut": "Kivágás",
+            "ok_btn": "Másolva",
+            "error_btn": "Hiba",
+            "no_support": "Nem támogatott",
+            "msg": "Nyomd meg a(z) {actionKey} hogy {action}"
         }
     }
 }
