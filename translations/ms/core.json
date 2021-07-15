@@ -342,21 +342,21 @@
             "log_in": {
                 "forgot_password_link": "",
                 "invalid_login_message": "",
-                "password_placeholder": "",
+                "password_placeholder": "=> core.ref.password",
                 "remember_me_label": "",
                 "sign_up_text": "",
-                "submit_button": "",
-                "title": "",
+                "submit_button": "=> core.ref.log_in",
+                "title": "=> core.ref.log_in",
                 "username_or_email_placeholder": ""
             },
             "notifications": {
                 "discussion_renamed_text": "",
                 "empty_text": "",
-                "mark_all_as_read_tooltip": "",
+                "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "mark_as_read_tooltip": "",
-                "title": "",
+                "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "",
-                "tooltip": ""
+                "tooltip": "=> core.ref.notifications"
             },
             "post": {
                 "edited_text": "",
@@ -364,12 +364,12 @@
                 "number_tooltip": ""
             },
             "post_controls": {
-                "delete_button": "",
+                "delete_button": "=> core.ref.delete",
                 "delete_confirmation": "",
-                "delete_forever_button": "",
-                "edit_button": "",
+                "delete_forever_button": "=> core.ref.delete_forever",
+                "edit_button": "=> core.ref.edit",
                 "hide_confirmation": "",
-                "restore_button": "",
+                "restore_button": "=> core.ref.restore",
                 "toggle_dropdown_accessible_label": ""
             },
             "post_scrubber": {
@@ -381,65 +381,65 @@
             "post_stream": {
                 "discussion_renamed_old_tooltip": "",
                 "discussion_renamed_text": "",
-                "load_more_button": "",
-                "reply_placeholder": "",
+                "load_more_button": "=> core.ref.load_more",
+                "reply_placeholder": "=> core.ref.write_a_reply",
                 "time_lapsed_text": ""
             },
             "rename_discussion": {
-                "submit_button": "",
+                "submit_button": "=> core.ref.rename",
                 "title": ""
             },
             "search": {
                 "all_discussions_button": "",
-                "discussions_heading": "",
-                "users_heading": ""
+                "discussions_heading": "=> core.ref.discussions",
+                "users_heading": "=> core.ref.users"
             },
             "settings": {
                 "account_heading": "",
-                "change_email_button": "",
-                "change_password_button": "",
-                "notifications_heading": "",
-                "notify_by_email_heading": "",
+                "change_email_button": "=> core.ref.change_email",
+                "change_password_button": "=> core.ref.change_password",
+                "notifications_heading": "=> core.ref.notifications",
+                "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "",
                 "notify_discussion_renamed_label": "",
                 "privacy_disclose_online_label": "",
                 "privacy_heading": "",
-                "title": ""
+                "title": "=> core.ref.settings"
             },
             "sign_up": {
-                "dismiss_button": "",
-                "email_placeholder": "",
+                "dismiss_button": "=> core.ref.okay",
+                "email_placeholder": "=> core.ref.email",
                 "log_in_text": "",
-                "password_placeholder": "",
-                "submit_button": "",
-                "title": "",
-                "username_placeholder": "",
+                "password_placeholder": "=> core.ref.password",
+                "submit_button": "=> core.ref.sign_up",
+                "title": "=> core.ref.sign_up",
+                "username_placeholder": "=> core.ref.username",
                 "welcome_text": ""
             },
             "user": {
-                "avatar_remove_button": "",
+                "avatar_remove_button": "=> core.ref.remove",
                 "avatar_upload_button": "",
                 "avatar_upload_tooltip": "",
-                "discussions_link": "",
+                "discussions_link": "=> core.ref.discussions",
                 "in_discussion_text": "",
                 "joined_date_text": "",
                 "online_text": "",
                 "posts_empty_text": "",
-                "posts_link": "",
-                "posts_load_more_button": "",
-                "settings_link": ""
+                "posts_link": "=> core.ref.posts",
+                "posts_load_more_button": "=> core.ref.load_more",
+                "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
                 "button": "",
-                "delete_button": "",
+                "delete_button": "=> core.ref.delete",
                 "delete_confirmation": "",
                 "delete_error_message": "",
                 "delete_success_message": "",
-                "edit_button": "",
+                "edit_button": "=> core.ref.edit",
                 "toggle_dropdown_accessible_label": ""
             },
             "user_email_confirmation": {
-                "alert_message": "",
+                "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "",
                 "sent_message": ""
             }
@@ -453,16 +453,16 @@
             },
             "edit_user": {
                 "activate_button": "",
-                "email_heading": "",
-                "email_label": "",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
                 "groups_heading": "",
-                "password_heading": "",
-                "password_label": "",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
                 "set_password_label": "",
-                "submit_button": "",
-                "title": "",
-                "username_heading": "",
-                "username_label": ""
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.edit_user",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username"
             },
             "error": {
                 "dependent_extensions_message": "",
@@ -473,7 +473,7 @@
                 "rate_limit_exceeded_message": ""
             },
             "loading_indicator": {
-                "accessible_label": ""
+                "accessible_label": "=> core.ref.loading"
             },
             "number_suffix": {
                 "kilo_text": "",
@@ -492,11 +492,11 @@
             "content": {
                 "javascript_disabled_message": "",
                 "load_error_message": "",
-                "loading_text": ""
+                "loading_text": "=> core.ref.loading"
             },
             "discussion": {
-                "next_page_button": "",
-                "previous_page_button": ""
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
             },
             "error": {
                 "csrf_token_mismatch": "",
@@ -509,9 +509,9 @@
                 "unknown": ""
             },
             "index": {
-                "all_discussions_heading": "",
-                "next_page_button": "",
-                "previous_page_button": ""
+                "all_discussions_heading": "=> core.ref.all_discussions",
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
             },
             "log_out": {
                 "log_out_button": "",
@@ -538,7 +538,7 @@
                 "body": ""
             },
             "reset_password": {
-                "subject": "",
+                "subject": "=> core.ref.reset_your_password",
                 "body": ""
             },
             "send_test": {
