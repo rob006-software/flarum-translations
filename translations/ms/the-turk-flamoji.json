@@ -48,7 +48,7 @@
                     "delete_emoji_confirmation": "",
                     "text_to_replace_label": "",
                     "path_or_url_label": "",
-                    "submit_button": "",
+                    "submit_button": "=> core.ref.save_changes",
                     "delete_emoji_button": "",
                     "saved_message": "=> core.admin.settings.saved_message"
                 },
@@ -65,17 +65,17 @@
                 "search_placeholder": "",
                 "no_emojis_found_message": "",
                 "categories": {
-                    "recents": "",
-                    "smileys": "",
-                    "people": "",
-                    "animals": "",
+                    "recents": "=> the-turk-flamoji.ref.emoji_categories.recents",
+                    "smileys": "=> the-turk-flamoji.ref.emoji_categories.smileys",
+                    "people": "=> the-turk-flamoji.ref.emoji_categories.people",
+                    "animals": "=> the-turk-flamoji.ref.emoji_categories.animals",
                     "food": "=> the-turk-flamoji.ref.emoji_categories.food",
-                    "travel": "",
-                    "activities": "",
-                    "objects": "",
-                    "symbols": "",
-                    "flags": "",
-                    "custom": ""
+                    "travel": "=> the-turk-flamoji.ref.emoji_categories.travel",
+                    "activities": "=> the-turk-flamoji.ref.emoji_categories.activities",
+                    "objects": "=> the-turk-flamoji.ref.emoji_categories.objects",
+                    "symbols": "=> the-turk-flamoji.ref.emoji_categories.symbols",
+                    "flags": "=> the-turk-flamoji.ref.emoji_categories.flags",
+                    "custom": "=> the-turk-flamoji.ref.emoji_categories.custom"
                 }
             }
         },
