@@ -1,4 +1,4 @@
-# Chinese translation status 
+# Chinese (Simplified) translation status 
 
 
 ## Flarum core

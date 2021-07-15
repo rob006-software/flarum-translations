@@ -1,4 +1,4 @@
-# Portuguese translation status 
+# Portuguese (Brazil) translation status 
 
 
 ## Flarum core
