@@ -415,6 +415,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ianm-synopsis`](https://weblate.rob006.net/projects/flarum/ianm-synopsis) | [`ianm/synopsis`](https://github.com/imorland/synopsis) |
 | [`itnt-uitab`](https://weblate.rob006.net/projects/flarum/itnt-uitab) | [`itnt/flarum-uitab`](https://github.com/Littlegolden/flarum-uitab) |
 | [`jslirola-login2seeplus`](https://weblate.rob006.net/projects/flarum/jslirola-login2seeplus) | [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus) |
+| [`justoverclock-custom-header`](https://weblate.rob006.net/projects/flarum/justoverclock-custom-header) | [`justoverclock/custom-header`](https://github.com/justoverclockl/custom-header) |
 | [`justoverclock-first-visit-indexpage`](https://weblate.rob006.net/projects/flarum/justoverclock-first-visit-indexpage) | [`justoverclock/first-visit-indexpage`](https://github.com/justoverclockl/first-visit-indexpage) |
 | [`justoverclock-contactme`](https://weblate.rob006.net/projects/flarum/justoverclock-contactme) | [`justoverclock/flarum-ext-contactme`](https://github.com/justoverclockl/flarum-ext-contactme) |
 | [`justoverclock-dontgoaway`](https://weblate.rob006.net/projects/flarum/justoverclock-dontgoaway) | [`justoverclock/flarum-ext-dontgoaway`](https://github.com/justoverclockl/flarum-ext-dontgoaway) |
