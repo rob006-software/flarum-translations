@@ -15,7 +15,7 @@
                 "name_label": "=> flarum-tags.ref.name",
                 "name_placeholder": "=> flarum-tags.ref.name",
                 "slug_label": "",
-                "submit_button": "",
+                "submit_button": "=> core.ref.save_changes",
                 "title": ""
             },
             "nav": {
@@ -48,13 +48,13 @@
         "forum": {
             "all_tags": {
                 "meta_description_text": "",
-                "meta_title_text": ""
+                "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
                 "choose_primary_placeholder": "",
                 "choose_secondary_placeholder": "",
                 "edit_title": "",
-                "submit_button": "",
+                "submit_button": "=> core.ref.okay",
                 "title": ""
             },
             "composer_discussion": {
@@ -68,7 +68,7 @@
             },
             "index": {
                 "more_link": "",
-                "tags_link": "",
+                "tags_link": "=> flarum-tags.ref.tags",
                 "untagged_link": ""
             },
             "post_stream": {
