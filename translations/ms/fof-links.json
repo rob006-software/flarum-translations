@@ -9,19 +9,19 @@
                 "internal_link": "",
                 "members-label": "",
                 "open_newtab": "",
-                "submit_button": "",
-                "title": "",
-                "title_label": "",
-                "title_placeholder": "",
-                "icon_label": "",
-                "icon_text": "",
-                "url_label": "",
-                "url_placeholder": "",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> fof-links.ref.create_link",
+                "title_label": "=> fof-links.ref.title",
+                "title_placeholder": "=> fof-links.ref.title",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "url_label": "=> fof-links.ref.url",
+                "url_placeholder": "=> fof-links.ref.url",
                 "visibility": ""
             },
             "links": {
-                "create_button": "",
-                "links": ""
+                "create_button": "=> fof-links.ref.create_link",
+                "links": "=> fof-links.ref.links"
             }
         },
         "ref": {
