@@ -2,11 +2,11 @@
     "flarum-subscriptions": {
         "forum": {
             "badge": {
-                "following_tooltip": "",
-                "ignoring_tooltip": ""
+                "following_tooltip": "=> flarum-subscriptions.ref.following",
+                "ignoring_tooltip": "=> flarum-subscriptions.ref.ignoring"
             },
             "discussion_controls": {
-                "follow_button": "",
+                "follow_button": "=> flarum-subscriptions.ref.follow",
                 "unfollow_button": "",
                 "unignore_button": ""
             },
