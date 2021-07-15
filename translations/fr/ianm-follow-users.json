@@ -7,10 +7,13 @@
         },
         "forum": {
             "profile_link": "=> ianm-follow-users.lib.following_link",
+            "profile_page": {
+                "no_following": ""
+            },
             "user_controls": {
                 "follow_button": "Suivre",
-                "follow_confirmation": "Êtes-vous sûr de vouloir suivre cet utilisateur ?",
                 "unfollow_button": "Ne plus suivre",
+                "follow_confirmation": "Êtes-vous sûr de vouloir suivre cet utilisateur ?",
                 "unfollow_confirmation": "Êtes-vous sûr de ne plus vouloir suivre cet utilisateur ?"
             },
             "settings": {
@@ -31,10 +34,24 @@
                 "new_unfollower_text": "{username} a arrêté de vous suivre"
             },
             "badge": {
-                "label": "Utilisateur suivi"
+                "label": "Utilisateur suivi",
+                "label.follow": "",
+                "label.lurk": ""
             },
             "filter": {
                 "following": "Utilisateurs suivis"
+            },
+            "modals": {
+                "select_follow_level": {
+                    "title": "",
+                    "description": "",
+                    "follow_levels_heading": "",
+                    "follow_select_label": "",
+                    "no_user_attr_provided_err": "",
+                    "no_user_attr_provided_err_debug": "",
+                    "save_btn": "",
+                    "cancel_btn": ""
+                }
             }
         },
         "email": {
@@ -46,7 +63,23 @@
             "new_post_body": "Bonjour {recipient_display_name},\n\n{user_display_name} a publié un message dans une discussion : {discussion_title}\n\nPour consulter ce nouveau message, cliquez sur le lien suivant :\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nVous ne recevrez plus de notifications concernant cette discussion jusqu'à ce que vous soyez à jour.\n"
         },
         "lib": {
-            "following_link": "Utilisateurs suivis"
+            "following_link": "Utilisateurs suivis",
+            "follow": "",
+            "change_follow_type": "",
+            "follow_levels": {
+                "unfollow": {
+                    "name": "",
+                    "description": ""
+                },
+                "follow": {
+                    "name": "",
+                    "description": ""
+                },
+                "lurk": {
+                    "name": "",
+                    "description": ""
+                }
+            }
         }
     }
 }

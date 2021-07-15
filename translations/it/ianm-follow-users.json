@@ -7,10 +7,13 @@
         },
         "forum": {
             "profile_link": "",
+            "profile_page": {
+                "no_following": ""
+            },
             "user_controls": {
                 "follow_button": "Segui",
-                "follow_confirmation": "Sei sicuro di voler seguire questo utente?",
                 "unfollow_button": "Non seguire più",
+                "follow_confirmation": "Sei sicuro di voler seguire questo utente?",
                 "unfollow_confirmation": "Sei sicuro di non voler più seguire questo utente?"
             },
             "settings": {
@@ -31,10 +34,24 @@
                 "new_unfollower_text": "{username} ha smesso di seguirti"
             },
             "badge": {
-                "label": "Utente seguito"
+                "label": "Utente seguito",
+                "label.follow": "",
+                "label.lurk": ""
             },
             "filter": {
                 "following": ""
+            },
+            "modals": {
+                "select_follow_level": {
+                    "title": "",
+                    "description": "",
+                    "follow_levels_heading": "",
+                    "follow_select_label": "",
+                    "no_user_attr_provided_err": "",
+                    "no_user_attr_provided_err_debug": "",
+                    "save_btn": "",
+                    "cancel_btn": ""
+                }
             }
         },
         "email": {
@@ -46,7 +63,23 @@
             "new_post_body": "Ciao {recipient_display_name}!\n\n{user_display_name} ha commentato in una discussione: {discussion_title}\n\nPer visualizzare la nuova attività, apri il seguente link:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nNon riceverai altre notifiche su questa discussione finché l'avrai visualizzata.\n"
         },
         "lib": {
-            "following_link": "Utenti seguiti"
+            "following_link": "Utenti seguiti",
+            "follow": "",
+            "change_follow_type": "",
+            "follow_levels": {
+                "unfollow": {
+                    "name": "",
+                    "description": ""
+                },
+                "follow": {
+                    "name": "",
+                    "description": ""
+                },
+                "lurk": {
+                    "name": "",
+                    "description": ""
+                }
+            }
         }
     }
 }

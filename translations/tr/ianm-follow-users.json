@@ -7,10 +7,13 @@
         },
         "forum": {
             "profile_link": "=> ianm-follow-users.lib.following_link",
+            "profile_page": {
+                "no_following": ""
+            },
             "user_controls": {
                 "follow_button": "Takip et",
-                "follow_confirmation": "Bu kullanıcıyı takip etmek istediğinize emin misiniz?",
                 "unfollow_button": "Takibi bırak",
+                "follow_confirmation": "Bu kullanıcıyı takip etmek istediğinize emin misiniz?",
                 "unfollow_confirmation": "Bu kullanıcıyı takipten çıkmak istediğinize emin misiniz?"
             },
             "settings": {
@@ -31,10 +34,24 @@
                 "new_unfollower_text": "{username} sizi takip etmeyi bıraktı"
             },
             "badge": {
-                "label": "Takip edilen kullanıcı"
+                "label": "Takip edilen kullanıcı",
+                "label.follow": "",
+                "label.lurk": ""
             },
             "filter": {
                 "following": "Takip edilen kullanıcılar"
+            },
+            "modals": {
+                "select_follow_level": {
+                    "title": "",
+                    "description": "",
+                    "follow_levels_heading": "",
+                    "follow_select_label": "",
+                    "no_user_attr_provided_err": "",
+                    "no_user_attr_provided_err_debug": "",
+                    "save_btn": "",
+                    "cancel_btn": ""
+                }
             }
         },
         "email": {
@@ -46,7 +63,23 @@
             "new_post_body": "Hey {recipient_display_name},\n\n{user_display_name} bir tartışmada gönderi paylaştı: {discussion_title}\n\nYeni etkinliği görüntülemek için aşağıdaki bağlantıya göz atın:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nGüncel olana kadar bu tartışma hakkında başka bildirim almayacaksınız.\n"
         },
         "lib": {
-            "following_link": "Takip Edilen Kullanıcılar"
+            "following_link": "Takip Edilen Kullanıcılar",
+            "follow": "",
+            "change_follow_type": "",
+            "follow_levels": {
+                "unfollow": {
+                    "name": "",
+                    "description": ""
+                },
+                "follow": {
+                    "name": "",
+                    "description": ""
+                },
+                "lurk": {
+                    "name": "",
+                    "description": ""
+                }
+            }
         }
     }
 }

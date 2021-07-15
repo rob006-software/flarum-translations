@@ -7,11 +7,12 @@
         },
         "forum": {
             "profile_link": "=> ianm-follow-users.lib.following_link",
+            "profile_page": {
+                "no_following": "It looks like you're not following anyone."
+            },
             "user_controls": {
-                "follow_button": "Follow",
-                "follow_confirmation": "Are you sure you want to follow this user?",
-                "unfollow_button": "Unfollow",
-                "unfollow_confirmation": "Are you sure you want to unfollow this user?"
+                "follow_button": "=> ianm-follow-users.lib.follow",
+                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type"
             },
             "settings": {
                 "notify_new_follower_label": "Someone follows me",
@@ -21,8 +22,8 @@
                 "block_follow": "Prevent users from following me"
             },
             "index": {
-                "follow_tag_button": "Follow",
-                "unfollow_tag_button": "Stop Following"
+                "follow_tag_button": "=> ianm-follow-users.lib.follow",
+                "unfollow_tag_button": "=> ianm-follow-users.lib.change_follow_type"
             },
             "notifications": {
                 "new_discussion_text": "{username} started",
@@ -31,10 +32,25 @@
                 "new_unfollower_text": "{username} stopped following you"
             },
             "badge": {
-                "label": "Followed user"
+                "label": {
+                    "follow": "Following discussions",
+                    "lurk": "Following all"
+                }
             },
             "filter": {
                 "following": "Followed users"
+            },
+            "modals": {
+                "select_follow_level": {
+                    "title": "Select follow level for {username}",
+                    "description": "Choose how you'd like to follow <em>{username}</em>.",
+                    "follow_levels_heading": "Follow levels",
+                    "follow_select_label": "Follow type",
+                    "no_user_attr_provided_err": "Uh oh, something went wrong while opening this modal.",
+                    "no_user_attr_provided_err_debug": "No `user` attribute was passed to the SelectFollowUserLevel modal when created. Modal cannot be rendered.",
+                    "save_btn": "Save",
+                    "cancel_btn": "Cancel"
+                }
             }
         },
         "email": {
@@ -46,7 +62,23 @@
             "new_post_body": "Hey {recipient_display_name},\n\n{user_display_name} posted in a discussion: {discussion_title}\n\nTo view the new activity, check out the following link:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nYou won't receive any more notifications about this discussion until you're up-to-date.\n"
         },
         "lib": {
-            "following_link": "Followed Users"
+            "following_link": "Followed Users",
+            "follow": "Follow",
+            "change_follow_type": "Change follow type",
+            "follow_levels": {
+                "unfollow": {
+                    "name": "Don't follow",
+                    "description": "Don't receive any notifications for <em>{username}</em>'s activity.\n"
+                },
+                "follow": {
+                    "name": "Follow discussions",
+                    "description": "Receive notifications when <em>{username}</em> starts new a new discussion.\n"
+                },
+                "lurk": {
+                    "name": "Follow all",
+                    "description": "Receive notifications when <em>{username}</em> starts a new discussion or posts within any discussion.\n"
+                }
+            }
         }
     }
 }
