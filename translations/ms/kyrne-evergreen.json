@@ -20,17 +20,17 @@
                 "reply_to_post_text": ""
             },
             "notifications": {
-                "others_text": "",
+                "others_text": "=> core.ref.some_others",
                 "post_mentioned_text": "",
                 "user_mentioned_text": ""
             },
             "post": {
                 "mentioned_by_self_text": "",
                 "mentioned_by_text": "",
-                "others_text": "",
+                "others_text": "=> core.ref.some_others",
                 "quote_button": "",
-                "reply_link": "",
-                "you_text": ""
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
             },
             "settings": {
                 "notify_post_mentioned_label": "",
