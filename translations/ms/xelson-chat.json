@@ -42,8 +42,8 @@
                             "validator": ""
                         },
                         "icon": {
-                            "label": "",
-                            "validator": ""
+                            "label": "=> core.ref.icon",
+                            "validator": "=> core.ref.icon_text"
                         },
                         "users": {
                             "edit": ""
@@ -62,7 +62,7 @@
                         "failed": "",
                         "invited": ""
                     },
-                    "save_button": ""
+                    "save_button": "=> core.ref.save_changes"
                 },
                 "list": {
                     "pin": "",
@@ -89,8 +89,8 @@
                                 "validator": ""
                             },
                             "icon": {
-                                "label": "",
-                                "validator": ""
+                                "label": "=> core.ref.icon",
+                                "validator": "=> core.ref.icon_text"
                             },
                             "color": {
                                 "label": "=> xelson-chat.forum.chat.edit_modal.form.color.label",
