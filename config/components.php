@@ -466,6 +466,9 @@ return [
 	'justoverclock-contactme' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-contactme/0.2.0/resources/locale/en.yml',
 	],
+	'justoverclock-custom-header' => [
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/custom-header/0.1.1/resources/locale/en.yml',
+	],
 	'justoverclock-dontgoaway' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-dontgoaway/0.2.5/resources/locale/en.yml',
 	],
