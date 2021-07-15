@@ -6,7 +6,7 @@
             "return_to_home": "",
             "ask_your_question_on_forum": "",
             "or": "",
-            "settings": "",
+            "settings": "=> core.ref.settings",
             "send": "",
             "create": "",
             "discard": "",
@@ -113,7 +113,7 @@
                     "confirm_delete_rating": "",
                     "feedback": "",
                     "rating": "",
-                    "username": "",
+                    "username": "=> core.ref.username",
                     "rated_on": ""
                 }
             },
