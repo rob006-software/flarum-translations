@@ -17,15 +17,15 @@
         },
         "forum": {
             "change_nickname": {
-                "submit_button": "",
-                "title": ""
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> flarum-nicknames.ref.change_nickname"
             },
             "edit_user": {
-                "nicknames_heading": "",
+                "nicknames_heading": "=> flarum-nicknames.ref.change_nickname",
                 "nicknames_text": ""
             },
             "settings": {
-                "change_nickname_button": ""
+                "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
             }
         },
         "ref": {
