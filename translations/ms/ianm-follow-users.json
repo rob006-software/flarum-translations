@@ -6,13 +6,13 @@
             }
         },
         "forum": {
-            "profile_link": "",
+            "profile_link": "=> ianm-follow-users.lib.following_link",
             "profile_page": {
                 "no_following": ""
             },
             "user_controls": {
-                "follow_button": "",
-                "unfollow_button": "",
+                "follow_button": "=> ianm-follow-users.lib.follow",
+                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type",
                 "follow_confirmation": "",
                 "unfollow_confirmation": ""
             },
@@ -24,8 +24,8 @@
                 "block_follow": ""
             },
             "index": {
-                "follow_tag_button": "",
-                "unfollow_tag_button": ""
+                "follow_tag_button": "=> ianm-follow-users.lib.follow",
+                "unfollow_tag_button": "=> ianm-follow-users.lib.change_follow_type"
             },
             "notifications": {
                 "new_discussion_text": "",
@@ -34,9 +34,10 @@
                 "new_unfollower_text": ""
             },
             "badge": {
-                "label": "",
-                "label.follow": "",
-                "label.lurk": ""
+                "label": {
+                    "follow": "",
+                    "lurk": ""
+                }
             },
             "filter": {
                 "following": ""
