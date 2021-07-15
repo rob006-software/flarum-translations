@@ -3,104 +3,104 @@
         "forum": {
             "badges": {
                 "is_private": {
-                    "tooltip": ""
+                    "tooltip": "Privát beszélgetés"
                 }
             },
             "buttons": {
-                "add_recipients": "",
-                "submit": "",
-                "edit_recipients": "",
-                "send_pd": "",
-                "cancel": "",
-                "remove_from_discussion": ""
+                "add_recipients": "Címzettek",
+                "submit": "OK",
+                "edit_recipients": "Címzettek szerkesztése",
+                "send_pd": "Üzenet küldése neki: {username}",
+                "cancel": "Mégsem",
+                "remove_from_discussion": "A privát beszélgetés elhagyása"
             },
             "composer_private_discussion": {
-                "submit_button": "",
-                "title_placeholder": ""
+                "submit_button": "Privát beszélgetés küldése",
+                "title_placeholder": "Privát beszélgetés címe"
             },
             "labels": {
-                "recipients": ""
+                "recipients": "{count} címzett"
             },
             "nav": {
-                "start_button": "",
-                "nav_item": ""
+                "start_button": "Beszélgess privátban",
+                "nav_item": "Privát beszélgetések"
             },
             "input": {
-                "search_recipients": ""
+                "search_recipients": "Keress címzettet beírva az első karaktereket..."
             },
             "search": {
                 "headings": {
-                    "groups": ""
+                    "groups": "Csoport engedélyek"
                 }
             },
             "modal": {
                 "titles": {
-                    "update_recipients": "",
-                    "add_recipients": ""
+                    "update_recipients": "A címzettek frissítése itt: {title}",
+                    "add_recipients": "Adj címzettet a beszélgetéshez"
                 },
                 "labels": {
-                    "selected_users": "",
-                    "search_field": ""
+                    "selected_users": "Válassz felhasználót",
+                    "search_field": "Felhasználó keresése"
                 },
                 "help": {
-                    "add_recipients": "",
-                    "update_recipients": "",
-                    "selected_users": "",
-                    "click_user_to_remove_tooltip": ""
+                    "add_recipients": "Ezt a beszélgetést csak a kiválasztott felhasználók láthatják. Rajtad kívül minimum 1 címzett kötelező.",
+                    "update_recipients": "Ez a beszélgetés csak a kiválasztott felhasználók számára lesz látható.",
+                    "selected_users": "Kattints a felhasználóra az eltávolításhoz.",
+                    "click_user_to_remove_tooltip": "Kattints az eltávolításhoz"
                 }
             },
             "post": {
                 "recipients_modified": {
-                    "added_and_removed": "",
-                    "added": "",
-                    "removed": "",
-                    "removed_self": ""
+                    "added_and_removed": "{username} hozzáadta címzettnek {added} és eltávolította {removed}.",
+                    "added": "{username} hozzáadta címzettnek {added}.",
+                    "removed": "{username} eltávolította a címzettek közül {removed}.",
+                    "removed_self": "{username} elhagyta a privát beszélgetést."
                 }
             },
             "user": {
                 "settings": {
-                    "block_pd": ""
+                    "block_pd": "Privát beszélgetés blokkolása"
                 },
-                "byobu_link": "",
-                "dropdown_label": ""
+                "byobu_link": "Privát beszélgetések",
+                "dropdown_label": "Privát beszélgetések"
             },
             "notifications": {
-                "pd_label": "",
-                "pd_reply_label": "",
-                "pd_reply_text": "",
-                "pd_text": "",
-                "pd_user_left_label": "",
-                "pd_user_left_text": "",
-                "pd_added_text": "",
-                "pd_added_label": ""
+                "pd_label": "Valaki betett egy privát beszélgetésbe",
+                "pd_reply_label": "Valaki üzenetet küldött egy privát beszélgetésben, ahol címzett vagyok",
+                "pd_reply_text": "{username} üzenetet küldött egy privát beszélgetésben amelyben benne vagyok",
+                "pd_text": "{username} egy új beszélgetést kezdeményezett veled",
+                "pd_user_left_label": "Egy címzett elhagyta a beszélgetést melynek tagja vagyok",
+                "pd_user_left_text": "{username} elhagyta a privát beszélgetést",
+                "pd_added_text": "{username} hozzáadott téged egy privát beszélgetéshez",
+                "pd_added_label": "Valaki hozzáadott engem egy létező privát beszélgetéshez"
             }
         },
         "admin": {
             "permission": {
-                "create_private_discussions_with_users": "",
-                "create_private_discussions_with_groups": "",
-                "create_private_discussions_with_blocking_users": "",
-                "edit_user_recipients": "",
-                "edit_group_recipients": "",
-                "view_private_discussions-when-flagged": ""
+                "create_private_discussions_with_users": "Új privát beszélgetés kezdeményezése felhasználókkal",
+                "create_private_discussions_with_groups": "Új privát beszélgetés kezdeményezése csoportokkal",
+                "create_private_discussions_with_blocking_users": "Privát beszélgetés kezdeményezése blokkolt felhasználókkal",
+                "edit_user_recipients": "A privát beszélgetésekben résztvevő felhasználók szerkesztése",
+                "edit_group_recipients": "A privát beszélgetésekben résztvevő csoportok szerkesztése",
+                "view_private_discussions-when-flagged": "Megjelölve más felhasználók privát beszélgetéseit is megtekintheti"
             },
             "settings": {
-                "badge-icon": "",
-                "post-event-icon": ""
+                "badge-icon": "Byobu beszélgetés Badge",
+                "post-event-icon": "Byobu Post Events"
             }
         },
         "email": {
             "subject": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": ""
+                "private_discussion_created": "[Privát beszélgetés] {display_name} új privát beszélgetést kezdeményezett veled",
+                "private_discussion_replied": "[Privát beszélgetés] {display_name} üzenetet küldött a privát beszélgetésben",
+                "recipient_removed": "[Privát beszélgetés] {display_name} elhagyta a beszélgetést",
+                "private_discussion_added": "[Privát beszélgetés] {display_name} hozzáadott téged egy privát beszélgetéshez"
             },
             "body": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": ""
+                "private_discussion_created": "Üdv {recipient_display_name},\n\n{actor_display_name} privát beszélgetést kezdeményezett veled: {discussion_title}.\n\nItt megtekintheted:\n{discussion_url}\n\nValószínűleg be kell jelentkezned a beszélgetés megtekintéséhez.\n",
+                "private_discussion_replied": "Üdv {recipient_display_name},\n\n{actor_display_name} üzenetet küldött a privát beszélgetésben: {discussion_title}.\n\nItt megtekintheted:\n{post_url}\n\nValószínűleg be kell jelentkezned a beszélgetés megtekintéséhez.\n",
+                "recipient_removed": "Üdv {recipient_display_name},\n\n{actor_display_name} elhagyta a beszélgetést: {discussion_title}. Ő többé nem láthatja a beszélgetést.\n\nItt megtekintheted:\n{discussion_url}\n\nValószínűleg be kell jelentkezned a beszélgetés megtekintéséhez.\n",
+                "private_discussion_added": "Üdv {recipient_display_name},\n\n{actor_display_name} hozzáadott téged egy privát beszélgetéshez: {discussion_title}.\n\nItt megtekintheted:\n{discussion_url}\n\nValószínűleg be kell jelentkezned a beszélgetés megtekintéséhez.\n"
             }
         }
     }
