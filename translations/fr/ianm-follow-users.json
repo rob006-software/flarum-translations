@@ -8,11 +8,11 @@
         "forum": {
             "profile_link": "=> ianm-follow-users.lib.following_link",
             "profile_page": {
-                "no_following": ""
+                "no_following": "Il semble que vous ne suivez personne."
             },
             "user_controls": {
-                "follow_button": "Suivre",
-                "unfollow_button": "Ne plus suivre",
+                "follow_button": "=> ianm-follow-users.lib.follow",
+                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type",
                 "follow_confirmation": "Êtes-vous sûr de vouloir suivre cet utilisateur ?",
                 "unfollow_confirmation": "Êtes-vous sûr de ne plus vouloir suivre cet utilisateur ?"
             },
@@ -24,8 +24,8 @@
                 "block_follow": "Empêcher les utilisateurs de me suivre"
             },
             "index": {
-                "follow_tag_button": "Suivre",
-                "unfollow_tag_button": "Ne plus suivre"
+                "follow_tag_button": "=> ianm-follow-users.lib.follow",
+                "unfollow_tag_button": "=> ianm-follow-users.lib.change_follow_type"
             },
             "notifications": {
                 "new_discussion_text": "{username} a démarré",
@@ -34,23 +34,24 @@
                 "new_unfollower_text": "{username} a arrêté de vous suivre"
             },
             "badge": {
-                "label": "Utilisateur suivi",
-                "label.follow": "",
-                "label.lurk": ""
+                "label": {
+                    "follow": "Discussions suivies",
+                    "lurk": "Suivi global"
+                }
             },
             "filter": {
                 "following": "Utilisateurs suivis"
             },
             "modals": {
                 "select_follow_level": {
-                    "title": "",
-                    "description": "",
-                    "follow_levels_heading": "",
-                    "follow_select_label": "",
-                    "no_user_attr_provided_err": "",
-                    "no_user_attr_provided_err_debug": "",
-                    "save_btn": "",
-                    "cancel_btn": ""
+                    "title": "Sélectionner le niveau de suivi pour {username}",
+                    "description": "Choisissez comment vous souhaitez suivre <em>{username}</em>.",
+                    "follow_levels_heading": "Niveaux de suivi",
+                    "follow_select_label": "Type de suivi",
+                    "no_user_attr_provided_err": "Oh oh, quelque chose s'est mal passé en ouvrant cette fenêtre.",
+                    "no_user_attr_provided_err_debug": "Aucun attribut `user` n'a été transmis à la fenêtre SelectFollowUserLevel lors de sa création. Le rendu de la fenêtre est impossible.",
+                    "save_btn": "Enregistrer",
+                    "cancel_btn": "Annuler"
                 }
             }
         },
@@ -64,20 +65,20 @@
         },
         "lib": {
             "following_link": "Utilisateurs suivis",
-            "follow": "",
-            "change_follow_type": "",
+            "follow": "Suivre",
+            "change_follow_type": "Modifier le type de suivi",
             "follow_levels": {
                 "unfollow": {
-                    "name": "",
-                    "description": ""
+                    "name": "Ne pas suivre",
+                    "description": "Ne pas recevoir de notifications pour l'activité de <em>{username}</em>.\n"
                 },
                 "follow": {
-                    "name": "",
-                    "description": ""
+                    "name": "Suivre les discussions",
+                    "description": "Recevoir des notifications lorsque <em>{username}</em> démarre une nouvelle discussion.\n"
                 },
                 "lurk": {
-                    "name": "",
-                    "description": ""
+                    "name": "Tout suivre",
+                    "description": "Recevoir des notifications lorsque <em>{username}</em> démarre une nouvelle discussion ou publie un message dans une discussion.\n"
                 }
             }
         }
