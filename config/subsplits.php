@@ -122,6 +122,13 @@ return [
 		'branch' => 'master',
 		'path' => '/locale',
 	],
+	'ms' => [
+		'type' => 'language',
+		'language' => 'ms',
+		'repository' => 'git@github.com:flarum-lang/malaysian.git',
+		'branch' => 'main',
+		'path' => '/locale',
+	],
 	'nl' => [
 		'type' => 'language',
 		'language' => 'nl',
