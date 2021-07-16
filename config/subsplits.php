@@ -144,6 +144,13 @@ return [
 		'branch' => 'master',
 		'path' => '/locale',
 	],
+	'pt' => [
+		'type' => 'language',
+		'language' => 'pt',
+		'repository' => 'git@github.com:flarum-lang/portuguese.git',
+		'branch' => 'master',
+		'path' => '/locale',
+	],
 	'pt_BR' => [
 		'type' => 'language',
 		'language' => 'pt_BR',
