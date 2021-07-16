@@ -256,6 +256,9 @@ return [
 	'flarumi-oauth-yandex' => [
 		'tag' => 'https://raw.githubusercontent.com/flarumi/oauth-yandex/v1.0.2/resources/locale/en.yml',
 	],
+	'flarumite-copy-reply-to-see' => [
+		'tag' => 'https://raw.githubusercontent.com/ramesh-dada/flarum-ext-reply2see/99.1.1/resources/locale/en.yml',
+	],
 	'flarumite-simple-discussion-views' => [
 		'tag' => 'https://raw.githubusercontent.com/flarumite/simple-discussion-views/1.0.3/resources/locale/en.yml',
 	],
