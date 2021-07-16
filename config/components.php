@@ -491,7 +491,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-keywords/1.9/resources/locale/en.yml',
 	],
 	'justoverclock-newsfeed' => [
-		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-newsfeed/0.1.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-newsfeed/1.0.0/resources/locale/en.yml',
 	],
 	'justoverclock-newsletter' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-newsletter/1.0.0/resources/locale/en.yml',
