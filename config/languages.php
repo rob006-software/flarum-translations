@@ -65,6 +65,7 @@ return [
 		'!v17development-seo',
 	]),
 	'pl' => getComponents(),
+	'pt' => getComponents(),
 	'pt_BR' => getComponents(),
 	'si' => getComponents(),
 	'sk' => getComponents(),
