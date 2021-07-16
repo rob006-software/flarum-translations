@@ -1,0 +1,28 @@
+{
+    "flarum-lock": {
+        "admin": {
+            "permissions": {
+                "lock_discussions_label": "Trancar discussões"
+            }
+        },
+        "forum": {
+            "badge": {
+                "locked_tooltip": "Trancada"
+            },
+            "discussion_controls": {
+                "lock_button": "Trancar",
+                "unlock_button": "Destrancar"
+            },
+            "notifications": {
+                "discussion_locked_text": "{username} trancou"
+            },
+            "post_stream": {
+                "discussion_locked_text": "{username} trancou esta discussão.",
+                "discussion_unlocked_text": "{username} destrancou esta discussão."
+            },
+            "settings": {
+                "notify_discussion_locked_label": "Alguém tranca uma discussão que iniciei"
+            }
+        }
+    }
+}
