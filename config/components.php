@@ -671,7 +671,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-flamoji/1.0.2/locale/en.yml',
 	],
 	'the-turk-mathren' => [
-		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-mathren/0.3.7/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-mathren/1.0.0/locale/en.yml',
 	],
 	'the-turk-miserable-users' => [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-miserable-users/1.0.2/locale/en.yml',
