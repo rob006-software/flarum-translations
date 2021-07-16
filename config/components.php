@@ -662,7 +662,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum-tank/flarum-perspective/0.1.14/resources/locale/en.yml',
 	],
 	'the-turk-diff' => [
-		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-diff/1.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-diff/1.1.1/locale/en.yml',
 	],
 	'the-turk-fancybox' => [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-ext-fancybox/0.2.0-beta.4/locale/en.yml',
