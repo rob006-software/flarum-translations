@@ -1,68 +1,68 @@
 {
     "v17development-flarum-blog": {
         "admin": {
-            "blog": "",
+            "blog": "Blog",
             "permissions": {
-                "write_articles": "",
-                "auto_approve_posts": "",
+                "write_articles": "Blog cikkek írása és szerkesztése",
+                "auto_approve_posts": "Cikkek mentése jóváhagyás nélkül",
                 "approve_posts": ""
             },
             "settings": {
-                "no_categories_selected": "",
-                "selected_category_count": "",
-                "select_categories_button": "",
-                "blog_heading": "",
-                "allow_comments_label": "",
+                "no_categories_selected": "Nincs kategória kiválasztva",
+                "selected_category_count": "# kategória kiválasztva",
+                "select_categories_button": "Válassz blog kategóriát",
+                "blog_heading": "Blog",
+                "allow_comments_label": "Hozzászólások engedélyezése",
                 "allow_comments_text": "",
-                "require_review_label": "",
+                "require_review_label": "Blog cikkeknél szükséges a jóváhagyás",
                 "require_review_text": "",
-                "hide_on_discussion_list_label": "",
-                "hide_on_discussion_list_text": "",
-                "add_sidebar_nav_label": "",
+                "hide_on_discussion_list_label": "Ne mutassa a beszélgetés listában",
+                "hide_on_discussion_list_text": "Blog hozzáaszólások elrejtése a beszélgetés listában.",
+                "add_sidebar_nav_label": "Hozzáadás a navigációhoz",
                 "add_sidebar_nav_text": "",
-                "categories_heading": "",
-                "hide_tags_in_taglist_label": "",
+                "categories_heading": "Kategóriák",
+                "hide_tags_in_taglist_label": "Címék elrejtése a címke listából",
                 "hide_tags_in_taglist_text": "",
                 "show_tag_hierarchy_label": "",
                 "show_tag_hierarchy_text": "",
-                "redirects_heading": "",
-                "redirect_articles_label": "",
+                "redirects_heading": "Átirányítások",
+                "redirect_articles_label": "Blog cikkek átirányítása",
                 "redirect_articles_text": "",
                 "redirect_tags_label": "",
                 "redirect_tags_text": "",
-                "default_article_image_label": "",
+                "default_article_image_label": "Alapértelmezett cikk kép",
                 "default_article_image_text": ""
             }
         },
         "forum": {
-            "blog": "",
-            "read_more": "",
-            "hidden": "",
-            "recent_posts": "",
-            "categories": "",
+            "blog": "Blog",
+            "read_more": "Több",
+            "hidden": "Elrejtve",
+            "recent_posts": "Friss cikkek",
+            "categories": "Kategóriák",
             "forum_nav": "",
-            "return_to_overview": "",
-            "no_more_posts": "",
-            "category_empty": "",
+            "return_to_overview": "Vissza a blog összefoglalóhoz ",
+            "no_more_posts": "Nincs több cikk.",
+            "category_empty": "Ebben a kategóriában nincsenek cikkek.",
             "compose": {
-                "write_article": ""
+                "write_article": "Cikk létrehozása"
             },
             "validation": {
-                "missing_id": ""
+                "missing_id": "Hiányzó ID"
             },
             "article": {
-                "title": "",
+                "title": "Cím",
                 "slug": "",
-                "summary": ""
+                "summary": "Összefoglaló"
             },
             "comment_section": {
-                "comments": "",
-                "locked": ""
+                "comments": "Hozzászólások",
+                "locked": "A hozzászólások nem engedélyezettek ennél a cikknél"
             },
             "review_article": {
-                "pending_review_title": "",
+                "pending_review_title": "Várakozik a jóváhagyásra",
                 "pending_review": "",
-                "approve_article": "",
+                "approve_article": "Cikk jóváhagyása",
                 "approve_article_approved": ""
             },
             "tools": {
