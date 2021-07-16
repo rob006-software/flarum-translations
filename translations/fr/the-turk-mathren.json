@@ -2,6 +2,35 @@
     "the-turk-mathren": {
         "admin": {
             "settings": {
+                "katex_options_heading": "",
+                "delimiters_label": "",
+                "delimiters_text": "",
+                "block_delimiters_text": "",
+                "inline_delimiters_text": "",
+                "alias_block_delimiters_text": "",
+                "alias_inline_delimiters_text": "",
+                "primary_delimiters_text": "",
+                "output_mode_label": "",
+                "output_mode_text": "",
+                "error_color_label": "",
+                "error_color_text": "",
+                "sizing_options_heading": "",
+                "minimum_thickness_text": "",
+                "maximum_size_text": "",
+                "macros_label": "",
+                "macros_text": "",
+                "java_syntax_text": "",
+                "maximum_expand_limit_text": "",
+                "enable_fleqn_label": "",
+                "enable_leqno_label": "",
+                "color_is_text_color_label": "",
+                "throw_on_error_label": "",
+                "bbcode_delimiters_rule_text": "",
+                "other_options_heading": "",
+                "enable_editor_buttons_label": "",
+                "aliases_as_primary_label": "",
+                "enable_copy_tex_label": "",
+                "quote_button_text": "",
                 "title": "MathRen",
                 "description": "Configurer le rendu mathématique de TeX.",
                 "katexOptionsHeading": "Options de KaTeX",
@@ -44,6 +73,10 @@
             }
         },
         "forum": {
+            "composer": {
+                "block_expression": "",
+                "inline_expression": ""
+            },
             "textEditor": {
                 "blockExpression": "Expression en bloc",
                 "inlineExpression": "Expression en ligne"
