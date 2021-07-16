@@ -8,11 +8,11 @@
         "forum": {
             "profile_link": "=> ianm-follow-users.lib.following_link",
             "profile_page": {
-                "no_following": ""
+                "no_following": "Wygląda na to, że nikogo jeszcze nie obserwujesz."
             },
             "user_controls": {
-                "follow_button": "Obserwuj",
-                "unfollow_button": "Przestań obserwować",
+                "follow_button": "=> ianm-follow-users.lib.follow",
+                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type",
                 "follow_confirmation": "Czy jesteś pewien, że chcesz obserwować tego użytkownika?",
                 "unfollow_confirmation": "Czy jesteś pewien, że chcesz przestać obserwować tego użytkownika?"
             },
@@ -24,8 +24,8 @@
                 "block_follow": "Nie pozwól innym na obserwowanie mnie"
             },
             "index": {
-                "follow_tag_button": "Obserwuj",
-                "unfollow_tag_button": "Przestań obserwować"
+                "follow_tag_button": "=> ianm-follow-users.lib.follow",
+                "unfollow_tag_button": "=> ianm-follow-users.lib.change_follow_type"
             },
             "notifications": {
                 "new_discussion_text": "{username} rozpoczął",
@@ -34,9 +34,10 @@
                 "new_unfollower_text": "{username} przestał Cię obserwować"
             },
             "badge": {
-                "label": "Obserwowany użytkownik",
-                "label.follow": "",
-                "label.lurk": ""
+                "label": {
+                    "follow": "",
+                    "lurk": ""
+                }
             },
             "filter": {
                 "following": "Obserwowani użytkownicy"
@@ -64,7 +65,7 @@
         },
         "lib": {
             "following_link": "Obserwowani użytkownicy",
-            "follow": "",
+            "follow": "Obserwuj",
             "change_follow_type": "",
             "follow_levels": {
                 "unfollow": {
