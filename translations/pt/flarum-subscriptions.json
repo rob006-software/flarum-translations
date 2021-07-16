@@ -1,0 +1,44 @@
+{
+    "flarum-subscriptions": {
+        "forum": {
+            "badge": {
+                "following_tooltip": "=> flarum-subscriptions.ref.following",
+                "ignoring_tooltip": "=> flarum-subscriptions.ref.ignoring"
+            },
+            "discussion_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "unfollow_button": "Deixar de Seguir",
+                "unignore_button": "Deixar de Ignorar"
+            },
+            "following": {
+                "meta_title_text": "=> flarum-subscriptions.ref.following"
+            },
+            "index": {
+                "following_link": "=> flarum-subscriptions.ref.following"
+            },
+            "notifications": {
+                "new_post_text": "{username} postou"
+            },
+            "settings": {
+                "follow_after_reply_label": "Seguir automaticamente discussões que eu responder",
+                "notify_new_post_label": "Alguém posta numa discussão que estou seguindo"
+            },
+            "sub_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "following_button": "=> flarum-subscriptions.ref.following",
+                "following_text": "Seja notificado de todas as respostas.",
+                "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
+                "ignoring_text": "Nunca seja notificado. Oculta da lista de discussão.",
+                "not_following_button": "Não Seguindo",
+                "not_following_text": "Seja notificado apenas quando @mencionado.",
+                "notify_alert_tooltip": "Receber uma notificação no fórum quando houver novos posts",
+                "notify_email_tooltip": "Receber um email quando houver novos posts"
+            }
+        },
+        "ref": {
+            "follow": "Seguir",
+            "following": "Seguindo",
+            "ignoring": "Ignorando"
+        }
+    }
+}
