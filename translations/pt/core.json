@@ -88,9 +88,6 @@
                 "mail_mailgun_secret_label": "Secret key",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "Porta",
-                "mail_ses_key_label": "Chave",
-                "mail_ses_region_label": "Região",
-                "mail_ses_secret_label": "Secret",
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "Configurações de Mailgun",
                 "not_sending_message": "Flarum atualmente não envia e-mails. Isso pode ocorrer devido ao driver selecionado ou a erros de configuração.",
@@ -98,9 +95,12 @@
                 "send_test_mail_heading": "Enviar teste de e-mail",
                 "send_test_mail_success": "Teste de e-mail enviado com sucesso!",
                 "send_test_mail_text": "Isso enviará um e-mail usando a configuração acima para o seu e-mail, {email}.",
-                "ses_heading": "Configurações do SES",
                 "smtp_heading": "Configurações SMTP",
-                "title": "=> core.ref.email"
+                "title": "=> core.ref.email",
+                "mail_ses_key_label": "Chave",
+                "mail_ses_region_label": "Região",
+                "mail_ses_secret_label": "Secret",
+                "ses_heading": "Configurações do SES"
             },
             "extension": {
                 "configure_scopes": "Configurações",
@@ -120,11 +120,6 @@
                 "no_settings": "Esta extensão não tem configurações.",
                 "open_modal": "Abrir configurações",
                 "permissions_title": "Permissões",
-                "uninstall_button": "Desinstalar"
-            },
-            "extensions": {
-                "add_button": "Adicionar extensão",
-                "settings_button": "=> core.ref.settings",
                 "uninstall_button": "Desinstalar"
             },
             "header": {
@@ -156,9 +151,9 @@
                 "email_title": "=> core.admin.email.description",
                 "permissions_button": "=> core.admin.permissions.title",
                 "permissions_title": "=> core.admin.permissions.description",
-                "search_placeholder": "Buscar extensão",
                 "userlist_button": "=> core.admin.users.title",
-                "userlist_title": "=> core.admin.users.description"
+                "userlist_title": "=> core.admin.users.description",
+                "search_placeholder": "Buscar extensão"
             },
             "permissions": {
                 "allow_post_editing_label": "Permitir edição de postagem",
@@ -170,9 +165,9 @@
                 "delete_posts_label": "Excluir postagens",
                 "description": "Configure quem pode ver e fazer o quê.",
                 "edit_posts_label": "Editar postagens",
+                "edit_users_label": "Editar usuários",
                 "edit_users_credentials_label": "Editar credenciais de usuário",
                 "edit_users_groups_label": "Editar grupos de usuário",
-                "edit_users_label": "Editar usuários",
                 "global_heading": "Global",
                 "moderate_heading": "Moderar",
                 "new_group_button": "Novo grupo",
@@ -246,27 +241,11 @@
                 },
                 "title": "=> core.ref.users",
                 "total_users": "Total de usuários: {count}"
-            }
-        },
-        "api": {
-            "invalid_username_message": "O nome de usuário pode conter apenas letras, números e traços."
-        },
-        "email": {
-            "activate_account": {
-                "body": "Olá {username}!\nAlguém (esperamos que você!) se cadastrou em {forum} com este endereço de e-mail.\nSe foi você mesmo, basta clicar no link abaixo e sua conta será ativada:\n{url}\nSe você não se cadastrou, por favor ignore este e-mail.\n",
-                "subject": "Ative sua nova conta"
             },
-            "confirm_email": {
-                "body": "Olá {username}!\nAlguém (esperamos que você!) alterou o endereço de e-mail em {forum} para este aqui.\nSe foi você mesmo, basta clicar no link abaixo e seu e-mail será confirmado:\n{url}\nSe você não solicitou isso, por favor ignore este e-mail.\n",
-                "subject": "Confirme seu novo endereço de e-mail"
-            },
-            "reset_password": {
-                "body": "Olá {username}!\nAlguém (esperamos que você!) enviou uma solicitação de redefinição de senha para sua conta em {forum}.\nSe foi você mesmo, clique no link abaixo para redefinir sua senha:\n{url}\nSe você não quiser alterar sua senha, basta ignorar este e-mail e nada irá acontecer.\n",
-                "subject": "=> core.ref.reset_your_password"
-            },
-            "send_test": {
-                "body": "Olá, {username}!\n\nEste é um e-mail de teste para confirmar se a configuração de e-mail do Flarum está funcionando corretamente.\n\nSe foi você, este e-mail significa que sua configuração funciona!\n\nSe não foi você, ignore este e-mail.\n",
-                "subject": "Teste de e-mail Flarum"
+            "extensions": {
+                "add_button": "Adicionar extensão",
+                "settings_button": "=> core.ref.settings",
+                "uninstall_button": "Desinstalar"
             }
         },
         "forum": {
@@ -474,16 +453,6 @@
                 "sent_message": "Enviar"
             }
         },
-        "group": {
-            "admin": "Administrador",
-            "admins": "Administradores",
-            "guest": "Convidado",
-            "guests": "Convidados",
-            "member": "Membro",
-            "members": "Membros",
-            "mod": "Moderador",
-            "mods": "Moderadores"
-        },
         "lib": {
             "badge": {
                 "hidden_tooltip": "Escondido"
@@ -526,6 +495,64 @@
             },
             "username": {
                 "deleted_text": "[excluído]"
+            }
+        },
+        "views": {
+            "content": {
+                "javascript_disabled_message": "Este site é melhor visualizado em um navegador moderno com JavaScript ativado.",
+                "load_error_message": "Ocorreu um erro ao tentar carregar a versão completa deste site. Tente atualizar essa página para corrigir o erro.",
+                "loading_text": "=> core.ref.loading"
+            },
+            "discussion": {
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
+            },
+            "error": {
+                "csrf_token_mismatch": "Você ficou inativo por muito tempo.",
+                "csrf_token_mismatch_return_link": "Volte, para tentar novamente",
+                "invalid_confirmation_token": "Este link de confirmação já foi usado ou é inválido.",
+                "not_authenticated": "Você não tem permissão para acessar esta página. Tente novamente após o login.",
+                "not_found": "A página solicitada não pôde ser encontrada.",
+                "not_found_return_link": "Retornar para {forum}",
+                "permission_denied": "Você não tem permissão para acessar esta página.",
+                "unknown": "Ocorreu um erro ao tentar carregar esta página."
+            },
+            "index": {
+                "all_discussions_heading": "=> core.ref.all_discussions",
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
+            },
+            "log_out": {
+                "log_out_button": "=> core.ref.log_out",
+                "log_out_confirmation": "Tem certeza de que deseja sair do {forum}?",
+                "title": "=> core.ref.log_out"
+            },
+            "reset_password": {
+                "confirm_password_label": "confirme a nova senha",
+                "new_password_label": "Nova senha",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.reset_your_password"
+            }
+        },
+        "api": {
+            "invalid_username_message": "O nome de usuário pode conter apenas letras, números e traços."
+        },
+        "email": {
+            "activate_account": {
+                "subject": "Ative sua nova conta",
+                "body": "Olá {username}!\nAlguém (esperamos que você!) se cadastrou em {forum} com este endereço de e-mail.\nSe foi você mesmo, basta clicar no link abaixo e sua conta será ativada:\n{url}\nSe você não se cadastrou, por favor ignore este e-mail.\n"
+            },
+            "confirm_email": {
+                "subject": "Confirme seu novo endereço de e-mail",
+                "body": "Olá {username}!\nAlguém (esperamos que você!) alterou o endereço de e-mail em {forum} para este aqui.\nSe foi você mesmo, basta clicar no link abaixo e seu e-mail será confirmado:\n{url}\nSe você não solicitou isso, por favor ignore este e-mail.\n"
+            },
+            "reset_password": {
+                "subject": "=> core.ref.reset_your_password",
+                "body": "Olá {username}!\nAlguém (esperamos que você!) enviou uma solicitação de redefinição de senha para sua conta em {forum}.\nSe foi você mesmo, clique no link abaixo para redefinir sua senha:\n{url}\nSe você não quiser alterar sua senha, basta ignorar este e-mail e nada irá acontecer.\n"
+            },
+            "send_test": {
+                "subject": "Teste de e-mail Flarum",
+                "body": "Olá, {username}!\n\nEste é um e-mail de teste para confirmar se a configuração de e-mail do Flarum está funcionando corretamente.\n\nSe foi você, este e-mail significa que sua configuração funciona!\n\nSe não foi você, ignore este e-mail.\n"
             }
         },
         "ref": {
@@ -574,42 +601,15 @@
             "write_a_reply": "Escreva uma resposta...",
             "you": "Você"
         },
-        "views": {
-            "content": {
-                "javascript_disabled_message": "Este site é melhor visualizado em um navegador moderno com JavaScript ativado.",
-                "load_error_message": "Ocorreu um erro ao tentar carregar a versão completa deste site. Tente atualizar essa página para corrigir o erro.",
-                "loading_text": "=> core.ref.loading"
-            },
-            "discussion": {
-                "next_page_button": "=> core.ref.next_page",
-                "previous_page_button": "=> core.ref.previous_page"
-            },
-            "error": {
-                "csrf_token_mismatch": "Você ficou inativo por muito tempo.",
-                "csrf_token_mismatch_return_link": "Volte, para tentar novamente",
-                "invalid_confirmation_token": "Este link de confirmação já foi usado ou é inválido.",
-                "not_authenticated": "Você não tem permissão para acessar esta página. Tente novamente após o login.",
-                "not_found": "A página solicitada não pôde ser encontrada.",
-                "not_found_return_link": "Retornar para {forum}",
-                "permission_denied": "Você não tem permissão para acessar esta página.",
-                "unknown": "Ocorreu um erro ao tentar carregar esta página."
-            },
-            "index": {
-                "all_discussions_heading": "=> core.ref.all_discussions",
-                "next_page_button": "=> core.ref.next_page",
-                "previous_page_button": "=> core.ref.previous_page"
-            },
-            "log_out": {
-                "log_out_button": "=> core.ref.log_out",
-                "log_out_confirmation": "Tem certeza de que deseja sair do {forum}?",
-                "title": "=> core.ref.log_out"
-            },
-            "reset_password": {
-                "confirm_password_label": "confirme a nova senha",
-                "new_password_label": "Nova senha",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "=> core.ref.reset_your_password"
-            }
+        "group": {
+            "admin": "Administrador",
+            "admins": "Administradores",
+            "guest": "Convidado",
+            "guests": "Convidados",
+            "member": "Membro",
+            "members": "Membros",
+            "mod": "Moderador",
+            "mods": "Moderadores"
         }
     }
 }
