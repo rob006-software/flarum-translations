@@ -1,0 +1,65 @@
+{
+    "fof-drafts": {
+        "admin": {
+            "permissions": {
+                "start": "Vázlat létrehozása",
+                "schedule": "Időzített vázlat"
+            },
+            "settings": {
+                "title": "FoF vázlat",
+                "enable_scheduled_drafts": "Időzített vázlat bekapcsolása",
+                "schedule_on_one_server": "",
+                "schedule_log_output": ""
+            }
+        },
+        "console": {
+            "scheduled_drafts_disabled": ""
+        },
+        "ref": {
+            "schedule_draft": "Vázlat időzítése"
+        },
+        "forum": {
+            "composer": {
+                "title": "Vázlat mentése",
+                "saving": "Mentés...",
+                "saved": "Mentve!",
+                "exit_alert": "Eldobod a módosításokat?",
+                "discard_empty_draft_alert": ""
+            },
+            "dropdown": {
+                "empty_text": "Nincs egyetlen vázlat sem",
+                "title": "Vázlatok",
+                "delete_all_button": "Minden vázlat törlése",
+                "delete_button": "Vázlat törlése",
+                "schedule_button": "=> fof-drafts.ref.schedule_draft",
+                "scheduled_icon_tooltip": "Időzítve ekkorra: {datetime}",
+                "scheduled_icon_tooltip_formatter": "",
+                "tooltip": "=> fof-drafts.forum.dropdown.title",
+                "alert": "Tényleg törlöd a vázlatot?",
+                "delete_all_alert": "Tényleg törlöd az összes vázlatot?"
+            },
+            "schedule_draft_modal": {
+                "title": "=> fof-drafts.ref.schedule_draft",
+                "text": "Időzítsd a vázlatot hogy később megjelenjen automatikusan!",
+                "scheduled_text": "Időzítetted a hozzászólást: {datetime}.",
+                "scheduled_error": "Nem lehet időzíteni a vázlatot: {error}.",
+                "unschedule_button": "Időzítés törlése",
+                "unschedule_warning": "Tényleg törlöd az időzítést?",
+                "reschedule_button": "Újra időzítés",
+                "schedule_button": "Időzítés",
+                "schedule_time_preview": "Ez a vázlat automatikusan publikálva lesz: <b>{datetime}</b>.",
+                "schedule_time_preview_formatter": "",
+                "schedule_time_preview_invalid": "Hibás dátum vagy idő"
+            },
+            "user": {
+                "settings": {
+                    "drafts_heading": "Vázlatok",
+                    "draft_autosave_enable": "Bekapcsolod a vázlatok automatikus mentését?",
+                    "draft_autosave_interval_label": "Automatikus mentés ideje (másodperc)",
+                    "draft_autosave_interval_button": "Frissítés ideje",
+                    "draft_autosave_interval_invalid": ""
+                }
+            }
+        }
+    }
+}

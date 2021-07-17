@@ -1,15 +1,15 @@
 {
     "flarum-ext-purify": {
         "forum": {
-            "obscure": ""
+            "obscure": "[Temizlendi]"
         },
         "admin": {
             "additem": "Listeye Kötü Kelime Ekle",
             "additemdesc": "her bir kelimeyi virgül ile ayırın (örn. kelime1,kelime2,kelime3,)",
-            "hidemail": "",
-            "customreg": "",
-            "customregexp": "",
-            "customregexpdesc": ""
+            "hidemail": "E-posta adreslerini otomatik gizle",
+            "customreg": "Özel Normal İfade kullan",
+            "customregexp": "Özel Regexp kullan",
+            "customregexpdesc": "İhtiyaçlarınıza uyan normal ifadenizi buraya koyun (örneğin, bu 3 kelimeyi gizlemek için (flarum|iyi|uzantı))"
         }
     }
 }

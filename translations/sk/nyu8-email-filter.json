@@ -1,0 +1,37 @@
+{
+    "nyu8-email-filter": {
+        "admin": {
+            "general": "",
+            "custom_failure_message_label": "",
+            "custom_failure_message_hint": "",
+            "rule_settings": "",
+            "name_placeholder": "",
+            "invalid_regular_expression": "",
+            "whitelist_literal": {
+                "label": "",
+                "description": "",
+                "placeholder": ""
+            },
+            "whitelist_regex": {
+                "label": "",
+                "description": "",
+                "placeholder": ""
+            },
+            "blacklist_literal": {
+                "label": "",
+                "description": "",
+                "placeholder": ""
+            },
+            "blacklist_regex": {
+                "label": "",
+                "description": "",
+                "placeholder": ""
+            }
+        },
+        "forum": {
+            "generic_exception": "",
+            "blacklist_exception": "",
+            "whitelist_exception": ""
+        }
+    }
+}

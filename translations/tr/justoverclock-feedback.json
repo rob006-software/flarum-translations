@@ -1,0 +1,61 @@
+{
+    "justoverclock-feedback": {
+        "admin": {
+            "contactmail": "Geri bildirimin gönderileceği e-posta adresi",
+            "feedback1-title": "Geribildirim türü 1",
+            "feedback1-title-help": "\"Geribildirim türünüzün\" adını özelleştirin",
+            "feedback1-icon": "Geribildirim türü 1 için simge",
+            "feedback1-icon-help": "\"⚠, ☎, ✎\" gibi bir simge ekleyin - Daha fazla simge için https://coolsymbol.com/",
+            "feedback2-title": "Geribildirim türü 2",
+            "feedback2-title-help": "\"Geribildirim türünüzün\" adını özelleştirin",
+            "feedback2-icon": "Geribildirim türü 2 için simge",
+            "feedback2-icon-help": "\"⚠, ☎, ✎\" gibi bir simge ekleyin - Daha fazla simge için https://coolsymbol.com/",
+            "feedback3-title": "Geribildirim türü 3",
+            "feedback3-title-help": "\"Geribildirim türünüzün\" adını özelleştirin",
+            "feedback3-icon": "Geribildirim türü 3 için simge",
+            "feedback3-icon-help": "\"⚠, ☎, ✎\" gibi bir simge ekleyin - Daha fazla simge için https://coolsymbol.com/",
+            "contactdesc": "Geri bildirim aracını tam olarak etkinleştirmek için bu doldurulmalıdır",
+            "collect-email": "Kullanıcılara (isteğe bağlı) e-posta adresi alanını göster",
+            "collect-email-help": "Etkinleştirildiğinde, kullanıcılar e-posta adreslerini geri bildirime ekleyebilir",
+            "position": "Araç yerleşimi",
+            "position-help": "Geribildirim düğmesini görüntülemek için sol alt veya sağ alt yerleşimini seçin",
+            "right_label": "Sağ",
+            "left_label": "Sol",
+            "background-color": "Araç arkaplan rengi",
+            "background-color-help": "Arka plan rengi olarak kullanılacak bir hex kodu girin, örn. '#fff'",
+            "font-color": "Araç yazı rengi",
+            "font-color-help": "Yazı tipi rengi olarak kullanılacak bir hex kodu girin, örn. '#000'",
+            "box-title": "Kutu Başlığı",
+            "box-title-help": "Açılır geri bildirim aracının başlığını ayarlayın (eskiden \"Flarum Geribildirim\" idi)"
+        },
+        "api": {
+            "validation_error": "Boş geribildirimde bulunamazsınız"
+        },
+        "forum": {
+            "button-title": "Geribildirim",
+            "feedback-widget": {
+                "title": "Flarum Geribildirim",
+                "placeholder": "Geribildiriminizi buraya giriniz",
+                "email-placeholder": "E-Posta (isteğe bağlı)",
+                "submit": "Gönder",
+                "back": "Geri",
+                "contact-text": "Veya bir e-posta gönderin!",
+                "type-message": "Ne tür geri bildirimleriniz var?",
+                "success": "Teşekkürler!👊",
+                "failed-title": "Oops, bir hata meydana geldi",
+                "failed-message": "Lütfen daha sonra tekrar deneyin. Eğer devam ederse, bizimle e-posta ile iletişime geçin.",
+                "email-field-placeholder": "E-Posta (isteğe bağlı)",
+                "types": {
+                    "general": "Genel geribildirim",
+                    "idea": "Bir fikrim var",
+                    "bug": "Hata bildirimi"
+                }
+            },
+            "email": {
+                "guest": "anonim kullanıcı",
+                "subject": "Geribildirim",
+                "body": "{user} kullanıcısından {type} hakkında yeni bir geribildirim aldınız!\n\n{message}\n\nE-Posta: {email}\nBağlantı: {url}\n"
+            }
+        }
+    }
+}

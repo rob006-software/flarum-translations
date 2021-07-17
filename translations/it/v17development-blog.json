@@ -9,7 +9,7 @@
             },
             "settings": {
                 "no_categories_selected": "Nessuna categoria selezionata",
-                "selected_category_count": "Hai {count} categoria selezionata|Hai {count} categorie selezionate",
+                "selected_category_count": "{count, plural, one {Hai # categoria selezionata} other {Hai # categorie selezionate}}",
                 "select_categories_button": "Seleziona le categorie del blog",
                 "blog_heading": "Blog",
                 "allow_comments_label": "Permetti commenti",
@@ -41,8 +41,8 @@
             "recent_posts": "Post recenti del Blog",
             "categories": "Categorie",
             "forum_nav": "Forum Nav",
-            "return_to_overview": "Torna alla panoramica del blog",
-            "no_more_posts": "No more blog posts.",
+            "return_to_overview": "Torna alla panoramica del blog ",
+            "no_more_posts": "Niente post del blog.",
             "category_empty": "Non ci sono post del blog in questa categoria.",
             "compose": {
                 "write_article": "Scrivi articolo"
@@ -89,7 +89,7 @@
                 "post_article": "Pubblica articolo",
                 "select_category": "Scegli una categoria",
                 "edit_categories": "Modifica categorie",
-                "update_settings": "",
+                "update_settings": "Aggiorna impostazioni Blog",
                 "write": "Scrivi",
                 "view": "Vedi",
                 "nothing_to_preview": "Niente da visualizzare in anteprima",

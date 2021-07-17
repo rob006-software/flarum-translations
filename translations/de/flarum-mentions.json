@@ -1,0 +1,49 @@
+{
+    "flarum-mentions": {
+        "admin": {
+            "settings": {
+                "allow_username_format_label": "Format für die Erwähnung des Nutzernamens (@Nutzername) zulassen",
+                "allow_username_format_text": "Das aktuelle Format für Nutzernamen-Erwähnungen ist @\"Anzeigename\"#ID. \nThis setting allows using the old format of @Username, however it will still be converted to the new format upon saving.\nDiese Einstellungen erlaubt die Verwendung des alten @Nutzername-Formats, wird beim speichern aber trotzdem in das neue Format konvertiert.\n"
+            }
+        },
+        "forum": {
+            "composer": {
+                "mention_tooltip": "Benutzer*in oder Beitrag erwähnen",
+                "reply_to_post_text": "Antwort auf #{number}"
+            },
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_mentioned_text": "{username} {count, plural, one {hat} other {haben}} auf deinen Beitrag geantwortet",
+                "user_mentioned_text": "{username} hat dich erwähnt"
+            },
+            "post": {
+                "mentioned_by_self_text": "{username} {count, plural, one {hat} other {haben}} auf deinen Beitrag geantwortet.",
+                "mentioned_by_text": "{username} {count, plural, one {hat} other {haben}} auf diesen Beitrag geantwortet.",
+                "others_text": "=> core.ref.some_others",
+                "quote_button": "Zitieren",
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
+            },
+            "settings": {
+                "notify_post_mentioned_label": "Jemand hat auf deinen Beitrag geantwortet",
+                "notify_user_mentioned_label": "Jemand hat dich in einem Beitrag erwähnt"
+            },
+            "user": {
+                "mentions_link": "Erwähnungen"
+            },
+            "post_mention": {
+                "deleted_text": "[unbekannt]"
+            }
+        },
+        "email": {
+            "post_mentioned": {
+                "subject": "{replier_display_name} hat auf deinen Post in {title} geantwortet",
+                "body": "Hallo {recipient_display_name}!\n\n{replier_display_name} hat auf deinen Beitrag (#{post_number}) in {title} geantwortet.\n\n{url}\n\n---\n\n{content}\n"
+            },
+            "user_mentioned": {
+                "subject": "{mentioner_display_name} hat dich in {title} erwähnt",
+                "body": "Hallo {recipient_display_name}!\n\n{mentioner_display_name} hat dich in der Diskussion {title} erwähnt.\n\n{url}\n\n---\n\n{content}\n"
+            }
+        }
+    }
+}

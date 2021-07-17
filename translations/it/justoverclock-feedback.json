@@ -1,0 +1,61 @@
+{
+    "justoverclock-feedback": {
+        "admin": {
+            "contactmail": "Email a cui inviare i Feedback",
+            "feedback1-title": "Feedback 1",
+            "feedback1-title-help": "Personalizza il nome del \"Tipo di Feedback\"",
+            "feedback1-icon": "Icona per Feedback 1",
+            "feedback1-icon-help": "Inserisci un icona tipo \"⚠, ☎, ✎\" - Trovane altre su https://coolsymbol.com/",
+            "feedback2-title": "Feedback 2",
+            "feedback2-title-help": "Personalizza il nome per \"Feedback 2\"",
+            "feedback2-icon": "Icona per Feedback 2",
+            "feedback2-icon-help": "Inserisci un icona tipo \"⚠, ☎, ✎\" - Trovane altre su https://coolsymbol.com/",
+            "feedback3-title": "Feedback 3",
+            "feedback3-title-help": "Personalizza il nome per \"Feedback 3\"",
+            "feedback3-icon": "Icona per Feedback 3",
+            "feedback3-icon-help": "Inserisci un icona tipo \"⚠, ☎, ✎\" - Trovane altre su https://coolsymbol.com/",
+            "contactdesc": "Questo campo deve essere compilato per abilitare il widget",
+            "collect-email": "Mostra campo email opzionale agli utenti",
+            "collect-email-help": "Se abilitato, gli utenti possono aggiungere il proprio indirizzo e-mail al feedback",
+            "position": "Posizione Widget",
+            "position-help": "Seleziona la posizione del widget",
+            "right_label": "Destra",
+            "left_label": "Sinistra",
+            "background-color": "Colore di sfondo Widget",
+            "background-color-help": "Fornisci un codice colore esadecimale da utilizzare come colore di sfondo, ad esempio '#fff'",
+            "font-color": "Colore font Widget",
+            "font-color-help": "Fornisci un codice colore esadecimale da utilizzare come colore del carattere, ad esempio '#000'",
+            "box-title": "Titolo del Box",
+            "box-title-help": "Imposta il titolo del widget (il vecchio \"Flarum feedback\")"
+        },
+        "api": {
+            "validation_error": "Non puoi inviare feedback vuoti"
+        },
+        "forum": {
+            "button-title": "Feedback",
+            "feedback-widget": {
+                "title": "Feedback",
+                "placeholder": "Inserisci qui il tuo feedback",
+                "email-placeholder": "Email (opzionale)",
+                "submit": "Invia",
+                "back": "Indietro",
+                "contact-text": "O invia un email!",
+                "type-message": "Cosa vuoi segnalarci?",
+                "success": "Grazie!👊",
+                "failed-title": "Oops, errore riscontrato",
+                "failed-message": "Per favore riprova. Se continua a succedere, prova a inviare un'email.",
+                "email-field-placeholder": "Email (opzionale)",
+                "types": {
+                    "general": "Feedback Generale",
+                    "idea": "Ho un idea",
+                    "bug": "Report di un Bug"
+                }
+            },
+            "email": {
+                "guest": "un utente anonimo",
+                "subject": "Feedback",
+                "body": "Nuovo Feedback {type} da {user}!\n\n{message}\n\nEmail: {email}\nUrl: {url}\n"
+            }
+        }
+    }
+}

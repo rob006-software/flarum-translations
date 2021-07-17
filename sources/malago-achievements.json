@@ -74,7 +74,12 @@
                 "create_achievement_button": "Create New Achievement",
                 "instructions_header": "Instructions",
                 "instructions_text": "<li>To create an achievement, you must introduce a name.</li>\n<li>Description is optional.</li>\n<li>Choose which variable you want to calculate for this achievement from the list.</li>\n<li>Introduce the threshold for the achievement to be activated. You can introduce two numbers separated with a comma (,) to indicate a minimum threshold and a maximum threshold (both numbers are inclusive).</li>\n<li>Achievements with two threshold will be removed if the count is beyond the upper threshold.</li>\n<li>For the \"Message contains\" achievement, you must introduce the specified word and then the threshold, separated by a comma (e.g. \"spinach,5\" or \"spinach,5,10\" for minimum and maximum threshold.)</li>\n<li>Introduce the image URL with the icon to be used for this achievement.</li>\n<li>Introduce the width and height of the icon.</li>\n<li>Optional: If the image has more than one achievement icon, you can select which row and column to show for the icon.</li>\n",
-                "add_delete_users": "Add/Delete achievements from user"
+                "add_delete_users": "Add/Delete achievements from user",
+                "show": "Show achievement list on:"
+            },
+            "settings": {
+                "show-post-footer": "Each post footer",
+                "show-user-card": "User card"
             }
         }
     }

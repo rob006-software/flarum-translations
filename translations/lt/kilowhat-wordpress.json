@@ -1,0 +1,157 @@
+{
+    "kilowhat-wordpress": {
+        "admin": {
+            "settings": {
+                "section_general_intro": "",
+                "api_key": "",
+                "wordpress_url": "",
+                "wordpress_username": "",
+                "section_sso_intro": "",
+                "enable_sso": "",
+                "cookie_domain": "",
+                "cookie_domain_help": "",
+                "wordpress_login_path": "",
+                "wordpress_login_path_help": "",
+                "username_strategy": "",
+                "username_strategy_options": {
+                    "user_login": "",
+                    "first_name": "",
+                    "random": ""
+                },
+                "username_strategy_help": "",
+                "force_username_choice": "",
+                "force_username_choice_help": "",
+                "welcome_message": "",
+                "welcome_message_help": "",
+                "wordpress_login_only": "",
+                "wordpress_login_only_help": "",
+                "user_delete": "",
+                "user_delete_options": {
+                    "ignore": "",
+                    "delete": "",
+                    "suspend": ""
+                },
+                "user_delete_desc": "",
+                "section_comments_intro": "",
+                "enable_comments": "",
+                "excerpt_html_whitelist": "",
+                "excerpt_html_nodes": "",
+                "excerpt_length": "",
+                "comment_tag": "",
+                "comment_tag_none": "",
+                "comment_tag_custom": "",
+                "comment_tag_custom_help": "",
+                "summary_as_last_post": "",
+                "summary_as_last_post_help": "",
+                "use_post_date": "",
+                "use_post_date_help": "",
+                "post_hide": "",
+                "post_hide_options": {
+                    "ignore": "",
+                    "lock": "",
+                    "hide": "",
+                    "delete": ""
+                },
+                "post_delete": "",
+                "post_delete_options": {
+                    "ignore": "",
+                    "lock": "",
+                    "hide": "",
+                    "delete": ""
+                }
+            },
+            "tabs": {
+                "wizard": "",
+                "general": "",
+                "sso": "",
+                "comments": "",
+                "enabled": "",
+                "disabled": ""
+            },
+            "appearance": {
+                "edit_css_button": ""
+            },
+            "edit_css": {
+                "title": "",
+                "customize_text": ""
+            },
+            "permissions": {
+                "gambits": ""
+            },
+            "save-controls": {
+                "validation-errors": "",
+                "unsaved-changes": "",
+                "saved-at": "",
+                "no-unsaved-changes": "",
+                "save": ""
+            },
+            "health": {
+                "title": "",
+                "check": "",
+                "errors": "",
+                "healthy": "",
+                "not-run": "",
+                "request-error": ""
+            },
+            "wizard": {
+                "intro": "",
+                "wordpress_url": "",
+                "wordpress_url_help": "",
+                "wordpress_username": "",
+                "wordpress_password": "",
+                "wordpress_password_help": "",
+                "install": ""
+            }
+        },
+        "forum": {
+            "welcome-modal": {
+                "title": "",
+                "default_message": "",
+                "username": "",
+                "submit": "",
+                "not_now": ""
+            },
+            "edit-user-modal": {
+                "warning": "",
+                "edit_in_wordpress": "",
+                "should_not_edit_email": "",
+                "unlink": "",
+                "unlink_help": ""
+            },
+            "settings": {
+                "edit_on_wordpress": ""
+            },
+            "log_in": {
+                "with_wordpress_button": ""
+            },
+            "summary-post": {
+                "head_label": "",
+                "blog_link": "",
+                "read_more": ""
+            },
+            "embed": {
+                "title": ""
+            }
+        },
+        "api": {
+            "blocked_actions": {
+                "login": "",
+                "password_reset": "",
+                "email_change": ""
+            },
+            "wizard": {
+                "already_installed": "",
+                "api_unauthorized": "",
+                "api_error_get": "",
+                "api_error_post": "",
+                "invalid_wordpress_url": "",
+                "plugin_not_installed": ""
+            }
+        },
+        "views": {
+            "error": {
+                "missing_wordpress_embed": ""
+            }
+        }
+    }
+}

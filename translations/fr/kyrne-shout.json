@@ -2,12 +2,12 @@
     "kyrne-shout": {
         "admin": {
             "settings": {
-                "return_key": "La touche Retour envoie un message",
-                "title": "Paramètres Shout",
-                "set_own_password": "Laisser les utilisateurs créer leur propre mot de passe - Compatibilité SSO"
+                "return_key": "La touche « Retour » envoie le message",
+                "title": "Paramètres de Shout",
+                "set_own_password": "Laissez les utilisateurs créer leur propre mot de passe - compatible avec SSO"
             },
             "permissions": {
-                "start_label": "Commencer une conversation privée"
+                "start_label": "Démarrer des conversations privées"
             }
         },
         "forum": {
@@ -15,42 +15,42 @@
                 "tooltip": "Conversations"
             },
             "setup": {
-                "title": "Configuration messagerie privée",
-                "header_setup": "Saisissez vous mot de passe de compte pour configurer votre messagerie privée.",
-                "header_import": "Saisissez votre mot de passe de compte pour pour importer vos messages privés.",
-                "header_set_own": "Saisissez un mot de passe pour configurer votre messagerie privée.",
-                "header_set_own_import": "Saisissez votre mot de passe de messages privés pour les importers.",
-                "passwords_mismatch": "La vérification de mot de passe a échoué.",
+                "title": "Configurer la messagerie privée",
+                "header_setup": "Saisissez le mot de passe de connexion de votre compte pour configurer la messagerie privée.",
+                "header_import": "Saisissez le mot de passe de connexion de votre compte pour importer vos messages privés.",
+                "header_set_own": "Saisissez un mot de passe pour configurer les messages privés.",
+                "header_set_own_import": "Saisissez le mot de passe de vos messages privés pour les importer.",
+                "passwords_mismatch": "Les mots de passe ne correspondent pas",
                 "invalid_password": "Votre mot de passe est incorrect.",
-                "button_import": "Import",
-                "button_setup": "Configuration",
-                "confirm_password": "Confirmer Mot de passe",
-                "success": "Votre messagerie privée est prête, votre page va se rafraîchir ..."
+                "button_import": "Importer",
+                "button_setup": "Configurer",
+                "confirm_password": "Confirmer le mot de passe",
+                "success": "La messagerie privée est à présent disponible, votre page va maintenant s'actualiser..."
             },
             "modal": {
-                "title": "Commencer une conversation",
-                "help": "Saisissez un nom d'utilisateur pour commencer une conversation.",
-                "help_start": "Saissiez votre premier message. Ce sera le seul message que vous pourrez envoyez jusqu’à ce que {username} réponde. Cliquez sur l’utilisateur pour sélectionner un destinataire différent.",
-                "search_recipients": "Saisissez un nom d'utilisateur...",
-                "submit": "Envoyer et commencer une conversation",
-                "copied": "Votre message a été copié dans le presse-papier.",
-                "more_users": "Si vous ne voyez pas l’utilisateur que vous cherchez, il n’a pas encore sa messagerie privée de configurée.",
+                "title": "Démarrer une conversation",
+                "help": "Commencez à saisir un nom d'utilisateur pour démarrer une conversation.",
+                "help_start": "Saisissez votre premier message. Ce sera le seul message que vous pourrez envoyer jusqu'à ce que {username} réponde. Cliquez sur l'utilisateur pour sélectionner un autre destinataire.",
+                "search_recipients": "Saisissez un nom d'utilisateur…",
+                "submit": "Envoyer et démarrer une conversation",
+                "copied": "Votre message a été copié dans le presse-papiers.",
+                "more_users": "Si vous ne retrouvez pas l'utilisateur que vous recherchez, c'est qu'il n'a pas configuré sa messagerie privée.",
                 "already": "Vous avez déjà une conversation avec {username}."
             },
-            "user_modal_alert": "{username} a sa messagerie privée de configurée, son mot de passe ne peut pas être changé en toute sécurité.",
+            "user_modal_alert": "{username} a configuré sa messagerie privée, son mot de passe ne peut donc pas être changé en toute sécurité.",
             "chat": {
-                "chat_with": "Discuter avec {username}",
-                "messages_multiple": "{count} messages totaux",
+                "chat_with": "Converser avec {username}",
+                "messages_multiple": "{count} messages au total",
                 "messages_single": "Nouvelle conversation",
-                "start": "Commencer une conversation",
-                "cant_start": "Vous ne pouvez pas commencer une nouvelle conversation",
+                "start": "Démarrer une conversation",
+                "cant_start": "Ne peut pas démarrer une conversation",
                 "text_placeholder": "Saisissez votre message",
                 "send": "Envoyer un message",
-                "recovery_message": "Message système : Synchronisation du chiffrement perdue et restaurée",
-                "failed_message": "Erreur de déchiffrement du message, tentative de récupération #{method}",
-                "cant_send": "Vous ne pouvez pas envoyer un message tant que {username} n’a pas répondu (premier message uniquement)",
-                "cant_send_toomany": "Veuillez attendre que {username} réponde avant d’envoyer plus de messages",
-                "failed_to_decrypt": "[Erreur de déchiffrement]",
+                "recovery_message": "Message système : perte et récupération de la synchronisation de chiffrement",
+                "failed_message": "Échec du déchiffrement du message, tentative de méthode de récupération #{method}",
+                "cant_send": "Vous ne pouvez pas envoyer de message tant que {username} ne répond pas (premier message uniquement)",
+                "cant_send_toomany": "Veuillez attendre la réponse de {username} avant d'envoyer d'autres messages",
+                "failed_to_decrypt": "[Échec du déchiffrement]",
                 "start_of_conversation": "Début de la conversation"
             }
         }

@@ -1,0 +1,47 @@
+{
+    "Xengine-signature": {
+        "forum": {
+            "buttons": {
+                "signature": "Signature",
+                "save": "Save Signature"
+            },
+            "modal": {
+                "loading": {
+                    "title": "Saving",
+                    "content": "Please wait..."
+                },
+                "error": {
+                    "title": "Whoops! Encountered some errors while saving...",
+                    "content": "List of errors:"
+                }
+            },
+            "errors": {
+                "max_char_limit_exceed": "Maximum character limit exceeded.",
+                "max_image_width_exceed": "Maximum image width limit exceeded.",
+                "max_image_height_exceed": "Maximum image height limit exceeded.",
+                "max_image_count_exceed": "Maximum image count exceeded."
+            }
+        },
+        "admin": {
+            "title": "Signature",
+            "settings": {
+                "maximum_image_width": {
+                    "description": "Maximum width of images on editor.",
+                    "placeholder": "350 (default)"
+                },
+                "maximum_image_height": {
+                    "description": "Maximum height of sum height of total inserted images on editor.",
+                    "placeholder": "500 (default)"
+                },
+                "maximum_image_count": {
+                    "description": "Maximum inserted images.",
+                    "placeholder": "5 (default)"
+                },
+                "maximum_char_limit": {
+                    "description": "Maximum character limit of signature (count characters, does not considering with HTML tags)",
+                    "placeholder": "1000 (default)"
+                }
+            }
+        }
+    }
+}

@@ -4,20 +4,20 @@
             "title": "",
             "description": "",
             "total_entries": "",
-            "page": "",
+            "page": "පිටුව: {number}",
             "no_entries": "",
-            "search": "",
-            "settings": "",
+            "search": "සොයන්න..",
+            "settings": "=> core.ref.settings",
             "action_settings": "",
-            "save": "",
+            "save": "=> core.ref.save_changes",
             "clear": "",
             "clear_confirmation": "",
             "sort": {
-                "newest": "",
-                "oldest": ""
+                "newest": "=> core.forum.index_sort.newest_button",
+                "oldest": "=> core.forum.index_sort.oldest_button"
             },
             "gambits": {
-                "label": "",
+                "label": "පෙරහන් සොයන්න",
                 "description": "",
                 "items": {
                     "type": "",
@@ -30,7 +30,7 @@
                 "moderation": {
                     "label": "",
                     "discussion": {
-                        "label": "",
+                        "label": "සාකච්ඡාව",
                         "locked": {
                             "label": "",
                             "action": ""

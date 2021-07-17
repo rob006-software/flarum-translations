@@ -1,0 +1,84 @@
+{
+    "the-turk-diff": {
+        "forum": {
+            "revisions": "",
+            "emptyText": "",
+            "editedText": "=> core.forum.post.edited_text",
+            "deletedText": "",
+            "tooltips": {
+                "mostRecent": "",
+                "originalContent": "=> the-turk-diff.ref.originalContent",
+                "revisionWithNumber": "=> the-turk-diff.ref.revisionWithNumber",
+                "sideBySide": "",
+                "inline": "",
+                "combined": "",
+                "preview": "=> core.forum.composer.preview_tooltip"
+            },
+            "optionsButton": "",
+            "deleteButton": "=> core.forum.post_controls.delete_button",
+            "rollbackButton": "",
+            "rollbackToOriginalButton": "",
+            "revertChangesButton": "",
+            "confirmRollback": "",
+            "confirmDelete": "",
+            "rollbackErrorMessage": "",
+            "deleteErrorMessage": "",
+            "rollbackSuccessMessage": "",
+            "deleteSuccessMessage": "",
+            "editedInfo": "=> core.forum.post.edited_tooltip",
+            "deletedInfo": "",
+            "createdInfo": "",
+            "revisionInfo": "",
+            "noDiff": "",
+            "differences": {
+                "originalContent": "=> the-turk-diff.ref.originalContent",
+                "currentContent": "=> the-turk-diff.ref.currentContent",
+                "revisionWithNumber": "=> the-turk-diff.ref.revisionWithNumber",
+                "sentence": ""
+            },
+            "previewMode": {
+                "originalContent": "=> the-turk-diff.ref.originalContent",
+                "currentContent": "=> the-turk-diff.ref.currentContent",
+                "revisionWithNumber": "=> the-turk-diff.ref.revisionWithNumber",
+                "sentence": ""
+            }
+        },
+        "admin": {
+            "settings": {
+                "title": "",
+                "onlyUnsigned": "",
+                "usePoint": "",
+                "separateBlock": "",
+                "mainPostOnly": "",
+                "textFormatting": "",
+                "detailLevel": "",
+                "noneLevel": "",
+                "lineLevel": "",
+                "wordLevel": "",
+                "charLevel": "",
+                "neighborLines": "",
+                "neighborLinesHelp": "",
+                "mergeThreshold": "",
+                "mergeThresholdHelp": "",
+                "dbOptimisation": "",
+                "archiveOlds": "",
+                "archiveOldsInfo": "",
+                "useCrons": "",
+                "useCronsHelp": "",
+                "archiveInfo": ""
+            },
+            "permissions": {
+                "viewEditHistory": "",
+                "deleteEditHistory": "",
+                "selfDeleteEditHistory": "",
+                "rollbackEditHistory": "",
+                "selfRollbackEditHistory": ""
+            }
+        },
+        "ref": {
+            "originalContent": "",
+            "currentContent": "",
+            "revisionWithNumber": ""
+        }
+    }
+}

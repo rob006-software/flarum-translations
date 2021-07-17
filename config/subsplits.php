@@ -17,10 +17,24 @@ use app\components\release\PolishReleaseGenerator;
 use function rob006\flarum\translations\helpers\getComponents;
 
 return [
+	'ar' => [
+		'type' => 'language',
+		'language' => 'ar',
+		'repository' => 'git@github.com:neerugupta/flarum-lang-arabic.git',
+		'branch' => 'master',
+		'path' => '/locale',
+	],
 	'cs' => [
 		'type' => 'language',
 		'language' => 'cs',
 		'repository' => 'git@github.com:madnest/flarum-lang-czech.git',
+		'branch' => 'master',
+		'path' => '/locale',
+	],
+	'de' => [
+		'type' => 'language',
+		'language' => 'de',
+		'repository' => 'git@github.com:flarum-lang/german.git',
 		'branch' => 'master',
 		'path' => '/locale',
 	],
@@ -38,6 +52,13 @@ return [
 		'branch' => 'master',
 		'path' => '/locale',
 	],
+	'fa' => [
+		'type' => 'language',
+		'language' => 'fa',
+		'repository' => 'git@github.com:flarum-lang/persian.git',
+		'branch' => 'master',
+		'path' => '/locale',
+	],
 	'fr' => [
 		'type' => 'language',
 		'language' => 'fr',
@@ -49,6 +70,13 @@ return [
 		'type' => 'language',
 		'language' => 'hi',
 		'repository' => 'git@github.com:flarum-lang/hindi.git',
+		'branch' => 'master',
+		'path' => '/locale',
+	],
+	'hu' => [
+		'type' => 'language',
+		'language' => 'hu',
+		'repository' => 'git@github.com:flarum-lang/hungarian.git',
 		'branch' => 'master',
 		'path' => '/locale',
 	],
@@ -73,11 +101,32 @@ return [
 		'branch' => 'main',
 		'path' => '/locale',
 	],
+	'lt' => [
+		'type' => 'language',
+		'language' => 'lt',
+		'repository' => 'git@github.com:flarum-lang/lithuanian.git',
+		'branch' => 'main',
+		'path' => '/locale',
+	],
 	'lv' => [
 		'type' => 'language',
 		'language' => 'lv',
 		'repository' => 'git@github.com:edevrob/flarum-lang-latvian.git',
 		'branch' => 'master',
+		'path' => '/locale',
+	],
+	'ml' => [
+		'type' => 'language',
+		'language' => 'ml',
+		'repository' => 'git@github.com:flarum-lang/malayalam.git',
+		'branch' => 'master',
+		'path' => '/locale',
+	],
+	'ms' => [
+		'type' => 'language',
+		'language' => 'ms',
+		'repository' => 'git@github.com:flarum-lang/malaysian.git',
+		'branch' => 'main',
 		'path' => '/locale',
 	],
 	'nl' => [
@@ -95,11 +144,32 @@ return [
 		'branch' => 'master',
 		'path' => '/locale',
 	],
+	'pt' => [
+		'type' => 'language',
+		'language' => 'pt',
+		'repository' => 'git@github.com:flarum-lang/portuguese.git',
+		'branch' => 'master',
+		'path' => '/locale',
+	],
+	'pt_BR' => [
+		'type' => 'language',
+		'language' => 'pt_BR',
+		'repository' => 'git@github.com:flarum-lang/brazilian.git',
+		'branch' => 'main',
+		'path' => '/locale',
+	],
 	'si' => [
 		'type' => 'language',
 		'language' => 'si',
 		'repository' => 'git@github.com:flarum-lang/sinhala.git',
 		'branch' => 'main',
+		'path' => '/locale',
+	],
+	'sk' => [
+		'type' => 'language',
+		'language' => 'sk',
+		'repository' => 'git@github.com:flarum-lang/slovak.git',
+		'branch' => 'master',
 		'path' => '/locale',
 	],
 	'ta' => [

@@ -4,71 +4,71 @@
             "admin": {
                 "settings_page": {
                     "display_options": {
-                        "heading": "",
+                        "heading": "Paramètres d'affichage",
                         "options": {
                             "position": {
-                                "above-tags-link": "",
-                                "below-tags-link": ""
+                                "above-tags-link": "Au-dessus du bouton « Étiquettes »",
+                                "below-tags-link": "En-dessous du bouton « Étiquettes »"
                             }
                         },
                         "labels": {
-                            "position": "",
-                            "top_spacer": "",
-                            "bottom_spacer": ""
+                            "position": "Emplacement du lien",
+                            "top_spacer": "Afficher un espacement supérieur",
+                            "bottom_spacer": "Afficher un espacement inférieur"
                         }
                     },
                     "link_table": {
-                        "heading": "",
-                        "add_link_btn": "",
-                        "confirm_delete": "",
+                        "heading": "Personnaliser les liens",
+                        "add_link_btn": "Ajouter un nouveau lien",
+                        "confirm_delete": "Confirmer la suppression du lien « {link} »",
                         "alert": {
-                            "fix_errors": ""
+                            "fix_errors": "Vous devez résoudre les problèmes affichés ci-dessus avant d'enregistrer vos modifications."
                         },
                         "table": {
                             "header": {
-                                "position": "",
-                                "icon": "",
-                                "text": "",
-                                "url": "",
-                                "internal": "",
-                                "delete": ""
+                                "position": "Position",
+                                "icon": "Icône du lien",
+                                "text": "Texte du lien",
+                                "url": "URL du lien",
+                                "internal": "Est-ce l'URL de Flarum ?",
+                                "delete": "Supprimer"
                             },
                             "placeholders": {
-                                "icon": "",
-                                "text": "",
-                                "url": ""
+                                "icon": "fas fa-link",
+                                "text": "Mon site web",
+                                "url": "https://flarum.org"
                             },
                             "tooltips": {
-                                "move_up": "",
-                                "move_down": "",
-                                "icon_preview": ""
+                                "move_up": "Monter",
+                                "move_down": "Descendre",
+                                "icon_preview": "Prévisualisation de l'icône"
                             }
                         },
                         "save_btn": {
-                            "dirty": "",
-                            "saving": "",
-                            "saved": "",
-                            "fix_errors": ""
+                            "dirty": "Enregistrer les paramètres",
+                            "saving": "Enregistrement des modifications...",
+                            "saved": "Aucune modification à enregistrer",
+                            "fix_errors": "Corriger les erreurs avant d'enregistrer"
                         }
                     },
                     "new_link_modal": {
-                        "title": "",
+                        "title": "Ajouter un nouveau lien",
                         "submit_btn": {
-                            "add": "",
-                            "loading": "",
-                            "fix_url": "",
-                            "invalid_form": ""
+                            "add": "Ajouter un lien",
+                            "loading": "Ajout d'un lien",
+                            "fix_url": "URL non valide",
+                            "invalid_form": "Remplissez tous les champs"
                         },
                         "labels": {
-                            "icon": "",
-                            "text": "",
-                            "url": "",
-                            "internal": ""
+                            "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.icon",
+                            "text": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.text",
+                            "url": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.url",
+                            "internal": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.internal"
                         },
                         "placeholders": {
-                            "icon": "",
-                            "text": "",
-                            "url": ""
+                            "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.icon",
+                            "text": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.text",
+                            "url": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.url"
                         }
                     }
                 }

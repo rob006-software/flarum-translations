@@ -3,7 +3,7 @@
         "admin": {
             "repository": "GitHub 存储库",
             "repository_example": "示例：flarum/core",
-            "milestone": "里程碑 ID",
+            "milestone": "Milestone ID",
             "default_filter": "默认过滤条件",
             "closed": "=> sycho-github-milestone.ref.closed",
             "open": "=> sycho-github-milestone.ref.open",
@@ -11,7 +11,7 @@
         },
         "forum": {
             "title": "里程碑",
-            "last_updated": "上次更新 {time}",
+            "last_updated": "最新进展 {time}",
             "closed": "=> sycho-github-milestone.ref.closed",
             "open": "=> sycho-github-milestone.ref.open",
             "all": "=> sycho-github-milestone.ref.all",
@@ -21,7 +21,7 @@
         },
         "ref": {
             "closed": "已关闭",
-            "open": "开启的",
+            "open": "进行中",
             "all": "所有"
         }
     }

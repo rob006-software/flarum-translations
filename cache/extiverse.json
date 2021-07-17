@@ -17,7 +17,7 @@
         "name": "blomstra/realtime",
         "title": "Realtime",
         "description": "Step up to make your Flarum forum realtime.",
-        "version": "0.1-beta.31",
+        "version": "0.2-beta.18",
         "requiredFlarum": "^1.0.0"
     },
     "datitisev/flarum-backup": {
@@ -34,12 +34,89 @@
         "version": "1.0.0",
         "requiredFlarum": "^1.0.0"
     },
+    "datitisev/flarum-webhooks-pro": {
+        "name": "datitisev/flarum-webhooks-pro",
+        "title": "Webhooks PRO",
+        "description": "Adds more integrations with FriendsOfFlarum Webhooks & a custom adapter",
+        "version": "1.0.1",
+        "requiredFlarum": "^1.0.0"
+    },
+    "glowingblue/anti-spam": {
+        "name": "glowingblue/anti-spam",
+        "title": "GB Anti Spam",
+        "description": "Attempts to work against spammers with various strategies",
+        "version": "0.3.0",
+        "requiredFlarum": ">=0.1.0-beta.15 <0.1.0-beta.16"
+    },
     "glowingblue/core": {
         "name": "glowingblue/core",
         "title": "GB Core",
         "description": "Core stuff for Flarum",
         "version": "0.2.0",
         "requiredFlarum": ">=0.1.0-beta.15 <0.1.0-beta.16"
+    },
+    "glowingblue/engage": {
+        "name": "glowingblue/engage",
+        "title": "GB Engage",
+        "description": "Intelligent management of inactive or passive users",
+        "version": "0.2.0",
+        "requiredFlarum": ">=0.1.0-beta.15 <0.1.0-beta.16"
+    },
+    "glowingblue/fontawesome": {
+        "name": "glowingblue/fontawesome",
+        "title": "GB Fontawesome",
+        "description": "Extension to allow usage of non-standard fontawesome assets",
+        "version": "0.1.1",
+        "requiredFlarum": "^0.1.0-beta.13"
+    },
+    "glowingblue/inline-hints": {
+        "name": "glowingblue/inline-hints",
+        "title": "GB Inline Hints",
+        "description": "Hints embedded into the UI to help the user with the onboarding process",
+        "version": "0.2.0",
+        "requiredFlarum": ">=0.1.0-beta.15 <0.1.0-beta.16"
+    },
+    "glowingblue/localizd": {
+        "name": "glowingblue/localizd",
+        "title": "GB Localizd",
+        "description": "Provide additional translations",
+        "version": "0.1.0-beta.7",
+        "requiredFlarum": ">=0.1.0-beta.13 <0.1.0-beta.14"
+    },
+    "glowingblue/modern-theme": {
+        "name": "glowingblue/modern-theme",
+        "title": "GB Modern Theme",
+        "description": "A modern theme for Flarum",
+        "version": "0.2.0",
+        "requiredFlarum": ">=0.1.0-beta.15 <0.1.0-beta.16"
+    },
+    "glowingblue/modmsg": {
+        "name": "glowingblue/modmsg",
+        "title": "GB ModMsg",
+        "description": "Let moderators control to be contacted by users.",
+        "version": "0.2.0",
+        "requiredFlarum": ">=0.1.0-beta.15 <0.1.0-beta.16"
+    },
+    "glowingblue/scheduled-posts": {
+        "name": "glowingblue/scheduled-posts",
+        "title": "GB Scheduled Posts",
+        "description": "Adds the ability the schedule posts (new discussions)",
+        "version": "0.2.0",
+        "requiredFlarum": ">=0.1.0-beta.15 <0.1.0-beta.16"
+    },
+    "glowingblue/typeform": {
+        "name": "glowingblue/typeform",
+        "title": "GB Typeform",
+        "description": "Call to action button that opens a Typeform survey",
+        "version": "0.2.0",
+        "requiredFlarum": ">=0.1.0-beta.15 <0.1.0-beta.16"
+    },
+    "glowingblue/welcome-popup": {
+        "name": "glowingblue/welcome-popup",
+        "title": "GB Welcome Popup",
+        "description": "welcome popup",
+        "version": "0.3.3",
+        "requiredFlarum": ">=0.1.0-beta.12 <0.1.0-beta.14"
     },
     "kilowhat/flarum-ext-audit-pro": {
         "name": "kilowhat/flarum-ext-audit-pro",
@@ -66,8 +143,8 @@
         "name": "kilowhat/flarum-ext-guest-posting",
         "title": "Guest Posting",
         "description": "Enable guest posting",
-        "version": "0.3.0",
-        "requiredFlarum": "^0.1.0-beta.16"
+        "version": "1.0.0",
+        "requiredFlarum": "^1.0"
     },
     "kilowhat/flarum-ext-wordpress": {
         "name": "kilowhat/flarum-ext-wordpress",
@@ -87,15 +164,15 @@
         "name": "kyrne/websocket",
         "title": "Websocket",
         "description": "Integrated Pusher replacement.",
-        "version": "2.6.0",
+        "version": "2.7.0",
         "requiredFlarum": "^1.0.2"
     },
     "reflar/recache": {
         "name": "reflar/recache",
         "title": "ReCache",
         "description": "Cache requests and database queries.",
-        "version": "2.3.3",
-        "requiredFlarum": "^0.1.0-beta.16"
+        "version": "3.0.1",
+        "requiredFlarum": "^1.0.2"
     },
     "reflar/webhooks-pro": {
         "name": "reflar/webhooks-pro",
@@ -108,7 +185,7 @@
         "name": "v17development/flarum-support",
         "title": "Support",
         "description": "Make from your forum a support platform",
-        "version": "v2.3.0",
+        "version": "v2.3.2",
         "requiredFlarum": "^1.0.0"
     }
 }

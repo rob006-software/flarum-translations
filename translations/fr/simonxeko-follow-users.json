@@ -2,55 +2,55 @@
     "simonxeko-follow-users": {
         "admin": {
             "permissions": {
-                "can_not_be_followed_label": ""
+                "can_not_be_followed_label": "Ne peut pas être suivi"
             }
         },
         "forum": {
-            "profile_link": "",
+            "profile_link": "Suivi",
             "user_controls": {
-                "follow_button": "",
-                "follow_confirmation": "",
-                "unfollow_button": "",
-                "unfollow_confirmation": ""
+                "follow_button": "Suivre",
+                "follow_confirmation": "Êtes-vous sûr de suivre cet utilisateur ?",
+                "unfollow_button": "Ne plus suivre",
+                "unfollow_confirmation": "Êtes-vous sûr de ne plus suivre cet utilisateur ?"
             },
             "settings": {
-                "notify_new_discussion_label": "",
-                "notify_new_post_label": ""
+                "notify_new_discussion_label": "Quelqu'un que je suis crée une discussion",
+                "notify_new_post_label": "Quelqu'un que je suis publie une réponse"
             },
             "index": {
-                "follow_tag_button": "",
-                "unfollow_tag_button": ""
+                "follow_tag_button": "Suivre",
+                "unfollow_tag_button": "Ne plus suivre"
             },
             "sub_controls": {
-                "follow_button": "",
-                "following_button": "",
-                "following_text": "",
-                "hiding_button": "",
-                "hiding_text": "",
-                "ignoring_button": "",
-                "ignoring_text": "",
-                "lurking_button": "",
-                "lurking_text": "",
-                "not_following_button": "",
-                "not_following_text": "",
-                "notify_alert_tooltip": "",
-                "notify_email_tooltip": ""
+                "follow_button": "=> simonxeko-follow-users.ref.follow",
+                "following_button": "=> simonxeko-follow-users.ref.following",
+                "following_text": "Être notifié de toutes les nouvelles discussions.",
+                "hiding_button": "=> simonxeko-follow-users.ref.hiding",
+                "hiding_text": "Masquer les discussions de la page de toutes les discussions.",
+                "ignoring_button": "=> simonxeko-follow-users.ref.ignoring",
+                "ignoring_text": "Ne jamais être notifié.",
+                "lurking_button": "=> simonxeko-follow-users.ref.lurking",
+                "lurking_text": "Être notifié de toutes les nouvelles discussions et réponses.",
+                "not_following_button": "Pas abonné",
+                "not_following_text": "N'être notifié que lorsque @mentionné.",
+                "notify_alert_tooltip": "Recevoir une notification du forum lorsque de nouvelles discussions ou de nouveaux messages sont publiés",
+                "notify_email_tooltip": "Recevoir un courriel lorsque de nouvelles discussions ou de nouveaux messages sont publiés"
             },
             "notifications": {
-                "new_discussion_text": "",
-                "new_post_text": ""
+                "new_discussion_text": "{username} a démarré",
+                "new_post_text": "{username} a publié"
             }
         },
         "email": {
-            "newDiscussionInTag": "",
-            "newPostInTag": ""
+            "newDiscussionInTag": "[Étiquette | Nouvelle discussion] Titre",
+            "newPostInTag": "[Étiquette | Nouveau message] Titre"
         },
         "ref": {
-            "follow": "",
-            "following": "",
-            "hiding": "",
-            "ignoring": "",
-            "lurking": ""
+            "follow": "Suivre",
+            "following": "Abonné",
+            "hiding": "Masqué",
+            "ignoring": "Ignoré",
+            "lurking": "Surveillé"
         }
     }
 }

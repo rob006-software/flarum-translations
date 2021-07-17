@@ -1,0 +1,30 @@
+{
+    "flarum-suspend": {
+        "admin": {
+            "permissions": {
+                "suspend_users_label": "Pozastavení používatelia"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "user_suspended_text": "{username} ťa pozastavil na {timeReadable}",
+                "user_unsuspended_text": "{username} ťa odzastavil"
+            },
+            "suspend_user": {
+                "indefinitely_label": "Pozastavený na neurčito",
+                "limited_time_days_text": " dní",
+                "limited_time_label": "Pozastavený na určitý čas...",
+                "not_suspended_label": "Nepozastavený",
+                "status_heading": "Stav Pozastavenia",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Pozastaviť používateľa {username}"
+            },
+            "user_badge": {
+                "suspended_tooltip": "Pozastavený"
+            },
+            "user_controls": {
+                "suspend_button": "Pozastaviť"
+            }
+        }
+    }
+}

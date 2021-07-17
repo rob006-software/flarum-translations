@@ -1,0 +1,61 @@
+{
+    "justoverclock-feedback": {
+        "admin": {
+            "contactmail": "Adresse de courriel à laquelle envoyer les retours d'expérience",
+            "feedback1-title": "Type de retour d'expérience 1",
+            "feedback1-title-help": "Personnalisez ici le nom de votre « type de retour d'expérience »",
+            "feedback1-icon": "Icône pour le retour d'expérience de type 1",
+            "feedback1-icon-help": "Insérez une icône de texte telle que « ⚠, ☎, ✎ » - Retrouvez plus d'icônes sur https://coolsymbol.com/",
+            "feedback2-title": "Type de retour d'expérience 2",
+            "feedback2-title-help": "Personnalisez ici le nom de votre « type de retour d'expérience 2 »",
+            "feedback2-icon": "Icône pour le retour d'expérience de type 2",
+            "feedback2-icon-help": "Insérez une icône de texte telle que « ⚠, ☎, ✎ » - Retrouvez plus d'icônes sur https://coolsymbol.com/",
+            "feedback3-title": "Type de retour d'expérience 3",
+            "feedback3-title-help": "Personnalisez ici le nom de votre « type de retour d'expérience 3 »",
+            "feedback3-icon": "Icône pour le retour d'expérience de type 3",
+            "feedback3-icon-help": "Insérez une icône de texte telle que « ⚠, ☎, ✎ » - Retrouvez plus d'icônes sur https://coolsymbol.com/",
+            "contactdesc": "Ce champ doit être rempli pour activer complètement le widget des retours d'expérience",
+            "collect-email": "Afficher le champ de l'adresse de courriel aux utilisateurs (facultatif)",
+            "collect-email-help": "Lorsque cette option est activée, les utilisateurs peuvent ajouter leur adresse de courriel aux retours d'expérience",
+            "position": "Position du widget",
+            "position-help": "Sélectionnez en bas à gauche ou en bas à droite pour afficher le bouton des retours d'expérience",
+            "right_label": "Droite",
+            "left_label": "Gauche",
+            "background-color": "Couleur d'arrière-plan du widget",
+            "background-color-help": "Saisissez un code de couleur hexadécimal à utiliser comme couleur d'arrière-plan, tel que '#fff'",
+            "font-color": "Couleur de la police du widget",
+            "font-color-help": "Saisissez un code de couleur hexadécimal à utiliser comme couleur de police, tel que '#000'",
+            "box-title": "Titre de la fenêtre",
+            "box-title-help": "Définissez le titre du widget des retours d'expérience contextuels (anciennement « Flarum feedback »)"
+        },
+        "api": {
+            "validation_error": "Vous ne pouvez pas envoyer de retour d'expérience vide"
+        },
+        "forum": {
+            "button-title": "Retour d'expérience",
+            "feedback-widget": {
+                "title": "Retour d'expérience de Flarum",
+                "placeholder": "Saisissez ici votre retour d'expérience",
+                "email-placeholder": "Courriel (facultatif)",
+                "submit": "Envoyer",
+                "back": "Retour",
+                "contact-text": "Ou envoyez un courriel !",
+                "type-message": "Quel est votre retour d'expérience ?",
+                "success": "Merci ! 👊",
+                "failed-title": "Oups, une erreur est survenue",
+                "failed-message": "Veuillez réessayer. Si le problème persiste, essayez plutôt d'envoyer un courriel.",
+                "email-field-placeholder": "Courriel (champ facultatif)",
+                "types": {
+                    "general": "Retour d'expérience général",
+                    "idea": "J'ai une idée",
+                    "bug": "Rapport de bogue"
+                }
+            },
+            "email": {
+                "guest": "un utilisateur anonyme",
+                "subject": "Retour d'expérience",
+                "body": "Nouveau retour d'expérience {type} de {user} !\n\n{message}\n\nCourriel : {email}\nURL : {url}\n"
+            }
+        }
+    }
+}

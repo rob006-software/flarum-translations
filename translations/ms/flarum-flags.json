@@ -1,0 +1,50 @@
+{
+    "flarum-flags": {
+        "admin": {
+            "permissions": {
+                "flag_posts_label": "",
+                "view_flags_label": ""
+            },
+            "settings": {
+                "flag_own_posts_label": "",
+                "guidelines_url_label": "",
+                "title": ""
+            }
+        },
+        "forum": {
+            "flag_post": {
+                "confirmation_message": "",
+                "dismiss_button": "=> core.ref.okay",
+                "reason_details_placeholder": "",
+                "reason_inappropriate_label": "",
+                "reason_inappropriate_text": "",
+                "reason_missing_message": "",
+                "reason_off_topic_label": "",
+                "reason_off_topic_text": "",
+                "reason_other_label": "",
+                "reason_spam_label": "",
+                "reason_spam_text": "",
+                "submit_button": "=> flarum-flags.ref.flag_post",
+                "title": "=> flarum-flags.ref.flag_post"
+            },
+            "flagged_posts": {
+                "empty_text": "",
+                "item_text": "",
+                "title": "=> flarum-flags.ref.flagged_posts",
+                "tooltip": "=> flarum-flags.ref.flagged_posts"
+            },
+            "post": {
+                "dismiss_flag_button": "",
+                "flagged_by_text": "",
+                "flagged_by_with_reason_text": ""
+            },
+            "post_controls": {
+                "flag_button": ""
+            }
+        },
+        "ref": {
+            "flag_post": "",
+            "flagged_posts": ""
+        }
+    }
+}

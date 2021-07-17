@@ -1,0 +1,24 @@
+{
+    "expired-posts": {
+        "forum": {
+            "composer": {
+                "warning": {
+                    "title": "Gönderinin Süresi Doldu",
+                    "description": "Bu gönderinin süresi doldu.",
+                    "error": "Bu tartışmanın süresi doldu."
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "days_label": "Gün",
+                "days_help": "Bir tartışmaya belirlenen gün süresinden fazla sürede gönderi yapılmazsa süresi dolmuş olarak işaretlenir. Varsayılan olarak devre dışı bırakmak için <code>0</code> kullanın.",
+                "message_title_label": "Özel Mesaj Başlığı",
+                "message_title_help": "Metinde süreyi göstermek için <code>[time]</code> kodunu kullanın, örnekler \"14 gün\".",
+                "message_description_label": "Özel Mesaj Açıklaması",
+                "tags_title": "Etiketler",
+                "tags_help": "Belirli bir etiket için genel günleri geçersiz kılın. Boş, varsayılan değeri kullanmak anlamına gelir. Bir tartışmanın farklı gün değerlerine sahip birden fazla etiketi varsa, yapılandırılan en küçük gün miktarını kullanır."
+            }
+        }
+    }
+}

@@ -1,0 +1,102 @@
+{
+    "v17development-flarum-blog": {
+        "admin": {
+            "blog": "Blog",
+            "permissions": {
+                "write_articles": "Blog cikkek írása és szerkesztése",
+                "auto_approve_posts": "Cikkek mentése jóváhagyás nélkül",
+                "approve_posts": ""
+            },
+            "settings": {
+                "no_categories_selected": "Nincs kategória kiválasztva",
+                "selected_category_count": "# kategória kiválasztva",
+                "select_categories_button": "Válassz blog kategóriát",
+                "blog_heading": "Blog",
+                "allow_comments_label": "Hozzászólások engedélyezése",
+                "allow_comments_text": "",
+                "require_review_label": "Blog cikkeknél szükséges a jóváhagyás",
+                "require_review_text": "",
+                "hide_on_discussion_list_label": "Ne mutassa a beszélgetés listában",
+                "hide_on_discussion_list_text": "Blog hozzáaszólások elrejtése a beszélgetés listában.",
+                "add_sidebar_nav_label": "Hozzáadás a navigációhoz",
+                "add_sidebar_nav_text": "",
+                "categories_heading": "Kategóriák",
+                "hide_tags_in_taglist_label": "Címék elrejtése a címke listából",
+                "hide_tags_in_taglist_text": "",
+                "show_tag_hierarchy_label": "",
+                "show_tag_hierarchy_text": "",
+                "redirects_heading": "Átirányítások",
+                "redirect_articles_label": "Blog cikkek átirányítása",
+                "redirect_articles_text": "",
+                "redirect_tags_label": "",
+                "redirect_tags_text": "",
+                "default_article_image_label": "Alapértelmezett cikk kép",
+                "default_article_image_text": ""
+            }
+        },
+        "forum": {
+            "blog": "Blog",
+            "read_more": "Több",
+            "hidden": "Elrejtve",
+            "recent_posts": "Friss cikkek",
+            "categories": "Kategóriák",
+            "forum_nav": "",
+            "return_to_overview": "Vissza a blog összefoglalóhoz ",
+            "no_more_posts": "Nincs több cikk.",
+            "category_empty": "Ebben a kategóriában nincsenek cikkek.",
+            "compose": {
+                "write_article": "Cikk létrehozása"
+            },
+            "validation": {
+                "missing_id": "Hiányzó ID"
+            },
+            "article": {
+                "title": "Cím",
+                "slug": "",
+                "summary": "Összefoglaló"
+            },
+            "comment_section": {
+                "comments": "Hozzászólások",
+                "locked": "A hozzászólások nem engedélyezettek ennél a cikknél"
+            },
+            "review_article": {
+                "pending_review_title": "Várakozik a jóváhagyásra",
+                "pending_review": "",
+                "approve_article": "Cikk jóváhagyása",
+                "approve_article_approved": ""
+            },
+            "tools": {
+                "rename_article": "",
+                "edit_article": "",
+                "update_category": "",
+                "article_settings": "",
+                "approve_article": "",
+                "hide_article": "",
+                "recover_article": "",
+                "delete_forever": "",
+                "enable_comments": "",
+                "disable_comments": ""
+            },
+            "utils": {
+                "redirect": {
+                    "title": "",
+                    "link": ""
+                }
+            },
+            "composer": {
+                "no_title": "",
+                "enter_message_here": "",
+                "post_article": "",
+                "select_category": "",
+                "edit_categories": "",
+                "update_settings": "",
+                "write": "",
+                "view": "",
+                "nothing_to_preview": "",
+                "comment_section": "",
+                "no_blog_tags_selected": "",
+                "post_without_blog_info": ""
+            }
+        }
+    }
+}

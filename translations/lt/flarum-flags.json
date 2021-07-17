@@ -1,0 +1,50 @@
+{
+    "flarum-flags": {
+        "admin": {
+            "permissions": {
+                "flag_posts_label": "Netinkamas pranešimas",
+                "view_flags_label": "Peržiūrėti netinkamus pranešimus"
+            },
+            "settings": {
+                "flag_own_posts_label": "Leisti vartotojams pranešti apie savo netinkamus pranešimus",
+                "guidelines_url_label": "Bendruomenės gairių nuoroda",
+                "title": "Netinkamų pranešimų nustatymai"
+            }
+        },
+        "forum": {
+            "flag_post": {
+                "confirmation_message": "Dėkojame, kad pranešėte apie šį įrašą. Moderatoriai kuo greičiau tai peržiūrės.",
+                "dismiss_button": "=> core.ref.okay",
+                "reason_details_placeholder": "Papildoma informacija (neprivaloma)",
+                "reason_inappropriate_label": "Netinkamas",
+                "reason_inappropriate_text": "Šis įrašas yra piktybinis, įžeidžiantis arba pažeidžia mūsų <a>bendruomenės gaires</a>.",
+                "reason_missing_message": "Prašome pateikti šiek tiek informacijos mūsų moderatoriams.",
+                "reason_off_topic_label": "Pranešimas \"ne į temą\"",
+                "reason_off_topic_text": "Šis įrašas nėra aktualus dabartinei diskusijai ir turėtų būti perkeltas kitur.",
+                "reason_other_label": "Kita (nurodykite)",
+                "reason_spam_label": "Šlamštas",
+                "reason_spam_text": "Šis įrašas yra reklaminio tipo.",
+                "submit_button": "=> flarum-flags.ref.flag_post",
+                "title": "=> flarum-flags.ref.flag_post"
+            },
+            "flagged_posts": {
+                "empty_text": "Nėra skundų",
+                "item_text": "{username} temoje <em>{discussion}</em>",
+                "title": "=> flarum-flags.ref.flagged_posts",
+                "tooltip": "=> flarum-flags.ref.flagged_posts"
+            },
+            "post": {
+                "dismiss_flag_button": "Atmesti skundą",
+                "flagged_by_text": "Narys {username} pranešė apie tai",
+                "flagged_by_with_reason_text": "Narys {username} pranešė apie tai, dėl {reason}"
+            },
+            "post_controls": {
+                "flag_button": "Pranešti kaip netinkamą"
+            }
+        },
+        "ref": {
+            "flag_post": "Pažymėti pranešimą kaip netinkamą",
+            "flagged_posts": "Pranešimai pažymėti kaip netinkami"
+        }
+    }
+}

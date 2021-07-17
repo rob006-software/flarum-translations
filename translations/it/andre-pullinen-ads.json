@@ -2,33 +2,33 @@
     "flagrow-ads": {
         "admin": {
             "buttons": {
-                "save": ""
+                "save": "Salva impostazioni"
             },
             "positions": {
                 "under-header": {
-                    "title": "",
-                    "placeholder": ""
+                    "title": "Posizione dell'annuncio sotto l'intestazione di navigazione",
+                    "placeholder": "Inserisci qui il codice del tuo annuncio."
                 },
                 "between-posts": {
-                    "title": "",
-                    "placeholder": ""
+                    "title": "Aggiungere una posizione tra i posts",
+                    "placeholder": "=> flagrow-ads.admin.positions.under-header.placeholder"
                 },
                 "under-nav-items": {
-                    "title": "",
-                    "placeholder": ""
+                    "title": "Posizione dell'annuncio nella colonna sinistra sotto i tag della prima pagina",
+                    "placeholder": "=> flagrow-ads.admin.positions.under-header.placeholder"
                 }
             },
             "settings": {
-                "adsense-title": "",
-                "position-title": "",
-                "adsense-enable": "",
-                "adsense-client-id": "",
-                "start-from-post": "",
-                "between-n-posts": ""
+                "adsense-title": "Impostazioni AdSense",
+                "position-title": "Posizionamento annunci",
+                "adsense-enable": "AdSense attivato",
+                "adsense-client-id": "Fornisci il tuo ID dell' editore",
+                "start-from-post": "Specificare da quale post partire per mostrare un annuncio",
+                "between-n-posts": "Specificare dopo quanti post inserire un annuncio"
             },
             "tab": {
-                "title": "",
-                "description": ""
+                "title": "Pubblicità",
+                "description": "Imposta le preferenze e le posizioni degli annunci."
             }
         }
     }

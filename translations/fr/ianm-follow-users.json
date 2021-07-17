@@ -2,51 +2,85 @@
     "ianm-follow-users": {
         "admin": {
             "permissions": {
-                "be_followed_label": ""
+                "be_followed_label": "Autoriser les utilisateurs à suivre"
             }
         },
         "forum": {
-            "profile_link": "",
+            "profile_link": "=> ianm-follow-users.lib.following_link",
+            "profile_page": {
+                "no_following": "Il semble que vous ne suivez personne."
+            },
             "user_controls": {
-                "follow_button": "",
-                "follow_confirmation": "",
-                "unfollow_button": "",
-                "unfollow_confirmation": ""
+                "follow_button": "=> ianm-follow-users.lib.follow",
+                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type",
+                "follow_confirmation": "Êtes-vous sûr de vouloir suivre cet utilisateur ?",
+                "unfollow_confirmation": "Êtes-vous sûr de ne plus vouloir suivre cet utilisateur ?"
             },
             "settings": {
-                "notify_new_follower_label": "",
-                "notify_new_unfollower_label": "",
-                "notify_new_discussion_label": "",
-                "notify_new_post_label": "",
-                "block_follow": ""
+                "notify_new_follower_label": "Quelqu'un me suit",
+                "notify_new_unfollower_label": "Quelqu'un arrête de me suivre",
+                "notify_new_discussion_label": "Quelqu'un que je suis démarre une discussion",
+                "notify_new_post_label": "Quelqu'un que je suis publie un message dans une discussion existante",
+                "block_follow": "Empêcher les utilisateurs de me suivre"
             },
             "index": {
-                "follow_tag_button": "",
-                "unfollow_tag_button": ""
+                "follow_tag_button": "=> ianm-follow-users.lib.follow",
+                "unfollow_tag_button": "=> ianm-follow-users.lib.change_follow_type"
             },
             "notifications": {
-                "new_discussion_text": "",
-                "new_post_text": "",
-                "new_follower_text": "",
-                "new_unfollower_text": ""
+                "new_discussion_text": "{username} a démarré",
+                "new_post_text": "{username} a publié un message dans une discussion",
+                "new_follower_text": "{username} vous a suivi",
+                "new_unfollower_text": "{username} a arrêté de vous suivre"
             },
             "badge": {
-                "label": ""
+                "label": {
+                    "follow": "Discussions suivies",
+                    "lurk": "Suivi global"
+                }
             },
             "filter": {
-                "following": ""
+                "following": "Utilisateurs suivis"
+            },
+            "modals": {
+                "select_follow_level": {
+                    "title": "Sélectionner le niveau de suivi pour {username}",
+                    "description": "Choisissez comment vous souhaitez suivre <em>{username}</em>.",
+                    "follow_levels_heading": "Niveaux de suivi",
+                    "follow_select_label": "Type de suivi",
+                    "no_user_attr_provided_err": "Oh oh, quelque chose s'est mal passé en ouvrant cette fenêtre.",
+                    "no_user_attr_provided_err_debug": "Aucun attribut `user` n'a été transmis à la fenêtre SelectFollowUserLevel lors de sa création. Le rendu de la fenêtre est impossible.",
+                    "save_btn": "Enregistrer",
+                    "cancel_btn": "Annuler"
+                }
             }
         },
         "email": {
-            "new_discussion_by_user_subject": "",
-            "new_follower_subject": "",
-            "new_post_subject": "",
-            "new_discussion_by_user_body": "",
-            "new_follower_body": "",
-            "new_post_body": ""
+            "new_discussion_by_user_subject": "[Suivi] {title}",
+            "new_follower_subject": "[Suivi] Vous avez un nouvel abonné !",
+            "new_post_subject": "[Suivi] Nouveau message dans {title}",
+            "new_discussion_by_user_body": "Bonjour {recipient_display_name},\n\n{user_display_name} a démarré une nouvelle discussion : {discussion_title}\n\nPour consulter cette nouvelle discussion, cliquez sur le lien suivant :\n\n{discussion_url}\n\n---\n\n{post_content}\n",
+            "new_follower_body": "Bonjour {recipient_display_name},\n\n{follower_display_name} a commencé à vous suivre, il sera donc notifié lorsque vous démarrerez une nouvelle discussion.\n\nPour consulter son profil, cliquez sur le lien suivant :\n\n{profile_url}\n",
+            "new_post_body": "Bonjour {recipient_display_name},\n\n{user_display_name} a publié un message dans une discussion : {discussion_title}\n\nPour consulter ce nouveau message, cliquez sur le lien suivant :\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nVous ne recevrez plus de notifications concernant cette discussion jusqu'à ce que vous soyez à jour.\n"
         },
         "lib": {
-            "following_link": ""
+            "following_link": "Utilisateurs suivis",
+            "follow": "Suivre",
+            "change_follow_type": "Modifier le type de suivi",
+            "follow_levels": {
+                "unfollow": {
+                    "name": "Ne pas suivre",
+                    "description": "Ne pas recevoir de notifications pour l'activité de <em>{username}</em>.\n"
+                },
+                "follow": {
+                    "name": "Suivre les discussions",
+                    "description": "Recevoir des notifications lorsque <em>{username}</em> démarre une nouvelle discussion.\n"
+                },
+                "lurk": {
+                    "name": "Tout suivre",
+                    "description": "Recevoir des notifications lorsque <em>{username}</em> démarre une nouvelle discussion ou publie un message dans une discussion.\n"
+                }
+            }
         }
     }
 }

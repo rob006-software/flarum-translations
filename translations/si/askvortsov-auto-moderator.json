@@ -15,13 +15,13 @@
                 "posts_made": "",
                 "likes_given": "",
                 "likes_received": "",
-                "best_answers": "හොඳම පිළිතුරු",
+                "best_answers": "හොඳම උත්තර",
                 "moderator_strikes": ""
             },
             "requirement_drivers": {
                 "email_confirmed": "",
                 "in_group": "",
-                "suspended": "",
+                "suspended": "අත්හිටුවා ඇත",
                 "email_matches_regex": ""
             },
             "in_group_settings": {
@@ -46,23 +46,23 @@
             "criterion_page": {
                 "driver_missing_ext": "",
                 "back": "",
-                "name_label": "",
+                "name_label": "නම",
                 "icon_label": "",
-                "description_label": "",
+                "description_label": "සවිස්තරය",
                 "new_criterion": "",
                 "negated": "",
-                "loading": "",
-                "delete_button": "",
+                "loading": "=> core.ref.loading",
+                "delete_button": "=> core.ref.delete",
                 "metrics_and_requirements_label": "",
                 "metrics_and_requirements_help": "",
                 "metrics_heading": "",
-                "requirements_heading": "",
+                "requirements_heading": "අවශ්‍යතා",
                 "add_metric": "",
-                "actions_label": "",
+                "actions_label": "ක්‍රියාමාර්ග",
                 "actions_help": "",
                 "actions_on_gain_heading": "",
                 "actions_on_loss_heading": "",
-                "add_action": ""
+                "add_action": "ක්‍රියාමාර්ගයක් එකතු කරන්න"
             },
             "undefined_driver_item": {
                 "text": ""
@@ -78,7 +78,7 @@
             }
         },
         "lib": {
-            "group_id": "",
+            "group_id": "සමූහයේ හැඳුනුම",
             "managed_groups": {
                 "header": "",
                 "group_item": "",

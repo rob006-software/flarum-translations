@@ -2,40 +2,40 @@
     "kyrne-websocket": {
         "forum": {
             "discussion_list": {
-                "show_updates_text": ""
+                "show_updates_text": "{count, plural, one {Afficher # discussion mise à jour} other {Afficher # discussions mises à jour}}"
             }
         },
         "admin": {
             "pusher_settings": {
-                "local_cert_path": "",
-                "local_pk_path": "",
-                "passphrase": "",
-                "cert_self_signed": "",
-                "app_port_label": "",
-                "app_host_label": "",
-                "app_id_label": "",
-                "auto_update": "",
-                "app_key_label": "",
-                "app_secret_label": "",
-                "secure": "",
-                "title": "",
-                "reverse_proxy": "",
-                "auth_only": ""
+                "local_cert_path": "Chemin du certificat SSL local",
+                "local_pk_path": "Chemin de la clé privée SSL locale",
+                "passphrase": "(Facultatif) Phrase de passe de la clé SSL",
+                "cert_self_signed": "Support des certificats auto-signés",
+                "app_port_label": "Port",
+                "app_host_label": "Hôte",
+                "app_id_label": "Identifiant de l'application",
+                "auto_update": "Mettre à jour automatiquement les discussions",
+                "app_key_label": "Clé d'application",
+                "app_secret_label": "Secret d'application",
+                "secure": "Forcer WSS/HTTPS pour WebSocket",
+                "title": "Paramètres de WebSocket/Pusher",
+                "reverse_proxy": "Support du proxy inverse",
+                "auth_only": "WebSocket uniquement pour les utilisateurs connectés"
             },
             "help": {
-                "auto_update": "",
-                "app_id": "",
-                "app_key": "",
-                "secret": "",
-                "secure": "",
-                "host": "",
-                "reverse_proxy": "",
-                "port": "",
-                "cert_path": "",
-                "pk_path": "",
-                "passphrase": "",
-                "self_signed": "",
-                "auth_only": ""
+                "auto_update": "Ne pas afficher la bannière jaune de mise à jour, mettre immédiatement à jour la liste de discussions.",
+                "app_id": "Identifiant d'application Pusher - laissez tel quel si vous utilisez le serveur WebSocket intégré.",
+                "app_key": "Clé d'application Pusher - laissez tel quel si vous utilisez le serveur WebSocket intégré.",
+                "secret": "Secret d'application Pusher - laissez tel quel si vous utilisez le serveur WebSocket intégré.",
+                "secure": "Forcer le WebSocket à utiliser des protocoles sécurisés - activez cette option si vous utilisez un serveur WebSocket sécurisé mais pas le site internet.",
+                "host": "Hôte de votre serveur WebSocket - laissez tel quel si le serveur est le même hôte que votre forum.",
+                "reverse_proxy": "Les WebSockets se connecteront sur le port 443 lorsque cette option est activée - utilisez cette option si vous utilisez un proxy inverse du port 443 vers votre serveur WebSocket.",
+                "port": "Port de votre serveur WebSocket - laissez tel quel si vous ne modifiez pas le port du serveur intégré.",
+                "cert_path": "Nécessaire uniquement si vous utilisez SSL et NON le reverse proxy. Chemin d'accès à votre certificat SSL (HTTPS) SUR LE SERVEUR où se trouve votre serveur WebSocket - généralement un fichier .crt ou .pem.",
+                "pk_path": "Nécessaire uniquement si vous utilisez SSL et NON le reverse proxy. Chemin d'accès à votre clé privée SSL (HTTPS) SUR LE SERVEUR où se trouve votre serveur WebSocket - généralement un fichier .key ou .pem.",
+                "passphrase": "Nécessaire uniquement si vous utilisez SSL et NON le reverse proxy. La phrase de passe utilisée pour encoder votre certificat - généralement non nécessaire.",
+                "self_signed": "Nécessaire uniquement si vous utilisez SSL et NON le reverse proxy. Activez cette option si votre certificat SSL (HTTPS) est auto-signé.",
+                "auth_only": "N'autoriser que les utilisateurs authentifiés à se connecter au serveur WebSocket, ce qui permet de réduire la charge du processeur."
             }
         }
     }

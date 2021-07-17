@@ -8,6 +8,12 @@
         }
     },
     "flarum-mentions": {
+        "admin": {
+            "settings": {
+                "allow_username_format_label": "",
+                "allow_username_format_text": ""
+            }
+        },
         "forum": {
             "composer": {
                 "mention_tooltip": "Bir kullanıcı veya gönderiden bahset",
@@ -32,6 +38,19 @@
             },
             "user": {
                 "mentions_link": "Bahsetmeler"
+            },
+            "post_mention": {
+                "deleted_text": ""
+            }
+        },
+        "email": {
+            "post_mentioned": {
+                "subject": "",
+                "body": ""
+            },
+            "user_mentioned": {
+                "subject": "",
+                "body": ""
             }
         }
     }

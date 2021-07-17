@@ -10,8 +10,8 @@
                 "follow_tag_button": "",
                 "unfollow_tag_button": "",
                 "following": {
-                    "following_none_label": "",
-                    "following_tags_label": ""
+                    "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                    "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
                 }
             },
             "badge": {
@@ -19,14 +19,14 @@
                 "lurking_tag_tooltip": ""
             },
             "sub_controls": {
-                "follow_button": "",
-                "following_button": "",
+                "follow_button": "=> fof-follow-tags.ref.follow",
+                "following_button": "=> fof-follow-tags.ref.following",
                 "following_text": "",
-                "hiding_button": "",
-                "hiding_text": "",
-                "ignoring_button": "",
+                "hiding_button": "=> fof-follow-tags.ref.hiding",
+                "hiding_text": "සියලුම සාකච්ඡා පිටුවෙන් සාකච්ඡා සඟවන්න.",
+                "ignoring_button": "=> fof-follow-tags.ref.ignoring",
                 "ignoring_text": "",
-                "lurking_button": "",
+                "lurking_button": "=> fof-follow-tags.ref.lurking",
                 "lurking_text": "",
                 "not_following_button": "",
                 "not_following_text": "",
@@ -48,8 +48,8 @@
         "admin": {
             "settings": {
                 "following_page_default_label": "",
-                "following_none_label": "",
-                "following_tags_label": ""
+                "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
             }
         },
         "email": {

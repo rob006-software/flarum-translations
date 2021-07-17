@@ -1,271 +1,271 @@
 {
     "v17development-flarum-support": {
         "forum": {
-            "knowledge_base": "",
-            "ask_a_question_on_forums": "",
-            "return_to_home": "",
-            "ask_your_question_on_forum": "",
-            "or": "",
-            "settings": "",
-            "send": "",
-            "create": "",
-            "discard": "",
-            "reopen": "",
-            "support_tickets": "",
-            "admin_overview": "",
+            "knowledge_base": "Base de connaissances",
+            "ask_a_question_on_forums": "Poser une question sur les forums",
+            "return_to_home": "Retourner à l'accueil de la base de connaissances",
+            "ask_your_question_on_forum": "Posez votre question sur les forums",
+            "or": "ou",
+            "settings": "=> core.ref.settings",
+            "send": "Envoyer",
+            "create": "Créer",
+            "discard": "Abandonner",
+            "reopen": "rouvrir",
+            "support_tickets": "Tickets d'assistance",
+            "admin_overview": "Ouvrir la vue d'ensemble de l'administration",
             "hero": {
-                "help_question": "",
-                "check_forum": ""
+                "help_question": "En quoi pouvons-nous vous aider ?",
+                "check_forum": "Si vous ne trouvez pas ce que vous cherchez, <a>consultez notre forum</a>"
             },
             "overview": {
-                "knowledge_base_overview": "",
-                "back_to": "",
-                "back_to_overview": "",
-                "back_to_main_categories": "",
-                "loading_articles": "",
-                "no_categories_found": "",
-                "category_not_found": "",
-                "no_articles_found": "",
+                "knowledge_base_overview": "Vue d'ensemble de la base de connaissances",
+                "back_to": "Retourner à {category}",
+                "back_to_overview": "Retourner à la vue d'ensemble de la base de connaissances",
+                "back_to_main_categories": "Retourner aux catégories principales",
+                "loading_articles": "Chargement des articles",
+                "no_categories_found": "Désolé, aucune catégorie n'a été trouvée ici...",
+                "category_not_found": "Catégorie introuvable",
+                "no_articles_found": "Aucun article n'a été trouvé dans cette catégorie",
                 "tools": {
-                    "new_article": "",
-                    "rename_category": "",
-                    "edit_description": "",
-                    "change_icon": ""
+                    "new_article": "Nouvel article",
+                    "rename_category": "Renommer la catégorie",
+                    "edit_description": "Modifier la description",
+                    "change_icon": "Modifier l'icône"
                 }
             },
             "article_events": {
-                "article_hidden": "",
-                "article_public": "",
-                "article_modified": ""
+                "article_hidden": "L'article a été masqué par {username}",
+                "article_public": "L'article a été rendu public par {username}",
+                "article_modified": "{username} a modifié cet article."
             },
             "search": {
-                "title": "",
-                "back_to_search_results": "",
-                "search_knowledge_base": "",
-                "searching": "",
-                "searching_for": "",
-                "searched_for": "",
-                "use_searchbox_below": "",
-                "no_results": ""
+                "title": "Rechercher",
+                "back_to_search_results": "Retourner aux résultats de la recherche",
+                "search_knowledge_base": "Rechercher dans notre base de connaissances",
+                "searching": "Recherche",
+                "searching_for": "Recherche de {searchterm}",
+                "searched_for": "Vous avez recherché {searchterm}, il y a eu {results} résultats.",
+                "use_searchbox_below": "Utilisez la zone de recherche ci-dessous pour effectuer une recherche dans notre base de connaissances.",
+                "no_results": "Nous n'avons rien trouvé pour {searchterm}."
             },
             "not_found": {
-                "title": "",
-                "description": "",
-                "solution": ""
+                "title": "Objet introuvable",
+                "description": "Désolé, cet article ou cette catégorie n'existe plus à cet endroit.",
+                "solution": "Vous pouvez utiliser la zone de recherche ci-dessus pour trouver ce que vous cherchiez."
             },
             "article": {
-                "article": "",
-                "articles": "",
-                "hidden": "",
-                "created_at": "",
-                "author": "",
-                "authors": "",
-                "last_modified": "",
-                "not_found": "",
+                "article": "Article",
+                "articles": "Articles",
+                "hidden": "Masqué",
+                "created_at": "Créé le {date}",
+                "author": "Auteur",
+                "authors": "Authors",
+                "last_modified": "Dernière modification le {date}",
+                "not_found": "Article introuvable",
                 "share_article": {
-                    "title": "",
-                    "perma_link": ""
+                    "title": "Partager l'article",
+                    "perma_link": "Lien permanent vers cet article :"
                 },
                 "tools": {
-                    "rename_article": "",
-                    "edit_article": "",
-                    "edit_tags": "",
-                    "audit_log": "",
-                    "hide_article": "",
-                    "recover_article": "",
-                    "delete_forever": "",
-                    "view_ratings": ""
+                    "rename_article": "Renommer l'article",
+                    "edit_article": "Modifier l'article",
+                    "edit_tags": "Modifier les étiquettes de l'article",
+                    "audit_log": "Voir journal d'audit",
+                    "hide_article": "Masquer l'article",
+                    "recover_article": "Récupérer l'article",
+                    "delete_forever": "Supprimer définitivement",
+                    "view_ratings": "Afficher le classement"
                 }
             },
             "support_ratings": {
-                "score": "",
-                "helful_article": "",
-                "helful_support": "",
-                "feedback": "",
-                "feedback_not_helpful": "",
-                "enter_feedback": "",
-                "finished": "",
+                "score": "Score",
+                "helful_article": "Cet article vous a été utile ?",
+                "helful_support": "Êtes-vous satisfait de la façon dont nous avons traité votre ticket d'assistance ?",
+                "feedback": "Merci pour votre avis, avez-vous un retour d'expérience à formuler ?",
+                "feedback_not_helpful": "Désolé que cet article n'ait pas été utile, que recherchiez-vous ?",
+                "enter_feedback": "Saisissez ici votre retour d'expérience",
+                "finished": "Merci ! Votre retour d'expérience a été enregistré.",
                 "validation": {
-                    "invalid_discussion": "",
-                    "guest": "",
-                    "invalid_points": "",
-                    "cannot_rate_article": "",
-                    "neutral_emoji_disabled": "",
-                    "missing_article_id": ""
+                    "invalid_discussion": "Oups, quelque chose s'est mal passé. Vous ne pouvez pas évaluer cet article ou ce ticket de support.",
+                    "guest": "Veuillez vous connecter avant de noter cet article.",
+                    "invalid_points": "Évaluation invalide. Veuillez réessayer.",
+                    "cannot_rate_article": "Vous ne pouvez pas évaluer cet article.",
+                    "neutral_emoji_disabled": "L'émoji neutre a été désactivé.",
+                    "missing_article_id": "Identifiant d'article manquant ou invalide"
                 },
                 "switch_sort_score": {
-                    "label": "",
-                    "description": ""
+                    "label": "Afficher les articles dont la note est faible ou élevée",
+                    "description": "Afficher uniquement les articles qui ont reçu des retours d'expérience, en triant les articles les moins bien notés."
                 }
             },
             "modals": {
                 "audit_log": {
-                    "title": "",
-                    "article_created": "",
-                    "no_more_events": "",
-                    "loading_auditlog": ""
+                    "title": "Journal d'audit des articles",
+                    "article_created": "L'article a été créé",
+                    "no_more_events": "Aucun autre événement trouvé",
+                    "loading_auditlog": "Chargement du journal d'audit"
                 },
                 "article_ratings": {
-                    "title": "",
-                    "loading_ratings": "",
-                    "no_ratings_found": "",
-                    "article_not_rated": "",
-                    "confirm_delete_rating": "",
-                    "feedback": "",
-                    "rating": "",
-                    "username": "",
-                    "rated_on": ""
+                    "title": "Évaluations des articles",
+                    "loading_ratings": "Chargement des évaluations",
+                    "no_ratings_found": "Aucune évaluation ne correspond à vos critères de recherche",
+                    "article_not_rated": "Cet article n'a pas encore été évalué.",
+                    "confirm_delete_rating": "Êtes-vous sûr de vouloir supprimer cette évaluation ?",
+                    "feedback": "Retour d'expérience",
+                    "rating": "Évaluation",
+                    "username": "=> core.ref.username",
+                    "rated_on": "Évalué sur"
                 }
             },
             "utils": {
                 "redirect": {
-                    "title": "",
-                    "link": ""
+                    "title": "Redirection vers notre article de la base de connaissances...",
+                    "link": "<a>Cliquez ici</a> si la page ne vous redirige pas"
                 }
             },
             "composer": {
-                "compose_article": "",
-                "compose_ticket": "",
-                "new_article_title": "",
-                "enter_message_here": "",
-                "publish_article": "",
-                "publish_article_hint": "",
-                "manage_tags": "",
-                "write": "",
-                "view": "",
-                "nothing_to_preview": "",
-                "warning_save_changes": "",
-                "article_saved": ""
+                "compose_article": "Rédiger un article",
+                "compose_ticket": "Rédiger un ticket",
+                "new_article_title": "Nouveau titre de l'article",
+                "enter_message_here": "Saisissez ici votre message",
+                "publish_article": "Publier l'article",
+                "publish_article_hint": "Publier l'article après sa rédaction.",
+                "manage_tags": "Gérer les étiquettes",
+                "write": "Rédiger",
+                "view": "Consulter",
+                "nothing_to_preview": "Rien à prévisualiser",
+                "warning_save_changes": "AVERTISSEMENT : vous êtes sur le point de quitter cette page et vous n'avez pas enregistré vos modifications. Souhaitez-vous enregistrer vos modifications avant de partir ?\n\n[OK] = oui, enregistrer. [ANNULER] = non, ne pas enregistrer.\n",
+                "article_saved": "L'article a été enregistré"
             },
             "tickets": {
-                "ticket": "",
-                "subject": "",
-                "ticket_does_not_exist": "",
-                "return_to_overview": "",
-                "ticket_overview": "",
-                "opened_on": "",
-                "ticket_activity": "",
-                "reminders_sent": "",
+                "ticket": "Ticket",
+                "subject": "Sujet",
+                "ticket_does_not_exist": "Le ticket de support demandé n'existe pas.",
+                "return_to_overview": "Retourner à la vue d'ensemble des tickets",
+                "ticket_overview": "Vue d'ensemble du ticket",
+                "opened_on": "Ouvert le",
+                "ticket_activity": "Par {username}, dernière activité le {date}",
+                "reminders_sent": "{count, plural, one {Un rappel envoyé} other {# rappels envoyés}}",
                 "convert_to_ticket": {
-                    "button": "",
-                    "confirm": "",
-                    "event": ""
+                    "button": "Convertir en ticket",
+                    "confirm": "Êtes-vous sûr de vouloir convertir cette discussion en ticket ?",
+                    "event": "La discussion {ticket_title} a été convertie en ticket"
                 },
                 "status": {
                     "new": {
-                        "title": "",
-                        "description": ""
+                        "title": "Nouveau",
+                        "description": "Ceci est un nouveau ticket sans réponse"
                     },
                     "open": {
-                        "title": "",
-                        "description": ""
+                        "title": "Ouvrir",
+                        "description": "Ce ticket a une nouvelle réponse et attend votre réponse."
                     },
                     "pending": {
-                        "title": "",
-                        "description": "",
-                        "description_user": ""
+                        "title": "En attente",
+                        "description": "Ce ticket est en attente d'une réponse de l'utilisateur.",
+                        "description_user": "Nous attendons que vous répondiez ou que vous marquiez ce ticket comme résolu."
                     },
                     "closed": {
-                        "title": "",
-                        "description": "",
-                        "is_closed": "",
-                        "close_after_posting": "",
-                        "is_auto_closed": ""
+                        "title": "Clôturé",
+                        "description": "Ce ticket a été clôturé.",
+                        "is_closed": "Ce ticket est clôturé, il sera rouvert lorsque vous répondrez. Nous recommandons de ne rouvrir un ticket que lorsque le problème n'a pas été résolu. S'il s'agit d'un nouveau problème, veuillez ouvrir un nouveau ticket.",
+                        "close_after_posting": "Clôturer le ticket après la publication",
+                        "is_auto_closed": "Ce ticket est fermé pour cause d'inactivité."
                     },
                     "on_hold": {
-                        "title": "",
-                        "description": ""
+                        "title": "En attente",
+                        "description": "Ce ticket a été mis en attente."
                     },
                     "duplicate": {
-                        "title": "",
-                        "description": ""
+                        "title": "Dupliquer",
+                        "description": "Ce ticket est marqué comme duplicata."
                     },
                     "solved": {
-                        "title": "",
-                        "description": "",
-                        "mark_as_solved": ""
+                        "title": "Résolu",
+                        "description": "Ce ticket est marqué comme résolu",
+                        "mark_as_solved": "Marquer ce ticket comme résolu"
                     }
                 },
                 "tools": {
-                    "view_ticket": "",
-                    "update_subject": "",
-                    "assign_me": "",
-                    "remove_me": "",
-                    "update_status": "",
-                    "close_ticket": ""
+                    "view_ticket": "Voir le ticket",
+                    "update_subject": "Mettre à jour le sujet",
+                    "assign_me": "Me l'attribuer",
+                    "remove_me": "Me retirer",
+                    "update_status": "Mettre à jour le statut du ticket",
+                    "close_ticket": "Clôturer le ticket"
                 },
                 "new_tickets_dropdown": {
-                    "title": "",
-                    "no_tickets": "",
-                    "ticket_new": "",
-                    "ticket_updated": ""
+                    "title": "Notifications de tickets",
+                    "no_tickets": "Pas de notification de tickets",
+                    "ticket_new": "{username} a créé le ticket {ticket}",
+                    "ticket_updated": "{username} a publié dans {ticket}"
                 },
                 "fields": {
                     "language": {
-                        "title": "",
-                        "placeholder": "",
-                        "empty": "",
-                        "description": ""
+                        "title": "Langue",
+                        "placeholder": "Sélectionner une langue",
+                        "empty": "Aucune langue sélectionnée",
+                        "description": "Votre ticket de support sera traité en {language}."
                     },
                     "subject": {
-                        "title": "",
-                        "placeholder": "",
-                        "description": ""
+                        "title": "Sujet",
+                        "placeholder": "Sujet du ticket",
+                        "description": "Essayez de décrire votre question en une courte phrase."
                     },
                     "information": {
-                        "title": "",
-                        "placeholder": ""
+                        "title": "Informations sur le ticket",
+                        "placeholder": "Dites-nous en quoi pouvons nous vous aider"
                     },
                     "status": {
-                        "title": "",
-                        "placeholder": ""
+                        "title": "Statut",
+                        "placeholder": "Le statut du ticket"
                     },
                     "assignees": {
-                        "title": "",
-                        "placeholder": ""
+                        "title": "Assignés",
+                        "placeholder": "Le statut du ticket"
                     }
                 },
                 "compose_ticket": {
-                    "title": "",
-                    "private_support": "",
-                    "not_allowed": ""
+                    "title": "Rédiger un nouveau ticket",
+                    "private_support": "Pour une assistance privée, vous pouvez utiliser ce formulaire pour créer un nouveau ticket dans notre plateforme d'assistance. Pour les questions de support non privé, veuillez consulter <a>nos forums publics</a>.",
+                    "not_allowed": "Vous ne pouvez pas ouvrir un nouveau ticket de support pour le moment"
                 },
                 "load_more": {
-                    "title": ""
+                    "title": "Charger davantage de tickets"
                 },
                 "my_tickets": {
-                    "title": "",
-                    "description": "",
-                    "no_tickets": ""
+                    "title": "Mes tickets",
+                    "description": "Vous pourrez retrouver sur cette page tous vos tickets privés.",
+                    "no_tickets": "Vous n'avez pas encore de tickets."
                 },
                 "overview": {
-                    "title": "",
-                    "description": "",
-                    "no_tickets": "",
-                    "all_tickets": ""
+                    "title": "Vue d'ensemble des tickets",
+                    "description": "Souriez, vous êtes le héros qui sauve la journée d'autres personnes.",
+                    "no_tickets": "Il n'y a pas de billets qui correspondent à vos critères, vous faites probablement du bon travail !",
+                    "all_tickets": "Tous les tickets"
                 }
             }
         },
         "emails": {
             "replied_to_ticket": {
-                "subject": "",
-                "body": ""
+                "subject": "{replier_display_name} a répondu à votre ticket #{ticket_id}",
+                "body": "Cher {recipient_display_name},\n\n{replier_display_name} a répondu à votre ticket #{ticket_id} (sujet « {subject} »).\n\nVeuillez utiliser le lien ci-dessous pour consulter la réponse :\n{url}\n\nNous attendons à présent votre réponse ou que vous marquiez ce ticket comme résolu.\n"
             },
             "ticket_status_update": {
-                "subject": "",
-                "body": ""
+                "subject": "Le ticket #{ticket_id} est marqué comme {new_status}",
+                "body": "Cher {recipient_display_name},\n\nLe statut de votre ticket #{ticket_id} a été modifié en {new_status}.\n\nL'URL de votre ticket est :\n{url}\n"
             },
             "ticket_resolved": {
-                "subject": "",
-                "body": ""
+                "subject": "Le ticket #{ticket_id} est marqué comme résolu",
+                "body": "Cher {recipient_display_name},\n\nVotre ticket #{ticket_id} a été marqué comme résolu. Cela signifie que votre ticket a été clôturé.\n\nL'URL de votre ticket est :\n{url}\n\nSi vous n'êtes pas d'accord avec le marquage de votre ticket comme résolu, veuillez répondre à votre ticket pour le rouvrir.\n"
             },
             "ticket_pending_reply": {
-                "subject": "",
-                "body": ""
+                "subject": "Le ticket #{ticket_id} attend votre réponse",
+                "body": "Cher {recipient_display_name},\n\nRécemment, {replier_display_name} a répondu à votre ticket #{ticket_id} le {replied_date} et nous attendons votre réponse.\n\nL'URL de votre ticket est :\n{url}\n\nSi le problème a été résolu, veuillez marquer le ticket comme résolu.\n"
             },
             "ticket_pending_reply_closed": {
-                "subject": "",
-                "body": ""
+                "subject": "Le ticket #{ticket_id} a été clôturé pour cause d'inactivité",
+                "body": "Cher {recipient_display_name},\n\nRécemment, {replier_display_name} a répondu à votre ticket #{ticket_id}. Malheureusement, nous n'avons pas reçu de réponse de votre part. Votre ticket a été automatiquement clôturé pour cause d'inactivité.\n\nSi vous souhaitez toujours répondre, l'URL de votre ticket est :\n{url}\n"
             }
         }
     }

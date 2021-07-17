@@ -1,37 +1,37 @@
 {
     "nyu8-email-filter": {
         "admin": {
-            "general": "",
-            "custom_failure_message_label": "",
-            "custom_failure_message_hint": "",
-            "rule_settings": "",
-            "name_placeholder": "",
-            "invalid_regular_expression": "",
+            "general": "Général",
+            "custom_failure_message_label": "Message d'échec personnalisé",
+            "custom_failure_message_hint": "Message d'erreur personnalisé à afficher lorsque l'adresse de courriel n'est pas valide. Les messages d'erreur par défaut seront affichés si cette option est laissée vide.",
+            "rule_settings": "Paramètres des règles",
+            "name_placeholder": "Nom de la règle",
+            "invalid_regular_expression": "Expression régulière invalide",
             "whitelist_literal": {
-                "label": "",
-                "description": "",
-                "placeholder": ""
+                "label": "Liste blanche",
+                "description": "Courriels exacts à mettre en liste blanche",
+                "placeholder": "Courriel à mettre en liste blanche..."
             },
             "whitelist_regex": {
-                "label": "",
-                "description": "",
-                "placeholder": ""
+                "label": "Expression régulière de la liste blanche",
+                "description": "Expressions régulières de courriel pour la liste blanche",
+                "placeholder": "Expression régulière à mettre en liste blanche..."
             },
             "blacklist_literal": {
-                "label": "",
-                "description": "",
-                "placeholder": ""
+                "label": "Liste noire",
+                "description": "Courriels exacts à mettre en liste noire",
+                "placeholder": "Courriel à mettre en liste noire..."
             },
             "blacklist_regex": {
-                "label": "",
-                "description": "",
-                "placeholder": ""
+                "label": "Expression régulière de liste noire",
+                "description": "Expressions régulières de courriel pour la liste noire",
+                "placeholder": "Expression régulière à mettre en liste noire..."
             }
         },
         "forum": {
-            "generic_exception": "",
-            "blacklist_exception": "",
-            "whitelist_exception": ""
+            "generic_exception": "Un problème est survenu. Contactez l'administrateur de cette communauté.",
+            "blacklist_exception": "Ce courriel ou son domaine est sur la liste noire de cette communauté.",
+            "whitelist_exception": "Ce courriel ou son domaine n'est pas sur la liste blanche de cette communauté."
         }
     }
 }

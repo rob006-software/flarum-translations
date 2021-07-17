@@ -1,0 +1,46 @@
+{
+    "fof-user-directory": {
+        "forum": {
+            "header": {
+                "back_to_user_directory_tooltip": "Vissza a felhasználókhoz"
+            },
+            "search": {
+                "users_heading": "Keresés a felhasználók között: \"{query}\"",
+                "field": {
+                    "placeholder": "Összes felhasználó keresése"
+                }
+            },
+            "page": {
+                "nav": "Felhasználók",
+                "refresh_tooltip": "Újratölt",
+                "load_more_button": "Több betöltése",
+                "empty_text": "Nem találtunk egyetlen felhasználót sem a keresésed alapján.",
+                "filter_button": "Csoportok szűrése"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "view_user_directory": "Felhasználók megtekintése"
+            },
+            "settings": {
+                "link": "Link hozzáadása a főoldalhoz hogy a felhasználók elérjék a Felhasználók oldalt",
+                "default-sort": "Alapértelmezett rendezés",
+                "use-small-cards": "Kisebb kártyák használata"
+            }
+        },
+        "lib": {
+            "sort": {
+                "not_specified": "Flarum alapértelmezett használata",
+                "default": "Alapértelmezett",
+                "username_az": "Felhasználónév (a-z)",
+                "username_za": "Felhasználónév (z-a)",
+                "newest": "Újabbak",
+                "oldest": "Régebbiek",
+                "most_posts": "Legtöbb hozzászólással rendelkezők",
+                "least_posts": "Legkevesebb hozzászólással rendelkezők",
+                "most_discussions": "Legtöbb témával rendelkezők",
+                "least_discussions": "Legkevesebb témával rendelkezők"
+            }
+        }
+    }
+}

@@ -2,25 +2,25 @@
     "tank-perspective": {
         "admin": {
             "settings": {
-                "title": "",
-                "donotstore": "",
-                "usemax": "",
-                "useexperimental": "",
+                "title": "Paramètres de Perspective",
+                "donotstore": "Ne pas conserver",
+                "usemax": "Utiliser le score maximal",
+                "useexperimental": "Utiliser des modèles expérimentaux",
                 "field": {
-                    "api_key": "",
-                    "threshold": "",
-                    "toxicity": "",
-                    "threat": "",
-                    "profanity": "",
-                    "sexually_explicit": "",
-                    "flirtation": ""
+                    "api_key": "Clé API",
+                    "threshold": "Seuil d'alerte",
+                    "toxicity": "Toxicité",
+                    "threat": "Menace",
+                    "profanity": "Blasphème",
+                    "sexually_explicit": "Sexuellement explicite",
+                    "flirtation": "Drague"
                 }
             }
         },
         "forum": {
             "post": {
-                "not_toxic_button": "",
-                "perspective_flagged_text": ""
+                "not_toxic_button": "Marquer le message comme non toxique",
+                "perspective_flagged_text": "Perspective a marqué automatiquement le message"
             }
         }
     }

@@ -1,0 +1,89 @@
+{
+    "askvortsov-auto-moderator": {
+        "admin": {
+            "action_drivers": {
+                "activate_email": "Aktivierungsmail",
+                "add_to_group": "Zu Gruppe hinzufügen",
+                "remove_from_group": "Von Gruppe entfernen",
+                "suspend": "Ausschließen",
+                "unsuspend": "Entsperren"
+            },
+            "metric_drivers": {
+                "discussions_entered": "Diskussionen angesehen",
+                "discussions_participated": "Diskussionen teilgenommen",
+                "discussions_started": "Diskussionen gestartet",
+                "posts_made": "Beiträge gemacht",
+                "likes_given": "Gefällt mir vergegeben",
+                "likes_received": "Gefällt mir erhalten",
+                "best_answers": "Beste Antworten",
+                "moderator_strikes": "Verwarnungen"
+            },
+            "requirement_drivers": {
+                "email_confirmed": "Email bestätigt",
+                "in_group": "In Gruppe",
+                "suspended": "Ausgeschlossen",
+                "email_matches_regex": "Email stimmt mit Regex überein"
+            },
+            "in_group_settings": {
+                "regex": "Regex für valide Email (keine Schrägstriche)"
+            },
+            "group_selector": {
+                "placeholder": "Wähle eine Gruppe"
+            },
+            "suspend_selector": {
+                "days": "Ausschließen für",
+                "indefinitely": "Permanent ausschließen?"
+            },
+            "criterion_status": {
+                "heading": "Statusüberprüfung",
+                "invalid": "",
+                "no_actions": "",
+                "no_metrics_or_reqs": "",
+                "valid": "",
+                "action_validation_errors": "",
+                "requirement_validation_errors": ""
+            },
+            "criterion_page": {
+                "driver_missing_ext": "",
+                "back": "",
+                "name_label": "",
+                "icon_label": "",
+                "description_label": "",
+                "new_criterion": "",
+                "negated": "",
+                "loading": "",
+                "delete_button": "",
+                "metrics_and_requirements_label": "",
+                "metrics_and_requirements_help": "",
+                "metrics_heading": "",
+                "requirements_heading": "",
+                "add_metric": "",
+                "actions_label": "",
+                "actions_help": "",
+                "actions_on_gain_heading": "",
+                "actions_on_loss_heading": "",
+                "add_action": ""
+            },
+            "undefined_driver_item": {
+                "text": ""
+            },
+            "automoderator_page": {
+                "criterion_invalid": "",
+                "list_heading": "",
+                "create_criterion_button": ""
+            },
+            "automoderator_instructions": {
+                "header": "",
+                "text": ""
+            }
+        },
+        "lib": {
+            "group_id": "",
+            "managed_groups": {
+                "header": "",
+                "group_item": "",
+                "groups_not_editable": ""
+            }
+        }
+    }
+}

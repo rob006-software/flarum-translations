@@ -2,24 +2,24 @@
     "clarkwinkelmann-status": {
         "admin": {
             "settings": {
-                "only-countries": "",
-                "enable-text": ""
+                "only-countries": "Uniquement les drapeaux de pays",
+                "enable-text": "Autoriser le statut du texte"
             },
             "permissions": {
-                "see": "",
-                "set": "",
-                "mod": ""
+                "see": "Voir le statut",
+                "set": "Définir le statut",
+                "mod": "Modérer le statut de l'utilisateur"
             }
         },
         "forum": {
             "menu": {
-                "set-status": ""
+                "set-status": "Définir un statut"
             },
             "modal": {
-                "title": "",
-                "text-placeholder": "",
-                "submit": "",
-                "clear": ""
+                "title": "Définir le statut",
+                "text-placeholder": "Que se passe-t-il ?",
+                "submit": "Envoyer",
+                "clear": "Effacer"
             }
         }
     }
