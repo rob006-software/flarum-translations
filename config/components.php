@@ -520,6 +520,9 @@ return [
 	'justoverclock-welcomebox' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-welcomebox/1.2.7/resources/locale/en.yml',
 	],
+	'katosdev-signature' => [
+		'tag' => 'https://raw.githubusercontent.com/katosdev/signature/1.0.0/locale/en.yml',
+	],
 	'kilowhat-audit-free' => [
 		'tag' => 'https://raw.githubusercontent.com/kilowhat/flarum-ext-audit-free/1.4.0/resources/locale/en.yml',
 	],
