@@ -568,9 +568,6 @@ return [
 	'malago-linkpreview' => [
 		'tag' => 'https://raw.githubusercontent.com/malago86/flarum-linkpreview/0.1.0/locale/en.yml',
 	],
-	'malago-fancybox' => [
-		'tag' => 'https://raw.githubusercontent.com/malago86/flarum-ext-fancybox/0.3.0/locale/en.yml',
-	],
 	'matteocontrini-imgur-upload' => [
 		'tag' => 'https://raw.githubusercontent.com/matteocontrini/flarum-imgur-upload/v3.9.1/locale/en.yml',
 	],
