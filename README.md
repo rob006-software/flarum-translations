@@ -414,8 +414,6 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`flarumite-simple-spoilers`](https://weblate.rob006.net/projects/flarum/flarumite-simple-spoilers) | [`flarumite/simple-spoilers`](https://github.com/flarumite/simple-spoilers) |
 | [`glowingblue-password-strength`](https://weblate.rob006.net/projects/flarum/glowingblue-password-strength) | [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength) |
 | [`glowingblue-redis-setup`](https://weblate.rob006.net/projects/flarum/glowingblue-redis-setup) | [`glowingblue/redis-setup`](https://github.com/glowingblue/flarum-ext-redis-setup) |
-| [`ianm-diff`](https://weblate.rob006.net/projects/flarum/ianm-diff) | [`ianm/flarum-diff`](https://github.com/imorland/flarum-diff) |
-| [`ianm-regrole`](https://weblate.rob006.net/projects/flarum/ianm-regrole) | [`ianm/flarum-regrole`](https://github.com/imorland/flarum-regrole) |
 | [`ianm-follow-users`](https://weblate.rob006.net/projects/flarum/ianm-follow-users) | [`ianm/follow-users`](https://github.com/imorland/follow-users) |
 | [`ianm-gravatar`](https://weblate.rob006.net/projects/flarum/ianm-gravatar) | [`ianm/gravatar`](https://github.com/imorland/gravatar) |
 | [`ianm-html-head`](https://weblate.rob006.net/projects/flarum/ianm-html-head) | [`ianm/html-head`](https://github.com/imorland/html-head) |
@@ -494,7 +492,6 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`the-turk-pallet-theme`](https://weblate.rob006.net/projects/flarum/the-turk-pallet-theme) | [`the-turk/flarum-pallet-theme`](https://github.com/the-turk/flarum-pallet-theme) |
 | [`the-turk-quiet-edits`](https://weblate.rob006.net/projects/flarum/the-turk-quiet-edits) | [`the-turk/flarum-quiet-edits`](https://github.com/the-turk/flarum-quiet-edits) |
 | [`the-turk-regrole`](https://weblate.rob006.net/projects/flarum/the-turk-regrole) | [`the-turk/flarum-regrole`](https://github.com/the-turk/flarum-regrole) |
-| [`the-turk-stargazing-theme`](https://weblate.rob006.net/projects/flarum/the-turk-stargazing-theme) | [`the-turk/flarum-stargazing-theme`](https://github.com/the-turk/flarum-stargazing-theme) |
 | [`the-turk-stickiest`](https://weblate.rob006.net/projects/flarum/the-turk-stickiest) | [`the-turk/flarum-stickiest`](https://github.com/the-turk/flarum-stickiest) |
 | [`therealsujitk-gifs`](https://weblate.rob006.net/projects/flarum/therealsujitk-gifs) | [`therealsujitk/flarum-ext-gifs`](https://github.com/therealsujitk/flarum-ext-gifs) |
 | [`therealsujitk-hljs`](https://weblate.rob006.net/projects/flarum/therealsujitk-hljs) | [`therealsujitk/flarum-ext-hljs`](https://github.com/therealsujitk/flarum-ext-hljs) |
