@@ -83,7 +83,6 @@ return [
 		'!the-turk-pallet-theme',
 		'!the-turk-quiet-edits',
 		'!the-turk-regrole',
-		'!the-turk-stargazing-theme',
 		'!the-turk-welcome-widgets',
 	]),
 	'zh_Hans' => getComponents(),

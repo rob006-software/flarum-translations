@@ -688,9 +688,6 @@ return [
 	'the-turk-regrole' => [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-regrole/1.0.2/locale/en.yml',
 	],
-	'the-turk-stargazing-theme' => [
-		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-stargazing-theme/0.1.1/locale/en.yml',
-	],
 	'the-turk-stickiest' => [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-stickiest/2.0.2/locale/en.yml',
 	],
