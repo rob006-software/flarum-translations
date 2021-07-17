@@ -451,6 +451,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`maicol07-sso`](https://weblate.rob006.net/projects/flarum/maicol07-sso) | [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso) |
 | [`malago-achievements`](https://weblate.rob006.net/projects/flarum/malago-achievements) | [`malago/flarum-achievements`](https://github.com/malago86/flarum-achievements) |
 | [`malago-ads`](https://weblate.rob006.net/projects/flarum/malago-ads) | [`malago/flarum-ads`](https://github.com/malago86/flarum-ads) |
+| [`malago-fancybox`](https://weblate.rob006.net/projects/flarum/malago-fancybox) | [`malago/flarum-ext-fancybox`](https://github.com/malago86/flarum-ext-fancybox) |
 | [`malago-linkpreview`](https://weblate.rob006.net/projects/flarum/malago-linkpreview) | [`malago/flarum-linkpreview`](https://github.com/malago86/flarum-linkpreview) |
 | [`matteocontrini-imgur-upload`](https://weblate.rob006.net/projects/flarum/matteocontrini-imgur-upload) | [`matteocontrini/flarum-imgur-upload`](https://github.com/matteocontrini/flarum-imgur-upload) |
 | [`michaelbelgium-discussion-views`](https://weblate.rob006.net/projects/flarum/michaelbelgium-discussion-views) | [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views) |
