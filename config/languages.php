@@ -85,7 +85,6 @@ return [
 		'!the-turk-regrole',
 		'!the-turk-stargazing-theme',
 		'!the-turk-welcome-widgets',
-		'!ianm-regrole',
 	]),
 	'zh_Hans' => getComponents(),
 ];
