@@ -6,16 +6,16 @@
                 "colors_heading": "Színek",
                 "colors_text": "Válassz két színt a fórumodhoz. Az első szín kiemeléseknél lesz használatban, míg a második a háttérelemek színét fogja megadni.",
                 "custom_footer_heading": "Egyéni lábléc",
-                "custom_footer_text": "Tetszőleges lábléc szöveg",
+                "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Egyéni fejléc",
-                "custom_header_text": "Tetszőleges fejléc szöveg",
+                "custom_header_text": "=> core.ref.custom_header_text",
                 "custom_styles_heading": "Egyéni stílusok",
                 "custom_styles_text": "Szabd testre a fórumod kinézetét LESS/CSS kód hozzáadásával, amellyel felülírhatod a Flarum saját stílusát.",
                 "dark_mode_label": "Sötét mód",
                 "description": "Fórum színek, logók és más változók beállítása.",
                 "edit_css_button": "Egyéni CSS szerkesztése",
-                "edit_footer_button": "Tetszőleges lábléc cím",
-                "edit_header_button": "Tetszőleges fejléc cím",
+                "edit_footer_button": "=> core.ref.custom_footer_title",
+                "edit_header_button": "=> core.ref.custom_header_title",
                 "enter_hex_message": "Kérlek adj meg egy hexadecimális színkódot.",
                 "favicon_heading": "Favikon",
                 "favicon_text": "Tölts fel egy képet amelyet favikonként szeretnél használni (a böngésző tab-jában megjelenő oldalcím melletti kis kép).",
@@ -69,7 +69,7 @@
                 "icon_text": "=> core.ref.icon_text",
                 "name_label": "Név",
                 "plural_placeholder": "Többesszám (pl.\":\" Moderátorok)",
-                "singular_placeholder": "Egyesszám (pl.\":\" Moderátor)",
+                "singular_placeholder": "Egyesszám (pl.\" Moderátor)",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Csoport létrehozása"
             },
@@ -131,7 +131,7 @@
                 "uninstall_button": "Eltávolítás"
             },
             "header": {
-                "get_help": "Kapj segítséget",
+                "get_help": "Segítség",
                 "log_out_button": "=> core.ref.log_out"
             },
             "loading": {
@@ -153,7 +153,7 @@
                     "other": "Más bővítmények",
                     "theme": "Témák"
                 },
-                "dashboard_button": "Irányítópult",
+                "dashboard_button": "=> core.admin.dashboard.title",
                 "dashboard_title": "=> core.admin.dashboard.description",
                 "email_button": "=> core.ref.email",
                 "email_title": "=> core.admin.email.description",
@@ -204,7 +204,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Korlátlan ideig",
-                "allow_some_minutes_button": "{count} percig|{count} percig",
+                "allow_some_minutes_button": "{count} percig",
                 "allow_ten_minutes_button": "10 percig",
                 "allow_until_reply_button": "A következő válaszig",
                 "everyone_button": "Mindenki",
@@ -245,7 +245,7 @@
                             "title": "ID"
                         },
                         "username": {
-                            "profile_link_tooltip": "Nézd meg  {username} profilját",
+                            "profile_link_tooltip": "Nézd meg {username} profilját",
                             "title": "=> core.ref.username"
                         }
                     },
@@ -408,14 +408,14 @@
                 "now_link": "Most",
                 "original_post_link": "Eredeti hozzászólás",
                 "unread_text": "{count} olvasatlan",
-                "viewing_text": "{index} a {count} hozzászólásból"
+                "viewing_text": "{index} a(z) {count} hozzászólásból"
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "A régi cím: \"{old}\"",
                 "discussion_renamed_text": "{username} módosította a címet a következőre: {new}.",
                 "load_more_button": "=> core.ref.load_more",
                 "reply_placeholder": "=> core.ref.write_a_reply",
-                "time_lapsed_text": "{period} később"
+                "time_lapsed_text": "Ennyivel később: {period}"
             },
             "rename_discussion": {
                 "submit_button": "=> core.ref.rename",
