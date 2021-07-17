@@ -442,6 +442,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`justoverclock-socialcards`](https://weblate.rob006.net/projects/flarum/justoverclock-socialcards) | [`justoverclock/flarum-ext-socialcards`](https://github.com/justoverclockl/flarum-ext-socialcards) |
 | [`justoverclock-toastme`](https://weblate.rob006.net/projects/flarum/justoverclock-toastme) | [`justoverclock/flarum-ext-toastme`](https://github.com/justoverclockl/flarum-ext-toastme) |
 | [`justoverclock-welcomebox`](https://weblate.rob006.net/projects/flarum/justoverclock-welcomebox) | [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox) |
+| [`justoverclock-header-slideshow`](https://weblate.rob006.net/projects/flarum/justoverclock-header-slideshow) | [`justoverclock/header-slideshow`](https://github.com/justoverclockl/header-slideshow) |
 | [`kilowhat-audit-free`](https://weblate.rob006.net/projects/flarum/kilowhat-audit-free) | [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free) |
 | [`kvothe-reply-to-see`](https://weblate.rob006.net/projects/flarum/kvothe-reply-to-see) | [`kvothe/reply-to-see`](https://github.com/oaklinq/flarum-ext-reply2see) |
 | [`kyrne-evergreen`](https://weblate.rob006.net/projects/flarum/kyrne-evergreen) | [`kyrne/evergreen`](https://github.com/KyrneDev/Evergreen) |
