@@ -76,17 +76,11 @@ return [
 		// '!dem13n-topic-starter-label', https://github.com/Dem13n/topic-starter-label/pull/5
 		'!glowingblue-password-strength',
 		'!the-turk-diff',
-		'!the-turk-edit-notifications',
-		'!the-turk-extended-appearance',
 		'!the-turk-fancybox',
 		'!the-turk-mathren',
 		'!the-turk-pallet-theme',
 		'!the-turk-quiet-edits',
 		'!the-turk-regrole',
-		'!the-turk-stargazing-theme',
-		'!the-turk-welcome-widgets',
-		'!ianm-regrole',
-		'!ianm-diff',
 	]),
 	'zh_Hans' => getComponents(),
 ];

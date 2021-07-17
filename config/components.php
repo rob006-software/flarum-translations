@@ -433,9 +433,6 @@ return [
 	'glowingblue-redis-setup' => [
 		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-redis-setup/1.0.3/resources/locale/en.yml',
 	],
-	'ianm-diff' => [
-		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-diff/3.0.0/locale/en.yml',
-	],
 	'ianm-follow-users' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/follow-users/1.0.1/resources/locale/en.yml',
 	],
@@ -447,9 +444,6 @@ return [
 	],
 	'ianm-level-ranks' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/level-ranks/1.0.0/resources/locale/en.yml',
-	],
-	'ianm-regrole' => [
-		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-regrole/1.0.0/locale/en.yml',
 	],
 	'ianm-syndication' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/syndication/1.0.2/resources/locale/en.yml',
@@ -693,9 +687,6 @@ return [
 	],
 	'the-turk-regrole' => [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-regrole/1.0.2/locale/en.yml',
-	],
-	'the-turk-stargazing-theme' => [
-		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-stargazing-theme/0.1.1/locale/en.yml',
 	],
 	'the-turk-stickiest' => [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-stickiest/2.0.2/locale/en.yml',
