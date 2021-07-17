@@ -565,6 +565,9 @@ return [
 	'malago-ads' => [
 		'tag' => 'https://raw.githubusercontent.com/malago86/flarum-ads/0.3.2/resources/locale/en.yml',
 	],
+	'malago-fancybox' => [
+		'tag' => 'https://raw.githubusercontent.com/malago86/flarum-ext-fancybox/0.3.0/locale/en.yml',
+	],
 	'malago-linkpreview' => [
 		'tag' => 'https://raw.githubusercontent.com/malago86/flarum-linkpreview/0.1.0/locale/en.yml',
 	],
