@@ -8,11 +8,11 @@
         "forum": {
             "profile_link": "=> ianm-follow-users.lib.following_link",
             "profile_page": {
-                "no_following": ""
+                "no_following": "Görünüşe göre kimseyi takip etmiyorsunuz."
             },
             "user_controls": {
-                "follow_button": "Takip et",
-                "unfollow_button": "Takibi bırak",
+                "follow_button": "=> ianm-follow-users.lib.follow",
+                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type",
                 "follow_confirmation": "Bu kullanıcıyı takip etmek istediğinize emin misiniz?",
                 "unfollow_confirmation": "Bu kullanıcıyı takipten çıkmak istediğinize emin misiniz?"
             },
@@ -24,8 +24,8 @@
                 "block_follow": "Kullanıcıların beni takip etmesini engelle"
             },
             "index": {
-                "follow_tag_button": "Takip Et",
-                "unfollow_tag_button": "Takibi Bırak"
+                "follow_tag_button": "=> ianm-follow-users.lib.follow",
+                "unfollow_tag_button": "=> ianm-follow-users.lib.change_follow_type"
             },
             "notifications": {
                 "new_discussion_text": "{username} başlattı",
@@ -34,23 +34,24 @@
                 "new_unfollower_text": "{username} sizi takip etmeyi bıraktı"
             },
             "badge": {
-                "label": "Takip edilen kullanıcı",
-                "label.follow": "",
-                "label.lurk": ""
+                "label": {
+                    "follow": "Takip edilen tartışmalar",
+                    "lurk": "Takip Edilenler"
+                }
             },
             "filter": {
                 "following": "Takip edilen kullanıcılar"
             },
             "modals": {
                 "select_follow_level": {
-                    "title": "",
-                    "description": "",
-                    "follow_levels_heading": "",
-                    "follow_select_label": "",
-                    "no_user_attr_provided_err": "",
-                    "no_user_attr_provided_err_debug": "",
-                    "save_btn": "",
-                    "cancel_btn": ""
+                    "title": "{username} için takip seviyesi belirle",
+                    "description": "<em>{username}</em> kullanıcısını nasıl takip etmek istediğini belirle.",
+                    "follow_levels_heading": "Takip seviyeleri",
+                    "follow_select_label": "Takip türü",
+                    "no_user_attr_provided_err": "Uh oh, pencere açılırken bir hata meydana geldi.",
+                    "no_user_attr_provided_err_debug": "Bu pencere çalışmıyor.",
+                    "save_btn": "Kaydet",
+                    "cancel_btn": "İptal"
                 }
             }
         },
@@ -64,20 +65,20 @@
         },
         "lib": {
             "following_link": "Takip Edilen Kullanıcılar",
-            "follow": "",
-            "change_follow_type": "",
+            "follow": "Takip Et",
+            "change_follow_type": "Takip türünü değiştir",
             "follow_levels": {
                 "unfollow": {
-                    "name": "",
-                    "description": ""
+                    "name": "Takip etme",
+                    "description": "<em>{username}</em> kullanıcısının eylemlerinden bildirim alma.\n"
                 },
                 "follow": {
-                    "name": "",
-                    "description": ""
+                    "name": "Tartışmalarını takip et",
+                    "description": "<em>{username}</em> kullanıcısı yeni bir tartışma başlattığında bildirim al.\n"
                 },
                 "lurk": {
-                    "name": "",
-                    "description": ""
+                    "name": "Tümünü takip et",
+                    "description": "<em>{username}</em> kullanıcısı yeni bir tartışma başlattığında veya gönderi yazdığında bildirim al.\n"
                 }
             }
         }
