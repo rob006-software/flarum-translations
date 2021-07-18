@@ -2,38 +2,38 @@
     "nearata-twofactor": {
         "admin": {
             "settings": {
-                "generate_backups": ""
+                "generate_backups": "Générer des codes de sauvegarde."
             }
         },
         "forum": {
-            "invalid_twofa_code": "",
-            "invalid_twofa_setup": "",
+            "invalid_twofa_code": "Code à deux facteurs non valide.",
+            "invalid_twofa_setup": "Mot de passe ou code d'accès invalide.",
             "log_in_modal": {
-                "submit_button": "",
-                "otp_placeholder": "",
-                "title": ""
+                "submit_button": "Connexion",
+                "otp_placeholder": "Code d'accès à deux facteurs",
+                "title": "Deux facteurs"
             },
-            "setup_button": "",
+            "setup_button": "Deux facteurs",
             "setup_modal": {
                 "backups": {
-                    "copy_button": "",
-                    "download_button": "",
-                    "download_file_format": "",
-                    "modal_message": ""
+                    "copy_button": "Copie",
+                    "download_button": "Télécharger",
+                    "download_file_format": "{website_title} | {website_url}\n\nConservez ces codes de sauvegarde dans un endroit sûr mais accessible.\n\nLISTE DES CODES\n\n{codes}\n\n* Vous ne pouvez utiliser chaque code de sauvegarde qu'une seule fois.\n* Ces codes DOIVENT être utilisés dans l'ordre indiqué.\n* Ces codes ont été générés le : {date}.\n",
+                    "modal_message": "Conservez ces codes de récupération dans un endroit sûr. Si vous perdez votre appareil à deux facteurs, ces codes à usage unique peuvent être utilisés dans l'ordre indiqué pour vous connecter à votre compte.\n"
                 },
-                "close_button": "",
-                "disabled": "",
-                "enabled": "",
-                "enter_code_disable": "",
-                "enter_code_manually": "",
-                "passcode_placeholder": "",
-                "password_placeholder": "",
-                "scan_qr": "",
+                "close_button": "Fermer",
+                "disabled": "Authentification à deux facteurs désactivée.",
+                "enabled": "Authentification à deux facteurs activée.",
+                "enter_code_disable": "Entrez le code pour désactiver le deux facteurs.",
+                "enter_code_manually": "Entrez la clé manuellement à la place",
+                "passcode_placeholder": "Code d'accès à deux facteurs",
+                "password_placeholder": "Mot de passe",
+                "scan_qr": "Scannez ce code QR avec votre dispositif d'authentification à deux facteurs pour configurer votre compte.",
                 "submit_button": {
-                    "enable": "",
-                    "disable": ""
+                    "enable": "Activer",
+                    "disable": "Désactiver"
                 },
-                "title": ""
+                "title": "Deux facteurs"
             }
         }
     }
