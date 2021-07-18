@@ -10,8 +10,8 @@
     "flarum-mentions": {
         "admin": {
             "settings": {
-                "allow_username_format_label": "",
-                "allow_username_format_text": ""
+                "allow_username_format_label": "Kullanıcıdan bahsetmeye izin ver (@kullanıcı)",
+                "allow_username_format_text": "Mevcut bahsetme formatı @\"Görünür Ad\"#ID şeklindedir.\nBu ayar eski format olan @kullanıcı-adı şeklinde kullanmaya olanak tanır.\n"
             }
         },
         "forum": {
@@ -40,17 +40,17 @@
                 "mentions_link": "Bahsetmeler"
             },
             "post_mention": {
-                "deleted_text": ""
+                "deleted_text": "[bilinmeyen]"
             }
         },
         "email": {
             "post_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{replier_display_name}, {title} tartışmasındaki gönderini yanıtladı",
+                "body": "Hey {recipient_display_name}!\n\n{replier_display_name}, {title} tartışmasındaki (#{post_number}) numaralı gönderini yanıtladı.\n\n{url}\n\n---\n\n{content}\n"
             },
             "user_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{mentioner_display_name}, {title} tartışmasında senden bahsetti",
+                "body": "Hey {recipient_display_name}!\n\n{mentioner_display_name}, {title} tartışmasında senden bahsetti.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }
