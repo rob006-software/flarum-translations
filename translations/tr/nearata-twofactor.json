@@ -2,38 +2,38 @@
     "nearata-twofactor": {
         "admin": {
             "settings": {
-                "generate_backups": ""
+                "generate_backups": "Yedekleme kodlarını oluştur."
             }
         },
         "forum": {
-            "invalid_twofa_code": "",
-            "invalid_twofa_setup": "",
+            "invalid_twofa_code": "Geçersiz iki adımlı doğrulama kodu.",
+            "invalid_twofa_setup": "Şifre veya kod geçersiz.",
             "log_in_modal": {
-                "submit_button": "",
-                "otp_placeholder": "",
-                "title": ""
+                "submit_button": "Giriş Yap",
+                "otp_placeholder": "İki Aşamalı Doğrulama Kodu",
+                "title": "İki Aşamalı Doğrulama"
             },
-            "setup_button": "",
+            "setup_button": "İki Aşamalı Doğrulama",
             "setup_modal": {
                 "backups": {
-                    "copy_button": "",
-                    "download_button": "",
-                    "download_file_format": "",
-                    "modal_message": ""
+                    "copy_button": "Kopyala",
+                    "download_button": "İndir",
+                    "download_file_format": "{website_title} | {website_url}\n\nYedekleme kodlarını güvenilir bir yerde sakladığınızdan emin olunuz.\n\nKODLARIN LİSTESİ\n\n{codes}\n\n* Her yedek kodu yalnızca bir kez kullanabilirsiniz.\n* Bu kodlar listelenen sırada KULLANILMALIDIR.\n* Bu kodlar {date} tarihinde oluşturulmuştur.\n",
+                    "modal_message": "Bu kurtarma kodlarını güvenli bir yerde saklayın. İki aşamalı doğrulama cihazınızı kaybederseniz, bu tek seferlik kullanım kodları hesabınıza giriş yapmak için listelenen sırayla kullanabilirsiniz.\n"
                 },
-                "close_button": "",
-                "disabled": "",
-                "enabled": "",
-                "enter_code_disable": "",
-                "enter_code_manually": "",
-                "passcode_placeholder": "",
-                "password_placeholder": "",
-                "scan_qr": "",
+                "close_button": "Kapat",
+                "disabled": "İki Aşamalı Doğrulama etkisizleştirildi.",
+                "enabled": "İki Aşamalı Doğrulama etkinleştirildi.",
+                "enter_code_disable": "İki Aşamalı Doğrulamayı etkisizleştirmek için kodu girin.",
+                "enter_code_manually": "Bunun yerine kodu elle girin",
+                "passcode_placeholder": "İki Aşamalı Doğrulama Kodu",
+                "password_placeholder": "Şifre",
+                "scan_qr": "Hesabınızı oluşturmak için bu QR kodunu iki aşamalı doğrulama cihazınızla tarayın.",
                 "submit_button": {
-                    "enable": "",
-                    "disable": ""
+                    "enable": "Etkinleştir",
+                    "disable": "Etkisizleştir"
                 },
-                "title": ""
+                "title": "İki Aşamalı Doğrulama"
             }
         }
     }
