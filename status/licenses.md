@@ -97,6 +97,7 @@
 
 | Package | GitHub license | Packagist license |
 | --- | --- | --- |
+| [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) | [![GitHub license](https://img.shields.io/github/license/android-com-pl/mobile-tab)](https://github.com/android-com-pl/mobile-tab) | [![Packagist license](https://img.shields.io/packagist/l/acpl/mobile-tab)](https://packagist.org/packages/acpl/mobile-tab) |
 | [`acpl/my-tags`](https://github.com/android-com-pl/my-tags) | [![GitHub license](https://img.shields.io/github/license/android-com-pl/my-tags)](https://github.com/android-com-pl/my-tags) | [![Packagist license](https://img.shields.io/packagist/l/acpl/my-tags)](https://packagist.org/packages/acpl/my-tags) |
 | [`amaurycarrade/flarum-ext-syndication`](https://github.com/AmauryCarrade/flarum-ext-syndication) | [![GitHub license](https://img.shields.io/github/license/AmauryCarrade/flarum-ext-syndication)](https://github.com/AmauryCarrade/flarum-ext-syndication) | [![Packagist license](https://img.shields.io/packagist/l/amaurycarrade/flarum-ext-syndication)](https://packagist.org/packages/amaurycarrade/flarum-ext-syndication) |
 | [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money) | [![GitHub license](https://img.shields.io/github/license/AntoineFr/flarum-ext-money)](https://github.com/AntoineFr/flarum-ext-money) | [![Packagist license](https://img.shields.io/packagist/l/antoinefr/flarum-ext-money)](https://packagist.org/packages/antoinefr/flarum-ext-money) |

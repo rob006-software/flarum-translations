@@ -105,6 +105,7 @@
 
 | Extension | Status |
 | --- | --- |
+| [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/acpl-mobile-tab/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/acpl-mobile-tab/) |
 | [`acpl/my-tags`](https://github.com/android-com-pl/my-tags) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/acpl-my-tags/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/acpl-my-tags/) |
 | [`amaurycarrade/flarum-ext-syndication`](https://github.com/AmauryCarrade/flarum-ext-syndication) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/amaurycarrade-syndication/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/amaurycarrade-syndication/) |
 | [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/antoinefr-money/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/antoinefr-money/) |
