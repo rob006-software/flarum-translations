@@ -5,7 +5,7 @@
             "permissions": {
                 "write_articles": "Blog cikkek írása és szerkesztése",
                 "auto_approve_posts": "Cikkek mentése jóváhagyás nélkül",
-                "approve_posts": ""
+                "approve_posts": "Jóváhagyhatja a blog cikkeket"
             },
             "settings": {
                 "no_categories_selected": "Nincs kategória kiválasztva",
@@ -13,25 +13,25 @@
                 "select_categories_button": "Válassz blog kategóriát",
                 "blog_heading": "Blog",
                 "allow_comments_label": "Hozzászólások engedélyezése",
-                "allow_comments_text": "",
+                "allow_comments_text": "Alapértelmezetten hozzá lehet szólni a cikkekhez. Ha ki van kapcsolva, akkor cikkenként lehet beállítani hogy hozzá lehet-e szólni. <b>Megjegyzés:</b> A jelen beállítások nem módosítják a már létező cikkeket.",
                 "require_review_label": "Blog cikkeknél szükséges a jóváhagyás",
-                "require_review_text": "",
+                "require_review_text": "A cikk létrehozásakor az nem lesz látható, csak jóváhagyás után.",
                 "hide_on_discussion_list_label": "Ne mutassa a beszélgetés listában",
                 "hide_on_discussion_list_text": "Blog hozzáaszólások elrejtése a beszélgetés listában.",
                 "add_sidebar_nav_label": "Hozzáadás a navigációhoz",
-                "add_sidebar_nav_text": "",
+                "add_sidebar_nav_text": "Link megjelenése a bloghoz az oldal menüben.",
                 "categories_heading": "Kategóriák",
                 "hide_tags_in_taglist_label": "Címék elrejtése a címke listából",
-                "hide_tags_in_taglist_text": "",
-                "show_tag_hierarchy_label": "",
-                "show_tag_hierarchy_text": "",
+                "hide_tags_in_taglist_text": "Ha be van kapcsolva, a blog címkék rejtve lesznek a fórumban.",
+                "show_tag_hierarchy_label": "Címke hierarchia mutatása",
+                "show_tag_hierarchy_text": "Tegyen szóközt az al-kategóriákhoz, és adjon hierarchiát a kategóriák listájának.",
                 "redirects_heading": "Átirányítások",
                 "redirect_articles_label": "Blog cikkek átirányítása",
-                "redirect_articles_text": "",
-                "redirect_tags_label": "",
-                "redirect_tags_text": "",
+                "redirect_articles_text": "Bekapcsolás esetén az eredeti beszélgetés a blogra lesz irányítva.",
+                "redirect_tags_label": "Blog címkék átirányítása",
+                "redirect_tags_text": "Ha be van kapcsolva, a blog címke URL át lesz irányítva a blog kategóriára.",
                 "default_article_image_label": "Alapértelmezett cikk kép",
-                "default_article_image_text": ""
+                "default_article_image_text": "Válaszd ki az alapértelmezett képet, amely azoknál a cikkeknél jelenik meg ahol nincs kép csatolva."
             }
         },
         "forum": {
@@ -40,7 +40,7 @@
             "hidden": "Elrejtve",
             "recent_posts": "Friss cikkek",
             "categories": "Kategóriák",
-            "forum_nav": "",
+            "forum_nav": "Fórum navigáció",
             "return_to_overview": "Vissza a blog összefoglalóhoz ",
             "no_more_posts": "Nincs több cikk.",
             "category_empty": "Ebben a kategóriában nincsenek cikkek.",
@@ -52,7 +52,7 @@
             },
             "article": {
                 "title": "Cím",
-                "slug": "",
+                "slug": "Slug",
                 "summary": "Összefoglaló"
             },
             "comment_section": {
@@ -61,41 +61,41 @@
             },
             "review_article": {
                 "pending_review_title": "Várakozik a jóváhagyásra",
-                "pending_review": "",
+                "pending_review": "Jóváhagyásra vár, addig nem jelenik meg publikusan",
                 "approve_article": "Cikk jóváhagyása",
-                "approve_article_approved": ""
+                "approve_article_approved": "A cikk jóváhagyva és publikálva"
             },
             "tools": {
-                "rename_article": "",
-                "edit_article": "",
-                "update_category": "",
-                "article_settings": "",
-                "approve_article": "",
-                "hide_article": "",
-                "recover_article": "",
-                "delete_forever": "",
-                "enable_comments": "",
-                "disable_comments": ""
+                "rename_article": "Cikk átnevezése",
+                "edit_article": "Cikk szerkesztése",
+                "update_category": "Kategóriák frissítése",
+                "article_settings": "Cikk beállítások",
+                "approve_article": "Cikk jóváhagyása",
+                "hide_article": "Cikk elrejtése",
+                "recover_article": "Cikk helyreállítása",
+                "delete_forever": "Végleges törlés",
+                "enable_comments": "Hozzászólások bekapcsolása",
+                "disable_comments": "Hozzászólások kikapcsolása"
             },
             "utils": {
                 "redirect": {
-                    "title": "",
-                    "link": ""
+                    "title": "Átirányítás a blog cikkhez...",
+                    "link": "<a>Kattints ide</a> ha nem lettél átirányítva"
                 }
             },
             "composer": {
-                "no_title": "",
-                "enter_message_here": "",
-                "post_article": "",
-                "select_category": "",
-                "edit_categories": "",
-                "update_settings": "",
-                "write": "",
-                "view": "",
-                "nothing_to_preview": "",
-                "comment_section": "",
-                "no_blog_tags_selected": "",
-                "post_without_blog_info": ""
+                "no_title": "Nincs cím",
+                "enter_message_here": "Írd az üzenetet ide",
+                "post_article": "Cikk mentése",
+                "select_category": "Válassz kategóriát",
+                "edit_categories": "Kategóriák szerkesztése",
+                "update_settings": "Blog beállítások frissítése",
+                "write": "Írj",
+                "view": "Megtekintés",
+                "nothing_to_preview": "Nincs előnézet",
+                "comment_section": "A hozzászólás rész nem jelenik meg ameddig a cikk szerkesztés alatt van.",
+                "no_blog_tags_selected": "Egyik címke sem blog címke, amit kiválasztottál. Kérünk válassz másikat.",
+                "post_without_blog_info": "Biztosan el akarja küldeni ezt a blogbejegyzést? Még nem írtál be blog-összefoglalót vagy nem töltöttél fel képet."
             }
         }
     }
