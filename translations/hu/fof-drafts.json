@@ -8,12 +8,12 @@
             "settings": {
                 "title": "FoF vázlat",
                 "enable_scheduled_drafts": "Időzített vázlat bekapcsolása",
-                "schedule_on_one_server": "",
-                "schedule_log_output": ""
+                "schedule_on_one_server": "Használja az 'onOneServer ()' utasítást a feladatütemezőhöz (Redis / Memcache szükséges)",
+                "schedule_log_output": "Az ütemező kimenetének hozzáfűzése a naplóhoz"
             }
         },
         "console": {
-            "scheduled_drafts_disabled": ""
+            "scheduled_drafts_disabled": "Jelenleg az ütemezés ki van kapcsolva a beállításokban."
         },
         "ref": {
             "schedule_draft": "Vázlat időzítése"
@@ -24,7 +24,7 @@
                 "saving": "Mentés...",
                 "saved": "Mentve!",
                 "exit_alert": "Eldobod a módosításokat?",
-                "discard_empty_draft_alert": ""
+                "discard_empty_draft_alert": "Elveted az üres vázlatot?"
             },
             "dropdown": {
                 "empty_text": "Nincs egyetlen vázlat sem",
@@ -33,7 +33,7 @@
                 "delete_button": "Vázlat törlése",
                 "schedule_button": "=> fof-drafts.ref.schedule_draft",
                 "scheduled_icon_tooltip": "Időzítve ekkorra: {datetime}",
-                "scheduled_icon_tooltip_formatter": "",
+                "scheduled_icon_tooltip_formatter": "L [at] LT",
                 "tooltip": "=> fof-drafts.forum.dropdown.title",
                 "alert": "Tényleg törlöd a vázlatot?",
                 "delete_all_alert": "Tényleg törlöd az összes vázlatot?"
@@ -48,7 +48,7 @@
                 "reschedule_button": "Újra időzítés",
                 "schedule_button": "Időzítés",
                 "schedule_time_preview": "Ez a vázlat automatikusan publikálva lesz: <b>{datetime}</b>.",
-                "schedule_time_preview_formatter": "",
+                "schedule_time_preview_formatter": "LLLL",
                 "schedule_time_preview_invalid": "Hibás dátum vagy idő"
             },
             "user": {
@@ -57,7 +57,7 @@
                     "draft_autosave_enable": "Bekapcsolod a vázlatok automatikus mentését?",
                     "draft_autosave_interval_label": "Automatikus mentés ideje (másodperc)",
                     "draft_autosave_interval_button": "Frissítés ideje",
-                    "draft_autosave_interval_invalid": ""
+                    "draft_autosave_interval_invalid": "Az intervallum 4-nél nagyobb egész szám kell legyen."
                 }
             }
         }
