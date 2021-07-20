@@ -38,7 +38,7 @@
         "email": {
             "new_post": {
                 "subject": "[Új hozzászólás] {title}",
-                "body": ""
+                "body": "Üdv, {recipient_display_name}!\n\n{poster_display_name} hozzászólt egy általad követett témához: {title}.\n\nAz alábbi linken eléred a hozzászólást:\n{url}\n\n---\n\n{content}\n\n---\n\nCsak akkor kapsz további értesítéseket erről a beszélgetésről, ha naprakész.\n"
             }
         },
         "ref": {
