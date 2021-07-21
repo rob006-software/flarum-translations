@@ -1,23 +1,23 @@
 {
     "sycho-profile-cover": {
         "admin": {
-            "thumbnails": "",
-            "max_size": "",
+            "thumbnails": "Thumbnail-ek létrehozása",
+            "max_size": "A profil borítójának maximális mérete (KB-ban)",
             "permission": {
-                "set_cover": ""
+                "set_cover": "Profil borító beállítása"
             }
         },
         "forum": {
-            "cover": "",
-            "edit_cover": "",
-            "notice": "",
+            "cover": "Borító",
+            "edit_cover": "Borító szerkesztése",
+            "notice": "Maximum méret: {size}",
             "added": {
-                "success": "",
-                "error": ""
+                "success": "Borítókép feltöltve.",
+                "error": "A kép nem tölthető fel."
             },
             "removed": {
-                "success": "",
-                "error": ""
+                "success": "A borítókép eltávolítva.",
+                "error": "Nem lehet törölni a borítóképet, próbáld még egyszer később."
             }
         }
     }
