@@ -279,6 +279,7 @@
 | [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/kilowhat-wordpress/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/kilowhat-wordpress/) |
 | [`kyrne/aegis`](https://extiverse.com/extension/kyrne/aegis) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/kyrne-aegis/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/kyrne-aegis/) |
 | [`kyrne/websocket`](https://extiverse.com/extension/kyrne/websocket) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/kyrne-websocket/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/kyrne-websocket/) |
+| [`maicol07/flarum-oidc-client`](https://extiverse.com/extension/maicol07/flarum-oidc-client) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/maicol07-oidc-client/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/maicol07-oidc-client/) |
 | [`reflar/recache`](https://extiverse.com/extension/reflar/recache) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/reflar-recache/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/reflar-recache/) |
 | [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/v17development-support/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/v17development-support/) |
 

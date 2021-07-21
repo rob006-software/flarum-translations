@@ -532,6 +532,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`kilowhat-wordpress`](https://weblate.rob006.net/projects/flarum/kilowhat-wordpress) | [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress) |
 | [`kyrne-aegis`](https://weblate.rob006.net/projects/flarum/kyrne-aegis) | [`kyrne/aegis`](https://extiverse.com/extension/kyrne/aegis) |
 | [`kyrne-websocket`](https://weblate.rob006.net/projects/flarum/kyrne-websocket) | [`kyrne/websocket`](https://extiverse.com/extension/kyrne/websocket) |
+| [`maicol07-oidc-client`](https://weblate.rob006.net/projects/flarum/maicol07-oidc-client) | [`maicol07/flarum-oidc-client`](https://extiverse.com/extension/maicol07/flarum-oidc-client) |
 | [`reflar-recache`](https://weblate.rob006.net/projects/flarum/reflar-recache) | [`reflar/recache`](https://extiverse.com/extension/reflar/recache) |
 | [`v17development-support`](https://weblate.rob006.net/projects/flarum/v17development-support) | [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support) |
 
