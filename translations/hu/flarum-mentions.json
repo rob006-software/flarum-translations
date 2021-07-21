@@ -9,7 +9,7 @@
         "forum": {
             "composer": {
                 "mention_tooltip": "Említs meg egy felhasználót vagy posztot.",
-                "reply_to_post_text": "Válaszolj a #{number} posztra"
+                "reply_to_post_text": "Válasz a #{number} hozzászólásra"
             },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
@@ -17,19 +17,19 @@
                 "user_mentioned_text": "{username} megemlített Téged"
             },
             "post": {
-                "mentioned_by_self_text": "{users} válaszolt erre.|{users} válaszoltak erre.",
-                "mentioned_by_text": "{users} válaszolt erre.|{users} válaszoltak erre.",
+                "mentioned_by_self_text": "{users} válaszolt erre.",
+                "mentioned_by_text": "{users} válaszolt erre.",
                 "others_text": "=> core.ref.some_others",
                 "quote_button": "Idézem",
                 "reply_link": "=> core.ref.reply",
                 "you_text": "=> core.ref.you"
             },
             "settings": {
-                "notify_post_mentioned_label": "Valaki válaszolt az egyik posztomra",
-                "notify_user_mentioned_label": "Valaki megemlített egy posztban"
+                "notify_post_mentioned_label": "Valaki válaszolt az egyik hozzászólásomra",
+                "notify_user_mentioned_label": "Valaki megemlített egy hozzászólásban"
             },
             "user": {
-                "mentions_link": "Megemlítések"
+                "mentions_link": "Említések"
             },
             "post_mention": {
                 "deleted_text": "[ismeretlen]"
