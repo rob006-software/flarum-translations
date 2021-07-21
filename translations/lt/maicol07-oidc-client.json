@@ -1,0 +1,44 @@
+{
+    "maicol07-oidc-client": {
+        "admin": {
+            "settings": {
+                "provider_name": "",
+                "client_settings_title": "",
+                "client_settings_subtitle": "",
+                "client_id": "",
+                "client_secret": "",
+                "callback_title": "",
+                "callback_subtitle": "",
+                "callback_logout_note": "",
+                "provider_settings_title": "",
+                "provider_url": "",
+                "endpoints_title": "",
+                "endpoints_subtitle": "",
+                "endpoints": {
+                    "authorize": "",
+                    "token": "",
+                    "userinfo": "",
+                    "logout": ""
+                },
+                "other_settings_title": "",
+                "issuer": "",
+                "nonce": "",
+                "linker_claim": "",
+                "manage_account_url": "",
+                "manage_account_btn_open_in_new_tab": "",
+                "sso_mode": "",
+                "logout_from_provider": "",
+                "remove_signup_btn": "",
+                "sync_avatars": ""
+            }
+        },
+        "forum": {
+            "buttons": {
+                "manage_account": "",
+                "login": "",
+                "connect_account": "",
+                "disconnect_account": ""
+            }
+        }
+    }
+}
