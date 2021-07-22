@@ -1,0 +1,59 @@
+{
+    "kyrne-whisper": {
+        "admin": {
+            "settings": {
+                "return_key": "Return key sends message",
+                "title": "Whisper Settings",
+                "set_own_password": "Let users make their own password - SSO Compatibility"
+            },
+            "permissions": {
+                "start_label": "Start private conversations"
+            }
+        },
+        "forum": {
+            "dropdown": {
+                "tooltip": "Conversations"
+            },
+            "setup": {
+                "title": "Setup Private Messaging",
+                "header_setup": "Enter your account login password to setup private messaging.",
+                "header_import": "Enter your account login password to import your private messages.",
+                "header_set_own": "Enter a paassword to setup private messages.",
+                "header_set_own_import": "Enter your private messages paassword to import them.",
+                "passwords_mismatch": "The passwords didn't match",
+                "invalid_password": "Your password was incorrect.",
+                "button_import": "Import",
+                "button_setup": "Setup",
+                "confirm_password": "Confirm Password",
+                "success": "Private messaging is now ready, your page will now reload..."
+            },
+            "modal": {
+                "title": "Start Conversation",
+                "help": "Start typing a username to start a chat.",
+                "help_start": "Type your first message. This will be the only message you can send until {username} responds. Click the user to select a different recipient.",
+                "search_recipients": "Enter username...",
+                "submit": "Send & Start Conversation",
+                "copied": "Your message has been copied to the clipboard.",
+                "more_users": "If you don't see the user you are looking for, they don't have private messaging setup.",
+                "already": "You already have a conversation with {username}."
+            },
+            "user_modal_alert": "{username} has private messaging setup, their password cannot be safely changed.",
+            "chat": {
+                "chat_with": "Chat with {username}",
+                "messages_multiple": "{count} total messages",
+                "messages_single": "New conversation",
+                "start": "Start Conversation",
+                "read": "Read",
+                "cant_start": "Can't Start Conversation",
+                "text_placeholder": "Type your message",
+                "send": "Send Message",
+                "recovery_message": "System message: Encryption sync lost and recovered",
+                "failed_message": "Failed to decrypt message, attempting recovery method #{method}",
+                "cant_send": "You can't send a message until {username} responds (first message only)",
+                "cant_send_toomany": "Please wait for {username}'s reply before sending more messages",
+                "failed_to_decrypt": "[Failed to decrypt]",
+                "start_of_conversation": "Start of Conversation"
+            }
+        }
+    }
+}
