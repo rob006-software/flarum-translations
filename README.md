@@ -361,6 +361,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`acpl-mobile-tab`](https://weblate.rob006.net/projects/flarum/acpl-mobile-tab) | [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) |
 | [`acpl-my-tags`](https://weblate.rob006.net/projects/flarum/acpl-my-tags) | [`acpl/my-tags`](https://github.com/android-com-pl/my-tags) |
 | [`amaurycarrade-syndication`](https://weblate.rob006.net/projects/flarum/amaurycarrade-syndication) | [`amaurycarrade/flarum-ext-syndication`](https://github.com/AmauryCarrade/flarum-ext-syndication) |
+| [`andre-pullinen-ads`](https://weblate.rob006.net/projects/flarum/andre-pullinen-ads) | [`andre-pullinen/ads`](https://github.com/andre-pullinen/ads) |
 | [`antoinefr-money`](https://weblate.rob006.net/projects/flarum/antoinefr-money) | [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money) |
 | [`antoinefr-online`](https://weblate.rob006.net/projects/flarum/antoinefr-online) | [`antoinefr/flarum-ext-online`](https://github.com/AntoineFr/flarum-ext-online) |
 | [`askvortsov-auth-sync`](https://weblate.rob006.net/projects/flarum/askvortsov-auth-sync) | [`askvortsov/flarum-auth-sync`](https://github.com/askvortsov1/flarum-auth-sync) |
@@ -448,6 +449,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`kvothe-reply-to-see`](https://weblate.rob006.net/projects/flarum/kvothe-reply-to-see) | [`kvothe/reply-to-see`](https://github.com/oaklinq/flarum-ext-reply2see) |
 | [`kyrne-evergreen`](https://weblate.rob006.net/projects/flarum/kyrne-evergreen) | [`kyrne/evergreen`](https://github.com/KyrneDev/Evergreen) |
 | [`kyrne-shout`](https://weblate.rob006.net/projects/flarum/kyrne-shout) | [`kyrne/shout`](https://github.com/KyrneDev/Shout-public) |
+| [`kyrne-whisper`](https://weblate.rob006.net/projects/flarum/kyrne-whisper) | [`kyrne/whisper`](https://github.com/KyrneDev/whisper) |
 | [`luuhai48-oauth-google`](https://weblate.rob006.net/projects/flarum/luuhai48-oauth-google) | [`luuhai48/oauth-google`](https://github.com/luuhai48/oauth-google) |
 | [`luuhai48-oauth-linkedin`](https://weblate.rob006.net/projects/flarum/luuhai48-oauth-linkedin) | [`luuhai48/oauth-linkedin`](https://github.com/luuhai48/oauth-linkedin) |
 | [`maicol07-sso`](https://weblate.rob006.net/projects/flarum/maicol07-sso) | [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso) |
@@ -476,6 +478,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`nomiscz-auth-steam`](https://weblate.rob006.net/projects/flarum/nomiscz-auth-steam) | [`nomiscz/flarum-ext-auth-steam`](https://github.com/NomisCZ/flarum-ext-auth-steam) |
 | [`nomiscz-auth-wechat`](https://weblate.rob006.net/projects/flarum/nomiscz-auth-wechat) | [`nomiscz/flarum-ext-auth-wechat`](https://github.com/NomisCZ/flarum-ext-auth-wechat) |
 | [`nyu8-email-filter`](https://weblate.rob006.net/projects/flarum/nyu8-email-filter) | [`nyu8/flarum-email-filter`](https://github.com/nyu8/flarum-email-filter) |
+| [`ralkage-hcaptcha`](https://weblate.rob006.net/projects/flarum/ralkage-hcaptcha) | [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha) |
 | [`saleksin-auth-google`](https://weblate.rob006.net/projects/flarum/saleksin-auth-google) | [`saleksin/flarum-auth-google`](https://github.com/saleksin/flarum-auth-google) |
 | [`serakoi-flarumdiscordtheme`](https://weblate.rob006.net/projects/flarum/serakoi-flarumdiscordtheme) | [`serakoi/flarumdiscordtheme`](https://github.com/Serakoi/flarum-discord-theme-2) |
 | [`shriker-pronouns`](https://weblate.rob006.net/projects/flarum/shriker-pronouns) | [`shriker/flarum-pronouns`](https://github.com/shriker/flarum-pronouns) |
