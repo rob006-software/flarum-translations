@@ -28,7 +28,7 @@
                 "app_key": "Pusher App Key - leave as is if using built-in websocket server.",
                 "secret": "Pusher App Secret - leave as is if using built-in websocket server.",
                 "secure": "Force the websocket to use secure protocols - Enable this if you are using a secure websocket server but not website.",
-                "host": "Host of your websocket server - leave as is if the server is the same host as your forum.",
+                "host": "Host of your websocket server - leave as is if the server is the same host as your admin.",
                 "reverse_proxy": "Websockets will connect over port 443 when this is enabled - Use this if you are using a reverse proxy from port 443 to your websocket server.",
                 "port": "Port of your websocket server - leave as is if you don't change the build in server port.",
                 "cert_path": "Only needed if using ssl and NOT reverse proxy. Path to your SSL (https) certificate ON THE SERVER your websocket server is on - usually a .crt or .pem file.",
