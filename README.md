@@ -363,7 +363,6 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`amaurycarrade-syndication`](https://weblate.rob006.net/projects/flarum/amaurycarrade-syndication) | [`amaurycarrade/flarum-ext-syndication`](https://github.com/AmauryCarrade/flarum-ext-syndication) |
 | [`antoinefr-money`](https://weblate.rob006.net/projects/flarum/antoinefr-money) | [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money) |
 | [`antoinefr-online`](https://weblate.rob006.net/projects/flarum/antoinefr-online) | [`antoinefr/flarum-ext-online`](https://github.com/AntoineFr/flarum-ext-online) |
-| [`askvortsov-auth-sync`](https://weblate.rob006.net/projects/flarum/askvortsov-auth-sync) | [`askvortsov/flarum-auth-sync`](https://github.com/askvortsov1/flarum-auth-sync) |
 | [`askvortsov-auto-moderator`](https://weblate.rob006.net/projects/flarum/askvortsov-auto-moderator) | [`askvortsov/flarum-auto-moderator`](https://github.com/askvortsov1/flarum-auto-moderator) |
 | [`askvortsov-categories`](https://weblate.rob006.net/projects/flarum/askvortsov-categories) | [`askvortsov/flarum-categories`](https://github.com/askvortsov1/flarum-categories) |
 | [`askvortsov-checklist`](https://weblate.rob006.net/projects/flarum/askvortsov-checklist) | [`askvortsov/flarum-checklist`](https://github.com/askvortsov1/flarum-checklist) |
