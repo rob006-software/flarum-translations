@@ -556,6 +556,9 @@ return [
 	'kyrne-websocket' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/kyrne-websocket.yml',
 	],
+	'kyrne-whisper' => [
+		'tag' => 'https://raw.githubusercontent.com/KyrneDev/whisper/0.1.1/resources/locale/en.yml',
+	],
 	'luuhai48-oauth-google' => [
 		'tag' => 'https://raw.githubusercontent.com/luuhai48/oauth-google/v1.1.0/resources/locale/en.yml',
 	],
