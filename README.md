@@ -449,6 +449,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`kvothe-reply-to-see`](https://weblate.rob006.net/projects/flarum/kvothe-reply-to-see) | [`kvothe/reply-to-see`](https://github.com/oaklinq/flarum-ext-reply2see) |
 | [`kyrne-evergreen`](https://weblate.rob006.net/projects/flarum/kyrne-evergreen) | [`kyrne/evergreen`](https://github.com/KyrneDev/Evergreen) |
 | [`kyrne-shout`](https://weblate.rob006.net/projects/flarum/kyrne-shout) | [`kyrne/shout`](https://github.com/KyrneDev/Shout-public) |
+| [`kyrne-websocket`](https://weblate.rob006.net/projects/flarum/kyrne-websocket) | [`kyrne/websocket`](https://github.com/KyrneDev/websocket) |
 | [`kyrne-whisper`](https://weblate.rob006.net/projects/flarum/kyrne-whisper) | [`kyrne/whisper`](https://github.com/KyrneDev/whisper) |
 | [`luuhai48-oauth-google`](https://weblate.rob006.net/projects/flarum/luuhai48-oauth-google) | [`luuhai48/oauth-google`](https://github.com/luuhai48/oauth-google) |
 | [`luuhai48-oauth-linkedin`](https://weblate.rob006.net/projects/flarum/luuhai48-oauth-linkedin) | [`luuhai48/oauth-linkedin`](https://github.com/luuhai48/oauth-linkedin) |
@@ -456,7 +457,6 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`malago-achievements`](https://weblate.rob006.net/projects/flarum/malago-achievements) | [`malago/flarum-achievements`](https://github.com/malago86/flarum-achievements) |
 | [`malago-ads`](https://weblate.rob006.net/projects/flarum/malago-ads) | [`malago/flarum-ads`](https://github.com/malago86/flarum-ads) |
 | [`malago-fancybox`](https://weblate.rob006.net/projects/flarum/malago-fancybox) | [`malago/flarum-ext-fancybox`](https://github.com/malago86/flarum-ext-fancybox) |
-| [`malago-linkpreview`](https://weblate.rob006.net/projects/flarum/malago-linkpreview) | [`malago/flarum-linkpreview`](https://github.com/malago86/flarum-linkpreview) |
 | [`matteocontrini-imgur-upload`](https://weblate.rob006.net/projects/flarum/matteocontrini-imgur-upload) | [`matteocontrini/flarum-imgur-upload`](https://github.com/matteocontrini/flarum-imgur-upload) |
 | [`michaelbelgium-discussion-views`](https://weblate.rob006.net/projects/flarum/michaelbelgium-discussion-views) | [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views) |
 | [`michaelbelgium-profile-views`](https://weblate.rob006.net/projects/flarum/michaelbelgium-profile-views) | [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views) |
@@ -533,7 +533,6 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`kilowhat-formulaire`](https://weblate.rob006.net/projects/flarum/kilowhat-formulaire) | [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire) |
 | [`kilowhat-wordpress`](https://weblate.rob006.net/projects/flarum/kilowhat-wordpress) | [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress) |
 | [`kyrne-aegis`](https://weblate.rob006.net/projects/flarum/kyrne-aegis) | [`kyrne/aegis`](https://extiverse.com/extension/kyrne/aegis) |
-| [`kyrne-websocket`](https://weblate.rob006.net/projects/flarum/kyrne-websocket) | [`kyrne/websocket`](https://extiverse.com/extension/kyrne/websocket) |
 | [`maicol07-oidc-client`](https://weblate.rob006.net/projects/flarum/maicol07-oidc-client) | [`maicol07/flarum-oidc-client`](https://extiverse.com/extension/maicol07/flarum-oidc-client) |
 | [`reflar-recache`](https://weblate.rob006.net/projects/flarum/reflar-recache) | [`reflar/recache`](https://extiverse.com/extension/reflar/recache) |
 | [`v17development-support`](https://weblate.rob006.net/projects/flarum/v17development-support) | [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support) |
