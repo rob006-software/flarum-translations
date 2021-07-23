@@ -2,57 +2,57 @@
     "kyrne-whisper": {
         "admin": {
             "settings": {
-                "return_key": "",
-                "title": "",
-                "set_own_password": ""
+                "return_key": "Enter tuşu mesaj gönderir",
+                "title": "Whisper Ayarları",
+                "set_own_password": "Kullanıcıların kendi şifresini oluşturmasına izin ver - SSO Uyumluluğu"
             },
             "permissions": {
-                "start_label": ""
+                "start_label": "Özel sohbet başlat"
             }
         },
         "forum": {
             "dropdown": {
-                "tooltip": ""
+                "tooltip": "Sohbetler"
             },
             "setup": {
-                "title": "",
-                "header_setup": "",
-                "header_import": "",
-                "header_set_own": "",
-                "header_set_own_import": "",
-                "passwords_mismatch": "",
-                "invalid_password": "",
-                "button_import": "",
-                "button_setup": "",
-                "confirm_password": "",
-                "success": ""
+                "title": "Özel Sohbeti Ayarla",
+                "header_setup": "Özel sohbeti ayarlamak için kullanıcı adı ve şifrenizi girin.",
+                "header_import": "Özel sohbetlerinizi içe aktarmak için kullanıcı adınızı ve şifrenizi girin.",
+                "header_set_own": "Özel sohbetleri hazırlamak için şifrenizi girin.",
+                "header_set_own_import": "Özel sohbetlerinizi içe aktarmak için şifrenizi girin.",
+                "passwords_mismatch": "Şifre eşleşmedi",
+                "invalid_password": "Şifren doğru değil.",
+                "button_import": "İçe Aktar",
+                "button_setup": "Ayarla",
+                "confirm_password": "Şifreni Doğrula",
+                "success": "Özel sohbet sistemi ayarlandı, sayfa yeniden yüklenecek..."
             },
             "modal": {
-                "title": "",
-                "help": "",
-                "help_start": "",
-                "search_recipients": "",
-                "submit": "",
-                "copied": "",
-                "more_users": "",
-                "already": ""
+                "title": "Sohbet Başlat",
+                "help": "Sohbete başlamak için bir kullanıcı adı yazın.",
+                "help_start": "İlk mesajınızı yazın. Yeni bir mesajı yalnızca {username} sana yanıt verdikten sonra yazabilirsin. Farklı bir kullanıcı seçmek için tıkla.",
+                "search_recipients": "Kullanıcı adı gir...",
+                "submit": "Gönder ve Sohbeti Başlat",
+                "copied": "Mesajınız panoya kopyalandı.",
+                "more_users": "Eğer aradığınız kullanıcıyı göremiyorsanız özel sohbet sisteminin kurulumunu tamamlamamış olabilir.",
+                "already": "{username} kullanıcısı ile zaten bir sohbetiniz mevcut."
             },
-            "user_modal_alert": "",
+            "user_modal_alert": "{username} özel sohbet kurulumuna sahip, şifreleri güvenli bir şekilde değiştirilemez.",
             "chat": {
-                "chat_with": "",
-                "messages_multiple": "",
-                "messages_single": "",
-                "start": "",
-                "read": "",
-                "cant_start": "",
-                "text_placeholder": "",
-                "send": "",
-                "recovery_message": "",
-                "failed_message": "",
-                "cant_send": "",
-                "cant_send_toomany": "",
-                "failed_to_decrypt": "",
-                "start_of_conversation": ""
+                "chat_with": "{username} ile Sohbet",
+                "messages_multiple": "{count} toplam mesaj",
+                "messages_single": "Yeni sohbet",
+                "start": "Sohbet Başlat",
+                "read": "Oku",
+                "cant_start": "Sohbet Başlatılamaz",
+                "text_placeholder": "Mesajınızı yazın",
+                "send": "Mesajı Gönder",
+                "recovery_message": "Sistem mesajı: Şifreleme senkronizasyonu kayboldu ve kurtarıldı",
+                "failed_message": "Mesajın şifresi çözülemedi, kurtarma yöntemi #{method} deneniyor",
+                "cant_send": "{username} yanıt verene kadar yeni bir mesaj gönderemezsiniz (yalnızca ilk mesaj için geçerli)",
+                "cant_send_toomany": "Daha fazla mesaj göndermeden önce lütfen {username} yanıtını bekleyin",
+                "failed_to_decrypt": "[Şifre çözülürken hata oluştu]",
+                "start_of_conversation": "Sohbeti Başlat"
             }
         }
     }
