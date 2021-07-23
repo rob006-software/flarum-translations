@@ -710,7 +710,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-quiet-edits/0.1.3/locale/en.yml',
 	],
 	'the-turk-regrole' => [
-		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-regrole/1.0.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-regrole/1.0.3/locale/en.yml',
 	],
 	'the-turk-stickiest' => [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-stickiest/2.0.2/locale/en.yml',
