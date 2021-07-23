@@ -28,7 +28,7 @@
                 "app_key": "Clé d'application Pusher - laissez tel quel si vous utilisez le serveur WebSocket intégré.",
                 "secret": "Secret d'application Pusher - laissez tel quel si vous utilisez le serveur WebSocket intégré.",
                 "secure": "Forcer le WebSocket à utiliser des protocoles sécurisés - activez cette option si vous utilisez un serveur WebSocket sécurisé mais pas le site internet.",
-                "host": "Hôte de votre serveur WebSocket - laissez tel quel si le serveur est le même hôte que votre forum.",
+                "host": "Hôte de votre serveur WebSocket - laissez tel quel si le serveur est le même hôte que votre administrateur.",
                 "reverse_proxy": "Les WebSockets se connecteront sur le port 443 lorsque cette option est activée - utilisez cette option si vous utilisez un proxy inverse du port 443 vers votre serveur WebSocket.",
                 "port": "Port de votre serveur WebSocket - laissez tel quel si vous ne modifiez pas le port du serveur intégré.",
                 "cert_path": "Nécessaire uniquement si vous utilisez SSL et NON le reverse proxy. Chemin d'accès à votre certificat SSL (HTTPS) SUR LE SERVEUR où se trouve votre serveur WebSocket - généralement un fichier .crt ou .pem.",
