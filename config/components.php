@@ -713,7 +713,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-regrole/1.0.3/locale/en.yml',
 	],
 	'the-turk-stickiest' => [
-		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-stickiest/2.0.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-stickiest/2.0.3/locale/en.yml',
 	],
 	'therealsujitk-gifs' => [
 		'tag' => 'https://raw.githubusercontent.com/therealsujitk/flarum-ext-gifs/v4.0.0/resources/locale/en.yml',
