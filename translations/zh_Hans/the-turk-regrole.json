@@ -2,6 +2,12 @@
     "the-turk-regrole": {
         "admin": {
             "settings": {
+                "allowed_roles_label": "",
+                "allowed_roles_text": "",
+                "other_options_heading": "",
+                "allow_multiple_roles_label": "",
+                "force_users_label": "",
+                "force_users_text": "",
                 "title": "注册角色设置",
                 "roleIds": "开放角色",
                 "roleIdsHelp": "选择允许用户自行挑选的角色。",
@@ -11,10 +17,24 @@
             }
         },
         "forum": {
+            "suspended_temporarily_message": "",
+            "choose_role_button_label": "",
+            "required_role_message": "",
+            "choose_role_modal": {
+                "choose_role_heading": "",
+                "choose_role_text": "",
+                "save_button": ""
+            },
+            "sign_up_modal": {
+                "choose_role_heading": ""
+            },
             "chooseRole": "选择角色",
             "chooseRoleHelp": "要继续使用论坛，请挑选一个角色。",
             "requiredRegRole": "您必须挑选一个角色才能完成注册。",
             "save": "=> core.ref.save_changes"
+        },
+        "ref": {
+            "choose_a_role": ""
         }
     }
 }

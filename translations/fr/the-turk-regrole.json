@@ -2,6 +2,12 @@
     "the-turk-regrole": {
         "admin": {
             "settings": {
+                "allowed_roles_label": "",
+                "allowed_roles_text": "",
+                "other_options_heading": "",
+                "allow_multiple_roles_label": "",
+                "force_users_label": "",
+                "force_users_text": "",
                 "title": "Paramètres des rôles d'inscription",
                 "roleIds": "Rôles autorisés",
                 "roleIdsHelp": "Sélectionnez les rôles que les utilisateurs sont autorisés à s'attribuer.",
@@ -11,10 +17,24 @@
             }
         },
         "forum": {
+            "suspended_temporarily_message": "",
+            "choose_role_button_label": "",
+            "required_role_message": "",
+            "choose_role_modal": {
+                "choose_role_heading": "",
+                "choose_role_text": "",
+                "save_button": ""
+            },
+            "sign_up_modal": {
+                "choose_role_heading": ""
+            },
             "chooseRole": "Sélectionner un rôle",
             "chooseRoleHelp": "Veuillez sélectionner un rôle pour continuer à utiliser notre forum.",
             "requiredRegRole": "Vous devez sélectionner un rôle pour poursuivre l'inscription.",
             "save": "=> core.ref.save_changes"
+        },
+        "ref": {
+            "choose_a_role": ""
         }
     }
 }
