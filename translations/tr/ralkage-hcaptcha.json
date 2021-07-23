@@ -2,20 +2,20 @@
     "ralkage-hcaptcha": {
         "admin": {
             "settings": {
-                "help_text": "",
-                "secret_key_label": "",
-                "site_key_label": "",
-                "type_label": ""
+                "help_text": "hCaptcha kimlik bilgilerinizi <a>buradan</a> alın.",
+                "secret_key_label": "Gizli Anahtar",
+                "site_key_label": "Site Anahtarı",
+                "type_label": "hCaptcha Türü"
             },
             "permissions": {
-                "post_without_hcaptcha": ""
+                "post_without_hcaptcha": "hCaptcha olmadan gönderi ve tartışma oluştur"
             }
         },
         "forum": {
-            "error": ""
+            "error": "hCaptcha gönderilirken bir hata oluştu. Tekrar deneyin."
         }
     },
     "validation": {
-        "hcaptcha": ""
+        "hcaptcha": "hCaptcha doğrulanamadı."
     }
 }
