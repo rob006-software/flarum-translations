@@ -13,12 +13,12 @@
                 "userMentioned": "Felhasználó említése e-mail",
                 "postMentioned": "Hozzászólás említése e-mail",
                 "notifications": "Értesítés sablonok",
-                "notificationHelp": "",
-                "help": ""
+                "notificationHelp": "Javasoljuk, hogy ezekhez az e-mailekhez használja a \"$forumStyle\" szót, mivel ezek tartalmazhatnak BBCODE-t. Ezekben az e-mailekben elérhető az \"$user\" is, amely tartalmazza az e-mailben küldött felhasználó teljes felhasználói modelljét.",
+                "help": "A \"$body\" tartalmazza az e-mail tényleges tartalmát, a \"$forumStyle\" tartalmazza a <strong> teljes fórum CSS </strong> t, az \"$url\" a Flarums UrlGenerator, a \"$settings\" lehetővé teszi, hogy kapcsolatba lépjen a SettingsRepositoryInterface-vel, és a \"$link\" tartalmazza az e-mailben található linket. Nézd meg az egyes sablonokat az egyes változók használatáról."
             },
             "css_settings": {
                 "label": "CSS beállítások",
-                "help": "",
+                "help": "Beállíthatod, hogy a fórum CSS-jét felvedd az e-mail HTML-kódjába. Ha engedélyezed, akkor problémák léphetnek fel egyes e-mail szolgáltatóknál.",
                 "switch_label": "Teljes fórum CSS beágyazása"
             }
         }
