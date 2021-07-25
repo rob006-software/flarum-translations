@@ -30,29 +30,29 @@
             "modal": {
                 "title": "Inizia conversazione",
                 "help": "Inizia a scrivere un nome per iniziare la chat.",
-                "help_start": "",
-                "search_recipients": "",
-                "submit": "",
-                "copied": "",
-                "more_users": "",
-                "already": ""
+                "help_start": "Digita il tuo primo messaggio. Questo sarà l'unico messaggio che puoi inviare finché {username} non risponde. Fare clic sull'utente per selezionare un destinatario diverso.",
+                "search_recipients": "Inserire username...",
+                "submit": "Invia e avvia conversazione",
+                "copied": "Il tuo messaggio è stato copiato negli appunti.",
+                "more_users": "Se non vedi l'utente che stai cercando, non ha la configurazione della messaggistica privata.",
+                "already": "Hai già una conversazione con {username}."
             },
-            "user_modal_alert": "",
+            "user_modal_alert": "{username} ha un'impostazione di messaggistica privata, la sua password non può essere modificata in sicurezza.",
             "chat": {
-                "chat_with": "",
-                "messages_multiple": "",
-                "messages_single": "",
-                "start": "",
-                "read": "",
-                "cant_start": "",
-                "text_placeholder": "",
-                "send": "",
-                "recovery_message": "",
-                "failed_message": "",
-                "cant_send": "",
-                "cant_send_toomany": "",
-                "failed_to_decrypt": "",
-                "start_of_conversation": ""
+                "chat_with": "Chatta con {nome utente}",
+                "messages_multiple": "{count} messaggi totali",
+                "messages_single": "Nuova conversazione",
+                "start": "Avvia conversazione",
+                "read": "Leggi",
+                "cant_start": "Impossibile avviare la conversazione",
+                "text_placeholder": "Scrivi il tuo messaggio",
+                "send": "Invia messaggio",
+                "recovery_message": "Messaggio di sistema: sincronizzazione della crittografia persa e ripristinata",
+                "failed_message": "Impossibile decrittografare il messaggio, tentativo di recupero con metodo #{method}",
+                "cant_send": "Non puoi inviare un messaggio finché {username} non risponde (solo primo messaggio)",
+                "cant_send_toomany": "Attendi la risposta di {username} prima di inviare altri messaggi",
+                "failed_to_decrypt": "[Impossibile decifrare]",
+                "start_of_conversation": "Inizio della conversazione"
             }
         }
     }
