@@ -75,11 +75,11 @@
                 "instructions_header": "Istruzioni",
                 "instructions_text": "<li>Per creare un traguardo, devi assegnargli un nome.</li>\n<li>La descrizione è opzionale.</li>\n <li>Scegli la variabile che desideri calcolare per questo risultato dall'elenco.</li>\n <li>Introdurre la soglia per l'attivazione dell'obiettivo. Puoi inserire due numeri separati da una virgola (,) per indicare una soglia minima e una soglia massima (entrambi i numeri sono inclusi).</li>\n <li>I risultati con due soglie verranno rimossi se il conteggio è oltre la soglia superiore.</li>\n <li>Per la variabile \"Il messaggio contiene\", è necessario introdurre la parola specificata e quindi la soglia, separate da una virgola (es. \"spinaci,5\" o \"spinaci,5,10\" per soglia minima e massima.)</li>\n <li>Introduci l'URL dell'immagine con l'icona da utilizzare per questo traguardo.</li>\n <li>Introduci la larghezza e l'altezza dell'icona.</li>\n <li>Facoltativo: se l'immagine ha più di un'icona per svariati traguardi, puoi selezionare quale riga e colonna mostrare per l'icona.</li>\n",
                 "add_delete_users": "Aggiungi/Rimuovi traguardo da utente",
-                "show": ""
+                "show": "Mostra lista traguardi su:"
             },
             "settings": {
-                "show-post-footer": "",
-                "show-user-card": ""
+                "show-post-footer": "Ogni post",
+                "show-user-card": "Card Profilo Utente"
             }
         }
     }
