@@ -5,12 +5,12 @@
                 "show_updates_text": "{count, plural, one {Afficher # discussion mise à jour} other {Afficher # discussions mises à jour}}"
             },
             "discussion_page": {
-                "viewing_title": ""
+                "viewing_title": "Ici à présent :"
             }
         },
         "admin": {
             "chart": {
-                "title": ""
+                "title": "Statistiques de Websocket"
             },
             "pusher_settings": {
                 "local_cert_path": "Chemin du certificat SSL local",
@@ -23,14 +23,14 @@
                 "auto_update": "Mettre à jour automatiquement les discussions",
                 "app_key_label": "Clé d'application",
                 "app_secret_label": "Secret d'application",
-                "stats_label": "",
+                "stats_label": "Intervalle des statistiques",
                 "secure": "Forcer WSS/HTTPS pour WebSocket",
                 "title": "Paramètres de WebSocket/Pusher",
                 "reverse_proxy": "Support du proxy inverse",
                 "auth_only": "WebSocket uniquement pour les utilisateurs connectés"
             },
             "help": {
-                "stats": "",
+                "stats": "Le délai entre les sauvegardes de statistiques - en secondes. Il est recommandé de régler cette option entre 3600 (1 heure) et 21600 (6 heures). Par défaut à 7200.",
                 "auto_update": "Ne pas afficher la bannière jaune de mise à jour, mettre immédiatement à jour la liste de discussions.",
                 "app_id": "Identifiant d'application Pusher - laissez tel quel si vous utilisez le serveur WebSocket intégré.",
                 "app_key": "Clé d'application Pusher - laissez tel quel si vous utilisez le serveur WebSocket intégré.",
