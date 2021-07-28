@@ -2,7 +2,7 @@
     "clarkwinkelmann-likes-received": {
         "forum": {
             "user-card": {
-                "likes": "{likes} likes received"
+                "likes": "{likes, plural, one {# like received} other {# likes received}}"
             }
         },
         "admin": {
