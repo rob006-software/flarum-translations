@@ -1,13 +1,13 @@
 {
     "username-blacklist": {
         "forum": {
-            "modal-title": "",
-            "modal-body-first-line": "",
-            "modal-body-second-line": ""
+            "modal-title": "Uyarı!",
+            "modal-body-first-line": "Uyarı - Bu kullanıcı adı <strong>yönetici tarafından engellenmiştir</strong>",
+            "modal-body-second-line": "Lütfen topluluk kurallarına uygun başka bir kullanıcı adı seçip tekrar deneyin."
         },
         "admin": {
-            "blackList": "",
-            "blackList-help": ""
+            "blackList": "Kara listeye alınmış kullanıcı adları",
+            "blackList-help": "Kayıt sırasında engellemek istediğiniz kullanıcı adını buraya yazın (virgülle ayırarak)"
         }
     }
 }
