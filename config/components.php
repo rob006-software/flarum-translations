@@ -560,7 +560,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/KyrneDev/Shout-public/0.3.3/resources/locale/en.yml',
 	],
 	'kyrne-websocket' => [
-		'tag' => 'https://raw.githubusercontent.com/KyrneDev/websocket/2.8.5/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/KyrneDev/websocket/3.0.1/resources/locale/en.yml',
 	],
 	'kyrne-whisper' => [
 		'tag' => 'https://raw.githubusercontent.com/KyrneDev/whisper/0.1.2/resources/locale/en.yml',
