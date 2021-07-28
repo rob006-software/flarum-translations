@@ -5,12 +5,12 @@
                 "show_updates_text": "{count, plural, one {Güncellenmiş # tartışmayı göster} other {Güncellenmiş # tartışmayı göster}}"
             },
             "discussion_page": {
-                "viewing_title": ""
+                "viewing_title": "Şimdi burada:"
             }
         },
         "admin": {
             "chart": {
-                "title": ""
+                "title": "Websocket İstatistikleri"
             },
             "pusher_settings": {
                 "local_cert_path": "Yerel SSL Sertifika Yolu",
@@ -23,14 +23,14 @@
                 "auto_update": "Tartışmaları Otomatik Güncelleme",
                 "app_key_label": "App Key",
                 "app_secret_label": "Uygulama Sırrı (App Secret)",
-                "stats_label": "",
+                "stats_label": "İstatistik Aralığı",
                 "secure": "Websocket için wss/https zorla",
                 "title": "Websocket/Pusher Ayarları",
                 "reverse_proxy": "Ters Proxy Desteği",
                 "auth_only": "Yalnızca Oturum Açan Kullanıcılar için Websocket"
             },
             "help": {
-                "stats": "",
+                "stats": "İstatistikler arasındaki zaman aralığı - saniye cinsinden. 3600 (1 saat) ile 21600 (6 saat) arasında önerilir Varsayılan: 7200.",
                 "auto_update": "Sarı güncelleme başlığını göstermeyin, tartışma listesini hemen güncelleyin.",
                 "app_id": "Pusher Uygulama Kimliği - yerleşik websocket sunucusu kullanıyormuş gibi bırakın.",
                 "app_key": "Pusher Uygulama Anahtarı - yerleşik websocket sunucusu kullanıyormuş gibi bırakın.",
