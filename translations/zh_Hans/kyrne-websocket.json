@@ -3,9 +3,15 @@
         "forum": {
             "discussion_list": {
                 "show_updates_text": "有 {count, plural, one {#} other {#}} 条新内容，点击查看"
+            },
+            "discussion_page": {
+                "viewing_title": ""
             }
         },
         "admin": {
+            "chart": {
+                "title": ""
+            },
             "pusher_settings": {
                 "local_cert_path": "本地 SSL 证书路径",
                 "local_pk_path": "本地 SSL 私钥路径",
@@ -17,12 +23,14 @@
                 "auto_update": "自动更新主题帖",
                 "app_key_label": "App Key",
                 "app_secret_label": "App Secret",
+                "stats_label": "",
                 "secure": "强制 WebSocket WSS/HTTPS",
                 "title": "WebSocket / Pusher 设置",
                 "reverse_proxy": "反向代理支持",
                 "auth_only": "仅向登录用户开放 Websocket"
             },
             "help": {
+                "stats": "",
                 "auto_update": "即时更新全部主题列表，不再显示「有新内容」黄色横幅。",
                 "app_id": "Pusher App ID - 如果使用内置 WebSocket 服务器，请保持默认值。",
                 "app_key": "Pusher App Key - 如果使用内置 WebSocket 服务器，请保持默认值。",

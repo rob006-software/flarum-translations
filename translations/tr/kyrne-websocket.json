@@ -3,9 +3,15 @@
         "forum": {
             "discussion_list": {
                 "show_updates_text": "{count, plural, one {Güncellenmiş # tartışmayı göster} other {Güncellenmiş # tartışmayı göster}}"
+            },
+            "discussion_page": {
+                "viewing_title": ""
             }
         },
         "admin": {
+            "chart": {
+                "title": ""
+            },
             "pusher_settings": {
                 "local_cert_path": "Yerel SSL Sertifika Yolu",
                 "local_pk_path": "Yerel SSL Özel Anahtar Yolu",
@@ -17,12 +23,14 @@
                 "auto_update": "Tartışmaları Otomatik Güncelleme",
                 "app_key_label": "App Key",
                 "app_secret_label": "Uygulama Sırrı (App Secret)",
+                "stats_label": "",
                 "secure": "Websocket için wss/https zorla",
                 "title": "Websocket/Pusher Ayarları",
                 "reverse_proxy": "Ters Proxy Desteği",
                 "auth_only": "Yalnızca Oturum Açan Kullanıcılar için Websocket"
             },
             "help": {
+                "stats": "",
                 "auto_update": "Sarı güncelleme başlığını göstermeyin, tartışma listesini hemen güncelleyin.",
                 "app_id": "Pusher Uygulama Kimliği - yerleşik websocket sunucusu kullanıyormuş gibi bırakın.",
                 "app_key": "Pusher Uygulama Anahtarı - yerleşik websocket sunucusu kullanıyormuş gibi bırakın.",

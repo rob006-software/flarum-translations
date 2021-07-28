@@ -3,9 +3,15 @@
         "forum": {
             "discussion_list": {
                 "show_updates_text": ""
+            },
+            "discussion_page": {
+                "viewing_title": ""
             }
         },
         "admin": {
+            "chart": {
+                "title": ""
+            },
             "pusher_settings": {
                 "local_cert_path": "",
                 "local_pk_path": "",
@@ -17,12 +23,14 @@
                 "auto_update": "",
                 "app_key_label": "",
                 "app_secret_label": "",
+                "stats_label": "",
                 "secure": "",
                 "title": "",
                 "reverse_proxy": "",
                 "auth_only": ""
             },
             "help": {
+                "stats": "",
                 "auto_update": "",
                 "app_id": "",
                 "app_key": "",

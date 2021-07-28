@@ -3,9 +3,15 @@
         "forum": {
             "discussion_list": {
                 "show_updates_text": "{count, plural, one {Afficher # discussion mise à jour} other {Afficher # discussions mises à jour}}"
+            },
+            "discussion_page": {
+                "viewing_title": ""
             }
         },
         "admin": {
+            "chart": {
+                "title": ""
+            },
             "pusher_settings": {
                 "local_cert_path": "Chemin du certificat SSL local",
                 "local_pk_path": "Chemin de la clé privée SSL locale",
@@ -17,12 +23,14 @@
                 "auto_update": "Mettre à jour automatiquement les discussions",
                 "app_key_label": "Clé d'application",
                 "app_secret_label": "Secret d'application",
+                "stats_label": "",
                 "secure": "Forcer WSS/HTTPS pour WebSocket",
                 "title": "Paramètres de WebSocket/Pusher",
                 "reverse_proxy": "Support du proxy inverse",
                 "auth_only": "WebSocket uniquement pour les utilisateurs connectés"
             },
             "help": {
+                "stats": "",
                 "auto_update": "Ne pas afficher la bannière jaune de mise à jour, mettre immédiatement à jour la liste de discussions.",
                 "app_id": "Identifiant d'application Pusher - laissez tel quel si vous utilisez le serveur WebSocket intégré.",
                 "app_key": "Clé d'application Pusher - laissez tel quel si vous utilisez le serveur WebSocket intégré.",
