@@ -7,41 +7,41 @@
                 "notify_new_discussion_tag_label": ""
             },
             "index": {
-                "follow_tag_button": "",
-                "unfollow_tag_button": "",
+                "follow_tag_button": "Seguir",
+                "unfollow_tag_button": "Parar de seguir",
                 "following": {
                     "following_none_label": "",
                     "following_tags_label": ""
                 }
             },
             "badge": {
-                "following_tag_tooltip": "",
+                "following_tag_tooltip": "Seguindo",
                 "lurking_tag_tooltip": ""
             },
             "sub_controls": {
-                "follow_button": "",
-                "following_button": "",
-                "following_text": "",
-                "hiding_button": "",
-                "hiding_text": "",
-                "ignoring_button": "",
-                "ignoring_text": "",
+                "follow_button": "Seguir",
+                "following_button": "Seguindo",
+                "following_text": "Sê notificado de todas as novas discussões.",
+                "hiding_button": "Escondendo",
+                "hiding_text": "Esconder discussões da página “Todas as discussões”.",
+                "ignoring_button": "Ignorando",
+                "ignoring_text": "Nunca ser notificado.",
                 "lurking_button": "",
-                "lurking_text": "",
-                "not_following_button": "",
-                "not_following_text": "",
-                "notify_alert_tooltip": "",
-                "notify_email_tooltip": ""
+                "lurking_text": "Sê notificado de todas as novas discussões e respostas.",
+                "not_following_button": "Não seguindo",
+                "not_following_text": "Sê notificado apenas quando @mencionado.",
+                "notify_alert_tooltip": "Receber notificações quando haver novas discussões ou posts",
+                "notify_email_tooltip": "Receber um email quando houver novas discussões ou posts"
             },
             "notifications": {
-                "new_discussion_text": "",
-                "new_post_text": "",
-                "new_discussion_tag_text": ""
+                "new_discussion_text": "{username} começou",
+                "new_post_text": "{username} postou",
+                "new_discussion_tag_text": "{username} mudou a tag"
             },
             "user": {
                 "settings": {
-                    "heading": "",
-                    "filter_label": ""
+                    "heading": "Seguir tags",
+                    "filter_label": "O que mostrar por padrão na página “Seguindo”"
                 }
             }
         },
@@ -54,25 +54,25 @@
         },
         "email": {
             "subject": {
-                "newDiscussionInTag": "",
-                "newPostInTag": "",
+                "newDiscussionInTag": "[Tag | Nova Discussão] {title}",
+                "newPostInTag": "[Tag | Novo Post] {title}",
                 "newDiscussionTag": ""
             },
             "body": {
-                "newDiscussionInTag": "",
-                "newPostInTag": "",
+                "newDiscussionInTag": "Olá {recipient_display_name},\n\n{actor_display_name} começou uma discussão na tag que estás seguindo: {discussion_title}\n\nPara ver a nova discussão dá uma olhada no seguinte link:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newPostInTag": "Olá {recipient_display_name},\n\n{actor_display_name} postou numa discussão numa tag que estás seguindo: {discussion_title}\n\nPara ver a nova atividade dá uma olhada no seguinte link:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nNão vais receber mais notificações desta discussão até que estejas atualizado.\n",
                 "newDiscussionTag": ""
             }
         },
         "ref": {
-            "follow": "",
-            "following": "",
-            "hiding": "",
-            "ignoring": "",
+            "follow": "Seguir",
+            "following": "Seguindo",
+            "hiding": "Escondendo",
+            "ignoring": "Ignorando",
             "lurking": "",
             "filtering_options": {
-                "none": "",
-                "tags": ""
+                "none": "Discussões seguidas",
+                "tags": "Tags seguidas"
             }
         }
     }
