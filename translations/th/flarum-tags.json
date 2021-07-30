@@ -1,0 +1,92 @@
+{
+    "flarum-tags": {
+        "admin": {
+            "basics": {
+                "tags_label": "=> flarum-tags.ref.tags"
+            },
+            "edit_tag": {
+                "color_label": "=> core.ref.color",
+                "delete_tag_button": "ลบแท็ก",
+                "delete_tag_confirmation": "คุณแน่ใจหรือไม่ว่าต้องการลบแท็กนี้ ? กระทู้ภายในแท็กนี้จะไม่ถูกลบตามไปด้วย",
+                "description_label": "คำอธิบาย",
+                "hide_label": "ซ่อนจากรายการกระทู้ทั้งหมด",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "=> flarum-tags.ref.name",
+                "name_placeholder": "=> flarum-tags.ref.name",
+                "slug_label": "ลิงก์",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "สร้างแท็ก"
+            },
+            "nav": {
+                "tags_button": "=> flarum-tags.ref.tags",
+                "tags_text": "จัดการรายชื่อแท็กที่พร้อมใช้งานเพื่อจัดมวดหมู่ของกระทู้"
+            },
+            "permissions": {
+                "allow_edit_tags_label": "อนุญาตการแก้ไขแท็ก",
+                "bypass_tag_counts_label": "Bypass tag requirements",
+                "restrict_by_tag_heading": "แบ่งตามแท็ก",
+                "tag_discussions_label": "ติดแท็กกระทู้"
+            },
+            "tag_settings": {
+                "range_separator_text": " to ",
+                "required_primary_heading": "Required Number of Primary Tags",
+                "required_primary_text": "Enter the minimum and maximum number of primary tags that may be applied to a discussion.",
+                "required_secondary_heading": "Required Number of Secondary Tags",
+                "required_secondary_text": "Enter the minimum and maximum number of secondary tags that may be applied to a discussion.",
+                "title": "Tag Settings"
+            },
+            "tags": {
+                "about_tags_text": "Tags are used to categorize discussions. Primary tags are like traditional forum categories: they can be arranged in a two-level hierarchy. Secondary tags do not have hierarchy or order, and are useful for micro-categorization.",
+                "create_primary_tag_button": "Create Primary Tag",
+                "create_secondary_tag_button": "Create Secondary Tag",
+                "primary_heading": "Primary Tags",
+                "secondary_heading": "Secondary Tags",
+                "settings_heading": "Settings"
+            }
+        },
+        "forum": {
+            "all_tags": {
+                "meta_description_text": "แท็กทั้งหมด",
+                "meta_title_text": "=> flarum-tags.ref.tags"
+            },
+            "choose_tags": {
+                "choose_primary_placeholder": "{count, plural, one {เลือกแท็กหลัก} other {เลือก # แท็กหลัก}}",
+                "choose_secondary_placeholder": "{count, plural, one {เลือกอย่างน้อย 1 แท็ก} other {เลือกอย่างน้อย # แท็ก}}",
+                "edit_title": "แก้ไขแท็กสำหรับ {title}",
+                "submit_button": "=> core.ref.okay",
+                "title": "เลือกแท็กสำหรับกระทู้ของคุณ"
+            },
+            "composer_discussion": {
+                "choose_tags_link": "เลือกแท็ก"
+            },
+            "discussion_controls": {
+                "edit_tags_button": "แก้ไขแท็ก"
+            },
+            "header": {
+                "back_to_tags_tooltip": "กลับไปที่รายการแท็ก"
+            },
+            "index": {
+                "more_link": "แสดงแท็กเพิ่มเติม...",
+                "tags_link": "=> flarum-tags.ref.tags",
+                "untagged_link": "ไม่ได้ติดแท็ก"
+            },
+            "post_stream": {
+                "added_and_removed_tags_text": "{username} added the {tagsAdded} and removed the {tagsRemoved}.",
+                "added_tags_text": "{username} added the {tagsAdded}.",
+                "removed_tags_text": "{username} removed the {tagsRemoved}.",
+                "tags_text": "{count, plural, one {{tags} tag} other {{tags} tags}}"
+            },
+            "tag": {
+                "meta_description_text": "All discussions with the {tag} tag"
+            }
+        },
+        "lib": {
+            "deleted_tag_text": "ถูกลบแล้ว"
+        },
+        "ref": {
+            "name": "ชื่อแท็ก",
+            "tags": "แท็ก"
+        }
+    }
+}
