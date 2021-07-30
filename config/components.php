@@ -34,9 +34,6 @@ return [
 	'antoinefr-online' => [
 		'tag' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-online/v1.0.1/locale/en.yml',
 	],
-	'askvortsov-auth-sync' => [
-		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-auth-sync/v2.0.0/resources/locale/en.yml',
-	],
 	'askvortsov-auto-moderator' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-auto-moderator/v0.1.1/resources/locale/en.yml',
 	],
