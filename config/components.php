@@ -601,9 +601,6 @@ return [
 	'reflar-recache' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/reflar-recache.yml',
 	],
-	'saleksin-auth-google' => [
-		'tag' => 'https://raw.githubusercontent.com/saleksin/flarum-auth-google/v0.1.0-beta.14.0.0/locale/en.yml',
-	],
 	'serakoi-flarumdiscordtheme' => [
 		'tag' => 'https://raw.githubusercontent.com/Serakoi/flarum-discord-theme-2/0.1.0/resources/locale/en.yml',
 	],
