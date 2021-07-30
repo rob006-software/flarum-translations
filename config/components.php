@@ -124,9 +124,6 @@ return [
 	'clarkwinkelmann-post-bookmarks' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-post-bookmarks/1.0.0/resources/locale/en.yml',
 	],
-	'clarkwinkelmann-post-permissions' => [
-		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-post-permissions/0.1.1/resources/locale/en.yml',
-	],
 	'clarkwinkelmann-predefined-avatars' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-predefined-avatars/1.0.0/resources/locale/en.yml',
 	],
