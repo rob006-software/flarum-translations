@@ -604,9 +604,6 @@ return [
 	'serakoi-flarumdiscordtheme' => [
 		'tag' => 'https://raw.githubusercontent.com/Serakoi/flarum-discord-theme-2/0.1.0/resources/locale/en.yml',
 	],
-	'simonxeko-follow-users' => [
-		'tag' => 'https://raw.githubusercontent.com/simonxeko/follow-users/0.3.5/resources/locale/en.yml',
-	],
 	'simonxeko-preview-discussion' => [
 		'tag' => 'https://raw.githubusercontent.com/simonxeko/flarum-ext-preview-discussion/0.1.0/resources/locale/en.yml',
 	],
