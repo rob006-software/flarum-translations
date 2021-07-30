@@ -520,9 +520,6 @@ return [
 	'kyrne-whisper' => [
 		'tag' => 'https://raw.githubusercontent.com/KyrneDev/whisper/0.1.3/resources/locale/en.yml',
 	],
-	'luuhai48-oauth-google' => [
-		'tag' => 'https://raw.githubusercontent.com/luuhai48/oauth-google/v1.1.0/resources/locale/en.yml',
-	],
 	'luuhai48-oauth-linkedin' => [
 		'tag' => 'https://raw.githubusercontent.com/luuhai48/oauth-linkedin/v2.0/resources/locale/en.yml',
 	],
