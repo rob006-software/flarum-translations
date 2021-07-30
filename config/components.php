@@ -649,9 +649,6 @@ return [
 	'therealsujitk-gifs' => [
 		'tag' => 'https://raw.githubusercontent.com/therealsujitk/flarum-ext-gifs/v4.1.0/resources/locale/en.yml',
 	],
-	'therealsujitk-hljs' => [
-		'tag' => 'https://raw.githubusercontent.com/therealsujitk/flarum-ext-hljs/v2.0.0/resources/locale/en.yml',
-	],
 	'therealsujitk-show-password' => [
 		'tag' => 'https://raw.githubusercontent.com/therealsujitk/flarum-ext-show-password/v2.0.0/resources/locale/en.yml',
 	],
