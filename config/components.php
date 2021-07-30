@@ -79,9 +79,6 @@ return [
 	'clarkwinkelmann-bookmarks' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-bookmarks/1.0.0/resources/locale/en.yml',
 	],
-	'clarkwinkelmann-carving-contest' => [
-		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-carving-contest/0.2.3/resources/locale/en.yml',
-	],
 	'clarkwinkelmann-catch-the-fish' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/catch-the-fish/1.0.0/resources/locale/en.yml',
 	],
