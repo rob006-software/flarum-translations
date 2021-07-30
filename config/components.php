@@ -607,9 +607,6 @@ return [
 	'spookygames-auth-keycloak' => [
 		'tag' => 'https://raw.githubusercontent.com/spookygames/flarum-ext-auth-keycloak/1.0.0.3/locale/en.yml',
 	],
-	'squeevee-fancybox' => [
-		'tag' => 'https://raw.githubusercontent.com/squeevee/flarum-ext-fancybox/0.2-beta/locale/en.yml',
-	],
 	'sycho-action-log' => [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-action-log/v0.1.3/resources/locale/en.yml',
 	],
