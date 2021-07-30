@@ -527,7 +527,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/username-blacklist/0.1.0/resources/locale/en.yml',
 	],
 	'justoverclock-welcomebox' => [
-		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-welcomebox/1.2.8/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-welcomebox/1.2.9/resources/locale/en.yml',
 	],
 	'katosdev-signature' => [
 		'tag' => 'https://raw.githubusercontent.com/katosdev/signature/1.0.0/locale/en.yml',
