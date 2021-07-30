@@ -1,0 +1,606 @@
+{
+    "core": {
+        "admin": {
+            "appearance": {
+                "colored_header_label": "Colored Header",
+                "colors_heading": "Colors",
+                "colors_text": "Choose two colors to theme your forum with. The first will be used as a highlight color, while the second will be used to style background elements.",
+                "custom_footer_heading": "Custom Footer",
+                "custom_footer_text": "=> core.ref.custom_footer_text",
+                "custom_header_heading": "Custom Header",
+                "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_heading": "Custom Styles",
+                "custom_styles_text": "Customize your forum's appearance by adding your own Less/CSS code to be applied on top of Flarum's default styles.",
+                "dark_mode_label": "Dark Mode",
+                "description": "Customize your forum's colors, logos, and other variables.",
+                "edit_css_button": "Edit Custom CSS",
+                "edit_footer_button": "=> core.ref.custom_footer_title",
+                "edit_header_button": "=> core.ref.custom_header_title",
+                "enter_hex_message": "Please enter a hexadecimal color code.",
+                "favicon_heading": "Favicon",
+                "favicon_text": "Upload an image to be displayed as the forum's shortcut icon.",
+                "logo_heading": "Logo",
+                "logo_text": "Upload an image to be displayed in place of the forum title.",
+                "title": "Appearance"
+            },
+            "basics": {
+                "all_discussions_label": "=> core.ref.all_discussions",
+                "default_language_heading": "Default Language",
+                "description": "Set your forum title, language, and other basic settings.",
+                "display_name_heading": "User Display Name",
+                "display_name_text": "Select the driver that should be used for users' display names. By default, the username is shown.",
+                "forum_description_heading": "Forum Description",
+                "forum_description_text": "Enter a short sentence or two that describes your community. This will appear in the meta tag and show up in search engines.",
+                "forum_title_heading": "Forum Title",
+                "home_page_heading": "Home Page",
+                "home_page_text": "Choose the page which users will first see when they visit your forum.",
+                "show_language_selector_label": "Show language selector",
+                "slug_driver_heading": "Slug Driver: {model}",
+                "slug_driver_text": "Select a driver to be used for slugging this model.",
+                "title": "Basics",
+                "welcome_banner_heading": "Welcome Banner",
+                "welcome_banner_text": "Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum."
+            },
+            "dashboard": {
+                "clear_cache_button": "Clear Cache",
+                "description": "Your forum at a glance.",
+                "title": "Dashboard",
+                "tools_button": "Tools"
+            },
+            "edit_css": {
+                "customize_text": "Customize your forum's appearance by adding your own Less/CSS code to be applied on top of Flarum's <a>default styles</a>.",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Edit Custom CSS"
+            },
+            "edit_footer": {
+                "customize_text": "=> core.ref.custom_footer_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_footer_title"
+            },
+            "edit_group": {
+                "color_label": "=> core.ref.color",
+                "delete_button": "Delete Group",
+                "delete_confirmation": "Are you sure you want to delete this group? The group members will NOT be deleted.",
+                "hide_label": "Hide on forum",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "Name",
+                "plural_placeholder": "Plural (e.g. Mods)",
+                "singular_placeholder": "Singular (e.g. Mod)",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Create Group"
+            },
+            "edit_header": {
+                "customize_text": "=> core.ref.custom_header_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_header_title"
+            },
+            "email": {
+                "addresses_heading": "Addresses",
+                "description": "Configure the driver, settings and addresses your forum will use to send email.",
+                "driver_heading": "Choose a Driver",
+                "driver_label": "Driver",
+                "from_label": "Sender",
+                "mail_encryption_label": "Encryption",
+                "mail_host_label": "Host",
+                "mail_mailgun_domain_label": "Domain",
+                "mail_mailgun_region_label": "Region",
+                "mail_mailgun_secret_label": "Secret key",
+                "mail_password_label": "=> core.ref.password",
+                "mail_port_label": "Port",
+                "mail_username_label": "=> core.ref.username",
+                "mailgun_heading": "Mailgun Settings",
+                "not_sending_message": "Flarum currently does not send emails. This can be due to the selected driver, or errors in its configuration.",
+                "send_test_mail_button": "Send",
+                "send_test_mail_heading": "Send Test Mail",
+                "send_test_mail_success": "Test mail sent successfully!",
+                "send_test_mail_text": "This will send an email using the above configuration to your email, {email}.",
+                "smtp_heading": "SMTP Settings",
+                "title": "=> core.ref.email"
+            },
+            "extension": {
+                "configure_scopes": "Configure Scopes",
+                "confirm_uninstall": "Uninstalling will remove all database entries and assets related to the extension. Are you sure you want to continue?",
+                "disabled": "Disabled",
+                "enable_to_see": "Enable the extension to view and change settings.",
+                "enabled": "Enabled",
+                "info_links": {
+                    "discuss": "Discuss",
+                    "documentation": "Documentation",
+                    "donate": "Donate",
+                    "source": "Source",
+                    "support": "Support",
+                    "website": "Website"
+                },
+                "no_permissions": "This extension has no permissions.",
+                "no_settings": "This extension has no settings.",
+                "open_modal": "Open Settings",
+                "permissions_title": "Permissions",
+                "uninstall_button": "Uninstall"
+            },
+            "header": {
+                "get_help": "Get Help",
+                "log_out_button": "=> core.ref.log_out"
+            },
+            "loading": {
+                "title": "Please Wait..."
+            },
+            "nav": {
+                "appearance_button": "=> core.admin.appearance.title",
+                "appearance_title": "=> core.admin.appearance.description",
+                "basics_button": "=> core.admin.basics.title",
+                "basics_title": "=> core.admin.basics.description",
+                "categories": {
+                    "authentication": "Authentication",
+                    "core": "Core Configuration",
+                    "discussion": "Discussion",
+                    "feature": "Features",
+                    "formatting": "Formatting",
+                    "language": "Languages",
+                    "moderation": "Moderation",
+                    "other": "Other Extensions",
+                    "theme": "Themes"
+                },
+                "dashboard_button": "=> core.admin.dashboard.title",
+                "dashboard_title": "=> core.admin.dashboard.description",
+                "email_button": "=> core.ref.email",
+                "email_title": "=> core.admin.email.description",
+                "permissions_button": "=> core.admin.permissions.title",
+                "permissions_title": "=> core.admin.permissions.description",
+                "userlist_button": "=> core.admin.users.title",
+                "userlist_title": "=> core.admin.users.description",
+                "search_placeholder": "Search Extensions"
+            },
+            "permissions": {
+                "allow_post_editing_label": "Allow post editing",
+                "allow_renaming_label": "Allow renaming",
+                "create_heading": "Create",
+                "delete_discussions_forever_label": "Delete discussions forever",
+                "delete_discussions_label": "Delete discussions",
+                "delete_posts_forever_label": "Delete posts forever",
+                "delete_posts_label": "Delete posts",
+                "description": "Configure who can see and do what.",
+                "edit_posts_label": "Edit posts",
+                "edit_users_label": "Edit user attributes",
+                "edit_users_credentials_label": "Edit user credentials",
+                "edit_users_groups_label": "Edit user groups",
+                "global_heading": "Global",
+                "moderate_heading": "Moderate",
+                "new_group_button": "New Group",
+                "participate_heading": "Participate",
+                "post_without_throttle_label": "Reply multiple times without waiting",
+                "read_heading": "Read",
+                "rename_discussions_label": "Rename discussions",
+                "reply_to_discussions_label": "Reply to discussions",
+                "search_users_label": "Search users",
+                "sign_up_label": "Sign up",
+                "start_discussions_label": "Start discussions",
+                "title": "Permissions",
+                "view_forum_label": "View forum (discussions and users)",
+                "view_hidden_groups_label": "View hidden group badges",
+                "view_last_seen_at_label": "Always view user last seen time",
+                "view_post_ips_label": "View post IP addresses"
+            },
+            "permissions_controls": {
+                "allow_indefinitely_button": "Indefinitely",
+                "allow_some_minutes_button": "{count, plural, one {For # minute} other {For # minutes}}",
+                "allow_ten_minutes_button": "For 10 minutes",
+                "allow_until_reply_button": "Until next reply",
+                "everyone_button": "Everyone",
+                "members_button": "=> core.group.members",
+                "signup_closed_button": "Closed",
+                "signup_open_button": "Open"
+            },
+            "settings": {
+                "saved_message": "Your changes were saved.",
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "upload_image": {
+                "remove_button": "=> core.ref.remove",
+                "upload_button": "Choose an Image..."
+            },
+            "users": {
+                "description": "A paginated list of all users on your forum.",
+                "grid": {
+                    "columns": {
+                        "edit_user": {
+                            "button": "=> core.ref.edit",
+                            "title": "=> core.ref.edit_user",
+                            "tooltip": "Edit {username}"
+                        },
+                        "email": {
+                            "title": "=> core.ref.email",
+                            "visibility_hide": "Hide email address",
+                            "visibility_show": "Show email address"
+                        },
+                        "group_badges": {
+                            "no_badges": "None",
+                            "title": "Groups"
+                        },
+                        "join_time": {
+                            "title": "Joined"
+                        },
+                        "user_id": {
+                            "title": "ID"
+                        },
+                        "username": {
+                            "profile_link_tooltip": "Visit {username}'s profile",
+                            "title": "=> core.ref.username"
+                        }
+                    },
+                    "invalid_column_content": "Invalid"
+                },
+                "pagination": {
+                    "back_button": "Previous page",
+                    "next_button": "Next page",
+                    "page_counter": "Page {current} of {total}"
+                },
+                "title": "=> core.ref.users",
+                "total_users": "Total users: {count}"
+            }
+        },
+        "forum": {
+            "change_email": {
+                "confirm_password_placeholder": "=> core.ref.confirm_password",
+                "confirmation_message": "=> core.ref.confirmation_email_sent",
+                "dismiss_button": "=> core.ref.okay",
+                "incorrect_password_message": "รหัสผ่านที่คุณป้อนไม่ถูกต้อง",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.change_email"
+            },
+            "change_password": {
+                "send_button": "ส่งอีเมลรีเซ็ตรหัสผ่าน",
+                "text": "คลิกปุ่มด้านล่างและตรวจสอบอีเมลสำหรับลิงก์เพื่อเปลี่ยนรหัสผ่านของคุณ",
+                "title": "=> core.ref.change_password"
+            },
+            "composer": {
+                "close_tooltip": "ปิด",
+                "exit_full_screen_tooltip": "ออกจากโหมดเต็มจอ",
+                "full_screen_tooltip": "โหมดเต็มจอ",
+                "minimize_tooltip": "ย่อ",
+                "preview_tooltip": "ดูตัวอย่าง"
+            },
+            "composer_discussion": {
+                "body_placeholder": "เขียนรายละเอียดกระทู้...",
+                "discard_confirmation": "กระทู้ของคุณยังไม่ถูกโพสต์ คุณต้องการยกเลิกหรือไม่ ?",
+                "submit_button": "ตั้งกระทู้",
+                "title": "=> core.ref.start_a_discussion",
+                "title_placeholder": "ชื่อกระทู้"
+            },
+            "composer_edit": {
+                "discard_confirmation": "คุณยังไม่ได้บันทึกการเปลี่ยนแปลงของคุณ คุณต้องการยกเลิกหรือไม่ ?",
+                "edited_message": "คุณได้แก้ไขแล้ว",
+                "post_link": "โพสต์ #{number} จาก {discussion}",
+                "submit_button": "=> core.ref.save_changes",
+                "view_button": "=> core.ref.view"
+            },
+            "composer_reply": {
+                "body_placeholder": "=> core.ref.write_a_reply",
+                "discard_confirmation": "การตอบกลับของคุณยังไม่ถูกโพสต์ คุณต้องการยกเลิกหรือไม่ ?",
+                "posted_message": "การตอบกลับของคุณถูกโพสต์แล้ว",
+                "submit_button": "ตอบโพสต์",
+                "view_button": "=> core.ref.view"
+            },
+            "discussion_controls": {
+                "cannot_reply_button": "ไม่สามารถตอบกลับได้",
+                "cannot_reply_text": "คุณไม่ได้รับอนุญาตให้ตอบกลับกระทู้นี้",
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "คุณแน่ใจหรือไม่ว่าต้องการลบกระทู้นี้ ?",
+                "delete_forever_button": "=> core.ref.delete_forever",
+                "log_in_to_reply_button": "เข้าสู่ระบบเพื่อตอบ",
+                "rename_button": "=> core.ref.rename",
+                "reply_button": "=> core.ref.reply",
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": "Toggle discussion actions dropdown menu"
+            },
+            "discussion_list": {
+                "empty_text": "ดูเหมือนว่าไม่มีกระทู้ที่นี่",
+                "load_more_button": "=> core.ref.load_more",
+                "mark_as_read_tooltip": "ทำเครื่องหมายว่าอ่านแล้ว",
+                "replied_text": "{username} ตอบกลับเมื่อ {ago}",
+                "started_text": "{username} ตั้งกระทู้เมื่อ {ago}"
+            },
+            "forgot_password": {
+                "dismiss_button": "=> core.ref.okay",
+                "email_placeholder": "=> core.ref.email",
+                "email_sent_message": "เราได้ส่งอีเมลที่มีลิงก์เพื่อรีเซ็ตรหัสผ่านของคุณ ตรวจสอบโฟลเดอร์สแปมของคุณหากคุณไม่ได้รับจดหมายดังกล่าวภายในหนึ่งหรือสองนาทีข้างหน้า",
+                "not_found_message": "ไม่มีผู้ใช้ที่ลงทะเบียนกับที่อยู่อีเมลนั้น",
+                "submit_button": "กู้คืนรหัสผ่าน",
+                "text": "ใส่ที่อยู่อีเมลของคุณแล้วเราจะส่งลิงค์เพื่อรีเซ็ตรหัสผ่านของคุณ",
+                "title": "ลืมรหัสผ่าน"
+            },
+            "header": {
+                "admin_button": "ตั้งค่าระบบ",
+                "back_to_index_tooltip": "กลับไปยังรายการกระทู้",
+                "locale_dropdown_accessible_label": "Change forum locale",
+                "log_in_link": "=> core.ref.log_in",
+                "log_out_button": "=> core.ref.log_out",
+                "profile_button": "โปรไฟล์",
+                "search_placeholder": "ค้นหา",
+                "session_dropdown_accessible_label": "Toggle session options dropdown menu",
+                "settings_button": "=> core.ref.settings",
+                "sign_up_link": "=> core.ref.sign_up"
+            },
+            "index": {
+                "all_discussions_link": "=> core.ref.all_discussions",
+                "cannot_start_discussion_button": "ไม่สามารถสร้างกระทู้ใหม่ได้",
+                "mark_all_as_read_confirmation": "คุณแน่ใจหรือไม่ว่าต้องการทำเครื่องหมายว่าอ่านแล้วทั้งหมดทุกกระทู้ ?",
+                "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "meta_title_text": "=> core.ref.all_discussions",
+                "refresh_tooltip": "โหลดใหม่อีกครั้ง",
+                "start_discussion_button": "=> core.ref.start_a_discussion",
+                "toggle_sidenav_dropdown_accessible_label": "Toggle navigation dropdown menu"
+            },
+            "index_sort": {
+                "latest_button": "อัปเดตล่าสุด",
+                "newest_button": "ใหม่ล่าสุด",
+                "oldest_button": "เก่าที่สุด",
+                "relevance_button": "สัมพันธ์กัน",
+                "toggle_dropdown_accessible_label": "Change discussion list sorting",
+                "top_button": "ตอบกลับมากที่สุด"
+            },
+            "log_in": {
+                "forgot_password_link": "ลืมรหัสผ่าน ?",
+                "invalid_login_message": "รายละเอียดการเข้าสู่ระบบของคุณไม่ถูกต้อง",
+                "password_placeholder": "=> core.ref.password",
+                "remember_me_label": "จดจำฉัน",
+                "sign_up_text": "ยังไม่มีบัญชี ? <a>สมัครสมาชิก</a>",
+                "submit_button": "=> core.ref.log_in",
+                "title": "=> core.ref.log_in",
+                "username_or_email_placeholder": "ชื่อผู้ใช้หรืออีเมล"
+            },
+            "notifications": {
+                "discussion_renamed_text": "{username} ได้ทำการเปลี่ยนชื่อ",
+                "empty_text": "ไม่มีการแจ้งเตือน",
+                "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "mark_as_read_tooltip": "ทำเครื่องหมายว่าอ่านแล้ว",
+                "title": "=> core.ref.notifications",
+                "toggle_dropdown_accessible_label": "ดูการแจ้งเตือน",
+                "tooltip": "=> core.ref.notifications"
+            },
+            "post": {
+                "edited_text": "แก้ไขแล้ว",
+                "edited_tooltip": "{username} แก้ไขแล้ว {ago}",
+                "number_tooltip": "โพสต์ #{number}"
+            },
+            "post_controls": {
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "Are you sure you want to delete this post forever? This action cannot be undone.",
+                "delete_forever_button": "=> core.ref.delete_forever",
+                "edit_button": "=> core.ref.edit",
+                "hide_confirmation": "Are you sure you want to delete this post?",
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": "Toggle post controls dropdown menu"
+            },
+            "post_scrubber": {
+                "now_link": "ล่าสุด",
+                "original_post_link": "โพสต์ต้นฉบับ",
+                "unread_text": "{count} ยังไม่ได้อ่าน",
+                "viewing_text": "{count, plural, one {{index} of {formattedCount} post} other {{index} ใน {formattedCount} โพสต์}}"
+            },
+            "post_stream": {
+                "discussion_renamed_old_tooltip": "ชื่อกระทู้ก่อนหน้านี้: \"{old}\"",
+                "discussion_renamed_text": "{username} เปลี่ยนชื่อกระทู้เป็น {new}.",
+                "load_more_button": "=> core.ref.load_more",
+                "reply_placeholder": "=> core.ref.write_a_reply",
+                "time_lapsed_text": "{period}ที่แล้ว"
+            },
+            "rename_discussion": {
+                "submit_button": "=> core.ref.rename",
+                "title": "เปลี่ยนชื่อกระทู้"
+            },
+            "search": {
+                "all_discussions_button": "ค้นหาทุกกระทู้ด้วย \"{query}\"",
+                "discussions_heading": "=> core.ref.discussions",
+                "users_heading": "=> core.ref.users"
+            },
+            "settings": {
+                "account_heading": "บัญชี",
+                "change_email_button": "=> core.ref.change_email",
+                "change_password_button": "=> core.ref.change_password",
+                "notifications_heading": "=> core.ref.notifications",
+                "notify_by_email_heading": "=> core.ref.email",
+                "notify_by_web_heading": "เว็บไซต์",
+                "notify_discussion_renamed_label": "เมื่อมีคนเปลี่ยนชื่อกระทู้ของฉัน",
+                "privacy_disclose_online_label": "อนุญาตให้คนอื่นเห็นเมื่อฉันออนไลน์",
+                "privacy_heading": "ความเป็นส่วนตัว",
+                "title": "=> core.ref.settings"
+            },
+            "sign_up": {
+                "dismiss_button": "=> core.ref.okay",
+                "email_placeholder": "=> core.ref.email",
+                "log_in_text": "มีบัญชีแล้วหรือยัง ? <a>เข้าสู่ระบบ</a>",
+                "password_placeholder": "=> core.ref.password",
+                "submit_button": "=> core.ref.sign_up",
+                "title": "=> core.ref.sign_up",
+                "username_placeholder": "=> core.ref.username",
+                "welcome_text": "ยินดีต้อนรับคุณ {username}!"
+            },
+            "user": {
+                "avatar_remove_button": "=> core.ref.remove",
+                "avatar_upload_button": "อัปโหลด",
+                "avatar_upload_tooltip": "อัปโหลดภาพโปรไฟล์ใหม่",
+                "discussions_link": "=> core.ref.discussions",
+                "in_discussion_text": "ใน {discussion}",
+                "joined_date_text": "เข้าร่วมเมื่อ {ago}",
+                "online_text": "ออนไลน์",
+                "posts_empty_text": "ดูเหมือนว่าไม่มีโพสต์ที่นี่",
+                "posts_link": "=> core.ref.posts",
+                "posts_load_more_button": "=> core.ref.load_more",
+                "settings_link": "=> core.ref.settings"
+            },
+            "user_controls": {
+                "button": "การจัดการ",
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "คุณแน่ใจหรือไม่ว่าต้องการลบผู้ใช้คนนี้ ? โพสต์ทั้งหมดของเขาจะไม่ถูกลบ",
+                "delete_error_message": "Deletion of user <i>{username} ({email})</i> failed",
+                "delete_success_message": "User <i>{username} ({email})</i> was deleted",
+                "edit_button": "=> core.ref.edit",
+                "toggle_dropdown_accessible_label": "Toggle user controls dropdown menu"
+            },
+            "user_email_confirmation": {
+                "alert_message": "=> core.ref.confirmation_email_sent",
+                "resend_button": "ส่งอีเมลยืนยันอีกครั้ง",
+                "sent_message": "ส่งแล้ว"
+            }
+        },
+        "lib": {
+            "badge": {
+                "hidden_tooltip": "ซ่อน"
+            },
+            "dropdown": {
+                "toggle_dropdown_accessible_label": "Toggle dropdown menu"
+            },
+            "edit_user": {
+                "activate_button": "Activate User",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "Groups",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "Set new password",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.edit_user",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username"
+            },
+            "error": {
+                "dependent_extensions_message": "Cannot disable {extension} until the following dependent extensions are disabled: {extensions}",
+                "generic_message": "อ๊ะ! บางอย่างผิดพลาด โปรดโหลดหน้าเว็บและลองอีกครั้ง",
+                "missing_dependencies_message": "Cannot enable {extension} until the following dependencies are enabled: {extensions}",
+                "not_found_message": "ไม่พบแหล่งข้อมูลที่ร้องขอ",
+                "permission_denied_message": "คุณไม่ได้รับอนุญาตให้ทำเช่นนั้น",
+                "rate_limit_exceeded_message": "คุณกำลังทำการอย่างรวดเร็วเกินไป โปรดลองอีกครั้งหลังจากนี้สักครู่"
+            },
+            "loading_indicator": {
+                "accessible_label": "=> core.ref.loading"
+            },
+            "number_suffix": {
+                "kilo_text": "K",
+                "mega_text": "M"
+            },
+            "series": {
+                "glue_text": ", ",
+                "three_text": "{first}, {second}, and {third}",
+                "two_text": "{first} and {second}"
+            },
+            "username": {
+                "deleted_text": "[deleted]"
+            }
+        },
+        "views": {
+            "content": {
+                "javascript_disabled_message": "เว็บไซต์นี้ดูดีที่สุดในเบราว์เซอร์สมัยใหม่และเปิดใช้งาน JavaScript",
+                "load_error_message": "เกิดข้อผิดพลาดขณะพยายามโหลดเวอร์ชันเต็มของเว็บไซต์นี้ ลองล้างแคชและรีเฟรชหน้านี้เพื่อแก้ไขข้อผิดพลาด",
+                "loading_text": "=> core.ref.loading"
+            },
+            "discussion": {
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
+            },
+            "error": {
+                "csrf_token_mismatch": "You have been inactive for too long.",
+                "csrf_token_mismatch_return_link": "Go back, to try again",
+                "invalid_confirmation_token": "This confirmation link has already been used or is invalid.",
+                "not_authenticated": "You do not have permission to access this page. Try again after logging in.",
+                "not_found": "The page you requested could not be found.",
+                "not_found_return_link": "Return to {forum}",
+                "permission_denied": "You do not have permission to access this page.",
+                "unknown": "An error occurred while trying to load this page."
+            },
+            "index": {
+                "all_discussions_heading": "=> core.ref.all_discussions",
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
+            },
+            "log_out": {
+                "log_out_button": "=> core.ref.log_out",
+                "log_out_confirmation": "Are you sure you want to log out of {forum}?",
+                "title": "=> core.ref.log_out"
+            },
+            "reset_password": {
+                "confirm_password_label": "Confirm New Password",
+                "new_password_label": "New Password",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.reset_your_password"
+            }
+        },
+        "api": {
+            "invalid_username_message": "ชื่อผู้ใช้จะต้องประกอบด้วยตัวอักษรตัวเลขและขีดกลางเท่านั้น"
+        },
+        "email": {
+            "activate_account": {
+                "subject": "เปิดใช้งานบัญชีใหม่ของคุณ",
+                "body": "สวัสดี {username}!\n\nบางคน(หวังว่าจะเป็นคุณ!) ได้สมัครสมาชิกเพื่อใช้งาน {forum} ด้วยที่อยู่อีเมลนี้\n\nถ้าเป็นคุณเพียงแค่คลิกลิงก์ต่อไปนี้และบัญชีของคุณจะถูกเปิดใช้งาน\n{url}\n\nหากคุณไม่ได้สมัครสมาชิกเพื่อใช้งานไม่ต้องสนใจอีเมลนี้\n"
+            },
+            "confirm_email": {
+                "subject": "ยืนยันที่อยู่อีเมลใหม่ของคุณ",
+                "body": "สวัสดี {username}!\n\nบางคน(หวังว่าจะเป็นคุณ!) ได้เปลี่ยนที่อยู่อีเมลของพวกเขาใน {forum} เป็นที่อยู่อีเมลนี้\n\nถ้าเป็นคุณเพียงแค่คลิกลิงก์ต่อไปนี้และอีเมลของคุณจะได้รับการยืนยัน\n{url}\n\nหากคุณไม่ใช่คุณไม่ต้องสนใจอีเมลนี้\n"
+            },
+            "reset_password": {
+                "subject": "=> core.ref.reset_your_password",
+                "body": "สวัสดี {username}!\n\nบางคน(หวังว่าจะเป็นคุณ!) ได้ส่งคำขอรหัสผ่านที่ลืมสำหรับบัญชีของคุณบน {forum}\n\nถ้าเป็นคุณให้คลิกลิงก์ต่อไปนี้เพื่อรีเซ็ตรหัสผ่านของคุณ\n{url}\n\nหากคุณไม่ต้องการเปลี่ยนรหัสผ่าน ไม่ต้องสนใจอีเมลนี้และจะไม่มีอะไรเกิดขึ้น\n"
+            },
+            "send_test": {
+                "subject": "Flarum Email Test",
+                "body": "Hey {username}!\n\nThis is a test email to confirm that your Flarum email configuration is working properly.\n\nIf this was you, this email means that your configuration works!\n\nIf this was not you, please ignore this email.\n"
+            }
+        },
+        "ref": {
+            "all_discussions": "กระทู้ทั้งหมด",
+            "change_email": "เปลี่ยนอีเมล",
+            "change_password": "เปลี่ยนรหัสผ่าน",
+            "color": "สี",
+            "confirm_password": "ยืนยันรหัสผ่าน",
+            "confirmation_email_sent": "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder.",
+            "custom_footer_text": "Add HTML to be displayed at the very bottom of the page.",
+            "custom_footer_title": "Edit Custom Footer",
+            "custom_header_text": "Add HTML to be displayed at the very top of the page, above Flarum's own header.",
+            "custom_header_title": "Edit Custom Header",
+            "delete": "ลบ",
+            "delete_forever": "ลบอย่างถาวร",
+            "discussions": "กระทู้",
+            "edit": "แก้ไข",
+            "edit_user": "Edit User",
+            "email": "อีเมล",
+            "icon": "ไอคอน",
+            "icon_text": "Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the <code>fas fa-</code> prefix.",
+            "load_more": "แสดงเพิ่มเติม",
+            "loading": "กำลังโหลด...",
+            "log_in": "เข้าสู่ระบบ",
+            "log_out": "ออกจากระบบ",
+            "mark_all_as_read": "ทำเครื่องหมายว่าอ่านแล้วทั้งหมด",
+            "next_page": "หน้าถัดไป",
+            "notifications": "การแจ้งเตือน",
+            "okay": "ตกลง",
+            "password": "รหัสผ่าน",
+            "posts": "โพสต์",
+            "previous_page": "หน้าก่อนหน้า",
+            "remove": "ลบ",
+            "rename": "เปลี่ยนชื่อ",
+            "reply": "ตอบกลับ",
+            "reset_your_password": "รีเซ็ตรหัสผ่านของคุณ",
+            "restore": "กู้คืน",
+            "save_changes": "บันทึกการเปลี่ยนแปลง",
+            "settings": "ตั้งค่า",
+            "sign_up": "สมัครสมาชิก",
+            "some_others": "{count, plural, one {# other} other {# others}}",
+            "start_a_discussion": "ตั้งกระทู้ใหม่",
+            "username": "ชื่อผู้ใช้",
+            "users": "ผู้ใช้",
+            "view": "ดู",
+            "write_a_reply": "เขียนข้อความตอบกลับ...",
+            "you": "คุณ"
+        },
+        "group": {
+            "admin": "ผู้ดูแลระบบ",
+            "admins": "ผู้ดูแลระบบ",
+            "guest": "ผู้มาเยือน",
+            "guests": "ผู้มาเยือน",
+            "member": "สมาชิก",
+            "members": "สมาชิก",
+            "mod": "ผู้ดูแล",
+            "mods": "ผู้ดูแล"
+        }
+    }
+}
