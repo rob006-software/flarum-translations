@@ -511,9 +511,6 @@ return [
 	'kilowhat-wordpress' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/kilowhat-wordpress.yml',
 	],
-	'kvothe-reply-to-see' => [
-		'tag' => 'https://raw.githubusercontent.com/oaklinq/flarum-ext-reply2see/v0.1.2/resources/locale/en.yml',
-	],
 	'kyrne-aegis' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/kyrne-aegis.yml',
 	],
