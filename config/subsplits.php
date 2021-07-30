@@ -186,6 +186,13 @@ return [
 		'branch' => 'master',
 		'path' => '/locale',
 	],
+	'th' => [
+		'type' => 'language',
+		'language' => 'th',
+		'repository' => 'git@github.com:flarum-lang/thai.git',
+		'branch' => 'master',
+		'path' => '/locale',
+	],
 	'tr' => [
 		'type' => 'language',
 		'language' => 'tr',
