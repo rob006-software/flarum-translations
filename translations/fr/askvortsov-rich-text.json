@@ -2,49 +2,49 @@
     "askvortsov-rich-text": {
         "admin": {
             "settings": {
-                "toggle_on_editor": ""
+                "toggle_on_editor": "Afficher l'interrupteur du mode texte enrichi dans l'éditeur ?"
             }
         },
         "lib": {
             "composer": {
-                "toggle_button": "",
-                "insert_button": "",
+                "toggle_button": "Interrupteur du mode texte enrichi",
+                "insert_button": "Insérer",
                 "insert_image": {
-                    "src_placeholder": "",
-                    "title_placeholder": ""
+                    "src_placeholder": "Lien",
+                    "title_placeholder": "Titre"
                 },
                 "insert_link": {
-                    "text_placeholder": "",
-                    "href_placeholder": "",
-                    "title_placeholder": "",
-                    "remove_button": ""
+                    "text_placeholder": "Texte",
+                    "href_placeholder": "URL",
+                    "title_placeholder": "Titre (s'affiche au survol)",
+                    "remove_button": "Supprimer"
                 },
-                "additional_items_tooltip": "",
-                "bold_tooltip": "",
-                "code_tooltip": "",
-                "code_block_tooltip": "",
-                "header_tooltip": "",
-                "horizontal_rule_tooltip": "",
-                "image_tooltip": "",
-                "italic_tooltip": "",
-                "link_tooltip": "",
-                "ordered_list_tooltip": "",
-                "paragraph_tooltip": "",
-                "quote_tooltip": "",
-                "spoiler_block_tooltip": "",
-                "spoiler_inline_tooltip": "",
-                "strike_tooltip": "",
-                "sub_tooltip": "",
-                "sup_tooltip": "",
-                "text_type_tooltip": "",
-                "unordered_list_tooltip": ""
+                "additional_items_tooltip": "Contrôles supplémentaires",
+                "bold_tooltip": "Texte en gras <{modifierKey}-b>",
+                "code_tooltip": "Code intégré <{modifierKey}-`>",
+                "code_block_tooltip": "Insérer un bloc de code",
+                "header_tooltip": "Passer à l'en-tête {level} <shift-{modifierKey}-{level}>",
+                "horizontal_rule_tooltip": "Insérer une règle horizontale",
+                "image_tooltip": "Ajouter une image",
+                "italic_tooltip": "Texte en italique  <{modifierKey}-i>",
+                "link_tooltip": "Ajouter un lien",
+                "ordered_list_tooltip": "Liste numérotée <shift-{modifierKey}-9>",
+                "paragraph_tooltip": "Changer de paragraphe <shift-{modifierKey}-0>",
+                "quote_tooltip": "Insérer une citation <{modifierKey}-q>",
+                "spoiler_block_tooltip": "Bloc spoiler/Menu déroulant",
+                "spoiler_inline_tooltip": "Spoiler <{modifierKey}-;>",
+                "strike_tooltip": "Barré <alt-shift-5>",
+                "sub_tooltip": "Indice <{modifierKey}-,>",
+                "sup_tooltip": "Exposant <{modifierKey}-.>",
+                "text_type_tooltip": "Sélectionner le type de texte",
+                "unordered_list_tooltip": "Liste à puces <shift-{modifierKey}-8>"
             }
         },
         "forum": {
             "settings": {
-                "composer_heading": "",
-                "use_rich_text_editor_label": "",
-                "rich_text_compact_paragraphs_label": ""
+                "composer_heading": "Compositeur",
+                "use_rich_text_editor_label": "Utiliser l'éditeur de texte enrichi ?",
+                "rich_text_compact_paragraphs_label": "Ne pas séparer les paragraphes avec une nouvelle ligne."
             }
         }
     }

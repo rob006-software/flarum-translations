@@ -4,15 +4,15 @@
             "popup": {
                 "section": {
                     "googleAnalytics": "Google Analytics",
-                    "piwik": "Piwik"
+                    "piwik": "Matomo"
                 },
                 "field": {
                     "statusGoogle": "Google Analytics'i etkinleştir",
                     "optTrackingCode": "Takip Kodunu Optimize Et (isteğe bağlı)",
                     "googleTrackingCode": "Takip Kodu ID",
                     "googleGTMCode": "GTM kod ID (isteğe bağlı)",
-                    "statusPiwik": "Piwik'i etkinleştir",
-                    "piwikUrl": "Piwik alanadı veya bağlantısı",
+                    "statusPiwik": "Matomo'yu etkinleştir",
+                    "piwikUrl": "Matomo alanadı veya bağlantısı",
                     "piwikSiteId": "Site ID",
                     "piwikTrackSubdomain": "Flarum'un tüm alt alanlarındaki ziyaretçileri takip et",
                     "piwikPrependDomain": "Takip ederken, site alanını sayfa başlığına bağlı tutma",
@@ -22,13 +22,16 @@
                     "piwikAuthToken": "Authentication Token"
                 },
                 "placeholder": {
-                    "piwikAuthToken": "Yönetici panelinde bir Piwik istatistik sekmesini etkinleştirmek için bu simgeyi doldurun.\nAyarlar > Kişisel > API Kimlik Doğrulama Simgesi'nde bulabilirsiniz.\n"
+                    "piwikAuthToken": "Yönetici panelinde bir Matomo  istatistik widgetını etkinleştirmek için bu simgeyi doldurun.\nAyarlar > Kişisel > API Kimlik Doğrulama Simgesi'nde bulabilirsiniz.\n"
                 },
                 "trackAccounts": {
                     "none": "Takip etme",
                     "username": "Kullanıcı adına göre takip et",
                     "email": "E-Posta'ya göre takip et"
                 }
+            },
+            "matomo-widget": {
+                "title": "Matomo"
             }
         }
     }

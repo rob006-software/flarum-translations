@@ -2,13 +2,20 @@
     "flarum-ext-welcomebox": {
         "forum": {
             "wback": "Tekrar hoşgeldin,",
-            "npost": "Gönderi",
-            "discussion": "Tartışmalar",
+            "npost": "=> core.ref.posts",
+            "discussion": "=> core.ref.discussions",
             "welcomeguest": "Hoşgeldin Ziyaretçi",
-            "notregistered": "Henüz bu foruma üye olmadınız."
+            "notregistered": "Henüz bu foruma üye olmadınız.",
+            "goToProfile": "Profil",
+            "SettingsLink": "Ayarlar",
+            "tooltipProfile": "Profil",
+            "tooltipMentions": "Bahsetmeler",
+            "tooltipDisclist": "Tartışmalarım"
         },
         "admin": {
-            "enablepostbox": "Ziyaretçiler için Hoşgeldin Kutusunu göster"
+            "enablepostbox": "Ziyaretçiler için Hoşgeldin Kutusunu göster",
+            "img": "Görsel Bağlantısı (Ziyaretçi Kutusu)",
+            "img-help": "Ziyaretçi kutusu için bir görsel bağlantısı girin"
         }
     }
 }

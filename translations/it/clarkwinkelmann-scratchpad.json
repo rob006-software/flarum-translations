@@ -2,52 +2,52 @@
     "clarkwinkelmann-scratchpad": {
         "admin": {
             "settings": {
-                "title": "",
-                "single-column": "",
-                "theme": "",
-                "theme-auto": "",
-                "indent": "",
-                "npm-install-command": "",
-                "webpack-command": "",
-                "empty-for-default": "",
-                "validate-live": "",
-                "compile-automatically": ""
+                "title": "Impostazioni Scratchpad",
+                "single-column": "Raggruppa gli editor in una singola colonna invece di 3",
+                "theme": "Tema CodeMirror (devi aggiornare per vedere l'effetto)",
+                "theme-auto": "Auto (predefinito su tema chiaro, darcula su tema scuro)",
+                "indent": "Numero di spazi per indentazione",
+                "npm-install-command": "Comando NPM install",
+                "webpack-command": "Comando Webpack",
+                "empty-for-default": "Lascia vuoto per il comando predefinito",
+                "validate-live": "Esegui una richiesta alla homepage per convalidare Less e PHP prima di salvare",
+                "compile-automatically": "Compila JS automaticamente al salvataggio"
             },
             "controls": {
-                "refresh": "",
-                "save": "",
-                "compile": "",
-                "settings": "",
-                "new": "",
-                "new-confirmation": "",
-                "delete": "",
-                "delete-confirmation": "",
-                "enable": "",
-                "disable": ""
+                "refresh": "Ricarica",
+                "save": "Salva",
+                "compile": "Compila JS",
+                "settings": "Impostazioni Editor",
+                "new": "Nuovo",
+                "new-confirmation": "Il blocco appunti corrente non è stato salvato. Eliminarlo per crearne uno nuovo?",
+                "delete": "Cancella",
+                "delete-confirmation": "Cancella \"{title}\" ?",
+                "enable": "Clicca per abilitare",
+                "disable": "Clicca per disabilitare"
             },
             "fields": {
-                "title": "",
-                "admin_js": "",
-                "forum_js": "",
-                "admin_less": "",
-                "forum_less": "",
-                "php": ""
+                "title": "Nome Scratchpad",
+                "admin_js": "Admin JS",
+                "forum_js": "Forum JS",
+                "admin_less": "Less Admin",
+                "forum_less": "Less Forum",
+                "php": "PHP"
             },
             "placeholders": {
-                "untitled": "",
-                "php-comment": "",
-                "js-log": ""
+                "untitled": "Senza Titolo",
+                "php-comment": "Registra extender qui",
+                "js-log": "Ciao, {frontend}!"
             },
             "compilation-alert": {
-                "success": "",
-                "failure": "",
-                "view-output": ""
+                "success": "Compilato!",
+                "failure": "Compilazione fallita!",
+                "view-output": "Guarda Output"
             },
             "compilation-modal": {
-                "title": "",
-                "webpack": "",
-                "npm": "",
-                "npm-not-run": ""
+                "title": "Compila Output",
+                "webpack": "Webpack output",
+                "npm": "NPM output",
+                "npm-not-run": "NPM non è stato eseguito"
             }
         }
     }

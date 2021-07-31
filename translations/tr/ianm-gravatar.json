@@ -1,0 +1,43 @@
+{
+    "ianm-gravatar": {
+        "admin": {
+            "settings": {
+                "proxy": {
+                    "title": "Proxy gravatarlar",
+                    "helptext": "Varsayılan olarak, gravatar URL'leri doğrudan gravatar.com'dan alınır. Bu, tüm gravatar isteklerinin doğrudan forumun kendisi tarafından sunulmasını sağlar."
+                },
+                "replace-flarum-custom": {
+                    "title": "Foruma yüklenen özel avatarları değiştirin",
+                    "helptext": "Foruma önceden yüklenmiş özel avatarları bir Gravatar ile değiştirin"
+                },
+                "defaults": {
+                    "title": "Varsayılan",
+                    "helptext": "Bir e-posta adresinde eşleşen Gravatar resmi yoksa ne olur? Gravatar, varsayılan olarak kullanabileceğiniz bir dizi yerleşik seçeneğe sahiptir. Bunların çoğu, girilen e-posta karmasını alarak ve bunu, o e-posta adresine özgü temalı bir resim oluşturmak için kullanarak çalışır.",
+                    "mp_label": "mp: (gizemli kişi) bir kişinin basit, karikatür tarzı bir silueti (e-posta karmasına göre değişmez)",
+                    "identicon_label": "identicon: bir e-posta karmasına dayalı geometrik bir desen",
+                    "monsterid_label": "monsterid: farklı renkler, yüzler vb. ile oluşturulmuş bir 'canavar'",
+                    "wavatar_label": "wavatar: farklı özelliklere ve arka plana sahip oluşturulan yüzler",
+                    "retro_label": "retro: 8 bit arcade tarzı pikselle oluşturulan harika yüzler",
+                    "robohash_label": "robohash: farklı renkler, yüzler vb. ile oluşturulmuş bir robot"
+                },
+                "rating": {
+                    "title": "Değerlendirme",
+                    "helptext": "Gravatar, kullanıcıların bir resmin belirli bir hedef kitle için uygun olup olmadığını belirleyebilmeleri için kendi resimlerini değerlendirmelerine olanak tanır. Varsayılan olarak, daha yüksek derecelendirmeler görmek istediğinizi belirtmediğiniz sürece yalnızca 'G' dereceli resimler görüntülenir. Bu derecelendirmeye kadar (bu derecelendirme dahil) resim istemek için aşağıdaki derecelendirmelerden birini belirtebilirsiniz.",
+                    "g_label": "g: herhangi bir hedef kitle türüne sahip tüm web sitelerinde görüntülenmeye uygundur",
+                    "pg_label": "pg: kaba hareketler, kışkırtıcı giyimli kişiler, daha az küfür veya hafif şiddet içerebilir",
+                    "r_label": "r: sert küfür, yoğun şiddet, çıplaklık veya ağır uyuşturucu kullanımı gibi şeyler içerebilir",
+                    "x_label": "x: sert cinsel görüntüler veya son derece rahatsız edici şiddet içerebilir"
+                },
+                "force-default": {
+                    "title": "Varsayılana zorla",
+                    "helptext": "E-posta karması özel bir kullanıcı tarafından yüklenen avatara bağlansa bile varsayılan bir kümenin kullanımını zorunlu kılar"
+                }
+            }
+        },
+        "forum": {
+            "settings": {
+                "edit-gravatar": "gravatar.com üzerinden avatarı yönet"
+            }
+        }
+    }
+}

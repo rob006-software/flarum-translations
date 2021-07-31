@@ -9,21 +9,21 @@
         },
         "emails": {
             "post_warned": {
-                "subject": "{warner_display_name} ti ha avvertito con {strikes} strike in {discussion_title}",
-                "body": "Hei {warnee_display_name}!\n{warner_display_name} ti ha avvertito con {strikes} strike in {discussion_title}\nLa motivazione dello strike è la seguente:\n---\n{public_comment}\n"
+                "subject": "{warner_display_name} ti ha avvertito con {strikes, plural, one {# strike} other {# strike}} in {discussion_title}",
+                "body": "Hei {warnee_display_name}!\n{warner_display_name} ti ha avvertito con {strikes, plural, one {# strike} other {# strike}} in {discussion_title}\nLa motivazione dello strike è la seguente:\n---\n{public_comment}\n"
             },
             "user_warned": {
-                "subject": "{warner_display_name} ti ha avvertito con {strikes} strike",
-                "body": "Hei {warnee_display_name}!\n{warner_display_name} ti ha avvertito con {strikes} strike\nLa motivazione dello strike è la seguente:\n---\n{public_comment}\n"
+                "subject": "{warner_display_name} ti ha avvertito con {strikes, plural, one {# strike} other {# strike}}",
+                "body": "Hei {warnee_display_name}!\n{warner_display_name} ti ha avvertito con {strikes, plural, one {# strike} other {# strike}}\nLa motivazione dello strike è la seguente:\n---\n{public_comment}\n"
             }
         },
         "forum": {
             "notifications": {
-                "warning_text": "Sei stato avvertito con {strikes} strike da {mod_username}|Sei stato avvertito con {strikes} strike da {mod_username}",
+                "warning_text": "{strikes, plural, one {sei stato avvertito con # strike da {mod_username}} other {sei stato avvertito con # strike da {mod_username}}}",
                 "warning_no_strikes_text": "Sei stato avvertito da {mod_username} (no strikes)"
             },
             "post": {
-                "warning": "Avvertito con {strikes} strike da {mod_username}|Avvertito con {strikes} strike da {mod_username}",
+                "warning": "{strikes, plural, one {Avvertito con # strike da {mod_username}} other {Avvertito con # strike da {mod_username}}}",
                 "warning_no_strikes": "Avvertito senza strikes da {mod_username}"
             },
             "post_controls": {
@@ -47,12 +47,12 @@
             "warning_list": {
                 "add_button": "Nuovo Avviso",
                 "no_warnings": "Sembra che non ci siano avvisi qui.",
-                "warnings": "Avvisi Moderatore: {strikes} Strike Ricevuto|Avvisi Moderatore: {strikes} Strike Ricevuto",
+                "warnings": "{strikes, plural, one {Avvertimento dal moderatore: # Strike Ricevuto} other {Avvertimento dal moderatore: # Strike Recevuti}}",
                 "warnings_no_strikes": "Avvisi Moderatore: Nessuno strike ricevuto"
             },
             "warning_list_item": {
-                "list_item_heading": "<strong>{strikes}</strong> strike, {time}|<strong>{strikes}</strong> strike, {time}",
-                "list_item_heading_hidden": "<strong>{strikes}</strong> strike, {time} <strong>(rimosso)</strong>|<strong>{strikes}</strong> strikes, {time} <strong>(rimossi)</strong>",
+                "list_item_heading": "{strikes, plural, one {<strong>#</strong> strike, {time}} other {<strong>#</strong> strike, {time}}}",
+                "list_item_heading_hidden": "{strikes, plural, one {<strong>#</strong> strike, {time} <strong>(rimosso)</strong>} other {<strong>#</strong> strike, {time} <strong>(rimossi)</strong>}}",
                 "public_comment": "Avviso",
                 "private_comment": "Commenti visibili al moderatore",
                 "linked_post": "Post collegato"

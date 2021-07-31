@@ -1,0 +1,49 @@
+{
+    "flarum-mentions": {
+        "admin": {
+            "settings": {
+                "allow_username_format_label": "",
+                "allow_username_format_text": ""
+            }
+        },
+        "forum": {
+            "composer": {
+                "mention_tooltip": "اشاره به یک کاربر یا نوشته",
+                "reply_to_post_text": "پاسخ به #{number}"
+            },
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_mentioned_text": "{username} به نوشته شما پاسخ داد",
+                "user_mentioned_text": "نام شما توسط {username} نام برده شد"
+            },
+            "post": {
+                "mentioned_by_self_text": "توسط {users} پاسخ داده شد.",
+                "mentioned_by_text": "توسط {users} پاسخ داده شد",
+                "others_text": "=> core.ref.some_others",
+                "quote_button": "نقل‌قول",
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
+            },
+            "settings": {
+                "notify_post_mentioned_label": "کسی به نوشته من پاسخ داد",
+                "notify_user_mentioned_label": "کسی در نوشته‌ای از من نام برد"
+            },
+            "user": {
+                "mentions_link": "اشارات"
+            },
+            "post_mention": {
+                "deleted_text": ""
+            }
+        },
+        "email": {
+            "post_mentioned": {
+                "subject": "",
+                "body": ""
+            },
+            "user_mentioned": {
+                "subject": "",
+                "body": ""
+            }
+        }
+    }
+}

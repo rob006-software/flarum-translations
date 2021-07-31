@@ -16,7 +16,7 @@
             "scheduled_drafts_disabled": "La pianificazione delle bozze è attualmente disabilitata nelle impostazioni."
         },
         "ref": {
-            "schedule_draft": ""
+            "schedule_draft": "Bozze programmate"
         },
         "forum": {
             "composer": {
@@ -29,11 +29,11 @@
             "dropdown": {
                 "empty_text": "Non hai salvato alcuna bozza",
                 "title": "Bozze",
-                "delete_all_button": "",
+                "delete_all_button": "Elimina tutte le bozze",
                 "delete_button": "Cancella Bozza",
                 "schedule_button": "Pianifica Bozza",
-                "scheduled_icon_tooltip": "",
-                "scheduled_icon_tooltip_formatter": "",
+                "scheduled_icon_tooltip": "Pianificata per {datetime}",
+                "scheduled_icon_tooltip_formatter": "L [at] LT",
                 "tooltip": "=> fof-drafts.forum.dropdown.title",
                 "alert": "Sei sicuro di voler cancellare la bozza?",
                 "delete_all_alert": "Sei sicuro di voler cancellare tutte le tue bozze?"
@@ -41,15 +41,15 @@
             "schedule_draft_modal": {
                 "title": "Pianifica Bozza",
                 "text": "Pianifica la tua bozza per postarla automaticamente in un secondo momento!",
-                "scheduled_text": "Pianificato per {datetime}.",
-                "scheduled_error": "Impossibile postare: {error}.",
+                "scheduled_text": "Pianificato per essere postato il {datetime}.",
+                "scheduled_error": "Impossibile pianificare bozza: {error}.",
                 "unschedule_button": "Annulla Pianificazione",
-                "unschedule_warning": "",
+                "unschedule_warning": "Sei sicuro di voler annullare la programmazione di questa bozza?",
                 "reschedule_button": "Ripianifica",
                 "schedule_button": "Pianifica",
-                "schedule_time_preview": "",
-                "schedule_time_preview_formatter": "",
-                "schedule_time_preview_invalid": ""
+                "schedule_time_preview": "Questa bozza verrà pubblicata automaticamente il <b>{datetime}</b>.",
+                "schedule_time_preview_formatter": "LLLL",
+                "schedule_time_preview_invalid": "Data e/o ora non valide"
             },
             "user": {
                 "settings": {

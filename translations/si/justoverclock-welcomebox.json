@@ -2,13 +2,20 @@
     "flarum-ext-welcomebox": {
         "forum": {
             "wback": "",
-            "npost": "",
-            "discussion": "",
+            "npost": "=> core.ref.posts",
+            "discussion": "=> core.ref.discussions",
             "welcomeguest": "",
-            "notregistered": ""
+            "notregistered": "",
+            "goToProfile": "පැතිකඩ",
+            "SettingsLink": "සැකසුම්",
+            "tooltipProfile": "පැතිකඩ",
+            "tooltipMentions": "සැඳහුම්",
+            "tooltipDisclist": ""
         },
         "admin": {
-            "enablepostbox": ""
+            "enablepostbox": "",
+            "img": "",
+            "img-help": ""
         }
     }
 }

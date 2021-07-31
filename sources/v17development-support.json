@@ -145,7 +145,7 @@
                 "ticket_overview": "Ticket overview",
                 "opened_on": "Opened on",
                 "ticket_activity": "By {username}, last activity {date}",
-                "reminders_sent": "One reminder sent|{count} reminders sent",
+                "reminders_sent": "{count, plural, one {One reminder sent} other {# reminders sent}}",
                 "convert_to_ticket": {
                     "button": "Convert to ticket",
                     "confirm": "Are you sure you want to convert this discussion into a ticket?",
@@ -249,7 +249,7 @@
         "emails": {
             "replied_to_ticket": {
                 "subject": "{replier_display_name} replied to your ticket #{ticket_id}",
-                "body": "Dear {recipient_display_name},\n\n{replier_display_name} replied to your ticket #{ticket_id} (subject '{subject}').\n\nPlease use the link below to review the reply:\n{url}\n\nWe are waiting for your reply or until you mark this ticket as resolved.\n"
+                "body": "Dear {recipient_display_name},\n\n{replier_display_name} replied to your ticket #{ticket_id} (subject \"{subject}\").\n\nPlease use the link below to review the reply:\n{url}\n\nWe are waiting for your reply or until you mark this ticket as resolved.\n"
             },
             "ticket_status_update": {
                 "subject": "Ticket #{ticket_id} is marked as {new_status}",
@@ -265,7 +265,7 @@
             },
             "ticket_pending_reply_closed": {
                 "subject": "Ticket #{ticket_id} has been closed due to inactivity",
-                "body": "Dear {recipient_display_name},\n\nRecently {replier_display_name} replied to your ticket #{ticket_id}. Unfortunately we did not get a reply from you. Your ticket has been automatically closed due to inactivity.\n\nIf you still wish to reply, the URL of your ticket is:\n{url}"
+                "body": "Dear {recipient_display_name},\n\nRecently {replier_display_name} replied to your ticket #{ticket_id}. Unfortunately we did not get a reply from you. Your ticket has been automatically closed due to inactivity.\n\nIf you still wish to reply, the URL of your ticket is:\n{url}\n"
             }
         }
     }

@@ -41,13 +41,13 @@
             "user": {
                 "settings": {
                     "heading": "Volg tags",
-                    "filter_label": ""
+                    "filter_label": "Standaard weergave op de \"Volgen\" pagina"
                 }
             }
         },
         "admin": {
             "settings": {
-                "following_page_default_label": "",
+                "following_page_default_label": "Standaard filtering op \"Volgen\" pagina",
                 "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
                 "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
             }
@@ -59,9 +59,9 @@
                 "newDiscussionTag": "[Tag | Gewijzigde tag] {title}"
             },
             "body": {
-                "newDiscussionInTag": "",
-                "newPostInTag": "",
-                "newDiscussionTag": ""
+                "newDiscussionInTag": "Hey {recipient_display_name},\n\n{actor_display_name} is een discussie begonnen in een tag die je volgt: {discussion_title}\n\nOm deze discussie te bekijken, kun je de volgende link klikken:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newPostInTag": "Hey {recipient_display_name},\n\n{actor_display_name} heeft een reactie geplaatst in een tag die je volgt: {discussion_title}\n\nOm dit bericht te bekijken, kun je de volgende link klikken:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nJe ontvangt geen verdere notificaties over deze discussie tot je die helemaal gelezen hebt.\n",
+                "newDiscussionTag": "Hey {recipient_display_name},\n\n{actor_display_name} heeft zojuist een tag gewijzigd op de discussie  {discussion_title} van {author_display_name} in een tag die je volgt.\n\nOm deze discussie te bekijken, kun je de volgende link klikken:\n{discussion_url}\n"
             }
         },
         "ref": {
@@ -71,8 +71,8 @@
             "ignoring": "Negeren",
             "lurking": "Lurken",
             "filtering_options": {
-                "none": "",
-                "tags": ""
+                "none": "Gevolgde Discussies",
+                "tags": "Gevolgde Tags"
             }
         }
     }

@@ -1,0 +1,29 @@
+{
+    "flarum-likes": {
+        "admin": {
+            "permissions": {
+                "like_posts_label": "Like posts"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_liked_text": "{username} نوشته شمارا پسندید"
+            },
+            "post": {
+                "like_link": "پسندیدم",
+                "liked_by_self_text": "{users} این پست را پسندیدند.",
+                "liked_by_text": "{users} این پست را پسندید.|{users} این پست را پسندیدند.",
+                "others_link": "=> core.ref.some_others",
+                "unlike_link": "نپسندیدم",
+                "you_text": "=> core.ref.you"
+            },
+            "post_likes": {
+                "title": "کاربرانی که پسندیدند"
+            },
+            "settings": {
+                "notify_post_liked_label": "کسی نوشته من را پسندید"
+            }
+        }
+    }
+}

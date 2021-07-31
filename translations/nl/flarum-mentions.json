@@ -2,23 +2,23 @@
     "flarum-mentions": {
         "admin": {
             "settings": {
-                "allow_username_format_label": "",
-                "allow_username_format_text": ""
+                "allow_username_format_label": "Vermeldingsindeling voor gebruikersnaam toestaan (@gebruikersnaam)",
+                "allow_username_format_text": "Het huidige formaat voor gebruikersvermeldingen is @\"Weergavenaam\"#ID.\nMet deze instelling kunt u de oude indeling @Gebruikersnaam gebruiken, maar deze wordt bij het opslaan nog steeds geconverteerd naar de nieuwe indeling.\n"
             }
         },
         "forum": {
             "composer": {
                 "mention_tooltip": "Vermeld een gebruiker of bericht",
-                "reply_to_post_text": "Reactie op #{number}"
+                "reply_to_post_text": "Reageer op #{number}"
             },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
-                "post_mentioned_text": "{username} heeft gereageerd op je bericht|{username} hebben gereageerd op je bericht",
+                "post_mentioned_text": "{username} heeft gereageerd op je bericht",
                 "user_mentioned_text": "{username} heeft je genoemd"
             },
             "post": {
-                "mentioned_by_self_text": "{users} hebt hierop gereageerd|{users} hebben hierop gereageerd",
-                "mentioned_by_text": "{users} heeft hierop gereageerd|{users} hebben hierop gereageerd",
+                "mentioned_by_self_text": "{users} hebben hierop gereageerd.",
+                "mentioned_by_text": "{users} hebben hierop gereageerd.",
                 "others_text": "=> core.ref.some_others",
                 "quote_button": "Citeer",
                 "reply_link": "=> core.ref.reply",
@@ -32,7 +32,7 @@
                 "mentions_link": "Vermeldingen"
             },
             "post_mention": {
-                "deleted_text": ""
+                "deleted_text": "[onbekend]"
             }
         },
         "email": {
@@ -42,7 +42,7 @@
             },
             "user_mentioned": {
                 "subject": "{mentioner_display_name} heeft je genoemd in {title}",
-                "body": "Hey {recipient_display_name}!\n\n{mentioner_display_name} heeft je genoemd in een bericht in {title}.\n\n{url}\n\n---\n\n{content}"
+                "body": "Hey {recipient_display_name}!\n\n{mentioner_display_name} heeft je genoemd in een bericht in {title}.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }

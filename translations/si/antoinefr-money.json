@@ -2,12 +2,14 @@
     "antoinefr-money": {
         "admin": {
             "settings": {
-                "title": "",
+                "title": "සැකසුම්",
                 "moneyforpost": "",
                 "moneyfordiscussion": "",
                 "moneyname": "",
                 "postminimumlength": "",
-                "noshowzero": ""
+                "noshowzero": "",
+                "moneyforlike": "",
+                "helpextensionlikes": ""
             },
             "permissions": {
                 "edit_money_label": ""
@@ -20,7 +22,7 @@
             "modal": {
                 "title": "",
                 "current": "",
-                "submit_button": ""
+                "submit_button": "=> core.ref.save_changes"
             }
         }
     }

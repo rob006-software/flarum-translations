@@ -1,0 +1,50 @@
+{
+    "flarum-subscriptions": {
+        "forum": {
+            "badge": {
+                "following_tooltip": "=> flarum-subscriptions.ref.following",
+                "ignoring_tooltip": "=> flarum-subscriptions.ref.ignoring"
+            },
+            "discussion_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "unfollow_button": "Nebesekti",
+                "unignore_button": "Nebeignoruoti"
+            },
+            "following": {
+                "meta_title_text": "=> flarum-subscriptions.ref.following"
+            },
+            "index": {
+                "following_link": "=> flarum-subscriptions.ref.following"
+            },
+            "notifications": {
+                "new_post_text": "{username} parašė"
+            },
+            "settings": {
+                "follow_after_reply_label": "Automatiškai sekti temas kurias pakomentuoju",
+                "notify_new_post_label": "Kažkas parašė temoje, kurią aš seku"
+            },
+            "sub_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "following_button": "=> flarum-subscriptions.ref.following",
+                "following_text": "Pranešti apie visus atsakymus.",
+                "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
+                "ignoring_text": "Niekada nepranešti. Paslėpti temų sąraše.",
+                "not_following_button": "Nesekti",
+                "not_following_text": "Pranešti tik kai būsiu paminėtas(-a) @mentioned.",
+                "notify_alert_tooltip": "Pranešti forumo notifikacija kai atsiranda naujų atsakymų",
+                "notify_email_tooltip": "Pranešti el. laišku kai atsiranda naujų atsakymų"
+            }
+        },
+        "email": {
+            "new_post": {
+                "subject": "[Naujas pranešimas] {title}",
+                "body": "Sveiki {recipient_display_name}!\n\n{poster_display_name} prašė pranešimą temoje kurią sekate: {title}.\n\nNorėdami peržiūrėti paspauskite nuorodą esančia žemiau:\n{url}\n\n---\n\n{content}\n\n---\n\nDaugiau nebegausite pranešimų apie šią diskusiją, kol nesate atnaujinti.\n"
+            }
+        },
+        "ref": {
+            "follow": "Sekti",
+            "following": "Sekama",
+            "ignoring": "Ignoruojama"
+        }
+    }
+}

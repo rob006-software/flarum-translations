@@ -1,0 +1,43 @@
+{
+    "ianm-gravatar": {
+        "admin": {
+            "settings": {
+                "proxy": {
+                    "title": "Proxy des Gravatars",
+                    "helptext": "Par défaut, les URL des Gravatars sont récupérées directement depuis gravatar.com. Cela permet à toutes les demandes de Gravatars d'être traitées directement par le forum lui-même."
+                },
+                "replace-flarum-custom": {
+                    "title": "Remplacer les avatars personnalisés téléchargés sur le forum",
+                    "helptext": "Remplacer les avatars personnalisés déjà téléchargés sur le forum par un Gravatar"
+                },
+                "defaults": {
+                    "title": "Valeurs par défaut",
+                    "helptext": "Que se passe-t-il lorsqu'une adresse de courriel n'a pas d'image Gravatar correspondante ? Gravatar dispose d'un certain nombre d'options intégrées que vous pouvez utiliser par défaut. La plupart d'entre elles fonctionnent en prenant le hachage de l'adresse de courriel demandée et en l'utilisant pour générer une image thématique unique à cette adresse de courriel.",
+                    "mp_label": "mp : (personne-mystère) un simple contour silhouetté d'une personne, dans le style d'un dessin animé (ne varie pas selon le hachage de l'adresse de courriel)",
+                    "identicon_label": "identicon : un motif géométrique basé sur le hachage de l'adresse de courriel",
+                    "monsterid_label": "monsterid : un « monstre » généré avec différentes couleurs, visages, etc.",
+                    "wavatar_label": "wavatar : des visages générés avec des caractéristiques et des arrière-plans différents",
+                    "retro_label": "retro : des visages pixellisés générés de manière impressionnante, style arcade 8 bits",
+                    "robohash_label": "robohash : un robot généré avec différentes couleurs, visages, etc."
+                },
+                "rating": {
+                    "title": "Classification",
+                    "helptext": "Gravatar permet aux utilisateurs de noter eux-mêmes leurs images afin d'indiquer si une image est appropriée pour un certain public. Par défaut, seules les images classées « G » sont affichées, à moins que vous n'indiquiez que vous souhaitez voir des images mieux classées. Vous pouvez spécifier l'une des classifications suivantes pour demander des images jusqu'à et y compris cette classification.",
+                    "g_label": "g : adapté à l'affichage sur tous les sites internet, quel que soit le type d'audience",
+                    "pg_label": "pg : peut contenir des gestes grossiers, des personnes habillées de manière provocante, des jurons ou de la violence modérée",
+                    "r_label": "r : peut contenir des éléments tels que des blasphèmes, de la violence intense, de la nudité ou l'utilisation de drogues dures",
+                    "x_label": "x : peut contenir des images sexuelles hardcore ou de la violence extrêmement dérangeante"
+                },
+                "force-default": {
+                    "title": "Forcer la valeur par défaut",
+                    "helptext": "Force l'utilisation d'un ensemble de réglages par défaut, même si le hachage de l'adresse de courriel renvoie à un avatar personnalisé téléchargé par un utilisateur"
+                }
+            }
+        },
+        "forum": {
+            "settings": {
+                "edit-gravatar": "Gérer l'avatar sur gravatar.com"
+            }
+        }
+    }
+}

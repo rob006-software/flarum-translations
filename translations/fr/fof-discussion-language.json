@@ -2,34 +2,35 @@
     "fof-discussion-language": {
         "forum": {
             "change_language": {
-                "edit_title": "",
-                "title": "",
-                "submit_button": ""
+                "edit_title": "Modification de la langue de {title}",
+                "title": "Modification de la langue",
+                "submit_button": "=> core.ref.save_changes"
             },
             "composer_discussion": {
-                "choose_language_link": ""
+                "choose_language_link": "Langue"
             },
             "discussion_controls": {
-                "change_language_button": ""
+                "change_language_button": "Définir la langue"
             },
             "index_language": {
-                "any": ""
+                "any": "N'importe quelle langue"
             }
         },
         "admin": {
             "settings": {
-                "native_label": "",
-                "show_flag_label": "",
-                "composer_default_label": "",
-                "locale_sort_label": ""
+                "native_label": "Utiliser des noms dans la langue maternelle",
+                "show_flag_label": "Afficher les drapeaux des pays avec les noms des langues",
+                "composer_default_label": "Présélectionner la langue actuelle dans la zone de rédaction des discussions",
+                "locale_sort_label": "Utiliser la langue détectée pour le filtre de discussion par défaut",
+                "show_any_lang_opt_label": "Afficher l'option pour sélectionner « N'importe quelle langue »."
             },
             "permissions": {
-                "allow_change_language_label": ""
+                "allow_change_language_label": "Autoriser la modification de la langue"
             }
         },
         "api": {
             "discussion": {
-                "validation_error": ""
+                "validation_error": "Vous devez sélectionner la langue de votre discussion."
             }
         }
     }

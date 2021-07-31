@@ -29,7 +29,7 @@
         "email": ":attribute non è valido.",
         "ends_with": ":attribute deve finire con uno dei seguenti valori: :values.",
         "exists": ":attribute selezionato non è valido.",
-        "file": ":attribute deve essere un file.\"",
+        "file": ":attribute deve essere un file.",
         "filled": "Il campo :attribute è richiesto.",
         "gt": {
             "numeric": ":attribute deve essere maggiore di :value.",
@@ -93,7 +93,7 @@
         "required_without_all": "Il campo :attribute è richiesto quando nessuno di :values è presente.",
         "prohibited": "Il campo :attribute è proibito.",
         "prohibited_if": "Il campo :attribute è proibito quanto :other è :value.",
-        "prohibited_unless": "",
+        "prohibited_unless": "Il campo :attributo è vietato a meno che :other non sia in :values.",
         "same": ":attribute e :other devono coincidere.",
         "size": {
             "numeric": ":attribute deve essere :size.",

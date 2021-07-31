@@ -1,0 +1,36 @@
+{
+    "fof-merge-discussions": {
+        "forum": {
+            "modal": {
+                "title": "Beszélgetés összevonása",
+                "type_target_label": "Egyesítés hozzám",
+                "type_target_help_text": "Válassz beszélgetést amit összevonsz ezzel: <b>{title}</b>.",
+                "type_from_label": "A beszélgetés összevonása másikkal",
+                "type_from_help_text": "Válassza ki a célbeszélgetést, amelybe beolvasztja a következőt: <b> {title} </b>.",
+                "load_preview_button": "Előnézet",
+                "submit_button": "=> fof-merge-discussions.ref.merge"
+            },
+            "discussion": {
+                "merge": "=> fof-merge-discussions.ref.merge"
+            },
+            "post": {
+                "merged": "Összevonva <b>#</b> hozzászólás innen: {titles}."
+            }
+        },
+        "admin": {
+            "permissions": {
+                "merge_discussions_label": "Beszélgetések összevonása"
+            }
+        },
+        "api": {
+            "error": {
+                "merging_failed": "Hiba az összevonásban.",
+                "updating_failed": "Hiba a beszélgetés részleteinek frissítésében.",
+                "deleting_failed": "Hiba az üres beszélgetés törlésében."
+            }
+        },
+        "ref": {
+            "merge": "Összevon"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "flarum-approval": {
+        "admin": {
+            "permissions": {
+                "approve_posts_label": "Approve posts",
+                "reply_without_approval_label": "Reply to discussions without approval",
+                "start_discussions_without_approval_label": "Start discussions without approval"
+            }
+        },
+        "forum": {
+            "badge": {
+                "awaiting_approval_tooltip": "=> flarum-approval.ref.awaiting_approval"
+            },
+            "post": {
+                "awaiting_approval_text": "=> flarum-approval.ref.awaiting_approval"
+            },
+            "post_controls": {
+                "approve_button": "تأیید"
+            }
+        },
+        "ref": {
+            "awaiting_approval": "در انتظار تأیید شدن"
+        }
+    }
+}

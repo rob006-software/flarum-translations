@@ -40,12 +40,15 @@
         "admin": {
             "errors": {
                 "service_not_found": "",
-                "url_invalid": ""
+                "url_invalid": "",
+                "tag_invalid": ""
             },
             "nav": {
                 "desc": ""
             },
             "settings": {
+                "debug_label": "",
+                "debug_help": "",
                 "item": {
                     "tag_any_label": ""
                 },
@@ -62,44 +65,44 @@
                     "max_post_content_length_help": "",
                     "extra_text_label": "",
                     "extra_text_help": "",
-                    "group_label": "",
+                    "group_label": "සමූහය",
                     "group_help": "",
                     "events_label": ""
                 },
                 "services": {
-                    "discord": "",
-                    "slack": "",
-                    "microsoft-teams": ""
+                    "discord": "ඩිස්කෝඩ්",
+                    "slack": "ස්ලැක්",
+                    "microsoft-teams": "මයික්‍රොසොෆ්ට් ටීම්ස්"
                 },
                 "actions": {
                     "flarum": {
                         "discussion": {
-                            "title": "",
+                            "title": "ෆ්ලාරම් සාකච්ඡාව",
                             "started": "",
-                            "renamed": "",
-                            "hidden": "",
-                            "restored": "",
-                            "deleted": ""
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "hidden": "=> fof-webhooks.ref.hidden",
+                            "restored": "=> fof-webhooks.ref.restored",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "group": {
-                            "title": "",
+                            "title": "ෆ්ලාරම් සමූහය",
                             "created": "",
-                            "renamed": "",
-                            "deleted": ""
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "post": {
                             "title": "",
                             "posted": "",
                             "revised": "",
-                            "hidden": "",
-                            "restored": "",
-                            "deleted": ""
+                            "hidden": "=> fof-webhooks.ref.hidden",
+                            "restored": "=> fof-webhooks.ref.restored",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "user": {
-                            "title": "",
+                            "title": "ෆ්ලාරම් පරිශීලක",
                             "registered": "",
-                            "renamed": "",
-                            "deleted": ""
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         }
                     }
                 }

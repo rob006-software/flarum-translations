@@ -1,0 +1,30 @@
+{
+    "flarum-suspend": {
+        "admin": {
+            "permissions": {
+                "suspend_users_label": "Suspend users"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "user_suspended_text": "{username} شما را برای {timeReadable} تعلیق کرد",
+                "user_unsuspended_text": "{username} شما را تعلیق کرد"
+            },
+            "suspend_user": {
+                "indefinitely_label": "تعلیق برای همیشه",
+                "limited_time_days_text": "روز",
+                "limited_time_label": "تعلیق برای زمانی مشخص...",
+                "not_suspended_label": "تعلیق نشده",
+                "status_heading": "وضعیت تعلیق",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "تعلیق {username}"
+            },
+            "user_badge": {
+                "suspended_tooltip": "تعلیق شده"
+            },
+            "user_controls": {
+                "suspend_button": "تعلیق"
+            }
+        }
+    }
+}

@@ -2,49 +2,49 @@
     "blomstra-payments": {
         "forum": {
             "pay-to-view": {
-                "purchase-control": "",
-                "purchase-log-in": "",
-                "purchase-completed": "",
-                "description": ""
+                "purchase-control": "Payer pour voir",
+                "purchase-log-in": "Se connecter et payer pour voir",
+                "purchase-completed": "Déverrouillé",
+                "description": "Les messages au-delà de ce seuil sont verrouillés derrière un péage de lecture numérique. Vous pouvez les déverrouiller en effectuant un paiement via notre fournisseur de paiement Stripe.\n"
             },
             "pay-to-post": {
-                "purchase-control": "",
-                "purchase": "",
-                "purchase_required": ""
+                "purchase-control": "Payer pour publier",
+                "purchase": "Acheter pour publier",
+                "purchase_required": "Cette discussion sera publiée une fois que vous aurez effectué le paiement via notre fournisseur de paiement Stripe. Cliquez sur achat pour voir le coût et les options de paiement.\n"
             },
             "tag": {
-                "require-payment-label": ""
+                "require-payment-label": "Paiement requis"
             },
             "payment-options-modal": {
-                "title": "",
-                "description": ""
+                "title": "Options de paiement pour accéder à {group}",
+                "description": "Sélectionnez l'une des options suivantes pour commencer à accéder au groupe. Vous serez redirigé vers notre fournisseur de paiement Stripe pour le traitement du paiement.\n"
             },
             "access-portal": {
-                "options": "",
-                "purchase": ""
+                "options": "options",
+                "purchase": "achat"
             },
             "nav": {
-                "access_portal": ""
+                "access_portal": "Portail d'accès"
             }
         },
         "admin": {
             "edit-tag": {
-                "select-ptp-product": "",
-                "select-ptp-product-description": "",
-                "select-ptv-product": "",
-                "select-ptv-product-description": "",
-                "visible-from": "",
-                "visible-from-description": ""
+                "select-ptp-product": "(PPP) Produit nécessaire",
+                "select-ptp-product-description": "La sélection d'un produit nécessitera le paiement de ce produit pour chaque discussion avec cette étiquette. Par exemple, le paiement par message est idéal pour les publireportages. Créez un produit avec un prix unique « en une seule fois » dans votre tableau de bord Stripe et copiez l'identifiant commençant par <code>prod_</code> dans ce champ.\n",
+                "select-ptv-product": "(PPV) Produit nécessaire",
+                "select-ptv-product-description": "La sélection d'un produit nécessitera le paiement de ce produit pour obtenir un accès permanent à tous les messages au-delà du seuil. Créez un produit dans votre tableau de bord Stripe et copiez l'identifiant commençant par <code>prod_</code> dans ce champ.\n",
+                "visible-from": "Masquer les messages à ce seuil",
+                "visible-from-description": "Le nombre que vous spécifiez ici définit à quel moment les messages seront masqués aux utilisateurs qui n'ont pas payé pour accéder au contenu. Utilisez 0 pour les masquer tous, 1 pour ne masquer que les messages publiés après celui de l'auteur de la discussion.\n"
             },
             "edit-group": {
-                "select-pta-product": "",
-                "select-pta-product-description": ""
+                "select-pta-product": "(PPA) Produit nécessaire",
+                "select-pta-product-description": "La sélection d'un produit permettra l'accès au groupe après paiement. Dans le cas d'un abonnement, l'accès sera révoqué automatiquement après l'annulation de l'abonnement. Créez un produit dans votre tableau de bord Stripe et copiez l'identifiant commençant par <code>prod_</code> dans ce champ.\n"
             },
             "settings": {
-                "pk": "",
-                "sk": "",
-                "webhook-secret": "",
-                "link-access-portal": ""
+                "pk": "Clé publiable (API)",
+                "sk": "Clé secrète (API)",
+                "webhook-secret": "Signature secrète du Webhook",
+                "link-access-portal": "Lien vers le portail d'accès sous le menu déroulant de la session de l'utilisateur"
             }
         }
     }

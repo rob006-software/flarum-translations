@@ -9,6 +9,7 @@
             "edit_category": "",
             "nothing_here_yet": "",
             "permissions": {
+                "badge_detail_users": "",
                 "give_badge": "",
                 "take_badge": ""
             },
@@ -31,6 +32,8 @@
             "badge_category": {
                 "name": "",
                 "description": "",
+                "blockview": "",
+                "blockview_description": "",
                 "enabled": "",
                 "enabled_description": ""
             },
@@ -67,6 +70,7 @@
             "select_badge": "",
             "user_has_badge": "",
             "user_no_badges": "",
+            "no_received": "",
             "uncategorized": "",
             "badge": {
                 "badge": "",
@@ -78,12 +82,19 @@
                 "no_earning_reason": "",
                 "earned_on": "",
                 "category": "",
-                "earned_count": ""
+                "received_on": "",
+                "badge_details": "",
+                "earned_count": "",
+                "earned_by_count": ""
             },
             "moderation": {
                 "remove_badge": "",
                 "remove_badge_confirm": "",
                 "give_badge": ""
+            },
+            "notification": {
+                "title": "",
+                "settings": ""
             }
         }
     }

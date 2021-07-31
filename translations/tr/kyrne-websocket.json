@@ -2,10 +2,16 @@
     "kyrne-websocket": {
         "forum": {
             "discussion_list": {
-                "show_updates_text": "Güncellenmiş {count} tartışmayı göster|Güncellenmiş {count} tartışmayı göster"
+                "show_updates_text": "{count, plural, one {Güncellenmiş # tartışmayı göster} other {Güncellenmiş # tartışmayı göster}}"
+            },
+            "discussion_page": {
+                "viewing_title": "Şimdi burada:"
             }
         },
         "admin": {
+            "chart": {
+                "title": "Websocket İstatistikleri"
+            },
             "pusher_settings": {
                 "local_cert_path": "Yerel SSL Sertifika Yolu",
                 "local_pk_path": "Yerel SSL Özel Anahtar Yolu",
@@ -17,18 +23,20 @@
                 "auto_update": "Tartışmaları Otomatik Güncelleme",
                 "app_key_label": "App Key",
                 "app_secret_label": "Uygulama Sırrı (App Secret)",
+                "stats_label": "İstatistik Aralığı",
                 "secure": "Websocket için wss/https zorla",
                 "title": "Websocket/Pusher Ayarları",
                 "reverse_proxy": "Ters Proxy Desteği",
                 "auth_only": "Yalnızca Oturum Açan Kullanıcılar için Websocket"
             },
             "help": {
+                "stats": "İstatistikler arasındaki zaman aralığı - saniye cinsinden. 3600 (1 saat) ile 21600 (6 saat) arasında önerilir Varsayılan: 7200.",
                 "auto_update": "Sarı güncelleme başlığını göstermeyin, tartışma listesini hemen güncelleyin.",
                 "app_id": "Pusher Uygulama Kimliği - yerleşik websocket sunucusu kullanıyormuş gibi bırakın.",
                 "app_key": "Pusher Uygulama Anahtarı - yerleşik websocket sunucusu kullanıyormuş gibi bırakın.",
                 "secret": "Pusher App Secret (Uygulama Sırrı) - yerleşik websocket sunucusu kullanıyormuş gibi bırakın.",
                 "secure": "Websocketini güvenli protokoller kullanmaya zorla - Güvenli bir websocket sunucusu kullanıyorsanız, ancak web sitesi kullanmıyorsanız bunu etkinleştirin.",
-                "host": "Websocket sunucunuzun ana bilgisayarı - sunucu forumunuzla aynı ana bilgisayarsa olduğu gibi bırakın.",
+                "host": "Websocket sunucunuzun ana bilgisayarı - sunucu yöneticinizle aynı ana bilgisayarsa olduğu gibi bırakın.",
                 "reverse_proxy": "Bu etkinleştirildiğinde, Websockets 443 numaralı bağlantı noktası üzerinden bağlanır - 443 numaralı bağlantı noktasından websocket sunucunuza bir ters proxy kullanıyorsanız bunu kullanın.",
                 "port": "Websocket sunucunuzun bağlantı noktası - sunucu bağlantı noktasındaki yapıyı değiştirmezseniz olduğu gibi bırakın.",
                 "cert_path": "Yalnızca ssl kullanılıyorsa ve ters proxy DEĞİLSE gereklidir. SUNUCU ÜZERİNDEKİ SSL (https) sertifikanızın yolu websocket sunucunuz üzerindedir - genellikle bir .crt veya .pem dosyası.",

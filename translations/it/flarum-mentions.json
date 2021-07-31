@@ -13,12 +13,12 @@
             },
             "notifications": {
                 "others_text": "=> core.ref.some_others",
-                "post_mentioned_text": "{username} ha risposto al tuo messaggio|{username} hanno risposto al tuo messaggio",
+                "post_mentioned_text": "{count, plural, one {{username} ha risposto a un tuo messaggio} other {{username} hanno risposto a un tuo messaggio}}",
                 "user_mentioned_text": "{username} ti ha menzionato"
             },
             "post": {
-                "mentioned_by_self_text": "{users} hai risposto a questo messaggio|{users} hanno risposto a questo messaggio.",
-                "mentioned_by_text": "{users} ha risposto a questo messaggio|{users} hanno risposto a questo messaggio.",
+                "mentioned_by_self_text": "{count, plural, one {{users} hai risposto a questo messaggio} other {{users} hanno risposto a questo messaggio}}",
+                "mentioned_by_text": "{count, plural, one {{users} ha risposto a questo messaggio} other {{users} hanno risposto a questo messaggio}}",
                 "others_text": "=> core.ref.some_others",
                 "quote_button": "Cita",
                 "reply_link": "=> core.ref.reply",

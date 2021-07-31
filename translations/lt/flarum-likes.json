@@ -1,0 +1,29 @@
+{
+    "flarum-likes": {
+        "admin": {
+            "permissions": {
+                "like_posts_label": "Like posts"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_liked_text": "{username} patiko tavo pranešimas"
+            },
+            "post": {
+                "like_link": "Patinka",
+                "liked_by_self_text": "{users} mėgsta šį pranešimą.",
+                "liked_by_text": "{users} mėgstą šį pranešimą.|{users} mėgstą šį pranešimą.",
+                "others_link": "=> core.ref.some_others",
+                "unlike_link": "Nebemėgti",
+                "you_text": "=> core.ref.you"
+            },
+            "post_likes": {
+                "title": "Nariai kuriems patinka šis pranešimas"
+            },
+            "settings": {
+                "notify_post_liked_label": "Kažkam patinka mano pranešimas"
+            }
+        }
+    }
+}

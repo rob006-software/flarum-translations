@@ -1,0 +1,49 @@
+{
+    "flarum-mentions": {
+        "admin": {
+            "settings": {
+                "allow_username_format_label": "Allow username (@user) mention system",
+                "allow_username_format_text": "The current format for user mentions is @ \" Display name  "
+            }
+        },
+        "forum": {
+            "composer": {
+                "mention_tooltip": "Paminėti vartotoją ar įrašą",
+                "reply_to_post_text": "Atsakyti į #{number}"
+            },
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_mentioned_text": "{username} atsakė į jūsų pranešimą",
+                "user_mentioned_text": "{username} paminėjo jus"
+            },
+            "post": {
+                "mentioned_by_self_text": "{users} atsakė į šį pranešimą.",
+                "mentioned_by_text": "{users} atsakė į šį pranešimą.",
+                "others_text": "=> core.ref.some_others",
+                "quote_button": "Cituoti",
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
+            },
+            "settings": {
+                "notify_post_mentioned_label": "Kažkas atsakė į vieną iš mano pranešimų",
+                "notify_user_mentioned_label": "Kažkas paminėjo mane pranešime"
+            },
+            "user": {
+                "mentions_link": "Paminėjimai"
+            },
+            "post_mention": {
+                "deleted_text": "[ištrinta]"
+            }
+        },
+        "email": {
+            "post_mentioned": {
+                "subject": "{replier_display_name} atsakė į jūsų pranešimą {title} temoje",
+                "body": "Sveiki {recipient_display_name}!\n\n{replier_display_name} atsakė į jūsų pranešimą (#{post_number}), {title} temoje.\n\n{url}\n\n---\n\n{content}\n"
+            },
+            "user_mentioned": {
+                "subject": "{mentioner_display_name} paminėjo jus {title} temoje",
+                "body": "Sveiki {recipient_display_name}!\n\n{mentioner_display_name} paminėjo jus {title} temoje.\n\n{url}\n\n---\n\n{content}\n"
+            }
+        }
+    }
+}

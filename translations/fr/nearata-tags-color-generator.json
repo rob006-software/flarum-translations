@@ -1,37 +1,37 @@
 {
     "nearata-tags-color-generator": {
         "admin": {
-            "color_luminosity_label": "",
+            "color_luminosity_label": "Luminosité de la couleur",
             "color_luminosity_options": {
-                "random": "",
-                "light": "",
-                "bright": "",
-                "dark": ""
+                "random": "Aléatoire",
+                "light": "Eclairé",
+                "bright": "Brillant",
+                "dark": "Sombre"
             },
-            "color_hue_label": "",
+            "color_hue_label": "Teinte de la couleur",
             "color_hue_options": {
-                "random": "",
-                "red": "",
-                "orange": "",
-                "yellow": "",
-                "green": "",
-                "blue": "",
-                "purple": "",
-                "pink": "",
-                "monochrome": ""
+                "random": "Aléatoire",
+                "red": "Rouge",
+                "orange": "Orange",
+                "yellow": "Jaune",
+                "green": "Vert",
+                "blue": "Bleu",
+                "purple": "Violet",
+                "pink": "Rose",
+                "monochrome": "Monochrome"
             },
             "text_color": {
-                "label": "",
+                "label": "Couleur du texte",
                 "options": {
-                    "default": "",
-                    "theme_primary_color": "",
-                    "theme_secondary_color": "",
-                    "custom": ""
+                    "default": "Par défaut",
+                    "theme_primary_color": "Couleur primaire du thème",
+                    "theme_secondary_color": "Couleur secondaire du thème",
+                    "custom": "Couleur personnalisée"
                 },
-                "custom_label": "",
-                "custom_helptext": ""
+                "custom_label": "Couleur de texte personnalisée",
+                "custom_helptext": "Doit être au format hexadécimal (en incluant « # »), RGB(A) ou HLS(A)."
             },
-            "generate_color_button": ""
+            "generate_color_button": "Générer une couleur aléatoire"
         }
     }
 }

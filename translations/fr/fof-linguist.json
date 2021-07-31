@@ -2,115 +2,115 @@
     "fof-linguist": {
         "admin": {
             "tabs": {
-                "strings": "",
-                "coverage": "",
-                "export": "",
-                "import": ""
+                "strings": "Traductions",
+                "coverage": "Couverture",
+                "export": "Exporter",
+                "import": "Importer"
             },
             "buttons": {
-                "apply": "",
-                "reset": "",
-                "copy-original": "",
-                "load-more": "",
-                "delete-redundant": "",
-                "delete-redundant-confirm": "",
-                "delete-all": "",
-                "delete-all-confirm": ""
+                "apply": "Appliquer",
+                "reset": "Restaurer l'original",
+                "copy-original": "Copier le texte original",
+                "load-more": "Charger davantage",
+                "delete-redundant": "Supprimer les traductions redondantes",
+                "delete-redundant-confirm": "Cela supprimera {count} traductions qui ont des valeurs originales et personnalisées identiques. Cela peut être utile pour faire le ménage après la mise à jour d'une traduction.\n",
+                "delete-all": "Supprimer toutes les traductions",
+                "delete-all-confirm": "Cela supprimera TOUTES vos {count} traductions personnalisées. Assurez-vous d'avoir exporté ou sauvegardé tout ce que vous souhaitez conserver.\n"
             },
             "locales": {
-                "all": ""
+                "all": "Tout"
             },
             "placeholder": {
-                "not-translated": "",
-                "all-locales": "",
-                "hint": ""
+                "not-translated": "Non traduit",
+                "all-locales": "Un texte défini ici sera affiché dans toutes les langues",
+                "hint": "Valeur d'origine :"
             },
             "filters": {
-                "search": "",
-                "with-own-translations": "",
-                "missing": "",
-                "missing-middle-label": "",
+                "search": "Rechercher des chaînes de traduction...",
+                "with-own-translations": "Mes traductions",
+                "missing": "Trouver des traductions manquantes",
+                "missing-middle-label": "traductions dans",
                 "negation-options": {
-                    "with": "",
-                    "without": ""
+                    "with": "Avec",
+                    "without": "Sans"
                 },
                 "type-options": {
-                    "any": "",
-                    "original": "",
-                    "own": ""
+                    "any": "Originale ou personnalisée",
+                    "original": "Originale",
+                    "own": "Personnalisée"
                 },
                 "operation-options": {
-                    "or": "",
-                    "and": ""
+                    "or": "L'un ou l'autre",
+                    "and": "Tous"
                 },
-                "for-extension": "",
-                "frontend": "",
-                "frontend-all-except-admin": "",
-                "mass-edit": "",
-                "results": ""
+                "for-extension": "Par extension",
+                "frontend": "Par application frontale",
+                "frontend-all-except-admin": "Tous sauf l'administrateur",
+                "mass-edit": "Modification de masse",
+                "results": "Afficher {shown} sur {total} traductions correspondantes"
             },
             "clear-cache": {
-                "text": "",
-                "button": ""
+                "text": "Les nouvelles traductions n'ont pas encore été prises en compte. Note : vider le cache peut momentanément ralentir votre forum.\n",
+                "button": "Effacer le cache maintenant"
             },
             "coverage": {
                 "column-options": {
-                    "locale": "",
-                    "namespace": ""
+                    "locale": "Par langue",
+                    "namespace": "Par application frontale"
                 },
                 "total-options": {
-                    "percent": "",
-                    "count": ""
+                    "percent": "Pourcentage",
+                    "count": "Nombre"
                 },
                 "columns": {
-                    "namespace": "",
-                    "total": "",
-                    "all-except-admin": "",
-                    "all-frontends": ""
+                    "namespace": "Espace de nommage",
+                    "total": "Total",
+                    "all-except-admin": "Forum et autres applications frontales",
+                    "all-frontends": "Afficher toutes les applications frontales"
                 },
                 "count": {
-                    "percent": "",
-                    "total": "",
-                    "details": ""
+                    "percent": "{percent} %",
+                    "total": "{translated}/{total}",
+                    "details": "{total} totales/{original} originales/{custom} personnalisées"
                 },
-                "all-namespaces": "",
-                "apply-missing-filter": ""
+                "all-namespaces": "Toutes",
+                "apply-missing-filter": "Afficher les traductions manquantes correspondantes"
             },
             "export": {
-                "title": "",
-                "warning": "",
-                "locale": "",
-                "locale-all": "",
-                "namespace": "",
-                "namespace-all": "",
-                "include-originals": "",
-                "include-all": "",
-                "output": "",
-                "output-loading": "",
-                "output-empty": "",
-                "download": ""
+                "title": "Exporter",
+                "warning": "Le format d'exportation utilise les fichiers de traduction basés sur YAML de Flarum et est conçu pour partager les traductions entre les forums et avec les responsables des traductions. Le format n'est pas conçu pour déplacer toutes les traductions vers un nouveau forum. En fonction de votre cas d'utilisation, copier directement la base de données peut s'avérer être une meilleure idée.\n",
+                "locale": "Variable linguistique",
+                "locale-all": "Pseudo-variable linguistique « Toutes »",
+                "namespace": "Espace de nommage",
+                "namespace-all": "Toutes",
+                "include-originals": "Inclure les traductions originales",
+                "include-all": "Inclure les traductions définies pour « Toutes » les langues",
+                "output": "Sortie",
+                "output-loading": "Chargement des sorties...",
+                "output-empty": "Sortie vide",
+                "download": "Télécharger"
             },
             "import": {
-                "title": "",
-                "input": "",
-                "input-placeholder": "",
-                "locale": "",
-                "locale-all": "",
-                "override-existing": "",
-                "submit": "",
-                "results": "",
-                "results-with-ignore": ""
+                "title": "Importer",
+                "input": "Entrée",
+                "input-placeholder": "Glissez et déposez ou collez un fichier YAML ici",
+                "locale": "Variable linguistique",
+                "locale-all": "Pseudo-variable linguistique « Toutes »",
+                "override-existing": "Remplacer mes traductions personnalisées existantes",
+                "submit": "Importer",
+                "results": "L'importation est terminée. {imported} chaînes ont été importées et {identical} chaînes identiques ont été ignorées. La page va maintenant être actualisée pour afficher les nouvelles traductions.\n",
+                "results-with-ignore": "L'importation est terminée. {imported} chaînes ont été importées, {ignored} chaînes existantes ont été ignorées et {identical} chaînes identiques ont été ignorées. La page va maintenant être actualisée pour afficher les nouvelles traductions.\n"
             },
             "known-namespace": {
-                "core": "",
-                "validation": ""
+                "core": "Noyau de Flarum",
+                "validation": "Erreurs de validation"
             },
             "known-frontend": {
-                "forum": "",
-                "admin": "",
-                "lib": "",
-                "ref": "",
-                "api": ""
+                "forum": "Forum",
+                "admin": "Administrateur",
+                "lib": "Lib (utilisé à la fois sur le forum et le panneau d'administration)",
+                "ref": "Ref (recyclé dans d'autres clés)",
+                "api": "API"
             }
         }
     }

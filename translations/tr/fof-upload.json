@@ -5,9 +5,6 @@
                 "title": "Yükle",
                 "description": "Yükleme hizmetlerini ve tercihlerini ayarlayın."
             },
-            "buttons": {
-                "save": "Ayarları kaydet"
-            },
             "help_texts": {
                 "disable-download-logging": "Forum kullanıcıları tarafından yapılan her indirme işleminin kaydını etkisizleştir. Etkinleştirilmesi, gelecekte indirenlerin sayısını ve diğer ölçümleri görmenizi sağlar.\n",
                 "disable-hotlink-protection": "Hotlink koruması, diğer sitelerden indirme yapılmasına engel olur. Geçerli bir csrf token ve post id'si gereklidir.\n",
@@ -104,6 +101,9 @@
                 "local": "Yerel",
                 "ovh-svfs": "OVH SVFS",
                 "qiniu": "QiNiu"
+            },
+            "buttons": {
+                "save": "Ayarları kaydet"
             }
         },
         "forum": {

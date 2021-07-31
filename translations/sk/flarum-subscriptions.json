@@ -1,0 +1,50 @@
+{
+    "flarum-subscriptions": {
+        "forum": {
+            "badge": {
+                "following_tooltip": "=> flarum-subscriptions.ref.following",
+                "ignoring_tooltip": "=> flarum-subscriptions.ref.ignoring"
+            },
+            "discussion_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "unfollow_button": "Nesledovať",
+                "unignore_button": "Neignorovať"
+            },
+            "following": {
+                "meta_title_text": "=> flarum-subscriptions.ref.following"
+            },
+            "index": {
+                "following_link": "=> flarum-subscriptions.ref.following"
+            },
+            "notifications": {
+                "new_post_text": "Používateľ {username} pridal príspevok"
+            },
+            "settings": {
+                "follow_after_reply_label": "Automaticky sledovať diskusie na ktoré odpoviem",
+                "notify_new_post_label": "Niekto pridá príspevok v diskusii ktorú sledujem"
+            },
+            "sub_controls": {
+                "follow_button": "Sledovať",
+                "following_button": "Sledovať",
+                "following_text": "Upozorniť ma na všetky nové príspevky",
+                "ignoring_button": "Ignorovať",
+                "ignoring_text": "Nikdy ma neupozorniť. Skryť v zozname diskusií",
+                "not_following_button": "Nesledovať",
+                "not_following_text": "Buď upozornený iba keď budeš @spomenutý.",
+                "notify_alert_tooltip": "Dostávať fórum notifikácie keď tu pribudnú príspevky",
+                "notify_email_tooltip": "Dostávať E-Maily keď tu pribudnú príspevky"
+            }
+        },
+        "email": {
+            "new_post": {
+                "subject": "[Nový Príspevok] {title}",
+                "body": "Ahoj {recipient_display_name}!\n\n{poster_display_name} pridal príspevok v diskusii ktorú sleduješ: {title}.\n\nKlikni na nasledujúci odkaz pre zobrazenie novej aktivity:\n{url}\n\n---\n\n{content}\n\n---\n\nNedostaneš žiadne ďalšie upozornenia o tejto diskusii pokiaľ si ju nepozrieš.\n"
+            }
+        },
+        "ref": {
+            "follow": "Sledovať",
+            "following": "Sledované",
+            "ignoring": "Ignorované"
+        }
+    }
+}

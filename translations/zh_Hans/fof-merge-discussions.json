@@ -14,7 +14,7 @@
                 "merge": "=> fof-merge-discussions.ref.merge"
             },
             "post": {
-                "merged": "已合并主题「{titles}」下的 <b>{count}</b> 条回复。|已合并主题「{titles}」下的 <b>{count}</b> 条回复。"
+                "merged": "{count, plural, one {已合并主题「{titles}」下的 <b>#</b> 条回复。} other {已合并主题「{titles}」下的 <b>#</b> 条回复。}}"
             }
         },
         "admin": {

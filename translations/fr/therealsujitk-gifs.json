@@ -1,19 +1,41 @@
 {
+    "therealsujitk-gifs": {
+        "forum": {
+            "label": "Insérer un GIF",
+            "title": "Sélectionnez un GIF à ajouter à votre message",
+            "searchGiphy": "Rechercher dans Giphy",
+            "searchTenor": "Rechercher dans Tenor",
+            "search": "Rechercher",
+            "favourites": "Favoris",
+            "trending": "GIF tendances",
+            "addFavourite": "Ajouter aux favoris",
+            "removeFavourite": "Supprimer des favoris"
+        },
+        "admin": {
+            "engine": "Moteur de recherche",
+            "apiKey": "Clé API",
+            "rating": "Classement du contenu / Filtre du contenu",
+            "ratingOff": "R / Désactivé",
+            "ratingLow": "PG-13 / Faible",
+            "ratingMedium": "PG / Intermédiaire",
+            "ratingHigh": "G / Élevé"
+        }
+    },
     "therealsujitk": {
         "forum": {
             "gifs": {
-                "label": "Insérer le GIF",
-                "title": "Selectionner un GIF",
-                "searchbar": "Chercher des GIFs",
-                "search": "Chercher",
-                "loading": "Chargement ...",
+                "label": "Insérer un GIF",
+                "title": "Sélectionner un GIF",
+                "searchbar": "Rechercher des GIF",
+                "search": "Rechercher",
+                "loading": "Chargement...",
                 "noresults": "Aucun résultat",
-                "loadmore": "Charger plus"
+                "loadmore": "Charger davantage"
             }
         },
         "admin": {
             "gifs": {
-                "giphyAPIkey": "Clé API Giphy"
+                "giphyAPIkey": "Clé API de Giphy"
             }
         }
     }

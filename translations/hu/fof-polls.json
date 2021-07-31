@@ -1,0 +1,51 @@
+{
+    "fof-polls": {
+        "admin": {
+            "permissions": {
+                "view_results_without_voting": "Eredmény megtekintése szavazás nélkül",
+                "start": "Szavazás kezdése",
+                "self_edit": "A felhasználók módosíthatják a saját szavazásuk",
+                "vote": "Szavazásban szavazhat",
+                "change_vote": "Szavazás módosítása",
+                "moderate": "Szavazás szerkesztése, törlése"
+            }
+        },
+        "forum": {
+            "days_remaining": "Szavazás véget ér: {time}.",
+            "no_permission": "Nincs jogod szavazni",
+            "poll_ended": "A szavazás véget ért.",
+            "public_poll": "Szavazatok megtekintése",
+            "composer_discussion": {
+                "add_poll": "Szavazat hozzáadása",
+                "edit_poll": "=> fof-polls.forum.moderation.edit"
+            },
+            "modal": {
+                "add_title": "Szavazás hozzáadása",
+                "add_option_label": "Opció hozzáadása",
+                "date_placeholder": "Szavazás vége (nem kötelező)",
+                "edit_title": "Szavazás szerkesztése",
+                "include_question": "Kell legyen egy kérdés",
+                "max": "Maximum 10 válasz lehet",
+                "min": "Minimum 2 választ be kell tenni",
+                "no_voters": "Nincs szavazat",
+                "option_placeholder": "Válasz",
+                "options_label": "Válaszok",
+                "public_poll_label": "A felhasználók megnézhetik ki szavazott",
+                "question_placeholder": "Kérdés",
+                "submit": "Mentés"
+            },
+            "moderation": {
+                "delete": "Szavazás eltávolítása",
+                "delete_confirm": "Tényleg törlöd a szavazást?",
+                "edit": "Szavazás szerkesztése"
+            },
+            "tooltip": {
+                "badge": "Szavazás",
+                "votes": "# szavazat"
+            },
+            "votes_modal": {
+                "title": "Szavazatok"
+            }
+        }
+    }
+}

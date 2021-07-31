@@ -9,6 +9,7 @@
             "edit_category": "Edytuj kategorię",
             "nothing_here_yet": "Nie utworzono jeszcze żadnych odznak ani kategorii.",
             "permissions": {
+                "badge_detail_users": "Przeglądanie listy użytkowników z daną odznaką",
                 "give_badge": "Przyznawanie odznak użytkownikom",
                 "take_badge": "Odbieranie odznak użytkownikom"
             },
@@ -31,30 +32,32 @@
             "badge_category": {
                 "name": "Nazwa kategorii",
                 "description": "Opis kategorii",
+                "blockview": "Układ blokowy",
+                "blockview_description": "Wyświetl odznaki w tej kategorii w postaci bloków na liście odznak. Jeśli wyłączone, odznaki będą wyświetlane w postaci tabeli.",
                 "enabled": "Włączona",
                 "enabled_description": "Jeśli wyłączysz kategorię, wszystkie zawarte w niej odznaki zostaną ukryte, a kategoria nie będzie widoczna."
             },
             "auto_moderator": {
                 "not_installed": {
-                    "title": "",
-                    "content": "",
-                    "install": "",
-                    "dismiss": ""
+                    "title": "Automatycznie nagradzaj użytkowników odznakami",
+                    "content": "To rozszerzenie oferuje większą funkcjonalność jeśli rozszerzenie <a>Auto Moderator</a> jest włączone. Użytkownicy mogą być wtedy automatycznie nagradzani odznakami bez udziału moderatorów lub administracji!",
+                    "install": "Zainstaluj",
+                    "dismiss": "Nie pokazuj ponownie"
                 },
                 "action_drivers": {
-                    "badge_id": "",
-                    "give_badge": "",
-                    "remove_badge": ""
+                    "badge_id": "ID odznaki",
+                    "give_badge": "Przyznaj odznakę",
+                    "remove_badge": "Odbierz odznakę"
                 },
                 "requirement_drivers": {
-                    "has_badge": ""
+                    "has_badge": "Posiada odznakę"
                 },
                 "metric_drivers": {
-                    "badges_received": ""
+                    "badges_received": "Przyznano odznaki"
                 },
                 "badge_selector": {
-                    "placeholder": "",
-                    "loading_badges": ""
+                    "placeholder": "Wybierz odznakę",
+                    "loading_badges": "Ładowanie odznak"
                 }
             }
         },
@@ -67,6 +70,7 @@
             "select_badge": "Wybierz odznakę",
             "user_has_badge": "Ten użytkownik już ma tę odznakę.",
             "user_no_badges": "Ten użytkownik nie ma jeszcze żadnych odznak.",
+            "no_received": "Żaden użytkownik nie uzyskał jeszcze tej odznaki.",
             "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
             "badge": {
                 "badge": "Odznaka",
@@ -78,12 +82,19 @@
                 "no_earning_reason": "Nie podano powodu przyznania odznaki",
                 "earned_on": "Odznakę przyznano",
                 "category": "Kategoria odznaki",
-                "earned_count": "<b>{count} użytkownik</b> uzyskał tę odznakę|<b>{count} użytkowników</b> uzyskało tę odznakę"
+                "received_on": "Uzyskano {date}",
+                "badge_details": "Szczegóły odznaki",
+                "earned_count": "{count, plural, one {<b>{count} użytkownik</b> uzyskał} other {<b>{count} użytkowników</b> uzyskało}} tę odznakę",
+                "earned_by_count": "{count, plural, one {<b># użytkownik uzyskał</b>} other {<b># użytkowników uzyskało</b>}} tę odznakę"
             },
             "moderation": {
                 "remove_badge": "Odbierz odznakę użytkownikowi",
                 "remove_badge_confirm": "Czy jesteś pewien, że chcesz odebrać tę odznakę temu użytkownikowi?",
                 "give_badge": "Przyznaj odznakę"
+            },
+            "notification": {
+                "title": "Uzyskałeś nową odznakę",
+                "settings": "Uzyskałem nową odznakę"
             }
         }
     }

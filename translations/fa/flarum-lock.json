@@ -1,0 +1,28 @@
+{
+    "flarum-lock": {
+        "admin": {
+            "permissions": {
+                "lock_discussions_label": "Lock discussions"
+            }
+        },
+        "forum": {
+            "badge": {
+                "locked_tooltip": "قفل‌شده"
+            },
+            "discussion_controls": {
+                "lock_button": "قفل",
+                "unlock_button": "باز کردن"
+            },
+            "notifications": {
+                "discussion_locked_text": "توسط {username} قفل شد"
+            },
+            "post_stream": {
+                "discussion_locked_text": "{username} مبحث را قفل کرد.",
+                "discussion_unlocked_text": "{username} مبحث را باز کرد."
+            },
+            "settings": {
+                "notify_discussion_locked_label": "کسی مبحث من را قفل کرد"
+            }
+        }
+    }
+}

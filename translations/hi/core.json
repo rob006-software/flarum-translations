@@ -1,0 +1,606 @@
+{
+    "core": {
+        "admin": {
+            "appearance": {
+                "colored_header_label": "रंगीन शीर्ष लेख",
+                "colors_heading": "रंग",
+                "colors_text": "अपने फ़ोरम को तीम देने के लिए दो रंग चुनें। पहले का उपयोग प्रकाशित रंग के रूप में किया जाएगा, जबकि दूसरे का उपयोग पीछे के क्षेत्रों में रंग बरने के लिए किया जाएगा।",
+                "custom_footer_heading": "विशेष पाद लेख",
+                "custom_footer_text": "=> core.ref.custom_footer_text",
+                "custom_header_heading": "विशेष शीर्ष लेख",
+                "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_heading": "विशेष कपडे",
+                "custom_styles_text": "फ्लॉरुम की डिफ़ॉल्ट शैलियों के शीर्ष पर लागू करने के लिए अपना स्वयं का लेस्स/सीइसइस  कोड जोड़कर अपने फ़ोरम की उपस्थिति को अनुकूलित करें।",
+                "dark_mode_label": "काला रूप",
+                "description": "अपने फ़ोरम के रंग, लोगो और अन्य चरों को अनुकूलित करें।",
+                "edit_css_button": "विशेष सीइसइस को बदले",
+                "edit_footer_button": "=> core.ref.custom_footer_title",
+                "edit_header_button": "=> core.ref.custom_header_title",
+                "enter_hex_message": "कृपया एक हेक्साडेसिमल रंग कोड दर्ज करें।",
+                "favicon_heading": "फेविकोण",
+                "favicon_text": "फ़ोरम के शॉर्टकट आइकन के रूप में प्रदर्शित होने के लिए एक छवि अपलोड करें।",
+                "logo_heading": "लोगो",
+                "logo_text": "फ़ोरम शीर्षक के स्थान पर प्रदर्शित होने वाली छवि अपलोड करें।",
+                "title": "रूप"
+            },
+            "basics": {
+                "all_discussions_label": "=> core.ref.all_discussions",
+                "default_language_heading": "प्रधम भाषा",
+                "description": "अपना फ़ोरम शीर्षक, भाषा और अन्य मूलभूत दर्ज करें|",
+                "display_name_heading": "उपयोगकर्ता प्रदर्शन नाम",
+                "display_name_text": "उस ड्राइवर का चयन करें जिसका उपयोग उपयोगकर्ताओं के प्रदर्शन नामों के लिए किया जाना चाहिए। डिफ़ॉल्ट रूप से, उपयोगकर्ता नाम दिखाया गया है।",
+                "forum_description_heading": "फोरम विवरण",
+                "forum_description_text": "आपके समुदाय का वर्णन करने वाला एक या दो छोटा वाक्य दर्ज करें। यह मेटा टैग में दिखाई देगा और सर्च इंजन में दिखाई देगा।",
+                "forum_title_heading": "फोरम शीर्षक",
+                "home_page_heading": "प्रधम पन्ना",
+                "home_page_text": "वह पन्ना चुनें जिसे उपयोगकर्ता आपके फ़ोरम पर आने पर सबसे पहले देखेंगे।",
+                "show_language_selector_label": "भाषा चयनकर्ता दिखाएं",
+                "slug_driver_heading": "स्लग ड्राइवर: {मॉडल}",
+                "slug_driver_text": "इस मॉडल को स्लगिंग करने के लिए उपयोग किए जाने वाले ड्राइवर का चयन करें।",
+                "title": "मूल बातें",
+                "welcome_banner_heading": "स्वागत बैनर",
+                "welcome_banner_text": "सभी चर्चा पन्ने पर बैनर में प्रदर्शित होने वाले पाठ को कॉन्फ़िगर करें। अपने मंच पर मेहमानों का स्वागत करने के लिए इसका इस्तेमाल करें।"
+            },
+            "dashboard": {
+                "clear_cache_button": "कैश को साफ़ करें",
+                "description": "आपका मंच एक नजर में।",
+                "title": "नियंत्रण पन्ना",
+                "tools_button": "उपकरण"
+            },
+            "edit_css": {
+                "customize_text": "फलरूम की <a>डिफ़ॉल्ट शैलियों</a> के शीर्ष पर लागू करने के लिए अपना लेस्स /सीएसएस कोड जोड़कर अपने मंच की उपस्थिति को अनुकूलित करें।",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "विशेष सीइसइस को बदले"
+            },
+            "edit_footer": {
+                "customize_text": "=> core.ref.custom_footer_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_footer_title"
+            },
+            "edit_group": {
+                "color_label": "=> core.ref.color",
+                "delete_button": "समूह हटाएं",
+                "delete_confirmation": "क्या आप वाकई इस समूह को हटाना चाहते हैं? समूह के सदस्यों को हटाया नहीं जाएगा।",
+                "hide_label": "मंच पर छुपाएं",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "नाम",
+                "plural_placeholder": "बहुवचन (जैसे कि मॉडस)",
+                "singular_placeholder": "एकवचन (जैसे मॉड)",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "समूह बनाएँ"
+            },
+            "edit_header": {
+                "customize_text": "=> core.ref.custom_header_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_header_title"
+            },
+            "email": {
+                "addresses_heading": "पतों",
+                "description": "ड्राइवर, सेटिंग्स और पते कॉन्फ़िगर करें जिनका उपयोग आपका फ़ोरम ईमेल भेजने के लिए करेगा।",
+                "driver_heading": "ड्राइवर चुने",
+                "driver_label": "चालक",
+                "from_label": "प्रेषक",
+                "mail_encryption_label": "एन्क्रिप्शन",
+                "mail_host_label": "मेज़बान",
+                "mail_mailgun_domain_label": "डोमेन",
+                "mail_mailgun_region_label": "क्षेत्र",
+                "mail_mailgun_secret_label": "गुप्त कुंजी",
+                "mail_password_label": "=> core.ref.password",
+                "mail_port_label": "द्वार",
+                "mail_username_label": "=> core.ref.username",
+                "mailgun_heading": "मेलगन सेटिंग्स",
+                "not_sending_message": "फ्लॉरुम अभी ईमेल नहीं भेजता है। यह चयनित ड्राइवर, या इसके कॉन्फ़िगरेशन में खराबी के कारण हो सकता है।",
+                "send_test_mail_button": "भेजें",
+                "send_test_mail_heading": "टेस्ट मेल भेजें",
+                "send_test_mail_success": "परीक्षण मेल सफलतापूर्वक भेजा गया!",
+                "send_test_mail_text": "यह उपरोक्त कॉन्फ़िगरेशन का उपयोग करके आपके ईमेल, {email} पर एक ईमेल भेजेगा।",
+                "smtp_heading": "एसएमटीपी सेटिंग्स",
+                "title": "=> core.ref.email"
+            },
+            "extension": {
+                "configure_scopes": "कार्यक्षेत्र कॉन्फ़िगर करें",
+                "confirm_uninstall": "अनइंस्टॉल करने से एक्सटेंशन से संबंधित सभी डेटाबेस प्रविष्टियां और संपत्तियां निकल जाएंगी। क्या आप वाकई जारी रखना चाहते हो?",
+                "disabled": "अक्षम",
+                "enable_to_see": "सेटिंग देखने और बदलने के लिए एक्सटेंशन सक्षम करें।",
+                "enabled": "सक्रिय",
+                "info_links": {
+                    "discuss": "चर्चा",
+                    "documentation": "प्रलेखन",
+                    "donate": "दान करना",
+                    "source": "स्रोत",
+                    "support": "समर्थन",
+                    "website": "वेबसाइट"
+                },
+                "no_permissions": "हम इस एक्सटेंशन की कोई अनुमति नहीं चाहिए|",
+                "no_settings": "इस एक्सटेंशन की कोई सेटिंग नहीं है।",
+                "open_modal": "सेटिंग्स खोलें",
+                "permissions_title": "अनुमतियां",
+                "uninstall_button": "स्थापना रद्द करें"
+            },
+            "header": {
+                "get_help": "मदद लें",
+                "log_out_button": "=> core.ref.log_out"
+            },
+            "loading": {
+                "title": "कृपया प्रतीक्षा करें..."
+            },
+            "nav": {
+                "appearance_button": "दिखावट",
+                "appearance_title": "=> core.admin.appearance.description",
+                "basics_button": "मूल बातें",
+                "basics_title": "=> core.admin.basics.description",
+                "categories": {
+                    "authentication": "प्रमाणीकरण",
+                    "core": "कोर विन्यास",
+                    "discussion": "विचार-विमर्श",
+                    "feature": "विशेषताएं",
+                    "formatting": "स्वरूपण",
+                    "language": "भाषाई",
+                    "moderation": "चर्चा नियंत्रण",
+                    "other": "अन्य एक्सटेंशन",
+                    "theme": "अन्य रूप"
+                },
+                "dashboard_button": "सूचना पैनल",
+                "dashboard_title": "=> core.admin.dashboard.description",
+                "email_button": "=> core.ref.email",
+                "email_title": "ड्राइवर, सेटिंग्स और पते कॉन्फ़िगर करें जिनका उपयोग आपका फ़ोरम ईमेल भेजने के लिए करेगा",
+                "permissions_button": "अनुमतियां",
+                "permissions_title": "कॉन्फ़िगर करें कि कौन देख सकता है और क्या कर सकता है",
+                "userlist_button": "=> core.admin.users.title",
+                "userlist_title": "=> core.admin.users.description",
+                "search_placeholder": "एक्सटेंशन खोजे"
+            },
+            "permissions": {
+                "allow_post_editing_label": "पोस्ट संपादन की अनुमति दें",
+                "allow_renaming_label": "नाम बदलने की अनुमति दें",
+                "create_heading": "बनाये",
+                "delete_discussions_forever_label": "चर्चाओं को हमेशा के लिए हटाएं",
+                "delete_discussions_label": "चर्चा हटाएं",
+                "delete_posts_forever_label": "पोस्टें  हमेशा के लिए हटाएं",
+                "delete_posts_label": "पोस्टें  हटाएं",
+                "description": "कॉन्फ़िगर करें कि कौन देख सकता है और क्या कर सकता है।",
+                "edit_posts_label": "पोस्ट संपादित करें",
+                "edit_users_label": "उपयोगकर्ता विशेषताओं को संपादित करें",
+                "edit_users_credentials_label": "उपयोगकर्ता विशेषण संपादित करें",
+                "edit_users_groups_label": "उपयोगकर्ता समूह संपादित करें",
+                "global_heading": "वैश्विक",
+                "moderate_heading": "नियंत्रण करे",
+                "new_group_button": "नया समूह",
+                "participate_heading": "भाग लेना",
+                "post_without_throttle_label": "प्रतीक्षा किए बिना कई बार उत्तर दें",
+                "read_heading": "पढ़ना",
+                "rename_discussions_label": "चर्चाओं का नाम बदलें",
+                "reply_to_discussions_label": "चर्चाओं का उत्तर दें",
+                "search_users_label": "उपयोगकर्ता खोजें",
+                "sign_up_label": "साइन अप करें",
+                "start_discussions_label": "चर्चा शुरू करें",
+                "title": "अनुमतियां",
+                "view_forum_label": "फ़ोरम देखें (चर्चाएँ और उपयोगकर्ता)",
+                "view_hidden_groups_label": "छिपे हुए समूह बेडज देखें",
+                "view_last_seen_at_label": "उपयोगकर्ता को हमेशा अंतिम बार देखे जाने का समय देखें",
+                "view_post_ips_label": "पोस्ट आईपी पते देखें"
+            },
+            "permissions_controls": {
+                "allow_indefinitely_button": "अनिश्चित काल के लिए",
+                "allow_some_minutes_button": "{count, plural, one {# मिनट के लिए} other {# मिनुटों  के लिए}}",
+                "allow_ten_minutes_button": "10 मिनट के लिए",
+                "allow_until_reply_button": "अगले उत्तर तक",
+                "everyone_button": "सब लोग",
+                "members_button": "=> core.group.members",
+                "signup_closed_button": "बंद है",
+                "signup_open_button": "खुला है"
+            },
+            "settings": {
+                "saved_message": "आपके परिवर्तन सहेजे गए थे।",
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "upload_image": {
+                "remove_button": "=> core.ref.remove",
+                "upload_button": "एक छवि चुनें..."
+            },
+            "users": {
+                "description": "आपके फ़ोरम के सभी उपयोगकर्ताओं की पृष्ठांकित सूची।",
+                "grid": {
+                    "columns": {
+                        "edit_user": {
+                            "button": "=> core.ref.edit",
+                            "title": "=> core.ref.edit_user",
+                            "tooltip": "{उपयोगकर्ता नाम} संपादित करें"
+                        },
+                        "email": {
+                            "title": "=> core.ref.email",
+                            "visibility_hide": "ईमेल पता छुपाएं",
+                            "visibility_show": "ईमेल पता दिखाएं"
+                        },
+                        "group_badges": {
+                            "no_badges": "कुछ नहीं",
+                            "title": "समूहों"
+                        },
+                        "join_time": {
+                            "title": "में शामिल हो गए"
+                        },
+                        "user_id": {
+                            "title": "ईडी"
+                        },
+                        "username": {
+                            "profile_link_tooltip": "{username} की प्रोफ़ाइल पर जाएं",
+                            "title": "=> core.ref.username"
+                        }
+                    },
+                    "invalid_column_content": "अमान्य"
+                },
+                "pagination": {
+                    "back_button": "पिछला पन्ना",
+                    "next_button": "अगला पन्ना",
+                    "page_counter": "{total} का पन्ना {current}"
+                },
+                "title": "=> core.ref.users",
+                "total_users": "कुल उपयोगकर्ता: {count}"
+            }
+        },
+        "forum": {
+            "change_email": {
+                "confirm_password_placeholder": "=> core.ref.confirm_password",
+                "confirmation_message": "=> core.ref.confirmation_email_sent",
+                "dismiss_button": "=> core.ref.okay",
+                "incorrect_password_message": "आपके द्वारा दर्ज किया गया पासवर्ड गलत है।",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.change_email"
+            },
+            "change_password": {
+                "send_button": "पासवर्ड बदलने का ईमेल भेजें",
+                "text": "नीचे दिए गए बटन पर क्लिक करें और अपना पासवर्ड बदलने के लिए लिंक के लिए अपना ईमेल देखें।",
+                "title": "=> core.ref.change_password"
+            },
+            "composer": {
+                "close_tooltip": "बंद करे",
+                "exit_full_screen_tooltip": "पूर्ण स्क्रीन से बाहर निकलें",
+                "full_screen_tooltip": "पूर्ण स्क्रीन",
+                "minimize_tooltip": "छोटा करना",
+                "preview_tooltip": "पूर्वावलोकन"
+            },
+            "composer_discussion": {
+                "body_placeholder": "पोस्ट लिखें...",
+                "discard_confirmation": "आपने अपनी चर्चा पोस्ट नहीं की है। क्या आप इसे त्यागना चाहते हैं?",
+                "submit_button": "चर्चा पोस्ट करें",
+                "title": "=> core.ref.start_a_discussion",
+                "title_placeholder": "चर्चा शीर्षक"
+            },
+            "composer_edit": {
+                "discard_confirmation": "आपने अपने परिवर्तन सहेजे नहीं हैं। क्या आप उन्हें त्यागना चाहते हैं?",
+                "edited_message": "आपका संपादन किया गया था।",
+                "post_link": "{discussion} में #{number} पोस्ट करें",
+                "submit_button": "=> core.ref.save_changes",
+                "view_button": "=> core.ref.view"
+            },
+            "composer_reply": {
+                "body_placeholder": "=> core.ref.write_a_reply",
+                "discard_confirmation": "आपने अपना उत्तर पोस्ट नहीं किया है। क्या आप इसे त्यागना चाहते हैं?",
+                "posted_message": "आपका जवाब पोस्ट कर दिया गया था।",
+                "submit_button": "जवाब दे",
+                "view_button": "दर्शन"
+            },
+            "discussion_controls": {
+                "cannot_reply_button": "जवाब नहीं दे सकते",
+                "cannot_reply_text": "आपको इस चर्चा का उत्तर देने की अनुमति नहीं है।",
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "क्या आप वाकई इस चर्चा को हटाना चाहते हैं?",
+                "delete_forever_button": "=> core.ref.delete_forever",
+                "log_in_to_reply_button": "उत्तर देने के लिए लॉगिन करें",
+                "rename_button": "=> core.ref.rename",
+                "reply_button": "=> core.ref.reply",
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": "चर्चा करवाई ड्राप डाउन मेनू को टोगल करे"
+            },
+            "discussion_list": {
+                "empty_text": "ऐसा लगता है जैसे यहां कोई चर्चा नहीं हो रही है।",
+                "load_more_button": "=> core.ref.load_more",
+                "mark_as_read_tooltip": "पढ़े हुए का चिह्न",
+                "replied_text": "{username} ने उत्तर दिया {ago}",
+                "started_text": "{username} शुरू हुआ {ago}"
+            },
+            "forgot_password": {
+                "dismiss_button": "=> core.ref.okay",
+                "email_placeholder": "=> core.ref.email",
+                "email_sent_message": "हमने आपको एक ईमेल भेजा है जिसमें आपका पासवर्ड रीसेट करने के लिए एक लिंक है। यदि आप इसे अगले एक या दो मिनट में प्राप्त नहीं करते हैं तो अपने स्पैम फ़ोल्डर की जाँच करें।",
+                "not_found_message": "उस ईमेल पते के साथ कोई उपयोगकर्ता पंजीकृत नहीं है।",
+                "submit_button": "पासवर्ड पुन प्राप्त करे",
+                "text": "अपना ईमेल पता दर्ज करें और हम आपको अपना पासवर्ड रीसेट करने के लिए एक लिंक भेजेंगे।",
+                "title": "पासवर्ड भूल गए"
+            },
+            "header": {
+                "admin_button": "प्रशासन",
+                "back_to_index_tooltip": "चर्चा सूची पर वापस जाएं",
+                "locale_dropdown_accessible_label": "फ़ोरम का स्थानीय विशेषण बदलें",
+                "log_in_link": "=> core.ref.log_in",
+                "log_out_button": "=> core.ref.log_out",
+                "profile_button": "चरित्र लेख",
+                "search_placeholder": "फोरम में ढूंढे",
+                "session_dropdown_accessible_label": "सत्र विकल्प ड्रॉपडाउन मेनू टॉगल करें",
+                "settings_button": "=> core.ref.settings",
+                "sign_up_link": "=> core.ref.sign_up"
+            },
+            "index": {
+                "all_discussions_link": "=> core.ref.all_discussions",
+                "cannot_start_discussion_button": "चर्चा शुरू नहीं कर सकते",
+                "mark_all_as_read_confirmation": "क्या आप वाकई सभी चर्चाओं को पठित के रूप में चिह्नित करना चाहते हैं?",
+                "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "meta_title_text": "=> core.ref.all_discussions",
+                "refresh_tooltip": "ताज़ा करे",
+                "start_discussion_button": "=> core.ref.start_a_discussion",
+                "toggle_sidenav_dropdown_accessible_label": "नेविगेशन ड्रॉपडाउन मेनू टॉगल करें"
+            },
+            "index_sort": {
+                "latest_button": "नवीनतम",
+                "newest_button": "नया",
+                "oldest_button": "सबसे पुराने",
+                "relevance_button": "संबंधता",
+                "toggle_dropdown_accessible_label": "चर्चा सूची छँटाई बदलें",
+                "top_button": "ऊपर"
+            },
+            "log_in": {
+                "forgot_password_link": "पासवर्ड भूल गए?",
+                "invalid_login_message": "आपका लॉगिन विवरण गलत था।",
+                "password_placeholder": "=> core.ref.password",
+                "remember_me_label": "मुझे याद रखें",
+                "sign_up_text": "खाता नहीं है? <a>खाता खोले</a>",
+                "submit_button": "=> core.ref.log_in",
+                "title": "=> core.ref.log_in",
+                "username_or_email_placeholder": "उपयोगकर्ता का नाम या ईमेल"
+            },
+            "notifications": {
+                "discussion_renamed_text": "{username} ने शीर्षक बदल दिया",
+                "empty_text": "कोई सूचनाएं नहीं",
+                "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "mark_as_read_tooltip": "पढ़े हुए का चिह्न",
+                "title": "=> core.ref.notifications",
+                "toggle_dropdown_accessible_label": "सूचनाएं देखें",
+                "tooltip": "=> core.ref.notifications"
+            },
+            "post": {
+                "edited_text": "संपादित",
+                "edited_tooltip": "{username} संपादित {ago}",
+                "number_tooltip": "पोस्ट #{number}"
+            },
+            "post_controls": {
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "क्या आप वाकई इस पोस्ट को हमेशा के लिए हटाना चाहते हैं? इस क्रिया को पूर्ववत नहीं किया जा सकता है।",
+                "delete_forever_button": "=> core.ref.delete_forever",
+                "edit_button": "=> core.ref.edit",
+                "hide_confirmation": "क्या आप वाकई इस पोस्ट को हटाना चाहते हैं?",
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": "पोस्ट नियंत्रण ड्रॉपडाउन मेनू टॉगल करे"
+            },
+            "post_scrubber": {
+                "now_link": "अब",
+                "original_post_link": "मूल पोस्ट",
+                "unread_text": "{count} अपठित",
+                "viewing_text": "{count, plural, one {{index} {formattedCount} post} अन्य {{index} {formattedCount} posts}}"
+            },
+            "post_stream": {
+                "discussion_renamed_old_tooltip": "पुराना शीर्षक था: \"{old}\"",
+                "discussion_renamed_text": "{username} ने शीर्षक बदलकर {new} कर दिया।",
+                "load_more_button": "=> core.ref.load_more",
+                "reply_placeholder": "=> core.ref.write_a_reply",
+                "time_lapsed_text": "{period} बाद में"
+            },
+            "rename_discussion": {
+                "submit_button": "=> core.ref.rename",
+                "title": "चर्चा का नाम बदलें"
+            },
+            "search": {
+                "all_discussions_button": "\"{query}\" के लिए सभी चर्चाएं खोजें",
+                "discussions_heading": "=> core.ref.discussions",
+                "users_heading": "=> core.ref.users"
+            },
+            "settings": {
+                "account_heading": "खाता",
+                "change_email_button": "=> core.ref.change_email",
+                "change_password_button": "=> core.ref.change_password",
+                "notifications_heading": "=> core.ref.notifications",
+                "notify_by_email_heading": "=> core.ref.email",
+                "notify_by_web_heading": "वेब",
+                "notify_discussion_renamed_label": "किसी ने मेरे द्वारा शुरू की गई चर्चा का नाम बदल दिया",
+                "privacy_disclose_online_label": "दूसरों को देखने दें कि मैं कब ऑनलाइन हूं",
+                "privacy_heading": "एकांत",
+                "title": "=> core.ref.settings"
+            },
+            "sign_up": {
+                "dismiss_button": "=> core.ref.okay",
+                "email_placeholder": "=> core.ref.email",
+                "log_in_text": "पहले से ही एक खाता है? <a>लॉग इन करें</a>",
+                "password_placeholder": "=> core.ref.password",
+                "submit_button": "=> core.ref.sign_up",
+                "title": "=> core.ref.sign_up",
+                "username_placeholder": "=> core.ref.username",
+                "welcome_text": "स्वागत है, {username}!"
+            },
+            "user": {
+                "avatar_remove_button": "=> core.ref.remove",
+                "avatar_upload_button": "अपलोड",
+                "avatar_upload_tooltip": "एक नया अवतार अपलोड करें",
+                "discussions_link": "=> core.ref.discussions",
+                "in_discussion_text": "{discussion} में",
+                "joined_date_text": "{ago} शामिल हुए",
+                "online_text": "ऑनलाइन",
+                "posts_empty_text": "ऐसा लगता है कि यहां कोई पोस्ट नहीं है।",
+                "posts_link": "=> core.ref.posts",
+                "posts_load_more_button": "=> core.ref.load_more",
+                "settings_link": "=> core.ref.settings"
+            },
+            "user_controls": {
+                "button": "नियंत्रण",
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "क्या आप वाकई इस उपयोगकर्ता को हटाना चाहते हैं? उपयोगकर्ता की पोस्ट नहीं हटाई जाएगी।",
+                "delete_error_message": "उपयोगकर्ता को हटाना <i>{username} ({email})</i> विफल रहा",
+                "delete_success_message": "उपयोगकर्ता <i>{username} ({email)}</i> हटा दिया गया था",
+                "edit_button": "=> core.ref.edit",
+                "toggle_dropdown_accessible_label": "उपयोगकर्ता नियंत्रण ड्रॉपडाउन मेनू टॉगल करे"
+            },
+            "user_email_confirmation": {
+                "alert_message": "=> core.ref.confirmation_email_sent",
+                "resend_button": "पुष्टिकरण ईमेल पुन: भेजें",
+                "sent_message": "भेज दिया"
+            }
+        },
+        "lib": {
+            "badge": {
+                "hidden_tooltip": "छिपा हुआ"
+            },
+            "dropdown": {
+                "toggle_dropdown_accessible_label": "ड्रॉपडाउन मेनू टॉगल करें"
+            },
+            "edit_user": {
+                "activate_button": "उपयोगकर्ता को सक्रिय करें",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "समूहों",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "नए पासवर्ड का उपयोग करें",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.edit_user",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username"
+            },
+            "error": {
+                "dependent_extensions_message": "निम्न आश्रित एक्सटेंशन अक्षम होने तक {extension} को अक्षम नहीं किया जा सकता: {extensions}",
+                "generic_message": "उफ़! कुछ गलत हो गया। कृपया पेज लोड करें और पुन: प्रयास करें।",
+                "missing_dependencies_message": "निम्न निर्भरताएँ सक्षम होने तक {extension} को सक्षम नहीं किया जा सकता: {extensions}",
+                "not_found_message": "अनुरोधित संसाधन नहीं मिला।",
+                "permission_denied_message": "आपको ऐसा करने की अनुमति नहीं है।",
+                "rate_limit_exceeded_message": "आप थोड़ी जल्दी कर रहे हो। कृपया कुछ क्षणों में पुन: प्रयास करें।"
+            },
+            "loading_indicator": {
+                "accessible_label": "=> core.ref.loading"
+            },
+            "number_suffix": {
+                "kilo_text": "की",
+                "mega_text": "मे"
+            },
+            "series": {
+                "glue_text": ", ",
+                "three_text": "{first}, {second}, ओर {third}",
+                "two_text": "{first} ओर {second}"
+            },
+            "username": {
+                "deleted_text": "[हटाया गया]"
+            }
+        },
+        "views": {
+            "content": {
+                "javascript_disabled_message": "यह साइट एक आधुनिक ब्राउज़र में सबसे अच्छी तरह से देखी जा सकती है जिसमें जावास्क्रिप्ट सक्षम है।",
+                "load_error_message": "इस साइट के पूर्ण संस्करण को लोड करने का प्रयास करते समय कुछ गलत हुआ। ठीक करने के लिए इस पन्ने को हार्ड-रीफ्रेश करने का प्रयास करें।",
+                "loading_text": "=> core.ref.loading"
+            },
+            "discussion": {
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
+            },
+            "error": {
+                "csrf_token_mismatch": "आप बहुत लंबे समय से निष्क्रिय हैं।",
+                "csrf_token_mismatch_return_link": "पुन: प्रयास करने के लिए वापस जाएं",
+                "invalid_confirmation_token": "यह पुष्टिकरण लिंक पहले ही उपयोग किया जा चुका है या अमान्य है।",
+                "not_authenticated": "आपको इस पन्ने का उपयोग करने की अनुमति नहीं है। लॉग इन करने के बाद पुनः प्रयास करें।",
+                "not_found": "आपने जिस पन्ने का अनुरोध किया है वह नहीं मिल सका।",
+                "not_found_return_link": "{forum} पर लौटें",
+                "permission_denied": "आपको इस पन्ने को उपयोग करने की अनुमति नहीं है।",
+                "unknown": "इस पन्ने को लाने का प्रयास करते समय एक खराबी हुई।"
+            },
+            "index": {
+                "all_discussions_heading": "=> core.ref.all_discussions",
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
+            },
+            "log_out": {
+                "log_out_button": "=> core.ref.log_out",
+                "log_out_confirmation": "क्या आप वाकई {forum} से लॉग आउट करना चाहते हैं?",
+                "title": "=> core.ref.log_out"
+            },
+            "reset_password": {
+                "confirm_password_label": "नए पासवर्ड की पुष्टि करें",
+                "new_password_label": "नए पासवर्ड",
+                "submit_button": "अपना पासवर्ड रीसेट करें",
+                "title": "=> core.ref.reset_your_password"
+            }
+        },
+        "api": {
+            "invalid_username_message": "उपयोगकर्ता नाम में केवल अक्षर, संख्याएं और डैश हो सकते हैं।"
+        },
+        "email": {
+            "activate_account": {
+                "subject": "अपना नया खाता सक्रिय करें",
+                "body": "हे {username}!\n\nकिसी ने (उम्मीद है कि आप!) ने इस ईमेल पते से {forum} में साइन अप किया है।\n\nयदि यह आप थे, तो बस निम्न लिंक पर क्लिक करें और आपका खाता सक्रिय हो जाएगा:\n{url}\n\nयदि आपने साइन अप नहीं किया है, तो कृपया इस ईमेल पर ध्यान न दें।\n"
+            },
+            "confirm_email": {
+                "subject": "अपने नए ईमेल पते की पुष्टि करें",
+                "body": "हे {username}!\n\nकिसी ने (उम्मीद है कि आप!) ने {forum} पर अपना ईमेल पता इस में बदल दिया है।\n\nयदि यह आप थे, तो बस निम्न लिंक पर क्लिक करें और आपके ईमेल की पुष्टि हो जाएगी:\n{url}\n\nयदि यह आप नहीं थे, तो कृपया इस ईमेल पर ध्यान न दें।\n"
+            },
+            "reset_password": {
+                "subject": "=> core.ref.reset_your_password",
+                "body": "हे {username}!\n\nकिसी ने (उम्मीद है कि आप!) ने {forum} पर आपके खाते के लिए पासवर्ड भूल जाने का अनुरोध सबमिट कर दिया है।\n\nयदि यह आप थे, तो अपना पासवर्ड रीसेट करने के लिए निम्न लिंक पर क्लिक करें:\n{url}\n\nयदि आप अपना पासवर्ड नहीं बदलना चाहते हैं, तो बस इस ईमेल को अनदेखा करें और कुछ नहीं होगा।\n"
+            },
+            "send_test": {
+                "subject": "फ्लॉरुम ईमेल परीक्षण",
+                "body": "हे {username}!\n\nयह पुष्टि करने के लिए एक परीक्षण ईमेल है कि आपका फ्लॉरुम ईमेल कॉन्फ़िगरेशन ठीक से काम कर रहा है।\n\nअगर यह आप थे, तो इस ईमेल का मतलब है कि आपका कॉन्फ़िगरेशन काम करता है!\n\nयदि यह आप नहीं थे, तो कृपया इस ईमेल पर ध्यान न दें।\n"
+            }
+        },
+        "ref": {
+            "all_discussions": "सभी चर्चा",
+            "change_email": "ईमेल बदलें",
+            "change_password": "पासवर्ड बदलें",
+            "color": "रंग",
+            "confirm_password": "पासवर्ड की पुष्टि कीजिये",
+            "confirmation_email_sent": "हमने {email} पर एक पुष्टिकरण ईमेल भेजा है। यदि यह जल्दी नहीं आता है, तो अपने स्पैम फ़ोल्डर की जाँच करें।",
+            "custom_footer_text": "पन्ने के सबसे नीचे प्रदर्शित होने के लिए एचटीएम्एल  दे।",
+            "custom_footer_title": "विशेष पाद लेख संपादित करें",
+            "custom_header_text": "फलरूम के अपने शीर्षलेख के ऊपर, पन्ने के शीर्ष पर प्रदर्शित होने के लिए एचटीएम्एल दे।",
+            "custom_header_title": "विशेष शीर्षलेख संपादित करें",
+            "delete": "हटाएं",
+            "delete_forever": "हमेशा के लिए हटाएं",
+            "discussions": "चर्चाएँ",
+            "edit": "संपादित करें",
+            "edit_user": "उपयोगकर्ता को संपादित करो",
+            "email": "ईमेल",
+            "icon": "आइकन",
+            "icon_text": "किसी भी <a>FontAwesome</a> आइकन वर्ग का नाम दर्ज करें, <em>सहित</em> <code>fas fa-</code> उपसर्ग।",
+            "load_more": "और लोड करें",
+            "loading": "लोड हो रहा है...",
+            "log_in": "लॉग इन करें",
+            "log_out": "बाहर जाये",
+            "mark_all_as_read": "सभी को पढ़ा हुआ संकेत करें",
+            "next_page": "अगला पन्ना",
+            "notifications": "सूचनाएं",
+            "okay": "ठीक है",
+            "password": "पासवर्ड",
+            "posts": "पोस्टें",
+            "previous_page": "पिछला पन्ना",
+            "remove": "हटाना",
+            "rename": "नाम बदलें",
+            "reply": "जवाब दे",
+            "reset_your_password": "अपना पासवर्ड रीसेट करें",
+            "restore": "पुनर्स्थापित",
+            "save_changes": "परिवर्तनों को सुरक्षित करें",
+            "settings": "सेटिंग्स",
+            "sign_up": "खाता खोले",
+            "some_others": "{count, plural, one {# अन्य} other {# अन्य}}",
+            "start_a_discussion": "एक चर्चा शुरू करें",
+            "username": "उपयोगकर्ता नाम",
+            "users": "उपयोगकर्ता",
+            "view": "दृष्टि",
+            "write_a_reply": "जवाब लिखें...",
+            "you": "आप"
+        },
+        "group": {
+            "admin": "व्यवस्थापक",
+            "admins": "व्यवस्थापके",
+            "guest": "अतिथि",
+            "guests": "मेहमानों",
+            "member": "सदस्य",
+            "members": "सदस्यों",
+            "mod": "मोड़",
+            "mods": "मोड़ लोग"
+        }
+    }
+}

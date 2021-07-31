@@ -2,49 +2,49 @@
     "migratetoflarum-fake-data": {
         "admin": {
             "generator": {
-                "bulk-mode": "",
-                "bulk-mode-description": "",
-                "user-count": "",
-                "discussion-count": "",
-                "discussion-tags": "",
-                "discussion-tags-none": "",
-                "discussion-tags-random": "",
-                "post-count": "",
-                "date": "",
-                "date-start-placeholder": "",
-                "date-interval-placeholder": "",
-                "send": ""
+                "bulk-mode": "=> migratetoflarum-fake-data.ref.bulk-mode",
+                "bulk-mode-description": "=> migratetoflarum-fake-data.ref.bulk-mode-description",
+                "user-count": "=> migratetoflarum-fake-data.ref.user-count",
+                "discussion-count": "Nombre de discussions à créer",
+                "discussion-tags": "Étiquettes des nouvelles discussions",
+                "discussion-tags-none": "Aucun",
+                "discussion-tags-random": "Aléatoire",
+                "post-count": "=> migratetoflarum-fake-data.ref.post-count",
+                "date": "=> migratetoflarum-fake-data.ref.date",
+                "date-start-placeholder": "=> migratetoflarum-fake-data.ref.date-start-placeholder",
+                "date-interval-placeholder": "=> migratetoflarum-fake-data.ref.date-interval-placeholder",
+                "send": "=> migratetoflarum-fake-data.ref.send"
             }
         },
         "forum": {
             "link": {
-                "generate-replies": ""
+                "generate-replies": "Générer de fausses réponses"
             },
             "generator": {
-                "title": "",
-                "bulk-mode": "",
-                "bulk-mode-description": "",
-                "user-count": "",
-                "post-count": "",
-                "date": "",
-                "date-start-placeholder": "",
-                "date-interval-placeholder": "",
-                "send": ""
+                "title": "Générer de fausses réponses",
+                "bulk-mode": "=> migratetoflarum-fake-data.ref.bulk-mode",
+                "bulk-mode-description": "=> migratetoflarum-fake-data.ref.bulk-mode-description",
+                "user-count": "=> migratetoflarum-fake-data.ref.user-count",
+                "post-count": "=> migratetoflarum-fake-data.ref.post-count",
+                "date": "=> migratetoflarum-fake-data.ref.date",
+                "date-start-placeholder": "=> migratetoflarum-fake-data.ref.date-start-placeholder",
+                "date-interval-placeholder": "=> migratetoflarum-fake-data.ref.date-interval-placeholder",
+                "send": "=> migratetoflarum-fake-data.ref.send"
             }
         },
         "api": {
-            "no-users-matched": "",
-            "no-discussions-matched": ""
+            "no-users-matched": "Aucun utilisateur ne correspond",
+            "no-discussions-matched": "Aucune discussion ne correspond"
         },
         "ref": {
-            "bulk-mode": "",
-            "bulk-mode-description": "",
-            "user-count": "",
-            "post-count": "",
-            "date": "",
-            "date-start-placeholder": "",
-            "date-interval-placeholder": "",
-            "send": ""
+            "bulk-mode": "Mode en masse",
+            "bulk-mode-description": "Génère une seule valeur aléatoire et la réutilise pour chaque entrée",
+            "user-count": "Nombre d'utilisateurs à créer",
+            "post-count": "Nombre de messages à créer",
+            "date": "Graine de génération de la date",
+            "date-start-placeholder": "Date de début (par défaut : maintenant)",
+            "date-interval-placeholder": "Intervalle (par défaut : 1 seconde)",
+            "send": "Générer des données"
         }
     }
 }

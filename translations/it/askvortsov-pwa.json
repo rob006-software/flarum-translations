@@ -2,69 +2,69 @@
     "askvortsov-pwa": {
         "admin": {
             "nav": {
-                "pwa_button": "",
-                "pwa_text": ""
+                "pwa_button": "Web App progressiva",
+                "pwa_text": "Configurare Flarum per funzionare come una Progressive Web App, installabile su dispositivi mobili."
             },
             "pwa": {
                 "about": {
-                    "description_text": "",
-                    "long_name_text": "",
-                    "heading": "",
-                    "short_name_text": ""
+                    "description_text": "Puoi impostare la descrizione nella pagina 'Basics' nella tua dashboard di amministrazione.",
+                    "long_name_text": "Il nome dell'applicazione web visualizzata all'utente.",
+                    "heading": "Informazioni su",
+                    "short_name_text": "Il nome dell'applicazione visualizzato all'utente se non c'è abbastanza spazio per il nome lungo."
                 },
                 "colors": {
-                    "heading": "",
-                    "background_color_text": "",
-                    "theme_color_text": ""
+                    "heading": "Colori",
+                    "background_color_text": "Questo è usato come colore segnaposto per lo splash screen che viene visualizzato mentre il vostro PWA viene caricato. Non viene utilizzato quando l'app viene effettivamente caricata.",
+                    "theme_color_text": "Questo colore è talvolta utilizzato dai dispositivi quando visualizzano la tua app, per esempio sul task switcher di Android, come il colore che circonda il sito."
                 },
                 "maintenance": {
-                    "heading": "",
-                    "debug_label": ""
+                    "heading": "Manutenzione",
+                    "debug_label": "Modalità di debug? Questo registrerà le informazioni sulle notifiche in `storage/logs`."
                 },
                 "other": {
-                    "heading": "",
-                    "force_portrait_text": ""
+                    "heading": "Altro",
+                    "force_portrait_text": "Forzare l'orientamento in modalità portrait?"
                 },
-                "heading": "",
-                "text": "",
-                "status_check_heading": "",
-                "logo_heading": "",
-                "logo_text": "",
-                "logo_size_text": "",
-                "submit_button": "",
-                "refreshed_message": ""
+                "heading": "Configurazione dell' App Web Progressiva",
+                "text": "Configura il tuo sito Flarum per funzionare come una web app progressiva! Ti preghiamo di notare che questo non mette automaticamente il tuo sito nell'app store. Invece, questo significa che gli utenti hanno un'opzione 'Add to Homescreen' per il tuo sito. Forniamo alcuni controlli di stato, tuttavia, il modo migliore per testarlo è provare ad installarlo (cerca su Google le istruzioni su come installare le progressive web apps). Inoltre, considerate che i popup 'installa questa PWA' sono controllati dai browser, e non possono essere attivati da sviluppatori/amministratori/programmi. Vi consiglio di includere le istruzioni su come installare una PWA nella documentazione del vostro sito.",
+                "status_check_heading": "Controllo dello stato",
+                "logo_heading": "Loghi e icone",
+                "logo_text": "Devi caricare almeno un logo perché la tua app web progressiva sia installabile. Nota che tutti i loghi devono essere quadrati; se non lo sono, saranno ridimensionati e possibilmente allungati.\n\nCi sono un certo numero di opzioni di dimensioni disponibili qui sotto. Consiglio di provare a caricare un logo nel maggior numero possibile: questo supporta più dispositivi.\n\nTi preghiamo di notare che puoi caricare 1 logo grande per gli input per i loghi più piccoli. Per esempio, puoi caricare un logo di 1000px per 1000px in TUTTI gli input di file qui sotto. Tuttavia, se provi a caricare un logo di 50px per 50px nell'input 512x512, sarà molto allungato.\n",
+                "logo_size_text": "Carica un logo che sarà scalato alla dimensione di {size} pixel per {size} pixel.",
+                "submit_button": "Salva impostazioni",
+                "refreshed_message": "La configurazione del PWA è stata aggiornata con successo."
             },
             "status": {
-                "config_no_https": "",
-                "possible_https_disabled": "",
-                "no_logo": "",
-                "no_name": "",
-                "key_gen_failed": "",
-                "suggest_gmp": "",
-                "success": ""
+                "config_no_https": "L'url nel tuo file config.php non sta usando HTTPS. HTTPS è richiesto per il funzionamento delle Progressive Web Apps.",
+                "possible_https_disabled": "Il tuo sito potrebbe non funzionare su HTTPS. Cancellando il cache (pagina del cruscotto di amministrazione => pulsante strumenti) potrebbe aiutare. Se lo è, ignora questo. Se non lo è, tieni presente che HTTPS è richiesto per il funzionamento delle Progressive Web Apps.",
+                "no_logo": "Devi caricare almeno un logo, con una dimensione di almeno 196px perché la tua app funzioni.",
+                "no_name": "Devi fornire un nome completo perché la tua app funzioni.",
+                "key_gen_failed": "La generazione delle chiavi necessarie per le notifiche push è fallita. Il messaggio di errore completo è stato: {error}",
+                "suggest_gmp": "L'estensione gmp PHP non sembra essere abilitata sul tuo server. Non è strettamente necessaria, ma può migliorare le prestazioni ed è raccomandata. Alcuni host condivisi potrebbero però non supportarla.",
+                "success": "Nessun problema potenziale trovato!"
             }
         },
         "forum": {
             "alerts": {
-                "optin": "",
-                "optin_button": ""
+                "optin": "Hai abilitato le notifiche push, ma non hai configurato questo dispositivo.",
+                "optin_button": "Configura"
             },
             "discussion_controls": {
-                "share_button": ""
+                "share_button": "Condividere"
             },
             "post_controls": {
-                "share_button": "",
+                "share_button": "Condividere",
                 "share_api": {
-                    "title": ""
+                    "title": "Risposta di {username} a {title}"
                 }
             },
             "user_controls": {
-                "share_button": ""
+                "share_button": "Condividere"
             },
             "settings": {
-                "push_header": "",
+                "push_header": "Spingere",
                 "pwa_notifications": {
-                    "access_default": "",
+                    "access_default": "A causa delle restrizioni del browser, è necessario scegliere di ricevere le notifiche push su questo dispositivo.",
                     "access_default_button": "",
                     "access_denied": "",
                     "access_denied_button": "",

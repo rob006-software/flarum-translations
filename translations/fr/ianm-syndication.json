@@ -1,0 +1,42 @@
+{
+    "ianm-syndication": {
+        "forum": {
+            "autodiscovery": {
+                "forum_activity": "Activité du forum",
+                "forum_new_discussions": "Nouvelles discussions du forum",
+                "tag_activity": "Activité sous l'étiquette {tag}",
+                "tag_new_discussions": "Discussions sous l'étiquette {tag}",
+                "discussion_last_posts": "Cette discussion"
+            },
+            "feeds": {
+                "titles": {
+                    "main_title": "{forum_name}",
+                    "main_subtitle": "Derniers messages sur le forum",
+                    "main_d_title": "Nouvelles discussions dans {forum_name}",
+                    "main_d_subtitle": "Les dernières discussions du forum",
+                    "tag_title": "Activité sous l'étiquette {tag}",
+                    "tag_subtitle": "Derniers messages sous l'étiquette {tag}",
+                    "tag_d_title": "Nouvelles discussions sous l'étiquette {tag}",
+                    "tag_d_subtitle": "Les dernières discussions sous l'étiquette {tag}",
+                    "discussion_title": "{discussion_name}",
+                    "discussion_subtitle": "Derniers messages de cette discussion"
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "full-text": {
+                    "label": "Flux de texte intégral",
+                    "help": "Si cette option est désactivée, les flux ne contiendront que des extraits de messages et les utilisateurs devront se rendre sur le forum lire leur intégralité.",
+                    "recommendation": "Nous recommandons de laisser cette option active pour respecter les personnes qui suivent le forum depuis un agrégateur RSS — si tel est le cas."
+                },
+                "html": {
+                    "label": "Flux formatés",
+                    "help": "Cochez cette case pour conserver le HTML dans les flux générés. Si désactivée, les flux seront en texte brut."
+                },
+                "entries-count": "Combien d'entrées par flux ?",
+                "title": "Paramètres de syndication"
+            }
+        }
+    }
+}

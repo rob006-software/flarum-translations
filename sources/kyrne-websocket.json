@@ -2,10 +2,16 @@
     "kyrne-websocket": {
         "forum": {
             "discussion_list": {
-                "show_updates_text": "Show {count} updated discussion|Show {count} updated discussions"
+                "show_updates_text": "{count, plural, one {Show # updated discussion} other {Show # updated discussions}}"
+            },
+            "discussion_page": {
+                "viewing_title": "Here now:"
             }
         },
         "admin": {
+            "chart": {
+                "title": "Websocket Statistics"
+            },
             "pusher_settings": {
                 "local_cert_path": "Local SSL Certificate Path",
                 "local_pk_path": "Local SSL Private Key Path",
@@ -17,18 +23,20 @@
                 "auto_update": "Auto Update Discussions",
                 "app_key_label": "App Key",
                 "app_secret_label": "App Secret",
+                "stats_label": "Statistics Interval",
                 "secure": "Force wss/https for Websocket",
                 "title": "Websocket/Pusher Settings",
                 "reverse_proxy": "Reverse Proxy Support",
                 "auth_only": "Websocket for Logged in Users Only"
             },
             "help": {
+                "stats": "The time between statistics saves - in seconds. Recommended between 3600 (1 hour) and 21600 (6 hours) Default: 7200.",
                 "auto_update": "Don't show the yellow update banner, immediately update the discussion list.",
                 "app_id": "Pusher App ID - leave as is if using built-in websocket server.",
                 "app_key": "Pusher App Key - leave as is if using built-in websocket server.",
                 "secret": "Pusher App Secret - leave as is if using built-in websocket server.",
                 "secure": "Force the websocket to use secure protocols - Enable this if you are using a secure websocket server but not website.",
-                "host": "Host of your websocket server - leave as is if the server is the same host as your forum.",
+                "host": "Host of your websocket server - leave as is if the server is the same host as your admin.",
                 "reverse_proxy": "Websockets will connect over port 443 when this is enabled - Use this if you are using a reverse proxy from port 443 to your websocket server.",
                 "port": "Port of your websocket server - leave as is if you don't change the build in server port.",
                 "cert_path": "Only needed if using ssl and NOT reverse proxy. Path to your SSL (https) certificate ON THE SERVER your websocket server is on - usually a .crt or .pem file.",

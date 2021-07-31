@@ -1,0 +1,50 @@
+{
+    "migratetoflarum-fake-data": {
+        "admin": {
+            "generator": {
+                "bulk-mode": "=> migratetoflarum-fake-data.ref.bulk-mode",
+                "bulk-mode-description": "=> migratetoflarum-fake-data.ref.bulk-mode-description",
+                "user-count": "=> migratetoflarum-fake-data.ref.user-count",
+                "discussion-count": "",
+                "discussion-tags": "",
+                "discussion-tags-none": "",
+                "discussion-tags-random": "",
+                "post-count": "=> migratetoflarum-fake-data.ref.post-count",
+                "date": "=> migratetoflarum-fake-data.ref.date",
+                "date-start-placeholder": "=> migratetoflarum-fake-data.ref.date-start-placeholder",
+                "date-interval-placeholder": "=> migratetoflarum-fake-data.ref.date-interval-placeholder",
+                "send": "=> migratetoflarum-fake-data.ref.send"
+            }
+        },
+        "forum": {
+            "link": {
+                "generate-replies": ""
+            },
+            "generator": {
+                "title": "",
+                "bulk-mode": "=> migratetoflarum-fake-data.ref.bulk-mode",
+                "bulk-mode-description": "=> migratetoflarum-fake-data.ref.bulk-mode-description",
+                "user-count": "=> migratetoflarum-fake-data.ref.user-count",
+                "post-count": "=> migratetoflarum-fake-data.ref.post-count",
+                "date": "=> migratetoflarum-fake-data.ref.date",
+                "date-start-placeholder": "=> migratetoflarum-fake-data.ref.date-start-placeholder",
+                "date-interval-placeholder": "=> migratetoflarum-fake-data.ref.date-interval-placeholder",
+                "send": "=> migratetoflarum-fake-data.ref.send"
+            }
+        },
+        "api": {
+            "no-users-matched": "",
+            "no-discussions-matched": ""
+        },
+        "ref": {
+            "bulk-mode": "",
+            "bulk-mode-description": "",
+            "user-count": "",
+            "post-count": "",
+            "date": "",
+            "date-start-placeholder": "",
+            "date-interval-placeholder": "",
+            "send": ""
+        }
+    }
+}

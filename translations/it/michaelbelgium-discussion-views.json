@@ -12,7 +12,7 @@
             "modal_resetviews": {
                 "title": "Reimposta conteggio visualizzazioni",
                 "submit_button": "Si, rimuovi tutto",
-                "label": "Questo comando rimuoverà {count} visita da questa discussione. Continuare?|Questo comando rimuoverà {count} visite da questa discussione. Continuare?"
+                "label": "{count, plural, one {Questo comando rimuoverà {count} visita dalla discussione. Continuare?} other {Questo comando rimuoverà {count} visite dalla discussione. Continuare?}}"
             },
             "discussion_controls": {
                 "resetviews_button": "Resetta Visite"
@@ -27,7 +27,7 @@
                 "view_number_label": "Visualizzare conteggio visite delle discussioni"
             },
             "settings": {
-                "title": "Impostazioni Discussion views",
+                "title": "Impostazioni visite Discussione",
                 "track_unique_label": "Traccia visualizzazioni uniche",
                 "abbr_numbers_label": "Abbrevia numeri di visualizzazione",
                 "show_filter_label": "Abilita campi di ordinamento Popolare/Meno Popolare",

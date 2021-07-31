@@ -1,0 +1,24 @@
+{
+    "fof-split": {
+        "admin": {
+            "permissions": {
+                "split_discussion_label": "Hozzászólás leválasztása a beszélgetésről"
+            }
+        },
+        "forum": {
+            "post": {
+                "was_split_to": "{count} hozzászólás leválasztásra került ettől: {target}",
+                "was_split_from": "{count} hozzászólás leválasztásra került ettől: {target}"
+            },
+            "split": {
+                "from": "Leválasztás innen",
+                "to": "Leválasztás ide"
+            },
+            "modal": {
+                "title": "Beszélgetés szétválasztása",
+                "new_discussion_label": "Add meg az új beszélgetés címét",
+                "submit_button": "Szétválasztás"
+            }
+        }
+    }
+}

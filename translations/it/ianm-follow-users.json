@@ -6,11 +6,14 @@
             }
         },
         "forum": {
-            "profile_link": "",
+            "profile_link": "=> ianm-follow-users.lib.following_link",
+            "profile_page": {
+                "no_following": "Sembra che tu non stia seguendo nessuno."
+            },
             "user_controls": {
-                "follow_button": "Segui",
-                "follow_confirmation": "Sei sicuro di voler seguire questo utente?",
+                "follow_button": "=> ianm-follow-users.lib.follow",
                 "unfollow_button": "Non seguire più",
+                "follow_confirmation": "Sei sicuro di voler seguire questo utente?",
                 "unfollow_confirmation": "Sei sicuro di non voler più seguire questo utente?"
             },
             "settings": {
@@ -31,10 +34,25 @@
                 "new_unfollower_text": "{username} ha smesso di seguirti"
             },
             "badge": {
-                "label": "Utente seguito"
+                "label": {
+                    "follow": "Discussioni seguite",
+                    "lurk": "Segui tutte"
+                }
             },
             "filter": {
-                "following": ""
+                "following": "Utenti Seguiti"
+            },
+            "modals": {
+                "select_follow_level": {
+                    "title": "Seleziona il livello di follow per {username}",
+                    "description": "Scegli come desideri seguire <em>{username}</em>.",
+                    "follow_levels_heading": "Livelli",
+                    "follow_select_label": "Tipo di Follow",
+                    "no_user_attr_provided_err": "Uh oh, qualcosa è andato storto durante l'apertura di questo modale.",
+                    "no_user_attr_provided_err_debug": "Nessun attributo \"utente\" è stato passato al modale SelectFollowUserLevel al momento della creazione. Non è possibile eseguire il rendering modale.",
+                    "save_btn": "Salva",
+                    "cancel_btn": "Cancella"
+                }
             }
         },
         "email": {
@@ -46,7 +64,23 @@
             "new_post_body": "Ciao {recipient_display_name}!\n\n{user_display_name} ha commentato in una discussione: {discussion_title}\n\nPer visualizzare la nuova attività, apri il seguente link:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nNon riceverai altre notifiche su questa discussione finché l'avrai visualizzata.\n"
         },
         "lib": {
-            "following_link": "Utenti seguiti"
+            "following_link": "Utenti seguiti",
+            "follow": "Segui",
+            "change_follow_type": "Cambia tipo Follow",
+            "follow_levels": {
+                "unfollow": {
+                    "name": "Non Seguire",
+                    "description": "Non ricevere notifiche per l'attività di <em>{username}</em>.\n"
+                },
+                "follow": {
+                    "name": "",
+                    "description": ""
+                },
+                "lurk": {
+                    "name": "",
+                    "description": ""
+                }
+            }
         }
     }
 }

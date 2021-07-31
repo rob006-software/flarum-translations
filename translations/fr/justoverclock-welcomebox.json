@@ -1,14 +1,21 @@
 {
     "flarum-ext-welcomebox": {
         "forum": {
-            "wback": "",
-            "npost": "",
-            "discussion": "",
-            "welcomeguest": "",
-            "notregistered": ""
+            "wback": "Content de vous revoir,",
+            "npost": "=> core.ref.posts",
+            "discussion": "=> core.ref.discussions",
+            "welcomeguest": "Bienvenue invité",
+            "notregistered": "Vous n'êtes actuellement pas inscrit à ce forum.",
+            "goToProfile": "Profil",
+            "SettingsLink": "Paramètres",
+            "tooltipProfile": "Profil",
+            "tooltipMentions": "Mentions",
+            "tooltipDisclist": "Ma liste de discussions"
         },
         "admin": {
-            "enablepostbox": ""
+            "enablepostbox": "Activer la zone de bienvenue pour les invités",
+            "img": "",
+            "img-help": ""
         }
     }
 }

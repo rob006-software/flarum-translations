@@ -1,0 +1,42 @@
+{
+    "ianm-syndication": {
+        "forum": {
+            "autodiscovery": {
+                "forum_activity": "フォーラムのアクティビティ",
+                "forum_new_discussions": "フォーラムの新しいスレッド",
+                "tag_activity": "{tag} タグの活動",
+                "tag_new_discussions": "{tag} タグの新しいスレッド",
+                "discussion_last_posts": "ディスカッションの最後の返信"
+            },
+            "feeds": {
+                "titles": {
+                    "main_title": "{forum_name}",
+                    "main_subtitle": "フォーラムの最新の投稿",
+                    "main_d_title": "{forum_name} の新しいスレッド",
+                    "main_d_subtitle": "フォーラムの新しいスレッド",
+                    "tag_title": "{tag} タグのアクティビティ",
+                    "tag_subtitle": "{tag} タグの新しい返信",
+                    "tag_d_title": "{tag} タグの新しいスレッド",
+                    "tag_d_subtitle": "{tag} タグの新しいスレッド",
+                    "discussion_title": "{discussion_name}",
+                    "discussion_subtitle": "このスレッドの最新の返信"
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "full-text": {
+                    "label": "全文出力",
+                    "help": "無効にすると、フィードには投稿の要約だけが含まれます。すべての内容を確認したい場合は、フォーラムにアクセスしなければなりません。",
+                    "recommendation": "このオプションは、RSSアグリゲーターを使用するユーザーを尊重するために推奨されます。"
+                },
+                "html": {
+                    "label": "フォーマットされたフィード",
+                    "help": "HTMLコンテンツを保持するには、このオプションをオンにします。 無効にすると、フィードはプレーンテキストで表示されます。"
+                },
+                "entries-count": "フィードのエントリ数をいくつにしますか？",
+                "title": "購読ソース設定"
+            }
+        }
+    }
+}

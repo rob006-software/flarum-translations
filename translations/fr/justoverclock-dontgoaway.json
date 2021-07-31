@@ -1,27 +1,27 @@
 {
     "flarum-ext-dontgoaway": {
         "admin": {
-            "modtitle": "",
-            "modtitledesc": "",
-            "modtext": "",
-            "modtextdesc": "",
-            "urltext": "",
-            "urltextdesc": "",
-            "widthtext": "",
-            "widthdesc": "",
-            "heightext": "",
-            "heightdesc": "",
-            "altext": "",
-            "altdesc": "",
-            "btn": "",
-            "btndesc": "",
-            "enableExtLink": ""
+            "modtitle": "Titre de la fenêtre",
+            "modtitledesc": "Personnaliser le titre de la fenêtre intruse",
+            "modtext": "Texte de la fenêtre",
+            "modtextdesc": "Vous pouvez personnaliser ici le texte de votre fenêtre intruse.",
+            "urltext": "URL de votre image personnalisée",
+            "urltextdesc": "Collez ici l'URL de votre image personnalisée",
+            "widthtext": "Largeur de l'image",
+            "widthdesc": "Définissez la largeur de votre image (par exemple 450)",
+            "heightext": "Hauteur de l'image",
+            "heightdesc": "Définissez la hauteur de votre image (par exemple 450)",
+            "altext": "Attributs alternatifs de l'image",
+            "altdesc": "Définissez les attributs alternatifs de votre image",
+            "btn": "Personnalisez le bouton. Exemple de syntaxe dans le paramètre fictif",
+            "btndesc": "Vous pouvez paramétrer le texte et l'icône de Font Awesome du bouton",
+            "enableExtLink": "Activer la fenêtre intruse sur un lien externe"
         },
         "forum": {
-            "extlinktitle": "",
-            "extlinktext": "",
-            "confbutton": "",
-            "cancelbutton": ""
+            "extlinktitle": "Lien externe",
+            "extlinktext": "Vous quittez le site en cliquant sur un lien externe",
+            "confbutton": "Poursuivre",
+            "cancelbutton": "Restez ici !"
         }
     }
 }

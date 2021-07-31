@@ -5,11 +5,11 @@
             "new_achievement_title": "Nuovo traguardo!",
             "new_achievement_name": "Traguardo",
             "new_achievement_close": "Ricevi Premio!",
-            "list_heading": "",
-            "achievement_total_points": "",
-            "your_achievements": "",
-            "other_achievements": "",
-            "hidden_achievements": ""
+            "list_heading": "Traguardi",
+            "achievement_total_points": "Totali",
+            "your_achievements": "I tuoi traguardi",
+            "other_achievements": "Altri Traguardi",
+            "hidden_achievements": "Traguardi nascosti"
         },
         "admin": {
             "achievement_modal": {
@@ -17,7 +17,7 @@
                 "name_label": "Nome",
                 "name_placeholder": "Nome Traguardo",
                 "active_label": "Attivo",
-                "hidden_label": "",
+                "hidden_label": "Nascondi dalla lista traguardi",
                 "description_label": "Descrizione",
                 "description_placeholder": "Descrizione Traguardo",
                 "variable_label": "{",
@@ -57,16 +57,16 @@
                     "tagposts": "Post in un Tag"
                 },
                 "tooltip": {
-                    "posts": "",
-                    "likes": "",
-                    "selflikes": "",
-                    "discussions": "",
-                    "edits": "",
-                    "contains": "",
-                    "comments": "",
-                    "years": "",
-                    "meanwords": "",
-                    "tagposts": ""
+                    "posts": "Numero minimo di post (es 10) o inclusivo (es 10,19)",
+                    "likes": "Numero minimo di Mi piace dati (es. 10) o range inclusivo (es. 10,19)",
+                    "selflikes": "Numero minimo di like ricevuti (es. 10) o range inclusivo (es. 10,19)",
+                    "discussions": "Numero minimo di discussioni create (es. 10) o range inclusivo (es. 10,19)",
+                    "edits": "Numero minimo di post modificati (es. 10) o range inclusivo (es. 10,19)",
+                    "contains": "Parola o parole e numero minimo di post che la contengono (es. pollo,10) o intervallo inclusivo (es. pollo,10,19)",
+                    "comments": "Numero minimo di risposte ricevute in una discussione (es. 10) o range inclusivo (es. 10,19)",
+                    "years": "Numero minimo di anni registrati (es. 10) o range inclusivo (es. 10,19)",
+                    "meanwords": "Parola da cercare e numero minimo di presenze medie (es. pollo,10) o range inclusivo (es. pollo,10,19)",
+                    "tagposts": "Slug del tag da cercare e numero minimo di post (es. off-topic,10) o range inclusivo (es. off-topic,10,19)"
                 }
             },
             "achievements_page": {
@@ -74,7 +74,12 @@
                 "create_achievement_button": "Crea Nuovo Traguardo",
                 "instructions_header": "Istruzioni",
                 "instructions_text": "<li>Per creare un traguardo, devi assegnargli un nome.</li>\n<li>La descrizione è opzionale.</li>\n <li>Scegli la variabile che desideri calcolare per questo risultato dall'elenco.</li>\n <li>Introdurre la soglia per l'attivazione dell'obiettivo. Puoi inserire due numeri separati da una virgola (,) per indicare una soglia minima e una soglia massima (entrambi i numeri sono inclusi).</li>\n <li>I risultati con due soglie verranno rimossi se il conteggio è oltre la soglia superiore.</li>\n <li>Per la variabile \"Il messaggio contiene\", è necessario introdurre la parola specificata e quindi la soglia, separate da una virgola (es. \"spinaci,5\" o \"spinaci,5,10\" per soglia minima e massima.)</li>\n <li>Introduci l'URL dell'immagine con l'icona da utilizzare per questo traguardo.</li>\n <li>Introduci la larghezza e l'altezza dell'icona.</li>\n <li>Facoltativo: se l'immagine ha più di un'icona per svariati traguardi, puoi selezionare quale riga e colonna mostrare per l'icona.</li>\n",
-                "add_delete_users": "Aggiungi/Rimuovi traguardo da utente"
+                "add_delete_users": "Aggiungi/Rimuovi traguardo da utente",
+                "show": "Mostra lista traguardi su:"
+            },
+            "settings": {
+                "show-post-footer": "Ogni post",
+                "show-user-card": "Card Profilo Utente"
             }
         }
     }

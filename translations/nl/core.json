@@ -147,8 +147,8 @@
                 "email_title": "=> core.admin.email.description",
                 "permissions_button": "=> core.admin.permissions.title",
                 "permissions_title": "=> core.admin.permissions.description",
-                "userlist_button": "",
-                "userlist_title": "",
+                "userlist_button": "=> core.admin.users.title",
+                "userlist_title": "=> core.admin.users.description",
                 "search_placeholder": "Extensies zoeken"
             },
             "permissions": {
@@ -172,18 +172,18 @@
                 "read_heading": "Lezen",
                 "rename_discussions_label": "Discussies hernoemen",
                 "reply_to_discussions_label": "Reageren op discussies",
-                "search_users_label": "",
+                "search_users_label": "Gebruikers zoeken",
                 "sign_up_label": "Registreren",
                 "start_discussions_label": "Start discussies",
                 "title": "Permissies",
-                "view_forum_label": "",
+                "view_forum_label": "Bekijk forum (discussies en gebruikers)",
                 "view_hidden_groups_label": "Bekijk verborgen groepsbadges",
                 "view_last_seen_at_label": "Bekijk gebruiker laatst gezien",
                 "view_post_ips_label": "Bekijk IP adressen van bericht"
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Voor onbepaalde tijd",
-                "allow_some_minutes_button": "Voor {count} minuut|Voor {count} minuten",
+                "allow_some_minutes_button": "{count, plural, one {Voor # minuut} other {Voor # minuten}}",
                 "allow_ten_minutes_button": "Voor 10 minuten",
                 "allow_until_reply_button": "Tot de volgende reactie",
                 "everyone_button": "Iedereen",
@@ -200,43 +200,43 @@
                 "upload_button": "Afbeelding kiezen..."
             },
             "users": {
-                "description": "",
+                "description": "Een gepagineerde lijst van alle gebruikers op je forum.",
                 "grid": {
                     "columns": {
                         "edit_user": {
-                            "button": "",
-                            "title": "",
-                            "tooltip": ""
+                            "button": "=> core.ref.edit",
+                            "title": "=> core.ref.edit_user",
+                            "tooltip": "{username} wijzigen"
                         },
                         "email": {
-                            "title": "",
-                            "visibility_hide": "",
-                            "visibility_show": ""
+                            "title": "=> core.ref.email",
+                            "visibility_hide": "E-mailadres verbergen",
+                            "visibility_show": "Toon e-mailadres"
                         },
                         "group_badges": {
-                            "no_badges": "",
-                            "title": ""
+                            "no_badges": "Geen",
+                            "title": "Groepen"
                         },
                         "join_time": {
-                            "title": ""
+                            "title": "Aangesloten"
                         },
                         "user_id": {
-                            "title": ""
+                            "title": "ID"
                         },
                         "username": {
-                            "profile_link_tooltip": "",
-                            "title": ""
+                            "profile_link_tooltip": "Bezoek het profiel van {username}",
+                            "title": "=> core.ref.username"
                         }
                     },
-                    "invalid_column_content": ""
+                    "invalid_column_content": "Ongeldig"
                 },
                 "pagination": {
-                    "back_button": "",
-                    "next_button": "",
-                    "page_counter": ""
+                    "back_button": "Vorige pagina",
+                    "next_button": "Volgende pagina",
+                    "page_counter": "Pagina {current} van {total}"
                 },
-                "title": "",
-                "total_users": ""
+                "title": "=> core.ref.users",
+                "total_users": "Aantal gebruikers: {count}"
             }
         },
         "forum": {
@@ -376,7 +376,7 @@
                 "now_link": "Nu",
                 "original_post_link": "Origineel bericht",
                 "unread_text": "{count} ongelezen",
-                "viewing_text": "{index} van {count} bericht|{index} van {count} berichten"
+                "viewing_text": "{count, plural, one {{index} van {formattedCount} bericht} other {{index} van {formattedCount} berichten}}"
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "De titel was: \"{old}\"",
@@ -452,17 +452,17 @@
                 "toggle_dropdown_accessible_label": "Toggle menu"
             },
             "edit_user": {
-                "activate_button": "",
-                "email_heading": "",
-                "email_label": "",
-                "groups_heading": "",
-                "password_heading": "",
-                "password_label": "",
-                "set_password_label": "",
-                "submit_button": "",
-                "title": "",
-                "username_heading": "",
-                "username_label": ""
+                "activate_button": "Activeer gebruiker",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "Groepen",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "Nieuw wachtwoord instellen",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.edit_user",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username"
             },
             "error": {
                 "dependent_extensions_message": "Kan {extension} pas uitschakelen als de volgende afhankelijke extensies zijn uitgeschakeld: {extensions}",
@@ -473,7 +473,7 @@
                 "rate_limit_exceeded_message": "Je gaat een beetje te snel. Probeer het over een paar seconden nog eens."
             },
             "loading_indicator": {
-                "accessible_label": ""
+                "accessible_label": "=> core.ref.loading"
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -492,7 +492,7 @@
             "content": {
                 "javascript_disabled_message": "Deze website werkt het beste in een moderne browser met JavaScript ingeschakeld.",
                 "load_error_message": "Er is iets misgegaan bij het laden van de volledige versie van deze website.",
-                "loading_text": "Laden..."
+                "loading_text": "=> core.ref.loading"
             },
             "discussion": {
                 "next_page_button": "=> core.ref.next_page",
@@ -561,12 +561,12 @@
             "delete_forever": "Permanent verwijderen",
             "discussions": "Discussies",
             "edit": "Bewerken",
-            "edit_user": "",
+            "edit_user": "Wijzig gebruiker",
             "email": "E-mail",
             "icon": "Icoon",
             "icon_text": "Kies een <a>FontAwesome</a> icon class, <em>zonder</em> de <code>fa-</code> prefix.",
             "load_more": "Meer laden",
-            "loading": "",
+            "loading": "Laden...",
             "log_in": "Inloggen",
             "log_out": "Uitloggen",
             "mark_all_as_read": "Alles als gelezen markeren",
@@ -584,7 +584,7 @@
             "save_changes": "Wijzigingen opslaan",
             "settings": "Instellingen",
             "sign_up": "Registreren",
-            "some_others": "{count} ander|{count} andere",
+            "some_others": "{count, plural, one {# ander} other {# andere}}",
             "start_a_discussion": "Start een discussie",
             "username": "Gebruikersnaam",
             "users": "Gebruikers",

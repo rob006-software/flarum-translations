@@ -2,13 +2,20 @@
     "flarum-ext-welcomebox": {
         "forum": {
             "wback": "Welcome back,",
-            "npost": "=> core.forum.user.posts_link",
-            "discussion": "=> core.forum.user.discussions_link",
+            "npost": "=> core.ref.posts",
+            "discussion": "=> core.ref.discussions",
             "welcomeguest": "Welcome Guest",
-            "notregistered": "You are currently not registered to this forum."
+            "notregistered": "You are currently not registered to this forum.",
+            "goToProfile": "Profile",
+            "SettingsLink": "Settings",
+            "tooltipProfile": "Profile",
+            "tooltipMentions": "Mentions",
+            "tooltipDisclist": "My Discussion List"
         },
         "admin": {
-            "enablepostbox": "Enable Welcome Box for guest"
+            "enablepostbox": "Enable Welcome Box for guest",
+            "img": "Image url (Guest Box)",
+            "img-help": "put here the url of image for guest box"
         }
     }
 }

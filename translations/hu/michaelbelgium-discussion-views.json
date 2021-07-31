@@ -1,0 +1,39 @@
+{
+    "core": {
+        "forum": {
+            "index_sort": {
+                "popular_button": "Népszerű",
+                "unpopular_button": "Nem népszerű"
+            }
+        }
+    },
+    "michaelbelgium-discussion-views": {
+        "forum": {
+            "modal_resetviews": {
+                "title": "Nézettség nullázása",
+                "submit_button": "Igen, mindent eltávolít",
+                "label": "Eltávolítunk {count} nézettséget a beszélgetésből. Folytatod?"
+            },
+            "discussion_controls": {
+                "resetviews_button": "Nézettség visszaállítása"
+            },
+            "viewlist": {
+                "title": "Legfrissebb nézők"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "reset_views_label": "A beszélgetés nézettségének visszaállítása",
+                "view_number_label": "Nézettség megtekintése"
+            },
+            "settings": {
+                "title": "Nézettség beállítások",
+                "track_unique_label": "Egyedi nézetek követése",
+                "abbr_numbers_label": "Rövidítse a nézetek számát",
+                "show_filter_label": "A népszerű rendezés bekapcsolása",
+                "max_viewcount_label": "Maximális megtekintési lista elemek",
+                "show_viewlist_label": "Nézettségi lista bekapcsolása"
+            }
+        }
+    }
+}

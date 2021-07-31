@@ -1,46 +1,46 @@
 {
     "clarkwinkelmann-group-invitation": {
         "forum": {
-            "title": "",
-            "generic-title": "",
+            "title": "Vous avez été invité à rejoindre le groupe {group} !",
+            "generic-title": "Invitation de groupe",
             "user": {
-                "already-connected": "",
-                "not-connected": "",
-                "not-authorized": "",
-                "already-member": ""
+                "already-connected": "Nous allons ajouter le groupe {group} à {username}. Ce n'est pas le bon utilisateur ? <a>Connectez-vous sur un autre compte</a>.\n",
+                "not-connected": "<a>Se connecter</a> pour accepter l'invitation.",
+                "not-authorized": "Votre utilisateur actuel {username} n'a pas l'autorisation de rejoindre des groupes. <a>Connectez-vous sur un autre compte</a>.",
+                "already-member": "Bonne nouvelle, votre utilisateur {username} est déjà membre du groupe {group} ! Vous voulez rejoindre le groupe avec un autre utilisateur ? <a>Connectez-vous sur un autre compte</a>.\n"
             },
             "invitation": {
-                "not-found": "",
-                "no-usages-left": ""
+                "not-found": "Désolé, cette invitation de groupe est introuvable.",
+                "no-usages-left": "Cette invitation de groupe ne peut plus être utilisée."
             },
-            "apply": "",
-            "success-alert": ""
+            "apply": "Rejoindre le groupe",
+            "success-alert": "Vous avez rejoint le groupe !"
         },
         "admin": {
             "permissions": {
-                "use": ""
+                "use": "Utiliser des liens d'invitation de groupe"
             },
             "settings": {
                 "head": {
-                    "code": "",
-                    "group": "",
-                    "usage": ""
+                    "code": "Code",
+                    "group": "Groupe",
+                    "usage": "Utilisation"
                 },
                 "placeholder": {
-                    "code": "",
-                    "group": "",
-                    "usage": ""
+                    "code": "Généré automatiquement",
+                    "group": "Sélectionner...",
+                    "usage": "Vide pour un nombre illimité"
                 },
-                "empty": "",
-                "unlimited": "",
-                "create": "",
-                "delete": ""
+                "empty": "Aucune invitation n'a été créée jusqu'à présent.",
+                "unlimited": "illimité",
+                "create": "Créer",
+                "delete": "Supprimer"
             }
         },
         "api": {
             "error": {
-                "not-found": "",
-                "no-usages-left": ""
+                "not-found": "Code d'invitation introuvable",
+                "no-usages-left": "L'invitation ne peut plus être utilisée"
             }
         }
     }

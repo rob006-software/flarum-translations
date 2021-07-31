@@ -2,24 +2,24 @@
     "miniflar-sidenav-download-button": {
         "admin": {
             "permissions": {
-                "view_download_button_label": ""
+                "view_download_button_label": "Afficher le bouton de téléchargement sur la navigation latérale"
             },
             "settings": {
                 "labels": {
-                    "add_separator": ""
+                    "add_separator": "Ajouter un séparateur ?"
                 },
-                "button_order_heading": "",
-                "button_order_text": "",
-                "separator_order_heading": "",
-                "separator_order_text": "",
-                "button_link_heading": "",
-                "button_link_text": "",
-                "enter_link_message": ""
+                "button_order_heading": "Ordre des boutons",
+                "button_order_text": "Modifiez ce paramètre pour ajuster la position de ce widget dans la navigation latérale de votre forum Flarum. Plus le nombre est élevé, plus ce widget sera haut dans la liste des éléments de la navigation latérale (cette valeur peut être positive ou négative).",
+                "separator_order_heading": "Ordre des séparateurs",
+                "separator_order_text": "Modifiez ce paramètre pour ajuster la position du séparateur pour ce widget sur la navigation latérale de votre forum Flarum. Plus le nombre est élevé, plus le séparateur sera haut dans la liste des éléments de la navigation latérale (cette valeur peut être positive ou négative).",
+                "button_link_heading": "Lien de téléchargement",
+                "button_link_text": "Saisissez une URL valide (par exemple https://exemple.com).",
+                "enter_link_message": "Veuillez saisir une URL valide."
             }
         },
         "forum": {
             "index": {
-                "download_button": ""
+                "download_button": "Télécharger"
             }
         }
     }

@@ -7,46 +7,62 @@
                     "callback_url_text": "",
                     "discord": {
                         "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
                     "facebook": {
-                        "description": "",
-                        "app_id_label": "",
-                        "app_secret_label": ""
+                        "description": "{link} හි යෙදුමක් සාදන්න.",
+                        "app_id_label": "=> fof-oauth.ref.settings.app_id",
+                        "app_secret_label": "=> fof-oauth.ref.settings.app_secret"
                     },
                     "github": {
                         "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
                     "gitlab": {
                         "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": "",
-                        "domain_label": ""
+                        "client_id_label": "=> fof-oauth.ref.settings.app_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.app_secret",
+                        "domain_label": "ගිට්ලැබ් වසම"
                     },
                     "twitter": {
                         "description": "",
-                        "api_key_label": "",
-                        "api_secret_label": ""
+                        "api_key_label": "යෙ.ක්‍ර. අ.මු. (API) යතුර",
+                        "api_secret_label": "යෙ.ක්‍ර. අ.මු. (API) රහස"
                     },
                     "google": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "description": "{link} හි යෙදුමක් සාදන්න.",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
                     "linkedin": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "description": "{link} හි යෙදුමක් සාදන්න.",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_button": ""
+                "with_button": "{provider} සමග පිවිසෙන්න",
+                "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_github_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_gitlab_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_google_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_linkedin_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_twitter_button": "=> fof-oauth.forum.log_in.with_button"
+            },
+            "providers": {
+                "discord": "=> fof-oauth.lib.providers.discord",
+                "facebook": "=> fof-oauth.lib.providers.facebook",
+                "github": "=> fof-oauth.lib.providers.github",
+                "gitlab": "=> fof-oauth.lib.providers.gitlab",
+                "google": "=> fof-oauth.lib.providers.google",
+                "linkedin": "=> fof-oauth.lib.providers.linkedin",
+                "twitter": "=> fof-oauth.lib.providers.twitter"
             },
             "error": {
                 "bad_verification_code": "",
@@ -55,21 +71,21 @@
         },
         "lib": {
             "providers": {
-                "discord": "",
-                "facebook": "",
-                "github": "",
-                "gitlab": "",
-                "twitter": "",
-                "google": "",
-                "linkedin": ""
+                "discord": "ඩිස්කෝඩ්",
+                "facebook": "ෆේස්බුක්",
+                "github": "ගිට්හබ්",
+                "gitlab": "ගිට්ලැබ්",
+                "twitter": "ට්විටර්",
+                "google": "ගූගල්",
+                "linkedin": "ලින්ක්ඩ්ඉන්"
             }
         },
         "ref": {
             "settings": {
-                "app_id": "",
-                "app_secret": "",
-                "client_id": "",
-                "client_secret": ""
+                "app_id": "යෙදුමේ හැඳුනුම",
+                "app_secret": "යෙදුමේ රහස",
+                "client_id": "අනුග්‍රාහකයේ හැඳුනුම",
+                "client_secret": "අනුග්‍රාහකයේ රහස"
             }
         }
     }

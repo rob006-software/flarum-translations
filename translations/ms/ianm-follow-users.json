@@ -1,0 +1,86 @@
+{
+    "ianm-follow-users": {
+        "admin": {
+            "permissions": {
+                "be_followed_label": ""
+            }
+        },
+        "forum": {
+            "profile_link": "=> ianm-follow-users.lib.following_link",
+            "profile_page": {
+                "no_following": ""
+            },
+            "user_controls": {
+                "follow_button": "=> ianm-follow-users.lib.follow",
+                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type",
+                "follow_confirmation": "",
+                "unfollow_confirmation": ""
+            },
+            "settings": {
+                "notify_new_follower_label": "",
+                "notify_new_unfollower_label": "",
+                "notify_new_discussion_label": "",
+                "notify_new_post_label": "",
+                "block_follow": ""
+            },
+            "index": {
+                "follow_tag_button": "=> ianm-follow-users.lib.follow",
+                "unfollow_tag_button": "=> ianm-follow-users.lib.change_follow_type"
+            },
+            "notifications": {
+                "new_discussion_text": "",
+                "new_post_text": "",
+                "new_follower_text": "",
+                "new_unfollower_text": ""
+            },
+            "badge": {
+                "label": {
+                    "follow": "",
+                    "lurk": ""
+                }
+            },
+            "filter": {
+                "following": ""
+            },
+            "modals": {
+                "select_follow_level": {
+                    "title": "",
+                    "description": "",
+                    "follow_levels_heading": "",
+                    "follow_select_label": "",
+                    "no_user_attr_provided_err": "",
+                    "no_user_attr_provided_err_debug": "",
+                    "save_btn": "",
+                    "cancel_btn": ""
+                }
+            }
+        },
+        "email": {
+            "new_discussion_by_user_subject": "",
+            "new_follower_subject": "",
+            "new_post_subject": "",
+            "new_discussion_by_user_body": "",
+            "new_follower_body": "",
+            "new_post_body": ""
+        },
+        "lib": {
+            "following_link": "",
+            "follow": "",
+            "change_follow_type": "",
+            "follow_levels": {
+                "unfollow": {
+                    "name": "",
+                    "description": ""
+                },
+                "follow": {
+                    "name": "",
+                    "description": ""
+                },
+                "lurk": {
+                    "name": "",
+                    "description": ""
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "fof-best-answer": {
+        "admin": {
+            "permissions": {
+                "best_answer": "Legjobb válasz kiválasztása (saját téma)",
+                "best_answer_not_own_discussion": "Legjobb válasz kiválasztása (nem saját téma)"
+            },
+            "settings": {
+                "label": {
+                    "general": "Általános",
+                    "reminders": "Emlékeztetők",
+                    "advanced": "Haladó",
+                    "reminders_notice": "Ahhoz, hogy az emlékeztető jól működjön, a Flarum időzítő jól kell legyen beállítva."
+                },
+                "allow_select_own_post": "A felhasználók kiválaszthatják a saját hozzászólásukat",
+                "select_best_answer_reminder_days": "A felhasználók emlékeztetése hogy válasszák ki a legjobb választ X nap mulva",
+                "schedule_on_one_server": "Használja az 'onOneServer ()' utasítást a feladatütemezőhöz (Redis / Memcache szükséges)",
+                "schedule_stop_overnight": "Megakadályozza az emlékeztető ütemezőjének futtatását éjszakai órákban (21:00 és 8:00 között)",
+                "schedule_log_output": "Az ütemező kimenetének hozzáfűzése a naplótárhoz",
+                "remind_tag_ids": "Ha bizonyos címkékre szeretnéd korlátozni az emlékeztetőket, írd be a címkéket (vesszővel elválasztva)",
+                "use_alt_ui": "Alternatív elrendezés használata (a legjobb válasz gombok a láblécben)"
+            }
+        },
+        "forum": {
+            "answered_badge": "Megválaszolva",
+            "this_best_answer": "Legjobb válasz kiválasztása",
+            "remove_best_answer": "Legjobb válasz kiválasztásának visszavonása",
+            "best_answer_button": "Legjobb válasz",
+            "best_answer_label": "beállította <a>{username}</a> {time_set}",
+            "errors": {
+                "mismatch": "A kiválasztott válasz nincs a beszélgetésben."
+            },
+            "notification": {
+                "best_answer_in_discussion": "{username} kiválasztotta a legjobb választ a beszélgetésben",
+                "content": "Kérlek válaszd ki a legjobb választ ha a kérdésedre választ kaptál",
+                "awarded": "A hozzászólásodat {username} kiválasztotta, mint legjobb válasz",
+                "preferences": {
+                    "awarded_best_answer": "Amikor valaki a hozzászólásomat legjobb válasznak jelöli",
+                    "best_answer_in_discussion": "Amikor a legjobb válasz ki lett választva a beszélgetésben, amelyben benne vagyok"
+                }
+            }
+        },
+        "email": {
+            "subject": {
+                "awarded": "A hozzászólásodat {display_name} a legjobb válasznak jelölte",
+                "ba-set": "A legjobb válasz {display_name} által kijelölve",
+                "select": "Sikerült választ kapnod a kérdésedre?"
+            },
+            "body": {
+                "awarded": "Üdv {recipient_display_name},\n\nJó munka, {actor_display_name} épp a legjobb válasznak értékelte a válaszodat itt: {discussion_title}. Köszönjük a segítséget.\n\nNézd meg itt: {discussion_url}\n",
+                "ba-set": "Üdv {recipient_display_name},\n\n{actor_display_name} beállította a legjobb választ a beszélgetésben: {discussion_title}, melyben te is részt veszel.\n\nNézd meg itt: {discussion_url}\n",
+                "select": "Üdv {recipient_display_name},\n\nMostanra több válasz is érkezett a kérdésedre: {discussion_title}. Reméljük valamelyik válasz segít a kérdésedre választ adni.\n\nHa igen, akkor nagyon hasznos lehet a jövőbeli tagoknak, ha a legjobb választ kiválasztanád. Ez segít az azonos problémával küzdő embereknek megtalálni a szükséges választ, és ez egyúttal nagy köszönet a tagoknak, akik segítettek. Önként adják idejüket, ezért jó tájékoztatni őket arról, hogy jól csinálják.\n\nLátogasd meg a beszélgetést itt: {discussion_url}, és válaszd ki a legjobb választ.\n\nKöszönjük!\n"
+            }
+        }
+    }
+}

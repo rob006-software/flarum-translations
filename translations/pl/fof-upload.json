@@ -5,9 +5,6 @@
                 "title": "Przesyłanie plików",
                 "description": "Skonfiguruj ustawienia przesyłania plików."
             },
-            "buttons": {
-                "save": "Zapisz ustawienia"
-            },
             "help_texts": {
                 "disable-download-logging": "Wyłącz rejestrowanie każdego pobrania przez użytkowników Twojego forum. Pozostawienie tej opcji włączonej pozwoli Ci na zobaczenie ilości pobrań i innych statystyk w niedalekiej przyszłości.\n",
                 "disable-hotlink-protection": "Ochrona przed hotlinkowaniem zapobiega otwieraniu tutejszych plików z poziomu innych stron. Obecna metoda wymaga tokenu CSRF i identyfikatora postu.\n",
@@ -104,6 +101,9 @@
                 "local": "Lokalnie",
                 "ovh-svfs": "OVH SVFS",
                 "qiniu": "QiNiu"
+            },
+            "buttons": {
+                "save": "Zapisz ustawienia"
             }
         },
         "forum": {
@@ -119,14 +119,14 @@
                 "loading": "Ładowanie plików...",
                 "empty": "Nie ma żadnych plików do pokazania.",
                 "release_to_upload": "Upuść, aby wysłać",
-                "modal_empty_desktop": "Lista twoich plików jest pusta. Kliknij przycisk lub przeciągnij plik, aby coś wysłać.",
-                "modal_empty_phone": "Lista twoich plików jest pusta. Wciśnij przycisk powyżej, aby wysłać plik.",
+                "modal_empty_desktop": "Lista Twoich plików jest pusta. Kliknij przycisk lub przeciągnij plik, aby coś wysłać.",
+                "modal_empty_phone": "Lista Twoich plików jest pusta. Wciśnij przycisk powyżej, aby wysłać plik.",
                 "select_file_a11y_label": "Wybierz plik \"{fileName}\"",
-                "confirm_selection_btn": "Wybierz plik|Wybierz pliki",
+                "confirm_selection_btn": "{fileCount, plural, =0 {Nic nie wybrano} one {Wybierz plik} other {Wybierz pliki}}",
                 "load_more_files_btn": "Załaduj więcej plików",
                 "hide_file": {
                     "btn_a11y_label": "Ukryj \"{fileName}\" z managera plików",
-                    "hide_confirmation": "Czy jesteś pewien, że chcesz ukryć \"{fileName}\"? Ukrycie pliku jedynie usunie go z twojego managera plików i nie wpłynie na istniejące posty.",
+                    "hide_confirmation": "Czy jesteś pewien, że chcesz ukryć \"{fileName}\"? Ukrycie pliku jedynie usunie go z Twojego managera plików i nie wpłynie na istniejące posty.",
                     "hide_success": "Plik ukryty",
                     "hide_fail": "Nie udało się ukryć pliku \"{fileName}\"",
                     "loading": "Ukrywanie pliku..."

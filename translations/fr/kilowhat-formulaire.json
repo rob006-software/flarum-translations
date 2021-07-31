@@ -2,372 +2,372 @@
     "kilowhat-formulaire": {
         "admin": {
             "permissions": {
-                "heading": "",
-                "heading-advanced": "",
-                "fill": "",
-                "seeOwnUser": "",
-                "seeAnyUser": "",
-                "editOwnUser": "",
-                "editAnyUser": "",
-                "seeOwnDiscussion": "",
-                "seeAnyDiscussion": "",
-                "editOwnDiscussion": "",
-                "editAnyDiscussion": "",
-                "create": "",
-                "moderate": "",
-                "export": "",
-                "listForms": "",
-                "listSubmissions": ""
+                "heading": "Formulaire",
+                "heading-advanced": "Formulaire (options pour les extensions tierces)",
+                "fill": "=> kilowhat-formulaire.ref.permissions.fill",
+                "seeOwnUser": "=> kilowhat-formulaire.ref.permissions.seeOwnUser",
+                "seeAnyUser": "=> kilowhat-formulaire.ref.permissions.seeAnyUser",
+                "editOwnUser": "=> kilowhat-formulaire.ref.permissions.editOwnUser",
+                "editAnyUser": "=> kilowhat-formulaire.ref.permissions.editAnyUser",
+                "seeOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion",
+                "seeAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.seeAnyDiscussion",
+                "editOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.editOwnDiscussion",
+                "editAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.editAnyDiscussion",
+                "create": "Créer des formulaires (bêta)",
+                "moderate": "Modérer tous les formulaires",
+                "export": "Exporter les données de soumission",
+                "listForms": "Afficher la liste des formulaires qui ne sont pas supprimés",
+                "listSubmissions": "Afficher la liste des soumissions"
             },
             "settings": {
-                "title": "",
-                "max-file-size": "",
-                "history-controls": "",
-                "side-nav-on-submission": ""
+                "title": "Paramètres globaux du formulaire",
+                "max-file-size": "Taille maximale du fichier (en kilo-octets)",
+                "history-controls": "Afficher les commandes annuler/refaire sur la page de soumission",
+                "side-nav-on-submission": "Afficher la navigation latérale sur la page de soumission"
             }
         },
         "forum": {
             "nav": {
-                "forms": ""
+                "forms": "=> kilowhat-formulaire.ref.manager"
             },
             "form-index": {
                 "header": {
-                    "title": "",
-                    "documentation": "",
-                    "discuss": ""
+                    "title": "=> kilowhat-formulaire.ref.manager",
+                    "documentation": "Documentation complète en ligne",
+                    "discuss": "Discussion sur Flarum Discuss"
                 },
                 "tabs": {
-                    "standalone": "",
-                    "discussion": "",
-                    "user": ""
+                    "standalone": "=> kilowhat-formulaire.ref.type.standalone",
+                    "discussion": "=> kilowhat-formulaire.ref.type.discussion",
+                    "user": "=> kilowhat-formulaire.ref.type.user"
                 },
-                "empty": "",
-                "load-more": "",
-                "new": "",
-                "edit": "",
-                "show": "",
-                "submissions": "",
+                "empty": "Aucun formulaire",
+                "load-more": "Charger davantage",
+                "new": "Nouveau formulaire",
+                "edit": "Modifier",
+                "show": "Afficher",
+                "submissions": "Soumissions",
                 "columns": {
-                    "title": "",
-                    "accept-submissions": "",
-                    "allow-modification": "",
-                    "submissions": "",
-                    "actions": ""
+                    "title": "Titre",
+                    "accept-submissions": "Ouvrir",
+                    "allow-modification": "Modification",
+                    "submissions": "Soumissions",
+                    "actions": "Actions"
                 }
             },
             "global-settings": {
-                "title": "",
-                "admin-only": "",
+                "title": "Permissions globales",
+                "admin-only": "Seuls les administrateurs du forum peuvent modifier les paramètres globaux",
                 "permissions": {
-                    "fill": "",
-                    "seeOwnUser": "",
-                    "seeAnyUser": "",
-                    "editOwnUser": "",
-                    "editAnyUser": "",
-                    "seeOwnDiscussion": "",
-                    "seeAnyDiscussion": "",
-                    "editOwnDiscussion": "",
-                    "editAnyDiscussion": ""
+                    "fill": "=> kilowhat-formulaire.ref.permissions.fill",
+                    "seeOwnUser": "=> kilowhat-formulaire.ref.permissions.seeOwnUser",
+                    "seeAnyUser": "=> kilowhat-formulaire.ref.permissions.seeAnyUser",
+                    "editOwnUser": "=> kilowhat-formulaire.ref.permissions.editOwnUser",
+                    "editAnyUser": "=> kilowhat-formulaire.ref.permissions.editAnyUser",
+                    "seeOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion",
+                    "seeAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.seeAnyDiscussion",
+                    "editOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.editOwnDiscussion",
+                    "editAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.editAnyDiscussion"
                 }
             },
             "form-create": {
-                "title": "",
+                "title": "Nouveau formulaire",
                 "field": {
-                    "title": ""
+                    "title": "Titre"
                 },
                 "button": {
-                    "create": ""
+                    "create": "Créer un formulaire"
                 }
             },
             "form-edit-header": {
-                "back": "",
+                "back": "Retour",
                 "category": {
-                    "standalone": "",
-                    "discussion": "",
-                    "user": ""
+                    "standalone": "=> kilowhat-formulaire.ref.type.standalone",
+                    "discussion": "=> kilowhat-formulaire.ref.type.discussion",
+                    "user": "=> kilowhat-formulaire.ref.type.user"
                 },
                 "tabs": {
-                    "template": "",
-                    "placement": "",
-                    "access": "",
-                    "notifications": "",
-                    "submissions": ""
+                    "template": "Modèle",
+                    "placement": "Placement",
+                    "access": "Accès",
+                    "notifications": "Notifications",
+                    "submissions": "Soumissions"
                 },
                 "access-status": {
-                    "closed": "",
-                    "create": "",
-                    "edit": "",
-                    "both": ""
+                    "closed": "Clôturé",
+                    "create": "Créer uniquement",
+                    "edit": "Modifier uniquement",
+                    "both": "Créer et modifier"
                 },
-                "controls": "",
-                "template-export": "",
-                "enable-expert-mode": "",
-                "disable-expert-mode": "",
-                "restore": "",
-                "hide": "",
-                "delete": "",
-                "delete-confirmation": "",
+                "controls": "Contrôles",
+                "template-export": "Importation/exportation de modèle",
+                "enable-expert-mode": "Activer le mode expert",
+                "disable-expert-mode": "Désactiver le mode expert",
+                "restore": "Restaurer",
+                "hide": "Supprimer",
+                "delete": "Supprimer définitivement",
+                "delete-confirmation": "Le formulaire « {title} » sera supprimé définitivement",
                 "fields": {
-                    "private-title": "",
-                    "slug": ""
+                    "private-title": "Titre privé",
+                    "slug": "Identifiant texte unique de l'URL personnalisé (facultatif)"
                 }
             },
             "form-edit": {
                 "warnings": {
-                    "show-on-signup-invalid-permissions": "",
-                    "show-on-composer-invalid-permissions": "",
-                    "linked-form-is-draft": "",
-                    "auto-link-permission-warning": ""
+                    "show-on-signup-invalid-permissions": "Vous devez définir les permissions « voir les siens » et « modifier les siens » pour les membres non approuvés afin d'utiliser « montrer à l'inscription» .\n",
+                    "show-on-composer-invalid-permissions": "Assurez-vous que les autorisations « voir les siens » et « modifier les siens » correspondent à ceux qui peuvent démarrer des discussions avec le(s) étiquette(s) sélectionnée(s) afin d'utiliser « afficher dans le compositeur ». Si vous n'êtes pas certain de ces paramétrages, réglez-les sur « membres ». Ce message peut apparaître même si vos paramètres sont corrects.\n",
+                    "linked-form-is-draft": "Ce formulaire est actuellement en mode brouillon. Activez « accepter les nouvelles soumissions » pour que les champs apparaissent sur le forum.\n",
+                    "auto-link-permission-warning": "Les formulaires avec l'option « créer automatiquement des discussions » utilisent la permission de remplissage global lorsqu'ils sont accessibles de manière autonome.\n"
                 },
-                "expert-mode-warning": "",
+                "expert-mode-warning": "Le mode expert est activé. Cela vous permet de personnaliser les identifiants de champ et les permissions par champ. Veillez à lire la documentation relative à ces fonctionnalités car vous risquez de casser des choses !\n",
                 "section": {
-                    "template": "",
-                    "permissions": ""
+                    "template": "Modèle",
+                    "permissions": "Permissions"
                 },
                 "field": {
-                    "link": "",
-                    "title": "",
+                    "link": "Types de formulaires spéciaux",
+                    "title": "Titre public",
                     "show-on-creation": {
-                        "discussion": "",
-                        "user": ""
+                        "discussion": "Afficher dans le compositeur de discussions",
+                        "user": "Afficher dans l'inscription"
                     },
-                    "automatic-discussion": "",
-                    "automatic-discussion-help": "",
-                    "accept-submissions": "",
-                    "allow-modification": "",
-                    "max-submissions": "",
-                    "send-confirmation-to-participants": "",
-                    "notify-emails": "",
-                    "web-confirmation-message": "",
-                    "permission-see-own": "",
-                    "permission-see-any": "",
-                    "permission-edit-own": "",
-                    "permission-edit-any": ""
+                    "automatic-discussion": "Créer automatiquement des discussions à partir de la soumission du formulaire",
+                    "automatic-discussion-help": "Lorsque cette option est activée, le formulaire continuera d'être accessible comme un formulaire autonome. Les soumissions seront automatiquement créées et connectées à de nouvelles discussions.\n",
+                    "accept-submissions": "Accepter les nouvelles soumissions",
+                    "allow-modification": "Permettre aux utilisateurs de modifier leurs soumissions existantes",
+                    "max-submissions": "Soumissions maximales (laissez vide pour un nombre illimité)",
+                    "send-confirmation-to-participants": "Envoyer un courriel de confirmation aux participants",
+                    "notify-emails": "Envoyer une copie des données à ces courriels séparés par des virgules",
+                    "web-confirmation-message": "Message de confirmation sur le web (mise en page activée)",
+                    "permission-see-own": "Voir sa propre soumission",
+                    "permission-see-any": "Voir toute soumission",
+                    "permission-edit-own": "Modifier sa propre soumission",
+                    "permission-edit-any": "Modifier toute soumission"
                 },
                 "link-options": {
-                    "standalone": "",
-                    "groups": "",
-                    "all-groups": "",
-                    "tags": "",
-                    "all-tags": ""
+                    "standalone": "Autonome",
+                    "groups": "Profil de l'utilisateur",
+                    "all-groups": "Pour tout groupe",
+                    "tags": "Champs de discussion",
+                    "all-tags": "Pour toute étiquette"
                 },
-                "auto-discussion-options": "",
-                "email-confirmation-options": "",
-                "email-notification-options": "",
-                "exiting-with-unsaved-data": "",
-                "preview": "",
-                "save-for-preview": ""
+                "auto-discussion-options": "Options pour les nouvelles discussions",
+                "email-confirmation-options": "Modèle de courriel de confirmation",
+                "email-notification-options": "Modèle de courriel de notification",
+                "exiting-with-unsaved-data": "Vous avez des modifications non sauvegardées. Voulez-vous vraiment quitter la page ?",
+                "preview": "Prévisualiser dans un nouvel onglet",
+                "save-for-preview": "Enregistrer pour prévisualiser"
             },
             "auto-discussion-options-modal": {
-                "title": "",
-                "introduction": "",
-                "submit": "",
+                "title": "Options de discussion automatique",
+                "introduction": "Ces paramètres s'appliquent aux nouvelles discussions qui ont été créées automatiquement en soumettant un formulaire lié à une étiquette. Vous pouvez utiliser les valeurs du formulaire soumis en utilisant une syntaxe entre accolades avec l'identifiant texte unique du champ. Par défaut, { title } et { content } seront utilisés respectivement.\n",
+                "submit": "Valider les modifications",
                 "field": {
-                    "title": "",
-                    "tags": "",
-                    "tags-help": "",
-                    "content": ""
+                    "title": "Titre de la discussion",
+                    "tags": "Étiquettes de la discussion",
+                    "tags-help": "Liste de étiquettes séparées par des virgules. Les étiquettes sélectionnées seront ajoutées en plus de l'étiquette à laquelle ce formulaire est connecté.\n",
+                    "content": "Contenu du message"
                 }
             },
             "confirmation-email-options-modal": {
-                "title": "",
-                "submit": "",
+                "title": "Modèle de courriel",
+                "submit": "Valider les modifications",
                 "field": {
-                    "title": "",
-                    "message": ""
+                    "title": "Titre",
+                    "message": "Corps"
                 }
             },
             "save-controls": {
-                "validation-errors": "",
-                "unsaved-changes": "",
-                "saved-at": "",
-                "undo": "",
-                "redo": "",
-                "save": ""
+                "validation-errors": "Nous avons trouvé quelques erreurs dans votre soumission",
+                "unsaved-changes": "Vous avez des modifications non enregistrées",
+                "saved-at": "Enregistré {ago}",
+                "undo": "Annuler",
+                "redo": "Refaire",
+                "save": "Enregistrer"
             },
             "permission-controls": {
-                "inherit": "",
-                "everyone_button": "",
-                "disabled_members_button": "",
-                "members_button": ""
+                "inherit": "Utiliser les valeurs par défaut",
+                "everyone_button": "=> core.admin.permissions_controls.everyone_button",
+                "disabled_members_button": "Membres non activés et suspendus",
+                "members_button": "Membres activés"
             },
             "template-editor": {
-                "add-field": "",
-                "title": "",
-                "description": "",
-                "key": "",
-                "fill-permission": "",
-                "required": "",
-                "rich": "",
-                "min": "",
-                "max": "",
-                "integer": "",
-                "email": "",
-                "regex": "",
-                "mime": "",
-                "duplicate": "",
-                "delete": "",
-                "missing-title": "",
-                "no-answer": "",
+                "add-field": "Ajouter un champ",
+                "title": "Titre",
+                "description": "Description",
+                "key": "(Expert) Clé JSON dans la charge utile de soumission",
+                "fill-permission": "(Expert) Remplir les permissions",
+                "required": "Obligatoire",
+                "rich": "Texte enrichi (TextFormatter)",
+                "min": "Minimum",
+                "max": "Maximum",
+                "integer": "Nombre entier",
+                "email": "Courriel",
+                "regex": "Expression régulière",
+                "mime": "Type MIME (séparé par des virgules, accepte les caractères génériques comme deuxième partie)",
+                "duplicate": "Dupliquer le champ",
+                "delete": "Supprimer le champ",
+                "missing-title": "Champ sans titre",
+                "no-answer": "Sans réponse",
                 "type": {
-                    "short": "",
-                    "long": "",
-                    "number": "",
-                    "date": "",
-                    "upload": "",
-                    "content": "",
-                    "items": ""
+                    "short": "Texte bref",
+                    "long": "Texte long",
+                    "number": "Numéro",
+                    "date": "Date",
+                    "upload": "Transférer",
+                    "content": "Contenu",
+                    "items": "Entrées multiples"
                 }
             },
             "items-editor": {
-                "add": "",
-                "remove": ""
+                "add": "Ajouter une ligne",
+                "remove": "Supprimer la ligne"
             },
             "upload-editor": {
-                "uploading": "",
-                "remove": ""
+                "uploading": "Transfert...",
+                "remove": "Supprimer le fichier"
             },
             "rich-text": {
-                "preview-placeholder": ""
+                "preview-placeholder": "Commencez à écrire pour une prévisualisation"
             },
             "submission": {
-                "form-closed": "",
-                "form-full": "",
-                "edit-forbidden": "",
-                "submitted-successfully": "",
-                "edit-submission": "",
-                "submit-other": "",
-                "unlock": "",
-                "lock": "",
-                "restore": "",
-                "hide": "",
-                "delete": "",
-                "delete-confirmation": ""
+                "form-closed": "Ce formulaire est clôturé.",
+                "form-full": "Ce formulaire a atteint le nombre maximal de soumissions.",
+                "edit-forbidden": "Vous ne pouvez plus modifier cette soumission.",
+                "submitted-successfully": "Votre soumission a été envoyée avec succès.",
+                "edit-submission": "Modifier la soumission",
+                "submit-other": "Envoyer un autre",
+                "unlock": "Déverrouiller",
+                "lock": "Verrouiller",
+                "restore": "Restaurer",
+                "hide": "Supprimer",
+                "delete": "Supprimer définitivement",
+                "delete-confirmation": "La soumission de {date} sera supprimée définitivement"
             },
             "submission-index": {
-                "form-edit": "",
-                "form-show": "",
-                "show": "",
-                "guest": "",
-                "load-more": "",
-                "empty": "",
-                "export": "",
+                "form-edit": "Modifier le formulaire",
+                "form-show": "Nouvelle soumission",
+                "show": "Afficher",
+                "guest": "Invité",
+                "load-more": "Charger davantage",
+                "empty": "Aucune soumission pour le moment",
+                "export": "Exporter",
                 "columns": {
-                    "date": "",
-                    "user": "",
-                    "actions": ""
+                    "date": "Date",
+                    "user": "Utilisateur",
+                    "actions": "Actions"
                 }
             },
             "badge": {
-                "locked": "",
-                "hidden": ""
+                "locked": "Verrouillé",
+                "hidden": "Masqué"
             },
             "error-page": {
-                "denied-title": "",
-                "denied-description": "",
-                "notfound-title": "",
-                "notfound-description": ""
+                "denied-title": "Permission refusée",
+                "denied-description": "Il semble que vous n'ayez pas accès à ce contenu. Essayez de vous connecter.",
+                "notfound-title": "Non trouvé",
+                "notfound-description": "Soit ce contenu n'existe pas, soit vous n'y avez pas accès."
             },
             "submission-sort": {
-                "latest": "",
-                "oldest": ""
+                "latest": "Plus récentes soumissions",
+                "oldest": "Plus anciennes soumissions"
             },
             "form-sort": {
-                "latest": "",
-                "oldest": ""
+                "latest": "Plus récents formulaires",
+                "oldest": "Plus anciens formulaires"
             },
             "export": {
-                "title": "",
-                "format": "",
-                "heading": "",
-                "fields": "",
-                "meta": "",
-                "more-meta": "",
-                "submit": "",
-                "preview": "",
+                "title": "Exporter les soumissions",
+                "format": "Format",
+                "heading": "Intitulé/clés",
+                "fields": "Champs",
+                "meta": "Métadonnées",
+                "more-meta": "Plus d'options de méta",
+                "submit": "Télécharger",
+                "preview": "Prévisualiser",
                 "format-options": {
-                    "xlsx": "",
-                    "xls": "",
-                    "ods": "",
-                    "csv": "",
-                    "json": ""
+                    "xlsx": "XLSX",
+                    "xls": "XLS",
+                    "ods": "ODS",
+                    "csv": "CSV",
+                    "json": "JSON"
                 },
                 "heading-options": {
-                    "title": "",
-                    "key": "",
-                    "none": ""
+                    "title": "Titres des champs",
+                    "key": "Clés des champs",
+                    "none": "Aucune ligne d'en-tête"
                 },
                 "meta-options": {
-                    "uid": "",
-                    "user_id": "",
-                    "user_username": "",
-                    "user_displayname": "",
-                    "link_id": "",
-                    "locked_at": "",
-                    "created_at": "",
-                    "updated_at": "",
-                    "hidden_at": ""
+                    "uid": "=> kilowhat-formulaire.ref.submission-meta.uid",
+                    "user_id": "=> kilowhat-formulaire.ref.submission-meta.user_id",
+                    "user_username": "=> kilowhat-formulaire.ref.submission-meta.user_username",
+                    "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
+                    "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
+                    "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
+                    "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
+                    "updated_at": "=> kilowhat-formulaire.ref.submission-meta.updated_at",
+                    "hidden_at": "=> kilowhat-formulaire.ref.submission-meta.hidden_at"
                 }
             }
         },
         "api": {
-            "formatter-parsing-error": "",
-            "not-allowed-to-fill-field": "",
-            "duplicate-field-key": "",
-            "cannot-change-form-type": "",
-            "unknown-form": "",
-            "unauthorized-form": "",
-            "file-already-belongs-form": "",
-            "file-already-belongs-submission": "",
+            "formatter-parsing-error": "Impossible d'analyser le contenu : {message}",
+            "not-allowed-to-fill-field": "Vous n'êtes pas autorisé à modifier la valeur de ce champ",
+            "duplicate-field-key": "La clé doit être unique",
+            "cannot-change-form-type": "Vous ne pouvez pas modifier le type d'un formulaire qui contient déjà des soumissions",
+            "unknown-form": "Identifiant de formulaire {id} non reconnu",
+            "unauthorized-form": "Vous n'avez pas les permissions nécessaires pour remplir l'identifiant de formulaire {id}",
+            "file-already-belongs-form": "Le fichier {id} appartient à un autre formulaire",
+            "file-already-belongs-submission": "Le fichier {id} appartient à une autre soumission",
             "export": {
                 "meta": {
-                    "uid": "",
-                    "user_id": "",
-                    "user_username": "",
-                    "user_displayname": "",
-                    "link_id": "",
-                    "locked_at": "",
-                    "created_at": "",
-                    "updated_at": "",
-                    "hidden_at": ""
+                    "uid": "=> kilowhat-formulaire.ref.submission-meta.uid",
+                    "user_id": "=> kilowhat-formulaire.ref.submission-meta.user_id",
+                    "user_username": "=> kilowhat-formulaire.ref.submission-meta.user_username",
+                    "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
+                    "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
+                    "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
+                    "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
+                    "updated_at": "=> kilowhat-formulaire.ref.submission-meta.updated_at",
+                    "hidden_at": "=> kilowhat-formulaire.ref.submission-meta.hidden_at"
                 }
             }
         },
         "mail": {
-            "title-your-submission": "",
-            "title-new-submission": "",
-            "edit": "",
-            "footer": "",
-            "sub-entries": ""
+            "title-your-submission": "Votre soumission pour {title}",
+            "title-new-submission": "Nouvelle soumission pour {title}",
+            "edit": "Modifier",
+            "footer": "Envoyé depuis {title}",
+            "sub-entries": "{count} entrées"
         },
         "ref": {
-            "manager": "",
+            "manager": "Gestionnaire de formulaires",
             "type": {
-                "standalone": "",
-                "discussion": "",
-                "user": ""
+                "standalone": "Formulaires autonomes",
+                "discussion": "Champs de discussion",
+                "user": "Profil de l'utilisateur"
             },
             "permissions": {
-                "fill": "",
-                "seeOwnUser": "",
-                "seeAnyUser": "",
-                "editOwnUser": "",
-                "editAnyUser": "",
-                "seeOwnDiscussion": "",
-                "seeAnyDiscussion": "",
-                "editOwnDiscussion": "",
-                "editAnyDiscussion": ""
+                "fill": "Remplir les formulaires autonomes",
+                "seeOwnUser": "Afficher les champs de votre propre profil",
+                "seeAnyUser": "Afficher les champs de tout profil",
+                "editOwnUser": "Modifier les champs de son propre profil",
+                "editAnyUser": "Modifier les champs de tout profil",
+                "seeOwnDiscussion": "Voir les champs de ses propres discussions",
+                "seeAnyDiscussion": "Voir les champs de toute discussion",
+                "editOwnDiscussion": "Modifier les champs de ses propres discussions",
+                "editAnyDiscussion": "Modifier les champs de toute discussion"
             },
             "submission-meta": {
-                "uid": "",
-                "user_id": "",
-                "user_username": "",
-                "user_displayname": "",
-                "link_id": "",
-                "locked_at": "",
-                "created_at": "",
-                "updated_at": "",
-                "hidden_at": ""
+                "uid": "Identifiant de la soumission",
+                "user_id": "Identifiant de l'utilisateur",
+                "user_username": "Nom d'utilisateur",
+                "user_displayname": "Nom d'affichage de l'utilisateur",
+                "link_id": "Identifiant de la ressource liée",
+                "locked_at": "Date de verrouillage",
+                "created_at": "Date de création",
+                "updated_at": "Date de mise à jour",
+                "hidden_at": "Date de suppression sans destruction"
             }
         }
     }

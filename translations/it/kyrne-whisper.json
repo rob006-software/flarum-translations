@@ -1,0 +1,59 @@
+{
+    "kyrne-whisper": {
+        "admin": {
+            "settings": {
+                "return_key": "Invia messaggio premendo Invio",
+                "title": "Impostazioni Whisper",
+                "set_own_password": "Permetti agli utenti di creare la propria password"
+            },
+            "permissions": {
+                "start_label": "Inizia conversazione privata"
+            }
+        },
+        "forum": {
+            "dropdown": {
+                "tooltip": "Conversazioni"
+            },
+            "setup": {
+                "title": "Imposta messaggi privati",
+                "header_setup": "Inserisci la tua password di login per impostare i messaggi privati.",
+                "header_import": "Inserisci la password del tuo account per importare i messaggi privati.",
+                "header_set_own": "Inserisci password per impostare i messaggi privati.",
+                "header_set_own_import": "Inserisci la password dei tuoi messaggi privati per importarli.",
+                "passwords_mismatch": "La password non corrisponde",
+                "invalid_password": "La tua password non è corretta.",
+                "button_import": "Importa",
+                "button_setup": "Imposta",
+                "confirm_password": "Conferma password",
+                "success": "I messaggi privati sono pronti, la tua pagina si ricaricherà ora…"
+            },
+            "modal": {
+                "title": "Inizia conversazione",
+                "help": "Inizia a scrivere un nome per iniziare la chat.",
+                "help_start": "Digita il tuo primo messaggio. Questo sarà l'unico messaggio che puoi inviare finché {username} non risponde. Fare clic sull'utente per selezionare un destinatario diverso.",
+                "search_recipients": "Inserire username...",
+                "submit": "Invia e avvia conversazione",
+                "copied": "Il tuo messaggio è stato copiato negli appunti.",
+                "more_users": "Se non vedi l'utente che stai cercando, non ha la configurazione della messaggistica privata.",
+                "already": "Hai già una conversazione con {username}."
+            },
+            "user_modal_alert": "{username} ha un'impostazione di messaggistica privata, la sua password non può essere modificata in sicurezza.",
+            "chat": {
+                "chat_with": "Chatta con {nome utente}",
+                "messages_multiple": "{count} messaggi totali",
+                "messages_single": "Nuova conversazione",
+                "start": "Avvia conversazione",
+                "read": "Leggi",
+                "cant_start": "Impossibile avviare la conversazione",
+                "text_placeholder": "Scrivi il tuo messaggio",
+                "send": "Invia messaggio",
+                "recovery_message": "Messaggio di sistema: sincronizzazione della crittografia persa e ripristinata",
+                "failed_message": "Impossibile decrittografare il messaggio, tentativo di recupero con metodo #{method}",
+                "cant_send": "Non puoi inviare un messaggio finché {username} non risponde (solo primo messaggio)",
+                "cant_send_toomany": "Attendi la risposta di {username} prima di inviare altri messaggi",
+                "failed_to_decrypt": "[Impossibile decifrare]",
+                "start_of_conversation": "Inizio della conversazione"
+            }
+        }
+    }
+}

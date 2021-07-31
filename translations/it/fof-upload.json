@@ -5,9 +5,6 @@
                 "title": "Carica",
                 "description": "Configura i servizi di caricamento e le preferenze."
             },
-            "buttons": {
-                "save": "Salva impostazioni"
-            },
             "help_texts": {
                 "disable-download-logging": "Disattiva la registrazione di ogni download effettuato dagli utenti del tuo forum. Lasciandolo attivo ti permette di visualizzare il numero di download e altre metriche in futuro.\n",
                 "disable-hotlink-protection": "La protezione da hotlink impedisce l'apertura dei dowload da altri siti. Il metodo attuale richiede un token csrf e id del post.\n",
@@ -104,6 +101,9 @@
                 "local": "Locale",
                 "ovh-svfs": "OVH SVFS",
                 "qiniu": "QiNiu"
+            },
+            "buttons": {
+                "save": "Salva impostazioni"
             }
         },
         "forum": {

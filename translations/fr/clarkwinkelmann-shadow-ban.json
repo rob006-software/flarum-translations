@@ -1,0 +1,39 @@
+{
+    "clarkwinkelmann-shadow-ban": {
+        "admin": {
+            "setting": {
+                "hideUsers": "Masquer les profils d'utilisateurs bannis furtivement"
+            },
+            "permission": {
+                "ban": "Utilisateurs bannis furtivement",
+                "hide": "Messages et discussions masqués furtivement"
+            }
+        },
+        "forum": {
+            "discussionControl": {
+                "hide": "Masquage furtif",
+                "restore": "Restauration furtive"
+            },
+            "postControl": {
+                "hide": "Masquage furtif",
+                "restore": "Restauration furtive"
+            },
+            "userControl": {
+                "ban": "Bannissement furtif"
+            },
+            "banUser": {
+                "title": "Suspendre {username}",
+                "until": "Jusqu'à la date (au format UTC)",
+                "quick": "Choix rapides",
+                "quickChoiceReset": "Pas banni",
+                "quickChoiceDays": "{count, plural, one {# jour} other {# jours}}",
+                "submit": "Enregistrer"
+            },
+            "badge": {
+                "user": "Banni furtivement",
+                "discussion": "Masqué furtivement",
+                "post": "Masqué furtivement"
+            }
+        }
+    }
+}

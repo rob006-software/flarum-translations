@@ -1,0 +1,118 @@
+{
+    "fof-webhooks": {
+        "actions": {
+            "discussion": {
+                "started": "",
+                "renamed": {
+                    "title": "",
+                    "description": ""
+                },
+                "hidden": "",
+                "restored": "",
+                "deleted": ""
+            },
+            "group": {
+                "created": "",
+                "renamed": "",
+                "deleted": ""
+            },
+            "post": {
+                "posted": "",
+                "revised": "",
+                "hidden": "",
+                "restored": "",
+                "deleted": ""
+            },
+            "user": {
+                "registered": "",
+                "renamed": {
+                    "title": "",
+                    "description": ""
+                },
+                "deleted": ""
+            }
+        },
+        "adapters": {
+            "errors": {
+                "404": ""
+            }
+        },
+        "admin": {
+            "errors": {
+                "service_not_found": "",
+                "url_invalid": "",
+                "tag_invalid": ""
+            },
+            "nav": {
+                "desc": ""
+            },
+            "settings": {
+                "debug_label": "",
+                "debug_help": "",
+                "item": {
+                    "tag_any_label": ""
+                },
+                "help": {
+                    "disabled": "",
+                    "general": "",
+                    "url": ""
+                },
+                "modal": {
+                    "title": "",
+                    "description": "",
+                    "use_plain_text_label": "",
+                    "max_post_content_length_label": "",
+                    "max_post_content_length_help": "",
+                    "extra_text_label": "",
+                    "extra_text_help": "",
+                    "group_label": "",
+                    "group_help": "",
+                    "events_label": ""
+                },
+                "services": {
+                    "discord": "",
+                    "slack": "",
+                    "microsoft-teams": ""
+                },
+                "actions": {
+                    "flarum": {
+                        "discussion": {
+                            "title": "",
+                            "started": "",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "hidden": "=> fof-webhooks.ref.hidden",
+                            "restored": "=> fof-webhooks.ref.restored",
+                            "deleted": "=> fof-webhooks.ref.deleted"
+                        },
+                        "group": {
+                            "title": "",
+                            "created": "",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "deleted": "=> fof-webhooks.ref.deleted"
+                        },
+                        "post": {
+                            "title": "",
+                            "posted": "",
+                            "revised": "",
+                            "hidden": "=> fof-webhooks.ref.hidden",
+                            "restored": "=> fof-webhooks.ref.restored",
+                            "deleted": "=> fof-webhooks.ref.deleted"
+                        },
+                        "user": {
+                            "title": "",
+                            "registered": "",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "deleted": "=> fof-webhooks.ref.deleted"
+                        }
+                    }
+                }
+            }
+        },
+        "ref": {
+            "deleted": "",
+            "hidden": "",
+            "renamed": "",
+            "restored": ""
+        }
+    }
+}

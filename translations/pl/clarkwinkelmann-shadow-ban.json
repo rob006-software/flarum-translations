@@ -1,0 +1,39 @@
+{
+    "clarkwinkelmann-shadow-ban": {
+        "admin": {
+            "setting": {
+                "hideUsers": "Ukryj profile użytkowników, które otrzymały shadow bana"
+            },
+            "permission": {
+                "ban": "Shadow banowanie użytkowników",
+                "hide": "Shadow ukrywanie dyskusji oraz postów"
+            }
+        },
+        "forum": {
+            "discussionControl": {
+                "hide": "Shadow ukrywanie",
+                "restore": ""
+            },
+            "postControl": {
+                "hide": "",
+                "restore": ""
+            },
+            "userControl": {
+                "ban": "Shadow ban"
+            },
+            "banUser": {
+                "title": "Zbanuj {username}",
+                "until": "Do daty (UTC)",
+                "quick": "Szybkie wybory",
+                "quickChoiceReset": "Nie zbanowany",
+                "quickChoiceDays": "{count, plural, one {# dzień} other {# dni}}",
+                "submit": "Zapisz"
+            },
+            "badge": {
+                "user": "Nałożony shadow ban",
+                "discussion": "",
+                "post": ""
+            }
+        }
+    }
+}

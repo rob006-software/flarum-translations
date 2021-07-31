@@ -1,0 +1,40 @@
+{
+    "the-turk-stickiest": {
+        "admin": {
+            "permissions": {
+                "super_sticky_discussions_label": "",
+                "tag_sticky_discussions_label": ""
+            },
+            "settings": {
+                "badge_icon_label": "超级置顶图标",
+                "badge_icon_text": "=> core.ref.icon_text"
+            }
+        },
+        "forum": {
+            "badge": {
+                "sticky_tooltip": "=> the-turk-stickiest.ref.sticky",
+                "super_sticky_tooltip": "=> the-turk-stickiest.ref.super_sticky",
+                "tag_sticky_tooltip": "=> the-turk-stickiest.ref.tag_sticky"
+            },
+            "discussion_controls": {
+                "sticky_button": "=> the-turk-stickiest.ref.sticky",
+                "unsticky_button": "=> flarum-sticky.forum.discussion_controls.unsticky_button",
+                "super_sticky_button": "=> the-turk-stickiest.ref.super_sticky",
+                "common_sticky_button": "常规置顶",
+                "tag_sticky_button": "=> the-turk-stickiest.ref.tag_sticky",
+                "all_sticky_button": "全部置顶"
+            },
+            "post_stream": {
+                "discussion_stickied_text": "=> flarum-sticky.forum.post_stream.discussion_stickied_text",
+                "discussion_unstickied_text": "=> flarum-sticky.forum.post_stream.discussion_unstickied_text",
+                "discussion_super_stickied_text": "{username} 超级置顶了此帖",
+                "discussion_common_stickied_text": "{username} 取消超级置顶此帖"
+            }
+        },
+        "ref": {
+            "sticky": "=> flarum-sticky.ref.sticky",
+            "super_sticky": "超级置顶",
+            "tag_sticky": "标签内置顶"
+        }
+    }
+}

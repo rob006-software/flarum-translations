@@ -111,7 +111,7 @@
                     "no_ratings_found": "Arama kriterlerinizle eşleşen derecelendirme bulunamadı",
                     "article_not_rated": "Bu makale henüz derecelendirilmemiş.",
                     "confirm_delete_rating": "Bu derecelendirmeyi silmek istediğinize emin misiniz?",
-                    "feedback": "Geri Bildirim",
+                    "feedback": "Geri bildirim",
                     "rating": "Derecelendirme",
                     "username": "=> core.ref.username",
                     "rated_on": "Tarihinde derecelendirildi"
@@ -145,7 +145,7 @@
                 "ticket_overview": "Bilet genel bakışı",
                 "opened_on": "Açıldı",
                 "ticket_activity": "{username} tarafından son eylem {date}",
-                "reminders_sent": "Bir hatırlatıcı gönderildi|{count} hatırlatıcı gönderildi",
+                "reminders_sent": "{count, plural, one {Bir hatırlatıcı gönderildi} other {# hatırlatıcı gönderildi}}",
                 "convert_to_ticket": {
                     "button": "Bilete dönüştür",
                     "confirm": "Bu tartışmayı bir bilete dönüştürmek istediğinizden emin misiniz?",
@@ -249,7 +249,7 @@
         "emails": {
             "replied_to_ticket": {
                 "subject": "{replier_display_name}, #{ticket_id} numaralı biletinizi yanıtladı",
-                "body": "Sayın {recipient_display_name},\n\n{replier_display_name}, #{ticket_id} numaralı biletinizi yanıtladı (konu '{subject}').\n\nYanıtı incelemek için lütfen aşağıdaki bağlantıyı kullanın:\n{url}\n\nCevap verebilirsiniz veya bu bileti çözüldü olarak işaretleyebilirsiniz.\n"
+                "body": "Sayın {recipient_display_name},\n\n{replier_display_name}, #{ticket_id} numaralı biletinizi yanıtladı (konu \"{subject}\").\n\nYanıtı incelemek için lütfen aşağıdaki bağlantıyı kullanın:\n{url}\n\nCevap verebilirsiniz veya bu bileti çözüldü olarak işaretleyebilirsiniz.\n"
             },
             "ticket_status_update": {
                 "subject": "#{ticket_id} numaralı bilet {new_status} olarak işaretlendi",
@@ -265,7 +265,7 @@
             },
             "ticket_pending_reply_closed": {
                 "subject": "#{ticket_id} numaralı bilet, hareketsizlik nedeniyle kapatıldı",
-                "body": "Sayın {recipient_display_name},\n\nKısa süre önce {replier_display_name}, #{ticket_id} numaralı biletinize yanıt verdi. Maalesef sizden bir cevap alamadık. Etkinlik olmaması nedeniyle biletiniz otomatik olarak kapatıldı.\n\nYine de yanıtlamak istiyorsanız, biletinizin URL'si:\n{url}"
+                "body": "Sayın {recipient_display_name},\n\nKısa süre önce {replier_display_name}, #{ticket_id} numaralı biletinize yanıt verdi. Maalesef sizden bir cevap alamadık. Etkinlik olmaması nedeniyle biletiniz otomatik olarak kapatıldı.\n\nYine de yanıtlamak istiyorsanız, biletinizin URL'si:\n{url}\n"
             }
         }
     }

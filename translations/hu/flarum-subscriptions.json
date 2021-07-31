@@ -1,0 +1,50 @@
+{
+    "flarum-subscriptions": {
+        "forum": {
+            "badge": {
+                "following_tooltip": "=> flarum-subscriptions.ref.following",
+                "ignoring_tooltip": "=> flarum-subscriptions.ref.ignoring"
+            },
+            "discussion_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "unfollow_button": "Leiratkozás",
+                "unignore_button": "Mellőzés feloldása"
+            },
+            "following": {
+                "meta_title_text": "Követem"
+            },
+            "index": {
+                "following_link": "=> flarum-subscriptions.ref.following"
+            },
+            "notifications": {
+                "new_post_text": "{username} posztolta"
+            },
+            "settings": {
+                "follow_after_reply_label": "Automatikusan kövesse azon témákat, amelyekhez hozzászóltam.",
+                "notify_new_post_label": "Új hozzászólás érkezése követett témában"
+            },
+            "sub_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "following_button": "Követem",
+                "following_text": "Értesítés minden válasznál.",
+                "ignoring_button": "Mellőzöm",
+                "ignoring_text": "Nincs értesítés. Téma elrejtése.",
+                "not_following_button": "Nem követem",
+                "not_following_text": "Értesítés csak említésnél. @felhasznalonev.",
+                "notify_alert_tooltip": "Új hozzászólás esetén fórum-értesítést kapsz.",
+                "notify_email_tooltip": "Új hozzászólás esetén értesítést kapsz emailben."
+            }
+        },
+        "email": {
+            "new_post": {
+                "subject": "[Új hozzászólás] {title}",
+                "body": "Üdv, {recipient_display_name}!\n\n{poster_display_name} hozzászólt egy általad követett témához: {title}.\n\nAz alábbi linken eléred a hozzászólást:\n{url}\n\n---\n\n{content}\n\n---\n\nCsak akkor kapsz további értesítéseket erről a beszélgetésről, ha naprakész.\n"
+            }
+        },
+        "ref": {
+            "follow": "Követés",
+            "following": "Követett témák",
+            "ignoring": "Mellőzés"
+        }
+    }
+}

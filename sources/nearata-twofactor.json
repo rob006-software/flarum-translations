@@ -1,0 +1,40 @@
+{
+    "nearata-twofactor": {
+        "admin": {
+            "settings": {
+                "generate_backups": "Generate backup codes."
+            }
+        },
+        "forum": {
+            "invalid_twofa_code": "Invalid two factor code.",
+            "invalid_twofa_setup": "Password or passcode invalid.",
+            "log_in_modal": {
+                "submit_button": "Log In",
+                "otp_placeholder": "Two Factor Passcode",
+                "title": "Two Factor"
+            },
+            "setup_button": "Two Factor",
+            "setup_modal": {
+                "backups": {
+                    "copy_button": "Copy",
+                    "download_button": "Download",
+                    "download_file_format": "{website_title} | {website_url}\n\nKeep these backup codes somewhere safe but accessible.\n\nLIST OF CODES\n\n{codes}\n\n* You can only use each backup code once.\n* These codes MUST be used in the listed order.\n* These codes were generated on: {date}.\n",
+                    "modal_message": "Keep these recovery codes in a safe place. If you lose your two factor enabled device, these one-time use codes can be used in the listed order to log in to your account.\n"
+                },
+                "close_button": "Close",
+                "disabled": "Two Factor authentication disabled.",
+                "enabled": "Two Factor authentication enabled.",
+                "enter_code_disable": "Enter the code to disable Two Factor.",
+                "enter_code_manually": "Enter key manually instead",
+                "passcode_placeholder": "Two Factor Passcode",
+                "password_placeholder": "Password",
+                "scan_qr": "Scan this QR code with your two factor authentication device to set up your account.",
+                "submit_button": {
+                    "enable": "Enable",
+                    "disable": "Disable"
+                },
+                "title": "Two Factor"
+            }
+        }
+    }
+}

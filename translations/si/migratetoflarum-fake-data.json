@@ -2,34 +2,34 @@
     "migratetoflarum-fake-data": {
         "admin": {
             "generator": {
-                "bulk-mode": "",
-                "bulk-mode-description": "",
-                "user-count": "",
-                "discussion-count": "",
+                "bulk-mode": "=> migratetoflarum-fake-data.ref.bulk-mode",
+                "bulk-mode-description": "=> migratetoflarum-fake-data.ref.bulk-mode-description",
+                "user-count": "=> migratetoflarum-fake-data.ref.user-count",
+                "discussion-count": "සෑදීමට සාකච්ඡා ගණන",
                 "discussion-tags": "",
                 "discussion-tags-none": "",
-                "discussion-tags-random": "",
-                "post-count": "",
-                "date": "",
-                "date-start-placeholder": "",
-                "date-interval-placeholder": "",
-                "send": ""
+                "discussion-tags-random": "අහඹු",
+                "post-count": "=> migratetoflarum-fake-data.ref.post-count",
+                "date": "=> migratetoflarum-fake-data.ref.date",
+                "date-start-placeholder": "=> migratetoflarum-fake-data.ref.date-start-placeholder",
+                "date-interval-placeholder": "=> migratetoflarum-fake-data.ref.date-interval-placeholder",
+                "send": "=> migratetoflarum-fake-data.ref.send"
             }
         },
         "forum": {
             "link": {
-                "generate-replies": ""
+                "generate-replies": "ව්‍යාජ පිළිතුරු ජනනය කරන්න"
             },
             "generator": {
-                "title": "",
-                "bulk-mode": "",
-                "bulk-mode-description": "",
-                "user-count": "",
-                "post-count": "",
-                "date": "",
-                "date-start-placeholder": "",
-                "date-interval-placeholder": "",
-                "send": ""
+                "title": "ව්‍යාජ පිළිතුරු ජනනය කරන්න",
+                "bulk-mode": "=> migratetoflarum-fake-data.ref.bulk-mode",
+                "bulk-mode-description": "=> migratetoflarum-fake-data.ref.bulk-mode-description",
+                "user-count": "=> migratetoflarum-fake-data.ref.user-count",
+                "post-count": "=> migratetoflarum-fake-data.ref.post-count",
+                "date": "=> migratetoflarum-fake-data.ref.date",
+                "date-start-placeholder": "=> migratetoflarum-fake-data.ref.date-start-placeholder",
+                "date-interval-placeholder": "=> migratetoflarum-fake-data.ref.date-interval-placeholder",
+                "send": "=> migratetoflarum-fake-data.ref.send"
             }
         },
         "api": {

@@ -1,0 +1,30 @@
+{
+    "flarum-suspend": {
+        "admin": {
+            "permissions": {
+                "suspend_users_label": "Zabokovat uživatele"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "user_suspended_text": "{username} tě zablokoval za {timeReadable}",
+                "user_unsuspended_text": "{username} tě odblokoval"
+            },
+            "suspend_user": {
+                "indefinitely_label": "Zablokován navždy",
+                "limited_time_days_text": " dnů",
+                "limited_time_label": "Zablokován na určitý čas...",
+                "not_suspended_label": "Nezablokován",
+                "status_heading": "Status Zablokování",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Zablokovat {username}"
+            },
+            "user_badge": {
+                "suspended_tooltip": "Zablokován"
+            },
+            "user_controls": {
+                "suspend_button": "Zablokovat"
+            }
+        }
+    }
+}
