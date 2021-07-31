@@ -22,7 +22,7 @@ return [
 	'subsplits' => require __DIR__ . '/config/subsplits.php',
 	'ignoredExtensions' => require __DIR__ . '/config/ignored-extensions.php',
 	'unsupportedVersions' => [
-		'0.1.0-beta.13',
+		'0.1.0-beta.16',
 	],
 	'supportedVersions' => [
 		'1.0.0',
