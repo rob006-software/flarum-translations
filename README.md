@@ -478,7 +478,6 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`sycho-advanced-extension-categories`](https://weblate.rob006.net/projects/flarum/sycho-advanced-extension-categories) | [`sycho/flarum-advanced-extension-categories`](https://github.com/SychO9/flarum-advanced-extension-categories) |
 | [`sycho-github-milestone`](https://weblate.rob006.net/projects/flarum/sycho-github-milestone) | [`sycho/flarum-github-milestone`](https://github.com/SychO9/flarum-github-milestone) |
 | [`sycho-profile-cover`](https://weblate.rob006.net/projects/flarum/sycho-profile-cover) | [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover) |
-| [`tank-perspective`](https://weblate.rob006.net/projects/flarum/tank-perspective) | [`tank/perspective`](https://github.com/flarum-tank/flarum-perspective) |
 | [`the-turk-diff`](https://weblate.rob006.net/projects/flarum/the-turk-diff) | [`the-turk/flarum-diff`](https://github.com/the-turk/flarum-diff) |
 | [`the-turk-flamoji`](https://weblate.rob006.net/projects/flarum/the-turk-flamoji) | [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji) |
 | [`the-turk-mathren`](https://weblate.rob006.net/projects/flarum/the-turk-mathren) | [`the-turk/flarum-mathren`](https://github.com/the-turk/flarum-mathren) |
