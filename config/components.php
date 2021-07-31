@@ -131,7 +131,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-scratchpad/1.5.1/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-shadow-ban' => [
-		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-shadow-ban/1.0.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-shadow-ban/1.0.2/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-status' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-status/1.0.0/resources/locale/en.yml',
