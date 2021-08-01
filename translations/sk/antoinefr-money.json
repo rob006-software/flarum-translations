@@ -6,23 +6,23 @@
                 "moneyforpost": "Peniaze za nový príspevok",
                 "moneyfordiscussion": "Peniaze za novú diskusiu",
                 "moneyname": "Meno peňazí (napr.: [money] peňazí)",
-                "postminimumlength": "",
-                "noshowzero": "",
-                "moneyforlike": "",
-                "helpextensionlikes": ""
+                "postminimumlength": "Minimálna dĺžka príspevku pre získanie peňazí (0 pre zakázanie)",
+                "noshowzero": "Nezobrazovať, pokiaľ je hodnota nulová",
+                "moneyforlike": "Peniaze za označenie \"páči sa mi\"",
+                "helpextensionlikes": "Je potrebný doplnok <code>flarum/likes</code>"
             },
             "permissions": {
-                "edit_money_label": ""
+                "edit_money_label": "Upraviť peniaze"
             }
         },
         "forum": {
             "user_controls": {
-                "money_button": ""
+                "money_button": "Upraviť peniaze"
             },
             "modal": {
-                "title": "",
-                "current": "",
-                "submit_button": ""
+                "title": "Peniaze používateľa {username}",
+                "current": "Teraz:",
+                "submit_button": "=> core.ref.save_changes"
             }
         }
     }
