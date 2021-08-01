@@ -1,0 +1,18 @@
+{
+    "clarkwinkelmann-email-whitelist": {
+        "admin": {
+            "settings": {
+                "regex": "Regular Expression",
+                "regexHelp": "Switch from domain list to regular expression check. Each line of the list must be a valid regular expression with delimiters.\n",
+                "message": "Custom Error Message",
+                "whitelist": "Whitelist",
+                "whitelistHelp": "One expression per line. Will have priority over the blacklist.\n",
+                "blacklist": "Blacklist",
+                "blacklistHelp": "One expression per line. If a blacklist is provided, everything not listed will be whitelisted.\n"
+            }
+        },
+        "api": {
+            "fallbackMessage": "The email is not whitelisted."
+        }
+    }
+}
