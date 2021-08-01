@@ -139,6 +139,9 @@ return [
 	'clarkwinkelmann-translation-inspector' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-translation-inspector/0.1.0/resources/locale/en.yml',
 	],
+	'clarkwinkelmann-username-blacklist' => [
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-username-blacklist/1.0.0/resources/locale/en.yml',
+	],
 	'clarkwinkelmann-who-read' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-who-read/1.4.0/resources/locale/en.yml',
 	],
