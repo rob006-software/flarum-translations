@@ -2,19 +2,19 @@
     "nearata-dsts": {
         "admin": {
             "permissions": {
-                "can_bypass_like": "",
-                "can_bypass_reply": ""
+                "can_bypass_like": "无需点赞即可查看首贴",
+                "can_bypass_reply": "无需回复即可查看首贴"
             },
             "settings": {
-                "require_like": "",
-                "require_like_help": "",
-                "require_reply": ""
+                "require_like": "需要点赞",
+                "require_like_help": "注意：需要 Flarum Likes 扩展程序。",
+                "require_reply": "需要回复"
             }
         },
         "forum": {
-            "like": "",
-            "login": "",
-            "reply": ""
+            "like": "点赞以解锁内容",
+            "login": "登录以查看内容",
+            "reply": "回复以解锁内容"
         }
     }
 }
