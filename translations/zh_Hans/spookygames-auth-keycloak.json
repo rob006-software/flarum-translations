@@ -2,15 +2,15 @@
     "flarum-ext-auth-keycloak": {
         "admin": {
             "keycloak_settings": {
-                "title": "",
-                "server_url_label": "",
-                "realm_label": "",
-                "client_id_label": "",
-                "client_secret_label": "",
-                "encryption_algorithm_label": "",
-                "encryption_key_label": "",
-                "role_mapping_label": "",
-                "delegate_avatars_label": ""
+                "title": "Keycloak 设置",
+                "server_url_label": "服务器地址",
+                "realm_label": "Realm",
+                "client_id_label": "Client ID",
+                "client_secret_label": "Client Secret",
+                "encryption_algorithm_label": "加密算法",
+                "encryption_key_label": "加密秘钥（或证书）",
+                "role_mapping_label": "角色到用户组映射",
+                "delegate_avatars_label": "代理头像"
             }
         }
     }
