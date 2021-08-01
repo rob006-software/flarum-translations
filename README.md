@@ -439,6 +439,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`justoverclock-socialcards`](https://weblate.rob006.net/projects/flarum/justoverclock-socialcards) | [`justoverclock/flarum-ext-socialcards`](https://github.com/justoverclockl/flarum-ext-socialcards) |
 | [`justoverclock-toastme`](https://weblate.rob006.net/projects/flarum/justoverclock-toastme) | [`justoverclock/flarum-ext-toastme`](https://github.com/justoverclockl/flarum-ext-toastme) |
 | [`justoverclock-welcomebox`](https://weblate.rob006.net/projects/flarum/justoverclock-welcomebox) | [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox) |
+| [`justoverclock-geo-weather`](https://weblate.rob006.net/projects/flarum/justoverclock-geo-weather) | [`justoverclock/geo-weather`](https://github.com/justoverclockl/geo-weather) |
 | [`justoverclock-header-slideshow`](https://weblate.rob006.net/projects/flarum/justoverclock-header-slideshow) | [`justoverclock/header-slideshow`](https://github.com/justoverclockl/header-slideshow) |
 | [`justoverclock-image-gallery`](https://weblate.rob006.net/projects/flarum/justoverclock-image-gallery) | [`justoverclock/image-gallery`](https://github.com/justoverclockl/image-gallery) |
 | [`justoverclock-og-meta-tag`](https://weblate.rob006.net/projects/flarum/justoverclock-og-meta-tag) | [`justoverclock/og-meta-tag`](https://github.com/justoverclockl/og-meta-tag) |
