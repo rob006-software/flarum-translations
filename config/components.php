@@ -37,6 +37,9 @@ return [
 	'afrux-online-users-widget' => [
 		'tag' => 'https://raw.githubusercontent.com/afrux/online-users-widget/v0.1.1/locale/en.yml',
 	],
+	'afrux-top-posters-widget' => [
+		'tag' => 'https://raw.githubusercontent.com/afrux/top-posters-widget/v0.1.1/locale/en.yml',
+	],
 	'antoinefr-money' => [
 		'tag' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-money/v1.1.0/locale/en.yml',
 	],
