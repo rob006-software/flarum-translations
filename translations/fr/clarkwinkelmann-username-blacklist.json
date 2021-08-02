@@ -2,17 +2,17 @@
     "clarkwinkelmann-username-blacklist": {
         "admin": {
             "settings": {
-                "regex": "",
-                "regexHelp": "",
-                "message": "",
-                "blacklist": "",
-                "blacklistHelp": "",
-                "whitelist": "",
-                "whitelistHelp": ""
+                "regex": "Expression régulière",
+                "regexHelp": "Basculer de la liste des domaines à la vérification des expressions régulières. Chaque ligne de la liste doit être une expression régulière valide avec des délimiteurs.\n",
+                "message": "Message d'erreur personnalisé",
+                "blacklist": "Liste noire",
+                "blacklistHelp": "Une expression par ligne. Si aucune liste noire n'est fournie, tout ce qui ne figure pas sur la liste blanche sera rejeté.\n",
+                "whitelist": "Liste blanche",
+                "whitelistHelp": "Une expression par ligne. Aura la priorité sur la liste noire.\n"
             }
         },
         "api": {
-            "fallbackMessage": ""
+            "fallbackMessage": "Le nom d'utilisateur n'est pas sur la liste blanche."
         }
     }
 }
