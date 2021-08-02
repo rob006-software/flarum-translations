@@ -1,60 +1,60 @@
 {
     "justoverclock-feedback": {
         "admin": {
-            "contactmail": "",
-            "feedback1-title": "",
-            "feedback1-title-help": "",
-            "feedback1-icon": "",
-            "feedback1-icon-help": "",
-            "feedback2-title": "",
-            "feedback2-title-help": "",
-            "feedback2-icon": "",
-            "feedback2-icon-help": "",
-            "feedback3-title": "",
-            "feedback3-title-help": "",
-            "feedback3-icon": "",
-            "feedback3-icon-help": "",
-            "contactdesc": "",
-            "collect-email": "",
-            "collect-email-help": "",
-            "position": "",
-            "position-help": "",
-            "right_label": "",
-            "left_label": "",
-            "background-color": "",
-            "background-color-help": "",
-            "font-color": "",
-            "font-color-help": "",
-            "box-title": "",
-            "box-title-help": ""
+            "contactmail": "反馈接收邮箱地址",
+            "feedback1-title": "反馈类型 1",
+            "feedback1-title-help": "自定义反馈类型 1 名称",
+            "feedback1-icon": "反馈类型 1 图标",
+            "feedback1-icon-help": "输入一个表情符号（如 ⚠️，☎️，✏️」。Windows 按下 Win + 句点(.) 键可打开表情符号窗口。MacOS 按 🌐",
+            "feedback2-title": "反馈类型 2",
+            "feedback2-title-help": "自定义反馈类型 2 名称",
+            "feedback2-icon": "反馈类型 2 图标",
+            "feedback2-icon-help": "输入一个表情符号（如 ⚠️，☎️，✏️」。Windows 按下 Win + 句点(.) 键可打开表情符号窗口。MacOS 按 🌐",
+            "feedback3-title": "反馈类型 3",
+            "feedback3-title-help": "自定义反馈类型 3 名称",
+            "feedback3-icon": "反馈类型 3 图标",
+            "feedback3-icon-help": "输入一个表情符号（如 ⚠️，☎️，✏️」。Windows 按下 Win + 句点(.) 键可打开表情符号窗口。MacOS 按 🌐",
+            "contactdesc": "请完整输入邮箱地址以启用反馈按钮",
+            "collect-email": "（可选）允许用户填写邮箱",
+            "collect-email-help": "启用后，用户在反馈时可填写自己的邮箱地址",
+            "position": "按钮位置",
+            "position-help": "反馈按钮的显示位置",
+            "right_label": "右下",
+            "left_label": "左下",
+            "background-color": "按钮背景色",
+            "background-color-help": "填写十六进制颜色代码，如 #fff",
+            "font-color": "按钮文本色",
+            "font-color-help": "填写十六进制颜色代码，如 #fff",
+            "box-title": "反馈弹窗标题",
+            "box-title-help": "设置反馈弹窗的标题"
         },
         "api": {
-            "validation_error": ""
+            "validation_error": "反馈内容为空"
         },
         "forum": {
-            "button-title": "",
+            "button-title": "意见反馈",
             "feedback-widget": {
-                "title": "",
-                "placeholder": "",
-                "email-placeholder": "",
-                "submit": "",
-                "back": "",
-                "contact-text": "",
-                "type-message": "",
-                "success": "",
-                "failed-title": "",
-                "failed-message": "",
-                "email-field-placeholder": "",
+                "title": "Flarum 意见反馈",
+                "placeholder": "在此填写内容",
+                "email-placeholder": "回信邮箱（可选）",
+                "submit": "提交",
+                "back": "返回",
+                "contact-text": "或者发送一封邮件",
+                "type-message": "您想反馈什么内容？",
+                "success": "非常感谢！👊",
+                "failed-title": "哎呀，出错啦",
+                "failed-message": "若重试后依旧如此，请尝试直接发送邮件给我们。",
+                "email-field-placeholder": "回信邮箱（可选）",
                 "types": {
-                    "general": "",
-                    "idea": "",
-                    "bug": ""
+                    "general": "常规反馈",
+                    "idea": "新点子",
+                    "bug": "Bug 报告"
                 }
             },
             "email": {
-                "guest": "",
-                "subject": "",
-                "body": ""
+                "guest": "一位匿名用户",
+                "subject": "意见反馈",
+                "body": "来自用户 {user} 的新 {type} 意见反馈！\n\n{message}\n\n回信邮箱：{email}\n链接：{url}\n"
             }
         }
     }
