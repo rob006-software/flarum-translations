@@ -1,15 +1,15 @@
 {
     "geo-weather": {
         "forum": {
-            "unknown": "",
-            "temp": "",
-            "not-supported": ""
+            "unknown": "未知地区",
+            "temp": "0°",
+            "not-supported": "您正在使用的浏览器不支持定位。"
         },
         "admin": {
-            "apiKey": "",
-            "apiKey-help": "",
-            "lang": "",
-            "lang-help": ""
+            "apiKey": "Api Key",
+            "apiKey-help": "粘贴在 https://openweathermap.org/api 生成的 Api 秘钥",
+            "lang": "输出语言（只允许输入一种语言）",
+            "lang-help": "天气信息以何种语言显示？请只填写一种语言代码，语言代码请查看 <strong>https://openweathermap.org/api/one-call-api#multi</strong>"
         }
     }
 }
