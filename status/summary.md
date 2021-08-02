@@ -107,6 +107,7 @@
 | --- | --- |
 | [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/acpl-mobile-tab/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/acpl-mobile-tab/) |
 | [`acpl/my-tags`](https://github.com/android-com-pl/my-tags) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/acpl-my-tags/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/acpl-my-tags/) |
+| [`afrux/forum-stats-widget`](https://github.com/afrux/forum-stats-widget) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/afrux-forum-stats-widget/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/afrux-forum-stats-widget/) |
 | [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/antoinefr-money/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/antoinefr-money/) |
 | [`antoinefr/flarum-ext-online`](https://github.com/AntoineFr/flarum-ext-online) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/antoinefr-online/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/antoinefr-online/) |
 | [`askvortsov/flarum-auto-moderator`](https://github.com/askvortsov1/flarum-auto-moderator) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/askvortsov-auto-moderator/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/askvortsov-auto-moderator/) |
