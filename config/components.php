@@ -28,6 +28,15 @@ return [
 	'acpl-my-tags' => [
 		'tag' => 'https://raw.githubusercontent.com/android-com-pl/my-tags/1.1.0/locale/en.yml',
 	],
+	'afrux-forum-stats-widget' => [
+		'tag' => 'https://raw.githubusercontent.com/afrux/forum-stats-widget/v0.1.0/locale/en.yml',
+	],
+	'afrux-news-widget' => [
+		'tag' => 'https://raw.githubusercontent.com/afrux/news-widget/v0.1.0/locale/en.yml',
+	],
+	'afrux-online-users-widget' => [
+		'tag' => 'https://raw.githubusercontent.com/afrux/online-users-widget/v0.1.1/locale/en.yml',
+	],
 	'afrux-top-posters-widget' => [
 		'tag' => 'https://raw.githubusercontent.com/afrux/top-posters-widget/v0.1.1/locale/en.yml',
 	],
