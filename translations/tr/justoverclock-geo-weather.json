@@ -1,15 +1,15 @@
 {
     "geo-weather": {
         "forum": {
-            "unknown": "",
-            "temp": "",
-            "not-supported": ""
+            "unknown": "bilinmeyen",
+            "temp": "0°",
+            "not-supported": "Kullandığınız tarayıcı ile yerinizi tespit edemiyoruz."
         },
         "admin": {
-            "apiKey": "",
-            "apiKey-help": "",
-            "lang": "",
-            "lang-help": ""
+            "apiKey": "API Anahtarı",
+            "apiKey-help": "https://openweathermap.org/api adresinden oluşturacağınız API Anahtarınızı yapıştırın",
+            "lang": "Dili Seçin (yalnızca 1 tane)",
+            "lang-help": "bu alana dil önekiniz (ör. tr, fr, en) gider, sizinkini <strong>https://openweathermap.org/api/one-call-api#multi</strong> adresinden kontrol edin"
         }
     }
 }
