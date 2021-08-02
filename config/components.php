@@ -31,6 +31,9 @@ return [
 	'afrux-forum-stats-widget' => [
 		'tag' => 'https://raw.githubusercontent.com/afrux/forum-stats-widget/v0.1.0/locale/en.yml',
 	],
+	'afrux-news-widget' => [
+		'tag' => 'https://raw.githubusercontent.com/afrux/news-widget/v0.1.0/locale/en.yml',
+	],
 	'antoinefr-money' => [
 		'tag' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-money/v1.1.0/locale/en.yml',
 	],
