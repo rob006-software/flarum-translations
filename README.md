@@ -370,6 +370,9 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`acpl-mobile-tab`](https://weblate.rob006.net/projects/flarum/acpl-mobile-tab) | [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) |
 | [`acpl-my-tags`](https://weblate.rob006.net/projects/flarum/acpl-my-tags) | [`acpl/my-tags`](https://github.com/android-com-pl/my-tags) |
 | [`afrux-forum-stats-widget`](https://weblate.rob006.net/projects/flarum/afrux-forum-stats-widget) | [`afrux/forum-stats-widget`](https://github.com/afrux/forum-stats-widget) |
+| [`afrux-news-widget`](https://weblate.rob006.net/projects/flarum/afrux-news-widget) | [`afrux/news-widget`](https://github.com/afrux/news-widget) |
+| [`afrux-online-users-widget`](https://weblate.rob006.net/projects/flarum/afrux-online-users-widget) | [`afrux/online-users-widget`](https://github.com/afrux/online-users-widget) |
+| [`afrux-top-posters-widget`](https://weblate.rob006.net/projects/flarum/afrux-top-posters-widget) | [`afrux/top-posters-widget`](https://github.com/afrux/top-posters-widget) |
 | [`antoinefr-money`](https://weblate.rob006.net/projects/flarum/antoinefr-money) | [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money) |
 | [`antoinefr-online`](https://weblate.rob006.net/projects/flarum/antoinefr-online) | [`antoinefr/flarum-ext-online`](https://github.com/AntoineFr/flarum-ext-online) |
 | [`askvortsov-auto-moderator`](https://weblate.rob006.net/projects/flarum/askvortsov-auto-moderator) | [`askvortsov/flarum-auto-moderator`](https://github.com/askvortsov1/flarum-auto-moderator) |
