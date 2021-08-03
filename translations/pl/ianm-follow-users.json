@@ -35,8 +35,8 @@
             },
             "badge": {
                 "label": {
-                    "follow": "",
-                    "lurk": ""
+                    "follow": "Obserwujesz dyskusje",
+                    "lurk": "Obserwujesz wszystko"
                 }
             },
             "filter": {
@@ -44,11 +44,11 @@
             },
             "modals": {
                 "select_follow_level": {
-                    "title": "",
-                    "description": "",
-                    "follow_levels_heading": "",
-                    "follow_select_label": "",
-                    "no_user_attr_provided_err": "",
+                    "title": "Wybierz poziom obserwowania dla {username}",
+                    "description": "Wybierz w jaki sposób chciałbyś obserwować <em>{username}</em>.",
+                    "follow_levels_heading": "Poziomy obserwowania",
+                    "follow_select_label": "Typ obserwowania",
+                    "no_user_attr_provided_err": "Ups, coś poszło nie tak podczas otwierania tego okienka.",
                     "no_user_attr_provided_err_debug": "",
                     "save_btn": "Zapisz",
                     "cancel_btn": "Anuluj"
@@ -66,19 +66,19 @@
         "lib": {
             "following_link": "Obserwowani użytkownicy",
             "follow": "Obserwuj",
-            "change_follow_type": "",
+            "change_follow_type": "Ustawienia obserwowania",
             "follow_levels": {
                 "unfollow": {
-                    "name": "",
-                    "description": ""
+                    "name": "Nie obserwuj",
+                    "description": "Nie otrzymuj powiadomień o aktywności <em>{username}</em>.\n"
                 },
                 "follow": {
-                    "name": "",
-                    "description": ""
+                    "name": "Obserwuj dyskusje",
+                    "description": "Otrzymuj powiadomienia, gdy <em>{username}</em> rozpocznie nową dyskusję.\n"
                 },
                 "lurk": {
-                    "name": "",
-                    "description": ""
+                    "name": "Obserwuj wszystko",
+                    "description": "Otrzymuj powiadomienia, gdy <em>{username}</em> rozpocznie nową dyskusję lub doda post w istniejącej dyskusji.\n"
                 }
             }
         }
