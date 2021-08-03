@@ -424,6 +424,9 @@ return [
 	'glowingblue-redis-setup' => [
 		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-redis-setup/1.0.3/resources/locale/en.yml',
 	],
+	'glowingblue-typeform' => [
+		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/glowingblue-typeform.yml',
+	],
 	'hehongyuanlove-auth-qq' => [
 		'tag' => 'https://raw.githubusercontent.com/Hehongyuanlove/flarum-auth-qq/v1.5/resources/locale/en.yml',
 	],
