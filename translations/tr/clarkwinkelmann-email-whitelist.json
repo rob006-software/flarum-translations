@@ -2,17 +2,17 @@
     "clarkwinkelmann-email-whitelist": {
         "admin": {
             "settings": {
-                "regex": "",
-                "regexHelp": "",
+                "regex": "Düzenli İfade",
+                "regexHelp": "Alan adı listesinden düzenli ifade kontrolüne geçin. Listenin her satırı, sınırlayıcılarla birlikte geçerli bir normal ifade olmalıdır.\n",
                 "message": "Özel Hata Mesajı",
                 "whitelist": "Beyaz Liste",
-                "whitelistHelp": "",
+                "whitelistHelp": "Satır başına bir ifade. Kara listeye göre önceliğe sahip olacak.\n",
                 "blacklist": "Kara Liste",
-                "blacklistHelp": ""
+                "blacklistHelp": "Satır başına bir ifade. Bir kara liste sağlanırsa, listelenmeyen her şey beyaz listeye alınır.\n"
             }
         },
         "api": {
-            "fallbackMessage": ""
+            "fallbackMessage": "E-posta beyaz listede değil."
         }
     }
 }
