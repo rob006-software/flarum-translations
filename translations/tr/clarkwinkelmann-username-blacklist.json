@@ -2,17 +2,17 @@
     "clarkwinkelmann-username-blacklist": {
         "admin": {
             "settings": {
-                "regex": "",
-                "regexHelp": "",
+                "regex": "Düzenli İfade",
+                "regexHelp": "Alan adı listesinden düzenli ifade kontrolüne geçin. Listenin her satırı, sınırlayıcılarla birlikte geçerli bir normal ifade olmalıdır.\n",
                 "message": "Özel Hata Mesajı",
                 "blacklist": "Kara Liste",
-                "blacklistHelp": "",
+                "blacklistHelp": "Satır başına bir ifade. Kara liste sağlanmazsa, beyaz listeye alınmayan her şey reddedilir.\n",
                 "whitelist": "Beyaz Liste",
-                "whitelistHelp": ""
+                "whitelistHelp": "Satır başına bir ifade. Kara listeye göre önceliğe sahip olacak.\n"
             }
         },
         "api": {
-            "fallbackMessage": ""
+            "fallbackMessage": "Kullanıcı adı beyaz listede değil."
         }
     }
 }
