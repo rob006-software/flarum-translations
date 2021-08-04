@@ -7,9 +7,9 @@
             "edit_tag": {
                 "color_label": "=> core.ref.color",
                 "delete_tag_button": "Odstrániť Štítok",
-                "delete_tag_confirmation": "Si si istý že chceš odstrániť tento štítok? Diskusie označené týmto štítkom NEBUDÚ odstránené.",
+                "delete_tag_confirmation": "Ste si istý že chcete odstrániť tento štítok? Diskusie označené týmto štítkom NEBUDÚ odstránené.",
                 "description_label": "Popis",
-                "hide_label": "Skryť zo Všetkých Diskusií",
+                "hide_label": "Skryť zo zoznamu \"Všetky Diskusie\"",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "name_label": "=> flarum-tags.ref.name",
@@ -20,42 +20,42 @@
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
-                "tags_text": "Spravuj zoznam dostupných štítkov pre organizovanie diskusií."
+                "tags_text": "Spravujte zoznam dostupných štítkov pre organizovanie diskusií."
             },
             "permissions": {
                 "allow_edit_tags_label": "Umožniť upravovanie štítkov",
-                "bypass_tag_counts_label": "",
-                "restrict_by_tag_heading": "Obmedziť Štítkom",
-                "tag_discussions_label": "Oštítkovať diskusie"
+                "bypass_tag_counts_label": "Obísť požiadavky pre štítky",
+                "restrict_by_tag_heading": "Obmedziť štítkom",
+                "tag_discussions_label": "Označiť diskusie štítkom"
             },
             "tag_settings": {
                 "range_separator_text": " po ",
-                "required_primary_heading": "Požadované Množstvo Hlavných Štítkov",
-                "required_primary_text": "Zadaj minimálne a maximálne množstvo hlavných štítkov ktorými sa smie oštítkovať diskusia.",
-                "required_secondary_heading": "Požadované Množstvo Vedľajších Štítkov",
-                "required_secondary_text": "Zadaj minimálne a maximálne množstvo vedľajších štítkov ktorými sa smie oštítkovať diskusia.",
-                "title": "Nastavenia Štítkov"
+                "required_primary_heading": "Požadované množstvo hlavných štítkov",
+                "required_primary_text": "Zadajte minimálne a maximálne množstvo hlavných štítkov ktorými sa smie označiť diskusia.",
+                "required_secondary_heading": "Požadované množstvo vedľajších štítkov",
+                "required_secondary_text": "Zadajte minimálne a maximálne množstvo vedľajších štítkov ktorými sa smie označiť diskusia.",
+                "title": "Nastavenia štítkov"
             },
             "tags": {
-                "about_tags_text": "Štítky slúžia na označenie diskusií. Hlavné štítky sú ako tradičné fórumové kategórie: môžu byť usporiadané v 2-levelovej hierarchii. Vedľajšie štítky nemajú hierarchiu alebo zoradenie a sú užitočné pre mikrokategorizáciu.",
-                "create_primary_tag_button": "Vytvoriť Hlavný Štítok",
-                "create_secondary_tag_button": "Vytvoriť Vedľajší Štítok",
-                "primary_heading": "Hlavné Štítky",
-                "secondary_heading": "Vedľajšie Štítky",
+                "about_tags_text": "Štítky slúžia na označenie diskusií. Hlavné štítky sú ako tradičné kategórie fór: môžu byť usporiadané v 2-levelovej hierarchii. Vedľajšie štítky nemajú hierarchiu alebo zoradenie a sú užitočné pre mikro-kategorizáciu.",
+                "create_primary_tag_button": "Vytvoriť hlavný štítok",
+                "create_secondary_tag_button": "Vytvoriť vedľajší štítok",
+                "primary_heading": "Hlavné štítky",
+                "secondary_heading": "Vedľajšie štítky",
                 "settings_heading": "Nastavenia"
             }
         },
         "forum": {
             "all_tags": {
-                "meta_description_text": "Všetky Štítky",
+                "meta_description_text": "Všetky štítky",
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
-                "choose_primary_placeholder": "Vyber 1 hlavný štítok|Vyber ešte {count} hlavné/ých štítky/ov",
-                "choose_secondary_placeholder": "Vyber 1 vedľajší štítok|Vyber ešte {count} vedľajšie/ích štítky/ov",
-                "edit_title": "Uprav štítky pre {title}",
+                "choose_primary_placeholder": "{count, plural, one {Vyberte hlavný štítok} few {Vyberte # hlavné štítky} other {Vyberte # hlavných štítkov}}",
+                "choose_secondary_placeholder": "{count, plural, one {Vyberte ešte jeden štítok} few {Vyberte ešte # štítky} other {Vyberte ešte # štítkov}}",
+                "edit_title": "Upraviť štítky pre {title}",
                 "submit_button": "=> core.ref.okay",
-                "title": "Vyber si štítky pre označenie tvojej diskusie"
+                "title": "Vyberte si štítky pre označenie Vašej diskusie"
             },
             "composer_discussion": {
                 "choose_tags_link": "Vybrať Štítky"
@@ -69,20 +69,20 @@
             "index": {
                 "more_link": "Viac...",
                 "tags_link": "=> flarum-tags.ref.tags",
-                "untagged_link": "Neoštítkované"
+                "untagged_link": "Neoznačené štítkami"
             },
             "post_stream": {
-                "added_and_removed_tags_text": "{username} pridal štítky {tagsAdded} a odstránil štítky {tagsRemoved}.",
-                "added_tags_text": "{username} pridal štítky {tagsAdded}.",
-                "removed_tags_text": "{username} odstránil štítky {tagsRemoved}.",
-                "tags_text": "{tags} štítok|{tags} štítky/ov"
+                "added_and_removed_tags_text": "Používateľ {username} pridal štítky {tagsAdded} a odstránil štítky {tagsRemoved}.",
+                "added_tags_text": "Používateľ {username} pridal štítky {tagsAdded}.",
+                "removed_tags_text": "Používateľ {username} odstránil štítky {tagsRemoved}.",
+                "tags_text": "{count, plural, one {{tags} štítok} few {{tags} štítky} other {{tags} štítkov}}"
             },
             "tag": {
                 "meta_description_text": "Všetky diskusie so štítkom {tag}"
             }
         },
         "lib": {
-            "deleted_tag_text": "Odstránený Štítok"
+            "deleted_tag_text": "Odstránený"
         },
         "ref": {
             "name": "Názov",
