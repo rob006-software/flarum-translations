@@ -2,28 +2,28 @@
     "core": {
         "forum": {
             "index_sort": {
-                "popular_button": "",
-                "unpopular_button": ""
+                "popular_button": "Populárne",
+                "unpopular_button": "Nepopulárne"
             }
         }
     },
     "michaelbelgium-discussion-views": {
         "forum": {
             "modal_resetviews": {
-                "title": "",
-                "submit_button": "",
-                "label": ""
+                "title": "Resetovať počet zobrazení pre diskusiu.",
+                "submit_button": "Áno, odstrániť všetky.",
+                "label": "{count, plural, one {Toto odstráni {count} zobrazenie tejto diskusie. Pokračovať?} few {Toto odstráni {count} zobrazenia tejto diskusie. Pokračovať?} other {Toto odstráni {count} zobrazení tejto diskusie. Pokračovať?}}"
             },
             "discussion_controls": {
-                "resetviews_button": ""
+                "resetviews_button": "Resetovať zobrazenia."
             },
             "viewlist": {
-                "title": ""
+                "title": "Najnovší diváci"
             }
         },
         "admin": {
             "permissions": {
-                "reset_views_label": "",
+                "reset_views_label": "Resetovať zhliadnutia diskusie",
                 "view_number_label": ""
             },
             "settings": {
