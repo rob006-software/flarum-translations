@@ -7,8 +7,8 @@
             },
             "discussion_controls": {
                 "follow_button": "=> flarum-subscriptions.ref.follow",
-                "unfollow_button": "Nesledovať",
-                "unignore_button": "Neignorovať"
+                "unfollow_button": "Zrušiť sledovanie",
+                "unignore_button": "Zrušiť ignorovanie"
             },
             "following": {
                 "meta_title_text": "=> flarum-subscriptions.ref.following"
@@ -29,16 +29,16 @@
                 "following_text": "Upozorniť ma na všetky nové príspevky",
                 "ignoring_button": "Ignorovať",
                 "ignoring_text": "Nikdy ma neupozorniť. Skryť v zozname diskusií",
-                "not_following_button": "Nesledovať",
-                "not_following_text": "Buď upozornený iba keď budeš @spomenutý.",
-                "notify_alert_tooltip": "Dostávať fórum notifikácie keď tu pribudnú príspevky",
-                "notify_email_tooltip": "Dostávať E-Maily keď tu pribudnú príspevky"
+                "not_following_button": "Nesledované",
+                "not_following_text": "Buďte upozornený iba keď budete @spomenutý.",
+                "notify_alert_tooltip": "Dostať notifikáciu na fóre keď tu pribudnú príspevky",
+                "notify_email_tooltip": "Dostať E-mail keď tu pribudnú nové príspevky."
             }
         },
         "email": {
             "new_post": {
                 "subject": "[Nový Príspevok] {title}",
-                "body": "Ahoj {recipient_display_name}!\n\n{poster_display_name} pridal príspevok v diskusii ktorú sleduješ: {title}.\n\nKlikni na nasledujúci odkaz pre zobrazenie novej aktivity:\n{url}\n\n---\n\n{content}\n\n---\n\nNedostaneš žiadne ďalšie upozornenia o tejto diskusii pokiaľ si ju nepozrieš.\n"
+                "body": "Ahoj {recipient_display_name}!\n\n{poster_display_name} pridal príspevok v diskusii ktorú sledujete: {title}.\n\nKliknite na nasledujúci odkaz pre zobrazenie novej aktivity:\n{url}\n\n---\n\n{content}\n\n---\n\nNedostanete žiadne ďalšie upozornenia o tejto diskusii, pokiaľ si ju nepozriete.\n"
             }
         },
         "ref": {
