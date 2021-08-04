@@ -2,38 +2,38 @@
     "fof-subscribed": {
         "forum": {
             "settings": {
-                "defaults_label": "",
-                "forced_label": "",
-                "notify_discussion_created_label": "",
-                "notify_post_unapproved_label": "",
-                "notify_user_created_label": ""
+                "defaults_label": "Nastaviť \"{setting}\" ako predvolené",
+                "forced_label": "Vynútiť nastavenie \"{setting}\" pre každého",
+                "notify_discussion_created_label": "Niekto vytvorí diskusiu",
+                "notify_post_unapproved_label": "Vytvorený príspevok potrebuje schválenie",
+                "notify_user_created_label": "Keď sa niekto zaregistruje"
             },
             "notifications": {
-                "discussion_created_text": "",
-                "post_unapproved_text": "",
-                "user_created_text": ""
+                "discussion_created_text": "Používateľ {username} vytvoril novú diskusiu",
+                "post_unapproved_text": "Používateľ {username} vytvoril nový príspevok ktorý potrebuje schválenie",
+                "user_created_text": "Používateľ {username} sa práve zaregistroval"
             }
         },
         "admin": {
             "menu": {
-                "description": ""
+                "description": "Konfigurovať {default} odbery používateľov"
             },
             "permission": {
-                "subscribe_to_discussion_created": "",
-                "subscribe_to_post_unapproved": "",
-                "subscribe_to_user_created": ""
+                "subscribe_to_discussion_created": "Povolený prijímať oznámenia o novej diskusii",
+                "subscribe_to_post_unapproved": "Povolený prijímať oznámenia o novom neschválenom príspevku",
+                "subscribe_to_user_created": "Povolený prijímať oznámenia o novom registrovanom používateľovi"
             }
         },
         "email": {
             "subject": {
-                "newDiscussion": "",
-                "newUser": "",
-                "postUnapproved": ""
+                "newDiscussion": "[ Odber | Nová Diskusia] {title}",
+                "newUser": "[ Odber | Nový používateľ] {username}",
+                "postUnapproved": "[ Odber | Neschválený príspevok] Používateľ {username} publikoval v {title}"
             },
             "body": {
-                "newDiscussion": "",
-                "newUser": "",
-                "postUnapproved": ""
+                "newDiscussion": "Ahoj {recipient_display_name},\n\n{actor_display_name} začal novú diskusiu: {discussion_title}\n\nPre zobrazenie tejto novej diskusie, prosím kliknite na nasledujúci odkaz:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newUser": "Ahoj {recipient_display_name},\n\nPoužívateľ {actor_display_name} sa práve registroval na {forum_url}.\n\nPre zobrazenie profilu tohto nového používateľa, prosím kliknite na nasledujúci odkaz:\n{user_url}\n",
+                "postUnapproved": "Ahoj {recipient_display_name},\n\n{actor_display_name} vytvoril príspevok ktorý nebol automaticky schválený v {discussion_title}\n\nPre zobrazenie tohto nového príspevku, prosím kliknite na nasledujúci odkaz:\n{post_url}\n\n---\n\n{post_content}\n"
             }
         }
     }
