@@ -1,15 +1,15 @@
 {
     "geo-weather": {
         "forum": {
-            "unknown": "",
-            "temp": "",
-            "not-supported": ""
+            "unknown": "neznáme",
+            "temp": "0°",
+            "not-supported": "Geolokácia nie je podporovaná týmto prehliadačom."
         },
         "admin": {
-            "apiKey": "",
-            "apiKey-help": "",
-            "lang": "",
-            "lang-help": ""
+            "apiKey": "API Kľúč",
+            "apiKey-help": "Vložte svoj bezplatný API kľúč vygenerovaný z https://openweathermap.org/api",
+            "lang": "Vyberte výstupný jazyk (iba 1 predpona)",
+            "lang-help": "do tohto poľa ide predpona Vášho jazyka (napr. it, fr, en), skontrolujte Váš na <strong>https://openweathermap.org/api/one-call-api#multi</strong>"
         }
     }
 }
