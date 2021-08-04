@@ -1,55 +1,55 @@
 {
     "fof-reactions": {
         "forum": {
-            "disabled-reaction": "",
-            "warning": "",
-            "notification": "",
+            "disabled-reaction": "Práve teraz nemôžete použiť túto reakciu, prosím opätovne načítajte stránku",
+            "warning": "Vaša reakcia bola konvertovaná",
+            "notification": "Používateľ {username} reagoval s {reaction} na Váš príspevok",
             "settings": {
-                "notify_post_reacted_label": ""
+                "notify_post_reacted_label": "Niekto reaguje na jeden z mojich príspevkov"
             },
-            "reacting-own-post": "",
+            "reacting-own-post": "Nemôžete reagovať na Váš vlastný príspevok",
             "modal": {
-                "title": ""
+                "title": "Reakcie"
             },
-            "mod_item": ""
+            "mod_item": "Zobraziť reakcie"
         },
         "admin": {
             "permissions": {
-                "react_posts_label": "",
-                "see_reactions_label": ""
+                "react_posts_label": "Reagovať na príspevky",
+                "see_reactions_label": "Zobraziť kto reagoval na príspevky"
             },
             "page": {
                 "reactions": {
-                    "title": "",
-                    "reactions": "",
-                    "Helptext": "",
+                    "title": "Vlastné reakcie",
+                    "reactions": "Aktuálne reakcie",
+                    "Helptext": "Vložte názov {identifier} pre emoji alebo font-awesome ikonu a vyberte aký typ si želáte.",
                     "help": {
-                        "display": "",
-                        "identifier": ""
+                        "display": "Zobraziť",
+                        "identifier": "Identifikátor"
                     }
                 },
                 "convert": {
-                    "help": "",
-                    "button": "",
-                    "converting": "",
-                    "converted": ""
+                    "help": "Ak ste práve aktualizovali Vaše rozšírenia, vaše reakcie bude potrebné konvertovať. Ak ste si práve nainštalovali toto rozšírenie, môžete túto správu bezpečne ignorovať.",
+                    "button": "Konvertovať staré reakcie",
+                    "converting": "Vaše reakcie sa teraz konvertujú. Obnovte stránku po niekoľkých minútach, pokiaľ chcete vidieť proces konvertovania. (Čas prevodu môže chvíľu trvať, v závislosti od celkového počtu vašich reakcií)",
+                    "converted": "Úspešne bolo prevedených všetkých {number} lajkov"
                 },
                 "settings": {
-                    "save_settings": "",
+                    "save_settings": "Uložiť nastavenia",
                     "integrations": {
-                        "legend": "",
-                        "warning": "",
+                        "legend": "Integrácie",
+                        "warning": "Tá istá reakcia <strong>nemôže</strong> byť konvertovaná na lajk <strong>a</strong> pozitívny hlas",
                         "gamification": {
-                            "legend": "",
-                            "upvoteLabel": "",
-                            "upvoteHelptext": "",
-                            "downvoteLabel": "",
-                            "downvoteHelptext": ""
+                            "legend": "Gamifikácia",
+                            "upvoteLabel": "Konvertovať reakcia na pozitívne hlasy",
+                            "upvoteHelptext": "Zadajte identifikátor reakcie, ktorú chcete automaticky previesť na pozitívny hlas",
+                            "downvoteLabel": "Konvertovať reakcie na negatívne hlasy",
+                            "downvoteHelptext": "Zadajte identifikátor reakcie, ktorú chcete automaticky previesť na negatívny hlas"
                         },
                         "likes": {
-                            "legend": "",
-                            "Label": "",
-                            "Helptext": ""
+                            "legend": "Lajky",
+                            "Label": "Konvertovať reakcia na lajky",
+                            "Helptext": "Zadajte identifikátor reakcie, ktorú chcete automaticky previesť na lajk"
                         }
                     }
                 }
