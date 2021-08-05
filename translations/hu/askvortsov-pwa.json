@@ -2,80 +2,80 @@
     "askvortsov-pwa": {
         "admin": {
             "nav": {
-                "pwa_button": "",
-                "pwa_text": ""
+                "pwa_button": "Progressive Web App",
+                "pwa_text": "Flarum beállítása, hogy PWA módban fusson."
             },
             "pwa": {
                 "about": {
-                    "description_text": "",
-                    "long_name_text": "",
-                    "heading": "",
-                    "short_name_text": ""
+                    "description_text": "A leírást az admin Alapok menüjében adhatod meg.",
+                    "long_name_text": "A webapp neve ami a felhasználóknak megjelenik.",
+                    "heading": "Rólunk",
+                    "short_name_text": "Rövid név, ami megjelenik a felhasználóknak ha nem fér ki az eredeti."
                 },
                 "colors": {
-                    "heading": "",
-                    "background_color_text": "",
+                    "heading": "Színek",
+                    "background_color_text": "Ez a szín addig használandó, amíg a PWA betöltés alatt van.",
                     "theme_color_text": ""
                 },
                 "maintenance": {
-                    "heading": "",
+                    "heading": "Teszt mód",
                     "debug_label": ""
                 },
                 "other": {
-                    "heading": "",
-                    "force_portrait_text": ""
+                    "heading": "Más",
+                    "force_portrait_text": "Erőltetett fekvő helyezés?"
                 },
-                "heading": "",
+                "heading": "PWA beállítások",
                 "text": "",
-                "status_check_heading": "",
-                "logo_heading": "",
+                "status_check_heading": "Státus ellenőrzés",
+                "logo_heading": "Logók és ikonok",
                 "logo_text": "",
-                "logo_size_text": "",
-                "submit_button": "",
-                "refreshed_message": ""
+                "logo_size_text": "Tölts fel egy logót ami {size} x {size} pixel méretűre lesz méretezve.",
+                "submit_button": "Mentés",
+                "refreshed_message": "PWA beállítások sikeresen frissítve."
             },
             "status": {
-                "config_no_https": "",
-                "possible_https_disabled": "",
-                "no_logo": "",
-                "no_name": "",
+                "config_no_https": "A HTTPS kötelező a PWA bekapcsolásához.",
+                "possible_https_disabled": "Az oldal nem HTTPS-ben működik. A HTTPS kötelező a PWA-nak.",
+                "no_logo": "Legalább egy logó feltöltése kötelező.",
+                "no_name": "Név kötelező.",
                 "key_gen_failed": "",
                 "suggest_gmp": "",
-                "success": ""
+                "success": "Nincs potenciális hiba!"
             }
         },
         "forum": {
             "alerts": {
-                "optin": "",
-                "optin_button": ""
+                "optin": "A push üzenetek be vannak kapcsolva, de nincsenek beállítva az eszközön.",
+                "optin_button": "Beállítom"
             },
             "discussion_controls": {
-                "share_button": ""
+                "share_button": "Megosztás"
             },
             "post_controls": {
-                "share_button": "",
+                "share_button": "Megosztás",
                 "share_api": {
-                    "title": ""
+                    "title": "{username} válaszolt erre: {title}"
                 }
             },
             "user_controls": {
-                "share_button": ""
+                "share_button": "Megosztás"
             },
             "settings": {
-                "push_header": "",
+                "push_header": "Push",
                 "pwa_notifications": {
-                    "access_default": "",
-                    "access_default_button": "",
-                    "access_denied": "",
-                    "access_denied_button": "",
-                    "no_browser_support": "",
-                    "no_browser_support_button": ""
+                    "access_default": "A böngészőben engedélyezni kell a push üzeneteket.",
+                    "access_default_button": "Engedélyezem",
+                    "access_denied": "A böngészőben engedélyezned kell a push üzeneteket.",
+                    "access_denied_button": "Mutasd meg hogyan",
+                    "no_browser_support": "Ez a böngésző nem támogatja a push üzeneteket.",
+                    "no_browser_support_button": "Több"
                 }
             }
         },
         "views": {
             "offline": {
-                "header": "",
+                "header": "Hálózati kapcsolat hiba",
                 "text": ""
             }
         }
