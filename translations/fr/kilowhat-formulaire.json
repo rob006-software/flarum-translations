@@ -16,6 +16,7 @@
                 "create": "Créer des formulaires (bêta)",
                 "moderate": "Modérer tous les formulaires",
                 "export": "Exporter les données de soumission",
+                "exportUserDetails": "",
                 "listForms": "Afficher la liste des formulaires qui ne sont pas supprimés",
                 "listSubmissions": "Afficher la liste des soumissions"
             },
@@ -23,7 +24,17 @@
                 "title": "Paramètres globaux du formulaire",
                 "max-file-size": "Taille maximale du fichier (en kilo-octets)",
                 "history-controls": "Afficher les commandes annuler/refaire sur la page de soumission",
-                "side-nav-on-submission": "Afficher la navigation latérale sur la page de soumission"
+                "side-nav-on-submission": "Afficher la navigation latérale sur la page de soumission",
+                "checkbox-style": "",
+                "radio-style": "",
+                "style-options": {
+                    "far-square": "",
+                    "fas-square": "",
+                    "far-circle": "",
+                    "fas-circle": "",
+                    "switch": "",
+                    "native": ""
+                }
             }
         },
         "forum": {
@@ -205,6 +216,7 @@
                 "email": "Courriel",
                 "regex": "Expression régulière",
                 "mime": "Type MIME (séparé par des virgules, accepte les caractères génériques comme deuxième partie)",
+                "other": "",
                 "duplicate": "Dupliquer le champ",
                 "delete": "Supprimer le champ",
                 "missing-title": "Champ sans titre",
@@ -214,10 +226,21 @@
                     "long": "Texte long",
                     "number": "Numéro",
                     "date": "Date",
+                    "checkbox": "",
+                    "radio": "",
+                    "select": "",
                     "upload": "Transférer",
                     "content": "Contenu",
                     "items": "Entrées multiples"
                 }
+            },
+            "options-editor": {
+                "columns": {
+                    "title": "",
+                    "key": ""
+                },
+                "remove": "",
+                "new-placeholder": ""
             },
             "items-editor": {
                 "add": "Ajouter une ligne",
@@ -229,6 +252,13 @@
             },
             "rich-text": {
                 "preview-placeholder": "Commencez à écrire pour une prévisualisation"
+            },
+            "select": {
+                "choose": ""
+            },
+            "choice": {
+                "other-label": "",
+                "other-placeholder": ""
             },
             "submission": {
                 "form-closed": "Ce formulaire est clôturé.",
@@ -283,6 +313,7 @@
                 "fields": "Champs",
                 "meta": "Métadonnées",
                 "more-meta": "Plus d'options de méta",
+                "option-keys": "",
                 "submit": "Télécharger",
                 "preview": "Prévisualiser",
                 "format-options": {
@@ -302,11 +333,18 @@
                     "user_id": "=> kilowhat-formulaire.ref.submission-meta.user_id",
                     "user_username": "=> kilowhat-formulaire.ref.submission-meta.user_username",
                     "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
+                    "user_email": "",
+                    "user_activated": "",
                     "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
                     "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
                     "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
                     "updated_at": "=> kilowhat-formulaire.ref.submission-meta.updated_at",
                     "hidden_at": "=> kilowhat-formulaire.ref.submission-meta.hidden_at"
+                },
+                "preview-primitives": {
+                    "excel-date": "",
+                    "boolean-true": "",
+                    "boolean-false": ""
                 }
             }
         },
@@ -325,6 +363,8 @@
                     "user_id": "=> kilowhat-formulaire.ref.submission-meta.user_id",
                     "user_username": "=> kilowhat-formulaire.ref.submission-meta.user_username",
                     "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
+                    "user_email": "",
+                    "user_activated": "",
                     "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
                     "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
                     "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
@@ -363,6 +403,8 @@
                 "user_id": "Identifiant de l'utilisateur",
                 "user_username": "Nom d'utilisateur",
                 "user_displayname": "Nom d'affichage de l'utilisateur",
+                "user_email": "",
+                "user_activated": "",
                 "link_id": "Identifiant de la ressource liée",
                 "locked_at": "Date de verrouillage",
                 "created_at": "Date de création",

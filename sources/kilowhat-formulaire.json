@@ -16,6 +16,7 @@
                 "create": "Create forms (beta)",
                 "moderate": "Moderate all forms",
                 "export": "Export submission data",
+                "exportUserDetails": "Access user private data in exports",
                 "listForms": "View the list of forms that aren't deleted",
                 "listSubmissions": "View the list of submissions"
             },
@@ -23,7 +24,17 @@
                 "title": "Form global settings",
                 "max-file-size": "Max file size (kB)",
                 "history-controls": "Show undo/redo controls on submission page",
-                "side-nav-on-submission": "Show side navigation on submission page"
+                "side-nav-on-submission": "Show side navigation on submission page",
+                "checkbox-style": "Checkbox style",
+                "radio-style": "Radio style",
+                "style-options": {
+                    "far-square": "FontAwesome Regular Square Icon",
+                    "fas-square": "FontAwesome Solid Square Icon",
+                    "far-circle": "FontAwesome Regular Circle Icon",
+                    "fas-circle": "FontAwesome Solid Circle Icon",
+                    "switch": "Flarum switch",
+                    "native": "Native browser control"
+                }
             }
         },
         "forum": {
@@ -205,6 +216,7 @@
                 "email": "Email",
                 "regex": "Regular expression",
                 "mime": "MIME type (comma separated, accepts wildcard as second part)",
+                "other": "Allow \"other\" user value",
                 "duplicate": "Duplicate field",
                 "delete": "Delete field",
                 "missing-title": "Field with no title",
@@ -214,10 +226,21 @@
                     "long": "Long text",
                     "number": "Number",
                     "date": "Date",
+                    "checkbox": "Checkboxes",
+                    "radio": "Radio",
+                    "select": "Dropdown",
                     "upload": "Upload",
                     "content": "Content",
                     "items": "Multi-entries"
                 }
+            },
+            "options-editor": {
+                "columns": {
+                    "title": "Title",
+                    "key": "(Expert) Unique Key"
+                },
+                "remove": "Remove option",
+                "new-placeholder": "New option..."
             },
             "items-editor": {
                 "add": "Add row",
@@ -229,6 +252,13 @@
             },
             "rich-text": {
                 "preview-placeholder": "Start typing for a preview"
+            },
+            "select": {
+                "choose": "Choose an option"
+            },
+            "choice": {
+                "other-label": "Other:",
+                "other-placeholder": "Type..."
             },
             "submission": {
                 "form-closed": "This form is closed.",
@@ -283,6 +313,7 @@
                 "fields": "Fields",
                 "meta": "Metadata",
                 "more-meta": "More meta options",
+                "option-keys": "Export option keys instead of titles for checkboxes, radio and select",
                 "submit": "Download",
                 "preview": "Preview",
                 "format-options": {
@@ -302,11 +333,18 @@
                     "user_id": "=> kilowhat-formulaire.ref.submission-meta.user_id",
                     "user_username": "=> kilowhat-formulaire.ref.submission-meta.user_username",
                     "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
+                    "user_email": "=> kilowhat-formulaire.ref.submission-meta.user_email",
+                    "user_activated": "=> kilowhat-formulaire.ref.submission-meta.user_activated",
                     "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
                     "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
                     "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
                     "updated_at": "=> kilowhat-formulaire.ref.submission-meta.updated_at",
                     "hidden_at": "=> kilowhat-formulaire.ref.submission-meta.hidden_at"
+                },
+                "preview-primitives": {
+                    "excel-date": "(EXCEL DATE)",
+                    "boolean-true": true,
+                    "boolean-false": false
                 }
             }
         },
@@ -325,6 +363,8 @@
                     "user_id": "=> kilowhat-formulaire.ref.submission-meta.user_id",
                     "user_username": "=> kilowhat-formulaire.ref.submission-meta.user_username",
                     "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
+                    "user_email": "=> kilowhat-formulaire.ref.submission-meta.user_email",
+                    "user_activated": "=> kilowhat-formulaire.ref.submission-meta.user_activated",
                     "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
                     "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
                     "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
@@ -363,6 +403,8 @@
                 "user_id": "User ID",
                 "user_username": "Username",
                 "user_displayname": "User Display Name",
+                "user_email": "User Email",
+                "user_activated": "Activated Account",
                 "link_id": "Linked resource ID",
                 "locked_at": "Lock Date",
                 "created_at": "Creation Date",
