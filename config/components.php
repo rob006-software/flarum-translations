@@ -448,6 +448,9 @@ return [
 	'jslirola-login2seeplus' => [
 		'tag' => 'https://raw.githubusercontent.com/jslirola/flarum-ext-login2seeplus/v0.2/locale/en.yml',
 	],
+	'justoverclock-adsense-manager' => [
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/adsense-manager/0.1.5/locale/en.yml',
+	],
 	'justoverclock-contactme' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-contactme/0.2.0/resources/locale/en.yml',
 	],
