@@ -454,6 +454,9 @@ return [
 	'justoverclock-custom-header' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/custom-header/0.1.4/resources/locale/en.yml',
 	],
+	'justoverclock-custom-html-widget' => [
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/custom-html-widget/0.1.2/locale/en.yml',
+	],
 	'justoverclock-dontgoaway' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-dontgoaway/0.2.5/resources/locale/en.yml',
 	],
