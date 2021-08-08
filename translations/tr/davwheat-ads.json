@@ -3,33 +3,33 @@
         "ads": {
             "admin": {
                 "settings": {
-                    "enabled_locations": "",
-                    "code_input": "",
-                    "code_input_disabled": "",
-                    "pub_id": "",
-                    "between_posts_gap": "",
-                    "allow_after_placeholder": "",
+                    "enabled_locations": "Reklam bölgelerini etkinleştir",
+                    "code_input": "\"{for}\" için reklam bölgesi kodu",
+                    "code_input_disabled": "HTML kodunu düzenlemek için bu konumu etkinleştirin.",
+                    "pub_id": "AdSense Yayıncı Kimliği",
+                    "between_posts_gap": "Gönderiler arasında: reklamlar arasındaki boşluk",
+                    "allow_after_placeholder": "Gönderiler arasında: yanıtlayıcı sonra reklam göster",
                     "save_btn": {
-                        "dirty": "",
-                        "saving": "",
-                        "saved": "",
-                        "fix_errors": ""
+                        "dirty": "Değişiklikleri kaydet",
+                        "saving": "Kaydediliyor...",
+                        "saved": "Tüm değişiklikler kaydedildi",
+                        "fix_errors": "Kaydetmeden önce hataları giderin"
                     },
                     "alert": {
-                        "fix_errors": "",
-                        "code_has_script": ""
+                        "fix_errors": "Değişiklikleri kaydetmeden önce aşağıdaki hataları giderin",
+                        "code_has_script": "Reklam kodlarınızdan biri veya daha fazlası, izin verilmeyen komut dosyası etiketleri içeriyor. Bunları kaldırıp tekrar deneyin."
                     },
-                    "warning": ""
+                    "warning": "Reklam kodu <b>YALNIZCA</b> <code>ins</code> etiketini/etiketlerini içermeli ve herhangi bir komut dosyası etiketi içermemelidir. Komut dosyaları \notomatik olarak uzantı tarafından çalıştırılır.\n"
                 }
             },
             "lib": {
                 "locations": {
-                    "discussion_header": "",
-                    "discussion_sidebar": "",
-                    "header": "",
-                    "sidebar": "",
-                    "footer": "",
-                    "between_posts": ""
+                    "discussion_header": "Tartışma sayfası (üst başlık altında)",
+                    "discussion_sidebar": "Tartışma gezinti çubuğu (yalnızca masaüstü)",
+                    "header": "Üst Başlık",
+                    "sidebar": "Yan menü (yalnızca masaüstü)",
+                    "footer": "Alt bilgi",
+                    "between_posts": "Gönderiler arasında"
                 }
             }
         }
