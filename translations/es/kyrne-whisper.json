@@ -3,56 +3,56 @@
         "admin": {
             "settings": {
                 "return_key": "",
-                "title": "",
-                "set_own_password": ""
+                "title": "Configuración de Whisper",
+                "set_own_password": "Permite que los usuarios creen su propia contraseña - Compatiblidad SSO"
             },
             "permissions": {
-                "start_label": ""
+                "start_label": "Iniciar conversaciones privadas"
             }
         },
         "forum": {
             "dropdown": {
-                "tooltip": ""
+                "tooltip": "Conversaciones"
             },
             "setup": {
-                "title": "",
-                "header_setup": "",
-                "header_import": "",
-                "header_set_own": "",
-                "header_set_own_import": "",
-                "passwords_mismatch": "",
-                "invalid_password": "",
-                "button_import": "",
-                "button_setup": "",
-                "confirm_password": "",
-                "success": ""
+                "title": "Configurar mensajería privada",
+                "header_setup": "Ingresa la contraseña de inicio de sesión de tu cuenta para configurar la mensajería privada.",
+                "header_import": "Ingresa la contraseña de inicio de sesión de tu cuenta para importar tus mensajes privados.",
+                "header_set_own": "Ingresa una contraseña para configurar mensajes privados.",
+                "header_set_own_import": "Ingresa tu contraseña de mensajes privados para importarlos.",
+                "passwords_mismatch": "Las contraseñas no coinciden",
+                "invalid_password": "Tu contraseña fue incorrecta.",
+                "button_import": "Importar",
+                "button_setup": "Configuración",
+                "confirm_password": "Confirmar Contraseña",
+                "success": "La mensajería privada ya está lista, tu página se recargará ahora..."
             },
             "modal": {
-                "title": "",
-                "help": "",
-                "help_start": "",
-                "search_recipients": "",
-                "submit": "",
-                "copied": "",
-                "more_users": "",
-                "already": ""
+                "title": "Iniciar conversación",
+                "help": "Empieza a escribir un nombre de usuario para iniciar un chat.",
+                "help_start": "Escribe tu primer mensaje. Este será el único mensaje que puede enviar hasta que {username} responda. Haz clic en el usuario para seleccionar un destinatario diferente.",
+                "search_recipients": "Introduce nombre de usuario...",
+                "submit": "Enviar e iniciar conversación",
+                "copied": "Tu mensaje se ha copiado al portapapeles.",
+                "more_users": "Si no ves al usuario que estás buscando, no tiene una configuración de mensajería privada.",
+                "already": "Ya tienes una conversación con {username}."
             },
-            "user_modal_alert": "",
+            "user_modal_alert": "{username} tiene una configuración de mensajería privada, su contraseña no se puede cambiar de forma segura.",
             "chat": {
-                "chat_with": "",
-                "messages_multiple": "",
-                "messages_single": "",
-                "start": "",
-                "read": "",
-                "cant_start": "",
-                "text_placeholder": "",
-                "send": "",
-                "recovery_message": "",
-                "failed_message": "",
-                "cant_send": "",
-                "cant_send_toomany": "",
-                "failed_to_decrypt": "",
-                "start_of_conversation": ""
+                "chat_with": "Chatear con {username}",
+                "messages_multiple": "{count} mensaje(s) en total",
+                "messages_single": "Nueva conversación",
+                "start": "Iniciar conversación",
+                "read": "Leer",
+                "cant_start": "No puedes iniciar un chat",
+                "text_placeholder": "Escribe tu mensaje",
+                "send": "Enviar Mensaje",
+                "recovery_message": "Mensaje del sistema: sincronización de cifrado perdida y recuperada",
+                "failed_message": "Error al descifrar el mensaje. Intentando el método de recuperación #{method}",
+                "cant_send": "No puedes enviar un mensaje hasta que {username} responda (solo el primer mensaje)",
+                "cant_send_toomany": "Espera la respuesta de {username} antes de enviar más mensajes",
+                "failed_to_decrypt": "[Error al descifrar]",
+                "start_of_conversation": "Inicio de conversación"
             }
         }
     }
