@@ -3,33 +3,33 @@
         "ads": {
             "admin": {
                 "settings": {
-                    "enabled_locations": "",
-                    "code_input": "",
-                    "code_input_disabled": "",
-                    "pub_id": "",
-                    "between_posts_gap": "",
-                    "allow_after_placeholder": "",
+                    "enabled_locations": "Emplacements des unités publicitaires activées",
+                    "code_input": "Code pour l'unité publicitaire « {for} »",
+                    "code_input_disabled": "Activez cet emplacement pour modifier son code HTML.",
+                    "pub_id": "Référence éditeur d'AdSense",
+                    "between_posts_gap": "Entre les messages : espace entre les publicités",
+                    "allow_after_placeholder": "Entre les messages : afficher la publicité après l'espace réservé aux réponses",
                     "save_btn": {
-                        "dirty": "",
-                        "saving": "",
-                        "saved": "",
-                        "fix_errors": ""
+                        "dirty": "Enregistrer les modifications",
+                        "saving": "Enregistrement…",
+                        "saved": "Toutes les modifications ont été enregistrées",
+                        "fix_errors": "Corriger les erreurs avant l'enregistrement"
                     },
                     "alert": {
-                        "fix_errors": "",
-                        "code_has_script": ""
+                        "fix_errors": "Veuillez corriger les erreurs ci-dessus avant d'enregistrer les modifications",
+                        "code_has_script": "Une ou plusieurs de vos unités publicitaires contiennent des balises de script, qui ne sont pas autorisées. Veuillez les supprimer puis réessayer."
                     },
-                    "warning": ""
+                    "warning": "Le code de l'annonce doit <b>SEULEMENT</b> inclure la ou les balises <code>ins</code>, et non les balises de script. Les scripts sont\nautomatiquement exécutés par cette extension.\n"
                 }
             },
             "lib": {
                 "locations": {
-                    "discussion_header": "",
-                    "discussion_sidebar": "",
-                    "header": "",
-                    "sidebar": "",
-                    "footer": "",
-                    "between_posts": ""
+                    "discussion_header": "Page de discussion (sous l'en-tête)",
+                    "discussion_sidebar": "Barre latérale de discussion [VERSION POUR ORDINATEUR UNIQUEMENT]",
+                    "header": "En-tête",
+                    "sidebar": "Navigation latérale [VERSION POUR ORDINATEUR UNIQUEMENT]",
+                    "footer": "Pied de page",
+                    "between_posts": "Entre les messages"
                 }
             }
         }
