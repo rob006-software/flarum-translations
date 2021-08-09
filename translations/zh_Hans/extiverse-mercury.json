@@ -2,23 +2,23 @@
     "extiverse-mercury": {
         "admin": {
             "extension-updates-page": {
-                "extension-name": "",
-                "extension-is-up-to-date": "",
-                "highest-version": "",
-                "installed-version": ""
+                "extension-name": "扩展程序",
+                "extension-is-up-to-date": "已是最新版本",
+                "highest-version": "最新版本",
+                "installed-version": "当前版本"
             },
             "settings": {
-                "token": "",
-                "token-description": ""
+                "token": "Extiverse token（<a>点此获取</a>）",
+                "token-description": "从 <a>Extiverse</a> 获取 API 令牌，以便 Mercury 能够安全地与你的 Flarum 社区通信。\n"
             },
             "header-secondary": {
-                "no-token": "",
-                "updates": ""
+                "no-token": "Token 不能为空",
+                "updates": "{count, plural, =0 {无可用更新} one {1 个更新} other {# 个更新}}"
             }
         },
         "email": {
             "new-extension-update": {
-                "subject": "",
+                "subject": "{count, plural, one {1 个可用更新} other {# 个可用更新}}",
                 "body": ""
             }
         }
