@@ -560,7 +560,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/maicol07-oidc-client.yml',
 	],
 	'maicol07-sso' => [
-		'tag' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/1.10.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/1.10.2/locale/en.yml',
 	],
 	'malago-achievements' => [
 		'tag' => 'https://raw.githubusercontent.com/malago86/flarum-achievements/0.4.3/locale/en.yml',
