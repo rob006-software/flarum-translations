@@ -2,27 +2,27 @@
     "clarkwinkelmann-translation-inspector": {
         "admin": {
             "permissions": {
-                "inspect": ""
+                "inspect": "检查翻译"
             }
         },
         "lib": {
             "modal": {
-                "title": "",
-                "key": "",
-                "original": "",
-                "actual": "",
-                "extension": "",
-                "extension-unknown": "",
-                "path": "",
-                "edit": ""
+                "title": "翻译检查",
+                "key": "翻译键",
+                "original": "原始英文字符串",
+                "actual": "当前语言翻译",
+                "extension": "语言包",
+                "extension-unknown": "未知扩展程序",
+                "path": "语言文件",
+                "edit": "前往 GitHub 编辑"
             },
             "tooltip": {
-                "title": "",
-                "description": "",
-                "cancel": ""
+                "title": "检查翻译",
+                "description": "点击你想要检查的高亮翻译",
+                "cancel": "取消"
             },
             "nav": {
-                "inspect": ""
+                "inspect": "检查翻译"
             }
         }
     }
