@@ -1,16 +1,16 @@
 {
     "justoverclock-last-tweet": {
         "admin": {
-            "tweet_number": "",
-            "tweet_number-help": "",
-            "theme": "",
-            "theme-help": "",
-            "profile": "",
-            "profile-help": ""
+            "tweet_number": "推文数量",
+            "tweet_number-help": "指定要展示的推文数量（默认 2）",
+            "theme": "主题",
+            "theme-help": "切换明亮或深色主题（默认 light 主题）",
+            "profile": "推特主页 URL",
+            "profile-help": "例：https://twitter.com/flarum"
         },
         "forum": {
-            "widget-title": "",
-            "loading": ""
+            "widget-title": "最新推文",
+            "loading": "加载推文中……"
         }
     }
 }
