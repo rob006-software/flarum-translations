@@ -2,17 +2,17 @@
     "clarkwinkelmann-email-whitelist": {
         "admin": {
             "settings": {
-                "regex": "",
-                "regexHelp": "",
-                "message": "",
-                "whitelist": "",
-                "whitelistHelp": "",
-                "blacklist": "",
-                "blacklistHelp": ""
+                "regex": "正则表达式",
+                "regexHelp": "使用正则表达式匹配。开启此项后，黑白名单中仅可填写定界符正则表达式，一行一个，正则表达式的定界符不可缺少。\n",
+                "message": "自定义错误消息",
+                "whitelist": "白名单",
+                "whitelistHelp": "每行一个正则表达式。白名单优先级高于黑名单。\n",
+                "blacklist": "黑名单",
+                "blacklistHelp": "每行一个正则表达式。如果黑名单为空，所有非白名单的内容都会被拒绝。\n"
             }
         },
         "api": {
-            "fallbackMessage": ""
+            "fallbackMessage": "此邮箱不可注册。"
         }
     }
 }
