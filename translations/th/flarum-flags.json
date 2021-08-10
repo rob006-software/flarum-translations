@@ -2,49 +2,49 @@
     "flarum-flags": {
         "admin": {
             "permissions": {
-                "flag_posts_label": "",
-                "view_flags_label": ""
+                "flag_posts_label": "รายงานโพสต์",
+                "view_flags_label": "ดูโพสที่ถูกรายงาน"
             },
             "settings": {
-                "flag_own_posts_label": "",
-                "guidelines_url_label": "",
-                "title": ""
+                "flag_own_posts_label": "อนุญาติให้ผู้ใช้รายงานโพสต์ตัวเองได้",
+                "guidelines_url_label": "ลิ้งคู่มือชี้เเนะการใช้งานคอมมูนิตี้",
+                "title": "ตั้งค่าการรายงาน"
             }
         },
         "forum": {
             "flag_post": {
-                "confirmation_message": "",
+                "confirmation_message": "ขอบคุณสำหรับการรายงาน ผู้ดูเเลขอวเราจะมาเช็คเร็วๆ นี้",
                 "dismiss_button": "",
-                "reason_details_placeholder": "",
-                "reason_inappropriate_label": "",
-                "reason_inappropriate_text": "",
-                "reason_missing_message": "",
-                "reason_off_topic_label": "",
-                "reason_off_topic_text": "",
-                "reason_other_label": "",
-                "reason_spam_label": "",
-                "reason_spam_text": "",
+                "reason_details_placeholder": "รายละเอียดเพิ่มเติม (เเล้วเเต่)",
+                "reason_inappropriate_label": "ไม่เหมาะสม",
+                "reason_inappropriate_text": "โพสต์นี้มีเนื้อหาที่ทำให้ไม่พอใจ ใช้ในทางที่ผิด หรือ ฝ่าฝืน <a>กฎการใช้งานคอมมูนิตี้</a>",
+                "reason_missing_message": "กรุณาระบุรายละเอียดสำหรับผู้ดูเเล",
+                "reason_off_topic_label": "เนื้อหาที่ไม่เกี่นวข้อง",
+                "reason_off_topic_text": "โพสต์นี้ไม่ตรงประเด็นสำหรับการสนทนานี้เเละควรย้ายออกไปที่อื่น",
+                "reason_other_label": "อื่นๆ (กรุณาระบุ)",
+                "reason_spam_label": "สเเปม",
+                "reason_spam_text": "โพสต์นี้คือการโฆษาณา",
                 "submit_button": "",
                 "title": ""
             },
             "flagged_posts": {
-                "empty_text": "",
-                "item_text": "",
+                "empty_text": "ไม่มีรายงาน",
+                "item_text": "{usernane} ใน <em>{discussion}</em>",
                 "title": "",
                 "tooltip": ""
             },
             "post": {
-                "dismiss_flag_button": "",
-                "flagged_by_text": "",
-                "flagged_by_with_reason_text": ""
+                "dismiss_flag_button": "ไม่สนใจการรายงาน",
+                "flagged_by_text": "รายงานโดย {username}",
+                "flagged_by_with_reason_text": "รายงานโดย {username} เนื่องจาก {reason}"
             },
             "post_controls": {
-                "flag_button": ""
+                "flag_button": "รายงาน"
             }
         },
         "ref": {
-            "flag_post": "",
-            "flagged_posts": ""
+            "flag_post": "รายงานโพสต์",
+            "flagged_posts": "รายงานโพสต์เเล้ว"
         }
     }
 }
