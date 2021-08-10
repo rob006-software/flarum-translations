@@ -2,28 +2,28 @@
     "flarum-suspend": {
         "admin": {
             "permissions": {
-                "suspend_users_label": ""
+                "suspend_users_label": "ระงับการใช้งานผู้ใช้"
             }
         },
         "forum": {
             "notifications": {
-                "user_suspended_text": "",
-                "user_unsuspended_text": ""
+                "user_suspended_text": "{username} ได้ระงับการใช้งานคุณเป็นเวลา {timeReadable}",
+                "user_unsuspended_text": "{username} ได้เลิกระงับการใช้งานคุณ"
             },
             "suspend_user": {
-                "indefinitely_label": "",
-                "limited_time_days_text": "",
-                "limited_time_label": "",
-                "not_suspended_label": "",
-                "status_heading": "",
+                "indefinitely_label": "ระงับการใช้งานถาวร",
+                "limited_time_days_text": " วัน",
+                "limited_time_label": "ระงับการใช้งานเเบบจำกัดเวลา",
+                "not_suspended_label": "ไม่ได้ถูกระงับการใช้งาน",
+                "status_heading": "สถานะการระงับการใช้งาน",
                 "submit_button": "",
-                "title": ""
+                "title": "ระงับการใช้งาน {username}"
             },
             "user_badge": {
-                "suspended_tooltip": ""
+                "suspended_tooltip": "ระงับการใช้งาน"
             },
             "user_controls": {
-                "suspend_button": ""
+                "suspend_button": "ระงับกาใช้งาน"
             }
         }
     }
