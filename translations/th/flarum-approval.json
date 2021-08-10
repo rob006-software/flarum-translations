@@ -2,9 +2,9 @@
     "flarum-approval": {
         "admin": {
             "permissions": {
-                "approve_posts_label": "",
-                "reply_without_approval_label": "",
-                "start_discussions_without_approval_label": ""
+                "approve_posts_label": "อนุมัติโพสต์",
+                "reply_without_approval_label": "ตอบกลับการสนทนานี้โดยไม่ต้องอนุมัติ",
+                "start_discussions_without_approval_label": "เริ่มการสนทนาโดยไม่ต้องอนุมัติ"
             }
         },
         "forum": {
@@ -15,11 +15,11 @@
                 "awaiting_approval_text": ""
             },
             "post_controls": {
-                "approve_button": ""
+                "approve_button": "การอนุมัติ"
             }
         },
         "ref": {
-            "awaiting_approval": ""
+            "awaiting_approval": "กำลังรอการอนุมัติ"
         }
     }
 }
