@@ -2,7 +2,7 @@
     "flarum-sticky": {
         "admin": {
             "permissions": {
-                "sticky_discussions_label": ""
+                "sticky_discussions_label": "ตรึงการสนทนา"
             }
         },
         "forum": {
@@ -11,15 +11,15 @@
             },
             "discussion_controls": {
                 "sticky_button": "",
-                "unsticky_button": ""
+                "unsticky_button": "เลิกตรึง"
             },
             "post_stream": {
-                "discussion_stickied_text": "",
-                "discussion_unstickied_text": ""
+                "discussion_stickied_text": "{username} ได้ตรึงการสนทนานี้",
+                "discussion_unstickied_text": "{username} เลิกตรึงการสนทนานี้"
             }
         },
         "ref": {
-            "sticky": ""
+            "sticky": "ตรึง"
         }
     }
 }
