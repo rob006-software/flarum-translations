@@ -473,7 +473,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/first-visit-indexpage/0.1.2/resources/locale/en.yml',
 	],
 	'justoverclock-geo-weather' => [
-		'tag' => 'https://raw.githubusercontent.com/justoverclockl/geo-weather/0.1.5/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/geo-weather/0.1.6/resources/locale/en.yml',
 	],
 	'justoverclock-guestengagement' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-guestengagement/1.0.1/resources/locale/en.yml',
