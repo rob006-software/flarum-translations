@@ -2,26 +2,26 @@
     "flarum-lock": {
         "admin": {
             "permissions": {
-                "lock_discussions_label": ""
+                "lock_discussions_label": "ล็อกการสนทนา"
             }
         },
         "forum": {
             "badge": {
-                "locked_tooltip": ""
+                "locked_tooltip": "ล็อค"
             },
             "discussion_controls": {
-                "lock_button": "",
-                "unlock_button": ""
+                "lock_button": "ล็อค",
+                "unlock_button": "ปลดล็อค"
             },
             "notifications": {
-                "discussion_locked_text": ""
+                "discussion_locked_text": "{username} ล็อค"
             },
             "post_stream": {
-                "discussion_locked_text": "",
-                "discussion_unlocked_text": ""
+                "discussion_locked_text": "{username} ได้ล็อกการสนทนาเเล้ว",
+                "discussion_unlocked_text": "{username} ได้ปลดล็อคการสนทนาเเล้ว"
             },
             "settings": {
-                "notify_discussion_locked_label": ""
+                "notify_discussion_locked_label": "มีบางคุณได้ล็อคการสนทนาของคุณ"
             }
         }
     }
