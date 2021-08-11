@@ -2,44 +2,44 @@
     "fof-user-directory": {
         "forum": {
             "header": {
-                "back_to_user_directory_tooltip": ""
+                "back_to_user_directory_tooltip": "กลับไปที่หน้ารายชื่อผู้ใช้"
             },
             "search": {
-                "users_heading": "",
+                "users_heading": "ค้าหาผู้ใช้ทั้งหมดสำหรับ \"{query}\"",
                 "field": {
-                    "placeholder": ""
+                    "placeholder": "ค้าหาผู้ใช้ทั้งหมด"
                 }
             },
             "page": {
-                "nav": "",
+                "nav": "รายชื่อผู้ใช้",
                 "refresh_tooltip": "",
                 "load_more_button": "",
-                "empty_text": "",
-                "filter_button": ""
+                "empty_text": "เราไม่พบผู้ใช้คนไหนที่ตรงกับการค้นหาของคุณ",
+                "filter_button": "กรอกจากกลุ่ม"
             }
         },
         "admin": {
             "permissions": {
-                "view_user_directory": ""
+                "view_user_directory": "ดูรายชื่อผู้ใช้"
             },
             "settings": {
-                "link": "",
-                "default-sort": "",
-                "use-small-cards": ""
+                "link": "เพิ่มลิ้งที่หน้าหลักสำหรับให้ผู้ใช้ทั่วไปเห็นรายชื่อได้",
+                "default-sort": "เรียบตรมค่าเริ่มต้น",
+                "use-small-cards": "ใช้การ์ดผู้ใช้เเบบเล็ก"
             }
         },
         "lib": {
             "sort": {
-                "not_specified": "",
-                "default": "",
-                "username_az": "",
-                "username_za": "",
-                "newest": "",
-                "oldest": "",
-                "most_posts": "",
-                "least_posts": "",
-                "most_discussions": "",
-                "least_discussions": ""
+                "not_specified": "ใช้ค่าเริ่มต้นตาม Flarum",
+                "default": "ค่าเริ่มต้น",
+                "username_az": "ชื่อผู้ใช้ (a-z)",
+                "username_za": "ชื่อผู้ใช้ (z-a)",
+                "newest": "ล่าสุด",
+                "oldest": "เก่าสุด",
+                "most_posts": "โพสต์มากที่สุด",
+                "least_posts": "โพสต์น้อยที่สุด",
+                "most_discussions": "การสนทนามากที่สุด",
+                "least_discussions": "การสนทนาน้อยที่สุด"
             }
         }
     }
