@@ -4,13 +4,13 @@
             "edit_page": {
                 "content_label": "",
                 "content_placeholder": "",
-                "delete_page_button": "",
-                "delete_page_confirmation": "",
-                "hidden_label": "",
-                "restricted_label": "",
-                "html_label": "",
-                "set_as_home_page_confirmation": "",
-                "set_as_home_page_done": "",
+                "delete_page_button": "ลบหน้า",
+                "delete_page_confirmation": "คุณเเน่ใจที่ต้องการจะลบหน้านี้ไหม?",
+                "hidden_label": "บันทึกเป็นเเบบร่าง",
+                "restricted_label": "จำกัดการเข้าถึง (สามารถตั้งค่าการเข้าถึงที่เเทบการอนุญาติได้)",
+                "html_label": "เปิดการใช้งาน HTML",
+                "set_as_home_page_confirmation": "คุณเเน่ใจที่ต้องการเซ็ตหน้านี้เป็นหน้าหลักหรือไม่?",
+                "set_as_home_page_done": "อัพเดทหน้าหลักเเล้ว",
                 "slug_label": "",
                 "slug_placeholder": "",
                 "submit_button": "",
@@ -24,24 +24,24 @@
                 "create_button": ""
             },
             "pages_list": {
-                "empty_text": "",
+                "empty_text": "เหมือนจะไม่มีหน้าที่สร้างเลยนะ",
                 "title": ""
             },
             "permissions": {
-                "restricted": ""
+                "restricted": "ดูหน้าที่ถูกจำกัด"
             },
             "badges": {
-                "hidden": "",
-                "restricted": ""
+                "hidden": "เเบบร่าง",
+                "restricted": "ถูกจำกัด"
             }
         },
         "ref": {
-            "content": "",
-            "create_page": "",
-            "pages": "",
-            "slug": "",
-            "title": "",
-            "url": ""
+            "content": "คอนเทนท์",
+            "create_page": "สร้างหน้าใหม่",
+            "pages": "หน้า",
+            "slug": "สเเลง",
+            "title": "ชื่อ",
+            "url": "ลิ้ง"
         }
     }
 }
