@@ -3,33 +3,33 @@
         "ads": {
             "admin": {
                 "settings": {
-                    "enabled_locations": "",
-                    "code_input": "",
-                    "code_input_disabled": "",
-                    "pub_id": "",
-                    "between_posts_gap": "",
-                    "allow_after_placeholder": "",
+                    "enabled_locations": "Abilita posizioni Pubblicità",
+                    "code_input": "Codice  per \"{for}\"",
+                    "code_input_disabled": "Abilita questa posizione per modificare il codice HTML.",
+                    "pub_id": "Publisher ID Adsense",
+                    "between_posts_gap": "Fra i post: imposta gap tra ogni annuncio",
+                    "allow_after_placeholder": "Fra i post: mostra annuncio dopo  la risposta",
                     "save_btn": {
-                        "dirty": "",
-                        "saving": "",
-                        "saved": "",
-                        "fix_errors": ""
+                        "dirty": "Salva Modifiche",
+                        "saving": "Sto salvando...",
+                        "saved": "Modifiche salvate",
+                        "fix_errors": "Correggi gli errori prima di salvare"
                     },
                     "alert": {
-                        "fix_errors": "",
-                        "code_has_script": ""
+                        "fix_errors": "Per favore correggi gli errori qui in alto prima di salvare",
+                        "code_has_script": "Una o più unità pubblicitarie contengono tag \"script\", che non sono consentiti. Rimuovile e riprova."
                     },
-                    "warning": ""
+                    "warning": "Il codice dell'annuncio deve contenere  <b>SOLO</b> i tag <code>ins</code> e non i tag script. Gli script vengono eseguiti automaticamente da\nquesta estensione.\n"
                 }
             },
             "lib": {
                 "locations": {
-                    "discussion_header": "",
-                    "discussion_sidebar": "",
-                    "header": "",
-                    "sidebar": "",
-                    "footer": "",
-                    "between_posts": ""
+                    "discussion_header": "Pagina discussioni (sotto header)",
+                    "discussion_sidebar": "Sidebar [SOLO DESKTOP]",
+                    "header": "Header",
+                    "sidebar": "Sidebar Destra  [SOLO DESKTOP]",
+                    "footer": "Footer",
+                    "between_posts": "Fra i post"
                 }
             }
         }
