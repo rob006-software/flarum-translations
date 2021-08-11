@@ -2336,6 +2336,28 @@
 		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-clippy/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-clippy/pt_BR/"><img src="https://weblate.rob006.net/widgets/flarum/pt_BR/clarkwinkelmann-clippy/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/justoverclockl/youtube-video-feed" title="justoverclock/youtube-video-feed"><code>justoverclock/youtube-video-feed</code></a>
+		</td>
+		<td align="center">211</td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/youtube-video-feed/stats">2</a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/youtube-video-feed/stats">2</a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/youtube-video-feed/stats">2</a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-youtube-video-feed/pt_BR/"><img src="https://weblate.rob006.net/widgets/flarum/pt_BR/justoverclock-youtube-video-feed/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/justoverclockl/edit-posts" title="justoverclock/edit-posts"><code>justoverclock/edit-posts</code></a>
+		</td>
+		<td align="center">212</td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/edit-posts/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/edit-posts/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/edit-posts/stats">0</a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-edit-posts/pt_BR/"><img src="https://weblate.rob006.net/widgets/flarum/pt_BR/justoverclock-edit-posts/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
 </tbody>
 </table>
 
