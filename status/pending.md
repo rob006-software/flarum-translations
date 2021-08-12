@@ -27,6 +27,4 @@
 
 ## Dead branches
 
-| Extension | Pull request |
-| --- | --- |
-| `ramesh-dada-cakeday` | [![#646 (closed)](https://img.shields.io/badge/PR-%23646-red)](https://github.com/rob006-software/flarum-translations/pull/646) |
+There are no dead branches.
