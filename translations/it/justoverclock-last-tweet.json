@@ -1,16 +1,16 @@
 {
     "justoverclock-last-tweet": {
         "admin": {
-            "tweet_number": "",
-            "tweet_number-help": "",
-            "theme": "",
-            "theme-help": "",
-            "profile": "",
-            "profile-help": ""
+            "tweet_number": "Numero di Tweet",
+            "tweet_number-help": "quanti tweet vuoi che vengano mostrati (2 di default)",
+            "theme": "Tema",
+            "theme-help": "Scegli tra \"dark\" o \"light\" (light verrà mostrato di default)",
+            "profile": "URL profilo",
+            "profile-help": "esempio - https://twitter.com/flarum"
         },
         "forum": {
-            "widget-title": "",
-            "loading": ""
+            "widget-title": "Ultimi Tweet",
+            "loading": "Caricamento tweets..."
         }
     }
 }
