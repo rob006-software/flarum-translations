@@ -467,7 +467,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/edit-posts/0.1.1/resources/locale/en.yml',
 	],
 	'justoverclock-events-countdown' => [
-		'tag' => 'https://raw.githubusercontent.com/justoverclockl/events-countdown/0.1.6/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/events-countdown/0.1.8/locale/en.yml',
 	],
 	'justoverclock-feedback' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-feedback/0.1.9/locale/en.yml',
