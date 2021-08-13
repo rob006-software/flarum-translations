@@ -533,7 +533,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-welcomebox/1.2.9/resources/locale/en.yml',
 	],
 	'justoverclock-youtube-video-feed' => [
-		'tag' => 'https://raw.githubusercontent.com/justoverclockl/youtube-video-feed/0.1.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/youtube-video-feed/0.1.2/locale/en.yml',
 	],
 	'katosdev-signature' => [
 		'tag' => 'https://raw.githubusercontent.com/katosdev/signature/V1.1.0/locale/en.yml',
