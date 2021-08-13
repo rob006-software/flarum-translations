@@ -1,5 +1,15 @@
 {
     "fof-socialprofile": {
+        "admin": {
+            "permissions": {
+                "view": "",
+                "editOwn": "",
+                "editAny": ""
+            },
+            "settings": {
+                "allow_external_favicons_label": ""
+            }
+        },
         "forum": {
             "edit": {
                 "edit": "Bearbeiten",
@@ -10,7 +20,9 @@
                 "submit": "Speichern",
                 "delete": "Löschen",
                 "deletetitle": "Button löschen",
-                "save_disabled_fetching_favicons": "Ein oder mehrere Symbole werden gerade abgerufen. Bitte warte."
+                "save_disabled_fetching_favicons": "Ein oder mehrere Symbole werden gerade abgerufen. Bitte warte.",
+                "favicon": "",
+                "grey_favicon": ""
             }
         }
     }

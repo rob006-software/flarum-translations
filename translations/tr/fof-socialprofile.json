@@ -1,5 +1,15 @@
 {
     "fof-socialprofile": {
+        "admin": {
+            "permissions": {
+                "view": "",
+                "editOwn": "",
+                "editAny": ""
+            },
+            "settings": {
+                "allow_external_favicons_label": ""
+            }
+        },
         "forum": {
             "edit": {
                 "edit": "Düzenle",
@@ -10,7 +20,9 @@
                 "submit": "Kaydet",
                 "delete": "Sil",
                 "deletetitle": "Düğmeyi Sil",
-                "save_disabled_fetching_favicons": "Bir veya daha fazla simge getiriliyor. Lütfen bekle."
+                "save_disabled_fetching_favicons": "Bir veya daha fazla simge getiriliyor. Lütfen bekle.",
+                "favicon": "",
+                "grey_favicon": ""
             }
         }
     }

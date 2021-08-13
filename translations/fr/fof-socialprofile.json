@@ -1,5 +1,15 @@
 {
     "fof-socialprofile": {
+        "admin": {
+            "permissions": {
+                "view": "",
+                "editOwn": "",
+                "editAny": ""
+            },
+            "settings": {
+                "allow_external_favicons_label": ""
+            }
+        },
         "forum": {
             "edit": {
                 "edit": "Modifier",
@@ -10,7 +20,9 @@
                 "submit": "Enregistrer",
                 "delete": "Supprimer",
                 "deletetitle": "Bouton de suppression",
-                "save_disabled_fetching_favicons": "Une ou plusieurs icônes sont en train d'être récupérées. Veuillez patienter."
+                "save_disabled_fetching_favicons": "Une ou plusieurs icônes sont en train d'être récupérées. Veuillez patienter.",
+                "favicon": "",
+                "grey_favicon": ""
             }
         }
     }

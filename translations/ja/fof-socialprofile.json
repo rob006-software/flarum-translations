@@ -1,5 +1,15 @@
 {
     "fof-socialprofile": {
+        "admin": {
+            "permissions": {
+                "view": "",
+                "editOwn": "",
+                "editAny": ""
+            },
+            "settings": {
+                "allow_external_favicons_label": ""
+            }
+        },
         "forum": {
             "edit": {
                 "edit": "編集",
@@ -10,7 +20,9 @@
                 "submit": "保存する",
                 "delete": "削除",
                 "deletetitle": "削除ボタン",
-                "save_disabled_fetching_favicons": ""
+                "save_disabled_fetching_favicons": "",
+                "favicon": "",
+                "grey_favicon": ""
             }
         }
     }

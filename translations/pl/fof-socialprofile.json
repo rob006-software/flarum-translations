@@ -1,5 +1,15 @@
 {
     "fof-socialprofile": {
+        "admin": {
+            "permissions": {
+                "view": "",
+                "editOwn": "",
+                "editAny": ""
+            },
+            "settings": {
+                "allow_external_favicons_label": ""
+            }
+        },
         "forum": {
             "edit": {
                 "edit": "Edytuj",
@@ -10,7 +20,9 @@
                 "submit": "Zapisz",
                 "delete": "Usuń",
                 "deletetitle": "Usuń przycisk",
-                "save_disabled_fetching_favicons": "Ikony są pobierane, proszę czekać."
+                "save_disabled_fetching_favicons": "Ikony są pobierane, proszę czekać.",
+                "favicon": "",
+                "grey_favicon": ""
             }
         }
     }

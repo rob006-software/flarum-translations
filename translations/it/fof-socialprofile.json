@@ -1,5 +1,15 @@
 {
     "fof-socialprofile": {
+        "admin": {
+            "permissions": {
+                "view": "",
+                "editOwn": "",
+                "editAny": ""
+            },
+            "settings": {
+                "allow_external_favicons_label": ""
+            }
+        },
         "forum": {
             "edit": {
                 "edit": "Modifica",
@@ -10,7 +20,9 @@
                 "submit": "Salva",
                 "delete": "Cancella",
                 "deletetitle": "Cancella Bottone",
-                "save_disabled_fetching_favicons": "Una o più icone verranno recuperate. Per favore attendi."
+                "save_disabled_fetching_favicons": "Una o più icone verranno recuperate. Per favore attendi.",
+                "favicon": "",
+                "grey_favicon": ""
             }
         }
     }

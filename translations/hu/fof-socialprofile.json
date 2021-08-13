@@ -1,5 +1,15 @@
 {
     "fof-socialprofile": {
+        "admin": {
+            "permissions": {
+                "view": "",
+                "editOwn": "",
+                "editAny": ""
+            },
+            "settings": {
+                "allow_external_favicons_label": ""
+            }
+        },
         "forum": {
             "edit": {
                 "edit": "Szerkeszt",
@@ -10,7 +20,9 @@
                 "submit": "Mentés",
                 "delete": "Törlés",
                 "deletetitle": "Törlés gomb",
-                "save_disabled_fetching_favicons": "Egy vagy több ikon beolvasása folyamatban van. Kérlek várj."
+                "save_disabled_fetching_favicons": "Egy vagy több ikon beolvasása folyamatban van. Kérlek várj.",
+                "favicon": "",
+                "grey_favicon": ""
             }
         }
     }
