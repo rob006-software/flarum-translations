@@ -598,6 +598,9 @@ return [
 	'miniflar-sidenav-download-button' => [
 		'tag' => 'https://raw.githubusercontent.com/miniflar/sidenav-download-button/1.1.0/resources/locale/en.yml',
 	],
+	'miniflar-top-like-givers-widget' => [
+		'tag' => 'https://raw.githubusercontent.com/miniflar/top-like-givers-widget/0.1.0/resources/locale/en.yml',
+	],
 	'nearata-auth-minecraft' => [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-auth-minecraft/v2.0.0/resources/locale/en.yml',
 	],
