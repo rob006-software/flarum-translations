@@ -13,9 +13,9 @@
                 "placeholder": "Beyaz listeye e-posta gönder..."
             },
             "whitelist_regex": {
-                "label": "",
-                "description": "",
-                "placeholder": ""
+                "label": "Beyaz liste düzenli ifadesi",
+                "description": "Düzenki ifadeleri beyaz listeye e-posta ile gönder",
+                "placeholder": "Beyaz listeye düzenli ifade..."
             },
             "blacklist_literal": {
                 "label": "Kara liste",
@@ -23,9 +23,9 @@
                 "placeholder": "Kara listeye e-posta gönder..."
             },
             "blacklist_regex": {
-                "label": "",
-                "description": "",
-                "placeholder": ""
+                "label": "Kara liste düzenli ifadesi",
+                "description": "Düzenli ifadeleri kara listeye e-posta ile gönder",
+                "placeholder": "Kara listeye düzenli ifade..."
             }
         },
         "forum": {
