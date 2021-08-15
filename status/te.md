@@ -2350,9 +2350,20 @@
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/justoverclockl/edit-posts" title="justoverclock/edit-posts"><code>justoverclock/edit-posts</code></a>
+			<a href="https://github.com/miniflar/top-like-givers-widget" title="miniflar/top-like-givers-widget"><code>miniflar/top-like-givers-widget</code></a>
 		</td>
 		<td align="center">212</td>
+		<td align="center"><a href="https://packagist.org/packages/miniflar/top-like-givers-widget/stats">2</a></td>
+		<td align="center"><a href="https://packagist.org/packages/miniflar/top-like-givers-widget/stats">2</a></td>
+		<td align="center"><a href="https://packagist.org/packages/miniflar/top-like-givers-widget/stats">2</a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/miniflar-top-like-givers-widget/te/"><img src="https://weblate.rob006.net/widgets/flarum/te/miniflar-top-like-givers-widget/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/justoverclockl/edit-posts" title="justoverclock/edit-posts"><code>justoverclock/edit-posts</code></a>
+		</td>
+		<td align="center">213</td>
 		<td align="center"><a href="https://packagist.org/packages/justoverclock/edit-posts/stats">0</a></td>
 		<td align="center"><a href="https://packagist.org/packages/justoverclock/edit-posts/stats">0</a></td>
 		<td align="center"><a href="https://packagist.org/packages/justoverclock/edit-posts/stats">0</a></td>
