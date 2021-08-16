@@ -520,6 +520,9 @@ return [
 	'justoverclock-realtimecode' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-realtimecode/1.0.0/resources/locale/en.yml',
 	],
+	'justoverclock-simple-calendar-widget' => [
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/simple-calendar-widget/0.1.0/locale/en.yml',
+	],
 	'justoverclock-socialcards' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-socialcards/1.0.0/resources/locale/en.yml',
 	],
