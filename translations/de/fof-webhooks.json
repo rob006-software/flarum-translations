@@ -41,14 +41,14 @@
             "errors": {
                 "service_not_found": "Der Dienst '{service}' konnte nicht gefunden werden.",
                 "url_invalid": "URL ist für den gewählten Dienst nicht gültig.",
-                "tag_invalid": ""
+                "tag_invalid": "Dieser WebHook ist auf ein ungültiges Tag beschränkt. Die Einschränkung gilt nicht. Stelle sicher, dass dies bestimmt ist."
             },
             "nav": {
                 "desc": "Anpassbare ausgehende Webhooks für dein Forum."
             },
             "settings": {
-                "debug_label": "",
-                "debug_help": "",
+                "debug_label": "Debuggen",
+                "debug_help": "Fügt der Flarum-Protokolldatei zusätzliche Protokolle hinzu, um Probleme mit Webhooks und/oder Ereignissen zu beheben, die nicht richtig funktionieren.",
                 "item": {
                     "tag_any_label": "Beliebig"
                 },
