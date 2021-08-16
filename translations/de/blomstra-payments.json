@@ -2,37 +2,37 @@
     "blomstra-payments": {
         "forum": {
             "pay-to-view": {
-                "purchase-control": "",
-                "purchase-log-in": "",
-                "purchase-completed": "",
-                "description": ""
+                "purchase-control": "Zum Ansehen bezahlen",
+                "purchase-log-in": "Anmelden & zum Ansehen bezahlen",
+                "purchase-completed": "Entsperrt",
+                "description": "Beiträge, die über diesen Punkt hinausgehen, sind hinter einer Paywall gesperrt, Du kannst sie entsperren, indem Du die Zahlung über unseren Zahlungsanbieter Stripe abschließt.\n"
             },
             "pay-to-post": {
-                "purchase-control": "",
-                "purchase": "",
-                "purchase_required": ""
+                "purchase-control": "Zum Veröffentlichen bezahlen",
+                "purchase": "Zum Veröffentlichen kaufen",
+                "purchase_required": "Diese Diskussion wird veröffentlicht, sobald Du die Zahlung über unseren Zahlungsanbieter Stripe abgeschlossen hast. Klicke auf Kaufen, um die Kosten und Zahlungsoptionen anzuzeigen.\n"
             },
             "tag": {
-                "require-payment-label": ""
+                "require-payment-label": "Zahlung benötigt"
             },
             "payment-options-modal": {
-                "title": "",
-                "description": ""
+                "title": "Zahlungsoptionen für den Zugriff auf {group}",
+                "description": "Wähle eine der folgenden Optionen, um deinen Zugriff auf die Gruppe zu starten. Zur Zahlungsabwicklung wirst Du zu unserem Zahlungsanbieter Stripe weitergeleitet.\n"
             },
             "access-portal": {
-                "options": "",
-                "purchase": ""
+                "options": "Optionen",
+                "purchase": "Kaufen"
             },
             "nav": {
-                "access_portal": ""
+                "access_portal": "Zugriffsportal"
             }
         },
         "admin": {
             "edit-tag": {
-                "select-ptp-product": "",
-                "select-ptp-product-description": "",
-                "select-ptv-product": "",
-                "select-ptv-product-description": "",
+                "select-ptp-product": "(PTP) Erforderliches Produkt",
+                "select-ptp-product-description": "Die Auswahl eines Produkts erfordert die Zahlung dieses Produkts für jede Diskussion in diesem Tag. Pay per Post, zum Beispiel ideal für Advertorials. Erstelle in Deinem Stripe-Dashboard ein Produkt mit einem einmaligen Preis und kopiere die ID beginnend mit <code>prod_</code> in dieses Feld.\n",
+                "select-ptv-product": "(PTV) Erforderliches Produkt",
+                "select-ptv-product-description": "Die Auswahl eines Produkts erfordert die Zahlung dieses Produkts, um dauerhaft Zugriff auf alle Beiträge über den Schwellenwert hinaus zu erhalten. Erstelle ein Produkt in Deinem Stripe-Dashboard und kopiere die ID beginnend mit <code>prod_</code> in dieses Feld.\n",
                 "visible-from": "",
                 "visible-from-description": ""
             },
@@ -42,9 +42,9 @@
             },
             "settings": {
                 "pk": "",
-                "sk": "",
-                "webhook-secret": "",
-                "link-access-portal": ""
+                "sk": "Geheimer (API) Schlüssel",
+                "webhook-secret": "Webhook-Signaturgeheimnis",
+                "link-access-portal": "Zugangsportal unter Benutzersitzungs-Dropdown verknüpfen"
             }
         }
     }
