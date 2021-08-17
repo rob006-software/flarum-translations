@@ -1,73 +1,73 @@
 {
     "fof-ban-ips": {
         "forum": {
-            "ban_ip_button": "",
+            "ban_ip_button": "=> fof-ban-ips.ref.ban_ip_button",
             "unban_ip_button": "",
             "modal": {
-                "ban_options_only_ip": "",
-                "ban_options_all_ip": "",
-                "ban_ip_no_users": ""
+                "ban_options_only_ip": "Nur aktuelle IP (<code>{ip}</code>) sperren",
+                "ban_options_all_ip": "Alle IPs sperren, die von <i>{username}</i> verwendet werden",
+                "ban_ip_no_users": "Niemand sonst wird gesperrt"
             },
             "user_badge": {
-                "banned_tooltip": ""
+                "banned_tooltip": "Gesperrt"
             },
             "user_controls": {
-                "ban_button": "",
-                "unban_button": ""
+                "ban_button": "=> fof-ban-ips.ref.ban_label",
+                "unban_button": "=> fof-ban-ips.ref.unban_label"
             }
         },
         "admin": {
             "permissions": {
-                "ban_ip_label": "",
-                "view_banned_ip_list_label": ""
+                "ban_ip_label": "=> fof-ban-ips.ref.ban_ip_addresses",
+                "view_banned_ip_list_label": "Liste der gesperrten IP-Adressen anzeigen"
             },
             "page": {
-                "create_button": "",
-                "creator_label": "",
-                "user_label": "",
-                "address_label": "",
-                "reason_label": "",
-                "date_label": ""
+                "create_button": "=> fof-ban-ips.ref.ban_ip_button",
+                "creator_label": "Ersteller",
+                "user_label": "Benutzer",
+                "address_label": "=> fof-ban-ips.ref.address_label",
+                "reason_label": "=> fof-ban-ips.ref.reason_label",
+                "date_label": "Datum"
             },
             "modal": {
-                "update_title": "",
-                "ban_ip_no_users": ""
+                "update_title": "Gesperrte IP aktualisieren",
+                "ban_ip_no_users": "Niemand wird gesperrt"
             },
-            "empty_text": ""
+            "empty_text": "Keine gesperrten IPs gefunden."
         },
         "error": {
-            "banned_ip_message": "",
-            "no_ips_found_message": ""
+            "banned_ip_message": "Autorisation fehlgeschlagen.",
+            "no_ips_found_message": "Keine IP(s) für Benutzer gefunden."
         },
         "lib": {
             "modal": {
-                "title": "",
-                "unban_title": "",
-                "address_label": "",
-                "reason_label": "",
-                "check_button": "",
+                "title": "=> fof-ban-ips.ref.ban_ip_addresses",
+                "unban_title": "=> fof-ban-ips.ref.unban_ip_addresses",
+                "address_label": "=> fof-ban-ips.ref.address_label",
+                "reason_label": "=> fof-ban-ips.ref.reason_label",
+                "check_button": "Prüfen",
                 "save_button": "",
                 "ban_ip_confirmation": "",
                 "ban_ip_users": "",
                 "unban_ip_confirmation": "",
-                "unban_options_only_ip": "",
-                "unban_options_all_ip": "",
-                "unban_ip_no_users": "",
-                "unban_ip_users": "",
-                "unbanned_ips": "",
-                "ban_button": "",
-                "unban_button": ""
+                "unban_options_only_ip": "Nur aktuelle IP (<code>{ip}</code>) entsperren",
+                "unban_options_all_ip": "Sperre aller IPs auf, die von <i>{username}</i> verwendet werden",
+                "unban_ip_no_users": "Niemand sonst wird entbannt",
+                "unban_ip_users": "Benutzer {users} wird entbannt|Benutzer {users} wird entbannt",
+                "unbanned_ips": "<code>{ips}</code> entsperrt.",
+                "ban_button": "=> fof-ban-ips.ref.ban_label",
+                "unban_button": "=> fof-ban-ips.ref.unban_label"
             }
         },
         "ref": {
-            "ban_label": "",
-            "ban_ip_addresses": "",
-            "ban_ip_button": "",
-            "unban_label": "",
-            "unban_ip_addresses": "",
-            "unban_ip_button": "",
-            "address_label": "",
-            "reason_label": ""
+            "ban_label": "Sperren",
+            "ban_ip_addresses": "IP(s) sperren",
+            "ban_ip_button": "IP sperren",
+            "unban_label": "Entsperren",
+            "unban_ip_addresses": "IP(s) entsperren",
+            "unban_ip_button": "IP entsperren",
+            "address_label": "IP Adresse",
+            "reason_label": "Grund"
         }
     }
 }
