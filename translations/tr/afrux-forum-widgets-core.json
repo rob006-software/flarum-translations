@@ -2,8 +2,8 @@
     "afrux-forum-widgets-core": {
         "admin": {
             "settings": {
-                "prefer_data_with_initial_load": "",
-                "prefer_data_with_initial_load_help": ""
+                "prefer_data_with_initial_load": "Tüm araç verilerini en önce getir.",
+                "prefer_data_with_initial_load_help": "API istekleri göndererek ilk sayfa yüklemesinden sonra araç verilerini yüklemek yerine, veriler (mümkün olduğunda) ilk girişte yüklenecektir."
             }
         }
     }
