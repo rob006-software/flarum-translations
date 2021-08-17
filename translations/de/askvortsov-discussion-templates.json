@@ -2,32 +2,32 @@
     "askvortsov-discussion-templates": {
         "admin": {
             "permissions": {
-                "manage_own_discussion_reply_templates": "",
-                "manage_all_reply_templates": ""
+                "manage_own_discussion_reply_templates": "Antwortvorlagen für deine Diskussionen verwalten",
+                "manage_all_reply_templates": "Antwortvorlagen für alle Diskussionen verwalten"
             },
             "settings": {
-                "no_tag_template": "",
-                "append_template_on_tag_change": "",
-                "append_template_on_tag_change_help": ""
+                "no_tag_template": "Standardvorlage (wird verwendet, wenn die Diskussion ohne ausgewählte Tags gestartet wurde):",
+                "append_template_on_tag_change": "Vorlage bei Tag-Änderung anhängen?",
+                "append_template_on_tag_change_help": "Soll beim Ändern von Tags die Vorlage des neuen Tags angehängt werden, auch wenn der Benutzer bereits mit dem Schreiben begonnen hat? Unabhängig von dieser Einstellung wird die Vorlage gewechselt, wenn Tags geändert werden und der Benutzer keine Änderungen vorgenommen hat."
             },
             "tags": {
-                "tag_template_heading": "",
-                "tag_template_text": "",
-                "tag_template_button": ""
+                "tag_template_heading": "Diskussionsvorlage",
+                "tag_template_text": "Verwalte eine Vorlage für neue Diskussionen in diesem Tag.",
+                "tag_template_button": "Vorlage bearbeiten"
             },
             "tag_template_modal": {
-                "title": "",
-                "customize_text": "",
-                "submit_button": ""
+                "title": "Diskussionsvorlage",
+                "customize_text": "Verwalten Sie eine Vorlage für neue Diskussionen in diesem Tag.",
+                "submit_button": "Vorlage speichern"
             }
         },
         "forum": {
             "discussion_controls": {
-                "reply_template_button": ""
+                "reply_template_button": "Antwortvorlage bearbeiten"
             },
             "reply_template": {
-                "title": "",
-                "submit_button": ""
+                "title": "Antwortvorlage bearbeiten",
+                "submit_button": "Antwortvorlage speichern"
             }
         }
     }
