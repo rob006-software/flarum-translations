@@ -2,161 +2,161 @@
     "clarkwinkelmann-catch-the-fish": {
         "forum": {
             "moderate": {
-                "add": "",
-                "edit": "",
-                "delete": "",
-                "fishes": "",
-                "rounds": ""
+                "add": "Hinzufügen",
+                "edit": "Bearbeiten",
+                "delete": "Löschen",
+                "fishes": "Fische",
+                "rounds": "Runden"
             },
             "nav": {
-                "rankings": "",
-                "settings": ""
+                "rankings": "Catch The Fish Rankings",
+                "settings": "Catch The Fish Einstellungen"
             },
             "new-round-modal": {
-                "title": ""
+                "title": "Neue Runde"
             },
             "new-fish-modal": {
-                "title": ""
+                "title": "Neuer Fisch"
             },
             "edit-round-modal": {
-                "title": ""
+                "title": "Runde \"{name}\" bearbeiten"
             },
             "edit-fish-modal": {
-                "title": ""
+                "title": "Bearbeite Fisch \"{name}\""
             },
             "caught-fish-modal": {
-                "title": "",
-                "named-by": "",
-                "placed-by": "",
-                "congratulation": "",
-                "name": "",
-                "name-help": "",
-                "placement-help": "",
-                "submit-name-place-later": "",
-                "submit-name": "",
-                "submit-place-later": "",
-                "submit-continue": "",
-                "submit-name-place-random": "",
-                "submit-place-random": ""
+                "title": "Du hast einen Fisch gefangen!",
+                "named-by": "Benannt von",
+                "placed-by": "Platziert von",
+                "congratulation": "Herzlichen Glückwunsch, Du hast einen Fisch gefangen! Du hast {catch_count} Fische gefangen.",
+                "name": "Fisch Name",
+                "name-help": "Sie können den Fisch umbenennen, wenn Du möchtest. Der Name muss die Forenrichtlinien respektieren.",
+                "placement-help": "Du kannst die Fische in den letzten Diskussionen und aktiven Benutzerprofilen im Forum verstecken, wo Du möchtest. Einen selbst platzierten Fisch kann man nicht fangen.",
+                "submit-name-place-later": "Namen sichern und Versteck wählen",
+                "submit-name": "Namen sichern",
+                "submit-place-later": "Ja, ich wähle ein Versteck",
+                "submit-continue": "Fortfahren",
+                "submit-name-place-random": "Namen sichern und Fisch sich verstecken lassen",
+                "submit-place-random": "Lass die Fische sich verstecken"
             },
             "edit-round": {
-                "name": "",
-                "name-help": "",
-                "starts-at": "",
-                "ends-at": "",
-                "starting-pack": "",
-                "starting-pack-help": "",
-                "create": "",
-                "save": "",
-                "delete": "",
-                "delete-confirmation": ""
+                "name": "Name",
+                "name-help": "Der öffentliche Name für diese Runde wird im Banner und im Ranking angezeigt",
+                "starts-at": "Startzeit",
+                "ends-at": "Endzeit",
+                "starting-pack": "Startpaket",
+                "starting-pack-help": "Enthält ein paar Fische, damit Du in kürzester Zeit loslegen kannst",
+                "create": "Runde erstellen",
+                "save": "Runde sichern",
+                "delete": "Runde löschen",
+                "delete-confirmation": "Runde \"{name}\" löschen?"
             },
             "edit-fish": {
-                "name": "",
-                "name-help": "",
-                "create": "",
-                "save": "",
-                "delete": "",
-                "delete-confirmation": ""
+                "name": "Name",
+                "name-help": "Der aktuelle Name des Fisches. Kann von Spielern bearbeitet werden, wenn sie die Berechtigung haben, Fische umzubenennen",
+                "create": "Fisch erstellen",
+                "save": "Fisch sichern",
+                "delete": "Fisch löschen",
+                "delete-confirmation": "Fisch \"{name}\" löschen?"
             },
             "moving-fish": {
-                "login": ""
+                "login": "Einloggen um Fische zu fangen"
             },
             "fish-image": {
-                "alt": "",
-                "missing": ""
+                "alt": "Bild von Fisch '{name}'",
+                "missing": "Fehlendes Fischbild"
             },
             "round-alert": {
-                "message": "",
-                "rankings": ""
+                "message": "Runde '{name}', fang so viele Fische wie möglich bis {time}",
+                "rankings": "Ranglisten ansehen"
             },
             "basket": {
-                "title": "",
-                "drag-help": "",
-                "time": ""
+                "title": "Fischkorb",
+                "drag-help": "Ziehe den Fisch per Drag & Drop in eine Diskussion, einen Beitrag oder ein Benutzerprofil",
+                "time": "Ort bis: {time}"
             },
             "table-round": {
-                "loading": "",
-                "title": "",
-                "new": "",
-                "name": "",
-                "start": "",
-                "end": "",
-                "actions": "",
-                "edit": "",
-                "fishes": ""
+                "loading": "Laden...",
+                "title": "Runde",
+                "new": "Neue Runde",
+                "name": "Name",
+                "start": "Von",
+                "end": "Bis",
+                "actions": "Aktionen",
+                "edit": "Bearbeiten",
+                "fishes": "Fische"
             },
             "table-fish": {
-                "loading": "",
-                "title": "",
-                "new": "",
-                "image": "",
-                "name": "",
-                "user-name": "",
-                "user-place": "",
-                "actions": "",
-                "edit": "",
-                "no-user-name": "",
-                "no-user-place": "",
-                "upload": "",
-                "new-from-image": ""
+                "loading": "Laden...",
+                "title": "Fische für Runde {name}",
+                "new": "Neuer Fisch",
+                "image": "Bild",
+                "name": "Name",
+                "user-name": "Zuletzt benannt von",
+                "user-place": "Zuletzt platziert von",
+                "actions": "Aktionen",
+                "edit": "Bearbeiten",
+                "no-user-name": "Nicht benannt",
+                "no-user-place": "Zufällig",
+                "upload": "neues Bild hochladen",
+                "new-from-image": "Erstellen Sie neue Fische über den Bulk-Image-Import"
             },
             "table-ranking": {
-                "loading": "",
-                "title": "",
-                "rank": "",
-                "count": "",
-                "user": ""
+                "loading": "Laden...",
+                "title": "Rangliste der Runde {name}",
+                "rank": "Name",
+                "count": "Fische gefangen",
+                "user": "Benutzer"
             },
             "page-ranking": {
-                "title": "",
-                "permission": "",
-                "nothing": ""
+                "title": "Rangliste",
+                "permission": "Du verfügst über keine Berechtigung, die Rangliste zu sehen",
+                "nothing": "Keine aktiven Runden"
             },
             "drop-area": {
-                "message": "",
-                "missing-from-store": ""
+                "message": "Hier kannst du den Fisch abgeben",
+                "missing-from-store": "Der Fisch konnte nicht im Datenspeicher gefunden werden"
             }
         },
         "admin": {
             "settings": {
-                "discussion-age": "",
-                "post-age": "",
-                "user-age": "",
-                "time-to-place": "",
-                "alert-round": "",
-                "animate-flip": ""
+                "discussion-age": "Wie alt Diskussionen sein können, damit ein Fisch darauf platziert wird (Tage)",
+                "post-age": "Wie alt können Pfosten sein, damit ein Fisch darauf platziert wird (Tage)",
+                "user-age": "Wie lange muss ein Benutzer aktiv gewesen sein, damit ein Fisch darauf platziert wird (Tage)",
+                "time-to-place": "Zeit, um Fische zu platzieren, bevor sie zufällig platziert werden (Minuten)",
+                "alert-round": "Zeige einen Altert mit dem runden Namen und der Dauer auf der Homepage an",
+                "animate-flip": "Spiegel Fischbilder basierend auf der Richtung"
             },
             "permissions": {
-                "visible": "",
-                "list-rankings": "",
-                "participate": "",
-                "choose-place": "",
-                "choose-name": "",
-                "moderate": ""
+                "visible": "Siehe die Fische",
+                "list-rankings": "Greife auf die Ranking-Seite zu",
+                "participate": "Nehme an den Runden teil und fange Fische",
+                "choose-place": "Wähle die Fischplatzierung nach dem Fangen",
+                "choose-name": "Wähle den Fischnamen nach dem Fangen",
+                "moderate": "Moderate Runden und Fische"
             }
         },
         "api": {
-            "default-fish-name": "",
-            "wrong-catch-placement": "",
-            "too-many-placement-models": "",
-            "invalid-discussion-id": "",
-            "invalid-post-id": "",
-            "invalid-user-id": "",
-            "model-deleted": "",
-            "model-private": "",
-            "inactive-discussion": "",
-            "inactive-post": "",
-            "inactive-user": "",
-            "non-comment-post": "",
-            "user-suspended": "",
-            "random-error": "",
-            "cannot-catch-own-fish": "",
-            "cannot-catch-hold-fish": "",
-            "fish-update-wrong-user": "",
-            "fish-update-expired": "",
-            "round-not-started": "",
-            "round-finished": ""
+            "default-fish-name": "Fisch #{number}",
+            "wrong-catch-placement": "Hier existiert kein Fisch. Vielleicht warst du nicht schnell genug und jemand anderes hat es zuerst geschafft",
+            "too-many-placement-models": "Es ist immer nur eine Platzierung möglich",
+            "invalid-discussion-id": "Diskussion scheint nicht zu existieren, vielleicht wurde sie kürzlich gelöscht",
+            "invalid-post-id": "Beitrag scheint nicht zu existieren, vielleicht wurde er kürzlich gelöscht",
+            "invalid-user-id": "Benutzer scheint nicht zu existieren, vielleicht wurde er kürzlich gelöscht",
+            "model-deleted": "Fisch kann nicht in einer gelöschten Diskussion oder einem gelöschten Beitrag platziert werden",
+            "model-private": "Fische können nicht in eine private Diskussion oder einen privaten Beitrag eingefügt werden",
+            "inactive-discussion": "Fische können nicht länger als {days}Tage in einer Diskussion inaktiv platziert werden",
+            "inactive-post": "Fisch kann nicht in Beitrag platziert werden, der vor mehr als {days} Tagen erstellt wurde",
+            "inactive-user": "Fische können nicht auf Nutzer platziert werden, die länger als {days} Tage inaktiv sind",
+            "non-comment-post": "Kann nur Fische in Kommentarbeiträgen platzieren",
+            "user-suspended": "Kann einem gesperrten Benutzer keinen Fisch zuordnen",
+            "random-error": "Es konnte keine zufällige Fischplatzierung generiert werden",
+            "cannot-catch-own-fish": "Einen selbst platzierten Fisch kann man nicht fangen",
+            "cannot-catch-hold-fish": "Der vorherige Fänger muss den Fisch freigeben, bevor Du ihn fangen kannst",
+            "fish-update-wrong-user": "Du kannst diesen Fisch nicht mehr bearbeiten. Vermutlich hat es jemand anderes erwischt",
+            "fish-update-expired": "Zu spät, Du kannst diesen Fisch nicht mehr bearbeiten. Es wurde zwischenzeitlich automatisch irgendwo platziert",
+            "round-not-started": "Diese Runde hat noch nicht begonnen",
+            "round-finished": "Diese Runde ist abgeschlossen"
         }
     }
 }
