@@ -2,8 +2,8 @@
     "afrux-forum-widgets-core": {
         "admin": {
             "settings": {
-                "prefer_data_with_initial_load": "",
-                "prefer_data_with_initial_load_help": ""
+                "prefer_data_with_initial_load": "Bevorzuge das Laden aller Widget-Daten mit der anfänglichen Seitenantwort.",
+                "prefer_data_with_initial_load_help": "Anstatt Widget-Daten nach dem anfänglichen Laden der Seite durch Senden von API-Anfragen zu laden, werden die Daten (wenn möglich) beim anfänglichen Laden geladen."
             }
         }
     }
