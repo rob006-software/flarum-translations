@@ -11,14 +11,19 @@
                 }
             }
         },
+        "forum": {
+            "log_in": {
+                "with_button": "",
+                "with_vkontakte_button": "",
+                "with_vkontakte": "Se connecter avec {provider}"
+            }
+        },
+        "providers": {
+            "vkontakte": ""
+        },
         "lib": {
             "providers": {
                 "vkontakte": "Vkontakte"
-            }
-        },
-        "forum": {
-            "log_in": {
-                "with_vkontakte": "Se connecter avec {provider}"
             }
         }
     }
