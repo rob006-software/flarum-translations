@@ -13,12 +13,23 @@
                     "reminders_notice": ""
                 },
                 "allow_select_own_post": "",
+                "allow_select_own_post_help": "",
                 "select_best_answer_reminder_days": "",
+                "select_best_answer_reminder_days_help": "",
                 "schedule_on_one_server": "",
+                "schedule_on_one_server_help": "",
                 "schedule_stop_overnight": "",
+                "schedule_stop_overnight_help": "",
                 "schedule_log_output": "",
-                "remind_tag_ids": "",
-                "use_alt_ui": ""
+                "use_alt_ui": "",
+                "use_alt_ui_help": "",
+                "documentation": "",
+                "introduction": "",
+                "remind_tag_ids": ""
+            },
+            "edit_tag": {
+                "qna_label": "",
+                "reminders": ""
             }
         },
         "forum": {
@@ -38,6 +49,21 @@
                     "awarded_best_answer": "",
                     "best_answer_in_discussion": ""
                 }
+            },
+            "index": {
+                "ask_question": "",
+                "cannot_ask_question": "",
+                "solved_link": "",
+                "unsolved_link": ""
+            },
+            "filter": {
+                "all_label": "",
+                "solved_label": "",
+                "unsolved_label": "",
+                "accessible_label": ""
+            },
+            "composer": {
+                "titlePlaceholder": ""
             }
         },
         "email": {

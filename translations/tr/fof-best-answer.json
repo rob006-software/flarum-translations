@@ -13,12 +13,23 @@
                     "reminders_notice": "Hatırlatıcıların doğru şekilde çalışması için Flarum planlayıcısını doğru şekilde ayarlamış olmanız gerekir."
                 },
                 "allow_select_own_post": "Kullanıcının kendi gönderisini seçmesine izin ver",
+                "allow_select_own_post_help": "",
                 "select_best_answer_reminder_days": "Kullanıcıya X günden sonra en iyi yanıtı seçmesini hatırlat",
+                "select_best_answer_reminder_days_help": "",
                 "schedule_on_one_server": "Zamanlayıcı için 'onOneServer()' kullanın (Redis/Memcache gerektirir)",
+                "schedule_on_one_server_help": "",
                 "schedule_stop_overnight": "Hatırlatıcının aktif olunmayan saatlerde çalışmasını engelleyin (ÖS 9 - ÖÖ 8 sunucu saati)",
+                "schedule_stop_overnight_help": "",
                 "schedule_log_output": "Zamanlayıcı çıktısını kayıt dosyasına ekle",
-                "remind_tag_ids": "Hatırlatıcıyı belirli etiketlerde etkinleştirmek için etiketleri belirleyin (virgülle ayırarak)",
-                "use_alt_ui": "Alternatif şablonu kullanın (En İyi Yanıt düğmeleri gönderinin sonunda yer alır)"
+                "use_alt_ui": "Alternatif şablonu kullanın (En İyi Yanıt düğmeleri gönderinin sonunda yer alır)",
+                "use_alt_ui_help": "",
+                "documentation": "",
+                "introduction": "",
+                "remind_tag_ids": "Hatırlatıcıyı belirli etiketlerde etkinleştirmek için etiketleri belirleyin (virgülle ayırarak)"
+            },
+            "edit_tag": {
+                "qna_label": "",
+                "reminders": ""
             }
         },
         "forum": {
@@ -38,6 +49,21 @@
                     "awarded_best_answer": "Birisi gönderimi en iyi yanıt olarak seçtiğinde",
                     "best_answer_in_discussion": "Yanıtladığım bir tartışmada en iyi yanıt belirlendiğinde"
                 }
+            },
+            "index": {
+                "ask_question": "",
+                "cannot_ask_question": "",
+                "solved_link": "",
+                "unsolved_link": ""
+            },
+            "filter": {
+                "all_label": "",
+                "solved_label": "",
+                "unsolved_label": "",
+                "accessible_label": ""
+            },
+            "composer": {
+                "titlePlaceholder": ""
             }
         },
         "email": {

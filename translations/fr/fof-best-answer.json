@@ -13,12 +13,23 @@
                     "reminders_notice": "Pour que les rappels fonctionnent correctement, vous devez configurer correctement le planificateur de Flarum."
                 },
                 "allow_select_own_post": "Autoriser les utilisateurs à sélectionner leurs propres publications",
+                "allow_select_own_post_help": "",
                 "select_best_answer_reminder_days": "Rappelez aux utilisateurs de sélectionner une meilleure réponse après X jours",
+                "select_best_answer_reminder_days_help": "",
                 "schedule_on_one_server": "Utilisez la directive 'onOneServer ()' pour le planificateur de tâches (nécessite Redis/Memcache)",
+                "schedule_on_one_server_help": "",
                 "schedule_stop_overnight": "Empêcher le planificateur de rappels de s'exécuter pendant les heures non sociales (21h - 8h, heures du serveur)",
+                "schedule_stop_overnight_help": "",
                 "schedule_log_output": "Ajouter la sortie du planificateur au stockage des journaux",
-                "remind_tag_ids": "Pour restreindre les rappels à des étiquettes particulières, entrez les identifiants des étiquettes ici (séparés par des virgules)",
-                "use_alt_ui": "Utiliser une mise en page alternative (boutons de meilleure réponse dans le pied de page des messages)"
+                "use_alt_ui": "Utiliser une mise en page alternative (boutons de meilleure réponse dans le pied de page des messages)",
+                "use_alt_ui_help": "",
+                "documentation": "",
+                "introduction": "",
+                "remind_tag_ids": "Pour restreindre les rappels à des étiquettes particulières, entrez les identifiants des étiquettes ici (séparés par des virgules)"
+            },
+            "edit_tag": {
+                "qna_label": "",
+                "reminders": ""
             }
         },
         "forum": {
@@ -38,6 +49,21 @@
                     "awarded_best_answer": "Lorsque quelqu'un définit mon message comme meilleure réponse",
                     "best_answer_in_discussion": "Lorsqu'une meilleure réponse est définie dans une discussion à laquelle j'ai participé"
                 }
+            },
+            "index": {
+                "ask_question": "",
+                "cannot_ask_question": "",
+                "solved_link": "",
+                "unsolved_link": ""
+            },
+            "filter": {
+                "all_label": "",
+                "solved_label": "",
+                "unsolved_label": "",
+                "accessible_label": ""
+            },
+            "composer": {
+                "titlePlaceholder": ""
             }
         },
         "email": {

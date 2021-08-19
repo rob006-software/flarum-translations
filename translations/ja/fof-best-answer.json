@@ -13,12 +13,23 @@
                     "reminders_notice": ""
                 },
                 "allow_select_own_post": "ユーザーが自身の投稿をベストアンサーにすることを許可する",
+                "allow_select_own_post_help": "",
                 "select_best_answer_reminder_days": "n 日後にベストアンサーを選択するようユーザーに通知します",
+                "select_best_answer_reminder_days_help": "",
                 "schedule_on_one_server": "タスクプランの展開に「onOneServer()」メソッドを使用する（PHP 拡張機能が必要：Redis / Memcache）",
+                "schedule_on_one_server_help": "",
                 "schedule_stop_overnight": "夜は邪魔しないでください（サーバー時間は午後 9 時から午前 8 時、リマインダーサービスは無効）",
+                "schedule_stop_overnight_help": "",
                 "schedule_log_output": "スケジュールされたタスクの実行をログに記録します",
-                "remind_tag_ids": "特定のラベルにのみリマインダーを使用するには、ここにラベル ID を入力します（カンマ区切り）",
-                "use_alt_ui": "投稿のフッターに「ベストアンサー」の設定ボタンを表示する"
+                "use_alt_ui": "投稿のフッターに「ベストアンサー」の設定ボタンを表示する",
+                "use_alt_ui_help": "",
+                "documentation": "",
+                "introduction": "",
+                "remind_tag_ids": "特定のラベルにのみリマインダーを使用するには、ここにラベル ID を入力します（カンマ区切り）"
+            },
+            "edit_tag": {
+                "qna_label": "",
+                "reminders": ""
             }
         },
         "forum": {
@@ -38,6 +49,21 @@
                     "awarded_best_answer": "誰かが私の投稿をベストアンサーとして設定したとき",
                     "best_answer_in_discussion": "私が参加したスレッドにベストアンサーが登場しました"
                 }
+            },
+            "index": {
+                "ask_question": "",
+                "cannot_ask_question": "",
+                "solved_link": "",
+                "unsolved_link": ""
+            },
+            "filter": {
+                "all_label": "",
+                "solved_label": "",
+                "unsolved_label": "",
+                "accessible_label": ""
+            },
+            "composer": {
+                "titlePlaceholder": ""
             }
         },
         "email": {

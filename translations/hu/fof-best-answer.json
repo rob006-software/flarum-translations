@@ -13,12 +13,23 @@
                     "reminders_notice": "Ahhoz, hogy az emlékeztető jól működjön, a Flarum időzítő jól kell legyen beállítva."
                 },
                 "allow_select_own_post": "A felhasználók kiválaszthatják a saját hozzászólásukat",
+                "allow_select_own_post_help": "",
                 "select_best_answer_reminder_days": "A felhasználók emlékeztetése hogy válasszák ki a legjobb választ X nap mulva",
+                "select_best_answer_reminder_days_help": "",
                 "schedule_on_one_server": "Használja az 'onOneServer ()' utasítást a feladatütemezőhöz (Redis / Memcache szükséges)",
+                "schedule_on_one_server_help": "",
                 "schedule_stop_overnight": "Megakadályozza az emlékeztető ütemezőjének futtatását éjszakai órákban (21:00 és 8:00 között)",
+                "schedule_stop_overnight_help": "",
                 "schedule_log_output": "Az ütemező kimenetének hozzáfűzése a naplótárhoz",
-                "remind_tag_ids": "Ha bizonyos címkékre szeretnéd korlátozni az emlékeztetőket, írd be a címkéket (vesszővel elválasztva)",
-                "use_alt_ui": "Alternatív elrendezés használata (a legjobb válasz gombok a láblécben)"
+                "use_alt_ui": "Alternatív elrendezés használata (a legjobb válasz gombok a láblécben)",
+                "use_alt_ui_help": "",
+                "documentation": "",
+                "introduction": "",
+                "remind_tag_ids": "Ha bizonyos címkékre szeretnéd korlátozni az emlékeztetőket, írd be a címkéket (vesszővel elválasztva)"
+            },
+            "edit_tag": {
+                "qna_label": "",
+                "reminders": ""
             }
         },
         "forum": {
@@ -38,6 +49,21 @@
                     "awarded_best_answer": "Amikor valaki a hozzászólásomat legjobb válasznak jelöli",
                     "best_answer_in_discussion": "Amikor a legjobb válasz ki lett választva a beszélgetésben, amelyben benne vagyok"
                 }
+            },
+            "index": {
+                "ask_question": "",
+                "cannot_ask_question": "",
+                "solved_link": "",
+                "unsolved_link": ""
+            },
+            "filter": {
+                "all_label": "",
+                "solved_label": "",
+                "unsolved_label": "",
+                "accessible_label": ""
+            },
+            "composer": {
+                "titlePlaceholder": ""
             }
         },
         "email": {

@@ -13,12 +13,23 @@
                     "reminders_notice": "为了使提醒功能正常运行，您必须正确设置 Flarum 调度器。"
                 },
                 "allow_select_own_post": "允许用户将自己的帖子设为最佳回复",
+                "allow_select_own_post_help": "",
                 "select_best_answer_reminder_days": "于 n 天后提醒用户选择最佳回复",
+                "select_best_answer_reminder_days_help": "",
                 "schedule_on_one_server": "在任务调度器中使用「onOneServer()」（需要 PHP 扩展：Redis / Memcache）",
+                "schedule_on_one_server_help": "",
                 "schedule_stop_overnight": "夜间免打扰（服务器时间晚上 9 点至早上 8 点，禁用提醒服务）",
+                "schedule_stop_overnight_help": "",
                 "schedule_log_output": "将调度程序的输出添加到日志存储中",
-                "remind_tag_ids": "若要将提醒功能仅用于特定标签，请在此输入标签 ID （英文逗号分隔）",
-                "use_alt_ui": "将「最佳回复」按钮显示在帖子页脚"
+                "use_alt_ui": "将「最佳回复」按钮显示在帖子页脚",
+                "use_alt_ui_help": "",
+                "documentation": "",
+                "introduction": "",
+                "remind_tag_ids": "若要将提醒功能仅用于特定标签，请在此输入标签 ID （英文逗号分隔）"
+            },
+            "edit_tag": {
+                "qna_label": "",
+                "reminders": ""
             }
         },
         "forum": {
@@ -38,6 +49,21 @@
                     "awarded_best_answer": "有人将我的帖子设为最佳回复",
                     "best_answer_in_discussion": "我互动的主题有了最佳回复"
                 }
+            },
+            "index": {
+                "ask_question": "",
+                "cannot_ask_question": "",
+                "solved_link": "",
+                "unsolved_link": ""
+            },
+            "filter": {
+                "all_label": "",
+                "solved_label": "",
+                "unsolved_label": "",
+                "accessible_label": ""
+            },
+            "composer": {
+                "titlePlaceholder": ""
             }
         },
         "email": {
