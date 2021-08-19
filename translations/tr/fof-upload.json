@@ -13,8 +13,8 @@
                 "resize": "Resimlerin yüklenmeden önce yeniden boyulandırılıp boyutlandırılmayacağını seçin. Piksel cinsinden maksimum genişlik ve yükseklik belirtebilirsiniz. Yeniden boyutlandırma işlemi görüntülerin enini ve boyunu korur.\n",
                 "client_extension": "Varsayılan olarak Yükle, MIME türüne göre güvenli bir dosya uzantısı seçecektir.\nZIP veya ikili verilere dayalı bazı dosya türleri için bu, beklenen uzantıların yerine genel uzantıların kullanılmasına neden olabilir.\nBurada, aynen tutulacak dosya uzantılarının virgülle ayrılmış bir listesini girebilirsiniz.\n",
                 "watermark": "Yükleme sırasında resimlere filigran (watermark) eklenip eklenmeyeceğini seçin. Filigranlar gif olmayan dosyalara eklenebilir.\n",
-                "s3_compatible_storage": "Aşağıdaki ayarlar yalnızca S3 uyumlu depolama kullanılırken gereklidir. AWS kullanıyorsanız, bunları boş bırakabilirsiniz.",
-                "s3_acl": "Yüklenen nesneye uygulanması gereken ACL (varsayılan: özel). Olası değerler için bkz. https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl",
+                "s3_compatible_storage": "Aşağıdaki ayarlar yalnızca S3 uyumlu depolama kullanılırken gereklidir. AWS kullanıyorsanız, bunları boş bırakabilirsiniz.\n",
+                "s3_acl": "Yüklenen nesneye uygulanması gereken ACL (varsayılan: özel). Olası değerler için bkz. https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
                 "composer_buttons": "Varsayılan olarak hem medya yöneticisi düğmesi hem de yükleme düğmesi görünür durumdadır. Ayrıca yalnızca bir düğmeyi görüntülemeyi de seçebilirsiniz.\n"
             },
             "labels": {
@@ -25,7 +25,7 @@
                     "secret": "Secret",
                     "title": "AWS S3 depolama ayarları",
                     "advanced_title": "Gelişmiş S3 depolama ayarları",
-                    "endpoint": "Endpoint\n",
+                    "endpoint": "Endpoint",
                     "use_path_style_endpoint": "Dizin stili endpoint kullan",
                     "acl": "Access Control List (ACL)"
                 },
@@ -92,10 +92,10 @@
                 "image_description": "Resimin küçük halini gösterir ve proxyler php yoluyla indirilir. İstatistiklerin toplanması ve hotlink korunması mevcuttur.\n",
                 "image-preview": "Tam resim önizleme şablonu",
                 "image-preview_description": "Tam resmi satır içerisinde gösterir, indirme işlevine sahip değilir, istatistik toplamaz ve hotlink koruması yoktur.\n",
-                "markdown-image": "",
-                "markdown-image_description": "",
-                "bbcode-image": "",
-                "bbcode-image_description": "",
+                "markdown-image": "Markdown resim şablonu",
+                "markdown-image_description": "Markdown'ı kullanarak tam görseli satır içinde gösterir. <strong>Bunun çalışması için flarum/markdown'ın kurulu ve etkinleştirilmiş olması gerekir.</strong> İndirme işlevi yoktur, istatistik toplanmaz ve hotlink koruması yok sayılır.\n",
+                "bbcode-image": "BBCode resim şablonu",
+                "bbcode-image_description": "BBCode kullanarak tüm görüntüyü satır içinde gösterir. <strong>Bunun çalışması için flarum/bbcode'un kurulu ve etkinleştirilmiş olması gerekir.</strong> İndirme işlevi yoktur, istatistik toplanmaz ve hotlink koruması yok sayılır.\n",
                 "just-url": "Sadece Bağlantı",
                 "just-url_description": "Yalnızca URL'yi ekler. Oluşturma, otomatik bağlanma özelliğine sahip diğer uzantılar tarafından gerçekleştirilebilir. İndirme işlevi yoktur, hiçbir istatistik toplanmaz ve hotlink koruması göz ardı edilir.\n"
             },
