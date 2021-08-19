@@ -13,13 +13,13 @@
         },
         "forum": {
             "log_in": {
-                "with_button": "",
-                "with_vkontakte_button": "",
+                "with_button": "Se connecter avec {provider}",
+                "with_vkontakte_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_vkontakte": "Se connecter avec {provider}"
             }
         },
         "providers": {
-            "vkontakte": ""
+            "vkontakte": "=> fof-oauth.lib.providers.vkontakte"
         },
         "lib": {
             "providers": {
