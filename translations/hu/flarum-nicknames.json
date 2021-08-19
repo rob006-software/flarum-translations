@@ -2,34 +2,34 @@
     "flarum-nicknames": {
         "admin": {
             "permissions": {
-                "edit_own_nickname_label": ""
+                "edit_own_nickname_label": "Saját becenév szerkesztése"
             },
             "settings": {
-                "max_label": "",
-                "min_label": "",
-                "regex_label": "",
-                "unique_label": ""
+                "max_label": "A becenév maximum hossza",
+                "min_label": "A becenév minimum hossza",
+                "regex_label": "Regular expression for validation",
+                "unique_label": "A becenévnek egyedinek kell lennie?"
             },
             "wrong_driver": ""
         },
         "api": {
-            "invalid_nickname_message": ""
+            "invalid_nickname_message": "A becenév nem érvényes. Lépj kapcsolatban a fórum adminisztrátorával, hogy megtudd melyek a becenév szabályai."
         },
         "forum": {
             "change_nickname": {
-                "submit_button": "",
-                "title": ""
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> flarum-nicknames.ref.change_nickname"
             },
             "edit_user": {
-                "nicknames_heading": "",
-                "nicknames_text": ""
+                "nicknames_heading": "=> flarum-nicknames.ref.change_nickname",
+                "nicknames_text": "Becenév"
             },
             "settings": {
-                "change_nickname_button": ""
+                "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
             }
         },
         "ref": {
-            "change_nickname": ""
+            "change_nickname": "Becenév megváltoztatása"
         }
     }
 }
