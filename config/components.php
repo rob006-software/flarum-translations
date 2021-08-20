@@ -26,7 +26,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/android-com-pl/mobile-tab/1.0.5/locale/en.yml',
 	],
 	'acpl-my-tags' => [
-		'tag' => 'https://raw.githubusercontent.com/android-com-pl/my-tags/1.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/android-com-pl/my-tags/1.1.1/locale/en.yml',
 	],
 	'afrux-forum-stats-widget' => [
 		'tag' => 'https://raw.githubusercontent.com/afrux/forum-stats-widget/v0.1.0/locale/en.yml',
