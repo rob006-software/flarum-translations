@@ -10,26 +10,26 @@
                     "general": "Genel",
                     "reminders": "Hatırlatıcılar",
                     "advanced": "Gelişmiş",
-                    "reminders_notice": "Hatırlatıcıların doğru şekilde çalışması için Flarum planlayıcısını doğru şekilde ayarlamış olmanız gerekir."
+                    "reminders_notice": "Hatırlatıcıların çalışması için Flarum planlayıcısını doğru şekilde ayarlamış olmanız gerekir."
                 },
-                "allow_select_own_post": "Kullanıcının kendi gönderisini seçmesine izin ver",
+                "allow_select_own_post": "Kendi gönderini seç",
                 "allow_select_own_post_help": "",
                 "select_best_answer_reminder_days": "Kullanıcıya X günden sonra en iyi yanıtı seçmesini hatırlat",
                 "select_best_answer_reminder_days_help": "",
                 "schedule_on_one_server": "Zamanlayıcı için 'onOneServer()' kullanın (Redis/Memcache gerektirir)",
-                "schedule_on_one_server_help": "",
-                "schedule_stop_overnight": "Hatırlatıcının aktif olunmayan saatlerde çalışmasını engelleyin (ÖS 9 - ÖÖ 8 sunucu saati)",
-                "schedule_stop_overnight_help": "",
+                "schedule_on_one_server_help": "Redis/Memcache gerektirir",
+                "schedule_stop_overnight": "Aktif olmayan saatlerde hatırlatma bildirimlerinin gönderilmesini önleyin",
+                "schedule_stop_overnight_help": "9ös - 8öö sunucu zamanı",
                 "schedule_log_output": "Zamanlayıcı çıktısını kayıt dosyasına ekle",
                 "use_alt_ui": "Alternatif şablonu kullanın (En İyi Yanıt düğmeleri gönderinin sonunda yer alır)",
-                "use_alt_ui_help": "",
-                "documentation": "",
-                "introduction": "",
+                "use_alt_ui_help": "Altbilgideki en iyi yanıt kontrolleri",
+                "documentation": "Belgeler",
+                "introduction": "<code>flarum/tags</code> içinde hangi etiketlerin En İyi Yanıtları destekleyeceğini ve isteğe bağlı olarak hangi etiketlerin hatırlatıcıları desteklemesi gerektiğini etkinleştirin. Bir etiket için En İyi Yanıt etkinleştirildiğinde, yanıtları ayarlayabilen her kullanıcı grubuna (kendi tartışması, herhangi bir tartışma) izinler atayın. İzinler genel olarak (En İyi Yanıtın etkinleştirildiği herhangi bir etiket için) veya etiket bazında atanabilir.\n",
                 "remind_tag_ids": "Hatırlatıcıyı belirli etiketlerde etkinleştirmek için etiketleri belirleyin (virgülle ayırarak)"
             },
             "edit_tag": {
-                "qna_label": "",
-                "reminders": ""
+                "qna_label": "Bu etikette En İyi Yanıtların belirlenmesine izin ver",
+                "reminders": "Bu etiketteki tartışmalar için bir En İyi Yanıt belirlemesi amacıyla hatırlatıcı gönderin"
             }
         },
         "forum": {
