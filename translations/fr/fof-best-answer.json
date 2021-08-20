@@ -10,9 +10,9 @@
                     "general": "Général",
                     "reminders": "Rappels",
                     "advanced": "Avancé",
-                    "reminders_notice": "Pour que les rappels fonctionnent correctement, vous devez configurer correctement le planificateur de Flarum."
+                    "reminders_notice": "Pour que les rappels puissent fonctionner, vous devez configurer correctement le planificateur de Flarum."
                 },
-                "allow_select_own_post": "Autoriser les utilisateurs à sélectionner leurs propres publications",
+                "allow_select_own_post": "Sélectionner ses propres publications",
                 "allow_select_own_post_help": "Autoriser l'auteur original à sélectionner l'un de ses propres messages de la discussion comme meilleure réponse",
                 "select_best_answer_reminder_days": "Fréquence des rappels",
                 "select_best_answer_reminder_days_help": "Envoyer un rappel à l'auteur original après le nombre de jours configurable pour sélectionner une meilleure réponse, 0 = désactive les rappels.",
@@ -51,19 +51,19 @@
                 }
             },
             "index": {
-                "ask_question": "",
-                "cannot_ask_question": "",
-                "solved_link": "",
-                "unsolved_link": ""
+                "ask_question": "Poser une question",
+                "cannot_ask_question": "Ne peut pas poser de question",
+                "solved_link": "Discussions résolues",
+                "unsolved_link": "Discussions non résolues"
             },
             "filter": {
-                "all_label": "",
-                "solved_label": "",
-                "unsolved_label": "",
-                "accessible_label": ""
+                "all_label": "Toutes les questions",
+                "solved_label": "Questions résolues",
+                "unsolved_label": "Questions non résolues",
+                "accessible_label": "Sélection résolue/non résolue"
             },
             "composer": {
-                "titlePlaceholder": ""
+                "titlePlaceholder": "Titre de la question"
             }
         },
         "email": {
