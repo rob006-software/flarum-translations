@@ -79,6 +79,9 @@ return [
 	'askvortsov-saml' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-saml/v2.3.0/resources/locale/en.yml',
 	],
+	'blessing-oauth-client' => [
+		'tag' => 'https://raw.githubusercontent.com/bs-community/flarum-oauth-client/v2.0.1/locale/en.yml',
+	],
 	'blomstra-payments' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/blomstra-payments.yml',
 	],
