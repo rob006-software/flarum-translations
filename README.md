@@ -417,6 +417,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`dem13n-discussion-cards`](https://weblate.rob006.net/projects/flarum/dem13n-discussion-cards) | [`dem13n/discussion-cards`](https://github.com/Dem13n/discussion-cards) |
 | [`dem13n-topic-starter-label`](https://weblate.rob006.net/projects/flarum/dem13n-topic-starter-label) | [`dem13n/topic-starter-label`](https://github.com/Dem13n/topic-starter-label) |
 | [`extiverse-mercury`](https://weblate.rob006.net/projects/flarum/extiverse-mercury) | [`extiverse/mercury`](https://github.com/extiverse/mercury) |
+| [`ffans-clipboardjs`](https://weblate.rob006.net/projects/flarum/ffans-clipboardjs) | [`ffans/clipboardjs`](https://github.com/FFans/clipboardjs) |
 | [`flarumi-oauth-vkontakte`](https://weblate.rob006.net/projects/flarum/flarumi-oauth-vkontakte) | [`flarumi/oauth-vkontakte`](https://github.com/flarumi/oauth-vkontakte) |
 | [`flarumite-simple-discussion-views`](https://weblate.rob006.net/projects/flarum/flarumite-simple-discussion-views) | [`flarumite/simple-discussion-views`](https://github.com/flarumite/simple-discussion-views) |
 | [`flarumite-simple-spoilers`](https://weblate.rob006.net/projects/flarum/flarumite-simple-spoilers) | [`flarumite/simple-spoilers`](https://github.com/flarumite/simple-spoilers) |
@@ -429,6 +430,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ianm-level-ranks`](https://weblate.rob006.net/projects/flarum/ianm-level-ranks) | [`ianm/level-ranks`](https://github.com/imorland/level-ranks) |
 | [`ianm-syndication`](https://weblate.rob006.net/projects/flarum/ianm-syndication) | [`ianm/syndication`](https://github.com/imorland/syndication) |
 | [`ianm-synopsis`](https://weblate.rob006.net/projects/flarum/ianm-synopsis) | [`ianm/synopsis`](https://github.com/imorland/synopsis) |
+| [`itnt-uitab`](https://weblate.rob006.net/projects/flarum/itnt-uitab) | [`itnt/flarum-uitab`](https://github.com/Littlegolden/flarum-uitab) |
 | [`jslirola-login2seeplus`](https://weblate.rob006.net/projects/flarum/jslirola-login2seeplus) | [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus) |
 | [`justoverclock-custom-header`](https://weblate.rob006.net/projects/flarum/justoverclock-custom-header) | [`justoverclock/custom-header`](https://github.com/justoverclockl/custom-header) |
 | [`justoverclock-custom-html-widget`](https://weblate.rob006.net/projects/flarum/justoverclock-custom-html-widget) | [`justoverclock/custom-html-widget`](https://github.com/justoverclockl/custom-html-widget) |
