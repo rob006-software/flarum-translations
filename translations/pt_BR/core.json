@@ -498,6 +498,11 @@
             }
         },
         "views": {
+            "confirm_email": {
+                "submit_button": "",
+                "text": "",
+                "title": ""
+            },
             "content": {
                 "javascript_disabled_message": "Este site é melhor visualizado em um navegador moderno com JavaScript ativado.",
                 "load_error_message": "Ocorreu um erro ao tentar carregar a versão completa deste site. Tente atualizar essa página para corrigir o erro.",
@@ -561,6 +566,7 @@
             "change_password": "Mudar Senha",
             "color": "Cor",
             "confirm_password": "Confirme a Senha",
+            "confirm_email": "",
             "confirmation_email_sent": "Enviámos um e-mail de confirmação para {email}. Se não chegar logo, verifique sua pasta de spam.",
             "custom_footer_text": "Adicione HTML a ser exibido na parte inferior da página.",
             "custom_footer_title": "Editar rodapé personalizado",

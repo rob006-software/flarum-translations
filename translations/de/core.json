@@ -489,6 +489,11 @@
             }
         },
         "views": {
+            "confirm_email": {
+                "submit_button": "",
+                "text": "",
+                "title": ""
+            },
             "content": {
                 "javascript_disabled_message": "Dieses Forum ist für moderne Browser mit JavaScript optimiert.",
                 "load_error_message": "Beim Laden dieser Seite ist etwas schiefgelaufen.",
@@ -552,6 +557,7 @@
             "change_password": "Passwort ändern",
             "color": "Farbe",
             "confirm_password": "Passwort bestätigen",
+            "confirm_email": "",
             "confirmation_email_sent": "Wir haben eine Bestätigungsmail an {email} gesendet. Bitte schaue in deinem Spam-Ordner nach, falls nichts ankommen sollte.",
             "custom_footer_text": "Füge eigenen HTML-Code hinzu, welcher am Ende der Seite eingefügt wird.",
             "custom_footer_title": "Individuelle Fußzeile bearbeiten",

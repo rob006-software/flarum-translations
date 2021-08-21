@@ -489,6 +489,11 @@
             }
         },
         "views": {
+            "confirm_email": {
+                "submit_button": "",
+                "text": "",
+                "title": ""
+            },
             "content": {
                 "javascript_disabled_message": "Ta strona najlepiej działa w nowoczesnych przeglądarkach z włączonym JavaScriptem.",
                 "load_error_message": "Coś poszło nie tak podczas ładowania pełnej wersji strony. Jeśli problem będzie się powtarzał, wyczyść pamięć przeglądarki (cache) i spróbuj ponownie.",
@@ -552,6 +557,7 @@
             "change_password": "Zmień hasło",
             "color": "Kolor",
             "confirm_password": "Potwierdź hasło",
+            "confirm_email": "",
             "confirmation_email_sent": "Wysłaliśmy e-mail aktywacyjny na {email}. Jeśli nie dotrze wkrótce, sprawdź folder ze spamem.",
             "custom_footer_text": "Dodaj własny kod HTML, który będzie wyświetlany na samym dole forum.",
             "custom_footer_title": "Edytuj stopkę",

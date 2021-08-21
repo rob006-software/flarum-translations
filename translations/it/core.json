@@ -489,6 +489,11 @@
             }
         },
         "views": {
+            "confirm_email": {
+                "submit_button": "",
+                "text": "",
+                "title": ""
+            },
             "content": {
                 "javascript_disabled_message": "Questo sito è ottimizzato per un browser moderno con JavaScript abilitato.",
                 "load_error_message": "Qualcosa è andato storto durante il tentativo di caricare la versione completa di questo sito.",
@@ -552,6 +557,7 @@
             "change_password": "Cambia password",
             "color": "Colore",
             "confirm_password": "Conferma password",
+            "confirm_email": "",
             "confirmation_email_sent": "Abbiamo inviato una e-mail di conferma a {email}. Ricordati di controllare la cartella spam.",
             "custom_footer_text": "Aggiungi codice HTML nella parte inferiore della pagina.",
             "custom_footer_title": "Modifica footer",

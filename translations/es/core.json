@@ -489,6 +489,11 @@
             }
         },
         "views": {
+            "confirm_email": {
+                "submit_button": "",
+                "text": "",
+                "title": ""
+            },
             "content": {
                 "javascript_disabled_message": "Este sitio web se vé mejor en un navegador moderno con JavaScript activado.",
                 "load_error_message": "Algo salió mal cuando se intentó cargar la versión completa de este sitio web.",
@@ -552,6 +557,7 @@
             "change_password": "Cambiar la contraseña",
             "color": "Color",
             "confirm_password": "Confirmar la contraseña",
+            "confirm_email": "",
             "confirmation_email_sent": "Te hemos enviado un correo electrónico de confirmación a {email}. Si no aparece pronto, por favor, comprueba la carpeta de correo no deseado (spam).",
             "custom_footer_text": "Añade código HTML para que este sea mostrado en la parte más baja de la página.",
             "custom_footer_title": "Editar el pié de página personalizado",

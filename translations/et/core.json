@@ -489,6 +489,11 @@
             }
         },
         "views": {
+            "confirm_email": {
+                "submit_button": "",
+                "text": "",
+                "title": ""
+            },
             "content": {
                 "javascript_disabled_message": "Seda lehte on soovitatav külastada kaasaegse veebilehitsejaga, kus on JavaScript lubatud.",
                 "load_error_message": "Miskit läks lehe laadimisel valesti. Äkki aitab lehe täismahus uuesti laadimine?",
@@ -552,6 +557,7 @@
             "change_password": "Muuda parooli",
             "color": "Värv",
             "confirm_password": "Kinnita parool",
+            "confirm_email": "",
             "confirmation_email_sent": "Saatsime kinnituskirja {email} aadressile. Kui seda ei tule, vaadake ka oma spämmikausta.",
             "custom_footer_text": "Lisa lehe jalusesse kõige lõppu see HTML.",
             "custom_footer_title": "Kohandatud jalus",

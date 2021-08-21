@@ -489,6 +489,11 @@
             }
         },
         "views": {
+            "confirm_email": {
+                "submit_button": "=> core.ref.confirm_email",
+                "text": "Click the button below to confirm your account's email.",
+                "title": "=> core.ref.confirm_email"
+            },
             "content": {
                 "javascript_disabled_message": "This site is best viewed in a modern browser with JavaScript enabled.",
                 "load_error_message": "Something went wrong while trying to load the full version of this site. Try hard-refreshing this page to fix the error.",
@@ -552,6 +557,7 @@
             "change_password": "Change Password",
             "color": "Color",
             "confirm_password": "Confirm Password",
+            "confirm_email": "Confirm Email",
             "confirmation_email_sent": "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder.",
             "custom_footer_text": "Add HTML to be displayed at the very bottom of the page.",
             "custom_footer_title": "Edit Custom Footer",
