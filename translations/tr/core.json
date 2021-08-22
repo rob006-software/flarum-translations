@@ -490,9 +490,9 @@
         },
         "views": {
             "confirm_email": {
-                "submit_button": "",
-                "text": "",
-                "title": ""
+                "submit_button": "=> core.ref.confirm_email",
+                "text": "Hesabınızın e-postasını onaylamak için aşağıdaki düğmeyi tıklayın.",
+                "title": "=> core.ref.confirm_email"
             },
             "content": {
                 "javascript_disabled_message": "Bu site en iyi JavaScript etkinleştirilmiş modern bir tarayıcıda görüntülenir.",
@@ -557,7 +557,7 @@
             "change_password": "Şifre Değiştir",
             "color": "Renk",
             "confirm_password": "Şifreyi Onayla",
-            "confirm_email": "",
+            "confirm_email": "E-posta adresini doğrula",
             "confirmation_email_sent": "{email} adresine bir onay e-postası gönderdik. Yakında gelmezse, spam klasörünü kontrol et.",
             "custom_footer_text": "Sayfanın en altında görülecek HTML kodunu ekleyin.",
             "custom_footer_title": "Özel Altbilgiyi Düzenle",
