@@ -4,42 +4,62 @@
         "title": "Payments",
         "description": "Monetize your Flarum community; pay to post/view/access",
         "version": "0.3.0",
-        "requiredFlarum": "^1.0.0"
+        "requiredFlarum": "^1.0.0",
+        "subscriptionPlans": [
+            "$16.90 per month",
+            "$29.99 once"
+        ]
     },
     "blomstra/readme": {
         "name": "blomstra/readme",
         "title": "Readme",
         "description": "Display extension README file in the admin panel",
         "version": "0.2.0",
-        "requiredFlarum": "^1.0.0"
+        "requiredFlarum": "^1.0.0",
+        "subscriptionPlans": []
     },
     "blomstra/realtime": {
         "name": "blomstra/realtime",
         "title": "Realtime",
         "description": "Step up to make your Flarum forum realtime.",
         "version": "0.2.5-beta.2",
-        "requiredFlarum": "^1.0.0"
+        "requiredFlarum": "^1.0.0",
+        "subscriptionPlans": []
     },
     "datitisev/flarum-backup": {
         "name": "datitisev/flarum-backup",
         "title": "Backup",
         "description": "Backup your Flarum files and database to one or more local or remote storages.",
         "version": "1.0.0",
-        "requiredFlarum": "^1.0.0"
+        "requiredFlarum": "^1.0.0",
+        "subscriptionPlans": [
+            "$3.00 per month",
+            "$25.00 per year",
+            "$40.00 once"
+        ]
     },
     "datitisev/flarum-maintenance": {
         "name": "datitisev/flarum-maintenance",
         "title": "Maintenance Mode",
         "description": "A customizable maintenance mode for your forum!",
         "version": "1.0.2",
-        "requiredFlarum": "^1.0.0"
+        "requiredFlarum": "^1.0.0",
+        "subscriptionPlans": [
+            "$2.50 per month",
+            "$25.00 per year",
+            "$40.00 once"
+        ]
     },
     "datitisev/flarum-webhooks-pro": {
         "name": "datitisev/flarum-webhooks-pro",
         "title": "Webhooks PRO",
         "description": "Adds more integrations with FriendsOfFlarum Webhooks & a custom adapter",
         "version": "1.0.1",
-        "requiredFlarum": "^1.0.0"
+        "requiredFlarum": "^1.0.0",
+        "subscriptionPlans": [
+            "$2.50 per month",
+            "$40.00 once"
+        ]
     },
     "glowingblue/anti-spam": {
         "name": "glowingblue/anti-spam",
@@ -60,7 +80,8 @@
         "title": "GB Engage",
         "description": "Intelligent management of inactive or passive users",
         "version": "1.0.0",
-        "requiredFlarum": "^1.0.0"
+        "requiredFlarum": "^1.0.0",
+        "subscriptionPlans": []
     },
     "glowingblue/fontawesome": {
         "name": "glowingblue/fontawesome",
@@ -74,14 +95,16 @@
         "title": "GB Inline Hints",
         "description": "Hints embedded into the UI to help the user with the onboarding process",
         "version": "1.0.0",
-        "requiredFlarum": "^1.0.0"
+        "requiredFlarum": "^1.0.0",
+        "subscriptionPlans": []
     },
     "glowingblue/localizd": {
         "name": "glowingblue/localizd",
         "title": "GB Localizd",
         "description": "Provide additional translations",
         "version": "1.0.1",
-        "requiredFlarum": "^1.0.3"
+        "requiredFlarum": "^1.0.3",
+        "subscriptionPlans": []
     },
     "glowingblue/modern-theme": {
         "name": "glowingblue/modern-theme",
@@ -95,111 +118,156 @@
         "title": "GB ModMsg",
         "description": "Let moderators control to be contacted by users.",
         "version": "1.0.0",
-        "requiredFlarum": "^1.0.0"
+        "requiredFlarum": "^1.0.0",
+        "subscriptionPlans": []
     },
     "glowingblue/scheduled-posts": {
         "name": "glowingblue/scheduled-posts",
         "title": "GB Scheduled Posts",
         "description": "Adds the ability the schedule posts (new discussions)",
         "version": "1.0.0",
-        "requiredFlarum": "^1.0.0"
+        "requiredFlarum": "^1.0.0",
+        "subscriptionPlans": []
     },
     "glowingblue/sweep": {
         "name": "glowingblue/sweep",
         "title": "GB Sweep",
         "description": "Use regex to keep your forum content clean and sanitized",
         "version": "1.0.0",
-        "requiredFlarum": "^1.0.0"
+        "requiredFlarum": "^1.0.0",
+        "subscriptionPlans": []
     },
     "glowingblue/typeform": {
         "name": "glowingblue/typeform",
         "title": "GB Typeform",
         "description": "Call to action button that opens a Typeform survey",
         "version": "1.0.0",
-        "requiredFlarum": "^1.0.0"
+        "requiredFlarum": "^1.0.0",
+        "subscriptionPlans": []
     },
     "glowingblue/welcome-popup": {
         "name": "glowingblue/welcome-popup",
         "title": "GB Welcome Popup",
         "description": "welcome popup",
         "version": "0.3.3",
-        "requiredFlarum": ">=0.1.0-beta.12 <0.1.0-beta.14"
+        "requiredFlarum": ">=0.1.0-beta.12 <0.1.0-beta.14",
+        "subscriptionPlans": []
     },
     "kilowhat/flarum-ext-audit-pro": {
         "name": "kilowhat/flarum-ext-audit-pro",
         "title": "Audit Pro",
         "description": "Audit log for Flarum",
         "version": "1.4.1",
-        "requiredFlarum": "^1.0"
+        "requiredFlarum": "^1.0",
+        "subscriptionPlans": [
+            "$4.00 per month",
+            "$40.00 per year"
+        ]
     },
     "kilowhat/flarum-ext-custom-paths": {
         "name": "kilowhat/flarum-ext-custom-paths",
         "title": "Custom Paths",
         "description": "Customize Flarum default frontend URL paths",
         "version": "1.5.0",
-        "requiredFlarum": "^1.0"
+        "requiredFlarum": "^1.0",
+        "subscriptionPlans": [
+            "$10.00 once"
+        ]
     },
     "kilowhat/flarum-ext-formulaire": {
         "name": "kilowhat/flarum-ext-formulaire",
         "title": "Formulaire",
         "description": "Create standalone forms, user profiles and discussion fields in Flarum",
         "version": "1.6.0",
-        "requiredFlarum": "^1.0"
+        "requiredFlarum": "^1.0",
+        "subscriptionPlans": [
+            "$5.00 per month",
+            "$50.00 per year"
+        ]
     },
     "kilowhat/flarum-ext-guest-posting": {
         "name": "kilowhat/flarum-ext-guest-posting",
         "title": "Guest Posting",
         "description": "Enable guest posting",
         "version": "1.0.0",
-        "requiredFlarum": "^1.0"
+        "requiredFlarum": "^1.0",
+        "subscriptionPlans": []
     },
     "kilowhat/flarum-ext-wordpress": {
         "name": "kilowhat/flarum-ext-wordpress",
         "title": "Wordpress Integration",
         "description": "Integrate login, comments and other features with Wordpress",
         "version": "1.7.0",
-        "requiredFlarum": "^1.0"
+        "requiredFlarum": "^1.0",
+        "subscriptionPlans": [
+            "$5.00 per month",
+            "$50.00 per year"
+        ]
     },
     "kyrne/aegis": {
         "name": "kyrne/aegis",
         "title": "Aegis",
         "description": "2 Factor authentication with a multitude of methods for Flarum.",
         "version": "1.0.12",
-        "requiredFlarum": "^0.1.0-beta.15"
+        "requiredFlarum": "^0.1.0-beta.15",
+        "subscriptionPlans": [
+            "$5.00 per month",
+            "$20.00 per month",
+            "$60.00 once"
+        ]
     },
     "kyrne/websocket": {
         "name": "kyrne/websocket",
         "title": "Websocket",
         "description": "Integrated Pusher replacement.",
-        "version": "3.2.0",
-        "requiredFlarum": "^1.0.2"
+        "version": "3.3.0",
+        "requiredFlarum": "^1.0.2",
+        "subscriptionPlans": [
+            "$5.00 per month",
+            "$20.00 per month",
+            "$55.00 once",
+            "$60.00 once"
+        ]
     },
     "maicol07/flarum-oidc-client": {
         "name": "maicol07/flarum-oidc-client",
         "title": "Flarum OpenID Connect Client",
         "description": "OpenID Connect client/SSO for Flarum",
         "version": "1.0.1",
-        "requiredFlarum": "^1"
+        "requiredFlarum": "^1",
+        "subscriptionPlans": [
+            "$3.75 per month",
+            "$37.50 per year"
+        ]
     },
     "reflar/recache": {
         "name": "reflar/recache",
         "title": "ReCache",
         "description": "Cache requests and database queries.",
         "version": "3.0.1",
-        "requiredFlarum": "^1.0.2"
+        "requiredFlarum": "^1.0.2",
+        "subscriptionPlans": [
+            "$5.00 per month",
+            "$60.00 once"
+        ]
     },
     "reflar/webhooks-pro": {
         "name": "reflar/webhooks-pro",
         "title": "ReFlar Webhooks PRO",
         "description": "Webhooks PRO by ReFlar",
         "version": "0.3.0",
-        "requiredFlarum": null
+        "requiredFlarum": null,
+        "subscriptionPlans": []
     },
     "v17development/flarum-support": {
         "name": "v17development/flarum-support",
         "title": "Support",
         "description": "Make from your forum a support platform",
         "version": "v2.3.2",
-        "requiredFlarum": "^1.0.0"
+        "requiredFlarum": "^1.0.0",
+        "subscriptionPlans": [
+            "$7.50 per month",
+            "$79.99 per year"
+        ]
     }
 }
