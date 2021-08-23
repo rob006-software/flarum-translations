@@ -1,0 +1,92 @@
+{
+    "fof-oauth": {
+        "admin": {
+            "settings": {
+                "only_icons_label": "",
+                "providers": {
+                    "callback_url_text": "",
+                    "discord": {
+                        "description": "",
+                        "client_id_label": "",
+                        "client_secret_label": ""
+                    },
+                    "facebook": {
+                        "description": "",
+                        "app_id_label": "",
+                        "app_secret_label": ""
+                    },
+                    "github": {
+                        "description": "",
+                        "client_id_label": "",
+                        "client_secret_label": ""
+                    },
+                    "gitlab": {
+                        "description": "",
+                        "client_id_label": "",
+                        "client_secret_label": "",
+                        "domain_label": ""
+                    },
+                    "twitter": {
+                        "description": "",
+                        "api_key_label": "",
+                        "api_secret_label": ""
+                    },
+                    "google": {
+                        "description": "",
+                        "client_id_label": "",
+                        "client_secret_label": ""
+                    },
+                    "linkedin": {
+                        "description": "",
+                        "client_id_label": "",
+                        "client_secret_label": ""
+                    }
+                }
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_button": "",
+                "with_discord_button": "",
+                "with_facebook_button": "",
+                "with_github_button": "",
+                "with_gitlab_button": "",
+                "with_google_button": "",
+                "with_linkedin_button": "",
+                "with_twitter_button": ""
+            },
+            "providers": {
+                "discord": "",
+                "facebook": "",
+                "github": "",
+                "gitlab": "",
+                "google": "",
+                "linkedin": "",
+                "twitter": ""
+            },
+            "error": {
+                "bad_verification_code": "",
+                "invalid_state": ""
+            }
+        },
+        "lib": {
+            "providers": {
+                "discord": "",
+                "facebook": "",
+                "github": "",
+                "gitlab": "",
+                "twitter": "",
+                "google": "",
+                "linkedin": ""
+            }
+        },
+        "ref": {
+            "settings": {
+                "app_id": "",
+                "app_secret": "",
+                "client_id": "",
+                "client_secret": ""
+            }
+        }
+    }
+}
