@@ -13,23 +13,23 @@
                     "reminders_notice": "Aby przypomnienia działały, harmonogram zadań Flarum musi być prawidłowo skonfigurowany."
                 },
                 "allow_select_own_post": "Wybieranie własnego posta",
-                "allow_select_own_post_help": "",
+                "allow_select_own_post_help": "Pozwól autorowi wybrać jeden z jego własnych postów w dyskusji jako najlepszą odpowiedź",
                 "select_best_answer_reminder_days": "Częstotliwość przypominania",
-                "select_best_answer_reminder_days_help": "",
+                "select_best_answer_reminder_days_help": "Wyślij przypomnienie po konfigurowalnej ilości dni do autora dyskusji, aby wybrał Najlepszą Odpowiedź, 0 = wyłączenie przypomnień.",
                 "schedule_on_one_server": "Użyj dyrektywy \"onOneServer()\" dla harmonogramu zadań (task scheduler)",
                 "schedule_on_one_server_help": "Wymaga Redis/Memcache",
                 "schedule_stop_overnight": "Wyłącz przypomnienia w godzinach nocnych",
                 "schedule_stop_overnight_help": "21.00 - 8.00 według czasu serwera",
                 "schedule_log_output": "Zapisz logi harmonogramu zadań",
                 "use_alt_ui": "Alternatywny układ",
-                "use_alt_ui_help": "",
-                "documentation": "",
-                "introduction": "",
+                "use_alt_ui_help": "Najlepsza odpowiedź - kontrolki w stopce postu",
+                "documentation": "Dokumentacja",
+                "introduction": "Włącz, które tagi mają obsługiwać Najlepsze Odpowiedzi w <code>flarum/tags</code>, i opcjonalnie, które tagi powinny obsługiwać przypomnienia. Gdy tag ma włączoną funkcję Best Answer, przydziel uprawnienia do każdej grupy użytkowników, którzy mogą ustawiać odpowiedzi (własna dyskusja, dowolna dyskusja). Uprawnienia mogą być przypisane globalnie (dla każdego tagu z włączoną opcją Best Answer), lub dla każdego tagu.\n",
                 "remind_tag_ids": "Aby wysyłać przypomnienia tylko dla dyskusji w konkretnych tagach, wpisz tutaj ich ID (ID tagów rozdzielone przecinkami)"
             },
             "edit_tag": {
-                "qna_label": "",
-                "reminders": ""
+                "qna_label": "Włącz możliwość ustawiania Najlepszej Odpowiedzi w tym tagu",
+                "reminders": "Wysyłaj przypomnienia o ustawieniu Najlepszej Odpowiedzi dla dyskusji w tym tagu"
             }
         },
         "forum": {
@@ -51,19 +51,19 @@
                 }
             },
             "index": {
-                "ask_question": "",
-                "cannot_ask_question": "",
-                "solved_link": "",
-                "unsolved_link": ""
+                "ask_question": "Zadaj pytanie",
+                "cannot_ask_question": "Nie można zadać pytania",
+                "solved_link": "Rozwiązane dyskusje",
+                "unsolved_link": "Nierozwiązane dyskusje"
             },
             "filter": {
-                "all_label": "",
-                "solved_label": "",
-                "unsolved_label": "",
-                "accessible_label": ""
+                "all_label": "Wszystkie pytania",
+                "solved_label": "Rozwiązane pytania",
+                "unsolved_label": "Nierozwiązane pytania",
+                "accessible_label": "Wybór rozwiązany/nierozwiązany"
             },
             "composer": {
-                "titlePlaceholder": ""
+                "titlePlaceholder": "Tytuł pytania"
             }
         },
         "email": {
