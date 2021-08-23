@@ -38,7 +38,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/afrux/news-widget/v0.1.0/locale/en.yml',
 	],
 	'afrux-online-users-widget' => [
-		'tag' => 'https://raw.githubusercontent.com/afrux/online-users-widget/v0.1.4/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/afrux/online-users-widget/v0.1.5/locale/en.yml',
 	],
 	'afrux-top-posters-widget' => [
 		'tag' => 'https://raw.githubusercontent.com/afrux/top-posters-widget/v0.1.2/locale/en.yml',
