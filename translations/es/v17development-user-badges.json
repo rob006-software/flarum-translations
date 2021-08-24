@@ -1,89 +1,89 @@
 {
     "v17development-flarum-badges": {
         "admin": {
-            "uncategorized": "",
-            "new_badge": "",
-            "create_category": "",
-            "update_badge": "",
-            "update_category": "",
-            "edit_category": "",
-            "nothing_here_yet": "",
+            "uncategorized": "Sin categoría",
+            "new_badge": "Nueva insignia",
+            "create_category": "Crear categoría",
+            "update_badge": "Actualizar la insignia",
+            "update_category": "Actualizar la categoría",
+            "edit_category": "Editar categoría",
+            "nothing_here_yet": "Todavía no has creado ninguna insignia o categoría.",
             "permissions": {
-                "badge_detail_users": "",
-                "give_badge": "",
-                "take_badge": ""
+                "badge_detail_users": "Puede ver los usuarios en la página de detalles de la insignia",
+                "give_badge": "Entregar insignia al usuario",
+                "take_badge": "Coger insignia del usuario"
             },
             "confirm_dialog": {
-                "title": "",
-                "no": "",
-                "yes": ""
+                "title": "Confirmar",
+                "no": "No",
+                "yes": "Si"
             },
             "confirm_messages": {
-                "delete_badge": "",
-                "delete_category": ""
+                "delete_badge": "¿Estás seguro de que quieres eliminar esta insignia? Se elimina de todos los usuarios y es irreversible.",
+                "delete_category": "¿Está seguro de que quiere eliminar esta categoría? Si hay alguna insignia en esta categoría, se marcará como \"sin categoría\"."
             },
             "badge": {
-                "name": "",
-                "icon": "",
-                "description": "",
-                "visible": "",
-                "visible_description": ""
+                "name": "Nombre de la insignia",
+                "icon": "Icono de la insignia",
+                "description": "Descripción de la insignia",
+                "visible": "Visible",
+                "visible_description": "Habilitar esta insignia. Si se desactiva, la insignia no será visible."
             },
             "badge_category": {
-                "name": "",
-                "description": "",
-                "blockview": "",
-                "blockview_description": "",
-                "enabled": "",
-                "enabled_description": ""
+                "name": "Nombre de la categoría",
+                "description": "Descripción de la categoría",
+                "blockview": "Vista en bloque",
+                "blockview_description": "Mostrar las insignias de categoría en la vista de bloque en la visión general de las insignias. Si se desactiva, todas las insignias se mostrarán en una tabla.",
+                "enabled": "Activado",
+                "enabled_description": "Habilitar esta categoría. Cuando se desactiva, todas las insignias se desactivan y la categoría se oculta."
             },
             "auto_moderator": {
                 "not_installed": {
-                    "title": "",
-                    "content": "",
-                    "install": "",
-                    "dismiss": ""
+                    "title": "Premiar automáticamente a los usuarios con insignias",
+                    "content": "Esta extensión ofrece más funcionalidades cuando se instala y activa <a>Auto Moderator</a>. ¡Al instalar esta extensión, los usuarios pueden ser recompensados automáticamente con insignias sin la intervención de un empleado de la comunidad!",
+                    "install": "Instalar",
+                    "dismiss": "No volver a mostrar"
                 },
                 "action_drivers": {
-                    "badge_id": "",
-                    "give_badge": "",
-                    "remove_badge": ""
+                    "badge_id": "ID de la insignia",
+                    "give_badge": "Dar insignia",
+                    "remove_badge": "Quitar insignia"
                 },
                 "requirement_drivers": {
-                    "has_badge": ""
+                    "has_badge": "Tiene insignia"
                 },
                 "metric_drivers": {
-                    "badges_received": ""
+                    "badges_received": "Insignias recibidas"
                 },
                 "badge_selector": {
-                    "placeholder": "",
-                    "loading_badges": ""
+                    "placeholder": "Seleccionar una insignia",
+                    "loading_badges": "Cargar insignias"
                 }
             }
         },
         "forum": {
-            "badge_information": "",
-            "all_badges": "",
-            "all_users": "",
-            "give_badge": "",
-            "update_badge": "",
-            "select_badge": "",
-            "user_has_badge": "",
-            "user_no_badges": "",
-            "no_received": "",
-            "uncategorized": "",
+            "badge_information": "Información sobre la insignia",
+            "all_badges": "Ver todas las insignias",
+            "all_users": "Ver todos los usuarios",
+            "give_badge": "Dar insignia",
+            "update_badge": "Actualizar insignia",
+            "select_badge": "Seleccionar insignia",
+            "user_has_badge": "El usuario ya tiene esta insignia.",
+            "user_no_badges": "Este usuario aún no tiene ninguna insignia.",
+            "no_received": "Ningún usuario ha obtenido esta insignia.",
+            "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
             "badge": {
-                "badge": "",
-                "badges": "",
-                "name": "",
-                "description": "",
-                "earning_reason": "",
-                "update_earning_reason": "",
-                "no_earning_reason": "",
-                "earned_on": "",
-                "category": "",
-                "received_on": "",
-                "badge_details": "",
+                "badge": "Insignia",
+                "badges": "Insignias",
+                "name": "Nombre de la insignia",
+                "description": "Descripción de la insignia",
+                "earning_reason": "Motivo de obtención de la insignia",
+                "update_earning_reason": "Actualizar el motivo de obtención",
+                "no_earning_reason": "No se ha establecido ningún motivo de obtención",
+                "earned_on": "Insignia obtenida el",
+                "category": "Categoría de la insignia",
+                "received_on": "Recibido el {date}",
+                "badge_details": "Detalles de la insignia",
                 "earned_count": "",
                 "earned_by_count": ""
             },
