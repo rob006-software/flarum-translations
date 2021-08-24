@@ -22,76 +22,76 @@
                 "back_to": "Volver a {category}",
                 "back_to_overview": "Volver al resumen de la base de conocimientos",
                 "back_to_main_categories": "Volver a las categorías principales",
-                "loading_articles": "",
-                "no_categories_found": "",
-                "category_not_found": "",
-                "no_articles_found": "",
+                "loading_articles": "Cargando artículos",
+                "no_categories_found": "Lo sentimos, no se han encontrado categorías aquí...",
+                "category_not_found": "Categoría no encontrada",
+                "no_articles_found": "No se han encontrado artículos en esta categoría",
                 "tools": {
-                    "new_article": "",
-                    "rename_category": "",
-                    "edit_description": "",
-                    "change_icon": ""
+                    "new_article": "Nuevo artículo",
+                    "rename_category": "Renombrar la categoría",
+                    "edit_description": "Editar la descripción",
+                    "change_icon": "Cambiar el icono"
                 }
             },
             "article_events": {
-                "article_hidden": "",
-                "article_public": "",
-                "article_modified": ""
+                "article_hidden": "El artículo fue ocultado por {username}",
+                "article_public": "El artículo fue hecho público por {username}",
+                "article_modified": "{username} ha editado este artículo."
             },
             "search": {
-                "title": "",
-                "back_to_search_results": "",
-                "search_knowledge_base": "",
-                "searching": "",
-                "searching_for": "",
-                "searched_for": "",
-                "use_searchbox_below": "",
-                "no_results": ""
+                "title": "Buscar",
+                "back_to_search_results": "Volver a los resultados de la búsqueda",
+                "search_knowledge_base": "Buscar en nuestra base de conocimientos",
+                "searching": "Buscando",
+                "searching_for": "Búsqueda de {searchterm}",
+                "searched_for": "Ha buscado {searchterm}, ha obtenido {results} resultados.",
+                "use_searchbox_below": "Utilice el cuadro de búsqueda de abajo para buscar en nuestra base de conocimientos.",
+                "no_results": "No hemos podido encontrar nada para {searchterm}."
             },
             "not_found": {
-                "title": "",
-                "description": "",
-                "solution": ""
+                "title": "Elemento no encontrado",
+                "description": "Lo sentimos, este artículo o categoría ya no existe en este sitio.",
+                "solution": "Puede utilizar el cuadro de búsqueda de arriba para encontrar lo que busca."
             },
             "article": {
-                "article": "",
-                "articles": "",
-                "hidden": "",
-                "created_at": "",
-                "author": "",
-                "authors": "",
-                "last_modified": "",
-                "not_found": "",
+                "article": "Artículo",
+                "articles": "Artículos",
+                "hidden": "Oculto",
+                "created_at": "Creado el {date}",
+                "author": "Autor",
+                "authors": "Autores",
+                "last_modified": "Modificado por última vez el {date}",
+                "not_found": "Artículo no encontrado",
                 "share_article": {
-                    "title": "",
-                    "perma_link": ""
+                    "title": "Compartir el artículo",
+                    "perma_link": "Permalink de este artículo:"
                 },
                 "tools": {
-                    "rename_article": "",
-                    "edit_article": "",
-                    "edit_tags": "",
-                    "audit_log": "",
-                    "hide_article": "",
-                    "recover_article": "",
-                    "delete_forever": "",
-                    "view_ratings": ""
+                    "rename_article": "Renombrar el artículo",
+                    "edit_article": "Editar artículo",
+                    "edit_tags": "Editar etiquetas de los artículos",
+                    "audit_log": "Ver el registro de auditoría",
+                    "hide_article": "Ocultar artículo",
+                    "recover_article": "Recuperar el artículo",
+                    "delete_forever": "Eliminar para siempre",
+                    "view_ratings": "Ver calificaciones"
                 }
             },
             "support_ratings": {
-                "score": "",
-                "helful_article": "",
-                "helful_support": "",
-                "feedback": "",
-                "feedback_not_helpful": "",
-                "enter_feedback": "",
-                "finished": "",
+                "score": "Puntuación",
+                "helful_article": "¿Le ha resultado útil este artículo?",
+                "helful_support": "¿Está satisfecho con la forma en que manejamos su ticket de soporte?",
+                "feedback": "Gracias por su opinión, ¿tiene algún comentario?",
+                "feedback_not_helpful": "Lamentamos que este artículo no haya sido de ayuda, ¿qué es lo que buscaba?",
+                "enter_feedback": "Escriba su opinión aquí",
+                "finished": "¡Gracias! Su comentario ha sido guardado.",
                 "validation": {
-                    "invalid_discussion": "",
-                    "guest": "",
-                    "invalid_points": "",
-                    "cannot_rate_article": "",
-                    "neutral_emoji_disabled": "",
-                    "missing_article_id": ""
+                    "invalid_discussion": "Woops, algo salió mal. No puede calificar este artículo/ticket de soporte.",
+                    "guest": "Por favor, inicie sesión antes de valorar este artículo.",
+                    "invalid_points": "Valoración no válida. Por favor, inténtelo de nuevo.",
+                    "cannot_rate_article": "No puedes valorar este artículo.",
+                    "neutral_emoji_disabled": "El emoji neutral ha sido desactivado.",
+                    "missing_article_id": "Falta el ID del artículo o no es válido"
                 },
                 "switch_sort_score": {
                     "label": "",
