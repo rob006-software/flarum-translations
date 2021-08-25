@@ -59,6 +59,13 @@ return [
 		'branch' => 'master',
 		'path' => '/locale',
 	],
+	'fi' => [
+		'type' => 'language',
+		'language' => 'fi',
+		'repository' => 'git@github.com:flarum-lang/finnish.git',
+		'branch' => 'master',
+		'path' => '/locale',
+	],
 	'fr' => [
 		'type' => 'language',
 		'language' => 'fr',
