@@ -84,17 +84,17 @@
                 "category": "Categoría de la insignia",
                 "received_on": "Recibido el {date}",
                 "badge_details": "Detalles de la insignia",
-                "earned_count": "",
-                "earned_by_count": ""
+                "earned_count": "{count, plural, one {<b># usuario</b> ha obtenido esta insignia} other {<b># usuarios</b> han ganado esta insignia}}",
+                "earned_by_count": "{count, plural, one {Ganado por el <b># usuario</b>} other {Ganado por los <b># usuarios</b>}}"
             },
             "moderation": {
-                "remove_badge": "",
-                "remove_badge_confirm": "",
-                "give_badge": ""
+                "remove_badge": "Quitar la insignia al usuario",
+                "remove_badge_confirm": "¿Estás seguro de que quieres eliminar esta insignia a este usuario?",
+                "give_badge": "Dar insignia"
             },
             "notification": {
-                "title": "",
-                "settings": ""
+                "title": "Has recibido una nueva insignia",
+                "settings": "He recibido una insignia"
             }
         }
     }
