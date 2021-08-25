@@ -5,11 +5,11 @@
             "permissions": {
                 "write_articles": "Escribir y editar artículos del blog",
                 "auto_approve_posts": "Publicar artículos sin aprobación",
-                "approve_posts": ""
+                "approve_posts": "Puede aprobar los artículos del blog"
             },
             "settings": {
-                "no_categories_selected": "",
-                "selected_category_count": "",
+                "no_categories_selected": "No hay categorías seleccionadas",
+                "selected_category_count": "{count, plural, one {Tiene # categoría seleccionada} other {Tiene # categorías seleccionadas}}",
                 "select_categories_button": "Seleccione las categorías del blog",
                 "blog_heading": "Blog",
                 "allow_comments_label": "Permitir comentarios",
@@ -41,61 +41,61 @@
             "recent_posts": "Entradas recientes del blog",
             "categories": "Categorías",
             "forum_nav": "Navegación del Foro",
-            "return_to_overview": "",
-            "no_more_posts": "",
-            "category_empty": "",
+            "return_to_overview": "Volver al resumen del blog ",
+            "no_more_posts": "No hay más entradas en el blog.",
+            "category_empty": "No hay entradas de blog en esta categoría.",
             "compose": {
-                "write_article": ""
+                "write_article": "Escriba un artículo"
             },
             "validation": {
-                "missing_id": ""
+                "missing_id": "Falta de ID"
             },
             "article": {
-                "title": "",
-                "slug": "",
-                "summary": ""
+                "title": "Título",
+                "slug": "Slug",
+                "summary": "Resumen"
             },
             "comment_section": {
-                "comments": "",
-                "locked": ""
+                "comments": "Comentarios",
+                "locked": "La sección de comentarios está desactivada para este artículo"
             },
             "review_article": {
-                "pending_review_title": "",
-                "pending_review": "",
-                "approve_article": "",
-                "approve_article_approved": ""
+                "pending_review_title": "Pendiente de revisión",
+                "pending_review": "Este artículo está pendiente de revisión y aún no ha sido publicado",
+                "approve_article": "Aprobar artículo",
+                "approve_article_approved": "El artículo ha sido aprobado y publicado"
             },
             "tools": {
-                "rename_article": "",
-                "edit_article": "",
-                "update_category": "",
-                "article_settings": "",
-                "approve_article": "",
-                "hide_article": "",
-                "recover_article": "",
-                "delete_forever": "",
-                "enable_comments": "",
-                "disable_comments": ""
+                "rename_article": "Renombrar el artículo",
+                "edit_article": "Editar artículo",
+                "update_category": "Actualizar categorías",
+                "article_settings": "Ajustes del artículo",
+                "approve_article": "Aprobar artículo",
+                "hide_article": "Ocultar artículo",
+                "recover_article": "Recuperar artículo",
+                "delete_forever": "Eliminar para siempre",
+                "enable_comments": "Habilitar comentarios",
+                "disable_comments": "Desactivar comentarios"
             },
             "utils": {
                 "redirect": {
-                    "title": "",
-                    "link": ""
+                    "title": "Redirigiendo a nuestro artículo del blog...",
+                    "link": "<a>Haga clic aquí</a> si la página no le redirige"
                 }
             },
             "composer": {
-                "no_title": "",
-                "enter_message_here": "",
-                "post_article": "",
-                "select_category": "",
-                "edit_categories": "",
-                "update_settings": "",
-                "write": "",
-                "view": "",
-                "nothing_to_preview": "",
-                "comment_section": "",
-                "no_blog_tags_selected": "",
-                "post_without_blog_info": ""
+                "no_title": "Sin título",
+                "enter_message_here": "Introduzca su mensaje aquí",
+                "post_article": "Publicar el artículo",
+                "select_category": "Seleccione una categoría",
+                "edit_categories": "Editar categorías",
+                "update_settings": "Actualizar la configuración del blog",
+                "write": "Escribir",
+                "view": "Ver",
+                "nothing_to_preview": "Nada que ver en la vista previa",
+                "comment_section": "La sección de comentarios no está disponible cuando se redacta un artículo.",
+                "no_blog_tags_selected": "Ninguna de las etiquetas que ha seleccionado es una etiqueta de blog. Por favor, seleccione al menos una.",
+                "post_without_blog_info": "¿Estás seguro de que quieres publicar esta entrada del blog? Todavía no has introducido un resumen o una imagen del articulo."
             }
         }
     }
