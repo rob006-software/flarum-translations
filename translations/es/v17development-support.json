@@ -94,60 +94,60 @@
                     "missing_article_id": "Falta el ID del artículo o no es válido"
                 },
                 "switch_sort_score": {
-                    "label": "",
-                    "description": ""
+                    "label": "Mostrar artículos con una puntuación de menor a mayor",
+                    "description": "Mostrar sólo los artículos que han recibido comentarios, clasificando el artículo con menor puntuación."
                 }
             },
             "modals": {
                 "audit_log": {
-                    "title": "",
-                    "article_created": "",
-                    "no_more_events": "",
-                    "loading_auditlog": ""
+                    "title": "Registro de auditoría de artículos",
+                    "article_created": "El artículo fue creado",
+                    "no_more_events": "No se han encontrado más eventos",
+                    "loading_auditlog": "Cargando el registro de auditoría"
                 },
                 "article_ratings": {
-                    "title": "",
-                    "loading_ratings": "",
-                    "no_ratings_found": "",
-                    "article_not_rated": "",
-                    "confirm_delete_rating": "",
-                    "feedback": "",
-                    "rating": "",
-                    "username": "",
-                    "rated_on": ""
+                    "title": "Calificaciones de los artículos",
+                    "loading_ratings": "Cargando las calificaciones",
+                    "no_ratings_found": "No se han encontrado calificaciones que coincidan con sus criterios de búsqueda",
+                    "article_not_rated": "Este artículo aún no ha sido valorado.",
+                    "confirm_delete_rating": "¿Estás seguro de que quieres eliminar esta valoración?",
+                    "feedback": "Comentarios",
+                    "rating": "Valoración",
+                    "username": "=> core.ref.username",
+                    "rated_on": "Calificado en"
                 }
             },
             "utils": {
                 "redirect": {
-                    "title": "",
-                    "link": ""
+                    "title": "Redirigiendo a nuestro artículo de la Base de Conocimientos...",
+                    "link": "<a>Haga clic aquí</a> si la página no le redirige"
                 }
             },
             "composer": {
-                "compose_article": "",
-                "compose_ticket": "",
-                "new_article_title": "",
-                "enter_message_here": "",
-                "publish_article": "",
-                "publish_article_hint": "",
-                "manage_tags": "",
-                "write": "",
-                "view": "",
-                "nothing_to_preview": "",
-                "warning_save_changes": "",
-                "article_saved": ""
+                "compose_article": "Redactar un artículo",
+                "compose_ticket": "Redactar un ticket",
+                "new_article_title": "Nuevo título del artículo",
+                "enter_message_here": "Introduzca su mensaje aquí",
+                "publish_article": "Publicar el artículo",
+                "publish_article_hint": "Publicar el artículo después de su publicación.",
+                "manage_tags": "Gestionar etiquetas",
+                "write": "Escribir",
+                "view": "Ver",
+                "nothing_to_preview": "No hay nada que ver en la vista previa",
+                "warning_save_changes": "ADVERTENCIA: Está a punto de salir de esta página y no ha guardado sus cambios. ¿Desea guardar sus cambios antes de salir?\n\n[ACEPTAR] = Sí, guardar. [CANCELAR] = No, no guardar\n",
+                "article_saved": "El artículo se ha guardado"
             },
             "tickets": {
-                "ticket": "",
-                "subject": "",
-                "ticket_does_not_exist": "",
-                "return_to_overview": "",
-                "ticket_overview": "",
-                "opened_on": "",
-                "ticket_activity": "",
-                "reminders_sent": "",
+                "ticket": "Ticket",
+                "subject": "Asunto",
+                "ticket_does_not_exist": "El ticket de soporte solicitado no existe.",
+                "return_to_overview": "Volver al resumen de tickets",
+                "ticket_overview": "Resumen de tickets",
+                "opened_on": "Abierto el",
+                "ticket_activity": "Por {username}, última actividad {date}",
+                "reminders_sent": "{count, plural, one {Un recordatorio enviado} other {# recordatorios enviados}}",
                 "convert_to_ticket": {
-                    "button": "",
+                    "button": "Convertir en ticket",
                     "confirm": "",
                     "event": ""
                 },
