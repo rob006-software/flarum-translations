@@ -2,30 +2,30 @@
     "core": {
         "admin": {
             "appearance": {
-                "colored_header_label": "",
-                "colors_heading": "",
+                "colored_header_label": "Värillinen yläosa",
+                "colors_heading": "Värit",
                 "colors_text": "",
                 "custom_footer_heading": "",
-                "custom_footer_text": "",
+                "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "",
-                "custom_header_text": "",
+                "custom_header_text": "=> core.ref.custom_header_text",
                 "custom_styles_heading": "",
                 "custom_styles_text": "",
-                "dark_mode_label": "",
+                "dark_mode_label": "Tumma tila",
                 "description": "",
                 "edit_css_button": "",
-                "edit_footer_button": "",
-                "edit_header_button": "",
+                "edit_footer_button": "=> core.ref.custom_footer_title",
+                "edit_header_button": "=> core.ref.custom_header_title",
                 "enter_hex_message": "",
-                "favicon_heading": "",
+                "favicon_heading": "Favicon",
                 "favicon_text": "",
-                "logo_heading": "",
+                "logo_heading": "Logo",
                 "logo_text": "",
                 "title": ""
             },
             "basics": {
-                "all_discussions_label": "",
-                "default_language_heading": "",
+                "all_discussions_label": "=> core.ref.all_discussions",
+                "default_language_heading": "Oletuskieli",
                 "description": "",
                 "display_name_heading": "",
                 "display_name_text": "",
@@ -49,31 +49,31 @@
             },
             "edit_css": {
                 "customize_text": "",
-                "submit_button": "",
+                "submit_button": "=> core.ref.save_changes",
                 "title": ""
             },
             "edit_footer": {
-                "customize_text": "",
-                "submit_button": "",
-                "title": ""
+                "customize_text": "=> core.ref.custom_footer_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_footer_title"
             },
             "edit_group": {
-                "color_label": "",
+                "color_label": "=> core.ref.color",
                 "delete_button": "",
                 "delete_confirmation": "",
                 "hide_label": "",
-                "icon_label": "",
-                "icon_text": "",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
                 "name_label": "",
                 "plural_placeholder": "",
                 "singular_placeholder": "",
-                "submit_button": "",
+                "submit_button": "=> core.ref.save_changes",
                 "title": ""
             },
             "edit_header": {
-                "customize_text": "",
-                "submit_button": "",
-                "title": ""
+                "customize_text": "=> core.ref.custom_header_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_header_title"
             },
             "email": {
                 "addresses_heading": "",
@@ -86,9 +86,9 @@
                 "mail_mailgun_domain_label": "",
                 "mail_mailgun_region_label": "",
                 "mail_mailgun_secret_label": "",
-                "mail_password_label": "",
+                "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "",
-                "mail_username_label": "",
+                "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "",
                 "not_sending_message": "",
                 "send_test_mail_button": "",
@@ -96,7 +96,7 @@
                 "send_test_mail_success": "",
                 "send_test_mail_text": "",
                 "smtp_heading": "",
-                "title": ""
+                "title": "=> core.ref.email"
             },
             "extension": {
                 "configure_scopes": "",
@@ -120,16 +120,16 @@
             },
             "header": {
                 "get_help": "",
-                "log_out_button": ""
+                "log_out_button": "=> core.ref.log_out"
             },
             "loading": {
                 "title": ""
             },
             "nav": {
-                "appearance_button": "",
-                "appearance_title": "",
-                "basics_button": "",
-                "basics_title": "",
+                "appearance_button": "=> core.admin.appearance.title",
+                "appearance_title": "=> core.admin.appearance.description",
+                "basics_button": "=> core.admin.basics.title",
+                "basics_title": "=> core.admin.basics.description",
                 "categories": {
                     "authentication": "",
                     "core": "",
@@ -141,14 +141,14 @@
                     "other": "",
                     "theme": ""
                 },
-                "dashboard_button": "",
-                "dashboard_title": "",
-                "email_button": "",
-                "email_title": "",
-                "permissions_button": "",
-                "permissions_title": "",
-                "userlist_button": "",
-                "userlist_title": "",
+                "dashboard_button": "=> core.admin.dashboard.title",
+                "dashboard_title": "=> core.admin.dashboard.description",
+                "email_button": "=> core.ref.email",
+                "email_title": "=> core.admin.email.description",
+                "permissions_button": "=> core.admin.permissions.title",
+                "permissions_title": "=> core.admin.permissions.description",
+                "userlist_button": "=> core.admin.users.title",
+                "userlist_title": "=> core.admin.users.description",
                 "search_placeholder": ""
             },
             "permissions": {
@@ -187,16 +187,16 @@
                 "allow_ten_minutes_button": "",
                 "allow_until_reply_button": "",
                 "everyone_button": "",
-                "members_button": "",
+                "members_button": "=> core.group.members",
                 "signup_closed_button": "",
                 "signup_open_button": ""
             },
             "settings": {
                 "saved_message": "",
-                "submit_button": ""
+                "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
-                "remove_button": "",
+                "remove_button": "=> core.ref.remove",
                 "upload_button": ""
             },
             "users": {
@@ -204,12 +204,12 @@
                 "grid": {
                     "columns": {
                         "edit_user": {
-                            "button": "",
-                            "title": "",
+                            "button": "=> core.ref.edit",
+                            "title": "=> core.ref.edit_user",
                             "tooltip": ""
                         },
                         "email": {
-                            "title": "",
+                            "title": "=> core.ref.email",
                             "visibility_hide": "",
                             "visibility_show": ""
                         },
@@ -225,7 +225,7 @@
                         },
                         "username": {
                             "profile_link_tooltip": "",
-                            "title": ""
+                            "title": "=> core.ref.username"
                         }
                     },
                     "invalid_column_content": ""
@@ -235,211 +235,211 @@
                     "next_button": "",
                     "page_counter": ""
                 },
-                "title": "",
+                "title": "=> core.ref.users",
                 "total_users": ""
             }
         },
         "forum": {
             "change_email": {
-                "confirm_password_placeholder": "",
-                "confirmation_message": "",
-                "dismiss_button": "",
-                "incorrect_password_message": "",
-                "submit_button": "",
-                "title": ""
+                "confirm_password_placeholder": "=> core.ref.confirm_password",
+                "confirmation_message": "=> core.ref.confirmation_email_sent",
+                "dismiss_button": "=> core.ref.okay",
+                "incorrect_password_message": "Syöttämäsi salasana on virheellinen.",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.change_email"
             },
             "change_password": {
-                "send_button": "",
-                "text": "",
-                "title": ""
+                "send_button": "Lähetä salasanan nollauksen sähköposti",
+                "text": "Klikkaa alla olevaa painiketta ja tarkasti sähköpostisi vaihtaaksesi salasanasi.",
+                "title": "=> core.ref.change_password"
             },
             "composer": {
-                "close_tooltip": "",
-                "exit_full_screen_tooltip": "",
-                "full_screen_tooltip": "",
-                "minimize_tooltip": "",
-                "preview_tooltip": ""
+                "close_tooltip": "Sulje",
+                "exit_full_screen_tooltip": "Sulje koko näytön tila",
+                "full_screen_tooltip": "Koko näyttö",
+                "minimize_tooltip": "Pienennä",
+                "preview_tooltip": "Esikatselu"
             },
             "composer_discussion": {
-                "body_placeholder": "",
-                "discard_confirmation": "",
-                "submit_button": "",
+                "body_placeholder": "Kirjoita vastaus...",
+                "discard_confirmation": "Et ole kirjoittanut vastaustasi. Haluatko peruuttaa sen?",
+                "submit_button": "Lähetä",
                 "title": "=> core.ref.start_a_discussion",
-                "title_placeholder": ""
+                "title_placeholder": "Keskustelun otsikko"
             },
             "composer_edit": {
-                "discard_confirmation": "",
-                "edited_message": "",
-                "post_link": "",
-                "submit_button": "",
-                "view_button": ""
+                "discard_confirmation": "Et ole tallentanut muutoksiasi. Haluatko peruuttaa ne?",
+                "edited_message": "Muokkauksesi on tehty.",
+                "post_link": "Viesti #{number} keskustelussa {discussion}",
+                "submit_button": "=> core.ref.save_changes",
+                "view_button": "=> core.ref.view"
             },
             "composer_reply": {
-                "body_placeholder": "",
+                "body_placeholder": "=> core.ref.write_a_reply",
                 "discard_confirmation": "",
                 "posted_message": "",
-                "submit_button": "",
-                "view_button": ""
+                "submit_button": "Vastaa",
+                "view_button": "=> core.ref.view"
             },
             "discussion_controls": {
-                "cannot_reply_button": "",
-                "cannot_reply_text": "",
-                "delete_button": "",
-                "delete_confirmation": "",
-                "delete_forever_button": "",
-                "log_in_to_reply_button": "",
-                "rename_button": "",
-                "reply_button": "",
-                "restore_button": "",
+                "cannot_reply_button": "Et voi vastata",
+                "cannot_reply_text": "Sinulla ei ole oikeuksia vastata tähän keskusteluun.",
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "Oletko varma, että haluat poistaa tämän keskustelun?",
+                "delete_forever_button": "=> core.ref.delete_forever",
+                "log_in_to_reply_button": "Kirjaudu sisään vastataksesi",
+                "rename_button": "=> core.ref.rename",
+                "reply_button": "=> core.ref.reply",
+                "restore_button": "=> core.ref.restore",
                 "toggle_dropdown_accessible_label": ""
             },
             "discussion_list": {
-                "empty_text": "",
-                "load_more_button": "",
-                "mark_as_read_tooltip": "",
-                "replied_text": "",
-                "started_text": ""
+                "empty_text": "Näyttää siltä, että täällä ei ole keskustelua.",
+                "load_more_button": "=> core.ref.load_more",
+                "mark_as_read_tooltip": "Merkitse luetuksi",
+                "replied_text": "{username} vastasi {ago}",
+                "started_text": "{username} aloitti {ago}"
             },
             "forgot_password": {
-                "dismiss_button": "",
-                "email_placeholder": "",
+                "dismiss_button": "=> core.ref.okay",
+                "email_placeholder": "=> core.ref.email",
                 "email_sent_message": "",
-                "not_found_message": "",
-                "submit_button": "",
+                "not_found_message": "Tällä sähköpostiosoitteella ei löytynyt käyttäjää.",
+                "submit_button": "Palauta salasana",
                 "text": "",
-                "title": ""
+                "title": "Salasana unohtui"
             },
             "header": {
-                "admin_button": "",
+                "admin_button": "Hallinta",
                 "back_to_index_tooltip": "",
-                "locale_dropdown_accessible_label": "",
-                "log_in_link": "",
-                "log_out_button": "",
-                "profile_button": "",
-                "search_placeholder": "",
+                "locale_dropdown_accessible_label": "Vaihda foorumin kieli",
+                "log_in_link": "=> core.ref.log_in",
+                "log_out_button": "=> core.ref.log_out",
+                "profile_button": "Profiili",
+                "search_placeholder": "Etsi foorumilta",
                 "session_dropdown_accessible_label": "",
-                "settings_button": "",
-                "sign_up_link": ""
+                "settings_button": "=> core.ref.settings",
+                "sign_up_link": "=> core.ref.sign_up"
             },
             "index": {
-                "all_discussions_link": "",
-                "cannot_start_discussion_button": "",
-                "mark_all_as_read_confirmation": "",
-                "mark_all_as_read_tooltip": "",
-                "meta_title_text": "",
-                "refresh_tooltip": "",
-                "start_discussion_button": "",
+                "all_discussions_link": "=> core.ref.all_discussions",
+                "cannot_start_discussion_button": "Keskustelua ei voi aloittaa",
+                "mark_all_as_read_confirmation": "Oletko varma, että haluat merkitä kaikki keskustelut luetuksi?",
+                "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "meta_title_text": "=> core.ref.all_discussions",
+                "refresh_tooltip": "Päivitä",
+                "start_discussion_button": "=> core.ref.start_a_discussion",
                 "toggle_sidenav_dropdown_accessible_label": ""
             },
             "index_sort": {
-                "latest_button": "",
-                "newest_button": "",
-                "oldest_button": "",
+                "latest_button": "Viimeisin",
+                "newest_button": "Uusin",
+                "oldest_button": "Vanhin",
                 "relevance_button": "",
                 "toggle_dropdown_accessible_label": "",
-                "top_button": ""
+                "top_button": "Ylös"
             },
             "log_in": {
-                "forgot_password_link": "",
-                "invalid_login_message": "",
-                "password_placeholder": "",
-                "remember_me_label": "",
-                "sign_up_text": "",
-                "submit_button": "",
-                "title": "",
-                "username_or_email_placeholder": ""
+                "forgot_password_link": "Unohtuiko salasana?",
+                "invalid_login_message": "Kirjautumistietosi olivat virheelliset.",
+                "password_placeholder": "=> core.ref.password",
+                "remember_me_label": "Muista minut",
+                "sign_up_text": "Etkö ole vielä rekisteröitynyt? <a>Rekisteröidy</a>",
+                "submit_button": "=> core.ref.log_in",
+                "title": "=> core.ref.log_in",
+                "username_or_email_placeholder": "Tunnus tai sähköpostiosoite"
             },
             "notifications": {
-                "discussion_renamed_text": "",
-                "empty_text": "",
-                "mark_all_as_read_tooltip": "",
-                "mark_as_read_tooltip": "",
-                "title": "",
-                "toggle_dropdown_accessible_label": "",
-                "tooltip": ""
+                "discussion_renamed_text": "{username} vaihtoi otsikon",
+                "empty_text": "Ei ilmoituksia",
+                "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "mark_as_read_tooltip": "Merkitse luetuksi",
+                "title": "=> core.ref.notifications",
+                "toggle_dropdown_accessible_label": "Näytä ilmoitukset",
+                "tooltip": "=> core.ref.notifications"
             },
             "post": {
-                "edited_text": "",
-                "edited_tooltip": "",
-                "number_tooltip": ""
+                "edited_text": "Muokattu",
+                "edited_tooltip": "{username} muokkasi {ago}",
+                "number_tooltip": "Viesti #{number}"
             },
             "post_controls": {
-                "delete_button": "",
-                "delete_confirmation": "",
-                "delete_forever_button": "",
-                "edit_button": "",
-                "hide_confirmation": "",
-                "restore_button": "",
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "Haluatko varmasti poistaa tämän pysyvästi? Tätä ei voi perua.",
+                "delete_forever_button": "=> core.ref.delete_forever",
+                "edit_button": "=> core.ref.edit",
+                "hide_confirmation": "Haluatko varmasti poistaa tämän viestin?",
+                "restore_button": "=> core.ref.restore",
                 "toggle_dropdown_accessible_label": ""
             },
             "post_scrubber": {
-                "now_link": "",
-                "original_post_link": "",
-                "unread_text": "",
+                "now_link": "Nyt",
+                "original_post_link": "Alkuperäinen viesti",
+                "unread_text": "{count} lukematonta",
                 "viewing_text": ""
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "",
                 "discussion_renamed_text": "",
-                "load_more_button": "",
-                "reply_placeholder": "",
+                "load_more_button": "=> core.ref.load_more",
+                "reply_placeholder": "=> core.ref.write_a_reply",
                 "time_lapsed_text": ""
             },
             "rename_discussion": {
-                "submit_button": "",
+                "submit_button": "=> core.ref.rename",
                 "title": ""
             },
             "search": {
                 "all_discussions_button": "",
-                "discussions_heading": "",
-                "users_heading": ""
+                "discussions_heading": "=> core.ref.discussions",
+                "users_heading": "=> core.ref.users"
             },
             "settings": {
                 "account_heading": "",
-                "change_email_button": "",
-                "change_password_button": "",
-                "notifications_heading": "",
-                "notify_by_email_heading": "",
+                "change_email_button": "=> core.ref.change_email",
+                "change_password_button": "=> core.ref.change_password",
+                "notifications_heading": "=> core.ref.notifications",
+                "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "",
                 "notify_discussion_renamed_label": "",
                 "privacy_disclose_online_label": "",
                 "privacy_heading": "",
-                "title": ""
+                "title": "=> core.ref.settings"
             },
             "sign_up": {
-                "dismiss_button": "",
-                "email_placeholder": "",
+                "dismiss_button": "=> core.ref.okay",
+                "email_placeholder": "=> core.ref.email",
                 "log_in_text": "",
-                "password_placeholder": "",
-                "submit_button": "",
-                "title": "",
-                "username_placeholder": "",
+                "password_placeholder": "=> core.ref.password",
+                "submit_button": "=> core.ref.sign_up",
+                "title": "=> core.ref.sign_up",
+                "username_placeholder": "=> core.ref.username",
                 "welcome_text": ""
             },
             "user": {
-                "avatar_remove_button": "",
+                "avatar_remove_button": "=> core.ref.remove",
                 "avatar_upload_button": "",
                 "avatar_upload_tooltip": "",
-                "discussions_link": "",
+                "discussions_link": "=> core.ref.discussions",
                 "in_discussion_text": "",
                 "joined_date_text": "",
                 "online_text": "",
                 "posts_empty_text": "",
-                "posts_link": "",
-                "posts_load_more_button": "",
-                "settings_link": ""
+                "posts_link": "=> core.ref.posts",
+                "posts_load_more_button": "=> core.ref.load_more",
+                "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
                 "button": "",
-                "delete_button": "",
+                "delete_button": "=> core.ref.delete",
                 "delete_confirmation": "",
                 "delete_error_message": "",
                 "delete_success_message": "",
-                "edit_button": "",
+                "edit_button": "=> core.ref.edit",
                 "toggle_dropdown_accessible_label": ""
             },
             "user_email_confirmation": {
-                "alert_message": "",
+                "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "",
                 "sent_message": ""
             }
@@ -453,16 +453,16 @@
             },
             "edit_user": {
                 "activate_button": "",
-                "email_heading": "",
-                "email_label": "",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
                 "groups_heading": "",
-                "password_heading": "",
-                "password_label": "",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
                 "set_password_label": "",
-                "submit_button": "",
-                "title": "",
-                "username_heading": "",
-                "username_label": ""
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.edit_user",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username"
             },
             "error": {
                 "dependent_extensions_message": "",
@@ -473,7 +473,7 @@
                 "rate_limit_exceeded_message": ""
             },
             "loading_indicator": {
-                "accessible_label": ""
+                "accessible_label": "=> core.ref.loading"
             },
             "number_suffix": {
                 "kilo_text": "",
@@ -490,18 +490,18 @@
         },
         "views": {
             "confirm_email": {
-                "submit_button": "",
+                "submit_button": "=> core.ref.confirm_email",
                 "text": "",
-                "title": ""
+                "title": "=> core.ref.confirm_email"
             },
             "content": {
                 "javascript_disabled_message": "",
                 "load_error_message": "",
-                "loading_text": ""
+                "loading_text": "=> core.ref.loading"
             },
             "discussion": {
-                "next_page_button": "",
-                "previous_page_button": ""
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
             },
             "error": {
                 "csrf_token_mismatch": "",
@@ -514,20 +514,20 @@
                 "unknown": ""
             },
             "index": {
-                "all_discussions_heading": "",
-                "next_page_button": "",
-                "previous_page_button": ""
+                "all_discussions_heading": "=> core.ref.all_discussions",
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
             },
             "log_out": {
-                "log_out_button": "",
+                "log_out_button": "=> core.ref.log_out",
                 "log_out_confirmation": "",
-                "title": ""
+                "title": "=> core.ref.log_out"
             },
             "reset_password": {
                 "confirm_password_label": "",
                 "new_password_label": "",
-                "submit_button": "",
-                "title": ""
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.reset_your_password"
             }
         },
         "api": {
@@ -543,7 +543,7 @@
                 "body": ""
             },
             "reset_password": {
-                "subject": "",
+                "subject": "=> core.ref.reset_your_password",
                 "body": ""
             },
             "send_test": {
@@ -606,7 +606,7 @@
             "member": "",
             "members": "",
             "mod": "",
-            "mods": ""
+            "mods": "Moderaattorit"
         }
     }
 }
