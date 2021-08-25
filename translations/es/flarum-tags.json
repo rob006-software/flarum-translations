@@ -51,8 +51,8 @@
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
-                "choose_primary_placeholder": "Elige una etiqueta principal|Elige {count} etiquetas principales",
-                "choose_secondary_placeholder": "Elige una etiqueta más|Elige {count} etiquetas más",
+                "choose_primary_placeholder": "{count, plural, one {Elige una etiqueta principal} other {Elige # etiquetas primarias}}",
+                "choose_secondary_placeholder": "{count, plural, one {Elige 1 etiqueta más} other {Elige # más etiquetas}}",
                 "edit_title": "Editar las etiquetas para '{title}'",
                 "submit_button": "=> core.ref.okay",
                 "title": "Elige las etiquetas para su discusión"
@@ -75,7 +75,7 @@
                 "added_and_removed_tags_text": "{username} puso {tagsAdded} y quitó {tagsRemoved}.",
                 "added_tags_text": "{username} puso {tagsAdded}.",
                 "removed_tags_text": "{username} quitó {tagsRemoved}.",
-                "tags_text": "la etiqueta {tags}|las etiquetas {tags}"
+                "tags_text": "{count, plural, one {Etiqueta {tags}} other {Etiquetas {tags}}}"
             },
             "tag": {
                 "meta_description_text": "Todas las discusiones con la etiqueta {tag}"
