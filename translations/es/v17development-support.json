@@ -148,124 +148,124 @@
                 "reminders_sent": "{count, plural, one {Un recordatorio enviado} other {# recordatorios enviados}}",
                 "convert_to_ticket": {
                     "button": "Convertir en ticket",
-                    "confirm": "",
-                    "event": ""
+                    "confirm": "¿Estás seguro de que quieres convertir esta discusión en un ticket?",
+                    "event": "La discusión {ticket_title} se ha convertido en un ticket"
                 },
                 "status": {
                     "new": {
-                        "title": "",
-                        "description": ""
+                        "title": "Nuevo",
+                        "description": "Este es un nuevo ticket sin respuesta"
                     },
                     "open": {
-                        "title": "",
-                        "description": ""
+                        "title": "Abrir",
+                        "description": "Este ticket tiene una nueva respuesta y está esperando su respuesta."
                     },
                     "pending": {
-                        "title": "",
-                        "description": "",
-                        "description_user": ""
+                        "title": "Pendiente",
+                        "description": "Este ticket está esperando la respuesta del usuario.",
+                        "description_user": "Estamos a la espera de que nos responda o marque este ticket como resuelto."
                     },
                     "closed": {
-                        "title": "",
-                        "description": "",
-                        "is_closed": "",
-                        "close_after_posting": "",
-                        "is_auto_closed": ""
+                        "title": "Cerrado",
+                        "description": "Este ticket ha sido cerrado.",
+                        "is_closed": "Este ticket está cerrado, cuando respondas se reabrirá. Recomendamos reabrir un ticket sólo cuando el problema no ha sido resuelto. Si se trata de un nuevo problema, abra un nuevo ticket.",
+                        "close_after_posting": "Cerrar el ticket después de la publicación",
+                        "is_auto_closed": "Este ticket está cerrado por inactividad."
                     },
                     "on_hold": {
-                        "title": "",
-                        "description": ""
+                        "title": "En espera",
+                        "description": "Este ticket ha sido puesto en espera."
                     },
                     "duplicate": {
-                        "title": "",
-                        "description": ""
+                        "title": "Duplicado",
+                        "description": "Este ticket está marcado como duplicado."
                     },
                     "solved": {
-                        "title": "",
-                        "description": "",
-                        "mark_as_solved": ""
+                        "title": "Resuelto",
+                        "description": "Este ticket está marcado como resuelto",
+                        "mark_as_solved": "Marcar este ticket como resuelto"
                     }
                 },
                 "tools": {
-                    "view_ticket": "",
-                    "update_subject": "",
-                    "assign_me": "",
-                    "remove_me": "",
-                    "update_status": "",
-                    "close_ticket": ""
+                    "view_ticket": "Ver ticket",
+                    "update_subject": "Actualizar el asunto",
+                    "assign_me": "Asignar a sí mismo",
+                    "remove_me": "Quitarme",
+                    "update_status": "Actualizar el estado del ticket",
+                    "close_ticket": "Cerrar ticket"
                 },
                 "new_tickets_dropdown": {
-                    "title": "",
-                    "no_tickets": "",
-                    "ticket_new": "",
-                    "ticket_updated": ""
+                    "title": "Notificaciones de tickets",
+                    "no_tickets": "No hay notificaciones de tickets",
+                    "ticket_new": "{username} creó el ticket {ticket}",
+                    "ticket_updated": "{username} publicado en {ticket}"
                 },
                 "fields": {
                     "language": {
-                        "title": "",
-                        "placeholder": "",
-                        "empty": "",
-                        "description": ""
+                        "title": "Idioma",
+                        "placeholder": "Seleccione un idioma",
+                        "empty": "No se ha seleccionado ningún idioma",
+                        "description": "Su ticket de soporte será tratado en {idioma}."
                     },
                     "subject": {
-                        "title": "",
-                        "placeholder": "",
-                        "description": ""
+                        "title": "Asunto",
+                        "placeholder": "Asunto del ticket",
+                        "description": "Intente describir su cuestión en una frase corta."
                     },
                     "information": {
-                        "title": "",
-                        "placeholder": ""
+                        "title": "Información sobre el ticket",
+                        "placeholder": "Díganos en qué podemos ayudarle"
                     },
                     "status": {
-                        "title": "",
-                        "placeholder": ""
+                        "title": "Estado",
+                        "placeholder": "El estado del ticket"
                     },
                     "assignees": {
-                        "title": "",
-                        "placeholder": ""
+                        "title": "Asignatarios",
+                        "placeholder": "El estado del ticket"
                     }
                 },
                 "compose_ticket": {
-                    "title": "",
-                    "private_support": "",
-                    "not_allowed": ""
+                    "title": "Escribir un nuevo ticket",
+                    "private_support": "Para la asistencia privada, puede utilizar este formulario para crear un nuevo ticket en nuestra plataforma de asistencia. Para asuntos de soporte no privados, por favor vea <a>nuestros foros públicos</a>.",
+                    "not_allowed": "No puede abrir un nuevo ticket de soporte ahora"
                 },
                 "load_more": {
-                    "title": ""
+                    "title": "Cargar más tickets"
                 },
                 "my_tickets": {
-                    "title": "",
-                    "description": "",
-                    "no_tickets": ""
+                    "title": "Mis tickets",
+                    "description": "En esta página podrá encontrar todos sus tickets privados.",
+                    "no_tickets": "Todavía no tienes tickets."
                 },
                 "overview": {
-                    "title": "",
-                    "description": "",
-                    "no_tickets": "",
-                    "all_tickets": ""
+                    "title": "Resumen de los tickets",
+                    "description": "Sonríe, eres el héroe que salva el día a los demás.",
+                    "no_tickets": "No hay tickets que coincidan con tus criterios, ¡probablemente estás haciendo un buen trabajo!",
+                    "all_tickets": "Todos los tickets"
                 }
             }
         },
         "emails": {
             "replied_to_ticket": {
-                "subject": "",
-                "body": ""
+                "subject": "{replier_display_name} ha respondido a su ticket #{ticket_id}",
+                "body": "Estimado {recipient_display_name},\n\n{replier_display_name} ha respondido a su ticket #{ticket_id} (asunto \"{subject}\").\n\nPor favor, utilice el siguiente enlace para revisar la respuesta:\n{url}\n\nEstamos esperando su respuesta o hasta que marque este ticket como resuelto.\n"
             },
             "ticket_status_update": {
-                "subject": "",
-                "body": ""
+                "subject": "El ticket #{ticket_id} está marcado como {new_status}",
+                "body": "Estimado {recipient_display_name},\n\nEl estado de su ticket #{ticket_id} ha cambiado a {new_status}.\n\nLa URL de su ticket es:\n{url}\n"
             },
             "ticket_resolved": {
-                "subject": "",
-                "body": ""
+                "subject": "El ticket #{ticket_id} está marcado como resuelto",
+                "body": "Estimado {recipient_display_name},\n\nSu ticket #{ticket_id} ha sido marcado como resuelto. Esto significa que su ticket ha sido cerrado.\n\nLa URL de su ticket es:\n{url}\n\nSi no está de acuerdo en marcar su ticket como resuelto, por favor responda a su ticket para reabrirlo.\n"
             },
             "ticket_pending_reply": {
-                "subject": "",
-                "body": ""
+                "subject": "El ticket #{ticket_id} está esperando su respuesta",
+                "body": "Estimado {recipient_display_name},\n\nRecientemente {replier_display_name} ha respondido a su ticket #{ticket_id} en {replied_date} y estamos esperando su respuesta.\n\nLa URL de su ticket es:\n{url}\n\nSi el problema se ha resuelto, marque el ticket como resuelto.\n"
             },
             "ticket_pending_reply_closed": {
-                "subject": "",
-                "body": ""
+                "subject": "El ticket #{ticket_id} ha sido cerrado por inactividad",
+                "body": "Estimado {recipient_display_name},\n\nRecientemente {replier_display_name} respondió a su ticket #{ticket_id}. Lamentablemente no hemos recibido su respuesta. Su ticket se ha cerrado automáticamente por inactividad.\n\nSi todavía desea responder, la URL de su ticket es:\n{url}\n"
             }
         }
     }
