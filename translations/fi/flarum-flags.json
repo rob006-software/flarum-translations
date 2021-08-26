@@ -2,49 +2,49 @@
     "flarum-flags": {
         "admin": {
             "permissions": {
-                "flag_posts_label": "",
-                "view_flags_label": ""
+                "flag_posts_label": "Raportoi viestejä",
+                "view_flags_label": "Näytä raportoidut viestit"
             },
             "settings": {
-                "flag_own_posts_label": "",
-                "guidelines_url_label": "",
-                "title": ""
+                "flag_own_posts_label": "Salli käyttäjien raportoida omia viestejä",
+                "guidelines_url_label": "Yhteisön sääntöjen osoite",
+                "title": "Raportoinnin asetukset"
             }
         },
         "forum": {
             "flag_post": {
-                "confirmation_message": "",
-                "dismiss_button": "",
-                "reason_details_placeholder": "",
-                "reason_inappropriate_label": "",
-                "reason_inappropriate_text": "",
-                "reason_missing_message": "",
-                "reason_off_topic_label": "",
-                "reason_off_topic_text": "",
-                "reason_other_label": "",
-                "reason_spam_label": "",
-                "reason_spam_text": "",
-                "submit_button": "",
-                "title": ""
+                "confirmation_message": "Kiitos raportoinnista. Moderaattorimme tutkivat sitä.",
+                "dismiss_button": "=> core.ref.okay",
+                "reason_details_placeholder": "Lisätiedot (valinnainen)",
+                "reason_inappropriate_label": "Asiaton",
+                "reason_inappropriate_text": "Tämä viesti on hyökkäävä, herjaava tai rikkoo <a>yhteisön sääntöjä</a>.",
+                "reason_missing_message": "Annathan hieman tietoja moderaattoreillemme.",
+                "reason_off_topic_label": "Asiaankuulumaton",
+                "reason_off_topic_text": "Tämä viesti ei kuulu keskusteluun ja pitäisi siirtää muualle.",
+                "reason_other_label": "Muu (tarkenna)",
+                "reason_spam_label": "Roskaposti",
+                "reason_spam_text": "Tämä viesti on mainos.",
+                "submit_button": "=> flarum-flags.ref.flag_post",
+                "title": "=> flarum-flags.ref.flag_post"
             },
             "flagged_posts": {
-                "empty_text": "",
-                "item_text": "",
-                "title": "",
-                "tooltip": ""
+                "empty_text": "Ei raportointeja",
+                "item_text": "{username} keskustelussa <em>{discussion}</em>",
+                "title": "=> flarum-flags.ref.flagged_posts",
+                "tooltip": "=> flarum-flags.ref.flagged_posts"
             },
             "post": {
-                "dismiss_flag_button": "",
-                "flagged_by_text": "",
-                "flagged_by_with_reason_text": ""
+                "dismiss_flag_button": "Hylkää raportointi",
+                "flagged_by_text": "Raportin teki {username}",
+                "flagged_by_with_reason_text": "Raportin teki {username} syystä {reason}"
             },
             "post_controls": {
-                "flag_button": ""
+                "flag_button": "Raportoi"
             }
         },
         "ref": {
-            "flag_post": "",
-            "flagged_posts": ""
+            "flag_post": "Raportoi viesti",
+            "flagged_posts": "Raportoidut viestit"
         }
     }
 }
