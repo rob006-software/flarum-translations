@@ -2,49 +2,49 @@
     "fof-polls": {
         "admin": {
             "permissions": {
-                "view_results_without_voting": "",
-                "start": "",
-                "self_edit": "",
-                "vote": "",
-                "change_vote": "",
-                "moderate": ""
+                "view_results_without_voting": "Näytä tulokset ilman vastaamista",
+                "start": "Aloita kysely",
+                "self_edit": "Salli käyttäjien muokata omia kyselyitä",
+                "vote": "Vastata kyselyissä",
+                "change_vote": "Vaihtaa vastausta",
+                "moderate": "Muokata & poistaa kyselyitä"
             }
         },
         "forum": {
-            "days_remaining": "",
-            "no_permission": "",
-            "poll_ended": "",
-            "public_poll": "",
+            "days_remaining": "Kysely loppuu {time}.",
+            "no_permission": "Sinulla ei ole oikeutta vastata",
+            "poll_ended": "Kysely on loppunut.",
+            "public_poll": "Näytä vastaajat",
             "composer_discussion": {
-                "add_poll": "",
-                "edit_poll": ""
+                "add_poll": "Lisää kysely",
+                "edit_poll": "=> fof-polls.forum.moderation.edit"
             },
             "modal": {
-                "add_title": "",
-                "add_option_label": "",
-                "date_placeholder": "",
-                "edit_title": "",
-                "include_question": "",
-                "max": "",
-                "min": "",
-                "no_voters": "",
-                "option_placeholder": "",
-                "options_label": "",
-                "public_poll_label": "",
-                "question_placeholder": "",
-                "submit": ""
+                "add_title": "Lisää kysely",
+                "add_option_label": "Lisää vaihtoehto",
+                "date_placeholder": "Kyselyn loppupäivä (valinnainen)",
+                "edit_title": "Muokkaa kyselyä",
+                "include_question": "SInun pitää sisällyttää kysymys",
+                "max": "Sinulla voi olla enintään 10 vastausta",
+                "min": "Sinulla pitää olla vähintään 2 vastausta",
+                "no_voters": "Ei vastauksia",
+                "option_placeholder": "Vastaa",
+                "options_label": "Vastaukset",
+                "public_poll_label": "Salli käyttäjien nähdä kuka vastasi",
+                "question_placeholder": "Kysymys",
+                "submit": "Lähetä"
             },
             "moderation": {
-                "delete": "",
-                "delete_confirm": "",
-                "edit": ""
+                "delete": "Poista kysely",
+                "delete_confirm": "Haluatko varmasti poistaa tämän kyselyn?",
+                "edit": "Muokkaa kyselyä"
             },
             "tooltip": {
-                "badge": "",
-                "votes": ""
+                "badge": "Kysely",
+                "votes": "{count, plural, one {# vastaus} other {# vastausta}}"
             },
             "votes_modal": {
-                "title": ""
+                "title": "Vastaajat"
             }
         }
     }
