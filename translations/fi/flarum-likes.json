@@ -2,27 +2,27 @@
     "flarum-likes": {
         "admin": {
             "permissions": {
-                "like_posts_label": ""
+                "like_posts_label": "Tykkää viesteistä"
             }
         },
         "forum": {
             "notifications": {
-                "others_text": "",
-                "post_liked_text": ""
+                "others_text": "=> core.ref.some_others",
+                "post_liked_text": "{username} tykkäsi viestistäsi"
             },
             "post": {
-                "like_link": "",
-                "liked_by_self_text": "",
-                "liked_by_text": "",
-                "others_link": "",
-                "unlike_link": "",
-                "you_text": ""
+                "like_link": "Tykkää",
+                "liked_by_self_text": "{users} tykkää tästä.",
+                "liked_by_text": "{count, plural, yksi {{users} tykkää tästä} other {{users} tykkäävät tästä}}",
+                "others_link": "=> core.ref.some_others",
+                "unlike_link": "Peru tykkäys",
+                "you_text": "=> core.ref.you"
             },
             "post_likes": {
-                "title": ""
+                "title": "Käyttäjät jotka tykkäsivät tästä"
             },
             "settings": {
-                "notify_post_liked_label": ""
+                "notify_post_liked_label": "Joku tykkäsi viestistäni"
             }
         }
     }
