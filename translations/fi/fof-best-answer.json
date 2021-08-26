@@ -2,28 +2,28 @@
     "fof-best-answer": {
         "admin": {
             "permissions": {
-                "best_answer": "",
-                "best_answer_not_own_discussion": ""
+                "best_answer": "Valitse paras vastaus (oma keskustelu)",
+                "best_answer_not_own_discussion": "Valitse paras vastaus (muiden keskustelu)"
             },
             "settings": {
                 "label": {
-                    "general": "",
-                    "reminders": "",
-                    "advanced": "",
-                    "reminders_notice": ""
+                    "general": "Yleinen",
+                    "reminders": "Muistutukset",
+                    "advanced": "Lisäasetukset",
+                    "reminders_notice": "Muistutuksia käyttääksesi sinun on täytynyt asettaa Flarumin ajastukset oikein."
                 },
-                "allow_select_own_post": "",
-                "allow_select_own_post_help": "",
-                "select_best_answer_reminder_days": "",
+                "allow_select_own_post": "Valitse oma viesti",
+                "allow_select_own_post_help": "Salli aloittajan valita oma viesti keskustelusta parhaaksi vastaukseksi",
+                "select_best_answer_reminder_days": "Muistutuksien väli",
                 "select_best_answer_reminder_days_help": "",
                 "schedule_on_one_server": "",
-                "schedule_on_one_server_help": "",
-                "schedule_stop_overnight": "",
-                "schedule_stop_overnight_help": "",
+                "schedule_on_one_server_help": "Vaatii Redis/Memcache",
+                "schedule_stop_overnight": "Estä muistutuksien lähettämisen haluttuna aikana esim. yöllä",
+                "schedule_stop_overnight_help": "21:00 - 08:00 palvelimen aikaa",
                 "schedule_log_output": "",
-                "use_alt_ui": "",
-                "use_alt_ui_help": "",
-                "documentation": "",
+                "use_alt_ui": "Toissijainen ulkoasu",
+                "use_alt_ui_help": "Parhaan vastauksen työkalut viestin alaosassa",
+                "documentation": "Dokumentaatio",
                 "introduction": ""
             },
             "edit_tag": {
@@ -32,49 +32,49 @@
             }
         },
         "forum": {
-            "answered_badge": "",
-            "this_best_answer": "",
-            "remove_best_answer": "",
-            "best_answer_button": "",
-            "best_answer_label": "",
+            "answered_badge": "Vastattu",
+            "this_best_answer": "Valitse paras vastaus",
+            "remove_best_answer": "Poista parhaan vastauksen valinta",
+            "best_answer_button": "Paras vastaus",
+            "best_answer_label": "valitsi <a>{username}</a> {time_set}",
             "errors": {
-                "mismatch": ""
+                "mismatch": "Valittu viesti ei ole tässä keskustelussa."
             },
             "notification": {
-                "best_answer_in_discussion": "",
-                "content": "",
-                "awarded": "",
+                "best_answer_in_discussion": "{username} asetti parhaan vastauksen tässä keskustelussa",
+                "content": "Valitse paras vastaus mikäli kysymyksessi on vastattu",
+                "awarded": "Viestisi valittiin parhaaksi vastaukseksi {username} toimesta",
                 "preferences": {
-                    "awarded_best_answer": "",
-                    "best_answer_in_discussion": ""
+                    "awarded_best_answer": "Kun joku asettaa viestini parhaaksi vastaukseksi",
+                    "best_answer_in_discussion": "Kun paras vastaus on asetettu keskustelussa, johon olen osallistunut"
                 }
             },
             "index": {
-                "ask_question": "",
-                "cannot_ask_question": "",
-                "solved_link": "",
-                "unsolved_link": ""
+                "ask_question": "Kysy kysymys",
+                "cannot_ask_question": "Kysymystä ei voi kysyä",
+                "solved_link": "Ratkaistut keskustelut",
+                "unsolved_link": "Ratkaisemattomat keskustelut"
             },
             "filter": {
-                "all_label": "",
-                "solved_label": "",
-                "unsolved_label": "",
-                "accessible_label": ""
+                "all_label": "Kaikki kysymykset",
+                "solved_label": "Vastatut kysymykset",
+                "unsolved_label": "Vastaamattomat kysymykset",
+                "accessible_label": "Vastatut/vastaamattomat valinnat"
             },
             "composer": {
-                "titlePlaceholder": ""
+                "titlePlaceholder": "Kysymys"
             }
         },
         "email": {
             "subject": {
-                "awarded": "",
-                "ba-set": "",
-                "select": ""
+                "awarded": "Viestisi asetettiin parhaaksi vastaukseksi {display_name} toimesta",
+                "ba-set": "Parhaan vastauksen valitsi {display_name}",
+                "select": "Saitko vastauksen kysymykseesi?"
             },
             "body": {
-                "awarded": "",
-                "ba-set": "",
-                "select": ""
+                "awarded": "Hei {recipient_display_name},\n\nHienoa työtä, {actor_display_name}  asetti viestisi parhaaksi vastaukseksi keskustelussa: {discussion_title}. Kiitos avustasi!\n\nKatso se täällä: {discussion_url}\n",
+                "ba-set": "Hei {recipient_display_name},\n\n{actor_display_name} asetti parhaan vastauksen keskustelussa: {discussion_title}, jossa olet osallisena.\n\nKatso se täällä: {discussion_url}\n",
+                "select": "Hei {recipient_display_name},\n\nTarkastelemme vain. Sinulla pitäisi jo olla useampi vastaus kysymykseesi keskustelussa: {discussion_title}. Toivottavasti joku niistä vastaa kysymykseesi.\n\nOlisi hyödyllistä muita jäseniä varten, jotta merkitsisit parhaan vastauksen. Se auttaa muita löytämään vastauksen kysymykseen ja se kiittää myös käyttäjää joka auttoi sinua. \n\nKatso keskustelu täällä: {discussion_url} ja valitse paras vastaus (mikäli sellaista on)\n\nKiitos!\n"
             }
         }
     }
