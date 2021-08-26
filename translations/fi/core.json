@@ -4,53 +4,53 @@
             "appearance": {
                 "colored_header_label": "Värillinen yläosa",
                 "colors_heading": "Värit",
-                "colors_text": "",
-                "custom_footer_heading": "",
+                "colors_text": "Valitse kaksi väriä foorumin teemaksi. Ensimmäistä käytetään korostusvärinä, kun taas toista väriä käytetään taustaelementeissä.",
+                "custom_footer_heading": "Mukautettu alaosa",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
-                "custom_header_heading": "",
+                "custom_header_heading": "Mukautettu yläosa",
                 "custom_header_text": "=> core.ref.custom_header_text",
-                "custom_styles_heading": "",
-                "custom_styles_text": "",
+                "custom_styles_heading": "Mukautetut tyylit",
+                "custom_styles_text": "Mukauta foorumin ulkonäköä lisäämällä omia Less/CSS tyylejä. Nämä tyylit tulevat Flarumin omien oletustyylien lisäksi.",
                 "dark_mode_label": "Tumma tila",
-                "description": "",
-                "edit_css_button": "",
+                "description": "Mukauta foorumisi värejä, logoja sekä muita määrityksiä.",
+                "edit_css_button": "Muokkaa mukautettua CSS koodia",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
-                "enter_hex_message": "",
+                "enter_hex_message": "Syötä värikoodi heksadesimaali muodossa.",
                 "favicon_heading": "Favicon",
-                "favicon_text": "",
+                "favicon_text": "Siirrä kuva, jota käytetään foorumin faviconina.",
                 "logo_heading": "Logo",
-                "logo_text": "",
-                "title": ""
+                "logo_text": "Siirrä kuva, jota käytetään foorumin logona tekstin sijaan.",
+                "title": "Ulkoasu"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "Oletuskieli",
-                "description": "",
-                "display_name_heading": "",
-                "display_name_text": "",
-                "forum_description_heading": "",
-                "forum_description_text": "",
-                "forum_title_heading": "",
-                "home_page_heading": "",
-                "home_page_text": "",
-                "show_language_selector_label": "",
-                "slug_driver_heading": "",
-                "slug_driver_text": "",
-                "title": "",
-                "welcome_banner_heading": "",
-                "welcome_banner_text": ""
+                "description": "Määritä foorumin otsikko, kieli ja muita perusasetuksia.",
+                "display_name_heading": "Käyttäjän näyttönimi",
+                "display_name_text": "Valitse ajuri mitä käytetään käyttäjän nimen näyttämiseen. Oletuksena näytetään käyttäjätunnus.",
+                "forum_description_heading": "Foorumin kuvaus",
+                "forum_description_text": "Syötä lyhyt lause tai kaksi, joka kuvaa yhteisöäsi. Tätä käytetään meta kuvauksessa ja näkyy hakukoneille.",
+                "forum_title_heading": "Foorumin otsikko",
+                "home_page_heading": "Kotisivu",
+                "home_page_text": "Valitse sivu minkä käyttäjät näkevät, kun he vierailevat foorumillasi.",
+                "show_language_selector_label": "Näytä kielivalikko",
+                "slug_driver_heading": "Polkutunnunnuksen ajuri: {model}",
+                "slug_driver_text": "Valitse ajuri mitä käytetään polkutunnuksen luomiseen tälle mallille.",
+                "title": "Yleiset",
+                "welcome_banner_heading": "Tervetulobanneri",
+                "welcome_banner_text": "Määritä teksti mikä näkyy keskustelulistauksessa olevassa bannerissa. Käytä tätä toivottaaksesi vieraat tervetulleeksi."
             },
             "dashboard": {
-                "clear_cache_button": "",
-                "description": "",
-                "title": "",
-                "tools_button": ""
+                "clear_cache_button": "Tyhjennä välimuisti",
+                "description": "Foorumisi yhdellä silmäyksellä.",
+                "title": "Kojelauta",
+                "tools_button": "Työkalut"
             },
             "edit_css": {
-                "customize_text": "",
+                "customize_text": "Muokkaa foorumisi ulkoasua lisäämällä omia Less/CSS koodeja joita käytetään Flarumin <a>oletustyylien</a> lisäksi.",
                 "submit_button": "=> core.ref.save_changes",
-                "title": ""
+                "title": "Muokkaa mukautettua CSS koodia"
             },
             "edit_footer": {
                 "customize_text": "=> core.ref.custom_footer_text",
@@ -59,16 +59,16 @@
             },
             "edit_group": {
                 "color_label": "=> core.ref.color",
-                "delete_button": "",
-                "delete_confirmation": "",
-                "hide_label": "",
+                "delete_button": "Poista ryhmä",
+                "delete_confirmation": "Haluatko varmasti poistaa tämän ryhmän? Ryhmän jäseniä EI poisteta.",
+                "hide_label": "Piilota foorumilla",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
-                "name_label": "",
-                "plural_placeholder": "",
-                "singular_placeholder": "",
+                "name_label": "Nimi",
+                "plural_placeholder": "Monikko (esim. Moderaattorit)",
+                "singular_placeholder": "Yksikkö (esim. Moderaattori)",
                 "submit_button": "=> core.ref.save_changes",
-                "title": ""
+                "title": "Luo ryhmä"
             },
             "edit_header": {
                 "customize_text": "=> core.ref.custom_header_text",
@@ -76,54 +76,54 @@
                 "title": "=> core.ref.custom_header_title"
             },
             "email": {
-                "addresses_heading": "",
-                "description": "",
-                "driver_heading": "",
-                "driver_label": "",
-                "from_label": "",
-                "mail_encryption_label": "",
-                "mail_host_label": "",
-                "mail_mailgun_domain_label": "",
-                "mail_mailgun_region_label": "",
-                "mail_mailgun_secret_label": "",
+                "addresses_heading": "Osoitteet",
+                "description": "Määritä ajuri, asetukset ja osoitteet mitä foorumisi käyttää sähköpostin lähettämiseen.",
+                "driver_heading": "Valitse ajuri",
+                "driver_label": "Ajuri",
+                "from_label": "Lähettäjä",
+                "mail_encryption_label": "Salaus",
+                "mail_host_label": "Palvelin",
+                "mail_mailgun_domain_label": "Verkkotunnus (domain)",
+                "mail_mailgun_region_label": "Alue (region)",
+                "mail_mailgun_secret_label": "Salainen avain (secret key)",
                 "mail_password_label": "=> core.ref.password",
-                "mail_port_label": "",
+                "mail_port_label": "Portti",
                 "mail_username_label": "=> core.ref.username",
-                "mailgun_heading": "",
-                "not_sending_message": "",
-                "send_test_mail_button": "",
-                "send_test_mail_heading": "",
-                "send_test_mail_success": "",
-                "send_test_mail_text": "",
-                "smtp_heading": "",
+                "mailgun_heading": "Mailgunin asetukset",
+                "not_sending_message": "Flarum ei tällä hetkellä lähetä sähköpostia. Tämä voi johtua valitusta ajurista tai virheistä sen määrityksessä.",
+                "send_test_mail_button": "Lähetä",
+                "send_test_mail_heading": "Lähetä testisähköposti",
+                "send_test_mail_success": "Testisähköposti lähetetty onnistuneesti!",
+                "send_test_mail_text": "Tämä lähettää sähköpostin käyttäen ylläolevia määreitä sähköpostiisi: {email}.",
+                "smtp_heading": "SMTP asetukset",
                 "title": "=> core.ref.email"
             },
             "extension": {
-                "configure_scopes": "",
-                "confirm_uninstall": "",
-                "disabled": "",
-                "enable_to_see": "",
-                "enabled": "",
+                "configure_scopes": "Määritä laajuudet (scopes)",
+                "confirm_uninstall": "Poistaminen poistaa kaikki tietokantamerkinnät ja tiedostot tähän lisäosaan liittyen. Haluatko varmasti jatkaa?",
+                "disabled": "Poistettu käytöstä",
+                "enable_to_see": "Ota tämä lisäosa käyttää nähdäksesi ja muuttaaksesi asetuksia.",
+                "enabled": "Käytössä",
                 "info_links": {
-                    "discuss": "",
-                    "documentation": "",
-                    "donate": "",
-                    "source": "",
-                    "support": "",
-                    "website": ""
+                    "discuss": "Keskustele",
+                    "documentation": "Dokumentaatio",
+                    "donate": "Lahjoita",
+                    "source": "Lähdekoodi",
+                    "support": "Tuki",
+                    "website": "Verkkosivut"
                 },
-                "no_permissions": "",
-                "no_settings": "",
-                "open_modal": "",
-                "permissions_title": "",
-                "uninstall_button": ""
+                "no_permissions": "Tällä lisäosalla ei ole oikeuksia.",
+                "no_settings": "Tällä lisäosalla ei ole asetuksia.",
+                "open_modal": "Avaa asetukset",
+                "permissions_title": "Oikeudet",
+                "uninstall_button": "Poista asennus"
             },
             "header": {
-                "get_help": "",
+                "get_help": "Pyydä apua",
                 "log_out_button": "=> core.ref.log_out"
             },
             "loading": {
-                "title": ""
+                "title": "Odota hetki..."
             },
             "nav": {
                 "appearance_button": "=> core.admin.appearance.title",
@@ -131,15 +131,15 @@
                 "basics_button": "=> core.admin.basics.title",
                 "basics_title": "=> core.admin.basics.description",
                 "categories": {
-                    "authentication": "",
+                    "authentication": "Autentikointi",
                     "core": "",
-                    "discussion": "",
-                    "feature": "",
-                    "formatting": "",
-                    "language": "",
-                    "moderation": "",
-                    "other": "",
-                    "theme": ""
+                    "discussion": "Keskustelu",
+                    "feature": "Ominaisuudet",
+                    "formatting": "Muotoilu",
+                    "language": "Kielet",
+                    "moderation": "Moderointi",
+                    "other": "Muut lisäosat",
+                    "theme": "Teemat"
                 },
                 "dashboard_button": "=> core.admin.dashboard.title",
                 "dashboard_title": "=> core.admin.dashboard.description",
@@ -149,35 +149,35 @@
                 "permissions_title": "=> core.admin.permissions.description",
                 "userlist_button": "=> core.admin.users.title",
                 "userlist_title": "=> core.admin.users.description",
-                "search_placeholder": ""
+                "search_placeholder": "Hae lisäosia"
             },
             "permissions": {
-                "allow_post_editing_label": "",
-                "allow_renaming_label": "",
-                "create_heading": "",
-                "delete_discussions_forever_label": "",
-                "delete_discussions_label": "",
-                "delete_posts_forever_label": "",
-                "delete_posts_label": "",
-                "description": "",
-                "edit_posts_label": "",
-                "edit_users_label": "",
-                "edit_users_credentials_label": "",
-                "edit_users_groups_label": "",
-                "global_heading": "",
-                "moderate_heading": "",
-                "new_group_button": "",
-                "participate_heading": "",
-                "post_without_throttle_label": "",
-                "read_heading": "",
-                "rename_discussions_label": "",
-                "reply_to_discussions_label": "",
-                "search_users_label": "",
-                "sign_up_label": "",
-                "start_discussions_label": "",
-                "title": "",
-                "view_forum_label": "",
-                "view_hidden_groups_label": "",
+                "allow_post_editing_label": "Salli viestien muokkaus",
+                "allow_renaming_label": "Salli uudelleennimeäminen",
+                "create_heading": "Luonti",
+                "delete_discussions_forever_label": "Poista keskustelu pysyvästi",
+                "delete_discussions_label": "Poista keskusteluita",
+                "delete_posts_forever_label": "Poista viesti pysyvästi",
+                "delete_posts_label": "Poista viestejä",
+                "description": "Määritä kuka näkee ja voi tehdä mitä.",
+                "edit_posts_label": "Muokkaa viestejä",
+                "edit_users_label": "Muokkaa käyttäjän tietoja",
+                "edit_users_credentials_label": "Muokkaa käyttäjän tunnuksia",
+                "edit_users_groups_label": "Muokkaa käyttäjän ryhmiä",
+                "global_heading": "Yleinen",
+                "moderate_heading": "Moredointi",
+                "new_group_button": "Uusi ryhmä",
+                "participate_heading": "Osallistuminen",
+                "post_without_throttle_label": "Vastata useasti ilman odottamista",
+                "read_heading": "Lukea",
+                "rename_discussions_label": "Uudelleennimetä keskusteluita",
+                "reply_to_discussions_label": "Vastata keskusteluihin",
+                "search_users_label": "Hakea käyttäjiä",
+                "sign_up_label": "Rekisteröityminen",
+                "start_discussions_label": "Aloittaa keskusteluita",
+                "title": "Oikeudet",
+                "view_forum_label": "Nähdä foorumin (keskustelut ja jäsenet)",
+                "view_hidden_groups_label": "Nähdä piilotetut ryhmämerkit",
                 "view_last_seen_at_label": "",
                 "view_post_ips_label": ""
             },
@@ -186,18 +186,18 @@
                 "allow_some_minutes_button": "",
                 "allow_ten_minutes_button": "",
                 "allow_until_reply_button": "",
-                "everyone_button": "",
+                "everyone_button": "Kaikki",
                 "members_button": "=> core.group.members",
-                "signup_closed_button": "",
-                "signup_open_button": ""
+                "signup_closed_button": "Suljettu",
+                "signup_open_button": "Avattu"
             },
             "settings": {
-                "saved_message": "",
+                "saved_message": "Muutoksesi tehtiin.",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
                 "remove_button": "=> core.ref.remove",
-                "upload_button": ""
+                "upload_button": "Valitse kuva..."
             },
             "users": {
                 "description": "",
@@ -206,22 +206,22 @@
                         "edit_user": {
                             "button": "=> core.ref.edit",
                             "title": "=> core.ref.edit_user",
-                            "tooltip": ""
+                            "tooltip": "Muokkaa {username}"
                         },
                         "email": {
                             "title": "=> core.ref.email",
-                            "visibility_hide": "",
-                            "visibility_show": ""
+                            "visibility_hide": "Piilota sähköpostiosoite",
+                            "visibility_show": "Näytä sähköpostiosoite"
                         },
                         "group_badges": {
                             "no_badges": "",
-                            "title": ""
+                            "title": "Ryhmät"
                         },
                         "join_time": {
-                            "title": ""
+                            "title": "Liittynyt"
                         },
                         "user_id": {
-                            "title": ""
+                            "title": "ID"
                         },
                         "username": {
                             "profile_link_tooltip": "",
@@ -376,7 +376,7 @@
                 "now_link": "Nyt",
                 "original_post_link": "Alkuperäinen viesti",
                 "unread_text": "{count} lukematonta",
-                "viewing_text": "{count, plural, 1 {{index} / {formattedCount} viestistä} other {{index} / {formattedCount} viestistä}}"
+                "viewing_text": "{count, plural, one {{index} / {formattedCount} viestistä} other {{index} / {formattedCount} viestistä}}"
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "Vanha otsikko oli: \"{old}\"",
@@ -568,7 +568,7 @@
             "discussions": "Keskustelut",
             "edit": "Muokkaa",
             "edit_user": "Muokkaa käyttäjää",
-            "email": "Sähköpostiosoite",
+            "email": "Sähköposti",
             "icon": "Ikoni",
             "icon_text": "",
             "load_more": "Lataa lisää",
