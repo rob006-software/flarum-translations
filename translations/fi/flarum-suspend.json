@@ -2,28 +2,28 @@
     "flarum-suspend": {
         "admin": {
             "permissions": {
-                "suspend_users_label": ""
+                "suspend_users_label": "Jäädytä käyttäjiä"
             }
         },
         "forum": {
             "notifications": {
-                "user_suspended_text": "",
-                "user_unsuspended_text": ""
+                "user_suspended_text": "{username} jäädytti sinut {timeReadable}",
+                "user_unsuspended_text": "{username} poisti jäädytyksen"
             },
             "suspend_user": {
-                "indefinitely_label": "",
-                "limited_time_days_text": "",
-                "limited_time_label": "",
-                "not_suspended_label": "",
-                "status_heading": "",
-                "submit_button": "",
-                "title": ""
+                "indefinitely_label": "Jäädytetty pysyvästi",
+                "limited_time_days_text": " päivää",
+                "limited_time_label": "Jäädytetty rajoitetuksi ajaksi...",
+                "not_suspended_label": "Ei jäädytetty",
+                "status_heading": "Jäädytyksen tila",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Jäädytä {username}"
             },
             "user_badge": {
-                "suspended_tooltip": ""
+                "suspended_tooltip": "Jäädytetty"
             },
             "user_controls": {
-                "suspend_button": ""
+                "suspend_button": "Jäädytä"
             }
         }
     }
