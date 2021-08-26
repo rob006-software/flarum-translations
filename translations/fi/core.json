@@ -276,8 +276,8 @@
             },
             "composer_reply": {
                 "body_placeholder": "=> core.ref.write_a_reply",
-                "discard_confirmation": "",
-                "posted_message": "",
+                "discard_confirmation": "Et ole lähettänyt viestiäsi. Haluatko perua sen?",
+                "posted_message": "Vastauksesi lähetettiin.",
                 "submit_button": "Vastaa",
                 "view_button": "=> core.ref.view"
             },
@@ -303,15 +303,15 @@
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
                 "email_placeholder": "=> core.ref.email",
-                "email_sent_message": "",
+                "email_sent_message": "Lähetimme teille sähköpostin, jossa on linkki salasanan nollaukseen. Tarkista roskapostikansiosi mikäli viestiä ei ala kuulua.",
                 "not_found_message": "Tällä sähköpostiosoitteella ei löytynyt käyttäjää.",
                 "submit_button": "Palauta salasana",
-                "text": "",
+                "text": "Syötä sähköpostiosoitteesi niin me lähetämme teille linkin salasanan nollaukseen.",
                 "title": "Salasana unohtui"
             },
             "header": {
                 "admin_button": "Hallinta",
-                "back_to_index_tooltip": "",
+                "back_to_index_tooltip": "Takaisin keskustelulistaan",
                 "locale_dropdown_accessible_label": "Vaihda foorumin kieli",
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
@@ -337,7 +337,7 @@
                 "oldest_button": "Vanhin",
                 "relevance_button": "",
                 "toggle_dropdown_accessible_label": "",
-                "top_button": "Ylös"
+                "top_button": "Parhaat"
             },
             "log_in": {
                 "forgot_password_link": "Unohtuiko salasana?",
@@ -376,55 +376,55 @@
                 "now_link": "Nyt",
                 "original_post_link": "Alkuperäinen viesti",
                 "unread_text": "{count} lukematonta",
-                "viewing_text": ""
+                "viewing_text": "{count, plural, 1 {{index} / {formattedCount} viestistä} other {{index} / {formattedCount} viestistä}}"
             },
             "post_stream": {
-                "discussion_renamed_old_tooltip": "",
-                "discussion_renamed_text": "",
+                "discussion_renamed_old_tooltip": "Vanha otsikko oli: \"{old}\"",
+                "discussion_renamed_text": "{username} vaihtoi otsikoksi {new}.",
                 "load_more_button": "=> core.ref.load_more",
                 "reply_placeholder": "=> core.ref.write_a_reply",
-                "time_lapsed_text": ""
+                "time_lapsed_text": "{period} sitten"
             },
             "rename_discussion": {
                 "submit_button": "=> core.ref.rename",
-                "title": ""
+                "title": "Uudelleennimeä keskustelu"
             },
             "search": {
-                "all_discussions_button": "",
+                "all_discussions_button": "Hae kaikista keskusteluista hakusanalla \"{query}\"",
                 "discussions_heading": "=> core.ref.discussions",
                 "users_heading": "=> core.ref.users"
             },
             "settings": {
-                "account_heading": "",
+                "account_heading": "Tili",
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
-                "notify_by_web_heading": "",
-                "notify_discussion_renamed_label": "",
-                "privacy_disclose_online_label": "",
-                "privacy_heading": "",
+                "notify_by_web_heading": "Web",
+                "notify_discussion_renamed_label": "Joku nimeää uudelleen keskustelun jonka aloitin",
+                "privacy_disclose_online_label": "Näytä muille, että olen paikalla",
+                "privacy_heading": "Yksityisyys",
                 "title": "=> core.ref.settings"
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",
                 "email_placeholder": "=> core.ref.email",
-                "log_in_text": "",
+                "log_in_text": "Joko sinulla on tili? <a>Kirjaudu sisään</a>",
                 "password_placeholder": "=> core.ref.password",
                 "submit_button": "=> core.ref.sign_up",
                 "title": "=> core.ref.sign_up",
                 "username_placeholder": "=> core.ref.username",
-                "welcome_text": ""
+                "welcome_text": "Tervetuloa {username}!"
             },
             "user": {
                 "avatar_remove_button": "=> core.ref.remove",
-                "avatar_upload_button": "",
-                "avatar_upload_tooltip": "",
+                "avatar_upload_button": "Siirrä",
+                "avatar_upload_tooltip": "Siirrä uusi avatar",
                 "discussions_link": "=> core.ref.discussions",
-                "in_discussion_text": "",
-                "joined_date_text": "",
-                "online_text": "",
-                "posts_empty_text": "",
+                "in_discussion_text": "{discussion}",
+                "joined_date_text": "Liittyi {ago}",
+                "online_text": "Paikalla",
+                "posts_empty_text": "Näyttää siltä, että täällä ei ole viestejä.",
                 "posts_link": "=> core.ref.posts",
                 "posts_load_more_button": "=> core.ref.load_more",
                 "settings_link": "=> core.ref.settings"
@@ -432,33 +432,33 @@
             "user_controls": {
                 "button": "",
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "",
-                "delete_error_message": "",
-                "delete_success_message": "",
+                "delete_confirmation": "Haluatko varmasti poistaa tämän käyttäjän? Käyttäjän viestejä EI poisteta.",
+                "delete_error_message": "Käyttäjän <i>{username} ({email})</i> poisto epäonnistui",
+                "delete_success_message": "Käyttäjä <i>{username} ({email})</i> poistettiin",
                 "edit_button": "=> core.ref.edit",
                 "toggle_dropdown_accessible_label": ""
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
-                "resend_button": "",
-                "sent_message": ""
+                "resend_button": "Lähetä vahvistussähköposti uudelleen",
+                "sent_message": "Lähetetty"
             }
         },
         "lib": {
             "badge": {
-                "hidden_tooltip": ""
+                "hidden_tooltip": "Piilotettu"
             },
             "dropdown": {
                 "toggle_dropdown_accessible_label": ""
             },
             "edit_user": {
-                "activate_button": "",
+                "activate_button": "Aktivoi käyttäjä",
                 "email_heading": "=> core.ref.email",
                 "email_label": "=> core.ref.email",
-                "groups_heading": "",
+                "groups_heading": "Ryhmät",
                 "password_heading": "=> core.ref.password",
                 "password_label": "=> core.ref.password",
-                "set_password_label": "",
+                "set_password_label": "Aseta uusi salasana",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
@@ -466,37 +466,37 @@
             },
             "error": {
                 "dependent_extensions_message": "",
-                "generic_message": "",
+                "generic_message": "Hups! Jotain meni pieleen. Päivitä sivu ja yritä uudelleen.",
                 "missing_dependencies_message": "",
-                "not_found_message": "",
-                "permission_denied_message": "",
-                "rate_limit_exceeded_message": ""
+                "not_found_message": "Pyydettyä resurssia ei löytynyt.",
+                "permission_denied_message": "Sinulla ei ole oikeuksia tehdä sitä.",
+                "rate_limit_exceeded_message": "Toimit hieman liian nopeasti. Yritä uudelleen muutaman sekunnin kuluttua."
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
             },
             "number_suffix": {
-                "kilo_text": "",
-                "mega_text": ""
+                "kilo_text": "K",
+                "mega_text": "M"
             },
             "series": {
-                "glue_text": "",
-                "three_text": "",
-                "two_text": ""
+                "glue_text": ", ",
+                "three_text": "{first}, {second} ja {third}",
+                "two_text": "{first} ja {second}"
             },
             "username": {
-                "deleted_text": ""
+                "deleted_text": "[poistettu]"
             }
         },
         "views": {
             "confirm_email": {
                 "submit_button": "=> core.ref.confirm_email",
-                "text": "",
+                "text": "Klikkaa alla olevaa painiketta vahvistaaksesi tilisi sähköpostiosoitteen.",
                 "title": "=> core.ref.confirm_email"
             },
             "content": {
-                "javascript_disabled_message": "",
-                "load_error_message": "",
+                "javascript_disabled_message": "Tämä foorumi toimii parhaiten moderneilla selaimilla, jossa on JavaScript sallittu.",
+                "load_error_message": "Jotain meni pieleen sivun täysversiota ladatessa. Yritä päivittää sivu uudelleen korjataksesi virheen.",
                 "loading_text": "=> core.ref.loading"
             },
             "discussion": {
@@ -504,14 +504,14 @@
                 "previous_page_button": "=> core.ref.previous_page"
             },
             "error": {
-                "csrf_token_mismatch": "",
-                "csrf_token_mismatch_return_link": "",
-                "invalid_confirmation_token": "",
-                "not_authenticated": "",
-                "not_found": "",
-                "not_found_return_link": "",
-                "permission_denied": "",
-                "unknown": ""
+                "csrf_token_mismatch": "Olet ollat inaktiivinen liian pitkään.",
+                "csrf_token_mismatch_return_link": "Mene takaisin yrittääksesi uudelleen",
+                "invalid_confirmation_token": "Vahvistuslinkki on jo käytetty tai on virheellinen.",
+                "not_authenticated": "Sinulla ei ole oikeuksia tälle sivulle. Yritä uudelleen, kun olet kirjautunut sisään.",
+                "not_found": "Pyydettyä sivua ei löydy.",
+                "not_found_return_link": "Palaa takaisin {forum}",
+                "permission_denied": "Sinulla ei ole oikeuksia tälle sivulle.",
+                "unknown": "Virhe tapahtui tätä sivua ladatessa."
             },
             "index": {
                 "all_discussions_heading": "=> core.ref.all_discussions",
@@ -520,92 +520,92 @@
             },
             "log_out": {
                 "log_out_button": "=> core.ref.log_out",
-                "log_out_confirmation": "",
+                "log_out_confirmation": "Haluatko varmasti kirjautua ulos {forum}?",
                 "title": "=> core.ref.log_out"
             },
             "reset_password": {
-                "confirm_password_label": "",
-                "new_password_label": "",
+                "confirm_password_label": "Vahvista uusi salasana",
+                "new_password_label": "Uusi salasana",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
             }
         },
         "api": {
-            "invalid_username_message": ""
+            "invalid_username_message": "Käyttäjätunnus voi sisältää vai kirjaimia, numeroita ja viivoja."
         },
         "email": {
             "activate_account": {
-                "subject": "",
-                "body": ""
+                "subject": "Aktivoi tilisi",
+                "body": "Hei {username}!\n\nJoku (toivottavasti sinä) rekisteröityi {forum} tällä sähköpostiosoitteella.\n\nJos se olit sinä niin klikkaa alla olevaa linkkiä aktivoidaksesi tilisi:\n{url}\n\nJos sinä et rekisteröitynyt ole hyvä ja poista tämä sähköposti.\n"
             },
             "confirm_email": {
-                "subject": "",
-                "body": ""
+                "subject": "Vahvista uusi sähköpostiosoitteesi",
+                "body": "Hei {username}!\n\nJoku (toivottavasti sinä!) vaihtoi sähköpostiosoitteen {forum} täksi.\n\nJos se olit sinä niin vahvista sähköpostiosoite alla olevalla linkillä:\n{url}\n\nJos se et ollut sinä niin poista tämä sähköposti.\n"
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": ""
+                "body": "Hei {username}!\n\nJoku (toivottavasti sinä!) pyysi salasanan nollausta  {forum}.\n\nJos se olit sinä niin nollaa salasana alla olevan linkin kautta:\n{url}\n\nJos et halua vaihtaa salasanaa niin poista tämä sähköposti niin mitään ei tapahdu.\n"
             },
             "send_test": {
-                "subject": "",
-                "body": ""
+                "subject": "Flarum foorumin sähköpostitesti",
+                "body": "Hei {username}!\n\nTämä on testiviesti, jotta näet, että toimiiko Flarum foorumin sähköpostiasetukset oikein.\n\nJos sinä teit tämän niin asetukset on oikein!\n\nJos sinä et tehnyt tätä niin voit poistaa tämän viestin.\n"
             }
         },
         "ref": {
-            "all_discussions": "",
-            "change_email": "",
-            "change_password": "",
-            "color": "",
-            "confirm_password": "",
-            "confirm_email": "",
-            "confirmation_email_sent": "",
+            "all_discussions": "Kaikki keskustelut",
+            "change_email": "Vaihda sähköpostiosoite",
+            "change_password": "Vaihda salasana",
+            "color": "Väri",
+            "confirm_password": "Vahvista salasana",
+            "confirm_email": "Vahvista sähköpostiosoite",
+            "confirmation_email_sent": "Lähetimme vahvistusviesti osoitteeseen {email}. Mikäli viestiä ei näy niin tarkista roskapostikansio.",
             "custom_footer_text": "",
             "custom_footer_title": "",
             "custom_header_text": "",
             "custom_header_title": "",
-            "delete": "",
-            "delete_forever": "",
-            "discussions": "",
-            "edit": "",
-            "edit_user": "",
-            "email": "",
-            "icon": "",
+            "delete": "Poista",
+            "delete_forever": "Poista pysyvästi",
+            "discussions": "Keskustelut",
+            "edit": "Muokkaa",
+            "edit_user": "Muokkaa käyttäjää",
+            "email": "Sähköpostiosoite",
+            "icon": "Ikoni",
             "icon_text": "",
-            "load_more": "",
-            "loading": "",
-            "log_in": "",
-            "log_out": "",
-            "mark_all_as_read": "",
-            "next_page": "",
-            "notifications": "",
-            "okay": "",
-            "password": "",
-            "posts": "",
-            "previous_page": "",
-            "remove": "",
-            "rename": "",
-            "reply": "",
-            "reset_your_password": "",
-            "restore": "",
-            "save_changes": "",
-            "settings": "",
-            "sign_up": "",
-            "some_others": "",
+            "load_more": "Lataa lisää",
+            "loading": "Ladataan...",
+            "log_in": "Kirjaudu sisään",
+            "log_out": "Kirjaudu ulos",
+            "mark_all_as_read": "Merkitse kaikki luetuksi",
+            "next_page": "Seuraava sivu",
+            "notifications": "Ilmoitukset",
+            "okay": "OK",
+            "password": "Salasana",
+            "posts": "Viestit",
+            "previous_page": "Edellinen sivu",
+            "remove": "Poista",
+            "rename": "Uudelleennimeä",
+            "reply": "Vastaa",
+            "reset_your_password": "Nollaa salasanasi",
+            "restore": "Palauta",
+            "save_changes": "Tallenna muutokset",
+            "settings": "Asetukset",
+            "sign_up": "Rekisteröidy",
+            "some_others": "{count, plural, yksi {# other} other {# others}}",
             "start_a_discussion": "Aloita keskustelu",
-            "username": "",
-            "users": "",
-            "view": "",
-            "write_a_reply": "",
-            "you": ""
+            "username": "Käyttäjätunnus",
+            "users": "Käyttäjät",
+            "view": "Näytä",
+            "write_a_reply": "Kirjoita vastaus...",
+            "you": "Sinä"
         },
         "group": {
-            "admin": "",
-            "admins": "",
-            "guest": "",
-            "guests": "",
-            "member": "",
-            "members": "",
-            "mod": "",
+            "admin": "Ylläpitäjä",
+            "admins": "Ylläpito",
+            "guest": "Vieras",
+            "guests": "Vieraat",
+            "member": "Jäsen",
+            "members": "Jäsenet",
+            "mod": "Moderaattori",
             "mods": "Moderaattorit"
         }
     }
