@@ -2,16 +2,16 @@
     "flarum-pusher": {
         "admin": {
             "pusher_settings": {
-                "app_cluster_label": "",
-                "app_id_label": "",
-                "app_key_label": "",
-                "app_secret_label": "",
-                "title": ""
+                "app_cluster_label": "Klusteri (Cluster)",
+                "app_id_label": "Sovellus ID (App ID)",
+                "app_key_label": "Sovellusavain (App Key)",
+                "app_secret_label": "Sovellus salaisuus (App Secret)",
+                "title": "Pusherin asetukset"
             }
         },
         "forum": {
             "discussion_list": {
-                "show_updates_text": ""
+                "show_updates_text": "{count, plural, one {Näytä # päivitetty keskustelu} other {Näytä # päivitetyt keskustelut}}"
             }
         }
     }
