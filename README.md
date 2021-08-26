@@ -521,6 +521,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`v17development-blog`](https://weblate.rob006.net/projects/flarum/v17development-blog) | [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog) |
 | [`v17development-seo`](https://weblate.rob006.net/projects/flarum/v17development-seo) | [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo) |
 | [`v17development-user-badges`](https://weblate.rob006.net/projects/flarum/v17development-user-badges) | [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges) |
+| [`webbinaro-calendar`](https://weblate.rob006.net/projects/flarum/webbinaro-calendar) | [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar) |
 | [`zerosonesfun-expired-posts`](https://weblate.rob006.net/projects/flarum/zerosonesfun-expired-posts) | [`zerosonesfun/expired-posts`](https://github.com/zerosonesfun/expired-posts) |
 
 <!-- various-extensions-list-stop -->

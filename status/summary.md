@@ -250,6 +250,7 @@
 | [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/v17development-blog/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/v17development-blog/) |
 | [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/v17development-seo/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/v17development-seo/) |
 | [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/v17development-user-badges/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/v17development-user-badges/) |
+| [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/webbinaro-calendar/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/webbinaro-calendar/) |
 | [`zerosonesfun/expired-posts`](https://github.com/zerosonesfun/expired-posts) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/zerosonesfun-expired-posts/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/zerosonesfun-expired-posts/) |
 
 <!-- various-extensions-list-stop -->
