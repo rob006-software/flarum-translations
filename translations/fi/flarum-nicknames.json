@@ -2,34 +2,34 @@
     "flarum-nicknames": {
         "admin": {
             "permissions": {
-                "edit_own_nickname_label": ""
+                "edit_own_nickname_label": "Muokkaa omaa nimimerkkiä"
             },
             "settings": {
-                "max_label": "",
-                "min_label": "",
-                "regex_label": "",
-                "unique_label": ""
+                "max_label": "Nimimerkin maksimi pituus",
+                "min_label": "Nimimerkin minimi pituus",
+                "regex_label": "Säännöllinen lauseke validointiin",
+                "unique_label": "Vaadi yksilölliset nimimerkit?"
             },
-            "wrong_driver": ""
+            "wrong_driver": "Sinun täytyy valita \"nimimerkki\" näyttönimen ajuriksi <a><strong>Yleiset asetukset sivulla</strong></a> jotta tämä lisäosa toimii."
         },
         "api": {
-            "invalid_nickname_message": ""
+            "invalid_nickname_message": "Nimimerkki on virheellinen. Ota yhteys ylläpitoon jos haluat lisätietoa hyväksytyistä nimimerkeistä."
         },
         "forum": {
             "change_nickname": {
-                "submit_button": "",
-                "title": ""
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> flarum-nicknames.ref.change_nickname"
             },
             "edit_user": {
-                "nicknames_heading": "",
-                "nicknames_text": ""
+                "nicknames_heading": "=> flarum-nicknames.ref.change_nickname",
+                "nicknames_text": "Nimimerkki"
             },
             "settings": {
-                "change_nickname_button": ""
+                "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
             }
         },
         "ref": {
-            "change_nickname": ""
+            "change_nickname": "Vaihda nimimerkki"
         }
     }
 }
