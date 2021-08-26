@@ -119,7 +119,7 @@
                 "uninstall_button": "Poista asennus"
             },
             "header": {
-                "get_help": "Pyydä apua",
+                "get_help": "Apua",
                 "log_out_button": "=> core.ref.log_out"
             },
             "loading": {
@@ -132,7 +132,7 @@
                 "basics_title": "=> core.admin.basics.description",
                 "categories": {
                     "authentication": "Autentikointi",
-                    "core": "",
+                    "core": "Foorumin asetukset",
                     "discussion": "Keskustelu",
                     "feature": "Ominaisuudet",
                     "formatting": "Muotoilu",
@@ -178,14 +178,14 @@
                 "title": "Oikeudet",
                 "view_forum_label": "Nähdä foorumin (keskustelut ja jäsenet)",
                 "view_hidden_groups_label": "Nähdä piilotetut ryhmämerkit",
-                "view_last_seen_at_label": "",
-                "view_post_ips_label": ""
+                "view_last_seen_at_label": "Näytä aina milloin viimeksi käyttäjä ollut paikalla",
+                "view_post_ips_label": "Näytä viestin IP osoite"
             },
             "permissions_controls": {
-                "allow_indefinitely_button": "",
-                "allow_some_minutes_button": "",
-                "allow_ten_minutes_button": "",
-                "allow_until_reply_button": "",
+                "allow_indefinitely_button": "Ikuisesti",
+                "allow_some_minutes_button": "{count, plural, one {yhdeksi minuutiksi} other {# minuutiksi}}",
+                "allow_ten_minutes_button": "10 minuutiksi",
+                "allow_until_reply_button": "Seuraavaan vastaukseen asti",
                 "everyone_button": "Kaikki",
                 "members_button": "=> core.group.members",
                 "signup_closed_button": "Suljettu",
@@ -200,7 +200,7 @@
                 "upload_button": "Valitse kuva..."
             },
             "users": {
-                "description": "",
+                "description": "Sivutettu lista foorumisi käyttäjistä.",
                 "grid": {
                     "columns": {
                         "edit_user": {
@@ -214,7 +214,7 @@
                             "visibility_show": "Näytä sähköpostiosoite"
                         },
                         "group_badges": {
-                            "no_badges": "",
+                            "no_badges": "Ei mitään",
                             "title": "Ryhmät"
                         },
                         "join_time": {
@@ -224,19 +224,19 @@
                             "title": "ID"
                         },
                         "username": {
-                            "profile_link_tooltip": "",
+                            "profile_link_tooltip": "Vieraile {username} profiilissa",
                             "title": "=> core.ref.username"
                         }
                     },
-                    "invalid_column_content": ""
+                    "invalid_column_content": "Virheellinen"
                 },
                 "pagination": {
-                    "back_button": "",
-                    "next_button": "",
-                    "page_counter": ""
+                    "back_button": "Edellinen sivu",
+                    "next_button": "Seuraava sivu",
+                    "page_counter": "Sivu {current} / {total}"
                 },
                 "title": "=> core.ref.users",
-                "total_users": ""
+                "total_users": "Käyttäjiä yhteensä: {count}"
             }
         },
         "forum": {
@@ -250,7 +250,7 @@
             },
             "change_password": {
                 "send_button": "Lähetä salasanan nollauksen sähköposti",
-                "text": "Klikkaa alla olevaa painiketta ja tarkasti sähköpostisi vaihtaaksesi salasanasi.",
+                "text": "Klikkaa alla olevaa painiketta ja tarkasta sähköpostisi vaihtaaksesi salasanasi.",
                 "title": "=> core.ref.change_password"
             },
             "composer": {
@@ -291,7 +291,7 @@
                 "rename_button": "=> core.ref.rename",
                 "reply_button": "=> core.ref.reply",
                 "restore_button": "=> core.ref.restore",
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "Vaihda keskustelun asetuksia alasvetovalikossa"
             },
             "discussion_list": {
                 "empty_text": "Näyttää siltä, että täällä ei ole keskustelua.",
@@ -317,7 +317,7 @@
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Profiili",
                 "search_placeholder": "Etsi foorumilta",
-                "session_dropdown_accessible_label": "",
+                "session_dropdown_accessible_label": "Vaihda istunnon asetuksien alasvetovalikko",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
             },
@@ -329,14 +329,14 @@
                 "meta_title_text": "=> core.ref.all_discussions",
                 "refresh_tooltip": "Päivitä",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
-                "toggle_sidenav_dropdown_accessible_label": ""
+                "toggle_sidenav_dropdown_accessible_label": "Vaihda valikon alasvetovalikkoa"
             },
             "index_sort": {
                 "latest_button": "Viimeisin",
                 "newest_button": "Uusin",
                 "oldest_button": "Vanhin",
-                "relevance_button": "",
-                "toggle_dropdown_accessible_label": "",
+                "relevance_button": "Relevanssi",
+                "toggle_dropdown_accessible_label": "Vaihda keskustelulistan järjestystä",
                 "top_button": "Parhaat"
             },
             "log_in": {
@@ -370,7 +370,7 @@
                 "edit_button": "=> core.ref.edit",
                 "hide_confirmation": "Haluatko varmasti poistaa tämän viestin?",
                 "restore_button": "=> core.ref.restore",
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "Vaihda viestin toimien valikkoa"
             },
             "post_scrubber": {
                 "now_link": "Nyt",
@@ -430,13 +430,13 @@
                 "settings_link": "=> core.ref.settings"
             },
             "user_controls": {
-                "button": "",
+                "button": "Toiminnot",
                 "delete_button": "=> core.ref.delete",
                 "delete_confirmation": "Haluatko varmasti poistaa tämän käyttäjän? Käyttäjän viestejä EI poisteta.",
                 "delete_error_message": "Käyttäjän <i>{username} ({email})</i> poisto epäonnistui",
                 "delete_success_message": "Käyttäjä <i>{username} ({email})</i> poistettiin",
                 "edit_button": "=> core.ref.edit",
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "Vaihda käyttäjätoimien valikkoa"
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
@@ -449,7 +449,7 @@
                 "hidden_tooltip": "Piilotettu"
             },
             "dropdown": {
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "Alasvetovalikko"
             },
             "edit_user": {
                 "activate_button": "Aktivoi käyttäjä",
@@ -465,9 +465,9 @@
                 "username_label": "=> core.ref.username"
             },
             "error": {
-                "dependent_extensions_message": "",
+                "dependent_extensions_message": "{extension} lisäosaa ei voida ottaa pois käytöstä ennen kuin seuraavat lisäosat on poistettu käytöstä: {extensions}",
                 "generic_message": "Hups! Jotain meni pieleen. Päivitä sivu ja yritä uudelleen.",
-                "missing_dependencies_message": "",
+                "missing_dependencies_message": "Lisäosaa {extension} ei voida ottaa käyttöön ennen kuin seuraavat lisäosat on otettu käyttöön: {extensions}",
                 "not_found_message": "Pyydettyä resurssia ei löytynyt.",
                 "permission_denied_message": "Sinulla ei ole oikeuksia tehdä sitä.",
                 "rate_limit_exceeded_message": "Toimit hieman liian nopeasti. Yritä uudelleen muutaman sekunnin kuluttua."
@@ -559,10 +559,10 @@
             "confirm_password": "Vahvista salasana",
             "confirm_email": "Vahvista sähköpostiosoite",
             "confirmation_email_sent": "Lähetimme vahvistusviesti osoitteeseen {email}. Mikäli viestiä ei näy niin tarkista roskapostikansio.",
-            "custom_footer_text": "",
-            "custom_footer_title": "",
-            "custom_header_text": "",
-            "custom_header_title": "",
+            "custom_footer_text": "Lisää HTML koodia näytettäväksi sivun alareunaan.",
+            "custom_footer_title": "Muokkaa mukautettua alaosaa",
+            "custom_header_text": "Lisää HTML koodia näytettäväksi sivun yläreunaan Flarumin oman yläosan yläpuolelle.",
+            "custom_header_title": "Muokkaa mukautettua yläosaa",
             "delete": "Poista",
             "delete_forever": "Poista pysyvästi",
             "discussions": "Keskustelut",
@@ -570,7 +570,7 @@
             "edit_user": "Muokkaa käyttäjää",
             "email": "Sähköposti",
             "icon": "Ikoni",
-            "icon_text": "",
+            "icon_text": "Syötä minkä tahansa <a>FontAwesome</a> ikonin luokka (class), <em>sisällyttäen</em> <code>fas fa-</code> etuliitteen.",
             "load_more": "Lataa lisää",
             "loading": "Ladataan...",
             "log_in": "Kirjaudu sisään",
