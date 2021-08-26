@@ -1,21 +1,21 @@
 {
     "flarum-ext-welcomebox": {
         "forum": {
-            "wback": "",
-            "npost": "",
-            "discussion": "",
-            "welcomeguest": "",
-            "notregistered": "",
-            "goToProfile": "",
-            "SettingsLink": "",
-            "tooltipProfile": "",
-            "tooltipMentions": "",
-            "tooltipDisclist": ""
+            "wback": "Tervetuloa takaisin!",
+            "npost": "=> core.ref.posts",
+            "discussion": "=> core.ref.discussions",
+            "welcomeguest": "Tervetuloa vieras",
+            "notregistered": "Ette ole rekisteröityneet tälle foorumille.",
+            "goToProfile": "Profiili",
+            "SettingsLink": "Asetukset",
+            "tooltipProfile": "Profiili",
+            "tooltipMentions": "Maininnat",
+            "tooltipDisclist": "Keskustelulista"
         },
         "admin": {
-            "enablepostbox": "",
-            "img": "",
-            "img-help": ""
+            "enablepostbox": "Näytä tervetulolaatikko vieraille",
+            "img": "Kuvan osoite (vieraslaatikko)",
+            "img-help": "syötä tähän kuvan osoite vieraslaatikolle"
         }
     }
 }
