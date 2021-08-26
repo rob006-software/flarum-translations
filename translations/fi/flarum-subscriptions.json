@@ -2,49 +2,49 @@
     "flarum-subscriptions": {
         "forum": {
             "badge": {
-                "following_tooltip": "",
-                "ignoring_tooltip": ""
+                "following_tooltip": "=> flarum-subscriptions.ref.following",
+                "ignoring_tooltip": "=> flarum-subscriptions.ref.ignoring"
             },
             "discussion_controls": {
-                "follow_button": "",
-                "unfollow_button": "",
-                "unignore_button": ""
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "unfollow_button": "Lopeta seuraaminen",
+                "unignore_button": "Lopeta huomiotta jättäminen"
             },
             "following": {
-                "meta_title_text": ""
+                "meta_title_text": "=> flarum-subscriptions.ref.following"
             },
             "index": {
-                "following_link": ""
+                "following_link": "=> flarum-subscriptions.ref.following"
             },
             "notifications": {
-                "new_post_text": ""
+                "new_post_text": "{username} kirjoitti"
             },
             "settings": {
-                "follow_after_reply_label": "",
-                "notify_new_post_label": ""
+                "follow_after_reply_label": "Automaattisesti seuraa keskusteluita joihin osallistun",
+                "notify_new_post_label": "Joku kirjoitti keskusteluun, jota seuraan"
             },
             "sub_controls": {
-                "follow_button": "",
-                "following_button": "",
-                "following_text": "",
-                "ignoring_button": "",
-                "ignoring_text": "",
-                "not_following_button": "",
-                "not_following_text": "",
-                "notify_alert_tooltip": "",
-                "notify_email_tooltip": ""
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "following_button": "=> flarum-subscriptions.ref.following",
+                "following_text": "Ilmoita kaikista vastauksista.",
+                "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
+                "ignoring_text": "Älä ilmoita koskaan. Piilota keskustelulistalta.",
+                "not_following_button": "Ei seurata",
+                "not_following_text": "Ilmoita vain, kun minut @mainitaan.",
+                "notify_alert_tooltip": "Saa foorumin ilmoitus, kun on uusi viestejä",
+                "notify_email_tooltip": "Saa sähköposti, kun on uusia viestejä"
             }
         },
         "email": {
             "new_post": {
-                "subject": "",
-                "body": ""
+                "subject": "[Uusi viesti] {title}",
+                "body": "Hei {recipient_display_name}!\n\n{poster_display_name} vastasi keskusteluun jota seuraat: {title}.\n\nKlikkaa alla olevaa linkkiä nähdäksesi uuden toiminnan:\n{url}\n\n---\n\n{content}\n\n---\n\nEt saa muita ilmoituksia tästä keskustelusta ennen kuin olet ajan tasalla.\n"
             }
         },
         "ref": {
-            "follow": "",
-            "following": "",
-            "ignoring": ""
+            "follow": "Seuraa",
+            "following": "Seuratut",
+            "ignoring": "Ei huomioida"
         }
     }
 }
