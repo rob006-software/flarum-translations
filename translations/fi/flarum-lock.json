@@ -2,26 +2,26 @@
     "flarum-lock": {
         "admin": {
             "permissions": {
-                "lock_discussions_label": ""
+                "lock_discussions_label": "Lukitse keskustelut"
             }
         },
         "forum": {
             "badge": {
-                "locked_tooltip": ""
+                "locked_tooltip": "Lukittu"
             },
             "discussion_controls": {
-                "lock_button": "",
-                "unlock_button": ""
+                "lock_button": "Lukko",
+                "unlock_button": "Poista lukitus"
             },
             "notifications": {
-                "discussion_locked_text": ""
+                "discussion_locked_text": "{username} lukitsi"
             },
             "post_stream": {
-                "discussion_locked_text": "",
-                "discussion_unlocked_text": ""
+                "discussion_locked_text": "{username} lukitsi keskustelun.",
+                "discussion_unlocked_text": "{username} poisti keskustelun lukituksen."
             },
             "settings": {
-                "notify_discussion_locked_label": ""
+                "notify_discussion_locked_label": "Joku lukitsee keskustelun, jonka aloitin"
             }
         }
     }
