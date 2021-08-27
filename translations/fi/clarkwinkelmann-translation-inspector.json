@@ -2,27 +2,27 @@
     "clarkwinkelmann-translation-inspector": {
         "admin": {
             "permissions": {
-                "inspect": ""
+                "inspect": "Tarkastele käännöksiä"
             }
         },
         "lib": {
             "modal": {
-                "title": "",
-                "key": "",
-                "original": "",
-                "actual": "",
-                "extension": "",
-                "extension-unknown": "",
-                "path": "",
-                "edit": ""
+                "title": "Käännösten tarkastelu",
+                "key": "Käännöksen tunniste",
+                "original": "Alkuperäinen englanninkielinen käännös",
+                "actual": "Käännös nykyisellä kielellä",
+                "extension": "Määritti",
+                "extension-unknown": "Tuntematon lisäosa",
+                "path": "Määritetty",
+                "edit": "Muokkaa GitHubissa"
             },
             "tooltip": {
-                "title": "",
-                "description": "",
-                "cancel": ""
+                "title": "Tarkastele käännöstä",
+                "description": "Klikkaa käännöstä mitä haluat tarkastella",
+                "cancel": "Peruuta"
             },
             "nav": {
-                "inspect": ""
+                "inspect": "Tarkastele käännöksiä"
             }
         }
     }
