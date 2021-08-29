@@ -68,7 +68,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-markdown-tables/v1.2.1/resources/locale/en.yml',
 	],
 	'askvortsov-moderator-warnings' => [
-		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-moderator-warnings/v0.6.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-moderator-warnings/v0.6.1/resources/locale/en.yml',
 	],
 	'askvortsov-pwa' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-pwa/v3.0.3/resources/locale/en.yml',
