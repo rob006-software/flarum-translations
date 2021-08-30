@@ -3,104 +3,104 @@
         "forum": {
             "badges": {
                 "is_private": {
-                    "tooltip": ""
+                    "tooltip": "Yksityinen keskustelu"
                 }
             },
             "buttons": {
-                "add_recipients": "",
-                "submit": "",
-                "edit_recipients": "",
-                "send_pd": "",
-                "cancel": "",
-                "remove_from_discussion": ""
+                "add_recipients": "Vastaanottajat",
+                "submit": "OK",
+                "edit_recipients": "Muokkaa vastaanottajia",
+                "send_pd": "Lähetä käyttäjälle {username} viesti",
+                "cancel": "Peruuta",
+                "remove_from_discussion": "Poistu tästä yksityisestä keskustelusta"
             },
             "composer_private_discussion": {
-                "submit_button": "",
-                "title_placeholder": ""
+                "submit_button": "Lähetä yksityinen keskustelu",
+                "title_placeholder": "Yksityisen keskustelun otsikko"
             },
             "labels": {
-                "recipients": ""
+                "recipients": "{count, plural, one {{count} vastaanottaja} other {{count} vastaanottajaa}}"
             },
             "nav": {
-                "start_button": "",
-                "nav_item": ""
+                "start_button": "Keskustele yksityisesti",
+                "nav_item": "Yksityiset keskustelut"
             },
             "input": {
-                "search_recipients": ""
+                "search_recipients": "Hae vastaanottajaa kirjoittamalla kolme ensimmäistä merkkiä..."
             },
             "search": {
                 "headings": {
-                    "groups": ""
+                    "groups": "Oikeusryhmät"
                 }
             },
             "modal": {
                 "titles": {
-                    "update_recipients": "",
-                    "add_recipients": ""
+                    "update_recipients": "Päivitä {title} vastaanottajia",
+                    "add_recipients": "Lisää vastaanottajia keskusteluun"
                 },
                 "labels": {
-                    "selected_users": "",
-                    "search_field": ""
+                    "selected_users": "Valitut käyttäjät",
+                    "search_field": "Hae käyttäjää"
                 },
                 "help": {
-                    "add_recipients": "",
-                    "update_recipients": "",
-                    "selected_users": "",
-                    "click_user_to_remove_tooltip": ""
+                    "add_recipients": "Tämän keskustelun näkee vain ne käyttäjät, jotka valitset. Vähintään yksi vastaanottaja (muu kuin sinä itse) on oltava.",
+                    "update_recipients": "Tämä keskustelu näkyy vain käyttäjille, jotka valitse täällä.",
+                    "selected_users": "Klikkaa käyttäjännimeä poistaaksesi hänet.",
+                    "click_user_to_remove_tooltip": "Klikkaa poistaaksesi"
                 }
             },
             "post": {
                 "recipients_modified": {
-                    "added_and_removed": "",
-                    "added": "",
-                    "removed": "",
-                    "removed_self": ""
+                    "added_and_removed": "{username} lisäsi vastaanottajan {added} ja poisti {removed}.",
+                    "added": "{username} lisäsi vastaanottajia {added}.",
+                    "removed": "{username} poisti vastaanottajat {removed}.",
+                    "removed_self": "{username} poistui yksityisestä keskustelusta."
                 }
             },
             "user": {
                 "settings": {
-                    "block_pd": ""
+                    "block_pd": "Estä yksityiset keskustelut"
                 },
-                "byobu_link": "",
-                "dropdown_label": ""
+                "byobu_link": "Yksityiset keskustelut",
+                "dropdown_label": "Yksityiset keskustelut"
             },
             "notifications": {
-                "pd_label": "",
-                "pd_reply_label": "",
-                "pd_reply_text": "",
-                "pd_text": "",
-                "pd_user_left_label": "",
-                "pd_user_left_text": "",
-                "pd_added_text": "",
-                "pd_added_label": ""
+                "pd_label": "Joku lisäsi minut uuteen yksityiseen keskusteluun",
+                "pd_reply_label": "Joku lähetti viestin yksityiseen keskusteluun, jonka jäsen olen",
+                "pd_reply_text": "{username} lähetti viestin yksityiseen keskusteluun, jossa olet osallisena",
+                "pd_text": "{username} aloitti uuden yksityisen keskustelun kanssasi",
+                "pd_user_left_label": "Vastaanottaja lähtee yksityisestä keskustelusta, jonka osallisena olen",
+                "pd_user_left_text": "{username} poistui yksityisestä keskustelusta",
+                "pd_added_text": "{username} lisäsi sinut yksityiseen keskusteluun",
+                "pd_added_label": "Joku lisää minut olemassaolevaan yksityiseen keskusteluun"
             }
         },
         "admin": {
             "permission": {
-                "create_private_discussions_with_users": "",
-                "create_private_discussions_with_groups": "",
-                "create_private_discussions_with_blocking_users": "",
-                "edit_user_recipients": "",
-                "edit_group_recipients": "",
-                "view_private_discussions-when-flagged": ""
+                "create_private_discussions_with_users": "Luo yksityinen keskustelu käyttäjien kesken",
+                "create_private_discussions_with_groups": "Luo yksityinen keskustelu ryhmän kesken",
+                "create_private_discussions_with_blocking_users": "Luo yksityinen keskustelu käyttäjien kanssa, jotka estävät sen",
+                "edit_user_recipients": "Muokkaa käyttäjiä, jotka osallistuu yksityiseen keskusteluihin",
+                "edit_group_recipients": "Muokkaa ryhmiä, jotka osallistuu yksityiseen keskusteluihin",
+                "view_private_discussions-when-flagged": "Nähdä muiden yksityiset keskustelut jos raportoitu"
             },
             "settings": {
-                "badge-icon": "",
-                "post-event-icon": ""
+                "badge-icon": "Byobu keskusteluikoni",
+                "post-event-icon": "Byobu viestitapahtumat"
             }
         },
         "email": {
             "subject": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": ""
+                "private_discussion_created": "[Private Discussion] {display_name} aloitti uuden yksityisen keskustelun kanssasi",
+                "private_discussion_replied": "[Private Discussion] {display_name} lähetti viestin yksityiseen keskusteluun",
+                "recipient_removed": "[Private Discussion] {display_name} poistui keskustelusta",
+                "private_discussion_added": "[Private Discussion] {display_name} lisäsi sinut yksityiseen keskusteluun"
             },
             "body": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": ""
+                "private_discussion_created": "Hei {recipient_display_name},\n\n{actor_display_name} aloittu uuden yksityisen keskustelun kanssasi: {discussion_title}.\n\nKatso se täällä:\n{discussion_url}\n\nSinun täytyy kirjautua ensin, jotta pääset linkillä eteenpäin.\n",
+                "private_discussion_replied": "Hei {recipient_display_name},\n\n{actor_display_name} lähetti viestin yksityiseen keskusteluun jossa olet osallisena: {discussion_title}.\n\nKatso se täällä:\n{post_url}\n\nSinun täytyy kirjautua ensin, jotta pääset linkillä eteenpäin.\n",
+                "recipient_removed": "Hey {recipient_display_name},\n\n{actor_display_name} lähti yksityisestä keskustelusta: {discussion_title}. Hän ei enää näe sen sisältöä.\n\nKatso se täällä:\n{discussion_url}\n\nSinun täytyy kirjautua ensin, jotta pääset linkillä eteenpäin.\n",
+                "private_discussion_added": "Hey {recipient_display_name},\n\n{actor_display_name} lisäsi sinut olemassa olevaan yksityiseen keskusteluun: {discussion_title}.\n\nKatso se täällä:\n{discussion_url}\n\nSinun täytyy kirjautua ensin, jotta pääset linkillä eteenpäin.\n"
             }
         }
     }
