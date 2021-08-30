@@ -1,40 +1,40 @@
 {
     "fof-nightmode": {
         "ref": {
-            "auto": "",
-            "light": "",
-            "dark": ""
+            "auto": "Automaattinen (perustuu selaimen tai laitteen asetuksiin)",
+            "light": "Vaalea teema",
+            "dark": "Tumma teema"
         },
         "admin": {
             "settings": {
                 "modal": {
-                    "default_theme": "",
-                    "default_theme_helper": "",
-                    "theme_auto": "",
-                    "theme_light": "",
-                    "theme_dark": ""
+                    "default_theme": "Foorumin oletusteema",
+                    "default_theme_helper": "Oletusteema asetetaan automaattisesti uusille käyttäjille, vieraille ja niille joilla ei ole asetusta asetettu.",
+                    "theme_auto": "=> fof-nightmode.ref.auto",
+                    "theme_light": "=> fof-nightmode.ref.light",
+                    "theme_dark": "=> fof-nightmode.ref.dark"
                 }
             }
         },
         "forum": {
-            "day": "",
-            "night": "",
+            "day": "=> fof-nightmode.ref.light",
+            "night": "=> fof-nightmode.ref.dark",
             "user": {
                 "settings": {
-                    "heading": "",
-                    "description": "",
-                    "description2": "",
-                    "device_specific_setting_checkbox": "",
-                    "device_specific_setting_checkbox_tooltip": "",
+                    "heading": "Teema",
+                    "description": "Valitse minkä värisen teeman haluat foorumille käyttöön.",
+                    "description2": "Tämä teema linkitetään tiliisi ja se on käytössä, jos et vaihda kytkitä per laite määreeseen.",
+                    "device_specific_setting_checkbox": "Käytä per laite asetusta",
+                    "device_specific_setting_checkbox_tooltip": "Teema valintasi tallennetaan joka laitteeseen erikseen.",
                     "options": {
-                        "auto": "",
-                        "day": "",
-                        "night": ""
+                        "auto": "=> fof-nightmode.ref.auto",
+                        "day": "=> fof-nightmode.ref.light",
+                        "night": "=> fof-nightmode.ref.dark"
                     },
                     "option_descriptions": {
-                        "auto": "",
-                        "day": "",
-                        "night": ""
+                        "auto": "Teemasi asetetaan automaattisesti riippuen selaimesi tai laitteesi asetuksista. Esimerkiksi, jos sinulla on tumma tila päällä iOS laitteella niin foorumi käyttää myös tummaa teemaa.",
+                        "day": "Klassinen kokemus, johon käyttäjät ovat tottuneet. Pidetty ja testattu.",
+                        "night": "Olet hieman yökyöpeli. Tutkit foorumeita yöllä, kun linnut nukkuu ja eläimet saalistaa. Tai sinä vain pidät tummista väreistä!"
                     }
                 }
             }
