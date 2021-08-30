@@ -2,17 +2,17 @@
     "fof-user-bio": {
         "admin": {
             "permission": {
-                "view": "",
-                "editOwn": "",
-                "editAny": ""
+                "view": "Nähdä kuvaus",
+                "editOwn": "Muokata omaa kuvausta",
+                "editAny": "Muokata mitä tahansa kuvausta"
             },
             "setting": {
-                "bioLimit": ""
+                "bioLimit": "Kuvauksen merkkiraja"
             }
         },
         "forum": {
-            "userbioPlaceholder": "",
-            "userbioPlaceholderOtherUser": ""
+            "userbioPlaceholder": "Kirjoita jotain itsestäsi",
+            "userbioPlaceholderOtherUser": "Kirjoita kuvaus käyttäjälle {username}"
         }
     }
 }
