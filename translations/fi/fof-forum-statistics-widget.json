@@ -2,24 +2,24 @@
     "fof-forum-statistics-widget": {
         "forum": {
             "navbar": {
-                "widget_title": "",
-                "discussions_count": "",
-                "posts_count": "",
-                "users_count": "",
-                "latest_member": ""
+                "widget_title": "Foorumin tilastot",
+                "discussions_count": "Keskustelut: {discussionsCount}",
+                "posts_count": "Viestit: {postsCount}",
+                "users_count": "Jäsenet: {usersCount}",
+                "latest_member": "Uusin jäsen: "
             }
         },
         "admin": {
             "settings": {
-                "widget_ignore_private_discussions_label": "",
-                "widget_order_label": "",
-                "widget_helper_text": ""
+                "widget_ignore_private_discussions_label": "Älä huomioi yksityisiä keskusteluita",
+                "widget_order_label": "Vimpaimen järjestys",
+                "widget_helper_text": "Muokkaa tätä asetusta määrittääksesi vimpaimen sijainnin foorumin sivuvalikossa. Mitä isompi numero, sitä korkeammalla vimpain on sivupalkissa (arvo voi olla positiitinen tai negatiivinen)."
             },
             "permissions": {
-                "view_discussions_count_label": "",
-                "view_posts_count_label": "",
-                "view_users_count_label": "",
-                "view_lastest_member_label": ""
+                "view_discussions_count_label": "Nähdä foorumin tilasto vimpaimen keskustelumäärän",
+                "view_posts_count_label": "Nähdä foorumin tilasto vimpaimen viestimäärän",
+                "view_users_count_label": "Nähdä foorumin tilasto vimpaimen käyttäjämäärän",
+                "view_lastest_member_label": "Nähdä foorumin tilasto vimpaimen uusimman jäsenen"
             }
         }
     }
