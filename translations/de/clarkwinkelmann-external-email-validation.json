@@ -2,25 +2,25 @@
     "clarkwinkelmann-external-email-validation": {
         "admin": {
             "settings": {
-                "method": "",
-                "uri": "",
-                "uri-help": "",
-                "body": "",
-                "body-help": "",
-                "headers": "",
-                "headers-help": "",
-                "use-response-status": "",
-                "use-response-status-help": "",
-                "response-success-key": "",
-                "response-success-key-help": "",
-                "default-error-message": "",
-                "default-error-message-help": "",
-                "response-error-key": "",
-                "response-error-key-help": ""
+                "method": "Anfragemethode",
+                "uri": "Anfrage-URI",
+                "uri-help": "Du kannst Shortcodes einfügen, die durch den E-Mail-Wert ersetzt werden sollen, siehe README.",
+                "body": "Anfragekörper",
+                "body-help": "Du kannst Shortcodes einfügen, die durch den E-Mail-Wert ersetzt werden sollen, siehe README.",
+                "headers": "üüüü",
+                "headers-help": "Eine Kopfzeile pro Zeile",
+                "use-response-status": "HTTP-Antwortstatus für Gültigkeitsstatus verwenden",
+                "use-response-status-help": "2xx-Antworten werden als gültig betrachtet. 4xx-Antworten werden als ungültig betrachtet.",
+                "response-success-key": "Pfad zum JSON-Attribut mit gültigem Status",
+                "response-success-key-help": "Pfad im Format <code>key1.key2.key3</code>. Wird mit Laravel <code>Arr::get</code> helper extrahiert. Der Wert wird in einen booleschen Wert umgewandelt. Hat nur Auswirkungen, wenn der HTTP-Status nicht verwendet wird. Eine Ausnahme wird ausgelöst, wenn die Antwort kein gültiges JSON ist.</code>\n",
+                "default-error-message": "Standardfehlermeldung",
+                "default-error-message-help": "Diese Nachricht wird dem Benutzer angezeigt, wenn die E-Mail-Validierung fehlschlägt und keine andere Nachricht gefunden werden kann. Wenn diese Nachricht übersetzt werden muss, lasse das Feld leer und passe die integrierte Standardfehlermeldung mit Linguist an.\n",
+                "response-error-key": "Pfad zum JSON-Attribut mit Fehlermeldung",
+                "response-error-key-help": "Pfad im Format <code>key1.key2.key3</code>. Wird mit Laravel <code>Arr::get</code> helper extrahiert. Die Standardfehlermeldung wird angezeigt, wenn dieser Schlüssel nicht gefunden wird.\n"
             }
         },
         "api": {
-            "email-validation-error": ""
+            "email-validation-error": "Die E-Mail hat die externe Validierung nicht bestanden."
         }
     }
 }
