@@ -59,7 +59,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-checklist/v1.3.1/resources/locale/en.yml',
 	],
 	'askvortsov-discussion-templates' => [
-		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-discussion-templates/v0.8.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-discussion-templates/v0.8.1/resources/locale/en.yml',
 	],
 	'askvortsov-help-tags' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-help-tags/v1.1.0/resources/locale/en.yml',
