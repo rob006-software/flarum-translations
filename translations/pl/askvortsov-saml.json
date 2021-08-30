@@ -9,7 +9,6 @@
                 "idp_metadata_url": "URL z metadanymi dostawcy tożsamości (alternatywa dla XML)",
                 "idp_metadata": "XML z metadanymi dostawcy tożsamości (alternatywa dla URL)",
                 "only_option": "Użyj SAML2 SSO jako jedynej opcji logowania?",
-                "sync_attributes": "Synchronizuj atrybuty (awatar, grupy, opis w profilu oraz pola profilu)? Wymaga rozszerzenia <code>askvortsov/auth-sync</code>.",
                 "nameid_format": "NameID Format",
                 "slo": "",
                 "authn_requests_signed": "",
@@ -20,7 +19,8 @@
                 "want_assertions_signed": "Czy asercje powinny być podpisane?",
                 "want_messages_signed": "Czy wiadomości powinny być podpisane?",
                 "x509_cert": "",
-                "x509_key": ""
+                "x509_key": "",
+                "sync_attributes": "Synchronizuj atrybuty (awatar, grupy, opis w profilu oraz pola profilu)? Wymaga rozszerzenia <code>askvortsov/auth-sync</code>."
             },
             "options": {
                 "nameid_format": {

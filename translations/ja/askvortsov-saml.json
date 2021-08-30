@@ -9,7 +9,6 @@
                 "idp_metadata_url": "認証サービスプロバイダーのメタデータURL（XMLの代わり）",
                 "idp_metadata": "認証サービスプロバイダーメタデータXML（URLではなく）",
                 "only_option": "SAML2 SSO を唯一のログインオプションとして使用しますか？",
-                "sync_attributes": "属性（アバター、グループ、バイオ、およびプロファイル）を同期しますか？ askvortsov/auth-sync 拡張が必要です（http://t.cn/A6hwoQnb）。",
                 "nameid_format": "NameID 形式",
                 "slo": "",
                 "authn_requests_signed": "",
@@ -20,7 +19,8 @@
                 "want_assertions_signed": "",
                 "want_messages_signed": "",
                 "x509_cert": "",
-                "x509_key": ""
+                "x509_key": "",
+                "sync_attributes": "属性（アバター、グループ、バイオ、およびプロファイル）を同期しますか？ askvortsov/auth-sync 拡張が必要です（http://t.cn/A6hwoQnb）。"
             },
             "options": {
                 "nameid_format": {
