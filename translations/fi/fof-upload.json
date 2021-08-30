@@ -2,148 +2,148 @@
     "fof-upload": {
         "admin": {
             "pane": {
-                "title": "",
-                "description": ""
+                "title": "Siirrä",
+                "description": "Määritä siirtopalvelut ja asetukset."
             },
             "help_texts": {
-                "disable-download-logging": "",
-                "disable-hotlink-protection": "",
-                "download_templates": "",
-                "mime_types": "",
-                "resize": "",
-                "client_extension": "",
-                "watermark": "",
-                "s3_compatible_storage": "",
-                "s3_acl": "",
-                "composer_buttons": ""
+                "disable-download-logging": "Ota pois käytöstä jokaisen käyttäjän tekemän siirron lokitus foorumilla. Tämän päällä pito sallii sinun nähdä latausmäärät ja muita tilastoja.\n",
+                "disable-hotlink-protection": "Hotlink suojaus estää latausten avaukset muilta sivuilta. Nykyinen tapa vaatii crsf tunnisteen ja viestin id:n.\n",
+                "download_templates": "Latauspohjat ovat kuinka siirretyt tiedostot näkyy foorumillasi. Esim. esikatselut, napit. Tällä hetkellä saatavilla:\n",
+                "mime_types": "Määritä ohjaukset tässä. Jokainen mime tyyppi regexp lauseke käsittelee siirtoadapteri ja latauspohja.\n",
+                "resize": "Valitse haluatko, että kuvien koko määritetään uudelleen ennen siirtoa. Voit määrittää maksimi leveyden ja korkeuden pikseleissä. Koon muutos säilyttää kuvasuhteen.\n",
+                "client_extension": "Oletuksen siirto valitsee turvalliset päätteet perustuen MIME tyyppiin.\nJotkut tiedostotyypit perustuen ZIP tai binaariseen dataan voi johtaa geneerisen päätteen käyttöön oletetun sijaan.\nTässä voit määrittää pilkuilla erotetun listan päätteistä joita käytetään.\n",
+                "watermark": "Valitse lisätäänkä kuviin vesileima. Vesileima laitetaan muihin, kuin gif tyyppisiin kuviin alla olevien asetusten mukaan.\n",
+                "s3_compatible_storage": "Seuraavat asetukset ovat vaadittuja vain jos käytetään S3 yhteensopivaa tiedostovarastoa. Jos käytät AWS:ssää, voit jättää ne tyhjäksi.\n",
+                "s3_acl": "ACL mikä asetetaan siirrettyyn objektiin (oletus: private). Mahdolliset arvot: https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "composer_buttons": "Oletuksena mediahallinta ja siirto napit ovat näkyvillä. Voit myös valita näytettäväksi vain yhden napin.\n"
             },
             "labels": {
                 "aws-s3": {
-                    "bucket": "",
-                    "key": "",
-                    "region": "",
-                    "secret": "",
-                    "title": "",
-                    "advanced_title": "",
-                    "endpoint": "",
-                    "use_path_style_endpoint": "",
-                    "acl": ""
+                    "bucket": "Ämpäri (bucket)",
+                    "key": "Avain (key)",
+                    "region": "Alue (region)",
+                    "secret": "Salainen avain (secret)",
+                    "title": "AWS S3 asetukset",
+                    "advanced_title": "S3 lisäasetukset",
+                    "endpoint": "Päätepiste (endpoint)",
+                    "use_path_style_endpoint": "Käytä polku tyylistä päätepistettä (Use path style endpoint)",
+                    "acl": "Access Control List (ACL)"
                 },
                 "disable-download-logging": {
-                    "title": "",
-                    "toggle": ""
+                    "title": "Poista käytöstä latausten lokitus",
+                    "toggle": "Poista käytöstä"
                 },
                 "disable-hotlink-protection": {
-                    "title": "",
-                    "toggle": ""
+                    "title": "Poista käytöstä hotlink suojaus",
+                    "toggle": "Poista käytöstä"
                 },
                 "imgur": {
-                    "client_id": "",
-                    "title": ""
+                    "client_id": "Imgur asiakkaan ID (client ID)",
+                    "title": "Imgur kuvan tallennustilan asetukset"
                 },
                 "local": {
-                    "cdn_url": "",
-                    "title": ""
+                    "cdn_url": "Sisällönjakoverkon osoite (CDN) (tulee tiedostojen etuliitteeksi)",
+                    "title": "Paikallisen tallennustilan asetukset"
                 },
                 "qiniu": {
-                    "title": "",
-                    "key": "",
-                    "secret": "",
-                    "bucket": ""
+                    "title": "Qiniu tallennustilan asetukset",
+                    "key": "Avain (key)",
+                    "secret": "Salainen avain (secret)",
+                    "bucket": "Ämpäri (bucket)"
                 },
                 "preferences": {
-                    "max_file_size": "",
-                    "mime_types": "",
-                    "title": ""
+                    "max_file_size": "Maksimi tiedostokoko (kilotavuina)",
+                    "mime_types": "Määritä mime tyypit, siirtoadapterin linkitys",
+                    "title": "Yleiset asetukset"
                 },
                 "resize": {
-                    "max_width": "",
-                    "title": "",
-                    "toggle": ""
+                    "max_width": "Kuvan maksimi leveys/korkeus",
+                    "title": "Kuvan koon muunnos",
+                    "toggle": "Muunna kuvakoot"
                 },
                 "client_extension": {
-                    "title": ""
+                    "title": "Käyttäjän toimittamat tiedostopäätteet"
                 },
                 "watermark": {
-                    "file": "",
-                    "position": "",
-                    "title": "",
-                    "toggle": ""
+                    "file": "Siirrä vesileiman kuva",
+                    "position": "Vesileiman sijainti",
+                    "title": "Kuvien vesileimat",
+                    "toggle": "Laita kuviin vesileima"
                 },
                 "composer_buttons": {
-                    "title": "",
+                    "title": "Tekstieditorin napit",
                     "options": {
-                        "both": "",
-                        "upload-btn": "",
-                        "media-btn": ""
+                        "both": "Molemmat",
+                        "upload-btn": "Vain siirrä nappi",
+                        "media-btn": "Vain median hallinta nappi"
                     }
                 }
             },
             "permissions": {
-                "download_label": "",
-                "upload_label": "",
-                "view_user_uploads_label": "",
-                "delete_uploads_of_others_label": ""
+                "download_label": "Lataa tiedostot",
+                "upload_label": "Siirrä tiedostoja",
+                "view_user_uploads_label": "Nähdä käyttäjän siirrot",
+                "delete_uploads_of_others_label": "Poistaa käyttäjän siirtoja"
             },
             "templates": {
-                "file": "",
-                "file_description": "",
-                "image": "",
-                "image_description": "",
-                "image-preview": "",
-                "image-preview_description": "",
-                "markdown-image": "",
-                "markdown-image_description": "",
-                "bbcode-image": "",
-                "bbcode-image_description": "",
-                "just-url": "",
-                "just-url_description": ""
+                "file": "Oletus tiedoston latauspohja",
+                "file_description": "Näyttää tiedoston nimen ja muuta informaatiota. Ohjaa lataukset php:n läpi sallien tilaston keruun ja hotlink suojauksen.\n",
+                "image": "Oletus kuvan latauspohja",
+                "image_description": "Näyttää kuvan esikatselukuvan ja ohjaa lataukset php:n läpi. Sallien tilastot ja hotlink suojauksen.\n",
+                "image-preview": "Kuvan täydellinen esikatselupohja",
+                "image-preview_description": "Näyttää alkuperäisen kuvan tekstin seassa. Ei latausta, ei tilastoja ja ei hotlink suojausta.\n",
+                "markdown-image": "Markdon pohja kuvalle",
+                "markdown-image_description": "Näyttää kuvan käyttäen Markdownia. <strong>Sinulla pitää olla flarum/markdown lisäosa asennettuna, jotta tämä toimii.</strong> Ei latausta, ei tilastoja ja ei hotlink suojausta.\n",
+                "bbcode-image": "BBCode kuvan pohja",
+                "bbcode-image_description": "Näyttää kuvan käyttäen BBCodea. <strong>Sinulla pitää olla flarum/bbcode lisäosa asennettuna, jotta tämä toimii.</strong> Ei latausta, ei tilastoja ja ei hotlink suojausta.\n",
+                "just-url": "Vain osoite",
+                "just-url_description": "Asettaa vain kuvan osoitteen. Näyttäminen voidaan toteuttaa mulla lisäosalla. Ei latausta, ei tilastoja eikä hotlink suojausta.\n"
             },
             "upload_methods": {
-                "aws-s3": "",
-                "imgur": "",
-                "local": "",
-                "ovh-svfs": "",
-                "qiniu": ""
+                "aws-s3": "S3/Yhteensopiva",
+                "imgur": "Imgur",
+                "local": "Paikallinen",
+                "ovh-svfs": "OVH SVFS",
+                "qiniu": "QiNiu"
             }
         },
         "forum": {
-            "media_manager": "",
+            "media_manager": "Median hallinta",
             "buttons": {
-                "attach": "",
-                "upload": "",
-                "user_uploads": "",
-                "cancel": "",
-                "media": ""
+                "attach": "Liitä",
+                "upload": "Siirrä",
+                "user_uploads": "Käyttäjän siirrot",
+                "cancel": "Peruuta",
+                "media": "Oma Media"
             },
             "file_list": {
-                "loading": "",
-                "empty": "",
-                "release_to_upload": "",
-                "modal_empty_desktop": "",
-                "modal_empty_phone": "",
-                "select_file_a11y_label": "",
-                "confirm_selection_btn": "",
-                "load_more_files_btn": "",
+                "loading": "Ladataan tiedostoja...",
+                "empty": "Täällä ei ole tiedostoja.",
+                "release_to_upload": "Päästä irti siirtääksesi",
+                "modal_empty_desktop": "Tiedostolistasi on tyhjä. Klikkaa nappia tai raahaa tiedostoja siirtääksesi.",
+                "modal_empty_phone": "Tiedostolistasi on tyhjä. Klikkaa nappia siirtääksesi tiedoston.",
+                "select_file_a11y_label": "Valitse tiedosto \"{fileName}\"",
+                "confirm_selection_btn": "{fileCount, plural, =0 {Ei valittuja} one {Valitse tiedosto} other {Valitse tiedostot}}",
+                "load_more_files_btn": "Lataa lisää tiedostoja",
                 "hide_file": {
-                    "btn_a11y_label": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "hide_fail": "",
-                    "loading": ""
+                    "btn_a11y_label": "Piilota \"{fileName}\" median hallinnasta",
+                    "hide_confirmation": "Haluatko varmasti piilottaa \"{fileName}\"? Piilottaminen piilottaa sen vain sinun median hallinnasta ja ei vaikuta viesteihin.",
+                    "hide_success": "Tiedosto piilotettu",
+                    "hide_fail": "Ei voitu piilottaa tiedostoa \"{fileName}\"",
+                    "loading": "Piilotetaan tiedostoa..."
                 }
             },
             "states": {
-                "error": "",
-                "loading": "",
-                "unauthorized": ""
+                "error": "Virhe",
+                "loading": "Siirretään",
+                "unauthorized": "Sinulla ei ole oikeutta ladata tiedostoja"
             }
         },
         "api": {
             "upload_errors": {
-                "forbidden_type": "",
-                "unsupported_type": "",
-                "could_not_detect_mime": ""
+                "forbidden_type": "Tämän tyyppisten tiedostojen siirtäminen ei ole sallittua.",
+                "unsupported_type": "Siirtoadapteri ei tue tätä tiedostotyyppiä: {mime}.",
+                "could_not_detect_mime": "Tiedoston MIME tyyppia ei voitu tunnistaa. Yritä uudelleen."
             }
         }
     }
