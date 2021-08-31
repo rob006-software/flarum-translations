@@ -2,44 +2,44 @@
     "fof-user-directory": {
         "forum": {
             "header": {
-                "back_to_user_directory_tooltip": ""
+                "back_to_user_directory_tooltip": "Takaisin käyttäjälistaukseen"
             },
             "search": {
-                "users_heading": "",
+                "users_heading": "Etsi kaikkia käyttäjiä hakusanalla \"{query}\"",
                 "field": {
-                    "placeholder": ""
+                    "placeholder": "Etsi kaikkia käyttäjiä"
                 }
             },
             "page": {
-                "nav": "",
-                "refresh_tooltip": "",
-                "load_more_button": "",
-                "empty_text": "",
-                "filter_button": ""
+                "nav": "Käyttäjät",
+                "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
+                "load_more_button": "=> core.ref.load_more",
+                "empty_text": "Emme löytäneet hakua vastaavia käyttäjiä.",
+                "filter_button": "Ryhmät"
             }
         },
         "admin": {
             "permissions": {
-                "view_user_directory": ""
+                "view_user_directory": "Nähdä käyttäjälistaus"
             },
             "settings": {
-                "link": "",
-                "default-sort": "",
-                "use-small-cards": ""
+                "link": "Lisää linkki kotisivulle, jotta kävijät näkee listauksen",
+                "default-sort": "Oletus järjestys",
+                "use-small-cards": "Käytä pieniä käyttäjäkortteja"
             }
         },
         "lib": {
             "sort": {
-                "not_specified": "",
-                "default": "",
-                "username_az": "",
-                "username_za": "",
-                "newest": "",
-                "oldest": "",
-                "most_posts": "",
-                "least_posts": "",
-                "most_discussions": "",
-                "least_discussions": ""
+                "not_specified": "Käytä Flarumin oletusta",
+                "default": "Oletus",
+                "username_az": "Käyttäjätunnus (a-ö)",
+                "username_za": "Käyttäjätunnus (ö-a)",
+                "newest": "Uusin",
+                "oldest": "Vanhin",
+                "most_posts": "Eniten viestejä",
+                "least_posts": "Vähiten viestejä",
+                "most_discussions": "Eniten keskusteluita",
+                "least_discussions": "Vähiten keskusteluita"
             }
         }
     }
