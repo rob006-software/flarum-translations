@@ -427,6 +427,9 @@ return [
 	'fof-webhooks' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/webhooks/1.0.4/resources/locale/en.yml',
 	],
+	'ganuonglachanh-sonic' => [
+		'tag' => 'https://raw.githubusercontent.com/ganuonglachanh/flarum-sonic/0.1.2/resources/locale/en.yml',
+	],
 	'glowingblue-password-strength' => [
 		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-password-strength/3.0.0/locale/en.yml',
 	],
