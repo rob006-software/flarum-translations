@@ -2,22 +2,22 @@
     "fof-split": {
         "admin": {
             "permissions": {
-                "split_discussion_label": ""
+                "split_discussion_label": "Jaa viestejä keskusteluista"
             }
         },
         "forum": {
             "post": {
-                "was_split_to": "",
-                "was_split_from": ""
+                "was_split_to": "{count, plural, one {{count} viesti jaettiin kohteeseen {target}.} other {{count} viestiä jaettiin kohteeseen {target}.}}",
+                "was_split_from": "{count, plural, one {{count} viesti jaettiin kohteesta {target}.} other {{count} viestiä jaettiin kohteesta {target}.}}"
             },
             "split": {
-                "from": "",
-                "to": ""
+                "from": "Jaa tästä",
+                "to": "Jaa tänne"
             },
             "modal": {
-                "title": "",
-                "new_discussion_label": "",
-                "submit_button": ""
+                "title": "Jaa keskustelu osiin",
+                "new_discussion_label": "Anna uuden keskustelun otsikko",
+                "submit_button": "Jaa osiin"
             }
         }
     }
