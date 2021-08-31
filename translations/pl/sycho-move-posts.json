@@ -2,61 +2,61 @@
     "sycho-move-posts": {
         "admin": {
             "settings": {
-                "moved_first_post_content": "",
-                "moved_first_post_content_help": "",
-                "group_sequential_posts": ""
+                "moved_first_post_content": "Treść pierwszego postu w przeniesionej dyskusji",
+                "moved_first_post_content_help": "Jeśli masz dyskusję z jednym postem, przeniesienie tego postu spowoduje, że pierwszy post początkowej dyskusji zostanie zredagowany tak, by wskazywał na nową dyskusję. Możesz edytować zawartość tego postu tutaj.\n",
+                "group_sequential_posts": "Grupuj w jeden kolejne posty informujące o przeniesieniu."
             },
             "permissions": {
-                "move_posts": ""
+                "move_posts": "=> sycho-move-posts.ref.move_posts"
             }
         },
         "forum": {
             "badge": {
-                "first_moved_tooltip": ""
+                "first_moved_tooltip": "Przeniesiono"
             },
             "discussion": {
-                "move_posts": ""
+                "move_posts": "=> sycho-move-posts.ref.move_posts"
             },
             "error": {
-                "move_old_post_to_newer_discussion": ""
+                "move_old_post_to_newer_discussion": "=> sycho-move-posts.ref.status.old_to_new_move"
             },
             "modal": {
-                "check": "",
-                "destination": "",
-                "discussion_help": "",
-                "discussion_name": "",
-                "new_discussion": "",
-                "selected_posts": "",
+                "check": "Sprawdź typ operacji",
+                "destination": "Dyskusja docelowa",
+                "discussion_help": "Tagi dyskusji źródłowej zostaną użyte i mogą być zmienione po utworzeniu.",
+                "discussion_name": "=> core.forum.composer_discussion.title_placeholder",
+                "new_discussion": "Nowa dyskusja",
+                "selected_posts": "Wybrano {count, plural, one {jeden post} few {{count} posty} other {{count} postów}}",
                 "status": {
-                    "complex_move": "",
-                    "old_to_new_move": "",
-                    "simple_move": ""
+                    "complex_move": "Będzie to złożone przeniesienie, posty będą dodawane między postami, prowadząc do starych odniesień URL postów docelowej dyskusji, aby również się zmienić.",
+                    "old_to_new_move": "=> sycho-move-posts.ref.status.old_to_new_move",
+                    "simple_move": "Będzie to proste przeniesienie, posty zostaną dodane na końcu dyskusji."
                 },
-                "submit": "",
-                "title": ""
+                "submit": "Kontynuuj",
+                "title": "=> sycho-move-posts.ref.move_posts"
             },
             "notifications": {
-                "post_moved_text": ""
+                "post_moved_text": "Jeden z Twoich postów został przeniesiony do {targetDiscussionTitle}."
             },
             "post": {
-                "unmove": "",
-                "move": "",
-                "moving": ""
+                "unmove": "Odznacz do przeniesienia",
+                "move": "Wybierz do przeniesienia",
+                "moving": "Przenoszenie postu"
             },
             "post_stream": {
-                "post_moved": ""
+                "post_moved": "{username} przeniósł {count, plural, one{post} few{{count} posty} other{{count} postów}} do {target_discussion}."
             }
         },
         "ref": {
-            "move_posts": "",
+            "move_posts": "Przenieś posty",
             "status": {
-                "old_to_new_move": ""
+                "old_to_new_move": "Nie można przenieść starego postu do nowszej dyskusji."
             }
         },
         "lib": {
             "discussion": {
                 "first_post": {
-                    "default_content": ""
+                    "default_content": "*Ten post został przeniesiony do **[%DISCUSSION_NAME%](%POST_LINK%)**.*\n"
                 }
             }
         }
