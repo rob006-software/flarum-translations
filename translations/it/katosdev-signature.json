@@ -2,44 +2,44 @@
     "signature": {
         "forum": {
             "buttons": {
-                "signature": "",
-                "save": ""
+                "signature": "Firma",
+                "save": "Salva Firma"
             },
             "modal": {
                 "loading": {
-                    "title": "",
-                    "content": ""
+                    "title": "Salvo",
+                    "content": "Attendere..."
                 },
                 "error": {
-                    "title": "",
-                    "content": ""
+                    "title": "OOps! Errore riscontrato durante il salvataggio...",
+                    "content": "Lista errori:"
                 }
             },
             "errors": {
-                "max_char_limit_exceed": "",
-                "max_image_width_exceed": "",
-                "max_image_height_exceed": "",
-                "max_image_count_exceed": ""
+                "max_char_limit_exceed": "Superato numero minimo di caratteri.",
+                "max_image_width_exceed": "Superata larghezza immagine minima.",
+                "max_image_height_exceed": "Superata altezza immagine minima.",
+                "max_image_count_exceed": "Superato numero massimo immagini."
             }
         },
         "admin": {
-            "title": "",
+            "title": "Firma",
             "settings": {
                 "maximum_image_width": {
-                    "description": "",
-                    "placeholder": ""
+                    "description": "Larghezza minima immagini nell'editor.",
+                    "placeholder": "350 (di default)"
                 },
                 "maximum_image_height": {
-                    "description": "",
-                    "placeholder": ""
+                    "description": "Somma altezze massime delle immagini inserite nell'editor.",
+                    "placeholder": "500 (di default)"
                 },
                 "maximum_image_count": {
-                    "description": "",
-                    "placeholder": ""
+                    "description": "Numero massimo immagini inserite.",
+                    "placeholder": "5 (di default)"
                 },
                 "maximum_char_limit": {
-                    "description": "",
-                    "placeholder": ""
+                    "description": "Limite caratteri della firma (valgono i caratteri, non vengono considerati i tag html)",
+                    "placeholder": "1000 (di default)"
                 }
             }
         }
