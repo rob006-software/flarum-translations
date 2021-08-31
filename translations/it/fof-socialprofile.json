@@ -2,18 +2,18 @@
     "fof-socialprofile": {
         "admin": {
             "permissions": {
-                "view": "",
-                "editOwn": "",
-                "editAny": ""
+                "view": "Vedi profilo Social",
+                "editOwn": "Modificare il proprio profilo Social",
+                "editAny": "Modificare qualunque profilo Social"
             },
             "settings": {
-                "allow_external_favicons_label": ""
+                "allow_external_favicons_label": "Consenti icone siti esterne"
             }
         },
         "forum": {
             "edit": {
-                "edit": "Modifica",
-                "add": "Aggiungi",
+                "edit": "Modifica il tuo pulsante social",
+                "add": "Aggiungi pulsante social",
                 "headtitle": "Modifica bottoni",
                 "title": "Titolo",
                 "url": "URL",
@@ -21,8 +21,8 @@
                 "delete": "Cancella",
                 "deletetitle": "Cancella Bottone",
                 "save_disabled_fetching_favicons": "Una o più icone verranno recuperate. Per favore attendi.",
-                "favicon": "",
-                "grey_favicon": ""
+                "favicon": "Favicon",
+                "grey_favicon": "Favicon Grigia"
             }
         }
     }
