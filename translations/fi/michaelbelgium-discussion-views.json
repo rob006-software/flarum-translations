@@ -2,37 +2,37 @@
     "core": {
         "forum": {
             "index_sort": {
-                "popular_button": "",
-                "unpopular_button": ""
+                "popular_button": "Suositut",
+                "unpopular_button": "Epäsuosittu"
             }
         }
     },
     "michaelbelgium-discussion-views": {
         "forum": {
             "modal_resetviews": {
-                "title": "",
-                "submit_button": "",
-                "label": ""
+                "title": "Nollaa keskustelun katstelukertojen määrä",
+                "submit_button": "Kyllä, poista kaikki",
+                "label": "{count, plural, one {Tämä poistaa {count} katselukerran tästä keskustelusta. Jatka?} other {Tämä poistaa {count} katselukertaa tästä keskustelusta. Jatka?}}"
             },
             "discussion_controls": {
-                "resetviews_button": ""
+                "resetviews_button": "Nollaa katselukerrat"
             },
             "viewlist": {
-                "title": ""
+                "title": "Viimeisimmät katselijat"
             }
         },
         "admin": {
             "permissions": {
-                "reset_views_label": "",
-                "view_number_label": ""
+                "reset_views_label": "Nollaa keskustelun katselut",
+                "view_number_label": "Nähdä keskustelun katselukerrat"
             },
             "settings": {
-                "title": "",
-                "track_unique_label": "",
-                "abbr_numbers_label": "",
-                "show_filter_label": "",
-                "max_viewcount_label": "",
-                "show_viewlist_label": ""
+                "title": "Katselukertojen asetukset",
+                "track_unique_label": "Seuraa uniikkeja katselukertoja",
+                "abbr_numbers_label": "Lyhennä katselukertojen numeroita",
+                "show_filter_label": "Ota käyttöön (epä)suosittu järjestys valinta",
+                "max_viewcount_label": "Maksimimäärä katselulistan kohtaa",
+                "show_viewlist_label": "Ota katselulista käyttöön"
             }
         }
     }
