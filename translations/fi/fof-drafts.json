@@ -2,62 +2,62 @@
     "fof-drafts": {
         "admin": {
             "permissions": {
-                "start": "",
-                "schedule": ""
+                "start": "Luoda luonnoksia",
+                "schedule": "Ajastaa luonnoksia"
             },
             "settings": {
-                "title": "",
-                "enable_scheduled_drafts": "",
-                "schedule_on_one_server": "",
-                "schedule_log_output": ""
+                "title": "FoF Luonnokset",
+                "enable_scheduled_drafts": "Ota käyttöön ajastetut luonnokset",
+                "schedule_on_one_server": "Käytä 'onOneServer()' määrettä ajastuksiin (vaatii Redis/Memcache)",
+                "schedule_log_output": "Lisää ajastimen tulosteet lokeihin"
             }
         },
         "console": {
-            "scheduled_drafts_disabled": ""
+            "scheduled_drafts_disabled": "Ajastetut luonnokset on pois käytöstä."
         },
         "ref": {
-            "schedule_draft": ""
+            "schedule_draft": "Ajastettu luonnos"
         },
         "forum": {
             "composer": {
-                "title": "",
-                "saving": "",
-                "saved": "",
-                "exit_alert": "",
-                "discard_empty_draft_alert": ""
+                "title": "Tallenna luonnos",
+                "saving": "Tallennetaan...",
+                "saved": "Tallennettu!",
+                "exit_alert": "Peruuta luonnokseen tehdyt muutokset?",
+                "discard_empty_draft_alert": "Peruuta tyhjä luonnos?"
             },
             "dropdown": {
-                "empty_text": "",
-                "title": "",
-                "delete_all_button": "",
-                "delete_button": "",
-                "schedule_button": "",
-                "scheduled_icon_tooltip": "",
-                "scheduled_icon_tooltip_formatter": "",
-                "tooltip": "",
-                "alert": "",
-                "delete_all_alert": ""
+                "empty_text": "Et ole tallentanut luonnoksia",
+                "title": "Luonnokset",
+                "delete_all_button": "Poista kaikki luonnokset",
+                "delete_button": "Poista luonnos",
+                "schedule_button": "=> fof-drafts.ref.schedule_draft",
+                "scheduled_icon_tooltip": "Ajastettu {datetime}",
+                "scheduled_icon_tooltip_formatter": "L [kello] LT",
+                "tooltip": "=> fof-drafts.forum.dropdown.title",
+                "alert": "Haluatko varmasti poistaa luonnoksesi?",
+                "delete_all_alert": "Haluatko varmasti poistaa kaikki luonnoksesi?"
             },
             "schedule_draft_modal": {
-                "title": "",
-                "text": "",
-                "scheduled_text": "",
-                "scheduled_error": "",
-                "unschedule_button": "",
-                "unschedule_warning": "",
-                "reschedule_button": "",
-                "schedule_button": "",
-                "schedule_time_preview": "",
-                "schedule_time_preview_formatter": "",
-                "schedule_time_preview_invalid": ""
+                "title": "=> fof-drafts.ref.schedule_draft",
+                "text": "Ajasta luonnoksesi julkaisu myöhemmäksi!",
+                "scheduled_text": "Tällä hetkellä julkaistaan {datetime}.",
+                "scheduled_error": "Luonnosta ei voi ajastaa: {error}.",
+                "unschedule_button": "Poista ajastus",
+                "unschedule_warning": "Haluatko varmasti poistaa tämän luonnoksen ajastuksen?",
+                "reschedule_button": "Määritä ajastus uudelleen",
+                "schedule_button": "Ajasta",
+                "schedule_time_preview": "Tämä luonnos julkaistaan automaattisesti <b>{datetime}</b>.",
+                "schedule_time_preview_formatter": "LLLL",
+                "schedule_time_preview_invalid": "Virheellinen päivä ja/tai aika"
             },
             "user": {
                 "settings": {
-                    "drafts_heading": "",
-                    "draft_autosave_enable": "",
-                    "draft_autosave_interval_label": "",
-                    "draft_autosave_interval_button": "",
-                    "draft_autosave_interval_invalid": ""
+                    "drafts_heading": "Luonnokset",
+                    "draft_autosave_enable": "Ota luonnoksen automaattinen tallennus käyttöön?",
+                    "draft_autosave_interval_label": "Automaattisen tallennuksen väli (sekuntia)",
+                    "draft_autosave_interval_button": "Päivitä aikaväli",
+                    "draft_autosave_interval_invalid": "Aikavälin pitää olla isompi numero kuin 4."
                 }
             }
         }
