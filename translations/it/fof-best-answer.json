@@ -13,23 +13,23 @@
                     "reminders_notice": "Affinché i promemoria funzionino correttamente, è necessario aver impostato correttamente lo scheduler di Flarum."
                 },
                 "allow_select_own_post": "Consenti agli utenti di selezionare i propri post",
-                "allow_select_own_post_help": "",
-                "select_best_answer_reminder_days": "Ricorda agli utenti di selezionare una risposta migliore dopo X giorni",
-                "select_best_answer_reminder_days_help": "",
-                "schedule_on_one_server": "Usa la direttiva 'onOneServer()' per le pianificazioni (richiede Redis/Memcache)",
-                "schedule_on_one_server_help": "",
-                "schedule_stop_overnight": "Impedire l'esecuzione dell'utilità di pianificazione dei promemoria durante le ore non social (9pm - 8am server time)",
-                "schedule_stop_overnight_help": "",
+                "allow_select_own_post_help": "Permetti di selezionere il proprio post come risposta migliore",
+                "select_best_answer_reminder_days": "Frequenza promemoria",
+                "select_best_answer_reminder_days_help": "Invia un promemoria dopo un numero di giorni configurabile per invitare a scegliere la risposta migliore, 0 = disabilita promemoria.",
+                "schedule_on_one_server": "Usa la direttiva 'onOneServer()' per le pianificazioni",
+                "schedule_on_one_server_help": "Richiede Redis/Memcache",
+                "schedule_stop_overnight": "Impedisci l'invio di notifiche promemoria  durante determinate ore",
+                "schedule_stop_overnight_help": "9pm - 8am orario server",
                 "schedule_log_output": "Aggiungi l'output dello scheduler alla memoria del registro",
-                "use_alt_ui": "Usa layout alternativo (pulsante di risposta migliore nel footer del post)",
-                "use_alt_ui_help": "",
-                "documentation": "",
-                "introduction": "",
+                "use_alt_ui": "Layout Alternativo",
+                "use_alt_ui_help": "Controlli Risposta Migliore nel footer dei post",
+                "documentation": "Documentazione",
+                "introduction": "Abilita quali tag devono supportare le risposte migliore in <code>flarum/tags</code> e, facoltativamente, quali tag devono supportare i promemoria. Quando un tag è abilitato per la risposta migliore, assegna le autorizzazioni a ciascun gruppo di utenti che può impostare le risposte (discussione personale, qualsiasi discussione). Le autorizzazioni possono essere assegnate globalmente (per qualsiasi tag abilitato Best Answer) o in base al tag.\n",
                 "remind_tag_ids": "Per limitare i promemoria a tag particolari, inserisci qui l'ID del tag (separato da virgole)"
             },
             "edit_tag": {
-                "qna_label": "",
-                "reminders": ""
+                "qna_label": "Abilita Risposta Migliore in questo tag",
+                "reminders": "Invia promemoria per scegliere la Risposta Migliore per le discussioni in questo tag"
             }
         },
         "forum": {
@@ -51,19 +51,19 @@
                 }
             },
             "index": {
-                "ask_question": "",
-                "cannot_ask_question": "",
-                "solved_link": "",
-                "unsolved_link": ""
+                "ask_question": "Fai una domanda",
+                "cannot_ask_question": "Non può fare una domanda",
+                "solved_link": "Discussioni Risolte",
+                "unsolved_link": "Discussioni non risolte"
             },
             "filter": {
-                "all_label": "",
-                "solved_label": "",
-                "unsolved_label": "",
-                "accessible_label": ""
+                "all_label": "Tutte le domande",
+                "solved_label": "Domande Risolte",
+                "unsolved_label": "Domande non risolte",
+                "accessible_label": "Selezione risolta/non risolta"
             },
             "composer": {
-                "titlePlaceholder": ""
+                "titlePlaceholder": "Titolo Domanda"
             }
         },
         "email": {
