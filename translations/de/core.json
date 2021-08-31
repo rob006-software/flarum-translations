@@ -489,6 +489,21 @@
             }
         },
         "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "",
+                    "disable": "",
+                    "empty": "",
+                    "enable": "",
+                    "name": "",
+                    "package_name": "",
+                    "version": ""
+                },
+                "info": {
+                    "caption": ""
+                },
+                "title": ""
+            },
             "confirm_email": {
                 "submit_button": "",
                 "text": "",
@@ -569,6 +584,7 @@
             "edit": "Ändern",
             "edit_user": "Benutzer*in ändern",
             "email": "E-Mail",
+            "extensions": "",
             "icon": "Symbol",
             "icon_text": "Name des <a>FontAwesome</a>-Symbols eingeben, aber <em>mit</em> dem Prefix <code>fas fa-</code>.",
             "load_more": "Weitere laden",

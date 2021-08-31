@@ -489,6 +489,21 @@
             }
         },
         "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "",
+                    "disable": "",
+                    "empty": "",
+                    "enable": "",
+                    "name": "",
+                    "package_name": "",
+                    "version": ""
+                },
+                "info": {
+                    "caption": ""
+                },
+                "title": ""
+            },
             "confirm_email": {
                 "submit_button": "",
                 "text": "",
@@ -569,6 +584,7 @@
             "edit": "编辑",
             "edit_user": "编辑用户",
             "email": "邮箱",
+            "extensions": "",
             "icon": "图标",
             "icon_text": "输入任意一个 <a>Font Awesome</a> 图标名称。<em>包括</em>前缀，例如 <code>fas fa-</code>",
             "load_more": "加载更多",

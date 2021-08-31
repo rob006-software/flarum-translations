@@ -489,6 +489,21 @@
             }
         },
         "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "=> core.ref.extensions",
+                    "disable": "Disable",
+                    "empty": "No installed extensions",
+                    "enable": "Enable",
+                    "name": "Extension Name",
+                    "package_name": "Package Name",
+                    "version": "Version"
+                },
+                "info": {
+                    "caption": "Application Info"
+                },
+                "title": "Administration"
+            },
             "confirm_email": {
                 "submit_button": "=> core.ref.confirm_email",
                 "text": "Click the button below to confirm your account's email.",
@@ -569,6 +584,7 @@
             "edit": "Edit",
             "edit_user": "Edit User",
             "email": "Email",
+            "extensions": "Extensions",
             "icon": "Icon",
             "icon_text": "Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the <code>fas fa-</code> prefix.",
             "load_more": "Load More",

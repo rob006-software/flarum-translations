@@ -489,6 +489,21 @@
             }
         },
         "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "",
+                    "disable": "",
+                    "empty": "",
+                    "enable": "",
+                    "name": "",
+                    "package_name": "",
+                    "version": ""
+                },
+                "info": {
+                    "caption": ""
+                },
+                "title": ""
+            },
             "confirm_email": {
                 "submit_button": "=> core.ref.confirm_email",
                 "text": "Clicca il pulsante sottostante per confermare la mail del tuo account.",
@@ -569,6 +584,7 @@
             "edit": "Modifica",
             "edit_user": "Modifica Utente",
             "email": "E-mail",
+            "extensions": "",
             "icon": "Icona",
             "icon_text": "Inserisci il nome di una qualsiasi icona di <a>FontAwesome</a>, <em>includendo</em> il prefisso <code>fas fa-</code>.",
             "load_more": "Carica di più",

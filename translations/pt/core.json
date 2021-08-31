@@ -498,6 +498,21 @@
             }
         },
         "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "",
+                    "disable": "",
+                    "empty": "",
+                    "enable": "",
+                    "name": "",
+                    "package_name": "",
+                    "version": ""
+                },
+                "info": {
+                    "caption": ""
+                },
+                "title": ""
+            },
             "confirm_email": {
                 "submit_button": "",
                 "text": "",
@@ -578,6 +593,7 @@
             "edit": "Editar",
             "edit_user": "Editar usuário",
             "email": "E-mail",
+            "extensions": "",
             "icon": "Ícone",
             "icon_text": "Digite o nome de qualquer classe de ícone <a>FontAwesome</a> , <em>incluindo</em> o prefixo <code>fas fa-</code> .",
             "load_more": "Carregue mais",

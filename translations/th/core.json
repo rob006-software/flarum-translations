@@ -489,6 +489,21 @@
             }
         },
         "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "",
+                    "disable": "",
+                    "empty": "",
+                    "enable": "",
+                    "name": "",
+                    "package_name": "",
+                    "version": ""
+                },
+                "info": {
+                    "caption": ""
+                },
+                "title": ""
+            },
             "confirm_email": {
                 "submit_button": "",
                 "text": "",
@@ -569,6 +584,7 @@
             "edit": "แก้ไข",
             "edit_user": "Edit User",
             "email": "อีเมล",
+            "extensions": "",
             "icon": "ไอคอน",
             "icon_text": "Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the <code>fas fa-</code> prefix.",
             "load_more": "แสดงเพิ่มเติม",

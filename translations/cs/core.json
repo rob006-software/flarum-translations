@@ -509,6 +509,21 @@
             }
         },
         "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "",
+                    "disable": "",
+                    "empty": "",
+                    "enable": "",
+                    "name": "",
+                    "package_name": "",
+                    "version": ""
+                },
+                "info": {
+                    "caption": ""
+                },
+                "title": ""
+            },
             "confirm_email": {
                 "submit_button": "",
                 "text": "",
@@ -589,6 +604,7 @@
             "edit": "Upravit",
             "edit_user": "Upravit uživatele",
             "email": "E-Mail",
+            "extensions": "",
             "icon": "Ikona",
             "icon_text": "Vložte název <a>FontAwesome</a> ikony, <em>i s</em> <code>fas fa-</code> prefixem.",
             "load_more": "Načíst další",

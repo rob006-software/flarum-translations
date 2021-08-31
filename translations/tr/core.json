@@ -489,6 +489,21 @@
             }
         },
         "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "",
+                    "disable": "",
+                    "empty": "",
+                    "enable": "",
+                    "name": "",
+                    "package_name": "",
+                    "version": ""
+                },
+                "info": {
+                    "caption": ""
+                },
+                "title": ""
+            },
             "confirm_email": {
                 "submit_button": "=> core.ref.confirm_email",
                 "text": "Hesabınızın e-postasını onaylamak için aşağıdaki düğmeyi tıklayın.",
@@ -569,6 +584,7 @@
             "edit": "Düzenle",
             "edit_user": "Kullanıcıyı Düzenle",
             "email": "E-posta",
+            "extensions": "",
             "icon": "Simge",
             "icon_text": "Herhangi bir <a>FontAwesome</a> simgesi adını <code>fas fa-</code> <em>öneki dahil</em> olarak girin.",
             "load_more": "Daha Fazla Yükle",

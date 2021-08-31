@@ -489,6 +489,21 @@
             }
         },
         "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "",
+                    "disable": "",
+                    "empty": "",
+                    "enable": "",
+                    "name": "",
+                    "package_name": "",
+                    "version": ""
+                },
+                "info": {
+                    "caption": ""
+                },
+                "title": ""
+            },
             "confirm_email": {
                 "submit_button": "=> core.ref.confirm_email",
                 "text": "Veuillez cliquer sur le bouton ci-dessous pour confirmer l'adresse de courriel associée à votre compte.",
@@ -569,6 +584,7 @@
             "edit": "Modifier",
             "edit_user": "Modifier l'utilisateur",
             "email": "Adresse de courriel",
+            "extensions": "",
             "icon": "Icône",
             "icon_text": "Saisissez le nom de n'importe quelle classe d'icônes de <a>Font Awesome</a> <em>en incluant</em> le préfixe <code>fas fa-</code>.",
             "load_more": "Charger davantage",

@@ -489,6 +489,21 @@
             }
         },
         "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "",
+                    "disable": "",
+                    "empty": "",
+                    "enable": "",
+                    "name": "",
+                    "package_name": "",
+                    "version": ""
+                },
+                "info": {
+                    "caption": ""
+                },
+                "title": ""
+            },
             "confirm_email": {
                 "submit_button": "",
                 "text": "",
@@ -569,6 +584,7 @@
             "edit": "編集",
             "edit_user": "",
             "email": "電子メール",
+            "extensions": "",
             "icon": "アイコン",
             "icon_text": "接頭辞<code>fas fa-</code><em>を含む</em><a>Font Awesome</a> のアイコン名を入力してください。",
             "load_more": "さらに読み込む",

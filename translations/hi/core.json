@@ -489,6 +489,21 @@
             }
         },
         "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "",
+                    "disable": "",
+                    "empty": "",
+                    "enable": "",
+                    "name": "",
+                    "package_name": "",
+                    "version": ""
+                },
+                "info": {
+                    "caption": ""
+                },
+                "title": ""
+            },
             "confirm_email": {
                 "submit_button": "",
                 "text": "",
@@ -569,6 +584,7 @@
             "edit": "संपादित करें",
             "edit_user": "उपयोगकर्ता को संपादित करो",
             "email": "ईमेल",
+            "extensions": "",
             "icon": "आइकन",
             "icon_text": "किसी भी <a>FontAwesome</a> आइकन वर्ग का नाम दर्ज करें, <em>सहित</em> <code>fas fa-</code> उपसर्ग।",
             "load_more": "और लोड करें",

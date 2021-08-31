@@ -489,6 +489,21 @@
             }
         },
         "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "",
+                    "disable": "",
+                    "empty": "",
+                    "enable": "",
+                    "name": "",
+                    "package_name": "",
+                    "version": ""
+                },
+                "info": {
+                    "caption": ""
+                },
+                "title": ""
+            },
             "confirm_email": {
                 "submit_button": "",
                 "text": "",
@@ -569,6 +584,7 @@
             "edit": "Bewerken",
             "edit_user": "Wijzig gebruiker",
             "email": "E-mail",
+            "extensions": "",
             "icon": "Icoon",
             "icon_text": "Kies een <a>FontAwesome</a> icon class, <em>zonder</em> de <code>fa-</code> prefix.",
             "load_more": "Meer laden",

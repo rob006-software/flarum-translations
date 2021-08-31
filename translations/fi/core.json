@@ -489,6 +489,21 @@
             }
         },
         "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "",
+                    "disable": "",
+                    "empty": "",
+                    "enable": "",
+                    "name": "",
+                    "package_name": "",
+                    "version": ""
+                },
+                "info": {
+                    "caption": ""
+                },
+                "title": ""
+            },
             "confirm_email": {
                 "submit_button": "=> core.ref.confirm_email",
                 "text": "Klikkaa alla olevaa painiketta vahvistaaksesi tilisi sähköpostiosoitteen.",
@@ -569,6 +584,7 @@
             "edit": "Muokkaa",
             "edit_user": "Muokkaa käyttäjää",
             "email": "Sähköposti",
+            "extensions": "",
             "icon": "Ikoni",
             "icon_text": "Syötä minkä tahansa <a>FontAwesome</a> ikonin luokka (class), <em>sisällyttäen</em> <code>fas fa-</code> etuliitteen.",
             "load_more": "Lataa lisää",

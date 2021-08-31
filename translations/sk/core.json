@@ -509,6 +509,21 @@
             }
         },
         "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "",
+                    "disable": "",
+                    "empty": "",
+                    "enable": "",
+                    "name": "",
+                    "package_name": "",
+                    "version": ""
+                },
+                "info": {
+                    "caption": ""
+                },
+                "title": ""
+            },
             "confirm_email": {
                 "submit_button": "",
                 "text": "",
@@ -589,6 +604,7 @@
             "edit": "Upraviť",
             "edit_user": "Upraviť používateľa",
             "email": "Email",
+            "extensions": "",
             "icon": "Ikona",
             "icon_text": "Uveď názov akejkoľvek <a>FontAwesome</a> ikonovej triedy, <em>zároveň s</em> predponou <code>fas fa-</code>.",
             "load_more": "Načítať Viac",

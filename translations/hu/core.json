@@ -534,6 +534,21 @@
             }
         },
         "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "",
+                    "disable": "",
+                    "empty": "",
+                    "enable": "",
+                    "name": "",
+                    "package_name": "",
+                    "version": ""
+                },
+                "info": {
+                    "caption": ""
+                },
+                "title": ""
+            },
             "confirm_email": {
                 "submit_button": "",
                 "text": "",
@@ -615,6 +630,7 @@
             "edit": "Szerkesztés",
             "edit_user": "Felhasználó szerkesztése",
             "email": "E-mail",
+            "extensions": "",
             "icon": "Ikon",
             "icon_text": "Adj meg egy nevet bármely <a>FontAwesome</a> ikon-osztályból a <code>fas fa-</code> prefix <em>hozzáadásával</em>.",
             "load_more": "Továbbiak betöltése",
