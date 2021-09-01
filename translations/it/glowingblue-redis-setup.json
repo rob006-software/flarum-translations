@@ -2,9 +2,9 @@
     "glowingblue-redis-setup": {
         "admin": {
             "settings": {
-                "enable_cache": "",
-                "enable_redis_sessions": "",
-                "enable_queue": ""
+                "enable_cache": "Abilita Redis cache",
+                "enable_redis_sessions": "Abilita sessioni Redis (tutti gli utenti dovranno effettuare nuovamente il login)",
+                "enable_queue": "Abilita coda Redis"
             }
         }
     }
