@@ -2,61 +2,61 @@
     "sycho-move-posts": {
         "admin": {
             "settings": {
-                "moved_first_post_content": "",
-                "moved_first_post_content_help": "",
-                "group_sequential_posts": ""
+                "moved_first_post_content": "Contenuto della discussione spostato (primo post)",
+                "moved_first_post_content_help": "Quando hai una discussione con un solo post, lo spostamento di quel post comporterà la modifica del primo post della discussione iniziale che punterà alla nuova discussione. Puoi modificare il contenuto di quel post qui.\n",
+                "group_sequential_posts": "Raggruppa post spostati in uno."
             },
             "permissions": {
-                "move_posts": ""
+                "move_posts": "=> sycho-move-posts.ref.move_posts"
             }
         },
         "forum": {
             "badge": {
-                "first_moved_tooltip": ""
+                "first_moved_tooltip": "Spostato"
             },
             "discussion": {
-                "move_posts": ""
+                "move_posts": "=> sycho-move-posts.ref.move_posts"
             },
             "error": {
-                "move_old_post_to_newer_discussion": ""
+                "move_old_post_to_newer_discussion": "=> sycho-move-posts.ref.status.old_to_new_move"
             },
             "modal": {
-                "check": "",
-                "destination": "",
-                "discussion_help": "",
-                "discussion_name": "",
-                "new_discussion": "",
-                "selected_posts": "",
+                "check": "Controlla il tipo di operazione",
+                "destination": "Discussione di Destinazione",
+                "discussion_help": "Verranno utilizzati i tag della discussione di origine e possono essere modificati dopo la creazione.",
+                "discussion_name": "=> core.forum.composer_discussion.title_placeholder",
+                "new_discussion": "Nuova Discussione",
+                "selected_posts": "{count, plural, one {Un Post Selezionato} other {{count} Post Selezionati}}",
                 "status": {
-                    "complex_move": "",
-                    "old_to_new_move": "",
-                    "simple_move": ""
+                    "complex_move": "Sarà uno spostamento complesso, i post verranno spostati fra altri post, portando a cambiare anche i vecchi riferimenti URL dei post della discussione di destinazione.",
+                    "old_to_new_move": "=> sycho-move-posts.ref.status.old_to_new_move",
+                    "simple_move": "Sarà uno spostamento semplice, i post verranno tutti aggiunti alla fine della discussione."
                 },
-                "submit": "",
-                "title": ""
+                "submit": "Procedi",
+                "title": "=> sycho-move-posts.ref.move_posts"
             },
             "notifications": {
-                "post_moved_text": ""
+                "post_moved_text": "Uno o più post sono stati spostati in {targetDiscussionTitle}."
             },
             "post": {
-                "unmove": "",
-                "move": "",
-                "moving": ""
+                "unmove": "Deseleziona per spostare",
+                "move": "Selezione per spostare",
+                "moving": "Sposto i post"
             },
             "post_stream": {
-                "post_moved": ""
+                "post_moved": "{count, plural, one {{username} ha spostato il post in {target_discussion}.} other {{username} ha spostato {count} post in {target_discussion}.}}"
             }
         },
         "ref": {
-            "move_posts": "",
+            "move_posts": "Sposta Post",
             "status": {
-                "old_to_new_move": ""
+                "old_to_new_move": "Impossibile spostare un vecchio post in una discussione più recente."
             }
         },
         "lib": {
             "discussion": {
                 "first_post": {
-                    "default_content": ""
+                    "default_content": "*Questo post è stato spostato in **[%DISCUSSION_NAME%](%POST_LINK%)**.*\n"
                 }
             }
         }
