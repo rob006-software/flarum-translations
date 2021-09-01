@@ -2,24 +2,24 @@
     "extiverse-mercury": {
         "admin": {
             "extension-updates-page": {
-                "extension-name": "",
-                "extension-is-up-to-date": "",
-                "highest-version": "",
-                "installed-version": ""
+                "extension-name": "Lisäosa",
+                "extension-is-up-to-date": "Ajan tasalla",
+                "highest-version": "Viimeisin julkaisu",
+                "installed-version": "Asennettu julkaisu"
             },
             "settings": {
-                "token": "",
-                "token-description": ""
+                "token": "Extiverse token (<a>pyydä</a>)",
+                "token-description": "Hanki API avain (token) <a>Extiverse</a> sivustolta, jotta Mercury voi turvallisesti kommunikoida Extiversen ja foorumisi välillä.\n"
             },
             "header-secondary": {
-                "no-token": "",
-                "updates": ""
+                "no-token": "Token vaadittu",
+                "updates": "{count, plural, =0 {Ei päivityksiä} one {Yksi päivitys} other {# päivitystä}}"
             }
         },
         "email": {
             "new-extension-update": {
-                "subject": "",
-                "body": ""
+                "subject": "{count, plural, one {Yksi päivitys saatavilla foorumillesi} other {# päivitystä saatavilla foorumillesi}}",
+                "body": "Hei {recipient_display_name}!\n\n{count} päivitystä on löytynyt Flarum foorumillesi. On suositeltavaa päivittää ne mahdollisimman pian.\n\nPäivityksiä on saatavilla seuraaviin lisäosiin: {extensions}.\n\nKäy foorumilla saadaksesi lisää tietoa: {url}.\n"
             }
         }
     }
