@@ -92,10 +92,10 @@
                 "image_description": "Mostra una miniatura dell'immagine e proxa il download attraverso php. Permette la raccolta di statistiche e la protezione da hotlink.\n",
                 "image-preview": "Modello di anteprima",
                 "image-preview_description": "Mostra l'immagine completa in-line. Nessuna funzionalità di download, le statistiche non sono raccolte e la protezione da hotlink è ignorata.\n",
-                "markdown-image": "",
-                "markdown-image_description": "",
-                "bbcode-image": "",
-                "bbcode-image_description": "",
+                "markdown-image": "Template Markdown Immagine",
+                "markdown-image_description": "Mostra l'immagine completa in linea utilizzando Markdown. <strong>Devi avere flarum/markdown installato e abilitato affinché funzioni.</strong> Nessuna funzionalità di download, nessuna statistica viene raccolta e la protezione hotlink viene ignorata.\n",
+                "bbcode-image": "Template BBcode Immagine",
+                "bbcode-image_description": "Mostra l'immagine completa in linea utilizzando BBCode. <strong>Devi avere flarum/bbcode installato e abilitato affinché funzioni.</strong> Nessuna funzionalità di download, nessuna statistica viene raccolta e la protezione hotlink viene ignorata.\n",
                 "just-url": "Solo URL",
                 "just-url_description": "Inserisci solo l'URL. Il rendering può essere gestito da altre estensioni con capacità di collegamento automatico. Nessuna funzionalità di download, nessuna statistica viene raccolta e la protezione hotlink viene ignorata.\n"
             },
@@ -126,7 +126,7 @@
                 "modal_empty_desktop": "Il tuo elenco di file è vuoto. Fare clic sul pulsante o trascinare un file qui per caricarlo.",
                 "modal_empty_phone": "Il tuo elenco di file è vuoto. Tocca il pulsante in alto per caricare un file.",
                 "select_file_a11y_label": "Scegli file \"{fileName}\"",
-                "confirm_selection_btn": "Scegli file|Scegli file",
+                "confirm_selection_btn": "{fileCount, plural, =0 {Nessuno selezionato} one {Scegli file} other {Scegli file}}",
                 "load_more_files_btn": "Carica più file",
                 "hide_file": {
                     "btn_a11y_label": "Nascondi \"{fileName}\" dal media manager",
