@@ -2,32 +2,32 @@
     "fof-moderator-notes": {
         "admin": {
             "permissions": {
-                "createnotes": "",
-                "viewnotes": "",
-                "deletenotes": ""
+                "createnotes": "Luoda moderaattorin huomioita",
+                "viewnotes": "Nähdä moderaattorin huomioita",
+                "deletenotes": "Poistaa moderaattorin huomioita"
             }
         },
         "forum": {
-            "no_content_given": "",
+            "no_content_given": "Huomion sisältö ei voi olla tyhjä.",
             "moderatorNotes": {
-                "created_text": "",
-                "add_button": "",
-                "create-heading": "",
-                "dismiss_button": "",
-                "input_heading": "",
-                "noNotes": "",
-                "submit_button": "",
-                "delete": "",
-                "confirm": ""
+                "created_text": "{username} loi tämän huomion {date}",
+                "add_button": "Uusi huomio",
+                "create-heading": "Luo uusi moderaattorin huomio",
+                "dismiss_button": "Valmis",
+                "input_heading": "Syötä huomiot käyttäjälle <strong>{username}</strong>, (markdown on tuettu)",
+                "noNotes": "Näyttää siltä, että täällä ei ole huomioita.",
+                "submit_button": "Tallenna huomio",
+                "delete": "Poista",
+                "confirm": "Haluatko varmasti poistaa tämän huomion?"
             },
             "user": {
-                "notes": ""
+                "notes": "Moderaattorin huomiot"
             }
         },
         "api": {
-            "auto_note": "",
-            "auto_note_actor": "",
-            "no_reason_provided": ""
+            "auto_note": "_Vaihdoin tähän käyttäjään:_ {reason}",
+            "auto_note_actor": "_Vaihdettu_ @{username}: {reason}",
+            "no_reason_provided": "Syytä ei laitettu"
         }
     }
 }
