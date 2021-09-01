@@ -15,20 +15,20 @@
                 "allow_select_own_post": "Valitse oma viesti",
                 "allow_select_own_post_help": "Salli aloittajan valita oma viesti keskustelusta parhaaksi vastaukseksi",
                 "select_best_answer_reminder_days": "Muistutuksien väli",
-                "select_best_answer_reminder_days_help": "",
-                "schedule_on_one_server": "",
+                "select_best_answer_reminder_days_help": "Lähetä muistutus määritettyjen päivien jälkeen aloitus viestin kirjoittajalle, jotta hän voi valita parhaan vastauksen, 0 = ota muistutus pois käytöstä.",
+                "schedule_on_one_server": "Käytä 'onOneServer()' määritelmää ajastuksia varten",
                 "schedule_on_one_server_help": "Vaatii Redis/Memcache",
                 "schedule_stop_overnight": "Estä muistutuksien lähettämisen haluttuna aikana esim. yöllä",
                 "schedule_stop_overnight_help": "21:00 - 08:00 palvelimen aikaa",
-                "schedule_log_output": "",
+                "schedule_log_output": "Lisää ajastusten tulosteet lokeihin",
                 "use_alt_ui": "Toissijainen ulkoasu",
                 "use_alt_ui_help": "Parhaan vastauksen työkalut viestin alaosassa",
                 "documentation": "Dokumentaatio",
-                "introduction": ""
+                "introduction": "Valitse mitkä avainsanat tukee parhaita vastauksia <code>flarum/tags</code> osiossa, sekä vaihtoehtoisesti mitkä avainsanat tukeavat muistutuksia. Kun paras vastaus on käytössä, aseta oikeudet ryhmille kuka voi asettaa vastauksen parhaaksi (oma keskustelu, mikä tahansa keskustelu. Oikeudet voi määrittää globaalisti (mihin tahansa parhaan vastauksen hyväksyvään avainsanaan) tai avainsanakohtaisesti.\n"
             },
             "edit_tag": {
-                "qna_label": "",
-                "reminders": ""
+                "qna_label": "Ota parhaat vastaukset käyttöön tälle avainsanalla",
+                "reminders": "Lähetä muistutkset parhaista vastauksista tällä avainsanalla"
             }
         },
         "forum": {
