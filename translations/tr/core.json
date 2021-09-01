@@ -491,18 +491,18 @@
         "views": {
             "admin": {
                 "extensions": {
-                    "caption": "",
-                    "disable": "",
-                    "empty": "",
-                    "enable": "",
-                    "name": "",
-                    "package_name": "",
-                    "version": ""
+                    "caption": "=> core.ref.extensions",
+                    "disable": "Etkisizleştir",
+                    "empty": "Yüklenen uzantı yok",
+                    "enable": "Etkinleştir",
+                    "name": "Uzantı Adı",
+                    "package_name": "Paket Adı",
+                    "version": "Sürüm"
                 },
                 "info": {
-                    "caption": ""
+                    "caption": "Uygulama Bilgisi"
                 },
-                "title": ""
+                "title": "Yönetim"
             },
             "confirm_email": {
                 "submit_button": "=> core.ref.confirm_email",
@@ -584,7 +584,7 @@
             "edit": "Düzenle",
             "edit_user": "Kullanıcıyı Düzenle",
             "email": "E-posta",
-            "extensions": "",
+            "extensions": "Uzantılar",
             "icon": "Simge",
             "icon_text": "Herhangi bir <a>FontAwesome</a> simgesi adını <code>fas fa-</code> <em>öneki dahil</em> olarak girin.",
             "load_more": "Daha Fazla Yükle",
