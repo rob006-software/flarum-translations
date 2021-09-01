@@ -2,61 +2,61 @@
     "sycho-move-posts": {
         "admin": {
             "settings": {
-                "moved_first_post_content": "",
-                "moved_first_post_content_help": "",
-                "group_sequential_posts": ""
+                "moved_first_post_content": "Taşınan Tartışma (İlk Gönderi) İçeriği",
+                "moved_first_post_content_help": "Yalnızca tek bir gönderiyle bir tartışma olduğunda bu gönderiyi taşımak, ilk tartışmanın ilk gönderisinin yeni tartışmaya işaret edecek şekilde düzenlenmesine neden olur. O yazının içeriğini buradan düzenleyebilirsiniz.\n",
+                "group_sequential_posts": "Grup sıralı gönderisi, etkinlik gönderilerini tek bir gönderiye taşıdı."
             },
             "permissions": {
-                "move_posts": ""
+                "move_posts": "=> sycho-move-posts.ref.move_posts"
             }
         },
         "forum": {
             "badge": {
-                "first_moved_tooltip": ""
+                "first_moved_tooltip": "Taşındı"
             },
             "discussion": {
-                "move_posts": ""
+                "move_posts": "=> sycho-move-posts.ref.move_posts"
             },
             "error": {
-                "move_old_post_to_newer_discussion": ""
+                "move_old_post_to_newer_discussion": "=> sycho-move-posts.ref.status.old_to_new_move"
             },
             "modal": {
-                "check": "",
-                "destination": "",
-                "discussion_help": "",
-                "discussion_name": "",
-                "new_discussion": "",
-                "selected_posts": "",
+                "check": "İşlem Tipini Kontrol Edin",
+                "destination": "Hedef Tartışma",
+                "discussion_help": "Kaynak tartışmanın etiketleri kullanılacaktır ve oluşturulduktan sonra değiştirilebilir.",
+                "discussion_name": "=> core.forum.composer_discussion.title_placeholder",
+                "new_discussion": "Yeni Tartışma",
+                "selected_posts": "{count, plural, one {Bir Gönderi Seçildi} other {{count} Gönderi Seçildi}}",
                 "status": {
-                    "complex_move": "",
-                    "old_to_new_move": "",
-                    "simple_move": ""
+                    "complex_move": "Karmaşık bir hareket olacak, gönderiler gönderiler arasında eklenecek ve hedef tartışma gönderilerinin eski URL referanslarının da değişmesine neden olacak.",
+                    "old_to_new_move": "=> sycho-move-posts.ref.status.old_to_new_move",
+                    "simple_move": "Basit bir hareket olacak, gönderilerin hepsi tartışmanın sonunda eklenecek."
                 },
-                "submit": "",
-                "title": ""
+                "submit": "İlerle",
+                "title": "=> sycho-move-posts.ref.move_posts"
             },
             "notifications": {
-                "post_moved_text": ""
+                "post_moved_text": "Gönderilerinizden biri veya daha fazlası {targetDiscussionTitle} yarışmasına taşındı."
             },
             "post": {
-                "unmove": "",
-                "move": "",
-                "moving": ""
+                "unmove": "Taşımak için işareti kaldır",
+                "move": "Taşımak için işaretle",
+                "moving": "Gönderi Taşınıyor"
             },
             "post_stream": {
-                "post_moved": ""
+                "post_moved": "{count, plural, one {{username}, gönderinizi {target_discussion} tartışmasına taşıdı.} other {{username}, {count} gönderinizi {target_discussion} tartışmasına taşıdı.}}"
             }
         },
         "ref": {
-            "move_posts": "",
+            "move_posts": "Gönderileri Taşı",
             "status": {
-                "old_to_new_move": ""
+                "old_to_new_move": "Eski bir gönderiyi daha yeni bir tartışmaya taşıyamazsınız."
             }
         },
         "lib": {
             "discussion": {
                 "first_post": {
-                    "default_content": ""
+                    "default_content": "*Bu gönderi **[%DISCUSSION_NAME%](%POST_LINK%)** tartışmasına taşındı.*\n"
                 }
             }
         }
