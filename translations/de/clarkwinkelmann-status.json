@@ -2,24 +2,24 @@
     "clarkwinkelmann-status": {
         "admin": {
             "settings": {
-                "only-countries": "",
-                "enable-text": ""
+                "only-countries": "Nur Länderflaggen",
+                "enable-text": "Textstatus zulassen"
             },
             "permissions": {
-                "see": "",
-                "set": "",
-                "mod": ""
+                "see": "Status anzeigen",
+                "set": "Status definieren",
+                "mod": "Mittlerer Benutzerstatus"
             }
         },
         "forum": {
             "menu": {
-                "set-status": ""
+                "set-status": "Setzen Sie einen Status"
             },
             "modal": {
-                "title": "",
-                "text-placeholder": "",
-                "submit": "",
-                "clear": ""
+                "title": "Status setzen",
+                "text-placeholder": "Was ist los?",
+                "submit": "Absenden",
+                "clear": "Leeren"
             }
         }
     }
