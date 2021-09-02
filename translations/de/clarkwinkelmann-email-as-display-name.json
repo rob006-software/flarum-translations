@@ -2,16 +2,16 @@
     "clarkwinkelmann-email-as-display-name": {
         "admin": {
             "permissions": {
-                "view-own": "",
-                "view-all": ""
+                "view-own": "E-Mail im eigenen Profil anzeigen",
+                "view-all": "E-Mails in allen Profilen anzeigen"
             },
             "settings": {
-                "remove-username-registration": ""
+                "remove-username-registration": "Benutzername aus dem Registrierungsformular entfernen"
             }
         },
         "forum": {
             "log_in": {
-                "username_or_email_placeholder": ""
+                "username_or_email_placeholder": "=> core.ref.email"
             }
         }
     }
