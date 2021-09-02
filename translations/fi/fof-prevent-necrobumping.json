@@ -3,23 +3,23 @@
         "forum": {
             "composer": {
                 "warning": {
-                    "title": "",
-                    "description": "",
-                    "checkbox_label": "",
-                    "error": ""
+                    "title": "Tämä keskustelu on yli <b>{time}</b> vanha.",
+                    "description": "On todennäköistä, että tämä aihe on käsitelty jo ja ei tarvitse enää lisää keskustelua joten aiheen nostaminen on turhaa.",
+                    "checkbox_label": "Ymmärrän, että keskustelu on suhteellisen vanha, mutta haluan silti vastata.",
+                    "error": "Tämä keskustelu on liian vanha uusille vastauksille."
                 }
             }
         },
         "admin": {
             "settings": {
-                "days_label": "",
-                "days_help": "",
-                "message_title_label": "",
-                "message_title_help": "",
-                "message_description_label": "",
-                "message_agreement_label": "",
-                "tags_title": "",
-                "tags_help": ""
+                "days_label": "Päivät",
+                "days_help": "Keskustelu merkitään vanhaksi kun valittu määrä päiviä on mennyt viimeisimmästä viestistä keskusteluun.  Käytä arvoa <code>0</code> ottaaksesi tämän pois käytöstä oletuksena.",
+                "message_title_label": "Muokattu viestin otsikko",
+                "message_title_help": "Käytä <code>[time]</code> ajan määreeksi, esim. \"14 päivää\".",
+                "message_description_label": "Muokatun viestin kuvaus",
+                "message_agreement_label": "Muokatun viestin hyväksyntä (valintalaatikko)",
+                "tags_title": "Avainsanat",
+                "tags_help": "Ohita yleinen määritys päivien määrästä tietylle avainsanalla. Tyhjä arvo tarkoittaa, että käytetään oletusarvoa. Jos keskustelulla on useampi avainsana eri päivä arvoilla, käytetään pienintä määritettyä päivä arvoa."
             }
         }
     }
