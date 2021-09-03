@@ -1,0 +1,92 @@
+{
+    "flarum-tags": {
+        "admin": {
+            "basics": {
+                "tags_label": "=> flarum-tags.ref.tags"
+            },
+            "edit_tag": {
+                "color_label": "=> core.ref.color",
+                "delete_tag_button": "Xóa thẻ",
+                "delete_tag_confirmation": "Bạn có chắc chắn muốn xóa thẻ này không? Các cuộc thảo luận của tag sẽ KHÔNG bị xóa.",
+                "description_label": "Mô tả",
+                "hide_label": "Ẩn khỏi Tất cả các cuộc thảo luận",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "=> flarum-tags.ref.name",
+                "name_placeholder": "=> flarum-tags.ref.name",
+                "slug_label": "Slug",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Tạo thẻ"
+            },
+            "nav": {
+                "tags_button": "=> flarum-tags.ref.tags",
+                "tags_text": "Quản lý danh sách thẻ có sẵn để tạo các cuộc thảo luận."
+            },
+            "permissions": {
+                "allow_edit_tags_label": "Cho phép chỉnh sửa thẻ",
+                "bypass_tag_counts_label": "Bỏ qua các yêu cầu về thẻ",
+                "restrict_by_tag_heading": "Hạn chế bằng thẻ",
+                "tag_discussions_label": "Thẻ cuộc thảo luận"
+            },
+            "tag_settings": {
+                "range_separator_text": " đến ",
+                "required_primary_heading": "Số lượng thẻ chính được yêu cầu",
+                "required_primary_text": "Nhập số lượng thẻ chính tối thiểu và tối đa áp dụng cho cuộc thảo luận.",
+                "required_secondary_heading": "Số lượng thẻ phụ được yêu cầu",
+                "required_secondary_text": "Nhập số lượng thẻ phụ tối thiểu và tối đa áp dụng cho cuộc thảo luận.",
+                "title": "Cài đặt thẻ"
+            },
+            "tags": {
+                "about_tags_text": "Thẻ sử dụng để phân loại các cuộc thảo luận. Các thẻ chính giống như các danh mục diễn đàn: chúng có thể được sắp xếp theo hệ thống phân cấp hai cấp. Các thẻ phụ không có thứ bậc hoặc thứ tự và rất hữu ích cho việc phân loại.",
+                "create_primary_tag_button": "Tạo thẻ chính",
+                "create_secondary_tag_button": "Tạo thẻ phụ",
+                "primary_heading": "Thẻ chính",
+                "secondary_heading": "Thẻ phụ",
+                "settings_heading": "Thiết lập"
+            }
+        },
+        "forum": {
+            "all_tags": {
+                "meta_description_text": "Tất cả thẻ",
+                "meta_title_text": "=> flarum-tags.ref.tags"
+            },
+            "choose_tags": {
+                "choose_primary_placeholder": "{count, plural, one {Chọn thẻ chính} other {Chọn # thẻ chính}}",
+                "choose_secondary_placeholder": "{count, plural, one {Chọn một thẻ phụ} other {Chọn # thẻ phụ}}",
+                "edit_title": "Chỉnh sửa cho thẻ {title}",
+                "submit_button": "=> core.ref.okay",
+                "title": "Chọn thẻ cho cuộc thảo luận của bạn"
+            },
+            "composer_discussion": {
+                "choose_tags_link": "Chọn thẻ"
+            },
+            "discussion_controls": {
+                "edit_tags_button": "Chỉnh sửa thẻ"
+            },
+            "header": {
+                "back_to_tags_tooltip": "Trở lại danh sách thẻ"
+            },
+            "index": {
+                "more_link": "Thêm...",
+                "tags_link": "=> flarum-tags.ref.tags",
+                "untagged_link": "Không được gắn thẻ"
+            },
+            "post_stream": {
+                "added_and_removed_tags_text": "{username} đã thêm {tagsAdded} và gỡ {tagsRemoved}.",
+                "added_tags_text": "{username} đã thêm {tagsAdded}.",
+                "removed_tags_text": "{username} đã gỡ {tagsRemoved}.",
+                "tags_text": "{count, plural, one {{tags} thẻ} other {{tags} thẻ}}"
+            },
+            "tag": {
+                "meta_description_text": "Tất cả các cuộc thảo luận với thẻ {tag}"
+            }
+        },
+        "lib": {
+            "deleted_tag_text": "Đã xóa"
+        },
+        "ref": {
+            "name": "Tên",
+            "tags": "Thẻ"
+        }
+    }
+}
