@@ -1,0 +1,88 @@
+{
+    "core": {
+        "forum": {
+            "index_sort": {
+                "hot_button": "Thịnh hành"
+            }
+        }
+    },
+    "fof-gamification": {
+        "forum": {
+            "votes": "bình chọn",
+            "vote_title": "Hiển thị ai đã bình chọn",
+            "nav": {
+                "name": "Xếp hạng"
+            },
+            "ranking": {
+                "rank": "Vị trí",
+                "name": "Người dùng",
+                "amount": "Điểm"
+            },
+            "notification": {
+                "upvote": "{username} tán thành bài đăng của bạn",
+                "downvote": "{username} phản đối bài đăng của bạn"
+            },
+            "user": {
+                "points": "Điểm: {points}",
+                "rank": "{rank}"
+            },
+            "modal": {
+                "title": "Người bình chọn",
+                "upvotes_label": "Người tán thành:"
+            },
+            "mod_item": "Xem người bình chọn"
+        },
+        "admin": {
+            "permissions": {
+                "vote_label": "tán thành/Phản đối bài đăng",
+                "see_votes_label": "Xem bài đăng tán thành/phản đối",
+                "see_ranking_page": "Xem trang xếp hạng"
+            },
+            "page": {
+                "rankings": {
+                    "blocked": {
+                        "placeholder": "CDK2020, Ralkage, AngelAvila",
+                        "title": "Người dùng bị Bỏ qua",
+                        "help": "Những người dùng này sẽ không được hiển thị trên trang xếp hạng. Tên người dùng phải được phân tách bằng dấu phẩy theo sau là dấu cách."
+                    },
+                    "title": "Trang xếp hạng",
+                    "enable": "Bật hình ảnh tùy chỉnh",
+                    "custom_image_1": "Hình ảnh vị trí thứ nhất",
+                    "custom_image_2": "Hình ảnh vị trí thứ 2",
+                    "custom_image_3": "Hình ảnh vị trí thứ 3"
+                },
+                "votes": {
+                    "points_title": "Tiêu đề điểm",
+                    "points_placeholder": "Điểm: ",
+                    "color_holder": "#ffffff",
+                    "auto_upvote": "Tự động tán thành bài đăng khi được đăng",
+                    "rate_limit": "Thực thi giới hạn tỷ lệ bình chọn (10 giây)",
+                    "discussion_page": "Hiển thị tổng số phiếu bầu của bài đăng gốc trên danh sách thảo luận",
+                    "alternate_layout": "Sử dụng bố cục thay thế để hiển thị và/hoặc tán thành/phản đối",
+                    "title": "Bình chọn",
+                    "vote_color": "Màu bình chọn",
+                    "icon_name": "Biểu tượng tán thành/phản đối",
+                    "icon_help": "Nhập bất kỳ biểu tượng Font-Awesome nào đi kèm với -up và -down. Ví dụ: mũi tên, ngón tay cái, ..."
+                },
+                "save_settings": "Lưu thiết lập",
+                "convert": {
+                    "button": "Chuyển đổi lượt thích thành lượt tán thành",
+                    "help": "Chuyển đổi lượt thích trước đây của bạn từ lượt thích ngoài flarum thành lượt tán thành, cũng như tính toán mức độ hot cho tất cả các cuộc thảo luận hiện tại.",
+                    "converting": "Lượt thích của bạn hiện đang được chuyển đổi. Làm mới trang web của bạn sau vài phút để xem quá trình kết thúc. (Thời gian chuyển đổi có thể mất một lúc tùy thuộc vào tổng số lượt thích diễn đàn của bạn)",
+                    "converted": "Đã chuyển đổi thành công tất cả {number} lượt thích"
+                },
+                "ranks": {
+                    "title": "Xếp hạng",
+                    "ranks": "Tùy chỉnh xếp hạng",
+                    "number_title": "Có bao nhiêu huy hiệu cấp bậc nên được hiển thị?",
+                    "help": {
+                        "color": "#ffffff",
+                        "help": "Nhập số phiếu tán thành bắt buộc, tên của xếp hạng và màu hex của xếp hạng",
+                        "points": "Điểm",
+                        "name": "Tên"
+                    }
+                }
+            }
+        }
+    }
+}
