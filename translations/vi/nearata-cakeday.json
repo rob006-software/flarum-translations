@@ -1,0 +1,37 @@
+{
+    "nearata-cakeday": {
+        "admin": {
+            "permissions": {
+                "can_view_anniversaries_page": "Xem trang ngày kỷ niệm"
+            },
+            "settings": {
+                "anniversaries_page_label": "Bật trang ngày kỷ niệm",
+                "cake_bg_color_label": "Màu nền",
+                "cake_bg_color_help": "Trợ giúp: Cài đặt này thay đổi màu nền bánh. Để trống thành mặc định.",
+                "cake_txt_color_label": "Màu icon",
+                "cake_txt_color_help": "Trợ giúp: Cài đặt này thay đổi màu văn bản bánh. Để trống thành mặc định.",
+                "new_members": "Hiển thị biểu tượng bánh cho các thành viên mới",
+                "new_members_howlong": "(Thành viên mới) Trong bao lâu",
+                "new_members_howlong_help": "Thể hiện bằng ngày.",
+                "new_members_changelabel": "(Thành viên mới) Thay đổi nhãn thành: Thành viên mới"
+            }
+        },
+        "forum": {
+            "anniversary": "Ngày kỷ niệm",
+            "new_member_label": "Thành viên mới",
+            "page": {
+                "anniversaries_between_label": "Ngày kỷ niệm giữa {date1} và {date2}",
+                "anniversaries_for_label": "Ngày kỷ niệm cho {date}",
+                "empty": "Không có ngày kỷ niệm.",
+                "filter_options": {
+                    "today": "Hôm nay",
+                    "tomorrow": "Ngày mai",
+                    "upcoming": "Sắp tới",
+                    "all": "Tất cả"
+                },
+                "load_more_button": "Tải thêm",
+                "title": "Ngày kỉ niệm"
+            }
+        }
+    }
+}
