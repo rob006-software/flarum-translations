@@ -1,0 +1,29 @@
+{
+    "tituspijean-auth-ldap": {
+        "forum": {
+            "log_in_with": "Đăng nhập bằng {server}",
+            "log_out": "=> core.ref.log_out"
+        },
+        "admin": {
+            "settings": {
+                "title": "Thiết lập LDAP",
+                "method_name": "Tên máy chủ LDAP (sẽ xuất hiện sau \"Đăng nhập bằng\")",
+                "hosts": "Miền LDAP hoặc địa chỉ IP máy chủ (được phân tách bằng dấu phẩy)",
+                "base_dn": "DN cơ bản (phân tách bằng dấu chấm phẩy)",
+                "filter": "Bộ lọc để áp dụng (tùy chọn)",
+                "port": "port",
+                "account_prefix": "Tiền tố tài khoản",
+                "account_suffix": "Hậu tố tài khoản",
+                "admin_dn": "Tên phân biệt của quản trị viên LDAP (để trống cho liên kết ẩn danh)",
+                "admin_password": "Mật khẩu quản trị LDAP (để trống cho ràng buộc ẩn danh)",
+                "search_user_fields": "Các trường tìm kiếm của người dùng LDAP (được phân tách bằng dấu phẩy)",
+                "user_mail": "Trường EMAIL người dùng LDAP",
+                "user_username": "Trường tên người dùng LDAP",
+                "follow_referrals": "Thực hiện theo các giới thiệu để liên kết với máy chủ LDAP",
+                "use_ssl": "Sử dụng SSL",
+                "use_tls": "Sử dụng TLS",
+                "onlyUse": "Ẩn phương thức đăng nhập tiêu chuẩn Flarum"
+            }
+        }
+    }
+}
