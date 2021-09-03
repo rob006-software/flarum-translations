@@ -1,0 +1,37 @@
+{
+    "davwheat": {
+        "ads": {
+            "admin": {
+                "settings": {
+                    "enabled_locations": "Vị trí quảng cáo",
+                    "code_input": "Mã quảng cáo cho \"{for}\"",
+                    "code_input_disabled": "Kích hoạt vị trí này để chỉnh sửa mã HTML.",
+                    "pub_id": "ID nhà xuất bản AdSense",
+                    "between_posts_gap": "Giữa các bài viết: khoảng cách giữa các quảng cáo",
+                    "allow_after_placeholder": "Giữa các bài viết: hiển thị quảng cáo sau khi trả lời",
+                    "save_btn": {
+                        "dirty": "Lưu thay đổi",
+                        "saving": "Đang lưu...",
+                        "saved": "Tất cả thay đổi đã được lưu lại",
+                        "fix_errors": "Khắc phục các lỗi trước khi lưu"
+                    },
+                    "alert": {
+                        "fix_errors": "Vui lòng khắc phục các lỗi phía trên trước khi lưu các thay đổi",
+                        "code_has_script": "Một hoặc nhiều quảng cáo của bạn chứa thẻ script, không được phép. Hãy xóa những thứ này và thử lại."
+                    },
+                    "warning": "Mã quảng cáo <b>CHỈ</b> được chứa thẻ <code>ins</code> chứ không được chứa các thẻ script nào khác. Script sẽ tự động chạy bởi tiện ích này.\n"
+                }
+            },
+            "lib": {
+                "locations": {
+                    "discussion_header": "Trang thảo luận (bên dưới đầu trang)",
+                    "discussion_sidebar": "Thanh điều hướng cuộc thảo luận [CHỈ MÁY TÍNH BÀN]",
+                    "header": "Đầu trang",
+                    "sidebar": "Thanh điều hướng [CHỈ MÁY TÍNH BÀN]",
+                    "footer": "Chân trang",
+                    "between_posts": "Giữa các bài viết"
+                }
+            }
+        }
+    }
+}
