@@ -1,0 +1,115 @@
+{
+    "fof-webhooks": {
+        "actions": {
+            "discussion": {
+                "started": "Đã đăng cuộc thảo luận `{1}`",
+                "renamed": {
+                    "title": "Đã thay dổi tiêu đề cuộc thảo luận `{1}`",
+                    "description": "Tiêu đề mới: {1}"
+                },
+                "hidden": "Đã ẩn cuộc thảo luận `{1}`",
+                "restored": "Đã khôi phục cuộc thảo luận `{1}`",
+                "deleted": "Đã xóa cuộc thảo luận `{1}`"
+            },
+            "group": {
+                "created": "Đã tạo nhóm `{1}`",
+                "renamed": "Đã đổi tên một nhóm thành `{1}`",
+                "deleted": "Đã xóa nhóm `{1} '"
+            },
+            "post": {
+                "posted": "Bài viết mới trong `{1}`",
+                "revised": "Đã sửa bài viết trong `{1}`",
+                "hidden": "Đã ẩn bài viết trong `{1}`",
+                "restored": "Đã khôi phục bài viết trong `{1}`",
+                "deleted": "Đã xóa bài viết trong `{1}`"
+            },
+            "user": {
+                "registered": "Người dùng mới đã đăng ký",
+                "renamed": {
+                    "title": "Đã thay đổi tên người dùng của `{1}`",
+                    "description": "Tên người dùng mới: {1}"
+                },
+                "deleted": "Người dùng đã bị xóa `{1}`"
+            }
+        },
+        "adapters": {
+            "errors": {
+                "404": "Không tìm thấy Webhook"
+            }
+        },
+        "admin": {
+            "errors": {
+                "service_not_found": "Không thể tìm thấy dịch vụ '{service}'.",
+                "url_invalid": "URL không hợp lệ cho dịch vụ đã chọn."
+            },
+            "nav": {
+                "desc": "Các webhook gửi đi có thể tùy chỉnh cho diễn đàn của bạn."
+            },
+            "settings": {
+                "item": {
+                    "tag_any_label": "Bất kì"
+                },
+                "help": {
+                    "disabled": "Webhook này bị vô hiệu hóa vì nó không có bất kỳ sự kiện nào được bật.",
+                    "general": "Tại đây, bạn có thể thêm, chỉnh sửa và xóa các webhook khỏi diễn đàn của mình.",
+                    "url": "Điểm cuối của webhook sẽ được thực thi"
+                },
+                "modal": {
+                    "title": "Thiết lập Webhook",
+                    "description": "Tại đây, bạn sửa đổi những sự kiện mà webhook được kích hoạt.",
+                    "use_plain_text_label": "Giảm số lượng định dạng trong nội dung bài đăng",
+                    "max_post_content_length_label": "Độ dài tối đa nội dung bài viết",
+                    "max_post_content_length_help": "Đặt một số để giới hạn nội dung bài đăng trong tất cả các sự kiện liên quan đến bài đăng. Thay đổi thành 0 hoặc không có gì để xóa giới hạn.",
+                    "extra_text_label": "Văn bản bổ sung",
+                    "extra_text_help": "Văn bản bổ sung để đưa vào webhook đã gửi.",
+                    "group_label": "Nhóm",
+                    "group_help": "Gửi tài nguyên mà nhóm này có thể nhìn thấy",
+                    "events_label": "Sự kiện"
+                },
+                "services": {
+                    "discord": "Discord",
+                    "slack": "Slack",
+                    "microsoft-teams": "Microsoft Teams"
+                },
+                "actions": {
+                    "flarum": {
+                        "discussion": {
+                            "title": "Cuộc thảo luận Flarum",
+                            "started": "Đã đăng thảo luận",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "hidden": "=> fof-webhooks.ref.hidden",
+                            "restored": "=> fof-webhooks.ref.restored",
+                            "deleted": "=> fof-webhooks.ref.deleted"
+                        },
+                        "group": {
+                            "title": "Nhóm Flarum",
+                            "created": "Đã tạo",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "deleted": "=> fof-webhooks.ref.deleted"
+                        },
+                        "post": {
+                            "title": "Bài viết Flarum",
+                            "posted": "Đã đăng",
+                            "revised": "Đã chỉnh sửa",
+                            "hidden": "=> fof-webhooks.ref.hidden",
+                            "restored": "=> fof-webhooks.ref.restored",
+                            "deleted": "=> fof-webhooks.ref.deleted"
+                        },
+                        "user": {
+                            "title": "Người dùng Flarum",
+                            "registered": "Đã đăng ký",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "deleted": "=> fof-webhooks.ref.deleted"
+                        }
+                    }
+                }
+            }
+        },
+        "ref": {
+            "deleted": "Đã xóa",
+            "hidden": "Đã ẩn",
+            "renamed": "Đã đổi tên",
+            "restored": "Đã khôi phục"
+        }
+    }
+}
