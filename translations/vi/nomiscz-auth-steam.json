@@ -1,0 +1,41 @@
+{
+    "nomiscz-auth-steam": {
+        "forum": {
+            "buttons": {
+                "login": "Đăng nhập bằng Steam",
+                "link": "Liên kết tài khoản Steam",
+                "unlink": "Hủy liên kết tài khoản Steam"
+            },
+            "alerts": {
+                "already_linked": "Tài khoản Steam đã được liên kết!",
+                "already_used": "Tài khoản Steam đã được liên kết với một người dùng khác!",
+                "link_success": "Liên kết tài khoản Steam thành công.",
+                "unlink_success": "Hủy liên kết tài khoản Steam thành công.",
+                "error": "Đã xảy ra lỗi, vui lòng thử lại sau!"
+            },
+            "modals": {
+                "link": {
+                    "title": "Liên kết tài khoản Steam"
+                },
+                "unlink": {
+                    "title": "Hủy liên kết tài khoản Steam",
+                    "info": {
+                        "confirm": "Bạn có chắc chắn muốn hủy liên kết tài khoản Steam của mình không?",
+                        "no_providers": "Bạn không có bất kỳ nhà cung cấp đăng nhập nào khác! Có thể bạn sẽ phải đặt lại mật khẩu của mình."
+                    },
+                    "buttons": {
+                        "confirm": "Có, hủy liên kết",
+                        "cancel": "Thôi"
+                    }
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "title": "Thiết lập xác thực Steam",
+                "api_key_label": "Mã API",
+                "use_steam_powered_domain": "Sử dụng miền steampowered.com thay vì steamcommunity.com (bị chặn ở Trung Quốc)"
+            }
+        }
+    }
+}
