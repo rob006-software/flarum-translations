@@ -1,0 +1,25 @@
+{
+    "flarum-sticky": {
+        "admin": {
+            "permissions": {
+                "sticky_discussions_label": "Ghim bài viết"
+            }
+        },
+        "forum": {
+            "badge": {
+                "sticky_tooltip": "=> flarum-sticky.ref.sticky"
+            },
+            "discussion_controls": {
+                "sticky_button": "=> flarum-sticky.ref.sticky",
+                "unsticky_button": "Gỡ ghim"
+            },
+            "post_stream": {
+                "discussion_stickied_text": "{username} đã ghim cuộc thảo luận.",
+                "discussion_unstickied_text": "{username} đã gỡ ghim cuộc thảo luận."
+            }
+        },
+        "ref": {
+            "sticky": "Ghim"
+        }
+    }
+}
