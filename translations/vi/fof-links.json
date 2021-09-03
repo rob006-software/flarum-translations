@@ -1,0 +1,34 @@
+{
+    "fof-links": {
+        "admin": {
+            "edit_link": {
+                "delete_link_button": "Xóa liên kết",
+                "delete_link_confirmation": "Bạn có chắc chắn muốn xóa liên kết này không?",
+                "everyone-label": "Tất cả mọi người",
+                "guests-label": "Khách",
+                "internal_link": "Đây có phải là liên kết nội bộ?",
+                "members-label": "Người dùng đã đăng ký",
+                "open_newtab": "Mở liên kết trong tab mới",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> fof-links.ref.create_link",
+                "title_label": "=> fof-links.ref.title",
+                "title_placeholder": "=> fof-links.ref.title",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "url_label": "=> fof-links.ref.url",
+                "url_placeholder": "=> fof-links.ref.url",
+                "visibility": "Khả năng hiển thị liên kết"
+            },
+            "links": {
+                "create_button": "=> fof-links.ref.create_link",
+                "links": "=> fof-links.ref.links"
+            }
+        },
+        "ref": {
+            "create_link": "Tạo liên kết",
+            "links": "Liên kết",
+            "title": "Tiêu đề",
+            "url": "URL"
+        }
+    }
+}
