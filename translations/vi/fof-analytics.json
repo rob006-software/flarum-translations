@@ -1,0 +1,38 @@
+{
+    "fof-analytics": {
+        "admin": {
+            "popup": {
+                "section": {
+                    "googleAnalytics": "Google Analytics",
+                    "piwik": "Matomo"
+                },
+                "field": {
+                    "statusGoogle": "Bật Google Analytics",
+                    "optTrackingCode": "Tối ưu hóa mã theo dõi (tùy chọn)",
+                    "googleTrackingCode": "Mã theo dõi ID",
+                    "googleGTMCode": "ID mã GTM (tùy chọn)",
+                    "statusPiwik": "Bật Matomo",
+                    "piwikUrl": "Tên miền hoặc URL Matomo",
+                    "piwikSiteId": "ID trang",
+                    "piwikTrackSubdomain": "Theo dõi khách truy cập trên tất cả các miền phụ của Flarum",
+                    "piwikPrependDomain": "Thêm tên miền trang web vào tiêu đề trang khi theo dõi",
+                    "piwikHideAliasUrl": "Trong báo cáo \"Liên kết ngoài\", hãy ẩn các nhấp chuột đến các URL bí danh đã biết",
+                    "piwikAliasUrl": "URL bí danh",
+                    "piwikTrackAccounts": "Theo dõi tài khoản người dùng cá nhân",
+                    "piwikAuthToken": "Mã xác thực"
+                },
+                "placeholder": {
+                    "piwikAuthToken": "Điền mã thông báo này để kích hoạt tiện ích con số liệu thống kê Matomo trong bảng điều khiển quản trị.\nBạn có thể tìm thấy nó trong Cài đặt > Cá nhân > Mã xác thực API.\n"
+                },
+                "trackAccounts": {
+                    "none": "Không theo dõi",
+                    "username": "Theo dõi qua tên người dùng",
+                    "email": "Theo dõi qua email"
+                }
+            },
+            "matomo-widget": {
+                "title": "Matomo"
+            }
+        }
+    }
+}
