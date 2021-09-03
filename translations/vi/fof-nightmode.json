@@ -1,0 +1,43 @@
+{
+    "fof-nightmode": {
+        "ref": {
+            "auto": "Tự động (dựa trên trình duyệt hoặc thiết bị)",
+            "light": "Chế độ sáng",
+            "dark": "Chế độ tối"
+        },
+        "admin": {
+            "settings": {
+                "modal": {
+                    "default_theme": "Chủ đề mặc định",
+                    "default_theme_helper": "Chủ đề mặc định được đặt tự động cho người dùng và khách.",
+                    "theme_auto": "=> fof-nightmode.ref.auto",
+                    "theme_light": "=> fof-nightmode.ref.light",
+                    "theme_dark": "=> fof-nightmode.ref.dark"
+                }
+            }
+        },
+        "forum": {
+            "day": "=> fof-nightmode.ref.light",
+            "night": "=> fof-nightmode.ref.dark",
+            "user": {
+                "settings": {
+                    "heading": "Chủ đề",
+                    "description": "Chọn chủ đề màu bạn muốn sử dụng trên diễn đàn.",
+                    "description2": "Chủ đề này sẽ được liên kết với tài khoản của bạn và áp dụng cho tất cả các thiết bị của bạn trừ khi bạn bật nút chuyển bên dưới cho từng cài đặt thiết bị.",
+                    "device_specific_setting_checkbox": "Sử dụng cho mỗi cài đặt thiết bị",
+                    "device_specific_setting_checkbox_tooltip": "Lựa chọn chủ đề của bạn sẽ được lưu riêng cho từng thiết bị của bạn.",
+                    "options": {
+                        "auto": "=> fof-nightmode.ref.auto",
+                        "day": "=> fof-nightmode.ref.light",
+                        "night": "=> fof-nightmode.ref.dark"
+                    },
+                    "option_descriptions": {
+                        "auto": "Chủ đề của bạn sẽ được tự động chọn dựa trên cài đặt trình duyệt hoặc thiết bị của bạn. Ví dụ, nếu bạn đã bật chế độ tối trong iOS, các diễn đàn cũng sẽ tối.",
+                        "day": "Trải nghiệm cổ điển mà bạn đã từng làm. Yêu thích và thử nghiệm.",
+                        "night": "Bạn là một con cú đêm. Bạn xem diễn đàn vào ban đêm, trong khi những con chim đang ngủ và những con cáo đang đi săn. Hoặc bạn chỉ thích màu tối hơn!"
+                    }
+                }
+            }
+        }
+    }
+}
