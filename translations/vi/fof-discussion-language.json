@@ -1,0 +1,40 @@
+{
+    "fof-discussion-language": {
+        "forum": {
+            "change_language": {
+                "edit_title": "Chỉnh sửa ngôn ngữ cho {title}",
+                "title": "Chỉnh sửa ngôn ngữ",
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "composer_discussion": {
+                "choose_language_link": "Ngôn ngữ"
+            },
+            "discussion_controls": {
+                "change_language_button": "Cài ngôn ngữ"
+            },
+            "index_language": {
+                "any": "Mọi ngôn ngữ"
+            }
+        },
+        "admin": {
+            "settings": {
+                "native_label": "Sử dụng ngôn ngữ chính",
+                "show_flag_label": "Hiển thị cờ với tên ngôn ngữ",
+                "composer_default_label": "Chọn trước ngôn ngữ hiện tại trong trình soạn thảo thảo luận",
+                "locale_sort_label": "Sử dụng ngôn ngữ được phát hiện cho bộ lọc thảo luận mặc định",
+                "show_any_lang_opt_label": "Hiển thị tuỳ chọn để chọn \"Mọi ngôn ngữ\"",
+                "errors": {
+                    "loading_data": "Đã xảy ra lỗi khi truy xuất dữ liệu ngôn ngữ và quốc gia. Thử tắt và bật lại tiện ích."
+                }
+            },
+            "permissions": {
+                "allow_change_language_label": "Cho phép chỉnh sửa ngôn ngữ"
+            }
+        },
+        "api": {
+            "discussion": {
+                "validation_error": "Bạn phải chọn ngôn ngữ cho cuộc thảo luận của mình."
+            }
+        }
+    }
+}
