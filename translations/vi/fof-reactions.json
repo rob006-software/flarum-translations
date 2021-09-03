@@ -1,0 +1,59 @@
+{
+    "fof-reactions": {
+        "forum": {
+            "disabled-reaction": "Bạn không thể sử dụng biểu cảm này ngay bây giờ, vui lòng làm mới trang",
+            "warning": "Biểu cảm của bạn đã được chuyển đổi",
+            "notification": "{username} đã bày tỏ cảm xúc {reaction} với bài viết của bạn",
+            "settings": {
+                "notify_post_reacted_label": "Ai đó bày tỏ cảm xúc với những bài đăng của tôi"
+            },
+            "reacting-own-post": "Bạn không thể bày tỏ cảm xúc với bài đăng của chính mình",
+            "modal": {
+                "title": "Bày tỏ cảm xúc"
+            },
+            "mod_item": "Xem bày tỏ cảm xúc"
+        },
+        "admin": {
+            "permissions": {
+                "react_posts_label": "Bày tỏ cảm xúc với bài viết",
+                "see_reactions_label": "Xem ai đã bày tỏ cảm xúc trên các bài đăng"
+            },
+            "page": {
+                "reactions": {
+                    "title": "Tùy chỉnh biểu cảm",
+                    "reactions": "Biểu cảm hiện tại",
+                    "Helptext": "Nhập tên (số nhận dạng) của biểu tượng cảm xúc hoặc biểu tượng phông chữ tuyệt vời và chọn loại bạn muốn.",
+                    "help": {
+                        "display": "Hiển thị",
+                        "identifier": "Số nhận dạng"
+                    }
+                },
+                "convert": {
+                    "help": "Nếu bạn vừa cập nhật tiện ích mở rộng của mình, biểu cảm của bạn sẽ phải được chuyển đổi. Nếu bạn vừa cài đặt tiện ích mở rộng này, bạn có thể bỏ qua thông báo này một cách an toàn.",
+                    "button": "Chuyển sang biểu cảm cũ",
+                    "converting": "Biểu cảm của bạn hiện đang chuyển đổi. Làm mới trang web của bạn sau vài phút để xem quá trình kết thúc. (Thời gian chuyển đổi có thể mất một lúc tùy thuộc vào tổng số Biểu cảm của bạn)",
+                    "converted": "Đã chuyển đổi thành công tất cả {number} lượt thích"
+                },
+                "settings": {
+                    "save_settings": "Lưu thay đổi",
+                    "integrations": {
+                        "legend": "Tích hợp",
+                        "warning": "Biểu cảm giống nhau <strong>không thể</strong> chuyển thành ủng hộ",
+                        "gamification": {
+                            "legend": "Gamification",
+                            "upvoteLabel": "Chuyển đổi biểu cam thành ủng hộ",
+                            "upvoteHelptext": "Nhập mã nhận dạng của biểu cam bạn muốn tự động chuyển đổi thành ủng hộ",
+                            "downvoteLabel": "Chuyển đổi biểu cam thành phản đối",
+                            "downvoteHelptext": "Nhập mã nhận dạng của biểu cam mà bạn muốn tự động chuyển đổi thành phản đối"
+                        },
+                        "likes": {
+                            "legend": "Thích",
+                            "Label": "Chuyển biểu cảm sang lượt thích",
+                            "Helptext": "Nhập mã nhận dạng của biểu cảm bạn muốn tự động chuyển đổi thành biểu cảm tương tự"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
