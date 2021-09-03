@@ -1,0 +1,47 @@
+{
+    "clarkwinkelmann-group-invitation": {
+        "forum": {
+            "title": "Bạn được mời tham gia nhóm {group}!",
+            "generic-title": "Lời mời nhóm",
+            "user": {
+                "already-connected": "Chúng tôi sẽ thêm nhóm {group} vào {tên người dùng}. Không đúng người dùng? <a>Đăng nhập vào tài khoản khác</a>.\n",
+                "not-connected": "<a>Đăng nhập</a> để chấp nhận lời mời.",
+                "not-authorized": "Người dùng hiện tại của bạn {username} không có quyền tham gia nhóm. <a>Đăng nhập vào tài khoản khác</a>.",
+                "already-member": "Tin vui, người dùng {username} của bạn đã là thành viên của nhóm {group}! Bạn muốn tham gia nhóm với người dùng khác? <a>Đăng nhập vào tài khoản khác</a>.\n"
+            },
+            "invitation": {
+                "not-found": "Xin lỗi, không tìm thấy lời mời nhóm này.",
+                "no-usages-left": "Lời mời nhóm này không thể được sử dụng nữa."
+            },
+            "apply": "Tham gia nhóm",
+            "success-alert": "Bạn đã tham gia nhóm thành công!"
+        },
+        "admin": {
+            "permissions": {
+                "use": "Sử dụng liên kết mời nhóm"
+            },
+            "settings": {
+                "head": {
+                    "code": "Mã",
+                    "group": "Nhóm",
+                    "usage": "Sử dụng"
+                },
+                "placeholder": {
+                    "code": "Tự động tạo",
+                    "group": "Chọn...",
+                    "usage": "Để trống cho không giới hạn"
+                },
+                "empty": "Không có lời mời nào được tạo cho đến nay.",
+                "unlimited": "không giới hạn",
+                "create": "Tạo",
+                "delete": "Nhóm"
+            }
+        },
+        "api": {
+            "error": {
+                "not-found": "Không tìm thấy mã lời mời",
+                "no-usages-left": "Lời mời không khả dụng"
+            }
+        }
+    }
+}
