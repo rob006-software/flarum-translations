@@ -1,0 +1,26 @@
+{
+    "fof-pretty-mail": {
+        "admin": {
+            "nav": {
+                "desc": "Tùy chỉnh mẫu HTML email của bạn"
+            },
+            "settings": {
+                "label": "Mẫu email",
+                "reset": "Khôi phục mặc định",
+                "confirm": "Bạn có chắc chắn muốn hoàn nguyên về mẫu email có sẵn cho",
+                "default": "Mẫu mặc định",
+                "newPost": "Flarum/đăng ký Email Bài đăng mới",
+                "userMentioned": "Flarum/đề cập đến Email do người dùng đề cập",
+                "postMentioned": "Flarum/đề cập đến Bài viết Email được Đề cập",
+                "notifications": "Mẫu thông báo",
+                "notificationHelp": "Bạn nên sử dụng \"$ forumStyle\" cho những email này vì chúng có thể chứa BBCODE. Những email này cũng có sẵn \"$ user\" chứa toàn bộ mô hình người dùng của người dùng được gửi qua email.",
+                "help": "\"$body\" sẽ chứa nội dung thực của email, \"$forumStyle\" chứa <strong>toàn bộ CSS của diễn đàn</strong>, \"$url\" là Url Flarum tạo, \"$settings\" cho phép bạn tương tác với SettingsRepositoryInterface, và \"$link\" chứa liên kết trong email. Xem từng mẫu để biết cách sử dụng từng biến."
+            },
+            "css_settings": {
+                "label": "Thiết lập CSS",
+                "help": "Bạn có thể chọn đưa CSS của diễn đàn vào mã HTML của email. Nếu bạn bật tính năng này, bạn có thể gặp sự cố với một số nhà cung cấp email nhất định.",
+                "switch_label": "Bao gồm đầy đủ CSS của diễn đàn"
+            }
+        }
+    }
+}
