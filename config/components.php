@@ -511,6 +511,9 @@ return [
 	'justoverclock-last-tweet' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/last-tweet/0.1.1/locale/en.yml',
 	],
+	'justoverclock-last-users-posts' => [
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/last-users-posts/0.1.1/locale/en.yml',
+	],
 	'justoverclock-newsfeed' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-newsfeed/1.0.0/resources/locale/en.yml',
 	],
