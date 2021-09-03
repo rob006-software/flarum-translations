@@ -1,0 +1,34 @@
+{
+    "askvortsov-discussion-templates": {
+        "admin": {
+            "permissions": {
+                "manage_own_discussion_reply_templates": "Quản lý các mẫu trả lời cho các cuộc thảo luận của họ",
+                "manage_all_reply_templates": "Quản lý các mẫu trả lời cho tất cả các cuộc thảo luận"
+            },
+            "settings": {
+                "no_tag_template": "Mẫu mặc định (được sử dụng khi cuộc thảo luận bắt đầu mà không có thẻ nào được chọn):",
+                "append_template_on_tag_change": "Nối mẫu khi thay đổi thẻ?",
+                "append_template_on_tag_change_help": "Khi các thẻ được thay đổi, mẫu của thẻ mới có nên được thêm vào ngay cả khi người dùng đã bắt đầu viết không? Bất kể cài đặt này là gì, nếu các thẻ được thay đổi và người dùng không thực hiện sửa đổi, mẫu sẽ được chuyển sang."
+            },
+            "tags": {
+                "tag_template_heading": "Mẫu thảo luận",
+                "tag_template_text": "Quản lý một mẫu cho các cuộc thảo luận mới trong thẻ này.",
+                "tag_template_button": "Edit Template"
+            },
+            "tag_template_modal": {
+                "title": "Mẫu thảo luận",
+                "customize_text": "Quản lý một mẫu cho các cuộc thảo luận mới trong thẻ này.",
+                "submit_button": "Lưu mẫu"
+            }
+        },
+        "forum": {
+            "discussion_controls": {
+                "reply_template_button": "Chỉnh sửa mẫu trả lời"
+            },
+            "reply_template": {
+                "title": "Chỉnh sửa mẫu trả lời",
+                "submit_button": "Lưu mẫu trả lời"
+            }
+        }
+    }
+}
