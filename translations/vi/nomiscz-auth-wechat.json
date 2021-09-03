@@ -1,0 +1,41 @@
+{
+    "nomiscz-auth-wechat": {
+        "forum": {
+            "buttons": {
+                "login": "Đăng nhập bằng WeChat",
+                "link": "Liên kết tài khoản WeChat",
+                "unlink": "Hủy liên kết tài khoản WeChat"
+            },
+            "alerts": {
+                "already_linked": "Tài khoản WeChat đã được liên kết!",
+                "already_used": "Tài khoản WeChat đã được liên kết với một người dùng khác!",
+                "link_success": "Liên kết tài khoản WeChat thành công.",
+                "unlink_success": "Hủy liên kết tài khoản WeChat thành công.",
+                "error": "Đã xảy ra lỗi, vui lòng thử lại sau!"
+            },
+            "modals": {
+                "link": {
+                    "title": "Liên kết tài khoản WeChat"
+                },
+                "unlink": {
+                    "title": "Hủy liên kết tài khoản WeChat",
+                    "info": {
+                        "confirm": "Bạn có chắc chắn muốn hủy liên kết tài khoản WeChat của mình không?",
+                        "no_providers": "Bạn không có bất kỳ nhà cung cấp đăng nhập nào khác! Có thể bạn sẽ phải đặt lại mật khẩu của mình."
+                    },
+                    "buttons": {
+                        "confirm": "Có, hủy liên kết",
+                        "cancel": "Thôi!"
+                    }
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "title": "Thiết lập xác thực WeChat",
+                "api_app_id": "ID ứng dụng API",
+                "api_app_secret": "Mã bí mật ứng dụng API"
+            }
+        }
+    }
+}

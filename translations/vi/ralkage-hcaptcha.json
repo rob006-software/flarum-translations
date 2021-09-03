@@ -1,0 +1,21 @@
+{
+    "ralkage-hcaptcha": {
+        "admin": {
+            "settings": {
+                "help_text": "Nhận thông tin xác thực hCaptcha của bạn <a>tại đây</a>.",
+                "secret_key_label": "Khóa bí mật",
+                "site_key_label": "Khóa trang",
+                "type_label": "Loại hCaptcha"
+            },
+            "permissions": {
+                "post_without_hcaptcha": "Tạo bài viết và cuộc thảo luận không cần hCaptcha"
+            }
+        },
+        "forum": {
+            "error": "Đã xảy ra lỗi khi gửi hCaptcha. Vui lòng thử lại."
+        }
+    },
+    "validation": {
+        "hcaptcha": "Xác thực hCaptcha thất bại."
+    }
+}

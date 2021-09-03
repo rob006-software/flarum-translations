@@ -1,0 +1,162 @@
+{
+    "clarkwinkelmann-catch-the-fish": {
+        "forum": {
+            "moderate": {
+                "add": "Thêm",
+                "edit": "Sửa",
+                "delete": "Xóa",
+                "fishes": "Cá",
+                "rounds": "Vòng"
+            },
+            "nav": {
+                "rankings": "Xếp hạng Bắt cá",
+                "settings": "Thiết lập Bắt cá"
+            },
+            "new-round-modal": {
+                "title": "Vòng mới"
+            },
+            "new-fish-modal": {
+                "title": "Cá mới"
+            },
+            "edit-round-modal": {
+                "title": "Chỉnh sửa vòng \"{name}\""
+            },
+            "edit-fish-modal": {
+                "title": "Chỉnh sửa cá \"{name}\""
+            },
+            "caught-fish-modal": {
+                "title": "Bạn đã bắt được một con cá!",
+                "named-by": "Đặt tên bởi",
+                "placed-by": "Đặt bởi",
+                "congratulation": "Chúc mừng bạn, bạn câu được một con cá! Bạn đã bắt được {catch_count} con cá.",
+                "name": "Tên cá",
+                "name-help": "Bạn có thể đổi tên cá nếu muốn. Tên phải tôn trọng các nguyên tắc của diễn đàn.",
+                "placement-help": "Bạn có thể ẩn cá ở nơi bạn muốn trên diễn đàn trong các cuộc thảo luận gần đây và hồ sơ người dùng đang hoạt động. Bạn không thể bắt một con cá mà bạn đã đặt cho mình.",
+                "submit-name-place-later": "Lưu tên và chọn nơi ẩn náu",
+                "submit-name": "Lưu tên",
+                "submit-place-later": "Vâng, tôi sẽ chọn một nơi ẩn nấp",
+                "submit-continue": "Tiếp tục",
+                "submit-name-place-random": "Lưu tên và để cá ẩn mình",
+                "submit-place-random": "Để cá ẩn mình"
+            },
+            "edit-round": {
+                "name": "Tên",
+                "name-help": "Tên công khai của vòng này, sẽ được hiển thị trong biểu ngữ và trong bảng xếp hạng",
+                "starts-at": "Thời gian bắt đầu",
+                "ends-at": "Thời gian kết thúc",
+                "starting-pack": "Gói khởi động",
+                "starting-pack-help": "Sẽ bao gồm một vài loài cá để giúp bạn bắt đầu nhanh chóng",
+                "create": "Tạo vòng",
+                "save": "Lưu vòng",
+                "delete": "Xóa vòng",
+                "delete-confirmation": "Xóa vòng \"{name}\" ?"
+            },
+            "edit-fish": {
+                "name": "Tên",
+                "name-help": "Tên hiện tại của cá. Người chơi có thể chỉnh sửa nếu họ có quyền đổi tên cá",
+                "create": "Tạo cá",
+                "save": "Lưu cá",
+                "delete": "Xóa cá",
+                "delete-confirmation": "Xóa cá \"{name}\" ?"
+            },
+            "moving-fish": {
+                "login": "Đăng nhập để bắt cá"
+            },
+            "fish-image": {
+                "alt": "Ảnh cho cá \"{name}\"",
+                "missing": "Cá không có ảnh"
+            },
+            "round-alert": {
+                "message": "Vòng \"{name}\", bắt càng nhiều cá càng tốt cho đến {time}",
+                "rankings": "Xem xếp hạng"
+            },
+            "basket": {
+                "title": "Giỏ cá",
+                "drag-help": "Kéo và thả cá trên một cuộc thảo luận, bài đăng hoặc hồ sơ người dùng",
+                "time": "Đặt cho đến khi: {time}"
+            },
+            "table-round": {
+                "loading": "Đang tải...",
+                "title": "Vòng",
+                "new": "Vòng mới",
+                "name": "Tên",
+                "start": "Từ",
+                "end": "Cho đến",
+                "actions": "Thao tác",
+                "edit": "Sửa",
+                "fishes": "Cá"
+            },
+            "table-fish": {
+                "loading": "Đang tải...",
+                "title": "Cá cho vòng {name}",
+                "new": "Cá mới",
+                "image": "Ảnh",
+                "name": "Tên",
+                "user-name": "Được đặt tên lần cuối bởi",
+                "user-place": "Đặt lần cuối bởi",
+                "actions": "Thao tác",
+                "edit": "Sửa",
+                "no-user-name": "Không đổi tên",
+                "no-user-place": "Ngẫu nhiên",
+                "upload": "Tải lên ảnh mới",
+                "new-from-image": "Tạo cá mới thông qua nhập hàng loạt hình ảnh"
+            },
+            "table-ranking": {
+                "loading": "Đang tải...",
+                "title": "Xếp hạng của vòng {name}",
+                "rank": "Tên",
+                "count": "Cá bắt được",
+                "user": "Người dùng"
+            },
+            "page-ranking": {
+                "title": "Xếp hạng",
+                "permission": "Bạn không có quyền xem bảng xếp hạng",
+                "nothing": "Không có vòng hoạt động"
+            },
+            "drop-area": {
+                "message": "Bạn có thể thả cá tại đây",
+                "missing-from-store": "Không thể tìm thấy cá trong kho dữ liệu"
+            }
+        },
+        "admin": {
+            "settings": {
+                "discussion-age": "Các cuộc thảo luận cũ có thể được đặt trên đó như thế nào (ngày)",
+                "post-age": "Bài viết cũ có thể được đặt trên đó bao nhiêu (ngày)",
+                "user-age": "Người dùng phải hoạt động trong bao lâu để đặt cá lên đó (ngày)",
+                "time-to-place": "Thời gian cho phép đặt cá trước khi đặt ngẫu nhiên (phút)",
+                "alert-round": "Hiển thị cảnh báo với tên vòng và thời lượng trên trang chủ",
+                "animate-flip": "Lật hình ảnh cá dựa trên hướng"
+            },
+            "permissions": {
+                "visible": "Xem cá",
+                "list-rankings": "Truy cập trang xếp hạng",
+                "participate": "Tham gia vào vòng và bắt cá",
+                "choose-place": "Chọn vị trí đặt cá sau khi đánh bắt",
+                "choose-name": "Chọn tên cá sau khi bắt",
+                "moderate": "Kiểm duyệt vòng và cá"
+            }
+        },
+        "api": {
+            "default-fish-name": "Cá #{number}",
+            "wrong-catch-placement": "Không có cá ở đây. Có thể bạn không đủ nhanh và người khác đã nhận được nó trước",
+            "too-many-placement-models": "Mỗi lần chỉ có thể có một vị trí",
+            "invalid-discussion-id": "Thảo luận dường như không tồn tại, có thể nó đã bị xóa gần đây",
+            "invalid-post-id": "Bài đăng dường như không tồn tại, có thể nó đã bị xóa gần đây",
+            "invalid-user-id": "Người dùng dường như không tồn tại, có thể gần đây người dùng đã bị xóa",
+            "model-deleted": "Không thể đặt cá trên một cuộc thảo luận hoặc bài đăng đã xóa",
+            "model-private": "Không thể đặt cá trên một cuộc thảo luận hoặc bài đăng riêng tư",
+            "inactive-discussion": "Không thể đặt cá vào cuộc thảo luận không hoạt động trong hơn {days} ngày",
+            "inactive-post": "Không thể đặt cá trên bài đăng đã tạo cách đây hơn {days} ngày",
+            "inactive-user": "Không thể đặt cá cho người dùng không hoạt động trong hơn {days} ngày",
+            "non-comment-post": "Chỉ có thể đặt cá trên các bài viết bình luận",
+            "user-suspended": "Không thể đặt cá trên người dùng bị đình chỉ",
+            "random-error": "Không thể tạo vị trí cá ngẫu nhiên",
+            "cannot-catch-own-fish": "Bạn không thể bắt một con cá do chính bạn đặt",
+            "cannot-catch-hold-fish": "Người bắt trước cần thả cá trước khi bạn có thể bắt được nó",
+            "fish-update-wrong-user": "Bạn không thể chỉnh sửa con cá này được nữa. Ai đó có thể đã bắt được nó",
+            "fish-update-expired": "Quá muộn, bạn không thể chỉnh sửa con cá này được nữa. Nó đã tự động được đặt ở đâu đó trong thời gian chờ đợi",
+            "round-not-started": "Vòng này chưa bắt đầu",
+            "round-finished": "Vòng này đã kết thúc"
+        }
+    }
+}

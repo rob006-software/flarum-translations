@@ -1,0 +1,57 @@
+{
+    "fof-doorman": {
+        "forum": {
+            "email": {
+                "subject": "Mời tham gia",
+                "body": "Xin chào,\n\nBạn đã được mời đăng ký {forum}.\n\nKhi bạn đã sẵn sàng tạo tài khoản của mình, chỉ cần nhấp vào liên kết sau và nhập mã khi đăng ký:\n\nUrl: {url}\nMã mời: {code}\n\nNếu bạn nhận được thông báo này do nhầm lẫn, vui lòng bỏ qua email này.\n"
+            },
+            "sign_up": {
+                "invalid_doorkey": "Mã mời bạn đã nhập không hợp lệ.",
+                "doorkey_required": "Vui lòng nhập mã mời.",
+                "doorman_placeholder": "Mã mời",
+                "doorman_placeholder_optional": "Mã mời (không bắt buộc)"
+            }
+        },
+        "admin": {
+            "modal": {
+                "title": "Gửi mã mời",
+                "group": "Gửi lời mời cho nhóm {group}",
+                "help": "Chấp nhận danh sách được phân tách bằng dấu phẩy, dấu cách hoặc dấu cách bằng dấu phẩy. Nhập một email riêng lẻ hoặc dán một danh sách, sau đó nhấn dấu cách để thêm nó/chúng.",
+                "placeholder": "Nhập email vào đây",
+                "invalid_emails": "Email sau không hợp lệ: {emails}",
+                "max_use_conflict": "Số lượng email vượt quá số lần sử dụng tối đa cho mã này.",
+                "send": "Gửi email",
+                "success": "Gửi email thành công"
+            },
+            "invalid_doorkey": "Mã mời bạn cung cấp không hợp lệ.",
+            "doorkey_required": "Bạn phải cung cấp Mã mời",
+            "nav": "desc:Tạo mã mời để người dùng đăng ký và được chỉ định vào một nhóm",
+            "page": {
+                "title": "Người gác cửa",
+                "doorkey": {
+                    "used_times": "{remaining, plural, one {{remaining} lượt sử dụng còn lại} other {{remaining} lượt sử dụng còn lại}}",
+                    "title": "Mã mời",
+                    "help": {
+                        "key": "Khóa: Mã người dùng sẽ nhập khi đăng ký.",
+                        "group": "Nhóm: Nhóm mà người dùng sẽ được thêm vào khi đăng ký.",
+                        "max": "Số lần sử dụng tối đa: Số lần mã tối đa có thể được sử dụng, được đặt thành 0 để sử dụng không giới hạn",
+                        "activates": "Kích hoạt người dùng: Tự động kích hoạt người dùng khi họ đăng ký."
+                    },
+                    "warning": "Mã mời này đã được sử dụng số lần tối đa.",
+                    "key": "Khóa",
+                    "max_uses": "Lượt sử dụng tối đa",
+                    "heading": {
+                        "key": "Khóa",
+                        "group": "Nhóm",
+                        "activate": "Kích hoạt người dùng",
+                        "max_uses": "Lượt sử dụng tối đa"
+                    },
+                    "allow-public": {
+                        "title": "Cho phép đăng ký công khai",
+                        "switch-label": "Đặt mã mời làm tùy chọn khi đăng ký"
+                    }
+                }
+            }
+        }
+    }
+}

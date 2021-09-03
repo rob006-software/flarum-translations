@@ -1,0 +1,15 @@
+{
+    "fof-sentry": {
+        "admin": {
+            "settings": {
+                "dsn_label": "Sentry DSN",
+                "user_feedback_label": "Phản hồi của người dùng",
+                "javascript_label": "Báo lỗi JavaScript",
+                "javascript_console_label": "Ảnh chụp Console JavaScript",
+                "javascript_trace_sample_rate": "Tỷ lệ giám sát hiệu suất Front-end (0 - 100)",
+                "monitor_performance_label": "Tỷ lệ giám sát hiệu suất back-end (0 - 100)",
+                "send_user_emails_label": "Gửi địa chỉ email của người dùng với báo cáo Sentry?"
+            }
+        }
+    }
+}

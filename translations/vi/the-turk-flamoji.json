@@ -1,0 +1,98 @@
+{
+    "the-turk-flamoji": {
+        "admin": {
+            "settings": {
+                "emoji_settings_heading": "Thiết lập Biểu tượng cảm xúc",
+                "category_settings_heading": "Thiết lập danh mục",
+                "general_ui_settings_heading": "Thiết lập UI chung",
+                "show_variants_label": "Hiển thị các biến thể",
+                "show_variants_text": "Một số biểu tượng cảm xúc có các biến thể màu da. Khi một biểu tượng cảm xúc được chọn trong bộ chọn có các biến thể, một cửa sổ bật lên về biến thể sẽ xuất hiện để người dùng có thể chọn biến thể mong muốn.",
+                "auto_hide_label": "Tự động ẩn",
+                "auto_hide_text": "Ẩn bộ chọn khi một biểu tượng cảm xúc được chọn.",
+                "show_preview_label": "Hiển thị phần xem trước",
+                "show_category_buttons_label": "Hiển thị nút danh mục",
+                "show_search_label": "Hiển thị thanh tìm kiếm",
+                "show_recents_label": "Hiển thị (và lưu) các biểu tượng cảm xúc được sử dụng gần đây nhất",
+                "recents_count_label": "Số lượng biểu tượng cảm xúc được sử dụng gần đây",
+                "recents_count_text": "Số lượng biểu tượng cảm xúc gần đây để lưu.",
+                "emoji_style_label": "Kiểu Biểu tượng cảm xúc",
+                "emoji_version_label": "Phiên bản Biểu tượng cảm xúc",
+                "emoji_version_text": "Phiên bản Biểu tượng cảm xúc để sử dụng.",
+                "initial_category_label": "Danh mục ban đầu",
+                "initial_category_text": "Theo mặc định, bộ chọn bắt đầu hiển thị danh mục Biểu tượng cảm xúc & Biểu tượng cảm xúc.",
+                "specify_categories_label": "Chỉ định danh mục",
+                "specify_categories_text": "Bạn có thể chỉ định danh sách các danh mục tại đây và bộ chọn sẽ chỉ hiển thị các danh mục đó.",
+                "emoji_data_label": "Dữ liệu biểu tượng cảm xúc",
+                "emoji_data_text": "Điều này thường được sử dụng để cung cấp tên biểu tượng cảm xúc đã dịch.",
+                "emoji_style_native_option": "Tự nhiên",
+                "emoji_categories": {
+                    "smileys": "=> the-turk-flamoji.ref.emoji_categories.smileys",
+                    "people": "=> the-turk-flamoji.ref.emoji_categories.people",
+                    "animals": "=> the-turk-flamoji.ref.emoji_categories.animals",
+                    "food": "=> the-turk-flamoji.ref.emoji_categories.food",
+                    "travel": "=> the-turk-flamoji.ref.emoji_categories.travel",
+                    "activities": "=> the-turk-flamoji.ref.emoji_categories.activities",
+                    "objects": "=> the-turk-flamoji.ref.emoji_categories.objects",
+                    "symbols": "=> the-turk-flamoji.ref.emoji_categories.symbols",
+                    "flags": "=> the-turk-flamoji.ref.emoji_categories.flags"
+                }
+            },
+            "custom_emojis_section": {
+                "heading_title": "Tùy chỉnh Biểu tượng cảm xúc",
+                "import_json_button": "Nhập JSON",
+                "export_json_button": "Xuất JSON",
+                "import_emojis_message": "Thao tác này sẽ chỉ nhập các cấu hình biểu tượng cảm xúc. Bạn cần tải lên hình ảnh biểu tượng cảm xúc theo cách thủ công.",
+                "edit_emoji": {
+                    "modal_title": "Thêm Biểu tượng cảm xúc",
+                    "emoji_title_label": "Tiêu đề Biểu tượng cảm xúc",
+                    "delete_emoji_confirmation": "Bạn có chắc chắn muốn xóa biểu tượng cảm xúc này không?",
+                    "text_to_replace_label": "Văn bản để thay thế",
+                    "path_or_url_label": "Đường dẫn hoặc URL",
+                    "submit_button": "=> core.ref.save_changes",
+                    "delete_emoji_button": "Xóa biểu tượng cảm xúc",
+                    "saved_message": "=> core.admin.settings.saved_message"
+                },
+                "emoji_list": {
+                    "load_more_button": "=> core.forum.post_stream.load_more_button"
+                }
+            }
+        },
+        "forum": {
+            "composer": {
+                "emoji_tooltip": "Chèn Biểu tượng cảm xúc"
+            },
+            "emoji-button": {
+                "search_placeholder": "Tìm kiếm Biểu tượng cảm xúc",
+                "no_emojis_found_message": "Không tìm thấy biểu tượng cảm xúc nào",
+                "categories": {
+                    "recents": "=> the-turk-flamoji.ref.emoji_categories.recents",
+                    "smileys": "=> the-turk-flamoji.ref.emoji_categories.smileys",
+                    "people": "=> the-turk-flamoji.ref.emoji_categories.people",
+                    "animals": "=> the-turk-flamoji.ref.emoji_categories.animals",
+                    "food": "=> the-turk-flamoji.ref.emoji_categories.food",
+                    "travel": "=> the-turk-flamoji.ref.emoji_categories.travel",
+                    "activities": "=> the-turk-flamoji.ref.emoji_categories.activities",
+                    "objects": "=> the-turk-flamoji.ref.emoji_categories.objects",
+                    "symbols": "=> the-turk-flamoji.ref.emoji_categories.symbols",
+                    "flags": "=> the-turk-flamoji.ref.emoji_categories.flags",
+                    "custom": "=> the-turk-flamoji.ref.emoji_categories.custom"
+                }
+            }
+        },
+        "ref": {
+            "emoji_categories": {
+                "recents": "Biểu tượng cảm xúc gần đây",
+                "smileys": "Biểu tượng mặt cười và cảm xúc",
+                "people": "Con người & Cơ thể",
+                "animals": "Động vật & Thiên nhiên",
+                "food": "Đồ ăn & thức uống",
+                "travel": "Du lịch & Địa điểm",
+                "activities": "Hoạt động",
+                "objects": "Đối tượng",
+                "symbols": "Ký hiệu",
+                "flags": "Cờ",
+                "custom": "Tùy chỉnh"
+            }
+        }
+    }
+}

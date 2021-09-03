@@ -1,0 +1,26 @@
+{
+    "fof-prevent-necrobumping": {
+        "forum": {
+            "composer": {
+                "warning": {
+                    "title": "Cuộc thảo luận này đã hơn <b>{time}</b>.",
+                    "description": "Rất có thể là nó không cần thảo luận thêm và do đó, nó không có mục đích gì.",
+                    "checkbox_label": "Tôi biết rằng cuộc thảo luận này đã khá cũ nhưng vẫn muốn trả lời.",
+                    "error": "Cuộc thảo luận này quá cũ để trả lời."
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "days_label": "Ngày",
+                "days_help": "Một cuộc thảo luận sẽ được đánh dấu là cũ khi số ngày được chỉ định đã trôi qua kể từ khi bài viết cuối cùng về cuộc thảo luận đó được đăng. Sử dụng <code>0</code> để tắt nó theo mặc định.",
+                "message_title_label": "Tiêu đề tin nhắn tùy chỉnh",
+                "message_title_help": "Sử dụng <code>[time]</code> cho văn bản thời gian, ví dụ: \"14 days\".",
+                "message_description_label": "Mô tả tin nhắn tùy chỉnh",
+                "message_agreement_label": "Thỏa thuận tin nhắn tùy chỉnh (Hộp kiểm)",
+                "tags_title": "Thẻ",
+                "tags_help": "Ghi đè các ngày toàn cầu cho một thẻ cụ thể. Rỗng có nghĩa là sử dụng giá trị mặc định. Nếu một cuộc thảo luận có nhiều thẻ với các giá trị ngày khác nhau, nó sẽ sử dụng lượng ngày nhỏ nhất được định cấu hình."
+            }
+        }
+    }
+}

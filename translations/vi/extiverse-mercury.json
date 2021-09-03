@@ -1,0 +1,26 @@
+{
+    "extiverse-mercury": {
+        "admin": {
+            "extension-updates-page": {
+                "extension-name": "Tiện ích mở rộng",
+                "extension-is-up-to-date": "Đã cập nhật",
+                "highest-version": "Phiên bản mới nhất",
+                "installed-version": "Phiên bản đã cài đặt"
+            },
+            "settings": {
+                "token": "Mã token Extiverse (<a>yêu cầu</a>)",
+                "token-description": "Lấy mã token API từ <a>Extiverse</a> để Mercury có thể giao tiếp an toàn với cộng đồng Flarum của bạn.\n"
+            },
+            "header-secondary": {
+                "no-token": "Mã token là bắt buộc",
+                "updates": "{count, plural, =0 {Không có cập nhật} one {Một bản cập nhật} other {# cập nhật}}"
+            }
+        },
+        "email": {
+            "new-extension-update": {
+                "subject": "{count, plural, one {Một bản cập nhật có sẵn cho cộng đồng của bạn} other {# cập nhật có sẵn cho cộng đồng của bạn}}",
+                "body": "Chào {recipient_display_name}!\n\n{count} bản cập nhật đã được tìm thấy trên cộng đồng Flarum của bạn. Rất khuyến khích\ncập nhật càng sớm càng tốt.\n\nCác bản cập nhật bao gồm các tiện ích mở rộng sau {extension}.\n\nVui lòng truy cập cộng đồng của bạn để biết thêm thông tin: {url}."
+            }
+        }
+    }
+}

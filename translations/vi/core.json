@@ -1,0 +1,606 @@
+{
+    "core": {
+        "admin": {
+            "appearance": {
+                "colored_header_label": "Màu đầu trang",
+                "colors_heading": "Màu sắc",
+                "colors_text": "Chọn hai màu cho giao diện diễn đàn của bạn. Màu thứ nhất làm màu nền, màu thứ hai để làm nền các thành phần.",
+                "custom_footer_heading": "Tùy chỉnh chân trang",
+                "custom_footer_text": "=> core.ref.custom_footer_text",
+                "custom_header_heading": "Tùy chỉnh đầu trang",
+                "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_heading": "Tùy chỉnh style",
+                "custom_styles_text": "Tùy chỉnh giao diện diễn đàn của bạn bằng cách thêm mã LESS/CSS để sử dụng trên style mặc định của Flarum.",
+                "dark_mode_label": "Chế độ tối",
+                "description": "Tùy chỉnh màu sắc, logo và các thiết lập khác của diễn đàn.",
+                "edit_css_button": "Sửa CSS",
+                "edit_footer_button": "=> core.ref.custom_footer_title",
+                "edit_header_button": "=> core.ref.custom_header_title",
+                "enter_hex_message": "Vui lòng nhập mã màu thập lục phân.",
+                "favicon_heading": "Favicon",
+                "favicon_text": "Tải lên hình ảnh để được hiển thị như là biểu tượng phím tắt của diễn đàn.",
+                "logo_heading": "Logo",
+                "logo_text": "Tải lên hình ảnh để hiển thị thay cho tiêu đề diễn đàn.",
+                "title": "Giao diện"
+            },
+            "basics": {
+                "all_discussions_label": "=> core.ref.all_discussions",
+                "default_language_heading": "Ngôn ngữ mặc định",
+                "description": "Đặt tiêu đề diễn đàn, ngôn ngữ và các cài đặt cơ bản khác của bạn",
+                "display_name_heading": "Tên hiển thị của người dùng",
+                "display_name_text": "Chọn trình điều khiển sử dụng cho tên hiển thị của người dùng. Theo mặc định, tên người dùng được hiển thị.",
+                "forum_description_heading": "Mô tả diễn đàn",
+                "forum_description_text": "Nhập một hoặc hai câu ngắn mô tả cộng đồng của bạn. Cái này sẽ xuất hiện trong thẻ meta và hiển thị trong các công cụ tìm kiếm.",
+                "forum_title_heading": "Tiêu đề diễn đàn",
+                "home_page_heading": "Trang chủ",
+                "home_page_text": "Chọn trang mà người dùng sẽ nhìn thấy đầu tiên khi họ truy cập diễn đàn của bạn.",
+                "show_language_selector_label": "Hiển thị trình chọn ngôn ngữ",
+                "slug_driver_heading": "Trình điểu khiển Slug: {model}",
+                "slug_driver_text": "Chọn một trình điều khiển sử dụng để slug mô hình này.",
+                "title": "Cơ bản",
+                "welcome_banner_heading": "Biểu ngữ chào mừng",
+                "welcome_banner_text": "Cấu hình nội dung hiển thị trong biểu ngữ trên trang Tất cả thảo luận. Sử dụng điều này để chào mừng khách đến với diễn đàn của bạn."
+            },
+            "dashboard": {
+                "clear_cache_button": "Xóa bộ nhớ đệm",
+                "description": "Diễn đàn của bạn trong nháy mắt",
+                "title": "Trang tổng quan",
+                "tools_button": "Công cụ"
+            },
+            "edit_css": {
+                "customize_text": "Tùy chỉnh giao diện diễn đàn của bạn bằng cách thêm mã LESS/CSS của riêng bạn để được áp dụng trên <a>kiểu mặc định của Flarum</a>.",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Chỉnh sửa CSS"
+            },
+            "edit_footer": {
+                "customize_text": "=> core.ref.custom_footer_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_footer_title"
+            },
+            "edit_group": {
+                "color_label": "=> core.ref.color",
+                "delete_button": "Xóa nhóm",
+                "delete_confirmation": "Bạn có chắc chắn muốn xóa nhóm này không? Các thành viên trong nhóm sẽ KHÔNG bị xóa.",
+                "hide_label": "Ẩn trên diễn đàn",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "Tên",
+                "plural_placeholder": "Số nhiều (vd: Mods)",
+                "singular_placeholder": "Số ít (vd: Mod)",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Tạo nhóm"
+            },
+            "edit_header": {
+                "customize_text": "=> core.ref.custom_header_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_header_title"
+            },
+            "email": {
+                "addresses_heading": "Địa chỉ",
+                "description": "Cấu hình trình điều khiển, cài đặt và địa chỉ mà diễn đàn của bạn sẽ sử dụng để gửi email.",
+                "driver_heading": "Chọn Trình điều khiển",
+                "driver_label": "Trình điều khiển",
+                "from_label": "Người gửi",
+                "mail_encryption_label": "Kiểu mã hóa",
+                "mail_host_label": "Máy chủ",
+                "mail_mailgun_domain_label": "Miền",
+                "mail_mailgun_region_label": "Khu vực",
+                "mail_mailgun_secret_label": "Mã khoá bí mật",
+                "mail_password_label": "=> core.ref.password",
+                "mail_port_label": "Cổng",
+                "mail_username_label": "=> core.ref.username",
+                "mailgun_heading": "Thiết lập Mailgun",
+                "not_sending_message": "Flarum không gửi được mail. Điều này có thể là do trình điều khiển được chọn, hoặc lỗi trong cấu hình của nó.",
+                "send_test_mail_button": "Gửi",
+                "send_test_mail_heading": "Gửi email thử nghiệm",
+                "send_test_mail_success": "Đã gửi mail thử nghiệm thành công!",
+                "send_test_mail_text": "Thao tác này sẽ gửi một email sử dụng cấu hình trên tới email của bạn, {email}.",
+                "smtp_heading": "Thiết lập SMTP",
+                "title": "=> core.ref.email"
+            },
+            "extension": {
+                "configure_scopes": "Cấu hình Phạm vi",
+                "confirm_uninstall": "Gỡ cài đặt sẽ xóa tất cả các mục nhập trong cơ sở dữ liệu và nội dung liên quan đến tiện ích mở rộng. Bạn có chắc chắn muốn tiếp tục không?",
+                "disabled": "Đã tắt",
+                "enable_to_see": "Kích hoạt tiện ích mở rộng để xem và thay đổi cài đặt.",
+                "enabled": "Đã kích hoạt",
+                "info_links": {
+                    "discuss": "Thảo luận",
+                    "documentation": "Tài liệu",
+                    "donate": "Ủng hộ",
+                    "source": "Mã nguồn",
+                    "support": "Hỗ trợ",
+                    "website": "Trang web"
+                },
+                "no_permissions": "Tiện ích mở rộng này không có quyền nào.",
+                "no_settings": "Tiện ích mở rộng này không có thiết lập nào.",
+                "open_modal": "Mở thiết lập",
+                "permissions_title": "Quyền",
+                "uninstall_button": "Gỡ cài đặt"
+            },
+            "header": {
+                "get_help": "Trợ giúp",
+                "log_out_button": "=> core.ref.log_out"
+            },
+            "loading": {
+                "title": "Vui lòng chờ..."
+            },
+            "nav": {
+                "appearance_button": "=> core.admin.appearance.title",
+                "appearance_title": "=> core.admin.appearance.description",
+                "basics_button": "=> core.admin.basics.title",
+                "basics_title": "=> core.admin.basics.description",
+                "categories": {
+                    "authentication": "Xác thực",
+                    "core": "Cấu hình",
+                    "discussion": "Cuộc thảo luận",
+                    "feature": "Tính năng",
+                    "formatting": "Định dạng",
+                    "language": "Ngôn ngữ",
+                    "moderation": "Kiểm duyệt",
+                    "other": "Tiện ích mở rộng khác",
+                    "theme": "Giao diện"
+                },
+                "dashboard_button": "=> core.admin.dashboard.title",
+                "dashboard_title": "=> core.admin.dashboard.description",
+                "email_button": "=> core.ref.email",
+                "email_title": "=> core.admin.email.description",
+                "permissions_button": "=> core.admin.permissions.title",
+                "permissions_title": "=> core.admin.permissions.description",
+                "userlist_button": "=> core.admin.users.title",
+                "userlist_title": "=> core.admin.users.description",
+                "search_placeholder": "Tìm kiếm tiện ích"
+            },
+            "permissions": {
+                "allow_post_editing_label": "Cho phép chỉnh sửa bài viết",
+                "allow_renaming_label": "Cho phép đổi tên",
+                "create_heading": "Tạo",
+                "delete_discussions_forever_label": "Xóa cuộc thảo luận vĩnh viễn",
+                "delete_discussions_label": "Xóa cuộc thảo luận",
+                "delete_posts_forever_label": "Xóa bài viết vĩnh viễn",
+                "delete_posts_label": "Xóa bài viết",
+                "description": "Cấu hình ai có thể xem hoặc làm điều gì đó.",
+                "edit_posts_label": "Chỉnh sửa bài viết",
+                "edit_users_label": "Chỉnh sửa thuộc tính người dùng",
+                "edit_users_credentials_label": "Chỉnh sửa thông tin đăng nhập của người dùng",
+                "edit_users_groups_label": "Chỉnh sửa nhóm người dùng",
+                "global_heading": "Toàn bộ",
+                "moderate_heading": "Kiểm duyệt",
+                "new_group_button": "Nhóm mới",
+                "participate_heading": "Tham dự",
+                "post_without_throttle_label": "Trả lời nhiều lần mà không cần chờ đợi",
+                "read_heading": "Đọc",
+                "rename_discussions_label": "Đổi tên cuộc thảo luận",
+                "reply_to_discussions_label": "Trả lời cuộc thảo luận",
+                "search_users_label": "Tìm kiếm người dùng",
+                "sign_up_label": "Đăng ký",
+                "start_discussions_label": "Tạo cuộc thảo luận",
+                "title": "Quyền",
+                "view_forum_label": "Xem diễn đàn (cuộc thảo luận và người dùng)",
+                "view_hidden_groups_label": "Xem huy hiệu nhóm bị ẩn",
+                "view_last_seen_at_label": "Luôn xem người dùng trực tuyến lần cuối cùng",
+                "view_post_ips_label": "Xem địa chỉ IP bài viết"
+            },
+            "permissions_controls": {
+                "allow_indefinitely_button": "Vô thời hạn",
+                "allow_some_minutes_button": "{count, plural, one {Trong # phút} other {Trong # phút}}",
+                "allow_ten_minutes_button": "Trong 10 phút",
+                "allow_until_reply_button": "Cho đến khi có câu trả lời tiếp theo",
+                "everyone_button": "Mọi người",
+                "members_button": "=> core.group.members",
+                "signup_closed_button": "Đóng",
+                "signup_open_button": "Mở"
+            },
+            "settings": {
+                "saved_message": "Các thay đổi của bạn đã được lưu.",
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "upload_image": {
+                "remove_button": "=> core.ref.remove",
+                "upload_button": "Chọn ảnh..."
+            },
+            "users": {
+                "description": "Danh sách người dùng trên diễn đàn.",
+                "grid": {
+                    "columns": {
+                        "edit_user": {
+                            "button": "=> core.ref.edit",
+                            "title": "=> core.ref.edit_user",
+                            "tooltip": "Chỉnh sửa {username}"
+                        },
+                        "email": {
+                            "title": "=> core.ref.email",
+                            "visibility_hide": "Ẩn địa chỉ email",
+                            "visibility_show": "Hiện địa chỉ email"
+                        },
+                        "group_badges": {
+                            "no_badges": "Không có",
+                            "title": "Nhóm"
+                        },
+                        "join_time": {
+                            "title": "Tham gia lúc"
+                        },
+                        "user_id": {
+                            "title": "ID"
+                        },
+                        "username": {
+                            "profile_link_tooltip": "Xem hồ sơ của {username}",
+                            "title": "=> core.ref.username"
+                        }
+                    },
+                    "invalid_column_content": "Không hợp lệ"
+                },
+                "pagination": {
+                    "back_button": "Trang trước",
+                    "next_button": "Trang sau",
+                    "page_counter": "Trang {current} của {total}"
+                },
+                "title": "=> core.ref.users",
+                "total_users": "Tổng người dùng: {count}"
+            }
+        },
+        "forum": {
+            "change_email": {
+                "confirm_password_placeholder": "=> core.ref.confirm_password",
+                "confirmation_message": "=> core.ref.confirmation_email_sent",
+                "dismiss_button": "=> core.ref.okay",
+                "incorrect_password_message": "Mật khẩu bạn nhập không chính xác.",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.change_email"
+            },
+            "change_password": {
+                "send_button": "Gửi email đặt lại mật khẩu",
+                "text": "Nhấp vào nút bên dưới và kiểm tra liên kết được gửi trong email của bạn để thay đổi mật khẩu.",
+                "title": "=> core.ref.change_password"
+            },
+            "composer": {
+                "close_tooltip": "Đóng",
+                "exit_full_screen_tooltip": "Thoát khỏi chế độ toàn màn hình",
+                "full_screen_tooltip": "Toàn màn hình",
+                "minimize_tooltip": "Thu nhỏ",
+                "preview_tooltip": "Xem trước"
+            },
+            "composer_discussion": {
+                "body_placeholder": "Nhập nội dung cho bài viết...",
+                "discard_confirmation": "Bạn chưa đăng cuộc thảo luận này. Bạn có muốn huỷ không?",
+                "submit_button": "Đăng",
+                "title": "=> core.ref.start_a_discussion",
+                "title_placeholder": "Tiêu đề cuộc thảo luận"
+            },
+            "composer_edit": {
+                "discard_confirmation": "Bạn chưa lưu các thay đổi của mình. Bạn có muốn huỷ không?",
+                "edited_message": "Chỉnh sửa của bạn đã được thực hiện.",
+                "post_link": "Bài viết #{number} trong {discussion}",
+                "submit_button": "=> core.ref.save_changes",
+                "view_button": "=> core.ref.view"
+            },
+            "composer_reply": {
+                "body_placeholder": "=> core.ref.write_a_reply",
+                "discard_confirmation": "Bạn chưa đăng câu trả lời này. Bạn có muốn huỷ nó?",
+                "posted_message": "Trả lời của bạn đã được đăng.",
+                "submit_button": "Trả lời",
+                "view_button": "=> core.ref.view"
+            },
+            "discussion_controls": {
+                "cannot_reply_button": "Không thể trả lời",
+                "cannot_reply_text": "Bạn không có quyền trả lời cuộc thảo luận này.",
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "Bạn có chắc chắn muốn xóa cuộc thảo luận này không?",
+                "delete_forever_button": "=> core.ref.delete_forever",
+                "log_in_to_reply_button": "Đăng nhập để trả lời",
+                "rename_button": "=> core.ref.rename",
+                "reply_button": "=> core.ref.reply",
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": "Chuyển đổi menu thả xuống các thao tác thảo luận"
+            },
+            "discussion_list": {
+                "empty_text": "Hiện không có cuộc thảo luận nào ở đây.",
+                "load_more_button": "=> core.ref.load_more",
+                "mark_as_read_tooltip": "Đánh dấu đã đọc",
+                "replied_text": "{username} đã trả lời {ago}",
+                "started_text": "{username} đã đăng bài {ago}"
+            },
+            "forgot_password": {
+                "dismiss_button": "=> core.ref.okay",
+                "email_placeholder": "=> core.ref.email",
+                "email_sent_message": "Chúng tôi đã gửi cho bạn một email chứa liên kết để đặt lại mật khẩu của bạn. Kiểm tra thư mục thư rác của bạn nếu bạn không nhận được nó trong vòng một hoặc hai phút tới.",
+                "not_found_message": "Không có người dùng nào đăng ký với địa chỉ email đó.",
+                "submit_button": "Khôi phục mật khẩu",
+                "text": "Nhập địa chỉ email của bạn và chúng tôi sẽ gửi cho bạn một liên kết để đặt lại mật khẩu của bạn.",
+                "title": "Quên mật khẩu"
+            },
+            "header": {
+                "admin_button": "Quản trị viên",
+                "back_to_index_tooltip": "Trở lại danh sách thảo luận",
+                "locale_dropdown_accessible_label": "Thay đổi ngôn ngữ diễn đàn",
+                "log_in_link": "=> core.ref.log_in",
+                "log_out_button": "=> core.ref.log_out",
+                "profile_button": "Hồ sơ",
+                "search_placeholder": "Tìm kiếm",
+                "session_dropdown_accessible_label": "Chuyển đổi menu thả xuống tùy chọn phiên",
+                "settings_button": "=> core.ref.settings",
+                "sign_up_link": "=> core.ref.sign_up"
+            },
+            "index": {
+                "all_discussions_link": "=> core.ref.all_discussions",
+                "cannot_start_discussion_button": "Không thể đăng thảo luận",
+                "mark_all_as_read_confirmation": "Bạn có chắc chắn muốn đánh dấu tất cả các cuộc thảo luận là đã đọc không?",
+                "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "meta_title_text": "=> core.ref.all_discussions",
+                "refresh_tooltip": "Làm mới",
+                "start_discussion_button": "=> core.ref.start_a_discussion",
+                "toggle_sidenav_dropdown_accessible_label": "Chuyển đổi menu thả xuống thanh điều hướng"
+            },
+            "index_sort": {
+                "latest_button": "Gần đây",
+                "newest_button": "Mới nhất",
+                "oldest_button": "Cũ nhất",
+                "relevance_button": "Liên quan",
+                "toggle_dropdown_accessible_label": "Thay đổi sắp xếp danh sách thảo luận",
+                "top_button": "Hàng đầu"
+            },
+            "log_in": {
+                "forgot_password_link": "Quên mật khẩu",
+                "invalid_login_message": "Thông tin đăng nhập của bạn không chính xác.",
+                "password_placeholder": "=> core.ref.password",
+                "remember_me_label": "Ghi nhớ",
+                "sign_up_text": "Không có tài khoản? <a>Đăng ký</a>",
+                "submit_button": "=> core.ref.log_in",
+                "title": "=> core.ref.log_in",
+                "username_or_email_placeholder": "Tên người dùng hoặc email"
+            },
+            "notifications": {
+                "discussion_renamed_text": "{username} đã thay đổi tiêu đề",
+                "empty_text": "Không có thông báo",
+                "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "mark_as_read_tooltip": "Đánh dấu đã đọc",
+                "title": "=> core.ref.notifications",
+                "toggle_dropdown_accessible_label": "Xem thông báo",
+                "tooltip": "=> core.ref.notifications"
+            },
+            "post": {
+                "edited_text": "Đã chỉnh sửa",
+                "edited_tooltip": "{username} đã chính sửa lúc {ago}",
+                "number_tooltip": "Bài viết #{number}"
+            },
+            "post_controls": {
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "Bạn có chắc chắn muốn xóa bài viết này vĩnh viễn không? Hành động này không thể được hoàn tác",
+                "delete_forever_button": "=> core.ref.delete_forever",
+                "edit_button": "=> core.ref.edit",
+                "hide_confirmation": "Bạn có chắc chắn muốn xóa bài viết này?",
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": "Chuyển đổi menu thả xuống kiểm soát bài viết"
+            },
+            "post_scrubber": {
+                "now_link": "Ngay bây giờ",
+                "original_post_link": "Bài viết gốc",
+                "unread_text": "{count} chưa xem",
+                "viewing_text": "{count, plural, one {{index} của {formattedCount} bài viết} other {{index} của {formattedCount} bài viết}}"
+            },
+            "post_stream": {
+                "discussion_renamed_old_tooltip": "Tiêu đề cũ là: \"{old}\"",
+                "discussion_renamed_text": "{username} đã thay đổi tiêu đề thành {new}.",
+                "load_more_button": "=> core.ref.load_more",
+                "reply_placeholder": "=> core.ref.write_a_reply",
+                "time_lapsed_text": "{period} trước"
+            },
+            "rename_discussion": {
+                "submit_button": "=> core.ref.rename",
+                "title": "Đổi tên cuộc thảo luận"
+            },
+            "search": {
+                "all_discussions_button": "Tìm kiếm tất cả các cuộc thảo luận với \"{query}\"",
+                "discussions_heading": "=> core.ref.discussions",
+                "users_heading": "=> core.ref.users"
+            },
+            "settings": {
+                "account_heading": "Tài khoản",
+                "change_email_button": "=> core.ref.change_email",
+                "change_password_button": "=> core.ref.change_password",
+                "notifications_heading": "=> core.ref.notifications",
+                "notify_by_email_heading": "=> core.ref.email",
+                "notify_by_web_heading": "Web",
+                "notify_discussion_renamed_label": "Ai đó đổi tên cuộc thảo luận mà tôi đã đăng",
+                "privacy_disclose_online_label": "Cho phép người khác xem khi tôi trực tuyến",
+                "privacy_heading": "Riêng tư",
+                "title": "=> core.ref.settings"
+            },
+            "sign_up": {
+                "dismiss_button": "=> core.ref.okay",
+                "email_placeholder": "=> core.ref.email",
+                "log_in_text": "Bạn đã có tài khoản? <a>Đăng nhập</a>",
+                "password_placeholder": "=> core.ref.password",
+                "submit_button": "=> core.ref.sign_up",
+                "title": "=> core.ref.sign_up",
+                "username_placeholder": "=> core.ref.username",
+                "welcome_text": "Chào mừng bạn, {username}!"
+            },
+            "user": {
+                "avatar_remove_button": "=> core.ref.remove",
+                "avatar_upload_button": "Tải lên",
+                "avatar_upload_tooltip": "Tải lên avatar",
+                "discussions_link": "=> core.ref.discussions",
+                "in_discussion_text": "Trong {discussion}",
+                "joined_date_text": "Đã tham gia {ago}",
+                "online_text": "Trực tuyến",
+                "posts_empty_text": "Hiện không có bài viết nào ở đây.",
+                "posts_link": "=> core.ref.posts",
+                "posts_load_more_button": "=> core.ref.load_more",
+                "settings_link": "=> core.ref.settings"
+            },
+            "user_controls": {
+                "button": "Kiểm soát",
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "Bạn có chắc chắn muốn xóa người dùng này không? Bài viết của người dùng sẽ KHÔNG bị xóa.",
+                "delete_error_message": "Xóa người dùng <i>{username} ({email})</i> thất bại",
+                "delete_success_message": "Người dùng <i>{username} ({email})</i> đã bị xóa",
+                "edit_button": "=> core.ref.edit",
+                "toggle_dropdown_accessible_label": "Chuyển đổi menu thả xuống kiểm soát của người dùng"
+            },
+            "user_email_confirmation": {
+                "alert_message": "=> core.ref.confirmation_email_sent",
+                "resend_button": "Gửi lại email xác nhận",
+                "sent_message": "Gửi"
+            }
+        },
+        "lib": {
+            "badge": {
+                "hidden_tooltip": "Bị ẩn"
+            },
+            "dropdown": {
+                "toggle_dropdown_accessible_label": "Chuyển đổi menu thả xuống"
+            },
+            "edit_user": {
+                "activate_button": "Kích hoạt người dùng",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "Nhóm",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "Đặt mật khẩu mới",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.edit_user",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username"
+            },
+            "error": {
+                "dependent_extensions_message": "Không thể vô hiệu hóa {extension} cho đến khi các tiện ích mở rộng phụ thuộc sau bị vô hiệu hóa: {extensions}",
+                "generic_message": "Úi! Đã xảy ra lỗi. Hãy tải lại trang và thử lại.",
+                "missing_dependencies_message": "Không thể kích hoạt {extension} cho đến khi các tiện ích mở rộng phụ thuộc sau được kích hoạt: {extensions}",
+                "not_found_message": "Không tìm thấy tài nguyên được yêu cầu.",
+                "permission_denied_message": "Bạn không có quyền để làm điều này.",
+                "rate_limit_exceeded_message": "Bạn thao tác hơi nhanh quá. Vui lòng thử lại sau vài giây."
+            },
+            "loading_indicator": {
+                "accessible_label": "=> core.ref.loading"
+            },
+            "number_suffix": {
+                "kilo_text": "N",
+                "mega_text": "Tr"
+            },
+            "series": {
+                "glue_text": ", ",
+                "three_text": "{first}, {second}, và {third}",
+                "two_text": "{first} và {second}"
+            },
+            "username": {
+                "deleted_text": "[đã xóa]"
+            }
+        },
+        "views": {
+            "content": {
+                "javascript_disabled_message": "Trang web này xem tốt nhất khi trình duyệt được bật JavaScript.",
+                "load_error_message": "Đã xảy ra lỗi khi cố gắng tải phiên bản đầy đủ của trang web này. Hãy thử làm mới trang này để sửa lỗi.",
+                "loading_text": "=> core.ref.loading"
+            },
+            "discussion": {
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
+            },
+            "error": {
+                "csrf_token_mismatch": "Bạn đã không hoạt động quá lâu.",
+                "csrf_token_mismatch_return_link": "Quay lại, để thử lại",
+                "invalid_confirmation_token": "Liên kết xác nhận này đã được sử dụng hoặc không hợp lệ.",
+                "not_authenticated": "Bạn không có quyền truy cập vào trang này. Hãy thử lại sau khi đăng nhập.",
+                "not_found": "Trang bạn yêu cầu không thể được tìm thấy.",
+                "not_found_return_link": "Quay lại {forum}",
+                "permission_denied": "Bạn không có quyền truy cập vào trang này.",
+                "unknown": "Có lỗi xảy ra khi đang tải lại trang."
+            },
+            "index": {
+                "all_discussions_heading": "=> core.ref.all_discussions",
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
+            },
+            "log_out": {
+                "log_out_button": "=> core.ref.log_out",
+                "log_out_confirmation": "Bạn có chắc chắn muốn đăng xuất khỏi {forum}?",
+                "title": "=> core.ref.log_out"
+            },
+            "reset_password": {
+                "confirm_password_label": "Xác nhận mật khẩu mới",
+                "new_password_label": "Mật khẩu mới",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.reset_your_password"
+            }
+        },
+        "api": {
+            "invalid_username_message": "Tên người dùng chỉ có thể chứa các chữ cái, số và dấu gạch ngang."
+        },
+        "email": {
+            "activate_account": {
+                "subject": "Kích hoạt tài khoản mới",
+                "body": "Chào {username}!\n\nAi đó (hy vọng là bạn!) Đã đăng ký vào {forum} bằng địa chỉ email này.\n\nNếu đây là bạn, chỉ cần nhấp vào liên kết sau và tài khoản của bạn kích hoạt:\n{url}\n\nNếu bạn không đăng ký, vui lòng bỏ qua email này.\n"
+            },
+            "confirm_email": {
+                "subject": "Xác nhận địa chỉ email mới",
+                "body": "Chào {username}!\n\nAi đó (hy vọng là bạn!) Đã thay đổi địa chỉ email của họ trên {forum} thành địa chỉ này.\n\nNếu đây là bạn, chỉ cần nhấp vào liên kết sau và email của bạn xác nhận:\n{url}\n\nNếu đây không phải là bạn, vui lòng bỏ qua email này.\n"
+            },
+            "reset_password": {
+                "subject": "=> core.ref.reset_your_password",
+                "body": "Chào {username}!\n\nAi đó (hy vọng là bạn!) Đã gửi yêu cầu quên mật khẩu cho tài khoản của bạn trên {forum}.\n\nNếu đây là bạn, hãy nhấp vào liên kết sau để đặt lại mật khẩu của bạn:\n{url}\n\nNếu bạn không muốn thay đổi mật khẩu của mình, chỉ cần bỏ qua email này và sẽ không có gì xảy ra.\n"
+            },
+            "send_test": {
+                "subject": "Thử nghiệm email Flarum",
+                "body": "Chào {username}!\n\nĐây là email thử nghiệm để xác nhận rằng cấu hình email Flarum của bạn đang hoạt động bình thường.\n\nNếu đây là bạn, email này có nghĩa là cấu hình của bạn hoạt động!\n\nNếu đây không phải là bạn, vui lòng bỏ qua email này.\n"
+            }
+        },
+        "ref": {
+            "all_discussions": "Cuộc thảo luận",
+            "change_email": "Đổi email",
+            "change_password": "Đổi mật khẩu",
+            "color": "Màu sắc",
+            "confirm_password": "Xác nhận mật khẩu",
+            "confirmation_email_sent": "Chúng tôi đã gửi email xác nhận đến {email}. Nếu không có, kiểm tra xong thư mục rác của bạn.",
+            "custom_footer_text": "Thêm HTML để hiển thị bên dưới trang.",
+            "custom_footer_title": "Chỉnh sửa Chân trang",
+            "custom_header_text": "Thêm HTML để hiển thị trên đầu trang.",
+            "custom_header_title": "Chỉnh sửa Đầu trang",
+            "delete": "Xóa",
+            "delete_forever": "Xóa vĩnh viễn",
+            "discussions": "Cuộc thảo luận",
+            "edit": "Chỉnh sửa",
+            "edit_user": "Chỉnh sửa người dùng",
+            "email": "Email",
+            "icon": "Icon",
+            "icon_text": "Nhập tên icon bất kì của <a>FontAwesome</a>, <em>kèm</em> theo tiền tố <code>fas fa-</code>.",
+            "load_more": "Tải thêm",
+            "loading": "Đang tải...",
+            "log_in": "Đăng nhập",
+            "log_out": "Đăng xuất",
+            "mark_all_as_read": "Đánh dấu tất cả đã đọc",
+            "next_page": "Trang sau",
+            "notifications": "Thông báo",
+            "okay": "OK",
+            "password": "Mật khẩu",
+            "posts": "Bài viết",
+            "previous_page": "Trang trước",
+            "remove": "Xóa",
+            "rename": "Đổi tên",
+            "reply": "Trả lời",
+            "reset_your_password": "Đặt lại mật khẩu của bạn",
+            "restore": "Khôi phục",
+            "save_changes": "Lưu thay đổi",
+            "settings": "Cài đặt",
+            "sign_up": "Đăng ký",
+            "some_others": "{count, plural, one {# khác} other {# khác}}",
+            "start_a_discussion": "Đăng thảo luận",
+            "username": "Tên tài khoản",
+            "users": "Người dùng",
+            "view": "Xem",
+            "write_a_reply": "Viết câu trả lời...",
+            "you": "Bạn"
+        },
+        "group": {
+            "admin": "Quản trị viên",
+            "admins": "Quản trị viên",
+            "guest": "Khách",
+            "guests": "Khách",
+            "member": "Thành viên",
+            "members": "Thành viên",
+            "mod": "Kiểm duyệt viên",
+            "mods": "Kiểm duyệt viên"
+        }
+    }
+}

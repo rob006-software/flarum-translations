@@ -1,0 +1,99 @@
+{
+    "fof-username-request": {
+        "admin": {
+            "permissions": {
+                "moderate_requests": "Phê duyệt yêu cầu thay đổi tên người dùng/biệt hiệu",
+                "request_nickname": "Yêu cầu thay dổi biệt hiệ",
+                "request_username": "Yêu cầu thay dổi tên người dùng"
+            }
+        },
+        "forum": {
+            "nickname_modals": {
+                "action": {
+                    "title": "=> fof-username-request.ref.nickname_change_request",
+                    "help_text": "Hãy đảm bảo rằng sự thay đổi biệt hiệu được yêu cầu này tuân theo các nguyên tắc của diễn đàn.",
+                    "decision_title": "Quyết định",
+                    "approval_label": "Phê duyệt",
+                    "rejected_label": "Từ chối",
+                    "submit_button": "Gửi",
+                    "reason_title": "Lý do từ chối",
+                    "success": "Đã gửi quyết định.",
+                    "name": "{name} đã yêu cầu thay đổi biệt hiệu của họ thành \"{requestedName}\""
+                },
+                "results": {
+                    "title": "Yêu cầu thay đổi tên người dùng",
+                    "approved": "Yêu cầu thay đổi biệt hiệu của bạn đã được chấp thuận",
+                    "dismiss_button": "=> core.ref.okay",
+                    "new_name": "Biệt hiệu của bạn đã được đổi thành công thành: {name}",
+                    "rejected": "Yêu cầu thay đổi biệt hiệu của bạn đã bị từ chối",
+                    "reason": "Lý do từ chối: <i>\"{reason}\"</i>.",
+                    "resubmit": "Tại thời điểm này, bạn có thể gửi lại yêu cầu thay đổi biệt hiệu mới từ cài đặt tài khoản của mình nếu bạn muốn."
+                },
+                "request": {
+                    "title": "Yêu cầu thay đổi biệt hiệu",
+                    "current_request": "Bạn đã yêu cầu thay đổi biệt hiệu của mình thành \"{name}\". Bạn có thể cập nhật yêu cầu của mình hoặc xóa nó.",
+                    "submit_button": "Gửi yêu cầu",
+                    "delete_button": "Xóa yêu cầu",
+                    "confirmation_message": "Yêu cầu thay đổi biệt hiệu của bạn đã được gửi và đang chờ phê duyệt.",
+                    "dismiss_button": "=> core.ref.okay",
+                    "deleted": "Yêu cầu biệt hiệu đã bị xóa."
+                }
+            },
+            "username_modals": {
+                "action": {
+                    "title": "=> fof-username-request.ref.username_change_request",
+                    "help_text": "Hãy đảm bảo rằng thay đổi tên người dùng được yêu cầu này tuân theo các nguyên tắc của diễn đàn.",
+                    "decision_title": "Quyết định",
+                    "approval_label": "Phê duyệt",
+                    "rejected_label": "Từ chối",
+                    "submit_button": "gỬI",
+                    "reason_title": "Lý do từ chối",
+                    "success": "Đã gửi quyết định.",
+                    "name": "{name} đã yêu cầu thay đổi tên người dùng của họ thành \"{requestedName}\""
+                },
+                "results": {
+                    "title": "Yêu cầu thay đổi tên người dùng",
+                    "approved": "Yêu cầu thay đổi tên người dùng của bạn đã được chấp thuận",
+                    "dismiss_button": "=> core.ref.okay",
+                    "new_name": "Tên người dùng của bạn đã được đổi thành công thành: {name}",
+                    "rejected": "Yêu cầu thay đổi tên người dùng của bạn đã bị từ chối",
+                    "reason": "Lý do từ chối: <i>\"{reason}\"</i>.",
+                    "resubmit": "Tại thời điểm này, bạn có thể gửi lại yêu cầu thay đổi tên người dùng mới từ cài đặt tài khoản của mình nếu bạn muốn."
+                },
+                "request": {
+                    "title": "Yêu cầu thay đổi tên người dùng",
+                    "current_request": "Bạn đã yêu cầu thay đổi tên người dùng của mình thành \"{name}\". Bạn có thể cập nhật yêu cầu của mình hoặc xóa nó.",
+                    "submit_button": "Gửi yêu cầu",
+                    "delete_button": "Xóa yêu cầu",
+                    "confirmation_message": "Yêu cầu thay đổi tên người dùng của bạn đã được gửi và đang chờ phê duyệt.",
+                    "dismiss_button": "=> core.ref.okay",
+                    "deleted": "Yêu cầu tên người dùng đã bị xóa."
+                }
+            },
+            "pending_requests": {
+                "empty_text": "Không tìm thấy yêu cầu thay đổi tên.",
+                "nickname_item_text": "{name} đã yêu cầu thay đổi biệt hiệu",
+                "nickname_exerpt": "Biệt hiệu yêu cầu: {requestedName}",
+                "tooltip": "=> fof-username-request.ref.name_change_requests",
+                "title": "=> fof-username-request.ref.name_change_requests",
+                "username_item_text": "{name} đã yêu cầu thay đổi tên người dùng",
+                "username_exerpt": "Tên người dùng yêu cầu: {requestedName}"
+            },
+            "settings": {
+                "nickname_request_button": "Đổi biệt hiệu",
+                "username_request_button": "Đổi tên người dùng"
+            },
+            "user": {
+                "name_history_link": "Lịch sử đổi tên"
+            }
+        },
+        "ref": {
+            "name_change_request": "Yêu cầu thay đổi tên",
+            "name_change_requests": "Yêu cầu thay đổi tên",
+            "nickname_change_request": "Yêu cầu thay đổi biệt hiệu",
+            "nickname_change_requests": "Yêu cầu thay đổi biệt hiệu",
+            "username_change_request": "Yêu cầu thay đổi tên người dùng",
+            "username_change_requests": "Yêu cầu thay đổi tên người dùng"
+        }
+    }
+}

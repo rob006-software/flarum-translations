@@ -1,0 +1,36 @@
+{
+    "fof-filter": {
+        "forum": {
+            "flagger_name": "Tự động kiểm duyệt",
+            "flag_message": "Có chứa các chuỗi bị chặn"
+        },
+        "admin": {
+            "title": "Bộ lọc",
+            "help": "Nhập văn bản hoặc từ cần lọc, được phân tách bằng dấu phẩy + khoảng trắng. Nếu nội dung bài đăng của người dùng chứa chuỗi bạn muốn lọc, thì chuỗi đó sẽ được gắn cờ để phê duyệt. Có khả năng chống chọi 133t.",
+            "help2": "Khoảng thời gian tính bằng phút, trong đó các bài đăng từ cùng một người dùng trong cùng một cuộc thảo luận sẽ được tự động hợp nhất.",
+            "email_help": "Nội dung của email bị gắn cờ. Chấp nhận html hoặc plaintext.",
+            "filter_label": "Các chuỗi để lọc",
+            "countLabel": "Kiểm duyệt Tolorance",
+            "cooldownLabel": "Hợp nhất thời gian cooldown của bài đăng",
+            "input": {
+                "placeholder": "Các chuỗi được lọc",
+                "filter_title": "Các chuỗi để lọc",
+                "email_label": "Thiết lập email",
+                "switch": {
+                    "email": "Gửi email cho người dùng khi bài đăng được lọc",
+                    "merge": "Tự động hợp nhất các bài đăng kép"
+                },
+                "email_subject": "Tiêu đề",
+                "email_body": "Nội dung"
+            },
+            "nav": {
+                "text": "Bộ lọc",
+                "desc": "Lọc bài viết theo từ"
+            },
+            "email": {
+                "default_subject": "Về bài đăng gần đây của bạn",
+                "default_text": "Cảm ơn đã đăng bài viết! Rất tiếc, bài đăng của bạn đã bị xóa vì nó chứa nội dung nào đó mà chúng tôi không muốn thấy trên diễn đàn của chúng tôi.\n\nNếu bạn tin rằng đây là một lỗi, bạn thật may mắn, mỗi bài đăng bị xóa đều được người kiểm duyệt của chúng tôi xem xét. Nếu họ thấy rằng điều này đã bị xóa sai, họ sẽ khôi phục lại nó.\n\nCảm ơn bạn cho sự hiểu biết của bạn."
+            }
+        }
+    }
+}

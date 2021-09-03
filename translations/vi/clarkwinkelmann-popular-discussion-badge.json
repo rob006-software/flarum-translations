@@ -1,0 +1,38 @@
+{
+    "clarkwinkelmann-popular-discussion-badge": {
+        "forum": {
+            "badge_label": "Phổ biến"
+        },
+        "admin": {
+            "settings": {
+                "mode": "Cách hoạt động",
+                "mode_help": "Chế độ giao diện người dùng là một giải pháp hiệu quả mà không sử dụng cơ sở dữ liệu. Chế độ lên lịch yêu cầu thiết lập CRON và cho phép khung thời gian trong các điều kiện.\n",
+                "mode_options": {
+                    "frontend": "Giao diện người dùng",
+                    "scheduler": "Lên lịch (CRON)"
+                },
+                "scheduler_frequency": "Tần suất cho chế độ lên lịch",
+                "scheduler_frequency_help": "Tần suất trạng thái phổ biến sẽ được cập nhật trong chế độ Bộ lập lịch (CRON). (Ở chế độ Giao diện người dùng, trạng thái luôn được cập nhật ngay lập tức)\n",
+                "scheduler_frequency_options": {
+                    "everyFiveMinutes": "5 phút một lần",
+                    "everyTenMinutes": "10 phút một lần",
+                    "everyFifteenMinutes": "15 phút một lần",
+                    "everyThirtyMinutes": "30 phút một lần",
+                    "hourly": "Mỗi giờ một lần"
+                },
+                "conditions": "Điều kiện để có huy hiệu Phổ biến",
+                "conditions_help": "Bình luận là tổng số bài viết bình luận bao gồm cả bài viết đầu tiên. Lượt xem được truy xuất từ ​​phần mở rộng MichaelBelgium hoặc Flarumite. Khung thời gian đưa ra sẽ được sử dụng để đếm các bình luận hoặc lượt xem trong vòng n giờ qua. Chỉ có tiện ích mở rộng MichaelBelgium được hỗ trợ cho các chế độ xem theo khung thời gian. Để trống khung thời gian hoặc đặt 0 giờ để đếm tất cả các bình luận hoặc lượt xem.\n",
+                "add": "Thêm điều kiện khác",
+                "comments": "Bình luận",
+                "comments_placeholder": "0",
+                "views": "Lượt xem",
+                "views_placeholder": "0",
+                "within": "trong",
+                "within_placeholder": "tất cả",
+                "hours": "h",
+                "and": "VÀ",
+                "or": "HOẶC"
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "flarum-suspend": {
+        "admin": {
+            "permissions": {
+                "suspend_users_label": "Cấm người dùng"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "user_suspended_text": "Bạn đã bị cấm trong {timeReadable}",
+                "user_unsuspended_text": "Bạn đã được mở cấm"
+            },
+            "suspend_user": {
+                "indefinitely_label": "Cấm vô thời hạn",
+                "limited_time_days_text": " ngày",
+                "limited_time_label": "Cấm trong một thời gian nhất định...",
+                "not_suspended_label": "Không cấm",
+                "status_heading": "Tình trạng cấm",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Cấm {username}"
+            },
+            "user_badge": {
+                "suspended_tooltip": "Bị cấm"
+            },
+            "user_controls": {
+                "suspend_button": "\bCấm"
+            }
+        }
+    }
+}

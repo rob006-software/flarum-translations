@@ -1,0 +1,101 @@
+{
+    "v17development-flarum-badges": {
+        "admin": {
+            "uncategorized": "Chưa phân loại",
+            "new_badge": "Huy hiệu mới",
+            "create_category": "Tạo danh mục",
+            "update_badge": "Cập nhật huy hiệu",
+            "update_category": "Cập nhật danh mục",
+            "edit_category": "Chỉnh sửa danh mục",
+            "nothing_here_yet": "Bạn chưa tạo bất kỳ huy hiệu hoặc danh mục nào.",
+            "permissions": {
+                "badge_detail_users": "Có thể xem người dùng trên trang chi tiết huy hiệu",
+                "give_badge": "Gán huy hiệu cho người dùng",
+                "take_badge": "Gỡ huy hiệu khỏi người dùng"
+            },
+            "confirm_dialog": {
+                "title": "Xác nhận",
+                "no": "Không",
+                "yes": "Có"
+            },
+            "confirm_messages": {
+                "delete_badge": "Bạn có chắc chắn muốn xóa huy hiệu này không? Nó sẽ bị gỡ khỏi tất cả người dùng và không thể thay đổi được.",
+                "delete_category": "Bạn có chắc chắn muốn xóa danh mục này không? Nếu có bất kỳ huy hiệu nào trong danh mục này, chúng sẽ được đánh dấu là 'chưa phân loại'."
+            },
+            "badge": {
+                "name": "Tên huy hiệu",
+                "icon": "Icon huy hiệu",
+                "description": "Mô tả huy hiệu",
+                "visible": "Hiển thị",
+                "visible_description": "Bật huy hiệu này. Khi bị vô hiệu hóa, huy hiệu sẽ không hiển thị."
+            },
+            "badge_category": {
+                "name": "Tên danh mục",
+                "description": "Mô tả danh mục",
+                "blockview": "Chế độ xem block",
+                "blockview_description": "Hiển thị danh mục-huy hiệu trong chế độ xem block trên tổng quan về huy hiệu. Khi bị vô hiệu hóa, tất cả các huy hiệu sẽ được hiển thị trong một bảng.",
+                "enabled": "Đã bật",
+                "enabled_description": "Kích hoạt danh mục này. Khi bị vô hiệu hóa, tất cả các huy hiệu sẽ bị vô hiệu hóa và danh mục sẽ bị ẩn."
+            },
+            "auto_moderator": {
+                "not_installed": {
+                    "title": "Tự động gán huy hiệu cho người dùng",
+                    "content": "Tiện ích mở rộng này cung cấp nhiều chức năng hơn khi <a>Người kiểm duyệt tự động</a> được cài đặt và kích hoạt. Khi bạn cài đặt tiện ích mở rộng này, người dùng có thể tự động được gán huy hiệu mà không cần sự can thiệp của bạn!",
+                    "install": "Cài đặt",
+                    "dismiss": "Không hiện lại"
+                },
+                "action_drivers": {
+                    "badge_id": "ID huy hiệu",
+                    "give_badge": "Gán huy hiệu",
+                    "remove_badge": "Gỡ huy hiệu"
+                },
+                "requirement_drivers": {
+                    "has_badge": "Có huy hiệu"
+                },
+                "metric_drivers": {
+                    "badges_received": "Huy hiệu đã nhận"
+                },
+                "badge_selector": {
+                    "placeholder": "Chọn huy hiệu",
+                    "loading_badges": "Đang tải huy hiệu"
+                }
+            }
+        },
+        "forum": {
+            "badge_information": "Thông tin huy hiệu",
+            "all_badges": "Xem tất cả huy hiệu",
+            "all_users": "Xem tất cả người dùng",
+            "give_badge": "Gán huy hiệu",
+            "update_badge": "Cập nhật huy hiệu",
+            "select_badge": "Chọn huy hiệu",
+            "user_has_badge": "Người dùng đã có huy hiệu này.",
+            "user_no_badges": "Người dùng này chưa có bất kỳ huy hiệu nào.",
+            "no_received": "Không có người dùng nào có huy hiệu này.",
+            "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
+            "badge": {
+                "badge": "Huy hiệu",
+                "badges": "Huy hiệu",
+                "name": "Tên huy hiệu",
+                "description": "Mô tả huy hiệu",
+                "earning_reason": "Lý do có huy hiệu",
+                "update_earning_reason": "Cập nhật lý do",
+                "no_earning_reason": "Không có lý do nào",
+                "earned_on": "Huy hiệu được gán lúc",
+                "category": "Danh mục của huy hiệu",
+                "received_on": "Nhận được lúc {date}",
+                "badge_details": "Chi tiết huy hiệu",
+                "earned_count": "{count, plural, one {<b># người dùng</b> có huy hiệu này} other {<b># người dùng</b> có huy hiệu này}}",
+                "earned_by_count": "{count, plural, one {<b># người dùng</b> có huy hiệu này} other {<b># người dùng</b> có huy hiệu này}}"
+            },
+            "moderation": {
+                "remove_badge": "Gỡ huy hiệu",
+                "remove_badge_confirm": "Bạn có chắc chắn muốn gỡ huy hiệu này khỏi người dùng này không?",
+                "give_badge": "Gán huy hiệu"
+            },
+            "notification": {
+                "title": "Bạn nhận được một huy hiệu mới",
+                "settings": "Tôi nhận được một huy hiệu"
+            }
+        }
+    }
+}

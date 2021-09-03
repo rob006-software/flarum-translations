@@ -1,0 +1,45 @@
+{
+    "justoverclock-feedback": {
+        "admin": {
+            "contactmail": "Địa chỉ email để gửi phản hồi tới",
+            "contactdesc": "Bạn phải điền vào phần này để kích hoạt hoàn toàn tiện ích Phản hồi",
+            "collect-email": "Hiển thị trường địa chỉ email (tùy chọn) cho người dùng",
+            "collect-email-help": "Khi được bật, người dùng có thể thêm địa chỉ email của họ vào phản hồi",
+            "position": "Vị trí Widget",
+            "position-help": "Chọn dưới cùng bên trái hoặc dưới cùng bên phải để hiển thị nút phản hồi",
+            "right_label": "Phải",
+            "left_label": "Trái",
+            "background-color": "Màu nền Widget",
+            "background-color-help": "Mã màu hệ lục phân để sử dụng làm màu nền, tức là '#fff'",
+            "font-color": "Màu phông chữ Widget",
+            "font-color-help": "Mã màu hệ lục phân để sử dụng làm màu phông chữ, tức là '#000'"
+        },
+        "api": {
+            "validation_error": "Bạn không thể gửi phản hồi khi nội dung trống"
+        },
+        "forum": {
+            "button-title": "Phản hồi",
+            "feedback-widget": {
+                "title": "Phản hồi Flarum",
+                "placeholder": "Nhập phản hồi của bạn vào đây",
+                "submit": "Gửi",
+                "back": "Quay lại",
+                "contact-text": "Hoặc gửi email",
+                "type-message": "Bạn có phản hồi gì không?",
+                "success": "Cảm ơn!👊",
+                "failed-title": "Úi, có lỗi xảy ra!",
+                "failed-message": "Vui lòng thử lại. Nếu điều này tiếp tục xảy ra, hãy thử gửi email khác.",
+                "types": {
+                    "general": "Phản hồi chung",
+                    "idea": "Tôi có ý tưởng",
+                    "bug": "Báo cáo lỗi"
+                }
+            },
+            "email": {
+                "guest": "người dùng ẩn danh",
+                "subject": "Phản hồi",
+                "body": "Phản hồi {type} mới từ {user}!\n\n{message}\n\nEmail: {email}\nUrl: {url}"
+            }
+        }
+    }
+}

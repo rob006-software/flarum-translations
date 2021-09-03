@@ -1,0 +1,96 @@
+{
+    "fof-mason": {
+        "forum": {
+            "discussion-controls": {
+                "edit-answers": "Chỉnh Sửa các trường"
+            },
+            "answers-modal": {
+                "edit-title": "Chỉnh sửa CÁC trường cho {title}",
+                "save": "Lưu các trường"
+            },
+            "post-answers": {
+                "no-answer": "Không có trả lời"
+            },
+            "answers": {
+                "choose-option": "Chọn một tùy chọn",
+                "no-option-selected": "Không có tùy chọn nào được chọn"
+            },
+            "tags": {
+                "inadequate-settings": "Cài đặt thẻ không được cấu hình chính xác. Cho phép tối đa một thẻ chính và thẻ phụ hoặc tắt tính năng \"Thẻ dưới dạng trường\".\n",
+                "tags-label": "Thẻ"
+            }
+        },
+        "admin": {
+            "buttons": {
+                "new-field": "Trường mới",
+                "add-field": "Thêm trường",
+                "save-field": "Lưu thay đổi trường",
+                "delete-field": "Xóa trường",
+                "edit-field": "Nhấp để chỉnh sửa trường",
+                "add-answer": "Thêm câu trả lời",
+                "save-answer": "Lưu thay đổi câu trả lời",
+                "delete-answer": "Xóa câu trả lời",
+                "edit-answer": "Chỉnh sửa câu trả lời",
+                "edit-answer-prompt": "Chỉnh sửa nội dung ở mọi nơi nó được sử dụng",
+                "show-user-answers": "Hiển thị các câu trả lời không được đề xuất ({count})"
+            },
+            "fields": {
+                "add": "Thêm trường {field}",
+                "edit": "Chỉnh sửa trường {field}",
+                "required": "Bắt buộc",
+                "name": "Tên trường",
+                "name-help": "Nhãn trường hiển thị công khai (không thể dịch).\n",
+                "description": "Mô tả trường",
+                "description-help": "Mô tả tùy chọn để giải thích việc sử dụng/nhu cầu của trường này.\n",
+                "show_when_empty": "Hiển thị khi trống",
+                "show_when_empty-help": "Có hiển thị trường trên cuộc thảo luận khi nó không có câu trả lời hay không",
+                "validation": "Xác thực giá trị người dùng",
+                "user_values_allowed": "Giá trị người dùng được phép",
+                "user_values_allowed-help": "Nếu được bật, người dùng có thể thêm các giá trị của riêng họ thay vì các giá trị do quản trị viên xác định. Các giá trị này sẽ được kiểm tra dựa trên cài đặt \"Xác thực\". Nếu bị vô hiệu hóa, họ sẽ chỉ có thể sử dụng các câu trả lời \"được đề xuất\".\n",
+                "validation-help": "Kiểm tra <a>các quy tắc xác thực Laravel được hỗ trợ</a>. Ví dụ: \"string|min:5\" hoặc \"url\".\n",
+                "enable-user-values-for-validation": "Bật \"giá trị người dùng\" để định cấu hình quy tắc xác thực",
+                "icon": "Icon",
+                "icon-help": "Hiển thị biểu tượng phía trước các giá trị do người dùng nhập. Để tham khảo các biểu tượng có sẵn, hãy xem <a>trang web FontAwesome</a>. Sử dụng tên lớp biểu tượng đầy đủ bao gồm tiền tố, ví dụ: \"fas fa-bolt\".\n",
+                "icon-preview": "xem trước: {preview}",
+                "save-field-for-answers": "Lưu trường để thêm câu trả lời",
+                "is_suggested": "Đề xuất câu trả lời cho người dùng",
+                "new-answer": "Câu trả lời mới",
+                "new-answer-placeholder": "Nhập cái gì đó..."
+            },
+            "messages": {
+                "delete-answer-confirmation": "Bạn có chắc chắn muốn xóa câu trả lời \"{content}\" không? Nó sẽ bị xóa khỏi tất cả các cuộc thảo luận sử dụng nó. Thay vào đó, nếu bạn muốn giữ lại các câu trả lời hiện có, hãy tắt gợi ý câu trả lời. Xóa câu trả lời?\n",
+                "delete-field-confirmation": "Bạn có chắc chắn muốn xóa trường \"{name}\" không? Trường và câu trả lời của nó sẽ bị xóa khỏi tất cả các cuộc thảo luận sử dụng chúng. Xóa trường?\n"
+            },
+            "settings": {
+                "fields-section-title": "Tiêu đề của phần trường tùy chỉnh",
+                "fields-section-title-placeholder": "Theo mặc định, không có tiêu đề nào được hiển thị",
+                "fields-section-title-help": "Người dùng sẽ thấy văn bản này phía trên các trường tùy chỉnh trong trình chỉnh sửa và trên cuộc thảo luận.\n",
+                "column-count": "Số cột khi hiển thị các trường",
+                "n-columns": "{count} cột",
+                "labels-as-placeholders": "Hiển thị nhãn dưới dạng trình giữ chỗ trong biểu mẫu",
+                "labels-as-placeholders-help": "Các trường sẽ sử dụng ít không gian dọc hơn và các biểu tượng sẽ không được hiển thị nữa. Hãy nhớ rằng điều này có thể ảnh hưởng đến khả năng sử dụng, đặc biệt là khi chỉnh sửa các trường hiện có.\n",
+                "fields-in-hero": "Hiển thị các trường trong biểu ngữ thảo luận thay vì bài đăng đầu tiên",
+                "hide-empty-fields-section": "Ẩn tiêu đề và điều khiển khi tất cả các trường trống và bị ẩn",
+                "hide-empty-fields-section-help": "Theo mặc định, nếu người dùng có thể chỉnh sửa các trường hoặc một tiêu đề đã được đặt, thì phần đó sẽ luôn được hiển thị, ngay cả khi tất cả các trường đều bị ẩn. Với tùy chọn này được bật, phần sẽ bị ẩn và nút \"chỉnh sửa trường\" sẽ chỉ khả dụng trong menu thả xuống \"trả lời\" khi tất cả các trường đều trống.\n",
+                "tags-as-field": "Hiển thị công cụ chọn thẻ dưới dạng một trường",
+                "tags-as-field-help": "Thao tác này sẽ ẩn công cụ chọn thẻ mặc định và thay vào đó, hiển thị trường thả xuống tùy chỉnh. Điều này sẽ chỉ hoạt động nếu bạn cho phép tối đa một thẻ chính và một thẻ phụ!\n",
+                "tags-field-name": "Nhãn của trường thẻ",
+                "tags-field-name-placeholder": "=> fof-mason.forum.tags.tags-label"
+            },
+            "titles": {
+                "settings": "Thiết lập",
+                "fields": "Trường",
+                "field-settings": "Thiết lập trường",
+                "field-answers": "Trả lời trường"
+            },
+            "permissions": {
+                "see-own-fields": "Xem các trường trên các cuộc thảo luận hiện có",
+                "see-other-fields": "Xem các trường trên tất cả các cuộc thảo luận hiện có",
+                "fill-fields": "Điền vào các trường trên các cuộc thảo luận mới",
+                "update-own-fields": "Cập nhật các trường thảo luận riêng",
+                "update-other-fields": "Cập nhật các trường của bất kỳ cuộc thảo luận nào",
+                "skip-required-fields": "Được phép bỏ qua các trường bắt buộc"
+            }
+        }
+    }
+}

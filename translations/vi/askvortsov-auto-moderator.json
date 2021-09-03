@@ -1,0 +1,89 @@
+{
+    "askvortsov-auto-moderator": {
+        "admin": {
+            "action_drivers": {
+                "activate_email": "Kích hoạt email",
+                "add_to_group": "Thêm vào nhóm",
+                "remove_from_group": "Xóa khỏi nhóm",
+                "suspend": "Đình chỉ",
+                "unsuspend": "Bỏ đình chỉ"
+            },
+            "metric_drivers": {
+                "discussions_entered": "Các cuộc thảo luận đã nhập",
+                "discussions_participated": "Các cuộc thảo luận đã tham gia",
+                "discussions_started": "Các cuộc thảo luận đã đăng",
+                "posts_made": "Bài viết đã đăng",
+                "likes_given": "Đã thích",
+                "likes_received": "Lượt thích đã nhận",
+                "best_answers": "Câu trả lời hay nhất",
+                "moderator_strikes": "Cảnh báo của người kiểm duyệt về Cảnh cáo"
+            },
+            "requirement_drivers": {
+                "email_confirmed": "Đã xác nhận email",
+                "in_group": "Trong nhóm",
+                "suspended": "Bị đình chỉ",
+                "email_matches_regex": "Email phù hợp với Regex"
+            },
+            "in_group_settings": {
+                "regex": "Regex cho các email hợp lệ (không có dấu gạch chéo)"
+            },
+            "group_selector": {
+                "placeholder": "Chọn một nhóm"
+            },
+            "suspend_selector": {
+                "days": "Số ngày để đình chỉ",
+                "indefinitely": "Đình chỉ vô thời hạn?"
+            },
+            "criterion_status": {
+                "heading": "Kiểm tra trạng thái",
+                "invalid": "Tiêu chí hiện không hợp lệ. Vui lòng kiểm tra các trình điều khiển bên dưới để biết lỗi.",
+                "no_actions": "Không có hành động nào được xác định cho tiêu chí này. Sẽ không có gì xảy ra khi người dùng được hoặc mất tiêu chí này.",
+                "no_metrics_or_reqs": "Không có số liệu hoặc yêu cầu nào được xác định cho tiêu chí này. Điều này có nghĩa là TẤT CẢ người dùng sẽ đủ điều kiện cho tiêu chí này.",
+                "valid": "Tiêu chí này là hợp lệ!",
+                "action_validation_errors": "Đã gặp phải các lỗi xác thực trình điều khiển hành động sau:",
+                "requirement_validation_errors": "Các lỗi xác thực trình điều khiển yêu cầu sau đã gặp phải:"
+            },
+            "criterion_page": {
+                "driver_missing_ext": "Trình điều khiển này phụ thuộc vào các tiện ích mở rộng không được bật.",
+                "back": "Quay lại Danh sách tiêu chí",
+                "name_label": "Tên",
+                "icon_label": "Icon",
+                "description_label": "Mô tả",
+                "new_criterion": "Tạo tiêu chí",
+                "negated": "Được tôn trọng?",
+                "loading": "=> core.ref.loading",
+                "delete_button": "=> core.ref.delete",
+                "metrics_and_requirements_label": "Các chỉ số và yêu cầu",
+                "metrics_and_requirements_help": "Những điều này xác định liệu người dùng có đủ điều kiện cho tiêu chí này hay không. Số liệu thể hiện phạm vi giá trị, yêu cầu là điều kiện boolean.",
+                "metrics_heading": "Số liệu",
+                "requirements_heading": "Yêu cầu",
+                "add_metric": "Thêm số liệu",
+                "actions_label": "Hành động",
+                "actions_help": "Các hành động khi đạt được thực thi khi người dùng đủ điều kiện cho một tiêu chí mới. Các hành động khi mất mát thực thi khi người dùng ngừng đủ điều kiện cho một tiêu chí.",
+                "actions_on_gain_heading": "Các hành động đạt được",
+                "actions_on_loss_heading": "Hành động khi Mất mát",
+                "add_action": "Thêm hành động"
+            },
+            "undefined_driver_item": {
+                "text": "LỖI! Trình điều khiển <strong>{driverName}</strong> không được xác định. Rất có thể, nó đã được thêm vào bởi một tiện ích mở rộng hiện chưa được cài đặt. Bạn sẽ cần kích hoạt lại tiện ích mở rộng hoặc xóa trình điều khiển này để tiêu chí hợp lệ trở lại."
+            },
+            "automoderator_page": {
+                "criterion_invalid": "Tiêu chí hiện không hợp lệ. Vui lòng kiểm tra cài đặt của nó để biết thêm thông tin",
+                "list_heading": "Tiêu chí",
+                "create_criterion_button": "Tạo tiêu chí mới"
+            },
+            "automoderator_instructions": {
+                "header": "Hướng dẫn tiện ích mở rộng",
+                "text": "<li>Tl; dr: Khi người dùng đáp ứng tiêu chí X, hãy thực hiện Y. Khi người dùng không còn đáp ứng tiêu chí X, hãy thực hiện Z.</li>\n<li><strong>Tiêu chí:</strong> Tiêu chí là cốt lõi của phần mở rộng này. Chúng là những tập hợp các chỉ số và yêu cầu tùy ý. Khi người dùng đáp ứng một tiêu chí, mọi hành động \"có lợi\" cho tiêu chí sẽ được thực thi. Khi người dùng mất tiêu chí, mọi hành động \"khi mất tiêu chí\" sẽ được thực hiện.</li>\n<ul>\n  <li><strong>Số liệu:</strong> Một điều kiện số. Ví dụ: số lượng bài đăng hoặc số lượt thích nhận được. Một tiêu chí có thể yêu cầu một phạm vi/tối thiểu/tối đa các chỉ số.</li>\n  <li><strong>Yêu cầu:</strong> Một điều kiện boolean trừu tượng. Ví dụ: không bị tạm ngưng hoặc có email khớp với một regex nhất định.</li>\n</ul>\n<li><strong>Hành động:</strong> Điều gì đó tự động xảy ra khi một tiêu chí được đáp ứng hoặc bị mất. Điều này có thể bao gồm bất kỳ điều gì từ việc thêm/xóa nhóm, gửi email đến việc tạm ngưng người dùng.</li>\n<li><strong>Kích hoạt:</strong> Một tập hợp các sự kiện sẽ khiến các nhóm tiêu chí của người dùng được đánh giá lại. Đây là một phần của định nghĩa về số liệu và yêu cầu. Tất cả các tiêu chí sẽ được đánh giá khi đăng nhập: đó là \"kích hoạt phổ quát\".</li>\n<li>Các hành động \"khi mất mác\" sẽ luôn chạy trước các hành động \"có lợi\". Theo cách đó, các hành động sẽ được thực hiện miễn là người dùng đáp ứng ít nhất một trong các tiêu chí thực hiện hành động đó để đạt được lợi ích.</li>\n<li>Hãy nhớ rằng các hành động chỉ chạy \"khi mất\" và \"có lợi\". Các chỉnh sửa thủ công trong khi người dùng đủ điều kiện cho một tiêu chí sẽ không kích hoạt các hành động \"có lợi\" của tiêu chí đó được áp dụng lại.</li>\n<li>Nếu bạn xóa một tiêu chí, hành động \"khi mất\" sẽ KHÔNG được chạy cho những người dùng hiện đủ điều kiện cho tiêu chí.</li>\n<li>Nếu bạn đang sử dụng tiêu chí để quản lý nhóm, chúng tôi khuyên bạn nên duy trì một nhóm riêng biệt để được quản lý theo tiêu chí. Bạn sẽ không thể thêm/xóa người dùng vào/khỏi các nhóm này theo cách thủ công.</li>\n"
+            }
+        },
+        "lib": {
+            "group_id": "ID nhóm",
+            "managed_groups": {
+                "header": "Nhóm được quản lý",
+                "group_item": "<badge></badge> {groupName}",
+                "groups_not_editable": "Không thể thêm/xóa các nhóm được quản lý bởi các tiêu chí của trình tự động hóa cho/khỏi người dùng theo cách thủ công để tránh sự mâu thuẫn."
+            }
+        }
+    }
+}

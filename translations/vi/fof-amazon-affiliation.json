@@ -1,0 +1,22 @@
+{
+    "fof-amazon-affiliation": {
+        "admin": {
+            "settings": {
+                "title": {
+                    "modal": "Thiết lập Amazon Affiliation",
+                    "tags": "Thẻ Affiliate",
+                    "tags-mediaembed": "Các trang Amazon sau hiện không được hỗ trợ cho MediaEmbed, vì vậy sẽ luôn hiển thị dưới dạng liên kết thuần (tuân theo cài đặt ở trên): CN, BR, MX, AU"
+                },
+                "field": {
+                    "keep-existing-tag": "Giữ các Thẻ liên kết của Amazon từ các liên kết ban đầu thay vì thay thế",
+                    "keep-existing-tag-help": "Theo mặc định, bất kỳ thẻ hiện có nào trong url ban đầu đều được thay thế bằng thẻ bạn xác định bên dưới.",
+                    "help-mediaembed": "Khi sử dụng kết hợp với fof/formatting, tính năng nhúng đa dạng sẽ luôn xóa mọi thẻ hiện có",
+                    "remove-tag-if-unhandled": "Xóa các Thẻ liên kết của Amazon trên các liên kết Amazon không được bảo vệ",
+                    "remove-tag-if-unhandled-help": "Theo mặc định, các liên kết không được bảo vệ vẫn được giữ nguyên, bao gồm cả thẻ của chúng nếu có.",
+                    "tag": "{name} (amazon.{domain})",
+                    "tag-placeholder": "Để trống để không che các liên kết đó"
+                }
+            }
+        }
+    }
+}

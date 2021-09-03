@@ -1,0 +1,33 @@
+{
+    "flarum-ext-contactme": {
+        "settings": {
+            "emaillabel": "Email mà biểu mẫu liên hệ sẽ được gửi đến"
+        },
+        "admin": {
+            "settings": {
+                "emaillabel": "Email mà biểu mẫu liên hệ sẽ được gửi đến"
+            }
+        },
+        "forum": {
+            "title": "Liên hệ chúng tôi",
+            "messagesent": "Đã gửi tin nhắn!",
+            "plsregister": "Vui lòng đăng nhập hoặc đăng kí",
+            "tocontinue": "để tiếp tục với biểu mẫu liên hệ này",
+            "backsoon": "chúng tôi sẽ liên hệ lại với bạn trong thời gian ngắn",
+            "notloggedin": "Vui lòng đăng nhập để sử dụng biểu mẫu liên hệ",
+            "placeholderName": "Nhập tên của bạn",
+            "emailfield": "Nhập địa chỉ email của bạn",
+            "pageTitle": "Liên hệ chúng tôi",
+            "subject": "Tin nhắn từ biểu mẫu liên hệ",
+            "sendForm": "Gửi tin nhắn",
+            "textAreaField": "Nhập tin nhắn của bạn",
+            "pText": "<p>Bằng cách điền vào biểu mẫu liên hệ này, bạn có thể gửi cho chúng tôi thông tin liên lạc thương mại, quan hệ đối tác hoặc đơn giản là bất kỳ loại câu hỏi nào, sẽ được trả lời trong vòng tối đa 7 ngày..</p>\n<p><strong>XỬ LÝ DỮ LIỆU CÁ NHÂN</strong></p>\n<p>(Chính sách bảo mật. 13 del d.lgs. 196/2003)</p>\n<p>Chúng tôi thông báo cho bạn rằng dữ liệu bạn sẽ cung cấp cho người điều hành trang web này khi điền vào \"biểu mẫu liên hệ\" (còn gọi là thư biểu mẫu) của chính trang web, sẽ được xử lý theo các quy định của Nghị định lập pháp 196/2003, Mã trong chủ đề bảo vệ dữ liệu cá nhân.\n   Biểu mẫu liên hệ có sẵn trên trang web có mục đích duy nhất là cho phép khách truy cập trang web liên hệ, nếu họ muốn, người quản lý trang web, bằng cách gửi email cho người quản lý qua biểu mẫu nói trên.\n   Thông tin này liên quan đến dữ liệu cá nhân được gửi bởi người dùng khách truy cập khi điền vào biểu mẫu liên hệ.</p>\n<p>Vui lòng tuân theo quy tắc này:</p>\n<li>Không lạm dụng biểu mẫu liên hệ cho các yêu cầu có thể được thực hiện trong diễn đàn</li>\n<li>Không gửi cùng một email nhiều lần</li>\n"
+        },
+        "email": {
+            "contact": {
+                "subject": "Liên hệ mới qua biểu mẫu",
+                "body": "Chào!\n\nBạn đã nhận được một biểu mẫu liên hệ mới được gửi từ {username} (email: {email})\n\nTin nhắn của họ là:\n\n{message}"
+            }
+        }
+    }
+}

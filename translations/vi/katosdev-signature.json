@@ -1,0 +1,47 @@
+{
+    "signature": {
+        "forum": {
+            "buttons": {
+                "signature": "Chữ ký",
+                "save": "Lưu chữ ký"
+            },
+            "modal": {
+                "loading": {
+                    "title": "Đang lưu",
+                    "content": "Vui lòng chờ..."
+                },
+                "error": {
+                    "title": "Rất tiếc! Đã gặp một số lỗi khi lưu ...",
+                    "content": "Danh sách lỗi:"
+                }
+            },
+            "errors": {
+                "max_char_limit_exceed": "Đã vượt quá giới hạn ký tự tối đa.",
+                "max_image_width_exceed": "Đã vượt quá giới hạn chiều rộng tối đa của hình ảnh.",
+                "max_image_height_exceed": "Đã vượt quá giới hạn chiều cao tối đa của hình ảnh.",
+                "max_image_count_exceed": "Đã vượt quá số lượng hình ảnh tối đa."
+            }
+        },
+        "admin": {
+            "title": "Chữ ký",
+            "settings": {
+                "maximum_image_width": {
+                    "description": "Chiều rộng tối đa của hình ảnh trên trình chỉnh sửa.",
+                    "placeholder": "350 (mặc định)"
+                },
+                "maximum_image_height": {
+                    "description": "Chiều cao tối đa của chiều cao tổng của tổng số hình ảnh được chèn vào trình chỉnh sửa.",
+                    "placeholder": "500 (mặc định)"
+                },
+                "maximum_image_count": {
+                    "description": "Hình ảnh được chèn tối đa.",
+                    "placeholder": "5 (mặc định)"
+                },
+                "maximum_char_limit": {
+                    "description": "Giới hạn ký tự tối đa của chữ ký (đếm ký tự, không tính đến thẻ HTML)",
+                    "placeholder": "1000 (mặc định)"
+                }
+            }
+        }
+    }
+}

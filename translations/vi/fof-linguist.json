@@ -1,0 +1,117 @@
+{
+    "fof-linguist": {
+        "admin": {
+            "tabs": {
+                "strings": "Bản dịch",
+                "coverage": "Tiến trình",
+                "export": "Xuất",
+                "import": "Nhập"
+            },
+            "buttons": {
+                "apply": "Áp dụng",
+                "reset": "Khôi phục bản gốc",
+                "copy-original": "Sao chép văn bản gốc",
+                "load-more": "Tải thêm",
+                "delete-redundant": "Xóa các bản dịch thừa",
+                "delete-redundant-confirm": "Thao tác này sẽ xóa {count} bản dịch có bản dịch gốc và bản dịch tùy chỉnh giống nhau. Điều này có thể hữu ích để dọn dẹp sau khi cập nhật gói ngôn ngữ.\n",
+                "delete-all": "Xóa tất cả các bản dịch",
+                "delete-all-confirm": "Điều này sẽ xóa TẤT CẢ trong số {count} bản dịch tùy chỉnh của bạn. Đảm bảo rằng bạn đã xuất hoặc sao lưu mọi thứ bạn có thể muốn giữ lại.\n"
+            },
+            "locales": {
+                "all": "Tất cả"
+            },
+            "placeholder": {
+                "not-translated": "Không được dịch",
+                "all-locales": "Một văn bản được xác định ở đây sẽ được hiển thị bằng tất cả các ngôn ngữ",
+                "hint": "Bản dịch ban đầu:"
+            },
+            "filters": {
+                "search": "Tìm kiếm chuỗi dịch...",
+                "with-own-translations": "Bản dịch của tôi",
+                "missing": "Tìm bản dịch còn thiếu",
+                "missing-middle-label": "bản dịch trong",
+                "negation-options": {
+                    "with": "Với",
+                    "without": "Không có"
+                },
+                "type-options": {
+                    "any": "Bản gốc hoặc tùy chỉnh",
+                    "original": "Bản gốc",
+                    "own": "Tùy chỉnh"
+                },
+                "operation-options": {
+                    "or": "Một trong hai",
+                    "and": "Tất cả"
+                },
+                "for-extension": "Đối với tiện ích mở rộng",
+                "frontend": "Đối với giao diện người dùng",
+                "frontend-all-except-admin": "Tất cả ngoại trừ Quản trị viên",
+                "mass-edit": "Chỉnh sửa hàng loạt",
+                "results": "Hiển thị {shown} trong số {total} bản dịch phù hợp"
+            },
+            "clear-cache": {
+                "text": "Bản dịch mới vẫn chưa được áp dụng. Lưu ý: việc xóa bộ nhớ đệm có thể làm chậm diễn đàn của bạn trong giây lát.\n",
+                "button": "Xóa bộ nhớ đệm ngay"
+            },
+            "coverage": {
+                "column-options": {
+                    "locale": "Theo ngôn ngữ",
+                    "namespace": "Theo giao diện người dùng"
+                },
+                "total-options": {
+                    "percent": "Phần trăm",
+                    "count": "Đếm"
+                },
+                "columns": {
+                    "namespace": "Namespace",
+                    "total": "Toàn bộ",
+                    "all-except-admin": "Diễn đàn và các giao diện người dùng khác",
+                    "all-frontends": "Hiển thị tất cả giao diện người dùng"
+                },
+                "count": {
+                    "percent": "{percent} %",
+                    "total": "{translated} / {total}",
+                    "details": "Tổng {total} / {original} bản gốc / {custom} tùy chỉnh"
+                },
+                "all-namespaces": "Tất cả",
+                "apply-missing-filter": "Hiển thị các bản dịch bị thiếu phù hợp"
+            },
+            "export": {
+                "title": "Xuất",
+                "warning": "Định dạng xuất sử dụng các tệp dịch dựa trên Yaml của Flarum và được thiết kế để chia sẻ bản dịch giữa các diễn đàn và với những người duy trì gói ngôn ngữ. Định dạng này không được thiết kế để chuyển tất cả các bản dịch sang một diễn đàn mới. Tùy thuộc vào trường hợp sử dụng của bạn, sao chép cơ sở dữ liệu trực tiếp có thể là một ý tưởng tốt hơn.\n",
+                "locale": "Ngôn ngữ",
+                "locale-all": "Ngôn ngữ giả \"Tất cả\"",
+                "namespace": "Namespace",
+                "namespace-all": "Tất cả",
+                "include-originals": "Bao gồm các bản dịch gốc",
+                "include-all": "Bao gồm các bản dịch được xác định cho các ngôn ngữ \"Tất cả\"",
+                "output": "Đầu ra",
+                "output-loading": "Đang tải đầu ra...",
+                "output-empty": "Đầu ra trống",
+                "download": "Tải xuống"
+            },
+            "import": {
+                "title": "Nhập",
+                "input": "Đầu vào",
+                "input-placeholder": "Kéo và thả hoặc dán tệp Yaml vào đây",
+                "locale": "Ngôn ngữ",
+                "locale-all": "Ngôn ngữ giả \"Tất cả\"",
+                "override-existing": "Ghi đè các bản dịch tùy chỉnh hiện có của tôi",
+                "submit": "Nhập",
+                "results": "Quá trình nhập kết thúc. Các chuỗi {imported} đã được nhập và các chuỗi giống nhau {same} đã bị bỏ qua. Trang bây giờ sẽ được làm mới để hiển thị các bản dịch mới.\n",
+                "results-with-ignore": "Quá trình nhập đã hoàn tất. chuỗi {imported} đã được nhập, Các chuỗi hiện có {ignore} đã bị bỏ qua và các chuỗi giống nhau {identical} đã bị bỏ qua. Trang bây giờ sẽ được làm mới để hiển thị các bản dịch mới.\n"
+            },
+            "known-namespace": {
+                "core": "Flarum Core",
+                "validation": "Lỗi xác thực"
+            },
+            "known-frontend": {
+                "forum": "Diễn đàn",
+                "admin": "Quản trị viên",
+                "lib": "Lib (được sử dụng trên cả Diễn đàn và Quản trị viên)",
+                "ref": "Ref (được sử dụng lại trong các khóa khác)",
+                "api": "API"
+            }
+        }
+    }
+}

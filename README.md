@@ -267,6 +267,15 @@ This repository contains raw translations data used by [Weblate](https://weblate
 			</a>
 		</td>
 	</tr>
+	<tr>
+		<td><a href="https://github.com/flarum-lang/vietnamese">Vietnamese</a></td>
+		<td><a href="https://github.com/datlechin">Ngô Quốc Đạt</a></td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/vi.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/vi/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
 </tbody>
 </table>
 

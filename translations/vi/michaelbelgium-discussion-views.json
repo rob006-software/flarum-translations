@@ -1,0 +1,39 @@
+{
+    "core": {
+        "forum": {
+            "index_sort": {
+                "popular_button": "Phổ biến",
+                "unpopular_button": "Không phổ biến"
+            }
+        }
+    },
+    "michaelbelgium-discussion-views": {
+        "forum": {
+            "modal_resetviews": {
+                "title": "Đặt lại số lượt xem thảo luận",
+                "submit_button": "Vâng, loại bỏ tất cả",
+                "label": "Điều này sẽ xóa {count} lượt xem của cuộc thảo luận này. Tiếp tục?|Điều này sẽ xóa {count} lượt xem của cuộc thảo luận này. Tiếp tục?"
+            },
+            "discussion_controls": {
+                "resetviews_button": "Đặt lại lượt xem"
+            },
+            "viewlist": {
+                "title": "Người xem mới nhất"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "reset_views_label": "Đặt lại lượt xem thảo luận",
+                "view_number_label": "Xem lượt xem thảo luận"
+            },
+            "settings": {
+                "title": "Cài đặt lượt xem thảo luận",
+                "track_unique_label": "Theo dõi lượt xem",
+                "abbr_numbers_label": "Viết tắt số lượt xem",
+                "show_filter_label": "Cho phép (hủy) trường sắp xếp phổ biến",
+                "max_viewcount_label": "Mục danh sách xem tối đa",
+                "show_viewlist_label": "Bật danh sách xem"
+            }
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "fof-pages": {
+        "admin": {
+            "edit_page": {
+                "content_label": "=> fof-pages.ref.content",
+                "content_placeholder": "=> fof-pages.ref.content",
+                "delete_page_button": "Xoá trang",
+                "delete_page_confirmation": "Bạn có chắc chắn muốn xoá trang này?",
+                "hidden_label": "Lưu bản nháp",
+                "restricted_label": "Hạn chế quyền truy cập (định cấu hình ai có thể truy cập trong tab Quyền)",
+                "html_label": "Kích hoạt HTML",
+                "set_as_home_page_confirmation": "Bạn có chắc chắn muốn đặt trang này làm trang chủ của mình không?",
+                "set_as_home_page_done": "Trang chủ đã được cập nhật",
+                "slug_label": "=> fof-pages.ref.slug",
+                "slug_placeholder": "=> fof-pages.ref.slug",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> fof-pages.ref.create_page",
+                "title_label": "=> fof-pages.ref.title",
+                "title_placeholder": "=> fof-pages.ref.title",
+                "url_label": "=> fof-pages.ref.url",
+                "url_placeholder": "=> fof-pages.ref.url"
+            },
+            "pages": {
+                "create_button": "=> fof-pages.ref.create_page"
+            },
+            "pages_list": {
+                "empty_text": "Hiện không có trang nào ở đây.",
+                "title": "=> fof-pages.ref.title"
+            },
+            "permissions": {
+                "restricted": "Xem các trang bị hạn chế"
+            },
+            "badges": {
+                "hidden": "Bản nháp",
+                "restricted": "Bị hạn chế"
+            }
+        },
+        "ref": {
+            "content": "Nội dung",
+            "create_page": "Tạo trang",
+            "pages": "Trang",
+            "slug": "Slug",
+            "title": "Tiêu đề",
+            "url": "URL"
+        }
+    }
+}

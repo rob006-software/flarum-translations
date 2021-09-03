@@ -1,0 +1,26 @@
+{
+    "fof-forum-statistics-widget": {
+        "forum": {
+            "navbar": {
+                "widget_title": "Thống kê diễn đàn",
+                "discussions_count": "Cuộc thảo luận: {discussionsCount}",
+                "posts_count": "Bài viết: {postsCount}",
+                "users_count": "Thành viên: {usersCount}",
+                "latest_member": "Thành viên mới: "
+            }
+        },
+        "admin": {
+            "settings": {
+                "widget_ignore_private_discussions_label": "Bỏ qua các cuộc thảo luận riêng tư",
+                "widget_order_label": "Thứ tự Widget",
+                "widget_helper_text": "Chỉnh sửa cài đặt này để điều chỉnh vị trí của tiện ích này trên phần sidenav của diễn đàn Flarum của bạn. Số càng cao, tiện ích này sẽ càng cao trong danh sách mục sidenav (giá trị này có thể là dương hoặc âm)."
+            },
+            "permissions": {
+                "view_discussions_count_label": "Xem thống kê diễn đàn widget đếm cuộc thảo luận",
+                "view_posts_count_label": "Xem thống kê diễn đàn widget đếm bài viết",
+                "view_users_count_label": "Xem thống kê diễn đàn widget đếm thành viên",
+                "view_lastest_member_label": "Xem thống kê diễn đàn widget thành viên mới"
+            }
+        }
+    }
+}

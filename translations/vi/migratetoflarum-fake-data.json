@@ -1,0 +1,50 @@
+{
+    "migratetoflarum-fake-data": {
+        "admin": {
+            "generator": {
+                "bulk-mode": "=> migratetoflarum-fake-data.ref.bulk-mode",
+                "bulk-mode-description": "=> migratetoflarum-fake-data.ref.bulk-mode-description",
+                "user-count": "=> migratetoflarum-fake-data.ref.user-count",
+                "discussion-count": "Số lượng cuộc thảo luận để tạo",
+                "discussion-tags": "Thẻ cho các cuộc thảo luận mới",
+                "discussion-tags-none": "Không",
+                "discussion-tags-random": "Ngẫu nhiên",
+                "post-count": "=> migratetoflarum-fake-data.ref.post-count",
+                "date": "=> migratetoflarum-fake-data.ref.date",
+                "date-start-placeholder": "=> migratetoflarum-fake-data.ref.date-start-placeholder",
+                "date-interval-placeholder": "=> migratetoflarum-fake-data.ref.date-interval-placeholder",
+                "send": "=> migratetoflarum-fake-data.ref.send"
+            }
+        },
+        "forum": {
+            "link": {
+                "generate-replies": "Tạo câu trả lời giả"
+            },
+            "generator": {
+                "title": "Tạo câu trả lời giả",
+                "bulk-mode": "=> migratetoflarum-fake-data.ref.bulk-mode",
+                "bulk-mode-description": "=> migratetoflarum-fake-data.ref.bulk-mode-description",
+                "user-count": "=> migratetoflarum-fake-data.ref.user-count",
+                "post-count": "=> migratetoflarum-fake-data.ref.post-count",
+                "date": "=> migratetoflarum-fake-data.ref.date",
+                "date-start-placeholder": "=> migratetoflarum-fake-data.ref.date-start-placeholder",
+                "date-interval-placeholder": "=> migratetoflarum-fake-data.ref.date-interval-placeholder",
+                "send": "=> migratetoflarum-fake-data.ref.send"
+            }
+        },
+        "api": {
+            "no-users-matched": "Không có người dùng nào phù hợp",
+            "no-discussions-matched": "Không có cuộc thảo luận nào phù hợp"
+        },
+        "ref": {
+            "bulk-mode": "Chế độ hàng loạt",
+            "bulk-mode-description": "Tạo một giá trị ngẫu nhiên duy nhất và sử dụng lại nó cho mọi mục nhập",
+            "user-count": "Số lượng người dùng để tạo",
+            "post-count": "Số lượng bài viết để tạo",
+            "date": "Ngày seed",
+            "date-start-placeholder": "Ngày bắt đầu (mặc định: bây giờ)",
+            "date-interval-placeholder": "Khoảng thời gian (mặc định: 1 giây)",
+            "send": "Tạo dữ liệu"
+        }
+    }
+}

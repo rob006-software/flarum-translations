@@ -207,6 +207,13 @@ return [
 		'branch' => 'main',
 		'path' => '/locale',
 	],
+	'vi' => [
+		'type' => 'language',
+		'language' => 'vi',
+		'repository' => 'git@github.com:flarum-lang/vietnamese.git',
+		'branch' => 'master',
+		'path' => '/locale',
+	],
 	'zh_Hans' => [
 		'type' => 'language',
 		'language' => 'zh_Hans',

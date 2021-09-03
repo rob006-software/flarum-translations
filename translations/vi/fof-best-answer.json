@@ -1,0 +1,81 @@
+{
+    "fof-best-answer": {
+        "admin": {
+            "permissions": {
+                "best_answer": "Chọn câu trả lời hay nhất (cuộc thảo luận của riêng)",
+                "best_answer_not_own_discussion": "Chọn câu trả lời hay nhất (không phải cuộc thảo luận của riêng)"
+            },
+            "settings": {
+                "label": {
+                    "general": "Chung",
+                    "reminders": "Nhắc nhở",
+                    "advanced": "Nâng cao",
+                    "reminders_notice": "Để lời nhắc hoạt động, bạn phải thiết lập bộ lập lịch Flarum một cách chính xác."
+                },
+                "allow_select_own_post": "Chọn bài viết của riêng bạn",
+                "allow_select_own_post_help": "Cho phép OP chọn một trong các bài đăng của chính họ trong cuộc thảo luận làm câu trả lời hay nhất",
+                "select_best_answer_reminder_days": "Tần suất nhắc nhở",
+                "select_best_answer_reminder_days_help": "Gửi lời nhắc sau khoảng thời gian có thể cấu hình đến OP để chọn Câu trả lời hay nhất, 0 = tắt lời nhắc.",
+                "schedule_on_one_server": "Sử dụng 'onOneServer()' cho trình lập lịch tác vụ",
+                "schedule_on_one_server_help": "Yêu cầu Redis/Memcache",
+                "schedule_stop_overnight": "Ngăn thông báo nhắc nhở được gửi trong những giờ không liên lạc",
+                "schedule_stop_overnight_help": "9 giờ tối - 8 giờ sáng theo giờ máy chủ",
+                "schedule_log_output": "Nối đầu ra của bộ lập lịch vào bộ nhớ nhật ký",
+                "use_alt_ui": "Bố cục thay thế",
+                "use_alt_ui_help": "Kiểm soát câu trả lời hay nhất dưới chân trang bài viết.",
+                "documentation": "Tài liệu",
+                "introduction": "Bật các thẻ nào để hỗ trợ Câu trả lời hay nhất trong <code>flarum/tags</code> và tùy chọn các thẻ sẽ hỗ trợ lời nhắc. Khi thẻ Câu trả lời hay nhất được bật, hãy chỉ định quyền cho từng nhóm người dùng có thể đặt câu trả lời (thảo luận riêng, bất kỳ cuộc thảo luận nào). Các quyền có thể được chỉ định trên toàn cầu (đối với bất kỳ thẻ nào đã loại bỏ Câu trả lời hay nhất) hoặc trên cơ sở mỗi thẻ.\n"
+            },
+            "edit_tag": {
+                "qna_label": "Bật Câu trả lời hay nhất đặt trong thẻ này",
+                "reminders": "Gửi lời nhắc để đặt Câu trả lời hay nhất cho các cuộc thảo luận trong thẻ này"
+            }
+        },
+        "forum": {
+            "answered_badge": "Đã trả lời",
+            "this_best_answer": "Chọn câu trả lời hay nhất",
+            "remove_best_answer": "Bỏ chọn câu trả lời hay nhất",
+            "best_answer_button": "Câu trả lời hay nhất",
+            "best_answer_label": "chọn bởi <a>{username}</a> lúc {time_set}",
+            "errors": {
+                "mismatch": "Bài viết đã chọn không tồn tại trong cuộc thảo luận này."
+            },
+            "notification": {
+                "best_answer_in_discussion": "{username} đã chọn một câu trả lời hay nhất trong cuộc thảo luận này",
+                "content": "Vui lòng chọn một Câu trả lời hay nhất nếu câu hỏi của bạn đã được trả lời",
+                "awarded": "Bài viết của bạn đã được đặt là câu trả lời hay nhất bởi {username}",
+                "preferences": {
+                    "awarded_best_answer": "Khi ai đó chọn bài viết của tôi là câu trả lời hay nhất",
+                    "best_answer_in_discussion": "Khi câu trả lời hay nhất được chọn trong một cuộc thảo luận mà tôi đã đăng bài viết"
+                }
+            },
+            "index": {
+                "ask_question": "Đặt câu hỏi",
+                "cannot_ask_question": "Không thể đặt câu hỏi",
+                "solved_link": "Cuộc thảo luận đã giải quyết",
+                "unsolved_link": "Cuộc thảo luận chưa được giải quyết"
+            },
+            "filter": {
+                "all_label": "Tất cả câu hỏi",
+                "solved_label": "Câu hỏi đã giải quyết",
+                "unsolved_label": "Câu hỏi chưa giải quyết",
+                "accessible_label": "Chọn đã giải quyết/chưa giải quyết"
+            },
+            "composer": {
+                "titlePlaceholder": "Tiêu đề câu hỏi"
+            }
+        },
+        "email": {
+            "subject": {
+                "awarded": "Bài viết của bạn được chọn là câu trả lời hay nhất bởi {display_name}",
+                "ba-set": "Câu trả lời hay nhất đã được chọn bởi {display_name}",
+                "select": "Bạn có quản lý được câu hỏi của bạn được trả lời không?"
+            },
+            "body": {
+                "awarded": "Chào {recipient_display_name},\nRất tốt! {actor_display_name} vừa chọn bài viết của bạn làm câu trả lời hay nhất trong cuộc thảo luận: {discussion_title}. Cảm ơn vì đã giúp đỡ.\nXem nó tại đây: {discussion_url}\n",
+                "ba-set": "Chào {recipient_display_name},\n{actor_display_name} vừa chọn câu trả lời hay nhất trong cuộc thảo luận: {discussion_title}, bạn đã đăng bài viết\nKiểm tra nó: {discussion_url}\n",
+                "select": "Chào {recipient_display_name},\nChỉ cần đăng ký; bây giờ bạn sẽ có nhiều câu trả lời cho câu hỏi của mình: {discussion_title}. Hy vọng rằng một trong số họ đã giúp bạn giải quyết vấn đề của bạn.\nNếu vậy, sẽ thực sự hữu ích cho các thành viên tương lai nếu bạn có thể đưa ra câu trả lời tốt nhất cho câu hỏi của mình. Nó sẽ giúp những người có cùng vấn đề tìm thấy câu trả lời mà họ cần, đồng thời cũng là lời cảm ơn sâu sắc đến các thành viên đã giúp đỡ bạn. Họ dành thời gian một cách tự nguyện, vì vậy, thật tuyệt khi cho họ biết rằng họ đang làm tốt.\nTruy cập cuộc thảo luận tại đây: {discussion_url} và chọn bài đăng thích hợp nhất làm câu trả lời hay nhất.\nCảm ơn!"
+            }
+        }
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "ianm-gravatar": {
+        "admin": {
+            "settings": {
+                "proxy": {
+                    "title": "Proxy gravatars",
+                    "helptext": "Theo mặc định, các URL gravatar được tải trực tiếp từ gravatar.com. Điều này cho phép tất cả các yêu cầu gravatar được chính diễn đàn phục vụ trực tiếp."
+                },
+                "replace-flarum-custom": {
+                    "title": "Thay thế ảnh đại diện tùy chỉnh tải lên trên Diễn đàn",
+                    "helptext": "Thay thế ảnh đại diện tùy chỉnh tải lên diễn đàn bằng Gravatar"
+                },
+                "defaults": {
+                    "title": "Mặc định",
+                    "helptext": "Điều gì xảy ra khi địa chỉ email không có ảnh ảnh Gravatar phù hợp? Gravatar có một số tùy chọn tích hợp mà bạn có thể sử dụng làm mặc định. Hầu hết những thứ này hoạt động bằng cách lấy băm email được yêu cầu và sử dụng nó để tạo ảnh ảnh theo chủ đề duy nhất cho địa chỉ email đó.",
+                    "mp_label": "mp: (người bí ẩn) một đường viền ảnh bóng đơn giản, theo phong cách hoạt ảnh của một người (không thay đổi theo hàm băm email)",
+                    "identicon_label": "identicon: một mẫu ảnh học dựa trên một hàm băm email",
+                    "monsterid_label": "monsterid: một 'quái vật' được tạo ra với các màu sắc, khuôn mặt khác nhau, v.v.",
+                    "wavatar_label": "wavatar: tạo khuôn mặt với các tính năng và ảnh nền khác nhau",
+                    "retro_label": "retro: các khuôn mặt được tạo pixel theo phong cách arcade 8 bit được tạo tuyệt vời",
+                    "robohash_label": "robohash: một robot được tạo ra với các màu sắc, khuôn mặt khác nhau, v.v."
+                },
+                "rating": {
+                    "title": "Xếp hạng",
+                    "helptext": "Gravatar cho phép người dùng tự đánh giá ảnh ảnh của họ để họ có thể cho biết ảnh ảnh có phù hợp với một đối tượng nhất định hay không. Theo mặc định, chỉ những ảnh ảnh được xếp hạng 'G' mới được hiển thị trừ khi bạn cho biết rằng bạn muốn xem xếp hạng cao hơn. Bạn có thể chỉ định một trong các xếp hạng sau để yêu cầu ảnh ảnh lên đến và bao gồm xếp hạng đó.",
+                    "g_label": "g: phù hợp để hiển thị trên tất cả các trang web với bất kỳ loại đối tượng nào",
+                    "pg_label": "pg: có thể chứa các cử chỉ thô lỗ, các cá nhân ăn mặc khiêu khích, các từ chửi thề ít hơn hoặc bạo lực nhẹ",
+                    "r_label": "r: có thể chứa những thứ như ngôn từ thô tục thô bạo, bạo lực, ảnh khỏa thân hoặc sử dụng ma túy nặng",
+                    "x_label": "x: có thể chứa ảnh ảnh khiêu dâm thô bạo hoặc bạo lực cực kỳ đáng lo ngại"
+                },
+                "force-default": {
+                    "title": "Buộc mặc định",
+                    "helptext": "Buộc sử dụng tập hợp mặc định, ngay cả khi hàm băm email liên kết đến ảnh đại diện do người dùng tùy chỉnh tải lên"
+                }
+            }
+        },
+        "forum": {
+            "settings": {
+                "edit-gravatar": "Quản lý ảnh đại diện trên gravatar.com"
+            }
+        }
+    }
+}

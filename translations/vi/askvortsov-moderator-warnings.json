@@ -1,0 +1,70 @@
+{
+    "askvortsov-moderator-warnings": {
+        "admin": {
+            "permissions": {
+                "manage_warnings": "Tạo và xóa cảnh báo của người kiểm duyệt",
+                "view_warnings": "Xem cảnh báo của người kiểm duyệt",
+                "delete_warnings": "Xóa vĩnh viễn cảnh báo của người kiểm duyệt"
+            }
+        },
+        "emails": {
+            "post_warned": {
+                "subject": "{warner_display_name} cảnh báo bạn với {strikes, plural, one {# cảnh báo} other {# cảnh báo}} trong {discussion_title}",
+                "body": "Chào {warnee_display_name}!\n\n{warner_display_name} cảnh báo bạn với {strikes, plural, one {# strike} other {# cảnh báo}} trong {discussion_title}\n\nLý do sau đây đã đưa ra:\n\n---\n\n{public_comment}\n"
+            },
+            "user_warned": {
+                "subject": "{warner_display_name} cảnh báo bạn với {strikes, plural, one {# cảnh báo} other {# cảnh báo}}",
+                "body": "Chào {warnee_display_name}!\n\n{warner_display_name} cảnh báo bạn với {strikes, plural, one {# cảnh báo} other {# cảnh báo}}\n\nLý do sau đây đã đưa ra:\n\n---\n\n{public_comment}\n"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "warning_text": "{strikes, plural, one {Bạn đã được cảnh báo với # cảnh báo bởi {mod_username}} other {Bạn đã được cảnh báo với # cảnh báo bởi {mod_username}}}",
+                "warning_no_strikes_text": "You were warned by {mod_username} (no strikes)"
+            },
+            "post": {
+                "warning": "{strikes, plural, one {Cảnh báo với # cảnh báo bởi {mod_username}} other {Cảnh báo với # cảnh báo bởi {mod_username}}}",
+                "warning_no_strikes": "Cảnh báo không có cảnh báo bởi {mod_username}"
+            },
+            "post_controls": {
+                "warning_button": "Cảnh báo người dùng"
+            },
+            "user": {
+                "warnings": "Cảnh báo kiểm duyệt"
+            },
+            "settings": {
+                "warning_notification_label": "Người kiểm duyệt cảnh báo tôi"
+            },
+            "validation": {
+                "public_comment_required": "Hầu hết bạn cung cấp một bình luận công khai.",
+                "invalid_strike_count": "Số lượng cảnh cáo phải là một số nguyên từ 0 đến 5."
+            },
+            "warning_controls": {
+                "delete_button": "Xóa",
+                "restore_button": "Khôi phục",
+                "delete_forever_button": "Xóa vĩnh viễn"
+            },
+            "warning_list": {
+                "add_button": "Cảnh báo mới",
+                "no_warnings": "Có vẻ như không có cảnh báo nào ở đây.",
+                "warnings": "{strikes, plural, one {Cảnh báo của người kiểm duyệt: # Cảnh báo đã nhận} other {Cảnh báo của người kiểm duyệt: # Cảnh báo đã nhận}}",
+                "warnings_no_strikes": "Cảnh báo của người kiểm duyệt: Không nhận được cảnh cáo nào"
+            },
+            "warning_list_item": {
+                "list_item_heading": "{strikes, plural, one {<strong>#</strong> cảnh báo, {time}} other {<strong>#</strong> cảnh báo, {time}}}",
+                "list_item_heading_hidden": "{strikes, plural, one {<strong>#</strong> cảnh báo, {time} <strong>(đã xóa)</strong>} other {<strong>#</strong> cảnh báo, {time} <strong>(đã xóa)</strong>}}",
+                "public_comment": "Cảnh báo",
+                "private_comment": "Người kiểm duyệt-Nhận xét hiển thị",
+                "linked_post": "Bài viết đã Liên kết"
+            },
+            "warning_modal": {
+                "confirmation_message": "Cảnh báo của bạn đã được lưu. Bạn có thể cần phải làm mới trang để xem nó.",
+                "heading": "Cảnh báo <strong>{username}</strong>",
+                "strikes_heading": "Có bao nhiêu cảnh cáo nên được áp dụng?",
+                "public_comment_heading": "Tại sao <strong>{username}</strong> lại nhận được những cảnh báo này? Những nhận xét này sẽ được hiển thị cho người dùng và những người kiểm duyệt khác.",
+                "private_comment_heading": "Tại sao <strong>{username}</strong> lại nhận được những cảnh báo này? Những nhận xét này sẽ CHỈ hiển thị cho những người kiểm duyệt khác.",
+                "submit_button": "Lưu cảnh báo"
+            }
+        }
+    }
+}
