@@ -49,6 +49,9 @@ return [
 	'antoinefr-online' => [
 		'tag' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-online/v1.0.1/locale/en.yml',
 	],
+	'askvortsov-article-series' => [
+		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-article-series/v0.1.0/locale/en.yml',
+	],
 	'askvortsov-auto-moderator' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-auto-moderator/v0.1.1/resources/locale/en.yml',
 	],
