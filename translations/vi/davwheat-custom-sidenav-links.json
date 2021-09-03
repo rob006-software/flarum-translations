@@ -1,0 +1,78 @@
+{
+    "davwheat": {
+        "custom_sidenav_links": {
+            "admin": {
+                "settings_page": {
+                    "display_options": {
+                        "heading": "Thiết lập hiển thị",
+                        "options": {
+                            "position": {
+                                "above-tags-link": "Trên nút \"Thẻ\"",
+                                "below-tags-link": "Dưới nút \"Thẻ\""
+                            }
+                        },
+                        "labels": {
+                            "position": "Vị trí liên kết",
+                            "top_spacer": "Hiển thị khoảng trống bên trên",
+                            "bottom_spacer": "Hiển thị khoảng trống bên dưới"
+                        }
+                    },
+                    "link_table": {
+                        "heading": "Tùy chỉnh liên kết",
+                        "add_link_btn": "Thêm liên kết mới",
+                        "confirm_delete": "Xác nhận xóa liên kết \"{link}\"",
+                        "alert": {
+                            "fix_errors": "Bạn cần khắc phục các sự cố ở trên trước khi lưu các thay đổi của mình."
+                        },
+                        "table": {
+                            "header": {
+                                "position": "Vị trí",
+                                "icon": "Icon liên kết",
+                                "text": "Văn bản liên kết",
+                                "url": "URL liên kết",
+                                "internal": "Đây là URL Flarum?",
+                                "delete": "Xóa"
+                            },
+                            "placeholders": {
+                                "icon": "fas fa-link",
+                                "text": "Nhập tiêu đề cho liên kết",
+                                "url": "https://flarum.org"
+                            },
+                            "tooltips": {
+                                "move_up": "Đưa lên trên",
+                                "move_down": "Đưa xuống dưới",
+                                "icon_preview": "Xem trước Icon"
+                            }
+                        },
+                        "save_btn": {
+                            "dirty": "Lưu thiết lập",
+                            "saving": "Đang lưu thay đổi...",
+                            "saved": "Không có thay đổi để lưu",
+                            "fix_errors": "Khắc phục các lỗi trước khi lưu"
+                        }
+                    },
+                    "new_link_modal": {
+                        "title": "Thêm liên kết mới",
+                        "submit_btn": {
+                            "add": "Thêm liên kết",
+                            "loading": "Đang thêm liên kết",
+                            "fix_url": "URL không hợp lệ",
+                            "invalid_form": "Điền vào tất cả các trường"
+                        },
+                        "labels": {
+                            "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.icon",
+                            "text": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.text",
+                            "url": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.url",
+                            "internal": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.internal"
+                        },
+                        "placeholders": {
+                            "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.icon",
+                            "text": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.text",
+                            "url": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.url"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
