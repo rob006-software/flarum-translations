@@ -1,0 +1,36 @@
+{
+    "fof-merge-discussions": {
+        "forum": {
+            "modal": {
+                "title": "Hợp nhất cuộc thảo luận",
+                "type_target_label": "Hợp nhất với tôi",
+                "type_target_help_text": "Chọn cuộc thảo luận để hợp nhất thành <b>{title}</b>.",
+                "type_from_label": "Hợp nhất cuộc thảo luận này thành cuộc thảo luận khác",
+                "type_from_help_text": "Chọn cuộc thảo luận mục tiêu để hợp nhất <b>{title}</b> vào.",
+                "load_preview_button": "Xem trước",
+                "submit_button": "=> fof-merge-discussions.ref.merge"
+            },
+            "discussion": {
+                "merge": "=> fof-merge-discussions.ref.merge"
+            },
+            "post": {
+                "merged": "{count, plural, one {Đã hợp nhất <b>#</b> bài viết {titles}.} other {Đã hợp nhất <b>#</b> các bài viết {titles}.}}"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "merge_discussions_label": "Hợp nhất cuộc thảo luận"
+            }
+        },
+        "api": {
+            "error": {
+                "merging_failed": "Không thể hợp nhất các cuộc thảo luận.",
+                "updating_failed": "Không cập nhật được chi tiết cuộc thảo luận.",
+                "deleting_failed": "Không thể xóa các cuộc thảo luận trống."
+            }
+        },
+        "ref": {
+            "merge": "Hợp nhất"
+        }
+    }
+}
