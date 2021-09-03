@@ -1,0 +1,35 @@
+{
+    "flarum-nicknames": {
+        "admin": {
+            "permissions": {
+                "edit_own_nickname_label": "Chỉnh sửa biệt danh của chính mình"
+            },
+            "settings": {
+                "max_label": "Độ dài biệt danh tối đa",
+                "min_label": "Độ dài biệt danh tối thiểu",
+                "regex_label": "Biểu thức chính quy để xác thực",
+                "unique_label": "Bắt buộc biệt danh phải chỉ có một"
+            },
+            "wrong_driver": "Bạn phải chọn \"biệt danh\" làm trình điều khiển tên hiển thị trên trang <a><strong>Cơ bản</strong></a> để tiện ích mở rộng này có hiệu lực."
+        },
+        "api": {
+            "invalid_nickname_message": "Biệt danh này không hợp lệ. Vui lòng liên hệ với quản trị viên diễn đàn của bạn để biết thêm thông tin về quy tắc đặt biệt danh."
+        },
+        "forum": {
+            "change_nickname": {
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> flarum-nicknames.ref.change_nickname"
+            },
+            "edit_user": {
+                "nicknames_heading": "=> flarum-nicknames.ref.change_nickname",
+                "nicknames_text": "Biệt danh"
+            },
+            "settings": {
+                "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
+            }
+        },
+        "ref": {
+            "change_nickname": "Thay đổi biệt danh"
+        }
+    }
+}
