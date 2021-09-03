@@ -49,6 +49,9 @@ return [
 	'antoinefr-online' => [
 		'tag' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-online/v1.0.1/locale/en.yml',
 	],
+	'askvortsov-article-series' => [
+		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-article-series/v0.1.0/locale/en.yml',
+	],
 	'askvortsov-auto-moderator' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-auto-moderator/v0.1.1/resources/locale/en.yml',
 	],
@@ -507,6 +510,9 @@ return [
 	],
 	'justoverclock-last-tweet' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/last-tweet/0.1.1/locale/en.yml',
+	],
+	'justoverclock-last-users-posts' => [
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/last-users-posts/0.1.1/locale/en.yml',
 	],
 	'justoverclock-newsfeed' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-newsfeed/1.0.0/resources/locale/en.yml',
