@@ -1,0 +1,83 @@
+{
+    "askvortsov-pwa": {
+        "admin": {
+            "nav": {
+                "pwa_button": "Ứng dụng web hiện đại",
+                "pwa_text": "Định cấu hình Flarum để chạy dưới dạng Ứng dụng web hiện đại, có thể cài đặt trên thiết bị di động."
+            },
+            "pwa": {
+                "about": {
+                    "description_text": "Bạn có thể đặt mô tả trên trang 'Cơ bản' trong bảng điều khiển quản trị của mình.",
+                    "long_name_text": "Tên của ứng dụng web được hiển thị cho người dùng.",
+                    "heading": "Giới thiệu",
+                    "short_name_text": "Tên của ứng dụng hiển thị cho người dùng nếu không đủ chỗ cho tên dài."
+                },
+                "colors": {
+                    "heading": "Màu sắc",
+                    "background_color_text": "Màu này được sử dụng làm màu giữ chỗ cho màn hình giật gân được hiển thị khi PWA của bạn đang được tải. Nó không được sử dụng khi ứng dụng thực sự được tải.",
+                    "theme_color_text": "Màu này đôi khi được các thiết bị sử dụng khi hiển thị ứng dụng của bạn, chẳng hạn như trên trình chuyển đổi tác vụ của Android, làm màu bao quanh trang web."
+                },
+                "maintenance": {
+                    "heading": "Bảo trì",
+                    "debug_label": "Chế độ kiểm tra sửa lỗi? Thao tác này sẽ ghi thông tin về các thông báo vào `bộ nhớ / nhật ký`."
+                },
+                "other": {
+                    "heading": "Khác",
+                    "force_portrait_text": "Buộc định hướng cổng?"
+                },
+                "heading": "Cấu hình ứng dụng web hiện đại",
+                "text": "Cấu hình trang web Flarum của bạn để chạy như một ứng dụng web hiện đại! Xin lưu ý rằng điều này không tự động đưa trang web của bạn vào cửa hàng ứng dụng. Thay vào đó, điều này có nghĩa là người dùng có tùy chọn 'Thêm vào Màn hình chính' cho trang web của bạn. Chúng tôi cung cấp một số kiểm tra trạng thái, tuy nhiên, cách tốt nhất để kiểm tra điều này là thử và cài đặt nó (tìm kiếm trên google để biết hướng dẫn về cách cài đặt ứng dụng web hiện đại). Ngoài ra, hãy nhớ rằng cửa sổ bật lên 'cài đặt PWA này' được kiểm soát bởi trình duyệt và không thể được kích hoạt bởi nhà phát triển / quản trị viên / chương trình. Tôi khuyên bạn nên bao gồm các hướng dẫn về cách cài đặt PWA trong tài liệu của trang web của bạn.",
+                "status_check_heading": "Kiểm tra tình trạng",
+                "logo_heading": "Logo và Icon",
+                "logo_text": "Bạn phải tải lên ít nhất một logo để có thể cài đặt ứng dụng web hiện đại của mình. Xin lưu ý rằng tất cả các logo phải có hình vuông; nếu không, chúng sẽ được thay đổi kích thước và có thể kéo dài.\n\nCó một số tùy chọn kích thước có sẵn bên dưới. Tôi khuyên bạn nên cố gắng tải logo lên càng nhiều càng tốt: điều này hỗ trợ nhiều thiết bị hơn.\n\nXin lưu ý rằng bạn có thể tải 1 logo lớn lên đầu vào cho các logo nhỏ hơn. Ví dụ: bạn có thể tải lên logo 1000px x 1000px cho TẤT CẢ các đầu vào tệp bên dưới. Tuy nhiên, nếu bạn cố gắng tải logo 50px x 50px lên đầu vào 512x512, nó sẽ bị kéo giãn rất nhiều.\n",
+                "logo_size_text": "Tải lên logo sẽ được chia tỷ lệ thành kích thước {size} pixel x {size} pixel.",
+                "submit_button": "Lưu thiết lập",
+                "refreshed_message": "Đã làm mới cấu hình PWA thành công."
+            },
+            "status": {
+                "config_no_https": "Url trong tệp config.php của bạn không sử dụng HTTPS. HTTPS là bắt buộc để Ứng dụng web hiện đại hoạt động.",
+                "possible_https_disabled": "Trang web của bạn có thể không chạy trên HTTPS. Xóa bộ nhớ cache của bạn (trang bảng điều khiển quản trị => nút công cụ) có thể hữu ích. Nếu có, hãy bỏ qua điều này. Nếu không, hãy nhớ rằng HTTPS là cần thiết để Ứng dụng web hiện đại hoạt động.",
+                "no_logo": "Bạn phải tải lên ít nhất một logo, ​​có kích thước ít nhất là 196px để ứng dụng của bạn hoạt động.",
+                "no_name": "Bạn phải cung cấp tên đầy đủ để ứng dụng của mình hoạt động.",
+                "key_gen_failed": "Không thể tạo khóa cần thiết cho thông báo đẩy. Thông báo lỗi đầy đủ là: {error}",
+                "suggest_gmp": "Phần mở rộng gmp PHP dường như không được bật trên máy chủ của bạn. Nó không hoàn toàn cần thiết, nhưng có thể cải thiện hiệu suất và được khuyến khích. Mặc dù vậy, một số máy chủ được chia sẻ có thể không hỗ trợ nó.",
+                "success": "Không tìm thấy vấn đề tiềm ẩn nào!"
+            }
+        },
+        "forum": {
+            "alerts": {
+                "optin": "Bạn đã bật thông báo đẩy nhưng chưa định cấu hình thiết bị này.",
+                "optin_button": "Cấu hình"
+            },
+            "discussion_controls": {
+                "share_button": "Chia sẻ"
+            },
+            "post_controls": {
+                "share_button": "Chia sẻ",
+                "share_api": {
+                    "title": "{username} đã trả lời trong {title}'"
+                }
+            },
+            "user_controls": {
+                "share_button": "Chia sẻ"
+            },
+            "settings": {
+                "push_header": "Đẩy",
+                "pwa_notifications": {
+                    "access_default": "Do các hạn chế của trình duyệt, bạn phải chọn nhận thông báo đẩy trên thiết bị này.",
+                    "access_default_button": "Chọn tham gia",
+                    "access_denied": "Bạn phải điều chỉnh cài đặt trình duyệt của mình để nhận thông báo đẩy trên thiết bị này.",
+                    "access_denied_button": "Tìm hiểu cách",
+                    "no_browser_support": "Trình duyệt này không hỗ trợ thông báo đẩy cho các ứng dụng web hiện đại.",
+                    "no_browser_support_button": "Tìm hiểu thêm"
+                }
+            }
+        },
+        "views": {
+            "offline": {
+                "header": "Lỗi kết nối mạng",
+                "text": "Ứng dụng này yêu cầu kết nối mạng; nó không thể được sử dụng ngoại tuyến. Vui lòng kiểm tra kết nối của bạn."
+            }
+        }
+    }
+}
