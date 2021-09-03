@@ -1,0 +1,107 @@
+{
+    "fof-byobu": {
+        "forum": {
+            "badges": {
+                "is_private": {
+                    "tooltip": "Thảo luận riêng tư"
+                }
+            },
+            "buttons": {
+                "add_recipients": "Người nhận",
+                "submit": "OK",
+                "edit_recipients": "Sửa người nhận",
+                "send_pd": "Gửi cho {username} một tin nhắn",
+                "cancel": "Hủy",
+                "remove_from_discussion": "Rời khỏi cuộc thảo luận này"
+            },
+            "composer_private_discussion": {
+                "submit_button": "Đăng thảo luận riêng tư",
+                "title_placeholder": "Tiêu đề thảo luận riêng tư"
+            },
+            "labels": {
+                "recipients": "{count, plural, one {{count} Người nhận} other {{count} Người nhận}}"
+            },
+            "nav": {
+                "start_button": "Thảo luận riêng tư",
+                "nav_item": "Thảo luận riêng tư"
+            },
+            "input": {
+                "search_recipients": "Tìm kiếm người nhận bằng cách nhập ba ký tự đầu tiên ..."
+            },
+            "search": {
+                "headings": {
+                    "groups": "Nhóm quyền"
+                }
+            },
+            "modal": {
+                "titles": {
+                    "update_recipients": "Cập nhật người nhận của {title}",
+                    "add_recipients": "Thêm người nhận vào cuộc thảo luận của bạn"
+                },
+                "labels": {
+                    "selected_users": "Người dùng đã chọn",
+                    "search_field": "Tìm kiếm người dùng"
+                },
+                "help": {
+                    "add_recipients": "Cuộc thảo luận này sẽ chỉ hiển thị với những người dùng bạn chọn ở đây. Cần có ít nhất 1 người nhận (ngoài chính bạn).",
+                    "update_recipients": "Cuộc thảo luận này sẽ chỉ hiển thị với những người dùng bạn chọn ở đây.",
+                    "selected_users": "Nhấp vào tên của người dùng để xóa họ.",
+                    "click_user_to_remove_tooltip": "Nhấp để xóa"
+                }
+            },
+            "post": {
+                "recipients_modified": {
+                    "added_and_removed": "{username} đã thêm người nhận {added} và xóa {remove}.",
+                    "added": "{tên người dùng} đã thêm người nhận {added}.",
+                    "redmove": "{username} đã loại bỏ người nhận {remove}.",
+                    "removed_self": "{username} đã rời khỏi cuộc thảo luận riêng tư."
+                }
+            },
+            "user": {
+                "settings": {
+                    "block_pd": "Chặn các cuộc thảo luận riêng tư"
+                },
+                "byobu_link": "Thảo luận riêng tư",
+                "dropdown_label": "Thảo luận riêng tư"
+            },
+            "notifications": {
+                "pd_label": "Ai đó thêm tôi vào cuộc thảo luận riêng tư mới",
+                "pd_reply_label": "Ai đó đăng bài trong cuộc thảo luận riêng tư mà tôi là người nhận",
+                "pd_reply_text": "{username} đã đăng trong một cuộc thảo luận riêng tư mà bạn là thành viên",
+                "pd_text": "{username} đã bắt đầu một cuộc thảo luận riêng tư mới với bạn",
+                "pd_user_left_label": "Người nhận rời khỏi cuộc thảo luận riêng tư mà tôi là thành viên",
+                "pd_user_left_text": "{username} đã rời khỏi cuộc thảo luận riêng tư",
+                "pd_added_text": "{username} đã thêm bạn vào một cuộc thảo luận riêng tư",
+                "pd_added_label": "Ai đó thêm tôi vào cuộc thảo luận riêng tư có sẵn"
+            }
+        },
+        "admin": {
+            "permission": {
+                "create_private_discussions_with_users": "Tạo cuộc thảo luận riêng tư với người dùng",
+                "create_private_discussions_with_groups": "Tạo cuộc thảo luận riêng tư với các nhóm",
+                "create_private_discussions_with_blocking_users": "Tạo cuộc thảo luận riêng tư với những người đã chặn",
+                "edit_user_recipients": "Thay đổi người dùng tham gia vào cuộc thảo luận riêng tư",
+                "edit_group_recipients": "Thay đổi nhóm tham gia vào cuộc thảo luận riêng tư",
+                "view_private_discussions-when-flagged": "Xem cuộc thảo luận riêng tư của những người dùng khác nếu bị gắn cờ"
+            },
+            "settings": {
+                "badge-icon": "Huy hiệu thảo luận của Byobu",
+                "post-event-icon": "Sự kiện bài viết của Byobu"
+            }
+        },
+        "email": {
+            "subject": {
+                "private_discussion_created": "[Thảo luận riêng tư] {display_name} bắt đầu một cuộc thảo luận riêng tư mới với bạn",
+                "private_discussion_replied": "[Thảo luận riêng tư] {display_name} đã đăng trong một cuộc thảo luận riêng tư",
+                "recipient_removed": "[Thảo luận riêng tư] {display_name} rời khỏi cuộc thảo luận",
+                "private_discussion_added": "[Thảo luận riêng tư] {display_name} đã thêm bạn vào một cuộc thảo luận riêng tư"
+            },
+            "body": {
+                "private_discussion_created": "Chào {recipient_display_name},\n\n{actor_display_name} đã bắt đầu một cuộc thảo luận riêng tư mới với bạn với tư cách là người nhận: {discussion_title}.\n\nXem nó ở đây\n{discussion_url}\n\nBạn có thể cần phải đăng nhập trước khi có thể truy cập liên kết này.\n",
+                "private_discussion_replied": "Chào {recipient_display_name},\n\n{actor_display_name} đã đăng trong một cuộc thảo luận riêng tư với bạn với tư cách là người nhận: {discussion_title}.\n\nXem nó ở đây\n{post_url}\n\nBạn có thể cần phải đăng nhập trước khi có thể truy cập liên kết này.\n",
+                "recipient_removed": "Chào {recipient_display_name},\n\n{actor_display_name} đã rời khỏi cuộc thảo luận riêng tư: {thảo luận_title}. Họ sẽ không thể xem bất kỳ nội dung nào trong số đó nữa.\n\nXem nó ở đây:\n{discussion_url}\n\nBạn có thể cần phải đăng nhập trước khi có thể truy cập liên kết này.\n",
+                "private_discussion_added": "Chào {recipient_display_name},\n\n{actor_display_name} đã thêm bạn vào một cuộc thảo luận riêng tư có sẵn: {discussion_title}.\n\nXem nó ở đây\n{discussion_url}\n\nBạn có thể cần phải đăng nhập trước khi có thể truy cập liên kết này."
+            }
+        }
+    }
+}
