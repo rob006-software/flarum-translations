@@ -1,0 +1,18 @@
+{
+    "flarum-pusher": {
+        "admin": {
+            "pusher_settings": {
+                "app_cluster_label": "Cluster",
+                "app_id_label": "ID ứng dụng",
+                "app_key_label": "Mã khoá ứng dụng",
+                "app_secret_label": "Mã bí mật ứng dụng",
+                "title": "Thiết lập Pusher"
+            }
+        },
+        "forum": {
+            "discussion_list": {
+                "show_updates_text": "{count, plural, one {\bHiển thị # cuộc thảo luận mới} other {Hiển thị # thảo luận mới}}"
+            }
+        }
+    }
+}
