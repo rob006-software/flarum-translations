@@ -1,0 +1,51 @@
+{
+    "fof-polls": {
+        "admin": {
+            "permissions": {
+                "view_results_without_voting": "Xem kết quả mà không cần bỏ phiếu",
+                "start": "Bắt đầu cuộc thăm dò",
+                "self_edit": "Cho phép người dùng chỉnh sửa các cuộc thăm dò của riêng họ",
+                "vote": "Bình chọn trong các cuộc thăm dò",
+                "change_vote": "Thay đổi bình chọn",
+                "moderate": "Chỉnh sửa và xóa các cuộc thăm dò"
+            }
+        },
+        "forum": {
+            "days_remaining": "Cuộc thăm dò kết thúc {time}.",
+            "no_permission": "Bạn không được phép bình chọn",
+            "poll_ended": "Cuộc thăm dò này đã kết thúc.",
+            "public_poll": "Xem người bình chọn",
+            "composer_discussion": {
+                "add_poll": "Thêm cuộc thăm dò",
+                "edit_poll": "=> fof-polls.forum.moderation.edit"
+            },
+            "modal": {
+                "add_title": "Thăm cuộc thăm dò",
+                "add_option_label": "Thêm tùy chọn",
+                "date_placeholder": "Ngày kết thúc cuộc thăm dò (Tùy chọn)",
+                "edit_title": "Chỉnh sửa cuộc thăm dò",
+                "include_question": "Bạn phải bao gồm một câu hỏi",
+                "max": "Bạn có thể có tối đa 10 câu trả lời",
+                "min": "Bạn phải bao gồm tối thiểu 2 câu trả lời",
+                "no_voters": "Không có bình chọn",
+                "option_placeholder": "Trả lời",
+                "options_label": "Trả lời",
+                "public_poll_label": "Cho phép mọi người xem ai đã bình chọn",
+                "question_placeholder": "Câu hỏi",
+                "submit": "Đồng ý"
+            },
+            "moderation": {
+                "delete": "Xóa cuộc thăm dò",
+                "delete_confirm": "Bạn có chắc chắn muốn xóa cuộc thăm dò ý kiến ​​này?",
+                "edit": "Chỉnh sửa cuộc thăm dò"
+            },
+            "tooltip": {
+                "badge": "Thăm dò ý kiến",
+                "votes": "{count, plural, one {# bình chọn} other {# bình chọn}}"
+            },
+            "votes_modal": {
+                "title": "Người bình chọn"
+            }
+        }
+    }
+}
