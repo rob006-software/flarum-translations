@@ -1,0 +1,79 @@
+{
+    "fof-follow-tags": {
+        "forum": {
+            "settings": {
+                "notify_new_discussion_label": "Ai đó tạo cuộc thảo luận trong thẻ mà tôi đang theo dõi",
+                "notify_new_post_label": "Ai đó đăng trong thẻ mà tôi đang theo dõi",
+                "notify_new_discussion_tag_label": "Ai đó gắn thẻ lại cuộc thảo luận vào thẻ mà tôi đang theo dõi"
+            },
+            "index": {
+                "follow_tag_button": "Theo dõi",
+                "unfollow_tag_button": "Ngừng theo dõi",
+                "following": {
+                    "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                    "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
+                }
+            },
+            "badge": {
+                "following_tag_tooltip": "Đang theo dõi",
+                "lurking_tag_tooltip": "Ẩn"
+            },
+            "sub_controls": {
+                "follow_button": "=> fof-follow-tags.ref.follow",
+                "following_button": "=> fof-follow-tags.ref.following",
+                "following_text": "Được thông báo về tất cả các cuộc thảo luận mới.",
+                "hiding_button": "=> fof-follow-tags.ref.hiding",
+                "hiding_text": "Ẩn các cuộc thảo luận khỏi trang Thảo luận.",
+                "ignoring_button": "=> fof-follow-tags.ref.ignoring",
+                "ignoring_text": "Không bao giờ thông báo.",
+                "lurking_button": "=> fof-follow-tags.ref.lurking",
+                "lurking_text": "Thông báo về tất cả các cuộc thảo luận và trả lời mới.",
+                "not_following_button": "Không theo dõi",
+                "not_following_text": "Chỉ được thông báo khi @mentioned.",
+                "notify_alert_tooltip": "Nhận thông báo trên diễn đàn khi có thảo luận hoặc bài đăng mới",
+                "notify_email_tooltip": "Nhận email khi có thảo luận hoặc bài đăng mới"
+            },
+            "notifications": {
+                "new_discussion_text": "{username} đã đăng thảo luận mới",
+                "new_post_text": "{username} đã đăng trả lời mới",
+                "new_discussion_tag_text": "{username} đã thay đổi thẻ"
+            },
+            "user": {
+                "settings": {
+                    "heading": "Theo dõi thẻ",
+                    "filter_label": "Nội dung hiển thị theo mặc định trong trang Đang theo dõi"
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "following_page_default_label": "Lọc mặc định trang Đang theo dõi",
+                "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
+            }
+        },
+        "email": {
+            "subject": {
+                "newDiscussionInTag": "[Thẻ | Cuộc thảo luận mới] {title}",
+                "newPostInTag": "[Thẻ | Bài viết mới] {title}",
+                "newDiscussionTag": "[Thẻ | Đã đổi tag] {title}"
+            },
+            "body": {
+                "newDiscussionInTag": "Chào {recipient_display_name},\n\n{actor_display_name} đã bắt đầu một cuộc thảo luận trong một thẻ mà bạn đang theo dõi: {discussion_title}\n\nĐể xem cuộc thảo luận mới, hãy xem liên kết sau:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newPostInTag": "Chào {recipient_display_name},\n\n{actor_display_name} đã đăng trong một cuộc thảo luận trên thẻ bạn đang theo dõi: {discussion_title}\n\nĐể xem hoạt động mới, hãy xem liên kết sau:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nBạn sẽ không nhận được thêm bất kỳ thông báo nào về cuộc thảo luận này cho đến khi bạn được cập nhật.\n",
+                "newDiscussionTag": "Chào {recipient_display_name},\n\n{actor_display_name} vừa thay đổi thẻ trên cuộc thảo luận của {author_display_name} thành thẻ bạn đang theo dõi {discussion_title}\n\nĐể xem cuộc thảo luận mới, hãy xem liên kết sau:\n{discussion_url}\n"
+            }
+        },
+        "ref": {
+            "follow": "Theo dõi",
+            "following": "Đang theo dõi",
+            "hiding": "Ẩn",
+            "ignoring": "Bỏ qua",
+            "lurking": "Ẩn",
+            "filtering_options": {
+                "none": "CUộc hảo luận đã theo dõi",
+                "tags": "Thẻ đã theo dõi"
+            }
+        }
+    }
+}
