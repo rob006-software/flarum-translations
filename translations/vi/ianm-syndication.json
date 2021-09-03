@@ -1,0 +1,41 @@
+{
+    "ianm-syndication": {
+        "forum": {
+            "autodiscovery": {
+                "forum_activity": "Nhật kí hoạt động diễn đàn",
+                "forum_new_discussions": "Các cuộc thảo luận mới của diễn đàn",
+                "tag_activity": "Nhật kí hoạt động của thẻ {tag}",
+                "tag_new_discussions": "Các cuộc thảo luận của thẻ {tag}",
+                "discussion_last_posts": "Cuộc thảo luận này"
+            },
+            "feeds": {
+                "titles": {
+                    "main_title": "{forum_name}",
+                    "main_subtitle": "Bài viết mới nhất trên diễn đàn",
+                    "main_d_title": "Các cuộc thảo luận mới trên {forum_name}",
+                    "main_d_subtitle": "Các cuộc thảo luận mới nhất trên diễn đàn",
+                    "tag_title": "Nhật kí hoạt động trong thẻ {tag}",
+                    "tag_subtitle": "Bài viết mới nhất trong thẻ {tag}",
+                    "tag_d_title": "Các cuộc thảo luận mới trong thẻ {tag}",
+                    "tag_d_subtitle": "Các cuộc thảo luận mới nhất trong thẻ {tag}",
+                    "discussion_title": "{discussion_name}",
+                    "discussion_subtitle": "Các bài viết mới nhất trong cuộc thảo luận này"
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "full-text": {
+                    "label": "Nguồn cấp dữ liệu hiện tất cả văn bản",
+                    "help": "Nếu bị tắt, nguồn cấp dữ liệu sẽ chỉ chứa đoạn trích của các bài đăng, và người dùng sẽ phải vào diễn đàn để đọc mọi thứ.",
+                    "recommendation": "Tôi khuyên bạn nên để tùy chọn này hoạt động để tôn trọng những người theo dõi diễn đàn từ một trình tổng hợp RSS — nếu có."
+                },
+                "html": {
+                    "label": "Định dạng nguồn cấp dữ liệu được",
+                    "help": "Chọn tùy chọn này để giữ HTML trong các nguồn cấp dữ liệu đã tạo. Nếu bị tắt, nguồn cấp dữ liệu sẽ ở dạng văn bản thuần túy."
+                },
+                "entries-count": "Có bao nhiêu mục trên mỗi nguồn cấp dữ liệu?"
+            }
+        }
+    }
+}
