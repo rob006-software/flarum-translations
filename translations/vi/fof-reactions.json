@@ -5,9 +5,9 @@
             "warning": "Biểu cảm của bạn đã được chuyển đổi",
             "notification": "{username} đã bày tỏ cảm xúc {reaction} với bài viết của bạn",
             "settings": {
-                "notify_post_reacted_label": "Ai đó bày tỏ cảm xúc với những bài đăng của tôi"
+                "notify_post_reacted_label": "Ai đó bày tỏ cảm xúc bài viết của tôi"
             },
-            "reacting-own-post": "Bạn không thể bày tỏ cảm xúc với bài đăng của chính mình",
+            "reacting-own-post": "Bạn không thể bày tỏ cảm xúc bài viết của chính mình",
             "modal": {
                 "title": "Bày tỏ cảm xúc"
             },
@@ -15,14 +15,14 @@
         },
         "admin": {
             "permissions": {
-                "react_posts_label": "Bày tỏ cảm xúc với bài viết",
-                "see_reactions_label": "Xem ai đã bày tỏ cảm xúc trên các bài đăng"
+                "react_posts_label": "Bày tỏ cảm xúc bài viết",
+                "see_reactions_label": "Xem ai đã bày tỏ cảm xúc trong bài viết"
             },
             "page": {
                 "reactions": {
                     "title": "Tùy chỉnh biểu cảm",
                     "reactions": "Biểu cảm hiện tại",
-                    "Helptext": "Nhập tên (số nhận dạng) của biểu tượng cảm xúc hoặc biểu tượng phông chữ tuyệt vời và chọn loại bạn muốn.",
+                    "Helptext": "Nhập tên (số nhận dạng) của biểu tượng cảm xúc hoặc biểu tượng font awesome và chọn loại bạn muốn.",
                     "help": {
                         "display": "Hiển thị",
                         "identifier": "Số nhận dạng"
@@ -38,13 +38,13 @@
                     "save_settings": "Lưu thay đổi",
                     "integrations": {
                         "legend": "Tích hợp",
-                        "warning": "Biểu cảm giống nhau <strong>không thể</strong> chuyển thành ủng hộ",
+                        "warning": "Biểu cảm giống nhau <strong>không thể</strong> chuyển thành lượt thích <strong>và</strong> lượt bình chọn",
                         "gamification": {
                             "legend": "Gamification",
-                            "upvoteLabel": "Chuyển đổi biểu cam thành ủng hộ",
-                            "upvoteHelptext": "Nhập mã nhận dạng của biểu cam bạn muốn tự động chuyển đổi thành ủng hộ",
-                            "downvoteLabel": "Chuyển đổi biểu cam thành phản đối",
-                            "downvoteHelptext": "Nhập mã nhận dạng của biểu cam mà bạn muốn tự động chuyển đổi thành phản đối"
+                            "upvoteLabel": "Chuyển đổi biểu cảm thành ủng hộ",
+                            "upvoteHelptext": "Nhập mã nhận dạng của biểu cảm bạn muốn tự động chuyển đổi thành ủng hộ",
+                            "downvoteLabel": "Chuyển đổi biểu cảm thành phản đối",
+                            "downvoteHelptext": "Nhập mã nhận dạng của biểu cảm mà bạn muốn tự động chuyển đổi thành phản đối"
                         },
                         "likes": {
                             "legend": "Thích",
