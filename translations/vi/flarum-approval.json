@@ -1,0 +1,25 @@
+{
+    "flarum-approval": {
+        "admin": {
+            "permissions": {
+                "approve_posts_label": "Phê duyệt bài viết",
+                "reply_without_approval_label": "Trả lời thảo luận mà không cần phê duyệt",
+                "start_discussions_without_approval_label": "Đăng cuộc thảo luận mà không cần phê duyệt"
+            }
+        },
+        "forum": {
+            "badge": {
+                "awaiting_approval_tooltip": "=> flarum-approval.ref.awaiting_approval"
+            },
+            "post": {
+                "awaiting_approval_text": "=> flarum-approval.ref.awaiting_approval"
+            },
+            "post_controls": {
+                "approve_button": "Phê duyệt"
+            }
+        },
+        "ref": {
+            "awaiting_approval": "Chờ phê duyệt"
+        }
+    }
+}
