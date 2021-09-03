@@ -1,47 +1,47 @@
 {
     "fof-reactions": {
         "forum": {
-            "disabled-reaction": "",
-            "warning": "",
-            "notification": "",
+            "disabled-reaction": "Reaktioita ei voi käyttää juuri nyt, ole hyvä ja päivitä sivu",
+            "warning": "Reaktiosi muunnettiin",
+            "notification": "{username} reagoi {reaction} viestiisi",
             "settings": {
-                "notify_post_reacted_label": ""
+                "notify_post_reacted_label": "Joku reagoi viestiini"
             },
-            "reacting-own-post": "",
+            "reacting-own-post": "Et voi reagoida omaan viestiin",
             "modal": {
-                "title": ""
+                "title": "Reaktiot"
             },
-            "mod_item": ""
+            "mod_item": "Näytä reaktiot"
         },
         "admin": {
             "permissions": {
-                "react_posts_label": "",
-                "see_reactions_label": ""
+                "react_posts_label": "Reagoida viesteihin",
+                "see_reactions_label": "Nähdä kuka reagoi viesteihin"
             },
             "page": {
                 "reactions": {
-                    "title": "",
-                    "reactions": "",
-                    "Helptext": "",
+                    "title": "Muokatut reaktiot",
+                    "reactions": "Nykyiset reaktiot",
+                    "Helptext": "Syötä emojin nimi (tunniste) tai font-awesome ikonin luokka ja valitse minkä tyyppisen haluat.",
                     "help": {
-                        "display": "",
-                        "identifier": ""
+                        "display": "Näytä",
+                        "identifier": "Tunniste"
                     }
                 },
                 "convert": {
-                    "help": "",
-                    "button": "",
-                    "converting": "",
-                    "converted": ""
+                    "help": "Jos päivitit juuri lisäosan niin reaktiot pitää muuntaa. Jos vasta asensit tämän lisäosan voit olla huomioimatta tätä viestiä.",
+                    "button": "Muunna vanhat reaktiot",
+                    "converting": "Reaktioita muunnetaan. Päivitä sivu muutaman minuutin jälkeen nähdäksesi prosessin loppuneen. (Muunnos voi kestää jonkun aikaa riippuen reaktioiden määrästä)",
+                    "converted": "Onnistuneesti muunnettiin {number} tykkäystä"
                 },
                 "settings": {
-                    "save_settings": "",
+                    "save_settings": "Tallenna asetukset",
                     "integrations": {
-                        "legend": "",
-                        "warning": "",
+                        "legend": "Integraatiot",
+                        "warning": "Samaa reaktiota <strong>ei voida</strong> muuntaa tykkäykseksi <strong>ja</strong> upvoteksi",
                         "gamification": {
-                            "legend": "",
-                            "upvoteLabel": "",
+                            "legend": "Pelillistäminen (gamification)",
+                            "upvoteLabel": "Muunna reaktiot upvoteiksi",
                             "upvoteHelptext": "",
                             "downvoteLabel": "",
                             "downvoteHelptext": ""
