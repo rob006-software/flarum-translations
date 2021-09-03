@@ -489,6 +489,26 @@
             }
         },
         "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "",
+                    "disable": "",
+                    "empty": "",
+                    "enable": "",
+                    "name": "",
+                    "package_name": "",
+                    "version": ""
+                },
+                "info": {
+                    "caption": ""
+                },
+                "title": ""
+            },
+            "confirm_email": {
+                "submit_button": "",
+                "text": "",
+                "title": ""
+            },
             "content": {
                 "javascript_disabled_message": "Trang web này xem tốt nhất khi trình duyệt được bật JavaScript.",
                 "load_error_message": "Đã xảy ra lỗi khi cố gắng tải phiên bản đầy đủ của trang web này. Hãy thử làm mới trang này để sửa lỗi.",
@@ -552,6 +572,7 @@
             "change_password": "Đổi mật khẩu",
             "color": "Màu sắc",
             "confirm_password": "Xác nhận mật khẩu",
+            "confirm_email": "",
             "confirmation_email_sent": "Chúng tôi đã gửi email xác nhận đến {email}. Nếu không có, kiểm tra xong thư mục rác của bạn.",
             "custom_footer_text": "Thêm HTML để hiển thị bên dưới trang.",
             "custom_footer_title": "Chỉnh sửa Chân trang",
@@ -563,6 +584,7 @@
             "edit": "Chỉnh sửa",
             "edit_user": "Chỉnh sửa người dùng",
             "email": "Email",
+            "extensions": "",
             "icon": "Icon",
             "icon_text": "Nhập tên icon bất kì của <a>FontAwesome</a>, <em>kèm</em> theo tiền tố <code>fas fa-</code>.",
             "load_more": "Tải thêm",

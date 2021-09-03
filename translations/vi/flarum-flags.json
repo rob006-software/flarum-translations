@@ -34,9 +34,10 @@
                 "tooltip": "=> flarum-flags.ref.flagged_posts"
             },
             "post": {
-                "dismiss_flag_button\b": "Bỏ gắn cờ",
+                "dismiss_flag_button": "",
                 "flagged_by_text": "Gắn cờ bởi {username}",
-                "flagged_by_with_reason_text": "Gắn cờ bởi {username} vì {reason}"
+                "flagged_by_with_reason_text": "Gắn cờ bởi {username} vì {reason}",
+                "dismiss_flag_button\b": "Bỏ gắn cờ"
             },
             "post_controls": {
                 "flag_button": "Gắn cờ"

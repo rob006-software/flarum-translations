@@ -40,12 +40,15 @@
         "admin": {
             "errors": {
                 "service_not_found": "Không thể tìm thấy dịch vụ '{service}'.",
-                "url_invalid": "URL không hợp lệ cho dịch vụ đã chọn."
+                "url_invalid": "URL không hợp lệ cho dịch vụ đã chọn.",
+                "tag_invalid": ""
             },
             "nav": {
                 "desc": "Các webhook gửi đi có thể tùy chỉnh cho diễn đàn của bạn."
             },
             "settings": {
+                "debug_label": "",
+                "debug_help": "",
                 "item": {
                     "tag_any_label": "Bất kì"
                 },

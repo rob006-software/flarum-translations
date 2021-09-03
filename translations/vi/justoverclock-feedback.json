@@ -2,6 +2,18 @@
     "justoverclock-feedback": {
         "admin": {
             "contactmail": "Địa chỉ email để gửi phản hồi tới",
+            "feedback1-title": "",
+            "feedback1-title-help": "",
+            "feedback1-icon": "",
+            "feedback1-icon-help": "",
+            "feedback2-title": "",
+            "feedback2-title-help": "",
+            "feedback2-icon": "",
+            "feedback2-icon-help": "",
+            "feedback3-title": "",
+            "feedback3-title-help": "",
+            "feedback3-icon": "",
+            "feedback3-icon-help": "",
             "contactdesc": "Bạn phải điền vào phần này để kích hoạt hoàn toàn tiện ích Phản hồi",
             "collect-email": "Hiển thị trường địa chỉ email (tùy chọn) cho người dùng",
             "collect-email-help": "Khi được bật, người dùng có thể thêm địa chỉ email của họ vào phản hồi",
@@ -12,7 +24,9 @@
             "background-color": "Màu nền Widget",
             "background-color-help": "Mã màu hệ lục phân để sử dụng làm màu nền, tức là '#fff'",
             "font-color": "Màu phông chữ Widget",
-            "font-color-help": "Mã màu hệ lục phân để sử dụng làm màu phông chữ, tức là '#000'"
+            "font-color-help": "Mã màu hệ lục phân để sử dụng làm màu phông chữ, tức là '#000'",
+            "box-title": "",
+            "box-title-help": ""
         },
         "api": {
             "validation_error": "Bạn không thể gửi phản hồi khi nội dung trống"
@@ -22,6 +36,7 @@
             "feedback-widget": {
                 "title": "Phản hồi Flarum",
                 "placeholder": "Nhập phản hồi của bạn vào đây",
+                "email-placeholder": "",
                 "submit": "Gửi",
                 "back": "Quay lại",
                 "contact-text": "Hoặc gửi email",
@@ -29,6 +44,7 @@
                 "success": "Cảm ơn!👊",
                 "failed-title": "Úi, có lỗi xảy ra!",
                 "failed-message": "Vui lòng thử lại. Nếu điều này tiếp tục xảy ra, hãy thử gửi email khác.",
+                "email-field-placeholder": "",
                 "types": {
                     "general": "Phản hồi chung",
                     "idea": "Tôi có ý tưởng",

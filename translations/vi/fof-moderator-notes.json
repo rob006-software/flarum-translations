@@ -8,17 +8,18 @@
             }
         },
         "forum": {
+            "no_content_given": "",
             "moderatorNotes": {
                 "created_text": "{username} đã tạo ghi chú này lúc {date}",
                 "add_button": "Ghi chú mới",
                 "create-heading": "Tạo mới ghi chú người kiểm duyệt",
                 "dismiss_button": "Xong",
                 "input_heading": "Nhập ghi chú của bạn cho <strong>{username}</strong>, (hỗ trợ markdown)",
-                "no_content_given": "Ghi chú trống không được phép.",
                 "noNotes": "Có vẻ như không có ghi chú nào ở đây.",
                 "submit_button": "Lưu ghi chú",
                 "delete": "Xóa",
-                "confirm": "Bạn có chắc chắn muốn xóa ghi chú này không?"
+                "confirm": "Bạn có chắc chắn muốn xóa ghi chú này không?",
+                "no_content_given": "Ghi chú trống không được phép."
             },
             "user": {
                 "notes": "Ghi chú của người kiểm duyệt"
