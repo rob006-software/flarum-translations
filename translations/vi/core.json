@@ -26,7 +26,7 @@
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "Ngôn ngữ mặc định",
-                "description": "Đặt tiêu đề diễn đàn, ngôn ngữ và các cài đặt cơ bản khác của bạn",
+                "description": "Đặt tiêu đề diễn đàn, ngôn ngữ và các cài đặt cơ bản khác của bạn.",
                 "display_name_heading": "Tên hiển thị của người dùng",
                 "display_name_text": "Chọn trình điều khiển sử dụng cho tên hiển thị của người dùng. Theo mặc định, tên người dùng được hiển thị.",
                 "forum_description_heading": "Mô tả diễn đàn",
@@ -43,7 +43,7 @@
             },
             "dashboard": {
                 "clear_cache_button": "Xóa bộ nhớ đệm",
-                "description": "Diễn đàn của bạn trong nháy mắt",
+                "description": "Diễn đàn của bạn trong nháy mắt.",
                 "title": "Trang tổng quan",
                 "tools_button": "Công cụ"
             },
@@ -340,7 +340,7 @@
                 "top_button": "Hàng đầu"
             },
             "log_in": {
-                "forgot_password_link": "Quên mật khẩu",
+                "forgot_password_link": "Quên mật khẩu?",
                 "invalid_login_message": "Thông tin đăng nhập của bạn không chính xác.",
                 "password_placeholder": "=> core.ref.password",
                 "remember_me_label": "Ghi nhớ",
@@ -365,7 +365,7 @@
             },
             "post_controls": {
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "Bạn có chắc chắn muốn xóa bài viết này vĩnh viễn không? Hành động này không thể được hoàn tác",
+                "delete_confirmation": "Bạn có chắc chắn muốn xóa bài viết này vĩnh viễn không? Hành động này không thể được hoàn tác.",
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "edit_button": "=> core.ref.edit",
                 "hide_confirmation": "Bạn có chắc chắn muốn xóa bài viết này?",
@@ -491,23 +491,23 @@
         "views": {
             "admin": {
                 "extensions": {
-                    "caption": "",
-                    "disable": "",
-                    "empty": "",
-                    "enable": "",
-                    "name": "",
-                    "package_name": "",
-                    "version": ""
+                    "caption": "=> core.ref.extensions",
+                    "disable": "Vô hiệu hoá",
+                    "empty": "Không có tiện ích mở rộng nào được cài đặt",
+                    "enable": "Kích hoạt",
+                    "name": "Tên tiện ích mở rộng",
+                    "package_name": "Tên gói",
+                    "version": "Phiên bản"
                 },
                 "info": {
-                    "caption": ""
+                    "caption": "Thông tin ứng dụng"
                 },
-                "title": ""
+                "title": "Quản trị viên"
             },
             "confirm_email": {
-                "submit_button": "",
-                "text": "",
-                "title": ""
+                "submit_button": "=> core.ref.confirm_email",
+                "text": "Nhấp vào nút bên dưới để xác thực địa chỉ email tài khoản của bạn.",
+                "title": "=> core.ref.confirm_email"
             },
             "content": {
                 "javascript_disabled_message": "Trang web này xem tốt nhất khi trình duyệt được bật JavaScript.",
@@ -572,7 +572,7 @@
             "change_password": "Đổi mật khẩu",
             "color": "Màu sắc",
             "confirm_password": "Xác nhận mật khẩu",
-            "confirm_email": "",
+            "confirm_email": "Enail xác thực",
             "confirmation_email_sent": "Chúng tôi đã gửi email xác nhận đến {email}. Nếu không có, kiểm tra xong thư mục rác của bạn.",
             "custom_footer_text": "Thêm HTML để hiển thị bên dưới trang.",
             "custom_footer_title": "Chỉnh sửa Chân trang",
@@ -584,7 +584,7 @@
             "edit": "Chỉnh sửa",
             "edit_user": "Chỉnh sửa người dùng",
             "email": "Email",
-            "extensions": "",
+            "extensions": "Tiện ích mở rộng",
             "icon": "Icon",
             "icon_text": "Nhập tên icon bất kì của <a>FontAwesome</a>, <em>kèm</em> theo tiền tố <code>fas fa-</code>.",
             "load_more": "Tải thêm",
