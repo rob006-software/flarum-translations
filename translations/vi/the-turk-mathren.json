@@ -1,0 +1,53 @@
+{
+    "the-turk-mathren": {
+        "admin": {
+            "settings": {
+                "title": "MathRen",
+                "description": "Configure TeX math rendering.",
+                "katexOptionsHeading": "KaTeX Options",
+                "katexOptionsInfo": "You can find more information for KaTeX options <a>in here</a>.",
+                "delimiters": "Delimiters",
+                "delimitersHelp": "Separate them with commas. <strong>%e%</strong> stands for mathematical expression.",
+                "blockDelimiters": "<strong>BBCode</strong> delimiters for block expressions",
+                "inlineDelimiters": "<strong>BBCode</strong> delimiters for inline expressions",
+                "mainDelimitersInfo": "First delimiters in above lists will be used as default by text editor.",
+                "ignoringExpressions": "Ignoring Expressions",
+                "ignoringExpressionsHelp": "Separate them with commas.",
+                "decisiveKeywords": "List of decisive keywords to ignore expressions",
+                "decisiveKeywordsHelp": "You will write one of these decisive keywords as <code>[math=<strong>keyword</strong>]%e%[/math]</code> in order to prevent expressions from rendering.",
+                "ignoredTags": "List of DOM node types to ignore when recursing through",
+                "ignoredClasses": "List of DOM node class names to ignore when recursing through",
+                "ignoredClassesInfo": "First class in this list will be used as default to wrap ignored expression with.",
+                "outputMode": "Output mode",
+                "outputModeHelp": "Choose the markup language for the output",
+                "errorColor": "Color of unsupported commands or invalid LaTeX",
+                "errorColorHelp": "Choose the color that unsupported commands and invalid LaTeX are rendered in when error throwing is disabled.",
+                "sizeSettings": "Sizing options",
+                "sizeSettingsHelp": "Use <strong>point</strong> as decimal seperator.",
+                "minRuleThickness": "Minimum thickness (em)",
+                "maxSize": "Maximum size (em)",
+                "macros": "Macros",
+                "macrosHelp": "A collection of custom macros.",
+                "syntaxInfo": "You have to write them using JavaScript's syntax.",
+                "maxExpand": "Maximum expand limit",
+                "enableFleqn": "Enable flush left equations (fleqn)",
+                "enableLeqno": "Enable left equation numbers (leqno)",
+                "enableColorIsTextColor": "Cho phép lệnh <code>\\color</code> nhận hai đối số (colorIsTextColor)",
+                "enableThrowOnError": "Lỗi đối với lệnh không được hỗ trợ hoặc LaTeX không hợp lệ",
+                "regexInfo": "Chúng phải được viết bằng chữ hoa hoặc chữ thường và chỉ dấu gạch ngang.",
+                "otherOptionsHeading": "Tùy chọn khác",
+                "enableTextEditorButtons": "Hiển thị các nút trên trình soạn thảo văn bản",
+                "enableCopyTeX": "Cho phép sao chép source của các phần tử do đầu ra LaTeX",
+                "mentions": "Bạn phải bật phần mở rộng <code>flarum/mentions</code> để kích hoạt nút trích dẫn.",
+                "saved_message": "=> core.admin.basics.saved_message",
+                "validation": "Không xác thực được trường \"{field_key} \"."
+            }
+        },
+        "forum": {
+            "textEditor": {
+                "blockExpression": "Khối biểu thức",
+                "inlineExpression": "Dòng biểu thức"
+            }
+        }
+    }
+}
