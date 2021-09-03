@@ -2,27 +2,27 @@
     "sycho-move-posts": {
         "admin": {
             "settings": {
-                "moved_first_post_content": "",
-                "moved_first_post_content_help": "",
-                "group_sequential_posts": ""
+                "moved_first_post_content": "Nội dung thảo luận đã chuyển (Bài viết đầu tiên)",
+                "moved_first_post_content_help": "Khi cuộc thảo luận chỉ có 1 bài viết, việc di chuyển bài viết đó sẽ dẫn đến việc chỉnh sửa bài viết đầu tiên của cuộc thảo luận ban đầu để chuyển sang cuộc thảo luận mới. Bạn có thể chỉnh sửa nội dung của bài viết đó tại đây.\n",
+                "group_sequential_posts": "Nhóm các bài viết lại thành một sự kiện bài viết."
             },
             "permissions": {
-                "move_posts": ""
+                "move_posts": "=> sycho-move-posts.ref.move_posts"
             }
         },
         "forum": {
             "badge": {
-                "first_moved_tooltip": ""
+                "first_moved_tooltip": "Đã di chuyển"
             },
             "discussion": {
-                "move_posts": ""
+                "move_posts": "=> sycho-move-posts.ref.move_posts"
             },
             "error": {
-                "move_old_post_to_newer_discussion": ""
+                "move_old_post_to_newer_discussion": "=> sycho-move-posts.ref.status.old_to_new_move"
             },
             "modal": {
-                "check": "",
-                "destination": "",
+                "check": "Kiểm tra loại hoạt động",
+                "destination": "Điểm đến cuộc thảo luận",
                 "discussion_help": "",
                 "discussion_name": "",
                 "new_discussion": "",
