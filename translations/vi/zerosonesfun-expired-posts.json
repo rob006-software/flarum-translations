@@ -1,0 +1,24 @@
+{
+    "expired-posts": {
+        "forum": {
+            "composer": {
+                "warning": {
+                    "title": "Bài viết hết hạn",
+                    "description": "Bài viết này đã hết hạn",
+                    "error": "Cuộc thảo luận này đã hết hạn"
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "days_label": "Số ngày",
+                "days_help": "Một cuộc thảo luận sẽ được đánh dấu là đã hết hạn khi hết số ngày được chỉ định kể từ khi bài viết cuối cùng về cuộc thảo luận đó được đăng. Sử dụng <code>0</code> để tắt nó theo mặc định.",
+                "message_title_label": "Tùy chỉnh tiêu đề thông báo",
+                "message_title_help": "Sử dụng <code>[time]</code> đối với chữ thời gian, ví dụ: \"14 days\".",
+                "message_description_label": "Tùy chỉnh mô tả thông báo",
+                "tags_title": "Thẻ",
+                "tags_help": "Ghi đè các ngày toàn cục cho một thẻ cụ thể. Rỗng có nghĩa là sử dụng giá trị mặc định. Nếu một cuộc thảo luận có nhiều thẻ với các giá trị ngày khác nhau, nó sẽ sử dụng số ngày nhỏ nhất được cấu hình."
+            }
+        }
+    }
+}
