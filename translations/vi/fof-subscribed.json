@@ -1,0 +1,40 @@
+{
+    "fof-subscribed": {
+        "forum": {
+            "settings": {
+                "defaults_label": "Đặt \"{setting}\" được bật theo mặc định",
+                "forced_label": "Buộc bật \"{setting}\" cho mọi người",
+                "notify_discussion_created_label": "Ai đó tạo cuộc thảo luận",
+                "notify_post_unapproved_label": "Một bài viết đã đăng cần được phê duyệt",
+                "notify_user_created_label": "Khi ai đó đăng ký"
+            },
+            "notifications": {
+                "discussion_created_text": "{username} đã tạo cuộc thảo luận mới",
+                "post_unapproved_text": "{username} đã tạo một bài viết cần phê duyệt",
+                "user_created_text": "{username} vừa đăng ký"
+            }
+        },
+        "admin": {
+            "menu": {
+                "description": "Cấu hình đăng ký người dùng (mặc định)"
+            },
+            "permission": {
+                "subscribe_to_discussion_created": "Được phép nhận thông báo khi có cuộc thảo luận mới",
+                "subscribe_to_post_unapproved": "Được phép nhận thông báo khi có bài đăng mới chưa được duyệt",
+                "subscribe_to_user_created": "Được phép nhận thông báo khi có người dùng mới"
+            }
+        },
+        "email": {
+            "subject": {
+                "newDiscussion": "[Đã đăng ký | Cuộc thảo luận mới] {title}",
+                "newUser": "[Đã đăng ký | Người dùng mới] {username}",
+                "postUnapproved": "[Đã đăng ký | Chưa duyệt] {username} đã đăng trong {title}"
+            },
+            "body": {
+                "newDiscussion": "Chào {recipient_display_name},\n{actor_display_name} đã đăng một cuộc thảo luận mới: {discussion_title}\nĐể xem cuộc thảo luận mới này, hãy nhấp vào liên kết sau:\n{discussion_url}\n---\n{post_content}\n",
+                "newUser": "Chào {recipient_display_name},\n{actor_display_name} vừa mới đăng ký tại {forum_url}.\nĐể xem hồ sơ của người dùng mới này, hãy xem liên kết sau:\n{user_url}\n",
+                "postUnapproved": "Chào {recipient_display_name},\n{actor_display_name} đã tạo một bài viết chưa được duyệt trong {discussion_title}\nĐể xem bài đăng mới này, hãy xem liên kết sau:\n{post_url}\n---\n{post_content}"
+            }
+        }
+    }
+}
