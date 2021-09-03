@@ -1,0 +1,65 @@
+{
+    "fof-masquerade": {
+        "forum": {
+            "alerts": {
+                "profile-completion-required": "Vui lòng hoàn thành các trường hồ sơ cần thiết bên dưới.\n",
+                "profile-completed": "Hồ sơ đã hoàn thành! <a>Tiếp tục đến trang chủ</a>"
+            },
+            "buttons": {
+                "view-profile": "Xem hồ sơ",
+                "save-profile": "Lưu lại"
+            },
+            "fields": {
+                "select": {
+                    "none-optional": "Không có tùy chọn nào được chọn (tùy chọn)",
+                    "none-required": "Vui lòng chọn một tùy chọn (bắt buộc)"
+                },
+                "boolean": {
+                    "yes": "Có",
+                    "no": "Không"
+                }
+            }
+        },
+        "admin": {
+            "general-options": "Tùy chọn chung",
+            "buttons": {
+                "add-field": "Tạo trường",
+                "edit-field": "Lưu thay đổi",
+                "delete-field": "Xóa trường"
+            },
+            "permissions": {
+                "have-profile": "Có hồ sơ masquerade",
+                "view-profile": "Xem hồ sơ masquerade"
+            },
+            "fields": {
+                "title": "Trường",
+                "add": "Thêm trường {field}",
+                "edit": "Sửa trường {field}",
+                "name": "Tên trường",
+                "name-help": "Nhãn trường hiển thị công khai (không thể dịch).\n",
+                "description": "Mô tả trường",
+                "description-help": "Mô tả tùy chọn để giải thích việc sử dụng/nhu cầu của trường này.\n",
+                "required": "Đánh dấu trường là bắt buộc",
+                "on_bio": "Hiển thị câu trả lời cho trường này trong tiểu sử người dùng",
+                "type": "Kiểu",
+                "validation": "Xác thực",
+                "validation-help": "Kiểm tra <a>các quy tắc xác thực của Laravel</a>. Vd: \"string|min:5\" hoặc \"url\".\n",
+                "prefix": "Tiền tố trường",
+                "prefix-help": "Hiển thị tiền tố của bạn trước các giá trị do người dùng nhập cho trường này.\n",
+                "icon": "Icon",
+                "icon-help": "Hiển thị biểu tượng phía trước các giá trị do người dùng nhập. Để tham khảo các biểu tượng có sẵn, hãy xem <a>trang web FontAwesome</a>. Sử dụng tên biểu tượng với tiền tố \"fa-\", như \"fas fa-info\".\n",
+                "force-user-to-completion": "Buộc người dùng hoàn thành hồ sơ",
+                "options": "Tùy chọn",
+                "option-new": "Tùy chọn mới",
+                "option-comma-warning": "Nhãn của một tùy chọn không được chứa bất kỳ dấu phẩy nào (\",\")."
+            },
+            "types": {
+                "advanced": "Nâng cao",
+                "boolean": "Hộp kiểm",
+                "email": "Email",
+                "select": "Dropdown",
+                "url": "URL"
+            }
+        }
+    }
+}
