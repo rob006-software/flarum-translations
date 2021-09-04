@@ -2,20 +2,20 @@
     "fof-moderator-notes": {
         "admin": {
             "permissions": {
-                "createnotes": "Tạo ghi chú của người kiểm duyệt",
+                "createnotes": "Người kiểm duyệt tạo ghi chú",
                 "viewnotes": "Xem ghi chú của người kiểm duyệt",
                 "deletenotes": "Xóa ghi chú của người kiểm duyệt"
             }
         },
         "forum": {
-            "no_content_given": "",
+            "no_content_given": "Một ghi chú trống không được phép.",
             "moderatorNotes": {
                 "created_text": "{username} đã tạo ghi chú này lúc {date}",
                 "add_button": "Ghi chú mới",
-                "create-heading": "Tạo mới ghi chú người kiểm duyệt",
+                "create-heading": "Tạo mới ghi chú",
                 "dismiss_button": "Xong",
                 "input_heading": "Nhập ghi chú của bạn cho <strong>{username}</strong>, (hỗ trợ markdown)",
-                "noNotes": "Có vẻ như không có ghi chú nào ở đây.",
+                "noNotes": "Hiện không có ghi chú nào ở đây.",
                 "submit_button": "Lưu ghi chú",
                 "delete": "Xóa",
                 "confirm": "Bạn có chắc chắn muốn xóa ghi chú này không?",
@@ -26,9 +26,9 @@
             }
         },
         "api": {
-            "auto_note": "_Tôi chuyển sang người dùng này:_ lý do",
+            "auto_note": "_Tôi chuyển sang người dùng này:_ {reason}",
             "auto_note_actor": "_Chuyển sang_ @{username}: {reason}",
-            "no_reason_provided": "Không cung cấp lý do"
+            "no_reason_provided": "Không có lý do"
         }
     }
 }
