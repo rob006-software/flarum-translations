@@ -491,18 +491,18 @@
         "views": {
             "admin": {
                 "extensions": {
-                    "caption": "",
-                    "disable": "",
-                    "empty": "",
-                    "enable": "",
-                    "name": "",
-                    "package_name": "",
-                    "version": ""
+                    "caption": "=> core.ref.extensions",
+                    "disable": "Désactiver",
+                    "empty": "Aucune extension installée",
+                    "enable": "Activer",
+                    "name": "Nom de l'extension",
+                    "package_name": "Nom du paquet",
+                    "version": "Version"
                 },
                 "info": {
-                    "caption": ""
+                    "caption": "Informations sur l'application"
                 },
-                "title": ""
+                "title": "Administration"
             },
             "confirm_email": {
                 "submit_button": "=> core.ref.confirm_email",
@@ -584,7 +584,7 @@
             "edit": "Modifier",
             "edit_user": "Modifier l'utilisateur",
             "email": "Adresse de courriel",
-            "extensions": "",
+            "extensions": "Extensions",
             "icon": "Icône",
             "icon_text": "Saisissez le nom de n'importe quelle classe d'icônes de <a>Font Awesome</a> <em>en incluant</em> le préfixe <code>fas fa-</code>.",
             "load_more": "Charger davantage",
