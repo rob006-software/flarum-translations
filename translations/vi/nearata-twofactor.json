@@ -16,24 +16,24 @@
             "setup_button": "Hai yếu tố",
             "setup_modal": {
                 "backups": {
-                    "copy_button": "",
+                    "copy_button": "Sao chép",
                     "download_button": "Tải xuống",
-                    "download_file_format": "",
-                    "modal_message": ""
+                    "download_file_format": "{website_title} | {website_url}\n\nGiữ những mã dự phòng này ở nơi an toàn nhưng có thể truy cập được.\n\nDANH SÁCH MÃ\n\n{codes}\n\n* Bạn chỉ có thể sử dụng mỗi mã dự phòng một lần.\n* Các mã này PHẢI được sử dụng theo thứ tự được liệt kê.\n* Các mã này được tạo vào: {date}.\n",
+                    "modal_message": "Giữ các mã khôi phục này ở một nơi an toàn. Nếu bạn làm mất thiết bị đã kích hoạt hai yếu tố, thì các mã sử dụng một lần này có thể được sử dụng theo thứ tự được liệt kê để đăng nhập vào tài khoản của bạn.\n"
                 },
-                "close_button": "",
-                "disabled": "",
-                "enabled": "",
-                "enter_code_disable": "",
-                "enter_code_manually": "",
-                "passcode_placeholder": "",
-                "password_placeholder": "",
-                "scan_qr": "",
+                "close_button": "Đóng",
+                "disabled": "Đã tắt xác thực hai yếu tố.",
+                "enabled": "Đã bật xác thực hai yếu tố.",
+                "enter_code_disable": "Nhập mã để tắt Hai yếu tố.",
+                "enter_code_manually": "Nhập mã khoá theo cách thủ công",
+                "passcode_placeholder": "Mật mã Hai yếu tố",
+                "password_placeholder": "Mật khẩu",
+                "scan_qr": "Quét mã QR này bằng thiết bị xác thực hai yếu tố để thiết lập tài khoản của bạn.",
                 "submit_button": {
-                    "enable": "",
-                    "disable": ""
+                    "enable": "Kích hoạt",
+                    "disable": "Vô hiệu hoá"
                 },
-                "title": ""
+                "title": "Hai yếu tố"
             }
         }
     }
