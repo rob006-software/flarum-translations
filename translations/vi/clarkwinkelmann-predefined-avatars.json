@@ -2,32 +2,32 @@
     "clarkwinkelmann-predefined-avatars": {
         "admin": {
             "settings": {
-                "predefinedAvatarsOnly": "",
-                "predefinedAvatarsOnlyHelp": "",
-                "predefinedAvatarsNoRemove": "",
-                "predefinedAvatarsNoRemoveHelp": "",
-                "predefinedAvatarsDefault": "",
-                "predefinedAvatarsDefaultHelp": "",
-                "predefinedAvatars": "",
-                "predefinedAvatarsHelp": "",
+                "predefinedAvatarsOnly": "Chỉ cho phép ảnh đại diện có sẵn",
+                "predefinedAvatarsOnlyHelp": "Khoá chức năng tải lên ảnh đại diện trừ khi bạn có quyền bên dưới.",
+                "predefinedAvatarsNoRemove": "Ngăn cài đặt không có hình đại diện",
+                "predefinedAvatarsNoRemoveHelp": "Người dùng đã có ảnh đại diện hoặc được xác định trước sẽ không thể quay lại hình đại diện \"tên viết tắt\" mặc định trừ khi họ có quyền bên dưới.",
+                "predefinedAvatarsDefault": "Ảnh đại diện mặc định",
+                "predefinedAvatarsDefaultHelp": "Áp dụng cho người dùng mới khi đăng ký.",
+                "predefinedAvatars": "Ảnh đại diện có sẵn",
+                "predefinedAvatarsHelp": "Các tệp không được thay đổi kích thước hoặc chuyển đổi. Đảm bảo thay đổi kích thước, nén và xuất chúng ở định dạng bạn chọn trước khi tải lên. Flarum hoạt động tốt nhất với ảnh png hoặc jpg 100x100 hình vuông, nhưng bạn có thể tận dụng các độ phân giải khác với CSS tùy chỉnh.\n",
                 "defaultOptions": {
-                    "none": "",
-                    "first": "",
-                    "random": ""
+                    "none": "Không có ảnh đại diện",
+                    "first": "Ảnh đại điện đầu tiên từ danh sách",
+                    "random": "Ảnh đại diện ngẫu nhiên từ danh sách"
                 }
             },
             "permissions": {
-                "setPredefinedAvatar": "",
-                "setCustomAvatarAlways": ""
+                "setPredefinedAvatar": "Chọn ảnh đại diện từ danh sách có sẵn",
+                "setCustomAvatarAlways": "Đặt ảnh đại diện bất kỳ khi nào"
             }
         },
         "forum": {
             "modal": {
-                "title": "",
-                "imageAlt": ""
+                "title": "Chọn ảnh đại diện",
+                "imageAlt": "Ảnh đại diện"
             },
             "editor": {
-                "setPredefinedAvatar": ""
+                "setPredefinedAvatar": "Chọn ảnh đại diện có sẵn"
             }
         }
     }
