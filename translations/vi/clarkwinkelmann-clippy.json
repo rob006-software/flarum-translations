@@ -2,23 +2,23 @@
     "clarkwinkelmann-clippy": {
         "admin": {
             "settings": {
-                "cdn": "",
+                "cdn": "CDN",
                 "cdn-options": {
-                    "s3": "",
-                    "jsdelivr": "",
-                    "custom": ""
+                    "s3": "Amazone S3",
+                    "jsdelivr": "jsDelivr",
+                    "custom": "Tuỳ chỉnh"
                 },
-                "path": "",
-                "path-help": "",
-                "agent": "",
-                "agent-help": "",
-                "events": "",
-                "events-help": ""
+                "path": "Tuỳ chỉnh đường dẫn CDN",
+                "path-help": "Một URL đủ điều kiện không có dấu gạch chéo ở cuối thư mục chứa nội dung của <a>kho lưu trữ clippy.js</a>.",
+                "agent": "Tác nhân",
+                "agent-help": "Mỗi tác nhân có một bộ hình ảnh động khác nhau. Thay đổi tác nhân sẽ xóa tất cả các hoạt ảnh không tương thích khỏi cài đặt của bạn.",
+                "events": "Sự kiện",
+                "events-help": "Chọn ảnh động và bong bóng speach để hiển thị trên mỗi sự kiện này"
             },
             "events": {
-                "name": "",
-                "animation": "",
-                "text": ""
+                "name": "Sự kiện",
+                "animation": "Ảnh động",
+                "text": "Văn bản"
             }
         }
     }
