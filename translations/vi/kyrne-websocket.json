@@ -2,53 +2,53 @@
     "kyrne-websocket": {
         "forum": {
             "discussion_list": {
-                "show_updates_text": ""
+                "show_updates_text": "{count, plural, one {Hiển thị # cuộc thảo luận} other {Hiển thị # cuộc thảo luận}}"
             },
             "discussion_page": {
-                "viewing_title": ""
+                "viewing_title": "Ở đây:"
             },
             "widget": {
-                "title": "",
-                "empty": "",
-                "guests": ""
+                "title": "Người dùng trực tuyến",
+                "empty": "Không có người dùng nào hiện đang trực tuyến.",
+                "guests": "{count, plural, one {1 khách} other {{count} khách}}"
             }
         },
         "admin": {
             "chart": {
-                "title": ""
+                "title": "Thống kê Websocket"
             },
             "pusher_settings": {
-                "local_cert_path": "",
-                "local_pk_path": "",
-                "passphrase": "",
-                "cert_self_signed": "",
-                "app_port_label": "",
-                "app_host_label": "",
-                "app_id_label": "",
-                "auto_update": "",
-                "app_key_label": "",
-                "app_secret_label": "",
-                "stats_label": "",
-                "secure": "",
-                "title": "",
-                "reverse_proxy": "",
-                "auth_only": ""
+                "local_cert_path": "Đường dẫn chứng chỉ SSL cục bộ",
+                "local_pk_path": "Đường dẫn mã khóa riêng tư SSL cục bộ",
+                "passphrase": "(Tùy chọn) Cụm mật khẩu mã khóa SSL",
+                "cert_self_signed": "Hỗ trợ chứng chỉ tự ký",
+                "app_port_label": "Cổng",
+                "app_host_label": "Máy chủ",
+                "app_id_label": "ID ứng dụng",
+                "auto_update": "Tự động cập nhật cuộc thảo luận",
+                "app_key_label": "Mã khoá ứng dụng",
+                "app_secret_label": "Mã bí mật ứng dụng",
+                "stats_label": "Khoảng thời gian thống kê",
+                "secure": "Buộc wss/https cho Websocket",
+                "title": "Thiết lập Websocket/Pusher",
+                "reverse_proxy": "Hỗ trợ Reverse Proxy",
+                "auth_only": "Websocket chỉ dành cho người dùng đã đăng nhập"
             },
             "help": {
-                "stats": "",
-                "auto_update": "",
-                "app_id": "",
-                "app_key": "",
-                "secret": "",
-                "secure": "",
-                "host": "",
-                "reverse_proxy": "",
-                "port": "",
-                "cert_path": "",
-                "pk_path": "",
-                "passphrase": "",
-                "self_signed": "",
-                "auth_only": ""
+                "stats": "Thời gian giữa thống kê lưu - tính bằng giây. Được đề xuất trong khoảng từ 3600 (1 giờ) đến 21600 (6 giờ) Mặc định: 7200.",
+                "auto_update": "Không hiển thị thanh cập nhật màu vàng, hãy cập nhật ngay danh sách thảo luận.",
+                "app_id": "ID ứng dụng Pusher - giữ nguyên nếu sử dụng máy chủ websocket có sẵn.",
+                "app_key": "Mã khoá ứng dụng Pusher - giữ nguyên nếu sử dụng máy chủ websocket có sẵn.",
+                "secret": "Mã khoá ứng dụng bí mật Pusher - để trống nếu sử dụng máy chủ websocket có sẵn.",
+                "secure": "Buộc websocket sử dụng giao thức bảo mật - Bật tính năng này nếu bạn đang sử dụng máy chủ websocket bảo mật nhưng không phải trang web.",
+                "host": "Máy chủ của máy chủ websocket - giữ nguyên nếu máy chủ là máy chủ lưu trữ giống như quản trị viên của bạn.",
+                "reverse_proxy": "Websockets sẽ kết nối qua cổng 443 khi tính năng này được bật - Sử dụng tính năng này nếu bạn đang sử dụng proxy ngược từ cổng 443 đến máy chủ websocket của mình.",
+                "port": "Cổng máy chủ websocket - để nguyên nếu bạn không thay đổi bản dựng trong cổng máy chủ.",
+                "cert_path": "Chỉ cần thiết nếu sử dụng ssl và KHÔNG dùng proxy ngược. Đường dẫn đến chứng chỉ SSL (https) của bạn TRÊN MÁY CHỦ Máy chủ websocket của bạn đang bật - thường là tệp .crt hoặc .pem.",
+                "pk_path": "Chỉ cần thiết nếu sử dụng ssl và KHÔNG dùng proxy ngược. Đường dẫn đến khóa riêng tư SSL (https) của bạn TRÊN MÁY CHỦ Máy chủ websocket của bạn đang bật - thường là tệp .key hoặc .pem.",
+                "passphrase": "Chỉ cần thiết nếu sử dụng ssl và KHÔNG dùng proxy ngược. Cụm mật khẩu được sử dụng để mã hóa chứng chỉ của bạn - thường không cần thiết.",
+                "self_signed": "Chỉ cần thiết nếu sử dụng ssl và KHÔNG dùng proxy ngược. Bật tính năng này nếu chứng chỉ SSL (https) của bạn là chứng chỉ tự ký.",
+                "auth_only": "Chỉ cho phép người dùng được xác thực kết nối với máy chủ websocket, có thể giảm tải CPU."
             }
         }
     }
