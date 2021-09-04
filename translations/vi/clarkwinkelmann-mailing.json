@@ -2,42 +2,42 @@
     "clarkwinkelmann-mailing": {
         "admin": {
             "permissions": {
-                "mail_individual": "",
-                "mail_all": ""
+                "mail_individual": "Gửi email cho người dùng cá nhân",
+                "mail_all": "Gửi email đến nhóm hoặc tất cả người dùng"
             }
         },
         "forum": {
             "links": {
-                "mail_individual": "",
-                "mail_all": ""
+                "mail_individual": "Gửi email cho người dùng này",
+                "mail_all": "Gửi email"
             },
             "modal_mail": {
-                "title_text": "",
-                "recipients_label": "",
-                "recipients_placeholder": "",
-                "subject_label": "",
-                "default_subject": "",
-                "message_label": "",
-                "submit_button": ""
+                "title_text": "Soạn thư",
+                "recipients_label": "Người nhận",
+                "recipients_placeholder": "Thêm người nhận khác...",
+                "subject_label": "Tiêu đề",
+                "default_subject": "=> clarkwinkelmann-mailing.ref.default_subject",
+                "message_label": "Tin nhắn",
+                "submit_button": "Gửi"
             },
             "modal_sent": {
-                "title_text": "",
-                "on_its_way": ""
+                "title_text": "Thư đã được gửi!",
+                "on_its_way": "Thư của bạn đang được gửi đến người nhận {recipientsCount}!"
             },
             "recipient_kinds": {
-                "user": "",
-                "group": "",
-                "email": ""
+                "user": "Người dùng",
+                "group": "Nhóm",
+                "email": "Email"
             }
         },
         "api": {
-            "no_recipients": ""
+            "no_recipients": "Không có người nhận nào phù hợp"
         },
         "email": {
-            "default_subject": ""
+            "default_subject": "=> clarkwinkelmann-mailing.ref.default_subject"
         },
         "ref": {
-            "default_subject": ""
+            "default_subject": "Thông báo từ quản trị diễn đàn"
         }
     }
 }
