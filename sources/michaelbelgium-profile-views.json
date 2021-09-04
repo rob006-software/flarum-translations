@@ -2,7 +2,10 @@
     "michaelbelgium-flarum-profile-views": {
         "forum": {
             "user": {
-                "last_viewers_heading": "Last visitors",
+                "viewlist": {
+                    "title": "Last visitors",
+                    "guest": "Guest"
+                },
                 "view_count_text": "{viewcount, plural, one {viewed {viewcount} time} other {viewed {viewcount} times}}"
             }
         },
