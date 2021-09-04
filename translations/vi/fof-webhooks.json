@@ -4,7 +4,7 @@
             "discussion": {
                 "started": "Đã đăng cuộc thảo luận `{1}`",
                 "renamed": {
-                    "title": "Đã thay dổi tiêu đề cuộc thảo luận `{1}`",
+                    "title": "Đã thay đổi tiêu đề cuộc thảo luận `{1}`",
                     "description": "Tiêu đề mới: {1}"
                 },
                 "hidden": "Đã ẩn cuộc thảo luận `{1}`",
@@ -13,7 +13,7 @@
             },
             "group": {
                 "created": "Đã tạo nhóm `{1}`",
-                "renamed": "Đã đổi tên một nhóm thành `{1}`",
+                "renamed": "Đã đổi tên nhóm thành `{1}`",
                 "deleted": "Đã xóa nhóm `{1} '"
             },
             "post": {
@@ -24,12 +24,12 @@
                 "deleted": "Đã xóa bài viết trong `{1}`"
             },
             "user": {
-                "registered": "Người dùng mới đã đăng ký",
+                "registered": "Người dùng mới đăng ký",
                 "renamed": {
                     "title": "Đã thay đổi tên người dùng của `{1}`",
                     "description": "Tên người dùng mới: {1}"
                 },
-                "deleted": "Người dùng đã bị xóa `{1}`"
+                "deleted": "Đã xoá người dùng `{1}`"
             }
         },
         "adapters": {
@@ -41,28 +41,28 @@
             "errors": {
                 "service_not_found": "Không thể tìm thấy dịch vụ '{service}'.",
                 "url_invalid": "URL không hợp lệ cho dịch vụ đã chọn.",
-                "tag_invalid": ""
+                "tag_invalid": "Webhook này bị hạn chế đối với thẻ không hợp lệ. Hạn chế sẽ không áp dụng. Hãy chắc chắn rằng điều này được dự định."
             },
             "nav": {
-                "desc": "Các webhook gửi đi có thể tùy chỉnh cho diễn đàn của bạn."
+                "desc": "Webhook gửi đi có thể tùy chỉnh cho diễn đàn của bạn."
             },
             "settings": {
-                "debug_label": "",
-                "debug_help": "",
+                "debug_label": "Gỡ lỗi",
+                "debug_help": "Thêm nhật ký bổ sung vào tệp nhật ký Flarum để gỡ lỗi các vấn đề với webhook hoặc sự kiện không hoạt động chính xác.",
                 "item": {
-                    "tag_any_label": "Bất kì"
+                    "tag_any_label": "Bất kỳ"
                 },
                 "help": {
                     "disabled": "Webhook này bị vô hiệu hóa vì nó không có bất kỳ sự kiện nào được bật.",
-                    "general": "Tại đây, bạn có thể thêm, chỉnh sửa và xóa các webhook khỏi diễn đàn của mình.",
+                    "general": "Tại đây, bạn có thể thêm, chỉnh sửa và xóa webhook khỏi diễn đàn.",
                     "url": "Điểm cuối của webhook sẽ được thực thi"
                 },
                 "modal": {
                     "title": "Thiết lập Webhook",
                     "description": "Tại đây, bạn sửa đổi những sự kiện mà webhook được kích hoạt.",
-                    "use_plain_text_label": "Giảm số lượng định dạng trong nội dung bài đăng",
+                    "use_plain_text_label": "Giảm số lượng định dạng trong nội dung bài viết",
                     "max_post_content_length_label": "Độ dài tối đa nội dung bài viết",
-                    "max_post_content_length_help": "Đặt một số để giới hạn nội dung bài đăng trong tất cả các sự kiện liên quan đến bài đăng. Thay đổi thành 0 hoặc không có gì để xóa giới hạn.",
+                    "max_post_content_length_help": "Nhập độ dài để giới hạn nội dung bài viết trong tất cả các sự kiện liên quan đến bài viết. Sửa thành 0 hoặc để trống để không giới hạn.",
                     "extra_text_label": "Văn bản bổ sung",
                     "extra_text_help": "Văn bản bổ sung để đưa vào webhook đã gửi.",
                     "group_label": "Nhóm",
@@ -78,7 +78,7 @@
                     "flarum": {
                         "discussion": {
                             "title": "Cuộc thảo luận Flarum",
-                            "started": "Đã đăng thảo luận",
+                            "started": "Đã tạo",
                             "renamed": "=> fof-webhooks.ref.renamed",
                             "hidden": "=> fof-webhooks.ref.hidden",
                             "restored": "=> fof-webhooks.ref.restored",
