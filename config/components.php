@@ -596,7 +596,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/matteocontrini/flarum-imgur-upload/v3.9.1/locale/en.yml',
 	],
 	'michaelbelgium-discussion-views' => [
-		'tag' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-discussion-views/v7.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-discussion-views/v7.0.1/locale/en.yml',
 	],
 	'michaelbelgium-profile-views' => [
 		'tag' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-profile-views/v6.0.0/locale/en.yml',
