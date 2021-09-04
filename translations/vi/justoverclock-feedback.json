@@ -2,18 +2,18 @@
     "justoverclock-feedback": {
         "admin": {
             "contactmail": "Địa chỉ email để gửi phản hồi tới",
-            "feedback1-title": "",
-            "feedback1-title-help": "",
-            "feedback1-icon": "",
-            "feedback1-icon-help": "",
-            "feedback2-title": "",
-            "feedback2-title-help": "",
-            "feedback2-icon": "",
-            "feedback2-icon-help": "",
-            "feedback3-title": "",
-            "feedback3-title-help": "",
-            "feedback3-icon": "",
-            "feedback3-icon-help": "",
+            "feedback1-title": "Phản hồi loại 1",
+            "feedback1-title-help": "Tuỳ chỉnh tên \"Phản hồi loại 1\"",
+            "feedback1-icon": "Biểu tượng cho Phản hồi loại 1",
+            "feedback1-icon-help": "Nhập một biểu tượng như \"⚠️, ☎️, ✏️\" - Windows (Win + .) MacOS 🌐",
+            "feedback2-title": "Phản hồi loại 2",
+            "feedback2-title-help": "Tuỳ chỉnh tên \"Phản hồi loại 2\"",
+            "feedback2-icon": "Biểu tượng cho Phản hồi loại 2",
+            "feedback2-icon-help": "Nhập một biểu tượng như \"⚠️, ☎️, ✏️\" - Windows (Win + .) MacOS 🌐",
+            "feedback3-title": "Phản hồi loại 3",
+            "feedback3-title-help": "Tuỳ chỉnh tên \"Phản hồi loại 3\"",
+            "feedback3-icon": "Biểu tượng cho Phản hồi loại 3",
+            "feedback3-icon-help": "Nhập một biểu tượng như \"⚠️, ☎️, ✏️\" - Windows (Win + .) MacOS 🌐",
             "contactdesc": "Bạn phải điền vào phần này để kích hoạt hoàn toàn tiện ích Phản hồi",
             "collect-email": "Hiển thị trường địa chỉ email (tùy chọn) cho người dùng",
             "collect-email-help": "Khi được bật, người dùng có thể thêm địa chỉ email của họ vào phản hồi",
@@ -25,8 +25,8 @@
             "background-color-help": "Mã màu hệ lục phân để sử dụng làm màu nền, tức là '#fff'",
             "font-color": "Màu phông chữ Widget",
             "font-color-help": "Mã màu hệ lục phân để sử dụng làm màu phông chữ, tức là '#000'",
-            "box-title": "",
-            "box-title-help": ""
+            "box-title": "Tiêu đề hộp",
+            "box-title-help": "Đặt tiêu đề widget phản hồi bật lên (cũ là \"Phản hồi Flarum\")"
         },
         "api": {
             "validation_error": "Bạn không thể gửi phản hồi khi nội dung trống"
@@ -36,15 +36,15 @@
             "feedback-widget": {
                 "title": "Phản hồi Flarum",
                 "placeholder": "Nhập phản hồi của bạn vào đây",
-                "email-placeholder": "",
+                "email-placeholder": "Email (tuỳ chọn)",
                 "submit": "Gửi",
                 "back": "Quay lại",
-                "contact-text": "Hoặc gửi email",
+                "contact-text": "Hoặc gửi email!",
                 "type-message": "Bạn có phản hồi gì không?",
                 "success": "Cảm ơn!👊",
-                "failed-title": "Úi, có lỗi xảy ra!",
+                "failed-title": "Úi, có lỗi xảy ra",
                 "failed-message": "Vui lòng thử lại. Nếu điều này tiếp tục xảy ra, hãy thử gửi email khác.",
-                "email-field-placeholder": "",
+                "email-field-placeholder": "Email (trường tuỳ chọn)",
                 "types": {
                     "general": "Phản hồi chung",
                     "idea": "Tôi có ý tưởng",
@@ -54,7 +54,7 @@
             "email": {
                 "guest": "người dùng ẩn danh",
                 "subject": "Phản hồi",
-                "body": "Phản hồi {type} mới từ {user}!\n\n{message}\n\nEmail: {email}\nUrl: {url}"
+                "body": "Phản hồi {type} mới từ {user}!\n\n{message}\n\nEmail: {email}\nUrl: {url}\n"
             }
         }
     }
