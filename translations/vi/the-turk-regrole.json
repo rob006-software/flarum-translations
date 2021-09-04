@@ -2,29 +2,29 @@
     "the-turk-regrole": {
         "admin": {
             "settings": {
-                "allowed_roles_label": "",
-                "allowed_roles_text": "",
-                "other_options_heading": "",
-                "allow_multiple_roles_label": "",
-                "force_users_label": "",
-                "force_users_text": ""
+                "allowed_roles_label": "Các vai trò được phép",
+                "allowed_roles_text": "Chọn vai trò mà người dùng được phép gán cho mình.",
+                "other_options_heading": "Tuỳ chọn khác",
+                "allow_multiple_roles_label": "Cho phép người dùng được gán nhiều vai trò",
+                "force_users_label": "Buộc người dùng gán ít nhất một vai trò cho chính họ",
+                "force_users_text": "Nếu được bật, những người dùng chưa có bất kỳ vai trò nào được chọn ở trên sẽ bị tạm ngưng và sẽ không thể sử dụng diễn đàn cho đến khi họ chỉ định vai trò cho chính họ (những người dùng có quyền chỉnh sửa nhóm người dùng được ngoại trừ)."
             }
         },
         "forum": {
-            "suspended_temporarily_message": "",
-            "choose_role_button_label": "",
-            "required_role_message": "",
+            "suspended_temporarily_message": "Chúng tôi đã tạm thời tạm ngưng tài khoản của bạn cho đến khi bạn chọn một vai trò.",
+            "choose_role_button_label": "=> the-turk-regrole.ref.choose_a_role",
+            "required_role_message": "Bạn phải chọn một vai trò.",
             "choose_role_modal": {
-                "choose_role_heading": "",
-                "choose_role_text": "",
-                "save_button": ""
+                "choose_role_heading": "=> the-turk-regrole.ref.choose_a_role",
+                "choose_role_text": "Vui lòng chọn vai trò để tiếp tục truy cập diễn đàn.",
+                "save_button": "=> core.ref.save_changes"
             },
             "sign_up_modal": {
-                "choose_role_heading": ""
+                "choose_role_heading": "=> the-turk-regrole.ref.choose_a_role"
             }
         },
         "ref": {
-            "choose_a_role": ""
+            "choose_a_role": "Chọn vai trò"
         }
     }
 }
