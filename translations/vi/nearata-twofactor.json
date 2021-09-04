@@ -2,22 +2,22 @@
     "nearata-twofactor": {
         "admin": {
             "settings": {
-                "generate_backups": ""
+                "generate_backups": "Tạo mã sao lưu."
             }
         },
         "forum": {
-            "invalid_twofa_code": "",
-            "invalid_twofa_setup": "",
+            "invalid_twofa_code": "Mã hai yếu tố không hợp lệ.",
+            "invalid_twofa_setup": "Mật khẩu hoặc mật mã không hợp lệ.",
             "log_in_modal": {
-                "submit_button": "",
-                "otp_placeholder": "",
-                "title": ""
+                "submit_button": "Đăng nhập",
+                "otp_placeholder": "Mật mã hai yếu tố",
+                "title": "Hai yếu tố"
             },
-            "setup_button": "",
+            "setup_button": "Hai yếu tố",
             "setup_modal": {
                 "backups": {
                     "copy_button": "",
-                    "download_button": "",
+                    "download_button": "Tải xuống",
                     "download_file_format": "",
                     "modal_message": ""
                 },
