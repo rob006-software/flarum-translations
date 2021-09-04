@@ -1,37 +1,37 @@
 {
     "nyu8-email-filter": {
         "admin": {
-            "general": "",
-            "custom_failure_message_label": "",
-            "custom_failure_message_hint": "",
-            "rule_settings": "",
-            "name_placeholder": "",
-            "invalid_regular_expression": "",
+            "general": "Chung",
+            "custom_failure_message_label": "Thông báo lỗi tùy chỉnh",
+            "custom_failure_message_hint": "Thông báo lỗi tùy chỉnh sẽ được hiển thị khi email không hợp lệ. Sẽ hiển thị thông báo lỗi mặc định nếu mục này được để trống.",
+            "rule_settings": "Cài đặt quy tắc",
+            "name_placeholder": "Tên quy tắc",
+            "invalid_regular_expression": "Biểu thức chính quy không hợp lệ",
             "whitelist_literal": {
-                "label": "",
-                "description": "",
-                "placeholder": ""
+                "label": "Danh sách trắng",
+                "description": "Email chính xác vào danh sách trắng",
+                "placeholder": "Gửi email đến danh sách trắng..."
             },
             "whitelist_regex": {
-                "label": "",
-                "description": "",
-                "placeholder": ""
+                "label": "Biểu thức chính quy danh sách trắng",
+                "description": "Gửi biểu thức chính quy qua email vào danh sách trắng",
+                "placeholder": "Biểu thức chính quy cho danh sách trắng..."
             },
             "blacklist_literal": {
-                "label": "",
-                "description": "",
-                "placeholder": ""
+                "label": "Danh sách đen",
+                "description": "Email chính xác vào danh sách đen",
+                "placeholder": "Gửi email vào danh sách đen..."
             },
             "blacklist_regex": {
-                "label": "",
-                "description": "",
-                "placeholder": ""
+                "label": "Biểu thức chính quy danh sách đen",
+                "description": "Gửi e-mail các biểu thức chính quy vào danh sách đen",
+                "placeholder": "Biểu thức chính quy vào danh sách đen..."
             }
         },
         "forum": {
-            "generic_exception": "",
-            "blacklist_exception": "",
-            "whitelist_exception": ""
+            "generic_exception": "Đã xảy ra lỗi. Liên hệ với quản trị viên của cộng đồng này.",
+            "blacklist_exception": "Email này hoặc miền của nó nằm trong danh sách đen của cộng đồng này.",
+            "whitelist_exception": "Email này hoặc miền của nó không có trong danh sách trắng của cộng đồng này."
         }
     }
 }
