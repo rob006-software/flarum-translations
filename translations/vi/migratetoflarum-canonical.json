@@ -3,11 +3,11 @@
         "admin": {
             "settings": {
                 "step": {
-                    "how_to": "",
-                    "check_config_url": "",
-                    "admin_on_canonical": "",
-                    "enable_temporary": "",
-                    "enable_permanent": "",
+                    "how_to": "Cách bật chuyển hướng chuẩn",
+                    "check_config_url": "Kiểm tra xem url được khai báo trong config.php có phải là URL chuẩn ưa thích của bạn không (hiện tại: {url})",
+                    "admin_on_canonical": "Truy cập bảng quản trị thông qua URL chuẩn",
+                    "enable_temporary": "Bật chuyển hướng tạm thời và kiểm tra mọi thứ hoạt động",
+                    "enable_permanent": "Bật chuyển hướng vĩnh viễn",
                     "suggestions": "",
                     "use_https": "",
                     "use_hsts": ""
