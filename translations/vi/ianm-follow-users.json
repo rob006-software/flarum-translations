@@ -8,76 +8,77 @@
         "forum": {
             "profile_link": "=> ianm-follow-users.lib.following_link",
             "profile_page": {
-                "no_following": ""
+                "no_following": "Hiện bạn không theo dõi người nào."
             },
             "user_controls": {
-                "follow_button": "Theo dõi",
-                "unfollow_button": "Bỏ theo dõi",
+                "follow_button": "=> ianm-follow-users.lib.follow",
+                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type",
                 "follow_confirmation": "Bạn có chắc chắn muốn theo dõi người dùng này không?",
                 "unfollow_confirmation": "Bạn có chắc chắn muốn bỏ theo dõi người dùng này không?"
             },
             "settings": {
                 "notify_new_follower_label": "Ai đó theo dõi tôi",
                 "notify_new_unfollower_label": "Ai đó ngừng theo dõi tôi",
-                "notify_new_discussion_label": "Ai đó tôi đang theo dõi đăng cuộc thảo luận",
-                "notify_new_post_label": "Ai đó tôi đang theo dõi đăng một bài viết trong cuộc thảo luận hiện có",
-                "block_follow": "Ngăn người dùng theo dõi tôi"
+                "notify_new_discussion_label": "Ai đó đang theo dõi tôi tạo cuộc thảo luận",
+                "notify_new_post_label": "Ai đó đang theo dõi tôi đăng một bài viết trong cuộc thảo luận hiện có",
+                "block_follow": "Chặn người dùng theo dõi tôi"
             },
             "index": {
-                "follow_tag_button": "Theo dõi",
-                "unfollow_tag_button": "Bỏ theo dõi"
+                "follow_tag_button": "=> ianm-follow-users.lib.follow",
+                "unfollow_tag_button": "=> ianm-follow-users.lib.change_follow_type"
             },
             "notifications": {
-                "new_discussion_text": "{username} đã đăng cuộc thảo luận mới",
-                "new_post_text": "{username} đã đăng một bài viết trong một cuộc thảo luận",
+                "new_discussion_text": "{username} đã tạo cuộc thảo luận mới",
+                "new_post_text": "{username} đã đăng bài viết trong cuộc thảo luận",
                 "new_follower_text": "{username} đã theo dõi bạn",
-                "new_unfollower_text": "{username} đã ngừng theo dõi bạn"
+                "new_unfollower_text": "{username} đã bỏ theo dõi bạn"
             },
             "badge": {
-                "label": "Người dùng đã theo dõi",
-                "label.follow": "",
-                "label.lurk": ""
+                "label": {
+                    "follow": "Cuộc thảo luận đang theo dõi",
+                    "lurk": "Đang theo dõi tất cả"
+                }
             },
             "filter": {
                 "following": "Người dùng đã theo dõi"
             },
             "modals": {
                 "select_follow_level": {
-                    "title": "",
-                    "description": "",
-                    "follow_levels_heading": "",
-                    "follow_select_label": "",
-                    "no_user_attr_provided_err": "",
-                    "no_user_attr_provided_err_debug": "",
-                    "save_btn": "",
-                    "cancel_btn": ""
+                    "title": "Chọn cấp độ theo dõi cho {username}",
+                    "description": "Chọn cách bạn muốn theo dõi <em>{username}</em>.",
+                    "follow_levels_heading": "Cấp độ theo dõi",
+                    "follow_select_label": "Kiểu theo dõi",
+                    "no_user_attr_provided_err": "Rất tiếc, đã xảy ra sự cố khi mở modal này.",
+                    "no_user_attr_provided_err_debug": "Không có thuộc tính `user` nào được truyền sang modal SelectFollowUserLevel khi tạo. Modal thức không thể hiển thị.",
+                    "save_btn": "Lưu lại",
+                    "cancel_btn": "Huỷ"
                 }
             }
         },
         "email": {
             "new_discussion_by_user_subject": "[Theo dõi người dùng] {title}",
-            "new_follower_subject": "[Theo dõi người dùng] Bạn có một người theo dõi mới",
+            "new_follower_subject": "[Theo dõi người dùng] Bạn có một người theo dõi mới!",
             "new_post_subject": "[Theo dõi người dùng] Bài viết mới trong {title}",
             "new_discussion_by_user_body": "Hey {recipient_display_name},\n\n{user_display_name} đã đăng một cuộc thảo luận: {discussion_title}\n\nĐể xem cuộc thảo luận mới, hãy xem liên kết sau:\n\n{discussion_url}\n\n---\n\n{post_content}\n",
-            "new_follower_body": "Chào {recipient_display_name},\n\n{follower_display_name} đã bắt đầu theo dõi bạn, vì vậy họ sẽ được thông báo khi bạn bắt đầu một cuộc thảo luận mới.\n\nĐể xem hồ sơ của họ, hãy xem liên kết sau:\n\n{profile_url}\n",
-            "new_post_body": "Chào {recipient_display_name},\n\n{user_display_name} đã đăng trong một cuộc thảo luận: {discussion_title}\n\nĐể xem hoạt động mới, hãy xem liên kết sau:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nBạn sẽ không nhận được thêm bất kỳ thông báo nào về cuộc thảo luận này cho đến khi bạn được cập nhật.\n"
+            "new_follower_body": "Chào {recipient_display_name},\n\n{follower_display_name} đã bắt đầu theo dõi bạn, vì vậy họ sẽ được thông báo khi bạn bắt đầu một cuộc thảo luận mới.\n\nĐể xem trang cá nhân của họ, hãy xem liên kết sau:\n\n{profile_url}\n",
+            "new_post_body": "Chào {recipient_display_name},\n\n{user_display_name} đã đăng bài trong một cuộc thảo luận: {discussion_title}\n\nĐể xem hoạt động mới, hãy xem liên kết sau:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nBạn sẽ không nhận được thêm bất kỳ thông báo nào về cuộc thảo luận này cho đến khi bạn được cập nhật.\n"
         },
         "lib": {
             "following_link": "Người dùng đã theo dõi",
-            "follow": "",
-            "change_follow_type": "",
+            "follow": "Theo dõi",
+            "change_follow_type": "Thay đổi kiểu theo dõi",
             "follow_levels": {
                 "unfollow": {
-                    "name": "",
-                    "description": ""
+                    "name": "Không theo dõi",
+                    "description": "Không nhận bất kỳ thông báo nào về hoạt động của <em>{username}</em>.\n"
                 },
                 "follow": {
-                    "name": "",
-                    "description": ""
+                    "name": "Theo dõi cuộc thảo luận",
+                    "description": "Nhận thông báo khi <em>{username}</em> tạo cuộc thảo luận mới.\n"
                 },
                 "lurk": {
-                    "name": "",
-                    "description": ""
+                    "name": "Theo dõi tất cả",
+                    "description": "Nhận thông báo khi <em>{username}</em> tạo cuộc thảo luận mới hoặc đăng bài trong bất kỳ cuộc thảo luận nào\n"
                 }
             }
         }
