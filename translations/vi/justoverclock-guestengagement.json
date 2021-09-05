@@ -1,25 +1,25 @@
 {
     "flarum-ext-guestengagement": {
         "forum": {
-            "signupbtn": "",
-            "hello": "",
-            "whenucreate": "",
-            "uwillreceive": "",
-            "hellops": "",
-            "whenucreateps": "",
-            "uwillreceiveps": ""
+            "signupbtn": "Đăng ký",
+            "hello": "Xin chào! Bạn có vẻ quan tâm đến diễn đàn này, nhưng bạn chưa đăng ký tài khoản.",
+            "whenucreate": "Khi bạn tạo tài khoản, chúng tôi sẽ có thể nhớ chính xác những gì bạn đã đọc, vì vậy bạn có thể tiếp tục chính xác nơi bạn đã dừng lại.",
+            "uwillreceive": "Bạn sẽ nhận được thông báo, tại đây hoặc qua email, khi ai đó trả lời bạn. Bạn cũng có thể \"Thích\" để thể hiện sự đánh giá cao của bạn.",
+            "hellops": "Xin chào! Bạn có vẻ quan tâm đến bài viết này!",
+            "whenucreateps": "Khi bạn tạo tài khoản, chúng tôi sẽ có thể nhớ chính xác những gì bạn đã đọc và bạn sẽ nhận được",
+            "uwillreceiveps": "thông báo, tại đây hoặc qua email, khi ai đó trả lời bạn. Bạn cũng có thể \"Thích\" để thể hiện sự đánh giá cao của bạn."
         },
         "admin": {
-            "afterxpost": "",
-            "afterxpostdesc": "",
-            "autohide": "",
-            "autohidedesc": "",
-            "changetextbox": "",
-            "changetextboxdesc": "",
-            "maintitle": "",
-            "maintitledesc": "",
-            "enablealbox": "",
-            "enablepostbox": ""
+            "afterxpost": "Hiển thị hộp cảnh báo Sau khi đăng X",
+            "afterxpostdesc": "chấp nhận số, mặc định là 0 (hộp sẽ được hiển thị trên đầu các luồng bài viết)",
+            "autohide": "Tự động ẩn hộp sau X giây",
+            "autohidedesc": "sử dụng mili giây, vd: 5 giây bằng 5000",
+            "changetextbox": "Thay đổi chữ cho hộp",
+            "changetextboxdesc": "Tại đây bạn có thể đặt văn bản cho hộp cảnh báo nằm GIỮA CÁC BÀI VIẾT",
+            "maintitle": "Thay đổi TIÊU ĐỀ hộp",
+            "maintitledesc": "Tại đây bạn có thể đặt Tiêu đề cho hộp cảnh báo nằm giữa CÁC BÀI VIẾT",
+            "enablealbox": "Bật/Tắt Hộp cảnh báo trên trang chủ",
+            "enablepostbox": "Bật/Tắt hộp \"Giữa bài viết\""
         }
     }
 }
