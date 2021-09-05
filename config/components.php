@@ -170,7 +170,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/datitisev-backup.yml',
 	],
 	'datitisev-discussion-agree-message' => [
-		'tag' => 'https://raw.githubusercontent.com/datitisev/flarum-discussion-agree-message/1.0.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/datitisev/flarum-discussion-agree-message/1.0.2/resources/locale/en.yml',
 	],
 	'datitisev-maintenance' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/datitisev-maintenance.yml',
