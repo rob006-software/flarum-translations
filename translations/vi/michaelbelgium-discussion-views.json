@@ -10,25 +10,25 @@
     "michaelbelgium-discussion-views": {
         "forum": {
             "modal_resetviews": {
-                "title": "Đặt lại số lượt xem thảo luận",
-                "submit_button": "Vâng, loại bỏ tất cả",
-                "label": "Điều này sẽ xóa {count} lượt xem của cuộc thảo luận này. Tiếp tục?|Điều này sẽ xóa {count} lượt xem của cuộc thảo luận này. Tiếp tục?"
+                "title": "Đặt lại số lượt xem cuộc thảo luận",
+                "submit_button": "Có, xoá tất cả",
+                "label": "{count, plural, one {Điều này sẽ xoá {count} lượt xem của cuộc thảo luận này. Tiếp tục?} other {Điều này sẽ xoá {count} lượt xem của cuộc thảo luận này. Tiếp tục?}}"
             },
             "discussion_controls": {
                 "resetviews_button": "Đặt lại lượt xem"
             },
             "viewlist": {
-                "title": "Người xem mới nhất",
-                "guest": ""
+                "title": "Người xem gần đây",
+                "guest": "Khách"
             }
         },
         "admin": {
             "permissions": {
-                "reset_views_label": "Đặt lại lượt xem thảo luận",
-                "view_number_label": "Xem lượt xem thảo luận"
+                "reset_views_label": "Đặt lại lượt xem",
+                "view_number_label": "Xem lượt xem"
             },
             "settings": {
-                "title": "Cài đặt lượt xem thảo luận",
+                "title": "Thiết lập lượt xem cuộc thảo luận",
                 "track_unique_label": "Theo dõi lượt xem",
                 "abbr_numbers_label": "Viết tắt số lượt xem",
                 "show_filter_label": "Cho phép (hủy) trường sắp xếp phổ biến",
