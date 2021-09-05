@@ -2,16 +2,16 @@
     "blomstra-realtime": {
         "forum": {
             "push": {
-                "discussion-list-new-activity": ""
+                "discussion-list-new-activity": "{count, plural, one {Hiển thị # cuộc thảo luận} other {Hiển thị # cuộc thảo luận}}"
             },
             "typing-indicator": {
-                "people-are-typing": "",
-                "no-activity": ""
+                "people-are-typing": "{number, plural, one {# người đang viết} other {# người đang viết}}",
+                "no-activity": "Không có ai đang viết"
             }
         },
         "admin": {
             "permission": {
-                "view-who-types": ""
+                "view-who-types": "Xem ai đang viết"
             }
         }
     }
