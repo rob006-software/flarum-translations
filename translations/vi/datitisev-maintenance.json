@@ -2,46 +2,46 @@
     "datitisev-maintenance": {
         "admin": {
             "dashboard": {
-                "enable_maintenance_mode_button": "",
-                "disable_maintenance_mode_button": ""
+                "enable_maintenance_mode_button": "Bật chế độ bảo trì",
+                "disable_maintenance_mode_button": "Tắt chế độ bảo trì"
             },
             "settings": {
-                "title": "",
-                "settings_notice": "",
-                "allow_bypass_label": "",
-                "allow_bypass_hint": "",
-                "prefer_db_label": "",
-                "prefer_db_hint": "",
-                "active_label": "",
-                "disable_admin_label": "",
-                "disable_api_label": "",
-                "title_label": "",
-                "message_label": "",
-                "error_page_file_label": "",
-                "error_page_file_hint": "",
-                "error_page_label": "",
-                "error_page_hint": ""
+                "title": "Chế độ bảo trì",
+                "settings_notice": "Các cài đặt này có thể không phải là cài đặt hiện tại. Đảm bảo rằng chúng không bị ghi đè trong <code>config.php</code>.",
+                "allow_bypass_label": "Cho phép bỏ qua diễn đàn và bảo trì API bằng cách sử dụng quyền",
+                "allow_bypass_hint": "Sẽ không bỏ qua nếu không truy cập được DB. Áp dụng cho forum & API (trừ khi API bị tắt hoàn toàn thông qua <code>config.php</code>). Nếu bị tắt, quản trị viên vẫn có thể truy cập API (trừ khi API bị vô hiệu hóa hoàn toàn) để ngăn bạn tự khóa.",
+                "prefer_db_label": "Ưu tiên cài đặt DB hơn cài đặt <code>config.php</code>",
+                "prefer_db_hint": "Thông thường, các giá trị trong <code>config.php</code> ghi đè các giá trị được thấy ở đây. Bật tùy chọn này để làm cho các tùy chọn này ghi đè các tùy chọn được tìm thấy trong tệp cấu hình - vì vậy chúng chỉ được sử dụng trong trường hợp không truy cập được DB.",
+                "active_label": "Trạng thái chế độ bảo trì",
+                "disable_admin_label": "Tắt quyền truy cập của quản trị viên",
+                "disable_api_label": "Tắt tất cả quyền truy cập API",
+                "title_label": "Tiêu đề trang lỗi",
+                "message_label": "Thông báo trang lỗi",
+                "error_page_file_label": "Đường dẫn tệp trang lỗi",
+                "error_page_file_hint": "Đường dẫn từ root Flarum - nơi chứa <code>vendor</code> và <code> storage </code>.",
+                "error_page_label": "Trang lỗi HTML/Blade",
+                "error_page_hint": "Bạn có thể sử dụng $app, $translator, $settings, $title, and $message với blade."
             },
             "permissions": {
-                "allow_bypass_maintenance_label": ""
+                "allow_bypass_maintenance_label": "Bỏ qua chế độ bảo trì (cài đặt phải được bật)"
             }
         },
         "lib": {
-            "maintenance_active_message": "",
-            "maintenance_active_not_db_message": "",
-            "maintenance_active_disabled_api_message": ""
+            "maintenance_active_message": "Diễn đàn này hiện đang được bảo trì.",
+            "maintenance_active_not_db_message": "Chế độ bảo trì được bật thông qua <code>config.php</code>.",
+            "maintenance_active_disabled_api_message": "API hiện đã bị tắt đối với tất cả mọi người."
         },
         "views": {
             "error": {
-                "title": "",
-                "message": ""
+                "title": "Bảo trì",
+                "message": "Chúng tôi hiện đang thực hiện một số bảo trì. Chúng tôi sẽ sớm trở lại trực tuyến!"
             }
         }
     },
     "core": {
         "lib": {
             "error": {
-                "maintenance_message": ""
+                "maintenance_message": "Diễn đàn hiện đang trong chế độ bảo trì."
             }
         }
     }
