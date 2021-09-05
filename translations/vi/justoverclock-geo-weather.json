@@ -1,15 +1,15 @@
 {
     "geo-weather": {
         "forum": {
-            "unknown": "",
-            "temp": "",
-            "not-supported": ""
+            "unknown": "không xác định",
+            "temp": "0°",
+            "not-supported": "Vị trí địa lý không được trình duyệt này hỗ trợ."
         },
         "admin": {
-            "apiKey": "",
-            "apiKey-help": "",
-            "lang": "",
-            "lang-help": ""
+            "apiKey": "Mã khoá API",
+            "apiKey-help": "Dán mã khoá API miễn phí bạn đã tạo tại https://openweathermap.org/api",
+            "lang": "Chọn ngôn ngữ hiển thị (chỉ 1)",
+            "lang-help": "trong trường này, nhập tiền tố ngôn ngữ của bạn (ví dụ: vi, fr, en), kiểm tra tiền tố ngôn ngữ của bạn tại <strong>https://openweathermap.org/api/one-call-api#multi</strong>"
         }
     }
 }
