@@ -682,6 +682,9 @@ return [
 	'sycho-profile-cover' => [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-profile-cover/v1.3.0/resources/locale/en.yml',
 	],
+	'syqmk-reply-to-see' => [
+		'tag' => 'https://raw.githubusercontent.com/shaoyuansy/flarum-ext-reply2see/v1.0/resources/locale/en.yml',
+	],
 	'the-turk-diff' => [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-diff/1.1.1/locale/en.yml',
 	],
