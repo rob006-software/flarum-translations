@@ -2,30 +2,30 @@
     "fof-pages": {
         "admin": {
             "edit_page": {
-                "content_label": "",
-                "content_placeholder": "",
-                "delete_page_button": "ลบหน้า",
+                "content_label": "=> fof-pages.ref.content",
+                "content_placeholder": "=> fof-pages.ref.content",
+                "delete_page_button": "ลบหน้านี้",
                 "delete_page_confirmation": "คุณเเน่ใจที่ต้องการจะลบหน้านี้ไหม?",
                 "hidden_label": "บันทึกเป็นเเบบร่าง",
                 "restricted_label": "จำกัดการเข้าถึง (สามารถตั้งค่าการเข้าถึงที่เเทบการอนุญาติได้)",
                 "html_label": "เปิดการใช้งาน HTML",
                 "set_as_home_page_confirmation": "คุณเเน่ใจที่ต้องการเซ็ตหน้านี้เป็นหน้าหลักหรือไม่?",
                 "set_as_home_page_done": "อัพเดทหน้าหลักเเล้ว",
-                "slug_label": "",
-                "slug_placeholder": "",
-                "submit_button": "",
-                "title": "",
-                "title_label": "",
-                "title_placeholder": "",
-                "url_label": "",
-                "url_placeholder": ""
+                "slug_label": "=> fof-pages.ref.slug",
+                "slug_placeholder": "=> fof-pages.ref.slug",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> fof-pages.ref.create_page",
+                "title_label": "=> fof-pages.ref.title",
+                "title_placeholder": "=> fof-pages.ref.title",
+                "url_label": "=> fof-pages.ref.url",
+                "url_placeholder": "=> fof-pages.ref.url"
             },
             "pages": {
-                "create_button": ""
+                "create_button": "=> fof-pages.ref.create_page"
             },
             "pages_list": {
                 "empty_text": "เหมือนจะไม่มีหน้าที่สร้างเลยนะ",
-                "title": ""
+                "title": "=> fof-pages.ref.title"
             },
             "permissions": {
                 "restricted": "ดูหน้าที่ถูกจำกัด"
