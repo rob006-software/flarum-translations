@@ -14,7 +14,7 @@
         "forum": {
             "flag_post": {
                 "confirmation_message": "ขอบคุณสำหรับการรายงาน ผู้ดูเเลขอวเราจะมาเช็คเร็วๆ นี้",
-                "dismiss_button": "",
+                "dismiss_button": "=> core.ref.okay",
                 "reason_details_placeholder": "รายละเอียดเพิ่มเติม (เเล้วเเต่)",
                 "reason_inappropriate_label": "ไม่เหมาะสม",
                 "reason_inappropriate_text": "โพสต์นี้มีเนื้อหาที่ทำให้ไม่พอใจ ใช้ในทางที่ผิด หรือ ฝ่าฝืน <a>กฎการใช้งานคอมมูนิตี้</a>",
@@ -24,14 +24,14 @@
                 "reason_other_label": "อื่นๆ (กรุณาระบุ)",
                 "reason_spam_label": "สเเปม",
                 "reason_spam_text": "โพสต์นี้คือการโฆษาณา",
-                "submit_button": "",
-                "title": ""
+                "submit_button": "=> flarum-flags.ref.flag_post",
+                "title": "=> flarum-flags.ref.flag_post"
             },
             "flagged_posts": {
                 "empty_text": "ไม่มีรายงาน",
                 "item_text": "{usernane} ใน <em>{discussion}</em>",
-                "title": "",
-                "tooltip": ""
+                "title": "=> flarum-flags.ref.flagged_posts",
+                "tooltip": "=> flarum-flags.ref.flagged_posts"
             },
             "post": {
                 "dismiss_flag_button": "ไม่สนใจการรายงาน",
