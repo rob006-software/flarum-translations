@@ -2,34 +2,34 @@
     "fof-best-answer": {
         "admin": {
             "permissions": {
-                "best_answer": "",
-                "best_answer_not_own_discussion": ""
+                "best_answer": "เลือกคำตอบที่ดีที่สุด (ของตนเอง)",
+                "best_answer_not_own_discussion": "เลือกคำตอบที่ดีที่สุด (ไม่ใช่ของตนเอง)"
             },
             "settings": {
                 "label": {
-                    "general": "",
-                    "reminders": "",
-                    "advanced": "",
-                    "reminders_notice": ""
+                    "general": "ทั่วไป",
+                    "reminders": "เตือนความจำ",
+                    "advanced": "ขั้นสูง",
+                    "reminders_notice": "สำหรับเตือนความจำเพื่อให้สามารถใช้งานได้คุณต้องตั้งค่าตรางเวลาของ Flarum ให้ถูกต้อง"
                 },
-                "allow_select_own_post": "",
-                "allow_select_own_post_help": "",
-                "select_best_answer_reminder_days": "",
-                "select_best_answer_reminder_days_help": "",
-                "schedule_on_one_server": "",
-                "schedule_on_one_server_help": "",
-                "schedule_stop_overnight": "",
-                "schedule_stop_overnight_help": "",
-                "schedule_log_output": "",
-                "use_alt_ui": "",
-                "use_alt_ui_help": "",
-                "documentation": "",
-                "introduction": "",
+                "allow_select_own_post": "เลือกโพสต์ของตนเอง",
+                "allow_select_own_post_help": "อนุญาติให้เลือกโพสต์ของตนเองในการสนทนาเป็นคำตอบที่ดีที่สุด",
+                "select_best_answer_reminder_days": "ความถี่ในการเตือน",
+                "select_best_answer_reminder_days_help": "ส่งการเตือนความจำตามวันที่กำหนดไว้ เเละ ตั้งเป็น 0 เพื่อปิดการใช้งาน",
+                "schedule_on_one_server": "ใช้  'onOneServer()' สำหรับตรางการทำงาน",
+                "schedule_on_one_server_help": "ต้องการ Redis/Memcache",
+                "schedule_stop_overnight": "ไม่ส่งการเเจ้งเตือนในเวลานอน",
+                "schedule_stop_overnight_help": "ในระหว่างเวลา 3 ทุ่มถึง 8โมงเช้า",
+                "schedule_log_output": "เพิ่มผลการทำงานของตรางเวลาไปยังบันทึก",
+                "use_alt_ui": "ใช้ปุ่มทางเลือก",
+                "use_alt_ui_help": "ปุ่มเลือกคำตอบที่ดีที่อย่างส่วนล่างของโพสต์",
+                "documentation": "เอกสารประกอบการใช้งาน",
+                "introduction": "เปิดใช้แท็กที่อนุญาติให้ใช้คำตอบที่ดีที่สุดใน <code>flarum/tags</code> และเลือกว่าแท็กใดอนุญาติการเตือนความจำ เมื่อแท็กเปิดใช้งานคำตอบที่ดีที่สุด ให้กำหนดสิทธิ์ให้กับแต่ละกลุ่มผู้ใช้ที่อาจกำหนดคำตอบ (การสนทนาของตัวเอง การสนทนาใดๆ) สิทธิ์อาจกำหนดได้ทุกคน (สำหรับแท็กที่มีคำตอบที่ดีที่สุด) หรือตามแต่ละแท็ก\n",
                 "remind_tag_ids": ""
             },
             "edit_tag": {
-                "qna_label": "",
-                "reminders": ""
+                "qna_label": "เปิดใช้งานการเลือกคำตอยที่ดีที่สุดในเเท็กนี้",
+                "reminders": "ส่งการเตือนความจำสำหรับคำตอบที่ดีที่สุดในเเท็กนี้"
             }
         },
         "forum": {
