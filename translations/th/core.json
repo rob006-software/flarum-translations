@@ -469,7 +469,7 @@
                 "generic_message": "อ๊ะ! บางอย่างผิดพลาด โปรดโหลดหน้าเว็บและลองอีกครั้ง",
                 "missing_dependencies_message": "Cannot enable {extension} until the following dependencies are enabled: {extensions}",
                 "not_found_message": "ไม่พบแหล่งข้อมูลที่ร้องขอ",
-                "payload_too_large_message": "",
+                "payload_too_large_message": "คำขอนี้มากเกินไป",
                 "permission_denied_message": "คุณไม่ได้รับอนุญาตให้ทำเช่นนั้น",
                 "rate_limit_exceeded_message": "คุณกำลังทำการอย่างรวดเร็วเกินไป โปรดลองอีกครั้งหลังจากนี้สักครู่"
             },
@@ -482,8 +482,8 @@
             },
             "series": {
                 "glue_text": ", ",
-                "three_text": "{first}, {second}, and {third}",
-                "two_text": "{first} and {second}"
+                "three_text": "{first}, {second} เเละ {third}",
+                "two_text": "{first} เเละ {second}"
             },
             "username": {
                 "deleted_text": "[deleted]"
@@ -493,22 +493,22 @@
             "admin": {
                 "extensions": {
                     "caption": "",
-                    "disable": "",
-                    "empty": "",
-                    "enable": "",
-                    "name": "",
-                    "package_name": "",
-                    "version": ""
+                    "disable": "ปิดการใช้งาน",
+                    "empty": "ไม่มีส่วนขยายที่ติดตั้ง",
+                    "enable": "เปิดใช้งาน",
+                    "name": "ชื่อส่วนขยาย",
+                    "package_name": "ชื่อเเพ็คเกจ",
+                    "version": "เวอร์ชั่น"
                 },
                 "info": {
-                    "caption": ""
+                    "caption": "ข้อมูลของแอพพลิเคชั่น"
                 },
-                "title": ""
+                "title": "เเอดมิน"
             },
             "confirm_email": {
-                "submit_button": "",
-                "text": "",
-                "title": ""
+                "submit_button": "=> core.ref.confirm_email",
+                "text": "กดปุ่มข้างล่างนี้เพื่อยืนยันอีเมล์ของคุณ",
+                "title": "=> core.ref.confirm_email"
             },
             "content": {
                 "javascript_disabled_message": "เว็บไซต์นี้ดูดีที่สุดในเบราว์เซอร์สมัยใหม่และเปิดใช้งาน JavaScript",
@@ -520,14 +520,14 @@
                 "previous_page_button": "=> core.ref.previous_page"
             },
             "error": {
-                "csrf_token_mismatch": "You have been inactive for too long.",
-                "csrf_token_mismatch_return_link": "Go back, to try again",
-                "invalid_confirmation_token": "This confirmation link has already been used or is invalid.",
-                "not_authenticated": "You do not have permission to access this page. Try again after logging in.",
-                "not_found": "The page you requested could not be found.",
-                "not_found_return_link": "Return to {forum}",
-                "permission_denied": "You do not have permission to access this page.",
-                "unknown": "An error occurred while trying to load this page."
+                "csrf_token_mismatch": "คุณไม่ได้ใช้งานนานเกินไป",
+                "csrf_token_mismatch_return_link": "กลับไปเเละลองอีกครั้ง",
+                "invalid_confirmation_token": "ลิ้งสำหรับยืนยันนี้ถูกใช้ไปเเล้วหรือหมดอายุ",
+                "not_authenticated": "คุณไม่ได้รับอนุญาติในการเข้าถึงนี้นี้ โปรดลองอีกครั้งหลังจากล็อคอิน",
+                "not_found": "ไม่พบหน้าที่คุณร้องขอ",
+                "not_found_return_link": "กลับไปยัง {forum}",
+                "permission_denied": "คุณไม่ได้รับอนุญาติให้เข้าถึงหน้านี้",
+                "unknown": "เกิดข้อผิดพลาดระหว่างที่กำลังโหลดหน้านี้"
             },
             "index": {
                 "all_discussions_heading": "=> core.ref.all_discussions",
@@ -536,12 +536,12 @@
             },
             "log_out": {
                 "log_out_button": "=> core.ref.log_out",
-                "log_out_confirmation": "Are you sure you want to log out of {forum}?",
+                "log_out_confirmation": "คุณต้องการช็อคเอ้าออกจาก {forum} นี้ไหม?",
                 "title": "=> core.ref.log_out"
             },
             "reset_password": {
-                "confirm_password_label": "Confirm New Password",
-                "new_password_label": "New Password",
+                "confirm_password_label": "ยืนยันหรัสผ่านใหม่",
+                "new_password_label": "หรัสผ่านใหม่",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
             }
@@ -552,42 +552,42 @@
         "email": {
             "activate_account": {
                 "subject": "เปิดใช้งานบัญชีใหม่ของคุณ",
-                "body": "สวัสดี {username}!\n\nบางคน(หวังว่าจะเป็นคุณ!) ได้สมัครสมาชิกเพื่อใช้งาน {forum} ด้วยที่อยู่อีเมลนี้\n\nถ้าเป็นคุณเพียงแค่คลิกลิงก์ต่อไปนี้และบัญชีของคุณจะถูกเปิดใช้งาน\n{url}\n\nหากคุณไม่ได้สมัครสมาชิกเพื่อใช้งานไม่ต้องสนใจอีเมลนี้\n"
+                "body": "สวัสดี {username}!\n\nบางคน (หวังว่าจะเป็นคุณ!) ได้สมัครสมาชิกเพื่อใช้งาน {forum} ด้วยที่อยู่อีเมลนี้\n\nถ้าเป็นคุณเพียงแค่คลิกลิงก์ต่อไปนี้และบัญชีของคุณจะถูกเปิดใช้งาน\n{url}\n\nหากคุณไม่ได้สมัครสมาชิกเพื่อใช้งานเว็บไซต์นี้โปรดไม่ต้องสนใจอีเมลนี้\n"
             },
             "confirm_email": {
                 "subject": "ยืนยันที่อยู่อีเมลใหม่ของคุณ",
-                "body": "สวัสดี {username}!\n\nบางคน(หวังว่าจะเป็นคุณ!) ได้เปลี่ยนที่อยู่อีเมลของพวกเขาใน {forum} เป็นที่อยู่อีเมลนี้\n\nถ้าเป็นคุณเพียงแค่คลิกลิงก์ต่อไปนี้และอีเมลของคุณจะได้รับการยืนยัน\n{url}\n\nหากคุณไม่ใช่คุณไม่ต้องสนใจอีเมลนี้\n"
+                "body": "สวัสดี {username}!\n\nบางคน(หวังว่าจะเป็นคุณ!) ได้เปลี่ยนที่อยู่อีเมลของเขาใน {forum} เป็นที่อยู่อีเมลนี้\n\nถ้านี่เป็นคุณเพียงแค่คลิกลิงก์ต่อไปนี้และอีเมลของคุณจะได้รับการยืนยัน\n{url}\n\nหากคุณไม่ใช่คุณโปรดไม่ต้องสนใจอีเมลนี้\n"
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": "สวัสดี {username}!\n\nบางคน(หวังว่าจะเป็นคุณ!) ได้ส่งคำขอรหัสผ่านที่ลืมสำหรับบัญชีของคุณบน {forum}\n\nถ้าเป็นคุณให้คลิกลิงก์ต่อไปนี้เพื่อรีเซ็ตรหัสผ่านของคุณ\n{url}\n\nหากคุณไม่ต้องการเปลี่ยนรหัสผ่าน ไม่ต้องสนใจอีเมลนี้และจะไม่มีอะไรเกิดขึ้น\n"
+                "body": "สวัสดี {username}!\n\nบางคน(หวังว่าจะเป็นคุณ!) ได้ส่งคำขอรีเซ็ตรหัสผ่านสำหรับบัญชีของคุณบน {forum}\n\nถ้าเป็นคุณให้คลิกลิงก์ต่อไปนี้เพื่อรีเซ็ตรหัสผ่านของคุณ\n{url}\n\nหากคุณไม่ต้องการเปลี่ยนรหัสผ่าน ไม่ต้องสนใจอีเมลนี้และจะไม่มีอะไรเกิดขึ้น\n"
             },
             "send_test": {
-                "subject": "Flarum Email Test",
-                "body": "Hey {username}!\n\nThis is a test email to confirm that your Flarum email configuration is working properly.\n\nIf this was you, this email means that your configuration works!\n\nIf this was not you, please ignore this email.\n"
+                "subject": "การทดสอบอีเมล์ของ Flarum",
+                "body": "สวัสดี {username}!\n\nนี้คือข้อความที่จะเเจ้งคุณว่าการตั้งค่าอีเมล์ของคุณนั้นสามารถใช้งานได้!\n\nถ้านี้เป็นอีเมล์ของคุณนั้นหมายความว่ามันใช้งานได้!\n\nเเต้ถ้านี่ไม่ใช่คุณโปรดอย่าสนใจอีเมล์นี้\n"
             }
         },
         "ref": {
-            "all_discussions": "กระทู้ทั้งหมด",
+            "all_discussions": "การสนทนาทั้งหมด",
             "change_email": "เปลี่ยนอีเมล",
             "change_password": "เปลี่ยนรหัสผ่าน",
             "color": "สี",
             "confirm_password": "ยืนยันรหัสผ่าน",
-            "confirm_email": "",
-            "confirmation_email_sent": "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder.",
-            "custom_footer_text": "Add HTML to be displayed at the very bottom of the page.",
-            "custom_footer_title": "Edit Custom Footer",
-            "custom_header_text": "Add HTML to be displayed at the very top of the page, above Flarum's own header.",
-            "custom_header_title": "Edit Custom Header",
+            "confirm_email": "ยืนยันอีเมล์",
+            "confirmation_email_sent": "เราได้ส่งอีเมล์สำหรับยืนยันไปยัง {email}. ถ้าหากยังคงไม่พบโปรดเช็คที่กล่งจดหมายสเเปม",
+            "custom_footer_text": "เพิ่มโค้ด HTML เพื่อเเสดงที่ข้างล่างสุดของหน้า",
+            "custom_footer_title": "เเก้ไขส่วนล่างเอง",
+            "custom_header_text": "เพิ่ม ลโค้ด HTML เพื่อเเสดงที่บนสุดของหน้าเหนือส่วนหัวของ Flarum",
+            "custom_header_title": "เเก้ไขส่วนหัวที่กำหนดเอง",
             "delete": "ลบ",
             "delete_forever": "ลบอย่างถาวร",
-            "discussions": "กระทู้",
+            "discussions": "การสนทนา",
             "edit": "แก้ไข",
-            "edit_user": "Edit User",
+            "edit_user": "เเก้ไขผู้ใช้",
             "email": "อีเมล",
-            "extensions": "",
+            "extensions": "ส่วนเสริม",
             "icon": "ไอคอน",
-            "icon_text": "Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the <code>fas fa-</code> prefix.",
+            "icon_text": "ใส่ชื่ออะไรก็ได้ของ <a>FontAwesome</a> icon class, <em>ที่ประกอบไปด้วย</em> <code>fas fa-</code> ข้างหน้า",
             "load_more": "แสดงเพิ่มเติม",
             "loading": "กำลังโหลด...",
             "log_in": "เข้าสู่ระบบ",
