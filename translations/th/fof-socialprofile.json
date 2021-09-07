@@ -2,27 +2,27 @@
     "fof-socialprofile": {
         "admin": {
             "permissions": {
-                "view": "",
-                "editOwn": "",
-                "editAny": ""
+                "view": "ดูโปรไฟล์โซเชียล",
+                "editOwn": "เเก้ไขโปรไฟล์โซเซียลของตนเอง",
+                "editAny": "เเก้ไขโปรไฟล์โซเชียลของใครก็ได้"
             },
             "settings": {
-                "allow_external_favicons_label": ""
+                "allow_external_favicons_label": "อณุญาติไอคอนของเว็บไซต์อื่น"
             }
         },
         "forum": {
             "edit": {
-                "edit": "",
-                "add": "",
-                "headtitle": "",
-                "title": "",
-                "url": "",
-                "submit": "",
-                "delete": "",
-                "deletetitle": "",
-                "save_disabled_fetching_favicons": "",
-                "favicon": "",
-                "grey_favicon": ""
+                "edit": "เเก้ไขปุ่มโซเชียล",
+                "add": "เพิ่มปุ่มโซเชียลของคุณ",
+                "headtitle": "เเก้ไขปุ่ม",
+                "title": "ขื่อ",
+                "url": "ลิ้ง",
+                "submit": "บันทึก",
+                "delete": "ลบ",
+                "deletetitle": "ลบปุ่ม",
+                "save_disabled_fetching_favicons": "หนึ่งไอคอนหรือมากกว่ากำลังโหลด โปรดรอสักครู่…",
+                "favicon": "ไอคอน",
+                "grey_favicon": "ไอคอนสีเทา"
             }
         }
     }
