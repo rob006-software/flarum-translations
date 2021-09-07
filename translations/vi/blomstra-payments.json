@@ -5,46 +5,46 @@
                 "purchase-control": "Thanh toán để xem",
                 "purchase-log-in": "Đăng nhập & Thanh toán để xem",
                 "purchase-completed": "Đã mở khoá",
-                "description": ""
+                "description": "Các bài viết này đã được khoá, bạn có thể mở khóa chúng bằng cách hoàn tất thanh toán thông qua nhà cung cấp thanh toán Stripe của chúng tôi.\n"
             },
             "pay-to-post": {
-                "purchase-control": "",
-                "purchase": "",
-                "purchase_required": ""
+                "purchase-control": "Thanh toán để xuất bản",
+                "purchase": "Mua để xuất bản",
+                "purchase_required": "Cuộc thảo luận này sẽ được xuất bản sau khi bạn hoàn tất thanh toán thông qua nhà cung cấp thanh toán Stripe của chúng tôi. Nhấp vào mua để xem các tùy chọn chi phí và thanh toán.\n"
             },
             "tag": {
-                "require-payment-label": ""
+                "require-payment-label": "Yêu cầu thanh toán"
             },
             "payment-options-modal": {
-                "title": "",
-                "description": ""
+                "title": "Các tùy chọn thanh toán để có quyền truy cập vào {group}",
+                "description": "Chọn bất kỳ tùy chọn nào sau đây để bắt đầu quyền truy cập của bạn vào nhóm. Bạn sẽ được chuyển hướng đến nhà cung cấp thanh toán Stripe của chúng tôi để xử lý thanh toán.\n"
             },
             "access-portal": {
-                "options": "",
-                "purchase": ""
+                "options": "tuỳ chọn",
+                "purchase": "mua"
             },
             "nav": {
-                "access_portal": ""
+                "access_portal": "Cổng truy cập"
             }
         },
         "admin": {
             "edit-tag": {
-                "select-ptp-product": "",
-                "select-ptp-product-description": "",
-                "select-ptv-product": "",
-                "select-ptv-product-description": "",
-                "visible-from": "",
-                "visible-from-description": ""
+                "select-ptp-product": "(PTP) Sản phẩm bắt buộc",
+                "select-ptp-product-description": "Chọn một sản phẩm sẽ yêu cầu thanh toán sản phẩm đó cho mỗi cuộc thảo luận trong thẻ đó. Trả tiền cho mỗi bài viết, ví dụ: tuyệt vời cho các bài quảng cáo. Tạo sản phẩm với giá \"một lần\" duy nhất trong trang tổng quan Stripe của bạn và sao chép ID bắt đầu bằng <code>prod_</code> vào trường này.\n",
+                "select-ptv-product": "(PTV) Sản phẩm bắt buộc",
+                "select-ptv-product-description": "Việc chọn một sản phẩm sẽ yêu cầu thanh toán cho sản phẩm đó để có quyền truy cập vĩnh viễn vào tất cả các bài viết vượt ngưỡng.. Tạo một sản phẩm trong trang tổng quan Stripe của bạn và sao chép ID bắt đầu bằng <code>prod_</code> vào trường này.\n",
+                "visible-from": "Ẩn các bài viết ở ngưỡng này",
+                "visible-from-description": "Con số bạn chỉ định ở đây xác định tại thời điểm các bài viết sẽ bị ẩn đối với những người dùng chưa trả tiền để truy cập nội dung. Sử dụng 0 để ẩn tất cả chúng, 1 cho cái sau OP.\n"
             },
             "edit-group": {
-                "select-pta-product": "",
-                "select-pta-product-description": ""
+                "select-pta-product": "(PTA) Sản phẩm yêu cầu",
+                "select-pta-product-description": "Selecting a product will allow access to the group after payment. In case of a subscription access will be revoked automatically after cancellation of the subscription. Create a product in your Stripe dashboard and copy the ID starting with <code>prod_</code> into this field.\n"
             },
             "settings": {
-                "pk": "",
-                "sk": "",
-                "webhook-secret": "",
-                "link-access-portal": ""
+                "pk": "Mã khóa xuất bản (api)",
+                "sk": "Mã khoá bí mật (api)",
+                "webhook-secret": "Mã bí mật Webhook",
+                "link-access-portal": "Liên kết cổng truy cập trong dropdown phiên người dùng"
             }
         }
     }
