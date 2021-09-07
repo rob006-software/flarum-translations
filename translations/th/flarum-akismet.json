@@ -2,14 +2,14 @@
     "flarum-akismet": {
         "admin": {
             "akismet_settings": {
-                "api_key_label": "",
-                "title": ""
+                "api_key_label": "API Key",
+                "title": "การตั้งค่า Akismet"
             }
         },
         "forum": {
             "post": {
-                "akismet_flagged_text": "",
-                "not_spam_button": ""
+                "akismet_flagged_text": "Akismet รายงานว่าเป็นสเเปม",
+                "not_spam_button": "ไม่ใช่สเเปม"
             }
         }
     }
