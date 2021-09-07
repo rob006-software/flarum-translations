@@ -1,56 +1,56 @@
 {
     "fof-reactions": {
         "forum": {
-            "disabled-reaction": "",
-            "warning": "",
-            "notification": "",
+            "disabled-reaction": "คุณไม่สามารถเเสดงความรู้สึกได้ตอนนี้ โปรดลองรีเฟรชหน้าใหม่",
+            "warning": "การความรู้สึกขอบคุณมีการเปลี่ยนเเปลงเเล้ว",
+            "notification": "{username} เเสดงความรู้สึกด้วย {reaction} ในโพสต์ของคุณ",
             "settings": {
-                "notify_post_reacted_label": ""
+                "notify_post_reacted_label": "มีบางคนเเสดงความรู้สึกต่อโพสต์ขอบคุณ"
             },
-            "reacting-own-post": "",
+            "reacting-own-post": "คุณไม่สามารถเเสดงความรู้สึกให้โพสต์ตัวเองได้",
             "modal": {
-                "title": ""
+                "title": "การเเสดงความรู้สึก"
             },
-            "mod_item": "",
-            "react_button_label": ""
+            "mod_item": "ดูการเเสดงความรู้สึก",
+            "react_button_label": "ตอบโต้"
         },
         "admin": {
             "permissions": {
-                "react_posts_label": "",
-                "see_reactions_label": ""
+                "react_posts_label": "ตอบโต้โพสต์นี้",
+                "see_reactions_label": "ดูว่าใครเเสดงความรู้สึกในโพสต์"
             },
             "page": {
                 "reactions": {
-                    "title": "",
-                    "reactions": "",
-                    "Helptext": "",
+                    "title": "ความรู้สึกเเบบกำหนดเอง",
+                    "reactions": "ความรู้สึกปัจจุบัน",
+                    "Helptext": "ใส่ชื่อ (ตัวบงบอก) ของอีโมจิหรือไอคอนจาก Font Awesome เเละเลือกเเบบไหนที่คุณต้องการ",
                     "help": {
-                        "display": "",
-                        "identifier": ""
+                        "display": "การเเสดงผล",
+                        "identifier": "ตัวบงบอก"
                     }
                 },
                 "convert": {
-                    "help": "",
-                    "button": "",
-                    "converting": "",
-                    "converted": ""
+                    "help": "หากคุณเพิ่งอัพเดทส่วนเสริมนี้ ตัวการเเสดงความรู้สึกของคุณจะถูกเปลี่ยน หากคุณเพิ่งติดตั้งส่วนเสริมนี้ เเค่ไม่ต้องสนใจข้อความนี้",
+                    "button": "เปลี่ยนการเเสดงความรู้สึงเเบบเก่า",
+                    "converting": "การเเสดงความรู้สึกขอวคุณกำลังเปลี่ยนเเปลง รีเฟรชหน้านี้ในอีกไม่กี่นาทีเพื่อดูประเปลี่ยนเเปลงที่ประมวลผลเสร็จเเล้ว (การประมวลผลอาจใช้เวลามากขึ้นอยู่กำจำนวนความรู้สึกที่คุณเพิ่ม)",
+                    "converted": "เปลี่ยนเเปลง {number} ไลค์เสร็จเสร็จสิ้น"
                 },
                 "settings": {
-                    "save_settings": "",
+                    "save_settings": "บันทึกการตั้งค่า",
                     "integrations": {
-                        "legend": "",
-                        "warning": "",
+                        "legend": "การรวม",
+                        "warning": "ความรู้สึกซ้ำ <strong>ไม่สามารถ</strong> เปลี่ยนเเปลเป็นไลค์ได้ <strong>เเละ</strong> การเห็นด้วย",
                         "gamification": {
-                            "legend": "",
-                            "upvoteLabel": "",
-                            "upvoteHelptext": "",
-                            "downvoteLabel": "",
-                            "downvoteHelptext": ""
+                            "legend": "Gamification",
+                            "upvoteLabel": "เปลี่ยนการเเสดงความรู้สึกเป็นเห็นด้วย",
+                            "upvoteHelptext": "กรุณาใส่ตัวบงบอกถึงความรู้สึกที่คุณต้องการให้เปลี่ยนเป็นการเห็นด้วยอย่างอัตโนมัติ",
+                            "downvoteLabel": "เปลี่ยนความรู้สึกเป็นไม่เห็นด้วย",
+                            "downvoteHelptext": "กรุณาใส่ตัวบงบอกถึงความรู้สึกที่คุณต้องการให้เปลี่ยนเป็นการไม่เห็นด้วยอย่างอัตโนมัติ"
                         },
                         "likes": {
-                            "legend": "",
-                            "Label": "",
-                            "Helptext": ""
+                            "legend": "ไลค์",
+                            "Label": "เปลี่ยนความรู้สึกเป็นไลค์",
+                            "Helptext": "กรุณาใส่ตัวบงบอกถึงความรู้สึกที่คุณต้องการให้เปลี่ยนเป็นไลค์อย่างอัตโนมัติ"
                         }
                     }
                 }
