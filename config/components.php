@@ -580,6 +580,9 @@ return [
 	'kyrne-whisper' => [
 		'tag' => 'https://raw.githubusercontent.com/KyrneDev/whisper/0.1.3/resources/locale/en.yml',
 	],
+	'lazyeo-hljs' => [
+		'tag' => 'https://raw.githubusercontent.com/lazyeo/flarum-ext-hljs/v2.0.1/resources/locale/en.yml',
+	],
 	'maicol07-oidc-client' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/maicol07-oidc-client.yml',
 	],
