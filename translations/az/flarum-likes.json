@@ -7,16 +7,16 @@
         },
         "forum": {
             "notifications": {
-                "others_text": "",
+                "others_text": "=> core.ref.some_others",
                 "post_liked_text": "{username} yazınızı bəyəndi"
             },
             "post": {
                 "like_link": "Bəyən",
                 "liked_by_self_text": "{users} bunun kimi.",
-                "liked_by_text": "",
-                "others_link": "",
+                "liked_by_text": "{count, plural, one {{users} likes this} başqa {{users} like this}}",
+                "others_link": "=> core.ref.some_others",
                 "unlike_link": "Dislike",
-                "you_text": ""
+                "you_text": "=> core.ref.you"
             },
             "post_likes": {
                 "title": "Bunu Bəyənən İstifadəçilər"
