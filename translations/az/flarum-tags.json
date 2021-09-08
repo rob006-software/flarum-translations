@@ -2,24 +2,24 @@
     "flarum-tags": {
         "admin": {
             "basics": {
-                "tags_label": ""
+                "tags_label": "=> flarum-tags.ref.tags"
             },
             "edit_tag": {
-                "color_label": "",
+                "color_label": "=> core.ref.color",
                 "delete_tag_button": "Etiketi sil",
                 "delete_tag_confirmation": "Bu etiketi silmək istədiyinizə əminsiniz? Etiket müzakirələri silinməyəcək.",
                 "description_label": "Təsvir",
                 "hide_label": "Bütün Müzakirələrdən Gizlət",
-                "icon_label": "",
-                "icon_text": "",
-                "name_label": "",
-                "name_placeholder": "",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "=> flarum-tags.ref.name",
+                "name_placeholder": "=> flarum-tags.ref.name",
                 "slug_label": "Şlak",
-                "submit_button": "",
+                "submit_button": "=> core.ref.save_changes",
                 "title": "Etiket Yarat"
             },
             "nav": {
-                "tags_button": "",
+                "tags_button": "=> flarum-tags.ref.tags",
                 "tags_text": "Müzakirələr təşkil etmək üçün mövcud etiketlərin siyahısını idarə edin."
             },
             "permissions": {
@@ -29,7 +29,7 @@
                 "tag_discussions_label": "Mövzu Etiketi"
             },
             "tag_settings": {
-                "range_separator_text": "",
+                "range_separator_text": " to ",
                 "required_primary_heading": "Tələb olunan İlkin Etiketlərin sayı",
                 "required_primary_text": "Müzakirəyə tətbiq oluna biləcək əsas etiketlərin minimum və maksimum sayını daxil edin.",
                 "required_secondary_heading": "Tələb olunan İkinci dərəcəli Etiketlər",
@@ -48,13 +48,13 @@
         "forum": {
             "all_tags": {
                 "meta_description_text": "Bütün Etiketlər",
-                "meta_title_text": ""
+                "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
-                "choose_primary_placeholder": "",
-                "choose_secondary_placeholder": "",
+                "choose_primary_placeholder": "{count, plural, one {Choose a primary tag} other {Choose # primary tags}}",
+                "choose_secondary_placeholder": "{count, plural, one {Choose 1 more tag} other {Choose # more tags}}",
                 "edit_title": "Etiketləri redaktə edin {title}",
-                "submit_button": "",
+                "submit_button": "=> core.ref.okay",
                 "title": "Mövzu üçün Etiketləri seçin"
             },
             "composer_discussion": {
@@ -68,14 +68,14 @@
             },
             "index": {
                 "more_link": "Ətraflı ...",
-                "tags_link": "",
+                "tags_link": "=> flarum-tags.ref.tags",
                 "untagged_link": "Etiketlənməmiş"
             },
             "post_stream": {
                 "added_and_removed_tags_text": "{username} {tagsAdded} əlavə etdi və {tagsRemoved} silindi.",
                 "added_tags_text": "{username} əlavə etdi {tagsAdded}.",
                 "removed_tags_text": "{username} sildi {tagsRemoved}.",
-                "tags_text": ""
+                "tags_text": "{count, plural, one {{tags} tag} other {{tags} tags}}"
             },
             "tag": {
                 "meta_description_text": "{tag} etiketi ilə bütün müzakirələr"
