@@ -3,35 +3,35 @@
         "admin": {
             "popup": {
                 "section": {
-                    "googleAnalytics": "",
-                    "piwik": ""
+                    "googleAnalytics": "Google Analytics",
+                    "piwik": "Matomo"
                 },
                 "field": {
-                    "statusGoogle": "",
-                    "optTrackingCode": "",
-                    "googleTrackingCode": "",
-                    "googleGTMCode": "",
-                    "statusPiwik": "",
-                    "piwikUrl": "",
-                    "piwikSiteId": "",
-                    "piwikTrackSubdomain": "",
-                    "piwikPrependDomain": "",
-                    "piwikHideAliasUrl": "",
-                    "piwikAliasUrl": "",
-                    "piwikTrackAccounts": "",
-                    "piwikAuthToken": ""
+                    "statusGoogle": "Google Analytics aktivieren",
+                    "optTrackingCode": "Tracking-Code optimieren (optional)",
+                    "googleTrackingCode": "Tracking-Code-ID",
+                    "googleGTMCode": "GTM-Code-ID (optional)",
+                    "statusPiwik": "Matomo aktivieren",
+                    "piwikUrl": "Matomo-Domain oder URL",
+                    "piwikSiteId": "Seiten ID",
+                    "piwikTrackSubdomain": "Besucher über alle Subdomains von Flarum verfolgen",
+                    "piwikPrependDomain": "Beim Tracking die Site-Domain dem Seitentitel voran stellen",
+                    "piwikHideAliasUrl": "Im Bericht 'Outlinks' Klicks auf bekannte Alias-URLs ausblenden",
+                    "piwikAliasUrl": "Alias URL",
+                    "piwikTrackAccounts": "Einzelne Benutzerkonten verfolgen",
+                    "piwikAuthToken": "Authentifizierungstoken"
                 },
                 "placeholder": {
-                    "piwikAuthToken": ""
+                    "piwikAuthToken": "Fülle dieses Token aus, um ein Matomo-Statistik-Widget im Admin-Panel zu aktivieren.\nDu findest es es unter Einstellungen Persönliches API-Authentifizierungstoken.\n"
                 },
                 "trackAccounts": {
-                    "none": "",
-                    "username": "",
-                    "email": ""
+                    "none": "Nicht verfolgen",
+                    "username": "Nach Benutzernamen verfolgen",
+                    "email": "Per E-Mail verfolgen"
                 }
             },
             "matomo-widget": {
-                "title": ""
+                "title": "Matomo"
             }
         }
     }
