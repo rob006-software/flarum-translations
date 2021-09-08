@@ -2,34 +2,34 @@
     "flarum-mentions": {
         "admin": {
             "settings": {
-                "allow_username_format_label": "",
-                "allow_username_format_text": ""
+                "allow_username_format_label": "İstifadəçi adı qeyd formatına icazə verin (@Username)",
+                "allow_username_format_text": "İstifadəçilərin qeyd etdiyi format @\"Display Name\" #ID -dir.\nBu parametr @Username adının köhnə formatından istifadə etməyə imkan verir, lakin saxlandıqdan sonra yenə də yeni formata çevriləcək.\n"
             }
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "",
-                "reply_to_post_text": ""
+                "mention_tooltip": "Bir istifadəçini və ya yazını qeyd edin",
+                "reply_to_post_text": "#{number} nömrəsinə cavab verin"
             },
             "notifications": {
-                "others_text": "",
-                "post_mentioned_text": "",
-                "user_mentioned_text": ""
+                "others_text": "=> core.ref.some_others",
+                "post_mentioned_text": "{username} yazınıza cavab verdi",
+                "user_mentioned_text": "{username} səni qeyd etdi"
             },
             "post": {
-                "mentioned_by_self_text": "",
-                "mentioned_by_text": "",
-                "others_text": "",
-                "quote_button": "",
-                "reply_link": "",
-                "you_text": ""
+                "mentioned_by_self_text": "{users} buna cavab verdi.",
+                "mentioned_by_text": "{users} buna cavab verdi.",
+                "others_text": "=> core.ref.some_others",
+                "quote_button": "Sitat",
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
             },
             "settings": {
-                "notify_post_mentioned_label": "",
-                "notify_user_mentioned_label": ""
+                "notify_post_mentioned_label": "Yazılarımdan birinə cavab yazan var",
+                "notify_user_mentioned_label": "Kimsə bir yazıda məndən bəhs edir"
             },
             "user": {
-                "mentions_link": ""
+                "mentions_link": "Qeydlər"
             },
             "post_mention": {
                 "deleted_text": ""
@@ -37,12 +37,12 @@
         },
         "email": {
             "post_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{replier_display_name} daxil etdiyiniz yazıya cavab verdi {title}",
+                "body": "Salam {recipient_display_name}!\n\n{replier_display_name} yazınıza cavab verdi (#{post_number}) in {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "user_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{mentioner_display_name} səni qeyd etdi {title}",
+                "body": "Salam {recipient_display_name}!\n\n{mentioner_display_name} adlı bir yazıda səni qeyd etdi {title}.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }
