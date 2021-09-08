@@ -18,6 +18,7 @@ return [
 		// translations included in extension
 		// '!v17development-seo', https://github.com/v17development/flarum-seo/issues/61#issuecomment-855474306
 	]),
+	'az' => getComponents(),
 	'cs' => getComponents(),
 	'de' => getComponents([
 		// translations included in extension
