@@ -1,0 +1,29 @@
+{
+    "flarum-likes": {
+        "admin": {
+            "permissions": {
+                "like_posts_label": "Использовать систему симпатий"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_liked_text": "{username} понравилось Ваше сообщение"
+            },
+            "post": {
+                "like_link": "Нравится",
+                "liked_by_self_text": "{users} оценили это.",
+                "liked_by_text": "{count, plural, one {{users} оценил это} other {{users} оценили это}}.",
+                "others_link": "=> core.ref.some_others",
+                "unlike_link": "Не нравится",
+                "you_text": "=> core.ref.you"
+            },
+            "post_likes": {
+                "title": "Сообщение понравилось..."
+            },
+            "settings": {
+                "notify_post_liked_label": "Понравилось моё сообщение"
+            }
+        }
+    }
+}
