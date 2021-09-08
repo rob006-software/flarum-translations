@@ -1,0 +1,92 @@
+{
+    "flarum-tags": {
+        "admin": {
+            "basics": {
+                "tags_label": "=> flarum-tags.ref.tags"
+            },
+            "edit_tag": {
+                "color_label": "=> core.ref.color",
+                "delete_tag_button": "Удалить",
+                "delete_tag_confirmation": "Вы уверены, что хотите удалить тег? Дискуссии, помеченные этим тегом, удалены НЕ будут.",
+                "description_label": "Описание",
+                "hide_label": "Скрыть дискуссии с этим тегом из общего списка",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "=> flarum-tags.ref.name",
+                "name_placeholder": "=> flarum-tags.ref.name",
+                "slug_label": "Путь",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Создать тег"
+            },
+            "nav": {
+                "tags_button": "=> flarum-tags.ref.tags",
+                "tags_text": "Управление списком тегов, доступных для структурирования дискуссий."
+            },
+            "permissions": {
+                "allow_edit_tags_label": "Разрешить изменять теги",
+                "bypass_tag_counts_label": "Игнорировать требования по тегам",
+                "restrict_by_tag_heading": "По тегу",
+                "tag_discussions_label": "Изменять теги дискуссий"
+            },
+            "tag_settings": {
+                "range_separator_text": " - ",
+                "required_primary_heading": "Количество основных тегов",
+                "required_primary_text": "Введите минимальное и максимальное число основных тегов, которыми будет помечена дискуссия.",
+                "required_secondary_heading": "Количество дополнительных тегов",
+                "required_secondary_text": "Введите минимальное и максимальное число дополнительных тегов, которыми будет помечена дискуссия.",
+                "title": "Настройки тегов"
+            },
+            "tags": {
+                "about_tags_text": "Теги используются для структурирования дискуссий. Основные теги подобны традиционным категориям форумов и представляют собой двухуровневую иерархию. Дополнительные теги не имеют иерархии и могут быть полезны для структурирования дискуссий на микро-уровне.",
+                "create_primary_tag_button": "Создать основной",
+                "create_secondary_tag_button": "Создать дополнительный",
+                "primary_heading": "Основные",
+                "secondary_heading": "Дополнительные",
+                "settings_heading": "Настройки"
+            }
+        },
+        "forum": {
+            "all_tags": {
+                "meta_description_text": "Все теги",
+                "meta_title_text": "=> flarum-tags.ref.tags"
+            },
+            "choose_tags": {
+                "choose_primary_placeholder": "{count, plural, one {Укажите основной тег} other {Укажите # основных тегов}}",
+                "choose_secondary_placeholder": "{count, plural, one {Укажите больше 1 тега} other {Укажите больше # тегов}}",
+                "edit_title": "Настройка тегов: {title}",
+                "submit_button": "=> core.ref.okay",
+                "title": "Укажите теги для Вашей дискуссии"
+            },
+            "composer_discussion": {
+                "choose_tags_link": "Выбрать теги"
+            },
+            "discussion_controls": {
+                "edit_tags_button": "Изменить теги"
+            },
+            "header": {
+                "back_to_tags_tooltip": "Вернуться к списку тегов"
+            },
+            "index": {
+                "more_link": "Ещё...",
+                "tags_link": "=> flarum-tags.ref.tags",
+                "untagged_link": "Вне тегов"
+            },
+            "post_stream": {
+                "added_and_removed_tags_text": "{username} добавил(а) {tagsAdded} и удалил(а) {tagsRemoved}.",
+                "added_tags_text": "{username} добавил(а) {tagsAdded}.",
+                "removed_tags_text": "{username} удалил(а) {tagsRemoved}.",
+                "tags_text": "{count, plural, one {{tags} тег} other {{tags} теги}}"
+            },
+            "tag": {
+                "meta_description_text": "Все дискуссии с тегом {tag}"
+            }
+        },
+        "lib": {
+            "deleted_tag_text": "Удалено"
+        },
+        "ref": {
+            "name": "Название",
+            "tags": "Теги"
+        }
+    }
+}
