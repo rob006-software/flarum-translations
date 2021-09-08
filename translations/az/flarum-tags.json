@@ -6,87 +6,87 @@
             },
             "edit_tag": {
                 "color_label": "",
-                "delete_tag_button": "",
-                "delete_tag_confirmation": "",
-                "description_label": "",
-                "hide_label": "",
+                "delete_tag_button": "Etiketi sil",
+                "delete_tag_confirmation": "Bu etiketi silmək istədiyinizə əminsiniz? Etiket müzakirələri silinməyəcək.",
+                "description_label": "Təsvir",
+                "hide_label": "Bütün Müzakirələrdən Gizlət",
                 "icon_label": "",
                 "icon_text": "",
                 "name_label": "",
                 "name_placeholder": "",
-                "slug_label": "",
+                "slug_label": "Şlak",
                 "submit_button": "",
-                "title": ""
+                "title": "Etiket Yarat"
             },
             "nav": {
                 "tags_button": "",
-                "tags_text": ""
+                "tags_text": "Müzakirələr təşkil etmək üçün mövcud etiketlərin siyahısını idarə edin."
             },
             "permissions": {
-                "allow_edit_tags_label": "",
-                "bypass_tag_counts_label": "",
-                "restrict_by_tag_heading": "",
-                "tag_discussions_label": ""
+                "allow_edit_tags_label": "Etiketin redaktəsinə icazə verin",
+                "bypass_tag_counts_label": "Baypas etiket tələbi",
+                "restrict_by_tag_heading": "Etiketlə məhdudlaşdır",
+                "tag_discussions_label": "Mövzu Etiketi"
             },
             "tag_settings": {
                 "range_separator_text": "",
-                "required_primary_heading": "",
-                "required_primary_text": "",
-                "required_secondary_heading": "",
-                "required_secondary_text": "",
-                "title": ""
+                "required_primary_heading": "Tələb olunan İlkin Etiketlərin sayı",
+                "required_primary_text": "Müzakirəyə tətbiq oluna biləcək əsas etiketlərin minimum və maksimum sayını daxil edin.",
+                "required_secondary_heading": "Tələb olunan İkinci dərəcəli Etiketlər",
+                "required_secondary_text": "Müzakirəyə tətbiq oluna biləcək minimum və maksimum ikincil etiketlərin sayını daxil edin.",
+                "title": "Etiket Ayarları"
             },
             "tags": {
-                "about_tags_text": "",
-                "create_primary_tag_button": "",
-                "create_secondary_tag_button": "",
-                "primary_heading": "",
-                "secondary_heading": "",
-                "settings_heading": ""
+                "about_tags_text": "Etiketlər müzakirələri təsnif etmək üçün istifadə olunur. Birincil etiketlər ənənəvi forum kateqoriyalarına bənzəyir: iki səviyyəli bir iyerarxiyada yerləşdirilə bilər. İkincili etiketlərin iyerarxiyası və nizamı yoxdur və mikro-kateqoriyalar üçün faydalıdır.",
+                "create_primary_tag_button": "Əsas etiket yaradın",
+                "create_secondary_tag_button": "İkincil etiket yaradın",
+                "primary_heading": "Əsas etiketlər",
+                "secondary_heading": "İkinci dərəcəli etiketlər",
+                "settings_heading": "Ayarlar"
             }
         },
         "forum": {
             "all_tags": {
-                "meta_description_text": "",
+                "meta_description_text": "Bütün Etiketlər",
                 "meta_title_text": ""
             },
             "choose_tags": {
                 "choose_primary_placeholder": "",
                 "choose_secondary_placeholder": "",
-                "edit_title": "",
+                "edit_title": "Etiketləri redaktə edin {title}",
                 "submit_button": "",
-                "title": ""
+                "title": "Mövzu üçün Etiketləri seçin"
             },
             "composer_discussion": {
-                "choose_tags_link": ""
+                "choose_tags_link": "Etiket seçin"
             },
             "discussion_controls": {
-                "edit_tags_button": ""
+                "edit_tags_button": "Etiketləri redaktə edin"
             },
             "header": {
-                "back_to_tags_tooltip": ""
+                "back_to_tags_tooltip": "Etiket siyahısına qayıt"
             },
             "index": {
-                "more_link": "",
+                "more_link": "Ətraflı ...",
                 "tags_link": "",
-                "untagged_link": ""
+                "untagged_link": "Etiketlənməmiş"
             },
             "post_stream": {
-                "added_and_removed_tags_text": "",
-                "added_tags_text": "",
-                "removed_tags_text": "",
+                "added_and_removed_tags_text": "{username} {tagsAdded} əlavə etdi və {tagsRemoved} silindi.",
+                "added_tags_text": "{username} əlavə etdi {tagsAdded}.",
+                "removed_tags_text": "{username} sildi {tagsRemoved}.",
                 "tags_text": ""
             },
             "tag": {
-                "meta_description_text": ""
+                "meta_description_text": "{tag} etiketi ilə bütün müzakirələr"
             }
         },
         "lib": {
-            "deleted_tag_text": ""
+            "deleted_tag_text": "Silindi"
         },
         "ref": {
-            "name": "",
-            "tags": ""
+            "name": "Ad",
+            "tags": "Etiket"
         }
     }
 }
