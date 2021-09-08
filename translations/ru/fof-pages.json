@@ -2,46 +2,46 @@
     "fof-pages": {
         "admin": {
             "edit_page": {
-                "content_label": "",
-                "content_placeholder": "",
-                "delete_page_button": "",
-                "delete_page_confirmation": "",
-                "hidden_label": "",
-                "restricted_label": "",
-                "html_label": "",
-                "set_as_home_page_confirmation": "",
-                "set_as_home_page_done": "",
-                "slug_label": "",
-                "slug_placeholder": "",
-                "submit_button": "",
-                "title": "",
-                "title_label": "",
-                "title_placeholder": "",
-                "url_label": "",
-                "url_placeholder": ""
+                "content_label": "=> fof-pages.ref.content",
+                "content_placeholder": "=> fof-pages.ref.content",
+                "delete_page_button": "Удалить страницу",
+                "delete_page_confirmation": "Вы уверены, что хотите удалить эту страницу?",
+                "hidden_label": "Сохранить как черновик",
+                "restricted_label": "Ограниченный доступ (выберите, кому предоставить доступ, во вкладке Разрешения)",
+                "html_label": "Разрешить HTML",
+                "set_as_home_page_confirmation": "Вы уверены, что хотите установить эту страницу как Главную?",
+                "set_as_home_page_done": "Главная страница обновлена",
+                "slug_label": "=> fof-pages.ref.slug",
+                "slug_placeholder": "=> fof-pages.ref.slug",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> fof-pages.ref.create_page",
+                "title_label": "=> fof-pages.ref.title",
+                "title_placeholder": "=> fof-pages.ref.title",
+                "url_label": "=> fof-pages.ref.url",
+                "url_placeholder": "=> fof-pages.ref.url"
             },
             "pages": {
-                "create_button": ""
+                "create_button": "=> fof-pages.ref.create_page"
             },
             "pages_list": {
-                "empty_text": "",
-                "title": ""
+                "empty_text": "Похоже здесь нет страниц.",
+                "title": "=> fof-pages.ref.title"
             },
             "permissions": {
-                "restricted": ""
+                "restricted": "Смотреть страницы с ограниченным доступом"
             },
             "badges": {
-                "hidden": "",
-                "restricted": ""
+                "hidden": "Черновик",
+                "restricted": "Нет доступа"
             }
         },
         "ref": {
-            "content": "",
-            "create_page": "",
-            "pages": "",
-            "slug": "",
-            "title": "",
-            "url": ""
+            "content": "Содержание",
+            "create_page": "Создать страницу",
+            "pages": "Страницы",
+            "slug": "Адрес страницы в читаемых словах (slug)",
+            "title": "Заголовок",
+            "url": "URL"
         }
     }
 }
