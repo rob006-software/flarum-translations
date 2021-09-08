@@ -2,74 +2,74 @@
     "fof-best-answer": {
         "admin": {
             "permissions": {
-                "best_answer": "",
-                "best_answer_not_own_discussion": ""
+                "best_answer": "Ən yaxşı cavabı seç",
+                "best_answer_not_own_discussion": "Ən yaxşı cavabı seç (öz mövzunda)"
             },
             "settings": {
                 "label": {
-                    "general": "",
-                    "reminders": "",
-                    "advanced": "",
-                    "reminders_notice": ""
+                    "general": "Ümumi",
+                    "reminders": "Xatırlatmalar",
+                    "advanced": "Qabaqcıl",
+                    "reminders_notice": "Xatırlatmaların işləməsi üçün Flarum planlayıcısını düzgün qurmalısınız."
                 },
-                "allow_select_own_post": "",
-                "allow_select_own_post_help": "",
-                "select_best_answer_reminder_days": "",
-                "select_best_answer_reminder_days_help": "",
-                "schedule_on_one_server": "",
-                "schedule_on_one_server_help": "",
-                "schedule_stop_overnight": "",
-                "schedule_stop_overnight_help": "",
-                "schedule_log_output": "",
-                "use_alt_ui": "",
-                "use_alt_ui_help": "",
-                "documentation": "",
-                "introduction": ""
+                "allow_select_own_post": "Öz yazını seç",
+                "allow_select_own_post_help": "OP -nin müzakirədə öz yazılarından birini ən yaxşı cavab olaraq seçməsinə icazə verin",
+                "select_best_answer_reminder_days": "Xatırlatma tezliyi",
+                "select_best_answer_reminder_days_help": "Ən yaxşı cavabı seçmək üçün OP -yə konfiqurasiya edilə bilən günlərdən sonra bir xatırlatma göndərin, 0 = xatırlatmaları deaktiv edin.",
+                "schedule_on_one_server": "Tapşırıq planlayıcısı üçün 'onOneServer ()' direktivindən istifadə edin",
+                "schedule_on_one_server_help": "Redis/Memcache tələb edir",
+                "schedule_stop_overnight": "Sosial olmayan saatlarda xatırlatma bildirişlərinin göndərilməsinin qarşısını alın",
+                "schedule_stop_overnight_help": "9:00 - 8:00 server vaxtı",
+                "schedule_log_output": "Günlük saxlamaya planlaşdırıcı çıxışını əlavə edin",
+                "use_alt_ui": "Alternativ layout",
+                "use_alt_ui_help": "Yazı altbilgisindəki ən yaxşı cavab nəzarətləri",
+                "documentation": "Sənədlər",
+                "introduction": "<code> flarum/tags </code> -də Ən Yaxşı Cavabları dəstəkləmək üçün hansı etiketləri aktivləşdirin və isteğe bağlı olaraq hansı etiketlərin xatırlatıcıları dəstəkləməsi lazımdır. Bir etiket Ən Yaxşı Cavab aktiv olduqda, cavabları təyin edə biləcək hər bir istifadəçi qrupuna icazə verin (öz müzakirəsi, hər hansı bir müzakirə). İcazələr qlobal olaraq təyin edilə bilər (hər hansı bir Ən Yaxşı Cavab verilə bilən etiket üçün) və ya hər etiketə görə.\n"
             },
             "edit_tag": {
-                "qna_label": "",
-                "reminders": ""
+                "qna_label": "Bu etiketdə ən yaxşı cavabları təyin edin",
+                "reminders": "Bu etiketdəki müzakirələr üçün ən yaxşı cavabı təyin etmək üçün xatırlatmalar göndərin"
             }
         },
         "forum": {
-            "answered_badge": "",
-            "this_best_answer": "",
-            "remove_best_answer": "",
-            "best_answer_button": "",
-            "best_answer_label": "",
+            "answered_badge": "Cavablandırdı",
+            "this_best_answer": "Ən Yaxşı Cavab seç",
+            "remove_best_answer": "Seçilmişlərdən çıxart",
+            "best_answer_button": "Ən Yaxşı Cavab",
+            "best_answer_label": "Tərəfindən <a>{username}</a> {time_set}",
             "errors": {
-                "mismatch": ""
+                "mismatch": "Seçilmiş yazı bu mövzuda yoxdur."
             },
             "notification": {
-                "best_answer_in_discussion": "",
-                "content": "",
-                "awarded": "",
+                "best_answer_in_discussion": "{username} bu mövzuda ən yaxşı cavabı təyin etdi",
+                "content": "Zəhmət olmasa sualınız cavablandırılıbsa Ən Yaxşı Cavabı seçin",
+                "awarded": "Yazınız {username} tərəfindən ən yaxşı cavab olaraq təyin edildi",
                 "preferences": {
-                    "awarded_best_answer": "",
-                    "best_answer_in_discussion": ""
+                    "awarded_best_answer": "Kimsə yazımı ən yaxşı cavab olaraq təyin edərkən",
+                    "best_answer_in_discussion": "Bir mövzuda ən yaxşı cavab verildikdə iştirak etdim"
                 }
             },
             "index": {
-                "ask_question": "",
-                "cannot_ask_question": "",
-                "solved_link": "",
-                "unsolved_link": ""
+                "ask_question": "Sual ver",
+                "cannot_ask_question": "Sual Verilə Bilmir",
+                "solved_link": "Mövzular həll edildi",
+                "unsolved_link": "Həll olunmamış mövzular"
             },
             "filter": {
-                "all_label": "",
-                "solved_label": "",
-                "unsolved_label": "",
-                "accessible_label": ""
+                "all_label": "Bütün mövzular",
+                "solved_label": "Həll edilmiş suallar",
+                "unsolved_label": "Həll olunmamış suallar",
+                "accessible_label": "Həll edilmiş/həll olunmamış seçim"
             },
             "composer": {
-                "titlePlaceholder": ""
+                "titlePlaceholder": "Sualın adı"
             }
         },
         "email": {
             "subject": {
-                "awarded": "",
-                "ba-set": "",
-                "select": ""
+                "awarded": "Yazınız {display_name} tərəfindən ən yaxşı cavab olaraq təyin edildi",
+                "ba-set": "Ən yaxşı cavab {display_name} tərəfindən təyin edildi",
+                "select": "Sualınızın cavabını ala bildinizmi?"
             },
             "body": {
                 "awarded": "",
