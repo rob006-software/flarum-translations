@@ -27,73 +27,73 @@
                     "new_name": "ชื่อเล่นของคุณถูกเปลี่ยนเป็น {name} เป็นที่เรียบร้อยเเล้ว",
                     "rejected": "คำขอเปลี่ยนชื่อเล่นของคุณได้ถูกปฏิเสธ",
                     "reason": "สาเหตุที่ปฎิเสธ <i>\"{reason}\"</i>",
-                    "resubmit": ""
+                    "resubmit": "ในตอนนี้คุณสามารถขอเปลี่ยนชื่อเล่นใหม่อีกครั้งได้จากการตั้งค่าบัญชีของคุณ หากคุณต้องการ"
                 },
                 "request": {
-                    "title": "",
-                    "current_request": "",
-                    "submit_button": "",
-                    "delete_button": "",
-                    "confirmation_message": "",
-                    "dismiss_button": "",
-                    "deleted": ""
+                    "title": "ขอเปลี่ยนชื่อเล่น",
+                    "current_request": "คุณขอเปลี่ยนชื่อเล่นเป็น \"{name” ไปเเล้ว คุณสามารถอัพเดทหรือลบเพื่อขอใหม่ได้",
+                    "submit_button": "ส่งคำขอ",
+                    "delete_button": "ลบคำขอ",
+                    "confirmation_message": "การเปลี่ยนชื่อเล่นของคุณได้ถูกส่งไปเเล้วเเละกำลังรอการอนุมัติ",
+                    "dismiss_button": "=> core.ref.okay",
+                    "deleted": "ลบคำขอชื่อเล่นเเล้ว"
                 }
             },
             "username_modals": {
                 "action": {
-                    "title": "",
-                    "help_text": "",
-                    "decision_title": "",
-                    "approval_label": "",
-                    "rejected_label": "",
-                    "submit_button": "",
-                    "reason_title": "",
-                    "success": "",
-                    "name": ""
+                    "title": "=> fof-username-request.ref.username_change_request",
+                    "help_text": "โปรดตรวจสอบว่าชื่อผู้ใช้ที่คุณขอจะไม่ละเมิดคู่มือปฎิบัติของเรา",
+                    "decision_title": "การตัดสินใจ",
+                    "approval_label": "การอนุมัติ",
+                    "rejected_label": "ปฎิเสธ",
+                    "submit_button": "ส่ง",
+                    "reason_title": "สาเหตุที่ปฎิเสธ",
+                    "success": "ส่งการตัดสินใจเเล้ว",
+                    "name": "{name} ได้ส่งคำขอเปลี่ยนชื่อผู้ใช้เป็น \"{requestedName}\""
                 },
                 "results": {
-                    "title": "",
-                    "approved": "",
-                    "dismiss_button": "",
-                    "new_name": "",
-                    "rejected": "",
-                    "reason": "",
-                    "resubmit": ""
+                    "title": "ขอเปลี่ยนชื่อผู้ใช้",
+                    "approved": "ชื่อผู้ใช้ที่คุณขอเปลี่ยนได้รับการอนุมัติเเล้ว",
+                    "dismiss_button": "=> core.ref.okay",
+                    "new_name": "ชื่อผู้ใช้ของคุณได้เปลี่ยนเป็น {name} เป็นที่เรียบร้อยเเล้ว",
+                    "rejected": "คำขอเปลี่ยนขื่อผู้ใช้ของคุณได้ถูกปฏิเสธ",
+                    "reason": "สาเหตุที่ปฎิเสธ <i>\"{reason}\"</i>",
+                    "resubmit": "ในขณะนี้คุณสามารถขอเปลี่ยนชื่อผู้ใช้อีกครั้งได้จากที่หน้าตั้งค่าบัญชีของคุณหากคุณต้องการ"
                 },
                 "request": {
-                    "title": "",
-                    "current_request": "",
-                    "submit_button": "",
-                    "delete_button": "",
-                    "confirmation_message": "",
-                    "dismiss_button": "",
-                    "deleted": ""
+                    "title": "ขอเปลี่ยนชื่อผู้ใช้",
+                    "current_request": "คำขอเปลี่ยนชื่อผู้ใช้เป็น \"{name}\" ไปเเล้วคุณสามารถอัพเดทหรือลบคำขอได้",
+                    "submit_button": "ส่งคำขอ",
+                    "delete_button": "ลบคำขอ",
+                    "confirmation_message": "คำขอเปลี่ยนชื่อผู้ใช้ขอคุณได้ถูกส่งเเล้วเเละกำลังรอการอนุมัติ",
+                    "dismiss_button": "=> core.ref.okay",
+                    "deleted": "ลบคำขอเปลี่ยนชื่อผู้ใช้"
                 }
             },
             "pending_requests": {
-                "empty_text": "",
-                "nickname_item_text": "",
-                "nickname_exerpt": "",
-                "tooltip": "",
-                "title": "",
-                "username_item_text": "",
-                "username_exerpt": ""
+                "empty_text": "ไม่มีคำขอเปลี่ยนชื่อ",
+                "nickname_item_text": "{name} ได้ขอเปลี่ยนชื่อเล่น",
+                "nickname_exerpt": "ชื่อเล่นที่ขอ: {requestedName}",
+                "tooltip": "=> fof-username-request.ref.name_change_requests",
+                "title": "=> fof-username-request.ref.name_change_requests",
+                "username_item_text": "{name} ได้ขอเปลี่ยนชื่อผู้ใช้",
+                "username_exerpt": "ชื่อผู้ใชที่ขอเปลี่ยน: {requestedName}"
             },
             "settings": {
-                "nickname_request_button": "",
-                "username_request_button": ""
+                "nickname_request_button": "เปลี่ยนชื่อเล่น",
+                "username_request_button": "เปลี่ยนชื่อผู้ใช้"
             },
             "user": {
-                "name_history_link": ""
+                "name_history_link": "ประวัติชื่อ"
             }
         },
         "ref": {
-            "name_change_request": "",
-            "name_change_requests": "",
-            "nickname_change_request": "",
-            "nickname_change_requests": "",
-            "username_change_request": "",
-            "username_change_requests": ""
+            "name_change_request": "ขอเปลี่ยนชื่อ",
+            "name_change_requests": "ขอเปลี่ยนชื่อ",
+            "nickname_change_request": "ขอเปลี่ยนชื่อเล่น",
+            "nickname_change_requests": "ขอเปลี่ยนชื่อเล่น",
+            "username_change_request": "ขอเปลี่ยนชื่อผู้ใช้",
+            "username_change_requests": "ขอเปลี่ยนชื่อผู้ใช้"
         }
     }
 }
