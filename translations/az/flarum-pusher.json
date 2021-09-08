@@ -2,16 +2,16 @@
     "flarum-pusher": {
         "admin": {
             "pusher_settings": {
-                "app_cluster_label": "",
-                "app_id_label": "",
-                "app_key_label": "",
-                "app_secret_label": "",
-                "title": ""
+                "app_cluster_label": "Küme",
+                "app_id_label": "Tətbiq ID",
+                "app_key_label": "Tətbiq açarı",
+                "app_secret_label": "Tətbiq sirri",
+                "title": "Pusher Ayarları"
             }
         },
         "forum": {
             "discussion_list": {
-                "show_updates_text": ""
+                "show_updates_text": "{count, plural, one {Show # updated discussion} başqa {Show # updated discussions}}"
             }
         }
     }
