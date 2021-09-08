@@ -1,0 +1,25 @@
+{
+    "flarum-sticky": {
+        "admin": {
+            "permissions": {
+                "sticky_discussions_label": "Закреплять дискуссии"
+            }
+        },
+        "forum": {
+            "badge": {
+                "sticky_tooltip": "=> flarum-sticky.ref.sticky"
+            },
+            "discussion_controls": {
+                "sticky_button": "Закрепить",
+                "unsticky_button": "Открепить"
+            },
+            "post_stream": {
+                "discussion_stickied_text": "{username} закрепил(а) дискуссию.",
+                "discussion_unstickied_text": "{username} открепил(а) дискуссию."
+            }
+        },
+        "ref": {
+            "sticky": "Закреплено"
+        }
+    }
+}

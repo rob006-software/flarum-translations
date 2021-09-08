@@ -1,0 +1,24 @@
+{
+    "fof-split": {
+        "admin": {
+            "permissions": {
+                "split_discussion_label": "Перемещать сообщения"
+            }
+        },
+        "forum": {
+            "post": {
+                "was_split_to": "{count, plural, one {{count} сообщение было перемещено в {target}.} other {{count} сообщений было перемещено в {target}.}}",
+                "was_split_from": "{count, plural, one {{count} сообщение было перемещено из {target}.} other {{count} сообщений было перемещено из {target}.}}"
+            },
+            "split": {
+                "from": "Переместить из",
+                "to": "Переместить в"
+            },
+            "modal": {
+                "title": "Разделить дискуссию",
+                "new_discussion_label": "Укажите название новой дискуссии",
+                "submit_button": "Разделить"
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "flarum-mentions": {
+        "admin": {
+            "settings": {
+                "allow_username_format_label": "Разрешить старый формат упоминания (@Username)",
+                "allow_username_format_text": "Текущий формат упоминания пользователя: @\"Display Name\"#ID.\nДанная настройка позволяет задействовать старый формат упоминания (@Username). Но старый формат всё равно будет преобразован в новый при сохранении сообщения.\n"
+            }
+        },
+        "forum": {
+            "composer": {
+                "mention_tooltip": "Упоминание",
+                "reply_to_post_text": "Ответить на #{number}"
+            },
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_mentioned_text": "{username} ответил(а) на Ваше сообщение",
+                "user_mentioned_text": "{username} упомянул(а) Вас"
+            },
+            "post": {
+                "mentioned_by_self_text": "{users} ответили на это сообщение.",
+                "mentioned_by_text": "{users} ответили на это сообщение.",
+                "others_text": "=> core.ref.some_others",
+                "quote_button": "Цитата",
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
+            },
+            "settings": {
+                "notify_post_mentioned_label": "Ответ на одно из моих сообщений",
+                "notify_user_mentioned_label": "Упоминание меня в сообщении"
+            },
+            "user": {
+                "mentions_link": "Упоминания"
+            },
+            "post_mention": {
+                "deleted_text": "[неизвестно]"
+            }
+        },
+        "email": {
+            "post_mentioned": {
+                "subject": "{replier_display_name} ответил на Ваше сообщение в {title}",
+                "body": "Привет, {recipient_display_name}!\n\n{replier_display_name} ответил на Ваше сообщение (#{post_number}) в {title}.\n\n{url}\n\n---\n\n{content}\n"
+            },
+            "user_mentioned": {
+                "subject": "{mentioner_display_name} упомянул Вас в {title}",
+                "body": "Привет, {recipient_display_name}!\n\n{mentioner_display_name} упомянул Вас в своём сообщении в {title}.\n\n{url}\n\n---\n\n{content}\n"
+            }
+        }
+    }
+}

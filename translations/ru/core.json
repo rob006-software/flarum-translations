@@ -1,0 +1,606 @@
+{
+    "core": {
+        "admin": {
+            "appearance": {
+                "colored_header_label": "Цветная шапка",
+                "colors_heading": "Цвета",
+                "colors_text": "Выберите два цвета для стилизации форума. Первый будет использоваться в качестве цвета подсветки, второй будет использоваться в качестве фона стилевых элементов.",
+                "custom_footer_heading": "Нижний колонтитул",
+                "custom_footer_text": "=> core.ref.custom_footer_text",
+                "custom_header_heading": "Верхний колонтитул",
+                "custom_header_text": "=> core.ref.custom_header_text",
+                "custom_styles_heading": "Пользовательские стили",
+                "custom_styles_text": "Настройка внешнего вида форума при помощи пользовательского кода LESS/CSS, который переопределяет стандартные стилевые конструкции Flarum.",
+                "dark_mode_label": "Тёмный режим",
+                "description": "Настройка цвета, логотипа и других элементов оформления.",
+                "edit_css_button": "Редактировать CSS",
+                "edit_footer_button": "=> core.ref.custom_footer_title",
+                "edit_header_button": "=> core.ref.custom_header_title",
+                "enter_hex_message": "Пожалуйста, введите код цвета в формате HEX.",
+                "favicon_heading": "Favicon",
+                "favicon_text": "Загрузите изображение, которое будет отображаться в качестве значка форума.",
+                "logo_heading": "Логотип",
+                "logo_text": "Загрузите изображение, которое будет отображаться вместо названия форума.",
+                "title": "Оформление"
+            },
+            "basics": {
+                "all_discussions_label": "=> core.ref.all_discussions",
+                "default_language_heading": "Язык по умолчанию",
+                "description": "Настройка названия форума, локализации и других основных параметров.",
+                "display_name_heading": "Отображаемое имя",
+                "display_name_text": "Выберите драйвер, который должен использоваться для отображаемых имён пользователей. По умолчанию, используется username.",
+                "forum_description_heading": "Описание форума",
+                "forum_description_text": "Введите краткое описание сообщества. Описание появится в одноимённом meta-теге и будет использоваться поисковыми системами.",
+                "forum_title_heading": "Название форума",
+                "home_page_heading": "Главная страница",
+                "home_page_text": "Выберите страницу, которую пользователи будут видеть первой при посещении форума.",
+                "show_language_selector_label": "Показывать переключатель языка",
+                "slug_driver_heading": "Драйвер путей: {model}",
+                "slug_driver_text": "Выберите драйвер, который будет использоваться при создании семантических путей (URL) для этой модели.",
+                "title": "Основные",
+                "welcome_banner_heading": "Баннер приветствия",
+                "welcome_banner_text": "Введите текст, который будет отображаться на всех страницах форума. Используйте этот элемент для того, чтобы приветствовать гостей форума."
+            },
+            "dashboard": {
+                "clear_cache_button": "Очистить кэш",
+                "description": "Панель управления форумом.",
+                "title": "Панель управления",
+                "tools_button": "Инструменты"
+            },
+            "edit_css": {
+                "customize_text": "Настройка внешнего вида форума при помощи пользовательского кода LESS/CSS, который переопределяет <a>стандартные стилевые конструкции</a> Flarum.",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Редактирование CSS"
+            },
+            "edit_footer": {
+                "customize_text": "=> core.ref.custom_footer_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_footer_title"
+            },
+            "edit_group": {
+                "color_label": "=> core.ref.color",
+                "delete_button": "Удалить группу",
+                "delete_confirmation": "Вы уверены, что хотите удалить группу? Пользователи в этой группе НЕ будут удалены.",
+                "hide_label": "Скрытая группа",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "Название",
+                "plural_placeholder": "Множественное число",
+                "singular_placeholder": "Единственное число",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Создание группы"
+            },
+            "edit_header": {
+                "customize_text": "=> core.ref.custom_header_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_header_title"
+            },
+            "email": {
+                "addresses_heading": "Адреса",
+                "description": "Настройка драйвера, параметров и адресов, которые будут использоваться на Вашем форуме для отправки e-mail.",
+                "driver_heading": "Выберите драйвер",
+                "driver_label": "Драйвер",
+                "from_label": "Отправитель",
+                "mail_encryption_label": "Шифрование",
+                "mail_host_label": "Хост",
+                "mail_mailgun_domain_label": "Домен",
+                "mail_mailgun_region_label": "Регион",
+                "mail_mailgun_secret_label": "Секретный ключ",
+                "mail_password_label": "=> core.ref.password",
+                "mail_port_label": "Порт",
+                "mail_username_label": "=> core.ref.username",
+                "mailgun_heading": "Настройки Mailgun",
+                "not_sending_message": "Сейчас Flarum не отправляет электронные письма. Это может быть связано с выбранным драйвером или параметрами конфигурации.",
+                "send_test_mail_button": "Отправить",
+                "send_test_mail_heading": "Отправить пробное письмо",
+                "send_test_mail_success": "Пробное письмо успешно отправлено!",
+                "send_test_mail_text": "На Ваш адрес электронной почты {email} будет отправлено письмо с использованием указанной выше конфигурации.",
+                "smtp_heading": "Настройки SMTP",
+                "title": "=> core.ref.email"
+            },
+            "extension": {
+                "configure_scopes": "Configure Scopes",
+                "confirm_uninstall": "При удалении будут удалены все записи базы данных и ресурсы, связанные с расширением. Вы уверены, что хотите продолжить?",
+                "disabled": "Отключено",
+                "enable_to_see": "Включите расширение для отображения и изменения его настроек.",
+                "enabled": "Включено",
+                "info_links": {
+                    "discuss": "Обсуждение",
+                    "documentation": "Документация",
+                    "donate": "Поддержать",
+                    "source": "Исходный код",
+                    "support": "Помощь",
+                    "website": "Сайт"
+                },
+                "no_permissions": "Расширение не имеет разрешений.",
+                "no_settings": "Расширение не имеет настроек.",
+                "open_modal": "Открыть настройки",
+                "permissions_title": "Разрешения",
+                "uninstall_button": "Удалить"
+            },
+            "header": {
+                "get_help": "Помощь",
+                "log_out_button": "=> core.ref.log_out"
+            },
+            "loading": {
+                "title": "Пожалуйста, подождите..."
+            },
+            "nav": {
+                "appearance_button": "=> core.admin.appearance.title",
+                "appearance_title": "=> core.admin.appearance.description",
+                "basics_button": "=> core.admin.basics.title",
+                "basics_title": "=> core.admin.basics.description",
+                "categories": {
+                    "authentication": "Аутентификация",
+                    "core": "Настройки форума",
+                    "discussion": "Общение",
+                    "feature": "Особенности",
+                    "formatting": "Форматирование",
+                    "language": "Языки",
+                    "moderation": "Модерация",
+                    "other": "Другие расширения",
+                    "theme": "Оформление"
+                },
+                "dashboard_button": "=> core.admin.dashboard.title",
+                "dashboard_title": "=> core.admin.dashboard.description",
+                "email_button": "=> core.ref.email",
+                "email_title": "=> core.admin.email.description",
+                "permissions_button": "=> core.admin.permissions.title",
+                "permissions_title": "=> core.admin.permissions.description",
+                "userlist_button": "=> core.admin.users.title",
+                "userlist_title": "=> core.admin.users.description",
+                "search_placeholder": "Поиск расширений..."
+            },
+            "permissions": {
+                "allow_post_editing_label": "Разрешить изменять сообщение",
+                "allow_renaming_label": "Разрешить изменять название дискуссии",
+                "create_heading": "Создание",
+                "delete_discussions_forever_label": "Удалять дискуссии (навсегда)",
+                "delete_discussions_label": "Удалять дискуссии",
+                "delete_posts_forever_label": "Удалять сообщения (навсегда)",
+                "delete_posts_label": "Удалять сообщения",
+                "description": "Настройка прав доступа к различным местам и функциям форума.",
+                "edit_posts_label": "Редактировать сообщения",
+                "edit_users_label": "Редактировать пользователей",
+                "edit_users_credentials_label": "Редактировать учётные данные пользователя",
+                "edit_users_groups_label": "Редактировать группы пользователя",
+                "global_heading": "Глобальные",
+                "moderate_heading": "Модерация",
+                "new_group_button": "Новая группа",
+                "participate_heading": "Участие",
+                "post_without_throttle_label": "Отвечать подряд без ожидания",
+                "read_heading": "Чтение",
+                "rename_discussions_label": "Изменять название дискуссий",
+                "reply_to_discussions_label": "Отвечать в дискуссии",
+                "search_users_label": "Искать пользователей",
+                "sign_up_label": "Регистрация пользователей",
+                "start_discussions_label": "Создавать дискуссии",
+                "title": "Разрешения",
+                "view_forum_label": "Смотреть форум (дискуссий и пользователей)",
+                "view_hidden_groups_label": "Смотреть скрытые группы",
+                "view_last_seen_at_label": "Смотреть время последнего посещения",
+                "view_post_ips_label": "Смотреть IP"
+            },
+            "permissions_controls": {
+                "allow_indefinitely_button": "Неограниченно",
+                "allow_some_minutes_button": "{count, plural, one {На # минуты} other {На # минут}}",
+                "allow_ten_minutes_button": "На 10 минут",
+                "allow_until_reply_button": "До ответа",
+                "everyone_button": "Все",
+                "members_button": "=> core.group.members",
+                "signup_closed_button": "Закрыто",
+                "signup_open_button": "Открыто"
+            },
+            "settings": {
+                "saved_message": "Настройки сохранены.",
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "upload_image": {
+                "remove_button": "=> core.ref.remove",
+                "upload_button": "Выбрать изображение..."
+            },
+            "users": {
+                "description": "Список всех пользователей форума.",
+                "grid": {
+                    "columns": {
+                        "edit_user": {
+                            "button": "=> core.ref.edit",
+                            "title": "=> core.ref.edit_user",
+                            "tooltip": "Изменить {username}"
+                        },
+                        "email": {
+                            "title": "=> core.ref.email",
+                            "visibility_hide": "Скрыть e-mail",
+                            "visibility_show": "Показать e-mail"
+                        },
+                        "group_badges": {
+                            "no_badges": "Нет",
+                            "title": "Группы"
+                        },
+                        "join_time": {
+                            "title": "Регистрация"
+                        },
+                        "user_id": {
+                            "title": "ID"
+                        },
+                        "username": {
+                            "profile_link_tooltip": "Посмотреть профиль {username}",
+                            "title": "=> core.ref.username"
+                        }
+                    },
+                    "invalid_column_content": "Недопустимое содержимое"
+                },
+                "pagination": {
+                    "back_button": "Предыдущая страница",
+                    "next_button": "Следующая страница",
+                    "page_counter": "Страница: {current} / {total}"
+                },
+                "title": "=> core.ref.users",
+                "total_users": "Всего пользователей: {count}"
+            }
+        },
+        "forum": {
+            "change_email": {
+                "confirm_password_placeholder": "=> core.ref.confirm_password",
+                "confirmation_message": "=> core.ref.confirmation_email_sent",
+                "dismiss_button": "=> core.ref.okay",
+                "incorrect_password_message": "Введённый Вами пароль неверный.",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.change_email"
+            },
+            "change_password": {
+                "send_button": "Отправить пароль",
+                "text": "Нажмите на кнопку ниже для отправки ссылки изменения пароля на Ваш e-mail.",
+                "title": "=> core.ref.change_password"
+            },
+            "composer": {
+                "close_tooltip": "Закрыть",
+                "exit_full_screen_tooltip": "Выход из полноэкранного режима",
+                "full_screen_tooltip": "Развернуть",
+                "minimize_tooltip": "Свернуть",
+                "preview_tooltip": "Пред-просмотр"
+            },
+            "composer_discussion": {
+                "body_placeholder": "Введите сообщение...",
+                "discard_confirmation": "Вы не создали дискуссию. Вы хотите отменить дискуссию?",
+                "submit_button": "Создать",
+                "title": "=> core.ref.start_a_discussion",
+                "title_placeholder": "Название дискуссии..."
+            },
+            "composer_edit": {
+                "discard_confirmation": "Вы не сохранили изменения. Вы хотите отказаться от них?",
+                "edited_message": "Ваши правки сохранены.",
+                "post_link": "Сообщение #{number} в {discussion}",
+                "submit_button": "=> core.ref.save_changes",
+                "view_button": "=> core.ref.view"
+            },
+            "composer_reply": {
+                "body_placeholder": "=> core.ref.write_a_reply",
+                "discard_confirmation": "Вы не отправили свой ответ. Вы хотите отменить сообщение?",
+                "posted_message": "Ваше сообщение опубликовано.",
+                "submit_button": "Отправить",
+                "view_button": "=> core.ref.view"
+            },
+            "discussion_controls": {
+                "cannot_reply_button": "Нельзя ответить",
+                "cannot_reply_text": "У Вас нет прав доступа для публикации ответа в этой дискуссии.",
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "Вы уверены, что хотите удалить дискуссию?",
+                "delete_forever_button": "=> core.ref.delete_forever",
+                "log_in_to_reply_button": "Войти для ответа",
+                "rename_button": "=> core.ref.rename",
+                "reply_button": "=> core.ref.reply",
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": "Выпадающее меню управления дискуссией"
+            },
+            "discussion_list": {
+                "empty_text": "Кажется, здесь нет дискуссий.",
+                "load_more_button": "=> core.ref.load_more",
+                "mark_as_read_tooltip": "Отметить как прочитанное",
+                "replied_text": "{username} ответил(а) {ago}",
+                "started_text": "{username} создал(а) {ago}"
+            },
+            "forgot_password": {
+                "dismiss_button": "=> core.ref.okay",
+                "email_placeholder": "=> core.ref.email",
+                "email_sent_message": "Мы отправили Вам письмо, содержащее ссылку для восстановления пароля. Проверьте папку со спамом, если Вы не получили письмо в течение нескольких минут.",
+                "not_found_message": "Пользователи с указанным e-mail не найдены.",
+                "submit_button": "Восстановить пароль",
+                "text": "Введите свой e-mail и мы отправим Вам ссылку для сброса пароля.",
+                "title": "Забыли пароль?"
+            },
+            "header": {
+                "admin_button": "Управление",
+                "back_to_index_tooltip": "Вернуться к списку дискуссий",
+                "locale_dropdown_accessible_label": "Изменить язык форума",
+                "log_in_link": "=> core.ref.log_in",
+                "log_out_button": "=> core.ref.log_out",
+                "profile_button": "Профиль",
+                "search_placeholder": "Поиск...",
+                "session_dropdown_accessible_label": "Меню опций сессии",
+                "settings_button": "=> core.ref.settings",
+                "sign_up_link": "=> core.ref.sign_up"
+            },
+            "index": {
+                "all_discussions_link": "=> core.ref.all_discussions",
+                "cannot_start_discussion_button": "Нельзя создать",
+                "mark_all_as_read_confirmation": "Вы уверены, что хотите отметить все дискуссии прочитанными?",
+                "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "meta_title_text": "=> core.ref.all_discussions",
+                "refresh_tooltip": "Обновить",
+                "start_discussion_button": "=> core.ref.start_a_discussion",
+                "toggle_sidenav_dropdown_accessible_label": "Меню навигации"
+            },
+            "index_sort": {
+                "latest_button": "По обновлению",
+                "newest_button": "Новое",
+                "oldest_button": "Старое",
+                "relevance_button": "По релевантности",
+                "toggle_dropdown_accessible_label": "Изменить сортировку списка дискуссий",
+                "top_button": "Популярное"
+            },
+            "log_in": {
+                "forgot_password_link": "Забыли пароль?",
+                "invalid_login_message": "Ваши данные для входа некорректны.",
+                "password_placeholder": "=> core.ref.password",
+                "remember_me_label": "Запомнить меня",
+                "sign_up_text": "У Вас нет аккаунта? <a>Регистрация</a>",
+                "submit_button": "=> core.ref.log_in",
+                "title": "=> core.ref.log_in",
+                "username_or_email_placeholder": "Имя пользователя или e-mail"
+            },
+            "notifications": {
+                "discussion_renamed_text": "{username} изменил(а) название",
+                "empty_text": "Уведомления отсутствуют",
+                "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
+                "mark_as_read_tooltip": "Отметить как прочитанное",
+                "title": "=> core.ref.notifications",
+                "toggle_dropdown_accessible_label": "Смотреть уведомления",
+                "tooltip": "=> core.ref.notifications"
+            },
+            "post": {
+                "edited_text": "Изменено",
+                "edited_tooltip": "{username} изменил(а) {ago}",
+                "number_tooltip": "Сообщение #{number}"
+            },
+            "post_controls": {
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "Вы уверены, что хотите удалить сообщение навсегда? Это действие невозможно отменить.",
+                "delete_forever_button": "=> core.ref.delete_forever",
+                "edit_button": "=> core.ref.edit",
+                "hide_confirmation": "Вы уверены, что хотите удалить сообщение?",
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": "Выпадающее меню управления сообщением"
+            },
+            "post_scrubber": {
+                "now_link": "Сейчас",
+                "original_post_link": "Начало",
+                "unread_text": "{count} не прочитано",
+                "viewing_text": "{count, plural, one {{index} / {formattedCount} сообщения} other {{index} / {formattedCount} сообщений}}"
+            },
+            "post_stream": {
+                "discussion_renamed_old_tooltip": "Старое название: \"{old}\"",
+                "discussion_renamed_text": "{username} изменил(а) название на \"{new}\".",
+                "load_more_button": "=> core.ref.load_more",
+                "reply_placeholder": "=> core.ref.write_a_reply",
+                "time_lapsed_text": "{period} спустя"
+            },
+            "rename_discussion": {
+                "submit_button": "=> core.ref.rename",
+                "title": "Изменение названия"
+            },
+            "search": {
+                "all_discussions_button": "Поиск по запросу: \"{query}\"",
+                "discussions_heading": "=> core.ref.discussions",
+                "users_heading": "=> core.ref.users"
+            },
+            "settings": {
+                "account_heading": "Аккаунт",
+                "change_email_button": "=> core.ref.change_email",
+                "change_password_button": "=> core.ref.change_password",
+                "notifications_heading": "=> core.ref.notifications",
+                "notify_by_email_heading": "=> core.ref.email",
+                "notify_by_web_heading": "Web",
+                "notify_discussion_renamed_label": "Изменение названия моей дискуссии",
+                "privacy_disclose_online_label": "Показывать мой статус online",
+                "privacy_heading": "Конфиденциальность",
+                "title": "=> core.ref.settings"
+            },
+            "sign_up": {
+                "dismiss_button": "=> core.ref.okay",
+                "email_placeholder": "=> core.ref.email",
+                "log_in_text": "Вы уже зарегистрированы? <a>Войти</a>",
+                "password_placeholder": "=> core.ref.password",
+                "submit_button": "=> core.ref.sign_up",
+                "title": "=> core.ref.sign_up",
+                "username_placeholder": "=> core.ref.username",
+                "welcome_text": "Привет, {username}!"
+            },
+            "user": {
+                "avatar_remove_button": "=> core.ref.remove",
+                "avatar_upload_button": "Изменить",
+                "avatar_upload_tooltip": "Загрузить аватар",
+                "discussions_link": "=> core.ref.discussions",
+                "in_discussion_text": "В \"{discussion}\"",
+                "joined_date_text": "Регистрация: {ago}",
+                "online_text": "В сети",
+                "posts_empty_text": "Кажется, здесь нет сообщений.",
+                "posts_link": "=> core.ref.posts",
+                "posts_load_more_button": "=> core.ref.load_more",
+                "settings_link": "=> core.ref.settings"
+            },
+            "user_controls": {
+                "button": "Управление",
+                "delete_button": "=> core.ref.delete",
+                "delete_confirmation": "Вы уверены, что хотите удалить пользователя? Сообщения пользователя НЕ будут удалены.",
+                "delete_error_message": "Не удалось удалить пользователя <i>{username} ({email})</i>",
+                "delete_success_message": "Пользователь <i>{username} ({email})</i> удалён",
+                "edit_button": "=> core.ref.edit",
+                "toggle_dropdown_accessible_label": "Выпадающее меню управления пользователем"
+            },
+            "user_email_confirmation": {
+                "alert_message": "=> core.ref.confirmation_email_sent",
+                "resend_button": "Повторно отправить подтверждение по e-mail",
+                "sent_message": "Отправлено"
+            }
+        },
+        "lib": {
+            "badge": {
+                "hidden_tooltip": "Скрыто"
+            },
+            "dropdown": {
+                "toggle_dropdown_accessible_label": "Выпадающее меню"
+            },
+            "edit_user": {
+                "activate_button": "Активировать пользователя",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "Группы",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "Установить новый пароль",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.edit_user",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username"
+            },
+            "error": {
+                "dependent_extensions_message": "Невозможно отключить {extension}, пока не будут отключены следующие зависимые расширения: {extensions}",
+                "generic_message": "Упс! Что-то пошло не так. Пожалуйста, обновите страницу и попробуйте ещё раз.",
+                "missing_dependencies_message": "Невозможно включить {extension}, пока не будут включены следующие зависимые расширения: {extensions}",
+                "not_found_message": "Запрашиваемый ресурс не найден.",
+                "permission_denied_message": "У Вас нет прав доступа для выполнения этого действия.",
+                "rate_limit_exceeded_message": "Вы размещаете сообщения слишком часто. Пожалуйста, попробуйте ещё раз через несколько секунд."
+            },
+            "loading_indicator": {
+                "accessible_label": "=> core.ref.loading"
+            },
+            "number_suffix": {
+                "kilo_text": "K",
+                "mega_text": "M"
+            },
+            "series": {
+                "glue_text": ", ",
+                "three_text": "{first}, {second} и {third}",
+                "two_text": "{first} и {second}"
+            },
+            "username": {
+                "deleted_text": "[удалено]"
+            }
+        },
+        "views": {
+            "content": {
+                "javascript_disabled_message": "Этот сайт лучше всего просматривать в современном браузере с включённым JavaScript.",
+                "load_error_message": "Что-то пошло не так при попытке загрузить полную версию этого сайта. Попробуйте обновить страницу с удалением кэша браузера (CTRL+F5) для решения этой проблемы.",
+                "loading_text": "Загрузка..."
+            },
+            "discussion": {
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
+            },
+            "error": {
+                "csrf_token_mismatch": "Вы были неактивны продолжительное время.",
+                "csrf_token_mismatch_return_link": "Вернитесь назад и попробуйте ещё раз",
+                "invalid_confirmation_token": "Ссылка для подтверждения недействительна или уже была использована.",
+                "not_authenticated": "У Вас нет прав доступа к этой странице. Попробуйте ещё раз после входа в свой аккаунт.",
+                "not_found": "Страница по Вашему запросу не найдена.",
+                "not_found_return_link": "Вернуться на {forum}",
+                "permission_denied": "У Вас нет прав доступа к этой странице.",
+                "unknown": "Произошла ошибка при попытке загрузить страницу."
+            },
+            "index": {
+                "all_discussions_heading": "=> core.ref.all_discussions",
+                "next_page_button": "=> core.ref.next_page",
+                "previous_page_button": "=> core.ref.previous_page"
+            },
+            "log_out": {
+                "log_out_button": "=> core.ref.log_out",
+                "log_out_confirmation": "Вы уверены, что хотите выйти из {forum}?",
+                "title": "=> core.ref.log_out"
+            },
+            "reset_password": {
+                "confirm_password_label": "Подтвердить пароль",
+                "new_password_label": "Новый пароль",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.reset_your_password"
+            }
+        },
+        "api": {
+            "invalid_username_message": "Имя пользователя может содержать только буквы, цифры и тире."
+        },
+        "email": {
+            "activate_account": {
+                "subject": "Активация Вашего аккаунта",
+                "body": "Привет, {username}!\n\nВы зарегистрировались на форуме {forum} с этим адресом электронной почты.\n\nНажмите на ссылку и Ваш аккаунт будет активирован:\n{url}\n\nЕсли Вы не регистрировались, пожалуйста, проигнорируйте это сообщение.\n"
+            },
+            "confirm_email": {
+                "subject": "Подтверждение нового адреса e-mail",
+                "body": "Привет, {username}!\n\nВы изменили адрес электронной почты на форуме {forum}.\n\nНажмите на ссылку и Ваш адрес электронной почты будет подтверждён:\n{url}\n\nЕсли это не Вы, пожалуйста, проигнорируйте это сообщение.\n"
+            },
+            "reset_password": {
+                "subject": "=> core.ref.reset_your_password",
+                "body": "Привет, {username}!\n\nВы подали запрос на сброс пароля для аккаунта на форуме {forum}.\n\nНажмите на ссылку для сброса пароля:\n{url}\n\nЕсли Вы не хотите менять свой пароль, просто проигнорируйте это сообщение и ничего не произойдёт.\n"
+            },
+            "send_test": {
+                "subject": "Проверка электронной почты Flarum",
+                "body": "Привет, {username}!\n\nЭто проверочное письмо означает, что Ваши параметры электронной почты настроены корректно.\n\nЕсли Вы инициализировали данную проверку, то Вы корректно настроили отправку электронной почты с форума.\n\nЕсли Вы НЕ инициализировали данную проверку, проигнорируйте это сообщение.\n"
+            }
+        },
+        "ref": {
+            "all_discussions": "Все дискуссии",
+            "change_email": "Изменить e-mail",
+            "change_password": "Изменить пароль",
+            "color": "Цвет",
+            "confirm_password": "Подтвердить пароль",
+            "confirmation_email_sent": "Мы отправили письмо с подтверждением на адрес {email}. Если Вы не получите письмо в ближайшее время, проверьте папку со спамом.",
+            "custom_footer_text": "HTML, который будет отображаться в самой нижней части страницы.",
+            "custom_footer_title": "Редактирование нижнего колонтитула",
+            "custom_header_text": "HTML, который будет отображаться в самой верхней части страницы, над заголовком Flarum.",
+            "custom_header_title": "Редактирование верхнего колонтитула",
+            "delete": "Удалить",
+            "delete_forever": "Удалить (навсегда)",
+            "discussions": "Дискуссии",
+            "edit": "Править",
+            "edit_user": "Изменить пользователя",
+            "email": "E-mail",
+            "icon": "Иконка",
+            "icon_text": "Введите название любого класса иконки <a>Font Awesome</a>, <em>включая</em> префикс <code>fas fa-</code>.",
+            "load_more": "Загрузить ещё",
+            "loading": "Загрузка...",
+            "log_in": "Войти",
+            "log_out": "Выйти",
+            "mark_all_as_read": "Отметить всё как прочитанное",
+            "next_page": "Следующая страница",
+            "notifications": "Уведомления",
+            "okay": "ОК",
+            "password": "Пароль",
+            "posts": "Сообщения",
+            "previous_page": "Предыдущая страница",
+            "remove": "Удалить",
+            "rename": "Переименовать",
+            "reply": "Ответить",
+            "reset_your_password": "Сбросить пароль",
+            "restore": "Восстановить",
+            "save_changes": "Сохранить",
+            "settings": "Настройки",
+            "sign_up": "Регистрация",
+            "some_others": "{count} другому|{count} другим",
+            "start_a_discussion": "Создать дискуссию",
+            "username": "Имя пользователя",
+            "users": "Пользователи",
+            "view": "Посмотреть",
+            "write_a_reply": "Написать ответ...",
+            "you": "Вы"
+        },
+        "group": {
+            "admin": "Админ",
+            "admins": "Админы",
+            "guest": "Гость",
+            "guests": "Гости",
+            "member": "Пользователь",
+            "members": "Пользователи",
+            "mod": "Модер",
+            "mods": "Модеры"
+        }
+    }
+}
