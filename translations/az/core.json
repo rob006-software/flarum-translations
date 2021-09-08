@@ -161,82 +161,82 @@
                 "delete_posts_label": "Yazıları silin",
                 "description": "Kimin görə biləcəyini və nə edəcəyini təyin edin.",
                 "edit_posts_label": "Yazıları redaktə edin",
-                "edit_users_label": "",
-                "edit_users_credentials_label": "",
-                "edit_users_groups_label": "",
-                "global_heading": "",
-                "moderate_heading": "",
-                "new_group_button": "",
-                "participate_heading": "",
-                "post_without_throttle_label": "",
-                "read_heading": "",
-                "rename_discussions_label": "",
-                "reply_to_discussions_label": "",
-                "search_users_label": "",
-                "sign_up_label": "",
-                "start_discussions_label": "",
-                "title": "",
-                "view_forum_label": "",
-                "view_hidden_groups_label": "",
-                "view_last_seen_at_label": "",
-                "view_post_ips_label": ""
+                "edit_users_label": "İstifadəçi xüsusiyyətlərini redaktə edin",
+                "edit_users_credentials_label": "İstifadəçi məlumatlarını redaktə edin",
+                "edit_users_groups_label": "İstifadəçi qruplarını redaktə edin",
+                "global_heading": "Qlobal",
+                "moderate_heading": "Orta",
+                "new_group_button": "Yeni Qrup",
+                "participate_heading": "İştirak et",
+                "post_without_throttle_label": "Gözləmədən dəfələrlə cavab verin",
+                "read_heading": "Oxuyun",
+                "rename_discussions_label": "Mövzuların adını dəyişin",
+                "reply_to_discussions_label": "Müzakirələrə cavab verin",
+                "search_users_label": "İstifadəçiləri axtarın",
+                "sign_up_label": "Qeydiyyatdan",
+                "start_discussions_label": "Mövzu aç",
+                "title": "İcazələr",
+                "view_forum_label": "Foruma baxın (müzakirələr və istifadəçilər)",
+                "view_hidden_groups_label": "Gizli qrup nişanlarına baxın",
+                "view_last_seen_at_label": "İstifadəçinin son gördüyü vaxta həmişə baxın",
+                "view_post_ips_label": "Post IP ünvanlarına baxın"
             },
             "permissions_controls": {
-                "allow_indefinitely_button": "",
+                "allow_indefinitely_button": "Sonsuza qədər",
                 "allow_some_minutes_button": "",
-                "allow_ten_minutes_button": "",
-                "allow_until_reply_button": "",
-                "everyone_button": "",
+                "allow_ten_minutes_button": "10 dəqiqə ərzində",
+                "allow_until_reply_button": "Növbəti cavaba qədər",
+                "everyone_button": "Hər kəs",
                 "members_button": "",
-                "signup_closed_button": "",
-                "signup_open_button": ""
+                "signup_closed_button": "Bağlı",
+                "signup_open_button": "Aç"
             },
             "settings": {
-                "saved_message": "",
+                "saved_message": "Dəyişiklikləriniz saxlanıldı.",
                 "submit_button": ""
             },
             "upload_image": {
                 "remove_button": "",
-                "upload_button": ""
+                "upload_button": "Şəkil seçin ..."
             },
             "users": {
-                "description": "",
+                "description": "Forumunuzdakı bütün istifadəçilərin səhifələnmiş siyahısı.",
                 "grid": {
                     "columns": {
                         "edit_user": {
                             "button": "",
                             "title": "",
-                            "tooltip": ""
+                            "tooltip": "{username} redaktə et"
                         },
                         "email": {
                             "title": "",
-                            "visibility_hide": "",
-                            "visibility_show": ""
+                            "visibility_hide": "E -poçt ünvanını gizlət",
+                            "visibility_show": "E -poçt ünvanını göstərin"
                         },
                         "group_badges": {
-                            "no_badges": "",
-                            "title": ""
+                            "no_badges": "Heç biri",
+                            "title": "Qruplar"
                         },
                         "join_time": {
-                            "title": ""
+                            "title": "Qoşuldu"
                         },
                         "user_id": {
-                            "title": ""
+                            "title": "İD"
                         },
                         "username": {
-                            "profile_link_tooltip": "",
+                            "profile_link_tooltip": "{username} profilini ziyaret edin",
                             "title": ""
                         }
                     },
-                    "invalid_column_content": ""
+                    "invalid_column_content": "Yanlış"
                 },
                 "pagination": {
-                    "back_button": "",
-                    "next_button": "",
-                    "page_counter": ""
+                    "back_button": "Əvvəlki səhifə",
+                    "next_button": "Növbəti səhifə",
+                    "page_counter": "Səhifə {current} of {total}"
                 },
                 "title": "",
-                "total_users": ""
+                "total_users": "Ümumi istifadəçilər: {count}"
             }
         },
         "forum": {
@@ -244,234 +244,234 @@
                 "confirm_password_placeholder": "",
                 "confirmation_message": "",
                 "dismiss_button": "",
-                "incorrect_password_message": "",
+                "incorrect_password_message": "Daxil etdiyiniz parol səhvdir.",
                 "submit_button": "",
                 "title": ""
             },
             "change_password": {
-                "send_button": "",
-                "text": "",
+                "send_button": "Şifrə sıfırlama e -poçt göndər",
+                "text": "Aşağıdakı düyməni basın və parolunuzu dəyişdirmək üçün bir e -poçtu yoxlayın.",
                 "title": ""
             },
             "composer": {
-                "close_tooltip": "",
-                "exit_full_screen_tooltip": "",
-                "full_screen_tooltip": "",
-                "minimize_tooltip": "",
-                "preview_tooltip": ""
+                "close_tooltip": "Bağla",
+                "exit_full_screen_tooltip": "Tam Ekrandan çıx",
+                "full_screen_tooltip": "Tam Ekran",
+                "minimize_tooltip": "Minimize et",
+                "preview_tooltip": "Önizləmə"
             },
             "composer_discussion": {
-                "body_placeholder": "",
-                "discard_confirmation": "",
-                "submit_button": "",
+                "body_placeholder": "Yazı yazın ...",
+                "discard_confirmation": "Müzakirənizi yerləşdirmədiniz. Silinsin?",
+                "submit_button": "Müzakirə sonrası",
                 "title": "",
-                "title_placeholder": ""
+                "title_placeholder": "Mövzu Başlığı"
             },
             "composer_edit": {
-                "discard_confirmation": "",
-                "edited_message": "",
+                "discard_confirmation": "Dəyişikliklərinizi saxlamamısınız. Silinsin?",
+                "edited_message": "Redaktə edildi.",
                 "post_link": "",
                 "submit_button": "",
                 "view_button": ""
             },
             "composer_reply": {
                 "body_placeholder": "",
-                "discard_confirmation": "",
-                "posted_message": "",
-                "submit_button": "",
+                "discard_confirmation": "Cavabınızı göndərməmisiniz. Silinsin?",
+                "posted_message": "Cavabınız göndərildi.",
+                "submit_button": "Cavabla",
                 "view_button": ""
             },
             "discussion_controls": {
-                "cannot_reply_button": "",
-                "cannot_reply_text": "",
+                "cannot_reply_button": "Cavablama",
+                "cannot_reply_text": "Bu mövzuya cavab vermək üçün icazəniz yoxdur.",
                 "delete_button": "",
-                "delete_confirmation": "",
+                "delete_confirmation": "Bu mövzunu silmək istədiyinizə əminsiniz?",
                 "delete_forever_button": "",
-                "log_in_to_reply_button": "",
+                "log_in_to_reply_button": "Cavablandırmaq üçün daxil olun",
                 "rename_button": "",
                 "reply_button": "",
                 "restore_button": "",
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "Müzakirə hərəkətlərini açılan menyudan keçin"
             },
             "discussion_list": {
-                "empty_text": "",
+                "empty_text": "Görünür burada heç bir müzakirə yoxdur.",
                 "load_more_button": "",
-                "mark_as_read_tooltip": "",
-                "replied_text": "",
-                "started_text": ""
+                "mark_as_read_tooltip": "Oxudum",
+                "replied_text": "{username} cavabladı {ago}",
+                "started_text": "{username} başlatdı {ago}"
             },
             "forgot_password": {
                 "dismiss_button": "",
                 "email_placeholder": "",
-                "email_sent_message": "",
-                "not_found_message": "",
-                "submit_button": "",
-                "text": "",
-                "title": ""
+                "email_sent_message": "Şifrənizi sıfırlamaq üçün təlimatları e-poçt ünvanınıza göndərdik (Mesajımızı gələnlər qutusunda görməsəniz spam qutusuna baxın)",
+                "not_found_message": "Bu e -poçt ünvanı ilə qeydiyyatdan keçə bilərsiniz.",
+                "submit_button": "Şifrəni bərpa et",
+                "text": "E -poçt ünvanınızı daxil edin. Şifrənizi sıfırlamaq üçün sizə bir link göndərəcəyik.",
+                "title": "Şifrəni unutmuşam"
             },
             "header": {
-                "admin_button": "",
-                "back_to_index_tooltip": "",
-                "locale_dropdown_accessible_label": "",
+                "admin_button": "Administrator",
+                "back_to_index_tooltip": "Mövzular siyahısına qayıt",
+                "locale_dropdown_accessible_label": "Dili dəyiş",
                 "log_in_link": "",
                 "log_out_button": "",
-                "profile_button": "",
-                "search_placeholder": "",
-                "session_dropdown_accessible_label": "",
+                "profile_button": "Profil",
+                "search_placeholder": "Axtarış",
+                "session_dropdown_accessible_label": "Sessiya seçimləri açılan menyusunu dəyişdirin",
                 "settings_button": "",
                 "sign_up_link": ""
             },
             "index": {
                 "all_discussions_link": "",
-                "cannot_start_discussion_button": "",
-                "mark_all_as_read_confirmation": "",
+                "cannot_start_discussion_button": "Mövzu açmaq olmur",
+                "mark_all_as_read_confirmation": "Bütün mövzuları oxunmuş kimi qeyd etmək istədiyinizə əminsinizmi?",
                 "mark_all_as_read_tooltip": "",
                 "meta_title_text": "",
-                "refresh_tooltip": "",
+                "refresh_tooltip": "Yenilə",
                 "start_discussion_button": "",
-                "toggle_sidenav_dropdown_accessible_label": ""
+                "toggle_sidenav_dropdown_accessible_label": "Naviqasiya açılan menyusuna keçin"
             },
             "index_sort": {
-                "latest_button": "",
-                "newest_button": "",
-                "oldest_button": "",
-                "relevance_button": "",
-                "toggle_dropdown_accessible_label": "",
-                "top_button": ""
+                "latest_button": "Ən son",
+                "newest_button": "Ən yeni",
+                "oldest_button": "Ən köhnə",
+                "relevance_button": "Uyğunluq",
+                "toggle_dropdown_accessible_label": "Mövzu sıralamasını dəyişdirin",
+                "top_button": "Top"
             },
             "log_in": {
-                "forgot_password_link": "",
-                "invalid_login_message": "",
+                "forgot_password_link": "Şifrəni unutmuşam?",
+                "invalid_login_message": "Giriş məlumatlarınız yanlışdır.",
                 "password_placeholder": "",
-                "remember_me_label": "",
-                "sign_up_text": "",
+                "remember_me_label": "Yadda saxla",
+                "sign_up_text": "Hesabınız yoxdur? <a>Qeydiyyat</a>",
                 "submit_button": "",
                 "title": "",
-                "username_or_email_placeholder": ""
+                "username_or_email_placeholder": "İstifadəçi adı və ya E-poçt"
             },
             "notifications": {
-                "discussion_renamed_text": "",
-                "empty_text": "",
+                "discussion_renamed_text": "{username} başlığını dəyişdi",
+                "empty_text": "Bildiriş yoxdur",
                 "mark_all_as_read_tooltip": "",
-                "mark_as_read_tooltip": "",
+                "mark_as_read_tooltip": "Oxunmuş kimi işarələyin",
                 "title": "",
-                "toggle_dropdown_accessible_label": "",
+                "toggle_dropdown_accessible_label": "Bildirişlərə bax",
                 "tooltip": ""
             },
             "post": {
-                "edited_text": "",
-                "edited_tooltip": "",
-                "number_tooltip": ""
+                "edited_text": "Redaktə edildi",
+                "edited_tooltip": "redaktə etdi {username} {ago}",
+                "number_tooltip": "Post #{number}"
             },
             "post_controls": {
                 "delete_button": "",
-                "delete_confirmation": "",
+                "delete_confirmation": "Bu yazını həmişəlik silmək istədiyinizə əminsiniz? Bu əməliyyatı geri qaytarmaq olmaz.",
                 "delete_forever_button": "",
                 "edit_button": "",
-                "hide_confirmation": "",
+                "hide_confirmation": "Bu yazını silmək istədiyinizə əminsiniz?",
                 "restore_button": "",
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "Yazı idarəetmə açılır menyusunu dəyişin"
             },
             "post_scrubber": {
-                "now_link": "",
-                "original_post_link": "",
-                "unread_text": "",
+                "now_link": "İndi",
+                "original_post_link": "Orijinal Yazı",
+                "unread_text": "{count} oxunmamış",
                 "viewing_text": ""
             },
             "post_stream": {
-                "discussion_renamed_old_tooltip": "",
-                "discussion_renamed_text": "",
+                "discussion_renamed_old_tooltip": "Köhnə titul \"{old}\"",
+                "discussion_renamed_text": "{username} başlığını dəyişdi {new}.",
                 "load_more_button": "",
                 "reply_placeholder": "",
-                "time_lapsed_text": ""
+                "time_lapsed_text": "{period} sonra"
             },
             "rename_discussion": {
                 "submit_button": "",
-                "title": ""
+                "title": "Mövzunun adını dəyiş"
             },
             "search": {
-                "all_discussions_button": "",
+                "all_discussions_button": "Bütün mövzuları axtar \"{query}\"",
                 "discussions_heading": "",
                 "users_heading": ""
             },
             "settings": {
-                "account_heading": "",
+                "account_heading": "Hesab",
                 "change_email_button": "",
                 "change_password_button": "",
                 "notifications_heading": "",
                 "notify_by_email_heading": "",
-                "notify_by_web_heading": "",
-                "notify_discussion_renamed_label": "",
-                "privacy_disclose_online_label": "",
-                "privacy_heading": "",
+                "notify_by_web_heading": "Web",
+                "notify_discussion_renamed_label": "Biri yeni açdığım mövzunun adını dəyişir",
+                "privacy_disclose_online_label": "Onlayn olduğumu göstər",
+                "privacy_heading": "Məxfilik",
                 "title": ""
             },
             "sign_up": {
                 "dismiss_button": "",
                 "email_placeholder": "",
-                "log_in_text": "",
+                "log_in_text": "Hesabınız var <a>Giriş et</a>",
                 "password_placeholder": "",
                 "submit_button": "",
                 "title": "",
                 "username_placeholder": "",
-                "welcome_text": ""
+                "welcome_text": "Xoş gəlmisiniz, {username}!"
             },
             "user": {
                 "avatar_remove_button": "",
-                "avatar_upload_button": "",
-                "avatar_upload_tooltip": "",
+                "avatar_upload_button": "Yüklə",
+                "avatar_upload_tooltip": "Avatar yüklə",
                 "discussions_link": "",
-                "in_discussion_text": "",
-                "joined_date_text": "",
-                "online_text": "",
-                "posts_empty_text": "",
+                "in_discussion_text": "Bu {discussion}",
+                "joined_date_text": "Qoşuldu {ago}",
+                "online_text": "Xətdə",
+                "posts_empty_text": "Deyəsən burada heç bir yazı yoxdur.",
                 "posts_link": "",
                 "posts_load_more_button": "",
                 "settings_link": ""
             },
             "user_controls": {
-                "button": "",
+                "button": "Nəzarət",
                 "delete_button": "",
-                "delete_confirmation": "",
-                "delete_error_message": "",
-                "delete_success_message": "",
+                "delete_confirmation": "Bu istifadəçini silmək istədiyinizə əminsiniz? İstifadəçinin yazıları silinməyəcək.",
+                "delete_error_message": "Bu <i>{username} ({email})</i> istifadəçisi silinmədi",
+                "delete_success_message": "Bu <i>{username} ({email})</i> istifadəçi silindi",
                 "edit_button": "",
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "İstifadəçi idarəetmə açılır menyusunu dəyişdirin"
             },
             "user_email_confirmation": {
                 "alert_message": "",
-                "resend_button": "",
-                "sent_message": ""
+                "resend_button": "Təsdiq məktubunu yenidən Göndər",
+                "sent_message": "Göndər"
             }
         },
         "lib": {
             "badge": {
-                "hidden_tooltip": ""
+                "hidden_tooltip": "Gizli"
             },
             "dropdown": {
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "Açılan menyunu dəyişin"
             },
             "edit_user": {
-                "activate_button": "",
+                "activate_button": "İstifadəçini aktivləşdirin",
                 "email_heading": "",
                 "email_label": "",
-                "groups_heading": "",
+                "groups_heading": "Qruplar",
                 "password_heading": "",
                 "password_label": "",
-                "set_password_label": "",
+                "set_password_label": "Yeni parol təyin et",
                 "submit_button": "",
                 "title": "",
                 "username_heading": "",
                 "username_label": ""
             },
             "error": {
-                "dependent_extensions_message": "",
-                "generic_message": "",
-                "missing_dependencies_message": "",
-                "not_found_message": "",
-                "payload_too_large_message": "",
-                "permission_denied_message": "",
-                "rate_limit_exceeded_message": ""
+                "dependent_extensions_message": "Aşağıdakı asılı uzantılar deaktiv olunana qədər {extension} ləğv edilə bilməz: {extensions}",
+                "generic_message": "Vay! Nəsə səhv oldu. Zəhmət olmasa səhifəni yenidən yükləyin və yenidən cəhd edin.",
+                "missing_dependencies_message": "Aşağıdakı asılılıqlar aktiv olana qədər {extension} aktiv edilə bilməz: {extension}",
+                "not_found_message": "Tələb olunan resurs tapılmadı.",
+                "payload_too_large_message": "İstək yükü çox böyük idi.",
+                "permission_denied_message": "Bunu etməyə icazəniz yoxdur.",
+                "rate_limit_exceeded_message": "Bir az tez gedirsən. Zəhmət olmasa bir neçə saniyə sonra yenidən cəhd edin."
             },
             "loading_indicator": {
                 "accessible_label": ""
@@ -483,36 +483,36 @@
             "series": {
                 "glue_text": "",
                 "three_text": "",
-                "two_text": ""
+                "two_text": "{first} və {second}"
             },
             "username": {
-                "deleted_text": ""
+                "deleted_text": "[Silindi]"
             }
         },
         "views": {
             "admin": {
                 "extensions": {
                     "caption": "",
-                    "disable": "",
-                    "empty": "",
-                    "enable": "",
-                    "name": "",
-                    "package_name": "",
-                    "version": ""
+                    "disable": "Deaktiv et",
+                    "empty": "Quraşdırılmış uzantılar yoxdur",
+                    "enable": "Aktiv et",
+                    "name": "Uzantı Adı",
+                    "package_name": "Paket Adı",
+                    "version": "Versiya"
                 },
                 "info": {
-                    "caption": ""
+                    "caption": "Tətbiq Məlumatı"
                 },
-                "title": ""
+                "title": "Administrator"
             },
             "confirm_email": {
                 "submit_button": "",
-                "text": "",
+                "text": "Hesabınızın e -poçtunu təsdiqləmək üçün aşağıdakı düyməni basın.",
                 "title": ""
             },
             "content": {
-                "javascript_disabled_message": "",
-                "load_error_message": "",
+                "javascript_disabled_message": "Bu sayt ən yaxşı şəkildə JavaScript aktiv olan müasir bir brauzerdə baxılır.",
+                "load_error_message": "Tam versiyasını yükləmək istəyərkən bir səhv oldu. Səhifəni yeniləyin.",
                 "loading_text": ""
             },
             "discussion": {
@@ -520,14 +520,14 @@
                 "previous_page_button": ""
             },
             "error": {
-                "csrf_token_mismatch": "",
-                "csrf_token_mismatch_return_link": "",
-                "invalid_confirmation_token": "",
-                "not_authenticated": "",
-                "not_found": "",
-                "not_found_return_link": "",
-                "permission_denied": "",
-                "unknown": ""
+                "csrf_token_mismatch": "Çox uzun müddət fəaliyyətsizsiniz.",
+                "csrf_token_mismatch_return_link": "Geri qayıdın və yenidən cəhd edin",
+                "invalid_confirmation_token": "Bu təsdiq linki artıq istifadə edilmişdir və ya etibarsızdır.",
+                "not_authenticated": "Bu səhifəyə daxil olmaq üçün icazəniz yoxdur. Daxil olduqdan sonra yenidən cəhd edin.",
+                "not_found": "İstədiyiniz səhifə tapılmadı.",
+                "not_found_return_link": "{forum} a Qayıt",
+                "permission_denied": "Bu səhifəyə daxil olmaq üçün icazəniz yoxdur.",
+                "unknown": "Bu səhifəni yükləmək istəyərkən xəta baş verdi."
             },
             "index": {
                 "all_discussions_heading": "",
@@ -536,94 +536,94 @@
             },
             "log_out": {
                 "log_out_button": "",
-                "log_out_confirmation": "",
+                "log_out_confirmation": "{Forum} -dan çıxmaq istədiyinizə əminsiniz?",
                 "title": ""
             },
             "reset_password": {
-                "confirm_password_label": "",
-                "new_password_label": "",
+                "confirm_password_label": "Yeni şifrəni təstiq edin",
+                "new_password_label": "Yeni şifrə",
                 "submit_button": "",
                 "title": ""
             }
         },
         "api": {
-            "invalid_username_message": ""
+            "invalid_username_message": "İstifadəçi adı yalnız hərf və rəqəmdən ibarət olmalıdır."
         },
         "email": {
             "activate_account": {
-                "subject": "",
-                "body": ""
+                "subject": "Hesabınızı Aktivləşdirin",
+                "body": "Salam {username}!\n\nBiri Bu e -poçt ünvanı ilə {forum} saytına üzv oldu.\n\nBunu siz etmisinizssə, aşağıdakı linkə daxil olaraq heabınızı aktiv edin:\n{url}\n\nQeydiyyatdan keçməmisinizsə, bu e -poçtu gözardı edin.\n"
             },
             "confirm_email": {
-                "subject": "",
-                "body": ""
+                "subject": "E -poçt ünvanınızı təsdiq edin",
+                "body": "Salam {username}!\n\nBiri {Forum} üzərindəki e -poçt ünvanını bu ünvana dəyişdi.\n\nBunu edən sizsinizssə aşağıdakı linkı daxil olaraq təstiqləyin:\n{url}\n\nBu sən etməmisənsə, bu e -poçtu gözardı et.\n"
             },
             "reset_password": {
                 "subject": "",
-                "body": ""
+                "body": "Salam {username}!\n\nKimsə {Forum} saytında hesabınız üçün unudulmuş parol sorğusu göndərdi..\n\nBu siz idinizsə, parolunuzu sıfırlamaq üçün aşağıdakı linkə daxil olun:\n{url}\n\nŞifrənizi dəyişdirmək istəmirsinizsə, bu e -poçtu gözardı edin və heç nə olmayacaq.\n"
             },
             "send_test": {
-                "subject": "",
-                "body": ""
+                "subject": "Flarum E -poçt Testi",
+                "body": "Hey {username}!\n\nBu, Flarum e -poçt konfiqurasiyanızın düzgün işlədiyini təsdiq edən bir test e -poçtudur.\n\nBu sizsinizssə, bu e -poçt konfiqurasiyanızın işlədiyi deməkdir!\n\nsiz deyilsinizsə, bu e -poçtu gözardı et.\n"
             }
         },
         "ref": {
-            "all_discussions": "",
-            "change_email": "",
-            "change_password": "",
-            "color": "",
-            "confirm_password": "",
-            "confirm_email": "",
-            "confirmation_email_sent": "",
-            "custom_footer_text": "",
-            "custom_footer_title": "",
-            "custom_header_text": "",
-            "custom_header_title": "",
-            "delete": "",
-            "delete_forever": "",
-            "discussions": "",
-            "edit": "",
-            "edit_user": "",
-            "email": "",
-            "extensions": "",
-            "icon": "",
-            "icon_text": "",
-            "load_more": "",
-            "loading": "",
-            "log_in": "",
-            "log_out": "",
-            "mark_all_as_read": "",
-            "next_page": "",
-            "notifications": "",
-            "okay": "",
-            "password": "",
-            "posts": "",
-            "previous_page": "",
-            "remove": "",
-            "rename": "",
-            "reply": "",
-            "reset_your_password": "",
-            "restore": "",
-            "save_changes": "",
-            "settings": "",
-            "sign_up": "",
+            "all_discussions": "Bütün Mövzular",
+            "change_email": "E-maili dəyiş",
+            "change_password": "Şifrəni dəyiş",
+            "color": "Rəng",
+            "confirm_password": "Şifrəni təsdiq et",
+            "confirm_email": "E -poçtu təsdiq et",
+            "confirmation_email_sent": "{email} ünvanına bir təsdiq e -poçtu göndərdik. Tezliklə gəlməzsə, spam qovluğunu yoxlayın.",
+            "custom_footer_text": "Səhifənin ən aşağı hissəsində göstəriləcək HTML əlavə edin.",
+            "custom_footer_title": "Xüsusi Footerdə düzəliş et",
+            "custom_header_text": "Səhifənin ən yuxarı hissəsində, Flarumun öz başlığının üstündə göstəriləcək HTML əlavə edin.",
+            "custom_header_title": "Xüsusi Başlığı redaktə et",
+            "delete": "Sil",
+            "delete_forever": "Birdəfəlik sil",
+            "discussions": "Mövzular",
+            "edit": "Düzəliş et",
+            "edit_user": "İstifadəçini redaktə edin",
+            "email": "Email",
+            "extensions": "Uzantılar",
+            "icon": "İcon",
+            "icon_text": "Hər hansı bir <a> FontAwesome </a> simge sinfinin adını daxil edin, <code> fas fa- </code> öneki <em>daxil olmaqla</em>.",
+            "load_more": "Daha çox",
+            "loading": "Yüklənir ...",
+            "log_in": "Giriş",
+            "log_out": "Çıxış",
+            "mark_all_as_read": "Hamısını oxunmuş olaraq işarələ",
+            "next_page": "Növbəti səhifə",
+            "notifications": "Bildirişlər",
+            "okay": "OK",
+            "password": "Şifrə",
+            "posts": "Yazılar",
+            "previous_page": "Əvvəlki səhifə",
+            "remove": "Sil",
+            "rename": "Yenidən adlandır",
+            "reply": "Cavabla",
+            "reset_your_password": "Şifrəni sıfırla",
+            "restore": "Bərpa et",
+            "save_changes": "Dəyişiklikləri yadda saxla",
+            "settings": "Ayarlar",
+            "sign_up": "Qeydiyyat",
             "some_others": "",
-            "start_a_discussion": "",
-            "username": "",
-            "users": "",
-            "view": "",
-            "write_a_reply": "",
-            "you": ""
+            "start_a_discussion": "Mövzu aç",
+            "username": "İstifadəçi adı",
+            "users": "İstifadəçilər",
+            "view": "Bax",
+            "write_a_reply": "Cavab yaz ...",
+            "you": "Sən"
         },
         "group": {
-            "admin": "",
-            "admins": "",
-            "guest": "",
-            "guests": "",
-            "member": "",
-            "members": "",
-            "mod": "",
-            "mods": ""
+            "admin": "Admin",
+            "admins": "Adminlər",
+            "guest": "Qonaq",
+            "guests": "Qonaqlar",
+            "member": "İstifadəçi",
+            "members": "İstifadəçilər",
+            "mod": "Mod",
+            "mods": "Modlar"
         }
     }
 }
