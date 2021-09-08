@@ -470,7 +470,8 @@
                 "missing_dependencies_message": "Невозможно включить {extension}, пока не будут включены следующие зависимые расширения: {extensions}",
                 "not_found_message": "Запрашиваемый ресурс не найден.",
                 "permission_denied_message": "У Вас нет прав доступа для выполнения этого действия.",
-                "rate_limit_exceeded_message": "Вы размещаете сообщения слишком часто. Пожалуйста, попробуйте ещё раз через несколько секунд."
+                "rate_limit_exceeded_message": "Вы размещаете сообщения слишком часто. Пожалуйста, попробуйте ещё раз через несколько секунд.",
+                "payload_too_large_message": "Длина запроса слишком велика."
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
@@ -523,6 +524,16 @@
                 "new_password_label": "Новый пароль",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
+            },
+            "admin": {
+                "extensions": {
+                    "name": "Название расширения",
+                    "package_name": "Имя пакета",
+                    "version": "Версия"
+                },
+                "info": {
+                    "caption": "Сведения о приложении"
+                }
             }
         },
         "api": {
