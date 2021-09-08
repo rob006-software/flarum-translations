@@ -2,24 +2,24 @@
     "flarum-approval": {
         "admin": {
             "permissions": {
-                "approve_posts_label": "",
-                "reply_without_approval_label": "",
-                "start_discussions_without_approval_label": ""
+                "approve_posts_label": "Yazıları təsdiq edin",
+                "reply_without_approval_label": "Mövzulara təsdiq olmadan cavab verin",
+                "start_discussions_without_approval_label": "Təsdiq etmədən mövzulara başlayın"
             }
         },
         "forum": {
             "badge": {
-                "awaiting_approval_tooltip": ""
+                "awaiting_approval_tooltip": "=> flarum-approval.ref.awaiting_approval"
             },
             "post": {
-                "awaiting_approval_text": ""
+                "awaiting_approval_text": "=> flarum-approval.ref.awaiting_approval"
             },
             "post_controls": {
-                "approve_button": ""
+                "approve_button": "Təsdiq et"
             }
         },
         "ref": {
-            "awaiting_approval": ""
+            "awaiting_approval": "Təsdiqin gözlənilməsi"
         }
     }
 }
