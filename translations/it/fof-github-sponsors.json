@@ -2,15 +2,15 @@
     "fof-github-sponsors": {
         "admin": {
             "account_types": {
-                "user": "",
-                "organization": ""
+                "user": "Utente",
+                "organization": "Organizzazione"
             },
             "settings": {
-                "desc": "",
-                "api_token_label": "",
-                "account_type_label": "",
-                "login_label": "",
-                "group_label": ""
+                "desc": "Ottieni il tuo token API da <a>https://github.com/settings/tokens/new</a>. Questa estensione richiede gli ambiti <code>user</code> e <code>read:org</code>.",
+                "api_token_label": "Token API",
+                "account_type_label": "Tipo di Account",
+                "login_label": "Login",
+                "group_label": "Gruppo da Assegnare"
             }
         }
     }
