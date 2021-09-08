@@ -1,0 +1,21 @@
+{
+    "fof-recaptcha": {
+        "admin": {
+            "settings": {
+                "help_text": "Получите данные для подключения Google reCAPTCHA <a>здесь</a>.",
+                "secret_key_label": "Секретный ключ",
+                "site_key_label": "Ключ сайта",
+                "type_label": "Тип reCAPTCHA"
+            },
+            "permissions": {
+                "post_without_captcha": "Публиковать сообщения и дискуссии без reCAPTCHA"
+            }
+        },
+        "forum": {
+            "error": "При отправке reCAPTCHA произошла ошибка. Пожалуйста, попробуйте ещё раз."
+        }
+    },
+    "validation": {
+        "recaptcha": "Проверка reCAPTCHA не пройдена."
+    }
+}
