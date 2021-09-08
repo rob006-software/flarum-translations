@@ -24,6 +24,13 @@ return [
 		'branch' => 'master',
 		'path' => '/locale',
 	],
+	'az' => [
+		'type' => 'language',
+		'language' => 'az',
+		'repository' => 'git@github.com:flarum-lang/azerbaijani.git',
+		'branch' => 'master',
+		'path' => '/locale',
+	],
 	'cs' => [
 		'type' => 'language',
 		'language' => 'cs',
