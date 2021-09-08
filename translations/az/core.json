@@ -8,14 +8,14 @@
                 "custom_footer_heading": "Xüsusi Footer",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Xüsusi Header",
-                "custom_header_text": "",
+                "custom_header_text": "=> core.ref.custom_header_text",
                 "custom_styles_heading": "Özəl görünüş",
                 "custom_styles_text": "Flarum -un standart üslublarının üzərinə tətbiq olunacaq öz Az/CSS kodunuzu əlavə edərək forumunuzun görünüşünü fərdiləşdirin.",
                 "dark_mode_label": "Qaranlıq mod",
                 "description": "Forumunuzun rənglərini, loqotiplərini və digər dəyişənlərini fərdiləşdirin.",
                 "edit_css_button": "Özəl görünüşü redaktə et (CSS)",
-                "edit_footer_button": "",
-                "edit_header_button": "",
+                "edit_footer_button": "=> core.ref.custom_footer_title",
+                "edit_header_button": "=> core.ref.custom_header_title",
                 "enter_hex_message": "Zəhmət olmasa rəng kodu daxil edin.",
                 "favicon_heading": "Favicon",
                 "favicon_text": "Favicon yüklə",
@@ -24,7 +24,7 @@
                 "title": "Görünüş"
             },
             "basics": {
-                "all_discussions_label": "",
+                "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "Varsayılan Dil",
                 "description": "Forum adınızı, dilinizi və digər əsas parametrlərinizi təyin edin.",
                 "display_name_heading": "İstifadəçinin Göstərilən Adı",
@@ -49,13 +49,13 @@
             },
             "edit_css": {
                 "customize_text": "Flarum -un üstünə tətbiq olunacaq öz CSS kodunuzu əlavə edərək forumunuzun görünüşünü fərdiləşdirin <a>Standart stil</a>.",
-                "submit_button": "",
+                "submit_button": "=> core.ref.save_changes",
                 "title": "Xüsusi CSS -ni redaktə edin"
             },
             "edit_footer": {
-                "customize_text": "",
-                "submit_button": "",
-                "title": ""
+                "customize_text": "=> core.ref.custom_footer_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_footer_title"
             },
             "edit_group": {
                 "color_label": "",
