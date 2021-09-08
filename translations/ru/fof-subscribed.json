@@ -2,38 +2,38 @@
     "fof-subscribed": {
         "forum": {
             "settings": {
-                "defaults_label": "",
-                "forced_label": "",
-                "notify_discussion_created_label": "",
-                "notify_post_unapproved_label": "",
-                "notify_user_created_label": ""
+                "defaults_label": "Установить \"{setting}\" разрешенным по умолчанию",
+                "forced_label": "Выставить разрешение \"{setting}\" для всех",
+                "notify_discussion_created_label": "Кто-то создал обсуждение",
+                "notify_post_unapproved_label": "Созданное сообщение ожидает подтверждения",
+                "notify_user_created_label": "Когда кто-то регистрируется"
             },
             "notifications": {
-                "discussion_created_text": "",
-                "post_unapproved_text": "",
-                "user_created_text": ""
+                "discussion_created_text": "{username} создал новое обсуждение",
+                "post_unapproved_text": "{username} создал сообщение, требующее подтверждения",
+                "user_created_text": "{username} только что зарегистрировался"
             }
         },
         "admin": {
             "menu": {
-                "description": ""
+                "description": "Конфигурировать пользовательские подписки по умолчанию"
             },
             "permission": {
-                "subscribe_to_discussion_created": "",
-                "subscribe_to_post_unapproved": "",
-                "subscribe_to_user_created": ""
+                "subscribe_to_discussion_created": "Разрешено получать уведомления о новом обсуждении",
+                "subscribe_to_post_unapproved": "Разрешено получать уведомления о новом неподтвержденном сообщении",
+                "subscribe_to_user_created": "Разрешено получать уведомления о новом участнике"
             }
         },
         "email": {
             "subject": {
-                "newDiscussion": "",
-                "newUser": "",
-                "postUnapproved": ""
+                "newDiscussion": "[Подписка | Новое обсуждение] {title}",
+                "newUser": "[Подписка | Новый участник] {username}",
+                "postUnapproved": "[Подписка | Неподтвержденное] {username} опубликовано в {title}"
             },
             "body": {
-                "newDiscussion": "",
-                "newUser": "",
-                "postUnapproved": ""
+                "newDiscussion": "Привет {recipient_display_name},\n\n{actor_display_name} открыл новое обсуждение: {discussion_title}\n\nЧтобы просмотреть обсуждение, пройдите по следующей ссылке:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newUser": "Привет {recipient_display_name},\n\n{actor_display_name} только что присоединился к {forum_url}.\n\nДля просмотра профиля нового пользователя пройдите по следующей ссылке:\n{user_url}\n",
+                "postUnapproved": "Привет {recipient_display_name},\n\n{actor_display_name} создал сообщение, которое не подтверждено автоматически в {discussion_title}\n\nДля просмотра нового сообщения пройдите по следующей ссылке:\n{post_url}\n\n---\n\n{post_content}\n"
             }
         }
     }
