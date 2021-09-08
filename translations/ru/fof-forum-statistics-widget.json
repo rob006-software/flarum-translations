@@ -1,0 +1,26 @@
+{
+    "fof-forum-statistics-widget": {
+        "forum": {
+            "navbar": {
+                "widget_title": "Статистика",
+                "discussions_count": "Дискуссий: {discussionsCount}",
+                "posts_count": "Сообщений: {postsCount}",
+                "users_count": "Пользователей: {usersCount}",
+                "latest_member": "Новый пользователь: "
+            }
+        },
+        "admin": {
+            "settings": {
+                "widget_ignore_private_discussions_label": "Игнорировать переписки",
+                "widget_order_label": "Позиция виджета",
+                "widget_helper_text": "Настройка позволяет управлять позицией виджета в боковой панели форума. Чем больше число, тем выше виджет будет находится по отношению к остальным элементам в боковой панели форума (параметр может принимать положительные и отрицательные значения)."
+            },
+            "permissions": {
+                "view_discussions_count_label": "Смотреть число дискуссий в статистике форума",
+                "view_posts_count_label": "Смотреть число сообщений в статистике форума",
+                "view_users_count_label": "Смотреть число пользователей в статистике форума",
+                "view_lastest_member_label": "Смотреть имя нового пользователя в статистике форума"
+            }
+        }
+    }
+}
