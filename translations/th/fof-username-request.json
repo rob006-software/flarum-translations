@@ -2,31 +2,31 @@
     "fof-username-request": {
         "admin": {
             "permissions": {
-                "moderate_requests": "",
-                "request_nickname": "",
-                "request_username": ""
+                "moderate_requests": "อนุมัติการขอเปลี่ยนชื่อผู้ใช้หรือชื่อเล่น",
+                "request_nickname": "ขอเปลี่ยนชื่อเล่น",
+                "request_username": "ขอเปลี่ยชื่อผู้ใช้"
             }
         },
         "forum": {
             "nickname_modals": {
                 "action": {
-                    "title": "",
-                    "help_text": "",
-                    "decision_title": "",
-                    "approval_label": "",
-                    "rejected_label": "",
-                    "submit_button": "",
-                    "reason_title": "",
-                    "success": "",
-                    "name": ""
+                    "title": "=> fof-username-request.ref.nickname_change_request",
+                    "help_text": "โปรดตรวจสอบให้เเน่ใจว่าชื่อเล่นของคุณจะไม่ละเมิดคู่มือการปฎิบัติของเรา",
+                    "decision_title": "การตัดสินใจ",
+                    "approval_label": "อนุมัติ",
+                    "rejected_label": "ปฎิเสธ",
+                    "submit_button": "ส่ง",
+                    "reason_title": "สาเหตุที่ปฎิเสธ",
+                    "success": "ส่งการตัดสินใจเเล้ว",
+                    "name": "{name} ได้ส่งคำขอเพื่อเปลี่ยนชื่อเล่นของเขาเป็น \"{requestedName}\""
                 },
                 "results": {
-                    "title": "",
-                    "approved": "",
-                    "dismiss_button": "",
-                    "new_name": "",
-                    "rejected": "",
-                    "reason": "",
+                    "title": "ขอเปลี่ยนชื่อเล่น",
+                    "approved": "ชื่อเล่นที่คุณขอได้รับการอนุมัติเเล้ว",
+                    "dismiss_button": "=> core.ref.okay",
+                    "new_name": "ชื่อเล่นของคุณถูกเปลี่ยนเป็น {name} เป็นที่เรียบร้อยเเล้ว",
+                    "rejected": "คำขอเปลี่ยนชื่อเล่นของคุณได้ถูกปฏิเสธ",
+                    "reason": "สาเหตุที่ปฎิเสธ <i>\"{reason}\"</i>",
                     "resubmit": ""
                 },
                 "request": {
