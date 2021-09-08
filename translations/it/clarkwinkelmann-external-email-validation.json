@@ -2,25 +2,25 @@
     "clarkwinkelmann-external-email-validation": {
         "admin": {
             "settings": {
-                "method": "",
-                "uri": "",
-                "uri-help": "",
-                "body": "",
-                "body-help": "",
-                "headers": "",
-                "headers-help": "",
-                "use-response-status": "",
-                "use-response-status-help": "",
-                "response-success-key": "",
-                "response-success-key-help": "",
-                "default-error-message": "",
-                "default-error-message-help": "",
-                "response-error-key": "",
-                "response-error-key-help": ""
+                "method": "Metodo di richiesta",
+                "uri": "Richiesta URI",
+                "uri-help": "Puoi inserire shortcode da sostituire con il valore email, vedi README.",
+                "body": "Richiedi Corpo",
+                "body-help": "Puoi inserire shortcode da sostituire con il valore email, vedi README.",
+                "headers": "Richiedi Intestazione",
+                "headers-help": "Un intestazione per linea",
+                "use-response-status": "Usa lo stato della risposta HTTP per validità",
+                "use-response-status-help": "Le risposta 2xx verranno considerate valire. Le risposte 4xx verranno considerate non valide.",
+                "response-success-key": "Percorso dell'attributo JSON con stato valido",
+                "response-success-key-help": "Percorso nel formato <code>key1.key2.key3</code>. Verrà estratto con l'helper Laravel <code>Arr::get</code>. Il valore verrà convertito in booleano. Ha effetto solo se lo stato HTTP non viene utilizzato. Verrà generata un'eccezione se la risposta non è un JSON valido.\n",
+                "default-error-message": "Messaggio errore di Default",
+                "default-error-message-help": "Questo messaggio verrà mostrato all'utente quando la convalida dell'e-mail fallisce se non è possibile trovare altri messaggi. Se hai bisogno di tradurre questo messaggio, lascia il campo vuoto e personalizza il messaggio di errore predefinito con Linguist.\n",
+                "response-error-key": "Percorso dell'attributo JSON con messaggio di errore",
+                "response-error-key-help": "Percorso nel formato <code>key1.key2.key3</code>. Verrà estratto con l'helper Laravel <code>Arr::get</code>. Il messaggio di errore predefinito verrà mostrato se questa chiave non viene trovata.\n"
             }
         },
         "api": {
-            "email-validation-error": ""
+            "email-validation-error": "L'e-mail non ha superato la convalida esterna."
         }
     }
 }
