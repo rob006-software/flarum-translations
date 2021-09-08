@@ -2,49 +2,49 @@
     "flarum-flags": {
         "admin": {
             "permissions": {
-                "flag_posts_label": "",
-                "view_flags_label": ""
+                "flag_posts_label": "Yazıları işarələ",
+                "view_flags_label": "İşarələnmiş yazılar"
             },
             "settings": {
-                "flag_own_posts_label": "",
-                "guidelines_url_label": "",
-                "title": ""
+                "flag_own_posts_label": "İstifadəçilərə öz yazılarını qeyd etməyə icazə verin",
+                "guidelines_url_label": "İcma Təlimatları URL",
+                "title": "İşarə ayarları"
             }
         },
         "forum": {
             "flag_post": {
-                "confirmation_message": "",
+                "confirmation_message": "Bu yazını qeyd etdiyiniz üçün təşəkkür edirik. Moderatorlarımız bunu araşdıracaq.",
                 "dismiss_button": "",
-                "reason_details_placeholder": "",
-                "reason_inappropriate_label": "",
-                "reason_inappropriate_text": "",
-                "reason_missing_message": "",
-                "reason_off_topic_label": "",
-                "reason_off_topic_text": "",
-                "reason_other_label": "",
-                "reason_spam_label": "",
-                "reason_spam_text": "",
+                "reason_details_placeholder": "Əlavə məlumat (istəyə bağlı)",
+                "reason_inappropriate_label": "Uyğun deyil",
+                "reason_inappropriate_text": "Bu yazı təhqiramiz, təhqiramiz və ya <a> icma qaydalarımızı </a> pozur.",
+                "reason_missing_message": "Zəhmət olmasa moderatorlarımız üçün bəzi detallar verin.",
+                "reason_off_topic_label": "Mövzudan kənar",
+                "reason_off_topic_text": "Bu yazı hazırkı müzakirə ilə əlaqəli deyil və başqa yerə köçürülməlidir.",
+                "reason_other_label": "Digər (qeyd edin)",
+                "reason_spam_label": "Spam",
+                "reason_spam_text": "Bu yazı bir reklamdır.",
                 "submit_button": "",
                 "title": ""
             },
             "flagged_posts": {
-                "empty_text": "",
+                "empty_text": "İşarələnmiş mövzu yoxdur",
                 "item_text": "",
                 "title": "",
                 "tooltip": ""
             },
             "post": {
-                "dismiss_flag_button": "",
-                "flagged_by_text": "",
-                "flagged_by_with_reason_text": ""
+                "dismiss_flag_button": "İşarəni rədd et",
+                "flagged_by_text": "İşarələyən {username}",
+                "flagged_by_with_reason_text": "İşarələyən {username} as {reason}"
             },
             "post_controls": {
-                "flag_button": ""
+                "flag_button": "İşarə"
             }
         },
         "ref": {
-            "flag_post": "",
-            "flagged_posts": ""
+            "flag_post": "İşarələnmiş yazı",
+            "flagged_posts": "İşarələnmiş yazılar"
         }
     }
 }
