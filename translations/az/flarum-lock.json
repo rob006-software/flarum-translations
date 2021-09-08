@@ -2,26 +2,26 @@
     "flarum-lock": {
         "admin": {
             "permissions": {
-                "lock_discussions_label": ""
+                "lock_discussions_label": "Mövzularə kilidləyin"
             }
         },
         "forum": {
             "badge": {
-                "locked_tooltip": ""
+                "locked_tooltip": "kilidli"
             },
             "discussion_controls": {
-                "lock_button": "",
-                "unlock_button": ""
+                "lock_button": "Bağlı",
+                "unlock_button": "Kilidi aç"
             },
             "notifications": {
-                "discussion_locked_text": ""
+                "discussion_locked_text": "{username} kilidli"
             },
             "post_stream": {
-                "discussion_locked_text": "",
-                "discussion_unlocked_text": ""
+                "discussion_locked_text": "{username} müzakirəni kilidlədi.",
+                "discussion_unlocked_text": "{username} Mövzunu açdı."
             },
             "settings": {
-                "notify_discussion_locked_label": ""
+                "notify_discussion_locked_label": "Biri açdığım mövzunu kilidləyir"
             }
         }
     }
