@@ -172,6 +172,13 @@ return [
 		'branch' => 'main',
 		'path' => '/locale',
 	],
+	'ru' => [
+		'type' => 'language',
+		'language' => 'ru',
+		'repository' => 'git@github.com:flarum-lang/russian.git',
+		'branch' => 'main',
+		'path' => '/locale',
+	],
 	'si' => [
 		'type' => 'language',
 		'language' => 'si',
