@@ -1,0 +1,123 @@
+{
+    "validation": {
+        "accepted": ":attribute должно быть принято.",
+        "active_url": ":attribute содержит некорректный URL.",
+        "after": ":attribute должно быть датой после :date.",
+        "after_or_equal": ":attribute должно быть датой после или равным :date.",
+        "alpha": ":attribute должно содержать только буквы.",
+        "alpha_dash": ":attribute должно содержать только буквы, цифры и тире.",
+        "alpha_num": ":attribute должно содержать только буквы и цифры.",
+        "array": ":attribute должно быть массивом.",
+        "before": ":attribute должно быть датой до :date.",
+        "before_or_equal": ":attribute должно быть датой до или равным :date.",
+        "between": {
+            "numeric": "Значение :attribute должно быть от :min до :max.",
+            "file": "Размер файла :attribute должен быть от :min до :max килобайт.",
+            "string": "Строка :attribute должна содержать от :min до :max символов.",
+            "array": "Массив :attribute должен содержать от :min до :max элементов."
+        },
+        "boolean": ":attribute должно быть истинным (true) или ложным (false).",
+        "confirmed": ":attribute не проходит проверку на совпадение.",
+        "date": ":attribute не содержит корректную дату.",
+        "date_equals": ":attribute должно быть равным :date.",
+        "date_format": ":attribute не соответствует формату :format.",
+        "different": ":attribute и :other должны отличаться.",
+        "digits": ":attribute должно содержать значения :digits.",
+        "digits_between": ":attribute должно содержать значения между :min и :max.",
+        "dimensions": ":attribute содержит некорректные размеры изображения.",
+        "distinct": ":attribute содержит дублирующее значение.",
+        "email": ":attribute должно содержать корректный e-mail.",
+        "ends_with": ":attribute должно заканчиваться одним из следующих значений: :values.",
+        "exists": "Выбранное значение для :attribute некорректно.",
+        "file": ":attribute должно содержать файл.",
+        "filled": ":attribute обязательно к заполнению.",
+        "gt": {
+            "numeric": "Значение :attribute должно быть больше :value.",
+            "file": "Размер файла :attribute должен быть больше :value килобайт.",
+            "string": "Строка :attribute должна содержать больше :value символов.",
+            "array": "Массив :attribute должен содержать больше :value элементов."
+        },
+        "gte": {
+            "numeric": "Значение :attribute должно быть больше или равное :value.",
+            "file": "Размер файла :attribute должен быть больше или равен :value килобайт.",
+            "string": "Строка :attribute должна содержать больше или равна :value символам.",
+            "array": "Массив :attribute должен содержать не меньше :value элементов."
+        },
+        "image": ":attribute должно быть изображением.",
+        "in": "Выбранное значение для :attribute некорректно.",
+        "in_array": "Значение :attribute не существует в :other.",
+        "integer": ":attribute должно быть целым числом.",
+        "ip": ":attribute должно содержать корректный IP-адрес.",
+        "ipv4": ":attribute должно содержать корректный IPv4-адрес.",
+        "ipv6": ":attribute должно содержать корректный IPv6-адрес.",
+        "json": ":attribute должно быть корректной строкой JSON.",
+        "lt": {
+            "numeric": "Значение :attribute должно быть меньше :value.",
+            "file": "Размер файла :attribute должен быть меньше :value килобайт.",
+            "string": "Строка :attribute должна содержать меньше :value символов.",
+            "array": "Массив :attribute должен содержать меньше :value элементов."
+        },
+        "lte": {
+            "numeric": "Значение :attribute должно быть меньше или равное :value.",
+            "file": "Размер файла :attribute должен быть меньше или равен :value килобайт.",
+            "string": "Строка :attribute должна содержать меньше или равна :value символов.",
+            "array": "Массив :attribute должен содержать не больше :value элементов."
+        },
+        "max": {
+            "numeric": "Значение :attribute не может быть больше :max.",
+            "file": "Файл :attribute не может быть больше :max килобайт.",
+            "string": "Строка :attribute не может содержать больше :max символов.",
+            "array": "Массив :attribute не может содержать больше :max элементов."
+        },
+        "mimes": ":attribute должно содержать файл следующих типов: :values.",
+        "mimetypes": ":attribute должно содержать файл следующего типа: :values.",
+        "min": {
+            "numeric": "Значение :attribute не может быть меньше :min.",
+            "file": "Файл :attribute не может быть меньше :min килобайт.",
+            "string": "Строка :attribute не может содержать меньше :min символов.",
+            "array": "Массив :attribute не может содержать менее :min элементов."
+        },
+        "multiple_of": "Значение :attribute должно быть кратно :value.",
+        "not_in": "Выбранное значение для :attribute некорректно.",
+        "not_regex": "Формат :attribute некорректен.",
+        "numeric": "Значение :attribute должно быть числом.",
+        "password": "Пароль неверен.",
+        "present": ":attribute должно присутствовать.",
+        "regex": ":attribute имеет некорректный формат.",
+        "required": ":attribute обязательно к заполнению.",
+        "required_if": ":attribute обязательно к заполнению, когда :other имеет значение :value.",
+        "required_unless": ":attribute обязательно к заполнению, когда :other не имеет значения :values.",
+        "required_with": ":attribute обязательно к заполнению, когда имеется одно из значений :values.",
+        "required_with_all": ":attribute обязательно к заполнению, когда имеются значения :values.",
+        "required_without": ":attribute обязательно к заполнению, когда отсутствуют значения :values.",
+        "required_without_all": ":attribute обязательно к заполнению, когда отсутствуют все значения :values.",
+        "prohibited": ":attribute запрещено.",
+        "prohibited_if": ":attribute запрещено, когда :other имеет значение :value.",
+        "prohibited_unless": ":attribute запрещено, если :other не имеет значение :values.",
+        "same": "Значения :attribute и :other должны совпадать.",
+        "size": {
+            "numeric": "Значение :attribute должно быть равным :size.",
+            "file": "Файл :attribute должен быть равным :size килобайт.",
+            "string": "Строка :attribute должна содержать :size символов.",
+            "array": "Массив :attribute должен содержать :size элементов."
+        },
+        "starts_with": ":attribute должен начинаться с одного из значений: :values.",
+        "string": ":attribute должно быть строкой.",
+        "timezone": ":attribute должно содержать корректный часовой пояс.",
+        "unique": ":attribute уже имеет подобное значение.",
+        "uploaded": ":attribute не удалось загрузить.",
+        "url": ":attribute имеет некорректный формат.",
+        "uuid": ":attribute должно содержать корректный UUID.",
+        "attributes": {
+            "username": "имя пользователя",
+            "password": "пароль",
+            "email": "e-mail",
+            "title": "название",
+            "content": "содержимое",
+            "name_singular": "единственное имя",
+            "name_plural": "множественное имя",
+            "tag_count_primary": "количество основных тегов",
+            "tag_count_secondary": "количество дополнительных тегов"
+        }
+    }
+}
