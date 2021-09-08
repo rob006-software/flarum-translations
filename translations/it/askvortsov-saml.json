@@ -2,42 +2,42 @@
     "askvortsov-saml": {
         "admin": {
             "header": {
-                "text": ""
+                "text": "Assicurati che l'URL dei metadati o i metadati siano compilati."
             },
-            "title": "",
+            "title": "Configurazione SAML2 SSO",
             "labels": {
-                "idp_metadata_url": "",
-                "idp_metadata": "",
-                "only_option": "",
-                "nameid_format": "",
-                "slo": "",
-                "authn_requests_signed": "",
-                "logout_request_signed": "",
-                "logout_response_signed": "",
-                "sign_metadata": "",
-                "want_assertions_encrypted": "",
-                "want_assertions_signed": "",
-                "want_messages_signed": "",
-                "x509_cert": "",
-                "x509_key": "",
+                "idp_metadata_url": "URL metadati provider di identità (alternativa a XML)",
+                "idp_metadata": "URL metadati provider di identità (alternativa ad un URL)",
+                "only_option": "Utilizzare SAML2 SSO come unica opzione di login?",
+                "nameid_format": "Formato NameID",
+                "slo": "Abilita SLO? Se il tuo IDP non lo supporta, non avverranno modifiche.",
+                "authn_requests_signed": "Firmare le richieste di autenticazione?",
+                "logout_request_signed": "Firmare le richieste di logout?",
+                "logout_response_signed": "Firmare le risposte di disconnessione?",
+                "sign_metadata": "Firmare metadata?",
+                "want_assertions_encrypted": "Vuoi le asserzioni crittografate?",
+                "want_assertions_signed": "Vuoi le asserzioni firmate?",
+                "want_messages_signed": "Vuoi firmare i Messaggi?",
+                "x509_cert": "Certificato x509 (necessario per la firma, se abilitato)",
+                "x509_key": "Chiave privata x509 (necessaria per la firma, se abilitata)",
                 "sync_attributes": ""
             },
             "options": {
                 "nameid_format": {
-                    "persistent": "",
-                    "emailAddress": "",
-                    "unspecified": ""
+                    "persistent": "Persistente (consigliato se supportato)",
+                    "emailAddress": "E-mail (predefinito. Usa se persistente non supportato)",
+                    "unspecified": "Non specificato"
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_saml_button": "",
-                "open_popup": "",
-                "enable_popups": ""
+                "with_saml_button": "SAML2 SSO",
+                "open_popup": "Clicca qui per il Login",
+                "enable_popups": "Abilita i popup per accedere / registrarsi"
             },
             "sign_up": {
-                "post_saml_title": ""
+                "post_saml_title": "Ultimo Step..."
             }
         }
     }
