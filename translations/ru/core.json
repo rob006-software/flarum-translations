@@ -492,13 +492,13 @@
         "views": {
             "admin": {
                 "extensions": {
-                    "name": "Название расширения",
-                    "package_name": "Имя пакета",
-                    "version": "Версия",
                     "caption": "=> core.ref.extensions",
                     "disable": "Запретить",
                     "empty": "Нет установленных расширений",
-                    "enable": "Разрешить"
+                    "enable": "Разрешить",
+                    "name": "Название расширения",
+                    "package_name": "Имя пакета",
+                    "version": "Версия"
                 },
                 "info": {
                     "caption": "Сведения о приложении"
