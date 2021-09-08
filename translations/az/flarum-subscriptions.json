@@ -2,49 +2,49 @@
     "flarum-subscriptions": {
         "forum": {
             "badge": {
-                "following_tooltip": "",
-                "ignoring_tooltip": ""
+                "following_tooltip": "=> flarum-subscriptions.ref.following",
+                "ignoring_tooltip": "=> flarum-subscriptions.ref.ignoring"
             },
             "discussion_controls": {
-                "follow_button": "",
-                "unfollow_button": "",
-                "unignore_button": ""
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "unfollow_button": "İzlənmə",
+                "unignore_button": "Unignore"
             },
             "following": {
-                "meta_title_text": ""
+                "meta_title_text": "=> flarum-subscriptions.ref.following"
             },
             "index": {
-                "following_link": ""
+                "following_link": "=> flarum-subscriptions.ref.following"
             },
             "notifications": {
-                "new_post_text": ""
+                "new_post_text": "{username} Yazıb"
             },
             "settings": {
-                "follow_after_reply_label": "",
-                "notify_new_post_label": ""
+                "follow_after_reply_label": "Cavab verdiyim müzakirələri avtomatik olaraq izlə",
+                "notify_new_post_label": "İzlədiyim bir müzakirə mövzusunda kimsə yazır"
             },
             "sub_controls": {
-                "follow_button": "",
-                "following_button": "",
-                "following_text": "",
-                "ignoring_button": "",
-                "ignoring_text": "",
-                "not_following_button": "",
-                "not_following_text": "",
-                "notify_alert_tooltip": "",
-                "notify_email_tooltip": ""
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "following_button": "=> flarum-subscriptions.ref.following",
+                "following_text": "Bütün cavablardan xəbərdar ol.",
+                "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
+                "ignoring_text": "Heç vaxt xəbərdar olmayın. Müzakirə siyahısından gizlədin.",
+                "not_following_button": "İzləmə",
+                "not_following_text": "Yalnız @qeyd edildikdə xəbərdar olun.",
+                "notify_alert_tooltip": "Yeni yazılar olduqda bir forum bildirişi alın",
+                "notify_email_tooltip": "Yeni yazılar olanda e -poçt alın"
             }
         },
         "email": {
             "new_post": {
-                "subject": "",
-                "body": ""
+                "subject": "[New Post] {title}",
+                "body": "Hey {recipient_display_name}!\n\n{poster_display_name} izlədiyin bu: {title} mövzuya yazı yazdı\n\nYeni fəaliyyətə baxmaq üçün aşağıdakı linkə daxil olun:\n{url}\n\n---\n\n{content}\n\n---\n\nYenilənənə qədər bu müzakirə ilə bağlı daha bir bildiriş almayacaqsınız.\n"
             }
         },
         "ref": {
-            "follow": "",
-            "following": "",
-            "ignoring": ""
+            "follow": "İzlə",
+            "following": "İzləyirsən",
+            "ignoring": "Yox say"
         }
     }
 }
