@@ -1,0 +1,177 @@
+{
+    "datitisev-backup": {
+        "admin": {
+            "adapters": {
+                "local": "",
+                "aliyun": "",
+                "azure": "",
+                "aws": "",
+                "dospaces": "",
+                "dropbox": "",
+                "gdrive": "",
+                "ftp": "",
+                "gridfs": "",
+                "rackspace": "",
+                "sftp": "",
+                "webdav": "",
+                "zip": ""
+            },
+            "settings_button": "",
+            "required_package_button": "",
+            "you-need-for": {
+                "aliyun": "",
+                "azure": "",
+                "aws": "",
+                "copy": "",
+                "dospaces": "",
+                "dropbox": "",
+                "gdrive": "",
+                "gridfs": "",
+                "rackspace": "",
+                "sftp": "",
+                "webdav": ""
+            },
+            "required-package-modal": {
+                "title": "",
+                "content": ""
+            },
+            "adapter-settings-modal": {
+                "title": "",
+                "local": {
+                    "target": {
+                        "label": "",
+                        "description": ""
+                    }
+                },
+                "aliyun": {
+                    "endpoint": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "access-id": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "access-key": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "bucket": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "path-prefix": {
+                        "label": "",
+                        "description": ""
+                    }
+                },
+                "azure": {
+                    "endpoint": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "container": {
+                        "label": "",
+                        "description": ""
+                    }
+                },
+                "aws": {
+                    "credentials": {
+                        "key": {
+                            "label": "",
+                            "description": ""
+                        },
+                        "secret": {
+                            "label": "",
+                            "description": ""
+                        }
+                    },
+                    "region": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "version": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "bucket": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "path-prefix": {
+                        "label": "",
+                        "description": ""
+                    }
+                },
+                "dropbox": {
+                    "access-token": {
+                        "label": "",
+                        "description": ""
+                    }
+                },
+                "gdrive": {
+                    "client": {
+                        "id": {
+                            "label": "",
+                            "description": ""
+                        },
+                        "secret": {
+                            "label": "",
+                            "description": ""
+                        }
+                    },
+                    "refresh-token": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "folder": {
+                        "label": "",
+                        "description": ""
+                    }
+                },
+                "ftp": {
+                    "host": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "username": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "password": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "private-key": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "port": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "root": {
+                        "label": "",
+                        "description": ""
+                    },
+                    "passive": {
+                        "toggle": "",
+                        "description": ""
+                    },
+                    "ssl": {
+                        "toggle": "",
+                        "description": ""
+                    },
+                    "timeout": {
+                        "label": "",
+                        "description": ""
+                    }
+                }
+            },
+            "nav": {
+                "label": "",
+                "description": ""
+            }
+        }
+    }
+}

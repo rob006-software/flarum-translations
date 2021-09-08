@@ -1,0 +1,150 @@
+{
+    "fof-upload": {
+        "admin": {
+            "pane": {
+                "title": "",
+                "description": ""
+            },
+            "help_texts": {
+                "disable-download-logging": "",
+                "disable-hotlink-protection": "",
+                "download_templates": "",
+                "mime_types": "",
+                "resize": "",
+                "client_extension": "",
+                "watermark": "",
+                "s3_compatible_storage": "",
+                "s3_acl": "",
+                "composer_buttons": ""
+            },
+            "labels": {
+                "aws-s3": {
+                    "bucket": "",
+                    "key": "",
+                    "region": "",
+                    "secret": "",
+                    "title": "",
+                    "advanced_title": "",
+                    "endpoint": "",
+                    "use_path_style_endpoint": "",
+                    "acl": ""
+                },
+                "disable-download-logging": {
+                    "title": "",
+                    "toggle": ""
+                },
+                "disable-hotlink-protection": {
+                    "title": "",
+                    "toggle": ""
+                },
+                "imgur": {
+                    "client_id": "",
+                    "title": ""
+                },
+                "local": {
+                    "cdn_url": "",
+                    "title": ""
+                },
+                "qiniu": {
+                    "title": "",
+                    "key": "",
+                    "secret": "",
+                    "bucket": ""
+                },
+                "preferences": {
+                    "max_file_size": "",
+                    "mime_types": "",
+                    "title": ""
+                },
+                "resize": {
+                    "max_width": "",
+                    "title": "",
+                    "toggle": ""
+                },
+                "client_extension": {
+                    "title": ""
+                },
+                "watermark": {
+                    "file": "",
+                    "position": "",
+                    "title": "",
+                    "toggle": ""
+                },
+                "composer_buttons": {
+                    "title": "",
+                    "options": {
+                        "both": "",
+                        "upload-btn": "",
+                        "media-btn": ""
+                    }
+                }
+            },
+            "permissions": {
+                "download_label": "",
+                "upload_label": "",
+                "view_user_uploads_label": "",
+                "delete_uploads_of_others_label": ""
+            },
+            "templates": {
+                "file": "",
+                "file_description": "",
+                "image": "",
+                "image_description": "",
+                "image-preview": "",
+                "image-preview_description": "",
+                "markdown-image": "",
+                "markdown-image_description": "",
+                "bbcode-image": "",
+                "bbcode-image_description": "",
+                "just-url": "",
+                "just-url_description": ""
+            },
+            "upload_methods": {
+                "aws-s3": "",
+                "imgur": "",
+                "local": "",
+                "ovh-svfs": "",
+                "qiniu": ""
+            }
+        },
+        "forum": {
+            "media_manager": "",
+            "buttons": {
+                "attach": "",
+                "upload": "",
+                "user_uploads": "",
+                "cancel": "",
+                "media": ""
+            },
+            "file_list": {
+                "loading": "",
+                "empty": "",
+                "release_to_upload": "",
+                "modal_empty_desktop": "",
+                "modal_empty_phone": "",
+                "select_file_a11y_label": "",
+                "confirm_selection_btn": "",
+                "load_more_files_btn": "",
+                "hide_file": {
+                    "btn_a11y_label": "",
+                    "hide_confirmation": "",
+                    "hide_success": "",
+                    "hide_fail": "",
+                    "loading": ""
+                }
+            },
+            "states": {
+                "error": "",
+                "loading": "",
+                "unauthorized": ""
+            }
+        },
+        "api": {
+            "upload_errors": {
+                "forbidden_type": "",
+                "unsupported_type": "",
+                "could_not_detect_mime": ""
+            }
+        }
+    }
+}
