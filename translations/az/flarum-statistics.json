@@ -2,15 +2,15 @@
     "flarum-statistics": {
         "admin": {
             "statistics": {
-                "active_users_text": "",
-                "discussions_heading": "",
-                "last_12_months_label": "",
-                "last_28_days_label": "",
-                "last_7_days_label": "",
-                "posts_heading": "",
-                "today_label": "",
-                "total_label": "",
-                "users_heading": ""
+                "active_users_text": "{count} aktivdir",
+                "discussions_heading": "=> core.ref.discussions",
+                "last_12_months_label": "Son 12 ay",
+                "last_28_days_label": "Son 28 gün",
+                "last_7_days_label": "Son 7 gün",
+                "posts_heading": "=> core.ref.posts",
+                "today_label": "Bu gün",
+                "total_label": "Ümumi",
+                "users_heading": "=> core.ref.users"
             }
         }
     }
