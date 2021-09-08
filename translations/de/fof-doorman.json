@@ -2,55 +2,55 @@
     "fof-doorman": {
         "forum": {
             "email": {
-                "subject": "",
-                "body": ""
+                "subject": "Zum Beitreten einladen",
+                "body": "Hallo,\n\nDu wurdest für eine Registrierung in {forum} eingeladen\nWenn du bereit bist, dir ein Konto zu erstellen, klicke einfach auf den folgenden Link und gebe den Code bei der Registrierung ein:\n\nUrl: {url}\nEinladungscode: {code}\n"
             },
             "sign_up": {
-                "invalid_doorkey": "",
-                "doorkey_required": "",
-                "doorman_placeholder": "",
-                "doorman_placeholder_optional": ""
+                "invalid_doorkey": "Der von Dir eingegebene Einladungscode ist ungültig.",
+                "doorkey_required": "Bitte gebe einen Einladungscode ein.",
+                "doorman_placeholder": "Einladungscode",
+                "doorman_placeholder_optional": "Einladungscode (optional)"
             }
         },
         "admin": {
             "modal": {
-                "title": "",
-                "group": "",
-                "help": "",
-                "placeholder": "",
-                "invalid_emails": "",
-                "max_use_conflict": "",
-                "send": "",
-                "success": ""
+                "title": "Einladungscodes senden",
+                "group": "Senden von Einladungen für die Gruppe {group}",
+                "help": "Akzeptiert eine durch Kommas, Leerzeichen oder durch Kommas getrennte Liste. Gebe eine einzelne E-Mail oder füge eine Liste ein und drücke dann die Leertaste, um sie hinzuzufügen.",
+                "placeholder": "E-Mails hier eingeben",
+                "invalid_emails": "Die folgenden E-Mail(s) sind ungültig: {emails}",
+                "max_use_conflict": "Die Anzahl der E-Mails überschreitet die maximale Anzahl von Verwendungen für diesen Code.",
+                "send": "E-Mails senden",
+                "success": "E-Mails erfolgreich gesendet"
             },
-            "invalid_doorkey": "",
-            "doorkey_required": "",
+            "invalid_doorkey": "Der von Dir angegebene Einladungscode ist ungültig.",
+            "doorkey_required": "Du musst einen Einladungscode angeben",
             "nav": {
-                "desc": ""
+                "desc": "Erstelle Einladungscodes für Benutzer, um sich anzumelden und einer Gruppe zugewiesen zu werden"
             },
             "page": {
-                "title": "",
+                "title": "Doorman",
                 "doorkey": {
-                    "used_times": "",
-                    "title": "",
+                    "used_times": "{remaining, plural, one {{remaining} Verwendung verbleibend} other {{remaining} Verwendungen verbleibend}}",
+                    "title": "Einladungscodes",
                     "help": {
-                        "key": "",
-                        "group": "",
-                        "max": "",
-                        "activates": ""
+                        "key": "Schlüssel: Code, den der Benutzer bei der Registrierung eingibt.",
+                        "group": "Gruppe: Die Gruppe, zu der der Benutzer bei der Registrierung hinzugefügt wird.",
+                        "max": "Max. Verwendungen: Die maximale Anzahl von Verwendungen, setze auf 0 für unbegrenzte Verwendungen",
+                        "activates": "Aktiviert Benutzer: Aktiviert den Benutzer automatisch, wenn er sich registriert."
                     },
-                    "warning": "",
-                    "key": "",
-                    "max_uses": "",
+                    "warning": "Dieser Einladungscode wurde maximal verwendet.",
+                    "key": "Schlüssel",
+                    "max_uses": "Maximale Verwendungen",
                     "heading": {
-                        "key": "",
-                        "group": "",
-                        "activate": "",
-                        "max_uses": ""
+                        "key": "Schlüssel",
+                        "group": "Gruppe",
+                        "activate": "Aktiviert Benutzer",
+                        "max_uses": "Maximale Verwendungen"
                     },
                     "allow-public": {
-                        "title": "",
-                        "switch-label": ""
+                        "title": "Öffentliche Registrierungen zulassen",
+                        "switch-label": "Tue den Einladungscode bei der Anmeldung optional"
                     }
                 }
             }
