@@ -1,32 +1,32 @@
 {
     "fof-reactions": {
         "forum": {
-            "disabled-reaction": "",
-            "warning": "",
-            "notification": "",
+            "disabled-reaction": "Вы не можете применить эту Реакцию прямо сейчас, попробуйте обновить страницу",
+            "warning": "Ваша Реакция конвертирована",
+            "notification": "{username} отреагировал {reaction} на ваше сообщение",
             "settings": {
-                "notify_post_reacted_label": ""
+                "notify_post_reacted_label": "Кто-то отреагировал на одно из моих сообщений"
             },
-            "reacting-own-post": "",
+            "reacting-own-post": "Вы не можете реагировать на своё собственное сообщение",
             "modal": {
-                "title": ""
+                "title": "Реакции"
             },
-            "mod_item": "",
-            "react_button_label": ""
+            "mod_item": "Просмотр реакций",
+            "react_button_label": "Реагировать"
         },
         "admin": {
             "permissions": {
-                "react_posts_label": "",
-                "see_reactions_label": ""
+                "react_posts_label": "Реагировать на сообщения",
+                "see_reactions_label": "Посмотреть, кто реагировал на сообщения"
             },
             "page": {
                 "reactions": {
-                    "title": "",
-                    "reactions": "",
-                    "Helptext": "",
+                    "title": "Пользовательские реакции",
+                    "reactions": "Текущие реакции",
+                    "Helptext": "Введите имя (идентификатор) эмодзи или иконку font-awesome и выберите нужный тип.",
                     "help": {
-                        "display": "",
-                        "identifier": ""
+                        "display": "Отобразить",
+                        "identifier": "Идентификатор"
                     }
                 },
                 "convert": {
