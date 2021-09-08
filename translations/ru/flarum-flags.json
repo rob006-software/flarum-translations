@@ -1,0 +1,50 @@
+{
+    "flarum-flags": {
+        "admin": {
+            "permissions": {
+                "flag_posts_label": "Жаловаться на сообщения",
+                "view_flags_label": "Смотреть список жалоб"
+            },
+            "settings": {
+                "flag_own_posts_label": "Разрешить пользователям жаловаться на свои сообщения",
+                "guidelines_url_label": "Правила сообщества (URL)",
+                "title": "Настройки"
+            }
+        },
+        "forum": {
+            "flag_post": {
+                "confirmation_message": "Благодарим за уведомление. Наши модераторы обязательно проверят это сообщение.",
+                "dismiss_button": "=> core.ref.okay",
+                "reason_details_placeholder": "Дополнительная информация (необязательно)",
+                "reason_inappropriate_label": "Недопустимо",
+                "reason_inappropriate_text": "Сообщение носит оскорбительный характер или нарушает <a>правила сообщества</a>.",
+                "reason_missing_message": "Пожалуйста, предоставьте информацию для наших модераторов.",
+                "reason_off_topic_label": "Off-topic",
+                "reason_off_topic_text": "Сообщение не имеет отношение к дискуссии и должно быть перемещено в другое место.",
+                "reason_other_label": "Другое (пожалуйста, укажите причину)",
+                "reason_spam_label": "Спам",
+                "reason_spam_text": "Сообщение носит рекламный характер.",
+                "submit_button": "=> flarum-flags.ref.flag_post",
+                "title": "=> flarum-flags.ref.flag_post"
+            },
+            "flagged_posts": {
+                "empty_text": "Жалобы отсутствуют",
+                "item_text": "{username} в <em>{discussion}</em>",
+                "title": "=> flarum-flags.ref.flagged_posts",
+                "tooltip": "=> flarum-flags.ref.flagged_posts"
+            },
+            "post": {
+                "dismiss_flag_button": "Отклонить жалобу",
+                "flagged_by_text": "{username} оставил(а) жалобу на сообщение",
+                "flagged_by_with_reason_text": "{username} оставил(а) жалобу на сообщение, причина: {reason}"
+            },
+            "post_controls": {
+                "flag_button": "Жалоба"
+            }
+        },
+        "ref": {
+            "flag_post": "Отправить",
+            "flagged_posts": "Жалобы"
+        }
+    }
+}
