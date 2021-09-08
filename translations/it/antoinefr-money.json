@@ -3,21 +3,21 @@
         "admin": {
             "settings": {
                 "title": "Impostazioni",
-                "moneyforpost": "Denaro dato per un nuovo posto",
-                "moneyfordiscussion": "Denaro dato per una nuova discussione",
-                "moneyname": "Nome del denaro (es: [denaro] punti)",
+                "moneyforpost": "Ricompensa per un nuovo post",
+                "moneyfordiscussion": "Ricompensa per una nuova discussione",
+                "moneyname": "Nome della moneta (es: [denaro] punti)",
                 "postminimumlength": "Lunghezza minima del post per ottenere il denaro (0 per disabilitare)",
                 "noshowzero": "Non mostrare se il valore è zero",
                 "moneyforlike": "Soldi dati quando un post è piaciuto",
                 "helpextensionlikes": "Richiede l'estensione <code>flarum/likes</code>"
             },
             "permissions": {
-                "edit_money_label": "Modifica denaro"
+                "edit_money_label": "Modifica moneta"
             }
         },
         "forum": {
             "user_controls": {
-                "money_button": "Modifica denaro"
+                "money_button": "Modifica moneta"
             },
             "modal": {
                 "title": "Soldi di {username}",
