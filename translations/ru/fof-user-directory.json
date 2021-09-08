@@ -1,0 +1,46 @@
+{
+    "fof-user-directory": {
+        "forum": {
+            "header": {
+                "back_to_user_directory_tooltip": "Назад к списку участников"
+            },
+            "search": {
+                "users_heading": "Поиск всех пользователей: \"{query}\"",
+                "field": {
+                    "placeholder": "Найти всех пользователей..."
+                }
+            },
+            "page": {
+                "nav": "Список участников",
+                "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
+                "load_more_button": "=> core.ref.load_more",
+                "empty_text": "Пользователи, соответствующие Вашему запросу, не найдены.",
+                "filter_button": "Фильтр групп"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "view_user_directory": "Смотреть список участников"
+            },
+            "settings": {
+                "link": "Ссылка на главной странице форума",
+                "default-sort": "Сортировка по умолчанию",
+                "use-small-cards": "Использовать небольшие карточки участников"
+            }
+        },
+        "lib": {
+            "sort": {
+                "not_specified": "Как в Flarum",
+                "default": "По умолчанию",
+                "username_az": "Имя пользователя (a-z)",
+                "username_za": "Имя пользователя (z-a)",
+                "newest": "По убыванию",
+                "oldest": "По возрастанию",
+                "most_posts": "Много сообщений",
+                "least_posts": "Мало сообщений",
+                "most_discussions": "Много дискуссий",
+                "least_discussions": "Мало дискуссий"
+            }
+        }
+    }
+}
