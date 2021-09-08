@@ -469,6 +469,7 @@
                 "generic_message": "Упс! Что-то пошло не так. Пожалуйста, обновите страницу и попробуйте ещё раз.",
                 "missing_dependencies_message": "Невозможно включить {extension}, пока не будут включены следующие зависимые расширения: {extensions}",
                 "not_found_message": "Запрашиваемый ресурс не найден.",
+                "payload_too_large_message": "",
                 "permission_denied_message": "У Вас нет прав доступа для выполнения этого действия.",
                 "rate_limit_exceeded_message": "Вы размещаете сообщения слишком часто. Пожалуйста, попробуйте ещё раз через несколько секунд."
             },
@@ -489,6 +490,26 @@
             }
         },
         "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "",
+                    "disable": "",
+                    "empty": "",
+                    "enable": "",
+                    "name": "",
+                    "package_name": "",
+                    "version": ""
+                },
+                "info": {
+                    "caption": ""
+                },
+                "title": ""
+            },
+            "confirm_email": {
+                "submit_button": "",
+                "text": "",
+                "title": ""
+            },
             "content": {
                 "javascript_disabled_message": "Этот сайт лучше всего просматривать в современном браузере с включённым JavaScript.",
                 "load_error_message": "Что-то пошло не так при попытке загрузить полную версию этого сайта. Попробуйте обновить страницу с удалением кэша браузера (CTRL+F5) для решения этой проблемы.",
@@ -552,6 +573,7 @@
             "change_password": "Изменить пароль",
             "color": "Цвет",
             "confirm_password": "Подтвердить пароль",
+            "confirm_email": "",
             "confirmation_email_sent": "Мы отправили письмо с подтверждением на адрес {email}. Если Вы не получите письмо в ближайшее время, проверьте папку со спамом.",
             "custom_footer_text": "HTML, который будет отображаться в самой нижней части страницы.",
             "custom_footer_title": "Редактирование нижнего колонтитула",
@@ -563,6 +585,7 @@
             "edit": "Править",
             "edit_user": "Изменить пользователя",
             "email": "E-mail",
+            "extensions": "",
             "icon": "Иконка",
             "icon_text": "Введите название любого класса иконки <a>Font Awesome</a>, <em>включая</em> префикс <code>fas fa-</code>.",
             "load_more": "Загрузить ещё",

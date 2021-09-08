@@ -1,5 +1,15 @@
 {
     "fof-socialprofile": {
+        "admin": {
+            "permissions": {
+                "view": "",
+                "editOwn": "",
+                "editAny": ""
+            },
+            "settings": {
+                "allow_external_favicons_label": ""
+            }
+        },
         "forum": {
             "edit": {
                 "edit": "Править",
@@ -10,7 +20,9 @@
                 "submit": "Сохранить",
                 "delete": "Удалить",
                 "deletetitle": "Удаление кнопки",
-                "save_disabled_fetching_favicons": "Идёт процесс извлечения иконок. Пожалуйста, подождите."
+                "save_disabled_fetching_favicons": "Идёт процесс извлечения иконок. Пожалуйста, подождите.",
+                "favicon": "",
+                "grey_favicon": ""
             }
         }
     }
