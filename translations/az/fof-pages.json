@@ -4,13 +4,13 @@
             "edit_page": {
                 "content_label": "",
                 "content_placeholder": "",
-                "delete_page_button": "",
-                "delete_page_confirmation": "",
-                "hidden_label": "",
-                "restricted_label": "",
-                "html_label": "",
-                "set_as_home_page_confirmation": "",
-                "set_as_home_page_done": "",
+                "delete_page_button": "Səhifəni sil",
+                "delete_page_confirmation": "Bu səhifəni silmək istədiyinizə əminsiniz?",
+                "hidden_label": "Qaralama olaraq saxlaya",
+                "restricted_label": "Girişi məhdudlaşdırın (İcazələr sekmesinde kimin daxil olacağını konfiqurasiya edin)",
+                "html_label": "HTML -i aktiv edin",
+                "set_as_home_page_confirmation": "Bu səhifəni ana səhifəniz olaraq təyin etmək istədiyinizə əminsiniz?",
+                "set_as_home_page_done": "Ana səhifə yeniləndi",
                 "slug_label": "",
                 "slug_placeholder": "",
                 "submit_button": "",
@@ -28,20 +28,20 @@
                 "title": ""
             },
             "permissions": {
-                "restricted": ""
+                "restricted": "Məhdudlaşdırılmış səhifələrə baxın"
             },
             "badges": {
-                "hidden": "",
-                "restricted": ""
+                "hidden": "Qaralama",
+                "restricted": "Məhdudlaşdırılıb"
             }
         },
         "ref": {
-            "content": "",
-            "create_page": "",
-            "pages": "",
-            "slug": "",
-            "title": "",
-            "url": ""
+            "content": "Məzmun",
+            "create_page": "Səhifə yaradın",
+            "pages": "Səhifələr",
+            "slug": "Şlak",
+            "title": "Başlıq",
+            "url": "URL"
         }
     }
 }
