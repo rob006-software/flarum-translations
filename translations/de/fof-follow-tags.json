@@ -2,77 +2,77 @@
     "fof-follow-tags": {
         "forum": {
             "settings": {
-                "notify_new_discussion_label": "",
-                "notify_new_post_label": "",
-                "notify_new_discussion_tag_label": ""
+                "notify_new_discussion_label": "Jemand erstellt eine Diskussion in einem Tag, dem ich folge",
+                "notify_new_post_label": "Jemand postet in einem Tag, dem ich folge",
+                "notify_new_discussion_tag_label": "Jemand markiert eine Diskussion erneut mit einem Tag, dem ich folge"
             },
             "index": {
-                "follow_tag_button": "",
-                "unfollow_tag_button": "",
+                "follow_tag_button": "Folgen",
+                "unfollow_tag_button": "Folgen beenden",
                 "following": {
-                    "following_none_label": "",
-                    "following_tags_label": ""
+                    "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                    "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
                 }
             },
             "badge": {
-                "following_tag_tooltip": "",
-                "lurking_tag_tooltip": ""
+                "following_tag_tooltip": "Folgend",
+                "lurking_tag_tooltip": "Lauernd"
             },
             "sub_controls": {
-                "follow_button": "",
-                "following_button": "",
-                "following_text": "",
-                "hiding_button": "",
-                "hiding_text": "",
-                "ignoring_button": "",
-                "ignoring_text": "",
-                "lurking_button": "",
-                "lurking_text": "",
-                "not_following_button": "",
-                "not_following_text": "",
-                "notify_alert_tooltip": "",
-                "notify_email_tooltip": ""
+                "follow_button": "=> fof-follow-tags.ref.follow",
+                "following_button": "=> fof-follow-tags.ref.following",
+                "following_text": "Über alle neuen Diskussionen benachricht werden.",
+                "hiding_button": "=> fof-follow-tags.ref.hiding",
+                "hiding_text": "Ausblenden von Diskussionen auf der Seite Alle Diskussionen.",
+                "ignoring_button": "=> fof-follow-tags.ref.ignoring",
+                "ignoring_text": "Niemals benachrichtigt werden",
+                "lurking_button": "=> fof-follow-tags.ref.lurking",
+                "lurking_text": "Über alle neuen Diskussionen und Antworten benachrichtigen lassen.",
+                "not_following_button": "Nicht folgend",
+                "not_following_text": "Werde nur benachrichtigt, wenn @erwähnt.",
+                "notify_alert_tooltip": "Erhalte eine Forenbenachrichtigung, wenn neue Diskussionen oder Beiträge existieren",
+                "notify_email_tooltip": "Erhalte eine E-Mail, wenn neue Diskussionen oder Beiträge existieren"
             },
             "notifications": {
-                "new_discussion_text": "",
-                "new_post_text": "",
-                "new_discussion_tag_text": ""
+                "new_discussion_text": "{username} gestartet",
+                "new_post_text": "{username} gepostet",
+                "new_discussion_tag_text": "{username} hat das Tag geändert"
             },
             "user": {
                 "settings": {
-                    "heading": "",
-                    "filter_label": ""
+                    "heading": "Follow Tags",
+                    "filter_label": "Was standardmäßig auf der folgenden Seite angezeigt werden soll"
                 }
             }
         },
         "admin": {
             "settings": {
-                "following_page_default_label": "",
-                "following_none_label": "",
-                "following_tags_label": ""
+                "following_page_default_label": "Standardfilterung der folgenden Seiten",
+                "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
             }
         },
         "email": {
             "subject": {
-                "newDiscussionInTag": "",
-                "newPostInTag": "",
-                "newDiscussionTag": ""
+                "newDiscussionInTag": "[Tag | Neue Diskussion] {title}",
+                "newPostInTag": "[Tag | Neuer Beitrag] {title}",
+                "newDiscussionTag": "[Tag | Geändertes Tag] {title}"
             },
             "body": {
-                "newDiscussionInTag": "",
-                "newPostInTag": "",
-                "newDiscussionTag": ""
+                "newDiscussionInTag": "Hallo {recipient_display_name},\n\n{actor_display_name} hat eine Diskussion in einem Tag gestartet, dem Sie folgen: {discussion_title}\n\nUm die neue Diskussion anzuzeigen, besuche den folgenden Link:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newPostInTag": "Hallo {recipient_display_name},\n\n{actor_display_name} hat in einer Diskussion zu einem Tag gepostet, dem Sie folgen: {discussion_title}\n\nUm die neue Aktivität anzuzeigen, besuche den folgenden Link:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nDu erhälst keine weiteren Benachrichtigungen zu dieser Diskussion, bis Du auf dem Laufenden bist.\n",
+                "newDiscussionTag": "Hey {recipient_display_name},\n\n{actor_display_name} hat gerade das Tag einer Diskussion von {author_display_name} in ein Tag geändert, dem Du folgst {discussion_title}\n\nUm die neue Diskussion anzuzeigen, besuche den folgenden Link:\n{discussion_url}\n"
             }
         },
         "ref": {
-            "follow": "",
-            "following": "",
-            "hiding": "",
-            "ignoring": "",
-            "lurking": "",
+            "follow": "Folgen",
+            "following": "Folgend",
+            "hiding": "Versteckend",
+            "ignoring": "ignorierend",
+            "lurking": "Lauernd",
             "filtering_options": {
-                "none": "",
-                "tags": ""
+                "none": "Gefolgte Diskussionen",
+                "tags": "Gefolgte Tags"
             }
         }
     }
