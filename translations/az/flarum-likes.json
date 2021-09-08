@@ -2,27 +2,27 @@
     "flarum-likes": {
         "admin": {
             "permissions": {
-                "like_posts_label": ""
+                "like_posts_label": "Yazıları bəyənin"
             }
         },
         "forum": {
             "notifications": {
                 "others_text": "",
-                "post_liked_text": ""
+                "post_liked_text": "{username} yazınızı bəyəndi"
             },
             "post": {
-                "like_link": "",
-                "liked_by_self_text": "",
+                "like_link": "Bəyən",
+                "liked_by_self_text": "{users} bunun kimi.",
                 "liked_by_text": "",
                 "others_link": "",
-                "unlike_link": "",
+                "unlike_link": "Dislike",
                 "you_text": ""
             },
             "post_likes": {
-                "title": ""
+                "title": "Bunu Bəyənən İstifadəçilər"
             },
             "settings": {
-                "notify_post_liked_label": ""
+                "notify_post_liked_label": "Kimsə mənim yazılarımdan birini bəyənir"
             }
         }
     }
