@@ -1,0 +1,51 @@
+{
+    "fof-polls": {
+        "admin": {
+            "permissions": {
+                "view_results_without_voting": "Смотреть результат без голосования",
+                "start": "Создавать опросы",
+                "self_edit": "Разрешить пользователям редактировать свои опросы",
+                "vote": "Голосовать в опросах",
+                "change_vote": "Изменять голос",
+                "moderate": "Редактировать / удалять опросы"
+            }
+        },
+        "forum": {
+            "days_remaining": "Опрос завершится: {time}.",
+            "no_permission": "У Вас нет прав доступа на голосование в опросе",
+            "poll_ended": "Опрос завершён.",
+            "public_poll": "Посмотреть голоса",
+            "composer_discussion": {
+                "add_poll": "Добавить опрос",
+                "edit_poll": "=> fof-polls.forum.moderation.edit"
+            },
+            "modal": {
+                "add_title": "Добавить опрос",
+                "add_option_label": "Добавить вариант",
+                "date_placeholder": "Дата завершения опроса (опционально)",
+                "edit_title": "Редактирование опроса",
+                "include_question": "Вы должны указать вопрос",
+                "max": "Вы можете добавить максимум 10 вариантов",
+                "min": "Вы должны добавить минимум 2 варианта",
+                "no_voters": "Голоса отсутствуют",
+                "option_placeholder": "Вариант",
+                "options_label": "Варианты ответа",
+                "public_poll_label": "Публичный опрос",
+                "question_placeholder": "Вопрос",
+                "submit": "Сохранить"
+            },
+            "moderation": {
+                "delete": "Удалить опрос",
+                "delete_confirm": "Вы уверены, что хотите удалить опрос?",
+                "edit": "Изменить опрос"
+            },
+            "tooltip": {
+                "badge": "Опрос",
+                "votes": "{count, plural, one {# голос} other {# голосов}}"
+            },
+            "votes_modal": {
+                "title": "Участники опроса"
+            }
+        }
+    }
+}
