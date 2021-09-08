@@ -469,10 +469,9 @@
                 "generic_message": "Упс! Что-то пошло не так. Пожалуйста, обновите страницу и попробуйте ещё раз.",
                 "missing_dependencies_message": "Невозможно включить {extension}, пока не будут включены следующие зависимые расширения: {extensions}",
                 "not_found_message": "Запрашиваемый ресурс не найден.",
-                "payload_too_large_message": "",
+                "payload_too_large_message": "Длина запроса слишком велика.",
                 "permission_denied_message": "У Вас нет прав доступа для выполнения этого действия.",
-                "rate_limit_exceeded_message": "Вы размещаете сообщения слишком часто. Пожалуйста, попробуйте ещё раз через несколько секунд.",
-                "payload_too_large_message": "Длина запроса слишком велика."
+                "rate_limit_exceeded_message": "Вы размещаете сообщения слишком часто. Пожалуйста, попробуйте ещё раз через несколько секунд."
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
@@ -493,23 +492,23 @@
         "views": {
             "admin": {
                 "extensions": {
-                    "caption": "",
-                    "disable": "",
-                    "empty": "",
-                    "enable": "",
-                    "name": "",
-                    "package_name": "",
-                    "version": ""
+                    "name": "Название расширения",
+                    "package_name": "Имя пакета",
+                    "version": "Версия",
+                    "caption": "=> core.ref.extensions",
+                    "disable": "Запретить",
+                    "empty": "Нет установленных расширений",
+                    "enable": "Разрешить"
                 },
                 "info": {
-                    "caption": ""
+                    "caption": "Сведения о приложении"
                 },
-                "title": ""
+                "title": "Администрирование"
             },
             "confirm_email": {
-                "submit_button": "",
-                "text": "",
-                "title": ""
+                "submit_button": "=> core.ref.confirm_email",
+                "text": "Щелкните по кнопке ниже для подтверждения своей электронной почты.",
+                "title": "=> core.ref.confirm_email"
             },
             "content": {
                 "javascript_disabled_message": "Этот сайт лучше всего просматривать в современном браузере с включённым JavaScript.",
@@ -545,16 +544,6 @@
                 "new_password_label": "Новый пароль",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
-            },
-            "admin": {
-                "extensions": {
-                    "name": "Название расширения",
-                    "package_name": "Имя пакета",
-                    "version": "Версия"
-                },
-                "info": {
-                    "caption": "Сведения о приложении"
-                }
             }
         },
         "api": {
@@ -584,7 +573,7 @@
             "change_password": "Изменить пароль",
             "color": "Цвет",
             "confirm_password": "Подтвердить пароль",
-            "confirm_email": "",
+            "confirm_email": "Подтвердить адрес электронной почты",
             "confirmation_email_sent": "Мы отправили письмо с подтверждением на адрес {email}. Если Вы не получите письмо в ближайшее время, проверьте папку со спамом.",
             "custom_footer_text": "HTML, который будет отображаться в самой нижней части страницы.",
             "custom_footer_title": "Редактирование нижнего колонтитула",
@@ -596,7 +585,7 @@
             "edit": "Править",
             "edit_user": "Изменить пользователя",
             "email": "E-mail",
-            "extensions": "",
+            "extensions": "Расширения",
             "icon": "Иконка",
             "icon_text": "Введите название любого класса иконки <a>Font Awesome</a>, <em>включая</em> префикс <code>fas fa-</code>.",
             "load_more": "Загрузить ещё",
