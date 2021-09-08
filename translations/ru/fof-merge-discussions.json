@@ -1,0 +1,36 @@
+{
+    "fof-merge-discussions": {
+        "forum": {
+            "modal": {
+                "title": "Объединить дискуссии",
+                "type_target_label": "Объединить с этой",
+                "type_target_help_text": "Выберите дискуссии для объединения в <b>{title}</b>.",
+                "type_from_label": "Объединить эту дискуссию с другой",
+                "type_from_help_text": "Выберите дискуссию для объединения с <b>{title}</b>.",
+                "load_preview_button": "Пред-просмотр",
+                "submit_button": "=> fof-merge-discussions.ref.merge"
+            },
+            "discussion": {
+                "merge": "=> fof-merge-discussions.ref.merge"
+            },
+            "post": {
+                "merged": "{count, plural, one {Перемещено <b>#</b> сообщение из {titles}.} other {Перемещено <b>#</b> сообщений из {titles}.}}"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "merge_discussions_label": "Объединять дискуссии"
+            }
+        },
+        "api": {
+            "error": {
+                "merging_failed": "Не удалось объединить дискуссии.",
+                "updating_failed": "Не удалось обновить информацию о дискуссии.",
+                "deleting_failed": "Не удалось удалить пустые дискуссии."
+            }
+        },
+        "ref": {
+            "merge": "Объединить"
+        }
+    }
+}
