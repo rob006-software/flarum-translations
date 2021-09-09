@@ -1,32 +1,32 @@
 {
     "flarum-ext-contactme": {
         "settings": {
-            "emaillabel": ""
+            "emaillabel": "Электронная почта, на которую будет выслана Контактная Форма"
         },
         "admin": {
             "settings": {
-                "emaillabel": ""
+                "emaillabel": "Электронная почта, на которую будет выслана Контактная Форма"
             }
         },
         "forum": {
-            "title": "",
-            "messagesent": "",
-            "plsregister": "",
-            "tocontinue": "",
-            "backsoon": "",
-            "notloggedin": "",
-            "placeholderName": "",
-            "emailfield": "",
-            "pageTitle": "",
-            "subject": "",
-            "sendForm": "",
-            "textAreaField": "",
+            "title": "Свяжитесь с нами",
+            "messagesent": "Сообщение отправлено!",
+            "plsregister": "Пожалуйста зарегистрируйтесь или авторизуйтесь",
+            "tocontinue": "продолжить с этой Контактной Формой",
+            "backsoon": "мы скоро с вами свяжемся",
+            "notloggedin": "Для доступа к Контактной Форме, пожалуйста, авторизуйтесь",
+            "placeholderName": "Введите ваше имя",
+            "emailfield": "Введите ваш адрес электронной почты",
+            "pageTitle": ".Свяжитесь с нами",
+            "subject": "Сообщение из Контактной Формы",
+            "sendForm": "Отправить сообщение",
+            "textAreaField": "Введите ваше сообщение",
             "pText": ""
         },
         "email": {
             "contact": {
-                "subject": "",
-                "body": ""
+                "subject": "Новый контакт из формы",
+                "body": "Привет!\n\nВам отправлено сообщение из новой Контактной Формы  от {username} (эл.почта: {email})\n\nСообщение:\n\n{message}"
             }
         }
     }
