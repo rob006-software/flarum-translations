@@ -281,7 +281,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/byobu/1.0.0/resources/locale/en.yml',
 	],
 	'fof-cookie-consent' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/cookie-consent/1.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/cookie-consent/1.0.1/resources/locale/en.yml',
 	],
 	'fof-custom-footer' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/custom-footer/1.0.0/resources/locale/en.yml',
