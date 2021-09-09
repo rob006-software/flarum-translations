@@ -14,8 +14,8 @@
                 },
                 "allow_select_own_post": "Wybieranie własnego posta",
                 "allow_select_own_post_help": "Pozwól autorowi dyskusji wybrać jeden z jego własnych postów jako najlepszą odpowiedź",
-                "enable_all_tags_button": "",
-                "enable_all_tags_reminder_button": "",
+                "enable_all_tags_button": "Włącz obsługę najlepszych odpowiedzi we wszystkich tagach",
+                "enable_all_tags_reminder_button": "Włącz przypomnienia o wybraniu najlepszej odpowiedzi we wszystkich tagach",
                 "select_best_answer_reminder_days": "Częstotliwość przypominania",
                 "select_best_answer_reminder_days_help": "Po podanej liczbie dni wyślij przypomnienie do autora dyskusji, aby wybrał najlepszą odpowiedź. Ustaw 0, aby wyłączyć przypomnienia.",
                 "schedule_on_one_server": "Użyj dyrektywy \"onOneServer()\" dla harmonogramu zadań (task scheduler)",
@@ -26,7 +26,7 @@
                 "use_alt_ui": "Alternatywny układ",
                 "use_alt_ui_help": "Wyświetl opcje do ustawiania najlepszej odpowiedzi w stopce posta",
                 "documentation": "Dokumentacja",
-                "introduction": "W ustawieniach <code>flarum/tags</code> wybierz, które tagi mają obsługiwać najlepsze odpowiedzi i, opcjonalnie, które tagi powinny obsługiwać przypomnienia. Gdy tag ma włączoną funkcję najlepszych odpowiedzi, przydziel uprawnienia dla każdej grupy użytkowników, którzy mogą wybierać odpowiedzi (własne dyskusje, cudze dyskusje). Uprawnienia mogą być przypisane globalnie (dla każdego tagu z włączoną opcją najlepszej odpowiedzi), lub dla każdego tagu osobno.\n",
+                "introduction": "W ustawieniach <code><a>flarum/tags</a></code> wybierz, które tagi mają obsługiwać najlepsze odpowiedzi i, opcjonalnie, które tagi powinny obsługiwać przypomnienia. Gdy tag ma włączoną funkcję najlepszych odpowiedzi, przydziel uprawnienia dla każdej grupy użytkowników, którzy mogą wybierać odpowiedzi (własne dyskusje, cudze dyskusje). Uprawnienia mogą być przypisane globalnie (dla każdego tagu z włączoną opcją najlepszej odpowiedzi), lub dla każdego tagu osobno.\n",
                 "remind_tag_ids": "Aby wysyłać przypomnienia tylko dla dyskusji w konkretnych tagach, wpisz tutaj ich ID (ID tagów rozdzielone przecinkami)"
             },
             "edit_tag": {
