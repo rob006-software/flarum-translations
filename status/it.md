@@ -2457,6 +2457,17 @@
 		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-email-as-display-name/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-email-as-display-name/it/"><img src="https://weblate.rob006.net/widgets/flarum/it/clarkwinkelmann-email-as-display-name/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/justoverclockl/discussions-info" title="justoverclock/discussion-info"><code>justoverclock/discussion-info</code></a>
+		</td>
+		<td align="center">222</td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/discussion-info/stats">1</a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/discussion-info/stats">1</a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/discussion-info/stats">1</a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-discussion-info/it/"><img src="https://weblate.rob006.net/widgets/flarum/it/justoverclock-discussion-info/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
 </tbody>
 </table>
 
