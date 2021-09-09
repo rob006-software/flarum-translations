@@ -1,28 +1,28 @@
 {
     "sycho-github-milestone": {
         "admin": {
-            "repository": "",
-            "repository_example": "",
-            "milestone": "",
-            "default_filter": "",
-            "closed": "",
-            "open": "",
-            "all": ""
+            "repository": "Kho lưu trữ Github",
+            "repository_example": "ví dụ: flarum/core",
+            "milestone": "ID Milestone",
+            "default_filter": "Bộ lọc mặc định",
+            "closed": "=> sycho-github-milestone.ref.closed",
+            "open": "=> sycho-github-milestone.ref.open",
+            "all": "=> sycho-github-milestone.ref.all"
         },
         "forum": {
-            "title": "",
-            "last_updated": "",
-            "closed": "",
-            "open": "",
-            "all": "",
-            "complete": "",
-            "load_more": "",
-            "tasks_done": ""
+            "title": "Milestone",
+            "last_updated": "Cập nhật lần cuối {time}",
+            "closed": "=> sycho-github-milestone.ref.closed",
+            "open": "=> sycho-github-milestone.ref.open",
+            "all": "=> sycho-github-milestone.ref.all",
+            "complete": "Hoàn thành {progress}",
+            "load_more": "=> core.forum.discussion_list.load_more_button",
+            "tasks_done": "{number} trên {total}"
         },
         "ref": {
-            "closed": "",
-            "open": "",
-            "all": ""
+            "closed": "Đã đóng",
+            "open": "Mở",
+            "all": "Tất cả"
         }
     }
 }
