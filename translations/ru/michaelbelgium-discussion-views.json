@@ -2,38 +2,38 @@
     "core": {
         "forum": {
             "index_sort": {
-                "popular_button": "",
-                "unpopular_button": ""
+                "popular_button": "Популярное",
+                "unpopular_button": "Непопулярное"
             }
         }
     },
     "michaelbelgium-discussion-views": {
         "forum": {
             "modal_resetviews": {
-                "title": "",
-                "submit_button": "",
-                "label": ""
+                "title": "Сбросить счетчик числа просмотров",
+                "submit_button": "Да, удалить все",
+                "label": "{count, plural, one {Это удалит {count} просмотров обсуждения. Продолжить?} other {Это удалит {count} просмотров обсуждения. Продолжить?}}"
             },
             "discussion_controls": {
-                "resetviews_button": ""
+                "resetviews_button": "Сбросить просмотры"
             },
             "viewlist": {
-                "title": "",
-                "guest": ""
+                "title": "Последние просмотревшие",
+                "guest": "Гость"
             }
         },
         "admin": {
             "permissions": {
-                "reset_views_label": "",
-                "view_number_label": ""
+                "reset_views_label": "Сбросить просмотры обсуждения",
+                "view_number_label": "Отобразить число просмотров обсуждения"
             },
             "settings": {
-                "title": "",
-                "track_unique_label": "",
-                "abbr_numbers_label": "",
-                "show_filter_label": "",
-                "max_viewcount_label": "",
-                "show_viewlist_label": ""
+                "title": "Настройка просмотров обсуждения",
+                "track_unique_label": "Отслеживать уникальные просмотры",
+                "abbr_numbers_label": "Компактное отображение числа просмотров",
+                "show_filter_label": "Включить поле сортировки по популярности",
+                "max_viewcount_label": "Максимум элементов списка просмотров",
+                "show_viewlist_label": "Включить список просмотров"
             }
         }
     }
