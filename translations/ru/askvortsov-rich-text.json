@@ -10,41 +10,41 @@
                 "toggle_button": "Переключить в расширенный текстовый режим",
                 "insert_button": "Вставить",
                 "insert_image": {
-                    "src_placeholder": "",
-                    "title_placeholder": ""
+                    "src_placeholder": "Ссылка",
+                    "title_placeholder": "Заголовок"
                 },
                 "insert_link": {
-                    "text_placeholder": "",
-                    "href_placeholder": "",
-                    "title_placeholder": "",
-                    "remove_button": ""
+                    "text_placeholder": "Текст",
+                    "href_placeholder": "URL",
+                    "title_placeholder": "Заголовок (показывается в окошке подсказки)",
+                    "remove_button": "Убрать"
                 },
-                "additional_items_tooltip": "",
-                "bold_tooltip": "",
-                "code_tooltip": "",
-                "code_block_tooltip": "",
-                "header_tooltip": "",
-                "horizontal_rule_tooltip": "",
-                "image_tooltip": "",
-                "italic_tooltip": "",
-                "link_tooltip": "",
-                "ordered_list_tooltip": "",
-                "paragraph_tooltip": "",
-                "quote_tooltip": "",
-                "spoiler_block_tooltip": "",
-                "spoiler_inline_tooltip": "",
-                "strike_tooltip": "",
-                "sub_tooltip": "",
-                "sup_tooltip": "",
-                "text_type_tooltip": "",
-                "unordered_list_tooltip": ""
+                "additional_items_tooltip": "Дополнительные элементы управления",
+                "bold_tooltip": "Полужирный шрифт <{modifierKey}-b>",
+                "code_tooltip": "Поле кода <{modifierKey}-`>",
+                "code_block_tooltip": "Введите участок кода",
+                "header_tooltip": "Изменить на заголовок {level} <shift-{modifierKey}-{level}>",
+                "horizontal_rule_tooltip": "Вставить горизонтальную линейку",
+                "image_tooltip": "Добавить изображение",
+                "italic_tooltip": "Курсив <{modifierKey}-i>",
+                "link_tooltip": "Вставить ссылку",
+                "ordered_list_tooltip": "Нумерованный список <shift-{modifierKey}-9>",
+                "paragraph_tooltip": "Изменить на параграф <shift-{modifierKey}-0>",
+                "quote_tooltip": "Вставить цитату <{modifierKey}-q>",
+                "spoiler_block_tooltip": "Спойлер/выпадающий фрагмент",
+                "spoiler_inline_tooltip": "Спойлер  <{modifierKey}-;>",
+                "strike_tooltip": "Зачеркнутый <alt-shift-5>",
+                "sub_tooltip": "Подстрочный <{modifierKey}-,>",
+                "sup_tooltip": "Надстрочный <{modifierKey}-.>",
+                "text_type_tooltip": "Выберите тип текста",
+                "unordered_list_tooltip": "Маркированный список <shift-{modifierKey}-8>"
             }
         },
         "forum": {
             "settings": {
-                "composer_heading": "",
-                "use_rich_text_editor_label": "",
-                "rich_text_compact_paragraphs_label": ""
+                "composer_heading": "Composer",
+                "use_rich_text_editor_label": "Использовать расширенный редактор текста?",
+                "rich_text_compact_paragraphs_label": "Не разделяйте параграфы новой линией."
             }
         }
     }
