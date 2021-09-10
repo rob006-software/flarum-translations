@@ -58,22 +58,22 @@
                 "title": "=> core.ref.custom_footer_title"
             },
             "edit_group": {
-                "color_label": "",
+                "color_label": "=> core.ref.color",
                 "delete_button": "Qrupu silin",
                 "delete_confirmation": "Bu qrupu silmək istədiyinizə əminsiniz? Qrup üzvləri silinməyəcək.",
                 "hide_label": "Forumda gizlədin",
-                "icon_label": "",
-                "icon_text": "",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
                 "name_label": "Ad",
                 "plural_placeholder": "Çoxluq",
                 "singular_placeholder": "Tək",
-                "submit_button": "",
+                "submit_button": "=> core.ref.save_changes",
                 "title": "Qrup yarat"
             },
             "edit_header": {
-                "customize_text": "",
-                "submit_button": "",
-                "title": ""
+                "customize_text": "=> core.ref.custom_header_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_header_title"
             },
             "email": {
                 "addresses_heading": "Ünvanlar",
@@ -86,9 +86,9 @@
                 "mail_mailgun_domain_label": "Domen",
                 "mail_mailgun_region_label": "Region",
                 "mail_mailgun_secret_label": "Gizli açar",
-                "mail_password_label": "",
+                "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "Port",
-                "mail_username_label": "",
+                "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "Mailgun Ayarları",
                 "not_sending_message": "Flarum hazırda e -poçt göndərmir. Bunun səbəbi seçilmiş sürücü və ya konfiqurasiyadakı səhvlər ola bilər.",
                 "send_test_mail_button": "Göndər",
@@ -96,7 +96,7 @@
                 "send_test_mail_success": "Test poçtu uğurla göndərildi!",
                 "send_test_mail_text": "Bu, yuxarıdakı konfiqurasiyanı istifadə edərək, e -poçtunuza {email} göndərəcək.",
                 "smtp_heading": "SMTP ayarları",
-                "title": ""
+                "title": "=> core.ref.email"
             },
             "extension": {
                 "configure_scopes": "Əhatə dairələrini konfiqurasiya edin",
@@ -120,16 +120,16 @@
             },
             "header": {
                 "get_help": "Kömək",
-                "log_out_button": ""
+                "log_out_button": "=> core.ref.log_out"
             },
             "loading": {
                 "title": "Zəhmət olmasa, gözləyin..."
             },
             "nav": {
-                "appearance_button": "",
-                "appearance_title": "",
-                "basics_button": "",
-                "basics_title": "",
+                "appearance_button": "=> core.admin.appearance.title",
+                "appearance_title": "=> core.admin.appearance.description",
+                "basics_button": "=> core.admin.basics.title",
+                "basics_title": "=> core.admin.basics.description",
                 "categories": {
                     "authentication": "İdentifikasiyası",
                     "core": "Əsas Konfiqurasiya",
@@ -141,14 +141,14 @@
                     "other": "Digər uzantılar",
                     "theme": "Mövzular"
                 },
-                "dashboard_button": "",
-                "dashboard_title": "",
-                "email_button": "",
-                "email_title": "",
-                "permissions_button": "",
-                "permissions_title": "",
-                "userlist_button": "",
-                "userlist_title": "",
+                "dashboard_button": "=> core.admin.dashboard.title",
+                "dashboard_title": "=> core.admin.dashboard.description",
+                "email_button": "=> core.ref.email",
+                "email_title": "=> core.admin.email.description",
+                "permissions_button": "=> core.admin.permissions.title",
+                "permissions_title": "=> core.admin.permissions.description",
+                "userlist_button": "=> core.admin.users.title",
+                "userlist_title": "=> core.admin.users.description",
                 "search_placeholder": "Uzantıları Axtar"
             },
             "permissions": {
