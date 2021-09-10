@@ -30,8 +30,8 @@
                     "resubmit": ""
                 },
                 "request": {
-                    "title": "",
-                    "current_request": "",
+                    "title": "Запрос на изменение псевдонима",
+                    "current_request": "Вы уже запросили изменение вашего псевдонима на \"{name}\". Вы можете изменить запрос или отозвать его.",
                     "submit_button": "Отправить запрос",
                     "delete_button": "Удалить запрос",
                     "confirmation_message": "Ваш запрос на изменение псевдонима был отправлен и ожидает рассмотрения.",
@@ -43,20 +43,20 @@
                 "action": {
                     "title": "=> fof-username-request.ref.username_change_request",
                     "help_text": "",
-                    "decision_title": "",
-                    "approval_label": "",
-                    "rejected_label": "",
-                    "submit_button": "",
-                    "reason_title": "",
-                    "success": "",
-                    "name": ""
+                    "decision_title": "Решение",
+                    "approval_label": "Одобрить",
+                    "rejected_label": "Отклонить",
+                    "submit_button": "Отправить",
+                    "reason_title": "Причина отклонения",
+                    "success": "Решение отправлено.",
+                    "name": "{name} направил запрос на изменение имени пользователя на \"{requestedName}\""
                 },
                 "results": {
-                    "title": "",
-                    "approved": "",
+                    "title": "Запрос на изменение имени пользователя",
+                    "approved": "Ваш запрос на изменение имени пользователя был одобрен",
                     "dismiss_button": "=> core.ref.okay",
-                    "new_name": "",
-                    "rejected": "",
+                    "new_name": "Ваше имя пользователя успешно изменено на: {name}",
+                    "rejected": "Ваш запрос на изменение имени пользователя был отклонен",
                     "reason": "",
                     "resubmit": ""
                 },
