@@ -2,24 +2,24 @@
     "fof-impersonate": {
         "admin": {
             "permissions": {
-                "login": ""
+                "login": "Войти под другим именем"
             },
             "settings": {
-                "title": "",
-                "require_reason": "",
-                "no_settings_available": ""
+                "title": "FoF Перевоплощение",
+                "require_reason": "Требовать ввода причины для того, чтобы представляться другим пользователем.",
+                "no_settings_available": "Отсутствуют текущие настройки. Попробуйте установить плагин fof/moderator-notes"
             }
         },
         "forum": {
             "modal": {
-                "title": "",
-                "label": "",
-                "placeholder_optional": "",
-                "placeholder_required": "",
-                "impersonate_username": ""
+                "title": "Войти под другим именем",
+                "label": "Большие возможности влекут большую ответственность. Продолжая, вы становитесь {username} до момента выхода из системы.",
+                "placeholder_optional": "(опционально) Объясните причину для переключения на этого пользователя",
+                "placeholder_required": "Вы должны объяснить причину для переключения на этого пользователя для продолжения",
+                "impersonate_username": "Войти как {username}"
             },
             "user_controls": {
-                "impersonate_button": ""
+                "impersonate_button": "Войти как пользователь"
             }
         }
     }
