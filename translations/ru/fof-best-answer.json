@@ -2,30 +2,30 @@
     "fof-best-answer": {
         "admin": {
             "permissions": {
-                "best_answer": "",
-                "best_answer_not_own_discussion": ""
+                "best_answer": "Выберите лучший ответ (ваше обсуждение)",
+                "best_answer_not_own_discussion": "Выберите лучший ответ (чужое обсуждение)"
             },
             "settings": {
                 "label": {
-                    "general": "",
-                    "reminders": "",
-                    "advanced": "",
-                    "reminders_notice": ""
+                    "general": "Общее",
+                    "reminders": "Напоминания",
+                    "advanced": "Расширенные",
+                    "reminders_notice": "Для функционирования напоминаний вы должны корректно установить планировщик Flarum."
                 },
-                "allow_select_own_post": "",
-                "allow_select_own_post_help": "",
-                "enable_all_tags_button": "",
-                "enable_all_tags_reminder_button": "",
-                "select_best_answer_reminder_days": "",
-                "select_best_answer_reminder_days_help": "",
-                "schedule_on_one_server": "",
-                "schedule_on_one_server_help": "",
-                "schedule_stop_overnight": "",
-                "schedule_stop_overnight_help": "",
-                "schedule_log_output": "",
-                "use_alt_ui": "",
-                "use_alt_ui_help": "",
-                "documentation": "",
+                "allow_select_own_post": "Выберите свое сообщение",
+                "allow_select_own_post_help": "Разрешить топик-стартеру выбирать одно из его сообщений в дискуссии в качестве лучшего ответа",
+                "enable_all_tags_button": "Разрешить все теги для лучшего ответа",
+                "enable_all_tags_reminder_button": "Разрешить все теги для напоминаний о лучшем ответе",
+                "select_best_answer_reminder_days": "Частота напоминаний",
+                "select_best_answer_reminder_days_help": "Отправить топик-стартеру напоминание о необходимости выбрать лучший ответ по достижении заданного числа дней, 0 = запретить напоминания.",
+                "schedule_on_one_server": "Использовать  директиву 'onOneServer()' для планировщика задач",
+                "schedule_on_one_server_help": "Требует Redis/Memcache",
+                "schedule_stop_overnight": "Не отправлять уведомления о напоминаниях в вечерние/ночные часы",
+                "schedule_stop_overnight_help": "9pm - 8am серверное время",
+                "schedule_log_output": "Добавить отчеты планировщика в хранилище логов",
+                "use_alt_ui": "Альтернативная раскладка",
+                "use_alt_ui_help": "Элементы управления лучшим ответом в нижнем колонтитуле сообщения",
+                "documentation": "Документация",
                 "introduction": ""
             },
             "edit_tag": {
@@ -34,16 +34,16 @@
             }
         },
         "forum": {
-            "answered_badge": "",
-            "this_best_answer": "",
-            "remove_best_answer": "",
-            "best_answer_button": "",
-            "best_answer_label": "",
+            "answered_badge": "Отвечено",
+            "this_best_answer": "Выбрать лучший ответ",
+            "remove_best_answer": "Отменить выбор лучшего ответа",
+            "best_answer_button": "Лучший ответ",
+            "best_answer_label": "установлен  <a>{username}</a> в {time_set}",
             "errors": {
-                "mismatch": ""
+                "mismatch": "Выбранное сообщение не существует в этом обсуждении."
             },
             "notification": {
-                "best_answer_in_discussion": "",
+                "best_answer_in_discussion": "{username} выбрал лучший ответ в этом обсуждении",
                 "content": "",
                 "awarded": "",
                 "preferences": {
