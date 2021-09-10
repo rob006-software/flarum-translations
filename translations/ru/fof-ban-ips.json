@@ -1,73 +1,73 @@
 {
     "fof-ban-ips": {
         "forum": {
-            "ban_ip_button": "",
-            "unban_ip_button": "",
+            "ban_ip_button": "=> fof-ban-ips.ref.ban_ip_button",
+            "unban_ip_button": "=> fof-ban-ips.ref.unban_ip_button",
             "modal": {
-                "ban_options_only_ip": "",
-                "ban_options_all_ip": "",
-                "ban_ip_no_users": ""
+                "ban_options_only_ip": "Блокировать только текущий IP адрес (<code>{ip}</code>)",
+                "ban_options_all_ip": "Блокировать все IP адреса, используемые пользователем <i>{username}</i>",
+                "ban_ip_no_users": "Никто более не будет блокирован"
             },
             "user_badge": {
-                "banned_tooltip": ""
+                "banned_tooltip": "Блокирован"
             },
             "user_controls": {
-                "ban_button": "",
-                "unban_button": ""
+                "ban_button": "=> fof-ban-ips.ref.ban_label",
+                "unban_button": "=> fof-ban-ips.ref.unban_label"
             }
         },
         "admin": {
             "permissions": {
-                "ban_ip_label": "",
-                "view_banned_ip_list_label": ""
+                "ban_ip_label": "=> fof-ban-ips.ref.ban_ip_addresses",
+                "view_banned_ip_list_label": "Просмотр списка блокированных IP адресов"
             },
             "page": {
-                "create_button": "",
-                "creator_label": "",
-                "user_label": "",
-                "address_label": "",
-                "reason_label": "",
-                "date_label": ""
+                "create_button": "=> fof-ban-ips.ref.ban_ip_button",
+                "creator_label": "Создатель",
+                "user_label": "Пользователь",
+                "address_label": "=> fof-ban-ips.ref.address_label",
+                "reason_label": "=> fof-ban-ips.ref.reason_label",
+                "date_label": "Дата"
             },
             "modal": {
-                "update_title": "",
-                "ban_ip_no_users": ""
+                "update_title": "Обновить блокированный IP",
+                "ban_ip_no_users": "Никто не будет блокирован"
             },
-            "empty_text": ""
+            "empty_text": "Блокированных IP адресов нет."
         },
         "error": {
-            "banned_ip_message": "",
-            "no_ips_found_message": ""
+            "banned_ip_message": "Не удалось авторизоваться.",
+            "no_ips_found_message": "Не найдено IP адресов пользователя."
         },
         "lib": {
             "modal": {
-                "title": "",
-                "unban_title": "",
-                "address_label": "",
-                "reason_label": "",
-                "check_button": "",
-                "save_button": "",
-                "ban_ip_confirmation": "",
-                "ban_ip_users": "",
-                "unban_ip_confirmation": "",
-                "unban_options_only_ip": "",
-                "unban_options_all_ip": "",
-                "unban_ip_no_users": "",
-                "unban_ip_users": "",
-                "unbanned_ips": "",
-                "ban_button": "",
-                "unban_button": ""
+                "title": "=> fof-ban-ips.ref.ban_ip_addresses",
+                "unban_title": "=> fof-ban-ips.ref.unban_ip_addresses",
+                "address_label": "=> fof-ban-ips.ref.address_label",
+                "reason_label": "=> fof-ban-ips.ref.reason_label",
+                "check_button": "Проверить",
+                "save_button": "Сохранить",
+                "ban_ip_confirmation": "Вы уверены, что хотите блокировать IP адрес от использования на этом форуме? Это не позволит пользователям с этим(и) IP регистрироваться и авторизоваться на форуме.",
+                "ban_ip_users": "Пользователь {users} будет блокирован|Пользователи {users} будут блокированы",
+                "unban_ip_confirmation": "Вы уверены, что хотите разблокировать этого пользователя и всех других пользователей, не блокированных по другим IP адресам?",
+                "unban_options_only_ip": "Разблокировать только текущий IP адрес (<code>{ip}</code>)",
+                "unban_options_all_ip": "Разблокировать все IP адреса, используемые пользователем <i>{username}</i>",
+                "unban_ip_no_users": "Никто более не будет разблокирован",
+                "unban_ip_users": "Пользователь {users} будет разблокирован|Пользователи {users} будут разблокированы",
+                "unbanned_ips": "Разблокированы <code>{ips}</code>.",
+                "ban_button": "=> fof-ban-ips.ref.ban_label",
+                "unban_button": "=> fof-ban-ips.ref.unban_label"
             }
         },
         "ref": {
-            "ban_label": "",
-            "ban_ip_addresses": "",
-            "ban_ip_button": "",
-            "unban_label": "",
-            "unban_ip_addresses": "",
-            "unban_ip_button": "",
-            "address_label": "",
-            "reason_label": ""
+            "ban_label": "Блокировать",
+            "ban_ip_addresses": "Блокировать IP адрес(а)",
+            "ban_ip_button": "Блокировать IP адрес",
+            "unban_label": "Разблокировать",
+            "unban_ip_addresses": "Разблокировать IP адрес(а)",
+            "unban_ip_button": "Разблокировать IP адрес",
+            "address_label": "IP адрес",
+            "reason_label": "Причина"
         }
     }
 }
