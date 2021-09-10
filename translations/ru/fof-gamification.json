@@ -2,78 +2,78 @@
     "core": {
         "forum": {
             "index_sort": {
-                "hot_button": ""
+                "hot_button": "Набирающее популярность"
             }
         }
     },
     "fof-gamification": {
         "forum": {
-            "votes": "",
-            "vote_title": "",
+            "votes": "Голосов",
+            "vote_title": "Посмотреть проголосовавших",
             "nav": {
-                "name": ""
+                "name": "Ранги"
             },
             "ranking": {
-                "rank": "",
-                "name": "",
-                "amount": ""
+                "rank": "Место",
+                "name": "Пользователь",
+                "amount": "Очков"
             },
             "notification": {
-                "upvote": "",
-                "downvote": ""
+                "upvote": "{username} одобрил ваше сообщение",
+                "downvote": "{username} неодобрил ваше сообщение"
             },
             "user": {
-                "points": "",
-                "rank": ""
+                "points": "Очков: {points}",
+                "rank": "{rank}"
             },
             "modal": {
-                "title": "",
-                "upvotes_label": ""
+                "title": "Голосовавшие",
+                "upvotes_label": "Одобрившие:"
             },
-            "mod_item": ""
+            "mod_item": "Просмотреть голосовавших"
         },
         "admin": {
             "permissions": {
-                "vote_label": "",
-                "see_votes_label": "",
-                "see_ranking_page": ""
+                "vote_label": "Одобренные/Неодобренные сообщения",
+                "see_votes_label": "Посмотреть одобрения/неодобрения сообщения",
+                "see_ranking_page": "Посмотреть страницу рангов"
             },
             "page": {
                 "rankings": {
                     "blocked": {
-                        "placeholder": "",
-                        "title": "",
-                        "help": ""
+                        "placeholder": "CDK2020, Ralkage, AngelAvila",
+                        "title": "Игнорируемых участников",
+                        "help": "Эти пользователи не будут отображаться на странице рангов. Имена пользователей следует разделять сочетанием запятая/пробел."
                     },
-                    "title": "",
-                    "enable": "",
-                    "custom_image_1": "",
-                    "custom_image_2": "",
-                    "custom_image_3": ""
+                    "title": "Страница рангов",
+                    "enable": "Разрешить пользовательские изображения",
+                    "custom_image_1": "Изображение для 1-го места",
+                    "custom_image_2": "Изображение для 2-го места",
+                    "custom_image_3": "Изображение для 3-го места"
                 },
                 "votes": {
-                    "points_title": "",
-                    "points_placeholder": "",
-                    "color_holder": "",
-                    "auto_upvote": "",
-                    "rate_limit": "",
-                    "discussion_page": "",
-                    "alternate_layout": "",
-                    "title": "",
-                    "vote_color": "",
-                    "icon_name": "",
-                    "icon_help": ""
+                    "points_title": "Поле отображения очков",
+                    "points_placeholder": "Очков: ",
+                    "color_holder": "#ffffff",
+                    "auto_upvote": "Авто-одобрение сообщений при отправке",
+                    "rate_limit": "Установить предел частоты голосования (10 сек)",
+                    "discussion_page": "Показать общее число голосов начального сообщения в списке обсуждений",
+                    "alternate_layout": "Использовать альтернативную раскладку для показа голосов и/или одобрения/неодобрения",
+                    "title": "Голосов",
+                    "vote_color": "Цвет голоса",
+                    "icon_name": "Иконка одобрения/неодобрения",
+                    "icon_help": "Введите иконку шрифта Font-Awesome, позволяющую различать направления вверх/вниз. Например: стрелка, большой палец, нашивка"
                 },
-                "save_settings": "",
+                "save_settings": "Сохранить настройки",
                 "convert": {
-                    "button": "",
+                    "button": "Преобразовать лайки в одобрения",
                     "help": "",
                     "converting": "",
-                    "converted": ""
+                    "converted": "Успешно конвертированы все {number} лайки"
                 },
                 "ranks": {
-                    "title": "",
-                    "ranks": "",
+                    "title": "Ранги",
+                    "ranks": "Пользовательские ранги",
                     "number_title": "",
                     "help": {
                         "color": "",
