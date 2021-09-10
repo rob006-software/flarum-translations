@@ -2,19 +2,19 @@
     "fof-webhooks": {
         "actions": {
             "discussion": {
-                "started": "",
+                "started": "Mövzu başladı `{1}`",
                 "renamed": {
-                    "title": "",
-                    "description": ""
+                    "title": "Mövzunun adı dəyişdirildi \"{1}\"",
+                    "description": "Yeni başlıq: {1}"
                 },
-                "hidden": "",
-                "restored": "",
-                "deleted": ""
+                "hidden": "Gizli mövzu `{1}`",
+                "restored": "`{1}` Mövzu bərpa edildi",
+                "deleted": "Silinən mövzu `{1}`"
             },
             "group": {
-                "created": "",
-                "renamed": "",
-                "deleted": ""
+                "created": "`{1}` qrup yaradıldı",
+                "renamed": "Qrupun adı `{1}` olaraq dəyişdirildi",
+                "deleted": "`{1}` qrup silindi"
             },
             "post": {
                 "posted": "",
