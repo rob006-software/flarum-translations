@@ -2,77 +2,77 @@
     "fof-follow-tags": {
         "forum": {
             "settings": {
-                "notify_new_discussion_label": "",
-                "notify_new_post_label": "",
-                "notify_new_discussion_tag_label": ""
+                "notify_new_discussion_label": "Кто-то создает обсуждение в теге, который я отслеживаю",
+                "notify_new_post_label": "Кто-то создает сообщение в теге, который я отслеживаю",
+                "notify_new_discussion_tag_label": "Кто-то меняет тег у обсуждения в теге, который я отслеживаю"
             },
             "index": {
-                "follow_tag_button": "",
-                "unfollow_tag_button": "",
+                "follow_tag_button": "Отслеживать",
+                "unfollow_tag_button": "Перестать отслеживать",
                 "following": {
-                    "following_none_label": "",
-                    "following_tags_label": ""
+                    "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                    "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
                 }
             },
             "badge": {
-                "following_tag_tooltip": "",
-                "lurking_tag_tooltip": ""
+                "following_tag_tooltip": "Отслеживание",
+                "lurking_tag_tooltip": "Анонимно"
             },
             "sub_controls": {
-                "follow_button": "",
-                "following_button": "",
-                "following_text": "",
-                "hiding_button": "",
-                "hiding_text": "",
-                "ignoring_button": "",
-                "ignoring_text": "",
-                "lurking_button": "",
-                "lurking_text": "",
-                "not_following_button": "",
-                "not_following_text": "",
-                "notify_alert_tooltip": "",
-                "notify_email_tooltip": ""
+                "follow_button": "=> fof-follow-tags.ref.follow",
+                "following_button": "=> fof-follow-tags.ref.following",
+                "following_text": "Уведомлять обо всех новых обсуждениях.",
+                "hiding_button": "=> fof-follow-tags.ref.hiding",
+                "hiding_text": "Скрыть обсуждения со страницы Все обсуждения.",
+                "ignoring_button": "=> fof-follow-tags.ref.ignoring",
+                "ignoring_text": "Никогда не уведомлять.",
+                "lurking_button": "=> fof-follow-tags.ref.lurking",
+                "lurking_text": "Уведомлять обо всех новых обсуждениях и ответах.",
+                "not_following_button": "Не отслеживать",
+                "not_following_text": "Уведомлять, только когда цитируется @участник.",
+                "notify_alert_tooltip": "Получать уведомления с форума о новом обсуждении или сообщении",
+                "notify_email_tooltip": "Получать уведомления по эл.почте с форума о новом обсуждении или сообщении"
             },
             "notifications": {
-                "new_discussion_text": "",
-                "new_post_text": "",
-                "new_discussion_tag_text": ""
+                "new_discussion_text": "{username} появился",
+                "new_post_text": "{username} отправил сообщение",
+                "new_discussion_tag_text": "{username} изменил тег"
             },
             "user": {
                 "settings": {
-                    "heading": "",
-                    "filter_label": ""
+                    "heading": "Отслеживать теги",
+                    "filter_label": "Что отображать по умолчанию на странице отслеживания"
                 }
             }
         },
         "admin": {
             "settings": {
-                "following_page_default_label": "",
-                "following_none_label": "",
-                "following_tags_label": ""
+                "following_page_default_label": "Фильтрация страницы отслеживания по умолчанию",
+                "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
             }
         },
         "email": {
             "subject": {
-                "newDiscussionInTag": "",
-                "newPostInTag": "",
-                "newDiscussionTag": ""
+                "newDiscussionInTag": "[Тег | Новое обсуждение] {title}",
+                "newPostInTag": "[Тег | Новое сообщение] {title}",
+                "newDiscussionTag": "[Тег | Измененный тег] {title}"
             },
             "body": {
-                "newDiscussionInTag": "",
-                "newPostInTag": "",
-                "newDiscussionTag": ""
+                "newDiscussionInTag": "Привет {recipient_display_name},\n\n{actor_display_name} открыл новое обсуждение с тегом, который вы отслеживаете: {discussion_title}\n\nЧтобы посмотреть новое обсуждение, перейдите по следующей ссылке:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newPostInTag": "Привет {recipient_display_name},\n\n{actor_display_name} отправил сообщение в обсуждении с тегом, который вы отслеживаете: {discussion_title}\n\nЧтобы посмотреть обновления, перейдите по следующей ссылке:\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nВы не будете получать дальнейших уведомлений об этом обсуждении, прочитав его до конца.\n",
+                "newDiscussionTag": "Привет {recipient_display_name},\n\n{actor_display_name} только что изменил тег у обсуждения от {author_display_name} с тегом, который вы отслеживаете: {discussion_title}\n\nЧтобы посмотреть новое обсуждение, перейдите по следующей ссылке:\n{discussion_url}\n"
             }
         },
         "ref": {
-            "follow": "",
-            "following": "",
-            "hiding": "",
-            "ignoring": "",
-            "lurking": "",
+            "follow": "Отслеживать",
+            "following": "Отслеживаемые",
+            "hiding": "Скрытые",
+            "ignoring": "Игнорируемые",
+            "lurking": "Анонимные",
             "filtering_options": {
-                "none": "",
-                "tags": ""
+                "none": "Отслеживаемые обсуждения",
+                "tags": "Отслеживаемые теги"
             }
         }
     }
