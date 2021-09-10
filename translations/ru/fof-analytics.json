@@ -3,18 +3,18 @@
         "admin": {
             "popup": {
                 "section": {
-                    "googleAnalytics": "",
-                    "piwik": ""
+                    "googleAnalytics": "Аналитика Google",
+                    "piwik": "Matomo"
                 },
                 "field": {
-                    "statusGoogle": "",
-                    "optTrackingCode": "",
-                    "googleTrackingCode": "",
-                    "googleGTMCode": "",
-                    "statusPiwik": "",
-                    "piwikUrl": "",
-                    "piwikSiteId": "",
-                    "piwikTrackSubdomain": "",
+                    "statusGoogle": "Разрешить Аналитику Google",
+                    "optTrackingCode": "Оптимизировать код отслеживания (опционально)",
+                    "googleTrackingCode": "Идентификатор кода отслеживания",
+                    "googleGTMCode": "Идентификатор GTM кода (опционально)",
+                    "statusPiwik": "Разрешить Matomo",
+                    "piwikUrl": "Matomo домен или URL",
+                    "piwikSiteId": "ID сайта",
+                    "piwikTrackSubdomain": "Отслеживать посетителей по всем поддоменам Flarum",
                     "piwikPrependDomain": "",
                     "piwikHideAliasUrl": "",
                     "piwikAliasUrl": "",
@@ -25,13 +25,13 @@
                     "piwikAuthToken": ""
                 },
                 "trackAccounts": {
-                    "none": "",
-                    "username": "",
-                    "email": ""
+                    "none": "Не отслеживать",
+                    "username": "Отслеживать по имени пользователя (логину)",
+                    "email": "Отслеживать по адресу эл.почты"
                 }
             },
             "matomo-widget": {
-                "title": ""
+                "title": "Matomo"
             }
         }
     }
