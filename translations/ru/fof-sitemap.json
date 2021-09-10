@@ -3,9 +3,9 @@
         "admin": {
             "settings": {
                 "title": "",
-                "mode_label": "",
-                "mode_help": "",
-                "mode_help_runtime_label": "",
+                "mode_label": "Режим работы",
+                "mode_help": "Выбор правильного режима для вашего размера форума критически важен.",
+                "mode_help_runtime_label": "Рабочий режим",
                 "mode_help_runtime": "",
                 "mode_help_schedule": "",
                 "mode_help_schedule_setup": "",
@@ -14,18 +14,18 @@
                 "mode_help_large": "",
                 "mode_help_multi_label": "",
                 "mode_help_multi": "",
-                "advanced_options_label": "",
+                "advanced_options_label": "Расширенные опции",
                 "frequency_label": "",
                 "modes": {
                     "runtime": "",
-                    "cache": "",
-                    "cache_disk": "",
+                    "cache": "Кэш",
+                    "cache_disk": "Диск",
                     "multi_file": ""
                 },
                 "frequency": {
-                    "hourly": "",
-                    "twice_daily": "",
-                    "daily": ""
+                    "hourly": "Ежечасно",
+                    "twice_daily": "Дважды в день",
+                    "daily": "Ежедневно"
                 }
             }
         }
