@@ -7,7 +7,7 @@
             },
             "buttons": {
                 "view-profile": "",
-                "save-profile": ""
+                "save-profile": "Сохранить"
             },
             "fields": {
                 "select": {
@@ -15,31 +15,31 @@
                     "none-required": ""
                 },
                 "boolean": {
-                    "yes": "",
-                    "no": ""
+                    "yes": "Да",
+                    "no": "Нет"
                 }
             }
         },
         "admin": {
-            "general-options": "",
+            "general-options": "Общие опции",
             "buttons": {
-                "add-field": "",
-                "edit-field": "",
-                "delete-field": ""
+                "add-field": "Создать поле",
+                "edit-field": "Сохранить изменения",
+                "delete-field": "Удалить поле"
             },
             "permissions": {
                 "have-profile": "",
                 "view-profile": ""
             },
             "fields": {
-                "title": "",
-                "add": "",
-                "edit": "",
-                "name": "",
+                "title": "Поля",
+                "add": "Добавить поле {field}",
+                "edit": "Редактировать поле {field}",
+                "name": "Название поля",
                 "name-help": "",
-                "description": "",
-                "description-help": "",
-                "required": "",
+                "description": "Описание поля",
+                "description-help": "Необязательное описание использования/необходимости этого поля.\n",
+                "required": "Пометить поле как необходимое",
                 "on_bio": "",
                 "type": "",
                 "validation": "",
@@ -48,17 +48,17 @@
                 "prefix-help": "",
                 "icon": "",
                 "icon-help": "",
-                "force-user-to-completion": "",
-                "options": "",
-                "option-new": "",
-                "option-comma-warning": ""
+                "force-user-to-completion": "Требовать от пользователя заполнить профиль",
+                "options": "Опции",
+                "option-new": "Новая опция",
+                "option-comma-warning": "Метка опции не может содержать запятых (\",\")."
             },
             "types": {
-                "advanced": "",
-                "boolean": "",
-                "email": "",
-                "select": "",
-                "url": ""
+                "advanced": "Расширенные",
+                "boolean": "Поле выбора",
+                "email": "Эл.почта",
+                "select": "Выпадающее",
+                "url": "URL"
             }
         }
     }
