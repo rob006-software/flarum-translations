@@ -2,19 +2,19 @@
     "flarum-flags": {
         "admin": {
             "permissions": {
-                "flag_posts_label": "Yazıları işarələ",
-                "view_flags_label": "İşarələnmiş yazılar"
+                "flag_posts_label": "Yazıları bildir",
+                "view_flags_label": "Bildirilmiş yazılar"
             },
             "settings": {
                 "flag_own_posts_label": "İstifadəçilərə öz yazılarını qeyd etməyə icazə verin",
                 "guidelines_url_label": "İcma Təlimatları URL",
-                "title": "İşarə ayarları"
+                "title": "Bildiriş ayarları"
             }
         },
         "forum": {
             "flag_post": {
-                "confirmation_message": "Bu yazını qeyd etdiyiniz üçün təşəkkür edirik. Moderatorlarımız bunu araşdıracaq.",
-                "dismiss_button": "",
+                "confirmation_message": "Bu yazını bizə bildirdiyiniz üçün təşəkkür edirik. Moderatorlarımız bunu araşdıracaq.",
+                "dismiss_button": "=> core.ref.okay",
                 "reason_details_placeholder": "Əlavə məlumat (istəyə bağlı)",
                 "reason_inappropriate_label": "Uyğun deyil",
                 "reason_inappropriate_text": "Bu yazı təhqiramiz, təhqiramiz və ya <a> icma qaydalarımızı </a> pozur.",
@@ -24,27 +24,27 @@
                 "reason_other_label": "Digər (qeyd edin)",
                 "reason_spam_label": "Spam",
                 "reason_spam_text": "Bu yazı bir reklamdır.",
-                "submit_button": "",
-                "title": ""
+                "submit_button": "=> flarum-flags.ref.flag_post",
+                "title": "=> flarum-flags.ref.flag_post"
             },
             "flagged_posts": {
-                "empty_text": "İşarələnmiş mövzu yoxdur",
-                "item_text": "",
-                "title": "",
-                "tooltip": ""
+                "empty_text": "Bildirilmiş mövzu yoxdur",
+                "item_text": "{username} in <em>{discussion}</em>",
+                "title": "=> flarum-flags.ref.flagged_posts",
+                "tooltip": "=> flarum-flags.ref.flagged_posts"
             },
             "post": {
-                "dismiss_flag_button": "İşarəni rədd et",
-                "flagged_by_text": "İşarələyən {username}",
-                "flagged_by_with_reason_text": "İşarələyən {username} as {reason}"
+                "dismiss_flag_button": "Bildirişi rədd et",
+                "flagged_by_text": "Bildirən {username}",
+                "flagged_by_with_reason_text": "Bildirən {username} as {reason}"
             },
             "post_controls": {
-                "flag_button": "İşarə"
+                "flag_button": "Bildir"
             }
         },
         "ref": {
-            "flag_post": "İşarələnmiş yazı",
-            "flagged_posts": "İşarələnmiş yazılar"
+            "flag_post": "Bildirilmiş yazı",
+            "flagged_posts": "Bildirilmiş yazılar"
         }
     }
 }
