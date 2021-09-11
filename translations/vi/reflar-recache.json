@@ -2,28 +2,28 @@
     "reflar-recache": {
         "forum": {
             "redis": {
-                "error_alert": ""
+                "error_alert": "Kết nối Redis đã bị lỗi lúc {time}. Vui lòng kiểm tra cài đặt của bạn, hiệu suất diễn đàn sẽ bị ảnh hưởng rất nhiều."
             }
         },
         "admin": {
             "nav": {
-                "desc": ""
+                "desc": "Cấu hình cài đặt bộ nhớ đệm."
             },
             "page": {
-                "heading": "",
-                "connection_failed": "",
+                "heading": "Thiết lập",
+                "connection_failed": "Kết nói thất bại.",
                 "switches": {
-                    "cache": "",
-                    "query": "",
-                    "avatar": "",
-                    "lazy": ""
+                    "cache": "Bật bộ nhớ đệm",
+                    "query": "Bật bộ nhớ cache truy vấn (Chỉ Redis)",
+                    "avatar": "Bật tối ưu hình ảnh",
+                    "lazy": "Bật tải hình ảnh lazy"
                 },
                 "redis": {
-                    "label": "",
-                    "check": "",
-                    "host": "",
-                    "password": "",
-                    "port": "",
+                    "label": "Redis",
+                    "check": "Kiểm tra kết nối trước khi lưu lại!",
+                    "host": "Lưu trữ",
+                    "password": "Mật khẩu",
+                    "port": "Cổng",
                     "database": "",
                     "failed": "",
                     "fillin": "",
