@@ -2,15 +2,15 @@
     "flarum-ext-auth-keycloak": {
         "admin": {
             "keycloak_settings": {
-                "title": "",
-                "server_url_label": "",
-                "realm_label": "",
-                "client_id_label": "",
-                "client_secret_label": "",
-                "encryption_algorithm_label": "",
-                "encryption_key_label": "",
-                "role_mapping_label": "",
-                "delegate_avatars_label": ""
+                "title": "Cài đặt Keycloak",
+                "server_url_label": "URL máy chủ",
+                "realm_label": "Realm",
+                "client_id_label": "ID khách hàng",
+                "client_secret_label": "Mã bí mật khách hàng",
+                "encryption_algorithm_label": "Thuật toán mã hóa",
+                "encryption_key_label": "Mã khoá mã hóa (hoặc chứng chỉ)",
+                "role_mapping_label": "Vai trò để nhóm",
+                "delegate_avatars_label": "Ủy quyền ảnh đại diện"
             }
         }
     }
