@@ -2,115 +2,115 @@
     "fof-linguist": {
         "admin": {
             "tabs": {
-                "strings": "",
+                "strings": "Переводы",
                 "coverage": "",
-                "export": "",
-                "import": ""
+                "export": "Экспорт",
+                "import": "Импорт"
             },
             "buttons": {
-                "apply": "",
-                "reset": "",
-                "copy-original": "",
-                "load-more": "",
-                "delete-redundant": "",
-                "delete-redundant-confirm": "",
-                "delete-all": "",
-                "delete-all-confirm": ""
+                "apply": "Применить",
+                "reset": "Восстановить исходное",
+                "copy-original": "Копировать исходный текст",
+                "load-more": "Загрузить следующий",
+                "delete-redundant": "Удалить избыточные переводы",
+                "delete-redundant-confirm": "Это удалит {count} переводов, имеющих одинаковые исходные и пользовательские переводы. Может быть полезно для очистки после обновления языкового пакета.\n",
+                "delete-all": "Удалить все переводы",
+                "delete-all-confirm": "Это удалит ВСЕ {count} пользовательских переводов. Убедитесь, что вы сохранили или экспортировали фрагменты, которые вы хотели бы сохранить.\n"
             },
             "locales": {
-                "all": ""
+                "all": "Все"
             },
             "placeholder": {
-                "not-translated": "",
-                "all-locales": "",
-                "hint": ""
+                "not-translated": "Не переведено",
+                "all-locales": "Текст, приведенный здесь, будет показан на всех языках",
+                "hint": "Исходное значение:"
             },
             "filters": {
-                "search": "",
-                "with-own-translations": "",
-                "missing": "",
-                "missing-middle-label": "",
+                "search": "Поиск строк перевода...",
+                "with-own-translations": "Мои переводы",
+                "missing": "Искать отсутствующие переводы",
+                "missing-middle-label": "переводы на",
                 "negation-options": {
-                    "with": "",
-                    "without": ""
+                    "with": "С",
+                    "without": "Без"
                 },
                 "type-options": {
-                    "any": "",
-                    "original": "",
-                    "own": ""
+                    "any": "Исходный или пользовательский",
+                    "original": "Исходный",
+                    "own": "Пользовательский"
                 },
                 "operation-options": {
                     "or": "",
-                    "and": ""
+                    "and": "Все из"
                 },
-                "for-extension": "",
-                "frontend": "",
-                "frontend-all-except-admin": "",
-                "mass-edit": "",
-                "results": ""
+                "for-extension": "Для расширения",
+                "frontend": "Для интерфейса",
+                "frontend-all-except-admin": "Все, за исключением Администратора",
+                "mass-edit": "Массовая правка",
+                "results": "Показано {shown} из {total} подходящих переводов"
             },
             "clear-cache": {
-                "text": "",
-                "button": ""
+                "text": "Новые переводы еще не были применены. Замечание: очистка кэша может кратковременно замедлить работу форума.\n",
+                "button": "Очистить кэш сейчас"
             },
             "coverage": {
                 "column-options": {
-                    "locale": "",
-                    "namespace": ""
+                    "locale": "По языку",
+                    "namespace": "По интерфейсу"
                 },
                 "total-options": {
-                    "percent": "",
-                    "count": ""
+                    "percent": "Процент(ов)",
+                    "count": "Число"
                 },
                 "columns": {
-                    "namespace": "",
-                    "total": "",
-                    "all-except-admin": "",
-                    "all-frontends": ""
+                    "namespace": "Поле имени",
+                    "total": "Всего",
+                    "all-except-admin": "Форум и другие интерфейсы",
+                    "all-frontends": "Показать все интерфейсы"
                 },
                 "count": {
-                    "percent": "",
-                    "total": "",
-                    "details": ""
+                    "percent": "{percent} %",
+                    "total": "{translated} / {total}",
+                    "details": "{total} всего / {original} исходных / {custom} пользовательских"
                 },
-                "all-namespaces": "",
-                "apply-missing-filter": ""
+                "all-namespaces": "Все",
+                "apply-missing-filter": "Показать подходящие отсутствующие переводы"
             },
             "export": {
-                "title": "",
+                "title": "Экспорт",
                 "warning": "",
                 "locale": "",
                 "locale-all": "",
                 "namespace": "",
-                "namespace-all": "",
-                "include-originals": "",
-                "include-all": "",
-                "output": "",
-                "output-loading": "",
-                "output-empty": "",
-                "download": ""
+                "namespace-all": "Все",
+                "include-originals": "Включить исходные переводы",
+                "include-all": "Включить переводы, определенные для \"Всех\" языков",
+                "output": "Вывод",
+                "output-loading": "Загрузка вывода...",
+                "output-empty": "Пустой вывод",
+                "download": "Загрузка"
             },
             "import": {
-                "title": "",
-                "input": "",
-                "input-placeholder": "",
+                "title": "Импорт",
+                "input": "Ввод",
+                "input-placeholder": "Перетащите или вставьте сюда Yaml-файл",
                 "locale": "",
-                "locale-all": "",
-                "override-existing": "",
-                "submit": "",
-                "results": "",
-                "results-with-ignore": ""
+                "locale-all": "Псевдо-локаль \"Все\"",
+                "override-existing": "Перезаписать мои существующие пользовательские переводы",
+                "submit": "Импорт",
+                "results": "Импорт завершен. {imported} было импортировано, {identical} одинаковых строк пропущено. Страница сейчас будет обновлена, чтобы увидеть новые переводы.\n",
+                "results-with-ignore": "Импорт завершен. {imported} было импортировано, {ignored} существующих строк было игнорировано и {identical} одинаковых строк пропущено. Страница сейчас будет обновлена, чтобы увидеть новые переводы.\n"
             },
             "known-namespace": {
-                "core": "",
-                "validation": ""
+                "core": "Ядро Flarum",
+                "validation": "Ошибки проверки"
             },
             "known-frontend": {
-                "forum": "",
-                "admin": "",
-                "lib": "",
+                "forum": "Форум",
+                "admin": "Администратор",
+                "lib": "Библиотека (используется как форумом, так и Администратором)",
                 "ref": "",
-                "api": ""
+                "api": "API"
             }
         }
     }
