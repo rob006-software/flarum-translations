@@ -2,60 +2,60 @@
     "fof-mason": {
         "forum": {
             "discussion-controls": {
-                "edit-answers": ""
+                "edit-answers": "Править поля"
             },
             "answers-modal": {
-                "edit-title": "",
-                "save": ""
+                "edit-title": "Править поля для {title}",
+                "save": "Сохранить поля"
             },
             "post-answers": {
-                "no-answer": ""
+                "no-answer": "Нет ответа"
             },
             "answers": {
-                "choose-option": "",
-                "no-option-selected": ""
+                "choose-option": "Выберите вариант",
+                "no-option-selected": "Вариант не выбран"
             },
             "tags": {
-                "inadequate-settings": "",
-                "tags-label": ""
+                "inadequate-settings": "Неправильно произведены настройки тега. Разрешен один первичный и один вторичный теги или нужно отключить функцию \"Теги как поля\".\n",
+                "tags-label": "Теги"
             }
         },
         "admin": {
             "buttons": {
-                "new-field": "",
-                "add-field": "",
-                "save-field": "",
-                "delete-field": "",
-                "edit-field": "",
-                "add-answer": "",
-                "save-answer": "",
-                "delete-answer": "",
-                "edit-answer": "",
+                "new-field": "Новое поле",
+                "add-field": "Добавить поле",
+                "save-field": "Сохранить изменение полей",
+                "delete-field": "Удалить поле",
+                "edit-field": "Щелкните, чтобы править поле",
+                "add-answer": "Добавить ответ",
+                "save-answer": "Сохранить изменения ответа",
+                "delete-answer": "Удалить ответ",
+                "edit-answer": "Править ответ",
                 "edit-answer-prompt": "",
-                "show-user-answers": ""
+                "show-user-answers": "Показать не предлагаемые ответы ({count})"
             },
             "fields": {
-                "add": "",
-                "edit": "",
-                "required": "",
-                "name": "",
-                "name-help": "",
-                "description": "",
-                "description-help": "",
-                "show_when_empty": "",
-                "show_when_empty-help": "",
-                "validation": "",
-                "user_values_allowed": "",
-                "user_values_allowed-help": "",
+                "add": "Добавить поле {field}",
+                "edit": "Править поле {field}",
+                "required": "Требуемое",
+                "name": "Имя поля",
+                "name-help": "Видимая всем (не переводимая) метка поля.\n",
+                "description": "Описание поля",
+                "description-help": "Необязательное описание использования/необходимости этого поля.\n",
+                "show_when_empty": "Показать, если пустое",
+                "show_when_empty-help": "Показывать ли это поле в обсуждении, когда в нем нет ответов",
+                "validation": "Проверка на пользовательские значения",
+                "user_values_allowed": "Разрешать пользовательские значения",
+                "user_values_allowed-help": "Если разрешено, пользователи могут добавлять собственные значения, а не только определенные Администратором. Эти значения будут проверены по опции \"Проверка\".  Если запрещено, можно будет выбрать только из \"предложенных\" ответов.\n",
                 "validation-help": "",
-                "enable-user-values-for-validation": "",
-                "icon": "",
+                "enable-user-values-for-validation": "Разрешить \"пользовательские значение\" для настройки правил проверки",
+                "icon": "Иконка",
                 "icon-help": "",
-                "icon-preview": "",
-                "save-field-for-answers": "",
-                "is_suggested": "",
-                "new-answer": "",
-                "new-answer-placeholder": ""
+                "icon-preview": "предпросмотр: {preview}",
+                "save-field-for-answers": "Сохранить поле для добавления ответов",
+                "is_suggested": "Предложить ответ пользователям",
+                "new-answer": "Новый ответ",
+                "new-answer-placeholder": "Текст"
             },
             "messages": {
                 "delete-answer-confirmation": "",
