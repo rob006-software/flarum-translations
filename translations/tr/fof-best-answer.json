@@ -14,21 +14,21 @@
                 },
                 "allow_select_own_post": "Kendi gönderini seç",
                 "allow_select_own_post_help": "",
-                "enable_all_tags_button": "",
-                "enable_all_tags_reminder_button": "",
+                "enable_all_tags_button": "Tüm etiketlerde En İyi Yanıtı etkinleştir",
+                "enable_all_tags_reminder_button": "En İyi Yanıt hatırlatıcısını için tüm etiketleri etkinleştir",
                 "select_best_answer_reminder_days": "Hatırlatma sıklığı",
                 "select_best_answer_reminder_days_help": "",
-                "schedule_on_one_server": "Zamanlayıcı için 'onOneServer()' kullanın (Redis/Memcache gerektirir)",
+                "schedule_on_one_server": "Zamanlayıcı için 'onOneServer()' kullanın",
                 "schedule_on_one_server_help": "Redis/Memcache gerektirir",
                 "schedule_stop_overnight": "Aktif olmayan saatlerde hatırlatma bildirimlerinin gönderilmesini önleyin",
                 "schedule_stop_overnight_help": "9ös - 8öö sunucu zamanı",
                 "schedule_log_output": "Zamanlayıcı çıktısını kayıt dosyasına ekle",
-                "show_filter_label": "",
-                "show_filter_help": "",
-                "use_alt_ui": "Alternatif şablonu kullanın (En İyi Yanıt düğmeleri gönderinin sonunda yer alır)",
+                "show_filter_label": "En İyi Yanıt filtresini göster",
+                "show_filter_help": "En İyi Yanıtların etkinleştirildiği etiketler için, tartışma listesinde çözülmüş/çözülmemiş filtre seçeneğini görüntülemeyi seçin",
+                "use_alt_ui": "Alternatif dizilim",
                 "use_alt_ui_help": "Altbilgideki en iyi yanıt kontrolleri",
                 "documentation": "Belgeler",
-                "introduction": "<code>flarum/tags</code> içinde hangi etiketlerin En İyi Yanıtları destekleyeceğini ve isteğe bağlı olarak hangi etiketlerin hatırlatıcıları desteklemesi gerektiğini etkinleştirin. Bir etiket için En İyi Yanıt etkinleştirildiğinde, yanıtları ayarlayabilen her kullanıcı grubuna (kendi tartışması, herhangi bir tartışma) izinler atayın. İzinler genel olarak (En İyi Yanıtın etkinleştirildiği herhangi bir etiket için) veya etiket bazında atanabilir.\n",
+                "introduction": "<code><a>flarum/tags</a></code> içinde hangi etiketlerin En İyi Yanıtları destekleyeceğini ve isteğe bağlı olarak hangi etiketlerin hatırlatıcıları desteklemesi gerektiğini etkinleştirin. Bir etiket için En İyi Yanıt etkinleştirildiğinde, yanıtları ayarlayabilen her kullanıcı grubuna (kendi tartışması, herhangi bir tartışma) izinler atayın. İzinler genel olarak (En İyi Yanıtın etkinleştirildiği herhangi bir etiket için) veya etiket bazında atanabilir.\n",
                 "remind_tag_ids": "Hatırlatıcıyı belirli etiketlerde etkinleştirmek için etiketleri belirleyin (virgülle ayırarak)"
             },
             "edit_tag": {
@@ -55,19 +55,19 @@
                 }
             },
             "index": {
-                "ask_question": "",
-                "cannot_ask_question": "",
-                "solved_link": "",
-                "unsolved_link": ""
+                "ask_question": "Bir Soru Sor",
+                "cannot_ask_question": "Soru Soramazsın",
+                "solved_link": "Çözülen tartışmalar",
+                "unsolved_link": "Çözülmeyen tartışmalar"
             },
             "filter": {
-                "all_label": "",
-                "solved_label": "",
-                "unsolved_label": "",
-                "accessible_label": ""
+                "all_label": "Tüm sorular",
+                "solved_label": "Çözülen sorular",
+                "unsolved_label": "Çözülmeyen sorular",
+                "accessible_label": "Çözülmüş/Çözülmemiş seçimi"
             },
             "composer": {
-                "titlePlaceholder": ""
+                "titlePlaceholder": "Soru başlığı"
             }
         },
         "email": {
