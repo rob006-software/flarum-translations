@@ -16,7 +16,7 @@
                 "name_placeholder": "=> flarum-tags.ref.name",
                 "slug_label": "Şlak",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Etiket Yarat"
+                "title": "Kateqoriya Yarat"
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
@@ -26,19 +26,19 @@
                 "allow_edit_tags_label": "Etiketin redaktəsinə icazə verin",
                 "bypass_tag_counts_label": "Baypas etiket tələbi",
                 "restrict_by_tag_heading": "Etiketlə məhdudlaşdır",
-                "tag_discussions_label": "Mövzu Etiketi"
+                "tag_discussions_label": "Mövzu Kateqoriyası"
             },
             "tag_settings": {
                 "range_separator_text": " to ",
-                "required_primary_heading": "Tələb olunan İlkin Etiketlərin sayı",
+                "required_primary_heading": "Tələb olunan İlkin Kateqoriyaların sayı",
                 "required_primary_text": "Müzakirəyə tətbiq oluna biləcək əsas etiketlərin minimum və maksimum sayını daxil edin.",
                 "required_secondary_heading": "Tələb olunan İkinci dərəcəli Etiketlər",
                 "required_secondary_text": "Müzakirəyə tətbiq oluna biləcək minimum və maksimum ikincil etiketlərin sayını daxil edin.",
-                "title": "Etiket Ayarları"
+                "title": "Kateqoriya Ayarları"
             },
             "tags": {
                 "about_tags_text": "Etiketlər müzakirələri təsnif etmək üçün istifadə olunur. Birincil etiketlər ənənəvi forum kateqoriyalarına bənzəyir: iki səviyyəli bir iyerarxiyada yerləşdirilə bilər. İkincili etiketlərin iyerarxiyası və nizamı yoxdur və mikro-kateqoriyalar üçün faydalıdır.",
-                "create_primary_tag_button": "Əsas etiket yaradın",
+                "create_primary_tag_button": "Əsas Kateqoriyanı yaradın",
                 "create_secondary_tag_button": "İkincil etiket yaradın",
                 "primary_heading": "Əsas etiketlər",
                 "secondary_heading": "İkinci dərəcəli etiketlər",
@@ -47,7 +47,7 @@
         },
         "forum": {
             "all_tags": {
-                "meta_description_text": "Bütün Etiketlər",
+                "meta_description_text": "Bütün Kateqoriyalar",
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
@@ -55,16 +55,16 @@
                 "choose_secondary_placeholder": "{count, plural, one {Choose 1 more tag} other {Choose # more tags}}",
                 "edit_title": "Etiketləri redaktə edin {title}",
                 "submit_button": "=> core.ref.okay",
-                "title": "Mövzu üçün Etiketləri seçin"
+                "title": "Kateqoriya"
             },
             "composer_discussion": {
-                "choose_tags_link": "Etiket seçin"
+                "choose_tags_link": "Kategoriya seçin"
             },
             "discussion_controls": {
-                "edit_tags_button": "Etiketləri redaktə edin"
+                "edit_tags_button": "Kategoriyaları redaktə edin"
             },
             "header": {
-                "back_to_tags_tooltip": "Etiket siyahısına qayıt"
+                "back_to_tags_tooltip": "Kateqoriya siyahısına qayıt"
             },
             "index": {
                 "more_link": "Ətraflı ...",
@@ -86,7 +86,7 @@
         },
         "ref": {
             "name": "Ad",
-            "tags": "Etiket"
+            "tags": "Kateqoriya"
         }
     }
 }
