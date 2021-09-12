@@ -2,25 +2,25 @@
     "miniflar-sidenav-download-button": {
         "admin": {
             "permissions": {
-                "view_download_button_label": ""
+                "view_download_button_label": "Xem nút tải xuống trên thanh bên điều hướng"
             },
             "settings": {
                 "labels": {
-                    "add_separator": "",
-                    "disable_widget": ""
+                    "add_separator": "Thêm dấu phân tách?",
+                    "disable_widget": "Tắt widget gốc và thay vào đó sử dụng widget được hỗ trợ Afrux"
                 },
-                "button_order_heading": "",
-                "button_order_text": "",
-                "separator_order_heading": "",
-                "separator_order_text": "",
-                "button_link_heading": "",
-                "button_link_text": "",
-                "enter_link_message": ""
+                "button_order_heading": "Thứ tự nút",
+                "button_order_text": "Chỉnh sửa cài đặt này để điều chỉnh vị trí của widget này trên phần thanh bên điều hướng diễn đàn Flarum. Số càng cao, widget này sẽ càng cao trong danh sách mục thanh bên điều hướng (giá trị này có thể là dương hoặc âm).",
+                "separator_order_heading": "Thứ tự dấu phân tách",
+                "separator_order_text": "Chỉnh sửa cài đặt này để điều chỉnh vị trí của dấu phân cách cho widget này trên phần thanh bên điều hướng diễn đàn Flarum. Số càng cao, dấu phân cách càng cao sẽ nằm trong danh sách các mục thanh bên điều hướng (giá trị này có thể là dương hoặc âm).",
+                "button_link_heading": "Liên kết tải xuống",
+                "button_link_text": "Nhập URL hợp lệ (ví dụ: https://example.com).",
+                "enter_link_message": "Vui lòng nhập URL hợp lệ."
             }
         },
         "forum": {
             "index": {
-                "download_button": ""
+                "download_button": "Tải xuống"
             }
         }
     }
