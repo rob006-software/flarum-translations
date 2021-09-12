@@ -24,12 +24,12 @@
                     "host": "Lưu trữ",
                     "password": "Mật khẩu",
                     "port": "Cổng",
-                    "database": "",
-                    "failed": "",
-                    "fillin": "",
-                    "success": ""
+                    "database": "Cơ sở dữ liệu",
+                    "failed": "Không thể lưu cài đặt, vui lòng đảm bảo rằng \"vendor/flarum/core/src/Database/\" có thể ghi được bởi máy chủ web của bạn",
+                    "fillin": "Vui lòng điền đầy đủ vào biểu mẫu Redis",
+                    "success": "Đã kết nối thành công với máy chủ Redis."
                 },
-                "check_button": ""
+                "check_button": "Kiểm tra"
             }
         }
     }
