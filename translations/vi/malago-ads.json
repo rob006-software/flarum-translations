@@ -2,34 +2,34 @@
     "flagrow-ads": {
         "admin": {
             "buttons": {
-                "save": ""
+                "save": "Lưu thiết lập"
             },
             "positions": {
                 "under-header": {
-                    "title": "",
-                    "placeholder": ""
+                    "title": "Vị trí quảng cáo dưới đầu trang điều hướng",
+                    "placeholder": "Chèn mã quảng cáo vào đây."
                 },
                 "between-posts": {
-                    "title": "",
-                    "placeholder": ""
+                    "title": "Vị trí quảng cáo giữa các bài viết",
+                    "placeholder": "=> flagrow-ads.admin.positions.under-header.placeholder"
                 },
                 "under-nav-items": {
-                    "title": "",
-                    "placeholder": ""
+                    "title": "Vị trí quảng cáo ở cột bên trái dưới thẻ trên trang chủ",
+                    "placeholder": "=> flagrow-ads.admin.positions.under-header.placeholder"
                 }
             },
             "settings": {
-                "adsense-title": "",
-                "position-title": "",
-                "adsense-enable": "",
-                "adsense-client-id": "",
-                "start-from-post": "",
-                "between-n-posts": "",
-                "header-only-frontpage": ""
+                "adsense-title": "Thiết lập AdSense",
+                "position-title": "Vị trí Quảng cáo",
+                "adsense-enable": "Đã bật AdSense",
+                "adsense-client-id": "Cung cấp ID nhà xuất bản của bạn",
+                "start-from-post": "Chỉ định từ bài viết nào sẽ bắt đầu hiển thị quảng cáo",
+                "between-n-posts": "Chỉ định sau bao nhiêu bài viết để đặt một quảng cáo",
+                "header-only-frontpage": "Dưới đầu trang điều hướng và chỉ hiển thị trên trang đầu"
             },
             "tab": {
-                "title": "",
-                "description": ""
+                "title": "Quảng cáo",
+                "description": "Đặt tùy chọn và vị trí quảng cáo."
             }
         }
     }
