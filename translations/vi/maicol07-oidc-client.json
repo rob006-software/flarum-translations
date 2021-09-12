@@ -2,16 +2,16 @@
     "maicol07-oidc-client": {
         "admin": {
             "settings": {
-                "provider_name": "",
-                "client_settings_title": "",
-                "client_settings_subtitle": "",
-                "client_id": "",
-                "client_secret": "",
-                "callback_title": "",
-                "callback_subtitle": "",
-                "callback_logout_note": "",
-                "provider_settings_title": "",
-                "provider_url": "",
+                "provider_name": "Tên nhà cung cấp OpenID Connect",
+                "client_settings_title": "Thiết lập khách hàng",
+                "client_settings_subtitle": "Thêm thông tin khách hàng do nhà cung cấp OpenID Connect của bạn cung cấp. Để được trợ giúp thêm, hãy kiểm tra tài liệu.",
+                "client_id": "ID khách hàng",
+                "client_secret": "Mã bí mật khách hàng",
+                "callback_title": "URI gọi lại",
+                "callback_subtitle": "Đây là các URI gọi lại bạn cần đăng ký trên nhà cung cấp của mình để lấy mã ủy quyền ứng dụng khách và đăng xuất khỏi nhà cung cấp, nếu tùy chọn liên quan đã được bật.",
+                "callback_logout_note": "chỉ cần thiết khi đăng xuất khỏi tùy chọn nhà cung cấp được bật (xem ở cuối trang)",
+                "provider_settings_title": "Cài đặt nhà cung cấp",
+                "provider_url": "URL nhà cung cấp",
                 "endpoints_title": "",
                 "endpoints_subtitle": "",
                 "endpoints": {
