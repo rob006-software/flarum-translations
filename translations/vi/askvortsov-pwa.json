@@ -37,7 +37,7 @@
             "status": {
                 "config_no_https": "Url trong tệp config.php của bạn không sử dụng HTTPS. HTTPS là bắt buộc để Ứng dụng web hiện đại hoạt động.",
                 "possible_https_disabled": "Trang web của bạn có thể không chạy trên HTTPS. Xóa bộ nhớ cache của bạn (trang bảng điều khiển quản trị => nút công cụ) có thể hữu ích. Nếu có, hãy bỏ qua điều này. Nếu không, hãy nhớ rằng HTTPS là cần thiết để Ứng dụng web hiện đại hoạt động.",
-                "no_logo": "Bạn phải tải lên ít nhất một logo, ​​có kích thước ít nhất là 196px để ứng dụng của bạn hoạt động.",
+                "no_logo": "Bạn phải tải lên ít nhất một logo, có kích thước nhỏ nhất là 196px để ứng dụng của bạn hoạt động.",
                 "no_name": "Bạn phải cung cấp tên đầy đủ để ứng dụng của mình hoạt động.",
                 "key_gen_failed": "Không thể tạo khóa cần thiết cho thông báo đẩy. Thông báo lỗi đầy đủ là: {error}",
                 "suggest_gmp": "Phần mở rộng gmp PHP dường như không được bật trên máy chủ của bạn. Nó không hoàn toàn cần thiết, nhưng có thể cải thiện hiệu suất và được khuyến khích. Mặc dù vậy, một số máy chủ được chia sẻ có thể không hỗ trợ nó.",
