@@ -1,27 +1,27 @@
 {
     "nearata-auth-minecraft": {
         "api": {
-            "invalid_token_format": ""
+            "invalid_token_format": "Mã token phải là số."
         },
         "forum": {
             "change_email_modal": {
-                "confirmation_message": "",
-                "dismiss_button": "",
-                "submit_button": "",
-                "title": "",
-                "token_placeholder": ""
+                "confirmation_message": "Chúng tôi đã gửi email xác thực đến {email}. Nếu chưa nhận được, vui lòng kiểm tra thư mục spam.",
+                "dismiss_button": "OK",
+                "submit_button": "Đổi email",
+                "title": "Đổi email",
+                "token_placeholder": "Mã token"
             },
-            "error_403": "",
+            "error_403": "Mã token đã hết hạn hoặc không hợp lệ.",
             "log_in_modal": {
-                "submit_button": "",
-                "title": ""
+                "submit_button": "Xác thực",
+                "title": "Đăng nhập bằng Minecraft"
             },
-            "log_in_button_title": "",
+            "log_in_button_title": "Đăng nhập bằng Minecraft",
             "settings": {
-                "change_email_button": ""
+                "change_email_button": "Đổi email"
             },
-            "token_help": "",
-            "token_placeholder": ""
+            "token_help": "Tham gia máy chủ <strong>srv.mc-oauth.net:25565</strong> để nhận mã token truy cập.",
+            "token_placeholder": "Mã token"
         }
     }
 }
