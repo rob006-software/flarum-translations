@@ -1,40 +1,40 @@
 {
     "fof-nightmode": {
         "ref": {
-            "auto": "",
-            "light": "",
-            "dark": ""
+            "auto": "Avtomatik (brauzer və ya cihaz seçimlərinə əsaslanaraq)",
+            "light": "Gündüz modu",
+            "dark": "Gecə modu"
         },
         "admin": {
             "settings": {
                 "modal": {
-                    "default_theme": "",
-                    "default_theme_helper": "",
-                    "theme_auto": "",
-                    "theme_light": "",
-                    "theme_dark": ""
+                    "default_theme": "Defolt forum teması",
+                    "default_theme_helper": "Varsayılan tema avtomatik olaraq yeni istifadəçilər, qonaqlar və heç bir üstünlük təyin etməyənlər üçün təyin olunur.",
+                    "theme_auto": "=> fof-nightmode.ref.auto",
+                    "theme_light": "=> fof-nightmode.ref.light",
+                    "theme_dark": "=> fof-nightmode.ref.dark"
                 }
             }
         },
         "forum": {
-            "day": "",
-            "night": "",
+            "day": "=> fof-nightmode.ref.light",
+            "night": "=> fof-nightmode.ref.dark",
             "user": {
                 "settings": {
-                    "heading": "",
-                    "description": "",
-                    "description2": "",
-                    "device_specific_setting_checkbox": "",
-                    "device_specific_setting_checkbox_tooltip": "",
+                    "heading": "Tema",
+                    "description": "Forumda istifadə etmək istədiyiniz rəng mövzusunu seçin.",
+                    "description2": "Bu mövzu hesabınıza bağlanacaq və cihaz parametrləri üçün aşağıdakı açarı açmadığınız təqdirdə bütün cihazlarınıza tətbiq ediləcək.",
+                    "device_specific_setting_checkbox": "Cihaz parametrlərinə görə istifadə edin",
+                    "device_specific_setting_checkbox_tooltip": "Tema seçiminiz hər bir cihaz üçün fərdi olaraq saxlanacaq.",
                     "options": {
-                        "auto": "",
-                        "day": "",
-                        "night": ""
+                        "auto": "=> fof-nightmode.ref.auto",
+                        "day": "=> fof-nightmode.ref.light",
+                        "night": "=> fof-nightmode.ref.dark"
                     },
                     "option_descriptions": {
-                        "auto": "",
-                        "day": "",
-                        "night": ""
+                        "auto": "Temanız brauzerinizə və ya cihaz parametrlərinizə əsasən avtomatik olaraq seçiləcək. Məsələn, iOS -da qaranlıq rejimi aktiv etsəniz, forumlar da qaranlıq olacaq.",
+                        "day": "Alışdığınız klassik təcrübə. Sevildi və sınaqdan keçirildi.",
+                        "night": "Bir az bayquşsan. Gecələr, quşlar yatarkən və tülkülər ov edərkən forumu izləyirsiniz. Yoxsa daha qaranlıq rənglərə üstünlük verirsiniz!"
                     }
                 }
             }
