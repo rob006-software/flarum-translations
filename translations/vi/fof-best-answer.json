@@ -14,8 +14,8 @@
                 },
                 "allow_select_own_post": "Chọn bài viết của riêng mình",
                 "allow_select_own_post_help": "Cho phép OP chọn một trong các bài viết của riêng mình trong cuộc thảo luận làm câu trả lời hay nhất",
-                "enable_all_tags_button": "",
-                "enable_all_tags_reminder_button": "",
+                "enable_all_tags_button": "Bật Câu trả lời hay nhất cho tất cả thẻ",
+                "enable_all_tags_reminder_button": "Bật lời nhắc Câu trả lời hay nhất cho tất cả thẻ",
                 "select_best_answer_reminder_days": "Tần suất nhắc nhở",
                 "select_best_answer_reminder_days_help": "Gửi lời nhắc sau khoảng thời gian có thể cấu hình đến OP để chọn Câu trả lời hay nhất, 0 = tắt lời nhắc.",
                 "schedule_on_one_server": "Sử dụng 'onOneServer()' cho trình lập lịch tác vụ",
@@ -23,12 +23,12 @@
                 "schedule_stop_overnight": "Ngăn thông báo nhắc nhở được gửi trong những giờ không liên lạc",
                 "schedule_stop_overnight_help": "9 giờ tối - 8 giờ sáng theo giờ máy chủ",
                 "schedule_log_output": "Nối đầu ra của bộ lập lịch vào bộ nhớ nhật ký",
-                "show_filter_label": "",
-                "show_filter_help": "",
+                "show_filter_label": "Hiển thị dropdown bộ lọc Câu trả lời hay nhất",
+                "show_filter_help": "Đối với các thẻ đã bật Câu trả lời hay nhất, chọn hiển thị tùy chọn bộ lọc đã giải quyết/chưa giải quyết trong danh sách thảo luận",
                 "use_alt_ui": "Bố cục thay thế",
                 "use_alt_ui_help": "Kiểm soát câu trả lời hay nhất dưới chân trang bài viết",
                 "documentation": "Tài liệu",
-                "introduction": "Bật các thẻ để hỗ trợ Câu trả lời hay nhất trong <code>flarum/tags</code> và tùy chọn các thẻ sẽ hỗ trợ lời nhắc. Khi thẻ Câu trả lời hay nhất được bật, hãy chỉ định quyền cho từng nhóm người dùng có thể đặt câu trả lời (thảo luận riêng, bất kỳ cuộc thảo luận nào). Các quyền có thể được chỉ định trên toàn cầu (đối với bất kỳ thẻ nào đã loại bỏ Câu trả lời hay nhất) hoặc trên cơ sở mỗi thẻ.\n"
+                "introduction": "Bật những thẻ nào để hỗ trợ Câu trả lời hay nhất trong <code><a>flarum/tags</a></code> và tùy chọn thẻ nào sẽ hỗ trợ lời nhắc. Khi thẻ Câu trả lời hay nhất được bật, hãy chỉ định quyền cho từng nhóm người dùng có thể đặt câu trả lời (thảo luận riêng, bất kỳ cuộc thảo luận nào). Các quyền có thể được chỉ định trên toàn cục (đối với bất kỳ thẻ nào đã loại bỏ Câu trả lời hay nhất) hoặc trên cơ sở mỗi thẻ.\n"
             },
             "edit_tag": {
                 "qna_label": "Bật Câu trả lời hay nhất đặt trong thẻ này",
