@@ -2,19 +2,19 @@
     "nearata-dsts": {
         "admin": {
             "permissions": {
-                "can_bypass_like": "",
-                "can_bypass_reply": ""
+                "can_bypass_like": "Có thể bỏ qua thích",
+                "can_bypass_reply": "Có thể bỏ qua trả lời"
             },
             "settings": {
-                "require_like": "",
-                "require_like_help": "",
-                "require_reply": ""
+                "require_like": "Yêu cầu thích",
+                "require_like_help": "Lưu ý: Yêu cầu tiện ích mở rộng Flarum Likes.",
+                "require_reply": "Yêu cầu trả lời"
             }
         },
         "forum": {
-            "like": "",
-            "login": "",
-            "reply": ""
+            "like": "Bạn phải thích bài viết để xem nội dung.",
+            "login": "Bạn phải đăng nhập để xem nội dung.",
+            "reply": "Bạn phải trả lời cuộc thảo luận để xem nội dung."
         }
     }
 }
