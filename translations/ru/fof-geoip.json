@@ -2,23 +2,23 @@
     "fof-geoip": {
         "admin": {
             "settings": {
-                "title": "",
-                "service_label": "",
-                "service_freegeoip_label": "",
-                "service_freegeoip_description": "",
-                "service_ipstack_label": "",
-                "service_ipstack_description": "",
-                "service_ipdata_label": "",
-                "service_ipdata_description": "",
-                "service_ipapi_label": "",
-                "service_ipapi_description": "",
-                "access_key_label": "",
-                "security_label": ""
+                "title": "FriendsOfFlarum GeoIP",
+                "service_label": "Сервис",
+                "service_freegeoip_label": "FreeGeoIP",
+                "service_freegeoip_description": "Зайдите на <b>https://freegeoip.app/</b> для бесплатного получения до 15 тыс. IP-кодов стран в час.",
+                "service_ipstack_label": "IPStack",
+                "service_ipstack_description": "Зайдите на сайт <b>https://ipstack.com</b> для бесплатного исполнения до 10 тыс. IP-поисков в месяц. Платные услуги включают сведения о соединении (организация, провайдер) и уровни угроз безопасности.",
+                "service_ipdata_label": "IPData",
+                "service_ipdata_description": "Зайдите на сайт <b>https://ipdata.com</b> для бесплатного исполнения до 1,5 тыс. IP-поисков в день.",
+                "service_ipapi_label": "IP Api",
+                "service_ipapi_description": "Зайдите на сайт <b>http://ip-api.com</b> для бесплатного исполнения до 150 IP-поисков в минуту. Учтите, что если вы запросите больше, ваш IP-адрес может быть включен в черный список, удалиться из которого можно со страницы<b>http://ip-api.com/docs/unban</b>.",
+                "access_key_label": "Ключ доступа",
+                "security_label": "Модуль безопасности (требует professional plus)"
             }
         },
         "forum": {
             "alerts": {
-                "ip_copied": ""
+                "ip_copied": "Скопированный IP адрес"
             }
         }
     }
