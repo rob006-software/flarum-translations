@@ -2,30 +2,30 @@
     "clarkwinkelmann-follow-tags-prompt": {
         "forum": {
             "controls": {
-                "choose": ""
+                "choose": "Wähle Tags aus, denen Du folgen möchtest"
             },
             "modal": {
-                "title": "",
-                "later": "",
-                "continue": ""
+                "title": "Wähle Tags aus, denen Du folgen möchtest",
+                "later": "Erinnere mich später",
+                "continue": "Weiter zum Forum"
             }
         },
         "admin": {
             "settings": {
-                "buttonOnFollowingPage": "",
-                "allDiscussionsOnFollowingPageForGuests": "",
-                "availableTagStrategy": "",
+                "buttonOnFollowingPage": "Schaltfläche auf folgender Seite anzeigen",
+                "allDiscussionsOnFollowingPageForGuests": "Alle Diskussionen auf der folgenden Seite für Gäste anzeigen",
+                "availableTagStrategy": "Modal anzubietende Tags",
                 "tagStrategy": {
-                    "primary": "",
-                    "primaryAndChildren": "",
-                    "primaryAndSecondary": "",
-                    "secondary": "",
-                    "all": "",
-                    "list": ""
+                    "primary": "Primäre Tags der ersten Ebene",
+                    "primaryAndChildren": "Alle primären Tags jeder Stufe",
+                    "primaryAndSecondary": "Primäre Tags der ersten Ebene und sekundäre Tags",
+                    "secondary": "Nur sekundäre Tags",
+                    "all": "Alle Tags",
+                    "list": "Unten ausgewählte Tags"
                 }
             },
             "homepage": {
-                "following": ""
+                "following": "Folgend"
             }
         }
     }
