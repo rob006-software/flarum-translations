@@ -515,7 +515,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-keywords/1.9.2/resources/locale/en.yml',
 	],
 	'justoverclock-last-registered-users' => [
-		'tag' => 'https://raw.githubusercontent.com/justoverclockl/last-registered-users/0.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/last-registered-users/0.1.1/locale/en.yml',
 	],
 	'justoverclock-last-tweet' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/last-tweet/0.1.1/locale/en.yml',
