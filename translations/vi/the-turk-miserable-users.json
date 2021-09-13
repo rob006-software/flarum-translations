@@ -2,46 +2,46 @@
     "the-turk-miserable-users": {
         "admin": {
             "permissions": {
-                "miserable_user_label": ""
+                "miserable_user_label": "=> the-turk-miserable-users.ref.miserable_user"
             },
             "settings": {
-                "range_separator_text": "",
-                "range_seconds_text": "",
-                "loading_delay_label": "",
-                "loading_delay_text": "",
-                "broken_page_chance_label": "",
-                "broken_page_chance_text": "",
-                "flood_time_multiplier_label": "",
-                "flood_time_multiplier_text": "",
-                "redirection_chance_label": "",
-                "redirection_chance_text": "",
-                "redirection_page_url_label": "",
-                "redirection_page_url_text": "",
-                "log_out_chance_label": "",
-                "log_out_chance_text": "",
-                "shuffle_post_chance_label": "",
-                "shuffle_post_chance_text": ""
+                "range_separator_text": " đến ",
+                "range_seconds_text": " Giây",
+                "loading_delay_label": "Độ trễ tải",
+                "loading_delay_text": "Những người dùng khốn khổ sẽ phải chờ khi tải trang trong một khoảng thời gian ngẫu nhiên giữa hai giá trị được cung cấp ở đây.",
+                "broken_page_chance_label": "Cơ hội trang bị hỏng",
+                "broken_page_chance_text": "Thỉnh thoảng, bạn có thể khiến người dùng khốn khổ với một trang bị hỏng. Nhập phần trăm cơ hội xảy ra điều này.",
+                "flood_time_multiplier_label": "Hệ số thời gian lũ",
+                "flood_time_multiplier_text": "Thời gian tối thiểu tiêu chuẩn (là 10 giây) giữa các tin nhắn có thể được nhân lên để khiến người dùng khốn khổ phải chờ đợi lâu hơn giữa các lần đăng.",
+                "redirection_chance_label": "Cơ hội chuyển hướng",
+                "redirection_chance_text": "Nhập phần trăm cơ hội mà một người dùng khốn khổ sẽ được chuyển hướng đến URL của trang chuyển hướng.",
+                "redirection_page_url_label": "URL trang chuyển hướng",
+                "redirection_page_url_text": "Bạn có thể ngẫu nhiên chuyển hướng những người dùng khốn khổ đến một trang khác. Để trống phần này để chuyển hướng đến trang chủ của diễn đàn.",
+                "log_out_chance_label": "Cơ hội đăng xuất",
+                "log_out_chance_text": "Nhập tỷ lệ phần trăm cơ hội mà một người dùng khốn khổ sẽ bị đăng xuất và được chuyển hướng trở lại trang chủ. <b>Hãy nhớ!</b> Sau khi đăng xuất, họ không còn bị khốn khổ nữa.",
+                "shuffle_post_chance_label": "Cơ hội xáo trộn bài viết",
+                "shuffle_post_chance_text": "Bạn có thể ngẫu nhiên xáo trộn bài viết của một người dùng khốn khổ. Nhập phần trăm cơ hội xảy ra điều này."
             }
         },
         "forum": {
             "user_badge": {
-                "miserable_user_tooltip": ""
+                "miserable_user_tooltip": "=> the-turk-miserable-users.ref.miserable_user"
             },
             "user_controls": {
-                "miserable_user_button": ""
+                "miserable_user_button": "=> the-turk-miserable-users.ref.miserable_user"
             },
             "miserable_user": {
-                "title": "",
-                "status_heading": "",
-                "not_miserable_label": "",
-                "indefinitely_label": "",
-                "limited_time_label": "",
-                "limited_time_days_text": "",
-                "submit_button": ""
+                "title": "Khốn khổ {username}",
+                "status_heading": "Tình trạng khốn khổ",
+                "not_miserable_label": "Không bị khốn khổ",
+                "indefinitely_label": "Khốn khổ vô thời hạn",
+                "limited_time_label": "Khốn khổ trong một khoảng thời gian giới hạn...",
+                "limited_time_days_text": " ngày",
+                "submit_button": "=> core.ref.save_changes"
             }
         },
         "ref": {
-            "miserable_user": ""
+            "miserable_user": "Người dùng khốn khổ"
         }
     }
 }
