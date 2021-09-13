@@ -4,26 +4,26 @@
             "settings": {
                 "providers": {
                     "vkontakte": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "description": "Du kannst die Anwendung hier registrieren {link}",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_button": "",
-                "with_vkontakte_button": "",
+                "with_button": "Einloggen mit {provider}",
+                "with_vkontakte_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_vkontakte": ""
             }
         },
         "providers": {
-            "vkontakte": ""
+            "vkontakte": "=> fof-oauth.lib.providers.vkontakte"
         },
         "lib": {
             "providers": {
-                "vkontakte": ""
+                "vkontakte": "Vkontakte"
             }
         }
     }
