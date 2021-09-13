@@ -2,39 +2,39 @@
     "the-turk-stickiest": {
         "admin": {
             "permissions": {
-                "super_sticky_discussions_label": "",
-                "tag_sticky_discussions_label": ""
+                "super_sticky_discussions_label": "Discussioni in Super Evidenza",
+                "tag_sticky_discussions_label": "Tag discussioni in Evidenza"
             },
             "settings": {
-                "badge_icon_label": "",
-                "badge_icon_text": ""
+                "badge_icon_label": "Icona badge per Super Evidenza",
+                "badge_icon_text": "=> core.ref.icon_text"
             }
         },
         "forum": {
             "badge": {
-                "sticky_tooltip": "",
-                "super_sticky_tooltip": "",
-                "tag_sticky_tooltip": ""
+                "sticky_tooltip": "=> the-turk-stickiest.ref.sticky",
+                "super_sticky_tooltip": "=> the-turk-stickiest.ref.super_sticky",
+                "tag_sticky_tooltip": "=> the-turk-stickiest.ref.tag_sticky"
             },
             "discussion_controls": {
-                "sticky_button": "",
-                "unsticky_button": "",
-                "super_sticky_button": "",
-                "common_sticky_button": "",
-                "tag_sticky_button": "",
-                "all_sticky_button": ""
+                "sticky_button": "=> the-turk-stickiest.ref.sticky",
+                "unsticky_button": "=> flarum-sticky.forum.discussion_controls.unsticky_button",
+                "super_sticky_button": "=> the-turk-stickiest.ref.super_sticky",
+                "common_sticky_button": "Evidenza normale",
+                "tag_sticky_button": "=> the-turk-stickiest.ref.tag_sticky",
+                "all_sticky_button": "Tutto in Evidenza"
             },
             "post_stream": {
-                "discussion_stickied_text": "",
-                "discussion_unstickied_text": "",
-                "discussion_super_stickied_text": "",
-                "discussion_common_stickied_text": ""
+                "discussion_stickied_text": "=> flarum-sticky.forum.post_stream.discussion_stickied_text",
+                "discussion_unstickied_text": "=> flarum-sticky.forum.post_stream.discussion_unstickied_text",
+                "discussion_super_stickied_text": "{username} ha segnato la discussione come Super Evidenza",
+                "discussion_common_stickied_text": "{username} ha rimosso la discussione da Super Evidenza."
             }
         },
         "ref": {
-            "sticky": "",
-            "super_sticky": "",
-            "tag_sticky": ""
+            "sticky": "=> flarum-sticky.ref.sticky",
+            "super_sticky": "Super Evidenza",
+            "tag_sticky": "Tag Evidenza"
         }
     }
 }
