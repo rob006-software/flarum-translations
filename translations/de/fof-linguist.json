@@ -40,13 +40,13 @@
                     "own": "Benutzerdefiniert"
                 },
                 "operation-options": {
-                    "or": "Either of",
-                    "and": "All of"
+                    "or": "Einer von",
+                    "and": "Alle"
                 },
                 "for-extension": "Für Erweiterung",
                 "frontend": "Für Frontend",
                 "frontend-all-except-admin": "Alle außer Admin",
-                "mass-edit": "Mass edit",
+                "mass-edit": "Massen-Bearbeitung",
                 "results": "Zeige {shown} von {total} passende Übersetzungen"
             },
             "clear-cache": {
@@ -63,10 +63,10 @@
                     "count": "Anzahl"
                 },
                 "columns": {
-                    "namespace": "Namespace",
+                    "namespace": "Namensraum",
                     "total": "Gesamt",
-                    "all-except-admin": "Forum and other frontends",
-                    "all-frontends": "Show all frontends"
+                    "all-except-admin": "Forum und andere Frontends",
+                    "all-frontends": "Alle Frontends anzeigen"
                 },
                 "count": {
                     "percent": "{percent} %",
@@ -74,19 +74,19 @@
                     "details": "{total} gesamt / {original} original / {custom} benutzerdefiniert"
                 },
                 "all-namespaces": "Alle",
-                "apply-missing-filter": "Show matching missing translations"
+                "apply-missing-filter": "Passende fehlende Übersetzungen anzeigen"
             },
             "export": {
                 "title": "Exportieren",
-                "warning": "The export format uses Flarum's Yaml-based translation files and is designed to share translations between forums and with language pack maintainers. The format is not designed to move all translations to a new forum. Depending on your use case, copying the database directly might be a better idea.\n",
-                "locale": "Locale",
-                "locale-all": "Pseudo-locale \"All\"",
-                "namespace": "Namespace",
-                "namespace-all": "All",
-                "include-originals": "Include original translations",
-                "include-all": "Include translations defined for \"All\" languages",
+                "warning": "Das Exportformat verwendet die Yaml-basierten Übersetzungsdateien von Flarum und wurde entwickelt, um Übersetzungen zwischen Foren und mit Sprachpaket-Betreuern auszutauschen. Das Format ist nicht dafür ausgelegt, alle Übersetzungen in ein neues Forum zu verschieben. Je nach Anwendungsfall ist es möglicherweise besser, die Datenbank direkt zu kopieren.\n",
+                "locale": "Sprache",
+                "locale-all": "Pseudo-Gebietsschema 'Alle'",
+                "namespace": "Namensraum",
+                "namespace-all": "Alle",
+                "include-originals": "Originalübersetzungen einschließen",
+                "include-all": "Für 'Alle' Sprachen definierte Übersetzungen einschließen",
                 "output": "Output",
-                "output-loading": "Loading output...",
+                "output-loading": "Ausgabe wird geladen...",
                 "output-empty": "Leere Ausgabe",
                 "download": "Herunterladen"
             },
@@ -94,12 +94,12 @@
                 "title": "Importieren",
                 "input": "Eingabe",
                 "input-placeholder": "Ziehe eine Yaml-Datei per Drag and Drop oder füge sie hier ein",
-                "locale": "Locale",
-                "locale-all": "Pseudo-locale \"All\"",
-                "override-existing": "Override my existing custom translations",
+                "locale": "Sprache",
+                "locale-all": "Pseudo-Gebietsschema 'Alle'",
+                "override-existing": "Meine vorhandenen benutzerdefinierten Übersetzungen überschreiben",
                 "submit": "Importieren",
-                "results": "The import is finished. {imported} strings have been imported and {identical} identical strings were skipped. The page will now refresh to show the new translations.\n",
-                "results-with-ignore": "The import is finished. {imported} strings have been imported, {ignored} existing strings have been ignored and {identical} identical strings were skipped. The page will now refresh to show the new translations.\n"
+                "results": "Der Import ist abgeschlossen. {imported} Strings wurden importiert und {identical} identische Strings wurden übersprungen. Die Seite wird nun aktualisiert, um die neuen Übersetzungen anzuzeigen.\n",
+                "results-with-ignore": "Der Import ist abgeschlossen. {imported} Strings wurden importiert, {ignored} vorhandene Strings wurden ignoriert und {identical} identische Strings wurden übersprungen. Die Seite wird nun aktualisiert, um die neuen Übersetzungen anzuzeigen.\n"
             },
             "known-namespace": {
                 "core": "Flarum Core",
