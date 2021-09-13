@@ -1,23 +1,23 @@
 {
     "sycho-profile-cover": {
         "admin": {
-            "thumbnails": "",
-            "max_size": "",
+            "thumbnails": "Miniaturansichten erstellen",
+            "max_size": "Maximale Größe des Profiltitelbilds (in KB)",
             "permission": {
-                "set_cover": ""
+                "set_cover": "Setze Profil-Cover"
             }
         },
         "forum": {
-            "cover": "",
-            "edit_cover": "",
-            "notice": "",
+            "cover": "Cover",
+            "edit_cover": "Cover bearbeiten",
+            "notice": "Maximale Größe: {size}",
             "added": {
-                "success": "",
-                "error": ""
+                "success": "Profil-Cover aktualisiert",
+                "error": "Bild konnte nicht hochgeladen werden."
             },
             "removed": {
-                "success": "",
-                "error": ""
+                "success": "Profil-Cover entfernt",
+                "error": "Cover konnte nicht entfernt werden. Versuche es später erneut."
             }
         }
     }
