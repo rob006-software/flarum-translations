@@ -2,20 +2,20 @@
     "fof-webhooks": {
         "actions": {
             "poll": {
-                "voted": "",
-                "created": ""
+                "voted": "Đã bỏ phiếu cho cuộc thăm dò `{1}`",
+                "created": "Đã tạo cuộc thăm dò `{1}`"
             },
             "post": {
-                "reacted": "",
-                "unreacted": "",
-                "upvoted": "",
-                "downvoted": ""
+                "reacted": "Đã bày tỏ cảm xúc `{1}` cho bài viết",
+                "unreacted": "Đã xoá cảm xúc của họ khỏi bài viết",
+                "upvoted": "Đã ủng hộ bài viết",
+                "downvoted": "Đã phản đối bài viết"
             },
             "user": {
-                "enabled2fa": ""
+                "enabled2fa": "Đã bật 2FA"
             },
             "extension": {
-                "installed": "",
+                "installed": "Tiện ích mở rộng `{1}`đã được cài đặt",
                 "updated": ""
             },
             "ip": {
