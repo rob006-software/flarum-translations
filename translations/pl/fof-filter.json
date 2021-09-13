@@ -7,12 +7,13 @@
         },
         "admin": {
             "title": "Filtrowanie",
-            "help": "Podaj ciągi znaków do odfiltrowania (rozdzielone za pomocą przecinka + spacji). Jeśli post zawiera któryś z podanych ciągów, post zostanie oznaczony do zatwierdzenia przez moderację. Odporne na 133t.",
+            "bad_words_help": "",
             "help2": "Przedział czasu (w minutach), w którym następujące po sobie posty napisane przez tego samego użytkownika zostaną scalone.",
             "email_help": "Treść wiadomości e-mail po odfiltrowaniu posta. Akceptuje zarówno HTML jak i czysty tekst.",
             "filter_label": "Ciągi znaków do odfiltrowania",
             "countLabel": "Poziom tolerancji cenzora",
             "cooldownLabel": "Scalanie postów",
+            "auto_merge_title": "",
             "input": {
                 "placeholder": "Ciągi znaków do odfiltrowania",
                 "filter_title": "Ciągi znaków do odfiltrowania",
@@ -28,10 +29,14 @@
                 "text": "Filtrowanie",
                 "desc": "Odfiltruj posty z niedowolnymi słowami."
             },
+            "permission": {
+                "bypass_filter_label": ""
+            },
             "email": {
                 "default_subject": "Odnośnie Twojego ostatniego posta...",
                 "default_text": "Dzięki, że napisałeś! Niestety Twój post został ukryty, bo zawierał jedno ze słów zablokowanych na naszym forum.\n\nJeśli uważasz, że to pomyłka, nie martw się - post wkrótce zostanie zweryfikowany przez moderatora. Post pojawi się na forum zaraz po tym, jak moderator go zaakceptuje.\n\nDziękujemy za zrozumienie."
-            }
+            },
+            "help": "Podaj ciągi znaków do odfiltrowania (rozdzielone za pomocą przecinka + spacji). Jeśli post zawiera któryś z podanych ciągów, post zostanie oznaczony do zatwierdzenia przez moderację. Odporne na 133t."
         }
     }
 }

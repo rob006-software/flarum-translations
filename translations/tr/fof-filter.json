@@ -7,12 +7,13 @@
         },
         "admin": {
             "title": "Filtre",
-            "help": "Girilen terimler virgül ve boşlukla ayrılmalıdır.",
+            "bad_words_help": "",
             "help2": "Peş peşe atılan gönderilerin birleştirilmesi dakika cinsinden belirlenmelidir",
             "email_help": "İşaretlenmiş e-posta içeriği. HTML ve düz metin geçerlidir.",
             "filter_label": "Filtrelenecek kelimeler",
             "countLabel": "Sansür Toleransı",
             "cooldownLabel": "Peş peşe birleştirme süresi",
+            "auto_merge_title": "",
             "input": {
                 "placeholder": "Filtrelenecek kelimeler",
                 "filter_title": "Kelime Filtreleme",
@@ -28,10 +29,14 @@
                 "text": "Filtre",
                 "desc": "Gönderileri kelimelere göre filtrele"
             },
+            "permission": {
+                "bypass_filter_label": ""
+            },
             "email": {
                 "default_subject": "Son Gönderiniz Hakkında",
                 "default_text": "Gönderiniz için teşekkürler! Ancak forumumuzda görmek istemediğimiz bazı ifadeler içerdiği için şimdilik gönderiniz şimdilik yayından kaldırıldı.\n\nEğer bunun bir hata düşünüyorsanız şanslısınız, kaldırılan her gönderi moderatörlerimiz tarafından incelenmektedir. Eğer bir yanlışlık varsa gönderiniz tekrar yayına alınacaktır.                \n\nAnlayışınız için teşekkürler.\n"
-            }
+            },
+            "help": "Girilen terimler virgül ve boşlukla ayrılmalıdır."
         }
     }
 }

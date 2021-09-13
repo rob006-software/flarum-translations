@@ -7,12 +7,13 @@
         },
         "admin": {
             "title": "Filtro",
-            "help": "Inserisci testo o parole da filtrare, separati da virgola + spazio. Se il contenuto del post di un utente contiene una stringa che desideri filtrare, verrà contrassegnato per l'approvazione. Resistente contro 133t.",
+            "bad_words_help": "",
             "help2": "Intervallo in minuti in cui i post dello stesso utente nella stessa discussione verranno uniti automaticamente.",
             "email_help": "Corpo dell'email contrassegnata. Accetta html o testo normale.",
             "filter_label": "Stringhe da filtrare",
             "countLabel": "Tolleranza Censura",
             "cooldownLabel": "Unisci post Recuperati",
+            "auto_merge_title": "",
             "input": {
                 "placeholder": "Stringhe da filtrare",
                 "filter_title": "Stringhe da filtrare",
@@ -28,10 +29,14 @@
                 "text": "Filtro",
                 "desc": "Filtra post da parole"
             },
+            "permission": {
+                "bypass_filter_label": ""
+            },
             "email": {
                 "default_subject": "Riguardo il tuo Post Recente",
                 "default_text": "Grazie per aver postato! Sfortunatamente, il tuo post è stato rimosso perché conteneva qualcosa che non volevamo vedere nei nostri forum.\n\nSe ritieni che sia stato un errore, sei fortunato, ogni post rimosso viene esaminato dai nostri moderatori. Se scoprono che questo è stato rimosso ingiustamente, lo ripristineranno.\n\nGrazie per la  comprensione."
-            }
+            },
+            "help": "Inserisci testo o parole da filtrare, separati da virgola + spazio. Se il contenuto del post di un utente contiene una stringa che desideri filtrare, verrà contrassegnato per l'approvazione. Resistente contro 133t."
         }
     }
 }

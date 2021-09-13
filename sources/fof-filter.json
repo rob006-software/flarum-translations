@@ -6,12 +6,13 @@
         },
         "admin": {
             "title": "Filter",
-            "help": "Input text or words to filter, separated by comma + space. If the content of a user’s post contains a string you want to filter, it will be flagged for approval. Resistant against 133t.",
+            "bad_words_help": "Input text or words to filter, one per line. If the content of a user’s post contains a string you want to filter, it will be flagged for approval. Resistant against 133t.",
             "help2": "Interval in minutes in which posts from the same user in the same discussion will be automatically merged.",
             "email_help": "Body of flagged email. Accepts html or plaintext.",
             "filter_label": "Strings to filter",
             "countLabel": "Censor Tolorance",
             "cooldownLabel": "Merge Post Cooldown",
+            "auto_merge_title": "Auto merge",
             "input": {
                 "placeholder": "Strings to be filtered",
                 "filter_title": "Strings to filter",
@@ -26,6 +27,9 @@
             "nav": {
                 "text": "Filter",
                 "desc": "Filter posts by words"
+            },
+            "permission": {
+                "bypass_filter_label": "Bypass word filter(s)"
             },
             "email": {
                 "default_subject": "Regarding Your Recent Post",
