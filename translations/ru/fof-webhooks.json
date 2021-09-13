@@ -27,9 +27,9 @@
                 "registered": "Зарегистрирован новый пользователь",
                 "renamed": {
                     "title": "Имя пользователя изменено в `{1}`",
-                    "description": ""
+                    "description": "Новое имя пользователя: {1}"
                 },
-                "deleted": ""
+                "deleted": "Удален пользователь `{1}`"
             }
         },
         "adapters": {
@@ -47,7 +47,7 @@
                 "desc": ""
             },
             "settings": {
-                "debug_label": "",
+                "debug_label": "Отладка",
                 "debug_help": "",
                 "item": {
                     "tag_any_label": ""
