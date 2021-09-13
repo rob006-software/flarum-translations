@@ -1,32 +1,32 @@
 {
     "flarum-ext-contactme": {
         "settings": {
-            "emaillabel": ""
+            "emaillabel": "E-Mail, an die das Kontaktformular gesendet wird"
         },
         "admin": {
             "settings": {
-                "emaillabel": ""
+                "emaillabel": "E-Mail, an die das Kontaktformular gesendet wird"
             }
         },
         "forum": {
-            "title": "",
-            "messagesent": "",
-            "plsregister": "",
-            "tocontinue": "",
-            "backsoon": "",
-            "notloggedin": "",
-            "placeholderName": "",
-            "emailfield": "",
-            "pageTitle": "",
-            "subject": "",
-            "sendForm": "",
-            "textAreaField": "",
-            "pText": ""
+            "title": "Kontaktiere uns",
+            "messagesent": "Nachricht gesendet!",
+            "plsregister": "Bitte registrieren oder einloggen",
+            "tocontinue": "um mit diesem Kontaktformular fortzufahren",
+            "backsoon": "Wir kommen bald auf Dich zurück",
+            "notloggedin": "Bitte logge Dich ein, um das Kontaktformular zu nutzen",
+            "placeholderName": "Schreibe hier Deinen Namen hin",
+            "emailfield": "Schreibe deine E-Mail Adresse",
+            "pageTitle": ".Kontaktiere uns",
+            "subject": "Nachricht aus dem Kontaktformular",
+            "sendForm": "Nachricht senden",
+            "textAreaField": "Schreibe deine Nachricht hier",
+            "pText": "<p>Wenn Du dieses Kontaktformular ausfüllst, kannst Du uns kommerzielle Mitteilungen, Partnerschaften oder einfach jede Art von Frage senden, die innerhalb von maximal 7 Tagen beantwortet wird..</p>\n<p><strong>BEHANDLUNG PERSONENBEZOGENER DATEN</strong></p>\n<p>(Datenschutzrichtlinie Art. 13 del d.lgs. 196/2003)</p>\n<p>Wir informieren Sie, dass die Daten, die Sie dem Betreiber dieser Site beim Ausfüllen des 'Kontaktformulars' (auch Formular-Mail genannt) der Site selbst mitteilen, in Übereinstimmung mit den Bestimmungen des Gesetzesdekrets 196/2003, Code . behandelt werden im Bereich des Schutzes personenbezogener Daten.\nDas auf der Site bereitgestellte Kontaktformular dient ausschließlich dazu, den Site-Besuchern zu ermöglichen, auf Wunsch den Site-Manager zu kontaktieren, indem sie über das oben genannte Formular eine E-Mail an den Manager senden.\nDiese Information betrifft die personenbezogenen Daten, die der Besucher beim Ausfüllen des Kontaktformulars übermittelt.</p>\npBitte befolge diese Regeln:</p>\n<li>Mißbrauchen Sie das Kontaktformular nicht für Anfragen, die im Forum gestellt werden können</li>\n<li>Versenden Sie dieselbe E-Mail nicht mehrmals</li>\n"
         },
         "email": {
             "contact": {
-                "subject": "",
-                "body": ""
+                "subject": "Neuer Kontakt per Formular",
+                "body": "Hallo!\n\nDu hast ein neues Kontaktformular von {username} (E-Mail: {email}) erhalten.\n\nIhre Botschaft lautet:\n\n{Botschaft}"
             }
         }
     }
