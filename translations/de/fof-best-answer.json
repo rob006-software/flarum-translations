@@ -10,30 +10,30 @@
                     "general": "Allgemein",
                     "reminders": "Erinnerungen",
                     "advanced": "Erweitert",
-                    "reminders_notice": "Damit die Erinnerungen korrekt funktionieren, musst du den Flarum-Scheduler korrekt eingerichtet haben."
+                    "reminders_notice": "Damit Erinnerungen funktionieren, müssen Sie den Flarum-Planer richtig eingerichtet haben."
                 },
-                "allow_select_own_post": "Erlaube den Nutzern, ihre eigenen Beiträge auszuwählen",
-                "allow_select_own_post_help": "",
-                "enable_all_tags_button": "",
-                "enable_all_tags_reminder_button": "",
-                "select_best_answer_reminder_days": "Erinnere Nutzer daran, nach X Tagen eine beste Antwort auszuwählen",
-                "select_best_answer_reminder_days_help": "",
-                "schedule_on_one_server": "Verwende 'onOneServer()' Anweisung für den Task-Scheduler (setzt Redis/Memcache vorraus)",
-                "schedule_on_one_server_help": "",
-                "schedule_stop_overnight": "Verhindern, dass der Erinnerungsplaner zu ungünstigen Zeiten läuft (21 - 8 Uhr Serverzeit)",
-                "schedule_stop_overnight_help": "",
+                "allow_select_own_post": "Eigenen Beitrag auswählen",
+                "allow_select_own_post_help": "Erlaube dem OP, einen seiner eigenen Beiträge in der Diskussion als beste Antwort auszuwählen",
+                "enable_all_tags_button": "Alle Tags für beste Antworten aktivieren",
+                "enable_all_tags_reminder_button": "Alle Tags für Erinnerungen für die beste Antwort aktivieren",
+                "select_best_answer_reminder_days": "Erinnerungshäufigkeit",
+                "select_best_answer_reminder_days_help": "Sende nach der konfigurierbaren Anzahl von Tagen eine Erinnerung an das OP, um eine beste Antwort auszuwählen, 0 = Erinnerungen deaktivieren.",
+                "schedule_on_one_server": "Verwende die Direktive 'onOneServer()' für den Taskplaner",
+                "schedule_on_one_server_help": "Erfordert Redis/Memcache",
+                "schedule_stop_overnight": "Verhindern, dass Erinnerungsbenachrichtigungen während unsozialer Zeiten gesendet werden",
+                "schedule_stop_overnight_help": "21:00 - 08:00 Uhr Serverzeit",
                 "schedule_log_output": "Scheduler-Output an den Log anhängen",
-                "show_filter_label": "",
-                "show_filter_help": "",
-                "use_alt_ui": "Verwende alternatives Layout (beste Antwort-Schaltflächen in Fußzeile des Beitrags)",
-                "use_alt_ui_help": "",
-                "documentation": "",
-                "introduction": "",
+                "show_filter_label": "Dropdown-Liste für Filter für beste Antwort anzeigen",
+                "show_filter_help": "Wähle für Tags, bei denen die besten Antworten aktiviert sind, die Filteroption gelöst/ungelöst in der Diskussionsliste anzeigen",
+                "use_alt_ui": "Alternatives Layout",
+                "use_alt_ui_help": "Beste Antwortsteuerelemente in der Fußzeile des Beitrags",
+                "documentation": "Dokumentation",
+                "introduction": "Aktiviere in <code><a>flarum/tags/<a/>code>, welche Tags Beste Antworten unterstützen sollen, und optional welche Tags Erinnerungen unterstützen sollen. Wenn für ein Tag Beste Antwort aktiviert ist, weise jeder Benutzergruppe, die Antworten festlegen kann (eigene Diskussion, beliebige Diskussion), Berechtigungen zu. Berechtigungen können global (für alle Best-Antwort-anabled-Tags) oder pro Tag zugewiesen werden.\n",
                 "remind_tag_ids": "Um Erinnerungen auf bestimmte Themen zu beschränken, gebe die ID's der Themen hier ein (kommagetrennt)"
             },
             "edit_tag": {
-                "qna_label": "",
-                "reminders": ""
+                "qna_label": "Die Option Beste Antworten aktivieren, um in diesem Tag festgelegt zu werden",
+                "reminders": "Sende Erinnerungen, um eine beste Antwort für Diskussionen in diesem Tag festzulegen"
             }
         },
         "forum": {
@@ -55,19 +55,19 @@
                 }
             },
             "index": {
-                "ask_question": "",
-                "cannot_ask_question": "",
-                "solved_link": "",
-                "unsolved_link": ""
+                "ask_question": "Eine Frage stellen",
+                "cannot_ask_question": "Kann keine Frage stellen",
+                "solved_link": "Gelöste Diskussionen",
+                "unsolved_link": "Ungelöste Diskussionen"
             },
             "filter": {
-                "all_label": "",
-                "solved_label": "",
-                "unsolved_label": "",
-                "accessible_label": ""
+                "all_label": "Alle Fragen",
+                "solved_label": "Gelöste Fragen",
+                "unsolved_label": "Ungelöste Fragen",
+                "accessible_label": "Gelöste/Ungelöste Auswahl"
             },
             "composer": {
-                "titlePlaceholder": ""
+                "titlePlaceholder": "Titel der Frage"
             }
         },
         "email": {
