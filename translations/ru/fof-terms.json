@@ -6,26 +6,26 @@
                 "field": {
                     "signup-legal-text": "",
                     "hide-updated-at": "",
-                    "date-format": "",
-                    "date-format-help": ""
+                    "date-format": "Формат даты",
+                    "date-format-help": "Вы можете использовать любой действительный формат из <a>Day.js</a> . Оставьте это поле пустым для значения по умолчанию."
                 }
             },
             "titles": {
-                "policies": ""
+                "policies": "Политики"
             },
             "buttons": {
-                "new-policy": "",
-                "edit-policy": "",
-                "add-policy": "",
-                "save-policy": "",
-                "delete-policy": "",
-                "set-to-now": ""
+                "new-policy": "Новая политика",
+                "edit-policy": "Править политику",
+                "add-policy": "Добавить политику",
+                "save-policy": "Сохранить политику",
+                "delete-policy": "Удалить политику",
+                "set-to-now": "Установить на \"сейчас\""
             },
             "messages": {
                 "delete-policy-confirmation": ""
             },
             "policies": {
-                "name": "",
+                "name": "Имя",
                 "name-help": "",
                 "url": "",
                 "url-help": "",
@@ -38,36 +38,36 @@
                 "export-url-help": ""
             },
             "permissions": {
-                "see-user-policies-state": "",
+                "see-user-policies-state": "Просмотр состояния политик пользователя",
                 "postpone-policies-accept": "",
-                "export-policies": ""
+                "export-policies": "Экспорт всех данных пользователей и политик"
             }
         },
         "forum": {
             "signup": {
-                "i-accept": "",
-                "must-accept": ""
+                "i-accept": "Я принимаю <a>{policy}</a>",
+                "must-accept": "{policy} должна быть принята."
             },
             "accept-modal": {
-                "title": "",
-                "updated-at": "",
-                "updated-recently": "",
-                "i-accept": "",
-                "accept": "",
-                "close": ""
+                "title": "Обновление условий",
+                "updated-at": "Условия были обновлены {date}",
+                "updated-recently": "Условия были обновлены с последней даты вашего посещения",
+                "i-accept": "Я принимаю новую  <a>{policy}</a>",
+                "accept": "Подтвердить",
+                "close": "Спасибо за принятие, теперь вы можете вернуться на форум"
             },
             "state-modal": {
-                "title": "",
-                "accepted-at": "",
-                "not-accepted": ""
+                "title": "Состояние принятия условий пользователем {username}",
+                "accepted-at": "Принято {date}",
+                "not-accepted": "Не принято"
             },
             "update-alert": {
-                "must-accept-message": "",
-                "can-accept-message": "",
-                "review": ""
+                "must-accept-message": "Доступ к вашей учетной записи был временно ограничен до ознакомления и принятия новых условий.",
+                "can-accept-message": "Условия были недавно обновлены. Вы должны принять их для продолжения пользования этим сайтом.",
+                "review": "Щелкните здесь для просмотра и принятия новых условий"
             },
             "user_controls": {
-                "state_button": ""
+                "state_button": "Состояние принятия условий"
             }
         }
     }
