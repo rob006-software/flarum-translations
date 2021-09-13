@@ -8,18 +8,18 @@
                     "admin_on_canonical": "Truy cập bảng quản trị thông qua URL chuẩn",
                     "enable_temporary": "Bật chuyển hướng tạm thời và kiểm tra mọi thứ hoạt động",
                     "enable_permanent": "Bật chuyển hướng vĩnh viễn",
-                    "suggestions": "",
-                    "use_https": "",
-                    "use_hsts": ""
+                    "suggestions": "Các đề xuất khác mà tiện ích mở rộng này không thực thi hoặc bao gồm",
+                    "use_https": "Sử dụng URL chuẩn HTTPS",
+                    "use_hsts": "Sử dụng HSTS để ngăn chặn các cuộc tấn công hạ cấp"
                 },
                 "field": {
-                    "status": "",
-                    "wrong_url": ""
+                    "status": "Loại chuyển hướng",
+                    "wrong_url": "Cài đặt tiện ích mở rộng sẽ xuất hiện khi bạn truy cập diễn đàn của mình qua URL chuẩn"
                 },
                 "option": {
-                    "disabled": "",
-                    "302": "",
-                    "301": ""
+                    "disabled": "Đã tắt (tiện ích mở rộng sẽ không thực hiện bất kỳ điều gì)",
+                    "302": "302 (Chuyển hướng tạm thời, để thử nghiệm)",
+                    "301": "301 (Chuyển hướng vĩnh viễn, dành cho sản xuất)"
                 }
             }
         }
