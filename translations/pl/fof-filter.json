@@ -7,13 +7,13 @@
         },
         "admin": {
             "title": "Filtrowanie",
-            "bad_words_help": "",
+            "bad_words_help": "Podaj ciągi znaków do odfiltrowania, po jednym na wiersz. Jeśli post zawiera któryś z podanych ciągów, post zostanie oznaczony do zatwierdzenia przez moderację. Odporne na 133t.",
             "help2": "Przedział czasu (w minutach), w którym następujące po sobie posty napisane przez tego samego użytkownika zostaną scalone.",
             "email_help": "Treść wiadomości e-mail po odfiltrowaniu posta. Akceptuje zarówno HTML jak i czysty tekst.",
             "filter_label": "Ciągi znaków do odfiltrowania",
             "countLabel": "Poziom tolerancji cenzora",
             "cooldownLabel": "Scalanie postów",
-            "auto_merge_title": "",
+            "auto_merge_title": "Automatyczne scalanie",
             "input": {
                 "placeholder": "Ciągi znaków do odfiltrowania",
                 "filter_title": "Ciągi znaków do odfiltrowania",
@@ -30,7 +30,7 @@
                 "desc": "Odfiltruj posty z niedowolnymi słowami."
             },
             "permission": {
-                "bypass_filter_label": ""
+                "bypass_filter_label": "Pomijanie filtra słów"
             },
             "email": {
                 "default_subject": "Odnośnie Twojego ostatniego posta...",
