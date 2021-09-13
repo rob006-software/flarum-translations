@@ -1,40 +1,40 @@
 {
     "fof-nightmode": {
         "ref": {
-            "auto": "",
-            "light": "",
-            "dark": ""
+            "auto": "Автоматический (на основе настроек браузера или устройства)",
+            "light": "Дневной режим",
+            "dark": "Ночной режим"
         },
         "admin": {
             "settings": {
                 "modal": {
-                    "default_theme": "",
-                    "default_theme_helper": "",
-                    "theme_auto": "",
-                    "theme_light": "",
-                    "theme_dark": ""
+                    "default_theme": "Тема форума по умолчанию",
+                    "default_theme_helper": "Тема по умолчанию автоматически устанавливается для новых пользователей, гостей и тех, кто не установил желаемые настройки.",
+                    "theme_auto": "=> fof-nightmode.ref.auto",
+                    "theme_light": "=> fof-nightmode.ref.light",
+                    "theme_dark": "=> fof-nightmode.ref.dark"
                 }
             }
         },
         "forum": {
-            "day": "",
-            "night": "",
+            "day": "=> fof-nightmode.ref.light",
+            "night": "=> fof-nightmode.ref.dark",
             "user": {
                 "settings": {
-                    "heading": "",
-                    "description": "",
-                    "description2": "",
-                    "device_specific_setting_checkbox": "",
-                    "device_specific_setting_checkbox_tooltip": "",
+                    "heading": "Тема",
+                    "description": "Выберите цветовую тему, которую вы хотите использовать на форуме.",
+                    "description2": "Эта тема будет привязана к вашему аккаунту и применена ко всем вашим устройствам, пока вы не переключите тумблер ниже для перехода к настройкам по каждому устройству отдельно.",
+                    "device_specific_setting_checkbox": "Использовать отдельные настройки для устройств",
+                    "device_specific_setting_checkbox_tooltip": "Ваш выбор темы будет сохранен отдельно для каждого вашего устройства.",
                     "options": {
-                        "auto": "",
-                        "day": "",
-                        "night": ""
+                        "auto": "=> fof-nightmode.ref.auto",
+                        "day": "=> fof-nightmode.ref.light",
+                        "night": "=> fof-nightmode.ref.dark"
                     },
                     "option_descriptions": {
-                        "auto": "",
-                        "day": "",
-                        "night": ""
+                        "auto": "Ваша тема будет автоматически выбрана на основе настроек браузера или устройства. Например, если вы установите в iOS Темный режим, форум также будет отображаться в темной теме.",
+                        "day": "Классический выбор, к которому вы привыкли. Любимый и проверенный.",
+                        "night": "Вы чуточку сова! Вы смотрите форум ночью, когда спят птички и охотятся лисы. Ну или вы просто любите тёмные цвета!"
                     }
                 }
             }
