@@ -18,11 +18,11 @@
                     "piwikPrependDomain": "",
                     "piwikHideAliasUrl": "",
                     "piwikAliasUrl": "",
-                    "piwikTrackAccounts": "",
-                    "piwikAuthToken": ""
+                    "piwikTrackAccounts": "Отслеживать отдельные пользовательские аккаунты",
+                    "piwikAuthToken": "Ключ аутентификации"
                 },
                 "placeholder": {
-                    "piwikAuthToken": ""
+                    "piwikAuthToken": "Заполните этот ключ для включения виджета статистики Matomo в административной панели.\nВы можете найти его здесь: Настройки > Личные > Ключ API аутентификации.\n"
                 },
                 "trackAccounts": {
                     "none": "Не отслеживать",
