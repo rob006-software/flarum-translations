@@ -2,175 +2,175 @@
     "datitisev-backup": {
         "admin": {
             "adapters": {
-                "local": "",
-                "aliyun": "",
-                "azure": "",
-                "aws": "",
-                "dospaces": "",
-                "dropbox": "",
-                "gdrive": "",
-                "ftp": "",
-                "gridfs": "",
-                "rackspace": "",
-                "sftp": "",
-                "webdav": "",
-                "zip": ""
+                "local": "Lokaler Speicher",
+                "aliyun": "Alibaba-Cloud (Aliyun)",
+                "azure": "Microsoft Azure",
+                "aws": "Amazon AWS S3",
+                "dospaces": "Digital Ocean Spaces",
+                "dropbox": "Dropbox",
+                "gdrive": "Google Drive",
+                "ftp": "FTP",
+                "gridfs": "GridFS",
+                "rackspace": "Rackspace",
+                "sftp": "SFTP",
+                "webdav": "Webdav",
+                "zip": "Zip-Archiv"
             },
-            "settings_button": "",
-            "required_package_button": "",
+            "settings_button": "Konfigurieren",
+            "required_package_button": "Einrichten",
             "you-need-for": {
-                "aliyun": "",
-                "azure": "",
-                "aws": "",
-                "copy": "",
-                "dospaces": "",
-                "dropbox": "",
-                "gdrive": "",
-                "gridfs": "",
-                "rackspace": "",
-                "sftp": "",
-                "webdav": ""
+                "aliyun": "aliyuncs/aliyun-oss-flysystem",
+                "azure": "league/flysystem-azure",
+                "aws": "league/flysystem-aws-s3-v3",
+                "copy": "league/flysystem-copy",
+                "dospaces": "league/flysystem-aws-s3-v3",
+                "dropbox": "spatie/flysystem-dropbox",
+                "gdrive": "nao-pon/flysystem-google-drive",
+                "gridfs": "league/flysystem-gridfs",
+                "rackspace": "league/flysystem-rackspace",
+                "sftp": "league/flysystem-sftp",
+                "webdav": "league/flysystem-webdav"
             },
             "required-package-modal": {
-                "title": "",
-                "content": ""
+                "title": "Für {adapter} wird ein Paket benötigt",
+                "content": "Um diesen Treiber verwenden zu können, musst Du ein bestimmtes Paket installieren. Führe dazu den folgenden Composer-Befehl in deinem Flarum-Installationsverzeichnis aus: <code>composer require {package}</code>.\n"
             },
             "adapter-settings-modal": {
-                "title": "",
+                "title": "{adapter} konfigurieren",
                 "local": {
                     "target": {
-                        "label": "",
-                        "description": ""
+                        "label": "Zielpfad",
+                        "description": "Gebe das lokale Verzeichnis an, in dem Backups gespeichert werden sollen."
                     }
                 },
                 "aliyun": {
                     "endpoint": {
-                        "label": "",
-                        "description": ""
+                        "label": "Endpunkt",
+                        "description": "Die URL zu Deinem Speicherendpunkt."
                     },
                     "access-id": {
-                        "label": "",
-                        "description": ""
+                        "label": "Zugangs-ID",
+                        "description": "Deine Authentifizierungs-Zugriffstoken-ID"
                     },
                     "access-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "Zugangsschlüssel",
+                        "description": "Dein Authentifizierungs-Zugriffstoken-Schlüssel"
                     },
                     "bucket": {
-                        "label": "",
-                        "description": ""
+                        "label": "Bucket",
+                        "description": "Der zu verwendende Speicher-Bucket."
                     },
                     "path-prefix": {
-                        "label": "",
-                        "description": ""
+                        "label": "Pfadpräfix",
+                        "description": "Optionales Standardpfadpräfix für die Dateien."
                     }
                 },
                 "azure": {
                     "endpoint": {
-                        "label": "",
-                        "description": ""
+                        "label": "Entpunkt",
+                        "description": "Die URL zu Ihrem Speicherendpunkt."
                     },
                     "container": {
-                        "label": "",
-                        "description": ""
+                        "label": "Container",
+                        "description": "Azure-Container"
                     }
                 },
                 "aws": {
                     "credentials": {
                         "key": {
-                            "label": "",
-                            "description": ""
+                            "label": "Schlüssel",
+                            "description": "AWS-Anmeldeinformationen-Schlüssel"
                         },
                         "secret": {
-                            "label": "",
-                            "description": ""
+                            "label": "Secret",
+                            "description": "AWS-Anmeldeinformationen Secret"
                         }
                     },
                     "region": {
-                        "label": "",
-                        "description": ""
+                        "label": "Region",
+                        "description": "Region Deines Buckets."
                     },
                     "version": {
-                        "label": "",
-                        "description": ""
+                        "label": "Version",
+                        "description": "Gebe eine Version an oder lasse das Feld für latest leer."
                     },
                     "bucket": {
-                        "label": "",
-                        "description": ""
+                        "label": "Bucket",
+                        "description": "S3-Bucket zum Hochladen."
                     },
                     "path-prefix": {
-                        "label": "",
-                        "description": ""
+                        "label": "Pfadpräfix",
+                        "description": "Optionales Standardpfadpräfix für die Dateien."
                     }
                 },
                 "dropbox": {
                     "access-token": {
-                        "label": "",
-                        "description": ""
+                        "label": "Zugangstoken",
+                        "description": "Generiere ein oAuth 2-Zugriffstoken @https://www.dropbox.com/developers/apps."
                     }
                 },
                 "gdrive": {
                     "client": {
                         "id": {
-                            "label": "",
-                            "description": ""
+                            "label": "Client ID",
+                            "description": "Folge den Anweisungen @https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md, um ein Google-Projekt zu erstellen, Deine Client-ID und Dein Client-Geheimnis abzurufen.\n"
                         },
                         "secret": {
-                            "label": "",
-                            "description": ""
+                            "label": "Client-Secret",
+                            "description": " "
                         }
                     },
                     "refresh-token": {
-                        "label": "",
-                        "description": ""
+                        "label": "Token aktualisieren",
+                        "description": "Folgen Sie den Anweisungen @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md, um das Aktualisierungstoken für Ihre Google oAuth-App abzurufen.\n"
                     },
                     "folder": {
-                        "label": "",
-                        "description": ""
+                        "label": "Ordner-ID",
+                        "description": "https://drive.google.com/drive/u/0/folders/ID"
                     }
                 },
                 "ftp": {
                     "host": {
-                        "label": "",
-                        "description": ""
+                        "label": "Remote-Hostname",
+                        "description": "Der Hostname, zu dem Du dich mit FTP verbinden möchtest, zB: <em>ftp.yourdomain.local</em>."
                     },
                     "username": {
-                        "label": "",
-                        "description": ""
+                        "label": "Benutzername",
+                        "description": "Der Benutzername für die Authentifizierung auf dem FTP-Server."
                     },
                     "password": {
-                        "label": "",
-                        "description": ""
+                        "label": "Passwort",
+                        "description": "Das Benutzerkennwort für die Authentifizierung auf dem FTP-Server."
                     },
                     "private-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "Privat-Schlüssel",
+                        "description": "Pfad (vorzugsweise absolut) zu einem privaten Schlüssel, der bei der Authentifizierung der FTP-Verbindung verwendet werden soll."
                     },
                     "port": {
-                        "label": "",
-                        "description": ""
+                        "label": "Port",
+                        "description": "Der FTP-Port (standardmäßig 21)."
                     },
                     "root": {
-                        "label": "",
-                        "description": ""
+                        "label": "Root-Pfad",
+                        "description": "Der Remote-Root-Pfad (Unterverzeichnis), in dem Backups gespeichert werden sollen."
                     },
                     "passive": {
-                        "toggle": "",
-                        "description": ""
+                        "toggle": "Passive Verbindung",
+                        "description": "Ob eine passive FTP-Verbindung zum Server verwendet werden soll."
                     },
                     "ssl": {
-                        "toggle": "",
-                        "description": ""
+                        "toggle": "SSL",
+                        "description": "Ob eine verschlüsselte SSL-Verbindung zum Server verwendet werden soll."
                     },
                     "timeout": {
-                        "label": "",
-                        "description": ""
+                        "label": "Zeitüberschreitung",
+                        "description": "Die Anzahl der Sekunden, die auf eine Verbindung mit dem FTP-Server gewartet wird."
                     }
                 }
             },
             "nav": {
-                "label": "",
-                "description": ""
+                "label": "Backup",
+                "description": "Speicher Kopien Deines Forums."
             }
         }
     }
