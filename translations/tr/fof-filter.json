@@ -7,13 +7,13 @@
         },
         "admin": {
             "title": "Filtre",
-            "bad_words_help": "",
+            "bad_words_help": "Her satırda bir tane olacak şekilde filtrelenecek metin veya sözcükleri girin. Bir kullanıcının gönderisinin içeriği filtrelemek istediğiniz bir dize içeriyorsa, onay için işaretlenir. 133t'ye karşı dayanıklıdır.",
             "help2": "Peş peşe atılan gönderilerin birleştirilmesi dakika cinsinden belirlenmelidir",
             "email_help": "İşaretlenmiş e-posta içeriği. HTML ve düz metin geçerlidir.",
             "filter_label": "Filtrelenecek kelimeler",
             "countLabel": "Sansür Toleransı",
             "cooldownLabel": "Peş peşe birleştirme süresi",
-            "auto_merge_title": "",
+            "auto_merge_title": "Otomatik birleştir",
             "input": {
                 "placeholder": "Filtrelenecek kelimeler",
                 "filter_title": "Kelime Filtreleme",
@@ -30,7 +30,7 @@
                 "desc": "Gönderileri kelimelere göre filtrele"
             },
             "permission": {
-                "bypass_filter_label": ""
+                "bypass_filter_label": "Kelime filtrelerini atla"
             },
             "email": {
                 "default_subject": "Son Gönderiniz Hakkında",
