@@ -2,16 +2,27 @@
     "fof-stopforumspam": {
         "admin": {
             "settings": {
-                "title": "FoF フォーラムスパムブロッカー",
+                "introduction": "",
                 "username_label": "ユーザー名の確認",
                 "ip_label": "IP アドレスチェック",
                 "email_label": "メールアドレスチェック",
                 "frequency_label": "しきい値",
-                "frequency_text": "スパムフィルタリングをトリガーした検査レポートの数。",
-                "frequency_example_text": "例：メールボックスチェックで1ヒット、IPチェックで2ヒットの場合、合計は3です。 しきい値が3以下に設定されている場合、登録は無効になります。",
+                "frequency_help": "",
                 "api_key_label": "API キー",
                 "api_key_text": "fof/spamblock を有効にする必要があります。これで、スパマーを StopForumSpam に送信して、スパム攻撃からコミュニティを支援できます。",
-                "api_key_instructions_text": "<register>StopForumSpam の登録</register>，その後、<key>API キーをリクエスト</key>できます。"
+                "api_key_instructions_text": "<register>StopForumSpam の登録</register>，その後、<key>API キーをリクエスト</key>できます。",
+                "regional_endpoint_label": "",
+                "regional_endpoint_help": "",
+                "region_closest_label": "",
+                "region_europe_label": "",
+                "region_us_label": "",
+                "confidence_label": "",
+                "confidence_help": "",
+                "email_hash_label": "",
+                "email_hash_help": "",
+                "title": "FoF フォーラムスパムブロッカー",
+                "frequency_text": "スパムフィルタリングをトリガーした検査レポートの数。",
+                "frequency_example_text": "例：メールボックスチェックで1ヒット、IPチェックで2ヒットの場合、合計は3です。 しきい値が3以下に設定されている場合、登録は無効になります。"
             }
         },
         "forum": {

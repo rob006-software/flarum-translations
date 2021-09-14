@@ -2,16 +2,27 @@
     "fof-stopforumspam": {
         "admin": {
             "settings": {
-                "title": "",
+                "introduction": "",
                 "username_label": "Спам-проверка по имени пользователя",
                 "ip_label": "Спам-проверка по IP-адресу",
                 "email_label": "Спам-проверка по эл.почте",
                 "frequency_label": "Порог",
-                "frequency_text": "",
-                "frequency_example_text": "",
+                "frequency_help": "",
                 "api_key_label": "",
                 "api_key_text": "",
-                "api_key_instructions_text": ""
+                "api_key_instructions_text": "",
+                "regional_endpoint_label": "",
+                "regional_endpoint_help": "",
+                "region_closest_label": "",
+                "region_europe_label": "",
+                "region_us_label": "",
+                "confidence_label": "",
+                "confidence_help": "",
+                "email_hash_label": "",
+                "email_hash_help": "",
+                "title": "",
+                "frequency_text": "",
+                "frequency_example_text": ""
             }
         },
         "forum": {

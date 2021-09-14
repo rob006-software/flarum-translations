@@ -2,16 +2,27 @@
     "fof-stopforumspam": {
         "admin": {
             "settings": {
-                "title": "FriendsOfFlarum Stop Forum Spam",
+                "introduction": "",
                 "username_label": "Sprawdzaj nazwę użytkownika",
                 "ip_label": "Sprawdzaj adres IP",
                 "email_label": "Sprawdzaj adres e-mail",
                 "frequency_label": "Próg",
-                "frequency_text": "Liczba zgłoszeń spamu dla wszystkich sprawdzanych pozycji, której przekroczenie aktywuje filtr spamu.",
-                "frequency_example_text": "Na przykład: jeśli adres e-mail ma 1 zgłoszenie, a adres IP ma 2 zgłoszenia, w sumie da to 3 zgłoszenia. Jeśli próg to 3 lub mniej, rejestracja będzie niemożliwa.",
+                "frequency_help": "",
                 "api_key_label": "Klucz API",
                 "api_key_text": "Masz włączone rozszerzenie <code>fof/spamblock</code>, teraz możesz zgłaszać spamerów do StopForumSpam, aby pomagać też innym społecznościom walczyć ze spamem.",
-                "api_key_instructions_text": "<register>Zarejestruj się na StopForumSpam</register>. Następnie musisz <key>uzyskać klucz API</key>."
+                "api_key_instructions_text": "<register>Zarejestruj się na StopForumSpam</register>. Następnie musisz <key>uzyskać klucz API</key>.",
+                "regional_endpoint_label": "",
+                "regional_endpoint_help": "",
+                "region_closest_label": "",
+                "region_europe_label": "",
+                "region_us_label": "",
+                "confidence_label": "",
+                "confidence_help": "",
+                "email_hash_label": "",
+                "email_hash_help": "",
+                "title": "FriendsOfFlarum Stop Forum Spam",
+                "frequency_text": "Liczba zgłoszeń spamu dla wszystkich sprawdzanych pozycji, której przekroczenie aktywuje filtr spamu.",
+                "frequency_example_text": "Na przykład: jeśli adres e-mail ma 1 zgłoszenie, a adres IP ma 2 zgłoszenia, w sumie da to 3 zgłoszenia. Jeśli próg to 3 lub mniej, rejestracja będzie niemożliwa."
             }
         },
         "forum": {

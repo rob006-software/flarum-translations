@@ -2,16 +2,27 @@
     "fof-stopforumspam": {
         "admin": {
             "settings": {
-                "title": "FriendsOfFlarum Stop Forum Spam",
+                "introduction": "",
                 "username_label": "Kiểm tra spam tên người dùng",
                 "ip_label": "Kiểm tra spam địa chỉ IP",
                 "email_label": "Kiểm tra spam",
                 "frequency_label": "Ngưỡng",
-                "frequency_text": "Số lượng báo cáo spam giữa tất cả các lần kiểm tra đã bật sẽ vượt qua bộ lọc spam.",
-                "frequency_example_text": "Ví dụ: Nếu email có 1 lần truy cập và ip có 2 lần truy cập, tổng cộng sẽ có 3 lần truy cập. Nếu ngưỡng được đặt thành 3 hoặc ít hơn, nó sẽ ngăn cản việc đăng ký.",
+                "frequency_help": "",
                 "api_key_label": "Key API",
                 "api_key_text": "Bạn đã bật fof/spamblock, bây giờ bạn có tùy chọn báo cáo những người gửi spam cho StopForumSpam để giữ cho cộng đồng diễn đàn lớn hơn không bị spam.",
-                "api_key_instructions_text": "<register>Đăng ký StopForumSpam</register>. Sau đó, bạn sẽ cần <key>lấy key API</key>."
+                "api_key_instructions_text": "<register>Đăng ký StopForumSpam</register>. Sau đó, bạn sẽ cần <key>lấy key API</key>.",
+                "regional_endpoint_label": "",
+                "regional_endpoint_help": "",
+                "region_closest_label": "",
+                "region_europe_label": "",
+                "region_us_label": "",
+                "confidence_label": "",
+                "confidence_help": "",
+                "email_hash_label": "",
+                "email_hash_help": "",
+                "title": "FriendsOfFlarum Stop Forum Spam",
+                "frequency_text": "Số lượng báo cáo spam giữa tất cả các lần kiểm tra đã bật sẽ vượt qua bộ lọc spam.",
+                "frequency_example_text": "Ví dụ: Nếu email có 1 lần truy cập và ip có 2 lần truy cập, tổng cộng sẽ có 3 lần truy cập. Nếu ngưỡng được đặt thành 3 hoặc ít hơn, nó sẽ ngăn cản việc đăng ký."
             }
         },
         "forum": {
