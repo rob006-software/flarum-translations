@@ -3,10 +3,10 @@
         "admin": {
             "settings": {
                 "title": "",
-                "username_label": "",
-                "ip_label": "",
-                "email_label": "",
-                "frequency_label": "",
+                "username_label": "Спам-проверка по имени пользователя",
+                "ip_label": "Спам-проверка по IP-адресу",
+                "email_label": "Спам-проверка по эл.почте",
+                "frequency_label": "Порог",
                 "frequency_text": "",
                 "frequency_example_text": "",
                 "api_key_label": "",
@@ -16,7 +16,7 @@
         },
         "forum": {
             "message": {
-                "spam": ""
+                "spam": "Ваши сведения были помечены как спам."
             }
         },
         "api": {
