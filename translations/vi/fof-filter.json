@@ -6,13 +6,13 @@
         },
         "admin": {
             "title": "Bộ lọc",
-            "bad_words_help": "",
+            "bad_words_help": "Nhập chữ hoặc từ để lọc, mỗi từ một dòng. Nếu nội dung bài viết của người dùng chứa chuỗi bạn muốn lọc, thì chuỗi đó sẽ được gắn cờ để phê duyệt. Có khả năng chống chọi 133t.",
             "help2": "Khoảng thời gian tính bằng phút, trong đó các bài đăng từ cùng một người dùng trong cùng một cuộc thảo luận sẽ được tự động hợp nhất.",
             "email_help": "Nội dung của email bị gắn cờ. Chấp nhận html hoặc plaintext.",
             "filter_label": "Các chuỗi để lọc",
             "countLabel": "Kiểm duyệt Tolorance",
             "cooldownLabel": "Hợp nhất thời gian cooldown của bài đăng",
-            "auto_merge_title": "",
+            "auto_merge_title": "Tự động hợp nhất",
             "input": {
                 "placeholder": "Các chuỗi được lọc",
                 "filter_title": "Các chuỗi để lọc",
@@ -29,7 +29,7 @@
                 "desc": "Lọc bài viết theo từ"
             },
             "permission": {
-                "bypass_filter_label": ""
+                "bypass_filter_label": "Bỏ qua bộ lọc từ"
             },
             "email": {
                 "default_subject": "Về bài đăng gần đây của bạn",
