@@ -2,38 +2,38 @@
     "core": {
         "forum": {
             "index_sort": {
-                "popular_button": "",
-                "unpopular_button": ""
+                "popular_button": "ยอดนิยม",
+                "unpopular_button": "ไม่นิยม"
             }
         }
     },
     "michaelbelgium-discussion-views": {
         "forum": {
             "modal_resetviews": {
-                "title": "",
-                "submit_button": "",
-                "label": ""
+                "title": "รีเซ็ตจำนวนการเข้าชม",
+                "submit_button": "ใช่ ลบมันให้หมด",
+                "label": "{count, plural, one {This will remove {count} view of this discussion. Continue?} other {This will remove {count} views of this discussion. Continue?}}"
             },
             "discussion_controls": {
-                "resetviews_button": ""
+                "resetviews_button": "รีเซ็ตจำนวนการเข้าชม"
             },
             "viewlist": {
-                "title": "",
-                "guest": ""
+                "title": "ผู้ชมล่าสุด",
+                "guest": "ผู้เข้าชม"
             }
         },
         "admin": {
             "permissions": {
-                "reset_views_label": "",
-                "view_number_label": ""
+                "reset_views_label": "รีเซ็ตจำนวนการเข้าชม",
+                "view_number_label": "ดูจำนวนการเข้าชม"
             },
             "settings": {
-                "title": "",
-                "track_unique_label": "",
-                "abbr_numbers_label": "",
-                "show_filter_label": "",
-                "max_viewcount_label": "",
-                "show_viewlist_label": ""
+                "title": "ตั้งค่าการนับผู้เข้าชม",
+                "track_unique_label": "นับเพียงครั้งเดียว",
+                "abbr_numbers_label": "ย่อจำนวนนับ",
+                "show_filter_label": "เปิดใช้งานฟิลด์การเรียงลำดับไม่นิยม",
+                "max_viewcount_label": "รายการรับชมสูงสุด",
+                "show_viewlist_label": "เปิดรายการรับชม"
             }
         }
     }
