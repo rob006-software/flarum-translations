@@ -2,26 +2,26 @@
     "sycho-move-posts": {
         "admin": {
             "settings": {
-                "moved_first_post_content": "",
-                "moved_first_post_content_help": "",
-                "group_sequential_posts": ""
+                "moved_first_post_content": "Contenu de la discussion déplacée (premier message)",
+                "moved_first_post_content_help": "Lorsque vous avez une discussion avec un seul message, le déplacement de ce message entraînera la modification du premier message de la discussion initiale pour pointer vers la nouvelle discussion. Vous pouvez modifier le contenu de cette publication ici.\n",
+                "group_sequential_posts": "La publication séquentielle de groupe a déplacé les publications d'événements en une seule."
             },
             "permissions": {
-                "move_posts": ""
+                "move_posts": "=> sycho-move-posts.ref.move_posts"
             }
         },
         "forum": {
             "badge": {
-                "first_moved_tooltip": ""
+                "first_moved_tooltip": "Déplacée"
             },
             "discussion": {
-                "move_posts": ""
+                "move_posts": "=> sycho-move-posts.ref.move_posts"
             },
             "error": {
-                "move_old_post_to_newer_discussion": ""
+                "move_old_post_to_newer_discussion": "=> sycho-move-posts.ref.status.old_to_new_move"
             },
             "modal": {
-                "check": "",
+                "check": "Vérifier le type d'opération",
                 "destination": "",
                 "discussion_help": "",
                 "discussion_name": "",
