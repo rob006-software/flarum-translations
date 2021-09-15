@@ -1,13 +1,13 @@
 {
     "justoverclock-last-users-posts": {
         "admin": {
-            "limit": "",
-            "limit-help": "",
-            "charlength": "",
-            "charlength-help": ""
+            "limit": "Limite de publication (la valeur par défaut est 10 si vous laissez vide)",
+            "limit-help": "écrivez ici le nombre de messages que vous souhaitez afficher",
+            "charlength": "Longueur des caractères (la valeur par défaut est 80 si vide)",
+            "charlength-help": "écrivez ici la longueur maximum du message (caractère)"
         },
         "forum": {
-            "widget-title": ""
+            "widget-title": "Derniers messages"
         }
     }
 }
