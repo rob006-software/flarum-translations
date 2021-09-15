@@ -2,38 +2,38 @@
     "fof-subscribed": {
         "forum": {
             "settings": {
-                "defaults_label": "",
-                "forced_label": "",
-                "notify_discussion_created_label": "",
-                "notify_post_unapproved_label": "",
-                "notify_user_created_label": ""
+                "defaults_label": "ตั้งให้ \"{setting}\" เปิดโดยค่าเริ่มต้น",
+                "forced_label": "บังคับเปิด \"{setting}\" สำหรับทุกคน",
+                "notify_discussion_created_label": "มีใครบางคนสร้างกระทู้",
+                "notify_post_unapproved_label": "สร้างโพสต์จำเป็นต้องได้รับการอนุมัติ",
+                "notify_user_created_label": "เมื่อมีคนสมัครสมาชิก"
             },
             "notifications": {
-                "discussion_created_text": "",
-                "post_unapproved_text": "",
-                "user_created_text": ""
+                "discussion_created_text": "{username} ได้สร้างกระทู้ใหม่",
+                "post_unapproved_text": "{username} ได้สร้างโพสต์เเต่ต้องได้รับอนุมัติก่อน",
+                "user_created_text": "{username} เพิ่งเข้าเข้าสู่ระบบ"
             }
         },
         "admin": {
             "menu": {
-                "description": ""
+                "description": "กำหนดค่า (ค่าเริ่มต้น) การรับสมัครสมาชิกสมาชิก"
             },
             "permission": {
-                "subscribe_to_discussion_created": "",
-                "subscribe_to_post_unapproved": "",
-                "subscribe_to_user_created": ""
+                "subscribe_to_discussion_created": "อนุญาติให้รับการเเจ้งเตือนเมื่อมรกระทู้ใหม่",
+                "subscribe_to_post_unapproved": "อนุญาตเให้รับการเเจ้งเตือนเมื่อมีโพสต์ที่ยังไม่ได้อนุมัติ",
+                "subscribe_to_user_created": "อนุญาติให้รับการเเจ้งเตือนเมื่อมีผู้ใช้ใหม่"
             }
         },
         "email": {
             "subject": {
-                "newDiscussion": "",
-                "newUser": "",
-                "postUnapproved": ""
+                "newDiscussion": "[การรับสมัครข้อมูล | กระทู้ใหม่] {title}",
+                "newUser": "[การรับสมัครข้อมูล | ผู้ใช้ใหม่] {username}",
+                "postUnapproved": "[การรับสมัครข้อมูล | ยังไม่อนุมัติ] {username} ได้โพสต์ใน {title}"
             },
             "body": {
-                "newDiscussion": "",
-                "newUser": "",
-                "postUnapproved": ""
+                "newDiscussion": "สวัสดี! {recipient_display_name},\n\n{actor_display_name} ได้สร้างกระทู้ใหม่: {discussion_title}\n\nเพื่อดูกระทู้ใหม่นี้โปรดคลิกลิ้งข้างล่าง:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newUser": "สวัสดี! {recipient_display_name},\n\n{actor_display_name} เพิ่งเข้าร่วม {forum_url}.\n\nเพื่อดูโปรไฟล์ผู้ใช้ใหม่นี้โปรดคลิกลิ้งข้างล่าง:\n{user_url}\n",
+                "postUnapproved": "สวัสดี! {recipient_display_name},\n\n{actor_display_name} ได้สร้างโพสต์เเต่ยังไม่ได้รับการอนุมัติ: {discussion_title}\n\nเพื่อดูโพสต์นี้โปรดคลิกลิ้งข้างล่าง:\n{post_url}\n\n---\n\n{post_content}\n"
             }
         }
     }
