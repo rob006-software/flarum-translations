@@ -428,7 +428,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/username-request/1.0.0/resources/locale/en.yml',
 	],
 	'fof-webhooks' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/webhooks/1.0.4/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/webhooks/1.0.5/resources/locale/en.yml',
 	],
 	'glowingblue-password-strength' => [
 		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-password-strength/3.0.0/locale/en.yml',
