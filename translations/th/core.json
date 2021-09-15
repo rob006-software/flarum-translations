@@ -2,7 +2,7 @@
     "core": {
         "admin": {
             "appearance": {
-                "colored_header_label": "Colored Header",
+                "colored_header_label": "สีส่วนหัว",
                 "colors_heading": "สี",
                 "colors_text": "เลือกสองสีสำหรับฟอรั่มขอบคุณ สีเเรกสำหรับไฮไลต์เเละสีที่สองจะใช้สำหรับองค์ประกอบต่างๆ เเละ Background",
                 "custom_footer_heading": "กำหนดส่วนท้ายเอง",
@@ -76,54 +76,54 @@
                 "title": "=> core.ref.custom_header_title"
             },
             "email": {
-                "addresses_heading": "Addresses",
-                "description": "Configure the driver, settings and addresses your forum will use to send email.",
-                "driver_heading": "Choose a Driver",
-                "driver_label": "Driver",
-                "from_label": "Sender",
-                "mail_encryption_label": "Encryption",
-                "mail_host_label": "Host",
-                "mail_mailgun_domain_label": "Domain",
-                "mail_mailgun_region_label": "Region",
-                "mail_mailgun_secret_label": "Secret key",
+                "addresses_heading": "ที่อยู่อีเมล์",
+                "description": "กำหนดค่าไดร์ฟที่ต้องการใช้ส่ง, ตั้งค่าเเละที่อยู่อีเมล์สำหรับฟอรั่มเพิ่งใช้ในการส่งอีเมล์ของคุณ",
+                "driver_heading": "เลือกไดร์ฟ",
+                "driver_label": "ไดร์ฟ",
+                "from_label": "ผู้ส่ง",
+                "mail_encryption_label": "การเข้าหรัส",
+                "mail_host_label": "โฮสต์",
+                "mail_mailgun_domain_label": "โดเมน",
+                "mail_mailgun_region_label": "ภูมิภาค",
+                "mail_mailgun_secret_label": "คีย์ลับ",
                 "mail_password_label": "=> core.ref.password",
-                "mail_port_label": "Port",
+                "mail_port_label": "พอร์ต",
                 "mail_username_label": "=> core.ref.username",
-                "mailgun_heading": "Mailgun Settings",
-                "not_sending_message": "Flarum currently does not send emails. This can be due to the selected driver, or errors in its configuration.",
-                "send_test_mail_button": "Send",
-                "send_test_mail_heading": "Send Test Mail",
-                "send_test_mail_success": "Test mail sent successfully!",
-                "send_test_mail_text": "This will send an email using the above configuration to your email, {email}.",
-                "smtp_heading": "SMTP Settings",
+                "mailgun_heading": "ตั้งค่า Mailgun",
+                "not_sending_message": "Flarum ไม่ได้ส่งอีเมล์ เเต่สามารถเลือกไดร์ฟอื่นหรือเกิดจากความผิดพลาดที่การกำหนดค่า",
+                "send_test_mail_button": "ส่ง",
+                "send_test_mail_heading": "ส่งเมล์ทดสอบ",
+                "send_test_mail_success": "ส่งเมล์ทดสอบเรียบร้อยเเล้ว",
+                "send_test_mail_text": "เราจะใช้การกำหนดค่าตามข้างต้นสำหรับอีเมล์ฟอรั่มของคุณ {email}",
+                "smtp_heading": "ตั้งค่า SMTP",
                 "title": "=> core.ref.email"
             },
             "extension": {
-                "configure_scopes": "Configure Scopes",
-                "confirm_uninstall": "Uninstalling will remove all database entries and assets related to the extension. Are you sure you want to continue?",
-                "disabled": "Disabled",
-                "enable_to_see": "Enable the extension to view and change settings.",
-                "enabled": "Enabled",
+                "configure_scopes": "กำหนดขอบเขต",
+                "confirm_uninstall": "กำลังถอนการติดตั้งทั้งฐานข้อมูลเเละข้อมูลอื่นๆ รวมถึงส่วนเสริมคุณเเน่ใจไหม?",
+                "disabled": "ปิดใช้งาน",
+                "enable_to_see": "เปิดใช้งานส่วนเสริมเพื่อดูเเละเเก้ไขการตั้งค่า",
+                "enabled": "เปิดใช้งาน",
                 "info_links": {
-                    "discuss": "Discuss",
-                    "documentation": "Documentation",
-                    "donate": "Donate",
-                    "source": "Source",
-                    "support": "Support",
-                    "website": "Website"
+                    "discuss": "กระทู้",
+                    "documentation": "เอกสาร",
+                    "donate": "บริจาก",
+                    "source": "ที่มา",
+                    "support": "สนับสนุน",
+                    "website": "เว็บไซต์"
                 },
-                "no_permissions": "This extension has no permissions.",
-                "no_settings": "This extension has no settings.",
-                "open_modal": "Open Settings",
-                "permissions_title": "Permissions",
-                "uninstall_button": "Uninstall"
+                "no_permissions": "ส่วนเสริมนี้ไม่มีการอนุญาติ",
+                "no_settings": "ส่วนเสริมนี้ไม่มีการตั้งค่า",
+                "open_modal": "เปิดการตั้งค่า",
+                "permissions_title": "การอนุญาติ",
+                "uninstall_button": "ถอนการติดตั้ง"
             },
             "header": {
-                "get_help": "Get Help",
+                "get_help": "รับความช่วยเหลือ",
                 "log_out_button": "=> core.ref.log_out"
             },
             "loading": {
-                "title": "Please Wait..."
+                "title": "กรุณารอสักครู่…"
             },
             "nav": {
                 "appearance_button": "=> core.admin.appearance.title",
@@ -131,15 +131,15 @@
                 "basics_button": "=> core.admin.basics.title",
                 "basics_title": "=> core.admin.basics.description",
                 "categories": {
-                    "authentication": "Authentication",
-                    "core": "Core Configuration",
-                    "discussion": "Discussion",
-                    "feature": "Features",
-                    "formatting": "Formatting",
-                    "language": "Languages",
-                    "moderation": "Moderation",
-                    "other": "Other Extensions",
-                    "theme": "Themes"
+                    "authentication": "การรับรอง",
+                    "core": "การตั้งค่าหลัก",
+                    "discussion": "กระทู้",
+                    "feature": "ฟีเจอร์",
+                    "formatting": "กำลังจัดเก็บช้อมูล",
+                    "language": "ภาษา",
+                    "moderation": "การดูเเล",
+                    "other": "ส่วนเสริมอื่นๆ",
+                    "theme": "ธีม"
                 },
                 "dashboard_button": "=> core.admin.dashboard.title",
                 "dashboard_title": "=> core.admin.dashboard.description",
@@ -149,47 +149,47 @@
                 "permissions_title": "=> core.admin.permissions.description",
                 "userlist_button": "=> core.admin.users.title",
                 "userlist_title": "=> core.admin.users.description",
-                "search_placeholder": "Search Extensions"
+                "search_placeholder": "ค้นหาส่วนเสริม"
             },
             "permissions": {
-                "allow_post_editing_label": "Allow post editing",
-                "allow_renaming_label": "Allow renaming",
-                "create_heading": "Create",
-                "delete_discussions_forever_label": "Delete discussions forever",
-                "delete_discussions_label": "Delete discussions",
-                "delete_posts_forever_label": "Delete posts forever",
-                "delete_posts_label": "Delete posts",
-                "description": "Configure who can see and do what.",
-                "edit_posts_label": "Edit posts",
-                "edit_users_label": "Edit user attributes",
-                "edit_users_credentials_label": "Edit user credentials",
-                "edit_users_groups_label": "Edit user groups",
-                "global_heading": "Global",
-                "moderate_heading": "Moderate",
-                "new_group_button": "New Group",
-                "participate_heading": "Participate",
-                "post_without_throttle_label": "Reply multiple times without waiting",
-                "read_heading": "Read",
-                "rename_discussions_label": "Rename discussions",
-                "reply_to_discussions_label": "Reply to discussions",
-                "search_users_label": "Search users",
-                "sign_up_label": "Sign up",
-                "start_discussions_label": "Start discussions",
-                "title": "Permissions",
-                "view_forum_label": "View forum (discussions and users)",
-                "view_hidden_groups_label": "View hidden group badges",
-                "view_last_seen_at_label": "Always view user last seen time",
-                "view_post_ips_label": "View post IP addresses"
+                "allow_post_editing_label": "อนุญาติเเก้ไขโพสต์",
+                "allow_renaming_label": "อนุญาติเปลี่ยนชื่อกระทู้",
+                "create_heading": "สร้าง",
+                "delete_discussions_forever_label": "ลบกระทู้ถาวร",
+                "delete_discussions_label": "ลบกระทู้",
+                "delete_posts_forever_label": "ลบโพสต์ถาวร",
+                "delete_posts_label": "ลบโพสต์",
+                "description": "กำหนดค่าใครสามารถเห็นเเละทำอะไร",
+                "edit_posts_label": "เเก้ไขโพสต์",
+                "edit_users_label": "เเก้ไขค่าของผู้ใช้",
+                "edit_users_credentials_label": "เเก้ไขการรับรองของผู้ใช้",
+                "edit_users_groups_label": "เเก้ไขกลุ่มผู้ใช้",
+                "global_heading": "ทั้งหมด",
+                "moderate_heading": "การดูเเล",
+                "new_group_button": "กลุ่มใหม่",
+                "participate_heading": "การมีส่วนร่วม",
+                "post_without_throttle_label": "ตอบกลับกี่ครั้งก็ได้โดยไม่ต้องรอ",
+                "read_heading": "อ่าน",
+                "rename_discussions_label": "เปลี่ยนชื่อกระทู้",
+                "reply_to_discussions_label": "ตอบกลับกระทู้",
+                "search_users_label": "ค้นหาผู้ใช้",
+                "sign_up_label": "เข้าสู่ระบบ",
+                "start_discussions_label": "ตั้งกระทู้",
+                "title": "การอนุญาติ",
+                "view_forum_label": "ดูฟอรั่ม (ผู้ใช้เเละกระทู้)",
+                "view_hidden_groups_label": "ดูกลุ่มที่ถูกซ่อน",
+                "view_last_seen_at_label": "สามารถเห็นการใช้งานล่าสุดได้เสมอ",
+                "view_post_ips_label": "ดูที่อยู่ไอพีของโพสต์"
             },
             "permissions_controls": {
-                "allow_indefinitely_button": "Indefinitely",
-                "allow_some_minutes_button": "{count, plural, one {For # minute} other {For # minutes}}",
-                "allow_ten_minutes_button": "For 10 minutes",
-                "allow_until_reply_button": "Until next reply",
-                "everyone_button": "Everyone",
+                "allow_indefinitely_button": "ตลอดการ",
+                "allow_some_minutes_button": "{count, plural, one {สำหรับ # minute} เเละอื่นๆ {สำหรับ # minutes}}",
+                "allow_ten_minutes_button": "ใน 10 นาที",
+                "allow_until_reply_button": "จนกว่าจะมีการตอบกลับ",
+                "everyone_button": "ทุกคน",
                 "members_button": "=> core.group.members",
-                "signup_closed_button": "Closed",
-                "signup_open_button": "Open"
+                "signup_closed_button": "ปิด",
+                "signup_open_button": "เปิด"
             },
             "settings": {
                 "saved_message": "การเปลี่ยนเเปลงของคุณได้ถูกบันทึกเเล้ว",
@@ -197,46 +197,46 @@
             },
             "upload_image": {
                 "remove_button": "=> core.ref.remove",
-                "upload_button": "Choose an Image..."
+                "upload_button": "เลือกรูปภาพ…"
             },
             "users": {
-                "description": "A paginated list of all users on your forum.",
+                "description": "รายชื่อผู้ใช้ทั้งหมดในฟอรั่มของคุณ",
                 "grid": {
                     "columns": {
                         "edit_user": {
                             "button": "=> core.ref.edit",
                             "title": "=> core.ref.edit_user",
-                            "tooltip": "Edit {username}"
+                            "tooltip": "เเก้ไข {username}"
                         },
                         "email": {
                             "title": "=> core.ref.email",
-                            "visibility_hide": "Hide email address",
-                            "visibility_show": "Show email address"
+                            "visibility_hide": "ซ่อนที่อยู่อีเมล์",
+                            "visibility_show": "เเสดงที่อยู่อีเมล์"
                         },
                         "group_badges": {
-                            "no_badges": "None",
-                            "title": "Groups"
+                            "no_badges": "ไม่มี",
+                            "title": "กลุ่ม"
                         },
                         "join_time": {
-                            "title": "Joined"
+                            "title": "เข้าร่วมเมื่อ"
                         },
                         "user_id": {
-                            "title": "ID"
+                            "title": "ไอดี"
                         },
                         "username": {
-                            "profile_link_tooltip": "Visit {username}'s profile",
+                            "profile_link_tooltip": "ดูโปรไฟล์ของ {username}",
                             "title": "=> core.ref.username"
                         }
                     },
-                    "invalid_column_content": "Invalid"
+                    "invalid_column_content": "ไม่ถูกต้อง"
                 },
                 "pagination": {
-                    "back_button": "Previous page",
-                    "next_button": "Next page",
-                    "page_counter": "Page {current} of {total}"
+                    "back_button": "หน้าก่อนหน้า",
+                    "next_button": "หน้าถัดไป",
+                    "page_counter": "หน้าที่ {current} จาก {total}"
                 },
                 "title": "=> core.ref.users",
-                "total_users": "Total users: {count}"
+                "total_users": "ผู้ใช้ทั้งหมด: {count}"
             }
         },
         "forum": {
