@@ -2,21 +2,21 @@
     "askvortsov-article-series": {
         "admin": {
             "edit_tags": {
-                "is_article_series": ""
+                "is_article_series": "Est-ce une série d'articles ?"
             }
         },
         "forum": {
             "article_list": {
-                "title": ""
+                "title": "{series} séries d'articles"
             },
             "article_series_modal": {
-                "title": "",
-                "tag_id_label": "",
-                "order_label": "",
-                "submit_button": ""
+                "title": "Paramètres de la série d'articles",
+                "tag_id_label": "Étiquette de séries d'articles",
+                "order_label": "Ordonner l'index (trié par ordre croissant)",
+                "submit_button": "Soumettre"
             },
             "discussion_controls": {
-                "article_series_button": ""
+                "article_series_button": "Paramètres des séries d'articles"
             }
         }
     }
