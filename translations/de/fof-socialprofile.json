@@ -2,18 +2,18 @@
     "fof-socialprofile": {
         "admin": {
             "permissions": {
-                "view": "",
-                "editOwn": "",
-                "editAny": ""
+                "view": "Soziales Profil ansehen",
+                "editOwn": "Eigenes soziales Profil bearbeiten",
+                "editAny": "Beliebige soziale Profile bearbeiten"
             },
             "settings": {
-                "allow_external_favicons_label": ""
+                "allow_external_favicons_label": "Externe Website-Symbole zulassen"
             }
         },
         "forum": {
             "edit": {
-                "edit": "Bearbeiten",
-                "add": "Hinzufügen",
+                "edit": "Bearbeiten Deine Social-Media-Buttons",
+                "add": "Füge Schaltflächen zu Deinen sozialen Medien hinzu",
                 "headtitle": "Buttons bearbeiten",
                 "title": "Titel",
                 "url": "URL",
@@ -21,8 +21,8 @@
                 "delete": "Löschen",
                 "deletetitle": "Button löschen",
                 "save_disabled_fetching_favicons": "Ein oder mehrere Symbole werden gerade abgerufen. Bitte warte.",
-                "favicon": "",
-                "grey_favicon": ""
+                "favicon": "Favicon",
+                "grey_favicon": "Graues Favicon"
             }
         }
     }
