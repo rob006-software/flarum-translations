@@ -15,7 +15,7 @@
                 "watermark": "Wähle aus, ob Bilder beim Hochladen mit einem Wasserzeichen versehen werden sollen. Wasserzeichen werden basierend auf deinen Einstellungen unten hinzugefügt, jedoch nicht bei GIF's.\n",
                 "s3_compatible_storage": "Die folgenden Einstellungen sind nur erforderlich, wenn du S3 kompatiblen Speicher verwendest. Wenn du AWS verwendest, kannst du sie leer lassen.\n",
                 "s3_acl": "Die Zugriffssteuerungsliste (ACL), die auf das hochgeladene Objekt angewendet werden soll (Standard: private). Für mögliche Werte, siehe https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
-                "composer_buttons": ""
+                "composer_buttons": "Standardmäßig sind sowohl die Medienmanager-Schaltfläche als auch die Upload-Schaltfläche sichtbar. Du kannst auch festlegen, dass nur eine Schaltfläche angezeigt wird.\n"
             },
             "labels": {
                 "aws-s3": {
@@ -71,19 +71,19 @@
                     "toggle": "Bilder mit Wasserzeichen versehen"
                 },
                 "composer_buttons": {
-                    "title": "",
+                    "title": "Composer-Schaltflächen",
                     "options": {
-                        "both": "",
-                        "upload-btn": "",
-                        "media-btn": ""
+                        "both": "Beides",
+                        "upload-btn": "Nur Upload-Button",
+                        "media-btn": "Nur Upload-Schaltfläche"
                     }
                 }
             },
             "permissions": {
                 "download_label": "Dateien herunterladen",
                 "upload_label": "Dateien hochladen",
-                "view_user_uploads_label": "",
-                "delete_uploads_of_others_label": ""
+                "view_user_uploads_label": "Benutzer-Uploads anzeigen",
+                "delete_uploads_of_others_label": "Benutzer-Uploads löschen"
             },
             "templates": {
                 "file": "Standard Datei-Downloadvorlage",
@@ -91,11 +91,11 @@
                 "image": "Standard Bild-Downloadvorlage",
                 "image_description": "Zeigt eine Miniaturansicht des Bildes an und ermöglicht den Download über den php-Proxy. Statistiken werden gesammelt und Hotlink-Schutz ist aktiv.\n",
                 "image-preview": "Vollständige Bildvorschau Vorlage",
-                "image-preview_description": "Zeigt das komplette Bild eingebettet im Beitrag an. Keine Download-Funktionalität, es werden keine Statistiken gesammelt und der Hotlink-Schutz wird ignoriert.\n",
-                "markdown-image": "",
-                "markdown-image_description": "",
-                "bbcode-image": "",
-                "bbcode-image_description": "",
+                "image-preview_description": "Zeigt das vollständige Bild eingebettet im Beitrag an. Keine Download-Funktionalität, es werden keine Statistiken gesammelt und der Hotlink-Schutz wird ignoriert.\n",
+                "markdown-image": "Markdown-Bildvorlage",
+                "markdown-image_description": "Zeigt das vollständige Bild in-line mit Markdown an. <strong>Du musst flarum/markdown installiert und aktiviert haben, damit dies funktioniert.</strong> Keine Download-Funktionalität, es werden keine Statistiken gesammelt und der Hotlink-Schutz wird ignoriert.\n",
+                "bbcode-image": "BBCode-Bildvorlage",
+                "bbcode-image_description": "Zeigt das vollständige Bild in-line mit BBCode an. <strong>Du musst flarum/bbcode installiert und aktiviert haben, damit dies funktioniert.</strong> Keine Download-Funktionalität, es werden keine Statistiken gesammelt und der Hotlink-Schutz wird ignoriert.\n",
                 "just-url": "Nur URL",
                 "just-url_description": "Fügt nur die URL ein. Das Rendering kann von anderen Erweiterungen mit Autolink-Funktionalität übernommen werden. Keine Download-Funktionalität, es werden keine Statistiken gesammelt und der Hotlink-Schutz wird ignoriert.\n"
             },
@@ -111,29 +111,29 @@
             }
         },
         "forum": {
-            "media_manager": "",
+            "media_manager": "Medien-Manager",
             "buttons": {
                 "attach": "Anhängen",
-                "upload": "",
-                "user_uploads": "",
-                "cancel": "",
-                "media": ""
+                "upload": "Hochladen",
+                "user_uploads": "Benutzer-Uploads",
+                "cancel": "Abbruch",
+                "media": "Meine Medien"
             },
             "file_list": {
-                "loading": "",
-                "empty": "",
-                "release_to_upload": "",
-                "modal_empty_desktop": "",
-                "modal_empty_phone": "",
-                "select_file_a11y_label": "",
-                "confirm_selection_btn": "",
-                "load_more_files_btn": "",
+                "loading": "Lade Dateien...",
+                "empty": "Es sind keine Dateien zum Anzeigen vorhanden.",
+                "release_to_upload": "Zum Hochladen freigeben",
+                "modal_empty_desktop": "Deine Dateiliste ist leer. Klicke auf die Schaltfläche oder ziehe eine Datei hierher, um sie hochzuladen.",
+                "modal_empty_phone": "Deine Dateiliste ist leer. Tippe auf die Schaltfläche oben, um eine Datei hochzuladen.",
+                "select_file_a11y_label": "Datei \"{fileName}\" auswählen",
+                "confirm_selection_btn": "{fileCount, plural, =0 {Nichts ausgewählt} one {Datei auswählen} other {Dateien auswählen}}",
+                "load_more_files_btn": "Weitere Dateien laden",
                 "hide_file": {
-                    "btn_a11y_label": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "hide_fail": "",
-                    "loading": ""
+                    "btn_a11y_label": "\"{fileName}\" im Medienmanager ausblenden",
+                    "hide_confirmation": "Bist du sicher, dass du '{fileName}' wirklich ausblenden willst? Wenn Du eine Datei ausblendest, wird sie nur aus Deinem Medienmanager entfernt und wirkt sich nicht auf bestehende Beiträge aus.",
+                    "hide_success": "Datei versteckt",
+                    "hide_fail": "Datei \"{fileName}\" konnte nicht ausgeblendet werden",
+                    "loading": "Datei ausblenden..."
                 }
             },
             "states": {
