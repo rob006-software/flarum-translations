@@ -1,15 +1,15 @@
 {
     "geo-weather": {
         "forum": {
-            "unknown": "",
-            "temp": "",
-            "not-supported": ""
+            "unknown": "unbekannt",
+            "temp": "0°",
+            "not-supported": "Geolocation wird von diesem Browser nicht unterstützt."
         },
         "admin": {
-            "apiKey": "",
-            "apiKey-help": "",
-            "lang": "",
-            "lang-help": ""
+            "apiKey": "API-Schlüssel",
+            "apiKey-help": "Füge hier Deinen kostenlosen API-Schlüssel ein, der unter https://openweathermap.org/api generiert wurde",
+            "lang": "Wähle die Ausgabesprache (nur 1 Präfix)",
+            "lang-help": "in diesem Feld steht Dein Sprachpräfix (z. B. it, fr, en), überprüfe Deine unter <strong>https://openweathermap.org/api/one-call-api#multi</strong>"
         }
     }
 }
