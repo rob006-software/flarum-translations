@@ -14,163 +14,163 @@
                 "rackspace": "Rackspace",
                 "sftp": "SFTP",
                 "webdav": "Webdav",
-                "zip": ""
+                "zip": "Lưu trữ Zip"
             },
-            "settings_button": "",
-            "required_package_button": "",
+            "settings_button": "Cấu hình",
+            "required_package_button": "Thiết lập",
             "you-need-for": {
-                "aliyun": "",
-                "azure": "",
-                "aws": "",
-                "copy": "",
-                "dospaces": "",
-                "dropbox": "",
-                "gdrive": "",
-                "gridfs": "",
-                "rackspace": "",
-                "sftp": "",
-                "webdav": ""
+                "aliyun": "aliyuncs/aliyun-oss-flysystem",
+                "azure": "league/flysystem-azure",
+                "aws": "league/flysystem-aws-s3-v3",
+                "copy": "league/flysystem-copy",
+                "dospaces": "league/flysystem-aws-s3-v3",
+                "dropbox": "spatie/flysystem-dropbox",
+                "gdrive": "nao-pon/flysystem-google-drive",
+                "gridfs": "league/flysystem-gridfs",
+                "rackspace": "league/flysystem-rackspace",
+                "sftp": "league/flysystem-sftp",
+                "webdav": "league/flysystem-webdav"
             },
             "required-package-modal": {
-                "title": "",
-                "content": ""
+                "title": "Gói cần thiết cho {adapter}",
+                "content": "Để sử dụng trình điều khiển này, bạn cần cài đặt một gói cụ thể. Bạn có thể làm như vậy bằng cách chạy lệnh composer sau: <code>composer request {package}</code> trong thư mục cài đặt Flarum của bạn.\n"
             },
             "adapter-settings-modal": {
-                "title": "",
+                "title": "Cấu hình {adapter}",
                 "local": {
                     "target": {
-                        "label": "",
-                        "description": ""
+                        "label": "Đường dẫn",
+                        "description": "Xác định thư mục cục bộ để lưu các bản sao lưu vào."
                     }
                 },
                 "aliyun": {
                     "endpoint": {
-                        "label": "",
-                        "description": ""
+                        "label": "Điểm cuối",
+                        "description": "URL đến điểm cuối lưu trữ của bạn."
                     },
                     "access-id": {
-                        "label": "",
-                        "description": ""
+                        "label": "ID truy cập",
+                        "description": "ID mã token truy cập xác thực của bạn"
                     },
                     "access-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "Mã khóa truy cập",
+                        "description": "Mã khóa mã token truy cập xác thực của bạn"
                     },
                     "bucket": {
-                        "label": "",
-                        "description": ""
+                        "label": "Bucket",
+                        "description": "Thùng lưu trữ để sử dụng."
                     },
                     "path-prefix": {
-                        "label": "",
-                        "description": ""
+                        "label": "Tiền tố đường dẫn",
+                        "description": "Tiền tố đường dẫn mặc định tùy chọn cho các tệp."
                     }
                 },
                 "azure": {
                     "endpoint": {
-                        "label": "",
-                        "description": ""
+                        "label": "Điểm cuối",
+                        "description": "URL đến điểm cuối lưu trữ của bạn."
                     },
                     "container": {
-                        "label": "",
-                        "description": ""
+                        "label": "Vùng chứa",
+                        "description": "Vùng chứa Azure"
                     }
                 },
                 "aws": {
                     "credentials": {
                         "key": {
-                            "label": "",
-                            "description": ""
+                            "label": "Mã khoá",
+                            "description": "Mã khoá đăng nhập AWS"
                         },
                         "secret": {
-                            "label": "",
-                            "description": ""
+                            "label": "Mã bí mật",
+                            "description": "Mã bí mật đăng nhập AWS"
                         }
                     },
                     "region": {
-                        "label": "",
-                        "description": ""
+                        "label": "Khu vực",
+                        "description": "Khu vực trong nhóm của bạn."
                     },
                     "version": {
-                        "label": "",
-                        "description": ""
+                        "label": "Phiên bản",
+                        "description": "Xác định phiên bản hoặc để trống cho phiên bản mới nhất."
                     },
                     "bucket": {
-                        "label": "",
-                        "description": ""
+                        "label": "Bucket",
+                        "description": "Nhóm S3 để tải lên."
                     },
                     "path-prefix": {
-                        "label": "",
-                        "description": ""
+                        "label": "Tiền tố đường dẫn",
+                        "description": "Tiền tố đường dẫn mặc định tùy chọn cho các tệp."
                     }
                 },
                 "dropbox": {
                     "access-token": {
-                        "label": "",
-                        "description": ""
+                        "label": "Mã token truy cập",
+                        "description": "Tạo mã token truy cập oAuth 2 @ https://www.dropbox.com/developers/apps."
                     }
                 },
                 "gdrive": {
                     "client": {
                         "id": {
-                            "label": "",
-                            "description": ""
+                            "label": "ID khách hàng",
+                            "description": "Làm theo hướng dẫn @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md để tạo dự án Google và lấy ID khách hàng & mã bí mật khách hàng của bạn.\n"
                         },
                         "secret": {
-                            "label": "",
-                            "description": ""
+                            "label": "Mã bí mật khách hàng",
+                            "description": " "
                         }
                     },
                     "refresh-token": {
-                        "label": "",
-                        "description": ""
+                        "label": "Làm mới token",
+                        "description": "Làm theo hướng dẫn @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md để lấy mã làm mới cho ứng dụng Google oAuth của bạn.\n"
                     },
                     "folder": {
-                        "label": "",
-                        "description": ""
+                        "label": "ID thư mục",
+                        "description": "https://drive.google.com/drive/u/0/folders/ID"
                     }
                 },
                 "ftp": {
                     "host": {
-                        "label": "",
-                        "description": ""
+                        "label": "Tên máy chủ từ xa",
+                        "description": "Tên máy chủ để kết nối với FTP, ví dụ: <em>ftp.yourdomain.local</em>."
                     },
                     "username": {
-                        "label": "",
-                        "description": ""
+                        "label": "Tên tài khoản",
+                        "description": "Tên người dùng để xác thực trên máy chủ FTP."
                     },
                     "password": {
-                        "label": "",
-                        "description": ""
+                        "label": "Mật khẩu",
+                        "description": "Mật khẩu người dùng để xác thực trên máy chủ FTP."
                     },
                     "private-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "Mã khoá riêng tư",
+                        "description": "Đường dẫn (nên là tuyệt đối) đến mã khóa riêng tư để sử dụng khi xác thực kết nối FTP."
                     },
                     "port": {
-                        "label": "",
-                        "description": ""
+                        "label": "Cổng",
+                        "description": "Cổng FTP (mặc định là 21)."
                     },
                     "root": {
-                        "label": "",
-                        "description": ""
+                        "label": "Đường dẫn gốc",
+                        "description": "Đường dẫn gốc từ xa (thư mục con) để lưu trữ các bản sao lưu."
                     },
                     "passive": {
-                        "toggle": "",
-                        "description": ""
+                        "toggle": "Kết nối bị động",
+                        "description": "Có sử dụng kết nối FTP bị động với máy chủ hay không."
                     },
                     "ssl": {
-                        "toggle": "",
-                        "description": ""
+                        "toggle": "SSL",
+                        "description": "Có sử dụng kết nối SSL được mã hóa với máy chủ hay không."
                     },
                     "timeout": {
-                        "label": "",
-                        "description": ""
+                        "label": "Timeout",
+                        "description": "Số giây chờ kết nối với máy chủ FTP."
                     }
                 }
             },
             "nav": {
-                "label": "",
-                "description": ""
+                "label": "Sao lưu",
+                "description": "Lưu trữ các bản sao của diễn đàn."
             }
         }
     }
