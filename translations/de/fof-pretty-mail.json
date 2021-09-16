@@ -2,24 +2,24 @@
     "fof-pretty-mail": {
         "admin": {
             "nav": {
-                "desc": ""
+                "desc": "Passe Deine HTML-E-Mail-Vorlagen an."
             },
             "settings": {
-                "label": "",
-                "reset": "",
-                "confirm": "",
-                "default": "",
-                "newPost": "",
-                "userMentioned": "",
-                "postMentioned": "",
-                "notifications": "",
-                "notificationHelp": "",
-                "help": ""
+                "label": "E-Mail-Vorlagen",
+                "reset": "Auf Standard zurücksetzen",
+                "confirm": "Möchtest Du wirklich zur Standard-E-Mail-Vorlage für zurückkehren?",
+                "default": "Standardvorlage",
+                "newPost": "Flarum/subscriptions Neue Post E-Mail",
+                "userMentioned": "Flarum/mentions Vom Benutzer erwähnte E-Mail",
+                "postMentioned": "Flarum/mentions Erwähnte E-Mail schreiben",
+                "notifications": "Benachrichtigungsvorlagen",
+                "notificationHelp": "Es wird empfohlen, für diese E-Mails '$forumStyle' zu verwenden, da sie BBCODE enthalten können. Für diese E-Mails ist auch '$user' verfügbar, das das gesamte Benutzermodell des Benutzers enthält, der per E-Mail gesendet wird.",
+                "help": "'$body' enthält den eigentlichen Inhalt der E-Mail, '$forumStyle' enthält das <strong>entire Forum CSS</strong>, '$url' ist Flarums UrlGenerator, '$settings' ermöglicht die Interaktion mit dem SettingsRepositoryInterface und '$link' enthält den Link in der E-Mail. Sehen Sie sich jede Vorlage an, um zu erfahren, wie Sie jede Variable verwenden."
             },
             "css_settings": {
-                "label": "",
-                "help": "",
-                "switch_label": ""
+                "label": "CSS-Einstellungen",
+                "help": "Du kannst das CSS des Forums in den HTML-Code der E-Mail einfügen. Wenn Du dies aktivierst, können Probleme mit bestimmten E-Mail-Anbietern auftreten.",
+                "switch_label": "Vollständiges Forum-CSS einschließen"
             }
         }
     }
