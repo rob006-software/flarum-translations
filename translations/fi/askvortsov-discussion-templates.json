@@ -7,27 +7,27 @@
             },
             "settings": {
                 "no_tag_template": "Oletus pohja (käytetään kun aloitetaan keskustelu ilman avainsanoja):",
-                "append_template_on_tag_change": "",
-                "append_template_on_tag_change_help": ""
+                "append_template_on_tag_change": "Lisää pohja loppuun avainsanan vaihdossa?",
+                "append_template_on_tag_change_help": "Kun avainsanaa vaihdetaan, pitäisikö uuden avainsanan pohja lisätä loppuun vaikka käyttäjä on aloittanut kirjoittamisen? Asetuksesta huolimatta, jos avainsana vaihdetaan ja käyttäjä ei ole tehnyt muutoksia, pohja vaihtuu."
             },
             "tags": {
-                "tag_template_heading": "",
-                "tag_template_text": "",
-                "tag_template_button": ""
+                "tag_template_heading": "Keskustelupohja",
+                "tag_template_text": "Hallitse pohjia tämän avainsanan keskusteluille.",
+                "tag_template_button": "Muokkaa pohjaa"
             },
             "tag_template_modal": {
-                "title": "",
-                "customize_text": "",
-                "submit_button": ""
+                "title": "Keskustelupohja",
+                "customize_text": "Hallitse pohjia tämän avainsanan keskusteluille.",
+                "submit_button": "Tallenna pohja"
             }
         },
         "forum": {
             "discussion_controls": {
-                "reply_template_button": ""
+                "reply_template_button": "Muokkaa vastauspohjaa"
             },
             "reply_template": {
-                "title": "",
-                "submit_button": ""
+                "title": "Muokkaa vastauspohjaa",
+                "submit_button": "Tallenna vastauspohja"
             }
         }
     }
