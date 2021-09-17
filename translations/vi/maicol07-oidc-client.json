@@ -12,32 +12,32 @@
                 "callback_logout_note": "chỉ cần thiết khi đăng xuất khỏi tùy chọn nhà cung cấp được bật (xem ở cuối trang)",
                 "provider_settings_title": "Cài đặt nhà cung cấp",
                 "provider_url": "URL nhà cung cấp",
-                "endpoints_title": "",
-                "endpoints_subtitle": "",
+                "endpoints_title": "Điểm cuối nhà cung cấp",
+                "endpoints_subtitle": "Thêm vào đây các điểm cuối nhà cung cấp của bạn. Nếu bạn đã thêm URL của nhà cung cấp ở trên và nhà cung cấp của bạn hỗ trợ tự động phát hiện, các điểm cuối bắt buộc sẽ tự động được phát hiện (và lưu) khi bạn nhấn nút \"Lưu cài đặt\" (bạn sẽ không thấy các điểm cuối mới trong cài đặt cho đến khi bạn làm mới trang) . Bạn không phải thêm các điểm cuối khác nếu URL của nhà cung cấp được điền và tính năng tự động phát hiện được bật trên trình cung cấp. Nếu nhà cung cấp của bạn chưa triển khai nó, bạn có thể thêm các điểm cuối bắt buộc theo cách thủ công bên dưới. Kiểm tra tài liệu để được trợ giúp thêm\n",
                 "endpoints": {
-                    "authorize": "",
-                    "token": "",
-                    "userinfo": "",
-                    "logout": ""
+                    "authorize": "URL điểm cuối ủy quyền",
+                    "token": "URL điểm cuối mã token",
+                    "userinfo": "URL điểm cuối thông tin người dùng",
+                    "logout": "URL điểm cuối của phiên kết thúc (đăng xuất)"
                 },
-                "other_settings_title": "",
-                "issuer": "",
-                "nonce": "",
-                "linker_claim": "",
-                "manage_account_url": "",
-                "manage_account_btn_open_in_new_tab": "",
-                "sso_mode": "",
-                "logout_from_provider": "",
-                "remove_signup_btn": "",
-                "sync_avatars": ""
+                "other_settings_title": "Thiết lập khác",
+                "issuer": "URL nhà phát hành",
+                "nonce": "Hủy kích hoạt xác minh nonce",
+                "linker_claim": "Người liên kết xác nhận quyền sở hữu",
+                "manage_account_url": "URL quản lý tài khoản",
+                "manage_account_btn_open_in_new_tab": "Mở trang quản lý tài khoản trong tab mới",
+                "sso_mode": "Chế độ SSO",
+                "logout_from_provider": "Đăng xuất khỏi nhà cung cấp (khi chế độ SSO được bật)",
+                "remove_signup_btn": "Xóa nút đăng ký",
+                "sync_avatars": "Đồng bộ ảnh đại diện người dùng"
             }
         },
         "forum": {
             "buttons": {
-                "manage_account": "",
-                "login": "",
-                "connect_account": "",
-                "disconnect_account": ""
+                "manage_account": "Quản lý tài khoản",
+                "login": "Đăng nhập vào {name}",
+                "connect_account": "Kết nối với {name}",
+                "disconnect_account": "Ngắt kết nối khỏi {name}"
             }
         }
     }
