@@ -2,16 +2,16 @@
     "blomstra-realtime": {
         "forum": {
             "push": {
-                "discussion-list-new-activity": ""
+                "discussion-list-new-activity": "{count, plural, one {Näytä # päivitetty keskustelu} other {Näytä # päivitettyä keskustelua}}"
             },
             "typing-indicator": {
-                "people-are-typing": "",
-                "no-activity": ""
+                "people-are-typing": "{number, plural, one {# käyttäjä kirjoittaa} other {# käyttäjää kirjoittaa}}",
+                "no-activity": "Kukaan ei kirjoita"
             }
         },
         "admin": {
             "permission": {
-                "view-who-types": ""
+                "view-who-types": "Nähdä kuka kirjoittaa"
             }
         }
     }
