@@ -31,126 +31,126 @@
                     "delete": "Xoá người dùng Flarum",
                     "suspend": "Cấm người dùng Flarum vô thời hạn (Tiện ích Suspend phải được bật)"
                 },
-                "user_delete_desc": "",
-                "section_comments_intro": "",
-                "enable_comments": "",
-                "excerpt_html_whitelist": "",
-                "excerpt_html_nodes": "",
-                "excerpt_length": "",
-                "comment_tag": "",
-                "comment_tag_none": "",
-                "comment_tag_custom": "",
-                "comment_tag_custom_help": "",
-                "summary_as_last_post": "",
-                "summary_as_last_post_help": "",
-                "use_post_date": "",
-                "use_post_date_help": "",
-                "post_hide": "",
+                "user_delete_desc": "Nếu bạn chọn \"xóa\", chỉ người dùng sẽ bị xóa, không xóa nội dung của họ trên Flarum.",
+                "section_comments_intro": "Tính năng này thay thế các bình luận Wordpress bằng iframe Flarum. Không thể đăng bài của khách được nữa. Các cuộc thảo luận chỉ được tạo cho các bài viết có bật bình luận trong Wordpress. Bật hoặc tắt nhận xét được đồng bộ hóa với khóa thảo luận của Flarum. Nếu blog của bạn đã có các bài viết khi bạn bật tính năng này, bạn cần bật và tắt nhận xét lại trên mỗi bài viết để thảo luận Flarum được tạo.\n",
+                "enable_comments": "Bật tích hợp bình luận",
+                "excerpt_html_whitelist": "Danh sách trắng các thẻ HTML cần giữ trong đoạn trích (phân tách bằng dấu phẩy)",
+                "excerpt_html_nodes": "Độ dài của đoạn trích nội dung (tính theo số nút HTML)",
+                "excerpt_length": "Độ dài của đoạn trích nội dung (tính bằng ký tự)",
+                "comment_tag": "Gắn thẻ cho các chủ đề bình luận mới",
+                "comment_tag_none": "Không gán một thẻ",
+                "comment_tag_custom": "Tuỳ chỉnh giá trị",
+                "comment_tag_custom_help": "Danh sách ID thẻ được phân tách bằng dấu phẩy",
+                "summary_as_last_post": "Đặt bài đăng tóm tắt làm bài viết cuối cùng của các cuộc thảo luận mới",
+                "summary_as_last_post_help": "Điều này làm cho các cuộc thảo luận bình luận mới tăng lên đầu danh sách thảo luận trong Flarum ngay sau khi bài viết trên Wordpress được xuất bản. Theo mặc định, cuộc thảo luận sẽ chỉ lên đầu khi người dùng đầu tiên viết bình luận.\n",
+                "use_post_date": "Sử dụng ngày đăng Wordpress làm ngày tạo cuộc thảo luận",
+                "use_post_date_help": "Theo mặc định, các cuộc thảo luận Flarum sẽ sử dụng thời gian hiện tại làm ngày tạo. Tùy chọn này cho phép tạo các cuộc thảo luận với một ngày trong quá khứ nếu bài viết trên Wordpress cũng có một ngày trong quá khứ.\n",
+                "post_hide": "Hành động khi một bài viết Wordpress bị ẩn (chuyển vào thùng rác hoặc chuyển sang bản nháp)",
                 "post_hide_options": {
-                    "ignore": "",
-                    "lock": "",
-                    "hide": "",
-                    "delete": ""
+                    "ignore": "Bỏ qua (khóa thảo luận theo Cho phép Nhận xét)",
+                    "lock": "Khóa cuộc thảo luận trong Flarum",
+                    "hide": "Ẩn thảo luận trong Flarum",
+                    "delete": "Xóa vĩnh viễn cuộc thảo luận khỏi Flarum"
                 },
-                "post_delete": "",
+                "post_delete": "Hành động khi một bài viết Wordpress bị xóa vĩnh viễn",
                 "post_delete_options": {
-                    "ignore": "",
-                    "lock": "",
-                    "hide": "",
-                    "delete": ""
+                    "ignore": "Bỏ qua (giữ cuộc thảo luận Flarum ở trạng thái hiện tại)",
+                    "lock": "Giữ thảo luận và khóa Flarum",
+                    "hide": "Ẩn thảo luận trong Flarum",
+                    "delete": "Xóa vĩnh viễn cuộc thảo luận khỏi Flarum"
                 }
             },
             "tabs": {
-                "wizard": "",
-                "general": "",
-                "sso": "",
-                "comments": "",
-                "enabled": "",
-                "disabled": ""
+                "wizard": "Cài đặt wizard",
+                "general": "Cài đặt chung",
+                "sso": "Tích hợp SSO",
+                "comments": "Tích hợp Bình luận",
+                "enabled": "Đã bật",
+                "disabled": "Đã tắt"
             },
             "appearance": {
-                "edit_css_button": ""
+                "edit_css_button": "Chỉnh sửa CSS chỉ dành cho nhúng Wordpress"
             },
             "edit_css": {
-                "title": "",
-                "customize_text": ""
+                "title": "Chỉnh sửa CSS nhúng",
+                "customize_text": "LESS/CSS của riêng bạn chỉ được áp dụng trên <a>kiểu mặc định</a> của Flarum bên trong iframe Wordpress."
             },
             "permissions": {
-                "gambits": ""
+                "gambits": "Wordpress Gambits của bên thứ ba (xem tài liệu)"
             },
             "save-controls": {
-                "validation-errors": "",
-                "unsaved-changes": "",
-                "saved-at": "",
-                "no-unsaved-changes": "",
-                "save": ""
+                "validation-errors": "Chúng tôi đã tìm thấy một số lỗi trong bài gửi của bạn",
+                "unsaved-changes": "Bạn có các thay đổi chưa lưu",
+                "saved-at": "Đã lưu {ago}",
+                "no-unsaved-changes": "Mọi thứ đã được lưu",
+                "save": "Lưu"
             },
             "health": {
-                "title": "",
-                "check": "",
-                "errors": "",
-                "healthy": "",
-                "not-run": "",
-                "request-error": ""
+                "title": "Kiểm tra sức khỏe",
+                "check": "Kiểm tra ngay",
+                "errors": "Chúng tôi đã tìm thấy một số vấn đề.",
+                "healthy": "Mọi thứ đều tốt!",
+                "not-run": "Kiểm tra sức khỏe sẽ khả dụng sau khi bạn kết nối Wordpress và Flarum.",
+                "request-error": "Chúng tôi không thể thực hiện kiểm tra sức khỏe."
             },
             "wizard": {
-                "intro": "",
-                "wordpress_url": "",
-                "wordpress_url_help": "",
-                "wordpress_username": "",
-                "wordpress_password": "",
-                "wordpress_password_help": "",
-                "install": ""
+                "intro": "Cảm ơn bạn đã mua tiện ích mở rộng Wordpress cao cấp của tôi! Điền thông tin đăng nhập của bạn vào bên dưới để tự động kết nối Flarum và Wordpress của bạn với nhau.\n",
+                "wordpress_url": "URL của Wordpress",
+                "wordpress_url_help": "Một liên kết đến trang chủ Wordpress của bạn",
+                "wordpress_username": "Tên người dùng quản trị Wordpress",
+                "wordpress_password": "Mật khẩu quản trị Wordpress",
+                "wordpress_password_help": "Mật khẩu chỉ được sử dụng cho cấu hình ban đầu và không được lưu trữ.",
+                "install": "Cài đặt"
             }
         },
         "forum": {
             "welcome-modal": {
-                "title": "",
-                "default_message": "",
-                "username": "",
-                "submit": "",
-                "not_now": ""
+                "title": "Chào mừng!",
+                "default_message": "Chào mừng bạn đến với diễn đàn. Chọn một tên người dùng và bạn đã sẵn sàng để sử dụng!",
+                "username": "Chọn tên người dùng",
+                "submit": "Kích hoạt tài khoản diễn đàn",
+                "not_now": "Bỏ qua và đọc với tư cách khách ngay bây giờ"
             },
             "edit-user-modal": {
-                "warning": "",
-                "edit_in_wordpress": "",
-                "should_not_edit_email": "",
-                "unlink": "",
-                "unlink_help": ""
+                "warning": "Người dùng này được giữ đồng bộ với Wordpress. Bạn nên chỉnh sửa email và mật khẩu từ Wordpress.\n",
+                "edit_in_wordpress": "Chỉnh sửa trong Wordpress",
+                "should_not_edit_email": "Bạn nên chỉnh sửa email trong Wordpress. <a>Vẫn chỉnh sửa</a>",
+                "unlink": "Hủy liên kết người dùng này khỏi người dùng wordpress",
+                "unlink_help": "Nếu email khớp với người dùng Wordpress, email đó sẽ được liên kết lại vào lần sau khi người dùng đó kết nối trong Wordpress."
             },
             "settings": {
-                "edit_on_wordpress": ""
+                "edit_on_wordpress": "Thay đổi email và mật khẩu trên trang web chính"
             },
             "log_in": {
-                "with_wordpress_button": ""
+                "with_wordpress_button": "Đăng nhập bằng Wordpress"
             },
             "summary-post": {
-                "head_label": "",
-                "blog_link": "",
-                "read_more": ""
+                "head_label": "Bài viết trên Wordpress",
+                "blog_link": "Đọc trên blog",
+                "read_more": "Đọc thêm"
             },
             "embed": {
-                "title": ""
+                "title": "Bình luận"
             }
         },
         "api": {
             "blocked_actions": {
-                "login": "",
-                "password_reset": "",
-                "email_change": ""
+                "login": "Tài khoản này được liên kết với Wordpress. Sử dụng biểu mẫu đăng nhập trang web chính để kết nối.",
+                "password_reset": "Tài khoản này được liên kết với Wordpress. Sử dụng biểu mẫu đăng nhập trang web chính để đặt lại mật khẩu của bạn.",
+                "email_change": "Tài khoản này được liên kết với Wordpress. Sử dụng trang hồ sơ trang web chính để thay đổi email của bạn."
             },
             "wizard": {
-                "already_installed": "",
-                "api_unauthorized": "",
-                "api_error_get": "",
-                "api_error_post": "",
-                "invalid_wordpress_url": "",
-                "plugin_not_installed": ""
+                "already_installed": "Flarum đã được kết nối với Wordpress. Để chạy lại trình hướng dẫn, hãy xóa cài đặt \"URL Wordpress\" trong Flarum và cài đặt \"khóa API Flarum\" trong Wordpress.\n",
+                "api_unauthorized": "Chúng tôi không thể xác thực bằng các thông tin xác thực đã cho. Kiểm tra kỹ URL, tên người dùng và mật khẩu. Kiểm tra tài liệu để biết thêm các bước khắc phục sự cố.\n",
+                "api_error_get": "Lỗi khi thực hiện yêu cầu GET đối với cài đặt Wordpress ({exception}).",
+                "api_error_post": "Lỗi khi thực hiện yêu cầu ĐĂNG lên cài đặt Wordpress ({exception}).",
+                "invalid_wordpress_url": "Cài đặt \"Địa chỉ WordPress (URL)\" trong Wordpress dường như không phải là một URL hợp lệ ({actual}).",
+                "plugin_not_installed": "Có vẻ như plugin Wordpress không được cài đặt hoặc kích hoạt trên trang Wordpress đó. Đảm bảo bạn đã cài đặt ít nhất phiên bản 1.2.0.\n"
             }
         },
         "views": {
             "error": {
-                "missing_wordpress_embed": ""
+                "missing_wordpress_embed": "Bài viết này chưa có một chủ đề bình luận. Nếu bạn là quản trị viên blog, hãy xuất bản bài đăng hoặc tắt và bật lại nhận xét để bắt đầu một chuỗi.\n"
             }
         }
     }
