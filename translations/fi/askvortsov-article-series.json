@@ -2,21 +2,21 @@
     "askvortsov-article-series": {
         "admin": {
             "edit_tags": {
-                "is_article_series": ""
+                "is_article_series": "Onko artikkeli osa sarjaa?"
             }
         },
         "forum": {
             "article_list": {
-                "title": ""
+                "title": "{series} artikkelisarja"
             },
             "article_series_modal": {
-                "title": "",
-                "tag_id_label": "",
-                "order_label": "",
-                "submit_button": ""
+                "title": "Artikkelisarjojen asetukset",
+                "tag_id_label": "Artikkelisarjojen avainsana",
+                "order_label": "Järjestysnumero (järjestetty nousevasti)",
+                "submit_button": "Lähetä"
             },
             "discussion_controls": {
-                "article_series_button": ""
+                "article_series_button": "Artikkelisarjan asetukset"
             }
         }
     }
