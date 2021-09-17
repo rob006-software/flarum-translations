@@ -2,9 +2,9 @@
     "askvortsov-moderator-warnings": {
         "admin": {
             "permissions": {
-                "manage_warnings": "",
-                "view_warnings": "",
-                "delete_warnings": ""
+                "manage_warnings": "Luo ja poista moderaattorien varoituksia",
+                "view_warnings": "Nähdä moderaattorien varoitukset",
+                "delete_warnings": "Lopullisesti poistaa moderaattorien varoituksia"
             }
         },
         "emails": {
@@ -27,43 +27,43 @@
                 "warning_no_strikes": ""
             },
             "post_controls": {
-                "warning_button": ""
+                "warning_button": "Varoita käyttäjää"
             },
             "user": {
-                "warnings": ""
+                "warnings": "Moderaattorin varoitukset"
             },
             "settings": {
-                "warning_notification_label": ""
+                "warning_notification_label": "Moderaattori varoittaa minua"
             },
             "validation": {
-                "public_comment_required": "",
+                "public_comment_required": "Sinun täytyy antaa julkinen kommentti (syy).",
                 "invalid_strike_count": ""
             },
             "warning_controls": {
-                "delete_button": "",
-                "restore_button": "",
-                "delete_forever_button": ""
+                "delete_button": "Poista",
+                "restore_button": "Palauta",
+                "delete_forever_button": "Poista pysyvästi"
             },
             "warning_list": {
-                "add_button": "",
-                "no_warnings": "",
+                "add_button": "Uusi varoitus",
+                "no_warnings": "Näyttää siltä, että täällä ei ole varoituksia.",
                 "warnings": "",
                 "warnings_no_strikes": ""
             },
             "warning_list_item": {
                 "list_item_heading": "",
                 "list_item_heading_hidden": "",
-                "public_comment": "",
+                "public_comment": "Varoitus",
                 "private_comment": "",
-                "linked_post": ""
+                "linked_post": "Linkitetty viesti"
             },
             "warning_modal": {
-                "confirmation_message": "",
-                "heading": "",
+                "confirmation_message": "Varoituksesi tallennettiin. Sinun täytyy ehkä päivittää sivu nähdäksesi se.",
+                "heading": "Varoita käyttäjää <strong>{username}</strong>",
                 "strikes_heading": "",
-                "public_comment_heading": "",
-                "private_comment_heading": "",
-                "submit_button": ""
+                "public_comment_heading": "Miksi käyttäjää <strong>{username}</strong> varoitetaan? Nämä kommentit näkyy käyttäjälle sekä muille moderaattoreille.",
+                "private_comment_heading": "Miksi käyttäjää <strong>{username}</strong> varoitetaan? Nämä kommentit näkyy VAIN muille moderaattoreille.",
+                "submit_button": "Tallenna varoitus"
             }
         }
     }
