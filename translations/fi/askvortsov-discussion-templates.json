@@ -2,11 +2,11 @@
     "askvortsov-discussion-templates": {
         "admin": {
             "permissions": {
-                "manage_own_discussion_reply_templates": "",
-                "manage_all_reply_templates": ""
+                "manage_own_discussion_reply_templates": "Hallita vastauspohjia keskusteluihin",
+                "manage_all_reply_templates": "Hallita vastauspohjia kaikkiin keskusteluihin"
             },
             "settings": {
-                "no_tag_template": "",
+                "no_tag_template": "Oletus pohja (käytetään kun aloitetaan keskustelu ilman avainsanoja):",
                 "append_template_on_tag_change": "",
                 "append_template_on_tag_change_help": ""
             },
