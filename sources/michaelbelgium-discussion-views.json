@@ -20,6 +20,12 @@
             "viewlist": {
                 "title": "Latest viewers",
                 "guest": "Guest"
+            },
+            "post": {
+                "viewed_by": "{users} viewed this.",
+                "you": "=> core.ref.you",
+                "others_link": "=> core.ref.some_others",
+                "modal_title_text": "Users who last viewed this discussion"
             }
         },
         "admin": {
@@ -30,10 +36,13 @@
             "settings": {
                 "title": "Discussionviews settings",
                 "track_unique_label": "Track unique views",
+                "track_guests": "Track guests",
                 "abbr_numbers_label": "Abbreviate view numbers",
                 "show_filter_label": "Enable (un)popular sort field",
                 "max_viewcount_label": "Maximum viewlist items",
-                "show_viewlist_label": "Enable viewlist"
+                "max_viewcount_text": "This applies to the footer viewlist and the sidebar viewlist",
+                "show_viewlist_label": "Enable viewlist",
+                "show_footer_viewlist_label": "Enable footer viewlist"
             }
         }
     }

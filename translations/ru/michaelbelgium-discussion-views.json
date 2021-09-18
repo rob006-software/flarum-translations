@@ -20,6 +20,12 @@
             "viewlist": {
                 "title": "Последние просмотревшие",
                 "guest": "Гость"
+            },
+            "post": {
+                "viewed_by": "",
+                "you": "",
+                "others_link": "",
+                "modal_title_text": ""
             }
         },
         "admin": {
@@ -30,10 +36,13 @@
             "settings": {
                 "title": "Настройка просмотров обсуждения",
                 "track_unique_label": "Отслеживать уникальные просмотры",
+                "track_guests": "",
                 "abbr_numbers_label": "Компактное отображение числа просмотров",
                 "show_filter_label": "Включить поле сортировки по популярности",
                 "max_viewcount_label": "Максимум элементов списка просмотров",
-                "show_viewlist_label": "Включить список просмотров"
+                "max_viewcount_text": "",
+                "show_viewlist_label": "Включить список просмотров",
+                "show_footer_viewlist_label": ""
             }
         }
     }

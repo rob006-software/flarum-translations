@@ -20,6 +20,12 @@
             "viewlist": {
                 "title": "最近浏览的人",
                 "guest": ""
+            },
+            "post": {
+                "viewed_by": "",
+                "you": "",
+                "others_link": "",
+                "modal_title_text": ""
             }
         },
         "admin": {
@@ -30,10 +36,13 @@
             "settings": {
                 "title": "主题浏览量设置",
                 "track_unique_label": "仅追踪 UV（独立访客）",
+                "track_guests": "",
                 "abbr_numbers_label": "缩写浏览量",
                 "show_filter_label": "添加「最多人看/最少人看」排序选项",
                 "max_viewcount_label": "「最近浏览的人」列表最多展示人数",
-                "show_viewlist_label": "在主题页面展示「最近浏览的人」列表"
+                "max_viewcount_text": "",
+                "show_viewlist_label": "在主题页面展示「最近浏览的人」列表",
+                "show_footer_viewlist_label": ""
             }
         }
     }

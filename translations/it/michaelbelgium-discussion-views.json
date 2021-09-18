@@ -20,6 +20,12 @@
             "viewlist": {
                 "title": "Ultime visite",
                 "guest": ""
+            },
+            "post": {
+                "viewed_by": "",
+                "you": "",
+                "others_link": "",
+                "modal_title_text": ""
             }
         },
         "admin": {
@@ -30,10 +36,13 @@
             "settings": {
                 "title": "Impostazioni visite Discussione",
                 "track_unique_label": "Traccia visualizzazioni uniche",
+                "track_guests": "",
                 "abbr_numbers_label": "Abbrevia numeri di visualizzazione",
                 "show_filter_label": "Abilita campi di ordinamento Popolare/Meno Popolare",
                 "max_viewcount_label": "Numero massimo nella lista delle ultime visualizzazioni",
-                "show_viewlist_label": "Abilita lista ultime visualizzazioni"
+                "max_viewcount_text": "",
+                "show_viewlist_label": "Abilita lista ultime visualizzazioni",
+                "show_footer_viewlist_label": ""
             }
         }
     }

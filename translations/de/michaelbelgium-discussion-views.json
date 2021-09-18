@@ -20,6 +20,12 @@
             "viewlist": {
                 "title": "Letzte Aufrufe",
                 "guest": ""
+            },
+            "post": {
+                "viewed_by": "",
+                "you": "",
+                "others_link": "",
+                "modal_title_text": ""
             }
         },
         "admin": {
@@ -30,10 +36,13 @@
             "settings": {
                 "title": "Diskussionsaufrufzähler Einstellungen",
                 "track_unique_label": "Einzelne Aufrufe mitzählen",
+                "track_guests": "",
                 "abbr_numbers_label": "Aufrufzahlen abkürzen",
                 "show_filter_label": "Beliebt/Unbeliebt Sortierung anzeigen",
                 "max_viewcount_label": "Maximale Einträge in Aufrufliste",
-                "show_viewlist_label": "Aufrufliste aktivieren"
+                "max_viewcount_text": "",
+                "show_viewlist_label": "Aufrufliste aktivieren",
+                "show_footer_viewlist_label": ""
             }
         }
     }

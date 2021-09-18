@@ -20,6 +20,12 @@
             "viewlist": {
                 "title": "Viimeisimmät katselijat",
                 "guest": "Vieras"
+            },
+            "post": {
+                "viewed_by": "",
+                "you": "",
+                "others_link": "",
+                "modal_title_text": ""
             }
         },
         "admin": {
@@ -30,10 +36,13 @@
             "settings": {
                 "title": "Katselukertojen asetukset",
                 "track_unique_label": "Seuraa uniikkeja katselukertoja",
+                "track_guests": "",
                 "abbr_numbers_label": "Lyhennä katselukertojen numeroita",
                 "show_filter_label": "Ota käyttöön (epä)suosittu järjestys valinta",
                 "max_viewcount_label": "Maksimimäärä katselulistan kohtaa",
-                "show_viewlist_label": "Ota katselulista käyttöön"
+                "max_viewcount_text": "",
+                "show_viewlist_label": "Ota katselulista käyttöön",
+                "show_footer_viewlist_label": ""
             }
         }
     }

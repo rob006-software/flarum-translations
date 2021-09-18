@@ -20,6 +20,12 @@
             "viewlist": {
                 "title": "ผู้ชมล่าสุด",
                 "guest": "ผู้เข้าชม"
+            },
+            "post": {
+                "viewed_by": "",
+                "you": "",
+                "others_link": "",
+                "modal_title_text": ""
             }
         },
         "admin": {
@@ -30,10 +36,13 @@
             "settings": {
                 "title": "ตั้งค่าการนับผู้เข้าชม",
                 "track_unique_label": "นับเพียงครั้งเดียว",
+                "track_guests": "",
                 "abbr_numbers_label": "ย่อจำนวนนับ",
                 "show_filter_label": "เปิดใช้งานฟิลด์การเรียงลำดับไม่นิยม",
                 "max_viewcount_label": "รายการรับชมสูงสุด",
-                "show_viewlist_label": "เปิดรายการรับชม"
+                "max_viewcount_text": "",
+                "show_viewlist_label": "เปิดรายการรับชม",
+                "show_footer_viewlist_label": ""
             }
         }
     }
