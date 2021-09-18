@@ -22,10 +22,10 @@
                 "guest": "Khách"
             },
             "post": {
-                "viewed_by": "",
-                "you": "",
-                "others_link": "",
-                "modal_title_text": ""
+                "viewed_by": "{users} đã xem.",
+                "you": "=> core.ref.you",
+                "others_link": "=> core.ref.some_others",
+                "modal_title_text": "Người dùng xem cuộc thảo luận này lần cuối"
             }
         },
         "admin": {
@@ -36,13 +36,13 @@
             "settings": {
                 "title": "Thiết lập lượt xem cuộc thảo luận",
                 "track_unique_label": "Theo dõi lượt xem",
-                "track_guests": "",
+                "track_guests": "Theo dõi khách",
                 "abbr_numbers_label": "Viết tắt số lượt xem",
                 "show_filter_label": "Cho phép (hủy) trường sắp xếp phổ biến",
                 "max_viewcount_label": "Mục danh sách xem tối đa",
-                "max_viewcount_text": "",
+                "max_viewcount_text": "Điều này áp dụng cho danh sách xem ở chân bài viết và thanh bên",
                 "show_viewlist_label": "Bật danh sách xem",
-                "show_footer_viewlist_label": ""
+                "show_footer_viewlist_label": "Bật danh sách xem ở chân bài viết"
             }
         }
     }
