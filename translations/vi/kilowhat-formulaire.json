@@ -2,219 +2,219 @@
     "kilowhat-formulaire": {
         "admin": {
             "permissions": {
-                "heading": "",
-                "heading-advanced": "",
-                "fill": "",
-                "seeOwnUser": "",
-                "seeAnyUser": "",
-                "editOwnUser": "",
-                "editAnyUser": "",
-                "seeOwnDiscussion": "",
-                "seeAnyDiscussion": "",
-                "editOwnDiscussion": "",
-                "editAnyDiscussion": "",
-                "create": "",
-                "moderate": "",
-                "export": "",
-                "exportUserDetails": "",
-                "listForms": "",
-                "listSubmissions": ""
+                "heading": "Formulaire",
+                "heading-advanced": "Formulaire (tùy chọn cho tiện ích mở rộng của bên thứ ba)",
+                "fill": "=> kilowhat-formulaire.ref.permissions.fill",
+                "seeOwnUser": "=> kilowhat-formulaire.ref.permissions.seeOwnUser",
+                "seeAnyUser": "=> kilowhat-formulaire.ref.permissions.seeAnyUser",
+                "editOwnUser": "=> kilowhat-formulaire.ref.permissions.editOwnUser",
+                "editAnyUser": "=> kilowhat-formulaire.ref.permissions.editAnyUser",
+                "seeOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion",
+                "seeAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.seeAnyDiscussion",
+                "editOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.editOwnDiscussion",
+                "editAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.editAnyDiscussion",
+                "create": "Tạo biểu mẫu (beta)",
+                "moderate": "Kiểm duyệt tất cả biểu mẫu",
+                "export": "Xuất dữ liệu đã gửi",
+                "exportUserDetails": "Truy cập dữ liệu riêng tư của người dùng trong các lần xuất",
+                "listForms": "Xem danh sách các biểu mẫu không bị xóa",
+                "listSubmissions": "Xem danh sách đã gửi"
             },
             "settings": {
-                "title": "",
-                "max-file-size": "",
-                "history-controls": "",
-                "side-nav-on-submission": "",
-                "checkbox-style": "",
-                "radio-style": "",
+                "title": "Thiết lập chung biểu mẫu",
+                "max-file-size": "Kích thước tệp tối đa (kB)",
+                "history-controls": "Hiển thị điều khiển hoàn tác/quay lại lại trên trang gửi",
+                "side-nav-on-submission": "Hiển thị thanh điều hướng trên trang gửi",
+                "checkbox-style": "Kiểu hộp kiểm",
+                "radio-style": "Kiểu radio",
                 "style-options": {
-                    "far-square": "",
-                    "fas-square": "",
-                    "far-circle": "",
-                    "fas-circle": "",
-                    "switch": "",
-                    "native": ""
+                    "far-square": "Icon FontAwesome Regular Square",
+                    "fas-square": "Icon FontAwesome Solid Square",
+                    "far-circle": "Icon FontAwesome Regular Circle",
+                    "fas-circle": "Icon FontAwesome Solid Circle",
+                    "switch": "Công tắc Flarum",
+                    "native": "Kiểm soát trình duyệt gốc"
                 }
             }
         },
         "forum": {
             "nav": {
-                "forms": ""
+                "forms": "=> kilowhat-formulaire.ref.manager"
             },
             "form-index": {
                 "header": {
-                    "title": "",
-                    "documentation": "",
-                    "discuss": ""
+                    "title": "=> kilowhat-formulaire.ref.manager",
+                    "documentation": "Tài liệu trực tuyến đầy đủ",
+                    "discuss": "Thảo luận trên Flarum Discuss"
                 },
                 "tabs": {
-                    "standalone": "",
-                    "discussion": "",
-                    "user": ""
+                    "standalone": "=> kilowhat-formulaire.ref.type.standalone",
+                    "discussion": "=> kilowhat-formulaire.ref.type.discussion",
+                    "user": "=> kilowhat-formulaire.ref.type.user"
                 },
-                "empty": "",
-                "load-more": "",
-                "new": "",
-                "edit": "",
-                "show": "",
-                "submissions": "",
+                "empty": "Không có biểu mẫu",
+                "load-more": "Tải thêm",
+                "new": "Biểu mẫu mới",
+                "edit": "Chỉnh sửa",
+                "show": "Hiển thị",
+                "submissions": "Gửi",
                 "columns": {
-                    "title": "",
-                    "accept-submissions": "",
-                    "allow-modification": "",
-                    "submissions": "",
-                    "actions": ""
+                    "title": "Tiêu đề",
+                    "accept-submissions": "Mở",
+                    "allow-modification": "Sửa đổi",
+                    "submissions": "Gửi",
+                    "actions": "Thao tác"
                 }
             },
             "global-settings": {
-                "title": "",
-                "admin-only": "",
+                "title": "Quyền toàn cục",
+                "admin-only": "Chỉ quản trị viên diễn đàn mới có thể chỉnh sửa cài đặt chung",
                 "permissions": {
-                    "fill": "",
-                    "seeOwnUser": "",
-                    "seeAnyUser": "",
-                    "editOwnUser": "",
-                    "editAnyUser": "",
-                    "seeOwnDiscussion": "",
-                    "seeAnyDiscussion": "",
-                    "editOwnDiscussion": "",
-                    "editAnyDiscussion": ""
+                    "fill": "=> kilowhat-formulaire.ref.permissions.fill",
+                    "seeOwnUser": "=> kilowhat-formulaire.ref.permissions.seeOwnUser",
+                    "seeAnyUser": "=> kilowhat-formulaire.ref.permissions.seeAnyUser",
+                    "editOwnUser": "=> kilowhat-formulaire.ref.permissions.editOwnUser",
+                    "editAnyUser": "=> kilowhat-formulaire.ref.permissions.editAnyUser",
+                    "seeOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion",
+                    "seeAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.seeAnyDiscussion",
+                    "editOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.editOwnDiscussion",
+                    "editAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.editAnyDiscussion"
                 }
             },
             "form-create": {
-                "title": "",
+                "title": "Biểu mẫu mới",
                 "field": {
-                    "title": ""
+                    "title": "Tiêu đề"
                 },
                 "button": {
-                    "create": ""
+                    "create": "Tạo biểu mẫu"
                 }
             },
             "form-edit-header": {
-                "back": "",
+                "back": "Trở lại",
                 "category": {
-                    "standalone": "",
-                    "discussion": "",
-                    "user": ""
+                    "standalone": "=> kilowhat-formulaire.ref.type.standalone",
+                    "discussion": "=> kilowhat-formulaire.ref.type.discussion",
+                    "user": "=> kilowhat-formulaire.ref.type.user"
                 },
                 "tabs": {
-                    "template": "",
-                    "placement": "",
-                    "access": "",
-                    "notifications": "",
-                    "submissions": ""
+                    "template": "Mẫu",
+                    "placement": "Vị trí",
+                    "access": "Truy cập",
+                    "notifications": "Thông báo",
+                    "submissions": "Gửi"
                 },
                 "access-status": {
-                    "closed": "",
-                    "create": "",
-                    "edit": "",
-                    "both": ""
+                    "closed": "Đã đóng",
+                    "create": "Chỉ tạo",
+                    "edit": "Chỉ chỉnh sửa",
+                    "both": "Tạo và chỉnh sửa"
                 },
-                "controls": "",
-                "template-export": "",
-                "enable-expert-mode": "",
-                "disable-expert-mode": "",
-                "restore": "",
-                "hide": "",
-                "delete": "",
-                "delete-confirmation": "",
+                "controls": "Điều khiển",
+                "template-export": "Nhập/xuất mẫu",
+                "enable-expert-mode": "Bật chế độ chuyên gia",
+                "disable-expert-mode": "Tắt chế độ chuyên gia",
+                "restore": "Khôi phục",
+                "hide": "Xoá",
+                "delete": "Xóa vĩnh viễn",
+                "delete-confirmation": "Biểu mẫu \"{title}\" sẽ bị xóa vĩnh viễn",
                 "fields": {
-                    "private-title": "",
-                    "slug": ""
+                    "private-title": "Tiêu đề riêng tư",
+                    "slug": "Tuỳ chỉnh slug URL (tuỳ chọn)"
                 }
             },
             "form-edit": {
                 "warnings": {
-                    "show-on-signup-invalid-permissions": "",
-                    "show-on-composer-invalid-permissions": "",
-                    "linked-form-is-draft": "",
-                    "auto-link-permission-warning": ""
+                    "show-on-signup-invalid-permissions": "Bạn cần đặt quyền \"xem của chính mình\" và \"chỉnh sửa của chính mình\" cho các thành viên chưa được phê duyệt để sử dụng \"hiển thị đăng ký\".\n",
+                    "show-on-composer-invalid-permissions": "Đảm bảo khớp quyền \"xem của chính mình\" và \"chỉnh sửa của chính mình\" những người có thể bắt đầu thảo luận với thẻ đã chọn để sử dụng \"hiển thị trong trình soạn thảo\". Đặt thành \"thành viên\" nếu không chắc chắn. Thông báo này có thể xuất hiện ngay cả khi cài đặt của bạn là chính xác.\n",
+                    "linked-form-is-draft": "Biểu mẫu này hiện đang ở chế độ nháp. Bật \"chấp nhận các bài gửi mới\" để các trường xuất hiện trên diễn đàn.\n",
+                    "auto-link-permission-warning": "Biểu mẫu có tùy chọn \"tự động tạo cuộc thảo luận\" sử dụng quyền điền chung khi được truy cập độc lập.\n"
                 },
-                "expert-mode-warning": "",
+                "expert-mode-warning": "Chế độ chuyên gia được bật. Điều này cho phép bạn tùy chỉnh số nhận dạng trường và quyền đối với từng trường. Hãy chắc chắn rằng bạn đã đọc tài liệu về các tính năng đó, vì bạn có thể sẽ phá vỡ mọi thứ!\n",
                 "section": {
-                    "template": "",
-                    "permissions": ""
+                    "template": "Mẫu",
+                    "permissions": "Quyền"
                 },
                 "field": {
-                    "link": "",
-                    "title": "",
+                    "link": "Các loại biểu mẫu đặc biệt",
+                    "title": "Tiêu đề công khai",
                     "show-on-creation": {
-                        "discussion": "",
-                        "user": ""
+                        "discussion": "Hiển thị trong trình soạn thảo thảo luận",
+                        "user": "Hiển thị trong đăng ký"
                     },
-                    "automatic-discussion": "",
-                    "automatic-discussion-help": "",
-                    "accept-submissions": "",
-                    "allow-modification": "",
-                    "max-submissions": "",
-                    "send-confirmation-to-participants": "",
-                    "notify-emails": "",
-                    "web-confirmation-message": "",
-                    "permission-see-own": "",
-                    "permission-see-any": "",
-                    "permission-edit-own": "",
-                    "permission-edit-any": ""
+                    "automatic-discussion": "Tự động tạo các cuộc thảo luận từ việc gửi biểu mẫu",
+                    "automatic-discussion-help": "Khi được bật, biểu mẫu sẽ tiếp tục có thể truy cập được giống như một biểu mẫu độc lập. Nội dung gửi sẽ tự động tạo và kết nối với các cuộc thảo luận mới.\n",
+                    "accept-submissions": "Chấp nhận các bài gửi mới",
+                    "allow-modification": "Cho phép người dùng chỉnh sửa các nội dung gửi hiện có của họ",
+                    "max-submissions": "Số lần gửi tối đa (để trống không giới hạn)",
+                    "send-confirmation-to-participants": "Gửi email xác nhận cho người tham gia",
+                    "notify-emails": "Gửi bản sao dữ liệu tới các email được phân tách bằng dấu phẩy đó",
+                    "web-confirmation-message": "Thông báo xác nhận trên web (đã bật định dạng)",
+                    "permission-see-own": "Xem bài gửi của chính mình",
+                    "permission-see-any": "Xem bất kỳ bài gửi nào",
+                    "permission-edit-own": "Chỉnh sửa bài gửi của chính mình",
+                    "permission-edit-any": "Chỉnh sửa bất kỳ bài gửi nào"
                 },
                 "link-options": {
-                    "standalone": "",
-                    "groups": "",
-                    "all-groups": "",
-                    "tags": "",
-                    "all-tags": ""
+                    "standalone": "Độc lập",
+                    "groups": "Thông tin người dùng",
+                    "all-groups": "Cho bất ký nhóm nào",
+                    "tags": "Trường cuộc thảo luận",
+                    "all-tags": "Cho bất kỳ thẻ nào"
                 },
-                "auto-discussion-options": "",
-                "email-confirmation-options": "",
-                "email-notification-options": "",
-                "exiting-with-unsaved-data": "",
-                "preview": "",
-                "save-for-preview": ""
+                "auto-discussion-options": "Tuỳ chỉnh cho cuộc thảo luận mới",
+                "email-confirmation-options": "Mẫu email xác nhận",
+                "email-notification-options": "Mẫu email thông báo",
+                "exiting-with-unsaved-data": "Bạn có các thay đổi chưa lưu. Bạn có thực sự muốn thoát khỏi trang này không?",
+                "preview": "Xem trước trong tab mới",
+                "save-for-preview": "Lưu để xem trước"
             },
             "auto-discussion-options-modal": {
-                "title": "",
-                "introduction": "",
-                "submit": "",
+                "title": "Các tùy chọn thảo luận tự động",
+                "introduction": "Các cài đặt này sẽ áp dụng cho các cuộc thảo luận mới đã được tạo tự động bằng cách gửi biểu mẫu được kết nối với thẻ. Bạn có thể sử dụng các giá trị từ việc gửi biểu mẫu bằng cú pháp dấu ngoặc nhọn với trường slug. Theo mặc định, {title} và {content} sẽ được sử dụng tương ứng.\n",
+                "submit": "Xác thực các thay đổi",
                 "field": {
-                    "title": "",
-                    "tags": "",
-                    "tags-help": "",
-                    "content": ""
+                    "title": "Tiêu đề thảo luận",
+                    "tags": "Thẻ thảo luận",
+                    "tags-help": "Danh sách slug thẻ được phân tách bằng dấu phẩy. Các thẻ đã chọn sẽ được thêm vào ngoài thẻ mà biểu mẫu này được kết nối.\n",
+                    "content": "Nội dung bài viết"
                 }
             },
             "confirmation-email-options-modal": {
-                "title": "",
-                "submit": "",
+                "title": "Mẫu email",
+                "submit": "Xác thực các thay đổi",
                 "field": {
-                    "title": "",
-                    "message": ""
+                    "title": "Tiêu đề",
+                    "message": "Nội dung"
                 }
             },
             "save-controls": {
-                "validation-errors": "",
-                "unsaved-changes": "",
-                "saved-at": "",
-                "undo": "",
-                "redo": "",
-                "save": ""
+                "validation-errors": "Chúng tôi đã tìm thấy vài lỗi trong bản gửi của bạn",
+                "unsaved-changes": "Bạn có thay đổi chưa được lưu",
+                "saved-at": "Đã lưu {ago}",
+                "undo": "Hoàn tác",
+                "redo": "Quay lại",
+                "save": "Lưu lại"
             },
             "permission-controls": {
-                "inherit": "",
-                "everyone_button": "",
-                "disabled_members_button": "",
-                "members_button": ""
+                "inherit": "Sử dụng mặc định",
+                "everyone_button": "=> core.admin.permissions_controls.everyone_button",
+                "disabled_members_button": "Thành viên không được kích hoạt và bị tạm ngưng",
+                "members_button": "Thành viên đã kích hoạt"
             },
             "template-editor": {
-                "add-field": "",
-                "title": "",
-                "description": "",
-                "key": "",
-                "fill-permission": "",
-                "required": "",
-                "rich": "",
-                "min": "",
-                "max": "",
-                "integer": "",
-                "email": "",
-                "regex": "",
+                "add-field": "Thêm trường",
+                "title": "Tiêu đề",
+                "description": "Mô tả",
+                "key": "(Chuyên gia) Mã khoá JSON trong tải trọng gửi",
+                "fill-permission": "(Chuyên gia) Điền các quyền",
+                "required": "Yêu cầu",
+                "rich": "Rich text (TextFormatter)",
+                "min": "Tối thiểu",
+                "max": "Tối đa",
+                "integer": "Số nguyên",
+                "email": "Email",
+                "regex": "Biểu thức chính quy",
                 "mime": "",
                 "other": "",
                 "duplicate": "",
