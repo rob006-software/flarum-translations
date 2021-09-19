@@ -3,21 +3,21 @@
         "forum": {
             "composer": {
                 "warning": {
-                    "title": "",
-                    "description": "",
-                    "error": ""
+                    "title": "Beitrag abgelaufen",
+                    "description": "Dieser Beitrag ist abgelaufen.",
+                    "error": "Diese Diskussion ist abgelaufen."
                 }
             }
         },
         "admin": {
             "settings": {
-                "days_label": "",
-                "days_help": "",
-                "message_title_label": "",
-                "message_title_help": "",
-                "message_description_label": "",
-                "tags_title": "",
-                "tags_help": ""
+                "days_label": "tage",
+                "days_help": "Eine Diskussion wird als abgelaufen markiert, wenn die angegebene Anzahl von Tagen seit der Veröffentlichung des letzten Beitrags zu dieser Diskussion vergangen ist. Verwende <code>0</code>, um es standardmäßig zu deaktivieren.",
+                "message_title_label": "Benutzerdefinierter Nachrichtentitel",
+                "message_title_help": "Verwende <code>[time]</code> für den Zeittext, z.B. '14 Tage'.",
+                "message_description_label": "Beschreibung der benutzerdefinierten Nachricht",
+                "tags_title": "Stichworte",
+                "tags_help": "Überschreibe die globalen Tage für ein bestimmtes Tag. Leer bedeutet, dass der Standardwert verwendet wird. Wenn eine Diskussion mehrere Tags mit unterschiedlichen Tageswerten hat, wird die kleinste Anzahl konfigurierter Tage verwendet."
             }
         }
     }
