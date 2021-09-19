@@ -15,7 +15,7 @@
                 "allow_select_own_post": "Sélectionner ses propres publications",
                 "allow_select_own_post_help": "Autoriser l'auteur original à sélectionner l'un de ses propres messages de la discussion comme meilleure réponse",
                 "enable_all_tags_button": "Activer toutes les étiquettes pour les meilleures réponses",
-                "enable_all_tags_reminder_button": "Activer toutes les étiquettes pour les rappels de Meilleure réponse",
+                "enable_all_tags_reminder_button": "Activer toutes les étiquettes pour les rappels d'une meilleure réponse",
                 "select_best_answer_reminder_days": "Fréquence des rappels",
                 "select_best_answer_reminder_days_help": "Envoyer un rappel à l'auteur original après le nombre de jours configurable pour sélectionner une meilleure réponse, 0 = désactive les rappels.",
                 "schedule_on_one_server": "Utilisez la directive 'onOneServer ()' pour le planificateur de tâches",
@@ -23,17 +23,17 @@
                 "schedule_stop_overnight": "Empêcher l'envoi de notifications de rappel pendant les heures creuses",
                 "schedule_stop_overnight_help": "9h00 - 8h00 (heure du serveur)",
                 "schedule_log_output": "Ajouter la sortie du planificateur au stockage des journaux",
-                "show_filter_label": "Afficher la liste déroulante du filtre Meilleure réponse",
-                "show_filter_help": "Pour les étiquettes pour lesquelles Meilleures réponses est activée, choisissez d'afficher l'option de filtre résolu/non résolu dans la liste de discussion",
+                "show_filter_label": "Afficher la liste déroulante du filtre de meilleure réponse",
+                "show_filter_help": "Pour les étiquettes avec lesquelles l'extension « Best Answers » est activée, choisissez d'afficher l'option de filtre résolu/non résolu dans la liste de discussions",
                 "use_alt_ui": "Mise en page alternative",
                 "use_alt_ui_help": "Contrôles de la meilleure réponse dans le pied de page du message",
                 "documentation": "Documentation",
-                "introduction": "Active quelles balises doivent supporter les meilleures réponses dans l'extension <code><a>flarum/tags</a></code>, et, optionnellement, la ou les balises qui doivent prendre en charge les rappels. Lorsqu'une balise est activée avec l'extension Best Answer, cela attribue des autorisations à chaque groupe d'utilisateurs qui peut définir des réponses (dans sa propre discussion ou dans toute discussion). Les autorisations peuvent être attribuées globalement (pour toute balise activée avec l'extension Best Answer), ou sur une base par balise.\n",
+                "introduction": "Active quelles étiquettes doivent supporter les meilleures réponses dans l'extension <code><a>flarum/tags</a></code>, et, optionnellement, la ou les étiquettes qui doivent prendre en charge les rappels. Lorsqu'une étiquette est activée avec l'extension « Best Answer », cela attribue des autorisations à chaque groupe d'utilisateurs qui peut définir des réponses (dans sa propre discussion ou dans toute discussion). Les autorisations peuvent être attribuées globalement (pour toute étiquette activée avec l'extension « Best Answer »), ou sur une base par étiquette.\n",
                 "remind_tag_ids": "Pour restreindre les rappels à des étiquettes particulières, entrez les identifiants des étiquettes ici (séparés par des virgules)"
             },
             "edit_tag": {
-                "qna_label": "Permettre à l'extension Best Answers d'être paramétrée dans cette balise",
-                "reminders": "Envoyer des rappels pour définir une meilleure réponse pour les discussions avec cette balise"
+                "qna_label": "Permettre à l'extension « Best Answers » d'être paramétrée dans cette étiquette",
+                "reminders": "Envoyer des rappels pour définir une meilleure réponse pour les discussions avec cette étiquette"
             }
         },
         "forum": {
