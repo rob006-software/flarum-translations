@@ -22,10 +22,10 @@
                 "guest": "Invité"
             },
             "post": {
-                "viewed_by": "",
-                "you": "",
-                "others_link": "",
-                "modal_title_text": ""
+                "viewed_by": "{users} ont vu ceci.",
+                "you": "=> core.ref.you",
+                "others_link": "=> core.ref.some_others",
+                "modal_title_text": "Utilisateurs ayant vu cette discussion pour la dernière fois"
             }
         },
         "admin": {
@@ -36,13 +36,13 @@
             "settings": {
                 "title": "Paramètres des vues de la discussion",
                 "track_unique_label": "Suivre les vues uniques",
-                "track_guests": "",
+                "track_guests": "Suivre les invités",
                 "abbr_numbers_label": "Abréger le nombre de vues",
                 "show_filter_label": "Activer le champ de tri (im)populaire",
                 "max_viewcount_label": "Nombre maximal d'éléments de la liste d'affichage",
-                "max_viewcount_text": "",
+                "max_viewcount_text": "Cela s'applique à la liste de visualisation du pied de page et à la liste de visualisation de la barre latérale",
                 "show_viewlist_label": "Activer la liste d'affichage",
-                "show_footer_viewlist_label": ""
+                "show_footer_viewlist_label": "Activer la liste de visualisation du pied de page"
             }
         }
     }
