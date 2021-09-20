@@ -471,6 +471,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`jslirola-login2seeplus`](https://weblate.rob006.net/projects/flarum/jslirola-login2seeplus) | [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus) |
 | [`justoverclock-custom-header`](https://weblate.rob006.net/projects/flarum/justoverclock-custom-header) | [`justoverclock/custom-header`](https://github.com/justoverclockl/custom-header) |
 | [`justoverclock-custom-html-widget`](https://weblate.rob006.net/projects/flarum/justoverclock-custom-html-widget) | [`justoverclock/custom-html-widget`](https://github.com/justoverclockl/custom-html-widget) |
+| [`justoverclock-discussion-hero-showtags`](https://weblate.rob006.net/projects/flarum/justoverclock-discussion-hero-showtags) | [`justoverclock/discussion-hero-showtags`](https://github.com/justoverclockl/discussion-hero-showtags) |
 | [`justoverclock-discussion-info`](https://weblate.rob006.net/projects/flarum/justoverclock-discussion-info) | [`justoverclock/discussion-info`](https://github.com/justoverclockl/discussions-info) |
 | [`justoverclock-edit-posts`](https://weblate.rob006.net/projects/flarum/justoverclock-edit-posts) | [`justoverclock/edit-posts`](https://github.com/justoverclockl/edit-posts) |
 | [`justoverclock-events-countdown`](https://weblate.rob006.net/projects/flarum/justoverclock-events-countdown) | [`justoverclock/events-countdown`](https://github.com/justoverclockl/events-countdown) |
