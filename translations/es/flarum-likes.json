@@ -8,11 +8,11 @@
         "forum": {
             "notifications": {
                 "others_text": "=> core.ref.some_others",
-                "post_liked_text": "A {username} le gustó tu publicación|A {username} les gustó tu publicación"
+                "post_liked_text": "{count, plural, one {A {username} le gustó tu publicación.} other {A {username} les gustó tu publicación.}}"
             },
             "post": {
                 "like_link": "Me gusta",
-                "liked_by_self_text": "A {users} te gusta esto.|A {users} os gusta esto.",
+                "liked_by_self_text": "{count, plural, one {A ti te gusta esto} other {A {users} os gusta esto}}",
                 "liked_by_text": "{count, plural, one {{users} le gusta esto} other {{users} les gusta esto}}",
                 "others_link": "=> core.ref.some_others",
                 "unlike_link": "Ya no me gusta",
