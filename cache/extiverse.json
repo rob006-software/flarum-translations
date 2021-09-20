@@ -121,6 +121,14 @@
         "requiredFlarum": "^1.0.0",
         "subscriptionPlans": []
     },
+    "glowingblue/newvigation": {
+        "name": "glowingblue/newvigation",
+        "title": "GB Newvigation",
+        "description": "A new way to navigate in Flarum",
+        "version": "0.1.5",
+        "requiredFlarum": ">=0.1.0-beta.12 <0.1.0-beta.14",
+        "subscriptionPlans": []
+    },
     "glowingblue/scheduled-posts": {
         "name": "glowingblue/scheduled-posts",
         "title": "GB Scheduled Posts",
@@ -264,7 +272,7 @@
         "title": "ReFlar Webhooks PRO",
         "description": "Webhooks PRO by ReFlar",
         "version": "0.3.0",
-        "requiredFlarum": null,
+        "requiredFlarum": "^0.1.0-beta.11",
         "subscriptionPlans": []
     },
     "v17development/flarum-support": {
