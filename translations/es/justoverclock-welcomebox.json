@@ -1,22 +1,22 @@
 {
     "flarum-ext-welcomebox": {
         "forum": {
-            "wback": "",
-            "npost": "",
-            "discussion": "",
-            "welcomeguest": "",
-            "notregistered": "",
-            "goToProfile": "",
+            "wback": "Bienvenido de nuevo,",
+            "npost": "=> core.ref.posts",
+            "discussion": "=> core.ref.discussions",
+            "welcomeguest": "Bienvenido Invitado",
+            "notregistered": "Actualmente no estás registrado en este foro.",
+            "goToProfile": "Perfil",
             "SettingsLink": "",
-            "tooltipProfile": "",
-            "tooltipMentions": "",
-            "tooltipDisclist": "",
-            "lastSeen": ""
+            "tooltipProfile": "Perfil",
+            "tooltipMentions": "Menciones",
+            "tooltipDisclist": "Mis discusiones",
+            "lastSeen": "Última Visita"
         },
         "admin": {
-            "enablepostbox": "",
-            "img": "",
-            "img-help": ""
+            "enablepostbox": "Habilitar el cuadro de bienvenida para invitados",
+            "img": "URL de imagen (invitados)",
+            "img-help": "pon aquí la URL de la imagen para el cuadro de invitados"
         }
     }
 }
