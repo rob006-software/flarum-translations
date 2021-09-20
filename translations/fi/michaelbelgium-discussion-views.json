@@ -22,10 +22,10 @@
                 "guest": "Vieras"
             },
             "post": {
-                "viewed_by": "",
-                "you": "",
-                "others_link": "",
-                "modal_title_text": ""
+                "viewed_by": "{users} katsoi tätä.",
+                "you": "=> core.ref.you",
+                "others_link": "=> core.ref.some_others",
+                "modal_title_text": "Käyttäjät jotka viimeksi katsoivat tätä keskustelua"
             }
         },
         "admin": {
@@ -36,13 +36,13 @@
             "settings": {
                 "title": "Katselukertojen asetukset",
                 "track_unique_label": "Seuraa uniikkeja katselukertoja",
-                "track_guests": "",
+                "track_guests": "Seuraa vieraita",
                 "abbr_numbers_label": "Lyhennä katselukertojen numeroita",
                 "show_filter_label": "Ota käyttöön (epä)suosittu järjestys valinta",
                 "max_viewcount_label": "Maksimimäärä katselulistan kohtaa",
-                "max_viewcount_text": "",
+                "max_viewcount_text": "Tämä vaikuttaa alaosan ja sivupalkin listauksiin",
                 "show_viewlist_label": "Ota katselulista käyttöön",
-                "show_footer_viewlist_label": ""
+                "show_footer_viewlist_label": "Ota käyttöön alaosan listaus"
             }
         }
     }
