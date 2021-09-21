@@ -112,7 +112,7 @@
                     "support": "Hỗ trợ",
                     "website": "Trang web"
                 },
-                "no_permissions": "Tiện ích mở rộng này không có quyền nào.",
+                "no_permissions": "Tiện ích mở rộng này không yêu cầu bất kỳ quyền nào.",
                 "no_settings": "Tiện ích mở rộng này không có thiết lập nào.",
                 "open_modal": "Mở thiết lập",
                 "permissions_title": "Quyền",
@@ -161,14 +161,14 @@
                 "delete_posts_label": "Xóa bài viết",
                 "description": "Cấu hình ai có thể xem hoặc làm điều gì đó.",
                 "edit_posts_label": "Chỉnh sửa bài viết",
-                "edit_users_label": "Chỉnh sửa thuộc tính người dùng",
-                "edit_users_credentials_label": "Chỉnh sửa thông tin đăng nhập của người dùng",
+                "edit_users_label": "Chỉnh sửa thông tin người dùng",
+                "edit_users_credentials_label": "Chỉnh sửa thông tin đăng nhập người dùng",
                 "edit_users_groups_label": "Chỉnh sửa nhóm người dùng",
                 "global_heading": "Toàn bộ",
                 "moderate_heading": "Kiểm duyệt",
                 "new_group_button": "Nhóm mới",
                 "participate_heading": "Tham dự",
-                "post_without_throttle_label": "Trả lời nhiều lần mà không cần chờ đợi",
+                "post_without_throttle_label": "Trả lời liên tục không cần chờ đợi",
                 "read_heading": "Đọc",
                 "rename_discussions_label": "Đổi tên cuộc thảo luận",
                 "reply_to_discussions_label": "Trả lời cuộc thảo luận",
@@ -188,7 +188,7 @@
                 "allow_until_reply_button": "Cho đến khi có câu trả lời tiếp theo",
                 "everyone_button": "Mọi người",
                 "members_button": "=> core.group.members",
-                "signup_closed_button": "Đóng",
+                "signup_closed_button": "Đã đóng",
                 "signup_open_button": "Mở"
             },
             "settings": {
@@ -233,7 +233,7 @@
                 "pagination": {
                     "back_button": "Trang trước",
                     "next_button": "Trang sau",
-                    "page_counter": "Trang {current} của {total}"
+                    "page_counter": "Trang {current} trên {total}"
                 },
                 "title": "=> core.ref.users",
                 "total_users": "Tổng người dùng: {count}"
@@ -609,7 +609,7 @@
             "save_changes": "Lưu thay đổi",
             "settings": "Cài đặt",
             "sign_up": "Đăng ký",
-            "some_others": "{count, plural, one {# khác} other {# khác}}",
+            "some_others": "{count, plural, one {# người khác} other {# người khác}}",
             "start_a_discussion": "Tạo cuộc thảo luận",
             "username": "Tên tài khoản",
             "users": "Người dùng",
