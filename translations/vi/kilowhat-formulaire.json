@@ -215,201 +215,201 @@
                 "integer": "Số nguyên",
                 "email": "Email",
                 "regex": "Biểu thức chính quy",
-                "mime": "",
-                "other": "",
-                "duplicate": "",
-                "delete": "",
-                "missing-title": "",
-                "no-answer": "",
+                "mime": "Kiểu MIME (được phân tách bằng dấu phẩy, chấp nhận ký tự đại diện làm phần thứ hai)",
+                "other": "Cho phép giá trị người dùng \"khác\"",
+                "duplicate": "Trường trùng lặp",
+                "delete": "Xoá trường",
+                "missing-title": "Trường không có tiêu đề",
+                "no-answer": "Không có trả lời",
                 "type": {
-                    "short": "",
-                    "long": "",
-                    "number": "",
-                    "date": "",
-                    "checkbox": "",
-                    "radio": "",
-                    "select": "",
-                    "upload": "",
-                    "content": "",
-                    "items": ""
+                    "short": "Văn bản ngắn",
+                    "long": "Văn bản dài",
+                    "number": "Số",
+                    "date": "Ngày",
+                    "checkbox": "Hộp kiểm",
+                    "radio": "Radio",
+                    "select": "Trình thả xuống",
+                    "upload": "Tải lên",
+                    "content": "Nội dung",
+                    "items": "Nhiều mục"
                 }
             },
             "options-editor": {
                 "columns": {
-                    "title": "",
-                    "key": ""
+                    "title": "Tiêu đề",
+                    "key": "(Chuyên gia) Khóa duy nhất"
                 },
-                "remove": "",
-                "new-placeholder": ""
+                "remove": "Xoá tuỳ chọn",
+                "new-placeholder": "Tuỳ chọn mới..."
             },
             "items-editor": {
-                "add": "",
-                "remove": ""
+                "add": "Thêm dòng",
+                "remove": "Xoá dòng"
             },
             "upload-editor": {
-                "uploading": "",
-                "remove": ""
+                "uploading": "Đang tải lên...",
+                "remove": "Xoá tệp"
             },
             "rich-text": {
-                "preview-placeholder": ""
+                "preview-placeholder": "Nhập để xem trước"
             },
             "select": {
-                "choose": ""
+                "choose": "Chọn tuỳ chọn"
             },
             "choice": {
-                "other-label": "",
-                "other-placeholder": ""
+                "other-label": "Khác:",
+                "other-placeholder": "Nhập..."
             },
             "submission": {
-                "form-closed": "",
-                "form-full": "",
-                "edit-forbidden": "",
-                "submitted-successfully": "",
-                "edit-submission": "",
-                "submit-other": "",
-                "unlock": "",
-                "lock": "",
-                "restore": "",
-                "hide": "",
-                "delete": "",
-                "delete-confirmation": ""
+                "form-closed": "Biểu mẫu này đã bị đóng.",
+                "form-full": "Biểu mẫu này đã đạt đến số lượng gửi tối đa.",
+                "edit-forbidden": "Bạn không thể chỉnh sửa bài gửi này nữa.",
+                "submitted-successfully": "Bản gửi của bạn đã được gửi thành công.",
+                "edit-submission": "Chỉnh sửa bản gửi",
+                "submit-other": "Gửi cái khác",
+                "unlock": "Mở khoá",
+                "lock": "Khoá",
+                "restore": "Khôi phục",
+                "hide": "Xoá",
+                "delete": "Xóa vĩnh viễn",
+                "delete-confirmation": "Nội dung bản gửi từ {date} sẽ bị xóa vĩnh viễn"
             },
             "submission-index": {
-                "form-edit": "",
-                "form-show": "",
-                "show": "",
-                "guest": "",
-                "load-more": "",
-                "empty": "",
-                "export": "",
+                "form-edit": "Chỉnh sửa biểu mẫu",
+                "form-show": "Bản gửi mới",
+                "show": "Hiển thị",
+                "guest": "Khách",
+                "load-more": "Tải thêm",
+                "empty": "Chưa có bản gửi nào",
+                "export": "Xuất",
                 "columns": {
-                    "date": "",
-                    "user": "",
-                    "actions": ""
+                    "date": "Ngày",
+                    "user": "Người dùng",
+                    "actions": "Thao tác"
                 }
             },
             "badge": {
-                "locked": "",
-                "hidden": ""
+                "locked": "Đã khoá",
+                "hidden": "Đã ẩn"
             },
             "error-page": {
-                "denied-title": "",
-                "denied-description": "",
-                "notfound-title": "",
-                "notfound-description": ""
+                "denied-title": "Quyền bị từ chối",
+                "denied-description": "Có vẻ như bạn không có quyền truy cập vào nội dung này. Hãy thử đăng nhập.",
+                "notfound-title": "Không tìm thấy",
+                "notfound-description": "Nội dung này không tồn tại hoặc có thể bạn không có quyền truy cập vào nó."
             },
             "submission-sort": {
-                "latest": "",
-                "oldest": ""
+                "latest": "Bản gửi mới nhất",
+                "oldest": "Bản gửi cũ nhất"
             },
             "form-sort": {
-                "latest": "",
-                "oldest": ""
+                "latest": "Biểu mẫu mới",
+                "oldest": "Biểu mẫu cũ nhất"
             },
             "export": {
-                "title": "",
-                "format": "",
-                "heading": "",
-                "fields": "",
-                "meta": "",
-                "more-meta": "",
-                "option-keys": "",
-                "submit": "",
-                "preview": "",
+                "title": "Xuất các bản gửi",
+                "format": "Định dạng",
+                "heading": "Tiêu đề / khoá",
+                "fields": "Trường",
+                "meta": "Siêu dữ liệu",
+                "more-meta": "Các tùy chọn meta khác",
+                "option-keys": "Xuất các khoá tùy chọn thay vì tiêu đề cho hộp kiểm, radio và chọn",
+                "submit": "Tải xuống",
+                "preview": "Xem trước",
                 "format-options": {
-                    "xlsx": "",
-                    "xls": "",
-                    "ods": "",
-                    "csv": "",
-                    "json": ""
+                    "xlsx": "XLSX",
+                    "xls": "XLS",
+                    "ods": "ODS",
+                    "csv": "CSV",
+                    "json": "JSON"
                 },
                 "heading-options": {
-                    "title": "",
-                    "key": "",
-                    "none": ""
+                    "title": "Tiêu đề trường",
+                    "key": "Từ khoá trường",
+                    "none": "Không có dòng tiêu đề"
                 },
                 "meta-options": {
-                    "uid": "",
-                    "user_id": "",
-                    "user_username": "",
-                    "user_displayname": "",
-                    "user_email": "",
-                    "user_activated": "",
-                    "link_id": "",
-                    "locked_at": "",
-                    "created_at": "",
-                    "updated_at": "",
-                    "hidden_at": ""
+                    "uid": "=> kilowhat-formulaire.ref.submission-meta.uid",
+                    "user_id": "=> kilowhat-formulaire.ref.submission-meta.user_id",
+                    "user_username": "=> kilowhat-formulaire.ref.submission-meta.user_username",
+                    "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
+                    "user_email": "=> kilowhat-formulaire.ref.submission-meta.user_email",
+                    "user_activated": "=> kilowhat-formulaire.ref.submission-meta.user_activated",
+                    "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
+                    "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
+                    "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
+                    "updated_at": "=> kilowhat-formulaire.ref.submission-meta.updated_at",
+                    "hidden_at": "=> kilowhat-formulaire.ref.submission-meta.hidden_at"
                 },
                 "preview-primitives": {
-                    "excel-date": "",
-                    "boolean-true": "",
-                    "boolean-false": ""
+                    "excel-date": "(NGÀY EXCEL)",
+                    "boolean-true": "True",
+                    "boolean-false": "False"
                 }
             }
         },
         "api": {
-            "formatter-parsing-error": "",
-            "not-allowed-to-fill-field": "",
-            "duplicate-field-key": "",
-            "cannot-change-form-type": "",
-            "unknown-form": "",
-            "unauthorized-form": "",
-            "file-already-belongs-form": "",
-            "file-already-belongs-submission": "",
+            "formatter-parsing-error": "Không thể phân tích cú pháp nội dung: {message}",
+            "not-allowed-to-fill-field": "Bạn không được phép thay đổi giá trị của trường này",
+            "duplicate-field-key": "Khóa phải là duy nhất",
+            "cannot-change-form-type": "Bạn không thể thay đổi loại biểu mẫu đã gửi hiện có",
+            "unknown-form": "ID biểu mẫu không được công nhận {id}",
+            "unauthorized-form": "Bạn không có quyền cần thiết để điền ID biểu mẫu {id}",
+            "file-already-belongs-form": "Tệp {id} thuộc biểu mẫu khác",
+            "file-already-belongs-submission": "Tệp {id} thuộc về một bài gửi khác",
             "export": {
                 "meta": {
-                    "uid": "",
-                    "user_id": "",
-                    "user_username": "",
-                    "user_displayname": "",
-                    "user_email": "",
-                    "user_activated": "",
-                    "link_id": "",
-                    "locked_at": "",
-                    "created_at": "",
-                    "updated_at": "",
-                    "hidden_at": ""
+                    "uid": "=> kilowhat-formulaire.ref.submission-meta.uid",
+                    "user_id": "=> kilowhat-formulaire.ref.submission-meta.user_id",
+                    "user_username": "=> kilowhat-formulaire.ref.submission-meta.user_username",
+                    "user_displayname": "=> kilowhat-formulaire.ref.submission-meta.user_displayname",
+                    "user_email": "=> kilowhat-formulaire.ref.submission-meta.user_email",
+                    "user_activated": "=> kilowhat-formulaire.ref.submission-meta.user_activated",
+                    "link_id": "=> kilowhat-formulaire.ref.submission-meta.link_id",
+                    "locked_at": "=> kilowhat-formulaire.ref.submission-meta.locked_at",
+                    "created_at": "=> kilowhat-formulaire.ref.submission-meta.created_at",
+                    "updated_at": "=> kilowhat-formulaire.ref.submission-meta.updated_at",
+                    "hidden_at": "=> kilowhat-formulaire.ref.submission-meta.hidden_at"
                 }
             }
         },
         "mail": {
-            "title-your-submission": "",
-            "title-new-submission": "",
-            "edit": "",
-            "footer": "",
-            "sub-entries": ""
+            "title-your-submission": "Nội dung bạn gửi cho {title}",
+            "title-new-submission": "Bài gửi mới cho {title}",
+            "edit": "Chỉnh sửa",
+            "footer": "Được gửi từ {title}",
+            "sub-entries": "{count} mục"
         },
         "ref": {
-            "manager": "",
+            "manager": "Người quản lý biểu mẫu",
             "type": {
-                "standalone": "",
-                "discussion": "",
-                "user": ""
+                "standalone": "Biểu mẫu độc lập",
+                "discussion": "Trường cuộc thảo luận",
+                "user": "Thông tin người dùng"
             },
             "permissions": {
-                "fill": "",
-                "seeOwnUser": "",
-                "seeAnyUser": "",
-                "editOwnUser": "",
-                "editAnyUser": "",
-                "seeOwnDiscussion": "",
-                "seeAnyDiscussion": "",
-                "editOwnDiscussion": "",
-                "editAnyDiscussion": ""
+                "fill": "Điền vào các biểu mẫu độc lập",
+                "seeOwnUser": "Xem trường hồ sơ của riêng mình",
+                "seeAnyUser": "Xem bất kỳ trường hồ sơ nào",
+                "editOwnUser": "Chỉnh sửa trường hồ sơ của riêng mình",
+                "editAnyUser": "Chỉnh sửa bất kỳ trường hồ sơ nào",
+                "seeOwnDiscussion": "Xem trường cuộc thảo luận của riêng mình",
+                "seeAnyDiscussion": "Xem bất kỳ trường cuộc thảo luận nào",
+                "editOwnDiscussion": "Chỉnh sửa trường cuộc thảo luận của riêng mình",
+                "editAnyDiscussion": "Chỉnh sửa bất kỳ trường cuộc thảo luận nào"
             },
             "submission-meta": {
-                "uid": "",
-                "user_id": "",
-                "user_username": "",
-                "user_displayname": "",
-                "user_email": "",
-                "user_activated": "",
-                "link_id": "",
-                "locked_at": "",
-                "created_at": "",
-                "updated_at": "",
-                "hidden_at": ""
+                "uid": "ID bài gửi",
+                "user_id": "ID người dùng",
+                "user_username": "Tên người dùng",
+                "user_displayname": "Tên hiển thị của người dùng",
+                "user_email": "Email người dùng",
+                "user_activated": "Tài khoản đã kích hoạt",
+                "link_id": "ID tài nguyên đã liên kết",
+                "locked_at": "Ngày khoá",
+                "created_at": "Ngày tạo",
+                "updated_at": "Ngày cập nhật",
+                "hidden_at": "Ngày xóa mềm"
             }
         }
     }
