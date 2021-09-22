@@ -573,6 +573,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`datitisev-backup`](https://weblate.rob006.net/projects/flarum/datitisev-backup) | [`datitisev/flarum-backup`](https://extiverse.com/extension/datitisev/flarum-backup) |
 | [`datitisev-maintenance`](https://weblate.rob006.net/projects/flarum/datitisev-maintenance) | [`datitisev/flarum-maintenance`](https://extiverse.com/extension/datitisev/flarum-maintenance) |
 | [`datitisev-webhooks-pro`](https://weblate.rob006.net/projects/flarum/datitisev-webhooks-pro) | [`datitisev/flarum-webhooks-pro`](https://extiverse.com/extension/datitisev/flarum-webhooks-pro) |
+| [`justoverclock-related-discussions`](https://weblate.rob006.net/projects/flarum/justoverclock-related-discussions) | [`justoverclock/related-discussions`](https://extiverse.com/extension/justoverclock/related-discussions) |
 | [`kilowhat-audit-pro`](https://weblate.rob006.net/projects/flarum/kilowhat-audit-pro) | [`kilowhat/flarum-ext-audit-pro`](https://extiverse.com/extension/kilowhat/flarum-ext-audit-pro) |
 | [`kilowhat-custom-paths`](https://weblate.rob006.net/projects/flarum/kilowhat-custom-paths) | [`kilowhat/flarum-ext-custom-paths`](https://extiverse.com/extension/kilowhat/flarum-ext-custom-paths) |
 | [`kilowhat-formulaire`](https://weblate.rob006.net/projects/flarum/kilowhat-formulaire) | [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire) |
