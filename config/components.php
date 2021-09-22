@@ -527,7 +527,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/last-users-posts/0.1.5/locale/en.yml',
 	],
 	'justoverclock-newsfeed' => [
-		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-newsfeed/1.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-newsfeed/1.0.1/resources/locale/en.yml',
 	],
 	'justoverclock-newsletter' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-newsletter/1.0.0/resources/locale/en.yml',
