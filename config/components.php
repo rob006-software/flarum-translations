@@ -547,6 +547,9 @@ return [
 	'justoverclock-realtimecode' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-realtimecode/1.0.0/resources/locale/en.yml',
 	],
+	'justoverclock-related-discussions' => [
+		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/justoverclock-related-discussions.yml',
+	],
 	'justoverclock-socialcards' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-socialcards/1.0.0/resources/locale/en.yml',
 	],
