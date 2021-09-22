@@ -316,9 +316,9 @@
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Profilo",
-                "search_clear_button_accessible_label": "",
+                "search_clear_button_accessible_label": "Cancella query di ricerca",
                 "search_placeholder": "Cerca",
-                "search_role_label": "",
+                "search_role_label": "Cerca nel Forum",
                 "session_dropdown_accessible_label": "Attiva/disattiva il menu a discesa delle opzioni di sessione",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
@@ -367,7 +367,7 @@
             },
             "post_controls": {
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "Sei sicuro di volere cancellare questa discussione per sempre? Questa azione è irreversibile.",
+                "delete_confirmation": "Sei sicuro di volere eliminare questo post per sempre? Questa azione è irreversibile.",
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "edit_button": "=> core.ref.edit",
                 "hide_confirmation": "Sei sicuro di voler eliminare questo post?",
@@ -471,7 +471,7 @@
                 "generic_message": "Oops! Qualcosa è andato storto. Aggiorna la pagina e riprova.",
                 "missing_dependencies_message": "Non puoi attivare l'estensione {extension} finché non attiverai le seguenti estensioni: {extensions}",
                 "not_found_message": "La risorsa richiesta non è stata trovata.",
-                "payload_too_large_message": "",
+                "payload_too_large_message": "Il payload richiesto era troppo grande.",
                 "permission_denied_message": "Non hai il permesso di farlo.",
                 "rate_limit_exceeded_message": "Stai scrivendo un po' troppo in fretta. Riprova tra qualche secondo."
             },
@@ -494,18 +494,18 @@
         "views": {
             "admin": {
                 "extensions": {
-                    "caption": "",
-                    "disable": "",
-                    "empty": "",
-                    "enable": "",
-                    "name": "",
-                    "package_name": "",
-                    "version": ""
+                    "caption": "=> core.ref.extensions",
+                    "disable": "Disabilita",
+                    "empty": "Nessuna estensione installata",
+                    "enable": "Abilita",
+                    "name": "Nome Estensione",
+                    "package_name": "Nome Pacchetto",
+                    "version": "Versione"
                 },
                 "info": {
-                    "caption": ""
+                    "caption": "Info Applicazione"
                 },
-                "title": ""
+                "title": "Amministrazione"
             },
             "confirm_email": {
                 "submit_button": "=> core.ref.confirm_email",
@@ -587,7 +587,7 @@
             "edit": "Modifica",
             "edit_user": "Modifica Utente",
             "email": "E-mail",
-            "extensions": "",
+            "extensions": "Estensioni",
             "icon": "Icona",
             "icon_text": "Inserisci il nome di una qualsiasi icona di <a>FontAwesome</a>, <em>includendo</em> il prefisso <code>fas fa-</code>.",
             "load_more": "Carica di più",
