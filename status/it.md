@@ -2378,7 +2378,7 @@
 		<td align="center"><a href="https://packagist.org/packages/justoverclock/discussion-hero-showtags/stats">7</a></td>
 		<td align="center"><a href="https://packagist.org/packages/justoverclock/discussion-hero-showtags/stats">7</a></td>
 		<td align="center"><a href="https://packagist.org/packages/justoverclock/discussion-hero-showtags/stats">3</a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-discussion-hero-showtags/it/"><img src="https://weblate.rob006.net/widgets/flarum/it/justoverclock-discussion-hero-showtags/svg-badge.svg" alt="Translation status"></a></td>
+		<td><img src="https://img.shields.io/badge/status-disabled-inactive.svg" alt="Translation status"></td>
 	</tr>
 	<tr>
 		<td>
