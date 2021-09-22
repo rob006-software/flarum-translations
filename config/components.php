@@ -679,6 +679,9 @@ return [
 	'serakoi-hideprofile' => [
 		'tag' => 'https://raw.githubusercontent.com/Serakoi/flarum-hideprofile/0.0.6/resources/locale/en.yml',
 	],
+	'shaoyuansy-hide-user' => [
+		'tag' => 'https://raw.githubusercontent.com/shaoyuansy/flarum-hide-user/v0.0.5/locale/en.yml',
+	],
 	'spookygames-auth-keycloak' => [
 		'tag' => 'https://raw.githubusercontent.com/spookygames/flarum-ext-auth-keycloak/1.0.0.3/locale/en.yml',
 	],
