@@ -2,53 +2,53 @@
     "clarkwinkelmann-featured-discussions": {
         "admin": {
             "settings": {
-                "schedule": "",
-                "duration": "",
-                "eventPost": ""
+                "schedule": "Planifier (syntaxe CRON)",
+                "duration": "Durée par défaut (secondes)",
+                "eventPost": "Générer la publication de l'événement lorsque l'horaire est modifié"
             },
             "permissions": {
-                "feature": ""
+                "feature": "Gérer les discussions mises en avant"
             }
         },
         "forum": {
             "modal": {
-                "title": "",
+                "title": "Discussion mise en avant",
                 "fields": {
-                    "from": "",
-                    "until": ""
+                    "from": "De",
+                    "until": "Jusqu'à"
                 },
                 "from": {
-                    "not": "",
-                    "next": "",
-                    "manual": ""
+                    "not": "Non présenté",
+                    "next": "Emplacement suivant",
+                    "manual": "Date manuelle"
                 },
                 "until": {
-                    "auto": "",
-                    "manual": ""
+                    "auto": "Auto",
+                    "manual": "Date manuelle"
                 },
                 "action": {
-                    "cancel": "",
-                    "submit": ""
+                    "cancel": "Annuler",
+                    "submit": "Soumettre"
                 }
             },
             "controls": {
-                "feature": ""
+                "feature": "Discussion  mise en avant"
             },
-            "badge": "",
+            "badge": "Mis en avant",
             "nav": {
-                "schedule": ""
+                "schedule": "Planifier les mises en avant"
             },
             "schedule": {
-                "help": "",
-                "drop-here": "",
-                "drop-error": "",
-                "empty": "",
-                "custom": ""
+                "help": "Glissez-déposez les discussions dans la page ou depuis une autre fenêtre pour modifier leur horaire. Pour supprimer l'horaire, utilisez le menu à 3 points.\n",
+                "drop-here": "Déposez ici pour planifier",
+                "drop-error": "Lien de discussion invalide",
+                "empty": "Aucune discussion",
+                "custom": "Personnalisé"
             },
             "post": {
-                "scheduled": "",
-                "unscheduled": "",
-                "auto": ""
+                "scheduled": "Prévu pour être présenté du {from} au {until}",
+                "unscheduled": "N'est plus programmé pour être mis en avant",
+                "auto": "(auto)"
             }
         }
     }
