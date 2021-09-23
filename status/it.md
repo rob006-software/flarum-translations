@@ -2637,5 +2637,15 @@
 		<td align="center">1<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/maicol07-oidc-client/it/"><img src="https://weblate.rob006.net/widgets/flarum/it/maicol07-oidc-client/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://extiverse.com/extension/justoverclock/related-discussions" title="justoverclock/related-discussions"><code>justoverclock/related-discussions</code></a>
+		</td>
+		<td align="center">14</td>
+		<td align="center">0</td>
+		<td align="center">0</td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-related-discussions/it/"><img src="https://weblate.rob006.net/widgets/flarum/it/justoverclock-related-discussions/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
 </tbody>
 </table>
