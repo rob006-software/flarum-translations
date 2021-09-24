@@ -2,13 +2,13 @@
     "clarkwinkelmann-who-read": {
         "forum": {
             "tooltip": {
-                "last-read-at": "",
-                "last-read-at-behind": "",
-                "last-read-at-up-to-date": ""
+                "last-read-at": "{username} прочитал(а) {ago} дней назад",
+                "last-read-at-behind": "{username} последним(ей) прочитал(а) {ago} дней назад",
+                "last-read-at-up-to-date": "{username} прочитал(а) последнее сообщение {ago} дней назад"
             },
             "more": {
-                "show": "",
-                "info": ""
+                "show": "Показать следующие {count}",
+                "info": "И {count} еще"
             },
             "footer": {
                 "read-this-post": "",
@@ -16,26 +16,26 @@
                 "read-to-end": ""
             },
             "controls": {
-                "set-unread": "",
-                "remove-unread": ""
+                "set-unread": "Пометить как непрочтенное",
+                "remove-unread": "Удалить непрочтенное"
             },
             "badges": {
-                "following": "",
-                "ignoring": "",
-                "unread": ""
+                "following": "=> flarum-subscriptions.forum.badge.following_tooltip",
+                "ignoring": "=> flarum-subscriptions.forum.badge.ignoring_tooltip",
+                "unread": "Помечено как непрочтенное"
             },
             "modal": {
-                "title": "",
-                "up-to-this-post": "",
-                "past-this-post": "",
-                "to-the-end": "",
-                "behind": ""
+                "title": "Прочитавшие",
+                "up-to-this-post": "Пользователи, дочитавшие до этого сообщения",
+                "past-this-post": "Пользователи, прочитавшие далее этого сообщения",
+                "to-the-end": "Пользователи, прочитавшие до конца",
+                "behind": "Пользователи, не дочитавшие до конца"
             }
         },
         "admin": {
             "permissions": {
-                "see-read": "",
-                "see-subscription": "",
+                "see-read": "Смотреть статус прочтения",
+                "see-subscription": "Смотреть статус подписки",
                 "see-unread": "",
                 "mark-unread": ""
             },
