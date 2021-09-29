@@ -261,7 +261,7 @@
             },
             "ticket_pending_reply": {
                 "subject": "工单 #{ticket_id} 需要您的回复",
-                "body": "尊敬的用户 {recipient_display_name}，\n\n近期 {replier_display_name} 于  {replied_date} 回复了您的工单 #{ticket_id}，我们正在等候您的回复。\n\n您的工单链接：\n{url}\n\n如果此问题已解决，请将工单标记为已解决。\n"
+                "body": "尊敬的用户 {recipient_display_name}，\n\n近期 {replier_display_name} 于 {replied_date} 回复了您的工单 #{ticket_id}，我们正在等候您的回复。\n\n您的工单链接：\n{url}\n\n如果此问题已解决，请将工单标记为已解决。\n"
             },
             "ticket_pending_reply_closed": {
                 "subject": "工单 #{ticket_id} 由于没有活动现已关闭",
