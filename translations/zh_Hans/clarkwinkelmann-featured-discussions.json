@@ -7,48 +7,48 @@
                 "eventPost": "计划任务变化时生成事件帖"
             },
             "permissions": {
-                "feature": "管理特色主题"
+                "feature": "管理精选主题"
             }
         },
         "forum": {
             "modal": {
-                "title": "特色主题",
+                "title": "精选主题",
                 "fields": {
                     "from": "从",
                     "until": "到"
                 },
                 "from": {
-                    "not": "",
-                    "next": "",
-                    "manual": ""
+                    "not": "取消精选",
+                    "next": "下一区间",
+                    "manual": "自定义日期"
                 },
                 "until": {
-                    "auto": "",
-                    "manual": ""
+                    "auto": "自动",
+                    "manual": "自定义日期"
                 },
                 "action": {
-                    "cancel": "",
-                    "submit": ""
+                    "cancel": "取消",
+                    "submit": "提交"
                 }
             },
             "controls": {
-                "feature": ""
+                "feature": "精选主题"
             },
-            "badge": "",
+            "badge": "精选",
             "nav": {
-                "schedule": ""
+                "schedule": "精选计划"
             },
             "schedule": {
-                "help": "",
-                "drop-here": "",
-                "drop-error": "",
-                "empty": "",
-                "custom": ""
+                "help": "从当前或其他页面拖放主题帖即可修改计划，在三点菜单中可以删除计划。\n",
+                "drop-here": "松开以精选",
+                "drop-error": "无效的主题链接",
+                "empty": "暂无主题",
+                "custom": "自定义"
             },
             "post": {
-                "scheduled": "",
-                "unscheduled": "",
-                "auto": ""
+                "scheduled": "精选于 {from} 至 {until}",
+                "unscheduled": "精选结束",
+                "auto": "（自动）"
             }
         }
     }
