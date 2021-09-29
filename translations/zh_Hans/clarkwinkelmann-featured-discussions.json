@@ -2,20 +2,20 @@
     "clarkwinkelmann-featured-discussions": {
         "admin": {
             "settings": {
-                "schedule": "",
-                "duration": "",
-                "eventPost": ""
+                "schedule": "计划任务（CRON 语法）",
+                "duration": "默认过期时间（秒）",
+                "eventPost": "计划任务变化时生成事件帖"
             },
             "permissions": {
-                "feature": ""
+                "feature": "管理特色主题"
             }
         },
         "forum": {
             "modal": {
-                "title": "",
+                "title": "特色主题",
                 "fields": {
-                    "from": "",
-                    "until": ""
+                    "from": "从",
+                    "until": "到"
                 },
                 "from": {
                     "not": "",
