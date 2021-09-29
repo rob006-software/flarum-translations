@@ -2,20 +2,20 @@
     "kilowhat-audit": {
         "admin": {
             "permissions": {
-                "view": ""
+                "view": "Xem nhật ký kiểm tra"
             },
             "header": {
-                "title": "",
-                "free": "",
-                "pro": "",
-                "upgrade": ""
+                "title": "Kiểm tra",
+                "free": "Miễn phí",
+                "pro": "Cao cấp",
+                "upgrade": "Nâng cấp lên Cao cấp"
             }
         },
         "forum": {
             "link": {
-                "discussion-audit": "",
-                "user-audit": "",
-                "actor-audit": ""
+                "discussion-audit": "Nhật ký kiểm tra",
+                "user-audit": "Nhật ký kiểm tra (chỉnh sửa tài khoản)",
+                "actor-audit": "Nhật ký kiểm tra (người dùng với tư cách là tác nhân)"
             },
             "modal": {
                 "discussion-title": "",
@@ -42,8 +42,8 @@
                     "post": ""
                 },
                 "permissionGroup": {
-                    "everyone": "",
-                    "members": ""
+                    "everyone": "=> core.admin.permissions_controls.everyone_button",
+                    "members": "=> core.admin.permissions_controls.members_button"
                 },
                 "noValue": "",
                 "noReason": "",
