@@ -2,27 +2,27 @@
     "antoinefr-money": {
         "admin": {
             "settings": {
-                "title": "",
-                "moneyforpost": "",
-                "moneyfordiscussion": "",
-                "moneyname": "",
-                "postminimumlength": "",
-                "noshowzero": "",
-                "moneyforlike": "",
-                "helpextensionlikes": ""
+                "title": "Ayarlar",
+                "moneyforpost": "Yeni yazı üçün verilən pul",
+                "moneyfordiscussion": "Yeni müzakirə üçün pul verilir",
+                "moneyname": "Pulun adı (məsələn: [money] valyuta)",
+                "postminimumlength": "Pul almaq üçün minimum uzunluğu yazın (deaktiv etmək üçün 0)",
+                "noshowzero": "Balans sıfır olduqda göstərməyin",
+                "moneyforlike": "Bir yazı bəyənildikdə verilir",
+                "helpextensionlikes": "<code> flarum/likes </code> uzantısı tələb olunur"
             },
             "permissions": {
-                "edit_money_label": ""
+                "edit_money_label": "Pulu düzəldin"
             }
         },
         "forum": {
             "user_controls": {
-                "money_button": ""
+                "money_button": "Pulu düzəldin"
             },
             "modal": {
-                "title": "",
-                "current": "",
-                "submit_button": ""
+                "title": "{username} -nin pulu",
+                "current": "Cari:",
+                "submit_button": "=> core.ref.save_changes"
             }
         }
     }
