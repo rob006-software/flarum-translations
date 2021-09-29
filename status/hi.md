@@ -2658,5 +2658,15 @@
 		<td align="center">929<br /><img src="https://img.shields.io/badge/-%2B6-brightgreen" alt="+6" title="Change from last week"></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/blomstra-readme/hi/"><img src="https://weblate.rob006.net/widgets/flarum/hi/blomstra-readme/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://extiverse.com/extension/justoverclock/imdb-api" title="justoverclock/imdb-api"><code>justoverclock/imdb-api</code></a>
+		</td>
+		<td align="center">15</td>
+		<td align="center">0</td>
+		<td align="center">0</td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-imdb-api/hi/"><img src="https://weblate.rob006.net/widgets/flarum/hi/justoverclock-imdb-api/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
 </tbody>
 </table>
