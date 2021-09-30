@@ -21,11 +21,11 @@
                 "native_label": "Sử dụng ngôn ngữ chính",
                 "show_flag_label": "Hiển thị cờ với tên ngôn ngữ",
                 "composer_default_label": "Chọn trước ngôn ngữ hiện tại trong trình soạn thảo thảo luận",
-                "locale_sort_label": "Sử dụng ngôn ngữ được phát hiện cho bộ lọc thảo luận mặc định",
+                "locale_sort_label": "Sử dụng phát hiện ngôn ngữ cho bộ lọc thảo luận mặc định",
                 "show_any_lang_opt_label": "Hiển thị tuỳ chọn để chọn \"Ngôn ngữ bất kỳ\"",
                 "tags_page_discussion_locale_label": "Chỉ hiển thị các cuộc thảo luận từ ngôn ngữ hiện tại của người dùng trên trang Thẻ",
                 "errors": {
-                    "missing_assets": "",
+                    "missing_assets": "Chúng tôi không thể tải tài nguyên mà tiện ích mở rộng này cần. Hãy thử chạy <code>php flarum assets:publish</code> và xem nó có khắc phục được hay không.",
                     "loading_data": "Đã xảy ra lỗi khi truy xuất dữ liệu ngôn ngữ và quốc gia. Thử tắt và bật lại tiện ích."
                 }
             },
