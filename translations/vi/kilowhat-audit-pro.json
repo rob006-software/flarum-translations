@@ -18,61 +18,61 @@
                 "actor-audit": "Nhật ký kiểm tra (người dùng với tư cách là tác nhân)"
             },
             "modal": {
-                "discussion-title": "",
-                "user-title": "",
+                "discussion-title": "Nhật ký kiểm tra cuộc thảo luận",
+                "user-title": "Nhật ký kiểm tra người dùng",
                 "actor-title": ""
             }
         },
         "lib": {
             "browser": {
-                "filterPlaceholder": "",
-                "filterApply": "",
-                "empty": "",
-                "loadMore": "",
-                "withoutActor": "",
+                "filterPlaceholder": "Bộ lọc nhật ký",
+                "filterApply": "Áp dụng",
+                "empty": "Không có kết quả",
+                "loadMore": "Tải thêm",
+                "withoutActor": "=> core.group.guest",
                 "deletedResource": {
-                    "discussion": "",
-                    "group": "",
-                    "post": "",
-                    "tag": "",
-                    "user": ""
+                    "discussion": "Cuộc thảo luận #{id}",
+                    "group": "Nhóm #{id}",
+                    "post": "Bài viết #{id}",
+                    "tag": "Thẻ #{id}",
+                    "user": "Người dùng #{id}"
                 },
                 "genericResource": {
-                    "comment": "",
-                    "post": ""
+                    "comment": "Bình luận",
+                    "post": "Bài viết"
                 },
                 "permissionGroup": {
                     "everyone": "=> core.admin.permissions_controls.everyone_button",
                     "members": "=> core.admin.permissions_controls.members_button"
                 },
-                "noValue": "",
-                "noReason": "",
+                "noValue": "(không có giá trị)",
+                "noReason": "(không có lý do)",
                 "client": {
-                    "session": "",
-                    "api_key": "",
-                    "access_token": "",
-                    "cli": "",
-                    "unknown": ""
+                    "session": "Phiên web",
+                    "api_key": "Mã khoá API",
+                    "access_token": "Mã token truy cập",
+                    "cli": "Dòng lệnh",
+                    "unknown": "Khách hàng không xác định"
                 },
                 "controls": {
-                    "hideRaw": "",
-                    "showRaw": "",
-                    "filterActor": "",
-                    "filterIp": "",
-                    "filterClient": "",
-                    "filterAction": "",
-                    "filterUser": "",
-                    "filterDiscussion": ""
+                    "hideRaw": "Ẩn nhật ký thô",
+                    "showRaw": "Hiện nhật ký thô",
+                    "filterActor": "Hiện nhật ký theo người trình bày",
+                    "filterIp": "Hiện nhật ký theo IP này",
+                    "filterClient": "Hiện nhật ký theo kiểu khách hàng này",
+                    "filterAction": "Hiện nhật ký cùng hành động",
+                    "filterUser": "Hiện nhật ký ảnh hưởng cùng người dùng",
+                    "filterDiscussion": "Hiện nhật ký ảnh hưởng cùng cuộc thảo luận"
                 },
-                "cache_cleared": "",
+                "cache_cleared": "Đã xoá thủ công bộ nhớ đệm",
                 "discussion": {
-                    "created": "",
-                    "create_date_changed": "",
-                    "deleted": "",
-                    "hidden": "",
-                    "locked": "",
-                    "renamed": "",
-                    "restored": "",
+                    "created": "Đã tạo cuộc thảo luận {discussion}",
+                    "create_date_changed": "Đã đổi ngày tạo {discussion} từ {old_date} thành {new_date}",
+                    "deleted": "Đã xoá cuộc thảo luận {discussion}",
+                    "hidden": "Đã ẩn cuộc thảo luận {discussion}",
+                    "locked": "Đã khoá cuộc thảo luận {discussion}",
+                    "renamed": "Đã đổi tên cuộc thảo luận từ {old_title} thành {new_title}",
+                    "restored": "Đã khôi phục cuộc thảo luận {discussion}",
                     "split_away": "",
                     "split_into": "",
                     "stickied": "",
