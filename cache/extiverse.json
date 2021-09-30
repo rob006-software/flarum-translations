@@ -125,8 +125,8 @@
         "name": "glowingblue/newvigation",
         "title": "GB Newvigation",
         "description": "A new way to navigate in Flarum",
-        "version": "0.1.5",
-        "requiredFlarum": ">=0.1.0-beta.12 <0.1.0-beta.14",
+        "version": "1.0.0",
+        "requiredFlarum": "^1.0.0",
         "subscriptionPlans": []
     },
     "glowingblue/scheduled-posts": {
@@ -158,6 +158,14 @@
         "title": "GB Typeform",
         "description": "Call to action button that opens a Typeform survey",
         "version": "1.0.1",
+        "requiredFlarum": "^1.0.0",
+        "subscriptionPlans": []
+    },
+    "glowingblue/welcome-page": {
+        "name": "glowingblue/welcome-page",
+        "title": "GB Welcome Popup",
+        "description": "Welcome page (from FoF Pages) displayed after registration",
+        "version": "1.0.0",
         "requiredFlarum": "^1.0.0",
         "subscriptionPlans": []
     },
