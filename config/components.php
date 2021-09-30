@@ -757,6 +757,9 @@ return [
 	'webbinaro-calendar' => [
 		'tag' => 'https://raw.githubusercontent.com/eddiewebb/flarum-calendar/1.0.0/resources/locale/en.yml',
 	],
+	'webbinaro-gpx-preview' => [
+		'tag' => 'https://raw.githubusercontent.com/eddiewebb/flarum-gpx-preview/1.0.0/resources/locale/en.yml',
+	],
 	'zerosonesfun-expired-posts' => [
 		'tag' => 'https://raw.githubusercontent.com/zerosonesfun/expired-posts/0.4/resources/locale/en.yml',
 	],
