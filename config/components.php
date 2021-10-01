@@ -463,6 +463,9 @@ return [
 	'ianm-synopsis' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/synopsis/1.0.0/resources/locale/en.yml',
 	],
+	'imshuzai-synopsis' => [
+		'tag' => 'https://raw.githubusercontent.com/imshuzai/synopsis/v0.1.4/resources/locale/en.yml',
+	],
 	'itnt-uitab' => [
 		'tag' => 'https://raw.githubusercontent.com/Littlegolden/flarum-uitab/v0.4.0/resources/locale/en.yml',
 	],
