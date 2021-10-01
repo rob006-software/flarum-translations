@@ -463,6 +463,9 @@ return [
 	'ianm-synopsis' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/synopsis/1.0.0/resources/locale/en.yml',
 	],
+	'imshuzai-carving-contest' => [
+		'tag' => 'https://raw.githubusercontent.com/imshuzai/flarum-ext-carving-contest/0.2.4/resources/locale/en.yml',
+	],
 	'itnt-uitab' => [
 		'tag' => 'https://raw.githubusercontent.com/Littlegolden/flarum-uitab/v0.4.0/resources/locale/en.yml',
 	],
