@@ -2481,14 +2481,14 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Compatible with recent Flarum">🟢</span><span title="Extension is abandoned">❗</span>
-			<a href="https://github.com/justoverclockl/image-gallery" title="justoverclock/image-gallery"><code>justoverclock/image-gallery</code></a>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/davwheat/flarum-ext-share" title="davwheat/flarum-ext-share"><code>davwheat/flarum-ext-share</code></a>
 		</td>
-		<td align="center">224<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/image-gallery/stats">11<br /><img src="https://img.shields.io/badge/-%2B4-brightgreen" alt="+4" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/image-gallery/stats">5<br /><img src="https://img.shields.io/badge/-%2B4-brightgreen" alt="+4" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/image-gallery/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-image-gallery/ta/"><img src="https://weblate.rob006.net/widgets/flarum/ta/justoverclock-image-gallery/svg-badge.svg" alt="Translation status"></a></td>
+		<td align="center">224</td>
+		<td align="center"><a href="https://packagist.org/packages/davwheat/flarum-ext-share/stats">3</a></td>
+		<td align="center"><a href="https://packagist.org/packages/davwheat/flarum-ext-share/stats">3</a></td>
+		<td align="center"><a href="https://packagist.org/packages/davwheat/flarum-ext-share/stats">3</a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/davwheat-share/ta/"><img src="https://weblate.rob006.net/widgets/flarum/ta/davwheat-share/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
