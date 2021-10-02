@@ -30,15 +30,15 @@
                 "status_check_heading": "Durum Kontrolü",
                 "logo_heading": "Logolar ve Simgeler",
                 "logo_text": "You must upload at least one logo for your progressive web app to be installable. Please note that all logos must be square; if they are not, they will be resized and possibly stretched.\nThere are a number of size options available below. I would recommend trying to upload a logo to as many as you can: this supports more devices.\nPlease note that you can upload 1 large logo to inputs for smaller logos. For instance, you can upload a 1000px x 1000px logo to ALL the file inputs below. However, if you try to upload a 50px x 50px logo to the 512x512 input, it will be stretched a lot.\n",
-                "logo_size_text": "Upload a logo which will be scaled to {size} pixels by {size} pixels size.",
+                "logo_size_text": "{size} piksele {size} piksel boyutuna ölçeklendirilecek bir logo yükleyin.",
                 "submit_button": "Ayarları Kaydet",
-                "refreshed_message": "PWA config refreshed successfully."
+                "refreshed_message": "PWA yapılandırması başarıyla yenilendi."
             },
             "status": {
                 "config_no_https": "Config.php dosyanızdaki bağlantı HTTPS kullanmıyor. Progressive Web Uygulamalarının çalışması için HTTPS gereklidir.",
                 "possible_https_disabled": "Siteniz HTTPS üzerinde çalışmıyor olabilir.. Önbelleği temizlemek (Yönetim > Araçlar butonu) yardımcı olacaktır. Eğer HTTPS üzerinde çalışıyorsa bu uyarıyı görmezden gelin. İleri Web Uygulamasının çalışması için HTTPS kullanmanız gerektiğini unutmayın.",
                 "no_logo": "You must upload at least one logo for your app to work.",
-                "no_name": "You must provide a full name for your app to work.",
+                "no_name": "Uygulamanızın çalışması için tam bir ad sağlamalısınız.",
                 "key_gen_failed": "Anlık bildirimler için gerekli anahtarların oluşturulması başarısız oldu. Tam hata mesajı: {error}",
                 "suggest_gmp": "Gmp PHP uzantısı sunucunuzda etkin görünmüyor. Kesinlikle gerekli değil, ancak performansı artırabilir ve önerilir. Paylaşılan sunucu kullanıyorsanız desteklemeyebilir.",
                 "success": "Potansiyel hata mevcut değil!"
