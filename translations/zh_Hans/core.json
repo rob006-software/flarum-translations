@@ -48,7 +48,7 @@
                 "tools_button": "工具"
             },
             "edit_css": {
-                "customize_text": "添加 Less/CSS 代码以自定义论坛外观，此设置将覆盖 Flarum  <a>默认样式</a>。",
+                "customize_text": "添加 Less/CSS 代码以自定义论坛外观，此设置将覆盖 Flarum <a>默认样式</a>。",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "编辑自定义 CSS"
             },
@@ -554,15 +554,15 @@
         "email": {
             "activate_account": {
                 "subject": "账号激活",
-                "body": "{username}，您好！\n\n您使用这个邮箱在 {forum} 进行了注册，若是您本人所为，请点击下面的链接激活您的账号：\n\n{url}\n\n若非您本人注册，请忽略此邮件。\n"
+                "body": "{username}，您好！\n\n您刚刚注册了 {forum}。\n\n若是您本人所为，请点击下方链接激活账号：\n{url}\n\n若非您本人注册，请忽略此邮件。\n"
             },
             "confirm_email": {
                 "subject": "确认邮箱地址",
-                "body": "{username}，您好!\n\n您在 {forum} 的账号邮箱被更改为此邮箱，若是您本人所为，请点击下面的链接完成邮箱确认：\n\n{url}\n\n若非您本人所为，请立即检查账号安全并修改密码。\n"
+                "body": "{username}，您好!\n\n您更改了 {forum} 的账号邮箱。\n\n若是您本人所为，请点击下方链接确认更改：\n{url}\n\n若非您本人操作，请忽略这封邮件。\n"
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": "{username}，您好！\n\n您在 {forum} 请求重置密码，若是您本人所为，请点击下面的链接重置密码：\n\n{url}\n\n如非您本人行为，请忽略此邮件，我们不会受理这个操作。\n"
+                "body": "{username}，您好！\n\n您请求重置 {forum} 的密码。\n\n若是您本人所为，请点击下方链接重置密码：\n{url}\n\n如非您本人操作，请忽略这封邮件，我们不会受理重置操作。\n"
             },
             "send_test": {
                 "subject": "Flarum 邮件测试",
