@@ -2,21 +2,21 @@
     "fof-best-answer": {
         "admin": {
             "permissions": {
-                "best_answer": "",
-                "best_answer_not_own_discussion": ""
+                "best_answer": "Kies beste antwoord (eigen Discussie)",
+                "best_answer_not_own_discussion": "Kies beste antwoord (niet eigen Discussie)"
             },
             "settings": {
                 "label": {
-                    "general": "",
-                    "reminders": "",
-                    "advanced": "",
-                    "reminders_notice": ""
+                    "general": "Algemeen",
+                    "reminders": "Herinneringen",
+                    "advanced": "Geavanceerd",
+                    "reminders_notice": "Herinneringen werken pas wanneer je de Flarum scheduler goed ingesteld hebt."
                 },
-                "allow_select_own_post": "",
-                "allow_select_own_post_help": "",
-                "enable_all_tags_button": "",
-                "enable_all_tags_reminder_button": "",
-                "select_best_answer_reminder_days": "",
+                "allow_select_own_post": "Selecteer je eigen bericht",
+                "allow_select_own_post_help": "Sta toe dat de OP uit zijn eigen berichten het beste antwoord kan kiezen",
+                "enable_all_tags_button": "Beste antwoorden op alle tags inschakelen",
+                "enable_all_tags_reminder_button": "Herinneringen voor beste antwoorden op alle tags inschakelen",
+                "select_best_answer_reminder_days": "Herinneringsfrequentie",
                 "select_best_answer_reminder_days_help": "",
                 "schedule_on_one_server": "",
                 "schedule_on_one_server_help": "",
