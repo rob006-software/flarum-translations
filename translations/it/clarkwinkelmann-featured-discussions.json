@@ -2,53 +2,53 @@
     "clarkwinkelmann-featured-discussions": {
         "admin": {
             "settings": {
-                "schedule": "",
-                "duration": "",
-                "eventPost": ""
+                "schedule": "Programma (sintassi CRON)",
+                "duration": "Durata di default (secondi)",
+                "eventPost": "Genera post dell'evento quando il programma viene modificato"
             },
             "permissions": {
-                "feature": ""
+                "feature": "Gestisci le discussioni in primo piano"
             }
         },
         "forum": {
             "modal": {
-                "title": "",
+                "title": "In primo Piano",
                 "fields": {
-                    "from": "",
-                    "until": ""
+                    "from": "Da",
+                    "until": "Fino a"
                 },
                 "from": {
-                    "not": "",
-                    "next": "",
-                    "manual": ""
+                    "not": "Non in primo piano",
+                    "next": "Slot successivo",
+                    "manual": "Data Manuale"
                 },
                 "until": {
-                    "auto": "",
-                    "manual": ""
+                    "auto": "Auto",
+                    "manual": "Data Manuale"
                 },
                 "action": {
-                    "cancel": "",
-                    "submit": ""
+                    "cancel": "Cancella",
+                    "submit": "Invia"
                 }
             },
             "controls": {
-                "feature": ""
+                "feature": "In primo Piano"
             },
-            "badge": "",
+            "badge": "In primo piano",
             "nav": {
-                "schedule": ""
+                "schedule": "Programma \"in primo piano\""
             },
             "schedule": {
-                "help": "",
-                "drop-here": "",
-                "drop-error": "",
-                "empty": "",
-                "custom": ""
+                "help": "Trascina e rilascia le discussioni nella pagina o da un'altra finestra per modificarne la pianificazione. Per rimuovere la pianificazione, utilizzare il menu a 3 punti.\n",
+                "drop-here": "Rilascia qui per programmare",
+                "drop-error": "Link discussione non valido",
+                "empty": "Nessuna discussione",
+                "custom": "Personalizzato"
             },
             "post": {
-                "scheduled": "",
-                "unscheduled": "",
-                "auto": ""
+                "scheduled": "In programma per essere in primo piano dal {from} al {until}",
+                "unscheduled": "Nessun programma \"in primo piano\"",
+                "auto": "(auto)"
             }
         }
     }
