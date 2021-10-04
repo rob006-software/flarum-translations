@@ -493,6 +493,9 @@ return [
 	'justoverclock-events-countdown' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/events-countdown/0.1.8/locale/en.yml',
 	],
+	'justoverclock-feautured-discussions-widget' => [
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/feautured-discussions-widget/0.1.0/locale/en.yml',
+	],
 	'justoverclock-feedback' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-feedback/0.1.9/locale/en.yml',
 	],
