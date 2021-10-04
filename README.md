@@ -477,6 +477,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`justoverclock-discussion-info`](https://weblate.rob006.net/projects/flarum/justoverclock-discussion-info) | [`justoverclock/discussion-info`](https://github.com/justoverclockl/discussions-info) |
 | [`justoverclock-edit-posts`](https://weblate.rob006.net/projects/flarum/justoverclock-edit-posts) | [`justoverclock/edit-posts`](https://github.com/justoverclockl/edit-posts) |
 | [`justoverclock-events-countdown`](https://weblate.rob006.net/projects/flarum/justoverclock-events-countdown) | [`justoverclock/events-countdown`](https://github.com/justoverclockl/events-countdown) |
+| [`justoverclock-feautured-discussions-widget`](https://weblate.rob006.net/projects/flarum/justoverclock-feautured-discussions-widget) | [`justoverclock/feautured-discussions-widget`](https://github.com/justoverclockl/feautured-discussions-widget) |
 | [`justoverclock-first-visit-indexpage`](https://weblate.rob006.net/projects/flarum/justoverclock-first-visit-indexpage) | [`justoverclock/first-visit-indexpage`](https://github.com/justoverclockl/first-visit-indexpage) |
 | [`justoverclock-contactme`](https://weblate.rob006.net/projects/flarum/justoverclock-contactme) | [`justoverclock/flarum-ext-contactme`](https://github.com/justoverclockl/flarum-ext-contactme) |
 | [`justoverclock-dontgoaway`](https://weblate.rob006.net/projects/flarum/justoverclock-dontgoaway) | [`justoverclock/flarum-ext-dontgoaway`](https://github.com/justoverclockl/flarum-ext-dontgoaway) |
