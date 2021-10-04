@@ -316,9 +316,9 @@
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Profiel",
-                "search_clear_button_accessible_label": "",
+                "search_clear_button_accessible_label": "Zoekveld legen",
                 "search_placeholder": "Zoeken",
-                "search_role_label": "",
+                "search_role_label": "Doorzoek forum",
                 "session_dropdown_accessible_label": "Toggle sessie opties menu",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
@@ -494,23 +494,23 @@
         "views": {
             "admin": {
                 "extensions": {
-                    "caption": "",
-                    "disable": "",
-                    "empty": "",
-                    "enable": "",
-                    "name": "",
-                    "package_name": "",
-                    "version": ""
+                    "caption": "=> core.ref.extensions",
+                    "disable": "Uitschakelen",
+                    "empty": "Geen extensies geïnstalleerd",
+                    "enable": "Aanzetten",
+                    "name": "Extensienaam",
+                    "package_name": "Pakketnaam",
+                    "version": "Versie"
                 },
                 "info": {
-                    "caption": ""
+                    "caption": "Applicatie Informatie"
                 },
-                "title": ""
+                "title": "Beheer"
             },
             "confirm_email": {
-                "submit_button": "",
-                "text": "",
-                "title": ""
+                "submit_button": "=> core.ref.confirm_email",
+                "text": "Klik de knop hieronder om het e-mailadres van je account te bevestigen.",
+                "title": "=> core.ref.confirm_email"
             },
             "content": {
                 "javascript_disabled_message": "Deze website werkt het beste in een moderne browser met JavaScript ingeschakeld.",
@@ -575,7 +575,7 @@
             "change_password": "Verander wachtwoord",
             "color": "Kleur",
             "confirm_password": "Wachtwoord bevestigen",
-            "confirm_email": "",
+            "confirm_email": "E-mail bevestigen",
             "confirmation_email_sent": "We hebben een verficatie e-mail gestuurd naar {email}. Als je geen e-mail hebt ontvangen controleer dan je spam map.",
             "custom_footer_text": "HTML toevoegen dat weergegeven wordt onderaan op elke pagina.",
             "custom_footer_title": "Wijzig eigen voettekst",
@@ -587,7 +587,7 @@
             "edit": "Bewerken",
             "edit_user": "Wijzig gebruiker",
             "email": "E-mail",
-            "extensions": "",
+            "extensions": "Extensies",
             "icon": "Icoon",
             "icon_text": "Kies een <a>FontAwesome</a> icon class, <em>zonder</em> de <code>fa-</code> prefix.",
             "load_more": "Meer laden",
