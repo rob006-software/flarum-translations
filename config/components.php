@@ -514,6 +514,9 @@ return [
 	'justoverclock-hot-discussions' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/hot-discussions/0.1.2/locale/en.yml',
 	],
+	'justoverclock-igdb-api' => [
+		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/justoverclock-igdb-api.yml',
+	],
 	'justoverclock-imdb-api' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/justoverclock-imdb-api.yml',
 	],
