@@ -107,6 +107,7 @@
 | --- | --- |
 | [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/acpl-mobile-tab/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/acpl-mobile-tab/) |
 | [`acpl/my-tags`](https://github.com/android-com-pl/my-tags) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/acpl-my-tags/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/acpl-my-tags/) |
+| [`afrux/asirem`](https://github.com/afrux/asirem) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/afrux-asirem/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/afrux-asirem/) |
 | [`afrux/forum-stats-widget`](https://github.com/afrux/forum-stats-widget) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/afrux-forum-stats-widget/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/afrux-forum-stats-widget/) |
 | [`afrux/forum-widgets-core`](https://github.com/afrux/forum-widgets-core) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/afrux-forum-widgets-core/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/afrux-forum-widgets-core/) |
 | [`afrux/news-widget`](https://github.com/afrux/news-widget) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/afrux-news-widget/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/afrux-news-widget/) |

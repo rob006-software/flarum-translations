@@ -405,6 +405,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | --- | --- |
 | [`acpl-mobile-tab`](https://weblate.rob006.net/projects/flarum/acpl-mobile-tab) | [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) |
 | [`acpl-my-tags`](https://weblate.rob006.net/projects/flarum/acpl-my-tags) | [`acpl/my-tags`](https://github.com/android-com-pl/my-tags) |
+| [`afrux-asirem`](https://weblate.rob006.net/projects/flarum/afrux-asirem) | [`afrux/asirem`](https://github.com/afrux/asirem) |
 | [`afrux-forum-stats-widget`](https://weblate.rob006.net/projects/flarum/afrux-forum-stats-widget) | [`afrux/forum-stats-widget`](https://github.com/afrux/forum-stats-widget) |
 | [`afrux-forum-widgets-core`](https://weblate.rob006.net/projects/flarum/afrux-forum-widgets-core) | [`afrux/forum-widgets-core`](https://github.com/afrux/forum-widgets-core) |
 | [`afrux-news-widget`](https://weblate.rob006.net/projects/flarum/afrux-news-widget) | [`afrux/news-widget`](https://github.com/afrux/news-widget) |
