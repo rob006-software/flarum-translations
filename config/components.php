@@ -185,6 +185,9 @@ return [
 	'datitisev-webhooks-pro' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/datitisev-webhooks-pro.yml',
 	],
+	'datlechin-last-registered-users' => [
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-ext-last-registerd-users/v1.0.0/locale/en.yml',
+	],
 	'davwheat-ads' => [
 		'tag' => 'https://raw.githubusercontent.com/davwheat/flarum-ext-ads/1.0.0/locale/en.yml',
 	],
