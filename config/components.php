@@ -683,6 +683,9 @@ return [
 	'nomiscz-auth-wechat' => [
 		'tag' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-wechat/v1.0.0/resources/locale/en.yml',
 	],
+	'nosun-reply-to-see' => [
+		'tag' => 'https://raw.githubusercontent.com/nosun/flarum-ext-reply2see/v1.03/resources/locale/en.yml',
+	],
 	'nyu8-email-filter' => [
 		'tag' => 'https://raw.githubusercontent.com/nyu8/flarum-email-filter/v1.0.5/locale/en.yml',
 	],
