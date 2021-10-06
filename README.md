@@ -480,6 +480,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`justoverclock-events-countdown`](https://weblate.rob006.net/projects/flarum/justoverclock-events-countdown) | [`justoverclock/events-countdown`](https://github.com/justoverclockl/events-countdown) |
 | [`justoverclock-feautured-discussions-widget`](https://weblate.rob006.net/projects/flarum/justoverclock-feautured-discussions-widget) | [`justoverclock/feautured-discussions-widget`](https://github.com/justoverclockl/feautured-discussions-widget) |
 | [`justoverclock-first-visit-indexpage`](https://weblate.rob006.net/projects/flarum/justoverclock-first-visit-indexpage) | [`justoverclock/first-visit-indexpage`](https://github.com/justoverclockl/first-visit-indexpage) |
+| [`justoverclock-flachat`](https://weblate.rob006.net/projects/flarum/justoverclock-flachat) | [`justoverclock/flachat`](https://github.com/justoverclockl/flachat) |
 | [`justoverclock-contactme`](https://weblate.rob006.net/projects/flarum/justoverclock-contactme) | [`justoverclock/flarum-ext-contactme`](https://github.com/justoverclockl/flarum-ext-contactme) |
 | [`justoverclock-dontgoaway`](https://weblate.rob006.net/projects/flarum/justoverclock-dontgoaway) | [`justoverclock/flarum-ext-dontgoaway`](https://github.com/justoverclockl/flarum-ext-dontgoaway) |
 | [`justoverclock-feedback`](https://weblate.rob006.net/projects/flarum/justoverclock-feedback) | [`justoverclock/flarum-ext-feedback`](https://github.com/justoverclockl/flarum-ext-feedback) |
@@ -534,6 +535,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`nearata-twofactor`](https://weblate.rob006.net/projects/flarum/nearata-twofactor) | [`nearata/flarum-ext-twofactor`](https://github.com/Nearata/flarum-ext-twofactor) |
 | [`nomiscz-auth-steam`](https://weblate.rob006.net/projects/flarum/nomiscz-auth-steam) | [`nomiscz/flarum-ext-auth-steam`](https://github.com/NomisCZ/flarum-ext-auth-steam) |
 | [`nomiscz-auth-wechat`](https://weblate.rob006.net/projects/flarum/nomiscz-auth-wechat) | [`nomiscz/flarum-ext-auth-wechat`](https://github.com/NomisCZ/flarum-ext-auth-wechat) |
+| [`nosun-reply-to-see`](https://weblate.rob006.net/projects/flarum/nosun-reply-to-see) | [`nosun/reply-to-see`](https://github.com/nosun/flarum-ext-reply2see) |
 | [`nyu8-email-filter`](https://weblate.rob006.net/projects/flarum/nyu8-email-filter) | [`nyu8/flarum-email-filter`](https://github.com/nyu8/flarum-email-filter) |
 | [`ralkage-hcaptcha`](https://weblate.rob006.net/projects/flarum/ralkage-hcaptcha) | [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha) |
 | [`serakoi-hideprofile`](https://weblate.rob006.net/projects/flarum/serakoi-hideprofile) | [`serakoi/flarum-hideprofile`](https://github.com/Serakoi/flarum-hideprofile) |
