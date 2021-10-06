@@ -506,6 +506,9 @@ return [
 	'justoverclock-first-visit-indexpage' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/first-visit-indexpage/0.1.2/resources/locale/en.yml',
 	],
+	'justoverclock-flachat' => [
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flachat/0.1.0/locale/en.yml',
+	],
 	'justoverclock-geo-weather' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/geo-weather/0.1.7/resources/locale/en.yml',
 	],
