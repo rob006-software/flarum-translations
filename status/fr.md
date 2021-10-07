@@ -2504,9 +2504,31 @@
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/justoverclockl/flachat" title="justoverclock/flachat"><code>justoverclock/flachat</code></a>
+		</td>
+		<td align="center">226</td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flachat/stats">3</a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flachat/stats">3</a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flachat/stats">3</a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-flachat/fr/"><img src="https://weblate.rob006.net/widgets/flarum/fr/justoverclock-flachat/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/nosun/flarum-ext-reply2see" title="nosun/reply-to-see"><code>nosun/reply-to-see</code></a>
+		</td>
+		<td align="center">227</td>
+		<td align="center"><a href="https://packagist.org/packages/nosun/reply-to-see/stats">3</a></td>
+		<td align="center"><a href="https://packagist.org/packages/nosun/reply-to-see/stats">3</a></td>
+		<td align="center"><a href="https://packagist.org/packages/nosun/reply-to-see/stats">3</a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/nosun-reply-to-see/fr/"><img src="https://weblate.rob006.net/widgets/flarum/fr/nosun-reply-to-see/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/clarkwinkelmann/flarum-ext-email-as-display-name" title="clarkwinkelmann/flarum-ext-email-as-display-name"><code>clarkwinkelmann/…email-as-display-name</code></a>
 		</td>
-		<td align="center">226<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
+		<td align="center">228<br /><img src="https://img.shields.io/badge/-%2B3-red" alt="+3" title="Change from last week"></td>
 		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-email-as-display-name/stats">48<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-email-as-display-name/stats">1<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-email-as-display-name/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
@@ -2517,7 +2539,7 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/justoverclockl/feautured-discussions-widget" title="justoverclock/feautured-discussions-widget"><code>justoverclock/feautured-discussions-widg…</code></a>
 		</td>
-		<td align="center">227</td>
+		<td align="center">229</td>
 		<td align="center"><a href="https://packagist.org/packages/justoverclock/feautured-discussions-widget/stats">1</a></td>
 		<td align="center"><a href="https://packagist.org/packages/justoverclock/feautured-discussions-widget/stats">1</a></td>
 		<td align="center"><a href="https://packagist.org/packages/justoverclock/feautured-discussions-widget/stats">1</a></td>
