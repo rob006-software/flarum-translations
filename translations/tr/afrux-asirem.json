@@ -2,40 +2,40 @@
     "afrux-theme-base": {
         "admin": {
             "extensions": {
-                "title": "",
-                "description": ""
+                "title": "Uzantılar",
+                "description": "Yüklenen tüm uzantıların listesi."
             },
             "extension": {
                 "sections": {
-                    "content": "",
-                    "permissions": ""
+                    "content": "Ana Ayarlar",
+                    "permissions": "İzinler"
                 }
             },
             "header": {
-                "go_back": ""
+                "go_back": "Foruma dön"
             },
             "users": {
                 "grid": {
                     "columns": {
                         "avatar": {
-                            "title": ""
+                            "title": "Avatar"
                         }
                     }
                 }
             },
             "settings": {
-                "edit_footer_links": "",
-                "footer_description": "",
-                "footer_bottom_line": "",
-                "hero_banner": "",
-                "hero_banner_position": "",
+                "edit_footer_links": "Alt Bilgi Bağlantılarını Düzenle",
+                "footer_description": "Alt Bilgi Açıklaması",
+                "footer_bottom_line": "Alt Bilgi Alt Çizgisi",
+                "hero_banner": "Hoşgeldiniz Mesajı Resmi",
+                "hero_banner_position": "Hoşgeldiniz Resmi CSS Pozisyonu (örnek: \"center top\" veya \"center 20%\")",
                 "links_modal": {
-                    "add_group": "",
-                    "group_name": "",
-                    "group_title": "",
-                    "add_link": "",
-                    "link_url": "",
-                    "link_label": ""
+                    "add_group": "Yeni Grup Bağlantıları",
+                    "group_name": "Grup {number} Adı",
+                    "group_title": "Grup Başlığı Bağlantısı",
+                    "add_link": "Bağlantı ekle",
+                    "link_url": "Bağlantı Adresi",
+                    "link_label": "Bağlantı Etiketi"
                 }
             }
         }
