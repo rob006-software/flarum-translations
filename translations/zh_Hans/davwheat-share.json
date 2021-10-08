@@ -1,25 +1,25 @@
 {
     "davwheat-share": {
         "admin": {
-            "browser_support_notice": "",
+            "browser_support_notice": "只有客户端支持 Web 分享接口时才会显示。<a>查看浏览器兼容性</a>",
             "display_options": {
-                "icon": "",
-                "text": "",
-                "menu": ""
+                "icon": "仅显示图标",
+                "text": "仅显示文字",
+                "menu": "更多菜单"
             },
-            "display_options_label": "",
-            "button_preview_header": "",
+            "display_options_label": "分享按钮风格",
+            "button_preview_header": "预览",
             "preview": {
-                "reply": "",
+                "reply": "回复",
                 "dropdown": {
-                    "edit": "",
-                    "delete": ""
+                    "edit": "编辑",
+                    "delete": "删除"
                 }
             }
         },
         "lib": {
-            "share": "",
-            "share_a11y_label": ""
+            "share": "分享",
+            "share_a11y_label": "分享帖子"
         }
     }
 }
