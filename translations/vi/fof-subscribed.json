@@ -31,8 +31,8 @@
                 "postUnapproved": "[Đã đăng ký | Chưa duyệt] {username} đã đăng trong {title}"
             },
             "body": {
-                "newDiscussion": "Chào {recipient_display_name},\n{actor_display_name} đã đăng một cuộc thảo luận mới: {discussion_title}\nĐể xem cuộc thảo luận mới này, hãy nhấp vào liên kết sau:\n{discussion_url}\n---\n{post_content}\n",
-                "newUser": "Chào {recipient_display_name},\n{actor_display_name} vừa mới đăng ký tại {forum_url}.\nĐể xem hồ sơ của người dùng mới này, hãy xem liên kết sau:\n{user_url}\n",
+                "newDiscussion": "Chào {recipient_display_name},\n\n{actor_display_name} đã đăng một cuộc thảo luận mới: {discussion_title}\n\nĐể xem cuộc thảo luận mới này, hãy nhấp vào liên kết sau:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newUser": "Chào {recipient_display_name},\n\n{actor_display_name} vừa mới đăng ký tại {forum_url}.\n\nĐể xem hồ sơ của người dùng mới này, hãy xem liên kết sau:\n{user_url}\n",
                 "postUnapproved": "Chào {recipient_display_name},\n\n{actor_display_name} đã tạo một bài viết chưa được duyệt trong {discussion_title}\n\nĐể xem bài đăng mới này, hãy xem liên kết sau:\n{post_url}\n\n---\n\n{post_content}\n"
             }
         }
