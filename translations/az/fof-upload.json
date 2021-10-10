@@ -2,18 +2,18 @@
     "fof-upload": {
         "admin": {
             "pane": {
-                "title": "",
-                "description": ""
+                "title": "Yüklə",
+                "description": "Yükləmə xidmətləri və üstünlükləri qurun."
             },
             "help_texts": {
-                "disable-download-logging": "",
-                "disable-hotlink-protection": "",
-                "download_templates": "",
-                "mime_types": "",
-                "resize": "",
-                "client_extension": "",
-                "watermark": "",
-                "s3_compatible_storage": "",
+                "disable-download-logging": "Forumunuzun istifadəçiləri tərəfindən edilən hər yükləməni qeyd etməyi deaktiv edin. Aktiv saxlamaq, yaxın gələcəkdə yüklənmə sayını və digər ölçüləri görməyə imkan verir.\n",
+                "disable-hotlink-protection": "Hotlink qorunması digər saytlardan yükləmələrin açılmasını maneə törədir. Mövcud metod csrf token və post id tələb edir.\n",
+                "download_templates": "Yükləmə şablonları, yükləmələrin forumunuzda necə göründüyüdür, məsələn, önizləmələr, düymələr kimi. Hazırda mövcuddur:\n",
+                "mime_types": "Zəhmət olmasa xəritənizi burada konfiqurasiya edin. Hər bir mim tipli normal ifadə müəyyən bir yükləmə adapteri və yükləmə şablonu ilə idarə olunacaq.\n",
+                "resize": "Şəkillərinizi yükləməzdən əvvəl onların ölçüsünü dəyişmək istəyib -istəmədiyinizi seçin. Maksimum genişlik və hündürlüyü piksel olaraq seçə bilərsiniz. Ölçüsünü dəyişdirmə prosesi şəkillərin nisbətini saxlayır.\n",
+                "client_extension": "Varsayılan olaraq Yükləmə, MIME növünə əsaslanan etibarlı bir fayl uzantısı seçəcəkdir.\nZIP və ya ikili məlumatlara əsaslanan bəzi fayl növləri üçün bu, gözlənilənin yerinə ümumi uzantıların istifadəsinə səbəb ola bilər.\nBuradan verbal olaraq saxlanılacaq fayl uzantılarının vergüllə ayrılmış siyahısını daxil edə bilərsiniz.\n",
+                "watermark": "Yükləmə zamanı şəkillərin su nişanının əlavə edilib -edilməyəcəyini seçin. Su nişanları aşağıdakı seçimlərinizə əsasən gif olmayanlara əlavə olunur.\n",
+                "s3_compatible_storage": "Aşağıdakı parametrlər yalnız S3 uyğun saxlama istifadə edərkən tələb olunur. AWS istifadə edirsinizsə, onları boş buraxa bilərsiniz.\n",
                 "s3_acl": "",
                 "composer_buttons": ""
             },
@@ -108,20 +108,20 @@
             }
         },
         "forum": {
-            "media_manager": "",
+            "media_manager": "Media meneceri",
             "buttons": {
-                "attach": "",
-                "upload": "",
-                "user_uploads": "",
-                "cancel": "",
-                "media": ""
+                "attach": "Əlavə edin",
+                "upload": "Yüklə",
+                "user_uploads": "İstifadəçi yükləmələri",
+                "cancel": "Ləğv et",
+                "media": "Mediam"
             },
             "file_list": {
-                "loading": "",
-                "empty": "",
-                "release_to_upload": "",
-                "modal_empty_desktop": "",
-                "modal_empty_phone": "",
+                "loading": "Fayllar yüklənir ...",
+                "empty": "Göstəriləcək fayl yoxdur.",
+                "release_to_upload": "Yükləmək üçün buraxın",
+                "modal_empty_desktop": "Fayl siyahınız boşdur. Yükləmək üçün düyməni basın və ya bir faylı bura sürükləyin.",
+                "modal_empty_phone": "Fayl siyahınız boşdur. Bir fayl yükləmək üçün yuxarıdakı düyməni vurun.",
                 "select_file_a11y_label": "",
                 "confirm_selection_btn": "",
                 "load_more_files_btn": "",
@@ -134,16 +134,16 @@
                 }
             },
             "states": {
-                "error": "",
-                "loading": "",
-                "unauthorized": ""
+                "error": "Xəta",
+                "loading": "Yüklənir",
+                "unauthorized": "Faylları yükləməyinizə icazə verilmir"
             }
         },
         "api": {
             "upload_errors": {
-                "forbidden_type": "",
-                "unsupported_type": "",
-                "could_not_detect_mime": ""
+                "forbidden_type": "Bu tip faylların yüklənməsinə icazə verilmir.",
+                "unsupported_type": "Fayl formatı dəstəklənmir: {mime}.",
+                "could_not_detect_mime": "Bu faylın MIME növü aşkarlanmadı, yenidən cəhd edin."
             }
         }
     }
