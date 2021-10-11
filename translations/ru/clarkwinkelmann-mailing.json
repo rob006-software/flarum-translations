@@ -2,42 +2,42 @@
     "clarkwinkelmann-mailing": {
         "admin": {
             "permissions": {
-                "mail_individual": "",
-                "mail_all": ""
+                "mail_individual": "Отправить эл.почту отдельным пользователям",
+                "mail_all": "Отправить эл.почту группам пользователей"
             }
         },
         "forum": {
             "links": {
-                "mail_individual": "",
-                "mail_all": ""
+                "mail_individual": "Отправить эл.почту этому пользователю",
+                "mail_all": "Отправить эл.почту"
             },
             "modal_mail": {
-                "title_text": "",
-                "recipients_label": "",
-                "recipients_placeholder": "",
-                "subject_label": "",
-                "default_subject": "",
-                "message_label": "",
-                "submit_button": ""
+                "title_text": "Создать почтовое сообщение",
+                "recipients_label": "Получатели",
+                "recipients_placeholder": "Добавить получателей...",
+                "subject_label": "Тема",
+                "default_subject": "=> clarkwinkelmann-mailing.ref.default_subject",
+                "message_label": "Сообщение",
+                "submit_button": "Отправить"
             },
             "modal_sent": {
-                "title_text": "",
-                "on_its_way": ""
+                "title_text": "Почта отправлена!",
+                "on_its_way": "Получилось! Ваше письмо уже на пути к {recipientsCount} получателям!"
             },
             "recipient_kinds": {
-                "user": "",
-                "group": "",
-                "email": ""
+                "user": "Пользователь",
+                "group": "Группа",
+                "email": "Эл.почта"
             }
         },
         "api": {
-            "no_recipients": ""
+            "no_recipients": "Не найдены подходящие получатели"
         },
         "email": {
-            "default_subject": ""
+            "default_subject": "=> clarkwinkelmann-mailing.ref.default_subject"
         },
         "ref": {
-            "default_subject": ""
+            "default_subject": "Сообщение от Администрации форума"
         }
     }
 }
