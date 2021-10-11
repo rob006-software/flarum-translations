@@ -546,7 +546,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/last-users-posts/0.2.3/locale/en.yml',
 	],
 	'justoverclock-moneytizer-ads' => [
-		'tag' => 'https://raw.githubusercontent.com/justoverclockl/moneytizer-ads/0.1.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/moneytizer-ads/0.1.2/locale/en.yml',
 	],
 	'justoverclock-newsfeed' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-newsfeed/1.0.1/resources/locale/en.yml',
