@@ -32,7 +32,6 @@ return [
 	],
 	'afrux-asirem' => [
 		'afrux-theme-base:tag' => 'https://raw.githubusercontent.com/afrux/flarum-theme-base/v0.1.6/locale/en.yml',
-		'afrux-theme-base:master' => 'https://raw.githubusercontent.com/afrux/flarum-theme-base/master/locale/en.yml',
 	],
 	'afrux-forum-stats-widget' => [
 		'tag' => 'https://raw.githubusercontent.com/afrux/forum-stats-widget/v0.1.0/locale/en.yml',
