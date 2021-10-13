@@ -14,10 +14,12 @@ declare(strict_types=1);
 return [
 	// do not remove this component - it is used as main component in Weblate project
 	'core' => [
+		'https://raw.githubusercontent.com/flarum/core/v1.1.0/locale/core.yml',
 		'https://raw.githubusercontent.com/flarum/core/v1.0.0/locale/core.yml',
 		'https://raw.githubusercontent.com/flarum/core/master/locale/core.yml',
 	],
 	'validation' => [
+		'https://raw.githubusercontent.com/flarum/core/v1.1.0/locale/validation.yml',
 		'https://raw.githubusercontent.com/flarum/core/v1.0.0/locale/validation.yml',
 		'https://raw.githubusercontent.com/flarum/core/master/locale/validation.yml',
 	],
