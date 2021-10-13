@@ -707,6 +707,9 @@ return [
 	'spookygames-auth-keycloak' => [
 		'tag' => 'https://raw.githubusercontent.com/spookygames/flarum-ext-auth-keycloak/1.0.0.3/locale/en.yml',
 	],
+	'subasteve-mailing' => [
+		'tag' => 'https://raw.githubusercontent.com/subasteve/flarum-ext-mailing/0.4.2/resources/locale/en.yml',
+	],
 	'sycho-advanced-extension-categories' => [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-advanced-extension-categories/v0.1.3/locale/en.yml',
 	],
