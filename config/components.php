@@ -462,6 +462,9 @@ return [
 	'ianm-level-ranks' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/level-ranks/1.0.0/resources/locale/en.yml',
 	],
+	'ianm-oauth-amazon' => [
+		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-ext-oauth-amazon/1.0.0/locale/en.yml',
+	],
 	'ianm-syndication' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/syndication/1.0.2/resources/locale/en.yml',
 	],
