@@ -471,7 +471,7 @@
                 "generic_message": "Ups! Coś poszło nie tak. Odśwież stronę i spróbuj ponownie.",
                 "missing_dependencies_message": "Nie można włączyć {extension}, jeśli następujące zależności są wyłączone: {extensions}",
                 "not_found_message": "Żądany zasób nie został znaleziony.",
-                "payload_too_large_message": "",
+                "payload_too_large_message": "Ładunek żądania był zbyt duży.",
                 "permission_denied_message": "Nie masz uprawnień, aby to zrobić.",
                 "rate_limit_exceeded_message": "Nie bądź taki hop do przodu! Spróbuj ponownie za kilka sekund."
             },
@@ -495,17 +495,17 @@
             "admin": {
                 "extensions": {
                     "caption": "",
-                    "disable": "",
-                    "empty": "",
-                    "enable": "",
-                    "name": "",
-                    "package_name": "",
-                    "version": ""
+                    "disable": "Wyłącz",
+                    "empty": "Brak zainstalowanych rozszerzeń",
+                    "enable": "Włącz",
+                    "name": "Nazwa rozszerzenia",
+                    "package_name": "Nazwa pakietu",
+                    "version": "Wersja"
                 },
                 "info": {
-                    "caption": ""
+                    "caption": "Informacje o aplikacji"
                 },
-                "title": ""
+                "title": "Administracja"
             },
             "confirm_email": {
                 "submit_button": "",
@@ -587,7 +587,7 @@
             "edit": "Edytuj",
             "edit_user": "Edytuj użytkownika",
             "email": "E-mail",
-            "extensions": "",
+            "extensions": "Rozszerzenia",
             "icon": "Ikona",
             "icon_text": "Wpisz nazwę dowolnej klasy z <a>Font Awesome</a>, <em>włącznie</em> z prefiksem <code>fas fa-</code>.",
             "load_more": "Wczytaj więcej",
