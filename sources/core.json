@@ -464,7 +464,8 @@
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
+                "username_label": "=> core.ref.username",
+                "nothing_available": "You are not allowed to edit this user."
             },
             "error": {
                 "dependent_extensions_message": "Cannot disable {extension} until the following dependent extensions are disabled: {extensions}",
