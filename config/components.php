@@ -235,7 +235,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/flarum/markdown/master/locale/en.yml',
 	],
 	'flarum-mentions' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/mentions/v1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/mentions/v1.1.0/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/flarum/mentions/master/locale/en.yml',
 	],
 	'flarum-nicknames' => [
