@@ -316,9 +316,9 @@
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Profil",
-                "search_clear_button_accessible_label": "",
+                "search_clear_button_accessible_label": "Suchabfrage löschen",
                 "search_placeholder": "Suche",
-                "search_role_label": "",
+                "search_role_label": "Forum durchsuchen",
                 "session_dropdown_accessible_label": "Dropdown-Menü der Sitzungsoptionen umschalten",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
@@ -465,7 +465,7 @@
                 "title": "Nutzer*in bearbeiten",
                 "username_heading": "=> core.ref.username",
                 "username_label": "=> core.ref.username",
-                "nothing_available": ""
+                "nothing_available": "Du darfst diesen Benutzer nicht bearbeiten."
             },
             "error": {
                 "dependent_extensions_message": "Die Erweiterung {extension} kann nicht deaktiviert werden, bis folgende abhängige Erweiterungen deaktiviert wurden: {extensions}",
