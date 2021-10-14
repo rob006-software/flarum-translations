@@ -2,17 +2,17 @@
     "clarkwinkelmann-featured-discussions": {
         "admin": {
             "settings": {
-                "schedule": "",
-                "duration": "",
-                "eventPost": ""
+                "schedule": "Planen (CRON-Syntax)",
+                "duration": "Standarddauer (Sekunden)",
+                "eventPost": "Event-Beitrag generieren, wenn der Zeitplan geändert wird"
             },
             "permissions": {
-                "feature": ""
+                "feature": "Angesagte Diskussionen verwalten"
             }
         },
         "forum": {
             "modal": {
-                "title": "",
+                "title": "Angesagte Diskussionen",
                 "fields": {
                     "from": "",
                     "until": ""
