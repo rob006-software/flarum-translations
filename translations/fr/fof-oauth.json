@@ -1,7 +1,7 @@
 {
     "fof-oauth": {
         "admin": {
-            "configure_button_label": "",
+            "configure_button_label": "Configurer avec FoF OAuth",
             "settings": {
                 "only_icons_label": "Afficher uniquement les icônes du bouton de connexion (disposition alternative)",
                 "providers": {
@@ -66,7 +66,7 @@
                 "twitter": "=> fof-oauth.lib.providers.twitter"
             },
             "signup": {
-                "username_help": ""
+                "username_help": "Veuillez choisir un nom d'utilisateur pour être connu ici"
             },
             "error": {
                 "bad_verification_code": "Jeton de vérification invalide ou expiré. Veuillez réessayer.",
