@@ -61,7 +61,6 @@ return [
 	'lt' => getComponents(),
 	'lv' => getComponents(),
 	'ml' => getComponents(),
-	'ms' => getComponents(),
 	'nl' => getComponents([
 		// translations included in extension
 		'!v17development-seo',
