@@ -768,7 +768,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/zerosonesfun/expired-posts/0.4/resources/locale/en.yml',
 	],
 	'zerosonesfun-tracking' => [
-		'tag' => 'https://raw.githubusercontent.com/zerosonesfun/flarum-tracking/0.3/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/zerosonesfun/flarum-tracking/0.6/locale/en.yml',
 	],
 	/* extensions list end */
 ];
