@@ -2,40 +2,40 @@
     "afrux-theme-base": {
         "admin": {
             "extensions": {
-                "title": "",
-                "description": ""
+                "title": "Erweiterungen",
+                "description": "Liste aller installierten Erweiterungen."
             },
             "extension": {
                 "sections": {
-                    "content": "",
-                    "permissions": ""
+                    "content": "Grundeinstellungen",
+                    "permissions": "Berechtigungen"
                 }
             },
             "header": {
-                "go_back": ""
+                "go_back": "Zurück zum Forum"
             },
             "users": {
                 "grid": {
                     "columns": {
                         "avatar": {
-                            "title": ""
+                            "title": "Avatar"
                         }
                     }
                 }
             },
             "settings": {
-                "edit_footer_links": "",
-                "footer_description": "",
-                "footer_bottom_line": "",
-                "hero_banner": "",
-                "hero_banner_position": "",
+                "edit_footer_links": "Fußzeilen-Links bearbeiten",
+                "footer_description": "Fußzeilenbeschreibung",
+                "footer_bottom_line": "Fußzeile Endergebnis",
+                "hero_banner": "Willkommensheldenbild",
+                "hero_banner_position": "Hero Image CSS-Position (Beispiel: 'center top' oder 'center 20%')",
                 "links_modal": {
-                    "add_group": "",
-                    "group_name": "",
-                    "group_title": "",
-                    "add_link": "",
-                    "link_url": "",
-                    "link_label": ""
+                    "add_group": "Neue Linkgruppe",
+                    "group_name": "Gruppe {Nummer} Name",
+                    "group_title": "Titel der Linkgruppe",
+                    "add_link": "Link hinzufügen",
+                    "link_url": "Link-URL",
+                    "link_label": "Link-Label"
                 }
             }
         }
