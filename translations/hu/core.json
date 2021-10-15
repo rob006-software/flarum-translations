@@ -510,7 +510,7 @@
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
                 "username_label": "=> core.ref.username",
-                "nothing_available": ""
+                "nothing_available": "Nem szerkesztheted ezt a felhasználót."
             },
             "error": {
                 "dependent_extensions_message": "Nem kapcsolhatod ki a(z) {extension} amíg aktív ez a bővítmény: {extension}",
@@ -520,13 +520,13 @@
                 "payload_too_large_message": "A kérés terhelése túl nagy volt.",
                 "permission_denied_message": "Nem rendelkezel megfelelő jogokkal ehhez.",
                 "rate_limit_exceeded_message": "Túl gyors vagy! Próbáld meg kicsit később.",
-                "render_failed_message": ""
+                "render_failed_message": "Sajnáljuk, hiba történt a tartalom megjelenítése közben. Ha felhasználó vagy, próbáld újra később. Ha Rendszergazda vagy, további információért nézd meg a Flarum naplófájljait."
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
             },
             "number_suffix": {
-                "kilo_text": "K",
+                "kilo_text": "E",
                 "mega_text": "M"
             },
             "series": {
