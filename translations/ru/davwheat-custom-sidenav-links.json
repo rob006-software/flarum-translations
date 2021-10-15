@@ -4,71 +4,71 @@
             "admin": {
                 "settings_page": {
                     "display_options": {
-                        "heading": "",
+                        "heading": "Настройки отображения",
                         "options": {
                             "position": {
-                                "above-tags-link": "",
-                                "below-tags-link": ""
+                                "above-tags-link": "Кнопка над \"Тегами\"",
+                                "below-tags-link": "Кнопка под \"Тегами\""
                             }
                         },
                         "labels": {
-                            "position": "",
-                            "top_spacer": "",
-                            "bottom_spacer": ""
+                            "position": "Расположение ссылки",
+                            "top_spacer": "Показывать верхний разделитель",
+                            "bottom_spacer": "Показывать нижний разделитель"
                         }
                     },
                     "link_table": {
-                        "heading": "",
-                        "add_link_btn": "",
-                        "confirm_delete": "",
+                        "heading": "Настроить ссылки",
+                        "add_link_btn": "Добавить ссылку",
+                        "confirm_delete": "Подтвердите удаление ссылки \"{link}\"",
                         "alert": {
-                            "fix_errors": ""
+                            "fix_errors": "Перед сохранением внесенных изменений необходимо исправить перечисленные ошибки."
                         },
                         "table": {
                             "header": {
-                                "position": "",
-                                "icon": "",
-                                "text": "",
-                                "url": "",
-                                "internal": "",
-                                "delete": ""
+                                "position": "Позиция",
+                                "icon": "Иконка ссылки",
+                                "text": "Подпись ссылки",
+                                "url": "URL ссылки",
+                                "internal": "URL принадлежит Flarum?",
+                                "delete": "Удалить"
                             },
                             "placeholders": {
-                                "icon": "",
-                                "text": "",
-                                "url": ""
+                                "icon": "fas fa-link",
+                                "text": "Мой крутой сайт",
+                                "url": "https://flarum.org"
                             },
                             "tooltips": {
-                                "move_up": "",
-                                "move_down": "",
-                                "icon_preview": ""
+                                "move_up": "Переместить вверх",
+                                "move_down": "Переместить вниз",
+                                "icon_preview": "Предпросмотр иконки"
                             }
                         },
                         "save_btn": {
-                            "dirty": "",
-                            "saving": "",
-                            "saved": "",
-                            "fix_errors": ""
+                            "dirty": "Сохранить настройки",
+                            "saving": "Сохраняю изменения...",
+                            "saved": "Нет изменений для сохранения",
+                            "fix_errors": "Перед сохранением исправьте ошибки"
                         }
                     },
                     "new_link_modal": {
-                        "title": "",
+                        "title": "Добавить новую ссылку",
                         "submit_btn": {
-                            "add": "",
-                            "loading": "",
-                            "fix_url": "",
-                            "invalid_form": ""
+                            "add": "Добавить ссылку",
+                            "loading": "Добавляю ссылку",
+                            "fix_url": "Ошибочный URL",
+                            "invalid_form": "Заполните все поля"
                         },
                         "labels": {
-                            "icon": "",
-                            "text": "",
-                            "url": "",
-                            "internal": ""
+                            "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.icon",
+                            "text": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.text",
+                            "url": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.url",
+                            "internal": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.internal"
                         },
                         "placeholders": {
-                            "icon": "",
-                            "text": "",
-                            "url": ""
+                            "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.icon",
+                            "text": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.text",
+                            "url": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.url"
                         }
                     }
                 }
