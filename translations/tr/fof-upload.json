@@ -9,7 +9,7 @@
                 "disable-download-logging": "Forum kullanıcıları tarafından yapılan her indirme işleminin kaydını etkisizleştir. Etkinleştirilmesi, gelecekte indirenlerin sayısını ve diğer ölçümleri görmenizi sağlar.\n",
                 "disable-hotlink-protection": "Hotlink koruması, diğer sitelerden indirme yapılmasına engel olur. Geçerli bir csrf token ve post id'si gereklidir.\n",
                 "download_templates": "İndirme şablonları, dosyaların forumunuzda nasıl görüneceğini ayarlamanızı sağlar, örneğin önizleme veya düğme gibi. Mevcut olanlar:\n",
-                "mime_types": "Please configure your mapping here. Each mime type regular expression will be handled by a specific upload adapter and download template.\n",
+                "mime_types": "Lütfen eşlemenizi burada yapılandırın. Her mime tipi normal ifade, belirli bir yükleme bağdaştırıcısı ve indirme şablonu tarafından işlenecektir.\n",
                 "resize": "Resimlerin yüklenmeden önce yeniden boyulandırılıp boyutlandırılmayacağını seçin. Piksel cinsinden maksimum genişlik ve yükseklik belirtebilirsiniz. Yeniden boyutlandırma işlemi görüntülerin enini ve boyunu korur.\n",
                 "client_extension": "Varsayılan olarak Yükle, MIME türüne göre güvenli bir dosya uzantısı seçecektir.\nZIP veya ikili verilere dayalı bazı dosya türleri için bu, beklenen uzantıların yerine genel uzantıların kullanılmasına neden olabilir.\nBurada, aynen tutulacak dosya uzantılarının virgülle ayrılmış bir listesini girebilirsiniz.\n",
                 "watermark": "Yükleme sırasında resimlere filigran (watermark) eklenip eklenmeyeceğini seçin. Filigranlar gif olmayan dosyalara eklenebilir.\n",
@@ -53,7 +53,7 @@
                 },
                 "preferences": {
                     "max_file_size": "Maksimum dosya boyutu (kilobyte cinsinden)",
-                    "mime_types": "Configure your mime type, upload adapter mapping",
+                    "mime_types": "Mime türünüzü yapılandırın, uyarlayıcı eşlemesini yükleyin",
                     "title": "Genel tercihler"
                 },
                 "resize": {
