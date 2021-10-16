@@ -465,7 +465,7 @@
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
                 "username_label": "=> core.ref.username",
-                "nothing_available": ""
+                "nothing_available": "Bu kullanıcıyı düzenleme yetkiniz bulunmamaktadır."
             },
             "error": {
                 "dependent_extensions_message": "{extension} uzantısı şu uzantı etkisizleştirilmeden önce etkisizleştirilemez: {extensions}",
@@ -475,7 +475,7 @@
                 "payload_too_large_message": "İstek yükü çok büyük.",
                 "permission_denied_message": "Bunu yapmaya yetkiniz bulunmuyor.",
                 "rate_limit_exceeded_message": "Biraz fazla hızlı gidiyorsun. Lütfen birkaç saniye içinde tekrar dene.",
-                "render_failed_message": ""
+                "render_failed_message": "Üzgünüz, bu içeriği görüntülerken bir hatayla karşılaştık. Kullanıcı iseniz, lütfen daha sonra tekrar deneyin. Yöneticiyseniz, daha fazla bilgi için Flarum günlük dosyalarınıza bakın."
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
