@@ -465,7 +465,7 @@
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
                 "username_label": "=> core.ref.username",
-                "nothing_available": ""
+                "nothing_available": "Вы не можете править этого пользователя."
             },
             "error": {
                 "dependent_extensions_message": "Невозможно отключить {extension}, пока не будут отключены следующие зависимые расширения: {extensions}",
@@ -475,7 +475,7 @@
                 "payload_too_large_message": "Длина запроса слишком велика.",
                 "permission_denied_message": "У Вас нет прав доступа для выполнения этого действия.",
                 "rate_limit_exceeded_message": "Вы размещаете сообщения слишком часто. Пожалуйста, попробуйте ещё раз через несколько секунд.",
-                "render_failed_message": ""
+                "render_failed_message": "Извините, при отображении этого контента возникли ошибки. Если вы простой пользователь, повторите попытку позднее. Если вы администратор, посмотрите детали в лог-файлах Фларума."
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
