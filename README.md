@@ -531,6 +531,8 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`nosun-reply-to-see`](https://weblate.rob006.net/projects/flarum/nosun-reply-to-see) | [`nosun/reply-to-see`](https://github.com/nosun/flarum-ext-reply2see) |
 | [`nyu8-email-filter`](https://weblate.rob006.net/projects/flarum/nyu8-email-filter) | [`nyu8/flarum-email-filter`](https://github.com/nyu8/flarum-email-filter) |
 | [`ralkage-hcaptcha`](https://weblate.rob006.net/projects/flarum/ralkage-hcaptcha) | [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha) |
+| [`ramesh-dada-gui-image-and-link`](https://weblate.rob006.net/projects/flarum/ramesh-dada-gui-image-and-link) | [`ramesh-dada/flarum-gui-image-and-link`](https://github.com/ramesh-dada/Flarum-GUI-Image-and-Link) |
+| [`ramesh-dada-realtime`](https://weblate.rob006.net/projects/flarum/ramesh-dada-realtime) | [`ramesh-dada/realtime`](https://github.com/ramesh-dada/realtime) |
 | [`serakoi-hideprofile`](https://weblate.rob006.net/projects/flarum/serakoi-hideprofile) | [`serakoi/flarum-hideprofile`](https://github.com/Serakoi/flarum-hideprofile) |
 | [`serakoi-flarumdiscordtheme`](https://weblate.rob006.net/projects/flarum/serakoi-flarumdiscordtheme) | [`serakoi/flarumdiscordtheme`](https://github.com/Serakoi/flarum-discord-theme-2) |
 | [`spookygames-auth-keycloak`](https://weblate.rob006.net/projects/flarum/spookygames-auth-keycloak) | [`spookygames/flarum-ext-auth-keycloak`](https://github.com/spookygames/flarum-ext-auth-keycloak) |
