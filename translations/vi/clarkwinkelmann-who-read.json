@@ -1,0 +1,54 @@
+{
+    "clarkwinkelmann-who-read": {
+        "forum": {
+            "tooltip": {
+                "last-read-at": "{username} đọc {ago}",
+                "last-read-at-behind": "{username} lần cuối đọc {ago} và sau",
+                "last-read-at-up-to-date": "{username} đọc bài cuối cùng {ago}"
+            },
+            "more": {
+                "show": "Hiện thêm {count}",
+                "info": "Và {count} nữa"
+            },
+            "footer": {
+                "read-this-post": "{count, plural, =0 {Không ai đọc bài viết này} one {Một người dùng đọc bài viết này} other {# người dùng đọc bài viết này}}",
+                "read-no-further": "{count, plural, =0 {Mọi người đọc thêm} one {Một người dùng đã không đọc thêm} other {# đã không đọc thêm}}",
+                "read-to-end": "{count, plural, =0 {Không ai đọc đến cuối cùng} one {Một người dùng đọc đến cuối cùng} other {# người dùng đọc đến cuối cùng}}"
+            },
+            "controls": {
+                "set-unread": "Đánh dấu chưa đọc",
+                "remove-unread": "Xóa chưa đọc"
+            },
+            "badges": {
+                "following": "=> flarum-subscriptions.forum.badge.following_tooltip",
+                "ignoring": "=> flarum-subscriptions.forum.badge.ignoring_tooltip",
+                "unread": "Được đánh dấu là chưa đọc"
+            },
+            "modal": {
+                "title": "Người đọc",
+                "up-to-this-post": "Người dùng đã đọc đến bài viết này",
+                "past-this-post": "Người dùng đã đọc qua bài đăng này",
+                "to-the-end": "Người dùng đọc đến cuối",
+                "behind": "Người dùng không đọc đến cuối"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "see-read": "Xem trạng thái đã đọc",
+                "see-subscription": "Xem trạng thái đăng ký",
+                "see-unread": "Xem trạng thái chưa đọc của những người dùng khác",
+                "mark-unread": "Đánh dấu các cuộc thảo luận là chưa đọc cho người dùng riêng"
+            },
+            "settings": {
+                "show-in-discussion-list": "Hiển thị người đọc trong danh sách thảo luận",
+                "show-in-hero": "Hiển thị người đọc trong cuộc thảo luận anh hùng",
+                "show-between-posts": "Hiển thị trạng thái đã đọc giữa các bài đăng",
+                "show-count-of-readers-who-stopped": "Hiển thị số người dùng đã ngừng đọc thay vì tổng số người đã đọc giữa các bài đăng",
+                "hide-when-behind": "Ẩn hoàn toàn người dùng nếu họ đứng sau nhiều bài đăng đó",
+                "max-visible": "Số lượng người dùng tối đa sẽ hiển thị trước khi \"đọc thêm\"",
+                "unread-icon": "Biểu tượng cho huy hiệu chưa đọc",
+                "only-groups": "Chỉ hiển thị trạng thái đã đọc của người dùng thuộc các nhóm đó"
+            }
+        }
+    }
+}

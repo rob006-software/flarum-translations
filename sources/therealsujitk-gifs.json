@@ -1,20 +1,24 @@
 {
-    "therealsujitk": {
+    "therealsujitk-gifs": {
         "forum": {
-            "gifs": {
-                "label": "Insert GIF",
-                "title": "Select GIF",
-                "searchbar": "Search GIFs",
-                "search": "Search",
-                "loading": "Loading...",
-                "noresults": "No Results",
-                "loadmore": "Load More"
-            }
+            "label": "Insert GIF",
+            "title": "Select a GIF to add to your post",
+            "searchGiphy": "Search Giphy",
+            "searchTenor": "Search Tenor",
+            "search": "Search",
+            "favourites": "Favourites",
+            "trending": "Trending GIFs",
+            "addFavourite": "Add To Favourites",
+            "removeFavourite": "Remove From Favourites"
         },
         "admin": {
-            "gifs": {
-                "giphyAPIkey": "Giphy API Key"
-            }
+            "engine": "Search Engine",
+            "apiKey": "API Key",
+            "rating": "Content Rating / Content Filter",
+            "ratingOff": "R / Off",
+            "ratingLow": "PG-13 / Low",
+            "ratingMedium": "PG / Medium",
+            "ratingHigh": "G / High"
         }
     }
 }

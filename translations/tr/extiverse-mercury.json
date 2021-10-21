@@ -2,24 +2,24 @@
     "extiverse-mercury": {
         "admin": {
             "extension-updates-page": {
-                "extension-name": "",
-                "extension-is-up-to-date": "",
-                "highest-version": "",
-                "installed-version": ""
+                "extension-name": "Uzantı",
+                "extension-is-up-to-date": "günceldir",
+                "highest-version": "Son sürüm",
+                "installed-version": "Kurulu sürüm"
             },
             "settings": {
-                "token": "",
-                "token-description": ""
+                "token": "Extiverse jetonu (<a>istek</a>)",
+                "token-description": "Mercury'nin Flarum topluluğunuzla güvenli bir şekilde iletişim kurabilmesi için <a>Extiverse</a>'den bir API jetonu alın.\n"
             },
             "header-secondary": {
-                "no-token": "",
-                "updates": ""
+                "no-token": "Jeton Gerekli",
+                "updates": "{count, plural, =0 {Güncelleme yok} one {Bir güncelleme} other {# güncelleme}}"
             }
         },
         "email": {
             "new-extension-update": {
-                "subject": "",
-                "body": ""
+                "subject": "{count, plural, one {Topluluğunuz için bir güncelleme mevcuttur} other {Topluluğunuz için # güncelleme mevcuttur}}",
+                "body": "Hey {recipient_display_name}!\n\nFlarum topluluğunuz için {count} güncelleme mevcuttur. Güncellemeleri en kısa sürede\nyapmanız şiddetle tavsiye edilir.\n\nGüncelleme alan uzantılar şunlardır {extensions}.\n\nDaha fazla bilgi için topluluğunuzu ziyaret edin: {url}.\n"
             }
         }
     }

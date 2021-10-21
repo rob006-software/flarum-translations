@@ -2,49 +2,49 @@
     "blomstra-payments": {
         "forum": {
             "pay-to-view": {
-                "purchase-control": "",
-                "purchase-log-in": "",
-                "purchase-completed": "",
-                "description": ""
+                "purchase-control": "Paga per Guardare",
+                "purchase-log-in": "Login & Paga per Guardare",
+                "purchase-completed": "Sbloccato",
+                "description": "I post oltre questo punto sono oscurati mediante paywall, puoi sbloccarli completando il pagamento tramite il nostro provider di pagamento Stripe.\n"
             },
             "pay-to-post": {
-                "purchase-control": "",
-                "purchase": "",
-                "purchase_required": ""
+                "purchase-control": "Paga per Postare",
+                "purchase": "Paga per Pubblicare",
+                "purchase_required": "Questa discussione verrà pubblicata una volta completato il pagamento tramite il nostro provider di pagamento Stripe. Fare clic su Acquista per visualizzare i costi e le opzioni di pagamento.\n"
             },
             "tag": {
-                "require-payment-label": ""
+                "require-payment-label": "Pagamento Richiesto"
             },
             "payment-options-modal": {
-                "title": "",
-                "description": ""
+                "title": "Opzioni di pagamento per accedere a {group}",
+                "description": "Scegli una delle seguenti opzioni per iniziare il tuo accesso al gruppo. Verrai reindirizzato al nostro provider di pagamento Stripe per l'elaborazione dei pagamenti.\n"
             },
             "access-portal": {
-                "options": "",
-                "purchase": ""
+                "options": "opzioni",
+                "purchase": "acquista"
             },
             "nav": {
-                "access_portal": ""
+                "access_portal": "Portale di accesso"
             }
         },
         "admin": {
             "edit-tag": {
-                "select-ptp-product": "",
-                "select-ptp-product-description": "",
-                "select-ptv-product": "",
-                "select-ptv-product-description": "",
-                "visible-from": "",
-                "visible-from-description": ""
+                "select-ptp-product": "(PTP) Prodotto richiesto",
+                "select-ptp-product-description": "La selezione di un prodotto richiederà il pagamento di quel prodotto per ogni discussione in quel tag. Pay per post, ad esempio è ottimo per le redazioni. Crea un prodotto con un unico prezzo \"una tantum\" nella dashboard di Stripe e copia l'ID che inizia con <code>prod_</code> in questo campo.\n",
+                "select-ptv-product": "(PTV) Prodotto richiesto",
+                "select-ptv-product-description": "La selezione di un prodotto richiederà il pagamento dello stesso per ottenere permanentemente l'accesso a tutti i post oltre la soglia. Crea un prodotto nella dashboard di Stripe e copia l'ID che inizia con <code>prod_</code> in questo campo.\n",
+                "visible-from": "Nascondi post oltre questa soglia",
+                "visible-from-description": "Il numero che specifichi qui definisce a che punto i post verranno nascosti agli utenti che non hanno pagato per accedere al contenuto. Usa 0 per nasconderli tutti, 1 per quello dopo l'OP.\n"
             },
             "edit-group": {
-                "select-pta-product": "",
-                "select-pta-product-description": ""
+                "select-pta-product": "(PTA) Prodotto richiesto",
+                "select-pta-product-description": "La selezione consentirà l'accesso al gruppo dopo il pagamento. In caso di abbonamento l'accesso verrà revocato automaticamente dopo l'annullamento dell'abbonamento. Crea un prodotto nella dashboard di Stripe e copia l'ID che inizia con <code>prod_</code> in questo campo.\n"
             },
             "settings": {
-                "pk": "",
-                "sk": "",
-                "webhook-secret": "",
-                "link-access-portal": ""
+                "pk": "Chiave (api) Pubblicabile",
+                "sk": "Chiave (api) Segreta",
+                "webhook-secret": "Firma del Webhook",
+                "link-access-portal": "Collega il portale di accesso nel menu a discesa della sessione utente"
             }
         }
     }

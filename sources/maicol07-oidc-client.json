@@ -1,0 +1,44 @@
+{
+    "maicol07-oidc-client": {
+        "admin": {
+            "settings": {
+                "provider_name": "OpenID Connect provider name",
+                "client_settings_title": "Client settings",
+                "client_settings_subtitle": "Add here your client infos given by your OpenID Connect provider. For further help, check the docs.",
+                "client_id": "Client ID",
+                "client_secret": "Client secret",
+                "callback_title": "Callback URIs",
+                "callback_subtitle": "These are the callback URIs you need to register on your provider to get the client authorization code and to logout from provider as well, if the related option has been enabled.",
+                "callback_logout_note": "needed only when logging out from provider option is enabled (see at the bottom of the page)",
+                "provider_settings_title": "Provider settings",
+                "provider_url": "Provider URL",
+                "endpoints_title": "Provider endpoints",
+                "endpoints_subtitle": "Add here your provider endpoints. If you have added the provider URL above and your provider supports autodiscovery, the required endpoints are discovered (and saved) automatically when you press the \"Save settings\" button (you won't see the new endpoints in settings until you refresh the page). You don't have to add the other endpoints if the provider URL is filled and autodiscovery is enabled on the provider. If your provider doesn't have implemented it yet, you can add the required endpoints manually below. Check the docs for further help\n",
+                "endpoints": {
+                    "authorize": "Authorization endpoint URL",
+                    "token": "Token endpoint URL",
+                    "userinfo": "Userinfo endpoint URL",
+                    "logout": "End session (logout) endpoint URL"
+                },
+                "other_settings_title": "Other settings",
+                "issuer": "Issuer URL",
+                "nonce": "Deactivate the nonce verify",
+                "linker_claim": "Linker claim",
+                "manage_account_url": "Account management URL",
+                "manage_account_btn_open_in_new_tab": "Open the account management page in a new tab",
+                "sso_mode": "SSO mode",
+                "logout_from_provider": "Logout from provider (when SSO mode is enabled)",
+                "remove_signup_btn": "Remove signup button",
+                "sync_avatars": "Sync user avatar"
+            }
+        },
+        "forum": {
+            "buttons": {
+                "manage_account": "Manage account",
+                "login": "Login to {name}",
+                "connect_account": "Connect to {name}",
+                "disconnect_account": "Disconnect from {name}"
+            }
+        }
+    }
+}

@@ -2,8 +2,12 @@
     "michaelbelgium-flarum-profile-views": {
         "forum": {
             "user": {
-                "last_viewers_heading": "Laatste bezoekers",
-                "view_count_text": "{viewcount, plural, one {{viewcount} keer bekeken} other {{viewcount} keer bekeken}}"
+                "viewlist": {
+                    "title": "",
+                    "guest": ""
+                },
+                "view_count_text": "{viewcount, plural, one {{viewcount} keer bekeken} other {{viewcount} keer bekeken}}",
+                "last_viewers_heading": "Laatste bezoekers"
             }
         },
         "admin": {

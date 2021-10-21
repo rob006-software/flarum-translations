@@ -1,0 +1,37 @@
+{
+    "nearata-tags-color-generator": {
+        "admin": {
+            "color_luminosity_label": "Độ sáng màu",
+            "color_luminosity_options": {
+                "random": "Ngẫu nhiên",
+                "light": "Sáng",
+                "bright": "Sáng chói",
+                "dark": "Tối"
+            },
+            "color_hue_label": "Màu Hue",
+            "color_hue_options": {
+                "random": "Ngẫu nhiên",
+                "red": "Đỏ",
+                "orange": "Cam",
+                "yellow": "Vàng",
+                "green": "Xanh lá cây",
+                "blue": "Xanh nước biển",
+                "purple": "Tím",
+                "pink": "Hồng",
+                "monochrome": "Đơn sắc"
+            },
+            "text_color": {
+                "label": "Màu chữ",
+                "options": {
+                    "default": "Mặc định",
+                    "theme_primary_color": "Màu chính của giao diện",
+                    "theme_secondary_color": "Màu phụ của giao diện",
+                    "custom": "Tự phối màu"
+                },
+                "custom_label": "Màu chữ tùy chỉnh",
+                "custom_helptext": "Phải là hex (bao gồm \"#\"), rgb(a) hoặc hls(a)."
+            },
+            "generate_color_button": "Tạo màu ngẫu nhiên"
+        }
+    }
+}

@@ -11,9 +11,9 @@
                 "info": "And {count} more"
             },
             "footer": {
-                "read-this-post": "{0} Nobody read this post|{1} One user read this post|]1,Inf] {count} users read this post",
-                "read-no-further": "{0} Everybody read further|{1} One user did not read further|]1,Inf] {count} did not read further",
-                "read-to-end": "{0} Nobody read to the end|{1} One user read to the end|]1,Inf] {count} users read to the end"
+                "read-this-post": "{count, plural, =0 {Nobody read this post} one {One user read this post} other {# users read this post}}",
+                "read-no-further": "{count, plural, =0 {Everybody read further} one {One user did not read further} other {# did not read further}}",
+                "read-to-end": "{count, plural, =0 {Nobody read to the end} one {One user read to the end} other {# users read to the end}}"
             },
             "controls": {
                 "set-unread": "Mark unread",

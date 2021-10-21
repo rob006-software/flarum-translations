@@ -1,0 +1,43 @@
+{
+    "afrux-theme-base": {
+        "admin": {
+            "extensions": {
+                "title": "扩展程序",
+                "description": "已安装的扩展程序"
+            },
+            "extension": {
+                "sections": {
+                    "content": "主设置",
+                    "permissions": "权限"
+                }
+            },
+            "header": {
+                "go_back": "返回论坛"
+            },
+            "users": {
+                "grid": {
+                    "columns": {
+                        "avatar": {
+                            "title": "头像"
+                        }
+                    }
+                }
+            },
+            "settings": {
+                "edit_footer_links": "编辑页脚链接",
+                "footer_description": "页脚描述",
+                "footer_bottom_line": "页脚线条",
+                "hero_banner": "首页欢迎横幅背景图",
+                "hero_banner_position": "欢迎横幅背景图 CSS 位置（如「center top」或「center 20%」）",
+                "links_modal": {
+                    "add_group": "添加链接组",
+                    "group_name": "组 {number} 名称",
+                    "group_title": "链接组标题",
+                    "add_link": "添加链接",
+                    "link_url": "链接 URL",
+                    "link_label": "链接名称"
+                }
+            }
+        }
+    }
+}

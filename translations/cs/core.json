@@ -323,7 +323,9 @@
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Profil",
+                "search_clear_button_accessible_label": "",
                 "search_placeholder": "Prohledat fórum",
+                "search_role_label": "",
                 "session_dropdown_accessible_label": "Přepnutí rozevírací nabídky možností relace",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
@@ -482,15 +484,18 @@
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
+                "username_label": "=> core.ref.username",
+                "nothing_available": ""
             },
             "error": {
                 "dependent_extensions_message": "Není možné deaktivovat {extension} dokud nejsou deaktivována tato závislá rozšíření: {extensions}",
                 "generic_message": "Jejda, něco se pokazilo. Obnov prosím stránku a zkus to znovu.",
                 "missing_dependencies_message": "Není možné povolit {extension} dokud nejsou povolena tato rozšíření: {extensions}",
                 "not_found_message": "Požadovaný zdroj nebyl nalezen.",
+                "payload_too_large_message": "",
                 "permission_denied_message": "Na tuto operaci nemáte dostatečná práva.",
-                "rate_limit_exceeded_message": "Jsi moc rychlý, zkus to prosím za několik sekund znovu."
+                "rate_limit_exceeded_message": "Jsi moc rychlý, zkus to prosím za několik sekund znovu.",
+                "render_failed_message": ""
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
@@ -509,6 +514,26 @@
             }
         },
         "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "",
+                    "disable": "",
+                    "empty": "",
+                    "enable": "",
+                    "name": "",
+                    "package_name": "",
+                    "version": ""
+                },
+                "info": {
+                    "caption": ""
+                },
+                "title": ""
+            },
+            "confirm_email": {
+                "submit_button": "",
+                "text": "",
+                "title": ""
+            },
             "content": {
                 "javascript_disabled_message": "Tento web funguje nejlépe v moderním prohlížeči se zapnutým JavaScriptem.",
                 "load_error_message": "Něco se pokazilo, když jsi se pokusil načíst plnou verzi tohoto webu. Zkus stránku natvrdo obnovit.",
@@ -572,6 +597,7 @@
             "change_password": "Změnit heslo",
             "color": "Barva",
             "confirm_password": "Potvrdit heslo",
+            "confirm_email": "",
             "confirmation_email_sent": "Poslali jsme potvrzovací zprávu na adresu {email}. Pokud brzy nedorazí, zkus se kouknout do složky s nevyžádanou poštou.",
             "custom_footer_text": "Přidej HTML, která se zobrazí na samém konci stránky.",
             "custom_footer_title": "Upravit vlastní zápatí",
@@ -583,6 +609,7 @@
             "edit": "Upravit",
             "edit_user": "Upravit uživatele",
             "email": "E-Mail",
+            "extensions": "",
             "icon": "Ikona",
             "icon_text": "Vložte název <a>FontAwesome</a> ikony, <em>i s</em> <code>fas fa-</code> prefixem.",
             "load_more": "Načíst další",

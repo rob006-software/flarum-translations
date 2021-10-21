@@ -1,0 +1,18 @@
+{
+    "clarkwinkelmann-email-whitelist": {
+        "admin": {
+            "settings": {
+                "regex": "Regulärer Ausdruck",
+                "regexHelp": "Wechsel von der Domänenliste zur Prüfung auf reguläre Ausdrücke. Jede Zeile der Liste muss ein gültiger regulärer Ausdruck mit Trennzeichen sein.\n",
+                "message": "Benutzerdefinierte Fehlermeldung",
+                "whitelist": "Whitelist",
+                "whitelistHelp": "Ein Ausdruck pro Zeile. Hat Vorrang vor der Blacklist.\n",
+                "blacklist": "Blacklist",
+                "blacklistHelp": "Ein Ausdruck pro Zeile. Wenn eine Blacklist bereitgestellt wird, wird alles, was nicht aufgeführt ist, auf die Whitelist gesetzt.\n"
+            }
+        },
+        "api": {
+            "fallbackMessage": "Die E-Mail steht nicht auf der Whitelist."
+        }
+    }
+}

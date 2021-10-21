@@ -65,18 +65,18 @@
                 "push_header": "Spingere",
                 "pwa_notifications": {
                     "access_default": "A causa delle restrizioni del browser, è necessario scegliere di ricevere le notifiche push su questo dispositivo.",
-                    "access_default_button": "",
-                    "access_denied": "",
-                    "access_denied_button": "",
-                    "no_browser_support": "",
-                    "no_browser_support_button": ""
+                    "access_default_button": "Consenti",
+                    "access_denied": "Devi correggere le impostazioni del browser per ricevere notifiche push su questo dispositivo.",
+                    "access_denied_button": "Scopri Come",
+                    "no_browser_support": "Questo browser non supporta le notifiche push.",
+                    "no_browser_support_button": "Approfondisci"
                 }
             }
         },
         "views": {
             "offline": {
-                "header": "",
-                "text": ""
+                "header": "Errore di connessione",
+                "text": "Questa app richiede una connessione di rete; non può essere utilizzato offline. Si prega di controllare la connessione."
             }
         }
     }

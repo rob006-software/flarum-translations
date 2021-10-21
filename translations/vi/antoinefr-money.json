@@ -1,0 +1,29 @@
+{
+    "antoinefr-money": {
+        "admin": {
+            "settings": {
+                "title": "Thiết lập",
+                "moneyforpost": "Số tiền cho một bài viết mới",
+                "moneyfordiscussion": "Số tiền cho một cuộc thảo luận mới",
+                "moneyname": "Tên tiền (ví dụ: [money] điểm)",
+                "postminimumlength": "Độ dài tối thiểu của bài viết để nhận tiền (0 để vô hiệu hóa)",
+                "noshowzero": "Không hiển thị nếu số tiền bằng 0",
+                "moneyforlike": "Tiền được cộng khi có bài viết được thích",
+                "helpextensionlikes": "Yêu cầu bật tiện ích <code>flarum/likes</code>"
+            },
+            "permissions": {
+                "edit_money_label": "Chỉnh sửa tiền"
+            }
+        },
+        "forum": {
+            "user_controls": {
+                "money_button": "Sửa tiền"
+            },
+            "modal": {
+                "title": "Tiền của {username}",
+                "current": "Hiện tại:",
+                "submit_button": "=> core.ref.save_changes"
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "maicol07-oidc-client": {
+        "admin": {
+            "settings": {
+                "provider_name": "Nom du fournisseur OpenID Connect",
+                "client_settings_title": "Paramètres du client",
+                "client_settings_subtitle": "Ajoutez ici les informations client fournies par votre fournisseur OpenID Connect. Pour plus d'informations, veuillez consulter la documentation.",
+                "client_id": "Identifiant du client",
+                "client_secret": "Secret du client",
+                "callback_title": "URI de rappel",
+                "callback_subtitle": "Il s'agit des URI de rappel que vous devez enregistrer sur votre fournisseur pour obtenir le code d'autorisation du client et pour vous déconnecter du fournisseur, si l'option correspondante a été activée.",
+                "callback_logout_note": "uniquement nécessaire lorsque l'option de déconnexion du fournisseur est activée (voir en bas de la page)",
+                "provider_settings_title": "Paramètres du fournisseur",
+                "provider_url": "URL du fournisseur",
+                "endpoints_title": "Points d'accès du fournisseur",
+                "endpoints_subtitle": "Ajoutez ici les points d'accès de votre fournisseur. Si vous avez ajouté l'URL du fournisseur ci-dessus et que votre fournisseur prend en charge la découverte automatique, les points d'accès requis sont découverts (et enregistrés) automatiquement lorsque vous appuyez sur le bouton « Enregistrer les paramètres » (vous ne verrez pas les nouveaux points d'accès dans les paramètres avant de rafraîchir la page). Vous n'avez pas à ajouter les autres points d'accès si l'URL du fournisseur est spécifiée et que la découverte automatique est activée concernant le fournisseur. Si votre fournisseur n'a pas encore implémenté cette fonctionnalité, vous pouvez ajouter les points d'accès nécessaires manuellement ci-dessous. Veuillez consulter la documentation pour plus d'informations\n",
+                "endpoints": {
+                    "authorize": "URL du point d'accès d'autorisation",
+                    "token": "URL du point d'accès du jeton",
+                    "userinfo": "URL du point d'accès des informations des utilisateurs",
+                    "logout": "URL du point de fin de session (déconnexion)"
+                },
+                "other_settings_title": "Autres paramètres",
+                "issuer": "URL de l'émetteur",
+                "nonce": "Désactiver la vérification du nonce",
+                "linker_claim": "Réclamation de Linker",
+                "manage_account_url": "URL de gestion de compte",
+                "manage_account_btn_open_in_new_tab": "Ouvrir la page de gestion du compte dans un nouvel onglet",
+                "sso_mode": "Mode SSO",
+                "logout_from_provider": "Déconnexion du fournisseur (lorsque le mode SSO est activé)",
+                "remove_signup_btn": "Supprimer le bouton d'inscription",
+                "sync_avatars": "Synchroniser l'avatar des utilisateurs"
+            }
+        },
+        "forum": {
+            "buttons": {
+                "manage_account": "Gérer le compte",
+                "login": "Se connecter à {name}",
+                "connect_account": "Connecter à {name}",
+                "disconnect_account": "Se déconnecter de {name}"
+            }
+        }
+    }
+}

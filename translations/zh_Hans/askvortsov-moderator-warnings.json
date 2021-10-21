@@ -10,11 +10,11 @@
         "emails": {
             "post_warned": {
                 "subject": "您在【{discussion_title}】发表的内容被 {warner_display_name} 警告并记 {strikes, plural, one {# 分} other {# 分}}",
-                "body": "{warnee_display_name}，你好！\n\n您在【{discussion_title}】发表的内容被 {warner_display_name} 警告并记 {strikes, plural, one {# 分} other {# 分}}。\n\n原因：\n\n---\n\n{public_comment}\n"
+                "body": "{warnee_display_name}，您好！\n\n您在【{discussion_title}】发表的内容被 {warner_display_name} 警告并记 {strikes, plural, one {# 分} other {# 分}}。\n\n原因：\n\n---\n\n{public_comment}\n"
             },
             "user_warned": {
                 "subject": "收到 {warner_display_name} 的警告并记 {strikes, plural, one {# 分} other {# 分}}",
-                "body": "{warnee_display_name}，你好！\n\n你收到来自 {warnee_display_name} 的警告并记 {strikes, plural, one {#} other {#}} 分\n\n原因如下\n\n---\n\n{public_comment}\n"
+                "body": "{warnee_display_name}，您好！\n\n您已收到来自 {warnee_display_name} 的警告并记 {strikes, plural, one {#} other {#}} 分\n\n原因如下：\n\n---\n\n{public_comment}\n"
             }
         },
         "forum": {

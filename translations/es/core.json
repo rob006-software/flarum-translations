@@ -37,14 +37,14 @@
                 "show_language_selector_label": "Mostrar el selector de idioma",
                 "slug_driver_heading": "Slug Driver: {model}",
                 "slug_driver_text": "Seleccione el driver que se utilizará para el slugging de este modelo.",
-                "title": "Lo esencial",
+                "title": "Básicos",
                 "welcome_banner_heading": "Mensaje de bienvenida",
                 "welcome_banner_text": "Introduce el texto que se mostrará en la lista de discusiones. Utilízalo para dar la bienvenida a los invitados en tu foro."
             },
             "dashboard": {
                 "clear_cache_button": "Limpiar caché",
                 "description": "Tu foro de un vistazo.",
-                "title": "Tablero",
+                "title": "Panel",
                 "tools_button": "Herramientas"
             },
             "edit_css": {
@@ -59,7 +59,7 @@
             },
             "edit_group": {
                 "color_label": "=> core.ref.color",
-                "delete_button": "Borrar grupo",
+                "delete_button": "Eliminar grupo",
                 "delete_confirmation": "¿Estás seguro de que deseas eliminar este grupo? Los usuarios que pertenecen al grupo NO serán eliminados.",
                 "hide_label": "Ocultar en el foro",
                 "icon_label": "=> core.ref.icon",
@@ -79,7 +79,7 @@
                 "addresses_heading": "Direcciones",
                 "description": "Configura el controlador, la configuración y las direcciones que usará tu foro para enviar correo electrónico.",
                 "driver_heading": "Elige un controlador",
-                "driver_label": "Driver",
+                "driver_label": "Controlador",
                 "from_label": "Remitente",
                 "mail_encryption_label": "Cifrado",
                 "mail_host_label": "Servidor",
@@ -316,7 +316,9 @@
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Perfil",
+                "search_clear_button_accessible_label": "",
                 "search_placeholder": "Buscar en el foro",
+                "search_role_label": "",
                 "session_dropdown_accessible_label": "Alternar el menú desplegable de opciones de sesión",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
@@ -462,15 +464,18 @@
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
+                "username_label": "=> core.ref.username",
+                "nothing_available": ""
             },
             "error": {
                 "dependent_extensions_message": "No se puede desactivar {extension} hasta que se desactiven las siguientes extensiones dependientes: {extensions}",
                 "generic_message": "¡Caramba! Algo salió mal. Por favor, carga de nuevo la página y vuelve a intentarlo.",
                 "missing_dependencies_message": "No se puede activar {extension} hasta que se activen las siguientes extensiones dependientes: {extensions}",
                 "not_found_message": "¡Recórcholis! El recurso solicitado no fue encontrado.",
+                "payload_too_large_message": "",
                 "permission_denied_message": "¡Nanay de la China! No tienes permiso para hacer eso.",
-                "rate_limit_exceeded_message": "¡Para el carro! Vas tú muy rápido. Por favor, vuelve a intentarlo en unos segundos."
+                "rate_limit_exceeded_message": "¡Para el carro! Vas tú muy rápido. Por favor, vuelve a intentarlo en unos segundos.",
+                "render_failed_message": ""
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
@@ -489,6 +494,26 @@
             }
         },
         "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "",
+                    "disable": "",
+                    "empty": "",
+                    "enable": "",
+                    "name": "",
+                    "package_name": "",
+                    "version": ""
+                },
+                "info": {
+                    "caption": ""
+                },
+                "title": ""
+            },
+            "confirm_email": {
+                "submit_button": "",
+                "text": "",
+                "title": ""
+            },
             "content": {
                 "javascript_disabled_message": "Este sitio web se vé mejor en un navegador moderno con JavaScript activado.",
                 "load_error_message": "Algo salió mal cuando se intentó cargar la versión completa de este sitio web.",
@@ -552,6 +577,7 @@
             "change_password": "Cambiar la contraseña",
             "color": "Color",
             "confirm_password": "Confirmar la contraseña",
+            "confirm_email": "",
             "confirmation_email_sent": "Te hemos enviado un correo electrónico de confirmación a {email}. Si no aparece pronto, por favor, comprueba la carpeta de correo no deseado (spam).",
             "custom_footer_text": "Añade código HTML para que este sea mostrado en la parte más baja de la página.",
             "custom_footer_title": "Editar el pié de página personalizado",
@@ -563,6 +589,7 @@
             "edit": "Editar",
             "edit_user": "Editar usuario",
             "email": "Correo electrónico",
+            "extensions": "",
             "icon": "Icono",
             "icon_text": "Introduce el nombre de alguna clase de <a>FontAwesome</a>, <em>incluyendo</em> el prefijo <code>fas fa-</code>.",
             "load_more": "Cargar más",

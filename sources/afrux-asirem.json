@@ -1,0 +1,43 @@
+{
+    "afrux-theme-base": {
+        "admin": {
+            "extensions": {
+                "title": "Extensions",
+                "description": "List of all installed extensions."
+            },
+            "extension": {
+                "sections": {
+                    "content": "Main Settings",
+                    "permissions": "Permissions"
+                }
+            },
+            "header": {
+                "go_back": "Back to forum"
+            },
+            "users": {
+                "grid": {
+                    "columns": {
+                        "avatar": {
+                            "title": "Avatar"
+                        }
+                    }
+                }
+            },
+            "settings": {
+                "edit_footer_links": "Edit Footer Links",
+                "footer_description": "Footer Description",
+                "footer_bottom_line": "Footer Bottom Line",
+                "hero_banner": "Welcome Hero Image",
+                "hero_banner_position": "Hero Image CSS Position (example: 'center top' or 'center 20%')",
+                "links_modal": {
+                    "add_group": "New Group of Links",
+                    "group_name": "Group {number} Name",
+                    "group_title": "Link Group Title",
+                    "add_link": "Add a link",
+                    "link_url": "Link URL",
+                    "link_label": "Link Label"
+                }
+            }
+        }
+    }
+}

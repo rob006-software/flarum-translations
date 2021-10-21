@@ -316,7 +316,9 @@
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Profil",
+                "search_clear_button_accessible_label": "Wyczyść wyszukiwaną frazę",
                 "search_placeholder": "Przeszukaj forum",
+                "search_role_label": "Przeszukaj forum",
                 "session_dropdown_accessible_label": "Przełącz menu rozwijane z opcjami dla aktualnej sesji",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
@@ -462,15 +464,18 @@
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
+                "username_label": "=> core.ref.username",
+                "nothing_available": "Nie jesteś upoważniony, aby edytować tego użytkownika."
             },
             "error": {
                 "dependent_extensions_message": "Nie można wyłączyć {extension}, jeśli następujące zależne rozszerzenia są włączone: {extensions}",
                 "generic_message": "Ups! Coś poszło nie tak. Odśwież stronę i spróbuj ponownie.",
                 "missing_dependencies_message": "Nie można włączyć {extension}, jeśli następujące zależności są wyłączone: {extensions}",
                 "not_found_message": "Żądany zasób nie został znaleziony.",
+                "payload_too_large_message": "Żądanie jest za długie.",
                 "permission_denied_message": "Nie masz uprawnień, aby to zrobić.",
-                "rate_limit_exceeded_message": "Nie bądź taki hop do przodu! Spróbuj ponownie za kilka sekund."
+                "rate_limit_exceeded_message": "Nie bądź taki hop do przodu! Spróbuj ponownie za kilka sekund.",
+                "render_failed_message": ""
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
@@ -489,6 +494,26 @@
             }
         },
         "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "=> core.ref.extensions",
+                    "disable": "Wyłącz",
+                    "empty": "Brak zainstalowanych rozszerzeń",
+                    "enable": "Włącz",
+                    "name": "Nazwa rozszerzenia",
+                    "package_name": "Nazwa pakietu",
+                    "version": "Wersja"
+                },
+                "info": {
+                    "caption": "Informacje o aplikacji"
+                },
+                "title": "Administracja"
+            },
+            "confirm_email": {
+                "submit_button": "=> core.ref.confirm_email",
+                "text": "Kliknij poniższy przycisk, aby potwierdzić adres e-mail swojego konta.",
+                "title": "=> core.ref.confirm_email"
+            },
             "content": {
                 "javascript_disabled_message": "Ta strona najlepiej działa w nowoczesnych przeglądarkach z włączonym JavaScriptem.",
                 "load_error_message": "Coś poszło nie tak podczas ładowania pełnej wersji strony. Jeśli problem będzie się powtarzał, wyczyść pamięć przeglądarki (cache) i spróbuj ponownie.",
@@ -552,6 +577,7 @@
             "change_password": "Zmień hasło",
             "color": "Kolor",
             "confirm_password": "Potwierdź hasło",
+            "confirm_email": "Potwierdź e-mail",
             "confirmation_email_sent": "Wysłaliśmy e-mail aktywacyjny na {email}. Jeśli nie dotrze wkrótce, sprawdź folder ze spamem.",
             "custom_footer_text": "Dodaj własny kod HTML, który będzie wyświetlany na samym dole forum.",
             "custom_footer_title": "Edytuj stopkę",
@@ -563,6 +589,7 @@
             "edit": "Edytuj",
             "edit_user": "Edytuj użytkownika",
             "email": "E-mail",
+            "extensions": "Rozszerzenia",
             "icon": "Ikona",
             "icon_text": "Wpisz nazwę dowolnej klasy z <a>Font Awesome</a>, <em>włącznie</em> z prefiksem <code>fas fa-</code>.",
             "load_more": "Wczytaj więcej",

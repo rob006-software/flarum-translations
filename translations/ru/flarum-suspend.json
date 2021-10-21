@@ -1,0 +1,30 @@
+{
+    "flarum-suspend": {
+        "admin": {
+            "permissions": {
+                "suspend_users_label": "Блокировать пользователей"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "user_suspended_text": "Вы заблокированы на {timeReadable}",
+                "user_unsuspended_text": "Вы разблокированы"
+            },
+            "suspend_user": {
+                "indefinitely_label": "Заблокирован навсегда",
+                "limited_time_days_text": " дней",
+                "limited_time_label": "Заблокирован на период...",
+                "not_suspended_label": "Не заблокирован",
+                "status_heading": "Статус блокировки",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Блокировка {username}"
+            },
+            "user_badge": {
+                "suspended_tooltip": "Заблокирован"
+            },
+            "user_controls": {
+                "suspend_button": "Блокировать"
+            }
+        }
+    }
+}

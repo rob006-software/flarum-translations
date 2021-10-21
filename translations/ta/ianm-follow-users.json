@@ -7,10 +7,13 @@
         },
         "forum": {
             "profile_link": "=> ianm-follow-users.lib.following_link",
+            "profile_page": {
+                "no_following": ""
+            },
             "user_controls": {
                 "follow_button": "",
-                "follow_confirmation": "",
                 "unfollow_button": "",
+                "follow_confirmation": "",
                 "unfollow_confirmation": ""
             },
             "settings": {
@@ -31,10 +34,24 @@
                 "new_unfollower_text": ""
             },
             "badge": {
-                "label": ""
+                "label": "",
+                "label.follow": "",
+                "label.lurk": ""
             },
             "filter": {
                 "following": ""
+            },
+            "modals": {
+                "select_follow_level": {
+                    "title": "",
+                    "description": "",
+                    "follow_levels_heading": "",
+                    "follow_select_label": "",
+                    "no_user_attr_provided_err": "",
+                    "no_user_attr_provided_err_debug": "",
+                    "save_btn": "",
+                    "cancel_btn": ""
+                }
             }
         },
         "email": {
@@ -46,7 +63,23 @@
             "new_post_body": ""
         },
         "lib": {
-            "following_link": ""
+            "following_link": "",
+            "follow": "",
+            "change_follow_type": "",
+            "follow_levels": {
+                "unfollow": {
+                    "name": "",
+                    "description": ""
+                },
+                "follow": {
+                    "name": "",
+                    "description": ""
+                },
+                "lurk": {
+                    "name": "",
+                    "description": ""
+                }
+            }
         }
     }
 }

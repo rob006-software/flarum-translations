@@ -12,27 +12,27 @@
         "forum": {
             "discussionControl": {
                 "hide": "Gizlice sakla",
-                "restore": ""
+                "restore": "Gizlice geri getir"
             },
             "postControl": {
-                "hide": "",
-                "restore": ""
+                "hide": "Gizlice gizle",
+                "restore": "Gizlice geri getir"
             },
             "userControl": {
-                "ban": ""
+                "ban": "Gizlice yasakla"
             },
             "banUser": {
                 "title": "{username} askıya al",
-                "until": "",
-                "quick": "",
+                "until": "Şu tarihe kadar (UTC)",
+                "quick": "Hızlı kararlar",
                 "quickChoiceReset": "Askıda değil",
                 "quickChoiceDays": "{count, plural, one {# gün} other {# gün}}",
                 "submit": "Kaydet"
             },
             "badge": {
                 "user": "Gizlice askıya alınmış",
-                "discussion": "",
-                "post": ""
+                "discussion": "Gizlice gizle",
+                "post": "Gizlice gizle"
             }
         }
     }

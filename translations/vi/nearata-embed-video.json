@@ -1,0 +1,45 @@
+{
+    "nearata-embed-video": {
+        "admin": {
+            "settings": {
+                "options": {
+                    "airplay": "Airplay",
+                    "hotkey": "Phím tắt",
+                    "lang": "Ngôn ngữ trình phát",
+                    "logo": "URL logo",
+                    "quality_switching": "Cho phép đổi chất lượng",
+                    "theme": "Màu giao diện"
+                },
+                "permissions": {
+                    "can_create_video_player": "Có thể tạo trình phát video"
+                },
+                "video_types": {
+                    "dash": "Gạch ngang",
+                    "flv": "Flv",
+                    "hls": "Hls",
+                    "shaka": "Shaka",
+                    "webtorrent": "WebTorrent"
+                }
+            }
+        },
+        "forum": {
+            "button_tooltip_title": "Nhúng video",
+            "modal": {
+                "live_mode": "Chế độ trực tiếp",
+                "submit_button": "Lưu thay đổi",
+                "title": "Nhúng video",
+                "video_type_label": "Kiểu video",
+                "video_types": {
+                    "normal": "Bình thường",
+                    "dash": "Gạch ngabg",
+                    "flv": "Flv",
+                    "hls": "Hls",
+                    "shaka": "Shaka",
+                    "webtorrent": "WebTorrent"
+                },
+                "video_url_label": "URL video",
+                "video_url_placeholder": "Vd: https://example.com/filename.mp4"
+            }
+        }
+    }
+}

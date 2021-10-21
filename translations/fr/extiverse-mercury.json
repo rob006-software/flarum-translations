@@ -2,24 +2,24 @@
     "extiverse-mercury": {
         "admin": {
             "extension-updates-page": {
-                "extension-name": "",
-                "extension-is-up-to-date": "",
-                "highest-version": "",
-                "installed-version": ""
+                "extension-name": "Extension",
+                "extension-is-up-to-date": "Est à jour",
+                "highest-version": "Dernière version",
+                "installed-version": "Version installée"
             },
             "settings": {
-                "token": "",
-                "token-description": ""
+                "token": "Jeton Extiverse (<a>requête</a>)",
+                "token-description": "Récupérez un jeton API auprès d'<a>Extiverse</a> afin que Mercury puisse communiquer en toute sécurité avec votre communauté Flarum.\n"
             },
             "header-secondary": {
-                "no-token": "",
-                "updates": ""
+                "no-token": "Jeton requis",
+                "updates": "{count, plural, =0 {Aucune mise à jour} one {Une mise à jour} other {# mises à jour}}"
             }
         },
         "email": {
             "new-extension-update": {
-                "subject": "",
-                "body": ""
+                "subject": "{count, plural, one {Une mise à jour est disponible pour votre communauté} other {# mises à jour sont disponibles pour votre communauté}}",
+                "body": "Bonjour {recipient_display_name} !\n\n{count} mises à jour sont disponibles sur votre communauté Flarum. Il est fortement recommandé de\nmettre à jour dès que possible.\n\nLes mises à jour incluent les extensions suivantes {extensions}.\n\nVeuillez vous rendre sur votre communauté pour plus d'informations : {url}.\n"
             }
         }
     }

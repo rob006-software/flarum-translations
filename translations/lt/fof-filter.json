@@ -6,12 +6,13 @@
         },
         "admin": {
             "title": "",
-            "help": "",
+            "bad_words_help": "",
             "help2": "",
             "email_help": "",
             "filter_label": "",
             "countLabel": "",
             "cooldownLabel": "",
+            "auto_merge_title": "",
             "input": {
                 "placeholder": "",
                 "filter_title": "",
@@ -27,10 +28,14 @@
                 "text": "",
                 "desc": ""
             },
+            "permission": {
+                "bypass_filter_label": ""
+            },
             "email": {
                 "default_subject": "",
                 "default_text": ""
-            }
+            },
+            "help": ""
         }
     }
 }

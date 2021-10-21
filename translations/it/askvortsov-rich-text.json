@@ -7,37 +7,37 @@
         },
         "lib": {
             "composer": {
-                "toggle_button": "",
-                "insert_button": "",
+                "toggle_button": "Abilita/Disabilita Rich Text",
+                "insert_button": "Inserisci",
                 "insert_image": {
-                    "src_placeholder": "",
-                    "title_placeholder": ""
+                    "src_placeholder": "Link",
+                    "title_placeholder": "Titolo"
                 },
                 "insert_link": {
-                    "text_placeholder": "",
-                    "href_placeholder": "",
-                    "title_placeholder": "",
-                    "remove_button": ""
+                    "text_placeholder": "Testo",
+                    "href_placeholder": "URL",
+                    "title_placeholder": "Titolo (mostra al passaggio del mouse)",
+                    "remove_button": "Rimuovi"
                 },
-                "additional_items_tooltip": "",
-                "bold_tooltip": "",
-                "code_tooltip": "",
-                "code_block_tooltip": "",
-                "header_tooltip": "",
-                "horizontal_rule_tooltip": "",
-                "image_tooltip": "",
-                "italic_tooltip": "",
-                "link_tooltip": "",
-                "ordered_list_tooltip": "",
-                "paragraph_tooltip": "",
-                "quote_tooltip": "",
-                "spoiler_block_tooltip": "",
-                "spoiler_inline_tooltip": "",
-                "strike_tooltip": "",
-                "sub_tooltip": "",
-                "sup_tooltip": "",
-                "text_type_tooltip": "",
-                "unordered_list_tooltip": ""
+                "additional_items_tooltip": "Controlli aggiuntivi",
+                "bold_tooltip": "Grassetto <{modifierKey}-b>",
+                "code_tooltip": "Linea di Codice <{modifierKey}-`>",
+                "code_block_tooltip": "Blocco di codice",
+                "header_tooltip": "Cambia in intestazione {level} <shift-{modifierKey}-{level}>",
+                "horizontal_rule_tooltip": "Inserisci riga orizzontale",
+                "image_tooltip": "Aggiungi Immagine",
+                "italic_tooltip": "Corsivo <{modifierKey}-i>",
+                "link_tooltip": "Aggiungi Link",
+                "ordered_list_tooltip": "Lista numerata <shift-{modifierKey}-9>",
+                "paragraph_tooltip": "Passa al paragrafo  <shift-{modifierKey}-0>",
+                "quote_tooltip": "Inserisci Citazione  <{modifierKey}-q>",
+                "spoiler_block_tooltip": "Blocco Spoiler/Menu a discesa",
+                "spoiler_inline_tooltip": "Spoiler  <{modifierKey}-;>",
+                "strike_tooltip": "Barrata <alt-shift-5>",
+                "sub_tooltip": "Pedice <{modifierKey}-,>",
+                "sup_tooltip": "Apice <{modifierKey}-.>",
+                "text_type_tooltip": "Scegli tipo di Testo",
+                "unordered_list_tooltip": "Elenco puntato <shift-{modifierKey}-8>"
             }
         },
         "forum": {

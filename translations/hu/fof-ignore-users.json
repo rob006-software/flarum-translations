@@ -1,0 +1,22 @@
+{
+    "fof-ignore-users": {
+        "admin": {
+            "permissions": {
+                "can_not_be_ignored_label": "Nem hagyható figyelmen kívül"
+            }
+        },
+        "forum": {
+            "profile_link": "Felhasználók, akiket figyelmen kívül hagytál",
+            "user_controls": {
+                "ignore_button": "Ignorálás",
+                "ignore_confirmation": "Tényleg szeretnéd ignorálni a felhasználót?",
+                "unignore_button": "Ignorálás visszavonása",
+                "unignore_confirmation": "Tényleg visszavonod?"
+            },
+            "badge": {
+                "user_label": "Ignorált felhasználó",
+                "discussion_label": "Indította egy ignorált felhasználó"
+            }
+        }
+    }
+}

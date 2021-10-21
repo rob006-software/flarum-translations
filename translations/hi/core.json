@@ -316,7 +316,9 @@
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "चरित्र लेख",
+                "search_clear_button_accessible_label": "खोज क्वेरी साफ़ करें",
                 "search_placeholder": "फोरम में ढूंढे",
+                "search_role_label": "फ़ोरम में खोजे",
                 "session_dropdown_accessible_label": "सत्र विकल्प ड्रॉपडाउन मेनू टॉगल करें",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
@@ -462,15 +464,18 @@
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
+                "username_label": "=> core.ref.username",
+                "nothing_available": "आपको इस उपयोगकर्ता को संपादित करने की अनुमति नहीं है।"
             },
             "error": {
                 "dependent_extensions_message": "निम्न आश्रित एक्सटेंशन अक्षम होने तक {extension} को अक्षम नहीं किया जा सकता: {extensions}",
                 "generic_message": "उफ़! कुछ गलत हो गया। कृपया पेज लोड करें और पुन: प्रयास करें।",
                 "missing_dependencies_message": "निम्न निर्भरताएँ सक्षम होने तक {extension} को सक्षम नहीं किया जा सकता: {extensions}",
                 "not_found_message": "अनुरोधित संसाधन नहीं मिला।",
+                "payload_too_large_message": "अनुरोध पेलोड बहुत बड़ा था।",
                 "permission_denied_message": "आपको ऐसा करने की अनुमति नहीं है।",
-                "rate_limit_exceeded_message": "आप थोड़ी जल्दी कर रहे हो। कृपया कुछ क्षणों में पुन: प्रयास करें।"
+                "rate_limit_exceeded_message": "आप थोड़ी जल्दी कर रहे हो। कृपया कुछ क्षणों में पुन: प्रयास करें।",
+                "render_failed_message": ""
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
@@ -489,6 +494,26 @@
             }
         },
         "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "=> core.ref.extensions",
+                    "disable": "अक्षम करना",
+                    "empty": "कोई स्थापित एक्सटेंशन नहीं",
+                    "enable": "सक्षम",
+                    "name": "एक्सटेंशन का नाम",
+                    "package_name": "पैकेज का नाम",
+                    "version": "संस्करण"
+                },
+                "info": {
+                    "caption": "अप्प के बारे में जानकारी"
+                },
+                "title": "प्रशासन"
+            },
+            "confirm_email": {
+                "submit_button": "=> core.ref.confirm_email",
+                "text": "अपने खाते के ईमेल की पुष्टि करने के लिए नीचे दिए गए बटन पर क्लिक करें।",
+                "title": "=> core.ref.confirm_email"
+            },
             "content": {
                 "javascript_disabled_message": "यह साइट एक आधुनिक ब्राउज़र में सबसे अच्छी तरह से देखी जा सकती है जिसमें जावास्क्रिप्ट सक्षम है।",
                 "load_error_message": "इस साइट के पूर्ण संस्करण को लोड करने का प्रयास करते समय कुछ गलत हुआ। ठीक करने के लिए इस पन्ने को हार्ड-रीफ्रेश करने का प्रयास करें।",
@@ -552,6 +577,7 @@
             "change_password": "पासवर्ड बदलें",
             "color": "रंग",
             "confirm_password": "पासवर्ड की पुष्टि कीजिये",
+            "confirm_email": "ईमेल की पुष्टि करें",
             "confirmation_email_sent": "हमने {email} पर एक पुष्टिकरण ईमेल भेजा है। यदि यह जल्दी नहीं आता है, तो अपने स्पैम फ़ोल्डर की जाँच करें।",
             "custom_footer_text": "पन्ने के सबसे नीचे प्रदर्शित होने के लिए एचटीएम्एल  दे।",
             "custom_footer_title": "विशेष पाद लेख संपादित करें",
@@ -563,6 +589,7 @@
             "edit": "संपादित करें",
             "edit_user": "उपयोगकर्ता को संपादित करो",
             "email": "ईमेल",
+            "extensions": "एक्सटेंशन",
             "icon": "आइकन",
             "icon_text": "किसी भी <a>FontAwesome</a> आइकन वर्ग का नाम दर्ज करें, <em>सहित</em> <code>fas fa-</code> उपसर्ग।",
             "load_more": "और लोड करें",

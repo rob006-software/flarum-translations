@@ -9,7 +9,6 @@
                 "idp_metadata_url": "Kimlik Sağlayıcı Metadata Bağlantısı (XML Alternatifi)",
                 "idp_metadata": "Kimlik Sağlayıcı Metadata XML (Bağlantı alternatifi)",
                 "only_option": "SAML2 SSO giriş seçeneği olarak mı kullanıyorsunuz?",
-                "sync_attributes": "Senkronize işlemi yapılsın mı (Avatar, Gruplar, Biyografi, ve Profil)? askvortsov/auth-sync uzantısı gerektirir.",
                 "nameid_format": "NameID Formatı",
                 "slo": "SLO etkinleştirilsin mi? Eğer IDP'niz desteklemiyorsa  bu hiçbir şey yapmayacaktır.",
                 "authn_requests_signed": "Yetkilendirme istekleri imzalansın mı?",
@@ -20,7 +19,8 @@
                 "want_assertions_signed": "Onayların İmzalanmasını İstiyor musunuz?",
                 "want_messages_signed": "Mesajların İmzalanmasını İstiyor musunuz?",
                 "x509_cert": "x509 Sertifikası (etkinleştirildiyse, imza gereklidir)",
-                "x509_key": "x509 Gizli Anahtarı (etkinleştirildiyse, imza gereklidir)"
+                "x509_key": "x509 Gizli Anahtarı (etkinleştirildiyse, imza gereklidir)",
+                "sync_attributes": "Senkronize işlemi yapılsın mı (Avatar, Gruplar, Biyografi, ve Profil)? askvortsov/auth-sync uzantısı gerektirir."
             },
             "options": {
                 "nameid_format": {
