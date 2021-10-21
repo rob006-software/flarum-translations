@@ -37,6 +37,4 @@
 
 ## Dead branches
 
-| Extension | Pull request |
-| --- | --- |
-| `datlechin-last-registered-users` | [![#733 (open)](https://img.shields.io/badge/PR-%23733-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/733) |
+There are no dead branches.
