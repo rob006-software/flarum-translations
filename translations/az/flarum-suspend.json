@@ -1,0 +1,30 @@
+{
+    "flarum-suspend": {
+        "admin": {
+            "permissions": {
+                "suspend_users_label": "Dondurulmus istifadəçilər"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "user_suspended_text": "{username} sizi {timeReadable} müddətinə dondurdu",
+                "user_unsuspended_text": "{username} sizi dondurdu"
+            },
+            "suspend_user": {
+                "indefinitely_label": "Müəyyən olmayan müddətə donduruldu",
+                "limited_time_days_text": " günlər",
+                "limited_time_label": "Keçici müddətə donduruldu...",
+                "not_suspended_label": "Dondurulmayıb",
+                "status_heading": "Vəziyyət",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Dondur {username}"
+            },
+            "user_badge": {
+                "suspended_tooltip": "Dondurulub"
+            },
+            "user_controls": {
+                "suspend_button": "Dondur"
+            }
+        }
+    }
+}

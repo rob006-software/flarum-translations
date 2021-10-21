@@ -1,0 +1,11 @@
+{
+    "glowingblue-redis-setup": {
+        "admin": {
+            "settings": {
+                "enable_cache": "Bật bộ nhớ cache của Redis",
+                "enable_redis_sessions": "Kích hoạt session của Redis (tất cả người dùng sẽ đăng xuất sau khi thay đổi cài đặt này)",
+                "enable_queue": "Bật hàng đợi của Redis"
+            }
+        }
+    }
+}

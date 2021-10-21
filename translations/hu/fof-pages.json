@@ -1,0 +1,47 @@
+{
+    "fof-pages": {
+        "admin": {
+            "edit_page": {
+                "content_label": "Szöveg",
+                "content_placeholder": "Szöveg",
+                "delete_page_button": "Oldal törlése",
+                "delete_page_confirmation": "Tényleg törlöd az oldalt?",
+                "hidden_label": "Mentés vázlatként",
+                "restricted_label": "Hozzáférés korlátozása (állítsd be ki férjen hozzá a Hozzáférések fülben)",
+                "html_label": "HTML engedélyezése",
+                "set_as_home_page_confirmation": "Biztosan be szeretnéd állítani ezt az oldalt főoldalnak?",
+                "set_as_home_page_done": "Főoldal frissítve",
+                "slug_label": "=> fof-pages.ref.slug",
+                "slug_placeholder": "=> fof-pages.ref.slug",
+                "submit_button": "Mentés",
+                "title": "=> fof-pages.ref.create_page",
+                "title_label": "Cím",
+                "title_placeholder": "Cím",
+                "url_label": "Url",
+                "url_placeholder": "Url"
+            },
+            "pages": {
+                "create_button": "=> fof-pages.ref.create_page"
+            },
+            "pages_list": {
+                "empty_text": "Úgy látszik nincs egy oldal sem.",
+                "title": "Cím"
+            },
+            "permissions": {
+                "restricted": "Korlátozott oldalak megtekintése"
+            },
+            "badges": {
+                "hidden": "Vázlat",
+                "restricted": "Korlátozott"
+            }
+        },
+        "ref": {
+            "content": "Tartalom",
+            "create_page": "Oldal készítése",
+            "pages": "Oldalak",
+            "slug": "Slug",
+            "title": "Cím",
+            "url": "URL"
+        }
+    }
+}

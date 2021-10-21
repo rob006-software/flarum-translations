@@ -1,0 +1,40 @@
+{
+    "nearata-twofactor": {
+        "admin": {
+            "settings": {
+                "generate_backups": ""
+            }
+        },
+        "forum": {
+            "invalid_twofa_code": "",
+            "invalid_twofa_setup": "",
+            "log_in_modal": {
+                "submit_button": "",
+                "otp_placeholder": "",
+                "title": ""
+            },
+            "setup_button": "",
+            "setup_modal": {
+                "backups": {
+                    "copy_button": "",
+                    "download_button": "",
+                    "download_file_format": "",
+                    "modal_message": ""
+                },
+                "close_button": "",
+                "disabled": "",
+                "enabled": "",
+                "enter_code_disable": "",
+                "enter_code_manually": "",
+                "passcode_placeholder": "",
+                "password_placeholder": "",
+                "scan_qr": "",
+                "submit_button": {
+                    "enable": "",
+                    "disable": ""
+                },
+                "title": ""
+            }
+        }
+    }
+}

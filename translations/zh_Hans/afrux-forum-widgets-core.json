@@ -1,0 +1,10 @@
+{
+    "afrux-forum-widgets-core": {
+        "admin": {
+            "settings": {
+                "prefer_data_with_initial_load": "预加载所有组件数据",
+                "prefer_data_with_initial_load_help": "在首次加载页面时同步加载部件数据，关闭此项时，部件数据将在页面首次加载后通过 API 异步请求。"
+            }
+        }
+    }
+}

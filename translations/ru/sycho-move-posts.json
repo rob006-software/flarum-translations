@@ -1,0 +1,64 @@
+{
+    "sycho-move-posts": {
+        "admin": {
+            "settings": {
+                "moved_first_post_content": "Перемещено содержимое дискуссии (первого сообщения)",
+                "moved_first_post_content_help": "",
+                "group_sequential_posts": ""
+            },
+            "permissions": {
+                "move_posts": "=> sycho-move-posts.ref.move_posts"
+            }
+        },
+        "forum": {
+            "badge": {
+                "first_moved_tooltip": "Перемещено"
+            },
+            "discussion": {
+                "move_posts": "=> sycho-move-posts.ref.move_posts"
+            },
+            "error": {
+                "move_old_post_to_newer_discussion": "=> sycho-move-posts.ref.status.old_to_new_move"
+            },
+            "modal": {
+                "check": "Проверить тип операции",
+                "destination": "Дискуссия, в которую перемещаем",
+                "discussion_help": "Теги исходной дискуссии сохранятся, и могут быть изменены после создания.",
+                "discussion_name": "=> core.forum.composer_discussion.title_placeholder",
+                "new_discussion": "Новая дискуссия",
+                "selected_posts": "",
+                "status": {
+                    "complex_move": "Сложное перемещение, сообщения будут вставлены между другими сообщениями, старые URL ссылки на сообщения в \"целевой\" дискуссии будут также изменены.",
+                    "old_to_new_move": "=> sycho-move-posts.ref.status.old_to_new_move",
+                    "simple_move": "Простое перемещение - сообщения будут добавлены в конец дискуссии."
+                },
+                "submit": "Продолжить",
+                "title": "=> sycho-move-posts.ref.move_posts"
+            },
+            "notifications": {
+                "post_moved_text": "Одно или более ваши сообщения были перемещены в {targetDiscussionTitle}."
+            },
+            "post": {
+                "unmove": "Снимите выбор для перемещения",
+                "move": "Выберите для перемещения",
+                "moving": "Переместить сообщение"
+            },
+            "post_stream": {
+                "post_moved": ""
+            }
+        },
+        "ref": {
+            "move_posts": "Переместить сообщения",
+            "status": {
+                "old_to_new_move": "Нельзя переместить старое сообщение в более новое обсуждение."
+            }
+        },
+        "lib": {
+            "discussion": {
+                "first_post": {
+                    "default_content": "*Это сообщение было перемещено в **[%DISCUSSION_NAME%](%POST_LINK%)**.*\n"
+                }
+            }
+        }
+    }
+}

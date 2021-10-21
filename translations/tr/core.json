@@ -10,7 +10,7 @@
                 "custom_header_heading": "Özel Üstbilgi",
                 "custom_header_text": "=> core.ref.custom_header_text",
                 "custom_styles_heading": "Özel Stiller",
-                "custom_styles_text": "Flarum'un varsayılan stillerine uygulanacak kendi Less/CSS kodunu ekleyerek forumunun görünümünü özelleştir.",
+                "custom_styles_text": "Flarum'un varsayılan stillerinin üzerine uygulanacak kendi Less/CSS kodunuzu ekleyerek forumunuzun görünümünü özelleştirin.",
                 "dark_mode_label": "Karanlık Mod",
                 "description": "Forumunun renklerini, logosunu ve diğer değişkenlerini özelleştir.",
                 "edit_css_button": "Özel CSS’i Düzenle",
@@ -173,7 +173,7 @@
                 "rename_discussions_label": "Tartışmaları yeniden adlandır",
                 "reply_to_discussions_label": "Tartışmalara yanıt ver",
                 "search_users_label": "Kullanıcılarda ara",
-                "sign_up_label": "Kaydol",
+                "sign_up_label": "Kayıt Ol",
                 "start_discussions_label": "Tartışmalar başlat",
                 "title": "İzinler",
                 "view_forum_label": "Forumu görüntüle (tartışmalar ve kullanıcılar)",
@@ -316,7 +316,9 @@
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Profil",
+                "search_clear_button_accessible_label": "Arama terimini temizle",
                 "search_placeholder": "Forumda Ara",
+                "search_role_label": "Forumda Ara",
                 "session_dropdown_accessible_label": "Oturum seçenekleri açılır menüsünü aç / kapat",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
@@ -344,7 +346,7 @@
                 "invalid_login_message": "Giriş bilgilerin hatalıydı.",
                 "password_placeholder": "=> core.ref.password",
                 "remember_me_label": "Beni Hatırla",
-                "sign_up_text": "Hesabın yok mu? <a> Kaydol </a>",
+                "sign_up_text": "Hesabın yok mu? <a> Kayıt Ol </a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
                 "username_or_email_placeholder": "Kullanıcı Adı ya da E-posta"
@@ -452,7 +454,7 @@
                 "toggle_dropdown_accessible_label": "Açılır menüyü aç / kapat"
             },
             "edit_user": {
-                "activate_button": "Aktif Kullanıcılar",
+                "activate_button": "Kullanıcıyı Aktif Et",
                 "email_heading": "=> core.ref.email",
                 "email_label": "=> core.ref.email",
                 "groups_heading": "Gruplar",
@@ -462,15 +464,18 @@
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
+                "username_label": "=> core.ref.username",
+                "nothing_available": "Bu kullanıcıyı düzenleme yetkiniz bulunmamaktadır."
             },
             "error": {
                 "dependent_extensions_message": "{extension} uzantısı şu uzantı etkisizleştirilmeden önce etkisizleştirilemez: {extensions}",
                 "generic_message": "Oops! Bir şeyler yanlış gitti. Lütfen sayfayı yenileyin ve tekrar deneyin.",
                 "missing_dependencies_message": "{extension} şu uzantı aktif edilmeden önce aktif edilemez: {extensions}",
                 "not_found_message": "İstenen kaynak bulunamadı.",
+                "payload_too_large_message": "İstek yükü çok büyük.",
                 "permission_denied_message": "Bunu yapmaya yetkiniz bulunmuyor.",
-                "rate_limit_exceeded_message": "Biraz fazla hızlı gidiyorsun. Lütfen birkaç saniye içinde tekrar dene."
+                "rate_limit_exceeded_message": "Biraz fazla hızlı gidiyorsun. Lütfen birkaç saniye içinde tekrar dene.",
+                "render_failed_message": "Üzgünüz, bu içeriği görüntülerken bir hatayla karşılaştık. Kullanıcı iseniz, lütfen daha sonra tekrar deneyin. Yöneticiyseniz, daha fazla bilgi için Flarum günlük dosyalarınıza bakın."
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
@@ -489,6 +494,26 @@
             }
         },
         "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "=> core.ref.extensions",
+                    "disable": "Etkisizleştir",
+                    "empty": "Yüklenen uzantı yok",
+                    "enable": "Etkinleştir",
+                    "name": "Uzantı Adı",
+                    "package_name": "Paket Adı",
+                    "version": "Sürüm"
+                },
+                "info": {
+                    "caption": "Uygulama Bilgisi"
+                },
+                "title": "Yönetim"
+            },
+            "confirm_email": {
+                "submit_button": "=> core.ref.confirm_email",
+                "text": "Hesabınızın e-postasını onaylamak için aşağıdaki düğmeyi tıklayın.",
+                "title": "=> core.ref.confirm_email"
+            },
             "content": {
                 "javascript_disabled_message": "Bu site en iyi JavaScript etkinleştirilmiş modern bir tarayıcıda görüntülenir.",
                 "load_error_message": "Bu sitenin tam sürümünü yüklemeye çalışırken bir şeyler ters gitti. Hatayı düzeltmek için bu sayfayı yenilemeyi deneyin.",
@@ -531,7 +556,7 @@
         "email": {
             "activate_account": {
                 "subject": "Yeni Hesabını Etkinleştir",
-                "body": "Hey {username}!\n\nBirisi (umarım sensindir!) bu e-posta hesabı ile {forum} sitesine kaydoldu.\n\nBu sen isen, hesabını aktifleştirmek için aşağıdaki bağlantıyı tıkla:\n{url}\n\nEğer sen kaydolmadıysan, bu e-postayı dikkate alma.\n"
+                "body": "Hey {username}!\n\nBirisi (umarım sensindir!) bu e-posta hesabı ile {forum} sitesine kayıt oldu.\n\nBu sen isen, hesabını aktifleştirmek için aşağıdaki bağlantıyı tıkla:\n{url}\n\nEğer sen kayıt olmadıysan, bu e-postayı dikkate alma.\n"
             },
             "confirm_email": {
                 "subject": "Yeni E-posta Adresini Doğrula",
@@ -552,6 +577,7 @@
             "change_password": "Şifre Değiştir",
             "color": "Renk",
             "confirm_password": "Şifreyi Onayla",
+            "confirm_email": "E-posta adresini doğrula",
             "confirmation_email_sent": "{email} adresine bir onay e-postası gönderdik. Yakında gelmezse, spam klasörünü kontrol et.",
             "custom_footer_text": "Sayfanın en altında görülecek HTML kodunu ekleyin.",
             "custom_footer_title": "Özel Altbilgiyi Düzenle",
@@ -563,6 +589,7 @@
             "edit": "Düzenle",
             "edit_user": "Kullanıcıyı Düzenle",
             "email": "E-posta",
+            "extensions": "Uzantılar",
             "icon": "Simge",
             "icon_text": "Herhangi bir <a>FontAwesome</a> simgesi adını <code>fas fa-</code> <em>öneki dahil</em> olarak girin.",
             "load_more": "Daha Fazla Yükle",
@@ -583,7 +610,7 @@
             "restore": "Geri Yükle",
             "save_changes": "Değişiklikleri Kaydet",
             "settings": "Ayarlar",
-            "sign_up": "Kaydol",
+            "sign_up": "Kayıt Ol",
             "some_others": "{count, plural, one {# diğer} other {# diğer}}",
             "start_a_discussion": "Bir Tartışma Başlat",
             "username": "Kullanıcı Adı",

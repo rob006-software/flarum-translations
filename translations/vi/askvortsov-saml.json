@@ -1,0 +1,43 @@
+{
+    "askvortsov-saml": {
+        "admin": {
+            "header": {
+                "text": "Đảm bảo rằng url siêu dữ liệu hoặc siêu dữ liệu không bỏ trống."
+            },
+            "title": "Cấu hình SAML2 SSO",
+            "labels": {
+                "idp_metadata_url": "URL siêu dữ liệu của nhà cung cấp (Thay thế cho XML)",
+                "idp_metadata": "XML siêu dữ liệu của nhà cung cấp (Thay thế cho URL)",
+                "only_option": "Sử dụng SAML2 SSO chỉ để đăng nhập?",
+                "nameid_format": "Định dạng NameID",
+                "slo": "Bật SLO? Nếu IDP của bạn không hỗ trợ điều này, điều này sẽ không làm gì.",
+                "authn_requests_signed": "Đăng ký yêu cầu xác thực?",
+                "logout_request_signed": "Đăng xuất yêu cầu?",
+                "logout_response_signed": "Đăng xuất phản hồi?",
+                "sign_metadata": "Ký siêu dữ liệu?",
+                "want_assertions_encrypted": "Muốn các khẳng định được mã hóa?",
+                "want_assertions_signed": "Muốn các công việc đã được ký?",
+                "want_messages_signed": "Muốn tin nhắn đã ký?",
+                "x509_cert": "Chứng chỉ x509 (cần thiết để ký, nếu được bật)",
+                "x509_key": "Mã kóa cá nhân x509 (cần thiết để ký, nếu được bật)"
+            },
+            "options": {
+                "nameid_format": {
+                    "persistent": "Kiên trì (Được khuyến nghị nếu được hỗ trợ)",
+                    "emailAddress": "Email (Mặc định. Sử dụng nếu Kiên trì không được hỗ trợ)",
+                    "unspecified": "Không xác định"
+                }
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_saml_button": "SAML2 SSO",
+                "open_popup": "Nhấn vào đây để đăng nhập",
+                "enable_popups": "Bật cửa sổ bật lên để đăng nhập/đăng ký"
+            },
+            "sign_up": {
+                "post_saml_title": "Bước cuối cùng..."
+            }
+        }
+    }
+}

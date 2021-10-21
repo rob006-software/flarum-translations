@@ -1,0 +1,50 @@
+{
+    "flarum-subscriptions": {
+        "forum": {
+            "badge": {
+                "following_tooltip": "=> flarum-subscriptions.ref.following",
+                "ignoring_tooltip": "=> flarum-subscriptions.ref.ignoring"
+            },
+            "discussion_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "unfollow_button": "Nicht mehr folgen",
+                "unignore_button": "Nicht mehr ignorieren"
+            },
+            "following": {
+                "meta_title_text": "=> flarum-subscriptions.ref.following"
+            },
+            "index": {
+                "following_link": "Du folgst"
+            },
+            "notifications": {
+                "new_post_text": "{username} schrieb"
+            },
+            "settings": {
+                "follow_after_reply_label": "Folge Diskussionen automatisch, an denen du dich beteiligt hast",
+                "notify_new_post_label": "Jemand hat in einer Diskussion gepostet, der du folgst"
+            },
+            "sub_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "following_button": "=> flarum-subscriptions.ref.following",
+                "following_text": "Benachrichtigung bei allen Antworten.",
+                "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
+                "ignoring_text": "Niemals benachrichtigen und von der Liste verstecken.",
+                "not_following_button": "Nicht folgen",
+                "not_following_text": "Benachrichtigung nur bei @Erwähnungen.",
+                "notify_alert_tooltip": "Benachrichtigung im Forum bei neuen Beiträgen",
+                "notify_email_tooltip": "Benachrichtigung per E-Mail bei neuen Beiträgen"
+            }
+        },
+        "email": {
+            "new_post": {
+                "subject": "[Neuer Beitrag] {title}",
+                "body": "Hallo {recipient_display_name}!\n\n{poster_display_name} hat einen Beitrag erstellt in einer Diskussion, der du folgst: {title}.\n\nSchau dir den folgenden Link an um die neue Aktivität zu sehen:\n{url}\n\n---\n\n{content}\n\n---\n\nDu wirst keine weiteren Benachrichtigungen über diese Diskussion erhalten, bis du wieder auf dem Laufenden bist.\n"
+            }
+        },
+        "ref": {
+            "follow": "Folgen",
+            "following": "Folgen",
+            "ignoring": "Ignorieren"
+        }
+    }
+}

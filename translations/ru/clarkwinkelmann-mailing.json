@@ -1,0 +1,43 @@
+{
+    "clarkwinkelmann-mailing": {
+        "admin": {
+            "permissions": {
+                "mail_individual": "Отправить эл.почту отдельным пользователям",
+                "mail_all": "Отправить эл.почту группам пользователей"
+            }
+        },
+        "forum": {
+            "links": {
+                "mail_individual": "Отправить эл.почту этому пользователю",
+                "mail_all": "Отправить эл.почту"
+            },
+            "modal_mail": {
+                "title_text": "Создать почтовое сообщение",
+                "recipients_label": "Получатели",
+                "recipients_placeholder": "Добавить получателей...",
+                "subject_label": "Тема",
+                "default_subject": "=> clarkwinkelmann-mailing.ref.default_subject",
+                "message_label": "Сообщение",
+                "submit_button": "Отправить"
+            },
+            "modal_sent": {
+                "title_text": "Почта отправлена!",
+                "on_its_way": "Получилось! Ваше письмо уже на пути к {recipientsCount} получателям!"
+            },
+            "recipient_kinds": {
+                "user": "Пользователь",
+                "group": "Группа",
+                "email": "Эл.почта"
+            }
+        },
+        "api": {
+            "no_recipients": "Не найдены подходящие получатели"
+        },
+        "email": {
+            "default_subject": "=> clarkwinkelmann-mailing.ref.default_subject"
+        },
+        "ref": {
+            "default_subject": "Сообщение от Администрации форума"
+        }
+    }
+}

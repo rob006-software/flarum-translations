@@ -40,12 +40,15 @@
         "admin": {
             "errors": {
                 "service_not_found": "Usługa \"{service}\" nie została odnaleziona.",
-                "url_invalid": "Ten adres URL jest nieprawidłowy dla wybranej usługi."
+                "url_invalid": "Ten adres URL jest nieprawidłowy dla wybranej usługi.",
+                "tag_invalid": ""
             },
             "nav": {
                 "desc": "Konfigurowalne wychodzące webhooki dla Twojego forum."
             },
             "settings": {
+                "debug_label": "",
+                "debug_help": "",
                 "item": {
                     "tag_any_label": "Dowolny"
                 },

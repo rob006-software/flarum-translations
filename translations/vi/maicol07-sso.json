@@ -1,0 +1,23 @@
+{
+    "maicol07-sso": {
+        "admin": {
+            "settings": {
+                "title": "Thiết lập SSO",
+                "signup_url": "URL đăng ký",
+                "login_url": "URL đăng nhập",
+                "logout_url": "URL đăng xuất",
+                "remove_login_btn": "Xóa nút đăng nhập",
+                "remove_signup_btn": "Xóa nút đăng ký",
+                "manage_account_url": "Quản lí URL tài khoản",
+                "manage_account_btn_open_in_new_tab": "Mở Quản lý tài khoản trong một tab mới",
+                "jwt_section_subtitle": "Cài đặt JWT Addon",
+                "jwt_iss": "Miền Issuer",
+                "jwt_signer_key": "Khóa Signer",
+                "jwt_signing_algorithm": "Phương thức Signing"
+            }
+        },
+        "forum": {
+            "manage_account_btn": "Quản lí tài khoản"
+        }
+    }
+}

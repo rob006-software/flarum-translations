@@ -1,0 +1,107 @@
+{
+    "fof-byobu": {
+        "forum": {
+            "badges": {
+                "is_private": {
+                    "tooltip": "Переписка"
+                }
+            },
+            "buttons": {
+                "add_recipients": "Участники",
+                "submit": "ОК",
+                "edit_recipients": "Изменить участников",
+                "send_pd": "Переписка",
+                "cancel": "Отмена",
+                "remove_from_discussion": "Покинуть переписку"
+            },
+            "composer_private_discussion": {
+                "submit_button": "Отправить",
+                "title_placeholder": "Название переписки..."
+            },
+            "labels": {
+                "recipients": "{count, plural, one {{count} Участник} other {{count} Участников}}"
+            },
+            "nav": {
+                "start_button": "Создать переписку",
+                "nav_item": "Переписки"
+            },
+            "input": {
+                "search_recipients": "Поиск участников, указав первые три символа..."
+            },
+            "search": {
+                "headings": {
+                    "groups": "Доступные группы"
+                }
+            },
+            "modal": {
+                "titles": {
+                    "update_recipients": "Изменение участников {title}",
+                    "add_recipients": "Добавить участников в свою переписку"
+                },
+                "labels": {
+                    "selected_users": "Выбранные пользователи",
+                    "search_field": "Поиск пользователя"
+                },
+                "help": {
+                    "add_recipients": "Эта дискуссия будет видна только выбранным Вами участникам. Требуется как минимум 1 участник (кроме Вас).",
+                    "update_recipients": "Эта дискуссия будет видна только выбранным Вами участникам.",
+                    "selected_users": "Нажмите на имя пользователя для удаления.",
+                    "click_user_to_remove_tooltip": "Нажмите для удаления"
+                }
+            },
+            "post": {
+                "recipients_modified": {
+                    "added_and_removed": "{username} добавил(а) {added} и удалил(а) {removed} участников.",
+                    "added": "{username} добавил(а) участников: {added}.",
+                    "removed": "{username} удалил(а) участников: {removed}.",
+                    "removed_self": "{username} покинул(а) переписку."
+                }
+            },
+            "user": {
+                "settings": {
+                    "block_pd": "Отключить переписки"
+                },
+                "byobu_link": "Переписки",
+                "dropdown_label": "Переписки"
+            },
+            "notifications": {
+                "pd_label": "Добавление меня в переписку",
+                "pd_reply_label": "Ответ в переписке, участником которой я являюсь",
+                "pd_reply_text": "{username} ответил(а) в переписке, участником которой Вы являетесь",
+                "pd_text": "{username} начал(а) с Вами переписку",
+                "pd_user_left_label": "Участник покидает переписку, в которой я участвую",
+                "pd_user_left_text": "{username} покинул(а) переписку",
+                "pd_added_text": "{username} добавил(а) Вас в переписку",
+                "pd_added_label": "Добавление меня в существующую переписку"
+            }
+        },
+        "admin": {
+            "permission": {
+                "create_private_discussions_with_users": "Создавать переписки с участниками",
+                "create_private_discussions_with_groups": "Создавать переписки с группами",
+                "create_private_discussions_with_blocking_users": "Создавать переписки с участниками, отключившие их",
+                "edit_user_recipients": "Изменять список участников в переписках",
+                "edit_group_recipients": "Изменять список групп в переписках",
+                "view_private_discussions-when-flagged": "Смотреть переписки других участников при поступлении жалобы"
+            },
+            "settings": {
+                "badge-icon": "Иконка переписки",
+                "post-event-icon": "Иконка события"
+            }
+        },
+        "email": {
+            "subject": {
+                "private_discussion_created": "[Переписка] {display_name} начал(а) новую переписку с Вами",
+                "private_discussion_replied": "[Переписка] {display_name} ответил(а) в переписке",
+                "recipient_removed": "[Переписка] {display_name} покинул(а) переписку",
+                "private_discussion_added": "[Переписка] {display_name} добавил(а) Вас в переписку"
+            },
+            "body": {
+                "private_discussion_created": "Привет, {recipient_display_name}!\n\n{actor_display_name} начал(а) новую переписку с Вами. Название переписки: '{discussion_title}'.\n\nПосмотреть:\n{discussion_url}\n\nВы должны будете войти под своей учётной записью для того, чтобы получить доступ к переписке.\n",
+                "private_discussion_replied": "Привет, {recipient_display_name}!\n\n{actor_display_name} ответил(а) в переписке, участником которой Вы являетесь. Название переписки: '{discussion_title}'.\n\nПосмотреть:\n{post_url}\n\nВы должны будете войти под своей учётной записью для того, чтобы получить доступ к переписке.\n",
+                "recipient_removed": "Привет, {recipient_display_name}!\n\n{actor_display_name} покинул(а) переписку '{discussion_title}'. Этот участник больше не сможет читать сообщения переписки.\n\nПосмотреть:\n{discussion_url}\n\nВы должны будете войти под своей учётной записью для того, чтобы получить доступ к переписке.\n",
+                "private_discussion_added": "Привет, {recipient_display_name}!\n\n{actor_display_name} добавил(а) Вас в существующую переписку. Название переписки: '{discussion_title}'.\n\nПосмотреть:\n{discussion_url}\n\nВы должны будете войти под своей учётной записью для того, чтобы получить доступ к переписке.\n"
+            }
+        }
+    }
+}

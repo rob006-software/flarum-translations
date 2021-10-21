@@ -1,0 +1,65 @@
+{
+    "fof-drafts": {
+        "admin": {
+            "permissions": {
+                "start": "Создавать черновики",
+                "schedule": "Использовать расписание черновиков"
+            },
+            "settings": {
+                "title": "Черновики",
+                "enable_scheduled_drafts": "Включить расписание для черновиков",
+                "schedule_on_one_server": "Использовать директиву 'onOneServer()' для планировщика задач (требуется Redis/Memcache)",
+                "schedule_log_output": "Вести журнал работы планировщика"
+            }
+        },
+        "console": {
+            "scheduled_drafts_disabled": "Расписание черновиков отключено в настройках."
+        },
+        "ref": {
+            "schedule_draft": "Запланировать"
+        },
+        "forum": {
+            "composer": {
+                "title": "Сохранить черновик",
+                "saving": "Сохранение...",
+                "saved": "Сохранено!",
+                "exit_alert": "Отменить изменения в черновике?",
+                "discard_empty_draft_alert": "Отменить пустой черновик?"
+            },
+            "dropdown": {
+                "empty_text": "У Вас нет сохранённых черновиков",
+                "title": "Черновики",
+                "delete_all_button": "Удалить всё",
+                "delete_button": "Удалить",
+                "schedule_button": "=> fof-drafts.ref.schedule_draft",
+                "scheduled_icon_tooltip": "Запланировано на {datetime}",
+                "scheduled_icon_tooltip_formatter": "L [at] LT",
+                "tooltip": "=> fof-drafts.forum.dropdown.title",
+                "alert": "Вы уверены, что хотите удалить черновик?",
+                "delete_all_alert": "Вы уверены, что хотите удалить все черновики?"
+            },
+            "schedule_draft_modal": {
+                "title": "=> fof-drafts.ref.schedule_draft",
+                "text": "Запланируйте черновик для автоматической публикации в более позднее время!",
+                "scheduled_text": "Публикация запланирована на {datetime}.",
+                "scheduled_error": "Невозможно опубликовать: {error}.",
+                "unschedule_button": "Отменить",
+                "unschedule_warning": "Вы уверены, что хотите отменить автоматическую публикацию черновика?",
+                "reschedule_button": "Перенести",
+                "schedule_button": "Запланировать",
+                "schedule_time_preview": "Черновик будет автоматически опубликован <b>{datetime}</b>.",
+                "schedule_time_preview_formatter": "LLLL",
+                "schedule_time_preview_invalid": "Некорректные дата и/или время"
+            },
+            "user": {
+                "settings": {
+                    "drafts_heading": "Черновики",
+                    "draft_autosave_enable": "Включить автоматическое сохранение?",
+                    "draft_autosave_interval_label": "Интервал автоматического сохранения (секунды)",
+                    "draft_autosave_interval_button": "Обновить интервал",
+                    "draft_autosave_interval_invalid": "Интервал должен быть целым числом больше 4."
+                }
+            }
+        }
+    }
+}

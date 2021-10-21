@@ -1,0 +1,35 @@
+{
+    "fof-links": {
+        "admin": {
+            "edit_link": {
+                "delete_link_button": "ลบลิ้ง",
+                "delete_link_confirmation": "คุณเเน่ใจหรือไม่ที่จะลบลิ้งนี้?",
+                "everyone-label": "ทุกคน",
+                "guests-label": "ผู้มาเยือน",
+                "internal_link": "มันเป็นลิ้งภายในไหม?",
+                "members-label": "ผู้ใช้ที่ลงทะเบียน",
+                "open_newtab": "เปิดลิ้งในเเท็บใหม่",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> fof-links.ref.create_link",
+                "title_label": "=> fof-links.ref.title",
+                "title_placeholder": "=> fof-links.ref.title",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "url_description": "",
+                "url_label": "=> fof-links.ref.url",
+                "url_placeholder": "=> fof-links.ref.url",
+                "visibility": "การมองเห็นลิงก์"
+            },
+            "links": {
+                "create_button": "=> fof-links.ref.create_link",
+                "links": "=> fof-links.ref.links"
+            }
+        },
+        "ref": {
+            "create_link": "สร้างลิ้ง",
+            "links": "ลิ้ง",
+            "title": "ชื่อ",
+            "url": "ลิ้ง"
+        }
+    }
+}

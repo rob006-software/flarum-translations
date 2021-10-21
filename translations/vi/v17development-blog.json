@@ -1,0 +1,102 @@
+{
+    "v17development-flarum-blog": {
+        "admin": {
+            "blog": "Blog",
+            "permissions": {
+                "write_articles": "Viết và chỉnh sửa các bài viết trên blog",
+                "auto_approve_posts": "Đăng bài không cần phê duyệt",
+                "approve_posts": "Có thể phê duyệt các bài viết trên blog"
+            },
+            "settings": {
+                "no_categories_selected": "Không có danh mục nào được chọn",
+                "selected_category_count": "{count, plural, one {Bạn đã chọn # danh mục} other {Bạn đã chọn # danh mục}}",
+                "select_categories_button": "Chọn danh mục blog",
+                "blog_heading": "Blog",
+                "allow_comments_label": "Cho phép bình luận",
+                "allow_comments_text": "Theo mặc định, bình luận sẽ được bật trên bài viết blog. Khi bị tắt, nó có thể được bật riêng lẻ cho mỗi bài viết trên blog. <b>Lưu ý:</b> Việc thay đổi cài đặt này sẽ không ảnh hưởng đến các bài đăng trên blog đã có từ trước.",
+                "require_review_label": "Yêu cầu phê duyệt trước khi đăng",
+                "require_review_text": "Khi đăng một bài viết, nó sẽ không hiển thị trực tiếp mà cần người kiểm duyệt xem xét.",
+                "hide_on_discussion_list_label": "Không hiện blog trên danh sách thảo luận",
+                "hide_on_discussion_list_text": "Ẩn các bài viết trên blog khỏi danh sách Cuộc thảo luận.",
+                "add_sidebar_nav_label": "Hiện Blog bên thanh điều hướng",
+                "add_sidebar_nav_text": "Bao gồm một liên kết đến blog trên menu điều hướng của thanh bên.",
+                "categories_heading": "Danh mục",
+                "hide_tags_in_taglist_label": "Ẩn thẻ trong danh sách thẻ",
+                "hide_tags_in_taglist_text": "Khi được bật, tiện ích mở rộng này sẽ ẩn các thẻ blog khỏi trang chủ của bạn.",
+                "show_tag_hierarchy_label": "Hiển thị phân cấp thẻ",
+                "show_tag_hierarchy_text": "Thêm khoảng cách vào danh mục con và cung cấp cho danh sách danh mục một cấp bậc.",
+                "redirects_heading": "Chuyển hướng",
+                "redirect_articles_label": "Chuyển hướng các bài viết trên blog",
+                "redirect_articles_text": "Khi được bật, tiện ích này sẽ chuyển hướng các URL thảo luận ban đầu đến URL blog của họ.",
+                "redirect_tags_label": "Chuyển hướng các thẻ blog",
+                "redirect_tags_text": "Khi được bật, tiện ích này sẽ chuyển hướng các URL thẻ blog đến URL danh mục blog.",
+                "default_article_image_label": "Hình ảnh bài viết mặc định",
+                "default_article_image_text": "Chọn một hình ảnh bài viết mặc định để hiển thị khi không có hình ảnh nào được đặt."
+            }
+        },
+        "forum": {
+            "blog": "Blog",
+            "read_more": "Đọc thêm",
+            "hidden": "Bị ẩn",
+            "recent_posts": "Các bài đăng trên blog gần đây",
+            "categories": "Danh mục",
+            "forum_nav": "Danh mục diễn đàn",
+            "return_to_overview": "Quay lại trang blog ",
+            "no_more_posts": "Hiện không có bài viết nào trên blog.",
+            "category_empty": "Không có bài đăng trên blog nào trong danh mục này.",
+            "compose": {
+                "write_article": "Viết bài"
+            },
+            "validation": {
+                "missing_id": "Thiếu ID"
+            },
+            "article": {
+                "title": "Tiêu đề",
+                "slug": "Slug",
+                "summary": "Tóm tắt"
+            },
+            "comment_section": {
+                "comments": "Bình luận",
+                "locked": "Phần bình luận bị vô hiệu hóa đối với bài viết này"
+            },
+            "review_article": {
+                "pending_review_title": "Đang chờ xem xét",
+                "pending_review": "Bài viết này đang chờ xem xét và chưa được công khai",
+                "approve_article": "Phê duyệt bài viết",
+                "approve_article_approved": "Bài viết đã được duyệt và công khai"
+            },
+            "tools": {
+                "rename_article": "Đổi tên",
+                "edit_article": "Chỉnh sửa",
+                "update_category": "Cập nhật thẻ",
+                "article_settings": "Thiết lập",
+                "approve_article": "Phê duyệt",
+                "hide_article": "Ẩn",
+                "recover_article": "Khôi phục",
+                "delete_forever": "Xóa vĩnh viễn",
+                "enable_comments": "Cho phép bình luận",
+                "disable_comments": "Tắt bình luận"
+            },
+            "utils": {
+                "redirect": {
+                    "title": "Chuyển hướng bạn đến bài viết blog của chúng tôi...",
+                    "link": "<a>Bấm vào đây</a> nếu trang không chuyển hướng"
+                }
+            },
+            "composer": {
+                "no_title": "Chưa có tiêu đề",
+                "enter_message_here": "Nhập tin nhắn của bạn vào đây",
+                "post_article": "Đăng bài viết",
+                "select_category": "Chọn danh mục",
+                "edit_categories": "Sửa danh mục",
+                "update_settings": "Cập nhật blog",
+                "write": "Viết",
+                "view": "Xem",
+                "nothing_to_preview": "Chưa có gì để xem trước",
+                "comment_section": "Phần bình luận không được hiện khi đang viết bài.",
+                "no_blog_tags_selected": "Không có thẻ nào bạn đã chọn là thẻ blog. Vui lòng chọn ít nhất một.",
+                "post_without_blog_info": "Bạn có chắc chắn muốn đăng bài blog này không? Bạn chưa nhập hình ảnh hoặc tóm tắt blog."
+            }
+        }
+    }
+}

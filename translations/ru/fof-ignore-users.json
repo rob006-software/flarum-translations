@@ -1,0 +1,22 @@
+{
+    "fof-ignore-users": {
+        "admin": {
+            "permissions": {
+                "can_not_be_ignored_label": "Не может быть игнорируемым"
+            }
+        },
+        "forum": {
+            "profile_link": "Игнорируемые пользователи",
+            "user_controls": {
+                "ignore_button": "Игнорировать",
+                "ignore_confirmation": "Вы уверены, что хотите игнорировать этого пользователя?",
+                "unignore_button": "Не игнорировать",
+                "unignore_confirmation": "Вы уверены, что хотите не игнорировать этого пользователя?"
+            },
+            "badge": {
+                "user_label": "Игнорируемый",
+                "discussion_label": "Опубликовано игнорируемым пользователем"
+            }
+        }
+    }
+}

@@ -2,16 +2,16 @@
     "fof-merge-discussions": {
         "forum": {
             "modal": {
-                "title": "",
+                "title": "සාකච්ඡා සංයුක්ත කරන්න",
                 "type_target_label": "",
                 "type_target_help_text": "",
                 "type_from_label": "",
                 "type_from_help_text": "",
-                "load_preview_button": "",
-                "submit_button": ""
+                "load_preview_button": "පෙරදසුන",
+                "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "discussion": {
-                "merge": ""
+                "merge": "=> fof-merge-discussions.ref.merge"
             },
             "post": {
                 "merged": ""
@@ -19,18 +19,18 @@
         },
         "admin": {
             "permissions": {
-                "merge_discussions_label": ""
+                "merge_discussions_label": "සාකච්ඡා සංයුක්ත කරන්න"
             }
         },
         "api": {
             "error": {
-                "merging_failed": "",
-                "updating_failed": "",
+                "merging_failed": "සාකච්ඡා සංයුක්ත කිරීමට අසමත්විය.",
+                "updating_failed": "සාකච්ඡාවෙහි විස්තර යාවත්කාල කිරීමට අසමත්විය.",
                 "deleting_failed": ""
             }
         },
         "ref": {
-            "merge": ""
+            "merge": "සංයුක්ත කරන්න"
         }
     }
 }

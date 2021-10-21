@@ -5,11 +5,11 @@
                 "colored_header_label": "වර්ණික ශීර්ෂය",
                 "colors_heading": "වර්ණ",
                 "colors_text": "ඔබගේ සංසදය තේමා කිරීමට වර්ණ දෙකක් තෝරන්න. පළමුවැන්න ඉස්මතු කිරීමේ වර්ණයක් ලෙස භාවිතා කරන අතර දෙවැන්න පසුබිම් අංග අලංකාර කිරීමට යොදා ගනී.",
-                "custom_footer_heading": "",
+                "custom_footer_heading": "අභිරුචි පාදතලය",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "අභිරුචි ශීර්ෂය",
                 "custom_header_text": "=> core.ref.custom_header_text",
-                "custom_styles_heading": "",
+                "custom_styles_heading": "අභිරුචි මෝස්තර",
                 "custom_styles_text": "",
                 "dark_mode_label": "අඳුරු ආකාරය",
                 "description": "",
@@ -29,7 +29,7 @@
                 "description": "ඔබගේ සංසදයේ මාතෘකාව, භාෂාව සහ වෙනත් මූලික සැකසුම් සකසන්න.",
                 "display_name_heading": "",
                 "display_name_text": "",
-                "forum_description_heading": "සංසදයේ විස්තරය",
+                "forum_description_heading": "සංසදයේ සවිස්තරය",
                 "forum_description_text": "",
                 "forum_title_heading": "සංසදයේ මාතෘකාව",
                 "home_page_heading": "මුල් පිටුව",
@@ -61,7 +61,7 @@
                 "color_label": "=> core.ref.color",
                 "delete_button": "",
                 "delete_confirmation": "",
-                "hide_label": "",
+                "hide_label": "සංසදයෙහි සඟවන්න",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "name_label": "නම",
@@ -106,7 +106,7 @@
                 "enabled": "සබල කර ඇත",
                 "info_links": {
                     "discuss": "සාකච්ඡා කරන්න",
-                    "documentation": "",
+                    "documentation": "ප්‍රලේඛනය",
                     "donate": "පරිත්‍යාග",
                     "source": "",
                     "support": "සහාය",
@@ -164,7 +164,7 @@
                 "edit_users_label": "",
                 "edit_users_credentials_label": "",
                 "edit_users_groups_label": "පරිශීලක සමූහ සංස්කරණය",
-                "global_heading": "",
+                "global_heading": "ගෝලීය",
                 "moderate_heading": "",
                 "new_group_button": "නව සමූහය",
                 "participate_heading": "සහභාගී වන්න",
@@ -244,7 +244,7 @@
                 "confirm_password_placeholder": "=> core.ref.confirm_password",
                 "confirmation_message": "=> core.ref.confirmation_email_sent",
                 "dismiss_button": "=> core.ref.okay",
-                "incorrect_password_message": "ඔබ ඇතුළත් කළ මුරපදය වැරදිය.",
+                "incorrect_password_message": "ඔබ ඇතුල් කළ මුරපදය වැරදිය.",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.change_email"
             },
@@ -316,7 +316,9 @@
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "පැතිකඩ",
+                "search_clear_button_accessible_label": "",
                 "search_placeholder": "සංසදයෙහි සොයන්න",
+                "search_role_label": "",
                 "session_dropdown_accessible_label": "",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
@@ -462,15 +464,18 @@
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
+                "username_label": "=> core.ref.username",
+                "nothing_available": ""
             },
             "error": {
                 "dependent_extensions_message": "",
                 "generic_message": "",
                 "missing_dependencies_message": "",
                 "not_found_message": "",
+                "payload_too_large_message": "",
                 "permission_denied_message": "ඔබට එය කිරීමට අවසර නැත.",
-                "rate_limit_exceeded_message": "ඔබ ටිකක් ඉක්මණින් යනවා. කරුණාකර තත්පර කිහිපයකින් නැවත උත්සාහ කරන්න."
+                "rate_limit_exceeded_message": "ඔබ ටිකක් ඉක්මණින් යනවා. කරුණාකර තත්පර කිහිපයකින් නැවත උත්සාහ කරන්න.",
+                "render_failed_message": ""
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
@@ -489,6 +494,26 @@
             }
         },
         "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "",
+                    "disable": "",
+                    "empty": "",
+                    "enable": "",
+                    "name": "",
+                    "package_name": "",
+                    "version": ""
+                },
+                "info": {
+                    "caption": ""
+                },
+                "title": ""
+            },
+            "confirm_email": {
+                "submit_button": "",
+                "text": "",
+                "title": ""
+            },
             "content": {
                 "javascript_disabled_message": "",
                 "load_error_message": "",
@@ -530,7 +555,7 @@
         },
         "email": {
             "activate_account": {
-                "subject": "ඔබගේ නව ගිණුම සක්‍රිය කරන්න",
+                "subject": "ඔබගේ නව ගිණුම ක්‍රියාත්මක කරන්න",
                 "body": ""
             },
             "confirm_email": {
@@ -538,11 +563,11 @@
                 "body": ""
             },
             "reset_password": {
-                "subject": "",
+                "subject": "=> core.ref.reset_your_password",
                 "body": ""
             },
             "send_test": {
-                "subject": "",
+                "subject": "ෆ්ලාරම් වි-තැපැල් අත්හදා බැලීම",
                 "body": ""
             }
         },
@@ -552,6 +577,7 @@
             "change_password": "මුරපදය වෙනස් කරන්න",
             "color": "වර්ණය",
             "confirm_password": "මුරපදය තහවුරු කරන්න",
+            "confirm_email": "",
             "confirmation_email_sent": "",
             "custom_footer_text": "",
             "custom_footer_title": "",
@@ -563,6 +589,7 @@
             "edit": "සංස්කරණය",
             "edit_user": "පරිශීලක සංස්කරණය",
             "email": "වි-තැපෑල",
+            "extensions": "",
             "icon": "",
             "icon_text": "",
             "load_more": "තව පූරනය කරන්න",
@@ -580,7 +607,7 @@
             "rename": "නැවත නම් කරන්න",
             "reply": "පිළිතුර",
             "reset_your_password": "",
-            "restore": "",
+            "restore": "ප්‍රත්‍යර්පණය",
             "save_changes": "වෙනස්කම් සුරකින්න",
             "settings": "සැකසුම්",
             "sign_up": "",

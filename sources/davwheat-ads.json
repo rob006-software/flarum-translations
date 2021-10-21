@@ -1,0 +1,37 @@
+{
+    "davwheat": {
+        "ads": {
+            "admin": {
+                "settings": {
+                    "enabled_locations": "Enabled ad unit locations",
+                    "code_input": "Code for \"{for}\" ad unit",
+                    "code_input_disabled": "Enable this location to edit its HTML code.",
+                    "pub_id": "AdSense Publisher ID",
+                    "between_posts_gap": "Between posts: gap between ads",
+                    "allow_after_placeholder": "Between posts: show ad after reply placeholder",
+                    "save_btn": {
+                        "dirty": "Save changes",
+                        "saving": "Saving...",
+                        "saved": "All changes saved",
+                        "fix_errors": "Fix errors before saving"
+                    },
+                    "alert": {
+                        "fix_errors": "Please fix errors above before saving changes",
+                        "code_has_script": "One or more of your ad units contain script tags, which are not allowed. Remove these and try again."
+                    },
+                    "warning": "The ad code should <b>ONLY</b> include the <code>ins</code> tag(s), and not any script tags. The scripts are automatically run by\nthis extension.\n"
+                }
+            },
+            "lib": {
+                "locations": {
+                    "discussion_header": "Discussion page (under header)",
+                    "discussion_sidebar": "Discussion sidebar [DESKTOP ONLY]",
+                    "header": "Header",
+                    "sidebar": "Side navigation [DESKTOP ONLY]",
+                    "footer": "Footer",
+                    "between_posts": "Between posts"
+                }
+            }
+        }
+    }
+}

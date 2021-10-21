@@ -91,10 +91,10 @@
                 "mail_username_label": "ユーザ名（一般的にメールアドレスと同じ）",
                 "mailgun_heading": "Mailgun 設定",
                 "not_sending_message": "Flarum は現在メールを送信できません。メールドライバーとその設定を確認してください。",
-                "send_test_mail_button": "",
+                "send_test_mail_button": "送信する",
                 "send_test_mail_heading": "テストメールを送信する",
                 "send_test_mail_success": "テストメールの送信に成功しました！",
-                "send_test_mail_text": "",
+                "send_test_mail_text": "これは上記の設定を、あなたのメールアドレス {email} に送ります。",
                 "smtp_heading": "SMTP 設定",
                 "title": ""
             },
@@ -316,7 +316,9 @@
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "マイデータ",
+                "search_clear_button_accessible_label": "",
                 "search_placeholder": "検索",
+                "search_role_label": "",
                 "session_dropdown_accessible_label": "",
                 "settings_button": "設定",
                 "sign_up_link": "=> core.ref.sign_up"
@@ -326,7 +328,7 @@
                 "cannot_start_discussion_button": "スレッドを開始できません",
                 "mark_all_as_read_confirmation": "すべてを既読にしてもよろしいですか？",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
-                "meta_title_text": "",
+                "meta_title_text": "=> core.ref.all_discussions",
                 "refresh_tooltip": "更新",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
                 "toggle_sidenav_dropdown_accessible_label": ""
@@ -462,15 +464,18 @@
                 "submit_button": "",
                 "title": "",
                 "username_heading": "",
-                "username_label": ""
+                "username_label": "",
+                "nothing_available": ""
             },
             "error": {
                 "dependent_extensions_message": "{extension}を無効化するには、これらを先に無効化する必要があります: {extensions}",
                 "generic_message": "おっとっと！ エラーが発生しました。ページを再読み込みし、もう一度お試しください。",
                 "missing_dependencies_message": "{extension}を有効化するには、これらを先に有効化する必要があります: {extensions}",
                 "not_found_message": "リクエストされたリソースが見つかりませんでした。",
+                "payload_too_large_message": "",
                 "permission_denied_message": "実行する権限がありません。",
-                "rate_limit_exceeded_message": "実行する間隔が早すぎます。時間が経ってからお試しください。"
+                "rate_limit_exceeded_message": "実行する間隔が早すぎます。時間が経ってからお試しください。",
+                "render_failed_message": ""
             },
             "loading_indicator": {
                 "accessible_label": ""
@@ -489,6 +494,26 @@
             }
         },
         "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "",
+                    "disable": "",
+                    "empty": "",
+                    "enable": "",
+                    "name": "",
+                    "package_name": "",
+                    "version": ""
+                },
+                "info": {
+                    "caption": ""
+                },
+                "title": ""
+            },
+            "confirm_email": {
+                "submit_button": "",
+                "text": "",
+                "title": ""
+            },
             "content": {
                 "javascript_disabled_message": "このサイトは、ブラウザのJavaScriptを有効にすることでより美しく見ることができます。",
                 "load_error_message": "サイトを読み込む際に異常が発生しました。",
@@ -552,6 +577,7 @@
             "change_password": "パスワードの変更",
             "color": "カラー",
             "confirm_password": "パスワードの確認",
+            "confirm_email": "",
             "confirmation_email_sent": "{email} にアカウント確認メールを送信しました。メールが届かない場合は、迷惑メールボックスをご確認ください。",
             "custom_footer_text": "ページの一番下に表示する HTML を追加します。",
             "custom_footer_title": "カスタムフッターを編集",
@@ -563,6 +589,7 @@
             "edit": "編集",
             "edit_user": "",
             "email": "電子メール",
+            "extensions": "",
             "icon": "アイコン",
             "icon_text": "接頭辞<code>fas fa-</code><em>を含む</em><a>Font Awesome</a> のアイコン名を入力してください。",
             "load_more": "さらに読み込む",

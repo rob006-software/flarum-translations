@@ -1,0 +1,11 @@
+{
+    "glowingblue-redis-setup": {
+        "admin": {
+            "settings": {
+                "enable_cache": "Redis-Cache aktivieren",
+                "enable_redis_sessions": "Redis-Sitzungen aktivieren (alle Benutzer werden abgemeldet, nachdem diese Einstellung geändert wurde)",
+                "enable_queue": "Redis-Warteschlange aktivieren"
+            }
+        }
+    }
+}

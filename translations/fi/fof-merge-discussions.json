@@ -1,0 +1,36 @@
+{
+    "fof-merge-discussions": {
+        "forum": {
+            "modal": {
+                "title": "Yhdistä keskustelut",
+                "type_target_label": "Yhdistä keskusteluun",
+                "type_target_help_text": "Valitse keskustelu(t) jotka yhdistetään <b>{title}</b>.",
+                "type_from_label": "Yhdistä tämä keskustelu toiseen",
+                "type_from_help_text": "Yhdistä kohde keskustelu joka yhdistetään <b>{title}</b>.",
+                "load_preview_button": "Esikatselu",
+                "submit_button": "=> fof-merge-discussions.ref.merge"
+            },
+            "discussion": {
+                "merge": "=> fof-merge-discussions.ref.merge"
+            },
+            "post": {
+                "merged": "{count, plural, one {Yhdistetetiin <b>#</b> viesti kohteesta {titles}.} other {Yhdistettiin <b>#</b> viestiä kohteesta {titles}.}}"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "merge_discussions_label": "Yhdistä keskustelut"
+            }
+        },
+        "api": {
+            "error": {
+                "merging_failed": "Keskusteluiden yhdistys epäonnistui.",
+                "updating_failed": "Keskustelujen tietojen päivitys epäonnistui.",
+                "deleting_failed": "Tyhjien keskusteluiden poisto epäonnistui."
+            }
+        },
+        "ref": {
+            "merge": "Yhdistä"
+        }
+    }
+}

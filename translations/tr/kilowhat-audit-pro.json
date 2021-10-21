@@ -61,33 +61,33 @@
                     "filterIp": "Bu IP'ye göre günlüğü göster",
                     "filterClient": "Bu istemci tipine göre günlüğü göster",
                     "filterAction": "Aynı eylemlere ait günlüğü göster",
-                    "filterUser": "",
-                    "filterDiscussion": ""
+                    "filterUser": "Aynı kullanıcıyı etkileyen günlükleri göster",
+                    "filterDiscussion": "Aynı tartışmayı etkileyen günlükleri göster"
                 },
-                "cache_cleared": "",
+                "cache_cleared": "Önbelleği elle temizledi",
                 "discussion": {
-                    "created": "",
-                    "create_date_changed": "",
-                    "deleted": "",
-                    "hidden": "",
-                    "locked": "",
-                    "renamed": "",
-                    "restored": "",
-                    "split_away": "",
-                    "split_into": "",
-                    "stickied": "",
-                    "tagged": "",
-                    "unlocked": "",
-                    "unstickied": "",
-                    "user_changed": ""
+                    "created": "Tartışma başlattı {discussion}",
+                    "create_date_changed": "{discussion} tartışmasının başlangıcını {old_date} tarihinden {new_date} tarihine güncelledi",
+                    "deleted": "Tartışma sildi {discussion}",
+                    "hidden": "Tartışmayı gizledi {discussion}",
+                    "locked": "Tartışmayı kilitledi {discussion}",
+                    "renamed": "{old_title} tartışmasını {new_title} olarak yeniden adlandırdı",
+                    "restored": "Tartışmayı geri aldı {discussion}",
+                    "split_away": "{post_count} gönderiyi {discussion} tartışmasından ayırdı",
+                    "split_into": "{post_count} gönderiyi yeni {discussion} tartışmasına ayırdı",
+                    "stickied": "Tartışmayı sabitledi {discussion}",
+                    "tagged": "{discussion} tartışmasının {old_tags} etiketlerini {new_tags} etiketileri olarak güncelledi",
+                    "unlocked": "Tartışmanın kilidini kaldırdı {discussion}",
+                    "unstickied": "Tartışmanın sabitini kaldırdı {discussion}",
+                    "user_changed": "{discussion} tartışmasının yazını {old_user} kullanıcısından {new_user} kullanıcısına verdi"
                 },
                 "extension": {
                     "disabled": "Uzantı etkisizleştirildi {package}",
-                    "enabled": ""
+                    "enabled": "Uzantıyı etkinleştirdi {package}"
                 },
                 "fof_ban_ips": {
-                    "banned": "",
-                    "unbanned": ""
+                    "banned": "IP yasakladı {ip}",
+                    "unbanned": "IP yasağını kaldırdı {ip}"
                 },
                 "permission_changed": "",
                 "post": {
@@ -98,7 +98,7 @@
                     "dismissed_flags": "",
                     "edit_date_changed": "",
                     "flagged": "",
-                    "hidden": "",
+                    "hidden": "{discussion} tartışmasında {postuser} kullanıcısının {post} gönderisini gizledi",
                     "restored": "",
                     "revised": "",
                     "user_changed": ""

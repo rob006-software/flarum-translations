@@ -2,22 +2,22 @@
     "fof-split": {
         "admin": {
             "permissions": {
-                "split_discussion_label": ""
+                "split_discussion_label": "Rozdeliť príspevky z diskusie"
             }
         },
         "forum": {
             "post": {
-                "was_split_to": "",
-                "was_split_from": ""
+                "was_split_to": "{count, plural, one {{count} príspevok bol rozdelený do {target}.} few {{count} príspevky boli rozdelené do {target}.} other {{count} príspevkov bolo rozdelených do {target}.}}",
+                "was_split_from": "{count, plural, one {{count} príspevok bol rozdelený z {target}.} few {{count} príspevky boli rozdelené z {target}.} other {{count} príspevkov bolo rozdelených z {target}.}}"
             },
             "split": {
-                "from": "",
-                "to": ""
+                "from": "Rozdeliť odtiaľto",
+                "to": "Rozdeliť potiaľto"
             },
             "modal": {
-                "title": "",
-                "new_discussion_label": "",
-                "submit_button": ""
+                "title": "Rozdeliť diskusiu",
+                "new_discussion_label": "Špecifikujte názov novej diskusie",
+                "submit_button": "Rozdeliť"
             }
         }
     }

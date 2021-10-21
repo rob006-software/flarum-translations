@@ -1,0 +1,33 @@
+{
+    "flarum-ext-contactme": {
+        "settings": {
+            "emaillabel": "Sizə göndərilən məktubların gələcəyi maili yazın"
+        },
+        "admin": {
+            "settings": {
+                "emaillabel": "Əlaqə formunun göndəriləcəyi e -poçt"
+            }
+        },
+        "forum": {
+            "title": "Bizə yazın",
+            "messagesent": "Mesajınız göndərildi",
+            "plsregister": "Zəhmət olmasa qeydiyyatdan keçin və ya daxil olun",
+            "tocontinue": "Bizə yazmaq üçün qeydiyyatdan keçməlisiniz ya da sayta daxil olmalısınız",
+            "backsoon": "Təşəkkür Qısa zamanda sizə dönüş edəcəyik",
+            "notloggedin": "Əlaqə formundan istifadə etmək üçün daxil olun",
+            "placeholderName": "Adınızı bura yazın",
+            "emailfield": "E -poçt ünvanınızı yazın",
+            "pageTitle": "Bizə yazın",
+            "subject": "Mesajınız",
+            "sendForm": "Göndər",
+            "textAreaField": "Mesajınızı buraya yazın",
+            "pText": "<p><strong>Diqqət</strong></p>\n<p>Bizə yazmadan öncə aşağıda yazılanları oxumağınız xahiş olunur. İstifadəçilərin məxfiliyi qorunur</p>\n<p>Saytda yerləşdirilən əlaqə formu, sayt istifadəçilərinin, istədikləri təqdirdə, yuxarıda göstərilən forma vasitəsilə menecerə bir e -poçt göndərərək əlaqə saxlamasına icazə vermək məqsədi daşıyır.</p>\n<p>Həmçinin bu forum vasitəsi ilə bizə tkliflərinizi bildirişlərinizi Ortaqlıq təklifi və reklam iş birliyi üçün yaza bilərsiniz.</p>\n<li>Mesajınıza 3 işgünü içində baxılacaq</li>\n<li>Eyni Mesajı bir neçə dəfə göndərməyin</li>\n"
+        },
+        "email": {
+            "contact": {
+                "subject": "Yenidən əlaqə",
+                "body": "Salam!\n\nBizimlə əlaqə bölməsindən yazan var istifadəçi adı: {username} (email: {email})\n\nMesajı:\n\n{message}"
+            }
+        }
+    }
+}

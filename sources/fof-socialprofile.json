@@ -1,16 +1,28 @@
 {
     "fof-socialprofile": {
+        "admin": {
+            "permissions": {
+                "view": "View social profile",
+                "editOwn": "Edit own social profile",
+                "editAny": "Edit any social profile"
+            },
+            "settings": {
+                "allow_external_favicons_label": "Allow external website icons"
+            }
+        },
         "forum": {
             "edit": {
-                "edit": "Edit",
-                "add": "Add",
+                "edit": "Edit your social media buttons",
+                "add": "Add buttons to your social media",
                 "headtitle": "Edit Buttons",
                 "title": "Title",
                 "url": "URL",
                 "submit": "Save",
                 "delete": "Delete",
                 "deletetitle": "Delete Button",
-                "save_disabled_fetching_favicons": "One or more icons are being fetched. Please wait."
+                "save_disabled_fetching_favicons": "One or more icons are being fetched. Please wait.",
+                "favicon": "Favicon",
+                "grey_favicon": "Grey Favicon"
             }
         }
     }

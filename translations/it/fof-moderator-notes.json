@@ -25,8 +25,8 @@
             }
         },
         "api": {
-            "auto_note": "",
-            "auto_note_actor": "",
+            "auto_note": "_Sono passato a questo utente:_ {reason}",
+            "auto_note_actor": "_Passato a_ @{username}: {reason}",
             "no_reason_provided": "Nessun motivo fornito"
         }
     }

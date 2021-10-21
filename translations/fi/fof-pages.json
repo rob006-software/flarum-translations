@@ -1,0 +1,47 @@
+{
+    "fof-pages": {
+        "admin": {
+            "edit_page": {
+                "content_label": "=> fof-pages.ref.content",
+                "content_placeholder": "=> fof-pages.ref.content",
+                "delete_page_button": "Poista sivu",
+                "delete_page_confirmation": "Haluatko varmasti poistaa tämän sivun?",
+                "hidden_label": "Tallenna luonnokseksi",
+                "restricted_label": "Rajoita pääsy (määritä kuka voi päästä sivulle Oikeudet välilehdellä)",
+                "html_label": "Salli HTML",
+                "set_as_home_page_confirmation": "Haluatko varmasti asettaa tämän sivun kotisivuksi?",
+                "set_as_home_page_done": "Kotisivu päivitetty",
+                "slug_label": "=> fof-pages.ref.slug",
+                "slug_placeholder": "=> fof-pages.ref.slug",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> fof-pages.ref.create_page",
+                "title_label": "=> fof-pages.ref.title",
+                "title_placeholder": "=> fof-pages.ref.title",
+                "url_label": "=> fof-pages.ref.url",
+                "url_placeholder": "=> fof-pages.ref.url"
+            },
+            "pages": {
+                "create_button": "=> fof-pages.ref.create_page"
+            },
+            "pages_list": {
+                "empty_text": "Näyttää siltä, että täällä ei ole yhtään sivua.",
+                "title": "=> fof-pages.ref.title"
+            },
+            "permissions": {
+                "restricted": "Nähdä rajoitetut sivut"
+            },
+            "badges": {
+                "hidden": "Luonnos",
+                "restricted": "Rajoitettu"
+            }
+        },
+        "ref": {
+            "content": "Sisältö",
+            "create_page": "Luo sivu",
+            "pages": "Sivut",
+            "slug": "Polkutunnus",
+            "title": "Otsikko",
+            "url": "URL"
+        }
+    }
+}

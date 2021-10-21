@@ -2,19 +2,29 @@
     "the-turk-regrole": {
         "admin": {
             "settings": {
-                "title": "Registration Roles Settings",
-                "roleIds": "Allowed Roles",
-                "roleIdsHelp": "Choose roles that users allowed to assign themselves.",
-                "otherOptions": "Other Options",
-                "multipleRoles": "Allow users to have multiple roles assigned",
-                "forceUsers": "Force users to assign at least one role to themselves"
+                "allowed_roles_label": "Allowed Roles",
+                "allowed_roles_text": "Choose roles those users allowed to assign themselves.",
+                "other_options_heading": "Other Options",
+                "allow_multiple_roles_label": "Allow users to have multiple roles assigned",
+                "force_users_label": "Force users to assign at least one role to themselves",
+                "force_users_text": "If enabled, users who haven't got any of the roles selected above will be suspended and won't be able to use the forum until they assign a role to themselves (users those have permission to edit user groups will be excluded)."
             }
         },
         "forum": {
-            "chooseRole": "Choose A Role",
-            "chooseRoleHelp": "Please choose a role to continue using our forum.",
-            "requiredRegRole": "You must choose a role to continue registration.",
-            "save": "=> core.ref.save_changes"
+            "suspended_temporarily_message": "We've suspended your account temporarily until you choose a role.",
+            "choose_role_button_label": "=> the-turk-regrole.ref.choose_a_role",
+            "required_role_message": "You must choose a role.",
+            "choose_role_modal": {
+                "choose_role_heading": "=> the-turk-regrole.ref.choose_a_role",
+                "choose_role_text": "Please choose a role to continue using our forum.",
+                "save_button": "=> core.ref.save_changes"
+            },
+            "sign_up_modal": {
+                "choose_role_heading": "=> the-turk-regrole.ref.choose_a_role"
+            }
+        },
+        "ref": {
+            "choose_a_role": "Choose A Role"
         }
     }
 }

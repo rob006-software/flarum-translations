@@ -3,42 +3,42 @@
         "admin": {
             "settings": {
                 "options": {
-                    "airplay": "",
-                    "hotkey": "",
-                    "lang": "",
-                    "logo": "",
-                    "quality_switching": "",
-                    "theme": ""
+                    "airplay": "Airplay",
+                    "hotkey": "Hotkey",
+                    "lang": "Lingua del Player",
+                    "logo": "URL del Logo",
+                    "quality_switching": "Consenti cambio qualità",
+                    "theme": "Colore del Tema"
                 },
                 "permissions": {
-                    "can_create_video_player": ""
+                    "can_create_video_player": "Può creare player video"
                 },
                 "video_types": {
-                    "dash": "",
-                    "flv": "",
-                    "hls": "",
-                    "shaka": "",
-                    "webtorrent": ""
+                    "dash": "Trattino",
+                    "flv": "Flv",
+                    "hls": "Hls",
+                    "shaka": "Shaka",
+                    "webtorrent": "WebTorrent"
                 }
             }
         },
         "forum": {
-            "button_tooltip_title": "",
+            "button_tooltip_title": "Incorpora Video",
             "modal": {
-                "live_mode": "",
-                "submit_button": "",
-                "title": "",
-                "video_type_label": "",
+                "live_mode": "Modalità Live",
+                "submit_button": "Salva Modifiche",
+                "title": "Incorpora Video",
+                "video_type_label": "Tipo Video",
                 "video_types": {
-                    "normal": "",
-                    "dash": "",
-                    "flv": "",
-                    "hls": "",
-                    "shaka": "",
-                    "webtorrent": ""
+                    "normal": "Normale",
+                    "dash": "Trattino",
+                    "flv": "Flv",
+                    "hls": "Hls",
+                    "shaka": "Shaka",
+                    "webtorrent": "WebTorrent"
                 },
-                "video_url_label": "",
-                "video_url_placeholder": ""
+                "video_url_label": "Url del Video",
+                "video_url_placeholder": "Es. https://example.com/filename.mp4"
             }
         }
     }

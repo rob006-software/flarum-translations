@@ -1,0 +1,18 @@
+{
+    "fof-user-bio": {
+        "admin": {
+            "permission": {
+                "view": "Смотреть информацию о себе",
+                "editOwn": "Изменять свою информацию о себе",
+                "editAny": "Изменять чужую (любую) информацию о себе"
+            },
+            "setting": {
+                "bioLimit": "Максимально количество символов"
+            }
+        },
+        "forum": {
+            "userbioPlaceholder": "Напишите что-нибудь о себе...",
+            "userbioPlaceholderOtherUser": "Напишите что-нибудь о {username}..."
+        }
+    }
+}

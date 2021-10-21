@@ -2,42 +2,42 @@
     "clarkwinkelmann-mailing": {
         "admin": {
             "permissions": {
-                "mail_individual": "",
-                "mail_all": ""
+                "mail_individual": "Invia email a singoli utenti",
+                "mail_all": "Invia email a gruppi o a tutti gli utenti"
             }
         },
         "forum": {
             "links": {
-                "mail_individual": "",
-                "mail_all": ""
+                "mail_individual": "Invia Email a questo utente",
+                "mail_all": "Invia Email"
             },
             "modal_mail": {
-                "title_text": "",
-                "recipients_label": "",
-                "recipients_placeholder": "",
-                "subject_label": "",
-                "default_subject": "",
-                "message_label": "",
-                "submit_button": ""
+                "title_text": "Componi Email",
+                "recipients_label": "Destinatari",
+                "recipients_placeholder": "Aggiungi più destinatari...",
+                "subject_label": "Oggetto",
+                "default_subject": "=> clarkwinkelmann-mailing.ref.default_subject",
+                "message_label": "Messaggio",
+                "submit_button": "Invia"
             },
             "modal_sent": {
-                "title_text": "",
-                "on_its_way": ""
+                "title_text": "Mail Inviata!",
+                "on_its_way": "Batti il cinque! La tua mail sta arrivando a {recipientsCount} destinatari!"
             },
             "recipient_kinds": {
-                "user": "",
-                "group": "",
-                "email": ""
+                "user": "Utente",
+                "group": "Gruppo",
+                "email": "Email"
             }
         },
         "api": {
-            "no_recipients": ""
+            "no_recipients": "Nessun destinatario è stato abbinato"
         },
         "email": {
-            "default_subject": ""
+            "default_subject": "=> clarkwinkelmann-mailing.ref.default_subject"
         },
         "ref": {
-            "default_subject": ""
+            "default_subject": "Messaggio dall'amministratore del Forum"
         }
     }
 }

@@ -9,7 +9,6 @@
                 "idp_metadata_url": "URL des métadonnées du fournisseur d'identité (alternative à XML)",
                 "idp_metadata": "XML des métadonnées du fournisseur d'identité (alternative à l'URL)",
                 "only_option": "Utiliser SAML2 SSO comme seule option de connexion ?",
-                "sync_attributes": "Synchroniser les attributs (avatar, groupes, biographie et profil) ? Requiert l'extension askvortsov/auth-sync.",
                 "nameid_format": "Format de NameID",
                 "slo": "Activer SLO ? Si votre IDP ne prend pas en charge cette fonction, cela ne servira à rien.",
                 "authn_requests_signed": "Signer les requêtes d'autorisation ?",
@@ -20,7 +19,8 @@
                 "want_assertions_signed": "Souhaitez-vous que les assertions soient signées ?",
                 "want_messages_signed": "Souhaitez-vous que les messages soient signés ?",
                 "x509_cert": "Certificat x509 (nécessaire pour la signature, si activée)",
-                "x509_key": "Clé privée x509 (nécessaire pour la signature, si activée)"
+                "x509_key": "Clé privée x509 (nécessaire pour la signature, si activée)",
+                "sync_attributes": "Synchroniser les attributs (avatar, groupes, biographie et profil) ? Requiert l'extension askvortsov/auth-sync."
             },
             "options": {
                 "nameid_format": {

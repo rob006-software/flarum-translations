@@ -1,8 +1,14 @@
 {
     "acpl-my-tags": {
+        "admin": {
+            "settings": {
+                "enable-placeholder": "Enable placeholder text when the user is not following any tags"
+            }
+        },
         "forum": {
             "index": {
-                "my_tags": "My tags"
+                "my_tags": "My tags",
+                "placeholder": "You are not following any tags yet. <a>See tags</a>"
             }
         }
     }

@@ -1,0 +1,50 @@
+{
+    "flarum-subscriptions": {
+        "forum": {
+            "badge": {
+                "following_tooltip": "=> flarum-subscriptions.ref.following",
+                "ignoring_tooltip": "=> \"Скрыто\""
+            },
+            "discussion_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "unfollow_button": "Отписка",
+                "unignore_button": "Не скрывать"
+            },
+            "following": {
+                "meta_title_text": "=> flarum-subscriptions.ref.following"
+            },
+            "index": {
+                "following_link": "Подписки"
+            },
+            "notifications": {
+                "new_post_text": "{username} ответил(а)"
+            },
+            "settings": {
+                "follow_after_reply_label": "Автоматически подписываться на дискуссии, в которых я участвую",
+                "notify_new_post_label": "Ответ в дискуссиях, на которые я подписан"
+            },
+            "sub_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "following_button": "=> flarum-subscriptions.ref.following",
+                "following_text": "Уведомлять обо всех ответах.",
+                "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
+                "ignoring_text": "Отключение уведомлений из этой дискуссии. Скрыть в списке дискуссий.",
+                "not_following_button": "Отписка",
+                "not_following_text": "Уведомлять только когда @упоминают.",
+                "notify_alert_tooltip": "Получать уведомления форума при появлении новых сообщений",
+                "notify_email_tooltip": "Получать письма при появлении новых сообщений"
+            }
+        },
+        "email": {
+            "new_post": {
+                "subject": "[Новое сообщение] {title}",
+                "body": "Привет, {recipient_display_name}!\n\n{poster_display_name} ответил(а) в дискуссии: {title}.\n\nЧтобы посмотреть новое сообщение, перейдите по следующей ссылке:\n{url}\n\n---\n\n{content}\n\n---\n\nВы не будете получать уведомления об этой дискуссии, пока не ознакомитесь с текущей информацией.\n"
+            }
+        },
+        "ref": {
+            "follow": "Подписка",
+            "following": "Подписка",
+            "ignoring": "Скрыть"
+        }
+    }
+}

@@ -2,10 +2,10 @@
     "blomstra-realtime": {
         "forum": {
             "push": {
-                "discussion-list-new-activity": "Mostra {count} discussione aggiornata|Mostra {count} discussioni aggiornate"
+                "discussion-list-new-activity": "{count, plural, one {Mostra # discussione aggiornata} other {Mostra # discussioni aggiornate}}"
             },
             "typing-indicator": {
-                "people-are-typing": "{number} persona sta scrivendo|{number} persone stanno scrivendo",
+                "people-are-typing": "{number, plural, one {# utente stà scrivendo} other {# utenti stanno scrivendo}}",
                 "no-activity": "Nessuno sta scrivendo"
             }
         },

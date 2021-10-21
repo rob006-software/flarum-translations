@@ -1,0 +1,87 @@
+{
+    "malago-achievements": {
+        "forum": {
+            "achievement_points": "Điểm",
+            "new_achievement_title": "Thành tựu mới!",
+            "new_achievement_name": "Thành tựu",
+            "new_achievement_close": "Hiểu rồi!",
+            "list_heading": "Thành tựu",
+            "achievement_total_points": "Toàn bộ",
+            "your_achievements": "Thành tựu của bạn",
+            "other_achievements": "Thành tựu khác",
+            "hidden_achievements": "Thành tựu ẩn"
+        },
+        "admin": {
+            "achievement_modal": {
+                "title": "Tạo thành tựu",
+                "name_label": "Tên",
+                "name_placeholder": "Tên thành tựu",
+                "active_label": "Kích hoạt",
+                "hidden_label": "Ẩn khỏi tất cả danh sách thành tựu",
+                "description_label": "Mô tả",
+                "description_placeholder": "Mô tả thành tựu",
+                "variable_label": "Biến",
+                "computation_label": "Biến để tính toán: posts, likes, selflikes, discussions, comments, edits, avatar, contains, years\n",
+                "computation_placeholder": "Số",
+                "points_label": "Điểm cho thành tựu này",
+                "points_placeholder": "0\n",
+                "image_label": "URL hình ảnh hoặc mã biểu tượng",
+                "image_placeholder": "URL ảnh thành tựu",
+                "row_label": "Hàng",
+                "row_placeholder": 0,
+                "col_label": "Cột",
+                "col_placeholder": 0,
+                "width_label": "Chiều rộng hình ảnh",
+                "width_placeholder": 32,
+                "height_label": "Chiều dài hình ảnh",
+                "height_placeholder": 32,
+                "submit_button": "=> core.ref.save_changes",
+                "delete_button": "Xóa thành tựu",
+                "delete_confirmation": "Bạn có chắc chắn muốn xóa thành tựu này không?",
+                "add_delete_title": "Thêm hoặc xóa thành tựu khỏi người dùng",
+                "username": "Tên người dùng",
+                "username_placeholder": "Tên người dùng",
+                "add_delete_instructions": "Nếu người dùng không có thành tích, nó sẽ được thêm vào đó. Nếu người dùng có thành tích, nó sẽ bị xóa khỏi nó.",
+                "variable": {
+                    "manual": "Thủ công",
+                    "posts": "Bài viết",
+                    "likes": "Lượt thích đã cho",
+                    "selflikes": "Lượt thích nhận được",
+                    "discussions": "Cuộc thảo luận",
+                    "edits": "Chỉnh sửa bài viết",
+                    "avatar": "Cập nhật ảnh đại diện",
+                    "contains": "Tin nhắn chứa",
+                    "comments": "Câu trả lời nhận được trong cuộc thảo luận",
+                    "years": "Số năm đăng ký",
+                    "meanwords": "Từ trung bình",
+                    "tagposts": "Bài viết trong thẻ"
+                },
+                "tooltip": {
+                    "posts": "Số lượng bài đăng tối thiểu (ví dụ: 10) hoặc phạm vi bao gồm (ví dụ: 10,19)",
+                    "likes": "Số lượt thích tối thiểu đã cho (ví dụ: 10) hoặc phạm vi bao gồm (ví dụ: 10,19)",
+                    "selflikes": "Số lượt thích tối thiểu nhận được (ví dụ: 10) hoặc phạm vi bao gồm (ví dụ: 10,19)",
+                    "discussions": "Số lượng thảo luận tối thiểu được tạo (ví dụ: 10) hoặc phạm vi bao gồm (ví dụ: 10,19)",
+                    "edits": "Số lượng bài đăng được chỉnh sửa tối thiểu (ví dụ: 10) hoặc phạm vi bao gồm (ví dụ: 10,19)",
+                    "contains": "Từ hoặc từ và số lượng bài đăng tối thiểu có chứa nó (ví dụ: gà, 10) hoặc phạm vi bao gồm (ví dụ: gà, 10,19)",
+                    "comments": "Số lượng câu trả lời tối thiểu nhận được trong một cuộc thảo luận (ví dụ: 10) hoặc phạm vi bao gồm (ví dụ: 10,19)",
+                    "years": "Số năm tối thiểu đã đăng ký (ví dụ: 10) hoặc phạm vi bao gồm (ví dụ: 10,19)",
+                    "meanwords": "Từ cần tìm và số lần xuất hiện trung bình tối thiểu (ví dụ: gà, 10) hoặc phạm vi bao gồm (ví dụ: gà, 10,19)",
+                    "tagposts": "Slug của thẻ cần tìm và số lượng bài đăng tối thiểu (ví dụ: lạc đề, 10) hoặc phạm vi bao gồm (ví dụ: lạc đề, 10,19)"
+                }
+            },
+            "achievements_page": {
+                "list_heading": "Thành tựu",
+                "create_achievement_button": "Tạo thành tựu mới",
+                "instructions_header": "Hướng dẫn",
+                "instructions_text": "<li>Để tạo ra một thành tích, bạn phải giới thiệu một cái tên.</li>\n<li>Mô tả không bắt buộc.</li>\n<li>Chọn biến bạn muốn tính toán cho thành tích này từ danh sách.</li>\n<li>Giới thiệu ngưỡng thành tích được kích hoạt. Bạn có thể giới thiệu hai số được phân tách bằng dấu phẩy (,) để biểu thị ngưỡng tối thiểu và ngưỡng tối đa (cả hai số đều bao gồm).</li>\n<li>Thành tích có hai ngưỡng sẽ bị xóa nếu số lượng vượt quá ngưỡng trên.</li>\n<li>Đối với thành tích \"Tin nhắn chứa\", bạn phải giới thiệu từ được chỉ định và sau đó là ngưỡng, được phân tách bằng dấu phẩy (ví dụ: \"rau bina, 5\" hoặc \"rau bina, 5,10\" cho ngưỡng tối thiểu và tối đa.)</li>\n<li>Giới thiệu URL hình ảnh với biểu tượng được sử dụng cho thành tích này.</li>\n<li>Giới thiệu chiều rộng và chiều cao của biểu tượng.</li>\n<li>Không bắt buộc: Nếu hình ảnh có nhiều biểu tượng thành tích, bạn có thể chọn hàng và cột để hiển thị cho biểu tượng.</li>\n",
+                "add_delete_users": "Thêm/Xóa thành tích khỏi người dùng",
+                "show": "Hiển thị danh sách thành tựu trên:"
+            },
+            "settings": {
+                "show-post-footer": "Chân trang bài viết",
+                "show-user-card": "Thẻ người dùng",
+                "link-left-column": "Thêm liên kết đến Thành tựu trên thanh bên"
+            }
+        }
+    }
+}

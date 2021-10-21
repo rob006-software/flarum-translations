@@ -2,32 +2,32 @@
     "reflar-recache": {
         "forum": {
             "redis": {
-                "error_alert": ""
+                "error_alert": "Redis bağlantısı {time} itibariyle başarısız oldu. Lütfen ayarlarınızı kontrol edin, forum performansı büyük ölçüde zarar görecektir."
             }
         },
         "admin": {
             "nav": {
-                "desc": ""
+                "desc": "Önbellekleme ayarlarını yapılandırın."
             },
             "page": {
-                "heading": "",
-                "connection_failed": "",
+                "heading": "Ayarlar",
+                "connection_failed": "Bağlantı kurulamadı.",
                 "switches": {
-                    "cache": "",
-                    "query": "",
-                    "avatar": "",
-                    "lazy": ""
+                    "cache": "Önbelleği etkinleştir",
+                    "query": "Sorgu Önbelleğini Etkinleştir (Yalnızca Redis)",
+                    "avatar": "Resim iyileştirmesini etkinleştir",
+                    "lazy": "Resimler için tembel yüklemeyi etkinleştir"
                 },
                 "redis": {
-                    "label": "",
-                    "check": "",
-                    "host": "",
-                    "password": "",
-                    "port": "",
-                    "database": "",
-                    "failed": "",
-                    "fillin": "",
-                    "success": ""
+                    "label": "Redis",
+                    "check": "Kaydetmeden önce bağlantıyı kontrol edin!!",
+                    "host": "Host",
+                    "password": "Şifre",
+                    "port": "Port",
+                    "database": "Veritabanı",
+                    "failed": "Ayarlar kaydedilemedi, lütfen \"vendor/flarum/core/src/Database/\" öğesinin sunucunuz tarafından yazılabilir olduğundan emin olun",
+                    "fillin": "Lütfen Redis formunu eksiksiz doldurun",
+                    "success": "Redis sunucusuna başarıyla bağlanıldı."
                 },
                 "check_button": "Kontrol Et"
             }

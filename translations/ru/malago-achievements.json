@@ -1,0 +1,87 @@
+{
+    "malago-achievements": {
+        "forum": {
+            "achievement_points": "Очков",
+            "new_achievement_title": "Новое достижение!",
+            "new_achievement_name": "Достижение",
+            "new_achievement_close": "Понятно!",
+            "list_heading": "Достижения",
+            "achievement_total_points": "Всего",
+            "your_achievements": "Ваши достижения",
+            "other_achievements": "Другие достижения",
+            "hidden_achievements": "Скрытые достижения"
+        },
+        "admin": {
+            "achievement_modal": {
+                "title": "Создать достижение",
+                "name_label": "Имя",
+                "name_placeholder": "Название достижения",
+                "active_label": "Активно",
+                "hidden_label": "Скрыть из всех списков достижений",
+                "description_label": "Описание",
+                "description_placeholder": "Описание достижения",
+                "variable_label": "Переменная",
+                "computation_label": "Переменная для подсчета: сообщения, лайки, лайки своих сообщений, обсуждения, комментарии, правки, аватар, содержание, годы\n",
+                "computation_placeholder": "Число",
+                "points_label": "Очков за это достижение",
+                "points_placeholder": "0\n",
+                "image_label": "URL изображения или код иконки",
+                "image_placeholder": "URL логотипа достижения",
+                "row_label": "Строка",
+                "row_placeholder": "0",
+                "col_label": "Столбец",
+                "col_placeholder": "0",
+                "width_label": "Ширина изображения",
+                "width_placeholder": "32",
+                "height_label": "Высота изображения",
+                "height_placeholder": "32",
+                "submit_button": "=> core.ref.save_changes",
+                "delete_button": "Удалить достижение",
+                "delete_confirmation": "Вы уверены, что хотите удалить это достижение?",
+                "add_delete_title": "Добавить или удалить достижение участника",
+                "username": "Участник",
+                "username_placeholder": "Участник",
+                "add_delete_instructions": "Если у участника нет этого достижения, оно будет добавлено. Если оно уже есть - будет удалено.",
+                "variable": {
+                    "manual": "Вручную",
+                    "posts": "Сообщения",
+                    "likes": "Поставленные лайки",
+                    "selflikes": "Полученные лайки",
+                    "discussions": "Обсуждения",
+                    "edits": "Исправленные сообщения",
+                    "avatar": "Аватар загружен",
+                    "contains": "Сообщение содержит",
+                    "comments": "Ответы, полученные в ходе обсуждения",
+                    "years": "Лет зарегистрирован",
+                    "meanwords": "Среднее число слов",
+                    "tagposts": "Сообщений в тэге"
+                },
+                "tooltip": {
+                    "posts": "",
+                    "likes": "",
+                    "selflikes": "",
+                    "discussions": "",
+                    "edits": "",
+                    "contains": "",
+                    "comments": "",
+                    "years": "",
+                    "meanwords": "",
+                    "tagposts": ""
+                }
+            },
+            "achievements_page": {
+                "list_heading": "",
+                "create_achievement_button": "",
+                "instructions_header": "",
+                "instructions_text": "",
+                "add_delete_users": "",
+                "show": ""
+            },
+            "settings": {
+                "show-post-footer": "",
+                "show-user-card": "",
+                "link-left-column": ""
+            }
+        }
+    }
+}

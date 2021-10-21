@@ -1,0 +1,38 @@
+{
+    "fof-analytics": {
+        "admin": {
+            "popup": {
+                "section": {
+                    "googleAnalytics": "Аналитика Google",
+                    "piwik": "Matomo"
+                },
+                "field": {
+                    "statusGoogle": "Разрешить Аналитику Google",
+                    "optTrackingCode": "Оптимизировать код отслеживания (опционально)",
+                    "googleTrackingCode": "Идентификатор кода отслеживания",
+                    "googleGTMCode": "Идентификатор GTM кода (опционально)",
+                    "statusPiwik": "Разрешить Matomo",
+                    "piwikUrl": "Matomo домен или URL",
+                    "piwikSiteId": "ID сайта",
+                    "piwikTrackSubdomain": "Отслеживать посетителей по всем поддоменам Flarum",
+                    "piwikPrependDomain": "",
+                    "piwikHideAliasUrl": "",
+                    "piwikAliasUrl": "",
+                    "piwikTrackAccounts": "Отслеживать отдельные пользовательские аккаунты",
+                    "piwikAuthToken": "Ключ аутентификации"
+                },
+                "placeholder": {
+                    "piwikAuthToken": "Заполните этот ключ для включения виджета статистики Matomo в административной панели.\nВы можете найти его здесь: Настройки > Личные > Ключ API аутентификации.\n"
+                },
+                "trackAccounts": {
+                    "none": "Не отслеживать",
+                    "username": "Отслеживать по имени пользователя (логину)",
+                    "email": "Отслеживать по адресу эл.почты"
+                }
+            },
+            "matomo-widget": {
+                "title": "Matomo"
+            }
+        }
+    }
+}

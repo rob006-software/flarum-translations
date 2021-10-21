@@ -1,0 +1,55 @@
+{
+    "clarkwinkelmann-featured-discussions": {
+        "admin": {
+            "settings": {
+                "schedule": "Zamanla (CRON)",
+                "duration": "Varsayılan süre (saniye)",
+                "eventPost": "Zamanlama değiştirildiğinde etkinlik gönderisi oluştur"
+            },
+            "permissions": {
+                "feature": "Öne çıkan tartışmaları yönet"
+            }
+        },
+        "forum": {
+            "modal": {
+                "title": "Öne çıkan tartışma",
+                "fields": {
+                    "from": "İtibaren",
+                    "until": "Zamana Dek"
+                },
+                "from": {
+                    "not": "Öne çıkarılmamış",
+                    "next": "Sonraki alan",
+                    "manual": "Manuel tarih"
+                },
+                "until": {
+                    "auto": "Otomatik",
+                    "manual": "Manuel tarih"
+                },
+                "action": {
+                    "cancel": "İptal",
+                    "submit": "Gönder"
+                }
+            },
+            "controls": {
+                "feature": "Tartışmayı öne çıkart"
+            },
+            "badge": "Öne çıkarıldı",
+            "nav": {
+                "schedule": "Öne çıkarılma zamanlaması"
+            },
+            "schedule": {
+                "help": "Zamanlamayı değiştirmek için tartışmaları sayfada veya başka bir pencerede sürükleyip bırakın. Takvimi kaldırmak için 3 noktalı menüyü kullanın.\n",
+                "drop-here": "Zamanlamak için buraya sürükleyin",
+                "drop-error": "Geçerli olmayan tartışma bağlantısı",
+                "empty": "Tartışma yok",
+                "custom": "Özel"
+            },
+            "post": {
+                "scheduled": "{from} tarihinden {until} tarihine kadar öne çıkarılması planlandı",
+                "unscheduled": "Artık öne çıkması planlanmadı",
+                "auto": "(otomatik)"
+            }
+        }
+    }
+}
