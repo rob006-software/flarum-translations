@@ -465,7 +465,7 @@
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
                 "username_label": "=> core.ref.username",
-                "nothing_available": ""
+                "nothing_available": "Teillä ei ole oikeutta muokata tätä käyttäjää."
             },
             "error": {
                 "dependent_extensions_message": "{extension} lisäosaa ei voida ottaa pois käytöstä ennen kuin seuraavat lisäosat on poistettu käytöstä: {extensions}",
@@ -475,7 +475,7 @@
                 "payload_too_large_message": "Pyydetty kuorma (payload) oli liian iso.",
                 "permission_denied_message": "Sinulla ei ole oikeuksia tehdä sitä.",
                 "rate_limit_exceeded_message": "Toimit hieman liian nopeasti. Yritä uudelleen muutaman sekunnin kuluttua.",
-                "render_failed_message": ""
+                "render_failed_message": "Pahoittelut, koimme virheen kun näytimmä tätä sisältöä. Mikäli olette käyttäjä, yritä uudelleen. Mikäli oletta ylläpitäjä niin tutki Flarumin lokitiedostoja."
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
