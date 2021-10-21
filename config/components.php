@@ -562,7 +562,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/og-meta-tag/0.1.0/resources/locale/en.yml',
 	],
 	'justoverclock-purify' => [
-		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-purify/0.1.6/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-purify/0.1.7/resources/locale/en.yml',
 	],
 	'justoverclock-pwgen' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-pwgen/1.0.0/resources/locale/en.yml',
