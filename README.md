@@ -453,6 +453,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`flarumi-oauth-vkontakte`](https://weblate.rob006.net/projects/flarum/flarumi-oauth-vkontakte) | [`flarumi/oauth-vkontakte`](https://github.com/flarumi/oauth-vkontakte) |
 | [`flarumite-simple-discussion-views`](https://weblate.rob006.net/projects/flarum/flarumite-simple-discussion-views) | [`flarumite/simple-discussion-views`](https://github.com/flarumite/simple-discussion-views) |
 | [`flarumite-simple-spoilers`](https://weblate.rob006.net/projects/flarum/flarumite-simple-spoilers) | [`flarumite/simple-spoilers`](https://github.com/flarumite/simple-spoilers) |
+| [`ganuonglachanh-sonic`](https://weblate.rob006.net/projects/flarum/ganuonglachanh-sonic) | [`ganuonglachanh/sonic`](https://github.com/ganuonglachanh/flarum-sonic) |
 | [`glowingblue-password-strength`](https://weblate.rob006.net/projects/flarum/glowingblue-password-strength) | [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength) |
 | [`glowingblue-redis-setup`](https://weblate.rob006.net/projects/flarum/glowingblue-redis-setup) | [`glowingblue/redis-setup`](https://github.com/glowingblue/flarum-ext-redis-setup) |
 | [`hehongyuanlove-auth-qq`](https://weblate.rob006.net/projects/flarum/hehongyuanlove-auth-qq) | [`hehongyuanlove/flarum-auth-qq`](https://github.com/Hehongyuanlove/flarum-auth-qq) |
