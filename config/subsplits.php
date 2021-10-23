@@ -80,6 +80,13 @@ return [
 		'branch' => 'master',
 		'path' => '/locale',
 	],
+	'he' => [
+		'type' => 'language',
+		'language' => 'he',
+		'repository' => 'git@github.com:icecore2/Flarum-hebrew.git',
+		'branch' => 'master',
+		'path' => '/locale',
+	],
 	'hi' => [
 		'type' => 'language',
 		'language' => 'hi',

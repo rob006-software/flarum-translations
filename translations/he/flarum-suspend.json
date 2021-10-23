@@ -1,0 +1,26 @@
+{
+    "flarum-suspend": {
+        "admin": {
+            "permissions": {
+                "suspend_users_label": "השעית משתמשים"
+            }
+        },
+        "forum": {
+            "suspend_user": {
+                "indefinitely_label": "השעיה לצמיתות",
+                "limited_time_label": "השעיה לזמן מוגבל...",
+                "limited_time_days_text": "ימים",
+                "not_suspended_label": "לא מושעה",
+                "status_heading": "מצב השעיה",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "השעית {username}"
+            },
+            "user_badge": {
+                "suspended_tooltip": "מושעה"
+            },
+            "user_controls": {
+                "suspend_button": "השעיה"
+            }
+        }
+    }
+}

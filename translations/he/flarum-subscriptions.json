@@ -1,0 +1,41 @@
+{
+    "flarum-subscriptions": {
+        "forum": {
+            "badge": {
+                "following_tooltip": "=> flarum-subscriptions.ref.following",
+                "ignoring_tooltip": "=> flarum-subscriptions.ref.ignoring"
+            },
+            "discussion_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "unfollow_button": "בטל מעקב",
+                "unignore_button": "בטל התעלמות"
+            },
+            "index": {
+                "following_link": "=> flarum-subscriptions.ref.following"
+            },
+            "notifications": {
+                "new_post_text": "{username} פרסם"
+            },
+            "settings": {
+                "follow_after_reply_label": "מעקב אוטומטי אחרי דיונים שהגבתי להם",
+                "notify_new_post_label": "מישהו פרסם בדיון שאני עוקב אחריו"
+            },
+            "sub_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "following_button": "=> flarum-subscriptions.ref.following",
+                "following_text": "קבל התראות לכל התגובות.",
+                "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
+                "ignoring_text": "אל תקבל התראות לעולם. הסתר מרשימת הדיונים.",
+                "not_following_button": "לא עוקב",
+                "not_following_text": "קבל התראות אך ורק כשאני @מוזכר",
+                "notify_alert_tooltip": "קבלת התראות פורום כשיש פוסטים חדשים",
+                "notify_email_tooltip": "קבל מייל כשיש פוסטים חדשים"
+            }
+        },
+        "ref": {
+            "follow": "עקוב",
+            "following": "עוקב",
+            "ignoring": "מתעלם"
+        }
+    }
+}

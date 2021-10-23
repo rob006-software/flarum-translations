@@ -1,0 +1,47 @@
+{
+    "flarum-flags": {
+        "admin": {
+            "permissions": {
+                "flag_posts_label": "פוסטים מדווחים",
+                "view_flags_label": "צפה בפוסטים מדווחים"
+            },
+            "settings": {
+                "guidelines_url_label": "כתובת חוקי הקהילה",
+                "title": "הגדרות דיווח"
+            }
+        },
+        "forum": {
+            "flag_post": {
+                "confirmation_message": "תודה שדיווחת על הפוסט. המנהלים שלנו יבדקו אותו.",
+                "dismiss_button": "=> core.ref.okay",
+                "reason_inappropriate_label": "לא הולם",
+                "reason_inappropriate_text": "פוסט זה פוגעני, מעליב, או עובר על <a>חוקי הקהילה</a>.",
+                "reason_off_topic_label": "לא קשור לנושא",
+                "reason_off_topic_text": "פוסט זה אינו תואם את הדיון ומיועד למקום אחר",
+                "reason_other_label": "אחר",
+                "reason_spam_label": "זבל",
+                "reason_spam_text": "פוסט זה הוא פרסומת",
+                "submit_button": "=> flarum-flags.ref.flag_post",
+                "title": "=> flarum-flags.ref.flag_post"
+            },
+            "flagged_posts": {
+                "empty_text": "אין דיווחים",
+                "item_text": "{username} בתוך<em>{discussion}</em>",
+                "title": "=> flarum-flags.ref.flagged_posts",
+                "tooltip": "=> flarum-flags.ref.flagged_posts"
+            },
+            "post": {
+                "dismiss_flag_button": "ביטול דיווח",
+                "flagged_by_text": "דווח על ידי {username}",
+                "flagged_by_with_reason_text": "דווח על ידי {username} בתור {reason}"
+            },
+            "post_controls": {
+                "flag_button": "דיווח"
+            }
+        },
+        "ref": {
+            "flag_post": "דיווח",
+            "flagged_posts": "פוסטים מדווחים"
+        }
+    }
+}
