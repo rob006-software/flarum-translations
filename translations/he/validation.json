@@ -19,6 +19,7 @@
         "boolean": "שדה התכונה :attribute חייב להיות אמת או שקר.",
         "confirmed": "התכונה :attribute confirmation does not match.",
         "date": "התכונה :attribute is not a valid date.",
+        "date_equals": "",
         "date_format": "התכונה :attribute does not match the format :other.",
         "different": "התכונות :attribute ו- :other חייבות להיות שונות.",
         "digits": "התכונה :attribute חייבת להכיל :digits ספרות.",
@@ -26,9 +27,24 @@
         "dimensions": "התכונה :attribute has invalid image dimensions.",
         "distinct": "התכונה :attribute field has a duplicate value.",
         "email": "התכונה :attribute חייבת להיות עם מייל אמיתי.",
+        "ends_with": "",
         "exists": "The selected :attribute is invalid.",
         "file": "התכונה :attribute חייבת להיות קובץ.",
+        "file_too_large": "",
+        "file_upload_failed": "",
         "filled": "התכונה :attribute field must have a value.",
+        "gt": {
+            "numeric": "",
+            "file": "",
+            "string": "",
+            "array": ""
+        },
+        "gte": {
+            "numeric": "",
+            "file": "",
+            "string": "",
+            "array": ""
+        },
         "image": "התכונה :attribute חייבת להיות תמונה.",
         "in": "The selected :attribute is invalid.",
         "in_array": "התכונה :attribute field does not exist in :other.",
@@ -37,6 +53,18 @@
         "ipv4": "התכונה :attribute חייבת להכיל כתובת IPv4 תקינה.",
         "ipv6": "התכונה :attribute חייבת להכיל כתובת IPv6 תקינה.",
         "json": "התכונה :attribute חייבת להכיל כתובת JSON תקין.",
+        "lt": {
+            "numeric": "",
+            "file": "",
+            "string": "",
+            "array": ""
+        },
+        "lte": {
+            "numeric": "",
+            "file": "",
+            "string": "",
+            "array": ""
+        },
         "max": {
             "numeric": "התכונה :attribute לא יכולה להיות גדולה מ :max.",
             "file": "התכונה :attribute לא יכולה להיות גדולה מ :max קילובייט.",
@@ -51,8 +79,11 @@
             "string": "התכונה :attribute חייבת להיות לפחות :min תווים.",
             "array": "התכונה :attribute חייבת להכיל לפחות :min פריטים."
         },
+        "multiple_of": "",
         "not_in": "התכונה הבנחרת :attribute שגויה.",
+        "not_regex": "",
         "numeric": "התכונה :attribute חייבת להיות מספר.",
+        "password": "",
         "present": "התכונה :attribute חייבת להופיע בשדה.",
         "regex": "התכונה :attribute בפורנט אינו תקין.",
         "required": "התכונה :attribute היא שדה חובה.",
@@ -62,6 +93,9 @@
         "required_with_all": "The :attribute field is required when :values is present.",
         "required_without": "The :attribute field is required when :values is not present.",
         "required_without_all": "The :attribute field is required when none of :values are present.",
+        "prohibited": "",
+        "prohibited_if": "",
+        "prohibited_unless": "",
         "same": "The :attribute and :other must match.",
         "size": {
             "numeric": "התכונה :attribute חייבת להיות בגודל :size.",
@@ -69,11 +103,13 @@
             "string": "התכונה :attribute חייבת להכיל :size תווים.",
             "array": "התכונה :attribute חייבת להיות בגודל :size הפריטים."
         },
+        "starts_with": "",
         "string": "התכונה :attribute חייבת להיות אותיות.",
         "timezone": "התכונה :attribute חייבת להיות בריזור תקין.",
         "unique": "התכונה :attribute כבר תפוסה.",
         "uploaded": "התכונה :attribute לא עלתה לאתר.",
         "url": "התכונה :attribute בפורמט לא תקין.",
+        "uuid": "",
         "attributes": {
             "username": "שם משתמש",
             "password": "סיסמה",

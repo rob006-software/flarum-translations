@@ -6,10 +6,14 @@
             }
         },
         "forum": {
+            "notifications": {
+                "user_suspended_text": "",
+                "user_unsuspended_text": ""
+            },
             "suspend_user": {
                 "indefinitely_label": "השעיה לצמיתות",
-                "limited_time_label": "השעיה לזמן מוגבל...",
                 "limited_time_days_text": "ימים",
+                "limited_time_label": "השעיה לזמן מוגבל...",
                 "not_suspended_label": "לא מושעה",
                 "status_heading": "מצב השעיה",
                 "submit_button": "=> core.ref.save_changes",
