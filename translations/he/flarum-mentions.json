@@ -1,0 +1,29 @@
+{
+    "flarum-mentions": {
+        "forum": {
+            "composer": {
+                "reply_to_post_text": "תגובה ל #{number}"
+            },
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_mentioned_text": "{username} הגיב לפוסט שלך",
+                "user_mentioned_text": "{username} הזכיר אותך"
+            },
+            "post": {
+                "mentioned_by_self_text": "{users} הגיבו לזה.",
+                "mentioned_by_text": "{users} הגיבו לזה.",
+                "others_text": "=> core.ref.some_others",
+                "quote_button": "ציטוט",
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
+            },
+            "settings": {
+                "notify_post_mentioned_label": "מישהו הגיב לאחד הפוסטים שלי",
+                "notify_user_mentioned_label": "מישהו הזכיר אותי בפוסט"
+            },
+            "user": {
+                "mentions_link": "אזכורים"
+            }
+        }
+    }
+}
