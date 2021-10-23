@@ -47,6 +47,7 @@ return [
 		'!tituspijean-auth-ldap',
 		// '!v17development-seo', https://github.com/v17development/flarum-seo/issues/61#issuecomment-855474306
 	]),
+	'he' => getComponents(),
 	'hi' => getComponents(),
 	'hu' => getComponents(),
 	'it' => getComponents([
