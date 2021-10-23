@@ -1,0 +1,25 @@
+{
+    "flarum-sticky": {
+        "admin": {
+            "permissions": {
+                "sticky_discussions_label": "דיונים נעוצים"
+            }
+        },
+        "forum": {
+            "badge": {
+                "sticky_tooltip": "=> flarum-sticky.ref.sticky"
+            },
+            "discussion_controls": {
+                "sticky_button": "=> flarum-sticky.ref.sticky",
+                "unsticky_button": "ביטול נעיצה"
+            },
+            "post_stream": {
+                "discussion_stickied_text": "{username} הנושא ננעץ על ידי.",
+                "discussion_unstickied_text": "{username} הנושא הורד מנעיצה על ידי."
+            }
+        },
+        "ref": {
+            "sticky": "נעוץ"
+        }
+    }
+}
