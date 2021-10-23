@@ -1,0 +1,25 @@
+{
+    "flarum-approval": {
+        "admin": {
+            "permissions": {
+                "approve_posts_label": "אישור פוסטים",
+                "reply_without_approval_label": "פוסטים בדיונים הממתינים לאישור",
+                "start_discussions_without_approval_label": "יצירת דיונים ללא צורך באישור"
+            }
+        },
+        "forum": {
+            "badge": {
+                "awaiting_approval_tooltip": "=> flarum-approval.ref.awaiting_approval"
+            },
+            "post": {
+                "awaiting_approval_text": "=> flarum-approval.ref.awaiting_approval"
+            },
+            "post_controls": {
+                "approve_button": "אישור"
+            }
+        },
+        "ref": {
+            "awaiting_approval": "ממתינים לאישור"
+        }
+    }
+}
