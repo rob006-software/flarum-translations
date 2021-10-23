@@ -1,12 +1,6 @@
 {
     "core": {
         "admin": {
-            "add_extension": {
-                "developer_text": "אם אתה מפתח, אתה יכול <a>לקרוא את המסמכים</a> ולבנות הרחבות משלך.",
-                "install_text": "בינתיים, ניתן לחפש הרחבות <a>באתר קהילת Flarum</a> ולהתקין אותן ידנית באמצעות Composer.",
-                "temporary_text": "יום אחד בעתיד-הלא-רחוק-כל-כך, תוכל להוסיף כאן הרחבות לפורום שלך בקלות. אנו עובדים על אפשרות זו ממש ברגע זה!",
-                "title": "הוסף הרחבה"
-            },
             "appearance": {
                 "colored_header_label": "חלק עליון צבעוני",
                 "colors_heading": "צבעים",
@@ -22,8 +16,7 @@
                 "favicon_heading": "Favicon",
                 "favicon_text": "העלה תמונה שתשמש כלוגו קיצור הדרך של הפורום.",
                 "logo_heading": "לוגו",
-                "logo_text": "העלה תמונה שתחליף את כותרת הפורום",
-                "submit_button": "=> core.ref.save_changes"
+                "logo_text": "העלה תמונה שתחליף את כותרת הפורום"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -33,21 +26,9 @@
                 "forum_title_heading": "כותרת פורום",
                 "home_page_heading": "דף בית",
                 "home_page_text": "בחר את העמוד אותו משתמשים יראו ראשונים כשהם נכנסים לפורום שלך. אם מוכנס ערך מותאם אישית, השתמש בנתיב יחסי לשורש הפרוום.",
-                "saved_message": "השינויים שלך נשמרו.",
                 "show_language_selector_label": "הצג את כפתור החלפת השפה",
-                "submit_button": "=> core.ref.save_changes",
                 "welcome_banner_heading": "קבלת הפנים",
                 "welcome_banner_text": "ערוך את הטקסט שמופיע בחלון קבלת הפנים בדף כל הדיונים. השתמש בו כדי לקבל את פניהם של האורחים לפורום שלך."
-            },
-            "dashboard": {
-                "beta_warning_text": "<strong>תוכנת הביטא</strong> הזו ניתנת בעיקר כדי שתוכל לעזור לנו לבחון אותה ולשפר אותה. התוכנה כרגע בגרסה נסיונית ולא מלאה.",
-                "contributing_text": "מעוניין לחפש תקלות ולתרום? קרא את <a>מסמכי התרומה</a>.",
-                "extension_text": "מעוניין בפיתוח הרחבות? קרא את <a>מסמכי ההרחבות</a>.",
-                "features_text": "יש לך רעיון לשיפור? ספר לנו על כך תחת <a>תגית התכונות</a>.",
-                "support_text": "מצאת תקלה? דווח לנו בפורום שלנו, תחת <a>תגית התמיכה</a>.",
-                "troubleshooting_text": "יש בעיות? עקוב אחר ההוראות ב<a>מסמכי פתרון הבעיות</a>.",
-                "version_text": "תודה על שימושך בFlarum. גירסתך היא {version}.",
-                "welcome_text": "ברוך הבא לגרסת הניסיון של Flarum!"
             },
             "edit_css": {
                 "customize_text": "התאם אישית את מראה הפורום על ידי הוספת קוד CSS/LESS שיוכל לשנות את <a>עיצוב ברירת המחדל</a>.",
@@ -72,24 +53,9 @@
                 "title": "ערוך חלק עליון"
             },
             "email": {
-                "account_heading": "חשבון SMTP",
                 "addresses_heading": "Addresses",
                 "driver_label": "Driver",
-                "encryption_label": "Encryption",
-                "from_label": "Sender",
-                "heading": "=> core.ref.email",
-                "host_label": "Host",
-                "password_label": "=> core.ref.password",
-                "port_label": "Port",
-                "server_heading": "שרת SMTP",
-                "submit_button": "=> core.ref.save_changes",
-                "text": "ערוך את הגדרות וכתובות הSMTP בהם הפורום ישתמש לשליחת מיילים.",
-                "username_label": "=> core.ref.username"
-            },
-            "extensions": {
-                "add_button": "הוספת הרחבה",
-                "settings_button": "=> core.ref.settings",
-                "uninstall_button": "הסר התקנה"
+                "from_label": "Sender"
             },
             "header": {
                 "log_out_button": "=> core.ref.log_out"
@@ -99,17 +65,10 @@
             },
             "nav": {
                 "appearance_button": "מראה",
-                "appearance_text": "ערוך את הצבעים, את הלוגואים ועוד משתנים בפורום.",
                 "basics_button": "מידע בסיסי",
-                "basics_text": "ערוך את הכותרת, את השפה ועוד מידע בסיסי.",
                 "dashboard_button": "לוח בקרה",
-                "dashboard_text": "הפורום שלך במבט מהיר.",
                 "email_button": "=> core.ref.email",
-                "email_text": "ערוך את הגדרות המייל בפורום.",
-                "extensions_button": "הרחבות",
-                "extensions_text": "הוסף תפקוד נוסף לפורום שלך והפוך אותו לייחודי.",
-                "permissions_button": "הרשאות",
-                "permissions_text": "הגדר מי יכול לעשות ולראות מה."
+                "permissions_button": "הרשאות"
             },
             "permissions": {
                 "allow_renaming_label": "עריכת שם",
@@ -118,7 +77,6 @@
                 "delete_discussions_forever_label": "מחיקת דיונים לתמיד",
                 "delete_discussions_label": "מחיקת דיונים",
                 "delete_posts_forever_label": "מחיקת פוסטים לתמיד",
-                "edit_and_delete_posts_label": "עריכת פוסטים ומחיקתם",
                 "global_heading": "גלובלי",
                 "moderate_heading": "ניהול",
                 "new_group_button": "קבוצה חדשה",
@@ -128,9 +86,7 @@
                 "reply_to_discussions_label": "פרסום תגובה בדיון",
                 "sign_up_label": "הרשמה",
                 "start_discussions_label": "יצירת דיונים",
-                "view_discussions_label": "צפייה בדיונים",
-                "view_post_ips_label": "צפייה בכתובות IP",
-                "view_user_list_label": "צפייה ברשימת משתמשים"
+                "view_post_ips_label": "צפייה בכתובות IP"
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "ללא הגבלת זמן",
@@ -206,19 +162,6 @@
                 "mark_as_read_tooltip": "סמן כנקרא",
                 "replied_text": "{username} הגיב {ago}",
                 "started_text": "{username} יצר {ago}"
-            },
-            "edit_user": {
-                "activate_button": "הפעל משתמש",
-                "email_heading": "=> core.ref.email",
-                "email_label": "=> core.ref.email",
-                "groups_heading": "קבוצות",
-                "password_heading": "=> core.ref.password",
-                "password_label": "=> core.ref.password",
-                "set_password_label": "הגדר סיסמא חדשה",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "ערוך משתמש",
-                "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -330,7 +273,6 @@
                 "avatar_remove_button": "מחיקה",
                 "avatar_upload_button": "העלאה",
                 "avatar_upload_tooltip": "העלאת תמונה חדשה",
-                "bio_placeholder": "כתוב משהו על עצמך",
                 "discussions_link": "=> core.ref.discussions",
                 "in_discussion_text": "ב{discussion}",
                 "joined_date_text": "הצטרף {ago}",
@@ -387,12 +329,6 @@
             "index": {
                 "all_discussions_heading": "=> core.ref.all_discussions",
                 "next_page_button": "=> core.ref.next_page"
-            },
-            "reset": {
-                "confirm_password_label": "=> core.ref.confirm_password",
-                "password_label": "=> core.ref.password",
-                "submit_button": "שחזור סיסמא",
-                "title": "=> core.ref.reset_your_password"
             }
         },
         "api": {
