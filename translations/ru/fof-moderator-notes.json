@@ -16,7 +16,7 @@
                 "dismiss_button": "Готово",
                 "input_heading": "Введите заметку для <strong>{username}</strong>, (поддерживается markdown)",
                 "noNotes": "Кажется, здесь нет заметок.",
-                "submit_button": "Сохранить",
+                "submit_button": "Сохранить заметку",
                 "delete": "Удалить",
                 "confirm": "Вы уверены, что хотите удалить заметку?"
             },
@@ -25,9 +25,9 @@
             }
         },
         "api": {
-            "auto_note": "_I switched to this user:_ {reason}",
-            "auto_note_actor": "_Switched to_ @{username}: {reason}",
-            "no_reason_provided": "No reason provided"
+            "auto_note": "_Я переключился на этого пользователя:_ {reason}",
+            "auto_note_actor": "_Переключился на_ @{username}: {reason}",
+            "no_reason_provided": "Причина не сообщена"
         }
     }
 }
