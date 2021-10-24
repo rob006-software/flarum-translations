@@ -465,7 +465,7 @@
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
                 "username_label": "=> core.ref.username",
-                "nothing_available": ""
+                "nothing_available": "Non sei autorizzato a modificare questo utente."
             },
             "error": {
                 "dependent_extensions_message": "Non puoi disattivare l'estensione {extension} finché non disattiverai le seguenti estensioni: {extensions}",
@@ -475,7 +475,7 @@
                 "payload_too_large_message": "Il payload richiesto era troppo grande.",
                 "permission_denied_message": "Non hai il permesso di farlo.",
                 "rate_limit_exceeded_message": "Stai scrivendo un po' troppo in fretta. Riprova tra qualche secondo.",
-                "render_failed_message": ""
+                "render_failed_message": "Spiacenti, si è verificato un errore durante la visualizzazione di questo contenuto. Se sei un utente, riprova più tardi. Se sei un amministratore, dai un'occhiata ai file di registro di Flarum per ulteriori informazioni."
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
