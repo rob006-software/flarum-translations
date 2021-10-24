@@ -19,13 +19,13 @@
             },
             "viewlist": {
                 "title": "Ultime visite",
-                "guest": ""
+                "guest": "Ospite"
             },
             "post": {
-                "viewed_by": "",
-                "you": "",
-                "others_link": "",
-                "modal_title_text": ""
+                "viewed_by": "{users} hanno visto.",
+                "you": "=> core.ref.you",
+                "others_link": "=> core.ref.some_others",
+                "modal_title_text": "Utenti che hanno visto la discussione"
             }
         },
         "admin": {
