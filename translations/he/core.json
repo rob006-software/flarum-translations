@@ -6,16 +6,16 @@
                 "colors_heading": "צבעים",
                 "colors_text": "בחר שני צבעים שאיתם יצבע הפורום שלך. הראשון ישמש כצבע הדגשה, בעוד שהשני ישמש לצבוע אלמנטים ברקע.",
                 "custom_footer_heading": "תחתית מתואמת אישית",
-                "custom_footer_text": "",
+                "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "חלק עליון מותאם אישית",
-                "custom_header_text": "",
+                "custom_header_text": "=> core.ref.custom_header_text",
                 "custom_styles_heading": "סגנונות מותאמים אישית",
                 "custom_styles_text": "התאם אישית את מראה הפורום על ידי הוספת קוד CSS/LESS שיוכל לשנות את עיצוב ברירת המחדל.",
                 "dark_mode_label": "מצב חשוך",
                 "description": "התאמה אישית של צבעי הפורום, לוגואים ושאר המשתנים.",
                 "edit_css_button": "עריכת CSS",
-                "edit_footer_button": "",
-                "edit_header_button": "",
+                "edit_footer_button": "=> core.ref.custom_footer_title",
+                "edit_header_button": "=> core.ref.custom_header_title",
                 "enter_hex_message": "הכנס בבקשה צבע הקסדצימלי.",
                 "favicon_heading": "Favicon",
                 "favicon_text": "העלה תמונה שתשמש כלוגו קיצור הדרך של הפורום.",
@@ -24,7 +24,7 @@
                 "title": "תצורה"
             },
             "basics": {
-                "all_discussions_label": "",
+                "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "שפת ברירת מחדל",
                 "description": "קביעת כותרת לפורום, שפות ושאר ההגדרות הבסיסיות.",
                 "display_name_heading": "שם תצוגה של משתמש",
@@ -49,13 +49,13 @@
             },
             "edit_css": {
                 "customize_text": "התאם אישית את מראה הפורום על ידי הוספת קוד CSS/LESS שיוכל לשנות את <a>עיצוב ברירת המחדל</a>.",
-                "submit_button": "",
+                "submit_button": "=> core.ref.save_changes",
                 "title": "עריכת CSS"
             },
             "edit_footer": {
-                "customize_text": "",
-                "submit_button": "",
-                "title": ""
+                "customize_text": "=> core.ref.custom_footer_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_footer_title"
             },
             "edit_group": {
                 "color_label": "צבע",
@@ -63,16 +63,16 @@
                 "delete_confirmation": "אתה בטוח שברצונך למחוק את הקבוצה? המשתמשים שבקבוצה לא יימחקו.",
                 "hide_label": "הסתרה בפורום",
                 "icon_label": "אייקון",
-                "icon_text": "",
+                "icon_text": "=> core.ref.icon_text",
                 "name_label": "שם",
                 "plural_placeholder": "רבים (לדוגמא: מנהלים)",
                 "singular_placeholder": "יחיד (לדוגמא: מנהל)",
-                "submit_button": "",
+                "submit_button": "=> core.ref.save_changes",
                 "title": "יצירת קבוצה"
             },
             "edit_header": {
-                "customize_text": "",
-                "submit_button": "",
+                "customize_text": "=> core.ref.custom_header_text",
+                "submit_button": "=> core.ref.save_changes",
                 "title": "ערוך חלק עליון"
             },
             "email": {
@@ -86,9 +86,9 @@
                 "mail_mailgun_domain_label": "דומיין",
                 "mail_mailgun_region_label": "איזור",
                 "mail_mailgun_secret_label": "מפתח סודי",
-                "mail_password_label": "",
+                "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "פורט",
-                "mail_username_label": "",
+                "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "הגדרות Mailgun",
                 "not_sending_message": "Flarum לא שולח מיילים. ייתכן שהסיבה לכך היא driver שנבחר, או משגיאות בתצורתו.",
                 "send_test_mail_button": "שליחה",
@@ -96,7 +96,7 @@
                 "send_test_mail_success": "מייל בדיקה נשלח בהצלחה!",
                 "send_test_mail_text": "זה ישלח מייל בשימוש ההגדרות למעלה, {email}.",
                 "smtp_heading": "הגדרות SMTP",
-                "title": ""
+                "title": "=> core.ref.email"
             },
             "extension": {
                 "configure_scopes": "קביעת תצורה של טווחים",
@@ -120,16 +120,16 @@
             },
             "header": {
                 "get_help": "השגת עזרה",
-                "log_out_button": ""
+                "log_out_button": "=> core.ref.log_out"
             },
             "loading": {
                 "title": "אנא המתן..."
             },
             "nav": {
-                "appearance_button": "",
-                "appearance_title": "",
-                "basics_button": "",
-                "basics_title": "",
+                "appearance_button": "=> core.admin.appearance.title",
+                "appearance_title": "=> core.admin.appearance.description",
+                "basics_button": "=> core.admin.basics.title",
+                "basics_title": "=> core.admin.basics.description",
                 "categories": {
                     "authentication": "התחברות",
                     "core": "הגדרות ראשיות",
@@ -141,14 +141,14 @@
                     "other": "הרחבות נוספות",
                     "theme": "עיצובים"
                 },
-                "dashboard_button": "",
-                "dashboard_title": "",
-                "email_button": "",
-                "email_title": "",
-                "permissions_button": "",
-                "permissions_title": "",
-                "userlist_button": "",
-                "userlist_title": "",
+                "dashboard_button": "=> core.admin.dashboard.title",
+                "dashboard_title": "=> core.admin.dashboard.description",
+                "email_button": "=> core.ref.email",
+                "email_title": "=> core.admin.email.description",
+                "permissions_button": "=> core.admin.permissions.title",
+                "permissions_title": "=> core.admin.permissions.description",
+                "userlist_button": "=> core.admin.users.title",
+                "userlist_title": "=> core.admin.users.description",
                 "search_placeholder": "חיפוש הרחבות"
             },
             "permissions": {
@@ -187,16 +187,16 @@
                 "allow_ten_minutes_button": "ל-10 דקות",
                 "allow_until_reply_button": "עד לתגובה הבאה",
                 "everyone_button": "כולם",
-                "members_button": "",
+                "members_button": "=> core.group.members",
                 "signup_closed_button": "סגור",
                 "signup_open_button": "פתוח"
             },
             "settings": {
                 "saved_message": "השינויים שלך נשמרו.",
-                "submit_button": ""
+                "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
-                "remove_button": "",
+                "remove_button": "=> core.ref.remove",
                 "upload_button": "בחר תמונה..."
             },
             "users": {
@@ -204,12 +204,12 @@
                 "grid": {
                     "columns": {
                         "edit_user": {
-                            "button": "",
-                            "title": "",
+                            "button": "=> core.ref.edit",
+                            "title": "=> core.ref.edit_user",
                             "tooltip": "עריכת משתמש {username}"
                         },
                         "email": {
-                            "title": "",
+                            "title": "=> core.ref.email",
                             "visibility_hide": "הסתרת כתובת מייל",
                             "visibility_show": "הצגת כתובת מייל"
                         },
@@ -225,7 +225,7 @@
                         },
                         "username": {
                             "profile_link_tooltip": "ביקור בפרופיל של {username}",
-                            "title": ""
+                            "title": "=> core.ref.username"
                         }
                     },
                     "invalid_column_content": "לא תקין"
@@ -241,57 +241,57 @@
         },
         "forum": {
             "change_email": {
-                "confirm_password_placeholder": "",
-                "confirmation_message": "",
-                "dismiss_button": "",
+                "confirm_password_placeholder": "=> core.ref.confirm_password",
+                "confirmation_message": "=> core.ref.confirmation_email_sent",
+                "dismiss_button": "=> core.ref.okay",
                 "incorrect_password_message": "הסיסמא שהכנסת אינה נכונה.",
-                "submit_button": "",
-                "title": ""
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.change_email"
             },
             "change_password": {
                 "send_button": "שלח מייל לשחזור סיסמא",
                 "text": "לחץ על הכפתור הבא והמתן עבור הקישור לשינוי הסיסמא במייל שלך.",
-                "title": ""
+                "title": "=> core.ref.change_password"
             },
             "composer": {
                 "close_tooltip": "סגור",
                 "exit_full_screen_tooltip": "צא ממסך מלא",
                 "full_screen_tooltip": "מסך מלא",
                 "minimize_tooltip": "מזער",
-                "preview_tooltip": ""
+                "preview_tooltip": "Preview"
             },
             "composer_discussion": {
                 "body_placeholder": "כתוב פוסט...",
                 "discard_confirmation": "לא פרסמת את הדיון שלך. בטוח שברצונך לוותר עליו?",
                 "submit_button": "פרסם דיון",
-                "title": "",
+                "title": "=> core.ref.start_a_discussion",
                 "title_placeholder": "כותרת דיון"
             },
             "composer_edit": {
                 "discard_confirmation": "לא שמרת את השינויים. האם ברצונך לוותר עליהם?",
-                "edited_message": "",
+                "edited_message": "Your edit was made.",
                 "post_link": "פוסט #{number} ב-{discussion}",
-                "submit_button": "",
-                "view_button": ""
+                "submit_button": "=> core.ref.save_changes",
+                "view_button": "=> core.ref.view"
             },
             "composer_reply": {
-                "body_placeholder": "",
+                "body_placeholder": "=> core.ref.write_a_reply",
                 "discard_confirmation": "לא פרסמת את תגובתך. האם ברצונך לוותר עליה?",
                 "posted_message": "תגובתך פורסמה.",
                 "submit_button": "פרסום תגובה",
-                "view_button": ""
+                "view_button": "=> core.ref.view"
             },
             "discussion_controls": {
                 "cannot_reply_button": "לא ניתן להגיב",
                 "cannot_reply_text": "אין לך גישה להגיב בדיון זה.",
-                "delete_button": "",
+                "delete_button": "=> core.ref.delete",
                 "delete_confirmation": "האם אתה בטוח שברצונך להסיר דיון זה?",
-                "delete_forever_button": "",
+                "delete_forever_button": "=> core.ref.delete_forever",
                 "log_in_to_reply_button": "התחבר כדי להגיב",
-                "rename_button": "",
-                "reply_button": "",
-                "restore_button": "",
-                "toggle_dropdown_accessible_label": ""
+                "rename_button": "=> core.ref.rename",
+                "reply_button": "=> core.ref.reply",
+                "restore_button": "=> core.ref.restore",
+                "toggle_dropdown_accessible_label": "Toggle discussion actions dropdown menu"
             },
             "discussion_list": {
                 "empty_text": "נראה שאין פה דיונים.",
@@ -312,14 +312,14 @@
             "header": {
                 "admin_button": "ניהול",
                 "back_to_index_tooltip": "חזור לרשימת הדיונים",
-                "locale_dropdown_accessible_label": "",
+                "locale_dropdown_accessible_label": "שינוי שפת הפורום",
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "פרופיל",
-                "search_clear_button_accessible_label": "",
+                "search_clear_button_accessible_label": "איפוס שדה חיפוש",
                 "search_placeholder": "חיפוש",
-                "search_role_label": "",
-                "session_dropdown_accessible_label": "",
+                "search_role_label": "חיפוש בפורום",
+                "session_dropdown_accessible_label": "פתיחת תפריט אפשרויות",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
             },
@@ -328,17 +328,17 @@
                 "cannot_start_discussion_button": "לא ניתן ליצור דיון",
                 "mark_all_as_read_confirmation": "בטוח שברצונך לסמן את כל הדיונים כנקראו?",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
-                "meta_title_text": "",
-                "refresh_tooltip": "ריענון",
+                "meta_title_text": "=> core.ref.all_discussions",
+                "refresh_tooltip": "ר‌ענון",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
-                "toggle_sidenav_dropdown_accessible_label": ""
+                "toggle_sidenav_dropdown_accessible_label": "פתיחת תפריט ניווט"
             },
             "index_sort": {
                 "latest_button": "אחרונים",
                 "newest_button": "חדשים ביותר",
                 "oldest_button": "ישנים ביותר",
                 "relevance_button": "רלוונטיות",
-                "toggle_dropdown_accessible_label": "",
+                "toggle_dropdown_accessible_label": "שינוי מיון הדיונים",
                 "top_button": "מובילים"
             },
             "log_in": {
@@ -355,30 +355,30 @@
                 "discussion_renamed_text": "{username} שינה את הכותרת",
                 "empty_text": "אין התראות",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
-                "mark_as_read_tooltip": "",
+                "mark_as_read_tooltip": "סימון כנקרא",
                 "title": "=> core.ref.notifications",
-                "toggle_dropdown_accessible_label": "",
+                "toggle_dropdown_accessible_label": "צפיה בהתראות",
                 "tooltip": "=> core.ref.notifications"
             },
             "post": {
                 "edited_text": "נערך",
                 "edited_tooltip": "{username} ערך {ago}",
-                "number_tooltip": "פוסט #{number}"
+                "number_tooltip": "הודעה #{number}"
             },
             "post_controls": {
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "",
+                "delete_confirmation": "להסיר את ההודעה הזו לתמיד? פעולה זו לא ניתנת לשחזור.",
                 "delete_forever_button": "=> core.ref.delete_forever",
                 "edit_button": "=> core.ref.edit",
-                "hide_confirmation": "",
+                "hide_confirmation": "האם ברצונך להסיר את ההודעה הזו?",
                 "restore_button": "=> core.ref.restore",
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "פתיחת אפשרויות פעולות הודעה"
             },
             "post_scrubber": {
                 "now_link": "עכשיו",
-                "original_post_link": "פוסט מקורי",
+                "original_post_link": "הודעה מקורית",
                 "unread_text": "{count} לא נקראו",
-                "viewing_text": "פוסט {index} מתוך {count}|פוסט {index} מתוך {count}"
+                "viewing_text": "{count, plural, one {{index} מתוך {formattedCount} הודעה} other {{index} מתוך {formattedCount} הודעות}}"
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "הכותרת הקודמת הייתה \"{old}\"",
@@ -394,7 +394,7 @@
             "search": {
                 "all_discussions_button": "חפש את \"{query}\" בכל הדיונים",
                 "discussions_heading": "=> core.ref.discussions",
-                "users_heading": "משתמשים"
+                "users_heading": "=> core.ref.users"
             },
             "settings": {
                 "account_heading": "חשבון",
@@ -402,7 +402,7 @@
                 "change_password_button": "=> core.ref.change_password",
                 "notifications_heading": "=> core.ref.notifications",
                 "notify_by_email_heading": "=> core.ref.email",
-                "notify_by_web_heading": "דפדפן",
+                "notify_by_web_heading": "אתר",
                 "notify_discussion_renamed_label": "מישהו שינה כותרת של דיון שיצרתי",
                 "privacy_disclose_online_label": "אפשר למשתמשים לראות מתי אני מחובר/ת",
                 "privacy_heading": "פרטיות",
@@ -419,15 +419,15 @@
                 "welcome_text": "ברוך הבא, {username}!"
             },
             "user": {
-                "avatar_remove_button": "מחיקה",
+                "avatar_remove_button": "הסרה",
                 "avatar_upload_button": "העלאה",
                 "avatar_upload_tooltip": "העלאת תמונה חדשה",
                 "discussions_link": "=> core.ref.discussions",
                 "in_discussion_text": "ב{discussion}",
                 "joined_date_text": "הצטרף {ago}",
                 "online_text": "מחובר",
-                "posts_empty_text": "",
-                "posts_link": "פוסטים",
+                "posts_empty_text": "נראה שאין פה הודעות.",
+                "posts_link": "הודעות",
                 "posts_load_more_button": "=> core.ref.load_more",
                 "settings_link": "=> core.ref.settings"
             },
@@ -435,10 +435,10 @@
                 "button": "שליטה",
                 "delete_button": "=> core.ref.delete",
                 "delete_confirmation": "האם אתה בטוח שברצונך למחוק את המשתמש? כל הפוסטים של המשתמש יימחקו.",
-                "delete_error_message": "",
-                "delete_success_message": "",
+                "delete_error_message": "הסרת המשתמש <i>{username} ({email})</i> נכשלה",
+                "delete_success_message": "המשתמש <i>{username} ({email})</i> הוסר",
                 "edit_button": "=> core.ref.edit",
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "פתיחת תפריט פעולות משתמש"
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
@@ -451,34 +451,34 @@
                 "hidden_tooltip": "מוסתר"
             },
             "dropdown": {
-                "toggle_dropdown_accessible_label": ""
+                "toggle_dropdown_accessible_label": "פתיחת תפריט"
             },
             "edit_user": {
-                "activate_button": "",
-                "email_heading": "",
-                "email_label": "",
-                "groups_heading": "",
-                "password_heading": "",
-                "password_label": "",
-                "set_password_label": "",
-                "submit_button": "",
-                "title": "",
-                "username_heading": "",
-                "username_label": "",
-                "nothing_available": ""
+                "activate_button": "משתמש פעיל",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "קבוצות",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "סיסמה חדשה",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.edit_user",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username",
+                "nothing_available": "אין באפשרותך לערוך משתמש זה."
             },
             "error": {
-                "dependent_extensions_message": "",
+                "dependent_extensions_message": "אין אפשרות לבטל את ההרחבה {extension} עד שלא יבוטלו ההרחבות הבאות: {extensions}",
                 "generic_message": "אופס! משהו השתמש. רענן את הדף ונסה שוב.",
-                "missing_dependencies_message": "",
+                "missing_dependencies_message": "אין אפשרות להפעיל את ההרחבה {extension} עד שלא יופעלו ההרחבות הבאות: {extensions}",
                 "not_found_message": "המקור המבוקש לא נמצא.",
-                "payload_too_large_message": "",
+                "payload_too_large_message": "הבקשה גדולה מדי לטעינה.",
                 "permission_denied_message": "אין לך גישה לעשות את זה.",
                 "rate_limit_exceeded_message": "פעולותיך מהירות מדי. נסה שוב עוד כמה שניות.",
-                "render_failed_message": ""
+                "render_failed_message": "מצטערים, נתקלנו בשגיאה בהצגת תוכן. אם אתה משתמש, נסה שוב מאוחר יותר. אם אתה מנהל מערכת, עיין בקבצי יומן הרישום של Flarum לקבלת מידע נוסף."
             },
             "loading_indicator": {
-                "accessible_label": ""
+                "accessible_label": "=> core.ref.loading"
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -490,29 +490,29 @@
                 "two_text": "{first} ו{second}"
             },
             "username": {
-                "deleted_text": "[נחמק]"
+                "deleted_text": "[הוסר]"
             }
         },
         "views": {
             "admin": {
                 "extensions": {
-                    "caption": "",
-                    "disable": "",
-                    "empty": "",
-                    "enable": "",
-                    "name": "",
-                    "package_name": "",
-                    "version": ""
+                    "caption": "=> core.ref.extensions",
+                    "disable": "ביטול",
+                    "empty": "אין הרחבות מותקנות",
+                    "enable": "הפעלה",
+                    "name": "שם ההרחבה",
+                    "package_name": "שם החבילה",
+                    "version": "גרסה"
                 },
                 "info": {
-                    "caption": ""
+                    "caption": "מידע אפליקציה"
                 },
-                "title": ""
+                "title": "ניהול"
             },
             "confirm_email": {
-                "submit_button": "",
-                "text": "",
-                "title": ""
+                "submit_button": "=> core.ref.confirm_email",
+                "text": "לחצו על הרפתוח מתחת כדי לאשר את מייל החשבון.",
+                "title": "=> core.ref.confirm_email"
             },
             "content": {
                 "javascript_disabled_message": "האתר נראה הכי טוב באמצעות דפדפן מודרני שמאפשר ג'אווהסקריפט.",
@@ -524,30 +524,30 @@
                 "previous_page_button": "דף קודם"
             },
             "error": {
-                "csrf_token_mismatch": "",
-                "csrf_token_mismatch_return_link": "",
-                "invalid_confirmation_token": "",
-                "not_authenticated": "",
-                "not_found": "",
-                "not_found_return_link": "",
-                "permission_denied": "",
-                "unknown": ""
+                "csrf_token_mismatch": "לא היית פעיל יותר מדי זמן.",
+                "csrf_token_mismatch_return_link": "חזרה, ונסו שנית",
+                "invalid_confirmation_token": "מייל אימות כבר שומש או שאינו תקין.",
+                "not_authenticated": "אין באפשרותך להגיע לעמוד הזה. נסו שנית לאחר ההתחברות.",
+                "not_found": "עמוד שביקשת אינו קיים.",
+                "not_found_return_link": "חזרה ל{forum}",
+                "permission_denied": "אין באפשרותך להגיע לעמוד הזה.",
+                "unknown": "התרחשה שגיאה בטעינת העמוד."
             },
             "index": {
                 "all_discussions_heading": "=> core.ref.all_discussions",
                 "next_page_button": "=> core.ref.next_page",
-                "previous_page_button": ""
+                "previous_page_button": "=> core.ref.previous_page"
             },
             "log_out": {
-                "log_out_button": "",
-                "log_out_confirmation": "",
-                "title": ""
+                "log_out_button": "=> core.ref.log_out",
+                "log_out_confirmation": "האם ברצונך להתנתק מ{forum}?",
+                "title": "=> core.ref.log_out"
             },
             "reset_password": {
-                "confirm_password_label": "",
-                "new_password_label": "",
-                "submit_button": "",
-                "title": ""
+                "confirm_password_label": "אימות סיסמה חדשה",
+                "new_password_label": "סיסמה חדשה",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.reset_your_password"
             }
         },
         "api": {
@@ -567,33 +567,33 @@
                 "body": "היי {username}!\nביקשת לשחזר את סיסמתך בפורום {forum}.\nאם ברצונך לאפס את הסיסמא, ניתן ללחוץ על הקישור הבא כדי לעשות זאת:\n{url}\n\nאם ברצונך להישאר עם הסיסמא הנוכחית, התעלם ממייל זה וכלום לא ישתנה.\n"
             },
             "send_test": {
-                "subject": "",
-                "body": ""
+                "subject": "בדיקת מייל Flarum",
+                "body": "היי {username}!\n\nזה הוא מייל בדיקה ונראה שהכל עובד כמו שצריך.\n\nאם שליחת ההודעה לא בוצעה על ידיך, התעלם ממייל זה.\n"
             }
         },
         "ref": {
-            "all_discussions": "כל הנושאים",
+            "all_discussions": "כל הדיונים",
             "change_email": "שינוי כתובת דואר אלקטרוני",
             "change_password": "שינוי סיסמא",
-            "color": "",
+            "color": "צבע",
             "confirm_password": "אישור סיסמא",
-            "confirm_email": "",
+            "confirm_email": "אימות מייל",
             "confirmation_email_sent": "שלחנו מייל אימות ל{email}. אם הוא לא מגיע בקרוב, בדוק בתיקיית הספאם שלך.",
-            "custom_footer_text": "",
-            "custom_footer_title": "",
-            "custom_header_text": "",
-            "custom_header_title": "",
-            "delete": "מחק",
-            "delete_forever": "מחק לתמיד",
+            "custom_footer_text": "הוספת HTML להצגה בתחתי העמוד.",
+            "custom_footer_title": "עריכת תחתית מתואמת אישית",
+            "custom_header_text": "הוספת HTML להצגה בחלק העליון ביותר של העמוד, מעל לוגו הפורום.",
+            "custom_header_title": "עריכת חלק עליון מתואם אישית",
+            "delete": "הסרה",
+            "delete_forever": "הסרה לצמיטוט",
             "discussions": "נושאים",
             "edit": "ערוך",
-            "edit_user": "",
+            "edit_user": "עריכת משתמש",
             "email": "דואר אלקטרוני",
-            "extensions": "",
-            "icon": "",
-            "icon_text": "",
+            "extensions": "הרחבות",
+            "icon": "אייקון",
+            "icon_text": "כתבו כל שם של אייקון <a>FontAwesome</a> , <em>כולל</em> ההקדמה <code>fas fa-</code> .",
             "load_more": "טען עוד",
-            "loading": "",
+            "loading": "טוען...",
             "log_in": "התחברות",
             "log_out": "התנתקות",
             "mark_all_as_read": "סמן הכל כנקרא",
@@ -601,9 +601,9 @@
             "notifications": "התראות",
             "okay": "אישור",
             "password": "סיסמא",
-            "posts": "",
-            "previous_page": "",
-            "remove": "",
+            "posts": "הודעות",
+            "previous_page": "עמוד קודם",
+            "remove": "הסרה",
             "rename": "שינוי שם",
             "reply": "תגובה",
             "reset_your_password": "איפוס את סיסמתך",
@@ -611,11 +611,11 @@
             "save_changes": "שמירת שינויים",
             "settings": "הגדרות",
             "sign_up": "הרשמה",
-            "some_others": "{count} נוסף|{count} נוספים",
+            "some_others": "{count, plural, one {# אחר} other {# אחרים}}",
             "start_a_discussion": "יצירת דיון",
             "username": "שם משתמש",
-            "users": "",
-            "view": "",
+            "users": "משתמשים",
+            "view": "צפיה",
             "write_a_reply": "כתוב תגובה...",
             "you": "את/ה"
         },
