@@ -2,77 +2,77 @@
     "fof-follow-tags": {
         "forum": {
             "settings": {
-                "notify_new_discussion_label": "",
-                "notify_new_post_label": "",
-                "notify_new_discussion_tag_label": ""
+                "notify_new_discussion_label": "Valaki beszélgetést indított a z általam követett címkével",
+                "notify_new_post_label": "Valaki válaszolt egy témában, amit követek",
+                "notify_new_discussion_tag_label": "Valaki megváltoztatta a címkét egy olyan címkével ellátott témában, amit követek"
             },
             "index": {
                 "follow_tag_button": "Követés",
                 "unfollow_tag_button": "Követés leállítása",
                 "following": {
-                    "following_none_label": "",
-                    "following_tags_label": ""
+                    "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                    "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
                 }
             },
             "badge": {
                 "following_tag_tooltip": "Követed",
-                "lurking_tag_tooltip": ""
+                "lurking_tag_tooltip": "Leselkedő"
             },
             "sub_controls": {
-                "follow_button": "",
-                "following_button": "",
-                "following_text": "",
-                "hiding_button": "",
-                "hiding_text": "",
-                "ignoring_button": "",
-                "ignoring_text": "",
-                "lurking_button": "",
-                "lurking_text": "",
+                "follow_button": "=> fof-follow-tags.ref.follow",
+                "following_button": "=> fof-follow-tags.ref.following",
+                "following_text": "Értesíts minden új beszélgetésről.",
+                "hiding_button": "=> fof-follow-tags.ref.hiding",
+                "hiding_text": "A beszélgetések elrejtése az Összes beszélgetés oldalról.",
+                "ignoring_button": "=> fof-follow-tags.ref.ignoring",
+                "ignoring_text": "Soha ne értesítsen.",
+                "lurking_button": "=> fof-follow-tags.ref.lurking",
+                "lurking_text": "Értesítsen minden témáról és beszélgetésről.",
                 "not_following_button": "Nem követed",
-                "not_following_text": "",
-                "notify_alert_tooltip": "",
-                "notify_email_tooltip": ""
+                "not_following_text": "Csak akkor értesítsen ha megemlíttettek.",
+                "notify_alert_tooltip": "Értesítést kaphatsz a fórumon, ha új hozzászólások vagy témák jelennek meg",
+                "notify_email_tooltip": "Kapjak e-mailt, ha új témák vagy hozzászólások vannak"
             },
             "notifications": {
-                "new_discussion_text": "",
-                "new_post_text": "",
-                "new_discussion_tag_text": ""
+                "new_discussion_text": "{username} indította",
+                "new_post_text": "{username} hozzászólt",
+                "new_discussion_tag_text": "{username} megváltoztatta a címkét"
             },
             "user": {
                 "settings": {
-                    "heading": "",
-                    "filter_label": ""
+                    "heading": "Címke követése",
+                    "filter_label": "Mit jelenítsen meg alapértelmezés szerint a követett oldalon"
                 }
             }
         },
         "admin": {
             "settings": {
-                "following_page_default_label": "",
-                "following_none_label": "",
-                "following_tags_label": ""
+                "following_page_default_label": "Alapértelmezett követett oldal szűrés",
+                "following_none_label": "=> fof-follow-tags.ref.filtering_options.none",
+                "following_tags_label": "=> fof-follow-tags.ref.filtering_options.tags"
             }
         },
         "email": {
             "subject": {
-                "newDiscussionInTag": "",
-                "newPostInTag": "",
-                "newDiscussionTag": ""
+                "newDiscussionInTag": "[Tag | New Discussion] {title}",
+                "newPostInTag": "[Tag | New Post] {title}",
+                "newDiscussionTag": "[Tag | Changed Tag] {title}"
             },
             "body": {
-                "newDiscussionInTag": "",
-                "newPostInTag": "",
+                "newDiscussionInTag": "Üdv {recipient_display_name},\n\n{actor_display_name} új témát nyitott az általad követett címkével: {discussion_title}\n\nHogy megnézd, kattints az alábbi linkre:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newPostInTag": "Üdv {recipient_display_name},\n\n{actor_display_name} hozzászólt egy témában, ami általad követett címkével rendelkezik: {discussion_title}\n\nHogy megnézd, kattints az alábbi linkre:\n{post_url}\n\n---\n\n{post_content}\n",
                 "newDiscussionTag": ""
             }
         },
         "ref": {
-            "follow": "",
-            "following": "",
-            "hiding": "",
-            "ignoring": "",
-            "lurking": "",
+            "follow": "Követem",
+            "following": "Követve",
+            "hiding": "Elrejtve",
+            "ignoring": "Figyelmen kívül",
+            "lurking": "Leselkedő",
             "filtering_options": {
-                "none": "",
-                "tags": ""
+                "none": "Követett témák",
+                "tags": "Követett címkék"
             }
         }
     }
