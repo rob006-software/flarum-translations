@@ -8,6 +8,10 @@
                 "users_heading": "Durchsuche alle Benutzer nach \"{query}\"",
                 "field": {
                     "placeholder": "Alle Nutzer durchsuchen"
+                },
+                "kinds": {
+                    "group": "",
+                    "text": ""
                 }
             },
             "page": {
@@ -25,7 +29,8 @@
             "settings": {
                 "link": "Link auf der Homepage hinzufügen, damit Benutzer das Verzeichnis sehen können",
                 "default-sort": "Standard-Sortierung",
-                "use-small-cards": "Verwende kleine Nutzer-Karten"
+                "use-small-cards": "Verwende kleine Nutzer-Karten",
+                "disable-global-search-source": ""
             }
         },
         "lib": {

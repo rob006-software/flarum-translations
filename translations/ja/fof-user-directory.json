@@ -8,6 +8,10 @@
                 "users_heading": "「{query}」を含むユーザーを探す",
                 "field": {
                     "placeholder": ""
+                },
+                "kinds": {
+                    "group": "",
+                    "text": ""
                 }
             },
             "page": {
@@ -25,7 +29,8 @@
             "settings": {
                 "link": "ユーザーが見えるユーザーリストのリンクをホームページに表示する",
                 "default-sort": "",
-                "use-small-cards": ""
+                "use-small-cards": "",
+                "disable-global-search-source": ""
             }
         },
         "lib": {
