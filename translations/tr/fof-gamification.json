@@ -35,13 +35,13 @@
         "admin": {
             "permissions": {
                 "vote_label": "Yukarı/Aşağı oylanan paylaşımlar",
-                "see_votes_label": "See post upvotes/downvotes",
+                "see_votes_label": "Gönderilen yukarı oyları/aşağı oyları görün",
                 "see_ranking_page": "Sıralama sayfasına bak"
             },
             "page": {
                 "rankings": {
                     "blocked": {
-                        "placeholder": "CDK2020, Ralkage, AngelAvila",
+                        "placeholder": "tolgaaaltas, mekici, DursunCan",
                         "title": "Yoksayılan kullanıcılar",
                         "help": "Bu kullanıcılar sıralama sayfasında görünmeyecek. Kullanıcı adları virgül ve sonrasında boşluk ile ayrılmalıdır."
                     },
@@ -61,7 +61,7 @@
                     "alternate_layout": "Olumlu/olumsuz oylar yapmak için alternatif düzen kullanın",
                     "title": "Oylar",
                     "vote_color": "Oylandığındaki renk",
-                    "icon_name": "Upvote/downvote icon",
+                    "icon_name": "Yukarı oy/aşağı oy simgesi",
                     "icon_help": "İstediğiniz -up ve -down arka eki olan FontAwesome simgesini ekleyin. Örn: arrow, thumbs, chevron"
                 },
                 "save_settings": "Ayarları Kaydet",
@@ -69,7 +69,7 @@
                     "button": "Beğenileri yukarı oya çevir",
                     "help": "flarum-ext-likes eklentisindeki beğenilerinizi yukarı oya çevirin, ve şuanki tüm konularınız için aktifliğini hesaplayın.",
                     "converting": "Beğenileriniz dönüştürülüyor. Sonucu görmek için sayfayı birkaç dakika sonra yenileyin. (Dönüşüm forum beğenilerinize bağlı olarak zaman alabilir)",
-                    "converted": "{number} beğeni başarıyla dönüştürüldü."
+                    "converted": "{number} beğeni başarıyla dönüştürüldü"
                 },
                 "ranks": {
                     "title": "Rütbeler",
