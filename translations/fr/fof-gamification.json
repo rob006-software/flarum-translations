@@ -2,7 +2,8 @@
     "core": {
         "forum": {
             "index_sort": {
-                "hot_button": "Tendances"
+                "hot_button": "Tendances",
+                "votes_button": ""
             }
         }
     },
@@ -51,6 +52,9 @@
                     "custom_image_2": "Image de la 2ème place",
                     "custom_image_3": "Image de la 3ème place"
                 },
+                "alt_votes": {
+                    "icon_name": ""
+                },
                 "votes": {
                     "points_title": "Espace réservé aux points",
                     "points_placeholder": "Points : ",
@@ -62,7 +66,8 @@
                     "title": "Votes",
                     "vote_color": "Couleur votée",
                     "icon_name": "Icône de vote positif/négatif",
-                    "icon_help": "Entrez n'importe quelle icône Font Awesome ayant le suffixe -up et -down. Exemples : flèche, pouce, chevron"
+                    "icon_help": "Entrez n'importe quelle icône Font Awesome ayant le suffixe -up et -down. Exemples : flèche, pouce, chevron",
+                    "upvotes_only": ""
                 },
                 "save_settings": "Enregistrer les paramètres",
                 "convert": {

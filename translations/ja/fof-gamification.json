@@ -2,7 +2,8 @@
     "core": {
         "forum": {
             "index_sort": {
-                "hot_button": "トレンド"
+                "hot_button": "トレンド",
+                "votes_button": ""
             }
         }
     },
@@ -51,6 +52,9 @@
                     "custom_image_2": "次点の写真",
                     "custom_image_3": "3位の写真"
                 },
+                "alt_votes": {
+                    "icon_name": ""
+                },
                 "votes": {
                     "points_title": "プレースホルダー",
                     "points_placeholder": "👍: ",
@@ -62,7 +66,8 @@
                     "title": "投票",
                     "vote_color": "投票された色",
                     "icon_name": "好き/嫌いの小さなアイコン",
-                    "icon_help": "Font Awesomeアイコンを入力してください。接尾辞は-upおよび-downです。 例：arrow, thumbs, chevron"
+                    "icon_help": "Font Awesomeアイコンを入力してください。接尾辞は-upおよび-downです。 例：arrow, thumbs, chevron",
+                    "upvotes_only": ""
                 },
                 "save_settings": "設定を保存する",
                 "convert": {

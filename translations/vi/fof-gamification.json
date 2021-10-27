@@ -2,7 +2,8 @@
     "core": {
         "forum": {
             "index_sort": {
-                "hot_button": "Thịnh hành"
+                "hot_button": "Thịnh hành",
+                "votes_button": ""
             }
         }
     },
@@ -51,6 +52,9 @@
                     "custom_image_2": "Hình ảnh vị trí thứ 2",
                     "custom_image_3": "Hình ảnh vị trí thứ 3"
                 },
+                "alt_votes": {
+                    "icon_name": ""
+                },
                 "votes": {
                     "points_title": "Tiêu đề điểm",
                     "points_placeholder": "Điểm: ",
@@ -62,7 +66,8 @@
                     "title": "Bình chọn",
                     "vote_color": "Màu bình chọn",
                     "icon_name": "Biểu tượng tán thành/phản đối",
-                    "icon_help": "Nhập bất kỳ biểu tượng Font-Awesome nào đi kèm với -up và -down. Ví dụ: mũi tên, ngón tay cái"
+                    "icon_help": "Nhập bất kỳ biểu tượng Font-Awesome nào đi kèm với -up và -down. Ví dụ: mũi tên, ngón tay cái",
+                    "upvotes_only": ""
                 },
                 "save_settings": "Lưu thiết lập",
                 "convert": {

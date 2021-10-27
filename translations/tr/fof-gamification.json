@@ -2,7 +2,8 @@
     "core": {
         "forum": {
             "index_sort": {
-                "hot_button": "Sıralama"
+                "hot_button": "Sıralama",
+                "votes_button": ""
             }
         }
     },
@@ -51,6 +52,9 @@
                     "custom_image_2": "2. sıra resmi",
                     "custom_image_3": "3. sıra resmi"
                 },
+                "alt_votes": {
+                    "icon_name": ""
+                },
                 "votes": {
                     "points_title": "Puanlar",
                     "points_placeholder": "Points: ",
@@ -62,7 +66,8 @@
                     "title": "Oylar",
                     "vote_color": "Oylandığındaki renk",
                     "icon_name": "Yukarı oy/aşağı oy simgesi",
-                    "icon_help": "İstediğiniz -up ve -down arka eki olan FontAwesome simgesini ekleyin. Örn: arrow, thumbs, chevron"
+                    "icon_help": "İstediğiniz -up ve -down arka eki olan FontAwesome simgesini ekleyin. Örn: arrow, thumbs, chevron",
+                    "upvotes_only": ""
                 },
                 "save_settings": "Ayarları Kaydet",
                 "convert": {

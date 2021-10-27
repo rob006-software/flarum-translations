@@ -2,7 +2,8 @@
     "core": {
         "forum": {
             "index_sort": {
-                "hot_button": "Tendenza"
+                "hot_button": "Tendenza",
+                "votes_button": ""
             }
         }
     },
@@ -51,6 +52,9 @@
                     "custom_image_2": "Immagine 2° posizione",
                     "custom_image_3": "Immagine 3° posizione"
                 },
+                "alt_votes": {
+                    "icon_name": ""
+                },
                 "votes": {
                     "points_title": "Punti (Segnaposto)",
                     "points_placeholder": "Punti: ",
@@ -62,7 +66,8 @@
                     "title": "Voti",
                     "vote_color": "Colore del voto",
                     "icon_name": "Icona voto positivo/negativo",
-                    "icon_help": "Inserisci una qualsiasi icona di FontAwesome che è seguita con il suffisso -up e -down. Esempio: arrow, thumbs, chevron"
+                    "icon_help": "Inserisci una qualsiasi icona di FontAwesome che è seguita con il suffisso -up e -down. Esempio: arrow, thumbs, chevron",
+                    "upvotes_only": ""
                 },
                 "save_settings": "Salva impostazioni",
                 "convert": {

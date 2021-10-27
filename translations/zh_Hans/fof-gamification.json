@@ -2,7 +2,8 @@
     "core": {
         "forum": {
             "index_sort": {
-                "hot_button": "最多被赞"
+                "hot_button": "最多被赞",
+                "votes_button": ""
             }
         }
     },
@@ -51,6 +52,9 @@
                     "custom_image_2": "亚军标志",
                     "custom_image_3": "季军标志"
                 },
+                "alt_votes": {
+                    "icon_name": ""
+                },
                 "votes": {
                     "points_title": "占位符",
                     "points_placeholder": "👍: ",
@@ -62,7 +66,8 @@
                     "title": "赞",
                     "vote_color": "点赞颜色",
                     "icon_name": "赞/踩图标",
-                    "icon_help": "输入任何 Font Awesome 图标，后缀为 -up 和 -down。 示例：arrow（箭头），thumbs（拇指），chevron（指向箭头）"
+                    "icon_help": "输入任何 Font Awesome 图标，后缀为 -up 和 -down。 示例：arrow（箭头），thumbs（拇指），chevron（指向箭头）",
+                    "upvotes_only": ""
                 },
                 "save_settings": "保存设置",
                 "convert": {

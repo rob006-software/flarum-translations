@@ -2,7 +2,8 @@
     "core": {
         "forum": {
             "index_sort": {
-                "hot_button": "Trends"
+                "hot_button": "Trends",
+                "votes_button": ""
             }
         }
     },
@@ -51,6 +52,9 @@
                     "custom_image_2": "Bild für Platz 2",
                     "custom_image_3": "Bild für Platz 3"
                 },
+                "alt_votes": {
+                    "icon_name": ""
+                },
                 "votes": {
                     "points_title": "Punkte Platzhalter",
                     "points_placeholder": "Punkte: ",
@@ -62,7 +66,8 @@
                     "title": "Stimmen",
                     "vote_color": "Abgestimmt Farbe",
                     "icon_name": "Upvote/Downvote Symbol",
-                    "icon_help": "Gebe ein beliebiges Font-Awesome-Icon mit den Endungen -up und -down ein. Beispiele: arrow, thumbs, chevron"
+                    "icon_help": "Gebe ein beliebiges Font-Awesome-Icon mit den Endungen -up und -down ein. Beispiele: arrow, thumbs, chevron",
+                    "upvotes_only": ""
                 },
                 "save_settings": "Einstellungen speichern",
                 "convert": {

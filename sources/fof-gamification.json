@@ -2,7 +2,8 @@
     "core": {
         "forum": {
             "index_sort": {
-                "hot_button": "Trending"
+                "hot_button": "Trending",
+                "votes_button": "Upvotes"
             }
         }
     },
@@ -51,6 +52,9 @@
                     "custom_image_2": "2nd place image",
                     "custom_image_3": "3rd place image"
                 },
+                "alt_votes": {
+                    "icon_name": "Alt layout icon name"
+                },
                 "votes": {
                     "points_title": "Points Placeholder",
                     "points_placeholder": "Points: ",
@@ -62,7 +66,8 @@
                     "title": "Votes",
                     "vote_color": "Voted color",
                     "icon_name": "Upvote/downvote icon",
-                    "icon_help": "Input any Font-Awesome icon that is suffixed with -up and -down. Examples: arrow, thumbs, chevron"
+                    "icon_help": "Input any Font-Awesome icon that is suffixed with -up and -down. Examples: arrow, thumbs, chevron",
+                    "upvotes_only": "Only allow upvoting"
                 },
                 "save_settings": "Save settings",
                 "convert": {
