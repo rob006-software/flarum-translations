@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "Configure Scopes",
-                "confirm_uninstall": "Uninstalling will remove all database entries and assets related to the extension. Are you sure you want to continue?",
+                "confirm_purge": "Purging will remove all database entries and assets related to the extension. It will not uninstall the extension; that must be done via Composer. Are you sure you want to continue?",
                 "disabled": "Disabled",
                 "enable_to_see": "Enable the extension to view and change settings.",
                 "enabled": "Enabled",
@@ -116,6 +116,8 @@
                 "no_settings": "This extension has no settings.",
                 "open_modal": "Open Settings",
                 "permissions_title": "Permissions",
+                "purge_button": "Purge",
+                "confirm_uninstall": "Uninstalling will remove all database entries and assets related to the extension. Are you sure you want to continue?",
                 "uninstall_button": "Uninstall"
             },
             "header": {
