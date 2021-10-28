@@ -300,8 +300,8 @@
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username}, {ago} yanıtladı",
                 "started_text": "{username} {ago} başlattı",
-                "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": "",
+                "total_replies_a11y_label": "{count, plural, one {# yanıt} other {# yanıt}}",
+                "unread_replies_a11y_label": "{count, plural, one {# okunmamış yanıt} other {# okunmamış yanıt}}. {count, plural, one {yanıtı} other {yanıtı}} okunmadı olarak işaretle.",
                 "mark_as_read_tooltip": "Okundu olarak işaretle"
             },
             "forgot_password": {
