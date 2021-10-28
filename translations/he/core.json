@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "קביעת תצורה של טווחים",
-                "confirm_purge": "",
+                "confirm_purge": "טיהור יסיר את כל ערכי מסד הנתונים והנכסים הקשורים להרחבה. זה לא יסיר את ההתקנה של התוסף; זה חייב להיעשות דרך Composer. האם ברצונך להמשיך?",
                 "disabled": "מבוטל",
                 "enable_to_see": "הפעלת ההרחבה לצפיה בשינויי ההגדרות.",
                 "enabled": "מופעל",
@@ -116,7 +116,7 @@
                 "no_settings": "אין הגדרות להרחבה זו.",
                 "open_modal": "פתיחת הגדרות",
                 "permissions_title": "הרשאות",
-                "purge_button": "",
+                "purge_button": "טיהור",
                 "confirm_uninstall": "בהסרת ההרחבה יוסרו את כל הערכים והנכסים של מסד הנתונים. האם ברצונך להמשיך?",
                 "uninstall_button": "הסרה"
             },
@@ -300,8 +300,8 @@
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} הגיב {ago}",
                 "started_text": "{username} יצר {ago}",
-                "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": "",
+                "total_replies_a11y_label": "{count, plural, one {תגובה #} other {# תגובות}}",
+                "unread_replies_a11y_label": "{count, plural, one {הודעה שלא נקראה #} other {# הודעות שלא נקראו}}. סימון {count, plural, one {reply} other {replies}} כנקרא.",
                 "mark_as_read_tooltip": "סמן כנקרא"
             },
             "forgot_password": {
