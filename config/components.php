@@ -588,6 +588,9 @@ return [
 	'justoverclock-username-blacklist' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/username-blacklist/0.1.0/resources/locale/en.yml',
 	],
+	'justoverclock-website-live-screenshot' => [
+		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/justoverclock-website-live-screenshot.yml',
+	],
 	'justoverclock-welcomebox' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-welcomebox/1.3.4/resources/locale/en.yml',
 	],
