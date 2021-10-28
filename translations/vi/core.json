@@ -305,8 +305,8 @@
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} đã trả lời {ago}",
                 "started_text": "{username} đã đăng bài {ago}",
-                "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": "",
+                "total_replies_a11y_label": "{count, plural, one {# câu trả lời} other {# câu trả lời}}",
+                "unread_replies_a11y_label": "{count, plural, one {# câu trả lời chưa đọc} other {# câu trả lời chưa đọc}}. Đánh dấu chưa đọc {count, plural, one {reply} other {replies}} thành đã đọc.",
                 "mark_as_read_tooltip": "Đánh dấu đã đọc"
             },
             "forgot_password": {
