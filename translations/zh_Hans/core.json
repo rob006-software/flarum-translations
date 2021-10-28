@@ -298,9 +298,11 @@
             "discussion_list": {
                 "empty_text": "这里空空如也...",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "标记为已读",
                 "replied_text": "{username} 回复于 {ago}",
-                "started_text": "{username} 发布于 {ago}"
+                "started_text": "{username} 发布于 {ago}",
+                "total_replies_a11y_label": "",
+                "unread_replies_a11y_label": "",
+                "mark_as_read_tooltip": "标记为已读"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
