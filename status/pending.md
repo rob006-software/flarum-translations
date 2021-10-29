@@ -34,6 +34,4 @@
 
 ## Dead branches
 
-| Extension | Pull request |
-| --- | --- |
-| `justoverclock-moneytizer-ads` | [![#736 (open)](https://img.shields.io/badge/PR-%23736-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/736) |
+There are no dead branches.
