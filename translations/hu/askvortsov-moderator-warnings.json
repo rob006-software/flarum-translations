@@ -2,19 +2,19 @@
     "askvortsov-moderator-warnings": {
         "admin": {
             "permissions": {
-                "manage_warnings": "",
-                "view_warnings": "",
-                "delete_warnings": ""
+                "manage_warnings": "Moderátori figyelmeztetések létrehozása és eltávolítása",
+                "view_warnings": "Moderátor figyelmeztetések megtekintése",
+                "delete_warnings": "A moderátori figyelmeztetések végleges törlése"
             }
         },
         "emails": {
             "post_warned": {
-                "subject": "",
-                "body": ""
+                "subject": "{warner_display_name} figyelmeztetett {# strike} other itt: {discussion_title}",
+                "body": "Üdv {warnee_display_name}!\n\n{warner_display_name} figyelmeztetett {# strike} itt: {discussion_title}\n\nAz alábbi okokból:\n\n---\n\n{public_comment}\n"
             },
             "user_warned": {
-                "subject": "",
-                "body": ""
+                "subject": "{warner_display_name} figyelmeztetett  {# strike}",
+                "body": "Üdv {warnee_display_name}!\n\n{warner_display_name} figyelmeztetett {# strikes}\n\nAz alábbi okokból:\n\n---\n\n{public_comment}\n"
             }
         },
         "forum": {
