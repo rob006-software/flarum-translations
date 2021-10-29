@@ -1,100 +1,100 @@
 {
     "v17development-flarum-badges": {
         "admin": {
-            "uncategorized": "",
-            "new_badge": "",
-            "create_category": "",
-            "update_badge": "",
-            "update_category": "",
-            "edit_category": "",
-            "nothing_here_yet": "",
+            "uncategorized": "Kategória nélkül",
+            "new_badge": "Új jelvény",
+            "create_category": "Kategória létrehozása",
+            "update_badge": "Jelvény frissítése",
+            "update_category": "Kategória frissítése",
+            "edit_category": "Kategória szerkesztése",
+            "nothing_here_yet": "Még nem hoztál létre kategóriát vagy jelvényt.",
             "permissions": {
-                "badge_detail_users": "",
-                "give_badge": "",
-                "take_badge": ""
+                "badge_detail_users": "Látszanak a felhasználók a jelvény részleteinek oldalán",
+                "give_badge": "Adj jelvényt a felhasználónak",
+                "take_badge": "Vegyél el jelvényt a felhasználótól"
             },
             "confirm_dialog": {
-                "title": "",
-                "no": "",
-                "yes": ""
+                "title": "Megerősítés",
+                "no": "Nem",
+                "yes": "Igen"
             },
             "confirm_messages": {
-                "delete_badge": "",
-                "delete_category": ""
+                "delete_badge": "Biztosan eltávolítod ezt a jelvényt? Az összes felhasználótól eltávolítódik, és visszafordíthatatlan.",
+                "delete_category": "Biztosan eltávolítod ezt a kategóriát? Ha vannak jelvények ebben a kategóriában, azokat „kategória nélküli”-nek jelöljük meg."
             },
             "badge": {
-                "name": "",
-                "icon": "",
-                "description": "",
-                "visible": "",
-                "visible_description": ""
+                "name": "Jelvény neve",
+                "icon": "Jelvény ikon",
+                "description": "Jelvény leírás",
+                "visible": "Látható",
+                "visible_description": "Engedélyezd ezt a jelvényt. Ha letiltod, a jelvény nem lesz látható."
             },
             "badge_category": {
-                "name": "",
-                "description": "",
-                "blockview": "",
-                "blockview_description": "",
-                "enabled": "",
-                "enabled_description": ""
+                "name": "Kategória neve",
+                "description": "Kategória leírása",
+                "blockview": "Blokknézet",
+                "blockview_description": "Kategória-jelvények megjelenítése blokknézetben a jelvény áttekintésében. Ha le van tiltva, az összes jelvény egy táblázatban jelenik meg.",
+                "enabled": "Bekapcsolva",
+                "enabled_description": "Engedélyezd ezt a kategóriát. Ha le van tiltva, az összes jelvény le lesz tiltva, és a kategória el lesz rejtve."
             },
             "auto_moderator": {
                 "not_installed": {
-                    "title": "",
+                    "title": "Automatikusan jutalmazza a felhasználókat jelvényekkel",
                     "content": "",
-                    "install": "",
-                    "dismiss": ""
+                    "install": "Telepítés",
+                    "dismiss": "Ne mutassa ismét"
                 },
                 "action_drivers": {
-                    "badge_id": "",
-                    "give_badge": "",
-                    "remove_badge": ""
+                    "badge_id": "Jelvény ID",
+                    "give_badge": "Jelvény adása",
+                    "remove_badge": "Jelvény eltávolítása"
                 },
                 "requirement_drivers": {
-                    "has_badge": ""
+                    "has_badge": "Jelvénye van"
                 },
                 "metric_drivers": {
-                    "badges_received": ""
+                    "badges_received": "Jelvények érkeztek"
                 },
                 "badge_selector": {
-                    "placeholder": "",
-                    "loading_badges": ""
+                    "placeholder": "Válassz egy jelvényt",
+                    "loading_badges": "Jelvények betöltése"
                 }
             }
         },
         "forum": {
-            "badge_information": "",
-            "all_badges": "",
-            "all_users": "",
-            "give_badge": "",
-            "update_badge": "",
-            "select_badge": "",
-            "user_has_badge": "",
-            "user_no_badges": "",
-            "no_received": "",
-            "uncategorized": "",
+            "badge_information": "Jelvény információk",
+            "all_badges": "Összes jelvény",
+            "all_users": "Összes felhasználó",
+            "give_badge": "Adj jelvényt",
+            "update_badge": "Jelvény frissítése",
+            "select_badge": "Jelvény kiválasztása",
+            "user_has_badge": "A felhasználónak már van ilyen jelvénye.",
+            "user_no_badges": "A felhasználónak még nincs jelvénye.",
+            "no_received": "Egyetlen felhasználó sem érdemelte ki ezt a jelvényt.",
+            "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
             "badge": {
-                "badge": "",
-                "badges": "",
-                "name": "",
-                "description": "",
-                "earning_reason": "",
-                "update_earning_reason": "",
-                "no_earning_reason": "",
-                "earned_on": "",
-                "category": "",
-                "received_on": "",
-                "badge_details": "",
-                "earned_count": "",
-                "earned_by_count": ""
+                "badge": "Jelvény",
+                "badges": "Jelvények",
+                "name": "Jelvény neve",
+                "description": "Jelvény leírása",
+                "earning_reason": "A jelvény megszerzésének oka",
+                "update_earning_reason": "Jelvény frissítés oka",
+                "no_earning_reason": "Nincs beállítva ok",
+                "earned_on": "A jelvény megszerzése",
+                "category": "Jelvény kategória",
+                "received_on": "Megszerezve {date}",
+                "badge_details": "Jelvény részletek",
+                "earned_count": "<b># user</b> megkapta ezt a jelvényt",
+                "earned_by_count": "Megszerezve <b># user</b> által"
             },
             "moderation": {
-                "remove_badge": "",
-                "remove_badge_confirm": "",
-                "give_badge": ""
+                "remove_badge": "Jelvény eltávolítása",
+                "remove_badge_confirm": "Tényleg eltávolítod a jelvényt?",
+                "give_badge": "Adj jelvényt"
             },
             "notification": {
-                "title": "",
-                "settings": ""
+                "title": "Új jelvényt kaptál",
+                "settings": "Jelvényt kaptam"
             }
         }
     }
