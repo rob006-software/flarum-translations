@@ -1,7 +1,7 @@
 {
     "v17development-flarum-badges": {
         "admin": {
-            "uncategorized": "Kategória nélkül",
+            "uncategorized": "Kategória nélküli",
             "new_badge": "Új jelvény",
             "create_category": "Kategória létrehozása",
             "update_badge": "Jelvény frissítése",
@@ -9,7 +9,7 @@
             "edit_category": "Kategória szerkesztése",
             "nothing_here_yet": "Még nem hoztál létre kategóriát vagy jelvényt.",
             "permissions": {
-                "badge_detail_users": "Látszanak a felhasználók a jelvény részleteinek oldalán",
+                "badge_detail_users": "A felhasználók megjelenítése a jelvény részleteinek oldalán",
                 "give_badge": "Adj jelvényt a felhasználónak",
                 "take_badge": "Vegyél el jelvényt a felhasználótól"
             },
@@ -40,7 +40,7 @@
             "auto_moderator": {
                 "not_installed": {
                     "title": "Automatikusan jutalmazza a felhasználókat jelvényekkel",
-                    "content": "",
+                    "content": "Ez a bővítmény több funkciót kínál, ha az <a>Automatikus moderátor</a> telepítve van és aktiválva van. A bővítmény telepítésekor a felhasználók automatikusan jelvényeket kaphatnak, a közösségi alkalmazottak beavatkozása nélkül!",
                     "install": "Telepítés",
                     "dismiss": "Ne mutassa ismét"
                 },
@@ -84,8 +84,8 @@
                 "category": "Jelvény kategória",
                 "received_on": "Megszerezve {date}",
                 "badge_details": "Jelvény részletek",
-                "earned_count": "<b># felhasználó</b> megkapta ezt a jelvényt",
-                "earned_by_count": "Megszerezve <b># felhasználó</b> által"
+                "earned_count": "{count, plural, one {<b># felhasználó</b> kapta meg ezt a jelvényt} other {<b># felhasználó</b> kapta meg ezt a jelvényt}}",
+                "earned_by_count": "{count, plural, one {Megszerezve <b># felhasználó</b> által} other {Megszerezve <b># felhasználó</b> által}}"
             },
             "moderation": {
                 "remove_badge": "Jelvény eltávolítása",
