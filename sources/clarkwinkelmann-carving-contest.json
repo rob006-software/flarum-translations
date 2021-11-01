@@ -25,7 +25,7 @@
                     "you_text": "=> core.ref.you",
                     "others_link": "=> core.ref.some_others",
                     "liked_by_self_text": "{users} like this.",
-                    "liked_by_text": "{users} likes this.|{users} like this."
+                    "liked_by_text": "{count, plural, one {{users} likes this.} other {{users} like this.}}"
                 }
             },
             "modal": {
