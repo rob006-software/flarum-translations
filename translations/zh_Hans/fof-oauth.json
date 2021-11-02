@@ -1,7 +1,7 @@
 {
     "fof-oauth": {
         "admin": {
-            "configure_button_label": "",
+            "configure_button_label": "配置 FoF OAuth",
             "settings": {
                 "only_icons_label": "仅显示登录按钮图标（可选布置）",
                 "providers": {
@@ -66,7 +66,7 @@
                 "twitter": "=> fof-oauth.lib.providers.twitter"
             },
             "signup": {
-                "username_help": ""
+                "username_help": "请选择一个用户名"
             },
             "error": {
                 "bad_verification_code": "无效或过期的验证令牌，请重试。",
