@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "设置范围",
-                "confirm_purge": "",
+                "confirm_purge": "重置操作会清除数据库中所有该扩展相关的记录和资源。如要卸载扩展，请通过 Composer 操作。确定要重置扩展吗？",
                 "disabled": "关闭",
                 "enable_to_see": "开启扩展程序以查看或修改设置。",
                 "enabled": "开启",
@@ -116,11 +116,11 @@
                 "no_settings": "此扩展无设置项。",
                 "open_modal": "打开设置",
                 "permissions_title": "权限",
-                "purge_button": "",
+                "purge_button": "重置",
                 "readme": {
-                    "button_label": "",
-                    "no_readme": "",
-                    "title": ""
+                    "button_label": "自述文件",
+                    "no_readme": "此扩展未提供自述文件",
+                    "title": "{extName} 文档"
                 },
                 "confirm_uninstall": "此扩展的的数据库条目和文件资源都将被永久性删除，确定要继续吗？",
                 "uninstall_button": "卸载"
@@ -305,8 +305,8 @@
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} 回复于 {ago}",
                 "started_text": "{username} 发布于 {ago}",
-                "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": "",
+                "total_replies_a11y_label": "{count, plural, one {# 条回复} other {# 条回复}}",
+                "unread_replies_a11y_label": "{count, plural, one {# 条未读} other {# 条未读}}，全部标记为已读。",
                 "mark_as_read_tooltip": "标记为已读"
             },
             "forgot_password": {
@@ -456,7 +456,7 @@
             }
         },
         "lib": {
-            "debug_button": "",
+            "debug_button": "调试",
             "badge": {
                 "hidden_tooltip": "隐藏"
             },
@@ -475,7 +475,7 @@
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
                 "username_label": "=> core.ref.username",
-                "nothing_available": ""
+                "nothing_available": "您无权编辑此用户。"
             },
             "error": {
                 "dependent_extensions_message": "无法停用「{extension}」，请先停用依赖扩展「{extensions}」",
@@ -485,7 +485,7 @@
                 "payload_too_large_message": "请求负载过大。",
                 "permission_denied_message": "您没有权限进行此操作。",
                 "rate_limit_exceeded_message": "您的操作太频繁，请稍后再试。",
-                "render_failed_message": ""
+                "render_failed_message": "抱歉，加载此内容时出错，请刷新页面重试。如果您是管理员，请查看论坛日志文件查看详情。"
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
