@@ -1,13 +1,13 @@
 {
     "blomstra-search": {
         "admin": {
-            "elastic-endpoint": "",
-            "elastic-username": "",
-            "elastic-password": "",
-            "elastic-index": "",
+            "elastic-endpoint": "Endpoint Elastic",
+            "elastic-username": "=> core.ref.username",
+            "elastic-password": "=> core.ref.password",
+            "elastic-index": "Index",
             "analyzer": {
-                "label": "",
-                "help": ""
+                "label": "Ngôn ngữ trình phân tích",
+                "help": "Bộ phân tích làm cho trình tìm kiếm hiểu các từ dừng và thực hiện ngôn ngữ\ncải tiến cụ thể cho việc lập chỉ mục.\n"
             }
         }
     }
