@@ -118,9 +118,9 @@
                 "permissions_title": "Разрешения",
                 "purge_button": "Очистка",
                 "readme": {
-                    "button_label": "",
-                    "no_readme": "",
-                    "title": ""
+                    "button_label": "README",
+                    "no_readme": "У этого расширения нет файла README",
+                    "title": "Документация на {extName}"
                 },
                 "confirm_uninstall": "При удалении будут удалены все записи базы данных и ресурсы, связанные с расширением. Вы уверены, что хотите продолжить?",
                 "uninstall_button": "Удалить"
@@ -456,7 +456,7 @@
             }
         },
         "lib": {
-            "debug_button": "",
+            "debug_button": "Отладка",
             "badge": {
                 "hidden_tooltip": "Скрыто"
             },
