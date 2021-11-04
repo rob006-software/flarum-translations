@@ -87,6 +87,9 @@ return [
 	'askvortsov-saml' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-saml/v2.4.0/resources/locale/en.yml',
 	],
+	'blomstra-mark-unread' => [
+		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-mark-unread/0.1.0/locale/en.yml',
+	],
 	'blomstra-payments' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/blomstra-payments.yml',
 	],
