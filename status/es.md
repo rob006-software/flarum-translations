@@ -2622,6 +2622,17 @@
 		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-saml/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/askvortsov-saml/es/"><img src="https://weblate.rob006.net/widgets/flarum/es/askvortsov-saml/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/blomstra/flarum-ext-mark-unread" title="blomstra/mark-unread"><code>blomstra/mark-unread</code></a>
+		</td>
+		<td align="center">237</td>
+		<td align="center"><a href="https://packagist.org/packages/blomstra/mark-unread/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/blomstra/mark-unread/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/blomstra/mark-unread/stats">0</a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/blomstra-mark-unread/es/"><img src="https://weblate.rob006.net/widgets/flarum/es/blomstra-mark-unread/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
 </tbody>
 </table>
 
