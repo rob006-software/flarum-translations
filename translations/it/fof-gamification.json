@@ -36,8 +36,8 @@
         "admin": {
             "permissions": {
                 "vote_label": "Dare voti positivi/negativi ai messaggi",
-                "see_votes_label": "Visualizzare i voti positivi/negativi dei messaggi",
-                "see_voters_label": "",
+                "see_votes_label": "Visualizzare i voti positivi/negativi",
+                "see_voters_label": "Vedere chi ha votato",
                 "see_ranking_page": "Visualizzare la pagina della classifica"
             },
             "page": {
@@ -63,8 +63,8 @@
                     "auto_upvote": "Dai un voto positivo automatico quando i messaggi vengono postati",
                     "rate_limit": "Applica un tempo limite per votare (10 secondi)",
                     "discussion_page": "Mostra i voti totali del messaggio originale nella lista delle discussioni",
-                    "alternate_layout": "Usa layout alternativo per mostrare e/o fare upvotes/downvotes",
-                    "alternate_post_layout": "",
+                    "alternate_layout": "Usa layout alternativo dei voti nella lista discussioni",
+                    "alternate_post_layout": "Usa layout alternativo dei voti nei post",
                     "title": "Voti",
                     "vote_color": "Colore del voto",
                     "icon_name": "Icona voto positivo/negativo",
