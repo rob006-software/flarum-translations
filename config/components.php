@@ -780,6 +780,9 @@ return [
 	'tituspijean-auth-ldap' => [
 		'tag' => 'https://raw.githubusercontent.com/tituspijean/flarum-ext-auth-ldap/v1.0.0-p1/locale/en.yml',
 	],
+	'tokenjenny-web3' => [
+		'tag' => 'https://raw.githubusercontent.com/tokenjenny/flarum-ext-web3/v0.0.1/resources/locale/en.yml',
+	],
 	'tpokorra-post-notification' => [
 		'tag' => 'https://raw.githubusercontent.com/tpokorra/flarum-ext-post-notification/0.4.6/resources/locale/en.yml',
 	],
