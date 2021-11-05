@@ -485,7 +485,7 @@
                 "payload_too_large_message": "La solicitud de carga era demasiado grande.",
                 "permission_denied_message": "¡Nanay de la China! No tienes permiso para hacer eso.",
                 "rate_limit_exceeded_message": "¡Para el carro! Vas tú muy rápido. Por favor, vuelve a intentarlo en unos segundos.",
-                "render_failed_message": ""
+                "render_failed_message": "Lo sentimos, ocurrió un problema al intentar mostrar este contenido. Si eres un usuario, por favor inténtalo más tarde. Si eres administrador, revisa los registros de Flarum para obtener mayor información."
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
@@ -507,21 +507,21 @@
             "admin": {
                 "extensions": {
                     "caption": "",
-                    "disable": "",
-                    "empty": "",
-                    "enable": "",
-                    "name": "",
-                    "package_name": "",
-                    "version": ""
+                    "disable": "Desactivar",
+                    "empty": "No hay extensiones instaladas",
+                    "enable": "Activar",
+                    "name": "Nombre de la Extensión",
+                    "package_name": "Nombre del Paquete",
+                    "version": "Versión"
                 },
                 "info": {
-                    "caption": ""
+                    "caption": "Información de la Aplicación"
                 },
-                "title": ""
+                "title": "Administración"
             },
             "confirm_email": {
                 "submit_button": "",
-                "text": "",
+                "text": "Presiona el botón a continuación para confirmar el correo de tu cuenta.",
                 "title": ""
             },
             "content": {
@@ -587,7 +587,7 @@
             "change_password": "Cambiar la contraseña",
             "color": "Color",
             "confirm_password": "Confirmar la contraseña",
-            "confirm_email": "",
+            "confirm_email": "Confirmar correo",
             "confirmation_email_sent": "Te hemos enviado un correo electrónico de confirmación a {email}. Si no aparece pronto, por favor, comprueba la carpeta de correo no deseado (spam).",
             "custom_footer_text": "Añade código HTML para que este sea mostrado en la parte más baja de la página.",
             "custom_footer_title": "Editar el pié de página personalizado",
@@ -599,7 +599,7 @@
             "edit": "Editar",
             "edit_user": "Editar usuario",
             "email": "Correo electrónico",
-            "extensions": "",
+            "extensions": "Extensiones",
             "icon": "Icono",
             "icon_text": "Introduce el nombre de alguna clase de <a>FontAwesome</a>, <em>incluyendo</em> el prefijo <code>fas fa-</code>.",
             "load_more": "Cargar más",
