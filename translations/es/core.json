@@ -305,8 +305,8 @@
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} respondió {ago}",
                 "started_text": "{username} creó {ago}",
-                "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": "",
+                "total_replies_a11y_label": "{count, plural, one {# respuesta} other {# respuestas}}",
+                "unread_replies_a11y_label": "{count, plural, one {# respuesta sin leer} other {# respuestas sin leer}}. Marcar {count, plural, one {respuesta} other {respuestas}} como leída(s).",
                 "mark_as_read_tooltip": "Marcar como leído"
             },
             "forgot_password": {
@@ -506,7 +506,7 @@
         "views": {
             "admin": {
                 "extensions": {
-                    "caption": "",
+                    "caption": "=> core.ref.extensions",
                     "disable": "Desactivar",
                     "empty": "No hay extensiones instaladas",
                     "enable": "Activar",
@@ -520,9 +520,9 @@
                 "title": "Administración"
             },
             "confirm_email": {
-                "submit_button": "",
+                "submit_button": "=> core.ref.confirm_email",
                 "text": "Presiona el botón a continuación para confirmar el correo de tu cuenta.",
-                "title": ""
+                "title": "=> core.ref.confirm_email"
             },
             "content": {
                 "javascript_disabled_message": "Este sitio web se vé mejor en un navegador moderno con JavaScript activado.",
