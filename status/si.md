@@ -2614,9 +2614,20 @@
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/tokenjenny/flarum-ext-web3" title="tokenjenny/flarum-ext-web3"><code>tokenjenny/flarum-ext-web3</code></a>
+		</td>
+		<td align="center">236</td>
+		<td align="center"><a href="https://packagist.org/packages/tokenjenny/flarum-ext-web3/stats">2</a></td>
+		<td align="center"><a href="https://packagist.org/packages/tokenjenny/flarum-ext-web3/stats">2</a></td>
+		<td align="center"><a href="https://packagist.org/packages/tokenjenny/flarum-ext-web3/stats">0</a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/tokenjenny-web3/si/"><img src="https://weblate.rob006.net/widgets/flarum/si/tokenjenny-web3/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/askvortsov1/flarum-saml" title="askvortsov/flarum-saml"><code>askvortsov/flarum-saml</code></a>
 		</td>
-		<td align="center">236<br /><img src="https://img.shields.io/badge/-%2B6-red" alt="+6" title="Change from last week"></td>
+		<td align="center">237<br /><img src="https://img.shields.io/badge/-%2B7-red" alt="+7" title="Change from last week"></td>
 		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-saml/stats">327<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-saml/stats">1<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-saml/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
@@ -2627,7 +2638,7 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/blomstra/flarum-ext-mark-unread" title="blomstra/mark-unread"><code>blomstra/mark-unread</code></a>
 		</td>
-		<td align="center">237</td>
+		<td align="center">238</td>
 		<td align="center"><a href="https://packagist.org/packages/blomstra/mark-unread/stats">0</a></td>
 		<td align="center"><a href="https://packagist.org/packages/blomstra/mark-unread/stats">0</a></td>
 		<td align="center"><a href="https://packagist.org/packages/blomstra/mark-unread/stats">0</a></td>
