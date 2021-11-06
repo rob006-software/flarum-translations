@@ -535,7 +535,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-guestengagement/1.0.3/resources/locale/en.yml',
 	],
 	'justoverclock-hashtag' => [
-		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-hashtag/0.2.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-hashtag/0.2.1/resources/locale/en.yml',
 	],
 	'justoverclock-header-slideshow' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/header-slideshow/0.1.1/locale/en.yml',
