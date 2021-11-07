@@ -32,8 +32,8 @@
                 "remind_tag_ids": ""
             },
             "edit_tag": {
-                "qna_label": "Permitir escoger Mejor Respuesta en esta etiqueta",
-                "reminders": "Enviar recordatorios para escoger la Mejor Respuesta en las discusiones dentro de esta etiqueta"
+                "qna_label": "Permitir escoger la mejor respuesta en esta etiqueta",
+                "reminders": "Enviar recordatorios para escoger la mejor respuesta en las discusiones de esta etiqueta"
             }
         },
         "forum": {
@@ -77,9 +77,9 @@
                 "select": "¿Fue resuelta tu pregunta?"
             },
             "body": {
-                "awarded": "Hola {recipient_display_name},\n\nHiciste un gran trabajo, {actor_display_name} asignó tu mensaje como la mejor respuesta en la discusión: {discussion_title}. Gracias por tu ayuda.\n\nRevísalo aquí: {discussion_url}\n",
-                "ba-set": "Hola {recipient_display_name},\n\n{actor_display_name} asignó la mejor respuesta en la discusión: {discussion_title}, en la que tú participaste.\n\nRevísalo aquí: {discussion_url}\n",
-                "select": "Hola {recipient_display_name},\n\nQueremos decirte que ha pasado un buen tiempo y han llegado diversas respuestas a tu pregunta {discussion_title}. Es probable de que alguna de ellas resuelva tu consulta.\n\nSi es así, sería de mucha ayuda para futuros miembros si escoges la mejor respuesta a tu pregunta. Ayudará a las personas con el mismo problema a encontrar la respuesta que necesita, además de ser gratificante para los miembros quienes voluntariamente tomaron su tiempo para ayudarte, así que, es bueno hacerles saber que están haciendo lo correcto.\n\nVisita la discusión aquí: {discussion_url} y escoge la respuesta que consideres más apropiada.\n\n¡Gracias!\n"
+                "awarded": "Hola {recipient_display_name},\n\nHiciste un gran trabajo. {actor_display_name} asignó tu mensaje como la mejor respuesta en la discusión: {discussion_title}. Gracias por tu ayuda.\n\nRevísalo aquí: {discussion_url}\n",
+                "ba-set": "Hola {recipient_display_name},\n\n{actor_display_name} asignó la mejor respuesta en la discusión: {discussion_title}, donde tú participaste.\n\nRevísalo aquí: {discussion_url}\n",
+                "select": "Hola {recipient_display_name},\n\nQueremos decirte que ha pasado un buen tiempo y han llegado diversas respuestas a tu pregunta en {discussion_title}. Es probable de que alguna de ellas resuelva tu consulta.\n\nSi es así, sería de mucha ayuda para futuros miembros si escoges la mejor respuesta a tu pregunta. Ayudará a las personas con el mismo problema a encontrar la respuesta que necesita, además de ser gratificante para los miembros quienes voluntariamente tomaron su tiempo para ayudarte, así que, es bueno hacerles saber que están haciendo lo correcto.\n\nVisita la discusión aquí: {discussion_url} y escoge la respuesta que consideres más apropiada.\n\n¡Gracias!\n"
             }
         }
     }
