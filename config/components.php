@@ -213,6 +213,9 @@ return [
 	'dem13n-topic-starter-label' => [
 		'tag' => 'https://raw.githubusercontent.com/Dem13n/topic-starter-label/0.1.7/locale/en.yml',
 	],
+	'dianmx-location-discussions' => [
+		'tag' => 'https://raw.githubusercontent.com/dianmx/local-discussions/v0.0.2/locale/en.yml',
+	],
 	'extiverse-mercury' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/mercury/0.1.3/resources/locale/en.yml',
 	],
