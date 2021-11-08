@@ -86,6 +86,7 @@ return [
 		'!the-turk-quiet-edits',
 		'!the-turk-regrole',
 	]),
+	'uz' => getComponents(),
 	'vi' => getComponents(),
 	'zh_Hans' => getComponents(),
 ];
