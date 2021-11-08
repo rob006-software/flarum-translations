@@ -1,0 +1,40 @@
+{
+    "fof-subscribed": {
+        "forum": {
+            "settings": {
+                "defaults_label": "",
+                "forced_label": "",
+                "notify_discussion_created_label": "",
+                "notify_post_unapproved_label": "",
+                "notify_user_created_label": ""
+            },
+            "notifications": {
+                "discussion_created_text": "",
+                "post_unapproved_text": "",
+                "user_created_text": ""
+            }
+        },
+        "admin": {
+            "menu": {
+                "description": ""
+            },
+            "permission": {
+                "subscribe_to_discussion_created": "",
+                "subscribe_to_post_unapproved": "",
+                "subscribe_to_user_created": ""
+            }
+        },
+        "email": {
+            "subject": {
+                "newDiscussion": "",
+                "newUser": "",
+                "postUnapproved": ""
+            },
+            "body": {
+                "newDiscussion": "",
+                "newUser": "",
+                "postUnapproved": ""
+            }
+        }
+    }
+}
