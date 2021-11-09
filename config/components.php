@@ -79,7 +79,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-moderator-warnings/v0.6.1/resources/locale/en.yml',
 	],
 	'askvortsov-pwa' => [
-		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-pwa/v3.0.5/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-pwa/v3.1.0/resources/locale/en.yml',
 	],
 	'askvortsov-rich-text' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-rich-text/v2.1.0/resources/locale/en.yml',
