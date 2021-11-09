@@ -492,6 +492,9 @@ return [
 	'jslirola-login2seeplus' => [
 		'tag' => 'https://raw.githubusercontent.com/jslirola/flarum-ext-login2seeplus/v0.2/locale/en.yml',
 	],
+	'justoverclock-christmas-snow-effect' => [
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/christmas-snow-effect/0.1.2/locale/en.yml',
+	],
 	'justoverclock-contactme' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-contactme/0.2.3/resources/locale/en.yml',
 	],
