@@ -224,7 +224,7 @@ return [
 	'uz' => [
 		'type' => 'language',
 		'language' => 'uz',
-		'repository' => 'git@github.com:flarum-lang/uzbekistan.git',
+		'repository' => 'git@github.com:flarum-lang/uzbek.git',
 		'branch' => 'master',
 		'path' => '/locale',
 	],

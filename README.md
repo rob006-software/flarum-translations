@@ -286,7 +286,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 		</td>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/flarum-lang/uzbekistan">Uzbek</a></td>
+		<td><a href="https://github.com/flarum-lang/uzbek">Uzbek</a></td>
 		<td><a href="https://github.com/JeongJun-Lee">JJ</a></td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/uz.html" title="Click to see detailed translation status for each extension">
