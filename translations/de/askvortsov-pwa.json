@@ -7,20 +7,29 @@
             },
             "pwa": {
                 "about": {
+                    "description_label": "",
                     "description_text": "Die Beschreibung kannst du auf der 'Grundeinstellungen' Seite in deinem Admin Dashboard einstellen.",
+                    "long_name_label": "",
                     "long_name_text": "Der Name der Webanwendung, der dem Benutzer angezeigt wird.",
                     "heading": "Über",
+                    "short_name_label": "",
                     "short_name_text": "Den Kurznamen kannst du auf der 'Grundeinstellungen' Seite in deinem Admin Dashboard einstellen.",
                     "name_text": "Gebe einen längeren Namen ein, der in deiner PWA verwendet werden soll."
                 },
                 "colors": {
                     "heading": "Farben",
+                    "background_color_label": "",
                     "background_color_text": "Diese Farbe wird als Platzhalter für den Splash-Screen verwendet, der angezeigt wird, während deine PWA geladen wird. Sie wird nicht verwendet, wenn die App bereits geladen hat.",
+                    "theme_color_label": "",
                     "theme_color_text": "Diese Farbe wird manchmal von Geräten bei der Anzeige deiner App als die Farbe verwendet, die die Seite umgibt, z.B. im Task Switcher von Android. Du kannst dies einstellen, indem du die primäre Farbe auf der Seite 'Erscheinungsbild' in deinem Admin-Dashboard änderst."
                 },
                 "maintenance": {
                     "heading": "Wartungsmodus",
-                    "debug_label": "Debug-Modus? Dadurch werden Informationen über Benachrichtigungen an `storage/logs` protokolliert."
+                    "debug_label": "Debug-Modus? Dadurch werden Informationen über Benachrichtigungen an `storage/logs` protokolliert.",
+                    "debug_text": "",
+                    "reset_vapid_text": "",
+                    "reset_vapid_confirm": "",
+                    "reset_vapid_success": ""
                 },
                 "other": {
                     "heading": "Anderes",
@@ -40,6 +49,7 @@
                 "possible_https_disabled": "Möglicherweise läuft deine Seite nicht über HTTPS. Wenn sie es tut, ignoriere dies. Falls nicht, denke daran, dass HTTPS für Progressive Web Apps erforderlich ist, um zu funktionieren.",
                 "no_logo": "Du musst mindestens ein Logo (mit einer Größe von mindestens 196px) hochladen damit deine App funktioniert.",
                 "no_name": "Du musst einen vollständigen Namen angeben, damit deine App funktioniert.",
+                "no_vapid_keys": "",
                 "key_gen_failed": "Die Generierung der für Push-Benachrichtigungen benötigten Schlüssel ist fehlgeschlagen. Die vollständige Fehlermeldung lautete: {error}",
                 "suggest_gmp": "Die gmp-PHP-Erweiterung scheint auf Ihrem Server nicht aktiviert zu sein. Dies ist nicht unbedingt erforderlich, kann jedoch die Leistung verbessern und wird empfohlen. Einige gemeinsam genutzte Hosts unterstützen dies jedoch möglicherweise nicht.",
                 "success": "Keine potenziellen Probleme gefunden!",

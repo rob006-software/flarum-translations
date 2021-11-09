@@ -7,19 +7,28 @@
             },
             "pwa": {
                 "about": {
+                    "description_label": "",
                     "description_text": "您可以在管理面板的「常规」页面设置应用描述。",
+                    "long_name_label": "",
                     "long_name_text": "显示给用户的 web 应用名称",
                     "heading": "关于",
+                    "short_name_label": "",
                     "short_name_text": "应用简称（无空间显示长名称时）"
                 },
                 "colors": {
                     "heading": "颜色",
+                    "background_color_label": "",
                     "background_color_text": "PWA 加载时显示的初始屏幕占位颜色，应用实际加载后不会使用它。",
+                    "theme_color_label": "",
                     "theme_color_text": "此颜色会被设备用于展示你的程序，例如在安卓的后台卡片上，作为边框颜色。"
                 },
                 "maintenance": {
                     "heading": "维护",
-                    "debug_label": "调试模式？这将会在 `storage/logs` 中记录通知信息。"
+                    "debug_label": "调试模式？这将会在 `storage/logs` 中记录通知信息。",
+                    "debug_text": "",
+                    "reset_vapid_text": "",
+                    "reset_vapid_confirm": "",
+                    "reset_vapid_success": ""
                 },
                 "other": {
                     "heading": "其他",
@@ -39,6 +48,7 @@
                 "possible_https_disabled": "你的网站可能没有在 HTTPS 上运行。清除缓存（仪表盘 → 工具按钮）可能有所帮助。如果已是 HTTPS，请忽略此提示。如果确实是 HTTP，请记住渐进式网络应用程序只能工作在 HTTPS 环境中。",
                 "no_logo": "您必须至少上传一张 196px 尺寸的标志才能使您的应用程序正常工作。",
                 "no_name": "您必须设置应用全名才能使您的应用程序正常工作。",
+                "no_vapid_keys": "",
                 "key_gen_failed": "推送通知所需的密钥生成失败。错误信息：{error}",
                 "suggest_gmp": "你的服务器似乎没有启用 gmp PHP 扩展。此扩展非必需，但可提高应用性能，建议使用。不过有些共享主机可能不支持安装。",
                 "success": "恭喜，没有发现潜在问题！"

@@ -7,19 +7,28 @@
             },
             "pwa": {
                 "about": {
+                    "description_label": "",
                     "description_text": "A leírást az admin Alapok menüjében adhatod meg.",
+                    "long_name_label": "",
                     "long_name_text": "A webapp neve ami a felhasználóknak megjelenik.",
                     "heading": "Rólunk",
+                    "short_name_label": "",
                     "short_name_text": "Rövid név, ami megjelenik a felhasználóknak ha nem fér ki az eredeti."
                 },
                 "colors": {
                     "heading": "Színek",
+                    "background_color_label": "",
                     "background_color_text": "Ez a szín addig használandó, amíg a PWA betöltés alatt van.",
+                    "theme_color_label": "",
                     "theme_color_text": "Ezt a színt néha használják az eszközök, amikor megjelenítik az alkalmazást, például az Android feladatváltóban, a webhelyet körülvevő színként."
                 },
                 "maintenance": {
                     "heading": "Teszt mód",
-                    "debug_label": "Hibakeresési mód? Ez az értesítésekkel kapcsolatos információkat naplózza a \"tárolóba/naplókba\"."
+                    "debug_label": "Hibakeresési mód? Ez az értesítésekkel kapcsolatos információkat naplózza a \"tárolóba/naplókba\".",
+                    "debug_text": "",
+                    "reset_vapid_text": "",
+                    "reset_vapid_confirm": "",
+                    "reset_vapid_success": ""
                 },
                 "other": {
                     "heading": "Más",
@@ -39,6 +48,7 @@
                 "possible_https_disabled": "Az oldal nem HTTPS-ben működik. A HTTPS kötelező a PWA-nak.",
                 "no_logo": "Legalább egy logó feltöltése kötelező.",
                 "no_name": "Név kötelező.",
+                "no_vapid_keys": "",
                 "key_gen_failed": "A push értesítésekhez szükséges kulcsok generálása nem sikerült. A teljes hibaüzenet a következő volt: {error}",
                 "suggest_gmp": "Úgy tűnik, hogy a gmp PHP bővítmény nincs engedélyezve a szerveren. Nem feltétlenül szükséges, de javíthatja a teljesítményt, és ajánlott. Előfordulhat azonban, hogy egyes megosztott házigazdák nem támogatják.",
                 "success": "Nincs potenciális hiba!"
