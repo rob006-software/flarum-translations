@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "Määritä laajuudet (scopes)",
-                "confirm_purge": "",
+                "confirm_purge": "Puhdistus poistaa kaikki tietokantamerkinnät ja liittyvät tiedostot tähän lisäosaan liittyen. Se ei poista lisäosan asennusta; se pitää tehdä Composerin kautta. Haluatko varmasti jatkaa?",
                 "disabled": "Poistettu käytöstä",
                 "enable_to_see": "Ota tämä lisäosa käyttää nähdäksesi ja muuttaaksesi asetuksia.",
                 "enabled": "Käytössä",
@@ -116,11 +116,11 @@
                 "no_settings": "Tällä lisäosalla ei ole asetuksia.",
                 "open_modal": "Avaa asetukset",
                 "permissions_title": "Oikeudet",
-                "purge_button": "",
+                "purge_button": "Puhdista",
                 "readme": {
-                    "button_label": "",
-                    "no_readme": "",
-                    "title": ""
+                    "button_label": "LUE MINUT",
+                    "no_readme": "Tällä lisäosalla ei näytä olevan README tiedostoa",
+                    "title": "{extName} dokumentaatio"
                 },
                 "confirm_uninstall": "Poistaminen poistaa kaikki tietokantamerkinnät ja tiedostot tähän lisäosaan liittyen. Haluatko varmasti jatkaa?",
                 "uninstall_button": "Poista asennus"
@@ -305,8 +305,8 @@
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} vastasi {ago}",
                 "started_text": "{username} aloitti {ago}",
-                "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": "",
+                "total_replies_a11y_label": "{count, plural, one {# vastaus} other {# vastausta}}",
+                "unread_replies_a11y_label": "{count, plural, one {# lukematon vastaus} other {# Lukematonta vastausta}}. Merkitse  {count, plural, one {lukematon vastaus} other {lukemattomat vastaukset}} luetuksi.",
                 "mark_as_read_tooltip": "Merkitse luetuksi"
             },
             "forgot_password": {
@@ -456,7 +456,7 @@
             }
         },
         "lib": {
-            "debug_button": "",
+            "debug_button": "Vianetsintä",
             "badge": {
                 "hidden_tooltip": "Piilotettu"
             },
@@ -491,7 +491,7 @@
                 "accessible_label": "=> core.ref.loading"
             },
             "nav": {
-                "drawer_button": ""
+                "drawer_button": "Avaa navigointi lokero"
             },
             "number_suffix": {
                 "kilo_text": "K",
