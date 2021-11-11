@@ -1,0 +1,17 @@
+{
+    "flarum-bbcode-button": {
+        "admin": {
+            "settings": {
+                "codelabel": "Custom BBCode",
+                "codedesc": "Type in the opening and closing BBCode tags below and save.",
+                "poslabel": "Cursor Placement",
+                "posdesc": "You will want the cursor to default to being in between the opening and closing tags. Adjust this number to accomplish this. The greater the number, the more to the right the cursor will appear."
+            }
+        },
+        "forum": {
+            "composer": {
+                "bbcode_tooltip": "Insert BBCode"
+            }
+        }
+    }
+}
