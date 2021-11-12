@@ -38,9 +38,12 @@
             },
             "tags": {
                 "about_tags_text": "Taggar används för att kategorisera trådar. Primära taggar är som traditionella forumkategorier: De de kan placeras i en tvåstegshierarki. Sekundära taggar har ingen hierarki eller ordning och är användbara för mikrokategorisering.",
-                "create_tag_button": "=> flarum-tags.ref.create_tag",
+                "create_primary_tag_button": "",
+                "create_secondary_tag_button": "",
                 "primary_heading": "Primära taggar",
                 "secondary_heading": "Sekundära taggar",
+                "settings_heading": "",
+                "create_tag_button": "=> flarum-tags.ref.create_tag",
                 "settings_button": "Inställningar"
             }
         },
@@ -71,8 +74,8 @@
                 "untagged_link": "Omärkta"
             },
             "post_stream": {
-                "added_tags_text": "{username} lade till {tagsAdded}.",
                 "added_and_removed_tags_text": "{username} lade till {tagsAdded} och tog bort {tagsRemoved}.",
+                "added_tags_text": "{username} lade till {tagsAdded}.",
                 "removed_tags_text": "{username} tog bort {tagsRemoved}.",
                 "tags_text": "{tags} tagg|{tags} taggar"
             },
@@ -84,9 +87,9 @@
             "deleted_tag_text": "Raderad"
         },
         "ref": {
-            "create_tag": "Skapa tagg",
             "name": "Namn",
-            "tags": "Taggar"
+            "tags": "Taggar",
+            "create_tag": "Skapa tagg"
         }
     }
 }

@@ -30,6 +30,8 @@
         "ends_with": ":attribute måste sluta med något av följande: :values",
         "exists": ":attribute är ogiltigt.",
         "file": ":attribute måste vara en fil.",
+        "file_too_large": "",
+        "file_upload_failed": "",
         "filled": ":attribute är obligatoriskt.",
         "gt": {
             "numeric": ":attribute måste vara större än :value.",
@@ -77,9 +79,11 @@
             "string": ":attribute måste innehålla minst :min tecken.",
             "array": ":attribute måste innehålla minst :min objekt."
         },
+        "multiple_of": "",
         "not_in": "Det valda :attribute är ogiltigt.",
         "not_regex": "Formatet :attribute är ogiltigt.",
         "numeric": ":attribute måste vara ett siffra.",
+        "password": "",
         "present": ":attribute fältet måste finnas med.",
         "regex": ":attribute har ogiltigt format.",
         "required": ":attribute är obligatoriskt.",
@@ -89,6 +93,9 @@
         "required_with_all": ":attribute är obligatoriskt när :values är ifyllt.",
         "required_without": ":attribute är obligatoriskt när :values ej är ifyllt.",
         "required_without_all": ":attribute är obligatoriskt när ingen av :values är ifyllt.",
+        "prohibited": "",
+        "prohibited_if": "",
+        "prohibited_unless": "",
         "same": ":attribute och :other måste vara lika.",
         "size": {
             "numeric": ":attribute måste vara :size.",

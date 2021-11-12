@@ -10,6 +10,9 @@
                 "unfollow_button": "Sluta följa",
                 "unignore_button": "Sluta ignorera"
             },
+            "following": {
+                "meta_title_text": ""
+            },
             "index": {
                 "following_link": "=> flarum-subscriptions.ref.following"
             },
@@ -30,6 +33,12 @@
                 "not_following_text": "Få notis endast när du blir @omnämnd.",
                 "notify_alert_tooltip": "Få notiser från forumet när det finns nya inlägg",
                 "notify_email_tooltip": "Få ett mail när det finns nya inlägg"
+            }
+        },
+        "email": {
+            "new_post": {
+                "subject": "",
+                "body": ""
             }
         },
         "ref": {
