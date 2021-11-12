@@ -1,0 +1,30 @@
+{
+    "flarum-suspend": {
+        "admin": {
+            "permissions": {
+                "suspend_users_label": "Avstängda användare"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "user_suspended_text": "{username} stängde av dig under {timeReadable}",
+                "user_unsuspended_text": "{username} upphävde avstängningen"
+            },
+            "suspend_user": {
+                "indefinitely_label": "Stäng av på obestämd tid",
+                "limited_time_label": "Stäng av under begränsad tid...",
+                "limited_time_days_text": " dagar",
+                "not_suspended_label": "Inte avstängd",
+                "status_heading": "Avstängningens status",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Stäng av {username}"
+            },
+            "user_badge": {
+                "suspended_tooltip": "Avstängd"
+            },
+            "user_controls": {
+                "suspend_button": "Stäng av"
+            }
+        }
+    }
+}
