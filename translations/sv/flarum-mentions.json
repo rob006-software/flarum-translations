@@ -1,0 +1,30 @@
+{
+    "flarum-mentions": {
+        "forum": {
+            "composer": {
+                "mention_tooltip": "Omnämn användare eller inlägg",
+                "reply_to_post_text": "Svara på #{number}"
+            },
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_mentioned_text": "{username} svarade på ditt inlägg",
+                "user_mentioned_text": "{username} nämnde dig"
+            },
+            "post": {
+                "mentioned_by_self_text": "{users} svarade på detta.",
+                "mentioned_by_text": "{users} svarade på detta.",
+                "others_text": "=> core.ref.some_others",
+                "quote_button": "Citat",
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
+            },
+            "settings": {
+                "notify_post_mentioned_label": "Någon svarade på ett av mina inlägg",
+                "notify_user_mentioned_label": "Någon nämnde mig i ett inlägg"
+            },
+            "user": {
+                "mentions_link": "Omnämnanden"
+            }
+        }
+    }
+}
