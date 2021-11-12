@@ -193,6 +193,13 @@ return [
 		'branch' => 'master',
 		'path' => '/locale',
 	],
+	'sv' => [
+		'type' => 'language',
+		'language' => 'sv',
+		'repository' => 'git@github.com:flarum-lang/swedish.git',
+		'branch' => 'main',
+		'path' => '/locale',
+	],
 	'ta' => [
 		'type' => 'language',
 		'language' => 'ta',

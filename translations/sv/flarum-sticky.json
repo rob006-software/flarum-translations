@@ -1,0 +1,25 @@
+{
+    "flarum-sticky": {
+        "admin": {
+            "permissions": {
+                "sticky_discussions_label": "Klistrade trådar"
+            }
+        },
+        "forum": {
+            "badge": {
+                "sticky_tooltip": "=> flarum-sticky.ref.sticky"
+            },
+            "discussion_controls": {
+                "sticky_button": "=> flarum-sticky.ref.sticky",
+                "unsticky_button": "Avklistra"
+            },
+            "post_stream": {
+                "discussion_stickied_text": "{username} klistrade tråden.",
+                "discussion_unstickied_text": "{username} avklistrade tråden."
+            }
+        },
+        "ref": {
+            "sticky": "Klistra"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "flarum-approval": {
+        "admin": {
+            "permissions": {
+                "approve_posts_label": "Godkänn inlägg",
+                "reply_without_approval_label": "Svara i en tråd utan godkännande",
+                "start_discussions_without_approval_label": "Starta tråd utan godkännande"
+            }
+        },
+        "forum": {
+            "badge": {
+                "awaiting_approval_tooltip": "=> flarum-approval.ref.awaiting_approval"
+            },
+            "post": {
+                "awaiting_approval_text": "=> flarum-approval.ref.awaiting_approval"
+            },
+            "post_controls": {
+                "approve_button": "Godkänn"
+            }
+        },
+        "ref": {
+            "awaiting_approval": "Väntar på godkännande"
+        }
+    }
+}
