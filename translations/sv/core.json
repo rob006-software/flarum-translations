@@ -62,16 +62,16 @@
             },
             "edit_group": {
                 "color_label": "=> core.ref.color",
-                "delete_button": "Radera Grupp",
+                "delete_button": "Radera grupp",
                 "delete_confirmation": "Är du säker på att du vill radera denna grupp? Gruppens medlemmar kommer INTE att raderas.",
                 "hide_label": "Göm på forumet",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "name_label": "Namn",
-                "plural_placeholder": "Plural (e.g. Moderatorer)",
-                "singular_placeholder": "Singular (e.g. Moderator)",
+                "plural_placeholder": "Plural (t.ex. Moderatorer)",
+                "singular_placeholder": "Singular (t.ex. Moderator)",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Skapa Grupp"
+                "title": "Skapa grupp"
             },
             "edit_header": {
                 "customize_text": "=> core.ref.custom_header_text",
@@ -79,14 +79,14 @@
                 "title": "=> core.ref.custom_header_title"
             },
             "email": {
-                "addresses_heading": "Addresser",
+                "addresses_heading": "Adresser",
                 "description": "Välj driver, inställningar och adress som skall användas vid mejlutskick",
                 "driver_heading": "Välj Driver",
                 "driver_label": "Driver",
                 "from_label": "Avsändare",
                 "mail_encryption_label": "Kryptering",
                 "mail_host_label": "Host",
-                "mail_mailgun_domain_label": "Domain",
+                "mail_mailgun_domain_label": "Domän",
                 "mail_mailgun_region_label": "Region",
                 "mail_mailgun_secret_label": "Secret key",
                 "mail_password_label": "=> core.ref.password",
@@ -94,7 +94,7 @@
                 "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "Mailgun Settings",
                 "not_sending_message": "Flarum currently does not send emails. This can be due to the selected driver, or errors in its configuration.",
-                "send_test_mail_button": "Send",
+                "send_test_mail_button": "Skicka",
                 "send_test_mail_heading": "Send Test Mail",
                 "send_test_mail_success": "Test mail sent successfully!",
                 "send_test_mail_text": "This will send an email using the above configuration to your email, {email}.",
@@ -110,8 +110,8 @@
                 "enabled": "Enabled",
                 "info_links": {
                     "discuss": "Discuss",
-                    "documentation": "Documentation",
-                    "donate": "Donate",
+                    "documentation": "Dokumentation",
+                    "donate": "Donera",
                     "source": "Source",
                     "support": "Support",
                     "website": "Website"
@@ -119,7 +119,7 @@
                 "no_permissions": "This extension has no permissions.",
                 "no_settings": "This extension has no settings.",
                 "open_modal": "Open Settings",
-                "permissions_title": "Permissions",
+                "permissions_title": "Behörigheter",
                 "purge_button": "",
                 "readme": {
                     "button_label": "",
@@ -148,10 +148,10 @@
                     "discussion": "Discussion",
                     "feature": "Features",
                     "formatting": "Formatting",
-                    "language": "Languages",
+                    "language": "Språk",
                     "moderation": "Moderation",
                     "other": "Other Extensions",
-                    "theme": "Themes"
+                    "theme": "Teman"
                 },
                 "dashboard_button": "=> core.admin.dashboard.title",
                 "dashboard_title": "=> core.admin.dashboard.description",
@@ -168,17 +168,17 @@
                 "allow_renaming_label": "Allow renaming",
                 "create_heading": "Create",
                 "delete_discussions_forever_label": "Delete discussions forever",
-                "delete_discussions_label": "Delete discussions",
+                "delete_discussions_label": "Radera diskussioner",
                 "delete_posts_forever_label": "Delete posts forever",
                 "delete_posts_label": "Delete posts",
                 "description": "Configure who can see and do what.",
                 "edit_posts_label": "Edit posts",
                 "edit_users_label": "Edit users",
                 "edit_users_credentials_label": "",
-                "edit_users_groups_label": "",
+                "edit_users_groups_label": "Redigera användargrupper",
                 "global_heading": "Global",
                 "moderate_heading": "Moderate",
-                "new_group_button": "New Group",
+                "new_group_button": "Ny grupp",
                 "participate_heading": "Participate",
                 "post_without_throttle_label": "Reply multiple times without waiting",
                 "read_heading": "Read",
@@ -198,7 +198,7 @@
             "permissions_controls": {
                 "allow_indefinitely_button": "Indefinitely",
                 "allow_some_minutes_button": "{count, plural, one {For # minute} other {For # minutes}}",
-                "allow_ten_minutes_button": "For 10 minutes",
+                "allow_ten_minutes_button": "I 10 minuter",
                 "allow_until_reply_button": "Until next reply",
                 "everyone_button": "Everyone",
                 "members_button": "=> core.group.members",
@@ -224,12 +224,12 @@
                         },
                         "email": {
                             "title": "",
-                            "visibility_hide": "",
-                            "visibility_show": ""
+                            "visibility_hide": "Dölj e-postadress",
+                            "visibility_show": "Visa e-postadress"
                         },
                         "group_badges": {
                             "no_badges": "",
-                            "title": ""
+                            "title": "Grupper"
                         },
                         "join_time": {
                             "title": ""
@@ -247,7 +247,7 @@
                 "pagination": {
                     "back_button": "",
                     "next_button": "",
-                    "page_counter": ""
+                    "page_counter": "Sida {current} av {total}"
                 },
                 "title": "",
                 "total_users": ""
@@ -345,7 +345,7 @@
                 "mark_all_as_read_confirmation": "Är du säker på att du vill markera alla trådar som lästa?",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
-                "refresh_tooltip": "Ladda om",
+                "refresh_tooltip": "Uppdatera",
                 "start_discussion_button": "=> core.ref.start_a_discussion",
                 "toggle_sidenav_dropdown_accessible_label": ""
             },
@@ -362,7 +362,7 @@
                 "invalid_login_message": "Dina inloggningsuppgifter var felaktiga.",
                 "password_placeholder": "=> core.ref.password",
                 "remember_me_label": "Kom ihåg mig",
-                "sign_up_text": "Har du inget konto? <a>Bli Medlem</a>",
+                "sign_up_text": "Har du inget konto? <a>Registrera dig</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
                 "username_or_email_placeholder": "Användarnamn eller E-postadress"
@@ -427,7 +427,7 @@
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",
                 "email_placeholder": "=> core.ref.email",
-                "log_in_text": "Har du redan ett konto? <a>Logga In</a>",
+                "log_in_text": "Har du redan ett konto? <a>Logga in</a>",
                 "password_placeholder": "=> core.ref.password",
                 "submit_button": "=> core.ref.sign_up",
                 "title": "=> core.ref.sign_up",
@@ -490,7 +490,7 @@
                 "activate_button": "",
                 "email_heading": "",
                 "email_label": "",
-                "groups_heading": "",
+                "groups_heading": "Grupper",
                 "password_heading": "",
                 "password_label": "",
                 "set_password_label": "",
@@ -514,7 +514,7 @@
                 "accessible_label": ""
             },
             "modal": {
-                "close": ""
+                "close": "Stäng"
             },
             "nav": {
                 "drawer_button": ""
@@ -541,7 +541,7 @@
                     "enable": "",
                     "name": "",
                     "package_name": "",
-                    "version": ""
+                    "version": "Version"
                 },
                 "info": {
                     "caption": ""
@@ -583,8 +583,8 @@
                 "title": "=> core.ref.log_out"
             },
             "reset_password": {
-                "confirm_password_label": "Bekräfta Nytt Lösenord",
-                "new_password_label": "Nytt Lösenord",
+                "confirm_password_label": "Bekräfta nytt lösenord",
+                "new_password_label": "Nytt lösenord",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
             }
@@ -612,10 +612,10 @@
         },
         "ref": {
             "all_discussions": "Alla trådar",
-            "change_email": "Ändra E-postadress",
-            "change_password": "Ändra Lösenord",
+            "change_email": "Ändra e-postadress",
+            "change_password": "Ändra lösenord",
             "color": "Färg",
-            "confirm_password": "Bekräfta Lösenord",
+            "confirm_password": "Bekräfta lösenord",
             "confirm_email": "",
             "confirmation_email_sent": "Vi har skickat ett bekräftelsemail till {email}. Om du inte dyker upp inom en stund, kolla din skräppost.",
             "custom_footer_text": "Lägg till HTML som kommer att visas allra längst ned på sidan",
@@ -626,28 +626,28 @@
             "delete_forever": "Radera permanent",
             "discussions": "Disussioner",
             "edit": "Redigera",
-            "edit_user": "",
+            "edit_user": "Redigera användare",
             "email": "E-post",
             "extensions": "",
             "icon": "Ikon",
             "icon_text": "Skriv in namnet på vilken <a>FontAwesome</a>-ikonklass du vill, <em>med</em> <code>fa fas-</code>prefixet.",
             "load_more": "Ladda fler",
-            "loading": "",
-            "log_in": "Logga In",
-            "log_out": "Logga Ut",
+            "loading": "Laddar…",
+            "log_in": "Logga in",
+            "log_out": "Logga ut",
             "mark_all_as_read": "Markera alla som lästa",
-            "next_page": "Nästa Sida",
+            "next_page": "Nästa sida",
             "notifications": "Notifikationer",
             "okay": "OK",
             "password": "Lösenord",
             "posts": "Inlägg",
-            "previous_page": "Föregående Sida",
+            "previous_page": "Föregående sida",
             "remove": "Ta bort",
             "rename": "Byt namn",
             "reply": "Svara",
             "reset_your_password": "Återställ ditt lösenord",
             "restore": "Återställ",
-            "save_changes": "Spara Ändringar",
+            "save_changes": "Spara ändringar",
             "settings": "Inställningar",
             "sign_up": "Bli Medlem",
             "some_others": "{count, plural, one {# annan} annan {# andra}}",
