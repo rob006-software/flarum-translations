@@ -11,7 +11,7 @@
                 "custom_header_text": "=> core.ref.custom_header_text",
                 "custom_styles_heading": "Anpassad Sidstil",
                 "custom_styles_text": "Ändra ditt forums utseende genom att lägga till egen LESS/CSS-kod som skriver över Flarums standardutseende.",
-                "dark_mode_label": "Mörkt Tema",
+                "dark_mode_label": "Mörkt läge",
                 "description": "Customize your forum's colors, logos, and other variables.",
                 "edit_css_button": "Ändra Anpassad CSS",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
@@ -45,7 +45,7 @@
                 "submit_button": "=> core.ref.save_changes"
             },
             "dashboard": {
-                "clear_cache_button": "Rensa Cache",
+                "clear_cache_button": "Rensa cache",
                 "description": "Ditt forum vid en anblick.",
                 "title": "Dashboard",
                 "tools_button": "Verktyg"
@@ -109,7 +109,7 @@
                 "enable_to_see": "Enable the extension to view and change settings.",
                 "enabled": "Enabled",
                 "info_links": {
-                    "discuss": "Discuss",
+                    "discuss": "Diskutera",
                     "documentation": "Dokumentation",
                     "donate": "Donera",
                     "source": "Source",
@@ -146,7 +146,7 @@
                     "authentication": "Authentication",
                     "core": "Core Configuration",
                     "discussion": "Discussion",
-                    "feature": "Features",
+                    "feature": "Funktioner",
                     "formatting": "Formatting",
                     "language": "Språk",
                     "moderation": "Moderation",
@@ -206,7 +206,7 @@
                 "signup_open_button": "Open"
             },
             "settings": {
-                "saved_message": "",
+                "saved_message": "Dina ändringar har sparats.",
                 "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
@@ -228,7 +228,7 @@
                             "visibility_show": "Visa e-postadress"
                         },
                         "group_badges": {
-                            "no_badges": "",
+                            "no_badges": "Ingen",
                             "title": "Grupper"
                         },
                         "join_time": {
@@ -245,8 +245,8 @@
                     "invalid_column_content": ""
                 },
                 "pagination": {
-                    "back_button": "",
-                    "next_button": "",
+                    "back_button": "Föregående sida",
+                    "next_button": "Nästa sida",
                     "page_counter": "Sida {current} av {total}"
                 },
                 "title": "",
@@ -649,7 +649,7 @@
             "restore": "Återställ",
             "save_changes": "Spara ändringar",
             "settings": "Inställningar",
-            "sign_up": "Bli Medlem",
+            "sign_up": "Registrera dig",
             "some_others": "{count, plural, one {# annan} annan {# andra}}",
             "start_a_discussion": "Starta en tråd",
             "username": "Användarnamn",
