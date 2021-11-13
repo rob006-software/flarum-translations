@@ -591,6 +591,9 @@ return [
 	'justoverclock-socialcards' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-socialcards/1.0.0/resources/locale/en.yml',
 	],
+	'justoverclock-thread-read-time' => [
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/thread-read-time/0.1.5/locale/en.yml',
+	],
 	'justoverclock-toastme' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-toastme/0.1.1/resources/locale/en.yml',
 	],
