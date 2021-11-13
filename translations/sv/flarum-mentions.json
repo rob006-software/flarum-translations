@@ -8,7 +8,7 @@
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "Omnämn användare eller inlägg",
+                "mention_tooltip": "Nämn en användare eller ett inlägg",
                 "reply_to_post_text": "Svara på #{number}"
             },
             "notifications": {
@@ -17,16 +17,16 @@
                 "user_mentioned_text": "{username} nämnde dig"
             },
             "post": {
-                "mentioned_by_self_text": "{users} svarade på detta.",
+                "mentioned_by_self_text": "",
                 "mentioned_by_text": "{users} svarade på detta.",
                 "others_text": "=> core.ref.some_others",
-                "quote_button": "Citat",
+                "quote_button": "",
                 "reply_link": "=> core.ref.reply",
                 "you_text": "=> core.ref.you"
             },
             "settings": {
-                "notify_post_mentioned_label": "Någon svarade på ett av mina inlägg",
-                "notify_user_mentioned_label": "Någon nämnde mig i ett inlägg"
+                "notify_post_mentioned_label": "Någon svarar på ett av mina inlägg",
+                "notify_user_mentioned_label": "Någon nämner mig i ett inlägg"
             },
             "user": {
                 "mentions_link": "Omnämnanden"
