@@ -801,6 +801,9 @@ return [
 	'webbinaro-calendar' => [
 		'tag' => 'https://raw.githubusercontent.com/eddiewebb/flarum-calendar/1.0.0/resources/locale/en.yml',
 	],
+	'xiyanxy-reply2see' => [
+		'tag' => 'https://raw.githubusercontent.com/xiyanxy/flarum-ext-reply2see/1.0.0/resources/locale/en.yml',
+	],
 	'zerosonesfun-bbcode-button' => [
 		'tag' => 'https://raw.githubusercontent.com/zerosonesfun/flarum-bbcode-button/0.1/locale/en.yml',
 	],
