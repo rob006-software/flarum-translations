@@ -37,11 +37,11 @@
         },
         "email": {
             "post_mentioned": {
-                "subject": "",
+                "subject": "{replier_display_name} svarade på ditt inlägg i {title}",
                 "body": ""
             },
             "user_mentioned": {
-                "subject": "",
+                "subject": "{mentioner_display_name} nämnde dig i {title}",
                 "body": ""
             }
         }
