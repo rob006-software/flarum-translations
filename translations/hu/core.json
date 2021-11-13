@@ -112,7 +112,7 @@
             },
             "extension": {
                 "configure_scopes": "Célok beállítása",
-                "confirm_purge": "",
+                "confirm_purge": "A tisztítás eltávolítja az összes, a bővítményhez tartozó adatbázis-bejegyzést és erőforrást. Nem távolítja el a bővítményt; azt a Composer segítségével kell megtenni. Valóban folytatja?",
                 "disabled": "Tiltva",
                 "enable_to_see": "Kapcsold be a bővítményt hogy hozzáférj a beállításaihoz.",
                 "enabled": "Engedélyezve",
@@ -128,11 +128,11 @@
                 "no_settings": "Ennek a bővítménynek nincsenek beállításai.",
                 "open_modal": "Beállítások megnyitása",
                 "permissions_title": "Engedélyek",
-                "purge_button": "",
+                "purge_button": "Tisztítás",
                 "readme": {
-                    "button_label": "",
-                    "no_readme": "",
-                    "title": ""
+                    "button_label": "README",
+                    "no_readme": "Úgy tűnik, hogy ehhez a bővítményhez nem tartozik README fájl",
+                    "title": "{extName} dokumentáció"
                 },
                 "confirm_uninstall": "A bővítmény eltávolítása törli az összes bővítménnyel kapcsolatos adatbázis bejegyzést és beállítást. Biztos folytatni szeretnéd?",
                 "uninstall_button": "Eltávolítás"
@@ -337,8 +337,8 @@
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} válaszolt {ago}",
                 "started_text": "{username} indította {ago}",
-                "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": "",
+                "total_replies_a11y_label": "{count, plural, one {# válasz} other {# válasz}}",
+                "unread_replies_a11y_label": "{count, plural, one {# olvasatlan válasz} other {# olvasatlan válasz}}. Olvasatlan {count, plural, one {válasz} other {válaszok}} olvasottnak jelölése.",
                 "mark_as_read_tooltip": "Olvasottnak jelölöm"
             },
             "forgot_password": {
@@ -487,7 +487,7 @@
                 "sent_message": "Elküldve"
             },
             "welcome_hero": {
-                "hide": ""
+                "hide": "Üdvözlő üzenet elrejtése"
             },
             "edit_user": {
                 "activate_button": "Felhasználó aktiválása",
@@ -504,7 +504,7 @@
             }
         },
         "lib": {
-            "debug_button": "",
+            "debug_button": "Hibakeresés",
             "badge": {
                 "hidden_tooltip": "Rejtett"
             },
@@ -539,10 +539,10 @@
                 "accessible_label": "=> core.ref.loading"
             },
             "modal": {
-                "close": ""
+                "close": "Bezárás"
             },
             "nav": {
-                "drawer_button": ""
+                "drawer_button": "Navigációs fiók kinyitása"
             },
             "number_suffix": {
                 "kilo_text": "E",
