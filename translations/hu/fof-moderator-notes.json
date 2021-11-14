@@ -2,32 +2,32 @@
     "fof-moderator-notes": {
         "admin": {
             "permissions": {
-                "createnotes": "",
-                "viewnotes": "",
-                "deletenotes": ""
+                "createnotes": "Moderátori jegyzetek létrehozása",
+                "viewnotes": "Moderátori jegyzetek megtekintése",
+                "deletenotes": "Moderátori jegyzetek törlése"
             }
         },
         "forum": {
-            "no_content_given": "",
+            "no_content_given": "Üres bejegyzés nem engedélyezett.",
             "moderatorNotes": {
-                "created_text": "",
-                "add_button": "",
-                "create-heading": "",
-                "dismiss_button": "",
-                "input_heading": "",
-                "noNotes": "",
-                "submit_button": "",
-                "delete": "",
-                "confirm": ""
+                "created_text": "{username} létrehozta ezt a bejegyzést ekkor: {date}",
+                "add_button": "Új jegyzet",
+                "create-heading": "Új moderátori jegyzet",
+                "dismiss_button": "Rendben",
+                "input_heading": "Írd be a jegyzetet <strong>{username}</strong> részére, (formázás engedélyezett)",
+                "noNotes": "Itt nincsenek jegyzetek.",
+                "submit_button": "Mentés",
+                "delete": "Törlés",
+                "confirm": "Tényleg törlöd a jegyzetet?"
             },
             "user": {
-                "notes": ""
+                "notes": "Moderátori jegyzetek"
             }
         },
         "api": {
-            "auto_note": "",
-            "auto_note_actor": "",
-            "no_reason_provided": ""
+            "auto_note": "_Váltottam erre a felhasználóra:_ {reason}",
+            "auto_note_actor": "_Váltottam_ @{username}: {reason}",
+            "no_reason_provided": "Nincs ok megadva"
         }
     }
 }
