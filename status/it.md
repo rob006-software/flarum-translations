@@ -1964,7 +1964,7 @@
 	</tr>
 	<tr>
 		<td>
-			<span title="Incompatible with recent Flarum">🔴</span>
+			<span title="Compatibility status with recent Flarum is unknown">🟡</span>
 			<a href="https://github.com/Hehongyuanlove/flarum-auth-qq" title="hehongyuanlove/flarum-auth-qq"><code>hehongyuanlove/flarum-auth-qq</code></a>
 		</td>
 		<td align="center">177<br /><img src="https://img.shields.io/badge/--17-brightgreen" alt="-17" title="Change from last week"></td>
