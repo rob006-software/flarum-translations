@@ -39,6 +39,4 @@
 
 | Extension | Pull request |
 | --- | --- |
-| `imshuzai-carving-contest` | [![#726 (closed)](https://img.shields.io/badge/PR-%23726-red)](https://github.com/rob006-software/flarum-translations/pull/726) |
 | `xiyanxy-reply2see` | [![#755 (open)](https://img.shields.io/badge/PR-%23755-brightgreen)](https://github.com/rob006-software/flarum-translations/pull/755) |
-| `xiyanxy-share-social-cn` | [![#756 (closed)](https://img.shields.io/badge/PR-%23756-red)](https://github.com/rob006-software/flarum-translations/pull/756) |
