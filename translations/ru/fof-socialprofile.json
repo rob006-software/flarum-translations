@@ -3,8 +3,8 @@
         "admin": {
             "permissions": {
                 "view": "Просмотр профиля в соцсетях",
-                "editOwn": "",
-                "editAny": ""
+                "editOwn": "Править свой профиль соцсетей",
+                "editAny": "Править любой профиль соцсетей"
             },
             "settings": {
                 "allow_external_favicons_label": "Разрешить иконки с внешних сайтов"
@@ -21,8 +21,8 @@
                 "delete": "Удалить",
                 "deletetitle": "Удаление кнопки",
                 "save_disabled_fetching_favicons": "Идёт процесс извлечения иконок. Пожалуйста, подождите.",
-                "favicon": "",
-                "grey_favicon": ""
+                "favicon": "Иконка-заголовок",
+                "grey_favicon": "Затемнить иконку"
             }
         }
     }
