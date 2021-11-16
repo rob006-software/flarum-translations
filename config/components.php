@@ -228,7 +228,7 @@ return [
 		'branch' => 'https://raw.githubusercontent.com/flarum/approval/master/locale/en.yml',
 	],
 	'flarum-emoji' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/emoji/v1.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/emoji/v1.1.1/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/flarum/emoji/master/locale/en.yml',
 	],
 	'flarum-flags' => [
