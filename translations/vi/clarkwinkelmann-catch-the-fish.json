@@ -94,6 +94,7 @@
                 "name": "Tên",
                 "user-name": "Được đặt tên lần cuối bởi",
                 "user-place": "Đặt lần cuối bởi",
+                "placement": "",
                 "actions": "Thao tác",
                 "edit": "Sửa",
                 "no-user-name": "Không đổi tên",
@@ -120,9 +121,33 @@
         },
         "admin": {
             "settings": {
-                "discussion-age": "Các cuộc thảo luận cũ có thể được đặt trên đó như thế nào (ngày)",
-                "post-age": "Bài viết cũ có thể được đặt trên đó bao nhiêu (ngày)",
+                "user": "",
                 "user-age": "Người dùng phải hoạt động trong bao lâu để đặt cá lên đó (ngày)",
+                "user-probability": "",
+                "discussion": "",
+                "discussion-age": "Các cuộc thảo luận cũ có thể được đặt trên đó như thế nào (ngày)",
+                "discussion-tags": "",
+                "discussion-tags-unavailable": "",
+                "discussion-tags-help": "",
+                "tags-header": {
+                    "tag": "",
+                    "probability": ""
+                },
+                "tags-control": {
+                    "choose": "",
+                    "add": "",
+                    "down": "",
+                    "up": "",
+                    "delete": ""
+                },
+                "tags-fallback": {
+                    "last-line": "",
+                    "single-line": ""
+                },
+                "post": "",
+                "post-age": "Bài viết cũ có thể được đặt trên đó bao nhiêu (ngày)",
+                "post-probability": "",
+                "general": "",
                 "time-to-place": "Thời gian cho phép đặt cá trước khi đặt ngẫu nhiên (phút)",
                 "alert-round": "Hiển thị cảnh báo với tên vòng và thời lượng trên trang chủ",
                 "animate-flip": "Lật hình ảnh cá dựa trên hướng"
@@ -145,6 +170,7 @@
             "invalid-user-id": "Người dùng dường như không tồn tại, có thể gần đây người dùng đã bị xóa",
             "model-deleted": "Không thể đặt cá trên một cuộc thảo luận hoặc bài đăng đã xóa",
             "model-private": "Không thể đặt cá trên một cuộc thảo luận hoặc bài đăng riêng tư",
+            "tag-not-allowed": "",
             "inactive-discussion": "Không thể đặt cá vào cuộc thảo luận không hoạt động trong hơn {days} ngày",
             "inactive-post": "Không thể đặt cá trên bài đăng đã tạo cách đây hơn {days} ngày",
             "inactive-user": "Không thể đặt cá cho người dùng không hoạt động trong hơn {days} ngày",

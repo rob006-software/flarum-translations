@@ -94,6 +94,7 @@
                 "name": "Ad",
                 "user-name": "En son adlandıran",
                 "user-place": "En son yerleştiren",
+                "placement": "",
                 "actions": "Eylemler",
                 "edit": "Düzenle",
                 "no-user-name": "Yeniden adlandırılmadı",
@@ -120,9 +121,33 @@
         },
         "admin": {
             "settings": {
-                "discussion-age": "Üzerine balık konulabilmesi için tartışma ne kadar eski olmalıdır (gün cinsinden)",
-                "post-age": "Üzerine balık konulabilmesi için gönderi ne kadar eski olmalıdır (gün cinsinden)",
+                "user": "",
                 "user-age": "How long since a user must have been active for a fish to be placed on it (days)",
+                "user-probability": "",
+                "discussion": "",
+                "discussion-age": "Üzerine balık konulabilmesi için tartışma ne kadar eski olmalıdır (gün cinsinden)",
+                "discussion-tags": "",
+                "discussion-tags-unavailable": "",
+                "discussion-tags-help": "",
+                "tags-header": {
+                    "tag": "",
+                    "probability": ""
+                },
+                "tags-control": {
+                    "choose": "",
+                    "add": "",
+                    "down": "",
+                    "up": "",
+                    "delete": ""
+                },
+                "tags-fallback": {
+                    "last-line": "",
+                    "single-line": ""
+                },
+                "post": "",
+                "post-age": "Üzerine balık konulabilmesi için gönderi ne kadar eski olmalıdır (gün cinsinden)",
+                "post-probability": "",
+                "general": "",
                 "time-to-place": "Time allowed to place fish before it is randomly placed (minutes)",
                 "alert-round": "Show an altert with the round name and duration on the homepage",
                 "animate-flip": "Flip fish images based on direction",
@@ -146,6 +171,7 @@
             "invalid-user-id": "User doesn't seem to exist, maybe it was recently deleted",
             "model-deleted": "Can't place fish on a deleted discussion or post",
             "model-private": "Can't place fish on a private discussion or post",
+            "tag-not-allowed": "",
             "inactive-discussion": "Can't place fish on discussion inactive for more than {days} days",
             "inactive-post": "Can't place fish on post created more than {days} days ago",
             "inactive-user": "Can't place fish on user inactive for more than {days} days",

@@ -94,6 +94,7 @@
                 "name": "Name",
                 "user-name": "Zuletzt benannt von",
                 "user-place": "Zuletzt platziert von",
+                "placement": "",
                 "actions": "Aktionen",
                 "edit": "Bearbeiten",
                 "no-user-name": "Nicht benannt",
@@ -120,9 +121,33 @@
         },
         "admin": {
             "settings": {
-                "discussion-age": "Wie alt Diskussionen sein können, damit ein Fisch darauf platziert wird (Tage)",
-                "post-age": "Wie alt können Pfosten sein, damit ein Fisch darauf platziert wird (Tage)",
+                "user": "",
                 "user-age": "Wie lange muss ein Benutzer aktiv gewesen sein, damit ein Fisch darauf platziert wird (Tage)",
+                "user-probability": "",
+                "discussion": "",
+                "discussion-age": "Wie alt Diskussionen sein können, damit ein Fisch darauf platziert wird (Tage)",
+                "discussion-tags": "",
+                "discussion-tags-unavailable": "",
+                "discussion-tags-help": "",
+                "tags-header": {
+                    "tag": "",
+                    "probability": ""
+                },
+                "tags-control": {
+                    "choose": "",
+                    "add": "",
+                    "down": "",
+                    "up": "",
+                    "delete": ""
+                },
+                "tags-fallback": {
+                    "last-line": "",
+                    "single-line": ""
+                },
+                "post": "",
+                "post-age": "Wie alt können Pfosten sein, damit ein Fisch darauf platziert wird (Tage)",
+                "post-probability": "",
+                "general": "",
                 "time-to-place": "Zeit, um Fische zu platzieren, bevor sie zufällig platziert werden (Minuten)",
                 "alert-round": "Zeige einen Altert mit dem runden Namen und der Dauer auf der Homepage an",
                 "animate-flip": "Spiegel Fischbilder basierend auf der Richtung"
@@ -145,6 +170,7 @@
             "invalid-user-id": "Benutzer scheint nicht zu existieren, vielleicht wurde er kürzlich gelöscht",
             "model-deleted": "Fisch kann nicht in einer gelöschten Diskussion oder einem gelöschten Beitrag platziert werden",
             "model-private": "Fische können nicht in eine private Diskussion oder einen privaten Beitrag eingefügt werden",
+            "tag-not-allowed": "",
             "inactive-discussion": "Fische können nicht länger als {days}Tage in einer Diskussion inaktiv platziert werden",
             "inactive-post": "Fisch kann nicht in Beitrag platziert werden, der vor mehr als {days} Tagen erstellt wurde",
             "inactive-user": "Fische können nicht auf Nutzer platziert werden, die länger als {days} Tage inaktiv sind",

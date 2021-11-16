@@ -94,6 +94,7 @@
                 "name": "名字",
                 "user-name": "最后命名人：",
                 "user-place": "最后放置人：",
+                "placement": "",
                 "actions": "动作",
                 "edit": "编辑",
                 "no-user-name": "不重命名",
@@ -120,9 +121,33 @@
         },
         "admin": {
             "settings": {
-                "discussion-age": "一条鱼能放置在主题帖中几天",
-                "post-age": "一条鱼能放在回复帖中几天",
+                "user": "",
                 "user-age": "用户必须活跃多久才能放置鱼（天）",
+                "user-probability": "",
+                "discussion": "",
+                "discussion-age": "一条鱼能放置在主题帖中几天",
+                "discussion-tags": "",
+                "discussion-tags-unavailable": "",
+                "discussion-tags-help": "",
+                "tags-header": {
+                    "tag": "",
+                    "probability": ""
+                },
+                "tags-control": {
+                    "choose": "",
+                    "add": "",
+                    "down": "",
+                    "up": "",
+                    "delete": ""
+                },
+                "tags-fallback": {
+                    "last-line": "",
+                    "single-line": ""
+                },
+                "post": "",
+                "post-age": "一条鱼能放在回复帖中几天",
+                "post-probability": "",
+                "general": "",
                 "time-to-place": "随机放置鱼之前允许放置的时间（分钟）",
                 "alert-round": "在首页上显示回合和持续时间的提醒",
                 "animate-flip": "根据方向翻转鱼的图像",
@@ -146,6 +171,7 @@
             "invalid-user-id": "用户似乎不存在，可能最近被删除了",
             "model-deleted": "无法将鱼放在已删除的主题贴或回复帖上",
             "model-private": "不能在私密主题中放置鱼",
+            "tag-not-allowed": "",
             "inactive-discussion": "不能将鱼放置在闲置了 {days} 天的帖子中",
             "inactive-post": "不能将鱼放置在 {days} 前创建的主题中",
             "inactive-user": "不能将鱼放在超过 {days} 天没上线的用户这里",
