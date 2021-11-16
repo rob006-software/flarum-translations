@@ -528,6 +528,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`justoverclock-last-tweet`](https://weblate.rob006.net/projects/flarum/justoverclock-last-tweet) | [`justoverclock/last-tweet`](https://github.com/justoverclockl/last-tweet) |
 | [`justoverclock-last-users-posts`](https://weblate.rob006.net/projects/flarum/justoverclock-last-users-posts) | [`justoverclock/last-users-posts`](https://github.com/justoverclockl/last-users-posts) |
 | [`justoverclock-og-meta-tag`](https://weblate.rob006.net/projects/flarum/justoverclock-og-meta-tag) | [`justoverclock/og-meta-tag`](https://github.com/justoverclockl/og-meta-tag) |
+| [`justoverclock-top-crypto-currencies`](https://weblate.rob006.net/projects/flarum/justoverclock-top-crypto-currencies) | [`justoverclock/top-crypto-currencies`](https://github.com/justoverclockl/top-crypto-currencies) |
 | [`justoverclock-username-blacklist`](https://weblate.rob006.net/projects/flarum/justoverclock-username-blacklist) | [`justoverclock/username-blacklist`](https://github.com/justoverclockl/username-blacklist) |
 | [`justoverclock-youtube-video-feed`](https://weblate.rob006.net/projects/flarum/justoverclock-youtube-video-feed) | [`justoverclock/youtube-video-feed`](https://github.com/justoverclockl/youtube-video-feed) |
 | [`katosdev-signature`](https://weblate.rob006.net/projects/flarum/katosdev-signature) | [`katosdev/signature`](https://github.com/katosdev/signature) |
@@ -609,6 +610,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`justoverclock-igdb-api`](https://weblate.rob006.net/projects/flarum/justoverclock-igdb-api) | [`justoverclock/igdb-api`](https://extiverse.com/extension/justoverclock/igdb-api) |
 | [`justoverclock-imdb-api`](https://weblate.rob006.net/projects/flarum/justoverclock-imdb-api) | [`justoverclock/imdb-api`](https://extiverse.com/extension/justoverclock/imdb-api) |
 | [`justoverclock-related-discussions`](https://weblate.rob006.net/projects/flarum/justoverclock-related-discussions) | [`justoverclock/related-discussions`](https://extiverse.com/extension/justoverclock/related-discussions) |
+| [`justoverclock-theaudiodb-api`](https://weblate.rob006.net/projects/flarum/justoverclock-theaudiodb-api) | [`justoverclock/theaudiodb-api`](https://extiverse.com/extension/justoverclock/theaudiodb-api) |
 | [`justoverclock-website-live-screenshot`](https://weblate.rob006.net/projects/flarum/justoverclock-website-live-screenshot) | [`justoverclock/website-live-screenshot`](https://extiverse.com/extension/justoverclock/website-live-screenshot) |
 | [`kilowhat-audit-pro`](https://weblate.rob006.net/projects/flarum/kilowhat-audit-pro) | [`kilowhat/flarum-ext-audit-pro`](https://extiverse.com/extension/kilowhat/flarum-ext-audit-pro) |
 | [`kilowhat-custom-paths`](https://weblate.rob006.net/projects/flarum/kilowhat-custom-paths) | [`kilowhat/flarum-ext-custom-paths`](https://extiverse.com/extension/kilowhat/flarum-ext-custom-paths) |
