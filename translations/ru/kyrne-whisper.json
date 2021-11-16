@@ -2,20 +2,20 @@
     "kyrne-whisper": {
         "admin": {
             "settings": {
-                "return_key": "",
-                "title": "",
-                "set_own_password": ""
+                "return_key": "Нажатие на Enter/Ввод отправит сообщение",
+                "title": "Настройки Whisper",
+                "set_own_password": "Разрешить пользователям создавать свои собственные пароли - технология единого входа"
             },
             "permissions": {
-                "start_label": ""
+                "start_label": "Начать приватные беседы"
             }
         },
         "forum": {
             "dropdown": {
-                "tooltip": ""
+                "tooltip": "Беседы"
             },
             "setup": {
-                "title": "",
+                "title": "Настроить личные сообщения",
                 "header_setup": "",
                 "header_import": "",
                 "header_set_own": "",
