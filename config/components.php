@@ -112,7 +112,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-carving-contest/1.0.0/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-catch-the-fish' => [
-		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/catch-the-fish/1.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/catch-the-fish/1.1.0/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-clippy' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-clippy/1.0.0/resources/locale/en.yml',
