@@ -499,7 +499,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/jslirola/flarum-ext-login2seeplus/v0.2/locale/en.yml',
 	],
 	'justoverclock-auto-post-count-badge' => [
-		'tag' => 'https://raw.githubusercontent.com/justoverclockl/auto-post-count-badge/0.1.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/auto-post-count-badge/0.1.2/locale/en.yml',
 	],
 	'justoverclock-contactme' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-contactme/0.2.3/resources/locale/en.yml',
