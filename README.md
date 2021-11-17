@@ -421,6 +421,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 
 | Extension ID | Package name |
 | --- | --- |
+| [`acpl-lscache`](https://weblate.rob006.net/projects/flarum/acpl-lscache) | [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) |
 | [`acpl-mobile-tab`](https://weblate.rob006.net/projects/flarum/acpl-mobile-tab) | [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) |
 | [`acpl-my-tags`](https://weblate.rob006.net/projects/flarum/acpl-my-tags) | [`acpl/my-tags`](https://github.com/android-com-pl/my-tags) |
 | [`afrux-asirem`](https://weblate.rob006.net/projects/flarum/afrux-asirem) | [`afrux/asirem`](https://github.com/afrux/asirem) |
@@ -473,6 +474,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`clarkwinkelmann-translation-inspector`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-translation-inspector) | [`clarkwinkelmann/flarum-ext-translation-inspector`](https://github.com/clarkwinkelmann/flarum-ext-translation-inspector) |
 | [`clarkwinkelmann-username-blacklist`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-username-blacklist) | [`clarkwinkelmann/flarum-ext-username-blacklist`](https://github.com/clarkwinkelmann/flarum-ext-username-blacklist) |
 | [`clarkwinkelmann-who-read`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-who-read) | [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read) |
+| [`datitisev-discussion-agree-message`](https://weblate.rob006.net/projects/flarum/datitisev-discussion-agree-message) | [`datitisev/flarum-discussion-agree-message`](https://github.com/datitisev/flarum-discussion-agree-message) |
 | [`davwheat-custom-sidenav-links`](https://weblate.rob006.net/projects/flarum/davwheat-custom-sidenav-links) | [`davwheat/custom-sidenav-links`](https://github.com/davwheat/flarum-ext-custom-sidenav-links) |
 | [`davwheat-ads`](https://weblate.rob006.net/projects/flarum/davwheat-ads) | [`davwheat/flarum-ext-ads`](https://github.com/davwheat/flarum-ext-ads) |
 | [`davwheat-share`](https://weblate.rob006.net/projects/flarum/davwheat-share) | [`davwheat/flarum-ext-share`](https://github.com/davwheat/flarum-ext-share) |
