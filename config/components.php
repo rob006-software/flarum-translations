@@ -24,6 +24,9 @@ return [
 		'https://raw.githubusercontent.com/flarum/core/master/locale/validation.yml',
 	],
 	/* extensions list begin */
+	'acpl-lscache' => [
+		'tag' => 'https://raw.githubusercontent.com/android-com-pl/flarum-lscache/main/locale/en.yml',
+	],
 	'acpl-mobile-tab' => [
 		'tag' => 'https://raw.githubusercontent.com/android-com-pl/mobile-tab/1.0.5/locale/en.yml',
 	],
