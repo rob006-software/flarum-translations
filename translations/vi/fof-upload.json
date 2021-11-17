@@ -55,7 +55,7 @@
                     "max_file_size": "Kích thước tối đa (kilobyte)",
                     "mime_types": "Cấu hình mine",
                     "title": "Cài đặt chung",
-                    "php_ini_values": ""
+                    "php_ini_values": "Các giá trị trong <code>php.ini</code> của bạn là <code>post_max_size={post}</code> và <code>upload_max_filesize={upload}</code>. Đảm bảo giá trị được đặt ở đây thấp hơn các ngưỡng này hoặc điều chỉnh chúng cho phù hợp. Nếu sử dụng <code>Nginx</code>, thì cũng đảm bảo <code>client_max_body_size</code> có đủ kích thước cho giới hạn tối đa bạn đã nhập."
                 },
                 "resize": {
                     "max_width": "Chiều rộng/chiều cao hình ảnh tối đa",
