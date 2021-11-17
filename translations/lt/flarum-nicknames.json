@@ -7,7 +7,10 @@
             "settings": {
                 "max_label": "Ilgiausias slapyvardis",
                 "min_label": "Trumpiausias slapyvardis",
+                "random_username_label": "",
+                "random_username_help": "",
                 "regex_label": "Reguliari patvirtinimo išraiška",
+                "set_on_registration_label": "",
                 "unique_label": "Reikalauti unikalių slapyvardžių?"
             },
             "wrong_driver": "Turite pasirinkti \"slapyvardį\" kaip rodomą vartotojo vardą <a><strong>Pagrindiniame puslapyje</strong></a>, kad šis įskiepis įsigaliotų."
@@ -26,10 +29,14 @@
             },
             "settings": {
                 "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
+            },
+            "sign_up": {
+                "nickname_placeholder": ""
             }
         },
         "ref": {
-            "change_nickname": "Keisti slapyvardį"
+            "change_nickname": "Keisti slapyvardį",
+            "nickname": ""
         }
     }
 }

@@ -7,7 +7,10 @@
             "settings": {
                 "max_label": "Maksimum kullanıcı adı uzunluğu",
                 "min_label": "Minimum kullanıcı adı uzunluğu",
+                "random_username_label": "",
+                "random_username_help": "",
                 "regex_label": "Doğrulama için normal ifade",
+                "set_on_registration_label": "",
                 "unique_label": "Eşsiz kullanıcı adları gerekli mi?"
             },
             "wrong_driver": "Bu uzantının çalışabilmesi için <a><strong>Temel Öğeler</strong></a> sayfasındaki görünen ad sürücüsünü \"kullanıcı adı\" olarak seçmelisiniz."
@@ -26,10 +29,14 @@
             },
             "settings": {
                 "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
+            },
+            "sign_up": {
+                "nickname_placeholder": ""
             }
         },
         "ref": {
-            "change_nickname": "Görünür Adı Değiştir"
+            "change_nickname": "Görünür Adı Değiştir",
+            "nickname": ""
         }
     }
 }

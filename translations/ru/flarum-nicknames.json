@@ -7,7 +7,10 @@
             "settings": {
                 "max_label": "Максимальная длина имени пользователя",
                 "min_label": "Минимальная длина имени пользователя",
+                "random_username_label": "",
+                "random_username_help": "",
                 "regex_label": "Регулярное выражение для проверки",
+                "set_on_registration_label": "",
                 "unique_label": "Требовать уникальные имена пользователей?"
             },
             "wrong_driver": "Необходимо выбрать \"nickname\" в качестве драйвера отображаемого имени на <a><strong>странице настроек</strong></a> для того, чтобы это расширение заработало."
@@ -26,10 +29,14 @@
             },
             "settings": {
                 "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
+            },
+            "sign_up": {
+                "nickname_placeholder": ""
             }
         },
         "ref": {
-            "change_nickname": "Изменить имя"
+            "change_nickname": "Изменить имя",
+            "nickname": ""
         }
     }
 }

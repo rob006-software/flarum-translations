@@ -7,7 +7,10 @@
             "settings": {
                 "max_label": "Độ dài biệt danh tối đa",
                 "min_label": "Độ dài biệt danh tối thiểu",
+                "random_username_label": "",
+                "random_username_help": "",
                 "regex_label": "Biểu thức chính quy để xác thực",
+                "set_on_registration_label": "",
                 "unique_label": "Bắt buộc biệt danh phải chỉ có một?"
             },
             "wrong_driver": "Bạn phải chọn \"biệt danh\" làm trình điều khiển tên hiển thị trên trang <a><strong>Cơ bản</strong></a> để tiện ích mở rộng này có hiệu lực."
@@ -26,10 +29,14 @@
             },
             "settings": {
                 "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
+            },
+            "sign_up": {
+                "nickname_placeholder": ""
             }
         },
         "ref": {
-            "change_nickname": "Thay đổi biệt danh"
+            "change_nickname": "Thay đổi biệt danh",
+            "nickname": ""
         }
     }
 }

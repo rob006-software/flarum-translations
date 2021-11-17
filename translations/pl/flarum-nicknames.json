@@ -7,7 +7,10 @@
             "settings": {
                 "max_label": "Maksymalna długość pseudonimu",
                 "min_label": "Minimalna długość pseudonimu",
+                "random_username_label": "",
+                "random_username_help": "",
                 "regex_label": "Wyrażenie regularne dla walidacji",
+                "set_on_registration_label": "",
                 "unique_label": "Wymagaj unikalnych pseudonimów?"
             },
             "wrong_driver": "Musisz wybrać \"nickname\" jako sterownik, który powinien być używany do wyświetlania nazw użytkowników, na stronie <a><strong>podstawowych ustawień</strong></a>, aby to rozszerzenie zadziałało."
@@ -26,10 +29,14 @@
             },
             "settings": {
                 "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
+            },
+            "sign_up": {
+                "nickname_placeholder": ""
             }
         },
         "ref": {
-            "change_nickname": "Zmień pseudonim"
+            "change_nickname": "Zmień pseudonim",
+            "nickname": ""
         }
     }
 }

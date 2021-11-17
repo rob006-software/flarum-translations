@@ -7,7 +7,10 @@
             "settings": {
                 "max_label": "最大昵称长度",
                 "min_label": "最小昵称长度",
+                "random_username_label": "",
+                "random_username_help": "",
                 "regex_label": "验证用正则表达式",
+                "set_on_registration_label": "",
                 "unique_label": "需要唯一昵称？"
             },
             "wrong_driver": "您必须在 <a><strong>常规设置</strong></a> 中将「昵称」设置为外显名称，此扩展才会起作用。"
@@ -26,10 +29,14 @@
             },
             "settings": {
                 "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
+            },
+            "sign_up": {
+                "nickname_placeholder": ""
             }
         },
         "ref": {
-            "change_nickname": "更改昵称"
+            "change_nickname": "更改昵称",
+            "nickname": ""
         }
     }
 }

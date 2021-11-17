@@ -7,7 +7,10 @@
             "settings": {
                 "max_label": "Maximale Länge für Nicknamen",
                 "min_label": "Minimale Länge für Nicknamen",
+                "random_username_label": "",
+                "random_username_help": "",
                 "regex_label": "Regulärer Ausdruck zur Validierung",
+                "set_on_registration_label": "",
                 "unique_label": "Nicknamen müssen einzigartig sein"
             },
             "wrong_driver": "Du musst \"nickname\" als den Anzeigenamen-Treiber in den <a><strong>Grundeinstellungen</strong></a> auswählen, damit diese Erweiterung einen Effekt hat."
@@ -26,10 +29,14 @@
             },
             "settings": {
                 "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
+            },
+            "sign_up": {
+                "nickname_placeholder": ""
             }
         },
         "ref": {
-            "change_nickname": "Nickname ändern"
+            "change_nickname": "Nickname ändern",
+            "nickname": ""
         }
     }
 }
