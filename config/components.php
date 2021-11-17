@@ -493,7 +493,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/imorland/synopsis/1.0.2/resources/locale/en.yml',
 	],
 	'itnt-uitab' => [
-		'tag' => 'https://raw.githubusercontent.com/Littlegolden/flarum-uitab/v0.4.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Littlegolden/flarum-uitab/v0.4.1/resources/locale/en.yml',
 	],
 	'jslirola-login2seeplus' => [
 		'tag' => 'https://raw.githubusercontent.com/jslirola/flarum-ext-login2seeplus/v0.2/locale/en.yml',
