@@ -120,6 +120,9 @@ return [
 	'clarkwinkelmann-clippy' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-clippy/1.0.0/resources/locale/en.yml',
 	],
+	'clarkwinkelmann-collapsible-posts' => [
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-collapsible-posts/1.0.0/resources/locale/en.yml',
+	],
 	'clarkwinkelmann-create-user-modal' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-create-user-modal/1.3.0/resources/locale/en.yml',
 	],
