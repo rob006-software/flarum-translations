@@ -7,10 +7,10 @@
             "settings": {
                 "max_label": "Longueur maximale du pseudonyme",
                 "min_label": "Longueur minimale du pseudonyme",
-                "random_username_label": "",
-                "random_username_help": "",
+                "random_username_label": "Rendre les noms d'utilisateur aléatoires",
+                "random_username_help": "Ceci masquera le champ `username` lors de l'inscription, et utilisera un nombre aléatoire à la place. Cela rendra également le champ `nickname` obligatoire. Cette option ne prendra effet que si le réglage « Permettre de définir des surnoms lors de l'inscription » est activé.",
                 "regex_label": "Expression régulière pour la validation",
-                "set_on_registration_label": "",
+                "set_on_registration_label": "Permettre de définir des surnoms lors de l'inscription",
                 "unique_label": "Exiger des pseudonymes uniques ?"
             },
             "wrong_driver": "Vous devez sélectionner \"nickname\" comme pilote de nom d'affichage sur la page <a><strong>Essentiels</strong></a> pour que cette extension prenne effet."
@@ -31,12 +31,12 @@
                 "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
             },
             "sign_up": {
-                "nickname_placeholder": ""
+                "nickname_placeholder": "=> flarum-nicknames.ref.nickname"
             }
         },
         "ref": {
             "change_nickname": "Modifier le pseudonyme",
-            "nickname": ""
+            "nickname": "Surnom"
         }
     }
 }
