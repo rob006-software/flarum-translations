@@ -7,10 +7,10 @@
             "settings": {
                 "max_label": "Maksimum kullanıcı adı uzunluğu",
                 "min_label": "Minimum kullanıcı adı uzunluğu",
-                "random_username_label": "",
-                "random_username_help": "",
+                "random_username_label": "Rastgele Kullanıcı Adları",
+                "random_username_help": "Bu, kayıt sırasında \"kullanıcı adı\" girişini gizler ve bunun yerine rastgele bir sayı kullanır. Ayrıca 'takma ad' alanını zorunlu hale getirecektir. Bu, yalnızca \"Kayıt sırasında takma adların ayarlanmasına izin ver\" etkinleştirildiğinde geçerli olacaktır.",
                 "regex_label": "Doğrulama için normal ifade",
-                "set_on_registration_label": "",
+                "set_on_registration_label": "Kayıt sırasında takma adların ayarlanmasına izin ver",
                 "unique_label": "Eşsiz kullanıcı adları gerekli mi?"
             },
             "wrong_driver": "Bu uzantının çalışabilmesi için <a><strong>Temel Öğeler</strong></a> sayfasındaki görünen ad sürücüsünü \"kullanıcı adı\" olarak seçmelisiniz."
@@ -31,12 +31,12 @@
                 "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
             },
             "sign_up": {
-                "nickname_placeholder": ""
+                "nickname_placeholder": "=> flarum-nicknames.ref.nickname"
             }
         },
         "ref": {
             "change_nickname": "Görünür Adı Değiştir",
-            "nickname": ""
+            "nickname": "Takma ad"
         }
     }
 }
