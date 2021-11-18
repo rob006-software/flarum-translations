@@ -1,0 +1,38 @@
+{
+    "clarkwinkelmann-collapsible-posts": {
+        "admin": {
+            "settings": {
+                "reasons": "Reasons",
+                "header": {
+                    "key": "Unique database key",
+                    "label": "Label",
+                    "explanation": "Custom explanation message"
+                },
+                "add": "New reason",
+                "explanationUrl": "Explanation URL",
+                "explanationUrlHelp": "Optional. Shows up under collapsed posts"
+            },
+            "permission": {
+                "collapse": "Collapse posts"
+            }
+        },
+        "forum": {
+            "postControl": {
+                "collapse": "Collapse",
+                "uncollapse": "(Un)collapse"
+            },
+            "modal": {
+                "title": "Collapse post",
+                "uncollapse": "Uncollapse"
+            },
+            "badge": {
+                "post": "Collapsed"
+            },
+            "stream": {
+                "hidden": "{count, plural, one {# post hidden as {reason}} other {# posts hidden as {reason}}}",
+                "load": "Load more",
+                "explanation": "Why am I seeing this?"
+            }
+        }
+    }
+}
