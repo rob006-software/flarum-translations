@@ -1,11 +1,11 @@
 {
     "acpl-lscache": {
         "admin": {
-            "public_cache_ttl_label": "",
-            "public_cache_ttl_help": "",
-            "purge_on_discussion_update_label": "",
-            "purge_on_discussion_update_help": "",
-            "purge_all": "",
+            "public_cache_ttl_label": "Varsayılan genel önbellek TTL",
+            "public_cache_ttl_help": "Sayfaların ne kadar süreyle önbelleğe alınacağını saniye cinsinden belirtin. Varsayılan değer 300 saniyedir",
+            "purge_on_discussion_update_label": "Bir tartışma veya gönderi güncellendiğinde URL'leri veya Etiketleri temizle",
+            "purge_on_discussion_update_help": "Satır başına bir URL veya Etiket belirtin. URL, <code>/</code> ile başlamalıdır, ör. <code>/rankings4</code> ve önbellek Etiketi <code>tag=</code> ile başlamalıdır, ör. <code>etiket=sıralamalar</code>. Bu uzantı her rotayı etiketler ve örneğin, temizlemek istediğiniz çok sayıda rotanız varsa, .htaccess'e rotaları etiketleyecek normal bir ifadeyle bir kural eklemek daha iyidir ve burada ayarlara yalnızca bu etiketi girin . Bu yöntem çok daha hızlı olacaktır. <a>Daha fazla bilgi edinin</a>. Varsayılan olarak, ana sayfanın önbelleği ve güncellenmiş tartışmaların önbelleği temizlenir",
+            "purge_all": "Tüm LSCache'i temizle",
             "purge_all_success": ""
         }
     }
