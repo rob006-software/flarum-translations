@@ -2,36 +2,36 @@
     "clarkwinkelmann-collapsible-posts": {
         "admin": {
             "settings": {
-                "reasons": "",
+                "reasons": "Lý do",
                 "header": {
-                    "key": "",
-                    "label": "",
-                    "explanation": ""
+                    "key": "Khoá cơ sở dữ liệu duy nhất",
+                    "label": "Nhãn",
+                    "explanation": "Tin nhắn giải thịch tuỳ chỉnh"
                 },
-                "add": "",
-                "explanationUrl": "",
-                "explanationUrlHelp": ""
+                "add": "Lý do mới",
+                "explanationUrl": "URL giải thích",
+                "explanationUrlHelp": "Không bắt buộc. Hiển thị dưới các bài viết đã thu gọn"
             },
             "permission": {
-                "collapse": ""
+                "collapse": "Thu gọn các bài viết"
             }
         },
         "forum": {
             "postControl": {
-                "collapse": "",
-                "uncollapse": ""
+                "collapse": "Thu gọn",
+                "uncollapse": "Huỷ thu gọn"
             },
             "modal": {
-                "title": "",
-                "uncollapse": ""
+                "title": "Thu gọn bài viết",
+                "uncollapse": "Huỷ thu gọn"
             },
             "badge": {
-                "post": ""
+                "post": "Đã thu gọn"
             },
             "stream": {
-                "hidden": "",
-                "load": "",
-                "explanation": ""
+                "hidden": "{count, plural, one {# bài viết bị ẩn vì {reason}} other {# bài viết bị ẩn vì {reason}}}",
+                "load": "Tải thêm",
+                "explanation": "Tại sao tôi lại thấy cái này?"
             }
         }
     }
