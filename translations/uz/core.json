@@ -63,17 +63,17 @@
                 "delete_confirmation": "Bu guruhni oʻchirib tashlamoqchimisiz? Guruh a'zolari o'chirilmaydi.",
                 "hide_label": "Forumda yashirish",
                 "icon_label": "=> core.ref.icon",
-                "icon_text": "",
+                "icon_text": "=> core.ref.icon_text",
                 "name_label": "Nomi",
                 "plural_placeholder": "Ko‘plik (masalan, Modlar)",
                 "singular_placeholder": "Birlik (masalan, Mod)",
-                "submit_button": "",
+                "submit_button": "=> core.ref.save_changes",
                 "title": "Guruh yaratish"
             },
             "edit_header": {
-                "customize_text": "",
-                "submit_button": "",
-                "title": ""
+                "customize_text": "=> core.ref.custom_header_text",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.custom_header_title"
             },
             "email": {
                 "addresses_heading": "Manzillar",
@@ -86,9 +86,9 @@
                 "mail_mailgun_domain_label": "Domen",
                 "mail_mailgun_region_label": "Hudud",
                 "mail_mailgun_secret_label": "Maxfiy kalit",
-                "mail_password_label": "",
+                "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "Port",
-                "mail_username_label": "",
+                "mail_username_label": "=> core.ref.username",
                 "mailgun_heading": "Pochta quroli sozlamalari",
                 "not_sending_message": "Flarum hozirda elektron pochta xabarlarini yubormaydi. Buning sababi tanlangan drayver yoki uning konfiguratsiyasidagi xatolar bo'lishi mumkin.",
                 "send_test_mail_button": "Jo'natish",
@@ -96,7 +96,7 @@
                 "send_test_mail_success": "Sinov xati muvaffaqiyatli yuborildi!",
                 "send_test_mail_text": "Bu sizning {email} manzilingizga yuqoridagi konfiguratsiyadan foydalangan holda xat yuboradi.",
                 "smtp_heading": "SMTP sozlamalar",
-                "title": ""
+                "title": "=> core.ref.email"
             },
             "extension": {
                 "configure_scopes": "Qamrovlarni sozlash",
@@ -127,16 +127,16 @@
             },
             "header": {
                 "get_help": "Yordam",
-                "log_out_button": ""
+                "log_out_button": "=> core.ref.log_out"
             },
             "loading": {
                 "title": "Iltimos kuting..."
             },
             "nav": {
-                "appearance_button": "",
-                "appearance_title": "",
-                "basics_button": "",
-                "basics_title": "",
+                "appearance_button": "=> core.admin.appearance.title",
+                "appearance_title": "=> core.admin.appearance.description",
+                "basics_button": "=> core.admin.basics.title",
+                "basics_title": "=> core.admin.basics.description",
                 "categories": {
                     "authentication": "Autentifikatsiya",
                     "core": "Forum sozlamalari",
@@ -148,14 +148,14 @@
                     "other": "Boshqa kengaytmalar",
                     "theme": "Mavzular"
                 },
-                "dashboard_button": "",
-                "dashboard_title": "",
-                "email_button": "",
-                "email_title": "",
-                "permissions_button": "",
-                "permissions_title": "",
-                "userlist_button": "",
-                "userlist_title": "",
+                "dashboard_button": "=> core.admin.dashboard.title",
+                "dashboard_title": "=> core.admin.dashboard.description",
+                "email_button": "=> core.ref.email",
+                "email_title": "=> core.admin.email.description",
+                "permissions_button": "=> core.admin.permissions.title",
+                "permissions_title": "=> core.admin.permissions.description",
+                "userlist_button": "=> core.admin.users.title",
+                "userlist_title": "=> core.admin.users.description",
                 "search_placeholder": "Kengaytmalarni qidirish"
             },
             "permissions": {
@@ -190,7 +190,7 @@
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Cheklanmagan",
-                "allow_some_minutes_button": "",
+                "allow_some_minutes_button": "{count, plural, one {# minut} other {# minut}}",
                 "allow_ten_minutes_button": "10 minut",
                 "allow_until_reply_button": "Javob kelishini kutish",
                 "everyone_button": "Hamma",
@@ -505,37 +505,37 @@
             },
             "series": {
                 "glue_text": "",
-                "three_text": "",
-                "two_text": ""
+                "three_text": "{first}, {second}, va {third}",
+                "two_text": "{first} va {second}"
             },
             "username": {
-                "deleted_text": ""
+                "deleted_text": "[o'chirildi]"
             }
         },
         "views": {
             "admin": {
                 "extensions": {
                     "caption": "",
-                    "disable": "",
-                    "empty": "",
-                    "enable": "",
-                    "name": "",
-                    "package_name": "",
-                    "version": ""
+                    "disable": "O'chirish",
+                    "empty": "O'rnatilgan kengaytmalar yo'q",
+                    "enable": "Ruxsat berish",
+                    "name": "Kengaytma nomi",
+                    "package_name": "Paket nomi",
+                    "version": "Versiya"
                 },
                 "info": {
-                    "caption": ""
+                    "caption": "Dastur haqida"
                 },
-                "title": ""
+                "title": "Administrator"
             },
             "confirm_email": {
                 "submit_button": "",
-                "text": "",
+                "text": "Emailni tasdiqlash uchun quyidagi tugmani bosing.",
                 "title": ""
             },
             "content": {
-                "javascript_disabled_message": "",
-                "load_error_message": "",
+                "javascript_disabled_message": "Bu sayt JavaScripti mavjud brauzerda yaxshiroq ko'rinadi.",
+                "load_error_message": "Saytni to'liq versiyasini yuklashda xatolik yuz berdi. Sahifani yangilang.",
                 "loading_text": ""
             },
             "discussion": {
@@ -543,14 +543,14 @@
                 "previous_page_button": ""
             },
             "error": {
-                "csrf_token_mismatch": "",
-                "csrf_token_mismatch_return_link": "",
-                "invalid_confirmation_token": "",
-                "not_authenticated": "",
-                "not_found": "",
-                "not_found_return_link": "",
-                "permission_denied": "",
-                "unknown": ""
+                "csrf_token_mismatch": "Anchadan beri faol emassiz.",
+                "csrf_token_mismatch_return_link": "Qaytadan urinib ko'ring",
+                "invalid_confirmation_token": "Tasdiqlash havolasining muddati o'tgan.",
+                "not_authenticated": "Bu sahifaga o'tishga sizda ruxsat yo'q. Saytga kirib qaytadan urinib ko'ring.",
+                "not_found": "Siz so'ragan sahifa topilmadi.",
+                "not_found_return_link": "{forum} ga qaytish",
+                "permission_denied": "Sizda bu sahifaga ruxsat yo'q.",
+                "unknown": "Sahifani yuklashda xatolik yuz berdi."
             },
             "index": {
                 "all_discussions_heading": "",
@@ -559,26 +559,26 @@
             },
             "log_out": {
                 "log_out_button": "",
-                "log_out_confirmation": "",
+                "log_out_confirmation": "{forum} dan chiqishga ishonchingiz komilmi?",
                 "title": ""
             },
             "reset_password": {
-                "confirm_password_label": "",
-                "new_password_label": "",
+                "confirm_password_label": "Yangi parolni tasdiqlang",
+                "new_password_label": "Yangi parol",
                 "submit_button": "",
                 "title": ""
             }
         },
         "api": {
-            "invalid_username_message": ""
+            "invalid_username_message": "Foydalanuvchi nomida faqat harflar, raqamlar va tire ishlatilishi mumkin."
         },
         "email": {
             "activate_account": {
-                "subject": "",
-                "body": ""
+                "subject": "Yangi akkauntni faollashtiring",
+                "body": "Salom {username}!\n\nKimdur (umid qilamizki bu siz!) {forum} ga mana shu email bilan ro'yxatdan o'tdi.\n\nAgar bu siz bo'lsangiz, quyidagi havolani bosib akkauntingizni faollashtiring:\n{url}\n\nAgar siz ro'yxatdan o'tmagan bo'lsangiz, shunchaki e'tibor bermang.\n"
             },
             "confirm_email": {
-                "subject": "",
+                "subject": "Yangi emailingizni tasdiqlang",
                 "body": ""
             },
             "reset_password": {
@@ -614,39 +614,39 @@
             "load_more": "",
             "loading": "",
             "log_in": "",
-            "log_out": "",
-            "mark_all_as_read": "",
-            "next_page": "",
-            "notifications": "",
-            "okay": "",
-            "password": "",
-            "posts": "",
-            "previous_page": "",
-            "remove": "",
-            "rename": "",
-            "reply": "",
-            "reset_your_password": "",
-            "restore": "",
-            "save_changes": "",
-            "settings": "",
-            "sign_up": "",
+            "log_out": "Chiqish",
+            "mark_all_as_read": "Barchasini o'qildi deb belgilash",
+            "next_page": "Keyingi sahifa",
+            "notifications": "Xabarlar",
+            "okay": "OK",
+            "password": "Parol",
+            "posts": "Postlar",
+            "previous_page": "Oldingi sahifa",
+            "remove": "O'chirish",
+            "rename": "Nomini o'zgartirish",
+            "reply": "Javob yozish",
+            "reset_your_password": "Parolni o'chirish",
+            "restore": "Qayta tiklash",
+            "save_changes": "Saqlash",
+            "settings": "Sozlamalar",
+            "sign_up": "Ro'yxatdan o'tish",
             "some_others": "",
-            "start_a_discussion": "",
-            "username": "",
-            "users": "",
-            "view": "",
-            "write_a_reply": "",
-            "you": ""
+            "start_a_discussion": "Muhokama boshlash",
+            "username": "Username",
+            "users": "Foydalanuvchilar",
+            "view": "Ko'rish",
+            "write_a_reply": "Javob yozish",
+            "you": "Siz"
         },
         "group": {
-            "admin": "",
-            "admins": "",
-            "guest": "",
-            "guests": "",
+            "admin": "Admin",
+            "admins": "Adminlar",
+            "guest": "Mehmon",
+            "guests": "Mehmonlar",
             "member": "Qatnashuvchi",
             "members": "qatnashuvchilar",
-            "mod": "",
-            "mods": ""
+            "mod": "Mod",
+            "mods": "Moderatorlar"
         }
     }
 }
