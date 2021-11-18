@@ -2,14 +2,14 @@
     "askvortsov-moderator-warnings": {
         "admin": {
             "permissions": {
-                "manage_warnings": "",
-                "view_warnings": "",
-                "delete_warnings": ""
+                "manage_warnings": "Maak en verwijder moderator waarschuwingen",
+                "view_warnings": "Bekijk moderator waarschuwingen",
+                "delete_warnings": "Verwijder permanent moderator waarschuwingen"
             }
         },
         "emails": {
             "post_warned": {
-                "subject": "",
+                "subject": "{warner_display_name} waarschuwde je met {strikes, plural, one {# strike} other {# strikes}} in {discussion_title}",
                 "body": ""
             },
             "user_warned": {
