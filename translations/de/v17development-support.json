@@ -242,7 +242,31 @@
                     "title": "Ticketübersicht",
                     "description": "Lächle, du bist der Held, der anderen Menschen den Tag rettet.",
                     "no_tickets": "Es gibt keine Tickets, die Ihren Kriterien entsprechen, wahrscheinlichmachen Sie einen guten Job",
-                    "all_tickets": "Alle Tickets"
+                    "all_tickets": "Alle Tickets",
+                    "selection_unfiltered": "",
+                    "selection_open": "",
+                    "selection_closed": "",
+                    "refresh": "",
+                    "filter": {
+                        "status": {
+                            "title": "",
+                            "filter_count": ""
+                        },
+                        "language": {
+                            "any": ""
+                        },
+                        "assignees": {
+                            "title": "",
+                            "search": "",
+                            "unassigned": ""
+                        }
+                    },
+                    "sort": {
+                        "newest": "",
+                        "oldest": "",
+                        "recent_activity": "",
+                        "least_recent": ""
+                    }
                 }
             }
         },

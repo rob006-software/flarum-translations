@@ -242,7 +242,31 @@
                     "title": "Tickets overzicht",
                     "description": "Glimlach, jij bent de held die andere mensen hun dag redt.",
                     "no_tickets": "Er zijn geen tickets die aan uw criteria voldoen, waarschijnlijk doet u het goed!",
-                    "all_tickets": "Alle tickets"
+                    "all_tickets": "Alle tickets",
+                    "selection_unfiltered": "",
+                    "selection_open": "",
+                    "selection_closed": "",
+                    "refresh": "",
+                    "filter": {
+                        "status": {
+                            "title": "",
+                            "filter_count": ""
+                        },
+                        "language": {
+                            "any": ""
+                        },
+                        "assignees": {
+                            "title": "",
+                            "search": "",
+                            "unassigned": ""
+                        }
+                    },
+                    "sort": {
+                        "newest": "",
+                        "oldest": "",
+                        "recent_activity": "",
+                        "least_recent": ""
+                    }
                 }
             }
         },
