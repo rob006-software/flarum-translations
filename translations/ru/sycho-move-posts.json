@@ -3,8 +3,8 @@
         "admin": {
             "settings": {
                 "moved_first_post_content": "Перемещено содержимое дискуссии (первого сообщения)",
-                "moved_first_post_content_help": "",
-                "group_sequential_posts": ""
+                "moved_first_post_content_help": "Если ваша дискуссия состоит только из одного сообщения, его перемещение приведет к тому, что правка первого сообщения изначальной дискуссии станет основой новой дискуссии. Вы можете править это сообщение здесь.\n",
+                "group_sequential_posts": "Группировать последовательные сообщения в одно при перемещении ."
             },
             "permissions": {
                 "move_posts": "=> sycho-move-posts.ref.move_posts"
