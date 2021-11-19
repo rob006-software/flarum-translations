@@ -16,15 +16,18 @@
                 "with_button": "Einloggen mit {provider}",
                 "with_vkontakte_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_vkontakte": ""
+            },
+            "providers": {
+                "vkontakte": ""
             }
-        },
-        "providers": {
-            "vkontakte": "=> fof-oauth.lib.providers.vkontakte"
         },
         "lib": {
             "providers": {
                 "vkontakte": "Vkontakte"
             }
+        },
+        "providers": {
+            "vkontakte": "=> fof-oauth.lib.providers.vkontakte"
         }
     }
 }

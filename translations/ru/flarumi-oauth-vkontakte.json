@@ -15,15 +15,18 @@
             "log_in": {
                 "with_button": "Войти с помощью {provider}",
                 "with_vkontakte_button": "=> fof-oauth.forum.log_in.with_button"
+            },
+            "providers": {
+                "vkontakte": ""
             }
-        },
-        "providers": {
-            "vkontakte": "=> fof-oauth.lib.providers.vkontakte"
         },
         "lib": {
             "providers": {
                 "vkontakte": "ВКонтакте"
             }
+        },
+        "providers": {
+            "vkontakte": "=> fof-oauth.lib.providers.vkontakte"
         }
     }
 }
