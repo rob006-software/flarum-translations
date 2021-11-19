@@ -243,36 +243,36 @@
                     "description": "Hãy mỉm cười, bạn là người hùng cứu người khác trong ngày của họ.",
                     "no_tickets": "Không có vé nào phù hợp với tiêu chí của bạn, có lẽ bạn đang làm rất tốt!",
                     "all_tickets": "Tất cả phiếu",
-                    "selection_unfiltered": "",
-                    "selection_open": "",
-                    "selection_closed": "",
-                    "refresh": "",
+                    "selection_unfiltered": "Huỷ bộ lọc",
+                    "selection_open": "Tạo phiếu hỗ trợ",
+                    "selection_closed": "Phiếu hỗ trợ đã đóng",
+                    "refresh": "Làm mới",
                     "filter": {
                         "status": {
-                            "title": "",
-                            "filter_count": ""
+                            "title": "Trạng thái phiếu",
+                            "filter_count": "{count, plural, one {# bộ lọc} other {# bộ lọc}}"
                         },
                         "language": {
-                            "any": ""
+                            "any": "Mọi ngôn ngữ"
                         },
                         "assignees": {
-                            "title": "",
-                            "search": "",
-                            "unassigned": ""
+                            "title": "Lọc những người được giao",
+                            "search": "Tìm kiếm người được giao",
+                            "unassigned": "Chưa giao"
                         }
                     },
                     "sort": {
-                        "newest": "",
-                        "oldest": "",
-                        "recent_activity": "",
-                        "least_recent": ""
+                        "newest": "Mới nhất đầu tiên",
+                        "oldest": "Cũ nhất đầu tiên",
+                        "recent_activity": "Hoạt động gần đây",
+                        "least_recent": "Hoạt động cũ nhất"
                     }
                 }
             }
         },
         "emails": {
             "replied_to_ticket": {
-                "subject": "{replier_display_name} đã trả lời phiếu #{ticket_id}",
+                "subject": "{replier_display_name} đã trả lời phiếu #{ticket_id} của bạn",
                 "body": "Kính gửi {accept_display_name}!\n\n{replier_display_name} đã trả lời vé #{ticket_id} (chủ đề \"{subject}\") của bạn.\n\nVui lòng sử dụng liên kết dưới đây để xem lại câu trả lời:\n{url}\n\nChúng tôi đang đợi câu trả lời của bạn hoặc cho đến khi bạn đánh dấu rằng vé này đã được giải quyết.\n"
             },
             "ticket_status_update": {
