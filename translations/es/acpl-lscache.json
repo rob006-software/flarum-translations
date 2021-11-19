@@ -1,12 +1,12 @@
 {
     "acpl-lscache": {
         "admin": {
-            "public_cache_ttl_label": "",
-            "public_cache_ttl_help": "",
-            "purge_on_discussion_update_label": "",
-            "purge_on_discussion_update_help": "",
-            "purge_all": "",
-            "purge_all_success": ""
+            "public_cache_ttl_label": "TTL de la caché pública predefinida",
+            "public_cache_ttl_help": "Especifica cuánto tiempo, en segundos, se almacenan en caché las páginas públicas. El valor por defecto es de 300 segundos",
+            "purge_on_discussion_update_label": "Purga de URLs o etiquetas cuando se actualiza una discusión o post",
+            "purge_on_discussion_update_help": "Especifique una URL o una etiqueta por línea. La Url debe comenzar con <code>/</code>, por ejemplo <code>/rankings</code> y la Etiqueta de la caché debe comenzar con <code>tag=</code>, por ejemplo <code>tag=rankings</code>. Esta extensión etiqueta todas las rutas y, por ejemplo, si tienes muchas rutas que quieres purgar, es mejor añadir una regla en .htaccess con una expresión regular que etiquete las rutas y aquí en la configuración introducir sólo esta etiqueta. Este método será mucho más rápido. <a>Aprenda más</a>. Por defecto, la caché de la página de inicio se purga, así como la caché de las discusiones actualizadas",
+            "purge_all": "Purgar todo el LSCache",
+            "purge_all_success": "Notificación al LiteSpeed Web Server para que purgue todas las entradas de LSCache"
         }
     }
 }
