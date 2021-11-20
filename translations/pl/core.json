@@ -120,7 +120,7 @@
                 "readme": {
                     "button_label": "",
                     "no_readme": "",
-                    "title": ""
+                    "title": "Dokumentacja {extName}"
                 },
                 "confirm_uninstall": "Odinstalowanie usunie wszystkie wpisy w bazie i zasoby powiązane z tym rozszerzeniem. Czy jesteś pewien, że chcesz kontynuować?",
                 "uninstall_button": "Odinstaluj"
@@ -305,7 +305,7 @@
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} odpowiedział {ago}",
                 "started_text": "{username} rozpoczął {ago}",
-                "total_replies_a11y_label": "",
+                "total_replies_a11y_label": "{count, plural, one {# odpowiedź} other {# odpowiedzi}}",
                 "unread_replies_a11y_label": "",
                 "mark_as_read_tooltip": "Oznacz jako przeczytane"
             },
@@ -455,7 +455,7 @@
                 "sent_message": "Wysłano"
             },
             "welcome_hero": {
-                "hide": ""
+                "hide": "Ukryj baner powitalny"
             }
         },
         "lib": {
