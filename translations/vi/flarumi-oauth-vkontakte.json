@@ -17,12 +17,12 @@
                 "with_vkontakte_button": "=> fof-oauth.forum.log_in.with_button"
             },
             "providers": {
-                "vkontakte": ""
+                "vkontakte": "=> fof-oauth.lib.providers.vkontakte"
             }
         },
         "lib": {
             "providers": {
-                "vkontakte": "Vkontakte"
+                "vkontakte": "VK"
             }
         },
         "providers": {
