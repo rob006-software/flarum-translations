@@ -116,10 +116,10 @@
                 "no_settings": "To rozszerzenie nie posiada żadnych ustawień.",
                 "open_modal": "Otwórz ustawienia",
                 "permissions_title": "Uprawnienia",
-                "purge_button": "",
+                "purge_button": "Wyczyść",
                 "readme": {
-                    "button_label": "",
-                    "no_readme": "",
+                    "button_label": "README",
+                    "no_readme": "Wygląda na to, że to rozszerzenie nie posiada pliku README",
                     "title": "Dokumentacja {extName}"
                 },
                 "confirm_uninstall": "Odinstalowanie usunie wszystkie wpisy w bazie i zasoby powiązane z tym rozszerzeniem. Czy jesteś pewien, że chcesz kontynuować?",
@@ -306,7 +306,7 @@
                 "replied_text": "{username} odpowiedział {ago}",
                 "started_text": "{username} rozpoczął {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# odpowiedź} other {# odpowiedzi}}",
-                "unread_replies_a11y_label": "",
+                "unread_replies_a11y_label": "{count, plural, one {# nieodczytana odpowiedź} other {# nieodczytane odpowiedzi}}. Oznacz {count, plural, one {nieodczytaną odpowiedź jako odczytaną} other {nieodczytane odpowiedzi jako odczytane}}.",
                 "mark_as_read_tooltip": "Oznacz jako przeczytane"
             },
             "forgot_password": {
@@ -335,7 +335,7 @@
             "index": {
                 "all_discussions_link": "=> core.ref.all_discussions",
                 "cannot_start_discussion_button": "Nie można rozpocząć dyskusji",
-                "mark_all_as_read_confirmation": "Czy jesteś pewien, że chcesz oznaczyć wszystkie dyskusje jako przeczytane?",
+                "mark_all_as_read_confirmation": "Czy jesteś pewien, że chcesz oznaczyć wszystkie dyskusje jako odczytane?",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
                 "refresh_tooltip": "Odśwież",
@@ -386,7 +386,7 @@
             "post_scrubber": {
                 "now_link": "Teraz",
                 "original_post_link": "Początek dyskusji",
-                "unread_text": "{count} nieprzeczytanych",
+                "unread_text": "{count} nieodczytanych",
                 "viewing_text": "Post {index} z {formattedCount}"
             },
             "post_stream": {
@@ -459,7 +459,7 @@
             }
         },
         "lib": {
-            "debug_button": "",
+            "debug_button": "Debug",
             "badge": {
                 "hidden_tooltip": "Ukryte"
             },
@@ -488,16 +488,16 @@
                 "payload_too_large_message": "Żądanie jest za długie.",
                 "permission_denied_message": "Nie masz uprawnień, aby to zrobić.",
                 "rate_limit_exceeded_message": "Nie bądź taki hop do przodu! Spróbuj ponownie za kilka sekund.",
-                "render_failed_message": ""
+                "render_failed_message": "Wystąpił błąd podczas wyświetlania tej treści. Jeśli jesteś użytkownikiem, spróbuj ponownie później. Jeśli jesteś administratorem, sprawdź logi Flarum, aby uzyskać więcej informacji."
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
             },
             "modal": {
-                "close": ""
+                "close": "Zamknij"
             },
             "nav": {
-                "drawer_button": ""
+                "drawer_button": "Otwórz nawigację"
             },
             "number_suffix": {
                 "kilo_text": "K",
