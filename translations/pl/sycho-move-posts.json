@@ -2,9 +2,9 @@
     "sycho-move-posts": {
         "admin": {
             "settings": {
-                "moved_first_post_content": "Treść pierwszego postu w przeniesionej dyskusji",
-                "moved_first_post_content_help": "Jeśli masz dyskusję z jednym postem, przeniesienie tego postu spowoduje, że pierwszy post początkowej dyskusji zostanie zredagowany tak, by wskazywał na nową dyskusję. Możesz edytować zawartość tego postu tutaj.\n",
-                "group_sequential_posts": "Grupuj w jeden kolejne posty informujące o przeniesieniu."
+                "moved_first_post_content": "Treść pierwszego posta w przeniesionej dyskusji",
+                "moved_first_post_content_help": "Jeśli masz dyskusję z jednym postem, przeniesienie tego posta spowoduje, że pierwszy post początkowej dyskusji zostanie zredagowany tak, by wskazywał na nową dyskusję. Możesz edytować zawartość tego posta tutaj.\n",
+                "group_sequential_posts": "Grupuj kolejne posty informujące o przeniesieniu."
             },
             "permissions": {
                 "move_posts": "=> sycho-move-posts.ref.move_posts"
@@ -23,12 +23,12 @@
             "modal": {
                 "check": "Sprawdź typ operacji",
                 "destination": "Dyskusja docelowa",
-                "discussion_help": "Tagi dyskusji źródłowej zostaną użyte i mogą być zmienione po utworzeniu.",
+                "discussion_help": "Zostaną użyte tagi dyskusji źródłowej, mogą być zmienione po utworzeniu.",
                 "discussion_name": "=> core.forum.composer_discussion.title_placeholder",
                 "new_discussion": "Nowa dyskusja",
                 "selected_posts": "Wybrano {count, plural, one {jeden post} few {{count} posty} other {{count} postów}}",
                 "status": {
-                    "complex_move": "Będzie to złożone przeniesienie, posty będą dodawane między postami, prowadząc do starych odniesień URL postów docelowej dyskusji, aby również się zmienić.",
+                    "complex_move": "Będzie to złożone przeniesienie, posty będą dodawane między postami, w skutek czego odnośniki do postów w docelowej dyskusji również mogą się zmienić.",
                     "old_to_new_move": "=> sycho-move-posts.ref.status.old_to_new_move",
                     "simple_move": "Będzie to proste przeniesienie, posty zostaną dodane na końcu dyskusji."
                 },
@@ -41,7 +41,7 @@
             "post": {
                 "unmove": "Odznacz do przeniesienia",
                 "move": "Wybierz do przeniesienia",
-                "moving": "Przenoszenie postu"
+                "moving": "Przenoszenie posta"
             },
             "post_stream": {
                 "post_moved": "{username} przeniósł {count, plural, one{post} few{{count} posty} other{{count} postów}} do {target_discussion}."
@@ -50,7 +50,7 @@
         "ref": {
             "move_posts": "Przenieś posty",
             "status": {
-                "old_to_new_move": "Nie można przenieść starego postu do nowszej dyskusji."
+                "old_to_new_move": "Nie można przenieść starego posta do nowszej dyskusji."
             }
         },
         "lib": {
