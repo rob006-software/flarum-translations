@@ -26,8 +26,8 @@
                     "heading": "Konserwacja",
                     "debug_label": "Włączyć tryb debug?",
                     "debug_text": "Informacje o powiadomieniach będą zapisywane w `storage/logs`. Ta opcja z reguły powinna być wyłączona, aby uniknąć niepotrzebnego zapełniania katalogu z logami.",
-                    "reset_vapid_text": "To wygeneruje nowe klucze VAPID i anuluje wszystkie istniejące subskrypcje korzystając z obecnych kluczy VAPID.",
-                    "reset_vapid_confirm": "Zresetowanie kluczy VAPID usunie wszystkie subskrypcje korzystające z obecnych kluczy, więc użytkownicy nie dostaną żadnych powiadomień do czasu ponownego odwiedzenia strony. Ta operacja powinna być wykonana tylko podczas konfigurowania powiadomień push po raz pierwszy, lub gry powiadomienia push w ogóle nie działają i powyżej wyświetla się powiadomienie o brakujących kluczach VAPID.",
+                    "reset_vapid_text": "To wygeneruje nowe klucze VAPID i anuluje wszystkie istniejące subskrypcje korzystające z obecnych kluczy VAPID.",
+                    "reset_vapid_confirm": "Zresetowanie kluczy VAPID usunie wszystkie subskrypcje korzystające z obecnych kluczy, więc użytkownicy nie dostaną żadnych powiadomień do czasu ponownego odwiedzenia strony. Ta operacja powinna być wykonana tylko podczas konfigurowania powiadomień push po raz pierwszy, lub gdy powiadomienia push w ogóle nie działają i powyżej wyświetla się powiadomienie o brakujących kluczach VAPID.",
                     "reset_vapid_success": "Klucze VAPID zostały pomyślnie zresetowane. {count, plural, one {{count} subskrypcja została zresetowana} few {{count} subskrypcje zostały zresetowane} other {{count} subskrypcji zostało zresetowanych}}. Odśwież stronę, aby zobaczyć zaktualizowany status."
                 },
                 "other": {
