@@ -6,7 +6,7 @@
                 "view_flags_label": "Jelentett hozzászólások megtekintése"
             },
             "settings": {
-                "flag_own_posts_label": "Engedélyezed a felhasználók számára, hogy megjelölhessék a saját hozzászólásukat.",
+                "flag_own_posts_label": "Engedélyezed a felhasználók számára, hogy megjelölhessék a saját hozzászólásukat",
                 "guidelines_url_label": "Közösségi Irányelvek URL",
                 "title": "Jelentés-beállítás"
             }
@@ -19,7 +19,7 @@
                 "reason_inappropriate_label": "Illetlen",
                 "reason_inappropriate_text": "Ez a poszt sértő, durva vagy sérti a <a>közösségi irányelveinket</a>.",
                 "reason_missing_message": "Kérünk, adj részletesebb leírást a jelentés okáról a moderátoraink számára.",
-                "reason_off_topic_label": "Off-topic",
+                "reason_off_topic_label": "Témán kívüli",
                 "reason_off_topic_text": "Ez a poszt nem releváns ebben a témában.",
                 "reason_other_label": "Egyéb (kérlek részletezd)",
                 "reason_spam_label": "Ez a poszt spam.",
@@ -28,8 +28,8 @@
                 "title": "=> flarum-flags.ref.flag_post"
             },
             "flagged_posts": {
-                "empty_text": "Nincs új jelentés.",
-                "item_text": "{username} felhasználó a <em>{discussion}</em> témában.",
+                "empty_text": "Nincs új jelentés",
+                "item_text": "{username} felhasználó a <em>{discussion}</em> témában",
                 "title": "=> flarum-flags.ref.flagged_posts",
                 "tooltip": "=> flarum-flags.ref.flagged_posts"
             },
