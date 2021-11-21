@@ -19,34 +19,34 @@
         },
         "forum": {
             "notifications": {
-                "warning_text": "",
-                "warning_no_strikes_text": ""
+                "warning_text": "Ez naplózza az értesítésekről szóló információkat a „tárhely/naplók” mappába. Általában le kell tiltani, hogy elkerüljük a naplók szükségtelen feltöltését.",
+                "warning_no_strikes_text": "Figyelmeztetést kaptál tőle: {mod_username} (no strikes)"
             },
             "post": {
-                "warning": "",
-                "warning_no_strikes": ""
+                "warning": "{strikes, plural, one {Figyelmeztettett # strike by {mod_username}} other {Figyelmeztettett with # strikes by {mod_username}}}",
+                "warning_no_strikes": "Figyelmeztetés nélkül: {mod_username}"
             },
             "post_controls": {
-                "warning_button": ""
+                "warning_button": "Felhasználó figyelmeztetése"
             },
             "user": {
-                "warnings": ""
+                "warnings": "Moderátori figyelmeztetések"
             },
             "settings": {
-                "warning_notification_label": ""
+                "warning_notification_label": "Egy moderátor figyelmeztetett"
             },
             "validation": {
-                "public_comment_required": "",
+                "public_comment_required": "Legtöbbször nyilvános megjegyzést teszel.",
                 "invalid_strike_count": ""
             },
             "warning_controls": {
-                "delete_button": "",
-                "restore_button": "",
-                "delete_forever_button": ""
+                "delete_button": "Eltávolítás",
+                "restore_button": "Visszaállítás",
+                "delete_forever_button": "Végleges törlés"
             },
             "warning_list": {
-                "add_button": "",
-                "no_warnings": "",
+                "add_button": "Új figyelmeztetés",
+                "no_warnings": "Úgy tűnik nincs figyelmeztetés itt.",
                 "warnings": "",
                 "warnings_no_strikes": ""
             },
