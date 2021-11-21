@@ -13,7 +13,7 @@
                 "resize": "Wybierz czy chcesz przeskalować obrazki zanim zostaną przesłane. Możesz wybrać maksymalną szerokość i wysokość w pikselach. Proces zmiany rozmiaru zachowa proporcje obrazka.\n",
                 "client_extension": "Domyślnie wtyczka wybierze bezpieczne rozszerzenie dla wysłanego pliku na podstawie typu MIME.\nDla niektórych typów bazujących na ZIP lub plików binarnych, może to skutkować zastąpieniem oryginalnego rozszerzenia na bardziej ogólne.\nTutaj możesz podać listę rozszerzeń (rozdzielonych przecinkami), które mają zostać pozostawione bez zmian.\n",
                 "watermark": "Wybierz, czy obrazki będą miały dodany znak wodny podczas przesyłania. Znaki wodne są dodawane do nie-gifów bazując na Twoich preferencjach poniżej.\n",
-                "s3_compatible_storage": "Poniższe ustawienia są wymagane jedynie gdy korzystasz z usługi kompatybilnej z S3. Jeśli korzystasz z AWS, możesz pozostawić je puste.\n",
+                "s3_compatible_storage": "Poniższe ustawienia są wymagane jedynie, gdy korzystasz z usługi kompatybilnej z S3. Jeśli korzystasz z AWS, możesz pozostawić je puste.\n",
                 "s3_acl": "ACL, które powinno być zastosowane do wysłanego obiektu (domyślnie: private). Obsługiwane wartości można znaleźć na https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
                 "composer_buttons": "Domyślnie przycisk dla managera plików oraz przycisk do wysyłania plików są jednocześnie widoczne. Ale możesz to zmienić i wyświetlać tylko jeden przycisk.\n"
             },
