@@ -23,7 +23,7 @@
                 "upvote": "{username} одобрил ваше сообщение",
                 "downvote": "{username} неодобрил ваше сообщение",
                 "prefrences": {
-                    "vote": ""
+                    "vote": "Когда проголосовали за/против одного из моих сообщений"
                 }
             },
             "user": {
@@ -96,10 +96,10 @@
         },
         "email": {
             "body": {
-                "postVoted": ""
+                "postVoted": "Привет {recipient_display_name},\n\n{actor_display_name} только что проголосовал за/против вашего сообщения в теме {discussion_title}.\n\nПросмотрите здесь: {discussion_url}\n"
             },
             "subject": {
-                "postVoted": ""
+                "postVoted": "На ваше сообщение получен голос от {display_name}"
             }
         }
     }
