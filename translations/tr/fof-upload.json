@@ -55,7 +55,7 @@
                     "max_file_size": "Maksimum dosya boyutu (kilobyte cinsinden)",
                     "mime_types": "Mime türünüzü yapılandırın, uyarlayıcı eşlemesini yükleyin",
                     "title": "Genel tercihler",
-                    "php_ini_values": ""
+                    "php_ini_values": "<code>php.ini</code> değerleriniz <code>post_max_size={post}</code> ve <code>upload_max_filesize={upload}</code> şeklindedir. Burada ayarlanan değerin bu eşiklerin altında olduğundan emin olun veya uygun şekilde ayarlayın. <code>Nginx</code> kullanıyorsanız, <code>client_max_body_size</code> öğesinin seçtiğiniz maksimum limit için yeterli boyutta olduğundan emin olun."
                 },
                 "resize": {
                     "max_width": "Maksimum resim genişliği/yüksekliği",
@@ -143,7 +143,7 @@
                 "unauthorized": "Dosyaları indirmenize izin verilmiyor"
             },
             "validation": {
-                "max_size": ""
+                "max_size": "{max} kb üzerindeki yüklemeler kabul edilmez."
             }
         },
         "api": {
