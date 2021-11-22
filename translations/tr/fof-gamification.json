@@ -21,7 +21,10 @@
             },
             "notification": {
                 "upvote": "{username} paylaşımına yukarı oy verdi",
-                "downvote": "{username} paylaşımına aşağı oy verdi"
+                "downvote": "{username} paylaşımına aşağı oy verdi",
+                "prefrences": {
+                    "vote": ""
+                }
             },
             "user": {
                 "points": "Puan: {points}",
@@ -89,6 +92,14 @@
                         "name": "İsim"
                     }
                 }
+            }
+        },
+        "email": {
+            "body": {
+                "postVoted": ""
+            },
+            "subject": {
+                "postVoted": ""
             }
         }
     }

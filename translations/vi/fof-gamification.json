@@ -21,7 +21,10 @@
             },
             "notification": {
                 "upvote": "{username} tán thành bài đăng của bạn",
-                "downvote": "{username} phản đối bài đăng của bạn"
+                "downvote": "{username} phản đối bài đăng của bạn",
+                "prefrences": {
+                    "vote": ""
+                }
             },
             "user": {
                 "points": "Điểm: {points}",
@@ -89,6 +92,14 @@
                         "name": "Tên"
                     }
                 }
+            }
+        },
+        "email": {
+            "body": {
+                "postVoted": ""
+            },
+            "subject": {
+                "postVoted": ""
             }
         }
     }

@@ -21,7 +21,10 @@
             },
             "notification": {
                 "upvote": "",
-                "downvote": ""
+                "downvote": "",
+                "prefrences": {
+                    "vote": ""
+                }
             },
             "user": {
                 "points": "",
@@ -89,6 +92,14 @@
                         "name": ""
                     }
                 }
+            }
+        },
+        "email": {
+            "body": {
+                "postVoted": ""
+            },
+            "subject": {
+                "postVoted": ""
             }
         }
     }

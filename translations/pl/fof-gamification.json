@@ -21,7 +21,10 @@
             },
             "notification": {
                 "upvote": "{username} pozytywnie ocenił Twój post",
-                "downvote": "{username} negatywnie ocenił Twój post"
+                "downvote": "{username} negatywnie ocenił Twój post",
+                "prefrences": {
+                    "vote": ""
+                }
             },
             "user": {
                 "points": "Punkty: {points}",
@@ -89,6 +92,14 @@
                         "name": "Nazwa"
                     }
                 }
+            }
+        },
+        "email": {
+            "body": {
+                "postVoted": ""
+            },
+            "subject": {
+                "postVoted": ""
             }
         }
     }

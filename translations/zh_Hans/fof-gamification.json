@@ -21,7 +21,10 @@
             },
             "notification": {
                 "upvote": "{username} 赞了您的帖文",
-                "downvote": "{username} 踩了您的帖文"
+                "downvote": "{username} 踩了您的帖文",
+                "prefrences": {
+                    "vote": ""
+                }
             },
             "user": {
                 "points": "👍: {points}",
@@ -89,6 +92,14 @@
                         "name": "名称"
                     }
                 }
+            }
+        },
+        "email": {
+            "body": {
+                "postVoted": ""
+            },
+            "subject": {
+                "postVoted": ""
             }
         }
     }

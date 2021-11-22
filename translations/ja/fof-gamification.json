@@ -21,7 +21,10 @@
             },
             "notification": {
                 "upvote": "{username} が投稿を支持しました",
-                "downvote": "{username} があなたの投稿に投票しました」"
+                "downvote": "{username} があなたの投稿に投票しました」",
+                "prefrences": {
+                    "vote": ""
+                }
             },
             "user": {
                 "points": "👍: {points}",
@@ -89,6 +92,14 @@
                         "name": "お名前"
                     }
                 }
+            }
+        },
+        "email": {
+            "body": {
+                "postVoted": ""
+            },
+            "subject": {
+                "postVoted": ""
             }
         }
     }

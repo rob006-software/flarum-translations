@@ -21,7 +21,10 @@
             },
             "notification": {
                 "upvote": "{username} одобрил ваше сообщение",
-                "downvote": "{username} неодобрил ваше сообщение"
+                "downvote": "{username} неодобрил ваше сообщение",
+                "prefrences": {
+                    "vote": ""
+                }
             },
             "user": {
                 "points": "Очков: {points}",
@@ -89,6 +92,14 @@
                         "name": "Имя"
                     }
                 }
+            }
+        },
+        "email": {
+            "body": {
+                "postVoted": ""
+            },
+            "subject": {
+                "postVoted": ""
             }
         }
     }

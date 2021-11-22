@@ -21,7 +21,10 @@
             },
             "notification": {
                 "upvote": "{username} upvoted your post",
-                "downvote": "{username} downvoted your post"
+                "downvote": "{username} downvoted your post",
+                "prefrences": {
+                    "vote": "When one of my posts is up/down voted"
+                }
             },
             "user": {
                 "points": "Points: {points}",
@@ -89,6 +92,14 @@
                         "name": "Name"
                     }
                 }
+            }
+        },
+        "email": {
+            "body": {
+                "postVoted": "Hey {recipient_display_name},\n\n{actor_display_name} just voted on your post in {discussion_title}.\n\nView it here: {discussion_url}\n"
+            },
+            "subject": {
+                "postVoted": "Your post was voted on by {display_name}"
             }
         }
     }
