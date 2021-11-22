@@ -305,7 +305,7 @@
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} ответил(а) {ago}",
                 "started_text": "{username} создал(а) {ago}",
-                "total_replies_a11y_label": "",
+                "total_replies_a11y_label": "{count, plural, one {# reply} other {# replies}}",
                 "unread_replies_a11y_label": "",
                 "mark_as_read_tooltip": "Отметить как прочитанное"
             },
