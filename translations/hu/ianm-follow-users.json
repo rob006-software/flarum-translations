@@ -55,9 +55,9 @@
             }
         },
         "email": {
-            "new_discussion_by_user_subject": "[Felhasználó követése] {title}",
-            "new_follower_subject": "[Follow User] Új követőd van!",
-            "new_post_subject": "[Follow User] Új hozzászólás itt: {title}",
+            "new_discussion_by_user_subject": "[Követett felhasználó] {title}",
+            "new_follower_subject": "[Követett felhasználó] Új követőd van!",
+            "new_post_subject": "[Követett felhasználó] Új hozzászólás itt: {title}",
             "new_discussion_by_user_body": "Kedves {recipient_display_name},\n\n{user_display_name} új témát nyitott: {discussion_title}\n\nHogy elolvasd, kattints az alábbi linkre:\n\n{discussion_url}\n\n---\n\n{post_content}\n",
             "new_follower_body": "Kedves {recipient_display_name},\n\n{follower_display_name} követni kezdett téged.\nA felhasználó profil megtekintéséért kattints az alábbi linkre:\n\n{profile_url}\n",
             "new_post_body": "Kedves {recipient_display_name},\n\n{user_display_name} hozzászólást írt: {discussion_title}\n\nAz alábbi linken megtekintheted:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nNem fogsz több értesítést kapni erről a beszélgetésről, amíg naprakész nem leszel.\n"
