@@ -306,7 +306,7 @@
                 "replied_text": "{username} ответил(а) {ago}",
                 "started_text": "{username} создал(а) {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# reply} other {# replies}}",
-                "unread_replies_a11y_label": "",
+                "unread_replies_a11y_label": "{count, plural, one {# непрочтенный ответ} other {# непрочтенных ответов}}. Отметить непрочтенные {count, plural, one {ответ} other {ответов}} как прочтенные.",
                 "mark_as_read_tooltip": "Отметить как прочитанное"
             },
             "forgot_password": {
