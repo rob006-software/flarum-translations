@@ -23,7 +23,7 @@
                 "upvote": "{username} paylaşımına yukarı oy verdi",
                 "downvote": "{username} paylaşımına aşağı oy verdi",
                 "prefrences": {
-                    "vote": ""
+                    "vote": "Gönderilerimden biri yukarı/aşağı oylandığında"
                 }
             },
             "user": {
@@ -96,10 +96,10 @@
         },
         "email": {
             "body": {
-                "postVoted": ""
+                "postVoted": "Merhaba {recipient_display_name},\n\n{actor_display_name} az önce {discussion_title} tartışmasındaki gönderini oyladı.\n\nBurada görüntüleyin: {discussion_url}\n"
             },
             "subject": {
-                "postVoted": ""
+                "postVoted": "Gönderiniz {display_name} tarafından oylandı"
             }
         }
     }
