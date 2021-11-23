@@ -7,10 +7,10 @@
             "settings": {
                 "max_label": "Nimimerkin maksimi pituus",
                 "min_label": "Nimimerkin minimi pituus",
-                "random_username_label": "",
-                "random_username_help": "",
+                "random_username_label": "Satunnaista käyttäjätunnukset",
+                "random_username_help": "Tämä piilottaa `käyttäjätunnus` kentän rekisteröinnissä ja käyttää satunnaista numeroa sen sijaan. Tämä myös määrittää `nimimerkki` kentän pakolliseksi. Tämä on käytössä vain jos \"Salli nimimerkin määritys rekisteröinnissä\" on käytössä.",
                 "regex_label": "Säännöllinen lauseke validointiin",
-                "set_on_registration_label": "",
+                "set_on_registration_label": "Salli nimimerkin määritys rekisteröinnissä",
                 "unique_label": "Vaadi yksilölliset nimimerkit?"
             },
             "wrong_driver": "Sinun täytyy valita \"nimimerkki\" näyttönimen ajuriksi <a><strong>Yleiset asetukset sivulla</strong></a> jotta tämä lisäosa toimii."
@@ -31,12 +31,12 @@
                 "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
             },
             "sign_up": {
-                "nickname_placeholder": ""
+                "nickname_placeholder": "=> flarum-nicknames.ref.nickname"
             }
         },
         "ref": {
             "change_nickname": "Vaihda nimimerkki",
-            "nickname": ""
+            "nickname": "Nimimerkki"
         }
     }
 }
