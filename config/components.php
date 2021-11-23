@@ -106,7 +106,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-search/0.1.4/resources/locale/en.yml',
 	],
 	'blomstra-trello' => [
-		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-trello/0.1.0-beta.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-trello/0.1.0-beta.3/locale/en.yml',
 	],
 	'clarkwinkelmann-author-change' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-author-change/1.0.2/resources/locale/en.yml',
