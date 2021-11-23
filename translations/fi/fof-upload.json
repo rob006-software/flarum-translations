@@ -55,7 +55,7 @@
                     "max_file_size": "Maksimi tiedostokoko (kilotavuina)",
                     "mime_types": "Määritä mime tyypit, siirtoadapterin linkitys",
                     "title": "Yleiset asetukset",
-                    "php_ini_values": ""
+                    "php_ini_values": "Sinun <code>php.ini</code> määreet ovat <code>post_max_size={post}</code> ja <code>upload_max_filesize={upload}</code>. Vahvista, että tämän osion asetukset ovat näiden vähemmän, kuin nämä määreet tai määritä ne kuntoon. Jos käytät <code>Nginx</code> niin vahvista myösm että määre <code>client_max_body_size</code> on tarpeitasi vastaava."
                 },
                 "resize": {
                     "max_width": "Kuvan maksimi leveys/korkeus",
@@ -140,7 +140,7 @@
                 "unauthorized": "Sinulla ei ole oikeutta ladata tiedostoja"
             },
             "validation": {
-                "max_size": ""
+                "max_size": "Yli {max} kb siirrot eivät ole sallittuja."
             }
         },
         "api": {
