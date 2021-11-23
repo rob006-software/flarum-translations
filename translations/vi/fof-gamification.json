@@ -23,7 +23,7 @@
                 "upvote": "{username} tán thành bài đăng của bạn",
                 "downvote": "{username} phản đối bài đăng của bạn",
                 "prefrences": {
-                    "vote": ""
+                    "vote": "Khi 1 trong các bài viết của tôi được bình chọn ủng hộ/phản đối"
                 }
             },
             "user": {
@@ -96,10 +96,10 @@
         },
         "email": {
             "body": {
-                "postVoted": ""
+                "postVoted": "Chào {recipient_display_name},\n\n{actor_display_name} vừa mới bình chọn bài viết của bạn trong {discussion_title}.\n\nXem tại đây: {discussion_url}\n"
             },
             "subject": {
-                "postVoted": ""
+                "postVoted": "Bài viết của bạn được bình chọn bởi {display_name}"
             }
         }
     }
