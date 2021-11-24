@@ -67,87 +67,87 @@
                 },
                 "watermark": {
                     "file": "Suv belgisi rasmingizni yuklang",
-                    "position": "",
-                    "title": "",
-                    "toggle": ""
+                    "position": "Suv belgisi holati",
+                    "title": "Suv belgisi rasmlari",
+                    "toggle": "Suv belgisi rasmlari"
                 },
                 "composer_buttons": {
-                    "title": "",
+                    "title": "Kompozitor tugmalari",
                     "options": {
-                        "both": "",
-                        "upload-btn": "",
-                        "media-btn": ""
+                        "both": "Ikkalasi",
+                        "upload-btn": "Faqat yuklash tugmasi",
+                        "media-btn": "Faqat media menejeri tugmasi"
                     }
                 }
             },
             "permissions": {
-                "download_label": "",
-                "upload_label": "",
-                "view_user_uploads_label": "",
-                "delete_uploads_of_others_label": ""
+                "download_label": "Fayllarni yuklab oling",
+                "upload_label": "Fayllarni yuklash",
+                "view_user_uploads_label": "Foydalanuvchi yuklashlarini ko'rish",
+                "delete_uploads_of_others_label": "Foydalanuvchi yuklamalarini o'chirish"
             },
             "templates": {
-                "file": "",
-                "file_description": "",
-                "image": "",
-                "image_description": "",
-                "image-preview": "",
-                "image-preview_description": "",
-                "markdown-image": "",
-                "markdown-image_description": "",
-                "bbcode-image": "",
-                "bbcode-image_description": "",
-                "just-url": "",
-                "just-url_description": ""
+                "file": "Standart fayl yuklab olish shablonini",
+                "file_description": "Fayl nomi va ba'zi umumiy ma'lumotlarni ko'rsatadi. PHP orqali proksi-serverlar yuklab olinadi, bu statistikani yig'ish va hotlinkni himoya qilish imkonini beradi.\n",
+                "image": "Standart rasm yuklab olish shablonini",
+                "image_description": "Tasvirning eskizini va proksi-serverlarni PHP orqali yuklab olishni ko'rsatadi. Statistikani to'plash va hotlink himoyasiga ruxsat berish.\n",
+                "image-preview": "Toʻliq tasvirni oldindan koʻrish shablonini",
+                "image-preview_description": "To'liq rasmni qatorda ko'rsatadi. Yuklab olish funksiyasi yo'q, statistika yig'ilmaydi va hotlink himoyasi e'tiborga olinmaydi.\n",
+                "markdown-image": "Markdown tasvir shabloni",
+                "markdown-image_description": "Markdown yordamida to'liq rasmni qatorda ko'rsatadi. <strong>Buning ishlashi uchun sizda flarum/markdown oʻrnatilgan va yoqilgan boʻlishi kerak.</strong> Yuklab olish funksiyasi yoʻq, statistika yigʻilmaydi va hotlink himoyasi eʼtiborga olinmaydi.\n",
+                "bbcode-image": "BBCode rasm shabloni",
+                "bbcode-image_description": "BBCode yordamida toʻliq tasvirni in-line koʻrsatadi. <strong>Buning ishlashi uchun sizda flarum/bbcode oʻrnatilgan va yoqilgan boʻlishi kerak.</strong> Yuklab olish funksiyasi yoʻq, statistika yigʻilmaydi va hotlink himoyasi eʼtiborga olinmaydi.\n",
+                "just-url": "Faqat URL",
+                "just-url_description": "Faqat URLni kiritadi. Renderlash avtomatik ulanish imkoniyatiga ega bo'lgan boshqa kengaytmalar tomonidan amalga oshirilishi mumkin. Yuklab olish funksiyasi yo'q, statistika yig'ilmaydi va hotlink himoyasi e'tiborga olinmaydi.\n"
             },
             "upload_methods": {
-                "aws-s3": "",
-                "imgur": "",
-                "local": "",
+                "aws-s3": "S3/mos keladi",
+                "imgur": "Imgur",
+                "local": "Lokal",
                 "ovh-svfs": "",
                 "qiniu": ""
             }
         },
         "forum": {
-            "media_manager": "",
+            "media_manager": "Media menejeri",
             "buttons": {
-                "attach": "",
-                "upload": "",
-                "user_uploads": "",
-                "cancel": "",
-                "media": ""
+                "attach": "Biriktiring",
+                "upload": "Yuklash",
+                "user_uploads": "Foydalanuvchi yuklashlari",
+                "cancel": "Bekor qilish",
+                "media": "Mening ommaviy axborot vositalarim"
             },
             "file_list": {
-                "loading": "",
-                "empty": "",
-                "release_to_upload": "",
-                "modal_empty_desktop": "",
-                "modal_empty_phone": "",
-                "select_file_a11y_label": "",
-                "confirm_selection_btn": "",
-                "load_more_files_btn": "",
+                "loading": "Fayllar yuklanmoqda...",
+                "empty": "Ko'rsatiladigan fayllar yo'q.",
+                "release_to_upload": "Yuklash uchun qo'yib yuboring",
+                "modal_empty_desktop": "Fayllar roʻyxati boʻsh. Yuklash uchun tugmani bosing yoki faylni shu yerga torting.",
+                "modal_empty_phone": "Fayllar roʻyxati boʻsh. Faylni yuklash uchun yuqoridagi tugmani bosing.",
+                "select_file_a11y_label": "“{fayl nomi}” faylini tanlang",
+                "confirm_selection_btn": "{fileCount, plural, =0 {Hech biri tanlanmagan} bitta {Faylni tanlang} boshqa {Fayllarni tanlang}}",
+                "load_more_files_btn": "Ko'proq fayllarni yuklang",
                 "hide_file": {
-                    "btn_a11y_label": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "hide_fail": "",
-                    "loading": ""
+                    "btn_a11y_label": "“{fileName}” faylini media menejeridan yashirish",
+                    "hide_confirmation": "Haqiqatan ham “{fayl nomi}” faylini berkitmoqchimisiz? Faylni yashirish uni faqat media menejeringizdan olib tashlaydi va mavjud postlarga ta'sir qilmaydi.",
+                    "hide_success": "Fayl yashirin",
+                    "hide_fail": "“{fayl nomi}” faylini yashirib bo‘lmadi",
+                    "loading": "Fayl berkitilmoqda..."
                 }
             },
             "states": {
-                "error": "",
-                "loading": "",
-                "unauthorized": ""
+                "error": "Xatolik",
+                "loading": "Yuklanmoqda",
+                "unauthorized": "Fayllarni yuklab olishingizga ruxsat berilmagan"
             },
             "validation": {
-                "max_size": ""
+                "max_size": "{maksimal} kb dan ortiq yuklamalar qabul qilinmaydi."
             }
         },
         "api": {
             "upload_errors": {
-                "forbidden_type": "",
-                "unsupported_type": "",
-                "could_not_detect_mime": ""
+                "forbidden_type": "Bunday turdagi fayllarni yuklashga ruxsat berilmagan.",
+                "unsupported_type": "Yuklash adapteri taqdim etilgan mim turini qo'llab-quvvatlamaydi: {mime}.",
+                "could_not_detect_mime": "Ushbu faylning MIME turini aniqlab boʻlmadi, qaytadan urinib koʻring."
             }
         }
     }
