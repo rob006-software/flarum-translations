@@ -1,12 +1,12 @@
 {
     "acpl-lscache": {
         "admin": {
-            "public_cache_ttl_label": "",
-            "public_cache_ttl_help": "",
+            "public_cache_ttl_label": "Domyślny TTL publicznego cache",
+            "public_cache_ttl_help": "Określ jak długo, w sekundach, publiczne strony będą przechowywane w pamięci podręcznej. Wartość domyślna to 300 sekund",
             "purge_on_discussion_update_label": "",
             "purge_on_discussion_update_help": "",
-            "purge_all": "",
-            "purge_all_success": ""
+            "purge_all": "Wyczyść całe LSCache",
+            "purge_all_success": "Powiadomiono serwer LiteSpeed, aby wyczyścił wszystkie wpisy LSCache"
         }
     }
 }
