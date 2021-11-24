@@ -34,7 +34,12 @@
                 "title": "Voters",
                 "upvotes_label": "Upvoters:"
             },
-            "mod_item": "View Voters"
+            "mod_item": "View Voters",
+            "voters": {
+                "none": "No voters yet",
+                "label": "Voters",
+                "label_none": "No voters"
+            }
         },
         "admin": {
             "permissions": {
@@ -72,7 +77,8 @@
                     "vote_color": "Voted color",
                     "icon_name": "Upvote/downvote icon",
                     "icon_help": "Input any Font-Awesome icon that is suffixed with -up and -down. Examples: arrow, thumbs, chevron",
-                    "upvotes_only": "Only allow upvoting"
+                    "upvotes_only": "Only allow upvoting",
+                    "first_post_only": "Only allow up/down votes in the first post in a discussion"
                 },
                 "save_settings": "Save settings",
                 "convert": {

@@ -34,7 +34,12 @@
                 "title": "Votanti",
                 "upvotes_label": "Voti positivi:"
             },
-            "mod_item": "Mostra votanti"
+            "mod_item": "Mostra votanti",
+            "voters": {
+                "none": "",
+                "label": "",
+                "label_none": ""
+            }
         },
         "admin": {
             "permissions": {
@@ -72,7 +77,8 @@
                     "vote_color": "Colore del voto",
                     "icon_name": "Icona voto positivo/negativo",
                     "icon_help": "Inserisci una qualsiasi icona di FontAwesome che è seguita con il suffisso -up e -down. Esempio: arrow, thumbs, chevron",
-                    "upvotes_only": "Permetti solo voti positivi"
+                    "upvotes_only": "Permetti solo voti positivi",
+                    "first_post_only": ""
                 },
                 "save_settings": "Salva impostazioni",
                 "convert": {

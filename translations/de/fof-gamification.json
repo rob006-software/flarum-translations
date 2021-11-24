@@ -34,7 +34,12 @@
                 "title": "Wähler",
                 "upvotes_label": "Upvoter:"
             },
-            "mod_item": "Wähler anzeigen"
+            "mod_item": "Wähler anzeigen",
+            "voters": {
+                "none": "",
+                "label": "",
+                "label_none": ""
+            }
         },
         "admin": {
             "permissions": {
@@ -72,7 +77,8 @@
                     "vote_color": "Abgestimmt Farbe",
                     "icon_name": "Upvote/Downvote Symbol",
                     "icon_help": "Gebe ein beliebiges Font-Awesome-Icon mit den Endungen -up und -down ein. Beispiele: arrow, thumbs, chevron",
-                    "upvotes_only": ""
+                    "upvotes_only": "",
+                    "first_post_only": ""
                 },
                 "save_settings": "Einstellungen speichern",
                 "convert": {

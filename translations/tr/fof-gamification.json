@@ -34,7 +34,12 @@
                 "title": "Oy Verenler",
                 "upvotes_label": "Yukarı oyverenler:"
             },
-            "mod_item": "Oy Verenleri Göster"
+            "mod_item": "Oy Verenleri Göster",
+            "voters": {
+                "none": "",
+                "label": "",
+                "label_none": ""
+            }
         },
         "admin": {
             "permissions": {
@@ -72,7 +77,8 @@
                     "vote_color": "Oylandığındaki renk",
                     "icon_name": "Yukarı oy/aşağı oy simgesi",
                     "icon_help": "İstediğiniz -up ve -down arka eki olan FontAwesome simgesini ekleyin. Örn: arrow, thumbs, chevron",
-                    "upvotes_only": "Yalnızca yukarı oya izin ver"
+                    "upvotes_only": "Yalnızca yukarı oya izin ver",
+                    "first_post_only": ""
                 },
                 "save_settings": "Ayarları Kaydet",
                 "convert": {

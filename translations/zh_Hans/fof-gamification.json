@@ -34,7 +34,12 @@
                 "title": "打分",
                 "upvotes_label": "赞"
             },
-            "mod_item": "点赞的人"
+            "mod_item": "点赞的人",
+            "voters": {
+                "none": "",
+                "label": "",
+                "label_none": ""
+            }
         },
         "admin": {
             "permissions": {
@@ -72,7 +77,8 @@
                     "vote_color": "点赞颜色",
                     "icon_name": "赞/踩图标",
                     "icon_help": "输入任何 Font Awesome 图标，后缀为 -up 和 -down。 示例：arrow（箭头），thumbs（拇指），chevron（指向箭头）",
-                    "upvotes_only": ""
+                    "upvotes_only": "",
+                    "first_post_only": ""
                 },
                 "save_settings": "保存设置",
                 "convert": {

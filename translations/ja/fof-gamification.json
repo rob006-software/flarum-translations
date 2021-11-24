@@ -34,7 +34,12 @@
                 "title": "有権者",
                 "upvotes_label": "サポーター"
             },
-            "mod_item": "有権者を表示"
+            "mod_item": "有権者を表示",
+            "voters": {
+                "none": "",
+                "label": "",
+                "label_none": ""
+            }
         },
         "admin": {
             "permissions": {
@@ -72,7 +77,8 @@
                     "vote_color": "投票された色",
                     "icon_name": "好き/嫌いの小さなアイコン",
                     "icon_help": "Font Awesomeアイコンを入力してください。接尾辞は-upおよび-downです。 例：arrow, thumbs, chevron",
-                    "upvotes_only": ""
+                    "upvotes_only": "",
+                    "first_post_only": ""
                 },
                 "save_settings": "設定を保存する",
                 "convert": {

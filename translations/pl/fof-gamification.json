@@ -34,7 +34,12 @@
                 "title": "Głosujący",
                 "upvotes_label": "Głosujący pozytywnie:"
             },
-            "mod_item": "Zobacz głosujących"
+            "mod_item": "Zobacz głosujących",
+            "voters": {
+                "none": "",
+                "label": "",
+                "label_none": ""
+            }
         },
         "admin": {
             "permissions": {
@@ -72,7 +77,8 @@
                     "vote_color": "Kolor po zagłosowaniu",
                     "icon_name": "Ikonki głosowania",
                     "icon_help": "Wprowadź dowolną ikonę Font Awesome, która ma końcówkę -up lub -down. Przykłady: arrow, thumbs, chevron",
-                    "upvotes_only": "Pozwól jedynie na głosy pozytywne"
+                    "upvotes_only": "Pozwól jedynie na głosy pozytywne",
+                    "first_post_only": ""
                 },
                 "save_settings": "Zapisz ustawienia",
                 "convert": {
