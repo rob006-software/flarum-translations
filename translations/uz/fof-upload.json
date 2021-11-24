@@ -2,16 +2,16 @@
     "fof-upload": {
         "admin": {
             "pane": {
-                "title": "",
-                "description": ""
+                "title": "Yuklash",
+                "description": "Yuklash xizmatlari va afzalliklarini sozlang."
             },
             "help_texts": {
-                "disable-download-logging": "",
-                "disable-hotlink-protection": "",
-                "download_templates": "",
-                "mime_types": "",
-                "resize": "",
-                "client_extension": "",
+                "disable-download-logging": "Forumingiz foydalanuvchilari tomonidan yuklab olingan har bir yuklama jurnalini o'chirib qo'ying. Uni yoqilgan holda saqlash sizga yaqin kelajakda yuklab olinganlar soni va boshqa koʻrsatkichlarni koʻrish imkonini beradi.\n",
+                "disable-hotlink-protection": "Hotlink himoyasi boshqa saytlardan yuklamalarni ochishning oldini oladi. Joriy usul csrf tokeni va post identifikatorini talab qiladi.\n",
+                "download_templates": "Yuklab olish shablonlari - yuklamalar forumingizda qanday ko'rsatiladi, masalan, oldindan ko'rishlar, tugmalar. Hozirda mavjud:\n",
+                "mime_types": "Iltimos, xaritangizni shu yerda sozlang. Har bir mim tipidagi muntazam ifoda ma'lum bir yuklash adapteri va yuklab olish shablonlari tomonidan boshqariladi.\n",
+                "resize": "Tasvirlar yuklanishidan oldin ularning oʻlchamini oʻzgartirishni xohlaysizmi yoki yoʻqligini tanlang. Maksimal kenglik va balandlikni piksellarda tanlashingiz mumkin. O'lchamni o'zgartirish jarayoni tasvirlarning nisbatlarini saqlab qoladi.\n",
+                "client_extension": "Odatda Yuklash MIME turiga qarab xavfsiz fayl kengaytmasini tanlaydi.\nZIP yoki ikkilik ma'lumotlarga asoslangan ba'zi fayl turlari uchun bu kutilgan kengaytma o'rniga umumiy kengaytmalardan foydalanishga olib kelishi mumkin.\nBu yerda siz so'zma-so'z saqlanadigan fayl kengaytmalarining vergul bilan ajratilgan ro'yxatini kiritishingiz mumkin.\n",
                 "watermark": "",
                 "s3_compatible_storage": "",
                 "s3_acl": "",
