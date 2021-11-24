@@ -12,58 +12,58 @@
                 "mime_types": "Iltimos, xaritangizni shu yerda sozlang. Har bir mim tipidagi muntazam ifoda ma'lum bir yuklash adapteri va yuklab olish shablonlari tomonidan boshqariladi.\n",
                 "resize": "Tasvirlar yuklanishidan oldin ularning oʻlchamini oʻzgartirishni xohlaysizmi yoki yoʻqligini tanlang. Maksimal kenglik va balandlikni piksellarda tanlashingiz mumkin. O'lchamni o'zgartirish jarayoni tasvirlarning nisbatlarini saqlab qoladi.\n",
                 "client_extension": "Odatda Yuklash MIME turiga qarab xavfsiz fayl kengaytmasini tanlaydi.\nZIP yoki ikkilik ma'lumotlarga asoslangan ba'zi fayl turlari uchun bu kutilgan kengaytma o'rniga umumiy kengaytmalardan foydalanishga olib kelishi mumkin.\nBu yerda siz so'zma-so'z saqlanadigan fayl kengaytmalarining vergul bilan ajratilgan ro'yxatini kiritishingiz mumkin.\n",
-                "watermark": "",
-                "s3_compatible_storage": "",
-                "s3_acl": "",
-                "composer_buttons": ""
+                "watermark": "Yuklash paytida rasmlarga suv belgisi qo'shiladimi yoki yo'qligini tanlang. Quyidagi afzalliklaringiz asosida gif bo'lmagan rasmlarga suv bo'yoqlari qo'shiladi.\n",
+                "s3_compatible_storage": "Quyidagi sozlamalar faqat S3 mos xotirasidan foydalanilganda talab qilinadi. Agar siz AWS dan foydalansangiz, ularni bo'sh qoldirishingiz mumkin.\n",
+                "s3_acl": "Yuklangan ob'ektga qo'llanilishi kerak bo'lgan ACL (standart: shaxsiy). Mumkin qiymatlar uchun qarang: https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "composer_buttons": "Odatiy bo'lib media menejeri tugmasi ham, yuklash tugmasi ham ko'rinadi. Siz faqat bitta tugmani ko'rsatishni tanlashingiz mumkin.\n"
             },
             "labels": {
                 "aws-s3": {
-                    "bucket": "",
-                    "key": "",
-                    "region": "",
-                    "secret": "",
-                    "title": "",
-                    "advanced_title": "",
-                    "endpoint": "",
-                    "use_path_style_endpoint": "",
-                    "acl": ""
+                    "bucket": "Chelak",
+                    "key": "Kalit",
+                    "region": "Mintaqa",
+                    "secret": "Sir",
+                    "title": "AWS S3 saqlash sozlamalari",
+                    "advanced_title": "Kengaytirilgan S3 saqlash sozlamalari",
+                    "endpoint": "Yakuniy nuqta",
+                    "use_path_style_endpoint": "Yo'l uslubining so'nggi nuqtasidan foydalaning",
+                    "acl": "Kirish nazorati roʻyxati (ACL)"
                 },
                 "disable-download-logging": {
-                    "title": "",
-                    "toggle": ""
+                    "title": "Yuklab olish jurnalini o'chirib qo'ying",
+                    "toggle": "Oʻchirish"
                 },
                 "disable-hotlink-protection": {
-                    "title": "",
-                    "toggle": ""
+                    "title": "Hotlink himoyasini o'chirib qo'ying",
+                    "toggle": "Oʻchirish"
                 },
                 "imgur": {
-                    "client_id": "",
-                    "title": ""
+                    "client_id": "Imgur mijoz identifikatori",
+                    "title": "Imgur tasvirni saqlash sozlamalari"
                 },
                 "local": {
-                    "cdn_url": "",
-                    "title": ""
+                    "cdn_url": "Kontentni yetkazib berish URL manzili (prefiks fayllari)",
+                    "title": "Mahalliy saqlash sozlamalari"
                 },
                 "qiniu": {
-                    "title": "",
-                    "key": "",
-                    "secret": "",
-                    "bucket": ""
+                    "title": "Qiniu saqlash sozlamalari",
+                    "key": "Kalit",
+                    "secret": "Sir",
+                    "bucket": "Chelak"
                 },
                 "preferences": {
-                    "max_file_size": "",
-                    "mime_types": "",
-                    "title": "",
-                    "php_ini_values": ""
+                    "max_file_size": "Maksimal fayl hajmi (kilobaytlarda)",
+                    "mime_types": "Mim turini sozlang, adapter xaritasini yuklang",
+                    "title": "Umumiy imtiyozlar",
+                    "php_ini_values": "Sizning <code>php.ini</code> qiymatlaringiz <code>post_max_size={post}</code> va <code>upload_max_filesize={upload}</code>. Bu yerda oʻrnatilgan qiymat ushbu chegaralardan past ekanligiga ishonch hosil qiling yoki ularni mos ravishda sozlang. Agar <code>Nginx</code> dan foydalansangiz, <code>client_max_body_size</code> siz tanlagan maksimal chegara uchun yetarli hajmda boʻlishini ham tekshiring."
                 },
                 "resize": {
-                    "max_width": "",
-                    "title": "",
-                    "toggle": ""
+                    "max_width": "Tasvirning maksimal kengligi/balandligi",
+                    "title": "Rasm hajmini oʻzgartirish",
+                    "toggle": "Rasm hajmini oʻzgartirish"
                 },
                 "client_extension": {
-                    "title": ""
+                    "title": "Foydalanuvchi tomonidan taqdim etilgan fayl kengaytmalari"
                 },
                 "watermark": {
                     "file": "",
