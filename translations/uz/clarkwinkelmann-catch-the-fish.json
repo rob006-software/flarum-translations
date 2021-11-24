@@ -127,62 +127,62 @@
                 "discussion": "Muhokamalar",
                 "discussion-age": "Unga baliq qo'yish uchun qancha vaqt munozaralar bo'lishi mumkin (kunlar)",
                 "discussion-tags": "Oq roʻyxatga teg",
-                "discussion-tags-unavailable": "",
-                "discussion-tags-help": "",
+                "discussion-tags-unavailable": "Sozlama mavjud emas, chunki Teglar kengaytmasi oʻchirilgan.",
+                "discussion-tags-help": "Agar biror teg tanlamasangiz, yuqoridagi vaqt sozlamalariga mos keladigan har qanday muhokamani tanlash mumkin. Agar biron-bir miqdordagi teglar tanlangan bo'lsa, muhokamada tanlangan teglardan kamida bittasi bo'lishi kerak. Ehtimollik - bu avvalgi barcha variantlar sinab ko'rilganidan keyin tanlanish imkoniyati. Ro'yxatdagi oxirgi teg har doim zaxira rolini o'ynaydi, shuning uchun teg ichida kamida bitta haqiqiy muhokama borligiga ishonch hosil qiling.\n",
                 "tags-header": {
-                    "tag": "",
-                    "probability": ""
+                    "tag": "Teg",
+                    "probability": "Ehtimollik"
                 },
                 "tags-control": {
-                    "choose": "",
-                    "add": "",
-                    "down": "",
-                    "up": "",
-                    "delete": ""
+                    "choose": "Tegni tanlang",
+                    "add": "Oq ro'yxatga qo'shish",
+                    "down": "Pastga siljiting",
+                    "up": "Yuqoriga harakatlanmoq",
+                    "delete": "Oq ro'yxatdan o'chirish"
                 },
                 "tags-fallback": {
-                    "last-line": "",
-                    "single-line": ""
+                    "last-line": "Orqaga chekinish",
+                    "single-line": "Ehtimollik uchun kamida 2 teg kerak"
                 },
-                "post": "",
-                "post-age": "",
-                "post-probability": "",
-                "general": "",
-                "time-to-place": "",
-                "alert-round": "",
-                "animate-flip": ""
+                "post": "Xabarlar",
+                "post-age": "Unga baliq qo'yish uchun qancha eski postlar bo'lishi mumkin (kun)",
+                "post-probability": "Muhokamaga emas, balki postga joylashtirilish ehtimoli (%)",
+                "general": "Umumiy",
+                "time-to-place": "Baliqni tasodifiy joylashtirishdan oldin joylashtirishga ruxsat berilgan vaqt (daqiqa)",
+                "alert-round": "Bosh sahifada davra nomi va davomiyligi bilan ogohlantirishni ko'rsating",
+                "animate-flip": "Yo'nalish bo'yicha baliq tasvirlarini aylantiring"
             },
             "permissions": {
-                "visible": "",
-                "list-rankings": "",
-                "participate": "",
-                "choose-place": "",
-                "choose-name": "",
-                "moderate": ""
+                "visible": "Baliqlarni ko'ring",
+                "list-rankings": "Reyting sahifasiga kiring",
+                "participate": "Raundlarda ishtirok eting va baliqlarni tuting",
+                "choose-place": "Tutgandan keyin baliqni joylashtirishni tanlang",
+                "choose-name": "Tutgandan keyin baliq nomini tanlang",
+                "moderate": "O'rtacha dumaloq va baliqlar"
             }
         },
         "api": {
-            "default-fish-name": "",
-            "wrong-catch-placement": "",
-            "too-many-placement-models": "",
-            "invalid-discussion-id": "",
-            "invalid-post-id": "",
-            "invalid-user-id": "",
-            "model-deleted": "",
-            "model-private": "",
-            "tag-not-allowed": "",
-            "inactive-discussion": "",
-            "inactive-post": "",
-            "inactive-user": "",
-            "non-comment-post": "",
-            "user-suspended": "",
-            "random-error": "",
-            "cannot-catch-own-fish": "",
-            "cannot-catch-hold-fish": "",
-            "fish-update-wrong-user": "",
-            "fish-update-expired": "",
-            "round-not-started": "",
-            "round-finished": ""
+            "default-fish-name": "Baliq #{raqam}",
+            "wrong-catch-placement": "Bu yerda baliq yo'q. Balki siz yetarlicha tez bo'lmagansiz va boshqa birov buni birinchi bo'lib olgan",
+            "too-many-placement-models": "Bir vaqtning o'zida faqat bitta joylashtirish mumkin",
+            "invalid-discussion-id": "Muhokama mavjud emasga o'xshaydi, ehtimol u yaqinda o'chirib tashlangan",
+            "invalid-post-id": "Xabar mavjud emasga o'xshaydi, ehtimol u yaqinda o'chirib tashlangan",
+            "invalid-user-id": "Foydalanuvchi mavjud emasga o'xshaydi, ehtimol u yaqinda o'chirib tashlangan",
+            "model-deleted": "Oʻchirilgan muhokama yoki postga baliq qoʻyib boʻlmaydi",
+            "model-private": "Baliqni shaxsiy muhokama yoki postga joylashtira olmaysiz",
+            "tag-not-allowed": "Bu teg ostida baliq joylashtira olmaysiz",
+            "inactive-discussion": "Baliqni {kunlar} kundan ortiq faolsiz muhokamaga qoʻyib boʻlmaydi",
+            "inactive-post": "{kunlar} kundan koʻproq vaqt oldin yaratilgan postga baliq qoʻyib boʻlmaydi",
+            "inactive-user": "Foydalanuvchiga {kunlar} kundan ortiq faol boʻlmagan baliqlarni joylashtirib boʻlmaydi",
+            "non-comment-post": "Baliqlarni faqat sharh postlariga joylashtirish mumkin",
+            "user-suspended": "To‘xtatilgan foydalanuvchiga baliq qo‘yib bo‘lmaydi",
+            "random-error": "Tasodifiy baliq joylashuvini yaratib bo'lmadi",
+            "cannot-catch-own-fish": "O'zingiz qo'ygan baliqni tutolmaysiz",
+            "cannot-catch-hold-fish": "Oldingi ovchi baliqni qo'lga olishingizdan oldin uni qo'yib yuborishi kerak",
+            "fish-update-wrong-user": "Bu baliqni endi tahrirlay olmaysiz. Ehtimol, kimdir uni tutib olgan",
+            "fish-update-expired": "Juda kech, endi bu baliqni tahrirlay olmaysiz. Ayni paytda u avtomatik ravishda biror joyga joylashtirildi",
+            "round-not-started": "Bu raund boshlanmadi",
+            "round-finished": "Bu raund yakunlandi"
         }
     }
 }
