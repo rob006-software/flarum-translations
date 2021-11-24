@@ -352,7 +352,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/frontpage/1.0.1/resources/locale/en.yml',
 	],
 	'fof-gamification' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/gamification/1.2.3/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/gamification/1.2.5/resources/locale/en.yml',
 	],
 	'fof-geoip' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/geoip/1.0.1/resources/locale/en.yml',
