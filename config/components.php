@@ -504,6 +504,9 @@ return [
 	'jslirola-login2seeplus' => [
 		'tag' => 'https://raw.githubusercontent.com/jslirola/flarum-ext-login2seeplus/v0.2/locale/en.yml',
 	],
+	'justoverclock-auto-post-badge-pro' => [
+		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/justoverclock-auto-post-badge-pro.yml',
+	],
 	'justoverclock-auto-post-count-badge' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/auto-post-count-badge/0.1.7/locale/en.yml',
 	],
