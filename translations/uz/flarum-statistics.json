@@ -2,15 +2,15 @@
     "flarum-statistics": {
         "admin": {
             "statistics": {
-                "active_users_text": "",
-                "discussions_heading": "",
-                "last_12_months_label": "",
-                "last_28_days_label": "",
-                "last_7_days_label": "",
-                "posts_heading": "",
-                "today_label": "",
-                "total_label": "",
-                "users_heading": ""
+                "active_users_text": "{count} faollar",
+                "discussions_heading": "=> core.ref.discussions",
+                "last_12_months_label": "Oxirgi 12 oy",
+                "last_28_days_label": "Oxirgi 28 kun",
+                "last_7_days_label": "Oxirgi 7 kun",
+                "posts_heading": "=> core.ref.posts",
+                "today_label": "Bugun",
+                "total_label": "Jami",
+                "users_heading": "=> core.ref.users"
             }
         }
     }
