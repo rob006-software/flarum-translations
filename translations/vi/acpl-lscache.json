@@ -3,6 +3,8 @@
         "admin": {
             "public_cache_ttl_label": "Bộ nhớ đệm TTL mặc định",
             "public_cache_ttl_help": "Chỉ định thời gian, tính bằng giây, các trang công khai được lưu vào bộ nhớ cache. Giá trị mặc định là 300 giây",
+            "serve_stale_label": "",
+            "serve_stale_help": "",
             "purge_on_discussion_update_label": "Xóa các URL hoặc Thẻ khi một cuộc thảo luận hoặc bài viết được cập nhật",
             "purge_on_discussion_update_help": "Chỉ định một URL hoặc Thẻ trên mỗi dòng. URL phải bắt đầu bằng <code>/</code>, ví dụ: <code>/rankings</code> và bộ nhớ đệm phải bắt đầu bằng <code>tag=</code>, ví dụ: <code>tag=rankings</code>. Tiện ích mở rộng này gắn thẻ cho mọi tuyến đường và ví dụ: nếu bạn có nhiều tuyến đường mà bạn muốn xóa, tốt hơn nên thêm một quy tắc trong .htaccess với một biểu thức chính quy sẽ gắn thẻ các tuyến đường và tại đây trong cài đặt chỉ nhập thẻ này. Phương pháp này sẽ nhanh hơn nhiều. <a>Tìm hiểu thêm</a>. Theo mặc định, bộ nhớ đệm cho trang chủ bị xóa, cũng như bộ nhớ đệm cho các cuộc thảo luận cập nhật",
             "purge_all": "Xoá toàn bộ LSCache",

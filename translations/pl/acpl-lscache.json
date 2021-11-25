@@ -3,6 +3,8 @@
         "admin": {
             "public_cache_ttl_label": "Domyślny TTL publicznego cache",
             "public_cache_ttl_help": "Określ jak długo, w sekundach, publiczne strony będą przechowywane w pamięci podręcznej. Wartość domyślna to 300 sekund",
+            "serve_stale_label": "",
+            "serve_stale_help": "",
             "purge_on_discussion_update_label": "",
             "purge_on_discussion_update_help": "",
             "purge_all": "Wyczyść całe LSCache",

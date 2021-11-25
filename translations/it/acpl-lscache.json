@@ -3,6 +3,8 @@
         "admin": {
             "public_cache_ttl_label": "TTL cache pubblica predefinita",
             "public_cache_ttl_help": "Specifica per quanto tempo, in secondi, le pagine pubbliche vengono memorizzate nella cache. Il valore predefinito è 300 secondi",
+            "serve_stale_label": "",
+            "serve_stale_help": "",
             "purge_on_discussion_update_label": "Elimina URL o tag quando una discussione o un post viene aggiornato",
             "purge_on_discussion_update_help": "Specifica un URL o un tag per riga. L'URL dovrebbe iniziare con <code>/</code>, ad es. <code>/rankings</code> e il tag cache dovrebbero iniziare con <code>tag=</code>, ad es. <code>tag=classifica</code>. Questa estensione tagga ogni indirizzo e, qualora ne avessi molti da eliminare, è meglio aggiungere una regola in .htaccess con un'espressione regolare che tagga gli indirizzi e qui nelle impostazioni inserire solo il tag . Questo metodo sarà molto più veloce. <a>Ulteriori informazioni</a>. Per impostazione predefinita, la cache per la home page viene eliminata, così come la cache per le discussioni aggiornate",
             "purge_all": "Elimina tutto da LSCache",
