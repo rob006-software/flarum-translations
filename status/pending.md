@@ -38,7 +38,4 @@
 
 ## Dead branches
 
-| Extension | Pull request |
-| --- | --- |
-| `davwheat-discussion-templates` | [![#745 (closed)](https://img.shields.io/badge/PR-%23745-red)](https://github.com/rob006-software/flarum-translations/pull/745) |
-| `littlecxm-oauth-flarum` | [![#768 (closed)](https://img.shields.io/badge/PR-%23768-red)](https://github.com/rob006-software/flarum-translations/pull/768) |
+There are no dead branches.
