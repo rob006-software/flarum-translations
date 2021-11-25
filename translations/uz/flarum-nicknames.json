@@ -2,41 +2,41 @@
     "flarum-nicknames": {
         "admin": {
             "permissions": {
-                "edit_own_nickname_label": ""
+                "edit_own_nickname_label": "Taxallusni o'zgartirish"
             },
             "settings": {
-                "max_label": "",
-                "min_label": "",
-                "random_username_label": "",
-                "random_username_help": "",
-                "regex_label": "",
-                "set_on_registration_label": "",
-                "unique_label": ""
+                "max_label": "Maksimum taxallus uzunligi",
+                "min_label": "Minimum taxallus uzunligi",
+                "random_username_label": "Tasodifiy foydalanuvchi nomi",
+                "random_username_help": "Bu ro'yxatdan o'tishda \"foydalanuvchi nomi\" kiritilishini yashiradi va uning o'rniga tasodifiy raqamdan foydalanadi. Bundan tashqari, \"taxallus\" maydonini majburiy qiladi. Bu “Ro‘yxatdan o‘tishda taxalluslarni o‘rnatishga ruxsat berish” yoqilgan bo‘lsagina kuchga kiradi.",
+                "regex_label": "Tasdiqlash uchun muntazam ifoda",
+                "set_on_registration_label": "Ro'yxatdan o'tishda taxalluslarni o'rnatishga ruxsat bering",
+                "unique_label": "Noyob taxalluslar kerakmi?"
             },
-            "wrong_driver": ""
+            "wrong_driver": "Ushbu kengaytma kuchga kirishi uchun <a><strong>Asosiy ma'lumotlar sahifasi</strong></a>da ko'rsatiladigan nom drayveri sifatida \"nickname\" ni tanlashingiz kerak."
         },
         "api": {
-            "invalid_nickname_message": ""
+            "invalid_nickname_message": "Bu taxallus yaroqsiz. Taxallus qoidalari haqida ko'proq ma'lumot olish uchun forum administratoringizga murojaat qiling."
         },
         "forum": {
             "change_nickname": {
-                "submit_button": "",
-                "title": ""
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> flarum-nicknames.ref.change_nickname"
             },
             "edit_user": {
-                "nicknames_heading": "",
-                "nicknames_text": ""
+                "nicknames_heading": "=> flarum-nicknames.ref.change_nickname",
+                "nicknames_text": "Taxallus"
             },
             "settings": {
-                "change_nickname_button": ""
+                "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
             },
             "sign_up": {
-                "nickname_placeholder": ""
+                "nickname_placeholder": "=> flarum-nicknames.ref.nickname"
             }
         },
         "ref": {
-            "change_nickname": "",
-            "nickname": ""
+            "change_nickname": "Taxallusni o'zgartirish",
+            "nickname": "Taxallus"
         }
     }
 }
