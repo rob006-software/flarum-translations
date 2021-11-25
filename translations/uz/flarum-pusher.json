@@ -2,16 +2,16 @@
     "flarum-pusher": {
         "admin": {
             "pusher_settings": {
-                "app_cluster_label": "",
-                "app_id_label": "",
-                "app_key_label": "",
-                "app_secret_label": "",
-                "title": ""
+                "app_cluster_label": "Klaster",
+                "app_id_label": "Dastur ID",
+                "app_key_label": "Kalit",
+                "app_secret_label": "Dastur maxfiy so'zi",
+                "title": "Pusher sozlamalari"
             }
         },
         "forum": {
             "discussion_list": {
-                "show_updates_text": ""
+                "show_updates_text": "{hisob, koʻplik, bitta {# yangilangan muhokamani koʻrsatish} other {# ta yangilangan muhokamani koʻrsatish}}"
             }
         }
     }
