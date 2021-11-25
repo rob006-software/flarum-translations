@@ -2,40 +2,40 @@
     "flarum-flags": {
         "admin": {
             "permissions": {
-                "flag_posts_label": "",
-                "view_flags_label": ""
+                "flag_posts_label": "Postga norozilik bildirish",
+                "view_flags_label": "Norozilik bildirilgan postlarni ko'rish"
             },
             "settings": {
-                "flag_own_posts_label": "",
-                "guidelines_url_label": "",
-                "title": ""
+                "flag_own_posts_label": "Foydalanuvchilar o'zlarining postlariga norozilik bilidirishga ruxsat berish",
+                "guidelines_url_label": "Hamjamiyat koʻrsatmalari URL manzili",
+                "title": "Sozlamalar"
             }
         },
         "forum": {
             "flag_post": {
-                "confirmation_message": "",
+                "confirmation_message": "Ushbu postni belgilaganingiz uchun tashakkur. Moderatorlarimiz buni ko'rib chiqadilar.",
                 "dismiss_button": "",
-                "reason_details_placeholder": "",
-                "reason_inappropriate_label": "",
-                "reason_inappropriate_text": "",
-                "reason_missing_message": "",
-                "reason_off_topic_label": "",
-                "reason_off_topic_text": "",
-                "reason_other_label": "",
+                "reason_details_placeholder": "Qo'shimcha ma'lumotlar (ixtiyoriy)",
+                "reason_inappropriate_label": "Nomaqbul",
+                "reason_inappropriate_text": "Bu post haqoratomuz, haqoratomuz yoki <a>hamjamiyat tartib-qoidalarimizni</a> buzadi.",
+                "reason_missing_message": "Iltimos, moderatorlarimiz uchun ba'zi tafsilotlarni bering.",
+                "reason_off_topic_label": "Mavzudan tashqari",
+                "reason_off_topic_text": "Ushbu post joriy muhokamaga tegishli emas va boshqa joyga ko'chirilishi kerak.",
+                "reason_other_label": "Boshqa (belgilang)",
                 "reason_spam_label": "",
-                "reason_spam_text": "",
+                "reason_spam_text": "Bu post reklama.",
                 "submit_button": "",
                 "title": ""
             },
             "flagged_posts": {
-                "empty_text": "",
-                "item_text": "",
+                "empty_text": "Noroziliklar yo'q",
+                "item_text": "{username} <em>{discussion}</em>",
                 "title": "",
                 "tooltip": ""
             },
             "post": {
-                "dismiss_flag_button": "",
-                "flagged_by_text": "",
+                "dismiss_flag_button": "Norozilkni bekor qilish",
+                "flagged_by_text": "{username} tomonidan norozilik bildirildi",
                 "flagged_by_with_reason_text": ""
             },
             "post_controls": {
