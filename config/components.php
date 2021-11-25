@@ -661,7 +661,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/maicol07/flarum-ext-sso/1.10.3/locale/en.yml',
 	],
 	'malago-achievements' => [
-		'tag' => 'https://raw.githubusercontent.com/malago86/flarum-achievements/0.5.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/malago86/flarum-achievements/0.5.2/locale/en.yml',
 	],
 	'malago-ads' => [
 		'tag' => 'https://raw.githubusercontent.com/malago86/flarum-ads/0.3.2/resources/locale/en.yml',
