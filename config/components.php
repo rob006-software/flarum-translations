@@ -654,6 +654,9 @@ return [
 	'kyrne-whisper' => [
 		'tag' => 'https://raw.githubusercontent.com/KyrneDev/whisper/0.1.3/resources/locale/en.yml',
 	],
+	'littlecxm-fof-passport' => [
+		'tag' => 'https://raw.githubusercontent.com/littlecxm/fof-passport/1.0.0/locale/en.yml',
+	],
 	'maicol07-oidc-client' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/maicol07-oidc-client.yml',
 	],
