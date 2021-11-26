@@ -820,7 +820,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/v17development-support.yml',
 	],
 	'v17development-user-badges' => [
-		'tag' => 'https://raw.githubusercontent.com/v17development/flarum-user-badges/v0.2.1/locale/en.yaml',
+		'tag' => 'https://raw.githubusercontent.com/v17development/flarum-user-badges/v1.0.0/locale/en.yaml',
 	],
 	'webbinaro-calendar' => [
 		'tag' => 'https://raw.githubusercontent.com/eddiewebb/flarum-calendar/1.0.0/resources/locale/en.yml',
