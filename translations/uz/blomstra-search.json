@@ -2,8 +2,8 @@
     "blomstra-search": {
         "admin": {
             "elastic-endpoint": "Elastik so'nggi nuqta",
-            "elastic-username": "",
-            "elastic-password": "",
+            "elastic-username": "=> core.ref.username",
+            "elastic-password": "=> core.ref.password",
             "elastic-index": "Indeks",
             "analyzer": {
                 "label": "Analiz tili",
