@@ -10,11 +10,11 @@
         "emails": {
             "post_warned": {
                 "subject": "{warner_display_name} sizni {discussion_title} doirasida {ogohlantirishlar, koʻplik, bitta {# ogohlantirish} boshqa {# ta ogohlantirish}} bilan ogohlantirdi",
-                "body": ""
+                "body": "Salom {warnee_display_name}!\n\n{warner_display_name} sizni {discussion_title} da {strikes, plural, one {# strike} other {# strikes}} bilan ogohlantirdi}\n\nQuyidagi sabab bilan:\n\n---\n\n{public_comment}\n"
             },
             "user_warned": {
                 "subject": "{warner_display_name} sizni {ogohlantirishlar, koʻplik, bitta {# ogohlantirish} boshqa {# ta ogohlantirish}} bilan ogohlantirdi",
-                "body": ""
+                "body": "Salom {warnee_display_name}!\n\n{warner_display_name} sizni {strikes, plural, one {# strike} other {# strikes}} bilan ogohlantirdi\n\nQuyidagi sabab ko'rsatilgan:\n\n---\n\n{public_comment}\n"
             }
         },
         "forum": {
@@ -51,8 +51,8 @@
                 "warnings_no_strikes": "Moderator ogohlantirishlari: Hech qanday ogohlantirish olinmadi"
             },
             "warning_list_item": {
-                "list_item_heading": "",
-                "list_item_heading_hidden": "",
+                "list_item_heading": "{strikes, plural, one {<strong>#</strong> strike, {time}} other {<strong>#</strong> strikes, {time}}}",
+                "list_item_heading_hidden": "{strikes, plural, one {<strong>#</strong> strike, {time} <strong>(o'chirilgan)</strong>} other {<strong>#</strong> strikes, {time} <strong>(o'chirilgan)</strong>}}",
                 "public_comment": "Ogohlantirish",
                 "private_comment": "Moderator - Ko'rinadigan sharhlar",
                 "linked_post": "Bog'langan post"
