@@ -412,7 +412,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/prevent-necrobumping/1.0.1/resources/locale/en.yml',
 	],
 	'fof-pwned-passwords' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pwned-passwords/1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pwned-passwords/1.0.1/locale/en.yml',
 	],
 	'fof-reactions' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/reactions/1.0.2/resources/locale/en.yml',
