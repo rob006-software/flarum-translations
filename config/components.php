@@ -439,7 +439,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/spamblock/1.0.2/locale/en.yml',
 	],
 	'fof-split' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/split/1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/split/1.0.1/locale/en.yml',
 	],
 	'fof-stopforumspam' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/stopforumspam/1.1.1/resources/locale/en.yml',
