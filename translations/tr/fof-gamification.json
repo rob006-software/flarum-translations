@@ -36,13 +36,13 @@
             },
             "mod_item": "Oy Verenleri Göster",
             "voters": {
-                "none": "",
-                "label": "",
-                "label_none": ""
+                "none": "Henüz oylayan yok",
+                "label": "Oylayanlar",
+                "label_none": "Oylayan yok"
             },
             "post": {
-                "upvote_button": "",
-                "downvote_button": ""
+                "upvote_button": "Yukarı oyla",
+                "downvote_button": "Aşağı oyla"
             }
         },
         "admin": {
@@ -82,7 +82,7 @@
                     "icon_name": "Yukarı oy/aşağı oy simgesi",
                     "icon_help": "İstediğiniz -up ve -down arka eki olan FontAwesome simgesini ekleyin. Örn: arrow, thumbs, chevron",
                     "upvotes_only": "Yalnızca yukarı oya izin ver",
-                    "first_post_only": ""
+                    "first_post_only": "Bir tartışmada yalnızca ilk gönderinin yukarı/aşağı oylanmasına izin verin"
                 },
                 "save_settings": "Ayarları Kaydet",
                 "convert": {
