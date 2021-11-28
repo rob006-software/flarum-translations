@@ -119,8 +119,8 @@
                 "purge_button": "",
                 "readme": {
                     "button_label": "",
-                    "no_readme": "",
-                    "title": ""
+                    "no_readme": "Deze extensie lijkt geen README-bestand te hebben",
+                    "title": "{extName} documentatie"
                 },
                 "confirm_uninstall": "Als u de installatie ongedaan maakt, worden alle database-items en assets die betrekking hebben op de extensie verwijderd. Weet je zeker dat je door wilt gaan?",
                 "uninstall_button": "Deïnstalleren"
@@ -305,8 +305,8 @@
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} heeft {ago} gereageerd",
                 "started_text": "{username} heeft {ago} gereageerd",
-                "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": "",
+                "total_replies_a11y_label": "{count, plural, one {# antwoord} other {# antwoorden}}",
+                "unread_replies_a11y_label": "{count, plural, one {# ongelezen antwoord} other {# ongelezen antwoorden}}. Markeer ongelezen {count, plural, one {bericht} other {berichten}} als gelezen.",
                 "mark_as_read_tooltip": "Markeren als gelezen"
             },
             "forgot_password": {
@@ -455,11 +455,11 @@
                 "sent_message": "Verstuurd"
             },
             "welcome_hero": {
-                "hide": ""
+                "hide": "Welkomstbericht verbergen"
             }
         },
         "lib": {
-            "debug_button": "",
+            "debug_button": "Debug",
             "badge": {
                 "hidden_tooltip": "Verborgen"
             },
@@ -478,26 +478,26 @@
                 "title": "=> core.ref.edit_user",
                 "username_heading": "=> core.ref.username",
                 "username_label": "=> core.ref.username",
-                "nothing_available": ""
+                "nothing_available": "Je hebt geen rechten om deze gebruiker te bewerken."
             },
             "error": {
                 "dependent_extensions_message": "Kan {extension} pas uitschakelen als de volgende afhankelijke extensies zijn uitgeschakeld: {extensions}",
                 "generic_message": "Oeps! Er is iets misgegaan. Herlaad de pagina en probeer het opnieuw.",
                 "missing_dependencies_message": "Kan {extension} pas inschakelen als de volgende afhankelijke extensies zijn ingeschakeld: {extensions}",
                 "not_found_message": "Het opgevraagde kon niet worden gevonden.",
-                "payload_too_large_message": "",
+                "payload_too_large_message": "De payload van het verzoek was te groot.",
                 "permission_denied_message": "Je hebt geen permissie om dat te doen.",
                 "rate_limit_exceeded_message": "Je gaat een beetje te snel. Probeer het over een paar seconden nog eens.",
-                "render_failed_message": ""
+                "render_failed_message": "Sorry, er is een fout opgetreden bij het weergeven van deze inhoud. Wanneer je een gebruiker bent, probeer het dan later opnieuw. Als je een beheerder bent, kijk dan in je Flarum-logbestanden voor meer informatie."
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
             },
             "modal": {
-                "close": ""
+                "close": "Sluiten"
             },
             "nav": {
-                "drawer_button": ""
+                "drawer_button": "Open navigatie"
             },
             "number_suffix": {
                 "kilo_text": "K",
