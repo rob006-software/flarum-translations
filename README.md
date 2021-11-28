@@ -533,7 +533,6 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`justoverclock-last-tweet`](https://weblate.rob006.net/projects/flarum/justoverclock-last-tweet) | [`justoverclock/last-tweet`](https://github.com/justoverclockl/last-tweet) |
 | [`justoverclock-last-users-posts`](https://weblate.rob006.net/projects/flarum/justoverclock-last-users-posts) | [`justoverclock/last-users-posts`](https://github.com/justoverclockl/last-users-posts) |
 | [`justoverclock-og-meta-tag`](https://weblate.rob006.net/projects/flarum/justoverclock-og-meta-tag) | [`justoverclock/og-meta-tag`](https://github.com/justoverclockl/og-meta-tag) |
-| [`justoverclock-top-crypto-currencies`](https://weblate.rob006.net/projects/flarum/justoverclock-top-crypto-currencies) | [`justoverclock/top-crypto-currencies`](https://github.com/justoverclockl/top-crypto-currencies) |
 | [`justoverclock-username-blacklist`](https://weblate.rob006.net/projects/flarum/justoverclock-username-blacklist) | [`justoverclock/username-blacklist`](https://github.com/justoverclockl/username-blacklist) |
 | [`justoverclock-youtube-video-feed`](https://weblate.rob006.net/projects/flarum/justoverclock-youtube-video-feed) | [`justoverclock/youtube-video-feed`](https://github.com/justoverclockl/youtube-video-feed) |
 | [`katosdev-signature`](https://weblate.rob006.net/projects/flarum/katosdev-signature) | [`katosdev/signature`](https://github.com/katosdev/signature) |
