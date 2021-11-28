@@ -17,8 +17,8 @@
                 "with_vkontakte_button": "=> fof-oauth.forum.log_in.with_button"
             },
             "providers": {
-                "vk": "",
-                "vkontakte": "=> fof-oauth.lib.providers.vkontakte"
+                "vkontakte": "=> fof-oauth.lib.providers.vkontakte",
+                "vk": ""
             }
         },
         "lib": {
