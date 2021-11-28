@@ -615,9 +615,6 @@ return [
 	'justoverclock-toastme' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-toastme/0.1.1/resources/locale/en.yml',
 	],
-	'justoverclock-top-crypto-currencies' => [
-		'tag' => 'https://raw.githubusercontent.com/justoverclockl/top-crypto-currencies/0.1.1/locale/en.yml',
-	],
 	'justoverclock-username-blacklist' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/username-blacklist/0.1.0/resources/locale/en.yml',
 	],
