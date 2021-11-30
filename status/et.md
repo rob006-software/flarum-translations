@@ -32,9 +32,9 @@
 			<a href="https://github.com/flarum/tags" title="flarum/tags"><code>flarum/tags</code></a>
 		</td>
 		<td align="center">1<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/tags/stats">120050<br /><img src="https://img.shields.io/badge/-%2B1227-brightgreen" alt="+1227" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/tags/stats">5581<br /><img src="https://img.shields.io/badge/-%2B275-brightgreen" alt="+275" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/tags/stats">221<br /><img src="https://img.shields.io/badge/-%2B75-brightgreen" alt="+75" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/tags/stats">121840<br /><img src="https://img.shields.io/badge/-%2B1790-brightgreen" alt="+1790" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/tags/stats">6819<br /><img src="https://img.shields.io/badge/-%2B1238-brightgreen" alt="+1238" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/tags/stats">102<br /><img src="https://img.shields.io/badge/--119-red" alt="-119" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/flarum-tags/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/flarum-tags/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
@@ -43,9 +43,9 @@
 			<a href="https://github.com/flarum/lock" title="flarum/lock"><code>flarum/lock</code></a>
 		</td>
 		<td align="center">2<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/lock/stats">131987<br /><img src="https://img.shields.io/badge/-%2B1300-brightgreen" alt="+1300" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/lock/stats">4835<br /><img src="https://img.shields.io/badge/-%2B181-brightgreen" alt="+181" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/lock/stats">205<br /><img src="https://img.shields.io/badge/-%2B50-brightgreen" alt="+50" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/lock/stats">132960<br /><img src="https://img.shields.io/badge/-%2B973-brightgreen" alt="+973" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/lock/stats">5066<br /><img src="https://img.shields.io/badge/-%2B231-brightgreen" alt="+231" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/lock/stats">143<br /><img src="https://img.shields.io/badge/--62-red" alt="-62" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/flarum-lock/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/flarum-lock/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
@@ -53,10 +53,10 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/flarum/emoji" title="flarum/emoji"><code>flarum/emoji</code></a>
 		</td>
-		<td align="center">3<br /><img src="https://img.shields.io/badge/--2-brightgreen" alt="-2" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/emoji/stats">130895<br /><img src="https://img.shields.io/badge/-%2B1327-brightgreen" alt="+1327" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/emoji/stats">4297<br /><img src="https://img.shields.io/badge/-%2B214-brightgreen" alt="+214" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/emoji/stats">166<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
+		<td align="center">3<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/emoji/stats">131629<br /><img src="https://img.shields.io/badge/-%2B734-brightgreen" alt="+734" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/emoji/stats">4390<br /><img src="https://img.shields.io/badge/-%2B93-brightgreen" alt="+93" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/emoji/stats">150<br /><img src="https://img.shields.io/badge/--16-red" alt="-16" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/flarum-emoji/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/flarum-emoji/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
@@ -64,65 +64,43 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/flarum/mentions" title="flarum/mentions"><code>flarum/mentions</code></a>
 		</td>
-		<td align="center">4<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/mentions/stats">130303<br /><img src="https://img.shields.io/badge/-%2B1294-brightgreen" alt="+1294" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/mentions/stats">4283<br /><img src="https://img.shields.io/badge/-%2B137-brightgreen" alt="+137" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/mentions/stats">188<br /><img src="https://img.shields.io/badge/-%2B31-brightgreen" alt="+31" title="Change from last week"></a></td>
+		<td align="center">4<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/mentions/stats">131111<br /><img src="https://img.shields.io/badge/-%2B808-brightgreen" alt="+808" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/mentions/stats">4338<br /><img src="https://img.shields.io/badge/-%2B55-brightgreen" alt="+55" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/mentions/stats">178<br /><img src="https://img.shields.io/badge/--10-red" alt="-10" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/flarum-mentions/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/flarum-mentions/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/flarum/subscriptions" title="flarum/subscriptions"><code>flarum/subscriptions</code></a>
-		</td>
-		<td align="center">5<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/subscriptions/stats">132208<br /><img src="https://img.shields.io/badge/-%2B1197-brightgreen" alt="+1197" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/subscriptions/stats">4182<br /><img src="https://img.shields.io/badge/-%2B92-brightgreen" alt="+92" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/subscriptions/stats">158<br /><img src="https://img.shields.io/badge/-%2B4-brightgreen" alt="+4" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/flarum-subscriptions/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/flarum-subscriptions/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/flarum/flags" title="flarum/flags"><code>flarum/flags</code></a>
-		</td>
-		<td align="center">6<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/flags/stats">133763<br /><img src="https://img.shields.io/badge/-%2B1186-brightgreen" alt="+1186" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/flags/stats">4152<br /><img src="https://img.shields.io/badge/-%2B102-brightgreen" alt="+102" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/flags/stats">159<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/flarum-flags/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/flarum-flags/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/flarum/sticky" title="flarum/sticky"><code>flarum/sticky</code></a>
-		</td>
-		<td align="center">7<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/sticky/stats">130023<br /><img src="https://img.shields.io/badge/-%2B1184-brightgreen" alt="+1184" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/sticky/stats">4133<br /><img src="https://img.shields.io/badge/-%2B107-brightgreen" alt="+107" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/sticky/stats">147<br /><img src="https://img.shields.io/badge/--8-red" alt="-8" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/flarum-sticky/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/flarum-sticky/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/flarum/suspend" title="flarum/suspend"><code>flarum/suspend</code></a>
 		</td>
-		<td align="center">8<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/suspend/stats">127036<br /><img src="https://img.shields.io/badge/-%2B1175-brightgreen" alt="+1175" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/suspend/stats">4120<br /><img src="https://img.shields.io/badge/-%2B99-brightgreen" alt="+99" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/suspend/stats">158<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
+		<td align="center">5<br /><img src="https://img.shields.io/badge/--3-brightgreen" alt="-3" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/suspend/stats">127730<br /><img src="https://img.shields.io/badge/-%2B694-brightgreen" alt="+694" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/suspend/stats">4173<br /><img src="https://img.shields.io/badge/-%2B53-brightgreen" alt="+53" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/suspend/stats">143<br /><img src="https://img.shields.io/badge/--15-red" alt="-15" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/flarum-suspend/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/flarum-suspend/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/flarum/subscriptions" title="flarum/subscriptions"><code>flarum/subscriptions</code></a>
+		</td>
+		<td align="center">6<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/subscriptions/stats">132908<br /><img src="https://img.shields.io/badge/-%2B700-brightgreen" alt="+700" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/subscriptions/stats">4152<br /><img src="https://img.shields.io/badge/--30-red" alt="-30" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/subscriptions/stats">144<br /><img src="https://img.shields.io/badge/--14-red" alt="-14" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/flarum-subscriptions/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/flarum-subscriptions/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/flarum/statistics" title="flarum/statistics"><code>flarum/statistics</code></a>
 		</td>
-		<td align="center">9<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/statistics/stats">121888<br /><img src="https://img.shields.io/badge/-%2B1168-brightgreen" alt="+1168" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/statistics/stats">4108<br /><img src="https://img.shields.io/badge/-%2B92-brightgreen" alt="+92" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/statistics/stats">156<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center">7<br /><img src="https://img.shields.io/badge/--2-brightgreen" alt="-2" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/statistics/stats">122569<br /><img src="https://img.shields.io/badge/-%2B681-brightgreen" alt="+681" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/statistics/stats">4147<br /><img src="https://img.shields.io/badge/-%2B39-brightgreen" alt="+39" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/statistics/stats">142<br /><img src="https://img.shields.io/badge/--14-red" alt="-14" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/flarum-statistics/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/flarum-statistics/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
@@ -130,10 +108,10 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/flarum/markdown" title="flarum/markdown"><code>flarum/markdown</code></a>
 		</td>
-		<td align="center">10<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/markdown/stats">130642<br /><img src="https://img.shields.io/badge/-%2B1158-brightgreen" alt="+1158" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/markdown/stats">4083<br /><img src="https://img.shields.io/badge/-%2B98-brightgreen" alt="+98" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/markdown/stats">176<br /><img src="https://img.shields.io/badge/-%2B21-brightgreen" alt="+21" title="Change from last week"></a></td>
+		<td align="center">8<br /><img src="https://img.shields.io/badge/--2-brightgreen" alt="-2" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/markdown/stats">131339<br /><img src="https://img.shields.io/badge/-%2B697-brightgreen" alt="+697" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/markdown/stats">4138<br /><img src="https://img.shields.io/badge/-%2B55-brightgreen" alt="+55" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/markdown/stats">142<br /><img src="https://img.shields.io/badge/--34-red" alt="-34" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/flarum-markdown/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/flarum-markdown/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
@@ -141,10 +119,10 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/flarum/likes" title="flarum/likes"><code>flarum/likes</code></a>
 		</td>
-		<td align="center">11<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/likes/stats">124907<br /><img src="https://img.shields.io/badge/-%2B1157-brightgreen" alt="+1157" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/likes/stats">4079<br /><img src="https://img.shields.io/badge/-%2B86-brightgreen" alt="+86" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/likes/stats">156<br /><img src="https://img.shields.io/badge/-%2B4-brightgreen" alt="+4" title="Change from last week"></a></td>
+		<td align="center">9<br /><img src="https://img.shields.io/badge/--2-brightgreen" alt="-2" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/likes/stats">125600<br /><img src="https://img.shields.io/badge/-%2B693-brightgreen" alt="+693" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/likes/stats">4130<br /><img src="https://img.shields.io/badge/-%2B51-brightgreen" alt="+51" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/likes/stats">143<br /><img src="https://img.shields.io/badge/--13-red" alt="-13" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/flarum-likes/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/flarum-likes/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
@@ -152,11 +130,33 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/flarum/approval" title="flarum/approval"><code>flarum/approval</code></a>
 		</td>
-		<td align="center">12<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/approval/stats">130699<br /><img src="https://img.shields.io/badge/-%2B1159-brightgreen" alt="+1159" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/approval/stats">4072<br /><img src="https://img.shields.io/badge/-%2B95-brightgreen" alt="+95" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/approval/stats">154<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td align="center">10<br /><img src="https://img.shields.io/badge/--2-brightgreen" alt="-2" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/approval/stats">131372<br /><img src="https://img.shields.io/badge/-%2B673-brightgreen" alt="+673" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/approval/stats">4110<br /><img src="https://img.shields.io/badge/-%2B38-brightgreen" alt="+38" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/approval/stats">141<br /><img src="https://img.shields.io/badge/--13-red" alt="-13" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/flarum-approval/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/flarum-approval/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/flarum/flags" title="flarum/flags"><code>flarum/flags</code></a>
+		</td>
+		<td align="center">11<br /><img src="https://img.shields.io/badge/-%2B5-red" alt="+5" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/flags/stats">134467<br /><img src="https://img.shields.io/badge/-%2B704-brightgreen" alt="+704" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/flags/stats">4108<br /><img src="https://img.shields.io/badge/--44-red" alt="-44" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/flags/stats">145<br /><img src="https://img.shields.io/badge/--14-red" alt="-14" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/flarum-flags/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/flarum-flags/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/flarum/sticky" title="flarum/sticky"><code>flarum/sticky</code></a>
+		</td>
+		<td align="center">12<br /><img src="https://img.shields.io/badge/-%2B5-red" alt="+5" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/sticky/stats">130719<br /><img src="https://img.shields.io/badge/-%2B696-brightgreen" alt="+696" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/sticky/stats">4087<br /><img src="https://img.shields.io/badge/--46-red" alt="-46" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/sticky/stats">144<br /><img src="https://img.shields.io/badge/--3-red" alt="-3" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/flarum-sticky/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/flarum-sticky/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
@@ -164,9 +164,9 @@
 			<a href="https://github.com/flarum/pusher" title="flarum/pusher"><code>flarum/pusher</code></a>
 		</td>
 		<td align="center">13<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/pusher/stats">121706<br /><img src="https://img.shields.io/badge/-%2B992-brightgreen" alt="+992" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/pusher/stats">3685<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/pusher/stats">134<br /><img src="https://img.shields.io/badge/--8-red" alt="-8" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/pusher/stats">122362<br /><img src="https://img.shields.io/badge/-%2B656-brightgreen" alt="+656" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/pusher/stats">3639<br /><img src="https://img.shields.io/badge/--46-red" alt="-46" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/pusher/stats">139<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/flarum-pusher/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/flarum-pusher/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
@@ -175,9 +175,9 @@
 			<a href="https://github.com/flarum/nicknames" title="flarum/nicknames"><code>flarum/nicknames</code></a>
 		</td>
 		<td align="center">14<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/nicknames/stats">30111<br /><img src="https://img.shields.io/badge/-%2B847-brightgreen" alt="+847" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/nicknames/stats">3100<br /><img src="https://img.shields.io/badge/--51-red" alt="-51" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/nicknames/stats">111<br /><img src="https://img.shields.io/badge/--24-red" alt="-24" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/nicknames/stats">30610<br /><img src="https://img.shields.io/badge/-%2B499-brightgreen" alt="+499" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/nicknames/stats">3121<br /><img src="https://img.shields.io/badge/-%2B21-brightgreen" alt="+21" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/nicknames/stats">94<br /><img src="https://img.shields.io/badge/--17-red" alt="-17" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/flarum-nicknames/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/flarum-nicknames/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
@@ -186,9 +186,9 @@
 			<a href="https://github.com/FriendsOfFlarum/upload" title="fof/upload"><code>fof/upload</code></a>
 		</td>
 		<td align="center">15<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/upload/stats">28057<br /><img src="https://img.shields.io/badge/-%2B662-brightgreen" alt="+662" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/upload/stats">1864<br /><img src="https://img.shields.io/badge/-%2B132-brightgreen" alt="+132" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/upload/stats">95<br /><img src="https://img.shields.io/badge/-%2B29-brightgreen" alt="+29" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/upload/stats">28385<br /><img src="https://img.shields.io/badge/-%2B328-brightgreen" alt="+328" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/upload/stats">1896<br /><img src="https://img.shields.io/badge/-%2B32-brightgreen" alt="+32" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/upload/stats">83<br /><img src="https://img.shields.io/badge/--12-red" alt="-12" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/fof-upload/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-upload/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
@@ -197,9 +197,9 @@
 			<a href="https://github.com/FriendsOfFlarum/formatting" title="fof/formatting"><code>fof/formatting</code></a>
 		</td>
 		<td align="center">16<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/formatting/stats">31070<br /><img src="https://img.shields.io/badge/-%2B434-brightgreen" alt="+434" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/formatting/stats">1205<br /><img src="https://img.shields.io/badge/-%2B113-brightgreen" alt="+113" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/formatting/stats">59<br /><img src="https://img.shields.io/badge/--7-red" alt="-7" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/formatting/stats">31265<br /><img src="https://img.shields.io/badge/-%2B195-brightgreen" alt="+195" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/formatting/stats">1243<br /><img src="https://img.shields.io/badge/-%2B38-brightgreen" alt="+38" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/formatting/stats">27<br /><img src="https://img.shields.io/badge/--32-red" alt="-32" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/fof-formatting/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-formatting/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
@@ -208,64 +208,64 @@
 			<a href="https://github.com/FriendsOfFlarum/links" title="fof/links"><code>fof/links</code></a>
 		</td>
 		<td align="center">17<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/links/stats">26394<br /><img src="https://img.shields.io/badge/-%2B288-brightgreen" alt="+288" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/links/stats">902<br /><img src="https://img.shields.io/badge/--3-red" alt="-3" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/links/stats">51<br /><img src="https://img.shields.io/badge/-%2B24-brightgreen" alt="+24" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/links/stats">26535<br /><img src="https://img.shields.io/badge/-%2B141-brightgreen" alt="+141" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/links/stats">908<br /><img src="https://img.shields.io/badge/-%2B6-brightgreen" alt="+6" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/links/stats">23<br /><img src="https://img.shields.io/badge/--28-red" alt="-28" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/fof-links/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-links/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/v17development/flarum-blog" title="v17development/flarum-blog"><code>v17development/flarum-blog</code></a>
+		</td>
+		<td align="center">18<br /><img src="https://img.shields.io/badge/--14-brightgreen" alt="-14" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/v17development/flarum-blog/stats">879<br /><img src="https://img.shields.io/badge/-%2B336-brightgreen" alt="+336" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/v17development/flarum-blog/stats">879<br /><img src="https://img.shields.io/badge/-%2B336-brightgreen" alt="+336" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/v17development/flarum-blog/stats">6<br /><img src="https://img.shields.io/badge/--70-red" alt="-70" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/v17development-blog/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/v17development-blog/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/FriendsOfFlarum/best-answer" title="fof/best-answer"><code>fof/best-answer</code></a>
 		</td>
-		<td align="center">18<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/best-answer/stats">14989<br /><img src="https://img.shields.io/badge/-%2B262-brightgreen" alt="+262" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/best-answer/stats">829<br /><img src="https://img.shields.io/badge/-%2B76-brightgreen" alt="+76" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/best-answer/stats">43<br /><img src="https://img.shields.io/badge/-%2B18-brightgreen" alt="+18" title="Change from last week"></a></td>
+		<td align="center">19<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/best-answer/stats">15122<br /><img src="https://img.shields.io/badge/-%2B133-brightgreen" alt="+133" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/best-answer/stats">854<br /><img src="https://img.shields.io/badge/-%2B25-brightgreen" alt="+25" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/best-answer/stats">15<br /><img src="https://img.shields.io/badge/--28-red" alt="-28" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/fof-best-answer/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-best-answer/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/FriendsOfFlarum/user-directory" title="fof/user-directory"><code>fof/user-directory</code></a>
-		</td>
-		<td align="center">19<br /><img src="https://img.shields.io/badge/--3-brightgreen" alt="-3" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/user-directory/stats">18987<br /><img src="https://img.shields.io/badge/-%2B268-brightgreen" alt="+268" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/user-directory/stats">765<br /><img src="https://img.shields.io/badge/-%2B97-brightgreen" alt="+97" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/user-directory/stats">56<br /><img src="https://img.shields.io/badge/-%2B28-brightgreen" alt="+28" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/fof-user-directory/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-user-directory/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/FriendsOfFlarum/follow-tags" title="fof/follow-tags"><code>fof/follow-tags</code></a>
-		</td>
-		<td align="center">20<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/follow-tags/stats">17302<br /><img src="https://img.shields.io/badge/-%2B237-brightgreen" alt="+237" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/follow-tags/stats">758<br /><img src="https://img.shields.io/badge/-%2B77-brightgreen" alt="+77" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/follow-tags/stats">40<br /><img src="https://img.shields.io/badge/-%2B21-brightgreen" alt="+21" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/fof-follow-tags/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-follow-tags/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/FriendsOfFlarum/user-bio" title="fof/user-bio"><code>fof/user-bio</code></a>
 		</td>
-		<td align="center">21<br /><img src="https://img.shields.io/badge/-%2B2-red" alt="+2" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/user-bio/stats">24277<br /><img src="https://img.shields.io/badge/-%2B227-brightgreen" alt="+227" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/user-bio/stats">719<br /><img src="https://img.shields.io/badge/-%2B24-brightgreen" alt="+24" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/user-bio/stats">44<br /><img src="https://img.shields.io/badge/-%2B22-brightgreen" alt="+22" title="Change from last week"></a></td>
+		<td align="center">20<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/user-bio/stats">24457<br /><img src="https://img.shields.io/badge/-%2B180-brightgreen" alt="+180" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/user-bio/stats">831<br /><img src="https://img.shields.io/badge/-%2B112-brightgreen" alt="+112" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/user-bio/stats">23<br /><img src="https://img.shields.io/badge/--21-red" alt="-21" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/fof-user-bio/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-user-bio/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/FriendsOfFlarum/user-directory" title="fof/user-directory"><code>fof/user-directory</code></a>
+		</td>
+		<td align="center">21<br /><img src="https://img.shields.io/badge/-%2B2-red" alt="+2" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/user-directory/stats">19108<br /><img src="https://img.shields.io/badge/-%2B121-brightgreen" alt="+121" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/user-directory/stats">804<br /><img src="https://img.shields.io/badge/-%2B39-brightgreen" alt="+39" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/user-directory/stats">21<br /><img src="https://img.shields.io/badge/--35-red" alt="-35" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/fof-user-directory/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-user-directory/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/FriendsOfFlarum/polls" title="fof/polls"><code>fof/polls</code></a>
 		</td>
-		<td align="center">22<br /><img src="https://img.shields.io/badge/--3-brightgreen" alt="-3" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/polls/stats">19524<br /><img src="https://img.shields.io/badge/-%2B269-brightgreen" alt="+269" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/polls/stats">712<br /><img src="https://img.shields.io/badge/-%2B133-brightgreen" alt="+133" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/polls/stats">53<br /><img src="https://img.shields.io/badge/-%2B30-brightgreen" alt="+30" title="Change from last week"></a></td>
+		<td align="center">22<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/polls/stats">19675<br /><img src="https://img.shields.io/badge/-%2B151-brightgreen" alt="+151" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/polls/stats">779<br /><img src="https://img.shields.io/badge/-%2B67-brightgreen" alt="+67" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/polls/stats">26<br /><img src="https://img.shields.io/badge/--27-red" alt="-27" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/fof-polls/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-polls/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
@@ -274,20 +274,31 @@
 			<a href="https://github.com/FriendsOfFlarum/nightmode" title="fof/nightmode"><code>fof/nightmode</code></a>
 		</td>
 		<td align="center">23<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/nightmode/stats">12839<br /><img src="https://img.shields.io/badge/-%2B221-brightgreen" alt="+221" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/nightmode/stats">673<br /><img src="https://img.shields.io/badge/-%2B74-brightgreen" alt="+74" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/nightmode/stats">36<br /><img src="https://img.shields.io/badge/-%2B15-brightgreen" alt="+15" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/nightmode/stats">12998<br /><img src="https://img.shields.io/badge/-%2B159-brightgreen" alt="+159" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/nightmode/stats">767<br /><img src="https://img.shields.io/badge/-%2B94-brightgreen" alt="+94" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/nightmode/stats">20<br /><img src="https://img.shields.io/badge/--16-red" alt="-16" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/fof-nightmode/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-nightmode/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/FriendsOfFlarum/follow-tags" title="fof/follow-tags"><code>fof/follow-tags</code></a>
+		</td>
+		<td align="center">24<br /><img src="https://img.shields.io/badge/-%2B4-red" alt="+4" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/follow-tags/stats">17403<br /><img src="https://img.shields.io/badge/-%2B101-brightgreen" alt="+101" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/follow-tags/stats">742<br /><img src="https://img.shields.io/badge/--16-red" alt="-16" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/follow-tags/stats">12<br /><img src="https://img.shields.io/badge/--28-red" alt="-28" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/fof-follow-tags/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-follow-tags/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/FriendsOfFlarum/gamification" title="fof/gamification"><code>fof/gamification</code></a>
 		</td>
-		<td align="center">24<br /><img src="https://img.shields.io/badge/--6-brightgreen" alt="-6" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/gamification/stats">10052<br /><img src="https://img.shields.io/badge/-%2B236-brightgreen" alt="+236" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/gamification/stats">666<br /><img src="https://img.shields.io/badge/-%2B130-brightgreen" alt="+130" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/gamification/stats">50<br /><img src="https://img.shields.io/badge/-%2B28-brightgreen" alt="+28" title="Change from last week"></a></td>
+		<td align="center">25<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/gamification/stats">10207<br /><img src="https://img.shields.io/badge/-%2B155-brightgreen" alt="+155" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/gamification/stats">736<br /><img src="https://img.shields.io/badge/-%2B70-brightgreen" alt="+70" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/gamification/stats">24<br /><img src="https://img.shields.io/badge/--26-red" alt="-26" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/fof-gamification/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-gamification/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
@@ -295,43 +306,54 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/FriendsOfFlarum/oauth" title="fof/oauth"><code>fof/oauth</code></a>
 		</td>
-		<td align="center">25<br /><img src="https://img.shields.io/badge/-%2B4-red" alt="+4" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/oauth/stats">7173<br /><img src="https://img.shields.io/badge/-%2B167-brightgreen" alt="+167" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/oauth/stats">643<br /><img src="https://img.shields.io/badge/--37-red" alt="-37" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/oauth/stats">23<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td align="center">26<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/oauth/stats">7274<br /><img src="https://img.shields.io/badge/-%2B101-brightgreen" alt="+101" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/oauth/stats">658<br /><img src="https://img.shields.io/badge/-%2B15-brightgreen" alt="+15" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/oauth/stats">16<br /><img src="https://img.shields.io/badge/--7-red" alt="-7" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/fof-oauth/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-oauth/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/FriendsOfFlarum/pages" title="fof/pages"><code>fof/pages</code></a>
-		</td>
-		<td align="center">26<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/pages/stats">21607<br /><img src="https://img.shields.io/badge/-%2B209-brightgreen" alt="+209" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/pages/stats">634<br /><img src="https://img.shields.io/badge/-%2B72-brightgreen" alt="+72" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/pages/stats">37<br /><img src="https://img.shields.io/badge/-%2B19-brightgreen" alt="+19" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/fof-pages/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-pages/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/FriendsOfFlarum/reactions" title="fof/reactions"><code>fof/reactions</code></a>
 		</td>
-		<td align="center">27<br /><img src="https://img.shields.io/badge/-%2B3-red" alt="+3" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/reactions/stats">15939<br /><img src="https://img.shields.io/badge/-%2B215-brightgreen" alt="+215" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/reactions/stats">625<br /><img src="https://img.shields.io/badge/-%2B41-brightgreen" alt="+41" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/reactions/stats">41<br /><img src="https://img.shields.io/badge/-%2B19-brightgreen" alt="+19" title="Change from last week"></a></td>
+		<td align="center">27<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/reactions/stats">16022<br /><img src="https://img.shields.io/badge/-%2B83-brightgreen" alt="+83" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/reactions/stats">650<br /><img src="https://img.shields.io/badge/-%2B25-brightgreen" alt="+25" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/reactions/stats">7<br /><img src="https://img.shields.io/badge/--34-red" alt="-34" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/fof-reactions/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-reactions/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/FriendsOfFlarum/split" title="fof/split"><code>fof/split</code></a>
+		</td>
+		<td align="center">28<br /><img src="https://img.shields.io/badge/--3-brightgreen" alt="-3" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/split/stats">14798<br /><img src="https://img.shields.io/badge/-%2B125-brightgreen" alt="+125" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/split/stats">643<br /><img src="https://img.shields.io/badge/-%2B72-brightgreen" alt="+72" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/split/stats">17<br /><img src="https://img.shields.io/badge/--24-red" alt="-24" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/fof-split/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-split/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/FriendsOfFlarum/pages" title="fof/pages"><code>fof/pages</code></a>
+		</td>
+		<td align="center">29<br /><img src="https://img.shields.io/badge/-%2B3-red" alt="+3" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/pages/stats">21698<br /><img src="https://img.shields.io/badge/-%2B91-brightgreen" alt="+91" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/pages/stats">626<br /><img src="https://img.shields.io/badge/--8-red" alt="-8" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/pages/stats">14<br /><img src="https://img.shields.io/badge/--23-red" alt="-23" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/fof-pages/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-pages/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/v17development/flarum-seo" title="v17development/flarum-seo"><code>v17development/flarum-seo</code></a>
 		</td>
-		<td align="center">28<br /><img src="https://img.shields.io/badge/-%2B2-red" alt="+2" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/v17development/flarum-seo/stats">18057<br /><img src="https://img.shields.io/badge/-%2B197-brightgreen" alt="+197" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/v17development/flarum-seo/stats">616<br /><img src="https://img.shields.io/badge/-%2B39-brightgreen" alt="+39" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/v17development/flarum-seo/stats">42<br /><img src="https://img.shields.io/badge/-%2B18-brightgreen" alt="+18" title="Change from last week"></a></td>
+		<td align="center">30<br /><img src="https://img.shields.io/badge/-%2B2-red" alt="+2" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/v17development/flarum-seo/stats">18166<br /><img src="https://img.shields.io/badge/-%2B109-brightgreen" alt="+109" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/v17development/flarum-seo/stats">618<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/v17development/flarum-seo/stats">10<br /><img src="https://img.shields.io/badge/--32-red" alt="-32" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/v17development-seo/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/v17development-seo/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
@@ -339,10 +361,10 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/FriendsOfFlarum/analytics" title="fof/analytics"><code>fof/analytics</code></a>
 		</td>
-		<td align="center">29<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/analytics/stats">8591<br /><img src="https://img.shields.io/badge/-%2B207-brightgreen" alt="+207" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/analytics/stats">597<br /><img src="https://img.shields.io/badge/-%2B57-brightgreen" alt="+57" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/analytics/stats">36<br /><img src="https://img.shields.io/badge/-%2B15-brightgreen" alt="+15" title="Change from last week"></a></td>
+		<td align="center">31<br /><img src="https://img.shields.io/badge/-%2B2-red" alt="+2" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/analytics/stats">8666<br /><img src="https://img.shields.io/badge/-%2B75-brightgreen" alt="+75" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/analytics/stats">609<br /><img src="https://img.shields.io/badge/-%2B12-brightgreen" alt="+12" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/analytics/stats">14<br /><img src="https://img.shields.io/badge/--22-red" alt="-22" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/fof-analytics/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-analytics/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
@@ -350,43 +372,21 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/FriendsOfFlarum/sitemap" title="fof/sitemap"><code>fof/sitemap</code></a>
 		</td>
-		<td align="center">30<br /><img src="https://img.shields.io/badge/-%2B2-red" alt="+2" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/sitemap/stats">9075<br /><img src="https://img.shields.io/badge/-%2B164-brightgreen" alt="+164" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/sitemap/stats">573<br /><img src="https://img.shields.io/badge/-%2B20-brightgreen" alt="+20" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/sitemap/stats">30<br /><img src="https://img.shields.io/badge/-%2B11-brightgreen" alt="+11" title="Change from last week"></a></td>
+		<td align="center">32<br /><img src="https://img.shields.io/badge/-%2B2-red" alt="+2" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/sitemap/stats">9183<br /><img src="https://img.shields.io/badge/-%2B108-brightgreen" alt="+108" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/sitemap/stats">579<br /><img src="https://img.shields.io/badge/-%2B6-brightgreen" alt="+6" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/sitemap/stats">14<br /><img src="https://img.shields.io/badge/--16-red" alt="-16" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/fof-sitemap/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-sitemap/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/FriendsOfFlarum/split" title="fof/split"><code>fof/split</code></a>
-		</td>
-		<td align="center">31<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/split/stats">14673<br /><img src="https://img.shields.io/badge/-%2B185-brightgreen" alt="+185" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/split/stats">571<br /><img src="https://img.shields.io/badge/-%2B40-brightgreen" alt="+40" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/split/stats">41<br /><img src="https://img.shields.io/badge/-%2B22-brightgreen" alt="+22" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/fof-split/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-split/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/v17development/flarum-blog" title="v17development/flarum-blog"><code>v17development/flarum-blog</code></a>
-		</td>
-		<td align="center">32<br /><img src="https://img.shields.io/badge/--36-brightgreen" alt="-36" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/v17development/flarum-blog/stats">543<br /><img src="https://img.shields.io/badge/-%2B277-brightgreen" alt="+277" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/v17development/flarum-blog/stats">543<br /><img src="https://img.shields.io/badge/-%2B277-brightgreen" alt="+277" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/v17development/flarum-blog/stats">76<br /><img src="https://img.shields.io/badge/-%2B60-brightgreen" alt="+60" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/v17development-blog/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/v17development-blog/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/FriendsOfFlarum/moderator-notes" title="fof/moderator-notes"><code>fof/moderator-notes</code></a>
 		</td>
-		<td align="center">33<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/moderator-notes/stats">8763<br /><img src="https://img.shields.io/badge/-%2B169-brightgreen" alt="+169" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/moderator-notes/stats">528<br /><img src="https://img.shields.io/badge/-%2B30-brightgreen" alt="+30" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/moderator-notes/stats">34<br /><img src="https://img.shields.io/badge/-%2B20-brightgreen" alt="+20" title="Change from last week"></a></td>
+		<td align="center">33<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/moderator-notes/stats">8858<br /><img src="https://img.shields.io/badge/-%2B95-brightgreen" alt="+95" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/moderator-notes/stats">570<br /><img src="https://img.shields.io/badge/-%2B42-brightgreen" alt="+42" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/moderator-notes/stats">13<br /><img src="https://img.shields.io/badge/--21-red" alt="-21" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/fof-moderator-notes/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-moderator-notes/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
@@ -394,10 +394,10 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/FriendsOfFlarum/byobu" title="fof/byobu"><code>fof/byobu</code></a>
 		</td>
-		<td align="center">34<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/byobu/stats">16017<br /><img src="https://img.shields.io/badge/-%2B177-brightgreen" alt="+177" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/byobu/stats">522<br /><img src="https://img.shields.io/badge/-%2B62-brightgreen" alt="+62" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/byobu/stats">28<br /><img src="https://img.shields.io/badge/-%2B16-brightgreen" alt="+16" title="Change from last week"></a></td>
+		<td align="center">34<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/byobu/stats">16132<br /><img src="https://img.shields.io/badge/-%2B115-brightgreen" alt="+115" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/byobu/stats">548<br /><img src="https://img.shields.io/badge/-%2B26-brightgreen" alt="+26" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/byobu/stats">15<br /><img src="https://img.shields.io/badge/--13-red" alt="-13" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/fof-byobu/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-byobu/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
@@ -405,10 +405,10 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/FriendsOfFlarum/drafts" title="fof/drafts"><code>fof/drafts</code></a>
 		</td>
-		<td align="center">35<br /><img src="https://img.shields.io/badge/-%2B2-red" alt="+2" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/drafts/stats">11107<br /><img src="https://img.shields.io/badge/-%2B174-brightgreen" alt="+174" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/drafts/stats">522<br /><img src="https://img.shields.io/badge/-%2B36-brightgreen" alt="+36" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/drafts/stats">29<br /><img src="https://img.shields.io/badge/-%2B9-brightgreen" alt="+9" title="Change from last week"></a></td>
+		<td align="center">35<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/drafts/stats">11185<br /><img src="https://img.shields.io/badge/-%2B78-brightgreen" alt="+78" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/drafts/stats">529<br /><img src="https://img.shields.io/badge/-%2B7-brightgreen" alt="+7" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/drafts/stats">16<br /><img src="https://img.shields.io/badge/--13-red" alt="-13" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/fof-drafts/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-drafts/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
@@ -416,10 +416,10 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/FriendsOfFlarum/merge-discussions" title="fof/merge-discussions"><code>fof/merge-discussions</code></a>
 		</td>
-		<td align="center">36<br /><img src="https://img.shields.io/badge/-%2B2-red" alt="+2" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/merge-discussions/stats">15576<br /><img src="https://img.shields.io/badge/-%2B170-brightgreen" alt="+170" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/merge-discussions/stats">508<br /><img src="https://img.shields.io/badge/-%2B37-brightgreen" alt="+37" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/merge-discussions/stats">34<br /><img src="https://img.shields.io/badge/-%2B21-brightgreen" alt="+21" title="Change from last week"></a></td>
+		<td align="center">36<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/merge-discussions/stats">15643<br /><img src="https://img.shields.io/badge/-%2B67-brightgreen" alt="+67" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/merge-discussions/stats">523<br /><img src="https://img.shields.io/badge/-%2B15-brightgreen" alt="+15" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/merge-discussions/stats">7<br /><img src="https://img.shields.io/badge/--27-red" alt="-27" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/fof-merge-discussions/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-merge-discussions/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
@@ -427,76 +427,32 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/FriendsOfFlarum/impersonate" title="fof/impersonate"><code>fof/impersonate</code></a>
 		</td>
-		<td align="center">37<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/impersonate/stats">7722<br /><img src="https://img.shields.io/badge/-%2B166-brightgreen" alt="+166" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/impersonate/stats">489<br /><img src="https://img.shields.io/badge/-%2B36-brightgreen" alt="+36" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/impersonate/stats">35<br /><img src="https://img.shields.io/badge/-%2B23-brightgreen" alt="+23" title="Change from last week"></a></td>
+		<td align="center">37<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/impersonate/stats">7802<br /><img src="https://img.shields.io/badge/-%2B80-brightgreen" alt="+80" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/impersonate/stats">512<br /><img src="https://img.shields.io/badge/-%2B23-brightgreen" alt="+23" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/impersonate/stats">9<br /><img src="https://img.shields.io/badge/--26-red" alt="-26" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/fof-impersonate/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-impersonate/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/FriendsOfFlarum/linguist" title="fof/linguist"><code>fof/linguist</code></a>
-		</td>
-		<td align="center">38<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/linguist/stats">8204<br /><img src="https://img.shields.io/badge/-%2B168-brightgreen" alt="+168" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/linguist/stats">483<br /><img src="https://img.shields.io/badge/-%2B47-brightgreen" alt="+47" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/linguist/stats">36<br /><img src="https://img.shields.io/badge/-%2B16-brightgreen" alt="+16" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/fof-linguist/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-linguist/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/askvortsov1/flarum-rich-text" title="askvortsov/flarum-rich-text"><code>askvortsov/flarum-rich-text</code></a>
 		</td>
-		<td align="center">39<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-rich-text/stats">2754<br /><img src="https://img.shields.io/badge/-%2B159-brightgreen" alt="+159" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-rich-text/stats">479<br /><img src="https://img.shields.io/badge/-%2B49-brightgreen" alt="+49" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-rich-text/stats">36<br /><img src="https://img.shields.io/badge/-%2B17-brightgreen" alt="+17" title="Change from last week"></a></td>
+		<td align="center">38<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-rich-text/stats">2843<br /><img src="https://img.shields.io/badge/-%2B89-brightgreen" alt="+89" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-rich-text/stats">497<br /><img src="https://img.shields.io/badge/-%2B18-brightgreen" alt="+18" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-rich-text/stats">13<br /><img src="https://img.shields.io/badge/--23-red" alt="-23" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/askvortsov-rich-text/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/askvortsov-rich-text/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/FriendsOfFlarum/pretty-mail" title="fof/pretty-mail"><code>fof/pretty-mail</code></a>
-		</td>
-		<td align="center">40<br /><img src="https://img.shields.io/badge/--5-brightgreen" alt="-5" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/pretty-mail/stats">8914<br /><img src="https://img.shields.io/badge/-%2B172-brightgreen" alt="+172" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/pretty-mail/stats">460<br /><img src="https://img.shields.io/badge/-%2B85-brightgreen" alt="+85" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/pretty-mail/stats">36<br /><img src="https://img.shields.io/badge/-%2B23-brightgreen" alt="+23" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/fof-pretty-mail/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-pretty-mail/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/clarkwinkelmann/flarum-ext-author-change" title="clarkwinkelmann/flarum-ext-author-change"><code>clarkwinkelmann/flarum-ext-author-change</code></a>
-		</td>
-		<td align="center">41<br /><img src="https://img.shields.io/badge/--3-brightgreen" alt="-3" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-author-change/stats">3536<br /><img src="https://img.shields.io/badge/-%2B147-brightgreen" alt="+147" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-author-change/stats">457<br /><img src="https://img.shields.io/badge/-%2B81-brightgreen" alt="+81" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-author-change/stats">40<br /><img src="https://img.shields.io/badge/-%2B22-brightgreen" alt="+22" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-author-change/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-author-change/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/imorland/follow-users" title="ianm/follow-users"><code>ianm/follow-users</code></a>
-		</td>
-		<td align="center">42<br /><img src="https://img.shields.io/badge/--4-brightgreen" alt="-4" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/ianm/follow-users/stats">3548<br /><img src="https://img.shields.io/badge/-%2B163-brightgreen" alt="+163" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/ianm/follow-users/stats">448<br /><img src="https://img.shields.io/badge/-%2B73-brightgreen" alt="+73" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/ianm/follow-users/stats">29<br /><img src="https://img.shields.io/badge/-%2B12-brightgreen" alt="+12" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/ianm-follow-users/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/ianm-follow-users/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/FriendsOfFlarum/terms" title="fof/terms"><code>fof/terms</code></a>
 		</td>
-		<td align="center">43<br /><img src="https://img.shields.io/badge/-%2B3-red" alt="+3" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/terms/stats">7739<br /><img src="https://img.shields.io/badge/-%2B120-brightgreen" alt="+120" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/terms/stats">446<br /><img src="https://img.shields.io/badge/-%2B19-brightgreen" alt="+19" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/terms/stats">23<br /><img src="https://img.shields.io/badge/-%2B9-brightgreen" alt="+9" title="Change from last week"></a></td>
+		<td align="center">39<br /><img src="https://img.shields.io/badge/--4-brightgreen" alt="-4" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/terms/stats">7860<br /><img src="https://img.shields.io/badge/-%2B121-brightgreen" alt="+121" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/terms/stats">489<br /><img src="https://img.shields.io/badge/-%2B43-brightgreen" alt="+43" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/terms/stats">13<br /><img src="https://img.shields.io/badge/--10-red" alt="-10" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/fof-terms/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-terms/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
@@ -504,241 +460,263 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/FriendsOfFlarum/socialprofile" title="fof/socialprofile"><code>fof/socialprofile</code></a>
 		</td>
-		<td align="center">44<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/socialprofile/stats">9771<br /><img src="https://img.shields.io/badge/-%2B160-brightgreen" alt="+160" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/socialprofile/stats">445<br /><img src="https://img.shields.io/badge/-%2B63-brightgreen" alt="+63" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/socialprofile/stats">33<br /><img src="https://img.shields.io/badge/-%2B18-brightgreen" alt="+18" title="Change from last week"></a></td>
+		<td align="center">40<br /><img src="https://img.shields.io/badge/--4-brightgreen" alt="-4" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/socialprofile/stats">9850<br /><img src="https://img.shields.io/badge/-%2B79-brightgreen" alt="+79" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/socialprofile/stats">484<br /><img src="https://img.shields.io/badge/-%2B39-brightgreen" alt="+39" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/socialprofile/stats">9<br /><img src="https://img.shields.io/badge/--24-red" alt="-24" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/fof-socialprofile/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-socialprofile/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/FriendsOfFlarum/pretty-mail" title="fof/pretty-mail"><code>fof/pretty-mail</code></a>
+		</td>
+		<td align="center">41<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/pretty-mail/stats">8979<br /><img src="https://img.shields.io/badge/-%2B65-brightgreen" alt="+65" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/pretty-mail/stats">481<br /><img src="https://img.shields.io/badge/-%2B21-brightgreen" alt="+21" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/pretty-mail/stats">6<br /><img src="https://img.shields.io/badge/--30-red" alt="-30" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/fof-pretty-mail/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-pretty-mail/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/FriendsOfFlarum/spamblock" title="fof/spamblock"><code>fof/spamblock</code></a>
 		</td>
-		<td align="center">45<br /><img src="https://img.shields.io/badge/-%2B4-red" alt="+4" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/spamblock/stats">11904<br /><img src="https://img.shields.io/badge/-%2B119-brightgreen" alt="+119" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/spamblock/stats">425<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/spamblock/stats">20<br /><img src="https://img.shields.io/badge/-%2B6-brightgreen" alt="+6" title="Change from last week"></a></td>
+		<td align="center">42<br /><img src="https://img.shields.io/badge/--3-brightgreen" alt="-3" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/spamblock/stats">12018<br /><img src="https://img.shields.io/badge/-%2B114-brightgreen" alt="+114" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/spamblock/stats">473<br /><img src="https://img.shields.io/badge/-%2B48-brightgreen" alt="+48" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/spamblock/stats">16<br /><img src="https://img.shields.io/badge/--4-red" alt="-4" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/fof-spamblock/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-spamblock/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/afrux/forum-widgets-core" title="afrux/forum-widgets-core"><code>afrux/forum-widgets-core</code></a>
+			<a href="https://github.com/FriendsOfFlarum/linguist" title="fof/linguist"><code>fof/linguist</code></a>
 		</td>
-		<td align="center">46<br /><img src="https://img.shields.io/badge/-%2B8-red" alt="+8" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/afrux/forum-widgets-core/stats">1564<br /><img src="https://img.shields.io/badge/-%2B150-brightgreen" alt="+150" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/afrux/forum-widgets-core/stats">425<br /><img src="https://img.shields.io/badge/--11-red" alt="-11" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/afrux/forum-widgets-core/stats">30<br /><img src="https://img.shields.io/badge/-%2B10-brightgreen" alt="+10" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/afrux-forum-widgets-core/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/afrux-forum-widgets-core/svg-badge.svg" alt="Translation status"></a></td>
+		<td align="center">43<br /><img src="https://img.shields.io/badge/-%2B5-red" alt="+5" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/linguist/stats">8269<br /><img src="https://img.shields.io/badge/-%2B65-brightgreen" alt="+65" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/linguist/stats">472<br /><img src="https://img.shields.io/badge/--11-red" alt="-11" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/linguist/stats">9<br /><img src="https://img.shields.io/badge/--27-red" alt="-27" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/fof-linguist/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-linguist/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/FriendsOfFlarum/ban-ips" title="fof/ban-ips"><code>fof/ban-ips</code></a>
+			<a href="https://github.com/imorland/follow-users" title="ianm/follow-users"><code>ianm/follow-users</code></a>
 		</td>
-		<td align="center">47<br /><img src="https://img.shields.io/badge/-%2B5-red" alt="+5" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/ban-ips/stats">6822<br /><img src="https://img.shields.io/badge/-%2B121-brightgreen" alt="+121" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/ban-ips/stats">418<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/ban-ips/stats">16<br /><img src="https://img.shields.io/badge/-%2B9-brightgreen" alt="+9" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/fof-ban-ips/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-ban-ips/svg-badge.svg" alt="Translation status"></a></td>
+		<td align="center">44<br /><img src="https://img.shields.io/badge/-%2B2-red" alt="+2" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/ianm/follow-users/stats">3611<br /><img src="https://img.shields.io/badge/-%2B63-brightgreen" alt="+63" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/ianm/follow-users/stats">452<br /><img src="https://img.shields.io/badge/-%2B4-brightgreen" alt="+4" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/ianm/follow-users/stats">9<br /><img src="https://img.shields.io/badge/--20-red" alt="-20" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/ianm-follow-users/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/ianm-follow-users/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/FriendsOfFlarum/forum-statistics-widget" title="fof/forum-statistics-widget"><code>fof/forum-statistics-widget</code></a>
 		</td>
-		<td align="center">48<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/forum-statistics-widget/stats">6883<br /><img src="https://img.shields.io/badge/-%2B139-brightgreen" alt="+139" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/forum-statistics-widget/stats">415<br /><img src="https://img.shields.io/badge/-%2B53-brightgreen" alt="+53" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/forum-statistics-widget/stats">34<br /><img src="https://img.shields.io/badge/-%2B20-brightgreen" alt="+20" title="Change from last week"></a></td>
+		<td align="center">45<br /><img src="https://img.shields.io/badge/--3-brightgreen" alt="-3" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/forum-statistics-widget/stats">6967<br /><img src="https://img.shields.io/badge/-%2B84-brightgreen" alt="+84" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/forum-statistics-widget/stats">451<br /><img src="https://img.shields.io/badge/-%2B36-brightgreen" alt="+36" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/forum-statistics-widget/stats">9<br /><img src="https://img.shields.io/badge/--25-red" alt="-25" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/fof-forum-statistics-widget/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-forum-statistics-widget/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/FriendsOfFlarum/doorman" title="fof/doorman"><code>fof/doorman</code></a>
+			<a href="https://github.com/clarkwinkelmann/flarum-ext-author-change" title="clarkwinkelmann/flarum-ext-author-change"><code>clarkwinkelmann/flarum-ext-author-change</code></a>
 		</td>
-		<td align="center">49<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/doorman/stats">3183<br /><img src="https://img.shields.io/badge/-%2B117-brightgreen" alt="+117" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/doorman/stats">397<br /><img src="https://img.shields.io/badge/-%2B35-brightgreen" alt="+35" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/doorman/stats">20<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/fof-doorman/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-doorman/svg-badge.svg" alt="Translation status"></a></td>
+		<td align="center">46<br /><img src="https://img.shields.io/badge/-%2B5-red" alt="+5" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-author-change/stats">3586<br /><img src="https://img.shields.io/badge/-%2B50-brightgreen" alt="+50" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-author-change/stats">450<br /><img src="https://img.shields.io/badge/--7-red" alt="-7" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-author-change/stats">3<br /><img src="https://img.shields.io/badge/--37-red" alt="-37" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-author-change/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-author-change/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/askvortsov1/flarum-moderator-warnings" title="askvortsov/flarum-moderator-warnings"><code>askvortsov/flarum-moderator-warnings</code></a>
+			<a href="https://github.com/FriendsOfFlarum/ban-ips" title="fof/ban-ips"><code>fof/ban-ips</code></a>
 		</td>
-		<td align="center">50<br /><img src="https://img.shields.io/badge/--5-brightgreen" alt="-5" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-moderator-warnings/stats">4565<br /><img src="https://img.shields.io/badge/-%2B139-brightgreen" alt="+139" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-moderator-warnings/stats">381<br /><img src="https://img.shields.io/badge/-%2B61-brightgreen" alt="+61" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-moderator-warnings/stats">29<br /><img src="https://img.shields.io/badge/-%2B13-brightgreen" alt="+13" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/askvortsov-moderator-warnings/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/askvortsov-moderator-warnings/svg-badge.svg" alt="Translation status"></a></td>
+		<td align="center">47<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/ban-ips/stats">6879<br /><img src="https://img.shields.io/badge/-%2B57-brightgreen" alt="+57" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/ban-ips/stats">425<br /><img src="https://img.shields.io/badge/-%2B7-brightgreen" alt="+7" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/ban-ips/stats">7<br /><img src="https://img.shields.io/badge/--9-red" alt="-9" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/fof-ban-ips/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-ban-ips/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/FriendsOfFlarum/subscribed" title="fof/subscribed"><code>fof/subscribed</code></a>
+			<a href="https://github.com/afrux/forum-widgets-core" title="afrux/forum-widgets-core"><code>afrux/forum-widgets-core</code></a>
 		</td>
-		<td align="center">51<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/subscribed/stats">6365<br /><img src="https://img.shields.io/badge/-%2B136-brightgreen" alt="+136" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/subscribed/stats">380<br /><img src="https://img.shields.io/badge/-%2B45-brightgreen" alt="+45" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/subscribed/stats">37<br /><img src="https://img.shields.io/badge/-%2B24-brightgreen" alt="+24" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/fof-subscribed/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-subscribed/svg-badge.svg" alt="Translation status"></a></td>
+		<td align="center">48<br /><img src="https://img.shields.io/badge/-%2B2-red" alt="+2" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/afrux/forum-widgets-core/stats">1634<br /><img src="https://img.shields.io/badge/-%2B70-brightgreen" alt="+70" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/afrux/forum-widgets-core/stats">424<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/afrux/forum-widgets-core/stats">18<br /><img src="https://img.shields.io/badge/--12-red" alt="-12" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/afrux-forum-widgets-core/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/afrux-forum-widgets-core/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/FriendsOfFlarum/ignore-users" title="fof/ignore-users"><code>fof/ignore-users</code></a>
 		</td>
-		<td align="center">52<br /><img src="https://img.shields.io/badge/-%2B3-red" alt="+3" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/ignore-users/stats">9992<br /><img src="https://img.shields.io/badge/-%2B105-brightgreen" alt="+105" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/ignore-users/stats">368<br /><img src="https://img.shields.io/badge/-%2B16-brightgreen" alt="+16" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/ignore-users/stats">16<br /><img src="https://img.shields.io/badge/-%2B4-brightgreen" alt="+4" title="Change from last week"></a></td>
+		<td align="center">49<br /><img src="https://img.shields.io/badge/--3-brightgreen" alt="-3" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/ignore-users/stats">10071<br /><img src="https://img.shields.io/badge/-%2B79-brightgreen" alt="+79" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/ignore-users/stats">414<br /><img src="https://img.shields.io/badge/-%2B46-brightgreen" alt="+46" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/ignore-users/stats">6<br /><img src="https://img.shields.io/badge/--10-red" alt="-10" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/fof-ignore-users/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-ignore-users/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/MichaelBelgium/flarum-discussion-views" title="michaelbelgium/flarum-discussion-views"><code>michaelbelgium/flarum-discussion-views</code></a>
+			<a href="https://github.com/FriendsOfFlarum/doorman" title="fof/doorman"><code>fof/doorman</code></a>
 		</td>
-		<td align="center">53<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/michaelbelgium/flarum-discussion-views/stats">19670<br /><img src="https://img.shields.io/badge/-%2B124-brightgreen" alt="+124" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/michaelbelgium/flarum-discussion-views/stats">366<br /><img src="https://img.shields.io/badge/-%2B40-brightgreen" alt="+40" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/michaelbelgium/flarum-discussion-views/stats">20<br /><img src="https://img.shields.io/badge/-%2B6-brightgreen" alt="+6" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/michaelbelgium-discussion-views/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/michaelbelgium-discussion-views/svg-badge.svg" alt="Translation status"></a></td>
+		<td align="center">50<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/doorman/stats">3263<br /><img src="https://img.shields.io/badge/-%2B80-brightgreen" alt="+80" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/doorman/stats">413<br /><img src="https://img.shields.io/badge/-%2B16-brightgreen" alt="+16" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/doorman/stats">9<br /><img src="https://img.shields.io/badge/--11-red" alt="-11" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/fof-doorman/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-doorman/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/FriendsOfFlarum/recaptcha" title="fof/recaptcha"><code>fof/recaptcha</code></a>
+			<a href="https://github.com/FriendsOfFlarum/subscribed" title="fof/subscribed"><code>fof/subscribed</code></a>
 		</td>
-		<td align="center">54<br /><img src="https://img.shields.io/badge/-%2B3-red" alt="+3" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/recaptcha/stats">9114<br /><img src="https://img.shields.io/badge/-%2B114-brightgreen" alt="+114" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/recaptcha/stats">365<br /><img src="https://img.shields.io/badge/-%2B28-brightgreen" alt="+28" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/recaptcha/stats">18<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/fof-recaptcha/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-recaptcha/svg-badge.svg" alt="Translation status"></a></td>
+		<td align="center">51<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/subscribed/stats">6444<br /><img src="https://img.shields.io/badge/-%2B79-brightgreen" alt="+79" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/subscribed/stats">410<br /><img src="https://img.shields.io/badge/-%2B30-brightgreen" alt="+30" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/subscribed/stats">10<br /><img src="https://img.shields.io/badge/--27-red" alt="-27" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/fof-subscribed/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-subscribed/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/askvortsov1/flarum-moderator-warnings" title="askvortsov/flarum-moderator-warnings"><code>askvortsov/flarum-moderator-warnings</code></a>
+		</td>
+		<td align="center">52<br /><img src="https://img.shields.io/badge/-%2B2-red" alt="+2" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-moderator-warnings/stats">4633<br /><img src="https://img.shields.io/badge/-%2B68-brightgreen" alt="+68" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-moderator-warnings/stats">404<br /><img src="https://img.shields.io/badge/-%2B23-brightgreen" alt="+23" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-moderator-warnings/stats">5<br /><img src="https://img.shields.io/badge/--24-red" alt="-24" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/askvortsov-moderator-warnings/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/askvortsov-moderator-warnings/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/FriendsOfFlarum/default-group" title="fof/default-group"><code>fof/default-group</code></a>
 		</td>
-		<td align="center">55<br /><img src="https://img.shields.io/badge/--10-brightgreen" alt="-10" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/default-group/stats">6938<br /><img src="https://img.shields.io/badge/-%2B145-brightgreen" alt="+145" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/default-group/stats">352<br /><img src="https://img.shields.io/badge/-%2B73-brightgreen" alt="+73" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/default-group/stats">33<br /><img src="https://img.shields.io/badge/-%2B22-brightgreen" alt="+22" title="Change from last week"></a></td>
+		<td align="center">53<br /><img src="https://img.shields.io/badge/--2-brightgreen" alt="-2" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/default-group/stats">7019<br /><img src="https://img.shields.io/badge/-%2B81-brightgreen" alt="+81" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/default-group/stats">403<br /><img src="https://img.shields.io/badge/-%2B51-brightgreen" alt="+51" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/default-group/stats">9<br /><img src="https://img.shields.io/badge/--24-red" alt="-24" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/fof-default-group/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-default-group/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/therealsujitk/flarum-ext-gifs" title="therealsujitk/flarum-ext-gifs"><code>therealsujitk/flarum-ext-gifs</code></a>
-		</td>
-		<td align="center">56<br /><img src="https://img.shields.io/badge/--2-brightgreen" alt="-2" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/therealsujitk/flarum-ext-gifs/stats">3444<br /><img src="https://img.shields.io/badge/-%2B133-brightgreen" alt="+133" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/therealsujitk/flarum-ext-gifs/stats">351<br /><img src="https://img.shields.io/badge/-%2B49-brightgreen" alt="+49" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/therealsujitk/flarum-ext-gifs/stats">28<br /><img src="https://img.shields.io/badge/-%2B17-brightgreen" alt="+17" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/therealsujitk-gifs/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/therealsujitk-gifs/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/FriendsOfFlarum/username-request" title="fof/username-request"><code>fof/username-request</code></a>
-		</td>
-		<td align="center">57<br /><img src="https://img.shields.io/badge/-%2B3-red" alt="+3" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/username-request/stats">6602<br /><img src="https://img.shields.io/badge/-%2B92-brightgreen" alt="+92" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/username-request/stats">347<br /><img src="https://img.shields.io/badge/-%2B24-brightgreen" alt="+24" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/username-request/stats">17<br /><img src="https://img.shields.io/badge/-%2B7-brightgreen" alt="+7" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/fof-username-request/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-username-request/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/FriendsOfFlarum/stopforumspam" title="fof/stopforumspam"><code>fof/stopforumspam</code></a>
-		</td>
-		<td align="center">58<br /><img src="https://img.shields.io/badge/-%2B8-red" alt="+8" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/stopforumspam/stats">5202<br /><img src="https://img.shields.io/badge/-%2B92-brightgreen" alt="+92" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/stopforumspam/stats">344<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/stopforumspam/stats">14<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/fof-stopforumspam/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-stopforumspam/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/FriendsOfFlarum/prevent-necrobumping" title="fof/prevent-necrobumping"><code>fof/prevent-necrobumping</code></a>
-		</td>
-		<td align="center">59<br /><img src="https://img.shields.io/badge/--4-brightgreen" alt="-4" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/prevent-necrobumping/stats">7096<br /><img src="https://img.shields.io/badge/-%2B129-brightgreen" alt="+129" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/prevent-necrobumping/stats">342<br /><img src="https://img.shields.io/badge/-%2B55-brightgreen" alt="+55" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/prevent-necrobumping/stats">29<br /><img src="https://img.shields.io/badge/-%2B17-brightgreen" alt="+17" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/fof-prevent-necrobumping/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-prevent-necrobumping/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/askvortsov1/flarum-markdown-tables" title="askvortsov/flarum-markdown-tables"><code>askvortsov/flarum-markdown-tables</code></a>
-		</td>
-		<td align="center">60<br /><img src="https://img.shields.io/badge/--4-brightgreen" alt="-4" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-markdown-tables/stats">1880<br /><img src="https://img.shields.io/badge/-%2B125-brightgreen" alt="+125" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-markdown-tables/stats">342<br /><img src="https://img.shields.io/badge/-%2B57-brightgreen" alt="+57" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-markdown-tables/stats">33<br /><img src="https://img.shields.io/badge/-%2B19-brightgreen" alt="+19" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/askvortsov-markdown-tables/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/askvortsov-markdown-tables/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/FriendsOfFlarum/share-social" title="fof/share-social"><code>fof/share-social</code></a>
 		</td>
-		<td align="center">61<br /><img src="https://img.shields.io/badge/-%2B5-red" alt="+5" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/share-social/stats">7339<br /><img src="https://img.shields.io/badge/-%2B99-brightgreen" alt="+99" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/share-social/stats">341<br /><img src="https://img.shields.io/badge/-%2B32-brightgreen" alt="+32" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/share-social/stats">18<br /><img src="https://img.shields.io/badge/-%2B7-brightgreen" alt="+7" title="Change from last week"></a></td>
+		<td align="center">54<br /><img src="https://img.shields.io/badge/--7-brightgreen" alt="-7" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/share-social/stats">7434<br /><img src="https://img.shields.io/badge/-%2B95-brightgreen" alt="+95" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/share-social/stats">394<br /><img src="https://img.shields.io/badge/-%2B53-brightgreen" alt="+53" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/share-social/stats">6<br /><img src="https://img.shields.io/badge/--12-red" alt="-12" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/fof-share-social/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-share-social/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/flarumite/simple-discussion-views" title="flarumite/simple-discussion-views"><code>flarumite/simple-discussion-views</code></a>
+			<a href="https://github.com/FriendsOfFlarum/recaptcha" title="fof/recaptcha"><code>fof/recaptcha</code></a>
 		</td>
-		<td align="center">62<br /><img src="https://img.shields.io/badge/--4-brightgreen" alt="-4" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/flarumite/simple-discussion-views/stats">4447<br /><img src="https://img.shields.io/badge/-%2B104-brightgreen" alt="+104" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/flarumite/simple-discussion-views/stats">340<br /><img src="https://img.shields.io/badge/-%2B62-brightgreen" alt="+62" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/flarumite/simple-discussion-views/stats">22<br /><img src="https://img.shields.io/badge/-%2B10-brightgreen" alt="+10" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/flarumite-simple-discussion-views/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/flarumite-simple-discussion-views/svg-badge.svg" alt="Translation status"></a></td>
+		<td align="center">55<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/recaptcha/stats">9181<br /><img src="https://img.shields.io/badge/-%2B67-brightgreen" alt="+67" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/recaptcha/stats">383<br /><img src="https://img.shields.io/badge/-%2B18-brightgreen" alt="+18" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/recaptcha/stats">7<br /><img src="https://img.shields.io/badge/--11-red" alt="-11" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/fof-recaptcha/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-recaptcha/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/FriendsOfFlarum/username-request" title="fof/username-request"><code>fof/username-request</code></a>
+		</td>
+		<td align="center">56<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/username-request/stats">6695<br /><img src="https://img.shields.io/badge/-%2B93-brightgreen" alt="+93" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/username-request/stats">382<br /><img src="https://img.shields.io/badge/-%2B35-brightgreen" alt="+35" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/username-request/stats">15<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/fof-username-request/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-username-request/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/therealsujitk/flarum-ext-gifs" title="therealsujitk/flarum-ext-gifs"><code>therealsujitk/flarum-ext-gifs</code></a>
+		</td>
+		<td align="center">57<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/therealsujitk/flarum-ext-gifs/stats">3490<br /><img src="https://img.shields.io/badge/-%2B46-brightgreen" alt="+46" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/therealsujitk/flarum-ext-gifs/stats">358<br /><img src="https://img.shields.io/badge/-%2B7-brightgreen" alt="+7" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/therealsujitk/flarum-ext-gifs/stats">3<br /><img src="https://img.shields.io/badge/--25-red" alt="-25" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/therealsujitk-gifs/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/therealsujitk-gifs/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/FriendsOfFlarum/prevent-necrobumping" title="fof/prevent-necrobumping"><code>fof/prevent-necrobumping</code></a>
+		</td>
+		<td align="center">58<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/prevent-necrobumping/stats">7146<br /><img src="https://img.shields.io/badge/-%2B50-brightgreen" alt="+50" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/prevent-necrobumping/stats">353<br /><img src="https://img.shields.io/badge/-%2B11-brightgreen" alt="+11" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/prevent-necrobumping/stats">5<br /><img src="https://img.shields.io/badge/--24-red" alt="-24" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/fof-prevent-necrobumping/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-prevent-necrobumping/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/MichaelBelgium/flarum-discussion-views" title="michaelbelgium/flarum-discussion-views"><code>michaelbelgium/flarum-discussion-views</code></a>
+		</td>
+		<td align="center">59<br /><img src="https://img.shields.io/badge/-%2B6-red" alt="+6" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/michaelbelgium/flarum-discussion-views/stats">19709<br /><img src="https://img.shields.io/badge/-%2B39-brightgreen" alt="+39" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/michaelbelgium/flarum-discussion-views/stats">351<br /><img src="https://img.shields.io/badge/--15-red" alt="-15" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/michaelbelgium/flarum-discussion-views/stats">10<br /><img src="https://img.shields.io/badge/--10-red" alt="-10" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/michaelbelgium-discussion-views/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/michaelbelgium-discussion-views/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/FriendsOfFlarum/stopforumspam" title="fof/stopforumspam"><code>fof/stopforumspam</code></a>
+		</td>
+		<td align="center">60<br /><img src="https://img.shields.io/badge/-%2B2-red" alt="+2" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/stopforumspam/stats">5261<br /><img src="https://img.shields.io/badge/-%2B59-brightgreen" alt="+59" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/stopforumspam/stats">351<br /><img src="https://img.shields.io/badge/-%2B7-brightgreen" alt="+7" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/stopforumspam/stats">6<br /><img src="https://img.shields.io/badge/--8-red" alt="-8" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/fof-stopforumspam/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-stopforumspam/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/askvortsov1/flarum-markdown-tables" title="askvortsov/flarum-markdown-tables"><code>askvortsov/flarum-markdown-tables</code></a>
+		</td>
+		<td align="center">61<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-markdown-tables/stats">1925<br /><img src="https://img.shields.io/badge/-%2B45-brightgreen" alt="+45" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-markdown-tables/stats">350<br /><img src="https://img.shields.io/badge/-%2B8-brightgreen" alt="+8" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-markdown-tables/stats">4<br /><img src="https://img.shields.io/badge/--29-red" alt="-29" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/askvortsov-markdown-tables/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/askvortsov-markdown-tables/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/imorland/synopsis" title="ianm/synopsis"><code>ianm/synopsis</code></a>
 		</td>
-		<td align="center">63<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/ianm/synopsis/stats">2530<br /><img src="https://img.shields.io/badge/-%2B117-brightgreen" alt="+117" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/ianm/synopsis/stats">329<br /><img src="https://img.shields.io/badge/-%2B39-brightgreen" alt="+39" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/ianm/synopsis/stats">18<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
+		<td align="center">62<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/ianm/synopsis/stats">2593<br /><img src="https://img.shields.io/badge/-%2B63-brightgreen" alt="+63" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/ianm/synopsis/stats">349<br /><img src="https://img.shields.io/badge/-%2B20-brightgreen" alt="+20" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/ianm/synopsis/stats">6<br /><img src="https://img.shields.io/badge/--12-red" alt="-12" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/ianm-synopsis/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/ianm-synopsis/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/imorland/level-ranks" title="ianm/level-ranks"><code>ianm/level-ranks</code></a>
-		</td>
-		<td align="center">64<br /><img src="https://img.shields.io/badge/--3-brightgreen" alt="-3" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/ianm/level-ranks/stats">1165<br /><img src="https://img.shields.io/badge/-%2B103-brightgreen" alt="+103" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/ianm/level-ranks/stats">320<br /><img src="https://img.shields.io/badge/-%2B44-brightgreen" alt="+44" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/ianm/level-ranks/stats">20<br /><img src="https://img.shields.io/badge/-%2B8-brightgreen" alt="+8" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/ianm-level-ranks/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/ianm-level-ranks/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/the-turk/flarum-stickiest" title="the-turk/flarum-stickiest"><code>the-turk/flarum-stickiest</code></a>
 		</td>
-		<td align="center">65<br /><img src="https://img.shields.io/badge/--12-brightgreen" alt="-12" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-stickiest/stats">654<br /><img src="https://img.shields.io/badge/-%2B123-brightgreen" alt="+123" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-stickiest/stats">319<br /><img src="https://img.shields.io/badge/-%2B84-brightgreen" alt="+84" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-stickiest/stats">32<br /><img src="https://img.shields.io/badge/-%2B19-brightgreen" alt="+19" title="Change from last week"></a></td>
+		<td align="center">63<br /><img src="https://img.shields.io/badge/--2-brightgreen" alt="-2" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-stickiest/stats">696<br /><img src="https://img.shields.io/badge/-%2B42-brightgreen" alt="+42" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-stickiest/stats">340<br /><img src="https://img.shields.io/badge/-%2B21-brightgreen" alt="+21" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-stickiest/stats">6<br /><img src="https://img.shields.io/badge/--26-red" alt="-26" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/the-turk-stickiest/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/the-turk-stickiest/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
@@ -746,21 +724,43 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/FriendsOfFlarum/cookie-consent" title="fof/cookie-consent"><code>fof/cookie-consent</code></a>
 		</td>
-		<td align="center">66<br /><img src="https://img.shields.io/badge/-%2B9-red" alt="+9" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/cookie-consent/stats">2806<br /><img src="https://img.shields.io/badge/-%2B89-brightgreen" alt="+89" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/cookie-consent/stats">312<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/cookie-consent/stats">18<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center">64<br /><img src="https://img.shields.io/badge/--2-brightgreen" alt="-2" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/cookie-consent/stats">2866<br /><img src="https://img.shields.io/badge/-%2B60-brightgreen" alt="+60" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/cookie-consent/stats">337<br /><img src="https://img.shields.io/badge/-%2B25-brightgreen" alt="+25" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/cookie-consent/stats">5<br /><img src="https://img.shields.io/badge/--13-red" alt="-13" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/fof-cookie-consent/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-cookie-consent/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/imorland/level-ranks" title="ianm/level-ranks"><code>ianm/level-ranks</code></a>
+		</td>
+		<td align="center">65<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/ianm/level-ranks/stats">1221<br /><img src="https://img.shields.io/badge/-%2B56-brightgreen" alt="+56" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/ianm/level-ranks/stats">335<br /><img src="https://img.shields.io/badge/-%2B15-brightgreen" alt="+15" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/ianm/level-ranks/stats">3<br /><img src="https://img.shields.io/badge/--17-red" alt="-17" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/ianm-level-ranks/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/ianm-level-ranks/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/flarumite/simple-discussion-views" title="flarumite/simple-discussion-views"><code>flarumite/simple-discussion-views</code></a>
+		</td>
+		<td align="center">66<br /><img src="https://img.shields.io/badge/-%2B4-red" alt="+4" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/flarumite/simple-discussion-views/stats">4502<br /><img src="https://img.shields.io/badge/-%2B55-brightgreen" alt="+55" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/flarumite/simple-discussion-views/stats">334<br /><img src="https://img.shields.io/badge/--6-red" alt="-6" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/flarumite/simple-discussion-views/stats">8<br /><img src="https://img.shields.io/badge/--14-red" alt="-14" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/flarumite-simple-discussion-views/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/flarumite-simple-discussion-views/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/FriendsOfFlarum/filter" title="fof/filter"><code>fof/filter</code></a>
 		</td>
-		<td align="center">67<br /><img src="https://img.shields.io/badge/-%2B6-red" alt="+6" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/filter/stats">3338<br /><img src="https://img.shields.io/badge/-%2B87-brightgreen" alt="+87" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/filter/stats">311<br /><img src="https://img.shields.io/badge/-%2B18-brightgreen" alt="+18" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/filter/stats">15<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
+		<td align="center">67<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/filter/stats">3390<br /><img src="https://img.shields.io/badge/-%2B52-brightgreen" alt="+52" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/filter/stats">326<br /><img src="https://img.shields.io/badge/-%2B15-brightgreen" alt="+15" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/filter/stats">2<br /><img src="https://img.shields.io/badge/--13-red" alt="-13" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/fof-filter/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-filter/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
@@ -768,33 +768,33 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/clarkwinkelmann/flarum-ext-post-bookmarks" title="clarkwinkelmann/flarum-ext-post-bookmarks"><code>clarkwinkelmann/…post-bookmarks</code></a>
 		</td>
-		<td align="center">68<br /><img src="https://img.shields.io/badge/--2-brightgreen" alt="-2" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-post-bookmarks/stats">698<br /><img src="https://img.shields.io/badge/-%2B121-brightgreen" alt="+121" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-post-bookmarks/stats">306<br /><img src="https://img.shields.io/badge/-%2B55-brightgreen" alt="+55" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-post-bookmarks/stats">26<br /><img src="https://img.shields.io/badge/-%2B11-brightgreen" alt="+11" title="Change from last week"></a></td>
+		<td align="center">68<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-post-bookmarks/stats">736<br /><img src="https://img.shields.io/badge/-%2B38-brightgreen" alt="+38" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-post-bookmarks/stats">316<br /><img src="https://img.shields.io/badge/-%2B10-brightgreen" alt="+10" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-post-bookmarks/stats">1<br /><img src="https://img.shields.io/badge/--25-red" alt="-25" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-post-bookmarks/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-post-bookmarks/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/FriendsOfFlarum/discussion-language" title="fof/discussion-language"><code>fof/discussion-language</code></a>
-		</td>
-		<td align="center">69<br /><img src="https://img.shields.io/badge/-%2B9-red" alt="+9" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/discussion-language/stats">2600<br /><img src="https://img.shields.io/badge/-%2B74-brightgreen" alt="+74" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/discussion-language/stats">302<br /><img src="https://img.shields.io/badge/-%2B7-brightgreen" alt="+7" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/discussion-language/stats">13<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/fof-discussion-language/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-discussion-language/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/imorland/html-head" title="ianm/html-head"><code>ianm/html-head</code></a>
 		</td>
-		<td align="center">70<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/ianm/html-head/stats">2449<br /><img src="https://img.shields.io/badge/-%2B76-brightgreen" alt="+76" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/ianm/html-head/stats">283<br /><img src="https://img.shields.io/badge/-%2B18-brightgreen" alt="+18" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/ianm/html-head/stats">16<br /><img src="https://img.shields.io/badge/-%2B4-brightgreen" alt="+4" title="Change from last week"></a></td>
+		<td align="center">69<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/ianm/html-head/stats">2507<br /><img src="https://img.shields.io/badge/-%2B58-brightgreen" alt="+58" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/ianm/html-head/stats">302<br /><img src="https://img.shields.io/badge/-%2B19-brightgreen" alt="+19" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/ianm/html-head/stats">8<br /><img src="https://img.shields.io/badge/--8-red" alt="-8" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/ianm-html-head/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/ianm-html-head/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/FriendsOfFlarum/discussion-language" title="fof/discussion-language"><code>fof/discussion-language</code></a>
+		</td>
+		<td align="center">70<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/discussion-language/stats">2639<br /><img src="https://img.shields.io/badge/-%2B39-brightgreen" alt="+39" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/discussion-language/stats">293<br /><img src="https://img.shields.io/badge/--9-red" alt="-9" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/discussion-language/stats">0<br /><img src="https://img.shields.io/badge/--13-red" alt="-13" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/fof-discussion-language/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-discussion-language/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
@@ -802,241 +802,241 @@
 			<a href="https://github.com/FriendsOfFlarum/geoip" title="fof/geoip"><code>fof/geoip</code></a>
 		</td>
 		<td align="center">71<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/geoip/stats">4159<br /><img src="https://img.shields.io/badge/-%2B82-brightgreen" alt="+82" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/geoip/stats">276<br /><img src="https://img.shields.io/badge/-%2B26-brightgreen" alt="+26" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/geoip/stats">14<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/geoip/stats">4210<br /><img src="https://img.shields.io/badge/-%2B51-brightgreen" alt="+51" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/geoip/stats">289<br /><img src="https://img.shields.io/badge/-%2B13-brightgreen" alt="+13" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/geoip/stats">3<br /><img src="https://img.shields.io/badge/--11-red" alt="-11" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/fof-geoip/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-geoip/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/clarkwinkelmann/flarum-ext-emojionearea" title="clarkwinkelmann/flarum-ext-emojionearea"><code>clarkwinkelmann/flarum-ext-emojionearea</code></a>
-		</td>
-		<td align="center">72<br /><img src="https://img.shields.io/badge/-%2B13-red" alt="+13" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-emojionearea/stats">15043<br /><img src="https://img.shields.io/badge/-%2B46-brightgreen" alt="+46" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-emojionearea/stats">269<br /><img src="https://img.shields.io/badge/--29-red" alt="-29" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-emojionearea/stats">3<br /><img src="https://img.shields.io/badge/--4-red" alt="-4" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-emojionearea/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-emojionearea/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/SychO9/flarum-move-posts" title="sycho/flarum-move-posts"><code>sycho/flarum-move-posts</code></a>
-		</td>
-		<td align="center">73<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/sycho/flarum-move-posts/stats">499<br /><img src="https://img.shields.io/badge/-%2B72-brightgreen" alt="+72" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/sycho/flarum-move-posts/stats">266<br /><img src="https://img.shields.io/badge/-%2B18-brightgreen" alt="+18" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/sycho/flarum-move-posts/stats">13<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/sycho-move-posts/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/sycho-move-posts/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/FriendsOfFlarum/custom-footer" title="fof/custom-footer"><code>fof/custom-footer</code></a>
 		</td>
-		<td align="center">74<br /><img src="https://img.shields.io/badge/--2-brightgreen" alt="-2" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/custom-footer/stats">4354<br /><img src="https://img.shields.io/badge/-%2B72-brightgreen" alt="+72" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/custom-footer/stats">258<br /><img src="https://img.shields.io/badge/-%2B23-brightgreen" alt="+23" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/custom-footer/stats">14<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
+		<td align="center">72<br /><img src="https://img.shields.io/badge/--2-brightgreen" alt="-2" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/custom-footer/stats">4408<br /><img src="https://img.shields.io/badge/-%2B54-brightgreen" alt="+54" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/custom-footer/stats">286<br /><img src="https://img.shields.io/badge/-%2B28-brightgreen" alt="+28" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/custom-footer/stats">2<br /><img src="https://img.shields.io/badge/--12-red" alt="-12" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/fof-custom-footer/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-custom-footer/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/SychO9/flarum-move-posts" title="sycho/flarum-move-posts"><code>sycho/flarum-move-posts</code></a>
+		</td>
+		<td align="center">73<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/sycho/flarum-move-posts/stats">544<br /><img src="https://img.shields.io/badge/-%2B45-brightgreen" alt="+45" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/sycho/flarum-move-posts/stats">276<br /><img src="https://img.shields.io/badge/-%2B10-brightgreen" alt="+10" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/sycho/flarum-move-posts/stats">4<br /><img src="https://img.shields.io/badge/--9-red" alt="-9" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/sycho-move-posts/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/sycho-move-posts/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/davwheat/flarum-ext-ads" title="davwheat/flarum-ext-ads"><code>davwheat/flarum-ext-ads</code></a>
 		</td>
-		<td align="center">75<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/davwheat/flarum-ext-ads/stats">628<br /><img src="https://img.shields.io/badge/-%2B74-brightgreen" alt="+74" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/davwheat/flarum-ext-ads/stats">252<br /><img src="https://img.shields.io/badge/-%2B15-brightgreen" alt="+15" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/davwheat/flarum-ext-ads/stats">15<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td align="center">74<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/davwheat/flarum-ext-ads/stats">673<br /><img src="https://img.shields.io/badge/-%2B45-brightgreen" alt="+45" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/davwheat/flarum-ext-ads/stats">271<br /><img src="https://img.shields.io/badge/-%2B19-brightgreen" alt="+19" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/davwheat/flarum-ext-ads/stats">2<br /><img src="https://img.shields.io/badge/--13-red" alt="-13" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/davwheat-ads/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/davwheat-ads/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/justoverclockl/flarum-ext-welcomebox" title="justoverclock/flarum-ext-welcomebox"><code>justoverclock/flarum-ext-welcomebox</code></a>
-		</td>
-		<td align="center">76<br /><img src="https://img.shields.io/badge/-%2B2-red" alt="+2" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-welcomebox/stats">1378<br /><img src="https://img.shields.io/badge/-%2B85-brightgreen" alt="+85" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-welcomebox/stats">248<br /><img src="https://img.shields.io/badge/-%2B11-brightgreen" alt="+11" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-welcomebox/stats">17<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-welcomebox/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-welcomebox/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/FriendsOfFlarum/passport" title="fof/passport"><code>fof/passport</code></a>
-		</td>
-		<td align="center">77<br /><img src="https://img.shields.io/badge/--3-brightgreen" alt="-3" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/passport/stats">1934<br /><img src="https://img.shields.io/badge/-%2B66-brightgreen" alt="+66" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/passport/stats">239<br /><img src="https://img.shields.io/badge/-%2B26-brightgreen" alt="+26" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/passport/stats">13<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/fof-passport/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-passport/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/imorland/gravatar" title="ianm/gravatar"><code>ianm/gravatar</code></a>
-		</td>
-		<td align="center">78<br /><img src="https://img.shields.io/badge/--5-brightgreen" alt="-5" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/ianm/gravatar/stats">674<br /><img src="https://img.shields.io/badge/-%2B68-brightgreen" alt="+68" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/ianm/gravatar/stats">235<br /><img src="https://img.shields.io/badge/-%2B27-brightgreen" alt="+27" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/ianm/gravatar/stats">13<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/ianm-gravatar/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/ianm-gravatar/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/imorland/syndication" title="ianm/syndication"><code>ianm/syndication</code></a>
-		</td>
-		<td align="center">79<br /><img src="https://img.shields.io/badge/--5-brightgreen" alt="-5" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/ianm/syndication/stats">938<br /><img src="https://img.shields.io/badge/-%2B71-brightgreen" alt="+71" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/ianm/syndication/stats">234<br /><img src="https://img.shields.io/badge/-%2B31-brightgreen" alt="+31" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/ianm/syndication/stats">13<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/ianm-syndication/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/ianm-syndication/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/v17development/flarum-user-badges" title="v17development/flarum-user-badges"><code>v17development/flarum-user-badges</code></a>
-		</td>
-		<td align="center">80<br /><img src="https://img.shields.io/badge/--6-brightgreen" alt="-6" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/v17development/flarum-user-badges/stats">1756<br /><img src="https://img.shields.io/badge/-%2B94-brightgreen" alt="+94" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/v17development/flarum-user-badges/stats">233<br /><img src="https://img.shields.io/badge/-%2B36-brightgreen" alt="+36" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/v17development/flarum-user-badges/stats">20<br /><img src="https://img.shields.io/badge/-%2B7-brightgreen" alt="+7" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/v17development-user-badges/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/v17development-user-badges/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/migratetoflarum/fake-data" title="migratetoflarum/fake-data"><code>migratetoflarum/fake-data</code></a>
-		</td>
-		<td align="center">81<br /><img src="https://img.shields.io/badge/-%2B2-red" alt="+2" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/migratetoflarum/fake-data/stats">2073<br /><img src="https://img.shields.io/badge/-%2B63-brightgreen" alt="+63" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/migratetoflarum/fake-data/stats">232<br /><img src="https://img.shields.io/badge/-%2B19-brightgreen" alt="+19" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/migratetoflarum/fake-data/stats">14<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/migratetoflarum-fake-data/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/migratetoflarum-fake-data/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/FriendsOfFlarum/pwned-passwords" title="fof/pwned-passwords"><code>fof/pwned-passwords</code></a>
-		</td>
-		<td align="center">82<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/pwned-passwords/stats">2593<br /><img src="https://img.shields.io/badge/-%2B65-brightgreen" alt="+65" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/pwned-passwords/stats">229<br /><img src="https://img.shields.io/badge/-%2B21-brightgreen" alt="+21" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/pwned-passwords/stats">12<br /><img src="https://img.shields.io/badge/-%2B4-brightgreen" alt="+4" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/fof-pwned-passwords/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-pwned-passwords/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/afrux/online-users-widget" title="afrux/online-users-widget"><code>afrux/online-users-widget</code></a>
-		</td>
-		<td align="center">83<br /><img src="https://img.shields.io/badge/--2-brightgreen" alt="-2" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/afrux/online-users-widget/stats">913<br /><img src="https://img.shields.io/badge/-%2B99-brightgreen" alt="+99" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/afrux/online-users-widget/stats">227<br /><img src="https://img.shields.io/badge/-%2B27-brightgreen" alt="+27" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/afrux/online-users-widget/stats">21<br /><img src="https://img.shields.io/badge/-%2B9-brightgreen" alt="+9" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/afrux-online-users-widget/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/afrux-online-users-widget/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/afrux/news-widget" title="afrux/news-widget"><code>afrux/news-widget</code></a>
-		</td>
-		<td align="center">84<br /><img src="https://img.shields.io/badge/-%2B3-red" alt="+3" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/afrux/news-widget/stats">785<br /><img src="https://img.shields.io/badge/-%2B92-brightgreen" alt="+92" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/afrux/news-widget/stats">227<br /><img src="https://img.shields.io/badge/-%2B18-brightgreen" alt="+18" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/afrux/news-widget/stats">21<br /><img src="https://img.shields.io/badge/-%2B11-brightgreen" alt="+11" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/afrux-news-widget/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/afrux-news-widget/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/blomstra/flarum-ext-search" title="blomstra/search"><code>blomstra/search</code></a>
 		</td>
-		<td align="center">85<br /><img src="https://img.shields.io/badge/--9-brightgreen" alt="-9" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/blomstra/search/stats">227<br /><img src="https://img.shields.io/badge/-%2B67-brightgreen" alt="+67" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/blomstra/search/stats">227<br /><img src="https://img.shields.io/badge/-%2B67-brightgreen" alt="+67" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/blomstra/search/stats">15<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
+		<td align="center">75<br /><img src="https://img.shields.io/badge/--10-brightgreen" alt="-10" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/blomstra/search/stats">266<br /><img src="https://img.shields.io/badge/-%2B39-brightgreen" alt="+39" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/blomstra/search/stats">266<br /><img src="https://img.shields.io/badge/-%2B39-brightgreen" alt="+39" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/blomstra/search/stats">4<br /><img src="https://img.shields.io/badge/--11-red" alt="-11" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/blomstra-search/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/blomstra-search/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/v17development/flarum-user-badges" title="v17development/flarum-user-badges"><code>v17development/flarum-user-badges</code></a>
+		</td>
+		<td align="center">76<br /><img src="https://img.shields.io/badge/--4-brightgreen" alt="-4" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/v17development/flarum-user-badges/stats">1816<br /><img src="https://img.shields.io/badge/-%2B60-brightgreen" alt="+60" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/v17development/flarum-user-badges/stats">259<br /><img src="https://img.shields.io/badge/-%2B26-brightgreen" alt="+26" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/v17development/flarum-user-badges/stats">7<br /><img src="https://img.shields.io/badge/--13-red" alt="-13" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/v17development-user-badges/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/v17development-user-badges/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/FriendsOfFlarum/passport" title="fof/passport"><code>fof/passport</code></a>
+		</td>
+		<td align="center">77<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/passport/stats">1978<br /><img src="https://img.shields.io/badge/-%2B44-brightgreen" alt="+44" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/passport/stats">258<br /><img src="https://img.shields.io/badge/-%2B19-brightgreen" alt="+19" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/passport/stats">2<br /><img src="https://img.shields.io/badge/--11-red" alt="-11" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/fof-passport/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-passport/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/FriendsOfFlarum/pwned-passwords" title="fof/pwned-passwords"><code>fof/pwned-passwords</code></a>
+		</td>
+		<td align="center">78<br /><img src="https://img.shields.io/badge/--4-brightgreen" alt="-4" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/pwned-passwords/stats">2641<br /><img src="https://img.shields.io/badge/-%2B48-brightgreen" alt="+48" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/pwned-passwords/stats">254<br /><img src="https://img.shields.io/badge/-%2B25-brightgreen" alt="+25" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/pwned-passwords/stats">0<br /><img src="https://img.shields.io/badge/--12-red" alt="-12" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/fof-pwned-passwords/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-pwned-passwords/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/imorland/syndication" title="ianm/syndication"><code>ianm/syndication</code></a>
+		</td>
+		<td align="center">79<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/ianm/syndication/stats">976<br /><img src="https://img.shields.io/badge/-%2B38-brightgreen" alt="+38" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/ianm/syndication/stats">251<br /><img src="https://img.shields.io/badge/-%2B17-brightgreen" alt="+17" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/ianm/syndication/stats">2<br /><img src="https://img.shields.io/badge/--11-red" alt="-11" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/ianm-syndication/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/ianm-syndication/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/imorland/gravatar" title="ianm/gravatar"><code>ianm/gravatar</code></a>
+		</td>
+		<td align="center">80<br /><img src="https://img.shields.io/badge/-%2B2-red" alt="+2" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/ianm/gravatar/stats">712<br /><img src="https://img.shields.io/badge/-%2B38-brightgreen" alt="+38" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/ianm/gravatar/stats">249<br /><img src="https://img.shields.io/badge/-%2B14-brightgreen" alt="+14" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/ianm/gravatar/stats">2<br /><img src="https://img.shields.io/badge/--11-red" alt="-11" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/ianm-gravatar/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/ianm-gravatar/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/migratetoflarum/fake-data" title="migratetoflarum/fake-data"><code>migratetoflarum/fake-data</code></a>
+		</td>
+		<td align="center">81<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/migratetoflarum/fake-data/stats">2111<br /><img src="https://img.shields.io/badge/-%2B38-brightgreen" alt="+38" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/migratetoflarum/fake-data/stats">242<br /><img src="https://img.shields.io/badge/-%2B10-brightgreen" alt="+10" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/migratetoflarum/fake-data/stats">1<br /><img src="https://img.shields.io/badge/--13-red" alt="-13" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/migratetoflarum-fake-data/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/migratetoflarum-fake-data/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/afrux/online-users-widget" title="afrux/online-users-widget"><code>afrux/online-users-widget</code></a>
+		</td>
+		<td align="center">82<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/afrux/online-users-widget/stats">951<br /><img src="https://img.shields.io/badge/-%2B38-brightgreen" alt="+38" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/afrux/online-users-widget/stats">239<br /><img src="https://img.shields.io/badge/-%2B12-brightgreen" alt="+12" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/afrux/online-users-widget/stats">12<br /><img src="https://img.shields.io/badge/--9-red" alt="-9" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/afrux-online-users-widget/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/afrux-online-users-widget/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/afrux/top-posters-widget" title="afrux/top-posters-widget"><code>afrux/top-posters-widget</code></a>
 		</td>
-		<td align="center">86<br /><img src="https://img.shields.io/badge/--2-brightgreen" alt="-2" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/afrux/top-posters-widget/stats">771<br /><img src="https://img.shields.io/badge/-%2B92-brightgreen" alt="+92" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/afrux/top-posters-widget/stats">222<br /><img src="https://img.shields.io/badge/-%2B27-brightgreen" alt="+27" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/afrux/top-posters-widget/stats">20<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
+		<td align="center">83<br /><img src="https://img.shields.io/badge/--3-brightgreen" alt="-3" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/afrux/top-posters-widget/stats">809<br /><img src="https://img.shields.io/badge/-%2B38-brightgreen" alt="+38" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/afrux/top-posters-widget/stats">234<br /><img src="https://img.shields.io/badge/-%2B12-brightgreen" alt="+12" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/afrux/top-posters-widget/stats">14<br /><img src="https://img.shields.io/badge/--6-red" alt="-6" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/afrux-top-posters-widget/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/afrux-top-posters-widget/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/afrux/asirem" title="afrux/asirem"><code>afrux/asirem</code></a>
-		</td>
-		<td align="center">87<br /><img src="https://img.shields.io/badge/-%2B9-red" alt="+9" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/afrux/asirem/stats">1058<br /><img src="https://img.shields.io/badge/-%2B34-brightgreen" alt="+34" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/afrux/asirem/stats">218<br /><img src="https://img.shields.io/badge/--8-red" alt="-8" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/afrux/asirem/stats">5<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/afrux-asirem/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/afrux-asirem/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/afrux/forum-stats-widget" title="afrux/forum-stats-widget"><code>afrux/forum-stats-widget</code></a>
-		</td>
-		<td align="center">88<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/afrux/forum-stats-widget/stats">767<br /><img src="https://img.shields.io/badge/-%2B92-brightgreen" alt="+92" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/afrux/forum-stats-widget/stats">218<br /><img src="https://img.shields.io/badge/-%2B25-brightgreen" alt="+25" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/afrux/forum-stats-widget/stats">18<br /><img src="https://img.shields.io/badge/-%2B6-brightgreen" alt="+6" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/afrux-forum-stats-widget/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/afrux-forum-stats-widget/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/imorland/flarum-ext-oauth-amazon" title="ianm/oauth-amazon"><code>ianm/oauth-amazon</code></a>
 		</td>
-		<td align="center">89<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/ianm/oauth-amazon/stats">275<br /><img src="https://img.shields.io/badge/-%2B62-brightgreen" alt="+62" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/ianm/oauth-amazon/stats">213<br /><img src="https://img.shields.io/badge/-%2B20-brightgreen" alt="+20" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/ianm/oauth-amazon/stats">12<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
+		<td align="center">84<br /><img src="https://img.shields.io/badge/--5-brightgreen" alt="-5" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/ianm/oauth-amazon/stats">311<br /><img src="https://img.shields.io/badge/-%2B36-brightgreen" alt="+36" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/ianm/oauth-amazon/stats">228<br /><img src="https://img.shields.io/badge/-%2B15-brightgreen" alt="+15" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/ianm/oauth-amazon/stats">1<br /><img src="https://img.shields.io/badge/--11-red" alt="-11" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/ianm-oauth-amazon/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/ianm-oauth-amazon/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/justoverclockl/flarum-ext-welcomebox" title="justoverclock/flarum-ext-welcomebox"><code>justoverclock/flarum-ext-welcomebox</code></a>
+		</td>
+		<td align="center">85<br /><img src="https://img.shields.io/badge/-%2B9-red" alt="+9" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-welcomebox/stats">1414<br /><img src="https://img.shields.io/badge/-%2B36-brightgreen" alt="+36" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-welcomebox/stats">224<br /><img src="https://img.shields.io/badge/--24-red" alt="-24" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-welcomebox/stats">12<br /><img src="https://img.shields.io/badge/--5-red" alt="-5" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-welcomebox/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-welcomebox/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/afrux/news-widget" title="afrux/news-widget"><code>afrux/news-widget</code></a>
+		</td>
+		<td align="center">86<br /><img src="https://img.shields.io/badge/-%2B2-red" alt="+2" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/afrux/news-widget/stats">819<br /><img src="https://img.shields.io/badge/-%2B34-brightgreen" alt="+34" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/afrux/news-widget/stats">224<br /><img src="https://img.shields.io/badge/--3-red" alt="-3" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/afrux/news-widget/stats">10<br /><img src="https://img.shields.io/badge/--11-red" alt="-11" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/afrux-news-widget/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/afrux-news-widget/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/askvortsov1/flarum-pwa" title="askvortsov/flarum-pwa"><code>askvortsov/flarum-pwa</code></a>
 		</td>
-		<td align="center">90<br /><img src="https://img.shields.io/badge/-%2B3-red" alt="+3" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-pwa/stats">4458<br /><img src="https://img.shields.io/badge/-%2B51-brightgreen" alt="+51" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-pwa/stats">201<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-pwa/stats">8<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td align="center">87<br /><img src="https://img.shields.io/badge/--3-brightgreen" alt="-3" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-pwa/stats">4511<br /><img src="https://img.shields.io/badge/-%2B53-brightgreen" alt="+53" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-pwa/stats">222<br /><img src="https://img.shields.io/badge/-%2B21-brightgreen" alt="+21" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-pwa/stats">7<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/askvortsov-pwa/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/askvortsov-pwa/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/FriendsOfFlarum/sentry" title="fof/sentry"><code>fof/sentry</code></a>
+			<a href="https://github.com/clarkwinkelmann/flarum-ext-emojionearea" title="clarkwinkelmann/flarum-ext-emojionearea"><code>clarkwinkelmann/flarum-ext-emojionearea</code></a>
 		</td>
-		<td align="center">91<br /><img src="https://img.shields.io/badge/-%2B18-red" alt="+18" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/sentry/stats">3631<br /><img src="https://img.shields.io/badge/-%2B10-brightgreen" alt="+10" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/sentry/stats">199<br /><img src="https://img.shields.io/badge/--40-red" alt="-40" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/sentry/stats">2<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/fof-sentry/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-sentry/svg-badge.svg" alt="Translation status"></a></td>
+		<td align="center">88<br /><img src="https://img.shields.io/badge/-%2B16-red" alt="+16" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-emojionearea/stats">15080<br /><img src="https://img.shields.io/badge/-%2B37-brightgreen" alt="+37" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-emojionearea/stats">220<br /><img src="https://img.shields.io/badge/--49-red" alt="-49" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-emojionearea/stats">9<br /><img src="https://img.shields.io/badge/-%2B6-brightgreen" alt="+6" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-emojionearea/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-emojionearea/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/afrux/forum-stats-widget" title="afrux/forum-stats-widget"><code>afrux/forum-stats-widget</code></a>
+		</td>
+		<td align="center">89<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/afrux/forum-stats-widget/stats">797<br /><img src="https://img.shields.io/badge/-%2B30-brightgreen" alt="+30" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/afrux/forum-stats-widget/stats">220<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/afrux/forum-stats-widget/stats">11<br /><img src="https://img.shields.io/badge/--7-red" alt="-7" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/afrux-forum-stats-widget/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/afrux-forum-stats-widget/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/blomstra/flarum-ext-mark-unread" title="blomstra/mark-unread"><code>blomstra/mark-unread</code></a>
+		</td>
+		<td align="center">90<br /><img src="https://img.shields.io/badge/--8-brightgreen" alt="-8" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/blomstra/mark-unread/stats">207<br /><img src="https://img.shields.io/badge/-%2B40-brightgreen" alt="+40" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/blomstra/mark-unread/stats">207<br /><img src="https://img.shields.io/badge/-%2B40-brightgreen" alt="+40" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/blomstra/mark-unread/stats">2<br /><img src="https://img.shields.io/badge/--14-red" alt="-14" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/blomstra-mark-unread/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/blomstra-mark-unread/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/tituspijean/flarum-ext-auth-ldap" title="tituspijean/flarum-ext-auth-ldap"><code>tituspijean/flarum-ext-auth-ldap</code></a>
 		</td>
-		<td align="center">92<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/tituspijean/flarum-ext-auth-ldap/stats">1215<br /><img src="https://img.shields.io/badge/-%2B27-brightgreen" alt="+27" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/tituspijean/flarum-ext-auth-ldap/stats">196<br /><img src="https://img.shields.io/badge/-%2B18-brightgreen" alt="+18" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/tituspijean/flarum-ext-auth-ldap/stats">2<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td align="center">91<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/tituspijean/flarum-ext-auth-ldap/stats">1240<br /><img src="https://img.shields.io/badge/-%2B25-brightgreen" alt="+25" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/tituspijean/flarum-ext-auth-ldap/stats">205<br /><img src="https://img.shields.io/badge/-%2B9-brightgreen" alt="+9" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/tituspijean/flarum-ext-auth-ldap/stats">3<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/tituspijean-auth-ldap/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/tituspijean-auth-ldap/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/afrux/asirem" title="afrux/asirem"><code>afrux/asirem</code></a>
+		</td>
+		<td align="center">92<br /><img src="https://img.shields.io/badge/-%2B5-red" alt="+5" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/afrux/asirem/stats">1107<br /><img src="https://img.shields.io/badge/-%2B49-brightgreen" alt="+49" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/afrux/asirem/stats">205<br /><img src="https://img.shields.io/badge/--13-red" alt="-13" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/afrux/asirem/stats">8<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/afrux-asirem/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/afrux-asirem/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
@@ -1044,9 +1044,9 @@
 			<a href="https://github.com/maicol07/flarum-ext-sso" title="maicol07/flarum-ext-sso"><code>maicol07/flarum-ext-sso</code></a>
 		</td>
 		<td align="center">93<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/maicol07/flarum-ext-sso/stats">2385<br /><img src="https://img.shields.io/badge/-%2B68-brightgreen" alt="+68" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/maicol07/flarum-ext-sso/stats">186<br /><img src="https://img.shields.io/badge/-%2B16-brightgreen" alt="+16" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/maicol07/flarum-ext-sso/stats">21<br /><img src="https://img.shields.io/badge/-%2B12-brightgreen" alt="+12" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/maicol07/flarum-ext-sso/stats">2421<br /><img src="https://img.shields.io/badge/-%2B36-brightgreen" alt="+36" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/maicol07/flarum-ext-sso/stats">200<br /><img src="https://img.shields.io/badge/-%2B14-brightgreen" alt="+14" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/maicol07/flarum-ext-sso/stats">19<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/maicol07-sso/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/maicol07-sso/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
@@ -1054,164 +1054,197 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/askvortsov1/flarum-auto-moderator" title="askvortsov/flarum-auto-moderator"><code>askvortsov/flarum-auto-moderator</code></a>
 		</td>
-		<td align="center">94<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-auto-moderator/stats">1015<br /><img src="https://img.shields.io/badge/-%2B84-brightgreen" alt="+84" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-auto-moderator/stats">183<br /><img src="https://img.shields.io/badge/-%2B30-brightgreen" alt="+30" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-auto-moderator/stats">18<br /><img src="https://img.shields.io/badge/-%2B8-brightgreen" alt="+8" title="Change from last week"></a></td>
+		<td align="center">94<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-auto-moderator/stats">1055<br /><img src="https://img.shields.io/badge/-%2B40-brightgreen" alt="+40" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-auto-moderator/stats">192<br /><img src="https://img.shields.io/badge/-%2B9-brightgreen" alt="+9" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-auto-moderator/stats">4<br /><img src="https://img.shields.io/badge/--14-red" alt="-14" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/askvortsov-auto-moderator/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/askvortsov-auto-moderator/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/matteocontrini/flarum-imgur-upload" title="matteocontrini/flarum-imgur-upload"><code>matteocontrini/flarum-imgur-upload</code></a>
-		</td>
-		<td align="center">95<br /><img src="https://img.shields.io/badge/-%2B4-red" alt="+4" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/matteocontrini/flarum-imgur-upload/stats">5410<br /><img src="https://img.shields.io/badge/-%2B35-brightgreen" alt="+35" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/matteocontrini/flarum-imgur-upload/stats">173<br /><img src="https://img.shields.io/badge/--9-red" alt="-9" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/matteocontrini/flarum-imgur-upload/stats">4<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/matteocontrini-imgur-upload/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/matteocontrini-imgur-upload/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/davwheat/flarum-ext-custom-sidenav-links" title="davwheat/custom-sidenav-links"><code>davwheat/custom-sidenav-links</code></a>
 		</td>
-		<td align="center">96<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/davwheat/custom-sidenav-links/stats">1094<br /><img src="https://img.shields.io/badge/-%2B79-brightgreen" alt="+79" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/davwheat/custom-sidenav-links/stats">168<br /><img src="https://img.shields.io/badge/-%2B25-brightgreen" alt="+25" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/davwheat/custom-sidenav-links/stats">20<br /><img src="https://img.shields.io/badge/-%2B11-brightgreen" alt="+11" title="Change from last week"></a></td>
+		<td align="center">95<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/davwheat/custom-sidenav-links/stats">1107<br /><img src="https://img.shields.io/badge/-%2B13-brightgreen" alt="+13" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/davwheat/custom-sidenav-links/stats">164<br /><img src="https://img.shields.io/badge/--4-red" alt="-4" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/davwheat/custom-sidenav-links/stats">0<br /><img src="https://img.shields.io/badge/--20-red" alt="-20" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/davwheat-custom-sidenav-links/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/davwheat-custom-sidenav-links/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/askvortsov1/flarum-discussion-templates" title="askvortsov/flarum-discussion-templates"><code>askvortsov/flarum-discussion-templates</code></a>
+			<a href="https://github.com/FriendsOfFlarum/sentry" title="fof/sentry"><code>fof/sentry</code></a>
 		</td>
-		<td align="center">97<br /><img src="https://img.shields.io/badge/--2-brightgreen" alt="-2" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-discussion-templates/stats">2271<br /><img src="https://img.shields.io/badge/-%2B74-brightgreen" alt="+74" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-discussion-templates/stats">167<br /><img src="https://img.shields.io/badge/-%2B29-brightgreen" alt="+29" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-discussion-templates/stats">17<br /><img src="https://img.shields.io/badge/-%2B10-brightgreen" alt="+10" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/askvortsov-discussion-templates/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/askvortsov-discussion-templates/svg-badge.svg" alt="Translation status"></a></td>
+		<td align="center">96<br /><img src="https://img.shields.io/badge/-%2B5-red" alt="+5" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/sentry/stats">3642<br /><img src="https://img.shields.io/badge/-%2B11-brightgreen" alt="+11" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/sentry/stats">161<br /><img src="https://img.shields.io/badge/--38-red" alt="-38" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/sentry/stats">4<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/fof-sentry/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-sentry/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/blomstra/flarum-ext-mark-unread" title="blomstra/mark-unread"><code>blomstra/mark-unread</code></a>
+			<a href="https://github.com/matteocontrini/flarum-imgur-upload" title="matteocontrini/flarum-imgur-upload"><code>matteocontrini/flarum-imgur-upload</code></a>
 		</td>
-		<td align="center">98<br /><img src="https://img.shields.io/badge/--10-brightgreen" alt="-10" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/blomstra/mark-unread/stats">167<br /><img src="https://img.shields.io/badge/-%2B66-brightgreen" alt="+66" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/blomstra/mark-unread/stats">167<br /><img src="https://img.shields.io/badge/-%2B66-brightgreen" alt="+66" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/blomstra/mark-unread/stats">16<br /><img src="https://img.shields.io/badge/-%2B6-brightgreen" alt="+6" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/blomstra-mark-unread/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/blomstra-mark-unread/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/KyrneDev/whisper" title="kyrne/whisper"><code>kyrne/whisper</code></a>
-		</td>
-		<td align="center">99<br /><img src="https://img.shields.io/badge/--2-brightgreen" alt="-2" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/kyrne/whisper/stats">625<br /><img src="https://img.shields.io/badge/-%2B70-brightgreen" alt="+70" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/kyrne/whisper/stats">145<br /><img src="https://img.shields.io/badge/-%2B26-brightgreen" alt="+26" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/kyrne/whisper/stats">16<br /><img src="https://img.shields.io/badge/-%2B7-brightgreen" alt="+7" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/kyrne-whisper/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/kyrne-whisper/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/FriendsOfFlarum/masquerade" title="fof/masquerade"><code>fof/masquerade</code></a>
-		</td>
-		<td align="center">100<br /><img src="https://img.shields.io/badge/--6-brightgreen" alt="-6" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/masquerade/stats">4716<br /><img src="https://img.shields.io/badge/-%2B78-brightgreen" alt="+78" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/masquerade/stats">139<br /><img src="https://img.shields.io/badge/-%2B37-brightgreen" alt="+37" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/masquerade/stats">21<br /><img src="https://img.shields.io/badge/-%2B17-brightgreen" alt="+17" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/fof-masquerade/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-masquerade/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/FriendsOfFlarum/frontpage" title="fof/frontpage"><code>fof/frontpage</code></a>
-		</td>
-		<td align="center">101<br /><img src="https://img.shields.io/badge/-%2B5-red" alt="+5" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/frontpage/stats">3790<br /><img src="https://img.shields.io/badge/-%2B31-brightgreen" alt="+31" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/frontpage/stats">136<br /><img src="https://img.shields.io/badge/--8-red" alt="-8" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/frontpage/stats">7<br /><img src="https://img.shields.io/badge/-%2B4-brightgreen" alt="+4" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/fof-frontpage/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-frontpage/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/Nearata/flarum-ext-tags-color-generator" title="nearata/flarum-ext-tags-color-generator"><code>nearata/flarum-ext-tags-color-generator</code></a>
-		</td>
-		<td align="center">102<br /><img src="https://img.shields.io/badge/--9-brightgreen" alt="-9" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-tags-color-generator/stats">1630<br /><img src="https://img.shields.io/badge/-%2B64-brightgreen" alt="+64" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-tags-color-generator/stats">136<br /><img src="https://img.shields.io/badge/-%2B39-brightgreen" alt="+39" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-tags-color-generator/stats">20<br /><img src="https://img.shields.io/badge/-%2B16-brightgreen" alt="+16" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/nearata-tags-color-generator/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/nearata-tags-color-generator/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/FriendsOfFlarum/webhooks" title="fof/webhooks"><code>fof/webhooks</code></a>
-		</td>
-		<td align="center">103<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/webhooks/stats">1801<br /><img src="https://img.shields.io/badge/-%2B69-brightgreen" alt="+69" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/webhooks/stats">135<br /><img src="https://img.shields.io/badge/-%2B23-brightgreen" alt="+23" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/webhooks/stats">16<br /><img src="https://img.shields.io/badge/-%2B11-brightgreen" alt="+11" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/fof-webhooks/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-webhooks/svg-badge.svg" alt="Translation status"></a></td>
+		<td align="center">97<br /><img src="https://img.shields.io/badge/-%2B2-red" alt="+2" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/matteocontrini/flarum-imgur-upload/stats">5433<br /><img src="https://img.shields.io/badge/-%2B23-brightgreen" alt="+23" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/matteocontrini/flarum-imgur-upload/stats">158<br /><img src="https://img.shields.io/badge/--15-red" alt="-15" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/matteocontrini/flarum-imgur-upload/stats">5<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/matteocontrini-imgur-upload/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/matteocontrini-imgur-upload/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/askvortsov1/flarum-categories" title="askvortsov/flarum-categories"><code>askvortsov/flarum-categories</code></a>
 		</td>
-		<td align="center">104<br /><img src="https://img.shields.io/badge/-%2B4-red" alt="+4" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-categories/stats">4231<br /><img src="https://img.shields.io/badge/-%2B45-brightgreen" alt="+45" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-categories/stats">134<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-categories/stats">8<br /><img src="https://img.shields.io/badge/-%2B6-brightgreen" alt="+6" title="Change from last week"></a></td>
+		<td align="center">98<br /><img src="https://img.shields.io/badge/--6-brightgreen" alt="-6" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-categories/stats">4281<br /><img src="https://img.shields.io/badge/-%2B50-brightgreen" alt="+50" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-categories/stats">154<br /><img src="https://img.shields.io/badge/-%2B20-brightgreen" alt="+20" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-categories/stats">7<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/askvortsov-categories/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/askvortsov-categories/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/askvortsov1/flarum-discussion-templates" title="askvortsov/flarum-discussion-templates"><code>askvortsov/flarum-discussion-templates</code></a>
+		</td>
+		<td align="center">99<br /><img src="https://img.shields.io/badge/-%2B2-red" alt="+2" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-discussion-templates/stats">2286<br /><img src="https://img.shields.io/badge/-%2B15-brightgreen" alt="+15" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-discussion-templates/stats">154<br /><img src="https://img.shields.io/badge/--13-red" alt="-13" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-discussion-templates/stats">2<br /><img src="https://img.shields.io/badge/--15-red" alt="-15" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/askvortsov-discussion-templates/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/askvortsov-discussion-templates/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/FriendsOfFlarum/masquerade" title="fof/masquerade"><code>fof/masquerade</code></a>
+		</td>
+		<td align="center">100<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/masquerade/stats">4739<br /><img src="https://img.shields.io/badge/-%2B23-brightgreen" alt="+23" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/masquerade/stats">151<br /><img src="https://img.shields.io/badge/-%2B12-brightgreen" alt="+12" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/masquerade/stats">2<br /><img src="https://img.shields.io/badge/--19-red" alt="-19" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/fof-masquerade/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-masquerade/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/KyrneDev/whisper" title="kyrne/whisper"><code>kyrne/whisper</code></a>
+		</td>
+		<td align="center">101<br /><img src="https://img.shields.io/badge/-%2B2-red" alt="+2" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/kyrne/whisper/stats">639<br /><img src="https://img.shields.io/badge/-%2B14-brightgreen" alt="+14" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/kyrne/whisper/stats">145<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/kyrne/whisper/stats">3<br /><img src="https://img.shields.io/badge/--13-red" alt="-13" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/kyrne-whisper/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/kyrne-whisper/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/FriendsOfFlarum/webhooks" title="fof/webhooks"><code>fof/webhooks</code></a>
+		</td>
+		<td align="center">102<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/webhooks/stats">1824<br /><img src="https://img.shields.io/badge/-%2B23-brightgreen" alt="+23" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/webhooks/stats">142<br /><img src="https://img.shields.io/badge/-%2B7-brightgreen" alt="+7" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/webhooks/stats">5<br /><img src="https://img.shields.io/badge/--11-red" alt="-11" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/fof-webhooks/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-webhooks/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/SychO9/flarum-advanced-extension-categories" title="sycho/flarum-advanced-extension-categories"><code>sycho/…advanced-extension-categories</code></a>
 		</td>
-		<td align="center">105<br /><img src="https://img.shields.io/badge/-%2B7-red" alt="+7" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/sycho/flarum-advanced-extension-categories/stats">1014<br /><img src="https://img.shields.io/badge/-%2B31-brightgreen" alt="+31" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/sycho/flarum-advanced-extension-categories/stats">134<br /><img src="https://img.shields.io/badge/--7-red" alt="-7" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/sycho/flarum-advanced-extension-categories/stats">9<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
+		<td align="center">103<br /><img src="https://img.shields.io/badge/--2-brightgreen" alt="-2" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/sycho/flarum-advanced-extension-categories/stats">1043<br /><img src="https://img.shields.io/badge/-%2B29-brightgreen" alt="+29" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/sycho/flarum-advanced-extension-categories/stats">142<br /><img src="https://img.shields.io/badge/-%2B8-brightgreen" alt="+8" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/sycho/flarum-advanced-extension-categories/stats">4<br /><img src="https://img.shields.io/badge/--5-red" alt="-5" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/sycho-advanced-extension-categories/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/sycho-advanced-extension-categories/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/justoverclockl/auto-post-count-badge" title="justoverclock/auto-post-count-badge"><code>justoverclock/auto-post-count-badge</code></a>
+		</td>
+		<td align="center">104<br /><img src="https://img.shields.io/badge/--19-brightgreen" alt="-19" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/auto-post-count-badge/stats">139<br /><img src="https://img.shields.io/badge/-%2B48-brightgreen" alt="+48" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/auto-post-count-badge/stats">139<br /><img src="https://img.shields.io/badge/-%2B48-brightgreen" alt="+48" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/auto-post-count-badge/stats">2<br /><img src="https://img.shields.io/badge/--12-red" alt="-12" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-auto-post-count-badge/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-auto-post-count-badge/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/justoverclockl/header-slideshow" title="justoverclock/header-slideshow"><code>justoverclock/header-slideshow</code></a>
 		</td>
-		<td align="center">106<br /><img src="https://img.shields.io/badge/--4-brightgreen" alt="-4" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/header-slideshow/stats">463<br /><img src="https://img.shields.io/badge/-%2B56-brightgreen" alt="+56" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/header-slideshow/stats">130<br /><img src="https://img.shields.io/badge/-%2B32-brightgreen" alt="+32" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/header-slideshow/stats">15<br /><img src="https://img.shields.io/badge/-%2B10-brightgreen" alt="+10" title="Change from last week"></a></td>
+		<td align="center">105<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/header-slideshow/stats">489<br /><img src="https://img.shields.io/badge/-%2B26-brightgreen" alt="+26" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/header-slideshow/stats">130<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/header-slideshow/stats">2<br /><img src="https://img.shields.io/badge/--13-red" alt="-13" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-header-slideshow/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-header-slideshow/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/SychO9/flarum-profile-cover" title="sycho/flarum-profile-cover"><code>sycho/flarum-profile-cover</code></a>
+		</td>
+		<td align="center">106<br /><img src="https://img.shields.io/badge/--5-brightgreen" alt="-5" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/sycho/flarum-profile-cover/stats">4083<br /><img src="https://img.shields.io/badge/-%2B42-brightgreen" alt="+42" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/sycho/flarum-profile-cover/stats">128<br /><img src="https://img.shields.io/badge/-%2B13-brightgreen" alt="+13" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/sycho/flarum-profile-cover/stats">9<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/sycho-profile-cover/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/sycho-profile-cover/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/Nearata/flarum-ext-tags-color-generator" title="nearata/flarum-ext-tags-color-generator"><code>nearata/flarum-ext-tags-color-generator</code></a>
+		</td>
+		<td align="center">107<br /><img src="https://img.shields.io/badge/-%2B5-red" alt="+5" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-tags-color-generator/stats">1646<br /><img src="https://img.shields.io/badge/-%2B16-brightgreen" alt="+16" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-tags-color-generator/stats">124<br /><img src="https://img.shields.io/badge/--12-red" alt="-12" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-tags-color-generator/stats">6<br /><img src="https://img.shields.io/badge/--14-red" alt="-14" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/nearata-tags-color-generator/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/nearata-tags-color-generator/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/Nearata/flarum-ext-embed-video" title="nearata/flarum-ext-embed-video"><code>nearata/flarum-ext-embed-video</code></a>
 		</td>
-		<td align="center">107<br /><img src="https://img.shields.io/badge/--2-brightgreen" alt="-2" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-embed-video/stats">1291<br /><img src="https://img.shields.io/badge/-%2B60-brightgreen" alt="+60" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-embed-video/stats">125<br /><img src="https://img.shields.io/badge/-%2B25-brightgreen" alt="+25" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-embed-video/stats">17<br /><img src="https://img.shields.io/badge/-%2B12-brightgreen" alt="+12" title="Change from last week"></a></td>
+		<td align="center">108<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-embed-video/stats">1303<br /><img src="https://img.shields.io/badge/-%2B12-brightgreen" alt="+12" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-embed-video/stats">123<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-embed-video/stats">1<br /><img src="https://img.shields.io/badge/--16-red" alt="-16" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/nearata-embed-video/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/nearata-embed-video/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/FriendsOfFlarum/disposable-emails" title="fof/disposable-emails"><code>fof/disposable-emails</code></a>
+		</td>
+		<td align="center">109<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/disposable-emails/stats">3858<br /><img src="https://img.shields.io/badge/-%2B24-brightgreen" alt="+24" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/disposable-emails/stats">121<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/disposable-emails/stats">8<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/fof-disposable-emails/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-disposable-emails/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/malago86/flarum-achievements" title="malago/flarum-achievements"><code>malago/flarum-achievements</code></a>
+		</td>
+		<td align="center">110<br /><img src="https://img.shields.io/badge/--2-brightgreen" alt="-2" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/malago/flarum-achievements/stats">938<br /><img src="https://img.shields.io/badge/-%2B29-brightgreen" alt="+29" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/malago/flarum-achievements/stats">120<br /><img src="https://img.shields.io/badge/-%2B7-brightgreen" alt="+7" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/malago/flarum-achievements/stats">4<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/malago-achievements/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/malago-achievements/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/justoverclockl/flarum-ext-keywords" title="justoverclock/flarum-ext-keywords"><code>justoverclock/flarum-ext-keywords</code></a>
 		</td>
-		<td align="center">108<br /><img src="https://img.shields.io/badge/--7-brightgreen" alt="-7" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-keywords/stats">618<br /><img src="https://img.shields.io/badge/-%2B64-brightgreen" alt="+64" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-keywords/stats">124<br /><img src="https://img.shields.io/badge/-%2B30-brightgreen" alt="+30" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-keywords/stats">18<br /><img src="https://img.shields.io/badge/-%2B12-brightgreen" alt="+12" title="Change from last week"></a></td>
+		<td align="center">111<br /><img src="https://img.shields.io/badge/-%2B3-red" alt="+3" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-keywords/stats">625<br /><img src="https://img.shields.io/badge/-%2B7-brightgreen" alt="+7" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-keywords/stats">119<br /><img src="https://img.shields.io/badge/--5-red" alt="-5" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-keywords/stats">2<br /><img src="https://img.shields.io/badge/--16-red" alt="-16" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-keywords/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-keywords/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
@@ -1219,208 +1252,186 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/askvortsov1/flarum-checklist" title="askvortsov/flarum-checklist"><code>askvortsov/flarum-checklist</code></a>
 		</td>
-		<td align="center">109<br /><img src="https://img.shields.io/badge/--5-brightgreen" alt="-5" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-checklist/stats">831<br /><img src="https://img.shields.io/badge/-%2B62-brightgreen" alt="+62" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-checklist/stats">122<br /><img src="https://img.shields.io/badge/-%2B28-brightgreen" alt="+28" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-checklist/stats">19<br /><img src="https://img.shields.io/badge/-%2B12-brightgreen" alt="+12" title="Change from last week"></a></td>
+		<td align="center">112<br /><img src="https://img.shields.io/badge/-%2B3-red" alt="+3" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-checklist/stats">844<br /><img src="https://img.shields.io/badge/-%2B13-brightgreen" alt="+13" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-checklist/stats">118<br /><img src="https://img.shields.io/badge/--4-red" alt="-4" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-checklist/stats">4<br /><img src="https://img.shields.io/badge/--15-red" alt="-15" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/askvortsov-checklist/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/askvortsov-checklist/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/FriendsOfFlarum/disposable-emails" title="fof/disposable-emails"><code>fof/disposable-emails</code></a>
+			<a href="https://github.com/FriendsOfFlarum/frontpage" title="fof/frontpage"><code>fof/frontpage</code></a>
 		</td>
-		<td align="center">110<br /><img src="https://img.shields.io/badge/-%2B6-red" alt="+6" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/disposable-emails/stats">3834<br /><img src="https://img.shields.io/badge/-%2B40-brightgreen" alt="+40" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/disposable-emails/stats">120<br /><img src="https://img.shields.io/badge/-%2B11-brightgreen" alt="+11" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/disposable-emails/stats">5<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/fof-disposable-emails/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-disposable-emails/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/SychO9/flarum-profile-cover" title="sycho/flarum-profile-cover"><code>sycho/flarum-profile-cover</code></a>
-		</td>
-		<td align="center">111<br /><img src="https://img.shields.io/badge/-%2B9-red" alt="+9" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/sycho/flarum-profile-cover/stats">4041<br /><img src="https://img.shields.io/badge/-%2B34-brightgreen" alt="+34" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/sycho/flarum-profile-cover/stats">115<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/sycho/flarum-profile-cover/stats">8<br /><img src="https://img.shields.io/badge/-%2B4-brightgreen" alt="+4" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/sycho-profile-cover/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/sycho-profile-cover/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/malago86/flarum-achievements" title="malago/flarum-achievements"><code>malago/flarum-achievements</code></a>
-		</td>
-		<td align="center">112<br /><img src="https://img.shields.io/badge/-%2B7-red" alt="+7" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/malago/flarum-achievements/stats">909<br /><img src="https://img.shields.io/badge/-%2B26-brightgreen" alt="+26" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/malago/flarum-achievements/stats">113<br /><img src="https://img.shields.io/badge/-%2B9-brightgreen" alt="+9" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/malago/flarum-achievements/stats">6<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/malago-achievements/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/malago-achievements/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/justoverclockl/last-users-posts" title="justoverclock/last-users-posts"><code>justoverclock/last-users-posts</code></a>
-		</td>
-		<td align="center">113<br /><img src="https://img.shields.io/badge/--5-brightgreen" alt="-5" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/last-users-posts/stats">254<br /><img src="https://img.shields.io/badge/-%2B53-brightgreen" alt="+53" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/last-users-posts/stats">110<br /><img src="https://img.shields.io/badge/-%2B27-brightgreen" alt="+27" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/last-users-posts/stats">16<br /><img src="https://img.shields.io/badge/-%2B11-brightgreen" alt="+11" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-last-users-posts/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-last-users-posts/svg-badge.svg" alt="Translation status"></a></td>
+		<td align="center">113<br /><img src="https://img.shields.io/badge/-%2B12-red" alt="+12" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/frontpage/stats">3815<br /><img src="https://img.shields.io/badge/-%2B25-brightgreen" alt="+25" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/frontpage/stats">114<br /><img src="https://img.shields.io/badge/--22-red" alt="-22" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/frontpage/stats">6<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/fof-frontpage/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-frontpage/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/KyrneDev/websocket" title="kyrne/websocket"><code>kyrne/websocket</code></a>
 		</td>
-		<td align="center">114<br /><img src="https://img.shields.io/badge/--6-brightgreen" alt="-6" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/kyrne/websocket/stats">427<br /><img src="https://img.shields.io/badge/-%2B54-brightgreen" alt="+54" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/kyrne/websocket/stats">108<br /><img src="https://img.shields.io/badge/-%2B27-brightgreen" alt="+27" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/kyrne/websocket/stats">14<br /><img src="https://img.shields.io/badge/-%2B10-brightgreen" alt="+10" title="Change from last week"></a></td>
+		<td align="center">114<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/kyrne/websocket/stats">444<br /><img src="https://img.shields.io/badge/-%2B17-brightgreen" alt="+17" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/kyrne/websocket/stats">111<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/kyrne/websocket/stats">2<br /><img src="https://img.shields.io/badge/--12-red" alt="-12" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/kyrne-websocket/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/kyrne-websocket/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/clarkwinkelmann/flarum-ext-who-read" title="clarkwinkelmann/flarum-ext-who-read"><code>clarkwinkelmann/flarum-ext-who-read</code></a>
-		</td>
-		<td align="center">115<br /><img src="https://img.shields.io/badge/--17-brightgreen" alt="-17" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-who-read/stats">1494<br /><img src="https://img.shields.io/badge/-%2B51-brightgreen" alt="+51" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-who-read/stats">100<br /><img src="https://img.shields.io/badge/-%2B35-brightgreen" alt="+35" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-who-read/stats">19<br /><img src="https://img.shields.io/badge/-%2B15-brightgreen" alt="+15" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-who-read/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-who-read/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/askvortsov1/flarum-article-series" title="askvortsov/flarum-article-series"><code>askvortsov/flarum-article-series</code></a>
 		</td>
-		<td align="center">116<br /><img src="https://img.shields.io/badge/--10-brightgreen" alt="-10" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-article-series/stats">185<br /><img src="https://img.shields.io/badge/-%2B55-brightgreen" alt="+55" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-article-series/stats">99<br /><img src="https://img.shields.io/badge/-%2B27-brightgreen" alt="+27" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-article-series/stats">14<br /><img src="https://img.shields.io/badge/-%2B8-brightgreen" alt="+8" title="Change from last week"></a></td>
+		<td align="center">115<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-article-series/stats">197<br /><img src="https://img.shields.io/badge/-%2B12-brightgreen" alt="+12" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-article-series/stats">102<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-article-series/stats">4<br /><img src="https://img.shields.io/badge/--10-red" alt="-10" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/askvortsov-article-series/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/askvortsov-article-series/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/justoverclockl/last-users-posts" title="justoverclock/last-users-posts"><code>justoverclock/last-users-posts</code></a>
+		</td>
+		<td align="center">116<br /><img src="https://img.shields.io/badge/-%2B3-red" alt="+3" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/last-users-posts/stats">266<br /><img src="https://img.shields.io/badge/-%2B12-brightgreen" alt="+12" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/last-users-posts/stats">100<br /><img src="https://img.shields.io/badge/--10-red" alt="-10" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/last-users-posts/stats">2<br /><img src="https://img.shields.io/badge/--14-red" alt="-14" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-last-users-posts/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-last-users-posts/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/the-turk/flarum-flamoji" title="the-turk/flarum-flamoji"><code>the-turk/flarum-flamoji</code></a>
 		</td>
-		<td align="center">117<br /><img src="https://img.shields.io/badge/--13-brightgreen" alt="-13" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-flamoji/stats">448<br /><img src="https://img.shields.io/badge/-%2B57-brightgreen" alt="+57" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-flamoji/stats">96<br /><img src="https://img.shields.io/badge/-%2B28-brightgreen" alt="+28" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-flamoji/stats">15<br /><img src="https://img.shields.io/badge/-%2B12-brightgreen" alt="+12" title="Change from last week"></a></td>
+		<td align="center">117<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-flamoji/stats">453<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-flamoji/stats">96<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-flamoji/stats">2<br /><img src="https://img.shields.io/badge/--13-red" alt="-13" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/the-turk-flamoji/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/the-turk-flamoji/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/extiverse/mercury" title="extiverse/mercury"><code>extiverse/mercury</code></a>
-		</td>
-		<td align="center">118<br /><img src="https://img.shields.io/badge/-%2B6-red" alt="+6" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/extiverse/mercury/stats">736<br /><img src="https://img.shields.io/badge/-%2B21-brightgreen" alt="+21" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/extiverse/mercury/stats">94<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/extiverse/mercury/stats">0<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/extiverse-mercury/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/extiverse-mercury/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/the-turk/flarum-nodp" title="the-turk/flarum-nodp"><code>the-turk/flarum-nodp</code></a>
-		</td>
-		<td align="center">119<br /><img src="https://img.shields.io/badge/--3-brightgreen" alt="-3" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-nodp/stats">406<br /><img src="https://img.shields.io/badge/-%2B51-brightgreen" alt="+51" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-nodp/stats">93<br /><img src="https://img.shields.io/badge/-%2B13-brightgreen" alt="+13" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-nodp/stats">15<br /><img src="https://img.shields.io/badge/-%2B9-brightgreen" alt="+9" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/the-turk-nodp/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/the-turk-nodp/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/miniflar/top-like-givers-widget" title="miniflar/top-like-givers-widget"><code>miniflar/top-like-givers-widget</code></a>
-		</td>
-		<td align="center">120<br /><img src="https://img.shields.io/badge/--8-brightgreen" alt="-8" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/miniflar/top-like-givers-widget/stats">201<br /><img src="https://img.shields.io/badge/-%2B52-brightgreen" alt="+52" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/miniflar/top-like-givers-widget/stats">93<br /><img src="https://img.shields.io/badge/-%2B24-brightgreen" alt="+24" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/miniflar/top-like-givers-widget/stats">15<br /><img src="https://img.shields.io/badge/-%2B11-brightgreen" alt="+11" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/miniflar-top-like-givers-widget/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/miniflar-top-like-givers-widget/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/Littlegolden/flarum-uitab" title="itnt/flarum-uitab"><code>itnt/flarum-uitab</code></a>
 		</td>
-		<td align="center">121<br /><img src="https://img.shields.io/badge/--14-brightgreen" alt="-14" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/itnt/flarum-uitab/stats">1653<br /><img src="https://img.shields.io/badge/-%2B46-brightgreen" alt="+46" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/itnt/flarum-uitab/stats">91<br /><img src="https://img.shields.io/badge/-%2B30-brightgreen" alt="+30" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/itnt/flarum-uitab/stats">1<br /><img src="https://img.shields.io/badge/--3-red" alt="-3" title="Change from last week"></a></td>
+		<td align="center">118<br /><img src="https://img.shields.io/badge/--3-brightgreen" alt="-3" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/itnt/flarum-uitab/stats">1668<br /><img src="https://img.shields.io/badge/-%2B15-brightgreen" alt="+15" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/itnt/flarum-uitab/stats">95<br /><img src="https://img.shields.io/badge/-%2B4-brightgreen" alt="+4" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/itnt/flarum-uitab/stats">3<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/itnt-uitab/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/itnt-uitab/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/the-turk/flarum-nodp" title="the-turk/flarum-nodp"><code>the-turk/flarum-nodp</code></a>
+		</td>
+		<td align="center">119<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-nodp/stats">413<br /><img src="https://img.shields.io/badge/-%2B7-brightgreen" alt="+7" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-nodp/stats">93<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-nodp/stats">3<br /><img src="https://img.shields.io/badge/--12-red" alt="-12" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/the-turk-nodp/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/the-turk-nodp/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/justoverclockl/flarum-ext-hashtag" title="justoverclock/flarum-ext-hashtag"><code>justoverclock/flarum-ext-hashtag</code></a>
 		</td>
-		<td align="center">122<br /><img src="https://img.shields.io/badge/--2-brightgreen" alt="-2" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-hashtag/stats">532<br /><img src="https://img.shields.io/badge/-%2B30-brightgreen" alt="+30" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-hashtag/stats">91<br /><img src="https://img.shields.io/badge/-%2B16-brightgreen" alt="+16" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-hashtag/stats">4<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td align="center">120<br /><img src="https://img.shields.io/badge/--2-brightgreen" alt="-2" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-hashtag/stats">551<br /><img src="https://img.shields.io/badge/-%2B19-brightgreen" alt="+19" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-hashtag/stats">92<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-hashtag/stats">4<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-hashtag/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-hashtag/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/justoverclockl/auto-post-count-badge" title="justoverclock/auto-post-count-badge"><code>justoverclock/auto-post-count-badge</code></a>
-		</td>
-		<td align="center">123<br /><img src="https://img.shields.io/badge/--108-brightgreen" alt="-108" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/auto-post-count-badge/stats">91<br /><img src="https://img.shields.io/badge/-%2B84-brightgreen" alt="+84" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/auto-post-count-badge/stats">91<br /><img src="https://img.shields.io/badge/-%2B84-brightgreen" alt="+84" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/auto-post-count-badge/stats">14<br /><img src="https://img.shields.io/badge/-%2B9-brightgreen" alt="+9" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-auto-post-count-badge/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-auto-post-count-badge/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/clarkwinkelmann/flarum-ext-follow-tags-prompt" title="clarkwinkelmann/flarum-ext-follow-tags-prompt"><code>clarkwinkelmann/…follow-tags-prompt</code></a>
-		</td>
-		<td align="center">124<br /><img src="https://img.shields.io/badge/--9-brightgreen" alt="-9" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-follow-tags-prompt/stats">720<br /><img src="https://img.shields.io/badge/-%2B50-brightgreen" alt="+50" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-follow-tags-prompt/stats">89<br /><img src="https://img.shields.io/badge/-%2B25-brightgreen" alt="+25" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-follow-tags-prompt/stats">16<br /><img src="https://img.shields.io/badge/-%2B11-brightgreen" alt="+11" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-follow-tags-prompt/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-follow-tags-prompt/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/justoverclockl/hot-discussions" title="justoverclock/hot-discussions"><code>justoverclock/hot-discussions</code></a>
-		</td>
-		<td align="center">125<br /><img src="https://img.shields.io/badge/-%2B12-red" alt="+12" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/hot-discussions/stats">257<br /><img src="https://img.shields.io/badge/-%2B24-brightgreen" alt="+24" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/hot-discussions/stats">88<br /><img src="https://img.shields.io/badge/--8-red" alt="-8" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/hot-discussions/stats">4<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-hot-discussions/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-hot-discussions/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/datitisev/flarum-discussion-agree-message" title="datitisev/flarum-discussion-agree-message"><code>datitisev/…discussion-agree-message</code></a>
 		</td>
-		<td align="center">126<br /><img src="https://img.shields.io/badge/--10-brightgreen" alt="-10" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/datitisev/flarum-discussion-agree-message/stats">154<br /><img src="https://img.shields.io/badge/-%2B54-brightgreen" alt="+54" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/datitisev/flarum-discussion-agree-message/stats">87<br /><img src="https://img.shields.io/badge/-%2B27-brightgreen" alt="+27" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/datitisev/flarum-discussion-agree-message/stats">17<br /><img src="https://img.shields.io/badge/-%2B16-brightgreen" alt="+16" title="Change from last week"></a></td>
+		<td align="center">121<br /><img src="https://img.shields.io/badge/--5-brightgreen" alt="-5" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/datitisev/flarum-discussion-agree-message/stats">162<br /><img src="https://img.shields.io/badge/-%2B8-brightgreen" alt="+8" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/datitisev/flarum-discussion-agree-message/stats">91<br /><img src="https://img.shields.io/badge/-%2B4-brightgreen" alt="+4" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/datitisev/flarum-discussion-agree-message/stats">0<br /><img src="https://img.shields.io/badge/--17-red" alt="-17" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/datitisev-discussion-agree-message/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/datitisev-discussion-agree-message/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/miniflar/top-like-givers-widget" title="miniflar/top-like-givers-widget"><code>miniflar/top-like-givers-widget</code></a>
+		</td>
+		<td align="center">122<br /><img src="https://img.shields.io/badge/-%2B2-red" alt="+2" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/miniflar/top-like-givers-widget/stats">206<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/miniflar/top-like-givers-widget/stats">90<br /><img src="https://img.shields.io/badge/--3-red" alt="-3" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/miniflar/top-like-givers-widget/stats">2<br /><img src="https://img.shields.io/badge/--13-red" alt="-13" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/miniflar-top-like-givers-widget/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/miniflar-top-like-givers-widget/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/clarkwinkelmann/flarum-ext-who-read" title="clarkwinkelmann/flarum-ext-who-read"><code>clarkwinkelmann/flarum-ext-who-read</code></a>
+		</td>
+		<td align="center">123<br /><img src="https://img.shields.io/badge/-%2B8-red" alt="+8" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-who-read/stats">1501<br /><img src="https://img.shields.io/badge/-%2B7-brightgreen" alt="+7" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-who-read/stats">89<br /><img src="https://img.shields.io/badge/--11-red" alt="-11" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-who-read/stats">0<br /><img src="https://img.shields.io/badge/--19-red" alt="-19" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-who-read/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-who-read/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/malago86/flarum-ads" title="malago/flarum-ads"><code>malago/flarum-ads</code></a>
+		</td>
+		<td align="center">124<br /><img src="https://img.shields.io/badge/--10-brightgreen" alt="-10" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/malago/flarum-ads/stats">554<br /><img src="https://img.shields.io/badge/-%2B28-brightgreen" alt="+28" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/malago/flarum-ads/stats">87<br /><img src="https://img.shields.io/badge/-%2B23-brightgreen" alt="+23" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/malago/flarum-ads/stats">1<br /><img src="https://img.shields.io/badge/--4-red" alt="-4" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/malago-ads/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/malago-ads/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/justoverclockl/hot-discussions" title="justoverclock/hot-discussions"><code>justoverclock/hot-discussions</code></a>
+		</td>
+		<td align="center">125<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/hot-discussions/stats">274<br /><img src="https://img.shields.io/badge/-%2B17-brightgreen" alt="+17" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/hot-discussions/stats">87<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/hot-discussions/stats">5<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-hot-discussions/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-hot-discussions/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/clarkwinkelmann/flarum-ext-follow-tags-prompt" title="clarkwinkelmann/flarum-ext-follow-tags-prompt"><code>clarkwinkelmann/…follow-tags-prompt</code></a>
+		</td>
+		<td align="center">126<br /><img src="https://img.shields.io/badge/-%2B2-red" alt="+2" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-follow-tags-prompt/stats">720<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-follow-tags-prompt/stats">83<br /><img src="https://img.shields.io/badge/--6-red" alt="-6" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-follow-tags-prompt/stats">0<br /><img src="https://img.shields.io/badge/--16-red" alt="-16" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-follow-tags-prompt/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-follow-tags-prompt/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/FriendsOfFlarum/secure-https" title="fof/secure-https"><code>fof/secure-https</code></a>
+		</td>
+		<td align="center">127<br /><img src="https://img.shields.io/badge/--11-brightgreen" alt="-11" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/secure-https/stats">3854<br /><img src="https://img.shields.io/badge/-%2B27-brightgreen" alt="+27" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/secure-https/stats">82<br /><img src="https://img.shields.io/badge/-%2B21-brightgreen" alt="+21" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/secure-https/stats">4<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/fof-secure-https/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-secure-https/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/FriendsOfFlarum/html-errors" title="fof/html-errors"><code>fof/html-errors</code></a>
 		</td>
-		<td align="center">127<br /><img src="https://img.shields.io/badge/-%2B10-red" alt="+10" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/html-errors/stats">2401<br /><img src="https://img.shields.io/badge/-%2B25-brightgreen" alt="+25" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/html-errors/stats">85<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/html-errors/stats">3<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
+		<td align="center">128<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/html-errors/stats">2419<br /><img src="https://img.shields.io/badge/-%2B18-brightgreen" alt="+18" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/html-errors/stats">82<br /><img src="https://img.shields.io/badge/--3-red" alt="-3" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/html-errors/stats">5<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/fof-html-errors/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-html-errors/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
@@ -1428,165 +1439,154 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/jslirola/flarum-ext-login2seeplus" title="jslirola/flarum-ext-login2seeplus"><code>jslirola/flarum-ext-login2seeplus</code></a>
 		</td>
-		<td align="center">128<br /><img src="https://img.shields.io/badge/-%2B9-red" alt="+9" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/jslirola/flarum-ext-login2seeplus/stats">1251<br /><img src="https://img.shields.io/badge/-%2B26-brightgreen" alt="+26" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/jslirola/flarum-ext-login2seeplus/stats">83<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/jslirola/flarum-ext-login2seeplus/stats">3<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
+		<td align="center">129<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/jslirola/flarum-ext-login2seeplus/stats">1260<br /><img src="https://img.shields.io/badge/-%2B9-brightgreen" alt="+9" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/jslirola/flarum-ext-login2seeplus/stats">76<br /><img src="https://img.shields.io/badge/--7-red" alt="-7" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/jslirola/flarum-ext-login2seeplus/stats">0<br /><img src="https://img.shields.io/badge/--3-red" alt="-3" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/jslirola-login2seeplus/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/jslirola-login2seeplus/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/flarum/akismet" title="flarum/akismet"><code>flarum/akismet</code></a>
+			<a href="https://github.com/extiverse/mercury" title="extiverse/mercury"><code>extiverse/mercury</code></a>
 		</td>
-		<td align="center">129<br /><img src="https://img.shields.io/badge/-%2B13-red" alt="+13" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/akismet/stats">8322<br /><img src="https://img.shields.io/badge/-%2B11-brightgreen" alt="+11" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/akismet/stats">81<br /><img src="https://img.shields.io/badge/--12-red" alt="-12" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/flarum/akismet/stats">5<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/flarum-akismet/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/flarum-akismet/svg-badge.svg" alt="Translation status"></a></td>
+		<td align="center">130<br /><img src="https://img.shields.io/badge/-%2B12-red" alt="+12" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/extiverse/mercury/stats">751<br /><img src="https://img.shields.io/badge/-%2B15-brightgreen" alt="+15" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/extiverse/mercury/stats">75<br /><img src="https://img.shields.io/badge/--19-red" alt="-19" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/extiverse/mercury/stats">7<br /><img src="https://img.shields.io/badge/-%2B7-brightgreen" alt="+7" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/extiverse-mercury/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/extiverse-mercury/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/clarkwinkelmann/flarum-ext-mailing" title="clarkwinkelmann/flarum-ext-mailing"><code>clarkwinkelmann/flarum-ext-mailing</code></a>
+			<a href="https://github.com/android-com-pl/flarum-lscache" title="acpl/flarum-lscache"><code>acpl/flarum-lscache</code></a>
 		</td>
-		<td align="center">130<br /><img src="https://img.shields.io/badge/-%2B23-red" alt="+23" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-mailing/stats">1466<br /><img src="https://img.shields.io/badge/-%2B10-brightgreen" alt="+10" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-mailing/stats">80<br /><img src="https://img.shields.io/badge/--21-red" alt="-21" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-mailing/stats">3<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-mailing/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-mailing/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/AntoineFr/flarum-ext-online" title="antoinefr/flarum-ext-online"><code>antoinefr/flarum-ext-online</code></a>
-		</td>
-		<td align="center">131<br /><img src="https://img.shields.io/badge/-%2B10-red" alt="+10" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/antoinefr/flarum-ext-online/stats">6348<br /><img src="https://img.shields.io/badge/-%2B12-brightgreen" alt="+12" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/antoinefr/flarum-ext-online/stats">77<br /><img src="https://img.shields.io/badge/--3-red" alt="-3" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/antoinefr/flarum-ext-online/stats">4<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/antoinefr-online/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/antoinefr-online/svg-badge.svg" alt="Translation status"></a></td>
+		<td align="center">131<br /><img src="https://img.shields.io/badge/--32-brightgreen" alt="-32" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/acpl/flarum-lscache/stats">74<br /><img src="https://img.shields.io/badge/-%2B39-brightgreen" alt="+39" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/acpl/flarum-lscache/stats">74<br /><img src="https://img.shields.io/badge/-%2B39-brightgreen" alt="+39" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/acpl/flarum-lscache/stats">0<br /><img src="https://img.shields.io/badge/--5-red" alt="-5" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/acpl-lscache/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/acpl-lscache/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/AntoineFr/flarum-ext-money" title="antoinefr/flarum-ext-money"><code>antoinefr/flarum-ext-money</code></a>
 		</td>
-		<td align="center">132<br /><img src="https://img.shields.io/badge/-%2B5-red" alt="+5" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/antoinefr/flarum-ext-money/stats">5358<br /><img src="https://img.shields.io/badge/-%2B18-brightgreen" alt="+18" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/antoinefr/flarum-ext-money/stats">72<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/antoinefr/flarum-ext-money/stats">3<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center">132<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/antoinefr/flarum-ext-money/stats">5375<br /><img src="https://img.shields.io/badge/-%2B17-brightgreen" alt="+17" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/antoinefr/flarum-ext-money/stats">73<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/antoinefr/flarum-ext-money/stats">1<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/antoinefr-money/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/antoinefr-money/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/glowingblue/flarum-ext-redis-setup" title="glowingblue/redis-setup"><code>glowingblue/redis-setup</code></a>
-		</td>
-		<td align="center">133<br /><img src="https://img.shields.io/badge/-%2B10-red" alt="+10" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/glowingblue/redis-setup/stats">533<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/glowingblue/redis-setup/stats">71<br /><img src="https://img.shields.io/badge/--4-red" alt="-4" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/glowingblue/redis-setup/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/glowingblue-redis-setup/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/glowingblue-redis-setup/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/malago86/flarum-ads" title="malago/flarum-ads"><code>malago/flarum-ads</code></a>
-		</td>
-		<td align="center">134<br /><img src="https://img.shields.io/badge/--5-brightgreen" alt="-5" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/malago/flarum-ads/stats">526<br /><img src="https://img.shields.io/badge/-%2B26-brightgreen" alt="+26" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/malago/flarum-ads/stats">64<br /><img src="https://img.shields.io/badge/-%2B8-brightgreen" alt="+8" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/malago/flarum-ads/stats">5<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/malago-ads/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/malago-ads/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/Serakoi/flarum-discord-theme-2" title="serakoi/flarumdiscordtheme"><code>serakoi/flarumdiscordtheme</code></a>
-		</td>
-		<td align="center">135<br /><img src="https://img.shields.io/badge/-%2B10-red" alt="+10" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/serakoi/flarumdiscordtheme/stats">395<br /><img src="https://img.shields.io/badge/-%2B16-brightgreen" alt="+16" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/serakoi/flarumdiscordtheme/stats">64<br /><img src="https://img.shields.io/badge/--8-red" alt="-8" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/serakoi/flarumdiscordtheme/stats">6<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/serakoi-flarumdiscordtheme/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/serakoi-flarumdiscordtheme/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/clarkwinkelmann/flarum-ext-group-list" title="clarkwinkelmann/flarum-ext-group-list"><code>clarkwinkelmann/flarum-ext-group-list</code></a>
 		</td>
-		<td align="center">136<br /><img src="https://img.shields.io/badge/--5-brightgreen" alt="-5" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-group-list/stats">649<br /><img src="https://img.shields.io/badge/-%2B21-brightgreen" alt="+21" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-group-list/stats">63<br /><img src="https://img.shields.io/badge/-%2B11-brightgreen" alt="+11" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-group-list/stats">2<br /><img src="https://img.shields.io/badge/--3-red" alt="-3" title="Change from last week"></a></td>
+		<td align="center">133<br /><img src="https://img.shields.io/badge/--3-brightgreen" alt="-3" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-group-list/stats">663<br /><img src="https://img.shields.io/badge/-%2B14-brightgreen" alt="+14" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-group-list/stats">71<br /><img src="https://img.shields.io/badge/-%2B8-brightgreen" alt="+8" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-group-list/stats">2<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-group-list/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-group-list/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/Ralkage/flarum-hcaptcha" title="ralkage/flarum-hcaptcha"><code>ralkage/flarum-hcaptcha</code></a>
+			<a href="https://github.com/Serakoi/flarum-discord-theme-2" title="serakoi/flarumdiscordtheme"><code>serakoi/flarumdiscordtheme</code></a>
 		</td>
-		<td align="center">137<br /><img src="https://img.shields.io/badge/-%2B6-red" alt="+6" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/ralkage/flarum-hcaptcha/stats">265<br /><img src="https://img.shields.io/badge/-%2B11-brightgreen" alt="+11" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/ralkage/flarum-hcaptcha/stats">62<br /><img src="https://img.shields.io/badge/--6-red" alt="-6" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/ralkage/flarum-hcaptcha/stats">1<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/ralkage-hcaptcha/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/ralkage-hcaptcha/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/FriendsOfFlarum/secure-https" title="fof/secure-https"><code>fof/secure-https</code></a>
-		</td>
-		<td align="center">138<br /><img src="https://img.shields.io/badge/-%2B4-red" alt="+4" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/secure-https/stats">3827<br /><img src="https://img.shields.io/badge/-%2B16-brightgreen" alt="+16" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/secure-https/stats">61<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/secure-https/stats">1<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/fof-secure-https/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-secure-https/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/justoverclockl/flachat" title="justoverclock/flachat"><code>justoverclock/flachat</code></a>
-		</td>
-		<td align="center">139<br /><img src="https://img.shields.io/badge/-%2B10-red" alt="+10" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flachat/stats">126<br /><img src="https://img.shields.io/badge/-%2B11-brightgreen" alt="+11" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flachat/stats">60<br /><img src="https://img.shields.io/badge/--9-red" alt="-9" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flachat/stats">0<br /><img src="https://img.shields.io/badge/--4-red" alt="-4" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-flachat/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-flachat/svg-badge.svg" alt="Translation status"></a></td>
+		<td align="center">134<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/serakoi/flarumdiscordtheme/stats">406<br /><img src="https://img.shields.io/badge/-%2B11-brightgreen" alt="+11" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/serakoi/flarumdiscordtheme/stats">69<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/serakoi/flarumdiscordtheme/stats">0<br /><img src="https://img.shields.io/badge/--6-red" alt="-6" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/serakoi-flarumdiscordtheme/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/serakoi-flarumdiscordtheme/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/justoverclockl/custom-html-widget" title="justoverclock/custom-html-widget"><code>justoverclock/custom-html-widget</code></a>
 		</td>
-		<td align="center">140<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/custom-html-widget/stats">267<br /><img src="https://img.shields.io/badge/-%2B21-brightgreen" alt="+21" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/custom-html-widget/stats">57<br /><img src="https://img.shields.io/badge/-%2B4-brightgreen" alt="+4" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/custom-html-widget/stats">2<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
+		<td align="center">135<br /><img src="https://img.shields.io/badge/--5-brightgreen" alt="-5" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/custom-html-widget/stats">279<br /><img src="https://img.shields.io/badge/-%2B12-brightgreen" alt="+12" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/custom-html-widget/stats">64<br /><img src="https://img.shields.io/badge/-%2B7-brightgreen" alt="+7" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/custom-html-widget/stats">4<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-custom-html-widget/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-custom-html-widget/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/Ralkage/flarum-hcaptcha" title="ralkage/flarum-hcaptcha"><code>ralkage/flarum-hcaptcha</code></a>
+		</td>
+		<td align="center">136<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/ralkage/flarum-hcaptcha/stats">279<br /><img src="https://img.shields.io/badge/-%2B14-brightgreen" alt="+14" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/ralkage/flarum-hcaptcha/stats">64<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/ralkage/flarum-hcaptcha/stats">2<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/ralkage-hcaptcha/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/ralkage-hcaptcha/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/android-com-pl/mobile-tab" title="acpl/mobile-tab"><code>acpl/mobile-tab</code></a>
 		</td>
-		<td align="center">141<br /><img src="https://img.shields.io/badge/-%2B3-red" alt="+3" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/acpl/mobile-tab/stats">532<br /><img src="https://img.shields.io/badge/-%2B13-brightgreen" alt="+13" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/acpl/mobile-tab/stats">52<br /><img src="https://img.shields.io/badge/--5-red" alt="-5" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/acpl/mobile-tab/stats">1<br /><img src="https://img.shields.io/badge/--3-red" alt="-3" title="Change from last week"></a></td>
+		<td align="center">137<br /><img src="https://img.shields.io/badge/--4-brightgreen" alt="-4" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/acpl/mobile-tab/stats">559<br /><img src="https://img.shields.io/badge/-%2B27-brightgreen" alt="+27" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/acpl/mobile-tab/stats">62<br /><img src="https://img.shields.io/badge/-%2B10-brightgreen" alt="+10" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/acpl/mobile-tab/stats">6<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/acpl-mobile-tab/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/acpl-mobile-tab/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/FFans/clipboardjs" title="ffans/clipboardjs"><code>ffans/clipboardjs</code></a>
+			<a href="https://github.com/AntoineFr/flarum-ext-online" title="antoinefr/flarum-ext-online"><code>antoinefr/flarum-ext-online</code></a>
 		</td>
-		<td align="center">142<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/ffans/clipboardjs/stats">432<br /><img src="https://img.shields.io/badge/-%2B9-brightgreen" alt="+9" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/ffans/clipboardjs/stats">52<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/ffans/clipboardjs/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/ffans-clipboardjs/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/ffans-clipboardjs/svg-badge.svg" alt="Translation status"></a></td>
+		<td align="center">138<br /><img src="https://img.shields.io/badge/-%2B7-red" alt="+7" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/antoinefr/flarum-ext-online/stats">6359<br /><img src="https://img.shields.io/badge/-%2B11-brightgreen" alt="+11" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/antoinefr/flarum-ext-online/stats">61<br /><img src="https://img.shields.io/badge/--16-red" alt="-16" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/antoinefr/flarum-ext-online/stats">1<br /><img src="https://img.shields.io/badge/--3-red" alt="-3" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/antoinefr-online/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/antoinefr-online/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/justoverclockl/flachat" title="justoverclock/flachat"><code>justoverclock/flachat</code></a>
+		</td>
+		<td align="center">139<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flachat/stats">137<br /><img src="https://img.shields.io/badge/-%2B11-brightgreen" alt="+11" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flachat/stats">60<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flachat/stats">3<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-flachat/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-flachat/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/clarkwinkelmann/flarum-ext-mailing" title="clarkwinkelmann/flarum-ext-mailing"><code>clarkwinkelmann/flarum-ext-mailing</code></a>
+		</td>
+		<td align="center">140<br /><img src="https://img.shields.io/badge/-%2B10-red" alt="+10" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-mailing/stats">1475<br /><img src="https://img.shields.io/badge/-%2B9-brightgreen" alt="+9" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-mailing/stats">59<br /><img src="https://img.shields.io/badge/--21-red" alt="-21" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-mailing/stats">5<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-mailing/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-mailing/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/glowingblue/flarum-ext-redis-setup" title="glowingblue/redis-setup"><code>glowingblue/redis-setup</code></a>
+		</td>
+		<td align="center">141<br /><img src="https://img.shields.io/badge/-%2B8-red" alt="+8" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/glowingblue/redis-setup/stats">560<br /><img src="https://img.shields.io/badge/-%2B27-brightgreen" alt="+27" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/glowingblue/redis-setup/stats">59<br /><img src="https://img.shields.io/badge/--12-red" alt="-12" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/glowingblue/redis-setup/stats">10<br /><img src="https://img.shields.io/badge/-%2B10-brightgreen" alt="+10" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/glowingblue-redis-setup/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/glowingblue-redis-setup/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/flarum/akismet" title="flarum/akismet"><code>flarum/akismet</code></a>
+		</td>
+		<td align="center">142<br /><img src="https://img.shields.io/badge/-%2B13-red" alt="+13" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/akismet/stats">8328<br /><img src="https://img.shields.io/badge/-%2B6-brightgreen" alt="+6" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/akismet/stats">55<br /><img src="https://img.shields.io/badge/--26-red" alt="-26" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/flarum/akismet/stats">5<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/flarum-akismet/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/flarum-akismet/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
@@ -1594,306 +1594,163 @@
 			<a href="https://github.com/justoverclockl/flarum-ext-contactme" title="justoverclock/flarum-ext-contactme"><code>justoverclock/flarum-ext-contactme</code></a>
 		</td>
 		<td align="center">143<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-contactme/stats">373<br /><img src="https://img.shields.io/badge/-%2B14-brightgreen" alt="+14" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-contactme/stats">52<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-contactme/stats">2<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-contactme/stats">386<br /><img src="https://img.shields.io/badge/-%2B13-brightgreen" alt="+13" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-contactme/stats">54<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-contactme/stats">2<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-contactme/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-contactme/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/justoverclockl/last-registered-users" title="justoverclock/last-registered-users"><code>justoverclock/last-registered-users</code></a>
-		</td>
-		<td align="center">144<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/last-registered-users/stats">160<br /><img src="https://img.shields.io/badge/-%2B11-brightgreen" alt="+11" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/last-registered-users/stats">50<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/last-registered-users/stats">0<br /><img src="https://img.shields.io/badge/--3-red" alt="-3" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-last-registered-users/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-last-registered-users/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/glowingblue/flarum-ext-password-strength" title="glowingblue/password-strength"><code>glowingblue/password-strength</code></a>
-		</td>
-		<td align="center">145<br /><img src="https://img.shields.io/badge/-%2B9-red" alt="+9" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/glowingblue/password-strength/stats">682<br /><img src="https://img.shields.io/badge/-%2B8-brightgreen" alt="+8" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/glowingblue/password-strength/stats">49<br /><img src="https://img.shields.io/badge/--10-red" alt="-10" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/glowingblue/password-strength/stats">0<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/glowingblue-password-strength/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/glowingblue-password-strength/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/FriendsOfFlarum/mason" title="fof/mason"><code>fof/mason</code></a>
 		</td>
-		<td align="center">146<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/mason/stats">643<br /><img src="https://img.shields.io/badge/-%2B12-brightgreen" alt="+12" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/mason/stats">48<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/mason/stats">4<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td align="center">144<br /><img src="https://img.shields.io/badge/--2-brightgreen" alt="-2" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/mason/stats">658<br /><img src="https://img.shields.io/badge/-%2B15-brightgreen" alt="+15" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/mason/stats">53<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/mason/stats">3<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/fof-mason/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-mason/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
-			<span title="Compatibility status with recent Flarum is unknown">🟡</span>
-			<a href="https://github.com/Hehongyuanlove/flarum-auth-qq" title="hehongyuanlove/flarum-auth-qq"><code>hehongyuanlove/flarum-auth-qq</code></a>
-		</td>
-		<td align="center">147<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/hehongyuanlove/flarum-auth-qq/stats">206<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/hehongyuanlove/flarum-auth-qq/stats">46<br /><img src="https://img.shields.io/badge/--4-red" alt="-4" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/hehongyuanlove/flarum-auth-qq/stats">0<br /><img src="https://img.shields.io/badge/--3-red" alt="-3" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/hehongyuanlove-auth-qq/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/hehongyuanlove-auth-qq/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/justoverclockl/username-blacklist" title="justoverclock/username-blacklist"><code>justoverclock/username-blacklist</code></a>
+			<a href="https://github.com/justoverclockl/last-registered-users" title="justoverclock/last-registered-users"><code>justoverclock/last-registered-users</code></a>
 		</td>
-		<td align="center">148<br /><img src="https://img.shields.io/badge/--5-brightgreen" alt="-5" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/username-blacklist/stats">173<br /><img src="https://img.shields.io/badge/-%2B14-brightgreen" alt="+14" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/username-blacklist/stats">45<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/username-blacklist/stats">2<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-username-blacklist/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-username-blacklist/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/the-turk/flarum-diff" title="the-turk/flarum-diff"><code>the-turk/flarum-diff</code></a>
-		</td>
-		<td align="center">149<br /><img src="https://img.shields.io/badge/--6-brightgreen" alt="-6" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-diff/stats">1050<br /><img src="https://img.shields.io/badge/-%2B12-brightgreen" alt="+12" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-diff/stats">44<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-diff/stats">1<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/the-turk-diff/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/the-turk-diff/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/katosdev/signature" title="katosdev/signature"><code>katosdev/signature</code></a>
-		</td>
-		<td align="center">150<br /><img src="https://img.shields.io/badge/-%2B13-red" alt="+13" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/katosdev/signature/stats">468<br /><img src="https://img.shields.io/badge/-%2B9-brightgreen" alt="+9" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/katosdev/signature/stats">44<br /><img src="https://img.shields.io/badge/--14-red" alt="-14" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/katosdev/signature/stats">0<br /><img src="https://img.shields.io/badge/--6-red" alt="-6" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/katosdev-signature/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/katosdev-signature/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/MichaelBelgium/flarum-profile-views" title="michaelbelgium/flarum-profile-views"><code>michaelbelgium/flarum-profile-views</code></a>
-		</td>
-		<td align="center">151<br /><img src="https://img.shields.io/badge/-%2B3-red" alt="+3" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/michaelbelgium/flarum-profile-views/stats">4998<br /><img src="https://img.shields.io/badge/-%2B9-brightgreen" alt="+9" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/michaelbelgium/flarum-profile-views/stats">42<br /><img src="https://img.shields.io/badge/--3-red" alt="-3" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/michaelbelgium/flarum-profile-views/stats">2<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/michaelbelgium-profile-views/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/michaelbelgium-profile-views/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/tpokorra/flarum-ext-post-notification" title="tpokorra/flarum-ext-post-notification"><code>tpokorra/flarum-ext-post-notification</code></a>
-		</td>
-		<td align="center">152<br /><img src="https://img.shields.io/badge/-%2B3-red" alt="+3" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/tpokorra/flarum-ext-post-notification/stats">786<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/tpokorra/flarum-ext-post-notification/stats">42<br /><img src="https://img.shields.io/badge/--3-red" alt="-3" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/tpokorra/flarum-ext-post-notification/stats">2<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/tpokorra-post-notification/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/tpokorra-post-notification/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/justoverclockl/discussions-info" title="justoverclock/discussion-info"><code>justoverclock/discussion-info</code></a>
-		</td>
-		<td align="center">153<br /><img src="https://img.shields.io/badge/--22-brightgreen" alt="-22" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/discussion-info/stats">116<br /><img src="https://img.shields.io/badge/-%2B19-brightgreen" alt="+19" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/discussion-info/stats">42<br /><img src="https://img.shields.io/badge/-%2B13-brightgreen" alt="+13" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/discussion-info/stats">2<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-discussion-info/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-discussion-info/svg-badge.svg" alt="Translation status"></a></td>
+		<td align="center">145<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/last-registered-users/stats">169<br /><img src="https://img.shields.io/badge/-%2B9-brightgreen" alt="+9" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/last-registered-users/stats">53<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/last-registered-users/stats">2<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-last-registered-users/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-last-registered-users/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/nosun/flarum-ext-reply2see" title="nosun/reply-to-see"><code>nosun/reply-to-see</code></a>
 		</td>
-		<td align="center">154<br /><img src="https://img.shields.io/badge/--14-brightgreen" alt="-14" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/nosun/reply-to-see/stats">68<br /><img src="https://img.shields.io/badge/-%2B19-brightgreen" alt="+19" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/nosun/reply-to-see/stats">42<br /><img src="https://img.shields.io/badge/-%2B8-brightgreen" alt="+8" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/nosun/reply-to-see/stats">1<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
+		<td align="center">146<br /><img src="https://img.shields.io/badge/--8-brightgreen" alt="-8" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/nosun/reply-to-see/stats">80<br /><img src="https://img.shields.io/badge/-%2B12-brightgreen" alt="+12" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/nosun/reply-to-see/stats">52<br /><img src="https://img.shields.io/badge/-%2B10-brightgreen" alt="+10" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/nosun/reply-to-see/stats">5<br /><img src="https://img.shields.io/badge/-%2B4-brightgreen" alt="+4" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/nosun-reply-to-see/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/nosun-reply-to-see/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/justoverclockl/flarum-ext-guestengagement" title="justoverclock/flarum-ext-guestengagement"><code>justoverclock/flarum-ext-guestengagement</code></a>
+			<a href="https://github.com/justoverclockl/username-blacklist" title="justoverclock/username-blacklist"><code>justoverclock/username-blacklist</code></a>
 		</td>
-		<td align="center">155<br /><img src="https://img.shields.io/badge/-%2B8-red" alt="+8" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-guestengagement/stats">437<br /><img src="https://img.shields.io/badge/-%2B8-brightgreen" alt="+8" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-guestengagement/stats">40<br /><img src="https://img.shields.io/badge/--7-red" alt="-7" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-guestengagement/stats">2<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-guestengagement/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-guestengagement/svg-badge.svg" alt="Translation status"></a></td>
+		<td align="center">147<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/username-blacklist/stats">180<br /><img src="https://img.shields.io/badge/-%2B7-brightgreen" alt="+7" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/username-blacklist/stats">49<br /><img src="https://img.shields.io/badge/-%2B4-brightgreen" alt="+4" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/username-blacklist/stats">0<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-username-blacklist/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-username-blacklist/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/MichaelBelgium/flarum-profile-views" title="michaelbelgium/flarum-profile-views"><code>michaelbelgium/flarum-profile-views</code></a>
+		</td>
+		<td align="center">148<br /><img src="https://img.shields.io/badge/--3-brightgreen" alt="-3" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/michaelbelgium/flarum-profile-views/stats">5012<br /><img src="https://img.shields.io/badge/-%2B14-brightgreen" alt="+14" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/michaelbelgium/flarum-profile-views/stats">48<br /><img src="https://img.shields.io/badge/-%2B6-brightgreen" alt="+6" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/michaelbelgium/flarum-profile-views/stats">0<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/michaelbelgium-profile-views/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/michaelbelgium-profile-views/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/the-turk/flarum-diff" title="the-turk/flarum-diff"><code>the-turk/flarum-diff</code></a>
+		</td>
+		<td align="center">149<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-diff/stats">1065<br /><img src="https://img.shields.io/badge/-%2B15-brightgreen" alt="+15" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-diff/stats">48<br /><img src="https://img.shields.io/badge/-%2B4-brightgreen" alt="+4" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-diff/stats">2<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/the-turk-diff/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/the-turk-diff/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/justoverclockl/flarum-ext-feedback" title="justoverclock/flarum-ext-feedback"><code>justoverclock/flarum-ext-feedback</code></a>
 		</td>
-		<td align="center">156<br /><img src="https://img.shields.io/badge/--4-brightgreen" alt="-4" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-feedback/stats">309<br /><img src="https://img.shields.io/badge/-%2B17-brightgreen" alt="+17" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-feedback/stats">40<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-feedback/stats">3<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center">150<br /><img src="https://img.shields.io/badge/--6-brightgreen" alt="-6" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-feedback/stats">321<br /><img src="https://img.shields.io/badge/-%2B12-brightgreen" alt="+12" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-feedback/stats">47<br /><img src="https://img.shields.io/badge/-%2B7-brightgreen" alt="+7" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-feedback/stats">1<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-feedback/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-feedback/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/katosdev/signature" title="katosdev/signature"><code>katosdev/signature</code></a>
+		</td>
+		<td align="center">151<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/katosdev/signature/stats">480<br /><img src="https://img.shields.io/badge/-%2B12-brightgreen" alt="+12" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/katosdev/signature/stats">43<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/katosdev/signature/stats">6<br /><img src="https://img.shields.io/badge/-%2B6-brightgreen" alt="+6" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/katosdev-signature/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/katosdev-signature/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/FFans/clipboardjs" title="ffans/clipboardjs"><code>ffans/clipboardjs</code></a>
+		</td>
+		<td align="center">152<br /><img src="https://img.shields.io/badge/-%2B10-red" alt="+10" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/ffans/clipboardjs/stats">437<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/ffans/clipboardjs/stats">43<br /><img src="https://img.shields.io/badge/--9-red" alt="-9" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/ffans/clipboardjs/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/ffans-clipboardjs/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/ffans-clipboardjs/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatibility status with recent Flarum is unknown">🟡</span>
+			<a href="https://github.com/Hehongyuanlove/flarum-auth-qq" title="hehongyuanlove/flarum-auth-qq"><code>hehongyuanlove/flarum-auth-qq</code></a>
+		</td>
+		<td align="center">153<br /><img src="https://img.shields.io/badge/-%2B6-red" alt="+6" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/hehongyuanlove/flarum-auth-qq/stats">207<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/hehongyuanlove/flarum-auth-qq/stats">43<br /><img src="https://img.shields.io/badge/--3-red" alt="-3" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/hehongyuanlove/flarum-auth-qq/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/hehongyuanlove-auth-qq/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/hehongyuanlove-auth-qq/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/justoverclockl/discussions-info" title="justoverclock/discussion-info"><code>justoverclock/discussion-info</code></a>
+		</td>
+		<td align="center">154<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/discussion-info/stats">121<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/discussion-info/stats">41<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/discussion-info/stats">1<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-discussion-info/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-discussion-info/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/clarkwinkelmann/flarum-ext-bookmarks" title="clarkwinkelmann/flarum-ext-bookmarks"><code>clarkwinkelmann/flarum-ext-bookmarks</code></a>
 		</td>
-		<td align="center">157<br /><img src="https://img.shields.io/badge/-%2B5-red" alt="+5" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-bookmarks/stats">1049<br /><img src="https://img.shields.io/badge/-%2B10-brightgreen" alt="+10" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-bookmarks/stats">39<br /><img src="https://img.shields.io/badge/--3-red" alt="-3" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-bookmarks/stats">3<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td align="center">155<br /><img src="https://img.shields.io/badge/--2-brightgreen" alt="-2" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-bookmarks/stats">1059<br /><img src="https://img.shields.io/badge/-%2B10-brightgreen" alt="+10" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-bookmarks/stats">40<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-bookmarks/stats">0<br /><img src="https://img.shields.io/badge/--3-red" alt="-3" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-bookmarks/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-bookmarks/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/kilowhat/flarum-ext-audit-free" title="kilowhat/flarum-ext-audit-free"><code>kilowhat/flarum-ext-audit-free</code></a>
+			<a href="https://github.com/glowingblue/flarum-ext-password-strength" title="glowingblue/password-strength"><code>glowingblue/password-strength</code></a>
 		</td>
-		<td align="center">158<br /><img src="https://img.shields.io/badge/-%2B7-red" alt="+7" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/kilowhat/flarum-ext-audit-free/stats">860<br /><img src="https://img.shields.io/badge/-%2B9-brightgreen" alt="+9" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/kilowhat/flarum-ext-audit-free/stats">37<br /><img src="https://img.shields.io/badge/--6-red" alt="-6" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/kilowhat/flarum-ext-audit-free/stats">3<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/kilowhat-audit-free/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/kilowhat-audit-free/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/justoverclockl/flarum-ext-purify" title="justoverclock/flarum-ext-purify"><code>justoverclock/flarum-ext-purify</code></a>
-		</td>
-		<td align="center">159<br /><img src="https://img.shields.io/badge/-%2B9-red" alt="+9" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-purify/stats">311<br /><img src="https://img.shields.io/badge/-%2B7-brightgreen" alt="+7" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-purify/stats">37<br /><img src="https://img.shields.io/badge/--8-red" alt="-8" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-purify/stats">0<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-purify/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-purify/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/clarkwinkelmann/flarum-ext-create-user-modal" title="clarkwinkelmann/flarum-ext-create-user-modal"><code>clarkwinkelmann/…create-user-modal</code></a>
-		</td>
-		<td align="center">160<br /><img src="https://img.shields.io/badge/--6-brightgreen" alt="-6" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-create-user-modal/stats">866<br /><img src="https://img.shields.io/badge/-%2B9-brightgreen" alt="+9" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-create-user-modal/stats">36<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-create-user-modal/stats">2<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-create-user-modal/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-create-user-modal/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/justoverclockl/events-countdown" title="justoverclock/events-countdown"><code>justoverclock/events-countdown</code></a>
-		</td>
-		<td align="center">161<br /><img src="https://img.shields.io/badge/-%2B3-red" alt="+3" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/events-countdown/stats">191<br /><img src="https://img.shields.io/badge/-%2B7-brightgreen" alt="+7" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/events-countdown/stats">36<br /><img src="https://img.shields.io/badge/--3-red" alt="-3" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/events-countdown/stats">1<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-events-countdown/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-events-countdown/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/justoverclockl/geo-weather" title="justoverclock/geo-weather"><code>justoverclock/geo-weather</code></a>
-		</td>
-		<td align="center">162<br /><img src="https://img.shields.io/badge/-%2B5-red" alt="+5" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/geo-weather/stats">174<br /><img src="https://img.shields.io/badge/-%2B9-brightgreen" alt="+9" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/geo-weather/stats">36<br /><img src="https://img.shields.io/badge/--4-red" alt="-4" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/geo-weather/stats">3<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-geo-weather/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-geo-weather/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/android-com-pl/flarum-lscache" title="acpl/flarum-lscache"><code>acpl/flarum-lscache</code></a>
-		</td>
-		<td align="center">163<br /><img src="https://img.shields.io/badge/--69-brightgreen" alt="-69" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/acpl/flarum-lscache/stats">35<br /><img src="https://img.shields.io/badge/-%2B29-brightgreen" alt="+29" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/acpl/flarum-lscache/stats">35<br /><img src="https://img.shields.io/badge/-%2B29-brightgreen" alt="+29" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/acpl/flarum-lscache/stats">5<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/acpl-lscache/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/acpl-lscache/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/clarkwinkelmann/flarum-ext-first-post-approval" title="clarkwinkelmann/flarum-ext-first-post-approval"><code>clarkwinkelmann/…first-post-approval</code></a>
-		</td>
-		<td align="center">164<br /><img src="https://img.shields.io/badge/--5-brightgreen" alt="-5" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-first-post-approval/stats">1010<br /><img src="https://img.shields.io/badge/-%2B12-brightgreen" alt="+12" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-first-post-approval/stats">33<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-first-post-approval/stats">3<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-first-post-approval/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-first-post-approval/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/clarkwinkelmann/flarum-ext-featured-discussions" title="clarkwinkelmann/flarum-ext-featured-discussions"><code>clarkwinkelmann/…featured-discussions</code></a>
-		</td>
-		<td align="center">165<br /><img src="https://img.shields.io/badge/-%2B3-red" alt="+3" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-featured-discussions/stats">77<br /><img src="https://img.shields.io/badge/-%2B8-brightgreen" alt="+8" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-featured-discussions/stats">33<br /><img src="https://img.shields.io/badge/--3-red" alt="-3" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-featured-discussions/stats">2<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-featured-discussions/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-featured-discussions/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/clarkwinkelmann/flarum-ext-popular-discussion-badge" title="clarkwinkelmann/flarum-ext-popular-discussion-badge"><code>clarkwinkelmann/…popular-discussion-badg…</code></a>
-		</td>
-		<td align="center">166<br /><img src="https://img.shields.io/badge/--4-brightgreen" alt="-4" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-popular-discussion-badge/stats">1218<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-popular-discussion-badge/stats">32<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-popular-discussion-badge/stats">1<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-popular-discussion-badge/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-popular-discussion-badge/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/Dem13n/topic-starter-label" title="dem13n/topic-starter-label"><code>dem13n/topic-starter-label</code></a>
-		</td>
-		<td align="center">167<br /><img src="https://img.shields.io/badge/-%2B4-red" alt="+4" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/dem13n/topic-starter-label/stats">743<br /><img src="https://img.shields.io/badge/-%2B9-brightgreen" alt="+9" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/dem13n/topic-starter-label/stats">32<br /><img src="https://img.shields.io/badge/--3-red" alt="-3" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/dem13n/topic-starter-label/stats">1<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/dem13n-topic-starter-label/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/dem13n-topic-starter-label/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/Dem13n/discussion-cards" title="dem13n/discussion-cards"><code>dem13n/discussion-cards</code></a>
-		</td>
-		<td align="center">168<br /><img src="https://img.shields.io/badge/--5-brightgreen" alt="-5" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/dem13n/discussion-cards/stats">764<br /><img src="https://img.shields.io/badge/-%2B6-brightgreen" alt="+6" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/dem13n/discussion-cards/stats">31<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/dem13n/discussion-cards/stats">2<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/dem13n-discussion-cards/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/dem13n-discussion-cards/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/ramesh-dada/realtime" title="ramesh-dada/realtime"><code>ramesh-dada/realtime</code></a>
-		</td>
-		<td align="center">169<br /><img src="https://img.shields.io/badge/-%2B5-red" alt="+5" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/ramesh-dada/realtime/stats">248<br /><img src="https://img.shields.io/badge/-%2B7-brightgreen" alt="+7" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/ramesh-dada/realtime/stats">31<br /><img src="https://img.shields.io/badge/--4-red" alt="-4" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/ramesh-dada/realtime/stats">2<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/ramesh-dada-realtime/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/ramesh-dada-realtime/svg-badge.svg" alt="Translation status"></a></td>
+		<td align="center">156<br /><img src="https://img.shields.io/badge/-%2B11-red" alt="+11" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/glowingblue/password-strength/stats">688<br /><img src="https://img.shields.io/badge/-%2B6-brightgreen" alt="+6" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/glowingblue/password-strength/stats">40<br /><img src="https://img.shields.io/badge/--9-red" alt="-9" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/glowingblue/password-strength/stats">4<br /><img src="https://img.shields.io/badge/-%2B4-brightgreen" alt="+4" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/glowingblue-password-strength/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/glowingblue-password-strength/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/clarkwinkelmann/flarum-ext-status" title="clarkwinkelmann/flarum-ext-status"><code>clarkwinkelmann/flarum-ext-status</code></a>
 		</td>
-		<td align="center">170<br /><img src="https://img.shields.io/badge/--2-brightgreen" alt="-2" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-status/stats">1126<br /><img src="https://img.shields.io/badge/-%2B6-brightgreen" alt="+6" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-status/stats">30<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-status/stats">1<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
+		<td align="center">157<br /><img src="https://img.shields.io/badge/--13-brightgreen" alt="-13" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-status/stats">1139<br /><img src="https://img.shields.io/badge/-%2B13-brightgreen" alt="+13" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-status/stats">38<br /><img src="https://img.shields.io/badge/-%2B8-brightgreen" alt="+8" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-status/stats">3<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-status/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-status/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
@@ -1901,230 +1758,362 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/Nearata/flarum-ext-copy-code-to-clipboard" title="nearata/flarum-ext-copy-code-to-clipboard"><code>nearata/…copy-code-to-clipboard</code></a>
 		</td>
-		<td align="center">171<br /><img src="https://img.shields.io/badge/-%2B15-red" alt="+15" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-copy-code-to-clipboard/stats">862<br /><img src="https://img.shields.io/badge/-%2B9-brightgreen" alt="+9" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-copy-code-to-clipboard/stats">30<br /><img src="https://img.shields.io/badge/--10-red" alt="-10" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-copy-code-to-clipboard/stats">0<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
+		<td align="center">158<br /><img src="https://img.shields.io/badge/--13-brightgreen" alt="-13" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-copy-code-to-clipboard/stats">874<br /><img src="https://img.shields.io/badge/-%2B12-brightgreen" alt="+12" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-copy-code-to-clipboard/stats">37<br /><img src="https://img.shields.io/badge/-%2B7-brightgreen" alt="+7" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-copy-code-to-clipboard/stats">2<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/nearata-copy-code-to-clipboard/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/nearata-copy-code-to-clipboard/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/NomisCZ/flarum-ext-auth-wechat" title="nomiscz/flarum-ext-auth-wechat"><code>nomiscz/flarum-ext-auth-wechat</code></a>
+			<a href="https://github.com/kilowhat/flarum-ext-audit-free" title="kilowhat/flarum-ext-audit-free"><code>kilowhat/flarum-ext-audit-free</code></a>
 		</td>
-		<td align="center">172<br /><img src="https://img.shields.io/badge/--6-brightgreen" alt="-6" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/nomiscz/flarum-ext-auth-wechat/stats">629<br /><img src="https://img.shields.io/badge/-%2B4-brightgreen" alt="+4" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/nomiscz/flarum-ext-auth-wechat/stats">30<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/nomiscz/flarum-ext-auth-wechat/stats">2<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/nomiscz-auth-wechat/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/nomiscz-auth-wechat/svg-badge.svg" alt="Translation status"></a></td>
+		<td align="center">159<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/kilowhat/flarum-ext-audit-free/stats">867<br /><img src="https://img.shields.io/badge/-%2B7-brightgreen" alt="+7" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/kilowhat/flarum-ext-audit-free/stats">36<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/kilowhat/flarum-ext-audit-free/stats">0<br /><img src="https://img.shields.io/badge/--3-red" alt="-3" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/kilowhat-audit-free/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/kilowhat-audit-free/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/tpokorra/flarum-ext-post-notification" title="tpokorra/flarum-ext-post-notification"><code>tpokorra/flarum-ext-post-notification</code></a>
+		</td>
+		<td align="center">160<br /><img src="https://img.shields.io/badge/-%2B8-red" alt="+8" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/tpokorra/flarum-ext-post-notification/stats">791<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/tpokorra/flarum-ext-post-notification/stats">35<br /><img src="https://img.shields.io/badge/--7-red" alt="-7" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/tpokorra/flarum-ext-post-notification/stats">2<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/tpokorra-post-notification/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/tpokorra-post-notification/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/justoverclockl/flarum-ext-guestengagement" title="justoverclock/flarum-ext-guestengagement"><code>justoverclock/flarum-ext-guestengagement</code></a>
+		</td>
+		<td align="center">161<br /><img src="https://img.shields.io/badge/-%2B6-red" alt="+6" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-guestengagement/stats">444<br /><img src="https://img.shields.io/badge/-%2B7-brightgreen" alt="+7" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-guestengagement/stats">35<br /><img src="https://img.shields.io/badge/--5-red" alt="-5" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-guestengagement/stats">1<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-guestengagement/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-guestengagement/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/ramesh-dada/realtime" title="ramesh-dada/realtime"><code>ramesh-dada/realtime</code></a>
+		</td>
+		<td align="center">162<br /><img src="https://img.shields.io/badge/--7-brightgreen" alt="-7" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/ramesh-dada/realtime/stats">256<br /><img src="https://img.shields.io/badge/-%2B8-brightgreen" alt="+8" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/ramesh-dada/realtime/stats">34<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/ramesh-dada/realtime/stats">3<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/ramesh-dada-realtime/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/ramesh-dada-realtime/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/justoverclockl/events-countdown" title="justoverclock/events-countdown"><code>justoverclock/events-countdown</code></a>
+		</td>
+		<td align="center">163<br /><img src="https://img.shields.io/badge/-%2B2-red" alt="+2" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/events-countdown/stats">194<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/events-countdown/stats">34<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/events-countdown/stats">0<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-events-countdown/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-events-countdown/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/clarkwinkelmann/flarum-ext-first-post-approval" title="clarkwinkelmann/flarum-ext-first-post-approval"><code>clarkwinkelmann/…first-post-approval</code></a>
+		</td>
+		<td align="center">164<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-first-post-approval/stats">1015<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-first-post-approval/stats">33<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-first-post-approval/stats">1<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-first-post-approval/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-first-post-approval/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/Dem13n/discussion-cards" title="dem13n/discussion-cards"><code>dem13n/discussion-cards</code></a>
+		</td>
+		<td align="center">165<br /><img src="https://img.shields.io/badge/--3-brightgreen" alt="-3" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/dem13n/discussion-cards/stats">772<br /><img src="https://img.shields.io/badge/-%2B8-brightgreen" alt="+8" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/dem13n/discussion-cards/stats">33<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/dem13n/discussion-cards/stats">1<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/dem13n-discussion-cards/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/dem13n-discussion-cards/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/justoverclockl/geo-weather" title="justoverclock/geo-weather"><code>justoverclock/geo-weather</code></a>
+		</td>
+		<td align="center">166<br /><img src="https://img.shields.io/badge/-%2B4-red" alt="+4" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/geo-weather/stats">179<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/geo-weather/stats">33<br /><img src="https://img.shields.io/badge/--3-red" alt="-3" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/geo-weather/stats">1<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-geo-weather/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-geo-weather/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/clarkwinkelmann/flarum-ext-create-user-modal" title="clarkwinkelmann/flarum-ext-create-user-modal"><code>clarkwinkelmann/…create-user-modal</code></a>
+		</td>
+		<td align="center">167<br /><img src="https://img.shields.io/badge/-%2B7-red" alt="+7" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-create-user-modal/stats">869<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-create-user-modal/stats">31<br /><img src="https://img.shields.io/badge/--5-red" alt="-5" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-create-user-modal/stats">0<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-create-user-modal/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-create-user-modal/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/clarkwinkelmann/flarum-ext-featured-discussions" title="clarkwinkelmann/flarum-ext-featured-discussions"><code>clarkwinkelmann/…featured-discussions</code></a>
+		</td>
+		<td align="center">168<br /><img src="https://img.shields.io/badge/-%2B3-red" alt="+3" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-featured-discussions/stats">84<br /><img src="https://img.shields.io/badge/-%2B7-brightgreen" alt="+7" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-featured-discussions/stats">31<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-featured-discussions/stats">3<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-featured-discussions/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-featured-discussions/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/justoverclockl/custom-header" title="justoverclock/custom-header"><code>justoverclock/custom-header</code></a>
 		</td>
-		<td align="center">173<br /><img src="https://img.shields.io/badge/-%2B12-red" alt="+12" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/custom-header/stats">214<br /><img src="https://img.shields.io/badge/-%2B7-brightgreen" alt="+7" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/custom-header/stats">30<br /><img src="https://img.shields.io/badge/--6-red" alt="-6" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/custom-header/stats">2<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
+		<td align="center">169<br /><img src="https://img.shields.io/badge/--4-brightgreen" alt="-4" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/custom-header/stats">219<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/custom-header/stats">30<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/custom-header/stats">1<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-custom-header/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-custom-header/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/clarkwinkelmann/flarum-ext-shadow-ban" title="clarkwinkelmann/flarum-ext-shadow-ban"><code>clarkwinkelmann/flarum-ext-shadow-ban</code></a>
+			<a href="https://github.com/clarkwinkelmann/flarum-ext-popular-discussion-badge" title="clarkwinkelmann/flarum-ext-popular-discussion-badge"><code>clarkwinkelmann/…popular-discussion-badg…</code></a>
 		</td>
-		<td align="center">174<br /><img src="https://img.shields.io/badge/-%2B7-red" alt="+7" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-shadow-ban/stats">201<br /><img src="https://img.shields.io/badge/-%2B7-brightgreen" alt="+7" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-shadow-ban/stats">30<br /><img src="https://img.shields.io/badge/--4-red" alt="-4" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-shadow-ban/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-shadow-ban/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-shadow-ban/svg-badge.svg" alt="Translation status"></a></td>
+		<td align="center">170<br /><img src="https://img.shields.io/badge/-%2B4-red" alt="+4" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-popular-discussion-badge/stats">1220<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-popular-discussion-badge/stats">29<br /><img src="https://img.shields.io/badge/--3-red" alt="-3" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-popular-discussion-badge/stats">0<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-popular-discussion-badge/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-popular-discussion-badge/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/askvortsov1/flarum-help-tags" title="askvortsov/flarum-help-tags"><code>askvortsov/flarum-help-tags</code></a>
+			<a href="https://github.com/Dem13n/topic-starter-label" title="dem13n/topic-starter-label"><code>dem13n/topic-starter-label</code></a>
 		</td>
-		<td align="center">175<br /><img src="https://img.shields.io/badge/-%2B16-red" alt="+16" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-help-tags/stats">802<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-help-tags/stats">29<br /><img src="https://img.shields.io/badge/--9-red" alt="-9" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-help-tags/stats">1<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/askvortsov-help-tags/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/askvortsov-help-tags/svg-badge.svg" alt="Translation status"></a></td>
+		<td align="center">171<br /><img src="https://img.shields.io/badge/-%2B4-red" alt="+4" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/dem13n/topic-starter-label/stats">750<br /><img src="https://img.shields.io/badge/-%2B7-brightgreen" alt="+7" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/dem13n/topic-starter-label/stats">29<br /><img src="https://img.shields.io/badge/--3-red" alt="-3" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/dem13n/topic-starter-label/stats">1<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/dem13n-topic-starter-label/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/dem13n-topic-starter-label/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/the-turk/flarum-mathren" title="the-turk/flarum-mathren"><code>the-turk/flarum-mathren</code></a>
+			<a href="https://github.com/justoverclockl/flarum-ext-purify" title="justoverclock/flarum-ext-purify"><code>justoverclock/flarum-ext-purify</code></a>
 		</td>
-		<td align="center">176<br /><img src="https://img.shields.io/badge/--9-brightgreen" alt="-9" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-mathren/stats">822<br /><img src="https://img.shields.io/badge/-%2B8-brightgreen" alt="+8" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-mathren/stats">27<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-mathren/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/the-turk-mathren/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/the-turk-mathren/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/the-turk/flarum-pallet-theme" title="the-turk/flarum-pallet-theme"><code>the-turk/flarum-pallet-theme</code></a>
-		</td>
-		<td align="center">177<br /><img src="https://img.shields.io/badge/--16-brightgreen" alt="-16" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-pallet-theme/stats">186<br /><img src="https://img.shields.io/badge/-%2B10-brightgreen" alt="+10" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-pallet-theme/stats">27<br /><img src="https://img.shields.io/badge/-%2B6-brightgreen" alt="+6" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-pallet-theme/stats">1<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/the-turk-pallet-theme/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/the-turk-pallet-theme/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/migratetoflarum/canonical" title="migratetoflarum/canonical"><code>migratetoflarum/canonical</code></a>
-		</td>
-		<td align="center">178<br /><img src="https://img.shields.io/badge/-%2B7-red" alt="+7" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/migratetoflarum/canonical/stats">1136<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/migratetoflarum/canonical/stats">26<br /><img src="https://img.shields.io/badge/--6-red" alt="-6" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/migratetoflarum/canonical/stats">1<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/migratetoflarum-canonical/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/migratetoflarum-canonical/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/justoverclockl/feautured-discussions-widget" title="justoverclock/feautured-discussions-widget"><code>justoverclock/feautured-discussions-widg…</code></a>
-		</td>
-		<td align="center">179<br /><img src="https://img.shields.io/badge/-%2B3-red" alt="+3" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/feautured-discussions-widget/stats">47<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/feautured-discussions-widget/stats">26<br /><img src="https://img.shields.io/badge/--3-red" alt="-3" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/feautured-discussions-widget/stats">1<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-feautured-discussions-widget/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-feautured-discussions-widget/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/Nearata/flarum-ext-cakeday" title="nearata/flarum-ext-cakeday"><code>nearata/flarum-ext-cakeday</code></a>
-		</td>
-		<td align="center">180<br /><img src="https://img.shields.io/badge/--3-brightgreen" alt="-3" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-cakeday/stats">269<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-cakeday/stats">25<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-cakeday/stats">2<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/nearata-cakeday/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/nearata-cakeday/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/ganuonglachanh/flarum-sonic" title="ganuonglachanh/sonic"><code>ganuonglachanh/sonic</code></a>
-		</td>
-		<td align="center">181<br /><img src="https://img.shields.io/badge/-%2B27-red" alt="+27" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/ganuonglachanh/sonic/stats">148<br /><img src="https://img.shields.io/badge/-%2B9-brightgreen" alt="+9" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/ganuonglachanh/sonic/stats">25<br /><img src="https://img.shields.io/badge/--17-red" alt="-17" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/ganuonglachanh/sonic/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/ganuonglachanh-sonic/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/ganuonglachanh-sonic/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/Nearata/flarum-ext-twofactor" title="nearata/flarum-ext-twofactor"><code>nearata/flarum-ext-twofactor</code></a>
-		</td>
-		<td align="center">182<br /><img src="https://img.shields.io/badge/--8-brightgreen" alt="-8" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-twofactor/stats">123<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-twofactor/stats">25<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-twofactor/stats">1<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/nearata-twofactor/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/nearata-twofactor/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/justoverclockl/flarum-ext-toastme" title="justoverclock/flarum-ext-toastme"><code>justoverclock/flarum-ext-toastme</code></a>
-		</td>
-		<td align="center">183<br /><img src="https://img.shields.io/badge/-%2B3-red" alt="+3" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-toastme/stats">251<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-toastme/stats">23<br /><img src="https://img.shields.io/badge/--3-red" alt="-3" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-toastme/stats">1<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-toastme/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-toastme/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/justoverclockl/last-tweet" title="justoverclock/last-tweet"><code>justoverclock/last-tweet</code></a>
-		</td>
-		<td align="center">184<br /><img src="https://img.shields.io/badge/-%2B2-red" alt="+2" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/last-tweet/stats">90<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/last-tweet/stats">23<br /><img src="https://img.shields.io/badge/--3-red" alt="-3" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/last-tweet/stats">0<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-last-tweet/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-last-tweet/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/zerosonesfun/flarum-bbcode-button" title="zerosonesfun/flarum-bbcode-button"><code>zerosonesfun/flarum-bbcode-button</code></a>
-		</td>
-		<td align="center">185<br /><img src="https://img.shields.io/badge/--24-brightgreen" alt="-24" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/zerosonesfun/flarum-bbcode-button/stats">23<br /><img src="https://img.shields.io/badge/-%2B9-brightgreen" alt="+9" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/zerosonesfun/flarum-bbcode-button/stats">23<br /><img src="https://img.shields.io/badge/-%2B9-brightgreen" alt="+9" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/zerosonesfun/flarum-bbcode-button/stats">1<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/zerosonesfun-bbcode-button/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/zerosonesfun-bbcode-button/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/eddiewebb/flarum-calendar" title="webbinaro/flarum-calendar"><code>webbinaro/flarum-calendar</code></a>
-		</td>
-		<td align="center">186<br /><img src="https://img.shields.io/badge/--6-brightgreen" alt="-6" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/webbinaro/flarum-calendar/stats">302<br /><img src="https://img.shields.io/badge/-%2B8-brightgreen" alt="+8" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/webbinaro/flarum-calendar/stats">22<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/webbinaro/flarum-calendar/stats">4<br /><img src="https://img.shields.io/badge/-%2B4-brightgreen" alt="+4" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/webbinaro-calendar/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/webbinaro-calendar/svg-badge.svg" alt="Translation status"></a></td>
+		<td align="center">172<br /><img src="https://img.shields.io/badge/-%2B13-red" alt="+13" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-purify/stats">314<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-purify/stats">29<br /><img src="https://img.shields.io/badge/--8-red" alt="-8" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-purify/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-purify/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-purify/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/clarkwinkelmann/flarum-ext-predefined-avatars" title="clarkwinkelmann/flarum-ext-predefined-avatars"><code>clarkwinkelmann/…predefined-avatars</code></a>
 		</td>
-		<td align="center">187<br /><img src="https://img.shields.io/badge/-%2B3-red" alt="+3" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-predefined-avatars/stats">248<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-predefined-avatars/stats">22<br /><img src="https://img.shields.io/badge/--3-red" alt="-3" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-predefined-avatars/stats">0<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
+		<td align="center">173<br /><img src="https://img.shields.io/badge/--14-brightgreen" alt="-14" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-predefined-avatars/stats">256<br /><img src="https://img.shields.io/badge/-%2B8-brightgreen" alt="+8" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-predefined-avatars/stats">28<br /><img src="https://img.shields.io/badge/-%2B6-brightgreen" alt="+6" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-predefined-avatars/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-predefined-avatars/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-predefined-avatars/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/clarkwinkelmann/flarum-ext-passwordless" title="clarkwinkelmann/flarum-ext-passwordless"><code>clarkwinkelmann/flarum-ext-passwordless</code></a>
-		</td>
-		<td align="center">188<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-passwordless/stats">495<br /><img src="https://img.shields.io/badge/-%2B7-brightgreen" alt="+7" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-passwordless/stats">21<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-passwordless/stats">0<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-passwordless/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-passwordless/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/malago86/flarum-ext-fancybox" title="malago/flarum-ext-fancybox"><code>malago/flarum-ext-fancybox</code></a>
 		</td>
-		<td align="center">189<br /><img src="https://img.shields.io/badge/--8-brightgreen" alt="-8" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/malago/flarum-ext-fancybox/stats">155<br /><img src="https://img.shields.io/badge/-%2B10-brightgreen" alt="+10" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/malago/flarum-ext-fancybox/stats">21<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/malago/flarum-ext-fancybox/stats">3<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
+		<td align="center">174<br /><img src="https://img.shields.io/badge/--15-brightgreen" alt="-15" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/malago/flarum-ext-fancybox/stats">167<br /><img src="https://img.shields.io/badge/-%2B12-brightgreen" alt="+12" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/malago/flarum-ext-fancybox/stats">28<br /><img src="https://img.shields.io/badge/-%2B7-brightgreen" alt="+7" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/malago/flarum-ext-fancybox/stats">1<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/malago-fancybox/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/malago-fancybox/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/davwheat/flarum-ext-share" title="davwheat/flarum-ext-share"><code>davwheat/flarum-ext-share</code></a>
+			<a href="https://github.com/ganuonglachanh/flarum-sonic" title="ganuonglachanh/sonic"><code>ganuonglachanh/sonic</code></a>
 		</td>
-		<td align="center">190<br /><img src="https://img.shields.io/badge/-%2B16-red" alt="+16" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/davwheat/flarum-ext-share/stats">69<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/davwheat/flarum-ext-share/stats">21<br /><img src="https://img.shields.io/badge/--9-red" alt="-9" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/davwheat/flarum-ext-share/stats">1<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/davwheat-share/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/davwheat-share/svg-badge.svg" alt="Translation status"></a></td>
+		<td align="center">175<br /><img src="https://img.shields.io/badge/--6-brightgreen" alt="-6" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/ganuonglachanh/sonic/stats">153<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/ganuonglachanh/sonic/stats">27<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/ganuonglachanh/sonic/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/ganuonglachanh-sonic/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/ganuonglachanh-sonic/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/askvortsov1/flarum-help-tags" title="askvortsov/flarum-help-tags"><code>askvortsov/flarum-help-tags</code></a>
+		</td>
+		<td align="center">176<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-help-tags/stats">811<br /><img src="https://img.shields.io/badge/-%2B9-brightgreen" alt="+9" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-help-tags/stats">26<br /><img src="https://img.shields.io/badge/--3-red" alt="-3" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-help-tags/stats">3<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/askvortsov-help-tags/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/askvortsov-help-tags/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/zerosonesfun/flarum-bbcode-button" title="zerosonesfun/flarum-bbcode-button"><code>zerosonesfun/flarum-bbcode-button</code></a>
+		</td>
+		<td align="center">177<br /><img src="https://img.shields.io/badge/--8-brightgreen" alt="-8" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/zerosonesfun/flarum-bbcode-button/stats">26<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/zerosonesfun/flarum-bbcode-button/stats">26<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/zerosonesfun/flarum-bbcode-button/stats">1<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/zerosonesfun-bbcode-button/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/zerosonesfun-bbcode-button/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/the-turk/flarum-mathren" title="the-turk/flarum-mathren"><code>the-turk/flarum-mathren</code></a>
+		</td>
+		<td align="center">178<br /><img src="https://img.shields.io/badge/-%2B2-red" alt="+2" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-mathren/stats">824<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-mathren/stats">25<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-mathren/stats">1<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/the-turk-mathren/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/the-turk-mathren/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/NomisCZ/flarum-ext-auth-wechat" title="nomiscz/flarum-ext-auth-wechat"><code>nomiscz/flarum-ext-auth-wechat</code></a>
+		</td>
+		<td align="center">179<br /><img src="https://img.shields.io/badge/-%2B7-red" alt="+7" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/nomiscz/flarum-ext-auth-wechat/stats">630<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/nomiscz/flarum-ext-auth-wechat/stats">25<br /><img src="https://img.shields.io/badge/--5-red" alt="-5" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/nomiscz/flarum-ext-auth-wechat/stats">0<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/nomiscz-auth-wechat/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/nomiscz-auth-wechat/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/Nearata/flarum-ext-cakeday" title="nearata/flarum-ext-cakeday"><code>nearata/flarum-ext-cakeday</code></a>
+		</td>
+		<td align="center">180<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-cakeday/stats">271<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-cakeday/stats">25<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-cakeday/stats">0<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/nearata-cakeday/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/nearata-cakeday/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/clarkwinkelmann/flarum-ext-shadow-ban" title="clarkwinkelmann/flarum-ext-shadow-ban"><code>clarkwinkelmann/flarum-ext-shadow-ban</code></a>
+		</td>
+		<td align="center">181<br /><img src="https://img.shields.io/badge/-%2B7-red" alt="+7" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-shadow-ban/stats">205<br /><img src="https://img.shields.io/badge/-%2B4-brightgreen" alt="+4" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-shadow-ban/stats">25<br /><img src="https://img.shields.io/badge/--5-red" alt="-5" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-shadow-ban/stats">1<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-shadow-ban/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-shadow-ban/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/the-turk/flarum-pallet-theme" title="the-turk/flarum-pallet-theme"><code>the-turk/flarum-pallet-theme</code></a>
+		</td>
+		<td align="center">182<br /><img src="https://img.shields.io/badge/-%2B5-red" alt="+5" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-pallet-theme/stats">188<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-pallet-theme/stats">25<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-pallet-theme/stats">1<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/the-turk-pallet-theme/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/the-turk-pallet-theme/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/Nearata/flarum-ext-twofactor" title="nearata/flarum-ext-twofactor"><code>nearata/flarum-ext-twofactor</code></a>
+		</td>
+		<td align="center">183<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-twofactor/stats">128<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-twofactor/stats">25<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-twofactor/stats">0<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/nearata-twofactor/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/nearata-twofactor/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/justoverclockl/last-tweet" title="justoverclock/last-tweet"><code>justoverclock/last-tweet</code></a>
+		</td>
+		<td align="center">184<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/last-tweet/stats">95<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/last-tweet/stats">25<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/last-tweet/stats">1<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-last-tweet/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-last-tweet/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/justoverclockl/feautured-discussions-widget" title="justoverclock/feautured-discussions-widget"><code>justoverclock/feautured-discussions-widg…</code></a>
+		</td>
+		<td align="center">185<br /><img src="https://img.shields.io/badge/-%2B6-red" alt="+6" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/feautured-discussions-widget/stats">53<br /><img src="https://img.shields.io/badge/-%2B6-brightgreen" alt="+6" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/feautured-discussions-widget/stats">25<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/feautured-discussions-widget/stats">2<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-feautured-discussions-widget/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-feautured-discussions-widget/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/clarkwinkelmann/flarum-ext-passwordless" title="clarkwinkelmann/flarum-ext-passwordless"><code>clarkwinkelmann/flarum-ext-passwordless</code></a>
+		</td>
+		<td align="center">186<br /><img src="https://img.shields.io/badge/--2-brightgreen" alt="-2" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-passwordless/stats">499<br /><img src="https://img.shields.io/badge/-%2B4-brightgreen" alt="+4" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-passwordless/stats">24<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-passwordless/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-passwordless/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-passwordless/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/FriendsOfFlarum/amazon-affiliation" title="fof/amazon-affiliation"><code>fof/amazon-affiliation</code></a>
+		</td>
+		<td align="center">187<br /><img src="https://img.shields.io/badge/--22-brightgreen" alt="-22" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/amazon-affiliation/stats">455<br /><img src="https://img.shields.io/badge/-%2B10-brightgreen" alt="+10" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/amazon-affiliation/stats">24<br /><img src="https://img.shields.io/badge/-%2B9-brightgreen" alt="+9" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/amazon-affiliation/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/fof-amazon-affiliation/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-amazon-affiliation/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/migratetoflarum/canonical" title="migratetoflarum/canonical"><code>migratetoflarum/canonical</code></a>
+		</td>
+		<td align="center">188<br /><img src="https://img.shields.io/badge/-%2B10-red" alt="+10" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/migratetoflarum/canonical/stats">1138<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/migratetoflarum/canonical/stats">23<br /><img src="https://img.shields.io/badge/--3-red" alt="-3" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/migratetoflarum/canonical/stats">0<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/migratetoflarum-canonical/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/migratetoflarum-canonical/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/justoverclockl/first-visit-indexpage" title="justoverclock/first-visit-indexpage"><code>justoverclock/first-visit-indexpage</code></a>
+		</td>
+		<td align="center">189<br /><img src="https://img.shields.io/badge/--5-brightgreen" alt="-5" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/first-visit-indexpage/stats">118<br /><img src="https://img.shields.io/badge/-%2B6-brightgreen" alt="+6" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/first-visit-indexpage/stats">23<br /><img src="https://img.shields.io/badge/-%2B4-brightgreen" alt="+4" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/first-visit-indexpage/stats">2<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-first-visit-indexpage/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-first-visit-indexpage/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/clarkwinkelmann/flarum-ext-group-invitation" title="clarkwinkelmann/flarum-ext-group-invitation"><code>clarkwinkelmann/…group-invitation</code></a>
 		</td>
-		<td align="center">191<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-group-invitation/stats">635<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-group-invitation/stats">20<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-group-invitation/stats">1<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td align="center">190<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-group-invitation/stats">641<br /><img src="https://img.shields.io/badge/-%2B6-brightgreen" alt="+6" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-group-invitation/stats">22<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-group-invitation/stats">0<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-group-invitation/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-group-invitation/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
@@ -2132,10 +2121,10 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/flarumite/simple-spoilers" title="flarumite/simple-spoilers"><code>flarumite/simple-spoilers</code></a>
 		</td>
-		<td align="center">192<br /><img src="https://img.shields.io/badge/-%2B4-red" alt="+4" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/flarumite/simple-spoilers/stats">293<br /><img src="https://img.shields.io/badge/-%2B6-brightgreen" alt="+6" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/flarumite/simple-spoilers/stats">20<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/flarumite/simple-spoilers/stats">0<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
+		<td align="center">191<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/flarumite/simple-spoilers/stats">299<br /><img src="https://img.shields.io/badge/-%2B6-brightgreen" alt="+6" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/flarumite/simple-spoilers/stats">22<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/flarumite/simple-spoilers/stats">2<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/flarumite-simple-spoilers/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/flarumite-simple-spoilers/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
@@ -2143,65 +2132,164 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/justoverclockl/flarum-ext-dontgoaway" title="justoverclock/flarum-ext-dontgoaway"><code>justoverclock/flarum-ext-dontgoaway</code></a>
 		</td>
-		<td align="center">193<br /><img src="https://img.shields.io/badge/-%2B4-red" alt="+4" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-dontgoaway/stats">200<br /><img src="https://img.shields.io/badge/-%2B7-brightgreen" alt="+7" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-dontgoaway/stats">20<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-dontgoaway/stats">1<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
+		<td align="center">192<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-dontgoaway/stats">206<br /><img src="https://img.shields.io/badge/-%2B6-brightgreen" alt="+6" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-dontgoaway/stats">22<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-dontgoaway/stats">2<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-dontgoaway/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-dontgoaway/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/justoverclockl/first-visit-indexpage" title="justoverclock/first-visit-indexpage"><code>justoverclock/first-visit-indexpage</code></a>
+			<a href="https://github.com/davwheat/flarum-ext-share" title="davwheat/flarum-ext-share"><code>davwheat/flarum-ext-share</code></a>
 		</td>
-		<td align="center">194<br /><img src="https://img.shields.io/badge/-%2B13-red" alt="+13" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/first-visit-indexpage/stats">112<br /><img src="https://img.shields.io/badge/-%2B4-brightgreen" alt="+4" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/first-visit-indexpage/stats">19<br /><img src="https://img.shields.io/badge/--7-red" alt="-7" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/first-visit-indexpage/stats">1<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-first-visit-indexpage/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-first-visit-indexpage/svg-badge.svg" alt="Translation status"></a></td>
+		<td align="center">193<br /><img src="https://img.shields.io/badge/-%2B3-red" alt="+3" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/davwheat/flarum-ext-share/stats">74<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/davwheat/flarum-ext-share/stats">22<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/davwheat/flarum-ext-share/stats">0<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/davwheat-share/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/davwheat-share/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/justoverclockl/flarum-ext-toastme" title="justoverclock/flarum-ext-toastme"><code>justoverclock/flarum-ext-toastme</code></a>
+		</td>
+		<td align="center">194<br /><img src="https://img.shields.io/badge/-%2B11-red" alt="+11" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-toastme/stats">256<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-toastme/stats">21<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-toastme/stats">2<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-toastme/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-toastme/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/justoverclockl/youtube-video-feed" title="justoverclock/youtube-video-feed"><code>justoverclock/youtube-video-feed</code></a>
+		</td>
+		<td align="center">195<br /><img src="https://img.shields.io/badge/--6-brightgreen" alt="-6" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/youtube-video-feed/stats">97<br /><img src="https://img.shields.io/badge/-%2B6-brightgreen" alt="+6" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/youtube-video-feed/stats">21<br /><img src="https://img.shields.io/badge/-%2B4-brightgreen" alt="+4" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/youtube-video-feed/stats">1<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-youtube-video-feed/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-youtube-video-feed/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/datlechin/flarum-add-like-controls" title="datlechin/flarum-add-like-controls"><code>datlechin/flarum-add-like-controls</code></a>
+		</td>
+		<td align="center">196<br /><img src="https://img.shields.io/badge/--40-brightgreen" alt="-40" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/datlechin/flarum-add-like-controls/stats">21<br /><img src="https://img.shields.io/badge/-%2B15-brightgreen" alt="+15" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/datlechin/flarum-add-like-controls/stats">21<br /><img src="https://img.shields.io/badge/-%2B15-brightgreen" alt="+15" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/datlechin/flarum-add-like-controls/stats">2<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/datlechin-add-like-controls/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/datlechin-add-like-controls/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/clarkwinkelmann/catch-the-fish" title="clarkwinkelmann/catch-the-fish"><code>clarkwinkelmann/catch-the-fish</code></a>
 		</td>
-		<td align="center">195<br /><img src="https://img.shields.io/badge/--21-brightgreen" alt="-21" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/catch-the-fish/stats">500<br /><img src="https://img.shields.io/badge/-%2B13-brightgreen" alt="+13" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/catch-the-fish/stats">18<br /><img src="https://img.shields.io/badge/-%2B7-brightgreen" alt="+7" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/catch-the-fish/stats">2<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center">197<br /><img src="https://img.shields.io/badge/-%2B2-red" alt="+2" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/catch-the-fish/stats">503<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/catch-the-fish/stats">20<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/catch-the-fish/stats">0<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-catch-the-fish/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-catch-the-fish/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/zerosonesfun/expired-posts" title="zerosonesfun/expired-posts"><code>zerosonesfun/expired-posts</code></a>
+		</td>
+		<td align="center">198<br /><img src="https://img.shields.io/badge/--17-brightgreen" alt="-17" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/zerosonesfun/expired-posts/stats">165<br /><img src="https://img.shields.io/badge/-%2B8-brightgreen" alt="+8" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/zerosonesfun/expired-posts/stats">20<br /><img src="https://img.shields.io/badge/-%2B7-brightgreen" alt="+7" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/zerosonesfun/expired-posts/stats">0<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/zerosonesfun-expired-posts/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/zerosonesfun-expired-posts/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/justoverclockl/flarum-ext-readmore" title="justoverclock/flarum-ext-readmore"><code>justoverclock/flarum-ext-readmore</code></a>
+		</td>
+		<td align="center">199<br /><img src="https://img.shields.io/badge/--5-brightgreen" alt="-5" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-readmore/stats">214<br /><img src="https://img.shields.io/badge/-%2B4-brightgreen" alt="+4" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-readmore/stats">19<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-readmore/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-readmore/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-readmore/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/justoverclockl/edit-posts" title="justoverclock/edit-posts"><code>justoverclock/edit-posts</code></a>
 		</td>
-		<td align="center">196<br /><img src="https://img.shields.io/badge/-%2B17-red" alt="+17" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/edit-posts/stats">144<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/edit-posts/stats">18<br /><img src="https://img.shields.io/badge/--9-red" alt="-9" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/edit-posts/stats">0<br /><img src="https://img.shields.io/badge/--3-red" alt="-3" title="Change from last week"></a></td>
+		<td align="center">200<br /><img src="https://img.shields.io/badge/-%2B4-red" alt="+4" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/edit-posts/stats">147<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/edit-posts/stats">19<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/edit-posts/stats">1<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-edit-posts/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-edit-posts/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/spookygames/flarum-ext-auth-keycloak" title="spookygames/flarum-ext-auth-keycloak"><code>spookygames/flarum-ext-auth-keycloak</code></a>
+			<a href="https://github.com/ramesh-dada/Flarum-GUI-Image-and-Link" title="ramesh-dada/flarum-gui-image-and-link"><code>ramesh-dada/flarum-gui-image-and-link</code></a>
 		</td>
-		<td align="center">197<br /><img src="https://img.shields.io/badge/-%2B32-red" alt="+32" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/spookygames/flarum-ext-auth-keycloak/stats">218<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/spookygames/flarum-ext-auth-keycloak/stats">17<br /><img src="https://img.shields.io/badge/--18-red" alt="-18" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/spookygames/flarum-ext-auth-keycloak/stats">0<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/spookygames-auth-keycloak/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/spookygames-auth-keycloak/svg-badge.svg" alt="Translation status"></a></td>
+		<td align="center">201<br /><img src="https://img.shields.io/badge/--5-brightgreen" alt="-5" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/ramesh-dada/flarum-gui-image-and-link/stats">145<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/ramesh-dada/flarum-gui-image-and-link/stats">19<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/ramesh-dada/flarum-gui-image-and-link/stats">1<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/ramesh-dada-gui-image-and-link/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/ramesh-dada-gui-image-and-link/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/NomisCZ/flarum-ext-auth-steam" title="nomiscz/flarum-ext-auth-steam"><code>nomiscz/flarum-ext-auth-steam</code></a>
+		</td>
+		<td align="center">202<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/nomiscz/flarum-ext-auth-steam/stats">1215<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/nomiscz/flarum-ext-auth-steam/stats">18<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/nomiscz/flarum-ext-auth-steam/stats">2<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/nomiscz-auth-steam/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/nomiscz-auth-steam/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/eddiewebb/flarum-calendar" title="webbinaro/flarum-calendar"><code>webbinaro/flarum-calendar</code></a>
+		</td>
+		<td align="center">203<br /><img src="https://img.shields.io/badge/-%2B17-red" alt="+17" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/webbinaro/flarum-calendar/stats">304<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/webbinaro/flarum-calendar/stats">18<br /><img src="https://img.shields.io/badge/--4-red" alt="-4" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/webbinaro/flarum-calendar/stats">1<br /><img src="https://img.shields.io/badge/--3-red" alt="-3" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/webbinaro-calendar/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/webbinaro-calendar/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/justoverclockl/flarum-ext-infocards" title="justoverclock/flarum-ext-infocards"><code>justoverclock/flarum-ext-infocards</code></a>
+		</td>
+		<td align="center">204<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-infocards/stats">199<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-infocards/stats">18<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-infocards/stats">1<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-infocards/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-infocards/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/Nearata/flarum-ext-signup-confirm-password" title="nearata/flarum-ext-signup-confirm-password"><code>nearata/…signup-confirm-password</code></a>
+		</td>
+		<td align="center">205<br /><img src="https://img.shields.io/badge/--3-brightgreen" alt="-3" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-signup-confirm-password/stats">498<br /><img src="https://img.shields.io/badge/-%2B4-brightgreen" alt="+4" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-signup-confirm-password/stats">17<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-signup-confirm-password/stats">0<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/nearata-signup-confirm-password/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/nearata-signup-confirm-password/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/the-turk/flarum-regrole" title="the-turk/flarum-regrole"><code>the-turk/flarum-regrole</code></a>
 		</td>
-		<td align="center">198<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-regrole/stats">215<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-regrole/stats">17<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-regrole/stats">1<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
+		<td align="center">206<br /><img src="https://img.shields.io/badge/-%2B8-red" alt="+8" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-regrole/stats">217<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-regrole/stats">17<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-regrole/stats">0<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/the-turk-regrole/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/the-turk-regrole/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
@@ -2209,348 +2297,271 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/android-com-pl/my-tags" title="acpl/my-tags"><code>acpl/my-tags</code></a>
 		</td>
-		<td align="center">199<br /><img src="https://img.shields.io/badge/-%2B13-red" alt="+13" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/acpl/my-tags/stats">140<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/acpl/my-tags/stats">17<br /><img src="https://img.shields.io/badge/--6-red" alt="-6" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/acpl/my-tags/stats">0<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
+		<td align="center">207<br /><img src="https://img.shields.io/badge/-%2B8-red" alt="+8" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/acpl/my-tags/stats">145<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/acpl/my-tags/stats">17<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/acpl/my-tags/stats">1<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/acpl-my-tags/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/acpl-my-tags/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/justoverclockl/flarum-ext-pwgen" title="justoverclock/flarum-ext-pwgen"><code>justoverclock/flarum-ext-pwgen</code></a>
-		</td>
-		<td align="center">200<br /><img src="https://img.shields.io/badge/-%2B6-red" alt="+6" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-pwgen/stats">125<br /><img src="https://img.shields.io/badge/-%2B4-brightgreen" alt="+4" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-pwgen/stats">17<br /><img src="https://img.shields.io/badge/--4-red" alt="-4" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-pwgen/stats">1<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-pwgen/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-pwgen/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/justoverclockl/youtube-video-feed" title="justoverclock/youtube-video-feed"><code>justoverclock/youtube-video-feed</code></a>
-		</td>
-		<td align="center">201<br /><img src="https://img.shields.io/badge/-%2B5-red" alt="+5" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/youtube-video-feed/stats">91<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/youtube-video-feed/stats">17<br /><img src="https://img.shields.io/badge/--3-red" alt="-3" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/youtube-video-feed/stats">1<br /><img src="https://img.shields.io/badge/--3-red" alt="-3" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-youtube-video-feed/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-youtube-video-feed/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/justoverclockl/discussion-hero-showtags" title="justoverclock/discussion-hero-showtags"><code>justoverclock/discussion-hero-showtags</code></a>
-		</td>
-		<td align="center">202<br /><img src="https://img.shields.io/badge/-%2B25-red" alt="+25" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/discussion-hero-showtags/stats">47<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/discussion-hero-showtags/stats">17<br /><img src="https://img.shields.io/badge/--11-red" alt="-11" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/discussion-hero-showtags/stats">0<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-discussion-hero-showtags/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-discussion-hero-showtags/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/NomisCZ/flarum-ext-auth-steam" title="nomiscz/flarum-ext-auth-steam"><code>nomiscz/flarum-ext-auth-steam</code></a>
-		</td>
-		<td align="center">203<br /><img src="https://img.shields.io/badge/-%2B2-red" alt="+2" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/nomiscz/flarum-ext-auth-steam/stats">1212<br /><img src="https://img.shields.io/badge/-%2B4-brightgreen" alt="+4" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/nomiscz/flarum-ext-auth-steam/stats">16<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/nomiscz/flarum-ext-auth-steam/stats">0<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/nomiscz-auth-steam/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/nomiscz-auth-steam/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/justoverclockl/flarum-ext-readmore" title="justoverclock/flarum-ext-readmore"><code>justoverclock/flarum-ext-readmore</code></a>
-		</td>
-		<td align="center">204<br /><img src="https://img.shields.io/badge/--3-brightgreen" alt="-3" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-readmore/stats">210<br /><img src="https://img.shields.io/badge/-%2B7-brightgreen" alt="+7" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-readmore/stats">16<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-readmore/stats">0<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-readmore/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-readmore/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/justoverclockl/flarum-ext-infocards" title="justoverclock/flarum-ext-infocards"><code>justoverclock/flarum-ext-infocards</code></a>
-		</td>
-		<td align="center">205<br /><img src="https://img.shields.io/badge/--10-brightgreen" alt="-10" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-infocards/stats">196<br /><img src="https://img.shields.io/badge/-%2B6-brightgreen" alt="+6" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-infocards/stats">16<br /><img src="https://img.shields.io/badge/-%2B4-brightgreen" alt="+4" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-infocards/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-infocards/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-infocards/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/ramesh-dada/Flarum-GUI-Image-and-Link" title="ramesh-dada/flarum-gui-image-and-link"><code>ramesh-dada/flarum-gui-image-and-link</code></a>
-		</td>
-		<td align="center">206<br /><img src="https://img.shields.io/badge/-%2B11-red" alt="+11" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/ramesh-dada/flarum-gui-image-and-link/stats">142<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/ramesh-dada/flarum-gui-image-and-link/stats">16<br /><img src="https://img.shields.io/badge/--4-red" alt="-4" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/ramesh-dada/flarum-gui-image-and-link/stats">1<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/ramesh-dada-gui-image-and-link/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/ramesh-dada-gui-image-and-link/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/justoverclockl/og-meta-tag" title="justoverclock/og-meta-tag"><code>justoverclock/og-meta-tag</code></a>
 		</td>
-		<td align="center">207<br /><img src="https://img.shields.io/badge/-%2B9-red" alt="+9" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/og-meta-tag/stats">61<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/og-meta-tag/stats">16<br /><img src="https://img.shields.io/badge/--3-red" alt="-3" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/og-meta-tag/stats">0<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
+		<td align="center">208<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/og-meta-tag/stats">64<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/og-meta-tag/stats">17<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/og-meta-tag/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-og-meta-tag/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-og-meta-tag/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/Nearata/flarum-ext-signup-confirm-password" title="nearata/flarum-ext-signup-confirm-password"><code>nearata/…signup-confirm-password</code></a>
-		</td>
-		<td align="center">208<br /><img src="https://img.shields.io/badge/-%2B8-red" alt="+8" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-signup-confirm-password/stats">494<br /><img src="https://img.shields.io/badge/-%2B4-brightgreen" alt="+4" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-signup-confirm-password/stats">15<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-signup-confirm-password/stats">1<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/nearata-signup-confirm-password/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/nearata-signup-confirm-password/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/FriendsOfFlarum/amazon-affiliation" title="fof/amazon-affiliation"><code>fof/amazon-affiliation</code></a>
-		</td>
-		<td align="center">209<br /><img src="https://img.shields.io/badge/-%2B4-red" alt="+4" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/amazon-affiliation/stats">445<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/amazon-affiliation/stats">15<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/amazon-affiliation/stats">0<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/fof-amazon-affiliation/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-amazon-affiliation/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/justoverclockl/flarum-ext-newsfeed" title="justoverclock/flarum-ext-newsfeed"><code>justoverclock/flarum-ext-newsfeed</code></a>
 		</td>
-		<td align="center">210<br /><img src="https://img.shields.io/badge/-%2B8-red" alt="+8" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-newsfeed/stats">175<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-newsfeed/stats">15<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-newsfeed/stats">1<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td align="center">209<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-newsfeed/stats">178<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-newsfeed/stats">16<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-newsfeed/stats">0<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-newsfeed/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-newsfeed/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/the-turk/flarum-miserable-users" title="the-turk/flarum-miserable-users"><code>the-turk/flarum-miserable-users</code></a>
+			<a href="https://github.com/justoverclockl/discussion-hero-showtags" title="justoverclock/discussion-hero-showtags"><code>justoverclock/discussion-hero-showtags</code></a>
 		</td>
-		<td align="center">211<br /><img src="https://img.shields.io/badge/-%2B5-red" alt="+5" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-miserable-users/stats">104<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-miserable-users/stats">15<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-miserable-users/stats">1<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/the-turk-miserable-users/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/the-turk-miserable-users/svg-badge.svg" alt="Translation status"></a></td>
+		<td align="center">210<br /><img src="https://img.shields.io/badge/-%2B8-red" alt="+8" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/discussion-hero-showtags/stats">53<br /><img src="https://img.shields.io/badge/-%2B6-brightgreen" alt="+6" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/discussion-hero-showtags/stats">16<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/discussion-hero-showtags/stats">2<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-discussion-hero-showtags/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-discussion-hero-showtags/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/SychO9/flarum-github-milestone" title="sycho/flarum-github-milestone"><code>sycho/flarum-github-milestone</code></a>
+			<a href="https://github.com/tokenjenny/flarum-ext-web3" title="tokenjenny/flarum-ext-web3"><code>tokenjenny/flarum-ext-web3</code></a>
 		</td>
-		<td align="center">212<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/sycho/flarum-github-milestone/stats">101<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/sycho/flarum-github-milestone/stats">14<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/sycho/flarum-github-milestone/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/sycho-github-milestone/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/sycho-github-milestone/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/Nearata/flarum-ext-minecraft-avatars" title="nearata/flarum-ext-minecraft-avatars"><code>nearata/flarum-ext-minecraft-avatars</code></a>
-		</td>
-		<td align="center">213<br /><img src="https://img.shields.io/badge/--4-brightgreen" alt="-4" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-minecraft-avatars/stats">465<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-minecraft-avatars/stats">13<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-minecraft-avatars/stats">0<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/nearata-minecraft-avatars/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/nearata-minecraft-avatars/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/justoverclockl/flarum-ext-socialcards" title="justoverclock/flarum-ext-socialcards"><code>justoverclock/flarum-ext-socialcards</code></a>
-		</td>
-		<td align="center">214<br /><img src="https://img.shields.io/badge/-%2B4-red" alt="+4" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-socialcards/stats">178<br /><img src="https://img.shields.io/badge/-%2B4-brightgreen" alt="+4" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-socialcards/stats">13<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-socialcards/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-socialcards/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-socialcards/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/zerosonesfun/expired-posts" title="zerosonesfun/expired-posts"><code>zerosonesfun/expired-posts</code></a>
-		</td>
-		<td align="center">215<br /><img src="https://img.shields.io/badge/-%2B3-red" alt="+3" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/zerosonesfun/expired-posts/stats">157<br /><img src="https://img.shields.io/badge/-%2B4-brightgreen" alt="+4" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/zerosonesfun/expired-posts/stats">13<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/zerosonesfun/expired-posts/stats">2<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/zerosonesfun-expired-posts/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/zerosonesfun-expired-posts/svg-badge.svg" alt="Translation status"></a></td>
+		<td align="center">211<br /><img src="https://img.shields.io/badge/--23-brightgreen" alt="-23" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/tokenjenny/flarum-ext-web3/stats">16<br /><img src="https://img.shields.io/badge/-%2B9-brightgreen" alt="+9" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/tokenjenny/flarum-ext-web3/stats">16<br /><img src="https://img.shields.io/badge/-%2B9-brightgreen" alt="+9" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/tokenjenny/flarum-ext-web3/stats">3<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/tokenjenny-web3/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/tokenjenny-web3/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/askvortsov1/flarum-saml" title="askvortsov/flarum-saml"><code>askvortsov/flarum-saml</code></a>
 		</td>
-		<td align="center">216<br /><img src="https://img.shields.io/badge/--9-brightgreen" alt="-9" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-saml/stats">339<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-saml/stats">12<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-saml/stats">0<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
+		<td align="center">212<br /><img src="https://img.shields.io/badge/--4-brightgreen" alt="-4" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-saml/stats">342<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-saml/stats">15<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/askvortsov/flarum-saml/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/askvortsov-saml/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/askvortsov-saml/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/nyu8/flarum-email-filter" title="nyu8/flarum-email-filter"><code>nyu8/flarum-email-filter</code></a>
-		</td>
-		<td align="center">217<br /><img src="https://img.shields.io/badge/-%2B9-red" alt="+9" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/nyu8/flarum-email-filter/stats">111<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/nyu8/flarum-email-filter/stats">12<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/nyu8/flarum-email-filter/stats">0<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/nyu8-email-filter/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/nyu8-email-filter/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/clarkwinkelmann/flarum-ext-likes-received" title="clarkwinkelmann/flarum-ext-likes-received"><code>clarkwinkelmann/…likes-received</code></a>
-		</td>
-		<td align="center">218<br /><img src="https://img.shields.io/badge/--5-brightgreen" alt="-5" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-likes-received/stats">348<br /><img src="https://img.shields.io/badge/-%2B6-brightgreen" alt="+6" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-likes-received/stats">11<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-likes-received/stats">2<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-likes-received/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-likes-received/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/clarkwinkelmann/flarum-ext-see-past-first-post" title="clarkwinkelmann/flarum-ext-see-past-first-post"><code>clarkwinkelmann/…see-past-first-post</code></a>
-		</td>
-		<td align="center">219<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-see-past-first-post/stats">317<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-see-past-first-post/stats">11<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-see-past-first-post/stats">0<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-see-past-first-post/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-see-past-first-post/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/justoverclockl/flarum-ext-realtimecode" title="justoverclock/flarum-ext-realtimecode"><code>justoverclock/flarum-ext-realtimecode</code></a>
-		</td>
-		<td align="center">220<br /><img src="https://img.shields.io/badge/-%2B17-red" alt="+17" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-realtimecode/stats">135<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-realtimecode/stats">11<br /><img src="https://img.shields.io/badge/--5-red" alt="-5" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-realtimecode/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-realtimecode/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-realtimecode/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/clarkwinkelmann/flarum-ext-username-blacklist" title="clarkwinkelmann/flarum-ext-username-blacklist"><code>clarkwinkelmann/…username-blacklist</code></a>
-		</td>
-		<td align="center">221<br /><img src="https://img.shields.io/badge/-%2B7-red" alt="+7" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-username-blacklist/stats">89<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-username-blacklist/stats">11<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-username-blacklist/stats">0<br /><img src="https://img.shields.io/badge/--3-red" alt="-3" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-username-blacklist/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-username-blacklist/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/clarkwinkelmann/flarum-ext-email-whitelist" title="clarkwinkelmann/flarum-ext-email-whitelist"><code>clarkwinkelmann/…email-whitelist</code></a>
-		</td>
-		<td align="center">222<br /><img src="https://img.shields.io/badge/-%2B18-red" alt="+18" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-email-whitelist/stats">67<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-email-whitelist/stats">11<br /><img src="https://img.shields.io/badge/--5-red" alt="-5" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-email-whitelist/stats">0<br /><img src="https://img.shields.io/badge/--4-red" alt="-4" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-email-whitelist/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-email-whitelist/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/Nearata/flarum-ext-dsts" title="nearata/flarum-ext-dsts"><code>nearata/flarum-ext-dsts</code></a>
-		</td>
-		<td align="center">223<br /><img src="https://img.shields.io/badge/-%2B3-red" alt="+3" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-dsts/stats">99<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-dsts/stats">10<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-dsts/stats">0<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/nearata-dsts/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/nearata-dsts/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/Serakoi/flarum-hideprofile" title="serakoi/flarum-hideprofile"><code>serakoi/flarum-hideprofile</code></a>
-		</td>
-		<td align="center">224<br /><img src="https://img.shields.io/badge/-%2B3-red" alt="+3" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/serakoi/flarum-hideprofile/stats">50<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/serakoi/flarum-hideprofile/stats">10<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/serakoi/flarum-hideprofile/stats">1<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/serakoi-hideprofile/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/serakoi-hideprofile/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/FriendsOfFlarum/github-sponsors" title="fof/github-sponsors"><code>fof/github-sponsors</code></a>
-		</td>
-		<td align="center">225<br /><img src="https://img.shields.io/badge/-%2B14-red" alt="+14" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/github-sponsors/stats">157<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/github-sponsors/stats">9<br /><img src="https://img.shields.io/badge/--4-red" alt="-4" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/github-sponsors/stats">0<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/fof-github-sponsors/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-github-sponsors/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/FriendsOfFlarum/open-collective" title="fof/open-collective"><code>fof/open-collective</code></a>
-		</td>
-		<td align="center">226<br /><img src="https://img.shields.io/badge/-%2B7-red" alt="+7" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/open-collective/stats">169<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/open-collective/stats">8<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/fof/open-collective/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/fof-open-collective/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-open-collective/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/clarkwinkelmann/flarum-ext-scratchpad" title="clarkwinkelmann/flarum-ext-scratchpad"><code>clarkwinkelmann/flarum-ext-scratchpad</code></a>
-		</td>
-		<td align="center">227<br /><img src="https://img.shields.io/badge/-%2B5-red" alt="+5" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-scratchpad/stats">127<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-scratchpad/stats">8<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-scratchpad/stats">0<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-scratchpad/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-scratchpad/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/clarkwinkelmann/flarum-ext-collapsible-posts" title="clarkwinkelmann/flarum-ext-collapsible-posts"><code>clarkwinkelmann/…collapsible-posts</code></a>
-		</td>
-		<td align="center">228<br /><img src="https://img.shields.io/badge/--16-brightgreen" alt="-16" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-collapsible-posts/stats">8<br /><img src="https://img.shields.io/badge/-%2B6-brightgreen" alt="+6" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-collapsible-posts/stats">8<br /><img src="https://img.shields.io/badge/-%2B6-brightgreen" alt="+6" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-collapsible-posts/stats">0<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-collapsible-posts/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-collapsible-posts/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/flarumi/oauth-vkontakte" title="flarumi/oauth-vkontakte"><code>flarumi/oauth-vkontakte</code></a>
 		</td>
-		<td align="center">229<br /><img src="https://img.shields.io/badge/-%2B5-red" alt="+5" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/flarumi/oauth-vkontakte/stats">198<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/flarumi/oauth-vkontakte/stats">7<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
+		<td align="center">213<br /><img src="https://img.shields.io/badge/--16-brightgreen" alt="-16" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/flarumi/oauth-vkontakte/stats">206<br /><img src="https://img.shields.io/badge/-%2B8-brightgreen" alt="+8" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/flarumi/oauth-vkontakte/stats">15<br /><img src="https://img.shields.io/badge/-%2B8-brightgreen" alt="+8" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/flarumi/oauth-vkontakte/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/flarumi-oauth-vkontakte/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/flarumi-oauth-vkontakte/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/justoverclockl/flarum-ext-socialcards" title="justoverclock/flarum-ext-socialcards"><code>justoverclock/flarum-ext-socialcards</code></a>
+		</td>
+		<td align="center">214<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-socialcards/stats">182<br /><img src="https://img.shields.io/badge/-%2B4-brightgreen" alt="+4" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-socialcards/stats">15<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-socialcards/stats">2<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-socialcards/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-socialcards/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/SychO9/flarum-github-milestone" title="sycho/flarum-github-milestone"><code>sycho/flarum-github-milestone</code></a>
+		</td>
+		<td align="center">215<br /><img src="https://img.shields.io/badge/-%2B3-red" alt="+3" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/sycho/flarum-github-milestone/stats">103<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/sycho/flarum-github-milestone/stats">15<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/sycho/flarum-github-milestone/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/sycho-github-milestone/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/sycho-github-milestone/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/justoverclockl/flarum-ext-pwgen" title="justoverclock/flarum-ext-pwgen"><code>justoverclock/flarum-ext-pwgen</code></a>
+		</td>
+		<td align="center">216<br /><img src="https://img.shields.io/badge/-%2B16-red" alt="+16" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-pwgen/stats">126<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-pwgen/stats">14<br /><img src="https://img.shields.io/badge/--3-red" alt="-3" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-pwgen/stats">0<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-pwgen/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-pwgen/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/nyu8/flarum-email-filter" title="nyu8/flarum-email-filter"><code>nyu8/flarum-email-filter</code></a>
+		</td>
+		<td align="center">217<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/nyu8/flarum-email-filter/stats">115<br /><img src="https://img.shields.io/badge/-%2B4-brightgreen" alt="+4" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/nyu8/flarum-email-filter/stats">14<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/nyu8/flarum-email-filter/stats">1<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/nyu8-email-filter/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/nyu8-email-filter/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/the-turk/flarum-miserable-users" title="the-turk/flarum-miserable-users"><code>the-turk/flarum-miserable-users</code></a>
+		</td>
+		<td align="center">218<br /><img src="https://img.shields.io/badge/-%2B7-red" alt="+7" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-miserable-users/stats">106<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-miserable-users/stats">14<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-miserable-users/stats">1<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/the-turk-miserable-users/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/the-turk-miserable-users/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/Nearata/flarum-ext-minecraft-avatars" title="nearata/flarum-ext-minecraft-avatars"><code>nearata/flarum-ext-minecraft-avatars</code></a>
+		</td>
+		<td align="center">219<br /><img src="https://img.shields.io/badge/-%2B6-red" alt="+6" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-minecraft-avatars/stats">467<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-minecraft-avatars/stats">13<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-minecraft-avatars/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/nearata-minecraft-avatars/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/nearata-minecraft-avatars/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/clarkwinkelmann/flarum-ext-collapsible-posts" title="clarkwinkelmann/flarum-ext-collapsible-posts"><code>clarkwinkelmann/…collapsible-posts</code></a>
+		</td>
+		<td align="center">220<br /><img src="https://img.shields.io/badge/--8-brightgreen" alt="-8" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-collapsible-posts/stats">13<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-collapsible-posts/stats">13<br /><img src="https://img.shields.io/badge/-%2B5-brightgreen" alt="+5" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-collapsible-posts/stats">1<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-collapsible-posts/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-collapsible-posts/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/clarkwinkelmann/flarum-ext-likes-received" title="clarkwinkelmann/flarum-ext-likes-received"><code>clarkwinkelmann/…likes-received</code></a>
+		</td>
+		<td align="center">221<br /><img src="https://img.shields.io/badge/-%2B3-red" alt="+3" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-likes-received/stats">351<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-likes-received/stats">12<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-likes-received/stats">0<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-likes-received/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-likes-received/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/clarkwinkelmann/flarum-ext-username-blacklist" title="clarkwinkelmann/flarum-ext-username-blacklist"><code>clarkwinkelmann/…username-blacklist</code></a>
+		</td>
+		<td align="center">222<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-username-blacklist/stats">92<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-username-blacklist/stats">12<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-username-blacklist/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-username-blacklist/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-username-blacklist/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/clarkwinkelmann/flarum-ext-see-past-first-post" title="clarkwinkelmann/flarum-ext-see-past-first-post"><code>clarkwinkelmann/…see-past-first-post</code></a>
+		</td>
+		<td align="center">223<br /><img src="https://img.shields.io/badge/-%2B4-red" alt="+4" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-see-past-first-post/stats">318<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-see-past-first-post/stats">11<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-see-past-first-post/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-see-past-first-post/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-see-past-first-post/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/FriendsOfFlarum/github-sponsors" title="fof/github-sponsors"><code>fof/github-sponsors</code></a>
+		</td>
+		<td align="center">224<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/github-sponsors/stats">160<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/github-sponsors/stats">11<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/github-sponsors/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/fof-github-sponsors/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-github-sponsors/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/justoverclockl/flarum-ext-realtimecode" title="justoverclock/flarum-ext-realtimecode"><code>justoverclock/flarum-ext-realtimecode</code></a>
+		</td>
+		<td align="center">225<br /><img src="https://img.shields.io/badge/-%2B5-red" alt="+5" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-realtimecode/stats">138<br /><img src="https://img.shields.io/badge/-%2B3-brightgreen" alt="+3" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-realtimecode/stats">11<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-realtimecode/stats">1<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-realtimecode/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-realtimecode/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/Nearata/flarum-ext-dsts" title="nearata/flarum-ext-dsts"><code>nearata/flarum-ext-dsts</code></a>
+		</td>
+		<td align="center">226<br /><img src="https://img.shields.io/badge/-%2B3-red" alt="+3" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-dsts/stats">101<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-dsts/stats">11<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-dsts/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/nearata-dsts/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/nearata-dsts/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/clarkwinkelmann/flarum-ext-email-whitelist" title="clarkwinkelmann/flarum-ext-email-whitelist"><code>clarkwinkelmann/…email-whitelist</code></a>
+		</td>
+		<td align="center">227<br /><img src="https://img.shields.io/badge/-%2B5-red" alt="+5" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-email-whitelist/stats">71<br /><img src="https://img.shields.io/badge/-%2B4-brightgreen" alt="+4" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-email-whitelist/stats">11<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-email-whitelist/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-email-whitelist/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-email-whitelist/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/clarkwinkelmann/flarum-ext-scratchpad" title="clarkwinkelmann/flarum-ext-scratchpad"><code>clarkwinkelmann/flarum-ext-scratchpad</code></a>
+		</td>
+		<td align="center">228<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-scratchpad/stats">129<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-scratchpad/stats">10<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-scratchpad/stats">1<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-scratchpad/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-scratchpad/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/Serakoi/flarum-hideprofile" title="serakoi/flarum-hideprofile"><code>serakoi/flarum-hideprofile</code></a>
+		</td>
+		<td align="center">229<br /><img src="https://img.shields.io/badge/-%2B5-red" alt="+5" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/serakoi/flarum-hideprofile/stats">52<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/serakoi/flarum-hideprofile/stats">9<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/serakoi/flarum-hideprofile/stats">1<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/serakoi-hideprofile/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/serakoi-hideprofile/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/FriendsOfFlarum/open-collective" title="fof/open-collective"><code>fof/open-collective</code></a>
+		</td>
+		<td align="center">230<br /><img src="https://img.shields.io/badge/-%2B4-red" alt="+4" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/open-collective/stats">171<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/open-collective/stats">8<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/fof/open-collective/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/fof-open-collective/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/fof-open-collective/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/clarkwinkelmann/flarum-ext-carving-contest" title="clarkwinkelmann/flarum-ext-carving-contest"><code>clarkwinkelmann/…carving-contest</code></a>
 		</td>
-		<td align="center">230<br /><img src="https://img.shields.io/badge/-%2B3-red" alt="+3" title="Change from last week"></td>
+		<td align="center">231<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
 		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-carving-contest/stats">76<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-carving-contest/stats">7<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-carving-contest/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
@@ -2561,96 +2572,118 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/clarkwinkelmann/flarum-ext-post-permissions" title="clarkwinkelmann/flarum-ext-post-permissions"><code>clarkwinkelmann/…post-permissions</code></a>
 		</td>
-		<td align="center">231<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-post-permissions/stats">73<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-post-permissions/stats">7<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td align="center">232<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-post-permissions/stats">75<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-post-permissions/stats">7<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-post-permissions/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-post-permissions/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-post-permissions/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/Nearata/flarum-ext-embed-twitch" title="nearata/flarum-ext-embed-twitch"><code>nearata/flarum-ext-embed-twitch</code></a>
-		</td>
-		<td align="center">232<br /><img src="https://img.shields.io/badge/-%2B3-red" alt="+3" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-embed-twitch/stats">52<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-embed-twitch/stats">7<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-embed-twitch/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/nearata-embed-twitch/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/nearata-embed-twitch/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/tokenjenny/flarum-ext-web3" title="tokenjenny/flarum-ext-web3"><code>tokenjenny/flarum-ext-web3</code></a>
-		</td>
-		<td align="center">233<br /><img src="https://img.shields.io/badge/-%2B2-red" alt="+2" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/tokenjenny/flarum-ext-web3/stats">7<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/tokenjenny/flarum-ext-web3/stats">7<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/tokenjenny/flarum-ext-web3/stats">0<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/tokenjenny-web3/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/tokenjenny-web3/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/Nearata/flarum-ext-auth-minecraft" title="nearata/flarum-ext-auth-minecraft"><code>nearata/flarum-ext-auth-minecraft</code></a>
-		</td>
-		<td align="center">234<br /><img src="https://img.shields.io/badge/-%2B6-red" alt="+6" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-auth-minecraft/stats">61<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-auth-minecraft/stats">6<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-auth-minecraft/stats">0<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/nearata-auth-minecraft/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/nearata-auth-minecraft/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/datlechin/flarum-add-like-controls" title="datlechin/flarum-add-like-controls"><code>datlechin/flarum-add-like-controls</code></a>
-		</td>
-		<td align="center">235</td>
-		<td align="center"><a href="https://packagist.org/packages/datlechin/flarum-add-like-controls/stats">6</a></td>
-		<td align="center"><a href="https://packagist.org/packages/datlechin/flarum-add-like-controls/stats">6</a></td>
-		<td align="center"><a href="https://packagist.org/packages/datlechin/flarum-add-like-controls/stats">4</a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/datlechin-add-like-controls/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/datlechin-add-like-controls/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/miniflar/admin-notepad-widget" title="miniflar/admin-notepad-widget"><code>miniflar/admin-notepad-widget</code></a>
 		</td>
-		<td align="center">236<br /><img src="https://img.shields.io/badge/-%2B2-red" alt="+2" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/miniflar/admin-notepad-widget/stats">101<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/miniflar/admin-notepad-widget/stats">5<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td align="center">233<br /><img src="https://img.shields.io/badge/--4-brightgreen" alt="-4" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/miniflar/admin-notepad-widget/stats">103<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/miniflar/admin-notepad-widget/stats">6<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/miniflar/admin-notepad-widget/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/miniflar-admin-notepad-widget/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/miniflar-admin-notepad-widget/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/the-turk/flarum-quiet-edits" title="the-turk/flarum-quiet-edits"><code>the-turk/flarum-quiet-edits</code></a>
+			<a href="https://github.com/Nearata/flarum-ext-auth-minecraft" title="nearata/flarum-ext-auth-minecraft"><code>nearata/flarum-ext-auth-minecraft</code></a>
 		</td>
-		<td align="center">237<br /><img src="https://img.shields.io/badge/-%2B5-red" alt="+5" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-quiet-edits/stats">241<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-quiet-edits/stats">4<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-quiet-edits/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/the-turk-quiet-edits/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/the-turk-quiet-edits/svg-badge.svg" alt="Translation status"></a></td>
+		<td align="center">234<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-auth-minecraft/stats">61<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-auth-minecraft/stats">6<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-auth-minecraft/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/nearata-auth-minecraft/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/nearata-auth-minecraft/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/spookygames/flarum-ext-auth-keycloak" title="spookygames/flarum-ext-auth-keycloak"><code>spookygames/flarum-ext-auth-keycloak</code></a>
+		</td>
+		<td align="center">235<br /><img src="https://img.shields.io/badge/-%2B38-red" alt="+38" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/spookygames/flarum-ext-auth-keycloak/stats">218<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/spookygames/flarum-ext-auth-keycloak/stats">5<br /><img src="https://img.shields.io/badge/--12-red" alt="-12" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/spookygames/flarum-ext-auth-keycloak/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/spookygames-auth-keycloak/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/spookygames-auth-keycloak/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/miniflar/sidenav-download-button" title="miniflar/sidenav-download-button"><code>miniflar/sidenav-download-button</code></a>
 		</td>
-		<td align="center">238<br /><img src="https://img.shields.io/badge/-%2B5-red" alt="+5" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/miniflar/sidenav-download-button/stats">103<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/miniflar/sidenav-download-button/stats">4<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
+		<td align="center">236<br /><img src="https://img.shields.io/badge/--3-brightgreen" alt="-3" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/miniflar/sidenav-download-button/stats">104<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/miniflar/sidenav-download-button/stats">5<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/miniflar/sidenav-download-button/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/miniflar-sidenav-download-button/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/miniflar-sidenav-download-button/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/clarkwinkelmann/flarum-ext-external-email-validation" title="clarkwinkelmann/flarum-ext-external-email-validation"><code>clarkwinkelmann/…external-email-validati…</code></a>
+		</td>
+		<td align="center">237<br /><img src="https://img.shields.io/badge/--6-brightgreen" alt="-6" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-external-email-validation/stats">55<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-external-email-validation/stats">5<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-external-email-validation/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-external-email-validation/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-external-email-validation/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/Nearata/flarum-ext-embed-twitch" title="nearata/flarum-ext-embed-twitch"><code>nearata/flarum-ext-embed-twitch</code></a>
+		</td>
+		<td align="center">238<br /><img src="https://img.shields.io/badge/-%2B6-red" alt="+6" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-embed-twitch/stats">52<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-embed-twitch/stats">5<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/nearata/flarum-ext-embed-twitch/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/nearata-embed-twitch/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/nearata-embed-twitch/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/clarkwinkelmann/flarum-ext-clippy" title="clarkwinkelmann/flarum-ext-clippy"><code>clarkwinkelmann/flarum-ext-clippy</code></a>
+		</td>
+		<td align="center">239<br /><img src="https://img.shields.io/badge/--2-brightgreen" alt="-2" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-clippy/stats">47<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-clippy/stats">5<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-clippy/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-clippy/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-clippy/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/justoverclockl/flarum-ext-newsletter" title="justoverclock/flarum-ext-newsletter"><code>justoverclock/flarum-ext-newsletter</code></a>
+		</td>
+		<td align="center">240<br /><img src="https://img.shields.io/badge/--5-brightgreen" alt="-5" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-newsletter/stats">35<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-newsletter/stats">5<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-newsletter/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-newsletter/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-newsletter/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/the-turk/flarum-quiet-edits" title="the-turk/flarum-quiet-edits"><code>the-turk/flarum-quiet-edits</code></a>
+		</td>
+		<td align="center">241<br /><img src="https://img.shields.io/badge/-%2B3-red" alt="+3" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-quiet-edits/stats">241<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-quiet-edits/stats">4<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/the-turk/flarum-quiet-edits/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/the-turk-quiet-edits/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/the-turk-quiet-edits/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/clarkwinkelmann/flarum-ext-translation-inspector" title="clarkwinkelmann/flarum-ext-translation-inspector"><code>clarkwinkelmann/…translation-inspector</code></a>
 		</td>
-		<td align="center">239<br /><img src="https://img.shields.io/badge/-%2B2-red" alt="+2" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-translation-inspector/stats">50<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
+		<td align="center">242<br /><img src="https://img.shields.io/badge/-%2B2-red" alt="+2" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-translation-inspector/stats">50<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-translation-inspector/stats">4<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-translation-inspector/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-translation-inspector/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-translation-inspector/svg-badge.svg" alt="Translation status"></a></td>
@@ -2658,57 +2691,24 @@
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/clarkwinkelmann/flarum-ext-clippy" title="clarkwinkelmann/flarum-ext-clippy"><code>clarkwinkelmann/flarum-ext-clippy</code></a>
-		</td>
-		<td align="center">240<br /><img src="https://img.shields.io/badge/-%2B4-red" alt="+4" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-clippy/stats">46<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-clippy/stats">4<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-clippy/stats">0<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-clippy/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-clippy/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/KyrneDev/Evergreen" title="kyrne/evergreen"><code>kyrne/evergreen</code></a>
 		</td>
-		<td align="center">241<br /><img src="https://img.shields.io/badge/-%2B15-red" alt="+15" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/kyrne/evergreen/stats">197<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/kyrne/evergreen/stats">3<br /><img src="https://img.shields.io/badge/--4-red" alt="-4" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/kyrne/evergreen/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td align="center">243<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
+		<td align="center"><a href="https://packagist.org/packages/kyrne/evergreen/stats">198<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/kyrne/evergreen/stats">3<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/kyrne/evergreen/stats">1<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/kyrne-evergreen/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/kyrne-evergreen/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/clarkwinkelmann/flarum-ext-external-email-validation" title="clarkwinkelmann/flarum-ext-external-email-validation"><code>clarkwinkelmann/…external-email-validati…</code></a>
-		</td>
-		<td align="center">242<br /><img src="https://img.shields.io/badge/-%2B7-red" alt="+7" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-external-email-validation/stats">53<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-external-email-validation/stats">3<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-external-email-validation/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-external-email-validation/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-external-email-validation/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/clarkwinkelmann/flarum-ext-email-as-display-name" title="clarkwinkelmann/flarum-ext-email-as-display-name"><code>clarkwinkelmann/…email-as-display-name</code></a>
 		</td>
-		<td align="center">243<br /><img src="https://img.shields.io/badge/-%2B5-red" alt="+5" title="Change from last week"></td>
+		<td align="center">244<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
 		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-email-as-display-name/stats">51<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-email-as-display-name/stats">3<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
+		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-email-as-display-name/stats">1<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/clarkwinkelmann/flarum-ext-email-as-display-name/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/clarkwinkelmann-email-as-display-name/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/clarkwinkelmann-email-as-display-name/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/justoverclockl/flarum-ext-newsletter" title="justoverclock/flarum-ext-newsletter"><code>justoverclock/flarum-ext-newsletter</code></a>
-		</td>
-		<td align="center">244<br /><img src="https://img.shields.io/badge/-%2B5-red" alt="+5" title="Change from last week"></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-newsletter/stats">33<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-newsletter/stats">3<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td align="center"><a href="https://packagist.org/packages/justoverclock/flarum-ext-newsletter/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-newsletter/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-newsletter/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 </tbody>
 </table>
@@ -2733,8 +2733,8 @@
 			<a href="https://extiverse.com/extension/v17development/flarum-support" title="v17development/flarum-support"><code>v17development/flarum-support</code></a>
 		</td>
 		<td align="center">1<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center">18<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></td>
-		<td align="center">1399<br /><img src="https://img.shields.io/badge/-%2B114-brightgreen" alt="+114" title="Change from last week"></td>
+		<td align="center">18<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center">1434<br /><img src="https://img.shields.io/badge/-%2B35-brightgreen" alt="+35" title="Change from last week"></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/v17development-support/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/v17development-support/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
@@ -2744,28 +2744,28 @@
 		</td>
 		<td align="center">2<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
 		<td align="center">17<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center">1427<br /><img src="https://img.shields.io/badge/-%2B73-brightgreen" alt="+73" title="Change from last week"></td>
+		<td align="center">1460<br /><img src="https://img.shields.io/badge/-%2B33-brightgreen" alt="+33" title="Change from last week"></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/blomstra-payments/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/blomstra-payments/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://extiverse.com/extension/kilowhat/flarum-ext-wordpress" title="kilowhat/flarum-ext-wordpress"><code>kilowhat/flarum-ext-wordpress</code></a>
-		</td>
-		<td align="center">3<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center">12<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center">79<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/kilowhat-wordpress/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/kilowhat-wordpress/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://extiverse.com/extension/reflar/recache" title="reflar/recache"><code>reflar/recache</code></a>
 		</td>
-		<td align="center">4<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center">11<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center">3<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
+		<td align="center">12<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></td>
 		<td align="center">274<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/reflar-recache/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/reflar-recache/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://extiverse.com/extension/kilowhat/flarum-ext-wordpress" title="kilowhat/flarum-ext-wordpress"><code>kilowhat/flarum-ext-wordpress</code></a>
+		</td>
+		<td align="center">4<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
+		<td align="center">12<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center">79<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/kilowhat-wordpress/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/kilowhat-wordpress/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
@@ -2774,7 +2774,7 @@
 		</td>
 		<td align="center">5<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
 		<td align="center">9<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center">1464<br /><img src="https://img.shields.io/badge/-%2B96-brightgreen" alt="+96" title="Change from last week"></td>
+		<td align="center">1554<br /><img src="https://img.shields.io/badge/-%2B90-brightgreen" alt="+90" title="Change from last week"></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/blomstra-realtime/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/blomstra-realtime/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
@@ -2784,7 +2784,7 @@
 		</td>
 		<td align="center">6<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
 		<td align="center">9<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center">544<br /><img src="https://img.shields.io/badge/-%2B73-brightgreen" alt="+73" title="Change from last week"></td>
+		<td align="center">577<br /><img src="https://img.shields.io/badge/-%2B33-brightgreen" alt="+33" title="Change from last week"></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/kilowhat-custom-paths/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/kilowhat-custom-paths/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
@@ -2794,7 +2794,7 @@
 		</td>
 		<td align="center">7<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
 		<td align="center">5<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center">540<br /><img src="https://img.shields.io/badge/-%2B73-brightgreen" alt="+73" title="Change from last week"></td>
+		<td align="center">573<br /><img src="https://img.shields.io/badge/-%2B33-brightgreen" alt="+33" title="Change from last week"></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/kilowhat-audit-pro/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/kilowhat-audit-pro/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
@@ -2812,9 +2812,9 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://extiverse.com/extension/datitisev/flarum-backup" title="datitisev/flarum-backup"><code>datitisev/flarum-backup</code></a>
 		</td>
-		<td align="center">9<br /><img src="https://img.shields.io/badge/--1-brightgreen" alt="-1" title="Change from last week"></td>
-		<td align="center">5<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></td>
-		<td align="center">14<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></td>
+		<td align="center">9<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center">5<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center">14<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/datitisev-backup/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/datitisev-backup/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
@@ -2822,7 +2822,7 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://extiverse.com/extension/datitisev/flarum-maintenance" title="datitisev/flarum-maintenance"><code>datitisev/flarum-maintenance</code></a>
 		</td>
-		<td align="center">10<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
+		<td align="center">10<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
 		<td align="center">4<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
 		<td align="center">24<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/datitisev-maintenance/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/datitisev-maintenance/svg-badge.svg" alt="Translation status"></a></td>
@@ -2830,11 +2830,21 @@
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://extiverse.com/extension/maicol07/flarum-oidc-client" title="maicol07/flarum-oidc-client"><code>maicol07/flarum-oidc-client</code></a>
+		</td>
+		<td align="center">11<br /><img src="https://img.shields.io/badge/--3-brightgreen" alt="-3" title="Change from last week"></td>
+		<td align="center">3<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></td>
+		<td align="center">5<br /><img src="https://img.shields.io/badge/-%2B1-brightgreen" alt="+1" title="Change from last week"></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/maicol07-oidc-client/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/maicol07-oidc-client/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://extiverse.com/extension/kilowhat/flarum-ext-formulaire" title="kilowhat/flarum-ext-formulaire"><code>kilowhat/flarum-ext-formulaire</code></a>
 		</td>
-		<td align="center">11<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center">12<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
 		<td align="center">2<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center">825<br /><img src="https://img.shields.io/badge/-%2B75-brightgreen" alt="+75" title="Change from last week"></td>
+		<td align="center">862<br /><img src="https://img.shields.io/badge/-%2B37-brightgreen" alt="+37" title="Change from last week"></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/kilowhat-formulaire/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/kilowhat-formulaire/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
@@ -2842,9 +2852,9 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://extiverse.com/extension/datitisev/flarum-webhooks-pro" title="datitisev/flarum-webhooks-pro"><code>datitisev/flarum-webhooks-pro</code></a>
 		</td>
-		<td align="center">12<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center">13<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
 		<td align="center">2<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center">94<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center">102<br /><img src="https://img.shields.io/badge/-%2B8-brightgreen" alt="+8" title="Change from last week"></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/datitisev-webhooks-pro/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/datitisev-webhooks-pro/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
@@ -2852,20 +2862,10 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://extiverse.com/extension/justoverclock/website-live-screenshot" title="justoverclock/website-live-screenshot"><code>justoverclock/website-live-screenshot</code></a>
 		</td>
-		<td align="center">13<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center">14<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
 		<td align="center">2<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center">27<br /><img src="https://img.shields.io/badge/-%2B2-brightgreen" alt="+2" title="Change from last week"></td>
+		<td align="center">27<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-website-live-screenshot/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-website-live-screenshot/svg-badge.svg" alt="Translation status"></a></td>
-	</tr>
-	<tr>
-		<td>
-			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://extiverse.com/extension/maicol07/flarum-oidc-client" title="maicol07/flarum-oidc-client"><code>maicol07/flarum-oidc-client</code></a>
-		</td>
-		<td align="center">14<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center">2<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center">4<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/maicol07-oidc-client/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/maicol07-oidc-client/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
 		<td>
@@ -2874,7 +2874,7 @@
 		</td>
 		<td align="center">15<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
 		<td align="center">1<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
-		<td align="center">1280<br /><img src="https://img.shields.io/badge/-%2B73-brightgreen" alt="+73" title="Change from last week"></td>
+		<td align="center">1313<br /><img src="https://img.shields.io/badge/-%2B33-brightgreen" alt="+33" title="Change from last week"></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/blomstra-readme/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/blomstra-readme/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
@@ -2892,9 +2892,9 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://extiverse.com/extension/justoverclock/auto-post-badge-pro" title="justoverclock/auto-post-badge-pro"><code>justoverclock/auto-post-badge-pro</code></a>
 		</td>
-		<td align="center">17</td>
-		<td align="center">1</td>
-		<td align="center">1</td>
+		<td align="center">17<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center">1<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center">1<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-auto-post-badge-pro/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/justoverclock-auto-post-badge-pro/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
 	<tr>
