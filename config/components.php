@@ -525,6 +525,9 @@ return [
 	'justoverclock-discussion-info' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/discussions-info/0.1.2/locale/en.yml',
 	],
+	'justoverclock-discussion-sentiment-analyzer' => [
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/discussion-sentiment-analyzer/0.1.1/locale/en.yml',
+	],
 	'justoverclock-dontgoaway' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-dontgoaway/0.2.5/resources/locale/en.yml',
 	],
