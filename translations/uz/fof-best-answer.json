@@ -2,30 +2,30 @@
     "fof-best-answer": {
         "admin": {
             "permissions": {
-                "best_answer": "",
-                "best_answer_not_own_discussion": ""
+                "best_answer": "Eng yaxshi javobni tanlang (o'z muhokamasi)",
+                "best_answer_not_own_discussion": "Eng yaxshi javobni tanlang (o'z muhokamasi emas)"
             },
             "settings": {
                 "label": {
                     "general": "Umumiy",
-                    "reminders": "",
-                    "advanced": "",
-                    "reminders_notice": ""
+                    "reminders": "Eslatmalar",
+                    "advanced": "Murakkab",
+                    "reminders_notice": "Eslatmalar ishlashi uchun siz Flarum rejalashtiruvchisini to'g'ri sozlagan bo'lishingiz kerak."
                 },
-                "allow_select_own_post": "",
-                "allow_select_own_post_help": "",
-                "enable_all_tags_button": "",
-                "enable_all_tags_reminder_button": "",
-                "select_best_answer_reminder_days": "",
-                "select_best_answer_reminder_days_help": "",
-                "schedule_on_one_server": "",
-                "schedule_on_one_server_help": "",
-                "schedule_stop_overnight": "",
-                "schedule_stop_overnight_help": "",
-                "schedule_log_output": "",
-                "show_filter_label": "",
-                "show_filter_help": "",
-                "use_alt_ui": "",
+                "allow_select_own_post": "O'z postingizni tanlang",
+                "allow_select_own_post_help": "OPga muhokamadagi o'z postlaridan birini eng yaxshi javob sifatida tanlashga ruxsat bering",
+                "enable_all_tags_button": "Eng yaxshi javoblar uchun barcha teglarni yoqing",
+                "enable_all_tags_reminder_button": "Eng yaxshi javob eslatmalari uchun barcha teglarni yoqing",
+                "select_best_answer_reminder_days": "Eslatma tezligi",
+                "select_best_answer_reminder_days_help": "Eng yaxshi javobni tanlash uchun OPga sozlanishi mumkin bo'lgan kunlar miqdoridan keyin eslatma yuboring, 0 = eslatmalarni o'chirib qo'ying.",
+                "schedule_on_one_server": "Vazifa rejalashtiruvchisi uchun \"onOneServer()\" direktivasidan foydalaning",
+                "schedule_on_one_server_help": "Redis/Memcache talab qiladi",
+                "schedule_stop_overnight": "Ijtimoiy bo'lmagan soatlarda eslatma bildirishnomalarining yuborilishini oldini oling",
+                "schedule_stop_overnight_help": "Server vaqti bilan 21:00 dan 8:00 gacha",
+                "schedule_log_output": "Rejalashtiruvchi chiqishini jurnal xotirasiga qo'shing",
+                "show_filter_label": "Eng yaxshi javob filtri ochiladigan roʻyxatini koʻrsatish",
+                "show_filter_help": "Eng yaxshi javoblar yoqilgan teglar uchun muhokamalar roʻyxatida hal qilingan/yechilmagan filtr variantini koʻrsatishni tanlang",
+                "use_alt_ui": "Muqobil tartib",
                 "use_alt_ui_help": "",
                 "documentation": "",
                 "introduction": ""
