@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "Configureer bereiken",
-                "confirm_purge": "",
+                "confirm_purge": "Bij het opschonen zullen alle database-items en assets gerelateerd aan deze extensie verwijderd worden. Het zal de extensie niet verwijderen, dat moet via Composer. Weet je zeker dat je door wilt gaan?",
                 "disabled": "Uitgeschakeld",
                 "enable_to_see": "Schakel de extensie in om instellingen te bekijken en te wijzigen.",
                 "enabled": "Ingeschakeld",
@@ -116,9 +116,9 @@
                 "no_settings": "Deze extensie heeft geen instellingen.",
                 "open_modal": "Open instellingen",
                 "permissions_title": "Rechten",
-                "purge_button": "",
+                "purge_button": "Opschonen",
                 "readme": {
-                    "button_label": "",
+                    "button_label": "LEESMIJ",
                     "no_readme": "Deze extensie lijkt geen README-bestand te hebben",
                     "title": "{extName} documentatie"
                 },
@@ -569,8 +569,8 @@
                 "title": "=> core.ref.reset_your_password"
             },
             "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Pagina # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Pagina # - {forumName}}}"
             }
         },
         "api": {
