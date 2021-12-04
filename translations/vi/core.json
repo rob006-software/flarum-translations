@@ -569,8 +569,8 @@
                 "title": "=> core.ref.reset_your_password"
             },
             "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Trang # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Trang # - {forumName}}}"
             }
         },
         "api": {
