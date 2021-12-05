@@ -7,8 +7,8 @@
         },
         "forum": {
             "notifications": {
-                "user_suspended_text": "Вы заблокированы на {timeReadable}",
-                "user_unsuspended_text": "Вы разблокированы"
+                "user_suspended_text": "{username} заблокировал Вас на {timeReadable}",
+                "user_unsuspended_text": "{username} разблокировал Вас"
             },
             "suspend_user": {
                 "indefinitely_label": "Заблокирован навсегда",
