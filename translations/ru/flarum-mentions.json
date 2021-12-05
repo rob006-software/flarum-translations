@@ -38,11 +38,11 @@
         "email": {
             "post_mentioned": {
                 "subject": "{replier_display_name} ответил на Ваше сообщение в {title}",
-                "body": "Привет, {recipient_display_name}!\n\n{replier_display_name} ответил на Ваше сообщение (#{post_number}) в {title}.\n\n{url}\n\n---\n\n{content}\n"
+                "body": "Здравствуйте, {recipient_display_name}!\n\n{replier_display_name} ответил на Ваше сообщение (#{post_number}) в {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "user_mentioned": {
                 "subject": "{mentioner_display_name} упомянул Вас в {title}",
-                "body": "Привет, {recipient_display_name}!\n\n{mentioner_display_name} упомянул Вас в своём сообщении в {title}.\n\n{url}\n\n---\n\n{content}\n"
+                "body": "Здравствуйте, {recipient_display_name}!\n\n{mentioner_display_name} упомянул Вас в своём сообщении в {title}.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }
