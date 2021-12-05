@@ -2,15 +2,15 @@
     "clarkwinkelmann-clippy": {
         "admin": {
             "settings": {
-                "cdn": "",
+                "cdn": "CDN",
                 "cdn-options": {
-                    "s3": "",
-                    "jsdelivr": "",
-                    "custom": ""
+                    "s3": "Amazon S3",
+                    "jsdelivr": "jsDelivr",
+                    "custom": "Не обычный"
                 },
-                "path": "",
-                "path-help": "",
-                "agent": "",
+                "path": "Не обычный CDN путь",
+                "path-help": "Полный URL-адрес без косой черты, ведущий к папке, содержащей содержимое <a>clippy.js репозитория</a>.",
+                "agent": "Агент",
                 "agent-help": "",
                 "events": "",
                 "events-help": ""
