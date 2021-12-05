@@ -2,33 +2,33 @@
     "clarkwinkelmann-featured-discussions": {
         "admin": {
             "settings": {
-                "schedule": "",
-                "duration": "",
-                "eventPost": ""
+                "schedule": "Расписание (синтаксис CRON)",
+                "duration": "Продолжительность по умолчанию (секунды)",
+                "eventPost": "Создавать сообщение о событии при изменении расписания"
             },
             "permissions": {
-                "feature": ""
+                "feature": "Управлять избранными обсуждениями"
             }
         },
         "forum": {
             "modal": {
                 "title": "",
                 "fields": {
-                    "from": "",
-                    "until": ""
+                    "from": "От",
+                    "until": "До"
                 },
                 "from": {
                     "not": "",
-                    "next": "",
-                    "manual": ""
+                    "next": "Следующий слот",
+                    "manual": "Дата, указанная вручную"
                 },
                 "until": {
-                    "auto": "",
-                    "manual": ""
+                    "auto": "Автоматически",
+                    "manual": "Дата, указанная вручную"
                 },
                 "action": {
-                    "cancel": "",
-                    "submit": ""
+                    "cancel": "Отмена",
+                    "submit": "Отправить"
                 }
             },
             "controls": {
@@ -39,15 +39,15 @@
                 "schedule": ""
             },
             "schedule": {
-                "help": "",
-                "drop-here": "",
-                "drop-error": "",
-                "empty": "",
+                "help": "Перетащите обсуждения на странице или из другого окна, чтобы изменить их расписание. Чтобы удалить расписание, используйте меню из 3х точек.\n",
+                "drop-here": "Поместите сюда, чтобы запланировать",
+                "drop-error": "Недействительная ссылка на обсуждение",
+                "empty": "Нет обсуждений",
                 "custom": ""
             },
             "post": {
-                "scheduled": "",
-                "unscheduled": "",
+                "scheduled": "Планируется к показу с {from} до {until}",
+                "unscheduled": "Больше не планируется к показу",
                 "auto": ""
             }
         }
