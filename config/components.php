@@ -508,7 +508,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/justoverclock-auto-post-badge-pro.yml',
 	],
 	'justoverclock-auto-post-count-badge' => [
-		'tag' => 'https://raw.githubusercontent.com/justoverclockl/auto-post-count-badge/0.1.7/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/auto-post-count-badge/0.1.9/locale/en.yml',
 	],
 	'justoverclock-contactme' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-contactme/0.2.3/resources/locale/en.yml',
