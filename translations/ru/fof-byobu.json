@@ -69,7 +69,7 @@
                 "pd_reply_label": "Ответ в переписке, участником которой я являюсь",
                 "pd_reply_text": "{username} ответил(а) в переписке, участником которой Вы являетесь",
                 "pd_text": "{username} начал(а) с Вами переписку",
-                "pd_user_left_label": "Участник покидает переписку, в которой я участвую",
+                "pd_user_left_label": "Пользователь покидает переписку, участником которой я являюсь",
                 "pd_user_left_text": "{username} покинул(а) переписку",
                 "pd_added_text": "{username} добавил(а) Вас в переписку",
                 "pd_added_label": "Добавление меня в существующую переписку"
@@ -97,10 +97,10 @@
                 "private_discussion_added": "[Переписка] {display_name} добавил(а) Вас в переписку"
             },
             "body": {
-                "private_discussion_created": "Привет, {recipient_display_name}!\n\n{actor_display_name} начал(а) новую переписку с Вами. Название переписки: '{discussion_title}'.\n\nПосмотреть:\n{discussion_url}\n\nВы должны будете войти под своей учётной записью для того, чтобы получить доступ к переписке.\n",
-                "private_discussion_replied": "Привет, {recipient_display_name}!\n\n{actor_display_name} ответил(а) в переписке, участником которой Вы являетесь. Название переписки: '{discussion_title}'.\n\nПосмотреть:\n{post_url}\n\nВы должны будете войти под своей учётной записью для того, чтобы получить доступ к переписке.\n",
-                "recipient_removed": "Привет, {recipient_display_name}!\n\n{actor_display_name} покинул(а) переписку '{discussion_title}'. Этот участник больше не сможет читать сообщения переписки.\n\nПосмотреть:\n{discussion_url}\n\nВы должны будете войти под своей учётной записью для того, чтобы получить доступ к переписке.\n",
-                "private_discussion_added": "Привет, {recipient_display_name}!\n\n{actor_display_name} добавил(а) Вас в существующую переписку. Название переписки: '{discussion_title}'.\n\nПосмотреть:\n{discussion_url}\n\nВы должны будете войти под своей учётной записью для того, чтобы получить доступ к переписке.\n"
+                "private_discussion_created": "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} начал(а) новую переписку с Вами. Название переписки: '{discussion_title}'.\n\nПосмотреть:\n{discussion_url}\n\nВы должны будете войти под своей учётной записью для того, чтобы получить доступ к переписке.\n",
+                "private_discussion_replied": "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} ответил(а) в переписке, участником которой Вы являетесь. Название переписки: '{discussion_title}'.\n\nПосмотреть:\n{post_url}\n\nВы должны будете войти под своей учётной записью для того, чтобы получить доступ к переписке.\n",
+                "recipient_removed": "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} покинул(а) переписку '{discussion_title}'. Этот участник больше не сможет читать сообщения переписки.\n\nПосмотреть:\n{discussion_url}\n\nВы должны будете войти под своей учётной записью для того, чтобы получить доступ к переписке.\n",
+                "private_discussion_added": "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} добавил(а) Вас в существующую переписку. Название переписки: '{discussion_title}'.\n\nПосмотреть:\n{discussion_url}\n\nВы должны будете войти под своей учётной записью для того, чтобы получить доступ к переписке.\n"
             }
         }
     }
