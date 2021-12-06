@@ -2,14 +2,14 @@
     "justoverclock-auto-post-count-badge": {
         "admin": {
             "settings": {
-                "tier": "",
+                "tier": "Katman {tier} : Şuradan {from} şuraya {to} gönderiler",
                 "icon-manager": {
-                    "title": "",
-                    "help_text": ""
+                    "title": "Simge Yönetimi",
+                    "help_text": "=> core.ref.icon_text"
                 },
                 "label-manager": {
-                    "title": "",
-                    "help": ""
+                    "title": "Metin Etiket Yöneticisi",
+                    "help": "Katman adlarını özelleştirin"
                 }
             },
             "levelOne": "Seviye 1 - \"Bebek\" için simgeyi değiştir",
@@ -32,7 +32,7 @@
             "less300post": "Öğretmen",
             "less600post": "Canavar!",
             "less1000post": "İş Bilen!",
-            "hasWritten": "Bu kullanıcı yazdı",
+            "hasWritten": "{count, plural, one {# gönderi yazıldı} other {# gönderi yazıldı}}",
             "posts": "gönderiler"
         }
     }
