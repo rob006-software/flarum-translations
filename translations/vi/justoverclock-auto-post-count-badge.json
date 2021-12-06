@@ -2,14 +2,14 @@
     "justoverclock-auto-post-count-badge": {
         "admin": {
             "settings": {
-                "tier": "",
+                "tier": "Cấp 2 {tier}: từ {from} đến {to} bài viết",
                 "icon-manager": {
-                    "title": "",
-                    "help_text": ""
+                    "title": "Trình quản lý icon",
+                    "help_text": "=> core.ref.icon_text"
                 },
                 "label-manager": {
-                    "title": "",
-                    "help": ""
+                    "title": "Trình quản lý văn bản nhãn",
+                    "help": "Tùy chỉnh tên cấp độ"
                 }
             },
             "levelOne": "Đổi icon cấp 1 - \"Sơ sinh\"",
@@ -32,7 +32,7 @@
             "less300post": "Giáo sư",
             "less600post": "Bậc thầy!",
             "less1000post": "Huyền thoại!",
-            "hasWritten": "Người dùng này đã viết",
+            "hasWritten": "{count, plural, one {đã viết # bài viết} other {đã viết # bài viết}}",
             "posts": "bài viết"
         }
     }
