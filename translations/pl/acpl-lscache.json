@@ -2,14 +2,14 @@
     "acpl-lscache": {
         "admin": {
             "public_cache_ttl_label": "Domyślny TTL publicznego cache",
-            "public_cache_ttl_help": "Określ jak długo, w sekundach, publiczne strony będą przechowywane w pamięci podręcznej. Wartość domyślna to 300 sekund",
-            "serve_stale_label": "",
-            "serve_stale_help": "",
-            "purge_on_discussion_update_label": "",
-            "purge_on_discussion_update_help": "",
-            "cache_exclude_label": "",
-            "cache_exclude_help": "",
-            "purge_all": "Wyczyść całe LSCache",
+            "public_cache_ttl_help": "Określ jak długo, w sekundach, publiczne strony będą przechowywane w pamięci podręcznej. Wartość domyślna to 300 sekund.",
+            "serve_stale_label": "Serwuj wygasłe cache",
+            "serve_stale_help": "Jeśli opcja jest włączona, wygasła kopia cache strony będzie pokazywana odwiedzającym do czasu, aż nowa kopia będzie dostępna. Zmniejsza obciążenie serwera przy kolejnych wizytach. Jeśli opcja jest wyłączona, strona będzie generowana dynamicznie podczas oczekiwania odwiedzających. Z założenia opcja ta może powodować wyświetlanie nieaktualnych treści. Nie włączaj tej opcji, jeśli nie jest to w porządku w stosunku do Ciebie.",
+            "purge_on_discussion_update_label": "Opróżnij URLe lub tagi gdy dyskusja lub post jest aktualizowana",
+            "purge_on_discussion_update_help": "Podaj jeden URL lub tag na linię. URL powinien zaczynać się od <code>/</code>, np. <code>/rankings</code> a tag cache powinien zaczynać się od <code>tag=</code>, np. <code>tag=rankings</code>. To rozszerzenie taguje każdą ścieżkę i np. jeśli masz dużo ścieżek, których cache chciałbyś opróżnić, to lepiej jest dodać zasadę z wyrażeniem regularnym w .htaccess, która otaguje ścieżki a tutaj w ustawieniach podać tylko ten tag. Ta metoda będzie znacznie szybsza. <a>Dowiedz się więcej</a>. Domyślnie opróżniane jest cache strony głównej oraz zaktualizowanej dyskusji.",
+            "cache_exclude_label": "Nie zapisuj w pamięci podręcznej ścieżek",
+            "cache_exclude_help": "Ścieżki zawierające te ciągi nie będą zapisywane. Na przykład, dla <code>/mypath/mypage?aa=bb</code>, <code>mypage?aa=</code> może zostać użyte tutaj. Aby dopasować początek, dodaj <code>^</code> na początku elementu. Aby wykonać dopasowanie typu exact match, dodaj symbol <code>$</code> na końcu adresu URL. Jeden na linię.",
+            "purge_all": "Opróżnij całe LSCache",
             "purge_all_success": "Powiadomiono serwer LiteSpeed, aby wyczyścił wszystkie wpisy LSCache"
         }
     }
