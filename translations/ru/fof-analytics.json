@@ -7,27 +7,27 @@
                     "piwik": "Matomo"
                 },
                 "field": {
-                    "statusGoogle": "Разрешить Аналитику Google",
+                    "statusGoogle": "Включить аналитику Google",
                     "optTrackingCode": "Оптимизировать код отслеживания (опционально)",
-                    "googleTrackingCode": "Идентификатор кода отслеживания",
-                    "googleGTMCode": "Идентификатор GTM кода (опционально)",
-                    "statusPiwik": "Разрешить Matomo",
-                    "piwikUrl": "Matomo домен или URL",
+                    "googleTrackingCode": "ID кода отслеживания",
+                    "googleGTMCode": "ID GTM кода (опционально)",
+                    "statusPiwik": "Включить Matomo",
+                    "piwikUrl": "Домен Matomo или URL",
                     "piwikSiteId": "ID сайта",
-                    "piwikTrackSubdomain": "Отслеживать посетителей по всем поддоменам Flarum",
-                    "piwikPrependDomain": "Подменять домен сайта названием страницы при отслеживании",
-                    "piwikHideAliasUrl": "",
-                    "piwikAliasUrl": "Псевдо-URL",
-                    "piwikTrackAccounts": "Отслеживать отдельные пользовательские аккаунты",
-                    "piwikAuthToken": "Ключ аутентификации"
+                    "piwikTrackSubdomain": "Отслеживать посетителей по всем суб-доменам Flarum",
+                    "piwikPrependDomain": "Добавлять домен сайта к заголовку страницы при отслеживании",
+                    "piwikHideAliasUrl": "Скрыть клики по известным псевдонимам URL в отчёте \"Исходящие ссылки\"",
+                    "piwikAliasUrl": "Псевдоним URL",
+                    "piwikTrackAccounts": "Отслеживать аккаунты пользователей",
+                    "piwikAuthToken": "Токен аутентификации"
                 },
                 "placeholder": {
-                    "piwikAuthToken": "Заполните этот ключ для включения виджета статистики Matomo в административной панели.\nВы можете найти его здесь: Настройки > Личные > Ключ API аутентификации.\n"
+                    "piwikAuthToken": "Укажите токен для активации виджета статистики Matomo в панели управления.\nНайти токен можно в Settings > Personal > API Authentication Token.\n"
                 },
                 "trackAccounts": {
                     "none": "Не отслеживать",
-                    "username": "Отслеживать по имени пользователя (логину)",
-                    "email": "Отслеживать по адресу эл.почты"
+                    "username": "Отслеживать по имени пользователя",
+                    "email": "Отслеживать по адресу e-mail"
                 }
             },
             "matomo-widget": {
