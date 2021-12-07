@@ -675,6 +675,9 @@ return [
 	'michaelbelgium-discussion-views' => [
 		'tag' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-discussion-views/v7.1.1/locale/en.yml',
 	],
+	'michaelbelgium-mybb-to-flarum' => [
+		'tag' => 'https://raw.githubusercontent.com/MichaelBelgium/mybb_to_flarum/v8.0/locale/en.yml',
+	],
 	'michaelbelgium-profile-views' => [
 		'tag' => 'https://raw.githubusercontent.com/MichaelBelgium/flarum-profile-views/v6.0.1/locale/en.yml',
 	],
