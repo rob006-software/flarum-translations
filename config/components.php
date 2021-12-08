@@ -807,6 +807,9 @@ return [
 	'tpokorra-post-notification' => [
 		'tag' => 'https://raw.githubusercontent.com/tpokorra/flarum-ext-post-notification/0.4.6/resources/locale/en.yml',
 	],
+	'unkorneglosk-age-check' => [
+		'tag' => 'https://raw.githubusercontent.com/Unkorneglosk/flarum-age-check/0.0.3/locale/en.yml',
+	],
 	'v17development-blog' => [
 		'tag' => 'https://raw.githubusercontent.com/v17development/flarum-blog/0.4.2/locale/en.yaml',
 	],
