@@ -2,37 +2,37 @@
     "clarkwinkelmann-shadow-ban": {
         "admin": {
             "setting": {
-                "hideUsers": ""
+                "hideUsers": "Скрыть профили заблокированных (в тени) пользователей"
             },
             "permission": {
-                "ban": "",
-                "hide": ""
+                "ban": "Использовать теневую блокировку на пользователях",
+                "hide": "Использовать теневое скрытие дискуссий и сообщений"
             }
         },
         "forum": {
             "discussionControl": {
-                "hide": "",
-                "restore": ""
+                "hide": "Скрыть (в тень)",
+                "restore": "Восстановить (из тени)"
             },
             "postControl": {
-                "hide": "",
-                "restore": ""
+                "hide": "Скрыть (в тень)",
+                "restore": "Восстановить (из тени)"
             },
             "userControl": {
-                "ban": ""
+                "ban": "Блокировать (в тень)"
             },
             "banUser": {
-                "title": "",
-                "until": "",
-                "quick": "",
-                "quickChoiceReset": "",
-                "quickChoiceDays": "",
-                "submit": ""
+                "title": "Приостановить {username}",
+                "until": "До даты (UTC)",
+                "quick": "Варианты",
+                "quickChoiceReset": "Не заблокирован",
+                "quickChoiceDays": "{count, plural, one {# день} other {# дней}}",
+                "submit": "Сохранить"
             },
             "badge": {
-                "user": "",
-                "discussion": "",
-                "post": ""
+                "user": "Заблокирован (в тени)",
+                "discussion": "Скрыто (в тени)",
+                "post": "Скрыто (в тени)"
             }
         }
     }
