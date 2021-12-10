@@ -548,6 +548,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`matteocontrini-imgur-upload`](https://weblate.rob006.net/projects/flarum/matteocontrini-imgur-upload) | [`matteocontrini/flarum-imgur-upload`](https://github.com/matteocontrini/flarum-imgur-upload) |
 | [`michaelbelgium-discussion-views`](https://weblate.rob006.net/projects/flarum/michaelbelgium-discussion-views) | [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views) |
 | [`michaelbelgium-profile-views`](https://weblate.rob006.net/projects/flarum/michaelbelgium-profile-views) | [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views) |
+| [`michaelbelgium-mybb-to-flarum`](https://weblate.rob006.net/projects/flarum/michaelbelgium-mybb-to-flarum) | [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum) |
 | [`migratetoflarum-canonical`](https://weblate.rob006.net/projects/flarum/migratetoflarum-canonical) | [`migratetoflarum/canonical`](https://github.com/migratetoflarum/canonical) |
 | [`migratetoflarum-fake-data`](https://weblate.rob006.net/projects/flarum/migratetoflarum-fake-data) | [`migratetoflarum/fake-data`](https://github.com/migratetoflarum/fake-data) |
 | [`miniflar-admin-notepad-widget`](https://weblate.rob006.net/projects/flarum/miniflar-admin-notepad-widget) | [`miniflar/admin-notepad-widget`](https://github.com/miniflar/admin-notepad-widget) |
