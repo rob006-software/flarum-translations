@@ -2,14 +2,14 @@
     "justoverclock-auto-post-count-badge": {
         "admin": {
             "settings": {
-                "tier": "",
+                "tier": "Livello {tier} : da {from} a {to} post",
                 "icon-manager": {
-                    "title": "",
-                    "help_text": ""
+                    "title": "Gestione Icone",
+                    "help_text": "=> core.ref.icon_text"
                 },
                 "label-manager": {
-                    "title": "",
-                    "help": ""
+                    "title": "Gestione Testo Badge",
+                    "help": "Personalizza nomi livelli"
                 }
             },
             "levelOne": "Cambia icona per il livello 1 - \"Il Poppante\"",
@@ -32,7 +32,7 @@
             "less300post": "Il Maestro",
             "less600post": "Il Mostro!",
             "less1000post": "Il Guru!",
-            "hasWritten": "Questo utente ha scritto",
+            "hasWritten": "{count, plural, one {# post scritto} other {# post scritti}}",
             "posts": "post"
         }
     }
