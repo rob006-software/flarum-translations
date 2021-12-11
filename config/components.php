@@ -826,7 +826,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/v17development/flarum-user-badges/v1.0.0/locale/en.yaml',
 	],
 	'webbinaro-calendar' => [
-		'tag' => 'https://raw.githubusercontent.com/eddiewebb/flarum-calendar/1.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/eddiewebb/flarum-calendar/1.0.1/resources/locale/en.yml',
 	],
 	'zerosonesfun-bbcode-button' => [
 		'tag' => 'https://raw.githubusercontent.com/zerosonesfun/flarum-bbcode-button/0.1/locale/en.yml',
