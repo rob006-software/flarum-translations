@@ -3,16 +3,16 @@
         "forum": {
             "user": {
                 "viewlist": {
-                    "title": "Последние посетители",
+                    "title": "Посетители",
                     "guest": "Гость"
                 },
-                "view_count_text": "{viewcount, plural, one {Просмотрено {viewcount} раз} other {Просмотрено {viewcount} раза}}"
+                "view_count_text": "{viewcount, plural, one {Просмотров: {viewcount}} other {Просмотров: {viewcount}}}"
             }
         },
         "admin": {
             "settings": {
                 "track_guests_label": "Отслеживать гостей",
-                "max_viewcount_label": "Максимальная длина списка посетителей"
+                "max_viewcount_label": "Максимальное количество посетителе в списке"
             }
         }
     }
