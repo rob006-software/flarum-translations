@@ -3,6 +3,7 @@
         "admin": {
             "public_cache_ttl_label": "Öffentliche Standard-Cache-TTL",
             "public_cache_ttl_help": "Gebe an, wie lange (in Sekunden) öffentliche Seiten zwischengespeichert werden. Der Standardwert ist 300 Sekunden.",
+            "clearing_cache_listener_label": "",
             "serve_stale_label": "",
             "serve_stale_help": "Bei EIN wird den Besuchern die veraltete Kopie einer im Cache gespeicherten Seite angezeigt, bis eine neue Cache-Kopie verfügbar ist. Reduziert die Serverlast für folgende Besuche. Wenn AUS, wird die Seite dynamisch generiert, während die Besucher warten. Diese Option kann konstruktionsbedingt veraltete Inhalte bereitstellen. Aktiviere diese Option nicht, wenn dies für Dich nicht in Ordnung ist.",
             "purge_on_discussion_update_label": "URLs oder Tags löschen, wenn eine Diskussion oder ein Beitrag aktualisiert wird",

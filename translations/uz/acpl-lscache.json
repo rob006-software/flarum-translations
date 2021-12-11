@@ -3,6 +3,7 @@
         "admin": {
             "public_cache_ttl_label": "Standart umumiy kesh TTL",
             "public_cache_ttl_help": "Umumiy sahifalar qancha vaqt, soniyalarda keshlanishini belgilang. Standart qiymat 300 soniya.",
+            "clearing_cache_listener_label": "",
             "serve_stale_label": "Kechikib xizmat ko'rsatish",
             "serve_stale_help": "Agar yoqilgan bo'lsa, keshlangan sahifaning eskirgan nusxasi yangi kesh nusxasi mavjud bo'lmaguncha tashrif buyuruvchilarga ko'rsatiladi. Keyingi tashriflar uchun server yukini kamaytiradi. Agar o'chirilgan bo'lsa, tashrif buyuruvchilar kutayotganda sahifa dinamik ravishda yaratiladi. Dizaynga ko'ra, bu parametr eskirgan tarkibga xizmat qilishi mumkin. Agar bu sizga mos kelmasa, ushbu parametrni yoqmang.",
             "purge_on_discussion_update_label": "Muhokama yoki post yangilanganda URL yoki teglarni tozalang",

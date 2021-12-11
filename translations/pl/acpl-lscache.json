@@ -3,6 +3,7 @@
         "admin": {
             "public_cache_ttl_label": "Domyślny TTL publicznego cache",
             "public_cache_ttl_help": "Określ jak długo, w sekundach, publiczne strony będą przechowywane w pamięci podręcznej. Wartość domyślna to 300 sekund.",
+            "clearing_cache_listener_label": "",
             "serve_stale_label": "Serwuj wygasłe cache",
             "serve_stale_help": "Jeśli opcja jest włączona, wygasła kopia cache strony będzie pokazywana odwiedzającym do czasu, aż nowa kopia będzie dostępna. Zmniejsza obciążenie serwera przy kolejnych wizytach. Jeśli opcja jest wyłączona, strona będzie generowana dynamicznie podczas oczekiwania odwiedzających. Z założenia opcja ta może powodować wyświetlanie nieaktualnych treści. Nie włączaj tej opcji, jeśli nie jest to w porządku w stosunku do Ciebie.",
             "purge_on_discussion_update_label": "Opróżnij URLe lub tagi gdy dyskusja lub post jest aktualizowana",

@@ -3,6 +3,7 @@
         "admin": {
             "public_cache_ttl_label": "TTL de la caché pública predefinida",
             "public_cache_ttl_help": "Especifica cuánto tiempo, en segundos, se almacenan en caché las páginas públicas. El valor por defecto es de 300 segundos.",
+            "clearing_cache_listener_label": "",
             "serve_stale_label": "Serve Stale",
             "serve_stale_help": "Si está activado, la copia antigua de una página en caché se mostrará a los visitantes hasta que haya una nueva copia en caché disponible. Reduce la carga del servidor para las siguientes visitas. Si está desactivado, la página se generará dinámicamente mientras los visitantes esperan. Por su diseño, esta opción puede servir contenido obsoleto. No habilite esta opción, si no le parece bien.",
             "purge_on_discussion_update_label": "Purga de URLs o etiquetas cuando se actualiza una discusión o post",

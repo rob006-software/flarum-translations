@@ -3,6 +3,7 @@
         "admin": {
             "public_cache_ttl_label": "TTL cache pubblica predefinita",
             "public_cache_ttl_help": "Specifica per quanto tempo, in secondi, le pagine pubbliche vengono memorizzate nella cache. Il valore predefinito è 300 secondi",
+            "clearing_cache_listener_label": "",
             "serve_stale_label": "Serve Stale",
             "serve_stale_help": "Se ON, la copia obsoleta di una pagina memorizzata nella cache verrà mostrata ai visitatori fino a quando non sarà disponibile una nuova copia cache. Riduce il carico del server per le visite successive. Se OFF, la pagina verrà generata dinamicamente mentre i visitatori aspettano. In base alla progettazione, questa opzione può fornire contenuti obsoleti. Non abilitare questa opzione, se non ti va bene.",
             "purge_on_discussion_update_label": "Elimina URL o tag quando una discussione o un post viene aggiornato",

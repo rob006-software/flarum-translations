@@ -3,6 +3,7 @@
         "admin": {
             "public_cache_ttl_label": "Varsayılan genel önbellek TTL",
             "public_cache_ttl_help": "Sayfaların ne kadar süreyle önbelleğe alınacağını saniye cinsinden belirtin. Varsayılan değer 300 saniyedir.",
+            "clearing_cache_listener_label": "",
             "serve_stale_label": "Bayat Servis",
             "serve_stale_help": "AÇIK ise, önbelleğe alınmış bir sayfanın eski kopyası, yeni bir önbellek kopyası bulunana kadar ziyaretçilere gösterilecektir. Sonraki ziyaretler için sunucu yükünü azaltır. KAPALI ise, ziyaretçiler beklerken sayfa dinamik olarak oluşturulur. Tasarım gereği, bu seçenek eski içeriğe hizmet edebilir. Sizin için uygun değilse, bu seçeneği etkinleştirmeyin.",
             "purge_on_discussion_update_label": "Bir tartışma veya gönderi güncellendiğinde URL'leri veya Etiketleri temizle",
