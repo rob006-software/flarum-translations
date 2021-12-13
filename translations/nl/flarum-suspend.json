@@ -8,13 +8,23 @@
         "forum": {
             "notifications": {
                 "user_suspended_text": "Je bent geschorst voor {timeReadable}",
+                "user_suspended_indefinite_text": "",
                 "user_unsuspended_text": "Je schorsing is ongedaan gemaakt"
             },
+            "suspension_info": {
+                "dismiss_button": "",
+                "indefinite": "",
+                "limited": "",
+                "title": ""
+            },
             "suspend_user": {
+                "display_message": "",
                 "indefinitely_label": "Opgeschort voor onbepaalde tijd",
                 "limited_time_days_text": " dagen",
                 "limited_time_label": "Opgeschort voor een beperkte tijd ...",
                 "not_suspended_label": "Niet geschorst",
+                "placeholder_optional": "",
+                "reason": "",
                 "status_heading": "Opschortingsstatus",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "{username} opschorten"
@@ -24,6 +34,16 @@
             },
             "user_controls": {
                 "suspend_button": "Opschorten"
+            }
+        },
+        "email": {
+            "suspended": {
+                "subject": "",
+                "body": ""
+            },
+            "unsuspended": {
+                "subject": "",
+                "body": ""
             }
         }
     }

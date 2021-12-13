@@ -8,13 +8,23 @@
         "forum": {
             "notifications": {
                 "user_suspended_text": "您已被 {username} 封禁 {timeReadable}",
+                "user_suspended_indefinite_text": "",
                 "user_unsuspended_text": "您已被 {username} 解封"
             },
+            "suspension_info": {
+                "dismiss_button": "",
+                "indefinite": "",
+                "limited": "",
+                "title": ""
+            },
             "suspend_user": {
+                "display_message": "",
                 "indefinitely_label": "永久封禁",
                 "limited_time_days_text": " 天",
                 "limited_time_label": "自定义封禁时间",
                 "not_suspended_label": "不封禁",
+                "placeholder_optional": "",
+                "reason": "",
                 "status_heading": "封禁状态",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "封禁 {username}"
@@ -24,6 +34,16 @@
             },
             "user_controls": {
                 "suspend_button": "封禁"
+            }
+        },
+        "email": {
+            "suspended": {
+                "subject": "",
+                "body": ""
+            },
+            "unsuspended": {
+                "subject": "",
+                "body": ""
             }
         }
     }

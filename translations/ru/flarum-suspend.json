@@ -8,13 +8,23 @@
         "forum": {
             "notifications": {
                 "user_suspended_text": "{username} заблокировал Вас на {timeReadable}",
+                "user_suspended_indefinite_text": "",
                 "user_unsuspended_text": "{username} разблокировал Вас"
             },
+            "suspension_info": {
+                "dismiss_button": "",
+                "indefinite": "",
+                "limited": "",
+                "title": ""
+            },
             "suspend_user": {
+                "display_message": "",
                 "indefinitely_label": "Заблокирован навсегда",
                 "limited_time_days_text": " дней",
                 "limited_time_label": "Заблокирован на период...",
                 "not_suspended_label": "Не заблокирован",
+                "placeholder_optional": "",
+                "reason": "",
                 "status_heading": "Статус блокировки",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Блокировка {username}"
@@ -24,6 +34,16 @@
             },
             "user_controls": {
                 "suspend_button": "Блокировать"
+            }
+        },
+        "email": {
+            "suspended": {
+                "subject": "",
+                "body": ""
+            },
+            "unsuspended": {
+                "subject": "",
+                "body": ""
             }
         }
     }

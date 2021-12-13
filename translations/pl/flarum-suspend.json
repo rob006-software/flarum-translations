@@ -8,13 +8,23 @@
         "forum": {
             "notifications": {
                 "user_suspended_text": "Zostałeś zbanowany na {timeReadable}",
+                "user_suspended_indefinite_text": "",
                 "user_unsuspended_text": "Zostałeś odbanowany"
             },
+            "suspension_info": {
+                "dismiss_button": "",
+                "indefinite": "",
+                "limited": "",
+                "title": ""
+            },
             "suspend_user": {
+                "display_message": "",
                 "indefinitely_label": "Zbanowany na zawsze",
                 "limited_time_days_text": " dni",
                 "limited_time_label": "Zbanowany na określony czas...",
                 "not_suspended_label": "Nie jest zbanowany",
+                "placeholder_optional": "",
+                "reason": "",
                 "status_heading": "Status bana",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Zbanuj {username}"
@@ -24,6 +34,16 @@
             },
             "user_controls": {
                 "suspend_button": "Zbanuj"
+            }
+        },
+        "email": {
+            "suspended": {
+                "subject": "",
+                "body": ""
+            },
+            "unsuspended": {
+                "subject": "",
+                "body": ""
             }
         }
     }
