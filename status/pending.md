@@ -43,6 +43,4 @@
 
 ## Dead branches
 
-| Extension | Pull request |
-| --- | --- |
-| `dtbj1-username-request` | [![#780 (closed)](https://img.shields.io/badge/PR-%23780-red)](https://github.com/rob006-software/flarum-translations/pull/780) |
+There are no dead branches.
