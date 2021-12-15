@@ -8,23 +8,23 @@
         "forum": {
             "notifications": {
                 "user_suspended_text": "{username} заблокировал Вас на {timeReadable}",
-                "user_suspended_indefinite_text": "",
+                "user_suspended_indefinite_text": "Вы заблокированы на неопределенный срок",
                 "user_unsuspended_text": "{username} разблокировал Вас"
             },
             "suspension_info": {
-                "dismiss_button": "",
-                "indefinite": "",
-                "limited": "",
-                "title": ""
+                "dismiss_button": "Отменить",
+                "indefinite": "Эта блокировка действует на неопределенный срок",
+                "limited": "Эта блокировка действует до {date}",
+                "title": "Этот аккаунт заблокирован"
             },
             "suspend_user": {
-                "display_message": "",
+                "display_message": "Отобразить сообщение для пользователя",
                 "indefinitely_label": "Заблокирован навсегда",
                 "limited_time_days_text": " дней",
                 "limited_time_label": "Заблокирован на период...",
                 "not_suspended_label": "Не заблокирован",
-                "placeholder_optional": "",
-                "reason": "",
+                "placeholder_optional": "Опционально",
+                "reason": "Причина блокировки",
                 "status_heading": "Статус блокировки",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Блокировка {username}"
@@ -38,12 +38,12 @@
         },
         "email": {
             "suspended": {
-                "subject": "",
-                "body": ""
+                "subject": "Ваш аккаунт заблокирован",
+                "body": "Привет {recipient_display_name},\n\nВас заблокировали по следующей причине:\n\n---\n{suspension_message}\n---\n"
             },
             "unsuspended": {
-                "subject": "",
-                "body": ""
+                "subject": "Ваш аккаунт разблокирован",
+                "body": "Привет {recipient_display_name},\n\nВы били разблокированы. Вы можете перейти на форум, щелкнув по следующей ссылке:\n\n{forum_url}\n"
             }
         }
     }
