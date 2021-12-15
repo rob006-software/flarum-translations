@@ -2,11 +2,20 @@
     "ianm-synopsis": {
         "admin": {
             "settings": {
-                "excerpt-label": "Độ dài đoạn trích tóm tắt tính bằng ký tự",
+                "excerpt-length": {
+                    "label": "",
+                    "help": ""
+                },
                 "rich-excerpts": "Hiển thị các đoạn trích sử dụng nội dung phong phú (sử dụng một cách thận trọng)",
                 "excerpt-type": "Bài viết nào nên được hiển thị dưới dạng đoạn trích?",
                 "first-label": "Bài viết đầu tiên",
-                "last-label": "Bài viết cuối cùng"
+                "last-label": "Bài viết cuối cùng",
+                "tags-enabled": "",
+                "excerpt-label": "Độ dài đoạn trích tóm tắt tính bằng ký tự",
+                "rich-excerpts.label": "",
+                "rich-excerpts.help": "",
+                "excerpt-type.label": "",
+                "excerpt-type.help": ""
             }
         },
         "forum": {

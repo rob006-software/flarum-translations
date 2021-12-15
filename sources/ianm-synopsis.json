@@ -2,11 +2,21 @@
     "ianm-synopsis": {
         "admin": {
             "settings": {
-                "excerpt-label": "Summary excerpt length in characters",
-                "rich-excerpts": "Display excerpts using rich content (use with caution)",
-                "excerpt-type": "Which post should be displayed as the excerpt?",
+                "excerpt-length": {
+                    "label": "Summary excerpt length in characters",
+                    "help": "How many characters should be displayed from the post."
+                },
+                "rich-excerpts": {
+                    "label": "Display excerpts using rich content",
+                    "help": "When enabled, images, embeds and other non text elements may be included in the synopsis"
+                },
+                "excerpt-type": {
+                    "label": "Which post should be displayed as the excerpt?",
+                    "help": "Select if the first or last post be used for synopsis content"
+                },
                 "first-label": "First post",
-                "last-label": "Last post"
+                "last-label": "Last post",
+                "tags-enabled": "You have <code>flarum/tags</code> enabled. These settings will become default, unless per individual tags have their own setting."
             }
         },
         "forum": {

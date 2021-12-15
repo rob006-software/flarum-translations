@@ -2,11 +2,20 @@
     "ianm-synopsis": {
         "admin": {
             "settings": {
-                "excerpt-label": "Longueur de l'extrait du résumé en caractères",
+                "excerpt-length": {
+                    "label": "",
+                    "help": ""
+                },
                 "rich-excerpts": "Afficher des extraits à l'aide d'un contenu riche (à utiliser avec précaution)",
                 "excerpt-type": "Quel message doit être affiché comme extrait ?",
                 "first-label": "Premier message",
-                "last-label": "Dernier message"
+                "last-label": "Dernier message",
+                "tags-enabled": "",
+                "excerpt-label": "Longueur de l'extrait du résumé en caractères",
+                "rich-excerpts.label": "",
+                "rich-excerpts.help": "",
+                "excerpt-type.label": "",
+                "excerpt-type.help": ""
             }
         },
         "forum": {
