@@ -8,17 +8,17 @@
         "forum": {
             "notifications": {
                 "user_suspended_text": "{username} заблокировал Вас на {timeReadable}",
-                "user_suspended_indefinite_text": "Вы заблокированы на неопределенный срок",
+                "user_suspended_indefinite_text": "Вы заблокированы на неопределённый срок",
                 "user_unsuspended_text": "{username} разблокировал Вас"
             },
             "suspension_info": {
-                "dismiss_button": "Отменить",
-                "indefinite": "Эта блокировка действует на неопределенный срок",
-                "limited": "Эта блокировка действует до {date}",
-                "title": "Этот аккаунт заблокирован"
+                "dismiss_button": "Закрыть",
+                "indefinite": "Блокировка на неопределённый срок",
+                "limited": "Блокировка истекает {date}",
+                "title": "Аккаунт заблокирован"
             },
             "suspend_user": {
-                "display_message": "Отобразить сообщение для пользователя",
+                "display_message": "Показать сообщение пользователю",
                 "indefinitely_label": "Заблокирован навсегда",
                 "limited_time_days_text": " дней",
                 "limited_time_label": "Заблокирован на период...",
@@ -39,11 +39,11 @@
         "email": {
             "suspended": {
                 "subject": "Ваш аккаунт заблокирован",
-                "body": "Привет {recipient_display_name},\n\nВас заблокировали по следующей причине:\n\n---\n{suspension_message}\n---\n"
+                "body": "Здравствуйте, {recipient_display_name}!\n\nВаш аккаунт был заблокирован по следующей причине:\n\n---\n{suspension_message}\n---\n"
             },
             "unsuspended": {
                 "subject": "Ваш аккаунт разблокирован",
-                "body": "Привет {recipient_display_name},\n\nВы били разблокированы. Вы можете перейти на форум, щелкнув по следующей ссылке:\n\n{forum_url}\n"
+                "body": "Здравствуйте, {recipient_display_name}!\n\nВаш аккаунт был разблокирован. Вы можете вернуться на форум, нажав на ссылку:\n\n{forum_url}\n"
             }
         }
     }
