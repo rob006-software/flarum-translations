@@ -18,13 +18,13 @@
                 "with_vkontakte": "{provider} 账号登陆"
             },
             "providers": {
-                "vkontakte": "",
+                "vkontakte": "=> fof-oauth.lib.providers.vkontakte",
                 "vk": ""
             }
         },
         "lib": {
             "providers": {
-                "vkontakte": "Vkontakte"
+                "vkontakte": "VK"
             }
         },
         "providers": {
