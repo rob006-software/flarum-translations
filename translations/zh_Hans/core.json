@@ -455,7 +455,7 @@
                 "sent_message": "发送"
             },
             "welcome_hero": {
-                "hide": ""
+                "hide": "隐藏欢迎横幅内容"
             }
         },
         "lib": {
@@ -494,10 +494,10 @@
                 "accessible_label": "=> core.ref.loading"
             },
             "modal": {
-                "close": ""
+                "close": "关闭"
             },
             "nav": {
-                "drawer_button": ""
+                "drawer_button": "打开导航抽屉"
             },
             "number_suffix": {
                 "kilo_text": "千",
@@ -569,8 +569,8 @@
                 "title": "=> core.ref.reset_your_password"
             },
             "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle} - 第 # 页 - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {第 # 页 - {forumName}}}"
             }
         },
         "api": {
