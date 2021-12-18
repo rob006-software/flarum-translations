@@ -19,7 +19,7 @@
                         "fix_errors": "请在保存前修正错误",
                         "code_has_script": "一个或多个广告单元含有 script 标签，请移除后重试。"
                     },
-                    "warning": "广告代码 <b>仅可</b> 含有 <code>ins</code> 标签，且不得含有 script 标签。此扩展程序会自动运行当前脚本。\n"
+                    "warning": "脚本代码由本扩展自动运行。广告代码 <b>仅可</b> 含有 <code>ins</code> 标签，同时不得含有 script 脚本标签。\n"
                 }
             },
             "lib": {
