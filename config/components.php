@@ -294,9 +294,6 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum/tags/v1.1.0/locale/en.yml',
 		'branch' => 'https://raw.githubusercontent.com/flarum/tags/master/locale/en.yml',
 	],
-	'flarumi-oauth-vkontakte' => [
-		'tag' => 'https://raw.githubusercontent.com/flarumi/oauth-vkontakte/v1.1.0/locale/en.yml',
-	],
 	'flarumite-simple-discussion-views' => [
 		'tag' => 'https://raw.githubusercontent.com/flarumite/simple-discussion-views/1.0.5/resources/locale/en.yml',
 	],
