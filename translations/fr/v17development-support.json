@@ -243,29 +243,29 @@
                     "description": "Souriez, vous êtes le héros qui sauve la journée d'autres personnes.",
                     "no_tickets": "Il n'y a pas de billets qui correspondent à vos critères, vous faites probablement du bon travail !",
                     "all_tickets": "Tous les tickets",
-                    "selection_unfiltered": "",
-                    "selection_open": "",
-                    "selection_closed": "",
-                    "refresh": "",
+                    "selection_unfiltered": "Non filtré",
+                    "selection_open": "Tickets ouverts",
+                    "selection_closed": "Tickets fermés",
+                    "refresh": "Actualiser",
                     "filter": {
                         "status": {
-                            "title": "",
-                            "filter_count": ""
+                            "title": "Statut du ticket",
+                            "filter_count": "{count, plural, one {# filtre} other {# filtres}}"
                         },
                         "language": {
-                            "any": ""
+                            "any": "N'importe quel langage"
                         },
                         "assignees": {
-                            "title": "",
-                            "search": "",
-                            "unassigned": ""
+                            "title": "Filtrer les assignés",
+                            "search": "Rechercher un assigné",
+                            "unassigned": "Non attribué"
                         }
                     },
                     "sort": {
-                        "newest": "",
-                        "oldest": "",
-                        "recent_activity": "",
-                        "least_recent": ""
+                        "newest": "Le plus récent d'abord",
+                        "oldest": "Le plus âgé en premier",
+                        "recent_activity": "Activité récente",
+                        "least_recent": "Activité la moins récente"
                     }
                 }
             }
