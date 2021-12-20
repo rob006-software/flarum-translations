@@ -2,16 +2,16 @@
     "clarkwinkelmann-roll-die": {
         "admin": {
             "settings": {
-                "clearOnEdit": ""
+                "clearOnEdit": "Générer de nouveaux numéros sur les messages édités"
             }
         },
         "forum": {
             "tooltip": {
-                "render": "",
-                "preview": ""
+                "render": "Lancer aléatoire : {number}",
+                "preview": "Lancer aléatoire lors de la sauvegarde"
             },
             "composer": {
-                "rollDie": ""
+                "rollDie": "Lancer un dé"
             }
         }
     }
