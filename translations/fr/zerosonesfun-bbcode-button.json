@@ -2,15 +2,15 @@
     "flarum-bbcode-button": {
         "admin": {
             "settings": {
-                "codelabel": "",
-                "codedesc": "",
-                "poslabel": "",
-                "posdesc": ""
+                "codelabel": "BBCode personnalisé",
+                "codedesc": "Tapez les balises BBCode d'ouverture et de fermeture ci-dessous et enregistrez.",
+                "poslabel": "Placement du curseur",
+                "posdesc": "Vous voudrez que le curseur se trouve par défaut entre les balises d'ouverture et de fermeture. Ajustez ce nombre pour y parvenir. Plus le nombre est grand, plus le curseur apparaîtra vers la droite."
             }
         },
         "forum": {
             "composer": {
-                "bbcode_tooltip": ""
+                "bbcode_tooltip": "Insérer un BBCode"
             }
         }
     }
