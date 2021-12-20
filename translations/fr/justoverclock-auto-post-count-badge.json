@@ -2,22 +2,22 @@
     "justoverclock-auto-post-count-badge": {
         "admin": {
             "settings": {
-                "tier": "",
+                "tier": "Échelon {tier} : de {from} à {to} messages",
                 "icon-manager": {
-                    "title": "",
-                    "help_text": ""
+                    "title": "Gestionnaire d'icônes",
+                    "help_text": "=> core.ref.icon_text"
                 },
                 "label-manager": {
-                    "title": "",
-                    "help": ""
+                    "title": "Gestionnaire de libellé de texte",
+                    "help": "Personnaliser les noms d'échelon"
                 }
             },
-            "levelOne": "",
-            "levelOne-help": "",
-            "levelTwo": "",
-            "levelTwo-help": "",
-            "levelTree": "",
-            "levelTree-help": "",
+            "levelOne": "Changer l'icône pour l'échelon 1 - « Le bébé »",
+            "levelOne-help": "collez ici l'icône de fontawesome que vous souhaitez afficher pour l'échelon 1 (par exemple, « fas fa-square »)",
+            "levelTwo": "Changer l'icône pour l'échelon 2 - « Le débutant »",
+            "levelTwo-help": "collez ici l'icône de fontawesome que vous souhaitez afficher pour l'échelon 2 (par exemple, « fas fa-square »)",
+            "levelTree": "Changer l'icône pour l'échelon 3 - « Le bavard »",
+            "levelTree-help": "collez ici l'icône de fontawesome que vous souhaitez afficher pour l'échelon 3 (par exemple, « fas fa-square »)",
             "levelFour": "",
             "levelFour-help": "",
             "levelFive": "",
