@@ -4,8 +4,14 @@
             "admin": {
                 "settings": {
                     "enabled_locations": "Включенные местоположения рекламных блоков",
+                    "script_urls": "",
+                    "add_script": "",
+                    "script_deletion": "",
                     "code_input": "Код для рекламного блока \"{for}\"",
                     "code_input_disabled": "Включите это место, чтобы редактировать его HTML-код.",
+                    "js_input": "",
+                    "js_input_disabled": "",
+                    "use_adsense": "",
                     "pub_id": "AdSense Publisher ID",
                     "between_posts_gap": "Между сообщениями: разрыв между объявлениями",
                     "allow_after_placeholder": "Между сообщениями: показывать объявление после ответа",
