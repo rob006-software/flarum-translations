@@ -469,7 +469,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/ganuonglachanh/flarum-sonic/0.1.5/resources/locale/en.yml',
 	],
 	'glowingblue-password-strength' => [
-		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-password-strength/3.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-password-strength/3.0.1/locale/en.yml',
 	],
 	'glowingblue-redis-setup' => [
 		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-redis-setup/1.0.3/resources/locale/en.yml',
