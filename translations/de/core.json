@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "Bereiche konfigurieren",
-                "confirm_purge": "",
+                "confirm_purge": "Beim Bereinigen werden alle Datenbankeinträge und Assets entfernt, die sich auf die Erweiterung beziehen. Die Erweiterung wird nicht deinstalliert; das muss über Composer getan werden. Bist Du sicher sicher, dass Du fortfahren willst?",
                 "disabled": "Deaktiviert",
                 "enable_to_see": "Aktiviere die Erweiterung um Einstellungen zu sehen und zu ändern.",
                 "enabled": "Aktiviert",
@@ -116,11 +116,11 @@
                 "no_settings": "Diese Erweiterung hat keine Einstellungen.",
                 "open_modal": "Einstellungen öffnen",
                 "permissions_title": "Berechtigungen",
-                "purge_button": "",
+                "purge_button": "Bereinigen",
                 "readme": {
-                    "button_label": "",
-                    "no_readme": "",
-                    "title": ""
+                    "button_label": "LIESMICH",
+                    "no_readme": "Diese Erweiterung scheint keine README-Datei zu haben",
+                    "title": "{extName}-Dokumentation"
                 },
                 "confirm_uninstall": "Bei der Deinstallation werden alle Datenbankeinträge und Assets, die mit der Erweiterung in Verbindung stehen, entfernt. Bist du sicher, dass du fortfahren möchtest?",
                 "uninstall_button": "Deinstallieren"
@@ -305,8 +305,8 @@
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} {ago}",
                 "started_text": "{username} {ago}",
-                "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": "",
+                "total_replies_a11y_label": "{count, plural, one {# Antwort} other {# Antworten}}",
+                "unread_replies_a11y_label": "{count, plural, one {# ungelesene Antwort} other {# ungelesene Antworten}}. Markiere ungelesene {count, plural, one {Antwort} other {Antworten}} als gelesen.",
                 "mark_as_read_tooltip": "Als gelesen markieren"
             },
             "forgot_password": {
@@ -455,11 +455,11 @@
                 "sent_message": "Versendet"
             },
             "welcome_hero": {
-                "hide": ""
+                "hide": "Willkommensnachricht ausblenden"
             }
         },
         "lib": {
-            "debug_button": "",
+            "debug_button": "Debug",
             "badge": {
                 "hidden_tooltip": "Versteckt"
             },
@@ -494,10 +494,10 @@
                 "accessible_label": "=> core.ref.loading"
             },
             "modal": {
-                "close": ""
+                "close": "Schließen"
             },
             "nav": {
-                "drawer_button": ""
+                "drawer_button": "Navigationsschublade öffnen"
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -569,8 +569,8 @@
                 "title": "=> core.ref.reset_your_password"
             },
             "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Seite # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Seite # - {forumName}}}"
             }
         },
         "api": {
