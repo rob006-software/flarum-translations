@@ -12,7 +12,7 @@
             "modal_resetviews": {
                 "title": "Aufrufzähler zurücksetzen",
                 "submit_button": "Ja, alle entfernen",
-                "label": "{count, plural, one {Dies wird # Diskussionsaufruf entfernen.} other {Dies wird # Diskussionsaufrufe entfernen.}} Fortfahren?"
+                "label": "{count, plural, one {Dies wird {count} Ansicht dieser Diskussion entfernen. Fortfahren?} other {Dadurch werden {count} Aufrufe dieser Diskussion entfernt. Fortsetzen?}}"
             },
             "discussion_controls": {
                 "resetviews_button": "Aufrufzähler zurücksetzen"
