@@ -8,12 +8,12 @@
         "forum": {
             "notifications": {
                 "others_text": "=> core.ref.some_others",
-                "post_liked_text": "{username} kedveli a hozzászólásod."
+                "post_liked_text": "{username} kedvelte a bejegyzését"
             },
             "post": {
                 "like_link": "Tetszik",
-                "liked_by_self_text": "{count, plural, one {{users} kedveled} other {{users} kedvelitek}}",
-                "liked_by_text": "{count, plural, one {{users} kedveli} other {{users} kedvelik}}.",
+                "liked_by_self_text": "{users} kedveli ezt.",
+                "liked_by_text": "{users} kedveli ezt.",
                 "others_link": "=> core.ref.some_others",
                 "unlike_link": "Mégsem tetszik",
                 "you_text": "=> core.ref.you"
@@ -22,7 +22,7 @@
                 "title": "Felhasználók, akiknek tetszik"
             },
             "settings": {
-                "notify_post_liked_label": "Valakinek tetszik a hozzászólásom"
+                "notify_post_liked_label": "Valakinek tetszik a bejegyzésem"
             }
         }
     }
