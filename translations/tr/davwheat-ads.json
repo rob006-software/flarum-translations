@@ -4,8 +4,8 @@
             "admin": {
                 "settings": {
                     "enabled_locations": "Reklam bölgelerini etkinleştir",
-                    "script_urls": "",
-                    "add_script": "",
+                    "script_urls": "Özel script URL'leri",
+                    "add_script": "Yeni",
                     "script_deletion": "",
                     "code_input": "\"{for}\" için reklam bölgesi kodu",
                     "code_input_disabled": "HTML kodunu düzenlemek için bu konumu etkinleştirin.",
@@ -25,7 +25,7 @@
                         "fix_errors": "Değişiklikleri kaydetmeden önce aşağıdaki hataları giderin",
                         "code_has_script": "Reklam kodlarınızdan biri veya daha fazlası, izin verilmeyen komut dosyası etiketleri içeriyor. Bunları kaldırıp tekrar deneyin."
                     },
-                    "warning": "Reklam kodu <b>YALNIZCA</b> <code>ins</code> etiketini/etiketlerini içermeli ve herhangi bir komut dosyası etiketi içermemelidir. Komut dosyaları \notomatik olarak uzantı tarafından çalıştırılır.\n"
+                    "warning": "<b>Talimatlar:</b>\n<br></br>\n<b>HTML</b> - Bu kutuya reklam için HTML içeriği ekleyin. Bu kutuya herhangi bir {script} etiketi eklemeyin. Script kodları çalışmaz.\n<br></br>\n<b>JS</b> - Bir komut dosyası etiketine eklemek için özel Javascript kodu ekleyin. Bu, {script} etiketinin kendisini <b>İÇERMEMELİ</b>.\n"
                 }
             },
             "lib": {
