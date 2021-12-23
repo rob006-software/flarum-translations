@@ -213,6 +213,9 @@ return [
 	'datlechin-add-like-controls' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-add-like-controls/v1.0.6/locale/en.yml',
 	],
+	'datlechin-scroll-buttons' => [
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-scroll-buttons/v0.1.1/locale/en.yml',
+	],
 	'davwheat-ads' => [
 		'tag' => 'https://raw.githubusercontent.com/davwheat/flarum-ext-ads/1.0.1/locale/en.yml',
 	],
