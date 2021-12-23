@@ -502,6 +502,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`itnt-uitab`](https://weblate.rob006.net/projects/flarum/itnt-uitab) | [`itnt/flarum-uitab`](https://github.com/Littlegolden/flarum-uitab) |
 | [`jslirola-login2seeplus`](https://weblate.rob006.net/projects/flarum/jslirola-login2seeplus) | [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus) |
 | [`justoverclock-auto-post-count-badge`](https://weblate.rob006.net/projects/flarum/justoverclock-auto-post-count-badge) | [`justoverclock/auto-post-count-badge`](https://github.com/justoverclockl/auto-post-count-badge) |
+| [`justoverclock-composer-autocomplete`](https://weblate.rob006.net/projects/flarum/justoverclock-composer-autocomplete) | [`justoverclock/composer-autocomplete`](https://github.com/justoverclockl/composer-autocomplete) |
 | [`justoverclock-custom-header`](https://weblate.rob006.net/projects/flarum/justoverclock-custom-header) | [`justoverclock/custom-header`](https://github.com/justoverclockl/custom-header) |
 | [`justoverclock-custom-html-widget`](https://weblate.rob006.net/projects/flarum/justoverclock-custom-html-widget) | [`justoverclock/custom-html-widget`](https://github.com/justoverclockl/custom-html-widget) |
 | [`justoverclock-discussion-hero-showtags`](https://weblate.rob006.net/projects/flarum/justoverclock-discussion-hero-showtags) | [`justoverclock/discussion-hero-showtags`](https://github.com/justoverclockl/discussion-hero-showtags) |
