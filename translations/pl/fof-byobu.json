@@ -12,11 +12,15 @@
                 "edit_recipients": "Edytuj uczestników",
                 "send_pd": "Wyślij wiadomość do {username}",
                 "cancel": "Anuluj",
+                "make_public": "",
                 "remove_from_discussion": "Opuść tę prywatną dyskusję"
             },
             "composer_private_discussion": {
                 "submit_button": "Dodaj prywatną dyskusję",
                 "title_placeholder": "Tytuł prywatnej dyskusji"
+            },
+            "confirm": {
+                "make_public": ""
             },
             "labels": {
                 "recipients": "{count, plural, one {{count} uczestnik} other {{count} uczestników}}",
@@ -54,6 +58,7 @@
                 "recipients_modified": {
                     "added_and_removed": "{username} dodał {added} i usunął {removed} z listy uczestników.",
                     "added": "{username} dodał {added} do listy uczestników.",
+                    "made_public": "",
                     "removed": "{username} usunął {removed} z listy uczestników.",
                     "removed_self": "{username} opuścił prywatną dyskusję."
                 }
@@ -83,10 +88,13 @@
                 "create_private_discussions_with_blocking_users": "Tworzenie prywatnych dyskusji z użytkownikami, którzy je blokują",
                 "edit_user_recipients": "Edytowanie użytkowników biorących udział w prywatnych dyskusjach",
                 "edit_group_recipients": "Edytowanie grup biorących udział w prywatnych dyskusjach",
+                "make_private_into_public": "",
                 "view_private_discussions-when-flagged": "Przeglądanie prywatnych dyskusji innych użytkowników, jeśli ktoś je zgłosił"
             },
             "settings": {
                 "badge-icon": "Ikona w etykiecie dyskusji Byobu",
+                "enable-make-public-option": "",
+                "enable-make-public-option-help": "",
                 "post-event-icon": "Ikona zdarzeń w dyskusjach Byobu"
             }
         },

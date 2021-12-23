@@ -12,11 +12,15 @@
                 "edit_recipients": "Modifica Destinatari",
                 "send_pd": "Invia messaggio a {username}",
                 "cancel": "Cancella",
+                "make_public": "",
                 "remove_from_discussion": "Lascia questa discussione privata"
             },
             "composer_private_discussion": {
                 "submit_button": "Pubblica discussione privata",
                 "title_placeholder": "Titolo discussione privata"
+            },
+            "confirm": {
+                "make_public": ""
             },
             "labels": {
                 "recipients": "{count, plural, one {{count} Destinatario} other {{count} Destinatari}}",
@@ -54,6 +58,7 @@
                 "recipients_modified": {
                     "added_and_removed": "{username} ha aggiunto destinatari {added} e rimosso {removed}.",
                     "added": "{username} ha aggiunto i destinatari {added}.",
+                    "made_public": "",
                     "removed": "{username} ha rimosso i destinatari {removed}.",
                     "removed_self": "{username} ha lasciato la discussione privata."
                 }
@@ -83,10 +88,13 @@
                 "create_private_discussions_with_blocking_users": "Crea discussioni private con gli utenti che le bloccano",
                 "edit_user_recipients": "Modifica gli utenti che partecipano a discussioni private",
                 "edit_group_recipients": "Modifica i gruppi che partecipano a discussioni private",
+                "make_private_into_public": "",
                 "view_private_discussions-when-flagged": "Visualizza le discussioni private di altri utenti se contrassegnate"
             },
             "settings": {
                 "badge-icon": "Badge Discussione Byobu",
+                "enable-make-public-option": "",
+                "enable-make-public-option-help": "",
                 "post-event-icon": "Eventi Post Byobu"
             }
         },

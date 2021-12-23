@@ -12,11 +12,15 @@
                 "edit_recipients": "Muokkaa vastaanottajia",
                 "send_pd": "Lähetä käyttäjälle {username} viesti",
                 "cancel": "Peruuta",
+                "make_public": "",
                 "remove_from_discussion": "Poistu tästä yksityisestä keskustelusta"
             },
             "composer_private_discussion": {
                 "submit_button": "Lähetä yksityinen keskustelu",
                 "title_placeholder": "Yksityisen keskustelun otsikko"
+            },
+            "confirm": {
+                "make_public": ""
             },
             "labels": {
                 "recipients": "{count, plural, one {{count} vastaanottaja} other {{count} vastaanottajaa}}"
@@ -53,6 +57,7 @@
                 "recipients_modified": {
                     "added_and_removed": "{username} lisäsi vastaanottajan {added} ja poisti {removed}.",
                     "added": "{username} lisäsi vastaanottajia {added}.",
+                    "made_public": "",
                     "removed": "{username} poisti vastaanottajat {removed}.",
                     "removed_self": "{username} poistui yksityisestä keskustelusta."
                 }
@@ -82,10 +87,13 @@
                 "create_private_discussions_with_blocking_users": "Luo yksityinen keskustelu käyttäjien kanssa, jotka estävät sen",
                 "edit_user_recipients": "Muokkaa käyttäjiä, jotka osallistuu yksityiseen keskusteluihin",
                 "edit_group_recipients": "Muokkaa ryhmiä, jotka osallistuu yksityiseen keskusteluihin",
+                "make_private_into_public": "",
                 "view_private_discussions-when-flagged": "Nähdä muiden yksityiset keskustelut jos raportoitu"
             },
             "settings": {
                 "badge-icon": "Byobu keskusteluikoni",
+                "enable-make-public-option": "",
+                "enable-make-public-option-help": "",
                 "post-event-icon": "Byobu viestitapahtumat"
             }
         },
