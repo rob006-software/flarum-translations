@@ -513,6 +513,9 @@ return [
 	'justoverclock-auto-post-count-badge' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/auto-post-count-badge/0.1.9/locale/en.yml',
 	],
+	'justoverclock-composer-autocomplete' => [
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/composer-autocomplete/0.1.0/locale/en.yml',
+	],
 	'justoverclock-contactme' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-contactme/0.2.3/resources/locale/en.yml',
 	],
