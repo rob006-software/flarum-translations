@@ -125,26 +125,26 @@
             },
             "form-edit": {
                 "warnings": {
-                    "show-on-signup-invalid-permissions": "",
-                    "show-on-composer-invalid-permissions": "",
-                    "linked-form-is-draft": "",
-                    "auto-link-permission-warning": ""
+                    "show-on-signup-invalid-permissions": "\"Kayıt sırasında göster\" özelliğini kullanmak için onaylanmamış üyelere \"kendini gör\" ve \"kendini düzenle\" iznini ayarlamanız gerekir.\n",
+                    "show-on-composer-invalid-permissions": "\"Composer'de göster\"i kullanmak için seçilen etiket(ler)le tartışma başlatabilecek \"kendini gör\" ve \"kendini düzenle\" izinlerinin eşleşmesini sağlayın. Emin değilseniz \"üyeler\" olarak ayarlayın. Ayarlarınız doğru olsa bile bu mesaj görünebilir.\n",
+                    "linked-form-is-draft": "Bu form şu anda taslak modunda. Alanların forumda görünmesi için \"yeni gönderileri kabul et\" seçeneğini etkinleştirin.\n",
+                    "auto-link-permission-warning": "\"Tartışmayı otomatik olarak oluştur\" seçeneğine sahip formlar, bağımsız olarak erişildiğinde genel doldurma iznini kullanır.\n"
                 },
-                "expert-mode-warning": "",
+                "expert-mode-warning": "Uzman modu etkinleştirildi. Bu, alan tanımlayıcılarını ve alan başına izinleri özelleştirmenize olanak tanır. Bir şeyleri bozabileceğiniz için bu özellikle ilgili belgeleri okuduğunuzdan emin olun!\n",
                 "section": {
-                    "template": "",
-                    "permissions": ""
+                    "template": "Şablon",
+                    "permissions": "İzinler"
                 },
                 "field": {
-                    "link": "",
-                    "title": "",
+                    "link": "Özel form türleri",
+                    "title": "Genel başlık",
                     "show-on-creation": {
                         "discussion": "Düzenleyicide göster",
                         "user": "Kayıt esnasında göster"
                     },
-                    "automatic-discussion": "",
-                    "automatic-discussion-help": "",
-                    "accept-submissions": "",
+                    "automatic-discussion": "Form gönderiminden otomatik olarak tartışmalar oluşturun",
+                    "automatic-discussion-help": "Etkinleştirildiğinde, form bağımsız bir form gibi erişilebilir olmaya devam eder. Gönderiler otomatik olarak yeni tartışmalar oluşturacak ve bunlara bağlanacaktır.\n",
+                    "accept-submissions": "Yeni gönderimleri kabul et",
                     "allow-modification": "",
                     "max-submissions": "",
                     "send-confirmation-to-participants": "",
