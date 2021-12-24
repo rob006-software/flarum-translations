@@ -762,6 +762,9 @@ return [
 	'serakoi-flarumdiscordtheme' => [
 		'tag' => 'https://raw.githubusercontent.com/Serakoi/flarum-discord-theme-2/0.1.0/resources/locale/en.yml',
 	],
+	'serakoi-flarumstaffbadge' => [
+		'tag' => 'https://raw.githubusercontent.com/Serakoi/flarumstaffbadge/0.0.5/resources/locale/en.yml',
+	],
 	'serakoi-hideprofile' => [
 		'tag' => 'https://raw.githubusercontent.com/Serakoi/flarum-hideprofile/0.0.6/resources/locale/en.yml',
 	],
