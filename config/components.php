@@ -654,6 +654,9 @@ return [
 	'kilowhat-wordpress' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/kilowhat-wordpress.yml',
 	],
+	'kurisucat-reactions' => [
+		'tag' => 'https://raw.githubusercontent.com/kurisucat/reactions/1.0.2/resources/locale/en.yml',
+	],
 	'kyrne-evergreen' => [
 		'tag' => 'https://raw.githubusercontent.com/KyrneDev/Evergreen/0.2.0/resources/locale/en.yml',
 	],
