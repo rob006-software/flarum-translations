@@ -478,6 +478,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`clarkwinkelmann-who-read`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-who-read) | [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read) |
 | [`datitisev-discussion-agree-message`](https://weblate.rob006.net/projects/flarum/datitisev-discussion-agree-message) | [`datitisev/flarum-discussion-agree-message`](https://github.com/datitisev/flarum-discussion-agree-message) |
 | [`datlechin-add-like-controls`](https://weblate.rob006.net/projects/flarum/datlechin-add-like-controls) | [`datlechin/flarum-add-like-controls`](https://github.com/datlechin/flarum-add-like-controls) |
+| [`datlechin-pronouns`](https://weblate.rob006.net/projects/flarum/datlechin-pronouns) | [`datlechin/flarum-pronouns`](https://github.com/datlechin/flarum-pronouns) |
 | [`datlechin-scroll-buttons`](https://weblate.rob006.net/projects/flarum/datlechin-scroll-buttons) | [`datlechin/flarum-scroll-buttons`](https://github.com/datlechin/flarum-scroll-buttons) |
 | [`davwheat-custom-sidenav-links`](https://weblate.rob006.net/projects/flarum/davwheat-custom-sidenav-links) | [`davwheat/custom-sidenav-links`](https://github.com/davwheat/flarum-ext-custom-sidenav-links) |
 | [`davwheat-ads`](https://weblate.rob006.net/projects/flarum/davwheat-ads) | [`davwheat/flarum-ext-ads`](https://github.com/davwheat/flarum-ext-ads) |
