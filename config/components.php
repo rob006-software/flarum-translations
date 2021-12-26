@@ -213,6 +213,9 @@ return [
 	'datlechin-add-like-controls' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-add-like-controls/v1.0.6/locale/en.yml',
 	],
+	'datlechin-pronouns' => [
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-pronouns/v0.1.0/locale/en.yml',
+	],
 	'datlechin-scroll-buttons' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-scroll-buttons/v0.1.3/locale/en.yml',
 	],
