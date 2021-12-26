@@ -837,6 +837,9 @@ return [
 	'webbinaro-calendar' => [
 		'tag' => 'https://raw.githubusercontent.com/eddiewebb/flarum-calendar/1.0.2/resources/locale/en.yml',
 	],
+	'william0wang-imgur-upload' => [
+		'tag' => 'https://raw.githubusercontent.com/william0wang/flarum-imgur-upload/v3.9.1.3/locale/en.yml',
+	],
 	'zerosonesfun-bbcode-button' => [
 		'tag' => 'https://raw.githubusercontent.com/zerosonesfun/flarum-bbcode-button/0.1/locale/en.yml',
 	],
