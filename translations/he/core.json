@@ -455,7 +455,7 @@
                 "sent_message": "נשלח"
             },
             "welcome_hero": {
-                "hide": ""
+                "hide": "הסתרת הודעה ברוכים הבאים"
             }
         },
         "lib": {
@@ -494,10 +494,10 @@
                 "accessible_label": "=> core.ref.loading"
             },
             "modal": {
-                "close": ""
+                "close": "סגירה"
             },
             "nav": {
-                "drawer_button": ""
+                "drawer_button": "פתיחת עורך תפריט ניווט"
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -569,8 +569,8 @@
                 "title": "=> core.ref.reset_your_password"
             },
             "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: עמוד # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {עמוד # - {forumName}}}"
             }
         },
         "api": {
