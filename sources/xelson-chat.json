@@ -29,7 +29,7 @@
                 "edit_modal": {
                     "title": "Chat settings",
                     "moderator": {
-                        "got": "You just received Moderator rights in the chat {chatname}!",
+                        "got": "You just got Moderator rights in the chat {chatname}!",
                         "lost": "You just lost your Moderator rights in the chat {chatname}."
                     },
                     "form": {
@@ -101,7 +101,8 @@
                         "search": {
                             "placeholder": "Search Users",
                             "failed": "No matching users found",
-                            "invited": "Invited"
+                            "invited": "Invited",
+                            "more_results": "And {more_results} more..."
                         }
                     }
                 },
