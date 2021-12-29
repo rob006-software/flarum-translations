@@ -69,7 +69,10 @@ return [
 	'pl' => getComponents(),
 	'pt' => getComponents(),
 	'pt_BR' => getComponents(),
-	'ru' => getComponents(),
+	'ru' => getComponents([
+		// translations included in extension
+		'!xelson-chat',
+	]),
 	'si' => getComponents(),
 	'sk' => getComponents(),
 	'sv' => getComponents(),
@@ -88,6 +91,9 @@ return [
 		'!the-turk-regrole',
 	]),
 	'uz' => getComponents(),
-	'vi' => getComponents(),
+	'vi' => getComponents([
+		// translations included in extension
+		'!xelson-chat',
+	]),
 	'zh_Hans' => getComponents(),
 ];
