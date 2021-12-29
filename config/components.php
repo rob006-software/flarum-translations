@@ -849,6 +849,9 @@ return [
 	'webbinaro-calendar' => [
 		'tag' => 'https://raw.githubusercontent.com/eddiewebb/flarum-calendar/1.0.2/resources/locale/en.yml',
 	],
+	'xelson-chat' => [
+		'tag' => 'https://raw.githubusercontent.com/Xelson/flarum-ext-chat/v1.1.1/resources/locale/en.yaml',
+	],
 	'zerosonesfun-bbcode-button' => [
 		'tag' => 'https://raw.githubusercontent.com/zerosonesfun/flarum-bbcode-button/0.1/locale/en.yml',
 	],
