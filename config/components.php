@@ -228,6 +228,9 @@ return [
 	'davwheat-share' => [
 		'tag' => 'https://raw.githubusercontent.com/davwheat/flarum-ext-share/v1.0.1/locale/en.yml',
 	],
+	'davwheat-virtual-authors' => [
+		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/davwheat-virtual-authors.yml',
+	],
 	'dem13n-discussion-cards' => [
 		'tag' => 'https://raw.githubusercontent.com/Dem13n/discussion-cards/0.3.8/locale/en.yml',
 	],
