@@ -285,6 +285,7 @@
 | [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/v17development-user-badges/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/v17development-user-badges/) |
 | [`webbinaro/flarum-age-check`](https://github.com/eddiewebb/flarum-age-check) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/webbinaro-age-check/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/webbinaro-age-check/) |
 | [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/webbinaro-calendar/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/webbinaro-calendar/) |
+| [`xelson/flarum-ext-chat`](https://github.com/Xelson/flarum-ext-chat) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/xelson-chat/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/xelson-chat/) |
 | [`zerosonesfun/expired-posts`](https://github.com/zerosonesfun/expired-posts) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/zerosonesfun-expired-posts/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/zerosonesfun-expired-posts/) |
 | [`zerosonesfun/flarum-bbcode-button`](https://github.com/zerosonesfun/flarum-bbcode-button) | [![Translation status](https://weblate.rob006.net/widgets/flarum/-/zerosonesfun-bbcode-button/multi-auto.svg)](https://weblate.rob006.net/projects/flarum/zerosonesfun-bbcode-button/) |
 
