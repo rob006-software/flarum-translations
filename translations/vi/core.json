@@ -461,7 +461,7 @@
         "lib": {
             "debug_button": "Gỡ lỗi",
             "alert": {
-                "dismiss_a11y_label": ""
+                "dismiss_a11y_label": "Ẩn cảnh báo"
             },
             "badge": {
                 "hidden_tooltip": "Bị ẩn"
@@ -497,8 +497,8 @@
                 "accessible_label": "=> core.ref.loading"
             },
             "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Trang # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Trang # - {forumName}}}"
             },
             "modal": {
                 "close": "Đóng"
