@@ -792,6 +792,9 @@ return [
 	'sycho-profile-cover' => [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-profile-cover/v1.3.0/resources/locale/en.yml',
 	],
+	'tagecode-donate' => [
+		'tag' => 'https://raw.githubusercontent.com/tagecode/flarum-donate/v0.1.0/locale/en.yml',
+	],
 	'the-turk-diff' => [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-diff/1.1.1/locale/en.yml',
 	],
