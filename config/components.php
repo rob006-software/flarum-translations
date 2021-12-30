@@ -802,7 +802,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/tokenjenny/flarum-ext-web3/v0.0.2/resources/locale/en.yml',
 	],
 	'tokenjenny-web3-tips' => [
-		'tag' => 'https://raw.githubusercontent.com/tokenjenny/flarum-ext-web3-tips/v0.0.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/tokenjenny/flarum-ext-web3-tips/v0.0.3/resources/locale/en.yml',
 	],
 	'tpokorra-post-notification' => [
 		'tag' => 'https://raw.githubusercontent.com/tpokorra/flarum-ext-post-notification/0.4.6/resources/locale/en.yml',
