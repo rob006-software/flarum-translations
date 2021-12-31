@@ -856,7 +856,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Xelson/flarum-ext-chat/v1.1.1/resources/locale/en.yaml',
 	],
 	'zerosonesfun-bbcode-button' => [
-		'tag' => 'https://raw.githubusercontent.com/zerosonesfun/flarum-bbcode-button/0.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/zerosonesfun/flarum-bbcode-button/1.0/locale/en.yml',
 	],
 	'zerosonesfun-expired-posts' => [
 		'tag' => 'https://raw.githubusercontent.com/zerosonesfun/expired-posts/0.4/resources/locale/en.yml',
