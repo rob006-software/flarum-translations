@@ -850,7 +850,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/eddiewebb/flarum-age-check/0.0.6/locale/en.yml',
 	],
 	'webbinaro-calendar' => [
-		'tag' => 'https://raw.githubusercontent.com/eddiewebb/flarum-calendar/1.0.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/eddiewebb/flarum-calendar/1.0.3/resources/locale/en.yml',
 	],
 	'xelson-chat' => [
 		'tag' => 'https://raw.githubusercontent.com/Xelson/flarum-ext-chat/v1.1.1/resources/locale/en.yaml',
