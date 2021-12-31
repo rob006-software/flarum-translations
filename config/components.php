@@ -601,7 +601,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/last-tweet/0.1.1/locale/en.yml',
 	],
 	'justoverclock-last-users-posts' => [
-		'tag' => 'https://raw.githubusercontent.com/justoverclockl/last-users-posts/0.2.8/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/last-users-posts/0.3.0/locale/en.yml',
 	],
 	'justoverclock-newsfeed' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-newsfeed/1.0.1/resources/locale/en.yml',
