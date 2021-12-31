@@ -2801,9 +2801,20 @@
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
-			<a href="https://github.com/justoverclockl/last-post-useravatar" title="justoverclock/last-post-useravatar"><code>justoverclock/last-post-useravatar</code></a>
+			<a href="https://github.com/datlechin/flarum-signup-button" title="datlechin/flarum-signup-button"><code>datlechin/flarum-signup-button</code></a>
 		</td>
 		<td align="center">253</td>
+		<td align="center"><a href="https://packagist.org/packages/datlechin/flarum-signup-button/stats">2</a></td>
+		<td align="center"><a href="https://packagist.org/packages/datlechin/flarum-signup-button/stats">2</a></td>
+		<td align="center"><a href="https://packagist.org/packages/datlechin/flarum-signup-button/stats">1</a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/datlechin-signup-button/si/"><img src="https://weblate.rob006.net/widgets/flarum/si/datlechin-signup-button/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/justoverclockl/last-post-useravatar" title="justoverclock/last-post-useravatar"><code>justoverclock/last-post-useravatar</code></a>
+		</td>
+		<td align="center">254</td>
 		<td align="center"><a href="https://packagist.org/packages/justoverclock/last-post-useravatar/stats">2</a></td>
 		<td align="center"><a href="https://packagist.org/packages/justoverclock/last-post-useravatar/stats">2</a></td>
 		<td align="center"><a href="https://packagist.org/packages/justoverclock/last-post-useravatar/stats">1</a></td>
