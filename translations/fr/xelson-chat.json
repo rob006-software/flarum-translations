@@ -29,7 +29,7 @@
                 "edit_modal": {
                     "title": "Paramètres de chat",
                     "moderator": {
-                        "got": "Vous venez de recevoir les droits de modérateur dans le chat {chatname} !",
+                        "got": "Vous venez d'obtenir les droits de modérateur sur le chat {chatname} !",
                         "lost": "Vous venez de perdre vos droits de modérateur dans le chat {chatname}."
                     },
                     "form": {
@@ -102,7 +102,7 @@
                             "placeholder": "Rechercher des utilisateurs",
                             "failed": "Aucun utilisateur correspondant n'a été trouvé",
                             "invited": "Invité",
-                            "more_results": ""
+                            "more_results": "Et {more_results} plus..."
                         }
                     }
                 },
