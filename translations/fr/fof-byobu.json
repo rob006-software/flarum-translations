@@ -12,7 +12,7 @@
                 "edit_recipients": "Modifier les destinataires",
                 "send_pd": "Envoyer un message à {username}",
                 "cancel": "Annuler",
-                "make_public": "",
+                "make_public": "Rendre cette discussion publique",
                 "remove_from_discussion": "Quitter cette discussion privée"
             },
             "composer_private_discussion": {
@@ -20,7 +20,7 @@
                 "title_placeholder": "Titre de la discussion privée"
             },
             "confirm": {
-                "make_public": ""
+                "make_public": "Voulez-vous vraiment supprimer les destinataires et rendre cette discussion visible à tous ceux qui peuvent voir l'étiquette attribuée ?"
             },
             "labels": {
                 "recipients": "{count, plural, one {{count} destinataire} other {{count} destinataires}}",
@@ -58,7 +58,7 @@
                 "recipients_modified": {
                     "added_and_removed": "{username} a ajouté {added} et a supprimé {removed} aux destinataires.",
                     "added": "{username} a ajouté {added} aux destinataires.",
-                    "made_public": "",
+                    "made_public": "{username} a supprimé tous les destinataires et rendu la discussion publique",
                     "removed": "{username} a supprimé {removed} des destinataires.",
                     "removed_self": "{username} a quitté la discussion privée."
                 }
@@ -88,13 +88,13 @@
                 "create_private_discussions_with_blocking_users": "Créer des discussions privées avec des utilisateurs qui ont bloqué cette fonctionnalité",
                 "edit_user_recipients": "Modifier les utilisateurs participant à des discussions privées",
                 "edit_group_recipients": "Modifier les groupes participant à des discussions privées",
-                "make_private_into_public": "",
+                "make_private_into_public": "Transformer une discussion privée en discussion publique",
                 "view_private_discussions-when-flagged": "Afficher les discussions privées d'autres utilisateurs qui ont été signalées"
             },
             "settings": {
                 "badge-icon": "Badge de discussion Byobu",
-                "enable-make-public-option": "",
-                "enable-make-public-option-help": "",
+                "enable-make-public-option": "Activer la capacité « rendre public »",
+                "enable-make-public-option-help": "Ajoute la possibilité pour les personnes autorisées de supprimer tous les destinataires, d'attribuer une nouvelle étiquette et de rendre la discussion visible publiquement (selon les paramètres de visibilité de l'étiquette choisie).",
                 "post-event-icon": "Événements de publication Byobu"
             }
         },
