@@ -538,6 +538,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`justoverclock-geo-weather`](https://weblate.rob006.net/projects/flarum/justoverclock-geo-weather) | [`justoverclock/geo-weather`](https://github.com/justoverclockl/geo-weather) |
 | [`justoverclock-header-slideshow`](https://weblate.rob006.net/projects/flarum/justoverclock-header-slideshow) | [`justoverclock/header-slideshow`](https://github.com/justoverclockl/header-slideshow) |
 | [`justoverclock-hot-discussions`](https://weblate.rob006.net/projects/flarum/justoverclock-hot-discussions) | [`justoverclock/hot-discussions`](https://github.com/justoverclockl/hot-discussions) |
+| [`justoverclock-hot-discussions-cards`](https://weblate.rob006.net/projects/flarum/justoverclock-hot-discussions-cards) | [`justoverclock/hot-discussions-cards`](https://github.com/justoverclockl/hot-discussions-cards) |
 | [`justoverclock-last-post-useravatar`](https://weblate.rob006.net/projects/flarum/justoverclock-last-post-useravatar) | [`justoverclock/last-post-useravatar`](https://github.com/justoverclockl/last-post-useravatar) |
 | [`justoverclock-last-registered-users`](https://weblate.rob006.net/projects/flarum/justoverclock-last-registered-users) | [`justoverclock/last-registered-users`](https://github.com/justoverclockl/last-registered-users) |
 | [`justoverclock-last-tweet`](https://weblate.rob006.net/projects/flarum/justoverclock-last-tweet) | [`justoverclock/last-tweet`](https://github.com/justoverclockl/last-tweet) |
