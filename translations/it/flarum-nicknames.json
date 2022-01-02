@@ -7,10 +7,10 @@
             "settings": {
                 "max_label": "Lunghezza massima del nome utente",
                 "min_label": "Lunghezza minima del nome utente",
-                "random_username_label": "",
-                "random_username_help": "",
+                "random_username_label": "Nomi Utente Casuali",
+                "random_username_help": "Questo nasconderà l'input `nome utente` durante la registrazione e utilizzerà invece un numero casuale. Renderà inoltre obbligatorio il campo `nickname`. Questo avrà effetto solo se \"Consenti l'impostazione dei nickname alla registrazione\" è abilitato.",
                 "regex_label": "Regex per validazione",
-                "set_on_registration_label": "",
+                "set_on_registration_label": "Consenti l'impostazione dei nickname alla registrazione",
                 "unique_label": "Nomi utenti univoci?"
             },
             "wrong_driver": "Devi selezionare \"nickname\" come driver sulla pagina <a><strong>Impostazioni di base</strong></a> per far funzionare questa estensione."
@@ -31,12 +31,12 @@
                 "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
             },
             "sign_up": {
-                "nickname_placeholder": ""
+                "nickname_placeholder": "=> flarum-nicknames.ref.nickname"
             }
         },
         "ref": {
             "change_nickname": "Cambia nome utente",
-            "nickname": ""
+            "nickname": "Nickname"
         }
     }
 }
