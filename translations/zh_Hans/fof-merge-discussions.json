@@ -10,6 +10,12 @@
                 "load_preview_button": "预览",
                 "submit_button": "=> fof-merge-discussions.ref.merge"
             },
+            "notification": {
+                "discussion_merged": "",
+                "preferences": {
+                    "discussion_merged": ""
+                }
+            },
             "discussion": {
                 "merge": "=> fof-merge-discussions.ref.merge"
             },
@@ -20,6 +26,10 @@
         "admin": {
             "permissions": {
                 "merge_discussions_label": "合并主题"
+            },
+            "settings": {
+                "search_result_help": "",
+                "search_result_label": ""
             }
         },
         "api": {
@@ -32,6 +42,12 @@
         },
         "ref": {
             "merge": "合并主题"
+        },
+        "email": {
+            "merged": {
+                "body": "",
+                "subject": ""
+            }
         }
     }
 }

@@ -10,6 +10,12 @@
                 "load_preview_button": "Előnézet",
                 "submit_button": "=> fof-merge-discussions.ref.merge"
             },
+            "notification": {
+                "discussion_merged": "",
+                "preferences": {
+                    "discussion_merged": ""
+                }
+            },
             "discussion": {
                 "merge": "=> fof-merge-discussions.ref.merge"
             },
@@ -20,6 +26,10 @@
         "admin": {
             "permissions": {
                 "merge_discussions_label": "Beszélgetések összevonása"
+            },
+            "settings": {
+                "search_result_help": "",
+                "search_result_label": ""
             }
         },
         "api": {
@@ -32,6 +42,12 @@
         },
         "ref": {
             "merge": "Összevon"
+        },
+        "email": {
+            "merged": {
+                "body": "",
+                "subject": ""
+            }
         }
     }
 }

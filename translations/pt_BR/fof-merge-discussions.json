@@ -10,6 +10,12 @@
                 "load_preview_button": "",
                 "submit_button": ""
             },
+            "notification": {
+                "discussion_merged": "",
+                "preferences": {
+                    "discussion_merged": ""
+                }
+            },
             "discussion": {
                 "merge": ""
             },
@@ -20,6 +26,10 @@
         "admin": {
             "permissions": {
                 "merge_discussions_label": ""
+            },
+            "settings": {
+                "search_result_help": "",
+                "search_result_label": ""
             }
         },
         "api": {
@@ -32,6 +42,12 @@
         },
         "ref": {
             "merge": ""
+        },
+        "email": {
+            "merged": {
+                "body": "",
+                "subject": ""
+            }
         }
     }
 }

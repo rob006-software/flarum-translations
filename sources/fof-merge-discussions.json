@@ -10,6 +10,12 @@
                 "load_preview_button": "Preview",
                 "submit_button": "=> fof-merge-discussions.ref.merge"
             },
+            "notification": {
+                "discussion_merged": "Your discussion <b>{oldTitle}</b> was merged into this discussion by {username}.",
+                "preferences": {
+                    "discussion_merged": "Someone merges one of my discussions with another"
+                }
+            },
             "discussion": {
                 "merge": "=> fof-merge-discussions.ref.merge"
             },
@@ -20,6 +26,10 @@
         "admin": {
             "permissions": {
                 "merge_discussions_label": "Merge discussions"
+            },
+            "settings": {
+                "search_result_help": "How many discussions should be returned when searching within the `Merge Discussions` modal. Default is 4",
+                "search_result_label": "Merge Discussion Search Limit"
             }
         },
         "api": {
@@ -32,6 +42,12 @@
         },
         "ref": {
             "merge": "Merge"
+        },
+        "email": {
+            "merged": {
+                "body": "Hey {recipient_display_name},\n\nYour discussion, {merged_discussion_title}, was merged into {discussion_title} by {actor_display_name}.\n\nView it here {discussion_url} .\n",
+                "subject": "Your discussion \"{merged_discussion_title}\" was merged"
+            }
         }
     }
 }
