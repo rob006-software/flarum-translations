@@ -11,9 +11,9 @@
                 "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
-                "discussion_merged": "",
+                "discussion_merged": "Twoja dyskusja <b>{oldTitle}</b> została włączona do tej dyskusji przez {username}.",
                 "preferences": {
-                    "discussion_merged": ""
+                    "discussion_merged": "Ktoś scalił moją dyskusję z inną"
                 }
             },
             "discussion": {
@@ -28,8 +28,8 @@
                 "merge_discussions_label": "Scalanie dyskusji"
             },
             "settings": {
-                "search_result_help": "",
-                "search_result_label": ""
+                "search_result_help": "Ile dyskusji powinno być zwróconych podczas wyszukiwania w modalu `Scal dyskusje`. Domyślnie 4",
+                "search_result_label": "Limit wyszukiwania dyskusji do scalenia"
             }
         },
         "api": {
@@ -45,8 +45,8 @@
         },
         "email": {
             "merged": {
-                "body": "",
-                "subject": ""
+                "body": "Witaj {odbiorca_display_name},\n\nTwoja dyskusja \"{merged_discussion_title}\", została scalona z dyskusją \"{discussion_title}\" przez {actor_display_name}.\n\nZobacz ją tutaj: {discussion_url} .\n",
+                "subject": "Twoja dyskusja \"{merged_discussion_title}\" została scalona"
             }
         }
     }
