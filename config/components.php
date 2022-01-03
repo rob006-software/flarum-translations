@@ -586,7 +586,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/hot-discussions/0.1.2/locale/en.yml',
 	],
 	'justoverclock-hot-discussions-cards' => [
-		'tag' => 'https://raw.githubusercontent.com/justoverclockl/hot-discussions-cards/0.1.5/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/hot-discussions-cards/0.1.6/locale/en.yml',
 	],
 	'justoverclock-igdb-api' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/justoverclock-igdb-api.yml',
