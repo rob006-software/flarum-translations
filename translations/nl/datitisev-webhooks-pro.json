@@ -2,12 +2,12 @@
     "fof-webhooks": {
         "actions": {
             "poll": {
-                "voted": "",
-                "created": ""
+                "voted": "Gestemd op poll `{1}`",
+                "created": "Gemaakte poll`{1}`"
             },
             "post": {
-                "reacted": "",
-                "unreacted": "",
+                "reacted": "Gereageerd op een post met `{1}`",
+                "unreacted": "Heeft zijn/haar/hun reactie verwijderd",
                 "upvoted": "",
                 "downvoted": ""
             },
