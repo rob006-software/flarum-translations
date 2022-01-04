@@ -21,16 +21,16 @@
             "night": "Nachtmodus",
             "user": {
                 "settings": {
-                    "heading": "",
-                    "description": "",
-                    "description2": "",
-                    "device_specific_setting_checkbox": "",
-                    "device_specific_setting_checkbox_tooltip": "",
-                    "auto_unsupported": "",
+                    "heading": "Thema",
+                    "description": "Kies welke kleur thema je wil gebruiken op het forum.",
+                    "description2": "Dit thema wordt gekoppeld aan je account en is van toepassing op al je toestellen, tenzij je de schakelaar hieronder aan/uit zet per toestel instellingen.",
+                    "device_specific_setting_checkbox": "Gebruik per toestel instellingen",
+                    "device_specific_setting_checkbox_tooltip": "Je gekozen thema wordt individueel opgeslagen voor elk van je toestellen.",
+                    "auto_unsupported": "Je browser ondersteunt geen automatische nachtmodus.",
                     "options": {
-                        "auto": "",
-                        "day": "",
-                        "night": ""
+                        "auto": "=> fof-nightmode.ref.auto",
+                        "day": "=> fof-nightmode.ref.light",
+                        "night": "=> fof-nightmode.ref.dark"
                     },
                     "option_descriptions": {
                         "auto": "",
