@@ -11,9 +11,9 @@
                 "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
-                "discussion_merged": "",
+                "discussion_merged": "<b>{oldTitle}</b> tartışmanız {username} tarafından bu tartışmayla birleştirildi.",
                 "preferences": {
-                    "discussion_merged": ""
+                    "discussion_merged": "Birisi tartışmalarımdan birini başka biriyle birleştiriyor"
                 }
             },
             "discussion": {
@@ -28,8 +28,8 @@
                 "merge_discussions_label": "Tartışmaları birleştir"
             },
             "settings": {
-                "search_result_help": "",
-                "search_result_label": ""
+                "search_result_help": "\"Tartışmaları Birleştir\" kipi içinde arama yaparken kaç tartışma döndürülmelidir. Varsayılan 4",
+                "search_result_label": "Tartışma Arama Sınırını Birleştir"
             }
         },
         "api": {
@@ -45,8 +45,8 @@
         },
         "email": {
             "merged": {
-                "body": "",
-                "subject": ""
+                "body": "Merhaba {recipient_display_name}, \n\nTartışmanız {merged_discussion_title},{actor_display_name} tarafından {discussion_title} ile birleştirildi.\n\nBurada görüntüleyin {discussion_url} .\n",
+                "subject": "\"{merged_discussion_title}\" tartışmanız birleştirildi"
             }
         }
     }
