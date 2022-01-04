@@ -11,9 +11,9 @@
                 "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
-                "discussion_merged": "",
+                "discussion_merged": "Cuộc thảo luận <b>{oldTitle}</b> của bạn đã được gộp vào cuộc thảo luận này bởi {username}.",
                 "preferences": {
-                    "discussion_merged": ""
+                    "discussion_merged": "Ai đó gộp cuộc thảo luận của với cuộc thảo luận khác"
                 }
             },
             "discussion": {
@@ -28,8 +28,8 @@
                 "merge_discussions_label": "Hợp nhất cuộc thảo luận"
             },
             "settings": {
-                "search_result_help": "",
-                "search_result_label": ""
+                "search_result_help": "Số lượng cuộc thảo luận trả về khi tìm kiếm trong modal `Hợp nhất cuộc thảo luận`. Mặc định là 4",
+                "search_result_label": "Giới hạn tìm kiếm hợp nhất cuộc thảo luận"
             }
         },
         "api": {
@@ -45,8 +45,8 @@
         },
         "email": {
             "merged": {
-                "body": "",
-                "subject": ""
+                "body": "Chào {recipient_display_name},\n\nCuộc thảo luận {merged_discussion_title} của bạn đã được hợp nhất vào {discussion_title} bởi {actor_display_name}.\n\nXem tại đây {discussion_url} .\n",
+                "subject": "Cuộc thảo luận \"{merged_discussion_title}\" của bạn đã được hợp nhất"
             }
         }
     }
