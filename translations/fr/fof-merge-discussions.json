@@ -11,9 +11,9 @@
                 "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
-                "discussion_merged": "",
+                "discussion_merged": "Votre discussion <b>{oldTitle}</b> a été fusionnée dans cette discussion par {username}.",
                 "preferences": {
-                    "discussion_merged": ""
+                    "discussion_merged": "Quelqu'un a fusionné une de mes discussions avec une autre"
                 }
             },
             "discussion": {
@@ -28,8 +28,8 @@
                 "merge_discussions_label": "Fusionner les discussions"
             },
             "settings": {
-                "search_result_help": "",
-                "search_result_label": ""
+                "search_result_help": "Combien de discussions doivent être renvoyées lors de la recherche dans le modal « Fusionner les discussions ». La valeur par défaut est 4",
+                "search_result_label": "Limite de recherche de fusion de discussion"
             }
         },
         "api": {
@@ -45,8 +45,8 @@
         },
         "email": {
             "merged": {
-                "body": "",
-                "subject": ""
+                "body": "Salut {recipient_display_name},\n\nVotre discussion, {merged_discussion_title}, a été fusionnée dans {discussion_title} par {actor_display_name}.\n\nConsultez-le ici {discussion_url} .\n",
+                "subject": "Votre discussion \"{merged_discussion_title}\" a été fusionnée"
             }
         }
     }
