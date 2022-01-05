@@ -4,11 +4,11 @@
             "akismet_settings": {
                 "api_key_label": "API Key",
                 "title": "Ustawienia Akismeta",
-                "delete_blatant_spam_label": "",
-                "delete_blatant_spam_help": ""
+                "delete_blatant_spam_label": "Automatycznie usuń najbardziej podejrzane posty",
+                "delete_blatant_spam_help": "Jeśli Akismet wykryje, że post jest rażącym spamem, post zostanie automatycznie usunięty zamiast oznaczać go jako spam"
             },
             "permissions": {
-                "bypass_akismet": ""
+                "bypass_akismet": "Pomijanie filtra spamu Akismet"
             }
         },
         "forum": {
