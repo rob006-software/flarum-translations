@@ -2,18 +2,18 @@
     "datlechin-birthdays": {
         "forum": {
             "user": {
-                "birthday_text": "",
-                "age_text": ""
+                "birthday_text": "Sinh nhật: {date}",
+                "age_text": "Tuổi: {age}"
             },
             "header": {
-                "edit_dob_button": ""
+                "edit_dob_button": "Sửa ngày sinh"
             },
             "change_dob": {
-                "title": "",
-                "show_dob_date": "",
-                "show_dob_year": "",
-                "show_dob_year_help": "",
-                "submit_button": ""
+                "title": "Chỉnh sửa ngày sinh",
+                "show_dob_date": "Hiển thị ngày và tháng sinh",
+                "show_dob_year": "Hiển thị năm sinh",
+                "show_dob_year_help": "Điều này sẽ cho phép mọi người xem tuổi của bạn.",
+                "submit_button": "=> core.forum.change_email.submit_button"
             }
         }
     }
