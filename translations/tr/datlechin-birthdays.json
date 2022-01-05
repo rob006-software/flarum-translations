@@ -2,18 +2,18 @@
     "datlechin-birthdays": {
         "forum": {
             "user": {
-                "birthday_text": "",
-                "age_text": ""
+                "birthday_text": "Doğum Günü: {date}",
+                "age_text": "Yaş: {age}"
             },
             "header": {
-                "edit_dob_button": ""
+                "edit_dob_button": "Doğum Tarihini Düzenle"
             },
             "change_dob": {
-                "title": "",
-                "show_dob_date": "",
-                "show_dob_year": "",
-                "show_dob_year_help": "",
-                "submit_button": ""
+                "title": "Doğum Tarihini Düzenle",
+                "show_dob_date": "Doğum tarihini ve ayını göster",
+                "show_dob_year": "Doğum yılını göster",
+                "show_dob_year_help": "Bu, insanların yaşınızı görmesini sağlayacaktır.",
+                "submit_button": "=> core.forum.change_email.submit_button"
             }
         }
     }
