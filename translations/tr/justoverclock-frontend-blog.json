@@ -1,16 +1,16 @@
 {
     "justoverclock-frontend-blog": {
         "admin": {
-            "numberOfPost": "",
-            "numberOfPost-help": "",
-            "sorting": "",
-            "sorting-help": ""
+            "numberOfPost": "Gönderi Sayısı",
+            "numberOfPost-help": "Görüntülemek istediğiniz gönderi sayısını buraya yazın",
+            "sorting": "Son veya Popüler Tartışmalar? (varsayılan en sondur)",
+            "sorting-help": "En son tartışmaları görüntülemek istiyorsanız \"-createdAt\" yazın, sıcak tartışmalar için \"-commentCount\" yazın"
         },
         "forum": {
-            "recentDiscussions": "",
-            "titlePage": "",
-            "post": "",
-            "linkToDiscussion": ""
+            "recentDiscussions": "Son Tartışmalar:",
+            "titlePage": "Forum Tartışmaları",
+            "post": "{count, plural, one {# GÖNDERİ} other {# GÖNDERİLER}}",
+            "linkToDiscussion": " Tartışma Bağlantısı"
         }
     }
 }
