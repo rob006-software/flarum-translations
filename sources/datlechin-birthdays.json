@@ -10,10 +10,11 @@
             },
             "change_dob": {
                 "title": "Edit Date of Birth",
-                "show_dob_date": "Show date and month of birth",
+                "date_of_birth_text": "Date of Birth",
+                "show_dob_date": "Show day and month of birth",
                 "show_dob_year": "Show year of birth",
                 "show_dob_year_help": "This will allow people to see your age.",
-                "submit_button": "=> core.forum.change_email.submit_button"
+                "submit_button": "=> core.ref.save_changes"
             }
         }
     }
