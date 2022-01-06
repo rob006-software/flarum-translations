@@ -4,13 +4,16 @@
             "numberOfPost": "Number of Posts",
             "numberOfPost-help": "Put here the number of post that you want to display",
             "sorting": "Latest or Hot Discussions? (default is latest)",
-            "sorting-help": "If you want to display latest discussions write \"-createdAt\", for hot discussions write \"-commentCount\""
+            "sorting-help": "If you want to display latest discussions write \"-createdAt\", for hot discussions write \"-commentCount\"",
+            "charLim": "Character Limit",
+            "charLim-help": "Put here the number of max character to display"
         },
         "forum": {
             "recentDiscussions": "Recent Discussions:",
             "titlePage": "Forum Discussions",
             "post": "{count, plural, one {# POST} other {# POSTS}}",
-            "linkToDiscussion": " Link To Discussion"
+            "linkToDiscussion": " Link To Discussion",
+            "postedOn": " Posted On: "
         }
     }
 }

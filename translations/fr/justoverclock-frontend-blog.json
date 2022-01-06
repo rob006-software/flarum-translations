@@ -4,13 +4,16 @@
             "numberOfPost": "Nombre de messages",
             "numberOfPost-help": "Mettez ici le nombre de message que vous souhaitez afficher",
             "sorting": "Discussions les plus récentes ou les plus chaudes ? (la valeur par défaut est la plus récente)",
-            "sorting-help": "Si vous souhaitez afficher les dernières discussions, écrivez \"-createdAt\", pour les discussions chaudes, écrivez \"-commentCount\""
+            "sorting-help": "Si vous souhaitez afficher les dernières discussions, écrivez \"-createdAt\", pour les discussions chaudes, écrivez \"-commentCount\"",
+            "charLim": "",
+            "charLim-help": ""
         },
         "forum": {
             "recentDiscussions": "Discussions récentes :",
             "titlePage": "Discussions sur le forum",
             "post": "{count, plural, one {# MESSAGE} other {# MESSAGES}}",
-            "linkToDiscussion": " Lien vers la discussion"
+            "linkToDiscussion": " Lien vers la discussion",
+            "postedOn": ""
         }
     }
 }
