@@ -1,5 +1,10 @@
 {
     "datlechin-birthdays": {
+        "admin": {
+            "settings": {
+                "set_on_registration_label": ""
+            }
+        },
         "forum": {
             "user": {
                 "birthday_text": "Sinh nhật: {date}",
@@ -11,10 +16,19 @@
             "change_dob": {
                 "title": "Chỉnh sửa ngày sinh",
                 "date_of_birth_text": "Ngày sinh",
+                "submit_button": "=> core.ref.save_changes",
                 "show_dob_date": "Hiển thị ngày và tháng sinh",
                 "show_dob_year": "Hiển thị năm sinh",
-                "show_dob_year_help": "Điều này sẽ cho phép mọi người xem tuổi của bạn.",
-                "submit_button": "=> core.ref.save_changes"
+                "show_dob_year_help": "Điều này sẽ cho phép mọi người xem tuổi của bạn."
+            },
+            "settings": {
+                "birthday_heading": "",
+                "show_dob_date_label": "",
+                "show_dob_year_label": "",
+                "show_dob_year_help": ""
+            },
+            "edit_user": {
+                "birthdays_heading": ""
             }
         }
     }

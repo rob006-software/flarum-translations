@@ -1,5 +1,10 @@
 {
     "datlechin-birthdays": {
+        "admin": {
+            "settings": {
+                "set_on_registration_label": "Allow setting birthdays on registration"
+            }
+        },
         "forum": {
             "user": {
                 "birthday_text": "Birthday: {date}",
@@ -11,10 +16,16 @@
             "change_dob": {
                 "title": "Edit Date of Birth",
                 "date_of_birth_text": "Date of Birth",
-                "show_dob_date": "Show day and month of birth",
-                "show_dob_year": "Show year of birth",
-                "show_dob_year_help": "This will allow people to see your age.",
                 "submit_button": "=> core.ref.save_changes"
+            },
+            "settings": {
+                "birthday_heading": "Date of Birth",
+                "show_dob_date_label": "Show day and month of birth",
+                "show_dob_year_label": "Show year of birth",
+                "show_dob_year_help": "This will allow people to see your age."
+            },
+            "edit_user": {
+                "birthdays_heading": "Date of Birth"
             }
         }
     }
