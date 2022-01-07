@@ -4,11 +4,11 @@
             "akismet_settings": {
                 "api_key_label": "Clé de l'API",
                 "title": "Paramètres d'Akismet",
-                "delete_blatant_spam_label": "",
-                "delete_blatant_spam_help": ""
+                "delete_blatant_spam_label": "Supprimer automatiquement le spam flagrant",
+                "delete_blatant_spam_help": "Si Akismet a déterminé que le commentaire est un spam flagrant, au lieu de le signaler, supprimez automatiquement le message"
             },
             "permissions": {
-                "bypass_akismet": ""
+                "bypass_akismet": "Contourner Akismet"
             }
         },
         "forum": {
