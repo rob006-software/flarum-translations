@@ -2,19 +2,19 @@
     "datlechin-birthdays": {
         "forum": {
             "user": {
-                "birthday_text": "",
-                "age_text": ""
+                "birthday_text": "Date d'anniversaire : {date}",
+                "age_text": "Âge : {age}"
             },
             "header": {
-                "edit_dob_button": ""
+                "edit_dob_button": "Modifier la date de naissance"
             },
             "change_dob": {
-                "title": "",
-                "date_of_birth_text": "",
-                "show_dob_date": "",
-                "show_dob_year": "",
-                "show_dob_year_help": "",
-                "submit_button": ""
+                "title": "Modifier la date de naissance",
+                "date_of_birth_text": "Date de naissance",
+                "show_dob_date": "Afficher le jour et le mois de naissance",
+                "show_dob_year": "Afficher l'année de naissance",
+                "show_dob_year_help": "Cela permettra aux gens de voir votre âge.",
+                "submit_button": "=> core.ref.save_changes"
             }
         }
     }
