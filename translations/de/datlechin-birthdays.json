@@ -2,35 +2,35 @@
     "datlechin-birthdays": {
         "admin": {
             "settings": {
-                "set_on_registration_label": ""
+                "set_on_registration_label": "Geburtsdatum bei der Registrierung angeben"
             }
         },
         "forum": {
             "user": {
-                "birthday_text": "",
-                "age_text": ""
+                "birthday_text": "Geburtstag: {date}",
+                "age_text": "{age} Jahre alt"
             },
             "header": {
-                "edit_dob_button": ""
+                "edit_dob_button": "Geburtsdatum ändern"
             },
             "change_dob": {
-                "title": "",
-                "date_of_birth_text": "",
-                "submit_button": "",
+                "title": "Geburtsdatum ändern",
+                "date_of_birth_text": "Geburtsdatum",
+                "submit_button": "=> core.ref.save_changes",
                 "show_dob_date": "",
                 "show_dob_year": "",
                 "show_dob_year_help": ""
             },
             "settings": {
-                "change_dob_label": "",
-                "dob_heading": "",
-                "show_dob_date_label": "",
-                "show_dob_year_label": "",
-                "show_dob_year_help": "",
+                "change_dob_label": "Geburtsdatum ändern",
+                "dob_heading": "Geburtsdatum",
+                "show_dob_date_label": "Geburtstag und Monat anzeigen",
+                "show_dob_year_label": "Geburtsjahr anzeigen",
+                "show_dob_year_help": "Dies gestattet es ihr Alter anzuzeigen.",
                 "birthday_heading": ""
             },
             "edit_user": {
-                "dob_heading": "",
+                "dob_heading": "Geburtsdatum",
                 "birthdays_heading": ""
             }
         }
