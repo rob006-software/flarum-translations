@@ -2,7 +2,10 @@
     "datlechin-birthdays": {
         "admin": {
             "settings": {
-                "set_on_registration_label": "Kayıt sırasında doğum günlerinin ayarlanmasına izin ver"
+                "set_on_registration_label": "Kayıt sırasında doğum günlerinin ayarlanmasına izin ver",
+                "date_format_label": "",
+                "date_format_help": "",
+                "date_none_year_label": ""
             }
         },
         "forum": {
@@ -33,6 +36,9 @@
                 "dob_heading": "Doğum Günü",
                 "birthdays_heading": "Doğum tarihi"
             }
+        },
+        "api": {
+            "invalid_dob_message": ""
         }
     }
 }

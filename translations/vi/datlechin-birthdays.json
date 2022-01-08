@@ -2,7 +2,10 @@
     "datlechin-birthdays": {
         "admin": {
             "settings": {
-                "set_on_registration_label": "Cho phép đặt ngày sinh khi đăng ký"
+                "set_on_registration_label": "Cho phép đặt ngày sinh khi đăng ký",
+                "date_format_label": "",
+                "date_format_help": "",
+                "date_none_year_label": ""
             }
         },
         "forum": {
@@ -33,6 +36,9 @@
                 "dob_heading": "Ngày sinh",
                 "birthdays_heading": "Ngày sinh"
             }
+        },
+        "api": {
+            "invalid_dob_message": ""
         }
     }
 }

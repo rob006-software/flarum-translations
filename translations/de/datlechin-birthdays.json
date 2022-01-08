@@ -2,7 +2,10 @@
     "datlechin-birthdays": {
         "admin": {
             "settings": {
-                "set_on_registration_label": "Geburtsdatum bei der Registrierung angeben"
+                "set_on_registration_label": "Geburtsdatum bei der Registrierung angeben",
+                "date_format_label": "",
+                "date_format_help": "",
+                "date_none_year_label": ""
             }
         },
         "forum": {
@@ -33,6 +36,9 @@
                 "dob_heading": "Geburtsdatum",
                 "birthdays_heading": ""
             }
+        },
+        "api": {
+            "invalid_dob_message": ""
         }
     }
 }

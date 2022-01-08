@@ -2,7 +2,10 @@
     "datlechin-birthdays": {
         "admin": {
             "settings": {
-                "set_on_registration_label": ""
+                "set_on_registration_label": "",
+                "date_format_label": "",
+                "date_format_help": "",
+                "date_none_year_label": ""
             }
         },
         "forum": {
@@ -33,6 +36,9 @@
                 "dob_heading": "",
                 "birthdays_heading": ""
             }
+        },
+        "api": {
+            "invalid_dob_message": ""
         }
     }
 }
