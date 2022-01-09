@@ -2,13 +2,13 @@
     "datlechin-birthdays": {
         "admin": {
             "permissions": {
-                "edit_own_birthday_label": ""
+                "edit_own_birthday_label": "Kendi doğum gününü düzenle"
             },
             "settings": {
                 "set_on_registration_label": "Kayıt sırasında doğum günlerinin ayarlanmasına izin ver",
-                "date_format_label": "",
-                "date_format_help": "",
-                "date_none_year_label": ""
+                "date_format_label": "Tarih formatı",
+                "date_format_help": "<a>moment.js</a> tarih biçimini kullanın. Varsayılan biçimi kullanmak için boş bırakın.",
+                "date_none_year_label": "Yıl olmadan tarih formatı"
             }
         },
         "forum": {
@@ -41,7 +41,7 @@
             }
         },
         "api": {
-            "invalid_dob_message": ""
+            "invalid_dob_message": "Doğum tarihiniz 100 yaşından küçük olmalıdır."
         }
     }
 }
