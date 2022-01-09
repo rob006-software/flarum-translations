@@ -3,9 +3,9 @@
         "admin": {
             "settings": {
                 "set_on_registration_label": "Cho phép đặt ngày sinh khi đăng ký",
-                "date_format_label": "",
-                "date_format_help": "",
-                "date_none_year_label": ""
+                "date_format_label": "Định dạng ngày",
+                "date_format_help": "Sử dụng định dạng <a>moment.js</a>. Để trống để sử dụng định dạng mặc định.",
+                "date_none_year_label": "Định dạng ngày không có năm"
             }
         },
         "forum": {
@@ -38,7 +38,7 @@
             }
         },
         "api": {
-            "invalid_dob_message": ""
+            "invalid_dob_message": "Ngày sinh của bạn phải nhỏ hơn 100 tuổi."
         }
     }
 }
