@@ -28,7 +28,7 @@
             },
             "nav": {
                 "start_button": "",
-                "nav_item": ""
+                "nav_item": "Privé discussie"
             },
             "input": {
                 "search_recipients": ""
@@ -60,24 +60,24 @@
                     "added": "",
                     "made_public": "",
                     "removed": "",
-                    "removed_self": ""
+                    "removed_self": "{username} heeft de privé discussie verlaten."
                 }
             },
             "user": {
                 "settings": {
-                    "block_pd": ""
+                    "block_pd": "Blokkeer privé discussie"
                 },
-                "byobu_link": "",
-                "dropdown_label": ""
+                "byobu_link": "Privé discussie",
+                "dropdown_label": "Privé discussie"
             },
             "notifications": {
-                "pd_label": "",
-                "pd_reply_label": "",
-                "pd_reply_text": "",
-                "pd_text": "",
-                "pd_user_left_label": "",
-                "pd_user_left_text": "",
-                "pd_added_text": "",
+                "pd_label": "Iemand heeft mij toegevoegd in een nieuwe privé discussie",
+                "pd_reply_label": "Iemand heeft een bericht geplaatst in een privé discussie waar ik ontvanger van ben",
+                "pd_reply_text": "{username} heeft een bericht geplaatst in een privé discussie waar jij deel van bent",
+                "pd_text": "{username} heeft een privé discussie met jou gestart",
+                "pd_user_left_label": "Een ontvangende gebruiker heeft de privé discussie verlaten waar jij deel van bent",
+                "pd_user_left_text": "{username} heeft de privé discussie verlaten",
+                "pd_added_text": "{username} heeft je toegevoegd aan een privé discussie",
                 "pd_added_label": ""
             }
         },
