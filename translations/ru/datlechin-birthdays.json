@@ -2,46 +2,46 @@
     "datlechin-birthdays": {
         "admin": {
             "permissions": {
-                "edit_own_birthday_label": ""
+                "edit_own_birthday_label": "Править свой день рождения"
             },
             "settings": {
-                "set_on_registration_label": "",
-                "date_format_label": "",
-                "date_format_help": "",
-                "date_none_year_label": ""
+                "set_on_registration_label": "Разрешить установку дня рождения при регистрации",
+                "date_format_label": "Формат даты",
+                "date_format_help": "Использовать формат даты из <a>moment.js</a>. Оставьте поле пустым для использования формата по умолчанию.",
+                "date_none_year_label": "Формат даты без года"
             }
         },
         "forum": {
             "user": {
-                "birthday_text": "",
-                "age_text": ""
+                "birthday_text": "День рождения: {date}",
+                "age_text": "Возраст: {age}"
             },
             "header": {
-                "edit_dob_button": ""
+                "edit_dob_button": "Править дату рождения"
             },
             "change_dob": {
-                "title": "",
-                "date_of_birth_text": "",
-                "submit_button": "",
+                "title": "Править дату рождения",
+                "date_of_birth_text": "Дата рождения",
+                "submit_button": "=> core.ref.save_changes",
                 "show_dob_date": "",
                 "show_dob_year": "",
                 "show_dob_year_help": ""
             },
             "settings": {
-                "change_dob_label": "",
-                "dob_heading": "",
-                "show_dob_date_label": "",
-                "show_dob_year_label": "",
-                "show_dob_year_help": "",
+                "change_dob_label": "Изменить дату рождения",
+                "dob_heading": "Дата рождения",
+                "show_dob_date_label": "Показать день и месяц рождения",
+                "show_dob_year_label": "Показать год рождения",
+                "show_dob_year_help": "Разрешает другим видеть ваш возраст.",
                 "birthday_heading": ""
             },
             "edit_user": {
-                "dob_heading": "",
+                "dob_heading": "Дата рождения",
                 "birthdays_heading": ""
             }
         },
         "api": {
-            "invalid_dob_message": ""
+            "invalid_dob_message": "Ваша дата рождения должна быть менее чем 100 лет назад."
         }
     }
 }
