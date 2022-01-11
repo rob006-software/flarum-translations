@@ -451,7 +451,9 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`askvortsov-pwa`](https://weblate.rob006.net/projects/flarum/askvortsov-pwa) | [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa) |
 | [`askvortsov-rich-text`](https://weblate.rob006.net/projects/flarum/askvortsov-rich-text) | [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text) |
 | [`askvortsov-saml`](https://weblate.rob006.net/projects/flarum/askvortsov-saml) | [`askvortsov/flarum-saml`](https://github.com/askvortsov1/flarum-saml) |
+| [`blomstra-flag-duplicates`](https://weblate.rob006.net/projects/flarum/blomstra-flag-duplicates) | [`blomstra/flag-duplicates`](https://github.com/blomstra/flarum-ext-flag-duplicate) |
 | [`blomstra-mark-unread`](https://weblate.rob006.net/projects/flarum/blomstra-mark-unread) | [`blomstra/mark-unread`](https://github.com/blomstra/flarum-ext-mark-unread) |
+| [`blomstra-notification-deleter`](https://weblate.rob006.net/projects/flarum/blomstra-notification-deleter) | [`blomstra/notification-deleter`](https://github.com/blomstra/flarum-ext-notification-deleter) |
 | [`blomstra-search`](https://weblate.rob006.net/projects/flarum/blomstra-search) | [`blomstra/search`](https://github.com/blomstra/flarum-ext-search) |
 | [`clarkwinkelmann-catch-the-fish`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-catch-the-fish) | [`clarkwinkelmann/catch-the-fish`](https://github.com/clarkwinkelmann/catch-the-fish) |
 | [`clarkwinkelmann-author-change`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-author-change) | [`clarkwinkelmann/flarum-ext-author-change`](https://github.com/clarkwinkelmann/flarum-ext-author-change) |
