@@ -7,13 +7,13 @@
         },
         "admin": {
             "title": "Filtro",
-            "bad_words_help": "",
+            "bad_words_help": "Inserisci testo o parole da filtrare, una per riga. Se il contenuto del post di un utente contiene una stringa che desideri filtrare, verrà contrassegnata per l'approvazione. Resistente contro 133t.",
             "help2": "Intervallo in minuti in cui i post dello stesso utente nella stessa discussione verranno uniti automaticamente.",
             "email_help": "Corpo dell'email contrassegnata. Accetta html o testo normale.",
             "filter_label": "Stringhe da filtrare",
             "countLabel": "Tolleranza Censura",
             "cooldownLabel": "Unisci post Recuperati",
-            "auto_merge_title": "",
+            "auto_merge_title": "Unione automatica",
             "input": {
                 "placeholder": "Stringhe da filtrare",
                 "filter_title": "Stringhe da filtrare",
@@ -30,7 +30,7 @@
                 "desc": "Filtra post da parole"
             },
             "permission": {
-                "bypass_filter_label": ""
+                "bypass_filter_label": "Ignora i filtri delle parole"
             },
             "email": {
                 "default_subject": "Riguardo il tuo Post Recente",
