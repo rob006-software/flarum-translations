@@ -11,9 +11,9 @@
                 "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
-                "discussion_merged": "",
+                "discussion_merged": "La tua discussione <b>{oldTitle}</b> è stata unita a questa discussione da {username}.",
                 "preferences": {
-                    "discussion_merged": ""
+                    "discussion_merged": "Qualcuno ha unito una delle mie discussioni con un'altra"
                 }
             },
             "discussion": {
@@ -28,8 +28,8 @@
                 "merge_discussions_label": "Unisci discussioni"
             },
             "settings": {
-                "search_result_help": "",
-                "search_result_label": ""
+                "search_result_help": "Quante discussioni devono essere restituite durante la ricerca all'interno del modale `Unisci discussioni`. Il valore predefinito è 4",
+                "search_result_label": "Limite ricerca di Unisci Discussioni"
             }
         },
         "api": {
@@ -45,8 +45,8 @@
         },
         "email": {
             "merged": {
-                "body": "",
-                "subject": ""
+                "body": "Ehi {recipient_display_name},\n\nLa tua discussione, {merged_discussion_title}, è stata unita a {discussion_title} da {actor_display_name}.\n\nVisualizzala qui {discussion_url} .\n",
+                "subject": "La tua discussione \"{merged_discussion_title}\" è stata unita"
             }
         }
     }
