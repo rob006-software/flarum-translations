@@ -850,7 +850,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/eddiewebb/flarum-calendar/1.0.2/resources/locale/en.yml',
 	],
 	'wolfgang-demeter-bbcode-5star-rating' => [
-		'tag' => 'https://raw.githubusercontent.com/wolfgang-demeter/flarum-ext-bbcode-5star-rating/v0.1.7/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/wolfgang-demeter/flarum-ext-bbcode-5star-rating/v0.1.8/locale/en.yml',
 	],
 	'zerosonesfun-bbcode-button' => [
 		'tag' => 'https://raw.githubusercontent.com/zerosonesfun/flarum-bbcode-button/0.1/locale/en.yml',
