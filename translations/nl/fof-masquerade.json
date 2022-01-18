@@ -2,65 +2,65 @@
     "fof-masquerade": {
         "forum": {
             "alerts": {
-                "profile-completion-required": "",
-                "profile-completed": ""
+                "profile-completion-required": "Vul alstublieft onderstaande verplichte profielvelden in.\n",
+                "profile-completed": "Profiel voltooid. <a>Verder naar home pagina</a>"
             },
             "buttons": {
-                "view-profile": "",
-                "edit-profile": "",
-                "save-profile": ""
+                "view-profile": "Bekijk profiel",
+                "edit-profile": "Bewerk profiel",
+                "save-profile": "Opslaan"
             },
             "fields": {
                 "select": {
-                    "none-optional": "",
-                    "none-required": ""
+                    "none-optional": "Geen optie geselecteerd (optioneel)",
+                    "none-required": "Selecteer a.u.b. een optie (verplicht)"
                 },
                 "boolean": {
-                    "yes": "",
-                    "no": ""
+                    "yes": "Ja",
+                    "no": "Nee"
                 }
             }
         },
         "admin": {
-            "general-options": "",
+            "general-options": "Algemene instellingen",
             "buttons": {
-                "add-field": "",
-                "edit-field": "",
-                "delete-field": ""
+                "add-field": "Maak veld",
+                "edit-field": "Wijzigingen opslaan",
+                "delete-field": "Verwijder veld"
             },
             "permissions": {
-                "edit-others-profile": "",
-                "have-profile": "",
-                "view-profile": ""
+                "edit-others-profile": "Het profiel van anderen bewerken",
+                "have-profile": "Een masquerade profiel hebben",
+                "view-profile": "Masquerade profiel bekijken"
             },
             "fields": {
-                "title": "",
-                "add": "",
-                "edit": "",
-                "name": "",
-                "name-help": "",
-                "description": "",
-                "description-help": "",
-                "required": "",
-                "on_bio": "",
-                "type": "",
-                "validation": "",
-                "validation-help": "",
-                "prefix": "",
-                "prefix-help": "",
-                "icon": "",
-                "icon-help": "",
-                "force-user-to-completion": "",
-                "options": "",
-                "option-new": "",
-                "option-comma-warning": ""
+                "title": "Velden",
+                "add": "Veld {field} toevoegen",
+                "edit": "Veld {field} bewerken",
+                "name": "Veld naam",
+                "name-help": "Het openbare (niet-vertaalbare) veld label.\n",
+                "description": "Veld beschrijving",
+                "description-help": "Een optionele beschrijving waarmee het nut van dit veld wordt uitgelegd.\n",
+                "required": "Maak veld verplicht",
+                "on_bio": "Laat waarde van dit veld zien in de bio van de gebruiker",
+                "type": "Type",
+                "validation": "Validatie",
+                "validation-help": "Check de ondersteunde <a>Laravel validatieregels</a>. Bijv: \"string|min:5\" of \"url\".\n",
+                "prefix": "Veld prefix",
+                "prefix-help": "Toont deze prefix vóór de waarden die in dit veld ingevuld worden door de gebruiker.\n",
+                "icon": "Icoon",
+                "icon-help": "Toont een icoon vóór de waarden die in dit veld zijn ingevoerd door de gebruiker. Voor een overzicht van beschikbare iconen, check de <a>FontAwesome website</a>. Gebruik namen van iconen met de \"fa-\" prefix, bijv. \"fas fa-info\".\n",
+                "force-user-to-completion": "Verplicht de gebruiker om het profiel volledig in te vullen",
+                "options": "Opties",
+                "option-new": "Nieuwe optie",
+                "option-comma-warning": "Het label van een optie mag geen komma (\",\") bevatten."
             },
             "types": {
-                "advanced": "",
-                "boolean": "",
-                "email": "",
-                "select": "",
-                "url": ""
+                "advanced": "Geavanceerd",
+                "boolean": "Vinkje",
+                "email": "E-mail",
+                "select": "Keuze-menu",
+                "url": "Link"
             }
         }
     }
