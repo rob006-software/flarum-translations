@@ -7,12 +7,21 @@
         }
     },
     "blomstra-flag-duplicates": {
+        "admin": {
+            "settings": {
+                "event_post_help": "",
+                "event_post_label": ""
+            }
+        },
         "forum": {
             "flags": {
                 "duplicate_discussion": "Cuộc thảo luận trùng lặp",
                 "reason_duplicate_label": "Cuộc thảo luận trùng lặp",
                 "reason_duplicate_text": "Cuộc thảo luận này trùng lặp với cuộc thảo luận khác.",
                 "deselect_discussion_a11y_label": "Bỏ chọn cuộc thảo luận"
+            },
+            "post_stream": {
+                "flagged_duplicate_text": ""
             }
         }
     }

@@ -7,12 +7,21 @@
         }
     },
     "blomstra-flag-duplicates": {
+        "admin": {
+            "settings": {
+                "event_post_help": "",
+                "event_post_label": ""
+            }
+        },
         "forum": {
             "flags": {
                 "duplicate_discussion": "Discussione Doppia",
                 "reason_duplicate_label": "Discussione Doppia",
                 "reason_duplicate_text": "Questa discussione è la copia di un altra.",
                 "deselect_discussion_a11y_label": "Deseleziona discussione"
+            },
+            "post_stream": {
+                "flagged_duplicate_text": ""
             }
         }
     }
