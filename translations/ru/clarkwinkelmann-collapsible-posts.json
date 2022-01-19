@@ -29,7 +29,7 @@
                 "post": "Свернутый"
             },
             "stream": {
-                "hidden": "",
+                "hidden": "{count, plural, one {# пост скрыт как {reason}} other {# постов скрыто как {reason}}}",
                 "load": "Загрузить больше",
                 "explanation": "Почему я это вижу?"
             }
