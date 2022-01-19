@@ -4,11 +4,11 @@
             "akismet_settings": {
                 "api_key_label": "Ключ API",
                 "title": "Настройки Akismet",
-                "delete_blatant_spam_label": "",
-                "delete_blatant_spam_help": ""
+                "delete_blatant_spam_label": "Автоматически удалять назойливый спам",
+                "delete_blatant_spam_help": "Если Akismet опеределил, что сообщение является назойливым спамом, вместо пометки автоматически удалять сообщение"
             },
             "permissions": {
-                "bypass_akismet": ""
+                "bypass_akismet": "Обходить Akismet"
             }
         },
         "forum": {
