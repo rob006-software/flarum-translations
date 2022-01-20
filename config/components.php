@@ -290,7 +290,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum/pusher/v1.2.0/locale/en.yml',
 	],
 	'flarum-statistics' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/statistics/v1.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/statistics/v1.2.0/locale/en.yml',
 	],
 	'flarum-sticky' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/sticky/v1.1.0/locale/en.yml',
