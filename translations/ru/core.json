@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "Configure Scopes",
-                "confirm_purge": "Это действие удалит записи в базе данных и ресурсы, связанные с расширением; расширение полностью не удаляется. Полное удаление расширения должно быть выполнено при помощи Composer. Вы уверены, что хотите продолжить?",
+                "confirm_uninstall": "При удалении будут удалены все записи базы данных и ресурсы, связанные с расширением. Вы уверены, что хотите продолжить?",
                 "disabled": "Отключено",
                 "enable_to_see": "Включите расширение для отображения и изменения его настроек.",
                 "enabled": "Включено",
@@ -116,14 +116,14 @@
                 "no_settings": "Расширение не имеет настроек.",
                 "open_modal": "Открыть настройки",
                 "permissions_title": "Разрешения",
+                "uninstall_button": "Удалить",
+                "confirm_purge": "Это действие удалит записи в базе данных и ресурсы, связанные с расширением; расширение полностью не удаляется. Полное удаление расширения должно быть выполнено при помощи Composer. Вы уверены, что хотите продолжить?",
                 "purge_button": "Удалить",
                 "readme": {
                     "button_label": "README",
                     "no_readme": "Расширение не имеет файл README",
                     "title": "Документация {extName}"
-                },
-                "confirm_uninstall": "При удалении будут удалены все записи базы данных и ресурсы, связанные с расширением. Вы уверены, что хотите продолжить?",
-                "uninstall_button": "Удалить"
+                }
             },
             "header": {
                 "get_help": "Помощь",
@@ -303,11 +303,11 @@
             "discussion_list": {
                 "empty_text": "Кажется, здесь нет дискуссий.",
                 "load_more_button": "=> core.ref.load_more",
+                "mark_as_read_tooltip": "Отметить как прочитанное",
                 "replied_text": "{username} ответил(а) {ago}",
                 "started_text": "{username} создал(а) {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# ответ} other {# ответов}}",
-                "unread_replies_a11y_label": "{count, plural, one {# непрочитанный ответ} other {# непрочитанных ответов}}. Отметить {count, plural, one {ответ} other {ответов}} как прочитано.",
-                "mark_as_read_tooltip": "Отметить как прочитанное"
+                "unread_replies_a11y_label": "{count, plural, one {# непрочитанный ответ} other {# непрочитанных ответов}}. Отметить {count, plural, one {ответ} other {ответов}} как прочитано."
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -459,10 +459,6 @@
             }
         },
         "lib": {
-            "debug_button": "Отладка",
-            "alert": {
-                "dismiss_a11y_label": ""
-            },
             "badge": {
                 "hidden_tooltip": "Скрыто"
             },
@@ -496,16 +492,6 @@
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
             },
-            "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
-            },
-            "modal": {
-                "close": "Закрыть"
-            },
-            "nav": {
-                "drawer_button": "Открыть панель навигации"
-            },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
@@ -517,6 +503,20 @@
             },
             "username": {
                 "deleted_text": "[удалено]"
+            },
+            "debug_button": "Отладка",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": "Закрыть"
+            },
+            "nav": {
+                "drawer_button": "Открыть панель навигации"
             }
         },
         "views": {

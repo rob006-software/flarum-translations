@@ -8,32 +8,32 @@
         "forum": {
             "notifications": {
                 "user_suspended_text": "Je bent geschorst voor {timeReadable}",
-                "user_suspended_indefinite_text": "Je bent voor onbepaalde tijd geschorst",
-                "user_unsuspended_text": "Je schorsing is ongedaan gemaakt"
-            },
-            "suspension_info": {
-                "dismiss_button": "Afwijzen",
-                "indefinite": "Dit is een schorsing voor onbepaalde tijd",
-                "limited": "Deze schorsing is van kracht tot {date}",
-                "title": "Dit account is opgeschort"
+                "user_unsuspended_text": "Je schorsing is ongedaan gemaakt",
+                "user_suspended_indefinite_text": "Je bent voor onbepaalde tijd geschorst"
             },
             "suspend_user": {
-                "display_message": "Bericht weergeven voor gebruiker",
                 "indefinitely_label": "Opgeschort voor onbepaalde tijd",
                 "limited_time_days_text": " dagen",
                 "limited_time_label": "Opgeschort voor een beperkte tijd ...",
                 "not_suspended_label": "Niet geschorst",
-                "placeholder_optional": "Optioneel",
-                "reason": "Reden voor schorsing",
                 "status_heading": "Opschortingsstatus",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "{username} opschorten"
+                "title": "{username} opschorten",
+                "display_message": "Bericht weergeven voor gebruiker",
+                "placeholder_optional": "Optioneel",
+                "reason": "Reden voor schorsing"
             },
             "user_badge": {
                 "suspended_tooltip": "Geschorst"
             },
             "user_controls": {
                 "suspend_button": "Opschorten"
+            },
+            "suspension_info": {
+                "dismiss_button": "Afwijzen",
+                "indefinite": "Dit is een schorsing voor onbepaalde tijd",
+                "limited": "Deze schorsing is van kracht tot {date}",
+                "title": "Dit account is opgeschort"
             }
         },
         "email": {

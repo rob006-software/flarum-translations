@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "קביעת תצורה של טווחים",
-                "confirm_purge": "טיהור יסיר את כל ערכי מסד הנתונים והנכסים הקשורים להרחבה. זה לא יסיר את ההתקנה של התוסף; זה חייב להיעשות דרך Composer. האם ברצונך להמשיך?",
+                "confirm_uninstall": "בהסרת ההרחבה יוסרו את כל הערכים והנכסים של מסד הנתונים. האם ברצונך להמשיך?",
                 "disabled": "מבוטל",
                 "enable_to_see": "הפעלת ההרחבה לצפיה בשינויי ההגדרות.",
                 "enabled": "מופעל",
@@ -116,14 +116,14 @@
                 "no_settings": "אין הגדרות להרחבה זו.",
                 "open_modal": "פתיחת הגדרות",
                 "permissions_title": "הרשאות",
+                "uninstall_button": "הסרה",
+                "confirm_purge": "טיהור יסיר את כל ערכי מסד הנתונים והנכסים הקשורים להרחבה. זה לא יסיר את ההתקנה של התוסף; זה חייב להיעשות דרך Composer. האם ברצונך להמשיך?",
                 "purge_button": "טיהור",
                 "readme": {
                     "button_label": "README",
                     "no_readme": "הרחבה זו אינה כוללת קובץ README",
                     "title": "מסמכי ההרחבה {extName}"
-                },
-                "confirm_uninstall": "בהסרת ההרחבה יוסרו את כל הערכים והנכסים של מסד הנתונים. האם ברצונך להמשיך?",
-                "uninstall_button": "הסרה"
+                }
             },
             "header": {
                 "get_help": "השגת עזרה",
@@ -303,11 +303,11 @@
             "discussion_list": {
                 "empty_text": "נראה שאין פה דיונים.",
                 "load_more_button": "=> core.ref.load_more",
+                "mark_as_read_tooltip": "סמן כנקרא",
                 "replied_text": "{username} הגיב {ago}",
                 "started_text": "{username} יצר {ago}",
                 "total_replies_a11y_label": "{count, plural, one {תגובה #} other {# תגובות}}",
-                "unread_replies_a11y_label": "{count, plural, one {הודעה שלא נקראה #} other {# הודעות שלא נקראו}}. סימון {count, plural, one {reply} other {replies}} כנקרא.",
-                "mark_as_read_tooltip": "סמן כנקרא"
+                "unread_replies_a11y_label": "{count, plural, one {הודעה שלא נקראה #} other {# הודעות שלא נקראו}}. סימון {count, plural, one {reply} other {replies}} כנקרא."
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -459,10 +459,6 @@
             }
         },
         "lib": {
-            "debug_button": "Debug",
-            "alert": {
-                "dismiss_a11y_label": "הסתרת התראה"
-            },
             "badge": {
                 "hidden_tooltip": "מוסתר"
             },
@@ -496,16 +492,6 @@
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
             },
-            "meta_titles": {
-                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: עמוד # - {forumName}}}",
-                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {עמוד # - {forumName}}}"
-            },
-            "modal": {
-                "close": "סגירה"
-            },
-            "nav": {
-                "drawer_button": "פתיחת עורך תפריט ניווט"
-            },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
@@ -517,6 +503,20 @@
             },
             "username": {
                 "deleted_text": "[הוסר]"
+            },
+            "debug_button": "Debug",
+            "alert": {
+                "dismiss_a11y_label": "הסתרת התראה"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: עמוד # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {עמוד # - {forumName}}}"
+            },
+            "modal": {
+                "close": "סגירה"
+            },
+            "nav": {
+                "drawer_button": "פתיחת עורך תפריט ניווט"
             }
         },
         "views": {

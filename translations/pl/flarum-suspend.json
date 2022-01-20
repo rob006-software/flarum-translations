@@ -8,32 +8,32 @@
         "forum": {
             "notifications": {
                 "user_suspended_text": "Zostałeś zbanowany na {timeReadable}",
-                "user_suspended_indefinite_text": "Zostałeś zbanowany na czas nieokreślony",
-                "user_unsuspended_text": "Zostałeś odbanowany"
-            },
-            "suspension_info": {
-                "dismiss_button": "Anuluj",
-                "indefinite": "To jest ban na czas nieokreślony",
-                "limited": "Ten ban będzie ważny do {date}",
-                "title": "To konto jest zbanowane"
+                "user_unsuspended_text": "Zostałeś odbanowany",
+                "user_suspended_indefinite_text": "Zostałeś zbanowany na czas nieokreślony"
             },
             "suspend_user": {
-                "display_message": "Wiadomość wyświetlana użytkownikowi",
                 "indefinitely_label": "Zbanowany na zawsze",
                 "limited_time_days_text": " dni",
                 "limited_time_label": "Zbanowany na określony czas...",
                 "not_suspended_label": "Nie jest zbanowany",
-                "placeholder_optional": "Opcjonalne",
-                "reason": "Powód bana",
                 "status_heading": "Status bana",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Zbanuj {username}"
+                "title": "Zbanuj {username}",
+                "display_message": "Wiadomość wyświetlana użytkownikowi",
+                "placeholder_optional": "Opcjonalne",
+                "reason": "Powód bana"
             },
             "user_badge": {
                 "suspended_tooltip": "Zbanowany"
             },
             "user_controls": {
                 "suspend_button": "Zbanuj"
+            },
+            "suspension_info": {
+                "dismiss_button": "Anuluj",
+                "indefinite": "To jest ban na czas nieokreślony",
+                "limited": "Ten ban będzie ważny do {date}",
+                "title": "To konto jest zbanowane"
             }
         },
         "email": {

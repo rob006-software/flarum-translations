@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "Configurar ámbitos",
-                "confirm_purge": "Al purgar, se eliminarán todas las entradas en la base de datos y datos asociados a la extensión. Este proceso no desinstalará la extensión, pues esto debe completarse mediante Composer ¿Realmente deseas continuar?",
+                "confirm_uninstall": "La desinstalación eliminará todas las entradas de la base de datos y los ficheros relacionados con la extensión. ¿Estás seguro de que quieres continuar?",
                 "disabled": "Desactivada",
                 "enable_to_see": "Habilita la extensión para ver y cambiar la configuración.",
                 "enabled": "Activada",
@@ -116,14 +116,14 @@
                 "no_settings": "Esta extensión no tiene configuración.",
                 "open_modal": "Configuración abierta",
                 "permissions_title": "Permisos",
+                "uninstall_button": "Desinstalar",
+                "confirm_purge": "Al purgar, se eliminarán todas las entradas en la base de datos y datos asociados a la extensión. Este proceso no desinstalará la extensión, pues esto debe completarse mediante Composer ¿Realmente deseas continuar?",
                 "purge_button": "Purgar",
                 "readme": {
                     "button_label": "LÉEME",
                     "no_readme": "Esta extensión no incluye un archivo LÉEME",
                     "title": "Documentación de {extName}"
-                },
-                "confirm_uninstall": "La desinstalación eliminará todas las entradas de la base de datos y los ficheros relacionados con la extensión. ¿Estás seguro de que quieres continuar?",
-                "uninstall_button": "Desinstalar"
+                }
             },
             "header": {
                 "get_help": "Obtener ayuda",
@@ -303,11 +303,11 @@
             "discussion_list": {
                 "empty_text": "Parece que no hay discusiones aquí.",
                 "load_more_button": "=> core.ref.load_more",
+                "mark_as_read_tooltip": "Marcar como leído",
                 "replied_text": "{username} respondió {ago}",
                 "started_text": "{username} creó {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# respuesta} other {# respuestas}}",
-                "unread_replies_a11y_label": "{count, plural, one {# respuesta sin leer} other {# respuestas sin leer}}. Marcar {count, plural, one {respuesta} other {respuestas}} como leída(s).",
-                "mark_as_read_tooltip": "Marcar como leído"
+                "unread_replies_a11y_label": "{count, plural, one {# respuesta sin leer} other {# respuestas sin leer}}. Marcar {count, plural, one {respuesta} other {respuestas}} como leída(s)."
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -459,10 +459,6 @@
             }
         },
         "lib": {
-            "debug_button": "Depurar",
-            "alert": {
-                "dismiss_a11y_label": ""
-            },
             "badge": {
                 "hidden_tooltip": "Oculto"
             },
@@ -496,16 +492,6 @@
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
             },
-            "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
-            },
-            "modal": {
-                "close": "Cerrar"
-            },
-            "nav": {
-                "drawer_button": "Abrir el cuadro de navegación"
-            },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
@@ -517,6 +503,20 @@
             },
             "username": {
                 "deleted_text": "[Borrado]"
+            },
+            "debug_button": "Depurar",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": "Cerrar"
+            },
+            "nav": {
+                "drawer_button": "Abrir el cuadro de navegación"
             }
         },
         "views": {

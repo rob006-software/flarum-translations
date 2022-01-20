@@ -8,32 +8,32 @@
         "forum": {
             "notifications": {
                 "user_suspended_text": "Siz {timeReadable} muddatga bloklandingiz",
-                "user_suspended_indefinite_text": "",
-                "user_unsuspended_text": "Siz blokdan chiqarildingiz"
-            },
-            "suspension_info": {
-                "dismiss_button": "",
-                "indefinite": "",
-                "limited": "",
-                "title": ""
+                "user_unsuspended_text": "Siz blokdan chiqarildingiz",
+                "user_suspended_indefinite_text": ""
             },
             "suspend_user": {
-                "display_message": "",
                 "indefinitely_label": "Butunlay bloklandi",
                 "limited_time_days_text": " kunlar",
                 "limited_time_label": "Muddatga bloklandi...",
                 "not_suspended_label": "Bloklanmadi",
-                "placeholder_optional": "",
-                "reason": "",
                 "status_heading": "Bloklanish holati",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Bloklash {username}"
+                "title": "Bloklash {username}",
+                "display_message": "",
+                "placeholder_optional": "",
+                "reason": ""
             },
             "user_badge": {
                 "suspended_tooltip": "Bloklandi"
             },
             "user_controls": {
                 "suspend_button": "Bloklash"
+            },
+            "suspension_info": {
+                "dismiss_button": "",
+                "indefinite": "",
+                "limited": "",
+                "title": ""
             }
         },
         "email": {

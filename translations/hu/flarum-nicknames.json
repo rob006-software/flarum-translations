@@ -7,11 +7,11 @@
             "settings": {
                 "max_label": "A becenév maximális hossza",
                 "min_label": "A becenév minimális hossza",
+                "regex_label": "Reguláris kifejezés az ellenőrzéshez",
+                "unique_label": "A becenévnek egyedinek kell lennie?",
                 "random_username_label": "Véletlenszerű felhasználónevek",
                 "random_username_help": "Ez elrejti a \"felhasználónév\" bevitelt a regisztráció során, és véletlenszerű számot használ helyette. Kötelezővé teszi a „becenév” mezőt is. Ez csak akkor lép életbe, ha a \"Becenevek beállításának engedélyezése regisztrációkor\" engedélyezve van.",
-                "regex_label": "Reguláris kifejezés az ellenőrzéshez",
-                "set_on_registration_label": "Becenevek beállításának engedélyezése a regisztráció során",
-                "unique_label": "A becenévnek egyedinek kell lennie?"
+                "set_on_registration_label": "Becenevek beállításának engedélyezése a regisztráció során"
             },
             "wrong_driver": "A bővítmény életbe léptetéséhez a „becenevet” kell választania a megjelenítendő név meghajtójaként az <a><strong>Alapok oldalon</strong></a>."
         },

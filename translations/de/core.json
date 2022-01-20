@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "Bereiche konfigurieren",
-                "confirm_purge": "Beim Bereinigen werden alle Datenbankeinträge und Assets entfernt, die sich auf die Erweiterung beziehen. Die Erweiterung wird nicht deinstalliert; das muss über Composer getan werden. Bist Du sicher sicher, dass Du fortfahren willst?",
+                "confirm_uninstall": "Bei der Deinstallation werden alle Datenbankeinträge und Assets, die mit der Erweiterung in Verbindung stehen, entfernt. Bist du sicher, dass du fortfahren möchtest?",
                 "disabled": "Deaktiviert",
                 "enable_to_see": "Aktiviere die Erweiterung um Einstellungen zu sehen und zu ändern.",
                 "enabled": "Aktiviert",
@@ -116,14 +116,14 @@
                 "no_settings": "Diese Erweiterung hat keine Einstellungen.",
                 "open_modal": "Einstellungen öffnen",
                 "permissions_title": "Berechtigungen",
+                "uninstall_button": "Deinstallieren",
+                "confirm_purge": "Beim Bereinigen werden alle Datenbankeinträge und Assets entfernt, die sich auf die Erweiterung beziehen. Die Erweiterung wird nicht deinstalliert; das muss über Composer getan werden. Bist Du sicher sicher, dass Du fortfahren willst?",
                 "purge_button": "Bereinigen",
                 "readme": {
                     "button_label": "LIESMICH",
                     "no_readme": "Diese Erweiterung scheint keine README-Datei zu haben",
                     "title": "{extName}-Dokumentation"
-                },
-                "confirm_uninstall": "Bei der Deinstallation werden alle Datenbankeinträge und Assets, die mit der Erweiterung in Verbindung stehen, entfernt. Bist du sicher, dass du fortfahren möchtest?",
-                "uninstall_button": "Deinstallieren"
+                }
             },
             "header": {
                 "get_help": "Hilfe erhalten",
@@ -303,11 +303,11 @@
             "discussion_list": {
                 "empty_text": "Noch keine Diskussionen in diesem Forum.",
                 "load_more_button": "=> core.ref.load_more",
+                "mark_as_read_tooltip": "Als gelesen markieren",
                 "replied_text": "{username} {ago}",
                 "started_text": "{username} {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# Antwort} other {# Antworten}}",
-                "unread_replies_a11y_label": "{count, plural, one {# ungelesene Antwort} other {# ungelesene Antworten}}. Markiere ungelesene {count, plural, one {Antwort} other {Antworten}} als gelesen.",
-                "mark_as_read_tooltip": "Als gelesen markieren"
+                "unread_replies_a11y_label": "{count, plural, one {# ungelesene Antwort} other {# ungelesene Antworten}}. Markiere ungelesene {count, plural, one {Antwort} other {Antworten}} als gelesen."
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -459,10 +459,6 @@
             }
         },
         "lib": {
-            "debug_button": "Debug",
-            "alert": {
-                "dismiss_a11y_label": ""
-            },
             "badge": {
                 "hidden_tooltip": "Versteckt"
             },
@@ -496,16 +492,6 @@
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
             },
-            "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
-            },
-            "modal": {
-                "close": "Schließen"
-            },
-            "nav": {
-                "drawer_button": "Navigationsschublade öffnen"
-            },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
@@ -517,6 +503,20 @@
             },
             "username": {
                 "deleted_text": "[gelöscht]"
+            },
+            "debug_button": "Debug",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": "Schließen"
+            },
+            "nav": {
+                "drawer_button": "Navigationsschublade öffnen"
             }
         },
         "views": {

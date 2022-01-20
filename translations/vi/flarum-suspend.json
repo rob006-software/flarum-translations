@@ -8,32 +8,32 @@
         "forum": {
             "notifications": {
                 "user_suspended_text": "Bạn đã bị cấm trong {timeReadable}",
-                "user_suspended_indefinite_text": "Bạn đã bị cấm vĩnh viễn",
-                "user_unsuspended_text": "Bạn đã được mở cấm"
-            },
-            "suspension_info": {
-                "dismiss_button": "Bỏ qua",
-                "indefinite": "Đây là cấm vĩnh viễn",
-                "limited": "Thời hạn cấm sẽ có hiệu lực cho đến {date}",
-                "title": "Tài khoản này đã bị cấm"
+                "user_unsuspended_text": "Bạn đã được mở cấm",
+                "user_suspended_indefinite_text": "Bạn đã bị cấm vĩnh viễn"
             },
             "suspend_user": {
-                "display_message": "Hiển thị thông báo cho người dùng",
                 "indefinitely_label": "Cấm vô thời hạn",
                 "limited_time_days_text": " ngày",
                 "limited_time_label": "Cấm trong một thời gian nhất định...",
                 "not_suspended_label": "Không cấm",
-                "placeholder_optional": "Tuỳ chọn",
-                "reason": "Lý do cấm",
                 "status_heading": "Tình trạng cấm",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "Cấm {username}"
+                "title": "Cấm {username}",
+                "display_message": "Hiển thị thông báo cho người dùng",
+                "placeholder_optional": "Tuỳ chọn",
+                "reason": "Lý do cấm"
             },
             "user_badge": {
                 "suspended_tooltip": "Bị cấm"
             },
             "user_controls": {
                 "suspend_button": "Cấm"
+            },
+            "suspension_info": {
+                "dismiss_button": "Bỏ qua",
+                "indefinite": "Đây là cấm vĩnh viễn",
+                "limited": "Thời hạn cấm sẽ có hiệu lực cho đến {date}",
+                "title": "Tài khoản này đã bị cấm"
             }
         },
         "email": {

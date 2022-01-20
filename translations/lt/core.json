@@ -104,7 +104,7 @@
             },
             "extension": {
                 "configure_scopes": "Konfigūravimo sritys",
-                "confirm_purge": "",
+                "confirm_uninstall": "Uninstalling will remove all database entries and assets related to the extension. Are you sure you want to continue?",
                 "disabled": "Disabled",
                 "enable_to_see": "Enable the extension to view and change settings.",
                 "enabled": "Enabled",
@@ -120,14 +120,14 @@
                 "no_settings": "This extension has no settings.",
                 "open_modal": "Open Settings",
                 "permissions_title": "Permissions",
+                "uninstall_button": "Uninstall",
+                "confirm_purge": "",
                 "purge_button": "",
                 "readme": {
                     "button_label": "",
                     "no_readme": "",
                     "title": ""
                 },
-                "confirm_uninstall": "Uninstalling will remove all database entries and assets related to the extension. Are you sure you want to continue?",
-                "uninstall_button": "Uninstall",
                 "saved_message": "Your changes were saved."
             },
             "header": {
@@ -310,11 +310,11 @@
             "discussion_list": {
                 "empty_text": "Panašu, kad šiame forume temų nėra.",
                 "load_more_button": "=> core.ref.load_more",
+                "mark_as_read_tooltip": "Pažymėti kaip perskaitytą",
                 "replied_text": "{username} parašė {ago}",
                 "started_text": "{username} sukūrė temą {ago}",
                 "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": "",
-                "mark_as_read_tooltip": "Pažymėti kaip perskaitytą"
+                "unread_replies_a11y_label": ""
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -479,10 +479,6 @@
             }
         },
         "lib": {
-            "debug_button": "",
-            "alert": {
-                "dismiss_a11y_label": ""
-            },
             "badge": {
                 "hidden_tooltip": "Paslėpta"
             },
@@ -516,16 +512,6 @@
             "loading_indicator": {
                 "accessible_label": ""
             },
-            "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
-            },
-            "modal": {
-                "close": ""
-            },
-            "nav": {
-                "drawer_button": ""
-            },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
@@ -537,6 +523,20 @@
             },
             "username": {
                 "deleted_text": "[ištrintas]"
+            },
+            "debug_button": "",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": ""
+            },
+            "nav": {
+                "drawer_button": ""
             }
         },
         "views": {

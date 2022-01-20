@@ -8,32 +8,32 @@
         "forum": {
             "notifications": {
                 "user_suspended_text": "Du wurdest für {timeReadable} gesperrt",
-                "user_suspended_indefinite_text": "",
-                "user_unsuspended_text": "Du wurdest entsperrt"
-            },
-            "suspension_info": {
-                "dismiss_button": "",
-                "indefinite": "",
-                "limited": "",
-                "title": ""
+                "user_unsuspended_text": "Du wurdest entsperrt",
+                "user_suspended_indefinite_text": ""
             },
             "suspend_user": {
-                "display_message": "",
                 "indefinitely_label": "Dauerhaft ausschließen",
                 "limited_time_days_text": " Tage",
                 "limited_time_label": "Temporär ausschließen …",
                 "not_suspended_label": "Nicht ausschließen",
-                "placeholder_optional": "",
-                "reason": "",
                 "status_heading": "Ausschluss-Status",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "{username} ausschließen"
+                "title": "{username} ausschließen",
+                "display_message": "",
+                "placeholder_optional": "",
+                "reason": ""
             },
             "user_badge": {
                 "suspended_tooltip": "Ausgeschlossen"
             },
             "user_controls": {
                 "suspend_button": "Ausschließen"
+            },
+            "suspension_info": {
+                "dismiss_button": "",
+                "indefinite": "",
+                "limited": "",
+                "title": ""
             }
         },
         "email": {

@@ -8,32 +8,32 @@
         "forum": {
             "notifications": {
                 "user_suspended_text": "{username} があなたのアカウントを {timeReadable} の間停止しました",
-                "user_suspended_indefinite_text": "",
-                "user_unsuspended_text": "{username} があなたのアカウント停止を解除しました"
-            },
-            "suspension_info": {
-                "dismiss_button": "",
-                "indefinite": "",
-                "limited": "",
-                "title": ""
+                "user_unsuspended_text": "{username} があなたのアカウント停止を解除しました",
+                "user_suspended_indefinite_text": ""
             },
             "suspend_user": {
-                "display_message": "",
                 "indefinitely_label": "無期限の停止",
                 "limited_time_days_text": " 日",
                 "limited_time_label": "期限付き停...",
                 "not_suspended_label": "停止を解除",
-                "placeholder_optional": "",
-                "reason": "",
                 "status_heading": "停止状況",
                 "submit_button": "=> core.ref.save_changes",
-                "title": "{username} のアカウントを停止する"
+                "title": "{username} のアカウントを停止する",
+                "display_message": "",
+                "placeholder_optional": "",
+                "reason": ""
             },
             "user_badge": {
                 "suspended_tooltip": "停止されました"
             },
             "user_controls": {
                 "suspend_button": "アカウント停止"
+            },
+            "suspension_info": {
+                "dismiss_button": "",
+                "indefinite": "",
+                "limited": "",
+                "title": ""
             }
         },
         "email": {
