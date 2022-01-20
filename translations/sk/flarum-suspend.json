@@ -8,32 +8,32 @@
         "forum": {
             "notifications": {
                 "user_suspended_text": "Používateľ {username} Vás pozastavil na {timeReadable}",
-                "user_unsuspended_text": "Používateľ {username} Vám zrušil pozastavenie",
-                "user_suspended_indefinite_text": ""
-            },
-            "suspend_user": {
-                "indefinitely_label": "Pozastavený na neurčito",
-                "limited_time_days_text": " dní",
-                "limited_time_label": "Pozastavený na určitý čas...",
-                "not_suspended_label": "Nepozastavený",
-                "status_heading": "Stav Pozastavenia",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "Pozastaviť používateľa {username}",
-                "display_message": "",
-                "placeholder_optional": "",
-                "reason": ""
-            },
-            "user_badge": {
-                "suspended_tooltip": "Pozastavený"
-            },
-            "user_controls": {
-                "suspend_button": "Pozastaviť"
+                "user_suspended_indefinite_text": "",
+                "user_unsuspended_text": "Používateľ {username} Vám zrušil pozastavenie"
             },
             "suspension_info": {
                 "dismiss_button": "",
                 "indefinite": "",
                 "limited": "",
                 "title": ""
+            },
+            "suspend_user": {
+                "display_message": "",
+                "indefinitely_label": "Pozastavený na neurčito",
+                "limited_time_days_text": " dní",
+                "limited_time_label": "Pozastavený na určitý čas...",
+                "not_suspended_label": "Nepozastavený",
+                "placeholder_optional": "",
+                "reason": "",
+                "status_heading": "Stav Pozastavenia",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Pozastaviť používateľa {username}"
+            },
+            "user_badge": {
+                "suspended_tooltip": "Pozastavený"
+            },
+            "user_controls": {
+                "suspend_button": "Pozastaviť"
             }
         },
         "email": {

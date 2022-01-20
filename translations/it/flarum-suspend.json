@@ -8,32 +8,32 @@
         "forum": {
             "notifications": {
                 "user_suspended_text": "Sei stato sospeso per {timeReadable}",
-                "user_unsuspended_text": "Non sei più sospeso",
-                "user_suspended_indefinite_text": "Sei stato sospeso a tempo indefinito"
-            },
-            "suspend_user": {
-                "indefinitely_label": "Sospeso a tempo indeterminato",
-                "limited_time_days_text": " giorni",
-                "limited_time_label": "Sospeso per un tempo limitato...",
-                "not_suspended_label": "Non sospeso",
-                "status_heading": "Stato di sospensione",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "Sospendi {username}",
-                "display_message": "Mostra messaggio per l'utente",
-                "placeholder_optional": "Opzionale",
-                "reason": "Motivo della sospensione"
-            },
-            "user_badge": {
-                "suspended_tooltip": "Sospeso"
-            },
-            "user_controls": {
-                "suspend_button": "Sospendi"
+                "user_suspended_indefinite_text": "Sei stato sospeso a tempo indefinito",
+                "user_unsuspended_text": "Non sei più sospeso"
             },
             "suspension_info": {
                 "dismiss_button": "Togli",
                 "indefinite": "Questa sospensione è permanente",
                 "limited": "Questa sospensione sarà attiva fino al {date}",
                 "title": "Questo account è sospeso"
+            },
+            "suspend_user": {
+                "display_message": "Mostra messaggio per l'utente",
+                "indefinitely_label": "Sospeso a tempo indeterminato",
+                "limited_time_days_text": " giorni",
+                "limited_time_label": "Sospeso per un tempo limitato...",
+                "not_suspended_label": "Non sospeso",
+                "placeholder_optional": "Opzionale",
+                "reason": "Motivo della sospensione",
+                "status_heading": "Stato di sospensione",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Sospendi {username}"
+            },
+            "user_badge": {
+                "suspended_tooltip": "Sospeso"
+            },
+            "user_controls": {
+                "suspend_button": "Sospendi"
             }
         },
         "email": {

@@ -8,32 +8,32 @@
         "forum": {
             "notifications": {
                 "user_suspended_text": "Teidät on jäädytetty {timeReadable}",
-                "user_unsuspended_text": "Teidän jäädytys on poistettu",
-                "user_suspended_indefinite_text": ""
-            },
-            "suspend_user": {
-                "indefinitely_label": "Jäädytetty pysyvästi",
-                "limited_time_days_text": " päivää",
-                "limited_time_label": "Jäädytetty rajoitetuksi ajaksi...",
-                "not_suspended_label": "Ei jäädytetty",
-                "status_heading": "Jäädytyksen tila",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "Jäädytä {username}",
-                "display_message": "",
-                "placeholder_optional": "",
-                "reason": ""
-            },
-            "user_badge": {
-                "suspended_tooltip": "Jäädytetty"
-            },
-            "user_controls": {
-                "suspend_button": "Jäädytä"
+                "user_suspended_indefinite_text": "",
+                "user_unsuspended_text": "Teidän jäädytys on poistettu"
             },
             "suspension_info": {
                 "dismiss_button": "",
                 "indefinite": "",
                 "limited": "",
                 "title": ""
+            },
+            "suspend_user": {
+                "display_message": "",
+                "indefinitely_label": "Jäädytetty pysyvästi",
+                "limited_time_days_text": " päivää",
+                "limited_time_label": "Jäädytetty rajoitetuksi ajaksi...",
+                "not_suspended_label": "Ei jäädytetty",
+                "placeholder_optional": "",
+                "reason": "",
+                "status_heading": "Jäädytyksen tila",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Jäädytä {username}"
+            },
+            "user_badge": {
+                "suspended_tooltip": "Jäädytetty"
+            },
+            "user_controls": {
+                "suspend_button": "Jäädytä"
             }
         },
         "email": {
