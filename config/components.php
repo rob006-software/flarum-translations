@@ -14,14 +14,12 @@ declare(strict_types=1);
 return [
 	// do not remove this component - it is used as main component in Weblate project
 	'core' => [
+		'https://raw.githubusercontent.com/flarum/core/v1.2.0/locale/core.yml',
 		'https://raw.githubusercontent.com/flarum/core/v1.1.0/locale/core.yml',
-		'https://raw.githubusercontent.com/flarum/core/v1.0.0/locale/core.yml',
-		'https://raw.githubusercontent.com/flarum/core/master/locale/core.yml',
 	],
 	'validation' => [
+		'https://raw.githubusercontent.com/flarum/core/v1.2.0/locale/validation.yml',
 		'https://raw.githubusercontent.com/flarum/core/v1.1.0/locale/validation.yml',
-		'https://raw.githubusercontent.com/flarum/core/v1.0.0/locale/validation.yml',
-		'https://raw.githubusercontent.com/flarum/core/master/locale/validation.yml',
 	],
 	/* extensions list begin */
 	'acpl-lscache' => [
@@ -263,63 +261,48 @@ return [
 	],
 	'flarum-akismet' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/akismet/v1.1.0/locale/en.yml',
-		'branch' => 'https://raw.githubusercontent.com/flarum/akismet/master/locale/en.yml',
 	],
 	'flarum-approval' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/approval/v1.1.0/locale/en.yml',
-		'branch' => 'https://raw.githubusercontent.com/flarum/approval/master/locale/en.yml',
 	],
 	'flarum-emoji' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/emoji/v1.1.1/locale/en.yml',
-		'branch' => 'https://raw.githubusercontent.com/flarum/emoji/master/locale/en.yml',
 	],
 	'flarum-flags' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/flags/v1.1.0/locale/en.yml',
-		'branch' => 'https://raw.githubusercontent.com/flarum/flags/master/locale/en.yml',
 	],
 	'flarum-likes' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/likes/v1.1.0/locale/en.yml',
-		'branch' => 'https://raw.githubusercontent.com/flarum/likes/master/locale/en.yml',
 	],
 	'flarum-lock' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/lock/v1.1.0/locale/en.yml',
-		'branch' => 'https://raw.githubusercontent.com/flarum/lock/master/locale/en.yml',
 	],
 	'flarum-markdown' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/markdown/v1.1.1/locale/en.yml',
-		'branch' => 'https://raw.githubusercontent.com/flarum/markdown/master/locale/en.yml',
 	],
 	'flarum-mentions' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/mentions/v1.1.3/locale/en.yml',
-		'branch' => 'https://raw.githubusercontent.com/flarum/mentions/master/locale/en.yml',
 	],
 	'flarum-nicknames' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/nicknames/v1.1.0/locale/en.yml',
-		'branch' => 'https://raw.githubusercontent.com/flarum/nicknames/master/locale/en.yml',
 	],
 	'flarum-pusher' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/pusher/v1.1.0/locale/en.yml',
-		'branch' => 'https://raw.githubusercontent.com/flarum/pusher/master/locale/en.yml',
 	],
 	'flarum-statistics' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/statistics/v1.1.0/locale/en.yml',
-		'branch' => 'https://raw.githubusercontent.com/flarum/statistics/master/locale/en.yml',
 	],
 	'flarum-sticky' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/sticky/v1.1.0/locale/en.yml',
-		'branch' => 'https://raw.githubusercontent.com/flarum/sticky/master/locale/en.yml',
 	],
 	'flarum-subscriptions' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/subscriptions/v1.1.0/locale/en.yml',
-		'branch' => 'https://raw.githubusercontent.com/flarum/subscriptions/master/locale/en.yml',
 	],
 	'flarum-suspend' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/suspend/v1.1.0/locale/en.yml',
-		'branch' => 'https://raw.githubusercontent.com/flarum/suspend/master/locale/en.yml',
 	],
 	'flarum-tags' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/tags/v1.1.0/locale/en.yml',
-		'branch' => 'https://raw.githubusercontent.com/flarum/tags/master/locale/en.yml',
 	],
 	'flarumite-simple-discussion-views' => [
 		'tag' => 'https://raw.githubusercontent.com/flarumite/simple-discussion-views/1.0.5/resources/locale/en.yml',
