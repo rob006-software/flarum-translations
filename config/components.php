@@ -272,7 +272,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum/flags/v1.2.0/locale/en.yml',
 	],
 	'flarum-likes' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/likes/v1.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/likes/v1.2.0/locale/en.yml',
 	],
 	'flarum-lock' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/lock/v1.1.0/locale/en.yml',
