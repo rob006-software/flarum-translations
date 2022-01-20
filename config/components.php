@@ -281,7 +281,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum/markdown/v1.2.0/locale/en.yml',
 	],
 	'flarum-mentions' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/mentions/v1.1.3/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/mentions/v1.2.0/locale/en.yml',
 	],
 	'flarum-nicknames' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/nicknames/v1.1.0/locale/en.yml',
