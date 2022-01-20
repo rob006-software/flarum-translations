@@ -299,7 +299,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum/subscriptions/v1.2.0/locale/en.yml',
 	],
 	'flarum-suspend' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/suspend/v1.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/suspend/v1.2.0/locale/en.yml',
 	],
 	'flarum-tags' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/tags/v1.1.0/locale/en.yml',
