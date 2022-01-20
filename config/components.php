@@ -95,7 +95,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-mark-unread/0.1.0/locale/en.yml',
 	],
 	'blomstra-notification-deleter' => [
-		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-notification-deleter/0.1.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-notification-deleter/0.1.2/locale/en.yml',
 	],
 	'blomstra-payments' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/blomstra-payments.yml',
