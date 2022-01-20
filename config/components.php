@@ -260,7 +260,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FFans/clipboardjs/v1.0.0/resources/locale/en.yml',
 	],
 	'flarum-akismet' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/akismet/v1.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/akismet/v1.2.0/locale/en.yml',
 	],
 	'flarum-approval' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/approval/v1.1.0/locale/en.yml',
