@@ -506,11 +506,11 @@
             },
             "debug_button": "Debug",
             "alert": {
-                "dismiss_a11y_label": ""
+                "dismiss_a11y_label": "Warnung schließen"
             },
             "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Seite # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Page # - {forumName}}}"
             },
             "modal": {
                 "close": "Schließen"
