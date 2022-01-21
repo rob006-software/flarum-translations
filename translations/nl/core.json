@@ -510,7 +510,7 @@
             },
             "meta_titles": {
                 "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Pagina # - {forumName}}}",
-                "without_page_title": ""
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Pagina # - {forumName}}}"
             },
             "modal": {
                 "close": "Sluiten"
