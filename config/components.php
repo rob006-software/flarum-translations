@@ -796,6 +796,9 @@ return [
 	'sycho-move-posts' => [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-move-posts/v0.1.5/locale/en.yml',
 	],
+	'sycho-private-facade' => [
+		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/sycho-private-facade.yml',
+	],
 	'sycho-profile-cover' => [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-profile-cover/v1.3.0/resources/locale/en.yml',
 	],
