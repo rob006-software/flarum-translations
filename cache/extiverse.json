@@ -22,7 +22,7 @@
         "name": "blomstra/realtime",
         "title": "Realtime",
         "description": "Step up to make your Flarum forum realtime.",
-        "version": "0.2.8-beta",
+        "version": "0.2.8-beta.2",
         "requiredFlarum": "^1.1.0",
         "subscriptionPlans": []
     },
@@ -360,6 +360,16 @@
         "version": "0.3.0",
         "requiredFlarum": "^0.1.0-beta.11",
         "subscriptionPlans": []
+    },
+    "sycho/flarum-private-facade": {
+        "name": "sycho/flarum-private-facade",
+        "title": "Private Forum Facade",
+        "description": "Force guests to an interface with only login and signup forms.",
+        "version": "v0.1.0",
+        "requiredFlarum": "^1.2.0",
+        "subscriptionPlans": [
+            "$12.00 per year"
+        ]
     },
     "v17development/flarum-support": {
         "name": "v17development/flarum-support",
