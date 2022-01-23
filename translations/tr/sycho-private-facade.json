@@ -2,27 +2,27 @@
     "sycho-private-facade": {
         "admin": {
             "settings": {
-                "force_redirect": "",
+                "force_redirect": "Misafirleri Giriş/Kayıt Arayüzüne Yönlendirmeye Zorlayın",
                 "header_layout": {
                     "options": {
-                        "show_header": "",
-                        "show_only_logo": "",
-                        "hide_secondary_items": ""
+                        "show_header": "Üstbilgi Göster",
+                        "show_only_logo": "Yalnızca Logoyu Göster",
+                        "hide_secondary_items": "İkincil Öğeleri Gizle (Arama, Giriş ve Kayıt bağlantıları)"
                     },
-                    "title": ""
+                    "title": "Üstbilgi Düzeni"
                 },
-                "illustration_path": "",
-                "primary_color_bg": "",
-                "screen_banner_description": "",
-                "screen_banner_heading": "",
-                "screen_banner_title": "",
-                "use_welcome_hero_text": ""
+                "illustration_path": "İllüstrasyon Resmi",
+                "primary_color_bg": "Birincil Renk Arka Planı Kullanın",
+                "screen_banner_description": "Ekran Mesajı",
+                "screen_banner_heading": "Ekran Afişi",
+                "screen_banner_title": "Ekran Başlığı",
+                "use_welcome_hero_text": "Hoş Geldiniz Banner Metni Kullanın"
             }
         },
         "forum": {
-            "log_in_label": "",
-            "or_label": "",
-            "sign_up_label": ""
+            "log_in_label": "=> core.ref.log_in",
+            "or_label": "veya",
+            "sign_up_label": "=> core.ref.sign_up"
         }
     }
 }
