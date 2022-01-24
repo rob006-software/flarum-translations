@@ -11,7 +11,7 @@
                 "random_username_help": "Ceci masquera le champ `username` lors de l'inscription, et utilisera un nombre aléatoire à la place. Cela rendra également le champ `nickname` obligatoire. Cette option ne prendra effet que si le réglage « Permettre de définir des surnoms lors de l'inscription » est activé.",
                 "regex_label": "Expression régulière pour la validation",
                 "set_on_registration_label": "Permettre de définir des surnoms lors de l'inscription",
-                "unique_label": "Exiger des pseudonymes uniques ?"
+                "unique_label": "Exiger des pseudonymes uniques"
             },
             "wrong_driver": "Vous devez sélectionner \"nickname\" comme pilote de nom d'affichage sur la page <a><strong>Essentiels</strong></a> pour que cette extension prenne effet."
         },
@@ -25,7 +25,7 @@
             },
             "edit_user": {
                 "nicknames_heading": "=> flarum-nicknames.ref.change_nickname",
-                "nicknames_text": "Pseudonyme"
+                "nicknames_text": "=> flarum-nicknames.ref.nickname"
             },
             "settings": {
                 "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
