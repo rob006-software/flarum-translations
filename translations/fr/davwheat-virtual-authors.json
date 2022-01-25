@@ -2,7 +2,8 @@
     "davwheat-virtual-authors": {
         "admin": {
             "permissions": {
-                "set_virtual_authors": "Définir des auteurs virtuels sur les discussions"
+                "set_virtual_authors": "Définir des auteurs virtuels sur les discussions",
+                "view_virtual_authors_page": ""
             },
             "settings": {
                 "errored": "Échec du chargement des auteurs virtuels à partir du serveur.",
@@ -12,6 +13,8 @@
                 "link_to_va_from_discussion": "Afficher le lien vers toutes les discussions d'un auteur virtuel dans la case « Auteurs »",
                 "authors_in_sidebar": "Afficher les auteurs dans la barre latérale au lieu du premier message ci-dessus",
                 "authors_in_sidebar_help": "Cela n'a aucun effet sur l'extension Blog.",
+                "virtual_authors_page_disabled": "",
+                "virtual_authors_page_disabled_help": "",
                 "discussion_badge": "Afficher le badge sur les discussions avec les auteurs virtuels",
                 "prev": "Page précédente",
                 "next": "Page suivante"
@@ -45,6 +48,15 @@
                 "credited_discussions": "Discussions créditées à {displayName}",
                 "discussion_count": "{count, plural, one {# discussion}, other {# discussions}}"
             },
+            "virtual_authors_list": {
+                "sidebar_link": "",
+                "empty_text": "",
+                "title": "",
+                "meta_title": "",
+                "filter_name_placeholder": "",
+                "discussion_count": "",
+                "no_description": ""
+            },
             "virtual_authors_panel": {
                 "heading": "Auteurs",
                 "error": "Échec du chargement des auteurs.",
@@ -70,7 +82,8 @@
             }
         },
         "ref": {
-            "no_description": "(aucune description définie)"
+            "no_description": "(aucune description définie)",
+            "discussion_count": ""
         }
     }
 }

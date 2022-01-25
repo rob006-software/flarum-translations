@@ -2,7 +2,8 @@
     "davwheat-virtual-authors": {
         "admin": {
             "permissions": {
-                "set_virtual_authors": "Tartışmalarda sanal yazarlar belirleyin"
+                "set_virtual_authors": "Tartışmalarda sanal yazarlar belirleyin",
+                "view_virtual_authors_page": ""
             },
             "settings": {
                 "errored": "Sunucudan sanal yazarlar yüklenemedi.",
@@ -12,6 +13,8 @@
                 "link_to_va_from_discussion": "'Yazarlar' kutusunda sanal bir yazar tarafından yapılan tüm tartışmaların bağlantısını göster",
                 "authors_in_sidebar": "Yazarları ilk gönderi yerine kenar çubuğunda göster",
                 "authors_in_sidebar_help": "Bunun Blog uzantısı için bir etkisi yoktur.",
+                "virtual_authors_page_disabled": "",
+                "virtual_authors_page_disabled_help": "",
                 "discussion_badge": "Sanal Yazarlarla yapılan tartışmalarda rozeti göster",
                 "prev": "Önceki sayfa",
                 "next": "Sonraki Sayfa"
@@ -45,6 +48,15 @@
                 "credited_discussions": "Tartışmalar {displayName} hesabına aktarıldı",
                 "discussion_count": "{count, plural, one {# tartışma}, other {# tartışma}}"
             },
+            "virtual_authors_list": {
+                "sidebar_link": "",
+                "empty_text": "",
+                "title": "",
+                "meta_title": "",
+                "filter_name_placeholder": "",
+                "discussion_count": "",
+                "no_description": ""
+            },
             "virtual_authors_panel": {
                 "heading": "Yazarlar",
                 "error": "Yazarlar yüklenemedi.",
@@ -70,7 +82,8 @@
             }
         },
         "ref": {
-            "no_description": "(açıklama seti yok)"
+            "no_description": "(açıklama seti yok)",
+            "discussion_count": ""
         }
     }
 }

@@ -2,7 +2,8 @@
     "davwheat-virtual-authors": {
         "admin": {
             "permissions": {
-                "set_virtual_authors": "Imposta autori virtuali nella discussione"
+                "set_virtual_authors": "Imposta autori virtuali nella discussione",
+                "view_virtual_authors_page": ""
             },
             "settings": {
                 "errored": "Impossibile caricare gli autori virtuali dal server.",
@@ -12,6 +13,8 @@
                 "link_to_va_from_discussion": "Mostra il collegamento a tutte le discussioni di un autore virtuale nel riquadro \"Autori\"",
                 "authors_in_sidebar": "Mostra gli autori nella barra laterale anziché sopra il primo post",
                 "authors_in_sidebar_help": "Non ha alcun effetto per l'estensione Blog.",
+                "virtual_authors_page_disabled": "",
+                "virtual_authors_page_disabled_help": "",
                 "discussion_badge": "Mostra badge sulle discussioni con gli autori virtuali",
                 "prev": "Pagina Precedente",
                 "next": "Pagina Successiva"
@@ -45,6 +48,15 @@
                 "credited_discussions": "Discussioni accreditate a {displayName}",
                 "discussion_count": "{count, plural, one {# discussione}, other {# discussioni}}"
             },
+            "virtual_authors_list": {
+                "sidebar_link": "",
+                "empty_text": "",
+                "title": "",
+                "meta_title": "",
+                "filter_name_placeholder": "",
+                "discussion_count": "",
+                "no_description": ""
+            },
             "virtual_authors_panel": {
                 "heading": "Autori",
                 "error": "Impossibile caricare gli autori.",
@@ -70,7 +82,8 @@
             }
         },
         "ref": {
-            "no_description": "(descrizione non impostata)"
+            "no_description": "(descrizione non impostata)",
+            "discussion_count": ""
         }
     }
 }

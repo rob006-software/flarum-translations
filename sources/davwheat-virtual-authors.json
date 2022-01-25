@@ -2,7 +2,8 @@
     "davwheat-virtual-authors": {
         "admin": {
             "permissions": {
-                "set_virtual_authors": "Set virtual authors on discussions"
+                "set_virtual_authors": "Set virtual authors on discussions",
+                "view_virtual_authors_page": "View page detailing all virtual authors"
             },
             "settings": {
                 "errored": "Failed to load virtual authors from the server.",
@@ -12,6 +13,8 @@
                 "link_to_va_from_discussion": "Show link to all discussions by a virtual author in the 'Authors' box",
                 "authors_in_sidebar": "Show authors in sidebar instead of above first post",
                 "authors_in_sidebar_help": "This has no effect for the Blog extension.",
+                "virtual_authors_page_disabled": "Disable the virtual authors list for all users.",
+                "virtual_authors_page_disabled_help": "This overrides any permissions set for this feature.",
                 "discussion_badge": "Show badge on discussions with Virtual Authors",
                 "prev": "Previous page",
                 "next": "Next page"
@@ -43,7 +46,16 @@
             "virtual_author_page": {
                 "meta_title": "{displayName} - Authors",
                 "credited_discussions": "Discussions credited to {displayName}",
-                "discussion_count": "{count, plural, one {# discussion}, other {# discussions}}"
+                "discussion_count": "=> davwheat-virtual-authors.ref.discussion_count"
+            },
+            "virtual_authors_list": {
+                "sidebar_link": "Authors",
+                "empty_text": "It seems that there are no authors here.",
+                "title": "All authors",
+                "meta_title": "All authors",
+                "filter_name_placeholder": "Filter by name",
+                "discussion_count": "=> davwheat-virtual-authors.ref.discussion_count",
+                "no_description": "This author keeps an air of mystery about them."
             },
             "virtual_authors_panel": {
                 "heading": "Authors",
@@ -70,7 +82,8 @@
             }
         },
         "ref": {
-            "no_description": "(no description set)"
+            "no_description": "(no description set)",
+            "discussion_count": "{count, plural, one {# discussion}, other {# discussions}}"
         }
     }
 }
