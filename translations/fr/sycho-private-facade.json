@@ -2,27 +2,27 @@
     "sycho-private-facade": {
         "admin": {
             "settings": {
-                "force_redirect": "",
+                "force_redirect": "Forcer la redirection des invités vers l'interface de connexion / d'inscription",
                 "header_layout": {
                     "options": {
-                        "show_header": "",
-                        "show_only_logo": "",
-                        "hide_secondary_items": ""
+                        "show_header": "Afficher l'en-tête",
+                        "show_only_logo": "Afficher le logo uniquement",
+                        "hide_secondary_items": "Masquer les éléments secondaires (liens de recherche, de connexion et d'inscription)"
                     },
-                    "title": ""
+                    "title": "Disposition de l'en-tête"
                 },
-                "illustration_path": "",
-                "primary_color_bg": "",
-                "screen_banner_description": "",
-                "screen_banner_heading": "",
-                "screen_banner_title": "",
-                "use_welcome_hero_text": ""
+                "illustration_path": "Image d'illustration",
+                "primary_color_bg": "Utiliser un arrière-plan de couleur primaire",
+                "screen_banner_description": "Message d'écran",
+                "screen_banner_heading": "Bannière d'écran",
+                "screen_banner_title": "Titre d'écran",
+                "use_welcome_hero_text": "Utiliser le texte de la bannière de bienvenue"
             }
         },
         "forum": {
-            "log_in_label": "",
-            "or_label": "",
-            "sign_up_label": ""
+            "log_in_label": "=> core.ref.log_in",
+            "or_label": "ou",
+            "sign_up_label": "=> core.ref.sign_up"
         }
     }
 }
