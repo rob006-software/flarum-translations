@@ -98,7 +98,9 @@
                 "bbcode-image": "Modèle d'image BBCode",
                 "bbcode-image_description": "Affiche l'image en ligne complète en utilisant BBCode. <strong>L'extension flarum/bbcode doit être installée et activée pour que cette option fonctionne.</strong> Aucune fonctionnalité de téléchargement ni aucune statistique n'est collectée, et la protection des liens chauds est ignorée.\n",
                 "just-url": "Juste l'URL",
-                "just-url_description": "Insère uniquement l'URL. Le rendu peut être géré par d'autres extensions ayant la capacité de créer des liens automatiques. Il n'y a pas de fonctionnalité de téléchargement, aucune statistique n'est collectée et la protection contre les liens hypertextes automatiques est ignorée.\n"
+                "just-url_description": "Insère uniquement l'URL. Le rendu peut être géré par d'autres extensions ayant la capacité de créer des liens automatiques. Il n'y a pas de fonctionnalité de téléchargement, aucune statistique n'est collectée et la protection contre les liens hypertextes automatiques est ignorée.\n",
+                "text-preview": "",
+                "text-preview_description": ""
             },
             "upload_methods": {
                 "aws-s3": "Compatible avec Amazon S3",
@@ -144,6 +146,13 @@
             },
             "validation": {
                 "max_size": "Les téléchargements de plus de {max} kb ne sont pas acceptés."
+            },
+            "text_preview": {
+                "expand": "",
+                "collapse": "",
+                "error": "",
+                "no_snippet_preview": "",
+                "no_snippet": ""
             }
         },
         "api": {

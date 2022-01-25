@@ -98,7 +98,9 @@
                 "bbcode-image": "BBCode resim şablonu",
                 "bbcode-image_description": "BBCode kullanarak tüm görüntüyü satır içinde gösterir. <strong>Bunun çalışması için flarum/bbcode'un kurulu ve etkinleştirilmiş olması gerekir.</strong> İndirme işlevi yoktur, istatistik toplanmaz ve hotlink koruması yok sayılır.\n",
                 "just-url": "Sadece Bağlantı",
-                "just-url_description": "Yalnızca URL'yi ekler. Oluşturma, otomatik bağlanma özelliğine sahip diğer uzantılar tarafından gerçekleştirilebilir. İndirme işlevi yoktur, hiçbir istatistik toplanmaz ve hotlink koruması göz ardı edilir.\n"
+                "just-url_description": "Yalnızca URL'yi ekler. Oluşturma, otomatik bağlanma özelliğine sahip diğer uzantılar tarafından gerçekleştirilebilir. İndirme işlevi yoktur, hiçbir istatistik toplanmaz ve hotlink koruması göz ardı edilir.\n",
+                "text-preview": "",
+                "text-preview_description": ""
             },
             "upload_methods": {
                 "aws-s3": "S3/Compatible",
@@ -144,6 +146,13 @@
             },
             "validation": {
                 "max_size": "{max} kb üzerindeki yüklemeler kabul edilmez."
+            },
+            "text_preview": {
+                "expand": "",
+                "collapse": "",
+                "error": "",
+                "no_snippet_preview": "",
+                "no_snippet": ""
             }
         },
         "api": {

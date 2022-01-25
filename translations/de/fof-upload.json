@@ -98,7 +98,9 @@
                 "bbcode-image": "BBCode-Bildvorlage",
                 "bbcode-image_description": "Zeigt das vollständige Bild in-line mit BBCode an. <strong>Du musst flarum/bbcode installiert und aktiviert haben, damit dies funktioniert.</strong> Keine Download-Funktionalität, es werden keine Statistiken gesammelt und der Hotlink-Schutz wird ignoriert.\n",
                 "just-url": "Nur URL",
-                "just-url_description": "Fügt nur die URL ein. Das Rendering kann von anderen Erweiterungen mit Autolink-Funktionalität übernommen werden. Keine Download-Funktionalität, es werden keine Statistiken gesammelt und der Hotlink-Schutz wird ignoriert.\n"
+                "just-url_description": "Fügt nur die URL ein. Das Rendering kann von anderen Erweiterungen mit Autolink-Funktionalität übernommen werden. Keine Download-Funktionalität, es werden keine Statistiken gesammelt und der Hotlink-Schutz wird ignoriert.\n",
+                "text-preview": "",
+                "text-preview_description": ""
             },
             "upload_methods": {
                 "aws-s3": "S3/Kompatibel",
@@ -144,6 +146,13 @@
             },
             "validation": {
                 "max_size": "Uploads über {max}KB werden nicht akzeptiert."
+            },
+            "text_preview": {
+                "expand": "",
+                "collapse": "",
+                "error": "",
+                "no_snippet_preview": "",
+                "no_snippet": ""
             }
         },
         "api": {

@@ -98,7 +98,9 @@
                 "bbcode-image": "BBCode 图片预览模板",
                 "bbcode-image_description": "使用 BBCode 在行内完整显示图片。<strong>此模板依赖于 flarum/bbcode 扩展程序。</strong>无下载、统计和热链保护功能。\n",
                 "just-url": "仅链接",
-                "just-url_description": "仅插入 URL。 渲染可以由具有自动链接功能的其他插件处理。无下载、统计和热链保护功能。\n"
+                "just-url_description": "仅插入 URL。 渲染可以由具有自动链接功能的其他插件处理。无下载、统计和热链保护功能。\n",
+                "text-preview": "",
+                "text-preview_description": ""
             },
             "upload_methods": {
                 "aws-s3": "AWS S3 或 S3 兼容",
@@ -144,6 +146,13 @@
             },
             "validation": {
                 "max_size": "文件需小于 {max} KB。"
+            },
+            "text_preview": {
+                "expand": "",
+                "collapse": "",
+                "error": "",
+                "no_snippet_preview": "",
+                "no_snippet": ""
             }
         },
         "api": {
