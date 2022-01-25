@@ -99,8 +99,8 @@
                 "bbcode-image_description": "BBCode kullanarak tüm görüntüyü satır içinde gösterir. <strong>Bunun çalışması için flarum/bbcode'un kurulu ve etkinleştirilmiş olması gerekir.</strong> İndirme işlevi yoktur, istatistik toplanmaz ve hotlink koruması yok sayılır.\n",
                 "just-url": "Sadece Bağlantı",
                 "just-url_description": "Yalnızca URL'yi ekler. Oluşturma, otomatik bağlanma özelliğine sahip diğer uzantılar tarafından gerçekleştirilebilir. İndirme işlevi yoktur, hiçbir istatistik toplanmaz ve hotlink koruması göz ardı edilir.\n",
-                "text-preview": "",
-                "text-preview_description": ""
+                "text-preview": "Metin önizlemesi",
+                "text-preview_description": "Dosyanın tüm içeriğini ortaya çıkarmak için genişletme seçeneğiyle birlikte metin dosyasının bir önizlemesini (ilk 5 satır) ekler.\n"
             },
             "upload_methods": {
                 "aws-s3": "S3/Compatible",
@@ -148,11 +148,11 @@
                 "max_size": "{max} kb üzerindeki yüklemeler kabul edilmez."
             },
             "text_preview": {
-                "expand": "",
-                "collapse": "",
-                "error": "",
-                "no_snippet_preview": "",
-                "no_snippet": ""
+                "expand": "Önizlemeyi genişlet",
+                "collapse": "Önizlemeyi daralt",
+                "error": "Dosya önizlenirken hata oluştu. Silinmiş olabilir veya sağlanan dosya kimliği geçersiz.\n",
+                "no_snippet_preview": "<Önizleme yayınlandıktan sonra burada görünecek>",
+                "no_snippet": "<önizleme snippet'i yok>"
             }
         },
         "api": {
