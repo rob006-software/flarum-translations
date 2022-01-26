@@ -308,7 +308,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum/tags/v1.2.0/locale/en.yml',
 	],
 	'flarumite-simple-discussion-views' => [
-		'tag' => 'https://raw.githubusercontent.com/flarumite/simple-discussion-views/1.1.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarumite/simple-discussion-views/1.1.2/resources/locale/en.yml',
 	],
 	'flarumite-simple-spoilers' => [
 		'tag' => 'https://raw.githubusercontent.com/flarumite/simple-spoilers/1.0.0/resources/locale/en.yml',
