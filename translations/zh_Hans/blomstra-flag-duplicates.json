@@ -9,14 +9,14 @@
     "blomstra-flag-duplicates": {
         "admin": {
             "settings": {
-                "event_post_help": "",
+                "event_post_help": "在已引发“重复”标志的讨论中创建一个事件帖子。 这可以通知用户该讨论可能与另一个讨论重复，而无需让他们访问已提出的整体标志。",
                 "event_post_label": ""
             }
         },
         "forum": {
             "flags": {
-                "duplicate_discussion": "",
-                "reason_duplicate_label": "",
+                "duplicate_discussion": "重复讨论",
+                "reason_duplicate_label": "Duplicate discussion",
                 "reason_duplicate_text": "",
                 "deselect_discussion_a11y_label": ""
             },
