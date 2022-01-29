@@ -3,23 +3,23 @@
         "admin": {
             "settings": {
                 "introduction": "",
-                "username_label": "",
-                "ip_label": "",
-                "email_label": "",
+                "username_label": "Spam-Check für Benutzernamen",
+                "ip_label": "IP-Adressen-Spam-Check",
+                "email_label": "E-Mail-Spam-Check",
                 "frequency_label": "",
                 "frequency_help": "",
-                "api_key_label": "",
+                "api_key_label": "API-Schlüssel",
                 "api_key_text": "",
-                "api_key_instructions_text": "",
-                "regional_endpoint_label": "",
+                "api_key_instructions_text": "<register>Für StopForumSpam anmelden</register>. Dann musst Du einen API-Schlüssel/Schlüssel erhalten.",
+                "regional_endpoint_label": "Geografischer Zugriff",
                 "regional_endpoint_help": "",
-                "region_closest_label": "",
-                "region_europe_label": "",
-                "region_us_label": "",
+                "region_closest_label": "Nächstes",
+                "region_europe_label": "Europa",
+                "region_us_label": "Vereinigte Staaten",
                 "confidence_label": "",
                 "confidence_help": "",
-                "email_hash_label": "",
-                "email_hash_help": "",
+                "email_hash_label": "Gehashte E-Mail-Adresse verwenden",
+                "email_hash_help": "Übergebe einen MD5-Hash der E-Mail-Adresse, falls Du die E-Mail-Adresse selbst nicht weitergeben möchtest. Diese Methode umgeht alle Blacklists, Normalisierungs- und Verschleierungsumgehungsprüfungen.",
                 "title": "",
                 "frequency_text": "",
                 "frequency_example_text": ""
@@ -27,12 +27,12 @@
         },
         "forum": {
             "message": {
-                "spam": ""
+                "spam": "Deine Informationen wurden als Spam markiert."
             }
         },
         "api": {
             "error": {
-                "unknown": ""
+                "unknown": "Fehler beim Melden des Benutzers an StopForumSpam."
             }
         }
     }
