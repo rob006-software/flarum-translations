@@ -859,6 +859,9 @@ return [
 	'v17development-user-badges' => [
 		'tag' => 'https://raw.githubusercontent.com/v17development/flarum-user-badges/v1.0.0/locale/en.yaml',
 	],
+	'webbinaro-affiliator' => [
+		'tag' => 'https://raw.githubusercontent.com/eddiewebb/flarum-affiliator/0.0.1/locale/en.yml',
+	],
 	'webbinaro-age-check' => [
 		'tag' => 'https://raw.githubusercontent.com/eddiewebb/flarum-age-check/0.0.6/locale/en.yml',
 	],
