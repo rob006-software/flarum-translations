@@ -490,6 +490,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`datlechin-add-like-controls`](https://weblate.rob006.net/projects/flarum/datlechin-add-like-controls) | [`datlechin/flarum-add-like-controls`](https://github.com/datlechin/flarum-add-like-controls) |
 | [`datlechin-birthdays`](https://weblate.rob006.net/projects/flarum/datlechin-birthdays) | [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays) |
 | [`datlechin-keyboard-shortcuts`](https://weblate.rob006.net/projects/flarum/datlechin-keyboard-shortcuts) | [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts) |
+| [`datlechin-landing-page`](https://weblate.rob006.net/projects/flarum/datlechin-landing-page) | [`datlechin/flarum-landing-page`](https://github.com/datlechin/flarum-landing-page) |
 | [`datlechin-pronouns`](https://weblate.rob006.net/projects/flarum/datlechin-pronouns) | [`datlechin/flarum-pronouns`](https://github.com/datlechin/flarum-pronouns) |
 | [`datlechin-scroll-buttons`](https://weblate.rob006.net/projects/flarum/datlechin-scroll-buttons) | [`datlechin/flarum-scroll-buttons`](https://github.com/datlechin/flarum-scroll-buttons) |
 | [`datlechin-signup-button`](https://weblate.rob006.net/projects/flarum/datlechin-signup-button) | [`datlechin/flarum-signup-button`](https://github.com/datlechin/flarum-signup-button) |
@@ -519,6 +520,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`jslirola-login2seeplus`](https://weblate.rob006.net/projects/flarum/jslirola-login2seeplus) | [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus) |
 | [`justoverclock-auto-post-count-badge`](https://weblate.rob006.net/projects/flarum/justoverclock-auto-post-count-badge) | [`justoverclock/auto-post-count-badge`](https://github.com/justoverclockl/auto-post-count-badge) |
 | [`justoverclock-composer-autocomplete`](https://weblate.rob006.net/projects/flarum/justoverclock-composer-autocomplete) | [`justoverclock/composer-autocomplete`](https://github.com/justoverclockl/composer-autocomplete) |
+| [`justoverclock-country-flags`](https://weblate.rob006.net/projects/flarum/justoverclock-country-flags) | [`justoverclock/country-flags`](https://github.com/justoverclockl/country-flags) |
 | [`justoverclock-custom-header`](https://weblate.rob006.net/projects/flarum/justoverclock-custom-header) | [`justoverclock/custom-header`](https://github.com/justoverclockl/custom-header) |
 | [`justoverclock-custom-html-widget`](https://weblate.rob006.net/projects/flarum/justoverclock-custom-html-widget) | [`justoverclock/custom-html-widget`](https://github.com/justoverclockl/custom-html-widget) |
 | [`justoverclock-discussion-hero-showtags`](https://weblate.rob006.net/projects/flarum/justoverclock-discussion-hero-showtags) | [`justoverclock/discussion-hero-showtags`](https://github.com/justoverclockl/discussion-hero-showtags) |
