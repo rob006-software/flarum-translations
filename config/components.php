@@ -649,6 +649,9 @@ return [
 	'justoverclock-toastme' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-toastme/0.1.1/resources/locale/en.yml',
 	],
+	'justoverclock-user-pc-specs' => [
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/user-pc-specs/0.1.0/locale/en.yml',
+	],
 	'justoverclock-username-blacklist' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/username-blacklist/0.1.0/resources/locale/en.yml',
 	],
