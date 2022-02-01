@@ -38,6 +38,13 @@ return [
 		'branch' => 'master',
 		'path' => '/locale',
 	],
+	'da' => [
+		'type' => 'language',
+		'language' => 'da',
+		'repository' => 'git@github.com:flarum-lang/danish.git',
+		'branch' => 'master',
+		'path' => '/locale',
+	],
 	'de' => [
 		'type' => 'language',
 		'language' => 'de',
