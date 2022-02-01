@@ -20,6 +20,7 @@ return [
 	]),
 	'az' => getComponents(),
 	'cs' => getComponents(),
+	'da' => getComponents(),
 	'de' => getComponents([
 		// translations included in extension
 		'!tpokorra-post-notification',
