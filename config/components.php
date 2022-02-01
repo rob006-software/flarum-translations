@@ -97,6 +97,9 @@ return [
 	'blomstra-notification-deleter' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-notification-deleter/0.2.1/locale/en.yml',
 	],
+	'blessing-oauth-client' => [
+		'tag' => 'https://raw.githubusercontent.com/bs-community/flarum-oauth-client/v2.0.1/locale/en.yml',
+	],
 	'blomstra-payments' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/blomstra-payments.yml',
 	],
