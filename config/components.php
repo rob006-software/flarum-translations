@@ -884,7 +884,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/eddiewebb/flarum-calendar/1.0.3/resources/locale/en.yml',
 	],
 	'xelson-chat' => [
-		'tag' => 'https://raw.githubusercontent.com/Xelson/flarum-ext-chat/v1.1.2/resources/locale/en.yaml',
+		'tag' => 'https://raw.githubusercontent.com/Xelson/flarum-ext-chat/v1.1.3/resources/locale/en.yaml',
 	],
 	'zerosonesfun-bbcode-button' => [
 		'tag' => 'https://raw.githubusercontent.com/zerosonesfun/flarum-bbcode-button/1.1.2/locale/en.yml',
