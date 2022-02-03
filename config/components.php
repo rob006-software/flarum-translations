@@ -238,6 +238,9 @@ return [
 	'datlechin-signup-button' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-signup-button/v0.1.0/locale/en.yml',
 	],
+	'datlechin-tag-passwords' => [
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-tag-passwords/v0.1.0/locale/en.yml',
+	],
 	'datlechin-title-length' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-title-length/v0.1.0/locale/en.yml',
 	],
