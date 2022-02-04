@@ -55,7 +55,7 @@
                     "max_file_size": "Dimensione massima dei file (in kb)",
                     "mime_types": "Configura il mimetype, formato dei file",
                     "title": "Preferenze generali",
-                    "php_ini_values": ""
+                    "php_ini_values": "I tuoi valori <code>php.ini</code> sono <code>post_max_size={post}</code> e <code>upload_max_filesize={upload}</code>. Assicurarsi che il valore impostato qui sia inferiore a queste soglie o regolarle di conseguenza. Se utilizzi <code>Nginx</code>, assicurati anche che <code>client_max_body_size</code> sia di dimensioni sufficienti per il limite massimo scelto."
                 },
                 "resize": {
                     "max_width": "Larghezza massima delle immagini",
@@ -99,8 +99,8 @@
                 "bbcode-image_description": "Mostra l'immagine completa in linea utilizzando BBCode. <strong>Devi avere flarum/bbcode installato e abilitato affinché funzioni.</strong> Nessuna funzionalità di download, nessuna statistica viene raccolta e la protezione hotlink viene ignorata.\n",
                 "just-url": "Solo URL",
                 "just-url_description": "Inserisci solo l'URL. Il rendering può essere gestito da altre estensioni con capacità di collegamento automatico. Nessuna funzionalità di download, nessuna statistica viene raccolta e la protezione hotlink viene ignorata.\n",
-                "text-preview": "",
-                "text-preview_description": ""
+                "text-preview": "Anteprima Testo",
+                "text-preview_description": "Inserisce un'anteprima (prime 5 righe) del file di testo, con un'opzione per espandere per rivelare l'intero contenuto del file.\n"
             },
             "upload_methods": {
                 "aws-s3": "Amazon S3",
@@ -145,14 +145,14 @@
                 "unauthorized": "Non hai permessi per scaricare file"
             },
             "validation": {
-                "max_size": ""
+                "max_size": "I caricamenti superiori a {max} kb non sono accettati."
             },
             "text_preview": {
-                "expand": "",
-                "collapse": "",
-                "error": "",
-                "no_snippet_preview": "",
-                "no_snippet": ""
+                "expand": "Espandi anteprima",
+                "collapse": "Comprimi anteprima",
+                "error": "Errore durante l'anteprima del file. Potrebbe essere stato eliminato o l'ID file fornito non è valido.\n",
+                "no_snippet_preview": "<l'anteprima apparirà qui dopo la pubblicazione>",
+                "no_snippet": "<nessun anteprima disponibile>"
             }
         },
         "api": {
