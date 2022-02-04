@@ -2,20 +2,20 @@
     "datlechin-pronouns": {
         "admin": {
             "settings": {
-                "prefix_label": "",
-                "prefix_help": "",
-                "icon_label": "",
-                "icon_help": ""
+                "prefix_label": "Prefisso dei pronomi",
+                "prefix_help": "Questo testo verrà visualizzato prima dei pronomi dell'utente. Lascia vuoto per non mostrare nulla.",
+                "icon_label": "Icona Pronomi",
+                "icon_help": "Abilita questa opzione per mostrare un'icona invece del testo prima dei pronomi dell'utente."
             }
         },
         "forum": {
             "change_pronouns": {
-                "title": "",
-                "help": "",
-                "submit_button": ""
+                "title": "Cambia pronomi",
+                "help": "I tuoi pronomi verranno visualizzati sul tuo profilo e sulla scheda utente. <a>Cosa sono i pronomi personali e perché sono importanti?</a>",
+                "submit_button": "=> core.ref.save_changes"
             },
             "settings": {
-                "change_pronouns_button": ""
+                "change_pronouns_button": "Cambia pronomi"
             }
         }
     }
