@@ -2955,9 +2955,20 @@
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/datlechin/flarum-tag-passwords" title="datlechin/flarum-tag-passwords"><code>datlechin/flarum-tag-passwords</code></a>
+		</td>
+		<td align="center">267</td>
+		<td align="center"><a href="https://packagist.org/packages/datlechin/flarum-tag-passwords/stats">1</a></td>
+		<td align="center"><a href="https://packagist.org/packages/datlechin/flarum-tag-passwords/stats">1</a></td>
+		<td align="center"><a href="https://packagist.org/packages/datlechin/flarum-tag-passwords/stats">1</a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/datlechin-tag-passwords/et/"><img src="https://weblate.rob006.net/widgets/flarum/et/datlechin-tag-passwords/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://github.com/MichaelBelgium/mybb_to_flarum" title="michaelbelgium/mybb-to-flarum"><code>michaelbelgium/mybb-to-flarum</code></a>
 		</td>
-		<td align="center">267<br /><img src="https://img.shields.io/badge/-%2B13-red" alt="+13" title="Change from last week"></td>
+		<td align="center">268<br /><img src="https://img.shields.io/badge/-%2B14-red" alt="+14" title="Change from last week"></td>
 		<td align="center"><a href="https://packagist.org/packages/michaelbelgium/mybb-to-flarum/stats">358<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/michaelbelgium/mybb-to-flarum/stats">0<br /><img src="https://img.shields.io/badge/--2-red" alt="-2" title="Change from last week"></a></td>
 		<td align="center"><a href="https://packagist.org/packages/michaelbelgium/mybb-to-flarum/stats">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></a></td>
