@@ -664,6 +664,9 @@ return [
 	'justoverclock-username-blacklist' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/username-blacklist/0.1.0/resources/locale/en.yml',
 	],
+	'justoverclock-users-map-location' => [
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/users-map-location/0.1.0/locale/en.yml',
+	],
 	'justoverclock-website-live-screenshot' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/justoverclock-website-live-screenshot.yml',
 	],
