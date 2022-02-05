@@ -22,10 +22,10 @@
                 "email_confirmed": "Эл.почта подтверждена",
                 "in_group": "В группе",
                 "suspended": "Деактивирован",
-                "email_matches_regex": ""
+                "email_matches_regex": "Шаблон совпадения эл.почты"
             },
             "in_group_settings": {
-                "regex": ""
+                "regex": "Шаблон для корректных эл.почт (без слэшей)"
             },
             "group_selector": {
                 "placeholder": "Выберите группу"
@@ -36,16 +36,16 @@
             },
             "criterion_status": {
                 "heading": "Проверка статуса",
-                "invalid": "",
-                "no_actions": "",
-                "no_metrics_or_reqs": "",
-                "valid": "",
+                "invalid": "Этот критерий сейчас недействителен. Проверьте драверы ниже на ошибки.",
+                "no_actions": "Для этого критерия не определены действия. Если пользователь достигнет критерия или перестанет ему соответствовать, ничего не произойдёт.",
+                "no_metrics_or_reqs": "Для этого критерия не определены показатели/требования. Это означает, что ВСЕ пользователи удовлетворяют этому критерию.",
+                "valid": "Этот критерий действителен!",
                 "action_validation_errors": "",
                 "requirement_validation_errors": ""
             },
             "criterion_page": {
-                "driver_missing_ext": "",
-                "back": "",
+                "driver_missing_ext": "Этот драйвер зависит от расширений, которые не активированы.",
+                "back": "Вернуться к списку критериев",
                 "name_label": "Имя",
                 "icon_label": "Иконка",
                 "description_label": "Описание",
