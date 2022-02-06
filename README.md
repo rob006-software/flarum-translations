@@ -570,6 +570,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`justoverclock-og-meta-tag`](https://weblate.rob006.net/projects/flarum/justoverclock-og-meta-tag) | [`justoverclock/og-meta-tag`](https://github.com/justoverclockl/og-meta-tag) |
 | [`justoverclock-user-pc-specs`](https://weblate.rob006.net/projects/flarum/justoverclock-user-pc-specs) | [`justoverclock/user-pc-specs`](https://github.com/justoverclockl/user-pc-specs) |
 | [`justoverclock-username-blacklist`](https://weblate.rob006.net/projects/flarum/justoverclock-username-blacklist) | [`justoverclock/username-blacklist`](https://github.com/justoverclockl/username-blacklist) |
+| [`justoverclock-users-map-location`](https://weblate.rob006.net/projects/flarum/justoverclock-users-map-location) | [`justoverclock/users-map-location`](https://github.com/justoverclockl/users-map-location) |
 | [`justoverclock-youtube-video-feed`](https://weblate.rob006.net/projects/flarum/justoverclock-youtube-video-feed) | [`justoverclock/youtube-video-feed`](https://github.com/justoverclockl/youtube-video-feed) |
 | [`katosdev-signature`](https://weblate.rob006.net/projects/flarum/katosdev-signature) | [`katosdev/signature`](https://github.com/katosdev/signature) |
 | [`kilowhat-audit-free`](https://weblate.rob006.net/projects/flarum/kilowhat-audit-free) | [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free) |
