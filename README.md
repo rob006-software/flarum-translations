@@ -503,6 +503,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`datlechin-landing-page`](https://weblate.rob006.net/projects/flarum/datlechin-landing-page) | [`datlechin/flarum-landing-page`](https://github.com/datlechin/flarum-landing-page) |
 | [`datlechin-link-preview`](https://weblate.rob006.net/projects/flarum/datlechin-link-preview) | [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview) |
 | [`datlechin-pronouns`](https://weblate.rob006.net/projects/flarum/datlechin-pronouns) | [`datlechin/flarum-pronouns`](https://github.com/datlechin/flarum-pronouns) |
+| [`datlechin-remove-sidenav`](https://weblate.rob006.net/projects/flarum/datlechin-remove-sidenav) | [`datlechin/flarum-remove-sidenav`](https://github.com/datlechin/flarum-remove-sidenav) |
 | [`datlechin-scroll-buttons`](https://weblate.rob006.net/projects/flarum/datlechin-scroll-buttons) | [`datlechin/flarum-scroll-buttons`](https://github.com/datlechin/flarum-scroll-buttons) |
 | [`datlechin-signup-button`](https://weblate.rob006.net/projects/flarum/datlechin-signup-button) | [`datlechin/flarum-signup-button`](https://github.com/datlechin/flarum-signup-button) |
 | [`datlechin-tag-passwords`](https://weblate.rob006.net/projects/flarum/datlechin-tag-passwords) | [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords) |
