@@ -545,7 +545,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-contactme/0.2.3/resources/locale/en.yml',
 	],
 	'justoverclock-country-flags' => [
-		'tag' => 'https://raw.githubusercontent.com/justoverclockl/country-flags/0.1.8/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/country-flags/0.2.0/locale/en.yml',
 	],
 	'justoverclock-custom-header' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/custom-header/0.1.4/resources/locale/en.yml',
