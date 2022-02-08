@@ -1,0 +1,93 @@
+{
+    "flarum-tags": {
+        "admin": {
+            "basics": {
+                "tags_label": "=> flarum-tags.ref.tags"
+            },
+            "edit_tag": {
+                "color_label": "=> core.ref.color",
+                "delete_tag_button": "Izbrišite kategoriju",
+                "delete_tag_confirmation": "Da li ste sigurni da želite da izbrišete ovu kategoriju? Diskusije u ovoj kategoriji NEĆE biti izbrisane.",
+                "description_label": "Opis",
+                "hide_label": "Sakrijte sa liste svih diskusija",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "=> flarum-tags.ref.name",
+                "name_placeholder": "=> flarum-tags.ref.name",
+                "slug_label": "Naziv za URL",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Kreirajte kategoriju"
+            },
+            "nav": {
+                "tags_button": "=> flarum-tags.ref.tags",
+                "tags_text": "Podešavanje prilagođenih kategorija."
+            },
+            "permissions": {
+                "allow_edit_tags_label": "Uređivanje kategorija",
+                "bypass_tag_counts_label": "Zahtevi za zaobilaženje kategorija",
+                "restrict_by_tag_heading": "Ograničavanje po kategorijama",
+                "tag_discussions_label": "Kategorisanje diskusija"
+            },
+            "tag_settings": {
+                "range_separator_text": " do ",
+                "required_primary_heading": "Potreban broj primarnih kategorija",
+                "required_primary_text": "Unesite minimalni i maksimalni broj primarnih kategorija koje se mogu primeniti na diskusiju.",
+                "required_secondary_heading": "Potreban broj sekundarnih kategorija",
+                "required_secondary_text": "Unesite minimalni i maksimalni broj sekundarnih kategorija koje se mogu primeniti na diskusiju.",
+                "title": "Podešavanje kategorija"
+            },
+            "tags": {
+                "about_tags_text": "Kategorije se koriste za raspodelu diskusija. Primarne kategorije su poput tradicionalnih kategorija foruma: mogu se rasporediti u hijerarhiju na dva nivoa. Sekundarne kategorije nemaju hijerarhiju ili redosled i korisne su za mikroraspodelu.",
+                "create_primary_tag_button": "Kreirajte primarnu kategoriju",
+                "create_secondary_tag_button": "Kreirajte sekundarnu kategoriju",
+                "primary_heading": "Primarne kategorije",
+                "secondary_heading": "Sekundarne kategorije",
+                "settings_heading": "Podešavanja"
+            }
+        },
+        "forum": {
+            "all_tags": {
+                "meta_description_text": "Sve kategorije",
+                "meta_title_text": "=> flarum-tags.ref.tags"
+            },
+            "choose_tags": {
+                "bypass_requirements": "Zaobiđite obavezno kategorisanje",
+                "choose_primary_placeholder": "{count, plural, one {Izaberite primarnu kategoriju} other {Izaberite # primarnih kategorija}}",
+                "choose_secondary_placeholder": "{count, plural, one {Izaberite još jednu kategoriju} other {Izaberite još # kategorija}}",
+                "edit_title": "Izmenite kategorije za diskusiju {title}",
+                "submit_button": "=> core.ref.okay",
+                "title": "Izaberite kategorije za Vašu diskusiju"
+            },
+            "composer_discussion": {
+                "choose_tags_link": "Izaberite kategorije"
+            },
+            "discussion_controls": {
+                "edit_tags_button": "Izmenite kategorije"
+            },
+            "header": {
+                "back_to_tags_tooltip": "Povratak na listu kategorija"
+            },
+            "index": {
+                "more_link": "Više..",
+                "tags_link": "=> flarum-tags.ref.tags",
+                "untagged_link": "Nekategorisano"
+            },
+            "post_stream": {
+                "added_and_removed_tags_text": "{username} je dodao/la {tagsAdded} i uklonio/la {tagsRemoved} kategoriju.",
+                "added_tags_text": "{username} je dodao/la {tagsAdded} kategoriju.",
+                "removed_tags_text": "{username} je uklonio/la {tagsRemoved} kategoriju.",
+                "tags_text": "{count, plural, one {{tags} kategorija} other {{tags} kategorije}}"
+            },
+            "tag": {
+                "meta_description_text": "Sve diskusije u {tag} kategoriji"
+            }
+        },
+        "lib": {
+            "deleted_tag_text": "Izbrisano"
+        },
+        "ref": {
+            "name": "Naziv",
+            "tags": "Kategorije"
+        }
+    }
+}
