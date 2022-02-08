@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "Konfigurišite opsege",
-                "confirm_purge": "Uklanjanje će izbrisati sve unose baze podataka i sredstva u vezi sa ekstenzijom. Neće deinstalirati ekstenziju; to se mora uraditi preko Composera. Da li ste sigurni da želite da nastavite?",
+                "confirm_uninstall": "",
                 "disabled": "Onemogućeno",
                 "enable_to_see": "Omogućite ekstenziju za pregled i promenu podešavanja.",
                 "enabled": "Omogućeno",
@@ -116,6 +116,8 @@
                 "no_settings": "Ova ekstenzija nema podešavanja.",
                 "open_modal": "Otvori podešavanja",
                 "permissions_title": "Dozvole",
+                "uninstall_button": "",
+                "confirm_purge": "Uklanjanje će izbrisati sve unose baze podataka i sredstva u vezi sa ekstenzijom. Neće deinstalirati ekstenziju; to se mora uraditi preko Composera. Da li ste sigurni da želite da nastavite?",
                 "purge_button": "Ukloni",
                 "readme": {
                     "button_label": "Saznaj više",
@@ -301,6 +303,7 @@
             "discussion_list": {
                 "empty_text": "Izgleda da ovde nema diskusija.",
                 "load_more_button": "=> core.ref.load_more",
+                "mark_as_read_tooltip": "",
                 "replied_text": "{username} je odgovorio/la {ago}",
                 "started_text": "{username} je započeo/la diskusiju {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# odgovor} other {# odgovora}}",
@@ -456,10 +459,6 @@
             }
         },
         "lib": {
-            "debug_button": "Debug",
-            "alert": {
-                "dismiss_a11y_label": "Odbacite upozorenje"
-            },
             "badge": {
                 "hidden_tooltip": "Sakriveno"
             },
@@ -493,16 +492,6 @@
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
             },
-            "meta_titles": {
-                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Stranica # - {forumName}}}",
-                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Stranica # - {forumName}}}"
-            },
-            "modal": {
-                "close": "Zatvori"
-            },
-            "nav": {
-                "drawer_button": "Otvorite meni za navigaciju"
-            },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
@@ -514,6 +503,20 @@
             },
             "username": {
                 "deleted_text": "[obrisan nalog]"
+            },
+            "debug_button": "Debug",
+            "alert": {
+                "dismiss_a11y_label": "Odbacite upozorenje"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Stranica # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Stranica # - {forumName}}}"
+            },
+            "modal": {
+                "close": "Zatvori"
+            },
+            "nav": {
+                "drawer_button": "Otvorite meni za navigaciju"
             }
         },
         "views": {
