@@ -203,7 +203,7 @@ return [
 	'sr' => [
 		'type' => 'language',
 		'language' => 'sr',
-		'repository' => 'git@github.com:fbryantmilan/lang-serbian.git',
+		'repository' => 'git@github.com:bryantmilan/lang-serbian.git',
 		'branch' => 'master',
 		'path' => '/locale',
 	],
