@@ -200,6 +200,13 @@ return [
 		'branch' => 'master',
 		'path' => '/locale',
 	],
+	'sr' => [
+		'type' => 'language',
+		'language' => 'sr',
+		'repository' => 'git@github.com:fbryantmilan/lang-serbian.git',
+		'branch' => 'master',
+		'path' => '/locale',
+	],
 	'sv' => [
 		'type' => 'language',
 		'language' => 'sv',

@@ -76,6 +76,7 @@ return [
 	]),
 	'si' => getComponents(),
 	'sk' => getComponents(),
+	'sr' => getComponents(),
 	'sv' => getComponents(),
 	'ta' => getComponents(),
 	'te' => getComponents(),
