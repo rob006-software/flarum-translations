@@ -2,13 +2,13 @@
     "datlechin-link-preview": {
         "admin": {
             "settings": {
-                "blacklist_label": "",
-                "blacklist_help": "",
-                "blacklist_placeholder": ""
+                "blacklist_label": "Lista Nera",
+                "blacklist_help": "Inserisci una lista di domini separati da virgola per escluderli dall'anteprima.",
+                "blacklist_placeholder": "esempio facebook.com,https://dominio.it/percorso"
             }
         },
         "forum": {
-            "site_cannot_be_reached": ""
+            "site_cannot_be_reached": "Questo sito non può essere raggiunto."
         }
     }
 }
