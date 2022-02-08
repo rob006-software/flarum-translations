@@ -235,6 +235,9 @@ return [
 	'datlechin-pronouns' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-pronouns/v0.1.0/locale/en.yml',
 	],
+	'datlechin-remove-sidenav' => [
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-remove-sidenav/v0.1.0/locale/en.yml',
+	],
 	'datlechin-scroll-buttons' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-scroll-buttons/v0.1.3/locale/en.yml',
 	],
