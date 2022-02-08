@@ -240,6 +240,15 @@ This repository contains raw translations data used by [Weblate](https://weblate
 		</td>
 	</tr>
 	<tr>
+		<td><a href="https://github.com/bryantmilan/lang-serbian">Serbian</a></td>
+		<td><a href="https://github.com/bryantmilan">Milan Bryant</a></td>
+		<td align="right">
+			<a href="https://rob006-software.github.io/flarum-translations/status/sr.html" title="Click to see detailed translation status for each extension">
+				<img src="https://weblate.rob006.net/widgets/flarum/sr/svg-badge.svg" alt="detailed translation status" />
+			</a>
+		</td>
+	</tr>
+	<tr>
 		<td><a href="https://github.com/flarum-lang/sinhala">Sinhala</a></td>
 		<td><a href="https://github.com/sayuri-gi">Sayuri</a></td>
 		<td align="right">
