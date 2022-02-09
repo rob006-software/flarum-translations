@@ -2996,6 +2996,17 @@
 		<td align="center"><a href="https://packagist.org/packages/justoverclock/users-map-location/stats">0<br /><img src="https://img.shields.io/badge/--1-red" alt="-1" title="Change from last week"></a></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-users-map-location/pt_BR/"><img src="https://weblate.rob006.net/widgets/flarum/pt_BR/justoverclock-users-map-location/svg-badge.svg" alt="Translation status"></a></td>
 	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://github.com/datlechin/flarum-remove-sidenav" title="datlechin/flarum-remove-sidenav"><code>datlechin/flarum-remove-sidenav</code></a>
+		</td>
+		<td align="center">271</td>
+		<td align="center"><a href="https://packagist.org/packages/datlechin/flarum-remove-sidenav/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/datlechin/flarum-remove-sidenav/stats">0</a></td>
+		<td align="center"><a href="https://packagist.org/packages/datlechin/flarum-remove-sidenav/stats">0</a></td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/datlechin-remove-sidenav/pt_BR/"><img src="https://weblate.rob006.net/widgets/flarum/pt_BR/datlechin-remove-sidenav/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
 </tbody>
 </table>
 
