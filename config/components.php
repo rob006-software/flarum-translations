@@ -89,7 +89,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-saml/v2.4.0/resources/locale/en.yml',
 	],
 	'blessing-oauth-client' => [
-		'tag' => 'https://raw.githubusercontent.com/bs-community/flarum-oauth-client/v2.0.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/bs-community/flarum-oauth-client/v2.0.2/locale/en.yml',
 	],
 	'blomstra-flag-duplicates' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-flag-duplicate/0.1.5/locale/en.yml',
