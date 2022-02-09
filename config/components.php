@@ -232,6 +232,9 @@ return [
 	'datlechin-link-preview' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-link-preview/v0.1.8/locale/en.yml',
 	],
+	'datlechin-posted-on' => [
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-posted-on/v0.1.0/locale/en.yml',
+	],
 	'datlechin-pronouns' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-pronouns/v0.1.0/locale/en.yml',
 	],
