@@ -566,7 +566,7 @@
             },
             "log_out": {
                 "log_out_button": "=> core.ref.log_out",
-                "log_out_confirmation": "Da li ste sigurni da želite da se odjavite?",
+                "log_out_confirmation": "Da li ste sigurni da želite da se odjavite sa {forum}?",
                 "title": "=> core.ref.log_out"
             },
             "reset_password": {
@@ -581,19 +581,19 @@
         },
         "email": {
             "activate_account": {
-                "subject": "Dobrodošli na {forum}! Aktivirajte svoj nalog",
+                "subject": "Aktivirajte svoj novi nalog",
                 "body": "Zdravo {username}!\n\nNeko se (nadamo se da si Vi!) registrovao na {forum} sa ovom email adresom.\n\nAko ste Vi, jednostavno kliknite na sledeći link i Vaš nalog će biti aktiviran:\n{url}\n\nAko niste bili Vi, molimo Vas da ignorišete ovu poruku!\n"
             },
             "confirm_email": {
-                "subject": "Potvrdi svoju novu email adresu na {forum}",
-                "body": "Ćao {username}!\n\nNeko je (nadamo se da si ti!) promenio svoju email adresu i naveo ovu kao novu.\n\nAko si ti, jednostavno klikni na sledeći link i tvoja nova email adresa će biti potvrđena:\n{url}\n\nAko nisi ti, molimo te da ignorišeš ovu poruku!\n"
+                "subject": "Potvrdite svoju novu email adresu",
+                "body": "Zdravo {username}!\n\nNeko je (nadamo se da si ti!) promenio svoju email adresu na {forum} i naveo ovu kao novu.\n\nAko si ti, jednostavno klikni na sledeći link i tvoja nova email adresa će biti potvrđena:\n{url}\n\nAko nisi ti, molimo te da ignorišeš ovu poruku!\n"
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
                 "body": "Ćao {username}!\n\nNeko je (nadamo se da si ti!) zatražio resetovanje lozinke za tvoj nalog na {forum}.\n\nAko si ti, jednostavno klikni na sledeći link i prati dalja uputstva za resetovanje lozinke:\n{url}\n\nAko nisi ti, molimo te da ignorišeš ovu poruku!\n"
             },
             "send_test": {
-                "subject": "Probni email sa {forum}",
+                "subject": "Probni email",
                 "body": "Ćao {username}!\n\nOvo je probni email kojim se potvrđuje da tvoja konfiguracija emaila na forumu ispravno radi.\n\nAko si ovo ti, ovaj email znači da tvoja konfiguracija funkcioniše!\n\nAko nisi ti, molimo te da ignorišeš ovu poruku!\n"
             }
         },
