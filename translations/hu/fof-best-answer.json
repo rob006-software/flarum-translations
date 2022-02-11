@@ -10,30 +10,30 @@
                     "general": "Általános",
                     "reminders": "Emlékeztetők",
                     "advanced": "Haladó",
-                    "reminders_notice": "Ahhoz, hogy az emlékeztető jól működjön, a Flarum időzítő jól kell legyen beállítva."
+                    "reminders_notice": "Ahhoz, hogy az emlékeztető működjön, a Flarum időzítő jól kell legyen beállítva."
                 },
-                "allow_select_own_post": "A felhasználók kiválaszthatják a saját hozzászólásukat",
+                "allow_select_own_post": "Saját hozzászólás kiválasztása",
                 "allow_select_own_post_help": "",
-                "enable_all_tags_button": "",
-                "enable_all_tags_reminder_button": "",
-                "select_best_answer_reminder_days": "A felhasználók emlékeztetése hogy válasszák ki a legjobb választ X nap mulva",
+                "enable_all_tags_button": "A legjobb válasz bekapcsolása az összes címkére",
+                "enable_all_tags_reminder_button": "Emlékeztető bekapcsolása az összes címkére",
+                "select_best_answer_reminder_days": "Emlékeztető gyakorisága",
                 "select_best_answer_reminder_days_help": "",
-                "schedule_on_one_server": "Használja az 'onOneServer ()' utasítást a feladatütemezőhöz (Redis / Memcache szükséges)",
+                "schedule_on_one_server": "Használja az 'onOneServer ()' utasítást a feladatütemezőhöz",
                 "schedule_on_one_server_help": "",
-                "schedule_stop_overnight": "Megakadályozza az emlékeztető ütemezőjének futtatását éjszakai órákban (21:00 és 8:00 között)",
-                "schedule_stop_overnight_help": "",
+                "schedule_stop_overnight": "Megakadályozza az emlékeztető ütemezőjének futtatását éjszakai órákban",
+                "schedule_stop_overnight_help": "D.U.9 - D.E.8 szerver idő",
                 "schedule_log_output": "Az ütemező kimenetének hozzáfűzése a naplótárhoz",
-                "show_filter_label": "",
+                "show_filter_label": "Mutassa a Legjobb válasz szűrő lenyílót",
                 "show_filter_help": "",
-                "use_alt_ui": "Alternatív elrendezés használata (a legjobb válasz gombok a láblécben)",
-                "use_alt_ui_help": "",
-                "documentation": "",
+                "use_alt_ui": "Alternatív elrendezés",
+                "use_alt_ui_help": "A legjobb válasz gombok a láblécben",
+                "documentation": "Dokumentáció",
                 "introduction": "",
                 "remind_tag_ids": "Ha bizonyos címkékre szeretnéd korlátozni az emlékeztetőket, írd be a címkéket (vesszővel elválasztva)"
             },
             "edit_tag": {
-                "qna_label": "",
-                "reminders": ""
+                "qna_label": "Legjobb válasz bekapcsolása erre a címkére",
+                "reminders": "Emlékeztető bekapcsolása erre a címkére"
             }
         },
         "forum": {
@@ -56,7 +56,7 @@
             },
             "index": {
                 "ask_question": "Tegyen fel egy kérdést",
-                "cannot_ask_question": "",
+                "cannot_ask_question": "Nem kérdezhet",
                 "solved_link": "Megoldott beszélgetések",
                 "unsolved_link": "Megoldatlan beszélgetések"
             },
@@ -64,7 +64,7 @@
                 "all_label": "Összes kérdés",
                 "solved_label": "Megoldott kérdések",
                 "unsolved_label": "Megoldatlan kérdések",
-                "accessible_label": ""
+                "accessible_label": "Megoldva/Megoldatlan választó"
             },
             "composer": {
                 "titlePlaceholder": "A kérdés címe"
