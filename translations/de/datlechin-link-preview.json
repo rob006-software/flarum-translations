@@ -2,13 +2,13 @@
     "datlechin-link-preview": {
         "admin": {
             "settings": {
-                "blacklist_label": "",
-                "blacklist_help": "",
-                "blacklist_placeholder": ""
+                "blacklist_label": "Blacklist",
+                "blacklist_help": "Gebe eine durch Kommas getrennte Liste von Domains oder URLs ein, die von der Linkvorschau ausgeschlossen werden sollen.",
+                "blacklist_placeholder": "z.B. facebook.com,https://domain.com/path"
             }
         },
         "forum": {
-            "site_cannot_be_reached": ""
+            "site_cannot_be_reached": "Diese Seite kann nicht erreicht werden."
         }
     }
 }
