@@ -551,11 +551,11 @@
             },
             "debug_button": "Hibakeresés",
             "alert": {
-                "dismiss_a11y_label": ""
+                "dismiss_a11y_label": "Figyelmeztetés elvetése"
             },
             "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Oldal # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Oldal # - {forumName}}}"
             },
             "modal": {
                 "close": "Bezárás"
