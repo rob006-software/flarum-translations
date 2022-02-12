@@ -148,11 +148,11 @@
                 "max_size": "Wysyłanie plików większych niż {max} kb nie jest obsługiwane."
             },
             "text_preview": {
-                "expand": "",
-                "collapse": "",
-                "error": "",
-                "no_snippet_preview": "",
-                "no_snippet": ""
+                "expand": "Rozwiń podgląd",
+                "collapse": "Zwiń podgląd",
+                "error": "Wystąpił błąd podczas generowania podglądu pliku. Plik mógł zostać usunięty lub podane ID pliku jest nieprawidłowe.\n",
+                "no_snippet_preview": "<podgląd pojawi się tutaj po opublikowaniu posta>",
+                "no_snippet": "<podgląd nie jest dostępny>"
             }
         },
         "api": {
