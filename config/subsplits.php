@@ -129,6 +129,13 @@ return [
 		'branch' => 'main',
 		'path' => '/locale',
 	],
+	'ko' => [
+		'type' => 'language',
+		'language' => 'ko',
+		'repository' => 'git@github.com:flarum-lang/korean.git',
+		'branch' => 'master',
+		'path' => '/locale',
+	],
 	'lt' => [
 		'type' => 'language',
 		'language' => 'lt',
