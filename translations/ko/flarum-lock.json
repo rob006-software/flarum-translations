@@ -1,0 +1,28 @@
+{
+    "flarum-lock": {
+        "admin": {
+            "permissions": {
+                "lock_discussions_label": "게시물 잠금"
+            }
+        },
+        "forum": {
+            "badge": {
+                "locked_tooltip": "잠금"
+            },
+            "discussion_controls": {
+                "lock_button": "잠금",
+                "unlock_button": "잠금 해제"
+            },
+            "notifications": {
+                "discussion_locked_text": "{username}님이 잠궜습니다"
+            },
+            "post_stream": {
+                "discussion_locked_text": "{username}님이 게시물을 잠궜습니다.",
+                "discussion_unlocked_text": "{username}님이 게시물을 잠금 해제했습니다."
+            },
+            "settings": {
+                "notify_discussion_locked_label": "누군가 내 게시물을 잠궜을 때"
+            }
+        }
+    }
+}
