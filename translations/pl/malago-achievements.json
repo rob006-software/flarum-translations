@@ -53,34 +53,34 @@
                     "contains": "Posty zawierające",
                     "comments": "Odpowiedzi otrzymane w dyskusji",
                     "years": "Lata od rejestracji",
-                    "meanwords": "",
-                    "tagposts": ""
+                    "meanwords": "Średnia liczba słów",
+                    "tagposts": "Posty w tagu"
                 },
                 "tooltip": {
-                    "posts": "",
-                    "likes": "",
-                    "selflikes": "",
-                    "discussions": "",
-                    "edits": "",
-                    "contains": "",
-                    "comments": "",
-                    "years": "",
+                    "posts": "Minimalna liczba postów (np. 10) lub zakres (np. 10,19)",
+                    "likes": "Minimalna liczba rozdanych polubień (np. 10) lub zakres (np. 10,19)",
+                    "selflikes": "Minimalna liczba otrzymanych polubień (np. 10) lub zakres (np. 10,19)",
+                    "discussions": "Minimalna liczba utworzonych dyskusji (np. 10) lub zakres (np. 10,19)",
+                    "edits": "Minimalna liczba edytowanych postów (np. 10) lub zakres (np. 10,19)",
+                    "contains": "Słowo (lub słowa) oraz minimalna liczba postów, które je zawierają (np. kurczak,10) lub zakres (np. kurczak,10,19)",
+                    "comments": "Minimalna liczba odpowiedzi otrzymanych w dyskusji (np. 10) lub zakres (np. 10,19)",
+                    "years": "Minimalna liczba lat po rejestracji (np. 10) lub zakres (np. 10,19)",
                     "meanwords": "",
-                    "tagposts": ""
+                    "tagposts": "Slug tagu oraz minimalna liczba postów (np. off-topic,10) lub zakres (np. 1off-topic,0,19)"
                 }
             },
             "achievements_page": {
-                "list_heading": "",
-                "create_achievement_button": "",
-                "instructions_header": "",
-                "instructions_text": "",
-                "add_delete_users": "",
-                "show": ""
+                "list_heading": "Osiągnięcia",
+                "create_achievement_button": "Utwórz nowe osiągniecie",
+                "instructions_header": "Instrukcje",
+                "instructions_text": "<li>Aby utworzyć osiągnięcie, musisz nadać mu nazwę.</li>\n<li>Opis jest opcjonalny.</li>\n<li>Wybierz z listy jakie źródło chcesz wykorzystywać, aby przyznawać osiągnięcie.</li>\n<li>Podaj próg, od którego osiągnięcie będzie przyznawane. Możesz podać 2 liczby rozdzielone przecinkiem, aby podać minimalny i maksymalny zakres.</li>\n<li>Osiągnięcia posiadające górny próg zostaną usunięte, jeśli wartość przekroczy górny limit.</li>\n<li>Dla osiągnięcia \"Posty zawierające\" musisz podać słowo, a następnie zakres rozdzielony przecinkiem (np. \"szpinak,5\" lub \"szpinak,5,10\").</li>\n<li>Podaj URL do obrazka lub kod ikonki, która będzie wykorzystywana dla tego osiągnięcia.</li>\n<li>Podaj wymiary ikonki.</li>\n<li>Opcjonalne: jeśli obrazek posiada kilka ikon, możesz zdefiniować wiersz oraz kolumnę wyświetlaną dla ikony.</li>\n",
+                "add_delete_users": "Przyznaj/odbierz osiągnięcia użytkownikowi",
+                "show": "Pokaż listę osiągnięć w:"
             },
             "settings": {
-                "show-post-footer": "",
-                "show-user-card": "",
-                "link-left-column": ""
+                "show-post-footer": "Stopce każdego posta",
+                "show-user-card": "Profilu użytkownika",
+                "link-left-column": "Dodaj link do osiągnięć w sidebarze"
             }
         }
     }
