@@ -24,6 +24,7 @@
             },
             "permissions": {
                 "allow_edit_tags_label": "태그 편집 사용",
+                "bypass_tag_counts_label": "",
                 "restrict_by_tag_heading": "태그 제한",
                 "tag_discussions_label": "게시물 태그 설정"
             },
@@ -37,9 +38,12 @@
             },
             "tags": {
                 "about_tags_text": "태그는 게시물을 분류하는 데 사용됩니다. 기본 태그는 기존 포럼 카테고리와 유사하며 2단계 계층 구조로 정렬할 수 있습니다. 보조 태그에는 계층 또는 순서가 없으며 미세 분류에 유용합니다.",
-                "create_tag_button": "=> flarum-tags.ref.create_tag",
+                "create_primary_tag_button": "",
+                "create_secondary_tag_button": "",
                 "primary_heading": "기본 태그",
                 "secondary_heading": "보조 태그",
+                "settings_heading": "",
+                "create_tag_button": "=> flarum-tags.ref.create_tag",
                 "settings_button": "설정"
             }
         },
@@ -49,6 +53,7 @@
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
+                "bypass_requirements": "",
                 "choose_primary_placeholder": "기본 태그 선택|{count}개의 기본 태그 선택",
                 "choose_secondary_placeholder": "1개 태그 추가 선택|{count}개 태그 추가 선택",
                 "edit_title": "{title}에 대한 태그 편집",
@@ -83,9 +88,9 @@
             "deleted_tag_text": "삭제됨"
         },
         "ref": {
-            "create_tag": "태그 생성",
             "name": "이름",
-            "tags": "태그"
+            "tags": "태그",
+            "create_tag": "태그 생성"
         }
     }
 }
