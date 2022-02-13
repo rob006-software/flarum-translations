@@ -63,8 +63,8 @@
             "edit_group": {
                 "color_label": "=> core.ref.color",
                 "delete_button": "그룹 삭제",
-                "delete_confirmation": "이 그룹을 삭제하시겠습니까? 이 경우 그룹 회원은 삭제되지 않습니다.",
-                "hide_label": "포럼 감추기",
+                "delete_confirmation": "이 그룹을 제거하시겠습니까? 그룹 안의 사용자들은 삭제되지 않습니다.",
+                "hide_label": "포럼 숨기기",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "name_label": "이름",
@@ -97,7 +97,7 @@
                 "send_test_mail_button": "전송",
                 "send_test_mail_heading": "테스트 이메일 전송",
                 "send_test_mail_success": "테스트 이메일이 성공적으로 전송되었습니다!",
-                "send_test_mail_text": "이것은 위의 설정을 이용하여, {email} 주소로 이메일을 전송합니다.",
+                "send_test_mail_text": "위의 설정을 이용하여, {email} 주소로 이메일을 전송합니다.",
                 "smtp_heading": "SMTP 설정",
                 "title": "=> core.ref.email",
                 "heading": "=> core.ref.email",
@@ -386,7 +386,7 @@
                 "forgot_password_link": "암호를 잊으셨습니까?",
                 "invalid_login_message": "로그인 정보가 잘못되었습니다.",
                 "password_placeholder": "=> core.ref.password",
-                "remember_me_label": "2주 동안 기억하기",
+                "remember_me_label": "로그인 기억하기",
                 "sign_up_text": "계정이 없습니까? <a>가입하기</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
@@ -417,16 +417,16 @@
             },
             "post_scrubber": {
                 "now_link": "최신 게시물",
-                "original_post_link": "초기 게시물",
+                "original_post_link": "원본 게시물",
                 "unread_text": "{count}개 읽지 않음",
                 "viewing_text": "{count, plural, one {{formattedCount} 게시물 중 {index}} other {{formattedCount} 게시들물 중 {index}}}"
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "이전 제목은 \"{old}\"였습니다",
-                "discussion_renamed_text": "{username}님이 제목을 {new}으로 변경했습니다.",
+                "discussion_renamed_text": "{username}님이 제목을 {new}(으)로 변경했습니다.",
                 "load_more_button": "=> core.ref.load_more",
                 "reply_placeholder": "=> core.ref.write_a_reply",
-                "time_lapsed_text": "{period} 후에"
+                "time_lapsed_text": "{period} 후"
             },
             "rename_discussion": {
                 "submit_button": "=> core.ref.rename",
@@ -531,7 +531,7 @@
                 "not_found_message": "요청한 리소스를 찾을 수 없습니다.",
                 "payload_too_large_message": "요청의 크기가 너무 컸습니다.",
                 "permission_denied_message": "이에 대한 권한이 없습니다.",
-                "rate_limit_exceeded_message": "너무 빠릅니다. 잠시 후에 다시 시도하십시오.",
+                "rate_limit_exceeded_message": "요청이 너무 빠릅니다. 잠시 후에 다시 시도하십시오.",
                 "render_failed_message": "죄송합니다, 이 컨텐츠를 표시하는중 오류가 발생하였습니다. 사용자라면 나중에 다시 시도해주세요. 관리자라면, 더 많은 정보를 위해 Flarum 로그를 참조하세요."
             },
             "loading_indicator": {
@@ -587,7 +587,7 @@
             },
             "content": {
                 "javascript_disabled_message": "이 사이트는 JavaScript를 사용하는 최신 브라우저에서 가장 잘 표시됩니다.",
-                "load_error_message": "이 사이트의 전체 버전을 로드하는 동안 오류가 발생했습니다. 이 페이지를 새로 고침하여 오류를 수정할 수 있습니다.",
+                "load_error_message": "이 사이트의 완전한 버전을 불러오는 중 오류가 발생했습니다. 페이지를 완전히 새로고침 해보세요.",
                 "loading_text": "=> core.ref.loading"
             },
             "discussion": {
@@ -595,7 +595,7 @@
                 "previous_page_button": "=> core.ref.previous_page"
             },
             "error": {
-                "csrf_token_mismatch": "너무 오랫동안 비활성 상태입니다.",
+                "csrf_token_mismatch": "너무 오랫동안 활동이 없었습니다.",
                 "csrf_token_mismatch_return_link": "돌아간 후 다시 시도해 주세요",
                 "invalid_confirmation_token": "이 확인 링크는 이미 사용되었거나 잘못된 것입니다.",
                 "not_authenticated": "이 페이지에 접속할 수 있는 권한이 없습니다. 로그인 한 후 다시 시도하십시오.",
@@ -662,7 +662,7 @@
             "email": "이메일",
             "extensions": "확장",
             "icon": "아이콘",
-            "icon_text": "<code>fas fa-</code><em>접두사를 포함한</em> <a>FontAwesome</a> 아이콘의 클래스를 입력해 주세요.",
+            "icon_text": "아무 <a>FontAwesome</a> 아이콘 클래스를 입력해주세요. <em>접두사 </em> <code>fas fa-</code>를 포함해야합니다.",
             "load_more": "더 보기",
             "loading": "로딩중...",
             "log_in": "로그인",
@@ -688,7 +688,7 @@
             "users": "사용자",
             "view": "보기",
             "write_a_reply": "답장 쓰기...",
-            "you": "귀하"
+            "you": "당신"
         },
         "group": {
             "admin": "관리자",
