@@ -65,7 +65,7 @@
                     "contains": "Word or words and minimum number of posts containing it (e.g. chicken,10) or inclusive range (e.g. chicken,10,19)",
                     "comments": "Minimum number of responses received in a discussion (e.g. 10) or inclusive range (e.g. 10,19)",
                     "years": "Minimum number of years registered (e.g. 10) or inclusive range (e.g. 10,19)",
-                    "meanwords": "Word to look for and minimum number of average appearances (e.g. chicken,10) or inclusive range (e.g. chicken,10,19)",
+                    "meanwords": "Average words per post, minimum is 10 (e.g. 10) or inclusive range (e.g. 10,19)",
                     "tagposts": "Slug of the tag to look for and minimum number of posts (e.g. off-topic,10) or inclusive range (e.g. off-topic,10,19)"
                 }
             },
