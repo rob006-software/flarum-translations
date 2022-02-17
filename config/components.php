@@ -790,6 +790,9 @@ return [
 	'nearata-twofactor' => [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-twofactor/v2.0.1/resources/locale/en.yml',
 	],
+	'nhanchaukp-login2see' => [
+		'tag' => 'https://raw.githubusercontent.com/nhanchaukp/flarum-ext-login2see/v1.0/resources/locale/en.yml',
+	],
 	'nomiscz-auth-steam' => [
 		'tag' => 'https://raw.githubusercontent.com/NomisCZ/flarum-ext-auth-steam/v1.0.1/resources/locale/en.yml',
 	],
