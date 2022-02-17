@@ -824,7 +824,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Serakoi/flarum-hideprofile/0.0.6/resources/locale/en.yml',
 	],
 	'spookygames-auth-keycloak' => [
-		'tag' => 'https://raw.githubusercontent.com/spookygames/flarum-ext-auth-keycloak/1.0.0.4/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/spookygames/flarum-ext-auth-keycloak/1.0.0.5/locale/en.yml',
 	],
 	'sycho-advanced-extension-categories' => [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-advanced-extension-categories/v0.1.3/locale/en.yml',
