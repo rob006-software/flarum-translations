@@ -2,23 +2,23 @@
     "clarkwinkelmann-mass-actions": {
         "forum": {
             "select": {
-                "all": "",
-                "none": ""
+                "all": "Seleziona tutto",
+                "none": "Deseleziona tutto"
             },
             "actions": {
-                "markAsRead": "",
-                "hide": "",
-                "restore": "",
-                "lock": "",
-                "unlock": "",
-                "tags": "",
-                "tags-edit": "",
-                "tags-add": ""
+                "markAsRead": "Segna selezionati come letti",
+                "hide": "Cancella selezionati",
+                "restore": "Ripristina selezionati",
+                "lock": "Chiudi selezionati",
+                "unlock": "Riapri selezionati",
+                "tags": "Tag",
+                "tags-edit": "Modifica tag",
+                "tags-add": "Aggiungi <em>{tag}</em>"
             }
         },
         "admin": {
             "permissions": {
-                "controls": ""
+                "controls": "Vedi controlli multi-selezione"
             }
         }
     }
