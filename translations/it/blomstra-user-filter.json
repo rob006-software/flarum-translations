@@ -2,21 +2,21 @@
     "blomstra-user-filter": {
         "admin": {
             "settings": {
-                "min_length": "",
-                "result_count": ""
+                "min_length": "Caratteri minimi per la ricerca",
+                "result_count": "Risultati massimi nel menu di dropdown"
             }
         },
         "forum": {
             "index_page": {
                 "filter_user": {
-                    "accessible_label": "",
-                    "all": "",
-                    "label": "",
-                    "search_label": "",
-                    "no_results": "",
-                    "start_typing": "",
-                    "keep_typing": "",
-                    "remove_filter": ""
+                    "accessible_label": "Filtra per utente",
+                    "all": "Tutti",
+                    "label": "Filtra per utente: {text}",
+                    "search_label": "Cerca utente...",
+                    "no_results": "Nessun risultato",
+                    "start_typing": "Inizia a scrivere...",
+                    "keep_typing": "Continua a scrivere...",
+                    "remove_filter": "Rimuovi filtro utente"
                 }
             }
         }
