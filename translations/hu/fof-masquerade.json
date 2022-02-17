@@ -2,61 +2,61 @@
     "fof-masquerade": {
         "forum": {
             "alerts": {
-                "profile-completion-required": "",
-                "profile-completed": ""
+                "profile-completion-required": "Kérjük, töltse ki a szükséges profilmezőket alább.\n",
+                "profile-completed": "A profil elkészült! <a>Tovább a kezdőlapra</a>"
             },
             "buttons": {
-                "view-profile": "",
-                "edit-profile": "",
-                "save-profile": ""
+                "view-profile": "Profil megtekintése",
+                "edit-profile": "Profil szerkesztése",
+                "save-profile": "Mentés"
             },
             "fields": {
                 "select": {
-                    "none-optional": "",
-                    "none-required": ""
+                    "none-optional": "Nincs kiválasztva opció (opcionális)",
+                    "none-required": "Kérjük, válasszon egy lehetőséget (kötelező)"
                 },
                 "boolean": {
-                    "yes": "",
-                    "no": ""
+                    "yes": "Igen",
+                    "no": "Nem"
                 }
             }
         },
         "admin": {
-            "general-options": "",
+            "general-options": "Általános beállítások",
             "buttons": {
-                "add-field": "",
-                "edit-field": "",
-                "delete-field": ""
+                "add-field": "Mező létrehozása",
+                "edit-field": "Módosítások mentése",
+                "delete-field": "Mező törlése"
             },
             "permissions": {
-                "edit-others-profile": "",
-                "have-profile": "",
-                "view-profile": ""
+                "edit-others-profile": "Szerkessze más felhasználók profilját",
+                "have-profile": "Lehet ál-profilja",
+                "view-profile": "Ál-profil megtekintése"
             },
             "fields": {
-                "title": "",
-                "add": "",
-                "edit": "",
-                "name": "",
-                "name-help": "",
-                "description": "",
-                "description-help": "",
-                "required": "",
-                "on_bio": "",
-                "type": "",
-                "validation": "",
+                "title": "Mezők",
+                "add": "Mező hozzáadása {field}",
+                "edit": "Mező szerkesztése {field}",
+                "name": "Mező neve",
+                "name-help": "A nyilvánosan látható (nem lefordítható) mezőcímke.\n",
+                "description": "Mező leírása",
+                "description-help": "Opcionális leírás a mező használatának/szükségletének magyarázatához.\n",
+                "required": "Megjelölés kötelezőként",
+                "on_bio": "Válasz megjelenítése erre a mezőre a felhasználói életrajzban",
+                "type": "Típus",
+                "validation": "Validálás",
                 "validation-help": "",
-                "prefix": "",
-                "prefix-help": "",
-                "icon": "",
+                "prefix": "Mező prefix",
+                "prefix-help": "Megjeleníti az előtagot a felhasználó által ebbe a mezőbe beírt értékek előtt.\n",
+                "icon": "Ikon",
                 "icon-help": "",
-                "force-user-to-completion": "",
-                "options": "",
-                "option-new": "",
+                "force-user-to-completion": "Felhasználó kötelezése hogy kitöltse a profil adatokat",
+                "options": "Opciók",
+                "option-new": "Új opció",
                 "option-comma-warning": ""
             },
             "types": {
-                "advanced": "",
+                "advanced": "Haladó",
                 "boolean": "",
                 "email": "",
                 "select": "",
