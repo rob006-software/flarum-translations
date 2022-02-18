@@ -2,21 +2,21 @@
     "blomstra-user-filter": {
         "admin": {
             "settings": {
-                "min_length": "",
-                "result_count": ""
+                "min_length": "Минимальное число символов для начала поиска",
+                "result_count": "Максимум результатов в выпадающем автозаполнении"
             }
         },
         "forum": {
             "index_page": {
                 "filter_user": {
-                    "accessible_label": "",
-                    "all": "",
-                    "label": "",
-                    "search_label": "",
-                    "no_results": "",
-                    "start_typing": "",
-                    "keep_typing": "",
-                    "remove_filter": ""
+                    "accessible_label": "Фильтр по автору",
+                    "all": "Все",
+                    "label": "Фильтр по автору: {text}",
+                    "search_label": "Искать пользователей...",
+                    "no_results": "Результатов нет",
+                    "start_typing": "Начинайте печатать...",
+                    "keep_typing": "Продолжайте печатать...",
+                    "remove_filter": "Удалить фильтр по автору"
                 }
             }
         }
