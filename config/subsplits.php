@@ -122,6 +122,7 @@ return [
 		'branch' => 'master',
 		'path' => '/locale',
 	],
+	/*
 	'ka' => [
 		'type' => 'language',
 		'language' => 'ka',
@@ -129,6 +130,7 @@ return [
 		'branch' => 'main',
 		'path' => '/locale',
 	],
+	*/
 	'ko' => [
 		'type' => 'language',
 		'language' => 'ko',
