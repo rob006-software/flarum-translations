@@ -179,7 +179,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-passwordless/1.4.0/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-popular-discussion-badge' => [
-		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-popular-discussion-badge/1.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-popular-discussion-badge/1.1.0/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-post-bookmarks' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-post-bookmarks/1.0.0/resources/locale/en.yml',
