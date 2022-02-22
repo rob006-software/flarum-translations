@@ -110,7 +110,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/blomstra-realtime.yml',
 	],
 	'blomstra-search' => [
-		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-search/0.1.9/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-search/0.1.10/resources/locale/en.yml',
 	],
 	'blomstra-sort-order-toggle' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-sort-order-toggle/0.1.0/locale/en.yml',
