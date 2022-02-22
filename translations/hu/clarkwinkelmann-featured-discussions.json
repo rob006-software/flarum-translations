@@ -23,7 +23,7 @@
                     "manual": "Kézi dátum"
                 },
                 "until": {
-                    "auto": "",
+                    "auto": "Automata",
                     "manual": "Kézi dátum"
                 },
                 "action": {
@@ -39,15 +39,15 @@
                 "schedule": "Kiemelés időzítése"
             },
             "schedule": {
-                "help": "",
+                "help": "Húzza át a beszélgetéseket az oldalon vagy egy másik ablakból az ütemezésük módosításához. Az ütemezés eltávolításához használja a 3 pontos menüt\n",
                 "drop-here": "Húzd ide az időzítésért",
                 "drop-error": "Érvénytelen téma link",
                 "empty": "Nincs téma",
-                "custom": ""
+                "custom": "Egyéni"
             },
             "post": {
-                "scheduled": "",
-                "unscheduled": "",
+                "scheduled": "Ütemezve kiemelt témának {from} -tól eddig: {until}",
+                "unscheduled": "Nincs ütemezve",
                 "auto": ""
             }
         }
