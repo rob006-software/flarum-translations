@@ -113,7 +113,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-search/0.1.10/resources/locale/en.yml',
 	],
 	'blomstra-sort-order-toggle' => [
-		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-sort-order-toggle/0.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-sort-order-toggle/0.1.1/locale/en.yml',
 	],
 	'blomstra-user-filter' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-user-filter/0.1.1/locale/en.yml',
