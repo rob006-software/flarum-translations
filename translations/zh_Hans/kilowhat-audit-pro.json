@@ -2,22 +2,34 @@
     "kilowhat-audit": {
         "admin": {
             "permissions": {
-                "view": "查看审计日志"
+                "view": "查看审计日志",
+                "viewLimited": ""
             },
             "header": {
                 "title": "审计",
                 "free": "免费版",
                 "pro": "专业版",
                 "upgrade": "升级到专业版"
+            },
+            "limitedSettings": {
+                "configure": "",
+                "title": "",
+                "introduction": "",
+                "requiresExtension": ""
+            },
+            "settings": {
+                "limitedIpAddress": ""
             }
         },
         "forum": {
             "link": {
+                "all-audit": "",
                 "discussion-audit": "审计日志",
                 "user-audit": "审计日志（账户编辑）",
                 "actor-audit": "审计日志（用户作为行为人）"
             },
             "modal": {
+                "all-title": "",
                 "discussion-title": "讨论审计日志",
                 "user-title": "用户审计日志",
                 "actor-title": "行为人审计日志"

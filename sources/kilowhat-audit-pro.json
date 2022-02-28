@@ -2,22 +2,34 @@
     "kilowhat-audit": {
         "admin": {
             "permissions": {
-                "view": "View audit log"
+                "view": "View audit log",
+                "viewLimited": "View limited audit log"
             },
             "header": {
                 "title": "Audit",
                 "free": "Free",
                 "pro": "Pro",
                 "upgrade": "Upgrade to Pro"
+            },
+            "limitedSettings": {
+                "configure": "Configure",
+                "title": "Limited access settings",
+                "introduction": "Configure what users with the limited access permissions can see",
+                "requiresExtension": "Requires extension {extension}"
+            },
+            "settings": {
+                "limitedIpAddress": "View IP Address"
             }
         },
         "forum": {
             "link": {
+                "all-audit": "Audit log",
                 "discussion-audit": "Audit log",
                 "user-audit": "Audit log (account edits)",
                 "actor-audit": "Audit log (user as actor)"
             },
             "modal": {
+                "all-title": "Audit Log",
                 "discussion-title": "Discussion Audit Log",
                 "user-title": "User Audit Log",
                 "actor-title": "Actor Audit Log"
