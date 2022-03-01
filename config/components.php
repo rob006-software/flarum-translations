@@ -284,7 +284,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Dem13n/discussion-cards/0.3.8/locale/en.yml',
 	],
 	'dem13n-topic-starter-label' => [
-		'tag' => 'https://raw.githubusercontent.com/Dem13n/topic-starter-label/0.1.7/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Dem13n/topic-starter-label/0.1.8/locale/en.yml',
 	],
 	'extiverse-mercury' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/mercury/0.1.3/resources/locale/en.yml',
