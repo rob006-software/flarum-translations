@@ -511,6 +511,9 @@ return [
 	'ganuonglachanh-sonic' => [
 		'tag' => 'https://raw.githubusercontent.com/ganuonglachanh/flarum-sonic/0.1.5/resources/locale/en.yml',
 	],
+	'glowingblue-localizd' => [
+		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/glowingblue-localizd.yml',
+	],
 	'glowingblue-password-strength' => [
 		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-password-strength/3.1.0/locale/en.yml',
 	],
