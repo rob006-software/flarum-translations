@@ -112,6 +112,9 @@ return [
 	'blomstra-search' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-search/0.1.11/resources/locale/en.yml',
 	],
+	'blomstra-secondary-tags-toggler' => [
+		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-secondary-tags-toggler/0.2.3/locale/en.yml',
+	],
 	'blomstra-sort-order-toggle' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-sort-order-toggle/0.1.1/locale/en.yml',
 	],
