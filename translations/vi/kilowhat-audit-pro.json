@@ -3,7 +3,7 @@
         "admin": {
             "permissions": {
                 "view": "Xem nhật ký kiểm tra",
-                "viewLimited": ""
+                "viewLimited": "Xem nhật ký bị giới hạn"
             },
             "header": {
                 "title": "Kiểm tra",
@@ -12,24 +12,24 @@
                 "upgrade": "Nâng cấp lên Cao cấp"
             },
             "limitedSettings": {
-                "configure": "",
-                "title": "",
-                "introduction": "",
-                "requiresExtension": ""
+                "configure": "Cấu hình",
+                "title": "Thiết lập giới hạn truy cập",
+                "introduction": "Cấu hình người dùng có quyền truy cập hạn chế có thể thấy",
+                "requiresExtension": "Yêu cầu tiện ích mở rộng {extension}"
             },
             "settings": {
-                "limitedIpAddress": ""
+                "limitedIpAddress": "Xem địa chỉ IP"
             }
         },
         "forum": {
             "link": {
-                "all-audit": "",
+                "all-audit": "Nhật ký kiểm tra",
                 "discussion-audit": "Nhật ký kiểm tra",
                 "user-audit": "Nhật ký kiểm tra (chỉnh sửa tài khoản)",
                 "actor-audit": "Nhật ký kiểm tra (người dùng với tư cách là tác nhân)"
             },
             "modal": {
-                "all-title": "",
+                "all-title": "Nhật ký kiểm tra",
                 "discussion-title": "Nhật ký kiểm tra cuộc thảo luận",
                 "user-title": "Nhật ký kiểm tra người dùng",
                 "actor-title": "Nhật ký kiểm tra tác nhân"
