@@ -3,12 +3,24 @@
         "forum": {
             "modal": {
                 "title": "Yhdistä keskustelut",
+                "ordering_heading": "",
+                "ordering_date_label": "",
+                "ordering_date_help": "",
+                "ordering_suffix_label": "",
+                "ordering_suffix_help": "",
+                "type_heading": "",
                 "type_target_label": "Yhdistä keskusteluun",
                 "type_target_help_text": "Valitse keskustelu(t) jotka yhdistetään <b>{title}</b>.",
                 "type_from_label": "Yhdistä tämä keskustelu toiseen",
                 "type_from_help_text": "Yhdistä kohde keskustelu joka yhdistetään <b>{title}</b>.",
                 "load_preview_button": "Esikatselu",
                 "submit_button": "=> fof-merge-discussions.ref.merge"
+            },
+            "notification": {
+                "discussion_merged": "",
+                "preferences": {
+                    "discussion_merged": ""
+                }
             },
             "discussion": {
                 "merge": "=> fof-merge-discussions.ref.merge"
@@ -20,17 +32,28 @@
         "admin": {
             "permissions": {
                 "merge_discussions_label": "Yhdistä keskustelut"
+            },
+            "settings": {
+                "search_result_help": "",
+                "search_result_label": ""
             }
         },
         "api": {
             "error": {
                 "merging_failed": "Keskusteluiden yhdistys epäonnistui.",
                 "updating_failed": "Keskustelujen tietojen päivitys epäonnistui.",
-                "deleting_failed": "Tyhjien keskusteluiden poisto epäonnistui."
+                "deleting_failed": "Tyhjien keskusteluiden poisto epäonnistui.",
+                "fixing_posts_number_failed": ""
             }
         },
         "ref": {
             "merge": "Yhdistä"
+        },
+        "email": {
+            "merged": {
+                "body": "",
+                "subject": ""
+            }
         }
     }
 }

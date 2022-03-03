@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "Kõik õigused",
-                "confirm_purge": "",
+                "confirm_uninstall": "Laienduse eemaldamine kustutab kõik selle laienduse andmebaasi kirjed. Oled kindel, et soovid jätkata?",
                 "disabled": "Keelatud",
                 "enable_to_see": "Luba laiendusel näha ja muuta seadeid.",
                 "enabled": "Lubatud",
@@ -116,14 +116,14 @@
                 "no_settings": "Sellel laiendusel pole seadeid.",
                 "open_modal": "Ava seaded",
                 "permissions_title": "Õigused",
+                "uninstall_button": "Eemalda",
+                "confirm_purge": "",
                 "purge_button": "",
                 "readme": {
                     "button_label": "",
                     "no_readme": "",
                     "title": ""
-                },
-                "confirm_uninstall": "Laienduse eemaldamine kustutab kõik selle laienduse andmebaasi kirjed. Oled kindel, et soovid jätkata?",
-                "uninstall_button": "Eemalda"
+                }
             },
             "header": {
                 "get_help": "Abi",
@@ -303,11 +303,11 @@
             "discussion_list": {
                 "empty_text": "Siin ei ole veel ühtegi teemat.",
                 "load_more_button": "=> core.ref.load_more",
+                "mark_as_read_tooltip": "Märgi loetuks",
                 "replied_text": "{username} vastas {ago}",
                 "started_text": "{username} alustas {ago}",
                 "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": "",
-                "mark_as_read_tooltip": "Märgi loetuks"
+                "unread_replies_a11y_label": ""
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -459,7 +459,6 @@
             }
         },
         "lib": {
-            "debug_button": "",
             "badge": {
                 "hidden_tooltip": "Peidetud"
             },
@@ -493,12 +492,6 @@
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
             },
-            "modal": {
-                "close": ""
-            },
-            "nav": {
-                "drawer_button": ""
-            },
             "number_suffix": {
                 "kilo_text": "k",
                 "mega_text": "M"
@@ -510,6 +503,20 @@
             },
             "username": {
                 "deleted_text": "[kustutatud]"
+            },
+            "debug_button": "",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": ""
+            },
+            "nav": {
+                "drawer_button": ""
             }
         },
         "views": {
@@ -567,6 +574,10 @@
                 "new_password_label": "Uus parool",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
             }
         },
         "api": {

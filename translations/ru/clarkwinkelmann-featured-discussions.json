@@ -2,53 +2,53 @@
     "clarkwinkelmann-featured-discussions": {
         "admin": {
             "settings": {
-                "schedule": "",
-                "duration": "",
-                "eventPost": ""
+                "schedule": "Расписание (синтаксис CRON)",
+                "duration": "Продолжительность по умолчанию (в секундах)",
+                "eventPost": "Создавать сообщение о событии при изменении расписания"
             },
             "permissions": {
-                "feature": ""
+                "feature": "Управлять избранными дискуссиями"
             }
         },
         "forum": {
             "modal": {
-                "title": "",
+                "title": "Избранная дискуссия",
                 "fields": {
-                    "from": "",
-                    "until": ""
+                    "from": "От",
+                    "until": "до"
                 },
                 "from": {
-                    "not": "",
-                    "next": "",
-                    "manual": ""
+                    "not": "Убрать из избранного",
+                    "next": "Следующий слот",
+                    "manual": "Дата"
                 },
                 "until": {
-                    "auto": "",
-                    "manual": ""
+                    "auto": "Автоматически",
+                    "manual": "Дата"
                 },
                 "action": {
-                    "cancel": "",
-                    "submit": ""
+                    "cancel": "Отмена",
+                    "submit": "Отправить"
                 }
             },
             "controls": {
-                "feature": ""
+                "feature": "В избранное"
             },
-            "badge": "",
+            "badge": "Избранная",
             "nav": {
-                "schedule": ""
+                "schedule": "Расписание избранного"
             },
             "schedule": {
-                "help": "",
-                "drop-here": "",
-                "drop-error": "",
-                "empty": "",
-                "custom": ""
+                "help": "Для изменения расписания показа дискуссий, просто перетаскивайте их между собой на этой странице. У каждой дискуссии имеется меню (три точки), при помощи которого можно удалить расписание показа этой дискуссии.\n",
+                "drop-here": "Поместите сюда, чтобы запланировать",
+                "drop-error": "Некорректная ссылка на дискуссию",
+                "empty": "Дискуссии отсутствуют",
+                "custom": "Custom"
             },
             "post": {
-                "scheduled": "",
-                "unscheduled": "",
-                "auto": ""
+                "scheduled": "Запланировано к показу с {from} до {until}",
+                "unscheduled": "Снято с показа",
+                "auto": "(автоматически)"
             }
         }
     }

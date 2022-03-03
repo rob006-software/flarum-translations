@@ -1,7 +1,7 @@
 {
     "fof-oauth": {
         "admin": {
-            "configure_button_label": "",
+            "configure_button_label": "Настроить при помощи FoF OAuth",
             "settings": {
                 "only_icons_label": "Отображать только иконки на кнопках входа (альтернативный макет)",
                 "providers": {
@@ -66,7 +66,7 @@
                 "twitter": "=> fof-oauth.lib.providers.twitter"
             },
             "signup": {
-                "username_help": ""
+                "username_help": "Пожалуйста, выберите имя пользователя для регистрации"
             },
             "error": {
                 "bad_verification_code": "Некорректный или истёкший токен верификации. Пожалуйста, попробуйте ещё раз.",

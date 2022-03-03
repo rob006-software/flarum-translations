@@ -2,82 +2,82 @@
     "ianm-follow-users": {
         "admin": {
             "permissions": {
-                "be_followed_label": ""
+                "be_followed_label": "Követés engedélyezése a felhasználók számára"
             }
         },
         "forum": {
-            "profile_link": "",
+            "profile_link": "=> ianm-follow-users.lib.following_link",
             "profile_page": {
-                "no_following": ""
+                "no_following": "Úgy tűnik, nem követsz senkit."
             },
             "user_controls": {
-                "follow_button": "",
-                "unfollow_button": "",
+                "follow_button": "=> ianm-follow-users.lib.follow",
+                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type",
                 "follow_confirmation": "",
                 "unfollow_confirmation": ""
             },
             "settings": {
-                "notify_new_follower_label": "",
-                "notify_new_unfollower_label": "",
-                "notify_new_discussion_label": "",
-                "notify_new_post_label": "",
-                "block_follow": ""
+                "notify_new_follower_label": "Valaki követ engem",
+                "notify_new_unfollower_label": "Valaki megszüntette a követésemet",
+                "notify_new_discussion_label": "Valaki akit követek új témát indított",
+                "notify_new_post_label": "Valaki akit követek hozzászólt egy témában",
+                "block_follow": "A felhasználók nem követhetnek"
             },
             "index": {
-                "follow_tag_button": "",
-                "unfollow_tag_button": ""
+                "follow_tag_button": "=> ianm-follow-users.lib.follow",
+                "unfollow_tag_button": "=> ianm-follow-users.lib.change_follow_type"
             },
             "notifications": {
-                "new_discussion_text": "",
-                "new_post_text": "",
-                "new_follower_text": "",
-                "new_unfollower_text": ""
+                "new_discussion_text": "{username} kezdett",
+                "new_post_text": "{username} válaszolt egy témában",
+                "new_follower_text": "{username} követ téged",
+                "new_unfollower_text": "{username} megszüntette a követésed"
             },
             "badge": {
                 "label": "",
-                "label.follow": "",
-                "label.lurk": ""
+                "label.follow": "Témák követése",
+                "label.lurk": "Minden követése"
             },
             "filter": {
-                "following": ""
+                "following": "Követett felhasználók"
             },
             "modals": {
                 "select_follow_level": {
-                    "title": "",
-                    "description": "",
-                    "follow_levels_heading": "",
-                    "follow_select_label": "",
-                    "no_user_attr_provided_err": "",
-                    "no_user_attr_provided_err_debug": "",
-                    "save_btn": "",
-                    "cancel_btn": ""
+                    "title": "Válaszd ki {username} követési szintjét",
+                    "description": "Válaszd ki mit szeretnél követni tőle: <em>{username}</em>.",
+                    "follow_levels_heading": "Követési szintek",
+                    "follow_select_label": "Követés típusa",
+                    "no_user_attr_provided_err": "Valami hiba történt.",
+                    "no_user_attr_provided_err_debug": "Létrehozásakor nem adtak át „user” attribútumot a SelectFollowUserLevel modálisnak. Modal nem renderelhető.",
+                    "save_btn": "Mentés",
+                    "cancel_btn": "Mégsem"
                 }
             }
         },
         "email": {
-            "new_discussion_by_user_subject": "",
-            "new_follower_subject": "",
-            "new_post_subject": "",
-            "new_discussion_by_user_body": "",
-            "new_follower_body": "",
-            "new_post_body": ""
+            "new_discussion_by_user_subject": "[Követett felhasználó] {title}",
+            "new_follower_subject": "[Követett felhasználó] Új követőd van!",
+            "new_post_subject": "[Követett felhasználó] Új hozzászólás itt: {title}",
+            "new_discussion_by_user_body": "Kedves {recipient_display_name},\n\n{user_display_name} új témát nyitott: {discussion_title}\n\nHogy elolvasd, kattints az alábbi linkre:\n\n{discussion_url}\n\n---\n\n{post_content}\n",
+            "new_follower_body": "Kedves {recipient_display_name},\n\n{follower_display_name} követni kezdett téged.\nA felhasználó profil megtekintéséért kattints az alábbi linkre:\n\n{profile_url}\n",
+            "new_post_body": "Kedves {recipient_display_name},\n\n{user_display_name} hozzászólást írt: {discussion_title}\n\nAz alábbi linken megtekintheted:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nNem fogsz több értesítést kapni erről a beszélgetésről, amíg naprakész nem leszel.\n"
         },
         "lib": {
-            "following_link": "",
-            "follow": "",
-            "change_follow_type": "",
+            "following_link": "Követett felhasználók",
+            "follow": "Követés",
+            "change_follow_type": "Követés típusának megváltoztatása",
             "follow_levels": {
                 "unfollow": {
-                    "name": "",
-                    "description": ""
+                    "name": "Nem követem",
+                    "description": "Ne értesítsen <em>{username}</em> aktivitásáról.\n"
                 },
                 "follow": {
-                    "name": "",
-                    "description": ""
+                    "name": "Téma követése",
+                    "description": "Értesítéseket kaphatsz, ha <em>{username}</em> új témát indít.\n"
                 },
                 "lurk": {
-                    "name": "",
-                    "description": ""
+                    "name": "Minden követése",
+                    "description": "Értesítéseket kaphatsz, ha <em>{username}</em> új hozzászólást ír.\n"
                 }
             }
         }

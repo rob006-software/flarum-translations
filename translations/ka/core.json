@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "",
-                "confirm_purge": "",
+                "confirm_uninstall": "ინსტალაციით წაიშლება მონაცემთა ბაზის ყველა ჩანაწერი და აქტივები, რომლებიც დაკავშირებულია გაფართოებასთან. დარწმუნებული ხართ, რომ გსურთ გაგრძელება?",
                 "disabled": "გამორთული",
                 "enable_to_see": "ჩართეთ გაფართოება, რომ ნახოთ და შეცვალოთ პარამეტრები.",
                 "enabled": "ჩართული",
@@ -116,14 +116,14 @@
                 "no_settings": "ამ გაფართოებას არ აქვს პარამეტრები.",
                 "open_modal": "პარამეტრების გახსნა",
                 "permissions_title": "უფლებები",
+                "uninstall_button": "წაშლა",
+                "confirm_purge": "",
                 "purge_button": "",
                 "readme": {
                     "button_label": "",
                     "no_readme": "",
                     "title": ""
-                },
-                "confirm_uninstall": "ინსტალაციით წაიშლება მონაცემთა ბაზის ყველა ჩანაწერი და აქტივები, რომლებიც დაკავშირებულია გაფართოებასთან. დარწმუნებული ხართ, რომ გსურთ გაგრძელება?",
-                "uninstall_button": "წაშლა"
+                }
             },
             "header": {
                 "get_help": "დახმარების მიღება",
@@ -303,11 +303,11 @@
             "discussion_list": {
                 "empty_text": "როგორც ჩანს, აქ არანაირი დისკუსია არ არის.",
                 "load_more_button": "",
+                "mark_as_read_tooltip": "წაკითხულად მონიშვნა",
                 "replied_text": "{username} უპასუხა {ago}",
                 "started_text": "{username} დაიწყო {ago}",
                 "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": "",
-                "mark_as_read_tooltip": "წაკითხულად მონიშვნა"
+                "unread_replies_a11y_label": ""
             },
             "forgot_password": {
                 "dismiss_button": "",
@@ -459,7 +459,6 @@
             }
         },
         "lib": {
-            "debug_button": "",
             "badge": {
                 "hidden_tooltip": "დამალული"
             },
@@ -493,12 +492,6 @@
             "loading_indicator": {
                 "accessible_label": ""
             },
-            "modal": {
-                "close": ""
-            },
-            "nav": {
-                "drawer_button": ""
-            },
             "number_suffix": {
                 "kilo_text": "კ",
                 "mega_text": "მ"
@@ -510,6 +503,20 @@
             },
             "username": {
                 "deleted_text": "[წაშლილია]"
+            },
+            "debug_button": "",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": ""
+            },
+            "nav": {
+                "drawer_button": ""
             }
         },
         "views": {
@@ -567,6 +574,10 @@
                 "new_password_label": "ახალი პაროლი",
                 "submit_button": "",
                 "title": ""
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
             }
         },
         "api": {

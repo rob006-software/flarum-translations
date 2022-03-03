@@ -1,0 +1,20 @@
+{
+    "blessing-oauth-client": {
+        "admin": {
+            "popup": {
+                "title": "Blessing-Skin-Login",
+                "field": {
+                    "base-url": "Blessing-Skin-Login",
+                    "app-id": "OAuth-Client-ID",
+                    "app-secret": "OAuth-Client-Secret",
+                    "button-title": "Beschriftung für Login-Button",
+                    "button-title-placeholder": "=> blessing-oauth-client.api.default-login-button-title",
+                    "button-icon": "Symbol für die Anmeldeschaltfläche"
+                }
+            }
+        },
+        "api": {
+            "default-login-button-title": "Melde Dich mit Blessing Skin an"
+        }
+    }
+}

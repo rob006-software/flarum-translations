@@ -2,54 +2,54 @@
     "askvortsov-categories": {
         "admin": {
             "basics": {
-                "categories_label": ""
+                "categories_label": "Categorías"
             },
             "labels": {
-                "keep_tags_nav": "",
-                "child_bare_icon": "",
-                "compact_mobile_mode": "",
-                "full_page_desktop": "",
-                "parent_remove_icon": "",
-                "parent_remove_description": "",
-                "parent_remove_stats": "",
-                "parent_remove_last_discussion": "",
-                "small_forum_optimized": ""
+                "keep_tags_nav": "¿Mantener el enlace de la página de etiquetas en la barra lateral de navegación?",
+                "child_bare_icon": "Iconos en categorías secundarias?",
+                "compact_mobile_mode": "Modo móvil compacto",
+                "full_page_desktop": "¿Página principal completa?",
+                "parent_remove_icon": "¿Ocultar iconos de etiquetas principales?",
+                "parent_remove_description": "¿Ocultar descripciones de etiquetas principales?",
+                "parent_remove_stats": "¿Ocultar estadísticas de etiquetas principales?",
+                "parent_remove_last_discussion": "¿Ocultar las discusiones más recientes de etiquetas principales?",
+                "small_forum_optimized": "¿Optimizar para foros pequeños?"
             },
             "help": {
-                "child_bare_icon": "",
-                "full_page_desktop": "",
-                "small_forum_optimized": ""
+                "child_bare_icon": "¿Deberían mostrarse los iconos de las categorías secundarias sin un fondo circular?",
+                "full_page_desktop": "¿Debería colapsarse el menú de navegación de la barra lateral en una fila (como en la página de etiquetas)? Esto también ocultará los widgets (como Friends of Flarum Forum Statistics) de la barra de navegación de la página de categorías.",
+                "small_forum_optimized": "Esto proporcionará recuentos de discusiones / mensajes más precisos, pero ralentizará drásticamente los foros medianos y grandes."
             },
             "headings": {
-                "nav": "",
-                "layout": "",
-                "parent_display": "",
-                "child_display": "",
-                "performance": ""
+                "nav": "Navegación",
+                "layout": "Diseño",
+                "parent_display": "Visualización de categoría principal",
+                "child_display": "Visualización de categoría secundaria",
+                "performance": "Rendimiento"
             },
-            "title": ""
+            "title": "Configuración de categorías"
         },
         "forum": {
             "all_categories": {
-                "meta_description_text": "",
-                "meta_title_text": ""
+                "meta_description_text": "Todas las Categorias",
+                "meta_title_text": "=> askvortsov-categories.ref.categories"
             },
             "header": {
-                "back_to_categories_tooltip": ""
+                "back_to_categories_tooltip": "Volver a Categorías"
             },
             "index": {
-                "categories_link": ""
+                "categories_link": "=> askvortsov-categories.ref.categories"
             },
             "stat-widgets": {
-                "discussion_label": "",
-                "post_label": ""
+                "discussion_label": "Discusiones",
+                "post_label": "Mensajes"
             },
             "last_discussion_widget": {
-                "no_discussions": ""
+                "no_discussions": "No hay discusiones (¡aún!)"
             }
         },
         "ref": {
-            "categories": ""
+            "categories": "Categorías"
         }
     }
 }

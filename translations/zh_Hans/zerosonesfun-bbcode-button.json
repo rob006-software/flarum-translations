@@ -2,15 +2,19 @@
     "flarum-bbcode-button": {
         "admin": {
             "settings": {
-                "codelabel": "",
-                "codedesc": "",
-                "poslabel": "",
-                "posdesc": ""
+                "codelabel": "自定义 BBCode",
+                "codedesc": "请输入并保存 BBCode 的开闭标签。",
+                "poslabel": "光标位置",
+                "posdesc": "调整插入标签后，光标的所在位置，默认位于内容位。数字越大，光标位越向右。",
+                "iconlabel": "",
+                "icondesc": "",
+                "introlabel": "",
+                "introdesc": ""
             }
         },
         "forum": {
             "composer": {
-                "bbcode_tooltip": ""
+                "bbcode_tooltip": "BBCode"
             }
         }
     }

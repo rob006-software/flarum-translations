@@ -3,7 +3,12 @@
         "admin": {
             "akismet_settings": {
                 "api_key_label": "API Anahtarı",
-                "title": "Akismet Ayarları"
+                "title": "Akismet Ayarları",
+                "delete_blatant_spam_label": "Bariz spam'i otomatik olarak sil",
+                "delete_blatant_spam_help": "Akismet, yorumun bariz spam olduğunu belirlerse, işaretlemek yerine gönderiyi otomatik olarak silin"
+            },
+            "permissions": {
+                "bypass_akismet": "Akismet'i Atla"
             }
         },
         "forum": {

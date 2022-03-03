@@ -2,47 +2,47 @@
     "flarum-mentions": {
         "admin": {
             "settings": {
-                "allow_username_format_label": "",
-                "allow_username_format_text": ""
+                "allow_username_format_label": "Eski eslatib o'tish formatini ruxsat etish",
+                "allow_username_format_text": "Foydalanuvchining hozirgi eslatib o'tish formati: @\"Display Name\"#ID.\nBu sozlama eski eslatib o'tish formatini islatishga ruxsat beradi (@Username). Ammo eski format saqlangandan keyin bari bir yangisiga o'zgaradi.\n"
             }
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "",
-                "reply_to_post_text": ""
+                "mention_tooltip": "Foydalanuvchi yoki postni eslatib o'ting",
+                "reply_to_post_text": "#{number} ga javob berish"
             },
             "notifications": {
-                "others_text": "",
-                "post_mentioned_text": "",
-                "user_mentioned_text": ""
+                "others_text": "=> core.ref.some_others",
+                "post_mentioned_text": "{username} sizning postingizga javob berdi",
+                "user_mentioned_text": "{username} sizni eslab o'tdi"
             },
             "post": {
-                "mentioned_by_self_text": "",
-                "mentioned_by_text": "",
-                "others_text": "",
-                "quote_button": "",
-                "reply_link": "",
-                "you_text": ""
+                "mentioned_by_self_text": "{users} bu postga javob berishdi.",
+                "mentioned_by_text": "{users} bu postga javob berishdi.",
+                "others_text": "=> core.ref.some_others",
+                "quote_button": "Iqtibos",
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
             },
             "settings": {
-                "notify_post_mentioned_label": "",
-                "notify_user_mentioned_label": ""
+                "notify_post_mentioned_label": "Kimdir mening postlarimdan biriga javob berayapti",
+                "notify_user_mentioned_label": "Kimdir meni o'zining postida eslab o'tdi"
             },
             "user": {
-                "mentions_link": ""
+                "mentions_link": "Eslatmalar"
             },
             "post_mention": {
-                "deleted_text": ""
+                "deleted_text": "[noma'lum]"
             }
         },
         "email": {
             "post_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{replier_display_name} sizning postingizga {title} da javob berdi",
+                "body": "Salom {recipient_display_name}!\n\n{replier_display_name} sizning {title} dagi (#{post_number}) postingizga javob berdi.\n\n{url}\n\n---\n\n{content}\n"
             },
             "user_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{mentioner_display_name} sizni {title} da eslab o'tdi",
+                "body": "Salom {recipient_display_name}!\n\n{replier_display_name} sizning postingizga (#{post_number}) {title} da javob berdi\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }

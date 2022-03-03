@@ -2,22 +2,34 @@
     "kilowhat-audit": {
         "admin": {
             "permissions": {
-                "view": "Denetim günlüğünü görüntüle"
+                "view": "Denetim günlüğünü görüntüle",
+                "viewLimited": "Sınırlı denetim günlüğünü görüntüle"
             },
             "header": {
                 "title": "Denetim",
                 "free": "Bedava",
                 "pro": "Pro",
                 "upgrade": "Pro'ya yükselt"
+            },
+            "limitedSettings": {
+                "configure": "Yapılandır",
+                "title": "Sınırlı erişim ayarları",
+                "introduction": "Sınırlı erişim izinlerine sahip kullanıcıların neleri görebileceğini yapılandırın",
+                "requiresExtension": "{extension} uzantısı gerektirir"
+            },
+            "settings": {
+                "limitedIpAddress": "IP Adresini Görüntüle"
             }
         },
         "forum": {
             "link": {
+                "all-audit": "Denetim günlüğü",
                 "discussion-audit": "Denetim günlüğü",
                 "user-audit": "Denetim günlüğü (hesap düzenlemeleri)",
                 "actor-audit": "Denetim günlüğü (katılımcı olarak kullanıcı)"
             },
             "modal": {
+                "all-title": "Denetim Günlüğü",
                 "discussion-title": "Tartışma Denetim Günlüğü",
                 "user-title": "Kullanıcı Denetim Günlüğü",
                 "actor-title": "Katılımcı Denetim Günlüğü"
@@ -89,55 +101,55 @@
                     "banned": "IP yasakladı {ip}",
                     "unbanned": "IP yasağını kaldırdı {ip}"
                 },
-                "permission_changed": "",
+                "permission_changed": "{old_groups} tarafından {new_groups} için {permission} izni düzenlendi",
                 "post": {
-                    "approved": "",
-                    "created": "",
-                    "create_date_changed": "",
-                    "deleted": "",
-                    "dismissed_flags": "",
-                    "edit_date_changed": "",
-                    "flagged": "",
+                    "approved": "{discussion}'da {postuser} tarafından gönderilen {post} onaylandı",
+                    "created": "{discussion}'da bir {post} oluşturuldu",
+                    "create_date_changed": "{postuser} için {old_date} olan {post} başlangıç tarihi {new_date} olarak değiştirildi",
+                    "deleted": "{discussion} içindeki {postuser} adlı kullanıcının {post} silindi",
+                    "dismissed_flags": "{discussion}'da {postuser} adlı kullanıcının {post}'unda reddedilen işaretler",
+                    "edit_date_changed": "{postuser} için {old_date} olan {post} düzenleme tarihi {new_date} olarak değiştirildi",
+                    "flagged": "{discussion} içinde {postuser} adlı kullanıcının {post} {reason} olarak işaretlendi",
                     "hidden": "{discussion} tartışmasında {postuser} kullanıcısının {post} gönderisini gizledi",
-                    "restored": "",
-                    "revised": "",
-                    "user_changed": ""
+                    "restored": "{discussion}'da {postuser} adlı kullanıcının {post} geri yüklendi",
+                    "revised": "{postuser}'n {post} {discussion} bölümünde revize edildi",
+                    "user_changed": "{old_user} olan {post} yazarı {new_user} olarak değiştirildi"
                 },
-                "setting_changed": "",
-                "setting_changed_with_values": "",
+                "setting_changed": "Düzenlenen ayar {key}",
+                "setting_changed_with_values": "{old_value} olan {key} ayarı {new_value} olarak düzenlendi",
                 "tag": {
-                    "created": "",
-                    "deleted": "",
-                    "updated": ""
+                    "created": "{tag} etiketi oluşturuldu",
+                    "deleted": "{tag} etiketi silindi",
+                    "updated": "{tag} etiketi güncellendi"
                 },
                 "user": {
-                    "activated": "",
-                    "activated_with_email": "",
-                    "avatar_changed": "",
-                    "avatar_removed": "",
-                    "bio_changed": "",
-                    "created": "",
-                    "deleted": "",
-                    "email_changed": "",
-                    "email_change_requested": "",
-                    "groups_changed": "",
-                    "impersonated": "",
-                    "logged_in": "",
-                    "logged_in_with_provider": "",
-                    "logged_out": "",
-                    "nickname_changed": "",
-                    "nickname_requested": "",
-                    "nickname_request_approved": "",
-                    "nickname_request_rejected": "",
-                    "password_changed": "",
-                    "password_change_requested": "",
-                    "provider_connected": "",
-                    "suspended": "",
-                    "unsuspended": "",
-                    "username_changed": "",
-                    "username_requested": "",
-                    "username_request_approved": "",
-                    "username_request_rejected": ""
+                    "activated": "{username} hesabı manuel olarak etkinleştirildi",
+                    "activated_with_email": "Onay bağlantısı aracılığıyla {username} adlı kullanıcının hesabı etkinleştirildi",
+                    "avatar_changed": "{username} adlı kullanıcının avatarı değiştirildi",
+                    "avatar_removed": "{username} adlı kullanıcının avatarı kaldırıldı",
+                    "bio_changed": "{username} adlı kişinin biyografisi düzenlendi",
+                    "created": "{username} hesabı oluşturuldu",
+                    "deleted": "{username} silindi",
+                    "email_changed": "{username} adlı kullanıcının {old_email} olan e-posta adresi {new_email} olarak değiştirildi",
+                    "email_change_requested": "{username} adlı kullanıcının e-posta adresinin {new_email} olarak değiştirilmesi istendi",
+                    "groups_changed": "{username} adlı kullanıcının {old_groups} olan grupları {new_groups} olarak değiştirildi",
+                    "impersonated": "Kimliğe büründü {username}",
+                    "logged_in": "{username} hesabına giriş yapıldı",
+                    "logged_in_with_provider": "{provider} kullanarak {username} hesabına giriş yapıldı",
+                    "logged_out": "{username} hesabından çıkış yapıldı",
+                    "nickname_changed": "{username} adlı kullanıcının {old_nickname} olan takma adı {new_nickname} olarak değiştirildi",
+                    "nickname_requested": "{username} kullanıcısı için {new_nickname} adlı yeni takma ad istendi",
+                    "nickname_request_approved": "Onaylanan {username} adlı kullanıcının takma adı {old_nickname} iken {new_nickname} olarak değiştirildi",
+                    "nickname_request_rejected": "{username} adlı kullanıcının takma adı değişikliği reddedildi",
+                    "password_changed": "{username} şifresini değiştirdi",
+                    "password_change_requested": "{username} şifresinin değiştirilmesi istendi",
+                    "provider_connected": "{username} hesabına bağlı sağlayıcı {provider}",
+                    "suspended": "{username}, {until} tarihine kadar askıya alındı",
+                    "unsuspended": "Askıya alınmadı {kullanıcı adı}",
+                    "username_changed": "{username} adlı kullanıcının {old_username} olan kullanıcı adı {new_username} olarak değiştirildi",
+                    "username_requested": "{username} kullanıcısı için {new_username} adlı yeni kullanıcı adı istendi",
+                    "username_request_approved": "{username} adlı kullanıcının {old_username} olan kullanıcı adının {new_username} olarak değiştirilmesi onaylandı",
+                    "username_request_rejected": "{username} adlı kullanıcının kullanıcı adı değişikliği reddedildi"
                 }
             }
         }

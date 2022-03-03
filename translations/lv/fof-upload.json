@@ -54,7 +54,8 @@
                 "preferences": {
                     "max_file_size": "",
                     "mime_types": "",
-                    "title": ""
+                    "title": "",
+                    "php_ini_values": ""
                 },
                 "resize": {
                     "max_width": "",
@@ -97,7 +98,9 @@
                 "bbcode-image": "",
                 "bbcode-image_description": "",
                 "just-url": "",
-                "just-url_description": ""
+                "just-url_description": "",
+                "text-preview": "",
+                "text-preview_description": ""
             },
             "upload_methods": {
                 "aws-s3": "",
@@ -140,6 +143,16 @@
                 "error": "Kļūda",
                 "loading": "Augšupielādē",
                 "unauthorized": "Jums nav atļaujas lejupielādēt failus"
+            },
+            "validation": {
+                "max_size": ""
+            },
+            "text_preview": {
+                "expand": "",
+                "collapse": "",
+                "error": "",
+                "no_snippet_preview": "",
+                "no_snippet": ""
             }
         },
         "api": {

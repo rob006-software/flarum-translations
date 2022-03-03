@@ -2,7 +2,7 @@
     "fof-upload": {
         "admin": {
             "pane": {
-                "title": "",
+                "title": "Feltöltés",
                 "description": ""
             },
             "help_texts": {
@@ -54,7 +54,8 @@
                 "preferences": {
                     "max_file_size": "",
                     "mime_types": "",
-                    "title": ""
+                    "title": "",
+                    "php_ini_values": ""
                 },
                 "resize": {
                     "max_width": "",
@@ -80,8 +81,8 @@
                 }
             },
             "permissions": {
-                "download_label": "",
-                "upload_label": "",
+                "download_label": "Fájlok letöltése",
+                "upload_label": "Fájlok feltöltése",
                 "view_user_uploads_label": "",
                 "delete_uploads_of_others_label": ""
             },
@@ -97,7 +98,9 @@
                 "bbcode-image": "",
                 "bbcode-image_description": "",
                 "just-url": "",
-                "just-url_description": ""
+                "just-url_description": "",
+                "text-preview": "",
+                "text-preview_description": ""
             },
             "upload_methods": {
                 "aws-s3": "",
@@ -108,35 +111,45 @@
             }
         },
         "forum": {
-            "media_manager": "",
+            "media_manager": "Média kezelő",
             "buttons": {
-                "attach": "",
-                "upload": "",
-                "user_uploads": "",
-                "cancel": "",
-                "media": ""
+                "attach": "Csatolás",
+                "upload": "Feltöltés",
+                "user_uploads": "Felhasználó feltöltései",
+                "cancel": "Mégsem",
+                "media": "Saját média"
             },
             "file_list": {
-                "loading": "",
-                "empty": "",
-                "release_to_upload": "",
-                "modal_empty_desktop": "",
-                "modal_empty_phone": "",
-                "select_file_a11y_label": "",
-                "confirm_selection_btn": "",
-                "load_more_files_btn": "",
+                "loading": "Fájlok betöltése...",
+                "empty": "Nincs itt fájl.",
+                "release_to_upload": "Engedje el a feltöltésért",
+                "modal_empty_desktop": "A fájl lista üres. Kattintson a gombra  vagy húzza ide a fájlokat a feltöltéshez.",
+                "modal_empty_phone": "A fájl lista üres. Kattintson a gombra a fájlok feltöltéséhez.",
+                "select_file_a11y_label": "Fájl kiválasztása \"{fileName}\"",
+                "confirm_selection_btn": "{fileCount, plural, =0 {Nincs kiválasztva} one {Válasszon fájlt} other {Válasszon fájlokat}}",
+                "load_more_files_btn": "Még több fájl betöltése",
                 "hide_file": {
-                    "btn_a11y_label": "",
-                    "hide_confirmation": "",
-                    "hide_success": "",
-                    "hide_fail": "",
-                    "loading": ""
+                    "btn_a11y_label": "\"{fileName}\" elrejtése a média kezelőben",
+                    "hide_confirmation": "Tényleg elrejti a \"{fileName}\"? A fájl elrejtése csak a Média kezelőből rejti el a fájlt, nem érinti a bejegyzéseket.",
+                    "hide_success": "Rejtett fájlok",
+                    "hide_fail": "Nem lehet elrejteni ezt a fájlt: \"{fileName}\"",
+                    "loading": "Fájl rejtése..."
                 }
             },
             "states": {
+                "error": "Hiba",
+                "loading": "Feltöltés",
+                "unauthorized": "Nem tölthet le fájlokat"
+            },
+            "validation": {
+                "max_size": "{max} kb fölötti fájlok nem engedélyezettek."
+            },
+            "text_preview": {
+                "expand": "",
+                "collapse": "",
                 "error": "",
-                "loading": "",
-                "unauthorized": ""
+                "no_snippet_preview": "",
+                "no_snippet": ""
             }
         },
         "api": {

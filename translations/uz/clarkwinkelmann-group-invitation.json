@@ -1,46 +1,46 @@
 {
     "clarkwinkelmann-group-invitation": {
         "forum": {
-            "title": "",
-            "generic-title": "",
+            "title": "Siz {group} guruhiga qo'shilishga taklif qilindingiz!",
+            "generic-title": "Guruh taklifi",
             "user": {
-                "already-connected": "",
-                "not-connected": "",
-                "not-authorized": "",
-                "already-member": ""
+                "already-connected": "Biz {group} guruhini {username} guruhiga qoʻshamiz. Boshqa foydalanuvchimi? <a>Boshqa akkountga kirish</a>.\n",
+                "not-connected": "Taklifni qabul qilish uchun <a>tizimga kiring</a>.",
+                "not-authorized": "Sizning joriy foydalanuvchi {username} guruhlarga qo‘shilish uchun ruxsatga ega emas. <a>Boshqa hisobga kiring</a>.",
+                "already-member": "Ajoyib yangilik, foydalanuvchi {username} allaqachon {group} guruhi a'zosi! Guruhga boshqa foydalanuvchi bilan qo'shilishni xohlaysizmi? <a>Boshqa hisobga kiring</a>.\n"
             },
             "invitation": {
-                "not-found": "",
-                "no-usages-left": ""
+                "not-found": "Kechirasiz, bu guruh taklifnomasi topilmadi.",
+                "no-usages-left": "Bu guruh taklifnomasidan endi foydalanib bo‘lmaydi."
             },
-            "apply": "",
-            "success-alert": ""
+            "apply": "Guruhga qo'shilish",
+            "success-alert": "Siz guruhga muvaffaqiyatli qo'shildingiz!"
         },
         "admin": {
             "permissions": {
-                "use": ""
+                "use": "Guruh taklifnomasini ishlatish"
             },
             "settings": {
                 "head": {
-                    "code": "",
-                    "group": "",
-                    "usage": ""
+                    "code": "Kod",
+                    "group": "Guruh",
+                    "usage": "Ishlatish"
                 },
                 "placeholder": {
-                    "code": "",
-                    "group": "",
-                    "usage": ""
+                    "code": "Avtomatik tanlash",
+                    "group": "Tanlash...",
+                    "usage": "Cheksiz uchun bo'sh"
                 },
-                "empty": "",
-                "unlimited": "",
-                "create": "",
-                "delete": ""
+                "empty": "Hozirgacha taklifnoma yaratilmadi.",
+                "unlimited": "Cheksiz",
+                "create": "Yaratish",
+                "delete": "O'chirish"
             }
         },
         "api": {
             "error": {
-                "not-found": "",
-                "no-usages-left": ""
+                "not-found": "Taklifnoma kodi topilmadi",
+                "no-usages-left": "Taklifnomani endi ishlatib bo'lmaydi"
             }
         }
     }

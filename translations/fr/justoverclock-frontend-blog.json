@@ -1,0 +1,30 @@
+{
+    "justoverclock-frontend-blog": {
+        "admin": {
+            "numberOfPost": "Nombre de messages",
+            "setBlogIndexPage": "Définir l'extension Frontend Blog comme page principale",
+            "numberOfPost-help": "Mettez ici le nombre de message que vous souhaitez afficher",
+            "sorting": "Discussions les plus récentes ou les plus chaudes ? (la valeur par défaut est la plus récente)",
+            "sorting-help": "Si vous souhaitez afficher les dernières discussions, écrivez \"-createdAt\", pour les discussions chaudes, écrivez \"-commentCount\"",
+            "charLim": "Limite de caractères",
+            "charLim-help": "Mettez ici le nombre de caractère max à afficher",
+            "defaultImage": "Image de publication par défaut",
+            "defaultImage-help": "ici vous pouvez définir l'image par défaut pour les publications qui n'en ont pas",
+            "showHeaderHero": "Afficher Welcome Hero",
+            "showPinnedDiscussions": "Afficher les 3 dernières discussions épinglées"
+        },
+        "forum": {
+            "recentDiscussions": "Discussions récentes :",
+            "titlePage": "Discussions sur le forum",
+            "post": "{count, plural, one {# MESSAGE} other {# MESSAGES}}",
+            "linkToDiscussion": " Lien vers la discussion",
+            "postedOn": " Posté sur : ",
+            "menuButton": "Menu",
+            "allDiscussions": "Forum",
+            "signupButton": "Inscription",
+            "loginButton": "Connexion",
+            "stickyTitle": "Discussions épinglées",
+            "readMore": "Lire la suite"
+        }
+    }
+}

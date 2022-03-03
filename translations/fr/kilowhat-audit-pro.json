@@ -2,22 +2,34 @@
     "kilowhat-audit": {
         "admin": {
             "permissions": {
-                "view": "Afficher le journal d'audit"
+                "view": "Afficher le journal d'audit",
+                "viewLimited": ""
             },
             "header": {
                 "title": "Audit",
                 "free": "Gratuit",
                 "pro": "Professionnel",
                 "upgrade": "Mise à niveau vers la version professionnelle"
+            },
+            "limitedSettings": {
+                "configure": "",
+                "title": "",
+                "introduction": "",
+                "requiresExtension": ""
+            },
+            "settings": {
+                "limitedIpAddress": ""
             }
         },
         "forum": {
             "link": {
+                "all-audit": "",
                 "discussion-audit": "Journal d'Audit",
                 "user-audit": "Journal d'Audit (modifications du compte)",
                 "actor-audit": "Journal d'Audit (utilisateur en tant qu'acteur)"
             },
             "modal": {
+                "all-title": "",
                 "discussion-title": "Journal d'Audit de discussion",
                 "user-title": "Journal d'Audit d'utilisateur",
                 "actor-title": "Journal d'Audit d'acteur"

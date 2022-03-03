@@ -2,94 +2,94 @@
     "fof-mason": {
         "forum": {
             "discussion-controls": {
-                "edit-answers": ""
+                "edit-answers": "Modifica campi"
             },
             "answers-modal": {
-                "edit-title": "",
-                "save": ""
+                "edit-title": "Modifica campi per {title}",
+                "save": "Salva campi"
             },
             "post-answers": {
-                "no-answer": ""
+                "no-answer": "Nessuna risposta"
             },
             "answers": {
-                "choose-option": "",
-                "no-option-selected": ""
+                "choose-option": "Scegli opzione",
+                "no-option-selected": "Nessuna opzione selezionata"
             },
             "tags": {
-                "inadequate-settings": "",
-                "tags-label": ""
+                "inadequate-settings": "Le impostazioni dei tag non sono configurate correttamente. Consenti fino a un tag primario e secondario o disattiva la funzione \"Tag come campi\".\n",
+                "tags-label": "Tag"
             }
         },
         "admin": {
             "buttons": {
-                "new-field": "",
-                "add-field": "",
-                "save-field": "",
-                "delete-field": "",
-                "edit-field": "",
-                "add-answer": "",
-                "save-answer": "",
-                "delete-answer": "",
-                "edit-answer": "",
-                "edit-answer-prompt": "",
-                "show-user-answers": ""
+                "new-field": "Nuovo campo",
+                "add-field": "Aggiungi campo",
+                "save-field": "Salva cambiamenti campi",
+                "delete-field": "Cancella campo",
+                "edit-field": "Clicca per modificare il campo",
+                "add-answer": "Aggiungi risposta",
+                "save-answer": "Salva cambiamenti risposta",
+                "delete-answer": "Cancella risposta",
+                "edit-answer": "Modifica Risposta",
+                "edit-answer-prompt": "Modifica il contenuto ovunque venga utilizzato",
+                "show-user-answers": "Mostra risposte non suggerite ({count})"
             },
             "fields": {
-                "add": "",
-                "edit": "",
-                "required": "",
-                "name": "",
-                "name-help": "",
-                "description": "",
-                "description-help": "",
-                "show_when_empty": "",
-                "show_when_empty-help": "",
-                "validation": "",
-                "user_values_allowed": "",
-                "user_values_allowed-help": "",
-                "validation-help": "",
-                "enable-user-values-for-validation": "",
-                "icon": "",
-                "icon-help": "",
-                "icon-preview": "",
-                "save-field-for-answers": "",
-                "is_suggested": "",
-                "new-answer": "",
-                "new-answer-placeholder": ""
+                "add": "Aggiungi campo {field}",
+                "edit": "Modifica campo {field}",
+                "required": "Richiesto",
+                "name": "Nome Campo",
+                "name-help": "L'etichetta del campo visibile pubblicamente (non traducibile).\n",
+                "description": "Descruzione campo",
+                "description-help": "Una descrizione facoltativa per spiegare l'uso/la necessità di questo campo.\n",
+                "show_when_empty": "Mostra quando vuoto",
+                "show_when_empty-help": "Mostrare il campo sulla discussione quando non ha risposta",
+                "validation": "Convalida per i valori dell'utente",
+                "user_values_allowed": "Valori utente consentiti",
+                "user_values_allowed-help": "Se abilitato, gli utenti possono aggiungere i propri valori invece di quelli definiti dall'amministratore. Questi valori verranno verificati rispetto all'impostazione \"Convalida\". Se disabilitati, potranno utilizzare solo le risposte \"suggerite\".\n",
+                "validation-help": "Controlla le <a>regole di convalida di Laravel</a> supportate. Ad esempio: \"string|min:5\" o \"url\".\n",
+                "enable-user-values-for-validation": "Abilita \"valori utente\" per configurare le regole di convalida",
+                "icon": "Icona",
+                "icon-help": "Mostra un'icona davanti ai valori inseriti dall'utente. Per un riferimento alle icone disponibili, controlla il <a>sito web FontAwesome</a>. Utilizzare il nome completo della classe dell'icona incluso il prefisso, ad esempio \"fas fa-bolt\".\n",
+                "icon-preview": "anteprima: {preview}",
+                "save-field-for-answers": "Salva il campo per aggiungere risposte",
+                "is_suggested": "Suggerisci risposta agli utenti",
+                "new-answer": "Nuova risposta",
+                "new-answer-placeholder": "Un po di testo"
             },
             "messages": {
-                "delete-answer-confirmation": "",
-                "delete-field-confirmation": ""
+                "delete-answer-confirmation": "Sei sicuro di voler eliminare la risposta \"{content}\"? Verrà rimossa da tutte le discussioni che la utilizzano. Se vuoi mantenere le risposte esistenti, disabilita invece il suggerimento di risposta. Elimina risposta?\n",
+                "delete-field-confirmation": "Sei sicuro di voler eliminare il campo \"{name}\"? Il campo e le relative risposte verranno rimossi da tutte le discussioni che li utilizzano. Eliminare il campo?\n"
             },
             "settings": {
-                "fields-section-title": "",
-                "fields-section-title-placeholder": "",
-                "fields-section-title-help": "",
-                "column-count": "",
-                "n-columns": "",
-                "labels-as-placeholders": "",
-                "labels-as-placeholders-help": "",
-                "fields-in-hero": "",
-                "hide-empty-fields-section": "",
-                "hide-empty-fields-section-help": "",
-                "tags-as-field": "",
-                "tags-as-field-help": "",
-                "tags-field-name": "",
-                "tags-field-name-placeholder": ""
+                "fields-section-title": "Titolo della sezione dei campi personalizzati",
+                "fields-section-title-placeholder": "Per impostazione predefinita non verrà mostrato alcun titolo",
+                "fields-section-title-help": "Gli utenti vedranno questo testo sopra i campi personalizzati nell'editor e nella discussione.\n",
+                "column-count": "Numero di colonne quando si mostrano i campi",
+                "n-columns": "{count} colonne",
+                "labels-as-placeholders": "Mostra etichette come placeholder nel form",
+                "labels-as-placeholders-help": "I campi utilizzeranno meno spazio verticale e le icone non verranno più mostrate. Tieni presente che ciò potrebbe avere un impatto sull'usabilità, in particolare quando si modificano i campi esistenti.\n",
+                "fields-in-hero": "Mostra i campi nel banner della discussione invece del primo post",
+                "hide-empty-fields-section": "Nascondi titolo e controlli quando tutti i campi sono vuoti e nascosti",
+                "hide-empty-fields-section-help": "Per impostazione predefinita, se l'utente può modificare i campi o è stato impostato un titolo, la sezione verrà sempre mostrata, anche se tutti i campi sono nascosti. Con questa opzione abilitata, la sezione verrà nascosta e il pulsante \"modifica campi\" sarà disponibile solo all'interno del menu a discesa \"rispondi\" quando tutti i campi sono vuoti.\n",
+                "tags-as-field": "Mostra il selettore di tag come campo",
+                "tags-as-field-help": "Questo nasconderà il selettore di tag predefinito e mostrerà invece un campo a discesa personalizzato. Funzionerà solo se hai consentito fino a un tag primario e uno secondario!\n",
+                "tags-field-name": "Etichetta del campo tag",
+                "tags-field-name-placeholder": "=> fof-mason.forum.tags.tags-label"
             },
             "titles": {
-                "settings": "",
-                "fields": "",
-                "field-settings": "",
-                "field-answers": ""
+                "settings": "Impostazioni",
+                "fields": "Campi",
+                "field-settings": "Impostazioni Campi",
+                "field-answers": "Campi risposte"
             },
             "permissions": {
-                "see-own-fields": "",
-                "see-other-fields": "",
-                "fill-fields": "",
-                "update-own-fields": "",
-                "update-other-fields": "",
-                "skip-required-fields": ""
+                "see-own-fields": "Visualizzare i campi nelle discussioni esistenti",
+                "see-other-fields": "Vedere i campi su tutte le discussioni esistenti",
+                "fill-fields": "Compilare i campi nelle nuove discussioni",
+                "update-own-fields": "Aggiornare i campi della propria discussione",
+                "update-other-fields": "AGgiornare i campi di qualunque discussione",
+                "skip-required-fields": "Consentire il salto dei campi obbligatori"
             }
         }
     }

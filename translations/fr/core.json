@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "Configurer Scopes",
-                "confirm_purge": "La purge supprime toutes les entrées de la base de données et les ressources liées à l'extension. Elle ne désinstallera pas l'extension ; cela doit être effectué depuis Composer. Êtes-vous sûr de vouloir continuer ?",
+                "confirm_uninstall": "La désinstallation supprimera toutes les entrées de la base de données et les ressources liées à l'extension. Êtes-vous sûr de vouloir continuer ?",
                 "disabled": "Désactivée",
                 "enable_to_see": "Activez l'extension pour afficher et modifier ses paramètres.",
                 "enabled": "Activée",
@@ -116,14 +116,14 @@
                 "no_settings": "Cette extension n'a pas de paramètre.",
                 "open_modal": "Ouvrir les paramètres",
                 "permissions_title": "Permissions",
+                "uninstall_button": "Désinstaller",
+                "confirm_purge": "La purge supprime toutes les entrées de la base de données et les ressources liées à l'extension. Elle ne désinstallera pas l'extension ; cela doit être effectué depuis Composer. Êtes-vous sûr de vouloir continuer ?",
                 "purge_button": "Purger",
                 "readme": {
                     "button_label": "README",
                     "no_readme": "Cette extension ne semble pas avoir de fichier README",
                     "title": "Documentation de {extName}"
-                },
-                "confirm_uninstall": "La désinstallation supprimera toutes les entrées de la base de données et les ressources liées à l'extension. Êtes-vous sûr de vouloir continuer ?",
-                "uninstall_button": "Désinstaller"
+                }
             },
             "header": {
                 "get_help": "Obtenir de l'aide",
@@ -294,7 +294,7 @@
                 "delete_button": "=> core.ref.delete",
                 "delete_confirmation": "Êtes-vous sûr de vouloir supprimer cette discussion ?",
                 "delete_forever_button": "=> core.ref.delete_forever",
-                "log_in_to_reply_button": "Se connecter pour répondre",
+                "log_in_to_reply_button": "Répondre",
                 "rename_button": "=> core.ref.rename",
                 "reply_button": "=> core.ref.reply",
                 "restore_button": "=> core.ref.restore",
@@ -303,11 +303,11 @@
             "discussion_list": {
                 "empty_text": "Il semble qu'il n'y ait pas de discussions ici.",
                 "load_more_button": "=> core.ref.load_more",
+                "mark_as_read_tooltip": "Marquer comme lu",
                 "replied_text": "{username} a répondu à cette discussion {ago}",
                 "started_text": "{username} a démarré cette discussion {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# réponse} other {# réponses}}",
-                "unread_replies_a11y_label": "{count, plural, one {# réponse non lue} other {# réponses non lues}}. Marquer {count, plural, one {réponse non lue comme lue} other {réponses non lues comme lues}}.",
-                "mark_as_read_tooltip": "Marquer comme lu"
+                "unread_replies_a11y_label": "{count, plural, one {# réponse non lue} other {# réponses non lues}}. Marquer {count, plural, one {réponse non lue comme lue} other {réponses non lues comme lues}}."
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -459,7 +459,6 @@
             }
         },
         "lib": {
-            "debug_button": "Déboguer",
             "badge": {
                 "hidden_tooltip": "Masquée"
             },
@@ -493,12 +492,6 @@
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
             },
-            "modal": {
-                "close": "Fermer"
-            },
-            "nav": {
-                "drawer_button": "Ouvrir le tiroir de navigation"
-            },
             "number_suffix": {
                 "kilo_text": "k",
                 "mega_text": "M"
@@ -510,6 +503,20 @@
             },
             "username": {
                 "deleted_text": "[supprimé]"
+            },
+            "debug_button": "Déboguer",
+            "alert": {
+                "dismiss_a11y_label": "Ignorer l'alerte"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle} : Page # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Page # - {forumName}}}"
+            },
+            "modal": {
+                "close": "Fermer"
+            },
+            "nav": {
+                "drawer_button": "Ouvrir le tiroir de navigation"
             }
         },
         "views": {
@@ -567,6 +574,10 @@
                 "new_password_label": "Nouveau mot de passe",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle} : Page # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Page # - {forumName}}}"
             }
         },
         "api": {

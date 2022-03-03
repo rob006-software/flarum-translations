@@ -7,8 +7,11 @@
             "settings": {
                 "max_label": "Maximale lengte bijnaam",
                 "min_label": "Minimale lengte bijnaam",
+                "random_username_label": "Willekeurige gebruikersnamen",
+                "random_username_help": "Dit zal het `gebruikersnaam` veld verbergen tijdens registratie en een willekeurig nummer genereren. Deze optie maakt ook het `bijnaam` veld verplicht. Dit zal alleen effect hebben wanneer \"Sta het instellen van bijnamen toe bij registratie\" ingeschakeld is.",
                 "regex_label": "Reguliere expressie voor validatie",
-                "unique_label": "Unieke bijnamen nodig?"
+                "set_on_registration_label": "Sta het instellen van bijnamen toe bij registratie",
+                "unique_label": "Unieke bijnamen vereisen"
             },
             "wrong_driver": "U moet 'bijnaam' selecteren als de driver voor de weergavenaam op de <a><strong>Basispagina</strong></a> om deze extensie van kracht te laten worden."
         },
@@ -22,14 +25,18 @@
             },
             "edit_user": {
                 "nicknames_heading": "=> flarum-nicknames.ref.change_nickname",
-                "nicknames_text": "Bijnaam"
+                "nicknames_text": "=> flarum-nicknames.ref.nickname"
             },
             "settings": {
                 "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
+            },
+            "sign_up": {
+                "nickname_placeholder": "=> flarum-nicknames.ref.nickname"
             }
         },
         "ref": {
-            "change_nickname": "Verander bijnaam"
+            "change_nickname": "Verander bijnaam",
+            "nickname": "Bijnaam"
         }
     }
 }

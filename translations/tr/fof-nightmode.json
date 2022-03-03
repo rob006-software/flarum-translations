@@ -19,6 +19,9 @@
         "forum": {
             "day": "=> fof-nightmode.ref.light",
             "night": "=> fof-nightmode.ref.dark",
+            "header": {
+                "nightmode_button": "Forum temasını değiştir"
+            },
             "user": {
                 "settings": {
                     "heading": "Tema",
@@ -26,6 +29,7 @@
                     "description2": "Bu tema, hesabınızda görünür ve cihaz başına ayarını açmazsanız tüm cihazlar da etkinleştirilir.",
                     "device_specific_setting_checkbox": "Cihaz başına ayar",
                     "device_specific_setting_checkbox_tooltip": "Tema seçiminiz, cihazlarınızın her biri için ayrı ayrı kaydedilir.",
+                    "auto_unsupported": "Tarayıcınız otomatik karanlık modu desteklemiyor.",
                     "options": {
                         "auto": "=> fof-nightmode.ref.auto",
                         "day": "=> fof-nightmode.ref.light",

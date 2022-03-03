@@ -242,7 +242,31 @@
                     "title": "Resumen de los tickets",
                     "description": "Sonríe, eres el héroe que salva el día a los demás.",
                     "no_tickets": "No hay tickets que coincidan con tus criterios, ¡probablemente estás haciendo un buen trabajo!",
-                    "all_tickets": "Todos los tickets"
+                    "all_tickets": "Todos los tickets",
+                    "selection_unfiltered": "",
+                    "selection_open": "",
+                    "selection_closed": "",
+                    "refresh": "",
+                    "filter": {
+                        "status": {
+                            "title": "",
+                            "filter_count": ""
+                        },
+                        "language": {
+                            "any": ""
+                        },
+                        "assignees": {
+                            "title": "",
+                            "search": "",
+                            "unassigned": ""
+                        }
+                    },
+                    "sort": {
+                        "newest": "",
+                        "oldest": "",
+                        "recent_activity": "",
+                        "least_recent": ""
+                    }
                 }
             }
         },

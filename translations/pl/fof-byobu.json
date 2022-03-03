@@ -12,11 +12,15 @@
                 "edit_recipients": "Edytuj uczestników",
                 "send_pd": "Wyślij wiadomość do {username}",
                 "cancel": "Anuluj",
+                "make_public": "Upublicznij tę dyskusję",
                 "remove_from_discussion": "Opuść tę prywatną dyskusję"
             },
             "composer_private_discussion": {
                 "submit_button": "Dodaj prywatną dyskusję",
                 "title_placeholder": "Tytuł prywatnej dyskusji"
+            },
+            "confirm": {
+                "make_public": "Czy jesteś pewien, że chcesz usunąć uczestników i uczynić tę dyskusję widoczną dla każdego, kto może zobaczyć przypisany tag?"
             },
             "labels": {
                 "recipients": "{count, plural, one {{count} uczestnik} other {{count} uczestników}}",
@@ -54,6 +58,7 @@
                 "recipients_modified": {
                     "added_and_removed": "{username} dodał {added} i usunął {removed} z listy uczestników.",
                     "added": "{username} dodał {added} do listy uczestników.",
+                    "made_public": "{username} usunął wszystkich uczestników i upublicznił dyskusję",
                     "removed": "{username} usunął {removed} z listy uczestników.",
                     "removed_self": "{username} opuścił prywatną dyskusję."
                 }
@@ -83,10 +88,13 @@
                 "create_private_discussions_with_blocking_users": "Tworzenie prywatnych dyskusji z użytkownikami, którzy je blokują",
                 "edit_user_recipients": "Edytowanie użytkowników biorących udział w prywatnych dyskusjach",
                 "edit_group_recipients": "Edytowanie grup biorących udział w prywatnych dyskusjach",
+                "make_private_into_public": "Przekształcanie prywatnej dyskusji w dyskusję publiczną",
                 "view_private_discussions-when-flagged": "Przeglądanie prywatnych dyskusji innych użytkowników, jeśli ktoś je zgłosił"
             },
             "settings": {
                 "badge-icon": "Ikona w etykiecie dyskusji Byobu",
+                "enable-make-public-option": "Włącz możliwość upublicznienia prywatnej dyskusji",
+                "enable-make-public-option-help": "Dodaje możliwość, aby osoby z uprawnieniami mogły usunąć wszystkich uczestników, przypisać nowy tag i uczynić dyskusję publicznie widoczną (zgodnie z ustawieniami widoczności wybranego tagu).",
                 "post-event-icon": "Ikona zdarzeń w dyskusjach Byobu"
             }
         },

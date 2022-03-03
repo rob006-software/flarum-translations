@@ -2,13 +2,13 @@
     "fof-sentry": {
         "admin": {
             "settings": {
-                "dsn_label": "Сервер Sentry DSN",
-                "user_feedback_label": "Пользовательская обратная связь",
-                "javascript_label": "Сообщать об ошибках JavaScript",
-                "javascript_console_label": "Сохранять консоль JavaScript",
-                "javascript_trace_sample_rate": "Частота мониторинга производительности фронт-энда (0 -100)",
-                "monitor_performance_label": "Частота мониторинга производительности бэк-энда (0 -100)",
-                "send_user_emails_label": "Отправлять адреса эл.почты пользователей в отчетах Sentry?"
+                "dsn_label": "Sentry DSN",
+                "user_feedback_label": "Обратная связь",
+                "javascript_label": "Оповещение об ошибках JavaScript",
+                "javascript_console_label": "Захват консоли JavaScript",
+                "javascript_trace_sample_rate": "Частота мониторинга производительности (FRONT-END) (0 - 100)",
+                "monitor_performance_label": "Частота мониторинга производительности (BACK-END) (0 - 100)",
+                "send_user_emails_label": "Отправлять адреса e-mail пользователей с отчётами Sentry?"
             }
         }
     }

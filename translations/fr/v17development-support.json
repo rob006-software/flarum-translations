@@ -242,7 +242,31 @@
                     "title": "Vue d'ensemble des tickets",
                     "description": "Souriez, vous êtes le héros qui sauve la journée d'autres personnes.",
                     "no_tickets": "Il n'y a pas de billets qui correspondent à vos critères, vous faites probablement du bon travail !",
-                    "all_tickets": "Tous les tickets"
+                    "all_tickets": "Tous les tickets",
+                    "selection_unfiltered": "Non filtré",
+                    "selection_open": "Tickets ouverts",
+                    "selection_closed": "Tickets fermés",
+                    "refresh": "Actualiser",
+                    "filter": {
+                        "status": {
+                            "title": "Statut du ticket",
+                            "filter_count": "{count, plural, one {# filtre} other {# filtres}}"
+                        },
+                        "language": {
+                            "any": "N'importe quel langage"
+                        },
+                        "assignees": {
+                            "title": "Filtrer les assignés",
+                            "search": "Rechercher un assigné",
+                            "unassigned": "Non attribué"
+                        }
+                    },
+                    "sort": {
+                        "newest": "Le plus récent d'abord",
+                        "oldest": "Le plus âgé en premier",
+                        "recent_activity": "Activité récente",
+                        "least_recent": "Activité la moins récente"
+                    }
                 }
             }
         },

@@ -61,7 +61,7 @@
             "body": {
                 "newDiscussionInTag": "Üdv {recipient_display_name},\n\n{actor_display_name} új témát nyitott az általad követett címkével: {discussion_title}\n\nHogy megnézd, kattints az alábbi linkre:\n{discussion_url}\n\n---\n\n{post_content}\n",
                 "newPostInTag": "Üdv {recipient_display_name},\n\n{actor_display_name} hozzászólt egy témában, ami általad követett címkével rendelkezik: {discussion_title}\n\nHogy megnézd, kattints az alábbi linkre:\n{post_url}\n\n---\n\n{post_content}\n",
-                "newDiscussionTag": ""
+                "newDiscussionTag": "Üdv {recipient_display_name},\n\n{actor_display_name} megváltoztatta a címkét a beszélgetésben vele: {author_display_name} egy olyan címkére amit követsz: {discussion_title}\n\nHogy megnézd, kattints az alábbi linkre:\n{discussion_url}\n"
             }
         },
         "ref": {

@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "",
-                "confirm_purge": "",
+                "confirm_uninstall": "",
                 "disabled": "",
                 "enable_to_see": "",
                 "enabled": "",
@@ -116,14 +116,14 @@
                 "no_settings": "",
                 "open_modal": "",
                 "permissions_title": "",
+                "uninstall_button": "",
+                "confirm_purge": "",
                 "purge_button": "",
                 "readme": {
                     "button_label": "",
                     "no_readme": "",
                     "title": ""
-                },
-                "confirm_uninstall": "",
-                "uninstall_button": ""
+                }
             },
             "header": {
                 "get_help": "",
@@ -303,11 +303,11 @@
             "discussion_list": {
                 "empty_text": "ここには何もありません。",
                 "load_more_button": "=> core.ref.load_more",
+                "mark_as_read_tooltip": "既読にする",
                 "replied_text": "{username} が {ago} に返信しました",
                 "started_text": "{username} が {ago} に投稿されました",
                 "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": "",
-                "mark_as_read_tooltip": "既読にする"
+                "unread_replies_a11y_label": ""
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -459,7 +459,6 @@
             }
         },
         "lib": {
-            "debug_button": "",
             "badge": {
                 "hidden_tooltip": "非表示"
             },
@@ -493,12 +492,6 @@
             "loading_indicator": {
                 "accessible_label": ""
             },
-            "modal": {
-                "close": ""
-            },
-            "nav": {
-                "drawer_button": ""
-            },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
@@ -510,6 +503,20 @@
             },
             "username": {
                 "deleted_text": "[削除済み]"
+            },
+            "debug_button": "",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": ""
+            },
+            "nav": {
+                "drawer_button": ""
             }
         },
         "views": {
@@ -567,6 +574,10 @@
                 "new_password_label": "新しいパスワード",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
             }
         },
         "api": {

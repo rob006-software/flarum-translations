@@ -1,0 +1,21 @@
+{
+    "flarum-akismet": {
+        "admin": {
+            "akismet_settings": {
+                "api_key_label": "API Key",
+                "title": "Akismet podešavanja",
+                "delete_blatant_spam_label": "Automatski izbrišite očiglednu neželjenu poštu",
+                "delete_blatant_spam_help": "Ako Akismet utvrdi da je komentar očigledan neželjeni sadržaj, umesto označavanja, automatski izbrišite odgovor"
+            },
+            "permissions": {
+                "bypass_akismet": "Zaobiđite Akismet"
+            }
+        },
+        "forum": {
+            "post": {
+                "akismet_flagged_text": "Akismet softver je označio kao nepoželjno",
+                "not_spam_button": "Nije nepoželjno"
+            }
+        }
+    }
+}

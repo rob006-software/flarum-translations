@@ -2,42 +2,42 @@
     "maicol07-oidc-client": {
         "admin": {
             "settings": {
-                "provider_name": "",
+                "provider_name": "OpenID Connect sağlayıcı adı",
                 "client_settings_title": "İstemci ayarları",
-                "client_settings_subtitle": "",
-                "client_id": "",
-                "client_secret": "",
-                "callback_title": "",
-                "callback_subtitle": "",
-                "callback_logout_note": "",
-                "provider_settings_title": "",
-                "provider_url": "",
-                "endpoints_title": "",
-                "endpoints_subtitle": "",
+                "client_settings_subtitle": "OpenID Connect sağlayıcınız tarafından verilen müşteri bilgilerinizi buraya ekleyin. Daha fazla yardım için dokümanları kontrol edin.",
+                "client_id": "Client ID",
+                "client_secret": "Client secret",
+                "callback_title": "Geri arama URI'leri (Callback URIs)",
+                "callback_subtitle": "Bunlar, müşteri yetkilendirme kodunu almak ve ilgili seçenek etkinleştirilmişse sağlayıcıdan çıkış yapmak için sağlayıcınıza kaydetmeniz gereken geri arama URI'larıdır.",
+                "callback_logout_note": "Yalnızca sağlayıcıdan çıkış seçeneği etkinleştirildiğinde gereklidir (sayfanın en altına bakın)",
+                "provider_settings_title": "Sağlayıcı ayarları",
+                "provider_url": "Sağlayıcı URL'si",
+                "endpoints_title": "Sağlayıcı uç noktaları",
+                "endpoints_subtitle": "Sağlayıcı uç noktalarınızı buraya ekleyin. Sağlayıcı URL'sini yukarıya eklediyseniz ve sağlayıcınız otomatik bulmayı destekliyorsa, \"Ayarları kaydet\" düğmesine bastığınızda gerekli uç noktalar otomatik olarak keşfedilir (ve kaydedilir) (sayfayı yenileyene kadar ayarlarda yeni uç noktaları görmezsiniz) . Sağlayıcı URL'si doldurulmuşsa ve sağlayıcıda otomatik bulma etkinleştirilmişse diğer uç noktaları eklemeniz gerekmez. Sağlayıcınız henüz uygulamadıysa, gerekli uç noktaları aşağıya manuel olarak ekleyebilirsiniz. Daha fazla yardım için dokümanları kontrol edin\n",
                 "endpoints": {
-                    "authorize": "",
-                    "token": "",
-                    "userinfo": "",
-                    "logout": ""
+                    "authorize": "Yetkilendirme uç noktası URL'si",
+                    "token": "Token uç noktası URL'i",
+                    "userinfo": "Kullanıcı bilgileri uç nokta URL'si",
+                    "logout": "Oturumu sonlandır (oturum kapatma) bitiş noktası URL'si"
                 },
-                "other_settings_title": "",
-                "issuer": "",
-                "nonce": "",
-                "linker_claim": "",
-                "manage_account_url": "",
-                "manage_account_btn_open_in_new_tab": "",
-                "sso_mode": "",
-                "logout_from_provider": "",
-                "remove_signup_btn": "",
-                "sync_avatars": ""
+                "other_settings_title": "Diğer ayarlar",
+                "issuer": "Verenin URL'si (Issuer URL)",
+                "nonce": "Nonce doğrulamasını devre dışı bırakın",
+                "linker_claim": "Bağlayıcı iddiası (Linker claim)",
+                "manage_account_url": "Hesap yönetimi URL'si",
+                "manage_account_btn_open_in_new_tab": "Hesap yönetimi sayfasını yeni bir sekmede açın",
+                "sso_mode": "SSO Modu",
+                "logout_from_provider": "Sağlayıcıdan çıkış yapın (SSO modu etkinleştirildiğinde)",
+                "remove_signup_btn": "Kayıt düğmesini kaldır",
+                "sync_avatars": "Kullanıcı avatarını senkronize et"
             }
         },
         "forum": {
             "buttons": {
-                "manage_account": "",
-                "login": "",
-                "connect_account": "",
-                "disconnect_account": ""
+                "manage_account": "Hesabı yönet",
+                "login": "{name} hesabına giriş yapın",
+                "connect_account": "{name} ile bağlantı kurun",
+                "disconnect_account": "{name} ile bağlantıyı kesin"
             }
         }
     }

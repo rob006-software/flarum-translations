@@ -54,7 +54,8 @@
                 "preferences": {
                     "max_file_size": "最大ファイルサイズ（KB）",
                     "mime_types": "MIME タイプに対応するアップロード方法を設定します",
-                    "title": "プリファレンス"
+                    "title": "プリファレンス",
+                    "php_ini_values": ""
                 },
                 "resize": {
                     "max_width": "最大画像幅",
@@ -97,7 +98,9 @@
                 "bbcode-image": "",
                 "bbcode-image_description": "",
                 "just-url": "",
-                "just-url_description": ""
+                "just-url_description": "",
+                "text-preview": "",
+                "text-preview_description": ""
             },
             "upload_methods": {
                 "aws-s3": "AWS S3",
@@ -140,6 +143,16 @@
                 "error": "間違った",
                 "loading": "読み込み中",
                 "unauthorized": "ダウンロードする権限がありません"
+            },
+            "validation": {
+                "max_size": ""
+            },
+            "text_preview": {
+                "expand": "",
+                "collapse": "",
+                "error": "",
+                "no_snippet_preview": "",
+                "no_snippet": ""
             }
         },
         "api": {

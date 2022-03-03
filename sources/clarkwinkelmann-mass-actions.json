@@ -1,0 +1,25 @@
+{
+    "clarkwinkelmann-mass-actions": {
+        "forum": {
+            "select": {
+                "all": "Select all",
+                "none": "Unselect all"
+            },
+            "actions": {
+                "markAsRead": "Mark selected as read",
+                "hide": "Delete selected",
+                "restore": "Restore selected",
+                "lock": "Lock selected",
+                "unlock": "Unlock selected",
+                "tags": "Tags",
+                "tags-edit": "Edit tags",
+                "tags-add": "Add <em>{tag}</em>"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "controls": "View mass selection controls"
+            }
+        }
+    }
+}

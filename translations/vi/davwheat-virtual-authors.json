@@ -1,0 +1,89 @@
+{
+    "davwheat-virtual-authors": {
+        "admin": {
+            "permissions": {
+                "set_virtual_authors": "Đặt tác giả ảo cho cuộc thảo luận",
+                "view_virtual_authors_page": "Xem trang chi tiết về tất cả tác giả ảo"
+            },
+            "settings": {
+                "errored": "Không thể tải các tác giả ảo từ máy chủ.",
+                "create_new": "Tạo tác giả ảo mới",
+                "auto_save_message": "Tạo mới và chỉnh sửa các tác giả ảo được lưu tự động.",
+                "search_placeholder": "Tìm kiếm theo tên",
+                "link_to_va_from_discussion": "Hiển thị liên kết đến tất cả các cuộc thảo luận của tác giả ảo trong hộp 'Tác giả'",
+                "authors_in_sidebar": "Hiển thị tác giả trong thanh bên thay vì ở trên bài viết đầu tiên",
+                "authors_in_sidebar_help": "Điều này không ảnh hưởng đến tiện ích mở rộng Blog.",
+                "virtual_authors_page_disabled": "Tắt danh sách tác giả ảo cho toàn bộ người dùng.",
+                "virtual_authors_page_disabled_help": "Ghi đè bất kỳ quyền nào được đặt cho tính năng này.",
+                "discussion_badge": "Hiển thị huy hiệu Tác giả ảo trên các cuộc thảo luận",
+                "prev": "Trang trước",
+                "next": "Trang sau"
+            },
+            "virtual_author_item": {
+                "id": "ID",
+                "name": "Tên hiển thị",
+                "description": "Mô tả",
+                "no_description": "=> davwheat-virtual-authors.ref.no_description",
+                "edit": "Chỉnh sửa tác giả ảo",
+                "delete_confirmation": "Xoá tác giả ảo?",
+                "delete_a11y_tooltip": "Xoá"
+            }
+        },
+        "lib": {
+            "edit_modal": {
+                "title_edit": "Chỉnh sửa tác giả ảo",
+                "title_new": "Thêm tác giả ảo",
+                "submit_edit": "Lưu thay đổi",
+                "submit_new": "Tạo tác giả tạo",
+                "fields": {
+                    "name": "Tên hiển thị",
+                    "description": "Mô tả (về tác giả)"
+                }
+            },
+            "discussion-badge": "{count, plural, one {Có tác giả ảo}, other {Có tác giả ảo}}"
+        },
+        "forum": {
+            "virtual_author_page": {
+                "meta_title": "{displayName} - Tác giả",
+                "credited_discussions": "Cuộc thảo luận được ghi có cho {displayName}",
+                "discussion_count": "=> davwheat-virtual-authors.ref.discussion_count"
+            },
+            "virtual_authors_list": {
+                "sidebar_link": "Tác giả",
+                "empty_text": "Có vẻ như không có tác giả nào.",
+                "title": "Tất cả tác giả",
+                "meta_title": "Tất cả tác giả",
+                "filter_name_placeholder": "Lọc theo tên",
+                "discussion_count": "=> davwheat-virtual-authors.ref.discussion_count",
+                "no_description": "Tác giả này giữ một bầu không khí bí ẩn về họ."
+            },
+            "virtual_authors_panel": {
+                "heading": "Tác giả",
+                "error": "Không thể tải các tác giả.",
+                "item_link_tooltip": "Xem tất cả các cuộc thảo luận bởi {displayName}"
+            },
+            "discussion_controls": {
+                "set_virtual_authors": "Đặt tác giả ảo"
+            },
+            "set_modal": {
+                "title": "Đặt tác giả ảo",
+                "existing": "Tác giả ảo hiện tại",
+                "add_new": "Chọn tác giả ảo mới",
+                "none_existing": "Không có tác giả ảo nào được chọn.",
+                "search": "Tìm kiếm tác giả ảo",
+                "credit_placeholder": "Tín dụng (tùy chọn)",
+                "delete_confirmation": "Xoá tác giả ảo khỏi cuộc thảo luận?",
+                "delete_button": "Xoá",
+                "add_button": "Thêm",
+                "added_button": "Đã thêm",
+                "no_description": "=> davwheat-virtual-authors.ref.no_description",
+                "virtual_author_exists": "Đã được chọn!",
+                "save": "Lưu thay đổi"
+            }
+        },
+        "ref": {
+            "no_description": "(không có đặt mô tả)",
+            "discussion_count": "{count, plural, one {# cuộc thảo luận}, other {# cuộc thảo luận}}"
+        }
+    }
+}

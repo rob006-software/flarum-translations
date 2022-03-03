@@ -1,32 +1,32 @@
 {
     "flarum-ext-contactme": {
         "settings": {
-            "emaillabel": ""
+            "emaillabel": "E-mail-cím ahová a kapcsolat form küldi a levelet"
         },
         "admin": {
             "settings": {
-                "emaillabel": ""
+                "emaillabel": "E-mail-cím ahová a kapcsolat form küldi a levelet"
             }
         },
         "forum": {
-            "title": "",
-            "messagesent": "",
-            "plsregister": "",
-            "tocontinue": "",
-            "backsoon": "",
-            "notloggedin": "",
-            "placeholderName": "",
-            "emailfield": "",
-            "pageTitle": "",
-            "subject": "",
-            "sendForm": "",
-            "textAreaField": "",
-            "pText": ""
+            "title": "Kapcsolat",
+            "messagesent": "Üzenet elküldve!",
+            "plsregister": "Kérjük regisztráljon vagy jelentkezzen be",
+            "tocontinue": "to continue with this contact form",
+            "backsoon": "hamarosan válaszolunk",
+            "notloggedin": "Kérjük jelentkezzen be",
+            "placeholderName": "Írja be a nevét",
+            "emailfield": "Írja be az e-mail-címét",
+            "pageTitle": ".Kapcsolat",
+            "subject": "Üzenet",
+            "sendForm": "Üzenet elküldése",
+            "textAreaField": "Írja be az üzenetét",
+            "pText": "...\n"
         },
         "email": {
             "contact": {
-                "subject": "",
-                "body": ""
+                "subject": "Új kapcsolat",
+                "body": "Üdv!\n\nÚj üzenet érkezett a kapcsolat formán keresztül: {username} (e-mail: {email})\n\nÜzenet:\n\n{message}"
             }
         }
     }

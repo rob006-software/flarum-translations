@@ -1,0 +1,17 @@
+{
+    "acpl-lscache": {
+        "admin": {
+            "public_cache_ttl_label": "Standart umumiy kesh TTL",
+            "public_cache_ttl_help": "Umumiy sahifalar qancha vaqt, soniyalarda keshlanishini belgilang. Standart qiymat 300 soniya.",
+            "clearing_cache_listener_label": "",
+            "serve_stale_label": "Kechikib xizmat ko'rsatish",
+            "serve_stale_help": "Agar yoqilgan bo'lsa, keshlangan sahifaning eskirgan nusxasi yangi kesh nusxasi mavjud bo'lmaguncha tashrif buyuruvchilarga ko'rsatiladi. Keyingi tashriflar uchun server yukini kamaytiradi. Agar o'chirilgan bo'lsa, tashrif buyuruvchilar kutayotganda sahifa dinamik ravishda yaratiladi. Dizaynga ko'ra, bu parametr eskirgan tarkibga xizmat qilishi mumkin. Agar bu sizga mos kelmasa, ushbu parametrni yoqmang.",
+            "purge_on_discussion_update_label": "Muhokama yoki post yangilanganda URL yoki teglarni tozalang",
+            "purge_on_discussion_update_help": "Har bir satrda bitta URL yoki tegni belgilang. Url <code>/</code> bilan boshlanishi kerak, masalan. <code>/rankings</code> va kesh Tegi <code>tag=</code> bilan boshlanishi kerak, masalan. <code>teg=rankings</code>. Bu kengaytma har bir marshrutni belgilab qoʻyadi va masalan, sizda oʻchirmoqchi boʻlgan marshrutlaringiz koʻp boʻlsa, .htaccess-ga marshrutlarni belgilovchi oddiy ibora bilan qoida qoʻshgan maʼqul va bu yerda sozlamalarga faqat shu tegni kiriting. . Bu usul ancha tezroq bo'ladi. <a>Batafsil</a>. Odatiy bo'lib, bosh sahifa uchun kesh, shuningdek, yangilangan muhokamalar uchun kesh tozalanadi.",
+            "cache_exclude_label": "",
+            "cache_exclude_help": "",
+            "purge_all": "Barcha LSCache-ni tozalang",
+            "purge_all_success": "Barcha LSCache yozuvlarini tozalash uchun LiteSpeed veb-serveriga xabar berilgan"
+        }
+    }
+}

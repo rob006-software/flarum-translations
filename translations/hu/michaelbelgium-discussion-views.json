@@ -19,13 +19,13 @@
             },
             "viewlist": {
                 "title": "Legfrissebb nézők",
-                "guest": ""
+                "guest": "Vendég"
             },
             "post": {
-                "viewed_by": "",
-                "you": "",
-                "others_link": "",
-                "modal_title_text": ""
+                "viewed_by": "{users} látta ezt.",
+                "you": "=> core.ref.you",
+                "others_link": "=> core.ref.some_others",
+                "modal_title_text": "Felhasználók akik utoljára látták a beszélgetést"
             }
         },
         "admin": {
@@ -36,13 +36,13 @@
             "settings": {
                 "title": "Nézettség beállítások",
                 "track_unique_label": "Egyedi nézetek követése",
-                "track_guests": "",
+                "track_guests": "Vendégek követése",
                 "abbr_numbers_label": "Rövidítse a nézetek számát",
                 "show_filter_label": "A népszerű rendezés bekapcsolása",
                 "max_viewcount_label": "Maximális megtekintési lista elemek",
-                "max_viewcount_text": "",
+                "max_viewcount_text": "Ez a lábléc-nézetlistára és az oldalsáv-nézetlistára vonatkozik",
                 "show_viewlist_label": "Nézettségi lista bekapcsolása",
-                "show_footer_viewlist_label": ""
+                "show_footer_viewlist_label": "Lábléc nézet bekapcsolása"
             }
         }
     }

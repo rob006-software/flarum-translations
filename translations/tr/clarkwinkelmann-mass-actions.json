@@ -1,0 +1,25 @@
+{
+    "clarkwinkelmann-mass-actions": {
+        "forum": {
+            "select": {
+                "all": "Tümünü seç",
+                "none": "Tümünün seçimini kaldır"
+            },
+            "actions": {
+                "markAsRead": "Seçilileri okundu olarak işaretle",
+                "hide": "Silme seçildi",
+                "restore": "Seçileni geri yükle",
+                "lock": "Seçileni kilitle",
+                "unlock": "Seçilenin kilidini kaldır",
+                "tags": "Etiketler",
+                "tags-edit": "Etiketleri düzenle",
+                "tags-add": "<em>{tag}</em> ekleyin"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "controls": "Toplu seçim kontrollerini görüntüleyin"
+            }
+        }
+    }
+}

@@ -54,7 +54,8 @@
                 "preferences": {
                     "max_file_size": "Taille maximale du fichier (en kilo-octets)",
                     "mime_types": "Configurez votre type MIME (téléversez la cartographie de téléchargement)",
-                    "title": "Préférences générales"
+                    "title": "Préférences générales",
+                    "php_ini_values": "Vos valeurs <code>php.ini</code> sont <code>post_max_size={post}</code> et <code>upload_max_filesize={upload}</code>. Assurez-vous que la valeur définie ici est inférieure à ces seuils ou ajustez-les en conséquence. Si vous utilisez <code>Nginx</code>, assurez-vous également que <code>client_max_body_size</code> est d'une taille suffisante pour la limite maximale choisie."
                 },
                 "resize": {
                     "max_width": "Largeur/hauteur maximale de l'image",
@@ -97,7 +98,9 @@
                 "bbcode-image": "Modèle d'image BBCode",
                 "bbcode-image_description": "Affiche l'image en ligne complète en utilisant BBCode. <strong>L'extension flarum/bbcode doit être installée et activée pour que cette option fonctionne.</strong> Aucune fonctionnalité de téléchargement ni aucune statistique n'est collectée, et la protection des liens chauds est ignorée.\n",
                 "just-url": "Juste l'URL",
-                "just-url_description": "Insère uniquement l'URL. Le rendu peut être géré par d'autres extensions ayant la capacité de créer des liens automatiques. Il n'y a pas de fonctionnalité de téléchargement, aucune statistique n'est collectée et la protection contre les liens hypertextes automatiques est ignorée.\n"
+                "just-url_description": "Insère uniquement l'URL. Le rendu peut être géré par d'autres extensions ayant la capacité de créer des liens automatiques. Il n'y a pas de fonctionnalité de téléchargement, aucune statistique n'est collectée et la protection contre les liens hypertextes automatiques est ignorée.\n",
+                "text-preview": "Aperçu du texte",
+                "text-preview_description": "Insère un aperçu (5 premières lignes) du fichier texte, avec une option de développement pour révéler le contenu complet du fichier.\n"
             },
             "upload_methods": {
                 "aws-s3": "Compatible avec Amazon S3",
@@ -140,6 +143,16 @@
                 "error": "Erreur",
                 "loading": "Transfert",
                 "unauthorized": "Vous n'êtes pas autorisé à télécharger des fichiers"
+            },
+            "validation": {
+                "max_size": "Les téléchargements de plus de {max} kb ne sont pas acceptés."
+            },
+            "text_preview": {
+                "expand": "Développer l'aperçu",
+                "collapse": "Réduire l'aperçu",
+                "error": "Erreur lors de la prévisualisation du fichier. Il a peut-être été supprimé ou l'ID de fichier fourni n'est pas valide.\n",
+                "no_snippet_preview": "<l'aperçu apparaîtra ici après la publication>",
+                "no_snippet": "<aucun extrait d'aperçu disponible>"
             }
         },
         "api": {

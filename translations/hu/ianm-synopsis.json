@@ -2,11 +2,20 @@
     "ianm-synopsis": {
         "admin": {
             "settings": {
-                "excerpt-label": "Az összefoglaló hossza (karakter)",
+                "excerpt-length": {
+                    "label": "",
+                    "help": ""
+                },
                 "rich-excerpts": "Jelenjenek meg a formázások (használd elővigyázatosan)",
                 "excerpt-type": "Melyik hozzászólás jelenjen meg az összefoglalóban?",
                 "first-label": "Első hozzászólás",
-                "last-label": "Utolsó hozzászólás"
+                "last-label": "Utolsó hozzászólás",
+                "tags-enabled": "",
+                "rich-excerpts.label": "",
+                "rich-excerpts.help": "",
+                "excerpt-type.label": "",
+                "excerpt-type.help": "",
+                "excerpt-label": "Az összefoglaló hossza (karakter)"
             }
         },
         "forum": {

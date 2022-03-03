@@ -20,6 +20,7 @@ return [
 	]),
 	'az' => getComponents(),
 	'cs' => getComponents(),
+	'da' => getComponents(),
 	'de' => getComponents([
 		// translations included in extension
 		'!tpokorra-post-notification',
@@ -59,6 +60,7 @@ return [
 	]),
 	'ja' => getComponents(),
 	'ka' => getComponents(),
+	'ko' => getComponents(),
 	'lt' => getComponents(),
 	'lv' => getComponents(),
 	'ml' => getComponents(),
@@ -69,9 +71,13 @@ return [
 	'pl' => getComponents(),
 	'pt' => getComponents(),
 	'pt_BR' => getComponents(),
-	'ru' => getComponents(),
+	'ru' => getComponents([
+		// translations included in extension
+		'!xelson-chat',
+	]),
 	'si' => getComponents(),
 	'sk' => getComponents(),
+	'sr' => getComponents(),
 	'sv' => getComponents(),
 	'ta' => getComponents(),
 	'te' => getComponents(),
@@ -88,6 +94,9 @@ return [
 		'!the-turk-regrole',
 	]),
 	'uz' => getComponents(),
-	'vi' => getComponents(),
+	'vi' => getComponents([
+		// translations included in extension
+		'!xelson-chat',
+	]),
 	'zh_Hans' => getComponents(),
 ];

@@ -2,8 +2,8 @@
     "afrux-forum-widgets-core": {
         "admin": {
             "settings": {
-                "prefer_data_with_initial_load": "",
-                "prefer_data_with_initial_load_help": ""
+                "prefer_data_with_initial_load": "Előnyben részesíti az összes widget adatainak betöltését az oldal kezdeti válaszával.",
+                "prefer_data_with_initial_load_help": "Ahelyett, hogy a widgetek adatait az oldal kezdeti betöltése után töltené be API-kérések küldésével, az adatok (ha lehetséges) az első betöltéssel együtt töltődnek be."
             }
         }
     }
