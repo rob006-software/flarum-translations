@@ -7,6 +7,10 @@
             },
             "settings": {
                 "set_on_registration_label": "Cho phép đặt ngày sinh khi đăng ký",
+                "required_label": "",
+                "required_help": "",
+                "min_age_label": "",
+                "min_age_help": "",
                 "date_format_label": "Định dạng ngày sinh",
                 "date_format_help": "Sử dụng định dạng <a>dayjs</a>. Để trống để sử dụng định dạng mặc định.",
                 "date_none_year_label": "Định dạng ngày sinh không có năm"
@@ -42,7 +46,8 @@
             }
         },
         "api": {
-            "invalid_dob_message": "Ngày sinh của bạn phải nhỏ hơn 100 tuổi."
+            "invalid_dob_message": "Ngày sinh của bạn phải nhỏ hơn 100 tuổi.",
+            "invalid_age_message": ""
         }
     }
 }

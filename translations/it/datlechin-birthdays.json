@@ -7,6 +7,10 @@
             },
             "settings": {
                 "set_on_registration_label": "Consenti impostazione compleanno durante registrazione",
+                "required_label": "",
+                "required_help": "",
+                "min_age_label": "",
+                "min_age_help": "",
                 "date_format_label": "Formato Data",
                 "date_format_help": "Usa il formato <a>moment.js</a> . Lascia vuoto per quello di default.",
                 "date_none_year_label": "Formato data senza anno"
@@ -42,7 +46,8 @@
             }
         },
         "api": {
-            "invalid_dob_message": "La tua data di nascità deve essere inferiore a 100 anni fa."
+            "invalid_dob_message": "La tua data di nascità deve essere inferiore a 100 anni fa.",
+            "invalid_age_message": ""
         }
     }
 }

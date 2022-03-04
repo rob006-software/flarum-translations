@@ -7,6 +7,10 @@
             },
             "settings": {
                 "set_on_registration_label": "Kayıt sırasında doğum günlerinin ayarlanmasına izin ver",
+                "required_label": "",
+                "required_help": "",
+                "min_age_label": "",
+                "min_age_help": "",
                 "date_format_label": "Tarih formatı",
                 "date_format_help": "<a>dayjs</a> tarih biçimini kullanın. Varsayılan biçimi kullanmak için boş bırakın.",
                 "date_none_year_label": "Yıl olmadan tarih formatı"
@@ -42,7 +46,8 @@
             }
         },
         "api": {
-            "invalid_dob_message": "Doğum tarihiniz 100 yaşından küçük olmalıdır."
+            "invalid_dob_message": "Doğum tarihiniz 100 yaşından küçük olmalıdır.",
+            "invalid_age_message": ""
         }
     }
 }
