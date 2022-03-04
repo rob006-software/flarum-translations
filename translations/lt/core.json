@@ -314,7 +314,7 @@
                 "replied_text": "{username} atsakė {ago}",
                 "started_text": "{username} sukūrė diskusiją {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# reply} other {# replies}}",
-                "unread_replies_a11y_label": "{count, plural, one {# unread reply} kiti {# unread replies}}. Žymėti kaip neskaitytus {count, plural, one {reply} other {replies}} kaip skaitytus."
+                "unread_replies_a11y_label": "{count, plural, one {# unread reply} other {# unread replies}}. Žymėti kaip neskaitytus {count, plural, one {reply} other {replies}} kaip skaitytus."
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -394,7 +394,7 @@
                 "now_link": "Dabar",
                 "original_post_link": "Orginalus pranešimas",
                 "unread_text": "{count} neperskaityti",
-                "viewing_text": "{index} iš {count} pranešimo|{index} iš {count} pranešimų"
+                "viewing_text": "{count, plural, one {{index} of {formattedCount} post} other {{index} of {formattedCount} posts}}"
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "Senas temos pavadinimas buvo: \"{old}\"",
@@ -502,7 +502,7 @@
             "error": {
                 "dependent_extensions_message": "Įskiepio {extension} išjungimas yra negalimas kol įskiepiai yra išjungti: {extensions}",
                 "generic_message": "Oops! Kažkas įvyko ne taip. Perkraukite puslapį iš naujo ir bandykite dar kartą.",
-                "missing_dependencies_message": "Įskiepio {extension} įjungimas yra negalimas kol {extensions} įskiepiai yra įjungti.",
+                "missing_dependencies_message": "Įskiepio {extension} įjungimas yra negalimas kol įskiepiai yra įjungti: {extensions}",
                 "not_found_message": "Prašomas šaltinis nerastas.",
                 "payload_too_large_message": "Naudingasis užklausos kiekis buvo per didelis.",
                 "permission_denied_message": "Šiam veiksmui atlikti neturite leidimo.",
@@ -529,8 +529,8 @@
                 "dismiss_a11y_label": "Atmesti įspėjimą"
             },
             "meta_titles": {
-                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} kiti {{pageTitle}: Puslapis # - {forumName}}}",
-                "without_page_title": "{pageNumber, plural, =1 {{forumName}} kiti {Puslapis # - {forumName}}}"
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Puslapis # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Puslapis # - {forumName}}}"
             },
             "modal": {
                 "close": "Uždaryti"
@@ -563,7 +563,7 @@
             "content": {
                 "javascript_disabled_message": "Ši svetainė geriausiai peržiūrima modernioje naršyklėje su įjungta „JavaScript“ funkcija.",
                 "load_error_message": "Kažkas nepavyko bandant įkelti pilną šios svetainės versiją. Pabandykite perkrauti šį puslapį.",
-                "loading_text": "Kraunama..."
+                "loading_text": "=> core.ref.loading"
             },
             "discussion": {
                 "next_page_button": "=> core.ref.next_page",
@@ -661,7 +661,7 @@
             "save_changes": "Išsaugoti pakeitimus",
             "settings": "Nustatymai",
             "sign_up": "Registracija",
-            "some_others": "{count} kitas|{count} kiti",
+            "some_others": "{count, plural, one {# other} other {# others}}",
             "start_a_discussion": "Pradėti temą",
             "username": "Prisijungimo vardas",
             "users": "Vartotojai",
