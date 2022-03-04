@@ -2,40 +2,40 @@
     "afrux-theme-base": {
         "admin": {
             "extensions": {
-                "title": "",
-                "description": ""
+                "title": "Plėtiniai",
+                "description": "Visų įdiegtų plėtinių sąrašas."
             },
             "extension": {
                 "sections": {
-                    "content": "",
-                    "permissions": ""
+                    "content": "Pagrindiniai nustatymai",
+                    "permissions": "Leidimai"
                 }
             },
             "header": {
-                "go_back": ""
+                "go_back": "Atgal į forumą"
             },
             "users": {
                 "grid": {
                     "columns": {
                         "avatar": {
-                            "title": ""
+                            "title": "Avataras"
                         }
                     }
                 }
             },
             "settings": {
-                "edit_footer_links": "",
-                "footer_description": "",
-                "footer_bottom_line": "",
-                "hero_banner": "",
-                "hero_banner_position": "",
+                "edit_footer_links": "Redaguoti Footer nuorodas",
+                "footer_description": "Footer aprašymas",
+                "footer_bottom_line": "Footer apatinė linija",
+                "hero_banner": "Sveiki atvykę į herojaus atvaizdas",
+                "hero_banner_position": "Herojaus atvaizdo CSS pozicija (pvz.: 'center top' or 'center 20%')",
                 "links_modal": {
-                    "add_group": "",
-                    "group_name": "",
-                    "group_title": "",
-                    "add_link": "",
-                    "link_url": "",
-                    "link_label": ""
+                    "add_group": "Nauja nuorodų grupė",
+                    "group_name": "Grupė {number} Vardas",
+                    "group_title": "Nuorodų grupės pavadinimas",
+                    "add_link": "Pridėti nuorodą",
+                    "link_url": "Nuorodos URL",
+                    "link_label": "Nuorodos etiketė"
                 }
             }
         }
