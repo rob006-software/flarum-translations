@@ -35,7 +35,7 @@ return [
 		'afrux-theme-base:tag' => 'https://raw.githubusercontent.com/afrux/flarum-theme-base/v0.1.6/locale/en.yml',
 	],
 	'afrux-forum-stats-widget' => [
-		'tag' => 'https://raw.githubusercontent.com/afrux/forum-stats-widget/v0.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/afrux/forum-stats-widget/v0.1.1/locale/en.yml',
 	],
 	'afrux-forum-widgets-core' => [
 		'tag' => 'https://raw.githubusercontent.com/afrux/forum-widgets-core/v0.1.6/locale/en.yml',
