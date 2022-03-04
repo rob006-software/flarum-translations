@@ -47,14 +47,14 @@
         },
         "forum": {
             "all_tags": {
-                "meta_description_text": "Visos etiketės",
+                "meta_description_text": "Visos žymės",
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
                 "bypass_requirements": "Apeiti žymos reikalavimus",
-                "choose_primary_placeholder": "Pasirinkite pagrindinę etiketę|Pasirinkite {count} pagrindines etiketes",
-                "choose_secondary_placeholder": "Pasirinkite dar 1 etiketę|Pasirinkite dar {count} etiketes",
-                "edit_title": "Redaguoti etiketes {title} temai",
+                "choose_primary_placeholder": "{count, plural, one {Choose a primary tag} other {Choose # primary tags}}",
+                "choose_secondary_placeholder": "{count, plural, one {Pasirinkite dar 1 žymą} other {Pasirinkite dar # žymas}}",
+                "edit_title": "Redaguoti žymes {title} temai",
                 "submit_button": "=> core.ref.okay",
                 "title": "Pasirinkite etiketes jūsų temai"
             },
@@ -76,7 +76,7 @@
                 "added_and_removed_tags_text": "{username} pridėjo {tagsAdded} šias ir pašalino {tagsRemoved} šias etiketes.",
                 "added_tags_text": "{username} pridėjo {tagsAdded} šias etiketes.",
                 "removed_tags_text": "{username} pašalino {tagsRemoved} šias etiketes.",
-                "tags_text": "Etiketė {tags}|Etiketės {tags}"
+                "tags_text": "{count, plural, one {{tags} žyma} other {{tags} žymės}}"
             },
             "tag": {
                 "meta_description_text": "Visos temos su {tag} etikete"
@@ -87,7 +87,7 @@
         },
         "ref": {
             "name": "Pavadinimas",
-            "tags": "Žymos"
+            "tags": "Žymės"
         }
     }
 }
