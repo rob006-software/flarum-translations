@@ -99,8 +99,8 @@
                 "bbcode-image_description": "Näyttää kuvan käyttäen BBCodea. <strong>Sinulla pitää olla flarum/bbcode lisäosa asennettuna, jotta tämä toimii.</strong> Ei latausta, ei tilastoja ja ei hotlink suojausta.\n",
                 "just-url": "Vain osoite",
                 "just-url_description": "Asettaa vain kuvan osoitteen. Näyttäminen voidaan toteuttaa mulla lisäosalla. Ei latausta, ei tilastoja eikä hotlink suojausta.\n",
-                "text-preview": "",
-                "text-preview_description": ""
+                "text-preview": "Tekstin esikatselu",
+                "text-preview_description": "Asettaa esikatselun (ensimmäiset 5 riviä) tekstitiedostosta. Tämän kanssa tulee mahdollisuus nähdä koko tiedoston sisältö.\n"
             },
             "upload_methods": {
                 "aws-s3": "S3/Yhteensopiva",
@@ -145,11 +145,11 @@
                 "max_size": "Yli {max} kb siirrot eivät ole sallittuja."
             },
             "text_preview": {
-                "expand": "",
-                "collapse": "",
-                "error": "",
-                "no_snippet_preview": "",
-                "no_snippet": ""
+                "expand": "Laajenna esikatselu",
+                "collapse": "Pienennä esikatselu",
+                "error": "Virhe tiedoston esikatselussa. Se voi olla poistettu tai annettu tiedoston ID on virheellinen.\n",
+                "no_snippet_preview": "<esikatselu tulee tähän>",
+                "no_snippet": "<ei esikatselua saatavilla>"
             }
         },
         "api": {
