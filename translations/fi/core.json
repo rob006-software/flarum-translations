@@ -506,11 +506,11 @@
             },
             "debug_button": "Vianetsintä",
             "alert": {
-                "dismiss_a11y_label": ""
+                "dismiss_a11y_label": "Poista ilmoitus"
             },
             "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Sivu # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Sivu # - {forumName}}}"
             },
             "modal": {
                 "close": "Sulje"
