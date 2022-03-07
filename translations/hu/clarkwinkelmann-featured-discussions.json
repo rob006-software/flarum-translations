@@ -2,53 +2,53 @@
     "clarkwinkelmann-featured-discussions": {
         "admin": {
             "settings": {
-                "schedule": "Időzítés (CRON syntax)",
+                "schedule": "Ütemezés (CRON szintaxis)",
                 "duration": "Alapértelmezett időtartam (másodperc)",
                 "eventPost": "Bejegyzés létrehozása az ütemezés módosításakor"
             },
             "permissions": {
-                "feature": "Kiemelt beszélgetések kezelése"
+                "feature": "Kiemelt témák kezelése"
             }
         },
         "forum": {
             "modal": {
-                "title": "Kiemelt témák",
+                "title": "Téma kiemelése",
                 "fields": {
-                    "from": "Tól",
-                    "until": "Előtt"
+                    "from": "Kezdet",
+                    "until": "Befejezés"
                 },
                 "from": {
                     "not": "Nem kiemelt",
-                    "next": "Következő slot",
+                    "next": "Következő időszak",
                     "manual": "Kézi dátum"
                 },
                 "until": {
-                    "auto": "Automata",
+                    "auto": "Automatikus",
                     "manual": "Kézi dátum"
                 },
                 "action": {
-                    "cancel": "Mégsem",
+                    "cancel": "Mégse",
                     "submit": "Küldés"
                 }
             },
             "controls": {
-                "feature": "Kiemelt téma"
+                "feature": "Téma kiemelése"
             },
             "badge": "Kiemelt",
             "nav": {
-                "schedule": "Kiemelés időzítése"
+                "schedule": "Kiemelés ütemezése"
             },
             "schedule": {
-                "help": "Húzza át a beszélgetéseket az oldalon vagy egy másik ablakból az ütemezésük módosításához. Az ütemezés eltávolításához használja a 3 pontos menüt\n",
-                "drop-here": "Húzd ide az időzítésért",
-                "drop-error": "Érvénytelen téma link",
+                "help": "Húzza át a beszélgetéseket az oldalon vagy egy másik ablakból az ütemezésük módosításához. Az ütemezés eltávolításához használja a 3 pontos menüt.\n",
+                "drop-here": "Húzza ide az ütemezéshez",
+                "drop-error": "Érvénytelen témahivatkozás",
                 "empty": "Nincs téma",
                 "custom": "Egyéni"
             },
             "post": {
-                "scheduled": "Ütemezve kiemelt témának {from} -tól eddig: {until}",
-                "unscheduled": "Nincs ütemezve",
-                "auto": ""
+                "scheduled": "Kiemelt témának ütemezve {from} és {until} között",
+                "unscheduled": "Már nincs kiemeltnek ütemezve",
+                "auto": "(automatikus)"
             }
         }
     }
