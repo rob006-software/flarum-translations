@@ -1,44 +1,44 @@
 {
     "fof-oauth": {
         "admin": {
-            "configure_button_label": "Konfigurálás a FoF OAuth segítségével",
+            "configure_button_label": "Beállítás FoF OAuth használatával",
             "settings": {
-                "only_icons_label": "Csak az ikonok mutatása (más elrendezés)",
+                "only_icons_label": "Csak a bejelentkezési gombikonok megjelenítése (alternatív elrendezés)",
                 "providers": {
-                    "callback_url_text": "Ha szükség, a visszatérő url-t állítsd erre: {url}.",
+                    "callback_url_text": "Ha szükséges, a visszahívási URL-t állítsa erre: {url}.",
                     "discord": {
-                        "description": "Készíts egy app-ot {link}. Add meg a visszatérő URL-t az OAuth2 fülben.",
+                        "description": "Hozzon létre egy alkalmazást itt: {link}. Adja meg a visszahívási URL-t az OAuth2 lapon.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
                     "facebook": {
-                        "description": "Hozd létre az app-ot: {link}.",
+                        "description": "Hozzon létre egy alkalmazást itt: {link}.",
                         "app_id_label": "=> fof-oauth.ref.settings.app_id",
                         "app_secret_label": "=> fof-oauth.ref.settings.app_secret"
                     },
                     "github": {
-                        "description": "Hozz létre egy OAuth app-ot: {link}.",
+                        "description": "Hozzon létre egy alkalmazást itt: {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
                     "gitlab": {
-                        "description": "Hozd létre az app-ot it: {link}. Give the application the <code>read_user</code> scope.",
+                        "description": "Hozzon létre egy alkalmazást itt: {link}. Adja meg az alkalmazásnak a <code>read_user</code> hatókört.",
                         "client_id_label": "=> fof-oauth.ref.settings.app_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.app_secret",
                         "domain_label": "GitLab domén"
                     },
                     "twitter": {
-                        "description": "Hozzon létre egy alkalmazást a {link} címen. Be kell állítani az Általános Szerződési Feltételek URL-jét és az Adatvédelmi irányelvek URL-jét. Ezután add hozzá az e-mail kérési engedélyt.",
-                        "api_key_label": "API kulcs",
-                        "api_secret_label": "API titkos kulcs"
+                        "description": "Hozzon létre egy alkalmazást itt: {link}. Be kell állítani az Általános Szerződési Feltételek URL-jét és az Adatvédelmi irányelvek URL-jét. Ezután adja hozzá az e-mail kérési engedélyt.",
+                        "api_key_label": "API kulcsa",
+                        "api_secret_label": "API titka"
                     },
                     "google": {
-                        "description": "Hozz létre egy app-ot itt: {link}.",
+                        "description": "Hozzon létre egy alkalmazást itt: {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
                     "linkedin": {
-                        "description": "Hozz létre egy app-ot itt: {link}.",
+                        "description": "Hozzon létre egy alkalmazást itt: {link}.",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
                         "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     }
@@ -47,7 +47,7 @@
         },
         "forum": {
             "log_in": {
-                "with_button": "Bejelentkezés {provider}-al",
+                "with_button": "Bejelentkezés ezzel: {provider}",
                 "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_github_button": "=> fof-oauth.forum.log_in.with_button",
@@ -66,11 +66,11 @@
                 "twitter": "=> fof-oauth.lib.providers.twitter"
             },
             "signup": {
-                "username_help": "Válassz egy felhasználónevet, hogy itt ismert legyél"
+                "username_help": "Válasszon egy itteni felhasználónevet"
             },
             "error": {
-                "bad_verification_code": "Hibás vagy lejárt token. Kérlek próbáld újra.",
-                "invalid_state": "Érvénytelen státus. Kérlek próbáld újra."
+                "bad_verification_code": "Hibás vagy lejárt ellenőrzési token. Próbálja újra.",
+                "invalid_state": "Érvénytelen állapot. Próbálja újra."
             }
         },
         "lib": {
@@ -86,10 +86,10 @@
         },
         "ref": {
             "settings": {
-                "app_id": "Alkalmazás ID",
-                "app_secret": "Alkalmazás titkos kulcs",
-                "client_id": "Kliens ID",
-                "client_secret": "Kliens titkos kulcs"
+                "app_id": "Alkalmazásazonosító",
+                "app_secret": "Alkalmazás titka",
+                "client_id": "Kliensazonosító",
+                "client_secret": "Kliens titka"
             }
         }
     }
