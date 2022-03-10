@@ -832,9 +832,6 @@ return [
 	'reflar-recache' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/reflar-recache.yml',
 	],
-	'serakoi-flarumdiscordtheme' => [
-		'tag' => 'https://raw.githubusercontent.com/Serakoi/flarum-discord-theme-2/0.1.0/resources/locale/en.yml',
-	],
 	'serakoi-flarumstaffbadge' => [
 		'tag' => 'https://raw.githubusercontent.com/Serakoi/flarumstaffbadge/1.2.1/resources/locale/en.yml',
 	],
