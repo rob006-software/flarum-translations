@@ -101,8 +101,8 @@ This repository contains raw translations data used by [Weblate](https://weblate
 		</td>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/B3K4682/lang-georgian">Georgian</a></td>
-		<td><a href="https://github.com/B3K4682">B3K4</a></td>
+		<td><a href="https://github.com/flarum-lang/georgian">Georgian</a></td>
+		<td> - </td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/ka.html" title="Click to see detailed translation status for each extension">
 				<img src="https://weblate.rob006.net/widgets/flarum/ka/svg-badge.svg" alt="detailed translation status" />
