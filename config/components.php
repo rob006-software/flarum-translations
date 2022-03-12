@@ -50,7 +50,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/afrux/top-posters-widget/v0.1.4/locale/en.yml',
 	],
 	'antoinefr-money' => [
-		'tag' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-money/v1.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-money/v1.2.0/locale/en.yml',
 	],
 	'antoinefr-online' => [
 		'tag' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-online/v1.0.1/locale/en.yml',
