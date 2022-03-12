@@ -667,9 +667,6 @@ return [
 	'justoverclock-pwgen' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-pwgen/1.0.0/resources/locale/en.yml',
 	],
-	'justoverclock-readmore' => [
-		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-readmore/1.0.4/resources/locale/en.yml',
-	],
 	'justoverclock-realtimecode' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-realtimecode/1.0.0/resources/locale/en.yml',
 	],
