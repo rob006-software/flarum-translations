@@ -579,7 +579,6 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`justoverclock-newsletter`](https://weblate.rob006.net/projects/flarum/justoverclock-newsletter) | [`justoverclock/flarum-ext-newsletter`](https://github.com/justoverclockl/flarum-ext-newsletter) |
 | [`justoverclock-purify`](https://weblate.rob006.net/projects/flarum/justoverclock-purify) | [`justoverclock/flarum-ext-purify`](https://github.com/justoverclockl/flarum-ext-purify) |
 | [`justoverclock-pwgen`](https://weblate.rob006.net/projects/flarum/justoverclock-pwgen) | [`justoverclock/flarum-ext-pwgen`](https://github.com/justoverclockl/flarum-ext-pwgen) |
-| [`justoverclock-readmore`](https://weblate.rob006.net/projects/flarum/justoverclock-readmore) | [`justoverclock/flarum-ext-readmore`](https://github.com/justoverclockl/flarum-ext-readmore) |
 | [`justoverclock-realtimecode`](https://weblate.rob006.net/projects/flarum/justoverclock-realtimecode) | [`justoverclock/flarum-ext-realtimecode`](https://github.com/justoverclockl/flarum-ext-realtimecode) |
 | [`justoverclock-socialcards`](https://weblate.rob006.net/projects/flarum/justoverclock-socialcards) | [`justoverclock/flarum-ext-socialcards`](https://github.com/justoverclockl/flarum-ext-socialcards) |
 | [`justoverclock-toastme`](https://weblate.rob006.net/projects/flarum/justoverclock-toastme) | [`justoverclock/flarum-ext-toastme`](https://github.com/justoverclockl/flarum-ext-toastme) |
