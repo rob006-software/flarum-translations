@@ -736,6 +736,9 @@ return [
 	'littlecxm-reply-to-see' => [
 		'tag' => 'https://raw.githubusercontent.com/littlecxm/flarum-reply-to-see/1.0.2/resources/locale/en.yml',
 	],
+	'liyanqwq-cravatar' => [
+		'tag' => 'https://raw.githubusercontent.com/liyanqwq/flarum-cravatar/v0.1.0/resources/locale/en.yml',
+	],
 	'maicol07-oidc-client' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/maicol07-oidc-client.yml',
 	],
