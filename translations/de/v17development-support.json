@@ -250,14 +250,14 @@
                     "filter": {
                         "status": {
                             "title": "Ticketstatus",
-                            "filter_count": "{count, plural, one {# filter} other {# filter}}"
+                            "filter_count": "# Filter"
                         },
                         "language": {
                             "any": "Alle Sprachen"
                         },
                         "assignees": {
                             "title": "Nach Beauftragten filtern",
-                            "search": "Beauftragter suchen",
+                            "search": "Beauftragten suchen",
                             "unassigned": "Nicht zugewiesen"
                         }
                     },
