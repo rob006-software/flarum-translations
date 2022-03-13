@@ -7,10 +7,10 @@
             },
             "settings": {
                 "set_on_registration_label": "Autoriser le paramétrage des anniversaires lors de l'inscription",
-                "required_label": "",
-                "required_help": "",
-                "min_age_label": "",
-                "min_age_help": "",
+                "required_label": "Saisie obligatoire des anniversaires",
+                "required_help": "Vous devez activer l'option Saisir à l'inscription pour que cette option fonctionne",
+                "min_age_label": "Âge minimum",
+                "min_age_help": "Âge minimum pour s'inscrire",
                 "date_format_label": "Format de date",
                 "date_format_help": "Utilisez le format de date de <a>dayjs</a>. Laissez vide pour utiliser le format par défaut.",
                 "date_none_year_label": "Format de date sans année"
@@ -46,8 +46,8 @@
             }
         },
         "api": {
-            "invalid_dob_message": "Votre date de naissance doit être inférieure à 100 ans.",
-            "invalid_age_message": ""
+            "invalid_dob_message": "Date de naissance invalide",
+            "invalid_age_message": "Votre âge doit être d'au moins {minAge} ans."
         }
     }
 }
