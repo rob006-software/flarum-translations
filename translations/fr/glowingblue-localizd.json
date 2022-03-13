@@ -2,14 +2,14 @@
     "glowingblue-localizd": {
         "admin": {
             "settings": {
-                "title": "",
-                "redirect_en": "",
-                "redirect_en_help": ""
+                "title": "Paramètres de localisation",
+                "redirect_en": "Rediriger l'anglais vers la langue par défaut du forum",
+                "redirect_en_help": "Cela vous permet effectivement de ne pas fournir une expérience en anglais dans le forum, mais permet au pack de langue anglaise de rester installé (pour que <code>fof/linguist</code> reconnaissent les clés, etc)"
             },
             "translation_key": {
-                "help": "",
-                "translate": "",
-                "modal_title": ""
+                "help": "Cette option est multilingue via <a>Linguist</a>.",
+                "translate": "Traduire",
+                "modal_title": "Ajouter des traductions avec Linguist"
             }
         }
     }
