@@ -443,7 +443,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/open-collective/1.0.0/resources/locale/en.yml',
 	],
 	'fof-pages' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pages/1.0.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pages/1.0.3/resources/locale/en.yml',
 	],
 	'fof-passport' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/passport/1.0.0/locale/en.yml',
