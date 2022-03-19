@@ -569,7 +569,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/country-flags/0.2.1/locale/en.yml',
 	],
 	'justoverclock-custom-header' => [
-		'tag' => 'https://raw.githubusercontent.com/justoverclockl/custom-header/0.1.4/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/custom-header/0.1.5/resources/locale/en.yml',
 	],
 	'justoverclock-custom-html-widget' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/custom-html-widget/0.1.4/locale/en.yml',
