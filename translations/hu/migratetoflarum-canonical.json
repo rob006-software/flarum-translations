@@ -4,22 +4,22 @@
             "settings": {
                 "step": {
                     "how_to": "Hogyan lehet engedélyezni a kanonikus átirányítást",
-                    "check_config_url": "Ellenőrizze, hogy a config.php fájlban megadott URL az Ön által preferált kanonikus URL címe",
-                    "admin_on_canonical": "Az adminisztrációs panel elérése a kanonikus URL címen keresztül",
+                    "check_config_url": "Ellenőrizze, hogy a config.php fájlban megadott URL, az Ön által előnyben részesített kanonikus URL-e (jelenleg: {url})",
+                    "admin_on_canonical": "Az adminisztrációs panel elérése a kanonikus URL-en keresztül",
                     "enable_temporary": "Engedélyezze az ideiglenes átirányítást és ellenőrizze, hogy minden működik-e",
                     "enable_permanent": "Állandó átirányítás engedélyezése",
-                    "suggestions": "Egyéb javaslatok, amelyeket ez a kiterjesztés nem érvényesít vagy nem fed le",
-                    "use_https": "HTTPS kanonikus URL használata",
+                    "suggestions": "Egyéb javaslatok, amelyeket ez a bővítmény nem érvényesít vagy nem fed le",
+                    "use_https": "Használjon HTTPS kanonikus URL-t",
                     "use_hsts": "Használja a HSTS-t a leminősítési támadások megelőzésére"
                 },
                 "field": {
                     "status": "Átirányítás típusa",
-                    "wrong_url": "A bővítmény beállításai akkor jelennek meg, ha a fórumot a kanonikus URL címen keresztül éri el"
+                    "wrong_url": "A bővítmény beállításai akkor jelennek meg, ha a fórumot a kanonikus URL-en keresztül éri el"
                 },
                 "option": {
                     "disabled": "Letiltva (a bővítmény nem csinál semmit)",
                     "302": "302 (ideiglenes átirányítás, tesztelés céljából)",
-                    "301": "301 (Állandó átirányítás, gyártáshoz)"
+                    "301": "301 (Állandó átirányítás, éles üzemhez)"
                 }
             }
         }
