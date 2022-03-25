@@ -686,6 +686,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`justoverclock-igdb-api`](https://weblate.rob006.net/projects/flarum/justoverclock-igdb-api) | [`justoverclock/igdb-api`](https://extiverse.com/extension/justoverclock/igdb-api) |
 | [`justoverclock-imdb-api`](https://weblate.rob006.net/projects/flarum/justoverclock-imdb-api) | [`justoverclock/imdb-api`](https://extiverse.com/extension/justoverclock/imdb-api) |
 | [`justoverclock-related-discussions`](https://weblate.rob006.net/projects/flarum/justoverclock-related-discussions) | [`justoverclock/related-discussions`](https://extiverse.com/extension/justoverclock/related-discussions) |
+| [`justoverclock-steam-api`](https://weblate.rob006.net/projects/flarum/justoverclock-steam-api) | [`justoverclock/steam-api`](https://extiverse.com/extension/justoverclock/steam-api) |
 | [`justoverclock-theaudiodb-api`](https://weblate.rob006.net/projects/flarum/justoverclock-theaudiodb-api) | [`justoverclock/theaudiodb-api`](https://extiverse.com/extension/justoverclock/theaudiodb-api) |
 | [`justoverclock-website-live-screenshot`](https://weblate.rob006.net/projects/flarum/justoverclock-website-live-screenshot) | [`justoverclock/website-live-screenshot`](https://extiverse.com/extension/justoverclock/website-live-screenshot) |
 | [`kilowhat-audit-pro`](https://weblate.rob006.net/projects/flarum/kilowhat-audit-pro) | [`kilowhat/flarum-ext-audit-pro`](https://extiverse.com/extension/kilowhat/flarum-ext-audit-pro) |
