@@ -679,6 +679,9 @@ return [
 	'justoverclock-socialcards' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-socialcards/1.0.0/resources/locale/en.yml',
 	],
+	'justoverclock-steam-api' => [
+		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/justoverclock-steam-api.yml',
+	],
 	'justoverclock-theaudiodb-api' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/justoverclock-theaudiodb-api.yml',
 	],
