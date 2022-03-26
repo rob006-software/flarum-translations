@@ -3,17 +3,17 @@
         "admin": {
             "permissions": {
                 "edit_own_birthday_label": "Saját születésnap szerkesztése",
-                "view_birthday_label": ""
+                "view_birthday_label": "Születésnap megtekintése"
             },
             "settings": {
                 "set_on_registration_label": "Születésnap beállításának engedélyezése regisztrációkor",
-                "required_label": "",
-                "required_help": "",
-                "min_age_label": "",
-                "min_age_help": "",
-                "date_format_label": "Dátum formátum",
-                "date_format_help": "A <a>dayjs</a> dátum formátum használata. hagyja üresen az alapértelmezett formátumért.",
-                "date_none_year_label": "Dátum formátuma év nélkül"
+                "required_label": "A születésnap megadásának megkövetelése",
+                "required_help": "Engedélyeznie kell a regisztrációkori megadást, hogy ez a lehetőség működjön",
+                "min_age_label": "Minimális életkor",
+                "min_age_help": "Regisztráció minimális életkora",
+                "date_format_label": "Dátumformátum",
+                "date_format_help": "A <a>dayjs</a> dátumformátum használata. Az alapértelmezett formátum használatához hagyja üresen.",
+                "date_none_year_label": "Év nélküli dátumformátuma"
             }
         },
         "forum": {
@@ -22,32 +22,32 @@
                 "age_text": "Életkor: {age}"
             },
             "header": {
-                "edit_dob_button": "Születésnap szerkesztése"
+                "edit_dob_button": "Születési dátum szerkesztése"
             },
             "change_dob": {
-                "title": "Születésnap szerkesztése",
-                "date_of_birth_text": "Születésnap",
+                "title": "Születési dátum szerkesztése",
+                "date_of_birth_text": "Születési dátum",
                 "submit_button": "=> core.ref.save_changes",
                 "show_dob_date": "",
                 "show_dob_year": "",
                 "show_dob_year_help": ""
             },
             "settings": {
-                "change_dob_label": "Születésnap szerkesztése",
-                "dob_heading": "Születésnap",
-                "show_dob_date_label": "Mutassa a napot és hónapot",
-                "show_dob_year_label": "Mutassa az évet",
-                "show_dob_year_help": "Ez megengedi a felhasználóknak hogy láthassák hány éves.",
+                "change_dob_label": "Születési dátum szerkesztése",
+                "dob_heading": "Születési dátum",
+                "show_dob_date_label": "A nap és hónap megjelenítése",
+                "show_dob_year_label": "Az év megjelenítése",
+                "show_dob_year_help": "Ez megengedi a felhasználóknak, hogy láthassák hány éves.",
                 "birthday_heading": ""
             },
             "edit_user": {
-                "dob_heading": "Születésnap",
+                "dob_heading": "Születési dátum",
                 "birthdays_heading": ""
             }
         },
         "api": {
-            "invalid_dob_message": "A születésnapja nem lehet régebbi mint 100 év.",
-            "invalid_age_message": ""
+            "invalid_dob_message": "Érvénytelen születési dátum",
+            "invalid_age_message": "Legalább {minAge} évesnek kell lennie."
         }
     }
 }
