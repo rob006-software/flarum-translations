@@ -5,8 +5,8 @@
                 "enable_cache": "Redis önbelleğini etkinleştir",
                 "enable_redis_sessions": "Redis oturumlarını etkinleştirin (bu ayar değiştirildikten sonra tüm kullanıcıların oturumu kapatılacaktır)",
                 "enable_queue": "Redis queue etkinleştir",
-                "horizon_config": "",
-                "horizon_help_text": ""
+                "horizon_config": "Ufuk yapılandırması (biçim: JSON).",
+                "horizon_help_text": "Bu, <code>(new \\Blomstra\\Horizon\\Extend\\Horizon)->config(...))</code>'a iletilecektir."
             }
         }
     }
