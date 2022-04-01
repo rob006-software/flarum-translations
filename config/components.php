@@ -301,6 +301,9 @@ return [
 	'flamarkt-matomo' => [
 		'tag' => 'https://raw.githubusercontent.com/flamarkt/matomo/0.1.0/resources/locale/en.yml',
 	],
+	'flamarkt-taxonomies' => [
+		'tag' => 'https://raw.githubusercontent.com/flamarkt/taxonomies/0.1.0/resources/locale/en.yml',
+	],
 	'flarum-akismet' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/akismet/v1.2.0/locale/en.yml',
 	],
