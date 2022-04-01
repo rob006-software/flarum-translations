@@ -131,7 +131,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-carving-contest/1.0.0/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-catch-the-fish' => [
-		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/catch-the-fish/1.1.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/catch-the-fish/1.1.3/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-clippy' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-clippy/1.0.0/resources/locale/en.yml',
@@ -164,13 +164,13 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-follow-tags-prompt/1.0.1/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-group-invitation' => [
-		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-group-invitation/1.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-group-invitation/1.0.1/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-group-list' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-group-list/1.0.0/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-likes-received' => [
-		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-likes-received/1.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-likes-received/1.0.1/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-mailing' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-mailing/1.0.0/resources/locale/en.yml',
@@ -295,6 +295,9 @@ return [
 	'ffans-clipboardjs' => [
 		'tag' => 'https://raw.githubusercontent.com/FFans/clipboardjs/v1.0.0/resources/locale/en.yml',
 	],
+	'flamarkt-backoffice' => [
+		'tag' => 'https://raw.githubusercontent.com/flamarkt/backoffice/0.1.1/resources/locale/en.yml',
+	],
 	'flamarkt-matomo' => [
 		'tag' => 'https://raw.githubusercontent.com/flamarkt/matomo/0.1.0/resources/locale/en.yml',
 	],
@@ -380,7 +383,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/disposable-emails/1.0.0/locale/en.yml',
 	],
 	'fof-doorman' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/doorman/1.0.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/doorman/1.1.0/resources/locale/en.yml',
 	],
 	'fof-drafts' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/drafts/1.0.3/resources/locale/en.yml',
