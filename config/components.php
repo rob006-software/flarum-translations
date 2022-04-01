@@ -298,6 +298,9 @@ return [
 	'flamarkt-backoffice' => [
 		'tag' => 'https://raw.githubusercontent.com/flamarkt/backoffice/0.1.1/resources/locale/en.yml',
 	],
+	'flamarkt-matomo' => [
+		'tag' => 'https://raw.githubusercontent.com/flamarkt/matomo/0.1.0/resources/locale/en.yml',
+	],
 	'flarum-akismet' => [
 		'tag' => 'https://raw.githubusercontent.com/flarum/akismet/v1.2.0/locale/en.yml',
 	],
