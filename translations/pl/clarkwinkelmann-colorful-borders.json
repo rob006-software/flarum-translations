@@ -13,12 +13,11 @@
         },
         "admin": {
             "permissions": {
-                "heading": "Kolorowe ramki",
                 "editOwnPost": "Edytowanie stylów własnych postów",
-                "editAnyPost": "Edytowanie stylów wszystkich postów"
+                "editAnyPost": "Edytowanie stylów wszystkich postów",
+                "heading": "Kolorowe ramki"
             },
             "settings": {
-                "title": "Ustawienia kolorowych ramek",
                 "enableBorderColor": "Konfigurowalny kolor obramowania",
                 "enableBackgroundColor": "Konfigurowalny kolor tła",
                 "enableTextColor": "Konfigurowalny kolor tekstu",
@@ -31,7 +30,8 @@
                     "all": "Dowolny kolor",
                     "custom": "Niestandardowa lista kolorów",
                     "custom-help": "Rozdzielona przecinkami lista wartości #hex lub rgb()"
-                }
+                },
+                "title": "Ustawienia kolorowych ramek"
             }
         }
     }
