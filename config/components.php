@@ -383,7 +383,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/default-group/1.0.1/resources/locale/en.yml',
 	],
 	'fof-discussion-language' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/discussion-language/1.2.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/discussion-language/1.2.3/resources/locale/en.yml',
 	],
 	'fof-disposable-emails' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/disposable-emails/1.0.0/locale/en.yml',
