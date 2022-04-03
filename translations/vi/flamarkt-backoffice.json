@@ -1,35 +1,35 @@
 {
     "flamarkt-backoffice": {
         "admin": {
-            "settingsInBackoffice": ""
+            "settingsInBackoffice": "Cài đặt trong backoffice"
         },
         "backoffice": {
-            "settingsNotAvailableForNonAdmin": "",
+            "settingsNotAvailableForNonAdmin": "Tiện ích mở rộng này có cài đặt, nhưng chỉ tài khoản quản trị viên mới có thể xem và chỉnh sửa chúng.",
             "nav": {
-                "dashboard": "",
-                "users": "",
-                "searchPlaceholder": ""
+                "dashboard": "Bảng điều khiển",
+                "users": "Người dùng",
+                "searchPlaceholder": "=> core.admin.nav.search_placeholder"
             },
             "users": {
-                "title": "",
-                "new": "",
+                "title": "Người dùng",
+                "new": "Tạo người dùng",
                 "head": {
-                    "email": ""
+                    "email": "Email"
                 },
                 "field": {
-                    "username": "",
-                    "email": "",
-                    "password": ""
+                    "username": "Tên người dùng",
+                    "email": "Email",
+                    "password": "Mật khẩu"
                 }
             },
             "permissions": {
-                "backoffice": ""
+                "backoffice": "Sử dụng backoffice"
             }
         },
         "lib": {
             "header": {
-                "admin_button": "",
-                "backoffice_button": ""
+                "admin_button": "=> core.forum.header.admin_button",
+                "backoffice_button": "Backoffice"
             }
         }
     }
