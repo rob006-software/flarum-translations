@@ -2,13 +2,13 @@
     "flamarkt-matomo": {
         "admin": {
             "settings": {
-                "url": "",
-                "siteId": "",
-                "trackAccounts": "",
+                "url": "Tên miền hoặc URL máy chủ Matomo",
+                "siteId": "ID trang",
+                "trackAccounts": "Theo dõi tài khoản người dùng cá nhân",
                 "trackAccountsOptions": {
-                    "none": "",
-                    "username": "",
-                    "email": ""
+                    "none": "Không theo dõi",
+                    "username": "Theo dõi theo tên người dùng",
+                    "email": "Theo dõi theo email"
                 }
             }
         }
