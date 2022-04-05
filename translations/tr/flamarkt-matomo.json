@@ -2,13 +2,13 @@
     "flamarkt-matomo": {
         "admin": {
             "settings": {
-                "url": "",
-                "siteId": "",
-                "trackAccounts": "",
+                "url": "Matomo sunucu etki alanı veya URL'si",
+                "siteId": "Site kimliği",
+                "trackAccounts": "Bireysel kullanıcı hesaplarını takip edin",
                 "trackAccountsOptions": {
-                    "none": "",
-                    "username": "",
-                    "email": ""
+                    "none": "Takip etmeyin",
+                    "username": "Kullanıcı adına göre takip edin",
+                    "email": "E-posta ile takip edin"
                 }
             }
         }
