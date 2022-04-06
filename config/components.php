@@ -371,7 +371,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/best-answer/1.1.9/resources/locale/en.yml',
 	],
 	'fof-byobu' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/byobu/1.1.3/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/byobu/1.1.4/resources/locale/en.yml',
 	],
 	'fof-cookie-consent' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/cookie-consent/1.1.0/resources/locale/en.yml',
