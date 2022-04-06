@@ -428,7 +428,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/impersonate/1.0.1/resources/locale/en.yml',
 	],
 	'fof-linguist' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/linguist/1.0.3/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/linguist/1.0.4/resources/locale/en.yml',
 	],
 	'fof-links' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/links/1.0.3/locale/en.yml',
