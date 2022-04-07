@@ -2,62 +2,62 @@
     "kilowhat-rich-embeds": {
         "admin": {
             "settings": {
-                "layout": "",
+                "layout": "Düzen",
                 "layoutOptions": {
-                    "inline": "",
-                    "block": "",
-                    "separated": ""
+                    "inline": "Çizgide",
+                    "block": "Blok",
+                    "separated": "Ayrılmış"
                 },
-                "position": "",
+                "position": "Konum",
                 "positionOptions": {
-                    "replace": "",
-                    "above": "",
-                    "below": ""
+                    "replace": "Bağlantıyı değiştir",
+                    "above": "Bağlantının üstünde",
+                    "below": "Aşağıdaki bağlantı"
                 },
-                "style": "",
+                "style": "Stil",
                 "styleOptions": {
-                    "vertical": "",
-                    "horizontal": ""
+                    "vertical": "Dikey",
+                    "horizontal": "Yatay"
                 },
-                "imageProxy": "",
-                "imageProxyHelp": "",
-                "cacheProxy": "",
-                "cacheProxyHelp": "",
-                "withoutOpengraph": "",
-                "withoutOpengraphHelp": "",
-                "blacklist": "",
-                "blacklistHelp": "",
-                "whitelist": "",
-                "whitelistHelp": ""
+                "imageProxy": "Görüntü Proxy'si",
+                "imageProxyHelp": "Tüm resimler, ziyaretçi tarayıcısı tarafından alınmak yerine Flarum aracılığıyla proxy'ye alınacaktır.",
+                "cacheProxy": "Proxy'li görüntüleri önbelleğe alın",
+                "cacheProxyHelp": "Görüntüler, HTTP başlıklarına göre diske önbelleğe alınacaktır",
+                "withoutOpengraph": "OpenGraph verileri olmayan sayfalar için zengin yerleştirmeler oluşturun",
+                "withoutOpengraphHelp": "Başlık, açıklama ve resim, sayfa HTML'sinden çıkarılacaktır.",
+                "blacklist": "URL Kara Listesi",
+                "blacklistHelp": "Biçim için belgelere bakın. Bu URL'ler hiçbir zaman zengin yerleştirmelere sahip olmayacak ve görüntü proxy'si aracılığıyla proxy oluşturulamaz",
+                "whitelist": "URL Beyaz Listesi",
+                "whitelistHelp": "Biçim için belgelere bakın. Bir değer ayarlanırsa, diğer tüm URL'ler kara listeye alınmış olarak kabul edilecektir."
             },
             "permissions": {
-                "useOnOwnPost": "",
-                "disableOnOwnPost": "",
-                "refreshOnOwnPost": "",
-                "disableOnAnyPost": "",
-                "refreshOnAnyPost": ""
+                "useOnOwnPost": "Kendi gönderisinde yerleştirme kullan",
+                "disableOnOwnPost": "Kendi gönderisine yerleştirmeleri devre dışı bırak",
+                "refreshOnOwnPost": "Kendi gönderisindeki yerleştirmeleri yenile",
+                "disableOnAnyPost": "Herhangi bir gönderide yerleştirmeleri devre dışı bırakın",
+                "refreshOnAnyPost": "Herhangi bir gönderideki yerleştirmeleri yenileyin"
             },
             "preview": {
-                "title": "",
-                "refresh": "",
-                "loading": ""
+                "title": "Önizleme",
+                "refresh": "Yenile",
+                "loading": "Yükleniyor..."
             }
         },
         "lib": {
             "embed": {
-                "altFavicon": "",
-                "altImageFallback": ""
+                "altFavicon": "{website} Simge",
+                "altImageFallback": "{website} Opengraph Görseli"
             },
             "controls": {
-                "refresh": "",
-                "disable": "",
-                "disableConfirmation": ""
+                "refresh": "Veriyi Yenile",
+                "disable": "Bu yayındaki yerleştirmeleri devre dışı bırak",
+                "disableConfirmation": "Bu gönderideki tüm yerleştirmeler kaldırılacaktır. Devam edelim mi?"
             }
         },
         "api": {
             "error": {
-                "blacklistedUrl": "",
-                "invalidUrl": ""
+                "blacklistedUrl": "URL {url}, yerleştirme için beyaz listeye alınmadı.",
+                "invalidUrl": "URL {url} geçerli değil."
             }
         }
     }
