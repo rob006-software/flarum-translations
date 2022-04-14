@@ -1,0 +1,29 @@
+{
+    "sycho-private-facade": {
+        "admin": {
+            "settings": {
+                "force_redirect": "Misafirleri Giriş/Kayıt Arayüzüne Yönlendirmeye Zorlayın",
+                "header_layout": {
+                    "options": {
+                        "show_header": "Üstbilgi Göster",
+                        "show_only_logo": "Yalnızca Logoyu Göster",
+                        "hide_secondary_items": "İkincil Öğeleri Gizle (Arama, Giriş ve Kayıt bağlantıları)"
+                    },
+                    "title": "Üstbilgi Düzeni"
+                },
+                "illustration_path": "İllüstrasyon Resmi",
+                "primary_color_bg": "Birincil Renk Arka Planı Kullanın",
+                "route_exclusions": "Yeniden Yönlendirmeden Giriş/Kayıt Sayfasına Dışlanacak Yollar.",
+                "screen_banner_description": "Ekran Mesajı",
+                "screen_banner_heading": "Ekran Afişi",
+                "screen_banner_title": "Ekran Başlığı",
+                "use_welcome_hero_text": "Hoş Geldiniz Banner Metni Kullanın"
+            }
+        },
+        "forum": {
+            "log_in_label": "=> core.ref.log_in",
+            "or_label": "veya",
+            "sign_up_label": "=> core.ref.sign_up"
+        }
+    }
+}

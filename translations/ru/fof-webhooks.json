@@ -2,117 +2,117 @@
     "fof-webhooks": {
         "actions": {
             "discussion": {
-                "started": "",
+                "started": "Создание дискуссии `{1}`",
                 "renamed": {
-                    "title": "",
-                    "description": ""
+                    "title": "Изменение дискуссии `{1}`",
+                    "description": "Новое название: {1}"
                 },
-                "hidden": "",
-                "restored": "",
-                "deleted": ""
+                "hidden": "Скрытие дискуссии `{1}`",
+                "restored": "Восстановление дискуссии `{1}`",
+                "deleted": "Удаление дискуссии `{1}`"
             },
             "group": {
-                "created": "",
-                "renamed": "",
-                "deleted": ""
+                "created": "Создание группы `{1}`",
+                "renamed": "Изменение группы на `{1}`",
+                "deleted": "Удаление группы `{1}`"
             },
             "post": {
                 "posted": "Новое сообщение в `{1}`",
-                "revised": "Исправлено сообщение в `{1}`",
-                "hidden": "",
-                "restored": "",
-                "deleted": "Удалено сообщение в `{1}`"
+                "revised": "Изменение сообщения в `{1}`",
+                "hidden": "Скрытие сообщения в `{1}`",
+                "restored": "Восстановление сообщения в `{1}`",
+                "deleted": "Удаление сообщения в `{1}`"
             },
             "user": {
-                "registered": "Зарегистрирован новый пользователь",
+                "registered": "Регистрация нового пользователя",
                 "renamed": {
-                    "title": "Имя пользователя изменено в `{1}`",
-                    "description": "Новое имя пользователя: {1}"
+                    "title": "Изменение имени пользователя `{1}`",
+                    "description": "Новое имя: {1}"
                 },
-                "deleted": "Удален пользователь `{1}`"
+                "deleted": "Удаление пользователя `{1}`"
             }
         },
         "adapters": {
             "errors": {
-                "404": ""
+                "404": "Webhook не найден"
             }
         },
         "admin": {
             "errors": {
-                "service_not_found": "",
-                "url_invalid": "",
-                "tag_invalid": ""
+                "service_not_found": "Сервис \"{service}\" не найден.",
+                "url_invalid": "Для выбранного сервиса введён некорректный URL.",
+                "tag_invalid": "Этот webhook ограничен некорректным тегом. Ограничение не применяется. Убедитесь, что это сделано специально."
             },
             "nav": {
-                "desc": ""
+                "desc": "Настройка исходящих webhook'ов для форума."
             },
             "settings": {
                 "debug_label": "Отладка",
-                "debug_help": "",
+                "debug_help": "Добавление дополнительной информации в журналы Flarum для обнаружения и исправления проблем, связанных с webhook'ами и событиями.",
                 "item": {
-                    "tag_any_label": ""
+                    "tag_any_label": "Любой"
                 },
                 "help": {
-                    "disabled": "",
-                    "general": "",
-                    "url": ""
+                    "disabled": "Этот webhook выключен, так как для него отсутствуют активные события.",
+                    "general": "Здесь Вы можете создавать, редактировать и удалять различные webhook'и своего сообщества.",
+                    "url": "Конечная точка webhook'а, которая будет выполняться"
                 },
                 "modal": {
-                    "title": "",
-                    "description": "",
-                    "use_plain_text_label": "",
-                    "max_post_content_length_label": "",
-                    "max_post_content_length_help": "",
-                    "extra_text_label": "",
-                    "extra_text_help": "",
-                    "group_label": "",
-                    "group_help": "",
-                    "events_label": ""
+                    "title": "Настройки webhook'а",
+                    "description": "Здесь Вы можете настроить события, на которые будет реагировать webhook.",
+                    "use_plain_text_label": "Использовать простой текст (без форматирования) в содержимом сообщения",
+                    "max_post_content_length_label": "Максимальная длина сообщения",
+                    "max_post_content_length_help": "Укажите число для ограничения содержания сообщения во всех событиях, связанных с публикацией. Укажите 0 или оставьте пустым для снятия ограничения.",
+                    "extra_text_label": "Дополнительный текст",
+                    "extra_text_help": "Текст, который будет добавлен при отправки webhook'а.",
+                    "group_label": "Группа",
+                    "group_help": "Отправка ресурсов, которые будут видны только этой группе.",
+                    "events_label": "События"
                 },
                 "services": {
-                    "discord": "",
-                    "slack": "",
-                    "microsoft-teams": ""
+                    "discord": "Discord",
+                    "slack": "Slack",
+                    "microsoft-teams": "Microsoft Teams"
                 },
                 "actions": {
                     "flarum": {
                         "discussion": {
-                            "title": "",
-                            "started": "",
-                            "renamed": "",
-                            "hidden": "",
-                            "restored": "",
-                            "deleted": ""
+                            "title": "Дискуссия",
+                            "started": "Создание",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "hidden": "=> fof-webhooks.ref.hidden",
+                            "restored": "=> fof-webhooks.ref.restored",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "group": {
-                            "title": "",
-                            "created": "",
-                            "renamed": "",
-                            "deleted": ""
+                            "title": "Группа",
+                            "created": "Создание",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "post": {
-                            "title": "",
-                            "posted": "",
-                            "revised": "",
-                            "hidden": "",
-                            "restored": "",
-                            "deleted": ""
+                            "title": "Сообщение",
+                            "posted": "Публикация",
+                            "revised": "Изменение",
+                            "hidden": "=> fof-webhooks.ref.hidden",
+                            "restored": "=> fof-webhooks.ref.restored",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "user": {
-                            "title": "",
-                            "registered": "",
-                            "renamed": "",
-                            "deleted": ""
+                            "title": "Пользователь",
+                            "registered": "Регистрация",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         }
                     }
                 }
             }
         },
         "ref": {
-            "deleted": "",
-            "hidden": "",
-            "renamed": "",
-            "restored": ""
+            "deleted": "Удаление",
+            "hidden": "Скрытие",
+            "renamed": "Изменение",
+            "restored": "Восстановление"
         }
     }
 }

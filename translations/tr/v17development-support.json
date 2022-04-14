@@ -242,7 +242,31 @@
                     "title": "Biletlere genel bakış",
                     "description": "Gülümse, sen diğer insanların günlerini kurtaran kahramansın.",
                     "no_tickets": "Kriterlerinize uyan bilet yok, muhtemelen iyi bir iş çıkarıyorsunuz!",
-                    "all_tickets": "Tüm biletler"
+                    "all_tickets": "Tüm biletler",
+                    "selection_unfiltered": "Filtrelenmedi",
+                    "selection_open": "Açık biletler",
+                    "selection_closed": "Kapalı biletler",
+                    "refresh": "Yenile",
+                    "filter": {
+                        "status": {
+                            "title": "Bilet durumu",
+                            "filter_count": "{count, plural, one {# filtre} other {# filtre}}"
+                        },
+                        "language": {
+                            "any": "Herhangi bir dil"
+                        },
+                        "assignees": {
+                            "title": "Atananlara göre filtrele",
+                            "search": "Görevli ara",
+                            "unassigned": "Atanmamış"
+                        }
+                    },
+                    "sort": {
+                        "newest": "Önce yeniler",
+                        "oldest": "Önce eskiler",
+                        "recent_activity": "Son aktiviteler",
+                        "least_recent": "En son etkinlik"
+                    }
                 }
             }
         },

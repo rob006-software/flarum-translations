@@ -2,27 +2,27 @@
     "ffans-clipboardjs": {
         "admin": {
             "settings": {
-                "codeLang_label": "",
-                "copy_enable_label": "",
-                "themes_label": "",
+                "codeLang_label": "Kod tilini ko'rsatish",
+                "copy_enable_label": "Kodni nusxalashni yoqing",
+                "themes_label": "Nusxa ko'chirish tugmasi uslubi",
                 "themes": {
-                    "cnblog": "",
-                    "csdn": "",
-                    "default": "",
-                    "github": "",
-                    "jianshu": "",
-                    "lingcoder": "",
-                    "segmentfault": ""
+                    "cnblog": "cnBlogs",
+                    "csdn": "CSDN",
+                    "default": "Standart Clipboardjs",
+                    "github": "GitHub",
+                    "jianshu": "Jian Shu",
+                    "lingcoder": "LingCoder",
+                    "segmentfault": "SegmentFault"
                 }
             }
         },
         "forum": {
-            "action_copy": "",
-            "action_cut": "",
-            "ok_btn": "",
-            "error_btn": "",
-            "no_support": "",
-            "msg": ""
+            "action_copy": "Nusxa olish",
+            "action_cut": "Kesib olish",
+            "ok_btn": "Nusxa olindi",
+            "error_btn": "Xatolik",
+            "no_support": "Qo'llab quvvatlash mavjud emas",
+            "msg": "{action} uchun {actionKey} tugmasini bosing"
         }
     }
 }

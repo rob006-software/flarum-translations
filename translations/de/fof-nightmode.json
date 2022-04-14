@@ -19,6 +19,9 @@
         "forum": {
             "day": "=> fof-nightmode.ref.light",
             "night": "=> fof-nightmode.ref.dark",
+            "header": {
+                "nightmode_button": "Forendesign umschalten"
+            },
             "user": {
                 "settings": {
                     "heading": "Design",
@@ -26,6 +29,7 @@
                     "description2": "Dieses Thema wird mit deinem Account verknüpft und gilt für alle deine Geräte, es sei denn, du aktivierst den Schalter unten für individuelle Einstellungen pro Gerät.",
                     "device_specific_setting_checkbox": "Individuelle Einstellungen pro Gerät",
                     "device_specific_setting_checkbox_tooltip": "Deine Theme-Auswahl wird individuell für jedes deiner Geräte gespeichert.",
+                    "auto_unsupported": "Dein Browser unterstützt den automatischen Dunkelmodus nicht.",
                     "options": {
                         "auto": "=> fof-nightmode.ref.auto",
                         "day": "=> fof-nightmode.ref.light",
@@ -34,7 +38,7 @@
                     "option_descriptions": {
                         "auto": "Dein Farbthema wird basierend auf deinen Browser- oder Geräteeinstellungen automatisch ausgewählt. Wenn du zum Beispiel den dunklen Modus in iOS aktiviert hast, wird auch das Forum dunkel sein.",
                         "day": "Die klassische Erfahrung, die man gewohnt ist. Geliebt und getestet.",
-                        "night": "Du bist eine kleine Nachteule. Du wachst über das Forum in der Nacht, während die Vögel schlafen und die Füchse jagen. Oder du bevorzugst einfach die dunkleren Farben!"
+                        "night": "Du bist eine Nachteule. Du wachst über das Forum in der Nacht, während die Vögel schlafen und die Füchse jagen. Oder du bevorzugst einfach die dunkleren Farben!"
                     }
                 }
             }

@@ -2,9 +2,9 @@
     "v17development-flarum-support": {
         "forum": {
             "knowledge_base": "",
-            "ask_a_question_on_forums": "",
+            "ask_a_question_on_forums": "Forumlarda savol bering",
             "return_to_home": "",
-            "ask_your_question_on_forum": "",
+            "ask_your_question_on_forum": "Forumlarda savol bering",
             "or": "",
             "settings": "",
             "send": "",
@@ -63,7 +63,7 @@
                 "last_modified": "",
                 "not_found": "",
                 "share_article": {
-                    "title": "",
+                    "title": "Maqolani ulashish",
                     "perma_link": ""
                 },
                 "tools": {
@@ -242,7 +242,31 @@
                     "title": "",
                     "description": "",
                     "no_tickets": "",
-                    "all_tickets": ""
+                    "all_tickets": "",
+                    "selection_unfiltered": "",
+                    "selection_open": "",
+                    "selection_closed": "",
+                    "refresh": "",
+                    "filter": {
+                        "status": {
+                            "title": "",
+                            "filter_count": ""
+                        },
+                        "language": {
+                            "any": ""
+                        },
+                        "assignees": {
+                            "title": "",
+                            "search": "",
+                            "unassigned": ""
+                        }
+                    },
+                    "sort": {
+                        "newest": "",
+                        "oldest": "",
+                        "recent_activity": "",
+                        "least_recent": ""
+                    }
                 }
             }
         },

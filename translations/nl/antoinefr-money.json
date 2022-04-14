@@ -2,7 +2,7 @@
     "antoinefr-money": {
         "admin": {
             "settings": {
-                "title": "",
+                "title": "Instellingen",
                 "moneyforpost": "",
                 "moneyfordiscussion": "",
                 "moneyname": "",
@@ -13,6 +13,10 @@
             },
             "permissions": {
                 "edit_money_label": ""
+            },
+            "automoderator": {
+                "metric_name": "",
+                "action_name": ""
             }
         },
         "forum": {

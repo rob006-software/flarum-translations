@@ -242,7 +242,31 @@
                     "title": "Przegląd zgłoszeń",
                     "description": "Uśmiechnij się, jesteś bohaterem, który ratuje innym ludziom ich dzień.",
                     "no_tickets": "Nie ma zgłoszeń spełniających Twoje kryteria, prawdopodobnie wykonujesz dobrą robotę!",
-                    "all_tickets": "Wszystkie zgłoszenia"
+                    "all_tickets": "Wszystkie zgłoszenia",
+                    "selection_unfiltered": "",
+                    "selection_open": "",
+                    "selection_closed": "",
+                    "refresh": "",
+                    "filter": {
+                        "status": {
+                            "title": "",
+                            "filter_count": ""
+                        },
+                        "language": {
+                            "any": ""
+                        },
+                        "assignees": {
+                            "title": "",
+                            "search": "",
+                            "unassigned": ""
+                        }
+                    },
+                    "sort": {
+                        "newest": "",
+                        "oldest": "",
+                        "recent_activity": "",
+                        "least_recent": ""
+                    }
                 }
             }
         },

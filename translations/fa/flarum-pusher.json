@@ -11,7 +11,7 @@
         },
         "forum": {
             "discussion_list": {
-                "show_updates_text": "نمایش {count} مبحث جدید|نمایش {count} مبحث جدید"
+                "show_updates_text": "{count, plural, one {نمایش # بحث بروز شده} other {نمایش # بحث های بروز شده}}"
             }
         }
     }

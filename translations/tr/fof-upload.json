@@ -54,7 +54,8 @@
                 "preferences": {
                     "max_file_size": "Maksimum dosya boyutu (kilobyte cinsinden)",
                     "mime_types": "Mime türünüzü yapılandırın, uyarlayıcı eşlemesini yükleyin",
-                    "title": "Genel tercihler"
+                    "title": "Genel tercihler",
+                    "php_ini_values": "<code>php.ini</code> değerleriniz <code>post_max_size={post}</code> ve <code>upload_max_filesize={upload}</code> şeklindedir. Burada ayarlanan değerin bu eşiklerin altında olduğundan emin olun veya uygun şekilde ayarlayın. <code>Nginx</code> kullanıyorsanız, <code>client_max_body_size</code> öğesinin seçtiğiniz maksimum limit için yeterli boyutta olduğundan emin olun."
                 },
                 "resize": {
                     "max_width": "Maksimum resim genişliği/yüksekliği",
@@ -97,7 +98,9 @@
                 "bbcode-image": "BBCode resim şablonu",
                 "bbcode-image_description": "BBCode kullanarak tüm görüntüyü satır içinde gösterir. <strong>Bunun çalışması için flarum/bbcode'un kurulu ve etkinleştirilmiş olması gerekir.</strong> İndirme işlevi yoktur, istatistik toplanmaz ve hotlink koruması yok sayılır.\n",
                 "just-url": "Sadece Bağlantı",
-                "just-url_description": "Yalnızca URL'yi ekler. Oluşturma, otomatik bağlanma özelliğine sahip diğer uzantılar tarafından gerçekleştirilebilir. İndirme işlevi yoktur, hiçbir istatistik toplanmaz ve hotlink koruması göz ardı edilir.\n"
+                "just-url_description": "Yalnızca URL'yi ekler. Oluşturma, otomatik bağlanma özelliğine sahip diğer uzantılar tarafından gerçekleştirilebilir. İndirme işlevi yoktur, hiçbir istatistik toplanmaz ve hotlink koruması göz ardı edilir.\n",
+                "text-preview": "Metin önizlemesi",
+                "text-preview_description": "Dosyanın tüm içeriğini ortaya çıkarmak için genişletme seçeneğiyle birlikte metin dosyasının bir önizlemesini (ilk 5 satır) ekler.\n"
             },
             "upload_methods": {
                 "aws-s3": "S3/Compatible",
@@ -140,6 +143,16 @@
                 "error": "Hata",
                 "loading": "Yükleniyor",
                 "unauthorized": "Dosyaları indirmenize izin verilmiyor"
+            },
+            "validation": {
+                "max_size": "{max} kb üzerindeki yüklemeler kabul edilmez."
+            },
+            "text_preview": {
+                "expand": "Önizlemeyi genişlet",
+                "collapse": "Önizlemeyi daralt",
+                "error": "Dosya önizlenirken hata oluştu. Silinmiş olabilir veya sağlanan dosya kimliği geçersiz.\n",
+                "no_snippet_preview": "<Önizleme yayınlandıktan sonra burada görünecek>",
+                "no_snippet": "<önizleme snippet'i yok>"
             }
         },
         "api": {

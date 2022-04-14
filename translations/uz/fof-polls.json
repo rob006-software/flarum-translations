@@ -2,49 +2,49 @@
     "fof-polls": {
         "admin": {
             "permissions": {
-                "view_results_without_voting": "",
-                "start": "",
-                "self_edit": "",
-                "vote": "",
-                "change_vote": "",
-                "moderate": ""
+                "view_results_without_voting": "Ovoz berish natijasini k'rish",
+                "start": "Ovoz berishni boshlash",
+                "self_edit": "Foydalanuvchilarga ovozlarini o'zgartirishga ruxsat berish",
+                "vote": "Ovoz berishada ishtirok etish",
+                "change_vote": "Ovozni o'zgartirish",
+                "moderate": "So'rovnomani o'zgartirish / o'chirish"
             }
         },
         "forum": {
-            "days_remaining": "",
-            "no_permission": "",
-            "poll_ended": "",
-            "public_poll": "",
+            "days_remaining": "Ovoz berish {time} da tugaydi.",
+            "no_permission": "Sizda ovoz berishga ruxsatingiz yo'q",
+            "poll_ended": "Ovoz berish tugadi.",
+            "public_poll": "Ovozlarni ko'rish",
             "composer_discussion": {
-                "add_poll": "",
-                "edit_poll": ""
+                "add_poll": "So'rovnoma qo'shish",
+                "edit_poll": "=> fof-polls.forum.moderation.edit"
             },
             "modal": {
-                "add_title": "",
-                "add_option_label": "",
-                "date_placeholder": "",
-                "edit_title": "",
-                "include_question": "",
-                "max": "",
-                "min": "",
-                "no_voters": "",
-                "option_placeholder": "",
-                "options_label": "",
-                "public_poll_label": "",
-                "question_placeholder": "",
-                "submit": ""
+                "add_title": "So'rovnoma qo'shish",
+                "add_option_label": "Variant qo'shish",
+                "date_placeholder": "Ovoz berish tugash vaqti (majburiy emas)",
+                "edit_title": "So'rovnomani o'zgartirish",
+                "include_question": "Siz savol qo'shishingiz kerak",
+                "max": "Siz ko'pi bilan 10ta savol qo'shishingiz mumkin",
+                "min": "Siz kamida 2ta savol ko'shishingiz kerak",
+                "no_voters": "Ovozlar mavjud emas",
+                "option_placeholder": "Variant",
+                "options_label": "Javoblar",
+                "public_poll_label": "Odamlarga kim ovoz berganini ko'rishga ruxsat berish",
+                "question_placeholder": "Savol",
+                "submit": "Saqlash"
             },
             "moderation": {
-                "delete": "",
-                "delete_confirm": "",
-                "edit": ""
+                "delete": "So'rovnomani o'chirish",
+                "delete_confirm": "So'rovnomani o'chirishga ishonchingiz komilmi?",
+                "edit": "So'rovnomani o'zgartirish"
             },
             "tooltip": {
-                "badge": "",
-                "votes": ""
+                "badge": "So'rovnoma",
+                "votes": "{count, plural, one {# ovoz} other {# ovozlar}}"
             },
             "votes_modal": {
-                "title": ""
+                "title": "So'rovnomani ishtirokchilari"
             }
         }
     }

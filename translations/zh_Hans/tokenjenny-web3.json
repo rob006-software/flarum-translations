@@ -2,11 +2,12 @@
     "tokenjenny-web3": {
         "forum": {
             "settings": {
-                "connect_button": "",
-                "connected": ""
+                "connect_button": "绑定至 MetaMask",
+                "connected": "已绑定 <strong>{account}</strong>",
+                "privacy_disclose_web3_address_label": "公开我的钱包地址"
             },
             "log_in": {
-                "with_metamask_button": ""
+                "with_metamask_button": "MetaMask 账号登录"
             }
         }
     }

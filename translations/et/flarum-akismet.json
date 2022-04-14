@@ -3,7 +3,12 @@
         "admin": {
             "akismet_settings": {
                 "api_key_label": "API võti",
-                "title": "Akismet seaded"
+                "title": "Akismet seaded",
+                "delete_blatant_spam_label": "",
+                "delete_blatant_spam_help": ""
+            },
+            "permissions": {
+                "bypass_akismet": ""
             }
         },
         "forum": {

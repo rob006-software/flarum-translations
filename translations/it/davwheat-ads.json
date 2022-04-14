@@ -2,10 +2,20 @@
     "davwheat": {
         "ads": {
             "admin": {
+                "permissions": {
+                    "bypassAds": ""
+                },
                 "settings": {
+                    "admin_bypass_warning": "",
                     "enabled_locations": "Abilita posizioni Pubblicità",
+                    "script_urls": "",
+                    "add_script": "",
+                    "script_deletion": "",
                     "code_input": "Codice  per \"{for}\"",
                     "code_input_disabled": "Abilita questa posizione per modificare il codice HTML.",
+                    "js_input": "",
+                    "js_input_disabled": "",
+                    "use_adsense": "",
                     "pub_id": "Publisher ID Adsense",
                     "between_posts_gap": "Fra i post: imposta gap tra ogni annuncio",
                     "allow_after_placeholder": "Fra i post: mostra annuncio dopo  la risposta",

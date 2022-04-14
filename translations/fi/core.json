@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "Määritä laajuudet (scopes)",
-                "confirm_purge": "Puhdistus poistaa kaikki tietokantamerkinnät ja liittyvät tiedostot tähän lisäosaan liittyen. Se ei poista lisäosan asennusta; se pitää tehdä Composerin kautta. Haluatko varmasti jatkaa?",
+                "confirm_uninstall": "Poistaminen poistaa kaikki tietokantamerkinnät ja tiedostot tähän lisäosaan liittyen. Haluatko varmasti jatkaa?",
                 "disabled": "Poistettu käytöstä",
                 "enable_to_see": "Ota tämä lisäosa käyttää nähdäksesi ja muuttaaksesi asetuksia.",
                 "enabled": "Käytössä",
@@ -116,14 +116,14 @@
                 "no_settings": "Tällä lisäosalla ei ole asetuksia.",
                 "open_modal": "Avaa asetukset",
                 "permissions_title": "Oikeudet",
+                "uninstall_button": "Poista asennus",
+                "confirm_purge": "Puhdistus poistaa kaikki tietokantamerkinnät ja liittyvät tiedostot tähän lisäosaan liittyen. Se ei poista lisäosan asennusta; se pitää tehdä Composerin kautta. Haluatko varmasti jatkaa?",
                 "purge_button": "Puhdista",
                 "readme": {
                     "button_label": "LUE MINUT",
                     "no_readme": "Tällä lisäosalla ei näytä olevan README tiedostoa",
                     "title": "{extName} dokumentaatio"
-                },
-                "confirm_uninstall": "Poistaminen poistaa kaikki tietokantamerkinnät ja tiedostot tähän lisäosaan liittyen. Haluatko varmasti jatkaa?",
-                "uninstall_button": "Poista asennus"
+                }
             },
             "header": {
                 "get_help": "Apua",
@@ -172,7 +172,7 @@
                 "edit_users_credentials_label": "Muokkaa käyttäjän tunnuksia",
                 "edit_users_groups_label": "Muokkaa käyttäjän ryhmiä",
                 "global_heading": "Yleinen",
-                "moderate_heading": "Moredointi",
+                "moderate_heading": "Moderointi",
                 "new_group_button": "Uusi ryhmä",
                 "participate_heading": "Osallistuminen",
                 "post_without_throttle_label": "Vastata useasti ilman odottamista",
@@ -303,11 +303,11 @@
             "discussion_list": {
                 "empty_text": "Näyttää siltä, että täällä ei ole keskustelua.",
                 "load_more_button": "=> core.ref.load_more",
+                "mark_as_read_tooltip": "Merkitse luetuksi",
                 "replied_text": "{username} vastasi {ago}",
                 "started_text": "{username} aloitti {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# vastaus} other {# vastausta}}",
-                "unread_replies_a11y_label": "{count, plural, one {# lukematon vastaus} other {# Lukematonta vastausta}}. Merkitse  {count, plural, one {lukematon vastaus} other {lukemattomat vastaukset}} luetuksi.",
-                "mark_as_read_tooltip": "Merkitse luetuksi"
+                "unread_replies_a11y_label": "{count, plural, one {# lukematon vastaus} other {# Lukematonta vastausta}}. Merkitse {count, plural, one {lukematon vastaus} other {lukemattomat vastaukset}} luetuksi."
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -455,11 +455,10 @@
                 "sent_message": "Lähetetty"
             },
             "welcome_hero": {
-                "hide": ""
+                "hide": "Piilota tervetuloviesti"
             }
         },
         "lib": {
-            "debug_button": "Vianetsintä",
             "badge": {
                 "hidden_tooltip": "Piilotettu"
             },
@@ -493,12 +492,6 @@
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
             },
-            "modal": {
-                "close": ""
-            },
-            "nav": {
-                "drawer_button": "Avaa navigointi lokero"
-            },
             "number_suffix": {
                 "kilo_text": "K",
                 "mega_text": "M"
@@ -510,6 +503,20 @@
             },
             "username": {
                 "deleted_text": "[poistettu]"
+            },
+            "debug_button": "Vianetsintä",
+            "alert": {
+                "dismiss_a11y_label": "Poista ilmoitus"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Sivu # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Sivu # - {forumName}}}"
+            },
+            "modal": {
+                "close": "Sulje"
+            },
+            "nav": {
+                "drawer_button": "Avaa navigointi lokero"
             }
         },
         "views": {
@@ -567,6 +574,10 @@
                 "new_password_label": "Uusi salasana",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
             }
         },
         "api": {
@@ -630,7 +641,7 @@
             "save_changes": "Tallenna muutokset",
             "settings": "Asetukset",
             "sign_up": "Rekisteröidy",
-            "some_others": "{count, plural, yksi {# other} other {# others}}",
+            "some_others": "{count, plural, one {# muu} other {# muuta}}",
             "start_a_discussion": "Aloita keskustelu",
             "username": "Käyttäjätunnus",
             "users": "Käyttäjät",

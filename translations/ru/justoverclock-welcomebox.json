@@ -1,23 +1,23 @@
 {
     "flarum-ext-welcomebox": {
         "forum": {
-            "wback": "",
-            "npost": "",
-            "discussion": "",
-            "welcomeguest": "",
-            "notregistered": "",
-            "goToProfile": "",
-            "SettingsLink": "",
-            "tooltipProfile": "",
-            "tooltipMentions": "",
-            "tooltipDisclist": "",
-            "lastSeen": ""
+            "wback": "Добро пожаловать,",
+            "npost": "=> core.ref.posts",
+            "discussion": "=> core.ref.discussions",
+            "welcomeguest": "Добро пожаловать, Гость",
+            "notregistered": "Вы не зарегистрированы на этом форуме.",
+            "goToProfile": "Профиль",
+            "SettingsLink": "Настройки",
+            "tooltipProfile": "Профиль",
+            "tooltipMentions": "Упоминания",
+            "tooltipDisclist": "Мой список дискуссий",
+            "lastSeen": "Последнее посещение"
         },
         "admin": {
-            "enablepostbox": "",
-            "img": "",
-            "img-help": "",
-            "UseWidget": ""
+            "enablepostbox": "Включить блок приветствия для гостей",
+            "img": "URL изображения (блок приветствия гостей)",
+            "img-help": "ссылка на изображение для блока приветствия гостей",
+            "UseWidget": "Использовать виджет-версию"
         }
     }
 }

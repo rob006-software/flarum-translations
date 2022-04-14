@@ -2,13 +2,13 @@
     "fof-spamblock": {
         "forum": {
             "user_controls": {
-                "spammer_button": "",
-                "spammer_confirmation": ""
+                "spammer_button": "Spammer",
+                "spammer_confirmation": "¿Estás seguro de que quieres \n• Ocultar todas las discusiones y mensajes del usuario \n• [flarum/suspend] Suspender al usuario"
             }
         },
         "admin": {
             "permissions": {
-                "spamblock_users_label": ""
+                "spamblock_users_label": "Marcar al usuario como spammer"
             }
         }
     }

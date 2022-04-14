@@ -3,7 +3,7 @@
         "forum": {
             "email": {
                 "subject": "Zum Beitreten einladen",
-                "body": "Hallo,\n\nDu wurdest für eine Registrierung in {forum} eingeladen\nWenn du bereit bist, dir ein Konto zu erstellen, klicke einfach auf den folgenden Link und gebe den Code bei der Registrierung ein:\n\nUrl: {url}\nEinladungscode: {code}\n"
+                "body": "Hallo,\n\nDu wurdest für eine Registrierung in {forum} eingeladen.\n\nWenn du bereit bist, dir ein Konto zu erstellen, klicke einfach auf den folgenden Link und gebe den Code bei der Registrierung ein:\n\nUrl: {url}\nEinladungscode: {code}\n\nIgnoriere diese E-Mail sollte sie fälschlicherweise versandt worden sein.\n"
             },
             "sign_up": {
                 "invalid_doorkey": "Der von Dir eingegebene Einladungscode ist ungültig.",
@@ -35,7 +35,7 @@
                     "title": "Einladungscodes",
                     "help": {
                         "key": "Schlüssel: Code, den der Benutzer bei der Registrierung eingibt.",
-                        "group": "Gruppe: Die Gruppe, zu der der Benutzer bei der Registrierung hinzugefügt wird.",
+                        "group": "Gruppe: Die Gruppe, zu der dieser Benutzer bei der Registrierung hinzugefügt wird.",
                         "max": "Max. Verwendungen: Die maximale Anzahl von Verwendungen, setze auf 0 für unbegrenzte Verwendungen",
                         "activates": "Aktiviert Benutzer: Aktiviert den Benutzer automatisch, wenn er sich registriert."
                     },
@@ -50,7 +50,7 @@
                     },
                     "allow-public": {
                         "title": "Öffentliche Registrierungen zulassen",
-                        "switch-label": "Tue den Einladungscode bei der Anmeldung optional"
+                        "switch-label": "Setze den Einladungscode bei der Anmeldung auf optional"
                     }
                 }
             }

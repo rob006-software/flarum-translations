@@ -3,7 +3,13 @@
         "admin": {
             "settings": {
                 "help_text": "Если ваш Flarum установлен в подкаталоге, пожалуйста далее укажите путь к нему (завершая слэшем), в противном случае оставьте значение по умолчанию, т.е. <code>/sub/</code>",
-                "home_page_label": "Подкаталог"
+                "home_page_label": "Подкаталог",
+                "discussions_icon_label": "Иконкадискуссий",
+                "tags_icon_label": "Иконка тегов",
+                "composer_icon_label": "Иконка редактора",
+                "settings_icon_label": "Иконка настроек",
+                "notifications_icon_label": "Иконка уведомлений",
+                "icon_help": "Оставьте пустым для использования иконки по умолчанию."
             }
         }
     }

@@ -1,0 +1,29 @@
+{
+    "sycho-private-facade": {
+        "admin": {
+            "settings": {
+                "force_redirect": "Bắt buộc khách chuyển hướng đến trang Đăng Nhập/Đăng ký",
+                "header_layout": {
+                    "options": {
+                        "show_header": "Hiển thị Đầu trang",
+                        "show_only_logo": "Chỉ hiển thị Logo",
+                        "hide_secondary_items": "Ẩn các mục phụ (Tìm kiếm, liên kết Đăng Nhập và Đăng ký)"
+                    },
+                    "title": "Bố cục Đầu trang"
+                },
+                "illustration_path": "Hình ảnh minh hoạ",
+                "primary_color_bg": "Sử dụng màu nền chính",
+                "route_exclusions": "Các route để loại trừ khỏi việc chuyển hướng đến trang đăng nhập/đăng ký.",
+                "screen_banner_description": "Thông báo màn hình",
+                "screen_banner_heading": "Biểu ngữ màn hình",
+                "screen_banner_title": "Tiêu đề màn hình",
+                "use_welcome_hero_text": "Sử dụng văn bản Biểu ngữ chào mừng"
+            }
+        },
+        "forum": {
+            "log_in_label": "=> core.ref.log_in",
+            "or_label": "hoặc",
+            "sign_up_label": "=> core.ref.sign_up"
+        }
+    }
+}

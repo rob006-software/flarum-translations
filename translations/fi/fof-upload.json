@@ -54,7 +54,8 @@
                 "preferences": {
                     "max_file_size": "Maksimi tiedostokoko (kilotavuina)",
                     "mime_types": "Määritä mime tyypit, siirtoadapterin linkitys",
-                    "title": "Yleiset asetukset"
+                    "title": "Yleiset asetukset",
+                    "php_ini_values": "Sinun <code>php.ini</code> määreet ovat <code>post_max_size={post}</code> ja <code>upload_max_filesize={upload}</code>. Vahvista, että tämän osion asetukset ovat näiden vähemmän, kuin nämä määreet tai määritä ne kuntoon. Jos käytät <code>Nginx</code> niin vahvista myösm että määre <code>client_max_body_size</code> on tarpeitasi vastaava."
                 },
                 "resize": {
                     "max_width": "Kuvan maksimi leveys/korkeus",
@@ -97,7 +98,9 @@
                 "bbcode-image": "BBCode kuvan pohja",
                 "bbcode-image_description": "Näyttää kuvan käyttäen BBCodea. <strong>Sinulla pitää olla flarum/bbcode lisäosa asennettuna, jotta tämä toimii.</strong> Ei latausta, ei tilastoja ja ei hotlink suojausta.\n",
                 "just-url": "Vain osoite",
-                "just-url_description": "Asettaa vain kuvan osoitteen. Näyttäminen voidaan toteuttaa mulla lisäosalla. Ei latausta, ei tilastoja eikä hotlink suojausta.\n"
+                "just-url_description": "Asettaa vain kuvan osoitteen. Näyttäminen voidaan toteuttaa mulla lisäosalla. Ei latausta, ei tilastoja eikä hotlink suojausta.\n",
+                "text-preview": "Tekstin esikatselu",
+                "text-preview_description": "Asettaa esikatselun (ensimmäiset 5 riviä) tekstitiedostosta. Tämän kanssa tulee mahdollisuus nähdä koko tiedoston sisältö.\n"
             },
             "upload_methods": {
                 "aws-s3": "S3/Yhteensopiva",
@@ -137,6 +140,16 @@
                 "error": "Virhe",
                 "loading": "Siirretään",
                 "unauthorized": "Sinulla ei ole oikeutta ladata tiedostoja"
+            },
+            "validation": {
+                "max_size": "Yli {max} kb siirrot eivät ole sallittuja."
+            },
+            "text_preview": {
+                "expand": "Laajenna esikatselu",
+                "collapse": "Pienennä esikatselu",
+                "error": "Virhe tiedoston esikatselussa. Se voi olla poistettu tai annettu tiedoston ID on virheellinen.\n",
+                "no_snippet_preview": "<esikatselu tulee tähän>",
+                "no_snippet": "<ei esikatselua saatavilla>"
             }
         },
         "api": {

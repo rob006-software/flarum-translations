@@ -1,0 +1,42 @@
+{
+    "flarum-nicknames": {
+        "admin": {
+            "permissions": {
+                "edit_own_nickname_label": "Izmenite sopstveni nadimak"
+            },
+            "settings": {
+                "max_label": "Maksimalna dužina nadimka",
+                "min_label": "Minimalna dužina nadimka",
+                "random_username_label": "Nasumično korisničko ime",
+                "random_username_help": "Ovo će sakriti polje \"Korisničko ime\" za odabir prilikom registracije i umesto toga koristiti nasumični broj. Takođe će polje \"Nadimak\" učiniti obaveznim. Ovo će stupiti na snagu samo ako je omogućeno \"Dozvolite postavljanje nadimaka pri registraciji\".",
+                "regex_label": "Regularni izraz za validaciju",
+                "set_on_registration_label": "Dozvolite postavljanje nadimaka pri registraciji",
+                "unique_label": "Zahtevaj jedinstvene nadimke"
+            },
+            "wrong_driver": "Morate da izaberete \"nadimak\" kao ime za prikaz na <a><strong>stranici sa osnovnim podešavanjima</strong></a> da bi ova ekstenzija radila kako treba."
+        },
+        "api": {
+            "invalid_nickname_message": "Ovaj nadimak je nevažeći. Molimo kontaktirajte administratora foruma za više informacija o pravilima za nadimke."
+        },
+        "forum": {
+            "change_nickname": {
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> flarum-nicknames.ref.change_nickname"
+            },
+            "edit_user": {
+                "nicknames_heading": "=> flarum-nicknames.ref.change_nickname",
+                "nicknames_text": "=> flarum-nicknames.ref.nickname"
+            },
+            "settings": {
+                "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
+            },
+            "sign_up": {
+                "nickname_placeholder": "=> flarum-nicknames.ref.nickname"
+            }
+        },
+        "ref": {
+            "change_nickname": "Promeni nadimak",
+            "nickname": "Nadimak"
+        }
+    }
+}

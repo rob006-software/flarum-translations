@@ -94,6 +94,7 @@
                 "name": "Tên",
                 "user-name": "Được đặt tên lần cuối bởi",
                 "user-place": "Đặt lần cuối bởi",
+                "placement": "Vị trí hiện tại",
                 "actions": "Thao tác",
                 "edit": "Sửa",
                 "no-user-name": "Không đổi tên",
@@ -120,9 +121,33 @@
         },
         "admin": {
             "settings": {
-                "discussion-age": "Các cuộc thảo luận cũ có thể được đặt trên đó như thế nào (ngày)",
-                "post-age": "Bài viết cũ có thể được đặt trên đó bao nhiêu (ngày)",
+                "user": "Người dùng",
                 "user-age": "Người dùng phải hoạt động trong bao lâu để đặt cá lên đó (ngày)",
+                "user-probability": "Xác suất được đưa vào trang cá nhân người dùng (%)",
+                "discussion": "Cuộc thảo luận",
+                "discussion-age": "Các cuộc thảo luận cũ có thể được đặt trên đó như thế nào (ngày)",
+                "discussion-tags": "Danh sách trắng Thẻ",
+                "discussion-tags-unavailable": "Thiết lập không khả dụng vì tiện ích Tags bị vô hiệu hoá.",
+                "discussion-tags-help": "Nếu bạn không chọn bất kỳ thẻ nào, bạn có thể chọn bất kỳ cuộc thảo luận nào phù hợp với cài đặt thời gian ở trên. Nếu bất kỳ số lượng thẻ nào được chọn, một cuộc thảo luận cần phải có ít nhất một trong các thẻ đã chọn để được chọn. Xác suất là cơ hội được chọn sau khi tất cả các lựa chọn trước đó đã được thử. Thẻ cuối cùng trong danh sách sẽ luôn hoạt động như một dự phòng, vì vậy hãy đảm bảo rằng thẻ đó có ít nhất một cuộc thảo luận hợp lệ bên trong.\n",
+                "tags-header": {
+                    "tag": "Thẻ",
+                    "probability": "Xác suất"
+                },
+                "tags-control": {
+                    "choose": "Chọn thẻ",
+                    "add": "Thêm vào danh sách trắng",
+                    "down": "Chuyển xuống",
+                    "up": "Chuyển lên",
+                    "delete": "Xoá khỏi danh sách trắng"
+                },
+                "tags-fallback": {
+                    "last-line": "Dự phòng",
+                    "single-line": "Yêu cầu ít nhất 2 thẻ cho xác suất"
+                },
+                "post": "Bài viết",
+                "post-age": "Bài viết cũ có thể được đặt trên đó bao nhiêu (ngày)",
+                "post-probability": "Xác suất đặt trên một bài viết hơn là cuộc thảo luận (%)",
+                "general": "Chung",
                 "time-to-place": "Thời gian cho phép đặt cá trước khi đặt ngẫu nhiên (phút)",
                 "alert-round": "Hiển thị cảnh báo với tên vòng và thời lượng trên trang chủ",
                 "animate-flip": "Lật hình ảnh cá dựa trên hướng"
@@ -145,6 +170,7 @@
             "invalid-user-id": "Người dùng dường như không tồn tại, có thể gần đây người dùng đã bị xóa",
             "model-deleted": "Không thể đặt cá trên một cuộc thảo luận hoặc bài đăng đã xóa",
             "model-private": "Không thể đặt cá trên một cuộc thảo luận hoặc bài đăng riêng tư",
+            "tag-not-allowed": "Bạn không thể đặt cá bên dưới thẻ này",
             "inactive-discussion": "Không thể đặt cá vào cuộc thảo luận không hoạt động trong hơn {days} ngày",
             "inactive-post": "Không thể đặt cá trên bài đăng đã tạo cách đây hơn {days} ngày",
             "inactive-user": "Không thể đặt cá cho người dùng không hoạt động trong hơn {days} ngày",

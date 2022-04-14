@@ -1,0 +1,24 @@
+{
+    "blomstra-user-filter": {
+        "admin": {
+            "settings": {
+                "min_length": "开始搜索的最小字符数",
+                "result_count": "自动下拉的最大值"
+            }
+        },
+        "forum": {
+            "index_page": {
+                "filter_user": {
+                    "accessible_label": "按作者筛选",
+                    "all": "全部",
+                    "label": "按作者筛选: {text}",
+                    "search_label": "搜索中...",
+                    "no_results": "无结果",
+                    "start_typing": "请输入以开始搜索",
+                    "keep_typing": "请继续输入...",
+                    "remove_filter": "移除按作者筛选"
+                }
+            }
+        }
+    }
+}

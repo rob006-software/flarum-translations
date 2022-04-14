@@ -1,0 +1,24 @@
+{
+    "blomstra-user-filter": {
+        "admin": {
+            "settings": {
+                "min_length": "Minimum de caractères pour commencer la recherche",
+                "result_count": "Résultats maximums dans l'autocomplétion des listes déroulantes"
+            }
+        },
+        "forum": {
+            "index_page": {
+                "filter_user": {
+                    "accessible_label": "Filtrer par auteur",
+                    "all": "Tous",
+                    "label": "Filtrer par auteur : {text}",
+                    "search_label": "Rechercher des utilisateurs...",
+                    "no_results": "Aucun résultat",
+                    "start_typing": "Commencer à écrire...",
+                    "keep_typing": "Continuer à taper...",
+                    "remove_filter": "Supprimer le filtre d'auteur"
+                }
+            }
+        }
+    }
+}

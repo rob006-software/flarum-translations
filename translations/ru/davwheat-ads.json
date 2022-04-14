@@ -2,34 +2,44 @@
     "davwheat": {
         "ads": {
             "admin": {
+                "permissions": {
+                    "bypassAds": ""
+                },
                 "settings": {
-                    "enabled_locations": "",
-                    "code_input": "",
-                    "code_input_disabled": "",
-                    "pub_id": "",
-                    "between_posts_gap": "",
-                    "allow_after_placeholder": "",
+                    "admin_bypass_warning": "",
+                    "enabled_locations": "Включенные местоположения рекламных блоков",
+                    "script_urls": "",
+                    "add_script": "",
+                    "script_deletion": "",
+                    "code_input": "Код для рекламного блока \"{for}\"",
+                    "code_input_disabled": "Включите это место, чтобы редактировать его HTML-код.",
+                    "js_input": "",
+                    "js_input_disabled": "",
+                    "use_adsense": "",
+                    "pub_id": "AdSense Publisher ID",
+                    "between_posts_gap": "Между сообщениями: разрыв между объявлениями",
+                    "allow_after_placeholder": "Между сообщениями: показывать объявление после ответа",
                     "save_btn": {
-                        "dirty": "",
-                        "saving": "",
-                        "saved": "",
-                        "fix_errors": ""
+                        "dirty": "Сохранить изменения",
+                        "saving": "Сохранение...",
+                        "saved": "Все изменения сохранены",
+                        "fix_errors": "Исправьте ошибки перед сохранением"
                     },
                     "alert": {
-                        "fix_errors": "",
-                        "code_has_script": ""
+                        "fix_errors": "Пожалуйста, исправьте указанные выше ошибки перед сохранением изменений",
+                        "code_has_script": "Один или несколько ваших рекламных блоков содержат теги скрипта, использование которых запрещено. Удалите их и попробуйте еще раз."
                     },
-                    "warning": ""
+                    "warning": "Рекламный код должен <b>ТОЛЬКО</b> включать теги <code>ins</code>, а не какие-либо теги скриптов. Скрипты автоматически запускаются\nэтим расширением.\n"
                 }
             },
             "lib": {
                 "locations": {
-                    "discussion_header": "",
-                    "discussion_sidebar": "",
-                    "header": "",
-                    "sidebar": "",
-                    "footer": "",
-                    "between_posts": ""
+                    "discussion_header": "Страница обсуждения (под заголовком)",
+                    "discussion_sidebar": "Боковая панель обсуждения [ТОЛЬКО НА DESKTOP]",
+                    "header": "Верхний колонтитул",
+                    "sidebar": "Боковая навигация [ТОЛЬКО НА DESKTOP]",
+                    "footer": "Нижний колонтитул",
+                    "between_posts": "Между сообщениями"
                 }
             }
         }

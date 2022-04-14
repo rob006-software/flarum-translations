@@ -3,7 +3,12 @@
         "admin": {
             "akismet_settings": {
                 "api_key_label": "API-nyckel",
-                "title": "Inställningar för Akismet"
+                "title": "Inställningar för Akismet",
+                "delete_blatant_spam_label": "",
+                "delete_blatant_spam_help": ""
+            },
+            "permissions": {
+                "bypass_akismet": ""
             }
         },
         "forum": {

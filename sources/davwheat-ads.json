@@ -2,10 +2,20 @@
     "davwheat": {
         "ads": {
             "admin": {
+                "permissions": {
+                    "bypassAds": "Hide advertisements from the forum"
+                },
                 "settings": {
+                    "admin_bypass_warning": "Due to the nature of Flarum's permissions system, members of the Admin group will\nnot see any ads on the forum. If you wish to test your ads, please visit the forum\nin an Incognito or Private window.\n",
                     "enabled_locations": "Enabled ad unit locations",
-                    "code_input": "Code for \"{for}\" ad unit",
+                    "script_urls": "Custom script URL(s)",
+                    "add_script": "New",
+                    "script_deletion": "To remove a script, leave the textbox blank and press 'Save Changes'.",
+                    "code_input": "HTML code",
                     "code_input_disabled": "Enable this location to edit its HTML code.",
+                    "js_input": "Javascript code",
+                    "js_input_disabled": "Enable this location to edit its JS code.",
+                    "use_adsense": "Use AdSense",
                     "pub_id": "AdSense Publisher ID",
                     "between_posts_gap": "Between posts: gap between ads",
                     "allow_after_placeholder": "Between posts: show ad after reply placeholder",
@@ -19,7 +29,7 @@
                         "fix_errors": "Please fix errors above before saving changes",
                         "code_has_script": "One or more of your ad units contain script tags, which are not allowed. Remove these and try again."
                     },
-                    "warning": "The ad code should <b>ONLY</b> include the <code>ins</code> tag(s), and not any script tags. The scripts are automatically run by\nthis extension.\n"
+                    "warning": "<b>Instructions:</b>\n<br></br>\n<b>HTML</b> - Insert HTML content for the ad in this box. Do not insert any {script} tags in this box. They will not be run.\n<br></br>\n<b>JS</b> - Insert custom Javascript code to insert in a script tag. This should <b>NOT</b> include the {script} tag itself.\n"
                 }
             },
             "lib": {

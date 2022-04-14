@@ -22,8 +22,8 @@
         "name": "blomstra/realtime",
         "title": "Realtime",
         "description": "Step up to make your Flarum forum realtime.",
-        "version": "0.2.5-beta.8",
-        "requiredFlarum": "^1.0.0",
+        "version": "0.2.8-beta.7",
+        "requiredFlarum": "^1.2.0",
         "subscriptionPlans": []
     },
     "datitisev/flarum-backup": {
@@ -61,6 +61,18 @@
             "$40.00 once"
         ]
     },
+    "davwheat/virtual-authors": {
+        "name": "davwheat/virtual-authors",
+        "title": "davwheat Virtual Authors",
+        "description": "Specify virtual authors for discussions on your forum, with credits for each.",
+        "version": "0.3.8",
+        "requiredFlarum": "^1.2.0",
+        "subscriptionPlans": [
+            "$2.99 per month",
+            "$5.99 per month",
+            "$9.99 per month"
+        ]
+    },
     "glowingblue/anti-spam": {
         "name": "glowingblue/anti-spam",
         "title": "GB Anti Spam",
@@ -94,17 +106,19 @@
         "name": "glowingblue/inline-hints",
         "title": "GB Inline Hints",
         "description": "Hints embedded into the UI to help the user with the onboarding process",
-        "version": "1.0.0",
+        "version": "1.0.2",
         "requiredFlarum": "^1.0.0",
         "subscriptionPlans": []
     },
     "glowingblue/localizd": {
         "name": "glowingblue/localizd",
         "title": "GB Localizd",
-        "description": "Provide additional translations",
-        "version": "1.1.0",
-        "requiredFlarum": "^1.0.3",
-        "subscriptionPlans": []
+        "description": "Makes Flarum a truly multi-lingual forum platform",
+        "version": "1.2.0",
+        "requiredFlarum": ">= 1.2.0 < 1.3.0",
+        "subscriptionPlans": [
+            "$250.00 per year"
+        ]
     },
     "glowingblue/modern-theme": {
         "name": "glowingblue/modern-theme",
@@ -117,15 +131,15 @@
         "name": "glowingblue/modmsg",
         "title": "GB ModMsg",
         "description": "Let moderators control to be contacted by users.",
-        "version": "1.0.0",
-        "requiredFlarum": "^1.0.0",
+        "version": "1.2.0",
+        "requiredFlarum": "^1.2.0",
         "subscriptionPlans": []
     },
     "glowingblue/newvigation": {
         "name": "glowingblue/newvigation",
         "title": "GB Newvigation",
         "description": "A new way to navigate in Flarum",
-        "version": "1.0.0",
+        "version": "1.0.2",
         "requiredFlarum": "^1.0.0",
         "subscriptionPlans": []
     },
@@ -133,7 +147,7 @@
         "name": "glowingblue/scheduled-posts",
         "title": "GB Scheduled Posts",
         "description": "Adds the ability the schedule posts (new discussions)",
-        "version": "1.0.3",
+        "version": "1.0.6",
         "requiredFlarum": "^1.0.0",
         "subscriptionPlans": []
     },
@@ -141,7 +155,7 @@
         "name": "glowingblue/solution-views",
         "title": "GB Solution Views",
         "description": "Track view counts of best answers",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "requiredFlarum": "^1.0.2",
         "subscriptionPlans": []
     },
@@ -149,7 +163,7 @@
         "name": "glowingblue/sweep",
         "title": "GB Sweep",
         "description": "Use regex to keep your forum content clean and sanitized",
-        "version": "1.0.0",
+        "version": "1.0.2",
         "requiredFlarum": "^1.0.0",
         "subscriptionPlans": []
     },
@@ -157,7 +171,7 @@
         "name": "glowingblue/typeform",
         "title": "GB Typeform",
         "description": "Call to action button that opens a Typeform survey",
-        "version": "1.0.1",
+        "version": "1.0.3",
         "requiredFlarum": "^1.0.0",
         "subscriptionPlans": []
     },
@@ -177,6 +191,44 @@
         "requiredFlarum": ">=0.1.0-beta.12 <0.1.0-beta.14",
         "subscriptionPlans": []
     },
+    "justoverclock/auto-post-badge-pro": {
+        "name": "justoverclock/auto-post-badge-pro",
+        "title": "Auto Post Badge PRO",
+        "description": "Auto Posts Badge PRO",
+        "version": "0.2.1",
+        "requiredFlarum": "^1.0.0",
+        "subscriptionPlans": [
+            "$15.00 once"
+        ]
+    },
+    "justoverclock/bicycle-ext": {
+        "name": "justoverclock/bicycle-ext",
+        "title": "Bicycle",
+        "description": "Bicycle Extension",
+        "version": "0.1.1",
+        "requiredFlarum": "^1.0.0",
+        "subscriptionPlans": []
+    },
+    "justoverclock/discord-widget": {
+        "name": "justoverclock/discord-widget",
+        "title": "Discord Widget",
+        "description": "Add Discord Widget to Flarum",
+        "version": "0.1.1",
+        "requiredFlarum": "^1.0.0",
+        "subscriptionPlans": [
+            "$10.00 once"
+        ]
+    },
+    "justoverclock/frontend-blog": {
+        "name": "justoverclock/frontend-blog",
+        "title": "Frontend Blog",
+        "description": "Change default indexpage with a blog-like frontend",
+        "version": "0.1.8",
+        "requiredFlarum": "^1.0.0",
+        "subscriptionPlans": [
+            "$15.00 once"
+        ]
+    },
     "justoverclock/igdb-api": {
         "name": "justoverclock/igdb-api",
         "title": "IGDB Api",
@@ -191,49 +243,61 @@
         "name": "justoverclock/imdb-api",
         "title": "Imdb Api - Movie Database",
         "description": "Integrate Flarum with Imdb api to get movie information inside the posts",
-        "version": "0.1.1",
+        "version": "0.1.2",
         "requiredFlarum": "^1.0.0",
         "subscriptionPlans": [
-            "$15.00 per year"
+            "$15.00 once"
         ]
     },
     "justoverclock/related-discussions": {
         "name": "justoverclock/related-discussions",
         "title": "Related Discussions",
         "description": "Add related discussions after first post",
-        "version": "1.0.5",
-        "requiredFlarum": "^1.0.0",
+        "version": "1.3.1",
+        "requiredFlarum": "^1.2.0",
         "subscriptionPlans": [
-            "$15.00 per year"
+            "$15.00 per year",
+            "$30.00 once"
+        ]
+    },
+    "justoverclock/steam-api": {
+        "name": "justoverclock/steam-api",
+        "title": "Steam Api",
+        "description": "Retrieve and show Steam user profile information",
+        "version": "0.1.4",
+        "requiredFlarum": "^1.2.0",
+        "subscriptionPlans": [
+            "$35.00 once"
         ]
     },
     "justoverclock/theaudiodb-api": {
         "name": "justoverclock/theaudiodb-api",
         "title": "TheAudioDB API",
         "description": "TheAudioDB API integration for Flarum",
-        "version": "0.1.4",
+        "version": "0.1.6",
         "requiredFlarum": "^1.0.0",
-        "subscriptionPlans": []
+        "subscriptionPlans": [
+            "$19.00 once"
+        ]
     },
     "justoverclock/website-live-screenshot": {
         "name": "justoverclock/website-live-screenshot",
         "title": "Website Screenshot",
         "description": "Add a live screenshot of a website url",
-        "version": "0.2.5",
+        "version": "0.3.2",
         "requiredFlarum": "^1.0.0",
         "subscriptionPlans": [
-            "$19.99 once"
+            "$15.00 once"
         ]
     },
     "kilowhat/flarum-ext-audit-pro": {
         "name": "kilowhat/flarum-ext-audit-pro",
         "title": "Audit Pro",
         "description": "Audit log for Flarum",
-        "version": "1.4.2",
-        "requiredFlarum": "^1.0",
+        "version": "1.5.1",
+        "requiredFlarum": "^1.2",
         "subscriptionPlans": [
-            "$4.00 per month",
-            "$40.00 per year"
+            "$30.00 once"
         ]
     },
     "kilowhat/flarum-ext-custom-paths": {
@@ -265,11 +329,21 @@
         "requiredFlarum": "^1.0",
         "subscriptionPlans": []
     },
+    "kilowhat/flarum-ext-rich-embeds": {
+        "name": "kilowhat/flarum-ext-rich-embeds",
+        "title": "Rich Embeds",
+        "description": "Rich Embeds in Flarum posts",
+        "version": "1.0.2",
+        "requiredFlarum": "^1.2",
+        "subscriptionPlans": [
+            "$20.00 once"
+        ]
+    },
     "kilowhat/flarum-ext-wordpress": {
         "name": "kilowhat/flarum-ext-wordpress",
         "title": "Wordpress Integration",
         "description": "Integrate login, comments and other features with Wordpress",
-        "version": "1.7.1",
+        "version": "1.7.3",
         "requiredFlarum": "^1.0",
         "subscriptionPlans": [
             "$5.00 per month",
@@ -295,10 +369,7 @@
         "version": "3.3.0",
         "requiredFlarum": "^1.0.2",
         "subscriptionPlans": [
-            "$5.00 per month",
-            "$20.00 per month",
-            "$55.00 once",
-            "$60.00 once"
+            "$55.00 once"
         ]
     },
     "maicol07/flarum-oidc-client": {
@@ -318,10 +389,7 @@
         "description": "Cache requests and database queries.",
         "version": "3.0.1",
         "requiredFlarum": "^1.0.2",
-        "subscriptionPlans": [
-            "$5.00 per month",
-            "$60.00 once"
-        ]
+        "subscriptionPlans": []
     },
     "reflar/webhooks-pro": {
         "name": "reflar/webhooks-pro",
@@ -331,11 +399,21 @@
         "requiredFlarum": "^0.1.0-beta.11",
         "subscriptionPlans": []
     },
+    "sycho/flarum-private-facade": {
+        "name": "sycho/flarum-private-facade",
+        "title": "Private Forum Facade",
+        "description": "Force guests to an interface with only login and signup forms.",
+        "version": "v0.1.6",
+        "requiredFlarum": "^1.2.0",
+        "subscriptionPlans": [
+            "$12.00 per year"
+        ]
+    },
     "v17development/flarum-support": {
         "name": "v17development/flarum-support",
         "title": "Support",
         "description": "Make from your forum a support platform",
-        "version": "v2.4.1",
+        "version": "v2.5.0",
         "requiredFlarum": "^1.0.0",
         "subscriptionPlans": [
             "$7.50 per month",

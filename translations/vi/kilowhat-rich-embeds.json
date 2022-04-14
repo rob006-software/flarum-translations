@@ -1,0 +1,64 @@
+{
+    "kilowhat-rich-embeds": {
+        "admin": {
+            "settings": {
+                "layout": "Bố cục",
+                "layoutOptions": {
+                    "inline": "1 dòng",
+                    "block": "Khối",
+                    "separated": "Phân cách"
+                },
+                "position": "Vị trí",
+                "positionOptions": {
+                    "replace": "Thay thế liên kết",
+                    "above": "Liên kết ở trên",
+                    "below": "Liên kết bên dưới"
+                },
+                "style": "Kiểu",
+                "styleOptions": {
+                    "vertical": "Chiều dọc",
+                    "horizontal": "Chiều ngang"
+                },
+                "imageProxy": "Proxy ảnh",
+                "imageProxyHelp": "Tất cả hình ảnh sẽ được proxy thông qua Flarum thay vì trình duyệt của khách",
+                "cacheProxy": "Cache ảnh proxy",
+                "cacheProxyHelp": "Hình ảnh sẽ được cache vào bộ nhớ thông qua headers HTTP của họ",
+                "withoutOpengraph": "Tạo rich embed cho các trang ngoại trừ dữ liệu OpenGraph",
+                "withoutOpengraphHelp": "Tiêu đề, mô tả và ảnh sẽ được quét khỏi trang HTML",
+                "blacklist": "Danh sách đen URL",
+                "blacklistHelp": "",
+                "whitelist": "",
+                "whitelistHelp": ""
+            },
+            "permissions": {
+                "useOnOwnPost": "",
+                "disableOnOwnPost": "",
+                "refreshOnOwnPost": "",
+                "disableOnAnyPost": "",
+                "refreshOnAnyPost": ""
+            },
+            "preview": {
+                "title": "",
+                "refresh": "",
+                "loading": ""
+            }
+        },
+        "lib": {
+            "embed": {
+                "altFavicon": "",
+                "altImageFallback": ""
+            },
+            "controls": {
+                "refresh": "",
+                "disable": "",
+                "disableConfirmation": ""
+            }
+        },
+        "api": {
+            "error": {
+                "blacklistedUrl": "",
+                "invalidUrl": ""
+            }
+        }
+    }
+}

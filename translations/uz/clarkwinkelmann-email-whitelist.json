@@ -2,17 +2,17 @@
     "clarkwinkelmann-email-whitelist": {
         "admin": {
             "settings": {
-                "regex": "",
-                "regexHelp": "",
-                "message": "",
-                "whitelist": "",
-                "whitelistHelp": "",
-                "blacklist": "",
-                "blacklistHelp": ""
+                "regex": "RegEx",
+                "regexHelp": "Domen roʻyxatidan oddiy ifoda tekshiruviga oʻtish. Roʻyxatning har bir qatori chegaralovchilar bilan yaroqli muntazam ifoda boʻlishi kerak.\n",
+                "message": "Maxsus xato xabari",
+                "whitelist": "Oq ro'yxat",
+                "whitelistHelp": "Har qatorga bittadan ifoda. Qora ro'yxat bo'yicha bo'ladi.\n",
+                "blacklist": "Qora ro'yxat",
+                "blacklistHelp": "Bir qatorga bitta ifoda. Agar qora ro'yxat berilgan bo'lsa, barcha kiritmalar oq ro'yxatga o'tadi.\n"
             }
         },
         "api": {
-            "fallbackMessage": ""
+            "fallbackMessage": "Bu email oq ro'yxatda emas."
         }
     }
 }

@@ -3,20 +3,24 @@
         "forum": {
             "badges": {
                 "is_private": {
-                    "tooltip": ""
+                    "tooltip": "Privé discussie"
                 }
             },
             "buttons": {
-                "add_recipients": "",
-                "submit": "",
-                "edit_recipients": "",
-                "send_pd": "",
-                "cancel": "",
-                "remove_from_discussion": ""
+                "add_recipients": "Ontvangers",
+                "submit": "Oke",
+                "edit_recipients": "Ontvangers aanpassen",
+                "send_pd": "Stuur {username} een bericht",
+                "cancel": "Annuleer",
+                "make_public": "",
+                "remove_from_discussion": "Privédiscussie verlaten"
             },
             "composer_private_discussion": {
-                "submit_button": "",
-                "title_placeholder": ""
+                "submit_button": "Stuur privé discussie",
+                "title_placeholder": "Privé discussie titel"
+            },
+            "confirm": {
+                "make_public": ""
             },
             "labels": {
                 "recipients": "",
@@ -24,7 +28,7 @@
             },
             "nav": {
                 "start_button": "",
-                "nav_item": ""
+                "nav_item": "Privé discussie"
             },
             "input": {
                 "search_recipients": ""
@@ -54,25 +58,26 @@
                 "recipients_modified": {
                     "added_and_removed": "",
                     "added": "",
+                    "made_public": "",
                     "removed": "",
-                    "removed_self": ""
+                    "removed_self": "{username} heeft de privé discussie verlaten."
                 }
             },
             "user": {
                 "settings": {
-                    "block_pd": ""
+                    "block_pd": "Blokkeer privé discussie"
                 },
-                "byobu_link": "",
-                "dropdown_label": ""
+                "byobu_link": "Privé discussie",
+                "dropdown_label": "Privé discussie"
             },
             "notifications": {
-                "pd_label": "",
-                "pd_reply_label": "",
-                "pd_reply_text": "",
-                "pd_text": "",
-                "pd_user_left_label": "",
-                "pd_user_left_text": "",
-                "pd_added_text": "",
+                "pd_label": "Iemand heeft mij toegevoegd in een nieuwe privé discussie",
+                "pd_reply_label": "Iemand heeft een bericht geplaatst in een privé discussie waar ik ontvanger van ben",
+                "pd_reply_text": "{username} heeft een bericht geplaatst in een privé discussie waar jij deel van bent",
+                "pd_text": "{username} heeft een privé discussie met jou gestart",
+                "pd_user_left_label": "Een ontvangende gebruiker heeft de privé discussie verlaten waar jij deel van bent",
+                "pd_user_left_text": "{username} heeft de privé discussie verlaten",
+                "pd_added_text": "{username} heeft je toegevoegd aan een privé discussie",
                 "pd_added_label": ""
             }
         },
@@ -83,10 +88,13 @@
                 "create_private_discussions_with_blocking_users": "",
                 "edit_user_recipients": "",
                 "edit_group_recipients": "",
+                "make_private_into_public": "",
                 "view_private_discussions-when-flagged": ""
             },
             "settings": {
                 "badge-icon": "",
+                "enable-make-public-option": "",
+                "enable-make-public-option-help": "",
                 "post-event-icon": ""
             }
         },

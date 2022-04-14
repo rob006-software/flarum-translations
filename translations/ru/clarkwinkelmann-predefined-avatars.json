@@ -2,32 +2,32 @@
     "clarkwinkelmann-predefined-avatars": {
         "admin": {
             "settings": {
-                "predefinedAvatarsOnly": "",
-                "predefinedAvatarsOnlyHelp": "",
-                "predefinedAvatarsNoRemove": "",
-                "predefinedAvatarsNoRemoveHelp": "",
-                "predefinedAvatarsDefault": "",
-                "predefinedAvatarsDefaultHelp": "",
-                "predefinedAvatars": "",
-                "predefinedAvatarsHelp": "",
+                "predefinedAvatarsOnly": "Разрешить только заранее определенные аватары",
+                "predefinedAvatarsOnlyHelp": "Убирает возможность загружать пользовательские изображения для аватара, пока не будет установлено разрешение ниже.",
+                "predefinedAvatarsNoRemove": "Не допускать отсутствия аватара",
+                "predefinedAvatarsNoRemoveHelp": "Пользователи, уже имеющие пользовательский или предустановленный аватар, не будут вправе откатить его на \"начальный\" аватар по умолчанию, пока не будет установлено разрешение ниже.",
+                "predefinedAvatarsDefault": "Аватар по умолчанию",
+                "predefinedAvatarsDefaultHelp": "Применяется к новым пользователям при регистрации.",
+                "predefinedAvatars": "Доступные аватары",
+                "predefinedAvatarsHelp": "Эти файлы не будут конвертированы, их размер не изменится. Обеспечьте нужный размер, сжатие и экспорт в нужный формат изображения перед загрузкой. Flarum \"предпочитает\" квадратные изображения 100x100 .png или .jpg, но вы можете выбрать и другие размеры при помощи пользовательских настроек CSS.\n",
                 "defaultOptions": {
-                    "none": "",
-                    "first": "",
-                    "random": ""
+                    "none": "Нет аватара",
+                    "first": "Первый аватар из списка",
+                    "random": "Случайный аватар из списка"
                 }
             },
             "permissions": {
-                "setPredefinedAvatar": "",
-                "setCustomAvatarAlways": ""
+                "setPredefinedAvatar": "Выберите аватар из предложенного списка",
+                "setCustomAvatarAlways": "Устанавливать пользовательский аватар в любое время"
             }
         },
         "forum": {
             "modal": {
-                "title": "",
-                "imageAlt": ""
+                "title": "Выберите аватар",
+                "imageAlt": "Аватар"
             },
             "editor": {
-                "setPredefinedAvatar": ""
+                "setPredefinedAvatar": "Выберите аватар из предложенных"
             }
         }
     }

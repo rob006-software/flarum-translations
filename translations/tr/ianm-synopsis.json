@@ -2,11 +2,20 @@
     "ianm-synopsis": {
         "admin": {
             "settings": {
-                "excerpt-label": "Özet metninin karakter sayısı",
+                "excerpt-length": {
+                    "label": "Özet alıntısının karakter uzunluğu",
+                    "help": "Gönderiden kaç karakter görüntülenmelidir?"
+                },
                 "rich-excerpts": "Özeti zengin içerik kullanarak gösterin (Dikkatle kullanın)",
                 "excerpt-type": "Özette hangi içerik gösterilsin?",
                 "first-label": "İlk gönderi",
-                "last-label": "Son gönderi"
+                "last-label": "Son gönderi",
+                "tags-enabled": "<code>flarum/tags</code>'ı etkinleştirdiniz. Etiketlerin kendi ayarları olmadığı sürece, bu ayarlar varsayılan olacaktır.",
+                "rich-excerpts.label": "Zengin içerik kullanarak alıntıları görüntüleyin",
+                "rich-excerpts.help": "Etkinleştirildiğinde özete resimler, yerleştirmeler ve diğer metin dışı öğeler dahil edilebilir",
+                "excerpt-type.label": "Hangi gönderi alıntı olarak gösterilmelidir?",
+                "excerpt-type.help": "Özet içeriği için ilk gönderi mi yoksa son gönderi mi kullanılacağını seçin",
+                "excerpt-label": "Özet metninin karakter sayısı"
             }
         },
         "forum": {

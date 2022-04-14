@@ -12,11 +12,15 @@
                 "edit_recipients": "Alıcıları Düzenle",
                 "send_pd": "{username} kullanıcısına mesaj gönder",
                 "cancel": "İptal",
+                "make_public": "Bu tartışmayı herkese açık hale getirin",
                 "remove_from_discussion": "Bu özel tartışmadan ayrıl"
             },
             "composer_private_discussion": {
                 "submit_button": "Özel Tartışma Başlat",
                 "title_placeholder": "Özel Tartışma Başlığı"
+            },
+            "confirm": {
+                "make_public": "Alıcıları kaldırmak ve bu tartışmayı atanan etiketi görüntüleyebilen herkese görünür kılmak istediğinizden emin misiniz?"
             },
             "labels": {
                 "recipients": "{count, plural, one {{count} Alıcı} other {{count} Alıcı}}",
@@ -54,6 +58,7 @@
                 "recipients_modified": {
                     "added_and_removed": "{username}, {added} alıcılara ekledi ve {removed} alıcılardan kaldırdı.",
                     "added": "{username}, {added} alıcılara ekledi.",
+                    "made_public": "{username} tüm alıcıları kaldırdı ve tartışmayı herkese açık hale getirdi",
                     "removed": "{username}, {removed} alıcılardan kaldırdı.",
                     "removed_self": "{username} özel tartışmadan ayrıldı."
                 }
@@ -83,10 +88,13 @@
                 "create_private_discussions_with_blocking_users": "Özel tartışmaları engelleyen kullanıcılarla özel tartışma oluştur",
                 "edit_user_recipients": "Özel tartışmalarda yer alan kullanıcıları düzenle",
                 "edit_group_recipients": "Özel tartışmalarda yer alan grupları düzenle",
+                "make_private_into_public": "Özel bir tartışmayı genel bir tartışmaya dönüştürün",
                 "view_private_discussions-when-flagged": "Kullanıcıların bildirdiği özel tarışmaları görüntüle"
             },
             "settings": {
                 "badge-icon": "Byobu Tartışma Rozeti",
+                "enable-make-public-option": "\"Herkese açık hale getir\" özelliğini etkinleştirin",
+                "enable-make-public-option-help": "Tüm alıcıları kaldırma, yeni bir etiket atama ve tartışmayı herkese açık hale getirme (seçilen etiketin görünürlük ayarlarına göre) izni olanlara yetenek ekler.",
                 "post-event-icon": "Byobu Gönderi Etkinlikleri"
             }
         },

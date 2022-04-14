@@ -2,175 +2,175 @@
     "datitisev-backup": {
         "admin": {
             "adapters": {
-                "local": "",
-                "aliyun": "",
-                "azure": "",
-                "aws": "",
-                "dospaces": "",
-                "dropbox": "",
-                "gdrive": "",
-                "ftp": "",
-                "gridfs": "",
-                "rackspace": "",
-                "sftp": "",
-                "webdav": "",
-                "zip": ""
+                "local": "Lokal saqlagich",
+                "aliyun": "Alibaba Cloud (Aliyun)",
+                "azure": "Microsoft Azure",
+                "aws": "Amazon AWS S3",
+                "dospaces": "Digital Ocean Spaces",
+                "dropbox": "Dropbox",
+                "gdrive": "Google Drive",
+                "ftp": "FTP",
+                "gridfs": "GridFS",
+                "rackspace": "Rackspace",
+                "sftp": "SFTP",
+                "webdav": "Webdav",
+                "zip": "Zip arxiv"
             },
-            "settings_button": "",
-            "required_package_button": "",
+            "settings_button": "Sozlash",
+            "required_package_button": "O'rnatish",
             "you-need-for": {
-                "aliyun": "",
-                "azure": "",
-                "aws": "",
-                "copy": "",
-                "dospaces": "",
-                "dropbox": "",
-                "gdrive": "",
-                "gridfs": "",
-                "rackspace": "",
-                "sftp": "",
-                "webdav": ""
+                "aliyun": "aliyuncs/aliyun-oss-flysystem",
+                "azure": "league/flysystem-azure",
+                "aws": "league/flysystem-aws-s3-v3",
+                "copy": "league/flysystem-copy",
+                "dospaces": "league/flysystem-aws-s3-v3",
+                "dropbox": "spatie/flysystem-dropbox",
+                "gdrive": "nao-pon/flysystem-google-drive",
+                "gridfs": "league/flysystem-gridfs",
+                "rackspace": "league/flysystem-rackspace",
+                "sftp": "league/flysystem-sftp",
+                "webdav": "league/flysystem-webdav"
             },
             "required-package-modal": {
-                "title": "",
-                "content": ""
+                "title": "{adapter} uchun paket kerak",
+                "content": "Ushbu drayverdan foydalanish uchun ma'lum bir paketni o'rnatishingiz kerak bo'ladi. Buni quyidagi kompozitor buyrug‘ini ishga tushirish orqali amalga oshirishingiz mumkin: Flarum o‘rnatish katalogida <code>composer require {package}</code>.\n"
             },
             "adapter-settings-modal": {
-                "title": "",
+                "title": "{adapter}ni sozlash",
                 "local": {
                     "target": {
-                        "label": "",
-                        "description": ""
+                        "label": "Maqsad yo'li",
+                        "description": "Zaxira nusxalarini saqlash uchun mahalliy katalogni belgilang."
                     }
                 },
                 "aliyun": {
                     "endpoint": {
-                        "label": "",
-                        "description": ""
+                        "label": "Yakuniy nuqta",
+                        "description": "Saqlash so'nggi nuqtasi URL manzili."
                     },
                     "access-id": {
-                        "label": "",
-                        "description": ""
+                        "label": "Kirish ID",
+                        "description": "Sizning autentifikatsiyangiz Kirish token identifikatori"
                     },
                     "access-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "Kirish kaliti",
+                        "description": "Sizning autentifikatsiyangiz uchun kirish token kaliti"
                     },
                     "bucket": {
-                        "label": "",
-                        "description": ""
+                        "label": "Ombor",
+                        "description": "Ishlatish uchun ma'lumot ombori."
                     },
                     "path-prefix": {
-                        "label": "",
-                        "description": ""
+                        "label": "Yo'l prefiksi",
+                        "description": "Fayllar uchun ixtiyoriy standart yoʻl prefiksi."
                     }
                 },
                 "azure": {
                     "endpoint": {
-                        "label": "",
-                        "description": ""
+                        "label": "Yakuniy nuqta",
+                        "description": "Saqlash so'nggi nuqtasi URL manzili."
                     },
                     "container": {
-                        "label": "",
-                        "description": ""
+                        "label": "Konteyner",
+                        "description": "Azure konteyneri"
                     }
                 },
                 "aws": {
                     "credentials": {
                         "key": {
-                            "label": "",
-                            "description": ""
+                            "label": "Kalit",
+                            "description": "AWS kirish kaliti"
                         },
                         "secret": {
-                            "label": "",
-                            "description": ""
+                            "label": "Sir",
+                            "description": "AWS sirli so'zi"
                         }
                     },
                     "region": {
-                        "label": "",
-                        "description": ""
+                        "label": "Mintaqa",
+                        "description": "Ma'lumot saqlagich mintaqasi."
                     },
                     "version": {
-                        "label": "",
-                        "description": ""
+                        "label": "Versiya",
+                        "description": "Versiyani belgilang yoki oxirgisi uchun bo'sh qoldiring."
                     },
                     "bucket": {
-                        "label": "",
-                        "description": ""
+                        "label": "Ma'lumot saqlagich",
+                        "description": "Yuklash uchun S3 ma'lumot saqlagich."
                     },
                     "path-prefix": {
-                        "label": "",
-                        "description": ""
+                        "label": "Yo'l prefiksi",
+                        "description": "Fayllar uchun ixtiyoriy standart yoʻl prefiksi."
                     }
                 },
                 "dropbox": {
                     "access-token": {
-                        "label": "",
-                        "description": ""
+                        "label": "Kirish tokeni",
+                        "description": "oAuth 2 kirish tokenini @ https://www.dropbox.com/developers/apps yarating."
                     }
                 },
                 "gdrive": {
                     "client": {
                         "id": {
-                            "label": "",
-                            "description": ""
+                            "label": "Mijoz ID",
+                            "description": "Google loyihasini yaratish va yuklab olish uchun @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md ko'rsatmalariga amal qiling. Sizning mijoz identifikatoringiz va mijoz siringiz.\n"
                         },
                         "secret": {
-                            "label": "",
-                            "description": ""
+                            "label": "Mijos sirli so'zi",
+                            "description": " "
                         }
                     },
                     "refresh-token": {
-                        "label": "",
-                        "description": ""
+                        "label": "Tokenni yangilash",
+                        "description": "Google oAuth ilovangiz uchun yangilash tokenini olish uchun @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md ko‘rsatmalariga amal qiling.\n"
                     },
                     "folder": {
-                        "label": "",
-                        "description": ""
+                        "label": "Papka ID",
+                        "description": "https://drive.google.com/drive/u/0/folders/ID"
                     }
                 },
                 "ftp": {
                     "host": {
-                        "label": "",
-                        "description": ""
+                        "label": "Masofaviy host nomi",
+                        "description": "FTP bilan ulanish uchun xost nomi, masalan: <em>ftp.yourdomain.local</em>."
                     },
                     "username": {
-                        "label": "",
-                        "description": ""
+                        "label": "Foydalanuvchi nomi",
+                        "description": "FTP serverida autentifikatsiya qilinadigan foydalanuvchi nomi."
                     },
                     "password": {
-                        "label": "",
-                        "description": ""
+                        "label": "Parol",
+                        "description": "FTP serverida autentifikatsiya qilish uchun foydalanuvchi paroli."
                     },
                     "private-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "Shaxsiy kalit",
+                        "description": "FTP ulanishini autentifikatsiya qilishda foydalanish uchun shaxsiy kalitga yo'l (afzalroq mutlaq)."
                     },
                     "port": {
-                        "label": "",
-                        "description": ""
+                        "label": "Port",
+                        "description": "FTP porti (standart 21)."
                     },
                     "root": {
-                        "label": "",
-                        "description": ""
+                        "label": "Asosiy yo'l",
+                        "description": "Zaxira nusxalarini saqlash uchun masofaviy asosiy yo'li (pastki katalog)."
                     },
                     "passive": {
-                        "toggle": "",
-                        "description": ""
+                        "toggle": "Passiv ulanish",
+                        "description": "Serverga passiv FTP ulanishidan foydalanish kerakmi."
                     },
                     "ssl": {
-                        "toggle": "",
-                        "description": ""
+                        "toggle": "SSL",
+                        "description": "Serverga shifrlangan SSL ulanishidan foydalanish kerakmi."
                     },
                     "timeout": {
-                        "label": "",
-                        "description": ""
+                        "label": "Vaqt tamom",
+                        "description": "FTP serveri bilan ulanishni kutish uchun soniyalar soni."
                     }
                 }
             },
             "nav": {
-                "label": "",
-                "description": ""
+                "label": "Zaxira",
+                "description": "Forumingizning nusxalarini saqlang."
             }
         }
     }

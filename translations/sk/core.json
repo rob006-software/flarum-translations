@@ -104,7 +104,7 @@
             },
             "extension": {
                 "configure_scopes": "Nastaviť Rozsahy",
-                "confirm_purge": "",
+                "confirm_uninstall": "Odinštalovanie vymaže všetky údaje o tomto doplnku v databáze a jeho súbory. Ste si istý že chcete pokračovať?",
                 "disabled": "Deaktivovaný",
                 "enable_to_see": "Aktivujte tento doplnok pre zobrazenie a zmenu jeho nastavení.",
                 "enabled": "Aktivovaný",
@@ -120,14 +120,14 @@
                 "no_settings": "Tento doplnok neobsahuje žiadne nastavenia.",
                 "open_modal": "Otvoriť Nastavenia",
                 "permissions_title": "Oprávnenia",
+                "uninstall_button": "Odinštalovať",
+                "confirm_purge": "",
                 "purge_button": "",
                 "readme": {
                     "button_label": "",
                     "no_readme": "",
                     "title": ""
                 },
-                "confirm_uninstall": "Odinštalovanie vymaže všetky údaje o tomto doplnku v databáze a jeho súbory. Ste si istý že chcete pokračovať?",
-                "uninstall_button": "Odinštalovať",
                 "saved_message": "Tvoje zmeny boli uložené."
             },
             "header": {
@@ -310,11 +310,11 @@
             "discussion_list": {
                 "empty_text": "Vyzerá to tak že tu nie sú žiadne diskusie.",
                 "load_more_button": "=> core.ref.load_more",
+                "mark_as_read_tooltip": "Označiť Ako Prečítané",
                 "replied_text": "Používateľ {username} odpovedal {ago}",
                 "started_text": "Používateľ {username} začal {ago}",
                 "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": "",
-                "mark_as_read_tooltip": "Označiť Ako Prečítané"
+                "unread_replies_a11y_label": ""
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -479,7 +479,6 @@
             }
         },
         "lib": {
-            "debug_button": "",
             "badge": {
                 "hidden_tooltip": "Skrytá"
             },
@@ -513,12 +512,6 @@
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
             },
-            "modal": {
-                "close": ""
-            },
-            "nav": {
-                "drawer_button": ""
-            },
             "number_suffix": {
                 "kilo_text": "tis.",
                 "mega_text": "mil."
@@ -530,6 +523,20 @@
             },
             "username": {
                 "deleted_text": "[zmazaný]"
+            },
+            "debug_button": "",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": ""
+            },
+            "nav": {
+                "drawer_button": ""
             }
         },
         "views": {
@@ -587,6 +594,10 @@
                 "new_password_label": "Nové Heslo",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
             }
         },
         "api": {

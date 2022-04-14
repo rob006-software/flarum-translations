@@ -1,0 +1,67 @@
+{
+    "fof-masquerade": {
+        "forum": {
+            "alerts": {
+                "profile-completion-required": "아래의 필수적인 항목들을 채워주세요.\n",
+                "profile-completed": "프로필 설정 완료! <a>홈페이지로 가기</a>"
+            },
+            "buttons": {
+                "view-profile": "프로필 보기",
+                "edit-profile": "프로필 편집",
+                "save-profile": "저장"
+            },
+            "fields": {
+                "select": {
+                    "none-optional": "아무것도 선택 안함 (선택)",
+                    "none-required": "옵션을 선택을 해주세요 (필수)"
+                },
+                "boolean": {
+                    "yes": "예",
+                    "no": "아니오"
+                }
+            }
+        },
+        "admin": {
+            "general-options": "일반 설정",
+            "buttons": {
+                "add-field": "항목 생성",
+                "edit-field": "항목 저장",
+                "delete-field": "항목 삭제"
+            },
+            "permissions": {
+                "edit-others-profile": "다른 유저들의 프로필을 편집",
+                "have-profile": "Masquerade 프로필을 가짐",
+                "view-profile": "Masquerade 프로필을 봄"
+            },
+            "fields": {
+                "title": "항목들",
+                "add": "{field} 항목 추가",
+                "edit": "{field} 항목 편집",
+                "name": "항목 이름",
+                "name-help": "공개적으로 보이는 (번역 불가) 항목 이름\n",
+                "description": "항목 설명",
+                "description-help": "이 항목에 쓰임 및 필요성을 설명하는 (선택적인) 항목\n",
+                "required": "이 항목을 필수로 만들기",
+                "on_bio": "이 항목에 대한 답변을 유저의 프로필에 보이기",
+                "type": "형식",
+                "validation": "유효성 확인",
+                "validation-help": "<a>Laravel 프레임워크</a>의 지원되는 유효성 확인 방법을 확인하세요. 예시: \"string|min:5\" 또는 \"url\".\n",
+                "prefix": "항목 접두사",
+                "prefix-help": "사용자가 입력한 값 앞이 이 접두사를 표시합니다.\n",
+                "icon": "아이콘",
+                "icon-help": "사용자가 입력한 값 앞이 이 아이콘을 표시합니다. 사용 가능한 아이콘 참조를 위해 <a>FontAwesome 웹사이트</a>를 확인하세요. 아이콘을 \"fas fa-info\"와 같이 \"fa-\" 접두사와 사용하세요.\n",
+                "force-user-to-completion": "사용자가 프로필을 무조건 완성하게 하기",
+                "options": "설정들",
+                "option-new": "새로운 설정",
+                "option-comma-warning": "설정의 이름에는 쉼표(\",\")가 있을 수 없습니다."
+            },
+            "types": {
+                "advanced": "고급",
+                "boolean": "체크박스",
+                "email": "이메일",
+                "select": "드롭다운",
+                "url": "URL"
+            }
+        }
+    }
+}

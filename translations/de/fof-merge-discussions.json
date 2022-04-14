@@ -3,12 +3,24 @@
         "forum": {
             "modal": {
                 "title": "Diskussionen zusammenführen",
+                "ordering_heading": "",
+                "ordering_date_label": "",
+                "ordering_date_help": "",
+                "ordering_suffix_label": "",
+                "ordering_suffix_help": "",
+                "type_heading": "",
                 "type_target_label": "Mit mir zusammenführen",
                 "type_target_help_text": "Wähle die Diskussion(en), die in <b>{title}</b> zusammengeführt werden sollen.",
                 "type_from_label": "Diese Diskussion in eine andere zusammenführen",
                 "type_from_help_text": "Wähle die Zieldiskussion, in die <b>{title}</b> zusammengeführt werden soll.",
                 "load_preview_button": "Vorschau",
                 "submit_button": "=> fof-merge-discussions.ref.merge"
+            },
+            "notification": {
+                "discussion_merged": "",
+                "preferences": {
+                    "discussion_merged": ""
+                }
             },
             "discussion": {
                 "merge": "=> fof-merge-discussions.ref.merge"
@@ -20,17 +32,28 @@
         "admin": {
             "permissions": {
                 "merge_discussions_label": "Diskussionen zusammenführen"
+            },
+            "settings": {
+                "search_result_help": "",
+                "search_result_label": ""
             }
         },
         "api": {
             "error": {
                 "merging_failed": "Zusammenführen der Diskussionen fehlgeschlagen.",
                 "updating_failed": "Aktualisierung der Diskussionsdetails fehlgeschlagen.",
-                "deleting_failed": "Leere Diskussionen konnten nicht gelöscht werden."
+                "deleting_failed": "Leere Diskussionen konnten nicht gelöscht werden.",
+                "fixing_posts_number_failed": ""
             }
         },
         "ref": {
             "merge": "Zusammenführen"
+        },
+        "email": {
+            "merged": {
+                "body": "",
+                "subject": ""
+            }
         }
     }
 }

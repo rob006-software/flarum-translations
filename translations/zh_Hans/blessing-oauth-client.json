@@ -1,0 +1,20 @@
+{
+    "blessing-oauth-client": {
+        "admin": {
+            "popup": {
+                "title": "Blessing Skin 登录",
+                "field": {
+                    "base-url": "Blessing Skin 根 URL",
+                    "app-id": "OAuth 客户端 ID",
+                    "app-secret": "OAuth 客户端 Secret",
+                    "button-title": "登录按钮的文本",
+                    "button-title-placeholder": "=> blessing-oauth-client.api.default-login-button-title",
+                    "button-icon": "登录按钮的图标"
+                }
+            }
+        },
+        "api": {
+            "default-login-button-title": "使用 Blessing Skin 登录"
+        }
+    }
+}

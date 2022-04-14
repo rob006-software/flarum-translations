@@ -16,7 +16,7 @@
             "scheduled_drafts_disabled": "Расписание черновиков отключено в настройках."
         },
         "ref": {
-            "schedule_draft": "Запланировать"
+            "schedule_draft": "Запланировать публикацию"
         },
         "forum": {
             "composer": {
@@ -32,24 +32,24 @@
                 "delete_all_button": "Удалить всё",
                 "delete_button": "Удалить",
                 "schedule_button": "=> fof-drafts.ref.schedule_draft",
-                "scheduled_icon_tooltip": "Запланировано на {datetime}",
+                "scheduled_icon_tooltip": "Запланировано на: {datetime}",
                 "scheduled_icon_tooltip_formatter": "L [at] LT",
                 "tooltip": "=> fof-drafts.forum.dropdown.title",
                 "alert": "Вы уверены, что хотите удалить черновик?",
-                "delete_all_alert": "Вы уверены, что хотите удалить все черновики?"
+                "delete_all_alert": "Вы уверены, что хотите удалить ВСЕ черновики?"
             },
             "schedule_draft_modal": {
                 "title": "=> fof-drafts.ref.schedule_draft",
                 "text": "Запланируйте черновик для автоматической публикации в более позднее время!",
-                "scheduled_text": "Публикация запланирована на {datetime}.",
+                "scheduled_text": "Публикация запланирована на: {datetime}.",
                 "scheduled_error": "Невозможно опубликовать: {error}.",
                 "unschedule_button": "Отменить",
-                "unschedule_warning": "Вы уверены, что хотите отменить автоматическую публикацию черновика?",
+                "unschedule_warning": "Вы уверены, что хотите отменить публикацию черновика?",
                 "reschedule_button": "Перенести",
                 "schedule_button": "Запланировать",
-                "schedule_time_preview": "Черновик будет автоматически опубликован <b>{datetime}</b>.",
+                "schedule_time_preview": "Черновик будет автоматически опубликован в <b>{datetime}</b>.",
                 "schedule_time_preview_formatter": "LLLL",
-                "schedule_time_preview_invalid": "Некорректные дата и/или время"
+                "schedule_time_preview_invalid": "Некорректная дата и / или время"
             },
             "user": {
                 "settings": {
