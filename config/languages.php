@@ -55,6 +55,7 @@ return [
 		// translations included in extension
 		// '!clarkwinkelmann-emojionearea', https://github.com/clarkwinkelmann/flarum-ext-emojionearea/issues/28#issuecomment-855995493
 		'!justoverclock-discussion-hero-showtags',
+		'!justoverclock-thread-read-time',
 		'!maicol07-sso',
 		'!matteocontrini-imgur-upload',
 	]),
