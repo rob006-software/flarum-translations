@@ -703,6 +703,9 @@ return [
 	'justoverclock-theaudiodb-api' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/justoverclock-theaudiodb-api.yml',
 	],
+	'justoverclock-thread-read-time' => [
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/thread-read-time/0.1.7/locale/en.yml',
+	],
 	'justoverclock-toastme' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-toastme/0.1.1/resources/locale/en.yml',
 	],
