@@ -486,6 +486,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`blomstra-secondary-tags-toggler`](https://weblate.rob006.net/projects/flarum/blomstra-secondary-tags-toggler) | [`blomstra/secondary-tags-toggler`](https://github.com/blomstra/flarum-ext-secondary-tags-toggler) |
 | [`blomstra-sort-order-toggle`](https://weblate.rob006.net/projects/flarum/blomstra-sort-order-toggle) | [`blomstra/sort-order-toggle`](https://github.com/blomstra/flarum-ext-sort-order-toggle) |
 | [`blomstra-user-filter`](https://weblate.rob006.net/projects/flarum/blomstra-user-filter) | [`blomstra/user-filter`](https://github.com/blomstra/flarum-ext-user-filter) |
+| [`blomstra-welcome-login`](https://weblate.rob006.net/projects/flarum/blomstra-welcome-login) | [`blomstra/welcome-login`](https://github.com/blomstra/flarum-ext-welcome-login) |
 | [`clarkwinkelmann-catch-the-fish`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-catch-the-fish) | [`clarkwinkelmann/catch-the-fish`](https://github.com/clarkwinkelmann/catch-the-fish) |
 | [`clarkwinkelmann-author-change`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-author-change) | [`clarkwinkelmann/flarum-ext-author-change`](https://github.com/clarkwinkelmann/flarum-ext-author-change) |
 | [`clarkwinkelmann-bookmarks`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-bookmarks) | [`clarkwinkelmann/flarum-ext-bookmarks`](https://github.com/clarkwinkelmann/flarum-ext-bookmarks) |
@@ -494,6 +495,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`clarkwinkelmann-collapsible-posts`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-collapsible-posts) | [`clarkwinkelmann/flarum-ext-collapsible-posts`](https://github.com/clarkwinkelmann/flarum-ext-collapsible-posts) |
 | [`clarkwinkelmann-colorful-borders`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-colorful-borders) | [`clarkwinkelmann/flarum-ext-colorful-borders`](https://github.com/clarkwinkelmann/flarum-ext-colorful-borders) |
 | [`clarkwinkelmann-create-user-modal`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-create-user-modal) | [`clarkwinkelmann/flarum-ext-create-user-modal`](https://github.com/clarkwinkelmann/flarum-ext-create-user-modal) |
+| [`clarkwinkelmann-default-image-alt`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-default-image-alt) | [`clarkwinkelmann/flarum-ext-default-image-alt`](https://github.com/clarkwinkelmann/flarum-ext-default-image-alt) |
 | [`clarkwinkelmann-email-as-display-name`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-email-as-display-name) | [`clarkwinkelmann/flarum-ext-email-as-display-name`](https://github.com/clarkwinkelmann/flarum-ext-email-as-display-name) |
 | [`clarkwinkelmann-email-whitelist`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-email-whitelist) | [`clarkwinkelmann/flarum-ext-email-whitelist`](https://github.com/clarkwinkelmann/flarum-ext-email-whitelist) |
 | [`clarkwinkelmann-emojionearea`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-emojionearea) | [`clarkwinkelmann/flarum-ext-emojionearea`](https://github.com/clarkwinkelmann/flarum-ext-emojionearea) |
@@ -597,6 +599,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`justoverclock-last-users-posts`](https://weblate.rob006.net/projects/flarum/justoverclock-last-users-posts) | [`justoverclock/last-users-posts`](https://github.com/justoverclockl/last-users-posts) |
 | [`justoverclock-og-meta-tag`](https://weblate.rob006.net/projects/flarum/justoverclock-og-meta-tag) | [`justoverclock/og-meta-tag`](https://github.com/justoverclockl/og-meta-tag) |
 | [`justoverclock-random-post`](https://weblate.rob006.net/projects/flarum/justoverclock-random-post) | [`justoverclock/random-post`](https://github.com/justoverclockl/random-post) |
+| [`justoverclock-thread-read-time`](https://weblate.rob006.net/projects/flarum/justoverclock-thread-read-time) | [`justoverclock/thread-read-time`](https://github.com/justoverclockl/thread-read-time) |
 | [`justoverclock-user-pc-specs`](https://weblate.rob006.net/projects/flarum/justoverclock-user-pc-specs) | [`justoverclock/user-pc-specs`](https://github.com/justoverclockl/user-pc-specs) |
 | [`justoverclock-user-statistics`](https://weblate.rob006.net/projects/flarum/justoverclock-user-statistics) | [`justoverclock/user-statistics`](https://github.com/justoverclockl/user-statistics) |
 | [`justoverclock-username-blacklist`](https://weblate.rob006.net/projects/flarum/justoverclock-username-blacklist) | [`justoverclock/username-blacklist`](https://github.com/justoverclockl/username-blacklist) |
