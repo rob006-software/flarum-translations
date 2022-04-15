@@ -845,7 +845,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/nosun/flarum-ext-reply2see/v1.03/resources/locale/en.yml',
 	],
 	'nyu8-email-filter' => [
-		'tag' => 'https://raw.githubusercontent.com/nyu8/flarum-email-filter/v1.0.5/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/nyu8/flarum-email-filter/v1.0.6/locale/en.yml',
 	],
 	'ralkage-hcaptcha' => [
 		'tag' => 'https://raw.githubusercontent.com/Ralkage/flarum-hcaptcha/1.0.0/resources/locale/en.yml',
