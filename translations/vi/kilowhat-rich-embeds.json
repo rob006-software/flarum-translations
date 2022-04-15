@@ -26,38 +26,38 @@
                 "withoutOpengraph": "Tạo rich embed cho các trang ngoại trừ dữ liệu OpenGraph",
                 "withoutOpengraphHelp": "Tiêu đề, mô tả và ảnh sẽ được quét khỏi trang HTML",
                 "blacklist": "Danh sách đen URL",
-                "blacklistHelp": "",
-                "whitelist": "",
-                "whitelistHelp": ""
+                "blacklistHelp": "Kiểm tra tài liệu để biết định dạng. Các URL này sẽ không bao giờ có nhiều nhúng và không thể được ủy quyền thông qua proxy hình ảnh",
+                "whitelist": "Danh sách trắng URL",
+                "whitelistHelp": "Kiểm tra tài liệu để biết định dạng. Nếu một giá trị được đặt, tất cả các URL khác sẽ được coi là danh sách đen"
             },
             "permissions": {
-                "useOnOwnPost": "",
-                "disableOnOwnPost": "",
-                "refreshOnOwnPost": "",
-                "disableOnAnyPost": "",
-                "refreshOnAnyPost": ""
+                "useOnOwnPost": "Sử dụng nhúng trong bài đăng của riêng mình",
+                "disableOnOwnPost": "Tắt nhúng trên bài đăng của chính mình",
+                "refreshOnOwnPost": "Làm mới bản nhúng trên bài đăng của chính mình",
+                "disableOnAnyPost": "Tắt nhúng trên bất kỳ bài đăng nào",
+                "refreshOnAnyPost": "Làm mới bản nhúng trên bất kỳ bài đăng nào"
             },
             "preview": {
-                "title": "",
-                "refresh": "",
-                "loading": ""
+                "title": "Xem trước",
+                "refresh": "Làm mới",
+                "loading": "Đang tải..."
             }
         },
         "lib": {
             "embed": {
-                "altFavicon": "",
-                "altImageFallback": ""
+                "altFavicon": "Biểu tượng {website}",
+                "altImageFallback": "Ảnh Opengraph {website}"
             },
             "controls": {
-                "refresh": "",
-                "disable": "",
-                "disableConfirmation": ""
+                "refresh": "Tải dữ liệu lại",
+                "disable": "Tắt nhúng trên bài viết này",
+                "disableConfirmation": "Tất cả các nhúng sẽ bị xóa khỏi bài đăng này. Tiếp tục?"
             }
         },
         "api": {
             "error": {
-                "blacklistedUrl": "",
-                "invalidUrl": ""
+                "blacklistedUrl": "URL {url} chưa được đưa vào danh sách cho phép để nhúng.",
+                "invalidUrl": "URL {url} không hợp lệ."
             }
         }
     }
