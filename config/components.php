@@ -151,6 +151,9 @@ return [
 	'clarkwinkelmann-default-image-alt' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-default-image-alt/1.0.1/locale/en.yml',
 	],
+	'clarkwinkelmann-editable-user-attributes' => [
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-editable-user-attributes/1.0.0/resources/locale/en.yml',
+	],
 	'clarkwinkelmann-email-as-display-name' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-email-as-display-name/1.2.0/locale/en.yml',
 	],
