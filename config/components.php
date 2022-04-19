@@ -178,6 +178,9 @@ return [
 	'clarkwinkelmann-group-list' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-group-list/1.0.0/resources/locale/en.yml',
 	],
+	'clarkwinkelmann-jwt-cookie-login' => [
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-jwt-cookie-login/1.0.0/resources/locale/en.yml',
+	],
 	'clarkwinkelmann-likes-received' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-likes-received/1.0.1/resources/locale/en.yml',
 	],
