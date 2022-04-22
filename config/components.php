@@ -865,6 +865,9 @@ return [
 	'spookygames-auth-keycloak' => [
 		'tag' => 'https://raw.githubusercontent.com/spookygames/flarum-ext-auth-keycloak/1.0.0.5/locale/en.yml',
 	],
+	'swaggymacro-only-starter' => [
+		'tag' => 'https://raw.githubusercontent.com/SwaggyMacro/OnlyStarter/0.1/resources/locale/en.yml',
+	],
 	'sycho-advanced-extension-categories' => [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-advanced-extension-categories/v0.1.3/locale/en.yml',
 	],
