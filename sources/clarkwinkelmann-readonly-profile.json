@@ -1,0 +1,22 @@
+{
+    "clarkwinkelmann-readonly-profile": {
+        "admin": {
+            "settings": {
+                "disableLogin": "Disable Login",
+                "disableAccessTokens": "Disable Access Token Creation",
+                "disableEmailChange": "Disable Email Change",
+                "disablePasswordChange": "Disable Password Change and Reset",
+                "disableAvatarEdit": "Disable Avatar Edit"
+            }
+        },
+        "api": {
+            "blocked_actions": {
+                "login": "Login endpoint is disabled",
+                "accessToken": "Access token creation is disabled",
+                "email": "Email cannot be changed from this page",
+                "password": "Password cannot be changed from this page",
+                "avatar": "Avatar editing is disabled from this page"
+            }
+        }
+    }
+}
