@@ -874,6 +874,9 @@ return [
 	'swaggymacro-only-starter' => [
 		'tag' => 'https://raw.githubusercontent.com/SwaggyMacro/OnlyStarter/0.6.1/resources/locale/en.yml',
 	],
+	'swaggymacro-websocket' => [
+		'tag' => 'https://raw.githubusercontent.com/SwaggyMacro/websocket/3.3.0/resources/locale/en.yml',
+	],
 	'sycho-advanced-extension-categories' => [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-advanced-extension-categories/v0.1.3/locale/en.yml',
 	],
