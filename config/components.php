@@ -214,6 +214,9 @@ return [
 	'clarkwinkelmann-roll-die' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-roll-die/1.0.0/locale/en.yml',
 	],
+	'clarkwinkelmann-scout' => [
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-scout/0.1.1/resources/locale/en.yml',
+	],
 	'clarkwinkelmann-scratchpad' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-scratchpad/1.5.1/resources/locale/en.yml',
 	],
