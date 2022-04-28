@@ -51,6 +51,4 @@
 
 ## Dead branches
 
-| Extension | Pull request |
-| --- | --- |
-| `shaoyuansy-hide-user` | [![#716 (closed)](https://img.shields.io/badge/PR-%23716-red)](https://github.com/rob006-software/flarum-translations/pull/716) |
+There are no dead branches.
