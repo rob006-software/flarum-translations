@@ -15,7 +15,7 @@
                 "watermark": "Yükleme sırasında resimlere filigran (watermark) eklenip eklenmeyeceğini seçin. Filigranlar gif olmayan dosyalara eklenebilir.\n",
                 "s3_compatible_storage": "Aşağıdaki ayarlar yalnızca S3 uyumlu depolama kullanılırken gereklidir. AWS kullanıyorsanız, bunları boş bırakabilirsiniz.\n",
                 "s3_acl": "Yüklenen nesneye uygulanması gereken ACL (varsayılan: özel). Olası değerler için bkz. https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
-                "s3_instance_profile": "",
+                "s3_instance_profile": "Örnek profilinde kimlik bilgilerini kullanmak için anahtarı ve sırrı (secret) boş bırakın.\n",
                 "composer_buttons": "Varsayılan olarak hem medya yöneticisi düğmesi hem de yükleme düğmesi görünür durumdadır. Ayrıca yalnızca bir düğmeyi görüntülemeyi de seçebilirsiniz.\n"
             },
             "labels": {
@@ -80,7 +80,7 @@
                         "media-btn": "Yalnızca medya yöneticisi düğmesi"
                     }
                 },
-                "inspect-mime": ""
+                "inspect-mime": "Test dosyası MIME türü"
             },
             "permissions": {
                 "download_label": "Dosya indirme",
@@ -112,17 +112,17 @@
                 "qiniu": "QiNiu"
             },
             "inspect-mime": {
-                "title": "",
-                "description": "",
-                "select": "",
-                "laravel-validation": "",
-                "no-file-selected": "",
-                "validation-passed": "",
-                "validation-failed": "",
-                "mime-detector": "",
-                "mime-fileinfo": "",
-                "guessed-extension": "",
-                "not-available": ""
+                "title": "MIME'yi inceleyin",
+                "description": "FoF Upload, yaygın MIME türleri için <a>PHP Mime Detector</a> kitaplığını ve yedek olarak PHP Fileinfo'yu kullanır. Fileinfo tarafından döndürülen MIME değeri sunucudan sunucuya farklı olabilir!\n",
+                "select": "Kullanılacak değerleri incelemek için aşağıdan bir dosya seçin. Dosya kaydedilmeyecek.",
+                "laravel-validation": "Laravel Dosya Doğrulaması",
+                "no-file-selected": "Dosya yok",
+                "validation-passed": "Geçti",
+                "validation-failed": "Başarısız: {error}",
+                "mime-detector": "Mime Dedektörü (birincil)",
+                "mime-fileinfo": "PHP Fileinfo (yedek)",
+                "guessed-extension": "Varsayılan dosya uzantısı (orijinal beyaz listede değilse)",
+                "not-available": "Sonuç yok"
             },
             "buttons": {
                 "save": "Ayarları kaydet"
