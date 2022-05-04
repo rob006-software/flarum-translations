@@ -114,15 +114,15 @@
             "inspect-mime": {
                 "title": "检查 MIME",
                 "description": "由于 PHP Fileinfo 扩展在不同服务器上返回的文件类型会有所不同，因此 FoF Upload 仅将其作为备用选项。\n一般情况下，均使用 <a>PHP Mime Detector</a> 库检测 MIME 类型。\n",
-                "select": "",
-                "laravel-validation": "",
-                "no-file-selected": "",
-                "validation-passed": "",
-                "validation-failed": "",
-                "mime-detector": "",
-                "mime-fileinfo": "",
-                "guessed-extension": "",
-                "not-available": ""
+                "select": "选择一个文件，并检测类型。您选择的文件不会被保存。",
+                "laravel-validation": "Laravel 文件验证消息",
+                "no-file-selected": "请选择文件",
+                "validation-passed": "通过",
+                "validation-failed": "失败：{error}",
+                "mime-detector": "Mime 检测器（主）",
+                "mime-fileinfo": "PHP Fileinfo（备）",
+                "guessed-extension": "默认文件扩展名",
+                "not-available": "暂无结果"
             },
             "buttons": {
                 "save": "保存设置"
