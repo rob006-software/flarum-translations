@@ -2,13 +2,13 @@
     "clarkwinkelmann-jwt-cookie-login": {
         "admin": {
             "settings": {
-                "cookieName": "",
-                "actorId": "",
-                "actorIdHelp": "",
-                "audience": "",
-                "audienceHelp": "",
-                "publicKey": "",
-                "publicKeyHelp": "",
+                "cookieName": "Cookie-Name",
+                "actorId": "Flarum-Benutzer-ID für administrative Aktionen",
+                "actorIdHelp": "Dieser Flarum-Benutzer wird als Akteur für die interne REST-API-Anforderung verwendet, die neue Benutzer erstellt. Es muss ein Admin-Benutzer sein.\n",
+                "audience": "JWT-Zielgruppe/Firebase-Projekt-ID",
+                "audienceHelp": "Validiert das <code>aud</code>-Attribut des Tokens. Optional, wenn Firebase nicht verwendet wird",
+                "publicKey": "Öffentlicher Schlüssel",
+                "publicKeyHelp": "Leer lassen, um Google Firebase-Schlüssel zu verwenden",
                 "publicKeyAlgorithm": "",
                 "publicKeyAlgorithmHelp": "",
                 "expirationLeeway": "",
