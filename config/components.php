@@ -592,6 +592,9 @@ return [
 	'justoverclock-auto-post-count-badge' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/auto-post-count-badge/0.1.9/locale/en.yml',
 	],
+	'justoverclock-check-duplicate-discussions' => [
+		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/justoverclock-check-duplicate-discussions.yml',
+	],
 	'justoverclock-composer-autocomplete' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/composer-autocomplete/0.1.0/locale/en.yml',
 	],
