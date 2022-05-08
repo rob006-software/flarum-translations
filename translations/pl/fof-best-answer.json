@@ -78,8 +78,8 @@
                 "select": "Czy uzyskałeś odpowiedź na swoje pytanie?"
             },
             "body": {
-                "awarded": "Witaj {recipient_display_name},\n\nŚwietna robota, {actor_display_name} właśnie wybrał Twój post jako najlepsza odpowiedź w \"{discussion_title}\". Dzięki za pomoc!\n\nAby zobaczyć dyskusję, kliknij poniższy link:\n{discussion_url}\n",
-                "ba-set": "Witaj {recipient_display_name},\n\n{actor_display_name} właśnie wybrał najlepszą odpowiedź w dyskusji \"{discussion_title}\", w której uczestniczyłeś.\n\nAby zobaczyć dyskusję, kliknij poniższy link:\n{discussion_url}\n",
+                "awarded": "Witaj {recipient_display_name},\n\nŚwietna robota, {actor_display_name} właśnie wybrał Twój post jako najlepsza odpowiedź w \"{discussion_title}\". Dzięki za pomoc!\n\nAby przejść do dyskusji, kliknij poniższy link:\n{discussion_url}\n",
+                "ba-set": "Witaj {recipient_display_name},\n\n{actor_display_name} właśnie wybrał najlepszą odpowiedź w dyskusji \"{discussion_title}\", w której uczestniczyłeś.\n\nAby przejść do dyskusji, kliknij poniższy link:\n{discussion_url}\n",
                 "select": "Witaj {recipient_display_name},\n\nTylko sprawdzamy. Powinieneś mieć już mnóstwo odpowiedzi na swoje pytanie \"{discussion_title}\". Mamy nadzieję, że jedna z nich pomogła Ci rozwiązać Twój problem.\n\nJeśli tak, wybranie najlepszej odpowiedzi bardzo pomogłoby innym użytkownikom mającym podobny problem - dzięki temu łatwiej będzie im znaleźć odpowiedź, której poszukują. Jest to też forma podziękowania użytkownikom, którzy Ci pomogli - poświęcają swój czas charytatywnie, dobrze byłoby dać im znać, że ich wysiłek nie poszedł na marne.\n\nAby przejść do dyskusji i wybrać najbardziej odpowiedni post jako najlepszą odpowiedź, kliknij poniższy link:\n{discussion_url}\n\nDzięki!\n"
             }
         }
