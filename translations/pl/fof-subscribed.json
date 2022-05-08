@@ -39,11 +39,11 @@
                 "postFlagged": "[Zgłoszony post] {username} zgłosił post w {title}"
             },
             "body": {
-                "newDiscussion": "Witaj {recipient_display_name},\n\n{actor_display_name} utworzył nową dyskusję: \"{discussion_title}\".\n\nAby zobaczyć nową dyskusję, kliknij poniższy link:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newDiscussion": "Witaj {recipient_display_name},\n\n{actor_display_name} utworzył nową dyskusję: \"{discussion_title}\".\n\nAby przejść do dyskusji, kliknij poniższy link:\n{discussion_url}\n\n---\n\n{post_content}\n",
                 "newUser": "Witaj {recipient_display_name},\n\n{actor_display_name} właśnie utworzył konto na {forum_url}.\n\nAby zobaczyć profil nowego użytkownika, kliknij poniższy link:\n{user_url}\n",
-                "postUnapproved": "Witaj {recipient_display_name},\n\n{actor_display_name} utworzył post wymagający zatwierdzenia w \"{discussion_title}\".\n\nAby go zobaczyć, kliknij poniższy link:\n{post_url}\n\n---\n\n{post_content}\n",
-                "postCreated": "Witaj {recipient_display_name},\n\n{actor_display_name} właśnie dodał nowy post w \"{discussion_title}\".\n\nAby go zobaczyć, kliknij poniższy link:\n{post_url}\n\n---\n\n{post_content}\n",
-                "postFlagged": "Witaj {recipient_display_name},\n\n{actor_display_name} właśnie zgłosił post w \"{discussion_title}\".\n\nAby go zobaczyć, kliknij poniższy link:\n{post_url}\n"
+                "postUnapproved": "Witaj {recipient_display_name},\n\n{actor_display_name} utworzył post wymagający zatwierdzenia w \"{discussion_title}\".\n\nAby przejść do dyskusji, kliknij poniższy link:\n{post_url}\n\n---\n\n{post_content}\n",
+                "postCreated": "Witaj {recipient_display_name},\n\n{actor_display_name} właśnie dodał nowy post w \"{discussion_title}\".\n\nAby zobaczyć nową aktywność, kliknij poniższy link:\n{post_url}\n\n---\n\n{post_content}\n",
+                "postFlagged": "Witaj {recipient_display_name},\n\n{actor_display_name} właśnie zgłosił post w \"{discussion_title}\".\n\nAby przejść do dyskusji, kliknij poniższy link:\n{post_url}\n"
             }
         }
     }
