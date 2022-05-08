@@ -528,6 +528,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`datitisev-discussion-agree-message`](https://weblate.rob006.net/projects/flarum/datitisev-discussion-agree-message) | [`datitisev/flarum-discussion-agree-message`](https://github.com/datitisev/flarum-discussion-agree-message) |
 | [`datlechin-add-like-controls`](https://weblate.rob006.net/projects/flarum/datlechin-add-like-controls) | [`datlechin/flarum-add-like-controls`](https://github.com/datlechin/flarum-add-like-controls) |
 | [`datlechin-birthdays`](https://weblate.rob006.net/projects/flarum/datlechin-birthdays) | [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays) |
+| [`datlechin-copy-links`](https://weblate.rob006.net/projects/flarum/datlechin-copy-links) | [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links) |
 | [`datlechin-keyboard-shortcuts`](https://weblate.rob006.net/projects/flarum/datlechin-keyboard-shortcuts) | [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts) |
 | [`datlechin-landing-page`](https://weblate.rob006.net/projects/flarum/datlechin-landing-page) | [`datlechin/flarum-landing-page`](https://github.com/datlechin/flarum-landing-page) |
 | [`datlechin-link-preview`](https://weblate.rob006.net/projects/flarum/datlechin-link-preview) | [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview) |
@@ -577,6 +578,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`justoverclock-events-countdown`](https://weblate.rob006.net/projects/flarum/justoverclock-events-countdown) | [`justoverclock/events-countdown`](https://github.com/justoverclockl/events-countdown) |
 | [`justoverclock-feautured-discussions-widget`](https://weblate.rob006.net/projects/flarum/justoverclock-feautured-discussions-widget) | [`justoverclock/feautured-discussions-widget`](https://github.com/justoverclockl/feautured-discussions-widget) |
 | [`justoverclock-first-visit-indexpage`](https://weblate.rob006.net/projects/flarum/justoverclock-first-visit-indexpage) | [`justoverclock/first-visit-indexpage`](https://github.com/justoverclockl/first-visit-indexpage) |
+| [`justoverclock-first-visit-popup`](https://weblate.rob006.net/projects/flarum/justoverclock-first-visit-popup) | [`justoverclock/first-visit-popup`](https://github.com/justoverclockl/first-visit-popup) |
 | [`justoverclock-flachat`](https://weblate.rob006.net/projects/flarum/justoverclock-flachat) | [`justoverclock/flachat`](https://github.com/justoverclockl/flachat) |
 | [`justoverclock-contactme`](https://weblate.rob006.net/projects/flarum/justoverclock-contactme) | [`justoverclock/flarum-ext-contactme`](https://github.com/justoverclockl/flarum-ext-contactme) |
 | [`justoverclock-dontgoaway`](https://weblate.rob006.net/projects/flarum/justoverclock-dontgoaway) | [`justoverclock/flarum-ext-dontgoaway`](https://github.com/justoverclockl/flarum-ext-dontgoaway) |
@@ -693,6 +695,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`davwheat-virtual-authors`](https://weblate.rob006.net/projects/flarum/davwheat-virtual-authors) | [`davwheat/virtual-authors`](https://extiverse.com/extension/davwheat/virtual-authors) |
 | [`glowingblue-localizd`](https://weblate.rob006.net/projects/flarum/glowingblue-localizd) | [`glowingblue/localizd`](https://extiverse.com/extension/glowingblue/localizd) |
 | [`justoverclock-auto-post-badge-pro`](https://weblate.rob006.net/projects/flarum/justoverclock-auto-post-badge-pro) | [`justoverclock/auto-post-badge-pro`](https://extiverse.com/extension/justoverclock/auto-post-badge-pro) |
+| [`justoverclock-check-duplicate-discussions`](https://weblate.rob006.net/projects/flarum/justoverclock-check-duplicate-discussions) | [`justoverclock/check-duplicate-discussions`](https://extiverse.com/extension/justoverclock/check-duplicate-discussions) |
 | [`justoverclock-discord-widget`](https://weblate.rob006.net/projects/flarum/justoverclock-discord-widget) | [`justoverclock/discord-widget`](https://extiverse.com/extension/justoverclock/discord-widget) |
 | [`justoverclock-frontend-blog`](https://weblate.rob006.net/projects/flarum/justoverclock-frontend-blog) | [`justoverclock/frontend-blog`](https://extiverse.com/extension/justoverclock/frontend-blog) |
 | [`justoverclock-igdb-api`](https://weblate.rob006.net/projects/flarum/justoverclock-igdb-api) | [`justoverclock/igdb-api`](https://extiverse.com/extension/justoverclock/igdb-api) |
