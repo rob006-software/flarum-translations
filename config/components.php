@@ -637,6 +637,9 @@ return [
 	'justoverclock-first-visit-indexpage' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/first-visit-indexpage/0.1.2/resources/locale/en.yml',
 	],
+	'justoverclock-first-visit-popup' => [
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/first-visit-popup/0.1.0/locale/en.yml',
+	],
 	'justoverclock-flachat' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flachat/0.1.2/locale/en.yml',
 	],
