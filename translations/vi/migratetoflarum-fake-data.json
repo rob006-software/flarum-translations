@@ -1,19 +1,21 @@
 {
     "migratetoflarum-fake-data": {
-        "admin": {
+        "lib": {
             "generator": {
-                "bulk-mode": "=> migratetoflarum-fake-data.ref.bulk-mode",
-                "bulk-mode-description": "=> migratetoflarum-fake-data.ref.bulk-mode-description",
-                "user-count": "=> migratetoflarum-fake-data.ref.user-count",
-                "discussion-count": "Số lượng cuộc thảo luận để tạo",
-                "discussion-tags": "Thẻ cho các cuộc thảo luận mới",
-                "discussion-tags-none": "Không",
-                "discussion-tags-random": "Ngẫu nhiên",
-                "post-count": "=> migratetoflarum-fake-data.ref.post-count",
-                "date": "=> migratetoflarum-fake-data.ref.date",
-                "date-start-placeholder": "=> migratetoflarum-fake-data.ref.date-start-placeholder",
-                "date-interval-placeholder": "=> migratetoflarum-fake-data.ref.date-interval-placeholder",
-                "send": "=> migratetoflarum-fake-data.ref.send"
+                "bulk-mode": "",
+                "bulk-mode-description": "",
+                "user-count": "",
+                "discussion-count": "",
+                "discussion-tags": "",
+                "discussion-tags-none": "",
+                "discussion-tags-random": "",
+                "post-count": "",
+                "date": "",
+                "date-start-placeholder": "",
+                "date-interval-placeholder": "",
+                "send": "",
+                "reset": "",
+                "refresh": ""
             }
         },
         "forum": {
@@ -35,6 +37,22 @@
         "api": {
             "no-users-matched": "Không có người dùng nào phù hợp",
             "no-discussions-matched": "Không có cuộc thảo luận nào phù hợp"
+        },
+        "admin": {
+            "generator": {
+                "bulk-mode": "=> migratetoflarum-fake-data.ref.bulk-mode",
+                "bulk-mode-description": "=> migratetoflarum-fake-data.ref.bulk-mode-description",
+                "user-count": "=> migratetoflarum-fake-data.ref.user-count",
+                "discussion-count": "Số lượng cuộc thảo luận để tạo",
+                "discussion-tags": "Thẻ cho các cuộc thảo luận mới",
+                "discussion-tags-none": "Không",
+                "discussion-tags-random": "Ngẫu nhiên",
+                "post-count": "=> migratetoflarum-fake-data.ref.post-count",
+                "date": "=> migratetoflarum-fake-data.ref.date",
+                "date-start-placeholder": "=> migratetoflarum-fake-data.ref.date-start-placeholder",
+                "date-interval-placeholder": "=> migratetoflarum-fake-data.ref.date-interval-placeholder",
+                "send": "=> migratetoflarum-fake-data.ref.send"
+            }
         },
         "ref": {
             "bulk-mode": "Chế độ hàng loạt",
