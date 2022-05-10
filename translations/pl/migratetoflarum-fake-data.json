@@ -2,20 +2,20 @@
     "migratetoflarum-fake-data": {
         "lib": {
             "generator": {
-                "bulk-mode": "",
-                "bulk-mode-description": "",
-                "user-count": "",
-                "discussion-count": "",
-                "discussion-tags": "",
-                "discussion-tags-none": "",
-                "discussion-tags-random": "",
-                "post-count": "",
-                "date": "",
-                "date-start-placeholder": "",
-                "date-interval-placeholder": "",
-                "send": "",
-                "reset": "",
-                "refresh": ""
+                "bulk-mode": "Tryb masowy",
+                "bulk-mode-description": "Generuje jedną losową wartość i używa jej dla wszystkich wygenerowanych rekordów",
+                "user-count": "Liczba użytkowników do utworzenia",
+                "discussion-count": "Liczba dyskusji do utworzenia",
+                "discussion-tags": "Tagi dla nowych dyskusji",
+                "discussion-tags-none": "Brak",
+                "discussion-tags-random": "Losowo",
+                "post-count": "Liczba postów do utworzenia",
+                "date": "Ustawienia daty",
+                "date-start-placeholder": "Data początkowa (domyślnie aktualna data)",
+                "date-interval-placeholder": "Interwał (domyślnie 1 sekunda)",
+                "send": "Wygeneruj dane",
+                "reset": "Generowanie zakończone! Kliknij, aby zresetować",
+                "refresh": "Zamknij i odśwież stronę"
             }
         },
         "forum": {
