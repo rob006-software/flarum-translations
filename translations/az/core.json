@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "Əhatə dairələrini konfiqurasiya edin",
-                "confirm_uninstall": "Silinmə, uzantı ilə əlaqəli bütün verilənlər bazası girişlərini və aktivlərini siləcək. Davam etmək istədiyinizə əminsiniz?",
+                "confirm_purge": "",
                 "disabled": "Deaktiv edildi",
                 "enable_to_see": "Parametrləri görmək və dəyişdirmək üçün uzantını aktiv edin.",
                 "enabled": "Aktiv edildi",
@@ -116,14 +116,14 @@
                 "no_settings": "Bu uzantının heç bir ayarı yoxdur.",
                 "open_modal": "Ayarları açın",
                 "permissions_title": "İcazələr",
-                "uninstall_button": "Silin",
-                "confirm_purge": "",
                 "purge_button": "",
                 "readme": {
                     "button_label": "",
                     "no_readme": "",
                     "title": ""
-                }
+                },
+                "confirm_uninstall": "Silinmə, uzantı ilə əlaqəli bütün verilənlər bazası girişlərini və aktivlərini siləcək. Davam etmək istədiyinizə əminsiniz?",
+                "uninstall_button": "Silin"
             },
             "header": {
                 "get_help": "Kömək",
@@ -303,11 +303,11 @@
             "discussion_list": {
                 "empty_text": "Görünür burada heç bir mövzu yoxdur.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "Oxudum",
                 "replied_text": "{username} cavabladı {ago}",
                 "started_text": "{username} başlatdı {ago}",
                 "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": ""
+                "unread_replies_a11y_label": "",
+                "mark_as_read_tooltip": "Oxudum"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -459,6 +459,10 @@
             }
         },
         "lib": {
+            "debug_button": "",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
             "badge": {
                 "hidden_tooltip": "Gizli"
             },
@@ -487,10 +491,21 @@
                 "payload_too_large_message": "İstək yükü çox böyük idi.",
                 "permission_denied_message": "Bunu etməyə icazəniz yoxdur.",
                 "rate_limit_exceeded_message": "Bir az tez gedirsən. Zəhmət olmasa bir neçə saniyə sonra yenidən cəhd edin.",
-                "render_failed_message": ""
+                "render_failed_message": "",
+                "extension_initialiation_failed_message": ""
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": ""
+            },
+            "nav": {
+                "drawer_button": ""
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -503,20 +518,6 @@
             },
             "username": {
                 "deleted_text": "[Silindi]"
-            },
-            "debug_button": "",
-            "alert": {
-                "dismiss_a11y_label": ""
-            },
-            "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
-            },
-            "modal": {
-                "close": ""
-            },
-            "nav": {
-                "drawer_button": ""
             }
         },
         "views": {

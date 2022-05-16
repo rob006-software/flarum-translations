@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "",
-                "confirm_uninstall": "",
+                "confirm_purge": "",
                 "disabled": "",
                 "enable_to_see": "",
                 "enabled": "",
@@ -116,14 +116,14 @@
                 "no_settings": "",
                 "open_modal": "",
                 "permissions_title": "",
-                "uninstall_button": "",
-                "confirm_purge": "",
                 "purge_button": "",
                 "readme": {
                     "button_label": "",
                     "no_readme": "",
                     "title": ""
-                }
+                },
+                "confirm_uninstall": "",
+                "uninstall_button": ""
             },
             "header": {
                 "get_help": "",
@@ -303,11 +303,11 @@
             "discussion_list": {
                 "empty_text": "Izskatās, ka šeit nav diskusiju.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "Atzīmēt kā izlasītu",
                 "replied_text": "{username} atbildēja {ago}",
                 "started_text": "{username} izveidoja {ago}",
                 "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": ""
+                "unread_replies_a11y_label": "",
+                "mark_as_read_tooltip": "Atzīmēt kā izlasītu"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -459,6 +459,10 @@
             }
         },
         "lib": {
+            "debug_button": "",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
             "badge": {
                 "hidden_tooltip": "Noslēpts"
             },
@@ -487,10 +491,21 @@
                 "payload_too_large_message": "",
                 "permission_denied_message": "Jums nav atļaujas to darīt.",
                 "rate_limit_exceeded_message": "Tu esi mazliet par ātri. Pēc dažām sekundēm mēģini vēlreiz.",
-                "render_failed_message": ""
+                "render_failed_message": "",
+                "extension_initialiation_failed_message": ""
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": ""
+            },
+            "nav": {
+                "drawer_button": ""
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -503,20 +518,6 @@
             },
             "username": {
                 "deleted_text": "[deleted]"
-            },
-            "debug_button": "",
-            "alert": {
-                "dismiss_a11y_label": ""
-            },
-            "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
-            },
-            "modal": {
-                "close": ""
-            },
-            "nav": {
-                "drawer_button": ""
             }
         },
         "views": {

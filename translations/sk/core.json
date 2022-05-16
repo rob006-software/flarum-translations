@@ -104,7 +104,7 @@
             },
             "extension": {
                 "configure_scopes": "Nastaviť Rozsahy",
-                "confirm_uninstall": "Odinštalovanie vymaže všetky údaje o tomto doplnku v databáze a jeho súbory. Ste si istý že chcete pokračovať?",
+                "confirm_purge": "Vyčistením sa odstránia všetky položky databázy a aktíva súvisiace s rozšírením. Neodinštaluje rozšírenie; to treba urobiť cez Composer. Ste si istý, že chcete pokračovať?",
                 "disabled": "Deaktivovaný",
                 "enable_to_see": "Aktivujte tento doplnok pre zobrazenie a zmenu jeho nastavení.",
                 "enabled": "Aktivovaný",
@@ -120,14 +120,14 @@
                 "no_settings": "Tento doplnok neobsahuje žiadne nastavenia.",
                 "open_modal": "Otvoriť Nastavenia",
                 "permissions_title": "Oprávnenia",
-                "uninstall_button": "Odinštalovať",
-                "confirm_purge": "Vyčistením sa odstránia všetky položky databázy a aktíva súvisiace s rozšírením. Neodinštaluje rozšírenie; to treba urobiť cez Composer. Ste si istý, že chcete pokračovať?",
                 "purge_button": "Vyčistiť",
                 "readme": {
                     "button_label": "README",
                     "no_readme": "Zdá sa, že toto rozšírenie nemá súbor README",
                     "title": "{extName} dokumentácia"
                 },
+                "confirm_uninstall": "Odinštalovanie vymaže všetky údaje o tomto doplnku v databáze a jeho súbory. Ste si istý že chcete pokračovať?",
+                "uninstall_button": "Odinštalovať",
                 "saved_message": "Tvoje zmeny boli uložené."
             },
             "header": {
@@ -310,11 +310,11 @@
             "discussion_list": {
                 "empty_text": "Vyzerá to tak že tu nie sú žiadne diskusie.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "Označiť Ako Prečítané",
                 "replied_text": "Používateľ {username} odpovedal {ago}",
                 "started_text": "Používateľ {username} začal {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# reply} other {# replies}}",
-                "unread_replies_a11y_label": "{count, plural, one {# unread reply} other {# unread replies}}. Označiť neprečítané {count, plural, one {reply} other {replies}} ako prečítané."
+                "unread_replies_a11y_label": "{count, plural, one {# unread reply} other {# unread replies}}. Označiť neprečítané {count, plural, one {reply} other {replies}} ako prečítané.",
+                "mark_as_read_tooltip": "Označiť Ako Prečítané"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -479,6 +479,10 @@
             }
         },
         "lib": {
+            "debug_button": "Debug",
+            "alert": {
+                "dismiss_a11y_label": "Zrušiť upozornenie"
+            },
             "badge": {
                 "hidden_tooltip": "Skrytá"
             },
@@ -507,10 +511,21 @@
                 "payload_too_large_message": "Užitočné zaťaženie požiadavky bolo príliš veľké.",
                 "permission_denied_message": "Na toto nemáš oprávnenie.",
                 "rate_limit_exceeded_message": "Ideš trošku prirýchlo. Skús to znova neskôr.",
-                "render_failed_message": "Ľutujeme, pri zobrazovaní tohto obsahu sa vyskytla chyba. Ak ste používateľom, skúste to znova neskôr. Ak ste správcom, pozrite sa do súborov denníka Flarum, kde nájdete ďalšie informácie."
+                "render_failed_message": "Ľutujeme, pri zobrazovaní tohto obsahu sa vyskytla chyba. Ak ste používateľom, skúste to znova neskôr. Ak ste správcom, pozrite sa do súborov denníka Flarum, kde nájdete ďalšie informácie.",
+                "extension_initialiation_failed_message": ""
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Page # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Page # - {forumName}}}"
+            },
+            "modal": {
+                "close": "Zavrieť"
+            },
+            "nav": {
+                "drawer_button": "Otvorte navigačný panel"
             },
             "number_suffix": {
                 "kilo_text": "tis.",
@@ -523,20 +538,6 @@
             },
             "username": {
                 "deleted_text": "[zmazaný]"
-            },
-            "debug_button": "Debug",
-            "alert": {
-                "dismiss_a11y_label": "Zrušiť upozornenie"
-            },
-            "meta_titles": {
-                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Page # - {forumName}}}",
-                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Page # - {forumName}}}"
-            },
-            "modal": {
-                "close": "Zavrieť"
-            },
-            "nav": {
-                "drawer_button": "Otvorte navigačný panel"
             }
         },
         "views": {

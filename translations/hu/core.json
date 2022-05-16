@@ -112,7 +112,7 @@
             },
             "extension": {
                 "configure_scopes": "Célok beállítása",
-                "confirm_uninstall": "A bővítmény eltávolítása törli az összes bővítménnyel kapcsolatos adatbázis-bejegyzést és beállítást. Valóban folytatja?",
+                "confirm_purge": "A tisztítás eltávolítja az összes, a bővítményhez tartozó adatbázis-bejegyzést és erőforrást. Nem távolítja el a bővítményt; azt a Composer segítségével kell megtenni. Valóban folytatja?",
                 "disabled": "Tiltva",
                 "enable_to_see": "Engedélyezze a bővítményt hogy hozzáférjen a beállításaihoz.",
                 "enabled": "Engedélyezve",
@@ -128,14 +128,14 @@
                 "no_settings": "Ennek a bővítménynek nincsenek beállításai.",
                 "open_modal": "Beállítások megnyitása",
                 "permissions_title": "Engedélyek",
-                "uninstall_button": "Eltávolítás",
-                "confirm_purge": "A tisztítás eltávolítja az összes, a bővítményhez tartozó adatbázis-bejegyzést és erőforrást. Nem távolítja el a bővítményt; azt a Composer segítségével kell megtenni. Valóban folytatja?",
                 "purge_button": "Tisztítás",
                 "readme": {
                     "button_label": "README",
                     "no_readme": "Úgy tűnik, hogy ehhez a bővítményhez nem tartozik README fájl",
                     "title": "{extName} dokumentáció"
-                }
+                },
+                "confirm_uninstall": "A bővítmény eltávolítása törli az összes bővítménnyel kapcsolatos adatbázis-bejegyzést és beállítást. Valóban folytatja?",
+                "uninstall_button": "Eltávolítás"
             },
             "header": {
                 "get_help": "Segítség",
@@ -335,11 +335,11 @@
             "discussion_list": {
                 "empty_text": "Úgy tűnik, hogy még nincsenek témák.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "Olvasottnak jelölés",
                 "replied_text": "{username} válaszolt {ago}",
                 "started_text": "{username} indította {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# válasz} other {# válasz}}",
-                "unread_replies_a11y_label": "{count, plural, one {# olvasatlan válasz} other {# olvasatlan válasz}}. Olvasatlan {count, plural, one {válasz} other {válaszok}} olvasottnak jelölése."
+                "unread_replies_a11y_label": "{count, plural, one {# olvasatlan válasz} other {# olvasatlan válasz}}. Olvasatlan {count, plural, one {válasz} other {válaszok}} olvasottnak jelölése.",
+                "mark_as_read_tooltip": "Olvasottnak jelölés"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -504,6 +504,10 @@
             }
         },
         "lib": {
+            "debug_button": "Hibakeresés",
+            "alert": {
+                "dismiss_a11y_label": "Figyelmeztetés elvetése"
+            },
             "badge": {
                 "hidden_tooltip": "Rejtett"
             },
@@ -532,10 +536,21 @@
                 "payload_too_large_message": "A kérés mérete túl nagy volt.",
                 "permission_denied_message": "Nem rendelkezik a megfelelő engedélyekkel.",
                 "rate_limit_exceeded_message": "Túl gyors volt. Próbálja meg újra pár másodperc múlva.",
-                "render_failed_message": "Sajnáljuk, hiba történt a tartalom megjelenítése során. Ha Ön felhasználó, akkor próbálja újra később. Ha rendszergazda, akkor további információkért nézze meg a Flarum naplófájljait."
+                "render_failed_message": "Sajnáljuk, hiba történt a tartalom megjelenítése során. Ha Ön felhasználó, akkor próbálja újra később. Ha rendszergazda, akkor további információkért nézze meg a Flarum naplófájljait.",
+                "extension_initialiation_failed_message": ""
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Oldal # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Oldal # - {forumName}}}"
+            },
+            "modal": {
+                "close": "Bezárás"
+            },
+            "nav": {
+                "drawer_button": "Navigációs fiók kinyitása"
             },
             "number_suffix": {
                 "kilo_text": "e",
@@ -548,20 +563,6 @@
             },
             "username": {
                 "deleted_text": "[törölve]"
-            },
-            "debug_button": "Hibakeresés",
-            "alert": {
-                "dismiss_a11y_label": "Figyelmeztetés elvetése"
-            },
-            "meta_titles": {
-                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Oldal # - {forumName}}}",
-                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Oldal # - {forumName}}}"
-            },
-            "modal": {
-                "close": "Bezárás"
-            },
-            "nav": {
-                "drawer_button": "Navigációs fiók kinyitása"
             }
         },
         "views": {

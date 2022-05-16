@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "Configurer Scopes",
-                "confirm_uninstall": "La désinstallation supprimera toutes les entrées de la base de données et les ressources liées à l'extension. Êtes-vous sûr de vouloir continuer ?",
+                "confirm_purge": "La purge supprime toutes les entrées de la base de données et les ressources liées à l'extension. Elle ne désinstallera pas l'extension ; cela doit être effectué depuis Composer. Êtes-vous sûr de vouloir continuer ?",
                 "disabled": "Désactivée",
                 "enable_to_see": "Activez l'extension pour afficher et modifier ses paramètres.",
                 "enabled": "Activée",
@@ -116,14 +116,14 @@
                 "no_settings": "Cette extension n'a pas de paramètre.",
                 "open_modal": "Ouvrir les paramètres",
                 "permissions_title": "Permissions",
-                "uninstall_button": "Désinstaller",
-                "confirm_purge": "La purge supprime toutes les entrées de la base de données et les ressources liées à l'extension. Elle ne désinstallera pas l'extension ; cela doit être effectué depuis Composer. Êtes-vous sûr de vouloir continuer ?",
                 "purge_button": "Purger",
                 "readme": {
                     "button_label": "README",
                     "no_readme": "Cette extension ne semble pas avoir de fichier README",
                     "title": "Documentation de {extName}"
-                }
+                },
+                "confirm_uninstall": "La désinstallation supprimera toutes les entrées de la base de données et les ressources liées à l'extension. Êtes-vous sûr de vouloir continuer ?",
+                "uninstall_button": "Désinstaller"
             },
             "header": {
                 "get_help": "Obtenir de l'aide",
@@ -303,11 +303,11 @@
             "discussion_list": {
                 "empty_text": "Il semble qu'il n'y ait pas de discussions ici.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "Marquer comme lu",
                 "replied_text": "{username} a répondu à cette discussion {ago}",
                 "started_text": "{username} a démarré cette discussion {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# réponse} other {# réponses}}",
-                "unread_replies_a11y_label": "{count, plural, one {# réponse non lue} other {# réponses non lues}}. Marquer {count, plural, one {réponse non lue comme lue} other {réponses non lues comme lues}}."
+                "unread_replies_a11y_label": "{count, plural, one {# réponse non lue} other {# réponses non lues}}. Marquer {count, plural, one {réponse non lue comme lue} other {réponses non lues comme lues}}.",
+                "mark_as_read_tooltip": "Marquer comme lu"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -459,6 +459,10 @@
             }
         },
         "lib": {
+            "debug_button": "Déboguer",
+            "alert": {
+                "dismiss_a11y_label": "Ignorer l'alerte"
+            },
             "badge": {
                 "hidden_tooltip": "Masquée"
             },
@@ -487,10 +491,21 @@
                 "payload_too_large_message": "La charge utile de la requête était trop importante.",
                 "permission_denied_message": "Vous n'avez pas la permission de faire cela.",
                 "rate_limit_exceeded_message": "Vous allez un peu trop vite. Veuillez réessayer dans quelques secondes.",
-                "render_failed_message": "Désolé, une erreur est survenue lors de l'affichage du contenu. Si vous êtes un utilisateur, veuillez réessayer plus tard. Si vous êtes un administrateur, consultez vos fichiers journaux de Flarum pour obtenir plus d'informations."
+                "render_failed_message": "Désolé, une erreur est survenue lors de l'affichage du contenu. Si vous êtes un utilisateur, veuillez réessayer plus tard. Si vous êtes un administrateur, consultez vos fichiers journaux de Flarum pour obtenir plus d'informations.",
+                "extension_initialiation_failed_message": ""
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle} : Page # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Page # - {forumName}}}"
+            },
+            "modal": {
+                "close": "Fermer"
+            },
+            "nav": {
+                "drawer_button": "Ouvrir le tiroir de navigation"
             },
             "number_suffix": {
                 "kilo_text": "k",
@@ -503,20 +518,6 @@
             },
             "username": {
                 "deleted_text": "[supprimé]"
-            },
-            "debug_button": "Déboguer",
-            "alert": {
-                "dismiss_a11y_label": "Ignorer l'alerte"
-            },
-            "meta_titles": {
-                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle} : Page # - {forumName}}}",
-                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Page # - {forumName}}}"
-            },
-            "modal": {
-                "close": "Fermer"
-            },
-            "nav": {
-                "drawer_button": "Ouvrir le tiroir de navigation"
             }
         },
         "views": {

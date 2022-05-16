@@ -104,7 +104,7 @@
             },
             "extension": {
                 "configure_scopes": "Configurações",
-                "confirm_uninstall": "A desinstalação removerá todas as entradas e ativos do banco de dados relacionados à extensão. Você tem certeza que quer continuar?",
+                "confirm_purge": "",
                 "disabled": "Disabilitar",
                 "enable_to_see": "Ative a extensão para visualizar e alterar as configurações.",
                 "enabled": "Habilitar",
@@ -120,14 +120,14 @@
                 "no_settings": "Esta extensão não tem configurações.",
                 "open_modal": "Abrir configurações",
                 "permissions_title": "Permissões",
-                "uninstall_button": "Desinstalar",
-                "confirm_purge": "",
                 "purge_button": "",
                 "readme": {
                     "button_label": "",
                     "no_readme": "",
                     "title": ""
-                }
+                },
+                "confirm_uninstall": "A desinstalação removerá todas as entradas e ativos do banco de dados relacionados à extensão. Você tem certeza que quer continuar?",
+                "uninstall_button": "Desinstalar"
             },
             "header": {
                 "get_help": "Obter Ajuda",
@@ -312,11 +312,11 @@
             "discussion_list": {
                 "empty_text": "Parece que não há discussões aqui.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "Marcar como Lido",
                 "replied_text": "{username} respondeu {ago}",
                 "started_text": "{username} iniciado {ago}",
                 "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": ""
+                "unread_replies_a11y_label": "",
+                "mark_as_read_tooltip": "Marcar como Lido"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -468,6 +468,10 @@
             }
         },
         "lib": {
+            "debug_button": "",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
             "badge": {
                 "hidden_tooltip": "Escondido"
             },
@@ -496,10 +500,21 @@
                 "payload_too_large_message": "",
                 "permission_denied_message": "Você não tem permissão para fazer isso.",
                 "rate_limit_exceeded_message": "Você está indo um pouco rápido demais. Tente novamente em alguns segundos.",
-                "render_failed_message": ""
+                "render_failed_message": "",
+                "extension_initialiation_failed_message": ""
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": ""
+            },
+            "nav": {
+                "drawer_button": ""
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -512,20 +527,6 @@
             },
             "username": {
                 "deleted_text": "[excluído]"
-            },
-            "debug_button": "",
-            "alert": {
-                "dismiss_a11y_label": ""
-            },
-            "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
-            },
-            "modal": {
-                "close": ""
-            },
-            "nav": {
-                "drawer_button": ""
             }
         },
         "views": {

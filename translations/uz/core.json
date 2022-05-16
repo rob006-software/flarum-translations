@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "Qamrovlarni sozlash",
-                "confirm_uninstall": "O'chirib tashlash butun ma'lumotlar bazasi va uning resurslarini yo'qotilishiga olib keladi. Davom ettirishni xohlaysizmi?",
+                "confirm_purge": "Tozalash kengaytma bilan bog'liq barcha ma'lumotlar bazasi yozuvlari va aktivlarini o'chirib tashlaydi. U kengaytmani olib tashlamaydi; Bu Composer orqali amalga oshirilishi kerak. Davom etishni xohlaysizmi?",
                 "disabled": "Oʻchirilgan",
                 "enable_to_see": "Sozlamalarni ko'rish va o'zgartirish uchun kengaytmani yoqing.",
                 "enabled": "Yoqilgan",
@@ -116,14 +116,14 @@
                 "no_settings": "Bu kengaytmada sozlamalar yo‘q.",
                 "open_modal": "Ochiq sozlamalar",
                 "permissions_title": "Ruxsatlar",
-                "uninstall_button": "O'chirish",
-                "confirm_purge": "Tozalash kengaytma bilan bog'liq barcha ma'lumotlar bazasi yozuvlari va aktivlarini o'chirib tashlaydi. U kengaytmani olib tashlamaydi; Bu Composer orqali amalga oshirilishi kerak. Davom etishni xohlaysizmi?",
                 "purge_button": "Tozalash",
                 "readme": {
                     "button_label": "README",
                     "no_readme": "Bu kengaytmada README fayli mavjud emas",
                     "title": "{extName} hujjatlari"
-                }
+                },
+                "confirm_uninstall": "O'chirib tashlash butun ma'lumotlar bazasi va uning resurslarini yo'qotilishiga olib keladi. Davom ettirishni xohlaysizmi?",
+                "uninstall_button": "O'chirish"
             },
             "header": {
                 "get_help": "Yordam",
@@ -303,11 +303,11 @@
             "discussion_list": {
                 "empty_text": "Muhokamalar mavjud emas.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "O'qildi deb belgilash",
                 "replied_text": "{username} javob berdi {ago}",
                 "started_text": "{username} yaratdi {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# javob} other {# javoblar}}",
-                "unread_replies_a11y_label": "{count, plural, one {# o'qilmagan javob} other {# o'qilmagan javoblar}}. O'qilmgan deb belgilash {count, plural, one {javob} other {javoblar}} as read."
+                "unread_replies_a11y_label": "{count, plural, one {# o'qilmagan javob} other {# o'qilmagan javoblar}}. O'qilmgan deb belgilash {count, plural, one {javob} other {javoblar}} as read.",
+                "mark_as_read_tooltip": "O'qildi deb belgilash"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -459,6 +459,10 @@
             }
         },
         "lib": {
+            "debug_button": "Debug",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
             "badge": {
                 "hidden_tooltip": "Yashirin"
             },
@@ -487,10 +491,21 @@
                 "payload_too_large_message": "So'rov uzunligi juda ham katta.",
                 "permission_denied_message": "Sizda bunga ruxsat yo'q.",
                 "rate_limit_exceeded_message": "Siz juda ham tez harakat qilyapsiz. Keyinroq urinib ko'ring.",
-                "render_failed_message": "Kechirasiz, bu kontentni ko'rsatishda muammo yuzaga keldi. Agar foydalanuvchi bo'lsangiz, qaytadan urinib ko'ring. Agar adminirstarator bo'lsangiz, Flarum log fayllariga qarang."
+                "render_failed_message": "Kechirasiz, bu kontentni ko'rsatishda muammo yuzaga keldi. Agar foydalanuvchi bo'lsangiz, qaytadan urinib ko'ring. Agar adminirstarator bo'lsangiz, Flarum log fayllariga qarang.",
+                "extension_initialiation_failed_message": ""
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": "Yopish"
+            },
+            "nav": {
+                "drawer_button": "Navigatsiya oynasini ochish"
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -503,20 +518,6 @@
             },
             "username": {
                 "deleted_text": "[o'chirildi]"
-            },
-            "debug_button": "Debug",
-            "alert": {
-                "dismiss_a11y_label": ""
-            },
-            "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
-            },
-            "modal": {
-                "close": "Yopish"
-            },
-            "nav": {
-                "drawer_button": "Navigatsiya oynasini ochish"
             }
         },
         "views": {
