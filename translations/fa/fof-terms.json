@@ -45,29 +45,29 @@
         },
         "forum": {
             "signup": {
-                "i-accept": "",
-                "must-accept": ""
+                "i-accept": "من <a>{policy}</a> را می‌پذیرم",
+                "must-accept": "{policy} باید پذیرفته شود."
             },
             "accept-modal": {
-                "title": "",
-                "updated-at": "",
-                "updated-recently": "",
-                "i-accept": "",
-                "accept": "",
-                "close": ""
+                "title": "به روز رسانی مقررات",
+                "updated-at": "مقررات در {date} به روز شد",
+                "updated-recently": "مقررات از آخرین بازدید شما به روز شده است",
+                "i-accept": "من <a>{policy}</a> جدید را می‌پذیرم",
+                "accept": "تایید",
+                "close": "با تشکر از پذیرش، اکنون می توانید به انجمن بازگردید"
             },
             "state-modal": {
-                "title": "",
-                "accepted-at": "",
-                "not-accepted": ""
+                "title": "وضعیت پذیرش مقررات برای {username}",
+                "accepted-at": "پذیرش شده در {date}",
+                "not-accepted": "قابل قبول نیست"
             },
             "update-alert": {
-                "must-accept-message": "",
-                "can-accept-message": "",
-                "review": ""
+                "must-accept-message": "زمانی که مقررات جدید را بررسی می کنید، به طور موقت دسترسی به حساب شما را محدود کرده ایم.",
+                "can-accept-message": "ما اخیراً مقررات را به روز کردیم. برای ادامه استفاده از این وب سایت باید آنها را بپذیرید.",
+                "review": "برای بررسی و پذیرش مقررات جدید اینجا کلیک کنید"
             },
             "user_controls": {
-                "state_button": ""
+                "state_button": "حالت پذیرش مقررات"
             }
         }
     }
