@@ -2,20 +2,20 @@
     "migratetoflarum-fake-data": {
         "lib": {
             "generator": {
-                "bulk-mode": "",
-                "bulk-mode-description": "",
-                "user-count": "",
-                "discussion-count": "",
-                "discussion-tags": "",
-                "discussion-tags-none": "",
-                "discussion-tags-random": "",
-                "post-count": "",
-                "date": "",
-                "date-start-placeholder": "",
-                "date-interval-placeholder": "",
-                "send": "",
-                "reset": "",
-                "refresh": ""
+                "bulk-mode": "复用",
+                "bulk-mode-description": "随机生成单条数据，并应用于全部条目",
+                "user-count": "用户生成数量",
+                "discussion-count": "主题生成数量",
+                "discussion-tags": "主题标签",
+                "discussion-tags-none": "无",
+                "discussion-tags-random": "随机",
+                "post-count": "回帖生成数量",
+                "date": "种子日期",
+                "date-start-placeholder": "起始日期（默认当天）",
+                "date-interval-placeholder": "间隔（默认 1 秒）",
+                "send": "生成数据",
+                "reset": "生成成功！点击重置",
+                "refresh": "完成并刷新页面"
             }
         },
         "forum": {
