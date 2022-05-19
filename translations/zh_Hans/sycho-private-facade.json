@@ -2,28 +2,28 @@
     "sycho-private-facade": {
         "admin": {
             "settings": {
-                "force_redirect": "",
+                "force_redirect": "未登录时强制跳转到注册登录页",
                 "header_layout": {
                     "options": {
-                        "show_header": "",
-                        "show_only_logo": "",
-                        "hide_secondary_items": ""
+                        "show_header": "展示横幅",
+                        "show_only_logo": "仅展示 Logo",
+                        "hide_secondary_items": "隐藏次级元素（搜索、登录注册按钮）"
                     },
-                    "title": ""
+                    "title": "横幅样式"
                 },
-                "illustration_path": "",
-                "primary_color_bg": "",
-                "route_exclusions": "",
-                "screen_banner_description": "",
-                "screen_banner_heading": "",
-                "screen_banner_title": "",
-                "use_welcome_hero_text": ""
+                "illustration_path": "壁纸",
+                "primary_color_bg": "使用主色调背景",
+                "route_exclusions": "登录注册页重定向的排除路由。",
+                "screen_banner_description": "屏幕消息",
+                "screen_banner_heading": "屏幕横幅",
+                "screen_banner_title": "屏幕标题",
+                "use_welcome_hero_text": "使用欢迎横幅文本"
             }
         },
         "forum": {
-            "log_in_label": "",
-            "or_label": "",
-            "sign_up_label": ""
+            "log_in_label": "=> core.ref.log_in",
+            "or_label": "或",
+            "sign_up_label": "=> core.ref.sign_up"
         }
     }
 }
