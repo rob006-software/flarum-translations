@@ -2,78 +2,78 @@
     "flamarkt-taxonomies": {
         "admin": {
             "menu": {
-                "title": "",
-                "description": ""
+                "title": "Taxonomies",
+                "description": "Créer des taxonomies et des termes personnalisés."
             },
             "page": {
-                "title": "",
+                "title": "Taxonomies",
                 "create": {
-                    "taxonomy": "",
-                    "term": ""
+                    "taxonomy": "Créer une taxonomie",
+                    "term": "Créer un terme"
                 },
-                "reset-term-order": ""
+                "reset-term-order": "Réinitialiser la liste des termes par ordre alphabétique"
             },
             "edit-taxonomy": {
                 "title": {
-                    "new": "",
-                    "edit": ""
+                    "new": "Créer une taxonomie",
+                    "edit": "Modifier la taxonomie"
                 },
                 "field": {
-                    "type": "",
-                    "typeDescription": "",
-                    "name": "",
-                    "slug": "",
-                    "description": "",
-                    "color": "",
-                    "icon": "",
-                    "iconDescription": "",
-                    "showLabel": "",
-                    "showFilter": "",
-                    "allowCustomValues": "",
-                    "customValueValidation": "",
-                    "customValueSlugger": "",
-                    "customValueSluggerDescription": "",
-                    "countRequired": "",
-                    "countRequiredDescription": "",
-                    "rangeSeparatorText": ""
+                    "type": "Type",
+                    "typeDescription": "Les taxonomies peuvent être utilisées sur plusieurs ressources de Flarum. Le type ne peut pas être modifié après la création. Vous pouvez utiliser des noms et des slugs identiques pour des taxonomies de types différents.\n",
+                    "name": "=> flamarkt-taxonomies.ref.field.name",
+                    "slug": "=> flamarkt-taxonomies.ref.field.slug",
+                    "description": "=> flamarkt-taxonomies.ref.field.description",
+                    "color": "=> flamarkt-taxonomies.ref.field.color",
+                    "icon": "=> flamarkt-taxonomies.ref.field.icon",
+                    "iconDescription": "=> flamarkt-taxonomies.ref.field.iconDescription",
+                    "showLabel": "Afficher l'étiquette taxonomique avec le terme",
+                    "showFilter": "Afficher le filtre sur la page d'accueil",
+                    "allowCustomValues": "Autoriser les valeurs personnalisées",
+                    "customValueValidation": "Validation des valeurs personnalisées",
+                    "customValueSlugger": "Slugger pour les valeurs personnalisées",
+                    "customValueSluggerDescription": "Choisissez comment vous souhaitez que le slug soit généré. Si un slug existe déjà, un préfixe numérique sera automatiquement ajouté. Pour l'option de translitération, vous devez installer et configurer cette autre extension au préalable.\n",
+                    "countRequired": "Nombre de termes requis",
+                    "countRequiredDescription": "Saisissez le nombre minimum et maximum de termes de cette taxonomie qui peuvent être appliqués à une discussion.\n",
+                    "rangeSeparatorText": "à"
                 },
-                "delete": "",
-                "deleteConfirmation": "",
+                "delete": "=> flamarkt-taxonomies.ref.delete",
+                "deleteConfirmation": "Souhaitez-vous vraiment supprimer la taxonomie {name} ? Tous les termes de cette taxonomie seront supprimés. Les discussions utilisant cette taxonomie ne seront PAS supprimées.\n",
                 "submit": {
-                    "new": "",
-                    "edit": ""
+                    "new": "=> flamarkt-taxonomies.ref.submit.new",
+                    "edit": "=> flamarkt-taxonomies.ref.submit.edit"
                 },
                 "type-options": {
-                    "products": "",
-                    "discussions": "",
-                    "users": ""
+                    "products": "Produits",
+                    "discussions": "Discussions",
+                    "users": "Utilisateurs"
                 },
                 "validation-options": {
-                    "default": "",
-                    "alpha_num": "",
-                    "alpha_dash": "",
-                    "regex": ""
+                    "default": "N'importe quelle valeur de texte",
+                    "alpha_num": "Valeurs alphanumériques",
+                    "alpha_dash": "Valeurs alphanumériques, tirets et tirets bas",
+                    "regex": "Expression régulière"
                 },
                 "slugger-options": {
-                    "random": "",
-                    "alpha_dash": "",
-                    "transliterator": ""
+                    "random": "Identificateur aléatoire",
+                    "alpha_dash": "Slugger alphanumérique ASCII",
+                    "transliterator": "Utiliser l'extension FoF Transliterator"
                 }
             },
             "edit-term": {
                 "title": {
-                    "new": "",
-                    "edit": ""
+                    "new": "Créer un terme",
+                    "edit": "Modifier le terme"
                 },
                 "field": {
-                    "name": "",
-                    "slug": "",
-                    "description": "",
-                    "color": "",
-                    "icon": "",
-                    "iconDescription": ""
+                    "name": "=> flamarkt-taxonomies.ref.field.name",
+                    "slug": "=> flamarkt-taxonomies.ref.field.slug",
+                    "description": "=> flamarkt-taxonomies.ref.field.description",
+                    "color": "=> flamarkt-taxonomies.ref.field.color",
+                    "icon": "=> flamarkt-taxonomies.ref.field.icon",
+                    "iconDescription": "=> flamarkt-taxonomies.ref.field.iconDescription"
                 },
-                "delete": "",
+                "delete": "=> flamarkt-taxonomies.ref.delete",
                 "deleteConfirmation": "",
                 "submit": {
                     "new": "",
