@@ -2,62 +2,62 @@
     "kilowhat-rich-embeds": {
         "admin": {
             "settings": {
-                "layout": "",
+                "layout": "Mise en page",
                 "layoutOptions": {
-                    "inline": "",
-                    "block": "",
-                    "separated": ""
+                    "inline": "Dans la ligne",
+                    "block": "Bloc",
+                    "separated": "Séparateur"
                 },
-                "position": "",
+                "position": "Position",
                 "positionOptions": {
-                    "replace": "",
-                    "above": "",
-                    "below": ""
+                    "replace": "Remplacer le lien",
+                    "above": "En haut du lien",
+                    "below": "En bas du lien"
                 },
-                "style": "",
+                "style": "Style",
                 "styleOptions": {
-                    "vertical": "",
-                    "horizontal": ""
+                    "vertical": "Vertical",
+                    "horizontal": "Horizontal"
                 },
-                "imageProxy": "",
-                "imageProxyHelp": "",
-                "cacheProxy": "",
-                "cacheProxyHelp": "",
-                "withoutOpengraph": "",
-                "withoutOpengraphHelp": "",
-                "blacklist": "",
-                "blacklistHelp": "",
-                "whitelist": "",
-                "whitelistHelp": ""
+                "imageProxy": "Proxy d'image",
+                "imageProxyHelp": "Toutes les images seront transmises par Flarum au lieu d'être récupérées par le navigateur du visiteur",
+                "cacheProxy": "Mise en cache des images sous proxy",
+                "cacheProxyHelp": "Les images seront mises en cache sur le disque en fonction de leurs en-têtes HTTP",
+                "withoutOpengraph": "Générer des contenus riches pour les pages sans données OpenGraph",
+                "withoutOpengraphHelp": "Le titre, la description et l'image seront extraits de la page HTML",
+                "blacklist": "Liste noire d'URL",
+                "blacklistHelp": "Consultez la documentation pour connaître le format. Ces URL n'auront jamais de contenu riche et ne peuvent pas être transmises par le proxy d'image",
+                "whitelist": "Liste blanche d'URL",
+                "whitelistHelp": "Consultez la documentation pour connaître le format. Si une valeur est définie, toutes les autres URL seront considérées comme sur liste noire"
             },
             "permissions": {
-                "useOnOwnPost": "",
-                "disableOnOwnPost": "",
-                "refreshOnOwnPost": "",
-                "disableOnAnyPost": "",
-                "refreshOnAnyPost": ""
+                "useOnOwnPost": "Utilisez des contenus riches dans votre propre message",
+                "disableOnOwnPost": "Désactiver les contenus riches dans votre propre message",
+                "refreshOnOwnPost": "Actualiser les contenus riches sur votre propre message",
+                "disableOnAnyPost": "Désactiver les contenus riches sur n'importe quel message",
+                "refreshOnAnyPost": "Actualiser les contenus riches sur n'importe quel message"
             },
             "preview": {
-                "title": "",
-                "refresh": "",
-                "loading": ""
+                "title": "Prévisualiser",
+                "refresh": "Actualiser",
+                "loading": "Chargement…"
             }
         },
         "lib": {
             "embed": {
-                "altFavicon": "",
-                "altImageFallback": ""
+                "altFavicon": "Icône de {website}",
+                "altImageFallback": "Image OpenGraph de {website}"
             },
             "controls": {
-                "refresh": "",
-                "disable": "",
-                "disableConfirmation": ""
+                "refresh": "Actualiser les données",
+                "disable": "Désactiver les contenus riches sur ce message",
+                "disableConfirmation": "Tous les contenus riches seront supprimés de ce message. Souhaitez-vous continuer ?"
             }
         },
         "api": {
             "error": {
-                "blacklistedUrl": "",
-                "invalidUrl": ""
+                "blacklistedUrl": "L'URL {url} n'a pas été autorisée à être intégrée.",
+                "invalidUrl": "L'URL {url} n'est pas valide."
             }
         }
     }
