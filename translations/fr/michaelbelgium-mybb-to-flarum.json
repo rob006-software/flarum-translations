@@ -5,11 +5,16 @@
                 "description_text": "Convertir un forum MyBB dans cette instance Flarum. Renseignez les données requises puis cliquez sur « migrer ».",
                 "convert_button": "Migrer",
                 "form": {
-                    "general": {
-                        "title": "Paramètres généraux",
-                        "migrate_avatars_label": "Migrer les avatars",
-                        "migrate_soft_threads_label": "Migrer les fils de discussions supprimés sans destruction",
-                        "migrate_soft_posts_label": "Migrer les messages supprimés sans destruction"
+                    "options": {
+                        "title": "Options générales de migration",
+                        "migrate_avatars_label": "",
+                        "migrate_soft_threads_label": "",
+                        "migrate_soft_posts_label": "",
+                        "migrate_attachments_label": "",
+                        "migrate_users_label": "Migrer les utilisateurs",
+                        "migrate_threadsPosts_label": "Migrer les fils de discussions et les messages",
+                        "migrate_userGroups_label": "Migrer les groupes d'utilisateurs",
+                        "migrate_categories_label": "Migrer les catégories"
                     },
                     "mybb": {
                         "title": "Paramètres de MyBB",
@@ -20,12 +25,15 @@
                         "prefix_label": "Préfixe de table",
                         "path_label": "Chemin absolu de MyBB"
                     },
-                    "options": {
-                        "title": "Options générales de migration",
-                        "migrate_users_label": "Migrer les utilisateurs",
-                        "migrate_threadsPosts_label": "Migrer les fils de discussions et les messages",
-                        "migrate_userGroups_label": "Migrer les groupes d'utilisateurs",
-                        "migrate_categories_label": "Migrer les catégories"
+                    "general": {
+                        "title": "Paramètres généraux",
+                        "migrate_users_label": "",
+                        "migrate_threadsPosts_label": "",
+                        "migrate_userGroups_label": "",
+                        "migrate_categories_label": "",
+                        "migrate_avatars_label": "Migrer les avatars",
+                        "migrate_soft_threads_label": "Migrer les fils de discussions supprimés sans destruction",
+                        "migrate_soft_posts_label": "Migrer les messages supprimés sans destruction"
                     }
                 }
             }

@@ -5,11 +5,16 @@
                 "description_text": "Converteer een MyBB forum naar deze Flarum installatie. Vul de vereiste gegevens in, klik nadien op \"Migreren\".",
                 "convert_button": "Migreren",
                 "form": {
-                    "general": {
-                        "title": "Algemene instellingen",
-                        "migrate_avatars_label": "Migreer profiel avatars",
-                        "migrate_soft_threads_label": "Migreer soft verwijderde topics",
-                        "migrate_soft_posts_label": "Migreer soft verwijderde berichten"
+                    "options": {
+                        "title": "Algemene migreer opties",
+                        "migrate_avatars_label": "",
+                        "migrate_soft_threads_label": "",
+                        "migrate_soft_posts_label": "",
+                        "migrate_attachments_label": "",
+                        "migrate_users_label": "Migreer gebruikers",
+                        "migrate_threadsPosts_label": "Migreer topics en berichten",
+                        "migrate_userGroups_label": "Migreer gebruikersgroepen",
+                        "migrate_categories_label": "Migreer categorieën"
                     },
                     "mybb": {
                         "title": "MyBB instellingen",
@@ -20,12 +25,15 @@
                         "prefix_label": "Tabel prefix",
                         "path_label": "Absoluut MyBB pad"
                     },
-                    "options": {
-                        "title": "Algemene migreer opties",
-                        "migrate_users_label": "Migreer gebruikers",
-                        "migrate_threadsPosts_label": "Migreer topics en berichten",
-                        "migrate_userGroups_label": "Migreer gebruikersgroepen",
-                        "migrate_categories_label": "Migreer categorieën"
+                    "general": {
+                        "title": "Algemene instellingen",
+                        "migrate_users_label": "",
+                        "migrate_threadsPosts_label": "",
+                        "migrate_userGroups_label": "",
+                        "migrate_categories_label": "",
+                        "migrate_avatars_label": "Migreer profiel avatars",
+                        "migrate_soft_threads_label": "Migreer soft verwijderde topics",
+                        "migrate_soft_posts_label": "Migreer soft verwijderde berichten"
                     }
                 }
             }
