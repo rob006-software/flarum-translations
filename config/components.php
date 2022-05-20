@@ -575,7 +575,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/imorland/level-ranks/1.0.0/resources/locale/en.yml',
 	],
 	'ianm-oauth-amazon' => [
-		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-ext-oauth-amazon/1.0.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/imorland/flarum-ext-oauth-amazon/1.0.1/locale/en.yml',
 	],
 	'ianm-syndication' => [
 		'tag' => 'https://raw.githubusercontent.com/imorland/syndication/1.1.0/resources/locale/en.yml',
