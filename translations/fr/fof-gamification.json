@@ -28,7 +28,7 @@
             },
             "user": {
                 "card": {
-                    "points": ""
+                    "points": "{count, plural, one { {count} point} other {{count} points}}"
                 },
                 "rank": "{rank}",
                 "points": "Points : {points}"
