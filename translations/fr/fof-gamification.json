@@ -27,8 +27,11 @@
                 }
             },
             "user": {
-                "points": "Points : {points}",
-                "rank": "{rank}"
+                "card": {
+                    "points": ""
+                },
+                "rank": "{rank}",
+                "points": "Points : {points}"
             },
             "modal": {
                 "downvotes_label": "Votants négatifs :",

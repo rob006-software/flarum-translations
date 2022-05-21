@@ -27,8 +27,11 @@
                 }
             },
             "user": {
-                "points": "Puan: {points}",
-                "rank": "{rank}"
+                "card": {
+                    "points": ""
+                },
+                "rank": "{rank}",
+                "points": "Puan: {points}"
             },
             "modal": {
                 "downvotes_label": "Olumsuz oy verenler:",

@@ -27,7 +27,9 @@
                 }
             },
             "user": {
-                "points": "Points: {points}",
+                "card": {
+                    "points": "{count, plural, one { {count} point} other {{count} points}}"
+                },
                 "rank": "{rank}"
             },
             "modal": {
