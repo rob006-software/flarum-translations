@@ -2,37 +2,37 @@
     "fof-terms": {
         "admin": {
             "settings": {
-                "title": "",
+                "title": "Configurações dos Termos",
                 "field": {
-                    "signup-legal-text": "",
-                    "hide-updated-at": "",
-                    "date-format": "",
-                    "date-format-help": ""
+                    "signup-legal-text": "Texto adicional no formulário de inscrição",
+                    "hide-updated-at": "Não mostrar a data de atualização dos termos quando uma atualização estiver disponível",
+                    "date-format": "Formato da data",
+                    "date-format-help": "Você pode usar qualquer formato <a>Day.js</a> válido. Deixe o campo vazio por padrão."
                 }
             },
             "titles": {
-                "policies": ""
+                "policies": "Políticas"
             },
             "buttons": {
-                "new-policy": "",
-                "edit-policy": "",
-                "add-policy": "",
-                "save-policy": "",
-                "delete-policy": "",
-                "set-to-now": ""
+                "new-policy": "Nova Política",
+                "edit-policy": "Editar Política",
+                "add-policy": "Adicionar Política",
+                "save-policy": "Salvar Política",
+                "delete-policy": "Deletar Política",
+                "set-to-now": "Definir para agora"
             },
             "messages": {
-                "delete-policy-confirmation": ""
+                "delete-policy-confirmation": "Isso excluirá permanentemente a política {name} e as datas de aceitação associadas do banco de dados. Certifique-se de fazer um backup dessas datas se precisar delas por motivos legais. Tem certeza de que deseja excluir esta política?\n"
             },
             "policies": {
-                "name": "",
-                "name-help": "",
-                "url": "",
-                "url-help": "",
-                "update-message": "",
-                "update-message-help": "",
-                "terms-updated-at": "",
-                "terms-updated-at-placeholder": "",
+                "name": "Nome",
+                "name-help": "Este nome será mostrado ao lado da caixa de seleção e como o título do modal de atualização.",
+                "url": "URL",
+                "url-help": "O URL para a página onde você pode ler os termos. Abrirá em uma nova aba quando clicado.",
+                "update-message": "Atualizar Mensagem",
+                "update-message-help": "Uma mensagem para mostrar aos usuários existentes que ainda não aceitaram os termos mais recentes.",
+                "terms-updated-at": "Atualizado em",
+                "terms-updated-at-placeholder": "YYYY-MM-DD (hh:mm:ss)",
                 "terms-updated-at-help": "",
                 "export-url": "",
                 "export-url-help": ""
