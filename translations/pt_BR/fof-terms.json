@@ -33,41 +33,41 @@
                 "update-message-help": "Uma mensagem para mostrar aos usuários existentes que ainda não aceitaram os termos mais recentes.",
                 "terms-updated-at": "Atualizado em",
                 "terms-updated-at-placeholder": "YYYY-MM-DD (hh:mm:ss)",
-                "terms-updated-at-help": "",
-                "export-url": "",
-                "export-url-help": ""
+                "terms-updated-at-help": "A data da última atualização de termos. Definir esse valor exigirá que todos os usuários que aceitaram antes dessa data aceitem novamente. Deve estar no passado (caso contrário, os usuários nunca conseguiriam aceitar após a data e passar do modal).\n",
+                "export-url": "Exportar URL",
+                "export-url-help": "Qualquer usuário com permissão \"Exportar todos os dados de políticas\" pode acessar esses URLs para baixar a lista de usuários que aceitaram esta política. Você pode encontrar mais detalhes sobre as opções disponíveis no <a>wiki da extensão</a>.\n"
             },
             "permissions": {
-                "see-user-policies-state": "",
-                "postpone-policies-accept": "",
-                "export-policies": ""
+                "see-user-policies-state": "Veja o estado das políticas do usuário",
+                "postpone-policies-accept": "Pode adiar a aceitação dos novos termos",
+                "export-policies": "Exporte todos os dados de usuários e políticas"
             }
         },
         "forum": {
             "signup": {
-                "i-accept": "",
-                "must-accept": ""
+                "i-accept": "Aceito a <a>{policy}</a>",
+                "must-accept": "A {policy} deve ser aceita."
             },
             "accept-modal": {
-                "title": "",
-                "updated-at": "",
-                "updated-recently": "",
-                "i-accept": "",
-                "accept": "",
-                "close": ""
+                "title": "Atualização de Termos",
+                "updated-at": "Os termos foram atualizados em {date}",
+                "updated-recently": "Os termos foram atualizados desde sua última visita",
+                "i-accept": "Aceito a nova <a>{policy}</a>",
+                "accept": "Confirme",
+                "close": "Obrigado por aceitar, agora você pode voltar ao fórum"
             },
             "state-modal": {
-                "title": "",
-                "accepted-at": "",
-                "not-accepted": ""
+                "title": "O estado de aceite dos termos do usuário {username}",
+                "accepted-at": "Aceito {data}",
+                "not-accepted": "Não aceito"
             },
             "update-alert": {
-                "must-accept-message": "",
-                "can-accept-message": "",
-                "review": ""
+                "must-accept-message": "Restringimos temporariamente o acesso à sua conta enquanto você verifica os novos termos.",
+                "can-accept-message": "Recentemente, atualizamos os termos. Você deve aceitá-los para continuar usando este site.",
+                "review": "Clique aqui para revisar e aceitar os novos termos"
             },
             "user_controls": {
-                "state_button": ""
+                "state_button": "Estado de aceite dos termos"
             }
         }
     }
