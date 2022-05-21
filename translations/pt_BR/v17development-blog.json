@@ -1,20 +1,20 @@
 {
     "v17development-flarum-blog": {
         "admin": {
-            "blog": "",
+            "blog": "Blog",
             "permissions": {
-                "write_articles": "",
-                "auto_approve_posts": "",
-                "approve_posts": ""
+                "write_articles": "Escrever e editar artigos de blog",
+                "auto_approve_posts": "Postar artigos sem aprovação",
+                "approve_posts": "Pode aprovar artigos do blog"
             },
             "settings": {
-                "no_categories_selected": "",
-                "selected_category_count": "",
-                "select_categories_button": "",
-                "blog_heading": "",
-                "featured_count_label": "",
-                "featured_count_text": "",
-                "allow_comments_label": "",
+                "no_categories_selected": "Nenhuma categoria selecionada",
+                "selected_category_count": "{count, plural, one {Você tem # categoria selecionada} other {Você tem # categorias selecionadas}}",
+                "select_categories_button": "Selecione as categorias do blog",
+                "blog_heading": "Blog",
+                "featured_count_label": "Máximo de publicações em destaque",
+                "featured_count_text": "Quantas postagens devem ser exibidas em uma grande grade no topo de uma página de blog?",
+                "allow_comments_label": "Permitir comentários",
                 "allow_comments_text": "",
                 "require_review_label": "",
                 "require_review_text": "",
