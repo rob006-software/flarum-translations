@@ -3,16 +3,16 @@
         "forum": {
             "composer": {
                 "warning": {
-                    "title": "",
-                    "description": "",
-                    "checkbox_label": "",
-                    "error": ""
+                    "title": "Esta discussão é mais antiga que <b>{time}</b>.",
+                    "description": "É muito provável que não precise de mais discussão e, portanto, esbarrar nele não serve para nada.",
+                    "checkbox_label": "Estou ciente que esta discussão é bastante antiga, mas ainda assim gostaria de responder.",
+                    "error": "Esta discussão é muito antiga para responder."
                 }
             }
         },
         "admin": {
             "settings": {
-                "days_label": "",
+                "days_label": "Dias",
                 "days_help": "",
                 "message_title_label": "",
                 "message_title_help": "",
