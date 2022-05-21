@@ -3,53 +3,53 @@
         "forum": {
             "badges": {
                 "is_private": {
-                    "tooltip": ""
+                    "tooltip": "Discussão privada"
                 }
             },
             "buttons": {
-                "add_recipients": "",
-                "submit": "",
-                "edit_recipients": "",
-                "send_pd": "",
-                "cancel": "",
-                "make_public": "",
-                "remove_from_discussion": ""
+                "add_recipients": "Destinatários",
+                "submit": "OK",
+                "edit_recipients": "Editar destinatários",
+                "send_pd": "Envie uma mensagem para {username}",
+                "cancel": "Cancelar",
+                "make_public": "Tornar esta discussão pública",
+                "remove_from_discussion": "Sair desta discussão privada"
             },
             "composer_private_discussion": {
-                "submit_button": "",
-                "title_placeholder": ""
+                "submit_button": "Postar discussão privada",
+                "title_placeholder": "Título da discussão privada"
             },
             "confirm": {
-                "make_public": ""
+                "make_public": "Tem certeza de que deseja remover os destinatários e tornar esta discussão visível para qualquer pessoa que possa visualizar a tag atribuída?"
             },
             "labels": {
-                "recipients": ""
+                "recipients": "{count, plural, one {{count} Destinatário} other {{count} Destinatários}}"
             },
             "nav": {
-                "start_button": "",
-                "nav_item": ""
+                "start_button": "Discutir em particular",
+                "nav_item": "Discussões Privadas"
             },
             "input": {
-                "search_recipients": ""
+                "search_recipients": "Pesquisar destinatário digitando os três primeiros caracteres..."
             },
             "search": {
                 "headings": {
-                    "groups": ""
+                    "groups": "Grupos de permissão"
                 }
             },
             "modal": {
                 "titles": {
-                    "update_recipients": "",
-                    "add_recipients": ""
+                    "update_recipients": "Atualizar destinatários de {title}",
+                    "add_recipients": "Adicionar destinatários à sua discussão"
                 },
                 "labels": {
-                    "selected_users": "",
-                    "search_field": ""
+                    "selected_users": "Usuários selecionados",
+                    "search_field": "Pesquisar usuário"
                 },
                 "help": {
-                    "add_recipients": "",
-                    "update_recipients": "",
-                    "selected_users": "",
+                    "add_recipients": "Esta discussão só será visível para os usuários que você escolher aqui. É necessário pelo menos 1 destinatário (além de você).",
+                    "update_recipients": "Esta discussão só será visível para os usuários que você escolher aqui.",
+                    "selected_users": "Clique no nome de um usuário para removê-lo.",
                     "click_user_to_remove_tooltip": ""
                 }
             },
