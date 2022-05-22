@@ -238,6 +238,9 @@ return [
 	'clarkwinkelmann-who-read' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-who-read/1.4.0/resources/locale/en.yml',
 	],
+	'convo-extensions-guest-posting' => [
+		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/convo-extensions-guest-posting.yml',
+	],
 	'convo-extensions-quick-reply' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/convo-extensions-quick-reply.yml',
 	],
