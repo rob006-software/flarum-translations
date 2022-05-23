@@ -3477,9 +3477,19 @@
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://extiverse.com/extension/convo-extensions/flarum-ext-guest-posting" title="convo-extensions/flarum-ext-guest-posting"><code>convo-extensions/…guest-posting</code></a>
+		</td>
+		<td align="center">24</td>
+		<td align="center">1</td>
+		<td align="center">1</td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/convo-extensions-guest-posting/pt/"><img src="https://weblate.rob006.net/widgets/flarum/pt/convo-extensions-guest-posting/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://extiverse.com/extension/glowingblue/localizd" title="glowingblue/localizd"><code>glowingblue/localizd</code></a>
 		</td>
-		<td align="center">24<br /><img src="https://img.shields.io/badge/-%2B1-red" alt="+1" title="Change from last week"></td>
+		<td align="center">25<br /><img src="https://img.shields.io/badge/-%2B2-red" alt="+2" title="Change from last week"></td>
 		<td align="center">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
 		<td align="center">281<br /><img src="https://img.shields.io/badge/-%2B4-brightgreen" alt="+4" title="Change from last week"></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/glowingblue-localizd/pt/"><img src="https://weblate.rob006.net/widgets/flarum/pt/glowingblue-localizd/svg-badge.svg" alt="Translation status"></a></td>
@@ -3487,9 +3497,19 @@
 	<tr>
 		<td>
 			<span title="Compatible with recent Flarum">🟢</span>
+			<a href="https://extiverse.com/extension/convo-extensions/flarum-ext-quick-reply" title="convo-extensions/flarum-ext-quick-reply"><code>convo-extensions/flarum-ext-quick-reply</code></a>
+		</td>
+		<td align="center">26</td>
+		<td align="center">0</td>
+		<td align="center">1</td>
+		<td><a href="https://weblate.rob006.net/projects/flarum/convo-extensions-quick-reply/pt/"><img src="https://weblate.rob006.net/widgets/flarum/pt/convo-extensions-quick-reply/svg-badge.svg" alt="Translation status"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://extiverse.com/extension/justoverclock/igdb-api" title="justoverclock/igdb-api"><code>justoverclock/igdb-api</code></a>
 		</td>
-		<td align="center">25<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center">27<br /><img src="https://img.shields.io/badge/-%2B2-red" alt="+2" title="Change from last week"></td>
 		<td align="center">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
 		<td align="center">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-igdb-api/pt/"><img src="https://weblate.rob006.net/widgets/flarum/pt/justoverclock-igdb-api/svg-badge.svg" alt="Translation status"></a></td>
@@ -3499,7 +3519,7 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://extiverse.com/extension/justoverclock/steam-api" title="justoverclock/steam-api"><code>justoverclock/steam-api</code></a>
 		</td>
-		<td align="center">26<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center">28<br /><img src="https://img.shields.io/badge/-%2B2-red" alt="+2" title="Change from last week"></td>
 		<td align="center">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
 		<td align="center">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-steam-api/pt/"><img src="https://weblate.rob006.net/widgets/flarum/pt/justoverclock-steam-api/svg-badge.svg" alt="Translation status"></a></td>
@@ -3509,7 +3529,7 @@
 			<span title="Compatible with recent Flarum">🟢</span>
 			<a href="https://extiverse.com/extension/justoverclock/theaudiodb-api" title="justoverclock/theaudiodb-api"><code>justoverclock/theaudiodb-api</code></a>
 		</td>
-		<td align="center">27<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
+		<td align="center">29<br /><img src="https://img.shields.io/badge/-%2B2-red" alt="+2" title="Change from last week"></td>
 		<td align="center">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
 		<td align="center">0<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
 		<td><a href="https://weblate.rob006.net/projects/flarum/justoverclock-theaudiodb-api/pt/"><img src="https://weblate.rob006.net/widgets/flarum/pt/justoverclock-theaudiodb-api/svg-badge.svg" alt="Translation status"></a></td>
