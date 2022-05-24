@@ -278,7 +278,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-landing-page/0.1.0/locale/en.yml',
 	],
 	'datlechin-link-preview' => [
-		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-link-preview/v0.2.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-link-preview/v1.0.0/locale/en.yml',
 	],
 	'datlechin-offline-indicator' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-offline-indicator/v0.1.0/locale/en.yml',
