@@ -20,27 +20,27 @@
                 "amount": "Pontos"
             },
             "notification": {
-                "upvote": "",
-                "downvote": "",
+                "upvote": "{username} votou positivamente em sua postagem",
+                "downvote": "{username} votou negativamente em sua postagem",
                 "prefrences": {
-                    "vote": ""
+                    "vote": "Quando um dos meus posts é votado para cima/para baixo"
                 }
             },
             "user": {
                 "card": {
-                    "points": ""
+                    "points": "{count, plural, one { {count} point} outro {{count} points}}"
                 },
-                "rank": "",
+                "rank": "{rank}",
                 "points": ""
             },
             "modal": {
-                "downvotes_label": "",
-                "title": "",
-                "upvotes_label": ""
+                "downvotes_label": "Desaprovadores:",
+                "title": "Votadores",
+                "upvotes_label": "Apoiadores:"
             },
-            "mod_item": "",
+            "mod_item": "Ver eleitores",
             "voters": {
-                "none": "",
+                "none": "Ainda não há votadores",
                 "label": "",
                 "label_none": ""
             },
