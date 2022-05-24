@@ -486,6 +486,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`blomstra-secondary-tags-toggler`](https://weblate.rob006.net/projects/flarum/blomstra-secondary-tags-toggler) | [`blomstra/secondary-tags-toggler`](https://github.com/blomstra/flarum-ext-secondary-tags-toggler) |
 | [`blomstra-sort-order-toggle`](https://weblate.rob006.net/projects/flarum/blomstra-sort-order-toggle) | [`blomstra/sort-order-toggle`](https://github.com/blomstra/flarum-ext-sort-order-toggle) |
 | [`blomstra-user-filter`](https://weblate.rob006.net/projects/flarum/blomstra-user-filter) | [`blomstra/user-filter`](https://github.com/blomstra/flarum-ext-user-filter) |
+| [`blomstra-usercard-stats`](https://weblate.rob006.net/projects/flarum/blomstra-usercard-stats) | [`blomstra/usercard-stats`](https://github.com/blomstra/flarum-ext-usercard-stats) |
 | [`blomstra-welcome-login`](https://weblate.rob006.net/projects/flarum/blomstra-welcome-login) | [`blomstra/welcome-login`](https://github.com/blomstra/flarum-ext-welcome-login) |
 | [`clarkwinkelmann-catch-the-fish`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-catch-the-fish) | [`clarkwinkelmann/catch-the-fish`](https://github.com/clarkwinkelmann/catch-the-fish) |
 | [`clarkwinkelmann-author-change`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-author-change) | [`clarkwinkelmann/flarum-ext-author-change`](https://github.com/clarkwinkelmann/flarum-ext-author-change) |
