@@ -3,14 +3,24 @@
         "forum": {
             "select": {
                 "all": "Tout sélectionner",
-                "none": "Tout déselectionner"
+                "none": "Tout déselectionner",
+                "read": "",
+                "unread": "",
+                "visible": "",
+                "hidden": "",
+                "locked": "",
+                "unlocked": ""
             },
             "actions": {
                 "markAsRead": "Marquer comme lu la sélection",
                 "hide": "Supprimer la sélection",
                 "restore": "Restaurer la sélection",
+                "delete": "",
+                "deleteConfirmation": "",
                 "lock": "Verrouiller la sélection",
                 "unlock": "Déverrouiller la sélection",
+                "sticky": "",
+                "unsticky": "",
                 "tags": "Étiquettes",
                 "tags-edit": "Modifier les étiquettes",
                 "tags-add": "Ajouter <em>{tag}</em>"

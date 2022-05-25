@@ -2,15 +2,25 @@
     "clarkwinkelmann-mass-actions": {
         "forum": {
             "select": {
-                "all": "Select all",
-                "none": "Unselect all"
+                "all": "All",
+                "none": "None",
+                "read": "Read",
+                "unread": "Not read",
+                "visible": "Not deleted",
+                "hidden": "Soft deleted",
+                "locked": "Locked",
+                "unlocked": "Unlocked"
             },
             "actions": {
                 "markAsRead": "Mark selected as read",
                 "hide": "Delete selected",
                 "restore": "Restore selected",
+                "delete": "Delete forever selected",
+                "deleteConfirmation": "{count, plural, one {Are you sure you want to permanently delete the selected discussion?} other {Are you sure you want to permanently delete # selected discussions?}}",
                 "lock": "Lock selected",
                 "unlock": "Unlock selected",
+                "sticky": "Sticky selected",
+                "unsticky": "Unsticky selected",
                 "tags": "Tags",
                 "tags-edit": "Edit tags",
                 "tags-add": "Add <em>{tag}</em>"

@@ -3,14 +3,24 @@
         "forum": {
             "select": {
                 "all": "Tümünü seç",
-                "none": "Tümünün seçimini kaldır"
+                "none": "Tümünün seçimini kaldır",
+                "read": "",
+                "unread": "",
+                "visible": "",
+                "hidden": "",
+                "locked": "",
+                "unlocked": ""
             },
             "actions": {
                 "markAsRead": "Seçilileri okundu olarak işaretle",
                 "hide": "Silme seçildi",
                 "restore": "Seçileni geri yükle",
+                "delete": "",
+                "deleteConfirmation": "",
                 "lock": "Seçileni kilitle",
                 "unlock": "Seçilenin kilidini kaldır",
+                "sticky": "",
+                "unsticky": "",
                 "tags": "Etiketler",
                 "tags-edit": "Etiketleri düzenle",
                 "tags-add": "<em>{tag}</em> ekleyin"
