@@ -100,16 +100,16 @@
         },
         "email": {
             "subject": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": ""
+                "private_discussion_created": "[Privédiscussie] {display_name} heeft een nieuwe privédiscussie met u gestart",
+                "private_discussion_replied": "[Privédiscussie] {display_name} heeft iets geplaatst in een privédiscussie",
+                "recipient_removed": "[Privédiscussie] {display_name} heeft de discussie verlaten",
+                "private_discussion_added": "[Privédiscussie] {display_name} heeft je toegevoegd aan een privédiscussie"
             },
             "body": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": ""
+                "private_discussion_created": "Hallo {recipient_display_name},\n\n{actor_display_name} heeft een nieuwe privédiscussie gestart met jou als ontvanger: {discussion_title}.\n\nBekijk het hier:\n{discussion_url}\n\nMogelijk moet u eerst inloggen voordat u toegang kunt krijgen tot deze link.\n",
+                "private_discussion_replied": "Hallo {recipient_display_name},\n\n{actor_display_name} heeft gepost in een privédiscussie met jou als ontvanger: {discussion_title}.\n\nBekijk het hier:\n{post_url}\n\nMogelijk moet u eerst inloggen voordat u toegang kunt krijgen tot deze link.\n",
+                "recipient_removed": "Hallo {recipient_display_name},\n\n{actor_display_name} heeft de privédiscussie verlaten: {discussion_title}. Ze kunnen de inhoud ervan niet meer bekijken.\n\nBekijk het hier:\n{discussion_url}\n\nMogelijk moet u eerst inloggen voordat u toegang kunt krijgen tot deze link.\n",
+                "private_discussion_added": "Hallo {recipient_display_name},\n\n{actor_display_name} heeft je toegevoegd aan een bestaande privédiscussie: {discussion_title}.\n\nBekijk het hier:\n{discussion_url}\n\nMogelijk moet u eerst inloggen voordat u toegang kunt krijgen tot deze link.\n"
             }
         }
     }
