@@ -2,20 +2,20 @@
     "clarkwinkelmann-scout": {
         "admin": {
             "setting": {
-                "driver": "",
+                "driver": "Sürücü",
                 "driverOption": {
-                    "null": "",
-                    "algolia": "",
-                    "meilisearch": ""
+                    "null": "Boş",
+                    "algolia": "Algolia",
+                    "meilisearch": "Meilisearch"
                 },
-                "prefix": "",
-                "algoliaId": "",
-                "algoliaSecret": "",
-                "algoliaConnectTimeout": "",
-                "algoliaReadTimeout": "",
-                "algoliaWriteTimeout": "",
-                "meilisearchHost": "",
-                "meilisearchKey": ""
+                "prefix": "Dizin adı öneki (isteğe bağlı)",
+                "algoliaId": "Algolia ID",
+                "algoliaSecret": "Algolia Secret Anahtarı",
+                "algoliaConnectTimeout": "Algolia Bağlantı Zaman Aşımı (isteğe bağlı)",
+                "algoliaReadTimeout": "Algolia Okuma Zaman Aşımı (isteğe bağlı)",
+                "algoliaWriteTimeout": "Algolia Yazma Zaman Aşımı (isteğe bağlı)",
+                "meilisearchHost": "Meilisearch Host",
+                "meilisearchKey": "Meilisearch Anahtarı"
             }
         }
     }
