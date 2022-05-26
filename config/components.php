@@ -968,7 +968,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/eddiewebb/flarum-calendar/1.0.3/resources/locale/en.yml',
 	],
 	'wolfgang-demeter-amazon-product-api' => [
-		'tag' => 'https://raw.githubusercontent.com/wolfgang-demeter/flarum-ext-amazon-product-api/v0.1.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/wolfgang-demeter/flarum-ext-amazon-product-api/v0.1.2/locale/en.yml',
 	],
 	'xelson-chat' => [
 		'tag' => 'https://raw.githubusercontent.com/Xelson/flarum-ext-chat/v1.1.5/resources/locale/en.yaml',
