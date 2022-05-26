@@ -2,20 +2,20 @@
     "clarkwinkelmann-mass-actions": {
         "forum": {
             "select": {
-                "all": "Tümünü seç",
-                "none": "Tümünün seçimini kaldır",
-                "read": "",
-                "unread": "",
-                "visible": "",
-                "hidden": "",
-                "locked": "",
-                "unlocked": ""
+                "all": "Tümü",
+                "none": "Hiçbiri",
+                "read": "Oku",
+                "unread": "Okunmadı",
+                "visible": "Silinmedi",
+                "hidden": "Geçici olarak silindi",
+                "locked": "Kilitlendi",
+                "unlocked": "Kilidi açıldı"
             },
             "actions": {
                 "markAsRead": "Seçilileri okundu olarak işaretle",
                 "hide": "Silme seçildi",
                 "restore": "Seçileni geri yükle",
-                "delete": "",
+                "delete": "Seçilenleri kalıcı olarak sil",
                 "deleteConfirmation": "",
                 "lock": "Seçileni kilitle",
                 "unlock": "Seçilenin kilidini kaldır",
