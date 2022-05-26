@@ -49,6 +49,9 @@ return [
 	'afrux-top-posters-widget' => [
 		'tag' => 'https://raw.githubusercontent.com/afrux/top-posters-widget/v0.1.4/locale/en.yml',
 	],
+	'akamajoris-fof-upload' => [
+		'tag' => 'https://raw.githubusercontent.com/akamajoris/flarum-upload/1.2.3/resources/locale/en.yml',
+	],
 	'antoinefr-money' => [
 		'tag' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-money/v1.2.0/locale/en.yml',
 	],
