@@ -536,7 +536,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/split/1.0.1/locale/en.yml',
 	],
 	'fof-stopforumspam' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/stopforumspam/1.2.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/stopforumspam/1.2.1/resources/locale/en.yml',
 	],
 	'fof-subscribed' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/subscribed/1.1.2/resources/locale/en.yml',
