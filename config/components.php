@@ -127,6 +127,9 @@ return [
 	'blomstra-welcome-login' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-welcome-login/0.1.0/locale/en.yml',
 	],
+	'cccyun-clogin-oauth' => [
+		'tag' => 'https://raw.githubusercontent.com/netcccyun/flarum-clogin-oauth/v1.0.2/resources/locale/en.yml',
+	],
 	'clarkwinkelmann-author-change' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-author-change/1.0.2/resources/locale/en.yml',
 	],
