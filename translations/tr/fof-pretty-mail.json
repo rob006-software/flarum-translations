@@ -6,13 +6,13 @@
             },
             "settings": {
                 "attributes": {
-                    "body": "",
-                    "forumStyle": "",
-                    "url": "",
-                    "settings": "",
-                    "link": ""
+                    "body": "E-postanın gerçek içeriğini içerir",
+                    "forumStyle": "<strong>Tüm forum CSS'sini</strong> içerir",
+                    "url": "Flarum'un <code>UrlGenerator</code>",
+                    "settings": "SettingsRepositoryInterface ile etkileşime girmenizi sağlar",
+                    "link": "E-posta'daki bağlantıyı içerir"
                 },
-                "attributes_label": "",
+                "attributes_label": "Kullanılabilir özellikler",
                 "label": "E-Posta Şablonları",
                 "reset": "Varsayılana Döndür",
                 "confirm": "Varsayılan elektronik posta şablonuna dönmek istediğinize emin misiniz?",
@@ -22,7 +22,7 @@
                 "postMentioned": "Flarum/Bahsetmeler Gönderi Bahsetme E-Postası",
                 "notifications": "Bildirim şablonları",
                 "notificationHelp": "Elektronik postaların BBCode içermeleri muhtemel olduğu için \"$forumStyle\" kullanımı önerilir. Bu elektronik postalarda alıcı için \"$user\" kullanılır.",
-                "template_help": "",
+                "template_help": "Her bir özelliğin nasıl kullanılacağını öğrenmek için her bir şablona bakın.",
                 "help": "\"$body\" elektronik postanın içeriğini gösterir, \"$forumStyle\" <strong>forumun tüm CSS kodunu</strong> ekler, \"$url\" forumunuzun bağlantısıdır, \"$settings\" SettingsRepositoryInterface kısmı ile etkileşime girmenize izin verir, ve \"$link\" e-posta içersindeki bağlantıyı sağlar. Her değişkenin nasıl kullanıldığını incelemek için aşağıdaki şablonlara göz atın."
             },
             "css_settings": {
