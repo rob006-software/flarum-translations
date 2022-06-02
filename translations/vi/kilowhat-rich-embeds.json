@@ -28,7 +28,9 @@
                 "blacklist": "Danh sách đen URL",
                 "blacklistHelp": "Kiểm tra tài liệu để biết định dạng. Các URL này sẽ không bao giờ có nhiều nhúng và không thể được ủy quyền thông qua proxy hình ảnh",
                 "whitelist": "Danh sách trắng URL",
-                "whitelistHelp": "Kiểm tra tài liệu để biết định dạng. Nếu một giá trị được đặt, tất cả các URL khác sẽ được coi là danh sách đen"
+                "whitelistHelp": "Kiểm tra tài liệu để biết định dạng. Nếu một giá trị được đặt, tất cả các URL khác sẽ được coi là danh sách đen",
+                "imageEmbeds": "",
+                "imageEmbedsHelp": ""
             },
             "permissions": {
                 "useOnOwnPost": "Sử dụng nhúng trong bài đăng của riêng mình",
@@ -51,7 +53,10 @@
             "controls": {
                 "refresh": "Tải dữ liệu lại",
                 "disable": "Tắt nhúng trên bài viết này",
-                "disableConfirmation": "Tất cả các nhúng sẽ bị xóa khỏi bài đăng này. Tiếp tục?"
+                "disableConfirmation": "Tất cả các nhúng sẽ bị xóa khỏi bài đăng này. Tiếp tục?",
+                "imgCopy": "",
+                "imgCopied": "",
+                "imgOpen": ""
             }
         },
         "api": {

@@ -28,7 +28,9 @@
                 "blacklist": "Liste noire d'URL",
                 "blacklistHelp": "Consultez la documentation pour connaître le format. Ces URL n'auront jamais de contenu riche et ne peuvent pas être transmises par le proxy d'image",
                 "whitelist": "Liste blanche d'URL",
-                "whitelistHelp": "Consultez la documentation pour connaître le format. Si une valeur est définie, toutes les autres URL seront considérées comme sur liste noire"
+                "whitelistHelp": "Consultez la documentation pour connaître le format. Si une valeur est définie, toutes les autres URL seront considérées comme sur liste noire",
+                "imageEmbeds": "",
+                "imageEmbedsHelp": ""
             },
             "permissions": {
                 "useOnOwnPost": "Utilisez des contenus riches dans votre propre message",
@@ -51,7 +53,10 @@
             "controls": {
                 "refresh": "Actualiser les données",
                 "disable": "Désactiver les contenus riches sur ce message",
-                "disableConfirmation": "Tous les contenus riches seront supprimés de ce message. Souhaitez-vous continuer ?"
+                "disableConfirmation": "Tous les contenus riches seront supprimés de ce message. Souhaitez-vous continuer ?",
+                "imgCopy": "",
+                "imgCopied": "",
+                "imgOpen": ""
             }
         },
         "api": {

@@ -28,7 +28,9 @@
                 "blacklist": "URL Kara Listesi",
                 "blacklistHelp": "Biçim için belgelere bakın. Bu URL'ler hiçbir zaman zengin yerleştirmelere sahip olmayacak ve görüntü proxy'si aracılığıyla proxy oluşturulamaz",
                 "whitelist": "URL Beyaz Listesi",
-                "whitelistHelp": "Biçim için belgelere bakın. Bir değer ayarlanırsa, diğer tüm URL'ler kara listeye alınmış olarak kabul edilecektir"
+                "whitelistHelp": "Biçim için belgelere bakın. Bir değer ayarlanırsa, diğer tüm URL'ler kara listeye alınmış olarak kabul edilecektir",
+                "imageEmbeds": "",
+                "imageEmbedsHelp": ""
             },
             "permissions": {
                 "useOnOwnPost": "Kendi gönderisinde yerleştirme kullan",
@@ -51,7 +53,10 @@
             "controls": {
                 "refresh": "Veriyi Yenile",
                 "disable": "Bu yayındaki yerleştirmeleri devre dışı bırak",
-                "disableConfirmation": "Bu gönderideki tüm yerleştirmeler kaldırılacaktır. Devam edelim mi?"
+                "disableConfirmation": "Bu gönderideki tüm yerleştirmeler kaldırılacaktır. Devam edelim mi?",
+                "imgCopy": "",
+                "imgCopied": "",
+                "imgOpen": ""
             }
         },
         "api": {
