@@ -20,7 +20,7 @@
                     "horizontal": "Yatay"
                 },
                 "imageProxy": "OpenGraph Görüntü Proxy'si",
-                "imageProxyHelp": "Tüm resimler, ziyaretçi tarayıcısı tarafından alınmak yerine Flarum aracılığıyla proxy'ye alınacaktır",
+                "imageProxyHelp": "Tüm OpenGraph ve favicon görüntüleri, ziyaretçi tarayıcısı tarafından alınmak yerine Flarum aracılığıyla proxy'ye alınacaktır",
                 "cacheProxy": "Proxy'li görüntüleri önbelleğe alın",
                 "cacheProxyHelp": "Görüntüler, HTTP başlıklarına göre diske önbelleğe alınacaktır",
                 "withoutOpengraph": "OpenGraph verileri olmayan sayfalar için zengin yerleştirmeler oluşturun",
@@ -29,8 +29,8 @@
                 "blacklistHelp": "Biçim için belgelere bakın. Bu URL'ler hiçbir zaman zengin yerleştirmelere sahip olmayacak ve görüntü proxy'si aracılığıyla proxy oluşturulamaz",
                 "whitelist": "URL Beyaz Listesi",
                 "whitelistHelp": "Biçim için belgelere bakın. Bir değer ayarlanırsa, diğer tüm URL'ler kara listeye alınmış olarak kabul edilecektir",
-                "imageEmbeds": "",
-                "imageEmbedsHelp": ""
+                "imageEmbeds": "Görseller için Rich Embeds",
+                "imageEmbedsHelp": "Bu özellik, bbcode veya markdown ile gönderilere eklenen harici görüntüler hakkında ek bilgiler alır ve görüntüler. Şu anda zengin bağlantılarla aynı kara listeyi/beyaz listeyi ve izinleri yeniden kullanır. Bu görüntüler, OpenGraph görüntü proxy'si aracılığıyla proxy'ye alınmaz. Bu ayarı değiştirdikten sonra Flarum önbelleğini temizlemelisiniz.\n"
             },
             "permissions": {
                 "useOnOwnPost": "Kendi gönderisinde yerleştirme kullan",
@@ -54,9 +54,9 @@
                 "refresh": "Veriyi Yenile",
                 "disable": "Bu yayındaki yerleştirmeleri devre dışı bırak",
                 "disableConfirmation": "Bu gönderideki tüm yerleştirmeler kaldırılacaktır. Devam edelim mi?",
-                "imgCopy": "",
-                "imgCopied": "",
-                "imgOpen": ""
+                "imgCopy": "Görselin linkini kopyala",
+                "imgCopied": "Kopyalandı!",
+                "imgOpen": "Resmi yeni sekmede aç"
             }
         },
         "api": {
