@@ -400,6 +400,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`fof-custom-footer`](https://weblate.rob006.net/projects/flarum/fof-custom-footer) | [`fof/custom-footer`](https://github.com/FriendsOfFlarum/custom-footer) |
 | [`fof-default-group`](https://weblate.rob006.net/projects/flarum/fof-default-group) | [`fof/default-group`](https://github.com/FriendsOfFlarum/default-group) |
 | [`fof-discussion-language`](https://weblate.rob006.net/projects/flarum/fof-discussion-language) | [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) |
+| [`fof-discussion-thumbnail`](https://weblate.rob006.net/projects/flarum/fof-discussion-thumbnail) | [`fof/discussion-thumbnail`](https://github.com/FriendsOfFlarum/discussion-thumbnail) |
 | [`fof-disposable-emails`](https://weblate.rob006.net/projects/flarum/fof-disposable-emails) | [`fof/disposable-emails`](https://github.com/FriendsOfFlarum/disposable-emails) |
 | [`fof-doorman`](https://weblate.rob006.net/projects/flarum/fof-doorman) | [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman) |
 | [`fof-drafts`](https://weblate.rob006.net/projects/flarum/fof-drafts) | [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts) |
