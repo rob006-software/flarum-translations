@@ -37,6 +37,7 @@
             }
         },
         "email": {
+            "no_reason_given": "",
             "suspended": {
                 "subject": "A sua conta foi suspensa",
                 "body": "Olá, {recipient_display_name},\n\nVocê foi suspenso pelo seguinte motivo:\n\n---\n{suspension_message}\n---\n"
