@@ -2,11 +2,11 @@
     "blomstra-secondary-tags-toggler": {
         "admin": {
             "settings": {
-                "only_one_secondary_tag": "",
-                "only_one_secondary_tag_help": ""
+                "only_one_secondary_tag": "Massimo un tag secondario selezionato per volta",
+                "only_one_secondary_tag_help": "Non influisce sulle discussioni esistenti. L'aggiunta di un nuovo tag secondario a una discussione rimuoverà tutti gli altri tag secondari."
             },
             "permissions": {
-                "view_toggler": ""
+                "view_toggler": "Usa il toggle di tag secondari nelle discussioni"
             }
         }
     }
