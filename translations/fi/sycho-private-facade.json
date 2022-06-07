@@ -2,28 +2,28 @@
     "sycho-private-facade": {
         "admin": {
             "settings": {
-                "force_redirect": "",
+                "force_redirect": "Pakota vieraiden ohjaus kirjautuminen/rekisteröityminen näkymään",
                 "header_layout": {
                     "options": {
-                        "show_header": "",
-                        "show_only_logo": "",
-                        "hide_secondary_items": ""
+                        "show_header": "Näytä yläosa",
+                        "show_only_logo": "Näytä vain logo",
+                        "hide_secondary_items": "Piilota toissijaiset (haun, kirjautumisen ja rekisteröitymisen linkit)"
                     },
-                    "title": ""
+                    "title": "Yläosan pohja"
                 },
-                "illustration_path": "",
-                "primary_color_bg": "",
-                "route_exclusions": "",
-                "screen_banner_description": "",
-                "screen_banner_heading": "",
-                "screen_banner_title": "",
-                "use_welcome_hero_text": ""
+                "illustration_path": "Kuvituskuva",
+                "primary_color_bg": "Käytä pääväriä taustavärinä",
+                "route_exclusions": "Reitit joista ei ohjata kirjautuminen/rekisteröityminen sivulle.",
+                "screen_banner_description": "Ruudun viesti",
+                "screen_banner_heading": "Ruudun banneri",
+                "screen_banner_title": "Ruudun otsikko",
+                "use_welcome_hero_text": "Käytä Tervetulobannerin tekstiä"
             }
         },
         "forum": {
-            "log_in_label": "",
-            "or_label": "",
-            "sign_up_label": ""
+            "log_in_label": "=> core.ref.log_in",
+            "or_label": "tai",
+            "sign_up_label": "=> core.ref.sign_up"
         }
     }
 }
