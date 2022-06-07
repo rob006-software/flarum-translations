@@ -26,7 +26,7 @@ return [
 	],
 	'supportedVersions' => [
 		'1.2.1',
-		'1.3.0',
+		'1.3.1',
 		'1.99.99', // automatically support minor and patch releases
 	],
 ];
