@@ -21,8 +21,8 @@
                 "empty_text": "Emme löytäneet hakua vastaavia käyttäjiä.",
                 "filter_button": "Ryhmät",
                 "usercard": {
-                    "discussion-count": "",
-                    "post-count": ""
+                    "discussion-count": "{count, plural, one { {count} keskustelu} other {{count} keskustelua}}",
+                    "post-count": "{count, plural, one { {count} viesti} other {{count} viestiä}}"
                 }
             }
         },
