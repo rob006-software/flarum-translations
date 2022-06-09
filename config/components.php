@@ -214,6 +214,9 @@ return [
 	'clarkwinkelmann-readonly-profile' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-readonly-profile/1.0.0/resources/locale/en.yml',
 	],
+	'clarkwinkelmann-reset-preferences' => [
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-reset-preferences/1.0.0/locale/en.yml',
+	],
 	'clarkwinkelmann-roll-die' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-roll-die/1.0.0/locale/en.yml',
 	],
