@@ -27,7 +27,7 @@
             "settings": {
                 "full-text": {
                     "label": "Udostępnij pełną treść",
-                    "help": "Jeśli wyłączone, kanał będzie zawierał tylko fragmenty postów. Aby zobaczyć pełną treść posta, użytkownik musi odwiedzić forum.",
+                    "help": "Jeśli wyłączone, kanał będzie zawierał tylko fragmenty postów. Aby zobaczyć pełną treść posta, użytkownik musi odwiedzić forum. Rekomendowane jest pozostawienie tej opcji włączonej, aby ułatwić śledzenie forum za pomocą czytników RSS.",
                     "recommendation": "Rekomendowane jest pozostawienie tej opcji włączonej - pozwoli to śledzić forum za pomocą czytników RSS."
                 },
                 "html": {
@@ -36,12 +36,12 @@
                 },
                 "entries-count": "Ile pozycji wyświetlać w kanale?",
                 "forum-icons": {
-                    "label": "",
-                    "help": ""
+                    "label": "Pokaż na forum linki do kanałów Atom/RSS",
+                    "help": "Wyświetl ikonki w widokach \"Wszystkie dyskusje\", \"Tagi\" oraz \"Dyskusje\", aby ułatwić dostęp do kanałów."
                 },
                 "forum-link-format": {
-                    "label": "",
-                    "help": ""
+                    "label": "Format kanałów",
+                    "help": "Wybierz który format (Atom lub RSS) powinien być używany w linkach wyświetlanych na forum."
                 },
                 "title": "Ustawienia kanałów RSS"
             }
