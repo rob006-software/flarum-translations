@@ -14,8 +14,8 @@
             },
             "pay-to-bump": {
                 "description": "{count, plural, one {Bu tartışma havada kaldı} other {{count} kişi tartışmayı engelledi}}.",
-                "purchase-control": "",
-                "purchase-log-in": ""
+                "purchase-control": "Hortlatmak için ödeme yap",
+                "purchase-log-in": "Giriş Yap ve Hortlatmak için Öde"
             },
             "tag": {
                 "require-payment-label": "Ödeme Gerekiyor"
@@ -40,10 +40,10 @@
                 "select-ptv-product-description": "Bu seçenek ile, gizli içerikler için tüm yayınlara kalıcı olarak erişimi sağlar. Stripe panonuzda bir ürün oluşturun ve <code>prod_</code> ile başlayan kimliği bu alana kopyalayın.\n",
                 "visible-from": "İçeriğin devamını gizle",
                 "visible-from-description": "Burada belirttiğiniz sayı değeri, yayınlar için ödeme yapmayan kullanıcılara hangi noktada içeriğin gizleneceğini belirler. Hepsini gizlemek için 0 değerini, OP sonrası için 1 değerini kullanın.\n",
-                "select-ptb-product": "",
-                "select-ptb-product-description": "",
-                "bump-others": "",
-                "bump-others-description": ""
+                "select-ptb-product": "(PTB) Gerekli ürün",
+                "select-ptb-product-description": "Bir ürün seçmek, bir tartışmaya girmeden önce o ürünün ödenmesini gerektirir.\n",
+                "bump-others": "(PTB) Başkalarının tartışmaları hortlatmasına izin ver",
+                "bump-others-description": "Etkinleştirilirse, yalnızca tartışma yazarı değil, tartışmaları bir ödeme ile hortlatabilir.\n"
             },
             "edit-group": {
                 "select-pta-product": "(PTA) Gerekli ürün",
