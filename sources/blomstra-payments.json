@@ -12,6 +12,11 @@
                 "purchase": "Purchase to Publish",
                 "purchase_required": "This discussion will be published once you complete the payment through our payment provider Stripe. Click purchase to view cost and payment options.\n"
             },
+            "pay-to-bump": {
+                "description": "{count, plural, one {This discussion was bumped} other {{count} people bumped this discussion}}.",
+                "purchase-control": "Pay to Bump",
+                "purchase-log-in": "Log In & Pay to Bump"
+            },
             "tag": {
                 "require-payment-label": "Payment Required"
             },
@@ -34,7 +39,11 @@
                 "select-ptv-product": "(PTV) Required product",
                 "select-ptv-product-description": "Selecting a product will require payment of that product to permanently gain access to all posts beyond the threshold.. Create a product in your Stripe dashboard and copy the ID starting with <code>prod_</code> into this field.\n",
                 "visible-from": "Hide posts at this threshold",
-                "visible-from-description": "The number you specify here defines at which point posts will be hidden to users that haven't paid to access the content. Use 0 to hide all of them, 1 for the one after the OP.\n"
+                "visible-from-description": "The number you specify here defines at which point posts will be hidden to users that haven't paid to access the content. Use 0 to hide all of them, 1 for the one after the OP.\n",
+                "select-ptb-product": "(PTB) Required product",
+                "select-ptb-product-description": "Selecting a product will require payment of that product before being able to bump a discussion.\n",
+                "bump-others": "(PTB) Allow others to bump discussions",
+                "bump-others-description": "If enabled, not just the discussion author can bump discussions with a payment.\n"
             },
             "edit-group": {
                 "select-pta-product": "(PTA) Required product",
