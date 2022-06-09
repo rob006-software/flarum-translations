@@ -518,6 +518,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`clarkwinkelmann-post-permissions`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-post-permissions) | [`clarkwinkelmann/flarum-ext-post-permissions`](https://github.com/clarkwinkelmann/flarum-ext-post-permissions) |
 | [`clarkwinkelmann-predefined-avatars`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-predefined-avatars) | [`clarkwinkelmann/flarum-ext-predefined-avatars`](https://github.com/clarkwinkelmann/flarum-ext-predefined-avatars) |
 | [`clarkwinkelmann-readonly-profile`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-readonly-profile) | [`clarkwinkelmann/flarum-ext-readonly-profile`](https://github.com/clarkwinkelmann/flarum-ext-readonly-profile) |
+| [`clarkwinkelmann-reset-preferences`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-reset-preferences) | [`clarkwinkelmann/flarum-ext-reset-preferences`](https://github.com/clarkwinkelmann/flarum-ext-reset-preferences) |
 | [`clarkwinkelmann-roll-die`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-roll-die) | [`clarkwinkelmann/flarum-ext-roll-die`](https://github.com/clarkwinkelmann/flarum-ext-roll-die) |
 | [`clarkwinkelmann-scout`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-scout) | [`clarkwinkelmann/flarum-ext-scout`](https://github.com/clarkwinkelmann/flarum-ext-scout) |
 | [`clarkwinkelmann-scratchpad`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-scratchpad) | [`clarkwinkelmann/flarum-ext-scratchpad`](https://github.com/clarkwinkelmann/flarum-ext-scratchpad) |
@@ -571,6 +572,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`itnt-uitab`](https://weblate.rob006.net/projects/flarum/itnt-uitab) | [`itnt/flarum-uitab`](https://github.com/Littlegolden/flarum-uitab) |
 | [`jslirola-login2seeplus`](https://weblate.rob006.net/projects/flarum/jslirola-login2seeplus) | [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus) |
 | [`justoverclock-auto-post-count-badge`](https://weblate.rob006.net/projects/flarum/justoverclock-auto-post-count-badge) | [`justoverclock/auto-post-count-badge`](https://github.com/justoverclockl/auto-post-count-badge) |
+| [`justoverclock-broken-links-checker`](https://weblate.rob006.net/projects/flarum/justoverclock-broken-links-checker) | [`justoverclock/broken-links-checker`](https://github.com/justoverclockl/broken-links-checker) |
 | [`justoverclock-composer-autocomplete`](https://weblate.rob006.net/projects/flarum/justoverclock-composer-autocomplete) | [`justoverclock/composer-autocomplete`](https://github.com/justoverclockl/composer-autocomplete) |
 | [`justoverclock-country-flags`](https://weblate.rob006.net/projects/flarum/justoverclock-country-flags) | [`justoverclock/country-flags`](https://github.com/justoverclockl/country-flags) |
 | [`justoverclock-custom-header`](https://weblate.rob006.net/projects/flarum/justoverclock-custom-header) | [`justoverclock/custom-header`](https://github.com/justoverclockl/custom-header) |
