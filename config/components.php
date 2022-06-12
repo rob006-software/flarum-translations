@@ -49,6 +49,9 @@ return [
 	'afrux-top-posters-widget' => [
 		'tag' => 'https://raw.githubusercontent.com/afrux/top-posters-widget/v0.1.4/locale/en.yml',
 	],
+	'akr-chevereto' => [
+		'tag' => 'https://raw.githubusercontent.com/AKR-Developers/flarum-chevereto/1.0.1/resources/locale/en.yml',
+	],
 	'antoinefr-money' => [
 		'tag' => 'https://raw.githubusercontent.com/AntoineFr/flarum-ext-money/v1.2.0/locale/en.yml',
 	],
