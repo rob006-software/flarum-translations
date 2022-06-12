@@ -399,6 +399,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`fof-cookie-consent`](https://weblate.rob006.net/projects/flarum/fof-cookie-consent) | [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent) |
 | [`fof-custom-footer`](https://weblate.rob006.net/projects/flarum/fof-custom-footer) | [`fof/custom-footer`](https://github.com/FriendsOfFlarum/custom-footer) |
 | [`fof-default-group`](https://weblate.rob006.net/projects/flarum/fof-default-group) | [`fof/default-group`](https://github.com/FriendsOfFlarum/default-group) |
+| [`fof-default-user-preferences`](https://weblate.rob006.net/projects/flarum/fof-default-user-preferences) | [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences) |
 | [`fof-discussion-language`](https://weblate.rob006.net/projects/flarum/fof-discussion-language) | [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) |
 | [`fof-discussion-thumbnail`](https://weblate.rob006.net/projects/flarum/fof-discussion-thumbnail) | [`fof/discussion-thumbnail`](https://github.com/FriendsOfFlarum/discussion-thumbnail) |
 | [`fof-disposable-emails`](https://weblate.rob006.net/projects/flarum/fof-disposable-emails) | [`fof/disposable-emails`](https://github.com/FriendsOfFlarum/disposable-emails) |
