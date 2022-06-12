@@ -1,0 +1,69 @@
+{
+    "kilowhat-rich-embeds": {
+        "admin": {
+            "settings": {
+                "layout": "Bố cục",
+                "layoutOptions": {
+                    "inline": "1 dòng",
+                    "block": "Khối",
+                    "separated": "Phân cách"
+                },
+                "position": "Vị trí",
+                "positionOptions": {
+                    "replace": "Thay thế liên kết",
+                    "above": "Liên kết ở trên",
+                    "below": "Liên kết bên dưới"
+                },
+                "style": "Kiểu",
+                "styleOptions": {
+                    "vertical": "Chiều dọc",
+                    "horizontal": "Chiều ngang"
+                },
+                "imageProxy": "Proxy ảnh",
+                "imageProxyHelp": "Tất cả hình ảnh sẽ được proxy thông qua Flarum thay vì trình duyệt của khách",
+                "cacheProxy": "Cache ảnh proxy",
+                "cacheProxyHelp": "Hình ảnh sẽ được cache vào bộ nhớ thông qua headers HTTP của họ",
+                "withoutOpengraph": "Tạo rich embed cho các trang ngoại trừ dữ liệu OpenGraph",
+                "withoutOpengraphHelp": "Tiêu đề, mô tả và ảnh sẽ được quét khỏi trang HTML",
+                "blacklist": "Danh sách đen URL",
+                "blacklistHelp": "Kiểm tra tài liệu để biết định dạng. Các URL này sẽ không bao giờ có nhiều nhúng và không thể được ủy quyền thông qua proxy hình ảnh",
+                "whitelist": "Danh sách trắng URL",
+                "whitelistHelp": "Kiểm tra tài liệu để biết định dạng. Nếu một giá trị được đặt, tất cả các URL khác sẽ được coi là danh sách đen",
+                "imageEmbeds": "",
+                "imageEmbedsHelp": ""
+            },
+            "permissions": {
+                "useOnOwnPost": "Sử dụng nhúng trong bài đăng của riêng mình",
+                "disableOnOwnPost": "Tắt nhúng trên bài đăng của chính mình",
+                "refreshOnOwnPost": "Làm mới bản nhúng trên bài đăng của chính mình",
+                "disableOnAnyPost": "Tắt nhúng trên bất kỳ bài đăng nào",
+                "refreshOnAnyPost": "Làm mới bản nhúng trên bất kỳ bài đăng nào"
+            },
+            "preview": {
+                "title": "Xem trước",
+                "refresh": "Làm mới",
+                "loading": "Đang tải..."
+            }
+        },
+        "lib": {
+            "embed": {
+                "altFavicon": "Biểu tượng {website}",
+                "altImageFallback": "Ảnh Opengraph {website}"
+            },
+            "controls": {
+                "refresh": "Tải dữ liệu lại",
+                "disable": "Tắt nhúng trên bài viết này",
+                "disableConfirmation": "Tất cả các nhúng sẽ bị xóa khỏi bài đăng này. Tiếp tục?",
+                "imgCopy": "",
+                "imgCopied": "",
+                "imgOpen": ""
+            }
+        },
+        "api": {
+            "error": {
+                "blacklistedUrl": "URL {url} chưa được đưa vào danh sách cho phép để nhúng.",
+                "invalidUrl": "URL {url} không hợp lệ."
+            }
+        }
+    }
+}

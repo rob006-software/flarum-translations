@@ -1,0 +1,25 @@
+{
+    "blomstra-user-filter": {
+        "admin": {
+            "settings": {
+                "intro": "Użytkownicy bez uprawnienia <code>Wyszukiwanie użytkowników</code> nie zobaczą wyszukiwarki. Ustaw na <code>Wszyscy</code>, aby udostępnić wyszukiwanie wszystkim użytkownikom.",
+                "min_length": "Minimalna liczba wpisanych znaków, aby rozpocząć wyszukiwanie",
+                "result_count": "Maksymalna liczba wyników w podpowiedziach wyszukiwania"
+            }
+        },
+        "forum": {
+            "index_page": {
+                "filter_user": {
+                    "accessible_label": "Filtruj po autorze",
+                    "all": "Wszyscy",
+                    "label": "Filtruj po autorze: {text}",
+                    "search_label": "Wyszukaj użytkowników...",
+                    "no_results": "Brak wyników",
+                    "start_typing": "Zacznij pisać...",
+                    "keep_typing": "Kontynuuj wpisywanie...",
+                    "remove_filter": "Wyczyść filtrowanie po autorze"
+                }
+            }
+        }
+    }
+}

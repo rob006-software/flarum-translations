@@ -2,10 +2,15 @@
     "datlechin-birthdays": {
         "admin": {
             "permissions": {
-                "edit_own_birthday_label": "Modifier son propre anniversaire"
+                "edit_own_birthday_label": "Modifier son propre anniversaire",
+                "view_birthday_label": "Afficher l'anniversaire"
             },
             "settings": {
                 "set_on_registration_label": "Autoriser le paramétrage des anniversaires lors de l'inscription",
+                "required_label": "Saisie obligatoire des anniversaires",
+                "required_help": "Vous devez activer l'option Saisir à l'inscription pour que cette option fonctionne",
+                "min_age_label": "Âge minimum",
+                "min_age_help": "Âge minimum pour s'inscrire",
                 "date_format_label": "Format de date",
                 "date_format_help": "Utilisez le format de date de <a>dayjs</a>. Laissez vide pour utiliser le format par défaut.",
                 "date_none_year_label": "Format de date sans année"
@@ -32,7 +37,7 @@
                 "dob_heading": "Date de naissance",
                 "show_dob_date_label": "Afficher le jour et le mois de naissance",
                 "show_dob_year_label": "Afficher l'année de naissance",
-                "show_dob_year_help": "Cela permettra aux gens de voir votre âge.",
+                "show_dob_year_help": "Cela permettra de voir votre âge.",
                 "birthday_heading": ""
             },
             "edit_user": {
@@ -41,7 +46,8 @@
             }
         },
         "api": {
-            "invalid_dob_message": "Votre date de naissance doit être inférieure à 100 ans."
+            "invalid_dob_message": "Date de naissance invalide",
+            "invalid_age_message": "Votre âge doit être d'au moins {minAge} ans."
         }
     }
 }

@@ -23,12 +23,12 @@
                 "schedule_stop_overnight": "Voorkom dat herinneringsmeldingen worden verzonden tijdens niet actieve uren",
                 "schedule_stop_overnight_help": "21:00 - 8:00 servertijd",
                 "schedule_log_output": "Uitvoer van de planner plaatsen in het logboek",
-                "show_filter_label": "",
-                "show_filter_help": "",
+                "show_filter_label": "Beste antwoord-filter keuzelijst weergeven",
+                "show_filter_help": "Voor tags waarvoor Beste antwoorden is ingeschakeld, kiest u ervoor om de filteroptie (on)opgelost weer te geven in de discussielijst",
                 "use_alt_ui": "Alternatieve weergave",
                 "use_alt_ui_help": "Beste Antwoord knoppen toevoegen onderaan de post",
                 "documentation": "Documentatie",
-                "introduction": "",
+                "introduction": "Schakel in welke tags de beste antwoorden in <code><a>flarum/tags</a></code> moeten ondersteunen, en optioneel welke tag(s) herinneringen moeten ondersteunen. Wanneer een tag is ingeschakeld voor Beste antwoord, wijst u machtigingen toe aan elke gebruikersgroep die antwoorden mag instellen (eigen discussie, elke discussie). Machtigingen kunnen globaal worden toegewezen (voor elke tag die voor het beste antwoord is ingeschakeld), of per tag.\n",
                 "remind_tag_ids": ""
             },
             "edit_tag": {
@@ -50,8 +50,9 @@
                 "content": "Selecteer een Beste Antwoord zodra je vraag is beantwoord",
                 "awarded": "Je bericht is als beste antwoord gemarkeerd door {username}",
                 "preferences": {
-                    "awarded_best_answer": "Wanneer iemand mijn bericht markeert als beste antwoord",
-                    "best_answer_in_discussion": "Wanneer een beste antwoord wordt gegeven in een discussie waaraan ik heb deelgenomen"
+                    "awarded_best_answer": "Iemand stelt mijn bericht in als beste antwoord",
+                    "best_answer_in_discussion": "Een beste antwoord wordt gegeven in een discussie waaraan ik heb deelgenomen",
+                    "select_best_answer": "Een automatische herinnering om het beste antwoord te selecteren in een discussie die ik ben begonnen"
                 }
             },
             "index": {
@@ -68,6 +69,9 @@
             },
             "composer": {
                 "titlePlaceholder": "Vraag titel"
+            },
+            "user": {
+                "best-answer-count": "{count, plural, one { {count} best antwoord} other {{count} beste antwoorden}}"
             }
         },
         "email": {

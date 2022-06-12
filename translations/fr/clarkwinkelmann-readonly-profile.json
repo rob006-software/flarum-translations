@@ -1,0 +1,22 @@
+{
+    "clarkwinkelmann-readonly-profile": {
+        "admin": {
+            "settings": {
+                "disableLogin": "Désactiver la connexion",
+                "disableAccessTokens": "Désactiver la création des jetons d'accès",
+                "disableEmailChange": "Désactiver la modification des adresses de courriel",
+                "disablePasswordChange": "Désactiver la modification et la réinitialisation des mots de passe",
+                "disableAvatarEdit": "Désactiver la modification des avatars"
+            }
+        },
+        "api": {
+            "blocked_actions": {
+                "login": "Le point d'accès de connexion est désactivé",
+                "accessToken": "La création des jetons d'accès est désactivée",
+                "email": "L'adresse de courriel ne peut pas être modifiée à partir de cette page",
+                "password": "Le mot de passe ne peut pas être modifié à partir de cette page",
+                "avatar": "La modification de l'avatar est désactivée sur cette page"
+            }
+        }
+    }
+}

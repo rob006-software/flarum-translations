@@ -37,6 +37,7 @@
             }
         },
         "email": {
+            "no_reason_given": "",
             "suspended": {
                 "subject": "حساب شما مسدود شده است",
                 "body": "سلام {recipient_display_name}،\n\nشما به دلایل زیر تعلیق شده اید:\n\n---\n{suspension_message}\n---\n"

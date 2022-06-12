@@ -37,6 +37,7 @@
             }
         },
         "email": {
+            "no_reason_given": "Bu askıya alma için herhangi bir sebep gösterilmedi.",
             "suspended": {
                 "subject": "Hesabınız askıya alındı",
                 "body": "Merhaba {recipient_display_name},\n\nAşağıdaki nedenden dolayı askıya alındınız:\n\n---\n{suspension_message}\n---\n"

@@ -3,6 +3,12 @@
         "forum": {
             "modal": {
                 "title": "Объединить дискуссии",
+                "ordering_heading": "Порядок объединения",
+                "ordering_date_label": "Объединить сообщения по дате создания",
+                "ordering_date_help": "Сообщения в результирующей дискуссии будут упорядочены по индивидуальным датам создания",
+                "ordering_suffix_label": "Добавить объединенные сообщения в конец дискуссии",
+                "ordering_suffix_help": "Сообщения, которые объединяются в итоговую дискуссию, будут добавлены в конец этой дискуссии",
+                "type_heading": "Тип объединения",
                 "type_target_label": "Объединить с этой",
                 "type_target_help_text": "Выберите дискуссии для объединения в <b>{title}</b>.",
                 "type_from_label": "Объединить эту дискуссию с другой",
@@ -11,9 +17,9 @@
                 "submit_button": "=> fof-merge-discussions.ref.merge"
             },
             "notification": {
-                "discussion_merged": "",
+                "discussion_merged": "Ваша дискуссия <b>{oldTitle}</b> была объединена с этой дискуссией пользователем {username}.",
                 "preferences": {
-                    "discussion_merged": ""
+                    "discussion_merged": "Кто-то объединил одну из моих дискуссий с другой"
                 }
             },
             "discussion": {
@@ -28,8 +34,8 @@
                 "merge_discussions_label": "Объединять дискуссии"
             },
             "settings": {
-                "search_result_help": "",
-                "search_result_label": ""
+                "search_result_help": "Количество дискуссий, которые будут показаны при поиске в окне \"Объединить дискуссии\". По умолчанию 4",
+                "search_result_label": "Предел числа результатов поиска \"Объединить дискуссии\""
             }
         },
         "api": {
@@ -37,7 +43,8 @@
                 "merging_failed": "Не удалось объединить дискуссии.",
                 "updating_failed": "Не удалось обновить информацию о дискуссии.",
                 "deleting_failed": "Не удалось удалить пустые дискуссии.",
-                "fixing_posts_number_failed": "Не удалось исправить номера сообщений."
+                "fixing_posts_number_failed": "Не удалось исправить номера сообщений.",
+                "fixing_posts_number_meta_failed": ""
             }
         },
         "ref": {
@@ -45,8 +52,8 @@
         },
         "email": {
             "merged": {
-                "body": "",
-                "subject": ""
+                "body": "Привет {recipient_display_name},\n\nВаша дискуссия, {merged_discussion_title}, была объединена с {discussion_title} от {actor_display_name}.\n\nПерейти к дискуссии: {discussion_url} .\n",
+                "subject": "Ваша дискуссия \"{merged_discussion_title}\" была объединена с другой"
             }
         }
     }

@@ -27,8 +27,11 @@
                 }
             },
             "user": {
-                "points": "Điểm: {points}",
-                "rank": "{rank}"
+                "card": {
+                    "points": ""
+                },
+                "rank": "{rank}",
+                "points": "Điểm: {points}"
             },
             "modal": {
                 "downvotes_label": "Lượt phản đối:",

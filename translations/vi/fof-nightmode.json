@@ -8,6 +8,7 @@
         "admin": {
             "settings": {
                 "modal": {
+                    "always_show_theme_toggle_on_header": "",
                     "default_theme": "Chủ đề mặc định",
                     "default_theme_helper": "Chủ đề mặc định tự động được đặt cho người dùng mới, khách và những ai chưa đặt.",
                     "theme_auto": "=> fof-nightmode.ref.auto",
@@ -41,6 +42,16 @@
                         "night": "Bạn là một con cú đêm. Bạn thích lướt trên diễn đàn vào buổi tối, trong khi những con chim đang ngủ và con cáo đang đi săn. Hoặc bạn chỉ yêu thích chế độ tối hơn!"
                     }
                 }
+            }
+        }
+    },
+    "fof-default-user-preferences": {
+        "admin": {
+            "settings": {
+                "fofNightMode": "",
+                "fofNightMode-help": "",
+                "fofNightMode_perDevice": "",
+                "fofNightMode_perDevice-help": ""
             }
         }
     }

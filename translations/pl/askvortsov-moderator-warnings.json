@@ -10,7 +10,7 @@
         "emails": {
             "post_warned": {
                 "subject": "Dostałeś ostrzeżenie i {strikes, plural, one {# punkt karny} few {# punkty karne} other {# punktów karnych}} od {warner_display_name} w {discussion_title}",
-                "body": "Witaj {warnee_display_name},\n\nDostałeś ostrzeżenie i {strikes, plural, one {# punkt karny} few {# punkty karne} other {# punktów karnych}} od {warner_display_name} w {discussion_title} z następującego powodu:\n\n---\n\n{public_comment}\n"
+                "body": "Witaj {warnee_display_name},\n\nDostałeś ostrzeżenie i {strikes, plural, one {# punkt karny} few {# punkty karne} other {# punktów karnych}} od {warner_display_name} w \"{discussion_title}\" z następującego powodu:\n\n---\n\n{public_comment}\n"
             },
             "user_warned": {
                 "subject": "Dostałeś ostrzeżenie i {strikes, plural, one {# punkt karny} few {# punkty karne} other {# punktów karnych}} od {warner_display_name}",

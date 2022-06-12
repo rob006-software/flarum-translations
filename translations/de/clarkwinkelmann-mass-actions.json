@@ -1,0 +1,35 @@
+{
+    "clarkwinkelmann-mass-actions": {
+        "forum": {
+            "select": {
+                "all": "Alle wählen",
+                "none": "Alle abwählen",
+                "read": "",
+                "unread": "",
+                "visible": "",
+                "hidden": "",
+                "locked": "",
+                "unlocked": ""
+            },
+            "actions": {
+                "markAsRead": "Ausgewählte als gelesen markieren",
+                "hide": "Ausgewählte löschen",
+                "restore": "Ausgewählte wiederherstellen",
+                "delete": "",
+                "deleteConfirmation": "",
+                "lock": "Ausgewählte sperren",
+                "unlock": "Gewählte entsperren",
+                "sticky": "",
+                "unsticky": "",
+                "tags": "Themen",
+                "tags-edit": "Themen bearbeiten",
+                "tags-add": "<em>{tag}</em> hinzufügen"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "controls": "Massenauswahl-Steuerelemente anzeigen"
+            }
+        }
+    }
+}

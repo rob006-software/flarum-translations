@@ -1,0 +1,35 @@
+{
+    "clarkwinkelmann-mass-actions": {
+        "forum": {
+            "select": {
+                "all": "Chọn tất cả",
+                "none": "Bỏ chọn tất cả",
+                "read": "",
+                "unread": "",
+                "visible": "",
+                "hidden": "",
+                "locked": "",
+                "unlocked": ""
+            },
+            "actions": {
+                "markAsRead": "Đánh dấu đã đọc",
+                "hide": "Xóa đã chọn",
+                "restore": "Khôi phục đã chọn",
+                "delete": "",
+                "deleteConfirmation": "",
+                "lock": "Khóa đã chọn",
+                "unlock": "Mở khóa đã chọn",
+                "sticky": "",
+                "unsticky": "",
+                "tags": "Thẻ",
+                "tags-edit": "Sửa thẻ",
+                "tags-add": "Thêm <em>{tag}</em>"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "controls": "Xem thanh kiểm soát lựa chọn hàng loạt"
+            }
+        }
+    }
+}

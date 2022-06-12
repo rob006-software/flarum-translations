@@ -37,6 +37,7 @@
             }
         },
         "email": {
+            "no_reason_given": "",
             "suspended": {
                 "subject": "Ваш аккаунт заблокирован",
                 "body": "Здравствуйте, {recipient_display_name}!\n\nВаш аккаунт был заблокирован по следующей причине:\n\n---\n{suspension_message}\n---\n"

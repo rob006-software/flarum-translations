@@ -7,7 +7,7 @@
             "edit_tag": {
                 "color_label": "=> core.ref.color",
                 "delete_tag_button": "Címke törlése",
-                "delete_tag_confirmation": "Biztos, hogy törli ezt a címkét? A témák, amelyek használták ezt a címkét, NEM fognak törlődni.",
+                "delete_tag_confirmation": "Valóban törli ezt a címkét? A témák, amelyek használták ezt a címkét, NEM fognak törlődni.",
                 "description_label": "Leírás",
                 "hide_label": "Elrejtés az „Összes téma” lapon",
                 "icon_label": "=> core.ref.icon",
@@ -20,7 +20,7 @@
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
-                "tags_text": "Kezelje az elérhető címkéket, hogy rendszerezze velük a témákat."
+                "tags_text": "Az elérhető címkék kezelése, hogy rendszerezze velük a témákat."
             },
             "permissions": {
                 "allow_edit_tags_label": "Címkék szerkesztésének engedélyezése",
@@ -53,7 +53,7 @@
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
-                "bypass_requirements": "",
+                "bypass_requirements": "Címke követelményeinek megkerülése",
                 "choose_primary_placeholder": "{count, plural, one {Válasszon egy elsődleges címkét} other {Válasszon # elsődleges címkét}}",
                 "choose_secondary_placeholder": "Válasszon {count} további címkét",
                 "edit_title": "A(z) {title} címkéinek szerkesztése",

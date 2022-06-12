@@ -49,8 +49,9 @@
                 "content": "Valitse paras vastaus mikäli kysymyksessi on vastattu",
                 "awarded": "Viestisi valittiin parhaaksi vastaukseksi {username} toimesta",
                 "preferences": {
-                    "awarded_best_answer": "Kun joku asettaa viestini parhaaksi vastaukseksi",
-                    "best_answer_in_discussion": "Kun paras vastaus on asetettu keskustelussa, johon olen osallistunut"
+                    "awarded_best_answer": "Joku asettaa viestini parhaaksi vastaukseksi",
+                    "best_answer_in_discussion": "Paras vastaus on asetettu keskustelussa, johon olen osallistunut",
+                    "select_best_answer": "Automaattinen muistutus siitä, että valitsen parhaan vastauksen keskustelussa, jonka aloitin"
                 }
             },
             "index": {
@@ -67,6 +68,9 @@
             },
             "composer": {
                 "titlePlaceholder": "Kysymys"
+            },
+            "user": {
+                "best-answer-count": "{count, plural, one { {count} paras vastaus} other {{count} parasta vastausta}}"
             }
         },
         "email": {
@@ -76,7 +80,7 @@
                 "select": "Saitko vastauksen kysymykseesi?"
             },
             "body": {
-                "awarded": "Hei {recipient_display_name},\n\nHienoa työtä, {actor_display_name}  asetti viestisi parhaaksi vastaukseksi keskustelussa: {discussion_title}. Kiitos avustasi!\n\nKatso se täällä: {discussion_url}\n",
+                "awarded": "Hei {recipient_display_name},\n\nHienoa työtä, {actor_display_name} asetti viestisi parhaaksi vastaukseksi keskustelussa: {discussion_title}. Kiitos avustasi!\n\nKatso se täällä: {discussion_url}\n",
                 "ba-set": "Hei {recipient_display_name},\n\n{actor_display_name} asetti parhaan vastauksen keskustelussa: {discussion_title}, jossa olet osallisena.\n\nKatso se täällä: {discussion_url}\n",
                 "select": "Hei {recipient_display_name},\n\nTarkastelemme vain. Sinulla pitäisi jo olla useampi vastaus kysymykseesi keskustelussa: {discussion_title}. Toivottavasti joku niistä vastaa kysymykseesi.\n\nOlisi hyödyllistä muita jäseniä varten, jotta merkitsisit parhaan vastauksen. Se auttaa muita löytämään vastauksen kysymykseen ja se kiittää myös käyttäjää joka auttoi sinua. \n\nKatso keskustelu täällä: {discussion_url} ja valitse paras vastaus (mikäli sellaista on)\n\nKiitos!\n"
             }

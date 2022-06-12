@@ -50,8 +50,9 @@
                 "content": "Sorunuz yanıtlandıysa lütfen en iyi yanıtı seçin",
                 "awarded": "Gönderiniz {username} tarafından en iyi yanıt olarak seçti",
                 "preferences": {
-                    "awarded_best_answer": "Birisi gönderimi en iyi yanıt olarak seçtiğinde",
-                    "best_answer_in_discussion": "Yanıtladığım bir tartışmada en iyi yanıt belirlendiğinde"
+                    "awarded_best_answer": "Birisi gönderimi en iyi cevap olarak belirledi",
+                    "best_answer_in_discussion": "En iyi cevap, katıldığım bir tartışmada belirlenir",
+                    "select_best_answer": "Başlattığım bir tartışmada en iyi yanıtı seçmek için otomatik bir hatırlatıcı"
                 }
             },
             "index": {
@@ -68,6 +69,9 @@
             },
             "composer": {
                 "titlePlaceholder": "Soru başlığı"
+            },
+            "user": {
+                "best-answer-count": "{count, plural, one { {count} en iyi yanıt} other {{count} en iyi yanıt}}"
             }
         },
         "email": {

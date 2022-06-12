@@ -5,35 +5,45 @@
                 "defaults_label": "Đặt \"{setting}\" được bật theo mặc định",
                 "forced_label": "Buộc bật \"{setting}\" cho mọi người",
                 "notify_discussion_created_label": "Ai đó tạo cuộc thảo luận",
+                "notify_post_created_label": "Ai đó tạo bài viết hoặc trả lời",
                 "notify_post_unapproved_label": "Một bài viết đã đăng cần được phê duyệt",
-                "notify_user_created_label": "Khi ai đó đăng ký"
+                "notify_user_created_label": "Khi ai đó đăng ký",
+                "notify_post_flagged_label": "Ai đó gắn cờ bài viết"
             },
             "notifications": {
                 "discussion_created_text": "{username} đã tạo cuộc thảo luận mới",
+                "post_created_text": "{username} đăng bài viết mới",
                 "post_unapproved_text": "{username} đã tạo một bài viết cần phê duyệt",
-                "user_created_text": "{username} vừa đăng ký"
+                "user_created_text": "{username} vừa đăng ký",
+                "post_flagged_text": "{username} đã gắn cờ bài viết"
             }
         },
         "admin": {
-            "menu": {
-                "description": "Cấu hình đăng ký người dùng (mặc định)"
-            },
             "permission": {
                 "subscribe_to_discussion_created": "Được phép nhận thông báo khi có cuộc thảo luận mới",
+                "subscribe_to_post_created": "Được phép nhận thông báo khi có bài viết hoặc trả lời mới",
                 "subscribe_to_post_unapproved": "Được phép nhận thông báo khi có bài đăng mới chưa được duyệt",
-                "subscribe_to_user_created": "Được phép nhận thông báo khi có người dùng mới"
+                "subscribe_to_user_created": "Được phép nhận thông báo khi có người dùng mới",
+                "subscribe_to_post_flagged": "Được phép nhận thông báo khi có gắn cờ mới"
+            },
+            "menu": {
+                "description": "Cấu hình đăng ký người dùng (mặc định)"
             }
         },
         "email": {
             "subject": {
                 "newDiscussion": "[Đã đăng ký | Cuộc thảo luận mới] {title}",
                 "newUser": "[Đã đăng ký | Người dùng mới] {username}",
-                "postUnapproved": "[Đã đăng ký | Chưa duyệt] {username} đã đăng trong {title}"
+                "postUnapproved": "[Đã đăng ký | Chưa duyệt] {username} đã đăng trong {title}",
+                "postCreated": "[Đăng ký | Bài viết mới] {username} đã đăng bài viết mới trong {title}",
+                "postFlagged": "[Đăng ký | Gắn cờ mới] {username} đã gắn cờ bài viết trong {title}"
             },
             "body": {
                 "newDiscussion": "Chào {recipient_display_name},\n\n{actor_display_name} đã đăng một cuộc thảo luận mới: {discussion_title}\n\nĐể xem cuộc thảo luận mới này, hãy nhấp vào liên kết sau:\n{discussion_url}\n\n---\n\n{post_content}\n",
                 "newUser": "Chào {recipient_display_name},\n\n{actor_display_name} vừa mới đăng ký tại {forum_url}.\n\nĐể xem hồ sơ của người dùng mới này, hãy xem liên kết sau:\n{user_url}\n",
-                "postUnapproved": "Chào {recipient_display_name},\n\n{actor_display_name} đã tạo một bài viết chưa được duyệt trong {discussion_title}\n\nĐể xem bài đăng mới này, hãy xem liên kết sau:\n{post_url}\n\n---\n\n{post_content}\n"
+                "postUnapproved": "Chào {recipient_display_name},\n\n{actor_display_name} đã tạo một bài viết chưa được duyệt trong {discussion_title}\n\nĐể xem bài đăng mới này, hãy xem liên kết sau:\n{post_url}\n\n---\n\n{post_content}\n",
+                "postCreated": "Chào {recipient_display_name},\n\n{actor_display_name} vừa đăng bài viết mới trong {discussion_title}\n\nĐể xem bài viết mới này, nhấn vào liên kết bên dưới:\n{post_url}\n\n---\n\n{post_content}\n",
+                "postFlagged": "Chào {recipient_display_name},\n\n{actor_display_name} vừa gắn cờ một bài viết trong {discussion_title}\n\nĐể xem bài viết này, nhấn vào liên kết bên dưới:\n{post_url}\n"
             }
         }
     }

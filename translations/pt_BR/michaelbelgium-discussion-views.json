@@ -2,47 +2,47 @@
     "core": {
         "forum": {
             "index_sort": {
-                "popular_button": "",
-                "unpopular_button": ""
+                "popular_button": "Popular",
+                "unpopular_button": "Impopular"
             }
         }
     },
     "michaelbelgium-discussion-views": {
         "forum": {
             "modal_resetviews": {
-                "title": "",
-                "submit_button": "",
-                "label": ""
+                "title": "Redefinir contagem de visualizações de discussão",
+                "submit_button": "Sim, remova todos",
+                "label": "{count, plural, one {Isso removerá {count} visualização desta discussão. Continuar?} other {Isso removerá {count} visualizações desta discussão. Continuar?}}"
             },
             "discussion_controls": {
-                "resetviews_button": ""
+                "resetviews_button": "Redefinir visualizações"
             },
             "viewlist": {
-                "title": "",
-                "guest": ""
+                "title": "Últimas visualizações",
+                "guest": "Visitante"
             },
             "post": {
-                "viewed_by": "",
-                "you": "",
-                "others_link": "",
-                "modal_title_text": ""
+                "viewed_by": "{users} viu isso.",
+                "you": "=> core.ref.you",
+                "others_link": "=> core.ref.some_others",
+                "modal_title_text": "Usuários que visualizaram esta discussão pela última vez"
             }
         },
         "admin": {
             "permissions": {
-                "reset_views_label": "",
-                "view_number_label": ""
+                "reset_views_label": "Redefinir visualizações de discussão",
+                "view_number_label": "Ver contagem de visualizações da discussão"
             },
             "settings": {
-                "title": "",
-                "track_unique_label": "",
-                "track_guests": "",
-                "abbr_numbers_label": "",
-                "show_filter_label": "",
-                "max_viewcount_label": "",
-                "max_viewcount_text": "",
-                "show_viewlist_label": "",
-                "show_footer_viewlist_label": ""
+                "title": "Configurações de visualizações de discussão",
+                "track_unique_label": "Acompanhe visualizações únicas",
+                "track_guests": "Rastrear visitantes",
+                "abbr_numbers_label": "Abreviar números de visualização",
+                "show_filter_label": "Ativar campo de classificação (não)popular",
+                "max_viewcount_label": "Máximo de itens da lista de visualizações",
+                "max_viewcount_text": "Isso se aplica à lista de visualização de rodapé e à lista de visualização da barra lateral",
+                "show_viewlist_label": "Ativar lista de visualização",
+                "show_footer_viewlist_label": "Ativar lista de visualização de rodapé"
             }
         }
     }

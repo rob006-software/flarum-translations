@@ -2,6 +2,7 @@
     "fof-oauth": {
         "admin": {
             "configure_button_label": "配置 FoF OAuth",
+            "settings_accessibility_label": "{name}设置",
             "settings": {
                 "only_icons_label": "仅显示登录按钮图标（可选布置）",
                 "providers": {
@@ -47,7 +48,7 @@
         },
         "forum": {
             "log_in": {
-                "with_button": "{provider} 账号登录",
+                "with_button": "{provider}账号登录",
                 "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",
                 "with_github_button": "=> fof-oauth.forum.log_in.with_button",
@@ -66,7 +67,7 @@
                 "twitter": "=> fof-oauth.lib.providers.twitter"
             },
             "signup": {
-                "username_help": "请选择一个用户名"
+                "username_help": "请选择用户名"
             },
             "error": {
                 "bad_verification_code": "无效或过期的验证令牌，请重试。",

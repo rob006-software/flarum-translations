@@ -18,7 +18,7 @@
                 "title": "Ce compte est suspendu"
             },
             "suspend_user": {
-                "display_message": "Message d'affichage pour l'utilisateur",
+                "display_message": "Afficher le message pour l'utilisateur",
                 "indefinitely_label": "Suspendre indéfiniment",
                 "limited_time_days_text": " jour(s)",
                 "limited_time_label": "Suspendre temporairement…",
@@ -37,6 +37,7 @@
             }
         },
         "email": {
+            "no_reason_given": "Aucune raison n'a été spécifiée pour cette suspension.",
             "suspended": {
                 "subject": "Votre compte a été suspendu",
                 "body": "Bonjour {recipient_display_name},\n\nVous avez été suspendu pour le motif suivant :\n\n---\n{suspension_message}\n---\n"

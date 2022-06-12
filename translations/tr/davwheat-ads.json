@@ -2,7 +2,11 @@
     "davwheat": {
         "ads": {
             "admin": {
+                "permissions": {
+                    "bypassAds": "Forumdaki reklamları gizle"
+                },
                 "settings": {
+                    "admin_bypass_warning": "Flarum'un izin sisteminin doğası gereği, Admin grubunun üyeleri forumda herhangi bir reklam görmeyecektir. \nReklamlarınızı test etmek istiyorsanız, \nlütfen forumu Gizli veya Gizli pencerede ziyaret edin.\n",
                     "enabled_locations": "Reklam bölgelerini etkinleştir",
                     "script_urls": "Özel script URL'leri",
                     "add_script": "Yeni",

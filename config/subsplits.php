@@ -125,8 +125,8 @@ return [
 	'ka' => [
 		'type' => 'language',
 		'language' => 'ka',
-		'repository' => 'git@github.com:B3K4682/lang-georgian.git',
-		'branch' => 'main',
+		'repository' => 'git@github.com:flarum-lang/georgian.git',
+		'branch' => 'master',
 		'path' => '/locale',
 	],
 	'ko' => [

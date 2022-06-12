@@ -1,54 +1,54 @@
 {
     "the-turk-diff": {
         "forum": {
-            "revisions": "",
-            "emptyText": "",
+            "revisions": "{revisionCount, plural, one {{revisionCount} ویرایش} other {{revisionCount} ویرایش}}",
+            "emptyText": "بدون ویرایش",
             "editedText": "",
-            "deletedText": "",
+            "deletedText": "(حذف شده)",
             "tooltips": {
-                "mostRecent": "",
+                "mostRecent": "اخیرا",
                 "originalContent": "",
                 "revisionWithNumber": "",
-                "sideBySide": "",
-                "inline": "",
-                "combined": "",
+                "sideBySide": "پهلو به پهلو",
+                "inline": "خط به خط",
+                "combined": "ترکیب شده",
                 "preview": ""
             },
-            "optionsButton": "",
+            "optionsButton": "گزینه ها",
             "deleteButton": "",
-            "rollbackButton": "",
-            "rollbackToOriginalButton": "",
-            "revertChangesButton": "",
-            "confirmRollback": "",
-            "confirmDelete": "",
-            "rollbackErrorMessage": "",
-            "deleteErrorMessage": "",
-            "rollbackSuccessMessage": "",
-            "deleteSuccessMessage": "",
+            "rollbackButton": "بازگشت به نسخه {number}",
+            "rollbackToOriginalButton": "بازگشت به اصل",
+            "revertChangesButton": "برگرداندن تغییرات",
+            "confirmRollback": "آیا مطمئن هستید که می خواهید پست فعلی خود را تغییر دهید؟",
+            "confirmDelete": "آیا مطمئن هستید که می خواهید محتوای این ویرایش را از تاریخچه حذف کنید؟",
+            "rollbackErrorMessage": "بازگرداندن تغییرات انجام نشد.",
+            "deleteErrorMessage": "حذف محتویات ویرایش انجام نشد.",
+            "rollbackSuccessMessage": "تغییرات شما برگردانده شد.",
+            "deleteSuccessMessage": "مطالب ویرایش حذف شد.",
             "editedInfo": "",
-            "deletedInfo": "",
-            "createdInfo": "",
-            "revisionInfo": "",
-            "noDiff": "",
+            "deletedInfo": "{username} این محتوا را {ago} حذف کرد",
+            "createdInfo": "{username} {ago} ایجاد کرد",
+            "revisionInfo": "ویرایش شده {revisionCount, plural, one {{revisionCount} بار} other {{revisionCount} بار}}، جدیدترین در بالا",
+            "noDiff": "هیچ تفاوتی بین این دو محتوا یافت نشد.",
             "differences": {
                 "originalContent": "",
                 "currentContent": "",
                 "revisionWithNumber": "",
-                "sentence": ""
+                "sentence": "شما در حال مشاهده تفاوت‌های بین {old} و {new} هستید"
             },
             "previewMode": {
                 "originalContent": "",
                 "currentContent": "",
                 "revisionWithNumber": "",
-                "sentence": ""
+                "sentence": "شما در حال پیش نمایش {content} هستید"
             }
         },
         "admin": {
             "settings": {
-                "title": "",
-                "onlyUnsigned": "",
-                "usePoint": "",
-                "separateBlock": "",
+                "title": "تنظیمات Diff",
+                "onlyUnsigned": "فقط <strong>اعداد صحیح بدون علامت</strong> مجاز هستند!",
+                "usePoint": "از <strong>نقطه</strong> به عنوان جداکننده اعشاری استفاده کنید.",
+                "separateBlock": "یک جداکننده بین بخش های مختلفdiff در رندرهای HTML نشان دهید",
                 "mainPostOnly": "",
                 "textFormatting": "",
                 "detailLevel": "",
@@ -76,9 +76,9 @@
             }
         },
         "ref": {
-            "originalContent": "",
-            "currentContent": "",
-            "revisionWithNumber": ""
+            "originalContent": "محتوای اصلی",
+            "currentContent": "محتوای فعلی",
+            "revisionWithNumber": "ویرایش {number}"
         }
     }
 }
