@@ -19,8 +19,8 @@
                     "vertical": "Vertical",
                     "horizontal": "Horizontal"
                 },
-                "imageProxy": "Proxy d'image",
-                "imageProxyHelp": "Toutes les images seront transmises par Flarum au lieu d'être récupérées par le navigateur du visiteur",
+                "imageProxy": "Proxy d'image OpenGraph",
+                "imageProxyHelp": "Toutes les images OpenGraph et les favicons seront transmises par Flarum au lieu d'être récupérées par le navigateur du visiteur",
                 "cacheProxy": "Mise en cache des images sous proxy",
                 "cacheProxyHelp": "Les images seront mises en cache sur le disque en fonction de leurs en-têtes HTTP",
                 "withoutOpengraph": "Générer des contenus riches pour les pages sans données OpenGraph",
@@ -29,8 +29,8 @@
                 "blacklistHelp": "Consultez la documentation pour connaître le format. Ces URL n'auront jamais de contenu riche et ne peuvent pas être transmises par le proxy d'image",
                 "whitelist": "Liste blanche d'URL",
                 "whitelistHelp": "Consultez la documentation pour connaître le format. Si une valeur est définie, toutes les autres URL seront considérées comme sur liste noire",
-                "imageEmbeds": "",
-                "imageEmbedsHelp": ""
+                "imageEmbeds": "Incrustations riches pour les images",
+                "imageEmbedsHelp": "Cette fonctionnalité permet de récupérer et d'afficher des informations supplémentaires sur les images externes insérées dans les articles avec BBCode ou Markdown. Pour le moment, elle réutilise la même liste noire ou liste blanche et les mêmes permissions que les liens riches. Ces images ne sont pas transmises par le proxy d'image d'OpenGraph. Vous devez vider le cache de Flarum après avoir modifié ce paramètre.\n"
             },
             "permissions": {
                 "useOnOwnPost": "Utilisez des contenus riches dans votre propre message",
@@ -54,9 +54,9 @@
                 "refresh": "Actualiser les données",
                 "disable": "Désactiver les contenus riches sur ce message",
                 "disableConfirmation": "Tous les contenus riches seront supprimés de ce message. Souhaitez-vous continuer ?",
-                "imgCopy": "",
-                "imgCopied": "",
-                "imgOpen": ""
+                "imgCopy": "Copier l'URL de l'image",
+                "imgCopied": "Copié !",
+                "imgOpen": "Ouvrir l'image dans un nouvel onglet"
             }
         },
         "api": {
