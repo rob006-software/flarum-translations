@@ -492,6 +492,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`blomstra-user-filter`](https://weblate.rob006.net/projects/flarum/blomstra-user-filter) | [`blomstra/user-filter`](https://github.com/blomstra/flarum-ext-user-filter) |
 | [`blomstra-usercard-stats`](https://weblate.rob006.net/projects/flarum/blomstra-usercard-stats) | [`blomstra/usercard-stats`](https://github.com/blomstra/flarum-ext-usercard-stats) |
 | [`blomstra-welcome-login`](https://weblate.rob006.net/projects/flarum/blomstra-welcome-login) | [`blomstra/welcome-login`](https://github.com/blomstra/flarum-ext-welcome-login) |
+| [`cadiducho-bbcode`](https://weblate.rob006.net/projects/flarum/cadiducho-bbcode) | [`cadiducho/bbcode`](https://github.com/EdorasMinecraft/BBcode) |
 | [`clarkwinkelmann-catch-the-fish`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-catch-the-fish) | [`clarkwinkelmann/catch-the-fish`](https://github.com/clarkwinkelmann/catch-the-fish) |
 | [`clarkwinkelmann-author-change`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-author-change) | [`clarkwinkelmann/flarum-ext-author-change`](https://github.com/clarkwinkelmann/flarum-ext-author-change) |
 | [`clarkwinkelmann-bookmarks`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-bookmarks) | [`clarkwinkelmann/flarum-ext-bookmarks`](https://github.com/clarkwinkelmann/flarum-ext-bookmarks) |
