@@ -23,6 +23,7 @@ return [
 	'da' => getComponents(),
 	'de' => getComponents([
 		// translations included in extension
+		'!archlinux-de-click-image',
 		'!tpokorra-post-notification',
 		'!v17development-seo',
 	]),
