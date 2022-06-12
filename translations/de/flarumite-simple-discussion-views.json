@@ -1,0 +1,30 @@
+{
+    "core": {
+        "forum": {
+            "index_sort": {
+                "popular_button": "Beliebt",
+                "unpopular_button": "Unbeliebt"
+            }
+        }
+    },
+    "flarumite-simple-discussion-views": {
+        "forum": {
+            "modal_resetviews": {
+                "title": "Anzahl der Diskussionsaufrufe zurücksetzen",
+                "submit": "Senden",
+                "label": "Auf Anzeigeanzahl einstellen"
+            },
+            "discussion_controls": {
+                "resetviews_button": "Anzahl der Aufrufe festlegen"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "reset_views_label": "Diskussionsansichten festlegen"
+            },
+            "settings": {
+                "ignore_crawlers": "Crawler-Besuche ignorieren"
+            }
+        }
+    }
+}

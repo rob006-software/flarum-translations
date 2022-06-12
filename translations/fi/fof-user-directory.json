@@ -1,0 +1,55 @@
+{
+    "fof-user-directory": {
+        "forum": {
+            "header": {
+                "back_to_user_directory_tooltip": "Takaisin käyttäjälistaukseen"
+            },
+            "search": {
+                "users_heading": "Etsi kaikkia käyttäjiä hakusanalla \"{query}\"",
+                "field": {
+                    "placeholder": "Etsi kaikkia käyttäjiä"
+                },
+                "kinds": {
+                    "group": "Ryhmä",
+                    "text": "Vapaa teksti"
+                }
+            },
+            "page": {
+                "nav": "Käyttäjät",
+                "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
+                "load_more_button": "=> core.ref.load_more",
+                "empty_text": "Emme löytäneet hakua vastaavia käyttäjiä.",
+                "filter_button": "Ryhmät",
+                "usercard": {
+                    "discussion-count": "{count, plural, one { {count} keskustelu} other {{count} keskustelua}}",
+                    "post-count": "{count, plural, one { {count} viesti} other {{count} viestiä}}"
+                }
+            }
+        },
+        "admin": {
+            "permissions": {
+                "view_user_directory": "Nähdä käyttäjälistaus"
+            },
+            "settings": {
+                "link": "Lisää linkki kotisivulle, jotta kävijät näkee listauksen",
+                "default-sort": "Oletus järjestys",
+                "use-small-cards": "Käytä pieniä käyttäjäkortteja",
+                "disable-global-search-source": "Älä lisää käyttäjälistaukseen Flarumin globaalia hakukenttää"
+            }
+        },
+        "lib": {
+            "sort": {
+                "not_specified": "Käytä Flarumin oletusta",
+                "default": "Oletus",
+                "username_az": "Käyttäjätunnus (a-ö)",
+                "username_za": "Käyttäjätunnus (ö-a)",
+                "newest": "Uusin",
+                "oldest": "Vanhin",
+                "most_posts": "Eniten viestejä",
+                "least_posts": "Vähiten viestejä",
+                "most_discussions": "Eniten keskusteluita",
+                "least_discussions": "Vähiten keskusteluita"
+            }
+        }
+    }
+}

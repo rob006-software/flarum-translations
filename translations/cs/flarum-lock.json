@@ -1,0 +1,28 @@
+{
+    "flarum-lock": {
+        "admin": {
+            "permissions": {
+                "lock_discussions_label": "Uzamykání témat"
+            }
+        },
+        "forum": {
+            "badge": {
+                "locked_tooltip": "Zamčeno"
+            },
+            "discussion_controls": {
+                "lock_button": "Zamknout",
+                "unlock_button": "Odemknout"
+            },
+            "notifications": {
+                "discussion_locked_text": "Uživatel {username} uzamknul"
+            },
+            "post_stream": {
+                "discussion_locked_text": "Uživatel {username} uzamknul toto téma.",
+                "discussion_unlocked_text": "Uživatel {username} odemknul toto téma."
+            },
+            "settings": {
+                "notify_discussion_locked_label": "Někdo uzamkne téma, které jsem založil"
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "askvortsov-discussion-templates": {
+        "admin": {
+            "permissions": {
+                "manage_own_discussion_reply_templates": "Muhokama uchun javob shablonlarini boshqaring",
+                "manage_all_reply_templates": "Barcha muhokamalar uchun javob shablonlarini boshqaring"
+            },
+            "settings": {
+                "no_tag_template": "Birlamchi shablon (muhokama hech qanday teg tanlanmagan holda boshlanganda ishlatiladi):",
+                "append_template_on_tag_change": "Teg o'zgarishiga shablon qo'shilsinmi?",
+                "append_template_on_tag_change_help": "Teglar o'zgartirilganda, foydalanuvchi allaqachon yozishni boshlagan bo'lsa ham, yangi teg shablonini qo'shish kerakmi? Ushbu sozlamadan qat'iy nazar, teglar o'zgartirilsa va foydalanuvchi o'zgartirishlar qilmagan bo'lsa, shablon almashtiriladi."
+            },
+            "tags": {
+                "tag_template_heading": "Muhokama shabloni",
+                "tag_template_text": "Ushbu tegda yangi muhokamalar uchun shablonni boshqaring.",
+                "tag_template_button": "Shablonni tahrirlash"
+            },
+            "tag_template_modal": {
+                "title": "Muhokama shabloni",
+                "customize_text": "Ushbu tegda yangi muhokamalar uchun shablonni boshqaring.",
+                "submit_button": "Shablonni saqlash"
+            }
+        },
+        "forum": {
+            "discussion_controls": {
+                "reply_template_button": "Javob shablonini tahrirlash"
+            },
+            "reply_template": {
+                "title": "Javob shablonini tahrirlash",
+                "submit_button": "Javob shablonini saqlang"
+            }
+        }
+    }
+}

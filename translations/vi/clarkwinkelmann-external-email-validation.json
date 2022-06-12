@@ -1,0 +1,26 @@
+{
+    "clarkwinkelmann-external-email-validation": {
+        "admin": {
+            "settings": {
+                "method": "Phương thức request",
+                "uri": "URI Request",
+                "uri-help": "Bạn có thể chèn mã ngắn để được thay thế bằng giá trị email, xem README.",
+                "body": "Nội dung request",
+                "body-help": "Bạn có thể chèn mã ngắn để được thay thế bằng giá trị email, xem README.",
+                "headers": "Header request",
+                "headers-help": "Một header trên mỗi dòng",
+                "use-response-status": "Sử dụng response status HTTP cho trạng thái hợp lệ",
+                "use-response-status-help": "Response 2xx sẽ được coi là hợp lệ. 4xx response sẽ được coi là không hợp lệ.",
+                "response-success-key": "Đường dẫn đến thuộc tính JSON có trạng thái hợp lệ",
+                "response-success-key-help": "Đường dẫn ở định dạng <code>key1.key2.key3</code>. Sẽ được giải nén bằng trình trợ giúp Laravel<code>Arr::get</code>. Giá trị sẽ được chuyển thành boolean. Chỉ có hiệu lực là trạng thái HTTP không được sử dụng. Ngoại lệ sẽ được ném ra nếu response không phải là JSON hợp lệ.\n",
+                "default-error-message": "Thông báo lỗi mặc định",
+                "default-error-message-help": "Thông báo này sẽ được hiển thị cho người dùng khi xác thực email không thành công nếu không tìm thấy thông báo nào khác. Nếu bạn cần dịch thông báo này, hãy để trống trường và tùy chỉnh thông báo lỗi mặc định được tích hợp sẵn bằng Linguist.\n",
+                "response-error-key": "Đường dẫn đến thuộc tính JSON với thông báo lỗi",
+                "response-error-key-help": "Đường dẫn ở định dạng <code>key1.key2.key3</code>. Sẽ được giải nén bằng trình trợ giúp Laravel <code>Arr::get</code>. Thông báo lỗi mặc định sẽ được hiển thị nếu không tìm thấy khóa này.\n"
+            }
+        },
+        "api": {
+            "email-validation-error": "Email không vượt qua xác thực bên ngoài."
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "clarkwinkelmann-clippy": {
+        "admin": {
+            "settings": {
+                "cdn": "CDN",
+                "cdn-options": {
+                    "s3": "Amazon S3",
+                    "jsdelivr": "jsDelivr",
+                    "custom": "Odatiy"
+                },
+                "path": "Odatiy CDN yo'l",
+                "path-help": "<a>clippy.js repozitoriy</a> tarkibini o'z ichiga olgan jildga chiziqsiz to'liq URL.",
+                "agent": "Agent",
+                "agent-help": "Har bir agent turli xil animatsiyalarga ega. Agentni oʻzgartirish sozlamalaringizdan barcha mos kelmaydigan animatsiyalarni oʻchirib tashlaydi.",
+                "events": "Voqealar",
+                "events-help": "Ushbu hodisalarning har birida qaysi animatsiya va nutq pufakchasini ko'rsatishni tanlang"
+            },
+            "events": {
+                "name": "Voqealar",
+                "animation": "Animatsiya",
+                "text": "Tekst"
+            }
+        }
+    }
+}

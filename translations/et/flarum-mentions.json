@@ -2,47 +2,47 @@
     "flarum-mentions": {
         "admin": {
             "settings": {
-                "allow_username_format_label": "",
-                "allow_username_format_text": ""
+                "allow_username_format_label": "Luba kasutajanimele viitamise formaat (@kasutajanimi)",
+                "allow_username_format_text": "Hetkel on kasutajanimele viitamise formaadiks @\"kuvatav nimi\"#ID.\nLubatud on kasutada ka vana formaati @kasutajanimi, kuid salvestamisel teisendatakse see ikkagi uude formaati.\n"
             }
         },
         "forum": {
             "composer": {
-                "mention_tooltip": "",
-                "reply_to_post_text": ""
+                "mention_tooltip": "Viita kasutajale või postitusele",
+                "reply_to_post_text": "Vasta #{number}"
             },
             "notifications": {
-                "others_text": "",
-                "post_mentioned_text": "",
-                "user_mentioned_text": ""
+                "others_text": "=> core.ref.some_others",
+                "post_mentioned_text": "{username} vastas sinu postitusele",
+                "user_mentioned_text": "{username} viitas sinule"
             },
             "post": {
-                "mentioned_by_self_text": "",
-                "mentioned_by_text": "",
-                "others_text": "",
-                "quote_button": "",
-                "reply_link": "",
-                "you_text": ""
+                "mentioned_by_self_text": "{users} vastasid sellele.",
+                "mentioned_by_text": "{users} vastasid sellele.",
+                "others_text": "=> core.ref.some_others",
+                "quote_button": "Tsiteeri",
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
             },
             "settings": {
-                "notify_post_mentioned_label": "",
-                "notify_user_mentioned_label": ""
+                "notify_post_mentioned_label": "Keegi vastab minu postitusele",
+                "notify_user_mentioned_label": "Keegi viitab minule oma postituses"
             },
             "user": {
-                "mentions_link": ""
+                "mentions_link": "Viited"
             },
             "post_mention": {
-                "deleted_text": ""
+                "deleted_text": "[tundmatu]"
             }
         },
         "email": {
             "post_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{replier_display_name} vastas sinu postitusele teemas {title}",
+                "body": "Hei {recipient_display_name}!\n\n{replier_display_name} vastas sinu postitusele (#{post_number}) teemas {title}.\n\n{url}\n\n---\n\n{content}\n"
             },
             "user_mentioned": {
-                "subject": "",
-                "body": ""
+                "subject": "{mentioner_display_name} viitas sinule oma postituses teemas {title}",
+                "body": "Hei {recipient_display_name}!\n\n{mentioner_display_name} viitas sinule oma postituses teemas {title}.\n\n{url}\n\n---\n\n{content}\n"
             }
         }
     }

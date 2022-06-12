@@ -12,11 +12,15 @@
                 "edit_recipients": "メンバーを編集",
                 "send_pd": "{username} と私的なチャット",
                 "cancel": "取り消し",
+                "make_public": "",
                 "remove_from_discussion": "雑谈を退出させる"
             },
             "composer_private_discussion": {
                 "submit_button": "私的な雑谈を投稿する",
                 "title_placeholder": "私的な雑谈のタイトル"
+            },
+            "confirm": {
+                "make_public": ""
             },
             "labels": {
                 "recipients": "{count} 人のみが閲覧可能|{count} 人のみが閲覧可能",
@@ -39,15 +43,22 @@
                     "update_recipients": "私的な雑谈「{title}」のメンバーを変更",
                     "add_recipients": "この雑谈に参加するようにユーザーを招待する"
                 },
+                "labels": {
+                    "selected_users": "",
+                    "search_field": ""
+                },
                 "help": {
                     "add_recipients": "選択したユーザーのみが表示されます。 少なくとも1人のユーザー（あなたを除く）を追加して、私的な雑谈を開始します。",
-                    "update_recipients": "この雑谈は、選択したユーザーにのみ表示されます。"
+                    "update_recipients": "この雑谈は、選択したユーザーにのみ表示されます。",
+                    "selected_users": "",
+                    "click_user_to_remove_tooltip": ""
                 }
             },
             "post": {
                 "recipients_modified": {
                     "added_and_removed": "{username} は {added} を雑谈に招待し、{removed} を雑谈から削除しました。",
                     "added": "{username} が雑谈に {added} を招待しました。",
+                    "made_public": "",
                     "removed": "{username} は雑谈から {removed} を削除しました。",
                     "removed_self": "{username} は雑谈に離れました。"
                 }
@@ -77,10 +88,13 @@
                 "create_private_discussions_with_blocking_users": "私的なチャットをブロックしたユーザーに私的な雑谈への参加を強制する",
                 "edit_user_recipients": "私的な雑谈のメンバーを編集する",
                 "edit_group_recipients": "私的なディスカッ雑谈に参加しているユーザーグループを編集する",
+                "make_private_into_public": "",
                 "view_private_discussions-when-flagged": "他のユーザーの私的な雑谈を表示する（報告されている場合）"
             },
             "settings": {
                 "badge-icon": "",
+                "enable-make-public-option": "",
+                "enable-make-public-option-help": "",
                 "post-event-icon": ""
             }
         },

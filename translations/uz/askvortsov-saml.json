@@ -1,0 +1,43 @@
+{
+    "askvortsov-saml": {
+        "admin": {
+            "header": {
+                "text": "Metadata url yoki metadata to'ldirilganligiga ishonch hosil qiling."
+            },
+            "title": "SAML2 SSO konfiguratsiyasi",
+            "labels": {
+                "idp_metadata_url": "Identifikatsiya provayderi metamaʼlumotlarining URL manzili (XMLga muqobil)",
+                "idp_metadata": "Identifikatsiya provayderi metamaʼlumotlarining URL manzili (XMLga muqobil)",
+                "only_option": "SAML2 SSO faqat kirish opsiyasi sifatida ishlatilsinmi?",
+                "nameid_format": "NameID formati",
+                "slo": "SLO yoqilsinmi? Agar sizning IDP buni qo'llab-quvvatlamasa, bu hech narsa qilmaydi.",
+                "authn_requests_signed": "Autentifikatsiya soʻrovlari imzolansinmi?",
+                "logout_request_signed": "Tizimdan chiqish talablari?",
+                "logout_response_signed": "Hisobdan chiqish javoblari bormi?",
+                "sign_metadata": "Metadata imzolansinmi?",
+                "want_assertions_encrypted": "Tasdiqlashlarni shifrlashni xohlaysizmi?",
+                "want_assertions_signed": "Tasdiqlashlarni shifrlashni xohlaysizmi?",
+                "want_messages_signed": "Xabarlarni imzolashni xohlaysizmi?",
+                "x509_cert": "x509 sertifikati (agar yoqilgan bo'lsa, imzolash uchun kerak)",
+                "x509_key": "x509 sertifikati (agar yoqilgan bo'lsa, imzolash uchun kerak)"
+            },
+            "options": {
+                "nameid_format": {
+                    "persistent": "Doimiy (qo'llab-quvvatlansa tavsiya etiladi)",
+                    "emailAddress": "Elektron pochta (Birlamchi. Agar Doimiy qoʻllab-quvvatlanmasa foydalaning)",
+                    "unspecified": "Aniqlanmagan"
+                }
+            }
+        },
+        "forum": {
+            "log_in": {
+                "with_saml_button": "SAML2 SSO",
+                "open_popup": "Kirish uchun shu yerni bosing",
+                "enable_popups": "Kirish / Ro'yxatdan o'tish uchun qalqib chiquvchi oynalarni yoqing"
+            },
+            "sign_up": {
+                "post_saml_title": "Oxirgi bir qadam..."
+            }
+        }
+    }
+}

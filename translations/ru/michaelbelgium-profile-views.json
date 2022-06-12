@@ -1,0 +1,19 @@
+{
+    "michaelbelgium-flarum-profile-views": {
+        "forum": {
+            "user": {
+                "viewlist": {
+                    "title": "Посетители",
+                    "guest": "Гость"
+                },
+                "view_count_text": "{viewcount, plural, one {Просмотров: {viewcount}} other {Просмотров: {viewcount}}}"
+            }
+        },
+        "admin": {
+            "settings": {
+                "track_guests_label": "Отслеживать гостей",
+                "max_viewcount_label": "Максимальное количество посетителе в списке"
+            }
+        }
+    }
+}

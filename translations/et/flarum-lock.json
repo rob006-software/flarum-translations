@@ -2,26 +2,26 @@
     "flarum-lock": {
         "admin": {
             "permissions": {
-                "lock_discussions_label": ""
+                "lock_discussions_label": "Teemade lukustamine"
             }
         },
         "forum": {
             "badge": {
-                "locked_tooltip": ""
+                "locked_tooltip": "Lukustatud"
             },
             "discussion_controls": {
-                "lock_button": "",
-                "unlock_button": ""
+                "lock_button": "Lukusta",
+                "unlock_button": "Ava"
             },
             "notifications": {
-                "discussion_locked_text": ""
+                "discussion_locked_text": "{username} lukustas"
             },
             "post_stream": {
-                "discussion_locked_text": "",
-                "discussion_unlocked_text": ""
+                "discussion_locked_text": "{username} lukustas teema.",
+                "discussion_unlocked_text": "{username} avas teema."
             },
             "settings": {
-                "notify_discussion_locked_label": ""
+                "notify_discussion_locked_label": "Keegi lukustab minu algatatud teema"
             }
         }
     }

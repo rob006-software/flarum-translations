@@ -1,32 +1,32 @@
 {
     "flarum-ext-contactme": {
         "settings": {
-            "emaillabel": ""
+            "emaillabel": "Courriel auquel le formulaire de contact sera envoyé"
         },
         "admin": {
             "settings": {
-                "emaillabel": ""
+                "emaillabel": "Courriel auquel le formulaire de contact sera envoyé"
             }
         },
         "forum": {
-            "title": "",
-            "messagesent": "",
-            "plsregister": "",
-            "tocontinue": "",
-            "backsoon": "",
-            "notloggedin": "",
-            "placeholderName": "",
-            "emailfield": "",
-            "pageTitle": "",
-            "subject": "",
-            "sendForm": "",
-            "textAreaField": "",
-            "pText": ""
+            "title": "Nous contacter",
+            "messagesent": "Message envoyé !",
+            "plsregister": "Veuillez vous inscrire ou vous connecter",
+            "tocontinue": "pour continuer avec ce formulaire de contact",
+            "backsoon": "nous reviendrons vers vous sous peu",
+            "notloggedin": "Veuillez vous connecter pour utiliser le formulaire de contact",
+            "placeholderName": "Indiquez ici votre nom",
+            "emailfield": "Indiquez ici votre adresse de courriel",
+            "pageTitle": ".Nous contacter",
+            "subject": "Message du formulaire de contact",
+            "sendForm": "Envoyer le message",
+            "textAreaField": "Écrivez ici votre message",
+            "pText": "<p>En remplissant ce formulaire de contact, vous pouvez nous adresser des communications commerciales, des partenariats ou tout simplement tout type de question, qui recevra une réponse dans un délai maximum de 7 jours.</p>.\n<p><strong>TRAITEMENT DES DONNÉES PERSONNELLES</strong></p>\n<p>(Politique de confidentialité art. 13 del d.lgs. 196/2003)</p>.\n<p>Nous vous informons que les données que vous fournirez à l'opérateur de ce site en remplissant le formulaire de contact du site lui-même, seront traitées conformément aux dispositions du décret législatif 196/2003, code en matière de protection des données personnelles.\n   Le formulaire de contact mis à disposition sur le site a pour seul but de permettre aux visiteurs du site de contacter, s'ils le souhaitent, le responsable du site, en envoyant un courrier électronique au responsable via le formulaire susmentionné.\n   Ces informations concernent les données personnelles transmises par l'utilisateur visiteur lors du remplissage du formulaire de contact.</p>\n<p>Veuillez respecter ces règles :</p>\n<li>Ne pas abuser du formulaire de contact pour des demandes qui peuvent être faites dans le forum</li>\n<li>Ne pas envoyer le même courriel plusieurs fois</li>\n"
         },
         "email": {
             "contact": {
-                "subject": "",
-                "body": ""
+                "subject": "Nouveau contact via le formulaire",
+                "body": "Bonjour !\n\nVous avez reçu un nouveau formulaire de contact de la part de {username} (adresse de courriel : {email}).\n\nSon message est :\n\n{message}"
             }
         }
     }

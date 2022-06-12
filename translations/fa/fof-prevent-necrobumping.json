@@ -1,0 +1,26 @@
+{
+    "fof-prevent-necrobumping": {
+        "forum": {
+            "composer": {
+                "warning": {
+                    "title": "این بحث بیش از <b>{time}</b> قدیمی است.",
+                    "description": "بسیار محتمل است که نیازی به بحث بیشتر نداشته باشد و بنابراین ضربه زدن به آن هیچ هدفی ندارد.",
+                    "checkbox_label": "من می دانم که این بحث نسبتا قدیمی است، اما هنوز هم می خواهم پاسخ بدهم.",
+                    "error": "این بحث برای پاسخ دادن به آن خیلی قدیمی است."
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "days_label": "روزها",
+                "days_help": "",
+                "message_title_label": "",
+                "message_title_help": "",
+                "message_description_label": "",
+                "message_agreement_label": "",
+                "tags_title": "",
+                "tags_help": ""
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "clarkwinkelmann-predefined-avatars": {
+        "admin": {
+            "settings": {
+                "predefinedAvatarsOnly": "Faqat oldindan belgilangan avatarlarga ruxsat bering",
+                "predefinedAvatarsOnlyHelp": "Agar quyida ruxsatingiz boʻlmasa, maxsus avatar rasmlarini yuklash imkoniyatini olib tashlaydi.",
+                "predefinedAvatarsNoRemove": "Avatar yo'qligini sozlashni oldini olish",
+                "predefinedAvatarsNoRemoveHelp": "Maxsus yoki oldindan belgilangan avatarga ega boʻlgan foydalanuvchilar quyida ruxsati boʻlmasa, standart “bosh harflar” avatariga qayta olmaydi.",
+                "predefinedAvatarsDefault": "Birlamchi avatar",
+                "predefinedAvatarsDefaultHelp": "Ro'yxatdan o'tish paytida yangi foydalanuvchilar uchun amal qiladi.",
+                "predefinedAvatars": "Mavjud avatarlar",
+                "predefinedAvatarsHelp": "Fayllar hajmi o'zgartirilmaydi yoki o'zgartirilmaydi. Yuklashdan oldin ularni o'zingiz tanlagan formatda o'lchamini o'zgartirganingizga, siqib chiqarganingizga va eksport qilganingizga ishonch hosil qiling. Flarum kvadrat 100x100 png yoki jpg tasvirlar bilan eng yaxshi ishlaydi, lekin siz maxsus CSS yordamida boshqa ruxsatlardan foydalanishingiz mumkin.\n",
+                "defaultOptions": {
+                    "none": "Avatar yo'q",
+                    "first": "Ro'yxatdagi birinchi avatar",
+                    "random": "Ro'yxatdan tasodifiy avatar"
+                }
+            },
+            "permissions": {
+                "setPredefinedAvatar": "Oldindan berilgan ro'yxatdan avatar tanlash",
+                "setCustomAvatarAlways": "Istalgan vaqtda shaxsiy avatarni o'rnating"
+            }
+        },
+        "forum": {
+            "modal": {
+                "title": "Avatarni tanlang",
+                "imageAlt": "Avatar"
+            },
+            "editor": {
+                "setPredefinedAvatar": "Oldindan belgilangan avatarni tanlang"
+            }
+        }
+    }
+}

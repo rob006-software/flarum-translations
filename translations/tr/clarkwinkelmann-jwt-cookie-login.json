@@ -1,0 +1,40 @@
+{
+    "clarkwinkelmann-jwt-cookie-login": {
+        "admin": {
+            "settings": {
+                "cookieName": "Çerez Adı",
+                "actorId": "Yönetim işlemleri için Flarum Kullanıcı Kimliği",
+                "actorIdHelp": "Bu Flarum kullanıcısı, yeni kullanıcılar oluşturan dahili REST API isteğinin aktörü olarak kullanılacaktır. Bir yönetici kullanıcı olmalıdır.\n",
+                "audience": "JWT Audience / Firebase Proje Kimliği",
+                "audienceHelp": "Belirtecin <code>aud</code> özniteliğini doğrular. Firebase kullanılmadığında isteğe bağlı",
+                "publicKey": "Genel anahtar",
+                "publicKeyHelp": "Google Firebase anahtarlarını kullanmak için Boş Bırakın",
+                "publicKeyAlgorithm": "Genel Anahtar Algoritması",
+                "publicKeyAlgorithmHelp": "Yalnızca Genel Anahtar ile gereklidir. Örnek: RS256",
+                "expirationLeeway": "Expiration Leeway (saniye)",
+                "expirationLeewayHelp": "JWT süresinin sona ermesinden kaç saniye sonra oturum hala başlamalıdır. Bu değerin, sunucular arasındaki saat çarpıklık sürelerini hesaba katmak için yalnızca en kötü ihtimalle birkaç dakika olması amaçlanmıştır. Bununla birlikte, harici bir kitaplıktan JWT'nin sabit kısa ömürleri etrafında çalışmanın tek yolu buysa, çok daha uzun bir değere ayarlanabilir.\n",
+                "usernameTemplate": "Kullanıcı Adı Şablonu",
+                "usernameTemplateHelp": "JWT'den bir özniteliği kullanmak için <code>{sub}</code> sözdizimini kullanın",
+                "emailTemplate": "E-posta şablonu",
+                "emailTemplateHelp": "JWT'den bir özniteliği kullanmak için <code>{sub}</code> sözdizimini kullanın",
+                "registrationHook": "Kayıt Kancası Uç Noktası",
+                "registrationHookHelp": "Bir kullanıcı forumu ilk kez ziyaret ettiğinde POST isteğiyle karşılaşacak tam nitelikli bir URL. İstek, Flarum'da yeni kullanıcıyı oluşturmak için kullanılacak bir JSON:API yükü döndürmelidir. URL'de JWT'den bir özniteliği kullanmak için <code>{sub}</code> sözdizimini kullanın. JWT'nin tamamı <code>Authorization</code> başlığında iletilecektir. Bir şablon değeri yapılandırılmışsa, Kullanıcı adı ve E-posta isteğe bağlıdır.\n",
+                "authorizationHeader": "Özel Yetkilendirme başlığı değeri",
+                "authorizationHeaderHelp": "Bu alan boş bırakılırsa, <code>Authorization</code> başlığı <code>Token <JWT token></code> içerecektir.",
+                "hiddenIframe": "Gizli Iframe URL'si",
+                "hiddenIframeHelp": "Bu iframe, Flarum tek sayfa uygulamasının tüm sayfalarına ekran dışında yüklenecektir. Tanımlama bilgisini periyodik olarak yenilemek için kullanılabilir ve otomatik oturum açma veya otomatik oturum kapatma için bir sayfa yenilemeyi tetiklemek için tarayıcı mesajlaşmasını kullanabilir. Belgeler için README'ye bakın.\n",
+                "autoLoginDelay": "Gizli Iframe Otomatik Giriş Gecikmesi (milisaniye)",
+                "autoLoginDelayHelp": "Gizli iframe oturum açmış durumu döndürürse, sayfanın kullanıcı etkileşimi olmadan kaç saniye boyunca yenilenmesine izin verilir. Bu gecikmeyi geçtikten sonra kullanıcı, sayfayı yenilemek isteyip istemediğini sormak için bir uyarı alır.\n",
+                "logoutRedirect": "Çıkış Yönlendirme URL'si",
+                "logoutRedirectHelp": "JWT durum bilgisi olmayan bir oturum sırasında, Flarum oturum kapatma bağlantısı, bu URL'ye işaret eden bir bağlantı ile değiştirilecektir. Herhangi bir değer ayarlanmazsa, çıkış düğmesi gizlenecektir.\n"
+            }
+        },
+        "forum": {
+            "alert": {
+                "refresh": "Sayfayı yenile",
+                "login": "Otomatik olarak bağlandınız.",
+                "logout": "Oturumunuz sona erdi."
+            }
+        }
+    }
+}

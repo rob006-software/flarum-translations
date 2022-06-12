@@ -1,0 +1,47 @@
+{
+    "davwheat": {
+        "ads": {
+            "admin": {
+                "permissions": {
+                    "bypassAds": ""
+                },
+                "settings": {
+                    "admin_bypass_warning": "",
+                    "enabled_locations": "Reklama birligining joylashuvi yoqilgan",
+                    "script_urls": "",
+                    "add_script": "",
+                    "script_deletion": "",
+                    "code_input": "\"{for}\" reklama birligi uchun kod",
+                    "code_input_disabled": "HTML kodini tahrirlash uchun ushbu joylashuvni yoqing.",
+                    "js_input": "",
+                    "js_input_disabled": "",
+                    "use_adsense": "",
+                    "pub_id": "AdSense nashriyot identifikatori",
+                    "between_posts_gap": "Xabarlar orasidagi: reklamalar orasidagi bo'shliq",
+                    "allow_after_placeholder": "Xabarlar orasida: javobdan keyin reklamani ko'rsatish",
+                    "save_btn": {
+                        "dirty": "O'zgarishlarni saqlash",
+                        "saving": "Saqlash...",
+                        "saved": "Barcha o'zgarishlar saqlandi",
+                        "fix_errors": "Saqlashdan oldin xatolarni tuzating"
+                    },
+                    "alert": {
+                        "fix_errors": "Oʻzgarishlarni saqlashdan oldin yuqoridagi xatolarni tuzating",
+                        "code_has_script": "Reklama birliklaringizdan birida yoki bir nechtasida skript teglari mavjud, ularga ruxsat berilmaydi. Bularni olib tashlang va qaytadan urining."
+                    },
+                    "warning": "Reklama kodi <b>FAQAT</b> skript teglarini emas, balki <code>ins</code> teg(lar)ni o'z ichiga olishi kerak. Bu kengaytma orqali\nSkriptlar avtomatik ravishda boshqariladi\n"
+                }
+            },
+            "lib": {
+                "locations": {
+                    "discussion_header": "Muhokama sahifasi (sarlavha ostida)",
+                    "discussion_sidebar": "Muhokama yon paneli [FAQAT Desktop]",
+                    "header": "Sarlavha",
+                    "sidebar": "Yon navigatsiya [FAQAT ish stoli]",
+                    "footer": "Pastgi qism",
+                    "between_posts": "Postlar orasida"
+                }
+            }
+        }
+    }
+}

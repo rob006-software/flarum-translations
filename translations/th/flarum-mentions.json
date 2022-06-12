@@ -1,0 +1,49 @@
+{
+    "flarum-mentions": {
+        "admin": {
+            "settings": {
+                "allow_username_format_label": "Allow username mention format (@Username)",
+                "allow_username_format_text": "The current format for user mentions is @\"Display Name\"#ID.\nThis setting allows using the old format of @Username, however it will still be converted to the new format upon saving.\n"
+            }
+        },
+        "forum": {
+            "composer": {
+                "mention_tooltip": "กล่าวถึงผู้ใช้หรือโพสต์",
+                "reply_to_post_text": "ตอบกลับไปยัง #{number}"
+            },
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_mentioned_text": "{username} ตอบกลับโพสต์ของคุณ",
+                "user_mentioned_text": "{username} กล่าวถึงคุณ"
+            },
+            "post": {
+                "mentioned_by_self_text": "{users} ตอบกลับโพสต์นี้",
+                "mentioned_by_text": "{users} ตอบกลับโพสต์นี้",
+                "others_text": "=> core.ref.some_others",
+                "quote_button": "อ้างอิง",
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
+            },
+            "settings": {
+                "notify_post_mentioned_label": "เมื่อมีคนตอบกระทู้ของฉัน",
+                "notify_user_mentioned_label": "มีคนกล่าวถึงฉันในโพสต์"
+            },
+            "user": {
+                "mentions_link": "กล่าวถึง"
+            },
+            "post_mention": {
+                "deleted_text": "[ไม่รู้จัก]"
+            }
+        },
+        "email": {
+            "post_mentioned": {
+                "subject": "{replier_display_name} ตอบกลับโพสต์ของคุณใน {title}",
+                "body": "สวัสดี {recipient_display_name}!\n\n{replier_display_name} ตอบกลับโพสต์ของคุณ (#{post_number}) ใน {title}.\n\n{url}\n\n---\n\n{content}\n"
+            },
+            "user_mentioned": {
+                "subject": "{mentioner_display_name} กล่าวถึงคุณใน {title}",
+                "body": "สวัสดี {recipient_display_name}!\n\n{mentioner_display_name} กล่าวถึงคุณในโพสต์ใน {title}.\n\n{url}\n\n---\n\n{content}\n"
+            }
+        }
+    }
+}

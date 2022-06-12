@@ -1,0 +1,25 @@
+{
+    "flarum-approval": {
+        "admin": {
+            "permissions": {
+                "approve_posts_label": "Beitrag genehmigen",
+                "reply_without_approval_label": "Auf eine Diskussion antworten ohne Genehmigung",
+                "start_discussions_without_approval_label": "Diskussion starten ohne Genehmigung"
+            }
+        },
+        "forum": {
+            "badge": {
+                "awaiting_approval_tooltip": "=> flarum-approval.ref.awaiting_approval"
+            },
+            "post": {
+                "awaiting_approval_text": "=> flarum-approval.ref.awaiting_approval"
+            },
+            "post_controls": {
+                "approve_button": "Genehmigen"
+            }
+        },
+        "ref": {
+            "awaiting_approval": "Warte auf Genehmigung"
+        }
+    }
+}

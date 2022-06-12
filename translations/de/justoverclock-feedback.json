@@ -1,0 +1,61 @@
+{
+    "justoverclock-feedback": {
+        "admin": {
+            "contactmail": "E-Mail-Adresse, an die Feedback gesendet werden soll",
+            "feedback1-title": "Feedbacktyp 1",
+            "feedback1-title-help": "Passe hier den Namen Deines 'Feedback-Typs' an",
+            "feedback1-icon": "Icon für Feedbacktyp 1",
+            "feedback1-icon-help": "Setze ein Textsymbol wie \"⚠️, ☎️, ✏️\" - Windows (Win + .) MacOS 🌐",
+            "feedback2-title": "Feedbacktyp 2",
+            "feedback2-title-help": "Passe hier den Namen Deines 'Feedback-Typs 2' an",
+            "feedback2-icon": "Icon für Feedbacktyp 2",
+            "feedback2-icon-help": "Setze ein Textsymbol wie\"⚠️, ☎️, ✏️\"- Windows (Win + .) MacOS 🌐",
+            "feedback3-title": "Feedbacktyp 3",
+            "feedback3-title-help": "Passe hier den Namen Deines 'Feedback-Typs 3' an",
+            "feedback3-icon": "Icon für Feedback-Typ 3",
+            "feedback3-icon-help": "Setze ein Textsymbol wie\"⚠️, ☎️, ✏️\"- Windows (Win + .) MacOS 🌐",
+            "contactdesc": "Dies muss ausgefüllt werden, um das Feedback-Widget vollständig zu aktivieren",
+            "collect-email": "E-Mail-Adressfeld (optional) für Benutzer anzeigen",
+            "collect-email-help": "Wenn diese Option aktiviert ist, können Benutzer ihre E-Mail-Adresse zum Feedback hinzufügen",
+            "position": "Widget-Position",
+            "position-help": "Wähle unten links oder unten rechts, um die Feedback-Schaltfläche anzuzeigen",
+            "right_label": "Rechts",
+            "left_label": "Links",
+            "background-color": "Hintergrundfarbe des Widgets",
+            "background-color-help": "Gebe einen Hex-Farbcode an, der als Hintergrundfarbe verwendet werden soll, z. B. '#fff'",
+            "font-color": "Widget-Schriftfarbe",
+            "font-color-help": "Gebe einen Hex-Farbcode an, der als Schriftfarbe verwendet werden soll, z. B. '#000'",
+            "box-title": "Boxtitel",
+            "box-title-help": "Lege den Titel des Popup-Feedback-Widgets fest (altes 'Flarum-Feedback')"
+        },
+        "api": {
+            "validation_error": "Du kannst kein leeres Feedback senden"
+        },
+        "forum": {
+            "button-title": "Feedback",
+            "feedback-widget": {
+                "title": "Flarum Feedback",
+                "placeholder": "Gebe Dein Feedback hier ein",
+                "email-placeholder": "E-Mail (optional)",
+                "submit": "Senden",
+                "back": "Zurück",
+                "contact-text": "Oder sende eine E-Mail!",
+                "type-message": "Welches Feedback hast Du?",
+                "success": "Danke!👊",
+                "failed-title": "Ups, ein Fehler ist aufgetreten",
+                "failed-message": "Bitte versuche es erneut. Wenn dies weiterhin auftritt, versuche stattdessen, eine E-Mail zu senden.",
+                "email-field-placeholder": "E-Mail (optionales Feld)",
+                "types": {
+                    "general": "Generelles Feedback",
+                    "idea": "Ich habe eine Idee",
+                    "bug": "Fehlerbericht"
+                }
+            },
+            "email": {
+                "guest": "ein anonymer Benutzer",
+                "subject": "Feedback",
+                "body": "Neues Feedback ({type} ) von {user}!\n\n{message}\n\nE-Mail: {email}\nUrl: {url}\n"
+            }
+        }
+    }
+}

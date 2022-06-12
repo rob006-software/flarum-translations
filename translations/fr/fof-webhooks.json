@@ -2,34 +2,34 @@
     "fof-webhooks": {
         "actions": {
             "discussion": {
-                "started": "Discussion démarrée {1}",
+                "started": "Discussion `{1}` démarrée",
                 "renamed": {
-                    "title": "Discussion renommée {1}",
-                    "description": "Nouveau titre: {1}"
+                    "title": "Discussion `{1}` renommée",
+                    "description": "Nouveau titre : {1}"
                 },
-                "hidden": "Discussion cachée {1}",
-                "restored": "Discussion restaurée {1}",
-                "deleted": "Discussion supprimée {1}"
+                "hidden": "Discussion `{1}` masquée",
+                "restored": "Discussion `{1}` restaurée",
+                "deleted": "Discussion `{1}` supprimée"
             },
             "group": {
-                "created": "Groupe {1} créé",
-                "renamed": "Renommé un groupe en {1}",
-                "deleted": "Groupe {1} supprimé"
+                "created": "Groupe `{1}` créé",
+                "renamed": "Renommé un groupe en `{1}`",
+                "deleted": "Groupe `{1}` supprimé"
             },
             "post": {
-                "posted": "Nouveau message dans {1}",
-                "revised": "Message édité dans {1}",
-                "hidden": "Message caché dans {1}",
-                "restored": "Message restauré dans {1}",
-                "deleted": "Message supprimé dans {1}"
+                "posted": "Nouveau message dans `{1}`",
+                "revised": "Message modifié dans `{1}`",
+                "hidden": "Message masqué dans `{1}`",
+                "restored": "Message restauré dans `{1}`",
+                "deleted": "Message supprimé dans `{1}`"
             },
             "user": {
-                "registered": "Nouvel utilisateur enregistré",
+                "registered": "Nouvel utilisateur inscrit",
                 "renamed": {
-                    "title": "Nom d’utilisateur modifié de {1}",
-                    "description": "Nouveau nom d’utilisateur: {1}"
+                    "title": "Nom d'utilisateur modifié de `{1}`",
+                    "description": "Nouveau nom d'utilisateur : {1}"
                 },
-                "deleted": "Utilisateur supprimé {1}"
+                "deleted": "Utilisateur `{1}` supprimé"
             }
         },
         "adapters": {
@@ -39,67 +39,70 @@
         },
         "admin": {
             "errors": {
-                "service_not_found": "Le service {service} ne peut être trouvé.",
-                "url_invalid": "L’URL n’est pas valide pour le service sélectionné."
+                "service_not_found": "Le service « {service} » est introuvable.",
+                "url_invalid": "L'URL n'est pas valide pour le service sélectionné.",
+                "tag_invalid": "Ce webhook est restreint à une étiquette non valide. La restriction ne s'appliquera pas. Assurez-vous que cette action est volontaire."
             },
             "nav": {
-                "desc": "Webhooks sortants personnalisables pour votre forum."
+                "desc": "Des webhooks sortants personnalisables pour votre forum."
             },
             "settings": {
+                "debug_label": "Débogage",
+                "debug_help": "Ajoute des journaux d'événements supplémentaires au fichier journal de Flarum pour déboguer les problèmes avec les webhooks et/ou les événements qui ne fonctionnent pas correctement.",
                 "item": {
-                    "tag_any_label": ""
+                    "tag_any_label": "N'importe lequel"
                 },
                 "help": {
-                    "disabled": "Ce Webhook est désactivé car aucun événement n’est activé.",
-                    "general": "Ici vous pouvez ajouter, éditer et supprimer des webhooks de votre forum.",
-                    "url": "L’url du webhook endpoint à exécuter"
+                    "disabled": "Ce webhook est désactivé car il n'a aucun événement activé.",
+                    "general": "Vous pouvez ajouter, modifier et supprimer ici des webhooks pour votre forum.",
+                    "url": "Le point d'entrée du webhook à exécuter"
                 },
                 "modal": {
-                    "title": "Paramètres Webhook",
-                    "description": "Ici vous pouvez modifier les événements sur lesquels le Webhook est déclenché.",
-                    "use_plain_text_label": "",
-                    "max_post_content_length_label": "",
-                    "max_post_content_length_help": "",
-                    "extra_text_label": "",
-                    "extra_text_help": "",
-                    "group_label": "",
-                    "group_help": "",
-                    "events_label": ""
+                    "title": "Paramètres du webhook",
+                    "description": "Vous pouvez modifier ici les événements sur lesquels le webhook est déclenché.",
+                    "use_plain_text_label": "Réduire la quantité de mise en page dans le contenu des messages",
+                    "max_post_content_length_label": "Longueur maximale du contenu des messages",
+                    "max_post_content_length_help": "Définissez un nombre pour limiter le contenu des messages dans tous les événements liés aux messages. Réglez cette option sur 0 ou laissez vide pour supprimer la limite.",
+                    "extra_text_label": "Texte supplémentaire",
+                    "extra_text_help": "Texte supplémentaire à inclure dans le webhook envoyé.",
+                    "group_label": "Groupe",
+                    "group_help": "Envoyer des ressources qui peuvent être vues par ce groupe",
+                    "events_label": "Événements"
                 },
                 "services": {
                     "discord": "Discord",
                     "slack": "Slack",
-                    "microsoft-teams": ""
+                    "microsoft-teams": "Microsoft Teams"
                 },
                 "actions": {
                     "flarum": {
                         "discussion": {
                             "title": "Discussion Flarum",
-                            "started": "Démarré",
-                            "renamed": "=> reflar-webhooks.ref.renamed",
-                            "hidden": "=> reflar-webhooks.ref.hidden",
-                            "restored": "=> reflar-webhooks.ref.restored",
-                            "deleted": "=> reflar-webhooks.ref.deleted"
+                            "started": "Démarrée",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "hidden": "=> fof-webhooks.ref.hidden",
+                            "restored": "=> fof-webhooks.ref.restored",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "group": {
                             "title": "Groupe Flarum",
                             "created": "Créé",
-                            "renamed": "=> reflar-webhooks.ref.renamed",
-                            "deleted": "=> reflar-webhooks.ref.deleted"
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "post": {
                             "title": "Message Flarum",
                             "posted": "Publié",
-                            "revised": "Édité",
-                            "hidden": "=> reflar-webhooks.ref.hidden",
-                            "restored": "=> reflar-webhooks.ref.restored",
-                            "deleted": "=> reflar-webhooks.ref.deleted"
+                            "revised": "Modifié",
+                            "hidden": "=> fof-webhooks.ref.hidden",
+                            "restored": "=> fof-webhooks.ref.restored",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "user": {
                             "title": "Utilisateur Flarum",
-                            "registered": "Enregistré",
-                            "renamed": "=> reflar-webhooks.ref.renamed",
-                            "deleted": "=> reflar-webhooks.ref.deleted"
+                            "registered": "Inscrit",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         }
                     }
                 }
@@ -107,7 +110,7 @@
         },
         "ref": {
             "deleted": "Supprimé",
-            "hidden": "Caché",
+            "hidden": "Masqué",
             "renamed": "Renommé",
             "restored": "Restauré"
         }

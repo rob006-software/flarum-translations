@@ -7,8 +7,8 @@
         },
         "forum": {
             "post": {
-                "was_split_to": "{count} post został przeniesiony do {target}.|{count} posty zostały przeniesione do {target}.|{count} postów zostało przeniesionych do {target}.",
-                "was_split_from": "{count} post został przeniesiony z {target}.|{count} posty zostały przeniesione z {target}.|{count} postów zostało przeniesionych z {target}."
+                "was_split_to": "{count, plural, one {{count} post został przeniesiony do {target}.} few {{count} posty zostały przeniesione do {target}.} other {{count} postów zostało przeniesionych do {target}.}}",
+                "was_split_from": "{count, plural, one {{count} post został przeniesiony z {target}.} few {{count} posty zostały przeniesione z {target}.} other {{count} postów zostało przeniesionych z {target}.}}"
             },
             "split": {
                 "from": "Przenieś od tego posta",

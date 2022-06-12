@@ -1,0 +1,34 @@
+{
+    "askvortsov-discussion-templates": {
+        "admin": {
+            "permissions": {
+                "manage_own_discussion_reply_templates": "Tvarkykite jų diskusijų atsakymų šablonus",
+                "manage_all_reply_templates": "Tvarkykite visų diskusijų atsakymų šablonus"
+            },
+            "settings": {
+                "no_tag_template": "Numatytasis šablonas (naudojamas, kai prasidėjo diskusija nepasirinkus jokių žymų):",
+                "append_template_on_tag_change": "Pridėti šabloną keičiant žymą?",
+                "append_template_on_tag_change_help": "Ar pakeitus žymas reikia pridėti naujos žymos šabloną, net jei vartotojas jau pradėjo rašyti? Neatsižvelgiant į šį nustatymą, jei pakeistos žymos ir vartotojas neatliko pakeitimų, šablonas bus perjungtas."
+            },
+            "tags": {
+                "tag_template_heading": "Diskusijos šablonas",
+                "tag_template_text": "Tvarkykite naujų diskusijų šabloną šioje žymoje.",
+                "tag_template_button": "Redaguoti šabloną"
+            },
+            "tag_template_modal": {
+                "title": "Diskusijos šablonas",
+                "customize_text": "Tvarkykite naujų diskusijų šabloną šioje žymoje.",
+                "submit_button": "Išsaugoti šabloną"
+            }
+        },
+        "forum": {
+            "discussion_controls": {
+                "reply_template_button": "Redaguoti atsakymo šabloną"
+            },
+            "reply_template": {
+                "title": "Redaguoti atsakymo šabloną",
+                "submit_button": "Išsaugoti atsakymo šabloną"
+            }
+        }
+    }
+}

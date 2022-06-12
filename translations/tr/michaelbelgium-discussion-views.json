@@ -12,13 +12,20 @@
             "modal_resetviews": {
                 "title": "Tartışmaların görüntülenmesini sıfırla",
                 "submit_button": "Evet, hepsini kaldır",
-                "label": "Bu tartışmaya ait {count} görüntülenme temizlenecektir. Devam ediyor musunuz?|Bu tartışmaya ait {count} görüntülenme temizlenecektir. Devam ediyor musunuz?"
+                "label": "{count, plural, one {Bu tartışmaya ait {count} görüntülenme temizlenecektir. Devam ediyor musunuz?} other {Bu tartışmaya ait {count} görüntülenme temizlenecektir. Devam ediyor musunuz?}}"
             },
             "discussion_controls": {
                 "resetviews_button": "Görüntülenmeyi sıfırla"
             },
             "viewlist": {
-                "title": "Son Görüntüleyenler"
+                "title": "Son Görüntüleyenler",
+                "guest": "Ziyaretçi"
+            },
+            "post": {
+                "viewed_by": "{users} bu görüntüledi.",
+                "you": "=> core.ref.you",
+                "others_link": "=> core.ref.some_others",
+                "modal_title_text": "Bu tartışmayı en son görüntüleyen kullanıcılar"
             }
         },
         "admin": {
@@ -29,10 +36,13 @@
             "settings": {
                 "title": "Tartışma Görüntülenme Ayarları",
                 "track_unique_label": "Benzersiz görünümleri izleyin (aynı IP 1 defa sayılır)",
+                "track_guests": "Ziyaretçileri takip et",
                 "abbr_numbers_label": "Görünüm numaralarını kısaltın",
                 "show_filter_label": "Popüler sıralama alanını etkinleştir",
                 "max_viewcount_label": "Maksimum görüntüleme listesi öğesi",
-                "show_viewlist_label": "Görüntüleme listesini etkinleştir"
+                "max_viewcount_text": "Bu, alt bilgi görüntüleme listesi ve kenar çubuğu görüntüleme listesi için geçerlidir",
+                "show_viewlist_label": "Görüntüleme listesini etkinleştir",
+                "show_footer_viewlist_label": "Altbilgi görüntüleme listesini etkinleştir"
             }
         }
     }

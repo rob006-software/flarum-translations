@@ -6,19 +6,19 @@
             },
             "labels": {
                 "keep_tags_nav": "Zachować link do listy tagów w nawigacji w sidebarze?",
-                "child_bare_icon": "Czy ikony w podkategoriach powinny być wyświetlane bez tła?",
+                "child_bare_icon": "Ikony podkategorii bez tła?",
                 "compact_mobile_mode": "Kompaktowy widok mobilny",
-                "full_page_desktop": "Czy nawigacja w sidebarze powinna być zwijana do jednego wiersza (jak na tradycyjnej liście tagów)? To także ukryje widgety (jak na przykład FoF Forum Statistics Widget) z nawigacji w widoku kategorii.",
+                "full_page_desktop": "Rozszerz na całą szerokość strony?",
                 "parent_remove_icon": "Ukryć ikony dla tagów najwyższego poziomu?",
                 "parent_remove_description": "Ukryć opisy dla tagów najwyższego poziomu?",
                 "parent_remove_stats": "Ukryć statystyki dla tagów najwyższego poziomu?",
                 "parent_remove_last_discussion": "Ukryć ostatnie dyskusje dla tagów najwyższego poziomu?",
-                "small_forum_optimized": "Zoptymalizować pod kątem małych forów? Zapewni to dokładniejszą liczbę dyskusji/postów, ale może znacznie spowolnić średnie i duże fora."
+                "small_forum_optimized": "Zoptymalizować pod kątem małych forów?"
             },
             "help": {
-                "child_bare_icon": "",
-                "full_page_desktop": "",
-                "small_forum_optimized": ""
+                "child_bare_icon": "Czy ikony w podkategoriach powinny być wyświetlane bez tła?",
+                "full_page_desktop": "Czy nawigacja w sidebarze powinna być zwijana do jednego wiersza (jak na tradycyjnej liście tagów)? To także ukryje widgety (jak na przykład FoF Forum Statistics Widget) z nawigacji w widoku kategorii.",
+                "small_forum_optimized": "Zapewni to dokładniejszą liczbę dyskusji/postów, ale może znacznie spowolnić średnie i duże fora."
             },
             "headings": {
                 "nav": "Nawigacja",
@@ -31,14 +31,14 @@
         },
         "forum": {
             "all_categories": {
-                "meta_description_text": "",
-                "meta_title_text": ""
+                "meta_description_text": "Wszystkie kategorie",
+                "meta_title_text": "=> askvortsov-categories.ref.categories"
             },
             "header": {
                 "back_to_categories_tooltip": "Wróć do kategorii"
             },
             "index": {
-                "categories_link": "Kategorie"
+                "categories_link": "=> askvortsov-categories.ref.categories"
             },
             "stat-widgets": {
                 "discussion_label": "Dyskusje",
@@ -49,7 +49,7 @@
             }
         },
         "ref": {
-            "categories": ""
+            "categories": "Kategorie"
         }
     }
 }

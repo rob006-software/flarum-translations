@@ -9,7 +9,7 @@
                 "section_sso_intro": "Bu özellik, WordPress kullanıcılarını Flarum ile sorunsuz bir şekilde bağlayacaktır. Onlar için otomatik olarak bir hesap oluşturacak ve WordPress ile senkronize edecektir. Flarum'da mevcut bir hesap varsa e-posta üzerinden otomatik eşleştirir. Flarum'da bir kullanıcıyı silerseniz, WordPress üzerinden oturum açarsa tekrar hesap oluşturur. Bu nedenle hesap silmek yerine askıya almayı deneyebilirsiniz.\n",
                 "enable_sso": "SSO Entegrasyonunu Etkinleştir",
                 "cookie_domain": "Çerez Alan Adı",
-                "cookie_domain_help": "Sadece Flarum alan adı farklı ise gereklidir",
+                "cookie_domain_help": "Yalnızca Flarum alan adından farklıysa gereklidir",
                 "wordpress_login_path": "WordPress Giriş Yolu",
                 "wordpress_login_path_help": "Yalnızca giriş bağlantısını bir eklenti ile yeniden tanımladıysanız gereklidir",
                 "username_strategy": "Yeni Kullanıcılar için Kullanıcı Adı",
@@ -18,43 +18,43 @@
                     "first_name": "WordPress'ten İlk İsim",
                     "random": "Rastgele Kullanıcı Adı"
                 },
-                "username_strategy_help": "",
-                "force_username_choice": "",
-                "force_username_choice_help": "",
-                "welcome_message": "",
-                "welcome_message_help": "",
+                "username_strategy_help": "Flarum'da zaten varsa, kullanıcı adına bir sayı eklenecektir",
+                "force_username_choice": "Kullanıcıların ilk ziyaretlerinde kullanıcı adlarını seçmelerini sağlayın",
+                "force_username_choice_help": "Yukarıda seçilen kuralla varsayılan bir değer sağlanacaktır.",
+                "welcome_message": "Tanıtım mesajı",
+                "welcome_message_help": "Bu mesaj, kullanıcı forumu ilk ziyaret ettiğinde, etkinleştirilmişse kullanıcı adı seçimiyle birlikte gösterilecektir.",
                 "wordpress_login_only": "Yalnızca WordPress ile girişe izin ver",
-                "wordpress_login_only_help": "",
-                "user_delete": "",
+                "wordpress_login_only_help": "Flarum girişini devre dışı bırakır ve giriş gerektiğinde doğrudan WordPress giriş penceresini açar. Bu, \"Kayıt Olma\" iznini otomatik olarak Kapalı olarak ayarlayacaktır.\n",
+                "user_delete": "WordPress'te bir kullanıcı silindiğinde eylem",
                 "user_delete_options": {
-                    "ignore": "",
+                    "ignore": "Yoksay (Flarum kullanıcısını koru)",
                     "delete": "Flarum kullanıcısını sil",
-                    "suspend": ""
+                    "suspend": "Flarum kullanıcısını süresiz olarak askıya al (Askıya alma uzantısı etkinleştirilmelidir)"
                 },
-                "user_delete_desc": "",
-                "section_comments_intro": "",
+                "user_delete_desc": "\"Sil\"i seçerseniz, Flarum'daki içeriği değil, yalnızca kullanıcı silinir.",
+                "section_comments_intro": "Bu özellik, WordPress yorumlarını bir Flarum iframe ile değiştirir. Ziyaretçiler artık yorum yapamaz. Tartışmalar yalnızca WordPress'te yorumların etkinleştirildiği gönderiler için oluşturulur. Yorumları etkinleştirmek veya devre dışı bırakmak, Flarum'un tartışma kilidi ile senkronize edilir. Bu özelliği etkinleştirdiğinizde blogunuz zaten gönderiler içeriyorsa, Flarum tartışmasının oluşturulabilmesi için her makale için yorumları yeniden etkinleştirmeniz ve devre dışı bırakmanız gerekir.\n",
                 "enable_comments": "Yorum entegrasyonunu etkinleştir",
-                "excerpt_html_whitelist": "",
-                "excerpt_html_nodes": "",
-                "excerpt_length": "",
-                "comment_tag": "",
-                "comment_tag_none": "",
+                "excerpt_html_whitelist": "Alıntıda kullanılacak HTML etiketlerinin beyaz listesi (virgülle ayrılmış)",
+                "excerpt_html_nodes": "İçerik alıntısının uzunluğu (HTML etiketleri sayısı olarak)",
+                "excerpt_length": "İçerik alıntısının uzunluğu (karakter olarak)",
+                "comment_tag": "Yeni yorum konuları için etiketleyin",
+                "comment_tag_none": "Etiket atama",
                 "comment_tag_custom": "Özel değerler",
-                "comment_tag_custom_help": "",
-                "summary_as_last_post": "",
-                "summary_as_last_post_help": "",
-                "use_post_date": "",
-                "use_post_date_help": "",
-                "post_hide": "",
+                "comment_tag_custom_help": "Etiket kimliklerinin virgülle ayrılmış listesi",
+                "summary_as_last_post": "Özet gönderisini yeni tartışmaların son gönderisi olarak ayarlayın",
+                "summary_as_last_post_help": "Bu, Wordpress gönderisi yayınlanır yayınlanmaz yeni yorum tartışmalarının Flarum'daki tartışma listesinin en üstüne çıkmasını sağlar. Varsayılan olarak, tartışma yalnızca ilk kullanıcı bir yorum yazdığında en üste çıkar.\n",
+                "use_post_date": "Tartışma oluşturma tarihi olarak Wordpress gönderi tarihini kullanın",
+                "use_post_date_help": "Varsayılan olarak Flarum tartışmaları, oluşturulma tarihi olarak geçerli saati kullanır. Bu seçenek, Wordpress gönderisinin de geçmiş bir tarihi varsa, geçmiş bir tarihle tartışmalar oluşturmaya izin verir.\n",
+                "post_hide": "Bir Wordpress gönderisi gizlendiğinde (çöp kutusuna atıldığında veya taslağa taşındığında) eylem",
                 "post_hide_options": {
-                    "ignore": "",
+                    "ignore": "Yoksay (tartışmayı Yorumlara İzin Ver'e göre kilitle)",
                     "lock": "Flarum'da tartışmayı kilitle",
                     "hide": "Flarum'da tartışmayı gizle",
                     "delete": "Flarum'da tartışmayı kalıcı olarak sil"
                 },
-                "post_delete": "",
+                "post_delete": "Bir Wordpress gönderisi kalıcı olarak silindiğinde eylem",
                 "post_delete_options": {
-                    "ignore": "",
+                    "ignore": "Yoksay (Flarum tartışmasını mevcut durumda tut)",
                     "lock": "Flarum tartışmasını tut ve kilitle",
                     "hide": "Flarum'da tartışmayı gizle",
                     "delete": "Flarum'da tartışmayı kalıcı olarak sil"
@@ -69,17 +69,17 @@
                 "disabled": "Etkisizleştirildi"
             },
             "appearance": {
-                "edit_css_button": ""
+                "edit_css_button": "Yalnızca Wordpress Embed için Özel CSS'yi düzenleyin"
             },
             "edit_css": {
-                "title": "",
-                "customize_text": ""
+                "title": "Özel Embed CSS'sini Düzenle",
+                "customize_text": "Yalnızca Wordpress iframe içinde Flarum'un <a>varsayılan stillerinin</a> üzerine uygulanacak kendi LESS/CSS'niz."
             },
             "permissions": {
-                "gambits": ""
+                "gambits": "Wordpress Üçüncü-taraf hileleri (belgelere bakın)"
             },
             "save-controls": {
-                "validation-errors": "",
+                "validation-errors": "Gönderinizde bazı hatalar bulduk",
                 "unsaved-changes": "Kaydedilmeyen değişiklikler var",
                 "saved-at": "{ago} kaydedildi",
                 "no-unsaved-changes": "Her şey kaydedildi",
@@ -90,16 +90,16 @@
                 "check": "Şimdi kontrol et",
                 "errors": "Bazı sorumlar bulduk.",
                 "healthy": "Her şey harika görünüyor!",
-                "not-run": "",
-                "request-error": ""
+                "not-run": "Wordpress ve Flarum'u bağladığınızda Sağlık kontrolü kullanılabilir hale gelecektir.",
+                "request-error": "Sağlık kontrolünü gerçekleştiremedik."
             },
             "wizard": {
-                "intro": "",
-                "wordpress_url": "",
-                "wordpress_url_help": "",
-                "wordpress_username": "",
-                "wordpress_password": "",
-                "wordpress_password_help": "",
+                "intro": "Premium Wordpress uzantımı satın aldığınız için teşekkürler! Flarum ve Wordpress'inizi otomatik olarak birbirine bağlamak için aşağıdaki kimlik bilgilerinizi doldurun.\n",
+                "wordpress_url": "Wordpress Bağlantısı",
+                "wordpress_url_help": "Wordpress ana sayfanıza bir bağlantı",
+                "wordpress_username": "Wordpress yönetici kullanıcı adı",
+                "wordpress_password": "Wordpress yönetici şifresi",
+                "wordpress_password_help": "Parola yalnızca ilk yapılandırma için kullanılır ve saklanmaz.",
                 "install": "Kur"
             }
         },
@@ -112,14 +112,14 @@
                 "not_now": "Atla ve ziyareti olarak okumaya devam et"
             },
             "edit-user-modal": {
-                "warning": "",
-                "edit_in_wordpress": "",
-                "should_not_edit_email": "",
-                "unlink": "",
-                "unlink_help": ""
+                "warning": "Bu kullanıcı Wordpress ile senkronize tutulur. E-posta ve şifreyi Wordpress'ten düzenlemelisiniz.\n",
+                "edit_in_wordpress": "Wordpress'te düzenleyin",
+                "should_not_edit_email": "E-postayı Wordpress'te düzenlemelisiniz. <a>Yine de düzenleyin</a>",
+                "unlink": "Bu kullanıcının wordpress kullanıcısından bağlantısını kaldırın",
+                "unlink_help": "E-posta bir Wordpress kullanıcısıyla eşleşirse, bu kullanıcı Wordpress'e bir sonraki bağlandığında yeniden bağlanır."
             },
             "settings": {
-                "edit_on_wordpress": ""
+                "edit_on_wordpress": "Ana web sitesinde e-posta ve şifreyi değiştirin"
             },
             "log_in": {
                 "with_wordpress_button": "WordPress ile Giriş Yap"
@@ -141,16 +141,16 @@
             },
             "wizard": {
                 "already_installed": "Flarum zaten WordPress'e bağlı. Sihirbazı tekrar çalıştırın, Flarum'daki \"WordPress Bağlantısını\" ve WordPress'teki \"Flarum API Anahtarını\" silin.\n",
-                "api_unauthorized": "",
-                "api_error_get": "",
-                "api_error_post": "",
-                "invalid_wordpress_url": "",
-                "plugin_not_installed": ""
+                "api_unauthorized": "Verilen kimlik bilgileriyle kimlik doğrulaması yapamadık. URL'yi, kullanıcı adını ve şifreyi iki kez kontrol edin. Daha fazla sorun giderme adımı için belgelere bakın.\n",
+                "api_error_get": "Wordpress ayarlarına ({exception}) bir GET isteği gerçekleştirirken hata oluştu.",
+                "api_error_post": "Wordpress ayarlarına POST isteği yapılırken hata oluştu ({exception}).",
+                "invalid_wordpress_url": "Wordpress'teki \"WordPress Adresi (URL)\" ayarı geçerli bir URL ({actual}) gibi görünmüyor.",
+                "plugin_not_installed": "Wordpress eklentisi, o Wordpress sitesinde yüklü veya etkin görünmüyor. En az 1.2.0 sürümünün kurulu olduğundan emin olun.\n"
             }
         },
         "views": {
             "error": {
-                "missing_wordpress_embed": ""
+                "missing_wordpress_embed": "Bu yayının henüz bir yorum dizisi yok. Blog yöneticisiyseniz, gönderiyi yayınlayın veya bir ileti dizisi başlatmak için yorumları devre dışı bırakıp yeniden etkinleştirin.\n"
             }
         }
     }

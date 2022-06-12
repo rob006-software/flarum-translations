@@ -1,0 +1,57 @@
+{
+    "kyrne-evergreen": {
+        "forum": {
+            "post": {
+                "show_replies": "",
+                "show_reply": ""
+            }
+        }
+    },
+    "flarum-mentions": {
+        "admin": {
+            "settings": {
+                "allow_username_format_label": "",
+                "allow_username_format_text": ""
+            }
+        },
+        "forum": {
+            "composer": {
+                "mention_tooltip": "",
+                "reply_to_post_text": ""
+            },
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_mentioned_text": "",
+                "user_mentioned_text": ""
+            },
+            "post": {
+                "mentioned_by_self_text": "",
+                "mentioned_by_text": "",
+                "others_text": "=> core.ref.some_others",
+                "quote_button": "",
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
+            },
+            "settings": {
+                "notify_post_mentioned_label": "",
+                "notify_user_mentioned_label": ""
+            },
+            "user": {
+                "mentions_link": ""
+            },
+            "post_mention": {
+                "deleted_text": ""
+            }
+        },
+        "email": {
+            "post_mentioned": {
+                "subject": "",
+                "body": ""
+            },
+            "user_mentioned": {
+                "subject": "",
+                "body": ""
+            }
+        }
+    }
+}

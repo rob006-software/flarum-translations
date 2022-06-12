@@ -16,7 +16,7 @@
             "scheduled_drafts_disabled": "Planowanie publikacji szkiców jest obecnie wyłączone."
         },
         "ref": {
-            "schedule_draft": ""
+            "schedule_draft": "Zaplanuj publikację"
         },
         "forum": {
             "composer": {
@@ -29,27 +29,27 @@
             "dropdown": {
                 "empty_text": "Nie zapisałeś żadnych szkiców",
                 "title": "Szkice",
-                "delete_all_button": "",
+                "delete_all_button": "Usuń wszystkie szkice",
                 "delete_button": "Usuń szkic",
-                "schedule_button": "Zaplanuj publikację",
-                "scheduled_icon_tooltip": "",
-                "scheduled_icon_tooltip_formatter": "",
+                "schedule_button": "=> fof-drafts.ref.schedule_draft",
+                "scheduled_icon_tooltip": "Zaplanowano publikację na {datetime}",
+                "scheduled_icon_tooltip_formatter": "LL [o] LT",
                 "tooltip": "=> fof-drafts.forum.dropdown.title",
                 "alert": "Czy jesteś pewien, że chcesz usunąć ten szkic?",
                 "delete_all_alert": "Czy jesteś pewien, że chcesz usunąć wszystkie swoje szkice?"
             },
             "schedule_draft_modal": {
-                "title": "Zaplanuj publikację szkicu",
+                "title": "=> fof-drafts.ref.schedule_draft",
                 "text": "Zaplanuj automatyczną publikację szkicu w określonym czasie.",
-                "scheduled_text": "Zaplanowano publikację na: {datetime}.",
-                "scheduled_error": "Publikacja nie powiodła się z powodu: {error}.",
+                "scheduled_text": "Zaplanowano publikację na {datetime}.",
+                "scheduled_error": "Zaplanowanie publikacji szkicu nie powiodło się: {error}.",
                 "unschedule_button": "Wyłącz zaplanowaną publikację",
-                "unschedule_warning": "",
+                "unschedule_warning": "Czy jesteś pewien, że chcesz wyłączyć zaplanowaną publikację tego szkicu?",
                 "reschedule_button": "Zaktualizuj zaplanowaną publikację",
                 "schedule_button": "Zaplanuj publikację",
-                "schedule_time_preview": "",
-                "schedule_time_preview_formatter": "",
-                "schedule_time_preview_invalid": ""
+                "schedule_time_preview": "Ten szkic zostanie automatycznie opublikowany <b>{datetime}</b>.",
+                "schedule_time_preview_formatter": "LL [o] LT",
+                "schedule_time_preview_invalid": "Nieprawidłowa data"
             },
             "user": {
                 "settings": {

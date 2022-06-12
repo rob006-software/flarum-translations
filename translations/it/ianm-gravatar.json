@@ -1,0 +1,43 @@
+{
+    "ianm-gravatar": {
+        "admin": {
+            "settings": {
+                "proxy": {
+                    "title": "Proxy gravatar",
+                    "helptext": "Di default, gli URL gravatar vengono recuperati direttamente da gravatar.com. Ciò consente a tutte le richieste gravatar di essere servite direttamente dal forum stesso."
+                },
+                "replace-flarum-custom": {
+                    "title": "Sostituisci gli avatar personalizzati caricati sul forum",
+                    "helptext": "Sostituisci gli avatar personalizzati già caricati sul forum con un Gravatar"
+                },
+                "defaults": {
+                    "title": "Default",
+                    "helptext": "Cosa succede quando un indirizzo email non ha un'immagine Gravatar corrispondente? Gravatar ha una serie di opzioni integrate che puoi usare come predefinite. La maggior parte di questi funziona prendendo l'hash email richiesto e usandolo per generare un'immagine a tema che è univoca per quell'indirizzo email.",
+                    "mp_label": "mp: (persona misteriosa) un semplice profilo di una persona in stile cartone animato (non varia in base all'hash dell'e-mail)",
+                    "identicon_label": "identicon: un pattern geometrico basato su un hash di email",
+                    "monsterid_label": "monsterid: un 'mostro' generato con diversi colori, facce, ecc",
+                    "wavatar_label": "wavatar: volti generati con caratteristiche e sfondi diversi",
+                    "retro_label": "retrò: fantastici volti pixelati generati in stile arcade a 8 bit",
+                    "robohash_label": "robohash: un robot generato con diversi colori, facce, ecc"
+                },
+                "rating": {
+                    "title": "Valutazione",
+                    "helptext": "Gravatar consente agli utenti di valutare autonomamente le proprie immagini in modo che possano indicare se un'immagine è appropriata per un determinato pubblico. Per impostazione predefinita, vengono visualizzate solo le immagini classificate \"G\", a meno che non indichi che desideri vedere valutazioni più alte. È possibile specificare una delle seguenti valutazioni per richiedere immagini fino a tale valutazione inclusa.",
+                    "g_label": "g: adatto per la visualizzazione su tutti i siti Web con qualsiasi tipo di pubblico",
+                    "pg_label": "pg: può contenere gesti maleducati, individui vestiti in modo provocante, parolacce minori o lieve violenza",
+                    "r_label": "r: può contenere cose come parolacce dure, violenza intensa, nudità o uso di droghe pesanti",
+                    "x_label": "x: può contenere immagini sessuali hardcore o violenza estremamente inquietante"
+                },
+                "force-default": {
+                    "title": "Forza default",
+                    "helptext": "Forza l'uso di un set predefinito, anche se l'hash dell'e-mail si collega a un avatar caricato dall'utente personalizzato"
+                }
+            }
+        },
+        "forum": {
+            "settings": {
+                "edit-gravatar": "Gestisci avatar su gravatar.com"
+            }
+        }
+    }
+}

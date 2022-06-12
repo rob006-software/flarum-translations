@@ -1,0 +1,32 @@
+{
+    "clarkwinkelmann-follow-tags-prompt": {
+        "forum": {
+            "controls": {
+                "choose": "Выберите теги, на которые хотите подписаться"
+            },
+            "modal": {
+                "title": "Выберите теги, на которые хотите подписаться",
+                "later": "Напомнить мне позже",
+                "continue": "Продолжить на форум"
+            }
+        },
+        "admin": {
+            "settings": {
+                "buttonOnFollowingPage": "Показать кнопку на следующей странице",
+                "allDiscussionsOnFollowingPageForGuests": "Показать все обсуждения на следующей странице для гостей",
+                "availableTagStrategy": "Теги для предложения в модальном режиме",
+                "tagStrategy": {
+                    "primary": "Первичные теги первого уровня",
+                    "primaryAndChildren": "Все основные теги любого уровня",
+                    "primaryAndSecondary": "Первичные теги первого уровня и вторичные теги",
+                    "secondary": "Только второстепенные теги",
+                    "all": "Все теги",
+                    "list": "Теги, выбранные ниже"
+                }
+            },
+            "homepage": {
+                "following": "Следующий"
+            }
+        }
+    }
+}

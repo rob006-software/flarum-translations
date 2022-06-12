@@ -2,49 +2,49 @@
     "flarum-subscriptions": {
         "forum": {
             "badge": {
-                "following_tooltip": "",
-                "ignoring_tooltip": ""
+                "following_tooltip": "=> flarum-subscriptions.ref.following",
+                "ignoring_tooltip": "=> flarum-subscriptions.ref.ignoring"
             },
             "discussion_controls": {
-                "follow_button": "",
-                "unfollow_button": "",
-                "unignore_button": ""
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "unfollow_button": "Lõpeta jälgimine",
+                "unignore_button": "Lõpeta ignoreerimine"
             },
             "following": {
-                "meta_title_text": ""
+                "meta_title_text": "=> flarum-subscriptions.ref.following"
             },
             "index": {
-                "following_link": ""
+                "following_link": "=> flarum-subscriptions.ref.following"
             },
             "notifications": {
-                "new_post_text": ""
+                "new_post_text": "{username} postitas"
             },
             "settings": {
-                "follow_after_reply_label": "",
-                "notify_new_post_label": ""
+                "follow_after_reply_label": "Jälgi neid teemasid, kuhu ma vastan",
+                "notify_new_post_label": "Keegi postitab teemasse, mida ma jälgin"
             },
             "sub_controls": {
-                "follow_button": "",
-                "following_button": "",
-                "following_text": "",
-                "ignoring_button": "",
-                "ignoring_text": "",
-                "not_following_button": "",
-                "not_following_text": "",
-                "notify_alert_tooltip": "",
-                "notify_email_tooltip": ""
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "following_button": "=> flarum-subscriptions.ref.following",
+                "following_text": "Teavita kõikidest vastustest.",
+                "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
+                "ignoring_text": "Peida teemade nimekirjast ja ära kunagi teavita.",
+                "not_following_button": "Ei jälgi",
+                "not_following_text": "Teavita ainult siis, kui mind @mainitakse.",
+                "notify_alert_tooltip": "Teavita uutest postitustest foorumi veebilehel",
+                "notify_email_tooltip": "Teavita uutest postitustest meili teel"
             }
         },
         "email": {
             "new_post": {
-                "subject": "",
-                "body": ""
+                "subject": "[Uus postitus] {title}",
+                "body": "Hei {recipient_display_name}!\n\n{poster_display_name} postitas sinu jälgitud teemasse: {title}.\n\nUue sisu vaatamiseks kliki alloleval lingil:\n{url}\n\n---\n\n{content}\n\n---\n\nUusi teateid selle teema kohta ei tule, kuni sul seal kõik jälle loetud on.\n"
             }
         },
         "ref": {
-            "follow": "",
-            "following": "",
-            "ignoring": ""
+            "follow": "Jälgi",
+            "following": "Jälgitud",
+            "ignoring": "Ignoreeritud"
         }
     }
 }

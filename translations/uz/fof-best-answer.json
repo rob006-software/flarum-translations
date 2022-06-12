@@ -1,0 +1,89 @@
+{
+    "fof-best-answer": {
+        "admin": {
+            "permissions": {
+                "best_answer": "Eng yaxshi javobni tanlang (o'z muhokamasi)",
+                "best_answer_not_own_discussion": "Eng yaxshi javobni tanlang (o'z muhokamasi emas)"
+            },
+            "settings": {
+                "label": {
+                    "general": "Umumiy",
+                    "reminders": "Eslatmalar",
+                    "advanced": "Murakkab",
+                    "reminders_notice": "Eslatmalar ishlashi uchun siz Flarum rejalashtiruvchisini to'g'ri sozlagan bo'lishingiz kerak."
+                },
+                "allow_select_own_post": "O'z postingizni tanlang",
+                "allow_select_own_post_help": "OPga muhokamadagi o'z postlaridan birini eng yaxshi javob sifatida tanlashga ruxsat bering",
+                "enable_all_tags_button": "Eng yaxshi javoblar uchun barcha teglarni yoqing",
+                "enable_all_tags_reminder_button": "Eng yaxshi javob eslatmalari uchun barcha teglarni yoqing",
+                "select_best_answer_reminder_days": "Eslatma tezligi",
+                "select_best_answer_reminder_days_help": "Eng yaxshi javobni tanlash uchun OPga sozlanishi mumkin bo'lgan kunlar miqdoridan keyin eslatma yuboring, 0 = eslatmalarni o'chirib qo'ying.",
+                "schedule_on_one_server": "Vazifa rejalashtiruvchisi uchun \"onOneServer()\" direktivasidan foydalaning",
+                "schedule_on_one_server_help": "Redis/Memcache talab qiladi",
+                "schedule_stop_overnight": "Ijtimoiy bo'lmagan soatlarda eslatma bildirishnomalarining yuborilishini oldini oling",
+                "schedule_stop_overnight_help": "Server vaqti bilan 21:00 dan 8:00 gacha",
+                "schedule_log_output": "Rejalashtiruvchi chiqishini jurnal xotirasiga qo'shing",
+                "show_filter_label": "Eng yaxshi javob filtri ochiladigan roʻyxatini koʻrsatish",
+                "show_filter_help": "Eng yaxshi javoblar yoqilgan teglar uchun muhokamalar roʻyxatida hal qilingan/yechilmagan filtr variantini koʻrsatishni tanlang",
+                "use_alt_ui": "Muqobil tartib",
+                "use_alt_ui_help": "Post futeridagi eng yaxshi javob boshqaruvlari",
+                "documentation": "Hujjatlar",
+                "introduction": "Qaysi teglar <code><a>flarum/tags</a></code> ichida eng yaxshi javoblarni qo‘llab-quvvatlashi va ixtiyoriy ravishda qaysi teg(lar) eslatmalarni qo‘llab-quvvatlashi kerakligini yoqing. Teg \"Eng yaxshi javob\" yoqilgan bo'lsa, har bir foydalanuvchi guruhiga javoblarni belgilashi mumkin bo'lgan ruxsatlarni tayinlang (o'z muhokamasi, har qanday muhokama). Ruxsatlar global miqyosda (har qanday eng yaxshi javob qo'shilgan teg uchun) yoki har bir teg asosida tayinlanishi mumkin.\n"
+            },
+            "edit_tag": {
+                "qna_label": "Ushbu tegda eng yaxshi javoblarni o'rnatishni yoqing",
+                "reminders": "Ushbu tegdagi muhokamalar uchun eng yaxshi javobni belgilash uchun eslatmalarni yuboring"
+            }
+        },
+        "forum": {
+            "answered_badge": "Javob berdi",
+            "this_best_answer": "Eng yaxshi javobni tanlang",
+            "remove_best_answer": "Eng yaxshi javob tanlovini olib tashlang",
+            "best_answer_button": "Eng yaxshi javob",
+            "best_answer_label": "tomonidan oʻrnatilgan: <a>{username}</a> {time_set}",
+            "errors": {
+                "mismatch": "Tanlangan post bu muhokamada mavjud emas."
+            },
+            "notification": {
+                "best_answer_in_discussion": "{username} ushbu muhokamada eng yaxshi javobni belgiladi",
+                "content": "Agar savolingizga javob berilgan bo'lsa, eng yaxshi javobni tanlang",
+                "awarded": "Sizning postingiz {username} tomonidan eng yaxshi javob sifatida belgilandi",
+                "preferences": {
+                    "awarded_best_answer": "Kimdir mening postimni eng yaxshi javob sifatida belgilaganida",
+                    "best_answer_in_discussion": "Men ishtirok etgan munozarada eng yaxshi javob aniqlanganda",
+                    "select_best_answer": ""
+                }
+            },
+            "index": {
+                "ask_question": "Savol so'rash",
+                "cannot_ask_question": "Savol berish mumkin emas",
+                "solved_link": "Yechilgan muhokamalar",
+                "unsolved_link": "Yechilmagan muhokamalar"
+            },
+            "filter": {
+                "all_label": "Hamma savollar",
+                "solved_label": "Yechilgan masalalar",
+                "unsolved_label": "Yechilmagan masalalar",
+                "accessible_label": "Yechilgan/yechilmagan tanlov"
+            },
+            "composer": {
+                "titlePlaceholder": "Savol sarlavhasi"
+            },
+            "user": {
+                "best-answer-count": ""
+            }
+        },
+        "email": {
+            "subject": {
+                "awarded": "Sizning postingiz {display_name} tomonidan eng yaxshi javob sifatida belgilandi",
+                "ba-set": "{display_name} tomonidan eng yaxshi javob belgilandi",
+                "select": "Savolingizga javob olishga muvaffaq bo'ldingizmi?"
+            },
+            "body": {
+                "awarded": "Salom {recipient_display_name},\n\nAjoyib, {actor_display_name} postingizni muhokamadagi eng yaxshi javob sifatida belgilang: {discussion_title}. Yordam berganingiz uchun tashakkur.\n\nBu yerda koʻring: {discussion_url}\n",
+                "ba-set": "Salom {recipient_display_name},\n\n{actor_display_name} muhokamada eng yaxshi javobni belgiladi: siz ishtirok etgan {discussion_title}.\n\nBuni tekshiring: {discussion_url}\n",
+                "select": "Salom {recipient_display_name},\n\nFaqat ro'yxatdan o'tish; Hozircha savolingizga juda koʻp javob olishingiz kerak: {discussion_title}. Umid qilamanki, ulardan biri muammoingizni hal qilishga yordam berdi.\n\nAgar shunday bo'lsa, savolingizga eng yaxshi javobni belgilasangiz, kelajakdagi a'zolar uchun juda foydali bo'lar edi. Bu xuddi shu muammoga duch kelgan odamlarga kerakli javobni topishga yordam beradi va bu sizga yordam bergan aʼzolarga ham katta rahmat. Ular o'z vaqtlarini ixtiyoriy ravishda berishadi, shuning uchun ularga yaxshi ishlayotganliklarini bildirish juda yoqimli.\n\nBu yerda muhokamaga tashrif buyuring: {discussion_url} va eng yaxshi javob sifatida eng mos postni tanlang.\n\nRahmat!\n"
+            }
+        }
+    }
+}

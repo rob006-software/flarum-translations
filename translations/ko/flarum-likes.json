@@ -1,0 +1,29 @@
+{
+    "flarum-likes": {
+        "admin": {
+            "permissions": {
+                "like_posts_label": "게시물에 좋아요 누르기"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_liked_text": "{username}님이 귀하의 게시물을 좋아합니다"
+            },
+            "post": {
+                "like_link": "좋아요",
+                "liked_by_self_text": "{users}님이 이 게시물을 좋아합니다.",
+                "liked_by_text": "{count, plural, one {{users} 님이 이 게시물을 좋아합니다.} other {{users} 님이 이 게시물을 좋아합니다.}}.",
+                "others_link": "=> core.ref.some_others",
+                "unlike_link": "좋아요 취소",
+                "you_text": "=> core.ref.you"
+            },
+            "post_likes": {
+                "title": "이 게시물에 좋아요를 누른 사용자들"
+            },
+            "settings": {
+                "notify_post_liked_label": "누군가 내 게시물 중 하나에 좋아요를 눌렀을 때"
+            }
+        }
+    }
+}

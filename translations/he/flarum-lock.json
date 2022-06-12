@@ -1,0 +1,28 @@
+{
+    "flarum-lock": {
+        "admin": {
+            "permissions": {
+                "lock_discussions_label": "נעילת דיונים"
+            }
+        },
+        "forum": {
+            "badge": {
+                "locked_tooltip": "נעול"
+            },
+            "discussion_controls": {
+                "lock_button": "נעל",
+                "unlock_button": "בטל נעילה"
+            },
+            "notifications": {
+                "discussion_locked_text": "{username} נעל"
+            },
+            "post_stream": {
+                "discussion_locked_text": "{username} נעל את הדיון.",
+                "discussion_unlocked_text": "{username} ביטל את נעילת הדיון."
+            },
+            "settings": {
+                "notify_discussion_locked_label": "מישהו נעל את הדיון שפתחתי"
+            }
+        }
+    }
+}

@@ -5,9 +5,6 @@
                 "title": "",
                 "description": ""
             },
-            "buttons": {
-                "save": "設定を保存する"
-            },
             "help_texts": {
                 "disable-download-logging": "スイッチをオンにすると、フォーラムユーザーのすべてのダウンロード動作のバックグラウンドレコードが無効になります。 ログ保持機能が有効になっている場合、ファイルのダウンロード数およびその他の関連データを表示できます。 （デフォルトで有効）\n",
                 "disable-hotlink-protection": "盗難防止保護は、 csrf token と post id を検証して、サイト外からのダウンロード要求を防ぐことができます。 （デフォルトで有効）\n",
@@ -18,6 +15,7 @@
                 "watermark": "写真をアップロードするときに透かしを添付するかどうかを選択します。 次の設定に従って、非GIF画像に透かしが追加されます。\n",
                 "s3_compatible_storage": "",
                 "s3_acl": "",
+                "s3_instance_profile": "",
                 "composer_buttons": ""
             },
             "labels": {
@@ -42,7 +40,8 @@
                 },
                 "imgur": {
                     "client_id": "Imgur 顧客ID",
-                    "title": "Imgur 画像を保存した設定"
+                    "title": "Imgur 画像を保存した設定",
+                    "tos": ""
                 },
                 "local": {
                     "cdn_url": "OSS/CDN ドメイン名（http/https プレフィックス）",
@@ -57,7 +56,8 @@
                 "preferences": {
                     "max_file_size": "最大ファイルサイズ（KB）",
                     "mime_types": "MIME タイプに対応するアップロード方法を設定します",
-                    "title": "プリファレンス"
+                    "title": "プリファレンス",
+                    "php_ini_values": ""
                 },
                 "resize": {
                     "max_width": "最大画像幅",
@@ -80,7 +80,8 @@
                         "upload-btn": "",
                         "media-btn": ""
                     }
-                }
+                },
+                "inspect-mime": ""
             },
             "permissions": {
                 "download_label": "アップロードファイルを許可します",
@@ -92,11 +93,17 @@
                 "file": "デフォルトのファイルダウンロードテンプレート",
                 "file_description": "ファイル名といくつかの一般情報を表示します。 プロキシは php を介してダウンロードし、統計の収集とホットリンク保護を可能にします。\n",
                 "image": "デフォルトの画像ダウンロードテンプレート",
+                "image_description": "画像のサムネイルを表示し、PHP を介してプロキシをダウンロードします。 統計の収集とホットリンク保護を許可します。\n",
                 "image-preview": "完全な画像プレビューテンプレート",
                 "image-preview_description": "完全な画像をインラインで表示します。 ダウンロード機能も統計情報も収集されず、ホットリンク保護は無視されます。\n",
-                "image_description": "画像のサムネイルを表示し、PHP を介してプロキシをダウンロードします。 統計の収集とホットリンク保護を許可します。\n",
+                "markdown-image": "",
+                "markdown-image_description": "",
+                "bbcode-image": "",
+                "bbcode-image_description": "",
                 "just-url": "",
-                "just-url_description": ""
+                "just-url_description": "",
+                "text-preview": "",
+                "text-preview_description": ""
             },
             "upload_methods": {
                 "aws-s3": "AWS S3",
@@ -104,6 +111,22 @@
                 "local": "ローカル",
                 "ovh-svfs": "OVH SVFS",
                 "qiniu": "七牛"
+            },
+            "inspect-mime": {
+                "title": "",
+                "description": "",
+                "select": "",
+                "laravel-validation": "",
+                "no-file-selected": "",
+                "validation-passed": "",
+                "validation-failed": "",
+                "mime-detector": "",
+                "mime-fileinfo": "",
+                "guessed-extension": "",
+                "not-available": ""
+            },
+            "buttons": {
+                "save": "設定を保存する"
             }
         },
         "forum": {
@@ -136,6 +159,16 @@
                 "error": "間違った",
                 "loading": "読み込み中",
                 "unauthorized": "ダウンロードする権限がありません"
+            },
+            "validation": {
+                "max_size": ""
+            },
+            "text_preview": {
+                "expand": "",
+                "collapse": "",
+                "error": "",
+                "no_snippet_preview": "",
+                "no_snippet": ""
             }
         },
         "api": {

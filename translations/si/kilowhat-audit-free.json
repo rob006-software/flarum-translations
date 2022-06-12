@@ -5,8 +5,8 @@
                 "view": ""
             },
             "header": {
-                "title": "",
-                "free": "",
+                "title": "විගණනය",
+                "free": "නොමිලේ",
                 "pro": "",
                 "upgrade": ""
             }
@@ -26,27 +26,27 @@
         "lib": {
             "browser": {
                 "filterPlaceholder": "",
-                "filterApply": "",
-                "empty": "",
-                "loadMore": "",
-                "withoutActor": "",
+                "filterApply": "යොදන්න",
+                "empty": "ප්‍රතිඵල නැත",
+                "loadMore": "තව පූරනය කරන්න",
+                "withoutActor": "=> core.group.guest",
                 "deletedResource": {
-                    "discussion": "",
-                    "group": "",
+                    "discussion": "සාකච්ඡාව #{id}",
+                    "group": "සමූහය #{id}",
                     "post": "",
                     "tag": "",
-                    "user": ""
+                    "user": "පරිශීලක #{id}"
                 },
                 "genericResource": {
-                    "comment": "",
+                    "comment": "අදහස",
                     "post": ""
                 },
                 "permissionGroup": {
-                    "everyone": "",
-                    "members": ""
+                    "everyone": "=> core.admin.permissions_controls.everyone_button",
+                    "members": "=> core.admin.permissions_controls.members_button"
                 },
-                "noValue": "",
-                "noReason": "",
+                "noValue": "(අගයක් නැත)",
+                "noReason": "(හේතුවක් නැත)",
                 "client": {
                     "session": "",
                     "api_key": "",
@@ -125,6 +125,10 @@
                     "logged_in": "",
                     "logged_in_with_provider": "",
                     "logged_out": "",
+                    "nickname_changed": "",
+                    "nickname_requested": "",
+                    "nickname_request_approved": "",
+                    "nickname_request_rejected": "",
                     "password_changed": "",
                     "password_change_requested": "",
                     "provider_connected": "",

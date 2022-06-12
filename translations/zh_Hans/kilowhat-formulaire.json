@@ -16,6 +16,7 @@
                 "create": "创建表单 (beta)",
                 "moderate": "管理所有表单",
                 "export": "导出提交数据",
+                "exportUserDetails": "",
                 "listForms": "查看未删除的表单列表",
                 "listSubmissions": "查看提交列表"
             },
@@ -23,7 +24,17 @@
                 "title": "表单全局设置",
                 "max-file-size": "最大文件大小 (kB)",
                 "history-controls": "在提交页面上显示撤销/重做按钮",
-                "side-nav-on-submission": "在提交页面上显示侧边栏"
+                "side-nav-on-submission": "在提交页面上显示侧边栏",
+                "checkbox-style": "",
+                "radio-style": "",
+                "style-options": {
+                    "far-square": "",
+                    "fas-square": "",
+                    "far-circle": "",
+                    "fas-circle": "",
+                    "switch": "",
+                    "native": ""
+                }
             }
         },
         "forum": {
@@ -205,6 +216,7 @@
                 "email": "邮箱",
                 "regex": "正则表达式",
                 "mime": "MIME 类型（半角逗号分隔，可用通配符作为第二部分）",
+                "other": "",
                 "duplicate": "重复字段",
                 "delete": "删除字段",
                 "missing-title": "无标题字段",
@@ -214,10 +226,21 @@
                     "long": "长文本",
                     "number": "数字",
                     "date": "日期",
+                    "checkbox": "",
+                    "radio": "",
+                    "select": "",
                     "upload": "上传",
                     "content": "内容",
                     "items": "多条目"
                 }
+            },
+            "options-editor": {
+                "columns": {
+                    "title": "",
+                    "key": ""
+                },
+                "remove": "",
+                "new-placeholder": ""
             },
             "items-editor": {
                 "add": "添加行",
@@ -229,6 +252,13 @@
             },
             "rich-text": {
                 "preview-placeholder": "开始打字预览"
+            },
+            "select": {
+                "choose": ""
+            },
+            "choice": {
+                "other-label": "",
+                "other-placeholder": ""
             },
             "submission": {
                 "form-closed": "此表单已结束。",
@@ -283,6 +313,7 @@
                 "fields": "表单",
                 "meta": "元数据",
                 "more-meta": "更多元选项",
+                "option-keys": "",
                 "submit": "下载",
                 "preview": "预览",
                 "format-options": {
@@ -302,11 +333,18 @@
                     "user_id": "用户 ID",
                     "user_username": "用户名",
                     "user_displayname": "用户外显昵称",
+                    "user_email": "",
+                    "user_activated": "",
                     "link_id": "链接的资源 ID",
                     "locked_at": "锁定日期",
                     "created_at": "创建日期",
                     "updated_at": "更新日期",
                     "hidden_at": "软删除日期"
+                },
+                "preview-primitives": {
+                    "excel-date": "",
+                    "boolean-true": "",
+                    "boolean-false": ""
                 }
             }
         },
@@ -325,6 +363,8 @@
                     "user_id": "用户 ID",
                     "user_username": "用户名",
                     "user_displayname": "用户外显昵称",
+                    "user_email": "",
+                    "user_activated": "",
                     "link_id": "链接的资源 ID",
                     "locked_at": "锁定日期",
                     "created_at": "创建日期",
@@ -363,6 +403,8 @@
                 "user_id": "",
                 "user_username": "",
                 "user_displayname": "",
+                "user_email": "",
+                "user_activated": "",
                 "link_id": "",
                 "locked_at": "",
                 "created_at": "",

@@ -1,0 +1,21 @@
+{
+    "flarum-akismet": {
+        "admin": {
+            "akismet_settings": {
+                "api_key_label": "API Key",
+                "title": "Configurações do Akismet",
+                "delete_blatant_spam_label": "",
+                "delete_blatant_spam_help": ""
+            },
+            "permissions": {
+                "bypass_akismet": ""
+            }
+        },
+        "forum": {
+            "post": {
+                "akismet_flagged_text": "Akismet sinalizou como spam",
+                "not_spam_button": "Não é Spam"
+            }
+        }
+    }
+}

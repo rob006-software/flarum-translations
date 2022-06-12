@@ -1,0 +1,70 @@
+{
+    "askvortsov-moderator-warnings": {
+        "admin": {
+            "permissions": {
+                "manage_warnings": "Moderator ogohlantirishlarini yaratish va o'chirish",
+                "view_warnings": "Moderator ogohlantirishlarini ko'ring",
+                "delete_warnings": "Moderator ogohlantirishlarini butunlay o'chirib tashlang"
+            }
+        },
+        "emails": {
+            "post_warned": {
+                "subject": "{warner_display_name} sizni {discussion_title} doirasida {ogohlantirishlar, koʻplik, bitta {# ogohlantirish} boshqa {# ta ogohlantirish}} bilan ogohlantirdi",
+                "body": "Salom {warnee_display_name}!\n\n{warner_display_name} sizni {discussion_title} da {strikes, plural, one {# strike} other {# strikes}} bilan ogohlantirdi}\n\nQuyidagi sabab bilan:\n\n---\n\n{public_comment}\n"
+            },
+            "user_warned": {
+                "subject": "{warner_display_name} sizni {ogohlantirishlar, koʻplik, bitta {# ogohlantirish} boshqa {# ta ogohlantirish}} bilan ogohlantirdi",
+                "body": "Salom {warnee_display_name}!\n\n{warner_display_name} sizni {strikes, plural, one {# strike} other {# strikes}} bilan ogohlantirdi\n\nQuyidagi sabab ko'rsatilgan:\n\n---\n\n{public_comment}\n"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "warning_text": "{ogohlantirishlar, koʻplik, bir {mod_username} tomonidan # ta ogohlantirish bilan ogohlantirildingiz boshqa {mod_username}}}}",
+                "warning_no_strikes_text": "Sizni {mod_username} ogohlantirgan (hech qanday ogohlantirish yo‘q)"
+            },
+            "post": {
+                "warning": "{ogohlantirishlar, koʻplik, bitta {{mod_username} tomonidan # ta ogohlantirish bilan ogohlantirildi} boshqa {{mod_username} tomonidan # ta ogohlantirish bilan ogohlantirildi}}",
+                "warning_no_strikes": "{mod_username} tomonidan ogohlantirishsiz ogohlantirildi"
+            },
+            "post_controls": {
+                "warning_button": "Foydalanuvchini ogohlantirish"
+            },
+            "user": {
+                "warnings": "Moderator ogohlantirishlari"
+            },
+            "settings": {
+                "warning_notification_label": "Moderator meni ogohlantirmoqda"
+            },
+            "validation": {
+                "public_comment_required": "Siz eng ko'p ommaviy fikr bildirasiz.",
+                "invalid_strike_count": "E'tirozlar soni 0 dan 5 gacha bo'lgan butun son bo'lishi kerak."
+            },
+            "warning_controls": {
+                "delete_button": "O'chirish",
+                "restore_button": "Qayta tiklash",
+                "delete_forever_button": "Doimiy o'chirish"
+            },
+            "warning_list": {
+                "add_button": "Yangi ogohlantirish",
+                "no_warnings": "Bu yerda hech qanday ogohlantirish yo'qga o'xshaydi.",
+                "warnings": "{Ogohlantirishlar, koʻplik, bitta {Moderator ogohlantirishlari: # taʼtil olindi} boshqa {Moderator ogohlantirishlari: # ta ogohlantirish}}",
+                "warnings_no_strikes": "Moderator ogohlantirishlari: Hech qanday ogohlantirish olinmadi"
+            },
+            "warning_list_item": {
+                "list_item_heading": "{strikes, plural, one {<strong>#</strong> strike, {time}} other {<strong>#</strong> strikes, {time}}}",
+                "list_item_heading_hidden": "{strikes, plural, one {<strong>#</strong> strike, {time} <strong>(o'chirilgan)</strong>} other {<strong>#</strong> strikes, {time} <strong>(o'chirilgan)</strong>}}",
+                "public_comment": "Ogohlantirish",
+                "private_comment": "Moderator - Ko'rinadigan sharhlar",
+                "linked_post": "Bog'langan post"
+            },
+            "warning_modal": {
+                "confirmation_message": "Sizning ogohlantirishingiz saqlandi. Uni ko'rish uchun sahifani yangilashingiz kerak bo'lishi mumkin.",
+                "heading": "Ogohlantirish <strong>{username}</strong>",
+                "strikes_heading": "Qancha zarba berish kerak?",
+                "public_comment_heading": "Nima uchun <strong>{username}</strong> bu ogohlantirishlarni oladi? Ushbu sharhlar foydalanuvchi va boshqa moderatorlarga ko'rinadi.",
+                "private_comment_heading": "Nima uchun <strong>{username}</strong> bu ogohlantirishlarni oladi? Bu fikrlar FAQAT boshqa moderatorlarga koʻrinadi.",
+                "submit_button": "Ogohlantirishni saqlash"
+            }
+        }
+    }
+}

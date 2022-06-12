@@ -2,15 +2,15 @@
     "flarum-statistics": {
         "admin": {
             "statistics": {
-                "active_users_text": "",
-                "discussions_heading": "",
-                "last_12_months_label": "",
-                "last_28_days_label": "",
-                "last_7_days_label": "",
-                "posts_heading": "",
-                "today_label": "",
-                "total_label": "",
-                "users_heading": ""
+                "active_users_text": "{count, plural, one {# aktiivne kasutaja} other {# aktiivset kasutajat}}",
+                "discussions_heading": "=> core.ref.discussions",
+                "last_12_months_label": "Viimased 12 kuud",
+                "last_28_days_label": "Viimased 4 nädalat",
+                "last_7_days_label": "Viimane nädal",
+                "posts_heading": "=> core.ref.posts",
+                "today_label": "Täna",
+                "total_label": "Kokku",
+                "users_heading": "=> core.ref.users"
             }
         }
     }

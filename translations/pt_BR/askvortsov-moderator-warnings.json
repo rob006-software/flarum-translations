@@ -1,0 +1,70 @@
+{
+    "askvortsov-moderator-warnings": {
+        "admin": {
+            "permissions": {
+                "manage_warnings": "Criar e remover avisos do moderador",
+                "view_warnings": "Ver avisos do moderador",
+                "delete_warnings": "Excluir avisos do moderador permanentemente"
+            }
+        },
+        "emails": {
+            "post_warned": {
+                "subject": "{warner_display_name} te avisou com {strikes, plural, one {# strike} outro {#strikes}} em {discussion_title}",
+                "body": "Hey {warnee_display_name}!\n\n{warner_display_name} te avisou com {strikes, plural, one {# strike} outros {# strikes}} no {discussion_title}\n\nFoi dado o seguinte motivo:\n\n---\n\n{public_comment}\n"
+            },
+            "user_warned": {
+                "subject": "{warner_display_name} te avisou com {strikes, plural, one {# strike} outros {# strikes}}",
+                "body": "Hey {warnee_display_name}!\n\n{warner_display_name} te avisou com {strikes, plural, one {# strike} outros {# strikes}}\n\nFoi dado o seguinte motivo:\n\n---\n\n{public_comment}\n"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "warning_text": "{strikes, plural, one {Te avisavam com # strike by {mod_username}} outro {Te avisavam com # strikes por {mod_username}}}",
+                "warning_no_strikes_text": "Te avisavam por {mod_username} (no strikes)"
+            },
+            "post": {
+                "warning": "{strikes, plural, one {Avisava com # strike por {mod_username}} outro {Avisava com # strikes por {mod_username}}}",
+                "warning_no_strikes": "Avisava sem strikes por {mod_username}"
+            },
+            "post_controls": {
+                "warning_button": "Avisar o usuário"
+            },
+            "user": {
+                "warnings": "Avisos do moderador"
+            },
+            "settings": {
+                "warning_notification_label": "Um moderador me avisa"
+            },
+            "validation": {
+                "public_comment_required": "Você deve fornecer um comentário público.",
+                "invalid_strike_count": "O número de avisos deve ser um número inteiro entre 0 e 5."
+            },
+            "warning_controls": {
+                "delete_button": "Remover",
+                "restore_button": "Restaurar",
+                "delete_forever_button": "Apagar permanentemente"
+            },
+            "warning_list": {
+                "add_button": "Novo aviso",
+                "no_warnings": "Parece que não há avisos aqui.",
+                "warnings": "{strikes, plural, one {Moderator Warnings: # Strike Received} outro {Moderator Warnings: # Strikes Received}}",
+                "warnings_no_strikes": "Avisos do moderador: nenhum aviso recebido"
+            },
+            "warning_list_item": {
+                "list_item_heading": "{strikes, plural, one {<strong>#</strong> strike, {time}} outro {<strong>#</strong> strikes, {time}}}",
+                "list_item_heading_hidden": "{strikes, plural, one {<strong>#</strong> strike, {time} <strong>(removed)</strong>} outro {<strong>#</strong> strikes, {time} <strong>(removed)</strong>}}",
+                "public_comment": "Aviso",
+                "private_comment": "Comentários visíveis do moderador",
+                "linked_post": "Postagem vinculada"
+            },
+            "warning_modal": {
+                "confirmation_message": "Seu aviso foi salvo. Talvez seja necessário atualizar a página para vê-la.",
+                "heading": "Aviso <strong>{username}</strong>",
+                "strikes_heading": "Quantas strikes devem ser aplicadas?",
+                "public_comment_heading": "Por que <strong>{username}</strong> está recebendo esses avisos? Esses comentários serão visíveis para o usuário e outros moderadores.",
+                "private_comment_heading": "Por que <strong>{username}</strong> está recebendo esses avisos? Esses comentários APENAS serão visíveis para outros moderadores.",
+                "submit_button": "Salvar aviso"
+            }
+        }
+    }
+}

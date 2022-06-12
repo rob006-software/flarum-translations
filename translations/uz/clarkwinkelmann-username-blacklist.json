@@ -1,0 +1,18 @@
+{
+    "clarkwinkelmann-username-blacklist": {
+        "admin": {
+            "settings": {
+                "regex": "Regulyar ifodalar",
+                "regexHelp": "Domen roʻyxatidan oddiy ifoda tekshiruviga oʻtish. Roʻyxatning har bir qatori chegaralovchilar bilan yaroqli muntazam ifoda boʻlishi kerak.\n",
+                "message": "Maxsus xato xabari",
+                "blacklist": "Qora ro'yxat",
+                "blacklistHelp": "Har bir satrda bitta ifoda. Agar qora ro'yxat berilmasa, oq ro'yxatga kiritilmagan hamma narsa rad etiladi.\n",
+                "whitelist": "Oq ro'yxat",
+                "whitelistHelp": "Har bir satrda bitta ifoda. Qora ro'yxatga nisbatan ustunlikka ega bo'ladi.\n"
+            }
+        },
+        "api": {
+            "fallbackMessage": "Foydalanuvchi nomi oq ro'yxatga kiritilmagan."
+        }
+    }
+}

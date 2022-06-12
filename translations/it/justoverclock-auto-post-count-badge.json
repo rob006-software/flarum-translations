@@ -1,0 +1,39 @@
+{
+    "justoverclock-auto-post-count-badge": {
+        "admin": {
+            "settings": {
+                "tier": "Livello {tier} : da {from} a {to} post",
+                "icon-manager": {
+                    "title": "Gestione Icone",
+                    "help_text": "=> core.ref.icon_text"
+                },
+                "label-manager": {
+                    "title": "Gestione Testo Badge",
+                    "help": "Personalizza nomi livelli"
+                }
+            },
+            "levelOne": "Cambia icona per il livello 1 - \"Il Poppante\"",
+            "levelOne-help": "incolla qui il codice dell'icona fontawesome per il livello 1 (e.g. \"fas fa-square\")",
+            "levelTwo": "Cambia icona per il livello 2 - \"Il Viandante\"",
+            "levelTwo-help": "incolla qui il codice dell'icona fontawesome per il livello 2 (e.g. \"fas fa-square\")",
+            "levelTree": "Cambia icona per il livello 3 - \"Il Parlatore\"",
+            "levelTree-help": "incolla qui il codice dell'icona fontawesome per il livello 3 (e.g. \"fas fa-square\")",
+            "levelFour": "Cambia icona per il livello 4 - \"Il Maestro\"",
+            "levelFour-help": "incolla qui il codice dell'icona fontawesome per il livello 4 (e.g. \"fas fa-square\")",
+            "levelFive": "Cambia icona per il livello 5 - \"Il Mostro!\"",
+            "levelFive-help": "incolla qui il codice dell'icona fontawesome per il livello 5 (e.g. \"fas fa-square\")",
+            "levelSix": "Cambia icona per il livello 6 - \"Il Guru!\"",
+            "levelSix-help": "incolla qui il codice dell'icona fontawesome per il livello 6 (e.g. \"fas fa-square\")"
+        },
+        "forum": {
+            "less10post": "Il Poppante",
+            "less50post": "Il Viandante",
+            "less100post": "Il Parlatore",
+            "less300post": "Il Maestro",
+            "less600post": "Il Mostro!",
+            "less1000post": "Il Guru!",
+            "hasWritten": "{count, plural, one {# post scritto} other {# post scritti}}",
+            "posts": "post"
+        }
+    }
+}

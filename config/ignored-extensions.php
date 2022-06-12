@@ -12,6 +12,5 @@
 declare(strict_types=1);
 
 return [
-	'kilowhat/flarum-ext-guest-posting', // private premium extensions, not available for purchase
 	'zaptech/cookie-consent', // migrated to `fof/cookie-consent`
 ];

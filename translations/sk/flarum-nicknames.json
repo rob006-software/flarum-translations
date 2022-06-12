@@ -1,0 +1,42 @@
+{
+    "flarum-nicknames": {
+        "admin": {
+            "permissions": {
+                "edit_own_nickname_label": "Upravte Vašu prezývku"
+            },
+            "settings": {
+                "max_label": "Maximálna dĺžka prezývok",
+                "min_label": "Minimálna dĺžka prezývok",
+                "random_username_label": "",
+                "random_username_help": "",
+                "regex_label": "Regulárny výraz pre validáciu",
+                "set_on_registration_label": "",
+                "unique_label": "Vyžadovať originálne prezývky?"
+            },
+            "wrong_driver": "Musíte vybrať \"nickname\" ako ovládač pre zobrazenie mien v <a><strong>základných nastaveniach</strong></a> aby mal tento doplnok nejaký účinok."
+        },
+        "api": {
+            "invalid_nickname_message": "Táto prezývka je neplatná. Prosím, kontaktujte administrátora tohto fóra pre informácie o platných prezývkach."
+        },
+        "forum": {
+            "change_nickname": {
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> flarum-nicknames.ref.change_nickname"
+            },
+            "edit_user": {
+                "nicknames_heading": "=> flarum-nicknames.ref.change_nickname",
+                "nicknames_text": "Prezývka"
+            },
+            "settings": {
+                "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
+            },
+            "sign_up": {
+                "nickname_placeholder": ""
+            }
+        },
+        "ref": {
+            "change_nickname": "Zmeniť Prezývku",
+            "nickname": ""
+        }
+    }
+}

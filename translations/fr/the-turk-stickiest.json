@@ -1,0 +1,40 @@
+{
+    "the-turk-stickiest": {
+        "admin": {
+            "permissions": {
+                "super_sticky_discussions_label": "Discussions super épinglées",
+                "tag_sticky_discussions_label": "Baliser les discussions épinglées"
+            },
+            "settings": {
+                "badge_icon_label": "Icône de badge super épinglé",
+                "badge_icon_text": "=> core.ref.icon_text"
+            }
+        },
+        "forum": {
+            "badge": {
+                "sticky_tooltip": "=> the-turk-stickiest.ref.sticky",
+                "super_sticky_tooltip": "=> the-turk-stickiest.ref.super_sticky",
+                "tag_sticky_tooltip": "=> the-turk-stickiest.ref.tag_sticky"
+            },
+            "discussion_controls": {
+                "sticky_button": "=> the-turk-stickiest.ref.sticky",
+                "unsticky_button": "=> flarum-sticky.forum.discussion_controls.unsticky_button",
+                "super_sticky_button": "=> the-turk-stickiest.ref.super_sticky",
+                "common_sticky_button": "Épingle commune",
+                "tag_sticky_button": "=> the-turk-stickiest.ref.tag_sticky",
+                "all_sticky_button": "Toutes les épingles"
+            },
+            "post_stream": {
+                "discussion_stickied_text": "=> flarum-sticky.forum.post_stream.discussion_stickied_text",
+                "discussion_unstickied_text": "=> flarum-sticky.forum.post_stream.discussion_unstickied_text",
+                "discussion_super_stickied_text": "{username} a marqué la discussion comme super épinglée.",
+                "discussion_common_stickied_text": "{username} n'a plus marqué la discussion comme super épinglée."
+            }
+        },
+        "ref": {
+            "sticky": "=> flarum-sticky.ref.sticky",
+            "super_sticky": "Super épinglée",
+            "tag_sticky": "Étiquette épinglée"
+        }
+    }
+}

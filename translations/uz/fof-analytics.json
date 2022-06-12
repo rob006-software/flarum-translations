@@ -1,0 +1,38 @@
+{
+    "fof-analytics": {
+        "admin": {
+            "popup": {
+                "section": {
+                    "googleAnalytics": "Google Analytics",
+                    "piwik": "Matomo"
+                },
+                "field": {
+                    "statusGoogle": "Google Analytics yoqish",
+                    "optTrackingCode": "",
+                    "googleTrackingCode": "",
+                    "googleGTMCode": "",
+                    "statusPiwik": "",
+                    "piwikUrl": "",
+                    "piwikSiteId": "",
+                    "piwikTrackSubdomain": "",
+                    "piwikPrependDomain": "",
+                    "piwikHideAliasUrl": "",
+                    "piwikAliasUrl": "",
+                    "piwikTrackAccounts": "",
+                    "piwikAuthToken": ""
+                },
+                "placeholder": {
+                    "piwikAuthToken": ""
+                },
+                "trackAccounts": {
+                    "none": "",
+                    "username": "",
+                    "email": ""
+                }
+            },
+            "matomo-widget": {
+                "title": ""
+            }
+        }
+    }
+}

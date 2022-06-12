@@ -1,0 +1,63 @@
+{
+    "clarkwinkelmann-carving-contest": {
+        "forum": {
+            "nav": {
+                "contest": "Schnitzwettbewerb"
+            },
+            "page": {
+                "title": "Kürbisschnitzwettbewerb",
+                "loading": "Einträge werden geladen...",
+                "participate": "Teilnehmen",
+                "already-participated": "Schon teilgenommen",
+                "delete-confirmation": "Möchtest Du \"{name}\" von {username} wirklich löschen?",
+                "like": "Like",
+                "already-liked": "Ich mag das",
+                "unlike": "Unlike",
+                "refresh": "Neuladen",
+                "load-more": "Weitere Einträge laden",
+                "sort": {
+                    "mostLikes": "Die meisten Likes",
+                    "fewerLikes": "Die wenigsten Likes",
+                    "mostRecent": "Kürzlich gepostet",
+                    "leastRecent": "Am wenigsten aktuell"
+                },
+                "likes": {
+                    "you_text": "=> core.ref.you",
+                    "others_link": "=> core.ref.some_others",
+                    "liked_by_self_text": "{users} gefällt das.",
+                    "liked_by_text": "{count, plural, one {{users} mag dies.} other {{users} mögen dies.}}"
+                }
+            },
+            "modal": {
+                "title": "Teilnehmen",
+                "name": "Benenne Deine Kreation",
+                "submit": "Senden",
+                "tools": {
+                    "circle": "Kreis",
+                    "square": "Quadrat"
+                }
+            },
+            "likes_modal": {
+                "title": "Benutzer, denen dieser Eintrag gefallen hat"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "view": "Einträge anzeigen",
+                "like": "Einträge liken",
+                "participate": "Teilnehmen",
+                "moderate": "Mäßig"
+            },
+            "settings": {
+                "maxEntriesPerUser": "Max. Einreichungen pro Benutzer",
+                "colorMode": "Farbmodus anstelle des Schnitzmodus verwenden"
+            },
+            "colors": {
+                "simple": "Einfaches Farbset",
+                "all": "Irgendeine Farbe",
+                "custom": "Benutzerdefinierte Farbliste",
+                "custom-help": "Kommagetrennte Liste von #hex- oder rgb()-Werten"
+            }
+        }
+    }
+}

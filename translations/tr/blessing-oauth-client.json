@@ -1,0 +1,20 @@
+{
+    "blessing-oauth-client": {
+        "admin": {
+            "popup": {
+                "title": "Blessing Skin ile Giriş Yapın",
+                "field": {
+                    "base-url": "Blessing Skin Kök Bağlantı",
+                    "app-id": "OAuth client ID",
+                    "app-secret": "OAuth client secret",
+                    "button-title": "Giriş düğmesi için etiket",
+                    "button-title-placeholder": "=> blessing-oauth-client.api.default-login-button-title",
+                    "button-icon": "Oturum açma düğmesi simgesi"
+                }
+            }
+        },
+        "api": {
+            "default-login-button-title": "Blessing Skin ile giriş yapın"
+        }
+    }
+}

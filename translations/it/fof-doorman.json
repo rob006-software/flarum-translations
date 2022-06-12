@@ -2,55 +2,55 @@
     "fof-doorman": {
         "forum": {
             "email": {
-                "subject": "",
-                "body": ""
+                "subject": "Invita a partecipare",
+                "body": "Ciao,\n\nSei stato invitato a iscriverti a {forum}.\n\nQuando sei pronto per creare il tuo account, fai semplicemente clic sul seguente link e inserisci il codice al momento della registrazione:\n\nURL: {url}\nCodice di invito: {code}\n\nSe hai ricevuto questo messaggio per errore, ignora questa email.\n"
             },
             "sign_up": {
-                "invalid_doorkey": "",
-                "doorkey_required": "",
-                "doorman_placeholder": "",
-                "doorman_placeholder_optional": ""
+                "invalid_doorkey": "Il codice di invito che hai inserito non è valido.",
+                "doorkey_required": "Inserisci un codice di invito.",
+                "doorman_placeholder": "Codice di invito",
+                "doorman_placeholder_optional": "Codice di invito (facoltativo)"
             }
         },
         "admin": {
             "modal": {
-                "title": "",
-                "group": "",
-                "help": "",
-                "placeholder": "",
-                "invalid_emails": "",
-                "max_use_conflict": "",
-                "send": "",
-                "success": ""
+                "title": "Invia codici di invito",
+                "group": "Invio di inviti per il gruppo {group}",
+                "help": "Accetta un elenco separato da spazi o virgole. Digita una singola email o incolla un elenco, quindi premi lo spazio per aggiungerlo/li.",
+                "placeholder": "Inserisci email qui",
+                "invalid_emails": "Le seguenti email non sono valide: {email}",
+                "max_use_conflict": "Il numero di email supera il numero massimo di utilizzi per questo codice.",
+                "send": "Invia Email",
+                "success": "Email inviate con successo"
             },
-            "invalid_doorkey": "",
-            "doorkey_required": "",
+            "invalid_doorkey": "Il codice di invito che hai fornito non è valido.",
+            "doorkey_required": "Devi fornire un codice di invito",
             "nav": {
-                "desc": ""
+                "desc": "Crea codici di invito per consentire agli utenti di iscriversi ed essere assegnati a un gruppo"
             },
             "page": {
-                "title": "",
+                "title": "Doorman",
                 "doorkey": {
-                    "used_times": "",
-                    "title": "",
+                    "used_times": "{remaining, plural, one {{remaining} Utilizzo rimasto} other {{remaining} Utilizzi rimasti}}",
+                    "title": "Codici Invito",
                     "help": {
-                        "key": "",
-                        "group": "",
-                        "max": "",
-                        "activates": ""
+                        "key": "Chiave: Codice che l'utente dovrà digitare al momento della registrazione.",
+                        "group": "Gruppo: il gruppo a cui verrà aggiunto l'utente al momento della registrazione.",
+                        "max": "Usi massimi: il numero massimo di volte in cui il codice può essere utilizzato, impostato su 0 per usi illimitati",
+                        "activates": "Attiva utente: attiva automaticamente l'utente al momento della registrazione."
                     },
-                    "warning": "",
-                    "key": "",
-                    "max_uses": "",
+                    "warning": "Questo codice di invito è stato utilizzato il numero massimo di volte.",
+                    "key": "Chiave",
+                    "max_uses": "Utenti massimi",
                     "heading": {
-                        "key": "",
-                        "group": "",
-                        "activate": "",
-                        "max_uses": ""
+                        "key": "Chiave",
+                        "group": "Gruppo",
+                        "activate": "Attiva utente",
+                        "max_uses": "Utilizzi massimi"
                     },
                     "allow-public": {
-                        "title": "",
-                        "switch-label": ""
+                        "title": "Consenti registrazione pubblica",
+                        "switch-label": "Rendi il codice di invito facoltativo al momento della registrazione"
                     }
                 }
             }

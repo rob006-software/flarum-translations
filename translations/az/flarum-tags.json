@@ -1,0 +1,93 @@
+{
+    "flarum-tags": {
+        "admin": {
+            "basics": {
+                "tags_label": "=> flarum-tags.ref.tags"
+            },
+            "edit_tag": {
+                "color_label": "=> core.ref.color",
+                "delete_tag_button": "Etiketi sil",
+                "delete_tag_confirmation": "Bu etiketi silmək istədiyinizə əminsiniz? Etiket müzakirələri silinməyəcək.",
+                "description_label": "Təsvir",
+                "hide_label": "Bütün Müzakirələrdən Gizlət",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "=> flarum-tags.ref.name",
+                "name_placeholder": "=> flarum-tags.ref.name",
+                "slug_label": "Şlak",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Kateqoriya Yarat"
+            },
+            "nav": {
+                "tags_button": "=> flarum-tags.ref.tags",
+                "tags_text": "Müzakirələr təşkil etmək üçün mövcud etiketlərin siyahısını idarə edin."
+            },
+            "permissions": {
+                "allow_edit_tags_label": "Etiketin redaktəsinə icazə verin",
+                "bypass_tag_counts_label": "Baypas etiket tələbi",
+                "restrict_by_tag_heading": "Etiketlə məhdudlaşdır",
+                "tag_discussions_label": "Mövzu Kateqoriyası"
+            },
+            "tag_settings": {
+                "range_separator_text": " to ",
+                "required_primary_heading": "Tələb olunan İlkin Kateqoriyaların sayı",
+                "required_primary_text": "Müzakirəyə tətbiq oluna biləcək əsas etiketlərin minimum və maksimum sayını daxil edin.",
+                "required_secondary_heading": "Tələb olunan İkinci dərəcəli Etiketlər",
+                "required_secondary_text": "Müzakirəyə tətbiq oluna biləcək minimum və maksimum ikincil etiketlərin sayını daxil edin.",
+                "title": "Kateqoriya Ayarları"
+            },
+            "tags": {
+                "about_tags_text": "Etiketlər müzakirələri təsnif etmək üçün istifadə olunur. Birincil etiketlər ənənəvi forum kateqoriyalarına bənzəyir: iki səviyyəli bir iyerarxiyada yerləşdirilə bilər. İkincili etiketlərin iyerarxiyası və nizamı yoxdur və mikro-kateqoriyalar üçün faydalıdır.",
+                "create_primary_tag_button": "Əsas Kateqoriyanı yaradın",
+                "create_secondary_tag_button": "İkincil etiket yaradın",
+                "primary_heading": "Əsas etiketlər",
+                "secondary_heading": "İkinci dərəcəli etiketlər",
+                "settings_heading": "Ayarlar"
+            }
+        },
+        "forum": {
+            "all_tags": {
+                "meta_description_text": "Bütün Kateqoriyalar",
+                "meta_title_text": "=> flarum-tags.ref.tags"
+            },
+            "choose_tags": {
+                "bypass_requirements": "",
+                "choose_primary_placeholder": "{count, plural, one {Choose a primary tag} other {Choose # primary tags}}",
+                "choose_secondary_placeholder": "{count, plural, one {Choose 1 more tag} other {Choose # more tags}}",
+                "edit_title": "Etiketləri redaktə edin {title}",
+                "submit_button": "=> core.ref.okay",
+                "title": "Kateqoriya"
+            },
+            "composer_discussion": {
+                "choose_tags_link": "Kategoriya seçin"
+            },
+            "discussion_controls": {
+                "edit_tags_button": "Kategoriyaları redaktə edin"
+            },
+            "header": {
+                "back_to_tags_tooltip": "Kateqoriya siyahısına qayıt"
+            },
+            "index": {
+                "more_link": "Ətraflı ...",
+                "tags_link": "=> flarum-tags.ref.tags",
+                "untagged_link": "Etiketlənməmiş"
+            },
+            "post_stream": {
+                "added_and_removed_tags_text": "{username} {tagsAdded} əlavə etdi və {tagsRemoved} silindi.",
+                "added_tags_text": "{username} əlavə etdi {tagsAdded}.",
+                "removed_tags_text": "{username} sildi {tagsRemoved}.",
+                "tags_text": "{count, plural, one {{tags} tag} başqa {{tags} tags}}"
+            },
+            "tag": {
+                "meta_description_text": "{tag} etiketi ilə bütün müzakirələr"
+            }
+        },
+        "lib": {
+            "deleted_tag_text": "Silindi"
+        },
+        "ref": {
+            "name": "Ad",
+            "tags": "Kateqoriya"
+        }
+    }
+}

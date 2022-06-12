@@ -1,0 +1,47 @@
+{
+    "fof-pages": {
+        "admin": {
+            "edit_page": {
+                "content_label": "=> fof-pages.ref.content",
+                "content_placeholder": "=> fof-pages.ref.content",
+                "delete_page_button": "Oldal törlése",
+                "delete_page_confirmation": "Valóban törli ezt az oldalt?",
+                "hidden_label": "Mentés vázlatként",
+                "restricted_label": "Hozzáférés korlátozása (az Engedélyek lapon állítsa be, hogy ki férjen hozzá)",
+                "html_label": "HTML engedélyezése",
+                "set_as_home_page_confirmation": "Valóban beállítja ezt az oldalt főoldalnak?",
+                "set_as_home_page_done": "Főoldal frissítve",
+                "slug_label": "=> fof-pages.ref.slug",
+                "slug_placeholder": "=> fof-pages.ref.slug",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> fof-pages.ref.create_page",
+                "title_label": "=> fof-pages.ref.title",
+                "title_placeholder": "=> fof-pages.ref.title",
+                "url_label": "=> fof-pages.ref.url",
+                "url_placeholder": "=> fof-pages.ref.url"
+            },
+            "pages": {
+                "create_button": "=> fof-pages.ref.create_page"
+            },
+            "pages_list": {
+                "empty_text": "Úgy látszik nincs egy oldal sem.",
+                "title": "=> fof-pages.ref.title"
+            },
+            "permissions": {
+                "restricted": "Korlátozott lapok megtekintése"
+            },
+            "badges": {
+                "hidden": "Vázlat",
+                "restricted": "Korlátozott"
+            }
+        },
+        "ref": {
+            "content": "Tartalom",
+            "create_page": "Oldal létrehozása",
+            "pages": "Lapok",
+            "slug": "Keresőbarát URL",
+            "title": "Cím",
+            "url": "URL"
+        }
+    }
+}

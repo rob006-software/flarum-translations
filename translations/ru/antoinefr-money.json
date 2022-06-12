@@ -1,0 +1,33 @@
+{
+    "antoinefr-money": {
+        "admin": {
+            "settings": {
+                "title": "Настройки",
+                "moneyforpost": "Монеток получено за новое сообщение",
+                "moneyfordiscussion": "Монеток получено за новую дискуссию",
+                "moneyname": "Название монеток (например: [money] очков)",
+                "postminimumlength": "Минимальная длина сообщения для получения монеток (0 - запретить)",
+                "noshowzero": "Не отображать нулевое значение",
+                "moneyforlike": "Монеток получено если сообщение одобрили",
+                "helpextensionlikes": "Требуется расширение <code>flarum/likes</code>"
+            },
+            "permissions": {
+                "edit_money_label": "Править монетки"
+            },
+            "automoderator": {
+                "metric_name": "",
+                "action_name": ""
+            }
+        },
+        "forum": {
+            "user_controls": {
+                "money_button": "Править монетки"
+            },
+            "modal": {
+                "title": "монеток у {username}",
+                "current": "Текущие:",
+                "submit_button": "=> core.ref.save_changes"
+            }
+        }
+    }
+}

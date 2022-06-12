@@ -2,19 +2,28 @@
     "ianm-synopsis": {
         "admin": {
             "settings": {
-                "excerpt-label": "",
-                "rich-excerpts": "",
-                "excerpt-type": "",
-                "first-label": "",
-                "last-label": ""
+                "excerpt-length": {
+                    "label": "",
+                    "help": ""
+                },
+                "rich-excerpts": "Mostrar extractos con contenido HTML (usar con precaución)",
+                "excerpt-type": "¿Cuál mensaje debería mostrarse como el extracto?",
+                "first-label": "Primer mensaje",
+                "last-label": "Último mensaje",
+                "tags-enabled": "",
+                "rich-excerpts.label": "",
+                "rich-excerpts.help": "",
+                "excerpt-type.label": "",
+                "excerpt-type.help": "",
+                "excerpt-label": "Límite de caracteres del extracto"
             }
         },
         "forum": {
             "user": {
                 "settings": {
-                    "summaries-heading": "",
-                    "show-summaries": "",
-                    "show-summaries-mobile": ""
+                    "summaries-heading": "Sinopsis",
+                    "show-summaries": "Mostrar un extracto para cada discusión dentro de la lista (Escritorio/Tabletas)",
+                    "show-summaries-mobile": "Mostrar un extracto para cada discusión dentro de la lista (Móviles)"
                 }
             }
         }

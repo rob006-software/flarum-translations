@@ -1,0 +1,21 @@
+{
+    "flarum-akismet": {
+        "admin": {
+            "akismet_settings": {
+                "api_key_label": "API-nyckel",
+                "title": "Inställningar för Akismet",
+                "delete_blatant_spam_label": "",
+                "delete_blatant_spam_help": ""
+            },
+            "permissions": {
+                "bypass_akismet": ""
+            }
+        },
+        "forum": {
+            "post": {
+                "akismet_flagged_text": "Akismet flaggade som spam",
+                "not_spam_button": "Inte spam"
+            }
+        }
+    }
+}

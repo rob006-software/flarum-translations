@@ -29,7 +29,7 @@
                 "edit_modal": {
                     "title": "Sohbet ayarları",
                     "moderator": {
-                        "got": "{chatname} sohbetinde Moderatör yetkilerini elde ettiniz!",
+                        "got": "{chatname} sohbetinde Moderatör haklarına sahip oldunuz!",
                         "lost": "{chatname} sohbetinde Moderatör haklarınızı kaybettiniz."
                     },
                     "form": {
@@ -101,7 +101,8 @@
                         "search": {
                             "placeholder": "Kullanıcı Ara",
                             "failed": "Eşleşen kullanıcı bulunamadı",
-                            "invited": "Davet edildi"
+                            "invited": "Davet edildi",
+                            "more_results": "Ve {more_results} tane daha..."
                         }
                     }
                 },
@@ -122,7 +123,7 @@
                     },
                     "events": {
                         "chat": {
-                            "created": "{creatorname], {chatname} oluşturdu ve {usernames} davet etti"
+                            "created": "{creatorname}, {chatname} oluşturdu ve {usernames} davet etti"
                         },
                         "pm": {
                             "created": "{creatorname}, {username} ile sohbet oluşturdu"
@@ -140,9 +141,9 @@
                             "edited": "{editorname}, {old} renkli sohbeti {new} olarak değiştirdi"
                         },
                         "users": {
-                            "invited": "{editorname, {usernames} davet etti",
-                            "kicked": "{editorname, {usernames} attı",
-                            "invited_kicked": "{editorname}, {invitednames} davet etti ve  {kickednames} attı"
+                            "invited": "{editorname}, {usernames} adlı kullanıcıyı davet etti",
+                            "kicked": "{editorname}, {usernames} adlı kullanıcıyı attı",
+                            "invited_kicked": "{editorname}, {invitednames} adlı kullanıcıyı davet etti ve {kickednames} adlı kullanıcıyı attı"
                         },
                         "self": {
                             "leaved": "{username} sohbetten ayrıldı",

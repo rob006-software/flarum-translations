@@ -2,110 +2,110 @@
     "datitisev-backup": {
         "admin": {
             "adapters": {
-                "local": "",
-                "aliyun": "",
-                "azure": "",
-                "aws": "",
-                "dospaces": "",
-                "dropbox": "",
-                "gdrive": "",
-                "ftp": "",
-                "gridfs": "",
-                "rackspace": "",
-                "sftp": "",
-                "webdav": "",
-                "zip": ""
+                "local": "Memoria locale",
+                "aliyun": "Alibaba Cloud (Aliyun)",
+                "azure": "Microsoft Azure",
+                "aws": "Amazon AWS S3",
+                "dospaces": "Digital Ocean",
+                "dropbox": "DropBox",
+                "gdrive": "Google Drive",
+                "ftp": "FTP (file transfer protocol)",
+                "gridfs": "GridFS",
+                "rackspace": "Rackspace",
+                "sftp": "SFTP",
+                "webdav": "Webdav",
+                "zip": "Zip Archive"
             },
-            "settings_button": "",
-            "required_package_button": "",
+            "settings_button": "Configura",
+            "required_package_button": "Imposta",
             "you-need-for": {
-                "aliyun": "",
-                "azure": "",
-                "aws": "",
-                "copy": "",
-                "dospaces": "",
-                "dropbox": "",
-                "gdrive": "",
-                "gridfs": "",
-                "rackspace": "",
-                "sftp": "",
-                "webdav": ""
+                "aliyun": "aliyuncs/aliyun-oss-flysystem",
+                "azure": "league/flysystem-azure",
+                "aws": "league/flysystem-aws-s3-v3",
+                "copy": "league/flysystem-copy",
+                "dospaces": "league/flysystem-aws-s3-v3",
+                "dropbox": "spatie/flysystem-dropbox",
+                "gdrive": "nao-pon/flysystem-google-drive",
+                "gridfs": "league/flysystem-gridfs",
+                "rackspace": "league/flysystem-rackspace",
+                "sftp": "league/flysystem-sftp",
+                "webdav": "league/flysystem-webdav"
             },
             "required-package-modal": {
-                "title": "",
-                "content": ""
+                "title": "È necessario un pacchetto per {adapter}",
+                "content": "Per utilizzare questo driver dovrai installare un pacchetto specifico. Puoi farlo eseguendo il seguente comando composer: <code>composer require {package}</code> nella directory di installazione di Flarum.\n"
             },
             "adapter-settings-modal": {
-                "title": "",
+                "title": "Configura {adapter}",
                 "local": {
                     "target": {
-                        "label": "",
-                        "description": ""
+                        "label": "Percorso di destinazione",
+                        "description": "Specificare la directory locale in cui salvare i backup."
                     }
                 },
                 "aliyun": {
                     "endpoint": {
-                        "label": "",
-                        "description": ""
+                        "label": "Endpoint",
+                        "description": "L'URL del tuo endpoint di archiviazione."
                     },
                     "access-id": {
-                        "label": "",
-                        "description": ""
+                        "label": "ID Accesso",
+                        "description": "Il tuo token di autenticazione - ID"
                     },
                     "access-key": {
-                        "label": "",
-                        "description": ""
+                        "label": "Chiave di Accesso",
+                        "description": "Il tuo token di Autenticazione"
                     },
                     "bucket": {
-                        "label": "",
-                        "description": ""
+                        "label": "Cestino",
+                        "description": "Cestino di Archiviazione da utilizzatore."
                     },
                     "path-prefix": {
-                        "label": "",
-                        "description": ""
+                        "label": "Prefisso Percorso",
+                        "description": "Prefisso percorso predefinito per i file. (Facoltativo)."
                     }
                 },
                 "azure": {
                     "endpoint": {
-                        "label": "",
-                        "description": ""
+                        "label": "Endpoint",
+                        "description": "L'URL del tuo endpoint di archiviazione."
                     },
                     "container": {
-                        "label": "",
-                        "description": ""
+                        "label": "Contenitore",
+                        "description": "Contenitore Azure"
                     }
                 },
                 "aws": {
                     "credentials": {
                         "key": {
-                            "label": "",
-                            "description": ""
+                            "label": "Chiave",
+                            "description": "Chiave Credenziali AWS"
                         },
                         "secret": {
-                            "label": "",
-                            "description": ""
+                            "label": "Segreto",
+                            "description": "Credenziali segrete AWS"
                         }
                     },
                     "region": {
-                        "label": "",
-                        "description": ""
+                        "label": "Regione",
+                        "description": "Regione"
                     },
                     "version": {
-                        "label": "",
-                        "description": ""
+                        "label": "Versione",
+                        "description": "Specificare una versione o lasciare vuoto per l'ultima."
                     },
                     "bucket": {
-                        "label": "",
-                        "description": ""
+                        "label": "Cestino",
+                        "description": "Cestino S3 su cui caricare."
                     },
                     "path-prefix": {
-                        "label": "",
-                        "description": ""
+                        "label": "Prefisso Percorso",
+                        "description": "Prefisso percorso predefinito per i file. (Facoltativo)."
                     }
                 },
                 "dropbox": {
                     "access-token": {
-                        "label": "",
+                        "label": "Token di Accesso",
                         "description": ""
                     }
                 },

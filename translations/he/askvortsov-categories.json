@@ -1,0 +1,55 @@
+{
+    "askvortsov-categories": {
+        "admin": {
+            "basics": {
+                "categories_label": "קטגוריות"
+            },
+            "labels": {
+                "keep_tags_nav": "לשמור את קישור התגיות בתפריט צד?",
+                "child_bare_icon": "תת-אייקונים מוצגים?‌",
+                "compact_mobile_mode": "מצב קומפקטי לנייד",
+                "full_page_desktop": "עמוד מלא לשולחן העבודה?",
+                "parent_remove_icon": "הסתרת אייקונים לרמה עליונה של תגיות?",
+                "parent_remove_description": "הסתרת תיאור לרמה עליונה של תגיות?",
+                "parent_remove_stats": "הסתרת סטטיסטיקה לרמה עליונה של תגיות?",
+                "parent_remove_last_discussion": "הסתרת נושאים אחרונים לרמה עליונה של תגיות?",
+                "small_forum_optimized": "לבצע אופטימיזציה עבור פורומים קטנים?"
+            },
+            "help": {
+                "child_bare_icon": "האם להציג אייקונים בתת-קטגוריות ללא רקע עגול?",
+                "full_page_desktop": "האם לסגור את תפריט הניווט של סרגל הצד לשורה (כמו בדף התגים המסורתי)? זה יסתיר ווידג'טים (כגון סטטיסטיקות של חברים של פורום Flarum) מהנווט של עמוד הקטגוריות.",
+                "small_forum_optimized": "זה ייתן ספירת דיונים/פוסטים מדויקים יותר, אבל יאט בצורה דרמטית פורומים בינוניים וגדולים."
+            },
+            "headings": {
+                "nav": "ניווט",
+                "layout": "תבנית",
+                "parent_display": "הצגת קטגוריה ראשית",
+                "child_display": "הצגת תת-קטגוריה",
+                "performance": "ביצועים"
+            },
+            "title": "הגדרות קטגוריות"
+        },
+        "forum": {
+            "all_categories": {
+                "meta_description_text": "כל הקטגוריות",
+                "meta_title_text": "=> askvortsov-categories.ref.categories"
+            },
+            "header": {
+                "back_to_categories_tooltip": "חזרה לקטגוריות"
+            },
+            "index": {
+                "categories_link": "=> askvortsov-categories.ref.categories"
+            },
+            "stat-widgets": {
+                "discussion_label": "דיונים",
+                "post_label": "הודעות"
+            },
+            "last_discussion_widget": {
+                "no_discussions": "אין דיונים (עדיין)"
+            }
+        },
+        "ref": {
+            "categories": "קטגוריות"
+        }
+    }
+}

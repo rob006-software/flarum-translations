@@ -1,10 +1,12 @@
 {
     "fof-oauth": {
         "admin": {
+            "configure_button_label": "配置 FoF OAuth",
+            "settings_accessibility_label": "{name}设置",
             "settings": {
                 "only_icons_label": "仅显示登录按钮图标（可选布置）",
                 "providers": {
-                    "callback_url_text": "如有必要，将回调 URL 设为 {url}。",
+                    "callback_url_text": "根据需要可将回调 URL 设为 {url}。",
                     "discord": {
                         "description": "前往 {link} 创建应用，并在 OAuth2 选项卡中添加重定向 URL。",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
@@ -39,14 +41,33 @@
                     "linkedin": {
                         "description": "前往 {link} 创建应用。",
                         "client_id_label": "=> fof-oauth.ref.settings.client_id",
-                        "client_secret_label": "你好"
+                        "client_secret_label": "Client Secret"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_button": "{provider} 账号登录"
+                "with_button": "{provider}账号登录",
+                "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_github_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_gitlab_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_google_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_linkedin_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_twitter_button": "=> fof-oauth.forum.log_in.with_button"
+            },
+            "providers": {
+                "discord": "=> fof-oauth.lib.providers.discord",
+                "facebook": "=> fof-oauth.lib.providers.facebook",
+                "github": "=> fof-oauth.lib.providers.github",
+                "gitlab": "=> fof-oauth.lib.providers.gitlab",
+                "google": "=> fof-oauth.lib.providers.google",
+                "linkedin": "=> fof-oauth.lib.providers.linkedin",
+                "twitter": "=> fof-oauth.lib.providers.twitter"
+            },
+            "signup": {
+                "username_help": "请选择用户名"
             },
             "error": {
                 "bad_verification_code": "无效或过期的验证令牌，请重试。",

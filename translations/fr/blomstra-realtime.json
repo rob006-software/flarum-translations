@@ -2,16 +2,16 @@
     "blomstra-realtime": {
         "forum": {
             "push": {
-                "discussion-list-new-activity": ""
+                "discussion-list-new-activity": "{count, plural, one {Afficher la discussion mise à jour} other {Afficher les # discussions mises à jour}}"
             },
             "typing-indicator": {
-                "people-are-typing": "",
-                "no-activity": ""
+                "people-are-typing": "{number, plural, one {# personne rédige} other {# personnes rédigent}}",
+                "no-activity": "Personne ne rédige"
             }
         },
         "admin": {
             "permission": {
-                "view-who-types": ""
+                "view-who-types": "Voir qui rédige"
             }
         }
     }

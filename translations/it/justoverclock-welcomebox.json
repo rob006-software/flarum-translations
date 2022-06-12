@@ -2,13 +2,22 @@
     "flarum-ext-welcomebox": {
         "forum": {
             "wback": "Bentornato,",
-            "npost": "=> core.forum.user.posts_link",
+            "npost": "Messaggi",
             "discussion": "=> core.forum.user.discussions_link",
             "welcomeguest": "Benvenuto Ospite",
-            "notregistered": "Attualmente non sei registrato al forum."
+            "notregistered": "Attualmente non sei registrato al forum.",
+            "goToProfile": "Profilo",
+            "SettingsLink": "Impostazioni",
+            "tooltipProfile": "Profilo",
+            "tooltipMentions": "Menzioni",
+            "tooltipDisclist": "Le mie Discussioni",
+            "lastSeen": "Ultima Visita"
         },
         "admin": {
-            "enablepostbox": "Abilita Welcome Box Ospiti"
+            "enablepostbox": "Abilita Welcome Box Ospiti",
+            "img": "URL immagine (box ospiti)",
+            "img-help": "Inserisci l’url dell’immagine da mostrare bel box ospiti",
+            "UseWidget": "Usa in versione Widget"
         }
     }
 }

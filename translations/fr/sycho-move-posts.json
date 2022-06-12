@@ -1,0 +1,64 @@
+{
+    "sycho-move-posts": {
+        "admin": {
+            "settings": {
+                "moved_first_post_content": "Contenu de la discussion déplacée (premier message)",
+                "moved_first_post_content_help": "Lorsque vous avez une discussion avec un seul message, le déplacement de ce message entraînera la modification du premier message de la discussion initiale pour pointer vers la nouvelle discussion. Vous pouvez modifier le contenu de cette publication ici.\n",
+                "group_sequential_posts": "La publication séquentielle de groupe a déplacé les publications d'événements en une seule."
+            },
+            "permissions": {
+                "move_posts": "=> sycho-move-posts.ref.move_posts"
+            }
+        },
+        "forum": {
+            "badge": {
+                "first_moved_tooltip": "Déplacée"
+            },
+            "discussion": {
+                "move_posts": "=> sycho-move-posts.ref.move_posts"
+            },
+            "error": {
+                "move_old_post_to_newer_discussion": "=> sycho-move-posts.ref.status.old_to_new_move"
+            },
+            "modal": {
+                "check": "Vérifier le type d'opération",
+                "destination": "Destination de la discussion",
+                "discussion_help": "Les étiquettes de la discussion source seront utilisées et pourront être modifiées après sa création.",
+                "discussion_name": "=> core.forum.composer_discussion.title_placeholder",
+                "new_discussion": "Nouvelle discussion",
+                "selected_posts": "{count, plural, one {Une publication sélectionnée} other {{count} publications sélectionnées}}",
+                "status": {
+                    "complex_move": "Ce sera un mouvement complexe, les messages seront poussés entre les messages, ce qui entraînera également la modification des anciennes références URL des messages des discussions cibles.",
+                    "old_to_new_move": "=> sycho-move-posts.ref.status.old_to_new_move",
+                    "simple_move": "Ce sera un mouvement simple, les messages seront tous ajoutés à la fin de la discussion."
+                },
+                "submit": "Procéder",
+                "title": "=> sycho-move-posts.ref.move_posts"
+            },
+            "notifications": {
+                "post_moved_text": "Un ou plusieurs de vos messages ont été déplacés vers {targetDiscussionTitle}."
+            },
+            "post": {
+                "unmove": "Désélectionner pour déplacer",
+                "move": "Sélectionnez pour déplacer",
+                "moving": "Message en déplacement"
+            },
+            "post_stream": {
+                "post_moved": "{count, plural, one {{username} a déplacé un message vers {target_discussion}.} other {{username} a déplacé {count} messages vers {target_discussion}.}}"
+            }
+        },
+        "ref": {
+            "move_posts": "Déplacer les messages",
+            "status": {
+                "old_to_new_move": "Impossible de déplacer un ancien message vers une discussion plus récente."
+            }
+        },
+        "lib": {
+            "discussion": {
+                "first_post": {
+                    "default_content": "*Ce message a été déplacé vers **[%DISCUSSION_NAME%](%POST_LINK%)**.*\n"
+                }
+            }
+        }
+    }
+}

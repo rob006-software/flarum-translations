@@ -2,25 +2,25 @@
     "flarum-calendar": {
         "forum": {
             "button": {
-                "landing": "",
-                "create": "",
-                "login": ""
+                "landing": "Calendrier des événements",
+                "create": "Nouvel événement",
+                "login": "Ajouter votre événement "
             },
             "modal": {
-                "submit": ""
+                "submit": "Envoyer"
             },
             "event": {
-                "details": ""
+                "details": "Plus d'informations sur cet événement"
             }
         },
         "admin": {
             "permissions": {
-                "add": "",
-                "moderate": "",
-                "view": ""
+                "add": "Créer de nouveaux événements de calendrier",
+                "moderate": "Supprimer ou modifier les événements du calendrier (tous les utilisateurs peuvent modifier les leurs)",
+                "view": "Afficher les événements"
             },
             "basics": {
-                "homepage": ""
+                "homepage": "Mois actuel du calendrier"
             }
         }
     }

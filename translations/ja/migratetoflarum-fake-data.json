@@ -1,19 +1,21 @@
 {
     "migratetoflarum-fake-data": {
-        "admin": {
+        "lib": {
             "generator": {
                 "bulk-mode": "",
                 "bulk-mode-description": "",
-                "user-count": "新規ユーザー",
-                "discussion-count": "新しいトピックの数",
+                "user-count": "",
+                "discussion-count": "",
                 "discussion-tags": "",
                 "discussion-tags-none": "",
                 "discussion-tags-random": "",
-                "post-count": "新しい応答の数",
+                "post-count": "",
                 "date": "",
                 "date-start-placeholder": "",
                 "date-interval-placeholder": "",
-                "send": "データを生成する"
+                "send": "",
+                "reset": "",
+                "refresh": ""
             }
         },
         "forum": {
@@ -35,6 +37,22 @@
         "api": {
             "no-users-matched": "ユーザーが見つかりません",
             "no-discussions-matched": "件名が見つかりません"
+        },
+        "admin": {
+            "generator": {
+                "bulk-mode": "",
+                "bulk-mode-description": "",
+                "user-count": "新規ユーザー",
+                "discussion-count": "新しいトピックの数",
+                "discussion-tags": "",
+                "discussion-tags-none": "",
+                "discussion-tags-random": "",
+                "post-count": "新しい応答の数",
+                "date": "",
+                "date-start-placeholder": "",
+                "date-interval-placeholder": "",
+                "send": "データを生成する"
+            }
         },
         "ref": {
             "bulk-mode": "",

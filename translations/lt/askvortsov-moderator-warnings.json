@@ -1,0 +1,70 @@
+{
+    "askvortsov-moderator-warnings": {
+        "admin": {
+            "permissions": {
+                "manage_warnings": "Sukurkite ir pašalinkite moderatoriaus įspėjimus",
+                "view_warnings": "Peržiūrėkite moderatoriaus įspėjimus",
+                "delete_warnings": "Visam laikui ištrinti moderatoriaus įspėjimus"
+            }
+        },
+        "emails": {
+            "post_warned": {
+                "subject": "{warner_display_name} įspėjo jus naudodami {strikes, daugiskaitą, dar vieną {# strike} {# strikes}} {discussion_title}",
+                "body": "Sveiki, {warnee_display_name}!\n\n{warner_display_name} įspėjo jus naudodami {strikes, daugiskaitą, dar vieną {# strike} {# strikes}} {discussion_title}\n\nBuvo nurodyta tokia priežastis:\n\n---\n\n{public_comment}\n"
+            },
+            "user_warned": {
+                "subject": "{warner_display_name} warned you with {strikes, plural, one {# strike} other {# strikes}}",
+                "body": "Sveiki, {warnee_display_name}!\n\n{warner_display_name} įspėjo jus naudodami {strikes, daugiskaitą, dar vieną {# strike} {# strike}}\n\nBuvo nurodyta tokia priežastis:\n\n---\n\n{public_comment}\n"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "warning_text": "",
+                "warning_no_strikes_text": "Jus įspėjo {mod_username} (jokių įspėjimų)"
+            },
+            "post": {
+                "warning": "",
+                "warning_no_strikes": "{mod_username} įspėjo be įspėjimų"
+            },
+            "post_controls": {
+                "warning_button": "Įspėti vartotoją"
+            },
+            "user": {
+                "warnings": "Moderatoriaus įspėjimai"
+            },
+            "settings": {
+                "warning_notification_label": "Moderatorius perspėja mane"
+            },
+            "validation": {
+                "public_comment_required": "Jūs dažniausiai pateikiate viešą komentarą.",
+                "invalid_strike_count": "Įvykių skaičius turi būti sveikas skaičius nuo 0 iki 5."
+            },
+            "warning_controls": {
+                "delete_button": "Pašalinti",
+                "restore_button": "Atkurti",
+                "delete_forever_button": "Ištrinti visam laikui"
+            },
+            "warning_list": {
+                "add_button": "Naujas įspėjimas",
+                "no_warnings": "Atrodo, kad čia nėra jokių įspėjimų.",
+                "warnings": "",
+                "warnings_no_strikes": "Moderatoriaus įspėjimai: įspėjimų negauta"
+            },
+            "warning_list_item": {
+                "list_item_heading": "",
+                "list_item_heading_hidden": "",
+                "public_comment": "Įspėjimas",
+                "private_comment": "Moderatoriaus matomi komentarai",
+                "linked_post": "Susietas įrašas"
+            },
+            "warning_modal": {
+                "confirmation_message": "Jūsų įspėjimas buvo išsaugotas. Gali tekti atnaujinti puslapį, kad jį pamatytumėte.",
+                "heading": "Įspėkite <strong>{username}</strong>",
+                "strikes_heading": "Kiek įspėjimų turėtų būti taikoma?",
+                "public_comment_heading": "Kodėl <strong>{username}</strong> gauna šiuos įspėjimus? Šiuos komentarus matys vartotojas ir kiti moderatoriai.",
+                "private_comment_heading": "Kodėl <strong>{username}</strong> gauna šiuos įspėjimus? Šiuos komentarus matys TIK kiti moderatoriai.",
+                "submit_button": "Išsaugoti įspėjimą"
+            }
+        }
+    }
+}

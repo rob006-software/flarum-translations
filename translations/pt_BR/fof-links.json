@@ -1,0 +1,35 @@
+{
+    "fof-links": {
+        "admin": {
+            "edit_link": {
+                "delete_link_button": "Apagar Link",
+                "delete_link_confirmation": "Você tem certeza que quer apagar esse link?",
+                "everyone-label": "Todos",
+                "guests-label": "Convidados",
+                "internal_link": "É um link interno?",
+                "members-label": "Usuários registrados",
+                "open_newtab": "Abrir link em uma nova aba",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> fof-links.ref.create_link",
+                "title_label": "=> fof-links.ref.title",
+                "title_placeholder": "=> fof-links.ref.title",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "url_description": "Deixe em branco para mostrar como um rótulo.",
+                "url_label": "=> fof-links.ref.url",
+                "url_placeholder": "=> fof-links.ref.url",
+                "visibility": "Visibilidade do link"
+            },
+            "links": {
+                "create_button": "=> fof-links.ref.create_link",
+                "links": "=> fof-links.ref.links"
+            }
+        },
+        "ref": {
+            "create_link": "Criar link",
+            "links": "Links",
+            "title": "Título",
+            "url": "URL"
+        }
+    }
+}

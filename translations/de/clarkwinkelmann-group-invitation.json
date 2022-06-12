@@ -1,0 +1,47 @@
+{
+    "clarkwinkelmann-group-invitation": {
+        "forum": {
+            "title": "Du wurdest eingeladen, der Gruppe {group} beizutreten!",
+            "generic-title": "Gruppeneinladung",
+            "user": {
+                "already-connected": "Wir werden die Gruppe {group} zu {username} hinzufügen. Nicht der richtige Benutzer? <a>Bei einem anderen Konto anmelden</a>.\n",
+                "not-connected": "<a>Anmelden</a>, um die Einladung anzunehmen.",
+                "not-authorized": "Dein aktueller Benutzer {username} hat nicht die Berechtigung, Gruppen beizutreten. <a>Bei einem anderen Konto anmelden</a>.",
+                "already-member": "Tolle Neuigkeiten, Dein Benutzer {username} ist bereits Mitglied der Gruppe {group}! Möchtest Du der Gruppe mit einem anderen Benutzer beitreten? <a>Bei einem anderen Konto anmelden</a>.\n"
+            },
+            "invitation": {
+                "not-found": "Entschuldigung, diese Gruppeneinladung wurde nicht gefunden.",
+                "no-usages-left": "Diese Gruppeneinladung kann nicht mehr verwendet werden."
+            },
+            "apply": "der Gruppe beitreten",
+            "success-alert": "Du bist der Gruppe erfolgreich beigetreten!"
+        },
+        "admin": {
+            "permissions": {
+                "use": "Links für Gruppeneinladungen verwenden"
+            },
+            "settings": {
+                "head": {
+                    "code": "Code",
+                    "group": "Gruppe",
+                    "usage": "Benutzung"
+                },
+                "placeholder": {
+                    "code": "Automatisch erstellt",
+                    "group": "Auswahl…",
+                    "usage": "Leer für unbegrenzt"
+                },
+                "empty": "Bisher wurden noch keine Einladungen erstellt.",
+                "unlimited": "unbegrenzt",
+                "create": "Erstellen",
+                "delete": "Löschen"
+            }
+        },
+        "api": {
+            "error": {
+                "not-found": "Einladungscode nicht gefunden",
+                "no-usages-left": "Einladung kann nicht mehr verwendet werden"
+            }
+        }
+    }
+}

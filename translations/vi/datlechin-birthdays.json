@@ -1,0 +1,53 @@
+{
+    "datlechin-birthdays": {
+        "admin": {
+            "permissions": {
+                "edit_own_birthday_label": "Chỉnh sửa ngày sinh của chính mình",
+                "view_birthday_label": "Xem sinh nhật"
+            },
+            "settings": {
+                "set_on_registration_label": "Cho phép đặt ngày sinh khi đăng ký",
+                "required_label": "Bắt buộc nhập ngày sinh",
+                "required_help": "Bạn cần bật tùy chọn bên trên để tùy chọn này hoạt động",
+                "min_age_label": "Tuổi tối thiểu",
+                "min_age_help": "Tuổi tối thiểu để đăng ký",
+                "date_format_label": "Định dạng ngày sinh",
+                "date_format_help": "Sử dụng định dạng <a>dayjs</a>. Để trống để sử dụng định dạng mặc định.",
+                "date_none_year_label": "Định dạng ngày sinh không có năm"
+            }
+        },
+        "forum": {
+            "user": {
+                "birthday_text": "Sinh nhật: {date}",
+                "age_text": "Tuổi: {age}"
+            },
+            "header": {
+                "edit_dob_button": "Sửa ngày sinh"
+            },
+            "change_dob": {
+                "title": "Chỉnh sửa ngày sinh",
+                "date_of_birth_text": "Ngày sinh",
+                "submit_button": "=> core.ref.save_changes",
+                "show_dob_date": "Hiển thị ngày và tháng sinh",
+                "show_dob_year": "Hiển thị năm sinh",
+                "show_dob_year_help": "Điều này sẽ cho phép mọi người xem tuổi của bạn."
+            },
+            "settings": {
+                "change_dob_label": "Sửa ngày sinh",
+                "dob_heading": "Ngày sinh",
+                "show_dob_date_label": "Hiển thị ngày tháng sinh",
+                "show_dob_year_label": "Hiển thị năm sinh",
+                "show_dob_year_help": "Cho phép mọi người có thể nhìn thấy tuổi của bạn.",
+                "birthday_heading": "Sinh nhật"
+            },
+            "edit_user": {
+                "dob_heading": "Ngày sinh",
+                "birthdays_heading": "Ngày sinh"
+            }
+        },
+        "api": {
+            "invalid_dob_message": "Ngày sinh của bạn không hợp lệ",
+            "invalid_age_message": "Tuổi của bạn phải từ {minAge} tuổi trở lên."
+        }
+    }
+}

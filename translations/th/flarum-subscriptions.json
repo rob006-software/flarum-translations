@@ -1,0 +1,50 @@
+{
+    "flarum-subscriptions": {
+        "forum": {
+            "badge": {
+                "following_tooltip": "=> flarum-subscriptions.ref.following",
+                "ignoring_tooltip": "=> flarum-subscriptions.ref.ignoring"
+            },
+            "discussion_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "unfollow_button": "เลิกติดตาม",
+                "unignore_button": "เลิกเพิกเฉย"
+            },
+            "following": {
+                "meta_title_text": "=> flarum-subscriptions.ref.following"
+            },
+            "index": {
+                "following_link": "=> flarum-subscriptions.ref.following"
+            },
+            "notifications": {
+                "new_post_text": "{username} โพสต์ใหม่แล้ว"
+            },
+            "settings": {
+                "follow_after_reply_label": "ติดตามกระทู้ที่ฉันตอบกลับโดยอัตโนมัติ",
+                "notify_new_post_label": "เมื่อมีคนโพสต์ในกระทู้ที่ฉันกำลังติดตาม"
+            },
+            "sub_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "following_button": "=> flarum-subscriptions.ref.following",
+                "following_text": "รับแจ้งเตือบจากการตอบกลับทั้งหมด",
+                "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
+                "ignoring_text": "ไม่รับการแจ้งเตือนและซ่อนจากรายการกระทู้",
+                "not_following_button": "ไม่ติดตาม",
+                "not_following_text": "แจ้งเตือนเฉพาะตอนที่มีคนกล่าวถึง",
+                "notify_alert_tooltip": "รับการแจ้งเตือนเมื่อมีโพสต์ใหม่",
+                "notify_email_tooltip": "รับอีเมลเมื่อมีโพสต์ใหม่"
+            }
+        },
+        "email": {
+            "new_post": {
+                "subject": "[New Post] {title}",
+                "body": "สวัสดี {recipient_display_name}!\n\n{poster_display_name} ได้โพสต์ในกระทู้ที่คุณกำลังติดตาม: {title}.\n\nหากคุณต้องการดูโพสต์ ไปที่ลิงก์นี้:\n{url}\n\n---\n\n{content}\n\n---\n\nคุณจะไม่ได้รับการแจ้งเตือนเกี่ยวกับกระทู้นี้อีกจนกว่าคุณจะเข้าไปดูโพสต์ล่าสุด\n"
+            }
+        },
+        "ref": {
+            "follow": "ติดตาม",
+            "following": "กำลังติดตาม",
+            "ignoring": "เพิกเฉย"
+        }
+    }
+}

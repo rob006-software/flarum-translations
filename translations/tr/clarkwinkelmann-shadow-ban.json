@@ -1,0 +1,39 @@
+{
+    "clarkwinkelmann-shadow-ban": {
+        "admin": {
+            "setting": {
+                "hideUsers": "Gizlice askıya alınmış kullanıcıların profillerini gizle"
+            },
+            "permission": {
+                "ban": "Gizlice askıya alınmış kullanıcılar",
+                "hide": "Tartışmalarını ve gönderilerini gizle"
+            }
+        },
+        "forum": {
+            "discussionControl": {
+                "hide": "Gizlice sakla",
+                "restore": "Gizlice geri getir"
+            },
+            "postControl": {
+                "hide": "Gizlice gizle",
+                "restore": "Gizlice geri getir"
+            },
+            "userControl": {
+                "ban": "Gizlice yasakla"
+            },
+            "banUser": {
+                "title": "{username} askıya al",
+                "until": "Şu tarihe kadar (UTC)",
+                "quick": "Hızlı kararlar",
+                "quickChoiceReset": "Askıda değil",
+                "quickChoiceDays": "{count, plural, one {# gün} other {# gün}}",
+                "submit": "Kaydet"
+            },
+            "badge": {
+                "user": "Gizlice askıya alınmış",
+                "discussion": "Gizlice gizle",
+                "post": "Gizlice gizle"
+            }
+        }
+    }
+}

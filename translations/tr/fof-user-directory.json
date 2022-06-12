@@ -8,6 +8,10 @@
                 "users_heading": "Tüm kullanıcılarda ara \"{query}\"",
                 "field": {
                     "placeholder": "Tüm kullanıcılarda ara"
+                },
+                "kinds": {
+                    "group": "Grup",
+                    "text": "Serbest metin"
                 }
             },
             "page": {
@@ -15,7 +19,11 @@
                 "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
                 "load_more_button": "=> core.ref.load_more",
                 "empty_text": "Aramanızla eşleşen bir kullanıcı bulamadık.",
-                "filter_button": "Grupları Filtrele"
+                "filter_button": "Grupları Filtrele",
+                "usercard": {
+                    "discussion-count": "{count, plural, one { {count} tartışma} other {{count} tartışma}}",
+                    "post-count": "{count, plural, one { {count} gönderi} other {{count} gönderi}}"
+                }
             }
         },
         "admin": {
@@ -25,7 +33,8 @@
             "settings": {
                 "link": "Kullanıcı listesinin görülebilmesi için anasayfaya bağlantı ekle",
                 "default-sort": "Varsayılan sıralama",
-                "use-small-cards": "Küçük kullanıcı kartlarını kullan"
+                "use-small-cards": "Küçük kullanıcı kartlarını kullan",
+                "disable-global-search-source": "Flarum genel arama alanına Kullanıcı Listesini eklemeyin"
             }
         },
         "lib": {

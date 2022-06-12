@@ -2,28 +2,28 @@
     "core": {
         "forum": {
             "index_sort": {
-                "popular_button": "",
-                "unpopular_button": ""
+                "popular_button": "Populaire",
+                "unpopular_button": "Impopulaire"
             }
         }
     },
     "flarumite-simple-discussion-views": {
         "forum": {
             "modal_resetviews": {
-                "title": "",
-                "submit": "",
-                "label": ""
+                "title": "Réinitialiser le nombre de vues de la discussion",
+                "submit": "Envoyer",
+                "label": "Définir le nombre de vues"
             },
             "discussion_controls": {
-                "resetviews_button": ""
+                "resetviews_button": "Définir le nombre de vues"
             }
         },
         "admin": {
             "permissions": {
-                "reset_views_label": ""
+                "reset_views_label": "Définir les vues de la discussion"
             },
             "settings": {
-                "ignore_crawlers": ""
+                "ignore_crawlers": "Ignorer les visites des robots"
             }
         }
     }

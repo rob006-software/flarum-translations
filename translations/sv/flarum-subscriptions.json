@@ -1,0 +1,50 @@
+{
+    "flarum-subscriptions": {
+        "forum": {
+            "badge": {
+                "following_tooltip": "=> flarum-subscriptions.ref.following",
+                "ignoring_tooltip": "=> flarum-subscriptions.ref.ignoring"
+            },
+            "discussion_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "unfollow_button": "Sluta följa",
+                "unignore_button": "Sluta ignorera"
+            },
+            "following": {
+                "meta_title_text": ""
+            },
+            "index": {
+                "following_link": "=> flarum-subscriptions.ref.following"
+            },
+            "notifications": {
+                "new_post_text": "{username} skrev"
+            },
+            "settings": {
+                "follow_after_reply_label": "Följ automatiskt trådar som jag svarar i",
+                "notify_new_post_label": "Någon skriver i en tråd som jag följer"
+            },
+            "sub_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "following_button": "=> flarum-subscriptions.ref.following",
+                "following_text": "Få notiser om alla svar.",
+                "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
+                "ignoring_text": "Få aldrig notiser. Göm från diskussionslistan.",
+                "not_following_button": "Följer inte",
+                "not_following_text": "Få notis endast när du blir @omnämnd.",
+                "notify_alert_tooltip": "Få notiser från forumet när det finns nya inlägg",
+                "notify_email_tooltip": "Få ett mail när det finns nya inlägg"
+            }
+        },
+        "email": {
+            "new_post": {
+                "subject": "",
+                "body": ""
+            }
+        },
+        "ref": {
+            "follow": "Följ",
+            "following": "Följer",
+            "ignoring": "Ignorerar"
+        }
+    }
+}

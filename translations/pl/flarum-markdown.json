@@ -1,16 +1,33 @@
 {
     "flarum-markdown": {
+        "lib": {
+            "composer": {
+                "bold_tooltip": "Dodaj pogrubienie",
+                "code_tooltip": "Wstaw kod",
+                "header_tooltip": "Wstaw nagłówek",
+                "image_tooltip": "Wstaw obrazek",
+                "italic_tooltip": "Dodaj kursywę",
+                "link_tooltip": "Wstaw link",
+                "ordered_list_tooltip": "Wstaw listę numerowaną",
+                "quote_tooltip": "Wstaw cytat",
+                "spoiler_tooltip": "Wstaw spoiler",
+                "strikethrough_tooltip": "Dodaj przekreślenie",
+                "unordered_list_tooltip": "Wstaw listę punktowaną"
+            }
+        },
         "forum": {
             "composer": {
                 "bold_tooltip": "Dodaj pogrubienie",
                 "code_tooltip": "Wstaw kod",
-                "header_tooltip": "Dodaj nagłówek",
-                "image_tooltip": "Dodaj obrazek",
+                "header_tooltip": "Wstaw nagłówek",
+                "image_tooltip": "Wstaw obrazek",
                 "italic_tooltip": "Dodaj kursywę",
-                "link_tooltip": "Dodaj link",
-                "ordered_list_tooltip": "Dodaj listę numerową",
+                "link_tooltip": "Wstaw link",
+                "ordered_list_tooltip": "Wstaw listę numerowaną",
                 "quote_tooltip": "Wstaw cytat",
-                "unordered_list_tooltip": "Dodaj listę punktową"
+                "spoiler_tooltip": "Wstaw spoiler",
+                "strikethrough_tooltip": "Dodaj przekreślenie",
+                "unordered_list_tooltip": "Wstaw listę punktowaną"
             }
         }
     }

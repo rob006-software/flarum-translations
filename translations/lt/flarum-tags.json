@@ -1,0 +1,93 @@
+{
+    "flarum-tags": {
+        "admin": {
+            "basics": {
+                "tags_label": "=> flarum-tags.ref.tags"
+            },
+            "edit_tag": {
+                "color_label": "=> core.ref.color",
+                "delete_tag_button": "Pašalinti žymą",
+                "delete_tag_confirmation": "Ar tikrai norite ištrinti šią žymą? Žymos diskusijos NEBUS ištrintos.",
+                "description_label": "Aprašymas",
+                "hide_label": "Slėpti nuo visų diskusijų",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "=> flarum-tags.ref.name",
+                "name_placeholder": "=> flarum-tags.ref.name",
+                "slug_label": "Slug",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Sukurti žymą"
+            },
+            "nav": {
+                "tags_button": "=> flarum-tags.ref.tags",
+                "tags_text": "Tvarkykite žymų, su kuriomis galite organizuoti diskusijas, sąrašą."
+            },
+            "permissions": {
+                "allow_edit_tags_label": "Leisti redaguoti žymą",
+                "bypass_tag_counts_label": "Apeiti žymos reikalavimus",
+                "restrict_by_tag_heading": "Apriboti pagal žymą",
+                "tag_discussions_label": "Pažymėkite diskusijas"
+            },
+            "tag_settings": {
+                "range_separator_text": " į ",
+                "required_primary_heading": "Būtinas pirminių žymų skaičius",
+                "required_primary_text": "Įveskite mažiausią ir didžiausią pagrindinių žymų, kurios gali būti pritaikytos diskusijai, skaičių.",
+                "required_secondary_heading": "Reikalingas antrinių žymų skaičius",
+                "required_secondary_text": "Įveskite mažiausią ir didžiausią antrinių žymų, kurios gali būti pritaikytos diskusijai, skaičių.",
+                "title": "Žymės nustatymai"
+            },
+            "tags": {
+                "about_tags_text": "Žymos naudojamos diskusijoms skirstyti į kategorijas. Pirminės žymos yra kaip tradicinės forumo kategorijos: jas galima suskirstyti į dviejų lygių hierarchiją. Antrinės žymos neturi hierarchijos ar tvarkos ir yra naudingos mikrokategorijoms.",
+                "create_primary_tag_button": "Sukurkite pirminę žymą",
+                "create_secondary_tag_button": "Sukurkite antrinę žymą",
+                "primary_heading": "Pirminės žymos",
+                "secondary_heading": "Antrinės žymos",
+                "settings_heading": "Nustatymai"
+            }
+        },
+        "forum": {
+            "all_tags": {
+                "meta_description_text": "Visos žymės",
+                "meta_title_text": "=> flarum-tags.ref.tags"
+            },
+            "choose_tags": {
+                "bypass_requirements": "Apeiti žymos reikalavimus",
+                "choose_primary_placeholder": "{count, plural, one {Choose a primary tag} other {Choose # primary tags}}",
+                "choose_secondary_placeholder": "{count, plural, one {Pasirinkite dar 1 žymą} other {Pasirinkite dar # žymas}}",
+                "edit_title": "Redaguoti žymes {title} temai",
+                "submit_button": "=> core.ref.okay",
+                "title": "Pasirinkite etiketes jūsų temai"
+            },
+            "composer_discussion": {
+                "choose_tags_link": "Pasirinkti etiketes"
+            },
+            "discussion_controls": {
+                "edit_tags_button": "Redaguoti etiketes"
+            },
+            "header": {
+                "back_to_tags_tooltip": "Atgal į etikečių sąrašą"
+            },
+            "index": {
+                "more_link": "Daugiau...",
+                "tags_link": "=> flarum-tags.ref.tags",
+                "untagged_link": "Be etikečių"
+            },
+            "post_stream": {
+                "added_and_removed_tags_text": "{username} pridėjo {tagsAdded} šias ir pašalino {tagsRemoved} šias etiketes.",
+                "added_tags_text": "{username} pridėjo {tagsAdded} šias etiketes.",
+                "removed_tags_text": "{username} pašalino {tagsRemoved} šias etiketes.",
+                "tags_text": "{count, plural, one {{tags} žyma} other {{tags} žymės}}"
+            },
+            "tag": {
+                "meta_description_text": "Visos temos su {tag} etikete"
+            }
+        },
+        "lib": {
+            "deleted_tag_text": "Ištrinta"
+        },
+        "ref": {
+            "name": "Pavadinimas",
+            "tags": "Žymės"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "expired-posts": {
+        "forum": {
+            "composer": {
+                "warning": {
+                    "title": "过期内容",
+                    "description": "此贴已过期。",
+                    "error": "主题帖已过期。"
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "days_label": "时效",
+                "days_help": "距最新回复日期超过一定天数，仍未收到回复的主题帖会被标记为过期。输入 <code>0</code> 禁用此功能。",
+                "message_title_label": "自定义提示标题",
+                "message_title_help": "你可以使用 <code>[time]</code> 变量表示间隔时间，如「已经无回复 {time} 之久了」。",
+                "message_description_label": "自定义提示描述",
+                "tags_title": "标签",
+                "tags_help": "为每个标签单独设置判断主题帖过期的天数，留空表示使用默认天数。如果一个主题添加了多个标签，则取标签中最短的天数作为判断标准。"
+            }
+        }
+    }
+}

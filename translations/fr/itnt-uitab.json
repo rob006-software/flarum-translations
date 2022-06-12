@@ -2,8 +2,14 @@
     "itnt-uitab": {
         "admin": {
             "settings": {
-                "help_text": "",
-                "home_page_label": ""
+                "help_text": "Si votre forum Flarum est installé dans un sous-répertoire, veuillez spécifier le sous-répertoire ci-dessous (en terminant par une barre oblique), auquel cas veuillez laisser la valeur par défaut, par exemple <code>/sub/</code>",
+                "home_page_label": "Sous-répertoire",
+                "discussions_icon_label": "Icône de discussion",
+                "tags_icon_label": "Icône d'étiquettes",
+                "composer_icon_label": "Icône du compositeur",
+                "settings_icon_label": "Icône de paramètres",
+                "notifications_icon_label": "Icône de notifications",
+                "icon_help": "Laissez vide pour utiliser l'icône par défaut."
             }
         }
     }

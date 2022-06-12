@@ -2,32 +2,32 @@
     "clarkwinkelmann-predefined-avatars": {
         "admin": {
             "settings": {
-                "predefinedAvatarsOnly": "",
-                "predefinedAvatarsOnlyHelp": "",
-                "predefinedAvatarsNoRemove": "",
-                "predefinedAvatarsNoRemoveHelp": "",
-                "predefinedAvatarsDefault": "",
-                "predefinedAvatarsDefaultHelp": "",
-                "predefinedAvatars": "",
-                "predefinedAvatarsHelp": "",
+                "predefinedAvatarsOnly": "Solo permitir avatares predefinidos",
+                "predefinedAvatarsOnlyHelp": "Elimina la posibilidad de subir imágenes de avatar personalizadas a menos que tengas el permiso que se indica a continuación.",
+                "predefinedAvatarsNoRemove": "Evitar la configuración sin avatar",
+                "predefinedAvatarsNoRemoveHelp": "Los usuarios que ya tienen un avatar personalizado o predefinido no podrán volver al avatar \"inicial\" por defecto a menos que tengan el permiso que se indica a continuación.",
+                "predefinedAvatarsDefault": "Avatar predeterminado",
+                "predefinedAvatarsDefaultHelp": "Se aplica a los nuevos usuarios al registrarse.",
+                "predefinedAvatars": "Avatares disponibles",
+                "predefinedAvatarsHelp": "Los archivos no se redimensionan ni se convierten. Asegúrate de redimensionarlos, comprimirlos y exportarlos en el formato que prefieras antes de subirlos. Flarum funciona mejor con imágenes cuadradas 100x100 png o jpg, pero puedes aprovechar otras resoluciones con CSS personalizado.\n",
                 "defaultOptions": {
-                    "none": "",
-                    "first": "",
-                    "random": ""
+                    "none": "Sin avatar",
+                    "first": "Primer avatar de la lista",
+                    "random": "Avatar aleatorio de la lista"
                 }
             },
             "permissions": {
-                "setPredefinedAvatar": "",
-                "setCustomAvatarAlways": ""
+                "setPredefinedAvatar": "Elige un avatar de la lista predefinida",
+                "setCustomAvatarAlways": "Establecer un avatar personalizado en cualquier momento"
             }
         },
         "forum": {
             "modal": {
-                "title": "",
-                "imageAlt": ""
+                "title": "Elige un avatar",
+                "imageAlt": "Avatar"
             },
             "editor": {
-                "setPredefinedAvatar": ""
+                "setPredefinedAvatar": "Elige un avatar predefinido"
             }
         }
     }

@@ -1,0 +1,14 @@
+{
+    "blomstra-search": {
+        "admin": {
+            "elastic-endpoint": "Elastinis galutinis taškas",
+            "elastic-username": "=> core.ref.username",
+            "elastic-password": "=> core.ref.password",
+            "elastic-index": "Indeksas",
+            "analyzer": {
+                "label": "Analizatoriaus kalba",
+                "help": "Analizatorius leidžia paieškai suprasti stop žodžius ir imasi kalbos\nkonkretūs indeksavimo patobulinimai.\n"
+            }
+        }
+    }
+}

@@ -3,10 +3,10 @@
         "admin": {
             "edit_link": {
                 "delete_link_button": "Supprimer le lien",
-                "delete_link_confirmation": "Êtes-vous sûr de vouloir supprimer ce lien?",
+                "delete_link_confirmation": "Êtes-vous sûr de vouloir supprimer ce lien ?",
                 "everyone-label": "Tout le monde",
                 "guests-label": "Invités",
-                "internal_link": "Est-ce un lien Flarum?",
+                "internal_link": "Est-ce un lien interne ?",
                 "members-label": "Utilisateurs enregistrés",
                 "open_newtab": "Ouvrir le lien dans un nouvel onglet",
                 "submit_button": "=> core.ref.save_changes",
@@ -15,6 +15,7 @@
                 "title_placeholder": "=> fof-links.ref.title",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
+                "url_description": "Laissez vide pour afficher comme un label.",
                 "url_label": "=> fof-links.ref.url",
                 "url_placeholder": "=> fof-links.ref.url",
                 "visibility": "Visibilité du lien"
@@ -28,7 +29,7 @@
             "create_link": "Créer un lien",
             "links": "Liens",
             "title": "Titre",
-            "url": "Url"
+            "url": "URL"
         }
     }
 }

@@ -1,0 +1,20 @@
+{
+    "nearata-dsts": {
+        "admin": {
+            "permissions": {
+                "can_bypass_like": "Can bypass like",
+                "can_bypass_reply": "Can bypass reply"
+            },
+            "settings": {
+                "require_like": "Require like",
+                "require_like_help": "Note: Requires Flarum Likes extension.",
+                "require_reply": "Require reply"
+            }
+        },
+        "forum": {
+            "like": "You must like the post to see the content.",
+            "login": "You must login to see the content.",
+            "reply": "You must reply to the discussion to see the content."
+        }
+    }
+}

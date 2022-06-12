@@ -1,0 +1,43 @@
+{
+    "afrux-theme-base": {
+        "admin": {
+            "extensions": {
+                "title": "Kengaytmalar",
+                "description": "Barcha o'rnatilgan kengaytmalar ro'yxati."
+            },
+            "extension": {
+                "sections": {
+                    "content": "Asosiy sozlamalar",
+                    "permissions": "Ruxsatlar"
+                }
+            },
+            "header": {
+                "go_back": "Forumga qaytish"
+            },
+            "users": {
+                "grid": {
+                    "columns": {
+                        "avatar": {
+                            "title": "Avatar"
+                        }
+                    }
+                }
+            },
+            "settings": {
+                "edit_footer_links": "Footer havolalarini tahrir qilish",
+                "footer_description": "Footer tavsifi",
+                "footer_bottom_line": "Footer tagchizig'i",
+                "hero_banner": "Xush kelibsiz qahramon tasviri",
+                "hero_banner_position": "Qahramon tasvirining CSS pozitsiyasi (misol: 'center top' yoki 'center 20%')",
+                "links_modal": {
+                    "add_group": "Yangi havolalar guruhi",
+                    "group_name": "Guruh nomi: {raqam}",
+                    "group_title": "Guruh sarlavhasini bog'lash",
+                    "add_link": "Havolani qo'shing",
+                    "link_url": "Havola URL",
+                    "link_label": "Havola yorlig'i"
+                }
+            }
+        }
+    }
+}

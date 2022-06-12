@@ -1,0 +1,26 @@
+{
+    "clarkwinkelmann-external-email-validation": {
+        "admin": {
+            "settings": {
+                "method": "Request Method",
+                "uri": "Request URI",
+                "uri-help": "You can insert shortcodes to be replaced with the email value, see README.",
+                "body": "Request Body",
+                "body-help": "You can insert shortcodes to be replaced with the email value, see README.",
+                "headers": "Request Headers",
+                "headers-help": "One header per line",
+                "use-response-status": "Use HTTP response status for validity status",
+                "use-response-status-help": "2xx responses will be considered valid. 4xx responses will be considered invalid.",
+                "response-success-key": "Path to JSON attribute with valid status",
+                "response-success-key-help": "Path in format <code>key1.key2.key3</code>. Will be extracted with Laravel <code>Arr::get</code> helper. Value will be cast to boolean. Only has effect is HTTP status is not used. Exception will be thrown if response is not valid JSON.\n",
+                "default-error-message": "Default error message",
+                "default-error-message-help": "This message will be shown to the user when the email validation fails if no other message can be found. If you need this message to be translated, leave the field empty and customize the built-in default error message with Linguist.\n",
+                "response-error-key": "Path to JSON attribute with error message",
+                "response-error-key-help": "Path in format <code>key1.key2.key3</code>. Will be extracted with Laravel <code>Arr::get</code> helper. The default error message will be shown if this key is not found.\n"
+            }
+        },
+        "api": {
+            "email-validation-error": "Email did not pass external validation."
+        }
+    }
+}

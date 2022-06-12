@@ -1,0 +1,93 @@
+{
+    "askvortsov-pwa": {
+        "admin": {
+            "nav": {
+                "pwa_button": "Progressiv veb-ilova",
+                "pwa_text": "Flarum-ni mobil qurilmalarga o'rnatilishi mumkin bo'lgan progressiv veb-ilova sifatida sozlang."
+            },
+            "pwa": {
+                "about": {
+                    "description_label": "Tavsif",
+                    "description_text": "Taʼrifni administrator boshqaruv panelidagi “Asosiy maʼlumotlar” sahifasida oʻrnatishingiz mumkin.",
+                    "long_name_label": "Uzoq ism",
+                    "long_name_text": "Foydalanuvchiga ko'rsatiladigan veb-ilovaning nomi.",
+                    "heading": "Haqida",
+                    "short_name_label": "Qisqa nom",
+                    "short_name_text": "Agar uzun nom uchun etarli joy bo'lmasa, foydalanuvchiga ko'rsatiladigan dastur nomi."
+                },
+                "colors": {
+                    "heading": "Ranglar",
+                    "background_color_label": "Fon rangi",
+                    "background_color_text": "Bu PWA yuklanayotganda ko'rsatiladigan ekran uchun joy ushlagich rangi sifatida ishlatiladi. Ilova haqiqatda yuklanganda foydalanilmaydi.",
+                    "theme_color_label": "Mavzu rangi",
+                    "theme_color_text": "Bu rang baʼzan qurilmalar tomonidan ilovangizni koʻrsatayotganda, masalan, Android-ning vazifa almashtirgichida saytni oʻrab turgan rang sifatida ishlatiladi."
+                },
+                "maintenance": {
+                    "heading": "Xizmat",
+                    "debug_label": "Nosozliklarni tuzatish rejimi?",
+                    "debug_text": "Bu bildirishnomalar haqidagi maʼlumotlarni “saqlash/jurnallar”ga kiritadi. Jurnallarni keraksiz ravishda to'ldirmaslik uchun uni odatda o'chirib qo'yish kerak.",
+                    "reset_vapid_text": "Bu VAPID kalitlarini qayta tiklaydi va joriy VAPID kalitlari yordamida mavjud obunalarni o‘chirib tashlaydi.",
+                    "reset_vapid_confirm": "VAPID kalitlarini qayta o'rnatish mavjud kalitlar yordamida obunalarni o'chirib tashlaydi, shuning uchun foydalanuvchilar keyingi safar saytingizga tashrif buyurishlariga qadar hech qanday bildirishnomalarni olmaydilar. Buni faqat push-bildirishnomalarni birinchi marta o'rnatishda yoki push-bildirishnomalar umuman ishlamasa va yuqorida VAPID tugmalari etishmayotganligi haqida ogohlantirish mavjud bo'lganda amalga oshirilishi kerak.",
+                    "reset_vapid_success": "VAPID kalitlari qayta tiklandi. {count} ta obuna qayta tiklandi. Yangilangan holat tekshiruvi hisobotini koʻrish uchun sahifani qayta yuklang."
+                },
+                "other": {
+                    "heading": "Boshqa",
+                    "force_portrait_text": "Portret orientatsiyasi majburlansinmi?"
+                },
+                "heading": "Progressiv veb-ilova konfiguratsiyasi",
+                "text": "Flarum saytingizni progressiv veb-ilova sifatida ishlash uchun sozlang! Shuni esda tutingki, bu sizning saytingizni ilovalar do'koniga avtomatik ravishda joylashtirmaydi. Buning o'rniga, bu foydalanuvchilarda saytingiz uchun \"Bosh ekranga qo'shish\" tanlovi mavjudligini anglatadi. Biz ba'zi holat tekshiruvlarini taqdim etamiz, ammo buni sinab ko'rishning eng yaxshi usuli uni sinab ko'rish va o'rnatishdir (progressiv veb-ilovalarni o'rnatish bo'yicha ko'rsatmalarni Google-dan qidiring). Shuni ham yodda tutingki, \"ushbu PWA o'rnatish\" qalqib chiquvchi oynalari brauzerlar tomonidan boshqariladi va ularni ishlab chiquvchilar/administratorlar/dasturlar ishga tushirib bo'lmaydi. Saytingiz hujjatlariga PWA-ni qanday o'rnatish bo'yicha ko'rsatmalarni qo'shishni tavsiya qilaman.",
+                "status_check_heading": "Holat tekshiruvi",
+                "logo_heading": "Logotiplar va ikonkalar",
+                "logo_text": "Ilg'or veb-ilovangiz o'rnatilishi uchun kamida bitta logotipni yuklashingiz kerak. E'tibor bering, barcha logotiplar kvadrat bo'lishi kerak; agar ular bo'lmasa, ular o'lchamlari o'zgartiriladi va ehtimol cho'ziladi.\n\nQuyida bir nechta o'lcham variantlari mavjud. Iloji boricha ko'proq logotip yuklashni tavsiya qilaman: bu ko'proq qurilmalarni qo'llab-quvvatlaydi.\n\nIltimos, kichikroq logotiplar uchun kirishlarga 1 ta katta logotipni yuklashingiz mumkinligini unutmang. Masalan, quyida keltirilgan barcha fayl kiritishlariga 1000px x 1000px logotipini yuklashingiz mumkin. Biroq, 512x512 kiritishga 50px x 50px logotipini yuklamoqchi boʻlsangiz, u ancha choʻziladi.\n",
+                "logo_size_text": "{size} piksel oʻlchamiga {size} piksel oʻlchamli logotipni yuklang.",
+                "submit_button": "Sozlamalarni saqlash",
+                "refreshed_message": "PWA konfiguratsiyasi muvaffaqiyatli yangilandi."
+            },
+            "status": {
+                "config_no_https": "config.php faylingizdagi url HTTPSdan foydalanmayapti. Progressive Web Apps ishlashi uchun HTTPS talab qilinadi.",
+                "possible_https_disabled": "Sizning saytingiz HTTPS da ishlamayotgan bo'lishi mumkin. Keshni tozalash (administrator paneli sahifasi => asboblar tugmasi) yordam berishi mumkin. Agar shunday bo'lsa, bunga e'tibor bermang. Agar shunday bo'lmasa, Progressive Web Apps ishlashi uchun HTTPS talab qilinishini yodda tuting.",
+                "no_logo": "Ilovangiz ishlashi uchun kamida 196px oʻlchamli kamida bitta logotip yuklashingiz kerak.",
+                "no_name": "Ilovangiz ishlashi uchun siz toʻliq nom koʻrsatishingiz kerak.",
+                "no_vapid_keys": "Hech qanday VAPID kalit topilmadi. Bular push-bildirishnomalarni yuborish uchun talab qilinadi. Quyida VAPID kalitlarini qayta oʻrnatishingiz mumkin.",
+                "key_gen_failed": "Push-bildirishnomalar uchun zarur kalitlarni yaratish muvaffaqiyatsiz tugadi. Toʻliq xato xabari: {error}",
+                "suggest_gmp": "Gmp PHP kengaytmasi serveringizda yoqilmaganga o'xshaydi. Bu juda zarur emas, lekin ishlashni yaxshilashi mumkin va tavsiya etiladi. Ba'zi umumiy xostlar buni qo'llab-quvvatlamasligi mumkin.",
+                "success": "Potentsial muammolar topilmadi!"
+            }
+        },
+        "forum": {
+            "alerts": {
+                "optin": "Sizda push bildirishnomalari yoqilgan, lekin bu qurilmani sozlamagansiz.",
+                "optin_button": "Sozlang"
+            },
+            "discussion_controls": {
+                "share_button": "Ulashish"
+            },
+            "post_controls": {
+                "share_button": "Ulashish",
+                "share_api": {
+                    "title": "{username}ning {title}'ga javobi"
+                }
+            },
+            "user_controls": {
+                "share_button": "Ulashish"
+            },
+            "settings": {
+                "push_header": "Bosish",
+                "pwa_notifications": {
+                    "access_default": "Brauzer cheklovlari tufayli siz ushbu qurilmada push-bildirishnomalarni qabul qilishni tanlashingiz kerak.",
+                    "access_default_button": "Ro‘yxatdan o‘tish",
+                    "access_denied": "Ushbu qurilmada push-bildirishnomalarni olish uchun brauzer sozlamalarini sozlashingiz kerak.",
+                    "access_denied_button": "Qanday qilib",
+                    "no_browser_support": "Ushbu brauzer progressiv veb-ilovalar uchun push-bildirishnomalarni qo'llab-quvvatlamaydi.",
+                    "no_browser_support_button": "Batafsil ma'lumot"
+                }
+            }
+        },
+        "views": {
+            "offline": {
+                "header": "Tarmoqqa ulanish xatosi",
+                "text": "Bu ilova tarmoq ulanishini talab qiladi; uni oflayn rejimda ishlatib bo'lmaydi. Iltimos, ulanishingizni tekshiring."
+            }
+        }
+    }
+}

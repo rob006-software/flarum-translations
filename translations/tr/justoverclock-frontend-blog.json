@@ -1,0 +1,30 @@
+{
+    "justoverclock-frontend-blog": {
+        "admin": {
+            "numberOfPost": "Gönderi Sayısı",
+            "setBlogIndexPage": "Ön Uç Blog uzantısını ana sayfa olarak ayarla",
+            "numberOfPost-help": "Görüntülemek istediğiniz gönderi sayısını buraya yazın",
+            "sorting": "Son veya Popüler Tartışmalar? (varsayılan en sondur)",
+            "sorting-help": "En son tartışmaları görüntülemek istiyorsanız \"-createdAt\" yazın, sıcak tartışmalar için \"-commentCount\" yazın",
+            "charLim": "Karakter Sınırı",
+            "charLim-help": "Görüntülenecek maksimum karakter sayısını buraya koyun",
+            "defaultImage": "Varsayılan Gönderi Resmi",
+            "defaultImage-help": "Burada, olmayan gönderiler için varsayılan resmi tanımlayabilirsiniz",
+            "showHeaderHero": "Karşılama Başlığını Göster",
+            "showPinnedDiscussions": "Son 3 Sabitlenmiş Tartışmayı Göster"
+        },
+        "forum": {
+            "recentDiscussions": "Son Tartışmalar:",
+            "titlePage": "Forum Tartışmaları",
+            "post": "{count, plural, one {# GÖNDERİ} other {# GÖNDERİLER}}",
+            "linkToDiscussion": " Tartışma Bağlantısı",
+            "postedOn": " Yayınlanan: ",
+            "menuButton": "Menü",
+            "allDiscussions": "Forum",
+            "signupButton": "Kayıt ol",
+            "loginButton": "Giriş yap",
+            "stickyTitle": "Sabitlenmiş Tartışmalar",
+            "readMore": "Daha fazla oku"
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "fof-stopforumspam": {
+        "admin": {
+            "settings": {
+                "introduction": "Verifica novos registros de usuários no banco de dados <a>StopForumSpam</a>. Se os limites de <code>confiança</code> ou <code>frequência</code> forem atingidos, o usuário será impedido de concluir seu registro em seu fórum.\n\nO registro SSO via <code>fof/oauth</code> e <code>fof/passport</code> também é suportado. Outros provedores de SSO devem funcionar, mas não foram testados.\n",
+                "username_label": "Verificação de spam de nome de usuário",
+                "ip_label": "Verificação de spam de endereço IP",
+                "email_label": "Verificação de spam por e-mail",
+                "frequency_label": "Limite",
+                "frequency_help": "O número de relatórios de spam entre todas as verificações habilitadas que acionarão o filtro de spam.\nEx: Se o email tiver 1 hit, e o ip tiver 2 hits, serão 3 hits no total. Se o limite for definido como 3 ou menos, impediremos o registro.\n",
+                "api_key_label": "Chave API",
+                "api_key_text": "Você ativou o fof/spamblock, agora tem a opção de reportar spammers ao StopForumSpam para manter a comunidade do fórum livre de spam.",
+                "api_key_instructions_text": "<register>Inscreva-se no StopForumSpam</register>. Então você precisará <key>obter uma chave de API</key>.",
+                "regional_endpoint_label": "Acesso geográfico",
+                "regional_endpoint_help": "Por padrão, direcionaremos a pesquisa para o servidor regional mais próximo para fornecer a resposta mais rápida. Caso deseje restringir o tráfego a uma região específica, como para conformidade com os regulamentos de privacidade da empresa ou do país, você pode forçar uma conexão com uma região específica.",
+                "region_closest_label": "Mais próximo",
+                "region_europe_label": "Europa",
+                "region_us_label": "Estados Unidos",
+                "confidence_label": "Confiança",
+                "confidence_help": "A pontuação de confiança é um indicador razoavelmente bom de que o campo sob teste resultaria em atividade indesejada. Defina seu nível de confiança como uma porcentagem. Caso o campo seja igual ou superior a este valor, o cadastro será bloqueado, independente do teste de 'frequência' acima.",
+                "email_hash_label": "Usar endereço de e-mail com hash",
+                "email_hash_help": "Passe um hash MD5 do endereço de e-mail caso não queira passar o próprio endereço de e-mail. Este método ignora todas as listas negras, verificações de desvio de normalização e ofuscação.",
+                "title": "",
+                "frequency_text": "",
+                "frequency_example_text": ""
+            }
+        },
+        "forum": {
+            "message": {
+                "spam": "Suas informações foram marcadas como spam."
+            }
+        },
+        "api": {
+            "error": {
+                "unknown": "Falha ao reportar o usuário ao StopForumSpam."
+            }
+        }
+    }
+}

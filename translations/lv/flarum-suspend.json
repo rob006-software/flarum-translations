@@ -8,13 +8,23 @@
         "forum": {
             "notifications": {
                 "user_suspended_text": "",
+                "user_suspended_indefinite_text": "",
                 "user_unsuspended_text": ""
             },
+            "suspension_info": {
+                "dismiss_button": "",
+                "indefinite": "",
+                "limited": "",
+                "title": ""
+            },
             "suspend_user": {
+                "display_message": "",
                 "indefinitely_label": "",
                 "limited_time_days_text": "",
                 "limited_time_label": "",
                 "not_suspended_label": "",
+                "placeholder_optional": "",
+                "reason": "",
                 "status_heading": "",
                 "submit_button": "",
                 "title": ""
@@ -24,6 +34,17 @@
             },
             "user_controls": {
                 "suspend_button": ""
+            }
+        },
+        "email": {
+            "no_reason_given": "",
+            "suspended": {
+                "subject": "",
+                "body": ""
+            },
+            "unsuspended": {
+                "subject": "",
+                "body": ""
             }
         }
     }

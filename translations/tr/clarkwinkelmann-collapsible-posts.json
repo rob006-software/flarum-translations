@@ -1,0 +1,38 @@
+{
+    "clarkwinkelmann-collapsible-posts": {
+        "admin": {
+            "settings": {
+                "reasons": "Sebepler",
+                "header": {
+                    "key": "Benzersiz veritabanı anahtarı",
+                    "label": "Etiket",
+                    "explanation": "Özel açıklama mesajı"
+                },
+                "add": "Yeni sebep",
+                "explanationUrl": "Açıklama bağlantısı",
+                "explanationUrlHelp": "İsteğe bağlı. Kısıtlanmış yayınların altında görünür"
+            },
+            "permission": {
+                "collapse": "Gönderileri kısıtla"
+            }
+        },
+        "forum": {
+            "postControl": {
+                "collapse": "Kısıtla",
+                "uncollapse": "Kısıtlama"
+            },
+            "modal": {
+                "title": "Gönderiyi kısıtla",
+                "uncollapse": "Kısıtlama"
+            },
+            "badge": {
+                "post": "Kısıtlandı"
+            },
+            "stream": {
+                "hidden": "{count, plural, one {# gönderi {reason} sebebiyle kısıtlandı} other {# gönderi {reason} sebebiyle kısıtlandı}}",
+                "load": "Daha fazla",
+                "explanation": "Bunu neden görüyorum?"
+            }
+        }
+    }
+}

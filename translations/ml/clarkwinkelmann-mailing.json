@@ -1,0 +1,43 @@
+{
+    "clarkwinkelmann-mailing": {
+        "admin": {
+            "permissions": {
+                "mail_individual": "",
+                "mail_all": ""
+            }
+        },
+        "forum": {
+            "links": {
+                "mail_individual": "",
+                "mail_all": ""
+            },
+            "modal_mail": {
+                "title_text": "",
+                "recipients_label": "",
+                "recipients_placeholder": "",
+                "subject_label": "",
+                "default_subject": "",
+                "message_label": "",
+                "submit_button": ""
+            },
+            "modal_sent": {
+                "title_text": "",
+                "on_its_way": ""
+            },
+            "recipient_kinds": {
+                "user": "",
+                "group": "",
+                "email": ""
+            }
+        },
+        "api": {
+            "no_recipients": ""
+        },
+        "email": {
+            "default_subject": ""
+        },
+        "ref": {
+            "default_subject": ""
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "askvortsov-auto-moderator": {
+        "admin": {
+            "action_drivers": {
+                "activate_email": "Elektron pochtani faollashtirish",
+                "add_to_group": "Guruhga qo'shish",
+                "remove_from_group": "Guruhdan olib tashlash",
+                "suspend": "To'xtatib turish",
+                "unsuspend": "Yurgizish"
+            },
+            "metric_drivers": {
+                "discussions_entered": "Munozaralar kiritildi",
+                "discussions_participated": "Ishtirok etilgan muhokamalar",
+                "discussions_started": "Muhokamalar boshlandi",
+                "posts_made": "Yozilgan xabarlar",
+                "likes_given": "Layklar berilgan",
+                "likes_received": "Qabul qilingan layklar",
+                "best_answers": "Eng yaxshi javoblar",
+                "moderator_strikes": "Moderator ogohlantirishlari"
+            },
+            "requirement_drivers": {
+                "email_confirmed": "Elektron pochta tasdiqlandi",
+                "in_group": "Guruhda",
+                "suspended": "To'xtatildi",
+                "email_matches_regex": "Elektron pochta Regexga mos keladi"
+            },
+            "in_group_settings": {
+                "regex": "Yaroqli elektron pochtalar uchun regex (qiyshiq chiziqsiz)"
+            },
+            "group_selector": {
+                "placeholder": "Guruhni tanlang"
+            },
+            "suspend_selector": {
+                "days": "To'xtatib turish uchun kunlar",
+                "indefinitely": "Cheksiz muddatga toʻxtatilsinmi?"
+            },
+            "criterion_status": {
+                "heading": "Holat tekshiruvi",
+                "invalid": "Bu mezon hozirda yaroqsiz. Xatolar uchun quyidagi drayverlarni tekshiring.",
+                "no_actions": "Ushbu mezon uchun hech qanday harakatlar belgilanmagan. Foydalanuvchilar ushbu mezonni qo'lga kiritsa yoki yo'qotsa, hech narsa bo'lmaydi.",
+                "no_metrics_or_reqs": "Ushbu mezon uchun hech qanday ko'rsatkichlar yoki talablar aniqlanmagan. Bu HAMMA foydalanuvchilar ushbu mezonga mos kelishini anglatadi.",
+                "valid": "Bu mezon amal qiladi!",
+                "action_validation_errors": "Quyidagi harakat drayverini tekshirish xatolariga duch keldi:",
+                "requirement_validation_errors": "Quyidagi talab drayverini tekshirish xatolariga duch keldi:"
+            },
+            "criterion_page": {
+                "driver_missing_ext": "Bu drayver yoqilmagan kengaytmalarga bog'liq.",
+                "back": "Mezonlar roʻyxatiga qaytish",
+                "name_label": "Ism",
+                "icon_label": "Ikonka",
+                "description_label": "Tavsif",
+                "new_criterion": "Kriteriya yaratish",
+                "negated": "Rad etilganmi?",
+                "loading": "=> core.ref.loading",
+                "delete_button": "=> core.ref.delete",
+                "metrics_and_requirements_label": "Ko'rsatkichlar va talablar",
+                "metrics_and_requirements_help": "Ular foydalanuvchilarning ushbu mezonga mos kelishini belgilaydi. Ko'rsatkichlar qiymatlar diapazonini ifodalaydi, talablar mantiqiy shartlardir.",
+                "metrics_heading": "Ko'rsatkichlar",
+                "requirements_heading": "Talablar",
+                "add_metric": "Metrik qo'shing",
+                "actions_label": "Harakatlar",
+                "actions_help": "Qabul qilish bo'yicha harakatlar foydalanuvchi yangi mezonga moslashganda amalga oshiriladi. Yo'qotish bo'yicha harakatlar foydalanuvchi mezonga muvofiqlikni to'xtatganda amalga oshiriladi.",
+                "actions_on_gain_heading": "Erishishdagi harakatlar",
+                "actions_on_loss_heading": "Yo'qotish bo'yicha harakatlar",
+                "add_action": "Amal qo'shish"
+            },
+            "undefined_driver_item": {
+                "text": "XATO! <strong>{driverName}</strong> drayveri aniqlanmagan. Ehtimol, u hozirda o'rnatilmagan kengaytma tomonidan qo'shilgan. Mezon yana haqiqiy boʻlishi uchun kengaytmani qayta yoqishingiz yoki drayverni olib tashlashingiz kerak boʻladi."
+            },
+            "automoderator_page": {
+                "criterion_invalid": "Bu mezon hozirda yaroqsiz. Qo'shimcha ma'lumot olish uchun uning sozlamalarini tekshiring",
+                "list_heading": "Mezon",
+                "create_criterion_button": "Yangi mezon yarating"
+            },
+            "automoderator_instructions": {
+                "header": "Kengaytma bo'yicha ko'rsatmalar",
+                "text": "<li>Tl;dr: Agar foydalanuvchi X mezoniga javob bersa, Y bajaring. Agar foydalanuvchi X mezoniga javob bermasa, Z bajaring.</li>\n<li><strong>Kriteriyalar:</strong> Mezonlar bu kengaytmaning asosidir. Ular ixtiyoriy ko'rsatkichlar va talablar to'plamidir. Agar foydalanuvchi mezonga javob bersa, mezon bo'yicha har qanday \"yutuq bo'yicha\" amallar bajariladi. Agar foydalanuvchi mezonni yo‘qotsa, mezon bo‘yicha har qanday “yo‘qotish” amallari bajariladi.</li>\n<ul>\n  <li><strong>Metrik:</strong> Raqamli shart. Masalan, postlar soni yoki qabul qilingan yoqtirishlar soni. Mezon oraliq/minimal/maksimal ko‘rsatkichlarni talab qilishi mumkin.</li>\n  <li><strong>Talab:</strong> Mavhum mantiqiy shart. Masalan, to'xtatilmaganligi yoki ma'lum bir regexga mos keladigan elektron pochta manziliga ega bo'lishi.</li>\n</ul>\n<li><strong>Harakatlar:</strong> Mezon bajarilganda yoki yo'qolganda avtomatik ravishda sodir bo'ladigan narsa. Bunga guruh qoʻshish/oʻchirishdan tortib, e-pochta xabarini joʻnatishgacha boʻlgan hamma narsa kiradi.</li>\n<li><strong>Trigger:</strong> Foydalanuvchi mezonlari guruhlari qayta baholanishiga olib keladigan hodisalar to‘plami. Bu ko'rsatkichlar va talablar ta'riflarining bir qismidir. Barcha mezonlar tizimga kirishda baholanadi: bu “universal trigger”.</li>\n<li>\"Yo'qotilgan\" amallari har doim \"yutuq bo'yicha\" amallaridan oldin bajariladi. Shunday qilib, foydalanuvchi foyda olish uchun ushbu amalni bajaradigan mezonlardan kamida bittasiga javob bersa, harakatlar amalga oshiriladi.</li>\n<li>Yodda tutingki, amallar faqat \"yo'qotish bo'yicha\" va \"yutuq bo'yicha\" amalga oshiriladi. Foydalanuvchi mezonga mos bo‘lgan paytdagi qo‘lda o‘zgartirishlar mezonning qayta qo‘llanilishi uchun “yutish” amallarini ishga tushirmaydi.</li>\n<li>Agar siz mezonni oʻchirib tashlasangiz, hozirda ushbu mezonga mos keladigan foydalanuvchilar uchun “yoʻqotish” amallari bajarilmaydi.</li>\n<li>Agar siz guruhlarni boshqarish uchun mezonlardan foydalanayotgan bo'lsangiz, mezonlar bo'yicha boshqariladigan alohida guruhlar to'plamini saqlashni tavsiya etamiz. Siz foydalanuvchilarni ushbu guruhlarga qoʻlda qoʻsha olmaysiz/oʻchira olmaysiz.</li>\n"
+            }
+        },
+        "lib": {
+            "group_id": "Guruh identifikatori",
+            "managed_groups": {
+                "header": "Boshqariladigan guruhlar:",
+                "group_item": "<badge></badge> {groupName}",
+                "groups_not_editable": "Avtomoderator mezonlari bo'yicha boshqariladigan guruhlarni nomuvofiqliklarni oldini olish uchun foydalanuvchilarga qo'lda qo'shish/o'chirish mumkin emas."
+            }
+        }
+    }
+}

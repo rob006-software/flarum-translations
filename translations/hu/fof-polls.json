@@ -1,0 +1,51 @@
+{
+    "fof-polls": {
+        "admin": {
+            "permissions": {
+                "view_results_without_voting": "Eredmény megtekintése szavazás nélkül",
+                "start": "Szavazás indítása",
+                "self_edit": "A felhasználók módosíthatják a saját szavazásukat",
+                "vote": "Részvétel a szavazásokban",
+                "change_vote": "Szavazat módosítása",
+                "moderate": "Szavazások szerkesztése és törlése"
+            }
+        },
+        "forum": {
+            "days_remaining": "A szavazás véget ér: {time}.",
+            "no_permission": "Nincs joga szavazni",
+            "poll_ended": "A szavazás véget ért.",
+            "public_poll": "Szavazók megtekintése",
+            "composer_discussion": {
+                "add_poll": "Szavazás hozzáadása",
+                "edit_poll": "=> fof-polls.forum.moderation.edit"
+            },
+            "modal": {
+                "add_title": "Szavazás hozzáadása",
+                "add_option_label": "Lehetőség hozzáadása",
+                "date_placeholder": "Szavazás vége (nem kötelező)",
+                "edit_title": "Szavazás szerkesztése",
+                "include_question": "Lennie kell egy kérdésnek",
+                "max": "Legfeljebb 10 válasz lehet",
+                "min": "Legalább 2 választ meg kell adni",
+                "no_voters": "Nincs szavazat",
+                "option_placeholder": "Válasz",
+                "options_label": "Válaszok",
+                "public_poll_label": "A felhasználók megnézhetik ki szavazott",
+                "question_placeholder": "Kérdés",
+                "submit": "Beküldés"
+            },
+            "moderation": {
+                "delete": "Szavazás eltávolítása",
+                "delete_confirm": "Valóban törli a szavazást?",
+                "edit": "Szavazás szerkesztése"
+            },
+            "tooltip": {
+                "badge": "Szavazás",
+                "votes": "{count} szavazat"
+            },
+            "votes_modal": {
+                "title": "Szavazók"
+            }
+        }
+    }
+}

@@ -3,17 +3,17 @@
         "admin": {
             "popup": {
                 "section": {
-                    "googleAnalytics": "",
-                    "piwik": ""
+                    "googleAnalytics": "ගූගල් ඇනලිටික්ස්",
+                    "piwik": "මැටොමෝ"
                 },
                 "field": {
-                    "statusGoogle": "",
+                    "statusGoogle": "ගූගල් ඇනලිටික්ස් සබල කරන්න",
                     "optTrackingCode": "",
                     "googleTrackingCode": "",
                     "googleGTMCode": "",
-                    "statusPiwik": "",
-                    "piwikUrl": "",
-                    "piwikSiteId": "",
+                    "statusPiwik": "මැටොමෝ සබල කරන්න",
+                    "piwikUrl": "මැටොමෝ වසම හෝ ඒ.ස.නි.(URL)",
+                    "piwikSiteId": "අඩවියේ හැඳුනුම",
                     "piwikTrackSubdomain": "",
                     "piwikPrependDomain": "",
                     "piwikHideAliasUrl": "",
@@ -29,6 +29,9 @@
                     "username": "",
                     "email": ""
                 }
+            },
+            "matomo-widget": {
+                "title": "මැටොමෝ"
             }
         }
     }

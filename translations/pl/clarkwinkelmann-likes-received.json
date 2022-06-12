@@ -2,12 +2,12 @@
     "clarkwinkelmann-likes-received": {
         "forum": {
             "user-card": {
-                "likes": ""
+                "likes": "{likes, plural, one {# otrzymane polubienie} few {# otrzymane polubienia} other {# otrzymanych polubień}}"
             }
         },
         "admin": {
             "permission": {
-                "view": ""
+                "view": "Przeglądanie otrzymanych polubień"
             }
         }
     }

@@ -1,0 +1,33 @@
+{
+    "fof-moderator-notes": {
+        "admin": {
+            "permissions": {
+                "createnotes": "Criar notas do moderador",
+                "viewnotes": "Ver notas do moderador",
+                "deletenotes": "Apagar notas do moderador"
+            }
+        },
+        "forum": {
+            "no_content_given": "Uma nota vazia não é permitida.",
+            "moderatorNotes": {
+                "created_text": "{username} criou esta nota em {date}",
+                "add_button": "Nova nota",
+                "create-heading": "Criar uma nova nota de moderador",
+                "dismiss_button": "Feito",
+                "input_heading": "Insira suas notas para <strong>{username}</strong>, (a redução é suportada)",
+                "noNotes": "Parece que não há notas aqui.",
+                "submit_button": "Salvar nota",
+                "delete": "Apagar",
+                "confirm": "Você tem certeza que quer apagar essa nota?"
+            },
+            "user": {
+                "notes": "Notas de moderador"
+            }
+        },
+        "api": {
+            "auto_note": "_Mudei para este usuário:_ {reason}",
+            "auto_note_actor": "_Mudei para_ @{username}: {reason}",
+            "no_reason_provided": "Nenhum motivo fornecido"
+        }
+    }
+}

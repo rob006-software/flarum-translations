@@ -1,0 +1,21 @@
+{
+    "ralkage-hcaptcha": {
+        "admin": {
+            "settings": {
+                "help_text": "Obtenha suas credenciais do hCaptcha <a>aqui</a>.",
+                "secret_key_label": "Chave Secreta",
+                "site_key_label": "Chave do Site",
+                "type_label": "Tipo de hCaptcha"
+            },
+            "permissions": {
+                "post_without_hcaptcha": "Crie posts e discussões sem hCaptcha"
+            }
+        },
+        "forum": {
+            "error": "Ocorreu um erro ao enviar o hCaptcha. Tente novamente."
+        }
+    },
+    "validation": {
+        "hcaptcha": "Falha na validação do hCaptcha."
+    }
+}

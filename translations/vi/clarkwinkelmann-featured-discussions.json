@@ -1,0 +1,55 @@
+{
+    "clarkwinkelmann-featured-discussions": {
+        "admin": {
+            "settings": {
+                "schedule": "Lên lịch (cú pháp CRON)",
+                "duration": "Thời lượng mặc định (giây)",
+                "eventPost": "Tạo bài đăng sự kiện khi lịch trình bị thay đổi"
+            },
+            "permissions": {
+                "feature": "Quản lý cuộc thảo luận nổi bật"
+            }
+        },
+        "forum": {
+            "modal": {
+                "title": "Cuộc thảo luận nổi bật",
+                "fields": {
+                    "from": "Từ",
+                    "until": "Cho đến"
+                },
+                "from": {
+                    "not": "Không nổi bật",
+                    "next": "Vị trí tiếp theo",
+                    "manual": "Ngày thủ công"
+                },
+                "until": {
+                    "auto": "Tự động",
+                    "manual": "Ngày thủ công"
+                },
+                "action": {
+                    "cancel": "Huỷ bỏ",
+                    "submit": "Gửi"
+                }
+            },
+            "controls": {
+                "feature": "Cuộc thảo luận nổi bật"
+            },
+            "badge": "Nổi bật",
+            "nav": {
+                "schedule": "Lịch trình tính năng"
+            },
+            "schedule": {
+                "help": "Kéo và thả các cuộc thảo luận trong trang hoặc từ một cửa sổ khác để thay đổi lịch trình của chúng. Để xóa lịch biểu, hãy sử dụng menu 3 chấm.\n",
+                "drop-here": "Thả vào đây để lên lịch",
+                "drop-error": "Liên kết cuộc thảo luận không hợp lệ",
+                "empty": "Không có cuộc thảo luận nào",
+                "custom": "Tuỳ chỉnh"
+            },
+            "post": {
+                "scheduled": "Đã lên lịch để nổi bật từ {from} cho đến {until}",
+                "unscheduled": "Không còn được lên lịch để nổi bật",
+                "auto": "(tự động)"
+            }
+        }
+    }
+}

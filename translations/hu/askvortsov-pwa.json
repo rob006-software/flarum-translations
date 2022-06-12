@@ -1,0 +1,93 @@
+{
+    "askvortsov-pwa": {
+        "admin": {
+            "nav": {
+                "pwa_button": "Progresszív webalkalmazás",
+                "pwa_text": "Flarum beállítása, hogy PWA módban fusson."
+            },
+            "pwa": {
+                "about": {
+                    "description_label": "Leírás",
+                    "description_text": "A leírást az admin Alapok menüjében adhatod meg.",
+                    "long_name_label": "Teljes név",
+                    "long_name_text": "A webapp neve ami a felhasználóknak megjelenik.",
+                    "heading": "Rólunk",
+                    "short_name_label": "Rövid név",
+                    "short_name_text": "Rövid név, ami megjelenik a felhasználóknak ha nem fér ki az eredeti."
+                },
+                "colors": {
+                    "heading": "Színek",
+                    "background_color_label": "Háttér színe",
+                    "background_color_text": "Ez a szín addig használandó, amíg a PWA betöltés alatt van.",
+                    "theme_color_label": "Téma színe",
+                    "theme_color_text": "Ezt a színt néha használják az eszközök, amikor megjelenítik az alkalmazást, például az Android feladatváltóban, a webhelyet körülvevő színként."
+                },
+                "maintenance": {
+                    "heading": "Teszt mód",
+                    "debug_label": "Hibakeresési mód?",
+                    "debug_text": "Ez naplózza az értesítésekről szóló információkat a „tárhely/naplók” mappába. Általában le kell tiltani, hogy elkerüljük a naplók szükségtelen feltöltését.",
+                    "reset_vapid_text": "Ez újragenerálja a VAPID-kulcsokat, és töröl minden meglévő előfizetést az aktuális VAPID-kulcsokkal.",
+                    "reset_vapid_confirm": "A VAPID-kulcsok alaphelyzetbe állítása eltávolítja a meglévő kulcsokat használó előfizetéseket, így a felhasználók nem kapnak értesítést a webhely következő látogatásáig. Ezt csak a leküldéses értesítések első beállításakor szabad megtenni, vagy ha a push értesítések egyáltalán nem működnek, és fent figyelmeztetés jelenik meg a hiányzó VAPID-kulcsokról.",
+                    "reset_vapid_success": "Sikeresen visszaállította a VAPID-kulcsokat. {count} előfizetés visszaállítva. Töltse be újra az oldalt a frissített állapotellenőrzési jelentés megtekintéséhez."
+                },
+                "other": {
+                    "heading": "Más",
+                    "force_portrait_text": "Erőltetett fekvő helyezés?"
+                },
+                "heading": "PWA beállítások",
+                "text": "Állítsa be Flarum webhelyét, hogy progresszív webalkalmazásként fusson! Kérjük, vegye figyelembe, hogy ez nem teszi automatikusan webhelyét az alkalmazásboltba. Ehelyett ez azt jelenti, hogy a felhasználóknak van egy „Hozzáadás a kezdőképernyőhöz” lehetősége az Ön webhelyéhez. Néhány állapotellenőrzést biztosítunk, azonban a legjobb módja annak, hogy teszteljük, ha megpróbáljuk telepíteni (a google -on keressünk utasításokat a progresszív webes alkalmazások telepítésére). Ezenkívül ne feledje, hogy a „telepítse ezt a PWA -t” előugró ablakokat böngészők vezérlik, és a fejlesztők/rendszergazdák/programok nem indíthatják el őket. Javaslom, hogy a webhely dokumentációjában szerepeltesse a PWA telepítésével kapcsolatos utasításokat.",
+                "status_check_heading": "Státus ellenőrzés",
+                "logo_heading": "Logók és ikonok",
+                "logo_text": "A progresszív webalkalmazás telepítéséhez legalább egy logót fel kell töltenie. Kérjük, vegye figyelembe, hogy minden logónak négyzet alakúnak kell lennie; ha nem, akkor átméretezik és esetleg kifeszítik.\n\nAz alábbiakban számos méretbeállítás közül választhat. Azt javaslom, hogy próbáljon meg minél több emblémát feltölteni: ez több eszközt támogat.\n\nKérjük, vegye figyelembe, hogy 1 nagy logót tölthet fel a kisebb logók bemeneteire. Például feltölthet 1000 x 1000 képpontos logót az alábbi MINDEN fájlbevitelre. Ha azonban megpróbál 50 x 50 képpont méretű emblémát feltölteni az 512 x 512 -es bemenetre, az nagyon megfeszül.\n",
+                "logo_size_text": "Tölts fel egy logót ami {size} x {size} pixel méretűre lesz méretezve.",
+                "submit_button": "Mentés",
+                "refreshed_message": "PWA beállítások sikeresen frissítve."
+            },
+            "status": {
+                "config_no_https": "A HTTPS kötelező a PWA bekapcsolásához.",
+                "possible_https_disabled": "Az oldal nem HTTPS-ben működik. A HTTPS kötelező a PWA-nak.",
+                "no_logo": "Legalább egy logó feltöltése kötelező.",
+                "no_name": "Név kötelező.",
+                "no_vapid_keys": "Nem található VAPID kulcs. Ezek szükségesek a push értesítések küldéséhez. A VAPID kulcsokat alább állíthatja vissza.",
+                "key_gen_failed": "A push értesítésekhez szükséges kulcsok generálása nem sikerült. A teljes hibaüzenet a következő volt: {error}",
+                "suggest_gmp": "Úgy tűnik, hogy a gmp PHP bővítmény nincs engedélyezve a szerveren. Nem feltétlenül szükséges, de javíthatja a teljesítményt, és ajánlott. Előfordulhat azonban, hogy egyes megosztott házigazdák nem támogatják.",
+                "success": "Nincs potenciális hiba!"
+            }
+        },
+        "forum": {
+            "alerts": {
+                "optin": "A push üzenetek be vannak kapcsolva, de nincsenek beállítva az eszközön.",
+                "optin_button": "Beállítom"
+            },
+            "discussion_controls": {
+                "share_button": "Megosztás"
+            },
+            "post_controls": {
+                "share_button": "Megosztás",
+                "share_api": {
+                    "title": "{username} válaszolt erre: {title}"
+                }
+            },
+            "user_controls": {
+                "share_button": "Megosztás"
+            },
+            "settings": {
+                "push_header": "Push",
+                "pwa_notifications": {
+                    "access_default": "A böngészőben engedélyezni kell a push üzeneteket.",
+                    "access_default_button": "Engedélyezem",
+                    "access_denied": "A böngészőben engedélyezned kell a push üzeneteket.",
+                    "access_denied_button": "Mutasd meg hogyan",
+                    "no_browser_support": "Ez a böngésző nem támogatja a push üzeneteket.",
+                    "no_browser_support_button": "Több"
+                }
+            }
+        },
+        "views": {
+            "offline": {
+                "header": "Hálózati kapcsolat hiba",
+                "text": "Ez az alkalmazás hálózati kapcsolatot igényel; offline nem használható. Kérjük, ellenőrizze a kapcsolatot."
+            }
+        }
+    }
+}

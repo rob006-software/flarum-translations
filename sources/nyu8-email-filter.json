@@ -1,0 +1,37 @@
+{
+    "nyu8-email-filter": {
+        "admin": {
+            "general": "General",
+            "custom_failure_message_label": "Custom Failure Message",
+            "custom_failure_message_hint": "Custom error message to be shown when email is invalid. Will show default error messages if this is left empty.",
+            "rule_settings": "Rule Settings",
+            "name_placeholder": "Rule name",
+            "invalid_regular_expression": "Invalid regular expression",
+            "whitelist_literal": {
+                "label": "Whitelist",
+                "description": "Exact emails to whitelist",
+                "placeholder": "Email to whitelist..."
+            },
+            "whitelist_regex": {
+                "label": "Whitelist regular expression",
+                "description": "Email regular expressions to whitelist",
+                "placeholder": "Regular expression to whitelist..."
+            },
+            "blacklist_literal": {
+                "label": "Blacklist",
+                "description": "Exact emails to blacklist",
+                "placeholder": "Email to blacklist..."
+            },
+            "blacklist_regex": {
+                "label": "Blacklist regular expression",
+                "description": "E-mail regular expressions to blacklist",
+                "placeholder": "Regular expression to blacklist..."
+            }
+        },
+        "forum": {
+            "generic_exception": "Something went wrong. Contact this community's administrator.",
+            "blacklist_exception": "This email or its domain is on this community's blacklist.",
+            "whitelist_exception": "This email or its domain is not on this community's whitelist."
+        }
+    }
+}

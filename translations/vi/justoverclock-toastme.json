@@ -1,0 +1,27 @@
+{
+    "flarum-ext-toastme": {
+        "admin": {
+            "enabletoast": "Bật/Tắt Toast Alert",
+            "helpenable": "Sử dụng cài đặt này để bật hoặc tắt Toast Alert",
+            "offsetyy": "Offset Y - lề trục đứng (px) (để trống cho mặc định)",
+            "offsetydesc": "lề trục đứng - có thể là một số cho biết giá trị pixel. Ví dụ 20 (pixel)",
+            "offsetxx": "Offset X - lề trục ngang (px) (để trống cho mặc định)",
+            "offsetxdesc": "lề trục ngang - có thể là một số cho biết giá trị pixel. Ví dụ 20 (pixel)",
+            "dest": "URL đích",
+            "destdesc": "URL mà trình duyệt sẽ được điều hướng đến khi nhấp vào Toast",
+            "duration": "Khoảng thời gian mà Toast sẽ được hiển thị -1 đối với Toast vĩnh viễn",
+            "durdesc": "Sử dụng mili giây - ví dụ \"3000\" trong 3 giây",
+            "gravity": "Trọng tâm - Có thể là \"trên cùng\" hoặc \"dưới cùng\"",
+            "gravdesc": "Đặt vị trí của Toast, trên cùng hoặc dưới cùng đều được chấp nhận",
+            "position": "Vị trí - Có thể là \"trái\", \"phải\" hoặc \"giữa\"",
+            "posdesc": "Bạn muốn Toast xuất hiện ở đâu? trái, phải hay chính giữa?",
+            "background": "Màu nền (định dạng hex)",
+            "backgrounddesc": "đặt màu nền của bạn ở định dạng HEX - ví dụ \"#ffcc00\"",
+            "message": "Văn bản của Toast",
+            "messagedesc": "Tại đây bạn có thể đặt nội dung của lời chúc mừng"
+        },
+        "forum": {
+            "message1": "Một thực tế đã có từ lâu rằng người đọc sẽ bị phân tâm bởi nội dung có thể đọc được của một trang khi nhìn vào bố cục của nó."
+        }
+    }
+}

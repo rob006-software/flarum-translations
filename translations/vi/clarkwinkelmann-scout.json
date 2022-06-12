@@ -1,0 +1,22 @@
+{
+    "clarkwinkelmann-scout": {
+        "admin": {
+            "setting": {
+                "driver": "Trình điều khiển",
+                "driverOption": {
+                    "null": "Rỗng",
+                    "algolia": "Algolia",
+                    "meilisearch": "Meilisearch"
+                },
+                "prefix": "",
+                "algoliaId": "",
+                "algoliaSecret": "",
+                "algoliaConnectTimeout": "",
+                "algoliaReadTimeout": "",
+                "algoliaWriteTimeout": "",
+                "meilisearchHost": "",
+                "meilisearchKey": ""
+            }
+        }
+    }
+}

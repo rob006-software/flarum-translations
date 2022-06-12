@@ -2,45 +2,45 @@
     "clarkwinkelmann-group-invitation": {
         "forum": {
             "title": "Sei stato invitato a unirti nel gruppo {group}!",
-            "generic-title": "",
+            "generic-title": "Invito gruppo",
             "user": {
-                "already-connected": "",
-                "not-connected": "",
-                "not-authorized": "",
-                "already-member": ""
+                "already-connected": "Aggiungeremo il gruppo {group} a {username}. Non è l'utente corretto? <a>Accedi con un altro account</a>.\n",
+                "not-connected": "<a>Accedi</a> per accettare l'invito.",
+                "not-authorized": "Il tuo attuale utente {username} non ha l'autorizzazione per partecipare ai gruppi. <a>Accedi con un altro account</a>.",
+                "already-member": "Ottime notizie, il tuo utente {username} è già membro del gruppo {group}! Vuoi unirti al gruppo con un altro utente? <a>Accedi con un altro account</a>.\n"
             },
             "invitation": {
-                "not-found": "",
-                "no-usages-left": ""
+                "not-found": "Spiacenti, questo invito al gruppo non è stato trovato.",
+                "no-usages-left": "Questo invito non può più essere utilizzato."
             },
-            "apply": "",
-            "success-alert": ""
+            "apply": "Unisciti al gruppo",
+            "success-alert": "Ti sei iscritto con successo al gruppo!"
         },
         "admin": {
             "permissions": {
-                "use": ""
+                "use": "Usa i link di invito al gruppo"
             },
             "settings": {
                 "head": {
-                    "code": "",
-                    "group": "",
-                    "usage": ""
+                    "code": "Codice",
+                    "group": "Gruppo",
+                    "usage": "Utilizzo"
                 },
                 "placeholder": {
-                    "code": "",
-                    "group": "",
-                    "usage": ""
+                    "code": "Auto-generato",
+                    "group": "Scegli...",
+                    "usage": "Vuoto per illimitato"
                 },
-                "empty": "",
-                "unlimited": "",
-                "create": "",
-                "delete": ""
+                "empty": "Nessun invito creato finora.",
+                "unlimited": "illimitato",
+                "create": "Crea",
+                "delete": "Cancella"
             }
         },
         "api": {
             "error": {
-                "not-found": "",
-                "no-usages-left": ""
+                "not-found": "Codice invito non trovato",
+                "no-usages-left": "L'invito non può più essere utilizzato"
             }
         }
     }

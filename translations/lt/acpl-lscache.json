@@ -1,0 +1,17 @@
+{
+    "acpl-lscache": {
+        "admin": {
+            "public_cache_ttl_label": "Numatytoji viešoji talpykla TTL",
+            "public_cache_ttl_help": "Nurodykite, kiek laiko sekundėmis viešieji puslapiai saugomi talpykloje. Numatytoji reikšmė yra 300 sekundžių.",
+            "clearing_cache_listener_label": "Išvalykite LSCache, kai išvaloma Flarum talpykla",
+            "serve_stale_label": "Patiekite pasenusią",
+            "serve_stale_help": "Jei ĮJUNGTA, pasenusi talpykloje saugomo puslapio kopija bus rodoma lankytojams, kol atsiras nauja talpyklos kopija. Sumažina serverio apkrovą kitiems apsilankymams. Jei IŠJUNGTA, puslapis bus dinamiškai generuojamas, kol lankytojai laukia. Pagal dizainą ši parinktis gali pateikti pasenusį turinį. Neįjunkite šios parinkties, jei tai jums netinka.",
+            "purge_on_discussion_update_label": "Išvalykite URL arba žymas, kai atnaujinama diskusija ar įrašas",
+            "purge_on_discussion_update_help": "Kiekvienoje eilutėje nurodykite vieną URL arba žymą. URL turi prasidėti <code>/</code>, pvz. <code>/rankings</code> ir talpyklos žyma turėtų prasidėti <code>tag=</code>, pvz. <code>tag=rankings</code>. Šis plėtinys pažymi kiekvieną maršrutą ir, pavyzdžiui, jei turite daug maršrutų, kuriuos norėtumėte išvalyti, geriau į .htaccess pridėti taisyklę su reguliariuoju posakiu, kuris pažymės maršrutus ir čia nustatymuose įveskite tik šią žymą . Šis metodas bus daug greitesnis. <a>Sužinokite daugiau</a>. Pagal numatytuosius nustatymus išvaloma pagrindinio puslapio talpykla, taip pat atnaujintų diskusijų talpykla.",
+            "cache_exclude_label": "Nelaikykite kelių talpykloje",
+            "cache_exclude_help": "Keliai, kuriuose yra šios eilutės, nebus saugomi talpykloje. Pavyzdžiui, <code>/mypath/mypage?aa=bb</code> čia galima naudoti <code>mypage?aa=</code>. Kad atitiktų pradžią, elemento pradžioje pridėkite <code>^</code>. Norėdami tiksliai atitikti, URL pabaigoje pridėkite <code>$</code>. Viena eilutėje.",
+            "purge_all": "Išvalykite visą LSCache",
+            "purge_all_success": "Pranešta „LiteSpeed“ žiniatinklio serveriui, kad būtų išvalyti visi LSCache įrašai"
+        }
+    }
+}

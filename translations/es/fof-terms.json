@@ -2,72 +2,72 @@
     "fof-terms": {
         "admin": {
             "settings": {
-                "title": "",
+                "title": "Configuración de términos de uso",
                 "field": {
-                    "signup-legal-text": "",
-                    "hide-updated-at": "",
-                    "date-format": "",
-                    "date-format-help": ""
+                    "signup-legal-text": "Texto adicional en el formulario de registro",
+                    "hide-updated-at": "No mostrar la fecha de actualización de los términos cuando haya una actualización disponible",
+                    "date-format": "Formato de fecha",
+                    "date-format-help": "Puede utilizar cualquier formato de <a>Day.js</a> válido. Deje el campo vacío por defecto."
                 }
             },
             "titles": {
-                "policies": ""
+                "policies": "Políticas"
             },
             "buttons": {
-                "new-policy": "",
-                "edit-policy": "",
-                "add-policy": "",
-                "save-policy": "",
-                "delete-policy": "",
-                "set-to-now": ""
+                "new-policy": "Nueva Política",
+                "edit-policy": "Editar Política",
+                "add-policy": "Agregar Política",
+                "save-policy": "Guardar Política",
+                "delete-policy": "Eliminar Política",
+                "set-to-now": "Establecer ahora"
             },
             "messages": {
-                "delete-policy-confirmation": ""
+                "delete-policy-confirmation": "Esto eliminará permanentemente la política {name} y las fechas de aceptación asociadas de la base de datos. Asegúrate de hacer una copia de seguridad de esas fechas si las necesitas por razones legales. ¿Estás seguro de que desea eliminar esta política?\n"
             },
             "policies": {
-                "name": "",
-                "name-help": "",
-                "url": "",
-                "url-help": "",
-                "update-message": "",
-                "update-message-help": "",
-                "terms-updated-at": "",
-                "terms-updated-at-placeholder": "",
-                "terms-updated-at-help": "",
-                "export-url": "",
-                "export-url-help": ""
+                "name": "Nombre",
+                "name-help": "Este nombre se mostrará junto a la casilla de verificación y como título del modal de actualización.",
+                "url": "URL",
+                "url-help": "La URL de la página donde puedes leer los términos. Se abrirá en una nueva pestaña al hacer clic.",
+                "update-message": "Mensaje de Actualización",
+                "update-message-help": "Un mensaje para mostrar a los usuarios existentes que aún no han aceptado los términos más recientes.",
+                "terms-updated-at": "Actualizado el",
+                "terms-updated-at-placeholder": "YYYY-MM-DD (hh:mm:ss)",
+                "terms-updated-at-help": "La fecha de la última actualización de términos. Establecer este valor requerirá que todos los usuarios que aceptaron antes de esa fecha vuelvan a aceptar. Debe fijarse en la fecha actual o el pasado (de lo contrario, los usuarios nunca podrían aceptarlo y superar el modal).\n",
+                "export-url": "Exportar URL",
+                "export-url-help": "Cualquier usuario con permiso \"Exportar todos los datos de usuarios y políticas\" puede acceder a esas URL para descargar la lista de usuarios que aceptaron esta política. Puede encontrar más detalles sobre las opciones disponibles en la <a>extension wiki</a>.\n"
             },
             "permissions": {
-                "see-user-policies-state": "",
-                "postpone-policies-accept": "",
-                "export-policies": ""
+                "see-user-policies-state": "Ver el estado de las políticas de usuario",
+                "postpone-policies-accept": "Puede posponer la aceptación de los nuevos términos",
+                "export-policies": "Exportar todos los datos de usuarios y políticas"
             }
         },
         "forum": {
             "signup": {
-                "i-accept": "",
-                "must-accept": ""
+                "i-accept": "Yo acepto el documento <a>{policy}</a>",
+                "must-accept": "Se debe aceptar el documento {policy}."
             },
             "accept-modal": {
-                "title": "",
-                "updated-at": "",
-                "updated-recently": "",
-                "i-accept": "",
-                "accept": "",
-                "close": ""
+                "title": "Actualización de términos de uso",
+                "updated-at": "Los términos se actualizaron el {date}",
+                "updated-recently": "Los términos se actualizaron desde su última visita",
+                "i-accept": "Yo acepto el documento <a>{policy}</a>",
+                "accept": "Confirmar",
+                "close": "Gracias por aceptarlo, ahora puedes volver al foro"
             },
             "state-modal": {
-                "title": "",
-                "accepted-at": "",
-                "not-accepted": ""
+                "title": "Estado de términos para el usuario {username}",
+                "accepted-at": "Aceptado {date}",
+                "not-accepted": "No aceptado"
             },
             "update-alert": {
-                "must-accept-message": "",
-                "can-accept-message": "",
-                "review": ""
+                "must-accept-message": "Hemos restringido temporalmente el acceso a su cuenta mientras revisa los nuevos términos.",
+                "can-accept-message": "Recientemente actualizamos los términos de uso. Debes aceptarlos para seguir usando este sitio web.",
+                "review": "Haz clic aquí para revisar y aceptar los nuevos términos"
             },
             "user_controls": {
-                "state_button": ""
+                "state_button": "Estado de términos"
             }
         }
     }

@@ -4,15 +4,15 @@
             "popup": {
                 "section": {
                     "googleAnalytics": "Google 分析",
-                    "piwik": "Piwik"
+                    "piwik": "Matomo（前 Piwik）"
                 },
                 "field": {
                     "statusGoogle": "启用 Google 分析",
                     "optTrackingCode": "自定义跟踪代码（可选）",
                     "googleTrackingCode": "跟踪代码 ID",
                     "googleGTMCode": "GTM 代码 ID（可选）",
-                    "statusPiwik": "启用 Piwik",
-                    "piwikUrl": "Piwik 域名或 URL",
+                    "statusPiwik": "启用 Matomo",
+                    "piwikUrl": "Matomo 域名或 URL",
                     "piwikSiteId": "Site ID",
                     "piwikTrackSubdomain": "追踪所有 Flarum 子域访客",
                     "piwikPrependDomain": "追踪时将网站域名放置在网页标题开头",
@@ -22,13 +22,16 @@
                     "piwikAuthToken": "验证 Token"
                 },
                 "placeholder": {
-                    "piwikAuthToken": "填入 token 以在后台管理菜单启用 Piwik 统计面板。\n你可以在 设置 > 个人 > API 验证 Token 中找到。\n"
+                    "piwikAuthToken": "填入 token 以在后台管理菜单启用 Matomo 统计部件。\n你可以在 设置 > 个人 > API 验证 Token 中找到。\n"
                 },
                 "trackAccounts": {
                     "none": "不要追踪",
                     "username": "按用户名追踪",
                     "email": "按邮箱追踪"
                 }
+            },
+            "matomo-widget": {
+                "title": "Matomo"
             }
         }
     }

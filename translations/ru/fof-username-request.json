@@ -1,0 +1,99 @@
+{
+    "fof-username-request": {
+        "admin": {
+            "permissions": {
+                "moderate_requests": "Подтверждать запросы на изменение имён участников",
+                "request_nickname": "Запрашивать изменение псевдонима пользователя",
+                "request_username": "Запрашивать изменение имени пользователя"
+            }
+        },
+        "forum": {
+            "nickname_modals": {
+                "action": {
+                    "title": "=> fof-username-request.ref.nickname_change_request",
+                    "help_text": "Пожалуйста, убедитесь что новый псевдоним соответствует правилам форума.",
+                    "decision_title": "Решение",
+                    "approval_label": "Разрешить",
+                    "rejected_label": "Отказать",
+                    "submit_button": "Отправить",
+                    "reason_title": "Причина отказа",
+                    "success": "Решение отправлено.",
+                    "name": "{name} запросил(а) разрешение на изменение своего псевдонима на \"{requestedName}\""
+                },
+                "results": {
+                    "title": "Изменение псевдонима",
+                    "approved": "Ваш запрос на изменение псевдонима подтверждён",
+                    "dismiss_button": "=> core.ref.okay",
+                    "new_name": "Ваш псевдоним изменён на: {name}",
+                    "rejected": "Ваш запрос на изменение псевдонима отклонён",
+                    "reason": "Причина: <i>\"{reason}\"</i>.",
+                    "resubmit": "Вы можете повторно отправить запрос на изменение псевдонима в настройках аккаунта."
+                },
+                "request": {
+                    "title": "Изменение псевдонима",
+                    "current_request": "Вы уже отправили запрос на изменение псевдонима на \"{name}\". Вы можете обновить или отменить свой запрос.",
+                    "submit_button": "Отправить",
+                    "delete_button": "Удалить",
+                    "confirmation_message": "Ваш запрос на изменение псевдонима отправлен и ожидает рассмотрения.",
+                    "dismiss_button": "=> core.ref.okay",
+                    "deleted": "Запрос удалён."
+                }
+            },
+            "username_modals": {
+                "action": {
+                    "title": "=> fof-username-request.ref.username_change_request",
+                    "help_text": "Пожалуйста, убедитесь что новое имя пользователя соответствует правилам форума.",
+                    "decision_title": "Решение",
+                    "approval_label": "Разрешить",
+                    "rejected_label": "Отказать",
+                    "submit_button": "Отправить",
+                    "reason_title": "Причина отказа",
+                    "success": "Решение отправлено.",
+                    "name": "{name} запросил(а) разрешение на изменение своего имени пользователя на \"{requestedName}\""
+                },
+                "results": {
+                    "title": "Изменение имени пользователя",
+                    "approved": "Ваш запрос на изменение имени пользователя подтверждён",
+                    "dismiss_button": "=> core.ref.okay",
+                    "new_name": "Ваше имя пользователя изменено на: {name}",
+                    "rejected": "Ваш запрос на изменение имени пользователя отклонён",
+                    "reason": "Причина: <i>\"{reason}\"</i>.",
+                    "resubmit": "Вы можете повторно отправить запрос на изменение имени пользователя в настройках аккаунта."
+                },
+                "request": {
+                    "title": "Изменение имени пользователя",
+                    "current_request": "Вы уже отправили запрос на изменение имени пользователя на \"{name}\". Вы можете обновить или отменить свой запрос.",
+                    "submit_button": "Отправить",
+                    "delete_button": "Удалить",
+                    "confirmation_message": "Ваш запрос на изменение имени пользователя отправлен и ожидает рассмотрения.",
+                    "dismiss_button": "=> core.ref.okay",
+                    "deleted": "Запрос удалён."
+                }
+            },
+            "pending_requests": {
+                "empty_text": "Запросы на изменение имени отсутствуют.",
+                "nickname_item_text": "{name} запросил(а) изменение псевдонима",
+                "nickname_exerpt": "Новый псевдоним: {requestedName}",
+                "tooltip": "=> fof-username-request.ref.name_change_requests",
+                "title": "=> fof-username-request.ref.name_change_requests",
+                "username_item_text": "{name} запросил(а) изменение имени пользователя",
+                "username_exerpt": "Новое имя пользователя: {requestedName}"
+            },
+            "settings": {
+                "nickname_request_button": "Изменить псевдоним",
+                "username_request_button": "Изменить имя пользователя"
+            },
+            "user": {
+                "name_history_link": "История имени"
+            }
+        },
+        "ref": {
+            "name_change_request": "Запрос на изменение имени",
+            "name_change_requests": "Запросы на изменение имени",
+            "nickname_change_request": "Запрос на изменение псевдонима",
+            "nickname_change_requests": "Запросы на изменение псевдонима",
+            "username_change_request": "Запрос на изменение имени пользователя",
+            "username_change_requests": "Запросы на изменение имени пользователя"
+        }
+    }
+}

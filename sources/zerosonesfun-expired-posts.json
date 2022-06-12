@@ -1,0 +1,24 @@
+{
+    "expired-posts": {
+        "forum": {
+            "composer": {
+                "warning": {
+                    "title": "Post Expired",
+                    "description": "This post has expired.",
+                    "error": "This discussion expired."
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "days_label": "Days",
+                "days_help": "A discussion will be marked as expired when the amount of days specified has passed since the last post on that discussion was posted. Use <code>0</code> to disable it by default.",
+                "message_title_label": "Custom Message Title",
+                "message_title_help": "Use <code>[time]</code> for the time text, e.g. \"14 days\".",
+                "message_description_label": "Custom Message Description",
+                "tags_title": "Tags",
+                "tags_help": "Override the global days for a specific tag. Empty means use default value. If a discussion has multiple tags with different day values, it will use the smallest amount of days configured."
+            }
+        }
+    }
+}

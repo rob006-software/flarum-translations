@@ -1,0 +1,30 @@
+{
+    "flarum-flags": {
+        "forum": {
+            "flag_post": {
+                "reason_duplicate_label": "Duplicate"
+            }
+        }
+    },
+    "blomstra-flag-duplicates": {
+        "admin": {
+            "settings": {
+                "event_post_help": "Create an event post in the discussion where a \"duplicate\" flag has been raised. This can inform users that the discussion is potentially a duplicate of another, without giving them access to the overall flags which have been raised.",
+                "event_post_label": "Event post"
+            }
+        },
+        "forum": {
+            "flags": {
+                "duplicate_discussion": "Duplicate discussion",
+                "reason_duplicate_label": "Duplicate discussion",
+                "reason_duplicate_text": "This discussion is a duplicate of another.",
+                "reason_discussion_deleted": "[deleted discussion]",
+                "deselect_discussion_a11y_label": "Deselect discussion"
+            },
+            "post_stream": {
+                "flagged_duplicate_text": "{username} marked this discussion as a potential duplicate of {duplicate}. A moderator will investigate shortly.",
+                "deleted_discussion": "[deleted discussion]"
+            }
+        }
+    }
+}

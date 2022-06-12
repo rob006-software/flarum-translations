@@ -9,7 +9,7 @@
                 "section_sso_intro": "This feature will seamlessly connects Wordpress users with Flarum. An account will automatically be created for them and kept in sync with Wordpress. If you have existing accounts in Flarum, they will automatically be matched by their email. If you delete a user in Flarum, it will be created again next time the Wordpress account logins. To block a Flarum user, suspend the account in Flarum.\n",
                 "enable_sso": "Enable SSO integration",
                 "cookie_domain": "Cookie Domain",
-                "cookie_domain_help": "Only necessary it's different than Flarum domain",
+                "cookie_domain_help": "Only necessary if different from Flarum domain",
                 "wordpress_login_path": "Wordpress login path",
                 "wordpress_login_path_help": "Only necessary if you renamed your login endpoint manually or via a plugin",
                 "username_strategy": "Username for new users",

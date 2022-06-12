@@ -1,0 +1,25 @@
+{
+    "flarum-sticky": {
+        "admin": {
+            "permissions": {
+                "sticky_discussions_label": "Qotirilgan muhokamalar"
+            }
+        },
+        "forum": {
+            "badge": {
+                "sticky_tooltip": "=> flarum-sticky.ref.sticky"
+            },
+            "discussion_controls": {
+                "sticky_button": "=> flarum-sticky.ref.sticky",
+                "unsticky_button": "Yechish"
+            },
+            "post_stream": {
+                "discussion_stickied_text": "{username} muhokamani qotirib qo'ydi.",
+                "discussion_unstickied_text": "{username} muhokamani yechdi."
+            }
+        },
+        "ref": {
+            "sticky": "Qotirilgan"
+        }
+    }
+}

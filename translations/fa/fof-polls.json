@@ -1,0 +1,51 @@
+{
+    "fof-polls": {
+        "admin": {
+            "permissions": {
+                "view_results_without_voting": "مشاهده نتایج بدون رای گیری",
+                "start": "",
+                "self_edit": "",
+                "vote": "",
+                "change_vote": "",
+                "moderate": ""
+            }
+        },
+        "forum": {
+            "days_remaining": "نظرسنجی در {time} به پایان می رسد.",
+            "no_permission": "شما اجازه رای دادن ندارید",
+            "poll_ended": "این نظرسنجی به پایان رسید.",
+            "public_poll": "مشاهده رای دهندگان",
+            "composer_discussion": {
+                "add_poll": "اضافه کردن نظرسنجی",
+                "edit_poll": ""
+            },
+            "modal": {
+                "add_title": "افزودن نظرسنجی",
+                "add_option_label": "اضافه کردن گزینه",
+                "date_placeholder": "تاریخ پایان نظرسنجی (اختیاری)",
+                "edit_title": "ویرایش نظرسنجی",
+                "include_question": "شما باید یک سوال اضافه کنید",
+                "max": "شما می توانید حداکثر 10 پاسخ داشته باشید",
+                "min": "شما باید حداقل 2 پاسخ را وارد کنید",
+                "no_voters": "بدون رای",
+                "option_placeholder": "پاسخ",
+                "options_label": "پاسخ ها",
+                "public_poll_label": "به مردم اجازه دهید ببینند چه کسی رای داده است",
+                "question_placeholder": "سوال",
+                "submit": "ارسال"
+            },
+            "moderation": {
+                "delete": "حذف نظرسنجی",
+                "delete_confirm": "آیا مطمئنید که می خواهید این نظرسنجی را حذف کنید؟",
+                "edit": "ویرایش نظرسنجی"
+            },
+            "tooltip": {
+                "badge": "نظرسنجی",
+                "votes": "{count, plural, one {# رای} other {# رای}}"
+            },
+            "votes_modal": {
+                "title": "رای دهندگان"
+            }
+        }
+    }
+}

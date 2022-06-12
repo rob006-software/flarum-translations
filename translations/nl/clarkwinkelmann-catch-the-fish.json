@@ -2,7 +2,7 @@
     "clarkwinkelmann-catch-the-fish": {
         "forum": {
             "moderate": {
-                "add": "",
+                "add": "Toevoegen",
                 "edit": "",
                 "delete": "",
                 "fishes": "",
@@ -94,6 +94,7 @@
                 "name": "",
                 "user-name": "",
                 "user-place": "",
+                "placement": "",
                 "actions": "",
                 "edit": "",
                 "no-user-name": "",
@@ -120,13 +121,37 @@
         },
         "admin": {
             "settings": {
-                "title": "",
-                "discussion-age": "",
-                "post-age": "",
+                "user": "",
                 "user-age": "",
+                "user-probability": "",
+                "discussion": "",
+                "discussion-age": "",
+                "discussion-tags": "",
+                "discussion-tags-unavailable": "",
+                "discussion-tags-help": "",
+                "tags-header": {
+                    "tag": "",
+                    "probability": ""
+                },
+                "tags-control": {
+                    "choose": "",
+                    "add": "",
+                    "down": "",
+                    "up": "",
+                    "delete": ""
+                },
+                "tags-fallback": {
+                    "last-line": "",
+                    "single-line": ""
+                },
+                "post": "",
+                "post-age": "",
+                "post-probability": "",
+                "general": "",
                 "time-to-place": "",
                 "alert-round": "",
-                "animate-flip": ""
+                "animate-flip": "",
+                "title": ""
             },
             "permissions": {
                 "visible": "",
@@ -146,6 +171,7 @@
             "invalid-user-id": "",
             "model-deleted": "",
             "model-private": "",
+            "tag-not-allowed": "",
             "inactive-discussion": "",
             "inactive-post": "",
             "inactive-user": "",

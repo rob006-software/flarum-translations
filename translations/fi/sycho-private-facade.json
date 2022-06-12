@@ -1,0 +1,29 @@
+{
+    "sycho-private-facade": {
+        "admin": {
+            "settings": {
+                "force_redirect": "Pakota vieraiden ohjaus kirjautuminen/rekisteröityminen näkymään",
+                "header_layout": {
+                    "options": {
+                        "show_header": "Näytä yläosa",
+                        "show_only_logo": "Näytä vain logo",
+                        "hide_secondary_items": "Piilota toissijaiset (haun, kirjautumisen ja rekisteröitymisen linkit)"
+                    },
+                    "title": "Yläosan pohja"
+                },
+                "illustration_path": "Kuvituskuva",
+                "primary_color_bg": "Käytä pääväriä taustavärinä",
+                "route_exclusions": "Reitit joista ei ohjata kirjautuminen/rekisteröityminen sivulle.",
+                "screen_banner_description": "Ruudun viesti",
+                "screen_banner_heading": "Ruudun banneri",
+                "screen_banner_title": "Ruudun otsikko",
+                "use_welcome_hero_text": "Käytä Tervetulobannerin tekstiä"
+            }
+        },
+        "forum": {
+            "log_in_label": "=> core.ref.log_in",
+            "or_label": "tai",
+            "sign_up_label": "=> core.ref.sign_up"
+        }
+    }
+}

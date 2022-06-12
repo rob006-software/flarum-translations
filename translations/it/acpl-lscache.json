@@ -1,0 +1,17 @@
+{
+    "acpl-lscache": {
+        "admin": {
+            "public_cache_ttl_label": "TTL cache pubblica predefinita",
+            "public_cache_ttl_help": "Specifica per quanto tempo, in secondi, le pagine pubbliche vengono memorizzate nella cache. Il valore predefinito è 300 secondi",
+            "clearing_cache_listener_label": "Svuota LSCache quando la cache di Flarum viene svuotata",
+            "serve_stale_label": "Serve Stale",
+            "serve_stale_help": "Se ON, la copia obsoleta di una pagina memorizzata nella cache verrà mostrata ai visitatori fino a quando non sarà disponibile una nuova copia cache. Riduce il carico del server per le visite successive. Se OFF, la pagina verrà generata dinamicamente mentre i visitatori aspettano. In base alla progettazione, questa opzione può fornire contenuti obsoleti. Non abilitare questa opzione, se non ti va bene.",
+            "purge_on_discussion_update_label": "Elimina URL o tag quando una discussione o un post viene aggiornato",
+            "purge_on_discussion_update_help": "Specifica un URL o un tag per riga. L'URL dovrebbe iniziare con <code>/</code>, ad es. <code>/rankings</code> e il tag cache dovrebbero iniziare con <code>tag=</code>, ad es. <code>tag=classifica</code>. Questa estensione tagga ogni indirizzo e, qualora ne avessi molti da eliminare, è meglio aggiungere una regola in .htaccess con un'espressione regolare che tagga gli indirizzi e qui nelle impostazioni inserire solo il tag . Questo metodo sarà molto più veloce. <a>Ulteriori informazioni</a>. Per impostazione predefinita, la cache per la home page viene eliminata, così come la cache per le discussioni aggiornate",
+            "cache_exclude_label": "Non memorizzare nella cache i percorsi",
+            "cache_exclude_help": "I percorsi contenenti queste stringhe non verranno memorizzati nella cache. Ad esempio, per <code>/mypath/mypage?aa=bb</code>, è possibile utilizzare <code>mypage?aa=</code> qui. Per abbinare l'inizio, aggiungi <code>^</code> all'inizio dell'elemento. Per ottenere una corrispondenza esatta, aggiungi <code>$</code> alla fine dell'URL. Uno per riga.",
+            "purge_all": "Elimina tutto da LSCache",
+            "purge_all_success": "Server Web LiteSpeed notificato per eliminazione voci LSCache"
+        }
+    }
+}

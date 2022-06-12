@@ -1,0 +1,55 @@
+{
+    "clarkwinkelmann-featured-discussions": {
+        "admin": {
+            "settings": {
+                "schedule": "Taqvim (CRON sintaksida)",
+                "duration": "Davomiylik (sekundda)",
+                "eventPost": "Jadval o'zgartirilganda voqea postini yarating"
+            },
+            "permissions": {
+                "feature": "Tanlangan muhokamalarni boshqaring"
+            }
+        },
+        "forum": {
+            "modal": {
+                "title": "Xususiyat muhokamasi",
+                "fields": {
+                    "from": "Dan",
+                    "until": "Gacha"
+                },
+                "from": {
+                    "not": "Ko'rsatilmagan",
+                    "next": "Keyingi slot",
+                    "manual": "Sanani qo'lda kiritish"
+                },
+                "until": {
+                    "auto": "Avto",
+                    "manual": "Sanani qo'lda kiritish"
+                },
+                "action": {
+                    "cancel": "Bekor qilish",
+                    "submit": "Yuborish"
+                }
+            },
+            "controls": {
+                "feature": "Xususiyat muhokamasi"
+            },
+            "badge": "Tavsiya etilgan",
+            "nav": {
+                "schedule": "Xususiyatlar jadvali"
+            },
+            "schedule": {
+                "help": "Jadvalni o'zgartirish uchun muhokamalarni sahifaga yoki boshqa oynadan sudrab olib tashlang. Jadvalni olib tashlash uchun 3 nuqtali menyudan foydalaning.\n",
+                "drop-here": "Rejalashtirish uchun shu yerga tushing",
+                "drop-error": "Muhokama havolasi yaroqsiz",
+                "empty": "Muhokamalar yo'q",
+                "custom": "Maxsus"
+            },
+            "post": {
+                "scheduled": "{from} dan {util} gacha ko‘rsatilishi rejalashtirilgan",
+                "unscheduled": "Endi namoyish qilish rejalashtirilmagan",
+                "auto": "(avto)"
+            }
+        }
+    }
+}

@@ -2,7 +2,10 @@
     "nearata-embed-twitch": {
         "admin": {
             "allowfullscreen": "",
-            "autoplay": ""
+            "autoplay": "",
+            "permissions": {
+                "create_twitch": ""
+            }
         },
         "forum": {
             "modal": {
