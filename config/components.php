@@ -269,7 +269,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-add-like-controls/v1.0.6/locale/en.yml',
 	],
 	'datlechin-birthdays' => [
-		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-birthdays/v1.2.3/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-birthdays/v1.2.4/locale/en.yml',
 	],
 	'datlechin-copy-links' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-copy-links/v0.1.1/locale/en.yml',
