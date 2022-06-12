@@ -469,6 +469,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`afrux-top-posters-widget`](https://weblate.rob006.net/projects/flarum/afrux-top-posters-widget) | [`afrux/top-posters-widget`](https://github.com/afrux/top-posters-widget) |
 | [`antoinefr-money`](https://weblate.rob006.net/projects/flarum/antoinefr-money) | [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money) |
 | [`antoinefr-online`](https://weblate.rob006.net/projects/flarum/antoinefr-online) | [`antoinefr/flarum-ext-online`](https://github.com/AntoineFr/flarum-ext-online) |
+| [`archlinux-de-click-image`](https://weblate.rob006.net/projects/flarum/archlinux-de-click-image) | [`archlinux-de/flarum-click-image`](https://github.com/archlinux-de/flarum-click-image) |
 | [`askvortsov-article-series`](https://weblate.rob006.net/projects/flarum/askvortsov-article-series) | [`askvortsov/flarum-article-series`](https://github.com/askvortsov1/flarum-article-series) |
 | [`askvortsov-auto-moderator`](https://weblate.rob006.net/projects/flarum/askvortsov-auto-moderator) | [`askvortsov/flarum-auto-moderator`](https://github.com/askvortsov1/flarum-auto-moderator) |
 | [`askvortsov-categories`](https://weblate.rob006.net/projects/flarum/askvortsov-categories) | [`askvortsov/flarum-categories`](https://github.com/askvortsov1/flarum-categories) |
