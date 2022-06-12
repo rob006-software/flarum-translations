@@ -44,5 +44,15 @@
                 }
             }
         }
+    },
+    "fof-default-user-preferences": {
+        "admin": {
+            "settings": {
+                "fofNightMode": "FoF Nightmode: Color theme to use by default",
+                "fofNightMode-help": "0 - automatic, 1 - light mode, 2 - dark mode",
+                "fofNightMode_perDevice": "FoF Nightmode: Use per device settings",
+                "fofNightMode_perDevice-help": "Use per device preferences for nightmode settings"
+            }
+        }
     }
 }
