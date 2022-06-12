@@ -133,6 +133,9 @@ return [
 	'blomstra-welcome-login' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-welcome-login/0.1.0/locale/en.yml',
 	],
+	'cadiducho-bbcode' => [
+		'tag' => 'https://raw.githubusercontent.com/EdorasMinecraft/BBcode/1.1/resources/locale/en.yml',
+	],
 	'clarkwinkelmann-author-change' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-author-change/1.0.2/resources/locale/en.yml',
 	],
