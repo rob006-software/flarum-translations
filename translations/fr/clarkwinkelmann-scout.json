@@ -2,20 +2,20 @@
     "clarkwinkelmann-scout": {
         "admin": {
             "setting": {
-                "driver": "",
+                "driver": "Pilote",
                 "driverOption": {
-                    "null": "",
-                    "algolia": "",
-                    "meilisearch": ""
+                    "null": "Néant",
+                    "algolia": "Algolia",
+                    "meilisearch": "Meilisearch"
                 },
-                "prefix": "",
-                "algoliaId": "",
-                "algoliaSecret": "",
-                "algoliaConnectTimeout": "",
-                "algoliaReadTimeout": "",
-                "algoliaWriteTimeout": "",
-                "meilisearchHost": "",
-                "meilisearchKey": ""
+                "prefix": "Préfixe du nom de l'index (facultatif)",
+                "algoliaId": "Identifiant d'Algolia",
+                "algoliaSecret": "Secret d'Algolia",
+                "algoliaConnectTimeout": "Délai de connexion d'Algolia (facultatif)",
+                "algoliaReadTimeout": "Délai de lecture d'Algolia (facultatif)",
+                "algoliaWriteTimeout": "Délai d'écriture d'Algolia (facultatif)",
+                "meilisearchHost": "Hôte de Meilisearch",
+                "meilisearchKey": "Clé de Meilisearch"
             }
         }
     }
