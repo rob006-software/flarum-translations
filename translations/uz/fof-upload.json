@@ -15,6 +15,7 @@
                 "watermark": "Yuklash paytida rasmlarga suv belgisi qo'shiladimi yoki yo'qligini tanlang. Quyidagi afzalliklaringiz asosida gif bo'lmagan rasmlarga suv bo'yoqlari qo'shiladi.\n",
                 "s3_compatible_storage": "Quyidagi sozlamalar faqat S3 mos xotirasidan foydalanilganda talab qilinadi. Agar siz AWS dan foydalansangiz, ularni bo'sh qoldirishingiz mumkin.\n",
                 "s3_acl": "Yuklangan ob'ektga qo'llanilishi kerak bo'lgan ACL (standart: shaxsiy). Mumkin qiymatlar uchun qarang: https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_instance_profile": "",
                 "composer_buttons": "Odatiy bo'lib media menejeri tugmasi ham, yuklash tugmasi ham ko'rinadi. Siz faqat bitta tugmani ko'rsatishni tanlashingiz mumkin.\n"
             },
             "labels": {
@@ -39,7 +40,8 @@
                 },
                 "imgur": {
                     "client_id": "Imgur mijoz identifikatori",
-                    "title": "Imgur tasvirni saqlash sozlamalari"
+                    "title": "Imgur tasvirni saqlash sozlamalari",
+                    "tos": ""
                 },
                 "local": {
                     "cdn_url": "Kontentni yetkazib berish URL manzili (prefiks fayllari)",
@@ -78,7 +80,8 @@
                         "upload-btn": "Faqat yuklash tugmasi",
                         "media-btn": "Faqat media menejeri tugmasi"
                     }
-                }
+                },
+                "inspect-mime": ""
             },
             "permissions": {
                 "download_label": "Fayllarni yuklab oling",
@@ -98,7 +101,9 @@
                 "bbcode-image": "BBCode rasm shabloni",
                 "bbcode-image_description": "BBCode yordamida toʻliq tasvirni in-line koʻrsatadi. <strong>Buning ishlashi uchun sizda flarum/bbcode oʻrnatilgan va yoqilgan boʻlishi kerak.</strong> Yuklab olish funksiyasi yoʻq, statistika yigʻilmaydi va hotlink himoyasi eʼtiborga olinmaydi.\n",
                 "just-url": "Faqat URL",
-                "just-url_description": "Faqat URLni kiritadi. Renderlash avtomatik ulanish imkoniyatiga ega bo'lgan boshqa kengaytmalar tomonidan amalga oshirilishi mumkin. Yuklab olish funksiyasi yo'q, statistika yig'ilmaydi va hotlink himoyasi e'tiborga olinmaydi.\n"
+                "just-url_description": "Faqat URLni kiritadi. Renderlash avtomatik ulanish imkoniyatiga ega bo'lgan boshqa kengaytmalar tomonidan amalga oshirilishi mumkin. Yuklab olish funksiyasi yo'q, statistika yig'ilmaydi va hotlink himoyasi e'tiborga olinmaydi.\n",
+                "text-preview": "",
+                "text-preview_description": ""
             },
             "upload_methods": {
                 "aws-s3": "S3/mos keladi",
@@ -106,6 +111,19 @@
                 "local": "Lokal",
                 "ovh-svfs": "OVH SVFS",
                 "qiniu": "QiNiu"
+            },
+            "inspect-mime": {
+                "title": "",
+                "description": "",
+                "select": "",
+                "laravel-validation": "",
+                "no-file-selected": "",
+                "validation-passed": "",
+                "validation-failed": "",
+                "mime-detector": "",
+                "mime-fileinfo": "",
+                "guessed-extension": "",
+                "not-available": ""
             }
         },
         "forum": {
@@ -141,6 +159,13 @@
             },
             "validation": {
                 "max_size": "{maksimal} kb dan ortiq yuklamalar qabul qilinmaydi."
+            },
+            "text_preview": {
+                "expand": "",
+                "collapse": "",
+                "error": "",
+                "no_snippet_preview": "",
+                "no_snippet": ""
             }
         },
         "api": {

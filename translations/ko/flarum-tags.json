@@ -1,0 +1,96 @@
+{
+    "flarum-tags": {
+        "admin": {
+            "basics": {
+                "tags_label": "=> flarum-tags.ref.tags"
+            },
+            "edit_tag": {
+                "color_label": "=> core.ref.color",
+                "delete_tag_button": "태그 삭제",
+                "delete_tag_confirmation": "이 태그를 삭제하시겠습니까? 이 경우 태그의 게시물은 삭제되지 않습니다.",
+                "description_label": "설명",
+                "hide_label": "모든 게시물에서 숨기기",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
+                "name_label": "=> flarum-tags.ref.name",
+                "name_placeholder": "=> flarum-tags.ref.name",
+                "slug_label": "영어 이름",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> flarum-tags.ref.create_tag"
+            },
+            "nav": {
+                "tags_button": "=> flarum-tags.ref.tags",
+                "tags_text": "사용 가능한 태그 목록을 관리합니다."
+            },
+            "permissions": {
+                "allow_edit_tags_label": "태그 편집 사용",
+                "bypass_tag_counts_label": "",
+                "restrict_by_tag_heading": "태그 제한",
+                "tag_discussions_label": "게시물 태그 설정"
+            },
+            "tag_settings": {
+                "range_separator_text": " 으로 ",
+                "required_primary_heading": "필요한 기본 태그 수",
+                "required_primary_text": "게시물에 적용할 수 있는 기본 태그의 최소 및 최대 수를 입력합니다.",
+                "required_secondary_heading": "필요한 보조 태그 수",
+                "required_secondary_text": "게시물에 적용할 수 있는 보조 태그의 최소 및 최대 수를 입력합니다.",
+                "title": "태그 설정"
+            },
+            "tags": {
+                "about_tags_text": "태그는 게시물을 분류하는 데 사용됩니다. 기본 태그는 기존 포럼 카테고리와 유사하며 2단계 계층 구조로 정렬할 수 있습니다. 보조 태그에는 계층 또는 순서가 없으며 미세 분류에 유용합니다.",
+                "create_primary_tag_button": "",
+                "create_secondary_tag_button": "",
+                "primary_heading": "기본 태그",
+                "secondary_heading": "보조 태그",
+                "settings_heading": "",
+                "create_tag_button": "=> flarum-tags.ref.create_tag",
+                "settings_button": "설정"
+            }
+        },
+        "forum": {
+            "all_tags": {
+                "meta_description_text": "모든 태그",
+                "meta_title_text": "=> flarum-tags.ref.tags"
+            },
+            "choose_tags": {
+                "bypass_requirements": "",
+                "choose_primary_placeholder": "기본 태그 선택|{count}개의 기본 태그 선택",
+                "choose_secondary_placeholder": "1개 태그 추가 선택|{count}개 태그 추가 선택",
+                "edit_title": "{title}에 대한 태그 편집",
+                "submit_button": "=> core.ref.okay",
+                "title": "게시물에 사용할 태그를 선택합니다"
+            },
+            "composer_discussion": {
+                "choose_tags_link": "태그 선택"
+            },
+            "discussion_controls": {
+                "edit_tags_button": "태그 편집"
+            },
+            "header": {
+                "back_to_tags_tooltip": "태그 목록으로 돌아가기"
+            },
+            "index": {
+                "more_link": "더 보기...",
+                "tags_link": "=> flarum-tags.ref.tags",
+                "untagged_link": "태그되지 않음"
+            },
+            "post_stream": {
+                "added_and_removed_tags_text": "{username}님이 {tagsAdded}를 추가하고 {tagsRemoved}를 삭제했습니다.",
+                "added_tags_text": "{username}님이 {tagsAdded}를 추가했습니다.",
+                "removed_tags_text": "{username}님이 {tagsRemoved}를 삭제했습니다.",
+                "tags_text": "{tags} 태그|{tags} 태그들"
+            },
+            "tag": {
+                "meta_description_text": "{tag} 태그를 사용한 모든 게시물"
+            }
+        },
+        "lib": {
+            "deleted_tag_text": "삭제됨"
+        },
+        "ref": {
+            "name": "이름",
+            "tags": "태그",
+            "create_tag": "태그 생성"
+        }
+    }
+}

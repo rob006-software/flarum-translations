@@ -12,7 +12,7 @@
                 "edit_recipients": "Ontvangers aanpassen",
                 "send_pd": "Stuur {username} een bericht",
                 "cancel": "Annuleer",
-                "make_public": "",
+                "make_public": "Deze discussie openbaar maken",
                 "remove_from_discussion": "Privédiscussie verlaten"
             },
             "composer_private_discussion": {
@@ -20,46 +20,46 @@
                 "title_placeholder": "Privé discussie titel"
             },
             "confirm": {
-                "make_public": ""
+                "make_public": "Weet u zeker dat u de ontvangers wilt verwijderen en deze discussie zichtbaar wilt maken voor iedereen die de toegewezen tag kan bekijken?"
             },
             "labels": {
-                "recipients": "",
+                "recipients": "{count, plural, one {{count} Ontvanger} other {{count} Ontvangers}}",
                 "user_deleted": ""
             },
             "nav": {
-                "start_button": "",
+                "start_button": "Bespreek privé",
                 "nav_item": "Privé discussie"
             },
             "input": {
-                "search_recipients": ""
+                "search_recipients": "Zoek de ontvanger door de eerste drie tekens te typen..."
             },
             "search": {
                 "headings": {
-                    "groups": ""
+                    "groups": "Machtigingsgroepen"
                 }
             },
             "modal": {
                 "titles": {
-                    "update_recipients": "",
-                    "add_recipients": ""
+                    "update_recipients": "Ontvangers van {title} bijwerken",
+                    "add_recipients": "Ontvangers toevoegen aan uw discussie"
                 },
                 "labels": {
-                    "selected_users": "",
-                    "search_field": ""
+                    "selected_users": "Geselecteerde gebruikers",
+                    "search_field": "Zoek naar gebruiker"
                 },
                 "help": {
-                    "add_recipients": "",
-                    "update_recipients": "",
-                    "selected_users": "",
-                    "click_user_to_remove_tooltip": ""
+                    "add_recipients": "Deze discussie zal alleen zichtbaar zijn voor de gebruikers die u hier kiest. Er is minimaal 1 ontvanger (anders dan uzelf) vereist.",
+                    "update_recipients": "Deze discussie zal alleen zichtbaar zijn voor de gebruikers die u hier kiest.",
+                    "selected_users": "Klik op de naam van een gebruiker om deze te verwijderen.",
+                    "click_user_to_remove_tooltip": "Klik om te verwijderen"
                 }
             },
             "post": {
                 "recipients_modified": {
-                    "added_and_removed": "",
-                    "added": "",
-                    "made_public": "",
-                    "removed": "",
+                    "added_and_removed": "{username} heeft ontvangers toegevoegd {added} en verwijderd {removed}.",
+                    "added": "{username} heeft ontvangers toegevoegd {added}.",
+                    "made_public": "{username} heeft alle ontvangers verwijderd en de discussie openbaar gemaakt",
+                    "removed": "{username} heeft ontvangers verwijderd {removed}.",
                     "removed_self": "{username} heeft de privé discussie verlaten."
                 }
             },
@@ -78,38 +78,38 @@
                 "pd_user_left_label": "Een ontvangende gebruiker heeft de privé discussie verlaten waar jij deel van bent",
                 "pd_user_left_text": "{username} heeft de privé discussie verlaten",
                 "pd_added_text": "{username} heeft je toegevoegd aan een privé discussie",
-                "pd_added_label": ""
+                "pd_added_label": "Iemand voegt me toe aan een bestaande privédiscussie"
             }
         },
         "admin": {
             "permission": {
-                "create_private_discussions_with_users": "",
-                "create_private_discussions_with_groups": "",
-                "create_private_discussions_with_blocking_users": "",
-                "edit_user_recipients": "",
-                "edit_group_recipients": "",
-                "make_private_into_public": "",
-                "view_private_discussions-when-flagged": ""
+                "create_private_discussions_with_users": "Maak privédiscussies met gebruikers",
+                "create_private_discussions_with_groups": "Maak privédiscussies met groepen",
+                "create_private_discussions_with_blocking_users": "Maak privédiscussies met gebruikers die het blokkeren",
+                "edit_user_recipients": "Gebruikers bewerken die deelnemen aan privédiscussies",
+                "edit_group_recipients": "Groepen bewerken die deelnemen aan privédiscussies",
+                "make_private_into_public": "Verander een privédiscussie in een openbare discussie",
+                "view_private_discussions-when-flagged": "Bekijk privédiscussies van andere gebruikers indien gemarkeerd"
             },
             "settings": {
-                "badge-icon": "",
-                "enable-make-public-option": "",
-                "enable-make-public-option-help": "",
-                "post-event-icon": ""
+                "badge-icon": "Byobu-discussiebadge",
+                "enable-make-public-option": "Schakel de mogelijkheid \"openbaar maken\" in",
+                "enable-make-public-option-help": "Voegt de mogelijkheid toe voor degenen met toestemming om alle ontvangers te verwijderen, een nieuwe tag toe te wijzen en de discussie openbaar zichtbaar te maken (volgens de zichtbaarheidsinstellingen van de gekozen tag).",
+                "post-event-icon": "Byobu bericht evenementen"
             }
         },
         "email": {
             "subject": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": ""
+                "private_discussion_created": "[Privédiscussie] {display_name} heeft een nieuwe privédiscussie met u gestart",
+                "private_discussion_replied": "[Privédiscussie] {display_name} heeft iets geplaatst in een privédiscussie",
+                "recipient_removed": "[Privédiscussie] {display_name} heeft de discussie verlaten",
+                "private_discussion_added": "[Privédiscussie] {display_name} heeft je toegevoegd aan een privédiscussie"
             },
             "body": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": ""
+                "private_discussion_created": "Hallo {recipient_display_name},\n\n{actor_display_name} heeft een nieuwe privédiscussie gestart met jou als ontvanger: {discussion_title}.\n\nBekijk het hier:\n{discussion_url}\n\nMogelijk moet u eerst inloggen voordat u toegang kunt krijgen tot deze link.\n",
+                "private_discussion_replied": "Hallo {recipient_display_name},\n\n{actor_display_name} heeft gepost in een privédiscussie met jou als ontvanger: {discussion_title}.\n\nBekijk het hier:\n{post_url}\n\nMogelijk moet u eerst inloggen voordat u toegang kunt krijgen tot deze link.\n",
+                "recipient_removed": "Hallo {recipient_display_name},\n\n{actor_display_name} heeft de privédiscussie verlaten: {discussion_title}. Ze kunnen de inhoud ervan niet meer bekijken.\n\nBekijk het hier:\n{discussion_url}\n\nMogelijk moet u eerst inloggen voordat u toegang kunt krijgen tot deze link.\n",
+                "private_discussion_added": "Hallo {recipient_display_name},\n\n{actor_display_name} heeft je toegevoegd aan een bestaande privédiscussie: {discussion_title}.\n\nBekijk het hier:\n{discussion_url}\n\nMogelijk moet u eerst inloggen voordat u toegang kunt krijgen tot deze link.\n"
             }
         }
     }

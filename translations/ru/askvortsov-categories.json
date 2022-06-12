@@ -5,51 +5,51 @@
                 "categories_label": "Категории"
             },
             "labels": {
-                "keep_tags_nav": "",
-                "child_bare_icon": "",
-                "compact_mobile_mode": "",
-                "full_page_desktop": "",
-                "parent_remove_icon": "",
-                "parent_remove_description": "",
-                "parent_remove_stats": "",
-                "parent_remove_last_discussion": "",
-                "small_forum_optimized": ""
+                "keep_tags_nav": "Оставить ссылку на страницу тегов в боковом меню навигации?",
+                "child_bare_icon": "Ограничиться дочерними иконками?",
+                "compact_mobile_mode": "Компактный режим для мобильных устройств",
+                "full_page_desktop": "Полностраничный для ПК?",
+                "parent_remove_icon": "Скрывать иконки тегов верхнего уровня?",
+                "parent_remove_description": "Скрывать описания тегов верхнего уровня?",
+                "parent_remove_stats": "Скрывать статистику тегов верхнего уровня?",
+                "parent_remove_last_discussion": "Скрывать наиболее актуальные дискуссии с тегами верхнего уровня?",
+                "small_forum_optimized": "Оптимизировать для малых форумов?"
             },
             "help": {
-                "child_bare_icon": "",
+                "child_bare_icon": "Показывать иконки дочерних категорий вместо закругленного фона?",
                 "full_page_desktop": "",
-                "small_forum_optimized": ""
+                "small_forum_optimized": "Это обеспечит более точный подсчет дискуссий/сообщений, но значительно замедлит работу средних и больших форумов."
             },
             "headings": {
-                "nav": "",
-                "layout": "",
-                "parent_display": "",
-                "child_display": "",
-                "performance": ""
+                "nav": "Навигация",
+                "layout": "Раскладка",
+                "parent_display": "Отображение родительской категории",
+                "child_display": "Отображение дочерней категории",
+                "performance": "Производительность"
             },
-            "title": ""
+            "title": "Настройки категорий"
         },
         "forum": {
             "all_categories": {
-                "meta_description_text": "",
-                "meta_title_text": ""
+                "meta_description_text": "Все категории",
+                "meta_title_text": "=> askvortsov-categories.ref.categories"
             },
             "header": {
-                "back_to_categories_tooltip": ""
+                "back_to_categories_tooltip": "Вернуться к категориям"
             },
             "index": {
-                "categories_link": ""
+                "categories_link": "=> askvortsov-categories.ref.categories"
             },
             "stat-widgets": {
-                "discussion_label": "",
-                "post_label": ""
+                "discussion_label": "Дискуссии",
+                "post_label": "Сообщения"
             },
             "last_discussion_widget": {
-                "no_discussions": ""
+                "no_discussions": "Дискуссий (пока) нет"
             }
         },
         "ref": {
-            "categories": ""
+            "categories": "Категории"
         }
     }
 }

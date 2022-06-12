@@ -2,61 +2,61 @@
     "clarkwinkelmann-carving-contest": {
         "forum": {
             "nav": {
-                "contest": ""
+                "contest": "Schnitzwettbewerb"
             },
             "page": {
-                "title": "",
-                "loading": "",
-                "participate": "",
-                "already-participated": "",
-                "delete-confirmation": "",
-                "like": "",
-                "already-liked": "",
-                "unlike": "",
-                "refresh": "",
-                "load-more": "",
+                "title": "Kürbisschnitzwettbewerb",
+                "loading": "Einträge werden geladen...",
+                "participate": "Teilnehmen",
+                "already-participated": "Schon teilgenommen",
+                "delete-confirmation": "Möchtest Du \"{name}\" von {username} wirklich löschen?",
+                "like": "Like",
+                "already-liked": "Ich mag das",
+                "unlike": "Unlike",
+                "refresh": "Neuladen",
+                "load-more": "Weitere Einträge laden",
                 "sort": {
-                    "mostLikes": "",
-                    "fewerLikes": "",
-                    "mostRecent": "",
-                    "leastRecent": ""
+                    "mostLikes": "Die meisten Likes",
+                    "fewerLikes": "Die wenigsten Likes",
+                    "mostRecent": "Kürzlich gepostet",
+                    "leastRecent": "Am wenigsten aktuell"
                 },
                 "likes": {
-                    "you_text": "",
-                    "others_link": "",
-                    "liked_by_self_text": "",
-                    "liked_by_text": ""
+                    "you_text": "=> core.ref.you",
+                    "others_link": "=> core.ref.some_others",
+                    "liked_by_self_text": "{users} gefällt das.",
+                    "liked_by_text": "{count, plural, one {{users} mag dies.} other {{users} mögen dies.}}"
                 }
             },
             "modal": {
-                "title": "",
-                "name": "",
-                "submit": "",
+                "title": "Teilnehmen",
+                "name": "Benenne Deine Kreation",
+                "submit": "Senden",
                 "tools": {
-                    "circle": "",
-                    "square": ""
+                    "circle": "Kreis",
+                    "square": "Quadrat"
                 }
             },
             "likes_modal": {
-                "title": ""
+                "title": "Benutzer, denen dieser Eintrag gefallen hat"
             }
         },
         "admin": {
             "permissions": {
-                "view": "",
-                "like": "",
-                "participate": "",
-                "moderate": ""
+                "view": "Einträge anzeigen",
+                "like": "Einträge liken",
+                "participate": "Teilnehmen",
+                "moderate": "Mäßig"
             },
             "settings": {
-                "maxEntriesPerUser": "",
-                "colorMode": ""
+                "maxEntriesPerUser": "Max. Einreichungen pro Benutzer",
+                "colorMode": "Farbmodus anstelle des Schnitzmodus verwenden"
             },
             "colors": {
-                "simple": "",
-                "all": "",
-                "custom": "",
-                "custom-help": ""
+                "simple": "Einfaches Farbset",
+                "all": "Irgendeine Farbe",
+                "custom": "Benutzerdefinierte Farbliste",
+                "custom-help": "Kommagetrennte Liste von #hex- oder rgb()-Werten"
             }
         }
     }

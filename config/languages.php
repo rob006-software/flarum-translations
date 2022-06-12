@@ -20,8 +20,10 @@ return [
 	]),
 	'az' => getComponents(),
 	'cs' => getComponents(),
+	'da' => getComponents(),
 	'de' => getComponents([
 		// translations included in extension
+		'!archlinux-de-click-image',
 		'!tpokorra-post-notification',
 		'!v17development-seo',
 	]),
@@ -54,11 +56,13 @@ return [
 		// translations included in extension
 		// '!clarkwinkelmann-emojionearea', https://github.com/clarkwinkelmann/flarum-ext-emojionearea/issues/28#issuecomment-855995493
 		'!justoverclock-discussion-hero-showtags',
+		'!justoverclock-thread-read-time',
 		'!maicol07-sso',
 		'!matteocontrini-imgur-upload',
 	]),
 	'ja' => getComponents(),
 	'ka' => getComponents(),
+	'ko' => getComponents(),
 	'lt' => getComponents(),
 	'lv' => getComponents(),
 	'ml' => getComponents(),
@@ -75,6 +79,7 @@ return [
 	]),
 	'si' => getComponents(),
 	'sk' => getComponents(),
+	'sr' => getComponents(),
 	'sv' => getComponents(),
 	'ta' => getComponents(),
 	'te' => getComponents(),

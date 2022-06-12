@@ -2,7 +2,11 @@
     "davwheat": {
         "ads": {
             "admin": {
+                "permissions": {
+                    "bypassAds": "Hide advertisements from the forum"
+                },
                 "settings": {
+                    "admin_bypass_warning": "Due to the nature of Flarum's permissions system, members of the Admin group will\nnot see any ads on the forum. If you wish to test your ads, please visit the forum\nin an Incognito or Private window.\n",
                     "enabled_locations": "Enabled ad unit locations",
                     "script_urls": "Custom script URL(s)",
                     "add_script": "New",

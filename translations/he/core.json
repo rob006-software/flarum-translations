@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "קביעת תצורה של טווחים",
-                "confirm_uninstall": "בהסרת ההרחבה יוסרו את כל הערכים והנכסים של מסד הנתונים. האם ברצונך להמשיך?",
+                "confirm_purge": "טיהור יסיר את כל ערכי מסד הנתונים והנכסים הקשורים להרחבה. זה לא יסיר את ההתקנה של התוסף; זה חייב להיעשות דרך Composer. האם ברצונך להמשיך?",
                 "disabled": "מבוטל",
                 "enable_to_see": "הפעלת ההרחבה לצפיה בשינויי ההגדרות.",
                 "enabled": "מופעל",
@@ -116,14 +116,14 @@
                 "no_settings": "אין הגדרות להרחבה זו.",
                 "open_modal": "פתיחת הגדרות",
                 "permissions_title": "הרשאות",
-                "uninstall_button": "הסרה",
-                "confirm_purge": "טיהור יסיר את כל ערכי מסד הנתונים והנכסים הקשורים להרחבה. זה לא יסיר את ההתקנה של התוסף; זה חייב להיעשות דרך Composer. האם ברצונך להמשיך?",
                 "purge_button": "טיהור",
                 "readme": {
-                    "button_label": "README",
+                    "button_label": "קרא אותי",
                     "no_readme": "הרחבה זו אינה כוללת קובץ README",
                     "title": "מסמכי ההרחבה {extName}"
-                }
+                },
+                "confirm_uninstall": "בהסרת ההרחבה יוסרו את כל הערכים והנכסים של מסד הנתונים. האם ברצונך להמשיך?",
+                "uninstall_button": "הסרה"
             },
             "header": {
                 "get_help": "השגת עזרה",
@@ -242,7 +242,7 @@
                     "next_button": "עמוד הבא",
                     "page_counter": "עמוד {current} מתוך {total}"
                 },
-                "title": "‌",
+                "title": "=> core.ref.users",
                 "total_users": "סך הכל משתמשים: {count}"
             }
         },
@@ -303,18 +303,18 @@
             "discussion_list": {
                 "empty_text": "נראה שאין פה דיונים.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "סמן כנקרא",
                 "replied_text": "{username} הגיב {ago}",
                 "started_text": "{username} יצר {ago}",
                 "total_replies_a11y_label": "{count, plural, one {תגובה #} other {# תגובות}}",
-                "unread_replies_a11y_label": "{count, plural, one {הודעה שלא נקראה #} other {# הודעות שלא נקראו}}. סימון {count, plural, one {reply} other {replies}} כנקרא."
+                "unread_replies_a11y_label": "{count, plural, one {הודעה שלא נקראה #} other {# הודעות שלא נקראו}}. סימון {count, plural, one {reply} other {replies}} כנקרא.",
+                "mark_as_read_tooltip": "סמן כנקרא"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
                 "email_placeholder": "=> core.ref.email",
-                "email_sent_message": "שלחנו לך מייל עם קישור לאיפוס הסיסמא. אם המייל לא הגיע בדקה-שתיים הקרובות, בדוק את תיקיית הספאם שלך.",
+                "email_sent_message": "מייל עם קישור לאיפוס הסיסמא נשלח. אם המייל לא הגיע בדקות הקרובות, בדקו את תיקיית הספאם.",
                 "not_found_message": "אין משתמש תחת כתובת המייל הזו.",
-                "submit_button": "שחזור סיסמא.",
+                "submit_button": "שחזור סיסמא",
                 "text": "הכנס את המייל שלך ונשלח לך קישור לאיפוס הסיסמא.",
                 "title": "שכחתי סיסמא"
             },
@@ -355,7 +355,7 @@
                 "invalid_login_message": "פרטי ההתחברות שלך שגויים.",
                 "password_placeholder": "=> core.ref.password",
                 "remember_me_label": "זכור אותי",
-                "sign_up_text": "אין לך חשבון? <a>הירשם</a>",
+                "sign_up_text": "אין לכם חשבון? <a>הירשמו</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
                 "username_or_email_placeholder": "שם משתמש או כתובת מייל"
@@ -459,6 +459,10 @@
             }
         },
         "lib": {
+            "debug_button": "Debug",
+            "alert": {
+                "dismiss_a11y_label": "הסתרת התראה"
+            },
             "badge": {
                 "hidden_tooltip": "מוסתר"
             },
@@ -487,26 +491,11 @@
                 "payload_too_large_message": "הבקשה גדולה מדי לטעינה.",
                 "permission_denied_message": "אין לך גישה לעשות את זה.",
                 "rate_limit_exceeded_message": "פעולותיך מהירות מדי. נסה שוב עוד כמה שניות.",
-                "render_failed_message": "מצטערים, נתקלנו בשגיאה בהצגת תוכן. אם אתה משתמש, נסה שוב מאוחר יותר. אם אתה מנהל מערכת, עיין בקבצי יומן הרישום של Flarum לקבלת מידע נוסף."
+                "render_failed_message": "מצטערים, נתקלנו בשגיאה בהצגת תוכן. אם אתה משתמש, נסה שוב מאוחר יותר. אם אתה מנהל מערכת, עיין בקבצי יומן הרישום של Flarum לקבלת מידע נוסף.",
+                "extension_initialiation_failed_message": ""
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
-            },
-            "number_suffix": {
-                "kilo_text": "K",
-                "mega_text": "M"
-            },
-            "series": {
-                "glue_text": ", ",
-                "three_text": "{first}, {second} ו{third}",
-                "two_text": "{first} ו{second}"
-            },
-            "username": {
-                "deleted_text": "[הוסר]"
-            },
-            "debug_button": "Debug",
-            "alert": {
-                "dismiss_a11y_label": "הסתרת התראה"
             },
             "meta_titles": {
                 "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: עמוד # - {forumName}}}",
@@ -517,6 +506,18 @@
             },
             "nav": {
                 "drawer_button": "פתיחת עורך תפריט ניווט"
+            },
+            "number_suffix": {
+                "kilo_text": "K",
+                "mega_text": "M"
+            },
+            "series": {
+                "glue_text": ", ",
+                "three_text": "{first}, {second} ו-{third}",
+                "two_text": "{first} ו-{second}"
+            },
+            "username": {
+                "deleted_text": "[הוסר]"
             }
         },
         "views": {
@@ -636,7 +637,7 @@
             "remove": "הסרה",
             "rename": "שינוי שם",
             "reply": "תגובה",
-            "reset_your_password": "איפוס את סיסמתך",
+            "reset_your_password": "איפוס סיסמה",
             "restore": "שחזר",
             "save_changes": "שמירת שינויים",
             "settings": "הגדרות",
@@ -646,7 +647,7 @@
             "username": "שם משתמש",
             "users": "משתמשים",
             "view": "צפיה",
-            "write_a_reply": "כתוב תגובה...",
+            "write_a_reply": "כתיבת תגובה...",
             "you": "את/ה"
         },
         "group": {

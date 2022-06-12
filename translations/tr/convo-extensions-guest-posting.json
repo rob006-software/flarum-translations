@@ -1,0 +1,34 @@
+{
+    "guest-posting": {
+        "forum": {
+            "alert": {
+                "create-account": "Şimdi bir hesap oluşturun ve {count} gönderilerinizi içe aktarın!",
+                "create-account-votes-only": "Şimdi bir hesap oluşturun ve {count} oylarınızı içe aktarın!",
+                "create-account-posts-and-votes": "Şimdi bir hesap oluşturun ve {postCount} gönderilerinizi ve {voteCount} oylarınızı içe aktarın!",
+                "signup": "Kayıt ol"
+            },
+            "modal": {
+                "import": "{count} misafir gönderilerimi içe aktar",
+                "import-votes": "{postCount} misafir gönderilerimi ve {voteCount} oyumu içe aktar"
+            },
+            "badge": {
+                "guest": "Misafir"
+            }
+        },
+        "admin": {
+            "settings": {
+                "title": "Misafir Gönderi ayarları",
+                "enableImport": "Kayıt sırasında mevcut gönderilerin içe aktarılmasını etkinleştir",
+                "sessionLifetime": "Saat cinsinden misafir oturumu ömrü",
+                "usernames": "Misafirler için kullanılan rastgele kullanıcı adları"
+            }
+        }
+    },
+    "core": {
+        "lib": {
+            "username": {
+                "deleted_text": "Misafir"
+            }
+        }
+    }
+}

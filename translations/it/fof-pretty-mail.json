@@ -5,6 +5,14 @@
                 "desc": "Personalizza il tuo template HTML per le email."
             },
             "settings": {
+                "attributes": {
+                    "body": "",
+                    "forumStyle": "",
+                    "url": "",
+                    "settings": "",
+                    "link": ""
+                },
+                "attributes_label": "",
                 "label": "Template Email",
                 "reset": "Ripristina default",
                 "confirm": "Sei sicuro di voler ripristinare il template email per",
@@ -14,6 +22,7 @@
                 "postMentioned": "Flarum/mentions Email per post menzionato",
                 "notifications": "Template notifiche",
                 "notificationHelp": "Si consiglia di utilizzare \"$ forumStyle\" per queste e-mail in quanto potrebbero contenere BBCODE. Queste e-mail hanno anche la variabile \"$ user\" disponibile che contiene l'intero modello utente a cui viene inviato il messaggio di posta elettronica.",
+                "template_help": "",
                 "help": "\"$ body\" conterrà il contenuto effettivo dell'email, \"$ forumStyle\" contiene l '<strong> intero CSS del forum </strong>, \"$ url\" è Flarums UrlGenerator, \"$ settings\" ti consente di interagire con SettingsRepositoryInterface, e \"$ link\" contiene il collegamento all'interno dell'email. Studia ogni template per  capire come usare ogni variabile."
             },
             "css_settings": {

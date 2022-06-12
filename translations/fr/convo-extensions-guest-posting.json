@@ -1,0 +1,34 @@
+{
+    "guest-posting": {
+        "forum": {
+            "alert": {
+                "create-account": "Créez un compte maintenant et importez vos {count} messages !",
+                "create-account-votes-only": "Créez un compte maintenant et importez vos {count} votes !",
+                "create-account-posts-and-votes": "Créez un compte maintenant et importez vos {postCount} messages et {voteCount} votes !",
+                "signup": "Inscription"
+            },
+            "modal": {
+                "import": "Importer mes {count} messages publiés en tant qu'invité",
+                "import-votes": "Importer mes {postCount} messages et {voteCount} votes publiés en tant qu'invité"
+            },
+            "badge": {
+                "guest": "Invité"
+            }
+        },
+        "admin": {
+            "settings": {
+                "title": "Paramètres de publication des invités",
+                "enableImport": "Activer l'importation de messages existants lors de l'inscription",
+                "sessionLifetime": "Durée de la session invité en heures",
+                "usernames": "Noms d'utilisateur aléatoires utilisés pour les invités"
+            }
+        }
+    },
+    "core": {
+        "lib": {
+            "username": {
+                "deleted_text": "Invité"
+            }
+        }
+    }
+}

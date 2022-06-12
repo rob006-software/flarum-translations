@@ -2,20 +2,20 @@
     "fof-recaptcha": {
         "admin": {
             "settings": {
-                "help_text": "Google reCAPTCHA hiteklesítőt <a>itt</a> szerezhetsz.",
+                "help_text": "Szerezze meg a Google reCAPTCHA hitelesítő adatait <a>itt</a>.",
                 "secret_key_label": "Titkos kulcs",
-                "site_key_label": "Site kulcs",
+                "site_key_label": "Oldal kulcsa",
                 "type_label": "reCAPTCHA típus"
             },
             "permissions": {
-                "post_without_captcha": "Téma és hozzászólás captcha nélkül"
+                "post_without_captcha": "Téma és hozzászólás létrehozása captcha nélkül"
             }
         },
         "forum": {
-            "error": "Hiba a reCAPTCHA elküldésében. Próbáld újra."
+            "error": "Hiba a reCAPTCHA elküldésekor. Próbálja újra."
         }
     },
     "validation": {
-        "recaptcha": "reCAPTCHA érvényesítési hiba."
+        "recaptcha": "reCAPTCHA ellenőrzési hiba."
     }
 }

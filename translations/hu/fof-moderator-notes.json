@@ -14,19 +14,19 @@
                 "add_button": "Új jegyzet",
                 "create-heading": "Új moderátori jegyzet",
                 "dismiss_button": "Rendben",
-                "input_heading": "Írd be a jegyzetet <strong>{username}</strong> részére, (formázás engedélyezett)",
+                "input_heading": "Írja be a megjegyzéseit <strong>{username}</strong> számára, (a markdown támogatott)",
                 "noNotes": "Itt nincsenek jegyzetek.",
                 "submit_button": "Mentés",
                 "delete": "Törlés",
-                "confirm": "Tényleg törlöd a jegyzetet?"
+                "confirm": "Valóban törli ezt a jegyzetet?"
             },
             "user": {
                 "notes": "Moderátori jegyzetek"
             }
         },
         "api": {
-            "auto_note": "_Váltottam erre a felhasználóra:_ {reason}",
-            "auto_note_actor": "_Váltottam_ @{username}: {reason}",
+            "auto_note": "_Átváltottam erre a felhasználóra:_ {reason}",
+            "auto_note_actor": "_Átváltottam_ @{username} felhasználóra: {reason}",
             "no_reason_provided": "Nincs ok megadva"
         }
     }

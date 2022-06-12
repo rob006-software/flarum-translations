@@ -2,7 +2,8 @@
     "davwheat-virtual-authors": {
         "admin": {
             "permissions": {
-                "set_virtual_authors": "Définir des auteurs virtuels sur les discussions"
+                "set_virtual_authors": "Définir des auteurs virtuels sur les discussions",
+                "view_virtual_authors_page": "Voir la page détaillant tous les auteurs virtuels"
             },
             "settings": {
                 "errored": "Échec du chargement des auteurs virtuels à partir du serveur.",
@@ -12,6 +13,8 @@
                 "link_to_va_from_discussion": "Afficher le lien vers toutes les discussions d'un auteur virtuel dans la case « Auteurs »",
                 "authors_in_sidebar": "Afficher les auteurs dans la barre latérale au lieu du premier message ci-dessus",
                 "authors_in_sidebar_help": "Cela n'a aucun effet sur l'extension Blog.",
+                "virtual_authors_page_disabled": "Désactivez la liste des auteurs virtuels pour tous les utilisateurs.",
+                "virtual_authors_page_disabled_help": "Cela remplace toutes les autorisations définies pour cette fonctionnalité.",
                 "discussion_badge": "Afficher le badge sur les discussions avec les auteurs virtuels",
                 "prev": "Page précédente",
                 "next": "Page suivante"
@@ -43,7 +46,16 @@
             "virtual_author_page": {
                 "meta_title": "{displayName} - Auteurs",
                 "credited_discussions": "Discussions créditées à {displayName}",
-                "discussion_count": "{count, plural, one {# discussion}, other {# discussions}}"
+                "discussion_count": "=> davwheat-virtual-authors.ref.discussion_count"
+            },
+            "virtual_authors_list": {
+                "sidebar_link": "Auteurs",
+                "empty_text": "Il semble qu'il n'y ait pas d'auteurs ici.",
+                "title": "Tous les auteurs",
+                "meta_title": "Tous les auteurs",
+                "filter_name_placeholder": "Filtrer par nom",
+                "discussion_count": "=> davwheat-virtual-authors.ref.discussion_count",
+                "no_description": "Cet auteur garde un air de mystère à son sujet."
             },
             "virtual_authors_panel": {
                 "heading": "Auteurs",
@@ -70,7 +82,8 @@
             }
         },
         "ref": {
-            "no_description": "(aucune description définie)"
+            "no_description": "(aucune description définie)",
+            "discussion_count": "{count, plural, one {# discussion}, other {# discussions}}"
         }
     }
 }

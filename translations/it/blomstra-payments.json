@@ -12,6 +12,11 @@
                 "purchase": "Paga per Pubblicare",
                 "purchase_required": "Questa discussione verrà pubblicata una volta completato il pagamento tramite il nostro provider di pagamento Stripe. Fare clic su Acquista per visualizzare i costi e le opzioni di pagamento.\n"
             },
+            "pay-to-bump": {
+                "description": "",
+                "purchase-control": "",
+                "purchase-log-in": ""
+            },
             "tag": {
                 "require-payment-label": "Pagamento Richiesto"
             },
@@ -34,7 +39,11 @@
                 "select-ptv-product": "(PTV) Prodotto richiesto",
                 "select-ptv-product-description": "La selezione di un prodotto richiederà il pagamento dello stesso per ottenere permanentemente l'accesso a tutti i post oltre la soglia. Crea un prodotto nella dashboard di Stripe e copia l'ID che inizia con <code>prod_</code> in questo campo.\n",
                 "visible-from": "Nascondi post oltre questa soglia",
-                "visible-from-description": "Il numero che specifichi qui definisce a che punto i post verranno nascosti agli utenti che non hanno pagato per accedere al contenuto. Usa 0 per nasconderli tutti, 1 per quello dopo l'OP.\n"
+                "visible-from-description": "Il numero che specifichi qui definisce a che punto i post verranno nascosti agli utenti che non hanno pagato per accedere al contenuto. Usa 0 per nasconderli tutti, 1 per quello dopo l'OP.\n",
+                "select-ptb-product": "",
+                "select-ptb-product-description": "",
+                "bump-others": "",
+                "bump-others-description": ""
             },
             "edit-group": {
                 "select-pta-product": "(PTA) Prodotto richiesto",

@@ -3,81 +3,81 @@
         "forum": {
             "badges": {
                 "is_private": {
-                    "tooltip": ""
+                    "tooltip": "بحث خصوصی"
                 }
             },
             "buttons": {
-                "add_recipients": "",
-                "submit": "",
-                "edit_recipients": "",
-                "send_pd": "",
-                "cancel": "",
-                "make_public": "",
-                "remove_from_discussion": ""
+                "add_recipients": "گیرندگان",
+                "submit": "باشه",
+                "edit_recipients": "ویرایش گیرندگان",
+                "send_pd": "ارسال پیام به {username}",
+                "cancel": "لغو",
+                "make_public": "عمومی کردن این بحث",
+                "remove_from_discussion": "ترک این بحث خصوصی"
             },
             "composer_private_discussion": {
-                "submit_button": "",
-                "title_placeholder": ""
+                "submit_button": "ارسال بحث خصوصی",
+                "title_placeholder": "عنوان بحث خصوصی"
             },
             "confirm": {
-                "make_public": ""
+                "make_public": "آیا مطمئن هستید که می‌خواهید گیرندگان را حذف کنید و این بحث را برای هر کسی که می‌تواند برچسب اختصاص داده شده را مشاهده کند قابل مشاهده باشد؟"
             },
             "labels": {
-                "recipients": ""
+                "recipients": "{count, plural, one {{count} گیرنده} other {{count} گیرنده}}"
             },
             "nav": {
-                "start_button": "",
-                "nav_item": ""
+                "start_button": "بحث خصوصی",
+                "nav_item": "بحث های خصوصی"
             },
             "input": {
-                "search_recipients": ""
+                "search_recipients": "جستجوی گیرنده با تایپ سه نویسه اول..."
             },
             "search": {
                 "headings": {
-                    "groups": ""
+                    "groups": "گروه های مجاز"
                 }
             },
             "modal": {
                 "titles": {
-                    "update_recipients": "",
-                    "add_recipients": ""
+                    "update_recipients": "به‌روزرسانی گیرندگان {title}",
+                    "add_recipients": "گیرندگان را به بحث خود اضافه کنید"
                 },
                 "labels": {
-                    "selected_users": "",
-                    "search_field": ""
+                    "selected_users": "کاربران منتخب",
+                    "search_field": "جستجو برای کاربر"
                 },
                 "help": {
-                    "add_recipients": "",
-                    "update_recipients": "",
-                    "selected_users": "",
-                    "click_user_to_remove_tooltip": ""
+                    "add_recipients": "این بحث فقط برای کاربرانی که در اینجا انتخاب می کنید قابل مشاهده خواهد بود. حداقل 1 گیرنده (غیر از خودتان) مورد نیاز است.",
+                    "update_recipients": "این بحث فقط برای کاربرانی که در اینجا انتخاب می کنید قابل مشاهده خواهد بود.",
+                    "selected_users": "روی نام یک کاربر کلیک کنید تا حذف شود.",
+                    "click_user_to_remove_tooltip": "برای حذف کلیک کنید"
                 }
             },
             "post": {
                 "recipients_modified": {
-                    "added_and_removed": "",
-                    "added": "",
-                    "made_public": "",
-                    "removed": "",
-                    "removed_self": ""
+                    "added_and_removed": "{username} گیرندگان {added} را اضافه کرد و {removed} را حذف کرد.",
+                    "added": "{username} گیرندگان {added} را اضافه کرد.",
+                    "made_public": "{username} همه گیرندگان را حذف کرد و بحث را عمومی کرد",
+                    "removed": "{username} گیرندگان {removed} را حذف کرد.",
+                    "removed_self": "{username} بحث خصوصی را ترک کرد."
                 }
             },
             "user": {
                 "settings": {
-                    "block_pd": ""
+                    "block_pd": "مسدود کردن بحث های خصوصی"
                 },
-                "byobu_link": "",
-                "dropdown_label": ""
+                "byobu_link": "بحث های خصوصی",
+                "dropdown_label": "بحث های خصوصی"
             },
             "notifications": {
-                "pd_label": "",
-                "pd_reply_label": "",
-                "pd_reply_text": "",
-                "pd_text": "",
-                "pd_user_left_label": "",
-                "pd_user_left_text": "",
-                "pd_added_text": "",
-                "pd_added_label": ""
+                "pd_label": "یک نفر من را در یک بحث خصوصی جدید قرار می دهد",
+                "pd_reply_label": "شخصی در یک بحث خصوصی که من گیرنده آن هستم پست می گذارد",
+                "pd_reply_text": "{username} در یک بحث خصوصی که شما بخشی از آن هستید پستی ارسال کرد",
+                "pd_text": "{username} یک بحث خصوصی جدید با شما شروع کرد",
+                "pd_user_left_label": "یک کاربر گیرنده، یک بحث خصوصی که من بخشی از آن هستم را ترک می کند",
+                "pd_user_left_text": "{username} بحث خصوصی را ترک کرد",
+                "pd_added_text": "{username} شما را به یک بحث خصوصی اضافه کرد",
+                "pd_added_label": "شخصی مرا به یک بحث خصوصی موجود اضافه می کند"
             }
         },
         "admin": {
@@ -99,16 +99,16 @@
         },
         "email": {
             "subject": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": ""
+                "private_discussion_created": "[بحث خصوصی] {display_name} یک بحث خصوصی جدید با شما شروع کرد",
+                "private_discussion_replied": "[بحث خصوصی] {display_name} در یک بحث خصوصی پستی ارسال کرد",
+                "recipient_removed": "[بحث خصوصی] {display_name} بحث را ترک کرد",
+                "private_discussion_added": "[بحث خصوصی] {display_name} شما را به یک بحث خصوصی اضافه کرد"
             },
             "body": {
-                "private_discussion_created": "",
-                "private_discussion_replied": "",
-                "recipient_removed": "",
-                "private_discussion_added": ""
+                "private_discussion_created": "سلام {recipient_display_name}،\n\n{actor_display_name} یک بحث خصوصی جدید با شما به عنوان گیرنده شروع کرد: {discussion_title}.\n\nآن را اینجا ببینید:\n{discussion_url}\n\nقبل از اینکه بتوانید به این پیوند دسترسی پیدا کنید، ممکن است لازم باشد ابتدا وارد شوید.\n",
+                "private_discussion_replied": "سلام {recipient_display_name}،\n\n{actor_display_name} در یک بحث خصوصی با شما به عنوان گیرنده پستی ارسال کرد: {discussion_title}.\n\nآن را اینجا ببینید:\n{post_url}\n\nقبل از اینکه بتوانید به این پیوند دسترسی پیدا کنید، ممکن است لازم باشد ابتدا وارد شوید.\n",
+                "recipient_removed": "سلام {recipient_display_name}،\n\n{actor_display_name} بحث خصوصی را ترک کرد: {discussion_title}. آنها دیگر نمی توانند هیچ یک از محتوای آن را مشاهده کنند.\n\nآن را اینجا ببینید:\n{discussion_url}\n\nقبل از اینکه بتوانید به این پیوند دسترسی پیدا کنید، ممکن است لازم باشد ابتدا وارد شوید.\n",
+                "private_discussion_added": "سلام {recipient_display_name}،\n\n{actor_display_name} شما را به یک بحث خصوصی موجود اضافه کرد: {discussion_title}.\n\nآن را اینجا ببینید:\n{discussion_url}\n\nقبل از اینکه بتوانید به این پیوند دسترسی پیدا کنید، ممکن است لازم باشد ابتدا وارد شوید.\n"
             }
         }
     }

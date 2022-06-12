@@ -1,0 +1,69 @@
+{
+    "kilowhat-rich-embeds": {
+        "admin": {
+            "settings": {
+                "layout": "Layout",
+                "layoutOptions": {
+                    "inline": "Inline",
+                    "block": "Block",
+                    "separated": "Separated"
+                },
+                "position": "Position",
+                "positionOptions": {
+                    "replace": "Replace link",
+                    "above": "Above link",
+                    "below": "Below link"
+                },
+                "style": "Style",
+                "styleOptions": {
+                    "vertical": "Vertical",
+                    "horizontal": "Horizontal"
+                },
+                "imageProxy": "OpenGraph Image Proxy",
+                "imageProxyHelp": "All OpenGraph and favicon images will be proxied through Flarum instead of being retrieved by the visitor browser",
+                "cacheProxy": "Cache proxied images",
+                "cacheProxyHelp": "The images will be cached to disk according to their HTTP headers",
+                "withoutOpengraph": "Generate rich embeds for pages without OpenGraph data",
+                "withoutOpengraphHelp": "Title, description and image will be scaped from the page HTML",
+                "blacklist": "URL Blacklist",
+                "blacklistHelp": "Check documentation for format. These URLs will never have rich embeds, and cannot be proxied through the image proxy",
+                "whitelist": "URL Whitelist",
+                "whitelistHelp": "Check documentation for format. If a value is set, all other URLs will be considered blacklisted",
+                "imageEmbeds": "Rich Embeds for Images",
+                "imageEmbedsHelp": "This feature retrieves and displays additional information on external images inserted in posts with bbcode or markdown. At this time it re-uses the same blacklist/whitelist and permissions as rich links. These images are not proxied through the OpenGraph image proxy. You must clear the Flarum cache after changing this setting.\n"
+            },
+            "permissions": {
+                "useOnOwnPost": "Use embeds in own post",
+                "disableOnOwnPost": "Disable embeds on own post",
+                "refreshOnOwnPost": "Refresh embeds on own post",
+                "disableOnAnyPost": "Disable embeds on any post",
+                "refreshOnAnyPost": "Refresh embeds on any post"
+            },
+            "preview": {
+                "title": "Preview",
+                "refresh": "Refresh",
+                "loading": "Loading..."
+            }
+        },
+        "lib": {
+            "embed": {
+                "altFavicon": "{website} Icon",
+                "altImageFallback": "{website} Opengraph Image"
+            },
+            "controls": {
+                "refresh": "Refresh data",
+                "disable": "Disable embeds on this post",
+                "disableConfirmation": "All embeds will be removed from this post. Continue?",
+                "imgCopy": "Copy image URL",
+                "imgCopied": "Copied!",
+                "imgOpen": "Open image in new tab"
+            }
+        },
+        "api": {
+            "error": {
+                "blacklistedUrl": "URL {url} has not been whitelisted for embedding.",
+                "invalidUrl": "URL {url} is not valid."
+            }
+        }
+    }
+}

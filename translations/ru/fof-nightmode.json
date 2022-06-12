@@ -8,6 +8,7 @@
         "admin": {
             "settings": {
                 "modal": {
+                    "always_show_theme_toggle_on_header": "",
                     "default_theme": "Тема по умолчанию",
                     "default_theme_helper": "Тема по умолчанию автоматически устанавливается для новых пользователей, гостей, а также для тех, кто самостоятельно не указал желаемые параметры темы у себя в профиле.",
                     "theme_auto": "=> fof-nightmode.ref.auto",
@@ -41,6 +42,16 @@
                         "night": "Вы подобны сове. Вы наблюдаете на форумом ночью, пока спят птицы, а лисы вышли на охоту. Или же, Вы просто предпочитаете тёмные цвета!"
                     }
                 }
+            }
+        }
+    },
+    "fof-default-user-preferences": {
+        "admin": {
+            "settings": {
+                "fofNightMode": "",
+                "fofNightMode-help": "",
+                "fofNightMode_perDevice": "",
+                "fofNightMode_perDevice-help": ""
             }
         }
     }

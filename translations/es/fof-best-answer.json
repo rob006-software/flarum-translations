@@ -51,7 +51,8 @@
                 "awarded": "Tu mensaje fue seleccionado como la mejor respuesta por {username}",
                 "preferences": {
                     "awarded_best_answer": "Cuando alguien asigne mi mensaje como la mejor respuesta",
-                    "best_answer_in_discussion": "Cuando la mejor respuesta sea asignada en un discusión en la que participé"
+                    "best_answer_in_discussion": "Cuando la mejor respuesta sea asignada en un discusión en la que participé",
+                    "select_best_answer": ""
                 }
             },
             "index": {
@@ -68,6 +69,9 @@
             },
             "composer": {
                 "titlePlaceholder": "Título de la pregunta"
+            },
+            "user": {
+                "best-answer-count": ""
             }
         },
         "email": {

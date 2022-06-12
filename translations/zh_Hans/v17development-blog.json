@@ -12,8 +12,8 @@
                 "selected_category_count": "已指定 {count, plural, one {#} other {#}} 个分类目录",
                 "select_categories_button": "选择博客分类目录",
                 "blog_heading": "博客",
-                "featured_count_label": "",
-                "featured_count_text": "",
+                "featured_count_label": "精选评论上限",
+                "featured_count_text": "博客页面顶部最多可显示多少评论？",
                 "allow_comments_label": "允许评论",
                 "allow_comments_text": "允许他人在新文章中发表评论。此项关闭时，只能为每篇文章单独开启。<b>注意：</b>此项设置的变更不会影响已存在的文章。",
                 "require_review_label": "文章必须经人工审核",
@@ -33,7 +33,9 @@
                 "redirect_tags_label": "重定向博客标签",
                 "redirect_tags_text": "开启后，博客标签将重定向至分类目录页面。",
                 "default_article_image_label": "默认封面图",
-                "default_article_image_text": "设置默认使用的文章封面图。"
+                "default_article_image_text": "设置默认使用的文章封面图。",
+                "add_hero_label": "展示欢迎横幅",
+                "add_hero_text": "允许在博客页面展示首页的欢迎横幅。"
             }
         },
         "forum": {

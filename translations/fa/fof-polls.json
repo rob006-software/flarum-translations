@@ -2,7 +2,7 @@
     "fof-polls": {
         "admin": {
             "permissions": {
-                "view_results_without_voting": "",
+                "view_results_without_voting": "مشاهده نتایج بدون رای گیری",
                 "start": "",
                 "self_edit": "",
                 "vote": "",
@@ -11,40 +11,40 @@
             }
         },
         "forum": {
-            "days_remaining": "",
-            "no_permission": "",
-            "poll_ended": "",
-            "public_poll": "",
+            "days_remaining": "نظرسنجی در {time} به پایان می رسد.",
+            "no_permission": "شما اجازه رای دادن ندارید",
+            "poll_ended": "این نظرسنجی به پایان رسید.",
+            "public_poll": "مشاهده رای دهندگان",
             "composer_discussion": {
-                "add_poll": "",
+                "add_poll": "اضافه کردن نظرسنجی",
                 "edit_poll": ""
             },
             "modal": {
-                "add_title": "",
-                "add_option_label": "",
-                "date_placeholder": "",
-                "edit_title": "",
-                "include_question": "",
-                "max": "",
-                "min": "",
-                "no_voters": "",
-                "option_placeholder": "",
-                "options_label": "",
-                "public_poll_label": "",
-                "question_placeholder": "",
-                "submit": ""
+                "add_title": "افزودن نظرسنجی",
+                "add_option_label": "اضافه کردن گزینه",
+                "date_placeholder": "تاریخ پایان نظرسنجی (اختیاری)",
+                "edit_title": "ویرایش نظرسنجی",
+                "include_question": "شما باید یک سوال اضافه کنید",
+                "max": "شما می توانید حداکثر 10 پاسخ داشته باشید",
+                "min": "شما باید حداقل 2 پاسخ را وارد کنید",
+                "no_voters": "بدون رای",
+                "option_placeholder": "پاسخ",
+                "options_label": "پاسخ ها",
+                "public_poll_label": "به مردم اجازه دهید ببینند چه کسی رای داده است",
+                "question_placeholder": "سوال",
+                "submit": "ارسال"
             },
             "moderation": {
-                "delete": "",
-                "delete_confirm": "",
-                "edit": ""
+                "delete": "حذف نظرسنجی",
+                "delete_confirm": "آیا مطمئنید که می خواهید این نظرسنجی را حذف کنید؟",
+                "edit": "ویرایش نظرسنجی"
             },
             "tooltip": {
-                "badge": "",
-                "votes": ""
+                "badge": "نظرسنجی",
+                "votes": "{count, plural, one {# رای} other {# رای}}"
             },
             "votes_modal": {
-                "title": ""
+                "title": "رای دهندگان"
             }
         }
     }

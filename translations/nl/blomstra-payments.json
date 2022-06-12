@@ -12,6 +12,11 @@
                 "purchase": "Betaal om te Publiceren",
                 "purchase_required": "Deze discussie zal gepubliceerd worden wanneer betaling via onze betalingsprovider Stripe voldaan is. Klik om de kosten en betaalopties in te zien.\n"
             },
+            "pay-to-bump": {
+                "description": "",
+                "purchase-control": "",
+                "purchase-log-in": ""
+            },
             "tag": {
                 "require-payment-label": "Betaling Vereist"
             },
@@ -34,7 +39,11 @@
                 "select-ptv-product": "(PTV) Vereist product",
                 "select-ptv-product-description": "Door een produkt te kiezen zal betaling daarvan benodigd zijn bij het inzien van berichten voorbij de betaalgrens. Maak een produkt met een enkele \"one time\" prijs in het Stripe portaal en kopieer zijn ID dat begint met <code>prod_</code> in dit veld.\n",
                 "visible-from": "Verberg berichten voorbij deze grens",
-                "visible-from-description": "Het aantal dat je hier opgeeft betaalt welke berichten niet meer getoond worden in een discussie, daarna zal betaling benodigd zijn. Gebruik 0 om alle posts te vergergen, 1 voor de eerste reactie op de OP.\n"
+                "visible-from-description": "Het aantal dat je hier opgeeft betaalt welke berichten niet meer getoond worden in een discussie, daarna zal betaling benodigd zijn. Gebruik 0 om alle posts te vergergen, 1 voor de eerste reactie op de OP.\n",
+                "select-ptb-product": "",
+                "select-ptb-product-description": "",
+                "bump-others": "",
+                "bump-others-description": ""
             },
             "edit-group": {
                 "select-pta-product": "(PTA) Vereist product",

@@ -1,0 +1,28 @@
+{
+    "flarum-lock": {
+        "admin": {
+            "permissions": {
+                "lock_discussions_label": "Zaključavanje diskusija"
+            }
+        },
+        "forum": {
+            "badge": {
+                "locked_tooltip": "Zaključano"
+            },
+            "discussion_controls": {
+                "lock_button": "Zaključajte",
+                "unlock_button": "Otključajte"
+            },
+            "notifications": {
+                "discussion_locked_text": "{username} je zaključao/la diskusiju"
+            },
+            "post_stream": {
+                "discussion_locked_text": "{username} je zaključao/la diskusiju.",
+                "discussion_unlocked_text": "{username} je otključao/la diskusiju."
+            },
+            "settings": {
+                "notify_discussion_locked_label": "Ako neko zaključa diskusiju koju sam započeo"
+            }
+        }
+    }
+}

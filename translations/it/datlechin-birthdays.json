@@ -2,12 +2,17 @@
     "datlechin-birthdays": {
         "admin": {
             "permissions": {
-                "edit_own_birthday_label": ""
+                "edit_own_birthday_label": "Modificare il proprio compleanno",
+                "view_birthday_label": "Vedere data di nascita"
             },
             "settings": {
                 "set_on_registration_label": "Consenti impostazione compleanno durante registrazione",
+                "required_label": "Imposta campo Data di nascita come richiesto",
+                "required_help": "Per abilitare questa opzione devi impostare anche il campo nel form di registrazione",
+                "min_age_label": "Età Minima",
+                "min_age_help": "Età minima per registrarsi",
                 "date_format_label": "Formato Data",
-                "date_format_help": "Usa il formato <a>moment.js</a> . Lascia vuoto per quello di default.",
+                "date_format_help": "Usa il formato <a>day.js</a> . Lascia vuoto per quello di default.",
                 "date_none_year_label": "Formato data senza anno"
             }
         },
@@ -41,7 +46,8 @@
             }
         },
         "api": {
-            "invalid_dob_message": "La tua data di nascità deve essere inferiore a 100 anni fa."
+            "invalid_dob_message": "La tua data di nascita deve essere inferiore a 100 anni fa.",
+            "invalid_age_message": "La tua età deve essere minimo di: {minAge}."
         }
     }
 }

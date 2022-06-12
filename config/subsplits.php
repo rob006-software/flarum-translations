@@ -38,6 +38,13 @@ return [
 		'branch' => 'master',
 		'path' => '/locale',
 	],
+	'da' => [
+		'type' => 'language',
+		'language' => 'da',
+		'repository' => 'git@github.com:flarum-lang/danish.git',
+		'branch' => 'master',
+		'path' => '/locale',
+	],
 	'de' => [
 		'type' => 'language',
 		'language' => 'de',
@@ -118,8 +125,15 @@ return [
 	'ka' => [
 		'type' => 'language',
 		'language' => 'ka',
-		'repository' => 'git@github.com:B3K4682/lang-georgian.git',
-		'branch' => 'main',
+		'repository' => 'git@github.com:flarum-lang/georgian.git',
+		'branch' => 'master',
+		'path' => '/locale',
+	],
+	'ko' => [
+		'type' => 'language',
+		'language' => 'ko',
+		'repository' => 'git@github.com:flarum-lang/korean.git',
+		'branch' => 'master',
 		'path' => '/locale',
 	],
 	'lt' => [
@@ -190,6 +204,13 @@ return [
 		'type' => 'language',
 		'language' => 'sk',
 		'repository' => 'git@github.com:flarum-lang/slovak.git',
+		'branch' => 'master',
+		'path' => '/locale',
+	],
+	'sr' => [
+		'type' => 'language',
+		'language' => 'sr',
+		'repository' => 'git@github.com:bryantmilan/lang-serbian.git',
 		'branch' => 'master',
 		'path' => '/locale',
 	],

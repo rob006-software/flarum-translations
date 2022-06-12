@@ -2,7 +2,11 @@
     "davwheat": {
         "ads": {
             "admin": {
+                "permissions": {
+                    "bypassAds": "Ẩn quảng cáo khỏi diễn đàn"
+                },
                 "settings": {
+                    "admin_bypass_warning": "Do bản chất của hệ thống quyền của Flarum, các thành viên của nhóm Quản trị viên sẽ\nkhông thấy bất kỳ quảng cáo nào trên diễn đàn. Nếu bạn muốn kiểm tra quảng cáo của mình, vui lòng truy cập diễn đàn\ntrong cửa sổ Ẩn danh hoặc Riêng tư.\n",
                     "enabled_locations": "Vị trí quảng cáo",
                     "script_urls": "Tuỳ chỉnh URL script",
                     "add_script": "Mới",

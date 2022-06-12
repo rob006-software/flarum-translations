@@ -12,8 +12,8 @@
                 "selected_category_count": "{count, plural, one {Vous avez sélectionné # catégorie} other {Vous avez sélectionné # catégories}}",
                 "select_categories_button": "Sélectionnez les catégories de blog",
                 "blog_heading": "Blog",
-                "featured_count_label": "",
-                "featured_count_text": "",
+                "featured_count_label": "Maximum de messages en vedette",
+                "featured_count_text": "Combien de messages doivent être affichés dans une grande grille en haut d'une page de blog ?",
                 "allow_comments_label": "Autoriser les commentaires",
                 "allow_comments_text": "Par défaut, autoriser les commentaires sur les articles de blog. Lorsque cette option est désactivée, cela peut être activé individuellement sur chaque article de blog. <b>Note :</b> la modification de ce paramètre n'affectera pas les articles de blog préexistants.",
                 "require_review_label": "Les articles de blog nécessitent une révision",
@@ -33,7 +33,9 @@
                 "redirect_tags_label": "Rediriger les étiquettes du blog",
                 "redirect_tags_text": "Lorsqu'elle est activée, cette extension redirige les URL des étiquettes de blog vers l'URL de la catégorie de blog.",
                 "default_article_image_label": "Image par défaut de l'article",
-                "default_article_image_text": "Sélectionnez une image d'article par défaut à afficher lorsqu'aucune image n'est définie."
+                "default_article_image_text": "Sélectionnez une image d'article par défaut à afficher lorsqu'aucune image n'est définie.",
+                "add_hero_label": "Afficher la bannière de bienvenue",
+                "add_hero_text": "Afficher la bannière de bienvenue sur les pages du blog si cette dernière n'a pas encore été fermée."
             }
         },
         "forum": {

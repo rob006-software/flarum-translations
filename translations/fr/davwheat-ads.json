@@ -2,7 +2,11 @@
     "davwheat": {
         "ads": {
             "admin": {
+                "permissions": {
+                    "bypassAds": "Masquer les publicités du forum"
+                },
                 "settings": {
+                    "admin_bypass_warning": "En raison de la nature du système de permissions de Flarum, les membres du groupe\ndes administrateurs ne verront pas de publicité sur le forum. Si vous souhaitez tester\nvos publicités, veuillez visiter le forum dans une fenêtre de navigation privée.\n",
                     "enabled_locations": "Emplacements des unités publicitaires activées",
                     "script_urls": "URL de script personnalisé(s)",
                     "add_script": "Nouveau",

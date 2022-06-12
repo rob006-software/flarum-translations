@@ -1,0 +1,36 @@
+{
+    "flamarkt-backoffice": {
+        "admin": {
+            "settingsInBackoffice": "Paramètres dans le backoffice"
+        },
+        "backoffice": {
+            "settingsNotAvailableForNonAdmin": "Cette extension possède des paramètres, mais seuls les comptes administrateurs peuvent les voir et les modifier.",
+            "nav": {
+                "dashboard": "Tableau de bord",
+                "users": "Utilisateurs",
+                "searchPlaceholder": "=> core.admin.nav.search_placeholder"
+            },
+            "users": {
+                "title": "Utilisateurs",
+                "new": "Créer un utilisateur",
+                "head": {
+                    "email": "Adresse de courriel"
+                },
+                "field": {
+                    "username": "Nom d'utilisateur",
+                    "email": "Adresse de courriel",
+                    "password": "Mot de passe"
+                }
+            },
+            "permissions": {
+                "backoffice": "Utiliser le backoffice"
+            }
+        },
+        "lib": {
+            "header": {
+                "admin_button": "=> core.forum.header.admin_button",
+                "backoffice_button": "Backoffice"
+            }
+        }
+    }
+}

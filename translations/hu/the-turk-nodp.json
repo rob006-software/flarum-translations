@@ -5,17 +5,17 @@
                 "double_posting_label": "Ismételt hozzászólás"
             },
             "settings": {
-                "time_limit_label": "Idő limit",
-                "time_limit_text": "Ha több mint <b>xxx</b> perc telt el egy beszélgetésben az utolsó bejegyzés óta, az utolsó hozzászóló kénytelen lesz szerkeszteni a bejegyzését. Állítsd ezt <b>0</b> értékre az időkorlát letiltásához."
+                "time_limit_label": "Időkorlát",
+                "time_limit_text": "Ha több mint <b>xxx</b> perc telt el egy beszélgetésben az utolsó bejegyzés óta, az utolsó hozzászóló kénytelen lesz szerkeszteni a bejegyzését. Az időkorlát letiltásához állítsa <b>0</b>-ra."
             }
         },
         "forum": {
             "composer_edit": {
-                "double_posting_warning_title": "Te vagy ennek a beszélgetésnek az utolsó hozzászólása.",
-                "double_posting_warning_description": "Mivel már válaszoltál ebben a témában, kérlek vizsgáld felül a legutóbbi bejegyzésedet ahelyett, hogy újat hoznál létre."
+                "double_posting_warning_title": "Ön az utolsó hozzászóló ebben a témában.",
+                "double_posting_warning_description": "Mivel már válaszolt ebben a témában, inkább módosítsa a legutóbbi bejegyzését, ahelyett hogy újat hozna létre."
             },
             "discussion": {
-                "cannot_reply_alert_message": "Nem válaszolhatsz ebben a témában, amíg valaki más nem válaszol."
+                "cannot_reply_alert_message": "Nem válaszolhat ebben a témában, amíg valaki más nem válaszol."
             }
         }
     }

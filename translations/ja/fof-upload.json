@@ -15,6 +15,7 @@
                 "watermark": "写真をアップロードするときに透かしを添付するかどうかを選択します。 次の設定に従って、非GIF画像に透かしが追加されます。\n",
                 "s3_compatible_storage": "",
                 "s3_acl": "",
+                "s3_instance_profile": "",
                 "composer_buttons": ""
             },
             "labels": {
@@ -39,7 +40,8 @@
                 },
                 "imgur": {
                     "client_id": "Imgur 顧客ID",
-                    "title": "Imgur 画像を保存した設定"
+                    "title": "Imgur 画像を保存した設定",
+                    "tos": ""
                 },
                 "local": {
                     "cdn_url": "OSS/CDN ドメイン名（http/https プレフィックス）",
@@ -78,7 +80,8 @@
                         "upload-btn": "",
                         "media-btn": ""
                     }
-                }
+                },
+                "inspect-mime": ""
             },
             "permissions": {
                 "download_label": "アップロードファイルを許可します",
@@ -98,7 +101,9 @@
                 "bbcode-image": "",
                 "bbcode-image_description": "",
                 "just-url": "",
-                "just-url_description": ""
+                "just-url_description": "",
+                "text-preview": "",
+                "text-preview_description": ""
             },
             "upload_methods": {
                 "aws-s3": "AWS S3",
@@ -106,6 +111,19 @@
                 "local": "ローカル",
                 "ovh-svfs": "OVH SVFS",
                 "qiniu": "七牛"
+            },
+            "inspect-mime": {
+                "title": "",
+                "description": "",
+                "select": "",
+                "laravel-validation": "",
+                "no-file-selected": "",
+                "validation-passed": "",
+                "validation-failed": "",
+                "mime-detector": "",
+                "mime-fileinfo": "",
+                "guessed-extension": "",
+                "not-available": ""
             },
             "buttons": {
                 "save": "設定を保存する"
@@ -144,6 +162,13 @@
             },
             "validation": {
                 "max_size": ""
+            },
+            "text_preview": {
+                "expand": "",
+                "collapse": "",
+                "error": "",
+                "no_snippet_preview": "",
+                "no_snippet": ""
             }
         },
         "api": {

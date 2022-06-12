@@ -2,54 +2,54 @@
     "askvortsov-categories": {
         "admin": {
             "basics": {
-                "categories_label": ""
+                "categories_label": "Kategorijos"
             },
             "labels": {
-                "keep_tags_nav": "",
-                "child_bare_icon": "",
-                "compact_mobile_mode": "",
-                "full_page_desktop": "",
-                "parent_remove_icon": "",
-                "parent_remove_description": "",
-                "parent_remove_stats": "",
-                "parent_remove_last_discussion": "",
-                "small_forum_optimized": ""
+                "keep_tags_nav": "Palikti žymų puslapio nuorodą naršymo šoninėje juostoje?",
+                "child_bare_icon": "Nuogos vaikų piktogramos?",
+                "compact_mobile_mode": "Kompaktiškas mobilusis režimas",
+                "full_page_desktop": "Visas puslapis darbalaukis?",
+                "parent_remove_icon": "Slėpti aukščiausio lygio žymų piktogramas?",
+                "parent_remove_description": "Slėpti aukščiausio lygio žymų aprašymus?",
+                "parent_remove_stats": "Slėpti aukščiausio lygio žymų statistiką?",
+                "parent_remove_last_discussion": "Slėpti naujausias aukščiausio lygio žymų diskusijas?",
+                "small_forum_optimized": "Optimizuoti mažiems forumams?"
             },
             "help": {
-                "child_bare_icon": "",
-                "full_page_desktop": "",
-                "small_forum_optimized": ""
+                "child_bare_icon": "Ar vaikų kategorijų piktogramos turi būti rodomos be apskrito fono?",
+                "full_page_desktop": "Ar šoninės juostos naršymo meniu turėtų būti sutrauktas į eilutę (kaip tradiciniame žymų puslapyje)? Taip pat kategorijų puslapio naršymo juostoje bus paslėpti valdikliai (pvz., „Flarum draugų forumo statistika“).",
+                "small_forum_optimized": "Tai suteiks tikslesnį diskusijų / pranešimų skaičių, tačiau labai sulėtins vidutinius ir didelius forumus."
             },
             "headings": {
-                "nav": "",
-                "layout": "",
-                "parent_display": "",
-                "child_display": "",
-                "performance": ""
+                "nav": "Navigacija",
+                "layout": "Išdėstymas",
+                "parent_display": "Pirminės kategorijos ekranas",
+                "child_display": "Vaikų kategorijos ekranas",
+                "performance": "Spektaklis"
             },
-            "title": ""
+            "title": "Kategorijų nustatymai"
         },
         "forum": {
             "all_categories": {
-                "meta_description_text": "",
-                "meta_title_text": ""
+                "meta_description_text": "Visos kategorijos",
+                "meta_title_text": "=> askvortsov-categories.ref.categories"
             },
             "header": {
-                "back_to_categories_tooltip": ""
+                "back_to_categories_tooltip": "Atgal į kategorijas"
             },
             "index": {
-                "categories_link": ""
+                "categories_link": "=> askvortsov-categories.ref.categories"
             },
             "stat-widgets": {
-                "discussion_label": "",
-                "post_label": ""
+                "discussion_label": "Diskusijos",
+                "post_label": "Įrašai"
             },
             "last_discussion_widget": {
-                "no_discussions": ""
+                "no_discussions": "Jokių diskusijų (dar!)"
             }
         },
         "ref": {
-            "categories": ""
+            "categories": "Kategorijos"
         }
     }
 }

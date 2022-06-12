@@ -12,6 +12,11 @@
                 "purchase": "Nashr qilish uchun sotib oling",
                 "purchase_required": "Stripe toʻlov provayderimiz orqali toʻlovni tugatganingizdan soʻng, bu muhokama eʼlon qilinadi. Narx va toʻlov imkoniyatlarini koʻrish uchun “Xarid” tugmasini bosing.\n"
             },
+            "pay-to-bump": {
+                "description": "",
+                "purchase-control": "",
+                "purchase-log-in": ""
+            },
             "tag": {
                 "require-payment-label": "To'lov talab qilinadi"
             },
@@ -34,7 +39,11 @@
                 "select-ptv-product": "(PTV) Kerakli mahsulot",
                 "select-ptv-product-description": "Mahsulotni tanlash chegaradan tashqaridagi barcha postlarga doimiy kirish huquqiga ega bo‘lish uchun ushbu mahsulot uchun to‘lovni talab qiladi.. Stripe asboblar panelida mahsulot yarating va <code>prod_</code> bilan boshlangan identifikatorni ushbu maydonga nusxalang.\n",
                 "visible-from": "Ushbu chegaradagi postlarni yashirish",
-                "visible-from-description": "Bu yerda siz koʻrsatgan raqam kontentga kirish uchun pul toʻlamagan foydalanuvchilar uchun postlar qaysi vaqtda yashirilishini belgilaydi. Ularning barchasini yashirish uchun 0 dan, OPdan keyingisi uchun 1 dan foydalaning.\n"
+                "visible-from-description": "Bu yerda siz koʻrsatgan raqam kontentga kirish uchun pul toʻlamagan foydalanuvchilar uchun postlar qaysi vaqtda yashirilishini belgilaydi. Ularning barchasini yashirish uchun 0 dan, OPdan keyingisi uchun 1 dan foydalaning.\n",
+                "select-ptb-product": "",
+                "select-ptb-product-description": "",
+                "bump-others": "",
+                "bump-others-description": ""
             },
             "edit-group": {
                 "select-pta-product": "(PTA) Kerakli mahsulot",

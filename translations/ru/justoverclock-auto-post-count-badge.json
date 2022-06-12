@@ -2,37 +2,37 @@
     "justoverclock-auto-post-count-badge": {
         "admin": {
             "settings": {
-                "tier": "",
+                "tier": "Уровень {tier} : от {from} до {to} сообщений",
                 "icon-manager": {
-                    "title": "",
-                    "help_text": ""
+                    "title": "Менеджер иконок",
+                    "help_text": "=> core.ref.icon_text"
                 },
                 "label-manager": {
-                    "title": "",
-                    "help": ""
+                    "title": "Менеджер текстовых ярлыков",
+                    "help": "Настроить названия уровней"
                 }
             },
-            "levelOne": "",
-            "levelOne-help": "",
-            "levelTwo": "",
-            "levelTwo-help": "",
-            "levelTree": "",
-            "levelTree-help": "",
-            "levelFour": "",
-            "levelFour-help": "",
-            "levelFive": "",
-            "levelFive-help": "",
-            "levelSix": "",
-            "levelSix-help": ""
+            "levelOne": "Изменить иконку для уровня 1 - \"Дитя\"",
+            "levelOne-help": "введите здесь иконку из fontawesome, которую вы хотите использовать для уровня 1 (напр., \"fas fa-square\")",
+            "levelTwo": "Изменить иконку для уровня 2 - \"Новичок\"",
+            "levelTwo-help": "введите здесь иконку из fontawesome, которую вы хотите использовать для уровня 2 (напр., \"fas fa-square\")",
+            "levelTree": "Изменить иконку для уровня 3 - \"Говорун\"",
+            "levelTree-help": "введите здесь иконку из fontawesome, которую вы хотите использовать для уровня 3 (напр., \"fas fa-square\")",
+            "levelFour": "Изменить иконку для уровня 4 - \"Учитель\"",
+            "levelFour-help": "введите здесь иконку из fontawesome, которую вы хотите использовать для уровня 4 (напр., \"fas fa-square\")",
+            "levelFive": "Изменить иконку для уровня 5 - \"Монстр!\"",
+            "levelFive-help": "введите здесь иконку из fontawesome, которую вы хотите использовать для уровня 5 (напр., \"fas fa-square\")",
+            "levelSix": "Изменить иконку для уровня 6 - \"Гуру!\"",
+            "levelSix-help": "введите здесь иконку из fontawesome, которую вы хотите использовать для уровня 6 (напр., \"fas fa-square\")"
         },
         "forum": {
-            "less10post": "",
-            "less50post": "",
-            "less100post": "",
-            "less300post": "",
-            "less600post": "",
-            "less1000post": "",
-            "hasWritten": "",
+            "less10post": "Дитя",
+            "less50post": "Новичок",
+            "less100post": "Говорун",
+            "less300post": "Учитель",
+            "less600post": "Монстр!",
+            "less1000post": "Гуру!",
+            "hasWritten": "{count, plural, one {# сообщение написано} other {# сообщений написано}}",
             "posts": ""
         }
     }

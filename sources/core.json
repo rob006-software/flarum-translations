@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "Configure Scopes",
-                "confirm_uninstall": "Uninstalling will remove all database entries and assets related to the extension. Are you sure you want to continue?",
+                "confirm_purge": "Purging will remove all database entries and assets related to the extension. It will not uninstall the extension; that must be done via Composer. Are you sure you want to continue?",
                 "disabled": "Disabled",
                 "enable_to_see": "Enable the extension to view and change settings.",
                 "enabled": "Enabled",
@@ -116,8 +116,6 @@
                 "no_settings": "This extension has no settings.",
                 "open_modal": "Open Settings",
                 "permissions_title": "Permissions",
-                "uninstall_button": "Uninstall",
-                "confirm_purge": "Purging will remove all database entries and assets related to the extension. It will not uninstall the extension; that must be done via Composer. Are you sure you want to continue?",
                 "purge_button": "Purge",
                 "readme": {
                     "button_label": "README",
@@ -303,7 +301,6 @@
             "discussion_list": {
                 "empty_text": "It looks as though there are no discussions here.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "Mark as Read",
                 "replied_text": "{username} replied {ago}",
                 "started_text": "{username} started {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# reply} other {# replies}}",
@@ -459,6 +456,10 @@
             }
         },
         "lib": {
+            "debug_button": "Debug",
+            "alert": {
+                "dismiss_a11y_label": "Dismiss alert"
+            },
             "badge": {
                 "hidden_tooltip": "Hidden"
             },
@@ -487,10 +488,21 @@
                 "payload_too_large_message": "The request payload was too large.",
                 "permission_denied_message": "You do not have permission to do that.",
                 "rate_limit_exceeded_message": "You're going a little too quickly. Please try again in a few seconds.",
-                "render_failed_message": "Sorry, we encountered an error while displaying this content. If you're a user, please try again later. If you're an administrator, take a look in your Flarum log files for more information."
+                "render_failed_message": "Sorry, we encountered an error while displaying this content. If you're a user, please try again later. If you're an administrator, take a look in your Flarum log files for more information.",
+                "extension_initialiation_failed_message": "{extension} failed to initialize, check the browser console for further information."
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Page # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Page # - {forumName}}}"
+            },
+            "modal": {
+                "close": "Close"
+            },
+            "nav": {
+                "drawer_button": "Open Navigation Drawer"
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -503,20 +515,6 @@
             },
             "username": {
                 "deleted_text": "[deleted]"
-            },
-            "debug_button": "Debug",
-            "alert": {
-                "dismiss_a11y_label": "Dismiss alert"
-            },
-            "meta_titles": {
-                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Page # - {forumName}}}",
-                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Page # - {forumName}}}"
-            },
-            "modal": {
-                "close": "Close"
-            },
-            "nav": {
-                "drawer_button": "Open Navigation Drawer"
             }
         },
         "views": {

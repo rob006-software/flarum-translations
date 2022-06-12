@@ -1,0 +1,40 @@
+{
+    "clarkwinkelmann-jwt-cookie-login": {
+        "admin": {
+            "settings": {
+                "cookieName": "Cookie Name",
+                "actorId": "Flarum User ID for administrative actions",
+                "actorIdHelp": "This Flarum user will be used as the actor for the internal REST API request that creates new users. It must be an admin user.\n",
+                "audience": "JWT Audience / Firebase Project ID",
+                "audienceHelp": "Validates the <code>aud</code> attribute of the token. Optional when not using Firebase",
+                "publicKey": "Public Key",
+                "publicKeyHelp": "Leave Empty to use Google Firebase keys",
+                "publicKeyAlgorithm": "Public Key Algorithm",
+                "publicKeyAlgorithmHelp": "Only required with Public Key. Example: RS256",
+                "expirationLeeway": "Expiration Leeway (seconds)",
+                "expirationLeewayHelp": "How many additional seconds past JWT expiration should the session still start. This value is only intended to be a few minutes at worst to account for clock skew times between servers. However it can also be set to a much longer value if this is the only way to work around fixed short lifetimes of JWT from an external library.\n",
+                "usernameTemplate": "Username Template",
+                "usernameTemplateHelp": "Use <code>{sub}</code> syntax to use an attribute from the JWT",
+                "emailTemplate": "Email Template",
+                "emailTemplateHelp": "Use <code>{sub}</code> syntax to use an attribute from the JWT",
+                "registrationHook": "Registration Hook Endpoint",
+                "registrationHookHelp": "A fully qualified URL that will be hit with a POST request when a user visits the forum for the first time. The request should return a JSON:API payload that will be used to create the new user in Flarum. Use <code>{sub}</code> syntax to use an attribute from the JWT in the URL. The complete JWT will be passed in the <code>Authorization</code> header. Username and Email are optional if a template value is configured.\n",
+                "authorizationHeader": "Custom Authorization header value",
+                "authorizationHeaderHelp": "If this field is left empty, <code>Authorization</code> header will contain <code>Token <JWT token></code>.",
+                "hiddenIframe": "Hidden Iframe URL",
+                "hiddenIframeHelp": "This iframe will be loaded off-screen on all pages of the Flarum single page application. It can be used to periodically refresh the cookie and can use browser messaging to trigger a page refresh for auto-login or auto-logout. See README for documentation.\n",
+                "autoLoginDelay": "Hidden Iframe Auto Login Delay (milliseconds)",
+                "autoLoginDelayHelp": "During how many seconds the page is allowed to refresh without user interaction if the hidden iframe returns a logged in status. Past that delay, the user will receive an alert to ask whether they want to refresh the page.\n",
+                "logoutRedirect": "Logout Redirect URL",
+                "logoutRedirectHelp": "During a JWT stateless session, the Flarum logout link will be replaced with a link pointing to this URL. If no value is set, the logout button will be hidden.\n"
+            }
+        },
+        "forum": {
+            "alert": {
+                "refresh": "Refresh page",
+                "login": "You have been connected automatically.",
+                "logout": "Your session has expired."
+            }
+        }
+    }
+}
