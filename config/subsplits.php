@@ -31,6 +31,13 @@ return [
 		'branch' => 'master',
 		'path' => '/locale',
 	],
+	'bn' => [
+		'type' => 'language',
+		'language' => 'bn',
+		'repository' => 'git@github.com:flarum-lang/bengali.git',
+		'branch' => 'master',
+		'path' => '/locale',
+	],
 	'cs' => [
 		'type' => 'language',
 		'language' => 'cs',
