@@ -13,9 +13,9 @@
                 "purchase_required": "Diese Diskussion wird veröffentlicht, sobald Du die Zahlung über unseren Zahlungsanbieter Stripe abgeschlossen hast. Klicke auf Kaufen, um die Kosten und Zahlungsoptionen anzuzeigen.\n"
             },
             "pay-to-bump": {
-                "description": "",
-                "purchase-control": "",
-                "purchase-log-in": ""
+                "description": "{count, plural, one {Diese Diskussion wurde gebumped} other {{count} Leute bumpten diese Diskussion}}.",
+                "purchase-control": "Zum bumpen zahlen",
+                "purchase-log-in": "Anmelden und bezahlen um zu bumpen"
             },
             "tag": {
                 "require-payment-label": "Zahlung benötigt"
@@ -40,10 +40,10 @@
                 "select-ptv-product-description": "Die Auswahl eines Produkts erfordert die Zahlung dieses Produkts, um dauerhaft Zugriff auf alle Beiträge über den Schwellenwert hinaus zu erhalten. Erstelle ein Produkt in Deinem Stripe-Dashboard und kopiere die ID beginnend mit <code>prod_</code> in dieses Feld.\n",
                 "visible-from": "Beiträge bei dieser Schwelle ausblenden",
                 "visible-from-description": "Die hier angegebene Zahl legt fest, an welcher Stelle Beiträge für Benutzer ausgeblendet werden, die nicht für den Zugriff auf den Inhalt bezahlt haben. Verwende 0, um alle auszublenden, 1 für den nach dem OP.\n",
-                "select-ptb-product": "",
-                "select-ptb-product-description": "",
-                "bump-others": "",
-                "bump-others-description": ""
+                "select-ptb-product": "(PTB) Benötigtes Produkt",
+                "select-ptb-product-description": "Wenn Du ein Produkt auswählest, musst Du dieses Produkt bezahlen, bevor Du eine Diskussion starten kannst.\n",
+                "bump-others": "(PTB) Anderen erlauen, Diskussionen zu bumpen",
+                "bump-others-description": "Wenn aktiviert, kann nicht nur der Diskussionsautor Diskussionen mit einer Zahlung bumpen.\n"
             },
             "edit-group": {
                 "select-pta-product": "(PTA) Erforderliches Produkt",
