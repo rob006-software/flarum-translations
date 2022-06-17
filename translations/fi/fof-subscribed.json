@@ -32,18 +32,18 @@
         },
         "email": {
             "subject": {
-                "newDiscussion": "",
-                "newUser": "",
-                "postUnapproved": "",
-                "postCreated": "",
-                "postFlagged": ""
+                "newDiscussion": "[Uusi keskustelu] {title}",
+                "newUser": "[Uusi käyttäjä] {username}",
+                "postUnapproved": "[Hyväksyntä] {username} kirjoitti {title}",
+                "postCreated": "[Uusi viesti] {username} kirjoitti viestin {title}",
+                "postFlagged": "[Uusi lippu] {username} liputti viestin {title}"
             },
             "body": {
-                "newDiscussion": "",
-                "newUser": "",
-                "postUnapproved": "",
-                "postCreated": "",
-                "postFlagged": ""
+                "newDiscussion": "Hei {recipient_display_name},\n\n{actor_display_name} aloitti uuden keskustelun: {discussion_title}\n\nNähdäksesi keskustelun klikkaa seuraavaa linkkiä:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newUser": "Hei {recipient_display_name},\n\n{actor_display_name} liittyi foorumille {forum_url}.\n\nNähdäksesi käyttäjän profiilin klikkaa seuraavaa linkkiä:\n{user_url}\n",
+                "postUnapproved": "Hei {recipient_display_name},\n\n{actor_display_name} loi viestin jota ei automaattisesti hyväksytty keskustelussa {discussion_title}\n\nNähdäksesi viestin klikkaa seuraavaa linkkiä:\n{post_url}\n\n---\n\n{post_content}\n",
+                "postCreated": "Hei {recipient_display_name},\n\n{actor_display_name} loi uuden viestin keskustelussa {discussion_title}\n\nNähdäksesi viestin klikkaa seuraavaa linkkiä:\n{post_url}\n\n---\n\n{post_content}\n",
+                "postFlagged": "Hei {recipient_display_name},\n\n{actor_display_name} liputti viestin keskustelussa {discussion_title}\n\nNähdäksesi viestin klikkaa seuraavaa linkkiä:\n{post_url}\n"
             }
         }
     }
