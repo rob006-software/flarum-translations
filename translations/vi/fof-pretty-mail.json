@@ -6,13 +6,13 @@
             },
             "settings": {
                 "attributes": {
-                    "body": "",
-                    "forumStyle": "",
-                    "url": "",
-                    "settings": "",
-                    "link": ""
+                    "body": "Chứa nội dung thực tế của email",
+                    "forumStyle": "Chứa <strong>toàn bộ CSS của diễn đàn</strong>",
+                    "url": "<code>UrlGenerator</code> của Flarum",
+                    "settings": "Cho phép bạn tương tác với SettingsRepositoryInterface",
+                    "link": "Chứa liên kết trong email"
                 },
-                "attributes_label": "",
+                "attributes_label": "Thuộc tính có sẵn",
                 "label": "Mẫu email",
                 "reset": "Khôi phục mặc định",
                 "confirm": "Bạn có chắc chắn muốn hoàn nguyên về mẫu email có sẵn cho",
@@ -22,7 +22,7 @@
                 "postMentioned": "Flarum/đề cập đến Bài viết Email được Đề cập",
                 "notifications": "Mẫu thông báo",
                 "notificationHelp": "Bạn nên sử dụng \"$ forumStyle\" cho những email này vì chúng có thể chứa BBCODE. Những email này cũng có sẵn \"$ user\" chứa toàn bộ mô hình người dùng của người dùng được gửi qua email.",
-                "template_help": "",
+                "template_help": "Xem từng mẫu để biết cách sử dụng từng thuộc tính.",
                 "help": "\"$body\" sẽ chứa nội dung thực của email, \"$forumStyle\" chứa <strong>toàn bộ CSS của diễn đàn</strong>, \"$url\" là Url Flarum tạo, \"$settings\" cho phép bạn tương tác với SettingsRepositoryInterface, và \"$link\" chứa liên kết trong email. Xem từng mẫu để biết cách sử dụng từng biến."
             },
             "css_settings": {
