@@ -13,9 +13,9 @@
                 "purchase_required": "Cuộc thảo luận này sẽ được xuất bản sau khi bạn hoàn tất thanh toán thông qua nhà cung cấp thanh toán Stripe của chúng tôi. Nhấp vào mua để xem các tùy chọn chi phí và thanh toán.\n"
             },
             "pay-to-bump": {
-                "description": "",
-                "purchase-control": "",
-                "purchase-log-in": ""
+                "description": "{count, plural, one {Cuộc thảo luận này bị ảnh hưởng} other {{count} người bị ảnh hưởng bởi cuộc thảo luận này}}.",
+                "purchase-control": "Thanh toán để Bump",
+                "purchase-log-in": "Đăng nhập & Thanh toán để Bump"
             },
             "tag": {
                 "require-payment-label": "Yêu cầu thanh toán"
@@ -40,10 +40,10 @@
                 "select-ptv-product-description": "Việc chọn một sản phẩm sẽ yêu cầu thanh toán cho sản phẩm đó để có quyền truy cập vĩnh viễn vào tất cả các bài viết vượt ngưỡng.. Tạo một sản phẩm trong trang tổng quan Stripe của bạn và sao chép ID bắt đầu bằng <code>prod_</code> vào trường này.\n",
                 "visible-from": "Ẩn các bài viết ở ngưỡng này",
                 "visible-from-description": "Con số bạn chỉ định ở đây xác định tại thời điểm các bài viết sẽ bị ẩn đối với những người dùng chưa trả tiền để truy cập nội dung. Sử dụng 0 để ẩn tất cả chúng, 1 cho cái sau OP.\n",
-                "select-ptb-product": "",
-                "select-ptb-product-description": "",
-                "bump-others": "",
-                "bump-others-description": ""
+                "select-ptb-product": "(PTB) Sản phẩm bắt buộc",
+                "select-ptb-product-description": "Chọn một sản phẩm sẽ yêu cầu thanh toán cho sản phẩm đó trước khi có thể bắt đầu thảo luận.\n",
+                "bump-others": "(PTB) Cho phép người khác thảo luận",
+                "bump-others-description": "Nếu được bật, không chỉ tác giả cuộc thảo luận có thể thúc đẩy các cuộc thảo luận bằng một khoản thanh toán.\n"
             },
             "edit-group": {
                 "select-pta-product": "(PTA) Sản phẩm yêu cầu",
