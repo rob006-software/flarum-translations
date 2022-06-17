@@ -21,8 +21,8 @@
                 "empty_text": "Chúng tôi không thể tìm thấy bất kỳ người dùng nào phù hợp với tìm kiếm của bạn.",
                 "filter_button": "Lọc nhóm",
                 "usercard": {
-                    "discussion-count": "",
-                    "post-count": ""
+                    "discussion-count": "{count, plural, one { {count} cuộc thảo luận} other {{count} cuộc thảo luận}}",
+                    "post-count": "{count, plural, one { {count} bài viết} other {{count} bài viết}}"
                 }
             }
         },
