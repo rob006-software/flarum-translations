@@ -8,14 +8,14 @@
                     "algolia": "Algolia",
                     "meilisearch": "Meilisearch"
                 },
-                "prefix": "",
-                "algoliaId": "",
-                "algoliaSecret": "",
-                "algoliaConnectTimeout": "",
-                "algoliaReadTimeout": "",
-                "algoliaWriteTimeout": "",
-                "meilisearchHost": "",
-                "meilisearchKey": ""
+                "prefix": "Tiền tố tên chỉ mục (tùy chọn)",
+                "algoliaId": "ID Algolia",
+                "algoliaSecret": "Mã Secret Algolia",
+                "algoliaConnectTimeout": "Timeout kết nối Algolia (tùy chọn)",
+                "algoliaReadTimeout": "Timeout đọc Algolia (tùy chọn)",
+                "algoliaWriteTimeout": "Timeout viết Algolia (tùy chọn)",
+                "meilisearchHost": "Host Meilisearch",
+                "meilisearchKey": "Mã key Meilisearch"
             }
         }
     }
