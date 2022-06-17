@@ -19,8 +19,8 @@
                     "vertical": "Chiều dọc",
                     "horizontal": "Chiều ngang"
                 },
-                "imageProxy": "Proxy ảnh",
-                "imageProxyHelp": "Tất cả hình ảnh sẽ được proxy thông qua Flarum thay vì trình duyệt của khách",
+                "imageProxy": "Proxy ảnh OpenGraph",
+                "imageProxyHelp": "Tất cả hình ảnh OpenGraph và favicon sẽ được proxy thông qua Flarum thay vì trình duyệt của khách",
                 "cacheProxy": "Cache ảnh proxy",
                 "cacheProxyHelp": "Hình ảnh sẽ được cache vào bộ nhớ thông qua headers HTTP của họ",
                 "withoutOpengraph": "Tạo rich embed cho các trang ngoại trừ dữ liệu OpenGraph",
@@ -29,8 +29,8 @@
                 "blacklistHelp": "Kiểm tra tài liệu để biết định dạng. Các URL này sẽ không bao giờ có nhiều nhúng và không thể được ủy quyền thông qua proxy hình ảnh",
                 "whitelist": "Danh sách trắng URL",
                 "whitelistHelp": "Kiểm tra tài liệu để biết định dạng. Nếu một giá trị được đặt, tất cả các URL khác sẽ được coi là danh sách đen",
-                "imageEmbeds": "",
-                "imageEmbedsHelp": ""
+                "imageEmbeds": "Rich Embeds cho Ảnh",
+                "imageEmbedsHelp": "Tính năng này truy xuất và hiển thị thông tin bổ sung về hình ảnh bên ngoài được chèn trong bài đăng bằng mã bbcode hoặc dấu xuống. Tại thời điểm này, nó sử dụng lại cùng một danh sách đen / danh sách trắng và các quyền như các liên kết phong phú. Những hình ảnh này không được hỗ trợ thông qua proxy hình ảnh OpenGraph. Bạn phải xóa bộ đệm Flarum sau khi thay đổi cài đặt này.\n"
             },
             "permissions": {
                 "useOnOwnPost": "Sử dụng nhúng trong bài đăng của riêng mình",
@@ -54,9 +54,9 @@
                 "refresh": "Tải dữ liệu lại",
                 "disable": "Tắt nhúng trên bài viết này",
                 "disableConfirmation": "Tất cả các nhúng sẽ bị xóa khỏi bài đăng này. Tiếp tục?",
-                "imgCopy": "",
-                "imgCopied": "",
-                "imgOpen": ""
+                "imgCopy": "Sao chép URL ảnh",
+                "imgCopied": "Đã sao chép!",
+                "imgOpen": "Mở ảnh trong tab mới"
             }
         },
         "api": {
