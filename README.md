@@ -545,6 +545,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`clarkwinkelmann-who-read`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-who-read) | [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read) |
 | [`datitisev-discussion-agree-message`](https://weblate.rob006.net/projects/flarum/datitisev-discussion-agree-message) | [`datitisev/flarum-discussion-agree-message`](https://github.com/datitisev/flarum-discussion-agree-message) |
 | [`datlechin-add-like-controls`](https://weblate.rob006.net/projects/flarum/datlechin-add-like-controls) | [`datlechin/flarum-add-like-controls`](https://github.com/datlechin/flarum-add-like-controls) |
+| [`datlechin-bbcode-hide-content`](https://weblate.rob006.net/projects/flarum/datlechin-bbcode-hide-content) | [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content) |
 | [`datlechin-birthdays`](https://weblate.rob006.net/projects/flarum/datlechin-birthdays) | [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays) |
 | [`datlechin-copy-links`](https://weblate.rob006.net/projects/flarum/datlechin-copy-links) | [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links) |
 | [`datlechin-keyboard-shortcuts`](https://weblate.rob006.net/projects/flarum/datlechin-keyboard-shortcuts) | [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts) |
