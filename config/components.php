@@ -437,7 +437,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/default-group/1.1.0/resources/locale/en.yml',
 	],
 	'fof-default-user-preferences' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/default-user-preferences/1.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/default-user-preferences/1.1.1/locale/en.yml',
 	],
 	'fof-discussion-language' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/discussion-language/1.2.6/resources/locale/en.yml',
