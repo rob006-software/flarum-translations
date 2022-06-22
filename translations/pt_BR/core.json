@@ -83,9 +83,9 @@
                 "from_label": "Remetente",
                 "mail_encryption_label": "Criptografia",
                 "mail_host_label": "Host",
-                "mail_mailgun_domain_label": "Dominio",
+                "mail_mailgun_domain_label": "Domínio",
                 "mail_mailgun_region_label": "Região",
-                "mail_mailgun_secret_label": "Secret key",
+                "mail_mailgun_secret_label": "Chave Secreta",
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "Porta",
                 "mail_username_label": "=> core.ref.username",
@@ -596,15 +596,15 @@
         "email": {
             "activate_account": {
                 "subject": "Ative sua nova conta",
-                "body": "Olá {username}!\nAlguém (esperamos que você!) se cadastrou em {forum} com este endereço de e-mail.\nSe foi você mesmo, basta clicar no link abaixo e sua conta será ativada:\n{url}\nSe você não se cadastrou, por favor ignore este e-mail.\n"
+                "body": "Olá {username}!\n\nAlguém (esperamos que você!) se cadastrou em {forum} com este endereço de e-mail.\n\nSe foi você mesmo, basta clicar no link abaixo e sua conta será ativada:\n{url}\n\nSe você não se cadastrou, por favor ignore este e-mail.\n"
             },
             "confirm_email": {
                 "subject": "Confirme seu novo endereço de e-mail",
-                "body": "Olá {username}!\nAlguém (esperamos que você!) alterou o endereço de e-mail em {forum} para este aqui.\nSe foi você mesmo, basta clicar no link abaixo e seu e-mail será confirmado:\n{url}\nSe você não solicitou isso, por favor ignore este e-mail.\n"
+                "body": "Olá {username}!\n\nAlguém (esperamos que você!) alterou o endereço de e-mail em {forum} para este aqui.\n\nSe foi você mesmo, basta clicar no link abaixo e seu e-mail será confirmado:\n{url}\n\nSe você não solicitou isso, por favor ignore este e-mail.\n"
             },
             "reset_password": {
                 "subject": "=> core.ref.reset_your_password",
-                "body": "Olá {username}!\nAlguém (esperamos que você!) enviou uma solicitação de redefinição de senha para sua conta em {forum}.\nSe foi você mesmo, clique no link abaixo para redefinir sua senha:\n{url}\nSe você não quiser alterar sua senha, basta ignorar este e-mail e nada irá acontecer.\n"
+                "body": "Olá {username}!\n\nAlguém (esperamos que você!) enviou uma solicitação de redefinição de senha para sua conta em {forum}.\n\nSe foi você mesmo, clique no link abaixo para redefinir sua senha:\n{url}\n\nSe você não quiser alterar sua senha, basta ignorar este e-mail e nada irá acontecer.\n"
             },
             "send_test": {
                 "subject": "Teste de e-mail Flarum",
