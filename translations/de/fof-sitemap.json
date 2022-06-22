@@ -2,7 +2,8 @@
     "fof-sitemap": {
         "admin": {
             "settings": {
-                "title": "FoF-Sitemap",
+                "exclude_users": "",
+                "exclude_users_help": "",
                 "mode_label": "Betriebsmodus",
                 "mode_help": "Die Wahl des richtigen Modus für die Größe deines Forums ist von entscheidender Bedeutung.",
                 "mode_help_runtime_label": "Laufzeitmodus",
@@ -26,7 +27,8 @@
                     "hourly": "Stündlich",
                     "twice_daily": "Zweimal täglich",
                     "daily": "Täglich"
-                }
+                },
+                "title": "FoF-Sitemap"
             }
         }
     }

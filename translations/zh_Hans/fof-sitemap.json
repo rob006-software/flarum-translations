@@ -2,7 +2,8 @@
     "fof-sitemap": {
         "admin": {
             "settings": {
-                "title": "FoF 站点地图",
+                "exclude_users": "",
+                "exclude_users_help": "",
                 "mode_label": "运行模式",
                 "mode_help": "根据您的论坛规模选择正确的模式极为重要。",
                 "mode_help_runtime_label": "运行时模式",
@@ -26,7 +27,8 @@
                     "hourly": "每小时一次",
                     "twice_daily": "每天两次",
                     "daily": "每天一次"
-                }
+                },
+                "title": "FoF 站点地图"
             }
         }
     }

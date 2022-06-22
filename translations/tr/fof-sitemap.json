@@ -2,7 +2,8 @@
     "fof-sitemap": {
         "admin": {
             "settings": {
-                "title": "FoF Site Haritası",
+                "exclude_users": "",
+                "exclude_users_help": "",
                 "mode_label": "Çalışma modu",
                 "mode_help": "Forum hacmine bağlı olarak doğru modu seçmek hayati derecede önemlidir.",
                 "mode_help_runtime_label": "Anlık Mod",
@@ -26,7 +27,8 @@
                     "hourly": "Saatlik",
                     "twice_daily": "Günde iki kez",
                     "daily": "Günlük"
-                }
+                },
+                "title": "FoF Site Haritası"
             }
         }
     }

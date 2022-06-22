@@ -2,7 +2,8 @@
     "fof-sitemap": {
         "admin": {
             "settings": {
-                "title": "",
+                "exclude_users": "",
+                "exclude_users_help": "",
                 "mode_label": "",
                 "mode_help": "",
                 "mode_help_runtime_label": "",
@@ -26,7 +27,8 @@
                     "hourly": "",
                     "twice_daily": "",
                     "daily": ""
-                }
+                },
+                "title": ""
             }
         }
     }

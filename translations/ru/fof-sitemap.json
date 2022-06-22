@@ -2,7 +2,8 @@
     "fof-sitemap": {
         "admin": {
             "settings": {
-                "title": "Карта сайта",
+                "exclude_users": "",
+                "exclude_users_help": "",
                 "mode_label": "Режим работы",
                 "mode_help": "Выберите режим работы, подходящий под размер Вашего форума.",
                 "mode_help_runtime_label": "При запросе",
@@ -26,7 +27,8 @@
                     "hourly": "Раз в час",
                     "twice_daily": "Два раза в день",
                     "daily": "Ежедневно"
-                }
+                },
+                "title": "Карта сайта"
             }
         }
     }

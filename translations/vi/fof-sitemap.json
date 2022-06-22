@@ -2,7 +2,8 @@
     "fof-sitemap": {
         "admin": {
             "settings": {
-                "title": "Sơ đồ trang web",
+                "exclude_users": "",
+                "exclude_users_help": "",
                 "mode_label": "Chế độ hoạt động",
                 "mode_help": "Chọn chế độ chính xác cho quy mô diễn đàn của bạn là cực kỳ quan trọng.",
                 "mode_help_runtime_label": "Chế độ runtime",
@@ -26,7 +27,8 @@
                     "hourly": "Hàng giờ",
                     "twice_daily": "Hai lần mỗi ngày",
                     "daily": "Hằng ngày"
-                }
+                },
+                "title": "Sơ đồ trang web"
             }
         }
     }
