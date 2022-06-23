@@ -512,7 +512,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/oauth/1.2.2/resources/locale/en.yml',
 	],
 	'fof-open-collective' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/open-collective/1.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/open-collective/1.1.0/resources/locale/en.yml',
 	],
 	'fof-pages' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/pages/1.0.4/resources/locale/en.yml',
