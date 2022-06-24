@@ -30,33 +30,33 @@
                 "redirects_heading": "Átirányítások",
                 "redirect_articles_label": "Blogcikkek átirányítása",
                 "redirect_articles_text": "Ha be van kapcsolva, az eredeti beszélgetés a blogra lesz irányítva.",
-                "redirect_tags_label": "Blog címkék átirányítása",
-                "redirect_tags_text": "Ha be van kapcsolva, a blog címke URL át lesz irányítva a blog kategóriára.",
-                "default_article_image_label": "Alapértelmezett cikk kép",
-                "default_article_image_text": "Válaszd ki az alapértelmezett képet, amely azoknál a cikkeknél jelenik meg ahol nincs kép csatolva.",
-                "add_hero_label": "",
-                "add_hero_text": ""
+                "redirect_tags_label": "Blogcímkék átirányítása",
+                "redirect_tags_text": "Ha be van kapcsolva, a blogcímke URL át lesz irányítva a blog kategóriára.",
+                "default_article_image_label": "Alapértelmezett cikk-kép",
+                "default_article_image_text": "Válassza ki az alapértelmezett képet, amely azoknál a cikkeknél jelenik meg, ahol nincs kép megadva.",
+                "add_hero_label": "Üdvözlő banner megjelenítése",
+                "add_hero_text": "Üdvözlő banner megjelenítése a blogoldalakon, ha még nem lett bezárva."
             }
         },
         "forum": {
             "blog": "Blog",
-            "read_more": "Több",
+            "read_more": "Tovább",
             "hidden": "Elrejtve",
             "recent_posts": "Friss cikkek",
             "categories": "Kategóriák",
-            "forum_nav": "Fórum navigáció",
-            "return_to_overview": "Vissza a blog összefoglalóhoz ",
-            "no_more_posts": "Nincs több cikk.",
-            "category_empty": "Ebben a kategóriában nincsenek cikkek.",
+            "forum_nav": "Fórumnavigáció",
+            "return_to_overview": "Vissza a blogösszefoglalóhoz ",
+            "no_more_posts": "Nincs több blogbejegyzés.",
+            "category_empty": "Ebben a kategóriában nincsenek blogbejegyzések.",
             "compose": {
-                "write_article": "Cikk létrehozása"
+                "write_article": "Cikk írása"
             },
             "validation": {
-                "missing_id": "Hiányzó ID"
+                "missing_id": "Hiányzó azonosító"
             },
             "article": {
                 "title": "Cím",
-                "slug": "Slug",
+                "slug": "Keresőbarát URL",
                 "summary": "Összefoglaló"
             },
             "comment_section": {
@@ -64,16 +64,16 @@
                 "locked": "A hozzászólások nem engedélyezettek ennél a cikknél"
             },
             "review_article": {
-                "pending_review_title": "Várakozik a jóváhagyásra",
-                "pending_review": "Jóváhagyásra vár, addig nem jelenik meg publikusan",
+                "pending_review_title": "Jóváhagyásra vár",
+                "pending_review": "Ez cikk jóváhagyásra vár, és még nem lett közzétéve",
                 "approve_article": "Cikk jóváhagyása",
-                "approve_article_approved": "A cikk jóváhagyva és publikálva"
+                "approve_article_approved": "A cikk jóvá lett hagyva és közzé lett téve"
             },
             "tools": {
                 "rename_article": "Cikk átnevezése",
                 "edit_article": "Cikk szerkesztése",
                 "update_category": "Kategóriák frissítése",
-                "article_settings": "Cikk beállítások",
+                "article_settings": "Cikk beállításai",
                 "approve_article": "Cikk jóváhagyása",
                 "hide_article": "Cikk elrejtése",
                 "recover_article": "Cikk helyreállítása",
@@ -83,14 +83,14 @@
             },
             "utils": {
                 "redirect": {
-                    "title": "Átirányítás a blog cikkhez...",
-                    "link": "<a>Kattints ide</a> ha nem lettél átirányítva"
+                    "title": "Átirányítás a blogcikkhez...",
+                    "link": "<a>Kattintson ide</a>, ha az oldal nem irányítja át"
                 }
             },
             "composer": {
                 "no_title": "Nincs cím",
-                "enter_message_here": "Írd az üzenetet ide",
-                "post_article": "Cikk mentése",
+                "enter_message_here": "Írja ide az üzenetet",
+                "post_article": "Cikk beküldése",
                 "select_category": "Válassz kategóriát",
                 "edit_categories": "Kategóriák szerkesztése",
                 "update_settings": "Blog beállítások frissítése",
