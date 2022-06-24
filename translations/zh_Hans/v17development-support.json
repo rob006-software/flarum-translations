@@ -192,7 +192,8 @@
                     "assign_me": "分配给我",
                     "remove_me": "移除我",
                     "update_status": "更新工单状态",
-                    "close_ticket": "关闭工单"
+                    "close_ticket": "关闭工单",
+                    "update_note": ""
                 },
                 "new_tickets_dropdown": {
                     "title": "工单通知",
@@ -223,6 +224,13 @@
                     "assignees": {
                         "title": "专员",
                         "placeholder": "工单状态"
+                    },
+                    "private_note": {
+                        "title": "",
+                        "info": "",
+                        "tip": "",
+                        "placeholder": "",
+                        "edit_button": ""
                     }
                 },
                 "compose_ticket": {
@@ -267,6 +275,16 @@
                         "recent_activity": "新动态",
                         "least_recent": "非新动态"
                     }
+                }
+            },
+            "notifications": {
+                "replied_to_ticket": {
+                    "name": "",
+                    "content": ""
+                },
+                "ticket_resolved": {
+                    "name": "",
+                    "content": ""
                 }
             }
         },

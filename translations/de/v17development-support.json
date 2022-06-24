@@ -192,7 +192,8 @@
                     "assign_me": "Weisen Sie mir zu",
                     "remove_me": "Entferne mich",
                     "update_status": "Ticketstatus aktualisieren",
-                    "close_ticket": "Ticket schließen"
+                    "close_ticket": "Ticket schließen",
+                    "update_note": ""
                 },
                 "new_tickets_dropdown": {
                     "title": "Ticketbenachrichtigungen",
@@ -223,6 +224,13 @@
                     "assignees": {
                         "title": "Beauftragten",
                         "placeholder": "Der Status des Tickets"
+                    },
+                    "private_note": {
+                        "title": "",
+                        "info": "",
+                        "tip": "",
+                        "placeholder": "",
+                        "edit_button": ""
                     }
                 },
                 "compose_ticket": {
@@ -267,6 +275,16 @@
                         "recent_activity": "Jüngste Aktivität",
                         "least_recent": "Letzte Aktivität"
                     }
+                }
+            },
+            "notifications": {
+                "replied_to_ticket": {
+                    "name": "",
+                    "content": ""
+                },
+                "ticket_resolved": {
+                    "name": "",
+                    "content": ""
                 }
             }
         },

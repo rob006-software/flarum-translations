@@ -192,7 +192,8 @@
                     "assign_me": "Asignar a sí mismo",
                     "remove_me": "Quitarme",
                     "update_status": "Actualizar el estado del ticket",
-                    "close_ticket": "Cerrar ticket"
+                    "close_ticket": "Cerrar ticket",
+                    "update_note": ""
                 },
                 "new_tickets_dropdown": {
                     "title": "Notificaciones de tickets",
@@ -223,6 +224,13 @@
                     "assignees": {
                         "title": "Asignatarios",
                         "placeholder": "El estado del ticket"
+                    },
+                    "private_note": {
+                        "title": "",
+                        "info": "",
+                        "tip": "",
+                        "placeholder": "",
+                        "edit_button": ""
                     }
                 },
                 "compose_ticket": {
@@ -267,6 +275,16 @@
                         "recent_activity": "",
                         "least_recent": ""
                     }
+                }
+            },
+            "notifications": {
+                "replied_to_ticket": {
+                    "name": "",
+                    "content": ""
+                },
+                "ticket_resolved": {
+                    "name": "",
+                    "content": ""
                 }
             }
         },

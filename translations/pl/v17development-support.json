@@ -192,7 +192,8 @@
                     "assign_me": "Przypisz do mnie",
                     "remove_me": "Usuń mnie",
                     "update_status": "Zaktualizuj status zgłoszenia",
-                    "close_ticket": "Zamknij zgłoszenie"
+                    "close_ticket": "Zamknij zgłoszenie",
+                    "update_note": ""
                 },
                 "new_tickets_dropdown": {
                     "title": "Powiadomienia dotyczące zgłoszeń",
@@ -223,6 +224,13 @@
                     "assignees": {
                         "title": "Uczestnicy",
                         "placeholder": "Status zgłoszenia"
+                    },
+                    "private_note": {
+                        "title": "",
+                        "info": "",
+                        "tip": "",
+                        "placeholder": "",
+                        "edit_button": ""
                     }
                 },
                 "compose_ticket": {
@@ -267,6 +275,16 @@
                         "recent_activity": "",
                         "least_recent": ""
                     }
+                }
+            },
+            "notifications": {
+                "replied_to_ticket": {
+                    "name": "",
+                    "content": ""
+                },
+                "ticket_resolved": {
+                    "name": "",
+                    "content": ""
                 }
             }
         },

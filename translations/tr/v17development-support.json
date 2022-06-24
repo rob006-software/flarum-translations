@@ -192,7 +192,8 @@
                     "assign_me": "Bana ata",
                     "remove_me": "Beni sil",
                     "update_status": "Bilet durumunu güncelle",
-                    "close_ticket": "Bileti kapat"
+                    "close_ticket": "Bileti kapat",
+                    "update_note": ""
                 },
                 "new_tickets_dropdown": {
                     "title": "Bilet Bildirimleri",
@@ -223,6 +224,13 @@
                     "assignees": {
                         "title": "Atananlar",
                         "placeholder": "Biletin durumu"
+                    },
+                    "private_note": {
+                        "title": "",
+                        "info": "",
+                        "tip": "",
+                        "placeholder": "",
+                        "edit_button": ""
                     }
                 },
                 "compose_ticket": {
@@ -267,6 +275,16 @@
                         "recent_activity": "Son aktiviteler",
                         "least_recent": "En son etkinlik"
                     }
+                }
+            },
+            "notifications": {
+                "replied_to_ticket": {
+                    "name": "",
+                    "content": ""
+                },
+                "ticket_resolved": {
+                    "name": "",
+                    "content": ""
                 }
             }
         },

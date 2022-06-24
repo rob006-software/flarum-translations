@@ -192,7 +192,8 @@
                     "assign_me": "Gán cho tôi",
                     "remove_me": "Gỡ tôi",
                     "update_status": "Cập nhật trạng thái phiếu",
-                    "close_ticket": "Đóng phiếu"
+                    "close_ticket": "Đóng phiếu",
+                    "update_note": ""
                 },
                 "new_tickets_dropdown": {
                     "title": "Thông báo phiếu",
@@ -223,6 +224,13 @@
                     "assignees": {
                         "title": "Người được giao",
                         "placeholder": "Trạng thái của phiếu"
+                    },
+                    "private_note": {
+                        "title": "",
+                        "info": "",
+                        "tip": "",
+                        "placeholder": "",
+                        "edit_button": ""
                     }
                 },
                 "compose_ticket": {
@@ -267,6 +275,16 @@
                         "recent_activity": "Hoạt động gần đây",
                         "least_recent": "Hoạt động cũ nhất"
                     }
+                }
+            },
+            "notifications": {
+                "replied_to_ticket": {
+                    "name": "",
+                    "content": ""
+                },
+                "ticket_resolved": {
+                    "name": "",
+                    "content": ""
                 }
             }
         },
