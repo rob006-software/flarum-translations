@@ -193,7 +193,7 @@
                     "remove_me": "Beni sil",
                     "update_status": "Bilet durumunu güncelle",
                     "close_ticket": "Bileti kapat",
-                    "update_note": ""
+                    "update_note": "Özel notu güncelle"
                 },
                 "new_tickets_dropdown": {
                     "title": "Bilet Bildirimleri",
@@ -226,11 +226,11 @@
                         "placeholder": "Biletin durumu"
                     },
                     "private_note": {
-                        "title": "",
-                        "info": "",
-                        "tip": "",
-                        "placeholder": "",
-                        "edit_button": ""
+                        "title": "Özel notlar",
+                        "info": "Özel notlar, destek temsilcileri içindir ve müşteri tarafından görülmez.",
+                        "tip": "İPUCU: Tek bir bilet üzerinde birden fazla temsilci ile çalışıyorsanız, bir nota adınızı ve tarihinizi ekleyin.",
+                        "placeholder": "Örnek: 1 Ocak 2022 - Temsilci Adı: Müşteri veritabanından temizlendi",
+                        "edit_button": "Notu düzenle"
                     }
                 },
                 "compose_ticket": {
@@ -279,12 +279,12 @@
             },
             "notifications": {
                 "replied_to_ticket": {
-                    "name": "",
-                    "content": ""
+                    "name": "Birisi biletimi yanıtladığında",
+                    "content": "=> v17development-flarum-support.emails.replied_to_ticket.subject"
                 },
                 "ticket_resolved": {
-                    "name": "",
-                    "content": ""
+                    "name": "Biletim çözüldü",
+                    "content": "=> v17development-flarum-support.emails.ticket_resolved.subject"
                 }
             }
         },
