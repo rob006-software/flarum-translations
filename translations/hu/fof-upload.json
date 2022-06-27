@@ -15,7 +15,7 @@
                 "watermark": "Válasszon, hogy a képek vízjelet kapjanak-e feltöltéskor. A vízjelek a nem GIF képekhez lesznek adva, a lenti beállítások alapján.\n",
                 "s3_compatible_storage": "A következő beállítások csak akkor szükségesek, ha S3-mal kompatibilis tárolót használ. Ha AWS-t használt, akkor üresen hagyhatja.\n",
                 "s3_acl": "A feltöltött objektumra alkalmazandó ACL (alapértelmezett: privát). A lehetséges értékekhez lásd: https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
-                "s3_instance_profile": "",
+                "s3_instance_profile": "Hagyja a kulcsot és a titkot üresen, hogy a példány profiljában lévő hitelesítő adatokat használja.\n",
                 "composer_buttons": "Alapértelmezetten a médiakezelő és a feltöltés gomb is látható. Választhat, hogy csak az egyik gomb jelenjen meg.\n"
             },
             "labels": {
@@ -41,7 +41,7 @@
                 "imgur": {
                     "client_id": "Imgur kliensazonosító",
                     "title": "Imgur képtároló beállításai",
-                    "tos": ""
+                    "tos": "Az Ön felelőssége, hogy a fórum felhasználói betartsák az Imgur <a>szolgáltatási feltételeit</a>"
                 },
                 "local": {
                     "cdn_url": "Tartalomszolgáltató URL (fájlok előtagja)",
@@ -81,7 +81,7 @@
                         "media-btn": "Csak médiakezelő gomb"
                     }
                 },
-                "inspect-mime": ""
+                "inspect-mime": "Fájl MIME-típusának tesztelése"
             },
             "permissions": {
                 "download_label": "Fájlok letöltése",
@@ -113,7 +113,7 @@
                 "qiniu": "QiNiu"
             },
             "inspect-mime": {
-                "title": "",
+                "title": "MIME-típus vizsgálata",
                 "description": "",
                 "select": "",
                 "laravel-validation": "",
