@@ -100,6 +100,24 @@
                 "comment_section": "撰写文章时，评论区无法使用。",
                 "no_blog_tags_selected": "您选择的标签中没有一个是博客标签，请至少选择一个博客标签。",
                 "post_without_blog_info": "确定要发布这篇文章吗？您还没有输入博客摘要或上传封面图。"
+            },
+            "article_settings": {
+                "title": "",
+                "fields": {
+                    "summary": {
+                        "title": "",
+                        "placeholder": "",
+                        "helper_text": ""
+                    },
+                    "image": {
+                        "title": "",
+                        "helper_text": ""
+                    },
+                    "highlight": {
+                        "title": "",
+                        "helper_text": ""
+                    }
+                }
             }
         }
     }
