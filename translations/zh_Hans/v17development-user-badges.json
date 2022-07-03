@@ -8,10 +8,15 @@
             "update_category": "更新分组",
             "edit_category": "编辑分组",
             "nothing_here_yet": "您还没有创建任何徽章或分组。",
+            "show_badges_on_user_card": "",
+            "number_of_badges_on_user_card": "",
+            "number_of_badges_on_user_card_help": "",
             "permissions": {
                 "badge_detail_users": "在徽章详情页列出用户",
                 "give_badge": "授予用户徽章",
-                "take_badge": "撤除用户徽章"
+                "take_badge": "撤除用户徽章",
+                "edit_own_card_badges": "",
+                "edit_card_badges": ""
             },
             "confirm_dialog": {
                 "title": "危险！",
@@ -79,6 +84,7 @@
             "user_no_badges": "该用户尚未拥有徽章。",
             "no_received": "没有人获得此徽章。",
             "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
+            "save_changes": "",
             "badge": {
                 "badge": "徽章",
                 "badges": "徽章",
@@ -92,7 +98,15 @@
                 "received_on": "获得于 {date}",
                 "badge_details": "徽章详情",
                 "earned_count": "{count, plural, one {<b># 位用户</b>获得此徽章} other {<b># 位用户</b>获得此徽章}}",
-                "earned_by_count": "{count, plural, one {已授予 <b># 位用户</b>} other {已授予 <b># 位用户</b>}}"
+                "earned_by_count": "{count, plural, one {已授予 <b># 位用户</b>} other {已授予 <b># 位用户</b>}}",
+                "others_link": ""
+            },
+            "badges_in_card": {
+                "title": "",
+                "manage_badges": "",
+                "description": "",
+                "select_limit": "",
+                "hit_limit": ""
             },
             "moderation": {
                 "remove_badge": "移除徽章",

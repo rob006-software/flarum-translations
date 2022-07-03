@@ -8,10 +8,15 @@
             "update_category": "Edytuj kategorię",
             "edit_category": "Edytuj kategorię",
             "nothing_here_yet": "Nie utworzono jeszcze żadnych odznak ani kategorii.",
+            "show_badges_on_user_card": "",
+            "number_of_badges_on_user_card": "",
+            "number_of_badges_on_user_card_help": "",
             "permissions": {
                 "badge_detail_users": "Przeglądanie listy użytkowników z daną odznaką",
                 "give_badge": "Przyznawanie odznak użytkownikom",
-                "take_badge": "Odbieranie odznak użytkownikom"
+                "take_badge": "Odbieranie odznak użytkownikom",
+                "edit_own_card_badges": "",
+                "edit_card_badges": ""
             },
             "confirm_dialog": {
                 "title": "Potwierdź",
@@ -79,6 +84,7 @@
             "user_no_badges": "Ten użytkownik nie ma jeszcze żadnych odznak.",
             "no_received": "Żaden użytkownik nie uzyskał jeszcze tej odznaki.",
             "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
+            "save_changes": "",
             "badge": {
                 "badge": "Odznaka",
                 "badges": "Odznaki",
@@ -92,7 +98,15 @@
                 "received_on": "Uzyskano {date}",
                 "badge_details": "Szczegóły odznaki",
                 "earned_count": "{count, plural, one {<b>{count} użytkownik</b> uzyskał} other {<b>{count} użytkowników</b> uzyskało}} tę odznakę",
-                "earned_by_count": "{count, plural, one {<b># użytkownik uzyskał</b>} other {<b># użytkowników uzyskało</b>}} tę odznakę"
+                "earned_by_count": "{count, plural, one {<b># użytkownik uzyskał</b>} other {<b># użytkowników uzyskało</b>}} tę odznakę",
+                "others_link": ""
+            },
+            "badges_in_card": {
+                "title": "",
+                "manage_badges": "",
+                "description": "",
+                "select_limit": "",
+                "hit_limit": ""
             },
             "moderation": {
                 "remove_badge": "Odbierz odznakę użytkownikowi",
