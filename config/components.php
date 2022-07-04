@@ -774,7 +774,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/flarum-ext-toastme/0.1.1/resources/locale/en.yml',
 	],
 	'justoverclock-user-pc-specs' => [
-		'tag' => 'https://raw.githubusercontent.com/justoverclockl/user-pc-specs/0.1.5/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/user-pc-specs/0.1.6/locale/en.yml',
 	],
 	'justoverclock-user-statistics' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/user-statistics/0.1.9/locale/en.yml',
