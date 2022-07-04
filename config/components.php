@@ -232,6 +232,9 @@ return [
 	'clarkwinkelmann-predefined-avatars' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-predefined-avatars/1.0.1/resources/locale/en.yml',
 	],
+	'clarkwinkelmann-prominent-post-numbers' => [
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-prominent-post-numbers/1.0.0/locale/en.yml',
+	],
 	'clarkwinkelmann-readonly-profile' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-readonly-profile/1.0.0/resources/locale/en.yml',
 	],
