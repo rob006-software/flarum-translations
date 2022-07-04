@@ -190,6 +190,9 @@ return [
 	'clarkwinkelmann-follow-tags-prompt' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-follow-tags-prompt/1.0.1/resources/locale/en.yml',
 	],
+	'clarkwinkelmann-formatted-banner' => [
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-formatted-banner/1.0.0/resources/locale/en.yml',
+	],
 	'clarkwinkelmann-group-invitation' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-group-invitation/1.0.1/resources/locale/en.yml',
 	],
