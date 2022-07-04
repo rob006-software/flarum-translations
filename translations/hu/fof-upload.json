@@ -114,16 +114,16 @@
             },
             "inspect-mime": {
                 "title": "MIME-típus vizsgálata",
-                "description": "",
-                "select": "",
-                "laravel-validation": "",
-                "no-file-selected": "",
-                "validation-passed": "",
-                "validation-failed": "",
-                "mime-detector": "",
-                "mime-fileinfo": "",
-                "guessed-extension": "",
-                "not-available": ""
+                "description": "A FoF Feltöltés a <a>PHP Mime Detector</a> programkönyvtárat használja a gyakori MIME-típusokhoz, tartaléknak pedig a PHP Fileinfót.\nA Fileinfo által visszaadott MIME-érték különbözhet a különböző kiszolgálók esetén!\n",
+                "select": "Válasszon egy lenti fájlt, hogy megvizsgálja a használandó értékeket. A fájl nem lesz mentve.",
+                "laravel-validation": "Laravel fájlellenőrzés",
+                "no-file-selected": "Nincs fájl",
+                "validation-passed": "Átment",
+                "validation-failed": "Sikertelen: {error}",
+                "mime-detector": "MIME észlelő (elsődleges)",
+                "mime-fileinfo": "PHP Fileinfo (tartalék)",
+                "guessed-extension": "Alapértelmezett fájlkiterjesztés (ha az eredeti nem szerepel a fehérlistán)",
+                "not-available": "Nincs találat"
             }
         },
         "forum": {
