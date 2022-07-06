@@ -1,12 +1,12 @@
 {
     "acpl-lscache": {
         "admin": {
-            "public_cache_ttl_label": "",
-            "public_cache_ttl_help": "",
-            "clearing_cache_listener_label": "",
-            "serve_stale_label": "",
-            "serve_stale_help": "",
-            "purge_on_discussion_update_label": "",
+            "public_cache_ttl_label": "Alapértelmezett nyilvános gyorsítótár TTL-je",
+            "public_cache_ttl_help": "Adja meg, hogy hány másodpercig legyenek a nyilvános lapok gyorsítótárazva. Az alapértelmezett érték 300 másodperc.",
+            "clearing_cache_listener_label": "Az LSCache tisztítása a Flarum gyorsítótárának törlésekor",
+            "serve_stale_label": "Elavult lapok kiszolgálása",
+            "serve_stale_help": "Ha BE van kapcsolva, akkor a gyorsítótárazott oldal lesz megjelenítve a látogatók számára, amíg egy új másolat nem lesz elérhető. Csökkenti a kiszolgáló terhelését az egymást követő látogatások esetén. Ha KI van kapcsolva, akkor az oldal dinamikusan elő lesz állítva míg a látogatók várakoznak. Ez a beállítás tervezetten azt okozhatja, hogy elévült tartalmat fog szolgáltatni. Ha ez nem felel meg Önnek, akkor ne kapcsolja be ezt a beállítást.",
+            "purge_on_discussion_update_label": "Webcímek vagy címkék törlése, ha egy téma vagy bejegyzés frissül",
             "purge_on_discussion_update_help": "",
             "cache_exclude_label": "",
             "cache_exclude_help": "",
