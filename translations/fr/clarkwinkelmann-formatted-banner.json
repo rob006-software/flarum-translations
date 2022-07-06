@@ -2,20 +2,20 @@
     "clarkwinkelmann-formatted-banner": {
         "admin": {
             "settings": {
-                "guestContent": "",
-                "guestHtml": "",
-                "memberContent": "",
-                "memberHtml": "",
-                "dismissible": "",
-                "replaceWelcomeHero": "",
-                "hideWelcomeHero": ""
+                "guestContent": "Contenu formaté pour les invités",
+                "guestHtml": "Contenu HTML pour les invités",
+                "memberContent": "Contenu formaté pour les membres",
+                "memberHtml": "Contenu HTML pour les membres",
+                "dismissible": "Autoriser la fermeture de la bannière",
+                "replaceWelcomeHero": "Remplacer le bandeau de bienvenue par une bannière",
+                "hideWelcomeHero": "Masquer le bandeau de bienvenue"
             }
         },
         "forum": {
             "alert": {
-                "refresh": "",
-                "login": "",
-                "logout": ""
+                "refresh": "Rafraîchir la page",
+                "login": "Vous avez été connecté automatiquement.",
+                "logout": "Votre session a expiré."
             }
         }
     }
