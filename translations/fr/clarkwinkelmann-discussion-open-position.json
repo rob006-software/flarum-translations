@@ -2,39 +2,39 @@
     "clarkwinkelmann-discussion-open-position": {
         "admin": {
             "settings": {
-                "defaultOpenLastRead": "",
-                "suggestFirstTime": "",
+                "defaultOpenLastRead": "Ouvrir une discussion au dernier message lu par défaut",
+                "suggestFirstTime": "Afficher une invite à l'utilisateur pour modifier le paramètre la première fois qu'il ouvre une discussion",
                 "openLastOptions": {
-                    "always": "",
-                    "unread": "",
-                    "never": ""
+                    "always": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.always",
+                    "unread": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.unread",
+                    "never": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.never"
                 }
             }
         },
         "forum": {
             "firstTimePrompt": {
-                "fromAlways": "",
-                "fromNever": "",
+                "fromAlways": "Les liens de discussion mènent à votre dernier message lu",
+                "fromNever": "Les liens de discussion ouvrent le premier message",
                 "openLastOptions": {
-                    "always": "",
-                    "never": ""
+                    "always": "Toujours ouvrir au dernier message que j'ai lu à la place",
+                    "never": "Toujours ouvrir au premier message à la place"
                 },
-                "more": ""
+                "more": "Plus d'options"
             },
             "preferences": {
-                "discussionOpenLastRead": "",
+                "discussionOpenLastRead": "Liste de discussions",
                 "openLastOptions": {
-                    "always": "",
-                    "unread": "",
-                    "never": ""
+                    "always": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.always",
+                    "unread": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.unread",
+                    "never": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.never"
                 }
             }
         },
         "ref": {
             "openLastOptions": {
-                "always": "",
-                "unread": "",
-                "never": ""
+                "always": "Toujours ouvrir les discussions au dernier message lu",
+                "unread": "N'ouvrir les discussions au dernier message lu que s'il y a de nouvelles réponses",
+                "never": "Toujours ouvrir les discussions dès le premier message"
             }
         }
     }
