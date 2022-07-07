@@ -193,7 +193,7 @@
                     "remove_me": "Gỡ tôi",
                     "update_status": "Cập nhật trạng thái phiếu",
                     "close_ticket": "Đóng phiếu",
-                    "update_note": ""
+                    "update_note": "Cập nhật ghi chú riêng tư"
                 },
                 "new_tickets_dropdown": {
                     "title": "Thông báo phiếu",
@@ -226,11 +226,11 @@
                         "placeholder": "Trạng thái của phiếu"
                     },
                     "private_note": {
-                        "title": "",
-                        "info": "",
-                        "tip": "",
-                        "placeholder": "",
-                        "edit_button": ""
+                        "title": "Ghi chú riêng tư",
+                        "info": "Các ghi chú riêng tư không hiển thị dành cho các nhân viên hỗ trợ và không hiển thị cho khách hàng.",
+                        "tip": "MẸO: Nếu bạn đang làm việc với nhiều đại lý trên một vé, hãy thêm tên và ngày tháng của bạn vào ghi chú.",
+                        "placeholder": "Ví dụ: Ngày 1 tháng 1 năm 2022 - Tên đại lý: Đã xóa khách hàng khỏi cơ sở dữ liệu",
+                        "edit_button": "Chỉnh sửa ghi chú"
                     }
                 },
                 "compose_ticket": {
@@ -279,12 +279,12 @@
             },
             "notifications": {
                 "replied_to_ticket": {
-                    "name": "",
-                    "content": ""
+                    "name": "Ai đó trả lời vé hỗ trợ của tôi",
+                    "content": "=> v17development-flarum-support.emails.replied_to_ticket.subject"
                 },
                 "ticket_resolved": {
-                    "name": "",
-                    "content": ""
+                    "name": "Vé hỗ trợ của tôi đã được giải quyết",
+                    "content": "=> v17development-flarum-support.emails.ticket_resolved.subject"
                 }
             }
         },
