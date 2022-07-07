@@ -1,0 +1,25 @@
+{
+    "datlechin-more-discussions": {
+        "admin": {
+            "settings": {
+                "block_name_label": "Block name",
+                "block_name_help": "The name of the block (default <code>Latest Discussions</code>)",
+                "discussion_limit_label": "Discussion limit",
+                "discussion_limit_help": "The number of discussions to display (default <code>5</code>)",
+                "filter_by_label": "Filter by",
+                "filter_by_help": "Filter discussions (default: <code>latest</code>)",
+                "filter_dropdown": {
+                    "latest": "Latest",
+                    "top": "Top",
+                    "newest": "Newest",
+                    "oldest": "Oldest",
+                    "hot": "Trending (required fof/gamification)",
+                    "votes": "Upvotes (required fof/gamification)"
+                }
+            }
+        },
+        "forum": {
+            "block_default_name": "Latest Discussions"
+        }
+    }
+}
