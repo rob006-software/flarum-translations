@@ -310,6 +310,9 @@ return [
 	'datlechin-link-preview' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-link-preview/v1.0.0/locale/en.yml',
 	],
+	'datlechin-more-discussions' => [
+		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-more-discussions/v0.1.0/locale/en.yml',
+	],
 	'datlechin-offline-indicator' => [
 		'tag' => 'https://raw.githubusercontent.com/datlechin/flarum-offline-indicator/v0.1.0/locale/en.yml',
 	],
