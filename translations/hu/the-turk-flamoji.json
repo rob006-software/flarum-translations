@@ -40,58 +40,58 @@
             "custom_emojis_section": {
                 "heading_title": "Egyéni emodzsik",
                 "import_json_button": "JSON importálása",
-                "export_json_button": "",
-                "import_emojis_message": "",
+                "export_json_button": "JSON exportálása",
+                "import_emojis_message": "Ez csak az emodzsik konfigurációját importálja. A képeket kézzel kell feltöltenie.",
                 "edit_emoji": {
-                    "modal_title": "",
-                    "emoji_title_label": "",
-                    "delete_emoji_confirmation": "",
-                    "text_to_replace_label": "",
-                    "path_or_url_label": "",
-                    "submit_button": "",
-                    "delete_emoji_button": "",
-                    "saved_message": ""
+                    "modal_title": "Emodzsi hozzáadása",
+                    "emoji_title_label": "Emodzsi címe",
+                    "delete_emoji_confirmation": "Valóban törli ezt az emodzsit?",
+                    "text_to_replace_label": "Lecserélendő szöveg",
+                    "path_or_url_label": "Útvonal vagy webcím",
+                    "submit_button": "=> core.ref.save_changes",
+                    "delete_emoji_button": "Emodzsi törlése",
+                    "saved_message": "=> core.admin.settings.saved_message"
                 },
                 "emoji_list": {
-                    "load_more_button": ""
+                    "load_more_button": "=> core.forum.post_stream.load_more_button"
                 }
             }
         },
         "forum": {
             "composer": {
-                "emoji_tooltip": ""
+                "emoji_tooltip": "Emodzsi beszúrása"
             },
             "emoji-button": {
-                "search_placeholder": "",
-                "no_emojis_found_message": "",
+                "search_placeholder": "Emodzsik keresése",
+                "no_emojis_found_message": "Nem találhatók emodzsik",
                 "categories": {
-                    "recents": "",
-                    "smileys": "",
-                    "people": "",
-                    "animals": "",
-                    "food": "",
-                    "travel": "",
-                    "activities": "",
-                    "objects": "",
-                    "symbols": "",
-                    "flags": "",
-                    "custom": ""
+                    "recents": "=> the-turk-flamoji.ref.emoji_categories.recents",
+                    "smileys": "=> the-turk-flamoji.ref.emoji_categories.smileys",
+                    "people": "=> the-turk-flamoji.ref.emoji_categories.people",
+                    "animals": "=> the-turk-flamoji.ref.emoji_categories.animals",
+                    "food": "=> the-turk-flamoji.ref.emoji_categories.food",
+                    "travel": "=> the-turk-flamoji.ref.emoji_categories.travel",
+                    "activities": "=> the-turk-flamoji.ref.emoji_categories.activities",
+                    "objects": "=> the-turk-flamoji.ref.emoji_categories.objects",
+                    "symbols": "=> the-turk-flamoji.ref.emoji_categories.symbols",
+                    "flags": "=> the-turk-flamoji.ref.emoji_categories.flags",
+                    "custom": "=> the-turk-flamoji.ref.emoji_categories.custom"
                 }
             }
         },
         "ref": {
             "emoji_categories": {
-                "recents": "",
-                "smileys": "",
-                "people": "",
-                "animals": "",
-                "food": "",
-                "travel": "",
-                "activities": "",
-                "objects": "",
-                "symbols": "",
-                "flags": "",
-                "custom": ""
+                "recents": "Nemrég használt emodzsik",
+                "smileys": "Mosolyok és érzelem",
+                "people": "Emberek és test",
+                "animals": "Állatok és természet",
+                "food": "Étel és ital",
+                "travel": "Utazás és helyek",
+                "activities": "Tevékenységek",
+                "objects": "Tárgyak",
+                "symbols": "Szimbólumok",
+                "flags": "Zászlók",
+                "custom": "Egyéni"
             }
         }
     }
