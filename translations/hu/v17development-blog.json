@@ -3,17 +3,17 @@
         "admin": {
             "blog": "Blog",
             "permissions": {
-                "write_articles": "Blog cikkek írása és szerkesztése",
+                "write_articles": "Blogcikkek írása és szerkesztése",
                 "auto_approve_posts": "Cikkek mentése jóváhagyás nélkül",
-                "approve_posts": "Jóváhagyhatja a blog cikkeket"
+                "approve_posts": "Jóváhagyhatja a blogcikkeket"
             },
             "settings": {
                 "no_categories_selected": "Nincs kategória kiválasztva",
                 "selected_category_count": "# kategória kiválasztva",
-                "select_categories_button": "Válasszon blog kategóriát",
+                "select_categories_button": "Válasszon blogkategóriát",
                 "blog_heading": "Blog",
                 "featured_count_label": "Kiemelt bejegyzések legnagyobb száma",
-                "featured_count_text": "Hány bejegyzés jelenjen meg a blog oldal tetején található nagy rácsban?",
+                "featured_count_text": "Hány bejegyzés jelenjen meg a blogoldal tetején található nagy rácsban?",
                 "allow_comments_label": "Hozzászólások engedélyezése",
                 "allow_comments_text": "Alapértelmezetten hozzá lehet szólni a cikkekhez. Ha ki van kapcsolva, akkor cikkenként lehet beállítani hogy hozzá lehet-e szólni. <b>Megjegyzés:</b> A jelen beállítások nem módosítják a már létező cikkeket.",
                 "require_review_label": "A blogbejegyzésekhez jóváhagyás szükséges",
@@ -24,7 +24,7 @@
                 "add_sidebar_nav_text": "Bloghivatkozás megjelenítése az oldalsó menüben.",
                 "categories_heading": "Kategóriák",
                 "hide_tags_in_taglist_label": "Címkék elrejtése a címkelistából",
-                "hide_tags_in_taglist_text": "Ha be van kapcsolva, a blog címkék rejtve lesznek a fórumban.",
+                "hide_tags_in_taglist_text": "Ha be van kapcsolva, a blogcímkék rejtve lesznek a fórumban.",
                 "show_tag_hierarchy_label": "Címkehierarchia megjelenítése",
                 "show_tag_hierarchy_text": "Behúzás hozzáadása az alkategóriákhoz, és hierarchia adása a kategórialistához.",
                 "redirects_heading": "Átirányítások",
@@ -41,8 +41,8 @@
         "forum": {
             "blog": "Blog",
             "read_more": "Tovább",
-            "hidden": "Elrejtve",
-            "recent_posts": "Friss cikkek",
+            "hidden": "Rejtett",
+            "recent_posts": "Friss blogbejegyzések",
             "categories": "Kategóriák",
             "forum_nav": "Fórumnavigáció",
             "return_to_overview": "Vissza a blogösszefoglalóhoz ",
