@@ -2,22 +2,22 @@
     "imgur-upload": {
         "admin": {
             "settings": {
-                "hide-markdown-image": "",
-                "allow-paste": "",
+                "hide-markdown-image": "Скрыть кнопку изображения Markdown",
+                "allow-paste": "Разрешить загрузку, вставив изображение",
                 "embed-type": {
-                    "title": "",
-                    "preview-with-link": "",
-                    "preview-without-link": "",
-                    "full-with-link": "",
-                    "full-without-link": ""
+                    "title": "Встроенный тип",
+                    "preview-with-link": "Превью (1024px) со ссылкой на полноразмерное изображение",
+                    "preview-without-link": "Превью без ссылки",
+                    "full-with-link": "Полноразмерное изображение со ссылкой",
+                    "full-without-link": "Полноразмерное изображение без ссылки"
                 }
             }
         },
         "forum": {
-            "upload": "",
-            "loading": "",
-            "done": "",
-            "error": ""
+            "upload": "Нажмите для загрузки на Imgur",
+            "loading": "Загрузка...",
+            "done": "Готово!",
+            "error": "Ошибка"
         }
     }
 }
