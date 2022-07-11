@@ -564,7 +564,7 @@ return [
 	],
 	'fof-sitemap' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sitemap/1.0.3/resources/locale/en.yml',
-		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sitemap/2.0.0-beta.1/resources/locale/en.yml',
+		'beta' => 'https://raw.githubusercontent.com/FriendsOfFlarum/sitemap/2.0.0-beta.2/resources/locale/en.yml',
 	],
 	'fof-socialprofile' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/socialprofile/1.1.4/resources/locale/en.yml',
