@@ -146,7 +146,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-author-change/1.0.2/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-bookmarks' => [
-		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-bookmarks/1.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-bookmarks/1.1.0/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-carving-contest' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-carving-contest/1.0.0/resources/locale/en.yml',
