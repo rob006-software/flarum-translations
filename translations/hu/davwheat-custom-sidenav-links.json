@@ -35,40 +35,40 @@
                             },
                             "placeholders": {
                                 "icon": "fas fa-link",
-                                "text": "",
-                                "url": ""
+                                "text": "Az én weboldalam",
+                                "url": "https://flarum.org"
                             },
                             "tooltips": {
-                                "move_up": "",
-                                "move_down": "",
-                                "icon_preview": ""
+                                "move_up": "Fentebb helyezés",
+                                "move_down": "Lentebb helyezés",
+                                "icon_preview": "Ikon előnézete"
                             }
                         },
                         "save_btn": {
-                            "dirty": "",
-                            "saving": "",
-                            "saved": "",
-                            "fix_errors": ""
+                            "dirty": "Beállítások mentése",
+                            "saving": "Változtatások mentése…",
+                            "saved": "Nincsenek mentendő változtatások",
+                            "fix_errors": "A mentés előtt javítsa a hibákat"
                         }
                     },
                     "new_link_modal": {
-                        "title": "",
+                        "title": "Új hivatkozás hozzáadása",
                         "submit_btn": {
-                            "add": "",
-                            "loading": "",
-                            "fix_url": "",
-                            "invalid_form": ""
+                            "add": "Hivatkozás hozzáadása",
+                            "loading": "Hivatkozás hozzáadása",
+                            "fix_url": "Érvénytelen webcím",
+                            "invalid_form": "Töltse ki az összes mezőt"
                         },
                         "labels": {
-                            "icon": "",
-                            "text": "",
-                            "url": "",
-                            "internal": ""
+                            "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.icon",
+                            "text": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.text",
+                            "url": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.url",
+                            "internal": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.internal"
                         },
                         "placeholders": {
-                            "icon": "",
-                            "text": "",
-                            "url": ""
+                            "icon": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.icon",
+                            "text": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.text",
+                            "url": "=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.url"
                         }
                     }
                 }
