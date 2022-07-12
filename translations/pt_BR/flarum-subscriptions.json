@@ -32,13 +32,13 @@
                 "not_following_button": "Não Seguindo",
                 "not_following_text": "Seja notificado apenas quando @mencionado.",
                 "notify_alert_tooltip": "Receber uma notificação no fórum quando houver novos posts",
-                "notify_email_tooltip": "Receber um email quando houver novos posts"
+                "notify_email_tooltip": "Receber um e-mail quando houver novos posts"
             }
         },
         "email": {
             "new_post": {
-                "subject": "",
-                "body": ""
+                "subject": "[Novo Post] {title}",
+                "body": "Olá, {recipient_display_name}!\n\n{poster_display_name} fez uma postagem em uma discussão que você está seguindo: {title}.\n\nPara visualizar acesse o link a seguir:\n{url}\n\n---\n\n{content}\n\n---\n\nVocê não receberá mais notificações sobre esta discussão até que esteja atualizado.\n"
             }
         },
         "ref": {
