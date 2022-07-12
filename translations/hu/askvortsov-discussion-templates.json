@@ -2,32 +2,32 @@
     "askvortsov-discussion-templates": {
         "admin": {
             "permissions": {
-                "manage_own_discussion_reply_templates": "",
-                "manage_all_reply_templates": ""
+                "manage_own_discussion_reply_templates": "A témáikra vonatkozó válaszsablonok kezelése",
+                "manage_all_reply_templates": "Az összes témára vonatkozó válaszsablonok kezelése"
             },
             "settings": {
-                "no_tag_template": "",
-                "append_template_on_tag_change": "",
-                "append_template_on_tag_change_help": ""
+                "no_tag_template": "Alapértelmezett sablon (akkor használatos, ha a téma címkék nélkül indult):",
+                "append_template_on_tag_change": "Sablon hozzáfűzése címkeváltozáskor?",
+                "append_template_on_tag_change_help": "Ha a címkék megváltoznak, akkor az új címke sablonja hozzáfűzésre kerüljön még akkor is, ha a felhasználó elkezdett írni? A beállítástól függetlenül, ha a címkék megváltoznak, és a felhasználó nem módosított semmit, akkor a sablon ki lesz cserélve."
             },
             "tags": {
-                "tag_template_heading": "",
-                "tag_template_text": "",
-                "tag_template_button": ""
+                "tag_template_heading": "Témasablon",
+                "tag_template_text": "A címke új témaira vonatkozó sablon kezelése.",
+                "tag_template_button": "Sablon szerkesztése"
             },
             "tag_template_modal": {
-                "title": "",
-                "customize_text": "",
-                "submit_button": ""
+                "title": "Témasablon",
+                "customize_text": "A címke új témaira vonatkozó sablon kezelése.",
+                "submit_button": "Sablon mentése"
             }
         },
         "forum": {
             "discussion_controls": {
-                "reply_template_button": ""
+                "reply_template_button": "Válaszsablon szerkesztése"
             },
             "reply_template": {
-                "title": "",
-                "submit_button": ""
+                "title": "Válaszsablon szerkesztése",
+                "submit_button": "Válaszsablon mentése"
             }
         }
     }
