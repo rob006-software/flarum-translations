@@ -2,21 +2,21 @@
     "askvortsov-article-series": {
         "admin": {
             "edit_tags": {
-                "is_article_series": ""
+                "is_article_series": "Ez a cikk egy sorozat?"
             }
         },
         "forum": {
             "article_list": {
-                "title": ""
+                "title": "{series} cikksorozat"
             },
             "article_series_modal": {
-                "title": "",
-                "tag_id_label": "",
-                "order_label": "",
-                "submit_button": ""
+                "title": "Cikksorozat beállításai",
+                "tag_id_label": "Cikksorozat címkéje",
+                "order_label": "Sorrendindex (növekvő rendezés)",
+                "submit_button": "Elküldés"
             },
             "discussion_controls": {
-                "article_series_button": ""
+                "article_series_button": "Cikksorozat beállításai"
             }
         }
     }
