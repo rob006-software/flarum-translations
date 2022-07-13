@@ -17,8 +17,8 @@
                 "mode_help_multi": "Nagyobb fórumokhoz, 50 000 elemtől kezdődően. Több elemből álló, tömörített oldaltérképfájlok lesznek előállítva, és a /public mappában lesznek tárolva.",
                 "advanced_options_label": "Speciális beállítások",
                 "frequency_label": "Milyen gyakran építse újra az ütemező a gyorsítótár- vagy a lemezalapú oldaltérképet?",
-                "risky_performance_improvements": "",
-                "risky_performance_improvements_help": "",
+                "risky_performance_improvements": "Kockázatos teljesítménybeli fejlesztések engedélyezése",
+                "risky_performance_improvements_help": "Ezek a fejlesztések gyorsabbá teszik a CRON feladat futtatását a millió soros adatkészletek esetén, de elronthatják a kompatibilitást bizonyos bővítményekkel.",
                 "modes": {
                     "runtime": "Futásidejű",
                     "cache": "Gyorsítótár-alapú",
