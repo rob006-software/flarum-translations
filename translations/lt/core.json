@@ -505,14 +505,14 @@
             },
             "error": {
                 "dependent_extensions_message": "Įskiepio {extension} išjungimas yra negalimas kol įskiepiai yra išjungti: {extensions}",
+                "extension_initialiation_failed_message": "Nepavyko inicijuoti {extension}. Daugiau informacijos ieškokite naršyklės konsolėje.",
                 "generic_message": "Oops! Kažkas įvyko ne taip. Perkraukite puslapį iš naujo ir bandykite dar kartą.",
                 "missing_dependencies_message": "Įskiepio {extension} įjungimas yra negalimas kol įskiepiai yra įjungti: {extensions}",
                 "not_found_message": "Prašomas šaltinis nerastas.",
                 "payload_too_large_message": "Naudingasis užklausos kiekis buvo per didelis.",
                 "permission_denied_message": "Šiam veiksmui atlikti neturite leidimo.",
                 "rate_limit_exceeded_message": "Jūs šiek tiek per greitas. Bandykite dar kartą po kelių sekundžių.",
-                "render_failed_message": "Atsiprašome, bandant parodyti šį turinį įvyko klaida. Jei esate vartotojas, bandykite dar kartą vėliau. Jei esate administratorius, daugiau informacijos ieškokite savo Flarum klaidų žurnalo failuose.",
-                "extension_initialiation_failed_message": "Nepavyko inicijuoti {extension}. Daugiau informacijos ieškokite naršyklės konsolėje."
+                "render_failed_message": "Atsiprašome, bandant parodyti šį turinį įvyko klaida. Jei esate vartotojas, bandykite dar kartą vėliau. Jei esate administratorius, daugiau informacijos ieškokite savo Flarum klaidų žurnalo failuose."
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"

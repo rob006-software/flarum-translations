@@ -482,14 +482,14 @@
             },
             "error": {
                 "dependent_extensions_message": "Cannot disable {extension} until the following dependent extensions are disabled: {extensions}",
+                "extension_initialiation_failed_message": "{extension} failed to initialize, check the browser console for further information.",
                 "generic_message": "Oops! Something went wrong. Please reload the page and try again.",
                 "missing_dependencies_message": "Cannot enable {extension} until the following dependencies are enabled: {extensions}",
                 "not_found_message": "The requested resource was not found.",
                 "payload_too_large_message": "The request payload was too large.",
                 "permission_denied_message": "You do not have permission to do that.",
                 "rate_limit_exceeded_message": "You're going a little too quickly. Please try again in a few seconds.",
-                "render_failed_message": "Sorry, we encountered an error while displaying this content. If you're a user, please try again later. If you're an administrator, take a look in your Flarum log files for more information.",
-                "extension_initialiation_failed_message": "{extension} failed to initialize, check the browser console for further information."
+                "render_failed_message": "Sorry, we encountered an error while displaying this content. If you're a user, please try again later. If you're an administrator, take a look in your Flarum log files for more information."
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"

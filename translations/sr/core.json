@@ -485,14 +485,14 @@
             },
             "error": {
                 "dependent_extensions_message": "Ne možete onemogućiti {extension} dok se ne onemoguće sledeće zavisne ekstenzije: {extensions}",
+                "extension_initialiation_failed_message": "",
                 "generic_message": "Ups! Nešto je krenulo naopako. Ponovo učitajte stranicu i pokušajte ponovo.",
                 "missing_dependencies_message": "Ne možete omogućiti {extension} dok se ne omogući sledeće: {extensions}",
                 "not_found_message": "Traženi resurs nije pronađen.",
                 "payload_too_large_message": "Zahtev je prevelik.",
                 "permission_denied_message": "Nemate dozvolu za to.",
                 "rate_limit_exceeded_message": "Prebrzi ste. Pokušajte ponovo za nekoliko sekundi.",
-                "render_failed_message": "Žao nam je, naišli smo na grešku pri prikazivanju ovog sadržaja. Ako ste korisnik, pokušajte ponovo kasnije. Ako ste administrator, pogledajte svoje Flarum datoteke za evidencije za više informacija.",
-                "extension_initialiation_failed_message": ""
+                "render_failed_message": "Žao nam je, naišli smo na grešku pri prikazivanju ovog sadržaja. Ako ste korisnik, pokušajte ponovo kasnije. Ako ste administrator, pogledajte svoje Flarum datoteke za evidencije za više informacija."
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"

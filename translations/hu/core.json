@@ -530,14 +530,14 @@
             },
             "error": {
                 "dependent_extensions_message": "Nem tilthatja le a(z) {extension} bővítményt, amíg a következő bővítmények engedélyezettek: {extensions}",
+                "extension_initialiation_failed_message": "A(z) {extension} előkészítése sikertelen, további információkért nézze meg a böngészőkonzolt.",
                 "generic_message": "Hoppá! Valami hiba történt. Frissítse az oldalt és próbálja meg újra.",
                 "missing_dependencies_message": "Nem engedélyezheti a(z) {extension} bővítményt, amíg a következő bővítmények le vannak tiltva: {extensions}",
                 "not_found_message": "A kért erőforrás nem található.",
                 "payload_too_large_message": "A kérés mérete túl nagy volt.",
                 "permission_denied_message": "Nem rendelkezik a megfelelő engedélyekkel.",
                 "rate_limit_exceeded_message": "Túl gyors volt. Próbálja meg újra pár másodperc múlva.",
-                "render_failed_message": "Sajnáljuk, hiba történt a tartalom megjelenítése során. Ha Ön felhasználó, akkor próbálja újra később. Ha rendszergazda, akkor további információkért nézze meg a Flarum naplófájljait.",
-                "extension_initialiation_failed_message": "A(z) {extension} előkészítése sikertelen, további információkért nézze meg a böngészőkonzolt."
+                "render_failed_message": "Sajnáljuk, hiba történt a tartalom megjelenítése során. Ha Ön felhasználó, akkor próbálja újra később. Ha rendszergazda, akkor további információkért nézze meg a Flarum naplófájljait."
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
