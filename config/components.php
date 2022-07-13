@@ -419,7 +419,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/flarum/suspend/v1.4.0/locale/en.yml',
 	],
 	'flarum-tags' => [
-		'tag' => 'https://raw.githubusercontent.com/flarum/tags/v1.3.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/flarum/tags/v1.4.0/locale/en.yml',
 	],
 	'flarumite-simple-discussion-views' => [
 		'tag' => 'https://raw.githubusercontent.com/flarumite/simple-discussion-views/1.1.5/resources/locale/en.yml',
