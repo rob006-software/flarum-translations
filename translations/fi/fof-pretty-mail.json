@@ -6,29 +6,29 @@
             },
             "settings": {
                 "attributes": {
-                    "body": "",
-                    "forumStyle": "",
-                    "url": "",
-                    "settings": "",
-                    "link": ""
+                    "body": "Sisältää sähköpostin sisällön",
+                    "forumStyle": "Sisältää <strong>koko foorumin CSS koodin</strong>",
+                    "url": "Flarumin <code>UrlGenerator</code>",
+                    "settings": "Sallii sinun vuorovaikuttaa SettingsRepositoryInterface kanssa",
+                    "link": "Sisältää linkin sähköpostissa"
                 },
-                "attributes_label": "",
-                "label": "",
-                "reset": "",
-                "confirm": "",
-                "default": "",
-                "newPost": "",
-                "userMentioned": "",
-                "postMentioned": "",
-                "notifications": "",
-                "notificationHelp": "",
-                "template_help": "",
+                "attributes_label": "Käytössä olevat atribuutit",
+                "label": "Sähköpostipohja",
+                "reset": "Palaute oletukseksi",
+                "confirm": "Haluatko varmasti palauttaa oletus sähköpostipohjan",
+                "default": "Oletuspohja",
+                "newPost": "Flarum/tilaukset Uuden viestin sähköposti",
+                "userMentioned": "Flarum/maininnat Käyttäjä mainittu sähköposti",
+                "postMentioned": "Flarum/maininnat Viesti mainittu sähköposti",
+                "notifications": "Ilmoituspohjat",
+                "notificationHelp": "On suositeltavaa käyttää \"$forumStyle\" näihin sähköposteihin sillä ne voivat sisältää BBCODEa. Näissä sähköposteissa on myös \"$user\" käytettävissä mikä sisältää koko käyttäjä mallin, jolla sähköpostia lähetetään.",
+                "template_help": "Katso jokaista pohjaa nähdäksesi atribuuttien käytön.",
                 "help": ""
             },
             "css_settings": {
-                "label": "",
-                "help": "",
-                "switch_label": ""
+                "label": "CSS asetukset",
+                "help": "Voit valita käyttöösi foorumin CSS koodin sisällyttämisen sähköpostin HTML koodiin. Jos otat tämän käyttöön voi sinulla olla ongelmia tiettyjen sähköpostin tarjoajien kanssa.",
+                "switch_label": "Sisällytä koko foorumin CSS"
             }
         }
     }
