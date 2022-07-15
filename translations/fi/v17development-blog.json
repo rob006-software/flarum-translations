@@ -1,121 +1,121 @@
 {
     "v17development-flarum-blog": {
         "admin": {
-            "blog": "",
+            "blog": "Blogi",
             "permissions": {
-                "write_articles": "",
-                "auto_approve_posts": "",
-                "approve_posts": ""
+                "write_articles": "Kirjoita ja muokkaa blogin artikkeleita",
+                "auto_approve_posts": "Julkaise artikkeleita ilman hyväksyntää",
+                "approve_posts": "Voi hyväksyä blogin artikkeleita"
             },
             "settings": {
-                "no_categories_selected": "",
-                "selected_category_count": "",
-                "select_categories_button": "",
-                "blog_heading": "",
-                "featured_count_label": "",
-                "featured_count_text": "",
-                "allow_comments_label": "",
-                "allow_comments_text": "",
-                "require_review_label": "",
-                "require_review_text": "",
-                "hide_on_discussion_list_label": "",
-                "hide_on_discussion_list_text": "",
-                "add_sidebar_nav_label": "",
-                "add_sidebar_nav_text": "",
-                "categories_heading": "",
-                "hide_tags_in_taglist_label": "",
-                "hide_tags_in_taglist_text": "",
-                "show_tag_hierarchy_label": "",
-                "show_tag_hierarchy_text": "",
-                "redirects_heading": "",
-                "redirect_articles_label": "",
-                "redirect_articles_text": "",
-                "redirect_tags_label": "",
-                "redirect_tags_text": "",
-                "default_article_image_label": "",
-                "default_article_image_text": "",
-                "add_hero_label": "",
-                "add_hero_text": ""
+                "no_categories_selected": "Ei kategorioita valittuna",
+                "selected_category_count": "{count, plural, one {Sinulla on # kategoria valittu} other {Sinulla on # kategoriaa valittuna}}",
+                "select_categories_button": "Valitse blogin kategoriat",
+                "blog_heading": "Blogi",
+                "featured_count_label": "Nostettujen artikkelien enimmäismäärä",
+                "featured_count_text": "Kuinka monta artikkelia näytetään isossa ruudukossa sivun yläreunassa?",
+                "allow_comments_label": "Salli kommentit",
+                "allow_comments_text": "Oletuksena salli kommentit artikkeleihin. Kun otettu pois käytöstä se voidaan ottaa käyttöön artikkeleittain. <b>Huomio:</b> Tämän muuttaminen ei vaikuta olemassa oleviin artikkeleihin.",
+                "require_review_label": "Hyväksyntää vaativat artikkelit",
+                "require_review_text": "Kun artikkeli julkaistaan se ei ole näkyvissä ennen kuin se on hyväksytty moderaattorin toimesta.",
+                "hide_on_discussion_list_label": "Älä näytä keskustelulistassa",
+                "hide_on_discussion_list_text": "Piilota artikkelit keskustelulistasta.",
+                "add_sidebar_nav_label": "Lisää sivupalkin valikkoon",
+                "add_sidebar_nav_text": "Sisällytä linkki blogiin sivupalkin valikkoon.",
+                "categories_heading": "Kategoriat",
+                "hide_tags_in_taglist_label": "Piilota avainsanat avainsanalistassa",
+                "hide_tags_in_taglist_text": "Kun käytössä tämä piilottaa blogin avainsanat etusivulta.",
+                "show_tag_hierarchy_label": "Näytä avainsanojen hierarkia",
+                "show_tag_hierarchy_text": "Lisää väliä alakategorioihin ja antaa kategorialistalle hierarkian.",
+                "redirects_heading": "Ohjaukset",
+                "redirect_articles_label": "Ohjaa blogin artikkeleita",
+                "redirect_articles_text": "Kun käytössä lisäosa ohjaa alkuperäisen keskustelun osoitteen blogin osoitteeseen.",
+                "redirect_tags_label": "Ohjaa blogin avainsanoihin",
+                "redirect_tags_text": "Kun käytössä lisäosa ohjaa blogin avainsanan osoitteet blogin kategorian osoitteisiin.",
+                "default_article_image_label": "Oletus artikkelikuva",
+                "default_article_image_text": "Valitse oletuksena näytettävä artikkelikuva, kun kuvaa ei ole asetettu artikkeliin.",
+                "add_hero_label": "Näytä tervetuloa banneri",
+                "add_hero_text": "Näytä tervetuloa banneri blogin sivuilla jos sitä ei ole jo suljettu."
             }
         },
         "forum": {
-            "blog": "",
-            "read_more": "",
-            "hidden": "",
-            "recent_posts": "",
-            "categories": "",
-            "forum_nav": "",
-            "return_to_overview": "",
-            "no_more_posts": "",
-            "category_empty": "",
+            "blog": "Blogi",
+            "read_more": "Lue lisää",
+            "hidden": "Piilotettu",
+            "recent_posts": "Viimeisimmät artikkelit",
+            "categories": "Kategoriat",
+            "forum_nav": "Foorumin valikko",
+            "return_to_overview": "Takaisin blogiin ",
+            "no_more_posts": "Ei enää artikkeleita.",
+            "category_empty": "Tässä kategoriassa ei ole artikkeleita.",
             "compose": {
-                "write_article": ""
+                "write_article": "Kirjoita artikkeli"
             },
             "validation": {
-                "missing_id": ""
+                "missing_id": "Puuttuva ID"
             },
             "article": {
-                "title": "",
-                "slug": "",
-                "summary": ""
+                "title": "Otsikko",
+                "slug": "Tunniste",
+                "summary": "Yhteenveto"
             },
             "comment_section": {
-                "comments": "",
-                "locked": ""
+                "comments": "Kommentit",
+                "locked": "Artikkelin kommentointi on pois käytöstä"
             },
             "review_article": {
-                "pending_review_title": "",
-                "pending_review": "",
-                "approve_article": "",
-                "approve_article_approved": ""
+                "pending_review_title": "Odottaa hyväksyntää",
+                "pending_review": "Artikkeli odottaa hyväksyntää ja sitä ei ole vielä julkaistu",
+                "approve_article": "Hyväksy artikkeli",
+                "approve_article_approved": "Artikkeli on hyväksytty ja julkaistu"
             },
             "tools": {
-                "rename_article": "",
-                "edit_article": "",
-                "update_category": "",
-                "article_settings": "",
-                "approve_article": "",
-                "hide_article": "",
-                "recover_article": "",
-                "delete_forever": "",
-                "enable_comments": "",
-                "disable_comments": ""
+                "rename_article": "Uudelleennimeä artikkeli",
+                "edit_article": "Muokkaa artikkelia",
+                "update_category": "Päivitä kategoriat",
+                "article_settings": "Artikkelin asetukset",
+                "approve_article": "Hyväksy artikkeli",
+                "hide_article": "Piilota artikkeli",
+                "recover_article": "Palauta artikkeli",
+                "delete_forever": "Poista pysyvästi",
+                "enable_comments": "Ota kommentit käyttöön",
+                "disable_comments": "Poista kommentit käytöstä"
             },
             "utils": {
                 "redirect": {
-                    "title": "",
-                    "link": ""
+                    "title": "Ohjataan blogi artikkeliin...",
+                    "link": "<a>Klikkaa tästä</a> jos sivu ei ohjaa sinua automaattisesti"
                 }
             },
             "composer": {
-                "no_title": "",
-                "enter_message_here": "",
-                "post_article": "",
-                "select_category": "",
-                "edit_categories": "",
-                "update_settings": "",
-                "write": "",
-                "view": "",
-                "nothing_to_preview": "",
-                "comment_section": "",
-                "no_blog_tags_selected": "",
-                "post_without_blog_info": ""
+                "no_title": "Ei otsikkoa",
+                "enter_message_here": "Kirjoita viestisi tähän",
+                "post_article": "Kirjoita artikkeli",
+                "select_category": "Valitse kategoria",
+                "edit_categories": "Muokkaa kategorioita",
+                "update_settings": "Päivitä blogin asetukset",
+                "write": "Kirjoita",
+                "view": "Näytä",
+                "nothing_to_preview": "Ei esikatseltavaa",
+                "comment_section": "Kommentointi ei ole käytössä, kun artikkelia kirjoitetaan.",
+                "no_blog_tags_selected": "Mikään valituista avainsanoista ei ole blogin avainsana. Valitse vähintään yksi.",
+                "post_without_blog_info": "Haluatko varmasti julkaista tämän artikkelin? Et syöttänyt yhteenvetoa tai kuvaa."
             },
             "article_settings": {
-                "title": "",
+                "title": "Artikkelin asetukset",
                 "fields": {
                     "summary": {
-                        "title": "",
-                        "placeholder": "",
-                        "helper_text": ""
+                        "title": "Artikkelin yhteenveto",
+                        "placeholder": "Kirjoita yhteenveto tähän",
+                        "helper_text": "Tämä yhteenveto on näkyvillä blogin sivulla ja sitä käytetään SEO tarkoituksiin."
                     },
                     "image": {
-                        "title": "",
-                        "helper_text": ""
+                        "title": "Artikkelikuva",
+                        "helper_text": "Paras kuvan resoluutio somea varten: 1200x630"
                     },
                     "highlight": {
-                        "title": "",
-                        "helper_text": ""
+                        "title": "Nostettu artikkeli",
+                        "helper_text": "Näytä artikkeli isona kuvana blogin sivulla."
                     }
                 }
             }
