@@ -2,35 +2,35 @@
     "fof-sitemap": {
         "admin": {
             "settings": {
-                "exclude_users": "",
-                "exclude_users_help": "",
-                "mode_label": "",
-                "mode_help": "",
-                "mode_help_runtime_label": "",
-                "mode_help_runtime": "",
-                "mode_help_schedule": "",
-                "mode_help_schedule_setup": "",
-                "mode_help_cache_disk_label": "",
-                "mode_help_cache_disk": "",
-                "mode_help_large": "",
-                "mode_help_multi_label": "",
-                "mode_help_multi": "",
-                "advanced_options_label": "",
-                "frequency_label": "",
-                "risky_performance_improvements": "",
-                "risky_performance_improvements_help": "",
+                "exclude_users": "Älä sisällytä käyttäjä profiileja sivukarttaan",
+                "exclude_users_help": "Oletuksena kaikki vieraille näkyvät käyttäjät indeksoidaan",
+                "mode_label": "Tila",
+                "mode_help": "Oikean tilan valinta foorumillesi on todella tärkeää.",
+                "mode_help_runtime_label": "Ajonaikainen tila",
+                "mode_help_runtime": "Soveltuu pienille foorumeille. Todennaköisesti jaetussa webhotellissa oleville joissa on keskusteluita, käyttäjiä, avainsanoja sekä sivuja alle 10 000. Sivukartta luodaan jokaisella sivunlatauksella.",
+                "mode_help_schedule": "Seuraavat tilat asettavat komentonsa Flarumin ajastettuihin ajoihin.",
+                "mode_help_schedule_setup": "Mikäli Flarumin ajastettuja tehtäviä ei ole asetettu oikein, nämä tilat eivät toimi. Täältä saat <a>lisää tietoa</a>.",
+                "mode_help_cache_disk_label": "Välimuisti/levy tila",
+                "mode_help_cache_disk": "Paras pienille tai keskisuurille foorumeille. Todennäköisesti webhotelleissa, jotka sallii ajastetut tehtävät ja Flarumin (alhaalla lisää) ja jossa on keskusteluita, käyttäjiä, avainsanoja sekä sivuja alle 50 000.",
+                "mode_help_large": "50 000 on tekninen rajoitus sivukartta tiedostoille. Jos sinulla on enemmän tavaraa käytä seuraavaa asetusta!",
+                "mode_help_multi_label": "Monitiedosto tila",
+                "mode_help_multi": "Paras suurille foorumeille alkaen 50 000:sta. Moniosaiset, pakatut sivukartta tiedostot luodaan ja tallennetaan /public kansioon",
+                "advanced_options_label": "Lisäasetukset",
+                "frequency_label": "Kuinka usein ajatus uudelleen rakentaa välimuistin tai luo sivukartan?",
+                "risky_performance_improvements": "Ota käyttöön kokeelliset suorityskyky parannukset",
+                "risky_performance_improvements_help": "Nämä parannukset tekevät CRON tehtävän nopeammaksi miljonaa rivisissä tietopaketeissa, mutta voivat rikkoa yhteensopivuutta lisäosien kanssa.",
                 "modes": {
-                    "runtime": "",
-                    "cache": "",
-                    "cache_disk": "",
-                    "multi_file": ""
+                    "runtime": "Ajonaikainen",
+                    "cache": "Välimuisti",
+                    "cache_disk": "Levy",
+                    "multi_file": "Monitiedosto"
                 },
                 "frequency": {
-                    "hourly": "",
-                    "twice_daily": "",
-                    "daily": ""
+                    "hourly": "Tunneittain",
+                    "twice_daily": "Kahdesti päivässä",
+                    "daily": "Päivittäin"
                 },
-                "title": ""
+                "title": "FoF Sivukartta"
             }
         }
     }
