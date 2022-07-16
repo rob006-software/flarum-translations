@@ -2,24 +2,24 @@
     "datlechin-more-discussions": {
         "admin": {
             "settings": {
-                "block_name_label": "",
-                "block_name_help": "",
-                "discussion_limit_label": "",
-                "discussion_limit_help": "",
-                "filter_by_label": "",
-                "filter_by_help": "",
+                "block_name_label": "Nazwa widżetu",
+                "block_name_help": "Nazwa widżetu (domyślnie <code>Ostatnie dyskusje</code>)",
+                "discussion_limit_label": "Limit dyskusji",
+                "discussion_limit_help": "Liczba dyskusji do wyświetlenia (domyślnie <code>5</code>)",
+                "filter_by_label": "Sortowanie",
+                "filter_by_help": "Kolejność dyskusji w widżecie (domyślnie: <code>Ostatnio aktywne</code>)",
                 "filter_dropdown": {
-                    "latest": "",
-                    "top": "",
-                    "newest": "",
-                    "oldest": "",
-                    "hot": "",
-                    "votes": ""
+                    "latest": "Ostatnio aktywne",
+                    "top": "Najbardziej aktywne",
+                    "newest": "Najnowsze dyskusje",
+                    "oldest": "Najstarsze dyskusje",
+                    "hot": "Popularne (wymaga fof/gamification)",
+                    "votes": "Lubiane (wymaga fof/gamification)"
                 }
             }
         },
         "forum": {
-            "block_default_name": ""
+            "block_default_name": "Ostatnie dyskusje"
         }
     }
 }
