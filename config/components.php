@@ -938,9 +938,6 @@ return [
 	'ramesh-dada-realtime' => [
 		'tag' => 'https://raw.githubusercontent.com/ramesh-dada/realtime/100.1/resources/locale/en.yml',
 	],
-	'reflar-recache' => [
-		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/reflar-recache.yml',
-	],
 	'serakoi-flarumstaffbadge' => [
 		'tag' => 'https://raw.githubusercontent.com/Serakoi/flarumstaffbadge/1.2.1/resources/locale/en.yml',
 	],
