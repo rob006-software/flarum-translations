@@ -61,6 +61,9 @@ return [
 	'archlinux-de-click-image' => [
 		'tag' => 'https://raw.githubusercontent.com/archlinux-de/flarum-click-image/1.0.0/locale/en.yml',
 	],
+	'arthurydalgo-users-list' => [
+		'tag' => 'https://raw.githubusercontent.com/ArthurYdalgo/users-list/1.0/resources/locale/en.yml',
+	],
 	'askvortsov-article-series' => [
 		'tag' => 'https://raw.githubusercontent.com/askvortsov1/flarum-article-series/v0.1.2/locale/en.yml',
 	],
