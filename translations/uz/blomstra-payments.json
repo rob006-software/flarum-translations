@@ -1,6 +1,17 @@
 {
     "blomstra-payments": {
         "forum": {
+            "stripe": {
+                "interval_once": ""
+            },
+            "subscription-card": {
+                "ptv": "",
+                "pta": "",
+                "ptb": "",
+                "ptp": "",
+                "cancel-control": "",
+                "none": ""
+            },
             "pay-to-view": {
                 "purchase-control": "Koʻrish uchun toʻlash",
                 "purchase-log-in": "Tizimga kiring va koʻrish uchun toʻlang",
@@ -26,10 +37,12 @@
             },
             "access-portal": {
                 "options": "variantlar",
-                "purchase": "sotib olish"
+                "purchase": "sotib olish",
+                "subscribed": ""
             },
             "nav": {
-                "access_portal": "Portalga kirish"
+                "access_portal": "Portalga kirish",
+                "user_subscriptions": ""
             }
         },
         "admin": {

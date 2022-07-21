@@ -1,6 +1,17 @@
 {
     "blomstra-payments": {
         "forum": {
+            "stripe": {
+                "interval_once": ""
+            },
+            "subscription-card": {
+                "ptv": "",
+                "pta": "",
+                "ptb": "",
+                "ptp": "",
+                "cancel-control": "",
+                "none": ""
+            },
             "pay-to-view": {
                 "purchase-control": "Görüntülemek için Ödeme Yapın",
                 "purchase-log-in": "Giriş Yap ve Görüntülemek için Ödeme Yap",
@@ -26,10 +37,12 @@
             },
             "access-portal": {
                 "options": "ayarlar",
-                "purchase": "satın al"
+                "purchase": "satın al",
+                "subscribed": ""
             },
             "nav": {
-                "access_portal": "Erişim portalı"
+                "access_portal": "Erişim portalı",
+                "user_subscriptions": ""
             }
         },
         "admin": {

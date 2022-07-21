@@ -1,6 +1,17 @@
 {
     "blomstra-payments": {
         "forum": {
+            "stripe": {
+                "interval_once": ""
+            },
+            "subscription-card": {
+                "ptv": "",
+                "pta": "",
+                "ptb": "",
+                "ptp": "",
+                "cancel-control": "",
+                "none": ""
+            },
             "pay-to-view": {
                 "purchase-control": "Betaal om te Bekijken",
                 "purchase-log-in": "Log In & Betaal om te Bekijken",
@@ -26,10 +37,12 @@
             },
             "access-portal": {
                 "options": "opties",
-                "purchase": "schaf aan"
+                "purchase": "schaf aan",
+                "subscribed": ""
             },
             "nav": {
-                "access_portal": "Toegangsportaal"
+                "access_portal": "Toegangsportaal",
+                "user_subscriptions": ""
             }
         },
         "admin": {

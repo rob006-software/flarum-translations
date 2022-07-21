@@ -1,6 +1,17 @@
 {
     "blomstra-payments": {
         "forum": {
+            "stripe": {
+                "interval_once": "once"
+            },
+            "subscription-card": {
+                "ptv": "Paid to view",
+                "pta": "Paid to access",
+                "ptb": "Paid to bump",
+                "ptp": "Paid to publish",
+                "cancel-control": "Cancel",
+                "none": "No payments or active subscriptions"
+            },
             "pay-to-view": {
                 "purchase-control": "Pay to View",
                 "purchase-log-in": "Log In & Pay to View",
@@ -26,10 +37,12 @@
             },
             "access-portal": {
                 "options": "options",
-                "purchase": "purchase"
+                "purchase": "purchase",
+                "subscribed": "subscribed"
             },
             "nav": {
-                "access_portal": "Access portal"
+                "access_portal": "Access portal",
+                "user_subscriptions": "Subscriptions"
             }
         },
         "admin": {

@@ -1,6 +1,17 @@
 {
     "blomstra-payments": {
         "forum": {
+            "stripe": {
+                "interval_once": ""
+            },
+            "subscription-card": {
+                "ptv": "",
+                "pta": "",
+                "ptb": "",
+                "ptp": "",
+                "cancel-control": "",
+                "none": ""
+            },
             "pay-to-view": {
                 "purchase-control": "付费浏览",
                 "purchase-log-in": "登录并付费浏览",
@@ -26,10 +37,12 @@
             },
             "access-portal": {
                 "options": "选项",
-                "purchase": "付款"
+                "purchase": "付款",
+                "subscribed": ""
             },
             "nav": {
-                "access_portal": "访问门户"
+                "access_portal": "访问门户",
+                "user_subscriptions": ""
             }
         },
         "admin": {

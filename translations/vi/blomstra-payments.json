@@ -1,6 +1,17 @@
 {
     "blomstra-payments": {
         "forum": {
+            "stripe": {
+                "interval_once": ""
+            },
+            "subscription-card": {
+                "ptv": "",
+                "pta": "",
+                "ptb": "",
+                "ptp": "",
+                "cancel-control": "",
+                "none": ""
+            },
             "pay-to-view": {
                 "purchase-control": "Thanh toán để xem",
                 "purchase-log-in": "Đăng nhập & Thanh toán để xem",
@@ -26,10 +37,12 @@
             },
             "access-portal": {
                 "options": "tuỳ chọn",
-                "purchase": "mua"
+                "purchase": "mua",
+                "subscribed": ""
             },
             "nav": {
-                "access_portal": "Cổng truy cập"
+                "access_portal": "Cổng truy cập",
+                "user_subscriptions": ""
             }
         },
         "admin": {
