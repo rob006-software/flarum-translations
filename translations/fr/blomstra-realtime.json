@@ -2,7 +2,8 @@
     "blomstra-realtime": {
         "forum": {
             "push": {
-                "discussion-list-new-activity": "{count, plural, one {Afficher la discussion mise à jour} other {Afficher les # discussions mises à jour}}"
+                "discussion-list-new-activity": "{count, plural, one {Afficher la discussion mise à jour} other {Afficher les # discussions mises à jour}}",
+                "discussion-list-new-activity-with-auto-release": ""
             },
             "typing-indicator": {
                 "people-are-typing": "{number, plural, one {# personne rédige} other {# personnes rédigent}}",
@@ -12,6 +13,10 @@
         "admin": {
             "permission": {
                 "view-who-types": "Voir qui rédige"
+            },
+            "settings": {
+                "release-discussion-updates-interval": "",
+                "release-discussion-updates-interval-help": ""
             }
         }
     }

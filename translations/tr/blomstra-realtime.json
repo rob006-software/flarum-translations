@@ -2,7 +2,8 @@
     "blomstra-realtime": {
         "forum": {
             "push": {
-                "discussion-list-new-activity": "{count, plural, one {# güncellenmiş tartışmayı göster} other {# güncellenmiş tartışmayı göster}}"
+                "discussion-list-new-activity": "{count, plural, one {# güncellenmiş tartışmayı göster} other {# güncellenmiş tartışmayı göster}}",
+                "discussion-list-new-activity-with-auto-release": ""
             },
             "typing-indicator": {
                 "people-are-typing": "{number, plural, one {# kişi yazıyor} other {# kişi yazıyor}}",
@@ -12,6 +13,10 @@
         "admin": {
             "permission": {
                 "view-who-types": "Kimin yazdığını göster"
+            },
+            "settings": {
+                "release-discussion-updates-interval": "",
+                "release-discussion-updates-interval-help": ""
             }
         }
     }
