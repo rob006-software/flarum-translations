@@ -594,6 +594,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`itnt-uitab`](https://weblate.rob006.net/projects/flarum/itnt-uitab) | [`itnt/flarum-uitab`](https://github.com/Littlegolden/flarum-uitab) |
 | [`jslirola-login2seeplus`](https://weblate.rob006.net/projects/flarum/jslirola-login2seeplus) | [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus) |
 | [`justoverclock-auto-post-count-badge`](https://weblate.rob006.net/projects/flarum/justoverclock-auto-post-count-badge) | [`justoverclock/auto-post-count-badge`](https://github.com/justoverclockl/auto-post-count-badge) |
+| [`justoverclock-best-answer-badge`](https://weblate.rob006.net/projects/flarum/justoverclock-best-answer-badge) | [`justoverclock/best-answer-badge`](https://github.com/justoverclockl/best-answer-badge) |
 | [`justoverclock-broken-links-checker`](https://weblate.rob006.net/projects/flarum/justoverclock-broken-links-checker) | [`justoverclock/broken-links-checker`](https://github.com/justoverclockl/broken-links-checker) |
 | [`justoverclock-composer-autocomplete`](https://weblate.rob006.net/projects/flarum/justoverclock-composer-autocomplete) | [`justoverclock/composer-autocomplete`](https://github.com/justoverclockl/composer-autocomplete) |
 | [`justoverclock-country-flags`](https://weblate.rob006.net/projects/flarum/justoverclock-country-flags) | [`justoverclock/country-flags`](https://github.com/justoverclockl/country-flags) |
