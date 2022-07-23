@@ -653,6 +653,9 @@ return [
 	'justoverclock-auto-post-count-badge' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/auto-post-count-badge/0.1.9/locale/en.yml',
 	],
+	'justoverclock-best-answer-badge' => [
+		'tag' => 'https://raw.githubusercontent.com/justoverclockl/best-answer-badge/0.1.0/locale/en.yml',
+	],
 	'justoverclock-broken-links-checker' => [
 		'tag' => 'https://raw.githubusercontent.com/justoverclockl/broken-links-checker/0.1.2/locale/en.yml',
 	],
