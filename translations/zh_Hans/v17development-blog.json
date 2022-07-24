@@ -102,20 +102,20 @@
                 "post_without_blog_info": "确定要发布这篇文章吗？您还没有输入博客摘要或上传封面图。"
             },
             "article_settings": {
-                "title": "",
+                "title": "博客文章设置",
                 "fields": {
                     "summary": {
-                        "title": "",
-                        "placeholder": "",
-                        "helper_text": ""
+                        "title": "摘要",
+                        "placeholder": "请输入摘要",
+                        "helper_text": "摘要用于 SEO，以及博客主页的预览。"
                     },
                     "image": {
-                        "title": "",
-                        "helper_text": ""
+                        "title": "头图",
+                        "helper_text": "最佳分辨率 1200x630"
                     },
                     "highlight": {
-                        "title": "",
-                        "helper_text": ""
+                        "title": "大图",
+                        "helper_text": "使用大尺寸图片展示本文章。"
                     }
                 }
             }
