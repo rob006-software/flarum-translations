@@ -7,14 +7,28 @@
             },
             "settings": {
                 "badge_icon_label": "Icône de badge super épinglé",
-                "badge_icon_text": "=> core.ref.icon_text"
+                "badge_icon_text": "=> core.ref.icon_text",
+                "display_tag_sticky_label": "",
+                "display_tag_sticky_text": ""
             }
         },
         "forum": {
             "badge": {
                 "sticky_tooltip": "=> the-turk-stickiest.ref.sticky",
                 "super_sticky_tooltip": "=> the-turk-stickiest.ref.super_sticky",
-                "tag_sticky_tooltip": "=> the-turk-stickiest.ref.tag_sticky"
+                "tag_sticky_tooltip": "=> the-turk-stickiest.ref.tag_sticky",
+                "super_tag_sticky_tooltip": ""
+            },
+            "stickiest_modal": {
+                "title": "",
+                "sticky_label": "",
+                "sticky_text": "",
+                "super_sticky_label": "",
+                "super_sticky_text": "",
+                "tag_sticky_label": "",
+                "tag_sticky_text": "",
+                "tags_label": "",
+                "submit_button": ""
             },
             "discussion_controls": {
                 "sticky_button": "=> the-turk-stickiest.ref.sticky",
@@ -34,7 +48,8 @@
         "ref": {
             "sticky": "=> flarum-sticky.ref.sticky",
             "super_sticky": "Super épinglée",
-            "tag_sticky": "Étiquette épinglée"
+            "tag_sticky": "Étiquette épinglée",
+            "super_tag_sticky": ""
         }
     }
 }
