@@ -30,9 +30,36 @@
                 "whitelist": "Danh sách trắng URL",
                 "whitelistHelp": "Kiểm tra tài liệu để biết định dạng. Nếu một giá trị được đặt, tất cả các URL khác sẽ được coi là danh sách đen",
                 "imageEmbeds": "Rich Embeds cho Ảnh",
-                "imageEmbedsHelp": "Tính năng này truy xuất và hiển thị thông tin bổ sung về hình ảnh bên ngoài được chèn trong bài đăng bằng mã bbcode hoặc dấu xuống. Tại thời điểm này, nó sử dụng lại cùng một danh sách đen / danh sách trắng và các quyền như các liên kết phong phú. Những hình ảnh này không được hỗ trợ thông qua proxy hình ảnh OpenGraph. Bạn phải xóa bộ đệm Flarum sau khi thay đổi cài đặt này.\n"
+                "imageEmbedsHelp": "Tính năng này truy xuất và hiển thị thông tin bổ sung về hình ảnh bên ngoài được chèn trong bài đăng bằng mã bbcode hoặc dấu xuống. Tại thời điểm này, nó sử dụng lại cùng một danh sách đen / danh sách trắng và các quyền như các liên kết phong phú. Những hình ảnh này không được hỗ trợ thông qua proxy hình ảnh OpenGraph. Bạn phải xóa bộ đệm Flarum sau khi thay đổi cài đặt này.\n",
+                "flarumApiPreviews": "",
+                "flarumApiPreviewsHelp": "",
+                "githubApiKey": "",
+                "githubApiKeyHelp": "",
+                "githubOrgWhitelist": "",
+                "githubOrgWhitelistHelp": "",
+                "googleApiAuthConfig": "",
+                "googleApiAuthConfigHelp": "",
+                "googleApiKey": "",
+                "googleApiKeyHelp": "",
+                "youtubePlayer": "",
+                "youtubePlayerHelp": "",
+                "youtubeNoCookie": "",
+                "youtubeNoCookieHelp": "",
+                "youtubeApiPreviews": "",
+                "youtubeApiPreviewsHelp": "",
+                "googledriveApiPreviews": "",
+                "googledriveApiPreviewsHelp": ""
+            },
+            "section": {
+                "siteSpecificHelp": "",
+                "flarum": "",
+                "github": "",
+                "google": "",
+                "youtube": "",
+                "googledrive": ""
             },
             "permissions": {
+                "viewGoogleDriveThumbnails": "",
                 "useOnOwnPost": "Sử dụng nhúng trong bài đăng của riêng mình",
                 "disableOnOwnPost": "Tắt nhúng trên bài đăng của chính mình",
                 "refreshOnOwnPost": "Làm mới bản nhúng trên bài đăng của chính mình",
@@ -48,7 +75,12 @@
         "lib": {
             "embed": {
                 "altFavicon": "Biểu tượng {website}",
-                "altImageFallback": "Ảnh Opengraph {website}"
+                "altImageFallback": "Ảnh Opengraph {website}",
+                "altAvatar": "",
+                "missing": {
+                    "retrieving": "",
+                    "other": ""
+                }
             },
             "controls": {
                 "refresh": "Tải dữ liệu lại",
@@ -56,13 +88,93 @@
                 "disableConfirmation": "Tất cả các nhúng sẽ bị xóa khỏi bài đăng này. Tiếp tục?",
                 "imgCopy": "Sao chép URL ảnh",
                 "imgCopied": "Đã sao chép!",
-                "imgOpen": "Mở ảnh trong tab mới"
+                "imgOpen": "Mở ảnh trong tab mới",
+                "play": "",
+                "expandDescription": ""
             }
         },
         "api": {
             "error": {
                 "blacklistedUrl": "URL {url} chưa được đưa vào danh sách cho phép để nhúng.",
                 "invalidUrl": "URL {url} không hợp lệ."
+            },
+            "embed": {
+                "flarum": {
+                    "discussion": {
+                        "type": "",
+                        "stats": {
+                            "commentCount": "",
+                            "participantCount": "",
+                            "createdAt": ""
+                        }
+                    },
+                    "user": {
+                        "type": "",
+                        "avatarAlt": "",
+                        "stats": {
+                            "discussionCount": "",
+                            "commentCount": "",
+                            "joinTime": ""
+                        }
+                    }
+                },
+                "github": {
+                    "siteName": "",
+                    "privateRepoSuffix": "",
+                    "issue": {
+                        "type": "",
+                        "stats": {
+                            "commentCount": "",
+                            "createdAt": ""
+                        }
+                    },
+                    "pull": {
+                        "type": "",
+                        "stats": {
+                            "commentCount": "",
+                            "reviewCount": "",
+                            "commitCount": "",
+                            "createdAt": ""
+                        }
+                    },
+                    "repo": {
+                        "type": {
+                            "public": "",
+                            "private": ""
+                        },
+                        "stats": {
+                            "openIssueCount": "",
+                            "subscriberCount": "",
+                            "stargazerCount": "",
+                            "forkCount": ""
+                        }
+                    }
+                },
+                "youtube": {
+                    "siteName": "",
+                    "video": {
+                        "type": "",
+                        "thumbnailAlt": "",
+                        "stats": {
+                            "viewCount": "",
+                            "likeCount": "",
+                            "commentCount": "",
+                            "publishedAt": ""
+                        }
+                    }
+                },
+                "googledrive": {
+                    "siteName": "",
+                    "file": {
+                        "type": "",
+                        "thumbnailAlt": "",
+                        "stats": {
+                            "size": "",
+                            "createdTime": "",
+                            "modifiedTime": ""
+                        }
+                    }
+                }
             }
         }
     }
