@@ -2,15 +2,15 @@
     "blomstra-fontawesome": {
         "admin": {
             "settings": {
-                "type": "",
-                "kit_url": "",
-                "kit_url_help": "",
+                "type": "Font Awesome kirjaston tyyppi",
+                "kit_url": "(jos valittu) URL sinun Font Awesome kittiin",
+                "kit_url_help": "Vahvista, että sinun kitti on 'Web Font' tyyppinen ja sen jälkeen liitä sen osoite alas.",
                 "test": {
-                    "heading": "",
-                    "desc": "",
-                    "fa5_compat": "",
-                    "fa6_free": "",
-                    "fa6_pro": ""
+                    "heading": "Ikoni testit",
+                    "desc": "Alla on joitain testejä joilla voit tarkistaa toimiiko ikonit oikein. Sinun täytyy päivittää sivu jos muutit asetuksia. Jos näet ikonin sijaan neliöitä/suorakulmioita niin ikonit eivät toimi oikein.",
+                    "fa5_compat": "FontAwesome 5 yhteensopivuus",
+                    "fa6_free": "FontAwesome 6 Free (ilmainen)",
+                    "fa6_pro": "FontAwesome 6 Pro"
                 }
             }
         }
