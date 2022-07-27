@@ -121,6 +121,9 @@ return [
 	'blomstra-realtime' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/blomstra-realtime.yml',
 	],
+	'blomstra-s3-assets' => [
+		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/blomstra-s3-assets.yml',
+	],
 	'blomstra-search' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-search/0.1.12/resources/locale/en.yml',
 	],
