@@ -974,7 +974,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-profile-cover/v1.3.3/resources/locale/en.yml',
 	],
 	'the-turk-diff' => [
-		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-diff/1.1.1/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-diff/1.1.2/locale/en.yml',
 	],
 	'the-turk-flamoji' => [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-flamoji/1.0.4/locale/en.yml',
