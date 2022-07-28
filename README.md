@@ -719,6 +719,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`blomstra-payments`](https://weblate.rob006.net/projects/flarum/blomstra-payments) | [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments) |
 | [`blomstra-readme`](https://weblate.rob006.net/projects/flarum/blomstra-readme) | [`blomstra/readme`](https://extiverse.com/extension/blomstra/readme) |
 | [`blomstra-realtime`](https://weblate.rob006.net/projects/flarum/blomstra-realtime) | [`blomstra/realtime`](https://extiverse.com/extension/blomstra/realtime) |
+| [`blomstra-s3-assets`](https://weblate.rob006.net/projects/flarum/blomstra-s3-assets) | [`blomstra/s3-assets`](https://extiverse.com/extension/blomstra/s3-assets) |
 | [`convo-extensions-guest-posting`](https://weblate.rob006.net/projects/flarum/convo-extensions-guest-posting) | [`convo-extensions/flarum-ext-guest-posting`](https://extiverse.com/extension/convo-extensions/flarum-ext-guest-posting) |
 | [`convo-extensions-quick-reply`](https://weblate.rob006.net/projects/flarum/convo-extensions-quick-reply) | [`convo-extensions/flarum-ext-quick-reply`](https://extiverse.com/extension/convo-extensions/flarum-ext-quick-reply) |
 | [`datitisev-backup`](https://weblate.rob006.net/projects/flarum/datitisev-backup) | [`datitisev/flarum-backup`](https://extiverse.com/extension/datitisev/flarum-backup) |
