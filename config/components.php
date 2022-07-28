@@ -968,7 +968,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/sycho-private-facade.yml',
 	],
 	'sycho-profile-cover' => [
-		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-profile-cover/v1.3.2/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-profile-cover/v1.3.3/resources/locale/en.yml',
 	],
 	'the-turk-diff' => [
 		'tag' => 'https://raw.githubusercontent.com/the-turk/flarum-diff/1.1.1/locale/en.yml',
