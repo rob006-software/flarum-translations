@@ -4,20 +4,20 @@
             "settings": {
                 "intro": "A <code>Felhasználók keresése</code> jogosultság nélküli felhasználó nem fogják látni a keresődobozt. Állítsa a <code>Mindenki</code> lehetőségre, hogy az összes felhasználó lássa, vagy állítsa az Önnek megfelelő szintre.",
                 "min_length": "Karakterek legkisebb száma a keresés megkezdéséhez",
-                "result_count": ""
+                "result_count": "Találatok legnagyobb száma az automatikus kiegészítési legördülőben"
             }
         },
         "forum": {
             "index_page": {
                 "filter_user": {
-                    "accessible_label": "",
-                    "all": "",
-                    "label": "",
-                    "search_label": "",
-                    "no_results": "",
-                    "start_typing": "",
-                    "keep_typing": "",
-                    "remove_filter": ""
+                    "accessible_label": "Szűrés szerző szerint",
+                    "all": "Összes",
+                    "label": "Szűrés szerző szerint: {text}",
+                    "search_label": "Felhasználók keresése…",
+                    "no_results": "Nincs találat",
+                    "start_typing": "Kezdjen el gépelni…",
+                    "keep_typing": "Gépeljen tovább…",
+                    "remove_filter": "Szerzőszűrő eltávolítása"
                 }
             }
         }
