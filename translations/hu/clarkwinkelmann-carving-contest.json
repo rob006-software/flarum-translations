@@ -2,61 +2,61 @@
     "clarkwinkelmann-carving-contest": {
         "forum": {
             "nav": {
-                "contest": ""
+                "contest": "Faragó verseny"
             },
             "page": {
-                "title": "",
-                "loading": "",
-                "participate": "",
-                "already-participated": "",
-                "delete-confirmation": "",
-                "like": "",
-                "already-liked": "",
-                "unlike": "",
-                "refresh": "",
-                "load-more": "",
+                "title": "Tökfaragó verseny",
+                "loading": "Bejegyzések betöltése…",
+                "participate": "Részvétel",
+                "already-participated": "Már részt vett",
+                "delete-confirmation": "Biztos, hogy törli {username} bejegyzését: „{name}”?",
+                "like": "Kedvelés",
+                "already-liked": "Kedvelem",
+                "unlike": "Kedvelés visszavonása",
+                "refresh": "Frissítés",
+                "load-more": "További bejegyzések betöltése",
                 "sort": {
-                    "mostLikes": "",
-                    "fewerLikes": "",
-                    "mostRecent": "",
-                    "leastRecent": ""
+                    "mostLikes": "Legtöbb kedvelés",
+                    "fewerLikes": "Kevesebb kedvelés",
+                    "mostRecent": "Legfrissebb",
+                    "leastRecent": "Legrégebbi"
                 },
                 "likes": {
-                    "you_text": "",
-                    "others_link": "",
-                    "liked_by_self_text": "",
-                    "liked_by_text": ""
+                    "you_text": "=> core.ref.you",
+                    "others_link": "=> core.ref.some_others",
+                    "liked_by_self_text": "{users} kedvelte ezt.",
+                    "liked_by_text": "{users} kedvelte ezt."
                 }
             },
             "modal": {
-                "title": "",
-                "name": "",
-                "submit": "",
+                "title": "Részvétel",
+                "name": "Nevezze el az alkotását",
+                "submit": "Elküldés",
                 "tools": {
-                    "circle": "",
-                    "square": ""
+                    "circle": "Kör",
+                    "square": "Négyzet"
                 }
             },
             "likes_modal": {
-                "title": ""
+                "title": "Felhasználók, akik kedvelték a bejegyzést"
             }
         },
         "admin": {
             "permissions": {
-                "view": "",
-                "like": "",
-                "participate": "",
-                "moderate": ""
+                "view": "Bejegyzések megtekintése",
+                "like": "Bejegyzések kedvelése",
+                "participate": "Részvétel",
+                "moderate": "Moderálás"
             },
             "settings": {
-                "maxEntriesPerUser": "",
-                "colorMode": ""
+                "maxEntriesPerUser": "Legtöbb beküldés felhasználónként",
+                "colorMode": "Színes mód használata a faragási mód helyett"
             },
             "colors": {
-                "simple": "",
-                "all": "",
-                "custom": "",
-                "custom-help": ""
+                "simple": "Egyszerű színkészlet",
+                "all": "Tetszőleges szín",
+                "custom": "Egyéni színlista",
+                "custom-help": "#hex vagy rgb() értékek vesszővel elválasztott listája"
             }
         }
     }
