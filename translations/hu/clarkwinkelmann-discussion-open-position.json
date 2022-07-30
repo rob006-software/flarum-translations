@@ -2,39 +2,39 @@
     "clarkwinkelmann-discussion-open-position": {
         "admin": {
             "settings": {
-                "defaultOpenLastRead": "",
-                "suggestFirstTime": "",
+                "defaultOpenLastRead": "Téma kinyitása a legutóbb olvasott bejegyzésnél alapértelmezetten",
+                "suggestFirstTime": "Kérdés megjelenítése a felhasználó számára, amikor először nyit meg egy témát, hogy módosítja-e a beállítást",
                 "openLastOptions": {
-                    "always": "",
-                    "unread": "",
-                    "never": ""
+                    "always": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.always",
+                    "unread": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.unread",
+                    "never": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.never"
                 }
             }
         },
         "forum": {
             "firstTimePrompt": {
-                "fromAlways": "",
-                "fromNever": "",
+                "fromAlways": "A témák hivatkozásai a legutóbb olvasott bejegyzéshez vezessenek",
+                "fromNever": "A témák hivatkozásai az első bejegyzést nyissák meg",
                 "openLastOptions": {
-                    "always": "",
-                    "never": ""
+                    "always": "Inkább mindig a legutóbb olvasott bejegyzést nyissák meg",
+                    "never": "Inkább mindig az első bejegyzést nyissák meg"
                 },
-                "more": ""
+                "more": "További lehetőségek"
             },
             "preferences": {
-                "discussionOpenLastRead": "",
+                "discussionOpenLastRead": "Témalista",
                 "openLastOptions": {
-                    "always": "",
-                    "unread": "",
-                    "never": ""
+                    "always": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.always",
+                    "unread": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.unread",
+                    "never": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.never"
                 }
             }
         },
         "ref": {
             "openLastOptions": {
-                "always": "",
-                "unread": "",
-                "never": ""
+                "always": "A téma mindig a legutóbb olvasott bejegyzésnél nyíljon meg",
+                "unread": "A téma csak akkor nyíljon meg a legutóbb olvasott bejegyzésnél, ha vannak új válaszok",
+                "never": "A téma mindig az első bejegyzésnél nyíljon meg"
             }
         }
     }
