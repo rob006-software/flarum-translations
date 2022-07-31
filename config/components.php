@@ -644,7 +644,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/imorland/synopsis/1.2.1/resources/locale/en.yml',
 	],
 	'imshuzai-bbcode' => [
-		'tag' => 'https://raw.githubusercontent.com/imshuzai/BBcode/0.0.1/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/imshuzai/BBcode/0.0.2/resources/locale/en.yml',
 	],
 	'itnt-uitab' => [
 		'tag' => 'https://raw.githubusercontent.com/Littlegolden/flarum-uitab/v0.4.2/resources/locale/en.yml',
