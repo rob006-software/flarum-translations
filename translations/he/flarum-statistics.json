@@ -2,15 +2,20 @@
     "flarum-statistics": {
         "admin": {
             "statistics": {
-                "active_users_text": "{count} פעילים",
                 "discussions_heading": "=> core.ref.discussions",
                 "last_12_months_label": "בשנה האחרונה",
                 "last_28_days_label": "28 ימים האחרונים",
                 "last_7_days_label": "7 ימים אחרונים",
+                "mini_heading": "",
+                "previous_28_days_label": "",
+                "previous_7_days_label": "",
+                "loading": "",
                 "posts_heading": "=> core.ref.posts",
                 "today_label": "היום",
                 "total_label": "סך הכל",
-                "users_heading": "=> core.ref.users"
+                "users_heading": "=> core.ref.users",
+                "view_full": "",
+                "active_users_text": "{count} פעילים"
             }
         }
     }
