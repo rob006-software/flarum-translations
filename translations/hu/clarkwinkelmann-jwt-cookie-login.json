@@ -2,38 +2,38 @@
     "clarkwinkelmann-jwt-cookie-login": {
         "admin": {
             "settings": {
-                "cookieName": "",
-                "actorId": "",
-                "actorIdHelp": "",
-                "audience": "",
-                "audienceHelp": "",
-                "publicKey": "",
-                "publicKeyHelp": "",
-                "publicKeyAlgorithm": "",
-                "publicKeyAlgorithmHelp": "",
-                "expirationLeeway": "",
-                "expirationLeewayHelp": "",
-                "usernameTemplate": "",
-                "usernameTemplateHelp": "",
-                "emailTemplate": "",
-                "emailTemplateHelp": "",
-                "registrationHook": "",
-                "registrationHookHelp": "",
-                "authorizationHeader": "",
-                "authorizationHeaderHelp": "",
-                "hiddenIframe": "",
-                "hiddenIframeHelp": "",
-                "autoLoginDelay": "",
-                "autoLoginDelayHelp": "",
-                "logoutRedirect": "",
-                "logoutRedirectHelp": ""
+                "cookieName": "Süti neve",
+                "actorId": "A Flarum felhasználóazonosító az adminisztratív műveletekhoz",
+                "actorIdHelp": "Ez a Flarum felhasználó lesz használva az új felhasználókat létrehozó belső REST API kérések felhasználójaként. Adminisztrátornak kell lennie.\n",
+                "audience": "JWT közönség / Firebase projektazonosító",
+                "audienceHelp": "Ellenőrzi a token <code>aud</code> attribútumát. Nem kötelező, ha nem használ Firebase-t.",
+                "publicKey": "Nyilvános kulcs",
+                "publicKeyHelp": "Hagyja üresen a Gooble Firebase kulcsainak használatához",
+                "publicKeyAlgorithm": "Nyilvános kulcs algoritmusa",
+                "publicKeyAlgorithmHelp": "Csak nyilvános kulcs esetén szükséges. Például: RS256.",
+                "expirationLeeway": "Lejárat mozgástere (másodpercben)",
+                "expirationLeewayHelp": "A JWT lejárata után még hány másodpercig induljon el a munkamenet. Ez az érték arra szolgál, hogy legfeljebb néhány percnyi időeltérést figyelembe vegyen a kiszolgálók órái között. Viszont sokkal nagyobb értéket is be lehet állítani, ha ez az egyetlen módja annak, hogy kezelje a JWT rövid, kötött élettartamát egy külső programkönyvtárban.\n",
+                "usernameTemplate": "Felhasználónév-sablon",
+                "usernameTemplateHelp": "Használja a <code>{sub}</code> szintaxist, hogy egy attribútumot használjon a JWT-ből",
+                "emailTemplate": "E-mail-sablon",
+                "emailTemplateHelp": "Használja a <code>{sub}</code> szintaxist, hogy egy attribútumot használjon a JWT-ből",
+                "registrationHook": "Regisztrációs végpont",
+                "registrationHookHelp": "Egy teljes webcím, amely megkapja a POST kérést, amikor egy felhasználó először keresi fel a fórumot. A kérésnek egy JSON:API választ kell visszaadnia, amely alapján az új felhasználó létrejön a Flarumban. Használja a <code>{sub}</code> szintaxist, hogy egy attribútumot használjon a JWT-ből. A teljes JWT az <code>Authorization</code> fejlécben lesz átadva. A felhasználónév és az e-mail-cím nem kötelező, ha meg van adva egy sablon érték.\n",
+                "authorizationHeader": "Egyéni Authorization fejlécérték",
+                "authorizationHeaderHelp": "Ha üresen hagyja ezt a mezőt, akkor az <code>Authorization</code> fejléc a <code><JWT token> tokent</code> fogja tartalmazni.",
+                "hiddenIframe": "Rejtett iframe webcíme",
+                "hiddenIframeHelp": "Ez az iframe lesz betöltve a képernyőn kívül az egyoldalas Flarum alkalmazása összes oldalán. Ez arra használható, hogy időnként frissítse a sütijét, és hogy a böngésző üzenetküldését arra használja, hogy frissítse az oldalt az automatikus be- és kijelentkezéshez. A dokumentációhoz lásd a README oldalt.\n",
+                "autoLoginDelay": "Rejtett iframe késleltetése az automatikus bejelentkezéshez (ezredmásodpercben)",
+                "autoLoginDelayHelp": "Hány másodpercig frissülhet az oldal felhasználói interakció nélkül, amíg a rejtett iframe visszaadja a bejelentkezési állapotot. Ezután a késleltetés után a felhasználótól meg lesz kérdezve, hogy frissíti-e az oldalt.\n",
+                "logoutRedirect": "Kijelentkezési átirányítási webcím",
+                "logoutRedirectHelp": "A JWT állapotmentes munkamenet alatt a Flarum kijelentkezési hivatkozás le lesz cserélve egy az erre a webcímre mutató hivatkozásra. Ha nincs érték megadva, akkor a kijelentkezési gomb el lesz rejtve.\n"
             }
         },
         "forum": {
             "alert": {
-                "refresh": "",
-                "login": "",
-                "logout": ""
+                "refresh": "Oldal frissítése",
+                "login": "Automatikusan kapcsolódott.",
+                "logout": "A munkamenete lejárt."
             }
         }
     }
