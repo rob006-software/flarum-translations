@@ -647,7 +647,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Littlegolden/flarum-uitab/v0.4.2/resources/locale/en.yml',
 	],
 	'jslirola-login2seeplus' => [
-		'tag' => 'https://raw.githubusercontent.com/jslirola/flarum-ext-login2seeplus/v0.2/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/jslirola/flarum-ext-login2seeplus/v0.2.1/locale/en.yml',
 	],
 	'justoverclock-auto-post-badge-pro' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/justoverclock-auto-post-badge-pro.yml',
