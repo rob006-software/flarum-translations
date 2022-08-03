@@ -3,7 +3,7 @@
         "forum": {
             "push": {
                 "discussion-list-new-activity": "{count, plural, one {Afficher la discussion mise à jour} other {Afficher les # discussions mises à jour}}",
-                "discussion-list-new-activity-with-auto-release": ""
+                "discussion-list-new-activity-with-auto-release": "{count, plural, one {# discussion a de nouvelles activités et sera publiée} other {# discussions ont de nouvelles activités et seront publiées}} dans {releaseTimeout} secondes. Cliquez ici pour publier dès à présent."
             },
             "typing-indicator": {
                 "people-are-typing": "{number, plural, one {# personne rédige} other {# personnes rédigent}}",
@@ -15,8 +15,8 @@
                 "view-who-types": "Voir qui rédige"
             },
             "settings": {
-                "release-discussion-updates-interval": "",
-                "release-discussion-updates-interval-help": ""
+                "release-discussion-updates-interval": "Intervalle pour pousser automatiquement une nouvelle activité de discussion",
+                "release-discussion-updates-interval-help": "En secondes. 0 désactive la poussée automatique."
             }
         }
     }
