@@ -62,6 +62,7 @@
                     "title": "Tiêu đề",
                     "accept-submissions": "Mở",
                     "allow-modification": "Sửa đổi",
+                    "enabled": "",
                     "submissions": "Gửi",
                     "actions": "Thao tác"
                 }
@@ -108,7 +109,9 @@
                     "closed": "Đã đóng",
                     "create": "Chỉ tạo",
                     "edit": "Chỉ chỉnh sửa",
-                    "both": "Tạo và chỉnh sửa"
+                    "both": "Tạo và chỉnh sửa",
+                    "enabled": "",
+                    "disabled": ""
                 },
                 "controls": "Điều khiển",
                 "template-export": "Nhập/xuất mẫu",
@@ -146,6 +149,7 @@
                     "automatic-discussion-help": "Khi được bật, biểu mẫu sẽ tiếp tục có thể truy cập được giống như một biểu mẫu độc lập. Nội dung gửi sẽ tự động tạo và kết nối với các cuộc thảo luận mới.\n",
                     "accept-submissions": "Chấp nhận các bài gửi mới",
                     "allow-modification": "Cho phép người dùng chỉnh sửa các nội dung gửi hiện có của họ",
+                    "enable": "",
                     "max-submissions": "Số lần gửi tối đa (để trống không giới hạn)",
                     "send-confirmation-to-participants": "Gửi email xác nhận cho người tham gia",
                     "notify-emails": "Gửi bản sao dữ liệu tới các email được phân tách bằng dấu phẩy đó",
@@ -346,6 +350,10 @@
                     "boolean-true": "True",
                     "boolean-false": "False"
                 }
+            },
+            "discussion-submission": {
+                "empty": "",
+                "edit": ""
             }
         },
         "api": {

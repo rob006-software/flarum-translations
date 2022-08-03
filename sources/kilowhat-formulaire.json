@@ -62,6 +62,7 @@
                     "title": "Title",
                     "accept-submissions": "Open",
                     "allow-modification": "Modification",
+                    "enabled": "Enabled",
                     "submissions": "Submissions",
                     "actions": "Actions"
                 }
@@ -108,7 +109,9 @@
                     "closed": "Closed",
                     "create": "Create only",
                     "edit": "Edit only",
-                    "both": "Create and edit"
+                    "both": "Create and edit",
+                    "enabled": "Enabled",
+                    "disabled": "Draft"
                 },
                 "controls": "Controls",
                 "template-export": "Template import/export",
@@ -127,7 +130,7 @@
                 "warnings": {
                     "show-on-signup-invalid-permissions": "You need to set \"see own\" and \"edit own\" permission to unapproved members in order to use \"show in sign up\".\n",
                     "show-on-composer-invalid-permissions": "Make sure \"see own\" and \"edit own\" permission match who can start discussions with the selected tag(s) in order to use \"show in composer\". Set to \"members\" if not sure. This message can appear even if your settings are correct.\n",
-                    "linked-form-is-draft": "This form is currently in draft mode. Enable \"accept new submissions\" for the fields to appear on the forum.\n",
+                    "linked-form-is-draft": "This form is currently in draft mode. Enable under \"Access\" for the fields to appear on the forum.\n",
                     "auto-link-permission-warning": "Forms with \"automatically create discussions\" option use the global fill permission when accessed standalone.\n"
                 },
                 "expert-mode-warning": "Expert mode is enabled. This lets you customize field identifiers and per-field permissions. Make sure you read the documentation about those feature, as you might break things!\n",
@@ -146,6 +149,7 @@
                     "automatic-discussion-help": "When enabled, the form will continue to be accessible like a standalone form. Submissions will automatically create and connect with new discussions.\n",
                     "accept-submissions": "Accept new submissions",
                     "allow-modification": "Allow users to edit their existing submissions",
+                    "enable": "Enable",
                     "max-submissions": "Max submissions (leave blank for unlimited)",
                     "send-confirmation-to-participants": "Send confirmation email to participants",
                     "notify-emails": "Send a copy of the data to those comma-separated emails",
@@ -346,6 +350,10 @@
                     "boolean-true": true,
                     "boolean-false": false
                 }
+            },
+            "discussion-submission": {
+                "empty": "No data yet",
+                "edit": "Edit"
             }
         },
         "api": {

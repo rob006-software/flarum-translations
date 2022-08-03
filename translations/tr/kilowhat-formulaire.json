@@ -62,6 +62,7 @@
                     "title": "Başlık",
                     "accept-submissions": "Açık",
                     "allow-modification": "Değişiklik",
+                    "enabled": "",
                     "submissions": "Başvurumlar",
                     "actions": "Eylemler"
                 }
@@ -108,7 +109,9 @@
                     "closed": "Kapalı",
                     "create": "Sadece oluştur",
                     "edit": "Yalnızca düzenle",
-                    "both": "Oluştur ve düzenle"
+                    "both": "Oluştur ve düzenle",
+                    "enabled": "",
+                    "disabled": ""
                 },
                 "controls": "Kontroller",
                 "template-export": "Şablon içe aktar/dışa aktar",
@@ -146,6 +149,7 @@
                     "automatic-discussion-help": "Etkinleştirildiğinde, form bağımsız bir form gibi erişilebilir olmaya devam eder. Gönderiler otomatik olarak yeni tartışmalar oluşturacak ve bunlara bağlanacaktır.\n",
                     "accept-submissions": "Yeni gönderimleri kabul et",
                     "allow-modification": "Kullanıcıların mevcut gönderilerini düzenlemesine izin ver",
+                    "enable": "",
                     "max-submissions": "Maksimum gönderim (sınırsız için boş bırakın)",
                     "send-confirmation-to-participants": "Katılımcılara onay e-postası gönder",
                     "notify-emails": "Bu virgülle ayrılmış e-postalara verilerin bir kopyasını gönderin",
@@ -346,6 +350,10 @@
                     "boolean-true": "Doğru",
                     "boolean-false": "Yanlış"
                 }
+            },
+            "discussion-submission": {
+                "empty": "",
+                "edit": ""
             }
         },
         "api": {
