@@ -197,7 +197,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-featured-discussions/1.0.0/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-first-post-approval' => [
-		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-first-post-approval/1.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-first-post-approval/1.0.1/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-follow-tags-prompt' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-follow-tags-prompt/1.0.1/resources/locale/en.yml',
