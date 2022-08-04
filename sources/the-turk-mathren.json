@@ -26,9 +26,15 @@
                 "color_is_text_color_label": "Allow <code>\\color</code> command to take two arguments (colorIsTextColor)",
                 "throw_on_error_label": "Throw an error on unsupported command or invalid LaTeX",
                 "bbcode_delimiters_rule_text": "BBCode delimiters must be composed by uppercase or lowercase letters and dashes only.",
+                "cdn_options_heading": "CDN Options",
+                "cdn_katex_text": "CDN URL for <strong>KaTeX</strong>",
+                "sri_katex_text": "SRI hash for <strong>KaTeX</strong>",
+                "cdn_asciimath2tex_text": "CDN URL for <strong>asciimath2tex</strong>",
+                "sri_asciimath2tex_text": "SRI hash for <strong>asciimath2tex</strong>",
                 "other_options_heading": "Other Options",
                 "enable_editor_buttons_label": "Show buttons on text editor",
                 "aliases_as_primary_label": "Use alias delimiters as primary delimiters if possible",
+                "allow_asciimath_label": "Allow AsciiMath syntax",
                 "enable_copy_tex_label": "Allow copying the source of KaTeX-rendered elements",
                 "quote_button_text": "You must enable the <code>flarum/mentions</code> extension to activate the quote button."
             }
