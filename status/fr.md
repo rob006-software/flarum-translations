@@ -3562,7 +3562,7 @@
 		<td align="center">10<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
 		<td align="center">7<br /><img src="https://img.shields.io/badge/-%7E-lightgrey" alt="~" title="Change from last week"></td>
 		<td align="center">1988<br /><img src="https://img.shields.io/badge/-%2B80-brightgreen" alt="+80" title="Change from last week"></td>
-		<td><a href="https://weblate.rob006.net/projects/flarum/kilowhat-formulaire/fr/"><img src="https://weblate.rob006.net/widgets/flarum/fr/kilowhat-formulaire/svg-badge.svg" alt="Translation status"></a></td>
+		<td><img src="https://img.shields.io/badge/status-disabled-inactive.svg" alt="Translation status"></td>
 	</tr>
 	<tr>
 		<td>
