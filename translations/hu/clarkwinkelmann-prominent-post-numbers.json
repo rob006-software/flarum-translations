@@ -2,13 +2,13 @@
     "clarkwinkelmann-prominent-post-numbers": {
         "admin": {
             "settings": {
-                "floating": "",
-                "prefix": "",
-                "prefixPlaceholder": ""
+                "floating": "Lebegő bejegyzésszám a bejegyzés jobb felső sarkában a fejléce helyett",
+                "prefix": "Előtag",
+                "prefixPlaceholder": "Hagyja üresen, hogy testreszabja a fordítóval"
             }
         },
         "views": {
-            "format": ""
+            "format": "{number}"
         }
     }
 }
