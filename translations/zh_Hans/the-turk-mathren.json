@@ -9,6 +9,10 @@
                 "inline_delimiters_text": "<strong>BBCode</strong> 行内表达式定界符",
                 "alias_block_delimiters_text": "段落表达式定界符<strong>别名</strong>",
                 "alias_inline_delimiters_text": "行内表达式定界符<strong>别名</strong>",
+                "block_asciimath_delimiters_text": "",
+                "inline_asciimath_delimiters_text": "",
+                "alias_block_asciimath_delimiters_text": "",
+                "alias_inline_asciimath_delimiters_text": "",
                 "primary_delimiters_text": "列表中的第一个定界符将作为主定界符。",
                 "output_mode_label": "输出模式",
                 "output_mode_text": "选择输出的标记语言",
@@ -94,7 +98,10 @@
         "forum": {
             "composer": {
                 "block_expression": "段落公式",
-                "inline_expression": "行内公式"
+                "block_expression_asciimath": "",
+                "inline_expression": "行内公式",
+                "inline_expression_asciimath": "",
+                "asciimath_only": ""
             },
             "textEditor": {
                 "blockExpression": "段落公式",

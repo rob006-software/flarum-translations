@@ -9,6 +9,10 @@
                 "inline_delimiters_text": "Délimiteurs <strong>BBCode</strong> pour les expressions en ligne",
                 "alias_block_delimiters_text": "Délimiteurs <strong>Alias</strong> pour les expressions de bloc",
                 "alias_inline_delimiters_text": "Délimiteurs <strong>Alias</strong> pour les expressions en ligne",
+                "block_asciimath_delimiters_text": "",
+                "inline_asciimath_delimiters_text": "",
+                "alias_block_asciimath_delimiters_text": "",
+                "alias_inline_asciimath_delimiters_text": "",
                 "primary_delimiters_text": "Les premiers délimiteurs dans les listes ci-dessus seront considérés comme primaires.",
                 "output_mode_label": "Mode de sortie",
                 "output_mode_text": "Sélectionnez le langage de balisage pour la sortie",
@@ -81,7 +85,10 @@
         "forum": {
             "composer": {
                 "block_expression": "Expression de bloc",
-                "inline_expression": "Expression en ligne"
+                "block_expression_asciimath": "",
+                "inline_expression": "Expression en ligne",
+                "inline_expression_asciimath": "",
+                "asciimath_only": ""
             },
             "textEditor": {
                 "blockExpression": "Expression en bloc",

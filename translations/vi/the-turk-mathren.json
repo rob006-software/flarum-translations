@@ -9,6 +9,10 @@
                 "inline_delimiters_text": "Dấu phân cách <strong>BBCode</strong> cho các biểu thức một dòng",
                 "alias_block_delimiters_text": "Dấu phân cách <strong>Alias</strong> cho các khối biểu thức",
                 "alias_inline_delimiters_text": "Dấu phân cách <strong> Alias</strong> cho các biểu thức một dòng",
+                "block_asciimath_delimiters_text": "",
+                "inline_asciimath_delimiters_text": "",
+                "alias_block_asciimath_delimiters_text": "",
+                "alias_inline_asciimath_delimiters_text": "",
                 "primary_delimiters_text": "Các dấu phân cách đầu tiên trong danh sách trên sẽ được coi là chính.",
                 "output_mode_label": "Chế độ đầu ra",
                 "output_mode_text": "Chọn ngôn ngữ đánh dấu cho đầu ra",
@@ -81,7 +85,10 @@
         "forum": {
             "composer": {
                 "block_expression": "Biểu thức khối",
-                "inline_expression": "Biểu thức dòng"
+                "block_expression_asciimath": "",
+                "inline_expression": "Biểu thức dòng",
+                "inline_expression_asciimath": "",
+                "asciimath_only": ""
             },
             "textEditor": {
                 "blockExpression": "Khối biểu thức",

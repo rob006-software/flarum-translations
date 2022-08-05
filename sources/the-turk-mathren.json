@@ -9,6 +9,10 @@
                 "inline_delimiters_text": "<strong>BBCode</strong> delimiters for inline expressions",
                 "alias_block_delimiters_text": "<strong>Alias</strong> delimiters for block expressions",
                 "alias_inline_delimiters_text": "<strong>Alias</strong> delimiters for inline expressions",
+                "block_asciimath_delimiters_text": "<strong>BBCode</strong> delimiters for block AsciiMath expressions",
+                "inline_asciimath_delimiters_text": "<strong>BBCode</strong> delimiters for inline AsciiMath expressions",
+                "alias_block_asciimath_delimiters_text": "<strong>Alias</strong> delimiters for block AsciiMath expressions",
+                "alias_inline_asciimath_delimiters_text": "<strong>Alias</strong> delimiters for inline AsciiMath expressions",
                 "primary_delimiters_text": "First delimiters in above lists will be considered as primary.",
                 "output_mode_label": "Output mode",
                 "output_mode_text": "Choose the markup language for the output",
@@ -42,7 +46,10 @@
         "forum": {
             "composer": {
                 "block_expression": "Block Expression",
-                "inline_expression": "Inline Expression"
+                "block_expression_asciimath": "Block Expression (AsciiMath)",
+                "inline_expression": "Inline Expression",
+                "inline_expression_asciimath": "Inline Expression (AsciiMath)",
+                "asciimath_only": "AsciiMath-only"
             }
         }
     }

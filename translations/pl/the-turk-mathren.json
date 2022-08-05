@@ -9,6 +9,10 @@
                 "inline_delimiters_text": "Separatory <strong>BBCode</strong> dla wyrażeń liniowych",
                 "alias_block_delimiters_text": "<strong>Alternatywne</strong> separatory dla wyrażeń blokowych",
                 "alias_inline_delimiters_text": "<strong>Alternatywne</strong> separatory dla wyrażeń liniowych",
+                "block_asciimath_delimiters_text": "",
+                "inline_asciimath_delimiters_text": "",
+                "alias_block_asciimath_delimiters_text": "",
+                "alias_inline_asciimath_delimiters_text": "",
                 "primary_delimiters_text": "Pierwszy separator z tej listy będzie używany jako podstawowy.",
                 "output_mode_label": "Tryb wyjściowy",
                 "output_mode_text": "Wybierz rodzaj składni dla rezultatu renderowania równania",
@@ -81,7 +85,10 @@
         "forum": {
             "composer": {
                 "block_expression": "Wyrażenie blokowe",
-                "inline_expression": "Wyrażenie liniowe"
+                "block_expression_asciimath": "",
+                "inline_expression": "Wyrażenie liniowe",
+                "inline_expression_asciimath": "",
+                "asciimath_only": ""
             },
             "textEditor": {
                 "blockExpression": "Wyrażenia blokowe",
