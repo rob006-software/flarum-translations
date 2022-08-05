@@ -221,7 +221,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-mailing/1.0.0/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-mass-actions' => [
-		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-mass-actions/1.1.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-mass-actions/1.1.1/resources/locale/en.yml',
 	],
 	'clarkwinkelmann-passwordless' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-passwordless/1.4.0/resources/locale/en.yml',
