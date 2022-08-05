@@ -1,17 +1,17 @@
 {
     "clarkwinkelmann-popular-discussion-badge": {
         "forum": {
-            "badge_label": ""
+            "badge_label": "Népszerű"
         },
         "admin": {
             "settings": {
-                "mode": "",
-                "mode_help": "",
+                "mode": "Működés módja",
+                "mode_help": "Az előtétprogram mód egy hatékony megoldás, amely nem használja az adatbázist. Az ütemező módhoz CRON beállítása szükséges, és ez lehetővé teszi az időablakok használatát a feltételekben.\n",
                 "mode_options": {
-                    "frontend": "",
-                    "scheduler": ""
+                    "frontend": "Előtétprogram",
+                    "scheduler": "Ütemező (CRON)"
                 },
-                "scheduler_frequency": "",
+                "scheduler_frequency": "Az ütemezett mód gyakorisága",
                 "scheduler_frequency_help": "",
                 "scheduler_frequency_options": {
                     "everyFiveMinutes": "",
@@ -23,15 +23,15 @@
                 "conditions": "",
                 "conditions_help": "",
                 "add": "",
-                "comments": "",
-                "comments_placeholder": "",
-                "views": "",
-                "views_placeholder": "",
+                "comments": "Megjegyzések",
+                "comments_placeholder": "0",
+                "views": "Megtekintések",
+                "views_placeholder": "0",
                 "within": "",
-                "within_placeholder": "",
-                "hours": "",
-                "and": "",
-                "or": ""
+                "within_placeholder": "összes",
+                "hours": "ó",
+                "and": "ÉS",
+                "or": "VAGY"
             }
         }
     }
