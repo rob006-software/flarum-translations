@@ -2,20 +2,20 @@
     "clarkwinkelmann-scout": {
         "admin": {
             "setting": {
-                "driver": "",
+                "driver": "Illesztőprogram",
                 "driverOption": {
-                    "null": "",
-                    "algolia": "",
-                    "meilisearch": ""
+                    "null": "Nincs",
+                    "algolia": "Algolia",
+                    "meilisearch": "Meilisearch"
                 },
-                "prefix": "",
-                "algoliaId": "",
-                "algoliaSecret": "",
-                "algoliaConnectTimeout": "",
-                "algoliaReadTimeout": "",
-                "algoliaWriteTimeout": "",
-                "meilisearchHost": "",
-                "meilisearchKey": ""
+                "prefix": "Indexnév előtagja (nem kötelező)",
+                "algoliaId": "Algolia azonosító",
+                "algoliaSecret": "Algolia titok",
+                "algoliaConnectTimeout": "Algolia kapcsolódási időtúllépés (nem kötelező)",
+                "algoliaReadTimeout": "Algolia olvasási időtúllépés (nem kötelező)",
+                "algoliaWriteTimeout": "Algolia írási időtúllépés (nem kötelező)",
+                "meilisearchHost": "Meilisearch gazdagép",
+                "meilisearchKey": "Meilisearch kulcs"
             }
         }
     }
