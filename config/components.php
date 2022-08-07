@@ -530,7 +530,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/moderator-notes/1.1.0/resources/locale/en.yml',
 	],
 	'fof-nightmode' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/nightmode/1.4.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/nightmode/1.4.1/resources/locale/en.yml',
 	],
 	'fof-oauth' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/oauth/1.2.2/resources/locale/en.yml',
