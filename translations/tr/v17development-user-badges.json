@@ -8,15 +8,15 @@
             "update_category": "Kategoriyi güncelle",
             "edit_category": "Kategoriyi düzenle",
             "nothing_here_yet": "Henüz bir rozet veya kategori oluşturmamışsın.",
-            "show_badges_on_user_card": "",
-            "number_of_badges_on_user_card": "",
-            "number_of_badges_on_user_card_help": "",
+            "show_badges_on_user_card": "Rozetleri kullanıcı kartında göster",
+            "number_of_badges_on_user_card": "Rozet sayısı",
+            "number_of_badges_on_user_card_help": "Kullanıcı kartında gösterilecek rozet sayısı",
             "permissions": {
                 "badge_detail_users": "Kullanıcıları rozet ayrıntıları sayfasında görebilir",
                 "give_badge": "Kullanıcıya rozet ver",
                 "take_badge": "Kullanıcıdan rozeti al",
-                "edit_own_card_badges": "",
-                "edit_card_badges": ""
+                "edit_own_card_badges": "Kendi kullanıcı kartı rozetlerini düzenleyin",
+                "edit_card_badges": "Kullanıcı kartı rozetlerini düzenle"
             },
             "confirm_dialog": {
                 "title": "Onayla",
@@ -84,7 +84,7 @@
             "user_no_badges": "Bu kullanıcı herhangi bir rozete sahip değil.",
             "no_received": "Hiçbir kullanıcı bu rozeti kazanmadı.",
             "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
-            "save_changes": "",
+            "save_changes": "Değişikleri kaydet",
             "badge": {
                 "badge": "Rozet",
                 "badges": "Rozetler",
@@ -99,14 +99,14 @@
                 "badge_details": "Rozet detayları",
                 "earned_count": "{count, plural, one {<b># kullanıcı</b> bu rozeti kazandı} other {<b># kullanıcı</b> bu rozeti kazandı}}",
                 "earned_by_count": "{count, plural, one {<b># kullanıcı</b> tarafından edinildi} other {<b># kullanıcı</b> tarafından edinildi}}",
-                "others_link": ""
+                "others_link": "+ {count} Daha"
             },
             "badges_in_card": {
-                "title": "",
-                "manage_badges": "",
-                "description": "",
-                "select_limit": "",
-                "hit_limit": ""
+                "title": "Kullanıcı kartındaki rozetler",
+                "manage_badges": "Rozetleri yönet",
+                "description": "Kullanıcı kartınızda görünen rozetleri diğer rozetlerinizden biri ile değiştirebilirsiniz. Herhangi birini seçmezseniz, otomatik olarak seçilirler.",
+                "select_limit": "Kullanıcı kartınızda görünmek için {limit, plural, one {<b>bir rozet</b>} other {<b># rozetler</b>}}öğesini seçebilirsiniz.",
+                "hit_limit": "Kartınızda yalnızca <b> {limit, plural, one {<b>bir rozet</b>} other {<b># rozetler</b>}}</b> için yer var. Bu rozete yer açmak için bir rozetin seçimini kaldırın."
             },
             "moderation": {
                 "remove_badge": "Kullanıcıdan rozeti kaldır",
