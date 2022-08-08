@@ -1007,7 +1007,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/tituspijean/flarum-ext-auth-ldap/v1.0.0-p4/locale/en.yml',
 	],
 	'tohsakarat-save-and-load-draft-automatically' => [
-		'tag' => 'https://raw.githubusercontent.com/tohsakrat/save-and-load-draft-automatically/v1.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/tohsakrat/save-and-load-draft-automatically/v1.0.6/resources/locale/en.yml',
 	],
 	'tokenjenny-web3' => [
 		'tag' => 'https://raw.githubusercontent.com/tokenjenny/flarum-ext-web3/v0.0.2/resources/locale/en.yml',
