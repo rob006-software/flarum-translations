@@ -2,121 +2,121 @@
     "core": {
         "forum": {
             "index_sort": {
-                "hot_button": "",
-                "votes_button": ""
+                "hot_button": "Felkapott",
+                "votes_button": "Felszavazások"
             }
         }
     },
     "fof-gamification": {
         "forum": {
-            "votes": "",
-            "vote_title": "",
+            "votes": "Szavazatok",
+            "vote_title": "Szavazók megtekintése",
             "nav": {
-                "name": ""
+                "name": "Rangsor"
             },
             "ranking": {
-                "rank": "",
-                "name": "",
-                "amount": ""
+                "rank": "Helyezés",
+                "name": "Felhasználó",
+                "amount": "Pontok"
             },
             "notification": {
-                "upvote": "",
-                "downvote": "",
+                "upvote": "{username} felszavazta a bejegyzését",
+                "downvote": "{username} leszavazta a bejegyzését",
                 "prefrences": {
-                    "vote": ""
+                    "vote": "Ha egy bejegyzésemet fel- vagy leszavaznak"
                 }
             },
             "user": {
                 "card": {
-                    "points": ""
+                    "points": "{count, plural, one { {count} pont} other {{count} pont}}"
                 },
-                "rank": "",
-                "votes_link": "",
+                "rank": "{rank}",
+                "votes_link": "Szavazatok",
                 "points": ""
             },
             "modal": {
-                "downvotes_label": "",
-                "title": "",
-                "upvotes_label": ""
+                "downvotes_label": "Leszavazók:",
+                "title": "Szavazók",
+                "upvotes_label": "Felszavazók:"
             },
-            "mod_item": "",
+            "mod_item": "Szavazók megtekintése",
             "voters": {
-                "none": "",
-                "label": "",
-                "label_none": ""
+                "none": "Még nincsenek szavazók",
+                "label": "Szavazók",
+                "label_none": "Nincsenek szavazók"
             },
             "post": {
-                "upvote_button": "",
-                "downvote_button": ""
+                "upvote_button": "Bejegyzés felszavazása",
+                "downvote_button": "Bejegyzés leszavazása"
             }
         },
         "admin": {
             "permissions": {
-                "vote_label": "",
-                "see_votes_label": "",
-                "see_voters_label": "",
-                "see_ranking_page": "",
-                "upvote_notifications": "",
-                "downvote_notifications": ""
+                "vote_label": "Bejegyzés fel- vagy leszavazása",
+                "see_votes_label": "Fel- és leszavazások számának megtekintése",
+                "see_voters_label": "Megtekintés, hogy ki szavazott",
+                "see_ranking_page": "Rangsor oldal megtekintése",
+                "upvote_notifications": "Értesítés fogadása, ha felszavazzák",
+                "downvote_notifications": "Értesítés fogadása, ha leszavazzák"
             },
             "page": {
                 "rankings": {
                     "blocked": {
-                        "placeholder": "",
-                        "title": "",
-                        "help": ""
+                        "placeholder": "CDK2020, Ralkage, AngelAvila",
+                        "title": "Figyelmen kívül hagyott felhasználók",
+                        "help": "Ezek a felhasználók nem jelennek meg a rangsor oldalon. A felhasználóneveket vesszővel és egy azt követő szóközzel kell elválasztani."
                     },
-                    "title": "",
-                    "enable": "",
-                    "custom_image_1": "",
-                    "custom_image_2": "",
-                    "custom_image_3": ""
+                    "title": "Rangsor oldal",
+                    "enable": "Egyéni képek engedélyezése",
+                    "custom_image_1": "1. helyezett képe",
+                    "custom_image_2": "2. helyezett képe",
+                    "custom_image_3": "3. helyezett képe"
                 },
                 "alt_votes": {
-                    "icon_name": ""
+                    "icon_name": "Alternatív elrendezés ikonneve"
                 },
                 "votes": {
-                    "points_title": "",
-                    "points_placeholder": "",
-                    "color_holder": "",
-                    "auto_upvote": "",
-                    "rate_limit": "",
-                    "discussion_page": "",
-                    "alternate_layout": "",
-                    "alternate_post_layout": "",
-                    "title": "",
-                    "vote_color": "",
-                    "icon_name": "",
-                    "icon_help": "",
-                    "upvotes_only": "",
-                    "first_post_only": ""
+                    "points_title": "Pontok helykitöltője",
+                    "points_placeholder": "Pontok: ",
+                    "color_holder": "#ffffff",
+                    "auto_upvote": "Bejegyzések automatikus felpontozása közzétételkor",
+                    "rate_limit": "Szavazási sebesség korlátozásának betartatása (10 másodperc)",
+                    "discussion_page": "Eredeti bejegyzés összes szavazatának megjelenítése a témalistában",
+                    "alternate_layout": "Alternatív szavazási elrendezés a témalistában",
+                    "alternate_post_layout": "Alternatív szavazási elrendezés a bejegyzéseknél",
+                    "title": "Szavazatok",
+                    "vote_color": "Leadott szavazat jelzőszíne",
+                    "icon_name": "Fel- és leszavazási ikon",
+                    "icon_help": "Adja meg bármelyik Font-Awesome ikont, amelyik -up és -down utótaggal rendelkezik. Példák: arrow, thumbs, chevron.",
+                    "upvotes_only": "Csak felszavazás engedélyezése",
+                    "first_post_only": "A fel- és leszavazás engedélyezése csak a téma első bejegyzésénél"
                 },
-                "save_settings": "",
+                "save_settings": "Beállítások mentése",
                 "convert": {
-                    "button": "",
-                    "help": "",
-                    "converting": "",
-                    "converted": ""
+                    "button": "Kedvelések átalakítása felszavazásokká",
+                    "help": "Átalakítja a flarum-ext-likes bővítményből származó kedvelések felszavazásokká, valamit kiszámítja az összes jelenlegi téma népszerűségét.",
+                    "converting": "A kedvelései most kerülnek átalakításra. Frissítse az oldalt pár perc múlva, hogy lássa a folyamat végét. (Az átalakítás eltarthat egy ideig, az összes kedvelés számától függően)",
+                    "converted": "Mind a(z) {number} kedvelés sikeresen átalakítva"
                 },
                 "ranks": {
-                    "title": "",
-                    "ranks": "",
-                    "number_title": "",
+                    "title": "Rangok",
+                    "ranks": "Egyéni rangok",
+                    "number_title": "Hány rangjelvény jelenjen meg?",
                     "help": {
-                        "color": "",
-                        "help": "",
-                        "points": "",
-                        "name": ""
+                        "color": "#ffffff",
+                        "help": "Adja meg a szükséges felszavazások számát, a rang nevét és a rang színének hexa kódját",
+                        "points": "Pontok",
+                        "name": "Név"
                     }
                 }
             }
         },
         "email": {
             "body": {
-                "postVoted": ""
+                "postVoted": "Kedves {recipient_display_name}!\n\n{actor_display_name} szavazott a bejegyzésére itt: {discussion_title}.\n\nTekintse meg itt: {discussion_url}\n"
             },
             "subject": {
-                "postVoted": ""
+                "postVoted": "Szavaztak a bejegyzésére itt: {display_name}"
             }
         }
     }
