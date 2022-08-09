@@ -2,13 +2,13 @@
     "blomstra-s3-assets": {
         "admin": {
             "settings": {
-                "configured_by_environment": "",
-                "aws-section": "",
-                "s3-compatible-section": "",
-                "s3-compatible-section-help": "",
+                "configured_by_environment": "Paket ayarlarınız önceden yapılandırılmış, burada görülecek bir şey yok.",
+                "aws-section": "Bu ayarlar hem AWS S3 hem de S3 uyumlu paketler için gereklidir",
+                "s3-compatible-section": "Bu ayarlar yalnızca S3 uyumlu paketler için gereklidir",
+                "s3-compatible-section-help": "AWS S3 kullanıyorsanız bu ayarları boş bırakın",
                 "s3key": {
-                    "label": "",
-                    "help": ""
+                    "label": "Anahtar",
+                    "help": "yardım"
                 }
             }
         }
