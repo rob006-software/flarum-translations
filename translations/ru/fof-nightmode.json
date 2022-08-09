@@ -8,7 +8,7 @@
         "admin": {
             "settings": {
                 "modal": {
-                    "always_show_theme_toggle_on_header": "",
+                    "always_show_theme_toggle_on_header": "Всегда показывать кнопку переключения темы в заголовке форума",
                     "default_theme": "Тема по умолчанию",
                     "default_theme_helper": "Тема по умолчанию автоматически устанавливается для новых пользователей, гостей, а также для тех, кто самостоятельно не указал желаемые параметры темы у себя в профиле.",
                     "theme_auto": "=> fof-nightmode.ref.auto",
@@ -48,10 +48,10 @@
     "fof-default-user-preferences": {
         "admin": {
             "settings": {
-                "fofNightMode": "",
-                "fofNightMode-help": "",
-                "fofNightMode_perDevice": "",
-                "fofNightMode_perDevice-help": ""
+                "fofNightMode": "FoF Nightmode: Цветовая тема, используемая по умолчанию",
+                "fofNightMode-help": "0 - авто, 1 - светлый режим, 2 - тёмный режим",
+                "fofNightMode_perDevice": "FoF Nightmode: Использовать разные настройки для каждого устройства",
+                "fofNightMode_perDevice-help": "Использовать настройки ночного режима индивидуально для каждого устройства пользователя"
             }
         }
     }
