@@ -29,7 +29,7 @@
                 "post": "Összecsukott"
             },
             "stream": {
-                "hidden": "{count} bejegyzés elrejtve a következő ok miatt: {reason}",
+                "hidden": "{count, plural, one {#} other {#}} bejegyzés elrejtve a következő ok miatt: {reason}",
                 "load": "Továbbiak betöltése",
                 "explanation": "Miért látja ezt?"
             }
