@@ -2,11 +2,11 @@
     "blomstra-realtime": {
         "forum": {
             "push": {
-                "discussion-list-new-activity": "{count} frissített téma megjelenítése",
+                "discussion-list-new-activity": "{count, plural, one {#} other {#}} frissített téma megjelenítése",
                 "discussion-list-new-activity-with-auto-release": "{count, plural, one {# témánál volt friss tevékenység, és {releaseTimeout} másodperc múlva lesz} other {# témánál volt friss tevékenység, és {releaseTimeout} másodperc múlva lesznek}} elengedve. Kattintson ide az azonnali megjelenítéshez."
             },
             "typing-indicator": {
-                "people-are-typing": "{number} ember gépel",
+                "people-are-typing": "{number, plural, one {#} other {#}} ember gépel",
                 "no-activity": "Senki sem gépel"
             }
         },
