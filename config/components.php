@@ -955,6 +955,9 @@ return [
 	'spookygames-auth-keycloak' => [
 		'tag' => 'https://raw.githubusercontent.com/spookygames/flarum-ext-auth-keycloak/1.0.0.5/locale/en.yml',
 	],
+	'starsrivers-mathren' => [
+		'tag' => 'https://raw.githubusercontent.com/StarsRivers/flarum-mathren/v1.0.5/locale/en.yml',
+	],
 	'swaggymacro-only-starter' => [
 		'tag' => 'https://raw.githubusercontent.com/SwaggyMacro/OnlyStarter/0.6.4/resources/locale/en.yml',
 	],
