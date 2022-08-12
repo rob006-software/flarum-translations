@@ -21,8 +21,8 @@
                 "empty_text": "Nem található egyetlen felhasználó sem a keresése alapján.",
                 "filter_button": "Csoportok szűrése",
                 "usercard": {
-                    "discussion-count": "{count} téma",
-                    "post-count": "{count} bejegyzés"
+                    "discussion-count": "{count, plural, one {#} other {#}} téma",
+                    "post-count": "{count, plural, one {#} other {#}} bejegyzés"
                 }
             }
         },
