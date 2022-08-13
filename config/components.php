@@ -259,6 +259,9 @@ return [
 	'clarkwinkelmann-see-past-first-post' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-see-past-first-post/1.3.0/resources/locale/en.yml',
 	],
+	'clarkwinkelmann-selective-mediaembed' => [
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-selective-mediaembed/1.0.0/resources/locale/en.yml',
+	],
 	'clarkwinkelmann-shadow-ban' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-shadow-ban/1.1.0/resources/locale/en.yml',
 	],
