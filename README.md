@@ -542,6 +542,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`clarkwinkelmann-scout`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-scout) | [`clarkwinkelmann/flarum-ext-scout`](https://github.com/clarkwinkelmann/flarum-ext-scout) |
 | [`clarkwinkelmann-scratchpad`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-scratchpad) | [`clarkwinkelmann/flarum-ext-scratchpad`](https://github.com/clarkwinkelmann/flarum-ext-scratchpad) |
 | [`clarkwinkelmann-see-past-first-post`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-see-past-first-post) | [`clarkwinkelmann/flarum-ext-see-past-first-post`](https://github.com/clarkwinkelmann/flarum-ext-see-past-first-post) |
+| [`clarkwinkelmann-selective-mediaembed`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-selective-mediaembed) | [`clarkwinkelmann/flarum-ext-selective-mediaembed`](https://github.com/clarkwinkelmann/flarum-ext-selective-mediaembed) |
 | [`clarkwinkelmann-shadow-ban`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-shadow-ban) | [`clarkwinkelmann/flarum-ext-shadow-ban`](https://github.com/clarkwinkelmann/flarum-ext-shadow-ban) |
 | [`clarkwinkelmann-status`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-status) | [`clarkwinkelmann/flarum-ext-status`](https://github.com/clarkwinkelmann/flarum-ext-status) |
 | [`clarkwinkelmann-translation-inspector`](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-translation-inspector) | [`clarkwinkelmann/flarum-ext-translation-inspector`](https://github.com/clarkwinkelmann/flarum-ext-translation-inspector) |
@@ -588,6 +589,7 @@ Missing extension? Read [this](https://github.com/rob006-software/flarum-transla
 | [`ianm-gravatar`](https://weblate.rob006.net/projects/flarum/ianm-gravatar) | [`ianm/gravatar`](https://github.com/imorland/gravatar) |
 | [`ianm-html-head`](https://weblate.rob006.net/projects/flarum/ianm-html-head) | [`ianm/html-head`](https://github.com/imorland/html-head) |
 | [`ianm-level-ranks`](https://weblate.rob006.net/projects/flarum/ianm-level-ranks) | [`ianm/level-ranks`](https://github.com/imorland/level-ranks) |
+| [`ianm-no-meta-title`](https://weblate.rob006.net/projects/flarum/ianm-no-meta-title) | [`ianm/no-meta-title`](https://github.com/imorland/no-meta-title) |
 | [`ianm-oauth-amazon`](https://weblate.rob006.net/projects/flarum/ianm-oauth-amazon) | [`ianm/oauth-amazon`](https://github.com/imorland/flarum-ext-oauth-amazon) |
 | [`ianm-syndication`](https://weblate.rob006.net/projects/flarum/ianm-syndication) | [`ianm/syndication`](https://github.com/imorland/syndication) |
 | [`ianm-synopsis`](https://weblate.rob006.net/projects/flarum/ianm-synopsis) | [`ianm/synopsis`](https://github.com/imorland/synopsis) |
