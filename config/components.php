@@ -971,7 +971,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-github-milestone/v0.1.2/locale/en.yml',
 	],
 	'sycho-move-posts' => [
-		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-move-posts/v0.1.6/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/SychO9/flarum-move-posts/v0.1.7/locale/en.yml',
 	],
 	'sycho-private-facade' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/sycho-private-facade.yml',
