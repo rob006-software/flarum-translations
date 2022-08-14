@@ -23,7 +23,7 @@ return [
 	],
 	/* extensions list begin */
 	'3ddario-tag-color-swiss-army-knife' => [
-		'tag' => 'https://raw.githubusercontent.com/3DDario/flarum-ext-tag-color-swiss-army-knife/v1.1.0/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/3DDario/flarum-ext-tag-color-swiss-army-knife/v1.2.0/locale/en.yml',
 	],
 	'acpl-lscache' => [
 		'tag' => 'https://raw.githubusercontent.com/android-com-pl/flarum-lscache/0.4.1/locale/en.yml',
