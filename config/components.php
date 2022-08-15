@@ -443,7 +443,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/amazon-affiliation/1.0.1/resources/locale/en.yml',
 	],
 	'fof-analytics' => [
-		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/analytics/1.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/analytics/1.1.0/resources/locale/en.yml',
 	],
 	'fof-ban-ips' => [
 		'tag' => 'https://raw.githubusercontent.com/FriendsOfFlarum/ban-ips/1.0.2/resources/locale/en.yml',
