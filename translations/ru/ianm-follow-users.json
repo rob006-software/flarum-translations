@@ -5,10 +5,13 @@
                 "be_followed_label": "Разрешать пользователям подписываться друг на друга"
             },
             "settings": {
-                "button-on-profile-label": ""
+                "button-on-profile-label": "",
+                "stats-on-profile-label": ""
             }
         },
         "forum": {
+            "followed": "",
+            "followers": "",
             "profile_link": "=> ianm-follow-users.lib.following_link",
             "profile_page": {
                 "no_following": "Похоже, вы ни на кого не подписаны."
