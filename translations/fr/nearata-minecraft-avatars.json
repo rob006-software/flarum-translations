@@ -1,15 +1,25 @@
 {
     "nearata-minecraft-avatars": {
+        "admin": {
+            "retrieve_avatar_on_register": {
+                "label": "",
+                "help": ""
+            }
+        },
         "forum": {
+            "help_text": "Doit être un nom d'utilisateur ou un UUID valide (en clair ou en pointillés).",
+            "submit_button": "Enregistrer les modifications",
+            "username_uuid_not_valid": "Nom d'utilisateur ou UUID non valide.",
+            "username_not_found": "Nom d'utilisateur introuvable.",
+            "placeholder": "",
+            "userpage_nav_button": "",
+            "minotar_enabled": "",
+            "page_title": "",
             "avatar_changed": "L'avatar a été modifié.",
             "use_button": "Utiliser l'avatar de Minecraft",
             "change_button": "Modifier l'avatar de Minecraft",
             "dismiss_button": "OK",
-            "help_text": "Doit être un nom d'utilisateur ou un UUID valide (en clair ou en pointillés).",
-            "title": "Avatars de Minecraft",
-            "submit_button": "Enregistrer les modifications",
-            "username_uuid_not_valid": "Nom d'utilisateur ou UUID non valide.",
-            "username_not_found": "Nom d'utilisateur introuvable."
+            "title": "Avatars de Minecraft"
         }
     }
 }
