@@ -211,6 +211,9 @@ return [
 	'clarkwinkelmann-group-list' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-group-list/1.0.0/resources/locale/en.yml',
 	],
+	'clarkwinkelmann-ipsum-autocomplete' => [
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-ipsum-autocomplete/1.0.0/locale/en.yml',
+	],
 	'clarkwinkelmann-jwt-cookie-login' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-jwt-cookie-login/1.0.0/resources/locale/en.yml',
 	],
