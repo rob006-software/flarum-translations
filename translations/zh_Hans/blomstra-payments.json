@@ -1,10 +1,18 @@
 {
+    "core": {
+        "forum": {
+            "index_sort": {
+                "mostBacked_button": ""
+            }
+        }
+    },
     "blomstra-payments": {
         "forum": {
             "stripe": {
                 "interval_once": ""
             },
             "subscription-card": {
+                "bounty": "",
                 "ptv": "",
                 "pta": "",
                 "ptb": "",
@@ -27,6 +35,19 @@
                 "description": "",
                 "purchase-control": "",
                 "purchase-log-in": ""
+            },
+            "bounties": {
+                "purchase-control": "",
+                "enable-control": ""
+            },
+            "choose-bounty-amount-modal": {
+                "title": "",
+                "checkout-control": "",
+                "description": ""
+            },
+            "backers-widget": {
+                "label": "",
+                "none": ""
             },
             "tag": {
                 "require-payment-label": "费用"
@@ -56,7 +77,9 @@
                 "select-ptb-product": "",
                 "select-ptb-product-description": "",
                 "bump-others": "",
-                "bump-others-description": ""
+                "bump-others-description": "",
+                "select-bounty-product": "",
+                "select-bounty-description": ""
             },
             "edit-group": {
                 "select-pta-product": "收费计划（PTA 付费加入）",
@@ -67,6 +90,9 @@
                 "sk": "Secret (api) key",
                 "webhook-secret": "Webhook signing secret",
                 "link-access-portal": "在用户会话下拉菜单中链接访问门户"
+            },
+            "permission": {
+                "enable-bounties": ""
             }
         }
     }

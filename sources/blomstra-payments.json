@@ -1,10 +1,18 @@
 {
+    "core": {
+        "forum": {
+            "index_sort": {
+                "mostBacked_button": "Most backed"
+            }
+        }
+    },
     "blomstra-payments": {
         "forum": {
             "stripe": {
                 "interval_once": "once"
             },
             "subscription-card": {
+                "bounty": "Bounty",
                 "ptv": "Paid to view",
                 "pta": "Paid to access",
                 "ptb": "Paid to bump",
@@ -27,6 +35,19 @@
                 "description": "{count, plural, one {This discussion was bumped} other {{count} people bumped this discussion}}.",
                 "purchase-control": "Pay to Bump",
                 "purchase-log-in": "Log In & Pay to Bump"
+            },
+            "bounties": {
+                "purchase-control": "Add Bounty",
+                "enable-control": "Enable Bounties"
+            },
+            "choose-bounty-amount-modal": {
+                "title": "Choose bounty amount",
+                "checkout-control": "Checkout",
+                "description": "Select your amount for supporting \"{subject}\" or choose a custom amount."
+            },
+            "backers-widget": {
+                "label": "{sum} backed",
+                "none": "No backers yet."
             },
             "tag": {
                 "require-payment-label": "Payment Required"
@@ -56,7 +77,9 @@
                 "select-ptb-product": "(PTB) Required product",
                 "select-ptb-product-description": "Selecting a product will require payment of that product before being able to bump a discussion.\n",
                 "bump-others": "(PTB) Allow others to bump discussions",
-                "bump-others-description": "If enabled, not just the discussion author can bump discussions with a payment.\n"
+                "bump-others-description": "If enabled, not just the discussion author can bump discussions with a payment.\n",
+                "select-bounty-product": "(Bounty) Required product",
+                "select-bounty-description": "Select a product will set it up for bounties. The product can only have one Price with model: \"Custom chooses price\". Copy the ID of the product starting with <code>prod_</code> into this field.\n"
             },
             "edit-group": {
                 "select-pta-product": "(PTA) Required product",
@@ -67,6 +90,9 @@
                 "sk": "Secret (api) key",
                 "webhook-secret": "Webhook signing secret",
                 "link-access-portal": "Link access portal under user session dropdown"
+            },
+            "permission": {
+                "enable-bounties": "Enable bounties"
             }
         }
     }

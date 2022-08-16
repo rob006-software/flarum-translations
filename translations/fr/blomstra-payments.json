@@ -1,10 +1,18 @@
 {
+    "core": {
+        "forum": {
+            "index_sort": {
+                "mostBacked_button": ""
+            }
+        }
+    },
     "blomstra-payments": {
         "forum": {
             "stripe": {
                 "interval_once": "une fois"
             },
             "subscription-card": {
+                "bounty": "",
                 "ptv": "Payé pour voir",
                 "pta": "Payé pour accéder",
                 "ptb": "Payé pour remonter",
@@ -27,6 +35,19 @@
                 "description": "{count, plural, one {Cette discussion a été remontée} other {{count} personnes ont remonté cette discussion}}.",
                 "purchase-control": "Payer pour remonter",
                 "purchase-log-in": "Se connecter et payer pour remonter"
+            },
+            "bounties": {
+                "purchase-control": "",
+                "enable-control": ""
+            },
+            "choose-bounty-amount-modal": {
+                "title": "",
+                "checkout-control": "",
+                "description": ""
+            },
+            "backers-widget": {
+                "label": "",
+                "none": ""
             },
             "tag": {
                 "require-payment-label": "Paiement requis"
@@ -56,7 +77,9 @@
                 "select-ptb-product": "(PPR) Produit requis",
                 "select-ptb-product-description": "La sélection d'un produit nécessite le paiement de ce produit avant de pouvoir remonter une discussion.\n",
                 "bump-others": "(PPR) Permettre aux autres de remonter les discussions",
-                "bump-others-description": "Si cette option est activée, l'auteur de la discussion ne sera pas le seul à pouvoir remonter les discussions en payant.\n"
+                "bump-others-description": "Si cette option est activée, l'auteur de la discussion ne sera pas le seul à pouvoir remonter les discussions en payant.\n",
+                "select-bounty-product": "",
+                "select-bounty-description": ""
             },
             "edit-group": {
                 "select-pta-product": "(PPA) Produit nécessaire",
@@ -67,6 +90,9 @@
                 "sk": "Clé secrète (API)",
                 "webhook-secret": "Signature secrète du Webhook",
                 "link-access-portal": "Lien vers le portail d'accès sous le menu déroulant de la session de l'utilisateur"
+            },
+            "permission": {
+                "enable-bounties": ""
             }
         }
     }

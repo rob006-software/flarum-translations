@@ -1,10 +1,18 @@
 {
+    "core": {
+        "forum": {
+            "index_sort": {
+                "mostBacked_button": ""
+            }
+        }
+    },
     "blomstra-payments": {
         "forum": {
             "stripe": {
                 "interval_once": "egyszer"
             },
             "subscription-card": {
+                "bounty": "",
                 "ptv": "Fizetett a megtekintésért",
                 "pta": "Fizetett a hozzéférésért",
                 "ptb": "Fizetett a kiemelésért",
@@ -27,6 +35,19 @@
                 "description": "{count, plural, one {Ez a téma ki lett emelve} other {{count} ember emelte ki ezt a témát}}.",
                 "purchase-control": "Fizetés a kiemeléshez",
                 "purchase-log-in": "Bejelentkezés és fizetés a kiemeléshez"
+            },
+            "bounties": {
+                "purchase-control": "",
+                "enable-control": ""
+            },
+            "choose-bounty-amount-modal": {
+                "title": "",
+                "checkout-control": "",
+                "description": ""
+            },
+            "backers-widget": {
+                "label": "",
+                "none": ""
             },
             "tag": {
                 "require-payment-label": "Fizetés szükséges"
@@ -56,7 +77,9 @@
                 "select-ptb-product": "(PTB) Kötelező termék",
                 "select-ptb-product-description": "A termék kiválasztása a fizetés után lehetővé teszi egy téma kiemelését.\n",
                 "bump-others": "(PTB) Mások is kiemelhetik a témát",
-                "bump-others-description": "Ha be van kapcsolva, akkor nem csak a téma szerzője emelheti ki a témát fizetés ellenében.\n"
+                "bump-others-description": "Ha be van kapcsolva, akkor nem csak a téma szerzője emelheti ki a témát fizetés ellenében.\n",
+                "select-bounty-product": "",
+                "select-bounty-description": ""
             },
             "edit-group": {
                 "select-pta-product": "(PTA) Kötelező termék",
@@ -67,6 +90,9 @@
                 "sk": "Titkos (API) kulcs",
                 "webhook-secret": "Webhook aláírási titka",
                 "link-access-portal": "Hozzáférési portál hivatkozása a felhasználói legördülő menüben"
+            },
+            "permission": {
+                "enable-bounties": ""
             }
         }
     }

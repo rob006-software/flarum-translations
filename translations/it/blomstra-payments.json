@@ -1,10 +1,18 @@
 {
+    "core": {
+        "forum": {
+            "index_sort": {
+                "mostBacked_button": ""
+            }
+        }
+    },
     "blomstra-payments": {
         "forum": {
             "stripe": {
                 "interval_once": ""
             },
             "subscription-card": {
+                "bounty": "",
                 "ptv": "",
                 "pta": "",
                 "ptb": "",
@@ -27,6 +35,19 @@
                 "description": "",
                 "purchase-control": "",
                 "purchase-log-in": ""
+            },
+            "bounties": {
+                "purchase-control": "",
+                "enable-control": ""
+            },
+            "choose-bounty-amount-modal": {
+                "title": "",
+                "checkout-control": "",
+                "description": ""
+            },
+            "backers-widget": {
+                "label": "",
+                "none": ""
             },
             "tag": {
                 "require-payment-label": "Pagamento Richiesto"
@@ -56,7 +77,9 @@
                 "select-ptb-product": "",
                 "select-ptb-product-description": "",
                 "bump-others": "",
-                "bump-others-description": ""
+                "bump-others-description": "",
+                "select-bounty-product": "",
+                "select-bounty-description": ""
             },
             "edit-group": {
                 "select-pta-product": "(PTA) Prodotto richiesto",
@@ -67,6 +90,9 @@
                 "sk": "Chiave (api) Segreta",
                 "webhook-secret": "Firma del Webhook",
                 "link-access-portal": "Collega il portale di accesso nel menu a discesa della sessione utente"
+            },
+            "permission": {
+                "enable-bounties": ""
             }
         }
     }
