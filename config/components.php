@@ -625,6 +625,9 @@ return [
 	'glowingblue-redis-setup' => [
 		'tag' => 'https://raw.githubusercontent.com/glowingblue/flarum-ext-redis-setup/1.2.0/resources/locale/en.yml',
 	],
+	'hamzone-auth-wechat' => [
+		'tag' => 'https://raw.githubusercontent.com/HamZone/flarum-ext-auth-wechat/1.0.0/resources/locale/en.yml',
+	],
 	'hehongyuanlove-auth-qq' => [
 		'tag' => 'https://raw.githubusercontent.com/Hehongyuanlove/flarum-auth-qq/1.3.2/resources/locale/en.yml',
 	],
