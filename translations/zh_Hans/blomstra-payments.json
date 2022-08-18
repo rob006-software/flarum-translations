@@ -8,6 +8,11 @@
     },
     "blomstra-payments": {
         "forum": {
+            "accept-terms-modal": {
+                "accept_label": "",
+                "continue_button": "",
+                "title": ""
+            },
             "stripe": {
                 "interval_once": ""
             },
@@ -89,7 +94,8 @@
                 "pk": "公钥（api）",
                 "sk": "Secret (api) key",
                 "webhook-secret": "Webhook signing secret",
-                "link-access-portal": "在用户会话下拉菜单中链接访问门户"
+                "link-access-portal": "在用户会话下拉菜单中链接访问门户",
+                "link-to-terms": ""
             },
             "permission": {
                 "enable-bounties": ""

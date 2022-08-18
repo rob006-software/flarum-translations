@@ -8,6 +8,11 @@
     },
     "blomstra-payments": {
         "forum": {
+            "accept-terms-modal": {
+                "accept_label": "",
+                "continue_button": "",
+                "title": ""
+            },
             "stripe": {
                 "interval_once": "egyszer"
             },
@@ -89,7 +94,8 @@
                 "pk": "Közzétehető (API) kulcs",
                 "sk": "Titkos (API) kulcs",
                 "webhook-secret": "Webhook aláírási titka",
-                "link-access-portal": "Hozzáférési portál hivatkozása a felhasználói legördülő menüben"
+                "link-access-portal": "Hozzáférési portál hivatkozása a felhasználói legördülő menüben",
+                "link-to-terms": ""
             },
             "permission": {
                 "enable-bounties": ""

@@ -8,6 +8,11 @@
     },
     "blomstra-payments": {
         "forum": {
+            "accept-terms-modal": {
+                "accept_label": "",
+                "continue_button": "",
+                "title": ""
+            },
             "stripe": {
                 "interval_once": "bir kere"
             },
@@ -89,7 +94,8 @@
                 "pk": "Publishable (api) anahtarı",
                 "sk": "Secret (api) anahtarı",
                 "webhook-secret": "Webhook imzalama secret",
-                "link-access-portal": "Kullanıcı açılır menüsünde erişim portalı için bağlantı"
+                "link-access-portal": "Kullanıcı açılır menüsünde erişim portalı için bağlantı",
+                "link-to-terms": ""
             },
             "permission": {
                 "enable-bounties": ""

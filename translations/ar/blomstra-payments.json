@@ -8,6 +8,11 @@
     },
     "blomstra-payments": {
         "forum": {
+            "accept-terms-modal": {
+                "accept_label": "",
+                "continue_button": "",
+                "title": ""
+            },
             "stripe": {
                 "interval_once": ""
             },
@@ -89,7 +94,8 @@
                 "pk": "",
                 "sk": "",
                 "webhook-secret": "",
-                "link-access-portal": ""
+                "link-access-portal": "",
+                "link-to-terms": ""
             },
             "permission": {
                 "enable-bounties": ""

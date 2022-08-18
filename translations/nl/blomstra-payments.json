@@ -8,6 +8,11 @@
     },
     "blomstra-payments": {
         "forum": {
+            "accept-terms-modal": {
+                "accept_label": "",
+                "continue_button": "",
+                "title": ""
+            },
             "stripe": {
                 "interval_once": ""
             },
@@ -89,7 +94,8 @@
                 "pk": "Publieke (api) key",
                 "sk": "Geheime (api) key",
                 "webhook-secret": "Webhook geheime ondertekening",
-                "link-access-portal": "Voeg een link naar het toegangsportaal toe aan de gebruikersmenu"
+                "link-access-portal": "Voeg een link naar het toegangsportaal toe aan de gebruikersmenu",
+                "link-to-terms": ""
             },
             "permission": {
                 "enable-bounties": ""

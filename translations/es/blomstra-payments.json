@@ -8,6 +8,11 @@
     },
     "blomstra-payments": {
         "forum": {
+            "accept-terms-modal": {
+                "accept_label": "",
+                "continue_button": "",
+                "title": ""
+            },
             "stripe": {
                 "interval_once": ""
             },
@@ -89,7 +94,8 @@
                 "pk": "Clave publicable (api)",
                 "sk": "Clave secreta (api)",
                 "webhook-secret": "Secreto de firma del webhook",
-                "link-access-portal": "Enlace del portal de acceso en el menú desplegable de la sesión de usuario"
+                "link-access-portal": "Enlace del portal de acceso en el menú desplegable de la sesión de usuario",
+                "link-to-terms": ""
             },
             "permission": {
                 "enable-bounties": ""

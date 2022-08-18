@@ -8,6 +8,11 @@
     },
     "blomstra-payments": {
         "forum": {
+            "accept-terms-modal": {
+                "accept_label": "",
+                "continue_button": "",
+                "title": ""
+            },
             "stripe": {
                 "interval_once": ""
             },
@@ -89,7 +94,8 @@
                 "pk": "Mã khóa xuất bản (api)",
                 "sk": "Mã khoá bí mật (api)",
                 "webhook-secret": "Mã bí mật Webhook",
-                "link-access-portal": "Liên kết cổng truy cập trong dropdown phiên người dùng"
+                "link-access-portal": "Liên kết cổng truy cập trong dropdown phiên người dùng",
+                "link-to-terms": ""
             },
             "permission": {
                 "enable-bounties": ""
