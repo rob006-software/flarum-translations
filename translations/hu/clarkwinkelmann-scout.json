@@ -6,7 +6,8 @@
                 "driverOption": {
                     "null": "Nincs",
                     "algolia": "Algolia",
-                    "meilisearch": "Meilisearch"
+                    "meilisearch": "Meilisearch",
+                    "tntsearch": ""
                 },
                 "prefix": "Indexnév előtagja (nem kötelező)",
                 "algoliaId": "Algolia azonosító",
@@ -15,7 +16,12 @@
                 "algoliaReadTimeout": "Algolia olvasási időtúllépés (nem kötelező)",
                 "algoliaWriteTimeout": "Algolia írási időtúllépés (nem kötelező)",
                 "meilisearchHost": "Meilisearch gazdagép",
-                "meilisearchKey": "Meilisearch kulcs"
+                "meilisearchKey": "Meilisearch kulcs",
+                "tntsearchMaxDocs": "",
+                "tntsearchFuzziness": "",
+                "tntsearchFuzzyDistance": "",
+                "tntsearchFuzzyPrefixLength": "",
+                "tntsearchFuzzyMaxExpansions": ""
             }
         }
     }

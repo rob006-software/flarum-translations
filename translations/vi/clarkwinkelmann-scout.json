@@ -6,7 +6,8 @@
                 "driverOption": {
                     "null": "Rỗng",
                     "algolia": "Algolia",
-                    "meilisearch": "Meilisearch"
+                    "meilisearch": "Meilisearch",
+                    "tntsearch": ""
                 },
                 "prefix": "Tiền tố tên chỉ mục (tùy chọn)",
                 "algoliaId": "ID Algolia",
@@ -15,7 +16,12 @@
                 "algoliaReadTimeout": "Timeout đọc Algolia (tùy chọn)",
                 "algoliaWriteTimeout": "Timeout viết Algolia (tùy chọn)",
                 "meilisearchHost": "Host Meilisearch",
-                "meilisearchKey": "Mã key Meilisearch"
+                "meilisearchKey": "Mã key Meilisearch",
+                "tntsearchMaxDocs": "",
+                "tntsearchFuzziness": "",
+                "tntsearchFuzzyDistance": "",
+                "tntsearchFuzzyPrefixLength": "",
+                "tntsearchFuzzyMaxExpansions": ""
             }
         }
     }

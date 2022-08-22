@@ -6,7 +6,8 @@
                 "driverOption": {
                     "null": "",
                     "algolia": "",
-                    "meilisearch": ""
+                    "meilisearch": "",
+                    "tntsearch": ""
                 },
                 "prefix": "",
                 "algoliaId": "",
@@ -15,7 +16,12 @@
                 "algoliaReadTimeout": "",
                 "algoliaWriteTimeout": "",
                 "meilisearchHost": "",
-                "meilisearchKey": ""
+                "meilisearchKey": "",
+                "tntsearchMaxDocs": "",
+                "tntsearchFuzziness": "",
+                "tntsearchFuzzyDistance": "",
+                "tntsearchFuzzyPrefixLength": "",
+                "tntsearchFuzzyMaxExpansions": ""
             }
         }
     }

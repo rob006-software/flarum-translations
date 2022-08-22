@@ -6,7 +6,8 @@
                 "driverOption": {
                     "null": "Null",
                     "algolia": "Algolia",
-                    "meilisearch": "Meilisearch"
+                    "meilisearch": "Meilisearch",
+                    "tntsearch": ""
                 },
                 "prefix": "Präfix des Indexnamens (optional)",
                 "algoliaId": "Algolia-ID",
@@ -15,7 +16,12 @@
                 "algoliaReadTimeout": "Algolia Read Timeout (optional)",
                 "algoliaWriteTimeout": "Algolia Write Timeout (optional)",
                 "meilisearchHost": "Meilisearch-Host",
-                "meilisearchKey": "Meilisearch-Schlüssel"
+                "meilisearchKey": "Meilisearch-Schlüssel",
+                "tntsearchMaxDocs": "",
+                "tntsearchFuzziness": "",
+                "tntsearchFuzzyDistance": "",
+                "tntsearchFuzzyPrefixLength": "",
+                "tntsearchFuzzyMaxExpansions": ""
             }
         }
     }
