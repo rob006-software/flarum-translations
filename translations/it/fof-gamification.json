@@ -28,10 +28,10 @@
             },
             "user": {
                 "card": {
-                    "points": ""
+                    "points": "{count, plural, one { {count} punto} other {{count} punti}}"
                 },
                 "rank": "{rank}",
-                "votes_link": "",
+                "votes_link": "Voti",
                 "points": "Punti: {points}"
             },
             "modal": {
