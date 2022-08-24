@@ -14,7 +14,6 @@
 declare(strict_types=1);
 
 use app\components\release\PolishReleaseGenerator;
-use function rob006\flarum\translations\helpers\getComponents;
 
 return [
 	'ar' => [
@@ -174,7 +173,13 @@ return [
 	'pl' => [
 		'type' => 'language',
 		'language' => 'pl',
-		'releaseGenerator' => PolishReleaseGenerator::class,
+		'releaseGenerator' => [
+			'class' => PolishReleaseGenerator::class,
+			'versionTemplate' => 'v0.Major.Minor',
+			'localePath' => __DIR__ . '/subsplitsLocale/pl.json',
+			'fallbackLocalePath' => __DIR__ . '/subsplitsLocale/en.json',
+			'maintainers' => ['rob006'],
+		],
 		'repository' => 'git@github.com:rob006-software/flarum-lang-polish.git',
 		'branch' => 'master',
 		'path' => '/locale',
