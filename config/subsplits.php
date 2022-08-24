@@ -124,7 +124,7 @@ return [
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'Major.Minor.Patch',
-			// 'localePath' => __DIR__ . '/subsplitsLocale/it.json',
+			'localePath' => __DIR__ . '/subsplitsLocale/it.json',
 			'fallbackLocalePath' => __DIR__ . '/subsplitsLocale/en.json',
 			'maintainers' => ['justoverclockl'],
 		],
