@@ -14,6 +14,7 @@
 declare(strict_types=1);
 
 use app\components\release\PolishReleaseGenerator;
+use app\components\release\ReleaseGenerator;
 
 return [
 	'ar' => [
@@ -120,6 +121,13 @@ return [
 		'repository' => 'git@github.com:flarum-lang/italian.git',
 		'branch' => 'main',
 		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+			// 'localePath' => __DIR__ . '/subsplitsLocale/it.json',
+			'fallbackLocalePath' => __DIR__ . '/subsplitsLocale/en.json',
+			'maintainers' => ['justoverclockl'],
+		],
 	],
 	'ja' => [
 		'type' => 'language',
