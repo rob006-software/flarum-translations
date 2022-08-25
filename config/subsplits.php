@@ -124,10 +124,8 @@ return [
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => 'Major.Minor.Patch',
-			'localePath' => __DIR__ . '/subsplitsLocale/it.json',
-			'fallbackLocalePath' => __DIR__ . '/subsplitsLocale/en.json',
-			'maintainers' => ['justoverclockl'],
 		],
+		'maintainers' => ['justoverclockl'],
 	],
 	'ja' => [
 		'type' => 'language',
@@ -181,16 +179,14 @@ return [
 	'pl' => [
 		'type' => 'language',
 		'language' => 'pl',
-		'releaseGenerator' => [
-			'class' => PolishReleaseGenerator::class,
-			'versionTemplate' => 'v0.Major.Minor',
-			'localePath' => __DIR__ . '/subsplitsLocale/pl.json',
-			'fallbackLocalePath' => __DIR__ . '/subsplitsLocale/en.json',
-			'maintainers' => ['rob006'],
-		],
 		'repository' => 'git@github.com:rob006-software/flarum-lang-polish.git',
 		'branch' => 'master',
 		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => PolishReleaseGenerator::class,
+			'versionTemplate' => 'v0.Major.Minor',
+		],
+		'maintainers' => ['rob006'],
 	],
 	'pt' => [
 		'type' => 'language',
