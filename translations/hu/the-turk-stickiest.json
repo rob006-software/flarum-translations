@@ -2,36 +2,36 @@
     "the-turk-stickiest": {
         "admin": {
             "permissions": {
-                "super_sticky_discussions_label": "",
-                "tag_sticky_discussions_label": ""
+                "super_sticky_discussions_label": "Szuperragadós témák",
+                "tag_sticky_discussions_label": "Címkében ragadós témák"
             },
             "settings": {
-                "badge_icon_label": "",
-                "badge_icon_text": "",
-                "display_tag_sticky_label": "",
-                "display_tag_sticky_text": ""
+                "badge_icon_label": "Szuperragadós témák jelvényikonja",
+                "badge_icon_text": "=> core.ref.icon_text",
+                "display_tag_sticky_label": "Címkében ragadós témák megjelenítése az „Összes téma” listában",
+                "display_tag_sticky_text": "Szokásos témaként lesznek kezelve, nem tapadnak a lista tetejéhez."
             }
         },
         "forum": {
             "badge": {
-                "sticky_tooltip": "",
-                "super_sticky_tooltip": "",
-                "tag_sticky_tooltip": "",
-                "super_tag_sticky_tooltip": ""
+                "sticky_tooltip": "=> the-turk-stickiest.ref.sticky",
+                "super_sticky_tooltip": "=> the-turk-stickiest.ref.super_sticky",
+                "tag_sticky_tooltip": "=> the-turk-stickiest.ref.tag_sticky",
+                "super_tag_sticky_tooltip": "=> the-turk-stickiest.ref.super_tag_sticky"
             },
             "stickiest_modal": {
-                "title": "",
-                "sticky_label": "",
-                "sticky_text": "",
-                "super_sticky_label": "",
-                "super_sticky_text": "",
-                "tag_sticky_label": "",
-                "tag_sticky_text": "",
-                "tags_label": "",
-                "submit_button": ""
+                "title": "Ragadós: {title}",
+                "sticky_label": "=> flarum-sticky.ref.sticky",
+                "sticky_text": "A ragadós témák az „Összes téma” lista tetejéhez tapadnak, ha olvasatlanok. Ha egy konkrét címként néz, amely a témához van rendelve, akkor mindig a tetejéhez fog tapadni.",
+                "super_sticky_label": "=> the-turk-stickiest.ref.super_sticky",
+                "super_sticky_text": "A szuperragadós témák mindig a tetejéhez tapadnak, akármi is legyen.",
+                "tag_sticky_label": "=> the-turk-stickiest.ref.tag_sticky",
+                "tag_sticky_text": "A címkék ragadós témái alapértelmezetten rejtettek az „Összes téma” listában. Csak akkor jelennek meg, ha az egyik olyan címkét nézi meg, amelyet most kiválaszt. Ez a beállítás kombinálható a „szuperragadóssal”.",
+                "tags_label": "=> flarum-tags.ref.tags",
+                "submit_button": "=> core.ref.save_changes"
             },
             "discussion_controls": {
-                "sticky_button": "",
+                "sticky_button": "=> flarum-sticky.forum.discussion_controls.sticky_button",
                 "unsticky_button": "",
                 "super_sticky_button": "",
                 "common_sticky_button": "",
@@ -39,17 +39,17 @@
                 "all_sticky_button": ""
             },
             "post_stream": {
-                "discussion_stickied_text": "",
-                "discussion_unstickied_text": "",
-                "discussion_super_stickied_text": "",
-                "discussion_common_stickied_text": ""
+                "discussion_stickied_text": "=> flarum-sticky.forum.post_stream.discussion_stickied_text",
+                "discussion_unstickied_text": "=> flarum-sticky.forum.post_stream.discussion_unstickied_text",
+                "discussion_super_stickied_text": "{username} szuperragadósnak jelölte a témát.",
+                "discussion_common_stickied_text": "{username} megszüntette a téma szuperragadósnak jelölését."
             }
         },
         "ref": {
-            "sticky": "",
-            "super_sticky": "",
-            "tag_sticky": "",
-            "super_tag_sticky": ""
+            "sticky": "=> flarum-sticky.ref.sticky",
+            "super_sticky": "Szuperragadós",
+            "tag_sticky": "Címkében ragadós",
+            "super_tag_sticky": "Címkében szuperragadós"
         }
     }
 }
