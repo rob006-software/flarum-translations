@@ -175,6 +175,9 @@ return [
 	'clarkwinkelmann-default-image-alt' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-default-image-alt/1.0.1/locale/en.yml',
 	],
+	'clarkwinkelmann-discussion-bookmarks' => [
+		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-discussion-bookmarks/2.0.0/resources/locale/en.yml',
+	],
 	'clarkwinkelmann-discussion-open-position' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-discussion-open-position/1.0.0/locale/en.yml',
 	],
