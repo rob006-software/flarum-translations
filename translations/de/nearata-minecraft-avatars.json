@@ -2,19 +2,19 @@
     "nearata-minecraft-avatars": {
         "admin": {
             "retrieve_avatar_on_register": {
-                "label": "",
-                "help": ""
+                "label": "Avatar bei der Registrierung abrufen",
+                "help": "Wenn es keinen Minecraft-Account mit diesem Benutzernamen gibt wird Steve oder Alex als Standard-Skin gesetzt."
             }
         },
         "forum": {
-            "help_text": "Gebe einen Minecraft Nutzernamen oder eine UUID ein.",
+            "help_text": "Der Benutzername wird in eine UUID umgewandelt.",
             "submit_button": "Änderungen speichern",
             "username_uuid_not_valid": "Ungültiger Nutzername oder UUID.",
             "username_not_found": "Nutzername nicht gefunden.",
-            "placeholder": "",
-            "userpage_nav_button": "",
-            "minotar_enabled": "",
-            "page_title": "",
+            "placeholder": "Benutzername oder UUID",
+            "userpage_nav_button": "Minecraft Avatare",
+            "minotar_enabled": "Aktiviert",
+            "page_title": "Minecraft Avatare",
             "avatar_changed": "Dein Avatar wurde gespeichert.",
             "use_button": "Minecraft Avatar verwenden",
             "change_button": "Minecraft Avatar ändern",
