@@ -911,7 +911,7 @@ return [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-cakeday/v2.1.0/resources/locale/en.yml',
 	],
 	'nearata-copy-code-to-clipboard' => [
-		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-copy-code-to-clipboard/v2.0.0/resources/locale/en.yml',
+		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-copy-code-to-clipboard/v2.1.0/resources/locale/en.yml',
 	],
 	'nearata-dsts' => [
 		'tag' => 'https://raw.githubusercontent.com/Nearata/flarum-ext-dsts/v2.1.0/resources/locale/en.yml',
