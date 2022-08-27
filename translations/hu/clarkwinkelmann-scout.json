@@ -7,7 +7,7 @@
                     "null": "Nincs",
                     "algolia": "Algolia",
                     "meilisearch": "Meilisearch",
-                    "tntsearch": ""
+                    "tntsearch": "TNTSearch"
                 },
                 "prefix": "Indexnév előtagja (nem kötelező)",
                 "algoliaId": "Algolia azonosító",
@@ -17,11 +17,11 @@
                 "algoliaWriteTimeout": "Algolia írási időtúllépés (nem kötelező)",
                 "meilisearchHost": "Meilisearch gazdagép",
                 "meilisearchKey": "Meilisearch kulcs",
-                "tntsearchMaxDocs": "",
-                "tntsearchFuzziness": "",
-                "tntsearchFuzzyDistance": "",
-                "tntsearchFuzzyPrefixLength": "",
-                "tntsearchFuzzyMaxExpansions": ""
+                "tntsearchMaxDocs": "TNT keresés dokumentumainak legnagyobb száma (nem kötelező, találatok legnagyobb száma)",
+                "tntsearchFuzziness": "TNT fuzzy keresés (elírások/variációk egyezése)",
+                "tntsearchFuzzyDistance": "TNT fuzzy keresés Levenshtein-távolsága (nem kötelező)",
+                "tntsearchFuzzyPrefixLength": "TNT fuzzy keresés előtaghossza (nem kötelező)",
+                "tntsearchFuzzyMaxExpansions": "TNT fuzzy keresés kibontásainak legnagyobb száma (nem kötelező)"
             }
         }
     }
