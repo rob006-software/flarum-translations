@@ -2,22 +2,22 @@
     "core": {
         "forum": {
             "index_sort": {
-                "mostBacked_button": ""
+                "mostBacked_button": "Legtöbbet támogatott"
             }
         }
     },
     "blomstra-payments": {
         "forum": {
             "accept-terms-modal": {
-                "accept_label": "",
-                "continue_button": "",
-                "title": ""
+                "accept_label": "Elolvastam és elfogadom a <link>fizetési feltételeket</link>.",
+                "continue_button": "Fizetés folytatása",
+                "title": "Feltételek elfogadása"
             },
             "stripe": {
                 "interval_once": "egyszer"
             },
             "subscription-card": {
-                "bounty": "",
+                "bounty": "Jutalom",
                 "ptv": "Fizetett a megtekintésért",
                 "pta": "Fizetett a hozzéférésért",
                 "ptb": "Fizetett a kiemelésért",
@@ -42,17 +42,17 @@
                 "purchase-log-in": "Bejelentkezés és fizetés a kiemeléshez"
             },
             "bounties": {
-                "purchase-control": "",
-                "enable-control": ""
+                "purchase-control": "Jutalom hozzáadása",
+                "enable-control": "Jutalmak engedélyezése"
             },
             "choose-bounty-amount-modal": {
-                "title": "",
-                "checkout-control": "",
-                "description": ""
+                "title": "Válassza ki a jutalom összegét",
+                "checkout-control": "Fizetés",
+                "description": "Válassza ki a(z) „{subject}” támogatásra szánt összegét vagy adjon meg egyéni összeget."
             },
             "backers-widget": {
-                "label": "",
-                "none": ""
+                "label": "{sum} fő támogatta",
+                "none": "Még nincsenek támogatók."
             },
             "tag": {
                 "require-payment-label": "Fizetés szükséges"
@@ -83,8 +83,8 @@
                 "select-ptb-product-description": "A termék kiválasztása a fizetés után lehetővé teszi egy téma kiemelését.\n",
                 "bump-others": "(PTB) Mások is kiemelhetik a témát",
                 "bump-others-description": "Ha be van kapcsolva, akkor nem csak a téma szerzője emelheti ki a témát fizetés ellenében.\n",
-                "select-bounty-product": "",
-                "select-bounty-description": ""
+                "select-bounty-product": "(Jutalom) Kötelező termék",
+                "select-bounty-description": "A termék kiválasztása engedélyezi a jutalom beállítását. A terméknek csak egy ára lehet a modellel: „Egyéni ár választása”. Másolja a <code>prod_</code> szöveggel kezdődő azonosítót ebbe a mezőben.\n"
             },
             "edit-group": {
                 "select-pta-product": "(PTA) Kötelező termék",
@@ -95,10 +95,10 @@
                 "sk": "Titkos (API) kulcs",
                 "webhook-secret": "Webhook aláírási titka",
                 "link-access-portal": "Hozzáférési portál hivatkozása a felhasználói legördülő menüben",
-                "link-to-terms": ""
+                "link-to-terms": "Fizetési feltételek webcíme"
             },
             "permission": {
-                "enable-bounties": ""
+                "enable-bounties": "Jutalmak engedélyezése"
             }
         }
     }
