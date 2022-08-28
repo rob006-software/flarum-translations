@@ -2,14 +2,14 @@
     "datlechin-bbcode-hide-content": {
         "admin": {
             "permissions": {
-                "bypass_like_label": "",
-                "bypass_reply_label": ""
+                "bypass_like_label": "Kedvelési követelmény megkerülése",
+                "bypass_reply_label": "Válaszolási követelmény megkerülése"
             }
         },
         "forum": {
-            "must_be_logged_in": "",
-            "must_liked": "",
-            "must_replied": ""
+            "must_be_logged_in": "Be kell jelentkeznie a tartalom megtekintéséhez",
+            "must_liked": "Kedvelnie kell a tartalom megtekintéséhez",
+            "must_replied": "Válaszolnia kell a tartalom megtekintéséhez"
         }
     }
 }
