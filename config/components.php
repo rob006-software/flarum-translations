@@ -616,6 +616,9 @@ return [
 	'ganuonglachanh-sonic' => [
 		'tag' => 'https://raw.githubusercontent.com/ganuonglachanh/flarum-sonic/0.1.5/resources/locale/en.yml',
 	],
+	'gitzaai-hljs2' => [
+		'tag' => 'https://raw.githubusercontent.com/gitzaai/flarum-ext-hljs2/2.0/resources/locale/en.yml',
+	],
 	'glowingblue-localizd' => [
 		'tag' => 'https://raw.githubusercontent.com/extiverse/premium-translations/master/glowingblue-localizd.yml',
 	],
