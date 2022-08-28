@@ -27,6 +27,10 @@
                 "errors": {
                     "missing_assets": "Nous n'avons pas pu charger les ressources nécessaires à cette extension. Essayez d'exécuter <code>php flarum assets:publish</code> et vérifiez si cela résout le problème.",
                     "loading_data": "Une erreur s'est produite lors de la récupération des données locales et nationales. Essayez de désactiver et de réactiver l'extension."
+                },
+                "config": {
+                    "language_label": "",
+                    "country_label": ""
                 }
             },
             "permissions": {
