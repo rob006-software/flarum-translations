@@ -2,24 +2,24 @@
     "datlechin-more-discussions": {
         "admin": {
             "settings": {
-                "block_name_label": "",
-                "block_name_help": "",
-                "discussion_limit_label": "",
-                "discussion_limit_help": "",
-                "filter_by_label": "",
-                "filter_by_help": "",
+                "block_name_label": "Blokk neve",
+                "block_name_help": "A blokk neve (alapértelmezett: <code>Legfrissebb témák</code>)",
+                "discussion_limit_label": "Témakorlát",
+                "discussion_limit_help": "A megjelenítendő témák száma (alapértelmezett: <code>5</code>)",
+                "filter_by_label": "Szűrés",
+                "filter_by_help": "Témák szűrése (alapértelezett: <code>legfrissebb</code>)",
                 "filter_dropdown": {
-                    "latest": "",
-                    "top": "",
-                    "newest": "",
-                    "oldest": "",
-                    "hot": "",
-                    "votes": ""
+                    "latest": "Legfrissebb",
+                    "top": "Legnépszerűbb",
+                    "newest": "Legújabb",
+                    "oldest": "Legrégebbi",
+                    "hot": "Felkapott (fof/gamification szükséges)",
+                    "votes": "Felszavazások (fof/gamification szükséges)"
                 }
             }
         },
         "forum": {
-            "block_default_name": ""
+            "block_default_name": "Legfrissebb témák"
         }
     }
 }
