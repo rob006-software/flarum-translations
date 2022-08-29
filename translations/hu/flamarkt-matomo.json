@@ -3,12 +3,12 @@
         "admin": {
             "settings": {
                 "url": "Matomo-kiszolgáló domainje vagy webcíme",
-                "siteId": "",
-                "trackAccounts": "",
+                "siteId": "Oldalazonosító",
+                "trackAccounts": "Egyéni felhasználói fiókok követése",
                 "trackAccountsOptions": {
-                    "none": "",
-                    "username": "",
-                    "email": ""
+                    "none": "Ne kövessen",
+                    "username": "Követés felhasználónév alapján",
+                    "email": "Követés e-mail-cím alapján"
                 }
             }
         }
