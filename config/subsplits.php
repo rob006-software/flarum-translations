@@ -97,6 +97,11 @@ return [
 		'repository' => 'git@github.com:aprold/flarum-lang-estonian.git',
 		'branch' => 'master',
 		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => ['aprold'],
 	],
 	'fa' => [
 		'type' => 'language',
