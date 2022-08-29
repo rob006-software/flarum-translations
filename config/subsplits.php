@@ -161,7 +161,7 @@ return [
 			'class' => ReleaseGenerator::class,
 			'versionTemplate' => '0.Major.Minor',
 		],
-		'maintainers' => ['Hari-Bonda', 'meetdilip'],
+		'maintainers' => ['meetdilip'],
 	],
 	'hu' => [
 		'type' => 'language',
