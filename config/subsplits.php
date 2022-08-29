@@ -83,6 +83,11 @@ return [
 		'repository' => 'git@github.com:flarum-lang/german.git',
 		'branch' => 'master',
 		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => ['Kakifrucht'],
 	],
 	'es' => [
 		'type' => 'language',
