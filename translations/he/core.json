@@ -121,9 +121,7 @@
                     "button_label": "קרא אותי",
                     "no_readme": "הרחבה זו אינה כוללת קובץ README",
                     "title": "מסמכי ההרחבה {extName}"
-                },
-                "confirm_uninstall": "בהסרת ההרחבה יוסרו את כל הערכים והנכסים של מסד הנתונים. האם ברצונך להמשיך?",
-                "uninstall_button": "הסרה"
+                }
             },
             "header": {
                 "get_help": "השגת עזרה",
@@ -306,8 +304,7 @@
                 "replied_text": "{username} הגיב {ago}",
                 "started_text": "{username} יצר {ago}",
                 "total_replies_a11y_label": "{count, plural, one {תגובה #} other {# תגובות}}",
-                "unread_replies_a11y_label": "{count, plural, one {הודעה שלא נקראה #} other {# הודעות שלא נקראו}}. סימון {count, plural, one {reply} other {replies}} כנקרא.",
-                "mark_as_read_tooltip": "סמן כנקרא"
+                "unread_replies_a11y_label": "{count, plural, one {הודעה שלא נקראה #} other {# הודעות שלא נקראו}}. סימון {count, plural, one {reply} other {replies}} כנקרא."
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -575,10 +572,6 @@
                 "new_password_label": "סיסמה חדשה",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
-            },
-            "meta_titles": {
-                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: עמוד # - {forumName}}}",
-                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {עמוד # - {forumName}}}"
             }
         },
         "api": {
