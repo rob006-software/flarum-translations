@@ -289,20 +289,20 @@
 		</td>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/icecore2/Flarum-hebrew">Hebrew</a></td>
+		<td><a href="https://github.com/flarum-lang/hebrew">Hebrew</a></td>
 		<td align="right">
-			<a href="https://github.com/icecore2/Flarum-hebrew/tags">
-				<img src="https://img.shields.io/github/release-date/flabrew/flabrew" alt="last release" />
+			<a href="https://github.com/flarum-lang/hebrew/tags">
+				<img src="https://img.shields.io/github/release-date/flraum-lang/hebrew" alt="last release" />
 			</a>
 		</td>
 		<td>
-			<a href="https://github.com/icecore2/Flarum-hebrew/commits">
-				<img src="https://img.shields.io/github/commits-since/flabrew/flabrew/latest" alt="commits since last release" />
+			<a href="https://github.com/flarum-lang/hebrew/commits">
+				<img src="https://img.shields.io/github/commits-since/flraum-lang/hebrew/latest" alt="commits since last release" />
 			</a>
 		</td>
 		<td>
-			<a href="https://packagist.org/packages/flabrew/flabrew/stats">
-				<img src="https://img.shields.io/packagist/dm/flabrew/flabrew" alt="downloads (monthly)" />
+			<a href="https://packagist.org/packages/flraum-lang/hebrew/stats">
+				<img src="https://img.shields.io/packagist/dm/flraum-lang/hebrew" alt="downloads (monthly)" />
 			</a>
 		</td>
 		<td align="right">
