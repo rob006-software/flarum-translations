@@ -23,6 +23,10 @@ return [
 		'repository' => 'git@github.com:neerugupta/flarum-lang-arabic.git',
 		'branch' => 'master',
 		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'v0.Major.Minor',
+		],
 		'maintainers' => ['neerugupta'],
 	],
 	'az' => [
