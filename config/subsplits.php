@@ -142,7 +142,7 @@ return [
 	'he' => [
 		'type' => 'language',
 		'language' => 'he',
-		'repository' => 'git@github.com:icecore2/Flarum-hebrew.git',
+		'repository' => 'git@github.com:flarum-lang/hebrew.git',
 		'branch' => 'master',
 		'path' => '/locale',
 		'releaseGenerator' => [
