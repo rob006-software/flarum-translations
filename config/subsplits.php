@@ -169,6 +169,11 @@ return [
 		'repository' => 'git@github.com:flarum-lang/hungarian.git',
 		'branch' => 'master',
 		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'vMajor.Minor.Patch',
+		],
+		'maintainers' => ['meskobalazs', 'Rebootcodesoft'],
 	],
 	'it' => [
 		'type' => 'language',
