@@ -35,6 +35,11 @@ return [
 		'repository' => 'git@github.com:flarum-lang/azerbaijani.git',
 		'branch' => 'master',
 		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => ['khayal011'],
 	],
 	'bn' => [
 		'type' => 'language',
