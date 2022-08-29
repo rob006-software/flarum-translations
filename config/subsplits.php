@@ -116,6 +116,11 @@ return [
 		'repository' => 'git@github.com:flarum-lang/finnish.git',
 		'branch' => 'master',
 		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'vMajor.Minor.Patch',
+		],
+		'maintainers' => ['MarkoKaartinen'],
 	],
 	'fr' => [
 		'type' => 'language',
