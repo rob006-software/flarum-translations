@@ -47,6 +47,11 @@ return [
 		'repository' => 'git@github.com:flarum-lang/bengali.git',
 		'branch' => 'master',
 		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => ['mueenulit'],
 	],
 	'cs' => [
 		'type' => 'language',
