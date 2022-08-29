@@ -145,6 +145,11 @@ return [
 		'repository' => 'git@github.com:icecore2/Flarum-hebrew.git',
 		'branch' => 'master',
 		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => ['icecore2'],
 	],
 	'hi' => [
 		'type' => 'language',
