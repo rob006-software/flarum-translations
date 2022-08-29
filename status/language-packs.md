@@ -59,7 +59,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>⚠️ <a href="https://github.com/flarum-lang/bengali">Bangla</a></td>
+		<td><a href="https://github.com/flarum-lang/bengali">Bangla</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/bengali/tags">
 				<img src="https://img.shields.io/github/release-date/flarum-lang/bengali" alt="last release" />
@@ -82,7 +82,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>⚠️ <a href="https://github.com/flarum-lang/chinese-simplified">Chinese (Simplified)</a></td>
+		<td><a href="https://github.com/flarum-lang/chinese-simplified">Chinese (Simplified)</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/chinese-simplified/tags">
 				<img src="https://img.shields.io/github/release-date/flarum-lang/chinese-simplified" alt="last release" />
