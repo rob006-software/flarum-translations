@@ -292,17 +292,17 @@
 		<td><a href="https://github.com/flarum-lang/hebrew">Hebrew</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/hebrew/tags">
-				<img src="https://img.shields.io/github/release-date/flraum-lang/hebrew" alt="last release" />
+				<img src="https://img.shields.io/github/release-date/flarum-lang/hebrew" alt="last release" />
 			</a>
 		</td>
 		<td>
 			<a href="https://github.com/flarum-lang/hebrew/commits">
-				<img src="https://img.shields.io/github/commits-since/flraum-lang/hebrew/latest" alt="commits since last release" />
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/hebrew/latest" alt="commits since last release" />
 			</a>
 		</td>
 		<td>
-			<a href="https://packagist.org/packages/flraum-lang/hebrew/stats">
-				<img src="https://img.shields.io/packagist/dm/flraum-lang/hebrew" alt="downloads (monthly)" />
+			<a href="https://packagist.org/packages/flarum-lang/hebrew/stats">
+				<img src="https://img.shields.io/packagist/dm/flarum-lang/hebrew" alt="downloads (monthly)" />
 			</a>
 		</td>
 		<td align="right">
@@ -312,7 +312,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>⚠️ <a href="https://github.com/flarum-lang/hindi">Hindi</a></td>
+		<td><a href="https://github.com/flarum-lang/hindi">Hindi</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/hindi/tags">
 				<img src="https://img.shields.io/github/release-date/flarum-lang/hindi" alt="last release" />
