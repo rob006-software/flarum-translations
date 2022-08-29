@@ -180,6 +180,7 @@ return [
 		'repository' => 'git@github.com:flarum-lang/georgian.git',
 		'branch' => 'master',
 		'path' => '/locale',
+		'maintainers' => [],
 	],
 	'ko' => [
 		'type' => 'language',
