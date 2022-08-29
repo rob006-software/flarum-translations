@@ -174,7 +174,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>⚠️ <a href="https://github.com/aprold/flarum-lang-estonian">Estonian</a></td>
+		<td><a href="https://github.com/aprold/flarum-lang-estonian">Estonian</a></td>
 		<td align="right">
 			<a href="https://github.com/aprold/flarum-lang-estonian/tags">
 				<img src="https://img.shields.io/github/release-date/aprold/flarum-lang-estonian" alt="last release" />
