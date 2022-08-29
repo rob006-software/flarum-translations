@@ -59,6 +59,11 @@ return [
 		'repository' => 'git@github.com:madnest/flarum-lang-czech.git',
 		'branch' => 'master',
 		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'vMajor.Minor.Patch',
+		],
+		'maintainers' => ['theimerj'],
 	],
 	'da' => [
 		'type' => 'language',
