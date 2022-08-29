@@ -128,7 +128,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>⚠️ <a href="https://github.com/flarum-lang/danish">Danish</a></td>
+		<td><a href="https://github.com/flarum-lang/danish">Danish</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/danish/tags">
 				<img src="https://img.shields.io/github/release-date/flarum-lang/danish" alt="last release" />
