@@ -30,8 +30,7 @@
             "settings": {
                 "full-text": {
                     "label": "Flux de texte intégral",
-                    "help": "Si cette option est désactivée, les flux ne contiendront que des extraits de messages et les utilisateurs devront se rendre sur le forum lire leur intégralité. Il est recommandé de laisser cette option active afin de respecter les personnes qui suivent le forum à partir d'un agrégateur RSS - s'il y en a un.",
-                    "recommendation": "Nous recommandons de laisser cette option active pour respecter les personnes qui suivent le forum depuis un agrégateur RSS — si tel est le cas."
+                    "help": "Si cette option est désactivée, les flux ne contiendront que des extraits de messages et les utilisateurs devront se rendre sur le forum lire leur intégralité. Il est recommandé de laisser cette option active afin de respecter les personnes qui suivent le forum à partir d'un agrégateur RSS - s'il y en a un."
                 },
                 "html": {
                     "label": "Flux formatés",
@@ -45,8 +44,7 @@
                 "forum-link-format": {
                     "label": "Format du flux du forum",
                     "help": "Sélectionnez le format (Atom ou RSS) à utiliser lorsque les liens sont affichés sur le forum."
-                },
-                "title": "Paramètres de syndication"
+                }
             }
         }
     }

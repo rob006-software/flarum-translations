@@ -121,9 +121,7 @@
                     "button_label": "README",
                     "no_readme": "Cette extension ne semble pas avoir de fichier README",
                     "title": "Documentation de {extName}"
-                },
-                "confirm_uninstall": "La désinstallation supprimera toutes les entrées de la base de données et les ressources liées à l'extension. Êtes-vous sûr de vouloir continuer ?",
-                "uninstall_button": "Désinstaller"
+                }
             },
             "header": {
                 "get_help": "Obtenir de l'aide",
@@ -306,8 +304,7 @@
                 "replied_text": "{username} a répondu à cette discussion {ago}",
                 "started_text": "{username} a démarré cette discussion {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# réponse} other {# réponses}}",
-                "unread_replies_a11y_label": "{count, plural, one {# réponse non lue} other {# réponses non lues}}. Marquer {count, plural, one {réponse non lue comme lue} other {réponses non lues comme lues}}.",
-                "mark_as_read_tooltip": "Marquer comme lu"
+                "unread_replies_a11y_label": "{count, plural, one {# réponse non lue} other {# réponses non lues}}. Marquer {count, plural, one {réponse non lue comme lue} other {réponses non lues comme lues}}."
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -575,10 +572,6 @@
                 "new_password_label": "Nouveau mot de passe",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
-            },
-            "meta_titles": {
-                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle} : Page # - {forumName}}}",
-                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Page # - {forumName}}}"
             }
         },
         "api": {

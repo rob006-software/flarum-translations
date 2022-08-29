@@ -19,18 +19,13 @@
                 "risky_performance_improvements_help": "Ces améliorations accélèrent l'exécution de la tâche CRON sur des ensembles de données de plusieurs millions de lignes, mais peuvent nuire à la compatibilité avec certaines extensions.",
                 "modes": {
                     "runtime": "Durée d'exécution",
-                    "multi_file": "Fichiers multiples",
-                    "cache": "Cache",
-                    "cache_disk": "Disque"
+                    "multi_file": "Fichiers multiples"
                 },
                 "frequency": {
                     "hourly": "Toutes les heures",
                     "twice_daily": "Deux fois par jour",
                     "daily": "Quotidiennement"
-                },
-                "mode_help_cache_disk_label": "Mode cache/Mode disque",
-                "mode_help_cache_disk": "Idéal pour les forums de petite ou moyenne taille, probablement hébergés sur des environnements autorisant les tâches cron et permettant le planificateur de Flarum (voir ci-dessous), et avec des discussions, des utilisateurs, des étiquettes et des pages totalisant moins de 50 000 éléments.",
-                "title": "Sitemap de FoF"
+                }
             }
         }
     }

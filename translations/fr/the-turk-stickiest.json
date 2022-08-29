@@ -31,12 +31,7 @@
                 "submit_button": "=> core.ref.save_changes"
             },
             "discussion_controls": {
-                "sticky_button": "=> flarum-sticky.forum.discussion_controls.sticky_button",
-                "unsticky_button": "=> flarum-sticky.forum.discussion_controls.unsticky_button",
-                "super_sticky_button": "=> the-turk-stickiest.ref.super_sticky",
-                "common_sticky_button": "Épingle commune",
-                "tag_sticky_button": "=> the-turk-stickiest.ref.tag_sticky",
-                "all_sticky_button": "Toutes les épingles"
+                "sticky_button": "=> flarum-sticky.forum.discussion_controls.sticky_button"
             },
             "post_stream": {
                 "discussion_stickied_text": "=> flarum-sticky.forum.post_stream.discussion_stickied_text",
