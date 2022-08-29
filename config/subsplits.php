@@ -202,7 +202,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => ReleaseGenerator::class,
-			'versionTemplate' => 'Major.Minor.Patch',
+			'versionTemplate' => 'vMajor.Minor.Patch',
 		],
 		'maintainers' => ['jaspervriends', 'MichaelBelgium'],
 	],
