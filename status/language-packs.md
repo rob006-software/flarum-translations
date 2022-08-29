@@ -266,7 +266,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>⚠️ <a href="https://github.com/flarum-lang/german">German</a></td>
+		<td><a href="https://github.com/flarum-lang/german">German</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/german/tags">
 				<img src="https://img.shields.io/github/release-date/flarum-lang/german" alt="last release" />
