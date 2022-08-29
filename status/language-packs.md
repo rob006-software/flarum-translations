@@ -105,7 +105,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>⚠️ <a href="https://github.com/madnest/flarum-lang-czech">Czech</a></td>
+		<td><a href="https://github.com/madnest/flarum-lang-czech">Czech</a></td>
 		<td align="right">
 			<a href="https://github.com/madnest/flarum-lang-czech/tags">
 				<img src="https://img.shields.io/github/release-date/madnest/flarum-lang-czech" alt="last release" />
