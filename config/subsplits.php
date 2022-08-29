@@ -71,6 +71,11 @@ return [
 		'repository' => 'git@github.com:flarum-lang/danish.git',
 		'branch' => 'master',
 		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => ['DeliciousDanny', 'davwheat'],
 	],
 	'de' => [
 		'type' => 'language',
