@@ -157,6 +157,11 @@ return [
 		'repository' => 'git@github.com:flarum-lang/hindi.git',
 		'branch' => 'master',
 		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => '0.Major.Minor',
+		],
+		'maintainers' => ['Hari-Bonda', 'meetdilip'],
 	],
 	'hu' => [
 		'type' => 'language',
