@@ -300,5 +300,10 @@ return [
 		'repository' => 'git@github.com:flarum-lang/chinese-simplified.git',
 		'branch' => 'master',
 		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'vMajor.Minor.Patch',
+		],
+		'maintainers' => ['littlegolden'],
 	],
 ];
