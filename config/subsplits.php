@@ -128,6 +128,11 @@ return [
 		'repository' => 'git@github.com:flarum-lang/french.git',
 		'branch' => 'master',
 		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'vMajor.Minor.Patch',
+		],
+		'maintainers' => ['Hiobi', 'qiaeru'],
 	],
 	'he' => [
 		'type' => 'language',
