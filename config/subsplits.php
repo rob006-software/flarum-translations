@@ -200,6 +200,11 @@ return [
 		'repository' => 'git@github.com:flarum-lang/dutch.git',
 		'branch' => 'main',
 		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => ['jaspervriends', 'MichaelBelgium'],
 	],
 	'pl' => [
 		'type' => 'language',
