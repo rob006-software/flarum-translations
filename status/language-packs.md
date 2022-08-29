@@ -13,7 +13,7 @@
 </thead>
 <tbody>
 	<tr>
-		<td>⚠️ <a href="https://github.com/neerugupta/flarum-lang-arabic">Arabic</a></td>
+		<td><a href="https://github.com/neerugupta/flarum-lang-arabic">Arabic</a></td>
 		<td align="right">
 			<a href="https://github.com/neerugupta/flarum-lang-arabic/tags">
 				<img src="https://img.shields.io/github/release-date/neerugupta/flarum-lang-arabic" alt="last release" />
