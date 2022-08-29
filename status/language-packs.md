@@ -289,7 +289,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>⚠️ <a href="https://github.com/icecore2/Flarum-hebrew">Hebrew</a></td>
+		<td><a href="https://github.com/icecore2/Flarum-hebrew">Hebrew</a></td>
 		<td align="right">
 			<a href="https://github.com/icecore2/Flarum-hebrew/tags">
 				<img src="https://img.shields.io/github/release-date/flabrew/flabrew" alt="last release" />
