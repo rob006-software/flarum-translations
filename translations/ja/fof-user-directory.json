@@ -5,7 +5,7 @@
                 "back_to_user_directory_tooltip": ""
             },
             "search": {
-                "users_heading": "「{query}」を含むユーザーを探す",
+                "users_heading": "\"{query}\"でユーザーを検索",
                 "field": {
                     "placeholder": ""
                 },
@@ -15,10 +15,10 @@
                 }
             },
             "page": {
-                "nav": "ユーザーリスト",
-                "refresh_tooltip": "",
-                "load_more_button": "",
-                "empty_text": "",
+                "nav": "ユーザー一覧",
+                "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
+                "load_more_button": "=> core.ref.load_more",
+                "empty_text": "検索条件に該当するユーザーは見つかりませんでした",
                 "filter_button": "",
                 "usercard": {
                     "discussion-count": "",
@@ -28,27 +28,27 @@
         },
         "admin": {
             "permissions": {
-                "view_user_directory": "ユーザーリストを見る"
+                "view_user_directory": "ユーザー一覧の表示"
             },
             "settings": {
-                "link": "ユーザーが見えるユーザーリストのリンクをホームページに表示する",
-                "default-sort": "",
+                "link": "権限を持つユーザーにユーザー一覧へのリンクを表示",
+                "default-sort": "標準の並び順",
                 "use-small-cards": "",
                 "disable-global-search-source": ""
             }
         },
         "lib": {
             "sort": {
-                "not_specified": "",
-                "default": "",
-                "username_az": "",
-                "username_za": "",
-                "newest": "",
-                "oldest": "",
-                "most_posts": "",
-                "least_posts": "",
-                "most_discussions": "",
-                "least_discussions": ""
+                "not_specified": "Flarumの標準",
+                "default": "標準",
+                "username_az": "名前順 (a-z)",
+                "username_za": "名前順 (z-a)",
+                "newest": "参加日時：新しい順",
+                "oldest": "参加日時：古い順",
+                "most_posts": "投稿数：多い順",
+                "least_posts": "投稿数：少ない順",
+                "most_discussions": "スレッド作成数：多い順",
+                "least_discussions": "スレッド作成数：少ない順"
             }
         }
     }

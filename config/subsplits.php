@@ -200,9 +200,14 @@ return [
 	'ja' => [
 		'type' => 'language',
 		'language' => 'ja',
-		'repository' => 'git@github.com:FFans/lang-japanese.git',
+		'repository' => 'git@github.com:flarum-lang/japanese.git',
 		'branch' => 'master',
 		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'vMajor.Minor.Patch',
+		],
+		'maintainers' => ['takumi9942'],
 	],
 	'ka' => [
 		'type' => 'language',
