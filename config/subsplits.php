@@ -362,6 +362,11 @@ return [
 		'repository' => 'git@github.com:flarum-lang/swedish.git',
 		'branch' => 'main',
 		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => ['Dzenan', 'gustjoha'],
 	],
 	'ta' => [
 		'type' => 'language',
