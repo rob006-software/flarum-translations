@@ -180,7 +180,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 		</td>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/edevrob/flarum-lang-latvian">Latvian</a></td>
+		<td><a href="https://github.com/flarum-lang/latvian">Latvian</a></td>
 		<td><a href="https://github.com/edevrob">edevrob</a></td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/lv.html" title="Click to see detailed translation status for each extension">
