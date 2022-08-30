@@ -726,7 +726,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>⚠️ <a href="https://github.com/flarum-lang/tamil">Tamil</a></td>
+		<td><a href="https://github.com/flarum-lang/tamil">Tamil</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/tamil/tags">
 				<img src="https://img.shields.io/github/release-date/flarum-lang/tamil" alt="last release" />
