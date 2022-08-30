@@ -208,6 +208,11 @@ return [
 		'repository' => 'git@github.com:flarum-lang/korean.git',
 		'branch' => 'master',
 		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'v0.Major.Minor',
+		],
+		'maintainers' => ['hahagu'],
 	],
 	'lt' => [
 		'type' => 'language',
