@@ -244,6 +244,11 @@ return [
 		'repository' => 'git@github.com:flarum-lang/malayalam.git',
 		'branch' => 'master',
 		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => '0.Major.Minor',
+		],
+		'maintainers' => ['meetdilip'],
 	],
 	'nl' => [
 		'type' => 'language',
