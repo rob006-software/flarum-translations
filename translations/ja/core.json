@@ -121,9 +121,7 @@
                     "button_label": "README",
                     "no_readme": "この拡張機能には README ファイルがありません",
                     "title": "{extName} 取扱説明書"
-                },
-                "confirm_uninstall": "",
-                "uninstall_button": ""
+                }
             },
             "header": {
                 "get_help": "ヘルプを開く",
@@ -306,8 +304,7 @@
                 "replied_text": "{username} が {ago} に返信しました",
                 "started_text": "{username} が {ago} に作成しました",
                 "total_replies_a11y_label": "{count, plural, one {# reply} other {# replies}}",
-                "unread_replies_a11y_label": "{count, plural, one {# unread reply} other {# unread replies}}. 未読の {count, plural, one {reply} other {replies}} を既読にする",
-                "mark_as_read_tooltip": "既読にする"
+                "unread_replies_a11y_label": "{count, plural, one {# unread reply} other {# unread replies}}. 未読の {count, plural, one {reply} other {replies}} を既読にする"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -415,8 +412,7 @@
                 "notify_discussion_renamed_label": "あなたの作成したスレッドのタイトルが変更された時",
                 "privacy_disclose_online_label": "自分のオンライン状況を他のユーザーが確認できるようにする",
                 "privacy_heading": "プライバシー",
-                "title": "=> core.ref.settings",
-                "notification_checkbox_a11y_label_template": "\"{description}\"通知を{method}を通して受け取る"
+                "title": "=> core.ref.settings"
             },
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",
@@ -576,10 +572,6 @@
                 "new_password_label": "新しいパスワード",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
-            },
-            "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
             }
         },
         "api": {
