@@ -114,6 +114,11 @@ return [
 		'repository' => 'git@github.com:flarum-lang/persian.git',
 		'branch' => 'master',
 		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => '0.Major.Minor',
+		],
+		'maintainers' => ['amirrezakhakpour'],
 	],
 	'fi' => [
 		'type' => 'language',
