@@ -7,7 +7,7 @@
                     "null": "Rỗng",
                     "algolia": "Algolia",
                     "meilisearch": "Meilisearch",
-                    "tntsearch": ""
+                    "tntsearch": "TNTSearch"
                 },
                 "prefix": "Tiền tố tên chỉ mục (tùy chọn)",
                 "algoliaId": "ID Algolia",
@@ -17,11 +17,11 @@
                 "algoliaWriteTimeout": "Timeout viết Algolia (tùy chọn)",
                 "meilisearchHost": "Host Meilisearch",
                 "meilisearchKey": "Mã key Meilisearch",
-                "tntsearchMaxDocs": "",
-                "tntsearchFuzziness": "",
-                "tntsearchFuzzyDistance": "",
-                "tntsearchFuzzyPrefixLength": "",
-                "tntsearchFuzzyMaxExpansions": ""
+                "tntsearchMaxDocs": "TNT Search Max Docs (tùy chọn, số lượng kết quả tối đa)",
+                "tntsearchFuzziness": "TNT Search Fuzziness (đối sánh lỗi chính tả/biến thể)",
+                "tntsearchFuzzyDistance": "TNT Search Fuzziness Levenshtein Distance (tùy chọn)",
+                "tntsearchFuzzyPrefixLength": "Độ dài tiền tố TNT Search Fuzziness (tùy chọn)",
+                "tntsearchFuzzyMaxExpansions": "TNT Search Fuzziness Mở rộng Tối đa (tùy chọn)"
             }
         }
     }
