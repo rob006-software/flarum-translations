@@ -404,7 +404,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>⚠️ <a href="https://github.com/flarum-lang/korean">Korean</a></td>
+		<td><a href="https://github.com/flarum-lang/korean">Korean</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/korean/tags">
 				<img src="https://img.shields.io/github/release-date/flarum-lang/korean" alt="last release" />
