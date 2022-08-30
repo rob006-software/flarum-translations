@@ -398,6 +398,11 @@ return [
 		'repository' => 'git@github.com:flarum-lang/thai.git',
 		'branch' => 'master',
 		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => ['kon3ko'],
 	],
 	'tr' => [
 		'type' => 'language',
