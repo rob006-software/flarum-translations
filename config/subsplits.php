@@ -410,6 +410,11 @@ return [
 		'repository' => 'git@github.com:flarum-lang/turkish.git',
 		'branch' => 'main',
 		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => ['tolgaaaltas'],
 	],
 	'uz' => [
 		'type' => 'language',
