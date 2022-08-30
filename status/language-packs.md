@@ -427,20 +427,20 @@
 		</td>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/edevrob/flarum-lang-latvian">Latvian</a></td>
+		<td><a href="https://github.com/flarum-lang/latvian">Latvian</a></td>
 		<td align="right">
-			<a href="https://github.com/edevrob/flarum-lang-latvian/tags">
-				<img src="https://img.shields.io/github/release-date/edevrob/flarum-lang-latvian" alt="last release" />
+			<a href="https://github.com/flarum-lang/latvian/tags">
+				<img src="https://img.shields.io/github/release-date/flarum-lang/latvian" alt="last release" />
 			</a>
 		</td>
 		<td>
-			<a href="https://github.com/edevrob/flarum-lang-latvian/commits">
-				<img src="https://img.shields.io/github/commits-since/edevrob/flarum-lang-latvian/latest" alt="commits since last release" />
+			<a href="https://github.com/flarum-lang/latvian/commits">
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/latvian/latest" alt="commits since last release" />
 			</a>
 		</td>
 		<td>
-			<a href="https://packagist.org/packages/edevrob/flarum-lang-latvian/stats">
-				<img src="https://img.shields.io/packagist/dm/edevrob/flarum-lang-latvian" alt="downloads (monthly)" />
+			<a href="https://packagist.org/packages/flarum-lang/latvian/stats">
+				<img src="https://img.shields.io/packagist/dm/flarum-lang/latvian" alt="downloads (monthly)" />
 			</a>
 		</td>
 		<td align="right">
