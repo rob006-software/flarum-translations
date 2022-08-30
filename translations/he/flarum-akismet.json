@@ -4,11 +4,11 @@
             "akismet_settings": {
                 "api_key_label": "API Key",
                 "title": "הגדרות Akismet",
-                "delete_blatant_spam_label": "",
-                "delete_blatant_spam_help": ""
+                "delete_blatant_spam_label": "הסרה אוטומטית של ספאם בוטה",
+                "delete_blatant_spam_help": "אם Akismet מזהה הודעה כספאם בוטה, במקום סימון ההודעה, ההודעה תוסר אוטומטית"
             },
             "permissions": {
-                "bypass_akismet": ""
+                "bypass_akismet": "עקיפת Akismet"
             }
         },
         "forum": {
