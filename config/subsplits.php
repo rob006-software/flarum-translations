@@ -335,6 +335,11 @@ return [
 		'repository' => 'git@github.com:bryantmilan/lang-serbian.git',
 		'branch' => 'master',
 		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'vMajor.Minor.Patch',
+		],
+		'maintainers' => ['bryantmilan'],
 	],
 	'sv' => [
 		'type' => 'language',
