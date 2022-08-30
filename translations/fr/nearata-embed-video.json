@@ -7,14 +7,14 @@
                     "hotkey": "Touche de raccourci",
                     "lang": "Langue du lecteur",
                     "logo": "URL du logo",
-                    "quality_switching": "Permettre le changement de qualité",
+                    "quality_switching": "Changement de qualité",
                     "theme": "Couleur du thème",
-                    "modal_enabled": "",
-                    "modal_enabled_help": ""
+                    "modal_enabled": "Fenêtre activée",
+                    "modal_enabled_help": "Activez la fenêtre ou insérez simplement le BBCode dans le compositeur."
                 },
                 "permissions": {
                     "can_create_video_player": "Peut créer un lecteur vidéo",
-                    "can_view_video_player": ""
+                    "can_view_video_player": "Peut voir le lecteur vidéo"
                 },
                 "video_types": {
                     "dash": "Tableau de bord",
@@ -42,17 +42,17 @@
                 },
                 "video_url_label": "URL de la vidéo",
                 "video_url_placeholder": "Exemple : https://exemple.com/nomdufichier.mp4",
-                "quality_switching_tutorial": "",
-                "pointer_label": "",
-                "pointer_option_new": "",
-                "quality_option_new": "",
-                "add_quality": "",
-                "remove_quality": "",
-                "add_pointer": "",
-                "remove_pointer": "",
-                "qualities_label": ""
+                "quality_switching_tutorial": "Tutoriel sur le changement de qualité",
+                "pointer_label": "Pointeur",
+                "pointer_option_new": "Nouveau",
+                "quality_option_new": "Nouveau",
+                "add_quality": "Ajouter la qualité",
+                "remove_quality": "Supprimer la qualité",
+                "add_pointer": "Ajouter un pointeur",
+                "remove_pointer": "Supprimer le pointeur",
+                "qualities_label": "Qualités (facultatif)"
             },
-            "cannot_view": ""
+            "cannot_view": "Erreur : vous n'êtes pas autorisé à voir ce contenu"
         }
     }
 }
