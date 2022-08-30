@@ -386,6 +386,11 @@ return [
 		'repository' => 'git@github.com:flarum-lang/telugu.git',
 		'branch' => 'master',
 		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => ['Hari-Bonda'],
 	],
 	'th' => [
 		'type' => 'language',
