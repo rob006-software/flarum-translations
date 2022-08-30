@@ -565,7 +565,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>⚠️ <a href="https://github.com/flarum-lang/brazilian">Portuguese (Brazil)</a></td>
+		<td><a href="https://github.com/flarum-lang/brazilian">Portuguese (Brazil)</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/brazilian/tags">
 				<img src="https://img.shields.io/github/release-date/flarum-lang/brazilian" alt="last release" />
