@@ -374,6 +374,11 @@ return [
 		'repository' => 'git@github.com:flarum-lang/tamil.git',
 		'branch' => 'main',
 		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'v0.Major.Minor',
+		],
+		'maintainers' => ['eYM3', 'sayuri-gi'],
 	],
 	'te' => [
 		'type' => 'language',
