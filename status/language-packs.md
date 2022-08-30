@@ -13,20 +13,20 @@
 </thead>
 <tbody>
 	<tr>
-		<td><a href="https://github.com/neerugupta/flarum-lang-arabic">Arabic</a></td>
+		<td><a href="https://github.com/flarum-lang/arabic">Arabic</a></td>
 		<td align="right">
-			<a href="https://github.com/neerugupta/flarum-lang-arabic/tags">
-				<img src="https://img.shields.io/github/release-date/neerugupta/flarum-lang-arabic" alt="last release" />
+			<a href="https://github.com/flarum-lang/arabic/tags">
+				<img src="https://img.shields.io/github/release-date/flarum-lang/arabic" alt="last release" />
 			</a>
 		</td>
 		<td>
-			<a href="https://github.com/neerugupta/flarum-lang-arabic/commits">
-				<img src="https://img.shields.io/github/commits-since/neerugupta/flarum-lang-arabic/latest" alt="commits since last release" />
+			<a href="https://github.com/flarum-lang/arabic/commits">
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/arabic/latest" alt="commits since last release" />
 			</a>
 		</td>
 		<td>
-			<a href="https://packagist.org/packages/neerugupta/flarum-lang-arabic/stats">
-				<img src="https://img.shields.io/packagist/dm/neerugupta/flarum-lang-arabic" alt="downloads (monthly)" />
+			<a href="https://packagist.org/packages/flarum-lang/arabic/stats">
+				<img src="https://img.shields.io/packagist/dm/flarum-lang/arabic" alt="downloads (monthly)" />
 			</a>
 		</td>
 		<td align="right">
