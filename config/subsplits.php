@@ -248,7 +248,7 @@ return [
 	'lv' => [
 		'type' => 'language',
 		'language' => 'lv',
-		'repository' => 'git@github.com:edevrob/flarum-lang-latvian.git',
+		'repository' => 'git@github.com:flarum-lang/latvian.git',
 		'branch' => 'master',
 		'path' => '/locale',
 		'releaseGenerator' => [
