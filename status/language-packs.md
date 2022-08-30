@@ -473,7 +473,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>⚠️ <a href="https://github.com/flarum-lang/malayalam">Malayalam</a></td>
+		<td><a href="https://github.com/flarum-lang/malayalam">Malayalam</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/malayalam/tags">
 				<img src="https://img.shields.io/github/release-date/flarum-lang/malayalam" alt="last release" />
@@ -496,7 +496,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>⚠️ <a href="https://github.com/flarum-lang/persian">Persian</a></td>
+		<td><a href="https://github.com/flarum-lang/persian">Persian</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/persian/tags">
 				<img src="https://img.shields.io/github/release-date/flarum-lang/persian" alt="last release" />
