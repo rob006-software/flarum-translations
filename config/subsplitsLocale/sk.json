@@ -1,1 +1,29 @@
-{}
+{
+    "announcement": {
+        "to-update": "Spustite nasledovné príkazy pre aktualizáciu:",
+        "major-warning": "Táto verzia odstráni podporu pre staršie verzie Flarum a niektoré zastaralé rozšírenia. Pred aktualizáciou sa uistite že používate najnovšiu verziu Flarum a rozšíření.",
+        "version": "Verzia {version}"
+    },
+    "readme": {
+        "status-table": {
+            "header-status": "Stav",
+            "label-translation-status": "Stav prekladu",
+            "header-extension": "Rozšírenie"
+        }
+    },
+    "changelog": {
+        "updated-file": "Aktualizovaný `{file}`",
+        "updated-config-css": "Aktualizované CSS",
+        "cleaned-validation": "Odstránené zastaralé preklady validácie (podporovaná je verzia `{version}` alebo vyššia)",
+        "extensions-added": "Pridaná podpora pre nové rozšírenia",
+        "updated-validation": "Aktualizované preklady validácie",
+        "extensions-removed": "Odstránená podpora pre zastaralé rozšírenia",
+        "updated-core": "Aktualizované preklady Flarum core",
+        "cleaned-core": "Odstránené zastaralé preklady Flarum core (podporovaná je verzia `{version}` alebo vyššia)",
+        "general-changes": "Všeobecné zmeny",
+        "updated-config-js": "Aktualizované preklady Day.js",
+        "extensions-cleaned": "Aktualizované a/alebo odstránené zastaralé preklady pre rozšírenia",
+        "all-changes": "Všetky zmeny: {link}.",
+        "extensions-updated": "Aktualizované preklady pre rozšírenia"
+    }
+}
