@@ -2,28 +2,28 @@
     "core": {
         "forum": {
             "index_sort": {
-                "mostBacked_button": ""
+                "mostBacked_button": "Được ủng hộ nhiều nhất"
             }
         }
     },
     "blomstra-payments": {
         "forum": {
             "accept-terms-modal": {
-                "accept_label": "",
-                "continue_button": "",
-                "title": ""
+                "accept_label": "Tôi đã đọc và chấp nhận <link>điều khoản thanh toán</link>.",
+                "continue_button": "Tiếp tục thanh toán",
+                "title": "Chấp nhận điều khoản"
             },
             "stripe": {
-                "interval_once": ""
+                "interval_once": "một lần"
             },
             "subscription-card": {
-                "bounty": "",
-                "ptv": "",
-                "pta": "",
-                "ptb": "",
-                "ptp": "",
-                "cancel-control": "",
-                "none": ""
+                "bounty": "Tiền thưởng",
+                "ptv": "Thanh toán để xem",
+                "pta": "Thanh toán để truy cập",
+                "ptb": "Thanh toán để va chạm",
+                "ptp": "Thanh toán để xuất bản",
+                "cancel-control": "Hủy bỏ",
+                "none": "Không có thanh toán hoặc đăng ký đang hoạt động"
             },
             "pay-to-view": {
                 "purchase-control": "Thanh toán để xem",
@@ -42,17 +42,17 @@
                 "purchase-log-in": "Đăng nhập & Thanh toán để Bump"
             },
             "bounties": {
-                "purchase-control": "",
-                "enable-control": ""
+                "purchase-control": "Thêm tiền thưởng",
+                "enable-control": "Bật tiền thưởng"
             },
             "choose-bounty-amount-modal": {
-                "title": "",
-                "checkout-control": "",
-                "description": ""
+                "title": "Chọn số tiền thưởng",
+                "checkout-control": "Thủ tục thanh toán",
+                "description": "Chọn số tiền của bạn để hỗ trợ \"{subject}\" hoặc chọn số tiền tùy chỉnh."
             },
             "backers-widget": {
-                "label": "",
-                "none": ""
+                "label": "{sum} đã hỗ trợ",
+                "none": "Chưa có người ủng hộ."
             },
             "tag": {
                 "require-payment-label": "Yêu cầu thanh toán"
@@ -64,11 +64,11 @@
             "access-portal": {
                 "options": "tuỳ chọn",
                 "purchase": "mua",
-                "subscribed": ""
+                "subscribed": "đã đăng ký"
             },
             "nav": {
                 "access_portal": "Cổng truy cập",
-                "user_subscriptions": ""
+                "user_subscriptions": "Đăng ký"
             }
         },
         "admin": {
@@ -83,8 +83,8 @@
                 "select-ptb-product-description": "Chọn một sản phẩm sẽ yêu cầu thanh toán cho sản phẩm đó trước khi có thể bắt đầu thảo luận.\n",
                 "bump-others": "(PTB) Cho phép người khác thảo luận",
                 "bump-others-description": "Nếu được bật, không chỉ tác giả cuộc thảo luận có thể thúc đẩy các cuộc thảo luận bằng một khoản thanh toán.\n",
-                "select-bounty-product": "",
-                "select-bounty-description": ""
+                "select-bounty-product": "(Tiền thưởng) Sản phẩm bắt buộc",
+                "select-bounty-description": "Chọn một sản phẩm sẽ thiết lập nó cho tiền thưởng. Sản phẩm chỉ có thể có một Giá với kiểu máy: \"Giá tùy chọn\". Sao chép ID của sản phẩm bắt đầu bằng 1 <code>prod_2</code> vào trường này.\n"
             },
             "edit-group": {
                 "select-pta-product": "(PTA) Sản phẩm yêu cầu",
@@ -95,10 +95,10 @@
                 "sk": "Mã khoá bí mật (api)",
                 "webhook-secret": "Mã bí mật Webhook",
                 "link-access-portal": "Liên kết cổng truy cập trong dropdown phiên người dùng",
-                "link-to-terms": ""
+                "link-to-terms": "URL điều khoản thanh toán"
             },
             "permission": {
-                "enable-bounties": ""
+                "enable-bounties": "Bật tiền thưởng"
             }
         }
     }
