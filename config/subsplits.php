@@ -422,6 +422,11 @@ return [
 		'repository' => 'git@github.com:flarum-lang/uzbek.git',
 		'branch' => 'master',
 		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => '0.Major.Minor',
+		],
+		'maintainers' => ['JeongJun-Lee'],
 	],
 	'vi' => [
 		'type' => 'language',
