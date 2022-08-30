@@ -427,7 +427,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>⚠️ <a href="https://github.com/edevrob/flarum-lang-latvian">Latvian</a></td>
+		<td><a href="https://github.com/edevrob/flarum-lang-latvian">Latvian</a></td>
 		<td align="right">
 			<a href="https://github.com/edevrob/flarum-lang-latvian/tags">
 				<img src="https://img.shields.io/github/release-date/edevrob/flarum-lang-latvian" alt="last release" />
@@ -450,7 +450,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>⚠️ <a href="https://github.com/flarum-lang/lithuanian">Lithuanian</a></td>
+		<td><a href="https://github.com/flarum-lang/lithuanian">Lithuanian</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/lithuanian/tags">
 				<img src="https://img.shields.io/github/release-date/flarum-lang/lithuanian" alt="last release" />
