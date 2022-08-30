@@ -95,6 +95,11 @@ return [
 		'repository' => 'git@github.com:flarum-lang/spanish.git',
 		'branch' => 'main',
 		'path' => '/locale/es-ES-informal',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => ['iamdarkle', 'jslirola'],
 	],
 	'et' => [
 		'type' => 'language',
