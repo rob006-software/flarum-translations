@@ -220,6 +220,11 @@ return [
 		'repository' => 'git@github.com:flarum-lang/lithuanian.git',
 		'branch' => 'main',
 		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => ['tavoweb'],
 	],
 	'lv' => [
 		'type' => 'language',
