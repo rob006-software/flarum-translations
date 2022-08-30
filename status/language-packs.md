@@ -795,7 +795,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>⚠️ <a href="https://github.com/flarum-lang/turkish">Turkish</a></td>
+		<td><a href="https://github.com/flarum-lang/turkish">Turkish</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/turkish/tags">
 				<img src="https://img.shields.io/github/release-date/flarum-lang/turkish" alt="last release" />
@@ -818,7 +818,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>⚠️ <a href="https://github.com/flarum-lang/uzbek">Uzbek</a></td>
+		<td><a href="https://github.com/flarum-lang/uzbek">Uzbek</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/uzbek/tags">
 				<img src="https://img.shields.io/github/release-date/flarum-lang/uzbek" alt="last release" />
