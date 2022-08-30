@@ -3,7 +3,7 @@
         "forum": {
             "push": {
                 "discussion-list-new-activity": "{count, plural, one {Hiển thị # cuộc thảo luận} other {Hiển thị # cuộc thảo luận}}",
-                "discussion-list-new-activity-with-auto-release": ""
+                "discussion-list-new-activity-with-auto-release": "{count, plural, one {có # cuộc thảo luận} other {có # cuộc thảo luận}} có hoạt động mới và sẽ được cập nhật trong {releaseTimeout} giây. Nhấn để hiện ngay."
             },
             "typing-indicator": {
                 "people-are-typing": "{number, plural, one {# người đang viết} other {# người đang viết}}",
@@ -15,8 +15,8 @@
                 "view-who-types": "Xem ai đang viết"
             },
             "settings": {
-                "release-discussion-updates-interval": "",
-                "release-discussion-updates-interval-help": ""
+                "release-discussion-updates-interval": "Khoảng thời gian để tự động đẩy hoạt động thảo luận mới",
+                "release-discussion-updates-interval-help": "Tính bằng giây. 0 nghĩa là không tự động đẩy."
             }
         }
     }
