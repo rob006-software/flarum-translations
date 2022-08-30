@@ -227,6 +227,11 @@ return [
 		'repository' => 'git@github.com:edevrob/flarum-lang-latvian.git',
 		'branch' => 'master',
 		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'v0.Major.Minor',
+		],
+		'maintainers' => ['edevrob'],
 	],
 	'ml' => [
 		'type' => 'language',
