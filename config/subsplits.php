@@ -321,6 +321,11 @@ return [
 		'repository' => 'git@github.com:flarum-lang/sinhala.git',
 		'branch' => 'main',
 		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => '0.Major.Minor',
+		],
+		'maintainers' => ['sayuri-gi'],
 	],
 	'sk' => [
 		'type' => 'language',
