@@ -291,23 +291,23 @@
         "emails": {
             "replied_to_ticket": {
                 "subject": "{replier_display_name} đã trả lời phiếu #{ticket_id} của bạn",
-                "body": "Kính gửi {accept_display_name}!\n\n{replier_display_name} đã trả lời vé #{ticket_id} (chủ đề \"{subject}\") của bạn.\n\nVui lòng sử dụng liên kết dưới đây để xem lại câu trả lời:\n{url}\n\nChúng tôi đang đợi câu trả lời của bạn hoặc cho đến khi bạn đánh dấu rằng vé này đã được giải quyết.\n"
+                "body": "Kính gửi {recipient_display_name},\n\n{replier_display_name} đã trả lời vé #{ticket_id} (chủ đề \"{subject}\") của bạn.\n\nVui lòng sử dụng liên kết dưới đây để xem lại câu trả lời:\n{url}\n\nChúng tôi đang đợi câu trả lời của bạn hoặc cho đến khi bạn đánh dấu rằng vé này đã được giải quyết.\n"
             },
             "ticket_status_update": {
                 "subject": "Phiếu #{ticket_id} được đánh dấu là {new_status}",
-                "body": "Kính gửi {accept_display_name}!\n\nTrạng thái phiếu #{ticket_id} của bạn đã thay đổi thành {new_status}.\n\nURL của phiếu của bạn là:\n{url}\n"
+                "body": "Kính gửi {recipient_display_name},\n\nTrạng thái phiếu #{ticket_id} của bạn đã thay đổi thành {new_status}.\n\nURL của phiếu của bạn là:\n{url}\n"
             },
             "ticket_resolved": {
                 "subject": "Phiếu #{ticket_id} được đánh dấu là đã giải quyết",
-                "body": "Kính gửi {accept_display_name}!\n\nPhiếu #{ticket_id} của bạn đã được đánh dấu là đã giải quyết. Điều này có nghĩa là phiếu của bạn đã bị đóng.\n\nURL của phiếu của bạn là:\n{url}\n\nNếu bạn không đồng ý đánh dấu phiếu của mình là đã giải quyết, vui lòng trả lời phiếu của bạn để mở lại.\n"
+                "body": "Kính gửi {recipient_display_name},\n\nPhiếu #{ticket_id} của bạn đã được đánh dấu là đã giải quyết. Điều này có nghĩa là phiếu của bạn đã bị đóng.\n\nURL của phiếu của bạn là:\n{url}\n\nNếu bạn không đồng ý đánh dấu phiếu của mình là đã giải quyết, vui lòng trả lời phiếu của bạn để mở lại.\n"
             },
             "ticket_pending_reply": {
                 "subject": "Phiếu #{ticket_id} đang chờ bạn trả lời",
-                "body": "Kính gửi {accept_display_name}!\n\nGần đây, {replier_display_name} đã trả lời phiếu #{ticket_id} của bạn vào {reply_date} và chúng tôi đang chờ câu trả lời của bạn.\n\nURL của phiếu của bạn là:\n{url}\n\nNếu vấn đề đã được giải quyết, vui lòng đánh dấu phiếu là đã được giải quyết.\n"
+                "body": "Kính gửi {recipient_display_name},\n\nGần đây, {replier_display_name} đã trả lời phiếu #{ticket_id} của bạn vào {replied_date} và chúng tôi đang chờ câu trả lời của bạn.\n\nURL của phiếu của bạn là:\n{url}\n\nNếu vấn đề đã được giải quyết, vui lòng đánh dấu phiếu là đã được giải quyết.\n"
             },
             "ticket_pending_reply_closed": {
                 "subject": "Phiếu #{ticket_id} đã bị đóng do không hoạt động",
-                "body": "Kính gửi {accept_display_name}!\n\nGần đây, {replier_display_name} đã trả lời phiếu #{ticket_id} của bạn. Rất tiếc, chúng tôi không nhận được trả lời từ bạn. Phiếu của bạn đã tự động bị đóng do không hoạt động.\n\nNếu bạn vẫn muốn trả lời, URL của phiếu của bạn là:\n{url}\n"
+                "body": "Kính gửi {recipient_display_name},\n\nGần đây, {replier_display_name} đã trả lời phiếu #{ticket_id} của bạn. Rất tiếc, chúng tôi không nhận được trả lời từ bạn. Phiếu của bạn đã tự động bị đóng do không hoạt động.\n\nNếu bạn vẫn muốn trả lời, URL của phiếu của bạn là:\n{url}\n"
             }
         }
     }
