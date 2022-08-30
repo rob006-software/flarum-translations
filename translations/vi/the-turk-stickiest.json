@@ -8,8 +8,8 @@
             "settings": {
                 "badge_icon_label": "Icon huy hiệu siêu ghim",
                 "badge_icon_text": "=> core.ref.icon_text",
-                "display_tag_sticky_label": "",
-                "display_tag_sticky_text": ""
+                "display_tag_sticky_label": "Hiển thị các bài ghim trong danh sách \"Tất cả các cuộc thảo luận\"",
+                "display_tag_sticky_text": "Chúng sẽ được coi là những cuộc thảo luận thường xuyên và sẽ không ghim lên đầu."
             }
         },
         "forum": {
@@ -17,21 +17,21 @@
                 "sticky_tooltip": "=> the-turk-stickiest.ref.sticky",
                 "super_sticky_tooltip": "=> the-turk-stickiest.ref.super_sticky",
                 "tag_sticky_tooltip": "=> the-turk-stickiest.ref.tag_sticky",
-                "super_tag_sticky_tooltip": ""
+                "super_tag_sticky_tooltip": "=> the-turk-stickiest.ref.super_tag_sticky"
             },
             "stickiest_modal": {
-                "title": "",
-                "sticky_label": "",
-                "sticky_text": "",
-                "super_sticky_label": "",
-                "super_sticky_text": "",
-                "tag_sticky_label": "",
-                "tag_sticky_text": "",
-                "tags_label": "",
-                "submit_button": ""
+                "title": "Ghim {title}",
+                "sticky_label": "=> flarum-sticky.ref.sticky",
+                "sticky_text": "Các cuộc thảo luận ghim sẽ đứng đầu trong danh sách \"Tất cả cuộc thảo luận\" nếu chúng chưa được đọc. Khi xem một thẻ cụ thể thuộc về cuộc thảo luận, chúng sẽ luôn ở trên cùng.",
+                "super_sticky_label": "=> the-turk-stickiest.ref.super_sticky",
+                "super_sticky_text": "Các cuộc thảo luận ghim sẽ luôn được chú trọng cho dù thế nào đi nữa.",
+                "tag_sticky_label": "=> the-turk-stickiest.ref.tag_sticky",
+                "tag_sticky_text": "Theo mặc định, thẻ ghim bị ẩn trong danh sách \"Tất cả cuộc thảo luận\". Chúng sẽ chỉ được hiển thị và hiển thị ở trên cùng khi xem một thẻ cụ thể, đó là một trong những thẻ bạn sẽ chọn ở đây. Tùy chọn này có thể được kết hợp với \"Super Sticky\".",
+                "tags_label": "=> flarum-tags.ref.tags",
+                "submit_button": "=> core.ref.save_changes"
             },
             "discussion_controls": {
-                "sticky_button": "=> the-turk-stickiest.ref.sticky",
+                "sticky_button": "=> flarum-sticky.forum.discussion_controls.sticky_button",
                 "unsticky_button": "=> flarum-sticky.forum.discussion_controls.unsticky_button",
                 "super_sticky_button": "=> the-turk-stickiest.ref.super_sticky",
                 "common_sticky_button": "Ghim chung",
@@ -49,7 +49,7 @@
             "sticky": "=> flarum-sticky.ref.sticky",
             "super_sticky": "Siêu ghim",
             "tag_sticky": "Ghim thẻ",
-            "super_tag_sticky": ""
+            "super_tag_sticky": "Siêu ghim thẻ"
         }
     }
 }
