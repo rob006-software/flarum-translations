@@ -1,1 +1,19 @@
-{}
+{
+    "readme": {
+        "status-table": {
+            "header-status": "Статус",
+            "label-translation-status": "Статус перевода",
+            "header-extension": "Расширение"
+        }
+    },
+    "changelog": {
+        "updated-file": "Обновленный `{file}`",
+        "updated-config-css": "Обновленные CSS",
+        "cleaned-validation": "Удаленные устаревшие одобренные переводы (поддерживается версия `{version}` или выше)",
+        "extensions-added": "Добавлена поддержка новых расширений",
+        "updated-core": "Обновленные переводы ядра Flarum",
+        "cleaned-core": "Удаленные устаревшие переводы ядра Flarum (поддерживается версия `{version}` или выше)",
+        "general-changes": "Общие изменения",
+        "updated-config-js": "Обновленные переводы Day.js"
+    }
+}
