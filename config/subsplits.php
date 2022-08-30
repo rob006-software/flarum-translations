@@ -297,6 +297,11 @@ return [
 		'repository' => 'git@github.com:flarum-lang/brazilian.git',
 		'branch' => 'main',
 		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'Major.Minor.Patch',
+		],
+		'maintainers' => ['ram0ng1'],
 	],
 	'ru' => [
 		'type' => 'language',
