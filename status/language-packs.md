@@ -611,7 +611,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>⚠️ <a href="https://github.com/bryantmilan/lang-serbian">Serbian</a></td>
+		<td><a href="https://github.com/bryantmilan/lang-serbian">Serbian</a></td>
 		<td align="right">
 			<a href="https://github.com/bryantmilan/lang-serbian/tags">
 				<img src="https://img.shields.io/github/release-date/flarum/serbianlanguage" alt="last release" />
@@ -634,7 +634,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>⚠️ <a href="https://github.com/flarum-lang/sinhala">Sinhala</a></td>
+		<td><a href="https://github.com/flarum-lang/sinhala">Sinhala</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/sinhala/tags">
 				<img src="https://img.shields.io/github/release-date/flarum-lang/sinhala" alt="last release" />
