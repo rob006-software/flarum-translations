@@ -680,7 +680,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>⚠️ <a href="https://github.com/flarum-lang/spanish">Spanish</a></td>
+		<td><a href="https://github.com/flarum-lang/spanish">Spanish</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/spanish/tags">
 				<img src="https://img.shields.io/github/release-date/flarum-lang/spanish" alt="last release" />
@@ -703,7 +703,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>⚠️ <a href="https://github.com/flarum-lang/swedish">Swedish</a></td>
+		<td><a href="https://github.com/flarum-lang/swedish">Swedish</a></td>
 		<td align="right">
 			<a href="https://github.com/flarum-lang/swedish/tags">
 				<img src="https://img.shields.io/github/release-date/flarum-lang/swedish" alt="last release" />
