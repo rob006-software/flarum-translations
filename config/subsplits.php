@@ -434,6 +434,11 @@ return [
 		'repository' => 'git@github.com:flarum-lang/vietnamese.git',
 		'branch' => 'master',
 		'path' => '/locale',
+		'releaseGenerator' => [
+			'class' => ReleaseGenerator::class,
+			'versionTemplate' => 'vMajor.Minor.Patch',
+		],
+		'maintainers' => ['datlechin'],
 	],
 	'zh_Hans' => [
 		'type' => 'language',
