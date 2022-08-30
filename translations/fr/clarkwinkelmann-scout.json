@@ -7,7 +7,7 @@
                     "null": "Néant",
                     "algolia": "Algolia",
                     "meilisearch": "Meilisearch",
-                    "tntsearch": ""
+                    "tntsearch": "TNTSearch"
                 },
                 "prefix": "Préfixe du nom de l'index (facultatif)",
                 "algoliaId": "Identifiant d'Algolia",
@@ -17,11 +17,11 @@
                 "algoliaWriteTimeout": "Délai d'écriture d'Algolia (facultatif)",
                 "meilisearchHost": "Hôte de Meilisearch",
                 "meilisearchKey": "Clé de Meilisearch",
-                "tntsearchMaxDocs": "",
-                "tntsearchFuzziness": "",
-                "tntsearchFuzzyDistance": "",
-                "tntsearchFuzzyPrefixLength": "",
-                "tntsearchFuzzyMaxExpansions": ""
+                "tntsearchMaxDocs": "Documents maximum de TNTSearch (facultatif, il s'agit du nombre maximum de résultats)",
+                "tntsearchFuzziness": "Caractère flou de TNTSearch (erreurs de frappe ou correspondance des variations)",
+                "tntsearchFuzzyDistance": "Distance de Levenshtein du caractère flou de TNTSearch (facultatif)",
+                "tntsearchFuzzyPrefixLength": "Longueur du préfixe du caractère flou de TNTSearch (facultatif)",
+                "tntsearchFuzzyMaxExpansions": "Extensions maximales du caractère flou de TNTSearch (facultatif)"
             }
         }
     }
