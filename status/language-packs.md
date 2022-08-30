@@ -381,20 +381,20 @@
 		</td>
 	</tr>
 	<tr>
-		<td>⚠️ <a href="https://github.com/FFans/lang-japanese">Japanese</a></td>
+		<td><a href="https://github.com/flarum-lang/japanese">Japanese</a></td>
 		<td align="right">
-			<a href="https://github.com/FFans/lang-japanese/tags">
-				<img src="https://img.shields.io/github/release-date/littlegolden/flarum-lang-japanese" alt="last release" />
+			<a href="https://github.com/flarum-lang/japanese/tags">
+				<img src="https://img.shields.io/github/release-date/flarum-lang/japanese" alt="last release" />
 			</a>
 		</td>
 		<td>
-			<a href="https://github.com/FFans/lang-japanese/commits">
-				<img src="https://img.shields.io/github/commits-since/littlegolden/flarum-lang-japanese/latest" alt="commits since last release" />
+			<a href="https://github.com/flarum-lang/japanese/commits">
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/japanese/latest" alt="commits since last release" />
 			</a>
 		</td>
 		<td>
-			<a href="https://packagist.org/packages/littlegolden/flarum-lang-japanese/stats">
-				<img src="https://img.shields.io/packagist/dm/littlegolden/flarum-lang-japanese" alt="downloads (monthly)" />
+			<a href="https://packagist.org/packages/flarum-lang/japanese/stats">
+				<img src="https://img.shields.io/packagist/dm/flarum-lang/japanese" alt="downloads (monthly)" />
 			</a>
 		</td>
 		<td align="right">
