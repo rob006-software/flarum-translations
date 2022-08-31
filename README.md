@@ -216,7 +216,7 @@ This repository contains raw translations data used by [Weblate](https://weblate
 		</td>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/rob006-software/flarum-lang-polish">Polish</a></td>
+		<td><a href="https://github.com/flarum-lang/polish">Polish</a></td>
 		<td><a href="https://github.com/rob006">rob006</a></td>
 		<td align="right">
 			<a href="https://rob006-software.github.io/flarum-translations/status/pl.html" title="Click to see detailed translation status for each extension">
