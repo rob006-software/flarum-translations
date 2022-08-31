@@ -1,1 +1,29 @@
-{}
+{
+    "announcement": {
+        "to-update": "Veuillez exécuter ces commandes pour lancer la mise à jour :",
+        "major-warning": "Cette version marque l'arrêt de la prise en charge des anciennes versions de Flarum et de certaines extensions obsolètes. Avant de lancer la mise à jour, assurez-vous d'utiliser les versions les plus récentes de Flarum et de ses extensions.",
+        "version": "Version {version}"
+    },
+    "readme": {
+        "status-table": {
+            "header-status": "Statut",
+            "label-translation-status": "Statut de la traduction",
+            "header-extension": "Extension"
+        }
+    },
+    "changelog": {
+        "updated-file": "Mise à jour de `{file}`",
+        "updated-config-css": "Mise à jour du CSS",
+        "cleaned-validation": "Suppression des traductions obsolètes du composant de validation de Laravel (la version `{version}` ou supérieure est supportée)",
+        "extensions-added": "Prise en charge de nouvelles extensions",
+        "updated-validation": "Mise à jour des traductions du composant de validation de Laravel",
+        "extensions-removed": "Arrêt de la prise en charge d'extensions obsolètes",
+        "updated-core": "Mise à jour des traductions du noyau de Flarum",
+        "cleaned-core": "Suppression des traductions obsolètes du noyau de Flarum (la version `{version}` ou supérieure est supportée)",
+        "general-changes": "Modifications générales",
+        "updated-config-js": "Mise à jour des traductions de Day.js",
+        "extensions-cleaned": "Mise à jour ou suppression des traductions obsolètes d'extensions",
+        "all-changes": "Toutes les modifications : {link}.",
+        "extensions-updated": "Mise à jour des traductions d'extensions"
+    }
+}
