@@ -1,29 +1,17 @@
 {
-    "core": {
-        "forum": {
-            "index_sort": {
-                "mostBacked_button": "Les plus soutenus"
-            }
-        }
-    },
     "blomstra-payments": {
         "forum": {
-            "accept-terms-modal": {
-                "accept_label": "J'ai lu et j'accepte les <link>conditions de paiement</link>.",
-                "continue_button": "Continuer le paiement",
-                "title": "Accepter les conditions"
-            },
             "stripe": {
                 "interval_once": "une fois"
             },
             "subscription-card": {
-                "bounty": "Prime",
                 "ptv": "Payé pour voir",
                 "pta": "Payé pour accéder",
                 "ptb": "Payé pour remonter",
                 "ptp": "Payé pour publier",
                 "cancel-control": "Annuler",
-                "none": "Aucun paiement ou abonnement actif"
+                "none": "Aucun paiement ou abonnement actif",
+                "bounty": "Prime"
             },
             "pay-to-view": {
                 "purchase-control": "Payer pour voir",
@@ -69,6 +57,17 @@
             "nav": {
                 "access_portal": "Portail d'accès",
                 "user_subscriptions": "Abonnements"
+            },
+            "exceptions": {
+                "out-of-bounds-amount": {
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "accept-terms-modal": {
+                "accept_label": "J'ai lu et j'accepte les <link>conditions de paiement</link>.",
+                "continue_button": "Continuer le paiement",
+                "title": "Accepter les conditions"
             }
         },
         "admin": {
@@ -99,6 +98,13 @@
             },
             "permission": {
                 "enable-bounties": "Activer les primes"
+            }
+        }
+    },
+    "core": {
+        "forum": {
+            "index_sort": {
+                "mostBacked_button": "Les plus soutenus"
             }
         }
     }

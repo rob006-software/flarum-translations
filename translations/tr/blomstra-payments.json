@@ -1,29 +1,17 @@
 {
-    "core": {
-        "forum": {
-            "index_sort": {
-                "mostBacked_button": ""
-            }
-        }
-    },
     "blomstra-payments": {
         "forum": {
-            "accept-terms-modal": {
-                "accept_label": "",
-                "continue_button": "",
-                "title": ""
-            },
             "stripe": {
                 "interval_once": "bir kere"
             },
             "subscription-card": {
-                "bounty": "",
                 "ptv": "Görüntülemek için ödenen",
                 "pta": "Erişmek için ödenen",
                 "ptb": "Yükseltmek için ödenen",
                 "ptp": "Yayınlamak için ödenen",
                 "cancel-control": "İptal",
-                "none": "Ödeme veya aktif abonelik yok"
+                "none": "Ödeme veya aktif abonelik yok",
+                "bounty": ""
             },
             "pay-to-view": {
                 "purchase-control": "Görüntülemek için Ödeme Yapın",
@@ -69,6 +57,17 @@
             "nav": {
                 "access_portal": "Erişim portalı",
                 "user_subscriptions": "Abonelikler"
+            },
+            "exceptions": {
+                "out-of-bounds-amount": {
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "accept-terms-modal": {
+                "accept_label": "",
+                "continue_button": "",
+                "title": ""
             }
         },
         "admin": {
@@ -99,6 +98,13 @@
             },
             "permission": {
                 "enable-bounties": ""
+            }
+        }
+    },
+    "core": {
+        "forum": {
+            "index_sort": {
+                "mostBacked_button": ""
             }
         }
     }

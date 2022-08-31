@@ -1,29 +1,17 @@
 {
-    "core": {
-        "forum": {
-            "index_sort": {
-                "mostBacked_button": ""
-            }
-        }
-    },
     "blomstra-payments": {
         "forum": {
-            "accept-terms-modal": {
-                "accept_label": "",
-                "continue_button": "",
-                "title": ""
-            },
             "stripe": {
                 "interval_once": ""
             },
             "subscription-card": {
-                "bounty": "",
                 "ptv": "",
                 "pta": "",
                 "ptb": "",
                 "ptp": "",
                 "cancel-control": "",
-                "none": ""
+                "none": "",
+                "bounty": ""
             },
             "pay-to-view": {
                 "purchase-control": "Платный просмотр",
@@ -69,6 +57,17 @@
             "nav": {
                 "access_portal": "",
                 "user_subscriptions": ""
+            },
+            "exceptions": {
+                "out-of-bounds-amount": {
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "accept-terms-modal": {
+                "accept_label": "",
+                "continue_button": "",
+                "title": ""
             }
         },
         "admin": {
@@ -99,6 +98,13 @@
             },
             "permission": {
                 "enable-bounties": ""
+            }
+        }
+    },
+    "core": {
+        "forum": {
+            "index_sort": {
+                "mostBacked_button": ""
             }
         }
     }

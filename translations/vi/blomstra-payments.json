@@ -1,29 +1,17 @@
 {
-    "core": {
-        "forum": {
-            "index_sort": {
-                "mostBacked_button": "Được ủng hộ nhiều nhất"
-            }
-        }
-    },
     "blomstra-payments": {
         "forum": {
-            "accept-terms-modal": {
-                "accept_label": "Tôi đã đọc và chấp nhận <link>điều khoản thanh toán</link>.",
-                "continue_button": "Tiếp tục thanh toán",
-                "title": "Chấp nhận điều khoản"
-            },
             "stripe": {
                 "interval_once": "một lần"
             },
             "subscription-card": {
-                "bounty": "Tiền thưởng",
                 "ptv": "Thanh toán để xem",
                 "pta": "Thanh toán để truy cập",
                 "ptb": "Thanh toán để va chạm",
                 "ptp": "Thanh toán để xuất bản",
                 "cancel-control": "Hủy bỏ",
-                "none": "Không có thanh toán hoặc đăng ký đang hoạt động"
+                "none": "Không có thanh toán hoặc đăng ký đang hoạt động",
+                "bounty": "Tiền thưởng"
             },
             "pay-to-view": {
                 "purchase-control": "Thanh toán để xem",
@@ -69,6 +57,17 @@
             "nav": {
                 "access_portal": "Cổng truy cập",
                 "user_subscriptions": "Đăng ký"
+            },
+            "exceptions": {
+                "out-of-bounds-amount": {
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "accept-terms-modal": {
+                "accept_label": "Tôi đã đọc và chấp nhận <link>điều khoản thanh toán</link>.",
+                "continue_button": "Tiếp tục thanh toán",
+                "title": "Chấp nhận điều khoản"
             }
         },
         "admin": {
@@ -99,6 +98,13 @@
             },
             "permission": {
                 "enable-bounties": "Bật tiền thưởng"
+            }
+        }
+    },
+    "core": {
+        "forum": {
+            "index_sort": {
+                "mostBacked_button": "Được ủng hộ nhiều nhất"
             }
         }
     }

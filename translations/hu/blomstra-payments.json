@@ -1,29 +1,17 @@
 {
-    "core": {
-        "forum": {
-            "index_sort": {
-                "mostBacked_button": "Legtöbbet támogatott"
-            }
-        }
-    },
     "blomstra-payments": {
         "forum": {
-            "accept-terms-modal": {
-                "accept_label": "Elolvastam és elfogadom a <link>fizetési feltételeket</link>.",
-                "continue_button": "Fizetés folytatása",
-                "title": "Feltételek elfogadása"
-            },
             "stripe": {
                 "interval_once": "egyszer"
             },
             "subscription-card": {
-                "bounty": "Jutalom",
                 "ptv": "Fizetett a megtekintésért",
                 "pta": "Fizetett a hozzéférésért",
                 "ptb": "Fizetett a kiemelésért",
                 "ptp": "Fizetett a közzétételért",
                 "cancel-control": "Mégse",
-                "none": "Nincsenek fizetések vagy aktív előfizetések"
+                "none": "Nincsenek fizetések vagy aktív előfizetések",
+                "bounty": "Jutalom"
             },
             "pay-to-view": {
                 "purchase-control": "Fizetés a megtekintéshez",
@@ -69,6 +57,17 @@
             "nav": {
                 "access_portal": "Hozzáférési portál",
                 "user_subscriptions": "Előfizetések"
+            },
+            "exceptions": {
+                "out-of-bounds-amount": {
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "accept-terms-modal": {
+                "accept_label": "Elolvastam és elfogadom a <link>fizetési feltételeket</link>.",
+                "continue_button": "Fizetés folytatása",
+                "title": "Feltételek elfogadása"
             }
         },
         "admin": {
@@ -99,6 +98,13 @@
             },
             "permission": {
                 "enable-bounties": "Jutalmak engedélyezése"
+            }
+        }
+    },
+    "core": {
+        "forum": {
+            "index_sort": {
+                "mostBacked_button": "Legtöbbet támogatott"
             }
         }
     }
