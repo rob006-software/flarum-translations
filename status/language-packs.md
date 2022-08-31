@@ -519,20 +519,20 @@
 		</td>
 	</tr>
 	<tr>
-		<td><a href="https://github.com/rob006-software/flarum-lang-polish">Polish</a></td>
+		<td><a href="https://github.com/flarum-lang/polish">Polish</a></td>
 		<td align="right">
-			<a href="https://github.com/rob006-software/flarum-lang-polish/tags">
-				<img src="https://img.shields.io/github/release-date/rob006/flarum-lang-polish" alt="last release" />
+			<a href="https://github.com/flarum-lang/polish/tags">
+				<img src="https://img.shields.io/github/release-date/flarum-lang/polish" alt="last release" />
 			</a>
 		</td>
 		<td>
-			<a href="https://github.com/rob006-software/flarum-lang-polish/commits">
-				<img src="https://img.shields.io/github/commits-since/rob006/flarum-lang-polish/latest" alt="commits since last release" />
+			<a href="https://github.com/flarum-lang/polish/commits">
+				<img src="https://img.shields.io/github/commits-since/flarum-lang/polish/latest" alt="commits since last release" />
 			</a>
 		</td>
 		<td>
-			<a href="https://packagist.org/packages/rob006/flarum-lang-polish/stats">
-				<img src="https://img.shields.io/packagist/dm/rob006/flarum-lang-polish" alt="downloads (monthly)" />
+			<a href="https://packagist.org/packages/flarum-lang/polish/stats">
+				<img src="https://img.shields.io/packagist/dm/flarum-lang/polish" alt="downloads (monthly)" />
 			</a>
 		</td>
 		<td align="right">
