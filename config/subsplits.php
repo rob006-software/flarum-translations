@@ -284,7 +284,7 @@ return [
 	'pl' => [
 		'type' => 'language',
 		'language' => 'pl',
-		'repository' => 'git@github.com:rob006-software/flarum-lang-polish.git',
+		'repository' => 'git@github.com:flarum-lang/polish.git',
 		'branch' => 'master',
 		'path' => '/locale',
 		'releaseGenerator' => [
