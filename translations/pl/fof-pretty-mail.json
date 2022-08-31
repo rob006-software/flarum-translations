@@ -22,8 +22,7 @@
                 "postMentioned": "flarum/mentions - Post został wspomniany",
                 "notifications": "Szablony powiadomień",
                 "notificationHelp": "Zaleca się stosowanie „$forumStyle” dla tych wiadomości e-mail, ponieważ mogą one zawierać BBCODE. Dostępna jest też zmienna „$user”, która zawiera cały model użytkownika, do którego wysyłana jest wiadomość e-mail.",
-                "template_help": "Sprawdź każdy szablon, aby dowiedzieć się, jak korzystać z dostępnych atrybutów.",
-                "help": "\"$body\" zawiera rzeczywistą treść wiadomości e-mail, \"$forumStyle\" zawiera <strong>cały CSS forum</strong>, \"$url\" zawiera <code>UrlGenerator</code>, \"$settings\" zapewnia dostęp do <code>SettingsRepositoryInterface</code>, a \"$link\" zawiera link w wiadomości e-mail. Sprawdź istniejące szablony, aby zobaczyć jak wykorzystywać dostępne zmienne."
+                "template_help": "Sprawdź każdy szablon, aby dowiedzieć się, jak korzystać z dostępnych atrybutów."
             },
             "css_settings": {
                 "label": "Ustawienia CSS",

@@ -121,9 +121,7 @@
                     "button_label": "README",
                     "no_readme": "Wygląda na to, że to rozszerzenie nie posiada pliku README",
                     "title": "Dokumentacja {extName}"
-                },
-                "confirm_uninstall": "Odinstalowanie usunie wszystkie wpisy w bazie i zasoby powiązane z tym rozszerzeniem. Czy jesteś pewien, że chcesz kontynuować?",
-                "uninstall_button": "Odinstaluj"
+                }
             },
             "header": {
                 "get_help": "Uzyskaj pomoc",
@@ -306,8 +304,7 @@
                 "replied_text": "{username} odpowiedział {ago}",
                 "started_text": "{username} rozpoczął {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# odpowiedź} other {# odpowiedzi}}",
-                "unread_replies_a11y_label": "{count, plural, one {# nieodczytana odpowiedź} other {# nieodczytane odpowiedzi}}. Oznacz {count, plural, one {nieodczytaną odpowiedź jako odczytaną} other {nieodczytane odpowiedzi jako odczytane}}.",
-                "mark_as_read_tooltip": "Oznacz jako odczytane"
+                "unread_replies_a11y_label": "{count, plural, one {# nieodczytana odpowiedź} other {# nieodczytane odpowiedzi}}. Oznacz {count, plural, one {nieodczytaną odpowiedź jako odczytaną} other {nieodczytane odpowiedzi jako odczytane}}."
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -575,10 +572,6 @@
                 "new_password_label": "Nowe hasło",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
-            },
-            "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
             }
         },
         "api": {

@@ -19,18 +19,13 @@
                 "risky_performance_improvements_help": "Ryzykowne optymalizacje sprawiają, że zadania cron wykonują się szybciej dla zbiorów danych zawierających miliony rekordów, ale mogą być niekompatybilne z niektórymi rozszerzeniami.",
                 "modes": {
                     "runtime": "W locie",
-                    "multi_file": "Wiele plików",
-                    "cache": "Cache",
-                    "cache_disk": "Na dysku"
+                    "multi_file": "Wiele plików"
                 },
                 "frequency": {
                     "hourly": "Co godzinę",
                     "twice_daily": "2 razy dziennie",
                     "daily": "Codziennie"
-                },
-                "mode_help_cache_disk_label": "Cache / Na dysku",
-                "mode_help_cache_disk": "Najlepszy dla małych lub średniej wielkości forów na hostingach współdzielonych obsługujących zadania cron i harmonogram zadań Flarum (patrz poniżej), oraz z sumaryczną liczbą dyskusji, użytkowników, tagów oraz podstron poniżej 50 000 pozycji.",
-                "title": "FoF Sitemap"
+                }
             }
         }
     }
