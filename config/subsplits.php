@@ -289,7 +289,7 @@ return [
 		'path' => '/locale',
 		'releaseGenerator' => [
 			'class' => PolishReleaseGenerator::class,
-			'versionTemplate' => 'v0.Major.Minor',
+			'versionTemplate' => 'vMajor.Minor.Patch',
 		],
 		'maintainers' => ['rob006'],
 	],
