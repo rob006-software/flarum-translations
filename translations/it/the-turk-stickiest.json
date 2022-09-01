@@ -8,8 +8,8 @@
             "settings": {
                 "badge_icon_label": "Icona badge per Super Evidenza",
                 "badge_icon_text": "=> core.ref.icon_text",
-                "display_tag_sticky_label": "",
-                "display_tag_sticky_text": ""
+                "display_tag_sticky_label": "Mostra i tag in evidenza nell'elenco \"Tutte le discussioni\".",
+                "display_tag_sticky_text": "Saranno trattate come discussioni regolari e non rimarranno in cima."
             }
         },
         "forum": {
@@ -17,21 +17,21 @@
                 "sticky_tooltip": "=> the-turk-stickiest.ref.sticky",
                 "super_sticky_tooltip": "=> the-turk-stickiest.ref.super_sticky",
                 "tag_sticky_tooltip": "=> the-turk-stickiest.ref.tag_sticky",
-                "super_tag_sticky_tooltip": ""
+                "super_tag_sticky_tooltip": "=> the-turk-stickiest.ref.super_tag_sticky"
             },
             "stickiest_modal": {
-                "title": "",
-                "sticky_label": "",
-                "sticky_text": "",
-                "super_sticky_label": "",
-                "super_sticky_text": "",
-                "tag_sticky_label": "",
-                "tag_sticky_text": "",
-                "tags_label": "",
-                "submit_button": ""
+                "title": "Evidenza {title}",
+                "sticky_label": "=> flarum-sticky.ref.sticky",
+                "sticky_text": "Le discussioni persistenti rimarranno in cima all'elenco \"Tutte le discussioni\" se non sono lette. Quando si visualizza un tag specifico che appartiene alla discussione, rimarranno sempre in alto.",
+                "super_sticky_label": "=> the-turk-stickiest.ref.super_sticky",
+                "super_sticky_text": "Le discussioni sempre in evidenza rimarranno in primo piano, qualunque cosa accada.",
+                "tag_sticky_label": "=> the-turk-stickiest.ref.tag_sticky",
+                "tag_sticky_text": "I tag in evidenza sono nascosti nell'elenco \"Tutte le discussioni\" per impostazione predefinita. Verranno mostrati e resteranno in alto solo quando visualizzerai un tag specifico, ovvero uno dei tag che sceglierai qui. Questa opzione può essere combinata con \"Super in evidenza\".",
+                "tags_label": "=> flarum-tags.ref.tags",
+                "submit_button": "=> core.ref.save_changes"
             },
             "discussion_controls": {
-                "sticky_button": "=> the-turk-stickiest.ref.sticky",
+                "sticky_button": "=> flarum-sticky.forum.discussion_controls.sticky_button",
                 "unsticky_button": "=> flarum-sticky.forum.discussion_controls.unsticky_button",
                 "super_sticky_button": "=> the-turk-stickiest.ref.super_sticky",
                 "common_sticky_button": "Evidenza normale",
@@ -49,7 +49,7 @@
             "sticky": "=> flarum-sticky.ref.sticky",
             "super_sticky": "Super Evidenza",
             "tag_sticky": "Tag Evidenza",
-            "super_tag_sticky": ""
+            "super_tag_sticky": "Tag super in evidenza"
         }
     }
 }
