@@ -1,10 +1,10 @@
 {
     "blomstra-search": {
         "admin": {
-            "elastic-endpoint": "",
-            "elastic-username": "",
-            "elastic-password": "",
-            "elastic-index": "",
+            "elastic-endpoint": "Elastic Endpoint",
+            "elastic-username": "=> core.ref.username",
+            "elastic-password": "=> core.ref.password",
+            "elastic-index": "אינדקס",
             "analyzer": {
                 "label": "",
                 "help": ""
