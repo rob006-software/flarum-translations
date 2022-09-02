@@ -2,8 +2,8 @@
     "flarum-flags": {
         "admin": {
             "permissions": {
-                "flag_posts_label": "פוסטים מדווחים",
-                "view_flags_label": "צפה בפוסטים מדווחים"
+                "flag_posts_label": "הודעות מדווחות",
+                "view_flags_label": "צפיה בהודעות מדווחות"
             },
             "settings": {
                 "flag_own_posts_label": "אפשר למשתמש לסמן את ההודעות של עצמם",
@@ -13,28 +13,28 @@
         },
         "forum": {
             "flag_post": {
-                "confirmation_message": "תודה שדיווחת על הפוסט. המנהלים שלנו יבדקו אותו.",
+                "confirmation_message": "תודה שדיווחת על ההודעה. המנהלים שלנו יבדקו את זה.",
                 "dismiss_button": "=> core.ref.okay",
                 "reason_details_placeholder": "פרטים נוספים (לא חובה)",
                 "reason_inappropriate_label": "לא הולם",
                 "reason_inappropriate_text": "פוסט זה פוגעני, מעליב, או עובר על <a>חוקי הקהילה</a>.",
                 "reason_missing_message": "אנא מלאו פרטים לצוות ההנהלה.",
-                "reason_off_topic_label": "לא קשור לנושא",
-                "reason_off_topic_text": "פוסט זה אינו תואם את הדיון ומיועד למקום אחר",
-                "reason_other_label": "אחר",
-                "reason_spam_label": "זבל",
-                "reason_spam_text": "פוסט זה הוא פרסומת",
+                "reason_off_topic_label": "אוף-טופיק",
+                "reason_off_topic_text": "הודעה זו אינה תואמת את הדיון ומיועדת למקום אחר",
+                "reason_other_label": "אחר (נא לציין)",
+                "reason_spam_label": "ספאם",
+                "reason_spam_text": "הודעה זו היא פרסומת",
                 "submit_button": "=> flarum-flags.ref.flag_post",
                 "title": "=> flarum-flags.ref.flag_post"
             },
             "flagged_posts": {
                 "empty_text": "אין דיווחים",
-                "item_text": "{username} בתוך<em>{discussion}</em>",
+                "item_text": "{username} בתוך <em>{discussion}</em>",
                 "title": "=> flarum-flags.ref.flagged_posts",
                 "tooltip": "=> flarum-flags.ref.flagged_posts"
             },
             "post": {
-                "dismiss_flag_button": "ביטול דיווח",
+                "dismiss_flag_button": "התעלמות מדיווח",
                 "flagged_by_text": "דווח על ידי {username}",
                 "flagged_by_with_reason_text": "דווח על ידי {username} בתור {reason}"
             },
@@ -43,7 +43,7 @@
             }
         },
         "ref": {
-            "flag_post": "דיווח",
+            "flag_post": "דיווח הודעה",
             "flagged_posts": "פוסטים מדווחים"
         }
     }
