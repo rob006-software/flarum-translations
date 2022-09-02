@@ -35,7 +35,10 @@
                     "customValueSluggerDescription": "",
                     "countRequired": "字段数量限制",
                     "countRequiredDescription": "设置每个主题帖需添加的字段数量\n",
-                    "rangeSeparatorText": ""
+                    "rangeSeparatorText": "",
+                    "tagScope": "",
+                    "tagScopeDescription": "",
+                    "tagScopePlaceholder": ""
                 },
                 "delete": "",
                 "deleteConfirmation": "",
@@ -83,6 +86,7 @@
             "permissions": {
                 "heading": "",
                 "moderate": "",
+                "bypassTermCounts": "",
                 "seeOwnDiscussion": "",
                 "seeAnyDiscussion": "",
                 "editOwnDiscussion": "",
@@ -108,6 +112,11 @@
             "user": {
                 "nav": "",
                 "edit": ""
+            },
+            "blog": {
+                "widget": {
+                    "title": ""
+                }
             }
         },
         "lib": {
@@ -119,12 +128,15 @@
                 "placeholder": "",
                 "placeholderOptional": "选择……",
                 "custom": "选择 {value}",
+                "bypassTermCounts": "",
                 "submit": ""
             }
         },
         "api": {
             "error": {
-                "invalid_filter_taxonomy": ""
+                "invalid_filter_taxonomy": "",
+                "discussion_taxonomy_not_in_scope": "",
+                "cannot_use_taxonomies_on_model": ""
             }
         },
         "ref": {
