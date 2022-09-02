@@ -39,7 +39,7 @@
                 "description": "Sélectionnez votre montant pour soutenir « {subject} » ou choisissez un montant personnalisé."
             },
             "backers-widget": {
-                "label": "{sum} de don",
+                "label": "{sum} de promesses de dons",
                 "none": "Aucun financeur pour l'instant."
             },
             "tag": {
@@ -60,8 +60,8 @@
             },
             "exceptions": {
                 "out-of-bounds-amount": {
-                    "min": "",
-                    "max": ""
+                    "min": "Un paiement de {amount} n'est pas autorisé, {min} est le montant le moins élevé possible.",
+                    "max": "Un paiement de {amount} n'est pas autorisé, {max} est le montant le plus élevé possible."
                 }
             },
             "accept-terms-modal": {
