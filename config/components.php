@@ -148,6 +148,9 @@ return [
 	'clarkwinkelmann-anonymous-posting' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-anonymous-posting/1.0.1/locale/en.yml',
 	],
+	'blomstra-trello' => [
+		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-trello/0.2.2/locale/en.yml',
+	],
 	'clarkwinkelmann-author-change' => [
 		'tag' => 'https://raw.githubusercontent.com/clarkwinkelmann/flarum-ext-author-change/1.0.2/resources/locale/en.yml',
 	],
