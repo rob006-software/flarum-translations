@@ -27,6 +27,7 @@ return [
 		'!archlinux-de-click-image',
 		'!tpokorra-post-notification',
 		'!v17development-seo',
+		'!wolfgang-demeter-bbcode-5star-rating',
 	]),
 	'es' => getComponents([
 		// translations included in extension
