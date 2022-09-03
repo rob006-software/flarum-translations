@@ -24,6 +24,7 @@ return [
 		// translations included in extension
 		'!tpokorra-post-notification',
 		'!v17development-seo',
+		'!wolfgang-demeter-bbcode-5star-rating',
 	]),
 	'es' => getComponents([
 		// translations included in extension
