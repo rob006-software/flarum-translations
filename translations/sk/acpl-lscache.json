@@ -1,17 +1,17 @@
 {
     "acpl-lscache": {
         "admin": {
-            "public_cache_ttl_label": "",
-            "public_cache_ttl_help": "",
-            "clearing_cache_listener_label": "",
-            "serve_stale_label": "",
-            "serve_stale_help": "",
-            "purge_on_discussion_update_label": "",
-            "purge_on_discussion_update_help": "",
-            "cache_exclude_label": "",
-            "cache_exclude_help": "",
-            "purge_all": "",
-            "purge_all_success": ""
+            "public_cache_ttl_label": "Predvolená verejná vyrovnávacia pamäť TTL",
+            "public_cache_ttl_help": "Zadajte, ako dlho (v sekundách) sa verejné stránky ukladajú do vyrovnávacej pamäte. Predvolená hodnota je 300 sekúnd.",
+            "clearing_cache_listener_label": "Po vymazaní vyrovnávacej pamäte Flarum vymažte LSCache",
+            "serve_stale_label": "Podávajte zastarané",
+            "serve_stale_help": "Ak je ZAPNUTÉ, návštevníkom sa bude zobrazovať zastaraná kópia stránky vo vyrovnávacej pamäti, kým nebude k dispozícii nová kópia. Znižuje zaťaženie servera pri nasledujúcich návštevách. Ak je VYPNUTÉ, stránka sa bude dynamicky generovať počas čakania návštevníkov. Podľa návrhu môže táto možnosť slúžiť zastaranému obsahu. Nepovoľujte túto možnosť, ak vám to nevyhovuje.",
+            "purge_on_discussion_update_label": "Pri aktualizácii diskusie alebo príspevku vymažte adresy URL alebo značky",
+            "purge_on_discussion_update_help": "Zadajte jednu adresu URL alebo značku na riadok. Adresa URL by mala začínať reťazcom <code>/</code>, napr. <code>/rankings</code> a značka vyrovnávacej pamäte by mala začínať reťazcom <code>tag=</code>, napr. <code>tag=rankings</code>. Toto rozšírenie označí každú trasu a napríklad ak máte veľa trás, ktoré by ste chceli vyčistiť, je lepšie pridať do .htaccess pravidlo s regulárnym výrazom, ktorý bude označovať trasy a tu v nastaveniach zadať iba túto značku . Táto metóda bude oveľa rýchlejšia. <a>Viac informácií</a>. V predvolenom nastavení sa vymaže vyrovnávacia pamäť pre domovskú stránku, ako aj vyrovnávacia pamäť pre aktualizované diskusie.",
+            "cache_exclude_label": "Neukladajte cesty do vyrovnávacej pamäte",
+            "cache_exclude_help": "Cesty obsahujúce tieto reťazce nebudú uložené do vyrovnávacej pamäte. Napríklad pre <code>/mypath/mypage?aa=bb</code> tu možno použiť <code>mypage?aa=</code>. Ak chcete zodpovedať začiatku, pridajte na začiatok položky <code>^</code>. Ak chcete urobiť presnú zhodu, pridajte <code>$</code> na koniec adresy URL. Jeden na riadok.",
+            "purge_all": "Vyčistite všetky LSCache",
+            "purge_all_success": "Webový server LiteSpeed upozornil, aby sa vyčistili všetky položky LSCache"
         }
     }
 }

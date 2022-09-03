@@ -113,7 +113,7 @@
             },
             "extension": {
                 "configure_scopes": "پیکربندی محدوده",
-                "confirm_uninstall": "حذف ، تمام ورودی های پایگاه داده و دارایی های مربوط به افزونه را حذف می کند . آیا مطمئن هستید که میخواهید ادامه دهید ؟",
+                "confirm_purge": "پاکسازی ، تمام ورودی‌های پایگاه داده و دارایی‌های مربوط به افزودنی را حذف می‌کند . این مورد افزودنی را حذف نصب نمی کند ; این مورد باید توسط Composer انجام شود . آیا اطمینان دارید که می خواهید ادامه دهید ؟",
                 "disabled": "غیرفعال شد",
                 "enable_to_see": "افزونه را برای مشاهده و تغییر تنظیمات فعال کنید .",
                 "enabled": "فعال شد",
@@ -129,14 +129,14 @@
                 "no_settings": "این افزونه هیچ تنظیماتی ندارد .",
                 "open_modal": "بازکردن تنظیمات",
                 "permissions_title": "مجوز ها",
-                "uninstall_button": "حذف",
-                "confirm_purge": "پاکسازی ، تمام ورودی‌های پایگاه داده و دارایی‌های مربوط به افزودنی را حذف می‌کند . این مورد افزودنی را حذف نصب نمی کند ; این مورد باید توسط Composer انجام شود . آیا اطمینان دارید که می خواهید ادامه دهید ؟",
                 "purge_button": "پاکسازی",
                 "readme": {
                     "button_label": "README",
                     "no_readme": "به نظر نمی رسد این افزونه فایل README داشته باشد",
                     "title": "مستندات {extName}"
-                }
+                },
+                "confirm_uninstall": "حذف ، تمام ورودی های پایگاه داده و دارایی های مربوط به افزونه را حذف می کند . آیا مطمئن هستید که میخواهید ادامه دهید ؟",
+                "uninstall_button": "حذف"
             },
             "header": {
                 "get_help": "کمک بگیرید",
@@ -336,11 +336,11 @@
             "discussion_list": {
                 "empty_text": "به نظر می‌رسد که مبحثی تاکنون در اینجا ارسال نشده است.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "علامت به‌عنوان خوانده‌شده",
                 "replied_text": "{username} در {ago} پاسخ داد",
                 "started_text": "{username} در {ago} شروع نمود",
                 "total_replies_a11y_label": "{count, plural, one {# پاسخ} other {# پاسخ}}",
-                "unread_replies_a11y_label": "{count, plural, one {# پاسخ خوانده نشده} other {# پاسخ خوانده نشده}}. انتخاب {count, plural, one {پاسخ} other {پاسخ های}} خوانده نشده به عنوان خوانده شده."
+                "unread_replies_a11y_label": "{count, plural, one {# پاسخ خوانده نشده} other {# پاسخ خوانده نشده}}. انتخاب {count, plural, one {پاسخ} other {پاسخ های}} خوانده نشده به عنوان خوانده شده.",
+                "mark_as_read_tooltip": "علامت به‌عنوان خوانده‌شده"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -505,6 +505,10 @@
             }
         },
         "lib": {
+            "debug_button": "دیباگ",
+            "alert": {
+                "dismiss_a11y_label": "لغو هشدار"
+            },
             "badge": {
                 "hidden_tooltip": "پنهان"
             },
@@ -527,6 +531,7 @@
             },
             "error": {
                 "dependent_extensions_message": "تا زمانی که پسوندهای وابسته زیر غیرفعال شوند، نمی توان {extension} را غیرفعال کرد: {extensions}",
+                "extension_initialiation_failed_message": "",
                 "generic_message": "متأسفانه خطایی رخ داد. لطفاً صفحه را دوباره بارگذاری کنید.",
                 "missing_dependencies_message": "تا زمانی که وابستگی‌های زیر فعال نشده باشند، نمی‌توان {extension} را فعال کرد: {extensions}",
                 "not_found_message": "یافت نشد.",
@@ -537,6 +542,16 @@
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": "بستن"
+            },
+            "nav": {
+                "drawer_button": "باز کردن کشوی پیمایش"
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -549,20 +564,6 @@
             },
             "username": {
                 "deleted_text": "[حذف شده]"
-            },
-            "debug_button": "دیباگ",
-            "alert": {
-                "dismiss_a11y_label": "لغو هشدار"
-            },
-            "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
-            },
-            "modal": {
-                "close": "بستن"
-            },
-            "nav": {
-                "drawer_button": "باز کردن کشوی پیمایش"
             }
         },
         "views": {

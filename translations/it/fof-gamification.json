@@ -27,8 +27,12 @@
                 }
             },
             "user": {
-                "points": "Punti: {points}",
-                "rank": "{rank}"
+                "card": {
+                    "points": "{count, plural, one { {count} punto} other {{count} punti}}"
+                },
+                "rank": "{rank}",
+                "votes_link": "Voti",
+                "points": "Punti: {points}"
             },
             "modal": {
                 "downvotes_label": "Votanti contro:",

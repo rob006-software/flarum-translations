@@ -8,6 +8,7 @@
         "admin": {
             "settings": {
                 "modal": {
+                    "always_show_theme_toggle_on_header": "Mindig jelenjen meg a témaválasztógomb a fórumfejlécben",
                     "default_theme": "Alapértelmezett fórumtéma",
                     "default_theme_helper": "Az alapértelmezett téma automatikusan megjelenik a vendégeknek, új felhasználóknak.",
                     "theme_auto": "=> fof-nightmode.ref.auto",
@@ -41,6 +42,16 @@
                         "night": "Kissé olyan, mint az éjszakai bagoly. Éjjel vigyáz a fórumra, miközben a madarak alszanak, a rókák pedig vadásznak. Vagy inkább csak a sötétebb színeket részesíti előnyben!"
                     }
                 }
+            }
+        }
+    },
+    "fof-default-user-preferences": {
+        "admin": {
+            "settings": {
+                "fofNightMode": "FoF Éjszakai mód: Alapértelmezetten használandó színtéma",
+                "fofNightMode-help": "0 – automatikus, 1 – világos mód, 2 – sötét mód",
+                "fofNightMode_perDevice": "FoF Éjszakai mód: Eszközönkénti beállítások használata",
+                "fofNightMode_perDevice-help": "Eszközönkénti beállítások használata az éjszakai módhoz"
             }
         }
     }

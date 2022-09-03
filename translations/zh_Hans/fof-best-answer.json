@@ -51,7 +51,8 @@
                 "awarded": "您的帖子被 {username} 设为最佳回复",
                 "preferences": {
                     "awarded_best_answer": "有人将我的帖子设为最佳回复",
-                    "best_answer_in_discussion": "我互动的主题有了最佳回复"
+                    "best_answer_in_discussion": "我互动的主题有了最佳回复",
+                    "select_best_answer": "提醒我选择自己主题的最佳回复"
                 }
             },
             "index": {
@@ -68,6 +69,9 @@
             },
             "composer": {
                 "titlePlaceholder": "标题"
+            },
+            "user": {
+                "best-answer-count": "{count, plural, { {count} 次助人} other {{count} 次助人}}"
             }
         },
         "email": {

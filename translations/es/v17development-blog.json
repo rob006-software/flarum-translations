@@ -33,7 +33,9 @@
                 "redirect_tags_label": "Redirigir las etiquetas del blog",
                 "redirect_tags_text": "Cuando está activada, esta extensión redirige las URL de las etiquetas del blog a la URL de la categoría del blog.",
                 "default_article_image_label": "Imagen del artículo por defecto",
-                "default_article_image_text": "Seleccione una imagen de artículo por defecto para mostrar cuando no se haya establecido ninguna imagen."
+                "default_article_image_text": "Seleccione una imagen de artículo por defecto para mostrar cuando no se haya establecido ninguna imagen.",
+                "add_hero_label": "",
+                "add_hero_text": ""
             }
         },
         "forum": {
@@ -98,6 +100,24 @@
                 "comment_section": "La sección de comentarios no está disponible cuando se redacta un artículo.",
                 "no_blog_tags_selected": "Ninguna de las etiquetas que ha seleccionado es una etiqueta de blog. Por favor, seleccione al menos una.",
                 "post_without_blog_info": "¿Estás seguro de que quieres publicar esta entrada del blog? Todavía no has introducido un resumen o una imagen del articulo."
+            },
+            "article_settings": {
+                "title": "",
+                "fields": {
+                    "summary": {
+                        "title": "",
+                        "placeholder": "",
+                        "helper_text": ""
+                    },
+                    "image": {
+                        "title": "",
+                        "helper_text": ""
+                    },
+                    "highlight": {
+                        "title": "",
+                        "helper_text": ""
+                    }
+                }
             }
         }
     }

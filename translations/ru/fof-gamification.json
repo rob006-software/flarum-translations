@@ -27,8 +27,12 @@
                 }
             },
             "user": {
-                "points": "Очков: {points}",
-                "rank": "{rank}"
+                "card": {
+                    "points": ""
+                },
+                "rank": "{rank}",
+                "votes_link": "",
+                "points": "Очков: {points}"
             },
             "modal": {
                 "downvotes_label": "Голосовавшие против:",

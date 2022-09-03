@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "",
-                "confirm_uninstall": "",
+                "confirm_purge": "",
                 "disabled": "مُعطل",
                 "enable_to_see": "",
                 "enabled": "",
@@ -116,8 +116,6 @@
                 "no_settings": "هذا الامتداد ليس له إعدادات.",
                 "open_modal": "",
                 "permissions_title": "أذونات",
-                "uninstall_button": "ازالة",
-                "confirm_purge": "",
                 "purge_button": "",
                 "readme": {
                     "button_label": "",
@@ -180,8 +178,8 @@
                 "rename_discussions_label": "",
                 "reply_to_discussions_label": "",
                 "search_users_label": "",
-                "sign_up_label": "",
-                "start_discussions_label": "",
+                "sign_up_label": "تسجيل حساب",
+                "start_discussions_label": "موضوع جديد",
                 "title": "",
                 "view_forum_label": "",
                 "view_hidden_groups_label": "",
@@ -303,7 +301,6 @@
             "discussion_list": {
                 "empty_text": "",
                 "load_more_button": "",
-                "mark_as_read_tooltip": "",
                 "replied_text": "",
                 "started_text": "",
                 "total_replies_a11y_label": "",
@@ -452,13 +449,17 @@
             "user_email_confirmation": {
                 "alert_message": "",
                 "resend_button": "",
-                "sent_message": ""
+                "sent_message": "إرسال"
             },
             "welcome_hero": {
                 "hide": ""
             }
         },
         "lib": {
+            "debug_button": "",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
             "badge": {
                 "hidden_tooltip": ""
             },
@@ -481,6 +482,7 @@
             },
             "error": {
                 "dependent_extensions_message": "",
+                "extension_initialiation_failed_message": "",
                 "generic_message": "",
                 "missing_dependencies_message": "",
                 "not_found_message": "",
@@ -491,6 +493,16 @@
             },
             "loading_indicator": {
                 "accessible_label": ""
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": ""
+            },
+            "nav": {
+                "drawer_button": ""
             },
             "number_suffix": {
                 "kilo_text": "",
@@ -503,20 +515,6 @@
             },
             "username": {
                 "deleted_text": ""
-            },
-            "debug_button": "",
-            "alert": {
-                "dismiss_a11y_label": ""
-            },
-            "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
-            },
-            "modal": {
-                "close": ""
-            },
-            "nav": {
-                "drawer_button": ""
             }
         },
         "views": {
@@ -574,10 +572,6 @@
                 "new_password_label": "",
                 "submit_button": "",
                 "title": ""
-            },
-            "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
             }
         },
         "api": {

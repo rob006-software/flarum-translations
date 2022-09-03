@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "വ്യാപ്തി ക്രമീകരിക്കുക",
-                "confirm_uninstall": "അൺഇൻസ്റ്റാൾ ചെയ്യുന്നത് വിപുലീകരണവുമായി ബന്ധപ്പെട്ട എല്ലാ ഡാറ്റാബേസ് എൻട്രികളും അസറ്റുകളും നീക്കം ചെയ്യും. നിങ്ങൾക്ക് തുടരണമെന്ന് ഉറപ്പാണോ?",
+                "confirm_purge": "",
                 "disabled": "അപ്രാപ്തമാക്കി",
                 "enable_to_see": "ക്രമീകരണങ്ങൾ കാണാനും മാറ്റാനും വിപുലീകരണം പ്രവർത്തനക്ഷമമാക്കുക.",
                 "enabled": "പ്രവർത്തനക്ഷമമാക്കി",
@@ -116,14 +116,14 @@
                 "no_settings": "ഈ വിപുലീകരണത്തിന് ക്രമീകരണങ്ങളൊന്നുമില്ല.",
                 "open_modal": "ക്രമീകരണങ്ങൾ തുറക്കുക",
                 "permissions_title": "അനുമതികൾ",
-                "uninstall_button": "അൺഇൻസ്റ്റാൾ ചെയ്യുക",
-                "confirm_purge": "",
                 "purge_button": "",
                 "readme": {
                     "button_label": "",
                     "no_readme": "",
                     "title": ""
-                }
+                },
+                "confirm_uninstall": "അൺഇൻസ്റ്റാൾ ചെയ്യുന്നത് വിപുലീകരണവുമായി ബന്ധപ്പെട്ട എല്ലാ ഡാറ്റാബേസ് എൻട്രികളും അസറ്റുകളും നീക്കം ചെയ്യും. നിങ്ങൾക്ക് തുടരണമെന്ന് ഉറപ്പാണോ?",
+                "uninstall_button": "അൺഇൻസ്റ്റാൾ ചെയ്യുക"
             },
             "header": {
                 "get_help": "സഹായം തേടു",
@@ -303,11 +303,11 @@
             "discussion_list": {
                 "empty_text": "ഇവിടെ ചർച്ചകളൊന്നുമില്ലെന്ന് തോന്നുന്നു.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "വായിച്ചതായി അടയാളപ്പെടുത്തുക",
                 "replied_text": "{username} മറുപടി നൽകി {ago}",
                 "started_text": "{username} ആരംഭിച്ചു {ago}",
                 "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": ""
+                "unread_replies_a11y_label": "",
+                "mark_as_read_tooltip": "വായിച്ചതായി അടയാളപ്പെടുത്തുക"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -459,6 +459,10 @@
             }
         },
         "lib": {
+            "debug_button": "",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
             "badge": {
                 "hidden_tooltip": ""
             },
@@ -481,6 +485,7 @@
             },
             "error": {
                 "dependent_extensions_message": "",
+                "extension_initialiation_failed_message": "",
                 "generic_message": "",
                 "missing_dependencies_message": "",
                 "not_found_message": "",
@@ -491,6 +496,16 @@
             },
             "loading_indicator": {
                 "accessible_label": ""
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": ""
+            },
+            "nav": {
+                "drawer_button": ""
             },
             "number_suffix": {
                 "kilo_text": "",
@@ -503,20 +518,6 @@
             },
             "username": {
                 "deleted_text": ""
-            },
-            "debug_button": "",
-            "alert": {
-                "dismiss_a11y_label": ""
-            },
-            "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
-            },
-            "modal": {
-                "close": ""
-            },
-            "nav": {
-                "drawer_button": ""
             }
         },
         "views": {

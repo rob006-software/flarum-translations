@@ -37,6 +37,7 @@
             }
         },
         "email": {
+            "no_reason_given": "Nessuna motivazione esistente per questa sospensione.",
             "suspended": {
                 "subject": "Il tuo account è stato sospeso",
                 "body": "Hey {recipient_display_name},\n\nSei stato sospeso con la seguente motivazione:\n\n---\n{suspension_message}\n---\n"

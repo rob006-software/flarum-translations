@@ -19,7 +19,11 @@
                 "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
                 "load_more_button": "=> core.ref.load_more",
                 "empty_text": "Wir konnten keinen Benutzer finden, der deiner Suche entspricht.",
-                "filter_button": "Gruppen Filtern"
+                "filter_button": "Gruppen Filtern",
+                "usercard": {
+                    "discussion-count": "{count, plural, one { {count} Diskussion} other {{count} Diskussionen}}",
+                    "post-count": "{count, plural, one { {count} Beitrag} other {{count} Beiträge}}"
+                }
             }
         },
         "admin": {

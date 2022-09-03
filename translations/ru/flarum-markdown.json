@@ -1,5 +1,20 @@
 {
     "flarum-markdown": {
+        "lib": {
+            "composer": {
+                "bold_tooltip": "Добавить полужирный текст",
+                "code_tooltip": "Вставить код",
+                "header_tooltip": "Добавить текст заголовка",
+                "image_tooltip": "Добавить изображение",
+                "italic_tooltip": "Добавить курсивный текст",
+                "link_tooltip": "Добавить ссылку",
+                "ordered_list_tooltip": "Добавить нумерованный список",
+                "quote_tooltip": "Вставить цитату",
+                "spoiler_tooltip": "Вставить спойлер",
+                "strikethrough_tooltip": "Добавить перечеркнутый текст",
+                "unordered_list_tooltip": "Добавить маркированный список"
+            }
+        },
         "forum": {
             "composer": {
                 "bold_tooltip": "Жирный текст",

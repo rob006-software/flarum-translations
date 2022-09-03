@@ -62,6 +62,7 @@
                     "title": "",
                     "accept-submissions": "විවෘත කරන්න",
                     "allow-modification": "",
+                    "enabled": "",
                     "submissions": "",
                     "actions": "ක්‍රියාමාර්ග"
                 }
@@ -108,7 +109,9 @@
                     "closed": "වසා ඇත",
                     "create": "",
                     "edit": "",
-                    "both": ""
+                    "both": "",
+                    "enabled": "",
+                    "disabled": ""
                 },
                 "controls": "",
                 "template-export": "",
@@ -146,6 +149,7 @@
                     "automatic-discussion-help": "",
                     "accept-submissions": "",
                     "allow-modification": "",
+                    "enable": "",
                     "max-submissions": "",
                     "send-confirmation-to-participants": "",
                     "notify-emails": "",
@@ -346,6 +350,10 @@
                     "boolean-true": "",
                     "boolean-false": ""
                 }
+            },
+            "discussion-submission": {
+                "empty": "",
+                "edit": ""
             }
         },
         "api": {

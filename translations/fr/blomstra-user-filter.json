@@ -2,6 +2,7 @@
     "blomstra-user-filter": {
         "admin": {
             "settings": {
+                "intro": "Les utilisateurs sans la permission <code>Rechercher des utilisateurs</code> ne verront pas le champ de recherche. Définissez cette option sur <code>Tout le monde</code> pour tous les utilisateurs, ou quel que soit votre niveau de préférence.",
                 "min_length": "Minimum de caractères pour commencer la recherche",
                 "result_count": "Résultats maximums dans l'autocomplétion des listes déroulantes"
             }
@@ -12,11 +13,11 @@
                     "accessible_label": "Filtrer par auteur",
                     "all": "Tous",
                     "label": "Filtrer par auteur : {text}",
-                    "search_label": "Recherchez des utilisateurs...",
+                    "search_label": "Rechercher des utilisateurs...",
                     "no_results": "Aucun résultat",
-                    "start_typing": "Commencez à taper...",
-                    "keep_typing": "Continuez à taper...",
-                    "remove_filter": "Retirez le filtre de l'auteur"
+                    "start_typing": "Commencer à écrire...",
+                    "keep_typing": "Continuer à taper...",
+                    "remove_filter": "Supprimer le filtre d'auteur"
                 }
             }
         }

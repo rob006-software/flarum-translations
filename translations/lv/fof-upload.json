@@ -15,6 +15,7 @@
                 "watermark": "",
                 "s3_compatible_storage": "",
                 "s3_acl": "",
+                "s3_instance_profile": "",
                 "composer_buttons": ""
             },
             "labels": {
@@ -39,7 +40,8 @@
                 },
                 "imgur": {
                     "client_id": "",
-                    "title": ""
+                    "title": "",
+                    "tos": ""
                 },
                 "local": {
                     "cdn_url": "",
@@ -78,7 +80,8 @@
                         "upload-btn": "",
                         "media-btn": ""
                     }
-                }
+                },
+                "inspect-mime": ""
             },
             "permissions": {
                 "download_label": "",
@@ -109,8 +112,18 @@
                 "ovh-svfs": "",
                 "qiniu": ""
             },
-            "buttons": {
-                "save": ""
+            "inspect-mime": {
+                "title": "",
+                "description": "",
+                "select": "",
+                "laravel-validation": "",
+                "no-file-selected": "",
+                "validation-passed": "",
+                "validation-failed": "",
+                "mime-detector": "",
+                "mime-fileinfo": "",
+                "guessed-extension": "",
+                "not-available": ""
             }
         },
         "forum": {

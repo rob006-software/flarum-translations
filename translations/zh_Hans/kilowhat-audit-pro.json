@@ -3,7 +3,7 @@
         "admin": {
             "permissions": {
                 "view": "查看审计日志",
-                "viewLimited": ""
+                "viewLimited": "查看有限审计日志"
             },
             "header": {
                 "title": "审计",
@@ -12,24 +12,24 @@
                 "upgrade": "升级到专业版"
             },
             "limitedSettings": {
-                "configure": "",
-                "title": "",
-                "introduction": "",
-                "requiresExtension": ""
+                "configure": "配置",
+                "title": "有限审计",
+                "introduction": "选择「有限审计」权限用户可见的日志类型",
+                "requiresExtension": "需要先启用扩展程序「{extension}」"
             },
             "settings": {
-                "limitedIpAddress": ""
+                "limitedIpAddress": "查看 IP 地址"
             }
         },
         "forum": {
             "link": {
-                "all-audit": "",
+                "all-audit": "审计日志",
                 "discussion-audit": "审计日志",
                 "user-audit": "审计日志（账户编辑）",
                 "actor-audit": "审计日志（用户作为行为人）"
             },
             "modal": {
-                "all-title": "",
+                "all-title": "审计日志",
                 "discussion-title": "讨论审计日志",
                 "user-title": "用户审计日志",
                 "actor-title": "行为人审计日志"

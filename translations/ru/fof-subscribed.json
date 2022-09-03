@@ -5,35 +5,45 @@
                 "defaults_label": "Установить \"{setting}\" включенной по умолчанию",
                 "forced_label": "Принудительно включить \"{setting}\" для всех пользователей",
                 "notify_discussion_created_label": "Создание дискуссии",
+                "notify_post_created_label": "",
                 "notify_post_unapproved_label": "Публикация сообщения, требующего подтверждения",
-                "notify_user_created_label": "Регистрация пользователя"
+                "notify_user_created_label": "Регистрация пользователя",
+                "notify_post_flagged_label": ""
             },
             "notifications": {
                 "discussion_created_text": "{username} создал(а) новую дискуссию",
+                "post_created_text": "",
                 "post_unapproved_text": "{username} опубликовал(а) сообщение, которое требует подтверждения",
-                "user_created_text": "Пользователь {username} зарегистрировался"
+                "user_created_text": "Пользователь {username} зарегистрировался",
+                "post_flagged_text": ""
             }
         },
         "admin": {
-            "menu": {
-                "description": "Настройка пользовательских подписок по умолчанию"
-            },
             "permission": {
                 "subscribe_to_discussion_created": "Получать уведомления о создании дискуссий",
+                "subscribe_to_post_created": "",
                 "subscribe_to_post_unapproved": "Получать уведомления о неподтверждённых сообщениях",
-                "subscribe_to_user_created": "Получать уведомления о регистрации пользователей"
+                "subscribe_to_user_created": "Получать уведомления о регистрации пользователей",
+                "subscribe_to_post_flagged": ""
+            },
+            "menu": {
+                "description": "Настройка пользовательских подписок по умолчанию"
             }
         },
         "email": {
             "subject": {
                 "newDiscussion": "[Подписка | Новая дискуссия] {title}",
                 "newUser": "[Подписка | Новый пользователь] {username}",
-                "postUnapproved": "[Подписка | Неподтверждённое сообщение] {username} опубликовал(а) в {title}"
+                "postUnapproved": "[Подписка | Неподтверждённое сообщение] {username} опубликовал(а) в {title}",
+                "postCreated": "",
+                "postFlagged": ""
             },
             "body": {
                 "newDiscussion": "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} опубликовал(а) новую дискуссию: {discussion_title}\n\nЧтобы посмотреть новую дискуссию, пройдите по следующей ссылке:\n{discussion_url}\n\n---\n\n{post_content}\n",
                 "newUser": "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} зарегистрировался на {forum_url}.\n\nЧтобы посмотреть нового пользователя, пройдите по следующей ссылке:\n{user_url}\n",
-                "postUnapproved": "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} опубликовал(а) сообщение, требующее подтверждения в {discussion_title}\n\nЧтобы посмотреть неподтверждённое сообщение, пройдите по следующей ссылке:\n{post_url}\n\n---\n\n{post_content}\n"
+                "postUnapproved": "Здравствуйте, {recipient_display_name}!\n\n{actor_display_name} опубликовал(а) сообщение, требующее подтверждения в {discussion_title}\n\nЧтобы посмотреть неподтверждённое сообщение, пройдите по следующей ссылке:\n{post_url}\n\n---\n\n{post_content}\n",
+                "postCreated": "",
+                "postFlagged": ""
             }
         }
     }

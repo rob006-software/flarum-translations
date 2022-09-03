@@ -33,7 +33,9 @@
                 "redirect_tags_label": "",
                 "redirect_tags_text": "",
                 "default_article_image_label": "",
-                "default_article_image_text": ""
+                "default_article_image_text": "",
+                "add_hero_label": "",
+                "add_hero_text": ""
             }
         },
         "forum": {
@@ -98,6 +100,24 @@
                 "comment_section": "",
                 "no_blog_tags_selected": "",
                 "post_without_blog_info": ""
+            },
+            "article_settings": {
+                "title": "",
+                "fields": {
+                    "summary": {
+                        "title": "",
+                        "placeholder": "",
+                        "helper_text": ""
+                    },
+                    "image": {
+                        "title": "",
+                        "helper_text": ""
+                    },
+                    "highlight": {
+                        "title": "",
+                        "helper_text": ""
+                    }
+                }
             }
         }
     }

@@ -2,96 +2,96 @@
     "the-turk-flamoji": {
         "admin": {
             "settings": {
-                "emoji_settings_heading": "",
-                "category_settings_heading": "",
-                "general_ui_settings_heading": "",
-                "show_variants_label": "",
-                "show_variants_text": "",
-                "auto_hide_label": "",
-                "auto_hide_text": "",
-                "show_preview_label": "",
-                "show_category_buttons_label": "",
-                "show_search_label": "",
-                "show_recents_label": "",
-                "recents_count_label": "",
-                "recents_count_text": "",
-                "emoji_style_label": "",
-                "emoji_version_label": "",
-                "emoji_version_text": "",
-                "initial_category_label": "",
-                "initial_category_text": "",
-                "specify_categories_label": "",
-                "specify_categories_text": "",
-                "emoji_data_label": "",
-                "emoji_data_text": "",
-                "emoji_style_native_option": "",
+                "emoji_settings_heading": "Emodzsibeállítások",
+                "category_settings_heading": "Kategóriabeállítások",
+                "general_ui_settings_heading": "Általános felületi beállítások",
+                "show_variants_label": "Változatok megjelenítése",
+                "show_variants_text": "Egyes emodzsiknak különböző bőrtónusú változatai vannak. Ha olyan emodzsit választanak ki, amelynek vannak változatai, akkor a felhasználók egy felugró ablakon választhatják ki a kívánt változatot.",
+                "auto_hide_label": "Automatikus elrejtés",
+                "auto_hide_text": "A választó elrejtése az emodzsi kiválasztásakor.",
+                "show_preview_label": "Előnézeti rész megjelenítése",
+                "show_category_buttons_label": "Kategóriagombok megjelenítése",
+                "show_search_label": "Keresés beviteli mezőjének megjelenítése",
+                "show_recents_label": "A legutóbb használt emodzsik megjelenítése (és mentése)",
+                "recents_count_label": "A legutóbb használt emodzsik számának megjelenítése",
+                "recents_count_text": "A mentendő legutóbb használt emodzsik száma.",
+                "emoji_style_label": "Emodzsik stílusa",
+                "emoji_version_label": "Emodzsik verziója",
+                "emoji_version_text": "A használandó emodzsispecifikáció verziója.",
+                "initial_category_label": "Kezdeti kategória",
+                "initial_category_text": "Alapértelmezetten a választó a Mosolyok és érzelem kategóriát jeleníti meg.",
+                "specify_categories_label": "Adja meg a kategóriákat",
+                "specify_categories_text": "Itt megadhatja a kategóriákat, és a választó csak ezeket fogja megjeleníteni.",
+                "emoji_data_label": "Emodzsik adatai",
+                "emoji_data_text": "Ez jellemzően a lefordított emodzsinevek megadására használatos.",
+                "emoji_style_native_option": "Natív",
                 "emoji_categories": {
-                    "smileys": "",
-                    "people": "",
-                    "animals": "",
-                    "food": "",
-                    "travel": "",
-                    "activities": "",
-                    "objects": "",
-                    "symbols": "",
-                    "flags": ""
+                    "smileys": "=> the-turk-flamoji.ref.emoji_categories.smileys",
+                    "people": "=> the-turk-flamoji.ref.emoji_categories.people",
+                    "animals": "=> the-turk-flamoji.ref.emoji_categories.animals",
+                    "food": "=> the-turk-flamoji.ref.emoji_categories.food",
+                    "travel": "=> the-turk-flamoji.ref.emoji_categories.travel",
+                    "activities": "=> the-turk-flamoji.ref.emoji_categories.activities",
+                    "objects": "=> the-turk-flamoji.ref.emoji_categories.objects",
+                    "symbols": "=> the-turk-flamoji.ref.emoji_categories.symbols",
+                    "flags": "=> the-turk-flamoji.ref.emoji_categories.flags"
                 }
             },
             "custom_emojis_section": {
-                "heading_title": "",
-                "import_json_button": "",
-                "export_json_button": "",
-                "import_emojis_message": "",
+                "heading_title": "Egyéni emodzsik",
+                "import_json_button": "JSON importálása",
+                "export_json_button": "JSON exportálása",
+                "import_emojis_message": "Ez csak az emodzsik konfigurációját importálja. A képeket kézzel kell feltöltenie.",
                 "edit_emoji": {
-                    "modal_title": "",
-                    "emoji_title_label": "",
-                    "delete_emoji_confirmation": "",
-                    "text_to_replace_label": "",
-                    "path_or_url_label": "",
-                    "submit_button": "",
-                    "delete_emoji_button": "",
-                    "saved_message": ""
+                    "modal_title": "Emodzsi hozzáadása",
+                    "emoji_title_label": "Emodzsi címe",
+                    "delete_emoji_confirmation": "Valóban törli ezt az emodzsit?",
+                    "text_to_replace_label": "Lecserélendő szöveg",
+                    "path_or_url_label": "Útvonal vagy webcím",
+                    "submit_button": "=> core.ref.save_changes",
+                    "delete_emoji_button": "Emodzsi törlése",
+                    "saved_message": "=> core.admin.settings.saved_message"
                 },
                 "emoji_list": {
-                    "load_more_button": ""
+                    "load_more_button": "=> core.forum.post_stream.load_more_button"
                 }
             }
         },
         "forum": {
             "composer": {
-                "emoji_tooltip": ""
+                "emoji_tooltip": "Emodzsi beszúrása"
             },
             "emoji-button": {
-                "search_placeholder": "",
-                "no_emojis_found_message": "",
+                "search_placeholder": "Emodzsik keresése",
+                "no_emojis_found_message": "Nem találhatók emodzsik",
                 "categories": {
-                    "recents": "",
-                    "smileys": "",
-                    "people": "",
-                    "animals": "",
-                    "food": "",
-                    "travel": "",
-                    "activities": "",
-                    "objects": "",
-                    "symbols": "",
-                    "flags": "",
-                    "custom": ""
+                    "recents": "=> the-turk-flamoji.ref.emoji_categories.recents",
+                    "smileys": "=> the-turk-flamoji.ref.emoji_categories.smileys",
+                    "people": "=> the-turk-flamoji.ref.emoji_categories.people",
+                    "animals": "=> the-turk-flamoji.ref.emoji_categories.animals",
+                    "food": "=> the-turk-flamoji.ref.emoji_categories.food",
+                    "travel": "=> the-turk-flamoji.ref.emoji_categories.travel",
+                    "activities": "=> the-turk-flamoji.ref.emoji_categories.activities",
+                    "objects": "=> the-turk-flamoji.ref.emoji_categories.objects",
+                    "symbols": "=> the-turk-flamoji.ref.emoji_categories.symbols",
+                    "flags": "=> the-turk-flamoji.ref.emoji_categories.flags",
+                    "custom": "=> the-turk-flamoji.ref.emoji_categories.custom"
                 }
             }
         },
         "ref": {
             "emoji_categories": {
-                "recents": "",
-                "smileys": "",
-                "people": "",
-                "animals": "",
-                "food": "",
-                "travel": "",
-                "activities": "",
-                "objects": "",
-                "symbols": "",
-                "flags": "",
-                "custom": ""
+                "recents": "Nemrég használt emodzsik",
+                "smileys": "Mosolyok és érzelem",
+                "people": "Emberek és test",
+                "animals": "Állatok és természet",
+                "food": "Étel és ital",
+                "travel": "Utazás és helyek",
+                "activities": "Tevékenységek",
+                "objects": "Tárgyak",
+                "symbols": "Szimbólumok",
+                "flags": "Zászlók",
+                "custom": "Egyéni"
             }
         }
     }

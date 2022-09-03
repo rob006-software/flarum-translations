@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "कार्यक्षेत्र कॉन्फ़िगर करें",
-                "confirm_uninstall": "अनइंस्टॉल करने से एक्सटेंशन से संबंधित सभी डेटाबेस प्रविष्टियां और संपत्तियां निकल जाएंगी। क्या आप वाकई जारी रखना चाहते हो?",
+                "confirm_purge": "पर्जिंग से सभी डेटाबेस प्रविष्टियां और एक्सटेंशन से संबंधित संपत्तियां निकल जाएंगी। यह एक्सटेंशन को अनइंस्टॉल नहीं करेगा; जो कम्पोसर के माध्यम से किया जाना चाहिए। क्या आप वाकई जारी रखना चाहते हो?",
                 "disabled": "अक्षम",
                 "enable_to_see": "सेटिंग देखने और बदलने के लिए एक्सटेंशन सक्षम करें।",
                 "enabled": "सक्रिय",
@@ -116,14 +116,14 @@
                 "no_settings": "इस एक्सटेंशन की कोई सेटिंग नहीं है।",
                 "open_modal": "सेटिंग्स खोलें",
                 "permissions_title": "अनुमतियां",
-                "uninstall_button": "स्थापना रद्द करें",
-                "confirm_purge": "पर्जिंग से सभी डेटाबेस प्रविष्टियां और एक्सटेंशन से संबंधित संपत्तियां निकल जाएंगी। यह एक्सटेंशन को अनइंस्टॉल नहीं करेगा; जो कम्पोसर के माध्यम से किया जाना चाहिए। क्या आप वाकई जारी रखना चाहते हो?",
                 "purge_button": "निकले",
                 "readme": {
                     "button_label": "README",
                     "no_readme": "ऐसा लगता है कि इस एक्सटेंशन में कोई README फ़ाइल नहीं है",
                     "title": "{extName} प्रलेखन"
-                }
+                },
+                "confirm_uninstall": "अनइंस्टॉल करने से एक्सटेंशन से संबंधित सभी डेटाबेस प्रविष्टियां और संपत्तियां निकल जाएंगी। क्या आप वाकई जारी रखना चाहते हो?",
+                "uninstall_button": "स्थापना रद्द करें"
             },
             "header": {
                 "get_help": "मदद लें",
@@ -303,11 +303,11 @@
             "discussion_list": {
                 "empty_text": "ऐसा लगता है जैसे यहां कोई चर्चा नहीं हो रही है।",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "पढ़े हुए का चिह्न",
                 "replied_text": "{username} ने उत्तर दिया {ago}",
                 "started_text": "{username} शुरू हुआ {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# उत्तर} other {# उत्तर}}",
-                "unread_replies_a11y_label": "{count, plural, one {# अपठित उत्तर} other {# unread replies}}. Mark unread {count, plural, one {reply} other {अपठित उत्तर}} as read."
+                "unread_replies_a11y_label": "{count, plural, one {# अपठित उत्तर} other {# unread replies}}. Mark unread {count, plural, one {reply} other {अपठित उत्तर}} as read.",
+                "mark_as_read_tooltip": "पढ़े हुए का चिह्न"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -459,6 +459,10 @@
             }
         },
         "lib": {
+            "debug_button": "डिबग",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
             "badge": {
                 "hidden_tooltip": "छिपा हुआ"
             },
@@ -481,6 +485,7 @@
             },
             "error": {
                 "dependent_extensions_message": "निम्न आश्रित एक्सटेंशन अक्षम होने तक {extension} को अक्षम नहीं किया जा सकता: {extensions}",
+                "extension_initialiation_failed_message": "",
                 "generic_message": "उफ़! कुछ गलत हो गया। कृपया पेज लोड करें और पुन: प्रयास करें।",
                 "missing_dependencies_message": "निम्न निर्भरताएँ सक्षम होने तक {extension} को सक्षम नहीं किया जा सकता: {extensions}",
                 "not_found_message": "अनुरोधित संसाधन नहीं मिला।",
@@ -491,6 +496,16 @@
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": "बंद करे"
+            },
+            "nav": {
+                "drawer_button": "नेविगेशन दराज खोलें"
             },
             "number_suffix": {
                 "kilo_text": "की",
@@ -503,20 +518,6 @@
             },
             "username": {
                 "deleted_text": "[हटाया गया]"
-            },
-            "debug_button": "डिबग",
-            "alert": {
-                "dismiss_a11y_label": ""
-            },
-            "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
-            },
-            "modal": {
-                "close": "बंद करे"
-            },
-            "nav": {
-                "drawer_button": "नेविगेशन दराज खोलें"
             }
         },
         "views": {

@@ -9,22 +9,22 @@
         },
         "emails": {
             "post_warned": {
-                "subject": "",
-                "body": ""
+                "subject": "{warner_display_name} varoitti sinua {strikes, plural, one {# varoituksella} other {# varoituksella}} keskustelussa {discussion_title}",
+                "body": "Hei {warnee_display_name}!\n\n{warner_display_name} varoitti sinua {strikes, plural, one {# varoituksella} other {# varoituksella}} keskustelussa {discussion_title}\n\nSeuraava syy annettiin:\n\n---\n\n{public_comment}\n"
             },
             "user_warned": {
-                "subject": "",
-                "body": ""
+                "subject": "{warner_display_name} varoitti sinua {strikes, plural, one {# varoituksella} other {# varoituksella}}",
+                "body": "Hei {warnee_display_name}!\n\n{warner_display_name} varoittu sinua {strikes, plural, one {# rajoituksella} other {# rajoituksella}}\n\nSeuraava syy annettiin:\n\n---\n\n{public_comment}\n"
             }
         },
         "forum": {
             "notifications": {
-                "warning_text": "",
-                "warning_no_strikes_text": ""
+                "warning_text": "{strikes, plural, one {Sinua varoitettiin # varoituksella ja varoittajana oli {mod_username}} other {Sinua varoitettiin # varoituksella ja varoittajana oli {mod_username}}}",
+                "warning_no_strikes_text": "Sinua varoitti {mod_username} (ei varoituksia)"
             },
             "post": {
-                "warning": "",
-                "warning_no_strikes": ""
+                "warning": "{strikes, plural, one {Varoitettiin # varoituksella ja varoittajan oli {mod_username}} other {Varoitettiin # varoituksella ja varoittajana oli {mod_username}}}",
+                "warning_no_strikes": "Varoitettiin ilman varoituksia ja varoittajana oli {mod_username}"
             },
             "post_controls": {
                 "warning_button": "Varoita käyttäjää"
@@ -37,7 +37,7 @@
             },
             "validation": {
                 "public_comment_required": "Sinun täytyy antaa julkinen kommentti (syy).",
-                "invalid_strike_count": ""
+                "invalid_strike_count": "Annettujen varoitusten määrän pitää olla numero 0 ja 5 väliltä."
             },
             "warning_controls": {
                 "delete_button": "Poista",
@@ -47,20 +47,20 @@
             "warning_list": {
                 "add_button": "Uusi varoitus",
                 "no_warnings": "Näyttää siltä, että täällä ei ole varoituksia.",
-                "warnings": "",
-                "warnings_no_strikes": ""
+                "warnings": "{strikes, plural, one {Moderaattorin varoitus: # varoitus saatu} other {Moderaattorin varoitus: # varoitusta saatu}}",
+                "warnings_no_strikes": "Moderaattorin varoitus: Ei varoituksia saatu"
             },
             "warning_list_item": {
-                "list_item_heading": "",
-                "list_item_heading_hidden": "",
+                "list_item_heading": "{strikes, plural, one {<strong>#</strong> varoitus, {time}} other {<strong>#</strong> varoitusta, {time}}}",
+                "list_item_heading_hidden": "{strikes, plural, one {<strong>#</strong> varoitus, {time} <strong>(poistettu)</strong>} other {<strong>#</strong> varoitusta, {time} <strong>(poistettu)</strong>}}",
                 "public_comment": "Varoitus",
-                "private_comment": "",
+                "private_comment": "Vain moderaattoreille näkyvät kommentit",
                 "linked_post": "Linkitetty viesti"
             },
             "warning_modal": {
                 "confirmation_message": "Varoituksesi tallennettiin. Sinun täytyy ehkä päivittää sivu nähdäksesi se.",
                 "heading": "Varoita käyttäjää <strong>{username}</strong>",
-                "strikes_heading": "",
+                "strikes_heading": "Kuinka monta varoitusta annetaan?",
                 "public_comment_heading": "Miksi käyttäjää <strong>{username}</strong> varoitetaan? Nämä kommentit näkyy käyttäjälle sekä muille moderaattoreille.",
                 "private_comment_heading": "Miksi käyttäjää <strong>{username}</strong> varoitetaan? Nämä kommentit näkyy VAIN muille moderaattoreille.",
                 "submit_button": "Tallenna varoitus"

@@ -1,10 +1,10 @@
 {
     "afrux-forum-widgets-core": {
         "admin": {
-            "cache_not_writable_warning": "",
+            "cache_not_writable_warning": "A gyorsítótár jelenleg nem írható, így egyes modulok nem fognak tudni működni. Javítsa a tároló könyvtárának jogosultságait.",
             "settings": {
-                "prefer_data_with_initial_load": "Előnyben részesíti az összes widget adatainak betöltését az oldal kezdeti válaszával.",
-                "prefer_data_with_initial_load_help": "Ahelyett, hogy a widgetek adatait az oldal kezdeti betöltése után töltené be API-kérések küldésével, az adatok (ha lehetséges) az első betöltéssel együtt töltődnek be."
+                "prefer_data_with_initial_load": "Az összes modul adatainak, az oldal kezdeti válaszával együtt történő betöltésének előnyben részesítése.",
+                "prefer_data_with_initial_load_help": "Ahelyett, hogy a modulok adatait az oldal kezdeti betöltése után töltené be API-kérések küldésével, az adatok (ha ez lehetséges) az első betöltéssel együtt töltődnek be."
             }
         }
     }

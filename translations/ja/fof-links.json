@@ -2,19 +2,19 @@
     "fof-links": {
         "admin": {
             "edit_link": {
-                "delete_link_button": "リンクを削除",
+                "delete_link_button": "リンクの削除",
                 "delete_link_confirmation": "このリンクを削除してもよろしいですか？",
                 "everyone-label": "",
                 "guests-label": "",
-                "internal_link": "これは Flarum リンクですか？オンにすると、ユーザーがこのリンクにアクセスしたときに、ナビゲーションバーでこのリンクが強調表示されます。",
+                "internal_link": "Flarum(内部)へのリンク",
                 "members-label": "",
                 "open_newtab": "新しいタブで開く",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> fof-links.ref.create_link",
                 "title_label": "=> fof-links.ref.title",
                 "title_placeholder": "=> fof-links.ref.title",
-                "icon_label": "",
-                "icon_text": "",
+                "icon_label": "=> core.ref.icon",
+                "icon_text": "=> core.ref.icon_text",
                 "url_description": "",
                 "url_label": "=> fof-links.ref.url",
                 "url_placeholder": "=> fof-links.ref.url",
@@ -26,10 +26,10 @@
             }
         },
         "ref": {
-            "create_link": "リンクを追加",
-            "links": "ナビゲーリンク",
-            "title": "題名",
-            "url": "リンク"
+            "create_link": "リンクの作成",
+            "links": "リンク",
+            "title": "タイトル",
+            "url": "URL"
         }
     }
 }

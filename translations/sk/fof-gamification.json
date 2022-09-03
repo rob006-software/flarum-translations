@@ -2,7 +2,7 @@
     "core": {
         "forum": {
             "index_sort": {
-                "hot_button": "",
+                "hot_button": "Trendy",
                 "votes_button": ""
             }
         }
@@ -27,8 +27,12 @@
                 }
             },
             "user": {
-                "points": "",
-                "rank": ""
+                "card": {
+                    "points": ""
+                },
+                "rank": "",
+                "votes_link": "",
+                "points": ""
             },
             "modal": {
                 "downvotes_label": "",

@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "Configure Scopes",
-                "confirm_uninstall": "Uninstalling will remove all database entries and assets related to the extension. Are you sure you want to continue?",
+                "confirm_purge": "Purging will remove all database entries and assets related to the extension. It will not uninstall the extension; that must be done via Composer. Are you sure you want to continue?",
                 "disabled": "Disabled",
                 "enable_to_see": "Enable the extension to view and change settings.",
                 "enabled": "Enabled",
@@ -116,8 +116,6 @@
                 "no_settings": "This extension has no settings.",
                 "open_modal": "Open Settings",
                 "permissions_title": "Permissions",
-                "uninstall_button": "Uninstall",
-                "confirm_purge": "Purging will remove all database entries and assets related to the extension. It will not uninstall the extension; that must be done via Composer. Are you sure you want to continue?",
                 "purge_button": "Purge",
                 "readme": {
                     "button_label": "README",
@@ -303,7 +301,6 @@
             "discussion_list": {
                 "empty_text": "It looks as though there are no discussions here.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "Mark as Read",
                 "replied_text": "{username} replied {ago}",
                 "started_text": "{username} started {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# reply} other {# replies}}",
@@ -459,6 +456,10 @@
             }
         },
         "lib": {
+            "debug_button": "Debug",
+            "alert": {
+                "dismiss_a11y_label": "Dismiss alert"
+            },
             "badge": {
                 "hidden_tooltip": "Hidden"
             },
@@ -481,6 +482,7 @@
             },
             "error": {
                 "dependent_extensions_message": "Cannot disable {extension} until the following dependent extensions are disabled: {extensions}",
+                "extension_initialiation_failed_message": "{extension} failed to initialize, check the browser console for further information.",
                 "generic_message": "Oops! Something went wrong. Please reload the page and try again.",
                 "missing_dependencies_message": "Cannot enable {extension} until the following dependencies are enabled: {extensions}",
                 "not_found_message": "The requested resource was not found.",
@@ -491,6 +493,16 @@
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Page # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Page # - {forumName}}}"
+            },
+            "modal": {
+                "close": "Close"
+            },
+            "nav": {
+                "drawer_button": "Open Navigation Drawer"
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -503,20 +515,6 @@
             },
             "username": {
                 "deleted_text": "[deleted]"
-            },
-            "debug_button": "Debug",
-            "alert": {
-                "dismiss_a11y_label": "Dismiss alert"
-            },
-            "meta_titles": {
-                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Page # - {forumName}}}",
-                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Page # - {forumName}}}"
-            },
-            "modal": {
-                "close": "Close"
-            },
-            "nav": {
-                "drawer_button": "Open Navigation Drawer"
             }
         },
         "views": {

@@ -21,21 +21,30 @@
                     "discussion_title": "{discussion_name}",
                     "discussion_subtitle": "このスレッドの最新の返信"
                 }
+            },
+            "discussion": {
+                "feed_link": ""
             }
         },
         "admin": {
             "settings": {
                 "full-text": {
                     "label": "全文出力",
-                    "help": "無効にすると、フィードには投稿の要約だけが含まれます。すべての内容を確認したい場合は、フォーラムにアクセスしなければなりません。",
-                    "recommendation": "このオプションは、RSSアグリゲーターを使用するユーザーを尊重するために推奨されます。"
+                    "help": "無効にすると、フィードには投稿の要約だけが含まれます。すべての内容を確認したい場合は、フォーラムにアクセスしなければなりません。"
                 },
                 "html": {
                     "label": "フォーマットされたフィード",
                     "help": "HTMLコンテンツを保持するには、このオプションをオンにします。 無効にすると、フィードはプレーンテキストで表示されます。"
                 },
                 "entries-count": "フィードのエントリ数をいくつにしますか？",
-                "title": "購読ソース設定"
+                "forum-icons": {
+                    "label": "",
+                    "help": ""
+                },
+                "forum-link-format": {
+                    "label": "",
+                    "help": ""
+                }
             }
         }
     }
