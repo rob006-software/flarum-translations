@@ -1,7 +1,16 @@
 {
     "datlechin-link-preview": {
+        "admin": {
+            "settings": {
+                "blacklist_label": "Lista Nera",
+                "blacklist_help": "Inserisci una lista di domini separati da virgola per escluderli dall'anteprima.",
+                "blacklist_placeholder": "esempio facebook.com,https://dominio.it/percorso",
+                "convert_media_urls_label": "Convertu media URl",
+                "convert_media_urls_help": "Se abilitato, convertirà i media URL in anteprime."
+            }
+        },
         "forum": {
-            "site_cannot_be_reached": ""
+            "site_cannot_be_reached": "Questo sito non può essere raggiunto."
         }
     }
 }

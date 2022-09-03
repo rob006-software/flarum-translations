@@ -1,0 +1,23 @@
+{
+    "blomstra-realtime": {
+        "forum": {
+            "push": {
+                "discussion-list-new-activity": "{count, plural, one {Prikaži # ažuriranu diskusiju} other {Prikaži # ažurirane(ih) diskusija}}",
+                "discussion-list-new-activity-with-auto-release": ""
+            },
+            "typing-indicator": {
+                "people-are-typing": "{number, plural, one {# osoba kuca} other {# osoba kucaju}}",
+                "no-activity": "Niko ne kuca"
+            }
+        },
+        "admin": {
+            "permission": {
+                "view-who-types": "Pogledaj ko kuca"
+            },
+            "settings": {
+                "release-discussion-updates-interval": "",
+                "release-discussion-updates-interval-help": ""
+            }
+        }
+    }
+}

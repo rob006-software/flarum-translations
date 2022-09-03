@@ -2,117 +2,117 @@
     "fof-webhooks": {
         "actions": {
             "discussion": {
-                "started": "",
+                "started": "Aloitti keskustelun `{1}`",
                 "renamed": {
-                    "title": "",
-                    "description": ""
+                    "title": "Uudelleen nimesi keskustelun `{1}`",
+                    "description": "Uusi otsikko: {1}"
                 },
-                "hidden": "",
-                "restored": "",
-                "deleted": ""
+                "hidden": "Piilotti keskustelun `{1}`",
+                "restored": "Palautti keskustelun `{1}`",
+                "deleted": "Poisti keskustelun `{1}`"
             },
             "group": {
-                "created": "",
-                "renamed": "",
-                "deleted": ""
+                "created": "Loi `{1}` ryhmän",
+                "renamed": "Nimeri ryhmän `{1}`",
+                "deleted": "Poisti `{1}` ryhmän"
             },
             "post": {
-                "posted": "",
-                "revised": "",
-                "hidden": "",
-                "restored": "",
-                "deleted": ""
+                "posted": "Uusi viesti keskustelussa `{1}`",
+                "revised": "Muokkasi viestiä keskustelussa `{1}`",
+                "hidden": "Piilotti viestin keskustelussa `{1}`",
+                "restored": "Palautti viestin keskustelussa `{1}`",
+                "deleted": "Poisti viestin keskustelussa `{1}`"
             },
             "user": {
-                "registered": "",
+                "registered": "Uusi käyttäjä rekisteröityi",
                 "renamed": {
-                    "title": "",
-                    "description": ""
+                    "title": "Vaihtoi käyttäjätunnuksen käyttäjällä `{1}`",
+                    "description": "Uusi käyttäjätunnus: {1}"
                 },
-                "deleted": ""
+                "deleted": "Poisti käyttäjän `{1}`"
             }
         },
         "adapters": {
             "errors": {
-                "404": ""
+                "404": "Webhookkia ei löytynyt"
             }
         },
         "admin": {
             "errors": {
-                "service_not_found": "",
-                "url_invalid": "",
-                "tag_invalid": ""
+                "service_not_found": "Palvelua '{service}' ei löytynyt.",
+                "url_invalid": "URL ei ole oikea valitulle palvelulle.",
+                "tag_invalid": "Tämä webhook on rajoitettu virheelliselle avainsanalla. Rajoitukset eivät koske tätä. Pidä huolta, että tämä on tarkoituksellista."
             },
             "nav": {
-                "desc": ""
+                "desc": "Muokatta ulospäin menevä foorumisi webhook."
             },
             "settings": {
-                "debug_label": "",
-                "debug_help": "",
+                "debug_label": "Debuggaa",
+                "debug_help": "Lisää ylimääräinen loki Flarumin omaan lokitiedostoon debugataksesi ongelmia webhookkien ja/tai tapahtumien toiminnassa.",
                 "item": {
-                    "tag_any_label": ""
+                    "tag_any_label": "Mikä tahansa"
                 },
                 "help": {
-                    "disabled": "",
-                    "general": "",
-                    "url": ""
+                    "disabled": "Tämä webhook on poistettu käytöstä, koska siinä ei ole tapahtumia käytössä.",
+                    "general": "Täällä voit lisätä, muokata ja poistaa foorumisi webhookkeja.",
+                    "url": "Webhookin suoritettava päätepiste"
                 },
                 "modal": {
-                    "title": "",
-                    "description": "",
-                    "use_plain_text_label": "",
-                    "max_post_content_length_label": "",
-                    "max_post_content_length_help": "",
-                    "extra_text_label": "",
-                    "extra_text_help": "",
-                    "group_label": "",
-                    "group_help": "",
-                    "events_label": ""
+                    "title": "Webhookin asetukset",
+                    "description": "Täällä voit muokata mitä tapahtumia webhook suorittaa.",
+                    "use_plain_text_label": "Vähennä viestin sisällön muotoilun määrää",
+                    "max_post_content_length_label": "Viestin sisällön maksimi pituus",
+                    "max_post_content_length_help": "Aseta määrä mikä rajoittaa viestin sisällön määrää liittyvissä tapahtumissa. Muuta arvoon 0 poistaaksesi rajoituksen.",
+                    "extra_text_label": "Ylimääräinen teksti",
+                    "extra_text_help": "Webhookin mukana lähetettävä ylimääräinen teksti.",
+                    "group_label": "Ryhmä",
+                    "group_help": "Lähetä resurssit, jotka vain tämä ryhmä voi nähdä",
+                    "events_label": "Tapahtumat"
                 },
                 "services": {
-                    "discord": "",
-                    "slack": "",
-                    "microsoft-teams": ""
+                    "discord": "Discord",
+                    "slack": "Slack",
+                    "microsoft-teams": "Microsoft Teams"
                 },
                 "actions": {
                     "flarum": {
                         "discussion": {
-                            "title": "",
-                            "started": "",
-                            "renamed": "",
-                            "hidden": "",
-                            "restored": "",
-                            "deleted": ""
+                            "title": "Flarum keskustelut",
+                            "started": "Aloitti",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "hidden": "=> fof-webhooks.ref.hidden",
+                            "restored": "=> fof-webhooks.ref.restored",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "group": {
-                            "title": "",
-                            "created": "",
-                            "renamed": "",
-                            "deleted": ""
+                            "title": "Flarum ryhmä",
+                            "created": "Luotu",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "post": {
-                            "title": "",
-                            "posted": "",
-                            "revised": "",
-                            "hidden": "",
-                            "restored": "",
-                            "deleted": ""
+                            "title": "Flarum viesti",
+                            "posted": "Kirjoitettu",
+                            "revised": "Muokattu",
+                            "hidden": "=> fof-webhooks.ref.hidden",
+                            "restored": "=> fof-webhooks.ref.restored",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "user": {
-                            "title": "",
-                            "registered": "",
-                            "renamed": "",
-                            "deleted": ""
+                            "title": "Flarum käyttäjä",
+                            "registered": "Rekisteröitynyt",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         }
                     }
                 }
             }
         },
         "ref": {
-            "deleted": "",
-            "hidden": "",
-            "renamed": "",
-            "restored": ""
+            "deleted": "Poistettu",
+            "hidden": "Piilotettu",
+            "renamed": "Nimetty uudelleen",
+            "restored": "Palautettu"
         }
     }
 }

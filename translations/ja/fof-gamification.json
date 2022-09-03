@@ -27,8 +27,11 @@
                 }
             },
             "user": {
-                "points": "👍: {points}",
-                "rank": "{rank}"
+                "card": {
+                    "points": ""
+                },
+                "rank": "{rank}",
+                "votes_link": ""
             },
             "modal": {
                 "downvotes_label": "",
@@ -51,7 +54,9 @@
                 "vote_label": "いいね/嫌いな投稿",
                 "see_votes_label": "投稿の高評価/低評価の表示",
                 "see_voters_label": "",
-                "see_ranking_page": "表示レベル"
+                "see_ranking_page": "表示レベル",
+                "upvote_notifications": "",
+                "downvote_notifications": ""
             },
             "page": {
                 "rankings": {

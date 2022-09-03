@@ -2,10 +2,15 @@
     "datlechin-birthdays": {
         "admin": {
             "permissions": {
-                "edit_own_birthday_label": "Править свой день рождения"
+                "edit_own_birthday_label": "Править свой день рождения",
+                "view_birthday_label": ""
             },
             "settings": {
                 "set_on_registration_label": "Разрешить установку дня рождения при регистрации",
+                "required_label": "",
+                "required_help": "",
+                "min_age_label": "",
+                "min_age_help": "",
                 "date_format_label": "Формат даты",
                 "date_format_help": "Использовать формат даты из <a>day.js</a>. Оставьте поле пустым для использования формата по умолчанию.",
                 "date_none_year_label": "Формат даты без года"
@@ -41,7 +46,8 @@
             }
         },
         "api": {
-            "invalid_dob_message": "Ваша дата рождения должна быть менее чем 100 лет назад."
+            "invalid_dob_message": "Ваша дата рождения должна быть менее чем 100 лет назад.",
+            "invalid_age_message": ""
         }
     }
 }

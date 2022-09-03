@@ -2,65 +2,65 @@
     "fof-masquerade": {
         "forum": {
             "alerts": {
-                "profile-completion-required": "",
-                "profile-completed": ""
+                "profile-completion-required": "Töltse ki az alábbi szükséges profilmezőket.\n",
+                "profile-completed": "A profil elkészült. <a>Tovább a kezdőlapra</a>"
             },
             "buttons": {
-                "view-profile": "",
-                "edit-profile": "",
-                "save-profile": ""
+                "view-profile": "Profil megtekintése",
+                "edit-profile": "Profil szerkesztése",
+                "save-profile": "Mentés"
             },
             "fields": {
                 "select": {
-                    "none-optional": "",
-                    "none-required": ""
+                    "none-optional": "Nincs kiválasztva lehetőség (nem kötelező)",
+                    "none-required": "Válasszon egy lehetőséget (kötelező)"
                 },
                 "boolean": {
-                    "yes": "",
-                    "no": ""
+                    "yes": "Igen",
+                    "no": "Nem"
                 }
             }
         },
         "admin": {
-            "general-options": "",
+            "general-options": "Általános beállítások",
             "buttons": {
-                "add-field": "",
-                "edit-field": "",
-                "delete-field": ""
+                "add-field": "Mező létrehozása",
+                "edit-field": "Módosítások mentése",
+                "delete-field": "Mező törlése"
             },
             "permissions": {
-                "edit-others-profile": "",
-                "have-profile": "",
-                "view-profile": ""
+                "edit-others-profile": "Más felhasználók profiljának szerkesztése",
+                "have-profile": "Lehet álprofilja",
+                "view-profile": "Álprofil megtekintése"
             },
             "fields": {
-                "title": "",
-                "add": "",
-                "edit": "",
-                "name": "",
-                "name-help": "",
-                "description": "",
-                "description-help": "",
-                "required": "",
-                "on_bio": "",
-                "type": "",
-                "validation": "",
-                "validation-help": "",
-                "prefix": "",
-                "prefix-help": "",
-                "icon": "",
-                "icon-help": "",
-                "force-user-to-completion": "",
-                "options": "",
-                "option-new": "",
-                "option-comma-warning": ""
+                "title": "Mezők",
+                "add": "{field} mező hozzáadása",
+                "edit": "{field} mező szerkesztése",
+                "name": "Mező neve",
+                "name-help": "A nyilvánosan látható (nem lefordítható) mezőcímke.\n",
+                "description": "Mező leírása",
+                "description-help": "Esetleges leírás a mező használatának/szükségének magyarázatához.\n",
+                "required": "Megjelölés kötelezőként",
+                "on_bio": "A mezőre adott válasz megjelenítése a felhasználói életrajzban",
+                "type": "Típus",
+                "validation": "Ellenőrzés",
+                "validation-help": "A támogatott <a>Laravel ellenőrzési szabályok</a> vizsgálata. Például „string|min:5” vagy „url”.\n",
+                "prefix": "Mező előtagja",
+                "prefix-help": "Megjeleníti az előtagot a felhasználó által ebbe a mezőbe beírt értékek előtt.\n",
+                "icon": "Ikon",
+                "icon-help": "Egy ikont jelenít meg a felhasználó által megadott értékek előtt. Az elérhető ikonok referenciájához nézze meg a <a>Fontawesome weboldalát</a>. A „fa-” előtagú ikonneveket használja, például „fas fa-info”.\n",
+                "force-user-to-completion": "Felhasználó kötelezése hogy kitöltse a profil adatokat",
+                "options": "Lehetőségek",
+                "option-new": "Új lehetőség",
+                "option-comma-warning": "A lehetőség címkéje nem tartalmazhat vesszőt („,”)."
             },
             "types": {
-                "advanced": "",
-                "boolean": "",
-                "email": "",
-                "select": "",
-                "url": ""
+                "advanced": "Speciális",
+                "boolean": "Jelölőmező",
+                "email": "E-mail",
+                "select": "Legördülő",
+                "url": "URL"
             }
         }
     }

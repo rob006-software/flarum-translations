@@ -8,10 +8,15 @@
             "update_category": "更新分组",
             "edit_category": "编辑分组",
             "nothing_here_yet": "您还没有创建任何徽章或分组。",
+            "show_badges_on_user_card": "在资料卡片展示徽章",
+            "number_of_badges_on_user_card": "限量",
+            "number_of_badges_on_user_card_help": "最多展示多少个徽章到资料卡片",
             "permissions": {
                 "badge_detail_users": "在徽章详情页列出用户",
                 "give_badge": "授予用户徽章",
-                "take_badge": "撤除用户徽章"
+                "take_badge": "撤除用户徽章",
+                "edit_own_card_badges": "编辑自己的资料卡片徽章",
+                "edit_card_badges": "编辑所有用户的资料卡片徽章"
             },
             "confirm_dialog": {
                 "title": "危险！",
@@ -47,7 +52,7 @@
             "auto_moderator": {
                 "not_installed": {
                     "title": "自动奖励用户徽章",
-                    "content": "需要安装额外的扩展。当安装并启用了 <a>Auto Moderator</a> 扩展后，将解锁此功能。此高级功能可以根据设定的条件自动奖励用户徽章，无需管理员人工操作！",
+                    "content": "安装并启用了 <a>Auto Moderator</a> 扩展即可解锁。此高级功能允许您设定条件自动奖励用户徽章，解放双手！",
                     "install": "安装",
                     "dismiss": "不再显示"
                 },
@@ -79,6 +84,7 @@
             "user_no_badges": "该用户尚未拥有徽章。",
             "no_received": "没有人获得此徽章。",
             "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
+            "save_changes": "保存修改",
             "badge": {
                 "badge": "徽章",
                 "badges": "徽章",
@@ -92,7 +98,15 @@
                 "received_on": "获得于 {date}",
                 "badge_details": "徽章详情",
                 "earned_count": "{count, plural, one {<b># 位用户</b>获得此徽章} other {<b># 位用户</b>获得此徽章}}",
-                "earned_by_count": "{count, plural, one {已授予 <b># 位用户</b>} other {已授予 <b># 位用户</b>}}"
+                "earned_by_count": "{count, plural, one {已授予 <b># 位用户</b>} other {已授予 <b># 位用户</b>}}",
+                "others_link": "+ {count}"
+            },
+            "badges_in_card": {
+                "title": "资料卡片徽章",
+                "manage_badges": "管理徽章",
+                "description": "您可以挑选要展示的徽章。",
+                "select_limit": "您可以挑选 {limit, plural, one {<b>1 个徽章</b>} other {<b># 个徽章</b>}} 展示到资料卡片。",
+                "hit_limit": "只能展示 <b> {limit, plural, one {<b>1 个徽章</b>} other {<b># 个徽章</b>}}</b> 到资料卡片，请先取消展示其他徽章。"
             },
             "moderation": {
                 "remove_badge": "移除徽章",

@@ -1,13 +1,14 @@
 {
     "justoverclock-users-map-location": {
         "admin": {
-            "mapBox-api-key": "",
-            "mapBox-api-key-help": ""
+            "adminLocationField": "Emplacement",
+            "mapBox-api-key": "Jeton public MapBox",
+            "mapBox-api-key-help": "récupérez votre jeton public gratuit sur <a>https://account.mapbox.com/</a>"
         },
         "forum": {
-            "locationDescription": "",
-            "location": "",
-            "locationSaved": ""
+            "locationDescription": "Ici, vous pouvez configurer votre emplacement. Assurez-vous de ne spécifier que le nom de votre ville.",
+            "location": "Emplacement",
+            "locationSaved": "Emplacement enregistré avec succès !"
         }
     }
 }

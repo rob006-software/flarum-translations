@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "กำหนดขอบเขต",
-                "confirm_uninstall": "กำลังถอนการติดตั้งทั้งฐานข้อมูลเเละข้อมูลอื่นๆ รวมถึงส่วนเสริมคุณเเน่ใจไหม?",
+                "confirm_purge": "",
                 "disabled": "ปิดใช้งาน",
                 "enable_to_see": "เปิดใช้งานส่วนเสริมเพื่อดูเเละเเก้ไขการตั้งค่า",
                 "enabled": "เปิดใช้งาน",
@@ -116,14 +116,14 @@
                 "no_settings": "ส่วนเสริมนี้ไม่มีการตั้งค่า",
                 "open_modal": "เปิดการตั้งค่า",
                 "permissions_title": "การอนุญาติ",
-                "uninstall_button": "ถอนการติดตั้ง",
-                "confirm_purge": "",
                 "purge_button": "",
                 "readme": {
                     "button_label": "",
                     "no_readme": "",
                     "title": ""
-                }
+                },
+                "confirm_uninstall": "กำลังถอนการติดตั้งทั้งฐานข้อมูลเเละข้อมูลอื่นๆ รวมถึงส่วนเสริมคุณเเน่ใจไหม?",
+                "uninstall_button": "ถอนการติดตั้ง"
             },
             "header": {
                 "get_help": "รับความช่วยเหลือ",
@@ -303,11 +303,11 @@
             "discussion_list": {
                 "empty_text": "ดูเหมือนว่าไม่มีกระทู้ที่นี่",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "ทำเครื่องหมายว่าอ่านแล้ว",
                 "replied_text": "{username} ตอบกลับเมื่อ {ago}",
                 "started_text": "{username} ตั้งกระทู้เมื่อ {ago}",
                 "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": ""
+                "unread_replies_a11y_label": "",
+                "mark_as_read_tooltip": "ทำเครื่องหมายว่าอ่านแล้ว"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -459,6 +459,10 @@
             }
         },
         "lib": {
+            "debug_button": "",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
             "badge": {
                 "hidden_tooltip": "ซ่อน"
             },
@@ -481,6 +485,7 @@
             },
             "error": {
                 "dependent_extensions_message": "Cannot disable {extension} until the following dependent extensions are disabled: {extensions}",
+                "extension_initialiation_failed_message": "",
                 "generic_message": "อ๊ะ! บางอย่างผิดพลาด โปรดโหลดหน้าเว็บและลองอีกครั้ง",
                 "missing_dependencies_message": "Cannot enable {extension} until the following dependencies are enabled: {extensions}",
                 "not_found_message": "ไม่พบแหล่งข้อมูลที่ร้องขอ",
@@ -491,6 +496,16 @@
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": ""
+            },
+            "nav": {
+                "drawer_button": ""
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -503,20 +518,6 @@
             },
             "username": {
                 "deleted_text": "[deleted]"
-            },
-            "debug_button": "",
-            "alert": {
-                "dismiss_a11y_label": ""
-            },
-            "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
-            },
-            "modal": {
-                "close": ""
-            },
-            "nav": {
-                "drawer_button": ""
             }
         },
         "views": {

@@ -49,8 +49,9 @@
                 "content": "Vui lòng chọn một Câu trả lời hay nhất nếu câu hỏi của bạn đã được trả lời",
                 "awarded": "Bài viết của bạn đã được đặt là câu trả lời hay nhất bởi {username}",
                 "preferences": {
-                    "awarded_best_answer": "Khi ai đó chọn bài viết của tôi là câu trả lời hay nhất",
-                    "best_answer_in_discussion": "Khi ai đó chọn câu trả lời hay nhất trong cuộc thảo luận tôi đã đăng bài"
+                    "awarded_best_answer": "Ai đó chọn bài viết của tôi là câu trả hay nhất",
+                    "best_answer_in_discussion": "Câu trả lời hay nhất được đặt trong cuộc thảo luận có tôi",
+                    "select_best_answer": "Lời nhắc tự động để chọn một câu trả lời hay nhất trong một cuộc thảo luận mà tôi đã tạo"
                 }
             },
             "index": {
@@ -67,6 +68,9 @@
             },
             "composer": {
                 "titlePlaceholder": "Tiêu đề câu hỏi"
+            },
+            "user": {
+                "best-answer-count": "{count, plural, one { {count} câu trả lời hay nhất} other {{count} câu trả lời hay nhất}}"
             }
         },
         "email": {

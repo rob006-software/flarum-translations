@@ -2,12 +2,12 @@
     "fof-secure-https": {
         "admin": {
             "settings": {
-                "replace": ""
+                "replace": "Ohjaa kuvat HTTPS läpi"
             }
         },
         "forum": {
-            "removed": "",
-            "show": ""
+            "removed": "Kuvat poistettu johtuen puuttuvasta HTTPS:stä.",
+            "show": "Näytä kuitenkin"
         }
     }
 }

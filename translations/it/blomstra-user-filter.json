@@ -1,0 +1,25 @@
+{
+    "blomstra-user-filter": {
+        "admin": {
+            "settings": {
+                "intro": "Gli utenti senza l'autorizzazione <code>Cerca utenti</code> non vedranno la casella di ricerca. Imposta su <code>Tutti</code> per tutti gli utenti o qualunque sia il tuo livello di preferenza.",
+                "min_length": "Caratteri minimi per la ricerca",
+                "result_count": "Risultati massimi nel menu di dropdown"
+            }
+        },
+        "forum": {
+            "index_page": {
+                "filter_user": {
+                    "accessible_label": "Filtra per autore",
+                    "all": "Tutti",
+                    "label": "Filtra per autore: {text}",
+                    "search_label": "Cerca utente...",
+                    "no_results": "Nessun risultato",
+                    "start_typing": "Inizia a scrivere...",
+                    "keep_typing": "Continua a scrivere...",
+                    "remove_filter": "Rimuovi filtro autore"
+                }
+            }
+        }
+    }
+}

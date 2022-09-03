@@ -2,10 +2,15 @@
     "datlechin-birthdays": {
         "admin": {
             "permissions": {
-                "edit_own_birthday_label": "Chỉnh sửa ngày sinh của chính mình"
+                "edit_own_birthday_label": "Chỉnh sửa ngày sinh của chính mình",
+                "view_birthday_label": "Xem sinh nhật"
             },
             "settings": {
                 "set_on_registration_label": "Cho phép đặt ngày sinh khi đăng ký",
+                "required_label": "Bắt buộc nhập ngày sinh",
+                "required_help": "Bạn cần bật tùy chọn bên trên để tùy chọn này hoạt động",
+                "min_age_label": "Tuổi tối thiểu",
+                "min_age_help": "Tuổi tối thiểu để đăng ký",
                 "date_format_label": "Định dạng ngày sinh",
                 "date_format_help": "Sử dụng định dạng <a>dayjs</a>. Để trống để sử dụng định dạng mặc định.",
                 "date_none_year_label": "Định dạng ngày sinh không có năm"
@@ -41,7 +46,8 @@
             }
         },
         "api": {
-            "invalid_dob_message": "Ngày sinh của bạn phải nhỏ hơn 100 tuổi."
+            "invalid_dob_message": "Ngày sinh của bạn không hợp lệ",
+            "invalid_age_message": "Tuổi của bạn phải từ {minAge} tuổi trở lên."
         }
     }
 }

@@ -3,18 +3,22 @@
         "admin": {
             "permissions": {
                 "be_followed_label": ""
+            },
+            "settings": {
+                "button-on-profile-label": "",
+                "stats-on-profile-label": ""
             }
         },
         "forum": {
+            "followed": "",
+            "followers": "",
             "profile_link": "",
             "profile_page": {
                 "no_following": ""
             },
             "user_controls": {
                 "follow_button": "",
-                "unfollow_button": "",
-                "follow_confirmation": "",
-                "unfollow_confirmation": ""
+                "unfollow_button": ""
             },
             "settings": {
                 "notify_new_follower_label": "",
@@ -34,9 +38,10 @@
                 "new_unfollower_text": ""
             },
             "badge": {
-                "label": "",
-                "label.follow": "",
-                "label.lurk": ""
+                "label": {
+                    "follow": "",
+                    "lurk": ""
+                }
             },
             "filter": {
                 "following": ""

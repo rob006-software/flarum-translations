@@ -15,6 +15,7 @@
                 "watermark": "Yuklash paytida rasmlarga suv belgisi qo'shiladimi yoki yo'qligini tanlang. Quyidagi afzalliklaringiz asosida gif bo'lmagan rasmlarga suv bo'yoqlari qo'shiladi.\n",
                 "s3_compatible_storage": "Quyidagi sozlamalar faqat S3 mos xotirasidan foydalanilganda talab qilinadi. Agar siz AWS dan foydalansangiz, ularni bo'sh qoldirishingiz mumkin.\n",
                 "s3_acl": "Yuklangan ob'ektga qo'llanilishi kerak bo'lgan ACL (standart: shaxsiy). Mumkin qiymatlar uchun qarang: https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_instance_profile": "",
                 "composer_buttons": "Odatiy bo'lib media menejeri tugmasi ham, yuklash tugmasi ham ko'rinadi. Siz faqat bitta tugmani ko'rsatishni tanlashingiz mumkin.\n"
             },
             "labels": {
@@ -39,7 +40,8 @@
                 },
                 "imgur": {
                     "client_id": "Imgur mijoz identifikatori",
-                    "title": "Imgur tasvirni saqlash sozlamalari"
+                    "title": "Imgur tasvirni saqlash sozlamalari",
+                    "tos": ""
                 },
                 "local": {
                     "cdn_url": "Kontentni yetkazib berish URL manzili (prefiks fayllari)",
@@ -78,7 +80,8 @@
                         "upload-btn": "Faqat yuklash tugmasi",
                         "media-btn": "Faqat media menejeri tugmasi"
                     }
-                }
+                },
+                "inspect-mime": ""
             },
             "permissions": {
                 "download_label": "Fayllarni yuklab oling",
@@ -108,6 +111,19 @@
                 "local": "Lokal",
                 "ovh-svfs": "OVH SVFS",
                 "qiniu": "QiNiu"
+            },
+            "inspect-mime": {
+                "title": "",
+                "description": "",
+                "select": "",
+                "laravel-validation": "",
+                "no-file-selected": "",
+                "validation-passed": "",
+                "validation-failed": "",
+                "mime-detector": "",
+                "mime-fileinfo": "",
+                "guessed-extension": "",
+                "not-available": ""
             }
         },
         "forum": {

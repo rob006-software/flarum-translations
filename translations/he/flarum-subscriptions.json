@@ -11,17 +11,17 @@
                 "unignore_button": "בטל התעלמות"
             },
             "following": {
-                "meta_title_text": ""
+                "meta_title_text": "=> flarum-subscriptions.ref.following"
             },
             "index": {
                 "following_link": "=> flarum-subscriptions.ref.following"
             },
             "notifications": {
-                "new_post_text": "{username} פרסם"
+                "new_post_text": "{username} פרסם הודעה"
             },
             "settings": {
                 "follow_after_reply_label": "מעקב אוטומטי אחרי דיונים שהגבתי להם",
-                "notify_new_post_label": "מישהו פרסם בדיון שאני עוקב אחריו"
+                "notify_new_post_label": "מישהו פרסם הודעה בדיון שאני עוקב אחריו"
             },
             "sub_controls": {
                 "follow_button": "=> flarum-subscriptions.ref.follow",
@@ -37,8 +37,8 @@
         },
         "email": {
             "new_post": {
-                "subject": "",
-                "body": ""
+                "subject": "[הודעה חדשה] {title}",
+                "body": "שלום {recipient_display_name}!\n\nנכתבה הודעה חדשה על ידי {poster_display_name} בנושא: {title}.\n\nלצפיה בפעילות החדשה, בקרו בקישור הבא:\n{url}\n\n---\n\n{content}\n\n---\n\nלא תקבלו עוד התראות בנושא עד שלא תהיו מעודכנים.\n"
             }
         },
         "ref": {

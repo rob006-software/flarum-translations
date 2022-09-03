@@ -3,18 +3,18 @@
         "admin": {
             "settings": {
                 "excerpt-length": {
-                    "label": "",
-                    "help": ""
+                    "label": "Összegző részlet hossza karakterekben",
+                    "help": "Hány karakter jelenjen meg a bejegyzésből."
                 },
                 "rich-excerpts": "Jelenjenek meg a formázások (használd elővigyázatosan)",
                 "excerpt-type": "Melyik hozzászólás jelenjen meg az összefoglalóban?",
-                "first-label": "Első hozzászólás",
-                "last-label": "Utolsó hozzászólás",
-                "tags-enabled": "",
-                "rich-excerpts.label": "",
-                "rich-excerpts.help": "",
-                "excerpt-type.label": "",
-                "excerpt-type.help": "",
+                "first-label": "Első bejegyzés",
+                "last-label": "Utolsó bejegyzés",
+                "tags-enabled": "A <code>flarum/tags</code> be van kapcsolva. Ezek a beállítások lesznek az alapértelmezettek, hacsak az egyes címkék nem rendelkeznek saját beállításokkal.",
+                "rich-excerpts.label": "Részlet megjelenítése multimédiás tartalommal együtt",
+                "rich-excerpts.help": "Ha be van kapcsolva, akkor képek, beágyazott és más nem szöveges elemek is szerepelhetnek az összegzésben",
+                "excerpt-type.label": "Melyik bejegyzés jelenjen meg a részletként?",
+                "excerpt-type.help": "Válasszon, hogy az első vagy az utolsó bejegyzés legyen használva az összefoglaló tartalomhoz",
                 "excerpt-label": "Az összefoglaló hossza (karakter)"
             }
         },

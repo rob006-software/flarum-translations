@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "",
-                "confirm_uninstall": "",
+                "confirm_purge": "",
                 "disabled": "අබල කර ඇත",
                 "enable_to_see": "",
                 "enabled": "සබල කර ඇත",
@@ -116,14 +116,14 @@
                 "no_settings": "",
                 "open_modal": "සැකසුම් විවෘත කරන්න",
                 "permissions_title": "අවසර",
-                "uninstall_button": "අස්ථාපනය",
-                "confirm_purge": "",
                 "purge_button": "පවිත්‍ර කරන්න",
                 "readme": {
                     "button_label": "මෙය කියවන්න",
                     "no_readme": "",
                     "title": "{extName} ප්‍රලේඛනය"
-                }
+                },
+                "confirm_uninstall": "",
+                "uninstall_button": "අස්ථාපනය"
             },
             "header": {
                 "get_help": "උදව් ගන්න",
@@ -303,11 +303,11 @@
             "discussion_list": {
                 "empty_text": "මෙහි කිසිදු සාකච්ඡාවක් නොමැති බව පෙනේ.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "කියවූ ලෙස සලකුණු කරන්න",
                 "replied_text": "{username} {ago} ට පෙර පිළිතුරු දී ඇත",
                 "started_text": "{username} {ago} ට පෙර ආරම්භ කර ඇත",
                 "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": ""
+                "unread_replies_a11y_label": "",
+                "mark_as_read_tooltip": "කියවූ ලෙස සලකුණු කරන්න"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -459,6 +459,10 @@
             }
         },
         "lib": {
+            "debug_button": "",
+            "alert": {
+                "dismiss_a11y_label": "ඇඟවීම අස්කරන්න"
+            },
             "badge": {
                 "hidden_tooltip": "සැඟවුනු"
             },
@@ -481,6 +485,7 @@
             },
             "error": {
                 "dependent_extensions_message": "",
+                "extension_initialiation_failed_message": "",
                 "generic_message": "අපොයි! යම් වරදක් සිදුවිණි. පිටුව නැවත පූරණය කරන්න.",
                 "missing_dependencies_message": "",
                 "not_found_message": "ඉල්ලූ සම්පත හමු නොවිණි.",
@@ -491,6 +496,16 @@
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": "වසන්න"
+            },
+            "nav": {
+                "drawer_button": ""
             },
             "number_suffix": {
                 "kilo_text": "",
@@ -503,20 +518,6 @@
             },
             "username": {
                 "deleted_text": "[deleted]"
-            },
-            "debug_button": "",
-            "alert": {
-                "dismiss_a11y_label": "ඇඟවීම අස්කරන්න"
-            },
-            "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
-            },
-            "modal": {
-                "close": "වසන්න"
-            },
-            "nav": {
-                "drawer_button": ""
             }
         },
         "views": {

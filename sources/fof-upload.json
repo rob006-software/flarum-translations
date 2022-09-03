@@ -15,6 +15,7 @@
                 "watermark": "Choose whether images will have a watermark added during upload. Watermarks are added to non-gifs based on your preferences below.\n",
                 "s3_compatible_storage": "The following settings are only required when using S3 compatible storage. If you use AWS, you can leave them blank.\n",
                 "s3_acl": "The ACL that should be applied to the uploaded object (default: private). For possible values, see https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_instance_profile": "Leave key and secret empty to use credentials in instance profile.\n",
                 "composer_buttons": "By default both the media manager button and upload button are visible. You can also choose to display only one button.\n"
             },
             "labels": {
@@ -39,7 +40,8 @@
                 },
                 "imgur": {
                     "client_id": "Imgur client ID",
-                    "title": "Imgur image storage settings"
+                    "title": "Imgur image storage settings",
+                    "tos": "It is your responsibility to ensure your forum users adhere to Imgur's <a>Terms of service</a>"
                 },
                 "local": {
                     "cdn_url": "Content Delivery URL (prefixes files)",
@@ -78,7 +80,8 @@
                         "upload-btn": "Upload button only",
                         "media-btn": "Media manager button only"
                     }
-                }
+                },
+                "inspect-mime": "Test file MIME type"
             },
             "permissions": {
                 "download_label": "Download files",
@@ -108,6 +111,19 @@
                 "local": "Local",
                 "ovh-svfs": "OVH SVFS",
                 "qiniu": "QiNiu"
+            },
+            "inspect-mime": {
+                "title": "Inspect MIME",
+                "description": "FoF Upload uses the <a>PHP Mime Detector</a> library for common MIME types and PHP Fileinfo as a fallback.\nThe MIME value returned by Fileinfo can be different from server to server!\n",
+                "select": "Select a file below to inspect the values that will be used. The file will not be saved.",
+                "laravel-validation": "Laravel File Validation",
+                "no-file-selected": "No file",
+                "validation-passed": "Passed",
+                "validation-failed": "Failed: {error}",
+                "mime-detector": "Mime Detector (primary)",
+                "mime-fileinfo": "PHP Fileinfo (fallback)",
+                "guessed-extension": "Default file extension (if original is not whitelisted)",
+                "not-available": "No result"
             }
         },
         "forum": {

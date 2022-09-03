@@ -1,5 +1,43 @@
 {
     "migratetoflarum-fake-data": {
+        "lib": {
+            "generator": {
+                "bulk-mode": "Tömeges mód",
+                "bulk-mode-description": "Egyetlen véletlenszerű érték előállítása és annak használata az összes bejegyzéshez",
+                "user-count": "Létrehozandó felhasználók száma",
+                "discussion-count": "Létrehozandó témák száma",
+                "discussion-tags": "Új témák címkéje",
+                "discussion-tags-none": "Nincs",
+                "discussion-tags-random": "Véletlenszerű",
+                "post-count": "Létrehozandó bejegyzések száma",
+                "date": "Kiinduló dátum",
+                "date-start-placeholder": "Kezdődátum (alapértelmezett: most)",
+                "date-interval-placeholder": "Időköz (alapértelmezett: 1 másodperc)",
+                "send": "Adatok előállítása",
+                "reset": "Az előállítás kész! Kattintson a visszaállításhoz.",
+                "refresh": "Bezárás és az oldal frissítése"
+            }
+        },
+        "forum": {
+            "link": {
+                "generate-replies": "Hamis válaszok előállítása"
+            },
+            "generator": {
+                "title": "Hamis válaszok előállítása",
+                "bulk-mode": "",
+                "bulk-mode-description": "",
+                "user-count": "",
+                "post-count": "",
+                "date": "",
+                "date-start-placeholder": "",
+                "date-interval-placeholder": "",
+                "send": ""
+            }
+        },
+        "api": {
+            "no-users-matched": "Nincs egyező felhasználó",
+            "no-discussions-matched": "Nincs egyező téma"
+        },
         "admin": {
             "generator": {
                 "bulk-mode": "",
@@ -15,26 +53,6 @@
                 "date-interval-placeholder": "",
                 "send": ""
             }
-        },
-        "forum": {
-            "link": {
-                "generate-replies": ""
-            },
-            "generator": {
-                "title": "",
-                "bulk-mode": "",
-                "bulk-mode-description": "",
-                "user-count": "",
-                "post-count": "",
-                "date": "",
-                "date-start-placeholder": "",
-                "date-interval-placeholder": "",
-                "send": ""
-            }
-        },
-        "api": {
-            "no-users-matched": "",
-            "no-discussions-matched": ""
         },
         "ref": {
             "bulk-mode": "",

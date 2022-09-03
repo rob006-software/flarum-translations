@@ -7,22 +7,31 @@
             },
             "settings": {
                 "badge_icon_label": "Super sticky badge icon",
-                "badge_icon_text": "=> core.ref.icon_text"
+                "badge_icon_text": "=> core.ref.icon_text",
+                "display_tag_sticky_label": "Show tag stickies in the \"All Discussions\" list",
+                "display_tag_sticky_text": "They will be treated as regular discussions and won't stick to the top."
             }
         },
         "forum": {
             "badge": {
                 "sticky_tooltip": "=> the-turk-stickiest.ref.sticky",
                 "super_sticky_tooltip": "=> the-turk-stickiest.ref.super_sticky",
-                "tag_sticky_tooltip": "=> the-turk-stickiest.ref.tag_sticky"
+                "tag_sticky_tooltip": "=> the-turk-stickiest.ref.tag_sticky",
+                "super_tag_sticky_tooltip": "=> the-turk-stickiest.ref.super_tag_sticky"
+            },
+            "stickiest_modal": {
+                "title": "Sticky {title}",
+                "sticky_label": "=> flarum-sticky.ref.sticky",
+                "sticky_text": "Sticky discussions will stick to the top in the \"All Discussions\" list if they are unread. When viewing a specific tag which belongs to the discussion, they will stick to the top at all times.",
+                "super_sticky_label": "=> the-turk-stickiest.ref.super_sticky",
+                "super_sticky_text": "Super sticky discussions will stick to the uppermost no matter what.",
+                "tag_sticky_label": "=> the-turk-stickiest.ref.tag_sticky",
+                "tag_sticky_text": "Tag stickies are hidden in the \"All Discussions\" list by default. They will only be shown and stick to the top when viewing a specific tag, that is one of the tags those you will choose here. This option can be combined with \"Super Sticky\".",
+                "tags_label": "=> flarum-tags.ref.tags",
+                "submit_button": "=> core.ref.save_changes"
             },
             "discussion_controls": {
-                "sticky_button": "=> the-turk-stickiest.ref.sticky",
-                "unsticky_button": "=> flarum-sticky.forum.discussion_controls.unsticky_button",
-                "super_sticky_button": "=> the-turk-stickiest.ref.super_sticky",
-                "common_sticky_button": "Common Sticky",
-                "tag_sticky_button": "=> the-turk-stickiest.ref.tag_sticky",
-                "all_sticky_button": "All Sticky"
+                "sticky_button": "=> flarum-sticky.forum.discussion_controls.sticky_button"
             },
             "post_stream": {
                 "discussion_stickied_text": "=> flarum-sticky.forum.post_stream.discussion_stickied_text",
@@ -34,7 +43,8 @@
         "ref": {
             "sticky": "=> flarum-sticky.ref.sticky",
             "super_sticky": "Super Sticky",
-            "tag_sticky": "Tag Sticky"
+            "tag_sticky": "Tag Sticky",
+            "super_tag_sticky": "Super Tag Sticky"
         }
     }
 }

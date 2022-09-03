@@ -1,0 +1,17 @@
+{
+    "acpl-lscache": {
+        "admin": {
+            "public_cache_ttl_label": "ডিফল্ট পাবলিক ক্যাশ TTL",
+            "public_cache_ttl_help": "পাবলিক পেজ গুলো কতক্ষণ Cached থাকবে তা নির্ধারন করুন (second এ) । পূর্ব নির্ধারিত Value হল 300 Second ।",
+            "clearing_cache_listener_label": "ফ্লারাম এর Cache ক্লিয়ার হলে LSCache ও Purge করুন",
+            "serve_stale_label": "",
+            "serve_stale_help": "",
+            "purge_on_discussion_update_label": "",
+            "purge_on_discussion_update_help": "",
+            "cache_exclude_label": "",
+            "cache_exclude_help": "",
+            "purge_all": "",
+            "purge_all_success": ""
+        }
+    }
+}

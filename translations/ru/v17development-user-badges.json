@@ -8,10 +8,15 @@
             "update_category": "Обновить категорию",
             "edit_category": "Править категорию",
             "nothing_here_yet": "Вы еще не создали ни одной категории или жетона.",
+            "show_badges_on_user_card": "",
+            "number_of_badges_on_user_card": "",
+            "number_of_badges_on_user_card_help": "",
             "permissions": {
                 "badge_detail_users": "Можно видеть пользователей на странице деталей о жетонах",
                 "give_badge": "Присвоить жетон пользователю",
-                "take_badge": "Снять жетон у пользователя"
+                "take_badge": "Снять жетон у пользователя",
+                "edit_own_card_badges": "",
+                "edit_card_badges": ""
             },
             "confirm_dialog": {
                 "title": "Подтвердить",
@@ -79,6 +84,7 @@
             "user_no_badges": "У этого пользователя пока нет ни одного жетона.",
             "no_received": "Этот жетон пока не присвоен ни одному пользователю.",
             "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
+            "save_changes": "",
             "badge": {
                 "badge": "Жетон",
                 "badges": "Жетоны",
@@ -92,7 +98,15 @@
                 "received_on": "Получено в {date}",
                 "badge_details": "Сведения о жетоне",
                 "earned_count": "{count, plural, one {<b># user</b> присвоен это жетон} other {<b># users</b> присвоен это жетон}}",
-                "earned_by_count": "{count, plural, one {награжден <b># user</b>} other {награждены <b># users</b>}}"
+                "earned_by_count": "{count, plural, one {награжден <b># user</b>} other {награждены <b># users</b>}}",
+                "others_link": ""
+            },
+            "badges_in_card": {
+                "title": "",
+                "manage_badges": "",
+                "description": "",
+                "select_limit": "",
+                "hit_limit": ""
             },
             "moderation": {
                 "remove_badge": "Снять жетон с пользователя",

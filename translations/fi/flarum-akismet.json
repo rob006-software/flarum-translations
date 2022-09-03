@@ -4,11 +4,11 @@
             "akismet_settings": {
                 "api_key_label": "API avain",
                 "title": "Akismet asetukset",
-                "delete_blatant_spam_label": "",
-                "delete_blatant_spam_help": ""
+                "delete_blatant_spam_label": "Poista automaattisesti julkea roskaposti",
+                "delete_blatant_spam_help": "Jos Akismet huomaa viestin roskapostiksi, merkitsemisen sijasta automaattisesti poista viesti"
             },
             "permissions": {
-                "bypass_akismet": ""
+                "bypass_akismet": "Ohita Akismet"
             }
         },
         "forum": {

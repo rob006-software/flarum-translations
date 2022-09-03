@@ -12,7 +12,7 @@
             "discard": "Verwerfen",
             "reopen": "Wieder öffnen",
             "support_tickets": "Support Tickets",
-            "admin_overview": "",
+            "admin_overview": "Öffne Admin-Übersicht",
             "hero": {
                 "help_question": "Wie können wir Ihnen helfen?",
                 "check_forum": "Sie können nicht finden, wonach Sie suchen? <a>Besuchen Sie unser Forum</a>"
@@ -51,7 +51,7 @@
             "not_found": {
                 "title": "Artikel nicht gefunden",
                 "description": "Es tut uns leid. Dieser Artikel oder diese Kategorie existiert an dieser Stelle leider nicht mehr.",
-                "solution": ""
+                "solution": "Nutze die Suche oben, um zu finden wonach du suchst."
             },
             "article": {
                 "article": "Artikel",
@@ -78,7 +78,7 @@
                 }
             },
             "support_ratings": {
-                "score": "",
+                "score": "Punktzahl",
                 "helful_article": "War dieser Artikel hilfreich?",
                 "helful_support": "Sind Sie zufrieden damit, wie wir mit Ihrem Support-Ticket umgehen?",
                 "feedback": "Vielen Dank für Ihre Bewertung. Haben Sie Feedback?",
@@ -94,8 +94,8 @@
                     "missing_article_id": "Fehlende oder ungültige Artikel-ID"
                 },
                 "switch_sort_score": {
-                    "label": "",
-                    "description": ""
+                    "label": "Zeige die Artikel nach aufsteigender Punktzahl sortiert",
+                    "description": "Nur Artikel zeigen, die Feedback erhalten haben, nach aufsteigender Punktzahl sortiert."
                 }
             },
             "modals": {
@@ -147,6 +147,11 @@
                 "ticket_activity": "{count, plural, one {Eine Erinnerung gesendet} other {# Erinnerungen gesendet}}",
                 "reminders_sent": "Von {username}, letzte Aktivität {date}",
                 "convert_to_ticket": {
+                    "button": "Zu einem Ticket machen",
+                    "confirm": "Bist du dir sicher, dass du diese Diskussion zu einem Ticket machen möchtest?",
+                    "event": "Diskussion {ticket_title} wurde zu einem Ticket gemacht"
+                },
+                "convert_to_discussion": {
                     "button": "",
                     "confirm": "",
                     "event": ""
@@ -192,7 +197,8 @@
                     "assign_me": "Weisen Sie mir zu",
                     "remove_me": "Entferne mich",
                     "update_status": "Ticketstatus aktualisieren",
-                    "close_ticket": "Ticket schließen"
+                    "close_ticket": "Ticket schließen",
+                    "update_note": ""
                 },
                 "new_tickets_dropdown": {
                     "title": "Ticketbenachrichtigungen",
@@ -223,6 +229,13 @@
                     "assignees": {
                         "title": "Beauftragten",
                         "placeholder": "Der Status des Tickets"
+                    },
+                    "private_note": {
+                        "title": "",
+                        "info": "",
+                        "tip": "",
+                        "placeholder": "",
+                        "edit_button": ""
                     }
                 },
                 "compose_ticket": {
@@ -241,32 +254,42 @@
                 "overview": {
                     "title": "Ticketübersicht",
                     "description": "Lächle, du bist der Held, der anderen Menschen den Tag rettet.",
-                    "no_tickets": "Es gibt keine Tickets, die Ihren Kriterien entsprechen, wahrscheinlichmachen Sie einen guten Job",
+                    "no_tickets": "Es gibt keine Tickets, die deinen Kriterien entsprechen, wahrscheinlich machst du einen guten Job!",
                     "all_tickets": "Alle Tickets",
-                    "selection_unfiltered": "",
-                    "selection_open": "",
-                    "selection_closed": "",
-                    "refresh": "",
+                    "selection_unfiltered": "Ungefiltert",
+                    "selection_open": "Offene Tickets",
+                    "selection_closed": "Geschlossene Tickets",
+                    "refresh": "Aktualisieren",
                     "filter": {
                         "status": {
-                            "title": "",
-                            "filter_count": ""
+                            "title": "Ticketstatus",
+                            "filter_count": "# Filter"
                         },
                         "language": {
-                            "any": ""
+                            "any": "Alle Sprachen"
                         },
                         "assignees": {
-                            "title": "",
-                            "search": "",
-                            "unassigned": ""
+                            "title": "Nach Beauftragten filtern",
+                            "search": "Beauftragten suchen",
+                            "unassigned": "Nicht zugewiesen"
                         }
                     },
                     "sort": {
-                        "newest": "",
-                        "oldest": "",
-                        "recent_activity": "",
-                        "least_recent": ""
+                        "newest": "Neueste zuerst",
+                        "oldest": "Älteste zuerst",
+                        "recent_activity": "Jüngste Aktivität",
+                        "least_recent": "Letzte Aktivität"
                     }
+                }
+            },
+            "notifications": {
+                "replied_to_ticket": {
+                    "name": "",
+                    "content": ""
+                },
+                "ticket_resolved": {
+                    "name": "",
+                    "content": ""
                 }
             }
         },

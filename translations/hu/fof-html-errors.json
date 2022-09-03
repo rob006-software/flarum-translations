@@ -3,13 +3,13 @@
         "admin": {
             "settings": {
                 "error": {
-                    "403": "403 Forbidden",
+                    "403": "403 Hozzáférés megtagadva",
                     "404": "404 Nem található",
-                    "500": "500 Internal Server Error",
-                    "503": "503 Service Unavailable (Down For Maintenance)"
+                    "500": "500 Belső kiszolgálóhiba",
+                    "503": "503 Szolgáltatás nem érhető el (Karbantartás)"
                 },
                 "placeholder": {
-                    "empty_for_default": "Hagyd üresen az alapértelmezett hiba oldalak megjelenítéséhez"
+                    "empty_for_default": "Hagyja üresen az alapértelmezett Flarum hibaoldalak megjelenítéséhez"
                 }
             }
         }

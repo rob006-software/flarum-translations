@@ -1,0 +1,42 @@
+{
+    "flarum-nicknames": {
+        "admin": {
+            "permissions": {
+                "edit_own_nickname_label": "자신의 별명 편집하기"
+            },
+            "settings": {
+                "max_label": "별명 최대 길이",
+                "min_label": "별명 최소 길이",
+                "random_username_label": "사용자명 무작위화",
+                "random_username_help": "이 옵션은 가입시 `사용자명` 입력을 숨기고 무작위의 숫자를 쓰게 합니다. 또한 이 옵션은 `별명` 항목을 필수로 설정합니다. 이것은 \"가입시 별명 설정 허용\" 옵션이 켜져있을때만 작동합니다.",
+                "regex_label": "유효성 확인을 위한 정규식 (Regex)",
+                "set_on_registration_label": "가입시 별명 설정 허용",
+                "unique_label": "별명 겹침 방지"
+            },
+            "wrong_driver": "<a><strong>기본</strong></a> 페이지에서 자용자 표시 이름 드라이버를 \"nickname\"으로 설정해야 합니다."
+        },
+        "api": {
+            "invalid_nickname_message": "이 별명은 유효하지 않습니다. 별명 설정 규칙에 대해서는 관리자에게 문의해주세요."
+        },
+        "forum": {
+            "change_nickname": {
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> flarum-nicknames.ref.change_nickname"
+            },
+            "edit_user": {
+                "nicknames_heading": "=> flarum-nicknames.ref.change_nickname",
+                "nicknames_text": "=> flarum-nicknames.ref.nickname"
+            },
+            "settings": {
+                "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
+            },
+            "sign_up": {
+                "nickname_placeholder": "=> flarum-nicknames.ref.nickname"
+            }
+        },
+        "ref": {
+            "change_nickname": "별명 변경하기",
+            "nickname": "별명"
+        }
+    }
+}

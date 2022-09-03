@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "Cấu hình Phạm vi",
-                "confirm_uninstall": "Gỡ cài đặt sẽ xóa tất cả các mục nhập trong cơ sở dữ liệu và nội dung liên quan đến tiện ích mở rộng. Bạn có chắc chắn muốn tiếp tục không?",
+                "confirm_purge": "Dọn dẹp sẽ xóa tất cả các mục nhập trong cơ sở dữ liệu và nội dung liên quan đến tiện ích mở rộng. Nó sẽ không gỡ tiện ích mở rộng; điều đó phải được thực hiện thông qua Composer. Bạn có chắc chắn muốn tiếp tục không?",
                 "disabled": "Đã tắt",
                 "enable_to_see": "Kích hoạt tiện ích mở rộng để xem và thay đổi cài đặt.",
                 "enabled": "Đã bật",
@@ -116,14 +116,14 @@
                 "no_settings": "Tiện ích mở rộng này không có thiết lập nào.",
                 "open_modal": "Mở thiết lập",
                 "permissions_title": "Quyền",
-                "uninstall_button": "Gỡ cài đặt",
-                "confirm_purge": "Dọn dẹp sẽ xóa tất cả các mục nhập trong cơ sở dữ liệu và nội dung liên quan đến tiện ích mở rộng. Nó sẽ không gỡ tiện ích mở rộng; điều đó phải được thực hiện thông qua Composer. Bạn có chắc chắn muốn tiếp tục không?",
                 "purge_button": "Dọn dẹp",
                 "readme": {
                     "button_label": "README",
                     "no_readme": "Tiện ích mở rộng này không có tệp README",
                     "title": "Tài liệu {extName}"
-                }
+                },
+                "confirm_uninstall": "Gỡ cài đặt sẽ xóa tất cả các mục nhập trong cơ sở dữ liệu và nội dung liên quan đến tiện ích mở rộng. Bạn có chắc chắn muốn tiếp tục không?",
+                "uninstall_button": "Gỡ cài đặt"
             },
             "header": {
                 "get_help": "Trợ giúp",
@@ -303,11 +303,11 @@
             "discussion_list": {
                 "empty_text": "Hiện không có cuộc thảo luận nào ở đây.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "Đánh dấu đã đọc",
                 "replied_text": "{username} đã trả lời {ago}",
                 "started_text": "{username} đã đăng bài {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# câu trả lời} other {# câu trả lời}}",
-                "unread_replies_a11y_label": "{count, plural, one {# câu trả lời chưa đọc} other {# câu trả lời chưa đọc}}. Đánh dấu chưa đọc {count, plural, one {reply} other {replies}} thành đã đọc."
+                "unread_replies_a11y_label": "{count, plural, one {# câu trả lời chưa đọc} other {# câu trả lời chưa đọc}}. Đánh dấu chưa đọc {count, plural, one {reply} other {replies}} thành đã đọc.",
+                "mark_as_read_tooltip": "Đánh dấu đã đọc"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -459,6 +459,10 @@
             }
         },
         "lib": {
+            "debug_button": "Gỡ lỗi",
+            "alert": {
+                "dismiss_a11y_label": "Ẩn cảnh báo"
+            },
             "badge": {
                 "hidden_tooltip": "Bị ẩn"
             },
@@ -481,6 +485,7 @@
             },
             "error": {
                 "dependent_extensions_message": "Không thể vô hiệu hóa {extension} cho đến khi các tiện ích mở rộng phụ thuộc sau bị vô hiệu hóa: {extensions}",
+                "extension_initialiation_failed_message": "Không thể khởi chạy {extension}, hãy kiểm tra console của trình duyệt để biết thêm thông tin.",
                 "generic_message": "Úi! Đã xảy ra lỗi. Hãy tải lại trang và thử lại.",
                 "missing_dependencies_message": "Không thể kích hoạt {extension} cho đến khi các tiện ích mở rộng phụ thuộc sau được kích hoạt: {extensions}",
                 "not_found_message": "Không tìm thấy tài nguyên được yêu cầu.",
@@ -491,6 +496,16 @@
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Trang # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Trang # - {forumName}}}"
+            },
+            "modal": {
+                "close": "Đóng"
+            },
+            "nav": {
+                "drawer_button": "Mở ngăn điều hướng"
             },
             "number_suffix": {
                 "kilo_text": "N",
@@ -503,20 +518,6 @@
             },
             "username": {
                 "deleted_text": "[đã xóa]"
-            },
-            "debug_button": "Gỡ lỗi",
-            "alert": {
-                "dismiss_a11y_label": "Ẩn cảnh báo"
-            },
-            "meta_titles": {
-                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Trang # - {forumName}}}",
-                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Trang # - {forumName}}}"
-            },
-            "modal": {
-                "close": "Đóng"
-            },
-            "nav": {
-                "drawer_button": "Mở ngăn điều hướng"
             }
         },
         "views": {

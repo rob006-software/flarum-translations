@@ -2,38 +2,41 @@
     "nearata-twofactor": {
         "admin": {
             "settings": {
-                "generate_backups": ""
+                "generate_backups": "Generuj kody zapasowe."
+            },
+            "permissions": {
+                "can_enable_twofactor": "Włączenie uwierzytelniania dwuskładnikowego"
             }
         },
         "forum": {
-            "invalid_twofa_code": "",
-            "invalid_twofa_setup": "",
+            "invalid_twofa_code": "Nieprawidłowy kod.",
+            "invalid_twofa_setup": "Nieprawidłowe hasło lub kod.",
             "log_in_modal": {
-                "submit_button": "",
-                "otp_placeholder": "",
-                "title": ""
+                "submit_button": "Zaloguj się",
+                "otp_placeholder": "Kod uwierzytelnienia dwuskładnikowego",
+                "title": "Uwierzytelnianie dwuskładnikowe"
             },
-            "setup_button": "",
+            "setup_button": "Uwierzytelnianie dwuskładnikowe",
             "setup_modal": {
                 "backups": {
-                    "copy_button": "",
-                    "download_button": "",
-                    "download_file_format": "",
-                    "modal_message": ""
+                    "copy_button": "Kopiuj",
+                    "download_button": "Pobierz",
+                    "download_file_format": "{website_title} | {website_url}\n\nZapisz te kody w bezpiecznym, ale łatwym do odnalezienia miejscu.\n\nLISTA KODÓW:\n\n{codes}\n\n* Każdy kod może zostać wykorzystany tylko raz.\n* Te kody muszą zostać użyte w wyświetlonej kolejności.\n* Kody zostały wygenerowane: {date}.\n",
+                    "modal_message": "Przechowuj te kody w bezpiecznym miejscu. W razie utraty dostępu do aplikacji umożliwiającej wygenerowanie kodu weryfikacyjnego, możesz użyć tych kodów, aby zalogować się na swoje konto.\n"
                 },
-                "close_button": "",
-                "disabled": "",
-                "enabled": "",
-                "enter_code_disable": "",
-                "enter_code_manually": "",
-                "passcode_placeholder": "",
-                "password_placeholder": "",
-                "scan_qr": "",
+                "close_button": "Zamknij",
+                "disabled": "Uwierzytelnianie dwuskładnikowe wyłączone.",
+                "enabled": "Uwierzytelnianie dwuskładnikowe włączone.",
+                "enter_code_disable": "Wpisz swój kod, aby wyłączyć uwierzytelnianie dwuskładnikowe.",
+                "enter_code_manually": "Wpisz kod ręcznie",
+                "passcode_placeholder": "Kod uwierzytelnienia dwuskładnikowego",
+                "password_placeholder": "Hasło",
+                "scan_qr": "Zeskanuj ten kod QR używając aplikacji umożliwiającej dwuskładnikowe uwierzytelnienie.",
                 "submit_button": {
-                    "enable": "",
-                    "disable": ""
+                    "enable": "Włącz",
+                    "disable": "Wyłącz"
                 },
-                "title": ""
+                "title": "Uwierzytelnianie dwuskładnikowe"
             }
         }
     }

@@ -12,8 +12,8 @@
                 "selected_category_count": "{count, plural, one {Du hast # Kategorie ausgewählt} other {Du hast # Kategorien ausgewählt}}",
                 "select_categories_button": "Blog-Kategorien auswählen",
                 "blog_heading": "Blog",
-                "featured_count_label": "",
-                "featured_count_text": "",
+                "featured_count_label": "Max. hervorgehobene Beiträge",
+                "featured_count_text": "Wie viele Beiträge sollen in einem großen Raster oben auf einer Blogseite angezeigt werden?",
                 "allow_comments_label": "Kommentare zulassen",
                 "allow_comments_text": "Standardmäßig sind Kommentare zu Blogeinträgen erlaubt. Wenn diese Einstellung deaktiviert wird kann pro Blogeintrag entschieden werden. <b>Hinweis:</b> Das Ändern dieser Einstellung hat keine Auswirkungen auf bereits vorhandene Blogeinträge.",
                 "require_review_label": "Blogeinträge erfordern Überprüfung",
@@ -33,7 +33,9 @@
                 "redirect_tags_label": "Blog-Tags umleiten",
                 "redirect_tags_text": "Wenn aktiviert, leite die ursprüngliche Blog-Tag-URLs auf ihre Blog-Kategorie-URL um.",
                 "default_article_image_label": "Standardartikelbild",
-                "default_article_image_text": "Wähle ein Standardartikelbild aus, das angezeigt werden soll, wenn kein Bild eingestellt ist."
+                "default_article_image_text": "Wähle ein Standardartikelbild aus, das angezeigt werden soll, wenn kein Bild eingestellt ist.",
+                "add_hero_label": "Willkommensbanner anzeigen",
+                "add_hero_text": "Willkommensbanner auf Blogseiten anzeigen, wenn es noch nicht geschlossen wurde."
             }
         },
         "forum": {
@@ -98,6 +100,24 @@
                 "comment_section": "Der Kommentarbereich ist beim Verfassen eines Artikels nicht verfügbar.",
                 "no_blog_tags_selected": "Keiner der ausgewählten Tags ist ein Blog-Tag. Bitte wähle mindestens einen aus.",
                 "post_without_blog_info": "Bist du sicher, dass du diesen Blogpost veröffentlichen willst? Du hast noch keine Blog-Zusammenfassung verfasst oder ein Bild ausgewählt."
+            },
+            "article_settings": {
+                "title": "",
+                "fields": {
+                    "summary": {
+                        "title": "",
+                        "placeholder": "",
+                        "helper_text": ""
+                    },
+                    "image": {
+                        "title": "",
+                        "helper_text": ""
+                    },
+                    "highlight": {
+                        "title": "",
+                        "helper_text": ""
+                    }
+                }
             }
         }
     }

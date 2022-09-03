@@ -1,14 +1,15 @@
 {
     "fof-nightmode": {
         "ref": {
-            "auto": "Automatikus (az eszköz beállítása alapján)",
+            "auto": "Automatikus (a böngésző vagy eszköz beállítása alapján)",
             "light": "Világos téma",
             "dark": "Sötét téma"
         },
         "admin": {
             "settings": {
                 "modal": {
-                    "default_theme": "Alapértelmezett fórum téma",
+                    "always_show_theme_toggle_on_header": "Mindig jelenjen meg a témaválasztógomb a fórumfejlécben",
+                    "default_theme": "Alapértelmezett fórumtéma",
                     "default_theme_helper": "Az alapértelmezett téma automatikusan megjelenik a vendégeknek, új felhasználóknak.",
                     "theme_auto": "=> fof-nightmode.ref.auto",
                     "theme_light": "=> fof-nightmode.ref.light",
@@ -20,27 +21,37 @@
             "day": "=> fof-nightmode.ref.light",
             "night": "=> fof-nightmode.ref.dark",
             "header": {
-                "nightmode_button": ""
+                "nightmode_button": "Fórumtéma váltása"
             },
             "user": {
                 "settings": {
                     "heading": "Téma",
-                    "description": "Válaszd ki melyik szín témát szeretnéd használni a fórumban.",
-                    "description2": "Ez a téma a fiókoddal kapcsolva lesz, és minden eszközön érvényesül, ameddig nem használod a változtatás kapcsolót.",
-                    "device_specific_setting_checkbox": "Eszköz szerinti használat",
-                    "device_specific_setting_checkbox_tooltip": "A témád eszközönként kerül mentésre, mindegyik eszközön külön-külön.",
-                    "auto_unsupported": "",
+                    "description": "Válasszon, hogy melyik színtémát használja a fórumban.",
+                    "description2": "Ez a téma a fiókjához lesz kapcsolva, és az összes eszközén érvényesül, amíg nem használja a lenti kapcsolót az eszközönkénti beállításokra váltáshoz.",
+                    "device_specific_setting_checkbox": "Eszközönkénti beállítások használata",
+                    "device_specific_setting_checkbox_tooltip": "A témaválasztása eszközönként kerül mentésre, mindegyik eszközön külön-külön.",
+                    "auto_unsupported": "A böngészője nem támogatja az automatikus sötét módot.",
                     "options": {
                         "auto": "=> fof-nightmode.ref.auto",
                         "day": "=> fof-nightmode.ref.light",
                         "night": "=> fof-nightmode.ref.dark"
                     },
                     "option_descriptions": {
-                        "auto": "A téma automatikusan igazodni fog az eszköz beállásaihoz. Például ha a telefonba sötét témát használsz, a fórumod is sötét témára vált.",
-                        "day": "A klasszikus élmény.",
-                        "night": "Kicsit éjszakai bagoly vagy. Éjjel vigyázol a fórumra, miközben a madarak alszanak, a rókák pedig vadásznak. Vagy inkább csak a sötétebb színeket részesíti előnyben!"
+                        "auto": "A téma automatikusan igazodni fog az eszköz beállásaihoz. Például, ha az iOS-ben a sötét témát használja, akkor a fórum is sötét témára vált.",
+                        "day": "A klasszikus élmény, amelyet megszokott. Kedvelt és tesztelt.",
+                        "night": "Kissé olyan, mint az éjszakai bagoly. Éjjel vigyáz a fórumra, miközben a madarak alszanak, a rókák pedig vadásznak. Vagy inkább csak a sötétebb színeket részesíti előnyben!"
                     }
                 }
+            }
+        }
+    },
+    "fof-default-user-preferences": {
+        "admin": {
+            "settings": {
+                "fofNightMode": "FoF Éjszakai mód: Alapértelmezetten használandó színtéma",
+                "fofNightMode-help": "0 – automatikus, 1 – világos mód, 2 – sötét mód",
+                "fofNightMode_perDevice": "FoF Éjszakai mód: Eszközönkénti beállítások használata",
+                "fofNightMode_perDevice-help": "Eszközönkénti beállítások használata az éjszakai módhoz"
             }
         }
     }
