@@ -3,82 +3,82 @@
         "admin": {
             "modals": {
                 "fields": {
-                    "board": "",
-                    "trello_label": "",
-                    "forum_tags": ""
+                    "board": "Sélectionner un tableau Trello",
+                    "trello_label": "Sélectionner un libellé Trello",
+                    "forum_tags": "Sélectionner une étiquette de forum à mettre en correspondance"
                 },
-                "no_available_labels_label": "",
-                "no_available_tags_label": ""
+                "no_available_labels_label": "Aucun libellé disponible",
+                "no_available_tags_label": "Aucune étiquette de forum disponible"
             },
             "permissions": {
-                "add_to_trello": ""
+                "add_to_trello": "Peut lier une discussion à Trello"
             },
             "settings": {
-                "api_key_help": "",
-                "api_key_label": "",
-                "api_token_help": "",
-                "api_token_label": "",
-                "available_boards_label": "",
+                "api_key_help": "Saisir la clé API de {link} afin que cette extension se connecte à Trello.",
+                "api_key_label": "Clé API",
+                "api_token_help": "Saisissez le jeton API afin que cette extension puisse se connecter à Trello. Rendez-vous sur {link} puis cliquez sur <code>Générer un jeton</code>",
+                "api_token_label": "Jeton API",
+                "available_boards_label": "Tableaux disponibles",
                 "button": {
-                    "add": "",
-                    "remove": ""
+                    "add": "Ajouter",
+                    "remove": "Supprimer"
                 },
-                "default_board_help": "",
-                "default_board_label": "",
-                "guest_workspace": "",
-                "in_trello": "",
-                "include_secondary_tags_help": "",
-                "include_secondary_tags_label": "",
+                "default_board_help": "Le tableau sélectionné par défaut sera celui qui sera présélectionné dans la fenêtre du forum dénommée « Envoyer à Trello ».",
+                "default_board_label": "Tableau par défaut",
+                "guest_workspace": "Espace de travail des invités",
+                "in_trello": "dans Trello",
+                "include_secondary_tags_help": "Lorsque cette option est désactivée, seules les étiquettes primaires de discussion seront envoyées à Trello. Lorsque cette option est activée, toutes les étiquettes sont envoyées à Trello.",
+                "include_secondary_tags_label": "Inclure les étiquettes secondaires",
                 "label": {
-                    "general": "",
-                    "boards": "",
-                    "labels": ""
+                    "general": "Général",
+                    "boards": "Paramètres des tableaux",
+                    "labels": "Paramètres des libellés"
                 },
                 "mapping": {
-                    "add_new": "",
-                    "mapping_description": "",
-                    "modal_title": "",
-                    "no_mappings_for_board": ""
+                    "add_new": "Ajouter la correspondance",
+                    "mapping_description": "deviendra",
+                    "modal_title": "Nouvelle correspondance des étiquettes",
+                    "no_mappings_for_board": "Il n'y a aucune correspondance d'étiquette active assignée à ce tableau"
                 },
-                "mappings_label": "",
-                "member_id_help": "",
-                "member_id_label": "",
-                "no_available_boards_label": "",
-                "no_label_name": "",
-                "no_selected_boards_label": "",
-                "selected_boards_label": "",
-                "save": "",
-                "tag": "",
-                "unmapped_warning_label": "",
-                "unmapped_warning_help": ""
+                "mappings_label": "Correspondance entre les étiquettes du forum et les libellés de Trello",
+                "member_id_help": "Saisissez l'identifiant de membre Trello à utiliser pour récupérer les tableaux de l'organisation avec Trello. (https://trello.com/your-trello-handle)",
+                "member_id_label": "Identifiant de membre",
+                "no_available_boards_label": "Aucun tableau disponible",
+                "no_label_name": "Aucun nom de libellé",
+                "no_selected_boards_label": "Aucun tableau sélectionné",
+                "selected_boards_label": "Tableaux sélectionnés",
+                "save": "Enregistrer les modifications",
+                "tag": "Étiquette",
+                "unmapped_warning_label": "Avertir lors d'étiquettes sans correspondance",
+                "unmapped_warning_help": "Affiche un avertissement lors de l'envoi d'une discussion vers Trello si les étiquettes du forum ne correspondent pas aux libellés de Trello"
             }
         },
         "forum": {
             "badges": {
                 "trello": {
-                    "tooltip": ""
+                    "tooltip": "Existe dans Trello"
                 }
             },
             "controls": {
-                "send_to_trello_button": "",
-                "view_on_trello_button": ""
+                "send_to_trello_button": "Envoyer vers Trello",
+                "view_on_trello_button": "Voir la carte Trello"
             },
             "modals": {
                 "fields": {
-                    "board": "",
-                    "lane": "",
-                    "member": "",
-                    "member_selected": ""
+                    "board": "Sélectionner un tableau Trello",
+                    "lane": "Sélectionner une ligne Trello",
+                    "member": "Sélectionner un membre de Trello",
+                    "member_selected": "{count, plural, one {# membre sélectionné}, other {# membres sélectionnés}}"
                 },
-                "no_available_board_lanes": "",
-                "no_available_board_members": "",
-                "no_available_boards_label": "",
-                "no_mappings_for_board": "",
-                "title": ""
+                "no_available_board_lanes": "Aucune ligne de tableau disponible",
+                "no_available_board_members": "Aucun membre du tableau disponible",
+                "no_available_boards_label": "Aucun tableau disponible",
+                "no_mappings_for_board": "Le tableau sélectionné n'a pas de correspondance entre les libellés de Trello et les étiquettes du forum",
+                "title": "Envoyer vers Trello"
             }
         },
         "lib": {
-            "original_post": ""
+            "original_post": "Message original"
         }
     }
 }
