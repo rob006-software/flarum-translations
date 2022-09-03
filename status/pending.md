@@ -65,22 +65,4 @@
 
 ## Dead branches
 
-| Extension | Pull request |
-| --- | --- |
-| `hamzone-auth-wechat` | [![#916 (closed)](https://img.shields.io/badge/PR-%23916-red)](https://github.com/rob006-software/flarum-translations/pull/916) |
-| `hamzone-emojionearea` | [![#913 (closed)](https://img.shields.io/badge/PR-%23913-red)](https://github.com/rob006-software/flarum-translations/pull/913) |
-| `insegreto-ads` | [![#670 (closed)](https://img.shields.io/badge/PR-%23670-red)](https://github.com/rob006-software/flarum-translations/pull/670) |
-| `kindyear-reply-to-see` | [![#613 (closed)](https://img.shields.io/badge/PR-%23613-red)](https://github.com/rob006-software/flarum-translations/pull/613) |
-| `lawaxi-harmony` | [![#830 (closed)](https://img.shields.io/badge/PR-%23830-red)](https://github.com/rob006-software/flarum-translations/pull/830) |
-| `lawaxi-level-ranks` | [![#927 (closed)](https://img.shields.io/badge/PR-%23927-red)](https://github.com/rob006-software/flarum-translations/pull/927) |
-| `lazyeo-hljs` | [![#709 (closed)](https://img.shields.io/badge/PR-%23709-red)](https://github.com/rob006-software/flarum-translations/pull/709) |
-| `littlecxm-fof-doorman` | [![#771 (closed)](https://img.shields.io/badge/PR-%23771-red)](https://github.com/rob006-software/flarum-translations/pull/771) |
-| `littlecxm-fof-passport` | [![#770 (closed)](https://img.shields.io/badge/PR-%23770-red)](https://github.com/rob006-software/flarum-translations/pull/770) |
-| `lonelyclick-embed-video` | [![#851 (closed)](https://img.shields.io/badge/PR-%23851-red)](https://github.com/rob006-software/flarum-translations/pull/851) |
-| `reazzon-pages` | [![#548 (closed)](https://img.shields.io/badge/PR-%23548-red)](https://github.com/rob006-software/flarum-translations/pull/548) |
-| `reazzon-seo` | [![#549 (closed)](https://img.shields.io/badge/PR-%23549-red)](https://github.com/rob006-software/flarum-translations/pull/549) |
-| `subasteve-hljs` | [![#722 (closed)](https://img.shields.io/badge/PR-%23722-red)](https://github.com/rob006-software/flarum-translations/pull/722) |
-| `subasteve-mailing` | [![#737 (closed)](https://img.shields.io/badge/PR-%23737-red)](https://github.com/rob006-software/flarum-translations/pull/737) |
-| `swaggymacro-websocket` | [![#865 (closed)](https://img.shields.io/badge/PR-%23865-red)](https://github.com/rob006-software/flarum-translations/pull/865) |
-| `william0wang-imgur-upload` | [![#790 (closed)](https://img.shields.io/badge/PR-%23790-red)](https://github.com/rob006-software/flarum-translations/pull/790) |
-| `zouyonghao-es` | [![#854 (closed)](https://img.shields.io/badge/PR-%23854-red)](https://github.com/rob006-software/flarum-translations/pull/854) |
+There are no dead branches.
