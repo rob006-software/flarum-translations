@@ -67,14 +67,6 @@
 
 | Extension | Pull request |
 | --- | --- |
-| `akamajoris-fof-upload` | [![#879 (closed)](https://img.shields.io/badge/PR-%23879-red)](https://github.com/rob006-software/flarum-translations/pull/879) |
-| `arthurydalgo-ads` | [![#899 (closed)](https://img.shields.io/badge/PR-%23899-red)](https://github.com/rob006-software/flarum-translations/pull/899) |
-| `arthurydalgo-online-users` | [![#898 (closed)](https://img.shields.io/badge/PR-%23898-red)](https://github.com/rob006-software/flarum-translations/pull/898) |
-| `arthurydalgo-users-list` | [![#900 (closed)](https://img.shields.io/badge/PR-%23900-red)](https://github.com/rob006-software/flarum-translations/pull/900) |
-| `flarum-extensions-mason` | [![#596 (closed)](https://img.shields.io/badge/PR-%23596-red)](https://github.com/rob006-software/flarum-translations/pull/596) |
-| `flarum-extensions-taxonomies` | [![#595 (closed)](https://img.shields.io/badge/PR-%23595-red)](https://github.com/rob006-software/flarum-translations/pull/595) |
-| `flarum-extensions-transliterator` | [![#585 (closed)](https://img.shields.io/badge/PR-%23585-red)](https://github.com/rob006-software/flarum-translations/pull/585) |
-| `gitzaai-hljs2` | [![#918 (closed)](https://img.shields.io/badge/PR-%23918-red)](https://github.com/rob006-software/flarum-translations/pull/918) |
 | `hamzone-auth-wechat` | [![#916 (closed)](https://img.shields.io/badge/PR-%23916-red)](https://github.com/rob006-software/flarum-translations/pull/916) |
 | `hamzone-emojionearea` | [![#913 (closed)](https://img.shields.io/badge/PR-%23913-red)](https://github.com/rob006-software/flarum-translations/pull/913) |
 | `insegreto-ads` | [![#670 (closed)](https://img.shields.io/badge/PR-%23670-red)](https://github.com/rob006-software/flarum-translations/pull/670) |
