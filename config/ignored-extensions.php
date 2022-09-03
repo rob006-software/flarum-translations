@@ -35,6 +35,7 @@ return [
 	'lonelyclick/flarum-ext-embed-video',
 	'reazzon/flarum-seo',
 	'reazzon/pages',
+	'starsrivers/flarum-mathren',
 	'subasteve/flarum-ext-hljs',
 	'subasteve/flarum-ext-mailing',
 	'swaggymacro/websocket',
