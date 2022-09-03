@@ -152,9 +152,9 @@
                     "event": "La discussion {ticket_title} a été convertie en ticket"
                 },
                 "convert_to_discussion": {
-                    "button": "",
-                    "confirm": "",
-                    "event": ""
+                    "button": "Convertir en discussion",
+                    "confirm": "Êtes-vous sûr de vouloir convertir ce ticket en une discussion publique ? Si quelqu'un a partagé des informations privées, celles-ci deviendront également publiques.",
+                    "event": "Le ticket {ticket_title} a été converti en discussion.\n\nSouhaitez-vous aller à cette discussion maintenant ?\n"
                 },
                 "status": {
                     "new": {
