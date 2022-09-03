@@ -1,0 +1,49 @@
+{
+    "flarum-mentions": {
+        "admin": {
+            "settings": {
+                "allow_username_format_label": "",
+                "allow_username_format_text": ""
+            }
+        },
+        "forum": {
+            "composer": {
+                "mention_tooltip": "사용자 또는 게시물 언급",
+                "reply_to_post_text": "#{number}에게 답장"
+            },
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_mentioned_text": "{username}님이 귀하의 게시물에 답장했습니다",
+                "user_mentioned_text": "{username}님이 귀하를 언급했습니다"
+            },
+            "post": {
+                "mentioned_by_self_text": "{users}님이 이에 답장했습니다.",
+                "mentioned_by_text": "{users}님이 이에 답장했습니다.",
+                "others_text": "=> core.ref.some_others",
+                "quote_button": "인용문",
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
+            },
+            "settings": {
+                "notify_post_mentioned_label": "누군가 내 게시물 중 하나에 답장했을 때",
+                "notify_user_mentioned_label": "누군가 게시물에서 나를 언급했을 때"
+            },
+            "user": {
+                "mentions_link": "언급"
+            },
+            "post_mention": {
+                "deleted_text": ""
+            }
+        },
+        "email": {
+            "post_mentioned": {
+                "subject": "",
+                "body": ""
+            },
+            "user_mentioned": {
+                "subject": "",
+                "body": ""
+            }
+        }
+    }
+}

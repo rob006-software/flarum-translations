@@ -151,6 +151,11 @@
                     "confirm": "",
                     "event": ""
                 },
+                "convert_to_discussion": {
+                    "button": "",
+                    "confirm": "",
+                    "event": ""
+                },
                 "status": {
                     "new": {
                         "title": "",
@@ -192,7 +197,8 @@
                     "assign_me": "",
                     "remove_me": "",
                     "update_status": "",
-                    "close_ticket": ""
+                    "close_ticket": "",
+                    "update_note": ""
                 },
                 "new_tickets_dropdown": {
                     "title": "",
@@ -223,6 +229,13 @@
                     "assignees": {
                         "title": "",
                         "placeholder": ""
+                    },
+                    "private_note": {
+                        "title": "",
+                        "info": "",
+                        "tip": "",
+                        "placeholder": "",
+                        "edit_button": ""
                     }
                 },
                 "compose_ticket": {
@@ -267,6 +280,16 @@
                         "recent_activity": "",
                         "least_recent": ""
                     }
+                }
+            },
+            "notifications": {
+                "replied_to_ticket": {
+                    "name": "",
+                    "content": ""
+                },
+                "ticket_resolved": {
+                    "name": "",
+                    "content": ""
                 }
             }
         },

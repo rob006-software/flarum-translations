@@ -8,43 +8,43 @@
             "discussion_controls": {
                 "follow_button": "=> flarum-subscriptions.ref.follow",
                 "unfollow_button": "フォロー解除",
-                "unignore_button": "無視をキャンセル"
+                "unignore_button": "ミュート解除"
             },
             "following": {
-                "meta_title_text": ""
+                "meta_title_text": "=> flarum-subscriptions.ref.following"
             },
             "index": {
-                "following_link": "フォロー中のスレッド"
+                "following_link": "=> flarum-subscriptions.ref.following"
             },
             "notifications": {
-                "new_post_text": "{username} フォローしているディスカッションに返信がきました"
+                "new_post_text": "{username} が投稿しました"
             },
             "settings": {
-                "follow_after_reply_label": "ディスカッションを自動的にフォローする",
-                "notify_new_post_label": "投稿への新しい返信"
+                "follow_after_reply_label": "返信したスレッドを自動的にフォローする",
+                "notify_new_post_label": "フォローしているスレッドに誰かが投稿した時"
             },
             "sub_controls": {
                 "follow_button": "=> flarum-subscriptions.ref.follow",
                 "following_button": "=> flarum-subscriptions.ref.following",
-                "following_text": "新しい返信を通知する",
+                "following_text": "すべての返信を通知する",
                 "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
-                "ignoring_text": "通知を受信せず、スレッドのリストから非表示にします。",
-                "not_following_button": "フォローしていません",
-                "not_following_text": "@メンションがあったときのみ通知する",
-                "notify_alert_tooltip": "新しい投稿がされたときに通知する",
-                "notify_email_tooltip": "新しい投稿がされたときにメールを送信する"
+                "ignoring_text": "通知を停止し、スレッド一覧に表示しない",
+                "not_following_button": "フォローしない",
+                "not_following_text": "@メンション された時のみ通知する",
+                "notify_alert_tooltip": "新しい投稿があった時にフォーラム内で通知する",
+                "notify_email_tooltip": "新しい投稿があった時にメールで通知する"
             }
         },
         "email": {
             "new_post": {
-                "subject": "",
-                "body": ""
+                "subject": "[新しい投稿] {title}",
+                "body": "{recipient_display_name}さん、こんにちは!\n{poster_display_name} さんが、あなたのフォローしているスレッドで投稿しました: {title}。\n内容を閲覧するには、以下のリンクを確認してください:\n{url}\n---\n{content}\n---\n\n最新の状態になっている間は、このスレッドに関する通知は送信されません。\n"
             }
         },
         "ref": {
             "follow": "フォロー",
             "following": "フォロー中",
-            "ignoring": "無視中"
+            "ignoring": "ミュート中"
         }
     }
 }

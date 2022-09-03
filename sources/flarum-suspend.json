@@ -37,6 +37,7 @@
             }
         },
         "email": {
+            "no_reason_given": "No reason was given for this suspension.",
             "suspended": {
                 "subject": "Your account has been suspended",
                 "body": "Hey {recipient_display_name},\n\nYou have been suspended for the following reason:\n\n---\n{suspension_message}\n---\n"

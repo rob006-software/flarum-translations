@@ -28,8 +28,7 @@
                 "use_alt_ui": "Mise en page alternative",
                 "use_alt_ui_help": "Contrôles de la meilleure réponse dans le pied de page du message",
                 "documentation": "Documentation",
-                "introduction": "Active quelles étiquettes doivent supporter les meilleures réponses dans l'extension <code><a>flarum/tags</a></code>, et, optionnellement, la ou les étiquettes qui doivent prendre en charge les rappels. Lorsqu'une étiquette est activée avec l'extension « Best Answer », cela attribue des autorisations à chaque groupe d'utilisateurs qui peut définir des réponses (dans sa propre discussion ou dans toute discussion). Les autorisations peuvent être attribuées globalement (pour toute étiquette activée avec l'extension « Best Answer »), ou sur une base par étiquette.\n",
-                "remind_tag_ids": "Pour restreindre les rappels à des étiquettes particulières, entrez les identifiants des étiquettes ici (séparés par des virgules)"
+                "introduction": "Active quelles étiquettes doivent supporter les meilleures réponses dans l'extension <code><a>flarum/tags</a></code>, et, optionnellement, la ou les étiquettes qui doivent prendre en charge les rappels. Lorsqu'une étiquette est activée avec l'extension « Best Answer », cela attribue des autorisations à chaque groupe d'utilisateurs qui peut définir des réponses (dans sa propre discussion ou dans toute discussion). Les autorisations peuvent être attribuées globalement (pour toute étiquette activée avec l'extension « Best Answer »), ou sur une base par étiquette.\n"
             },
             "edit_tag": {
                 "qna_label": "Permettre à l'extension « Best Answers » d'être paramétrée dans cette étiquette",
@@ -50,8 +49,9 @@
                 "content": "Veuillez sélectionner la meilleure réponse si une réponse a été apportée à votre question",
                 "awarded": "Votre message a été défini comme la meilleure réponse par {username}",
                 "preferences": {
-                    "awarded_best_answer": "Lorsque quelqu'un définit mon message comme meilleure réponse",
-                    "best_answer_in_discussion": "Lorsqu'une meilleure réponse est définie dans une discussion à laquelle j'ai participé"
+                    "awarded_best_answer": "Quelqu'un a indiqué mon message comme meilleure réponse",
+                    "best_answer_in_discussion": "Une meilleure réponse a été indiquée dans une discussion à laquelle j'ai participé",
+                    "select_best_answer": "Un rappel automatique pour sélectionner la meilleure réponse dans une discussion que j'ai démarrée"
                 }
             },
             "index": {
@@ -68,6 +68,9 @@
             },
             "composer": {
                 "titlePlaceholder": "Titre de la question"
+            },
+            "user": {
+                "best-answer-count": "{count, plural, one { {count} meilleure réponse} other {{count} meilleures réponses}}"
             }
         },
         "email": {
@@ -78,7 +81,7 @@
             },
             "body": {
                 "awarded": "Bonjour {recipient_display_name},\n\nBravo, {actor_display_name} vient de définir votre message comme la meilleure réponse pour la discussion : {discussion_title}. Merci pour votre aide.\n\nConsultez-le ici : {discussion_url}\n",
-                "ba-set": "Bonjour {recipient_display_name},\n\n{actor_display_name} vient de définir une meilleure réponse pour la discussion : {titre_discussion}, à laquelle tu as participé.\n\nConsultez-la : {discussion_url}\n",
+                "ba-set": "Bonjour {recipient_display_name},\n\n{actor_display_name} vient de définir une meilleure réponse pour la discussion : {discussion_title}, à laquelle vous avez participé.\n\nConsultez-la : {discussion_url}\n",
                 "select": "Bonjour {recipient_display_name},\n\nNous venons juste vérifier ; vous devriez avoir déjà reçu de nombreuses réponses à votre question : {discussion_title}. Nous espérons que l'une d'entre elles vous a aidé à résoudre votre problème.\n\nSi tel était le cas, il serait appréciable pour les futurs membres de définir une meilleure réponse à votre question. Cela aidera les personnes ayant le même problème à trouver la réponse dont elles ont besoin, et c'est aussi une forme de remerciement aux membres qui vous ont aidé. Ils donnent leur temps bénévolement, il est donc encouragé de les inciter à continuer.\n\nVisitez la discussion ici : {discussion_url}, et sélectionnez le message le plus approprié comme meilleure réponse.\n\nMerci !\n"
             }
         }

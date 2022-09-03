@@ -2,52 +2,52 @@
     "clarkwinkelmann-scratchpad": {
         "admin": {
             "settings": {
-                "title": "",
-                "single-column": "",
-                "theme": "",
-                "theme-auto": "",
-                "indent": "",
-                "npm-install-command": "",
-                "webpack-command": "",
-                "empty-for-default": "",
-                "validate-live": "",
-                "compile-automatically": ""
+                "title": "Firkapad beállításai",
+                "single-column": "Szerkesztők 3 helyett egyetlen oszlopba csoportosítása",
+                "theme": "CodeMirror-téma (újratöltés szükséges az érvénybe lépéshez)",
+                "theme-auto": "Automatikus (alapértelmezett a világos téma esetén, darcula a sötét téma esetén)",
+                "indent": "Behúzáshoz használt szóközök száma",
+                "npm-install-command": "NPM telepítési parancs",
+                "webpack-command": "Webpack-parancs",
+                "empty-for-default": "Hagyja üresen az alapértelmezett parancshoz",
+                "validate-live": "Kérés küldése a kezdőlapnak, hogy mentés előtt ellenőrizze a Less és PHP-kódot",
+                "compile-automatically": "JS automatikus összeállítása mentéskor"
             },
             "controls": {
-                "refresh": "",
-                "save": "",
-                "compile": "",
-                "settings": "",
-                "new": "",
-                "new-confirmation": "",
-                "delete": "",
-                "delete-confirmation": "",
-                "enable": "",
-                "disable": ""
+                "refresh": "Frissítés",
+                "save": "Mentés",
+                "compile": "JS összeállítása",
+                "settings": "Szerkesztő beállításai",
+                "new": "Új",
+                "new-confirmation": "A jelenlegi firkapad nincs mentve. Eldobja és létrehoz egy újat?",
+                "delete": "Törlés",
+                "delete-confirmation": "Törli: „{title}”?",
+                "enable": "Kattintson az engedélyezéshez",
+                "disable": "Kattintson a letiltáshoz"
             },
             "fields": {
-                "title": "",
-                "admin_js": "",
-                "forum_js": "",
-                "admin_less": "",
-                "forum_less": "",
-                "php": ""
+                "title": "Firkapad neve",
+                "admin_js": "Adminisztrátori JS",
+                "forum_js": "Fórum JS",
+                "admin_less": "Adminisztrátori Less",
+                "forum_less": "Fórum Less",
+                "php": "PHP"
             },
             "placeholders": {
-                "untitled": "",
-                "php-comment": "",
-                "js-log": ""
+                "untitled": "Névtelen",
+                "php-comment": "Bővítők regisztrálása itt",
+                "js-log": "Üdv, {frontend}!"
             },
             "compilation-alert": {
-                "success": "",
-                "failure": "",
-                "view-output": ""
+                "success": "Összeállítva.",
+                "failure": "Az összeállítás sikertelen.",
+                "view-output": "Kimenet megtekintése"
             },
             "compilation-modal": {
-                "title": "",
-                "webpack": "",
-                "npm": "",
-                "npm-not-run": ""
+                "title": "Összeállítás kimenete",
+                "webpack": "Webpack kimenete",
+                "npm": "NPM kimenete",
+                "npm-not-run": "Az NPM nem futott"
             }
         }
     }

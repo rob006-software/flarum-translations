@@ -33,7 +33,9 @@
                 "redirect_tags_label": "重定向博客标签",
                 "redirect_tags_text": "开启后，博客标签将重定向至分类目录页面。",
                 "default_article_image_label": "默认封面图",
-                "default_article_image_text": "设置默认使用的文章封面图。"
+                "default_article_image_text": "设置默认使用的文章封面图。",
+                "add_hero_label": "展示欢迎横幅",
+                "add_hero_text": "允许在博客页面展示首页的欢迎横幅。"
             }
         },
         "forum": {
@@ -98,6 +100,24 @@
                 "comment_section": "撰写文章时，评论区无法使用。",
                 "no_blog_tags_selected": "您选择的标签中没有一个是博客标签，请至少选择一个博客标签。",
                 "post_without_blog_info": "确定要发布这篇文章吗？您还没有输入博客摘要或上传封面图。"
+            },
+            "article_settings": {
+                "title": "博客文章设置",
+                "fields": {
+                    "summary": {
+                        "title": "摘要",
+                        "placeholder": "请输入摘要",
+                        "helper_text": "摘要用于 SEO，以及博客主页的预览。"
+                    },
+                    "image": {
+                        "title": "头图",
+                        "helper_text": "最佳分辨率 1200x630"
+                    },
+                    "highlight": {
+                        "title": "大图",
+                        "helper_text": "使用大尺寸图片展示本文章。"
+                    }
+                }
             }
         }
     }

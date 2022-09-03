@@ -5,6 +5,14 @@
                 "desc": "カスタム HTML メールテンプレート"
             },
             "settings": {
+                "attributes": {
+                    "body": "",
+                    "forumStyle": "",
+                    "url": "",
+                    "settings": "",
+                    "link": ""
+                },
+                "attributes_label": "",
                 "label": "メールテンプレート",
                 "reset": "デフォルトに戻す",
                 "confirm": "メールテンプレートを次のように復元しますか？",
@@ -14,7 +22,7 @@
                 "postMentioned": "Flarum/mentions 投稿に言及",
                 "notifications": "通知テンプレート",
                 "notificationHelp": "これらのメッセージには、 \"$forumStyle\"をお勧めします。BBCODE これらのメッセージは、 \"$user\" を使用して、受信者の完全なユーザープロファイルを参照できます。",
-                "help": "\"$body\" はメッセージ本文です。\"$forumStyle\" は<strong>すべてのフォーラム CSS</strong>。\"$baseUrl\" はフォーラムのURLです。\"$settings\" を使用すると、SettingsRepositoryInterfaceと対話できます。\"$link\" は、メッセージ内のリンクです。各テンプレートを確認して、変数の使用方法を学習します。"
+                "template_help": ""
             },
             "css_settings": {
                 "label": "CSS 設定",

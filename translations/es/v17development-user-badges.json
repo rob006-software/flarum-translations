@@ -8,10 +8,15 @@
             "update_category": "Actualizar la categoría",
             "edit_category": "Editar categoría",
             "nothing_here_yet": "Todavía no has creado ninguna insignia o categoría.",
+            "show_badges_on_user_card": "",
+            "number_of_badges_on_user_card": "",
+            "number_of_badges_on_user_card_help": "",
             "permissions": {
                 "badge_detail_users": "Puede ver los usuarios en la página de detalles de la insignia",
                 "give_badge": "Entregar insignia al usuario",
-                "take_badge": "Coger insignia del usuario"
+                "take_badge": "Coger insignia del usuario",
+                "edit_own_card_badges": "",
+                "edit_card_badges": ""
             },
             "confirm_dialog": {
                 "title": "Confirmar",
@@ -79,6 +84,7 @@
             "user_no_badges": "Este usuario aún no tiene ninguna insignia.",
             "no_received": "Ningún usuario ha obtenido esta insignia.",
             "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
+            "save_changes": "",
             "badge": {
                 "badge": "Insignia",
                 "badges": "Insignias",
@@ -92,7 +98,15 @@
                 "received_on": "Recibido el {date}",
                 "badge_details": "Detalles de la insignia",
                 "earned_count": "{count, plural, one {<b># usuario</b> ha obtenido esta insignia} other {<b># usuarios</b> han ganado esta insignia}}",
-                "earned_by_count": "{count, plural, one {Ganado por el <b># usuario</b>} other {Ganado por los <b># usuarios</b>}}"
+                "earned_by_count": "{count, plural, one {Ganado por el <b># usuario</b>} other {Ganado por los <b># usuarios</b>}}",
+                "others_link": ""
+            },
+            "badges_in_card": {
+                "title": "",
+                "manage_badges": "",
+                "description": "",
+                "select_limit": "",
+                "hit_limit": ""
             },
             "moderation": {
                 "remove_badge": "Quitar la insignia al usuario",

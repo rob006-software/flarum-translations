@@ -2,19 +2,20 @@
     "nearata-dsts": {
         "admin": {
             "permissions": {
-                "can_bypass_like": "",
-                "can_bypass_reply": ""
+                "can_bypass_like": "Kann liken umgehen",
+                "can_bypass_reply": "Kann antworten umgehen",
+                "can_bypass_login": ""
             },
             "settings": {
-                "require_like": "",
-                "require_like_help": "",
-                "require_reply": ""
+                "require_like": "Benötigt like",
+                "require_like_help": "Hinweis: Flarum Likes-Erweiterung erforderlich.",
+                "require_reply": "Antwort erforderlich"
             }
         },
         "forum": {
-            "like": "",
-            "login": "",
-            "reply": ""
+            "like": "Du musst den Beitrag liken, um den Inhalt zu sehen.",
+            "login": "Du musst dich anmelden, um den Inhalt zu sehen.",
+            "reply": "Du musst auf die Diskussion antworten, um den Inhalt anzuzeigen."
         }
     }
 }

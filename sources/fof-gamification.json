@@ -27,8 +27,11 @@
                 }
             },
             "user": {
-                "points": "Points: {points}",
-                "rank": "{rank}"
+                "card": {
+                    "points": "{count, plural, one { {count} point} other {{count} points}}"
+                },
+                "rank": "{rank}",
+                "votes_link": "Votes"
             },
             "modal": {
                 "downvotes_label": "Downvoters:",
@@ -51,7 +54,9 @@
                 "vote_label": "Upvote/Downvote posts",
                 "see_votes_label": "See up/down vote count",
                 "see_voters_label": "See who voted",
-                "see_ranking_page": "See ranking page"
+                "see_ranking_page": "See ranking page",
+                "upvote_notifications": "Receive notifications on upvote",
+                "downvote_notifications": "Receive notifications on downvote"
             },
             "page": {
                 "rankings": {

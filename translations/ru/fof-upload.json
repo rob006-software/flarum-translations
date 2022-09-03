@@ -15,6 +15,7 @@
                 "watermark": "Водяной знак будет добавляться к загружаемым изображениям (кроме GIF).\n",
                 "s3_compatible_storage": "Следующие настройки требуются только при использовании хранилища, совместимого с S3. Если Вы используете AWS, оставьте поля пустыми.\n",
                 "s3_acl": "Список контроля доступа (ACL), который будет применяться к загружаемому файлу (по умолчанию: private). Возможные значения смотрите на странице https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_instance_profile": "",
                 "composer_buttons": "По умолчанию отображаются кнопки менеджера файлов и загрузки. Вы можете выбрать отображение одной из кнопок.\n"
             },
             "labels": {
@@ -39,7 +40,8 @@
                 },
                 "imgur": {
                     "client_id": "ID клиента Imgur",
-                    "title": "Настройки хранилища Imgur"
+                    "title": "Настройки хранилища Imgur",
+                    "tos": ""
                 },
                 "local": {
                     "cdn_url": "URL сети доставки контента (CDN / префиксы файлов)",
@@ -78,7 +80,8 @@
                         "upload-btn": "Загрузка файлов",
                         "media-btn": "Менеджер файлов"
                     }
-                }
+                },
+                "inspect-mime": ""
             },
             "permissions": {
                 "download_label": "Скачивать файлы",
@@ -99,8 +102,8 @@
                 "bbcode-image_description": "Отображение полного изображения в строке с использованием синтаксиса BBCode. <strong>Для работы этого шаблона, у Вас должно быть установлено и включено расширение flarum/bbcode.</strong> Отсутствуют: функция скачивания, сбор статистики и hotlink-защита.\n",
                 "just-url": "Только URL",
                 "just-url_description": "В сообщение вставляется только ссылка. Рендеринг шаблона может осуществляться другими расширениями. Отсутствуют: функция скачивания, сбор статистики и hotlink-защита.\n",
-                "text-preview": "",
-                "text-preview_description": ""
+                "text-preview": "Предпросмотр текста",
+                "text-preview_description": "Добавляет предпросмотр (первые 5 строк) текстового файла, с опцией отображения всего содержания файла.\n"
             },
             "upload_methods": {
                 "aws-s3": "S3/Compatible",
@@ -108,6 +111,19 @@
                 "local": "Локально",
                 "ovh-svfs": "OVH SVFS",
                 "qiniu": "QiNiu"
+            },
+            "inspect-mime": {
+                "title": "",
+                "description": "",
+                "select": "",
+                "laravel-validation": "",
+                "no-file-selected": "",
+                "validation-passed": "",
+                "validation-failed": "",
+                "mime-detector": "",
+                "mime-fileinfo": "",
+                "guessed-extension": "",
+                "not-available": ""
             }
         },
         "forum": {
@@ -145,11 +161,11 @@
                 "max_size": "Файлы, размером более {max} КБ, запрещены."
             },
             "text_preview": {
-                "expand": "",
-                "collapse": "",
-                "error": "",
-                "no_snippet_preview": "",
-                "no_snippet": ""
+                "expand": "Расширить предпросмотр",
+                "collapse": "Схлопнуть предпросмотр",
+                "error": "Ошибка предпросмотра файла. Файл мог быть удалён или его идентификатор недействителен.\n",
+                "no_snippet_preview": "<после отправки сообщения здесь появится предпросмотр содержания>",
+                "no_snippet": "<Предпросмотр фрагмента недоступен>"
             }
         },
         "api": {

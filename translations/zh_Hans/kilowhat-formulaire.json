@@ -62,6 +62,7 @@
                     "title": "标题",
                     "accept-submissions": "开启",
                     "allow-modification": "修改",
+                    "enabled": "",
                     "submissions": "提交结果",
                     "actions": "动作"
                 }
@@ -108,7 +109,9 @@
                     "closed": "已关闭",
                     "create": "仅创建",
                     "edit": "仅编辑",
-                    "both": "创建和编辑"
+                    "both": "创建和编辑",
+                    "enabled": "",
+                    "disabled": ""
                 },
                 "controls": "控制器",
                 "template-export": "模板导入/导出",
@@ -146,6 +149,7 @@
                     "automatic-discussion-help": "启用后，该表单仍像独立表单一样可访问。提交的内容将自动创建并连接新主题帖。\n",
                     "accept-submissions": "接受新的提交结果",
                     "allow-modification": "允许用户编辑他们已提交的结果",
+                    "enable": "",
                     "max-submissions": "最多提交量（留空表示不限制）",
                     "send-confirmation-to-participants": "向参与者发送确认邮件",
                     "notify-emails": "将数据副本发送至以下以逗号分隔的电子邮箱中",
@@ -346,6 +350,10 @@
                     "boolean-true": "",
                     "boolean-false": ""
                 }
+            },
+            "discussion-submission": {
+                "empty": "",
+                "edit": ""
             }
         },
         "api": {

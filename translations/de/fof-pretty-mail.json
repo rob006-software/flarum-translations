@@ -5,6 +5,14 @@
                 "desc": "Passe Deine HTML-E-Mail-Vorlagen an."
             },
             "settings": {
+                "attributes": {
+                    "body": "Enthält den eigentlichen Inhalt der E-Mail",
+                    "forumStyle": "Enthält das <strong>gesamte Forum CSS</strong>",
+                    "url": "Flarum's <code>UrlGenerator</code>",
+                    "settings": "Ermöglicht die Interaktion mit dem SettingsRepositoryInterface",
+                    "link": "Enthält den Link in der E-Mail"
+                },
+                "attributes_label": "Verfügbare Attribute",
                 "label": "E-Mail-Vorlagen",
                 "reset": "Auf Standard zurücksetzen",
                 "confirm": "Möchtest Du wirklich zur Standard-E-Mail-Vorlage für zurückkehren",
@@ -13,7 +21,8 @@
                 "userMentioned": "Flarum/mentions Vom Benutzer erwähnte E-Mail",
                 "postMentioned": "Flarum/mentions Erwähnte E-Mail schreiben",
                 "notifications": "Benachrichtigungsvorlagen",
-                "notificationHelp": "Es wird empfohlen, für diese E-Mails '$forumStyle' zu verwenden, da sie BBCODE enthalten können. Für diese E-Mails ist auch '$user' verfügbar, das das gesamte Benutzermodell des Benutzers enthält, der per E-Mail gesendet wird.",
+                "notificationHelp": "Es wird empfohlen, für diese E-Mails '$forumStyle' zu verwenden, da sie BBCODE enthalten können. Für diese E-Mails ist auch '$user' verfügbar, welches das gesamte Benutzermodell des Benutzers enthält, das per E-Mail gesendet wird.",
+                "template_help": "Jede Vorlage ansehen, um zu erfahren, wie Du jedes Attribut verwendest.",
                 "help": "'$body' enthält den eigentlichen Inhalt der E-Mail, '$forumStyle' enthält das <strong>entire Forum CSS</strong>, '$url' ist Flarums UrlGenerator, '$settings' ermöglicht die Interaktion mit dem SettingsRepositoryInterface und '$link' enthält den Link in der E-Mail. Sehen Sie sich jede Vorlage an, um zu erfahren, wie Sie jede Variable verwenden."
             },
             "css_settings": {

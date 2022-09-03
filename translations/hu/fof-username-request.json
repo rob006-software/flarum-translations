@@ -2,98 +2,98 @@
     "fof-username-request": {
         "admin": {
             "permissions": {
-                "moderate_requests": "",
-                "request_nickname": "",
-                "request_username": ""
+                "moderate_requests": "Felhasználónév- vagy becenév-módosítási kérések jóváhagyása",
+                "request_nickname": "Becenév-módosítás kérése",
+                "request_username": "Felhasználónév-módosítás kérése"
             }
         },
         "forum": {
             "nickname_modals": {
                 "action": {
-                    "title": "",
-                    "help_text": "",
-                    "decision_title": "",
-                    "approval_label": "",
-                    "rejected_label": "",
-                    "submit_button": "",
-                    "reason_title": "",
-                    "success": "",
-                    "name": ""
+                    "title": "=> fof-username-request.ref.nickname_change_request",
+                    "help_text": "Győződjön meg róla, hogy a kért becenév-módosítás követi a fórum irányelveit.",
+                    "decision_title": "Döntés",
+                    "approval_label": "Jóváhagyás",
+                    "rejected_label": "Elutasítás",
+                    "submit_button": "Elküldés",
+                    "reason_title": "Elutasítás oka",
+                    "success": "Döntés elküldve.",
+                    "name": "{name} a beceneve következőre módosítását kérte: „{requestedName}”"
                 },
                 "results": {
-                    "title": "",
-                    "approved": "",
-                    "dismiss_button": "",
-                    "new_name": "",
-                    "rejected": "",
-                    "reason": "",
-                    "resubmit": ""
+                    "title": "Becenév-módosítási kérés",
+                    "approved": "A becenév-módosítási kérését jóváhagyták",
+                    "dismiss_button": "=> core.ref.okay",
+                    "new_name": "A beceneve sikeresen megváltozott a következőre: {name}",
+                    "rejected": "A becenév-módosítási kérését elutasították",
+                    "reason": "Az elutasítás oka: <i>„{reason}”</i>.",
+                    "resubmit": "Most újból elküldheti a becenév-módosítási kérését a fiókbeállításaiból, ha így döntene."
                 },
                 "request": {
-                    "title": "",
-                    "current_request": "",
-                    "submit_button": "",
-                    "delete_button": "",
-                    "confirmation_message": "",
-                    "dismiss_button": "",
-                    "deleted": ""
+                    "title": "Becenév-módosítás kérése",
+                    "current_request": "Már kérte a beceneve következőre módosítását: „{name}”. Frissítheti a kérését, vagy törölheti azt.",
+                    "submit_button": "Kérés elküldése",
+                    "delete_button": "Kérés törlés",
+                    "confirmation_message": "A becenév-módosítási kérése módosítását elküldte, és jóváhagyásra vár.",
+                    "dismiss_button": "=> core.ref.okay",
+                    "deleted": "Becenévkérés törölve."
                 }
             },
             "username_modals": {
                 "action": {
-                    "title": "",
-                    "help_text": "",
-                    "decision_title": "",
-                    "approval_label": "",
-                    "rejected_label": "",
-                    "submit_button": "",
-                    "reason_title": "",
-                    "success": "",
-                    "name": ""
+                    "title": "=> fof-username-request.ref.username_change_request",
+                    "help_text": "Győződjön meg róla, hogy a kért felhasználónév-módosítás követi a fórum irányelveit.",
+                    "decision_title": "Döntés",
+                    "approval_label": "Jóváhagyás",
+                    "rejected_label": "Elutasítás",
+                    "submit_button": "Elküldés",
+                    "reason_title": "Elutasítás oka",
+                    "success": "Döntés elküldve.",
+                    "name": "{name} a felhasználóneve következőre módosítását kérte: „{requestedName}”"
                 },
                 "results": {
-                    "title": "",
-                    "approved": "",
-                    "dismiss_button": "",
-                    "new_name": "",
-                    "rejected": "",
-                    "reason": "",
-                    "resubmit": ""
+                    "title": "Felhasználónév-módosítás kérése",
+                    "approved": "A felhasználónév-módosítási kérését jóváhagyták",
+                    "dismiss_button": "=> core.ref.okay",
+                    "new_name": "A felhasználóneve sikeresen megváltozott a következőre: {name}",
+                    "rejected": "A felhasználónév-módosítási kérését elutasították",
+                    "reason": "Az elutasítás oka: <i>„{reason}”</i>.",
+                    "resubmit": "Most újból elküldheti a felhasználónév-módosítási kérését a fiókbeállításaiból, ha így döntene."
                 },
                 "request": {
-                    "title": "",
-                    "current_request": "",
-                    "submit_button": "",
-                    "delete_button": "",
-                    "confirmation_message": "",
-                    "dismiss_button": "",
-                    "deleted": ""
+                    "title": "Felhasználónév-módosítás kérése",
+                    "current_request": "Már kérte a felhasználóneve következőre módosítását: „{name}”. Frissítheti a kérését, vagy törölheti azt.",
+                    "submit_button": "Kérés elküldése",
+                    "delete_button": "Kérés törlés",
+                    "confirmation_message": "A felhasználónév-módosítási kérése módosítását elküldte, és jóváhagyásra vár.",
+                    "dismiss_button": "=> core.ref.okay",
+                    "deleted": "Felhasználónév-kérés törölve."
                 }
             },
             "pending_requests": {
-                "empty_text": "",
-                "nickname_item_text": "",
-                "nickname_exerpt": "",
-                "tooltip": "",
-                "title": "",
-                "username_item_text": "",
-                "username_exerpt": ""
+                "empty_text": "Nem található névmódosítási kérés.",
+                "nickname_item_text": "{name} becenév-módosítást kért",
+                "nickname_exerpt": "Kért becenév: {requestedName}",
+                "tooltip": "=> fof-username-request.ref.name_change_requests",
+                "title": "=> fof-username-request.ref.name_change_requests",
+                "username_item_text": "{name} felhasználónév-módosítást kért",
+                "username_exerpt": "Kért felhasználónév: {requestedName}"
             },
             "settings": {
-                "nickname_request_button": "",
-                "username_request_button": ""
+                "nickname_request_button": "Becenév módosítása",
+                "username_request_button": "Felhasználóév módosítása"
             },
             "user": {
-                "name_history_link": ""
+                "name_history_link": "Névelőzmények"
             }
         },
         "ref": {
-            "name_change_request": "",
-            "name_change_requests": "",
-            "nickname_change_request": "",
-            "nickname_change_requests": "",
-            "username_change_request": "",
-            "username_change_requests": ""
+            "name_change_request": "Névmódosítási kérés",
+            "name_change_requests": "Névmódosítási kérések",
+            "nickname_change_request": "Becenév-módosítási kérés",
+            "nickname_change_requests": "Becenév-módosítási kérések",
+            "username_change_request": "Felhasználónév-módosítási kérés",
+            "username_change_requests": "Felhasználónév-módosítási kérések"
         }
     }
 }

@@ -2,125 +2,128 @@
     "kilowhat-formulaire": {
         "admin": {
             "permissions": {
-                "heading": "",
-                "heading-advanced": "",
-                "fill": "",
-                "seeOwnUser": "",
-                "seeAnyUser": "",
-                "editOwnUser": "",
-                "editAnyUser": "",
-                "seeOwnDiscussion": "",
-                "seeAnyDiscussion": "",
-                "editOwnDiscussion": "",
-                "editAnyDiscussion": "",
-                "create": "",
-                "moderate": "",
-                "export": "",
-                "exportUserDetails": "",
-                "listForms": "",
-                "listSubmissions": ""
+                "heading": "Formuláre",
+                "heading-advanced": "Formuláre (nastavenia doplnkov tretích strán)",
+                "fill": "=> kilowhat-formulaire.ref.permissions.fill",
+                "seeOwnUser": "=> kilowhat-formulaire.ref.permissions.seeOwnUser",
+                "seeAnyUser": "=> kilowhat-formulaire.ref.permissions.seeAnyUser",
+                "editOwnUser": "=> kilowhat-formulaire.ref.permissions.editOwnUser",
+                "editAnyUser": "=> kilowhat-formulaire.ref.permissions.editAnyUser",
+                "seeOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion",
+                "seeAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.seeAnyDiscussion",
+                "editOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.editOwnDiscussion",
+                "editAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.editAnyDiscussion",
+                "create": "Vytvárať formuláre (beta)",
+                "moderate": "Spravovať všetky formuláre",
+                "export": "Exportovať odpovede",
+                "exportUserDetails": "Prístup k osobným údajom používateľov v exportoch",
+                "listForms": "Zobraziť zoznam formulárov ktoré nie sú zmazané",
+                "listSubmissions": "Zobraziť zoznam odpovedí"
             },
             "settings": {
-                "title": "",
-                "max-file-size": "",
-                "history-controls": "",
-                "side-nav-on-submission": "",
-                "checkbox-style": "",
-                "radio-style": "",
+                "title": "Globálne nastavenia formulára",
+                "max-file-size": "Maximálna veľkosť súboru (kB)",
+                "history-controls": "Zobraziť krok späť/vpred na stránke formuláru",
+                "side-nav-on-submission": "Zobraziť bočný navigačný panel na stránke formuláru",
+                "checkbox-style": "Štýl zaškrtávacieho políčka",
+                "radio-style": "Štýl tlačidiel výberu",
                 "style-options": {
-                    "far-square": "",
-                    "fas-square": "",
-                    "far-circle": "",
-                    "fas-circle": "",
-                    "switch": "",
-                    "native": ""
+                    "far-square": "FontAwesome Regular Square Ikona",
+                    "fas-square": "FontAwesome Solid Square Ikona",
+                    "far-circle": "FontAwesome Regular Circle Ikona",
+                    "fas-circle": "FontAwesome Solid Circle Ikona",
+                    "switch": "Flarum prepínač",
+                    "native": "Vstavané ovládanie internetového prehliadača"
                 }
             }
         },
         "forum": {
             "nav": {
-                "forms": ""
+                "forms": "=> kilowhat-formulaire.ref.manager"
             },
             "form-index": {
                 "header": {
-                    "title": "",
-                    "documentation": "",
-                    "discuss": ""
+                    "title": "=> kilowhat-formulaire.ref.manager",
+                    "documentation": "Úplná online dokumentácia",
+                    "discuss": "Diskusia na Flarum Discuss"
                 },
                 "tabs": {
-                    "standalone": "",
-                    "discussion": "",
-                    "user": ""
+                    "standalone": "=> kilowhat-formulaire.ref.type.standalone",
+                    "discussion": "=> kilowhat-formulaire.ref.type.discussion",
+                    "user": "=> kilowhat-formulaire.ref.type.user"
                 },
-                "empty": "",
-                "load-more": "",
-                "new": "",
-                "edit": "",
-                "show": "",
-                "submissions": "",
+                "empty": "Žiadne formuláre",
+                "load-more": "Načítať viac",
+                "new": "Nový formulár",
+                "edit": "Upraviť",
+                "show": "Zobraziť",
+                "submissions": "Odpovede",
                 "columns": {
-                    "title": "",
-                    "accept-submissions": "",
-                    "allow-modification": "",
-                    "submissions": "",
-                    "actions": ""
+                    "title": "Titulok",
+                    "accept-submissions": "Otvoriť",
+                    "allow-modification": "Úprava",
+                    "enabled": "Povolené",
+                    "submissions": "Odpovede",
+                    "actions": "Akcie"
                 }
             },
             "global-settings": {
-                "title": "",
-                "admin-only": "",
+                "title": "Globálne povolenia",
+                "admin-only": "Iba administrátori fóra môžu upravovať globálne nastavenia",
                 "permissions": {
-                    "fill": "",
-                    "seeOwnUser": "",
-                    "seeAnyUser": "",
-                    "editOwnUser": "",
-                    "editAnyUser": "",
-                    "seeOwnDiscussion": "",
-                    "seeAnyDiscussion": "",
-                    "editOwnDiscussion": "",
-                    "editAnyDiscussion": ""
+                    "fill": "=> kilowhat-formulaire.ref.permissions.fill",
+                    "seeOwnUser": "=> kilowhat-formulaire.ref.permissions.seeOwnUser",
+                    "seeAnyUser": "=> kilowhat-formulaire.ref.permissions.seeAnyUser",
+                    "editOwnUser": "=> kilowhat-formulaire.ref.permissions.editOwnUser",
+                    "editAnyUser": "=> kilowhat-formulaire.ref.permissions.editAnyUser",
+                    "seeOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion",
+                    "seeAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.seeAnyDiscussion",
+                    "editOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.editOwnDiscussion",
+                    "editAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.editAnyDiscussion"
                 }
             },
             "form-create": {
-                "title": "",
+                "title": "Nový formulár",
                 "field": {
-                    "title": ""
+                    "title": "Titulok"
                 },
                 "button": {
-                    "create": ""
+                    "create": "Vytvoriť formulár"
                 }
             },
             "form-edit-header": {
-                "back": "",
+                "back": "Späť",
                 "category": {
-                    "standalone": "",
-                    "discussion": "",
-                    "user": ""
+                    "standalone": "=> kilowhat-formulaire.ref.type.standalone",
+                    "discussion": "=> kilowhat-formulaire.ref.type.discussion",
+                    "user": "=> kilowhat-formulaire.ref.type.user"
                 },
                 "tabs": {
-                    "template": "",
-                    "placement": "",
-                    "access": "",
-                    "notifications": "",
-                    "submissions": ""
+                    "template": "Šablóna",
+                    "placement": "Umiestnenie",
+                    "access": "Prístup",
+                    "notifications": "Upozornenia",
+                    "submissions": "Odpovede"
                 },
                 "access-status": {
-                    "closed": "",
-                    "create": "",
-                    "edit": "",
-                    "both": ""
+                    "closed": "Uzavreté",
+                    "create": "Iba vytvoriť",
+                    "edit": "Iba upraviť",
+                    "both": "Vytvoriť a upraviť",
+                    "enabled": "Povolené",
+                    "disabled": "Náčrt"
                 },
-                "controls": "",
-                "template-export": "",
-                "enable-expert-mode": "",
-                "disable-expert-mode": "",
-                "restore": "",
-                "hide": "",
-                "delete": "",
-                "delete-confirmation": "",
+                "controls": "Ovládanie",
+                "template-export": "Import/export šablóny",
+                "enable-expert-mode": "Povoliť režim experta",
+                "disable-expert-mode": "Zakázať režim experta",
+                "restore": "Obnoviť",
+                "hide": "Zmazať",
+                "delete": "Zmazať navždy",
+                "delete-confirmation": "Formulár \"{title}\" bude navždy odstránený",
                 "fields": {
-                    "private-title": "",
-                    "slug": ""
+                    "private-title": "Súkromný titulok",
+                    "slug": "Vlastný identifikátor URL adresy (volitelné)"
                 }
             },
             "form-edit": {
@@ -146,6 +149,7 @@
                     "automatic-discussion-help": "",
                     "accept-submissions": "",
                     "allow-modification": "",
+                    "enable": "",
                     "max-submissions": "",
                     "send-confirmation-to-participants": "",
                     "notify-emails": "",
@@ -346,6 +350,10 @@
                     "boolean-true": "",
                     "boolean-false": ""
                 }
+            },
+            "discussion-submission": {
+                "empty": "",
+                "edit": ""
             }
         },
         "api": {

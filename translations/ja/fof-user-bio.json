@@ -2,17 +2,17 @@
     "fof-user-bio": {
         "admin": {
             "permission": {
-                "view": "",
-                "editOwn": "",
-                "editAny": ""
+                "view": "ステータスメッセージの閲覧",
+                "editOwn": "自身のステータスメッセージの編集",
+                "editAny": "全員のステータスメッセージの編集"
             },
             "setting": {
-                "bioLimit": ""
+                "bioLimit": "ステータスメッセージの文字制限"
             }
         },
         "forum": {
-            "userbioPlaceholder": "",
-            "userbioPlaceholderOtherUser": ""
+            "userbioPlaceholder": "ステータスメッセージを入力出来ます",
+            "userbioPlaceholderOtherUser": "{username} さんのステータスメッセージを入力"
         }
     }
 }

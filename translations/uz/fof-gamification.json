@@ -27,8 +27,12 @@
                 }
             },
             "user": {
-                "points": "Ballar: {ball}",
-                "rank": "{rank}"
+                "card": {
+                    "points": ""
+                },
+                "rank": "{rank}",
+                "votes_link": "",
+                "points": "Ballar: {ball}"
             },
             "modal": {
                 "downvotes_label": "",
@@ -51,7 +55,9 @@
                 "vote_label": "Postlarga ijobiy/salbiy ovoz berisih",
                 "see_votes_label": "ijobiy/salbiy ovozlar sonini ko'rish",
                 "see_voters_label": "Kim ovoz berganini ko'rish",
-                "see_ranking_page": "Reyting sahifasiga qarang"
+                "see_ranking_page": "Reyting sahifasiga qarang",
+                "upvote_notifications": "",
+                "downvote_notifications": ""
             },
             "page": {
                 "rankings": {

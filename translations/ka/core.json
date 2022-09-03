@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "",
-                "confirm_uninstall": "ინსტალაციით წაიშლება მონაცემთა ბაზის ყველა ჩანაწერი და აქტივები, რომლებიც დაკავშირებულია გაფართოებასთან. დარწმუნებული ხართ, რომ გსურთ გაგრძელება?",
+                "confirm_purge": "",
                 "disabled": "გამორთული",
                 "enable_to_see": "ჩართეთ გაფართოება, რომ ნახოთ და შეცვალოთ პარამეტრები.",
                 "enabled": "ჩართული",
@@ -116,14 +116,14 @@
                 "no_settings": "ამ გაფართოებას არ აქვს პარამეტრები.",
                 "open_modal": "პარამეტრების გახსნა",
                 "permissions_title": "უფლებები",
-                "uninstall_button": "წაშლა",
-                "confirm_purge": "",
                 "purge_button": "",
                 "readme": {
                     "button_label": "",
                     "no_readme": "",
                     "title": ""
-                }
+                },
+                "confirm_uninstall": "ინსტალაციით წაიშლება მონაცემთა ბაზის ყველა ჩანაწერი და აქტივები, რომლებიც დაკავშირებულია გაფართოებასთან. დარწმუნებული ხართ, რომ გსურთ გაგრძელება?",
+                "uninstall_button": "წაშლა"
             },
             "header": {
                 "get_help": "დახმარების მიღება",
@@ -303,11 +303,11 @@
             "discussion_list": {
                 "empty_text": "როგორც ჩანს, აქ არანაირი დისკუსია არ არის.",
                 "load_more_button": "",
-                "mark_as_read_tooltip": "წაკითხულად მონიშვნა",
                 "replied_text": "{username} უპასუხა {ago}",
                 "started_text": "{username} დაიწყო {ago}",
                 "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": ""
+                "unread_replies_a11y_label": "",
+                "mark_as_read_tooltip": "წაკითხულად მონიშვნა"
             },
             "forgot_password": {
                 "dismiss_button": "",
@@ -459,6 +459,10 @@
             }
         },
         "lib": {
+            "debug_button": "",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
             "badge": {
                 "hidden_tooltip": "დამალული"
             },
@@ -481,6 +485,7 @@
             },
             "error": {
                 "dependent_extensions_message": "შეუძლებელია {extension} გამორთვა სანამ არ მოხდება შემდეგი დამოკიდებული გაფართოებების გამორთვა: {extensions}",
+                "extension_initialiation_failed_message": "",
                 "generic_message": "უი! Რაღაც არასწორად წავიდა. გთხოვთ, გადატვირთოთ გვერდი და ისევ სცადოთ.",
                 "missing_dependencies_message": "შეუძელებლია {extension} გაფართოების ჩართვა, სანამ შემდეგი გაფართოებები ჩართულია: {extensions}",
                 "not_found_message": "მოთხოვნილი რესურსი ვერ მოიძებნა.",
@@ -491,6 +496,16 @@
             },
             "loading_indicator": {
                 "accessible_label": ""
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": ""
+            },
+            "nav": {
+                "drawer_button": ""
             },
             "number_suffix": {
                 "kilo_text": "კ",
@@ -503,20 +518,6 @@
             },
             "username": {
                 "deleted_text": "[წაშლილია]"
-            },
-            "debug_button": "",
-            "alert": {
-                "dismiss_a11y_label": ""
-            },
-            "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
-            },
-            "modal": {
-                "close": ""
-            },
-            "nav": {
-                "drawer_button": ""
             }
         },
         "views": {

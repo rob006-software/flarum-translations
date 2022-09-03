@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "Configure Scopes",
-                "confirm_uninstall": "При удалении будут удалены все записи базы данных и ресурсы, связанные с расширением. Вы уверены, что хотите продолжить?",
+                "confirm_purge": "Это действие удалит записи в базе данных и ресурсы, связанные с расширением; расширение полностью не удаляется. Полное удаление расширения должно быть выполнено при помощи Composer. Вы уверены, что хотите продолжить?",
                 "disabled": "Отключено",
                 "enable_to_see": "Включите расширение для отображения и изменения его настроек.",
                 "enabled": "Включено",
@@ -116,14 +116,14 @@
                 "no_settings": "Расширение не имеет настроек.",
                 "open_modal": "Открыть настройки",
                 "permissions_title": "Разрешения",
-                "uninstall_button": "Удалить",
-                "confirm_purge": "Это действие удалит записи в базе данных и ресурсы, связанные с расширением; расширение полностью не удаляется. Полное удаление расширения должно быть выполнено при помощи Composer. Вы уверены, что хотите продолжить?",
                 "purge_button": "Удалить",
                 "readme": {
                     "button_label": "README",
                     "no_readme": "Расширение не имеет файл README",
                     "title": "Документация {extName}"
-                }
+                },
+                "confirm_uninstall": "При удалении будут удалены все записи базы данных и ресурсы, связанные с расширением. Вы уверены, что хотите продолжить?",
+                "uninstall_button": "Удалить"
             },
             "header": {
                 "get_help": "Помощь",
@@ -186,7 +186,7 @@
                 "view_forum_label": "Смотреть форум (дискуссий и пользователей)",
                 "view_hidden_groups_label": "Смотреть скрытые группы",
                 "view_last_seen_at_label": "Смотреть время последнего посещения",
-                "view_post_ips_label": "Смотреть IP"
+                "view_post_ips_label": "Смотреть IP адреса"
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Неограниченно",
@@ -303,11 +303,11 @@
             "discussion_list": {
                 "empty_text": "Кажется, здесь нет дискуссий.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "Отметить как прочитанное",
                 "replied_text": "{username} ответил(а) {ago}",
                 "started_text": "{username} создал(а) {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# ответ} other {# ответов}}",
-                "unread_replies_a11y_label": "{count, plural, one {# непрочитанный ответ} other {# непрочитанных ответов}}. Отметить {count, plural, one {ответ} other {ответов}} как прочитано."
+                "unread_replies_a11y_label": "{count, plural, one {# непрочитанный ответ} other {# непрочитанных ответов}}. Отметить {count, plural, one {ответ} other {ответов}} как прочитано.",
+                "mark_as_read_tooltip": "Отметить как прочитанное"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -459,6 +459,10 @@
             }
         },
         "lib": {
+            "debug_button": "Отладка",
+            "alert": {
+                "dismiss_a11y_label": "Закрыть"
+            },
             "badge": {
                 "hidden_tooltip": "Скрыто"
             },
@@ -481,6 +485,7 @@
             },
             "error": {
                 "dependent_extensions_message": "Невозможно отключить {extension}, пока не будут отключены следующие зависимые расширения: {extensions}",
+                "extension_initialiation_failed_message": "{extension} не удалось инициализировать. Проверьте консоль браузера для получения дополнительной информации.",
                 "generic_message": "Упс! Что-то пошло не так. Пожалуйста, обновите страницу и попробуйте ещё раз.",
                 "missing_dependencies_message": "Невозможно включить {extension}, пока не будут включены следующие зависимые расширения: {extensions}",
                 "not_found_message": "Запрашиваемый ресурс не найден.",
@@ -491,6 +496,16 @@
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Страница # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Страница # - {forumName}}}"
+            },
+            "modal": {
+                "close": "Закрыть"
+            },
+            "nav": {
+                "drawer_button": "Открыть панель навигации"
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -503,20 +518,6 @@
             },
             "username": {
                 "deleted_text": "[удалено]"
-            },
-            "debug_button": "Отладка",
-            "alert": {
-                "dismiss_a11y_label": ""
-            },
-            "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
-            },
-            "modal": {
-                "close": "Закрыть"
-            },
-            "nav": {
-                "drawer_button": "Открыть панель навигации"
             }
         },
         "views": {
@@ -581,7 +582,7 @@
             }
         },
         "api": {
-            "invalid_username_message": "Имя пользователя может содержать только буквы, цифры и тире."
+            "invalid_username_message": "Имя пользователя может содержать только латинские буквы, цифры и тире."
         },
         "email": {
             "activate_account": {

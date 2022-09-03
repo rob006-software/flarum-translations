@@ -1,0 +1,181 @@
+{
+    "kilowhat-rich-embeds": {
+        "admin": {
+            "settings": {
+                "layout": "Bố cục",
+                "layoutOptions": {
+                    "inline": "1 dòng",
+                    "block": "Khối",
+                    "separated": "Phân cách"
+                },
+                "position": "Vị trí",
+                "positionOptions": {
+                    "replace": "Thay thế liên kết",
+                    "above": "Liên kết ở trên",
+                    "below": "Liên kết bên dưới"
+                },
+                "style": "Kiểu",
+                "styleOptions": {
+                    "vertical": "Chiều dọc",
+                    "horizontal": "Chiều ngang"
+                },
+                "imageProxy": "Proxy ảnh OpenGraph",
+                "imageProxyHelp": "Tất cả hình ảnh OpenGraph và favicon sẽ được proxy thông qua Flarum thay vì trình duyệt của khách",
+                "cacheProxy": "Cache ảnh proxy",
+                "cacheProxyHelp": "Hình ảnh sẽ được cache vào bộ nhớ thông qua headers HTTP của họ",
+                "withoutOpengraph": "Tạo rich embed cho các trang ngoại trừ dữ liệu OpenGraph",
+                "withoutOpengraphHelp": "Tiêu đề, mô tả và ảnh sẽ được quét khỏi trang HTML",
+                "blacklist": "Danh sách đen URL",
+                "blacklistHelp": "Kiểm tra tài liệu để biết định dạng. Các URL này sẽ không bao giờ có nhiều nhúng và không thể được ủy quyền thông qua proxy hình ảnh",
+                "whitelist": "Danh sách trắng URL",
+                "whitelistHelp": "Kiểm tra tài liệu để biết định dạng. Nếu một giá trị được đặt, tất cả các URL khác sẽ được coi là danh sách đen",
+                "imageEmbeds": "Rich Embeds cho Ảnh",
+                "imageEmbedsHelp": "Tính năng này truy xuất và hiển thị thông tin bổ sung về hình ảnh bên ngoài được chèn trong bài đăng bằng mã bbcode hoặc dấu xuống. Tại thời điểm này, nó sử dụng lại cùng một danh sách đen / danh sách trắng và các quyền như các liên kết phong phú. Những hình ảnh này không được hỗ trợ thông qua proxy hình ảnh OpenGraph. Bạn phải xóa bộ đệm Flarum sau khi thay đổi cài đặt này.\n",
+                "flarumApiPreviews": "Bật bản xem trước Flarum nâng cao",
+                "flarumApiPreviewsHelp": "Tính năng này phân tích cú pháp dữ liệu JSON bổ sung đã được bao gồm trong HTML bởi tất cả các diễn đàn do Flarum cung cấp. Nó sẽ hoạt động với bất kỳ diễn đàn nào chạy Flarum 1.4+ và quảng cáo header Flarum<code>X-Powered-By</code>.\n",
+                "githubApiKey": "API Key Github",
+                "githubApiKeyHelp": "Điền vào để bật bản xem trước GitHub được cung cấp bởi API cho các kho, sự cố và PR, bao gồm cả kho riêng.",
+                "githubOrgWhitelist": "Danh sách cho phép của tổ chức",
+                "githubOrgWhitelistHelp": "Danh sách các tổ chức GitHub được phân tách bằng dấu phẩy sẽ sử dụng bản xem trước do API cung cấp. Sử dụng trường này để ngăn mọi kho lưu trữ riêng tư có thể truy cập bằng khóa API bị lộ, để giảm mức sử dụng API hoặc chỉ thay đổi kiểu nhúng của tổ chức của riêng bạn. Nếu để trống, bạn có thể xem trước bất kỳ repo nào mà khóa API có thể truy cập.\n",
+                "googleApiAuthConfig": "Đường dẫn cấu hình xác thực SDK của Google hoặc JSON",
+                "googleApiAuthConfigHelp": "",
+                "googleApiKey": "",
+                "googleApiKeyHelp": "",
+                "youtubePlayer": "",
+                "youtubePlayerHelp": "",
+                "youtubeNoCookie": "",
+                "youtubeNoCookieHelp": "",
+                "youtubeApiPreviews": "",
+                "youtubeApiPreviewsHelp": "",
+                "googledriveApiPreviews": "",
+                "googledriveApiPreviewsHelp": ""
+            },
+            "section": {
+                "siteSpecificHelp": "",
+                "flarum": "",
+                "github": "",
+                "google": "",
+                "youtube": "",
+                "googledrive": ""
+            },
+            "permissions": {
+                "viewGoogleDriveThumbnails": "",
+                "useOnOwnPost": "Sử dụng nhúng trong bài đăng của riêng mình",
+                "disableOnOwnPost": "Tắt nhúng trên bài đăng của chính mình",
+                "refreshOnOwnPost": "Làm mới bản nhúng trên bài đăng của chính mình",
+                "disableOnAnyPost": "Tắt nhúng trên bất kỳ bài đăng nào",
+                "refreshOnAnyPost": "Làm mới bản nhúng trên bất kỳ bài đăng nào"
+            },
+            "preview": {
+                "title": "Xem trước",
+                "refresh": "Làm mới",
+                "loading": "Đang tải..."
+            }
+        },
+        "lib": {
+            "embed": {
+                "altFavicon": "Biểu tượng {website}",
+                "altImageFallback": "Ảnh Opengraph {website}",
+                "altAvatar": "",
+                "missing": {
+                    "retrieving": "",
+                    "other": ""
+                }
+            },
+            "controls": {
+                "refresh": "Tải dữ liệu lại",
+                "disable": "Tắt nhúng trên bài viết này",
+                "disableConfirmation": "Tất cả các nhúng sẽ bị xóa khỏi bài đăng này. Tiếp tục?",
+                "imgCopy": "Sao chép URL ảnh",
+                "imgCopied": "Đã sao chép!",
+                "imgOpen": "Mở ảnh trong tab mới",
+                "play": "",
+                "expandDescription": ""
+            }
+        },
+        "api": {
+            "error": {
+                "blacklistedUrl": "URL {url} chưa được đưa vào danh sách cho phép để nhúng.",
+                "invalidUrl": "URL {url} không hợp lệ."
+            },
+            "embed": {
+                "flarum": {
+                    "discussion": {
+                        "type": "",
+                        "stats": {
+                            "commentCount": "",
+                            "participantCount": "",
+                            "createdAt": ""
+                        }
+                    },
+                    "user": {
+                        "type": "",
+                        "avatarAlt": "",
+                        "stats": {
+                            "discussionCount": "",
+                            "commentCount": "",
+                            "joinTime": ""
+                        }
+                    }
+                },
+                "github": {
+                    "siteName": "",
+                    "privateRepoSuffix": "",
+                    "issue": {
+                        "type": "",
+                        "stats": {
+                            "commentCount": "",
+                            "createdAt": ""
+                        }
+                    },
+                    "pull": {
+                        "type": "",
+                        "stats": {
+                            "commentCount": "",
+                            "reviewCount": "",
+                            "commitCount": "",
+                            "createdAt": ""
+                        }
+                    },
+                    "repo": {
+                        "type": {
+                            "public": "",
+                            "private": ""
+                        },
+                        "stats": {
+                            "openIssueCount": "",
+                            "subscriberCount": "",
+                            "stargazerCount": "",
+                            "forkCount": ""
+                        }
+                    }
+                },
+                "youtube": {
+                    "siteName": "",
+                    "video": {
+                        "type": "",
+                        "thumbnailAlt": "",
+                        "stats": {
+                            "viewCount": "",
+                            "likeCount": "",
+                            "commentCount": "",
+                            "publishedAt": ""
+                        }
+                    }
+                },
+                "googledrive": {
+                    "siteName": "",
+                    "file": {
+                        "type": "",
+                        "thumbnailAlt": "",
+                        "stats": {
+                            "size": "",
+                            "createdTime": "",
+                            "modifiedTime": ""
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

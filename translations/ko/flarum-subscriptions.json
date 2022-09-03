@@ -1,0 +1,50 @@
+{
+    "flarum-subscriptions": {
+        "forum": {
+            "badge": {
+                "following_tooltip": "팔로우 중",
+                "ignoring_tooltip": "=> flarum-subscriptions.ref.ignoring"
+            },
+            "discussion_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "unfollow_button": "팔로우하지 않음",
+                "unignore_button": "무시하지 않음"
+            },
+            "following": {
+                "meta_title_text": ""
+            },
+            "index": {
+                "following_link": "팔로우 중인 토의"
+            },
+            "notifications": {
+                "new_post_text": "{username}님이 게시함"
+            },
+            "settings": {
+                "follow_after_reply_label": "답장한 게시물을 자동으로 팔로우",
+                "notify_new_post_label": "누군가 내가 팔로우 중인 게시물에 답장했을 때"
+            },
+            "sub_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "following_button": "팔로우 됨",
+                "following_text": "모든 답장에 대해 알림을 받습니다.",
+                "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
+                "ignoring_text": "알림을 받지 않고 토의 목록에서도 숨깁니다.",
+                "not_following_button": "팔로우 안함",
+                "not_following_text": "언급된 경우에만 알림을 받습니다.",
+                "notify_alert_tooltip": "새로운 게시물이 있을 때 포럼 통지를 받습니다",
+                "notify_email_tooltip": "새로운 게시물이 있을 때 이메일을 받습니다"
+            }
+        },
+        "email": {
+            "new_post": {
+                "subject": "",
+                "body": ""
+            }
+        },
+        "ref": {
+            "follow": "팔로우",
+            "following": "팔로우 중",
+            "ignoring": "무시"
+        }
+    }
+}

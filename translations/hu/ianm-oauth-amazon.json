@@ -4,24 +4,24 @@
             "settings": {
                 "providers": {
                     "amazon": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "description": "A fórum regisztrációja az Amazon Development Portalon: {link}",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_amazon_button": ""
+                "with_amazon_button": "=> fof-oauth.forum.log_in.with_button"
             },
             "providers": {
-                "amazon": ""
+                "amazon": "=> fof-oauth.lib.providers.amazon"
             }
         },
         "lib": {
             "providers": {
-                "amazon": ""
+                "amazon": "Amazon"
             }
         }
     }

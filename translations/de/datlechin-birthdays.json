@@ -2,13 +2,18 @@
     "datlechin-birthdays": {
         "admin": {
             "permissions": {
-                "edit_own_birthday_label": ""
+                "edit_own_birthday_label": "Eigenen Geburtstag bearbeiten",
+                "view_birthday_label": "Geburtstag ansehen"
             },
             "settings": {
                 "set_on_registration_label": "Geburtsdatum bei der Registrierung angeben",
-                "date_format_label": "",
-                "date_format_help": "",
-                "date_none_year_label": ""
+                "required_label": "Erforderliche Eingabe von Geburtstagen",
+                "required_help": "Du musst die Option Bei Registrierung festlegen aktivieren, damit diese Option funktioniert",
+                "min_age_label": "Mindestalter",
+                "min_age_help": "Mindestalter für die Registrierung",
+                "date_format_label": "Datumsformat",
+                "date_format_help": "Verwende das <a>dayjs</a>-Datumsformat. Lasse das Feld leer, um das Standardformat zu verwenden.",
+                "date_none_year_label": "Datumsformat ohne Jahr"
             }
         },
         "forum": {
@@ -32,7 +37,7 @@
                 "dob_heading": "Geburtsdatum",
                 "show_dob_date_label": "Geburtstag und Monat anzeigen",
                 "show_dob_year_label": "Geburtsjahr anzeigen",
-                "show_dob_year_help": "Dies gestattet es ihr Alter anzuzeigen.",
+                "show_dob_year_help": "Dadurch können die Leute Dein Alter sehen.",
                 "birthday_heading": ""
             },
             "edit_user": {
@@ -41,7 +46,8 @@
             }
         },
         "api": {
-            "invalid_dob_message": ""
+            "invalid_dob_message": "Ungültiges Geburtsdatum",
+            "invalid_age_message": "Dein Alter muss mindestens {minAge} Jahre betragen."
         }
     }
 }

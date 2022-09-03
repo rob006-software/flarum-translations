@@ -3,6 +3,12 @@
         "forum": {
             "modal": {
                 "title": "Scal dyskusje",
+                "ordering_heading": "Kolejność scalania",
+                "ordering_date_label": "Włącz posty wg daty utworzenia",
+                "ordering_date_help": "Posty w docelowej dyskusji będą posortowane na podstawie ich daty utworzenia",
+                "ordering_suffix_label": "Dodaj włączone posty na końcu dyskusji",
+                "ordering_suffix_help": "Posty włączone do docelowej dyskusji zostaną dodane na końcu dyskusji",
+                "type_heading": "Typ scalenia",
                 "type_target_label": "Włącz do mnie",
                 "type_target_help_text": "Wybierz dyskusje do włączenia do <b>{title}</b>.",
                 "type_from_label": "Włącz tę dyskusję do innej",
@@ -28,7 +34,7 @@
                 "merge_discussions_label": "Scalanie dyskusji"
             },
             "settings": {
-                "search_result_help": "Ile dyskusji powinno być zwróconych podczas wyszukiwania w okienku \"Scal dyskusje\". Domyślnie 4.",
+                "search_result_help": "Ile dyskusji powinno być zwróconych podczas wyszukiwania w okienku \"Scal dyskusje\".",
                 "search_result_label": "Limit wyszukiwania dyskusji do scalenia"
             }
         },
@@ -37,7 +43,8 @@
                 "merging_failed": "Nie udało się scalić dyskusji.",
                 "updating_failed": "Nie udało się odświeżyć informacji o dyskusji.",
                 "deleting_failed": "Nie udało się usunąć pustej dyskusji.",
-                "fixing_posts_number_failed": "Nie udało się naprawić numerowania postów."
+                "fixing_posts_number_failed": "Nie udało się naprawić numerowania postów.",
+                "fixing_posts_number_meta_failed": "Nie udało się naprawić numerowania postów."
             }
         },
         "ref": {
@@ -45,7 +52,7 @@
         },
         "email": {
             "merged": {
-                "body": "Witaj {recipient_display_name},\n\nTwoja dyskusja \"{merged_discussion_title}\" została scalona z dyskusją \"{discussion_title}\" przez {actor_display_name}.\n\nAby ją zobaczyć, kliknij poniższy link:\n{discussion_url}\n",
+                "body": "Witaj {recipient_display_name},\n\nTwoja dyskusja \"{merged_discussion_title}\" została scalona z dyskusją \"{discussion_title}\" przez {actor_display_name}.\n\nAby przejść do dyskusji, kliknij poniższy link:\n{discussion_url}\n",
                 "subject": "Twoja dyskusja \"{merged_discussion_title}\" została scalona"
             }
         }

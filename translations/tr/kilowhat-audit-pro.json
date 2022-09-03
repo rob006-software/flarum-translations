@@ -2,22 +2,34 @@
     "kilowhat-audit": {
         "admin": {
             "permissions": {
-                "view": "Denetim günlüğünü görüntüle"
+                "view": "Denetim günlüğünü görüntüle",
+                "viewLimited": "Sınırlı denetim günlüğünü görüntüle"
             },
             "header": {
                 "title": "Denetim",
                 "free": "Bedava",
                 "pro": "Pro",
                 "upgrade": "Pro'ya yükselt"
+            },
+            "limitedSettings": {
+                "configure": "Yapılandır",
+                "title": "Sınırlı erişim ayarları",
+                "introduction": "Sınırlı erişim izinlerine sahip kullanıcıların neleri görebileceğini yapılandırın",
+                "requiresExtension": "{extension} uzantısı gerektirir"
+            },
+            "settings": {
+                "limitedIpAddress": "IP Adresini Görüntüle"
             }
         },
         "forum": {
             "link": {
+                "all-audit": "Denetim günlüğü",
                 "discussion-audit": "Denetim günlüğü",
                 "user-audit": "Denetim günlüğü (hesap düzenlemeleri)",
                 "actor-audit": "Denetim günlüğü (katılımcı olarak kullanıcı)"
             },
             "modal": {
+                "all-title": "Denetim Günlüğü",
                 "discussion-title": "Tartışma Denetim Günlüğü",
                 "user-title": "Kullanıcı Denetim Günlüğü",
                 "actor-title": "Katılımcı Denetim Günlüğü"

@@ -15,6 +15,7 @@
                 "watermark": "Qui puoi decidere se aggiungere un Watermark alle tue immagini. Il Watermark sarà aggiunto a tutte le immagini non GIF seguendo le impostazioni che inserirai qui sotto\n",
                 "s3_compatible_storage": "Le seguenti impostazioni sono necessarie solo quando si utilizza l'archiviazione compatibile S3. Se utilizzi AWS, puoi lasciarli vuoti.\n",
                 "s3_acl": "L'ACL da applicare all'oggetto caricato (predefinito: privato). Per i valori possibili, vedere https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_instance_profile": "Lascia la chiave e il segreto vuoti per utilizzare le credenziali nel profilo dell'istanza.\n",
                 "composer_buttons": "Per impostazione predefinita, sono visibili sia il pulsante del gestore multimediale che il pulsante di caricamento. Puoi anche scegliere di visualizzare un solo pulsante.\n"
             },
             "labels": {
@@ -39,7 +40,8 @@
                 },
                 "imgur": {
                     "client_id": "Imgur client ID",
-                    "title": "Impostazioni storage Imgur"
+                    "title": "Impostazioni storage Imgur",
+                    "tos": "È tua responsabilità assicurarti che gli utenti del tuo forum aderiscano ai <a>Termini di servizio</a> di Imgur"
                 },
                 "local": {
                     "cdn_url": "URL CDN (prefisso file)",
@@ -55,7 +57,7 @@
                     "max_file_size": "Dimensione massima dei file (in kb)",
                     "mime_types": "Configura il mimetype, formato dei file",
                     "title": "Preferenze generali",
-                    "php_ini_values": ""
+                    "php_ini_values": "I tuoi valori <code>php.ini</code> sono <code>post_max_size={post}</code> e <code>upload_max_filesize={upload}</code>. Assicurarsi che il valore impostato qui sia inferiore a queste soglie o regolarle di conseguenza. Se utilizzi <code>Nginx</code>, assicurati anche che <code>client_max_body_size</code> sia di dimensioni sufficienti per il limite massimo scelto."
                 },
                 "resize": {
                     "max_width": "Larghezza massima delle immagini",
@@ -78,7 +80,8 @@
                         "upload-btn": "Solo pulsante di caricamento",
                         "media-btn": "Solo pulsante Media manager"
                     }
-                }
+                },
+                "inspect-mime": "Test file MIME type"
             },
             "permissions": {
                 "download_label": "Scarica file",
@@ -99,8 +102,8 @@
                 "bbcode-image_description": "Mostra l'immagine completa in linea utilizzando BBCode. <strong>Devi avere flarum/bbcode installato e abilitato affinché funzioni.</strong> Nessuna funzionalità di download, nessuna statistica viene raccolta e la protezione hotlink viene ignorata.\n",
                 "just-url": "Solo URL",
                 "just-url_description": "Inserisci solo l'URL. Il rendering può essere gestito da altre estensioni con capacità di collegamento automatico. Nessuna funzionalità di download, nessuna statistica viene raccolta e la protezione hotlink viene ignorata.\n",
-                "text-preview": "",
-                "text-preview_description": ""
+                "text-preview": "Anteprima Testo",
+                "text-preview_description": "Inserisce un'anteprima (prime 5 righe) del file di testo, con un'opzione per espandere per rivelare l'intero contenuto del file.\n"
             },
             "upload_methods": {
                 "aws-s3": "Amazon S3",
@@ -108,6 +111,19 @@
                 "local": "Locale",
                 "ovh-svfs": "OVH SVFS",
                 "qiniu": "QiNiu"
+            },
+            "inspect-mime": {
+                "title": "Ispeziona MIME",
+                "description": "FoF Upload utilizza la libreria <a>PHP Mime Detector</a> per i tipi MIME comuni e PHP Fileinfo come fallback.\nIl valore MIME restituito da Fileinfo può essere diverso da server a server!\n",
+                "select": "Selezionare un file di seguito per controllare i valori che verranno utilizzati. Il file non verrà salvato.",
+                "laravel-validation": "Validazione File Laravel",
+                "no-file-selected": "Nessun file",
+                "validation-passed": "Passato",
+                "validation-failed": "Fallito: {error}",
+                "mime-detector": "Mime Detector (primario)",
+                "mime-fileinfo": "PHP Fileinfo (fallback)",
+                "guessed-extension": "Estensione file predefinita (se l'originale non è nella whitelist)",
+                "not-available": "Nessun risultato"
             },
             "buttons": {
                 "save": "Salva impostazioni"
@@ -145,14 +161,14 @@
                 "unauthorized": "Non hai permessi per scaricare file"
             },
             "validation": {
-                "max_size": ""
+                "max_size": "I caricamenti superiori a {max} kb non sono accettati."
             },
             "text_preview": {
-                "expand": "",
-                "collapse": "",
-                "error": "",
-                "no_snippet_preview": "",
-                "no_snippet": ""
+                "expand": "Espandi anteprima",
+                "collapse": "Comprimi anteprima",
+                "error": "Errore durante l'anteprima del file. Potrebbe essere stato eliminato o l'ID file fornito non è valido.\n",
+                "no_snippet_preview": "<l'anteprima apparirà qui dopo la pubblicazione>",
+                "no_snippet": "<nessun anteprima disponibile>"
             }
         },
         "api": {

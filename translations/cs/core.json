@@ -104,7 +104,7 @@
             },
             "extension": {
                 "configure_scopes": "Konfigurace rozsahu",
-                "confirm_uninstall": "Odinstalováním se smažou všechny záznamy v databázi a soubory související s rozšířením. Opravdu chceš pokračovat?",
+                "confirm_purge": "",
                 "disabled": "Deaktivováno",
                 "enable_to_see": "Povolit tomuto rozšíření zobrazovat a měnit nastavení.",
                 "enabled": "Povoleno",
@@ -120,14 +120,14 @@
                 "no_settings": "Toto rozšíření nemá žádné nastavení.",
                 "open_modal": "Otevřít nastavení",
                 "permissions_title": "Oprávnění",
-                "uninstall_button": "Odinstalovat",
-                "confirm_purge": "",
                 "purge_button": "Vyčistit",
                 "readme": {
                     "button_label": "README",
                     "no_readme": "Vypadá to, že toto rozšíření nemá soubor README",
                     "title": "{extName} dokumentace"
                 },
+                "confirm_uninstall": "Odinstalováním se smažou všechny záznamy v databázi a soubory související s rozšířením. Opravdu chceš pokračovat?",
+                "uninstall_button": "Odinstalovat",
                 "saved_message": "Změny byly uloženy."
             },
             "header": {
@@ -310,11 +310,11 @@
             "discussion_list": {
                 "empty_text": "Nebyla nalezena žádná vlákna.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "Označit jako přečtené",
                 "replied_text": "Uživatel {username} odpověděl {ago}",
                 "started_text": "Uživatel {username} začal {ago}",
                 "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": ""
+                "unread_replies_a11y_label": "",
+                "mark_as_read_tooltip": "Označit jako přečtené"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -479,6 +479,10 @@
             }
         },
         "lib": {
+            "debug_button": "Debugovat",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
             "badge": {
                 "hidden_tooltip": "Skryté"
             },
@@ -501,6 +505,7 @@
             },
             "error": {
                 "dependent_extensions_message": "Není možné deaktivovat {extension} dokud nejsou deaktivována tato závislá rozšíření: {extensions}",
+                "extension_initialiation_failed_message": "",
                 "generic_message": "Jejda, něco se pokazilo. Obnov prosím stránku a zkus to znovu.",
                 "missing_dependencies_message": "Není možné povolit {extension} dokud nejsou povolena tato rozšíření: {extensions}",
                 "not_found_message": "Požadovaný zdroj nebyl nalezen.",
@@ -511,6 +516,16 @@
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": "Zavřít"
+            },
+            "nav": {
+                "drawer_button": "Otevřít navigační panel"
             },
             "number_suffix": {
                 "kilo_text": "tisíc",
@@ -523,20 +538,6 @@
             },
             "username": {
                 "deleted_text": "[smazaný]"
-            },
-            "debug_button": "Debugovat",
-            "alert": {
-                "dismiss_a11y_label": ""
-            },
-            "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
-            },
-            "modal": {
-                "close": "Zavřít"
-            },
-            "nav": {
-                "drawer_button": "Otevřít navigační panel"
             }
         },
         "views": {

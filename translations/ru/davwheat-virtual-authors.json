@@ -7,7 +7,7 @@
             },
             "settings": {
                 "errored": "",
-                "create_new": "",
+                "create_new": "Создать нового виртуального автора",
                 "auto_save_message": "",
                 "search_placeholder": "",
                 "link_to_va_from_discussion": "",
@@ -16,25 +16,25 @@
                 "virtual_authors_page_disabled": "",
                 "virtual_authors_page_disabled_help": "",
                 "discussion_badge": "",
-                "prev": "",
-                "next": ""
+                "prev": "Предыдущая страница",
+                "next": "Следующая страница"
             },
             "virtual_author_item": {
-                "id": "",
-                "name": "",
-                "description": "",
-                "no_description": "",
-                "edit": "",
-                "delete_confirmation": "",
-                "delete_a11y_tooltip": ""
+                "id": "ID",
+                "name": "Отображаемое имя",
+                "description": "Описание",
+                "no_description": "=> davwheat-virtual-authors.ref.no_description",
+                "edit": "Править виртуального автора",
+                "delete_confirmation": "Удалить виртуального автора?",
+                "delete_a11y_tooltip": "Удалить"
             }
         },
         "lib": {
             "edit_modal": {
-                "title_edit": "",
-                "title_new": "",
-                "submit_edit": "",
-                "submit_new": "",
+                "title_edit": "Править виртуального автора",
+                "title_new": "Новый виртуальный автор",
+                "submit_edit": "Сохранить изменения",
+                "submit_new": "Создать виртуального автора",
                 "fields": {
                     "name": "",
                     "description": ""

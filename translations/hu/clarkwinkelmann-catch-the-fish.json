@@ -2,187 +2,187 @@
     "clarkwinkelmann-catch-the-fish": {
         "forum": {
             "moderate": {
-                "add": "",
-                "edit": "",
-                "delete": "",
-                "fishes": "",
-                "rounds": ""
+                "add": "Hozzáadás",
+                "edit": "Szerkesztés",
+                "delete": "Törlés",
+                "fishes": "Halak",
+                "rounds": "Körök"
             },
             "nav": {
-                "rankings": "",
-                "settings": ""
+                "rankings": "Horgászat rangsora",
+                "settings": "Horgászat beállításai"
             },
             "new-round-modal": {
-                "title": ""
+                "title": "Új kör"
             },
             "new-fish-modal": {
-                "title": ""
+                "title": "Új hal"
             },
             "edit-round-modal": {
-                "title": ""
+                "title": "A(z) „{name}” kör szerkesztése"
             },
             "edit-fish-modal": {
-                "title": ""
+                "title": "A(z) „{name}” hal szerkesztése"
             },
             "caught-fish-modal": {
-                "title": "",
-                "named-by": "",
-                "placed-by": "",
-                "congratulation": "",
-                "name": "",
-                "name-help": "",
-                "placement-help": "",
-                "submit-name-place-later": "",
-                "submit-name": "",
-                "submit-place-later": "",
-                "submit-continue": "",
-                "submit-name-place-random": "",
-                "submit-place-random": ""
+                "title": "Kifogott egy halat.",
+                "named-by": "Elnevezte:",
+                "placed-by": "Elhelyezte:",
+                "congratulation": "Gratulálunk, kifogott egy halat. Összesen {catch_count} halat fogott.",
+                "name": "Hal neve",
+                "name-help": "Átnevezheti a halat, ha szeretné. A névnek be kell tartania a fórum irányelveit.",
+                "placement-help": "Tetszése szerint elrejtheti a halat a fórum friss témáiban és aktív felhasználói profiljain. Nem tudja kifogni a saját maga által elhelyezett halat.",
+                "submit-name-place-later": "Név mentése, és a rejtekhely kiválasztása",
+                "submit-name": "Név mentése",
+                "submit-place-later": "Igen, kiválasztom a rejtekhelyet",
+                "submit-continue": "Folytatás",
+                "submit-name-place-random": "Név mentése, és a hal elrejtése magától",
+                "submit-place-random": "A hal legyen magától elrejtve"
             },
             "edit-round": {
-                "name": "",
-                "name-help": "",
-                "starts-at": "",
-                "ends-at": "",
-                "starting-pack": "",
-                "starting-pack-help": "",
-                "create": "",
-                "save": "",
-                "delete": "",
-                "delete-confirmation": ""
+                "name": "Név",
+                "name-help": "A kör nyilvános neve, megjelenik a bannerben és a helyezéseknél",
+                "starts-at": "Kezdési idő",
+                "ends-at": "Befejezési idő",
+                "starting-pack": "Kezdőcsomag",
+                "starting-pack-help": "Ez tartalmaz néhány halat, hogy hamar nekikezdhessen",
+                "create": "Kör létrehozása",
+                "save": "Kör mentése",
+                "delete": "Kör törlése",
+                "delete-confirmation": "Törli a(z) „{name}” kört?"
             },
             "edit-fish": {
-                "name": "",
-                "name-help": "",
-                "create": "",
-                "save": "",
-                "delete": "",
-                "delete-confirmation": ""
+                "name": "Név",
+                "name-help": "A hal jelenlegi neve. A játékosok szerkeszthetik, ha jogosultak a halak átnevezéséhez.",
+                "create": "Hal létrehozása",
+                "save": "Hal mentése",
+                "delete": "Hal törlése",
+                "delete-confirmation": "Törli a(z) „{name}” halat?"
             },
             "moving-fish": {
-                "login": ""
+                "login": "Jelentkezzen be a halfogáshoz"
             },
             "fish-image": {
-                "alt": "",
-                "missing": ""
+                "alt": "A(z) „{name}” hal képe",
+                "missing": "Hiányzó halkép"
             },
             "round-alert": {
-                "message": "",
-                "rankings": ""
+                "message": "„{name}” kör, fogjon ki annyi halat, amennyit csak tud a következő időpontig: {time}",
+                "rankings": "Rangsor megtekintése"
             },
             "basket": {
-                "title": "",
-                "drag-help": "",
-                "time": ""
+                "title": "Haltartó szák",
+                "drag-help": "Fogjon és vigyen egy halat egy témába, bejegyzésbe vagy felhasználói profilra",
+                "time": "Helyezze el eddig: {time}"
             },
             "table-round": {
-                "loading": "",
-                "title": "",
-                "new": "",
-                "name": "",
-                "start": "",
-                "end": "",
-                "actions": "",
-                "edit": "",
-                "fishes": ""
+                "loading": "Betöltés…",
+                "title": "Körök",
+                "new": "Új kör",
+                "name": "Név",
+                "start": "Kezdet",
+                "end": "Befejezés",
+                "actions": "Műveletek",
+                "edit": "Szerkesztés",
+                "fishes": "Halak"
             },
             "table-fish": {
-                "loading": "",
-                "title": "",
-                "new": "",
-                "image": "",
-                "name": "",
-                "user-name": "",
-                "user-place": "",
-                "placement": "",
-                "actions": "",
-                "edit": "",
-                "no-user-name": "",
-                "no-user-place": "",
-                "upload": "",
-                "new-from-image": ""
+                "loading": "Betöltés…",
+                "title": "Halak a(z) {name} körhöz",
+                "new": "Új hal",
+                "image": "Kép",
+                "name": "Név",
+                "user-name": "Utoljára elnevezte:",
+                "user-place": "Utoljára elhelyezte:",
+                "placement": "Jelenlegi hely",
+                "actions": "Műveletek",
+                "edit": "Szerkesztés",
+                "no-user-name": "Nem lett átnevezve",
+                "no-user-place": "Véletlenszerű",
+                "upload": "Új kép feltöltése",
+                "new-from-image": "Új halak létrehozása tömeges képimportálással"
             },
             "table-ranking": {
-                "loading": "",
-                "title": "",
-                "rank": "",
-                "count": "",
-                "user": ""
+                "loading": "Betöltés…",
+                "title": "A(z) {name} forduló rangsora",
+                "rank": "Név",
+                "count": "Kifogott halak",
+                "user": "Felhasználó"
             },
             "page-ranking": {
-                "title": "",
-                "permission": "",
-                "nothing": ""
+                "title": "Rangsor",
+                "permission": "Nincs jogosultsága a rangsor megtekintéséhez",
+                "nothing": "Nincs aktív forduló"
             },
             "drop-area": {
-                "message": "",
-                "missing-from-store": ""
+                "message": "Ide ejtheti a halat",
+                "missing-from-store": "A hal nem található az adattárban"
             }
         },
         "admin": {
             "settings": {
-                "user": "",
-                "user-age": "",
-                "user-probability": "",
-                "discussion": "",
-                "discussion-age": "",
-                "discussion-tags": "",
-                "discussion-tags-unavailable": "",
-                "discussion-tags-help": "",
+                "user": "Felhasználók",
+                "user-age": "Hány napja kell egy felhasználónak aktívnak lennie, hogy egy hal kerülhessen rá",
+                "user-probability": "A felhasználó profiljára helyezés valószínűsége (%)",
+                "discussion": "Témák",
+                "discussion-age": "Hány naposnak kell egy témának lennie, hogy egy hal kerülhessen rá",
+                "discussion-tags": "Címkék fehérlistája",
+                "discussion-tags-unavailable": "A beállítás nem érhető el, mert a Címkék bővítmény ki van kapcsolva.",
+                "discussion-tags-help": "Ha nem választ ki egy címkét sem, akkor az időbeállításoknak megfelelő témák közül lesz kiválasztva. Ha ad meg címkéket, akkor a témáknak legalább a címkék egyikével kell rendelkezniük ahhoz, hogy kiválasztásra kerüljenek. A valószínűség annak az esélye, hogy kiválasztásra kerüljön miután az összes előző lehetőség meg lett próbálva. A listában szereplő utolsó címke tartalékként viselkedik, így meg kell győződnie arról, hogy legalább egy érvényes téma található benne.\n",
                 "tags-header": {
-                    "tag": "",
-                    "probability": ""
+                    "tag": "Címke",
+                    "probability": "Valószínűség"
                 },
                 "tags-control": {
-                    "choose": "",
-                    "add": "",
-                    "down": "",
-                    "up": "",
-                    "delete": ""
+                    "choose": "Válasszon egy címkét",
+                    "add": "Hozzáadás a fehérlistához",
+                    "down": "Mozgatás le",
+                    "up": "Mozgatás fel",
+                    "delete": "Eltávolítás a fehérlistáról"
                 },
                 "tags-fallback": {
-                    "last-line": "",
-                    "single-line": ""
+                    "last-line": "Tartalék",
+                    "single-line": "Legalább 2 címke szükséges a valószínűséghez"
                 },
-                "post": "",
-                "post-age": "",
-                "post-probability": "",
-                "general": "",
-                "time-to-place": "",
-                "alert-round": "",
-                "animate-flip": ""
+                "post": "Bejegyzések",
+                "post-age": "Hány naposnak kell egy bejegyzésnek lennie, hogy egy hal kerülhessen rá",
+                "post-probability": "Annak a valószínűsége, hogy a téma helyett egy bejegyzésre kerüljön (%)",
+                "general": "Általános",
+                "time-to-place": "A hal elhelyezésére szánt idő, mielőtt véletlenszerű elhelyezésre kerülne (percben)",
+                "alert-round": "Riasztás megjelenítése a forduló nevével és hosszával a kezdőlapon",
+                "animate-flip": "Halképek átfordítása az irányuk alapján"
             },
             "permissions": {
-                "visible": "",
-                "list-rankings": "",
-                "participate": "",
-                "choose-place": "",
-                "choose-name": "",
-                "moderate": ""
+                "visible": "Halak megtekintése",
+                "list-rankings": "Rangsor lap elérése",
+                "participate": "Vegyen részt a fordulókban, és fogjon ki halakat",
+                "choose-place": "A halak kifogási utáni elhelyezési módjának kiválasztása",
+                "choose-name": "A kifogott hal nevének megadása",
+                "moderate": "Fordulók és halak moderálása"
             }
         },
         "api": {
-            "default-fish-name": "",
-            "wrong-catch-placement": "",
-            "too-many-placement-models": "",
-            "invalid-discussion-id": "",
-            "invalid-post-id": "",
-            "invalid-user-id": "",
-            "model-deleted": "",
-            "model-private": "",
-            "tag-not-allowed": "",
-            "inactive-discussion": "",
-            "inactive-post": "",
-            "inactive-user": "",
-            "non-comment-post": "",
-            "user-suspended": "",
-            "random-error": "",
-            "cannot-catch-own-fish": "",
-            "cannot-catch-hold-fish": "",
-            "fish-update-wrong-user": "",
-            "fish-update-expired": "",
-            "round-not-started": "",
-            "round-finished": ""
+            "default-fish-name": "{number}. számú hal",
+            "wrong-catch-placement": "Itt nincsenek halak. Lehet, hogy nem volt elég gyors, és valaki hamarabb kifogta.",
+            "too-many-placement-models": "Egyszerre csak egy elhelyezés lehetséges",
+            "invalid-discussion-id": "Úgy tűnik, hogy a téma nem létezik, lehet hogy nemrég törölték",
+            "invalid-post-id": "Úgy tűnik, hogy a bejegyzés nem létezik, lehet hogy nemrég törölték",
+            "invalid-user-id": "Úgy tűnik, hogy a felhasználó nem létezik, lehet hogy nemrég törölték",
+            "model-deleted": "Nem helyezhető el hal törölt témán vagy bejegyzésen",
+            "model-private": "Nem helyezhető el hal privát témán vagy bejegyzésen",
+            "tag-not-allowed": "Nem helyezhető el hal ezen címke alatt",
+            "inactive-discussion": "Nem helyezhető el hal olyan témán, amely több mint {days} napja inaktív",
+            "inactive-post": "Nem helyezhető el hal olyan bejegyzésen, amelyet több mint {days} napja hoztak létre",
+            "inactive-user": "Nem helyezhető el hal olyan felhasználó profilján, aki több mint {days} napja inaktív",
+            "non-comment-post": "Csak hozzászólásokon helyezhetők el halak",
+            "user-suspended": "Nem helyezhető el hal felfüggesztett felhasználó profilján",
+            "random-error": "Nem sikerült a hal véletlenszerű elhelyezésének előállítása",
+            "cannot-catch-own-fish": "Nem foghat ki olyan halat, melyet saját maga helyezett el",
+            "cannot-catch-hold-fish": "Az előző kifogónak el kell engednie a halat, mielőtt elkaphatná",
+            "fish-update-wrong-user": "Már nem szerkesztheti ezt a halat. Lehet, hogy valaki más már kifogta.",
+            "fish-update-expired": "Túl késő, már nem szerkesztheti ezt a halat. Időközben automatikusan átkerült valahova máshova.",
+            "round-not-started": "Ez a forduló még nem indult el",
+            "round-finished": "Ez a forduló véget ért"
         }
     }
 }

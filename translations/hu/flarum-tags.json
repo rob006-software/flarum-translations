@@ -7,20 +7,20 @@
             "edit_tag": {
                 "color_label": "=> core.ref.color",
                 "delete_tag_button": "Címke törlése",
-                "delete_tag_confirmation": "Biztos, hogy törli ezt a címkét? A témák, amelyek használták ezt a címkét, NEM fognak törlődni.",
+                "delete_tag_confirmation": "Valóban törli ezt a címkét? A témák, amelyek használták ezt a címkét, NEM fognak törlődni.",
                 "description_label": "Leírás",
                 "hide_label": "Elrejtés az „Összes téma” lapon",
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "name_label": "=> flarum-tags.ref.name",
                 "name_placeholder": "=> flarum-tags.ref.name",
-                "slug_label": "Slug",
+                "slug_label": "Keresőbarát webcím",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Címke létrehozása"
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
-                "tags_text": "Kezelje az elérhető címkéket, hogy rendszerezze velük a témákat."
+                "tags_text": "Az elérhető címkék kezelése, hogy rendszerezze velük a témákat."
             },
             "permissions": {
                 "allow_edit_tags_label": "Címkék szerkesztésének engedélyezése",
@@ -53,9 +53,9 @@
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
-                "bypass_requirements": "",
+                "bypass_requirements": "Címke követelményeinek megkerülése",
                 "choose_primary_placeholder": "{count, plural, one {Válasszon egy elsődleges címkét} other {Válasszon # elsődleges címkét}}",
-                "choose_secondary_placeholder": "Válasszon {count} további címkét",
+                "choose_secondary_placeholder": "Válasszon {count, plural, one {1} other {#}} további címkét",
                 "edit_title": "A(z) {title} címkéinek szerkesztése",
                 "submit_button": "=> core.ref.okay",
                 "title": "Válasszon címkéket a témájához"
@@ -75,10 +75,10 @@
                 "untagged_link": "Címke nélküli"
             },
             "post_stream": {
-                "added_and_removed_tags_text": "{username} hozzáadott {tagsAdded} és eltávolított {tagsRemoved}.",
-                "added_tags_text": "{username} hozzáadott {tagsAdded}.",
-                "removed_tags_text": "{username} eltávolított {tagsRemoved}.",
-                "tags_text": "{tags} címkét"
+                "added_and_removed_tags_text": "{username} hozzáadta: {tagsAdded} és eltávolította: {tagsRemoved}.",
+                "added_tags_text": "{username} hozzáadta: {tagsAdded}.",
+                "removed_tags_text": "{username} eltávolította: {tagsRemoved}.",
+                "tags_text": "{count, plural, one {{tags} címke} other {{tags} címke}}"
             },
             "tag": {
                 "meta_description_text": "Az összes téma a(z) {tag} címkével"

@@ -151,6 +151,11 @@
                     "confirm": "คุณต้องการเปลี่ยนกระทู้นี้เป็นตั๋วไหม?",
                     "event": "กระทู้ {ticket_title} ได้ถูกเปลี่ยนเป็นตั๋วสนับสนุนเเล้ว"
                 },
+                "convert_to_discussion": {
+                    "button": "",
+                    "confirm": "",
+                    "event": ""
+                },
                 "status": {
                     "new": {
                         "title": "ใหม่",
@@ -192,7 +197,8 @@
                     "assign_me": "กำหนดมาให้ฉัน",
                     "remove_me": "เอาฉันออก",
                     "update_status": "อัพเดทสถานะของตั๋ว",
-                    "close_ticket": "ปิดตั๋ว"
+                    "close_ticket": "ปิดตั๋ว",
+                    "update_note": ""
                 },
                 "new_tickets_dropdown": {
                     "title": "การเเจ้งเตือนของตั๋วสนับสนุน",
@@ -223,6 +229,13 @@
                     "assignees": {
                         "title": "ผู้ได้รับมอบหมาย",
                         "placeholder": "สถานะของตั๋ว"
+                    },
+                    "private_note": {
+                        "title": "",
+                        "info": "",
+                        "tip": "",
+                        "placeholder": "",
+                        "edit_button": ""
                     }
                 },
                 "compose_ticket": {
@@ -267,6 +280,16 @@
                         "recent_activity": "กิจกรรมล่าสุด",
                         "least_recent": "กิจกรรมล่าสุด"
                     }
+                }
+            },
+            "notifications": {
+                "replied_to_ticket": {
+                    "name": "",
+                    "content": ""
+                },
+                "ticket_resolved": {
+                    "name": "",
+                    "content": ""
                 }
             }
         },

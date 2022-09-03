@@ -2,12 +2,12 @@
     "datlechin-title-length": {
         "admin": {
             "settings": {
-                "limit_label": "",
-                "limit_help": "",
-                "min_label": "",
-                "min_help": "",
-                "max_label": "",
-                "max_help": ""
+                "limit_label": "Abilita limite lunghezza titolo",
+                "limit_help": "Abilita per utilizzare il limite di lunghezza del titolo personalizzato. Se disabilitato, verrà utilizzato il limite di lunghezza del titolo predefinito di Flarum.",
+                "min_label": "Lunghezza minima",
+                "min_help": "La lunghezza minima di un titolo. Questo valore deve essere maggiore di 0.",
+                "max_label": "Lunghezza Massima",
+                "max_help": "La lunghezza massima di un titolo. Questo valore deve essere maggiore della lunghezza minima."
             }
         }
     }

@@ -1,95 +1,96 @@
 {
     "fof-oauth": {
         "admin": {
-            "configure_button_label": "",
+            "configure_button_label": "Määritä FoF OAuth",
+            "settings_accessibility_label": "{name} asetukset",
             "settings": {
-                "only_icons_label": "",
+                "only_icons_label": "Näytä voin kirjaudu painikkeen ikonit (toissijainen ulkoasu)",
                 "providers": {
-                    "callback_url_text": "",
+                    "callback_url_text": "Jos tarpeen, aseta takaisinkutsu URL osoitteeksi {url}.",
                     "discord": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "description": "Luo sovellus osoitteessa {link}. Aseta uudelleenohjaus osoite OAuth2 välilehdellä.",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
                     "facebook": {
-                        "description": "",
-                        "app_id_label": "",
-                        "app_secret_label": ""
+                        "description": "Luo sovellus osoitteessa {link}.",
+                        "app_id_label": "=> fof-oauth.ref.settings.app_id",
+                        "app_secret_label": "=> fof-oauth.ref.settings.app_secret"
                     },
                     "github": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "description": "Luo OAuth sovellus osoitteessa {link}.",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
                     "gitlab": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": "",
-                        "domain_label": ""
+                        "description": "Luo sovellus osoitteessa {link}. Anna sovellukselle <code>read_user</code> laajuus (scope).",
+                        "client_id_label": "=> fof-oauth.ref.settings.app_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.app_secret",
+                        "domain_label": "GitLab osoite"
                     },
                     "twitter": {
-                        "description": "",
-                        "api_key_label": "",
-                        "api_secret_label": ""
+                        "description": "Luo sovellus osoitteessa {link}. Sinun täytyy asettaa Käyttöehtojen ja Yksityisyysselosteen (Terms of Service & Privacy Policy) osoitteet. Muista myös asettaa \"request email permission\" määre.",
+                        "api_key_label": "API avain",
+                        "api_secret_label": "API salaisuus (secret)"
                     },
                     "google": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "description": "Luo sovellus osoitteessa {link}.",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     },
                     "linkedin": {
-                        "description": "",
-                        "client_id_label": "",
-                        "client_secret_label": ""
+                        "description": "Luo sovellus osoitteessa {link}.",
+                        "client_id_label": "=> fof-oauth.ref.settings.client_id",
+                        "client_secret_label": "=> fof-oauth.ref.settings.client_secret"
                     }
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_button": "",
-                "with_discord_button": "",
-                "with_facebook_button": "",
-                "with_github_button": "",
-                "with_gitlab_button": "",
-                "with_google_button": "",
-                "with_linkedin_button": "",
-                "with_twitter_button": ""
+                "with_button": "Kirjaudu {provider}",
+                "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_github_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_gitlab_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_google_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_linkedin_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_twitter_button": "=> fof-oauth.forum.log_in.with_button"
             },
             "providers": {
-                "discord": "",
-                "facebook": "",
-                "github": "",
-                "gitlab": "",
-                "google": "",
-                "linkedin": "",
-                "twitter": ""
+                "discord": "=> fof-oauth.lib.providers.discord",
+                "facebook": "=> fof-oauth.lib.providers.facebook",
+                "github": "=> fof-oauth.lib.providers.github",
+                "gitlab": "=> fof-oauth.lib.providers.gitlab",
+                "google": "=> fof-oauth.lib.providers.google",
+                "linkedin": "=> fof-oauth.lib.providers.linkedin",
+                "twitter": "=> fof-oauth.lib.providers.twitter"
             },
             "signup": {
-                "username_help": ""
+                "username_help": "Valitse käyttäjätunnus mitä käytetään täällä foorumilla"
             },
             "error": {
-                "bad_verification_code": "",
-                "invalid_state": ""
+                "bad_verification_code": "Virheellinen tai vanhentunut token. Yritä uudelleen.",
+                "invalid_state": "Virhellinen tila. Yritä uudelleen."
             }
         },
         "lib": {
             "providers": {
-                "discord": "",
-                "facebook": "",
-                "github": "",
-                "gitlab": "",
-                "twitter": "",
-                "google": "",
-                "linkedin": ""
+                "discord": "Discord",
+                "facebook": "Facebook",
+                "github": "GitHub",
+                "gitlab": "GitLab",
+                "twitter": "Twitter",
+                "google": "Google",
+                "linkedin": "LinkedIn"
             }
         },
         "ref": {
             "settings": {
-                "app_id": "",
-                "app_secret": "",
-                "client_id": "",
-                "client_secret": ""
+                "app_id": "Sovellus (app) ID",
+                "app_secret": "Sovellus salaisuus (app secret)",
+                "client_id": "Asiakas (client) ID",
+                "client_secret": "Asiakas salaisuus (client secret)"
             }
         }
     }

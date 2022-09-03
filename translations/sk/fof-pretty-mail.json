@@ -2,9 +2,17 @@
     "fof-pretty-mail": {
         "admin": {
             "nav": {
-                "desc": ""
+                "desc": "Upraviť Vaše HTML email šablóny."
             },
             "settings": {
+                "attributes": {
+                    "body": "",
+                    "forumStyle": "",
+                    "url": "",
+                    "settings": "",
+                    "link": ""
+                },
+                "attributes_label": "",
                 "label": "",
                 "reset": "",
                 "confirm": "",
@@ -14,6 +22,7 @@
                 "postMentioned": "",
                 "notifications": "",
                 "notificationHelp": "",
+                "template_help": "",
                 "help": ""
             },
             "css_settings": {

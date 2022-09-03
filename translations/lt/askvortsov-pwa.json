@@ -2,91 +2,91 @@
     "askvortsov-pwa": {
         "admin": {
             "nav": {
-                "pwa_button": "",
-                "pwa_text": ""
+                "pwa_button": "Progresyvi žiniatinklio programa",
+                "pwa_text": "Konfigūruokite „Flarum“, kad jis veiktų kaip progresyvi žiniatinklio programa, kurią galima įdiegti mobiliuosiuose įrenginiuose."
             },
             "pwa": {
                 "about": {
-                    "description_label": "",
-                    "description_text": "",
-                    "long_name_label": "",
-                    "long_name_text": "",
-                    "heading": "",
-                    "short_name_label": "",
-                    "short_name_text": ""
+                    "description_label": "Aprašymas",
+                    "description_text": "Aprašymą galite nustatyti administratoriaus prietaisų skydelio puslapyje „Pagrindai“.",
+                    "long_name_label": "Ilgas vardas",
+                    "long_name_text": "Naudotojui rodomas žiniatinklio programos pavadinimas.",
+                    "heading": "Apie",
+                    "short_name_label": "Trumpas vardas",
+                    "short_name_text": "Programos pavadinimas, rodomas vartotojui, jei neužtenka vietos ilgam pavadinimui."
                 },
                 "colors": {
-                    "heading": "",
-                    "background_color_label": "",
-                    "background_color_text": "",
-                    "theme_color_label": "",
-                    "theme_color_text": ""
+                    "heading": "Spalvos",
+                    "background_color_label": "Fono spalva",
+                    "background_color_text": "Tai naudojama kaip rezervuotos vietos spalva, rodoma, kai įkeliamas jūsų PWA. Jis nenaudojamas, kai programa iš tikrųjų įkeliama.",
+                    "theme_color_label": "Temos spalva",
+                    "theme_color_text": "Šią spalvą kartais naudoja įrenginiai, rodydami jūsų programą, pavyzdžiui, „Android“ užduočių perjungiklyje, kaip svetainę supančią spalvą."
                 },
                 "maintenance": {
-                    "heading": "",
-                    "debug_label": "",
-                    "debug_text": "",
-                    "reset_vapid_text": "",
-                    "reset_vapid_confirm": "",
-                    "reset_vapid_success": ""
+                    "heading": "Priežiūra",
+                    "debug_label": "Derinimo režimas?",
+                    "debug_text": "Taip į „saugyklą / žurnalus“ bus įrašyta informacija apie pranešimus. Paprastai jis turėtų būti išjungtas, kad nebūtų be reikalo pildomi žurnalai.",
+                    "reset_vapid_text": "Taip bus iš naujo sukurti VAPID raktai ir ištrintos esamos prenumeratos naudojant dabartinius VAPID raktus.",
+                    "reset_vapid_confirm": "Iš naujo nustačius VAPID raktus bus pašalintos visos prenumeratos naudojant esamus raktus, todėl naudotojai negaus jokių pranešimų, kol kitą kartą apsilankys jūsų svetainėje. Tai turėtų būti daroma tik pirmą kartą nustatant tiesioginius pranešimus arba jei iš karto gaunami pranešimai visai neveikia ir aukščiau yra įspėjimas apie trūkstamus VAPID raktus.",
+                    "reset_vapid_success": "Sėkmingai iš naujo nustatyti VAPID raktus. {count} prenumeratos buvo nustatytos iš naujo. Iš naujo įkelkite puslapį, kad pamatytumėte atnaujintą būsenos patikros ataskaitą."
                 },
                 "other": {
-                    "heading": "",
-                    "force_portrait_text": ""
+                    "heading": "Kita",
+                    "force_portrait_text": "Jėga nešiojo orientaciją?"
                 },
-                "heading": "",
-                "text": "",
-                "status_check_heading": "",
-                "logo_heading": "",
-                "logo_text": "",
-                "logo_size_text": "",
-                "submit_button": "",
-                "refreshed_message": ""
+                "heading": "Progresyvi žiniatinklio programos konfigūracija",
+                "text": "Sukonfigūruokite savo „Flarum“ svetainę, kad ji veiktų kaip progresyvi žiniatinklio programa! Atminkite, kad jūsų svetainė automatiškai nepatenka į programų parduotuvę. Vietoj to tai reiškia, kad naudotojai jūsų svetainėje turi parinktį „Pridėti prie pagrindinio ekrano“. Pateikiame tam tikrus būsenos patikrinimus, tačiau geriausias būdas tai išbandyti yra pabandyti ir įdiegti (instrukcijų, kaip įdiegti progresyvias žiniatinklio programas, ieškokite „Google“). Be to, atminkite, kad iššokančius langus „įdiegti šį PWA“ valdo naršyklės ir jų negali suaktyvinti kūrėjai / administratoriai / programos. Rekomenduoju į savo svetainės dokumentus įtraukti instrukcijas, kaip įdiegti PWA.",
+                "status_check_heading": "Būsenos patikrinimas",
+                "logo_heading": "Logotipai ir piktogramos",
+                "logo_text": "Turite įkelti bent vieną logotipą, kad progresyvią žiniatinklio programą būtų galima įdiegti. Atkreipkite dėmesį, kad visi logotipai turi būti kvadratiniai; jei jų nėra, jų dydis bus pakeistas ir galbūt ištemptas.\n\nŽemiau yra keletas dydžių parinkčių. Rekomenduočiau pabandyti įkelti logotipą kuo daugiau: tai palaiko daugiau įrenginių.\n\nAtminkite, kad į mažesnių logotipų įvestis galite įkelti 1 didelį logotipą. Pavyzdžiui, galite įkelti 1000 x 1000 pikselių logotipą į VISUS toliau nurodytus failų įvestis. Tačiau jei bandysite įkelti 50 pikselių x 50 pikselių logotipą į 512 x 512 įvestį, jis bus labai ištemptas.\n",
+                "logo_size_text": "Įkelkite logotipą, kuris bus padidintas iki {size} piks. x {size} piks. dydžio.",
+                "submit_button": "Išsaugoti nustatymus",
+                "refreshed_message": "PWA konfigūracija sėkmingai atnaujinta."
             },
             "status": {
-                "config_no_https": "",
-                "possible_https_disabled": "",
-                "no_logo": "",
-                "no_name": "",
-                "no_vapid_keys": "",
-                "key_gen_failed": "",
-                "suggest_gmp": "",
-                "success": ""
+                "config_no_https": "URL faile config.php nenaudoja HTTPS. Kad veiktų progresyvios žiniatinklio programos, reikalingas HTTPS.",
+                "possible_https_disabled": "Jūsų svetainė gali neveikti naudojant HTTPS. Gali padėti išvalyti talpyklą (administratoriaus prietaisų skydelio puslapis => įrankių mygtukas). Jei taip, ignoruokite tai. Jei ne, atminkite, kad norint, kad progresyvios žiniatinklio programos veiktų, reikalingas HTTPS.",
+                "no_logo": "Kad programa veiktų, turite įkelti bent vieną logotipą, kurio dydis yra bent 196 pikseliai.",
+                "no_name": "Kad programa veiktų, turite nurodyti visą pavadinimą.",
+                "no_vapid_keys": "Nerasta jokių VAPID raktų. Jų reikia norint siųsti tiesioginius pranešimus. Toliau galite iš naujo nustatyti VAPID raktus.",
+                "key_gen_failed": "Nepavyko sugeneruoti tiesioginiams pranešimams reikalingų raktų. Visas klaidos pranešimas buvo: {error}",
+                "suggest_gmp": "Atrodo, kad jūsų serveryje neįjungtas gmp PHP plėtinys. Tai nėra griežtai būtina, bet gali pagerinti našumą ir yra rekomenduojama. Vis dėlto kai kurie bendrinami prieglobos to gali nepalaikyti.",
+                "success": "Nerasta jokių galimų problemų!"
             }
         },
         "forum": {
             "alerts": {
-                "optin": "",
-                "optin_button": ""
+                "optin": "Įgalinote tiesioginius pranešimus, bet nesukonfigūravote šio įrenginio.",
+                "optin_button": "Konfigūruoti"
             },
             "discussion_controls": {
-                "share_button": ""
+                "share_button": "Dalintis"
             },
             "post_controls": {
-                "share_button": "",
+                "share_button": "Dalintis",
                 "share_api": {
-                    "title": ""
+                    "title": "{username} atsakymas į {title}"
                 }
             },
             "user_controls": {
-                "share_button": ""
+                "share_button": "Dalintis"
             },
             "settings": {
-                "push_header": "",
+                "push_header": "Stumti",
                 "pwa_notifications": {
-                    "access_default": "",
-                    "access_default_button": "",
-                    "access_denied": "",
-                    "access_denied_button": "",
-                    "no_browser_support": "",
-                    "no_browser_support_button": ""
+                    "access_default": "Dėl naršyklės apribojimų turite pasirinkti gauti tiesioginius pranešimus šiame įrenginyje.",
+                    "access_default_button": "Pasirinkti",
+                    "access_denied": "Turite pakoreguoti naršyklės nustatymus, kad gautumėte tiesioginius pranešimus šiame įrenginyje.",
+                    "access_denied_button": "Išmokti kaip",
+                    "no_browser_support": "Ši naršyklė nepalaiko progresyvių žiniatinklio programų tiesioginių pranešimų.",
+                    "no_browser_support_button": "Sužinokite daugiau"
                 }
             }
         },
         "views": {
             "offline": {
-                "header": "",
-                "text": ""
+                "header": "Tinklo ryšio klaida",
+                "text": "Šiai programai reikalingas tinklo ryšys; jo negalima naudoti neprisijungus. Patikrinkite ryšį."
             }
         }
     }
