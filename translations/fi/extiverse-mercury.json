@@ -19,7 +19,7 @@
         "email": {
             "new-extension-update": {
                 "subject": "{count, plural, one {Yksi päivitys saatavilla foorumillesi} other {# päivitystä saatavilla foorumillesi}}",
-                "body": "Hei {recipient_display_name}!\n\n{count} päivitystä on löytynyt Flarum foorumillesi. On suositeltavaa päivittää ne mahdollisimman pian.\n\nPäivityksiä on saatavilla seuraaviin lisäosiin: {extensions}.\n\nKäy foorumilla saadaksesi lisää tietoa: {url}.\n"
+                "body": "Hei {recipient_display_name}!\n\n{count} päivitystä on löytynyt Flarum foorumillesi. \nOn suositeltavaa päivittää ne mahdollisimman pian.\n\nPäivityksiä on saatavilla seuraaviin lisäosiin: {extensions}.\n\nKäy foorumilla saadaksesi lisää tietoa: {url}.\n"
             }
         }
     }

@@ -2,7 +2,8 @@
     "davwheat-virtual-authors": {
         "admin": {
             "permissions": {
-                "set_virtual_authors": ""
+                "set_virtual_authors": "Nastavovať umelých autorov pre diskusie",
+                "view_virtual_authors_page": ""
             },
             "settings": {
                 "errored": "",
@@ -12,6 +13,8 @@
                 "link_to_va_from_discussion": "",
                 "authors_in_sidebar": "",
                 "authors_in_sidebar_help": "",
+                "virtual_authors_page_disabled": "",
+                "virtual_authors_page_disabled_help": "",
                 "discussion_badge": "",
                 "prev": "",
                 "next": ""
@@ -45,6 +48,15 @@
                 "credited_discussions": "",
                 "discussion_count": ""
             },
+            "virtual_authors_list": {
+                "sidebar_link": "",
+                "empty_text": "",
+                "title": "",
+                "meta_title": "",
+                "filter_name_placeholder": "",
+                "discussion_count": "",
+                "no_description": ""
+            },
             "virtual_authors_panel": {
                 "heading": "",
                 "error": "",
@@ -70,7 +82,8 @@
             }
         },
         "ref": {
-            "no_description": ""
+            "no_description": "",
+            "discussion_count": ""
         }
     }
 }

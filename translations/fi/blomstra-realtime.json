@@ -2,7 +2,8 @@
     "blomstra-realtime": {
         "forum": {
             "push": {
-                "discussion-list-new-activity": "{count, plural, one {Näytä # päivitetty keskustelu} other {Näytä # päivitettyä keskustelua}}"
+                "discussion-list-new-activity": "{count, plural, one {Näytä # päivitetty keskustelu} other {Näytä # päivitettyä keskustelua}}",
+                "discussion-list-new-activity-with-auto-release": "{count, plural, one {# keskustelu on} other {# keskustelua on}} uutta aktiivisuutta ja ne päivitetään {releaseTimeout} sekunnin päästä. Klikkaa päivittääksesi heti."
             },
             "typing-indicator": {
                 "people-are-typing": "{number, plural, one {# käyttäjä kirjoittaa} other {# käyttäjää kirjoittaa}}",
@@ -12,6 +13,10 @@
         "admin": {
             "permission": {
                 "view-who-types": "Nähdä kuka kirjoittaa"
+            },
+            "settings": {
+                "release-discussion-updates-interval": "Aikaväli milloin automaattisesti päivitetään keskustelujen tapahtumat",
+                "release-discussion-updates-interval-help": "Sekunneissa. 0 tarkoittaa, että automaattista päivitystä ei ole."
             }
         }
     }

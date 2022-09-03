@@ -2,22 +2,26 @@
     "serakoi-flarumstaffbadge": {
         "admin": {
             "staffBadge": {
-                "label": "",
-                "help": ""
+                "label": "Personalabzeichen-Text",
+                "help": "Der Text des Mitarbeiterabzeichens (standardmäßig 'STAFF')"
             },
             "staffBadgeTextColor": {
-                "label": "",
-                "help": ""
+                "label": "Farbe des Mitarbeiterabzeichens",
+                "help": "Badge-Farbe (standardmäßig '#fff')"
             },
             "staffBadgeTextBg": {
-                "label": "",
-                "help": ""
+                "label": "Hintergrundfarbe des Mitarbeiterabzeichens",
+                "help": "Badge-Farbe (standardmäßig 'rgb(70, 209, 96)')"
             }
         },
         "forum": {
             "edit_user": {
-                "heading": "",
-                "placeholder": ""
+                "heading": "Personalabzeichen aktiviert",
+                "placeholder": "Eingang auf 'true' setzen, um das Abzeichen zu aktivieren",
+                "tagList": {
+                    "heading": "Benutzer-Tag-Liste",
+                    "placeholder": "Mit , trennen"
+                }
             }
         }
     }

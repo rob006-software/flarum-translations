@@ -1,6 +1,6 @@
 {
     "migratetoflarum-fake-data": {
-        "admin": {
+        "lib": {
             "generator": {
                 "bulk-mode": "",
                 "bulk-mode-description": "",
@@ -13,7 +13,9 @@
                 "date": "",
                 "date-start-placeholder": "",
                 "date-interval-placeholder": "",
-                "send": ""
+                "send": "",
+                "reset": "",
+                "refresh": ""
             }
         },
         "forum": {
@@ -21,30 +23,12 @@
                 "generate-replies": ""
             },
             "generator": {
-                "title": "",
-                "bulk-mode": "",
-                "bulk-mode-description": "",
-                "user-count": "",
-                "post-count": "",
-                "date": "",
-                "date-start-placeholder": "",
-                "date-interval-placeholder": "",
-                "send": ""
+                "title": ""
             }
         },
         "api": {
             "no-users-matched": "",
             "no-discussions-matched": ""
-        },
-        "ref": {
-            "bulk-mode": "",
-            "bulk-mode-description": "",
-            "user-count": "",
-            "post-count": "",
-            "date": "",
-            "date-start-placeholder": "",
-            "date-interval-placeholder": "",
-            "send": ""
         }
     }
 }

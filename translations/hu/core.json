@@ -21,7 +21,7 @@
                 "favicon_text": "Töltse fel a fórum favikonjaként megjelenítendő képet.",
                 "logo_heading": "Logó",
                 "logo_text": "Kép feltöltése, mely a fórumcím helyett fog megjelenni.",
-                "title": "Megjelenítés",
+                "title": "Megjelenés",
                 "submit_button": "=> core.ref.save_changes"
             },
             "basics": {
@@ -51,7 +51,7 @@
                 "tools_button": "Eszközök"
             },
             "edit_css": {
-                "customize_text": "Szabd testre a fórum kinézetét saját LESS/CSS kód hozzáadásával, amellyel felülírhatja a Flarum <a>alapértelmezett stílusait</a>.",
+                "customize_text": "Szabja testre a fórum kinézetét saját LESS/CSS kód hozzáadásával, amellyel felülírhatja a Flarum <a>alapértelmezett stílusait</a>.",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Egyéni CSS szerkesztése"
             },
@@ -80,7 +80,7 @@
             },
             "email": {
                 "addresses_heading": "Címek",
-                "description": "Állítsa be a meghajtót, és a fórum által használt e-mail küldéshez szükséges beállításokat és címeket.",
+                "description": "Állítsa be a meghajtót, és a fórum által használt e-mail-küldéshez szükséges beállításokat és címeket.",
                 "driver_heading": "Válasszon meghajtót",
                 "driver_label": "Meghajtó",
                 "from_label": "Küldő",
@@ -95,7 +95,7 @@
                 "mailgun_heading": "Mailgun beállítások",
                 "not_sending_message": "A Flarum jelenleg nem küld ki e-maileket. Ennek oka lehet a kiválasztott meghajtó, vagy a rosszul megadott beállítások.",
                 "send_test_mail_button": "Küldés",
-                "send_test_mail_heading": "Teszt levél küldése",
+                "send_test_mail_heading": "Tesztlevél küldése",
                 "send_test_mail_success": "A teszt levél sikeresen elküldve.",
                 "send_test_mail_text": "Ez egy levelet fog küldeni a fenti beállításokkal az e-mail-címére: {email}.",
                 "smtp_heading": "SMTP beállítások",
@@ -114,7 +114,7 @@
                 "configure_scopes": "Célok beállítása",
                 "confirm_purge": "A tisztítás eltávolítja az összes, a bővítményhez tartozó adatbázis-bejegyzést és erőforrást. Nem távolítja el a bővítményt; azt a Composer segítségével kell megtenni. Valóban folytatja?",
                 "disabled": "Tiltva",
-                "enable_to_see": "Engedélyezze a bővítményt hogy hozzáférjen a beállításaihoz.",
+                "enable_to_see": "Engedélyezze a bővítményt, hogy hozzáférjen a beállításaihoz.",
                 "enabled": "Engedélyezve",
                 "info_links": {
                     "discuss": "Beszélgetés",
@@ -142,7 +142,7 @@
                 "log_out_button": "=> core.ref.log_out"
             },
             "loading": {
-                "title": "Kis türelmet..."
+                "title": "Kis türelmet…"
             },
             "nav": {
                 "appearance_button": "=> core.admin.appearance.title",
@@ -152,7 +152,7 @@
                 "categories": {
                     "authentication": "Hitelesítés",
                     "core": "Alapbeállítások",
-                    "discussion": "Beszélgetés",
+                    "discussion": "Téma",
                     "feature": "Tulajdonságok",
                     "formatting": "Formázás",
                     "language": "Nyelvek",
@@ -183,7 +183,7 @@
                 "create_heading": "Létrehozás",
                 "delete_discussions_forever_label": "Téma végleges törlése",
                 "delete_discussions_label": "Téma törlése",
-                "delete_posts_forever_label": "Bejegyzés végleges törlése",
+                "delete_posts_forever_label": "Bejegyzések végleges törlése",
                 "delete_posts_label": "Bejegyzések törlése",
                 "description": "Állítsa be, hogy ki mit láthat és mit csinálhat.",
                 "edit_posts_label": "Bejegyzések szerkesztése",
@@ -203,7 +203,7 @@
                 "start_discussions_label": "Téma indítása",
                 "title": "Engedélyek",
                 "view_forum_label": "Fórum megtekintése (témák és felhasználók)",
-                "view_hidden_groups_label": "Rejtett csoport jelvények megtekintése",
+                "view_hidden_groups_label": "Rejtett csoportjelvények megtekintése",
                 "view_last_seen_at_label": "Utolsó látogatás idejének megtekintése",
                 "view_post_ips_label": "IP-címek megtekintése",
                 "view_discussions_label": "Témák megtekintése",
@@ -330,15 +330,15 @@
                 "rename_button": "=> core.ref.rename",
                 "reply_button": "=> core.ref.reply",
                 "restore_button": "=> core.ref.restore",
-                "toggle_dropdown_accessible_label": "Beszélgetési műveletek legördülő menü be/ki"
+                "toggle_dropdown_accessible_label": "Beszélgetési műveletek legördülő menüje be/ki"
             },
             "discussion_list": {
                 "empty_text": "Úgy tűnik, hogy még nincsenek témák.",
                 "load_more_button": "=> core.ref.load_more",
                 "replied_text": "{username} válaszolt {ago}",
                 "started_text": "{username} indította {ago}",
-                "total_replies_a11y_label": "{count, plural, one {# válasz} other {# válasz}}",
-                "unread_replies_a11y_label": "{count, plural, one {# olvasatlan válasz} other {# olvasatlan válasz}}. Olvasatlan {count, plural, one {válasz} other {válaszok}} olvasottnak jelölése.",
+                "total_replies_a11y_label": "{count} válasz",
+                "unread_replies_a11y_label": "{count} olvasatlan válasz. Olvasatlan {count, plural, one {válasz} other {válaszok}} olvasottnak jelölése.",
                 "mark_as_read_tooltip": "Olvasottnak jelölés"
             },
             "forgot_password": {
@@ -360,7 +360,7 @@
                 "search_clear_button_accessible_label": "Keresési kifejezés törlése",
                 "search_placeholder": "Keresés a fórumban",
                 "search_role_label": "Keresés a fórumban",
-                "session_dropdown_accessible_label": "Munkamenet-beállítások legördülő menü be/ki",
+                "session_dropdown_accessible_label": "Munkamenet-beállítások legördülő menüje be/ki",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
             },
@@ -419,11 +419,11 @@
                 "now_link": "Most",
                 "original_post_link": "Eredeti bejegyzés",
                 "unread_text": "{count} olvasatlan",
-                "viewing_text": "{index}. / {count} bejegyzés"
+                "viewing_text": "{index}. / {formattedCount} bejegyzés"
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "A régi cím: „{old}”",
-                "discussion_renamed_text": "{username} módosította a címet a következőre: {new}.",
+                "discussion_renamed_text": "{username} a következőre módosította a címet: {new}.",
                 "load_more_button": "=> core.ref.load_more",
                 "reply_placeholder": "=> core.ref.write_a_reply",
                 "time_lapsed_text": "Ennyivel később: {period}"
@@ -457,7 +457,7 @@
                 "submit_button": "=> core.ref.sign_up",
                 "title": "=> core.ref.sign_up",
                 "username_placeholder": "=> core.ref.username",
-                "welcome_text": "Üdvözlünk, {username}!"
+                "welcome_text": "Üdvözöljük, {username}!"
             },
             "user": {
                 "avatar_remove_button": "=> core.ref.remove",
@@ -465,7 +465,7 @@
                 "avatar_upload_tooltip": "Új profilkép feltöltése",
                 "discussions_link": "=> core.ref.discussions",
                 "in_discussion_text": "Itt: {discussion}",
-                "joined_date_text": "Csatlakozott {ago}",
+                "joined_date_text": "Csatlakozott: {ago}",
                 "online_text": "Online",
                 "posts_empty_text": "Úgy tűnik, hogy egy bejegyzés sincs itt.",
                 "posts_link": "=> core.ref.posts",
@@ -479,7 +479,7 @@
                 "delete_error_message": "<i>{username} ({email})</i> felhasználó törlése sikertelen volt",
                 "delete_success_message": "<i>{username} ({email})</i> felhasználó törölve",
                 "edit_button": "=> core.ref.edit",
-                "toggle_dropdown_accessible_label": "Felhasználói beállítások legördülő menü be/ki"
+                "toggle_dropdown_accessible_label": "Felhasználói beállítások legördülő menüje be/ki"
             },
             "user_email_confirmation": {
                 "alert_message": "=> core.ref.confirmation_email_sent",
@@ -506,7 +506,7 @@
         "lib": {
             "debug_button": "Hibakeresés",
             "alert": {
-                "dismiss_a11y_label": ""
+                "dismiss_a11y_label": "Figyelmeztetés eltüntetése"
             },
             "badge": {
                 "hidden_tooltip": "Rejtett"
@@ -530,6 +530,7 @@
             },
             "error": {
                 "dependent_extensions_message": "Nem tilthatja le a(z) {extension} bővítményt, amíg a következő bővítmények engedélyezettek: {extensions}",
+                "extension_initialiation_failed_message": "A(z) {extension} előkészítése sikertelen, további információkért nézze meg a böngészőkonzolt.",
                 "generic_message": "Hoppá! Valami hiba történt. Frissítse az oldalt és próbálja meg újra.",
                 "missing_dependencies_message": "Nem engedélyezheti a(z) {extension} bővítményt, amíg a következő bővítmények le vannak tiltva: {extensions}",
                 "not_found_message": "A kért erőforrás nem található.",
@@ -542,8 +543,8 @@
                 "accessible_label": "=> core.ref.loading"
             },
             "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} – {forumName}} other {{pageTitle}: #. oldal – {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {#. oldal – {forumName}}}"
             },
             "modal": {
                 "close": "Bezárás"
@@ -568,9 +569,9 @@
             "admin": {
                 "extensions": {
                     "caption": "=> core.ref.extensions",
-                    "disable": "Kikapcsolás",
+                    "disable": "Letiltás",
                     "empty": "Nincs telepített bővítmény",
-                    "enable": "Bekapcsolás",
+                    "enable": "Engedélyezés",
                     "name": "Bővítmény neve",
                     "package_name": "Csomag neve",
                     "version": "Verzió"
@@ -587,7 +588,7 @@
             },
             "content": {
                 "javascript_disabled_message": "A legjobb élményhez egy modern böngésző szükséges, engedélyezett JavaScripttel.",
-                "load_error_message": "Valami félresikerült az oldal teljes verziójának betöltése során. Próbálja meg frissíteni az oldalt.",
+                "load_error_message": "Valami félresikerült az oldal teljes verziójának betöltése során. A hiba javításához próbálja meg frissíteni az oldalt.",
                 "loading_text": "=> core.ref.loading"
             },
             "discussion": {
@@ -596,13 +597,13 @@
             },
             "error": {
                 "csrf_token_mismatch": "Túl sokáig volt inaktív.",
-                "csrf_token_mismatch_return_link": "Menjen vissza és próbálja meg újra",
+                "csrf_token_mismatch_return_link": "Menjen vissza, és próbálja meg újra",
                 "invalid_confirmation_token": "Ez a megerősítő hivatkozás már fel lett használva vagy érvénytelen.",
                 "not_authenticated": "Nem rendelkezik megfelelő engedéllyel az oldal megtekintéséhez. Próbálja meg újra bejelentkezés után.",
                 "not_found": "A keresett oldal nem található.",
                 "not_found_return_link": "Visszatérés a(z) {forum} oldalra",
                 "permission_denied": "Nem rendelkezik megfelelő engedéllyel az oldal megtekintéséhez.",
-                "unknown": "Egy hiba lépett fel az oldal betöltése közben."
+                "unknown": "Hiba történt az oldal betöltése során."
             },
             "index": {
                 "all_discussions_heading": "=> core.ref.all_discussions",
@@ -655,9 +656,9 @@
             "confirm_password": "Jelszó megerősítése",
             "confirm_email": "E-mail-cím megerősítése",
             "confirmation_email_sent": "Elküldtük a megerősítő e-mailt a(z) {email} címre. Ha nem érkezik meg hamarosan, akkor ellenőrizze a levélszemét mappát is.",
-            "custom_footer_text": "Adja meg a HTML-t, amely az oldal alján fog megjelenni.",
+            "custom_footer_text": "Adja meg az oldal legalján megjelenítendő HTML-t.",
             "custom_footer_title": "Egyéni lábléc szerkesztése",
-            "custom_header_text": "Adjon meg a HTML-t, amely az oldal tetején, a Flarum saját fejléce felett, fog megjelenni.",
+            "custom_header_text": "Adja meg az oldal legtetején, a Flarum saját fejléce felett megjelenítendő HTML-t.",
             "custom_header_title": "Egyéni fejléc szerkesztése",
             "delete": "Törlés",
             "delete_forever": "Végleges törlés",
@@ -667,7 +668,7 @@
             "email": "E-mail",
             "extensions": "Bővítmények",
             "icon": "Ikon",
-            "icon_text": "Adjon meg egy nevet bármely <a>FontAwesome</a> ikon osztályból, <em>beleértve</em> a <code>fas fa-</code> előtagot is.",
+            "icon_text": "Adja meg egy tetszőleges <a>FontAwesome</a> ikonosztály nevét, <em>beleértve</em> a <code>fas fa-</code> előtagot is.",
             "load_more": "Továbbiak betöltése",
             "loading": "Betöltés…",
             "log_in": "Bejelentkezés",

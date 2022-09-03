@@ -65,7 +65,7 @@
                     "contains": "Wort oder Wörter und Mindestanzahl von Beiträgen, die es enthalten (z. B. Huhn,10) oder inklusiver Bereich (z. B. Huhn,10,19)",
                     "comments": "Mindestanzahl der in einer Diskussion erhaltenen Antworten (z.B. 10) oder inklusiver Bereich (z.B. 10,19)",
                     "years": "Mindestanzahl der registrierten Jahre (z. B. 10) oder inklusiver Bereich (z. B. 10,19)",
-                    "meanwords": "Wort, nach dem gesucht werden soll und Mindestanzahl durchschnittlicher Erscheinungen (z. B. Huhn,10) oder einschließlich Bereich (z. B. Huhn,10,19)",
+                    "meanwords": "Durchschnittliche Wörter pro Beitrag, Minimum ist 10 (z. B. 10) oder inklusiver Bereich (z. B. 10,19)",
                     "tagposts": "Slug des zu suchenden Tags und Mindestanzahl von Beiträgen (z.B. Off-Topic,10) oder inklusiver Bereich (z.B. Off-Topic,10,19)"
                 }
             },
@@ -73,7 +73,7 @@
                 "list_heading": "Errungenschaften",
                 "create_achievement_button": "Neue Errungenschaft erstellen",
                 "instructions_header": "Anleitung",
-                "instructions_text": "<li>Um einen Erfolg zu erstellen, musst Du einen Namen eingeben.</li>\n<li>Beschreibung ist optional.</li>\n<li>Wähle aus der Liste, welche Variable Du für diese Leistung berechnen möchtest.</li>\n<li>Gebe den Schwellenwert für die Aktivierung des Erfolgs ein. Du kannst zwei durch Komma (,) getrennte Zahlen eingeben, um einen minimalen Schwellenwert und einen maximalen Schwellenwert anzugeben (beide Zahlen sind inklusive).</li>\n<li>Erfolge mit zwei Schwellenwerten werden entfernt, wenn der Zähler den oberen Schwellenwert überschreitet.</li>\n<li>Für die Leistung 'Nachricht enthält' müssen Sie das angegebene Wort und dann den Schwellenwert einführen, getrennt durch ein Komma (z. B. 'spinat,5' oder 'spinat,5,10' für minimalen und maximalen Schwellenwert.)\n<li>Führe die Bild-URL mit dem Symbol ein, das für diesen Erfolg verwendet werden soll.</li>\n<li>Gebe die Breite und Höhe des Symbols ein.</li>\n<li>Optional: Wenn das Bild mehr als ein Erfolgssymbol hat, kannst Du auswählen, welche Zeile und Spalte für das Symbol angezeigt werden sollen.</li>\n",
+                "instructions_text": "<li>Um einen Erfolg zu erstellen, musst Du einen Namen eingeben.</li>\n<li>Beschreibung ist optional.</li>\n<li>Wähle aus der Liste, welche Variable Du für diese Leistung berechnen möchtest.</li>\n<li>Gebe den Schwellenwert für die Aktivierung des Erfolgs ein. Du kannst zwei durch Komma (,) getrennte Zahlen eingeben, um einen minimalen Schwellenwert und einen maximalen Schwellenwert anzugeben (beide Zahlen sind inklusive).</li>\n<li>Erfolge mit zwei Schwellenwerten werden entfernt, wenn der Zähler den oberen Schwellenwert überschreitet.</li>\n<li>Für die Leistung 'Nachricht enthält' müssen Sie das angegebene Wort und dann den Schwellenwert einführen, getrennt durch ein Komma (z. B. 'spinat,5' oder 'spinat,5,10' für minimalen und maximalen Schwellenwert.)</li>\n<li>Führe die Bild-URL mit dem Symbol ein, das für diesen Erfolg verwendet werden soll.</li>\n<li>Gebe die Breite und Höhe des Symbols ein.</li>\n<li>Optional: Wenn das Bild mehr als ein Erfolgssymbol hat, kannst Du auswählen, welche Zeile und Spalte für das Symbol angezeigt werden sollen.</li>\n",
                 "add_delete_users": "Erfolge vom Benutzer hinzufügen/löschen",
                 "show": "Leistungsliste anzeigen auf:"
             },

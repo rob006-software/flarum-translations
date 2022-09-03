@@ -8,6 +8,7 @@
         "admin": {
             "settings": {
                 "modal": {
+                    "always_show_theme_toggle_on_header": "",
                     "default_theme": "默认模式",
                     "default_theme_helper": "自动为新用户、访客和未自定义的用户应用的颜色模式。",
                     "theme_auto": "=> fof-nightmode.ref.auto",
@@ -19,6 +20,9 @@
         "forum": {
             "day": "=> fof-nightmode.ref.light",
             "night": "=> fof-nightmode.ref.dark",
+            "header": {
+                "nightmode_button": "切换论坛主题"
+            },
             "user": {
                 "settings": {
                     "heading": "日夜模式",
@@ -38,6 +42,16 @@
                         "night": "您是个夜猫子。当鸟儿在睡觉，狐狸在打猎的时候，您会在晚上守着论坛。或者您只是喜欢深色的配色！"
                     }
                 }
+            }
+        }
+    },
+    "fof-default-user-preferences": {
+        "admin": {
+            "settings": {
+                "fofNightMode": "",
+                "fofNightMode-help": "",
+                "fofNightMode_perDevice": "",
+                "fofNightMode_perDevice-help": ""
             }
         }
     }

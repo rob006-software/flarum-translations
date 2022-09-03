@@ -52,7 +52,7 @@
             },
             "choose_tags": {
                 "bypass_requirements": "Bỏ qua các yêu cầu về thẻ",
-                "choose_primary_placeholder": "{count, plural, one {Chọn thẻ chính} other {Chọn # thẻ chính}}",
+                "choose_primary_placeholder": "{count, plural, one {Chọn một thẻ chính} other {Chọn # thẻ chính}}",
                 "choose_secondary_placeholder": "{count, plural, one {Chọn một thẻ phụ} other {Chọn # thẻ phụ}}",
                 "edit_title": "Sửa thẻ cho {title}",
                 "submit_button": "=> core.ref.okay",
@@ -68,7 +68,7 @@
                 "back_to_tags_tooltip": "Trở lại danh sách thẻ"
             },
             "index": {
-                "more_link": "Thêm...",
+                "more_link": "Xem thêm...",
                 "tags_link": "=> flarum-tags.ref.tags",
                 "untagged_link": "Không được gắn thẻ"
             },
@@ -76,7 +76,7 @@
                 "added_and_removed_tags_text": "{username} đã thêm {tagsAdded} và gỡ {tagsRemoved}.",
                 "added_tags_text": "{username} đã thêm {tagsAdded}.",
                 "removed_tags_text": "{username} đã gỡ {tagsRemoved}.",
-                "tags_text": "{count, plural, one {{tags} thẻ} other {{tags} thẻ}}"
+                "tags_text": "{count, plural, one {thẻ {tags}} other {thẻ {tags}}}"
             },
             "tag": {
                 "meta_description_text": "Tất cả các cuộc thảo luận với thẻ {tag}"

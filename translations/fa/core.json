@@ -507,7 +507,7 @@
         "lib": {
             "debug_button": "دیباگ",
             "alert": {
-                "dismiss_a11y_label": ""
+                "dismiss_a11y_label": "لغو هشدار"
             },
             "badge": {
                 "hidden_tooltip": "پنهان"
@@ -531,6 +531,7 @@
             },
             "error": {
                 "dependent_extensions_message": "تا زمانی که پسوندهای وابسته زیر غیرفعال شوند، نمی توان {extension} را غیرفعال کرد: {extensions}",
+                "extension_initialiation_failed_message": "",
                 "generic_message": "متأسفانه خطایی رخ داد. لطفاً صفحه را دوباره بارگذاری کنید.",
                 "missing_dependencies_message": "تا زمانی که وابستگی‌های زیر فعال نشده باشند، نمی‌توان {extension} را فعال کرد: {extensions}",
                 "not_found_message": "یافت نشد.",

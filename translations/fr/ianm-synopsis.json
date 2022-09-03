@@ -6,16 +6,17 @@
                     "label": "Longueur de l'extrait du résumé en nombre de caractères",
                     "help": "Combien de caractères du message doivent être affichés."
                 },
-                "rich-excerpts": "Afficher des extraits à l'aide d'un contenu riche (à utiliser avec précaution)",
-                "excerpt-type": "Quel message doit être affiché comme extrait ?",
+                "rich-excerpts": {
+                    "label": "Afficher des extraits à l'aide de contenu riche",
+                    "help": "Lorsqu'il est activé, des images, des intégrations et d'autres éléments non textuels peuvent être inclus dans le synopsis"
+                },
+                "excerpt-type": {
+                    "label": "Quel message doit être affiché comme extrait ?",
+                    "help": "Sélectionnez si le premier ou le dernier message doit être utilisé pour le contenu du synopsis"
+                },
                 "first-label": "Premier message",
                 "last-label": "Dernier message",
-                "tags-enabled": "Vous avez activé <code>flarum/tags</code>. Ces paramètres deviendront par défaut, à moins que les étiquettes individuelles n'aient leur propre paramètre.",
-                "rich-excerpts.label": "Afficher des extraits à l'aide de contenu riche",
-                "rich-excerpts.help": "Lorsqu'il est activé, des images, des intégrations et d'autres éléments non textuels peuvent être inclus dans le synopsis",
-                "excerpt-type.label": "Quel message doit être affiché comme extrait ?",
-                "excerpt-type.help": "Sélectionnez si le premier ou le dernier message doit être utilisé pour le contenu du synopsis",
-                "excerpt-label": "Longueur de l'extrait du résumé en caractères"
+                "tags-enabled": "Vous avez activé <code>flarum/tags</code>. Ces paramètres deviendront par défaut, à moins que les étiquettes individuelles n'aient leur propre paramètre."
             }
         },
         "forum": {

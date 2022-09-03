@@ -2,15 +2,29 @@
     "flarum-bbcode-button": {
         "admin": {
             "settings": {
-                "codelabel": "自定义 BBCode",
-                "codedesc": "请输入并保存 BBCode 的开闭标签。",
-                "poslabel": "光标位置",
-                "posdesc": "调整插入标签后，光标的所在位置，默认位于内容位。数字越大，光标位越向右。"
+                "codelabel": "BBCode 标签",
+                "codedesc": "请输入开闭标签。",
+                "iconlabel": "按钮图标",
+                "icondesc": "请输入 FontAwesome 图标类名。",
+                "codelabel2": "",
+                "codedesc2": "",
+                "iconlabel2": "",
+                "icondesc2": "",
+                "codelabel3": "",
+                "codedesc3": "",
+                "iconlabel3": "",
+                "icondesc3": "",
+                "introlabel": "自定义 BBCode 按钮",
+                "introdesc": "本扩展程序允许您在添加包括但不限于 BBCode 的自定义按钮到文本编辑器工具栏。使用前，请先确保配置按钮并保存。",
+                "poslabel": "光标焦点",
+                "posdesc": "数字越大，光标焦点越靠右。"
             }
         },
         "forum": {
             "composer": {
-                "bbcode_tooltip": "BBCode"
+                "bbcode_tooltip": "BBCode",
+                "bbcode_tooltip2": "",
+                "bbcode_tooltip3": ""
             }
         }
     }

@@ -37,6 +37,7 @@
             }
         },
         "email": {
+            "no_reason_given": "Không có lý do nào đưa ra cho việc đình chỉ.",
             "suspended": {
                 "subject": "Tài khoản của bạn đã bị cấm",
                 "body": "Chào {recipient_display_name},\n\nBạn đã bị cấm vì lý do:\n\n---\n{suspension_message}\n---\n"

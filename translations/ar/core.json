@@ -16,20 +16,20 @@
                 "edit_css_button": "تعديل css مخصص",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
-                "enter_hex_message": "",
+                "enter_hex_message": "الرجاء إدخال رمز الون.",
                 "favicon_heading": "فافيكون",
-                "favicon_text": "",
+                "favicon_text": "قم بتحميل صورة لعرضها كأيقونة اختصار للمنتدى.",
                 "logo_heading": "شعار",
-                "logo_text": "",
+                "logo_text": "قم بتحميل صورة لعرضها مكان عنوان المنتدى.",
                 "title": "المظهر"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "اللغة الافتراضية",
-                "description": "",
+                "description": "قم بتعيين عنوان المنتدى واللغة والإعدادات الأساسية الأخرى.",
                 "display_name_heading": "‏‏اسم العرض للمستخدم",
-                "display_name_text": "",
-                "forum_description_heading": "",
+                "display_name_text": "حدد برنامج التشغيل الذي يجب استخدامه لأسماء عرض المستخدمين. يتم عرض اسم المستخدم بشكل افتراضي.",
+                "forum_description_heading": "وصف المنتدى",
                 "forum_description_text": "",
                 "forum_title_heading": "عنوان المنتدى",
                 "home_page_heading": "الصفحة الرئيسية",
@@ -121,9 +121,7 @@
                     "button_label": "",
                     "no_readme": "",
                     "title": ""
-                },
-                "confirm_uninstall": "",
-                "uninstall_button": "ازالة"
+                }
             },
             "header": {
                 "get_help": "",
@@ -180,8 +178,8 @@
                 "rename_discussions_label": "",
                 "reply_to_discussions_label": "",
                 "search_users_label": "",
-                "sign_up_label": "",
-                "start_discussions_label": "",
+                "sign_up_label": "تسجيل حساب",
+                "start_discussions_label": "موضوع جديد",
                 "title": "",
                 "view_forum_label": "",
                 "view_hidden_groups_label": "",
@@ -306,8 +304,7 @@
                 "replied_text": "",
                 "started_text": "",
                 "total_replies_a11y_label": "",
-                "unread_replies_a11y_label": "",
-                "mark_as_read_tooltip": ""
+                "unread_replies_a11y_label": ""
             },
             "forgot_password": {
                 "dismiss_button": "",
@@ -452,7 +449,7 @@
             "user_email_confirmation": {
                 "alert_message": "",
                 "resend_button": "",
-                "sent_message": ""
+                "sent_message": "إرسال"
             },
             "welcome_hero": {
                 "hide": ""
@@ -485,6 +482,7 @@
             },
             "error": {
                 "dependent_extensions_message": "",
+                "extension_initialiation_failed_message": "",
                 "generic_message": "",
                 "missing_dependencies_message": "",
                 "not_found_message": "",
@@ -574,10 +572,6 @@
                 "new_password_label": "",
                 "submit_button": "",
                 "title": ""
-            },
-            "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
             }
         },
         "api": {

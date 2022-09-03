@@ -2,16 +2,16 @@
     "clarkwinkelmann-roll-die": {
         "admin": {
             "settings": {
-                "clearOnEdit": ""
+                "clearOnEdit": "Genera nuovi numeri durante la modifica del post"
             }
         },
         "forum": {
             "tooltip": {
-                "render": "",
-                "preview": ""
+                "render": "Lancio casuale: {number}",
+                "preview": "Lancio casuale al salvataggio"
             },
             "composer": {
-                "rollDie": ""
+                "rollDie": "Tira un dado"
             }
         }
     }

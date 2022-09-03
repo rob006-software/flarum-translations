@@ -15,6 +15,7 @@
                 "watermark": "Valitse lisätäänkä kuviin vesileima. Vesileima laitetaan muihin, kuin gif tyyppisiin kuviin alla olevien asetusten mukaan.\n",
                 "s3_compatible_storage": "Seuraavat asetukset ovat vaadittuja vain jos käytetään S3 yhteensopivaa tiedostovarastoa. Jos käytät AWS:ssää, voit jättää ne tyhjäksi.\n",
                 "s3_acl": "ACL mikä asetetaan siirrettyyn objektiin (oletus: private). Mahdolliset arvot: https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_instance_profile": "Jätä avain salaisuus tyhjäksi, jotta käytetään instanssin profiilin tunnuksia.\n",
                 "composer_buttons": "Oletuksena mediahallinta ja siirto napit ovat näkyvillä. Voit myös valita näytettäväksi vain yhden napin.\n"
             },
             "labels": {
@@ -39,7 +40,8 @@
                 },
                 "imgur": {
                     "client_id": "Imgur asiakkaan ID (client ID)",
-                    "title": "Imgur kuvan tallennustilan asetukset"
+                    "title": "Imgur kuvan tallennustilan asetukset",
+                    "tos": "On sinun vastuulla, että foorumin käyttäjät noudattavat Imgurin <a>käyttöehtoja</a>"
                 },
                 "local": {
                     "cdn_url": "Sisällönjakoverkon osoite (CDN) (tulee tiedostojen etuliitteeksi)",
@@ -78,7 +80,8 @@
                         "upload-btn": "Vain siirrä nappi",
                         "media-btn": "Vain median hallinta nappi"
                     }
-                }
+                },
+                "inspect-mime": "Testi tiedoston MIME tyyppi"
             },
             "permissions": {
                 "download_label": "Lataa tiedostot",
@@ -98,7 +101,9 @@
                 "bbcode-image": "BBCode kuvan pohja",
                 "bbcode-image_description": "Näyttää kuvan käyttäen BBCodea. <strong>Sinulla pitää olla flarum/bbcode lisäosa asennettuna, jotta tämä toimii.</strong> Ei latausta, ei tilastoja ja ei hotlink suojausta.\n",
                 "just-url": "Vain osoite",
-                "just-url_description": "Asettaa vain kuvan osoitteen. Näyttäminen voidaan toteuttaa mulla lisäosalla. Ei latausta, ei tilastoja eikä hotlink suojausta.\n"
+                "just-url_description": "Asettaa vain kuvan osoitteen. Näyttäminen voidaan toteuttaa mulla lisäosalla. Ei latausta, ei tilastoja eikä hotlink suojausta.\n",
+                "text-preview": "Tekstin esikatselu",
+                "text-preview_description": "Asettaa esikatselun (ensimmäiset 5 riviä) tekstitiedostosta. Tämän kanssa tulee mahdollisuus nähdä koko tiedoston sisältö.\n"
             },
             "upload_methods": {
                 "aws-s3": "S3/Yhteensopiva",
@@ -106,6 +111,19 @@
                 "local": "Paikallinen",
                 "ovh-svfs": "OVH SVFS",
                 "qiniu": "QiNiu"
+            },
+            "inspect-mime": {
+                "title": "Tutki MIME",
+                "description": "FoF Upload käyttää <a>PHP Mime Detector</a> kirjastoa yleisiin MIME tyyppeihin ja PHP Fileinfoa varalla.\nFileinfon palauttama MIME arvo voi olla erilainen riippuen palvelimesta!\n",
+                "select": "Valitse tiedosto alta, jonka arvoa haluat tarkistella. Tiedostoa ei tallenneta.",
+                "laravel-validation": "Laravelin tiedosto tarkistus",
+                "no-file-selected": "Ei tiedostoa",
+                "validation-passed": "Läpäisty",
+                "validation-failed": "Virhe : {error}",
+                "mime-detector": "Mime tunnistin (pääasiallinen)",
+                "mime-fileinfo": "PHP Fileinfo (varalla)",
+                "guessed-extension": "Oletus tiedostopääte (jos alkuperäistä ei ole hyväksytty)",
+                "not-available": "Ei tuloksia"
             }
         },
         "forum": {
@@ -141,6 +159,13 @@
             },
             "validation": {
                 "max_size": "Yli {max} kb siirrot eivät ole sallittuja."
+            },
+            "text_preview": {
+                "expand": "Laajenna esikatselu",
+                "collapse": "Pienennä esikatselu",
+                "error": "Virhe tiedoston esikatselussa. Se voi olla poistettu tai annettu tiedoston ID on virheellinen.\n",
+                "no_snippet_preview": "<esikatselu tulee tähän>",
+                "no_snippet": "<ei esikatselua saatavilla>"
             }
         },
         "api": {

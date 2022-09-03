@@ -2,13 +2,16 @@
     "justoverclock-frontend-blog": {
         "admin": {
             "numberOfPost": "Number of Posts",
+            "setBlogIndexPage": "Set Frontend Blog extension as main page",
             "numberOfPost-help": "Put here the number of post that you want to display",
             "sorting": "Latest or Hot Discussions? (default is latest)",
             "sorting-help": "If you want to display latest discussions write \"-createdAt\", for hot discussions write \"-commentCount\"",
             "charLim": "Character Limit",
             "charLim-help": "Put here the number of max character to display",
             "defaultImage": "Default Post Image",
-            "defaultImage-help": "here you can define the default image for posts that doesn't have one"
+            "defaultImage-help": "here you can define the default image for posts that doesn't have one",
+            "showHeaderHero": "Show Welcome Hero",
+            "showPinnedDiscussions": "Show Last 3 Pinned Discussions"
         },
         "forum": {
             "recentDiscussions": "Recent Discussions:",
@@ -17,7 +20,11 @@
             "linkToDiscussion": " Link To Discussion",
             "postedOn": " Posted On: ",
             "menuButton": "Menu",
-            "allDiscussions": "All Discussions"
+            "allDiscussions": "Forum",
+            "signupButton": "Signup",
+            "loginButton": "Login",
+            "stickyTitle": "Pinned Discussions",
+            "readMore": "Read More"
         }
     }
 }

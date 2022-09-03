@@ -12,6 +12,8 @@
                 "selected_category_count": "{count, plural, one {Bạn đã chọn # danh mục} other {Bạn đã chọn # danh mục}}",
                 "select_categories_button": "Chọn danh mục blog",
                 "blog_heading": "Blog",
+                "featured_count_label": "Số lượng bài viết nổi bật tối đa",
+                "featured_count_text": "Số lượng bài viết hiển thị trong grid lớn ở đầu trang blog?",
                 "allow_comments_label": "Cho phép bình luận",
                 "allow_comments_text": "Theo mặc định, bình luận sẽ được bật trên bài viết blog. Khi bị tắt, nó có thể được bật riêng lẻ cho mỗi bài viết trên blog. <b>Lưu ý:</b> Việc thay đổi cài đặt này sẽ không ảnh hưởng đến các bài đăng trên blog đã có từ trước.",
                 "require_review_label": "Yêu cầu phê duyệt trước khi đăng",
@@ -31,7 +33,9 @@
                 "redirect_tags_label": "Chuyển hướng các thẻ blog",
                 "redirect_tags_text": "Khi được bật, tiện ích này sẽ chuyển hướng các URL thẻ blog đến URL danh mục blog.",
                 "default_article_image_label": "Hình ảnh bài viết mặc định",
-                "default_article_image_text": "Chọn một hình ảnh bài viết mặc định để hiển thị khi không có hình ảnh nào được đặt."
+                "default_article_image_text": "Chọn một hình ảnh bài viết mặc định để hiển thị khi không có hình ảnh nào được đặt.",
+                "add_hero_label": "Hiện biểu ngữ chào mừng",
+                "add_hero_text": "Hiển biểu ngữ chào mừng trên trang blog nếu nó chưa được đóng."
             }
         },
         "forum": {
@@ -96,6 +100,24 @@
                 "comment_section": "Phần bình luận không được hiện khi đang viết bài.",
                 "no_blog_tags_selected": "Không có thẻ nào bạn đã chọn là thẻ blog. Vui lòng chọn ít nhất một.",
                 "post_without_blog_info": "Bạn có chắc chắn muốn đăng bài blog này không? Bạn chưa nhập hình ảnh hoặc tóm tắt blog."
+            },
+            "article_settings": {
+                "title": "Cài đặt bài viết blog",
+                "fields": {
+                    "summary": {
+                        "title": "Tóm tắt bài viết",
+                        "placeholder": "Vui lòng nhập tóm tắt bài viết",
+                        "helper_text": "Bản tóm tắt này sẽ hiển thị trên trang tổng quan của blog và sẽ được sử dụng cho mục đích SEO."
+                    },
+                    "image": {
+                        "title": "Ảnh bài viết",
+                        "helper_text": "Độ phân giải hình ảnh tốt nhất cho mạng xã hội: 1200x630"
+                    },
+                    "highlight": {
+                        "title": "Bài viết được đánh dấu",
+                        "helper_text": "Cung cấp cho bài viết này một hình ảnh lớn trên trang tổng quan blog."
+                    }
+                }
             }
         }
     }

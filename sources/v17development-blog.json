@@ -12,6 +12,8 @@
                 "selected_category_count": "{count, plural, one {You have # category selected} other {You have # categories selected}}",
                 "select_categories_button": "Select blog categories",
                 "blog_heading": "Blog",
+                "featured_count_label": "Max Featured Posts",
+                "featured_count_text": "How many posts should be displayed in a big grid at the top of a blog page?",
                 "allow_comments_label": "Allow comments",
                 "allow_comments_text": "By default, allow comments on blog posts. When disabled, it can be enabled individually per blog post. <b>Note:</b> Changing this setting will not affect pre-existing blog posts.",
                 "require_review_label": "Blog posts requires review",
@@ -31,7 +33,9 @@
                 "redirect_tags_label": "Redirect blog tags",
                 "redirect_tags_text": "When enabled, this extension redirects blog tag URLs to the blog category URL.",
                 "default_article_image_label": "Default article image",
-                "default_article_image_text": "Select a default article image to display when no image is set."
+                "default_article_image_text": "Select a default article image to display when no image is set.",
+                "add_hero_label": "Show welcome banner",
+                "add_hero_text": "Show welcome banner on blog pages if it wasn't closed yet."
             }
         },
         "forum": {
@@ -96,6 +100,24 @@
                 "comment_section": "The comment section is not available when composing an article.",
                 "no_blog_tags_selected": "None of the tags you have selected is a blog tag. Please select at least one.",
                 "post_without_blog_info": "Are you sure you want to post this blog post? You did not yet enter a blog summary or image."
+            },
+            "article_settings": {
+                "title": "Blog post settings",
+                "fields": {
+                    "summary": {
+                        "title": "Article summary",
+                        "placeholder": "Please enter a summary",
+                        "helper_text": "This summary will be visible on the blog overview page and will be used for SEO purposes."
+                    },
+                    "image": {
+                        "title": "Article image",
+                        "helper_text": "Best image resolution for social media: 1200x630"
+                    },
+                    "highlight": {
+                        "title": "Highlighted post",
+                        "helper_text": "Give this post a big image on the blog overview page."
+                    }
+                }
             }
         }
     }

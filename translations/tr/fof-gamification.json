@@ -27,8 +27,12 @@
                 }
             },
             "user": {
-                "points": "Puan: {points}",
-                "rank": "{rank}"
+                "card": {
+                    "points": "{count, plural, one { {count} puan} other {{count} puan}}"
+                },
+                "rank": "{rank}",
+                "votes_link": "Oylar",
+                "points": "Puan: {points}"
             },
             "modal": {
                 "downvotes_label": "Olumsuz oy verenler:",
@@ -51,7 +55,9 @@
                 "vote_label": "Yukarı/Aşağı oylanan paylaşımlar",
                 "see_votes_label": "Yukarı oyların/aşağı oyların sayılarını göster",
                 "see_voters_label": "Kimin oy verdiğini göster",
-                "see_ranking_page": "Sıralama sayfasına bak"
+                "see_ranking_page": "Sıralama sayfasına bak",
+                "upvote_notifications": "Olumlu oy ile ilgili bildirimler alın",
+                "downvote_notifications": "Olumsuz oy hakkında bildirimler alın"
             },
             "page": {
                 "rankings": {

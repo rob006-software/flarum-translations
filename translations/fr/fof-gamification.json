@@ -27,13 +27,16 @@
                 }
             },
             "user": {
-                "points": "Points : {points}",
-                "rank": "{rank}"
+                "card": {
+                    "points": "{count, plural, one { {count} point} other {{count} points}}"
+                },
+                "rank": "{rank}",
+                "votes_link": "Votes"
             },
             "modal": {
-                "downvotes_label": "",
+                "downvotes_label": "Votants négatifs :",
                 "title": "Votants",
-                "upvotes_label": "Votants positifs :"
+                "upvotes_label": "Votants positifs :"
             },
             "mod_item": "Voir les votants",
             "voters": {
@@ -51,7 +54,9 @@
                 "vote_label": "Votes positifs/négatifs des messages",
                 "see_votes_label": "Voir le nombre de votes positifs/négatifs",
                 "see_voters_label": "Voir qui a voté",
-                "see_ranking_page": "Voir la page de classement"
+                "see_ranking_page": "Voir la page de classement",
+                "upvote_notifications": "Recevoir des notifications sur les votes positifs",
+                "downvote_notifications": "Recevoir des notifications sur les votes négatifs"
             },
             "page": {
                 "rankings": {

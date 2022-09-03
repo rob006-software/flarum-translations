@@ -186,7 +186,7 @@
                 "view_forum_label": "Смотреть форум (дискуссий и пользователей)",
                 "view_hidden_groups_label": "Смотреть скрытые группы",
                 "view_last_seen_at_label": "Смотреть время последнего посещения",
-                "view_post_ips_label": "Смотреть IP"
+                "view_post_ips_label": "Смотреть IP адреса"
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Неограниченно",
@@ -461,7 +461,7 @@
         "lib": {
             "debug_button": "Отладка",
             "alert": {
-                "dismiss_a11y_label": ""
+                "dismiss_a11y_label": "Закрыть"
             },
             "badge": {
                 "hidden_tooltip": "Скрыто"
@@ -485,6 +485,7 @@
             },
             "error": {
                 "dependent_extensions_message": "Невозможно отключить {extension}, пока не будут отключены следующие зависимые расширения: {extensions}",
+                "extension_initialiation_failed_message": "{extension} не удалось инициализировать. Проверьте консоль браузера для получения дополнительной информации.",
                 "generic_message": "Упс! Что-то пошло не так. Пожалуйста, обновите страницу и попробуйте ещё раз.",
                 "missing_dependencies_message": "Невозможно включить {extension}, пока не будут включены следующие зависимые расширения: {extensions}",
                 "not_found_message": "Запрашиваемый ресурс не найден.",
@@ -497,8 +498,8 @@
                 "accessible_label": "=> core.ref.loading"
             },
             "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Страница # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Страница # - {forumName}}}"
             },
             "modal": {
                 "close": "Закрыть"
@@ -581,7 +582,7 @@
             }
         },
         "api": {
-            "invalid_username_message": "Имя пользователя может содержать только буквы, цифры и тире."
+            "invalid_username_message": "Имя пользователя может содержать только латинские буквы, цифры и тире."
         },
         "email": {
             "activate_account": {

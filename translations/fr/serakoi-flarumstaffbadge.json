@@ -3,21 +3,25 @@
         "admin": {
             "staffBadge": {
                 "label": "Texte du badge de l'équipe",
-                "help": "Le texte du badge de l'équipe (par défaut, « STAFF »)"
+                "help": "Le texte du badge de l'équipe (par défaut sur « STAFF »)"
             },
             "staffBadgeTextColor": {
                 "label": "Couleur du badge de l'équipe",
-                "help": "Couleur du badge (la valeur par défaut est « #fff »)"
+                "help": "Couleur du badge (par défaut sur « #fff »)"
             },
             "staffBadgeTextBg": {
-                "label": "Couleur d'arrière-plan du badge de l'équipe",
-                "help": "Couleur du badge (par défaut \"rgb (70, 209, 96)\")"
+                "label": "Couleur de l'arrière-plan du badge de l'équipe",
+                "help": "Couleur du badge (par défaut sur « rgb (70, 209, 96) »)"
             }
         },
         "forum": {
             "edit_user": {
                 "heading": "Badge de l'équipe activé",
-                "placeholder": "Définissez l'entrée sur « true » pour activer le badge"
+                "placeholder": "Définissez l'entrée sur « true » pour activer le badge",
+                "tagList": {
+                    "heading": "Liste des étiquettes de l'utilisateur",
+                    "placeholder": "Séparer avec ,"
+                }
             }
         }
     }

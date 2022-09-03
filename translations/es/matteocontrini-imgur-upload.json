@@ -2,22 +2,22 @@
     "imgur-upload": {
         "admin": {
             "settings": {
-                "hide-markdown-image": "",
-                "allow-paste": "",
+                "hide-markdown-image": "Ocultar botón de imágenes que viene por defecto",
+                "allow-paste": "Permitir subida pegando una imagen",
                 "embed-type": {
-                    "title": "",
-                    "preview-with-link": "",
-                    "preview-without-link": "",
-                    "full-with-link": "",
-                    "full-without-link": ""
+                    "title": "Tipo de inserción",
+                    "preview-with-link": "Vista previa (1024px) con enlace a la imagen a tamaño completo",
+                    "preview-without-link": "Vista previa sin enlace",
+                    "full-with-link": "Imagen a tamaño completo con enlace",
+                    "full-without-link": "Imagen a tamaño completo sin enlace"
                 }
             }
         },
         "forum": {
-            "upload": "",
-            "loading": "",
-            "done": "",
-            "error": ""
+            "upload": "Subir imagen",
+            "loading": "Subiendo...",
+            "done": "Hecho!",
+            "error": "Error"
         }
     }
 }

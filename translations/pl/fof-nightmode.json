@@ -8,6 +8,7 @@
         "admin": {
             "settings": {
                 "modal": {
+                    "always_show_theme_toggle_on_header": "Zawsze pokazuj przycisk do zmiany motywu w nagłówku forum",
                     "default_theme": "Domyślny motyw forum",
                     "default_theme_helper": "Domyślny motyw jest automatycznie ustawiany nowym użytkownikom, gościom oraz wszystkim, którzy nie ustawili jeszcze motywu.",
                     "theme_auto": "=> fof-nightmode.ref.auto",
@@ -19,6 +20,9 @@
         "forum": {
             "day": "=> fof-nightmode.ref.light",
             "night": "=> fof-nightmode.ref.dark",
+            "header": {
+                "nightmode_button": "Przełącz motyw forum"
+            },
             "user": {
                 "settings": {
                     "heading": "Motyw",
@@ -38,6 +42,16 @@
                         "night": "Jesteś nocnym markiem. Przeglądasz forum nocą, gdy ptaki śpią, a lisy polują. Albo po prostu wolisz ciemne kolory!"
                     }
                 }
+            }
+        }
+    },
+    "fof-default-user-preferences": {
+        "admin": {
+            "settings": {
+                "fofNightMode": "FoF Nightmode: Domyślny motyw forum",
+                "fofNightMode-help": "0 - automatycznie, 1 - tryb dzienny, 2 - tryb nocny",
+                "fofNightMode_perDevice": "FoF Nightmode: Użyj niezależnych ustawień dla każdego urządzenia",
+                "fofNightMode_perDevice-help": "Użyj niezależnych ustawień motywu forum dla każdego urządzenia"
             }
         }
     }

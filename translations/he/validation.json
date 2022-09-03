@@ -19,7 +19,7 @@
         "boolean": "שדה התכונה :attribute חייב להיות אמת או שקר.",
         "confirmed": "התכונה :attribute confirmation does not match.",
         "date": "התכונה :attribute is not a valid date.",
-        "date_equals": "",
+        "date_equals": "ה:attribute חייב להיות זהה ל:date.",
         "date_format": "התכונה :attribute does not match the format :other.",
         "different": "התכונות :attribute ו- :other חייבות להיות שונות.",
         "digits": "התכונה :attribute חייבת להכיל :digits ספרות.",
@@ -27,23 +27,23 @@
         "dimensions": "התכונה :attribute has invalid image dimensions.",
         "distinct": "התכונה :attribute field has a duplicate value.",
         "email": "התכונה :attribute חייבת להיות עם מייל אמיתי.",
-        "ends_with": "",
+        "ends_with": "ה:attribute חייב להסתיים עם אחד מהערכים הבאים: :values.",
         "exists": "The selected :attribute is invalid.",
         "file": "התכונה :attribute חייבת להיות קובץ.",
-        "file_too_large": "",
-        "file_upload_failed": "",
+        "file_too_large": "ה:attribute גדול מדי.",
+        "file_upload_failed": "העלאת :attribute נכשלה.",
         "filled": "התכונה :attribute field must have a value.",
         "gt": {
-            "numeric": "",
-            "file": "",
-            "string": "",
-            "array": ""
+            "numeric": "הערך של :attribute חייב להיות גבוה מ:value.",
+            "file": "ה:attribute חייב להיות גבוה יותר מ:value קילובייטים.",
+            "string": "ה:attribute חייב להיות יותר מ:value תווים.",
+            "array": "ה:attribute חייב להיות יותר מ:value פריטים."
         },
         "gte": {
-            "numeric": "",
-            "file": "",
-            "string": "",
-            "array": ""
+            "numeric": "ה:attribute חייב להיות שווה או גבוה מ:value.",
+            "file": "ה:attribute חייב להיות גבוה או שווה ל:value קילובייטים.",
+            "string": "ה:attribute חייב להיות גבוה או שווה ל:valueה:attribute חייב להיות גבוה או שווה ל:value תווים.",
+            "array": "ה:attribute חייב להכיל :value פריטים או יותר."
         },
         "image": "התכונה :attribute חייבת להיות תמונה.",
         "in": "The selected :attribute is invalid.",
@@ -54,14 +54,14 @@
         "ipv6": "התכונה :attribute חייבת להכיל כתובת IPv6 תקינה.",
         "json": "התכונה :attribute חייבת להכיל כתובת JSON תקין.",
         "lt": {
-            "numeric": "",
-            "file": "",
-            "string": "",
-            "array": ""
+            "numeric": "ה:attribute חייב להיות פחות מ:value.",
+            "file": "ה:attribute חייב להיות פחות מ:value קילובייטים.",
+            "string": "ה:attribute חייב להיות פחות מ:value תווים.",
+            "array": "ה:attribute חייב להיות פחות מ:value פריטים."
         },
         "lte": {
-            "numeric": "",
-            "file": "",
+            "numeric": "ה:attribute חייב להיות פחות מאו שווה ל:value.",
+            "file": "ה:attribute חייב להיות פחות או שווה ל:value קילובייטים.",
             "string": "",
             "array": ""
         },
@@ -106,7 +106,7 @@
         "starts_with": "",
         "string": "התכונה :attribute חייבת להיות אותיות.",
         "timezone": "התכונה :attribute חייבת להיות בריזור תקין.",
-        "unique": "התכונה :attribute כבר תפוסה.",
+        "unique": ":attribute זה כבר קיים במערכת.",
         "uploaded": "התכונה :attribute לא עלתה לאתר.",
         "url": "התכונה :attribute בפורמט לא תקין.",
         "uuid": "",

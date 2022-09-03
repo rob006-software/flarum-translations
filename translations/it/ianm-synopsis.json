@@ -3,18 +3,18 @@
         "admin": {
             "settings": {
                 "excerpt-length": {
-                    "label": "",
-                    "help": ""
+                    "label": "Lunghezza paragrafo in caratteri",
+                    "help": "Quanti caratteri devono essere visualizzati dal post."
                 },
                 "rich-excerpts": "Mostra riepilogo usando rich-text (usare con cautela)",
                 "excerpt-type": "Quale post dovrebbe essere mostrato nel riepilogo?",
                 "first-label": "Primo post",
                 "last-label": "Ultimo post",
-                "tags-enabled": "",
-                "rich-excerpts.label": "",
-                "rich-excerpts.help": "",
-                "excerpt-type.label": "",
-                "excerpt-type.help": "",
+                "tags-enabled": "Hai attivato <code>flarum/tags</code>. Queste impostazioni diventeranno predefinite, a meno che i singoli tag non abbiano la propria impostazione.",
+                "rich-excerpts.label": "Visualizza estratti utilizzando contenuti avanzati",
+                "rich-excerpts.help": "Se abilitati, nella sinossi possono essere inclusi immagini, incorporamenti e altri elementi non testuali",
+                "excerpt-type.label": "Quale post dovrebbe essere visualizzato come estratto?",
+                "excerpt-type.help": "Seleziona se il primo o l'ultimo post deve essere utilizzato per il contenuto della sinossi",
                 "excerpt-label": "Lunghezza del riepilogo in caratteri"
             }
         },

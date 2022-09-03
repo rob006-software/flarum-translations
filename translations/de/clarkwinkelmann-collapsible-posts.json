@@ -2,36 +2,36 @@
     "clarkwinkelmann-collapsible-posts": {
         "admin": {
             "settings": {
-                "reasons": "",
+                "reasons": "Gründe",
                 "header": {
-                    "key": "",
-                    "label": "",
-                    "explanation": ""
+                    "key": "Eindeutiger Datenbankschlüssel",
+                    "label": "Label",
+                    "explanation": "Benutzerdefinierte Erklärungsnachricht"
                 },
-                "add": "",
-                "explanationUrl": "",
-                "explanationUrlHelp": ""
+                "add": "Neuer Grund",
+                "explanationUrl": "Erklärungs-URL",
+                "explanationUrlHelp": "Optional. Wird unter minimierten Beiträgen angezeigt"
             },
             "permission": {
-                "collapse": ""
+                "collapse": "Beiträge minimieren"
             }
         },
         "forum": {
             "postControl": {
-                "collapse": "",
-                "uncollapse": ""
+                "collapse": "Einklappen",
+                "uncollapse": "Ausklappen"
             },
             "modal": {
-                "title": "",
-                "uncollapse": ""
+                "title": "Beitrag minimieren",
+                "uncollapse": "Eingeklappt"
             },
             "badge": {
-                "post": ""
+                "post": "Ausgeklappt"
             },
             "stream": {
-                "hidden": "",
-                "load": "",
-                "explanation": ""
+                "hidden": "{count, plural, one {# Beitrag ausgeblendet wegen {Grund}} other {# Beiträge ausgeblendet wegen {Grund}}}",
+                "load": "Mehr laden",
+                "explanation": "Wieso sehe ich das?"
             }
         }
     }

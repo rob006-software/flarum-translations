@@ -1,14 +1,17 @@
 {
     "justoverclock-frontend-blog": {
         "admin": {
-            "numberOfPost": "",
+            "numberOfPost": "Počet príspevkov",
+            "setBlogIndexPage": "",
             "numberOfPost-help": "",
             "sorting": "",
             "sorting-help": "",
             "charLim": "",
             "charLim-help": "",
             "defaultImage": "",
-            "defaultImage-help": ""
+            "defaultImage-help": "",
+            "showHeaderHero": "",
+            "showPinnedDiscussions": ""
         },
         "forum": {
             "recentDiscussions": "",
@@ -17,7 +20,11 @@
             "linkToDiscussion": "",
             "postedOn": "",
             "menuButton": "",
-            "allDiscussions": ""
+            "allDiscussions": "",
+            "signupButton": "",
+            "loginButton": "",
+            "stickyTitle": "",
+            "readMore": ""
         }
     }
 }

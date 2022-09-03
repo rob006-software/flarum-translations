@@ -2,12 +2,17 @@
     "datlechin-birthdays": {
         "admin": {
             "permissions": {
-                "edit_own_birthday_label": "Edit own birthday"
+                "edit_own_birthday_label": "Edit own birthday",
+                "view_birthday_label": "View birthday"
             },
             "settings": {
                 "set_on_registration_label": "Allow setting birthdays on registration",
+                "required_label": "Required entering birthdays",
+                "required_help": "You need enable Set on registration option to make this option work",
+                "min_age_label": "Minimum age",
+                "min_age_help": "Minimum age for registration",
                 "date_format_label": "Date format",
-                "date_format_help": "Use the <a>moment.js</a> date format. Leave blank to use the default format.",
+                "date_format_help": "Use the <a>dayjs</a> date format. Leave blank to use the default format.",
                 "date_none_year_label": "Date format without year"
             }
         },
@@ -36,7 +41,8 @@
             }
         },
         "api": {
-            "invalid_dob_message": "Your date of birth must be less than 100 years old."
+            "invalid_dob_message": "Invalid date of birth",
+            "invalid_age_message": "Your age must be at least {minAge} years old."
         }
     }
 }

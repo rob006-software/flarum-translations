@@ -2,23 +2,23 @@
     "clarkwinkelmann-clippy": {
         "admin": {
             "settings": {
-                "cdn": "",
+                "cdn": "CDN",
                 "cdn-options": {
-                    "s3": "",
-                    "jsdelivr": "",
-                    "custom": ""
+                    "s3": "Amazon S3",
+                    "jsdelivr": "jsDelivr",
+                    "custom": "Pasirinktinis"
                 },
-                "path": "",
-                "path-help": "",
-                "agent": "",
-                "agent-help": "",
-                "events": "",
-                "events-help": ""
+                "path": "Pasirinktinis CDN kelias",
+                "path-help": "Visiškai apibrėžtas URL be pasvirojo brūkšnio į aplanką, kuriame yra <a>clippy.js saugyklos</a> turinys.",
+                "agent": "Agentas",
+                "agent-help": "Kiekvienas agentas turi skirtingą animacijų rinkinį. Pakeitus agentą iš nustatymų bus ištrintos visos nesuderinamos animacijos.",
+                "events": "Renginiai",
+                "events-help": "Pasirinkite, kurią animaciją ir kalbos debesėlį rodyti kiekviename iš šių įvykių"
             },
             "events": {
-                "name": "",
-                "animation": "",
-                "text": ""
+                "name": "Renginys",
+                "animation": "Animacija",
+                "text": "Tekstas"
             }
         }
     }

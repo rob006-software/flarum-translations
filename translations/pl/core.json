@@ -121,9 +121,7 @@
                     "button_label": "README",
                     "no_readme": "Wygląda na to, że to rozszerzenie nie posiada pliku README",
                     "title": "Dokumentacja {extName}"
-                },
-                "confirm_uninstall": "Odinstalowanie usunie wszystkie wpisy w bazie i zasoby powiązane z tym rozszerzeniem. Czy jesteś pewien, że chcesz kontynuować?",
-                "uninstall_button": "Odinstaluj"
+                }
             },
             "header": {
                 "get_help": "Uzyskaj pomoc",
@@ -306,8 +304,7 @@
                 "replied_text": "{username} odpowiedział {ago}",
                 "started_text": "{username} rozpoczął {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# odpowiedź} other {# odpowiedzi}}",
-                "unread_replies_a11y_label": "{count, plural, one {# nieodczytana odpowiedź} other {# nieodczytane odpowiedzi}}. Oznacz {count, plural, one {nieodczytaną odpowiedź jako odczytaną} other {nieodczytane odpowiedzi jako odczytane}}.",
-                "mark_as_read_tooltip": "Oznacz jako przeczytane"
+                "unread_replies_a11y_label": "{count, plural, one {# nieodczytana odpowiedź} other {# nieodczytane odpowiedzi}}. Oznacz {count, plural, one {nieodczytaną odpowiedź jako odczytaną} other {nieodczytane odpowiedzi jako odczytane}}."
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -364,7 +361,7 @@
                 "discussion_renamed_text": "{username} zmienił tytuł dyskusji",
                 "empty_text": "Brak powiadomień",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
-                "mark_as_read_tooltip": "Oznacz jako przeczytane",
+                "mark_as_read_tooltip": "Oznacz jako odczytane",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Zobacz powiadomienia",
                 "tooltip": "=> core.ref.notifications"
@@ -485,6 +482,7 @@
             },
             "error": {
                 "dependent_extensions_message": "Nie można wyłączyć {extension}, jeśli następujące zależne rozszerzenia są włączone: {extensions}",
+                "extension_initialiation_failed_message": "Nie udało się zainicjować rozszerzenia {extension}. Aby uzyskać więcej informacji, sprawdź konsolę przeglądarki.",
                 "generic_message": "Ups! Coś poszło nie tak. Odśwież stronę i spróbuj ponownie.",
                 "missing_dependencies_message": "Nie można włączyć {extension}, jeśli następujące zależności są wyłączone: {extensions}",
                 "not_found_message": "Żądany zasób nie został znaleziony.",
@@ -574,10 +572,6 @@
                 "new_password_label": "Nowe hasło",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
-            },
-            "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
             }
         },
         "api": {
@@ -626,7 +620,7 @@
             "loading": "Ładowanie...",
             "log_in": "Zaloguj się",
             "log_out": "Wyloguj się",
-            "mark_all_as_read": "Oznacz wszystko jako przeczytane",
+            "mark_all_as_read": "Oznacz wszystko jako odczytane",
             "next_page": "Następna strona",
             "notifications": "Powiadomienia",
             "okay": "OK",

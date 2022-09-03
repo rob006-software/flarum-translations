@@ -8,6 +8,7 @@
         "admin": {
             "settings": {
                 "modal": {
+                    "always_show_theme_toggle_on_header": "",
                     "default_theme": "Tema por defecto del foro",
                     "default_theme_helper": "El tema por defecto se activa de manera automática para los usuarios nuevos, visitas y quienes aún no configuran sus preferencias.",
                     "theme_auto": "=> fof-nightmode.ref.auto",
@@ -19,6 +20,9 @@
         "forum": {
             "day": "=> fof-nightmode.ref.light",
             "night": "=> fof-nightmode.ref.dark",
+            "header": {
+                "nightmode_button": ""
+            },
             "user": {
                 "settings": {
                     "heading": "Tema",
@@ -38,6 +42,16 @@
                         "night": "Eres un ave nocturna. Revisas los foros de noche, mientras otras aves están durmiendo y los zorros cazando. ¡O quizás, simplemente te gusten los colores oscuros!"
                     }
                 }
+            }
+        }
+    },
+    "fof-default-user-preferences": {
+        "admin": {
+            "settings": {
+                "fofNightMode": "",
+                "fofNightMode-help": "",
+                "fofNightMode_perDevice": "",
+                "fofNightMode_perDevice-help": ""
             }
         }
     }

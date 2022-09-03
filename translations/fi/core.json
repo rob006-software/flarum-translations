@@ -172,7 +172,7 @@
                 "edit_users_credentials_label": "Muokkaa käyttäjän tunnuksia",
                 "edit_users_groups_label": "Muokkaa käyttäjän ryhmiä",
                 "global_heading": "Yleinen",
-                "moderate_heading": "Moredointi",
+                "moderate_heading": "Moderointi",
                 "new_group_button": "Uusi ryhmä",
                 "participate_heading": "Osallistuminen",
                 "post_without_throttle_label": "Vastata useasti ilman odottamista",
@@ -268,7 +268,7 @@
                 "preview_tooltip": "Esikatselu"
             },
             "composer_discussion": {
-                "body_placeholder": "Kirjoita vastaus...",
+                "body_placeholder": "Kirjoita viesti...",
                 "discard_confirmation": "Et ole kirjoittanut vastaustasi. Haluatko peruuttaa sen?",
                 "submit_button": "Lähetä",
                 "title": "=> core.ref.start_a_discussion",
@@ -306,7 +306,7 @@
                 "replied_text": "{username} vastasi {ago}",
                 "started_text": "{username} aloitti {ago}",
                 "total_replies_a11y_label": "{count, plural, one {# vastaus} other {# vastausta}}",
-                "unread_replies_a11y_label": "{count, plural, one {# lukematon vastaus} other {# Lukematonta vastausta}}. Merkitse  {count, plural, one {lukematon vastaus} other {lukemattomat vastaukset}} luetuksi.",
+                "unread_replies_a11y_label": "{count, plural, one {# lukematon vastaus} other {# Lukematonta vastausta}}. Merkitse {count, plural, one {lukematon vastaus} other {lukemattomat vastaukset}} luetuksi.",
                 "mark_as_read_tooltip": "Merkitse luetuksi"
             },
             "forgot_password": {
@@ -461,7 +461,7 @@
         "lib": {
             "debug_button": "Vianetsintä",
             "alert": {
-                "dismiss_a11y_label": ""
+                "dismiss_a11y_label": "Poista ilmoitus"
             },
             "badge": {
                 "hidden_tooltip": "Piilotettu"
@@ -485,6 +485,7 @@
             },
             "error": {
                 "dependent_extensions_message": "{extension} lisäosaa ei voida ottaa pois käytöstä ennen kuin seuraavat lisäosat on poistettu käytöstä: {extensions}",
+                "extension_initialiation_failed_message": "{extension} alustus epäonnistui. Tarkista selaimen konsolista lisätietoja.",
                 "generic_message": "Hups! Jotain meni pieleen. Päivitä sivu ja yritä uudelleen.",
                 "missing_dependencies_message": "Lisäosaa {extension} ei voida ottaa käyttöön ennen kuin seuraavat lisäosat on otettu käyttöön: {extensions}",
                 "not_found_message": "Pyydettyä resurssia ei löytynyt.",
@@ -497,8 +498,8 @@
                 "accessible_label": "=> core.ref.loading"
             },
             "meta_titles": {
-                "with_page_title": "",
-                "without_page_title": ""
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Sivu # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Sivu # - {forumName}}}"
             },
             "modal": {
                 "close": "Sulje"
@@ -641,7 +642,7 @@
             "save_changes": "Tallenna muutokset",
             "settings": "Asetukset",
             "sign_up": "Rekisteröidy",
-            "some_others": "{count, plural, yksi {# other} other {# others}}",
+            "some_others": "{count, plural, one {# muu} other {# muuta}}",
             "start_a_discussion": "Aloita keskustelu",
             "username": "Käyttäjätunnus",
             "users": "Käyttäjät",

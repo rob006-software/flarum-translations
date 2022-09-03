@@ -1,0 +1,158 @@
+{
+    "flamarkt-taxonomies": {
+        "admin": {
+            "menu": {
+                "title": "Taxonomies",
+                "description": "Create custom taxonomies and terms."
+            },
+            "page": {
+                "title": "Taxonomies",
+                "create": {
+                    "taxonomy": "Create taxonomy",
+                    "term": "Create term"
+                },
+                "reset-term-order": "Reset terms list to alphabetical order"
+            },
+            "edit-taxonomy": {
+                "title": {
+                    "new": "Create Taxonomy",
+                    "edit": "Edit Taxonomy"
+                },
+                "field": {
+                    "type": "Type",
+                    "typeDescription": "Taxonomies can be used on multiple Flarum resources. The type cannot be changed after creation. You can use identical names and slugs for taxonomies of different types.\n",
+                    "name": "=> flamarkt-taxonomies.ref.field.name",
+                    "slug": "=> flamarkt-taxonomies.ref.field.slug",
+                    "description": "=> flamarkt-taxonomies.ref.field.description",
+                    "color": "=> flamarkt-taxonomies.ref.field.color",
+                    "icon": "=> flamarkt-taxonomies.ref.field.icon",
+                    "iconDescription": "=> flamarkt-taxonomies.ref.field.iconDescription",
+                    "showLabel": "Show taxonomy label together with term",
+                    "showFilter": "Show filter on homepage",
+                    "allowCustomValues": "Allow custom values",
+                    "customValueValidation": "Validation for custom values",
+                    "customValueSlugger": "Slugger for custom values",
+                    "customValueSluggerDescription": "Choose how you want the slug generated. If a slug already exists, a numeric prefix will automatically be appended. For the Transliterator option, you need to install and configure that other extension in advance.\n",
+                    "countRequired": "Required number of terms",
+                    "countRequiredDescription": "Enter the minimum and maximum number of terms from that taxonomies that may be applied to a discussion.\n",
+                    "rangeSeparatorText": "to",
+                    "tagScope": "Only in specified tags",
+                    "tagScopeDescription": "The taxonomy will only be available in the selected tags. If you select a single tag, the homepage filter will only be visible on that specific tag.\n",
+                    "tagScopePlaceholder": "Type to search a tag..."
+                },
+                "delete": "=> flamarkt-taxonomies.ref.delete",
+                "deleteConfirmation": "Do you really want to delete the taxonomy {name}? All terms under that taxonomy will be deleted. Discussions using the taxonomy will NOT be deleted.\n",
+                "submit": {
+                    "new": "=> flamarkt-taxonomies.ref.submit.new",
+                    "edit": "=> flamarkt-taxonomies.ref.submit.edit"
+                },
+                "type-options": {
+                    "products": "Products",
+                    "discussions": "Discussions",
+                    "users": "Users"
+                },
+                "validation-options": {
+                    "default": "Any text value",
+                    "alpha_num": "Alpha-numerical values",
+                    "alpha_dash": "Alpha-numerical values and dashes/underscores",
+                    "regex": "Regular expression"
+                },
+                "slugger-options": {
+                    "random": "Random identifier",
+                    "alpha_dash": "ASCII alpha-numerical slugger",
+                    "transliterator": "Use FoF Transliterator extension"
+                }
+            },
+            "edit-term": {
+                "title": {
+                    "new": "Create Term",
+                    "edit": "Edit Term"
+                },
+                "field": {
+                    "name": "=> flamarkt-taxonomies.ref.field.name",
+                    "slug": "=> flamarkt-taxonomies.ref.field.slug",
+                    "description": "=> flamarkt-taxonomies.ref.field.description",
+                    "color": "=> flamarkt-taxonomies.ref.field.color",
+                    "icon": "=> flamarkt-taxonomies.ref.field.icon",
+                    "iconDescription": "=> flamarkt-taxonomies.ref.field.iconDescription"
+                },
+                "delete": "=> flamarkt-taxonomies.ref.delete",
+                "deleteConfirmation": "Do you really want to delete the term {name}? Discussions using the term will NOT be deleted.\n",
+                "submit": {
+                    "new": "=> flamarkt-taxonomies.ref.submit.new",
+                    "edit": "=> flamarkt-taxonomies.ref.submit.edit"
+                }
+            },
+            "permissions": {
+                "heading": "Taxonomies",
+                "moderate": "Configure available taxonomies",
+                "bypassTermCounts": "Bypass term count requirements",
+                "seeOwnDiscussion": "See taxonomies on own discussions",
+                "seeAnyDiscussion": "See taxonomies on all discussions",
+                "editOwnDiscussion": "Edit taxonomies on own discussions",
+                "editAnyDiscussion": "Edit taxonomies on any discussion",
+                "seeOwnUser": "See taxonomies on own user",
+                "seeAnyUser": "See taxonomies on any user",
+                "editOwnUser": "Edit taxonomies on own user",
+                "editAnyUser": "Edit taxonomies on any user",
+                "ownDisabledEveryone": "Non-activated and suspended members",
+                "ownDisabledMembers": "Activated members"
+            },
+            "settings": {
+                "goToPage": "Go to configuration page"
+            }
+        },
+        "forum": {
+            "composer": {
+                "choose": "Choose {taxonomy}"
+            },
+            "discussion": {
+                "edit": "Edit {taxonomy}"
+            },
+            "user": {
+                "nav": "Taxonomies",
+                "edit": "Edit {taxonomy}"
+            },
+            "blog": {
+                "widget": {
+                    "title": "Taxonomies"
+                }
+            }
+        },
+        "lib": {
+            "modal": {
+                "title": {
+                    "new": "Choose {taxonomy} for your discussion",
+                    "edit": "Edit {taxonomy} for {title}"
+                },
+                "placeholder": "{count, plural, one {Choose a term...} other {Choose # terms...}}",
+                "placeholderOptional": "Choose...",
+                "custom": "Use {value}",
+                "bypassTermCounts": "Bypass term counts",
+                "submit": "OK"
+            }
+        },
+        "api": {
+            "error": {
+                "invalid_filter_taxonomy": "Invalid \"{type}\" taxonomy filter key \"{slug}\"",
+                "discussion_taxonomy_not_in_scope": "Taxonomy \"{slug}\" is not available in the current tag combination",
+                "cannot_use_taxonomies_on_model": "You are not allowed to use taxonomies in this context"
+            }
+        },
+        "ref": {
+            "field": {
+                "name": "Name",
+                "slug": "Slug",
+                "description": "Description",
+                "color": "Color",
+                "icon": "Icon",
+                "iconDescription": "Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the <code>fas fa-</code> prefix."
+            },
+            "delete": "Delete",
+            "submit": {
+                "new": "Create",
+                "edit": "Save"
+            }
+        }
+    }
+}

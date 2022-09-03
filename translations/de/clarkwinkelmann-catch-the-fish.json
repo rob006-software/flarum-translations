@@ -126,7 +126,7 @@
                 "user-probability": "Wahrscheinlichkeit, in ein Benutzerprofil aufgenommen zu werden (%)",
                 "discussion": "Diskussionen",
                 "discussion-age": "Wie alt Diskussionen sein können, damit ein Fisch darauf platziert wird (Tage)",
-                "discussion-tags": "",
+                "discussion-tags": "Tag whitelist",
                 "discussion-tags-unavailable": "Einstellung nicht verfügbar, da die Tags-Erweiterung deaktiviert ist.",
                 "discussion-tags-help": "Wenn Du keinen Tag auswählst, kann jede Diskussion ausgewählt werden, die den obigen Zeiteinstellungen entspricht. Wenn eine beliebige Anzahl von Tags ausgewählt wird, muss in einer Diskussion mindestens eines der ausgewählten Tags ausgewählt werden. Die Wahrscheinlichkeit ist die Chance, ausgewählt zu werden, nachdem alle vorherigen Auswahlmöglichkeiten ausprobiert wurden. Das letzte Tag in der Liste fungiert immer als Fallback, also stelle sicher, dass das Tag mindestens eine gültige Diskussion enthält.\n",
                 "tags-header": {
@@ -141,7 +141,7 @@
                     "delete": "Von Whitelist entfernen"
                 },
                 "tags-fallback": {
-                    "last-line": "",
+                    "last-line": "Zurückfallen",
                     "single-line": "Mindestens 2 Tags für Wahrscheinlichkeit erforderlich"
                 },
                 "post": "Beiträge",

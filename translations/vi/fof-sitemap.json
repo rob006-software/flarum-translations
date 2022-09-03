@@ -2,31 +2,35 @@
     "fof-sitemap": {
         "admin": {
             "settings": {
-                "title": "Sơ đồ trang web",
+                "exclude_users": "Loại bỏ tất cả hồ sơ người dùng khỏi sitemap",
+                "exclude_users_help": "Mặc định bất kỳ người dùng nào đều cũng sẽ được lập chỉ mục",
                 "mode_label": "Chế độ hoạt động",
                 "mode_help": "Chọn chế độ chính xác cho quy mô diễn đàn của bạn là cực kỳ quan trọng.",
                 "mode_help_runtime_label": "Chế độ runtime",
                 "mode_help_runtime": "Đối với các diễn đàn nhỏ, rất có thể trên môi trường lưu trữ được chia sẻ, với các cuộc thảo luận, người dùng, thẻ và trang được tổng hợp dưới 10.000 mục. Sơ đồ trang web được tạo nhanh chóng theo từng yêu cầu.",
                 "mode_help_schedule": "Các chế độ sau đây thêm nhiệm vụ của chúng vào lịch trình Flarum.",
                 "mode_help_schedule_setup": "Nếu không có bộ lập lịch Flarum được thiết lập chính xác, các chế độ sau sẽ không chạy. Tham khảo tại đây <a>để biết thêm thông tin</a>.",
-                "mode_help_cache_disk_label": "Chế độ bộ nhớ đệm/Chế độ đĩa",
-                "mode_help_cache_disk": "Tốt nhất cho các diễn đàn vừa hoặc nhỏ, rất có thể trên các môi trường lưu trữ cho phép cronjobs và bật bộ lập lịch Flarum (xem bên dưới), và với các cuộc thảo luận, người dùng, thẻ và trang được tổng hợp dưới 50.000 mục.",
                 "mode_help_large": "50.000 là giới hạn kỹ thuật cho các tệp sơ đồ trang web. Nếu bạn có nhiều mục nhập hơn để lưu trữ, hãy sử dụng tùy chọn sau!",
                 "mode_help_multi_label": "Chế độ nhiều tệp",
-                "mode_help_multi": "Tốt nhất cho các diễn đàn lớn hơn, bắt đầu từ 50.000 mục. Phần Mult, các tệp sơ đồ trang được nén sẽ được tạo và lưu trữ trong thư mục /public",
+                "mode_help_multi": "Tốt nhất cho các diễn đàn lớn hơn, bắt đầu từ 10.000 mục. Nhều phân, các tệp sơ đồ trang được nén sẽ được tạo và lưu trữ trong thư mục /public",
                 "advanced_options_label": "Tùy chọn nâng cao",
-                "frequency_label": "Bao lâu thì bộ lập lịch nên xây dựng lại bộ đệm hoặc sơ đồ trang dựa trên đĩa?",
+                "frequency_label": "Bao lâu thì trình lên lịch nên tạo lại sơ đồ trang được lưu trong bộ nhớ cache?",
+                "risky_performance_improvements": "Bật các cải tiến hiệu suất rủi ro",
+                "risky_performance_improvements_help": "Những cải tiến này làm cho công việc CRON chạy nhanh hơn trên tập dữ liệu hàng triệu hàng nhưng có thể phá vỡ khả năng tương thích với một số tiện ích mở rộng.",
                 "modes": {
                     "runtime": "Runtime",
+                    "multi_file": "Nhiều tệp",
                     "cache": "Bộ nhớ đệm",
-                    "cache_disk": "Đĩa",
-                    "multi_file": "Nhiều tệp"
+                    "cache_disk": "Đĩa"
                 },
                 "frequency": {
                     "hourly": "Hàng giờ",
                     "twice_daily": "Hai lần mỗi ngày",
                     "daily": "Hằng ngày"
-                }
+                },
+                "mode_help_cache_disk_label": "Chế độ bộ nhớ đệm/Chế độ đĩa",
+                "mode_help_cache_disk": "Tốt nhất cho các diễn đàn vừa hoặc nhỏ, rất có thể trên các môi trường lưu trữ cho phép cronjobs và bật bộ lập lịch Flarum (xem bên dưới), và với các cuộc thảo luận, người dùng, thẻ và trang được tổng hợp dưới 50.000 mục.",
+                "title": "Sơ đồ trang web"
             }
         }
     }

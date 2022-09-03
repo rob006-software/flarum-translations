@@ -2,13 +2,16 @@
     "justoverclock-frontend-blog": {
         "admin": {
             "numberOfPost": "Số lượng bài viết",
+            "setBlogIndexPage": "Đặt tiện ích Frontend Blog làm trang chính",
             "numberOfPost-help": "Nhập số lượng bài viết mà bạn muốn hiển thị",
             "sorting": "Cuộc thảo luận mới nhất hay hot nhất? (mặc định là mới nhất)",
             "sorting-help": "Nếu bạn muốn hiển thị cuộc thảo luận mới nhất thì nhập \"-createdAt\", cuộc thảo luận hot là \"-commentCount\"",
             "charLim": "Giới hạn ký tự",
             "charLim-help": "Nhập số ký tự tối đa để hiển thị",
             "defaultImage": "Ảnh bait viết mặc định",
-            "defaultImage-help": "Bạn có thể đặt ảnh mặc định của bài viết khi không có ảnh nào"
+            "defaultImage-help": "Bạn có thể đặt ảnh mặc định của bài viết khi không có ảnh nào",
+            "showHeaderHero": "Hiển thị Welcome Hero",
+            "showPinnedDiscussions": "Hiện 3 cuộc thảo luận gần đây được ghim"
         },
         "forum": {
             "recentDiscussions": "Cuộc thảo luận gần đây:",
@@ -17,7 +20,11 @@
             "linkToDiscussion": " Liên kết với cuộc thảo luận",
             "postedOn": " Đăng lúc: ",
             "menuButton": "Menu",
-            "allDiscussions": "Tất cả các cuộc thảo luận"
+            "allDiscussions": "Diễn đàn",
+            "signupButton": "Đăng ký",
+            "loginButton": "Đăng nhập",
+            "stickyTitle": "Cuộc thảo luận được ghim",
+            "readMore": "Đọc thêm"
         }
     }
 }

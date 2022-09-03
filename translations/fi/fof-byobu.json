@@ -12,7 +12,7 @@
                 "edit_recipients": "Muokkaa vastaanottajia",
                 "send_pd": "Lähetä käyttäjälle {username} viesti",
                 "cancel": "Peruuta",
-                "make_public": "",
+                "make_public": "Tee keskustelusta julkinen",
                 "remove_from_discussion": "Poistu tästä yksityisestä keskustelusta"
             },
             "composer_private_discussion": {
@@ -20,7 +20,7 @@
                 "title_placeholder": "Yksityisen keskustelun otsikko"
             },
             "confirm": {
-                "make_public": ""
+                "make_public": "Haluatko varmasti poistaa vastaanottajat ja tehdä tästä keskustelusta julkinen kaikille, jotka voi nähdä määritellyn avainsanan?"
             },
             "labels": {
                 "recipients": "{count, plural, one {{count} vastaanottaja} other {{count} vastaanottajaa}}"
@@ -57,7 +57,7 @@
                 "recipients_modified": {
                     "added_and_removed": "{username} lisäsi vastaanottajan {added} ja poisti {removed}.",
                     "added": "{username} lisäsi vastaanottajia {added}.",
-                    "made_public": "",
+                    "made_public": "{username} poisti kaikki vastaanottajat ja teki keskustelusta julkisen",
                     "removed": "{username} poisti vastaanottajat {removed}.",
                     "removed_self": "{username} poistui yksityisestä keskustelusta."
                 }
@@ -87,13 +87,13 @@
                 "create_private_discussions_with_blocking_users": "Luo yksityinen keskustelu käyttäjien kanssa, jotka estävät sen",
                 "edit_user_recipients": "Muokkaa käyttäjiä, jotka osallistuu yksityiseen keskusteluihin",
                 "edit_group_recipients": "Muokkaa ryhmiä, jotka osallistuu yksityiseen keskusteluihin",
-                "make_private_into_public": "",
+                "make_private_into_public": "Muuta yksityinen keskustelu julkiseksi keskusteluksi",
                 "view_private_discussions-when-flagged": "Nähdä muiden yksityiset keskustelut jos raportoitu"
             },
             "settings": {
                 "badge-icon": "Byobu keskusteluikoni",
-                "enable-make-public-option": "",
-                "enable-make-public-option-help": "",
+                "enable-make-public-option": "Ota käyttöön \"tee julkiseksi\" ominaisuus",
+                "enable-make-public-option-help": "Ottaa käyttöön mahdollisuuden niille joilla on oikeus: poistaa kaikki vastaanottajat ja asettaa uuden avainsanan sekä asettaa keskustelun julkiseksi (riippuen avainsanan näkyvyysasetuksista).",
                 "post-event-icon": "Byobu viestitapahtumat"
             }
         },

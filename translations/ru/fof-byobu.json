@@ -12,7 +12,7 @@
                 "edit_recipients": "Изменить участников",
                 "send_pd": "Переписка",
                 "cancel": "Отмена",
-                "make_public": "",
+                "make_public": "Сделать эту дискуссию публичной",
                 "remove_from_discussion": "Покинуть переписку"
             },
             "composer_private_discussion": {
@@ -20,7 +20,7 @@
                 "title_placeholder": "Название переписки..."
             },
             "confirm": {
-                "make_public": ""
+                "make_public": "Вы уверены, что хотите удалить получателей и сделать эту дискуссию видимой для всех имеющих право просмотра назначенного тега?"
             },
             "labels": {
                 "recipients": "{count, plural, one {{count} Участник} other {{count} Участников}}"
@@ -57,7 +57,7 @@
                 "recipients_modified": {
                     "added_and_removed": "{username} добавил(а) {added} и удалил(а) {removed} участников.",
                     "added": "{username} добавил(а) участников: {added}.",
-                    "made_public": "",
+                    "made_public": "{username} удалил всех получателей и сделал дискуссию публичной",
                     "removed": "{username} удалил(а) участников: {removed}.",
                     "removed_self": "{username} покинул(а) переписку."
                 }
@@ -87,13 +87,13 @@
                 "create_private_discussions_with_blocking_users": "Создавать переписки с участниками, отключившие их",
                 "edit_user_recipients": "Изменять список участников в переписках",
                 "edit_group_recipients": "Изменять список групп в переписках",
-                "make_private_into_public": "",
+                "make_private_into_public": "Преобразовать закрытую дискуссию в публичную",
                 "view_private_discussions-when-flagged": "Смотреть переписки других участников при поступлении жалобы"
             },
             "settings": {
                 "badge-icon": "Иконка переписки",
-                "enable-make-public-option": "",
-                "enable-make-public-option-help": "",
+                "enable-make-public-option": "Разрешить возможность \"сделать публичной\"",
+                "enable-make-public-option-help": "Добавляет выбранным пользователям разрешение удалять всех получателей, назначать новый тег и делать дискуссию видимой публично (в соответствии с настройкой видимости выбранного тега).",
                 "post-event-icon": "Иконка события"
             }
         },

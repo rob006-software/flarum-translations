@@ -13,34 +13,34 @@
                 "not-found": "",
                 "no-usages-left": ""
             },
-            "apply": "",
-            "success-alert": ""
+            "apply": "Вступить в группу",
+            "success-alert": "Вы успешно вступили в группу!"
         },
         "admin": {
             "permissions": {
-                "use": ""
+                "use": "Используйте ссылки приглашения в группу"
             },
             "settings": {
                 "head": {
-                    "code": "",
-                    "group": "",
-                    "usage": ""
+                    "code": "Код",
+                    "group": "Группа",
+                    "usage": "Использование"
                 },
                 "placeholder": {
-                    "code": "",
-                    "group": "",
-                    "usage": ""
+                    "code": "Авто-сгенерированное",
+                    "group": "Выберите...",
+                    "usage": "Неограниченно если пустое"
                 },
-                "empty": "",
-                "unlimited": "",
-                "create": "",
-                "delete": ""
+                "empty": "Приглашений пока не создано.",
+                "unlimited": "неограниченно",
+                "create": "Создать",
+                "delete": "Удалить"
             }
         },
         "api": {
             "error": {
-                "not-found": "",
-                "no-usages-left": ""
+                "not-found": "Код приглашения не найден",
+                "no-usages-left": "Приглашение более не может быть использовано"
             }
         }
     }

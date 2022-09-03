@@ -1,23 +1,30 @@
 {
     "justoverclock-frontend-blog": {
         "admin": {
-            "numberOfPost": "",
-            "numberOfPost-help": "",
-            "sorting": "",
+            "numberOfPost": "Число сообщений",
+            "setBlogIndexPage": "Установить расширение Frontend Blog как главную страницу форума",
+            "numberOfPost-help": "Введите здесь число сообщений, которые должны отображаться",
+            "sorting": "Свежие или активные обсуждения? (по умолчанию свежие)",
             "sorting-help": "",
             "charLim": "",
             "charLim-help": "",
             "defaultImage": "",
-            "defaultImage-help": ""
+            "defaultImage-help": "",
+            "showHeaderHero": "",
+            "showPinnedDiscussions": "Показать последние 3 закрепленные дискуссии"
         },
         "forum": {
-            "recentDiscussions": "",
-            "titlePage": "",
-            "post": "",
-            "linkToDiscussion": "",
-            "postedOn": "",
-            "menuButton": "",
-            "allDiscussions": ""
+            "recentDiscussions": "Последние дискуссии:",
+            "titlePage": "Дискуссии форума",
+            "post": "{count, plural, one {# сообщение} other {# сообщений}}",
+            "linkToDiscussion": " Ссылка на дискуссию",
+            "postedOn": " Отправлено в: ",
+            "menuButton": "Меню",
+            "allDiscussions": "Форум",
+            "signupButton": "Подписка",
+            "loginButton": "Логин",
+            "stickyTitle": "Закрепленные дискуссии",
+            "readMore": "Читать далее"
         }
     }
 }

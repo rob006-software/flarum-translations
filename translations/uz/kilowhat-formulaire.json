@@ -62,6 +62,7 @@
                     "title": "Sarlavha",
                     "accept-submissions": "Ochish",
                     "allow-modification": "O'zgartirish",
+                    "enabled": "",
                     "submissions": "Jo'natilganlar",
                     "actions": "Harakatlar"
                 }
@@ -108,7 +109,9 @@
                     "closed": "Yopiq",
                     "create": "Faqat yaratish",
                     "edit": "Faqat o'zgartirish",
-                    "both": "Yaratish va o'zgartirish"
+                    "both": "Yaratish va o'zgartirish",
+                    "enabled": "",
+                    "disabled": ""
                 },
                 "controls": "Boshqaruvlar",
                 "template-export": "Shablon import/eksport",
@@ -146,6 +149,7 @@
                     "automatic-discussion-help": "Yoqilganda, shakl mustaqil shakl kabi kirishda davom etadi. Taqdim etilganlar avtomatik ravishda yangi munozaralar yaratadi va ular bilan bog'lanadi.\n",
                     "accept-submissions": "Yangi arizalarni qabul qilish",
                     "allow-modification": "Foydalanuvchilarga o'zlarining mavjud xabarlarini tahrirlashiga ruxsat berish",
+                    "enable": "",
                     "max-submissions": "Maksimal taqdimotlar (cheksiz uchun bo'sh qoldiring)",
                     "send-confirmation-to-participants": "Ishtirokchilarga tasdiqlovchi elektron pochta xabarini yuboring",
                     "notify-emails": "Vergul bilan ajratilgan xatlarga maʼlumotlarning nusxasini yuboring",
@@ -346,6 +350,10 @@
                     "boolean-true": "Rost",
                     "boolean-false": "Yolg'on"
                 }
+            },
+            "discussion-submission": {
+                "empty": "",
+                "edit": ""
             }
         },
         "api": {

@@ -8,6 +8,7 @@
         "admin": {
             "settings": {
                 "modal": {
+                    "always_show_theme_toggle_on_header": "Tema değiştirme düğmesini her zaman forum başlığında göster",
                     "default_theme": "Varsayılan forum teması",
                     "default_theme_helper": "Varsayılan tema, yeni kullanıcılar, misafirler ve tercihi ayarlanmamış olanlar için otomatik olarak ayarlanır.",
                     "theme_auto": "=> fof-nightmode.ref.auto",
@@ -19,6 +20,9 @@
         "forum": {
             "day": "=> fof-nightmode.ref.light",
             "night": "=> fof-nightmode.ref.dark",
+            "header": {
+                "nightmode_button": "Forum temasını değiştir"
+            },
             "user": {
                 "settings": {
                     "heading": "Tema",
@@ -38,6 +42,16 @@
                         "night": "Biraz gece kuşu gibisin. Kuşlar uyurken ve tilkiler avlanırken forumda geziniyorsun. Ya da sadece koyu renkleri seviyor olabilirsin!"
                     }
                 }
+            }
+        }
+    },
+    "fof-default-user-preferences": {
+        "admin": {
+            "settings": {
+                "fofNightMode": "FoF Gece Modu: Varsayılan olarak kullanılacak renk teması",
+                "fofNightMode-help": "0 - otomatik, 1 - gündüz modu, 2 - gece modu",
+                "fofNightMode_perDevice": "FoF Gece Modu: Cihaz ayarlarına göre kullan",
+                "fofNightMode_perDevice-help": "Gece modu ayarları için cihaz başına tercihleri kullanın"
             }
         }
     }

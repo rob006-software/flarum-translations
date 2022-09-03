@@ -2,23 +2,23 @@
     "clarkwinkelmann-clippy": {
         "admin": {
             "settings": {
-                "cdn": "",
+                "cdn": "CDN",
                 "cdn-options": {
-                    "s3": "",
-                    "jsdelivr": "",
-                    "custom": ""
+                    "s3": "Amazon S3",
+                    "jsdelivr": "jsDelivr",
+                    "custom": "Egyéni"
                 },
-                "path": "",
-                "path-help": "",
-                "agent": "",
-                "agent-help": "",
-                "events": "",
-                "events-help": ""
+                "path": "Egyéni CDN-útvonal",
+                "path-help": "Egy teljes webcím, záró perjel nélkül, amely a <a>clippy.js tároló</a> tartalmát tartalmazó mappára mutat.",
+                "agent": "Ügynök",
+                "agent-help": "Minden ügynöknek különböző animációi vannak. Az ügynök módosítása törli az összes nem kompatibilis animációt a beállításai közül.",
+                "events": "Események",
+                "events-help": "Válassza ki, hogy mely animációk és szövegbuborékok jelenjenek meg ezen eseményekkor"
             },
             "events": {
-                "name": "",
-                "animation": "",
-                "text": ""
+                "name": "Esemény",
+                "animation": "Animáció",
+                "text": "Szöveg"
             }
         }
     }

@@ -1,24 +1,28 @@
 {
     "fof-nightmode": {
         "ref": {
-            "auto": "",
-            "light": "",
-            "dark": ""
+            "auto": "Automatisch (op basis van browser- of apparaatinstellingen)",
+            "light": "Dagmodus",
+            "dark": "Nachtmodus"
         },
         "admin": {
             "settings": {
                 "modal": {
-                    "default_theme": "",
-                    "default_theme_helper": "",
-                    "theme_auto": "",
-                    "theme_light": "",
-                    "theme_dark": ""
+                    "always_show_theme_toggle_on_header": "",
+                    "default_theme": "Standaard forumthema",
+                    "default_theme_helper": "Het standaardthema wordt automatisch ingesteld voor nieuwe gebruikers, gasten en degenen die geen voorkeuren hebben ingesteld.",
+                    "theme_auto": "=> fof-nightmode.ref.auto",
+                    "theme_light": "=> fof-nightmode.ref.light",
+                    "theme_dark": "=> fof-nightmode.ref.dark"
                 }
             }
         },
         "forum": {
             "day": "Dagmodus",
             "night": "Nachtmodus",
+            "header": {
+                "nightmode_button": "Forumthema wisselen"
+            },
             "user": {
                 "settings": {
                     "heading": "Thema",
@@ -33,11 +37,21 @@
                         "night": "=> fof-nightmode.ref.dark"
                     },
                     "option_descriptions": {
-                        "auto": "",
-                        "day": "",
-                        "night": ""
+                        "auto": "Uw thema wordt automatisch geselecteerd op basis van uw browser- of apparaatinstellingen. Als je bijvoorbeeld de donkere modus hebt ingeschakeld in iOS, zijn de forums ook donker.",
+                        "day": "De klassieke ervaring die u gewend bent. Geliefd en getest.",
+                        "night": "Je bent een beetje een nachtuil. Je waakt 's nachts over het forum, terwijl de vogels slapen en de vossen jagen. Of je hebt gewoon liever de donkere kleuren!"
                     }
                 }
+            }
+        }
+    },
+    "fof-default-user-preferences": {
+        "admin": {
+            "settings": {
+                "fofNightMode": "",
+                "fofNightMode-help": "",
+                "fofNightMode_perDevice": "",
+                "fofNightMode_perDevice-help": ""
             }
         }
     }

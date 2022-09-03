@@ -2,7 +2,8 @@
     "davwheat-virtual-authors": {
         "admin": {
             "permissions": {
-                "set_virtual_authors": "Tartışmalarda sanal yazarlar belirleyin"
+                "set_virtual_authors": "Tartışmalarda sanal yazarlar belirleyin",
+                "view_virtual_authors_page": "Tüm sanal yazarları detaylandıran sayfayı görüntüle"
             },
             "settings": {
                 "errored": "Sunucudan sanal yazarlar yüklenemedi.",
@@ -12,6 +13,8 @@
                 "link_to_va_from_discussion": "'Yazarlar' kutusunda sanal bir yazar tarafından yapılan tüm tartışmaların bağlantısını göster",
                 "authors_in_sidebar": "Yazarları ilk gönderi yerine kenar çubuğunda göster",
                 "authors_in_sidebar_help": "Bunun Blog uzantısı için bir etkisi yoktur.",
+                "virtual_authors_page_disabled": "Tüm kullanıcılar için sanal yazarlar listesini devre dışı bırakın.",
+                "virtual_authors_page_disabled_help": "Bu, bu özellik için ayarlanmış tüm izinleri geçersiz kılar.",
                 "discussion_badge": "Sanal Yazarlarla yapılan tartışmalarda rozeti göster",
                 "prev": "Önceki sayfa",
                 "next": "Sonraki Sayfa"
@@ -43,7 +46,16 @@
             "virtual_author_page": {
                 "meta_title": "{displayName} - Yazarlar",
                 "credited_discussions": "Tartışmalar {displayName} hesabına aktarıldı",
-                "discussion_count": "{count, plural, one {# tartışma}, other {# tartışma}}"
+                "discussion_count": "=> davwheat-virtual-authors.ref.discussion_count"
+            },
+            "virtual_authors_list": {
+                "sidebar_link": "Yazarlar",
+                "empty_text": "Burada yazar yok gibi görünüyor.",
+                "title": "Tüm yazarlar",
+                "meta_title": "Tüm yazarlar",
+                "filter_name_placeholder": "Ada göre filtrele",
+                "discussion_count": "=> davwheat-virtual-authors.ref.discussion_count",
+                "no_description": "Bu yazar onlar hakkında bir gizem havası tutar."
             },
             "virtual_authors_panel": {
                 "heading": "Yazarlar",
@@ -70,7 +82,8 @@
             }
         },
         "ref": {
-            "no_description": "(açıklama seti yok)"
+            "no_description": "(açıklama seti yok)",
+            "discussion_count": "{count, plural, one {# tartışma}, other {# tartışma}}"
         }
     }
 }

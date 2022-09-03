@@ -11,7 +11,7 @@
                 "random_username_help": "Thao tác này sẽ ẩn input `username` khi đăng ký và thay vào đó sử dụng một số ngẫu nhiên. Nó cũng sẽ làm cho trường `biệt hiệu` trở thành bắt buộc. Điều này sẽ chỉ có hiệu lực nếu \"Cho phép đặt biệt hiệu khi đăng ký\" được bật.",
                 "regex_label": "Biểu thức chính quy để xác thực",
                 "set_on_registration_label": "Cho phép thiết lập biệt hiệu khi đăng ký",
-                "unique_label": "Bắt buộc biệt danh phải chỉ có một?"
+                "unique_label": "Bắt buộc biệt danh duy nhất"
             },
             "wrong_driver": "Bạn phải chọn \"biệt danh\" làm trình điều khiển tên hiển thị trên trang <a><strong>Cơ bản</strong></a> để tiện ích mở rộng này có hiệu lực."
         },
@@ -25,7 +25,7 @@
             },
             "edit_user": {
                 "nicknames_heading": "=> flarum-nicknames.ref.change_nickname",
-                "nicknames_text": "Biệt danh"
+                "nicknames_text": "=> flarum-nicknames.ref.nickname"
             },
             "settings": {
                 "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
