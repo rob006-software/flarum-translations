@@ -7,50 +7,50 @@
                 "composerHelpTextPositionTooltip": "Tooltip (אחרי התווית)",
                 "composerHelpTextPositionHidden": "מוסתר",
                 "avatars": "אווטרים אנונימיים",
-                "avatarsHelp": "",
-                "avatarFormId": "",
-                "avatarFieldKey": "",
-                "avatarFieldValue": "",
-                "avatarAvatarUrl": "",
-                "avatarAdd": ""
+                "avatarsHelp": "הרחבה זו דורשת הרחבת פרימיום <a>Formulaire extension</a>. השימוש בתכונה זו גורם להשפעה קטנה על הביצועים מכיוון שנדרשות בקשות נוספות למסד נתונים כדי לאחזר נושאים והודעות. ראה README לפרטים נוספים על הפורמט עבור כל קלט.\n",
+                "avatarFormId": "מספר טופס",
+                "avatarFieldKey": "מפתח שדה",
+                "avatarFieldValue": "ערך שדה",
+                "avatarAvatarUrl": "קישור אווטר",
+                "avatarAdd": "הוספת תנאי אווטר"
             },
             "permissions": {
-                "use": "",
-                "reveal": "",
-                "moderate": ""
+                "use": "שליחה אנונימית",
+                "reveal": "צפיה במחברים האמיתיים של נושאים והודעות אנונימיות",
+                "moderate": "אנונימי ואנטי-אנונימיות של נושאים והודעות"
             }
         },
         "forum": {
             "composerControls": {
-                "anonymize": "",
-                "anonymizeHelp": ""
+                "anonymize": "שליחה בצורה אנונימית",
+                "anonymizeHelp": "הנהלת האתר עדיין תדע שיצרת את התוכן הזה"
             },
             "discussionControls": {
-                "anonymize": "",
-                "anonymizeConfirmation": "",
-                "deanonymize": "",
-                "deanonymizeConfirmation": ""
+                "anonymize": "להפוף לאנונימי",
+                "anonymizeConfirmation": "זה יגרום למחבר להיות אנונימי. ההודעה הראשונה צריכה להיות אנונימית בנפרד. להמשיך?",
+                "deanonymize": "להפוף ללא אנונימי",
+                "deanonymizeConfirmation": "זה יגרום למחבר המקורי של ההודעה להיות ציבורי שוב. להמשיך?"
             },
             "postControls": {
-                "anonymize": "",
-                "firstPostConfirmation": "",
-                "deanonymize": "",
-                "deanonymizeConfirmation": ""
+                "anonymize": "להפוף לאנונימי",
+                "firstPostConfirmation": "זה יגרום להודעה הראשונה בנושא להיות אנונימית. הנושא חייב להיות אנונימי בנפרד. להמשיך?",
+                "deanonymize": "להפוף ללא אנונימי",
+                "deanonymizeConfirmation": "זה יגרום למחבר המקורי של ההודעה להיות ציבורי שוב. להמשיך?"
             },
             "discussionList": {
-                "genericReplyText": ""
+                "genericReplyText": "תגובה אחרונה לפני {ago}"
             },
             "postPrivacy": {
-                "mine": "",
-                "mineHelp": "",
-                "profile": "",
-                "profileHelp": ""
+                "mine": "אני",
+                "mineHelp": "רק האפשרותך לראות את המידע הזה",
+                "profile": "נראה רק לך",
+                "profileHelp": "רק באפשרותך לראות את ההודעות האנונימיות בפרופיל שלך"
             }
         },
         "lib": {
             "userMeta": {
-                "initials": "",
-                "username": ""
+                "initials": "?",
+                "username": "אנונימי"
             }
         }
     }
