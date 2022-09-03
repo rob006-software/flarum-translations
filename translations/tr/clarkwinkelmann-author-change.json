@@ -10,6 +10,9 @@
                 "user": "Yazar",
                 "created_at": "Oluşturma zamanı",
                 "edited_at": "Düzenleme zamanı",
+                "sync-with-discussion": "Tartışmayla senkronize et",
+                "sync-with-post": "İlk gönderiyle senkronize et",
+                "sync-impossible": "İlk gönderiyi bulamıyor. Tartışmanın başlangıcına kaydırmayı deneyin.",
                 "submit": "Kaydet",
                 "cancel": "İptal"
             },
@@ -22,8 +25,7 @@
         "admin": {
             "permissions": {
                 "edit-user": "Tartışmayı ve gönderi yazarını güncelle",
-                "edit-date": "Tartışmayı ve gönderi tarihini güncelle",
-                "edit": "Tartışma ve gönderi yazarını değiştirme"
+                "edit-date": "Tartışmayı ve gönderi tarihini güncelle"
             }
         }
     }

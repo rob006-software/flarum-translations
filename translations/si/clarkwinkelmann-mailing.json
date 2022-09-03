@@ -1,0 +1,43 @@
+{
+    "clarkwinkelmann-mailing": {
+        "admin": {
+            "permissions": {
+                "mail_individual": "",
+                "mail_all": ""
+            }
+        },
+        "forum": {
+            "links": {
+                "mail_individual": "",
+                "mail_all": ""
+            },
+            "modal_mail": {
+                "title_text": "",
+                "recipients_label": "ලබන්නන්",
+                "recipients_placeholder": "",
+                "subject_label": "මාතෘකාව",
+                "default_subject": "=> clarkwinkelmann-mailing.ref.default_subject",
+                "message_label": "පණිවිඩය",
+                "submit_button": "යවන්න"
+            },
+            "modal_sent": {
+                "title_text": "",
+                "on_its_way": ""
+            },
+            "recipient_kinds": {
+                "user": "පරිශීලක",
+                "group": "සමූහය",
+                "email": "විද්‍යුත් තැපෑල"
+            }
+        },
+        "api": {
+            "no_recipients": ""
+        },
+        "email": {
+            "default_subject": "=> clarkwinkelmann-mailing.ref.default_subject"
+        },
+        "ref": {
+            "default_subject": ""
+        }
+    }
+}

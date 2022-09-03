@@ -1,50 +1,110 @@
 {
     "blomstra-payments": {
         "forum": {
+            "stripe": {
+                "interval_once": ""
+            },
+            "subscription-card": {
+                "ptv": "",
+                "pta": "",
+                "ptb": "",
+                "ptp": "",
+                "cancel-control": "",
+                "none": "",
+                "bounty": ""
+            },
             "pay-to-view": {
-                "purchase-control": "",
-                "purchase-log-in": "",
-                "purchase-completed": "",
-                "description": ""
+                "purchase-control": "付费浏览",
+                "purchase-log-in": "登录并付费浏览",
+                "purchase-completed": "已解锁",
+                "description": "此贴需要您通过第三方支付平台 Stripe 完成付款来解锁内容。\n"
             },
             "pay-to-post": {
+                "purchase-control": "付费发表",
+                "purchase": "付款",
+                "purchase_required": "通过第三方支付平台 Stripe 完成付款后，您的主题即可发布。点击付款，查看费用并选择付款方式。\n"
+            },
+            "pay-to-bump": {
+                "description": "",
                 "purchase-control": "",
-                "purchase": "",
-                "purchase_required": ""
+                "purchase-log-in": ""
             },
-            "tag": {
-                "require-payment-label": ""
+            "bounties": {
+                "purchase-control": "",
+                "enable-control": ""
             },
-            "payment-options-modal": {
+            "choose-bounty-amount-modal": {
                 "title": "",
+                "checkout-control": "",
                 "description": ""
             },
+            "backers-widget": {
+                "label": "",
+                "none": ""
+            },
+            "tag": {
+                "require-payment-label": "费用"
+            },
+            "payment-options-modal": {
+                "title": "用户组 {group} 付款方式",
+                "description": "选择一个选项开始解锁用户组。您将被跳转到第三方支付平台 Stripe 完成付款。\n"
+            },
             "access-portal": {
-                "options": "",
-                "purchase": ""
+                "options": "选项",
+                "purchase": "付款",
+                "subscribed": ""
             },
             "nav": {
-                "access_portal": ""
+                "access_portal": "访问门户",
+                "user_subscriptions": ""
+            },
+            "exceptions": {
+                "out-of-bounds-amount": {
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "accept-terms-modal": {
+                "accept_label": "",
+                "continue_button": "",
+                "title": ""
             }
         },
         "admin": {
             "edit-tag": {
-                "select-ptp-product": "",
-                "select-ptp-product-description": "",
-                "select-ptv-product": "",
-                "select-ptv-product-description": "",
-                "visible-from": "",
-                "visible-from-description": ""
+                "select-ptp-product": "收费计划（PTP 付费发表）",
+                "select-ptp-product-description": "为标签选择收费计划，标签下主题帖的发表将需要支付相应的费用。按帖子收费，可适用于广告贴。前往 Stripe 仪表板创建「一次性」付费计划，并将 <code>prod_</code> 开头的 ID 粘贴到这里。\n",
+                "select-ptv-product": "收费计划（PTV 付费浏览）",
+                "select-ptv-product-description": "选择一个收费计划，以永久解锁限界帖子的浏览权限。前往 Stripe 仪表板创建付费计划，并将 <code>prod_</code> 开头的 ID 粘贴到这里。\n",
+                "visible-from": "隐藏限界",
+                "visible-from-description": "指定付费才能解锁的帖子。0 表示所有帖子，1 表示首贴后的帖子。\n",
+                "select-ptb-product": "",
+                "select-ptb-product-description": "",
+                "bump-others": "",
+                "bump-others-description": "",
+                "select-bounty-product": "",
+                "select-bounty-description": ""
             },
             "edit-group": {
-                "select-pta-product": "",
-                "select-pta-product-description": ""
+                "select-pta-product": "收费计划（PTA 付费加入）",
+                "select-pta-product-description": "选择解锁用户组权限的收费计划。如果是订阅制，则访问权跟随订阅期限。前往 Stripe 仪表板创建付费计划，并将 <code>prod_</code> 开头的 ID 粘贴到这里。\n"
             },
             "settings": {
-                "pk": "",
-                "sk": "",
-                "webhook-secret": "",
-                "link-access-portal": ""
+                "pk": "公钥（api）",
+                "sk": "Secret (api) key",
+                "webhook-secret": "Webhook signing secret",
+                "link-access-portal": "在用户会话下拉菜单中链接访问门户",
+                "link-to-terms": ""
+            },
+            "permission": {
+                "enable-bounties": ""
+            }
+        }
+    },
+    "core": {
+        "forum": {
+            "index_sort": {
+                "mostBacked_button": ""
             }
         }
     }

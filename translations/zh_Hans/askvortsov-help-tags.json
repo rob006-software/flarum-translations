@@ -4,6 +4,15 @@
             "permissions": {
                 "view_tag_label": "查看标签"
             }
+        },
+        "forum": {
+            "discussion_controls": {
+                "show_to_all_button": "对此标签下有权发帖者公开。",
+                "unshow_to_all_button": "对有权浏览论坛者公开"
+            },
+            "badge": {
+                "show_to_all_tooltip": "此主题对其标签下有权发帖的所有用户可见。"
+            }
         }
     }
 }

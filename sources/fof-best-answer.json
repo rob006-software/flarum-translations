@@ -10,15 +10,29 @@
                     "general": "General",
                     "reminders": "Reminders",
                     "advanced": "Advanced",
-                    "reminders_notice": "For reminders to function correctly, you must have set up the Flarum scheduler correctly."
+                    "reminders_notice": "For reminders to function, you must have set up the Flarum scheduler correctly."
                 },
-                "allow_select_own_post": "Allow users to select their own posts",
-                "select_best_answer_reminder_days": "Remind users to select a best answer after X days",
-                "schedule_on_one_server": "Use 'onOneServer()' directive for the task scheduler (requires Redis/Memcache)",
-                "schedule_stop_overnight": "Prevent the reminder scheduler from running during unsocial hours (9pm - 8am server time)",
+                "allow_select_own_post": "Select own post",
+                "allow_select_own_post_help": "Allow the OP to select one of their own posts in the discussion as best answer",
+                "enable_all_tags_button": "Enable all tags for Best Answers",
+                "enable_all_tags_reminder_button": "Enable all tags for Best Answer reminders",
+                "select_best_answer_reminder_days": "Reminder frequency",
+                "select_best_answer_reminder_days_help": "Send a reminder after the configurable amount of days to the OP to select a Best Answer, 0 = disable reminders.",
+                "schedule_on_one_server": "Use 'onOneServer()' directive for the task scheduler",
+                "schedule_on_one_server_help": "Requires Redis/Memcache",
+                "schedule_stop_overnight": "Prevent reminder notifications being sent during unsocial hours",
+                "schedule_stop_overnight_help": "9pm - 8am server time",
                 "schedule_log_output": "Append scheduler output to log storage",
-                "remind_tag_ids": "To restrict reminders to particular tags, enter the tag ID's here (comma seperated)",
-                "use_alt_ui": "Use alternative layout (best answer buttons in post footer)"
+                "show_filter_label": "Display Best Answer filter dropdown",
+                "show_filter_help": "For tags which have Best Answers enabled, choose to display solved/unsolved filter option in the discussion list",
+                "use_alt_ui": "Alternative layout",
+                "use_alt_ui_help": "Best answer controls in post footer",
+                "documentation": "Documentation",
+                "introduction": "Enable which tags are to support Best Answers in <code><a>flarum/tags</a></code>, and optionally which tag(s) should support reminders. When a tag is Best Answer enabled, assign permissions to each user group that may set answers (own discussion, any discussion). Permissions may be assigned globally (for any Best Answer anabled tag), or on a per tag basis.\n"
+            },
+            "edit_tag": {
+                "qna_label": "Enable Best Answers to be set in this tag",
+                "reminders": "Send reminders to set a Best Answer for discussions in this tag"
             }
         },
         "forum": {
@@ -35,9 +49,28 @@
                 "content": "Please select a Best Answer if your question has been answered",
                 "awarded": "Your post was set as the best answer by {username}",
                 "preferences": {
-                    "awarded_best_answer": "When someone sets my post as a best answer",
-                    "best_answer_in_discussion": "When a best answer is set in a discussion I participated in"
+                    "awarded_best_answer": "Someone sets my post as a best answer",
+                    "best_answer_in_discussion": "A best answer is set in a discussion I participated in",
+                    "select_best_answer": "An automated reminder to select a best answer in a discussion I started"
                 }
+            },
+            "index": {
+                "ask_question": "Ask a Question",
+                "cannot_ask_question": "Cannot Ask a Question",
+                "solved_link": "Solved discussions",
+                "unsolved_link": "Unsolved discussions"
+            },
+            "filter": {
+                "all_label": "All questions",
+                "solved_label": "Solved questions",
+                "unsolved_label": "Unsolved questions",
+                "accessible_label": "Solved/Unsolved selection"
+            },
+            "composer": {
+                "titlePlaceholder": "Question title"
+            },
+            "user": {
+                "best-answer-count": "{count, plural, one { {count} best answer} other {{count} best answers}}"
             }
         },
         "email": {
@@ -47,9 +80,9 @@
                 "select": "Did you manage get your question answered?"
             },
             "body": {
-                "awarded": "Hey {recipient_display_name},\n\nGreat job, {actor_display_name} just set your post as the best answer in the discussion '{discussion_title}'. Thanks for helping out.\n\nView it here: {discussion_url}\n",
-                "ba-set": "Hey {recipient_display_name},\n\n{actor_display_name} just set a best answer in the discussion '{discussion_title}', which you participated in.\n\nCheck it out: {discussion_url}\n",
-                "select": "Hey {recipient_display_name},\n\nJust checking in; by now you should have plenty of replies to your question - '{discussion_title}'. Hopefully one of them has helped you solve your problem.\n\nIf so, it would be really helpful for future members if you could set a best answer to your question. It'll help people with the same problem find the answer they need, and it's also a big thank you to the members who helped you out. They give their time voluntarily, so it's nice to let them know that they're doing well.\n\nVisit the discussion here: {discussion_url}, and select the most appropriate post as the best answer.\n\nThanks!\n"
+                "awarded": "Hey {recipient_display_name},\n\nGreat job, {actor_display_name} just set your post as the best answer in the discussion: {discussion_title}. Thanks for helping out.\n\nView it here: {discussion_url}\n",
+                "ba-set": "Hey {recipient_display_name},\n\n{actor_display_name} just set a best answer in the discussion: {discussion_title}, which you participated in.\n\nCheck it out: {discussion_url}\n",
+                "select": "Hey {recipient_display_name},\n\nJust checking in; by now you should have plenty of replies to your question: {discussion_title}. Hopefully one of them has helped you solve your problem.\n\nIf so, it would be really helpful for future members if you could set a best answer to your question. It'll help people with the same problem find the answer they need, and it's also a big thank you to the members who helped you out. They give their time voluntarily, so it's nice to let them know that they're doing well.\n\nVisit the discussion here: {discussion_url}, and select the most appropriate post as the best answer.\n\nThanks!\n"
             }
         }
     }

@@ -7,8 +7,8 @@
         },
         "forum": {
             "post": {
-                "was_split_to": "{count} post è stato diviso in {target}. | {count} post sono stati divisi in {target}.",
-                "was_split_from": "{count} post è stato diviso da {target}. | {count} post sono stati divisi da {target}."
+                "was_split_to": "{count, plural, one {{count} post è stato diviso in {target}.} other {{count} post sono stati divisi in {target}.}}",
+                "was_split_from": "{count, plural, one {{count} post è stato diviso da {target}.} other {{count} post sono stati divisi da {target}.}}"
             },
             "split": {
                 "from": "Dividi da qui",

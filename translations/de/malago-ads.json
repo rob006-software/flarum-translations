@@ -1,0 +1,36 @@
+{
+    "flagrow-ads": {
+        "admin": {
+            "buttons": {
+                "save": "Einstellungen speichern"
+            },
+            "positions": {
+                "under-header": {
+                    "title": "Anzeigenposition unter Navigationskopfzeile",
+                    "placeholder": "Hier deinen Anzeigencode eingeben."
+                },
+                "between-posts": {
+                    "title": "Anzeigenposition zwischen Posts",
+                    "placeholder": "=> flagrow-ads.admin.positions.under-header.placeholder"
+                },
+                "under-nav-items": {
+                    "title": "Anzeigenposition in der linken Spalte unter Tags auf der Startseite",
+                    "placeholder": "=> flagrow-ads.admin.positions.under-header.placeholder"
+                }
+            },
+            "settings": {
+                "adsense-title": "AdSense-Einstellungen",
+                "position-title": "Anzeigenplatzierungen",
+                "adsense-enable": "AdSense aktiviert",
+                "adsense-client-id": "Deine Publisher-ID angeben",
+                "start-from-post": "Angeben, ab welchem Beitrag eine Anzeige geschaltet werden soll",
+                "between-n-posts": "Angeben, nach wie vielen Beiträgen eine Anzeige geschaltet werden soll",
+                "header-only-frontpage": "Unter der Navigationskopfzeile wird die Anzeige nur auf der Titelseite angezeigt"
+            },
+            "tab": {
+                "title": "Werbung",
+                "description": "Anzeigenpräferenzen und -positionen festlegen."
+            }
+        }
+    }
+}

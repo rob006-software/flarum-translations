@@ -7,6 +7,7 @@
             },
             "buttons": {
                 "view-profile": "Zobacz profil",
+                "edit-profile": "Edytuj profil",
                 "save-profile": "Zapisz"
             },
             "fields": {
@@ -28,6 +29,7 @@
                 "delete-field": "Usuń pole"
             },
             "permissions": {
+                "edit-others-profile": "Edycja cudzego profilu masquerade",
                 "have-profile": "Posiadanie profilu masquerade",
                 "view-profile": "Przeglądanie profilu masquerade"
             },
@@ -59,10 +61,6 @@
                 "email": "E-mail",
                 "select": "Lista rozwijana",
                 "url": "URL"
-            },
-            "title": "Masquerade",
-            "menu": {
-                "description": "Konfiguruj pola profilu użytkownika.\n"
             }
         }
     }

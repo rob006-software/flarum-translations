@@ -5,9 +5,6 @@
                 "title": "Upload",
                 "description": "Set up uploading services and preferences."
             },
-            "buttons": {
-                "save": "Save settings"
-            },
             "help_texts": {
                 "disable-download-logging": "Disable logging every download made by users of your forum. Keeping it enabled allows you to view the number of downloads and other metrics in the nearby future.\n",
                 "disable-hotlink-protection": "Hotlink protection prevents opening downloads from other sites. Current method requires a csrf token and post id.\n",
@@ -18,6 +15,7 @@
                 "watermark": "Choose whether images will have a watermark added during upload. Watermarks are added to non-gifs based on your preferences below.\n",
                 "s3_compatible_storage": "The following settings are only required when using S3 compatible storage. If you use AWS, you can leave them blank.\n",
                 "s3_acl": "The ACL that should be applied to the uploaded object (default: private). For possible values, see https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_instance_profile": "Leave key and secret empty to use credentials in instance profile.\n",
                 "composer_buttons": "By default both the media manager button and upload button are visible. You can also choose to display only one button.\n"
             },
             "labels": {
@@ -42,7 +40,8 @@
                 },
                 "imgur": {
                     "client_id": "Imgur client ID",
-                    "title": "Imgur image storage settings"
+                    "title": "Imgur image storage settings",
+                    "tos": "It is your responsibility to ensure your forum users adhere to Imgur's <a>Terms of service</a>"
                 },
                 "local": {
                     "cdn_url": "Content Delivery URL (prefixes files)",
@@ -57,7 +56,8 @@
                 "preferences": {
                     "max_file_size": "Maximum file size (in kilobytes)",
                     "mime_types": "Configure your mime type, upload adapter mapping",
-                    "title": "General preferences"
+                    "title": "General preferences",
+                    "php_ini_values": "Your <code>php.ini</code> values are <code>post_max_size={post}</code> and <code>upload_max_filesize={upload}</code>. Ensure the value set here is below these thresholds, or adjust them accordingly. If using <code>Nginx</code>, also ensure that <code>client_max_body_size</code> is of sufficient size for your chosen max limit."
                 },
                 "resize": {
                     "max_width": "Maximum image width/height",
@@ -80,7 +80,8 @@
                         "upload-btn": "Upload button only",
                         "media-btn": "Media manager button only"
                     }
-                }
+                },
+                "inspect-mime": "Test file MIME type"
             },
             "permissions": {
                 "download_label": "Download files",
@@ -92,11 +93,17 @@
                 "file": "Default file download template",
                 "file_description": "Shows the file name and some general information. Proxies downloads through php, allowing for statistics gathering and hotlink protection.\n",
                 "image": "Default image download template",
+                "image_description": "Shows a thumbnail of the image and proxies download through php. Allowing statistics to be gathered and hotlink protection.\n",
                 "image-preview": "Complete image preview template",
                 "image-preview_description": "Shows the complete image in-line. No download functionality, no statistics are gathered and hotlink protection is ignored.\n",
-                "image_description": "Shows a thumbnail of the image and proxies download through php. Allowing statistics to be gathered and hotlink protection.\n",
+                "markdown-image": "Markdown image template",
+                "markdown-image_description": "Shows the complete image in-line using Markdown. <strong>You must have flarum/markdown installed and enabled for this to work.</strong> No download functionality, no statistics are gathered and hotlink protection is ignored.\n",
+                "bbcode-image": "BBCode image template",
+                "bbcode-image_description": "Shows the complete image in-line using BBCode. <strong>You must have flarum/bbcode installed and enabled for this to work.</strong> No download functionality, no statistics are gathered and hotlink protection is ignored.\n",
                 "just-url": "Just URL",
-                "just-url_description": "Inserts just the URL. Rendering can be handled by other extensions with auto-link ability. No download functionality, no statistics are gathered and hotlink protection is ignored.\n"
+                "just-url_description": "Inserts just the URL. Rendering can be handled by other extensions with auto-link ability. No download functionality, no statistics are gathered and hotlink protection is ignored.\n",
+                "text-preview": "Text preview",
+                "text-preview_description": "Inserts a preview (first 5 lines) of the text file, with an option to expand to reveal the full contents of the file.\n"
             },
             "upload_methods": {
                 "aws-s3": "S3/Compatible",
@@ -104,6 +111,19 @@
                 "local": "Local",
                 "ovh-svfs": "OVH SVFS",
                 "qiniu": "QiNiu"
+            },
+            "inspect-mime": {
+                "title": "Inspect MIME",
+                "description": "FoF Upload uses the <a>PHP Mime Detector</a> library for common MIME types and PHP Fileinfo as a fallback.\nThe MIME value returned by Fileinfo can be different from server to server!\n",
+                "select": "Select a file below to inspect the values that will be used. The file will not be saved.",
+                "laravel-validation": "Laravel File Validation",
+                "no-file-selected": "No file",
+                "validation-passed": "Passed",
+                "validation-failed": "Failed: {error}",
+                "mime-detector": "Mime Detector (primary)",
+                "mime-fileinfo": "PHP Fileinfo (fallback)",
+                "guessed-extension": "Default file extension (if original is not whitelisted)",
+                "not-available": "No result"
             }
         },
         "forum": {
@@ -122,7 +142,7 @@
                 "modal_empty_desktop": "Your file list is empty. Click the button or drag a file here to upload.",
                 "modal_empty_phone": "Your file list is empty. Tap the button above to upload a file.",
                 "select_file_a11y_label": "Select file \"{fileName}\"",
-                "confirm_selection_btn": "Select file|Select files",
+                "confirm_selection_btn": "{fileCount, plural, =0 {None selected} one {Select file} other {Select files}}",
                 "load_more_files_btn": "Load more files",
                 "hide_file": {
                     "btn_a11y_label": "Hide \"{fileName}\" from media manager",
@@ -136,6 +156,16 @@
                 "error": "Error",
                 "loading": "Uploading",
                 "unauthorized": "You are not allowed to download files"
+            },
+            "validation": {
+                "max_size": "Uploads over {max} kb are not accepted."
+            },
+            "text_preview": {
+                "expand": "Expand preview",
+                "collapse": "Collapse preview",
+                "error": "Error previewing file. It may have been deleted, or the provided file ID is invalid.\n",
+                "no_snippet_preview": "<preview will appear here after posting>",
+                "no_snippet": "<no preview snippet available>"
             }
         },
         "api": {

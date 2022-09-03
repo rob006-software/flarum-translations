@@ -1,0 +1,24 @@
+{
+    "fof-split": {
+        "admin": {
+            "permissions": {
+                "split_discussion_label": "جدا کردن پست ها از بحث ها"
+            }
+        },
+        "forum": {
+            "post": {
+                "was_split_to": "{count, plural, one {{count} پست به {target} تقسیم شد.} other {{count} پست به {target} تقسیم شدند.}}",
+                "was_split_from": "{count, plural, one {{count} پست از {target} تقسیم شد.} other {{count} پست از {target} تقسیم شدند.}}"
+            },
+            "split": {
+                "from": "تقسیم از اینجا",
+                "to": "تقسیم به اینجا"
+            },
+            "modal": {
+                "title": "تقسیم بحث",
+                "new_discussion_label": "عنوان بحث جدید را مشخص کنید",
+                "submit_button": "تقسیم"
+            }
+        }
+    }
+}

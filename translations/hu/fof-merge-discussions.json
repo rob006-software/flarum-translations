@@ -1,0 +1,60 @@
+{
+    "fof-merge-discussions": {
+        "forum": {
+            "modal": {
+                "title": "Témák összevonása",
+                "ordering_heading": "Összevonási sorrend",
+                "ordering_date_label": "Bejegyzések összevonása létrehozási dátum alapján",
+                "ordering_date_help": "A létrejövő témában lévő bejegyzések a létrehozási idejük szerint lesznek átrendezve",
+                "ordering_suffix_label": "Az beolvasztott bejegyzések a téma végéhez fűzése",
+                "ordering_suffix_help": "A bejegyzések a megmaradó téma végéhez lesznek fűzve",
+                "type_heading": "Összevonási típus",
+                "type_target_label": "Összevonás ebbe",
+                "type_target_help_text": "Válassza ki az ebbe olvasztandó témákat: <b>{title}</b>.",
+                "type_from_label": "Ezen téma beolvasztása egy másikba",
+                "type_from_help_text": "Válassza ki a céltémát, amelybe beolvasztja a következőt: <b>{title}</b>.",
+                "load_preview_button": "Előnézet",
+                "submit_button": "=> fof-merge-discussions.ref.merge"
+            },
+            "notification": {
+                "discussion_merged": "A(z) <b>{oldTitle}</b> témáját {username} beolvasztotta ebbe a témába.",
+                "preferences": {
+                    "discussion_merged": "Valaki beolvasztja egy témámat egy másikba"
+                }
+            },
+            "discussion": {
+                "merge": "=> fof-merge-discussions.ref.merge"
+            },
+            "post": {
+                "merged": "{count} bejegyzés beolvasztva innen: {titles}."
+            }
+        },
+        "admin": {
+            "permissions": {
+                "merge_discussions_label": "Témák összevonása"
+            },
+            "settings": {
+                "search_result_help": "Hány téma legyen visszaadva, ha a „Témák összevonása” párbeszédablakban keres.",
+                "search_result_label": "Téma összevonási keresési korlát"
+            }
+        },
+        "api": {
+            "error": {
+                "merging_failed": "A témák összevonása sikertelen.",
+                "updating_failed": "A téma részleteinek frissítése sikertelen.",
+                "deleting_failed": "Az üres témák törlése sikertelen.",
+                "fixing_posts_number_failed": "A bejegyzésszámok rögzítése sikertelen.",
+                "fixing_posts_number_meta_failed": "A bejegyzésszámok rögzítése sikertelen."
+            }
+        },
+        "ref": {
+            "merge": "Összevonás"
+        },
+        "email": {
+            "merged": {
+                "body": "Kedves {recipient_display_name}!\n\nA(z) {merged_discussion_title} témáját {actor_display_name} beolvasztotta ebbe: {discussion_title}.\n\nNézze meg itt: {discussion_url} .\n",
+                "subject": "A(z) „{merged_discussion_title}” témáját beolvasztották"
+            }
+        }
+    }
+}

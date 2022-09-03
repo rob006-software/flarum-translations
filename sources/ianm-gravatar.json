@@ -1,0 +1,43 @@
+{
+    "ianm-gravatar": {
+        "admin": {
+            "settings": {
+                "proxy": {
+                    "title": "Proxy gravatars",
+                    "helptext": "By default, gravatar URLs are fetched directly from gravatar.com. This enables all gravatar requests to be served directly by the forum itself."
+                },
+                "replace-flarum-custom": {
+                    "title": "Replace custom avatars uploaded to Forum",
+                    "helptext": "Replace custom avatars already uploaded to the forum with a Gravatar"
+                },
+                "defaults": {
+                    "title": "Defaults",
+                    "helptext": "What happens when an email address has no matching Gravatar image? Gravatar has a number of built in options which you can use as defaults. Most of these work by taking the requested email hash and using it to generate a themed image that is unique to that email address.",
+                    "mp_label": "mp: (mystery-person) a simple, cartoon-style silhouetted outline of a person (does not vary by email hash)",
+                    "identicon_label": "identicon: a geometric pattern based on an email hash",
+                    "monsterid_label": "monsterid: a generated 'monster' with different colors, faces, etc",
+                    "wavatar_label": "wavatar: generated faces with differing features and backgrounds",
+                    "retro_label": "retro: awesome generated, 8-bit arcade-style pixelated faces",
+                    "robohash_label": "robohash: a generated robot with different colors, faces, etc"
+                },
+                "rating": {
+                    "title": "Rating",
+                    "helptext": "Gravatar allows users to self-rate their images so that they can indicate if an image is appropriate for a certain audience. By default, only 'G' rated images are displayed unless you indicate that you would like to see higher ratings. You may specify one of the following ratings to request images up to and including that rating.",
+                    "g_label": "g: suitable for display on all websites with any audience type",
+                    "pg_label": "pg: may contain rude gestures, provocatively dressed individuals, the lesser swear words, or mild violence",
+                    "r_label": "r: may contain such things as harsh profanity, intense violence, nudity, or hard drug use",
+                    "x_label": "x: may contain hardcore sexual imagery or extremely disturbing violence"
+                },
+                "force-default": {
+                    "title": "Force default",
+                    "helptext": "Forces the use of a default set, even if the email hash links to a custom user uploaded avatar"
+                }
+            }
+        },
+        "forum": {
+            "settings": {
+                "edit-gravatar": "Manage avatar on gravatar.com"
+            }
+        }
+    }
+}

@@ -1,50 +1,110 @@
 {
     "blomstra-payments": {
         "forum": {
+            "stripe": {
+                "interval_once": ""
+            },
+            "subscription-card": {
+                "ptv": "",
+                "pta": "",
+                "ptb": "",
+                "ptp": "",
+                "cancel-control": "",
+                "none": "",
+                "bounty": ""
+            },
             "pay-to-view": {
-                "purchase-control": "",
-                "purchase-log-in": "",
-                "purchase-completed": "",
-                "description": ""
+                "purchase-control": "Pagar para ver",
+                "purchase-log-in": "Iniciar Sesión y Pagar para Ver",
+                "purchase-completed": "Desbloqueado",
+                "description": "Las publicaciones más allá de este punto están bloqueadas detrás de una pasarela de pago, puedes desbloquearlas completando el pago a través de nuestro proveedor de pagos Stripe.\n"
             },
             "pay-to-post": {
+                "purchase-control": "Pagar para publicar",
+                "purchase": "Comprar para publicar",
+                "purchase_required": "Esta discusión se publicará una vez completado el pago a través de nuestro proveedor de pago Stripe. Haga clic en comprar para ver el coste y las opciones de pago.\n"
+            },
+            "pay-to-bump": {
+                "description": "",
                 "purchase-control": "",
-                "purchase": "",
-                "purchase_required": ""
+                "purchase-log-in": ""
             },
-            "tag": {
-                "require-payment-label": ""
+            "bounties": {
+                "purchase-control": "",
+                "enable-control": ""
             },
-            "payment-options-modal": {
+            "choose-bounty-amount-modal": {
                 "title": "",
+                "checkout-control": "",
                 "description": ""
             },
+            "backers-widget": {
+                "label": "",
+                "none": ""
+            },
+            "tag": {
+                "require-payment-label": "Pago requerido"
+            },
+            "payment-options-modal": {
+                "title": "Opciones de pago para acceder al {group}",
+                "description": "Elija cualquiera de las siguientes opciones para iniciar su acceso al grupo. Serás redirigido a nuestro proveedor de pagos Stripe para procesar el pago.\n"
+            },
             "access-portal": {
-                "options": "",
-                "purchase": ""
+                "options": "Opciones",
+                "purchase": "Comprar",
+                "subscribed": ""
             },
             "nav": {
-                "access_portal": ""
+                "access_portal": "Portal de acceso",
+                "user_subscriptions": ""
+            },
+            "exceptions": {
+                "out-of-bounds-amount": {
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "accept-terms-modal": {
+                "accept_label": "",
+                "continue_button": "",
+                "title": ""
             }
         },
         "admin": {
             "edit-tag": {
-                "select-ptp-product": "",
-                "select-ptp-product-description": "",
-                "select-ptv-product": "",
-                "select-ptv-product-description": "",
-                "visible-from": "",
-                "visible-from-description": ""
+                "select-ptp-product": "(PPP) Producto requerido",
+                "select-ptp-product-description": "La selección de un producto requerirá el pago de ese producto por cada discusión en esa etiqueta. El pago por publicación, por ejemplo, es ideal para los publirreportajes. Cree un producto con un precio único en su panel de control de Stripe y copie el ID que comienza con <code>prod_</code> en este campo.\n",
+                "select-ptv-product": "(PPV) Producto requerido",
+                "select-ptv-product-description": "La selección de un producto requerirá el pago de ese producto para obtener permanentemente el acceso a todos los puestos más allá del umbral... Cree un producto en su panel de control de Stripe y copie el ID que comienza con <code>prod_</code> en este campo.\n",
+                "visible-from": "Ocultar los posts en este punto",
+                "visible-from-description": "El número que especifique aquí define en qué momento se ocultarán los mensajes a los usuarios que no hayan pagado para acceder al contenido. Utiliza 0 para ocultar todos, 1 para el que está después del OP.\n",
+                "select-ptb-product": "",
+                "select-ptb-product-description": "",
+                "bump-others": "",
+                "bump-others-description": "",
+                "select-bounty-product": "",
+                "select-bounty-description": ""
             },
             "edit-group": {
-                "select-pta-product": "",
-                "select-pta-product-description": ""
+                "select-pta-product": "(PPA) Producto requerido",
+                "select-pta-product-description": "La selección de un producto permitirá el acceso al grupo tras el pago. En el caso de una suscripción, el acceso se revocará automáticamente tras la cancelación de la misma. Cree un producto en su panel de control de Stripe y copie el ID que comienza con <code>prod_</code> en este campo.\n"
             },
             "settings": {
-                "pk": "",
-                "sk": "",
-                "webhook-secret": "",
-                "link-access-portal": ""
+                "pk": "Clave publicable (api)",
+                "sk": "Clave secreta (api)",
+                "webhook-secret": "Secreto de firma del webhook",
+                "link-access-portal": "Enlace del portal de acceso en el menú desplegable de la sesión de usuario",
+                "link-to-terms": ""
+            },
+            "permission": {
+                "enable-bounties": ""
+            }
+        }
+    },
+    "core": {
+        "forum": {
+            "index_sort": {
+                "mostBacked_button": ""
             }
         }
     }

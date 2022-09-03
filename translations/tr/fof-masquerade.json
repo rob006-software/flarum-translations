@@ -7,6 +7,7 @@
             },
             "buttons": {
                 "view-profile": "Profili görüntüle",
+                "edit-profile": "Profili düzenle",
                 "save-profile": "Kaydet"
             },
             "fields": {
@@ -28,6 +29,7 @@
                 "delete-field": "Alanı sil"
             },
             "permissions": {
+                "edit-others-profile": "Diğer kullanıcıların profilini düzenle",
                 "have-profile": "Masquerade profili var",
                 "view-profile": "Masquerade profilini görüntüle"
             },
@@ -51,9 +53,7 @@
                 "force-user-to-completion": "Kullanıcıyı profilini tamamlamaya zorla",
                 "options": "Seçenekler",
                 "option-new": "Yeni seçenek",
-                "option-comma-warning": "Bir seçeneğin etiketi herhangi bir virgül (\",\") içeremez.",
-                "disable-user-bio": "Kullanıcı biyografisi kısmını devre dışı bırak",
-                "option-coma-warning": "Seçeneğin etiketi (\",\") işareti içeremez."
+                "option-comma-warning": "Bir seçeneğin etiketi herhangi bir virgül (\",\") içeremez."
             },
             "types": {
                 "advanced": "Gelişmiş",
@@ -61,10 +61,6 @@
                 "email": "E-posta",
                 "select": "Açılır menü",
                 "url": "Bağlantı"
-            },
-            "title": "Masquerade",
-            "menu": {
-                "description": "Kullanıcı profili alanlarını düzenle.\n"
             }
         }
     }

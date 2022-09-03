@@ -1,0 +1,33 @@
+{
+    "antoinefr-money": {
+        "admin": {
+            "settings": {
+                "title": "Beállítások",
+                "moneyforpost": "Új bejegyzésért adott pénz",
+                "moneyfordiscussion": "Új témáért adott pénz",
+                "moneyname": "A pénz neve (például [pénz] pontok)",
+                "postminimumlength": "A bejegyzés legrövidebb hossza, amely pénzt ér (0 a letiltáshoz)",
+                "noshowzero": "Ne jelenítse meg, ha az érték nulla",
+                "moneyforlike": "Az adott pénz, ha egy bejegyzést kedvelik",
+                "helpextensionlikes": "A <code>flarum/likes</code> bővítmény szükséges hozzá"
+            },
+            "permissions": {
+                "edit_money_label": "Pénz szerkesztése"
+            },
+            "automoderator": {
+                "metric_name": "Pénz",
+                "action_name": "Pénz adása"
+            }
+        },
+        "forum": {
+            "user_controls": {
+                "money_button": "Pénz szerkesztése"
+            },
+            "modal": {
+                "title": "{username} pénze",
+                "current": "Jelenlegi:",
+                "submit_button": "=> core.ref.save_changes"
+            }
+        }
+    }
+}

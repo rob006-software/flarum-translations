@@ -2,34 +2,41 @@
     "askvortsov-saml": {
         "admin": {
             "header": {
-                "text": ""
+                "text": "Assurez-vous que l'URL des métadonnées ou les métadonnées sont renseignés."
             },
-            "title": "",
+            "title": "Configuration de SSO SAML2",
             "labels": {
-                "idp_metadata_url": "",
-                "idp_metadata": "",
-                "only_option": "",
-                "sync_attributes": "",
-                "nameid_format": "",
-                "want_assertions_signed": "",
-                "want_messages_signed": ""
+                "idp_metadata_url": "URL des métadonnées du fournisseur d'identité (alternative à XML)",
+                "idp_metadata": "XML des métadonnées du fournisseur d'identité (alternative à l'URL)",
+                "only_option": "Utiliser SAML2 SSO comme seule option de connexion ?",
+                "nameid_format": "Format de NameID",
+                "slo": "Activer SLO ? Si votre IDP ne prend pas en charge cette fonction, cela ne servira à rien.",
+                "authn_requests_signed": "Signer les requêtes d'autorisation ?",
+                "logout_request_signed": "Signer les requêtes de déconnexion ?",
+                "logout_response_signed": "Signer les réponses de déconnexion ?",
+                "sign_metadata": "Signer les métadonnées ?",
+                "want_assertions_encrypted": "Souhaitez-vous que les assertions soient chiffrées ?",
+                "want_assertions_signed": "Souhaitez-vous que les assertions soient signées ?",
+                "want_messages_signed": "Souhaitez-vous que les messages soient signés ?",
+                "x509_cert": "Certificat x509 (nécessaire pour la signature, si activée)",
+                "x509_key": "Clé privée x509 (nécessaire pour la signature, si activée)"
             },
             "options": {
                 "nameid_format": {
-                    "persistent": "",
-                    "emailAddress": "",
-                    "unspecified": ""
+                    "persistent": "Persistant (recommandé si pris en charge)",
+                    "emailAddress": "Courriel (Par défaut. À utiliser si le mode persistant n'est pas pris en charge)",
+                    "unspecified": "Non spécifié"
                 }
             }
         },
         "forum": {
             "log_in": {
-                "with_saml_button": "",
-                "open_popup": "",
-                "enable_popups": ""
+                "with_saml_button": "SAML2 SSO",
+                "open_popup": "Cliquez ici pour vous connecter",
+                "enable_popups": "Activer les fenêtres contextuelles pour se connecter et s'inscrire"
             },
             "sign_up": {
-                "post_saml_title": ""
+                "post_saml_title": "Une dernière étape..."
             }
         }
     }

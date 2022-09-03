@@ -1,0 +1,29 @@
+{
+    "tituspijean-auth-ldap": {
+        "forum": {
+            "log_in_with": "Login with",
+            "log_out": "=> core.ref.log_out"
+        },
+        "admin": {
+            "settings": {
+                "title": "LDAP 設定",
+                "method_name": "",
+                "hosts": "",
+                "base_dn": "",
+                "filter": "",
+                "port": "",
+                "account_prefix": "",
+                "account_suffix": "",
+                "admin_dn": "",
+                "admin_password": "",
+                "search_user_fields": "",
+                "user_mail": "",
+                "user_username": "",
+                "follow_referrals": "紹介に従う",
+                "use_ssl": "SSL を使用",
+                "use_tls": "TLS を使用",
+                "onlyUse": "Flarum ログインを無効にし、LDAP 認証のみを使用します"
+            }
+        }
+    }
+}

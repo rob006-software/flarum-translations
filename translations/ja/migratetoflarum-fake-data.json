@@ -1,20 +1,21 @@
 {
     "migratetoflarum-fake-data": {
-        "admin": {
+        "lib": {
             "generator": {
                 "bulk-mode": "",
                 "bulk-mode-description": "",
-                "user-count": "新規ユーザー",
-                "discussion-count": "新しいトピックの数",
+                "user-count": "",
+                "discussion-count": "",
                 "discussion-tags": "",
                 "discussion-tags-none": "",
                 "discussion-tags-random": "",
-                "post-count": "新しい応答の数",
+                "post-count": "",
                 "date": "",
                 "date-start-placeholder": "",
                 "date-interval-placeholder": "",
-                "send": "データを生成する",
-                "title": "偽のデータを生成する"
+                "send": "",
+                "reset": "",
+                "refresh": ""
             }
         },
         "forum": {
@@ -22,31 +23,12 @@
                 "generate-replies": "偽の応答を生成する"
             },
             "generator": {
-                "title": "偽の応答を生成する",
-                "bulk-mode": "",
-                "bulk-mode-description": "",
-                "user-count": "新規ユーザー",
-                "post-count": "新しい応答の数",
-                "date": "",
-                "date-start-placeholder": "",
-                "date-interval-placeholder": "",
-                "send": "データを生成する"
+                "title": "偽の応答を生成する"
             }
         },
         "api": {
             "no-users-matched": "ユーザーが見つかりません",
             "no-discussions-matched": "件名が見つかりません"
-        },
-        "ref": {
-            "bulk-mode": "",
-            "bulk-mode-description": "",
-            "user-count": "",
-            "post-count": "",
-            "date": "",
-            "date-start-placeholder": "",
-            "date-interval-placeholder": "",
-            "send": "",
-            "discussion-count": ""
         }
     }
 }

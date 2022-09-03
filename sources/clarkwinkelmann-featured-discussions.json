@@ -1,0 +1,55 @@
+{
+    "clarkwinkelmann-featured-discussions": {
+        "admin": {
+            "settings": {
+                "schedule": "Schedule (CRON syntax)",
+                "duration": "Default duration (seconds)",
+                "eventPost": "Generate event post when the schedule is modified"
+            },
+            "permissions": {
+                "feature": "Manage featured discussions"
+            }
+        },
+        "forum": {
+            "modal": {
+                "title": "Feature discussion",
+                "fields": {
+                    "from": "From",
+                    "until": "Until"
+                },
+                "from": {
+                    "not": "Not featured",
+                    "next": "Next slot",
+                    "manual": "Manual date"
+                },
+                "until": {
+                    "auto": "Auto",
+                    "manual": "Manual date"
+                },
+                "action": {
+                    "cancel": "Cancel",
+                    "submit": "Submit"
+                }
+            },
+            "controls": {
+                "feature": "Feature discussion"
+            },
+            "badge": "Featured",
+            "nav": {
+                "schedule": "Feature schedule"
+            },
+            "schedule": {
+                "help": "Drag and drop discussions in the page or from another window to change their schedule. To remove the schedule, use the 3-dot menu.\n",
+                "drop-here": "Drop here to schedule",
+                "drop-error": "Invalid discussion link",
+                "empty": "No discussions",
+                "custom": "Custom"
+            },
+            "post": {
+                "scheduled": "Scheduled to be featured from {from} until {until}",
+                "unscheduled": "No longer scheduled to be featured",
+                "auto": "(auto)"
+            }
+        }
+    }
+}

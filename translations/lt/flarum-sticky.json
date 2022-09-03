@@ -1,0 +1,25 @@
+{
+    "flarum-sticky": {
+        "admin": {
+            "permissions": {
+                "sticky_discussions_label": "Prisegtos temos"
+            }
+        },
+        "forum": {
+            "badge": {
+                "sticky_tooltip": "=> flarum-sticky.ref.sticky"
+            },
+            "discussion_controls": {
+                "sticky_button": "=> flarum-sticky.ref.sticky",
+                "unsticky_button": "Atsegti"
+            },
+            "post_stream": {
+                "discussion_stickied_text": "{username} prisegė šią temą.",
+                "discussion_unstickied_text": "{username} atsegė šią temą."
+            }
+        },
+        "ref": {
+            "sticky": "Prisegti"
+        }
+    }
+}

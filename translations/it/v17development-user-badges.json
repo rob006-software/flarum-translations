@@ -8,14 +8,20 @@
             "update_category": "Aggiorna categoria",
             "edit_category": "Modifica categoria",
             "nothing_here_yet": "Non hai ancora creato badge o categorie.",
+            "show_badges_on_user_card": "",
+            "number_of_badges_on_user_card": "",
+            "number_of_badges_on_user_card_help": "",
             "permissions": {
+                "badge_detail_users": "Può vedere gli utenti nella pagina dei badge",
                 "give_badge": "Assegna badge a utente",
-                "take_badge": "Prendi badge da utente"
+                "take_badge": "Prendi badge da utente",
+                "edit_own_card_badges": "",
+                "edit_card_badges": ""
             },
             "confirm_dialog": {
                 "title": "Conferma",
                 "no": "No",
-                "yes": "Yes"
+                "yes": "Si"
             },
             "confirm_messages": {
                 "delete_badge": "Sei sicuro di voler rimuovere questo badge? Viene rimosso da tutti gli utenti ed è irreversibile.",
@@ -26,13 +32,45 @@
                 "icon": "Icona Badge",
                 "description": "Descrizione Badge",
                 "visible": "Visibile",
-                "visible_description": "Abilita questo badge. Quando disabilitato, il badge non sarà visibile."
+                "visible_description": "Abilita questo badge. Quando disabilitato, il badge non sarà visibile.",
+                "is_image": "Il badge è un immagine",
+                "is_image_description": "Usa un immagine invece del badge di default",
+                "image": "URL immagine badge",
+                "image_placeholder": "Immetti l'URL dell'immagine del badge",
+                "icon_color": "Colore Icona",
+                "background_color": "Colore di Sfondo",
+                "label_color": "Colore Testo"
             },
             "badge_category": {
                 "name": "Nome Categoria",
                 "description": "Descrizione categoria",
+                "blockview": "Visione a blocchi",
+                "blockview_description": "Mostra i badge di categoria in blocco nella panoramica dei badge. Quando disabilitato, tutti i badge verranno visualizzati in una tabella.",
                 "enabled": "Abilitata",
                 "enabled_description": "Abilita questa categoria. Quando è disabilitata, tutti i badge saranno disabilitati e la categoria sarà nascosta."
+            },
+            "auto_moderator": {
+                "not_installed": {
+                    "title": "Premia automaticamente gli utenti con badge",
+                    "content": "Questa estensione offre più funzionalità quando <a>Auto Moderatore</a> è installato e attivato. Quando installi questa estensione, gli utenti possono essere automaticamente premiati con badge senza l'intervento di un amministratore o moderatore!",
+                    "install": "Installa",
+                    "dismiss": "Non mostrare ancora"
+                },
+                "action_drivers": {
+                    "badge_id": "ID Badge",
+                    "give_badge": "Assegna badge",
+                    "remove_badge": "Rimuovi badge"
+                },
+                "requirement_drivers": {
+                    "has_badge": "Ha un badge"
+                },
+                "metric_drivers": {
+                    "badges_received": "Badge ricevuti"
+                },
+                "badge_selector": {
+                    "placeholder": "Scegli badge",
+                    "loading_badges": "Caricamento badge"
+                }
             }
         },
         "forum": {
@@ -43,8 +81,10 @@
             "update_badge": "Aggiorna badge",
             "select_badge": "Scegli badge",
             "user_has_badge": "L'utente ha già questo badge.",
-            "user_no_badges": "",
-            "uncategorized": "",
+            "user_no_badges": "Questo utente non ha ancora alcun badge.",
+            "no_received": "Nessun utente ha ottenuto questo badge.",
+            "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
+            "save_changes": "",
             "badge": {
                 "badge": "Badge",
                 "badges": "Badge",
@@ -55,12 +95,27 @@
                 "no_earning_reason": "Nessun motivo impostato",
                 "earned_on": "Badge guadagnato il",
                 "category": "Categoria Badge",
-                "earned_count": "<b>{count} utente</b> ha guadagnato questo badge|<b>{count} utenti</b> hanno guadagnato questo badge"
+                "received_on": "Ricevuto il {date}",
+                "badge_details": "Dettagli Badge",
+                "earned_count": "{count, plural, one {<b># utente</b> ha guadagnato questo badge} other {<b># utenti</b> hanno guadagnato questo badge}}",
+                "earned_by_count": "{count, plural, one {Guadagnato da <b># utente</b>} other {Guadagnato da <b># utenti</b>}}",
+                "others_link": ""
+            },
+            "badges_in_card": {
+                "title": "",
+                "manage_badges": "",
+                "description": "",
+                "select_limit": "",
+                "hit_limit": ""
             },
             "moderation": {
                 "remove_badge": "Rimuovi badge da utente",
                 "remove_badge_confirm": "Sei sicuro di voler rimuovere questo badge da questo utente?",
                 "give_badge": "Dai badge"
+            },
+            "notification": {
+                "title": "Hai ricevuto un nuovo badge",
+                "settings": "Ho ricevuto un badge"
             }
         }
     }

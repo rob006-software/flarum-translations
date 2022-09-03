@@ -1,0 +1,123 @@
+{
+    "core": {
+        "forum": {
+            "index_sort": {
+                "hot_button": "Tendência",
+                "votes_button": "Votos positivos"
+            }
+        }
+    },
+    "fof-gamification": {
+        "forum": {
+            "votes": "Votos",
+            "vote_title": "Mostrar quem votou",
+            "nav": {
+                "name": "Ranking"
+            },
+            "ranking": {
+                "rank": "Classificação",
+                "name": "Usuário",
+                "amount": "Pontos"
+            },
+            "notification": {
+                "upvote": "{username} votou positivamente em sua postagem",
+                "downvote": "{username} votou negativamente em sua postagem",
+                "prefrences": {
+                    "vote": "Quando um dos meus posts é votado para cima/para baixo"
+                }
+            },
+            "user": {
+                "card": {
+                    "points": "{count, plural, one { {count} point} outro {{count} points}}"
+                },
+                "rank": "{rank}",
+                "votes_link": "",
+                "points": ""
+            },
+            "modal": {
+                "downvotes_label": "Desaprovadores:",
+                "title": "Eleitores",
+                "upvotes_label": "Apoiadores:"
+            },
+            "mod_item": "Ver eleitores",
+            "voters": {
+                "none": "Ainda não há eleitores",
+                "label": "Eleitores",
+                "label_none": "Não eleitores"
+            },
+            "post": {
+                "upvote_button": "Aprovar postagem",
+                "downvote_button": "Reprovar postagem"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "vote_label": "Aprovar/Reprovar postagens",
+                "see_votes_label": "Ver contagem de votos para cima/para baixo",
+                "see_voters_label": "Ver quem votou",
+                "see_ranking_page": "Ver página de classificação",
+                "upvote_notifications": "Receba notificações sobre o upvote",
+                "downvote_notifications": "Receba notificações sobre o downvote"
+            },
+            "page": {
+                "rankings": {
+                    "blocked": {
+                        "placeholder": "CDK2020, Ralkage, AngelAvila",
+                        "title": "Usuários ignorados",
+                        "help": "Esses usuários não serão mostrados na página de classificação. Os nomes de usuário devem ser separados por uma vírgula seguida de um espaço."
+                    },
+                    "title": "Página de classificação",
+                    "enable": "Ativar imagens personalizadas",
+                    "custom_image_1": "Imagem em 1º lugar",
+                    "custom_image_2": "Imagem em 2º lugar",
+                    "custom_image_3": "Imagem em 3º lugar"
+                },
+                "alt_votes": {
+                    "icon_name": "Nome do ícone do layout alternativo"
+                },
+                "votes": {
+                    "points_title": "Marcador de Pontos",
+                    "points_placeholder": "Pontos: ",
+                    "color_holder": "#ffffff",
+                    "auto_upvote": "Auto upvote posts quando postados",
+                    "rate_limit": "Aplicar um limite de taxa de votação (10 segundos)",
+                    "discussion_page": "Mostrar o total de votos da postagem original na lista de discussões",
+                    "alternate_layout": "Use o layout de votação alternativo na lista de discussões",
+                    "alternate_post_layout": "Use o layout de votação alternativo nas postagens",
+                    "title": "Votos",
+                    "vote_color": "Cor votada",
+                    "icon_name": "Ícone de upvote/downvote",
+                    "icon_help": "Insira qualquer ícone Font-Awesome com o sufixo -up e -down. Exemplos: seta, polegar, chevron",
+                    "upvotes_only": "Permitir apenas votos positivos",
+                    "first_post_only": "Permitir apenas votos para cima/para baixo na primeira postagem de uma discussão"
+                },
+                "save_settings": "Salvar configurações",
+                "convert": {
+                    "button": "Converter likes para upvotes",
+                    "help": "Converta suas curtidas anteriores de flarum-ext-likes em upvotes, bem como calcule o calor de todas as discussões atuais.",
+                    "converting": "Suas curtidas estão sendo convertidas. Atualize seu site após alguns minutos para ver o processo concluído. (O tempo de conversão pode demorar um pouco dependendo do total de curtidas no fórum)",
+                    "converted": "Todas as {number} curtidas foram convertidas com sucesso"
+                },
+                "ranks": {
+                    "title": "Classificações",
+                    "ranks": "Classificações personalizadas",
+                    "number_title": "Quantos emblemas de classificação devem ser mostrados?",
+                    "help": {
+                        "color": "#ffffff",
+                        "help": "Insira o número necessário de votos positivos, o nome da classificação e a cor hexadecimal da classificação",
+                        "points": "Pontos",
+                        "name": "Nome"
+                    }
+                }
+            }
+        },
+        "email": {
+            "body": {
+                "postVoted": "Hey {recipient_display_name},\n\n{actor_display_name} acabei de votar no seu post em {discussion_title}.\n\nVeja aqui: {discussion_url}\n"
+            },
+            "subject": {
+                "postVoted": "Sua publicação foi votada por {display_name}"
+            }
+        }
+    }
+}

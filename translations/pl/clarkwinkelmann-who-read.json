@@ -11,9 +11,9 @@
                 "info": "Oraz {count} więcej"
             },
             "footer": {
-                "read-this-post": "{0} Nikt nie odczytał tego posta|{1} Jeden użytkownik odczytał ten post|]1,Inf] {count} użytkowników odczytało ten post",
-                "read-no-further": "{0} Wszyscy czytali dalej.|{1} Jeden użytkownik nie czytał dalej.|]1,Inf] {count} nie czytało dalej.",
-                "read-to-end": "{0} Nikt nie odczytał do końca|{1} Jeden użytkownik odczytał do końca|]1,Inf] {count} użytkowników odczytało do końca"
+                "read-this-post": "{count, plural, =0 {Nikt nie odczytał tego posta} one {Jeden użytkownik odczytał ten post} other {# użytkowników odczytało ten post}}",
+                "read-no-further": "{count, plural, =0 {Wszyscy czytali dalej} one {Jeden użytkownik nie czytał dalej} other {# użytkowników nie czytało dalej}}",
+                "read-to-end": "{count, plural, =0 {Nikt nie doczytał do końca} one {Jeden użytkownik doczytał do końca} other {# użytkowników doczytało do końca}}"
             },
             "controls": {
                 "set-unread": "Oznacz jako nieodczytane",
@@ -37,8 +37,7 @@
                 "see-read": "Wyświetlanie kto odczytał",
                 "see-subscription": "Wyświetlanie kto obserwuje",
                 "see-unread": "Wyświetlanie kto oznaczył jako nieodczytane",
-                "mark-unread": "Oznaczanie dyskusji jako nieodczytanej",
-                "heading": "Kto odczytał"
+                "mark-unread": "Oznaczanie dyskusji jako nieodczytana"
             },
             "settings": {
                 "show-in-discussion-list": "Wyświetl na liście dyskusji informację, kto je odczytał",
@@ -48,8 +47,7 @@
                 "hide-when-behind": "Ukryj użytkowników całkowicie, jeśli nie odczytali co najmniej tylu postów",
                 "max-visible": "Maksymalna liczba użytkowników wyświetlanych przed \"czytaj więcej\"",
                 "unread-icon": "Ikona dla oznaczonych jako nieodczytane",
-                "only-groups": "Pokaż status odczytania tylko dla użytkowników należących do tych grup",
-                "title": "Ustawienia Kto odczytał"
+                "only-groups": "Pokaż status odczytania tylko dla użytkowników należących do tych grup"
             }
         }
     }

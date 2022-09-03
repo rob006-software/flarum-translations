@@ -29,7 +29,9 @@
         "email": ":attribute non è valido.",
         "ends_with": ":attribute deve finire con uno dei seguenti valori: :values.",
         "exists": ":attribute selezionato non è valido.",
-        "file": ":attribute deve essere un file.\"",
+        "file": ":attribute deve essere un file.",
+        "file_too_large": ":attribute è troppo largo.",
+        "file_upload_failed": "Caricamento :attribute fallito.",
         "filled": "Il campo :attribute è richiesto.",
         "gt": {
             "numeric": ":attribute deve essere maggiore di :value.",
@@ -77,6 +79,7 @@
             "string": ":attribute deve contenere almeno :min caratteri.",
             "array": ":attribute deve avere almeno :min elementi."
         },
+        "multiple_of": ":attribute deve essere un multiplo di :value.",
         "not_in": "Il valore selezionato per :attribute non è valido.",
         "not_regex": "Il formato di :attribute non è valido.",
         "numeric": ":attribute deve essere un numero.",
@@ -90,6 +93,9 @@
         "required_with_all": "Il campo :attribute è richiesto quando :values sono presenti.",
         "required_without": "Il campo :attribute è richiesto quando :values non è presente.",
         "required_without_all": "Il campo :attribute è richiesto quando nessuno di :values è presente.",
+        "prohibited": "Il campo :attribute è proibito.",
+        "prohibited_if": "Il campo :attribute è proibito quanto :other è :value.",
+        "prohibited_unless": "Il campo :attributo è vietato a meno che :other non sia in :values.",
         "same": ":attribute e :other devono coincidere.",
         "size": {
             "numeric": ":attribute deve essere :size.",

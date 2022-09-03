@@ -1,0 +1,26 @@
+{
+    "extiverse-mercury": {
+        "admin": {
+            "extension-updates-page": {
+                "extension-name": "Bővítmény",
+                "extension-is-up-to-date": "Naprakész",
+                "highest-version": "Legfrissebb kiadás",
+                "installed-version": "Telepített kiadás"
+            },
+            "settings": {
+                "token": "Extiverse-token (<a>kérés</a>)",
+                "token-description": "Kérjen egy API-tokent az <a>Extiverse</a>-től, hogy a Mercury biztonságosan kommunikálhasson a Flarum-közösségével.\n"
+            },
+            "header-secondary": {
+                "no-token": "Token szükséges",
+                "updates": "{count, plural, =0 {Nincs frissítés} one {Egy frissítés} other {# frissítés}}"
+            }
+        },
+        "email": {
+            "new-extension-update": {
+                "subject": "{count, plural, one {Egy frissítés érhető el a közösségéhez} other {# frissítés érhető el a közösségéhez}}",
+                "body": "Kedves {recipient_display_name}!\n\n{count} frissítés található a Flarum-közösségéhez. Erősen ajánlott, hogy\nfrissítsen amint csak tud.\n\nA frissítések a következő bővítményeket tartalmazzák: {extensions}.\n\nTovábbi információkért keresse fel a közösségét: {url}.\n"
+            }
+        }
+    }
+}

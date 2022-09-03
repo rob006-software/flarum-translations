@@ -1,0 +1,98 @@
+{
+    "the-turk-flamoji": {
+        "admin": {
+            "settings": {
+                "emoji_settings_heading": "Paramètres des émojis",
+                "category_settings_heading": "Paramètres des catégories",
+                "general_ui_settings_heading": "Paramètres de l'interface utilisateur générale",
+                "show_variants_label": "Afficher les variants",
+                "show_variants_text": "Certains émojis ont des variations de couleur de peau. Lorsqu'un émoji est sélectionné dans le sélecteur, une fenêtre contextuelle apparaît pour que l'utilisateur puisse sélectionner le variant souhaitée.",
+                "auto_hide_label": "Masquer automatiquement",
+                "auto_hide_text": "Masque le sélecteur lorsqu'un émoji est sélectionné.",
+                "show_preview_label": "Afficher la section de prévisualisation",
+                "show_category_buttons_label": "Afficher les boutons de catégorie",
+                "show_search_label": "Afficher l'entrée de recherche",
+                "show_recents_label": "Afficher (et enregistrer) les émojis les plus récemment utilisés",
+                "recents_count_label": "Nombre d’émojis récemment utilisés",
+                "recents_count_text": "Le nombre d’émojis récents à enregistrer.",
+                "emoji_style_label": "Style de l'émoji",
+                "emoji_version_label": "Version de l'émoji",
+                "emoji_version_text": "La version de la spécification émoji à utiliser.",
+                "initial_category_label": "Catégorie initiale",
+                "initial_category_text": "Par défaut, le sélecteur commence par afficher la catégorie « Smileys et émotion ».",
+                "specify_categories_label": "Spécifiez les catégories",
+                "specify_categories_text": "Vous pouvez spécifier ici une liste de catégories, et le sélecteur n'affichera que ces catégories.",
+                "emoji_data_label": "Données de l'émoji",
+                "emoji_data_text": "Ceci est généralement utilisé pour fournir des noms d'émojis traduits.",
+                "emoji_style_native_option": "Original",
+                "emoji_categories": {
+                    "smileys": "=> the-turk-flamoji.ref.emoji_categories.smileys",
+                    "people": "=> the-turk-flamoji.ref.emoji_categories.people",
+                    "animals": "=> the-turk-flamoji.ref.emoji_categories.animals",
+                    "food": "=> the-turk-flamoji.ref.emoji_categories.food",
+                    "travel": "=> the-turk-flamoji.ref.emoji_categories.travel",
+                    "activities": "=> the-turk-flamoji.ref.emoji_categories.activities",
+                    "objects": "=> the-turk-flamoji.ref.emoji_categories.objects",
+                    "symbols": "=> the-turk-flamoji.ref.emoji_categories.symbols",
+                    "flags": "=> the-turk-flamoji.ref.emoji_categories.flags"
+                }
+            },
+            "custom_emojis_section": {
+                "heading_title": "Émojis personnalisés",
+                "import_json_button": "Importer au format JSON",
+                "export_json_button": "Exporter au format JSON",
+                "import_emojis_message": "Cela n'importera que les configurations des émojis. Vous devez télécharger manuellement les images des émojis.",
+                "edit_emoji": {
+                    "modal_title": "Ajouter un émoji",
+                    "emoji_title_label": "Titre de l'émoji",
+                    "delete_emoji_confirmation": "Êtes-vous sûr de vouloir supprimer cet émoji ?",
+                    "text_to_replace_label": "Texte à remplacer",
+                    "path_or_url_label": "Chemin ou URL",
+                    "submit_button": "=> core.ref.save_changes",
+                    "delete_emoji_button": "Supprimer l'émoji",
+                    "saved_message": "=> core.admin.settings.saved_message"
+                },
+                "emoji_list": {
+                    "load_more_button": "=> core.forum.post_stream.load_more_button"
+                }
+            }
+        },
+        "forum": {
+            "composer": {
+                "emoji_tooltip": "Insérer un émoji"
+            },
+            "emoji-button": {
+                "search_placeholder": "Rechercher des émojis",
+                "no_emojis_found_message": "Aucun émoji n'a été trouvé",
+                "categories": {
+                    "recents": "=> the-turk-flamoji.ref.emoji_categories.recents",
+                    "smileys": "=> the-turk-flamoji.ref.emoji_categories.smileys",
+                    "people": "=> the-turk-flamoji.ref.emoji_categories.people",
+                    "animals": "=> the-turk-flamoji.ref.emoji_categories.animals",
+                    "food": "=> the-turk-flamoji.ref.emoji_categories.food",
+                    "travel": "=> the-turk-flamoji.ref.emoji_categories.travel",
+                    "activities": "=> the-turk-flamoji.ref.emoji_categories.activities",
+                    "objects": "=> the-turk-flamoji.ref.emoji_categories.objects",
+                    "symbols": "=> the-turk-flamoji.ref.emoji_categories.symbols",
+                    "flags": "=> the-turk-flamoji.ref.emoji_categories.flags",
+                    "custom": "=> the-turk-flamoji.ref.emoji_categories.custom"
+                }
+            }
+        },
+        "ref": {
+            "emoji_categories": {
+                "recents": "Émojis récents",
+                "smileys": "Smileys et émotion",
+                "people": "Personnes et corps",
+                "animals": "Animaux et nature",
+                "food": "Nourriture et boisson",
+                "travel": "Voyages et lieux",
+                "activities": "Activités",
+                "objects": "Objets",
+                "symbols": "Symboles",
+                "flags": "Drapeaux",
+                "custom": "Personnalisé"
+            }
+        }
+    }
+}

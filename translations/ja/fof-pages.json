@@ -4,12 +4,13 @@
             "edit_page": {
                 "content_label": "=> fof-pages.ref.content",
                 "content_placeholder": "=> fof-pages.ref.content",
-                "delete_page_button": "ページを削除",
-                "delete_page_confirmation": "ページを削除する？",
-                "hidden_label": "下書きとして保存する",
-                "restricted_label": "アクセス制限（権限ページに移動して、カスタムページにアクセスできるユーザーを設定します）",
-                "html_label": "HTML を有効化する",
-                "set_as_home_page_confirmation": "本当にこのページをホームページに設定しますか？",
+                "delete_page_button": "ページの削除",
+                "delete_page_confirmation": "このページを削除してもよろしいですか?",
+                "hidden_label": "下書きとして保存",
+                "restricted_label": "アクセスを制限する (権限タブでアクセス可能なユーザーを設定します)",
+                "html_label": "HTMLを有効化する",
+                "set_as_home_page_confirmation": "このページをホームページとして設定してもよろしいですか?",
+                "set_as_home_page_done": "ホームページが更新されました",
                 "slug_label": "=> fof-pages.ref.slug",
                 "slug_placeholder": "=> fof-pages.ref.slug",
                 "submit_button": "=> core.ref.save_changes",
@@ -20,32 +21,27 @@
                 "url_placeholder": "=> fof-pages.ref.url"
             },
             "pages": {
-                "create_button": "=> fof-pages.ref.create_page",
-                "about_text": "静的なカスタムページを作成し、管理する"
+                "create_button": "=> fof-pages.ref.create_page"
             },
             "pages_list": {
-                "empty_text": "ページが存在しないようです",
+                "empty_text": "ページが作成されていません",
                 "title": "=> fof-pages.ref.title"
             },
             "permissions": {
-                "restricted": "カスタムの静的ページにアクセスする"
+                "restricted": "アクセス制限されたページの閲覧"
             },
             "badges": {
                 "hidden": "下書き",
-                "restricted": "アクセス制限がある"
-            },
-            "nav": {
-                "pages_button": "=> fof-pages.ref.pages",
-                "pages_text": "静的なカスタムページを作成する"
+                "restricted": "アクセス制限が有効"
             }
         },
         "ref": {
-            "content": "コンテンツ",
-            "create_page": "ページを作成",
+            "content": "内容",
+            "create_page": "ページの作成",
             "pages": "ページ",
-            "slug": "Slug（リンク）",
+            "slug": "スラッグ",
             "title": "タイトル",
-            "url": "Url"
+            "url": "URL"
         }
     }
 }

@@ -10,7 +10,7 @@
                 "custom_header_heading": "Custom Header",
                 "custom_header_text": "=> core.ref.custom_header_text",
                 "custom_styles_heading": "Custom Styles",
-                "custom_styles_text": "Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's default styles.",
+                "custom_styles_text": "Customize your forum's appearance by adding your own Less/CSS code to be applied on top of Flarum's default styles.",
                 "dark_mode_label": "Dark Mode",
                 "description": "Customize your forum's colors, logos, and other variables.",
                 "edit_css_button": "Edit Custom CSS",
@@ -21,8 +21,7 @@
                 "favicon_text": "Upload an image to be displayed as the forum's shortcut icon.",
                 "logo_heading": "Logo",
                 "logo_text": "Upload an image to be displayed in place of the forum title.",
-                "title": "Appearance",
-                "submit_button": "=> core.ref.save_changes"
+                "title": "Appearance"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
@@ -40,9 +39,7 @@
                 "slug_driver_text": "Select a driver to be used for slugging this model.",
                 "title": "Basics",
                 "welcome_banner_heading": "Welcome Banner",
-                "welcome_banner_text": "Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum.",
-                "saved_message": "Your changes were saved.",
-                "submit_button": "=> core.ref.save_changes"
+                "welcome_banner_text": "Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum."
             },
             "dashboard": {
                 "clear_cache_button": "Clear Cache",
@@ -51,7 +48,7 @@
                 "tools_button": "Tools"
             },
             "edit_css": {
-                "customize_text": "Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's <a>default styles</a>.",
+                "customize_text": "Customize your forum's appearance by adding your own Less/CSS code to be applied on top of Flarum's <a>default styles</a>.",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Edit Custom CSS"
             },
@@ -99,12 +96,11 @@
                 "send_test_mail_success": "Test mail sent successfully!",
                 "send_test_mail_text": "This will send an email using the above configuration to your email, {email}.",
                 "smtp_heading": "SMTP Settings",
-                "title": "=> core.ref.email",
-                "submit_button": "=> core.ref.save_changes"
+                "title": "=> core.ref.email"
             },
             "extension": {
                 "configure_scopes": "Configure Scopes",
-                "confirm_uninstall": "Uninstalling will remove all database entries and assets related to the extension. Are you sure you want to continue?",
+                "confirm_purge": "Purging will remove all database entries and assets related to the extension. It will not uninstall the extension; that must be done via Composer. Are you sure you want to continue?",
                 "disabled": "Disabled",
                 "enable_to_see": "Enable the extension to view and change settings.",
                 "enabled": "Enabled",
@@ -120,8 +116,12 @@
                 "no_settings": "This extension has no settings.",
                 "open_modal": "Open Settings",
                 "permissions_title": "Permissions",
-                "uninstall_button": "Uninstall",
-                "saved_message": "Your changes were saved."
+                "purge_button": "Purge",
+                "readme": {
+                    "button_label": "README",
+                    "no_readme": "This extension does not appear to have a README file",
+                    "title": "{extName} documentation"
+                }
             },
             "header": {
                 "get_help": "Get Help",
@@ -152,6 +152,8 @@
                 "email_title": "=> core.admin.email.description",
                 "permissions_button": "=> core.admin.permissions.title",
                 "permissions_title": "=> core.admin.permissions.description",
+                "userlist_button": "=> core.admin.users.title",
+                "userlist_title": "=> core.admin.users.description",
                 "search_placeholder": "Search Extensions"
             },
             "permissions": {
@@ -175,18 +177,18 @@
                 "read_heading": "Read",
                 "rename_discussions_label": "Rename discussions",
                 "reply_to_discussions_label": "Reply to discussions",
+                "search_users_label": "Search users",
                 "sign_up_label": "Sign up",
                 "start_discussions_label": "Start discussions",
                 "title": "Permissions",
-                "view_discussions_label": "View discussions",
+                "view_forum_label": "View forum (discussions and users)",
                 "view_hidden_groups_label": "View hidden group badges",
                 "view_last_seen_at_label": "Always view user last seen time",
-                "view_post_ips_label": "View post IP addresses",
-                "view_user_list_label": "View user list"
+                "view_post_ips_label": "View post IP addresses"
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Indefinitely",
-                "allow_some_minutes_button": "For {count} minute|For {count} minutes",
+                "allow_some_minutes_button": "{count, plural, one {For # minute} other {For # minutes}}",
                 "allow_ten_minutes_button": "For 10 minutes",
                 "allow_until_reply_button": "Until next reply",
                 "everyone_button": "Everyone",
@@ -201,6 +203,45 @@
             "upload_image": {
                 "remove_button": "=> core.ref.remove",
                 "upload_button": "Choose an Image..."
+            },
+            "users": {
+                "description": "A paginated list of all users on your forum.",
+                "grid": {
+                    "columns": {
+                        "edit_user": {
+                            "button": "=> core.ref.edit",
+                            "title": "=> core.ref.edit_user",
+                            "tooltip": "Edit {username}"
+                        },
+                        "email": {
+                            "title": "=> core.ref.email",
+                            "visibility_hide": "Hide email address",
+                            "visibility_show": "Show email address"
+                        },
+                        "group_badges": {
+                            "no_badges": "None",
+                            "title": "Groups"
+                        },
+                        "join_time": {
+                            "title": "Joined"
+                        },
+                        "user_id": {
+                            "title": "ID"
+                        },
+                        "username": {
+                            "profile_link_tooltip": "Visit {username}'s profile",
+                            "title": "=> core.ref.username"
+                        }
+                    },
+                    "invalid_column_content": "Invalid"
+                },
+                "pagination": {
+                    "back_button": "Previous page",
+                    "next_button": "Next page",
+                    "page_counter": "Page {current} of {total}"
+                },
+                "title": "=> core.ref.users",
+                "total_users": "Total users: {count}"
             }
         },
         "forum": {
@@ -260,23 +301,10 @@
             "discussion_list": {
                 "empty_text": "It looks as though there are no discussions here.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "Mark as Read",
                 "replied_text": "{username} replied {ago}",
-                "started_text": "{username} started {ago}"
-            },
-            "edit_user": {
-                "activate_button": "Activate User",
-                "email_heading": "=> core.ref.email",
-                "email_label": "=> core.ref.email",
-                "groups_heading": "Groups",
-                "nothing_available": "There is nothing available for you to edit at this time.",
-                "password_heading": "=> core.ref.password",
-                "password_label": "=> core.ref.password",
-                "set_password_label": "Set new password",
-                "submit_button": "=> core.ref.save_changes",
-                "title": "Edit User",
-                "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
+                "started_text": "{username} started {ago}",
+                "total_replies_a11y_label": "{count, plural, one {# reply} other {# replies}}",
+                "unread_replies_a11y_label": "{count, plural, one {# unread reply} other {# unread replies}}. Mark unread {count, plural, one {reply} other {replies}} as read."
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -294,7 +322,9 @@
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Profile",
+                "search_clear_button_accessible_label": "Clear search query",
                 "search_placeholder": "Search Forum",
+                "search_role_label": "Search Forum",
                 "session_dropdown_accessible_label": "Toggle session options dropdown menu",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
@@ -354,7 +384,7 @@
                 "now_link": "Now",
                 "original_post_link": "Original Post",
                 "unread_text": "{count} unread",
-                "viewing_text": "{index} of {count} post|{index} of {count} posts"
+                "viewing_text": "{count, plural, one {{index} of {formattedCount} post} other {{index} of {formattedCount} posts}}"
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "The old title was: \"{old}\"",
@@ -420,22 +450,59 @@
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "Resend Confirmation Email",
                 "sent_message": "Sent"
+            },
+            "welcome_hero": {
+                "hide": "Hide welcome message"
             }
         },
         "lib": {
+            "debug_button": "Debug",
+            "alert": {
+                "dismiss_a11y_label": "Dismiss alert"
+            },
             "badge": {
                 "hidden_tooltip": "Hidden"
             },
             "dropdown": {
                 "toggle_dropdown_accessible_label": "Toggle dropdown menu"
             },
+            "edit_user": {
+                "activate_button": "Activate User",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "Groups",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "Set new password",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.edit_user",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username",
+                "nothing_available": "You are not allowed to edit this user."
+            },
             "error": {
                 "dependent_extensions_message": "Cannot disable {extension} until the following dependent extensions are disabled: {extensions}",
+                "extension_initialiation_failed_message": "{extension} failed to initialize, check the browser console for further information.",
                 "generic_message": "Oops! Something went wrong. Please reload the page and try again.",
                 "missing_dependencies_message": "Cannot enable {extension} until the following dependencies are enabled: {extensions}",
                 "not_found_message": "The requested resource was not found.",
+                "payload_too_large_message": "The request payload was too large.",
                 "permission_denied_message": "You do not have permission to do that.",
-                "rate_limit_exceeded_message": "You're going a little too quickly. Please try again in a few seconds."
+                "rate_limit_exceeded_message": "You're going a little too quickly. Please try again in a few seconds.",
+                "render_failed_message": "Sorry, we encountered an error while displaying this content. If you're a user, please try again later. If you're an administrator, take a look in your Flarum log files for more information."
+            },
+            "loading_indicator": {
+                "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Page # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Page # - {forumName}}}"
+            },
+            "modal": {
+                "close": "Close"
+            },
+            "nav": {
+                "drawer_button": "Open Navigation Drawer"
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -451,10 +518,30 @@
             }
         },
         "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "=> core.ref.extensions",
+                    "disable": "Disable",
+                    "empty": "No installed extensions",
+                    "enable": "Enable",
+                    "name": "Extension Name",
+                    "package_name": "Package Name",
+                    "version": "Version"
+                },
+                "info": {
+                    "caption": "Application Info"
+                },
+                "title": "Administration"
+            },
+            "confirm_email": {
+                "submit_button": "=> core.ref.confirm_email",
+                "text": "Click the button below to confirm your account's email.",
+                "title": "=> core.ref.confirm_email"
+            },
             "content": {
                 "javascript_disabled_message": "This site is best viewed in a modern browser with JavaScript enabled.",
                 "load_error_message": "Something went wrong while trying to load the full version of this site. Try hard-refreshing this page to fix the error.",
-                "loading_text": "Loading..."
+                "loading_text": "=> core.ref.loading"
             },
             "discussion": {
                 "next_page_button": "=> core.ref.next_page",
@@ -514,6 +601,7 @@
             "change_password": "Change Password",
             "color": "Color",
             "confirm_password": "Confirm Password",
+            "confirm_email": "Confirm Email",
             "confirmation_email_sent": "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder.",
             "custom_footer_text": "Add HTML to be displayed at the very bottom of the page.",
             "custom_footer_title": "Edit Custom Footer",
@@ -523,10 +611,13 @@
             "delete_forever": "Delete Forever",
             "discussions": "Discussions",
             "edit": "Edit",
+            "edit_user": "Edit User",
             "email": "Email",
+            "extensions": "Extensions",
             "icon": "Icon",
             "icon_text": "Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the <code>fas fa-</code> prefix.",
             "load_more": "Load More",
+            "loading": "Loading...",
             "log_in": "Log In",
             "log_out": "Log Out",
             "mark_all_as_read": "Mark All as Read",
@@ -544,7 +635,7 @@
             "save_changes": "Save Changes",
             "settings": "Settings",
             "sign_up": "Sign Up",
-            "some_others": "{count} other|{count} others",
+            "some_others": "{count, plural, one {# other} other {# others}}",
             "start_a_discussion": "Start a Discussion",
             "username": "Username",
             "users": "Users",

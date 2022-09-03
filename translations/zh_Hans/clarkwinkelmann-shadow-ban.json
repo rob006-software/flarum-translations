@@ -1,0 +1,39 @@
+{
+    "clarkwinkelmann-shadow-ban": {
+        "admin": {
+            "setting": {
+                "hideUsers": "隐藏影匿用户 (Shadow ban) 的资料"
+            },
+            "permission": {
+                "ban": "影匿用户 (Shadow ban)",
+                "hide": "影藏 (Shadow hide) 主题和回复"
+            }
+        },
+        "forum": {
+            "discussionControl": {
+                "hide": "影藏",
+                "restore": "影藏恢复"
+            },
+            "postControl": {
+                "hide": "影藏",
+                "restore": "影藏恢复"
+            },
+            "userControl": {
+                "ban": "影匿"
+            },
+            "banUser": {
+                "title": "封禁 {username}",
+                "until": "截止日期（UTC 时间）",
+                "quick": "快速选择",
+                "quickChoiceReset": "未封禁",
+                "quickChoiceDays": "{count, plural, one {#} other {#}} 天",
+                "submit": "保存"
+            },
+            "badge": {
+                "user": "影匿中",
+                "discussion": "影藏中",
+                "post": "影藏中"
+            }
+        }
+    }
+}

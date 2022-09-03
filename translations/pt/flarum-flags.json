@@ -1,0 +1,50 @@
+{
+    "flarum-flags": {
+        "admin": {
+            "permissions": {
+                "flag_posts_label": "Sinalizar posts",
+                "view_flags_label": "Ver posts sinalizados"
+            },
+            "settings": {
+                "flag_own_posts_label": "Permitir que os usuários sinalizem suas próprias postagens",
+                "guidelines_url_label": "URL das Regras da Comunidade",
+                "title": "Configurações de Sinalização"
+            }
+        },
+        "forum": {
+            "flag_post": {
+                "confirmation_message": "Obrigado por sinalizar este post. Nossos moderadores olharão ele.",
+                "dismiss_button": "=> core.ref.okay",
+                "reason_details_placeholder": "Detalhes adicionais (opcional)",
+                "reason_inappropriate_label": "Inapropriado",
+                "reason_inappropriate_text": "Este post é ofensivo, abusivo, ou viola nossas <a>regras da comunidade</a>.",
+                "reason_missing_message": "Forneça alguns detalhes para nossos moderadores.",
+                "reason_off_topic_label": "Off-topic",
+                "reason_off_topic_text": "Este post não é relevante à discussão atual e deve ser movido para outro lugar.",
+                "reason_other_label": "Outro",
+                "reason_spam_label": "Spam",
+                "reason_spam_text": "Este post é uma propaganda.",
+                "submit_button": "=> flarum-flags.ref.flag_post",
+                "title": "=> flarum-flags.ref.flag_post"
+            },
+            "flagged_posts": {
+                "empty_text": "Sem Sinalizações",
+                "item_text": "{username} em <em>{discussion}</em>",
+                "title": "=> flarum-flags.ref.flagged_posts",
+                "tooltip": "=> flarum-flags.ref.flagged_posts"
+            },
+            "post": {
+                "dismiss_flag_button": "Desfazer Sinalização",
+                "flagged_by_text": "{username} sinalizou",
+                "flagged_by_with_reason_text": "{username} sinalizou como {reason}"
+            },
+            "post_controls": {
+                "flag_button": "Sinalizar"
+            }
+        },
+        "ref": {
+            "flag_post": "Sinalizar Post",
+            "flagged_posts": "Posts Sinalizados"
+        }
+    }
+}

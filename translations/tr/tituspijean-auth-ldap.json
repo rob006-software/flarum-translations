@@ -1,0 +1,29 @@
+{
+    "tituspijean-auth-ldap": {
+        "forum": {
+            "log_in_with": "{server} ile Giriş Yap",
+            "log_out": "=> core.ref.log_out"
+        },
+        "admin": {
+            "settings": {
+                "title": "LDAP ayarları",
+                "method_name": "LDAP sunucu adı (\"Şununla oturum aç\"dan sonra görünecektir)",
+                "hosts": "LDAP etki alanları veya sunucu IP adresleri (virgülle ayrılmış)",
+                "base_dn": "Temel DN'ler (noktalı virgülle ayrılmış)",
+                "filter": "Uygulanacak filtre (isteğe bağlı)",
+                "port": "port",
+                "account_prefix": "Hesap öneki",
+                "account_suffix": "Hesap son eki",
+                "admin_dn": "LDAP yönetici ayırt edici adı (anonim bağlama için boş bırakın)",
+                "admin_password": "LDAP yönetici şifresi (anonim bağlama için boş bırakın)",
+                "search_user_fields": "LDAP kullanıcı arama alanları (virgülle ayrılmış)",
+                "user_mail": "LDAP kullanıcı posta alanı",
+                "user_username": "LDAP kullanıcı adı alanı",
+                "follow_referrals": "LDAP sunucusuna bağlanmak için adımları izleyin",
+                "use_ssl": "SSL kullan",
+                "use_tls": "TLS kullan",
+                "onlyUse": "Flarum varsayılan giriş yöntemini gizleyin"
+            }
+        }
+    }
+}

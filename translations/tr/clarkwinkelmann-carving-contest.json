@@ -25,7 +25,7 @@
                     "you_text": "=> core.ref.you",
                     "others_link": "=> core.ref.some_others",
                     "liked_by_self_text": "{users} bunu beğendi.",
-                    "liked_by_text": "{users} bunu beğendi.|{users} bunu beğendi."
+                    "liked_by_text": "{count, plural, one {{users} bunu beğendi.} other {{users} bunu beğendi.}}"
                 }
             },
             "modal": {
@@ -46,19 +46,17 @@
                 "view": "Başvuruları göster",
                 "like": "Başvuruları beğen",
                 "participate": "Katıl",
-                "moderate": "Yönet",
-                "heading": "Oyma Yarışması"
+                "moderate": "Yönet"
             },
             "settings": {
                 "maxEntriesPerUser": "Kullanıcıların en fazla başvuru sayısı",
-                "colorMode": "",
-                "title": "Oyma Yarışması Ayarları"
+                "colorMode": "Bölme modu yerine renk modunu kullan"
             },
             "colors": {
-                "simple": "",
-                "all": "",
-                "custom": "",
-                "custom-help": ""
+                "simple": "Basit renk seti",
+                "all": "Herhangi bir renk",
+                "custom": "Özel renk listesi",
+                "custom-help": "#Hex veya rgb() değerlerini virgülle ayırın"
             }
         }
     }

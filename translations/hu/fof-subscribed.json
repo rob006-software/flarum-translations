@@ -1,0 +1,50 @@
+{
+    "fof-subscribed": {
+        "forum": {
+            "settings": {
+                "defaults_label": "„{setting}” bekapcsolása alapértelmezetten",
+                "forced_label": "„{setting}” kényszerített bekapcsolása mindenkinek",
+                "notify_discussion_created_label": "Valaki létrehoz egy témát",
+                "notify_post_created_label": "Valaki létrehoz egy új bejegyzést vagy választ",
+                "notify_post_unapproved_label": "Egy létrehozott bejegyzéshez jóváhagyás szükséges",
+                "notify_user_created_label": "Valaki regisztrál",
+                "notify_post_flagged_label": "Valaki új jelzőt hoz létre egy bejegyzésen"
+            },
+            "notifications": {
+                "discussion_created_text": "{username} létrehozott egy új témát",
+                "post_created_text": "{username} írt egy új bejegyzést",
+                "post_unapproved_text": "{username} létrehozott egy jóváhagyandó bejegyzést",
+                "user_created_text": "{username} most regisztrált",
+                "post_flagged_text": "{username} megjelölt egy bejegyzést"
+            }
+        },
+        "admin": {
+            "permission": {
+                "subscribe_to_discussion_created": "Értesítéseket kaphat az új témákról",
+                "subscribe_to_post_created": "Értesítéseket kaphat az új bejegyzésekről vagy válaszokról",
+                "subscribe_to_post_unapproved": "Értesítéseket kaphat az új jóváhagyandó bejegyzésekről",
+                "subscribe_to_user_created": "Értesítéseket kaphat az új felhasználókról",
+                "subscribe_to_post_flagged": "Értesítéseket kaphat az új jelzőkről"
+            },
+            "menu": {
+                "description": ""
+            }
+        },
+        "email": {
+            "subject": {
+                "newDiscussion": "[Feliratkozás | Új téma] {title}",
+                "newUser": "[Feliratkozás | Új felhasználó] {username}",
+                "postUnapproved": "[Feliratkozás | Jóváhagyandó] {username} bejegyzést tett közzé ebben: {title}",
+                "postCreated": "[Feliratkozás | Új bejegyzés] {username} új bejegyzést írt itt: {title}",
+                "postFlagged": "[Feliratkozás | Új jelző] {username} megjelölt egy bejegyzést ebben: {title}"
+            },
+            "body": {
+                "newDiscussion": "Kedves {recipient_display_name}!\n\n{actor_display_name} új témát nyitott: {discussion_title}\n\nA téma megtekintéséhez kövesse a következő hivatkozást:\n{discussion_url}\n\n---\n\n{post_content}\n",
+                "newUser": "Kedves {recipient_display_name}!\n\n{actor_display_name} most csatlakozott a(z) {forum_url} fórumhoz.\n\nAz új felhasználó profiljának megtekintéséhez kövesse a következő hivatkozást:\n{user_url}\n",
+                "postUnapproved": "Kedves {recipient_display_name}!\n\n{actor_display_name} létrehozott egy nem automatikusan jóváhagyott bejegyzést ebben a témában: {discussion_title}\n\nA bejegyzés megtekintéséhez kövesse a következő hivatkozást:\n{post_url}\n\n---\n\n{post_content}\n",
+                "postCreated": "Kedves {recipient_display_name}!\n\n{actor_display_name} létrehozott egy új bejegyzést ebben a témában: {discussion_title}\n\nA bejegyzés megtekintéséhez kövesse a következő hivatkozást:\n{post_url}\n\n---\n\n{post_content}\n",
+                "postFlagged": "Kedves {recipient_display_name}!\n\n{actor_display_name} megjelölt egy bejegyzést ebben a témában: {discussion_title}\n\nA bejegyzés megtekintéséhez kövesse a következő hivatkozást:\n{post_url}\n"
+            }
+        }
+    }
+}

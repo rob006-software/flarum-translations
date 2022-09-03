@@ -1,5 +1,11 @@
 {
     "flarum-mentions": {
+        "admin": {
+            "settings": {
+                "allow_username_format_label": "Kullanıcı adıyla bahsetmeye izin ver (@Kullanıcı)",
+                "allow_username_format_text": "Kullanıcının bahsedildiği mevcut format @\"Görünen Ad\"#ID şeklindedir.\nBu ayar eski @Kullanıcı formatının kullanılmasına izin verir, ancak yine de kaydedildikten sonra yeni formata dönüştürecektir.\n"
+            }
+        },
         "forum": {
             "composer": {
                 "mention_tooltip": "Bir kullanıcı veya gönderiden bahsedin",
@@ -11,7 +17,7 @@
                 "user_mentioned_text": "{username} senden bahsetti"
             },
             "post": {
-                "mentioned_by_self_text": "{users} bunu yanıtladı.",
+                "mentioned_by_self_text": "{users} bunu yanıtladın.",
                 "mentioned_by_text": "{users} bunu yanıtladı.",
                 "others_text": "=> core.ref.some_others",
                 "quote_button": "Alıntı",
@@ -24,6 +30,9 @@
             },
             "user": {
                 "mentions_link": "Bahsetmeler"
+            },
+            "post_mention": {
+                "deleted_text": "[bilinmeyen]"
             }
         },
         "email": {

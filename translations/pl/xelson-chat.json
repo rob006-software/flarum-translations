@@ -101,7 +101,8 @@
                         "search": {
                             "placeholder": "Wyszukaj użytkowników",
                             "failed": "Nie znaleziono pasujących użytkowników",
-                            "invited": "Zaproszony"
+                            "invited": "Zaproszony",
+                            "more_results": "I {more_results} więcej..."
                         }
                     }
                 },
@@ -184,51 +185,6 @@
                     "title": "Wyświetlanie",
                     "minimize": "Wyświetlaj domyślnie zminimalizowany",
                     "censor": "Cenzuruj wiadomości nieuwierzytelnionym użytkownikom"
-                }
-            }
-        }
-    },
-    "pushedx-chat": {
-        "forum": {
-            "toolbar": {
-                "title": "Czat",
-                "enable_sounds": "Włącz dźwięki",
-                "disable_sounds": "Wyłącz dźwięki",
-                "enable_notifications": "Włącz powiadomienia",
-                "disable_notifications": "Wyłącz powiadomienia",
-                "minimize": "Minimalizuj",
-                "maximize": "Maksymalizuj"
-            },
-            "chat": {
-                "placeholder": "Wpisz swoją wiadomość...",
-                "message": {
-                    "actions": {
-                        "hide": "Ukryj",
-                        "resend": "Wyślij ponownie"
-                    }
-                }
-            },
-            "errors": {
-                "unauthenticated": "Tylko zarejestrowani użytkownicy mogą korzystać z czatu",
-                "chatdenied": "Nie masz uprawnień, aby pisać na czacie"
-            }
-        },
-        "admin": {
-            "permissions": {
-                "post": "Pisanie na czacie",
-                "edit": "Edycja wiadomości na czacie",
-                "delete": "Usuwanie wiadomości na czacie",
-                "moderate": {
-                    "delete": "Usuwanie wiadomości na czacie"
-                }
-            },
-            "settings": {
-                "title": "Ustawienia czatu",
-                "charlimit": "Limit znaków w wiadomości",
-                "floodgate": {
-                    "title": "Antyflood",
-                    "number": "Liczba wiadomości wysłanych pod rząd",
-                    "time": "W czasie"
                 }
             }
         }

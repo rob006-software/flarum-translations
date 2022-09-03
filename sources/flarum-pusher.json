@@ -11,7 +11,7 @@
         },
         "forum": {
             "discussion_list": {
-                "show_updates_text": "Show {count} updated discussion|Show {count} updated discussions"
+                "show_updates_text": "{count, plural, one {Show # updated discussion} other {Show # updated discussions}}"
             }
         }
     }

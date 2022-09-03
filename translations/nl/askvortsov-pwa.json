@@ -2,25 +2,37 @@
     "askvortsov-pwa": {
         "admin": {
             "nav": {
-                "pwa_button": "",
+                "pwa_button": "Progressieve web applicatie",
                 "pwa_text": ""
             },
             "pwa": {
                 "about": {
+                    "description_label": "",
                     "description_text": "",
+                    "long_name_label": "",
                     "long_name_text": "",
                     "heading": "",
-                    "short_name_text": "",
-                    "name_text": ""
+                    "short_name_label": "",
+                    "short_name_text": ""
                 },
                 "colors": {
                     "heading": "",
+                    "background_color_label": "",
                     "background_color_text": "",
+                    "theme_color_label": "",
                     "theme_color_text": ""
                 },
                 "maintenance": {
                     "heading": "",
-                    "debug_label": ""
+                    "debug_label": "",
+                    "debug_text": "",
+                    "reset_vapid_text": "",
+                    "reset_vapid_confirm": "",
+                    "reset_vapid_success": ""
+                },
+                "other": {
+                    "heading": "",
+                    "force_portrait_text": ""
                 },
                 "heading": "",
                 "text": "",
@@ -36,7 +48,9 @@
                 "possible_https_disabled": "",
                 "no_logo": "",
                 "no_name": "",
-                "push_needs_gmp_and_web_push": "",
+                "no_vapid_keys": "",
+                "key_gen_failed": "",
+                "suggest_gmp": "",
                 "success": ""
             }
         },
@@ -67,6 +81,12 @@
                     "no_browser_support": "",
                     "no_browser_support_button": ""
                 }
+            }
+        },
+        "views": {
+            "offline": {
+                "header": "",
+                "text": ""
             }
         }
     }

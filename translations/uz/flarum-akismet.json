@@ -1,0 +1,21 @@
+{
+    "flarum-akismet": {
+        "admin": {
+            "akismet_settings": {
+                "api_key_label": "API kaliti",
+                "title": "Akisment sozlamalari",
+                "delete_blatant_spam_label": "",
+                "delete_blatant_spam_help": ""
+            },
+            "permissions": {
+                "bypass_akismet": ""
+            }
+        },
+        "forum": {
+            "post": {
+                "akismet_flagged_text": "Akisment spam deb bildi",
+                "not_spam_button": "Spam emas"
+            }
+        }
+    }
+}

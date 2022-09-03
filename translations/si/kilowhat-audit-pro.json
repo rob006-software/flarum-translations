@@ -1,0 +1,157 @@
+{
+    "kilowhat-audit": {
+        "admin": {
+            "permissions": {
+                "view": "",
+                "viewLimited": ""
+            },
+            "header": {
+                "title": "විගණනය",
+                "free": "නොමිලේ",
+                "pro": "",
+                "upgrade": ""
+            },
+            "limitedSettings": {
+                "configure": "",
+                "title": "",
+                "introduction": "",
+                "requiresExtension": ""
+            },
+            "settings": {
+                "limitedIpAddress": ""
+            }
+        },
+        "forum": {
+            "link": {
+                "all-audit": "",
+                "discussion-audit": "",
+                "user-audit": "",
+                "actor-audit": ""
+            },
+            "modal": {
+                "all-title": "",
+                "discussion-title": "",
+                "user-title": "",
+                "actor-title": ""
+            }
+        },
+        "lib": {
+            "browser": {
+                "filterPlaceholder": "",
+                "filterApply": "යොදන්න",
+                "empty": "ප්‍රතිඵල නැත",
+                "loadMore": "තව පූරනය කරන්න",
+                "withoutActor": "=> core.group.guest",
+                "deletedResource": {
+                    "discussion": "සාකච්ඡාව #{id}",
+                    "group": "සමූහය #{id}",
+                    "post": "",
+                    "tag": "",
+                    "user": "පරිශීලක #{id}"
+                },
+                "genericResource": {
+                    "comment": "අදහස",
+                    "post": ""
+                },
+                "permissionGroup": {
+                    "everyone": "=> core.admin.permissions_controls.everyone_button",
+                    "members": "=> core.admin.permissions_controls.members_button"
+                },
+                "noValue": "(අගයක් නැත)",
+                "noReason": "(හේතුවක් නැත)",
+                "client": {
+                    "session": "",
+                    "api_key": "යෙ.ක්‍ර. අ.මු. (API) යතුර",
+                    "access_token": "",
+                    "cli": "",
+                    "unknown": "නොදන්නා අනුග්‍රාහකයෙකි"
+                },
+                "controls": {
+                    "hideRaw": "",
+                    "showRaw": "",
+                    "filterActor": "",
+                    "filterIp": "",
+                    "filterClient": "",
+                    "filterAction": "",
+                    "filterUser": "",
+                    "filterDiscussion": ""
+                },
+                "cache_cleared": "නිහිතය අතින් හිස්කරන ලදි",
+                "discussion": {
+                    "created": "ආරම්භ කළ සාකච්ඡාව {discussion}",
+                    "create_date_changed": "{discussion} ආරම්භක දිනය {old_date} සිට {new_date} දක්වා වෙනස් කරන ලදි",
+                    "deleted": "",
+                    "hidden": "",
+                    "locked": "",
+                    "renamed": "",
+                    "restored": "",
+                    "split_away": "",
+                    "split_into": "",
+                    "stickied": "",
+                    "tagged": "",
+                    "unlocked": "",
+                    "unstickied": "",
+                    "user_changed": ""
+                },
+                "extension": {
+                    "disabled": "",
+                    "enabled": ""
+                },
+                "fof_ban_ips": {
+                    "banned": "",
+                    "unbanned": ""
+                },
+                "permission_changed": "",
+                "post": {
+                    "approved": "",
+                    "created": "",
+                    "create_date_changed": "",
+                    "deleted": "",
+                    "dismissed_flags": "",
+                    "edit_date_changed": "",
+                    "flagged": "",
+                    "hidden": "",
+                    "restored": "",
+                    "revised": "",
+                    "user_changed": ""
+                },
+                "setting_changed": "",
+                "setting_changed_with_values": "",
+                "tag": {
+                    "created": "",
+                    "deleted": "",
+                    "updated": ""
+                },
+                "user": {
+                    "activated": "",
+                    "activated_with_email": "",
+                    "avatar_changed": "",
+                    "avatar_removed": "",
+                    "bio_changed": "",
+                    "created": "",
+                    "deleted": "",
+                    "email_changed": "",
+                    "email_change_requested": "",
+                    "groups_changed": "",
+                    "impersonated": "",
+                    "logged_in": "",
+                    "logged_in_with_provider": "",
+                    "logged_out": "",
+                    "nickname_changed": "",
+                    "nickname_requested": "",
+                    "nickname_request_approved": "",
+                    "nickname_request_rejected": "",
+                    "password_changed": "",
+                    "password_change_requested": "",
+                    "provider_connected": "",
+                    "suspended": "",
+                    "unsuspended": "",
+                    "username_changed": "",
+                    "username_requested": "",
+                    "username_request_approved": "",
+                    "username_request_rejected": ""
+                }
+            }
+        }
+    }
+}

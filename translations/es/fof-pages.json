@@ -7,9 +7,10 @@
                 "delete_page_button": "Eliminar pagina",
                 "delete_page_confirmation": "¿Estás seguro de que quieres eliminar esta pagina?",
                 "hidden_label": "Guardar como borrador",
-                "restricted_label": "",
+                "restricted_label": "Restringir acceso (decidir quién puede acceder en la sección de Permisos)",
                 "html_label": "Activar Html",
                 "set_as_home_page_confirmation": "¿Estás seguro de que deseas configurar esta página como su página de inicio?",
+                "set_as_home_page_done": "Página principal actualizada",
                 "slug_label": "=> fof-pages.ref.slug",
                 "slug_placeholder": "=> fof-pages.ref.slug",
                 "submit_button": "=> core.ref.save_changes",
@@ -20,23 +21,18 @@
                 "url_placeholder": "=> fof-pages.ref.url"
             },
             "pages": {
-                "create_button": "=> fof-pages.ref.create_page",
-                "about_text": "Crea y administra páginas estáticas."
+                "create_button": "=> fof-pages.ref.create_page"
             },
             "pages_list": {
                 "empty_text": "Parece que no hay páginas aquí.",
                 "title": "=> fof-pages.ref.title"
             },
             "permissions": {
-                "restricted": ""
+                "restricted": "Ver páginas restringidas"
             },
             "badges": {
-                "hidden": "",
-                "restricted": ""
-            },
-            "nav": {
-                "pages_button": "=> fof-pages.ref.pages",
-                "pages_text": "Crear páginas estaticas personalizadas."
+                "hidden": "Borrador",
+                "restricted": "Restringido"
             }
         },
         "ref": {

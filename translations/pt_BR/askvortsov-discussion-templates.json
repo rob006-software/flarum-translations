@@ -1,0 +1,34 @@
+{
+    "askvortsov-discussion-templates": {
+        "admin": {
+            "permissions": {
+                "manage_own_discussion_reply_templates": "Gerenciar modelos de resposta para suas discussões",
+                "manage_all_reply_templates": "Gerencie modelos de resposta para todas as discussões"
+            },
+            "settings": {
+                "no_tag_template": "Modelo padrão (usado quando a discussão começou sem tags selecionadas):",
+                "append_template_on_tag_change": "Anexar modelo na mudança de tag?",
+                "append_template_on_tag_change_help": "Quando as tags são alteradas, o modelo da nova tag deve ser anexado mesmo que o usuário já tenha começado a escrever? Independentemente dessa configuração, se as tags forem alteradas e o usuário não tiver feito modificações, o template será trocado."
+            },
+            "tags": {
+                "tag_template_heading": "Modelo de Discussão",
+                "tag_template_text": "Gerencie um modelo para novas discussões nesta tag.",
+                "tag_template_button": "Editar Modelo"
+            },
+            "tag_template_modal": {
+                "title": "Modelo de Discussão",
+                "customize_text": "Gerencie um modelo para novas discussões nesta tag.",
+                "submit_button": "Salvar Modelo"
+            }
+        },
+        "forum": {
+            "discussion_controls": {
+                "reply_template_button": "Editar Modelo de Resposta"
+            },
+            "reply_template": {
+                "title": "Editar Modelo de Resposta",
+                "submit_button": "Salvar Modelo de Resposta"
+            }
+        }
+    }
+}

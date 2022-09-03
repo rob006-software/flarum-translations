@@ -1,0 +1,39 @@
+{
+    "justoverclock-auto-post-count-badge": {
+        "admin": {
+            "settings": {
+                "tier": "Katman {tier} : Şuradan {from} şuraya {to} gönderiler",
+                "icon-manager": {
+                    "title": "Simge Yönetimi",
+                    "help_text": "=> core.ref.icon_text"
+                },
+                "label-manager": {
+                    "title": "Metin Etiket Yöneticisi",
+                    "help": "Katman adlarını özelleştirin"
+                }
+            },
+            "levelOne": "Seviye 1 - \"Bebek\" için simgeyi değiştir",
+            "levelOne-help": "1. seviye için göstermek istediğiniz fontawesome simgesini buraya yapıştırın (ör. \"fas fa-square\")",
+            "levelTwo": "2. seviye - \"Buralarda Yeni\" için simgeyi değiştir",
+            "levelTwo-help": "2. seviye için göstermek istediğiniz fontawesome simgesini buraya yapıştırın (ör. \"fas fa-square\")",
+            "levelTree": "3. seviye - \"Konuşkan\" için simgeyi değiştir",
+            "levelTree-help": "3. seviye için göstermek istediğiniz fontawesome simgesini buraya yapıştırın (ör. \"fas fa-square\")",
+            "levelFour": "4. seviye - \"Öğretmen\" için simgeyi değiştir",
+            "levelFour-help": "4. seviye için göstermek istediğiniz fontawesome simgesini buraya yapıştırın (ör. \"fas fa-square\")",
+            "levelFive": "5. seviye - \"Canavar!\" için simgeyi değiştir",
+            "levelFive-help": "5. seviye için göstermek istediğiniz fontawesome simgesini buraya yapıştırın (ör. \"fas fa-square\")",
+            "levelSix": "6. seviye - \"İş Bilen!\" için simgeyi değiştir",
+            "levelSix-help": "6. seviye için göstermek istediğiniz fontawesome simgesini buraya yapıştırın (ör. \"fas fa-square\")"
+        },
+        "forum": {
+            "less10post": "Bebek",
+            "less50post": "Buralarda Yeni",
+            "less100post": "Konuşkan",
+            "less300post": "Öğretmen",
+            "less600post": "Canavar!",
+            "less1000post": "İş Bilen!",
+            "hasWritten": "{count, plural, one {# gönderi yazıldı} other {# gönderi yazıldı}}",
+            "posts": "gönderiler"
+        }
+    }
+}

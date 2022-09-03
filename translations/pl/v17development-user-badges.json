@@ -1,66 +1,121 @@
 {
     "v17development-flarum-badges": {
         "admin": {
-            "uncategorized": "",
-            "new_badge": "",
-            "create_category": "",
-            "update_badge": "",
-            "update_category": "",
-            "edit_category": "",
-            "nothing_here_yet": "",
+            "uncategorized": "Bez kategorii",
+            "new_badge": "Nowa odznaka",
+            "create_category": "Utwórz kategorię",
+            "update_badge": "Edytuj odznakę",
+            "update_category": "Edytuj kategorię",
+            "edit_category": "Edytuj kategorię",
+            "nothing_here_yet": "Nie utworzono jeszcze żadnych odznak ani kategorii.",
+            "show_badges_on_user_card": "Pokaż odznaki w profilu użytkownika",
+            "number_of_badges_on_user_card": "Liczba odznak",
+            "number_of_badges_on_user_card_help": "Liczba odznak do wyświetlenia w profilu użytkownika",
             "permissions": {
-                "give_badge": "",
-                "take_badge": ""
+                "badge_detail_users": "Przeglądanie listy użytkowników z daną odznaką",
+                "give_badge": "Przyznawanie odznak użytkownikom",
+                "take_badge": "Odbieranie odznak użytkownikom",
+                "edit_own_card_badges": "Edycja odznak na swoim profilu",
+                "edit_card_badges": "Edycja odznak na profilach innych użytkowników"
             },
             "confirm_dialog": {
-                "title": "",
-                "no": "",
-                "yes": ""
+                "title": "Potwierdź",
+                "no": "Nie",
+                "yes": "Tak"
             },
             "confirm_messages": {
-                "delete_badge": "",
-                "delete_category": ""
+                "delete_badge": "Czy jesteś pewien, że chcesz usunąć tę odznakę? Zostanie ona odebrana wszystkim użytkownikom i jest to nieodwracalne.",
+                "delete_category": "Czy jesteś pewien, że chcesz usunąć tę kategorię? Jeżeli są w niej jakieś odznaki, zostaną one oznaczone jako \"Bez kategorii\"."
             },
             "badge": {
-                "name": "",
-                "icon": "",
-                "description": "",
-                "visible": "",
-                "visible_description": ""
+                "name": "Nazwa odznaki",
+                "icon": "Ikona odznaki",
+                "description": "Opis odznaki",
+                "visible": "Widoczna",
+                "visible_description": "Jeśli odznaczysz tę opcję, odznaka nie będzie widoczna.",
+                "is_image": "Odznaka jest obrazkiem",
+                "is_image_description": "Użyj obrazka zamiast standardowej odznaki",
+                "image": "URL obrazka",
+                "image_placeholder": "Podaj URL do obrazka dla tej odznaki",
+                "icon_color": "Kolor ikony",
+                "background_color": "Kolor tła",
+                "label_color": "Kolor tekstu"
             },
             "badge_category": {
-                "name": "",
-                "description": "",
-                "enabled": "",
-                "enabled_description": ""
+                "name": "Nazwa kategorii",
+                "description": "Opis kategorii",
+                "blockview": "Układ blokowy",
+                "blockview_description": "Wyświetl odznaki w tej kategorii w postaci bloków na liście odznak. Jeśli wyłączone, odznaki będą wyświetlane w postaci tabeli.",
+                "enabled": "Włączona",
+                "enabled_description": "Jeśli wyłączysz kategorię, wszystkie zawarte w niej odznaki zostaną ukryte, a kategoria nie będzie widoczna."
+            },
+            "auto_moderator": {
+                "not_installed": {
+                    "title": "Automatycznie nagradzaj użytkowników odznakami",
+                    "content": "To rozszerzenie oferuje większą funkcjonalność jeśli rozszerzenie <a>Auto Moderator</a> jest włączone. Użytkownicy mogą być wtedy automatycznie nagradzani odznakami bez udziału moderatorów lub administracji!",
+                    "install": "Zainstaluj",
+                    "dismiss": "Nie pokazuj ponownie"
+                },
+                "action_drivers": {
+                    "badge_id": "ID odznaki",
+                    "give_badge": "Przyznaj odznakę",
+                    "remove_badge": "Odbierz odznakę"
+                },
+                "requirement_drivers": {
+                    "has_badge": "Posiada odznakę"
+                },
+                "metric_drivers": {
+                    "badges_received": "Przyznano odznaki"
+                },
+                "badge_selector": {
+                    "placeholder": "Wybierz odznakę",
+                    "loading_badges": "Ładowanie odznak"
+                }
             }
         },
         "forum": {
-            "badge_information": "",
-            "all_badges": "",
-            "all_users": "",
-            "give_badge": "",
-            "update_badge": "",
-            "select_badge": "",
-            "user_has_badge": "",
-            "user_no_badges": "",
-            "uncategorized": "",
+            "badge_information": "Informacje o odznace",
+            "all_badges": "Zobacz wszystkie odznaki",
+            "all_users": "Zobacz wszystkich użytkowników",
+            "give_badge": "Przyznaj odznakę",
+            "update_badge": "Edytuj odznakę",
+            "select_badge": "Wybierz odznakę",
+            "user_has_badge": "Ten użytkownik już ma tę odznakę.",
+            "user_no_badges": "Ten użytkownik nie ma jeszcze żadnych odznak.",
+            "no_received": "Żaden użytkownik nie uzyskał jeszcze tej odznaki.",
+            "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
+            "save_changes": "Zapisz zmiany",
             "badge": {
-                "badge": "",
-                "badges": "",
-                "name": "",
-                "description": "",
-                "earning_reason": "",
-                "update_earning_reason": "",
-                "no_earning_reason": "",
-                "earned_on": "",
-                "category": "",
-                "earned_count": ""
+                "badge": "Odznaka",
+                "badges": "Odznaki",
+                "name": "Nazwa odznaki",
+                "description": "Opis odznaki",
+                "earning_reason": "Powód przyznania odznaki",
+                "update_earning_reason": "Edytuj powód przyznania odznaki",
+                "no_earning_reason": "Nie podano powodu przyznania odznaki",
+                "earned_on": "Odznakę przyznano",
+                "category": "Kategoria odznaki",
+                "received_on": "Uzyskano {date}",
+                "badge_details": "Szczegóły odznaki",
+                "earned_count": "{count, plural, one {<b>{count} użytkownik</b> uzyskał} other {<b>{count} użytkowników</b> uzyskało}} tę odznakę",
+                "earned_by_count": "{count, plural, one {<b># użytkownik uzyskał</b>} other {<b># użytkowników uzyskało</b>}} tę odznakę",
+                "others_link": "+ {count} więcej"
+            },
+            "badges_in_card": {
+                "title": "Odznaki w profilu użytkownika",
+                "manage_badges": "Zarządzaj odznakami",
+                "description": "Możesz wybrać odznaki widoczne w twoim profilu. Jeśli nie wybierzesz żadnej odznaki, zostaną one wybrane automatycznie.",
+                "select_limit": "Możesz wybrać {limit, plural, one {<b>jedną odznakę</b> widoczną} few {<b># odznaki</b> widoczne} other {<b># odznak</b> widocznych}} w twoim profilu.",
+                "hit_limit": "Jest miejsce tylko na {limit, plural, one {<b>jedną odznakę</b> widoczną} few {<b># odznaki</b> widoczne} other {<b># odznak</b> widocznych}} w twoim profilu. Ukryj niektóre odznaki, aby zrobić miejsce na nowe."
             },
             "moderation": {
-                "remove_badge": "",
-                "remove_badge_confirm": "",
-                "give_badge": ""
+                "remove_badge": "Odbierz odznakę użytkownikowi",
+                "remove_badge_confirm": "Czy jesteś pewien, że chcesz odebrać tę odznakę temu użytkownikowi?",
+                "give_badge": "Przyznaj odznakę"
+            },
+            "notification": {
+                "title": "Uzyskałeś nową odznakę",
+                "settings": "Uzyskałem nową odznakę"
             }
         }
     }

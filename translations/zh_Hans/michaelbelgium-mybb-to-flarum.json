@@ -2,14 +2,19 @@
     "michaelbelgium-mybb-to-flarum": {
         "admin": {
             "content": {
-                "description_text": "将 Mybb 论坛转换为这个 Flarum 实例。填写所需数据，然后点击「迁移」即可。",
+                "description_text": "将 Mybb 论坛转为 Flarum 实例。填写所需数据，然后点击「迁移」即可。",
                 "convert_button": "迁移",
                 "form": {
-                    "general": {
-                        "title": "常规设置",
-                        "migrate_avatars_label": "迁移头像",
-                        "migrate_soft_threads_label": "迁移软删除的线程（主题）",
-                        "migrate_soft_posts_label": "迁移软删除的帖子"
+                    "options": {
+                        "title": "常规迁移选项",
+                        "migrate_avatars_label": "",
+                        "migrate_soft_threads_label": "",
+                        "migrate_soft_posts_label": "",
+                        "migrate_attachments_label": "",
+                        "migrate_users_label": "迁移用户",
+                        "migrate_threadsPosts_label": "迁移主题和帖子",
+                        "migrate_userGroups_label": "迁移用户组",
+                        "migrate_categories_label": "迁移分类目录（标签）"
                     },
                     "mybb": {
                         "title": "MyBB 设置",
@@ -18,54 +23,17 @@
                         "password_label": "数据库密码",
                         "db_label": "数据库名",
                         "prefix_label": "表前缀",
-                        "path_label": "绝对 MyBB 路径"
+                        "path_label": "MyBB 绝对路径"
                     },
-                    "options": {
-                        "title": "常规迁移选项",
-                        "migrate_users_label": "迁移用户",
-                        "migrate_threadsPosts_label": "迁移线程和帖子",
-                        "migrate_userGroups_label": "迁移用户组",
-                        "migrate_categories_label": "迁移分类目录（标签）"
-                    }
-                }
-            },
-            "nav": {
-                "title": "MyBB 到 Flarum",
-                "description_text": "将 MyBB 论坛转换为 Flarum 实例"
-            }
-        }
-    },
-    "mybbtoflarum": {
-        "admin": {
-            "nav": {
-                "title": "MyBB to Flarum",
-                "description": "将 MyBB 论坛转换为 Flarum"
-            },
-            "page": {
-                "text": "将 MyBB 论坛转换为 Flarum，填写以下信息后点击“迁移”。",
-                "btnConvert": "迁移",
-                "form": {
                     "general": {
                         "title": "常规设置",
-                        "migrateAvatars": "迁移头像",
-                        "migrateSoftThreads": "迁移软删除主题",
-                        "migrateSoftPosts": "迁移软删除回复"
-                    },
-                    "mybb": {
-                        "title": "MyBB 设置",
-                        "host": "数据库地址",
-                        "user": "数据库用户名",
-                        "password": "数据库密码",
-                        "db": "数据库名",
-                        "prefix": "表前缀",
-                        "mybbPath": "MyBB 绝对路径"
-                    },
-                    "options": {
-                        "title": "迁移选项",
-                        "migrateUsers": "迁移用户",
-                        "migrateThreadsPosts": "迁移主题及回复",
-                        "migrateUserGroups": "迁移用户组",
-                        "migrateCategories": "迁移分类"
+                        "migrate_users_label": "",
+                        "migrate_threadsPosts_label": "",
+                        "migrate_userGroups_label": "",
+                        "migrate_categories_label": "",
+                        "migrate_avatars_label": "迁移头像",
+                        "migrate_soft_threads_label": "迁移软删除的主题",
+                        "migrate_soft_posts_label": "迁移软删除的帖子"
                     }
                 }
             }

@@ -30,6 +30,8 @@
         "ends_with": ":attribute moet eindigen met één van de volgende: :values.",
         "exists": ":attribute is ongeldig.",
         "file": ":attribute moet een bestand zijn.",
+        "file_too_large": ":attribute is te groot.",
+        "file_upload_failed": ":attribute kon niet worden geüpload.",
         "filled": ":attribute is vereist.",
         "gt": {
             "numeric": ":attribute moet groter zijn dan :value.",
@@ -77,6 +79,7 @@
             "string": ":attribute moet tenminste :min karakters bevatten.",
             "array": ":attribute moet tenminste :min items bevatten."
         },
+        "multiple_of": ":attribute moet een veelvoud zijn van :value.",
         "not_in": ":attribute is ongeldig.",
         "not_regex": ":attribute formaat is ongeldig.",
         "numeric": ":attribute moet een nummer zijn.",
@@ -90,6 +93,9 @@
         "required_with_all": ":attribute is vereist wanneer :values aanwezig zijn.",
         "required_without": ":attribute is vereist wanneeer :values niet aanwezig is.",
         "required_without_all": ":attribute is vereist wanneer geen enkele van :values aanwezig zijn.",
+        "prohibited": "Het veld :attribute is verboden.",
+        "prohibited_if": ":attribute is verboden wanneer :other :value is.",
+        "prohibited_unless": "Het veld :attribuut is niet toegestaan, tenzij :other in :values staat.",
         "same": ":attribute en :other moeten overeen komen.",
         "size": {
             "numeric": ":attribute moet :size zijn.",

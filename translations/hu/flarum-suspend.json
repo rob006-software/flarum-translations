@@ -1,0 +1,51 @@
+{
+    "flarum-suspend": {
+        "admin": {
+            "permissions": {
+                "suspend_users_label": "Felhasználók felfüggesztése"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "user_suspended_text": "Felfüggesztették {timeReadable}",
+                "user_suspended_indefinite_text": "Határozatlan ideig felfüggesztették",
+                "user_unsuspended_text": "A felfüggesztését feloldották"
+            },
+            "suspension_info": {
+                "dismiss_button": "Eltüntetés",
+                "indefinite": "Ez egy határozatlan idejű felfüggesztés",
+                "limited": "Ez a felfüggesztés eddig lesz érvényben: {date}",
+                "title": "Ez a fiók fel lett függesztve"
+            },
+            "suspend_user": {
+                "display_message": "Üzenet megjelenítése a felhasználónak",
+                "indefinitely_label": "Határozatlan ideig felfüggesztve",
+                "limited_time_days_text": " napra",
+                "limited_time_label": "Határozott ideig felfüggesztve…",
+                "not_suspended_label": "Nincs felfüggesztve",
+                "placeholder_optional": "Nem kötelező",
+                "reason": "Felfüggesztés oka",
+                "status_heading": "Felfüggesztés állapota",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "{username} felfüggesztése"
+            },
+            "user_badge": {
+                "suspended_tooltip": "Felfüggesztve"
+            },
+            "user_controls": {
+                "suspend_button": "Felfüggesztés"
+            }
+        },
+        "email": {
+            "no_reason_given": "Nem lett megadva a felfüggesztés oka.",
+            "suspended": {
+                "subject": "A fiókját felfüggesztették",
+                "body": "Kedves {recipient_display_name}!\n\nA fiókját a következő okból felfüggesztették:\n\n---\n{suspension_message}\n---\n"
+            },
+            "unsuspended": {
+                "subject": "A fiókja felfüggesztését visszavonták",
+                "body": "Kedves {recipient_display_name}!\n\nA felfüggesztését visszavonták. A következő hivatkozással visszatérhet a fórumra:\n\n{forum_url}\n"
+            }
+        }
+    }
+}

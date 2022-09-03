@@ -1,0 +1,55 @@
+{
+    "clarkwinkelmann-featured-discussions": {
+        "admin": {
+            "settings": {
+                "schedule": "Ütemezés (CRON szintaxis)",
+                "duration": "Alapértelmezett időtartam (másodperc)",
+                "eventPost": "Bejegyzés létrehozása az ütemezés módosításakor"
+            },
+            "permissions": {
+                "feature": "Kiemelt témák kezelése"
+            }
+        },
+        "forum": {
+            "modal": {
+                "title": "Téma kiemelése",
+                "fields": {
+                    "from": "Kezdet",
+                    "until": "Befejezés"
+                },
+                "from": {
+                    "not": "Nem kiemelt",
+                    "next": "Következő időszak",
+                    "manual": "Kézi dátum"
+                },
+                "until": {
+                    "auto": "Automatikus",
+                    "manual": "Kézi dátum"
+                },
+                "action": {
+                    "cancel": "Mégse",
+                    "submit": "Küldés"
+                }
+            },
+            "controls": {
+                "feature": "Téma kiemelése"
+            },
+            "badge": "Kiemelt",
+            "nav": {
+                "schedule": "Kiemelés ütemezése"
+            },
+            "schedule": {
+                "help": "Húzza át a beszélgetéseket az oldalon vagy egy másik ablakból az ütemezésük módosításához. Az ütemezés eltávolításához használja a 3 pontos menüt.\n",
+                "drop-here": "Húzza ide az ütemezéshez",
+                "drop-error": "Érvénytelen témahivatkozás",
+                "empty": "Nincs téma",
+                "custom": "Egyéni"
+            },
+            "post": {
+                "scheduled": "Kiemelt témának ütemezve {from} és {until} között",
+                "unscheduled": "Már nincs kiemeltnek ütemezve",
+                "auto": "(automatikus)"
+            }
+        }
+    }
+}

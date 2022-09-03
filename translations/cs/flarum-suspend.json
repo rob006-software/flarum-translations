@@ -1,0 +1,51 @@
+{
+    "flarum-suspend": {
+        "admin": {
+            "permissions": {
+                "suspend_users_label": "Zabokovat uživatele"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "user_suspended_text": "{username} tě zablokoval za {timeReadable}",
+                "user_suspended_indefinite_text": "",
+                "user_unsuspended_text": "{username} tě odblokoval"
+            },
+            "suspension_info": {
+                "dismiss_button": "",
+                "indefinite": "",
+                "limited": "",
+                "title": ""
+            },
+            "suspend_user": {
+                "display_message": "",
+                "indefinitely_label": "Zablokován navždy",
+                "limited_time_days_text": " dnů",
+                "limited_time_label": "Zablokován na určitý čas...",
+                "not_suspended_label": "Nezablokován",
+                "placeholder_optional": "",
+                "reason": "",
+                "status_heading": "Status Zablokování",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Zablokovat {username}"
+            },
+            "user_badge": {
+                "suspended_tooltip": "Zablokován"
+            },
+            "user_controls": {
+                "suspend_button": "Zablokovat"
+            }
+        },
+        "email": {
+            "no_reason_given": "",
+            "suspended": {
+                "subject": "",
+                "body": ""
+            },
+            "unsuspended": {
+                "subject": "",
+                "body": ""
+            }
+        }
+    }
+}

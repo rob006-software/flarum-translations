@@ -3,23 +3,23 @@
         "forum": {
             "composer": {
                 "warning": {
-                    "title": "",
-                    "description": "",
-                    "checkbox_label": "",
-                    "error": ""
+                    "title": "Cette discussion est âgée de plus de <b>{time}</b>.",
+                    "description": "Il est très probable qu'il n'y ait pas lieu d'en discuter davantage et qu'il ne serve donc à rien de remettre le sujet sur le tapis.",
+                    "checkbox_label": "Je suis conscient que cette discussion est assez ancienne, mais j'aimerais tout de même y répondre.",
+                    "error": "Cette discussion est trop ancienne pour y répondre."
                 }
             }
         },
         "admin": {
             "settings": {
-                "days_label": "",
-                "days_help": "",
-                "message_title_label": "",
-                "message_title_help": "",
-                "message_description_label": "",
-                "message_agreement_label": "",
-                "tags_title": "",
-                "tags_help": ""
+                "days_label": "Jours",
+                "days_help": "Une discussion sera marquée comme ancienne lorsque le nombre de jours spécifié se sera écoulé depuis que le dernier message de cette discussion ait été publié. Saisissez <code>0</code> pour désactiver cette fonctionnalité par défaut.",
+                "message_title_label": "Titre de message personnalisé",
+                "message_title_help": "Utilisez <code>[time]</code> pour saisir du texte temporel, par exemple : « 14 jours ».",
+                "message_description_label": "Description du message personnalisé",
+                "message_agreement_label": "Accord sur les messages personnalisés (case à cocher)",
+                "tags_title": "Étiquettes",
+                "tags_help": "Remplace les jours globaux pour une étiquette spécifique. Vide signifie utiliser la valeur par défaut. Si une discussion comporte plusieurs étiquettes avec des valeurs de jours différentes, elle utilisera le plus petit nombre de jours configurés."
             }
         }
     }

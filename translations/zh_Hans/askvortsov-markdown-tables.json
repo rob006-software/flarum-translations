@@ -1,6 +1,6 @@
 {
-    "askvortsov-pipetables": {
-        "forum": {
+    "askvortsov-markdown-tables": {
+        "lib": {
             "composer": {
                 "table_menu": {
                     "num_cols": "列数",
@@ -8,12 +8,12 @@
                     "label_cells": "添加占位",
                     "column": "列",
                     "remove_column": "删除列",
-                    "insert_column_before": "在前面插入列",
-                    "insert_column_after": "在后面插入列",
+                    "insert_column_before": "插入前列",
+                    "insert_column_after": "插入后列",
                     "row": "行",
                     "remove_row": "删除行",
-                    "insert_row_before": "在前面插入行",
-                    "insert_row_after": "在后面插入行"
+                    "insert_row_before": "插入前行",
+                    "insert_row_after": "插入后行"
                 },
                 "table_tooltip": "表格"
             }

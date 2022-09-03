@@ -1,0 +1,48 @@
+{
+    "datitisev-maintenance": {
+        "admin": {
+            "dashboard": {
+                "enable_maintenance_mode_button": "הפעלת מצב תחזוקה",
+                "disable_maintenance_mode_button": "כיבוי מצב תחזוקה"
+            },
+            "settings": {
+                "title": "מצב תחזוקה",
+                "settings_notice": "ההגדרות לא נכונות. וודאו שהן לא נדרסו על ידי קובץ הגדרות <code>config.php</code>.",
+                "allow_bypass_label": "אפשר עקיפה של פורום ושימוש הרשאות API",
+                "allow_bypass_hint": "לא יאופשר אם מסד הנתונים אינו נגיש. מוכל לפורום ו-API (אחרת אם API מבוטל לחלוטין דרך קובץ הגדרות <code>config.php</code>). אם כבוי, מנהלי האתר עדיין יוכלו לגשת לAPI (אחרת, API כבוי לחלוטין) למניעת נעילה עצמית.",
+                "prefer_db_label": "",
+                "prefer_db_hint": "",
+                "active_label": "",
+                "disable_admin_label": "",
+                "disable_api_label": "",
+                "title_label": "",
+                "message_label": "",
+                "error_page_file_label": "",
+                "error_page_file_hint": "",
+                "error_page_label": "",
+                "error_page_hint": ""
+            },
+            "permissions": {
+                "allow_bypass_maintenance_label": ""
+            }
+        },
+        "lib": {
+            "maintenance_active_message": "",
+            "maintenance_active_not_db_message": "",
+            "maintenance_active_disabled_api_message": ""
+        },
+        "views": {
+            "error": {
+                "title": "",
+                "message": ""
+            }
+        }
+    },
+    "core": {
+        "lib": {
+            "error": {
+                "maintenance_message": ""
+            }
+        }
+    }
+}

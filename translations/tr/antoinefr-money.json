@@ -6,11 +6,17 @@
                 "moneyforpost": "Yeni gönderi için verilen tutar",
                 "moneyfordiscussion": "Yeni tartışma için verilen tutar",
                 "moneyname": "Para adı (örn: [para] puan)",
-                "postminimumlength": "Para kazanmak için gönderinin minimum karakter uzunluğu (Devredışı bırakmak için 0 girin)",
-                "noshowzero": "Değer sıfır ise gösterme"
+                "postminimumlength": "Para kazanmak için gönderinin minimum karakter uzunluğu (Etkisizleştirmek için 0 girin)",
+                "noshowzero": "Değer sıfır ise gösterme",
+                "moneyforlike": "Bir gönderi beğenildiğinde verilen para",
+                "helpextensionlikes": "<code>flarum/likes</code> uzantısı gerektirir"
             },
             "permissions": {
                 "edit_money_label": "Tutarı Düzenle"
+            },
+            "automoderator": {
+                "metric_name": "Para",
+                "action_name": "Para ver"
             }
         },
         "forum": {

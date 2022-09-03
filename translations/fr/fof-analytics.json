@@ -3,32 +3,35 @@
         "admin": {
             "popup": {
                 "section": {
-                    "googleAnalytics": "",
-                    "piwik": ""
+                    "googleAnalytics": "Google Analytics",
+                    "piwik": "Matomo"
                 },
                 "field": {
-                    "statusGoogle": "",
-                    "optTrackingCode": "",
-                    "googleTrackingCode": "",
-                    "googleGTMCode": "",
-                    "statusPiwik": "",
-                    "piwikUrl": "",
-                    "piwikSiteId": "",
-                    "piwikTrackSubdomain": "",
-                    "piwikPrependDomain": "",
-                    "piwikHideAliasUrl": "",
-                    "piwikAliasUrl": "",
-                    "piwikTrackAccounts": "",
-                    "piwikAuthToken": ""
+                    "statusGoogle": "Activer Google Analytics (UA/GA4)",
+                    "optTrackingCode": "Optimiser le code de suivi (facultatif)",
+                    "googleTrackingCode": "Identifiant du code de suivi",
+                    "googleGTMCode": "Identifiant du code GTM (facultatif)",
+                    "statusPiwik": "Activer Matomo",
+                    "piwikUrl": "Domaine ou URL de Matomo",
+                    "piwikSiteId": "Identifiant du site",
+                    "piwikTrackSubdomain": "Suivre les visiteurs dans tous les sous-domaines de Flarum",
+                    "piwikPrependDomain": "Ajouter le nom de domaine au titre de la page lors du suivi",
+                    "piwikHideAliasUrl": "Dans le rapport « Liens externes », masquer les clics vers des alias d'URL connus",
+                    "piwikAliasUrl": "Alias d'URL",
+                    "piwikTrackAccounts": "Suivre les comptes d'utilisateurs individuels",
+                    "piwikAuthToken": "Jeton d'authentification"
                 },
                 "placeholder": {
-                    "piwikAuthToken": ""
+                    "piwikAuthToken": "Remplissez ce jeton pour activer un widget de statistiques Matomo dans le panneau d'administration.\nVous pouvez le trouver dans Paramètres > Personnel > Jeton d'authentification API.\n"
                 },
                 "trackAccounts": {
-                    "none": "",
-                    "username": "",
-                    "email": ""
+                    "none": "Ne pas suivre",
+                    "username": "Suivre par nom d'utilisateur",
+                    "email": "Suivre par courriel"
                 }
+            },
+            "matomo-widget": {
+                "title": "Matomo"
             }
         }
     }

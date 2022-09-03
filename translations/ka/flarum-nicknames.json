@@ -7,7 +7,10 @@
             "settings": {
                 "max_label": "",
                 "min_label": "",
+                "random_username_label": "",
+                "random_username_help": "",
                 "regex_label": "",
+                "set_on_registration_label": "",
                 "unique_label": ""
             },
             "wrong_driver": ""
@@ -26,10 +29,14 @@
             },
             "settings": {
                 "change_nickname_button": ""
+            },
+            "sign_up": {
+                "nickname_placeholder": ""
             }
         },
         "ref": {
-            "change_nickname": ""
+            "change_nickname": "",
+            "nickname": ""
         }
     }
 }

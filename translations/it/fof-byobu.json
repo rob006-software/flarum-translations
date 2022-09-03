@@ -12,14 +12,18 @@
                 "edit_recipients": "Modifica Destinatari",
                 "send_pd": "Invia messaggio a {username}",
                 "cancel": "Cancella",
+                "make_public": "Rendi questa discussione pubblica",
                 "remove_from_discussion": "Lascia questa discussione privata"
             },
             "composer_private_discussion": {
                 "submit_button": "Pubblica discussione privata",
                 "title_placeholder": "Titolo discussione privata"
             },
+            "confirm": {
+                "make_public": "Sei sicuro di voler rimuovere i destinatari e rendere visibile questa discussione a chiunque possa visualizzare il tag assegnato?"
+            },
             "labels": {
-                "recipients": "{count} Destinatario|{count} Destinatari",
+                "recipients": "{count, plural, one {{count} Destinatario} other {{count} Destinatari}}",
                 "user_deleted": "-rimosso-"
             },
             "nav": {
@@ -39,23 +43,29 @@
                     "update_recipients": "Aggiorna destinatari di {title}",
                     "add_recipients": "Aggiungi destinatari alla tua discussione"
                 },
+                "labels": {
+                    "selected_users": "Utenti selezionati",
+                    "search_field": "Cerca utente"
+                },
                 "help": {
                     "add_recipients": "Questa discussione sarà visibile solo agli utenti che scegli qui. È richiesto almeno 1 destinatario (diverso da te).",
-                    "update_recipients": "Questa discussione sarà visibile solo agli utenti che scegli qui."
+                    "update_recipients": "Questa discussione sarà visibile solo agli utenti che scegli qui.",
+                    "selected_users": "Fare clic sul nome di un utente per rimuoverlo.",
+                    "click_user_to_remove_tooltip": "Fare clic per rimuovere"
                 }
             },
             "post": {
                 "recipients_modified": {
                     "added_and_removed": "{username} ha aggiunto destinatari {added} e rimosso {removed}.",
                     "added": "{username} ha aggiunto i destinatari {added}.",
+                    "made_public": "{username} ha rimosso tutti i destinatari e ha reso pubblica la discussione",
                     "removed": "{username} ha rimosso i destinatari {removed}.",
                     "removed_self": "{username} ha lasciato la discussione privata."
                 }
             },
             "user": {
                 "settings": {
-                    "block_pd": "Blocca discussioni private",
-                    "unified_index": "Combina discussioni private all'interno dell'indice unificato"
+                    "block_pd": "Blocca discussioni private"
                 },
                 "byobu_link": "Discussioni Private",
                 "dropdown_label": "Discussioni Private"
@@ -69,9 +79,6 @@
                 "pd_user_left_text": "{username} ha lasciato la discussione privata",
                 "pd_added_text": "{username} ti ha aggiunto ad una discussione privata",
                 "pd_added_label": "Qualcuno mi aggiunge a una discussione privata esistente"
-            },
-            "confirm": {
-                "make_public": "Ciò renderà questa discussione privata visibile a tutti. Considera se questa è l'azione corretta prima di procedere."
             }
         },
         "admin": {
@@ -81,10 +88,13 @@
                 "create_private_discussions_with_blocking_users": "Crea discussioni private con gli utenti che le bloccano",
                 "edit_user_recipients": "Modifica gli utenti che partecipano a discussioni private",
                 "edit_group_recipients": "Modifica i gruppi che partecipano a discussioni private",
+                "make_private_into_public": "Trasforma una discussione privata in una discussione pubblica",
                 "view_private_discussions-when-flagged": "Visualizza le discussioni private di altri utenti se contrassegnate"
             },
             "settings": {
                 "badge-icon": "Badge Discussione Byobu",
+                "enable-make-public-option": "Abilita la funzione \"Rendi pubblico\"",
+                "enable-make-public-option-help": "Aggiunge la possibilità per chi ha il permesso di rimuovere tutti i destinatari, assegnare un nuovo tag e rendere la discussione pubblicamente visibile (secondo le impostazioni di visibilità del tag scelto).",
                 "post-event-icon": "Eventi Post Byobu"
             }
         },

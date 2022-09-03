@@ -2,9 +2,10 @@
     "jslirola-login2seeplus": {
         "forum": {
             "post": "Gönderinin tamamını görmek için {login} veya {register} yapmanız gerekiyor",
+            "post_login": "Gönderinin tamamını görmek için {login} yapmalısınız",
             "link": "Bağlantıyı görmek için giriş yapın",
             "image": "Resimi görmek için giriş yapın",
-            "code": "Kodu görmek isim giriş yapın"
+            "code": "Kodu görmek için giriş yapın"
         },
         "admin": {
             "title": "Login2SeePlus",
@@ -13,13 +14,7 @@
             "image": "Resimler",
             "code": "Kodlar",
             "post": {
-                "title": "Bu uzunluğu aşan içeriği gizle (<em>-1</em> hepsini gösterir)",
-                "help": "Tümü için <em>-1</em> girin."
-            },
-            "php": {
-                "title": "Eski Mod",
-                "help": "*ÖNERİLMİYOR* Eski tarayıcıları desteklemek için arka uçta çalışın. <code>mb_substr</code> ve <code>mb_strlen</code>'ı etkinleştirmeniz gerekir.",
-                "label": "PHP Kullan"
+                "title": "Bu uzunluğu aşan içeriği gizle (<em>-1</em> hepsini gösterir)"
             }
         }
     }

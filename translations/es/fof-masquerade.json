@@ -3,10 +3,11 @@
         "forum": {
             "alerts": {
                 "profile-completion-required": "Por favor completa los campos del perfil de usuario.\n",
-                "profile-completed": ""
+                "profile-completed": "¡Perfil completo! <a>Volver a la página principal</a>"
             },
             "buttons": {
                 "view-profile": "Ver perfil",
+                "edit-profile": "",
                 "save-profile": "Guardar"
             },
             "fields": {
@@ -28,6 +29,7 @@
                 "delete-field": "Eliminar campo"
             },
             "permissions": {
+                "edit-others-profile": "",
                 "have-profile": "Tener perfil masquerade",
                 "view-profile": "Ver perfil masquerade"
             },
@@ -59,10 +61,6 @@
                 "email": "Email",
                 "select": "Desplegable",
                 "url": "URL"
-            },
-            "title": "Masquerade",
-            "menu": {
-                "description": "Configurar campos de perfil de usuario.\n"
             }
         }
     }

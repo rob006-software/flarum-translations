@@ -8,6 +8,10 @@
                 "users_heading": "Wyszukaj użytkowników dla \"{query}\"",
                 "field": {
                     "placeholder": "Wyszukaj użytkowników"
+                },
+                "kinds": {
+                    "group": "Grupa",
+                    "text": "Tekst"
                 }
             },
             "page": {
@@ -15,7 +19,11 @@
                 "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
                 "load_more_button": "=> core.ref.load_more",
                 "empty_text": "Nie udało się znaleźć żadnego użytkownika pasującego do kryteriów wyszukiwania.",
-                "filter_button": "Filtruj po grupie"
+                "filter_button": "Filtruj po grupie",
+                "usercard": {
+                    "discussion-count": "{count, plural, one {{count} dyskusja} few {{count} dyskusje} other {{count} dyskusji}}",
+                    "post-count": "{count, plural, one {{count} post} few {{count} posty} other {{count} postów}}"
+                }
             }
         },
         "admin": {
@@ -24,7 +32,9 @@
             },
             "settings": {
                 "link": "Dodaj link do katalogu użytkowników na stronie głównej",
-                "default-sort": "Domyślne sortowanie"
+                "default-sort": "Domyślne sortowanie",
+                "use-small-cards": "Użyj małych kart użytkowników",
+                "disable-global-search-source": "Nie wyświetlaj katalogu użytkowników w podpowiedziach wyszukiwarki Flarum"
             }
         },
         "lib": {
@@ -38,9 +48,7 @@
                 "most_posts": "Najwięcej postów",
                 "least_posts": "Najmniej postów",
                 "most_discussions": "Najwięcej dyskusji",
-                "least_discussions": "Najmniej dyskusji",
-                "seen_recent": "Ostatnio online",
-                "seen_oldest": "Najdłużej offline"
+                "least_discussions": "Najmniej dyskusji"
             }
         }
     }

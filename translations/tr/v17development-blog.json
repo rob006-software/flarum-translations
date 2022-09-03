@@ -9,11 +9,13 @@
             },
             "settings": {
                 "no_categories_selected": "Kategori seçilmedi",
-                "selected_category_count": "{count} kategori seçtiniz|{count} kategori seçtiniz",
+                "selected_category_count": "{count, plural, one {# kategori seçtiniz} other {# kategori seçtiniz}}",
                 "select_categories_button": "Blog kategorilerini seçin",
                 "blog_heading": "Blog",
+                "featured_count_label": "Maksimum Öne Çıkan Gönderiler",
+                "featured_count_text": "Bir blog sayfasının üst kısmındaki büyük bir ızgarada kaç gönderi görüntülenmelidir?",
                 "allow_comments_label": "Yorumlara izin ver",
-                "allow_comments_text": "Varsayılan olarak, blog gönderilerine yorumlara izin verin. Devre dışı bırakıldığında, her blog yazısı için ayrı ayrı etkinleştirilebilir. <b>Not:</b> Bu ayarı değiştirmek, önceden var olan blog gönderilerini etkilemeyecektir.",
+                "allow_comments_text": "Varsayılan olarak, blog gönderilerine yorumlara izin verin. Etkisizleştirildiğinde, her blog yazısı için ayrı ayrı etkinleştirilebilir. <b>Not:</b> Bu ayarı değiştirmek, önceden var olan blog gönderilerini etkilemeyecektir.",
                 "require_review_label": "Blog gönderilerinin incelenmesi gerekiyor",
                 "require_review_text": "Bir makale gönderirken, doğrudan görünmez ve bir moderatör tarafından incelenmesi gerekir.",
                 "hide_on_discussion_list_label": "Tartışma listesinde gösterme",
@@ -31,7 +33,9 @@
                 "redirect_tags_label": "Blog etiketlerini yeniden yönlendir",
                 "redirect_tags_text": "Etkinleştirildiğinde, bu uzantı blog etiketi URL'lerini blog kategorisi URL'sine yönlendirir.",
                 "default_article_image_label": "Varsayılan makale görseli",
-                "default_article_image_text": "Resim ayarlanmadığında görüntülenecek varsayılan bir makale resmi seçin."
+                "default_article_image_text": "Görsel ayarlanmadığında görüntülenecek varsayılan bir makale görseli seçin.",
+                "add_hero_label": "Karşılama başlığını göster",
+                "add_hero_text": "Henüz kapatılmamışsa, blog sayfalarında hoş geldiniz başlığını gösterin."
             }
         },
         "forum": {
@@ -57,7 +61,7 @@
             },
             "comment_section": {
                 "comments": "Yorumlar",
-                "locked": "Bu makale için yorumlar kısmı kapatılmıştır"
+                "locked": "Bu makale için yorumlar kısmı etkisizleştirilmiştir"
             },
             "review_article": {
                 "pending_review_title": "İncelenmeyi bekliyor",
@@ -75,7 +79,7 @@
                 "recover_article": "Makaleyi kurtar",
                 "delete_forever": "Kalıcı olarak sil",
                 "enable_comments": "Yorumları etkinleştir",
-                "disable_comments": "Yorumları kapat"
+                "disable_comments": "Yorumları etkisizleştir"
             },
             "utils": {
                 "redirect": {
@@ -89,12 +93,31 @@
                 "post_article": "Makale yayınla",
                 "select_category": "Bir kategori seç",
                 "edit_categories": "Kategorileri düzenleyin",
+                "update_settings": "Blog ayarlarını güncelle",
                 "write": "Yaz",
                 "view": "Görünüm",
                 "nothing_to_preview": "Önizlenecek bir şey yok",
                 "comment_section": "Bir makale oluştururken yorum bölümü kullanılamaz.",
                 "no_blog_tags_selected": "Seçtiğiniz etiketlerin hiçbiri blog etiketi değil. Lütfen en az birini seçin.",
                 "post_without_blog_info": "Bu blog gönderisini göndermek istediğinizden emin misiniz? Henüz bir blog özeti veya resmi girmediniz."
+            },
+            "article_settings": {
+                "title": "Blog gönderi ayarları",
+                "fields": {
+                    "summary": {
+                        "title": "Makale özeti",
+                        "placeholder": "Lütfen bir özet veya açıklama girin",
+                        "helper_text": "Bu özet blog genel bakış sayfasında ve SEO amaçlı alanlarda kullanılacaktır."
+                    },
+                    "image": {
+                        "title": "Makale görseli",
+                        "helper_text": "Sosyal medya için en iyi görsel çözünürlüğü: 1200x630"
+                    },
+                    "highlight": {
+                        "title": "Öne çıkarılan gönderi",
+                        "helper_text": "Bu gönderiye blog genel bakış sayfasında büyük bir resim verin."
+                    }
+                }
             }
         }
     }

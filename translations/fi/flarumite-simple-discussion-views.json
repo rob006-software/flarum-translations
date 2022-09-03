@@ -1,0 +1,30 @@
+{
+    "core": {
+        "forum": {
+            "index_sort": {
+                "popular_button": "Suosittu",
+                "unpopular_button": "Epäsuosittu"
+            }
+        }
+    },
+    "flarumite-simple-discussion-views": {
+        "forum": {
+            "modal_resetviews": {
+                "title": "Nollaa keskustelun katselumäärä",
+                "submit": "Lähetä",
+                "label": "Aseta katselumääräksi"
+            },
+            "discussion_controls": {
+                "resetviews_button": "Aseta katselumäärä"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "reset_views_label": "Aseta keskustelun katselumäärät"
+            },
+            "settings": {
+                "ignore_crawlers": "Älä huomioi hakurobottien käyntejä"
+            }
+        }
+    }
+}

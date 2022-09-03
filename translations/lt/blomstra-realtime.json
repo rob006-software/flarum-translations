@@ -1,0 +1,23 @@
+{
+    "blomstra-realtime": {
+        "forum": {
+            "push": {
+                "discussion-list-new-activity": "{count, plural, one {Show # atnaujinta diskusija} other {Show # atnauintos diskusijos}}",
+                "discussion-list-new-activity-with-auto-release": ""
+            },
+            "typing-indicator": {
+                "people-are-typing": "{number, plural, one {# vienas asmuo rašo} other {# asmenys rašo}}",
+                "no-activity": "Niekas nerašo"
+            }
+        },
+        "admin": {
+            "permission": {
+                "view-who-types": "Peržiūrėkite, kas rašo"
+            },
+            "settings": {
+                "release-discussion-updates-interval": "",
+                "release-discussion-updates-interval-help": ""
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "clarkwinkelmann-shadow-ban": {
+        "admin": {
+            "setting": {
+                "hideUsers": "Rejtetten letiltott felhasználók profiljának elrejtése"
+            },
+            "permission": {
+                "ban": "Felhasználók rejtett letiltása",
+                "hide": "Témák és bejegyzések rejtett letiltása"
+            }
+        },
+        "forum": {
+            "discussionControl": {
+                "hide": "Rejtett letiltás",
+                "restore": "Rejtett letiltás megszüntetése"
+            },
+            "postControl": {
+                "hide": "Rejtett letiltás",
+                "restore": "Rejtett letiltás megszüntetése"
+            },
+            "userControl": {
+                "ban": "Rejtett letiltás"
+            },
+            "banUser": {
+                "title": "{username} felfüggesztése",
+                "until": "Lejárati dátum (UTC)",
+                "quick": "Gyors lehetőségek",
+                "quickChoiceReset": "Nincs letiltva",
+                "quickChoiceDays": "{count, plural, one {# nap} other {# nap}}",
+                "submit": "Mentés"
+            },
+            "badge": {
+                "user": "Rejtetten letiltott",
+                "discussion": "Rejtetten letiltott",
+                "post": "Rejtetten letiltott"
+            }
+        }
+    }
+}

@@ -1,16 +1,28 @@
 {
     "fof-socialprofile": {
+        "admin": {
+            "permissions": {
+                "view": "Vedi profilo Social",
+                "editOwn": "Modificare il proprio profilo Social",
+                "editAny": "Modificare qualunque profilo Social"
+            },
+            "settings": {
+                "allow_external_favicons_label": "Consenti icone di siti Web esterni (utilizza l'API favicon di DuckDuckGo)"
+            }
+        },
         "forum": {
             "edit": {
-                "edit": "Modifica",
-                "add": "Aggiungi",
+                "edit": "Modifica il tuo pulsante social",
+                "add": "Aggiungi pulsante social",
                 "headtitle": "Modifica bottoni",
                 "title": "Titolo",
                 "url": "URL",
                 "submit": "Salva",
                 "delete": "Cancella",
                 "deletetitle": "Cancella Bottone",
-                "save_disabled_fetching_favicons": "Una o più icone verranno recuperate. Per favore attendi."
+                "save_disabled_fetching_favicons": "Una o più icone verranno recuperate. Per favore attendi.",
+                "favicon": "Favicon",
+                "grey_favicon": "Favicon Grigia"
             }
         }
     }

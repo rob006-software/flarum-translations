@@ -2,7 +2,7 @@
     "flarum-sticky": {
         "admin": {
             "permissions": {
-                "sticky_discussions_label": "ピン止めされたスレッド"
+                "sticky_discussions_label": "スレッドをピン留め"
             }
         },
         "forum": {
@@ -10,16 +10,16 @@
                 "sticky_tooltip": "=> flarum-sticky.ref.sticky"
             },
             "discussion_controls": {
-                "sticky_button": "ピン止めされたスレッド",
-                "unsticky_button": "ピン止めを解除"
+                "sticky_button": "=> flarum-sticky.ref.sticky",
+                "unsticky_button": "ピン留めを解除"
             },
             "post_stream": {
-                "discussion_stickied_text": "{username}  がピン止めしました",
-                "discussion_unstickied_text": "{username} がピン止めを解除しました"
+                "discussion_stickied_text": "{username} がスレッドをピン留めしました。",
+                "discussion_unstickied_text": "{username} がスレッドのピン留めを解除しました。"
             }
         },
         "ref": {
-            "sticky": "ピン止め"
+            "sticky": "ピン留め"
         }
     }
 }

@@ -1,20 +1,21 @@
 {
     "migratetoflarum-fake-data": {
-        "admin": {
+        "lib": {
             "generator": {
-                "bulk-mode": "=> migratetoflarum-fake-data.ref.bulk-mode",
-                "bulk-mode-description": "=> migratetoflarum-fake-data.ref.bulk-mode-description",
-                "user-count": "修改用户数",
-                "discussion-count": "要创建的主题数",
-                "discussion-tags": "新主题标签",
-                "discussion-tags-none": "无标签",
+                "bulk-mode": "复用",
+                "bulk-mode-description": "随机生成单条数据，并应用于全部条目",
+                "user-count": "用户生成数量",
+                "discussion-count": "主题生成数量",
+                "discussion-tags": "主题标签",
+                "discussion-tags-none": "无",
                 "discussion-tags-random": "随机",
-                "post-count": "修改回复数",
-                "date": "=> migratetoflarum-fake-data.ref.date",
-                "date-start-placeholder": "=> migratetoflarum-fake-data.ref.date-start-placeholder",
-                "date-interval-placeholder": "=> migratetoflarum-fake-data.ref.date-interval-placeholder",
+                "post-count": "回帖生成数量",
+                "date": "种子日期",
+                "date-start-placeholder": "起始日期（默认当天）",
+                "date-interval-placeholder": "间隔（默认 1 秒）",
                 "send": "生成数据",
-                "title": "生成虚假数据"
+                "reset": "生成成功！点击重置",
+                "refresh": "完成并刷新页面"
             }
         },
         "forum": {
@@ -37,6 +38,22 @@
             "no-users-matched": "用户不存在",
             "no-discussions-matched": "主题不存在"
         },
+        "admin": {
+            "generator": {
+                "bulk-mode": "=> migratetoflarum-fake-data.ref.bulk-mode",
+                "bulk-mode-description": "=> migratetoflarum-fake-data.ref.bulk-mode-description",
+                "user-count": "修改用户数",
+                "discussion-count": "要创建的主题数",
+                "discussion-tags": "新主题标签",
+                "discussion-tags-none": "无标签",
+                "discussion-tags-random": "随机",
+                "post-count": "修改回复数",
+                "date": "=> migratetoflarum-fake-data.ref.date",
+                "date-start-placeholder": "=> migratetoflarum-fake-data.ref.date-start-placeholder",
+                "date-interval-placeholder": "=> migratetoflarum-fake-data.ref.date-interval-placeholder",
+                "send": "生成数据"
+            }
+        },
         "ref": {
             "bulk-mode": "批量模式",
             "bulk-mode-description": "生成一个随机值，并在每个条目中重复使用",
@@ -45,8 +62,7 @@
             "date": "种子",
             "date-start-placeholder": "开始日期（默认现在）",
             "date-interval-placeholder": "间隔（默认 1 秒）",
-            "send": "生成数据",
-            "discussion-count": "要创建的主题数"
+            "send": "生成数据"
         }
     }
 }

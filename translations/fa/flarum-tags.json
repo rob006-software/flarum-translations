@@ -1,0 +1,96 @@
+{
+    "flarum-tags": {
+        "admin": {
+            "basics": {
+                "tags_label": "=> flarum-tags.ref.tags"
+            },
+            "edit_tag": {
+                "color_label": "=> core.ref.color",
+                "delete_tag_button": "حذف برچسب",
+                "delete_tag_confirmation": "آیا مطمئن هستید که می خواهید این برچسب را حذف کنید؟ بحث های برچسب حذف نخواهد شد.",
+                "description_label": "توضیحات",
+                "hide_label": "پنهان کردن از بخش تمامی بحث ها",
+                "icon_label": "",
+                "icon_text": "",
+                "name_label": "=> flarum-tags.ref.name",
+                "name_placeholder": "=> flarum-tags.ref.name",
+                "slug_label": "Slug",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> flarum-tags.ref.create_tag"
+            },
+            "nav": {
+                "tags_button": "=> flarum-tags.ref.tags",
+                "tags_text": "فهرست برچسب های موجود برای سازماندهی بحث ها را مدیریت کنید."
+            },
+            "permissions": {
+                "allow_edit_tags_label": "اجازه ویرایش برچسب",
+                "bypass_tag_counts_label": "دور زدن الزامات برچسب",
+                "restrict_by_tag_heading": "محدود کردن با برچسب",
+                "tag_discussions_label": "تگ کردن بحث ها"
+            },
+            "tag_settings": {
+                "range_separator_text": " به ",
+                "required_primary_heading": "تعداد مورد نیاز برچسب های اولیه",
+                "required_primary_text": "حداقل و حداکثر تعداد برچسب های اصلی را که ممکن است در بحث اعمال شود وارد کنید.",
+                "required_secondary_heading": "تعداد مورد نیاز برچسب های ثانویه",
+                "required_secondary_text": "حداقل و حداکثر تعداد برچسب‌های ثانویه را که ممکن است در بحث اعمال شود وارد کنید.",
+                "title": "Tag Settings"
+            },
+            "tags": {
+                "about_tags_text": "از برچسب ها برای دسته بندی بحث ها استفاده می شود. برچسب‌های اولیه مانند دسته‌های انجمن سنتی هستند: آنها را می‌توان در یک سلسله مراتب دو سطحی مرتب کرد. تگ های ثانویه سلسله مراتب یا نظم ندارند و برای طبقه بندی خرد مفید هستند.",
+                "create_primary_tag_button": "ایجاد تگ اصلی",
+                "create_secondary_tag_button": "ایجاد تگ ثانویه",
+                "primary_heading": "برچسب های اولیه",
+                "secondary_heading": "برچسب های ثانویه",
+                "settings_heading": "تنظیمات",
+                "create_tag_button": "=> flarum-tags.ref.create_tag",
+                "settings_button": "Settings"
+            }
+        },
+        "forum": {
+            "all_tags": {
+                "meta_description_text": "تمامی برچسب ها",
+                "meta_title_text": ""
+            },
+            "choose_tags": {
+                "bypass_requirements": "عدم انتخاب برچسب",
+                "choose_primary_placeholder": "{count, plural, one {انتخاب یک تگ اصلی} other {انتخاب # تگ اصلی}}",
+                "choose_secondary_placeholder": "{count, plural, one {1 تگ دیگر انتخاب کنید} other {# تگ دیگر انتخاب کنید}}",
+                "edit_title": "ویرایش تگ‌های {title}",
+                "submit_button": "=> core.ref.okay",
+                "title": "برای مبحث خودتان تگ‌هایی را انتخاب کنید"
+            },
+            "composer_discussion": {
+                "choose_tags_link": "انتخاب تگ"
+            },
+            "discussion_controls": {
+                "edit_tags_button": "ویرایش تگ‌ها"
+            },
+            "header": {
+                "back_to_tags_tooltip": "بازگشت به لیست تگ‌ها"
+            },
+            "index": {
+                "more_link": "بیشتر...",
+                "tags_link": "=> flarum-tags.ref.tags",
+                "untagged_link": "بدون تگ"
+            },
+            "post_stream": {
+                "added_and_removed_tags_text": "{username} {tagsAdded} را افزود و {tagsRemoved} را حذف کرد.",
+                "added_tags_text": "{username} {tagsAdded} را افزود.",
+                "removed_tags_text": "{username} {tagsRemoved} را حذف کرد.",
+                "tags_text": "{count, plural, one {برچسب {tags}} other {برچسب های {tags}}}"
+            },
+            "tag": {
+                "meta_description_text": "تمامی بحث ها با برچسب {tag}"
+            }
+        },
+        "lib": {
+            "deleted_tag_text": "حذف شده"
+        },
+        "ref": {
+            "name": "نام",
+            "tags": "تگ‌ها",
+            "create_tag": "ساخت تگ"
+        }
+    }
+}

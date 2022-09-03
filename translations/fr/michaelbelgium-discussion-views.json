@@ -2,37 +2,47 @@
     "core": {
         "forum": {
             "index_sort": {
-                "popular_button": "",
-                "unpopular_button": ""
+                "popular_button": "Populaire",
+                "unpopular_button": "Impopulaire"
             }
         }
     },
     "michaelbelgium-discussion-views": {
         "forum": {
             "modal_resetviews": {
-                "title": "",
-                "submit_button": "",
-                "label": ""
+                "title": "Réinitialiser le nombre de vues de la discussion",
+                "submit_button": "Oui, tout supprimer",
+                "label": "{count, plural, one {Cela supprimera {count} vue de cette discussion. Continuer ?} other {Cela supprimera {count} vues de cette discussion. Continuer ?}}"
             },
             "discussion_controls": {
-                "resetviews_button": ""
+                "resetviews_button": "Réinitialiser les vues"
             },
             "viewlist": {
-                "title": ""
+                "title": "Derniers visiteurs",
+                "guest": "Invité"
+            },
+            "post": {
+                "viewed_by": "{users} ont vu ceci.",
+                "you": "=> core.ref.you",
+                "others_link": "=> core.ref.some_others",
+                "modal_title_text": "Utilisateurs ayant vu cette discussion pour la dernière fois"
             }
         },
         "admin": {
             "permissions": {
-                "reset_views_label": "",
-                "view_number_label": ""
+                "reset_views_label": "Réinitialiser les vues de la discussion",
+                "view_number_label": "Afficher le compteur de vues de la discussion"
             },
             "settings": {
-                "title": "",
-                "track_unique_label": "",
-                "abbr_numbers_label": "",
-                "show_filter_label": "",
-                "max_viewcount_label": "",
-                "show_viewlist_label": ""
+                "title": "Paramètres des vues de la discussion",
+                "track_unique_label": "Suivre les vues uniques",
+                "track_guests": "Suivre les invités",
+                "abbr_numbers_label": "Abréger le nombre de vues",
+                "show_filter_label": "Activer le champ de tri (im)populaire",
+                "max_viewcount_label": "Nombre maximal d'éléments de la liste d'affichage",
+                "max_viewcount_text": "Cela s'applique à la liste de visualisation du pied de page et à la liste de visualisation de la barre latérale",
+                "show_viewlist_label": "Activer la liste d'affichage",
+                "show_footer_viewlist_label": "Activer la liste de visualisation du pied de page"
             }
         }
     }

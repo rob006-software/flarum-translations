@@ -2,15 +2,18 @@
     "michaelbelgium-flarum-profile-views": {
         "forum": {
             "user": {
-                "last_viewers_heading": "Laatste bezoekers",
-                "view_count_text": "{viewcount} keer bekeken"
+                "viewlist": {
+                    "title": "Laatste bezoekers",
+                    "guest": "Gast"
+                },
+                "view_count_text": "{viewcount, plural, one {{viewcount} keer bekeken} other {{viewcount} keer bekeken}}",
+                "last_viewers_heading": "Laatste bezoekers"
             }
         },
         "admin": {
             "settings": {
-                "track_guests_label": "Gast views bijhouden",
-                "max_viewcount_label": "Maximum items in bezoekerslijst",
-                "title": "Profielviews instellingen"
+                "track_guests_label": "Gasten bijhouden",
+                "max_viewcount_label": "Maximum items in bezoekerslijst"
             }
         }
     }

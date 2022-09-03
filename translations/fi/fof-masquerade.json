@@ -1,0 +1,67 @@
+{
+    "fof-masquerade": {
+        "forum": {
+            "alerts": {
+                "profile-completion-required": "Ole hyvä ja syötä alla olevat vaaditut profiilin kentät.\n",
+                "profile-completed": "Profiili valmis. <a>Jatka etusivulle</a>"
+            },
+            "buttons": {
+                "view-profile": "Näytä profiili",
+                "edit-profile": "Muokkaa profiilia",
+                "save-profile": "Tallenna"
+            },
+            "fields": {
+                "select": {
+                    "none-optional": "Ei vaihtoehtoa valittu (valinnainen)",
+                    "none-required": "Valitse vaihtoehto (pakollinen)"
+                },
+                "boolean": {
+                    "yes": "Kyllä",
+                    "no": "Ei"
+                }
+            }
+        },
+        "admin": {
+            "general-options": "Yleiset asetukset",
+            "buttons": {
+                "add-field": "Luo kenttä",
+                "edit-field": "Tallenna muutokset",
+                "delete-field": "Poista kenttä"
+            },
+            "permissions": {
+                "edit-others-profile": "Muokkaa toisen käyttäjän profiilia",
+                "have-profile": "Voi olla profiili",
+                "view-profile": "Näkee profiilin"
+            },
+            "fields": {
+                "title": "Kentät",
+                "add": "Lisää kenttä {field}",
+                "edit": "Muokkaa kenttää {field}",
+                "name": "Kentän nimi",
+                "name-help": "Julkisesti näkyvillä oleva (ei käännettävä) kentän tunniste.\n",
+                "description": "Kentän kuvaus",
+                "description-help": "Vaihtoehtoinen kuvaus, jossa kerrotaan kentän tarpeellisuudesta/käytöstä.\n",
+                "required": "Merkitse kenttä pakolliseksi",
+                "on_bio": "Näytä vastaus tähän kenttään käyttäjän profiilissa",
+                "type": "Tyyppi",
+                "validation": "Validointi",
+                "validation-help": "Tarkista tuetut <a>Laravelin validointi säännöt</a>. Esim. \"string|min:5\" or \"url\".\n",
+                "prefix": "Kentän etuliite",
+                "prefix-help": "Näyttää etuliitteen kentän arvoille jotka käyttäjä on syöttänyt.\n",
+                "icon": "Ikoni",
+                "icon-help": "Näyttää ikonin käyttäjän syöttämän arvon edessä. Tarkista saatavilla olevat ikonit <a>FontAwesomin sivuilta</a>. Käytä ikonien nimiä \"fa-\" alun kanssa kuten \"fas fa-info\".\n",
+                "force-user-to-completion": "Pakota käyttäjä täyttämään profiili",
+                "options": "Vaihtoehdot",
+                "option-new": "Uusi vaihtoehto",
+                "option-comma-warning": "Vaihtoehdon tunniste ei voi sisältää pilkkuja (\",\")."
+            },
+            "types": {
+                "advanced": "Lisäasetukset",
+                "boolean": "Valintalaatikko",
+                "email": "Sähköposti",
+                "select": "Alasvetovalikko",
+                "url": "URL"
+            }
+        }
+    }
+}

@@ -12,11 +12,15 @@
                 "edit_recipients": "",
                 "send_pd": "",
                 "cancel": "",
+                "make_public": "",
                 "remove_from_discussion": ""
             },
             "composer_private_discussion": {
                 "submit_button": "",
                 "title_placeholder": ""
+            },
+            "confirm": {
+                "make_public": ""
             },
             "labels": {
                 "recipients": "",
@@ -39,23 +43,29 @@
                     "update_recipients": "",
                     "add_recipients": ""
                 },
+                "labels": {
+                    "selected_users": "",
+                    "search_field": ""
+                },
                 "help": {
                     "add_recipients": "",
-                    "update_recipients": ""
+                    "update_recipients": "",
+                    "selected_users": "",
+                    "click_user_to_remove_tooltip": ""
                 }
             },
             "post": {
                 "recipients_modified": {
                     "added_and_removed": "",
                     "added": "",
+                    "made_public": "",
                     "removed": "",
                     "removed_self": ""
                 }
             },
             "user": {
                 "settings": {
-                    "block_pd": "",
-                    "unified_index": ""
+                    "block_pd": ""
                 },
                 "byobu_link": "",
                 "dropdown_label": ""
@@ -69,9 +79,6 @@
                 "pd_user_left_text": "",
                 "pd_added_text": "",
                 "pd_added_label": ""
-            },
-            "confirm": {
-                "make_public": ""
             }
         },
         "admin": {
@@ -81,10 +88,13 @@
                 "create_private_discussions_with_blocking_users": "",
                 "edit_user_recipients": "",
                 "edit_group_recipients": "",
+                "make_private_into_public": "",
                 "view_private_discussions-when-flagged": ""
             },
             "settings": {
                 "badge-icon": "",
+                "enable-make-public-option": "",
+                "enable-make-public-option-help": "",
                 "post-event-icon": ""
             }
         },

@@ -6,8 +6,9 @@
                 "manage_all_reply_templates": "管理所有主题帖的回复模板"
             },
             "settings": {
-                "no_tag_template": "",
-                "append_template_on_tag_change": "当标签被更改时，即使用户已经开始撰写内容，是否也要添加新标签的模板？无论这个设置如何，如果标签被更改，而用户又在笔记上做了修改，则会切换模板。"
+                "no_tag_template": "默认模板（适用于无自定义模板的标签）：",
+                "append_template_on_tag_change": "标签变化后重载模板",
+                "append_template_on_tag_change_help": "当用户已撰写内容的情况下，标签发生了变更，此时是否重新载入模板？不论此项开启与否，在未撰写内容的情况下，标签变更都会重新载入模板。"
             },
             "tags": {
                 "tag_template_heading": "新主题模板",

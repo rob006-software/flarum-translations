@@ -4,60 +4,57 @@
             "appearance": {
                 "colored_header_label": "Colorisation de l'en-tête",
                 "colors_heading": "Couleurs",
-                "colors_text": "Sélectionnez deux couleurs pour styliser votre forum. La première couleur est utilisée pour les éléments mis en évidence et la seconde couleur est utilisée pour les éléments en arrière-plan.",
+                "colors_text": "Sélectionnez deux couleurs pour personnaliser le thème de votre forum. La première couleur sera utilisée comme couleur principale tandis que la seconde sera utilisée pour les éléments d'arrière-plan.",
                 "custom_footer_heading": "Personnalisation du pied de page",
                 "custom_footer_text": "=> core.ref.custom_footer_text",
                 "custom_header_heading": "Personnalisation de l'en-tête",
                 "custom_header_text": "=> core.ref.custom_header_text",
-                "custom_styles_heading": "Personnaliser les styles",
-                "custom_styles_text": "Personnalisez l'apparence de votre forum en ajoutant votre propre code LESS/CSS qui sera appliqué en priorité par rapport aux styles par défaut de Flarum.",
-                "dark_mode_label": "Mode nuit",
-                "description": "Personnalisez les couleurs, les logos et d'autres aspects de votre forum.",
+                "custom_styles_heading": "Personnalisation des styles",
+                "custom_styles_text": "Personnalisez l'apparence de votre forum en ajoutant votre propre code Less/CSS qui sera appliqué en priorité par rapport aux styles par défaut de Flarum.",
+                "dark_mode_label": "Mode sombre",
+                "description": "Personnalisez les couleurs, les logos et les autres aspects de votre forum.",
                 "edit_css_button": "Modifier le CSS personnalisé",
                 "edit_footer_button": "=> core.ref.custom_footer_title",
                 "edit_header_button": "=> core.ref.custom_header_title",
                 "enter_hex_message": "Veuillez saisir un code de couleur hexadécimal.",
                 "favicon_heading": "Favicon",
-                "favicon_text": "Transférez une image qui sera affichée comme l'icône du raccourci du forum.",
+                "favicon_text": "Transférez une image qui sera affichée comme icône de raccourci du forum.",
                 "logo_heading": "Logo",
-                "logo_text": "Transférez une image qui remplacera le titre du forum.",
-                "title": "Apparence",
-                "submit_button": "=> core.ref.okay"
+                "logo_text": "Transférez une image qui sera affichée à la place du titre du forum.",
+                "title": "Apparence"
             },
             "basics": {
                 "all_discussions_label": "=> core.ref.all_discussions",
                 "default_language_heading": "Langue par défaut",
-                "description": "Configurez le titre, la langue et d'autres paramètres basiques de votre forum.",
+                "description": "Configurez le titre, la langue et les autres paramètres de base de votre forum.",
                 "display_name_heading": "Nom d'affichage de l'utilisateur",
                 "display_name_text": "Sélectionnez le pilote qui doit être utilisé pour les noms d'affichage des utilisateurs. Par défaut, le nom d'utilisateur est affiché.",
                 "forum_description_heading": "Description du forum",
-                "forum_description_text": "Affichez un résumé décrivant votre communauté. La description apparaîtra dans la balise Méta et s'affichera dans le résultat des moteurs de recherche.",
+                "forum_description_text": "Saisissez une ou deux courtes phrases qui décrivent votre communauté. Ces phrases apparaîtront dans la balise méta et dans les moteurs de recherche.",
                 "forum_title_heading": "Titre du forum",
                 "home_page_heading": "Page d'accueil",
-                "home_page_text": "Sélectionnez la page que les utilisateurs verront lorsqu'ils visiteront votre forum pour la première fois.",
+                "home_page_text": "Sélectionnez la page que les utilisateurs verront en premier lorsqu'ils visiteront votre forum.",
                 "show_language_selector_label": "Afficher le sélecteur de langue",
-                "slug_driver_heading": "Pilote de l'identifiant : {model}",
-                "slug_driver_text": "Sélectionnez un pilote qui sera utilisé pour l'identifiant de ce modèle.",
+                "slug_driver_heading": "Pilote de l'identifiant texte unique : {model}",
+                "slug_driver_text": "Sélectionnez un pilote qui sera utilisé pour l'identifiant texte unique de ce modèle.",
                 "title": "Essentiels",
-                "welcome_banner_heading": "Bandeau de bienvenue",
-                "welcome_banner_text": "Personnalisez le texte du bandeau qui est affiché sur la page de la liste de discussions. Il vous permet d'accueillir les invités de votre forum.",
-                "saved_message": "Vos modifications ont été enregistrées.",
-                "submit_button": "=> core.ref.okay"
+                "welcome_banner_heading": "Bannière de bienvenue",
+                "welcome_banner_text": "Personnalisez le texte qui s'affiche dans la bannière sur la page de la liste de toutes les discussions. Il vous permet d'accueillir les invités sur votre forum."
             },
             "dashboard": {
-                "clear_cache_button": "Vider le cache",
-                "description": "Votre forum en un clin d'œil.",
+                "clear_cache_button": "Effacer le cache",
+                "description": "Votre forum en un coup d'œil.",
                 "title": "Tableau de bord",
                 "tools_button": "Outils"
             },
             "edit_css": {
-                "customize_text": "Personnalisez l'apparence de votre forum en ajoutant votre propre code LESS/CSS qui sera appliqué en priorité par rapport <a>aux styles par défaut</a> de Flarum.",
-                "submit_button": "=> core.ref.okay",
+                "customize_text": "Personnalisez l'apparence de votre forum en ajoutant votre propre code Less/CSS à appliquer en priorité par rapport <a>aux styles par défaut</a> de Flarum.",
+                "submit_button": "=> core.ref.save_changes",
                 "title": "Modifier le CSS personnalisé"
             },
             "edit_footer": {
                 "customize_text": "=> core.ref.custom_footer_text",
-                "submit_button": "=> core.ref.okay",
+                "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.custom_footer_title"
             },
             "edit_group": {
@@ -68,19 +65,19 @@
                 "icon_label": "=> core.ref.icon",
                 "icon_text": "=> core.ref.icon_text",
                 "name_label": "Nom",
-                "plural_placeholder": "Pluriel (tel que « modérateurs »)",
-                "singular_placeholder": "Singulier (tel que « modérateur »)",
-                "submit_button": "=> core.ref.okay",
+                "plural_placeholder": "Pluriel (par exemple « modérateurs »)",
+                "singular_placeholder": "Singulier (par exemple « modérateur »)",
+                "submit_button": "=> core.ref.save_changes",
                 "title": "Créer le groupe"
             },
             "edit_header": {
                 "customize_text": "=> core.ref.custom_header_text",
-                "submit_button": "=> core.ref.okay",
+                "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.custom_header_title"
             },
             "email": {
                 "addresses_heading": "Adresses",
-                "description": "Configurez le pilote, les paramètres et les adresses que votre forum utilisera pour envoyer les courriels.",
+                "description": "Configurez le pilote, les paramètres et les adresses que votre forum utilisera pour envoyer des courriels.",
                 "driver_heading": "Sélectionner un pilote",
                 "driver_label": "Pilote",
                 "from_label": "Expéditeur",
@@ -92,21 +89,18 @@
                 "mail_password_label": "=> core.ref.password",
                 "mail_port_label": "Port",
                 "mail_username_label": "=> core.ref.username",
-                "mailgun_heading": "Paramètres Mailgun",
-                "not_sending_message": "Flarum n'envoie actuellement aucun courriel. Cette erreur peut être provoquée par le pilote sélectionné ou une mauvaise configuration.",
+                "mailgun_heading": "Paramètres de Mailgun",
+                "not_sending_message": "Flarum n'envoie actuellement pas de courriel. Cela peut être dû au pilote sélectionné ou à une erreur dans sa configuration.",
                 "send_test_mail_button": "Envoyer",
-                "send_test_mail_heading": "Envoyer le courriel de test",
+                "send_test_mail_heading": "Envoyer un courriel de test",
                 "send_test_mail_success": "Le courriel de test a été envoyé !",
-                "send_test_mail_text": "Cela enverra un courriel qui utilisera la configuration paramétrée ci-dessus à votre adresse de courriel {email}.",
+                "send_test_mail_text": "Cela enverra un courriel utilisant la configuration spécifiée ci-dessus à votre adresse de courriel {email}.",
                 "smtp_heading": "Paramètres SMTP",
-                "title": "=> core.ref.email",
-                "submit_button": "=> core.ref.okay",
-                "heading": "=> core.ref.email",
-                "text": "Configurer le pilote, les paramètres et les adresses que votre forum utilisera pour envoyer des courriels."
+                "title": "=> core.ref.email"
             },
             "extension": {
                 "configure_scopes": "Configurer Scopes",
-                "confirm_uninstall": "La désinstallation supprimera toutes les entrées de la base de données et les ressources liées à l'extension. Êtes-vous sûr de vouloir continuer ?",
+                "confirm_purge": "La purge supprime toutes les entrées de la base de données et les ressources liées à l'extension. Elle ne désinstallera pas l'extension ; cela doit être effectué depuis Composer. Êtes-vous sûr de vouloir continuer ?",
                 "disabled": "Désactivée",
                 "enable_to_see": "Activez l'extension pour afficher et modifier ses paramètres.",
                 "enabled": "Activée",
@@ -118,12 +112,16 @@
                     "support": "Support",
                     "website": "Site internet"
                 },
-                "no_permissions": "Cette extension ne détient aucune permission.",
-                "no_settings": "Cette extension ne détient aucun paramètre.",
+                "no_permissions": "Cette extension n'a pas d'autorisation.",
+                "no_settings": "Cette extension n'a pas de paramètre.",
                 "open_modal": "Ouvrir les paramètres",
                 "permissions_title": "Permissions",
-                "uninstall_button": "Désinstaller",
-                "saved_message": "Vos modifications ont été enregistrées."
+                "purge_button": "Purger",
+                "readme": {
+                    "button_label": "Lisez-moi",
+                    "no_readme": "Cette extension ne semble pas avoir de fichier « Lisez-moi »",
+                    "title": "Documentation de {extName}"
+                }
             },
             "header": {
                 "get_help": "Obtenir de l'aide",
@@ -139,10 +137,10 @@
                 "basics_title": "=> core.admin.basics.description",
                 "categories": {
                     "authentication": "Authentification",
-                    "core": "Configuration principale",
+                    "core": "Configuration de base",
                     "discussion": "Discussion",
-                    "feature": "Caractéristiques",
-                    "formatting": "Mise en forme",
+                    "feature": "Fonctionnalités",
+                    "formatting": "Mise en page",
                     "language": "Langues",
                     "moderation": "Modération",
                     "other": "Autres extensions",
@@ -154,19 +152,14 @@
                 "email_title": "=> core.admin.email.description",
                 "permissions_button": "=> core.admin.permissions.title",
                 "permissions_title": "=> core.admin.permissions.description",
-                "search_placeholder": "Rechercher des extensions",
-                "appearance_text": "Personnalisez les couleurs, les logos et les autres aspects de votre forum.",
-                "basics_text": "Définissez le titre de votre forum, la langue et d'autres paramètres basiques.",
-                "dashboard_text": "Votre forum en un coup d'œil.",
-                "email_text": "Configurez les paramètres de messagerie de votre forum.",
-                "extensions_button": "Extensions",
-                "extensions_text": "Ajoutez des fonctionnalités supplémentaires à votre forum pour vous l'approprier.",
-                "permissions_text": "Configurer qui peut voir et faire quoi."
+                "userlist_button": "=> core.admin.users.title",
+                "userlist_title": "=> core.admin.users.description",
+                "search_placeholder": "Rechercher des extensions"
             },
             "permissions": {
-                "allow_post_editing_label": "Modifier ses messages",
-                "allow_renaming_label": "Renommer ses discussions",
-                "create_heading": "Création",
+                "allow_post_editing_label": "Autoriser la modification des messages",
+                "allow_renaming_label": "Autoriser le renommage",
+                "create_heading": "Créer",
                 "delete_discussions_forever_label": "Supprimer définitivement les discussions",
                 "delete_discussions_label": "Supprimer les discussions",
                 "delete_posts_forever_label": "Supprimer définitivement les messages",
@@ -177,25 +170,25 @@
                 "edit_users_credentials_label": "Modifier les identifiants de l'utilisateur",
                 "edit_users_groups_label": "Modifier les groupes d'utilisateurs",
                 "global_heading": "Général",
-                "moderate_heading": "Modération",
+                "moderate_heading": "Modérer",
                 "new_group_button": "Nouveau groupe",
-                "participate_heading": "Participation",
+                "participate_heading": "Participer",
                 "post_without_throttle_label": "Répondre plusieurs fois sans attendre",
-                "read_heading": "Consultation",
+                "read_heading": "Lire",
                 "rename_discussions_label": "Renommer les discussions",
                 "reply_to_discussions_label": "Répondre aux discussions",
+                "search_users_label": "Rechercher des utilisateurs",
                 "sign_up_label": "S'inscrire",
                 "start_discussions_label": "Démarrer des discussions",
                 "title": "Permissions",
-                "view_discussions_label": "Voir les discussions",
+                "view_forum_label": "Voir le forum (discussions et utilisateurs)",
                 "view_hidden_groups_label": "Voir les badges des groupes masqués",
-                "view_last_seen_at_label": "Toujours voir la dernière connexion des utilisateurs",
-                "view_post_ips_label": "Voir les adresses IP du message",
-                "view_user_list_label": "Voir la liste des utilisateurs"
+                "view_last_seen_at_label": "Toujours afficher la dernière connexion des utilisateurs",
+                "view_post_ips_label": "Voir les adresses IP des messages"
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "Indéfiniment",
-                "allow_some_minutes_button": "Pendant {count} minute|Pendant {count} minutes",
+                "allow_some_minutes_button": "{count, plural, one {Pendant # minute} other {Pendant # minutes}}",
                 "allow_ten_minutes_button": "Pendant 10 minutes",
                 "allow_until_reply_button": "Jusqu'à la prochaine réponse",
                 "everyone_button": "Tout le monde",
@@ -204,23 +197,51 @@
                 "signup_open_button": "Autoriser"
             },
             "settings": {
-                "saved_message": "Vos modifications ont été sauvegardées.",
-                "submit_button": "=> core.ref.okay"
+                "saved_message": "Vos modifications ont été enregistrées.",
+                "submit_button": "=> core.ref.save_changes"
             },
             "upload_image": {
                 "remove_button": "=> core.ref.remove",
                 "upload_button": "Sélectionner une image…"
             },
-            "add_extension": {
-                "developer_text": "Si vous êtes un développeur, vous pouvez <a>lire la documentation</a> et vous essayer à créer vos propres extensions.",
-                "install_text": "En attendant, vous pouvez rechercher des extensions sur <a>le site de la communauté de Flarum</a> et les installer manuellement à l'aide de Composer.",
-                "temporary_text": "Un jour, dans un avenir pas si lointain, cette fenêtre de dialogue vous permettra d'ajouter facilement une extension à votre forum. Nous sommes en train de construire un écosystème en ce moment même !",
-                "title": "Ajouter une extension"
-            },
-            "extensions": {
-                "add_button": "Ajouter une extension",
-                "settings_button": "=> core.ref.settings",
-                "uninstall_button": "Désinstaller"
+            "users": {
+                "description": "Une liste paginée de tous les utilisateurs de votre forum.",
+                "grid": {
+                    "columns": {
+                        "edit_user": {
+                            "button": "=> core.ref.edit",
+                            "title": "=> core.ref.edit_user",
+                            "tooltip": "Modifier {username}"
+                        },
+                        "email": {
+                            "title": "=> core.ref.email",
+                            "visibility_hide": "Masquer l'adresse de courriel",
+                            "visibility_show": "Afficher l'adresse de courriel"
+                        },
+                        "group_badges": {
+                            "no_badges": "Aucun",
+                            "title": "Groupes"
+                        },
+                        "join_time": {
+                            "title": "Inscription"
+                        },
+                        "user_id": {
+                            "title": "Identifiant"
+                        },
+                        "username": {
+                            "profile_link_tooltip": "Consulter le profil de {username}",
+                            "title": "=> core.ref.username"
+                        }
+                    },
+                    "invalid_column_content": "Invalide"
+                },
+                "pagination": {
+                    "back_button": "Page précédente",
+                    "next_button": "Page suivante",
+                    "page_counter": "Page {current} sur {total}"
+                },
+                "title": "=> core.ref.users",
+                "total_users": "Nombre total d'utilisateurs : {count}"
             }
         },
         "forum": {
@@ -229,18 +250,18 @@
                 "confirmation_message": "=> core.ref.confirmation_email_sent",
                 "dismiss_button": "=> core.ref.okay",
                 "incorrect_password_message": "Le mot de passe que vous avez spécifié est incorrect.",
-                "submit_button": "=> core.ref.okay",
+                "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.change_email"
             },
             "change_password": {
-                "send_button": "Courriel de réinitialisation",
-                "text": "Cliquez sur le bouton ci-dessous et consultez le courriel que vous allez recevoir pour modifier votre mot de passe.",
+                "send_button": "Envoyer le courriel de réinitialisation",
+                "text": "Cliquez sur le bouton ci-dessous puis suivez les instructions dans le courriel que vous allez recevoir pour modifier votre mot de passe.",
                 "title": "=> core.ref.change_password"
             },
             "composer": {
                 "close_tooltip": "Fermer",
                 "exit_full_screen_tooltip": "Quitter le mode plein écran",
-                "full_screen_tooltip": "Plein écran",
+                "full_screen_tooltip": "Mode plein écran",
                 "minimize_tooltip": "Réduire",
                 "preview_tooltip": "Prévisualiser"
             },
@@ -253,9 +274,9 @@
             },
             "composer_edit": {
                 "discard_confirmation": "Vous n'avez pas enregistré vos modifications. Souhaitez-vous les abandonner ?",
-                "edited_message": "Vos modifications ont été appliquées.",
+                "edited_message": "Vos modifications ont été enregistrées.",
                 "post_link": "Message #{number} de {discussion}",
-                "submit_button": "=> core.ref.okay",
+                "submit_button": "=> core.ref.save_changes",
                 "view_button": "=> core.ref.view"
             },
             "composer_reply": {
@@ -267,11 +288,11 @@
             },
             "discussion_controls": {
                 "cannot_reply_button": "Impossible de répondre",
-                "cannot_reply_text": "Vous ne pouvez pas répondre à cette discussion.",
+                "cannot_reply_text": "Vous n'avez pas l'autorisation de répondre à cette discussion.",
                 "delete_button": "=> core.ref.delete",
                 "delete_confirmation": "Êtes-vous sûr de vouloir supprimer cette discussion ?",
                 "delete_forever_button": "=> core.ref.delete_forever",
-                "log_in_to_reply_button": "Se connecter pour répondre",
+                "log_in_to_reply_button": "Répondre",
                 "rename_button": "=> core.ref.rename",
                 "reply_button": "=> core.ref.reply",
                 "restore_button": "=> core.ref.restore",
@@ -280,31 +301,18 @@
             "discussion_list": {
                 "empty_text": "Il semble qu'il n'y ait aucune discussion ici.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "Marquer comme lu",
                 "replied_text": "{username} a répondu à cette discussion {ago}",
-                "started_text": "{username} a publié cette discussion {ago}"
-            },
-            "edit_user": {
-                "activate_button": "Activer l'utilisateur",
-                "email_heading": "=> core.ref.email",
-                "email_label": "=> core.ref.email",
-                "groups_heading": "Groupes",
-                "nothing_available": "Il n'y a rien à modifier pour le moment.",
-                "password_heading": "=> core.ref.password",
-                "password_label": "=> core.ref.password",
-                "set_password_label": "Définir un nouveau mot de passe",
-                "submit_button": "=> core.ref.okay",
-                "title": "Modifier l'utilisateur",
-                "username_heading": "=> core.ref.username",
-                "username_label": "=> core.ref.username"
+                "started_text": "{username} a démarré cette discussion {ago}",
+                "total_replies_a11y_label": "{count, plural, one {# réponse} other {# réponses}}",
+                "unread_replies_a11y_label": "{count, plural, one {# réponse non lue} other {# réponses non lues}}. Marquer {count, plural, one {la réponse non lue comme lue} other {les réponses non lues comme lues}}."
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
                 "email_placeholder": "=> core.ref.email",
-                "email_sent_message": "Nous vous avons envoyé un courriel contenant un lien pour réinitialiser votre mot de passe. Si vous ne le recevez pas prochainement, veuillez vérifier le contenu de votre dossier contenant les pourriels.",
+                "email_sent_message": "Nous vous avons envoyé un courriel contenant un lien pour réinitialiser votre mot de passe. Veuillez vérifier vos courriels indésirables si vous ne le recevez pas d'ici une minute ou deux.",
                 "not_found_message": "Il n'y a aucun utilisateur inscrit avec cette adresse de courriel.",
                 "submit_button": "Récupérer un mot de passe",
-                "text": "Saisissez votre adresse de courriel pour que nous vous envoyons un lien qui vous permettra de réinitialiser votre mot de passe.",
+                "text": "Saisissez votre adresse de courriel et nous vous enverrons un lien pour réinitialiser votre mot de passe.",
                 "title": "Mot de passe oublié"
             },
             "header": {
@@ -314,15 +322,17 @@
                 "log_in_link": "=> core.ref.log_in",
                 "log_out_button": "=> core.ref.log_out",
                 "profile_button": "Profil",
+                "search_clear_button_accessible_label": "Effacer la requête de recherche",
                 "search_placeholder": "Rechercher dans le forum",
+                "search_role_label": "Rechercher dans le forum",
                 "session_dropdown_accessible_label": "Afficher le menu déroulant des options de session",
                 "settings_button": "=> core.ref.settings",
                 "sign_up_link": "=> core.ref.sign_up"
             },
             "index": {
                 "all_discussions_link": "=> core.ref.all_discussions",
-                "cannot_start_discussion_button": "Impossible de démarrer une discussion",
-                "mark_all_as_read_confirmation": "Êtes-vous sûr de vouloir marquer toutes les notifications comme lues ?",
+                "cannot_start_discussion_button": "Impossible de démarrer la discussion",
+                "mark_all_as_read_confirmation": "Êtes-vous sûr de vouloir marquer toutes les discussions comme lues ?",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
                 "meta_title_text": "=> core.ref.all_discussions",
                 "refresh_tooltip": "Actualiser",
@@ -339,19 +349,19 @@
             },
             "log_in": {
                 "forgot_password_link": "Mot de passe oublié ?",
-                "invalid_login_message": "Vos identifiants sont incorrects.",
+                "invalid_login_message": "Vos identifiants de connexion sont incorrects.",
                 "password_placeholder": "=> core.ref.password",
                 "remember_me_label": "Se souvenir de moi",
-                "sign_up_text": "Pas encore inscrit ? <a>Inscription</a>",
+                "sign_up_text": "Vous n'avez pas de compte ? <a>S'inscrire</a>",
                 "submit_button": "=> core.ref.log_in",
                 "title": "=> core.ref.log_in",
                 "username_or_email_placeholder": "Nom d'utilisateur ou adresse de courriel"
             },
             "notifications": {
-                "discussion_renamed_text": "{username} a renommé le titre de votre discussion",
+                "discussion_renamed_text": "{username} a renommé le titre de la discussion",
                 "empty_text": "Aucune notification",
                 "mark_all_as_read_tooltip": "=> core.ref.mark_all_as_read",
-                "mark_as_read_tooltip": "Marquer comme lu",
+                "mark_as_read_tooltip": "Marquer comme lue",
                 "title": "=> core.ref.notifications",
                 "toggle_dropdown_accessible_label": "Voir les notifications",
                 "tooltip": "=> core.ref.notifications"
@@ -374,7 +384,7 @@
                 "now_link": "Maintenant",
                 "original_post_link": "Message original",
                 "unread_text": "{count} non lus",
-                "viewing_text": "{index} sur {count} message|{index} sur {count} messages"
+                "viewing_text": "{count, plural, one {{index} sur {formattedCount} message} other {{index} sur {formattedCount} messages}}"
             },
             "post_stream": {
                 "discussion_renamed_old_tooltip": "L'ancien titre était : « {old} »",
@@ -397,7 +407,7 @@
                 "change_email_button": "=> core.ref.change_email",
                 "change_password_button": "=> core.ref.change_password",
                 "notifications_heading": "=> core.ref.notifications",
-                "notify_by_email_heading": "Courriel",
+                "notify_by_email_heading": "=> core.ref.email",
                 "notify_by_web_heading": "Web",
                 "notify_discussion_renamed_label": "Quelqu'un renomme une discussion que j'ai démarrée",
                 "privacy_disclose_online_label": "Autoriser les autres à voir que je suis en ligne",
@@ -407,7 +417,7 @@
             "sign_up": {
                 "dismiss_button": "=> core.ref.okay",
                 "email_placeholder": "=> core.ref.email",
-                "log_in_text": "Déjà inscrit ? <a>Connexion</a>",
+                "log_in_text": "Vous avez déjà un compte ? <a>Se connecter</a>",
                 "password_placeholder": "=> core.ref.password",
                 "submit_button": "=> core.ref.sign_up",
                 "title": "=> core.ref.sign_up",
@@ -430,7 +440,7 @@
             "user_controls": {
                 "button": "Commandes",
                 "delete_button": "=> core.ref.delete",
-                "delete_confirmation": "Êtes-vous sûr de vouloir supprimer cet utilisateur ? Veuillez noter que ses messages seront conservés.",
+                "delete_confirmation": "Êtes-vous sûr de vouloir supprimer cet utilisateur ? Ses messages ne seront pas supprimés.",
                 "delete_error_message": "La suppression de l'utilisateur <i>{username} ({email})</i> a échoué",
                 "delete_success_message": "L'utilisateur <i>{username} ({email})</i> a été supprimé",
                 "edit_button": "=> core.ref.edit",
@@ -440,22 +450,59 @@
                 "alert_message": "=> core.ref.confirmation_email_sent",
                 "resend_button": "Renvoyer le courriel de confirmation",
                 "sent_message": "Envoyé"
+            },
+            "welcome_hero": {
+                "hide": "Masquer le message de bienvenue"
             }
         },
         "lib": {
+            "debug_button": "Déboguer",
+            "alert": {
+                "dismiss_a11y_label": "Rejeter l'alerte"
+            },
             "badge": {
                 "hidden_tooltip": "Masquée"
             },
             "dropdown": {
                 "toggle_dropdown_accessible_label": "Afficher le menu déroulant"
             },
+            "edit_user": {
+                "activate_button": "Activer l'utilisateur",
+                "email_heading": "=> core.ref.email",
+                "email_label": "=> core.ref.email",
+                "groups_heading": "Groupes",
+                "password_heading": "=> core.ref.password",
+                "password_label": "=> core.ref.password",
+                "set_password_label": "Définir un nouveau mot de passe",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> core.ref.edit_user",
+                "username_heading": "=> core.ref.username",
+                "username_label": "=> core.ref.username",
+                "nothing_available": "Vous n'êtes pas autorisé à modifier cet utilisateur."
+            },
             "error": {
-                "dependent_extensions_message": "Impossible de désactiver {extension}. Veuillez en premier lieu désactiver les extensions dépendantes suivantes : {extensions}",
-                "generic_message": "Oups ! Quelque chose s'est mal passé. Veuillez actualiser la page puis réessayer.",
-                "missing_dependencies_message": "Impossible d'activer {extension}. Veuillez en premier lieu activer les dépendances suivantes : {extensions}",
-                "not_found_message": "La ressource que vous souhaitez atteindre est introuvable.",
-                "permission_denied_message": "Vous n'avez pas la permission de faire cela.",
-                "rate_limit_exceeded_message": "Vous êtes un peu trop rapide. Veuillez réessayer dans quelques secondes."
+                "dependent_extensions_message": "Impossible de désactiver {extension} tant que les extensions dépendantes suivantes ne sont pas désactivées : {extensions}",
+                "extension_initialiation_failed_message": "{extension} n'a pas réussi à s'initialiser, veuillez vérifier la console du navigateur pour plus d'informations.",
+                "generic_message": "Oups ! Une erreur est survenue. Veuillez actualiser la page puis réessayer.",
+                "missing_dependencies_message": "Impossible d'activer {extension} tant que les dépendances suivantes ne sont pas activées : {extensions}",
+                "not_found_message": "La ressource demandée est introuvable.",
+                "payload_too_large_message": "La charge utile de la requête est trop élevée.",
+                "permission_denied_message": "Vous n'avez pas l'autorisation de faire cela.",
+                "rate_limit_exceeded_message": "Vous allez un peu trop vite. Veuillez réessayer dans quelques secondes.",
+                "render_failed_message": "Désolé, une erreur est survenue lors de l'affichage du contenu. Si vous êtes un utilisateur, veuillez réessayer plus tard. Si vous êtes un administrateur, consultez les fichiers journaux de votre forum pour obtenir plus d'informations."
+            },
+            "loading_indicator": {
+                "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle} : Page # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Page # - {forumName}}}"
+            },
+            "modal": {
+                "close": "Fermer"
+            },
+            "nav": {
+                "drawer_button": "Ouvrir le tiroir de navigation"
             },
             "number_suffix": {
                 "kilo_text": "k",
@@ -471,10 +518,30 @@
             }
         },
         "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "=> core.ref.extensions",
+                    "disable": "Désactiver",
+                    "empty": "Aucune extension n'est installée",
+                    "enable": "Activer",
+                    "name": "Nom de l'extension",
+                    "package_name": "Nom du paquet",
+                    "version": "Version"
+                },
+                "info": {
+                    "caption": "Informations sur l'application"
+                },
+                "title": "Administration"
+            },
+            "confirm_email": {
+                "submit_button": "=> core.ref.confirm_email",
+                "text": "Veuillez cliquer sur le bouton ci-dessous pour confirmer l'adresse de courriel associée à votre compte.",
+                "title": "=> core.ref.confirm_email"
+            },
             "content": {
                 "javascript_disabled_message": "Ce site est optimisé pour être consulté depuis un navigateur moderne dans lequel JavaScript est activé.",
-                "load_error_message": "Une erreur est survenue lors de la tentative de chargement de la version complète de ce site. Veuillez purger le cache de votre navigateur et rafraîchir cette page pour tenter de corriger cette erreur.",
-                "loading_text": "Chargement…"
+                "load_error_message": "Une erreur est survenue lors du chargement de la version complète de ce site. Veuillez vider le cache de votre navigateur et rafraîchir cette page pour tenter de corriger cette erreur.",
+                "loading_text": "=> core.ref.loading"
             },
             "discussion": {
                 "next_page_button": "=> core.ref.next_page",
@@ -482,12 +549,12 @@
             },
             "error": {
                 "csrf_token_mismatch": "Vous êtes resté inactif trop longtemps.",
-                "csrf_token_mismatch_return_link": "Revenir pour réessayer",
-                "invalid_confirmation_token": "Ce lien de confirmation est invalide ou a déjà été utilisé.",
-                "not_authenticated": "Vous n'êtes pas autorisé à accéder à cette page. Veuillez réessayer après vous être connecté.",
+                "csrf_token_mismatch_return_link": "Revenir en arrière pour réessayer",
+                "invalid_confirmation_token": "Ce lien de confirmation a déjà été utilisé ou est invalide.",
+                "not_authenticated": "Vous n'avez pas l'autorisation d'accéder à cette page. Veuillez réessayer après vous être connecté.",
                 "not_found": "La page que vous avez demandée est introuvable.",
                 "not_found_return_link": "Revenir à {forum}",
-                "permission_denied": "Vous n'êtes pas autorisé à accéder à cette page.",
+                "permission_denied": "Vous n'avez pas l'autorisation d'accéder à cette page.",
                 "unknown": "Une erreur est survenue lors du chargement de la page."
             },
             "index": {
@@ -503,7 +570,7 @@
             "reset_password": {
                 "confirm_password_label": "Confirmer le nouveau mot de passe",
                 "new_password_label": "Nouveau mot de passe",
-                "submit_button": "=> core.ref.okay",
+                "submit_button": "=> core.ref.save_changes",
                 "title": "=> core.ref.reset_your_password"
             }
         },
@@ -512,15 +579,15 @@
         },
         "email": {
             "activate_account": {
-                "subject": "Activation de votre compte",
+                "subject": "Activer votre nouveau compte",
                 "body": "Bonjour {username} !\n\nQuelqu'un (en espérant que cela soit vous !) s'est inscrit sur {forum} avec cette adresse de courriel.\n\nSi vous êtes bien à l'origine de cette action, cliquez sur le lien suivant pour que votre compte soit activé :\n{url}\n\nSi vous n'êtes pas à l'origine de cette action, veuillez ignorer ce courriel.\n"
             },
             "confirm_email": {
-                "subject": "Confirmez votre nouvelle adresse de courriel",
+                "subject": "Confirmer votre nouvelle adresse de courriel",
                 "body": "Bonjour {username} !\n\nQuelqu'un (en espérant que cela soit vous !) a demandé à modifier l'adresse de courriel associée à votre compte sur {forum} par celle-ci.\n\nSi vous êtes bien à l'origine de cette action, cliquez sur le lien suivant pour confirmer votre nouvelle adresse de courriel :\n{url}\n\nSi vous ne souhaitez pas modifier votre adresse de courriel, veuillez ignorer ce courriel.\n"
             },
             "reset_password": {
-                "subject": "Réinitialisation de votre mot de passe",
+                "subject": "=> core.ref.reset_your_password",
                 "body": "Bonjour {username} !\n\nQuelqu'un (en espérant que cela soit vous !) a demandé à réinitialiser le mot de passe associé à votre compte sur {forum}.\n\nSi vous êtes bien à l'origine de cette action, cliquez sur le lien suivant pour réinitialiser votre mot de passe actuel :\n{url}\n\nSi vous ne souhaitez pas réinitialiser votre mot de passe, veuillez ignorer ce courriel.\n"
             },
             "send_test": {
@@ -534,21 +601,25 @@
             "change_password": "Modifier le mot de passe",
             "color": "Couleur",
             "confirm_password": "Confirmer le mot de passe",
-            "confirmation_email_sent": "Nous avons envoyé un courriel de confirmation à {email}. Si vous ne le recevez pas prochainement, veuillez vérifier le contenu de votre dossier contenant les pourriels.",
-            "custom_footer_text": "Ajoutez du code HTML à afficher en bas de page.",
-            "custom_footer_title": "Personnaliser le pied de page",
-            "custom_header_text": "Ajoutez du code HTML à afficher en haut de page, au-dessus de l'en-tête de Flarum.",
-            "custom_header_title": "Personnaliser l'en-tête",
+            "confirm_email": "Confirmer l'adresse de courriel",
+            "confirmation_email_sent": "Nous avons envoyé un courriel de confirmation à {email}. Veuillez vérifier vos courriels indésirables si vous ne le recevez pas d'ici une minute ou deux.",
+            "custom_footer_text": "Ajoutez du code HTML à afficher tout en bas de la page.",
+            "custom_footer_title": "Modifier le pied de page personnalisé",
+            "custom_header_text": "Ajoutez du code HTML à afficher tout en haut de la page, au-dessus de l'en-tête de Flarum.",
+            "custom_header_title": "Modifier l'en-tête personnalisé",
             "delete": "Supprimer",
             "delete_forever": "Supprimer définitivement",
             "discussions": "Discussions",
             "edit": "Modifier",
+            "edit_user": "Modifier l'utilisateur",
             "email": "Adresse de courriel",
+            "extensions": "Extensions",
             "icon": "Icône",
-            "icon_text": "Saisissez le nom d'une des classes d'icônes de <a>Font Awesome</a> <em>en incluant</em> le préfixe <code>fas fa-</code>.",
+            "icon_text": "Saisissez le nom de n'importe quelle classe d'icônes de <a>Font Awesome</a> <em>en incluant</em> le préfixe <code>fas fa-</code>.",
             "load_more": "Charger davantage",
-            "log_in": "Connexion",
-            "log_out": "Déconnexion",
+            "loading": "Chargement…",
+            "log_in": "Se connecter",
+            "log_out": "Se déconnecter",
             "mark_all_as_read": "Tout marquer comme lu",
             "next_page": "Page suivante",
             "notifications": "Notifications",
@@ -563,12 +634,12 @@
             "restore": "Restaurer",
             "save_changes": "Enregistrer",
             "settings": "Paramètres",
-            "sign_up": "Inscription",
-            "some_others": "{count} autre|{count} autres",
+            "sign_up": "S'inscrire",
+            "some_others": "{count, plural, one {# autre} other {# autres}}",
             "start_a_discussion": "Nouvelle discussion",
             "username": "Nom d'utilisateur",
             "users": "Utilisateurs",
-            "view": "Consulter",
+            "view": "Voir",
             "write_a_reply": "Répondre…",
             "you": "Vous"
         },

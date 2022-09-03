@@ -24,8 +24,8 @@
                 "likes": {
                     "you_text": "=> core.ref.you",
                     "others_link": "=> core.ref.some_others",
-                    "liked_by_self_text": "{users} lubisz to.|{users} lubicie to.",
-                    "liked_by_text": "{users} lubi to.|{users} lubią to."
+                    "liked_by_self_text": "{count, plural, one {{users} lubisz to} other {{users} lubicie to}}.",
+                    "liked_by_text": "{users} {count, plural, one {lubi to} =2 {lubią to} =3 {lubią to} =4 {lubią to} other {lubi to}}."
                 }
             },
             "modal": {
@@ -46,19 +46,17 @@
                 "view": "Przeglądanie prac",
                 "like": "Polubienie prac",
                 "participate": "Uczestnictwo",
-                "moderate": "Moderacja",
-                "heading": "Zawody w rzeźbieniu"
+                "moderate": "Moderacja"
             },
             "settings": {
                 "maxEntriesPerUser": "Maksymalna liczba zgłoszeń na użytkownika",
-                "colorMode": "",
-                "title": "Ustawienia zawodów w rzeźbieniu"
+                "colorMode": "Użyj trybu kolorowania zamiast trybu rzeźbienia"
             },
             "colors": {
-                "simple": "",
-                "all": "",
-                "custom": "",
-                "custom-help": ""
+                "simple": "Prosty zestaw kolorów",
+                "all": "Dowolny kolor",
+                "custom": "Lista niestandardowych kolorów",
+                "custom-help": "Lista wartości #hex lub rgb(), rozdzielonych przecinkami"
             }
         }
     }

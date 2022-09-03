@@ -2,68 +2,68 @@
     "askvortsov-moderator-warnings": {
         "admin": {
             "permissions": {
-                "manage_warnings": "",
-                "view_warnings": "",
-                "delete_warnings": ""
+                "manage_warnings": "Créer et supprimer des avertissements du modérateur",
+                "view_warnings": "Afficher les avertissements du modérateur",
+                "delete_warnings": "Supprimer définitivement les avertissements du modérateur"
             }
         },
         "emails": {
             "post_warned": {
-                "subject": "",
-                "body": ""
+                "subject": "{warner_display_name} vous a envoyé {strikes, plural, one {# avertissement} other {# avertissements}} dans {discussion_title}",
+                "body": "Bonjour {warnee_display_name} !\n\n{warner_display_name} vous a envoyé {strikes, plural, one {# avertissement} other {# avertissements}} dans {discussion_title}\n\nLe motif suivant a été invoqué :\n\n---\n\n{public_comment}\n"
             },
             "user_warned": {
-                "subject": "",
-                "body": ""
+                "subject": "{warner_display_name} vous a envoyé {strikes, plural, one {# avertissement} other {# avertissements}}",
+                "body": "Bonjour {warnee_display_name} !\n\n{warner_display_name} vous a envoyé {strikes, plural, one {# avertissement} other {# avertissements}}\n\nLe motif suivant a été invoqué :\n\n---\n\n{public_comment}\n"
             }
         },
         "forum": {
             "notifications": {
-                "warning_text": "",
-                "warning_no_strikes_text": ""
+                "warning_text": "{strikes, plural, one {Vous avez reçu # avertissement de la part de {mod_username}} other {Vous avez reçu # avertissements de la part de {mod_username}}}",
+                "warning_no_strikes_text": "Vous avez été averti par {mod_username} (aucun strike)"
             },
             "post": {
-                "warning": "",
-                "warning_no_strikes": ""
+                "warning": "{strikes, plural, one {A reçu # avertissement de la part de {mod_username}} other {A reçu # avertissements de la part de {mod_username}}}",
+                "warning_no_strikes": "Vous avez été averti sans aucune sanction par {mod_username}"
             },
             "post_controls": {
-                "warning_button": ""
+                "warning_button": "Avertir l'utilisateur"
             },
             "user": {
-                "warnings": ""
+                "warnings": "Avertissements"
             },
             "settings": {
-                "warning_notification_label": ""
+                "warning_notification_label": "Un modérateur m'a averti"
             },
             "validation": {
-                "public_comment_required": "",
-                "invalid_strike_count": ""
+                "public_comment_required": "Vous devez vous justifier avec un commentaire public.",
+                "invalid_strike_count": "Le nombre de sanctions doit être un entier compris entre 0 et 5."
             },
             "warning_controls": {
-                "delete_button": "",
-                "restore_button": "",
-                "delete_forever_button": ""
+                "delete_button": "Retirer",
+                "restore_button": "Restaurer",
+                "delete_forever_button": "Supprimer définitivement"
             },
             "warning_list": {
-                "add_button": "",
-                "no_warnings": "",
-                "warnings": "",
-                "warnings_no_strikes": ""
+                "add_button": "Nouvel avertissement",
+                "no_warnings": "Il semble qu'il n'y ait aucun avertissement ici.",
+                "warnings": "{strikes, plural, one {Avertissements du modérateur : # sanction reçue} other {Avertissements du modérateur : # sanctions reçues}}",
+                "warnings_no_strikes": "Avertissements du modérateur : aucune sanction reçue"
             },
             "warning_list_item": {
-                "list_item_heading": "",
-                "list_item_heading_hidden": "",
-                "public_comment": "",
-                "private_comment": "",
-                "linked_post": ""
+                "list_item_heading": "{strikes, plural, one {<strong>#</strong> sanction, {time}} other {<strong>#</strong> sanctions, {time}}}",
+                "list_item_heading_hidden": "{strikes, plural, one {<strong>#</strong> sanction, {time} <strong>(supprimée)</strong>} other {<strong>#</strong> sanctions, {time} <strong>(supprimées)</strong>}}",
+                "public_comment": "Avertissement",
+                "private_comment": "Commentaires visibles du modérateur",
+                "linked_post": "Message lié"
             },
             "warning_modal": {
-                "confirmation_message": "",
-                "heading": "",
-                "strikes_heading": "",
-                "public_comment_heading": "",
-                "private_comment_heading": "",
-                "submit_button": ""
+                "confirmation_message": "Votre avertissement a été enregistré. Vous devrez peut-être actualiser la page pour le voir.",
+                "heading": "Avertir <strong>{username}</strong>",
+                "strikes_heading": "Combien de sanctions doivent être appliquées ?",
+                "public_comment_heading": "Pourquoi <strong>{username}</strong> a-t-il reçu ces avertissements ? Ces commentaires seront visibles à l'utilisateur et aux autres modérateurs.",
+                "private_comment_heading": "Pourquoi <strong>{username}</strong> a-t-il reçu ces avertissements ? Ces commentaires ne seront visibles qu'aux autres modérateurs.",
+                "submit_button": "Enregistrer l'avertissement"
             }
         }
     }

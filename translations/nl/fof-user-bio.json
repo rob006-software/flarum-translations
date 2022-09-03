@@ -2,16 +2,17 @@
     "fof-user-bio": {
         "admin": {
             "permission": {
-                "view": "",
-                "editOwn": "",
-                "editAny": ""
+                "view": "Bekijk profiel",
+                "editOwn": "Wijzig eigen profiel",
+                "editAny": "Wijzig elk profiel"
             },
             "setting": {
-                "bioLimit": ""
+                "bioLimit": "Maximum aantal tekens profiel"
             }
         },
         "forum": {
-            "userbioPlaceholder": ""
+            "userbioPlaceholder": "Schrijf iets over jezelf",
+            "userbioPlaceholderOtherUser": "Schrijf informatie over {username}"
         }
     }
 }

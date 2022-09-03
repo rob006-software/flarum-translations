@@ -8,13 +8,23 @@
         "forum": {
             "notifications": {
                 "user_suspended_text": "{username} te ha suspendido durante {timeReadable}",
+                "user_suspended_indefinite_text": "",
                 "user_unsuspended_text": "{username} te ha quitado la suspensión"
             },
+            "suspension_info": {
+                "dismiss_button": "",
+                "indefinite": "",
+                "limited": "",
+                "title": ""
+            },
             "suspend_user": {
+                "display_message": "",
                 "indefinitely_label": "Suspender indefinidamente",
                 "limited_time_days_text": " días",
                 "limited_time_label": "Suspender por tiempo limitado...",
                 "not_suspended_label": "No suspendido",
+                "placeholder_optional": "",
+                "reason": "",
                 "status_heading": "Estado de la suspensión",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "Suspender a {user}"
@@ -24,6 +34,17 @@
             },
             "user_controls": {
                 "suspend_button": "Suspender"
+            }
+        },
+        "email": {
+            "no_reason_given": "",
+            "suspended": {
+                "subject": "",
+                "body": ""
+            },
+            "unsuspended": {
+                "subject": "",
+                "body": ""
             }
         }
     }

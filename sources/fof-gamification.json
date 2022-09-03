@@ -2,7 +2,8 @@
     "core": {
         "forum": {
             "index_sort": {
-                "hot_button": "Trending"
+                "hot_button": "Trending",
+                "votes_button": "Upvotes"
             }
         }
     },
@@ -20,36 +21,58 @@
             },
             "notification": {
                 "upvote": "{username} upvoted your post",
-                "downvote": "{username} downvoted your post"
+                "downvote": "{username} downvoted your post",
+                "prefrences": {
+                    "vote": "When one of my posts is up/down voted"
+                }
             },
             "user": {
-                "points": "Points: {points}",
-                "rank": "{rank}"
+                "card": {
+                    "points": "{count, plural, one { {count} point} other {{count} points}}"
+                },
+                "rank": "{rank}",
+                "votes_link": "Votes"
             },
             "modal": {
+                "downvotes_label": "Downvoters:",
                 "title": "Voters",
                 "upvotes_label": "Upvoters:"
             },
-            "mod_item": "View Voters"
+            "mod_item": "View Voters",
+            "voters": {
+                "none": "No voters yet",
+                "label": "Voters",
+                "label_none": "No voters"
+            },
+            "post": {
+                "upvote_button": "Upvote post",
+                "downvote_button": "Downvote post"
+            }
         },
         "admin": {
             "permissions": {
                 "vote_label": "Upvote/Downvote posts",
-                "see_votes_label": "See post upvotes/downvotes",
-                "see_ranking_page": "See ranking page"
+                "see_votes_label": "See up/down vote count",
+                "see_voters_label": "See who voted",
+                "see_ranking_page": "See ranking page",
+                "upvote_notifications": "Receive notifications on upvote",
+                "downvote_notifications": "Receive notifications on downvote"
             },
             "page": {
                 "rankings": {
                     "blocked": {
                         "placeholder": "CDK2020, Ralkage, AngelAvila",
                         "title": "Ignored Users",
-                        "help": "These users will not be shown on the ranking page. Usernames should be seperated by a comma followed by a space."
+                        "help": "These users will not be shown on the ranking page. Usernames should be separated by a comma followed by a space."
                     },
                     "title": "Rankings Page",
                     "enable": "Enable custom images",
                     "custom_image_1": "1st place image",
                     "custom_image_2": "2nd place image",
                     "custom_image_3": "3rd place image"
+                },
+                "alt_votes": {
+                    "icon_name": "Alt layout icon name"
                 },
                 "votes": {
                     "points_title": "Points Placeholder",
@@ -58,11 +81,14 @@
                     "auto_upvote": "Auto upvote posts when posted",
                     "rate_limit": "Enforce a vote rate limit (10 seconds)",
                     "discussion_page": "Show total votes of original post on discussions list",
-                    "alternate_layout": "Use alternate layout to show and/or do upvotes/downvotes",
+                    "alternate_layout": "Use alternate voting layout on discussions list",
+                    "alternate_post_layout": "Use alternate voting layout on posts",
                     "title": "Votes",
                     "vote_color": "Voted color",
                     "icon_name": "Upvote/downvote icon",
-                    "icon_help": "Input any Font-Awesome icon that is suffixed with -up and -down. Examples: arrow, thumbs, chevron"
+                    "icon_help": "Input any Font-Awesome icon that is suffixed with -up and -down. Examples: arrow, thumbs, chevron",
+                    "upvotes_only": "Only allow upvoting",
+                    "first_post_only": "Only allow up/down votes in the first post in a discussion"
                 },
                 "save_settings": "Save settings",
                 "convert": {
@@ -82,6 +108,14 @@
                         "name": "Name"
                     }
                 }
+            }
+        },
+        "email": {
+            "body": {
+                "postVoted": "Hey {recipient_display_name},\n\n{actor_display_name} just voted on your post in {discussion_title}.\n\nView it here: {discussion_url}\n"
+            },
+            "subject": {
+                "postVoted": "Your post was voted on by {display_name}"
             }
         }
     }

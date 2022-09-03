@@ -1,0 +1,50 @@
+{
+    "flarum-flags": {
+        "admin": {
+            "permissions": {
+                "flag_posts_label": "Flagga inlägg",
+                "view_flags_label": "Visa flaggade inlägg"
+            },
+            "settings": {
+                "flag_own_posts_label": "Tillåt användare att flagga egna inlägg",
+                "guidelines_url_label": "URL till forumets riktlinjer",
+                "title": "Inställningar för flaggor"
+            }
+        },
+        "forum": {
+            "flag_post": {
+                "confirmation_message": "Tack för att du flaggade detta inlägg. Våra moderatorer kommer att kolla upp detta.",
+                "dismiss_button": "=> core.ref.okay",
+                "reason_details_placeholder": "Additional details (optional)",
+                "reason_inappropriate_label": "Olämpligt",
+                "reason_inappropriate_text": "Detta inlägg är stötande, kränkande eller bryter mot <a>forumets riktlinjer</a>.",
+                "reason_missing_message": "Please provide some details for our moderators.",
+                "reason_off_topic_label": "Irrelevant",
+                "reason_off_topic_text": "Det här inlägget är inte relevant för den här diskussionen och bör flyttas någon annanstans.",
+                "reason_other_label": "Annat",
+                "reason_spam_label": "Spam",
+                "reason_spam_text": "Det här inlägget är reklam.",
+                "submit_button": "=> flarum-flags.ref.flag_post",
+                "title": "=> flarum-flags.ref.flag_post"
+            },
+            "flagged_posts": {
+                "empty_text": "Inga flaggor",
+                "item_text": "{username} i <em>{discussion}</em>",
+                "title": "=> flarum-flags.ref.flagged_posts",
+                "tooltip": "=> flarum-flags.ref.flagged_posts"
+            },
+            "post": {
+                "dismiss_flag_button": "Avfärda flagga",
+                "flagged_by_text": "{username} flaggade",
+                "flagged_by_with_reason_text": "{username} flaggade som {reason}"
+            },
+            "post_controls": {
+                "flag_button": "Flagga"
+            }
+        },
+        "ref": {
+            "flag_post": "Flagga inlägg",
+            "flagged_posts": "Flaggade inlägg"
+        }
+    }
+}

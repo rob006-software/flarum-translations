@@ -3,6 +3,12 @@
         "forum": {
             "modal": {
                 "title": "Scal dyskusje",
+                "ordering_heading": "Kolejność scalania",
+                "ordering_date_label": "Włącz posty wg daty utworzenia",
+                "ordering_date_help": "Posty w docelowej dyskusji będą posortowane na podstawie ich daty utworzenia",
+                "ordering_suffix_label": "Dodaj włączone posty na końcu dyskusji",
+                "ordering_suffix_help": "Posty włączone do docelowej dyskusji zostaną dodane na końcu dyskusji",
+                "type_heading": "Typ scalenia",
                 "type_target_label": "Włącz do mnie",
                 "type_target_help_text": "Wybierz dyskusje do włączenia do <b>{title}</b>.",
                 "type_from_label": "Włącz tę dyskusję do innej",
@@ -10,27 +16,45 @@
                 "load_preview_button": "Podgląd",
                 "submit_button": "=> fof-merge-discussions.ref.merge"
             },
+            "notification": {
+                "discussion_merged": "Twoja dyskusja <b>{oldTitle}</b> została scalona z tą dyskusją przez {username}.",
+                "preferences": {
+                    "discussion_merged": "Ktoś scalił moją dyskusję z inną"
+                }
+            },
             "discussion": {
                 "merge": "=> fof-merge-discussions.ref.merge"
             },
             "post": {
-                "merged": "Włączono <b>{count}</b> post z {titles}.|Włączono <b>{count}</b> posty z {titles}.|Włączono <b>{count}</b> postów z {titles}."
+                "merged": "{count, plural, one {Włączono <b>{count}</b> post z {titles}.} few {Włączono <b>{count}</b> posty z {titles}.} other {Włączono <b>{count}</b> postów z {titles}.}}"
             }
         },
         "admin": {
             "permissions": {
                 "merge_discussions_label": "Scalanie dyskusji"
+            },
+            "settings": {
+                "search_result_help": "Ile dyskusji powinno być zwróconych podczas wyszukiwania w okienku \"Scal dyskusje\".",
+                "search_result_label": "Limit wyszukiwania dyskusji do scalenia"
             }
         },
         "api": {
             "error": {
                 "merging_failed": "Nie udało się scalić dyskusji.",
                 "updating_failed": "Nie udało się odświeżyć informacji o dyskusji.",
-                "deleting_failed": "Nie udało się usunąć pustej dyskusji."
+                "deleting_failed": "Nie udało się usunąć pustej dyskusji.",
+                "fixing_posts_number_failed": "Nie udało się naprawić numerowania postów.",
+                "fixing_posts_number_meta_failed": "Nie udało się naprawić numerowania postów."
             }
         },
         "ref": {
             "merge": "Scal"
+        },
+        "email": {
+            "merged": {
+                "body": "Witaj {recipient_display_name},\n\nTwoja dyskusja \"{merged_discussion_title}\" została scalona z dyskusją \"{discussion_title}\" przez {actor_display_name}.\n\nAby przejść do dyskusji, kliknij poniższy link:\n{discussion_url}\n",
+                "subject": "Twoja dyskusja \"{merged_discussion_title}\" została scalona"
+            }
         }
     }
 }

@@ -22,7 +22,7 @@
                 "aliyun": "aliyuncs/aliyun-oss-flysystem",
                 "azure": "league/flysystem-azure",
                 "aws": "league/flysystem-aws-s3-v3",
-                "copy": "league/flysystem-copy\n",
+                "copy": "league/flysystem-copy",
                 "dospaces": "league/flysystem-aws-s3-v3",
                 "dropbox": "spatie/flysystem-dropbox",
                 "gdrive": "nao-pon/flysystem-google-drive",
@@ -112,8 +112,8 @@
                 "gdrive": {
                     "client": {
                         "id": {
-                            "label": "Client ID\n",
-                            "description": "Bir Google projesi oluşturmak ve almak için @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md talimatlarını izleyin. Sizin Client ID ve Client Secret değerlerinizi kaydedin."
+                            "label": "Client ID",
+                            "description": "Bir Google projesi oluşturmak ve almak için @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md talimatlarını izleyin. Sizin Client ID ve Client Secret değerlerinizi kaydedin.\n"
                         },
                         "secret": {
                             "label": "Client Secret",
@@ -122,7 +122,7 @@
                     },
                     "refresh-token": {
                         "label": "Tokeni Yenile",
-                        "description": "Google oAuth uygulamanız için yenileme jetonunu almak için @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md talimatlarını izleyin."
+                        "description": "Google oAuth uygulamanız için yenileme jetonunu almak için @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md talimatlarını izleyin.\n"
                     },
                     "folder": {
                         "label": "Klasör ID'si",

@@ -1,0 +1,55 @@
+{
+    "askvortsov-categories": {
+        "admin": {
+            "basics": {
+                "categories_label": "Kategórie"
+            },
+            "labels": {
+                "keep_tags_nav": "Ponechať odkaz na zoznam štítkov vo vedľajšej navigácii fóra?",
+                "child_bare_icon": "Jednoduché ikony?",
+                "compact_mobile_mode": "Kompaktný režim v mobile",
+                "full_page_desktop": "Celá stránka na stolných zariadeniach?",
+                "parent_remove_icon": "Skryť ikony pre štítky prvej úrovne?",
+                "parent_remove_description": "Skryť popis pre štítky prvej úrovne?",
+                "parent_remove_stats": "Skryť štatistiky pre štítky prvej úrovne?",
+                "parent_remove_last_discussion": "Skryť najnovšie diskusie pre štítky prvej úrovne?",
+                "small_forum_optimized": "Optimalizovať pre malé fóra?"
+            },
+            "help": {
+                "child_bare_icon": "Mali by sa ikony pre štítky druhej úrovne zobraziť bez okrúhleho pozadia?",
+                "full_page_desktop": "Mala by byť navigačná ponuka bočného panela zbalená do riadku (ako na tradičnej stránke značiek)? Tým sa skryjú aj miniaplikácie (ako napríklad Friends of Flarum Forum Statistics) z navigačného panela stránky kategórií.",
+                "small_forum_optimized": "Toto umožní určit presnejšie počty diskusií/príspevkov, ale rapídne spomalí stredné a veľké fóra."
+            },
+            "headings": {
+                "nav": "Navigácia",
+                "layout": "Rozloženie",
+                "parent_display": "Zobrazenie Kategórie Prvej Úrovne",
+                "child_display": "Zobrazenie Kategórie Druhej Úrovne",
+                "performance": "Výkon"
+            },
+            "title": "Nastavenia kategórií"
+        },
+        "forum": {
+            "all_categories": {
+                "meta_description_text": "Všetky Kategórie",
+                "meta_title_text": "=> askvortsov-categories.ref.categories"
+            },
+            "header": {
+                "back_to_categories_tooltip": "Späť na zoznam kategórií"
+            },
+            "index": {
+                "categories_link": "=> askvortsov-categories.ref.categories"
+            },
+            "stat-widgets": {
+                "discussion_label": "Diskusie",
+                "post_label": "Príspevky"
+            },
+            "last_discussion_widget": {
+                "no_discussions": "Žiadne diskusie (zatiaľ!)"
+            }
+        },
+        "ref": {
+            "categories": "Kategórie"
+        }
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "flarum-subscriptions": {
+        "forum": {
+            "badge": {
+                "following_tooltip": "=> flarum-subscriptions.ref.following",
+                "ignoring_tooltip": "=> flarum-subscriptions.ref.ignoring"
+            },
+            "discussion_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "unfollow_button": "Utišajte",
+                "unignore_button": "Prestanite ignorisati"
+            },
+            "following": {
+                "meta_title_text": "=> flarum-subscriptions.ref.following"
+            },
+            "index": {
+                "following_link": "=> flarum-subscriptions.ref.following"
+            },
+            "notifications": {
+                "new_post_text": "{username} je odgovorio/la"
+            },
+            "settings": {
+                "follow_after_reply_label": "Automatski zaprati diskusije u kojima odgovorim",
+                "notify_new_post_label": "Ako neko odgovori u diskusiji koju pratim"
+            },
+            "sub_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "following_button": "=> flarum-subscriptions.ref.following",
+                "following_text": "Budite obavešteni o svim novim odgovorima.",
+                "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
+                "ignoring_text": "Nikad ne budite obavešteni. Sakriveno sa liste diskusija.",
+                "not_following_button": "Utišano",
+                "not_following_text": "Budite obavešteni samo kada Vas neko spomene.",
+                "notify_alert_tooltip": "Primajte obaveštenja na forumu kada se pojave novi odgovori",
+                "notify_email_tooltip": "Primajte email obaveštenja kada se pojave novi odgovori"
+            }
+        },
+        "email": {
+            "new_post": {
+                "subject": "Novi odgovor u diskusiji {title}",
+                "body": "Zdravo {recipient_display_name}!\n\n{poster_display_name} je odgovorio/la u diskusiji koju pratite: {title}.\n\nDa pogledate novi odgovor, kliknite na sledeći link:\n{url}\n\n---\n\n{content}\n\n---\n\nNećete više dobijati obaveštenja o ovoj diskusiji dok ne ažurirate opcije praćenja.\n"
+            }
+        },
+        "ref": {
+            "follow": "Zapratite",
+            "following": "Omiljeno",
+            "ignoring": "Ignorišete"
+        }
+    }
+}

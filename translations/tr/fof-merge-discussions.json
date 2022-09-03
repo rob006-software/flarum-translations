@@ -3,34 +3,58 @@
         "forum": {
             "modal": {
                 "title": "Tartışmaları Birleştir",
+                "ordering_heading": "Sıralamayı birleştir",
+                "ordering_date_label": "Gönderileri oluşturma tarihine göre birleştir",
+                "ordering_date_help": "Ortaya çıkan tartışmadaki gönderiler, bireysel oluşturulma tarihlerine göre yeniden sıralanır",
+                "ordering_suffix_label": "Tartışmanın sonuna birleştirilmiş gönderiler ekleyin",
+                "ordering_suffix_help": "Hayatta kalan tartışmayla birleştirilen gönderiler, tartışmanın sonuna eklenecektir",
+                "type_heading": "Birleştirme türü",
                 "type_target_label": "Bu tartışmaya birleştir",
                 "type_target_help_text": "<b>{title}</b> ile birleştirilecek tartışma(lar) seçin.",
-                "type_from_label": "Bu tartışmayı başka bir tartışmayla birleştir.",
+                "type_from_label": "Bu tartışmayı başka bir tartışmayla birleştir",
                 "type_from_help_text": "<b>{title}</b> tartışmasını birleştirecek bir tartışma(lar) seçin.",
                 "load_preview_button": "Önizleme",
                 "submit_button": "=> fof-merge-discussions.ref.merge"
+            },
+            "notification": {
+                "discussion_merged": "<b>{oldTitle}</b> tartışmanız {username} tarafından bu tartışmayla birleştirildi.",
+                "preferences": {
+                    "discussion_merged": "Birisi tartışmalarımdan birini başka biriyle birleştiriyor"
+                }
             },
             "discussion": {
                 "merge": "=> fof-merge-discussions.ref.merge"
             },
             "post": {
-                "merged": "<b>{count}</b> gönderi {titles} tartışmasından birleştirildi.|<b>{count}</b> gönderi {titles} tartışmasından birleştirildi."
+                "merged": "{count, plural, one {<b>#</b>gönderisi {titles} tartışmasından birleştirildi.} other {<b>#</b> gönderisi {titles} tartışmasından birleştirildi.}}"
             }
         },
         "admin": {
             "permissions": {
                 "merge_discussions_label": "Tartışmaları birleştir"
+            },
+            "settings": {
+                "search_result_help": "'Birleştirme Tartışmaları' modeli içinde arama yaparken kaç tartışma döndürülmelidir.",
+                "search_result_label": "Tartışma Arama Sınırını Birleştir"
             }
         },
         "api": {
             "error": {
                 "merging_failed": "Tartışmalar birleştirilirken bir hata oluştu.",
                 "updating_failed": "Tartışma ayrıntıları güncellenirken bir hata oluştu.",
-                "deleting_failed": "Boş tartışmalar silinirken bir hata oluştu."
+                "deleting_failed": "Boş tartışmalar silinirken bir hata oluştu.",
+                "fixing_posts_number_failed": "Gönderi numaraları düzeltilemedi.",
+                "fixing_posts_number_meta_failed": "Gönderi numaraları düzeltilemedi."
             }
         },
         "ref": {
             "merge": "Birleştir"
+        },
+        "email": {
+            "merged": {
+                "body": "Merhaba {recipient_display_name}, \n\nTartışmanız {merged_discussion_title},{actor_display_name} tarafından {discussion_title} ile birleştirildi.\n\nBurada görüntüleyin {discussion_url} .\n",
+                "subject": "\"{merged_discussion_title}\" tartışmanız birleştirildi"
+            }
         }
     }
 }

@@ -8,9 +8,15 @@
             "update_category": "Categorie aanpassen",
             "edit_category": "Bewerk categorie",
             "nothing_here_yet": "Je hebt nog geen badges of categorieën aangemaakt.",
+            "show_badges_on_user_card": "",
+            "number_of_badges_on_user_card": "",
+            "number_of_badges_on_user_card_help": "",
             "permissions": {
+                "badge_detail_users": "",
                 "give_badge": "Geef badge aan gebruiker",
-                "take_badge": "Badge van gebruiker afnemen"
+                "take_badge": "Badge van gebruiker afnemen",
+                "edit_own_card_badges": "",
+                "edit_card_badges": ""
             },
             "confirm_dialog": {
                 "title": "Bevestigen",
@@ -26,13 +32,45 @@
                 "icon": "Badge icoon",
                 "description": "Badge beschrijving",
                 "visible": "Zichtbaar",
-                "visible_description": "Schakel deze badge in. Indien uitgeschakeld, is de badge niet zichtbaar."
+                "visible_description": "Schakel deze badge in. Indien uitgeschakeld, is de badge niet zichtbaar.",
+                "is_image": "",
+                "is_image_description": "",
+                "image": "",
+                "image_placeholder": "",
+                "icon_color": "",
+                "background_color": "",
+                "label_color": ""
             },
             "badge_category": {
                 "name": "Categorienaam",
                 "description": "Categorie beschrijving",
+                "blockview": "",
+                "blockview_description": "",
                 "enabled": "Ingeschakeld",
                 "enabled_description": "Deze categorie inschakelen. Indien uitgeschakeld worden de badges uitgeschakeld en wordt de categorie verborgen."
+            },
+            "auto_moderator": {
+                "not_installed": {
+                    "title": "",
+                    "content": "",
+                    "install": "",
+                    "dismiss": ""
+                },
+                "action_drivers": {
+                    "badge_id": "",
+                    "give_badge": "",
+                    "remove_badge": ""
+                },
+                "requirement_drivers": {
+                    "has_badge": ""
+                },
+                "metric_drivers": {
+                    "badges_received": ""
+                },
+                "badge_selector": {
+                    "placeholder": "",
+                    "loading_badges": ""
+                }
             }
         },
         "forum": {
@@ -44,7 +82,9 @@
             "select_badge": "Selecteer badge",
             "user_has_badge": "De gebruiker heeft deze badge al.",
             "user_no_badges": "Deze gebruiker heeft nog geen badges.",
+            "no_received": "",
             "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
+            "save_changes": "",
             "badge": {
                 "badge": "Badge",
                 "badges": "Badges",
@@ -55,12 +95,27 @@
                 "no_earning_reason": "Geen verdienreden ingesteld",
                 "earned_on": "Badge verdiend op",
                 "category": "Badgecategorie",
-                "earned_count": "<b>{count} gebruiker</b> heeft deze badge ontvangen|<b>{count} gebruikers</b> hebben deze badge ontvangen"
+                "received_on": "",
+                "badge_details": "",
+                "earned_count": "<b>{count} gebruiker</b> heeft deze badge ontvangen|<b>{count} gebruikers</b> hebben deze badge ontvangen",
+                "earned_by_count": "",
+                "others_link": ""
+            },
+            "badges_in_card": {
+                "title": "",
+                "manage_badges": "",
+                "description": "",
+                "select_limit": "",
+                "hit_limit": ""
             },
             "moderation": {
                 "remove_badge": "Badge verwijderen van deze gebruiker",
                 "remove_badge_confirm": "Weet je zeker dat je deze badge wilt verwijderen van deze gebruiker?",
                 "give_badge": "Geef badge"
+            },
+            "notification": {
+                "title": "",
+                "settings": ""
             }
         }
     }

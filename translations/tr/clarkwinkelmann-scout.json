@@ -1,0 +1,28 @@
+{
+    "clarkwinkelmann-scout": {
+        "admin": {
+            "setting": {
+                "driver": "Sürücü",
+                "driverOption": {
+                    "null": "Boş",
+                    "algolia": "Algolia",
+                    "meilisearch": "Meilisearch",
+                    "tntsearch": ""
+                },
+                "prefix": "Dizin adı öneki (isteğe bağlı)",
+                "algoliaId": "Algolia ID",
+                "algoliaSecret": "Algolia Secret Anahtarı",
+                "algoliaConnectTimeout": "Algolia Bağlantı Zaman Aşımı (isteğe bağlı)",
+                "algoliaReadTimeout": "Algolia Okuma Zaman Aşımı (isteğe bağlı)",
+                "algoliaWriteTimeout": "Algolia Yazma Zaman Aşımı (isteğe bağlı)",
+                "meilisearchHost": "Meilisearch Host",
+                "meilisearchKey": "Meilisearch Anahtarı",
+                "tntsearchMaxDocs": "",
+                "tntsearchFuzziness": "",
+                "tntsearchFuzzyDistance": "",
+                "tntsearchFuzzyPrefixLength": "",
+                "tntsearchFuzzyMaxExpansions": ""
+            }
+        }
+    }
+}

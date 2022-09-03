@@ -1,0 +1,48 @@
+{
+    "datitisev-maintenance": {
+        "admin": {
+            "dashboard": {
+                "enable_maintenance_mode_button": "Xizmat rejimini yoqish",
+                "disable_maintenance_mode_button": "Xizmat rejimini o'chirish"
+            },
+            "settings": {
+                "title": "Xizmat rejimi",
+                "settings_notice": "Bu sozlamalar joriy bo'lmasligi mumkin. Ular <code>config.php</code> tomonidan qayta yozilmaganligiga ishonch hosil qiling.",
+                "allow_bypass_label": "Ruxsat yordamida forum va API xizmatini chetlab o'tishga ruxsat bering",
+                "allow_bypass_hint": "JBga kirish imkoni bo'lmasa, chetlab o'tmaydi. Forum va API uchun amal qiladi (agar API <code>config.php< orqali toʻliq oʻchirilgan boʻlmasa).",
+                "prefer_db_label": "<code>config.php</code> sozlamalaridan ko'ra ma'lumotlar bazasi sozlamalarini afzal ko'ring",
+                "prefer_db_hint": "Odatda, <code>config.php</code> dagi qiymatlar bu yerda ko‘rilgan qiymatlarni bekor qiladi. Ushbu parametrlarni konfiguratsiya faylida topilganlarni bekor qilish uchun ushbu parametrni yoqing - shuning uchun ular faqat JBga kirish imkoni bo'lmagan taqdirda ishlatiladi.",
+                "active_label": "Xizmat rejimi holati",
+                "disable_admin_label": "Administratorga kirishni taqiqlash",
+                "disable_api_label": "Barcha API kirishlarini o'chirib qo'yish",
+                "title_label": "Xatolik sahifasi sarlavhasi",
+                "message_label": "Xatolik sahifasi xabari",
+                "error_page_file_label": "Xatolik sahifasi fayl manzili",
+                "error_page_file_hint": "Flarum ildizidan olingan yo'l - bu erda <code>vendor</code> va <code>storage</code> joylashgan.",
+                "error_page_label": "Xato sahifasi HTML/Blade",
+                "error_page_hint": "Siz $app, $translator, $settings, $title va $message-dan blade bilan foydalanishingiz mumkin."
+            },
+            "permissions": {
+                "allow_bypass_maintenance_label": "Bypass xizmat ko'rsatish rejimi (sozlama yoqilgan bo'lishi kerak)"
+            }
+        },
+        "lib": {
+            "maintenance_active_message": "Bypass parvarishlash rejimi (sozlama yoqilgan bo'lishi kerak).",
+            "maintenance_active_not_db_message": "Ta'minot rejimi <code>config.php</code> orqali yoqiladi.",
+            "maintenance_active_disabled_api_message": "API hozirda hamma uchun o'chirib qo'yilgan."
+        },
+        "views": {
+            "error": {
+                "title": "Xizmat ko'rsatish",
+                "message": "Hozirda texnik xizmat ko‘rsatmoqdamiz. Tez orada onlayn bo'lamiz!"
+            }
+        }
+    },
+    "core": {
+        "lib": {
+            "error": {
+                "maintenance_message": "Forum hozirda parvarishlash rejimida."
+            }
+        }
+    }
+}

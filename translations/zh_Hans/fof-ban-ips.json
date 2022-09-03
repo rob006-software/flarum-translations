@@ -33,11 +33,7 @@
                 "update_title": "更新 IP 黑名单",
                 "ban_ip_no_users": "没有使用此 IP 的其他用户"
             },
-            "empty_text": "暂无 IP 被拉黑。",
-            "nav": {
-                "title": "IP 黑名单",
-                "desc": "新增、删除、查看 IP 黑名单。"
-            }
+            "empty_text": "暂无 IP 被拉黑。"
         },
         "error": {
             "banned_ip_message": "验证失败。",
@@ -57,7 +53,7 @@
                 "unban_options_only_ip": "仅取消拉黑当前 IP (<code>{ip}</code>)",
                 "unban_options_all_ip": "取消拉黑 <i>{username}</i> 使用过的所有 IP",
                 "unban_ip_no_users": "没有使用此 IP 的其他用户",
-                "unban_ip_users": "用户 {users} 将被取消拉黑|用户 {users} 将被取消拉黑",
+                "unban_ip_users": "「{count, plural, one {{users}}, other {{users}}}」即将解除封禁",
                 "unbanned_ips": "取消拉黑 <code>{ips}</code>。",
                 "ban_button": "=> fof-ban-ips.ref.ban_label",
                 "unban_button": "=> fof-ban-ips.ref.unban_label"

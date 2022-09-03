@@ -2,12 +2,12 @@
     "clarkwinkelmann-likes-received": {
         "forum": {
             "user-card": {
-                "likes": "{likes} 赞"
+                "likes": "{likes, plural, one {# 赞} other {# 赞}}"
             }
         },
         "admin": {
             "permission": {
-                "view": "查看个人资料总赞数"
+                "view": "查看资料卡片总赞数"
             }
         }
     }

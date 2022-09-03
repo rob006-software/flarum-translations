@@ -4,14 +4,14 @@
             "pusher_settings": {
                 "app_cluster_label": "Cluster",
                 "app_id_label": "App ID",
-                "app_key_label": "App Key",
+                "app_key_label": "App sleutel",
                 "app_secret_label": "App Secret",
                 "title": "Pusher instellingen"
             }
         },
         "forum": {
             "discussion_list": {
-                "show_updates_text": "Laat {count} bijgewerkte discussie zien|Laat {count} bijgewerkte discussies zien"
+                "show_updates_text": "{count, plural, one {Toon # bijgewerkte discussie} other {Toon # bijgewerkte discussies}}"
             }
         }
     }

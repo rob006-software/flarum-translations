@@ -4,15 +4,15 @@
             "popup": {
                 "section": {
                     "googleAnalytics": "Google Analytics",
-                    "piwik": "Piwik"
+                    "piwik": "Matomo"
                 },
                 "field": {
                     "statusGoogle": "Abilita Google Analytics",
                     "optTrackingCode": "Ottimizza Tracking Code (opzionale)",
                     "googleTrackingCode": "Id Tracking Code",
                     "googleGTMCode": "ID codice GTM (opzionale)",
-                    "statusPiwik": "Abilita Piwik",
-                    "piwikUrl": "Dominio o URL Piwik",
+                    "statusPiwik": "Abilita Matomo",
+                    "piwikUrl": "Dominio o URL Matomo",
                     "piwikSiteId": "ID Sito",
                     "piwikTrackSubdomain": "Tieni traccia dei visitatori in tutti i sottodomini di Flarum",
                     "piwikPrependDomain": "Anteponi il dominio del sito al titolo della pagina durante il monitoraggio",
@@ -22,13 +22,16 @@
                     "piwikAuthToken": "Token di Autenticazione"
                 },
                 "placeholder": {
-                    "piwikAuthToken": "Compila questo token per abilitare una scheda delle statistiche di Piwik nel pannello di amministrazione.\nPuoi trovarlo in Impostazioni> Personale> Token di autenticazione API.\n"
+                    "piwikAuthToken": "Compila questo token per abilitare una scheda delle statistiche di Matomo nel pannello di amministrazione.\nPuoi trovarlo in Impostazioni> Personale> Token di autenticazione API.\n"
                 },
                 "trackAccounts": {
                     "none": "Non tracciare",
                     "username": "Traccia da nome utente",
                     "email": "Traccia tramite email"
                 }
+            },
+            "matomo-widget": {
+                "title": "Matomo"
             }
         }
     }

@@ -2,66 +2,47 @@
     "core": {
         "forum": {
             "index_sort": {
-                "popular_button": "閲覧最多",
-                "unpopular_button": "閲覧最少"
+                "popular_button": "閲覧数：多い順",
+                "unpopular_button": "閲覧数：少ない順"
             }
         }
     },
     "michaelbelgium-discussion-views": {
         "forum": {
             "modal_resetviews": {
-                "title": "",
-                "submit_button": "",
-                "label": ""
+                "title": "スレッドの閲覧数をリセット",
+                "submit_button": "はい、全て削除します",
+                "label": "{count, plural, one {このスレッドの閲覧数：{count} をリセットします。よろしいですか？} other {このスレッドの閲覧数：{count} をリセットします。よろしいですか？}}"
             },
             "discussion_controls": {
-                "resetviews_button": ""
+                "resetviews_button": "閲覧数のリセット"
             },
             "viewlist": {
-                "title": ""
+                "title": "最近の閲覧者",
+                "guest": ""
+            },
+            "post": {
+                "viewed_by": "",
+                "you": "",
+                "others_link": "",
+                "modal_title_text": ""
             }
         },
         "admin": {
             "permissions": {
-                "reset_views_label": "",
-                "view_number_label": ""
+                "reset_views_label": "スレッド閲覧数のリセット",
+                "view_number_label": "スレッド閲覧数の表示"
             },
             "settings": {
-                "title": "",
-                "track_unique_label": "",
-                "abbr_numbers_label": "",
-                "show_filter_label": "",
-                "max_viewcount_label": "",
-                "show_viewlist_label": ""
-            }
-        }
-    },
-    "flarum_discussion_views": {
-        "forum": {
-            "modal_resetviews": {
-                "title": "閲覧回数をリセット",
-                "submit": "保存",
-                "label": "これにより、このディスカッションの{count}閲覧回数をクリアします。続行してもよろしいですか？"
-            },
-            "discussion_controls": {
-                "resetviews_button": "閲覧回数をリセット"
-            },
-            "viewlist": {
-                "title": "最新の閲覧者"
-            }
-        },
-        "admin": {
-            "permissions": {
-                "can_reset_views": "閲覧回数をリセット",
-                "can_view_number": "閲覧回数を見る"
-            },
-            "settings": {
-                "title": "閲覧回数設定",
-                "track_unique": "UVを追跡",
-                "abbr_numbers": "閲覧回数を略する",
-                "show_filter": "並べ替え方法を追加（閲覧最多/閲覧最少）",
-                "max_viewcount": "閲覧者リストの人数の上限",
-                "show_viewlist": "閲覧者リストを表示"
+                "title": "スレッド閲覧数の設定",
+                "track_unique_label": "ユニークアクセスでカウントする",
+                "track_guests": "",
+                "abbr_numbers_label": "閲覧数を省略する",
+                "show_filter_label": "閲覧数による並び替えを有効化する",
+                "max_viewcount_label": "最近の閲覧者の最大数",
+                "max_viewcount_text": "",
+                "show_viewlist_label": "最近の閲覧者を表示する",
+                "show_footer_viewlist_label": ""
             }
         }
     }

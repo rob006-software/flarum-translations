@@ -1,0 +1,43 @@
+{
+    "ianm-gravatar": {
+        "admin": {
+            "settings": {
+                "proxy": {
+                    "title": "Gravatarok proxyzása",
+                    "helptext": "Alapértelmezés szerint a gravataros webcímek közvetlenül a gravatar.com-ról kerülnek lekérésre. Ez lehetővé teszi, hogy az összes gravatar kérést közvetlenül a fórum szolgálja ki."
+                },
+                "replace-flarum-custom": {
+                    "title": "Az fórumra feltöltött egyéni profilképek lecserélése",
+                    "helptext": "Az fórumra már feltöltött egyéni profilképek lecserélése a Gravatarra"
+                },
+                "defaults": {
+                    "title": "Alapértelmezések",
+                    "helptext": "Mi történik, ha egy e-mail-címhez nem tartozik Gravatar-kép? A Gravatarnak számos beépített lehetősége van, amelyeket alapértelmezettként használhat. Ezek legtöbbje úgy működik, hogy a kért e-mail-cím hashe alapján egy egyedi képet állít elő.",
+                    "mp_label": "mp: (titokzatos személy) egy személy egyszerű, képregény jellegű sziluettes körvonala (nem változik az e-mail-cím ujjlenyomatától függően)",
+                    "identicon_label": "identicon: egy geometriai minta az e-mail-cím hashe alapján",
+                    "monsterid_label": "monsterid: egy előállított „szörny” különböző színekkel, arcokkal, stb.",
+                    "wavatar_label": "wavatar: előállított arcok eltérő tulajdonságokkal és hátterekkel",
+                    "retro_label": "retro: előállított 8 bites játéktermi stílusú pixeles arcokkal",
+                    "robohash_label": "robohash: előállított robot különböző színekkel, arcokkal, stb."
+                },
+                "rating": {
+                    "title": "Korhatár",
+                    "helptext": "A Gravatar lehetővé teszi a felhasználók számára, hogy értékeljék a saját képeiket, így jelezhetik, hogy egy kép megfelelő-e egy adott közönség számára. Alapértelmezetten csak a „G” besorolású képek jelennek meg, hacsak nem jelzi, hogy a magasabb besorolású képeket is látni akarja. Megadhatja a következő besorolások egyikét, hogy a legfeljebb ennek megfelelő képeket kérje.",
+                    "g_label": "g: tetszőleges weboldal és közönség számára megfelelő",
+                    "pg_label": "pg: durva gesztusokat, provokatívan öltözött személyeket, enyhébb csúnya szavakat vagy enyhe erőszakot tartalmazhat",
+                    "r_label": "r: durva profanitást, heves erőszakot, meztelenséget vagy keménydrog-használatot tartalmazhat",
+                    "x_label": "x: pornográf tartalmat vagy rendkívül heves erőszakot tartalmazhat"
+                },
+                "force-default": {
+                    "title": "Alapértelmezés kényszerítése",
+                    "helptext": "Kényszeríti egy alapértelmezett készlet használatát, akkor is az e-mail hashe egyénileg feltöltött profilképre hivatkozik"
+                }
+            }
+        },
+        "forum": {
+            "settings": {
+                "edit-gravatar": "Profilkép kezelése a gravatar.com-on"
+            }
+        }
+    }
+}

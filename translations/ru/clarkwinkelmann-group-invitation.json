@@ -1,0 +1,47 @@
+{
+    "clarkwinkelmann-group-invitation": {
+        "forum": {
+            "title": "Вас пригласили вступить в группу {group}!",
+            "generic-title": "Приглашение в группу",
+            "user": {
+                "already-connected": "Мы добавили в группу {group} пользователя {username}. Не тот пользователь? <a>Войдите под другим аккаунтом</a>.\n",
+                "not-connected": "",
+                "not-authorized": "",
+                "already-member": ""
+            },
+            "invitation": {
+                "not-found": "",
+                "no-usages-left": ""
+            },
+            "apply": "Вступить в группу",
+            "success-alert": "Вы успешно вступили в группу!"
+        },
+        "admin": {
+            "permissions": {
+                "use": "Используйте ссылки приглашения в группу"
+            },
+            "settings": {
+                "head": {
+                    "code": "Код",
+                    "group": "Группа",
+                    "usage": "Использование"
+                },
+                "placeholder": {
+                    "code": "Авто-сгенерированное",
+                    "group": "Выберите...",
+                    "usage": "Неограниченно если пустое"
+                },
+                "empty": "Приглашений пока не создано.",
+                "unlimited": "неограниченно",
+                "create": "Создать",
+                "delete": "Удалить"
+            }
+        },
+        "api": {
+            "error": {
+                "not-found": "Код приглашения не найден",
+                "no-usages-left": "Приглашение более не может быть использовано"
+            }
+        }
+    }
+}

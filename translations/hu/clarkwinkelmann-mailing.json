@@ -1,0 +1,43 @@
+{
+    "clarkwinkelmann-mailing": {
+        "admin": {
+            "permissions": {
+                "mail_individual": "E-mailek küldése egyes felhasználóknak",
+                "mail_all": "E-mailek küldése csoportoknak vagy az összes felhasználónak"
+            }
+        },
+        "forum": {
+            "links": {
+                "mail_individual": "E-mail küldése e felhasználónak",
+                "mail_all": "E-mail küldése"
+            },
+            "modal_mail": {
+                "title_text": "E-mail írása",
+                "recipients_label": "Címzettek",
+                "recipients_placeholder": "További címzettek hozzáadása…",
+                "subject_label": "Tárgy",
+                "default_subject": "=> clarkwinkelmann-mailing.ref.default_subject",
+                "message_label": "Üzenet",
+                "submit_button": "Elküldés"
+            },
+            "modal_sent": {
+                "title_text": "E-mail elküldve.",
+                "on_its_way": "A levele úton van {recipientsCount} címzett számára."
+            },
+            "recipient_kinds": {
+                "user": "Felhasználó",
+                "group": "Csoport",
+                "email": "E-mail"
+            }
+        },
+        "api": {
+            "no_recipients": "Nincs egyező címzett"
+        },
+        "email": {
+            "default_subject": "=> clarkwinkelmann-mailing.ref.default_subject"
+        },
+        "ref": {
+            "default_subject": "Üzenet a fórum rendszergazdáitól"
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "flarum-nicknames": {
+        "admin": {
+            "permissions": {
+                "edit_own_nickname_label": "Oma hüüdnime muutmine"
+            },
+            "settings": {
+                "max_label": "Hüüdnime suurim pikkus",
+                "min_label": "Hüüdnime väikseim pikkus",
+                "random_username_label": "",
+                "random_username_help": "",
+                "regex_label": "Valideerimise regulaaravaldis",
+                "set_on_registration_label": "",
+                "unique_label": "Nõua unikaalseid hüüdnimesid?"
+            },
+            "wrong_driver": "Selleks, et see laiendus rakenduks, pead <a><strong>Põhiseadete lehel</strong></a> valima kuvatavaks nimeks hüüdnime."
+        },
+        "api": {
+            "invalid_nickname_message": "See hüüdnimi ei sobi. Palun võta nüüdnime reeglite asjus ühendust administraatoriga."
+        },
+        "forum": {
+            "change_nickname": {
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> flarum-nicknames.ref.change_nickname"
+            },
+            "edit_user": {
+                "nicknames_heading": "=> flarum-nicknames.ref.change_nickname",
+                "nicknames_text": "Hüüdnimi"
+            },
+            "settings": {
+                "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
+            },
+            "sign_up": {
+                "nickname_placeholder": ""
+            }
+        },
+        "ref": {
+            "change_nickname": "Muuda hüüdnime",
+            "nickname": ""
+        }
+    }
+}

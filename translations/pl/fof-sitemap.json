@@ -2,24 +2,23 @@
     "fof-sitemap": {
         "admin": {
             "settings": {
-                "title": "FoF Sitemap",
+                "exclude_users": "Wyklucz wszystkie profile użytkowników z mapy witryny",
+                "exclude_users_help": "Domyślnie każdy użytkownik widoczny dla gości będzie zawarty w mapie witryny",
                 "mode_label": "Tryb",
-                "mode_help": "Wybór trybu odpowiedniego dla wielkości twojego forum jest bardzo ważny.",
+                "mode_help": "Wybór trybu odpowiedniego dla wielkości Twojego forum jest bardzo ważny.",
                 "mode_help_runtime_label": "W locie",
                 "mode_help_runtime": "Przeznaczony dla mniejszych forów na hostingach współdzielonych, z sumaryczną liczbą dyskusji, użytkowników, tagów oraz podstron poniżej 10 000 pozycji. Mapa witryny będzie generowana w locie przy każdym żądaniu.",
                 "mode_help_schedule": "Następujące tryby dodają swoje zadania do harmonogramu zadań Flarum.",
                 "mode_help_schedule_setup": "Bez włączonego harmonogramu zadań Flarum, poniższe tryby nie będą działać. <a>Kliknij tutaj</a>, aby uzyskać więcej informacji.",
-                "mode_help_cache_disk_label": "Cache / Na dysku",
-                "mode_help_cache_disk": "Najlepszy dla małych lub średniej wielkości forów na hostingach współdzielonych obsługujących zadania cron i harmonogram zadań Flarum (patrz poniżej), oraz z sumaryczną liczbą dyskusji, użytkowników, tagów oraz podstron poniżej 50 000 pozycji.",
-                "mode_help_large": "50 000 pozycji to techniczne ograniczenie dla pliku mapy witryny. Jeśli twoje forum ma więcej pozycji, użyj poniższej opcji!",
+                "mode_help_large": "50 000 pozycji to techniczne ograniczenie dla pliku mapy witryny. Jeśli Twoje forum ma więcej pozycji, użyj poniższej opcji!",
                 "mode_help_multi_label": "Wiele plików",
-                "mode_help_multi": "Najlepszy dla dużych forów, posiadających ponad 50 000 pozycji w mapie witryny. Mapa witryny zostanie rozbita na kilka skompresowanych plików zapisanych w katalogu <code>/public</code>.",
+                "mode_help_multi": "Najlepszy dla dużych forów, posiadających ponad 10 000 pozycji w mapie witryny. Mapa witryny zostanie rozbita na kilka skompresowanych plików zapisanych w katalogu <code>/public</code>.",
                 "advanced_options_label": "Zaawansowane ustawienia",
-                "frequency_label": "Jak często harmonogram zadań powinien generować ponownie mapę zapisaną w cache / na dysku?",
+                "frequency_label": "Jak często harmonogram zadań powinien generować ponownie mapę zapisaną w cache?",
+                "risky_performance_improvements": "Włącz ryzykowne optymalizacje wydajności",
+                "risky_performance_improvements_help": "Ryzykowne optymalizacje sprawiają, że zadania cron wykonują się szybciej dla zbiorów danych zawierających miliony rekordów, ale mogą być niekompatybilne z niektórymi rozszerzeniami.",
                 "modes": {
                     "runtime": "W locie",
-                    "cache": "Cache",
-                    "cache_disk": "Na dysku",
                     "multi_file": "Wiele plików"
                 },
                 "frequency": {

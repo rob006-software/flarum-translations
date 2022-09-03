@@ -1,0 +1,42 @@
+{
+    "flarum-nicknames": {
+        "admin": {
+            "permissions": {
+                "edit_own_nickname_label": "Upravte Vašu prezývku"
+            },
+            "settings": {
+                "max_label": "Maximálna dĺžka prezývok",
+                "min_label": "Minimálna dĺžka prezývok",
+                "random_username_label": "Náhodne vyberať používateľské mená",
+                "random_username_help": "Toto nastavenie skryje pole `username`počas registrácie a namiesto toho použije náhodne vygenerované číslo. Taktiež to spôsobí, že pole `nickname` bude povinné. Zmeny sa prejavia iba pokiaľ je povolené nastavenie \"Povoliť vyberať prezývky počas registrácie\".",
+                "regex_label": "Regulárny výraz pre validáciu",
+                "set_on_registration_label": "Povoliť vyberať prezývky počas registrácie",
+                "unique_label": "Vyžadovať originálne prezývky"
+            },
+            "wrong_driver": "Aby tento doplnok fungoval, musíte na stránke <a><strong>Základné nastavenia</strong></a> vybrať \"nickname\" ako ovládač pre zobrazovanie mien."
+        },
+        "api": {
+            "invalid_nickname_message": "Táto prezývka je neplatná. Ďalšie informácie o pravidlách pre prezývky získate od správcu fóra."
+        },
+        "forum": {
+            "change_nickname": {
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> flarum-nicknames.ref.change_nickname"
+            },
+            "edit_user": {
+                "nicknames_heading": "=> flarum-nicknames.ref.change_nickname",
+                "nicknames_text": "=> flarum-nicknames.ref.nickname"
+            },
+            "settings": {
+                "change_nickname_button": "=> flarum-nicknames.ref.change_nickname"
+            },
+            "sign_up": {
+                "nickname_placeholder": "=> flarum-nicknames.ref.nickname"
+            }
+        },
+        "ref": {
+            "change_nickname": "Zmeniť Prezývku",
+            "nickname": "Prezývka"
+        }
+    }
+}

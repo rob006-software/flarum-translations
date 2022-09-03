@@ -1,0 +1,33 @@
+{
+    "antoinefr-money": {
+        "admin": {
+            "settings": {
+                "title": "සැකසුම්",
+                "moneyforpost": "",
+                "moneyfordiscussion": "",
+                "moneyname": "",
+                "postminimumlength": "",
+                "noshowzero": "",
+                "moneyforlike": "",
+                "helpextensionlikes": ""
+            },
+            "permissions": {
+                "edit_money_label": ""
+            },
+            "automoderator": {
+                "metric_name": "",
+                "action_name": ""
+            }
+        },
+        "forum": {
+            "user_controls": {
+                "money_button": ""
+            },
+            "modal": {
+                "title": "",
+                "current": "",
+                "submit_button": "=> core.ref.save_changes"
+            }
+        }
+    }
+}

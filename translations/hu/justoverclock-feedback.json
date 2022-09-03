@@ -1,0 +1,61 @@
+{
+    "justoverclock-feedback": {
+        "admin": {
+            "contactmail": "E-mail-cím, ahova visszajelzés küldhető",
+            "feedback1-title": "1. típusú visszajelzés",
+            "feedback1-title-help": "Itt testreszabhatja az „1. típusú visszajelzést”",
+            "feedback1-icon": "Az 1. típusú visszajelzés típusa",
+            "feedback1-icon-help": "Adjon meg egy szöveges ikont mint „⚠️, ☎️, ✏️” – Windowson: Win + ., MacOS-en: 🌐",
+            "feedback2-title": "2. típusú visszajelzés",
+            "feedback2-title-help": "Itt testreszabhatja a „2. típusú visszajelzést”",
+            "feedback2-icon": "A 2. típusú visszajelzés típusa",
+            "feedback2-icon-help": "Adjon meg egy szöveges ikont mint „⚠️, ☎️, ✏️” – Windowson: Win + ., MacOS-en: 🌐",
+            "feedback3-title": "A 3. típusú visszajelzés típusa",
+            "feedback3-title-help": "Itt testreszabhatja a „3. típusú visszajelzést”",
+            "feedback3-icon": "A 3. típusú visszajelzés típusa",
+            "feedback3-icon-help": "Adjon meg egy szöveges ikont mint „⚠️, ☎️, ✏️” – Windowson: Win + ., MacOS-en: 🌐",
+            "contactdesc": "Ezt ki kell tölteni, hogy teljesen engedélyezhesse a visszajelzési modult",
+            "collect-email": "A (nem kötelező) e-mail-cím mező megjelenítése a felhasználóknak",
+            "collect-email-help": "Ha engedélyezett, akkor a felhasználók hozzáadhatják az e-mail-címüket a visszajelzéshez",
+            "position": "Modul pozíciója",
+            "position-help": "Válasszon, hogy alul bal vagy jobb oldalon jelenjen-e meg a visszajelzés gomb",
+            "right_label": "Jobb",
+            "left_label": "Bal",
+            "background-color": "Modul háttérszíne",
+            "background-color-help": "Adja meg a használandó háttérszín hexa értékét, azaz például „#fff”",
+            "font-color": "Modul betűszíne",
+            "font-color-help": "Adja meg a használandó betűszín hexa értékét, azaz például „#000”",
+            "box-title": "Doboz címe",
+            "box-title-help": "A felugró visszajelzési ablak (régi „Flarum visszajelzés”) címének beállítása"
+        },
+        "api": {
+            "validation_error": "Nem küldhet üres visszajelzést"
+        },
+        "forum": {
+            "button-title": "Visszajelzés",
+            "feedback-widget": {
+                "title": "Flarum visszajelzés",
+                "placeholder": "Itt adja meg a visszajelzését",
+                "email-placeholder": "E-mail-cím (nem kötelező)",
+                "submit": "Elküldés",
+                "back": "Vissza",
+                "contact-text": "Vagy küldjön e-mailt.",
+                "type-message": "Milyen visszajelzése van?",
+                "success": "Köszönjük.👊",
+                "failed-title": "Hoppá, hiba történt",
+                "failed-message": "Próbálja újra. Ha továbbra is ez történik, akkor inkább küldjön egy e-mailt.",
+                "email-field-placeholder": "E-mail-cím (nem kötelező mező)",
+                "types": {
+                    "general": "Általános visszajelzés",
+                    "idea": "Van egy ötletem",
+                    "bug": "Hibajelentés"
+                }
+            },
+            "email": {
+                "guest": "egy névtelen felhasználó",
+                "subject": "Visszajelzés",
+                "body": "Új „{type}” visszajelzés {user} részéről.\n\n{message}\n\nE-mail-cím: {email}\nWebcím: {url}\n"
+            }
+        }
+    }
+}

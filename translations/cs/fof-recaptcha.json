@@ -1,0 +1,21 @@
+{
+    "fof-recaptcha": {
+        "admin": {
+            "settings": {
+                "help_text": "Získejte své přihlašovací údaje Google reCAPTCHA <a> zde </a>.",
+                "secret_key_label": "Tajný klíč (Secret Key)",
+                "site_key_label": "Klíč stránky (Site Key)",
+                "type_label": "Typ reCAPTCHA"
+            },
+            "permissions": {
+                "post_without_captcha": "Vytváření příspěvků a diskusí bez captcha"
+            }
+        },
+        "forum": {
+            "error": "Při odesílání reCAPTCHA došlo k chybě. Zkuste to znovu."
+        }
+    },
+    "validation": {
+        "recaptcha": "Ověření reCAPTCHA selhalo."
+    }
+}

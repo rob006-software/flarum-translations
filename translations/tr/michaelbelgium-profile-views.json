@@ -2,23 +2,18 @@
     "michaelbelgium-flarum-profile-views": {
         "forum": {
             "user": {
-                "last_viewers_heading": "Son ziyaretçiler",
-                "view_count_text": "{viewcount} kez görüntülendi | {viewcount} kez görüntülendi"
+                "viewlist": {
+                    "title": "Son ziyaretçiler",
+                    "guest": "Ziyaretçi"
+                },
+                "view_count_text": "{viewcount, plural, one {{viewcount} kez görüntülendi} other {{viewcount} kez görüntülendi}",
+                "last_viewers_heading": "Son ziyaretçiler"
             }
         },
         "admin": {
             "settings": {
                 "track_guests_label": "Ziyaretçileri takip et",
-                "max_viewcount_label": "Maksimum ziyaretçi listesi sayısı",
-                "title": "Profil Görünümleri ayarları"
-            }
-        }
-    },
-    "flarum_profile_views": {
-        "forum": {
-            "user": {
-                "title_last_viewers": "Profili son görüntüleyenler",
-                "views_count_text": "{viewcount} defa görüntülendi"
+                "max_viewcount_label": "Maksimum ziyaretçi listesi sayısı"
             }
         }
     }

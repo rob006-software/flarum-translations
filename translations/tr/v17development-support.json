@@ -12,7 +12,7 @@
             "discard": "İptal",
             "reopen": "tekrar aç",
             "support_tickets": "Destek biletleri",
-            "admin_overview": "",
+            "admin_overview": "Yönetici genel bakışını aç",
             "hero": {
                 "help_question": "Sana nasıl yardımcı olabiliriz?",
                 "check_forum": "Aradığını bulamıyorsan <a>foruma göz atabilirsin</a>"
@@ -74,12 +74,11 @@
                     "hide_article": "Makaleyi gizle",
                     "recover_article": "Makaleyi geri getir",
                     "delete_forever": "Kalıcı olarak sil",
-                    "view_ratings": "Derecelendirmeleri göster",
-                    "event_logs": ""
+                    "view_ratings": "Derecelendirmeleri göster"
                 }
             },
             "support_ratings": {
-                "score": "",
+                "score": "Derece",
                 "helful_article": "Bu makale yararlı oldu mu?",
                 "helful_support": "Destek talebinize yaklaşımımızdan memnun kaldınız mı?",
                 "feedback": "Değerlendirmeniz için teşekkürler, herhangi bir geri bildiriminiz var mı?",
@@ -91,12 +90,12 @@
                     "guest": "Bu makaleyi derecelendirmeden önce lütfen giriş yapın.",
                     "invalid_points": "Bilinmeyen derecelendirme. Lütfen tekrar deneyin.",
                     "cannot_rate_article": "Bu makaleyi derecelendiremezsin.",
-                    "neutral_emoji_disabled": "Kararsız ifadesi devre dışı bırakılmıştır.",
+                    "neutral_emoji_disabled": "Kararsız ifadesi etkisizleştirilmiştir.",
                     "missing_article_id": "Kayıp veya var olmayan makale ID'si"
                 },
                 "switch_sort_score": {
-                    "label": "",
-                    "description": ""
+                    "label": "Düşükten yükseğe doğru puan alan makaleleri göster",
+                    "description": "Yalnızca geri bildirim alan makaleleri en düşük puanlı makaleye göre sıralayarak gösterin."
                 }
             },
             "modals": {
@@ -112,14 +111,10 @@
                     "no_ratings_found": "Arama kriterlerinizle eşleşen derecelendirme bulunamadı",
                     "article_not_rated": "Bu makale henüz derecelendirilmemiş.",
                     "confirm_delete_rating": "Bu derecelendirmeyi silmek istediğinize emin misiniz?",
-                    "feedback": "Geri Bildirim",
+                    "feedback": "Geri bildirim",
                     "rating": "Derecelendirme",
                     "username": "=> core.ref.username",
                     "rated_on": "Tarihinde derecelendirildi"
-                },
-                "events": {
-                    "title": "",
-                    "article_created": ""
                 }
             },
             "utils": {
@@ -145,132 +140,179 @@
             "tickets": {
                 "ticket": "Bilet",
                 "subject": "Konu",
-                "ticket_does_not_exist": "",
-                "return_to_overview": "",
-                "ticket_overview": "",
-                "opened_on": "",
-                "ticket_activity": "",
-                "reminders_sent": "",
+                "ticket_does_not_exist": "İstenen destek bileti mevcut değil.",
+                "return_to_overview": "Bilete genel bakışa dön",
+                "ticket_overview": "Bilet genel bakışı",
+                "opened_on": "Açıldı",
+                "ticket_activity": "{username} tarafından son eylem {date}",
+                "reminders_sent": "{count, plural, one {Bir hatırlatıcı gönderildi} other {# hatırlatıcı gönderildi}}",
                 "convert_to_ticket": {
+                    "button": "Bilete dönüştür",
+                    "confirm": "Bu tartışmayı bir bilete dönüştürmek istediğinizden emin misiniz?",
+                    "event": "{ticket_title} tartışması bilete dönüştürüldü"
+                },
+                "convert_to_discussion": {
                     "button": "",
                     "confirm": "",
                     "event": ""
                 },
                 "status": {
                     "new": {
-                        "title": "",
-                        "description": ""
+                        "title": "Yeni",
+                        "description": "Bu yeni bir yanıtlanmamış bilettir"
                     },
                     "open": {
-                        "title": "",
-                        "description": ""
+                        "title": "Açık",
+                        "description": "Bu biletin yeni bir yanıtı var ve yanıtınızı bekliyor."
                     },
                     "pending": {
-                        "title": "",
-                        "description": "",
-                        "description_user": ""
+                        "title": "Bekliyor",
+                        "description": "Bu bilet, kullanıcıdan yanıt bekliyor.",
+                        "description_user": "Bu bileti yanıtlamanızı veya çözüldü olarak işaretlemenizi bekliyoruz."
                     },
                     "closed": {
-                        "title": "",
-                        "description": "",
-                        "is_closed": "",
-                        "close_after_posting": "",
-                        "is_auto_closed": ""
+                        "title": "Kapandı",
+                        "description": "Bu bilet kapandı.",
+                        "is_closed": "Bu bilet kapandı, yanıtladığınızda yeniden açılacaktır. Yalnızca sorun çözülmediğinde bir bileti yeniden açmanızı öneririz. Yeni bir sorun ise lütfen yeni bir destek talebi açın.",
+                        "close_after_posting": "Gönderdikten sonra bileti kapat",
+                        "is_auto_closed": "Etkinlik olmaması nedeniyle bu bilet kapandı."
                     },
                     "on_hold": {
-                        "title": "",
-                        "description": ""
+                        "title": "Beklemede",
+                        "description": "Bu bilet beklemeye alındı."
                     },
                     "duplicate": {
-                        "title": "",
-                        "description": ""
+                        "title": "Çoğalt",
+                        "description": "Bu bilet çoğaltılmış olarak işaretlendi."
                     },
                     "solved": {
-                        "title": "",
-                        "description": "",
-                        "mark_as_solved": ""
+                        "title": "Çözüldü",
+                        "description": "Bu bilet çözüldü olarak işaretlendi",
+                        "mark_as_solved": "Bu bileti çözüldü olarak işaretle"
                     }
                 },
                 "tools": {
-                    "view_ticket": "",
-                    "update_subject": "",
-                    "assign_me": "",
-                    "remove_me": "",
-                    "update_status": "",
-                    "close_ticket": ""
+                    "view_ticket": "Bileti göster",
+                    "update_subject": "Konuyu güncelle",
+                    "assign_me": "Bana ata",
+                    "remove_me": "Beni sil",
+                    "update_status": "Bilet durumunu güncelle",
+                    "close_ticket": "Bileti kapat",
+                    "update_note": "Özel notu güncelle"
                 },
                 "new_tickets_dropdown": {
-                    "title": "",
-                    "no_tickets": "",
-                    "ticket_new": "",
-                    "ticket_updated": ""
+                    "title": "Bilet Bildirimleri",
+                    "no_tickets": "Bilet bildirimi yok",
+                    "ticket_new": "{username}, {ticket} biletini oluşturdu",
+                    "ticket_updated": "{username}, {ticket} biletine gönderi yazdı"
                 },
                 "fields": {
                     "language": {
-                        "title": "",
-                        "placeholder": "",
-                        "empty": "",
-                        "description": ""
+                        "title": "Dil",
+                        "placeholder": "Dil seç",
+                        "empty": "Dil tespit edilmedi",
+                        "description": "Destek biletiniz {language} olarak ele alınacaktır."
                     },
                     "subject": {
-                        "title": "",
-                        "placeholder": "",
-                        "description": ""
+                        "title": "Konu",
+                        "placeholder": "Bilet konusu",
+                        "description": "Sorunuzu kısa bir cümleyle açıklamaya çalışın."
                     },
                     "information": {
-                        "title": "",
-                        "placeholder": ""
+                        "title": "Bilet Bilgileri",
+                        "placeholder": "Size nasıl yardımcı olabileceğimizi bize söyleyin"
                     },
                     "status": {
-                        "title": "",
-                        "placeholder": ""
+                        "title": "Durum",
+                        "placeholder": "Biletin durumu"
                     },
                     "assignees": {
-                        "title": "",
-                        "placeholder": ""
+                        "title": "Atananlar",
+                        "placeholder": "Biletin durumu"
+                    },
+                    "private_note": {
+                        "title": "Özel notlar",
+                        "info": "Özel notlar, destek temsilcileri içindir ve müşteri tarafından görülmez.",
+                        "tip": "İPUCU: Tek bir bilet üzerinde birden fazla temsilci ile çalışıyorsanız, bir nota adınızı ve tarihinizi ekleyin.",
+                        "placeholder": "Örnek: 1 Ocak 2022 - Temsilci Adı: Müşteri veritabanından temizlendi",
+                        "edit_button": "Notu düzenle"
                     }
                 },
                 "compose_ticket": {
-                    "title": "",
-                    "private_support": "",
-                    "not_allowed": ""
+                    "title": "Yeni bir bilet yaz",
+                    "private_support": "Özel destek için, destek platformumuzda yeni bir bilet oluşturmak için bu formu kullanabilirsiniz. Özel olmayan destek konuları için lütfen <a>genel forumlarımıza</a> bakın.",
+                    "not_allowed": "Şimdi yeni bir destek bileti açamazsınız"
                 },
                 "load_more": {
-                    "title": ""
+                    "title": "Daha fazla bilet yükle"
                 },
                 "my_tickets": {
-                    "title": "",
-                    "description": "",
-                    "no_tickets": ""
+                    "title": "Biletlerim",
+                    "description": "Bu sayfada tüm özel biletlerinizi bulabileceksiniz.",
+                    "no_tickets": "Henüz biletiniz yok."
                 },
                 "overview": {
-                    "title": "",
-                    "description": "",
-                    "no_tickets": "",
-                    "all_tickets": ""
+                    "title": "Biletlere genel bakış",
+                    "description": "Gülümse, sen diğer insanların günlerini kurtaran kahramansın.",
+                    "no_tickets": "Kriterlerinize uyan bilet yok, muhtemelen iyi bir iş çıkarıyorsunuz!",
+                    "all_tickets": "Tüm biletler",
+                    "selection_unfiltered": "Filtrelenmedi",
+                    "selection_open": "Açık biletler",
+                    "selection_closed": "Kapalı biletler",
+                    "refresh": "Yenile",
+                    "filter": {
+                        "status": {
+                            "title": "Bilet durumu",
+                            "filter_count": "{count, plural, one {# filtre} other {# filtre}}"
+                        },
+                        "language": {
+                            "any": "Herhangi bir dil"
+                        },
+                        "assignees": {
+                            "title": "Atananlara göre filtrele",
+                            "search": "Görevli ara",
+                            "unassigned": "Atanmamış"
+                        }
+                    },
+                    "sort": {
+                        "newest": "Önce yeniler",
+                        "oldest": "Önce eskiler",
+                        "recent_activity": "Son aktiviteler",
+                        "least_recent": "En son etkinlik"
+                    }
+                }
+            },
+            "notifications": {
+                "replied_to_ticket": {
+                    "name": "Birisi biletimi yanıtladığında",
+                    "content": "=> v17development-flarum-support.emails.replied_to_ticket.subject"
+                },
+                "ticket_resolved": {
+                    "name": "Biletim çözüldü",
+                    "content": "=> v17development-flarum-support.emails.ticket_resolved.subject"
                 }
             }
         },
         "emails": {
             "replied_to_ticket": {
-                "subject": "",
-                "body": ""
+                "subject": "{replier_display_name}, #{ticket_id} numaralı biletinizi yanıtladı",
+                "body": "Sayın {recipient_display_name},\n\n{replier_display_name}, #{ticket_id} numaralı biletinizi yanıtladı (konu \"{subject}\").\n\nYanıtı incelemek için lütfen aşağıdaki bağlantıyı kullanın:\n{url}\n\nCevap verebilirsiniz veya bu bileti çözüldü olarak işaretleyebilirsiniz.\n"
             },
             "ticket_status_update": {
-                "subject": "",
-                "body": ""
+                "subject": "#{ticket_id} numaralı bilet {new_status} olarak işaretlendi",
+                "body": "Sayın {recipient_display_name},\n\n#{ticket_id} numaralı biletinizin durumu {new_status} olarak değişti.\n\nBiletinizin URL'si:\n{url}\n"
             },
             "ticket_resolved": {
-                "subject": "",
-                "body": ""
+                "subject": "#{ticket_id} numaralı bilet çözüldü olarak işaretlendi",
+                "body": "Sayın {recipient_display_name},\n\n#{ticket_id} numaralı biletiniz çözüldü olarak işaretlendi. Bu, biletinizin kapatıldığı anlamına gelir.\n\nBiletinizin URL'si:\n{url}\n\nBiletinizi çözüldü olarak işaretlemeyi kabul etmiyorsanız, yeniden açmak için lütfen biletinizi yanıtlayın.\n"
             },
             "ticket_pending_reply": {
-                "subject": "",
-                "body": ""
+                "subject": "#{ticket_id} numaralı bilet yanıtınızı bekliyor",
+                "body": "Sayın {recipient_display_name},\n\nKısa bir süre önce {replier_display_name}, {replied_date} tarihinde #{ticket_id} numaralı biletinize yanıt verdi ve yanıtınızı bekliyoruz.\n\nBiletinizin URL'si:\n{url}\n\nSorun çözüldüyse, lütfen bileti çözüldü olarak işaretleyin.\n"
             },
             "ticket_pending_reply_closed": {
-                "subject": "",
-                "body": ""
+                "subject": "#{ticket_id} numaralı bilet, hareketsizlik nedeniyle kapatıldı",
+                "body": "Sayın {recipient_display_name},\n\nKısa süre önce {replier_display_name}, #{ticket_id} numaralı biletinize yanıt verdi. Maalesef sizden bir cevap alamadık. Etkinlik olmaması nedeniyle biletiniz otomatik olarak kapatıldı.\n\nYine de yanıtlamak istiyorsanız, biletinizin URL'si:\n{url}\n"
             }
         }
     }

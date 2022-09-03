@@ -5,7 +5,7 @@
                 "local": "Pamięć lokalna",
                 "aliyun": "Alibaba Cloud (Aliyun)",
                 "azure": "Microsoft Azure",
-                "aws": "Amazon AWS S3",
+                "aws": "",
                 "dospaces": "Digital Ocean Spaces",
                 "dropbox": "Dropbox",
                 "gdrive": "Google Drive",
@@ -45,30 +45,30 @@
                 },
                 "aliyun": {
                     "endpoint": {
-                        "label": "Punkt końcowy",
-                        "description": "Adres URL do punktu końcowego magazynu."
+                        "label": "",
+                        "description": ""
                     },
                     "access-id": {
-                        "label": "ID dostępu",
-                        "description": "Twój identyfikator tokena dostępu"
+                        "label": "",
+                        "description": ""
                     },
                     "access-key": {
-                        "label": "Klucz dostępu",
-                        "description": "Twój klucz dostępu tokena uwierzytelnienia"
+                        "label": "",
+                        "description": ""
                     },
                     "bucket": {
                         "label": "",
                         "description": ""
                     },
                     "path-prefix": {
-                        "label": "Prefix ścieżki",
-                        "description": "Opcjonalny domyślny prefiks ścieżki dla plików."
+                        "label": "",
+                        "description": ""
                     }
                 },
                 "azure": {
                     "endpoint": {
-                        "label": "Punkt końcowy",
-                        "description": "Adres URL do punktu końcowego magazynu."
+                        "label": "",
+                        "description": ""
                     },
                     "container": {
                         "label": "",
@@ -78,20 +78,20 @@
                 "aws": {
                     "credentials": {
                         "key": {
-                            "label": "Klucz",
+                            "label": "",
                             "description": ""
                         },
                         "secret": {
-                            "label": "Sekret",
+                            "label": "",
                             "description": ""
                         }
                     },
                     "region": {
-                        "label": "Region",
+                        "label": "",
                         "description": ""
                     },
                     "version": {
-                        "label": "Wersja",
+                        "label": "",
                         "description": ""
                     },
                     "bucket": {
@@ -99,30 +99,30 @@
                         "description": ""
                     },
                     "path-prefix": {
-                        "label": "Prefix ścieżki",
-                        "description": "Opcjonalny domyślny prefiks ścieżki dla plików."
+                        "label": "",
+                        "description": ""
                     }
                 },
                 "dropbox": {
                     "access-token": {
-                        "label": "Token dostępu",
-                        "description": "Wygeneruj token dostępu oAuth 2 @ https://www.dropbox.com/developers/apps."
+                        "label": "",
+                        "description": ""
                     }
                 },
                 "gdrive": {
                     "client": {
                         "id": {
-                            "label": "ID klienta",
-                            "description": "Postępuj zgodnie z instrukcjami @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md aby utworzyć projekt Google i pobrać Twój identyfikator klienta oraz klucz tajny klienta.\n"
+                            "label": "",
+                            "description": ""
                         },
                         "secret": {
                             "label": "",
-                            "description": " "
+                            "description": ""
                         }
                     },
                     "refresh-token": {
                         "label": "Odśwież token",
-                        "description": "Postępuj zgodnie z instrukcjami @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md aby pobrać token odświeżania dla aplikacji Google oAuth.\n"
+                        "description": ""
                     },
                     "folder": {
                         "label": "ID folderu",
@@ -131,7 +131,7 @@
                 },
                 "ftp": {
                     "host": {
-                        "label": "Zdalna nazwa hosta",
+                        "label": "Nazwa hosta zdalnego",
                         "description": ""
                     },
                     "username": {
@@ -155,22 +155,22 @@
                         "description": "Zdalna ścieżka katalogu głównego (podkatalog) do przechowywania kopii zapasowych."
                     },
                     "passive": {
-                        "toggle": "Połączenie pasywne",
-                        "description": "Określa, czy użyć pasywnego połączenia FTP z serwerem."
+                        "toggle": "Połączenie w trybie pasywnym",
+                        "description": "Określa, czy użyć pasywnego połączenia z serwerem FTP."
                     },
                     "ssl": {
                         "toggle": "SSL",
                         "description": "Określa, czy ma być używane szyfrowane połączenie SSL z serwerem."
                     },
                     "timeout": {
-                        "label": "Koniec czasu",
+                        "label": "",
                         "description": "Liczba sekund oczekiwania na połączenie z serwerem FTP."
                     }
                 }
             },
             "nav": {
-                "label": "Backup",
-                "description": "Przechowuj kopie swojego forum."
+                "label": "Kopia zapasowa",
+                "description": "Przechowuj kopie zapasowe swojego forum."
             }
         }
     }

@@ -1,0 +1,47 @@
+{
+    "fof-pages": {
+        "admin": {
+            "edit_page": {
+                "content_label": "=> fof-pages.ref.content",
+                "content_placeholder": "=> fof-pages.ref.content",
+                "delete_page_button": "Smazat stránku",
+                "delete_page_confirmation": "Opravdu chcete tuto stránku smazat?",
+                "hidden_label": "Uložit jako koncept",
+                "restricted_label": "Omezit přístup (na kartě Oprávnění nakonfigurujte, kdo má přístup)",
+                "html_label": "Povolit HTML",
+                "set_as_home_page_confirmation": "Jsi si jist, že chceš tuto stránku nastavit jako domovskou stránku?",
+                "set_as_home_page_done": "Domovská stránka byla aktualizována",
+                "slug_label": "=> fof-pages.ref.slug",
+                "slug_placeholder": "=> fof-pages.ref.slug",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> fof-pages.ref.create_page",
+                "title_label": "=> fof-pages.ref.title",
+                "title_placeholder": "=> fof-pages.ref.title",
+                "url_label": "=> fof-pages.ref.url",
+                "url_placeholder": "=> fof-pages.ref.url"
+            },
+            "pages": {
+                "create_button": "=> fof-pages.ref.create_page"
+            },
+            "pages_list": {
+                "empty_text": "Vypadá to, že zde nejsou žádné stránky.",
+                "title": "=> fof-pages.ref.title"
+            },
+            "permissions": {
+                "restricted": "Zobrazit stránky s omezeným přístupem"
+            },
+            "badges": {
+                "hidden": "Návrh",
+                "restricted": "Omezené"
+            }
+        },
+        "ref": {
+            "content": "Obsah",
+            "create_page": "Vytvořit stránku",
+            "pages": "Stránky",
+            "slug": "Slug",
+            "title": "Název",
+            "url": "URL"
+        }
+    }
+}

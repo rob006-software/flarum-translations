@@ -1,0 +1,41 @@
+{
+    "nomiscz-auth-wechat": {
+        "forum": {
+            "buttons": {
+                "login": "Mit WeChat einloggen",
+                "link": "WeChat-Konto verknüpfen",
+                "unlink": "Verknüpfung des WeChat-Kontos aufheben"
+            },
+            "alerts": {
+                "already_linked": "Das WeChat-Konto ist bereits verknüpft!",
+                "already_used": "Das WeChat-Konto ist bereits mit einem anderen Benutzer verknüpft!",
+                "link_success": "Verknüpfung des WeChat-Kontos erfolgreich.",
+                "unlink_success": "Verknüpfung des WeChat-Kontos erfolgreich aufgehoben.",
+                "error": "Etwas ist schief gelaufen, bitte später noch einmal versuchen!"
+            },
+            "modals": {
+                "link": {
+                    "title": "WeChat-Konto verknüpfen"
+                },
+                "unlink": {
+                    "title": "Verknüpfung des WeChat-Kontos aufheben",
+                    "info": {
+                        "confirm": "Sicher, dass Du die Verknüpfung deines WeChat-Kontos aufheben möchtest?",
+                        "no_providers": "Du hast keine anderen Login-Anbieter! Wahrscheinlich musst Du dein Passwort zurücksetzen."
+                    },
+                    "buttons": {
+                        "confirm": "Ja, Kontoverknüpfung aufheben",
+                        "cancel": "Nein!"
+                    }
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "title": "WeChat-Authentifizierungseinstellungen",
+                "api_app_id": "API-App-ID",
+                "api_app_secret": "API-App-Geheimnis"
+            }
+        }
+    }
+}

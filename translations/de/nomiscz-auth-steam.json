@@ -1,0 +1,41 @@
+{
+    "nomiscz-auth-steam": {
+        "forum": {
+            "buttons": {
+                "login": "Mit Steam anmelden",
+                "link": "Steam-Konto verknüpfen",
+                "unlink": "Verknüpfung zum Steam-Konto aufheben"
+            },
+            "alerts": {
+                "already_linked": "Steam-Konto ist bereits verknüpft!",
+                "already_used": "Das Steam-Konto ist bereits mit einem anderen Benutzer verknüpft!",
+                "link_success": "Steam-Kontoverknüpfung erfolgreich.",
+                "unlink_success": "Verknüpfung des Steam-Kontos erfolgreich aufgehoben.",
+                "error": "Etwas ist schief gelaufen, bitte später noch einmal versuchen!"
+            },
+            "modals": {
+                "link": {
+                    "title": "Steam-Konto verknüpfen"
+                },
+                "unlink": {
+                    "title": "Verbindung zum Steam-Konto aufheben",
+                    "info": {
+                        "confirm": "Sicher, dass Du die Verknüpfung deines Steam-Kontos aufheben möchtest?",
+                        "no_providers": "Du hast keine anderen Login-Anbieter! Wahrscheinlich musst Du dein Passwort zurücksetzen."
+                    },
+                    "buttons": {
+                        "confirm": "Ja, Kontoverknüpfung aufheben",
+                        "cancel": "Nein!"
+                    }
+                }
+            }
+        },
+        "admin": {
+            "settings": {
+                "title": "Steam-Authentifizierungseinstellungen",
+                "api_key_label": "API-Schlüssel",
+                "use_steam_powered_domain": "Domain steampowered.com anstelle von steamcommunity.com verwenden (in China gesperrt)"
+            }
+        }
+    }
+}

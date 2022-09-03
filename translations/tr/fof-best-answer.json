@@ -10,16 +10,30 @@
                     "general": "Genel",
                     "reminders": "Hatırlatıcılar",
                     "advanced": "Gelişmiş",
-                    "reminders_notice": "Hatırlatıcıların doğru şekilde çalışması için Flarum planlayıcısını doğru şekilde ayarlamış olmanız gerekir."
+                    "reminders_notice": "Hatırlatıcıların çalışması için Flarum planlayıcısını doğru şekilde ayarlamış olmanız gerekir."
                 },
-                "allow_select_own_post": "Kullanıcının kendi gönderisini seçmesine izin ver",
-                "select_best_answer_reminder_days": "Kullanıcıya X günden sonra en iyi yanıtı seçmesini hatırlat",
-                "schedule_on_one_server": "Zamanlayıcı için 'onOneServer()' kullanın (Redis/Memcache gerektirir)",
-                "schedule_stop_overnight": "Hatırlatıcının aktif olunmayan saatlerde çalışmasını engelleyin (ÖS 9 - ÖÖ 8 sunucu saati)",
+                "allow_select_own_post": "Kendi gönderini seç",
+                "allow_select_own_post_help": "Tartışma sahibinin tartışmadaki kendi gönderilerinden birini en iyi cevap olarak seçmesine izin verin",
+                "enable_all_tags_button": "Tüm etiketlerde En İyi Yanıtı etkinleştir",
+                "enable_all_tags_reminder_button": "En İyi Yanıt hatırlatıcısını için tüm etiketleri etkinleştir",
+                "select_best_answer_reminder_days": "Hatırlatma sıklığı",
+                "select_best_answer_reminder_days_help": "Yapılandırılabilir gün sayısından sonra tartışma sahibine En İyi Yanıtı seçmesi için bir hatırlatıcı gönderin, 0 = hatırlatıcıları devre dışı bırakın.",
+                "schedule_on_one_server": "Zamanlayıcı için 'onOneServer()' kullanın",
+                "schedule_on_one_server_help": "Redis/Memcache gerektirir",
+                "schedule_stop_overnight": "Aktif olmayan saatlerde hatırlatma bildirimlerinin gönderilmesini önleyin",
+                "schedule_stop_overnight_help": "9ös - 8öö sunucu zamanı",
                 "schedule_log_output": "Zamanlayıcı çıktısını kayıt dosyasına ekle",
-                "remind_tag_ids": "Hatırlatıcıyı belirli etiketlerde etkinleştirmek için etiketleri belirleyin (virgülle ayırarak)",
-                "use_alt_ui": "Alternatif şablonu kullanın (En İyi Yanıt düğmeleri gönderinin sonunda yer alır)",
-                "title": "En İyi Yanıt Ayarları"
+                "show_filter_label": "En İyi Yanıt filtresini göster",
+                "show_filter_help": "En İyi Yanıtların etkinleştirildiği etiketler için, tartışma listesinde çözülmüş/çözülmemiş filtre seçeneğini görüntülemeyi seçin",
+                "use_alt_ui": "Alternatif dizilim",
+                "use_alt_ui_help": "Altbilgideki en iyi yanıt kontrolleri",
+                "documentation": "Belgeler",
+                "introduction": "<code><a>flarum/tags</a></code> içinde hangi etiketlerin En İyi Yanıtları destekleyeceğini ve isteğe bağlı olarak hangi etiketlerin hatırlatıcıları desteklemesi gerektiğini etkinleştirin. Bir etiket için En İyi Yanıt etkinleştirildiğinde, yanıtları ayarlayabilen her kullanıcı grubuna (kendi tartışması, herhangi bir tartışma) izinler atayın. İzinler genel olarak (En İyi Yanıtın etkinleştirildiği herhangi bir etiket için) veya etiket bazında atanabilir.\n",
+                "remind_tag_ids": "Hatırlatıcıyı belirli etiketlerde etkinleştirmek için etiketleri belirleyin (virgülle ayırarak)"
+            },
+            "edit_tag": {
+                "qna_label": "Bu etikette En İyi Yanıtların belirlenmesine izin ver",
+                "reminders": "Bu etiketteki tartışmalar için bir En İyi Yanıt belirlemesi amacıyla hatırlatıcı gönderin"
             }
         },
         "forum": {
@@ -36,12 +50,28 @@
                 "content": "Sorunuz yanıtlandıysa lütfen en iyi yanıtı seçin",
                 "awarded": "Gönderiniz {username} tarafından en iyi yanıt olarak seçti",
                 "preferences": {
-                    "awarded_best_answer": "Birisi gönderimi en iyi yanıt olarak seçtiğinde",
-                    "best_answer_in_discussion": "Yanıtladığım bir tartışmada en iyi yanıt belirlendiğinde"
-                },
-                "best_answer_set_in_discussion_email": "",
-                "awarded_email": "Gönderiniz kullanıcı tarafından en iyi yanıt olarak seçti",
-                "select_email_title": "Sorununuzu çözmeyi başardınız mı?"
+                    "awarded_best_answer": "Birisi gönderimi en iyi cevap olarak belirledi",
+                    "best_answer_in_discussion": "En iyi cevap, katıldığım bir tartışmada belirlenir",
+                    "select_best_answer": "Başlattığım bir tartışmada en iyi yanıtı seçmek için otomatik bir hatırlatıcı"
+                }
+            },
+            "index": {
+                "ask_question": "Bir Soru Sor",
+                "cannot_ask_question": "Soru Soramazsın",
+                "solved_link": "Çözülen tartışmalar",
+                "unsolved_link": "Çözülmeyen tartışmalar"
+            },
+            "filter": {
+                "all_label": "Tüm sorular",
+                "solved_label": "Çözülen sorular",
+                "unsolved_label": "Çözülmeyen sorular",
+                "accessible_label": "Çözülmüş/Çözülmemiş seçimi"
+            },
+            "composer": {
+                "titlePlaceholder": "Soru başlığı"
+            },
+            "user": {
+                "best-answer-count": "{count, plural, one { {count} en iyi yanıt} other {{count} en iyi yanıt}}"
             }
         },
         "email": {
@@ -51,9 +81,9 @@
                 "select": "Sorunuz yanıtlandı mı?"
             },
             "body": {
-                "awarded": "Hey {recipient_display_name},\n\nHarika, {actor_display_name} senin '{discussion_title}' başlıklı tartışmadaki yanıtını en iyi yanıt olarak seçti. Yardımcı olduğun için teşekkürler.\n\nBuradan görüntüle: {discussion_url}\n",
-                "ba-set": "Hey {recipient_display_name},\n\n{actor_display_name} senin de yanıtladığın '{discussion_title}' tartışması için en iyi yanıtı belirledi.\n\nBuradan görüntüle: {discussion_url}\n",
-                "select": "Hey {recipient_display_name},\n\nSadece kontrol ediyorduk ve '{discussion_title}' başlıklı tartışmanızın çok sayıda yanıt aldığını gördük. Umarız bu yanıtlardan birisi sorunu çözmene yardımcı olmuştur.\n\nEğer öyleyse sorunuz için en iyi yanıtı belirlemeniz mevcut ve yeni ziyaretçiler için yol gösterici olacaktır. Aynı sorunu yaşayan kullanıcılar için yardımcı olun ve size en iyi yanıtı verene bir teşekkürü çok görmeyin. Kullanıcılarımız zamanlarını gönüllü olarak ayırıyorlar, bu yüzden takdir edildiklerini bilmelerini sağlamak iyi olurdu.\n\nTartışmayı buradan görüntüle: {discussion_url}, ve bir en iyi yanıt belirle.\n\nTeşekkürler!\n"
+                "awarded": "Hey {recipient_display_name},\n\nHarika, {actor_display_name} senin {discussion_title} başlıklı tartışmadaki yanıtını en iyi yanıt olarak seçti. Yardımcı olduğun için teşekkürler.\n\nBuradan görüntüle: {discussion_url}\n",
+                "ba-set": "Hey {recipient_display_name},\n\n{actor_display_name} senin de yanıtladığın {discussion_title} tartışması için en iyi yanıtı belirledi.\n\nBuradan görüntüle: {discussion_url}\n",
+                "select": "Hey {recipient_display_name},\n\nSadece kontrol ediyorduk ve {discussion_title} başlıklı tartışmanızın çok sayıda yanıt aldığını gördük. Umarız bu yanıtlardan birisi sorunu çözmene yardımcı olmuştur.\n\nEğer öyleyse sorunuz için en iyi yanıtı belirlemeniz mevcut ve yeni ziyaretçiler için yol gösterici olacaktır. Aynı sorunu yaşayan kullanıcılar için yardımcı olun ve size en iyi yanıtı verene bir teşekkürü çok görmeyin. Kullanıcılarımız zamanlarını gönüllü olarak ayırıyorlar, bu yüzden takdir edildiklerini bilmelerini sağlamak iyi olurdu.\n\nTartışmayı buradan görüntüle: {discussion_url}, ve bir en iyi yanıt belirle.\n\nTeşekkürler!\n"
             }
         }
     }

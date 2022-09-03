@@ -8,9 +8,15 @@
             "update_category": "Kategoriyi güncelle",
             "edit_category": "Kategoriyi düzenle",
             "nothing_here_yet": "Henüz bir rozet veya kategori oluşturmamışsın.",
+            "show_badges_on_user_card": "Rozetleri kullanıcı kartında göster",
+            "number_of_badges_on_user_card": "Rozet sayısı",
+            "number_of_badges_on_user_card_help": "Kullanıcı kartında gösterilecek rozet sayısı",
             "permissions": {
+                "badge_detail_users": "Kullanıcıları rozet ayrıntıları sayfasında görebilir",
                 "give_badge": "Kullanıcıya rozet ver",
-                "take_badge": "Kullanıcıdan rozeti al"
+                "take_badge": "Kullanıcıdan rozeti al",
+                "edit_own_card_badges": "Kendi kullanıcı kartı rozetlerini düzenleyin",
+                "edit_card_badges": "Kullanıcı kartı rozetlerini düzenle"
             },
             "confirm_dialog": {
                 "title": "Onayla",
@@ -26,13 +32,45 @@
                 "icon": "Rozet simgesi",
                 "description": "Rozet açıklaması",
                 "visible": "Görünür",
-                "visible_description": "Bu rozeti etkinleştir. Etkisizleştirildiğinde rozet görünür olmaz."
+                "visible_description": "Bu rozeti etkinleştir. Etkisizleştirildiğinde rozet görünür olmaz.",
+                "is_image": "Rozeti bir görsel yap",
+                "is_image_description": "Varsayılan rozet yerine bir görsel kullanın",
+                "image": "Rozet görsel bağlantısı",
+                "image_placeholder": "Görsel için bir bağlantı girin",
+                "icon_color": "Simge rengi",
+                "background_color": "Arkaplan rengi",
+                "label_color": "Yazı rengi"
             },
             "badge_category": {
                 "name": "Kategori adı",
                 "description": "Kategori açıklaması",
+                "blockview": "Blok-görünüm",
+                "blockview_description": "Kategori rozetlerini blok görünümünde gösterin. Devre dışı bırakıldığında, tüm rozetler bir tabloda görüntülenecektir.",
                 "enabled": "Etkinleştirildi",
                 "enabled_description": "Bu kategoriyi etkinleştir. Etkisizleştirildiğinde tüm rozetler ve kategori gizlenir."
+            },
+            "auto_moderator": {
+                "not_installed": {
+                    "title": "Kullanıcıları rozetlerle otomatik olarak ödüllendirin",
+                    "content": "Bu uzantı, <a>Otomatik Moderatör</a> kurulup etkinleştirildiğinde daha fazla işlevsellik sunar. Bu uzantıyı yüklediğinizde, kullanıcılar bir topluluk çalışanının müdahalesi olmadan otomatik olarak rozetlerle ödüllendirilebilir!",
+                    "install": "Yükle",
+                    "dismiss": "Tekrar gösterme"
+                },
+                "action_drivers": {
+                    "badge_id": "Rozet ID",
+                    "give_badge": "Rozet ver",
+                    "remove_badge": "Rozeti kaldır"
+                },
+                "requirement_drivers": {
+                    "has_badge": "Rozeti var"
+                },
+                "metric_drivers": {
+                    "badges_received": "Rozetler alındı"
+                },
+                "badge_selector": {
+                    "placeholder": "Bir rozet seçin",
+                    "loading_badges": "Rozetler yükleniyor"
+                }
             }
         },
         "forum": {
@@ -44,7 +82,9 @@
             "select_badge": "Rozeti seç",
             "user_has_badge": "Bu kullanıcı zaten rozete sahip.",
             "user_no_badges": "Bu kullanıcı herhangi bir rozete sahip değil.",
+            "no_received": "Hiçbir kullanıcı bu rozeti kazanmadı.",
             "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
+            "save_changes": "Değişikleri kaydet",
             "badge": {
                 "badge": "Rozet",
                 "badges": "Rozetler",
@@ -55,12 +95,27 @@
                 "no_earning_reason": "Kazanma nedeni yok",
                 "earned_on": "Rozet şu nedenle kazanıldı",
                 "category": "Rozet kategorisi",
-                "earned_count": "<b>{count} kullanıcı</b> bu rozete sahip|<b>{count} kullanıcı</b> bu rozete sahip"
+                "received_on": "{date} edindi",
+                "badge_details": "Rozet detayları",
+                "earned_count": "{count, plural, one {<b># kullanıcı</b> bu rozeti kazandı} other {<b># kullanıcı</b> bu rozeti kazandı}}",
+                "earned_by_count": "{count, plural, one {<b># kullanıcı</b> tarafından edinildi} other {<b># kullanıcı</b> tarafından edinildi}}",
+                "others_link": "+ {count} Daha"
+            },
+            "badges_in_card": {
+                "title": "Kullanıcı kartındaki rozetler",
+                "manage_badges": "Rozetleri yönet",
+                "description": "Kullanıcı kartınızda görünen rozetleri diğer rozetlerinizden biri ile değiştirebilirsiniz. Herhangi birini seçmezseniz, otomatik olarak seçilirler.",
+                "select_limit": "Kullanıcı kartınızda görünmek için {limit, plural, one {<b>bir rozet</b>} other {<b># rozetler</b>}}öğesini seçebilirsiniz.",
+                "hit_limit": "Kartınızda yalnızca <b> {limit, plural, one {<b>bir rozet</b>} other {<b># rozetler</b>}}</b> için yer var. Bu rozete yer açmak için bir rozetin seçimini kaldırın."
             },
             "moderation": {
                 "remove_badge": "Kullanıcıdan rozeti kaldır",
                 "remove_badge_confirm": "Bu kullanıcıdan rozeti kaldırmak istediğine emin misiniz?",
                 "give_badge": "Rozet ver"
+            },
+            "notification": {
+                "title": "Yeni bir rozet edindin",
+                "settings": "Yeni bir rozet edindim"
             }
         }
     }

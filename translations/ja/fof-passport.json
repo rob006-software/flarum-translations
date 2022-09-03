@@ -12,33 +12,11 @@
                     "button-title": "",
                     "button-title-placeholder": "",
                     "button-icon": ""
-                },
-                "title": ""
-            }
-        },
-        "api": {
-            "default-login-button-title": ""
-        }
-    },
-    "flagrow-passport": {
-        "admin": {
-            "popup": {
-                "title": "FoF Passport",
-                "field": {
-                    "app-auth-url": "OAuth 認証リンク",
-                    "app-token-url": "OAuth token リンク",
-                    "app-user-url": "Api URL は、認証が成功した後にユーザー情報を提供します",
-                    "app-id": "OAuth application id",
-                    "app-secret": "OAuth application secret",
-                    "app-scopes": "OAuth scopes to request",
-                    "button-title": "ログインボタンのラベル",
-                    "button-title-placeholder": "=> fof-passport.api.default-login-button-title",
-                    "button-icon": "ログインボタンアイコン"
                 }
             }
         },
         "api": {
-            "default-login-button-title": "=> core.ref.log_in"
+            "default-login-button-title": ""
         }
     }
 }

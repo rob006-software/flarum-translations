@@ -1,0 +1,51 @@
+{
+    "flarum-suspend": {
+        "admin": {
+            "permissions": {
+                "suspend_users_label": "Suspendovanje članova"
+            }
+        },
+        "forum": {
+            "notifications": {
+                "user_suspended_text": "Suspendovani ste na {timeReadable}",
+                "user_suspended_indefinite_text": "Suspendovani ste na neodređeno vreme",
+                "user_unsuspended_text": "Ukinuta vam je suspenzija"
+            },
+            "suspension_info": {
+                "dismiss_button": "Odbaci",
+                "indefinite": "Ovo je suspenzija na neodređeno vreme",
+                "limited": "Ova suspenzija će biti na snazi do {date}",
+                "title": "Ovaj nalog je suspendovan"
+            },
+            "suspend_user": {
+                "display_message": "Prikaži poruku za korisnika",
+                "indefinitely_label": "Suspendovan/a na neodređeno",
+                "limited_time_days_text": " dana",
+                "limited_time_label": "Suspendovan/a na određeno vreme..",
+                "not_suspended_label": "Nije suspendovan/a",
+                "placeholder_optional": "Opcionalno",
+                "reason": "Razlog za suspenziju",
+                "status_heading": "Status suspenzije",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "Suspenduj {username}"
+            },
+            "user_badge": {
+                "suspended_tooltip": "Suspendovan/a"
+            },
+            "user_controls": {
+                "suspend_button": "Suspenduj"
+            }
+        },
+        "email": {
+            "no_reason_given": "",
+            "suspended": {
+                "subject": "Vaš nalog na Grčkom Forumu je suspendovan",
+                "body": "Zdravo {recipient_display_name},\n\nSuspendovani ste iz sledećeg razloga:\n\n---\n{suspension_message}\n---\n"
+            },
+            "unsuspended": {
+                "subject": "Za vaš nalog na Grčkom Forumu je ukinuta suspenzija",
+                "body": "Zdravo {recipient_display_name},\n\nZa vaš nalog na je ukinuta suspenzija. Možete se vratiti na forum klikom na sledeći link:\n\n{forum_url}\n"
+            }
+        }
+    }
+}

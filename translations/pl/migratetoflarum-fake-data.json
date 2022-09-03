@@ -1,20 +1,21 @@
 {
     "migratetoflarum-fake-data": {
-        "admin": {
+        "lib": {
             "generator": {
-                "bulk-mode": "=> migratetoflarum-fake-data.ref.bulk-mode",
-                "bulk-mode-description": "=> migratetoflarum-fake-data.ref.bulk-mode-description",
-                "user-count": "=> migratetoflarum-fake-data.ref.user-count",
+                "bulk-mode": "Tryb masowy",
+                "bulk-mode-description": "Generuje jedną losową wartość i używa jej dla wszystkich wygenerowanych rekordów",
+                "user-count": "Liczba użytkowników do utworzenia",
                 "discussion-count": "Liczba dyskusji do utworzenia",
                 "discussion-tags": "Tagi dla nowych dyskusji",
                 "discussion-tags-none": "Brak",
                 "discussion-tags-random": "Losowo",
-                "post-count": "=> migratetoflarum-fake-data.ref.post-count",
-                "date": "=> migratetoflarum-fake-data.ref.date",
-                "date-start-placeholder": "=> migratetoflarum-fake-data.ref.date-start-placeholder",
-                "date-interval-placeholder": "=> migratetoflarum-fake-data.ref.date-interval-placeholder",
-                "send": "=> migratetoflarum-fake-data.ref.send",
-                "title": "Generowanie danych testowych"
+                "post-count": "Liczba postów do utworzenia",
+                "date": "Ustawienia daty",
+                "date-start-placeholder": "Data początkowa (domyślnie aktualna data)",
+                "date-interval-placeholder": "Interwał (domyślnie 1 sekunda)",
+                "send": "Wygeneruj dane",
+                "reset": "Generowanie zakończone! Kliknij, aby zresetować",
+                "refresh": "Zamknij i odśwież stronę"
             }
         },
         "forum": {
@@ -22,31 +23,12 @@
                 "generate-replies": "Generuj odpowiedzi"
             },
             "generator": {
-                "title": "Generuj odpowiedzi",
-                "bulk-mode": "=> migratetoflarum-fake-data.ref.bulk-mode",
-                "bulk-mode-description": "=> migratetoflarum-fake-data.ref.bulk-mode-description",
-                "user-count": "=> migratetoflarum-fake-data.ref.user-count",
-                "post-count": "=> migratetoflarum-fake-data.ref.post-count",
-                "date": "=> migratetoflarum-fake-data.ref.date",
-                "date-start-placeholder": "=> migratetoflarum-fake-data.ref.date-start-placeholder",
-                "date-interval-placeholder": "=> migratetoflarum-fake-data.ref.date-interval-placeholder",
-                "send": "=> migratetoflarum-fake-data.ref.send"
+                "title": "Generuj odpowiedzi"
             }
         },
         "api": {
             "no-users-matched": "Nie znaleziono pasujących użytkowników",
             "no-discussions-matched": "Nie znaleziono pasujących dyskusji"
-        },
-        "ref": {
-            "bulk-mode": "Tryb masowy",
-            "bulk-mode-description": "Generuje jedną losową wartość i używa jej dla wszystkich wygenerowanych rekordów",
-            "user-count": "Liczba użytkowników do utworzenia",
-            "post-count": "Liczba postów do utworzenia",
-            "date": "Ustawienia daty",
-            "date-start-placeholder": "Data początkowa (domyślnie aktualna data)",
-            "date-interval-placeholder": "Interwał (domyślnie 1 sekunda)",
-            "send": "Wygeneruj dane",
-            "discussion-count": "Liczba dyskusji do utworzenia"
         }
     }
 }

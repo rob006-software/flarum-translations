@@ -1,0 +1,49 @@
+{
+    "flarum-mentions": {
+        "admin": {
+            "settings": {
+                "allow_username_format_label": "Dozvoli format pominjanja korisničkog imena (@korisničkoime)",
+                "allow_username_format_text": "Trenutni format za pominjanje korisnika je @\"Prikazano ime\"#ID.\nOvo podešavanje dozvoljava korišćenje starog formata @korisničkoime, ali će i dalje biti konvertovano u novi format nakon čuvanja.\n"
+            }
+        },
+        "forum": {
+            "composer": {
+                "mention_tooltip": "Spomenite člana ili odgovor",
+                "reply_to_post_text": "Odgovorite na #{number}"
+            },
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_mentioned_text": "{username} je odgovorio/la na Vaš odgovor",
+                "user_mentioned_text": "{username} Vas je spomenuo/la"
+            },
+            "post": {
+                "mentioned_by_self_text": "{users} ste odgovorili na ovo.",
+                "mentioned_by_text": "{users} je odgovorio/la na ovo.",
+                "others_text": "=> core.ref.some_others",
+                "quote_button": "Citirajte",
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
+            },
+            "settings": {
+                "notify_post_mentioned_label": "Ako neko odgovori na neki od mojih odgovora",
+                "notify_user_mentioned_label": "Ako me neko spomene u svom odgovoru"
+            },
+            "user": {
+                "mentions_link": "Spominjanja"
+            },
+            "post_mention": {
+                "deleted_text": "[nepoznato]"
+            }
+        },
+        "email": {
+            "post_mentioned": {
+                "subject": "{replier_display_name} je odgovorio/la na Vaš odgovor u diskusiji {title}",
+                "body": "Zdravo {recipient_display_name}!\n\n{replier_display_name} je odgovorio/la na Vaš odgovor (#{post_number}) u diskusiji {title}.\n\n{url}\n\n---\n\n{content}\n"
+            },
+            "user_mentioned": {
+                "subject": "{mentioner_display_name} Vas je spomenuo/la u diskusiji {title}",
+                "body": "Zdravo {recipient_display_name}!\n\n{mentioner_display_name} Vas je spomenuo/la u diskusiji {title}.\n\n{url}\n\n---\n\n{content}\n"
+            }
+        }
+    }
+}

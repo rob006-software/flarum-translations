@@ -1,16 +1,28 @@
 {
     "fof-socialprofile": {
+        "admin": {
+            "permissions": {
+                "view": "查看社交网络",
+                "editOwn": "编辑自己的社交网络",
+                "editAny": "编辑他人的社交网络"
+            },
+            "settings": {
+                "allow_external_favicons_label": "允许外部网站图标（使用 DuckDuckGo 站点图标接口）"
+            }
+        },
         "forum": {
             "edit": {
-                "edit": "编辑",
-                "add": "添加",
-                "headtitle": "添加按钮",
+                "edit": "编辑社交网络",
+                "add": "添加社交网络",
+                "headtitle": "社交网络",
                 "title": "名称",
                 "url": "链接",
                 "submit": "保存",
                 "delete": "删除",
-                "deletetitle": "删除按钮",
-                "save_disabled_fetching_favicons": "正在获取一个或多个图标，请稍后。"
+                "deletetitle": "删除",
+                "save_disabled_fetching_favicons": "正在获取一个或多个图标，请稍后。",
+                "favicon": "站点图标",
+                "grey_favicon": "灰度站点图标"
             }
         }
     }

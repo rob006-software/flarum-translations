@@ -8,6 +8,10 @@
                 "users_heading": "搜索用户「{query}」",
                 "field": {
                     "placeholder": "搜索用户"
+                },
+                "kinds": {
+                    "group": "用户组",
+                    "text": "关键词"
                 }
             },
             "page": {
@@ -16,19 +20,9 @@
                 "load_more_button": "=> core.ref.load_more",
                 "empty_text": "抱歉，没有找到匹配的用户。",
                 "filter_button": "筛选用户组",
-                "sort": {
-                    "relevance": "相关度",
-                    "default": "默认",
-                    "username_az": "用户名（a-z）",
-                    "username_za": "用户名（z-a）",
-                    "newest": "新用户",
-                    "oldest": "老用户",
-                    "seen_recent": "最近上线",
-                    "seen_oldest": "离线最久",
-                    "most_posts": "回复最多",
-                    "least_posts": "回复最少",
-                    "most_discussions": "主题最多",
-                    "least_discussions": "主题最少"
+                "usercard": {
+                    "discussion-count": "{count, plural, one {主题 {count}} other {主题 {count}}}",
+                    "post-count": "{count, plural, one {回复 {count}} other {回复 {count}}}"
                 }
             }
         },
@@ -39,7 +33,8 @@
             "settings": {
                 "link": "在论坛首页侧边栏添加「会员名录」选项卡",
                 "default-sort": "默认排序",
-                "title": "会员名录设置"
+                "use-small-cards": "使用小尺寸卡片",
+                "disable-global-search-source": "不要将会员名录添加到论坛搜索建议中"
             }
         },
         "lib": {
@@ -53,9 +48,7 @@
                 "most_posts": "发帖最多",
                 "least_posts": "发帖最少",
                 "most_discussions": "主题最多",
-                "least_discussions": "主题最少",
-                "seen_recent": "最近上线",
-                "seen_oldest": "离线最久"
+                "least_discussions": "主题最少"
             }
         }
     }

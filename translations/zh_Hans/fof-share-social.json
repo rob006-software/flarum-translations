@@ -1,5 +1,10 @@
 {
     "fof-share-social": {
+        "admin": {
+            "settings": {
+                "canonical-urls": "分享权威链接 (canonical URL)"
+            }
+        },
         "forum": {
             "discussion": {
                 "share_button": "分享"
@@ -10,22 +15,18 @@
         },
         "lib": {
             "networks": {
-                "facebook": "Facebook",
-                "twitter": "Twitter",
-                "linkedin": "LinkedIn",
+                "facebook": "脸书",
+                "twitter": "推特",
+                "linkedin": "领英",
                 "reddit": "Reddit",
                 "whatsapp": "WhatsApp",
-                "telegram": "Telegram",
+                "telegram": "电报",
                 "vkontakte": "VKontakte",
                 "odnoklassniki": "Odnoklassniki",
                 "my_mail": "My World",
                 "qq": "QQ",
-                "qzone": "QQ 空间"
-            }
-        },
-        "admin": {
-            "settings": {
-                "title": "FoF 社交分享"
+                "qzone": "QQ 空间",
+                "native": "系统分享"
             }
         }
     }

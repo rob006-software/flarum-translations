@@ -1,0 +1,158 @@
+{
+    "flamarkt-taxonomies": {
+        "admin": {
+            "menu": {
+                "title": "Taxonómie",
+                "description": ""
+            },
+            "page": {
+                "title": "",
+                "create": {
+                    "taxonomy": "",
+                    "term": ""
+                },
+                "reset-term-order": ""
+            },
+            "edit-taxonomy": {
+                "title": {
+                    "new": "",
+                    "edit": ""
+                },
+                "field": {
+                    "type": "",
+                    "typeDescription": "",
+                    "name": "",
+                    "slug": "",
+                    "description": "",
+                    "color": "",
+                    "icon": "",
+                    "iconDescription": "",
+                    "showLabel": "",
+                    "showFilter": "",
+                    "allowCustomValues": "",
+                    "customValueValidation": "",
+                    "customValueSlugger": "",
+                    "customValueSluggerDescription": "",
+                    "countRequired": "",
+                    "countRequiredDescription": "",
+                    "rangeSeparatorText": "",
+                    "tagScope": "",
+                    "tagScopeDescription": "",
+                    "tagScopePlaceholder": ""
+                },
+                "delete": "",
+                "deleteConfirmation": "",
+                "submit": {
+                    "new": "",
+                    "edit": ""
+                },
+                "type-options": {
+                    "products": "",
+                    "discussions": "",
+                    "users": ""
+                },
+                "validation-options": {
+                    "default": "",
+                    "alpha_num": "",
+                    "alpha_dash": "",
+                    "regex": ""
+                },
+                "slugger-options": {
+                    "random": "",
+                    "alpha_dash": "",
+                    "transliterator": ""
+                }
+            },
+            "edit-term": {
+                "title": {
+                    "new": "",
+                    "edit": ""
+                },
+                "field": {
+                    "name": "",
+                    "slug": "",
+                    "description": "",
+                    "color": "",
+                    "icon": "",
+                    "iconDescription": ""
+                },
+                "delete": "",
+                "deleteConfirmation": "",
+                "submit": {
+                    "new": "",
+                    "edit": ""
+                }
+            },
+            "permissions": {
+                "heading": "",
+                "moderate": "",
+                "bypassTermCounts": "",
+                "seeOwnDiscussion": "",
+                "seeAnyDiscussion": "",
+                "editOwnDiscussion": "",
+                "editAnyDiscussion": "",
+                "seeOwnUser": "",
+                "seeAnyUser": "",
+                "editOwnUser": "",
+                "editAnyUser": "",
+                "ownDisabledEveryone": "",
+                "ownDisabledMembers": ""
+            },
+            "settings": {
+                "goToPage": ""
+            }
+        },
+        "forum": {
+            "composer": {
+                "choose": ""
+            },
+            "discussion": {
+                "edit": ""
+            },
+            "user": {
+                "nav": "",
+                "edit": ""
+            },
+            "blog": {
+                "widget": {
+                    "title": ""
+                }
+            }
+        },
+        "lib": {
+            "modal": {
+                "title": {
+                    "new": "",
+                    "edit": ""
+                },
+                "placeholder": "",
+                "placeholderOptional": "",
+                "custom": "",
+                "bypassTermCounts": "",
+                "submit": ""
+            }
+        },
+        "api": {
+            "error": {
+                "invalid_filter_taxonomy": "",
+                "discussion_taxonomy_not_in_scope": "",
+                "cannot_use_taxonomies_on_model": ""
+            }
+        },
+        "ref": {
+            "field": {
+                "name": "",
+                "slug": "",
+                "description": "",
+                "color": "",
+                "icon": "",
+                "iconDescription": ""
+            },
+            "delete": "",
+            "submit": {
+                "new": "",
+                "edit": ""
+            }
+        }
+    }
+}

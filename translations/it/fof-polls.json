@@ -2,11 +2,11 @@
     "fof-polls": {
         "admin": {
             "permissions": {
-                "view_results_without_voting": "",
+                "view_results_without_voting": "Vedi risultati senza votare",
                 "start": "Avviare un sondaggio",
                 "self_edit": "Consenti agli utenti di modificare i propri sondaggi",
                 "vote": "Votare nei Sondaggi",
-                "change_vote": "",
+                "change_vote": "Cambia voto",
                 "moderate": "Modifica e rimozione sondaggi"
             }
         },
@@ -41,7 +41,7 @@
             },
             "tooltip": {
                 "badge": "Sondaggio",
-                "votes": "1 voto|{count} voti"
+                "votes": "{count, plural, one {# voto} other {# voti}}"
             },
             "votes_modal": {
                 "title": "Votanti"

@@ -1,0 +1,424 @@
+{
+    "kilowhat-formulaire": {
+        "admin": {
+            "permissions": {
+                "heading": "Shakl",
+                "heading-advanced": "Formula (uchinchi tomon kengaytmalari uchun variantlar)",
+                "fill": "=> kilowhat-formulaire.ref.permissions.fill",
+                "seeOwnUser": "=> kilowhat-formulaire.ref.permissions.seeOwnUser",
+                "seeAnyUser": "=> kilowhat-formulaire.ref.permissions.seeAnyUser",
+                "editOwnUser": "=> kilowhat-formulaire.ref.permissions.editOwnUser",
+                "editAnyUser": "=> kilowhat-formulaire.ref.permissions.editAnyUser",
+                "seeOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion",
+                "seeAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.seeAnyDiscussion",
+                "editOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.editOwnDiscussion",
+                "editAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.editAnyDiscussion",
+                "create": "Shakllarni yaratish (beta)",
+                "moderate": "Barcha shakllarni moderatsiya qiling",
+                "export": "Taqdim etilgan ma'lumotlarni eksport qilish",
+                "exportUserDetails": "Eksportda foydalanuvchi shaxsiy ma'lumotlariga kirish",
+                "listForms": "O'chirilmagan shakllar ro'yxatini ko'ring",
+                "listSubmissions": "Taqdim etilganlar ro'yxatini ko'ring"
+            },
+            "settings": {
+                "title": "Global sozlamalarni shakllantirish",
+                "max-file-size": "Maksimal fayl hajmi (kB)",
+                "history-controls": "Taqdim etish sahifasida bekor qilish/qayta bajarish boshqaruvlarini ko‘rsatish",
+                "side-nav-on-submission": "Taqdim etish sahifasida yon navigatsiyani ko'rsatish",
+                "checkbox-style": "Belgilash qutisi ko'rinishi",
+                "radio-style": "Yumoloq tanlashning ko'rinishi",
+                "style-options": {
+                    "far-square": "FontAwesome Regular Square Icon",
+                    "fas-square": "FontAwesome Solid Square Ikon",
+                    "far-circle": "FontAwesome Regular Circle Icon",
+                    "fas-circle": "FontAwesome Solid Circle Icon",
+                    "switch": "Flarum switch",
+                    "native": "Brauzer boshqaruvi"
+                }
+            }
+        },
+        "forum": {
+            "nav": {
+                "forms": "=> kilowhat-formulaire.ref.manager"
+            },
+            "form-index": {
+                "header": {
+                    "title": "=> kilowhat-formulaire.ref.manager",
+                    "documentation": "To'liq onlayn hujjatlar",
+                    "discuss": "Flarum Discuss bo'yicha muhokama"
+                },
+                "tabs": {
+                    "standalone": "=> kilowhat-formulaire.ref.type.standalone",
+                    "discussion": "=> kilowhat-formulaire.ref.type.discussion",
+                    "user": "=> kilowhat-formulaire.ref.type.user"
+                },
+                "empty": "Shakllar yo'q",
+                "load-more": "Ko'proq yuklash",
+                "new": "Yangi shakl",
+                "edit": "O'zgartirish",
+                "show": "Ko'rsatish",
+                "submissions": "Yuborilganlar",
+                "columns": {
+                    "title": "Sarlavha",
+                    "accept-submissions": "Ochish",
+                    "allow-modification": "O'zgartirish",
+                    "enabled": "",
+                    "submissions": "Jo'natilganlar",
+                    "actions": "Harakatlar"
+                }
+            },
+            "global-settings": {
+                "title": "Global ruxsatar",
+                "admin-only": "Global sozlamalarni faqat forum adminlari tahrirlashi mumkin",
+                "permissions": {
+                    "fill": "=> kilowhat-formulaire.ref.permissions.fill",
+                    "seeOwnUser": "=> kilowhat-formulaire.ref.permissions.seeOwnUser",
+                    "seeAnyUser": "=> kilowhat-formulaire.ref.permissions.seeAnyUser",
+                    "editOwnUser": "=> kilowhat-formulaire.ref.permissions.editOwnUser",
+                    "editAnyUser": "=> kilowhat-formulaire.ref.permissions.editAnyUser",
+                    "seeOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion",
+                    "seeAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.seeAnyDiscussion",
+                    "editOwnDiscussion": "=> kilowhat-formulaire.ref.permissions.editOwnDiscussion",
+                    "editAnyDiscussion": "=> kilowhat-formulaire.ref.permissions.editAnyDiscussion"
+                }
+            },
+            "form-create": {
+                "title": "Yangi shakl",
+                "field": {
+                    "title": "Sarlavha"
+                },
+                "button": {
+                    "create": "Shakl yaratish"
+                }
+            },
+            "form-edit-header": {
+                "back": "Ortga",
+                "category": {
+                    "standalone": "",
+                    "discussion": "",
+                    "user": ""
+                },
+                "tabs": {
+                    "template": "Shablon",
+                    "placement": "Joylashtirish",
+                    "access": "Ruxsat",
+                    "notifications": "Xabarlar",
+                    "submissions": "Jo'natilganlar"
+                },
+                "access-status": {
+                    "closed": "Yopiq",
+                    "create": "Faqat yaratish",
+                    "edit": "Faqat o'zgartirish",
+                    "both": "Yaratish va o'zgartirish",
+                    "enabled": "",
+                    "disabled": ""
+                },
+                "controls": "Boshqaruvlar",
+                "template-export": "Shablon import/eksport",
+                "enable-expert-mode": "Ekspert holatini yoqish",
+                "disable-expert-mode": "Ekspert holatini o'chirish",
+                "restore": "TIklash",
+                "hide": "O'chirish",
+                "delete": "Butunlay o'chirish",
+                "delete-confirmation": "“{title}” shakli butunlay oʻchirib tashlanadi",
+                "fields": {
+                    "private-title": "Maxfiy nom",
+                    "slug": "Maxsus URL slug (ixtiyoriy)"
+                }
+            },
+            "form-edit": {
+                "warnings": {
+                    "show-on-signup-invalid-permissions": "“Roʻyxatdan oʻtishni koʻrsatish” funksiyasidan foydalanish uchun tasdiqlanmagan aʼzolar uchun “oʻzini koʻrish” va “oʻzini tahrirlash” ruxsatini oʻrnatishingiz kerak.\n",
+                    "show-on-composer-invalid-permissions": "“Show in composer” funksiyasidan foydalanish uchun tanlangan teg(lar) bilan munozaralarni boshlashi mumkin bo‘lgan “o‘zini ko‘rish” va “o‘zini tahrirlash” ruxsati mos kelishiga ishonch hosil qiling. Agar ishonchingiz komil bo'lmasa, \"a'zolar\" ga o'rnating. Sozlamalaringiz to'g'ri bo'lsa ham, bu xabar paydo bo'lishi mumkin.\n",
+                    "linked-form-is-draft": "Bu shakl hozir qoralama rejimida. Forumda maydonlar paydo bo'lishi uchun \"yangi xabarlarni qabul qilish\" ni yoqing.\n",
+                    "auto-link-permission-warning": "“Avtomatik ravishda munozaralar yaratish” opsiyasi boʻlgan shakllar mustaqil kirishda global toʻldirish ruxsatidan foydalanadi.\n"
+                },
+                "expert-mode-warning": "Ekspert rejimi yoqilgan. Bu sizga maydon identifikatorlari va har bir maydon uchun ruxsatlarni sozlash imkonini beradi. Ushbu xususiyat haqidagi hujjatlarni o'qib chiqing, chunki siz narsalarni buzishingiz mumkin!\n",
+                "section": {
+                    "template": "Shablon",
+                    "permissions": "Ruxsatlar"
+                },
+                "field": {
+                    "link": "Maxsus shakl turlari",
+                    "title": "Ochiq sarlavha",
+                    "show-on-creation": {
+                        "discussion": "Muhokamada ko'rsatish",
+                        "user": "Ro'yxatdan o'tishda ko'rsatish"
+                    },
+                    "automatic-discussion": "Shaklni yuborishdan avtomatik ravishda muhokamalar yarating",
+                    "automatic-discussion-help": "Yoqilganda, shakl mustaqil shakl kabi kirishda davom etadi. Taqdim etilganlar avtomatik ravishda yangi munozaralar yaratadi va ular bilan bog'lanadi.\n",
+                    "accept-submissions": "Yangi arizalarni qabul qilish",
+                    "allow-modification": "Foydalanuvchilarga o'zlarining mavjud xabarlarini tahrirlashiga ruxsat berish",
+                    "enable": "",
+                    "max-submissions": "Maksimal taqdimotlar (cheksiz uchun bo'sh qoldiring)",
+                    "send-confirmation-to-participants": "Ishtirokchilarga tasdiqlovchi elektron pochta xabarini yuboring",
+                    "notify-emails": "Vergul bilan ajratilgan xatlarga maʼlumotlarning nusxasini yuboring",
+                    "web-confirmation-message": "Internetdagi tasdiqlash xabari (formatlash yoqilgan)",
+                    "permission-see-own": "O'z taqdimnomasini ko'ring",
+                    "permission-see-any": "Har qanday taqdimotni ko'ring",
+                    "permission-edit-own": "O'z taqdimnomangizni tahrirlang",
+                    "permission-edit-any": "Har qanday taqdimotni tahrirlang"
+                },
+                "link-options": {
+                    "standalone": "Mustaqil",
+                    "groups": "Foydalanuvchi profili",
+                    "all-groups": "Har qanday guruh uchun",
+                    "tags": "Munozara maydonlari",
+                    "all-tags": "Har qanday teg uchun"
+                },
+                "auto-discussion-options": "Yangi munozaralar uchun variantlar",
+                "email-confirmation-options": "Tasdiqlash elektron pochta shabloni",
+                "email-notification-options": "Bildirishnoma elektron pochta shabloni",
+                "exiting-with-unsaved-data": "Sizda saqlanmagan oʻzgarishlar bor. Haqiqatan ham sahifadan chiqmoqchimisiz?",
+                "preview": "Yangi varaqda oldindan ko'rish",
+                "save-for-preview": "Oldindan ko'rish uchun saqlang"
+            },
+            "auto-discussion-options-modal": {
+                "title": "Avtomatik muhokama imkoniyatlari",
+                "introduction": "Ushbu sozlamalar teg bilan bog'langan shaklni yuborish orqali avtomatik ravishda yaratilgan yangi muhokamalarga qo'llaniladi. Qavslar sintaksisidan foydalanib, shaklni yuborishdagi qiymatlarni maydon slug'i bilan ishlatishingiz mumkin. Odatiy bo'lib { title } va { content} mos ravishda ishlatiladi.\n",
+                "submit": "O'zgarishlarni tasdiqlash",
+                "field": {
+                    "title": "Muhokama sarlavhasi",
+                    "tags": "Muhokama taglari",
+                    "tags-help": "Teg sluglarning vergul bilan ajratilgan roʻyxati. Tanlangan teglar ushbu shakl ulangan tegga qo'shimcha ravishda qo'shiladi.\n",
+                    "content": "Post kontenti"
+                }
+            },
+            "confirmation-email-options-modal": {
+                "title": "Email shablon",
+                "submit": "O'zgarishlarni tasdiqlash",
+                "field": {
+                    "title": "Sarlavha",
+                    "message": "Tana"
+                }
+            },
+            "save-controls": {
+                "validation-errors": "Sizning arizanigizda xatolar topdik",
+                "unsaved-changes": "Sizda saqlanmagan o'zgarishlar bor",
+                "saved-at": "{ago} avval saqlangan",
+                "undo": "Qaytarish",
+                "redo": "Qaytarish",
+                "save": "Saqlash"
+            },
+            "permission-controls": {
+                "inherit": "Standartlarni ishlatish",
+                "everyone_button": "",
+                "disabled_members_button": "Faollashtirilmagan va to'xtatilgan a'zolar",
+                "members_button": "Faollashtirilgan a'zolar"
+            },
+            "template-editor": {
+                "add-field": "Maydon qo'shing",
+                "title": "Sarlavha",
+                "description": "Tavsif",
+                "key": "(Mutaxassis) JSON kaliti jo'natish yuki",
+                "fill-permission": "(Mutaxassis) Ruxsatlarni toʻldirish",
+                "required": "Majburiy",
+                "rich": "Boy matn (TextFormatter)",
+                "min": "Minimum",
+                "max": "Maksimum",
+                "integer": "Butun son",
+                "email": "Email",
+                "regex": "RegEx",
+                "mime": "MIME turi (vergul bilan ajratilgan, belgini ikkinchi qism sifatida qabul qiladi)",
+                "other": "\"Boshqa\" foydalanuvchi qiymatiga ruxsat bering",
+                "duplicate": "Ikki nusxadagi maydon",
+                "delete": "Maydonni o'chirish",
+                "missing-title": "Sarlavhasiz maydon",
+                "no-answer": "Javob yo'q",
+                "type": {
+                    "short": "Qisqa tekst",
+                    "long": "Uzun tekst",
+                    "number": "Raqam",
+                    "date": "Sana",
+                    "checkbox": "Belgilashlar",
+                    "radio": "Yumaloq belgilash",
+                    "select": "Pastga tushuvchi menyu",
+                    "upload": "Yuklash",
+                    "content": "Kontent",
+                    "items": "Ko'p kiritishlar"
+                }
+            },
+            "options-editor": {
+                "columns": {
+                    "title": "Sarlavha",
+                    "key": "(Ekspert) yagona kalit"
+                },
+                "remove": "Variantni o'chirish",
+                "new-placeholder": "Yangi variant..."
+            },
+            "items-editor": {
+                "add": "Qator qo'shish",
+                "remove": "Qatorni o'chirish"
+            },
+            "upload-editor": {
+                "uploading": "Yuklanmoqda...",
+                "remove": "Faylni o'chirish"
+            },
+            "rich-text": {
+                "preview-placeholder": "Oldindan ko'rishga yozish"
+            },
+            "select": {
+                "choose": "Variant tanlang"
+            },
+            "choice": {
+                "other-label": "Boshqa:",
+                "other-placeholder": "Yozing..."
+            },
+            "submission": {
+                "form-closed": "Bu shakl yopilgan.",
+                "form-full": "Bu shakl maksimum arizalarga to'lgan.",
+                "edit-forbidden": "Bu arizani o'zgartirolmaysiz.",
+                "submitted-successfully": "Arizangiz jo'natildi.",
+                "edit-submission": "Arizani o'zgartirish",
+                "submit-other": "Boshqa ariza jo'natish",
+                "unlock": "Ochish",
+                "lock": "Qulflash",
+                "restore": "Tiklash",
+                "hide": "O'chirish",
+                "delete": "Butunlay o'chirish",
+                "delete-confirmation": "{date} sanasidan boshlab yuborilgan xabar butunlay oʻchirib tashlanadi"
+            },
+            "submission-index": {
+                "form-edit": "Shaklni tahrirlash",
+                "form-show": "Yangi ariza",
+                "show": "Ko'rsatish",
+                "guest": "Mehmon",
+                "load-more": "Ko'proq yuklash",
+                "empty": "Arizalar yo'q",
+                "export": "Eksport",
+                "columns": {
+                    "date": "Sana",
+                    "user": "Foydalanuvchi",
+                    "actions": "Harakatlar"
+                }
+            },
+            "badge": {
+                "locked": "Qulflangan",
+                "hidden": "Bekitilgan"
+            },
+            "error-page": {
+                "denied-title": "Ruxsat etilmadi",
+                "denied-description": "Sizda bu kontentga kirish imkoni yo‘qga o‘xshaydi. Tizimga kirishga harakat qiling.",
+                "notfound-title": "Topilmadi",
+                "notfound-description": "Bu kontent yo mavjud emas yoki siz unga kirish imkoniga ega emassiz."
+            },
+            "submission-sort": {
+                "latest": "Oxirgi arizalar",
+                "oldest": "Eng oldingi arizalar"
+            },
+            "form-sort": {
+                "latest": "Yangi shakllar",
+                "oldest": "Eski shakllar"
+            },
+            "export": {
+                "title": "Arizalarni eksport qilish",
+                "format": "Tahrirlash",
+                "heading": "Sarlavha / tugmalar",
+                "fields": "Maydonlar",
+                "meta": "Metadata",
+                "more-meta": "Ko'proq meta sozlamalar",
+                "option-keys": "Tasdiqlash, radio va tanlash uchun sarlavhalar o'rniga parametr kalitlarini eksport qiling",
+                "submit": "Ko'chirib olish",
+                "preview": "Oldindan ko'rish",
+                "format-options": {
+                    "xlsx": "XLSX",
+                    "xls": "XLS",
+                    "ods": "ODS",
+                    "csv": "CSV",
+                    "json": "JSON"
+                },
+                "heading-options": {
+                    "title": "Maydon sarlavhalari",
+                    "key": "Maydon kalitlari",
+                    "none": "Sarlavha yo'q qator"
+                },
+                "meta-options": {
+                    "uid": "",
+                    "user_id": "",
+                    "user_username": "",
+                    "user_displayname": "",
+                    "user_email": "",
+                    "user_activated": "",
+                    "link_id": "",
+                    "locked_at": "",
+                    "created_at": "",
+                    "updated_at": "",
+                    "hidden_at": ""
+                },
+                "preview-primitives": {
+                    "excel-date": "(EXCEL SANASI)",
+                    "boolean-true": "Rost",
+                    "boolean-false": "Yolg'on"
+                }
+            },
+            "discussion-submission": {
+                "empty": "",
+                "edit": ""
+            }
+        },
+        "api": {
+            "formatter-parsing-error": "Kontentni tahlil qilib bo‘lmadi: {message}",
+            "not-allowed-to-fill-field": "Ushbu maydon qiymatini o'zgartirishga ruxsat berilmagan",
+            "duplicate-field-key": "Kalit noyob bo'lishi kerak",
+            "cannot-change-form-type": "Mavjud yuborilgan shakl turini o'zgartira olmaysiz",
+            "unknown-form": "Noma'lum shakl identifikatori {id}",
+            "unauthorized-form": "Shakl identifikatorini (id}) to‘ldirish uchun sizda zarur ruxsatlar yo‘q",
+            "file-already-belongs-form": "{id} fayli boshqa shaklga tegishli",
+            "file-already-belongs-submission": "{id} fayli boshqa yuborilgan faylga tegishli",
+            "export": {
+                "meta": {
+                    "uid": "",
+                    "user_id": "",
+                    "user_username": "",
+                    "user_displayname": "",
+                    "user_email": "",
+                    "user_activated": "",
+                    "link_id": "",
+                    "locked_at": "",
+                    "created_at": "",
+                    "updated_at": "",
+                    "hidden_at": ""
+                }
+            }
+        },
+        "mail": {
+            "title-your-submission": "{title} uchun arizalaringiz",
+            "title-new-submission": "Yangi ariza uchun {title}",
+            "edit": "O'zgartirish",
+            "footer": "{title} dan jo'natish",
+            "sub-entries": "{count} kiritishlar"
+        },
+        "ref": {
+            "manager": "Shakllarni boshqarish",
+            "type": {
+                "standalone": "Mustaqil shakllar",
+                "discussion": "Munozara maydonlari",
+                "user": "Foydalanuvchi profili"
+            },
+            "permissions": {
+                "fill": "Mustaqil shakllarni to'ldiring",
+                "seeOwnUser": "Shaxsiy profil maydonlarini ko'ring",
+                "seeAnyUser": "Har qanday profil maydonlarini ko'ring",
+                "editOwnUser": "Shaxsiy profil maydonlarini tahrirlash",
+                "editAnyUser": "Har qanday profil maydonlarini tahrirlang",
+                "seeOwnDiscussion": "O'z munozara maydonlarini ko'ring",
+                "seeAnyDiscussion": "Har qanday munozara maydonlarini ko'ring",
+                "editOwnDiscussion": "Har qanday munozara maydonlarini ko'ring",
+                "editAnyDiscussion": "Har qanday munozara maydonlarini tahrirlang"
+            },
+            "submission-meta": {
+                "uid": "Ariza identifikatori",
+                "user_id": "foydalanuvchi IDsi",
+                "user_username": "Foydalanuvchi nomi",
+                "user_displayname": "Foydalanuvchi nomi",
+                "user_email": "Foydalanuvchi elektron pochtasi",
+                "user_activated": "Faollashtirilgan hisob",
+                "link_id": "Bog'langan manba identifikatori",
+                "locked_at": "Bloklash sanasi",
+                "created_at": "Bloklash sanasi",
+                "updated_at": "Yangilanish sanasi",
+                "hidden_at": "Yumshoq o'chirish sanasi"
+            }
+        }
+    }
+}

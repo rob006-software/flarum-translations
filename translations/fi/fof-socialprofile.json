@@ -1,0 +1,29 @@
+{
+    "fof-socialprofile": {
+        "admin": {
+            "permissions": {
+                "view": "Nähdä some profiilit",
+                "editOwn": "Muokata omia some profiileja",
+                "editAny": "Muokata kenen tahansa some profiileja"
+            },
+            "settings": {
+                "allow_external_favicons_label": "Salli ulkoiset verkkosivujen ikonit (käyttää DuckDuckGo favicon APIa)"
+            }
+        },
+        "forum": {
+            "edit": {
+                "edit": "Muokkaa omia some nappeja",
+                "add": "Lisää some nappeja",
+                "headtitle": "Muokkaa nappeja",
+                "title": "Otsikko",
+                "url": "Osoite",
+                "submit": "Tallenna",
+                "delete": "Poista",
+                "deletetitle": "Poista nappi",
+                "save_disabled_fetching_favicons": "Yhtä tai useampaa ikonia haetaan. Odota.",
+                "favicon": "Favicon",
+                "grey_favicon": "Harmaa favicon"
+            }
+        }
+    }
+}

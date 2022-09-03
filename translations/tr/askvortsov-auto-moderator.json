@@ -1,0 +1,89 @@
+{
+    "askvortsov-auto-moderator": {
+        "admin": {
+            "action_drivers": {
+                "activate_email": "Aktif E-Posta",
+                "add_to_group": "Gruba Ekle",
+                "remove_from_group": "Gruptan Çıkart",
+                "suspend": "Askıya Al",
+                "unsuspend": "Askıya Alma"
+            },
+            "metric_drivers": {
+                "discussions_entered": "Girilen Tartışmalar",
+                "discussions_participated": "Parçası Olunan Tartışmalar",
+                "discussions_started": "Başlatılan Tartışmalar",
+                "posts_made": "Oluşturulan Gönderiler",
+                "likes_given": "Verilen Beğeniler",
+                "likes_received": "Alınan Beğeniler",
+                "best_answers": "En İyi Yanıtlar",
+                "moderator_strikes": "Moderatör Uyarı İhtarları"
+            },
+            "requirement_drivers": {
+                "email_confirmed": "Onaylı E-Posta",
+                "in_group": "Grupta",
+                "suspended": "Askıda",
+                "email_matches_regex": "Regex'le Eşleşen E-Posta"
+            },
+            "in_group_settings": {
+                "regex": "Geçerli E-postalar için Normal İfade (eğik çizgi yok)"
+            },
+            "group_selector": {
+                "placeholder": "Bir grup seçin"
+            },
+            "suspend_selector": {
+                "days": "Askıya Alınacak Günler",
+                "indefinitely": "Süresiz Askıya Almak?"
+            },
+            "criterion_status": {
+                "heading": "Durum Kontrolü",
+                "invalid": "Kriter şu anda geçersiz. Hatalar için lütfen aşağıdaki driverları kontrol edin.",
+                "no_actions": "Bu kriter için hiçbir eylem tanımlanmadı. Kullanıcılar bu kriteri kazandığında veya kaybettiğinde hiçbir şey olmayacak.",
+                "no_metrics_or_reqs": "Bu kriter için hiçbir metrik veya gereksinim tanımlanmamıştır. Bu, TÜM kullanıcıların bu kritere hak kazanacağı anlamına gelir.",
+                "valid": "Bu kriter geçerlidir!",
+                "action_validation_errors": "Aşağıdaki eylem driverı doğrulama hatalarıyla karşılaşıldı:",
+                "requirement_validation_errors": "Aşağıdaki gereksinim driver doğrulama hatalarıyla karşılaşıldı:"
+            },
+            "criterion_page": {
+                "driver_missing_ext": "Bu driver, etkinleştirilmemiş uzantılara bağlıdır.",
+                "back": "Kriter Listesine Geri Dön",
+                "name_label": "İsim",
+                "icon_label": "Simge",
+                "description_label": "Açıklama",
+                "new_criterion": "Kriter Oluştur",
+                "negated": "Reddedildi mi?",
+                "loading": "=> core.ref.loading",
+                "delete_button": "=> core.ref.loading",
+                "metrics_and_requirements_label": "Metrikler ve Gereksinimler",
+                "metrics_and_requirements_help": "Bunlar, kullanıcıların bu kritere uygun olup olmadığını tanımlar. Metrikler, değer aralıklarını temsil eder; gereksinimler ise boolean koşullarıdır.",
+                "metrics_heading": "Metrikler",
+                "requirements_heading": "Gereksinimler",
+                "add_metric": "Metrik Ekle",
+                "actions_label": "Eylemler",
+                "actions_help": "Kazançla ilgili eylemler, bir kullanıcı yeni bir ölçüte hak kazandığında yürütülür. Kaybedilen eylemler, bir kullanıcı bir ölçüte hak kazanmayı bıraktığında yürütülür.",
+                "actions_on_gain_heading": "Kazançla İlgili Eylemler",
+                "actions_on_loss_heading": "Kaybedilen Eylemler",
+                "add_action": "Eylem Ekle"
+            },
+            "undefined_driver_item": {
+                "text": "HATA! <strong>{driverName}</strong> driverı tanımlı değil. Büyük olasılıkla, şu anda yüklü olmayan bir uzantı tarafından eklenmiştir. Ölçütün tekrar geçerli olması için uzantıyı yeniden etkinleştirmeniz veya bu driverı kaldırmanız gerekir."
+            },
+            "automoderator_page": {
+                "criterion_invalid": "Kriter şu anda geçersiz. Daha fazla bilgi için lütfen ayarlarını kontrol edin",
+                "list_heading": "Kriterler",
+                "create_criterion_button": "Yeni Kriter Oluştur"
+            },
+            "automoderator_instructions": {
+                "header": "Uzantı Talimatları",
+                "text": "<li>Tl; dr: Bir kullanıcı X ölçütünü karşıladığında, Y yapın. Bir kullanıcı artık X ölçütünü karşılamadığında, Z yapın.</li>\n<li><strong>Kriterler:</strong> Ölçütler, bu uzantının özüdür. Bunlar keyfi metrikler ve gereksinimler kümesidir. Bir kullanıcı bir kriteri karşıladığında, kriter için herhangi bir \"kazanç\" eylemi yürütülür. Bir kullanıcı bir ölçütü kaybettiğinde, ölçüte ilişkin tüm \"kaybedildiğinde\" işlemleri yürütülür.</li>\n<ul>\n <li><strong>Metrik:</strong> Sayısal bir koşul. Örneğin, gönderi sayısı veya alınan beğeni sayısı. Bir ölçüt, bir aralık/minimum/maksimum metrik gerektirebilir.</li>\n <li><strong>Gereksinim:</strong> Soyut bir boole koşulu. Örneğin, askıya alınmamak veya belirli bir normal ifadeyle eşleşen bir e-postaya sahip olmak.</li>\n</ul>\n<li><strong>İşlemler:</strong> Bir ölçüt karşılandığında veya kaybedildiğinde otomatik olarak gerçekleşen bir şey. Bu, bir grup eklemek / kaldırmaktan bir e-posta göndermeye ve bir kullanıcıyı askıya almaya kadar her şeyi içerebilir. </li>\n<li> <strong> Tetikleyici: </strong> Bir kullanıcının ölçüt gruplarının yeniden değerlendirilmesine neden olacak bir dizi olay. Bunlar, metriklerin ve gereksinimlerin tanımlarının bir parçasıdır. Girişte tüm kriterler değerlendirilecektir: yani \"evrensel tetikleyici\".</li>\n<li>\"Kayıpta\" eylemler, her zaman \"kazançta\" eylemlerden önce çalışır. Bu şekilde, kullanıcı kazanç için bu işlemi yapan ölçütlerden en az birini karşıladığı sürece işlem yapılacaktır.</li>\n<li>Eylemlerin yalnızca \"kaybedildiğinde\" ve \"kazanıldığında\" çalıştığını unutmayın. Bir kullanıcı bir ölçüte hak kazanırken yapılan manuel düzenlemeler, ölçütün yeniden uygulanacak \"kazanma\" eylemlerini tetiklemez.</li>\n<li>Bir kriteri silerseniz, şu anda kriter için uygun olan kullanıcılar için \"kaybedildiğinde\" işlemleri YAPILMAZ.</li>\n<li>Grupları yönetmek için ölçüt kullanıyorsanız, ölçütlere göre yönetilecek ayrı bir grup grubu bulundurmanızı öneririz. Bu gruplara manuel olarak kullanıcı ekleyemeyecek/kaldıramayacaksınız.</li>\n"
+            }
+        },
+        "lib": {
+            "group_id": "Grup ID",
+            "managed_groups": {
+                "header": "Yönetilen Gruplar:",
+                "group_item": "<badge></badge> {groupName}",
+                "groups_not_editable": "Otomatik moderatör kriterlerine göre yönetilen gruplar, tutarsızlıkları önlemek için kullanıcılara manuel olarak eklenemez / kullanıcılardan manuel olarak eklenemez/kaldırılamaz."
+            }
+        }
+    }
+}

@@ -7,8 +7,8 @@
         },
         "forum": {
             "post": {
-                "was_split_to": "{count} post was split to {target}.|{count} posts were split to {target}.",
-                "was_split_from": "{count} post was split from {target}.|{count} posts were split from {target}."
+                "was_split_to": "{count, plural, one {{count} post was split to {target}.} other {{count} posts were split to {target}.}}",
+                "was_split_from": "{count, plural, one {{count} post was split from {target}.} other {{count} posts were split from {target}.}}"
             },
             "split": {
                 "from": "Split from here",

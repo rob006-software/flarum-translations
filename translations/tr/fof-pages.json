@@ -10,6 +10,7 @@
                 "restricted_label": "Erişim kısıtlaması (İzinler sekmesinden kimlerin erişebileceğini seçin)",
                 "html_label": "HTML kullanmayı aktif et",
                 "set_as_home_page_confirmation": "Bu sayfayı, Ana Sayfa olarak kullanmak istediğinize emin misiniz?",
+                "set_as_home_page_done": "Ana sayfa güncellendi",
                 "slug_label": "=> fof-pages.ref.slug",
                 "slug_placeholder": "=> fof-pages.ref.slug",
                 "submit_button": "=> core.ref.save_changes",
@@ -20,8 +21,7 @@
                 "url_placeholder": "=> fof-pages.ref.url"
             },
             "pages": {
-                "create_button": "=> fof-pages.ref.create_page",
-                "about_text": "Sabit sayfalar oluşturun ve düzenleyin."
+                "create_button": "=> fof-pages.ref.create_page"
             },
             "pages_list": {
                 "empty_text": "Görünüşe göre hiç sabit sayfa bulunmuyor.",
@@ -33,10 +33,6 @@
             "badges": {
                 "hidden": "Taslak",
                 "restricted": "Kısıtlanmış"
-            },
-            "nav": {
-                "pages_button": "=> fof-pages.ref.pages",
-                "pages_text": "Sabit sayfalar oluşturun."
             }
         },
         "ref": {

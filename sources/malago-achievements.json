@@ -4,7 +4,12 @@
             "achievement_points": "Points",
             "new_achievement_title": "New achievement!",
             "new_achievement_name": "Achievement",
-            "new_achievement_close": "Got it!"
+            "new_achievement_close": "Got it!",
+            "list_heading": "Achievements",
+            "achievement_total_points": "Total",
+            "your_achievements": "Your achievements",
+            "other_achievements": "Other achievements",
+            "hidden_achievements": "Hidden achievements"
         },
         "admin": {
             "achievement_modal": {
@@ -12,6 +17,7 @@
                 "name_label": "Name",
                 "name_placeholder": "Achievement Name",
                 "active_label": "Active",
+                "hidden_label": "Hide from all achievements list",
                 "description_label": "Description",
                 "description_placeholder": "Achievement Description",
                 "variable_label": "Variable",
@@ -49,6 +55,18 @@
                     "years": "Years registered",
                     "meanwords": "Average words",
                     "tagposts": "Posts in tag"
+                },
+                "tooltip": {
+                    "posts": "Minimum number of posts (e.g. 10) or inclusive range (e.g. 10,19)",
+                    "likes": "Minimum number of likes given (e.g. 10) or inclusive range (e.g. 10,19)",
+                    "selflikes": "Minimum number of likes received (e.g. 10) or inclusive range (e.g. 10,19)",
+                    "discussions": "Minimum number of discussions created (e.g. 10) or inclusive range (e.g. 10,19)",
+                    "edits": "Minimum number of posts edited (e.g. 10) or inclusive range (e.g. 10,19)",
+                    "contains": "Word or words and minimum number of posts containing it (e.g. chicken,10) or inclusive range (e.g. chicken,10,19)",
+                    "comments": "Minimum number of responses received in a discussion (e.g. 10) or inclusive range (e.g. 10,19)",
+                    "years": "Minimum number of years registered (e.g. 10) or inclusive range (e.g. 10,19)",
+                    "meanwords": "Average words per post, minimum is 10 (e.g. 10) or inclusive range (e.g. 10,19)",
+                    "tagposts": "Slug of the tag to look for and minimum number of posts (e.g. off-topic,10) or inclusive range (e.g. off-topic,10,19)"
                 }
             },
             "achievements_page": {
@@ -56,7 +74,13 @@
                 "create_achievement_button": "Create New Achievement",
                 "instructions_header": "Instructions",
                 "instructions_text": "<li>To create an achievement, you must introduce a name.</li>\n<li>Description is optional.</li>\n<li>Choose which variable you want to calculate for this achievement from the list.</li>\n<li>Introduce the threshold for the achievement to be activated. You can introduce two numbers separated with a comma (,) to indicate a minimum threshold and a maximum threshold (both numbers are inclusive).</li>\n<li>Achievements with two threshold will be removed if the count is beyond the upper threshold.</li>\n<li>For the \"Message contains\" achievement, you must introduce the specified word and then the threshold, separated by a comma (e.g. \"spinach,5\" or \"spinach,5,10\" for minimum and maximum threshold.)</li>\n<li>Introduce the image URL with the icon to be used for this achievement.</li>\n<li>Introduce the width and height of the icon.</li>\n<li>Optional: If the image has more than one achievement icon, you can select which row and column to show for the icon.</li>\n",
-                "add_delete_users": "Add/Delete achievements from user"
+                "add_delete_users": "Add/Delete achievements from user",
+                "show": "Show achievement list on:"
+            },
+            "settings": {
+                "show-post-footer": "Each post footer",
+                "show-user-card": "User card",
+                "link-left-column": "Add link to Achievements on sidebar"
             }
         }
     }

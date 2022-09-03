@@ -4,11 +4,13 @@
             "settings": {
                 "title": {
                     "modal": "Ustawienia Amazon Affiliation",
-                    "tags": "Tagi partnerskie"
+                    "tags": "Tagi partnerskie",
+                    "tags-mediaembed": ""
                 },
                 "field": {
                     "keep-existing-tag": "Zachowaj tagi Amazon Affiliate z oryginalnych linków zamiast je zastępować",
                     "keep-existing-tag-help": "Domyślnie każdy istniejący tag w oryginalnym adresie URL jest zastępowany tagiem zdefiniowanym poniżej.",
+                    "help-mediaembed": "",
                     "remove-tag-if-unhandled": "Usuń tagi Amazon Affiliate z linków do nieobsługiwanych wersji Amazon",
                     "remove-tag-if-unhandled-help": "Domyślnie nieobsługiwane linki pozostają niezmienione, w tym ich tag (jeśli taki istnieje).",
                     "tag": "{name} (amazon.{domain})",

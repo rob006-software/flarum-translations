@@ -8,9 +8,15 @@
             "update_category": "",
             "edit_category": "",
             "nothing_here_yet": "",
+            "show_badges_on_user_card": "",
+            "number_of_badges_on_user_card": "",
+            "number_of_badges_on_user_card_help": "",
             "permissions": {
+                "badge_detail_users": "",
                 "give_badge": "",
-                "take_badge": ""
+                "take_badge": "",
+                "edit_own_card_badges": "",
+                "edit_card_badges": ""
             },
             "confirm_dialog": {
                 "title": "",
@@ -26,13 +32,45 @@
                 "icon": "",
                 "description": "",
                 "visible": "",
-                "visible_description": ""
+                "visible_description": "",
+                "is_image": "",
+                "is_image_description": "",
+                "image": "",
+                "image_placeholder": "",
+                "icon_color": "",
+                "background_color": "",
+                "label_color": ""
             },
             "badge_category": {
                 "name": "",
                 "description": "",
+                "blockview": "",
+                "blockview_description": "",
                 "enabled": "",
                 "enabled_description": ""
+            },
+            "auto_moderator": {
+                "not_installed": {
+                    "title": "",
+                    "content": "",
+                    "install": "",
+                    "dismiss": ""
+                },
+                "action_drivers": {
+                    "badge_id": "",
+                    "give_badge": "",
+                    "remove_badge": ""
+                },
+                "requirement_drivers": {
+                    "has_badge": ""
+                },
+                "metric_drivers": {
+                    "badges_received": ""
+                },
+                "badge_selector": {
+                    "placeholder": "",
+                    "loading_badges": ""
+                }
             }
         },
         "forum": {
@@ -44,7 +82,9 @@
             "select_badge": "",
             "user_has_badge": "",
             "user_no_badges": "",
+            "no_received": "",
             "uncategorized": "",
+            "save_changes": "",
             "badge": {
                 "badge": "",
                 "badges": "",
@@ -55,12 +95,27 @@
                 "no_earning_reason": "",
                 "earned_on": "",
                 "category": "",
-                "earned_count": ""
+                "received_on": "",
+                "badge_details": "",
+                "earned_count": "",
+                "earned_by_count": "",
+                "others_link": ""
+            },
+            "badges_in_card": {
+                "title": "",
+                "manage_badges": "",
+                "description": "",
+                "select_limit": "",
+                "hit_limit": ""
             },
             "moderation": {
                 "remove_badge": "",
                 "remove_badge_confirm": "",
                 "give_badge": ""
+            },
+            "notification": {
+                "title": "",
+                "settings": ""
             }
         }
     }

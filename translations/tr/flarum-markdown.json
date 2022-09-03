@@ -1,9 +1,18 @@
 {
     "flarum-markdown": {
-        "admin": {
-            "settings": {
-                "mdarea_help": "mdarea, listeleri otomatik olarak devam ettiren, kod biçimlendirmeye yardımcı olan ve girintilemeye yardımcı olan bir metin alanıdır.",
-                "mdarea_label": "mdarey etinleştirilsin mi?"
+        "lib": {
+            "composer": {
+                "bold_tooltip": "Kalın metin ekle",
+                "code_tooltip": "Kodu girin",
+                "header_tooltip": "Başlık metni ekle",
+                "image_tooltip": "Görsel ekle",
+                "italic_tooltip": "İtalik metin ekle",
+                "link_tooltip": "Bağlantı ekle",
+                "ordered_list_tooltip": "Numaralandırılmış liste ekle",
+                "quote_tooltip": "Bir alıntı ekleyin",
+                "spoiler_tooltip": "Tatkaçıran ekle",
+                "strikethrough_tooltip": "Üstü çizili metin ekle",
+                "unordered_list_tooltip": "Madde işaretli liste ekle"
             }
         },
         "forum": {
@@ -16,6 +25,8 @@
                 "link_tooltip": "Bağlantı ekle",
                 "ordered_list_tooltip": "Numaralı liste",
                 "quote_tooltip": "Alıntı ekle",
+                "spoiler_tooltip": "Tatkaçıran ekle",
+                "strikethrough_tooltip": "Üstü çizili metin ekle",
                 "unordered_list_tooltip": "Madde liste"
             }
         }

@@ -1,50 +1,110 @@
 {
     "blomstra-payments": {
         "forum": {
+            "stripe": {
+                "interval_once": "bir kere"
+            },
+            "subscription-card": {
+                "ptv": "Görüntülemek için ödenen",
+                "pta": "Erişmek için ödenen",
+                "ptb": "Yükseltmek için ödenen",
+                "ptp": "Yayınlamak için ödenen",
+                "cancel-control": "İptal",
+                "none": "Ödeme veya aktif abonelik yok",
+                "bounty": ""
+            },
             "pay-to-view": {
                 "purchase-control": "Görüntülemek için Ödeme Yapın",
                 "purchase-log-in": "Giriş Yap ve Görüntülemek için Ödeme Yap",
                 "purchase-completed": "Kilitli değil",
-                "description": ""
+                "description": "Bu noktanın devamında gönderiler ödeme yapmayanlar için kilitlenir, ödeme sağlayıcısı olan Stripe ile ödeme yaparak içerik kilidi açılır.\n"
             },
             "pay-to-post": {
+                "purchase-control": "Yayınlamak için Ödeme Yapın",
+                "purchase": "Yayınlamak için Satın Alın",
+                "purchase_required": "Bu tartışma, ödeme sağlayıcımız olan Stripe aracılığı ile ödemeyi tamamladığınızda yayınlanacaktır. Maliyet ve ödeme seçeneklerini görüntülemek için satın al düğmesine tıklayın.\n"
+            },
+            "pay-to-bump": {
+                "description": "{count, plural, one {Bu tartışma havada kaldı} other {{count} kişi tartışmayı engelledi}}.",
+                "purchase-control": "Hortlatmak için ödeme yap",
+                "purchase-log-in": "Giriş Yap ve Hortlatmak için Öde"
+            },
+            "bounties": {
                 "purchase-control": "",
-                "purchase": "",
-                "purchase_required": ""
+                "enable-control": ""
+            },
+            "choose-bounty-amount-modal": {
+                "title": "",
+                "checkout-control": "",
+                "description": ""
+            },
+            "backers-widget": {
+                "label": "",
+                "none": ""
             },
             "tag": {
-                "require-payment-label": ""
+                "require-payment-label": "Ödeme Gerekiyor"
             },
             "payment-options-modal": {
-                "title": "",
-                "description": ""
+                "title": "{group} erişimi sağlamak için ödeme seçenekleri",
+                "description": "Gruba erişiminizi başlatmak için aşağıdaki seçeneklerden herhangi birini seçin. Ödeme işlemi için ödeme sağlayıcımız Stripe'a yönlendirileceksiniz.\n"
             },
             "access-portal": {
                 "options": "ayarlar",
-                "purchase": "satın al"
+                "purchase": "satın al",
+                "subscribed": "Abone olundu"
             },
             "nav": {
-                "access_portal": ""
+                "access_portal": "Erişim portalı",
+                "user_subscriptions": "Abonelikler"
+            },
+            "exceptions": {
+                "out-of-bounds-amount": {
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "accept-terms-modal": {
+                "accept_label": "",
+                "continue_button": "",
+                "title": ""
             }
         },
         "admin": {
             "edit-tag": {
-                "select-ptp-product": "",
-                "select-ptp-product-description": "",
-                "select-ptv-product": "",
-                "select-ptv-product-description": "",
-                "visible-from": "",
-                "visible-from-description": ""
+                "select-ptp-product": "(PTP) Gerekli ürün",
+                "select-ptp-product-description": "Bu seçenek ile, o etiketteki her tartışma için o ürünün satın alınmasını gerektirir. Gönderi başına ödeme, örneğin reklamlar için harikadır. Stripe gösterge tablonuzda \"tek ödemeli\" fiyatla bir ürün oluşturun ve <code>prod_</code> ile başlayan kimliği bu alana kopyalayın.\n",
+                "select-ptv-product": "(PTV) Gerekli ürün",
+                "select-ptv-product-description": "Bu seçenek ile, gizli içerikler için tüm yayınlara kalıcı olarak erişimi sağlar. Stripe panonuzda bir ürün oluşturun ve <code>prod_</code> ile başlayan kimliği bu alana kopyalayın.\n",
+                "visible-from": "İçeriğin devamını gizle",
+                "visible-from-description": "Burada belirttiğiniz sayı değeri, yayınlar için ödeme yapmayan kullanıcılara hangi noktada içeriğin gizleneceğini belirler. Hepsini gizlemek için 0 değerini, OP sonrası için 1 değerini kullanın.\n",
+                "select-ptb-product": "(PTB) Gerekli ürün",
+                "select-ptb-product-description": "Bir ürün seçmek, bir tartışmaya girmeden önce o ürünün ödenmesini gerektirir.\n",
+                "bump-others": "(PTB) Başkalarının tartışmaları hortlatmasına izin ver",
+                "bump-others-description": "Etkinleştirilirse, yalnızca tartışma yazarı değil, tartışmaları bir ödeme ile hortlatabilir.\n",
+                "select-bounty-product": "",
+                "select-bounty-description": ""
             },
             "edit-group": {
-                "select-pta-product": "",
-                "select-pta-product-description": ""
+                "select-pta-product": "(PTA) Gerekli ürün",
+                "select-pta-product-description": "Bu seçenek ile, ödeme yaptıktan sonra gruba erişime izin verilir. Abonelik durumunda erişim, abonelik iptalinin ardından otomatik olarak son bulur. Stripe kontrol panelinizden bir ürün oluşturun ve <code>prod_</code> ile başlayan kimliği bu alana kopyalayın.\n"
             },
             "settings": {
-                "pk": "",
-                "sk": "Secret (api) key",
-                "webhook-secret": "",
-                "link-access-portal": ""
+                "pk": "Publishable (api) anahtarı",
+                "sk": "Secret (api) anahtarı",
+                "webhook-secret": "Webhook imzalama secret",
+                "link-access-portal": "Kullanıcı açılır menüsünde erişim portalı için bağlantı",
+                "link-to-terms": ""
+            },
+            "permission": {
+                "enable-bounties": ""
+            }
+        }
+    },
+    "core": {
+        "forum": {
+            "index_sort": {
+                "mostBacked_button": ""
             }
         }
     }

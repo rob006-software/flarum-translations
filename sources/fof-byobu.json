@@ -12,15 +12,18 @@
                 "edit_recipients": "Edit Recipients",
                 "send_pd": "Send {username} a message",
                 "cancel": "Cancel",
+                "make_public": "Make this discussion public",
                 "remove_from_discussion": "Leave this private discussion"
             },
             "composer_private_discussion": {
                 "submit_button": "Post Private Discussion",
                 "title_placeholder": "Private Discussion Title"
             },
+            "confirm": {
+                "make_public": "Are you sure you want to remove the recipients and make this discussion visible to anyone who can view the assigned tag?"
+            },
             "labels": {
-                "recipients": "{count} Recipient|{count} Recipients",
-                "user_deleted": "-deleted-"
+                "recipients": "{count, plural, one {{count} Recipient} other {{count} Recipients}}"
             },
             "nav": {
                 "start_button": "Discuss Privately",
@@ -39,23 +42,29 @@
                     "update_recipients": "Update recipients of {title}",
                     "add_recipients": "Add recipients to your discussion"
                 },
+                "labels": {
+                    "selected_users": "Selected users",
+                    "search_field": "Search for user"
+                },
                 "help": {
                     "add_recipients": "This discussion will only be visible to the users you choose here. At least 1 recipient (other than yourself) is required.",
-                    "update_recipients": "This discussion will only be visible to the users you choose here."
+                    "update_recipients": "This discussion will only be visible to the users you choose here.",
+                    "selected_users": "Click a user's name to remove them.",
+                    "click_user_to_remove_tooltip": "Click to remove"
                 }
             },
             "post": {
                 "recipients_modified": {
                     "added_and_removed": "{username} added recipients {added} and removed {removed}.",
                     "added": "{username} added recipients {added}.",
+                    "made_public": "{username} removed all recipients and made the discussion public",
                     "removed": "{username} removed recipients {removed}.",
                     "removed_self": "{username} left the private discussion."
                 }
             },
             "user": {
                 "settings": {
-                    "block_pd": "Block private discussions",
-                    "unified_index": "Combine private discussions inside unified index"
+                    "block_pd": "Block private discussions"
                 },
                 "byobu_link": "Private Discussions",
                 "dropdown_label": "Private Discussions"
@@ -69,9 +78,6 @@
                 "pd_user_left_text": "{username} left the private discussion",
                 "pd_added_text": "{username} added you to a private discussion",
                 "pd_added_label": "Someone adds me to an existing private discussion"
-            },
-            "confirm": {
-                "make_public": "This will make this private discussion visible to everyone. Consider if this is the correct action before proceeding."
             }
         },
         "admin": {
@@ -81,10 +87,13 @@
                 "create_private_discussions_with_blocking_users": "Create private discussions with users that block it",
                 "edit_user_recipients": "Edit users partaking in private discussions",
                 "edit_group_recipients": "Edit groups partaking in private discussions",
+                "make_private_into_public": "Transform a private discussion into a public discussion",
                 "view_private_discussions-when-flagged": "View private discussions of other users if flagged"
             },
             "settings": {
                 "badge-icon": "Byobu Discussion Badge",
+                "enable-make-public-option": "Enable the \"make public\" ability",
+                "enable-make-public-option-help": "Adds the ability for those with permission to remove all recipients, assign a new tag and make the discussion publically visible (accoring to the visibility settings of the chosen tag).",
                 "post-event-icon": "Byobu Post Events"
             }
         },
@@ -96,10 +105,10 @@
                 "private_discussion_added": "[Private Discussion] {display_name} added you to a private discussion"
             },
             "body": {
-                "private_discussion_created": "Hey {recipient_display_name},\n\n{actor_display_name} started a new private discussion with you as a recipient, titled '{discussion_title}'.\n\nView it here:\n{discussion_url}\n\nYou may need to login first before being able to access this link.\n",
-                "private_discussion_replied": "Hey {recipient_display_name},\n\n{actor_display_name} posted in a private discussion with you as a recipient, titled '{discussion_title}'.\n\nView it here:\n{post_url}\n\nYou may need to login first before being able to access this link.\n",
-                "recipient_removed": "Hey {recipient_display_name},\n\n{actor_display_name} left the private discussion '{discussion_title}'. They'll no longer be able to view any of it's content.\n\nView it here:\n{discussion_url}\n\nYou may need to login first before being able to access this link.\n",
-                "private_discussion_added": "Hey {recipient_display_name},\n\n{actor_display_name} added you to an existing private discussion, titled '{discussion_title}'.\n\nView it here:\n{discussion_url}\n\nYou may need to login first before being able to access this link.\n"
+                "private_discussion_created": "Hey {recipient_display_name},\n\n{actor_display_name} started a new private discussion with you as a recipient: {discussion_title}.\n\nView it here:\n{discussion_url}\n\nYou may need to login first before being able to access this link.\n",
+                "private_discussion_replied": "Hey {recipient_display_name},\n\n{actor_display_name} posted in a private discussion with you as a recipient: {discussion_title}.\n\nView it here:\n{post_url}\n\nYou may need to login first before being able to access this link.\n",
+                "recipient_removed": "Hey {recipient_display_name},\n\n{actor_display_name} left the private discussion: {discussion_title}. They'll no longer be able to view any of it's content.\n\nView it here:\n{discussion_url}\n\nYou may need to login first before being able to access this link.\n",
+                "private_discussion_added": "Hey {recipient_display_name},\n\n{actor_display_name} added you to an existing private discussion: {discussion_title}.\n\nView it here:\n{discussion_url}\n\nYou may need to login first before being able to access this link.\n"
             }
         }
     }

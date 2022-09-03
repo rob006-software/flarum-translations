@@ -1,0 +1,18 @@
+{
+    "clarkwinkelmann-email-as-display-name": {
+        "admin": {
+            "permissions": {
+                "view-own": "查看个人资料中自己的电子邮件",
+                "view-all": "查看个人资料中每个人的电子邮件"
+            },
+            "settings": {
+                "remove-username-registration": "注册时不需要用户名"
+            }
+        },
+        "forum": {
+            "log_in": {
+                "username_or_email_placeholder": "=> core.ref.email"
+            }
+        }
+    }
+}

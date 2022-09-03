@@ -5,21 +5,18 @@
                 "title": "Yükle",
                 "description": "Yükleme hizmetlerini ve tercihlerini ayarlayın."
             },
-            "buttons": {
-                "save": "Ayarları kaydet"
-            },
             "help_texts": {
-                "disable-download-logging": "Forum kullanıcıları tarafından yapılan her indirme işleminin kaydını kapat. Etkinleştirilmesi, gelecekte indirenlerin sayısını ve diğer ölçümleri görmenizi sağlar.\n",
+                "disable-download-logging": "Forum kullanıcıları tarafından yapılan her indirme işleminin kaydını etkisizleştir. Etkinleştirilmesi, gelecekte indirenlerin sayısını ve diğer ölçümleri görmenizi sağlar.\n",
                 "disable-hotlink-protection": "Hotlink koruması, diğer sitelerden indirme yapılmasına engel olur. Geçerli bir csrf token ve post id'si gereklidir.\n",
                 "download_templates": "İndirme şablonları, dosyaların forumunuzda nasıl görüneceğini ayarlamanızı sağlar, örneğin önizleme veya düğme gibi. Mevcut olanlar:\n",
-                "mime_types": "Please configure your mapping here. Each mime type regular expression will be handled by a specific upload adapter and download template.\n",
+                "mime_types": "Lütfen eşlemenizi burada yapılandırın. Her mime tipi normal ifade, belirli bir yükleme bağdaştırıcısı ve indirme şablonu tarafından işlenecektir.\n",
                 "resize": "Resimlerin yüklenmeden önce yeniden boyulandırılıp boyutlandırılmayacağını seçin. Piksel cinsinden maksimum genişlik ve yükseklik belirtebilirsiniz. Yeniden boyutlandırma işlemi görüntülerin enini ve boyunu korur.\n",
                 "client_extension": "Varsayılan olarak Yükle, MIME türüne göre güvenli bir dosya uzantısı seçecektir.\nZIP veya ikili verilere dayalı bazı dosya türleri için bu, beklenen uzantıların yerine genel uzantıların kullanılmasına neden olabilir.\nBurada, aynen tutulacak dosya uzantılarının virgülle ayrılmış bir listesini girebilirsiniz.\n",
                 "watermark": "Yükleme sırasında resimlere filigran (watermark) eklenip eklenmeyeceğini seçin. Filigranlar gif olmayan dosyalara eklenebilir.\n",
-                "s3_compatible_storage": "Aşağıdaki ayarlar yalnızca S3 uyumlu depolama kullanılırken gereklidir. AWS kullanıyorsanız, bunları boş bırakabilirsiniz.",
-                "s3_acl": "Yüklenen nesneye uygulanması gereken ACL (varsayılan: özel). Olası değerler için bkz. https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl",
-                "composer_buttons": "Varsayılan olarak hem medya yöneticisi düğmesi hem de yükleme düğmesi görünür durumdadır. Ayrıca yalnızca bir düğmeyi görüntülemeyi de seçebilirsiniz.\n",
-                "description": "Dosya yükleme servisleri ve ayarları.\n"
+                "s3_compatible_storage": "Aşağıdaki ayarlar yalnızca S3 uyumlu depolama kullanılırken gereklidir. AWS kullanıyorsanız, bunları boş bırakabilirsiniz.\n",
+                "s3_acl": "Yüklenen nesneye uygulanması gereken ACL (varsayılan: özel). Olası değerler için bkz. https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
+                "s3_instance_profile": "Örnek profilinde kimlik bilgilerini kullanmak için anahtarı ve sırrı (secret) boş bırakın.\n",
+                "composer_buttons": "Varsayılan olarak hem medya yöneticisi düğmesi hem de yükleme düğmesi görünür durumdadır. Ayrıca yalnızca bir düğmeyi görüntülemeyi de seçebilirsiniz.\n"
             },
             "labels": {
                 "aws-s3": {
@@ -29,21 +26,22 @@
                     "secret": "Secret",
                     "title": "AWS S3 depolama ayarları",
                     "advanced_title": "Gelişmiş S3 depolama ayarları",
-                    "endpoint": "Endpoint\n",
+                    "endpoint": "Endpoint",
                     "use_path_style_endpoint": "Dizin stili endpoint kullan",
                     "acl": "Access Control List (ACL)"
                 },
                 "disable-download-logging": {
-                    "title": "İndirme kayılarını kapat",
-                    "toggle": "Kapat"
+                    "title": "İndirme kayıtlarını etkisizleştir",
+                    "toggle": "Etkisizleştir"
                 },
                 "disable-hotlink-protection": {
-                    "title": "Hotlink korumasını kapat",
-                    "toggle": "Kapat"
+                    "title": "Hotlink korumasını etkisizleştir",
+                    "toggle": "Etkisizleştir"
                 },
                 "imgur": {
                     "client_id": "Imgur client ID",
-                    "title": "Imgur resim depolama ayarları"
+                    "title": "Imgur görsel depolama ayarları",
+                    "tos": "Forum kullanıcılarınızın Imgur'un <a>Hizmet Şartlarına</a> uymasını sağlamak sizin sorumluluğunuzdadır"
                 },
                 "local": {
                     "cdn_url": "İçerik teslim bağlantısı (dosyaların önekleri)",
@@ -57,11 +55,12 @@
                 },
                 "preferences": {
                     "max_file_size": "Maksimum dosya boyutu (kilobyte cinsinden)",
-                    "mime_types": "Configure your mime type, upload adapter mapping",
-                    "title": "Genel tercihler"
+                    "mime_types": "Mime türünüzü yapılandırın, uyarlayıcı eşlemesini yükleyin",
+                    "title": "Genel tercihler",
+                    "php_ini_values": "<code>php.ini</code> değerleriniz <code>post_max_size={post}</code> ve <code>upload_max_filesize={upload}</code> şeklindedir. Burada ayarlanan değerin bu eşiklerin altında olduğundan emin olun veya uygun şekilde ayarlayın. <code>Nginx</code> kullanıyorsanız, <code>client_max_body_size</code> öğesinin seçtiğiniz maksimum limit için yeterli boyutta olduğundan emin olun."
                 },
                 "resize": {
-                    "max_width": "Maksimum resim genişliği/yüksekliği",
+                    "max_width": "Maksimum görsel genişliği/yüksekliği",
                     "title": "Görüntüleri yeniden boyutlandır",
                     "toggle": "Görüntüleri yeniden boyutlandır"
                 },
@@ -81,7 +80,8 @@
                         "upload-btn": "Yalnızca yükleme düğmesi",
                         "media-btn": "Yalnızca medya yöneticisi düğmesi"
                     }
-                }
+                },
+                "inspect-mime": "Test dosyası MIME türü"
             },
             "permissions": {
                 "download_label": "Dosya indirme",
@@ -92,12 +92,18 @@
             "templates": {
                 "file": "Varsayılan dosya indirme şablonu",
                 "file_description": "Dosya adını ve bazı genel bilgileri gösterir. Proxyler php aracılığı ile indirilir, bu da istatistik toplama ve hotlink koruması sağlar.\n",
-                "image": "Varsayılan resim indirme şablonu",
-                "image-preview": "Tam resim önizleme şablonu",
-                "image-preview_description": "Tam resmi satır içerisinde gösterir, indirme işlevine sahip değilir, istatistik toplamaz ve hotlink koruması yoktur.\n",
+                "image": "Varsayılan görsel indirme şablonu",
                 "image_description": "Resimin küçük halini gösterir ve proxyler php yoluyla indirilir. İstatistiklerin toplanması ve hotlink korunması mevcuttur.\n",
+                "image-preview": "Tam görsel önizleme şablonu",
+                "image-preview_description": "Tam resmi satır içerisinde gösterir, indirme işlevine sahip değilir, istatistik toplamaz ve hotlink koruması yoktur.\n",
+                "markdown-image": "Markdown görsel şablonu",
+                "markdown-image_description": "Markdown'ı kullanarak tam görseli satır içinde gösterir. <strong>Bunun çalışması için flarum/markdown'ın kurulu ve etkinleştirilmiş olması gerekir.</strong> İndirme işlevi yoktur, istatistik toplanmaz ve hotlink koruması yok sayılır.\n",
+                "bbcode-image": "BBCode görsel şablonu",
+                "bbcode-image_description": "BBCode kullanarak tüm görüntüyü satır içinde gösterir. <strong>Bunun çalışması için flarum/bbcode'un kurulu ve etkinleştirilmiş olması gerekir.</strong> İndirme işlevi yoktur, istatistik toplanmaz ve hotlink koruması yok sayılır.\n",
                 "just-url": "Sadece Bağlantı",
-                "just-url_description": "Yalnızca URL'yi ekler. Oluşturma, otomatik bağlanma özelliğine sahip diğer uzantılar tarafından gerçekleştirilebilir. İndirme işlevi yoktur, hiçbir istatistik toplanmaz ve hotlink koruması göz ardı edilir.\n"
+                "just-url_description": "Yalnızca URL'yi ekler. Oluşturma, otomatik bağlanma özelliğine sahip diğer uzantılar tarafından gerçekleştirilebilir. İndirme işlevi yoktur, hiçbir istatistik toplanmaz ve hotlink koruması göz ardı edilir.\n",
+                "text-preview": "Metin önizlemesi",
+                "text-preview_description": "Dosyanın tüm içeriğini ortaya çıkarmak için genişletme seçeneğiyle birlikte metin dosyasının bir önizlemesini (ilk 5 satır) ekler.\n"
             },
             "upload_methods": {
                 "aws-s3": "S3/Compatible",
@@ -105,6 +111,22 @@
                 "local": "Yerel",
                 "ovh-svfs": "OVH SVFS",
                 "qiniu": "QiNiu"
+            },
+            "inspect-mime": {
+                "title": "MIME'yi inceleyin",
+                "description": "FoF Upload, yaygın MIME türleri için <a>PHP Mime Detector</a> kitaplığını ve yedek olarak PHP Fileinfo'yu kullanır. \nFileinfo tarafından döndürülen MIME değeri sunucudan sunucuya farklı olabilir!\n",
+                "select": "Kullanılacak değerleri incelemek için aşağıdan bir dosya seçin. Dosya kaydedilmeyecek.",
+                "laravel-validation": "Laravel Dosya Doğrulaması",
+                "no-file-selected": "Dosya yok",
+                "validation-passed": "Geçti",
+                "validation-failed": "Başarısız: {error}",
+                "mime-detector": "Mime Dedektörü (birincil)",
+                "mime-fileinfo": "PHP Fileinfo (yedek)",
+                "guessed-extension": "Varsayılan dosya uzantısı (orijinal beyaz listede değilse)",
+                "not-available": "Sonuç yok"
+            },
+            "buttons": {
+                "save": "Ayarları kaydet"
             }
         },
         "forum": {
@@ -123,7 +145,7 @@
                 "modal_empty_desktop": "Dosya listeniz boş. Yüklemek için düğmeye tıklayın veya buraya bir dosya sürükleyin.",
                 "modal_empty_phone": "Dosya listeniz boş. Bir dosya yüklemek için yukarıdaki düğmeye dokunun.",
                 "select_file_a11y_label": "\"{fileName}\" dosyasını seçin",
-                "confirm_selection_btn": "Dosya seçin|Dosyaları seçin",
+                "confirm_selection_btn": "{fileCount, plural, =0 {Seçilmedi} one {Dosya seçin} other {Dosyaları seçin}}",
                 "load_more_files_btn": "Daha fazla dosya yükle",
                 "hide_file": {
                     "btn_a11y_label": "\"{fileName}\" dosyasını medya yöneticisinden gizle",
@@ -137,6 +159,16 @@
                 "error": "Hata",
                 "loading": "Yükleniyor",
                 "unauthorized": "Dosyaları indirmenize izin verilmiyor"
+            },
+            "validation": {
+                "max_size": "{max} kb üzerindeki yüklemeler kabul edilmez."
+            },
+            "text_preview": {
+                "expand": "Önizlemeyi genişlet",
+                "collapse": "Önizlemeyi daralt",
+                "error": "Dosya önizlenirken hata oluştu. Silinmiş olabilir veya sağlanan dosya kimliği geçersiz.\n",
+                "no_snippet_preview": "<Önizleme yayınlandıktan sonra burada görünecek>",
+                "no_snippet": "<önizleme snippet'i yok>"
             }
         },
         "api": {

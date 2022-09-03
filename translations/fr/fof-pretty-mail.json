@@ -2,24 +2,32 @@
     "fof-pretty-mail": {
         "admin": {
             "nav": {
-                "desc": ""
+                "desc": "Personnalisez vos modèles HTML de courriels."
             },
             "settings": {
-                "label": "",
-                "reset": "",
-                "confirm": "",
-                "default": "",
-                "newPost": "",
-                "userMentioned": "",
-                "postMentioned": "",
-                "notifications": "",
-                "notificationHelp": "",
-                "help": ""
+                "attributes": {
+                    "body": "Contient le contenu réel du courriel",
+                    "forumStyle": "Contient le <strong>CSS intégral du forum</strong>",
+                    "url": "<code>UrlGenerator</code> de Flarum",
+                    "settings": "Vous permet d'interagir avec SettingsRepositoryInterface",
+                    "link": "Contient le lien dans le courriel"
+                },
+                "attributes_label": "Attributs disponibles",
+                "label": "Modèles de courriels",
+                "reset": "Revenir à la valeur par défaut",
+                "confirm": "Êtes-vous sûr de vouloir revenir au modèle de courriel standard concernant",
+                "default": "Modèle par défaut",
+                "newPost": "Flarum/subscriptions Nouveau courriel",
+                "userMentioned": "Flarum/mentions Courriel mentionné par l'utilisateur",
+                "postMentioned": "Flarum/mentions Courriel mentionné",
+                "notifications": "Modèles de notification",
+                "notificationHelp": "Il est recommandé d'utiliser « $forumStyle » pour ces courriels car ils peuvent contenir du BBCode. Ces courriels ont également « $user » de disponible, contenant le modèle d'utilisateur complet de l'utilisateur qui reçoit le courriel.",
+                "template_help": "Voir chaque modèle pour savoir comment utiliser chaque attribut."
             },
             "css_settings": {
-                "label": "",
-                "help": "",
-                "switch_label": ""
+                "label": "Paramètres du CSS",
+                "help": "Vous pouvez décider d'inclure le code CSS du forum dans le code HTML du courriel. Si vous activez cette option, vous pourriez rencontrer des problèmes avec certains fournisseurs de messagerie.",
+                "switch_label": "Inclure le CSS complet du forum"
             }
         }
     }

@@ -1,0 +1,26 @@
+{
+    "extiverse-mercury": {
+        "admin": {
+            "extension-updates-page": {
+                "extension-name": "Extensão",
+                "extension-is-up-to-date": "Está atualizado",
+                "highest-version": "Último lançamento",
+                "installed-version": "Versão instalada"
+            },
+            "settings": {
+                "token": "Token Extiverse (<a>solicitação</a>)",
+                "token-description": "Recupere um token de API de <a>Extiverse</a> para que o Mercury possa se comunicar com segurança com sua comunidade Flarum.\n"
+            },
+            "header-secondary": {
+                "no-token": "Token Obrigatório",
+                "updates": ""
+            }
+        },
+        "email": {
+            "new-extension-update": {
+                "subject": "",
+                "body": ""
+            }
+        }
+    }
+}

@@ -2,7 +2,8 @@
     "core": {
         "forum": {
             "index_sort": {
-                "hot_button": "トレンド"
+                "hot_button": "トレンド",
+                "votes_button": ""
             }
         }
     },
@@ -20,24 +21,42 @@
             },
             "notification": {
                 "upvote": "{username} が投稿を支持しました",
-                "downvote": "{username} があなたの投稿に投票しました」"
+                "downvote": "{username} があなたの投稿に投票しました」",
+                "prefrences": {
+                    "vote": ""
+                }
             },
             "user": {
-                "points": "👍: {points}",
-                "rank": "{rank}"
+                "card": {
+                    "points": ""
+                },
+                "rank": "{rank}",
+                "votes_link": ""
             },
             "modal": {
+                "downvotes_label": "",
                 "title": "有権者",
-                "upvotes_label": "サポーター",
-                "downvotes_label": "相手"
+                "upvotes_label": "サポーター"
             },
-            "mod_item": "有権者を表示"
+            "mod_item": "有権者を表示",
+            "voters": {
+                "none": "",
+                "label": "",
+                "label_none": ""
+            },
+            "post": {
+                "upvote_button": "",
+                "downvote_button": ""
+            }
         },
         "admin": {
             "permissions": {
                 "vote_label": "いいね/嫌いな投稿",
                 "see_votes_label": "投稿の高評価/低評価の表示",
-                "see_ranking_page": "表示レベル"
+                "see_voters_label": "",
+                "see_ranking_page": "表示レベル",
+                "upvote_notifications": "",
+                "downvote_notifications": ""
             },
             "page": {
                 "rankings": {
@@ -52,6 +71,9 @@
                     "custom_image_2": "次点の写真",
                     "custom_image_3": "3位の写真"
                 },
+                "alt_votes": {
+                    "icon_name": ""
+                },
                 "votes": {
                     "points_title": "プレースホルダー",
                     "points_placeholder": "👍: ",
@@ -60,10 +82,13 @@
                     "rate_limit": "投票率の制限を適用します（10 秒）",
                     "discussion_page": "ディスカッションリストに元の投稿の総投票数を表示する",
                     "alternate_layout": "",
+                    "alternate_post_layout": "",
                     "title": "投票",
                     "vote_color": "投票された色",
                     "icon_name": "好き/嫌いの小さなアイコン",
-                    "icon_help": "Font Awesomeアイコンを入力してください。接尾辞は-upおよび-downです。 例：arrow, thumbs, chevron"
+                    "icon_help": "Font Awesomeアイコンを入力してください。接尾辞は-upおよび-downです。 例：arrow, thumbs, chevron",
+                    "upvotes_only": "",
+                    "first_post_only": ""
                 },
                 "save_settings": "設定を保存する",
                 "convert": {
@@ -83,9 +108,14 @@
                         "name": "お名前"
                     }
                 }
+            }
+        },
+        "email": {
+            "body": {
+                "postVoted": ""
             },
-            "nav": {
-                "desc": "Flarum フォーラムのゲームプレイを強化する"
+            "subject": {
+                "postVoted": ""
             }
         }
     }

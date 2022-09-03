@@ -1,0 +1,29 @@
+{
+    "tituspijean-auth-ldap": {
+        "forum": {
+            "log_in_with": "Mit {server} einloggen",
+            "log_out": "=> core.ref.log_out"
+        },
+        "admin": {
+            "settings": {
+                "title": "LDAP-Einstellungen",
+                "method_name": "LDAP-Servername (erscheint nach „Anmelden mit“)",
+                "hosts": "LDAP-Domänen oder Server-IP-Adressen (kommagetrennt)",
+                "base_dn": "Basis-DNs (durch Semikolon getrennt)",
+                "filter": "Anzuwendender Filter (optional)",
+                "port": "Port",
+                "account_prefix": "Kontopräfix",
+                "account_suffix": "Kontosuffix",
+                "admin_dn": "Distinguished Name des LDAP-Administrators (leer lassen für anonyme Bindung)",
+                "admin_password": "LDAP-Admin-Passwort (leer lassen für anonyme Bindung)",
+                "search_user_fields": "Suchfelder für LDAP-Benutzer (durch Kommas getrennt)",
+                "user_mail": "LDAP-Benutzer-E-Mail-Feld",
+                "user_username": "LDAP-Benutzername Feld",
+                "follow_referrals": "Verweisen folgen, um sich an den LDAP-Server zu binden",
+                "use_ssl": "SSL verwenden",
+                "use_tls": "TLS verwenden",
+                "onlyUse": "Standard-Anmeldemethode von Flarum ausblenden"
+            }
+        }
+    }
+}

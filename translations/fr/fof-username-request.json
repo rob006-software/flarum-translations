@@ -2,98 +2,98 @@
     "fof-username-request": {
         "admin": {
             "permissions": {
-                "moderate_requests": "",
-                "request_nickname": "",
-                "request_username": ""
+                "moderate_requests": "Approuver les demandes de changement de nom d'utilisateur/pseudonyme",
+                "request_nickname": "Demander une modification de pseudonyme",
+                "request_username": "Demander une modification de nom d'utilisateur"
             }
         },
         "forum": {
             "nickname_modals": {
                 "action": {
-                    "title": "",
-                    "help_text": "",
-                    "decision_title": "",
-                    "approval_label": "",
-                    "rejected_label": "",
-                    "submit_button": "",
-                    "reason_title": "",
-                    "success": "",
-                    "name": ""
+                    "title": "=> fof-username-request.ref.nickname_change_request",
+                    "help_text": "Veuillez vous assurer que cette demande de modification de pseudonyme respecte le règlement du forum.",
+                    "decision_title": "Décision",
+                    "approval_label": "Approuver",
+                    "rejected_label": "Rejeter",
+                    "submit_button": "Envoyer",
+                    "reason_title": "Motif du rejet",
+                    "success": "Décision envoyée.",
+                    "name": "{name} a demandé à ce que son pseudonyme soit modifié en « {requestedName} »"
                 },
                 "results": {
-                    "title": "",
-                    "approved": "",
-                    "dismiss_button": "",
-                    "new_name": "",
-                    "rejected": "",
-                    "reason": "",
-                    "resubmit": ""
+                    "title": "Demande de modification de pseudonyme",
+                    "approved": "Votre demande de modification de pseudonyme a été approuvée",
+                    "dismiss_button": "=> core.ref.okay",
+                    "new_name": "Votre pseudonyme a été modifié en : {name}",
+                    "rejected": "Votre demande de modification de pseudonyme a été rejetée",
+                    "reason": "Motif du rejet : <i>« {reason} »</i>.",
+                    "resubmit": "À ce stade, vous pouvez soumettre à nouveau une demande de modification de pseudonyme à partir des paramètres de votre compte si vous le souhaitez."
                 },
                 "request": {
-                    "title": "",
-                    "current_request": "",
-                    "submit_button": "",
-                    "delete_button": "",
-                    "confirmation_message": "",
-                    "dismiss_button": "",
-                    "deleted": ""
+                    "title": "Demander une modification de pseudonyme",
+                    "current_request": "Vous avez déjà demandé à modifier votre pseudonyme en « {name} ». Vous pouvez soit mettre à jour votre demande, soit la supprimer.",
+                    "submit_button": "Envoyer la demande",
+                    "delete_button": "Supprimer la demande",
+                    "confirmation_message": "Votre demande de modification de pseudonyme a été envoyée et est en attente d'approbation.",
+                    "dismiss_button": "=> core.ref.okay",
+                    "deleted": "Demande de pseudonyme supprimée."
                 }
             },
             "username_modals": {
                 "action": {
-                    "title": "",
-                    "help_text": "",
-                    "decision_title": "",
-                    "approval_label": "",
-                    "rejected_label": "",
-                    "submit_button": "",
-                    "reason_title": "",
-                    "success": "",
-                    "name": ""
+                    "title": "=> fof-username-request.ref.username_change_request",
+                    "help_text": "Veuillez vous assurer que cette demande de modification de nom d'utilisateur respecte le règlement du forum.",
+                    "decision_title": "Décision",
+                    "approval_label": "Approuver",
+                    "rejected_label": "Rejeter",
+                    "submit_button": "Envoyer",
+                    "reason_title": "Motif du rejet",
+                    "success": "Décision envoyée.",
+                    "name": "{name} a demandé à modifier son nom d'utilisateur en « {requestedName} »"
                 },
                 "results": {
-                    "title": "",
-                    "approved": "",
-                    "dismiss_button": "",
-                    "new_name": "",
-                    "rejected": "",
-                    "reason": "",
-                    "resubmit": ""
+                    "title": "Modification de nom d'utilisateur",
+                    "approved": "Votre demande de modification de nom d'utilisateur a été approuvée",
+                    "dismiss_button": "=> core.ref.okay",
+                    "new_name": "Votre nom d'utilisateur a été modifié en : {name}",
+                    "rejected": "Votre demande de modification de nom d'utilisateur a été rejetée",
+                    "reason": "Motif du rejet : <i>« {reason} »</i>.",
+                    "resubmit": "À ce stade, vous pouvez soumettre à nouveau une demande de modification de nom d'utilisateur à partir des paramètres de votre compte si vous le souhaitez."
                 },
                 "request": {
-                    "title": "",
-                    "current_request": "",
-                    "submit_button": "",
-                    "delete_button": "",
-                    "confirmation_message": "",
-                    "dismiss_button": "",
-                    "deleted": ""
+                    "title": "Demander une modification de nom d'utilisateur",
+                    "current_request": "Vous avez déjà demandé à modifier votre nom d'utilisateur en « {name} ». Vous pouvez soit mettre à jour votre demande, soit la supprimer.",
+                    "submit_button": "Envoyer la demande",
+                    "delete_button": "Supprimer la demande",
+                    "confirmation_message": "Votre demande de modification de nom d'utilisateur a été envoyée et est en attente d'approbation.",
+                    "dismiss_button": "=> core.ref.okay",
+                    "deleted": "Demande de nom d'utilisateur supprimée."
                 }
             },
             "pending_requests": {
-                "empty_text": "",
-                "nickname_item_text": "",
-                "nickname_exerpt": "",
-                "tooltip": "",
-                "title": "",
-                "username_item_text": "",
-                "username_exerpt": ""
+                "empty_text": "Aucune demande de modification de nom n'a été trouvée.",
+                "nickname_item_text": "{name} a demandé une modification de pseudonyme",
+                "nickname_exerpt": "Pseudonyme demandé : {requestedName}",
+                "tooltip": "=> fof-username-request.ref.name_change_requests",
+                "title": "=> fof-username-request.ref.name_change_requests",
+                "username_item_text": "{name} a demandé une modification de nom d'utilisateur",
+                "username_exerpt": "Nom d'utilisateur demandé : {requestedName}"
             },
             "settings": {
-                "nickname_request_button": "",
-                "username_request_button": ""
+                "nickname_request_button": "Modifier le pseudonyme",
+                "username_request_button": "Modifier le nom d'utilisateur"
             },
             "user": {
-                "name_history_link": ""
+                "name_history_link": "Historique des noms"
             }
         },
         "ref": {
-            "name_change_request": "",
-            "name_change_requests": "",
-            "nickname_change_request": "",
-            "nickname_change_requests": "",
-            "username_change_request": "",
-            "username_change_requests": ""
+            "name_change_request": "Demande de modification de nom",
+            "name_change_requests": "Demandes de modification de nom",
+            "nickname_change_request": "Demande de modification de pseudonyme",
+            "nickname_change_requests": "Demandes de modification de pseudonyme",
+            "username_change_request": "Demande de modification de nom d'utilisateur",
+            "username_change_requests": "Demandes de modification de nom d'utilisateur"
         }
     }
 }

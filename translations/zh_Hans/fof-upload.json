@@ -5,9 +5,6 @@
                 "title": "上传",
                 "description": "设置上传服务和首选项。"
             },
-            "buttons": {
-                "save": "保存设置"
-            },
             "help_texts": {
                 "disable-download-logging": "（默认启用）保持开启，以便在将来查看下载记录及其他数据。打开下方的开关，即可停止记录下载日志。\n",
                 "disable-hotlink-protection": "（默认启用）防盗链将通过验证 CSRF TOKEN 和 POST ID 来保护你的文件不会被其他站点调用下载。\n",
@@ -18,8 +15,8 @@
                 "watermark": "选择上传图片时是否添加水印。水印会根据下面的偏好设置来添加到非 GIF 图片上。\n",
                 "s3_compatible_storage": "填写下方设置以配置 S3 兼容存储模式。如果您使用 AWS，请保持留空。有关 S3 兼容配置详情，请查阅各大云服务商的文档（七牛云：https://iflarum.cn/qiniu-s3）\n",
                 "s3_acl": "应用于上传对象的读写权限 ACL（默认私有读写）。 有关可用的值，请参阅 https://iflarum.cn/aws-s3acl\n",
-                "composer_buttons": "默认情况下，媒体管理按钮和上传按钮皆可见。您可以选择只显示其中一个按钮。\n",
-                "description": "文件上传服务与设置\n"
+                "s3_instance_profile": "公钥和秘钥留空时，可为实例单独配置。\n",
+                "composer_buttons": "默认情况下，媒体管理按钮和上传按钮皆可见。您可以选择只显示其中一个按钮。\n"
             },
             "labels": {
                 "aws-s3": {
@@ -43,7 +40,8 @@
                 },
                 "imgur": {
                     "client_id": "Imgur 客户ID",
-                    "title": "Imgur 图片存储设置"
+                    "title": "Imgur 图片存储设置",
+                    "tos": "你有义务确保你的用户遵守 Imgur 的 <a>服务条款</a>"
                 },
                 "local": {
                     "cdn_url": "文件链接前缀 / 对象存储 CDN 或访问域名（含 http/https）",
@@ -58,13 +56,13 @@
                 "preferences": {
                     "max_file_size": "最大文件大小（单位：KB）",
                     "mime_types": "设置可上传的文件类型及上传方式",
-                    "title": "偏好设置"
+                    "title": "偏好设置",
+                    "php_ini_values": "当前 <code>php.ini</code> 配置上限为 <code>post_max_size={post}</code>，<code>upload_max_filesize={upload}</code>。请确保下方设置的值小于上限，或调高上限。如果您使用 <code>Nginx</code> 服务器，请确保 <code>client_max_body_size</code> 高于您选择的上限值。"
                 },
                 "resize": {
                     "max_width": "最大图片宽高",
                     "title": "图片缩放功能",
-                    "toggle": "开启缩放",
-                    "max_height": "最大图片高度"
+                    "toggle": "开启缩放"
                 },
                 "client_extension": {
                     "title": "用户自定义文件扩展名"
@@ -72,8 +70,8 @@
                 "watermark": {
                     "file": "上传水印图片",
                     "position": "水印位置",
-                    "title": "图片水印功能",
-                    "toggle": "开启水印"
+                    "title": "图片水印",
+                    "toggle": "开启"
                 },
                 "composer_buttons": {
                     "title": "编辑器按钮",
@@ -83,14 +81,7 @@
                         "media-btn": "仅媒体管理按钮"
                     }
                 },
-                "ovh-svfs": {
-                    "title": "OVH SVFS 存储设置",
-                    "container": "容器",
-                    "tenantid": "租户ID",
-                    "username": "用户名",
-                    "password": "密码",
-                    "region": "区域"
-                }
+                "inspect-mime": "测试文件 MIME 类型"
             },
             "permissions": {
                 "download_label": "允许下载文件",
@@ -102,11 +93,17 @@
                 "file": "默认文件下载模板",
                 "file_description": "显示文件名以及一些基本信息，经 php 代理下载，允许统计以及热链保护。\n",
                 "image": "默认图片下载模板",
+                "image_description": "显示图片缩略图，并由 php 代理下载，支持统计和热链保护。\n",
                 "image-preview": "完整图片预览模板",
                 "image-preview_description": "在行内显示完整图片。不支持下载、统计和热链保护。\n",
-                "image_description": "显示图片缩略图，并有 php 代理下载，支持统计和热链保护。\n",
+                "markdown-image": "Markdown 图片预览模板",
+                "markdown-image_description": "使用 Markdown 格式在行内完整显示图片。<strong>此模板依赖于 flarum/markdown 扩展程序。</strong>无下载、统计和热链保护功能。\n",
+                "bbcode-image": "BBCode 图片预览模板",
+                "bbcode-image_description": "使用 BBCode 在行内完整显示图片。<strong>此模板依赖于 flarum/bbcode 扩展程序。</strong>无下载、统计和热链保护功能。\n",
                 "just-url": "仅链接",
-                "just-url_description": "仅插入 URL。 渲染可以由具有自动链接功能的其他插件处理。没有下载功能，没有统计功能，且没有热链保护。\n"
+                "just-url_description": "仅插入 URL。 渲染可以由具有自动链接功能的其他插件处理。无下载、统计和热链保护功能。\n",
+                "text-preview": "文本文档预览",
+                "text-preview_description": "显示文本文件的前 5 行预览，附带展开全文按钮。\n"
             },
             "upload_methods": {
                 "aws-s3": "AWS S3 或 S3 兼容",
@@ -114,6 +111,22 @@
                 "local": "本地",
                 "ovh-svfs": "OVH SVFS",
                 "qiniu": "七牛"
+            },
+            "inspect-mime": {
+                "title": "检查 MIME",
+                "description": "由于 PHP Fileinfo 扩展在不同服务器上返回的文件类型会有所不同，因此 FoF Upload 仅将其作为备用选项。\n一般情况下，均使用 <a>PHP Mime Detector</a> 库检测 MIME 类型。\n",
+                "select": "选择一个文件，并检测类型。您选择的文件不会被保存。",
+                "laravel-validation": "Laravel 文件验证消息",
+                "no-file-selected": "请选择文件",
+                "validation-passed": "通过",
+                "validation-failed": "失败：{error}",
+                "mime-detector": "Mime 检测器（主）",
+                "mime-fileinfo": "PHP Fileinfo（备）",
+                "guessed-extension": "默认文件扩展名",
+                "not-available": "暂无结果"
+            },
+            "buttons": {
+                "save": "保存设置"
             }
         },
         "forum": {
@@ -132,7 +145,7 @@
                 "modal_empty_desktop": "你还没有上传过文件。点击按钮或拖拽文件到这里开始上传吧。",
                 "modal_empty_phone": "你还没有上传过文件。点击上方按钮开始上传吧。",
                 "select_file_a11y_label": "选择文件「{fileName}」",
-                "confirm_selection_btn": "嵌入|嵌入",
+                "confirm_selection_btn": "{fileCount, plural, =0 {未选择} one {嵌入} other {嵌入所选文件}}",
                 "load_more_files_btn": "加载更多",
                 "hide_file": {
                     "btn_a11y_label": "在文件管理器中隐藏「{fileName}」",
@@ -145,8 +158,17 @@
             "states": {
                 "error": "错误",
                 "loading": "加载中",
-                "unauthorized": "您没有下载权限",
-                "success": "成功"
+                "unauthorized": "您没有下载权限"
+            },
+            "validation": {
+                "max_size": "文件需小于 {max} KB。"
+            },
+            "text_preview": {
+                "expand": "展开全文",
+                "collapse": "收起全文",
+                "error": "文件预览无法加载。此文件或已被删除，文件 ID 或已失效。\n",
+                "no_snippet_preview": "<文本文档的预览将会在此处展示>",
+                "no_snippet": "<暂无可用的预览代码片段>"
             }
         },
         "api": {

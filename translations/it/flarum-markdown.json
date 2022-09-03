@@ -1,9 +1,18 @@
 {
     "flarum-markdown": {
-        "admin": {
-            "settings": {
-                "mdarea_help": "mdarea è un'utilità textarea che continua automaticamente gli elenchi, aiuta con la formattazione del codice e aiuta con il rientro del testo.",
-                "mdarea_label": "Abilita mdarea?"
+        "lib": {
+            "composer": {
+                "bold_tooltip": "Aggiungi testo grassetto",
+                "code_tooltip": "Inserisci codice",
+                "header_tooltip": "Inserisci testo header",
+                "image_tooltip": "Aggiungi Immagine",
+                "italic_tooltip": "Aggiungi testo corsivo",
+                "link_tooltip": "Aggiungi link",
+                "ordered_list_tooltip": "Aggiungi lista numerata",
+                "quote_tooltip": "Inserisci citazione",
+                "spoiler_tooltip": "Inserisci spoiler",
+                "strikethrough_tooltip": "Inserisci testo barrato",
+                "unordered_list_tooltip": "Inserisci elenco puntato"
             }
         },
         "forum": {
@@ -16,6 +25,8 @@
                 "link_tooltip": "Link",
                 "ordered_list_tooltip": "Elenco numerato",
                 "quote_tooltip": "Citazione",
+                "spoiler_tooltip": "Inserisci spoiler",
+                "strikethrough_tooltip": "Aggiungi testo barrato",
                 "unordered_list_tooltip": "Elenco puntato"
             }
         }

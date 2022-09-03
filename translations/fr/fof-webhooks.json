@@ -2,114 +2,117 @@
     "fof-webhooks": {
         "actions": {
             "discussion": {
-                "started": "",
+                "started": "Discussion `{1}` démarrée",
                 "renamed": {
-                    "title": "",
-                    "description": ""
+                    "title": "Discussion `{1}` renommée",
+                    "description": "Nouveau titre : {1}"
                 },
-                "hidden": "",
-                "restored": "",
-                "deleted": ""
+                "hidden": "Discussion `{1}` masquée",
+                "restored": "Discussion `{1}` restaurée",
+                "deleted": "Discussion `{1}` supprimée"
             },
             "group": {
-                "created": "",
-                "renamed": "",
-                "deleted": ""
+                "created": "Groupe `{1}` créé",
+                "renamed": "Renommé un groupe en `{1}`",
+                "deleted": "Groupe `{1}` supprimé"
             },
             "post": {
-                "posted": "",
-                "revised": "",
-                "hidden": "",
-                "restored": "",
-                "deleted": ""
+                "posted": "Nouveau message dans `{1}`",
+                "revised": "Message modifié dans `{1}`",
+                "hidden": "Message masqué dans `{1}`",
+                "restored": "Message restauré dans `{1}`",
+                "deleted": "Message supprimé dans `{1}`"
             },
             "user": {
-                "registered": "",
+                "registered": "Nouvel utilisateur inscrit",
                 "renamed": {
-                    "title": "",
-                    "description": ""
+                    "title": "Nom d'utilisateur modifié de `{1}`",
+                    "description": "Nouveau nom d'utilisateur : {1}"
                 },
-                "deleted": ""
+                "deleted": "Utilisateur `{1}` supprimé"
             }
         },
         "adapters": {
             "errors": {
-                "404": ""
+                "404": "Webhook introuvable"
             }
         },
         "admin": {
             "errors": {
-                "service_not_found": "",
-                "url_invalid": ""
+                "service_not_found": "Le service « {service} » est introuvable.",
+                "url_invalid": "L'URL n'est pas valide pour le service sélectionné.",
+                "tag_invalid": "Ce webhook est restreint à une étiquette non valide. La restriction ne s'appliquera pas. Assurez-vous que cette action est volontaire."
             },
             "nav": {
-                "desc": ""
+                "desc": "Des webhooks sortants personnalisables pour votre forum."
             },
             "settings": {
+                "debug_label": "Débogage",
+                "debug_help": "Ajoute des journaux d'événements supplémentaires au fichier journal de Flarum pour déboguer les problèmes avec les webhooks et/ou les événements qui ne fonctionnent pas correctement.",
                 "item": {
-                    "tag_any_label": ""
+                    "tag_any_label": "N'importe lequel"
                 },
                 "help": {
-                    "disabled": "",
-                    "general": "",
-                    "url": ""
+                    "disabled": "Ce webhook est désactivé car il n'a aucun événement activé.",
+                    "general": "Vous pouvez ajouter, modifier et supprimer ici des webhooks pour votre forum.",
+                    "url": "Le point d'entrée du webhook à exécuter"
                 },
                 "modal": {
-                    "title": "",
-                    "description": "",
-                    "use_plain_text_label": "",
-                    "max_post_content_length_label": "",
-                    "max_post_content_length_help": "",
-                    "extra_text_label": "",
-                    "extra_text_help": "",
-                    "group_label": "",
-                    "group_help": "",
-                    "events_label": ""
+                    "title": "Paramètres du webhook",
+                    "description": "Vous pouvez modifier ici les événements sur lesquels le webhook est déclenché.",
+                    "use_plain_text_label": "Réduire la quantité de mise en page dans le contenu des messages",
+                    "max_post_content_length_label": "Longueur maximale du contenu des messages",
+                    "max_post_content_length_help": "Définissez un nombre pour limiter le contenu des messages dans tous les événements liés aux messages. Réglez cette option sur 0 ou laissez vide pour supprimer la limite.",
+                    "extra_text_label": "Texte supplémentaire",
+                    "extra_text_help": "Texte supplémentaire à inclure dans le webhook envoyé.",
+                    "group_label": "Groupe",
+                    "group_help": "Envoyer des ressources qui peuvent être vues par ce groupe",
+                    "events_label": "Événements"
                 },
                 "services": {
-                    "discord": "",
-                    "slack": "",
-                    "microsoft-teams": ""
+                    "discord": "Discord",
+                    "slack": "Slack",
+                    "microsoft-teams": "Microsoft Teams"
                 },
                 "actions": {
                     "flarum": {
                         "discussion": {
-                            "title": "",
-                            "started": "",
-                            "renamed": "",
-                            "hidden": "",
-                            "restored": "",
-                            "deleted": ""
+                            "title": "Discussion Flarum",
+                            "started": "Démarrée",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "hidden": "=> fof-webhooks.ref.hidden",
+                            "restored": "=> fof-webhooks.ref.restored",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "group": {
-                            "title": "",
-                            "created": "",
-                            "renamed": "",
-                            "deleted": ""
+                            "title": "Groupe Flarum",
+                            "created": "Créé",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "post": {
-                            "title": "",
-                            "posted": "",
-                            "revised": "",
-                            "hidden": "",
-                            "restored": "",
-                            "deleted": ""
+                            "title": "Message Flarum",
+                            "posted": "Publié",
+                            "revised": "Modifié",
+                            "hidden": "=> fof-webhooks.ref.hidden",
+                            "restored": "=> fof-webhooks.ref.restored",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         },
                         "user": {
-                            "title": "",
-                            "registered": "",
-                            "renamed": "",
-                            "deleted": ""
+                            "title": "Utilisateur Flarum",
+                            "registered": "Inscrit",
+                            "renamed": "=> fof-webhooks.ref.renamed",
+                            "deleted": "=> fof-webhooks.ref.deleted"
                         }
                     }
                 }
             }
         },
         "ref": {
-            "deleted": "",
-            "hidden": "",
-            "renamed": "",
-            "restored": ""
+            "deleted": "Supprimé",
+            "hidden": "Masqué",
+            "renamed": "Renommé",
+            "restored": "Restauré"
         }
     }
 }

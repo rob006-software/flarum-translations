@@ -1,0 +1,24 @@
+{
+    "sycho-profile-cover": {
+        "admin": {
+            "thumbnails": "Bélyegképek létrehozása",
+            "max_size": "A profil borítóképének legnagyobb mérete (KB-ban)",
+            "permission": {
+                "set_cover": "Profil borítóképének beállítása"
+            }
+        },
+        "forum": {
+            "cover": "Borító",
+            "edit_cover": "Borító szerkesztése",
+            "notice": "Legnagyobb méret: {size}",
+            "added": {
+                "success": "Borítókép feltöltve.",
+                "error": "A kép nem tölthető fel."
+            },
+            "removed": {
+                "success": "A borítókép eltávolítva.",
+                "error": "Nem lehet törölni a borítóképet, próbálja újra később."
+            }
+        }
+    }
+}

@@ -2,45 +2,54 @@
     "askvortsov-categories": {
         "admin": {
             "basics": {
-                "categories_label": ""
+                "categories_label": "Categorieën"
             },
             "labels": {
-                "keep_tags_nav": "",
+                "keep_tags_nav": "De link naar de categorieënpagina in de navigatiezijbalk behouden?",
                 "child_bare_icon": "",
-                "compact_mobile_mode": "",
-                "full_page_desktop": "",
-                "parent_remove_icon": "",
-                "parent_remove_description": "",
-                "parent_remove_stats": "",
-                "parent_remove_last_discussion": "",
-                "small_forum_optimized": ""
+                "compact_mobile_mode": "Compacte mobiele modus",
+                "full_page_desktop": "Volledige pagina op desktop?",
+                "parent_remove_icon": "Iconen verbergen voor bovenliggende categorieën?",
+                "parent_remove_description": "Beschrijving verbergen voor bovenliggende categorieën?",
+                "parent_remove_stats": "Statistieken verbergen voor bovenliggende categorieën?",
+                "parent_remove_last_discussion": "Recente discussies verbergen voor bovenliggende categorieën?",
+                "small_forum_optimized": "Optimaliseren voor kleinere forums?"
+            },
+            "help": {
+                "child_bare_icon": "Moeten iconen van onderliggende categorieën worden weergegeven zonder cirkelvormige achtergrond?",
+                "full_page_desktop": "Moet het navigatiemenu in de zijbalk worden samengevouwen tot een rij (zoals de traditionele categorieën pagina)? Hierdoor worden ook widgets (zoals Friends of Flarum Forum Statistics) verborgen in de navigatiebalk van de categorieënpagina.",
+                "small_forum_optimized": "Dit geeft een nauwkeuriger aantal discussies/berichten, maar vertraagt middelgrote en grote forums dramatisch."
             },
             "headings": {
-                "nav": "",
-                "layout": "",
-                "parent_display": "",
-                "child_display": "",
-                "performance": ""
+                "nav": "Navigatie",
+                "layout": "Layout",
+                "parent_display": "Bovenliggende categorieweergave",
+                "child_display": "Onderliggende categorieweergave",
+                "performance": "Prestatie"
             },
-            "title": ""
+            "title": "Categorie instellingen"
         },
         "forum": {
+            "all_categories": {
+                "meta_description_text": "Alle categorieën",
+                "meta_title_text": "=> askvortsov-categories.ref.categories"
+            },
             "header": {
-                "back_to_categories_tooltip": ""
+                "back_to_categories_tooltip": "Terug naar categorieën"
             },
             "index": {
-                "categories_link": ""
-            },
-            "meta": {
-                "categories_title": ""
+                "categories_link": "=> askvortsov-categories.ref.categories"
             },
             "stat-widgets": {
-                "discussion_label": "",
-                "post_label": ""
+                "discussion_label": "Discussies",
+                "post_label": "Berichten"
             },
             "last_discussion_widget": {
-                "no_discussions": ""
+                "no_discussions": "(Nog) geen berichten"
             }
+        },
+        "ref": {
+            "categories": "Categorieën"
         }
     }
 }

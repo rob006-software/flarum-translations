@@ -1,0 +1,25 @@
+{
+    "flarum-sticky": {
+        "admin": {
+            "permissions": {
+                "sticky_discussions_label": "Teemade nööpnõelastamine"
+            }
+        },
+        "forum": {
+            "badge": {
+                "sticky_tooltip": "=> flarum-sticky.ref.sticky"
+            },
+            "discussion_controls": {
+                "sticky_button": "=> flarum-sticky.ref.sticky",
+                "unsticky_button": "Eemalda nööpnõel"
+            },
+            "post_stream": {
+                "discussion_stickied_text": "{username} pani teemale nööpnõela.",
+                "discussion_unstickied_text": "{username} võttis teemalt nööpnõela."
+            }
+        },
+        "ref": {
+            "sticky": "Pane nööpnõel"
+        }
+    }
+}

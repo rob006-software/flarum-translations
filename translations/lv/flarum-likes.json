@@ -1,0 +1,29 @@
+{
+    "flarum-likes": {
+        "admin": {
+            "permissions": {
+                "like_posts_label": ""
+            }
+        },
+        "forum": {
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_liked_text": "{username} patīk tavs ieraksts"
+            },
+            "post": {
+                "like_link": "Patīk",
+                "liked_by_self_text": "{users} patīk šis.",
+                "liked_by_text": "",
+                "others_link": "=> core.ref.some_others",
+                "unlike_link": "Noņemt patīk",
+                "you_text": "=> core.ref.you"
+            },
+            "post_likes": {
+                "title": "Lietotāji kuriem patīk šis"
+            },
+            "settings": {
+                "notify_post_liked_label": "Kādam patīk viena no manām ziņām"
+            }
+        }
+    }
+}

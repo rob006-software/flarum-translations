@@ -41,7 +41,7 @@
             },
             "tooltip": {
                 "badge": "Anket",
-                "votes": "1 oy|{count} oy"
+                "votes": "{count, plural, one {# oy} other {# oy}}"
             },
             "votes_modal": {
                 "title": "Oy Verenler"

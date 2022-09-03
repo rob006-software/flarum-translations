@@ -1,0 +1,50 @@
+{
+    "flarum-flags": {
+        "admin": {
+            "permissions": {
+                "flag_posts_label": "Postituste raporteerimine",
+                "view_flags_label": "Raporteeritud postituste näitamine"
+            },
+            "settings": {
+                "flag_own_posts_label": "Luba kasutajatel raporteerida nende enda postitusi",
+                "guidelines_url_label": "Kasutajaskonna reeglite URL",
+                "title": "Raporteerimise seaded"
+            }
+        },
+        "forum": {
+            "flag_post": {
+                "confirmation_message": "Aitäh raporteerimast. Meie moderaatorid uurivad asja.",
+                "dismiss_button": "=> core.ref.okay",
+                "reason_details_placeholder": "Lisainfo (valikuline)",
+                "reason_inappropriate_label": "Sobimatu",
+                "reason_inappropriate_text": "See postitus on solvav, kuritahtlik või vastuolus <a>foorumi kasutusreeglitega</a>.",
+                "reason_missing_message": "Kirjuta palun meie moderaatoritele mõni täpsustav üksikasi.",
+                "reason_off_topic_label": "Teemaväline",
+                "reason_off_topic_text": "See postitus pole antud teemaga seotud ja peaks asuma mujal.",
+                "reason_other_label": "Muu (palun täpsusta)",
+                "reason_spam_label": "Spämm",
+                "reason_spam_text": "See postitus on reklaam.",
+                "submit_button": "=> flarum-flags.ref.flag_post",
+                "title": "=> flarum-flags.ref.flag_post"
+            },
+            "flagged_posts": {
+                "empty_text": "Raporteeritud postitusi pole",
+                "item_text": "{username} teemas <em>{discussion}</em>",
+                "title": "=> flarum-flags.ref.flagged_posts",
+                "tooltip": "=> flarum-flags.ref.flagged_posts"
+            },
+            "post": {
+                "dismiss_flag_button": "Eemalda lipuke",
+                "flagged_by_text": "Raporteeritud {username} poolt",
+                "flagged_by_with_reason_text": "Raporteeritud {username} poolt nagu {reason}"
+            },
+            "post_controls": {
+                "flag_button": "Raporteeri"
+            }
+        },
+        "ref": {
+            "flag_post": "Raporteeri postitus",
+            "flagged_posts": "Raporteeritud postitused"
+        }
+    }
+}

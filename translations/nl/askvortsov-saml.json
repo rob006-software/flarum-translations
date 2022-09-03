@@ -2,17 +2,25 @@
     "askvortsov-saml": {
         "admin": {
             "header": {
-                "text": ""
+                "text": "Zorg ervoor dat ofwel de metadata URL danwel de metadata ingevuld zijn."
             },
             "title": "",
             "labels": {
                 "idp_metadata_url": "",
                 "idp_metadata": "",
                 "only_option": "",
-                "sync_attributes": "",
                 "nameid_format": "",
+                "slo": "",
+                "authn_requests_signed": "",
+                "logout_request_signed": "",
+                "logout_response_signed": "",
+                "sign_metadata": "",
+                "want_assertions_encrypted": "",
                 "want_assertions_signed": "",
-                "want_messages_signed": ""
+                "want_messages_signed": "",
+                "x509_cert": "",
+                "x509_key": "",
+                "sync_attributes": ""
             },
             "options": {
                 "nameid_format": {

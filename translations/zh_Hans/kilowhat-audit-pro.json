@@ -2,29 +2,34 @@
     "kilowhat-audit": {
         "admin": {
             "permissions": {
-                "view": "查看审计日志"
+                "view": "查看审计日志",
+                "viewLimited": "查看有限审计日志"
             },
             "header": {
                 "title": "审计",
                 "free": "免费版",
                 "pro": "专业版",
-                "upgrade": "升级到专业版",
-                "documentation": "完整的在线文档",
-                "discuss": "Flarum 社区发布帖",
-                "version": "版本 {version}"
+                "upgrade": "升级到专业版"
             },
-            "menu": {
-                "title": "审计日志",
-                "description": "审查近期的论坛活动。"
+            "limitedSettings": {
+                "configure": "配置",
+                "title": "有限审计",
+                "introduction": "选择「有限审计」权限用户可见的日志类型",
+                "requiresExtension": "需要先启用扩展程序「{extension}」"
+            },
+            "settings": {
+                "limitedIpAddress": "查看 IP 地址"
             }
         },
         "forum": {
             "link": {
+                "all-audit": "审计日志",
                 "discussion-audit": "审计日志",
                 "user-audit": "审计日志（账户编辑）",
                 "actor-audit": "审计日志（用户作为行为人）"
             },
             "modal": {
+                "all-title": "审计日志",
                 "discussion-title": "讨论审计日志",
                 "user-title": "用户审计日志",
                 "actor-title": "行为人审计日志"
@@ -132,6 +137,10 @@
                     "logged_in": "登录 {username} 账户",
                     "logged_in_with_provider": "使用 {provider} 登录到 {username} 账户",
                     "logged_out": "退出登录 {username} 账户",
+                    "nickname_changed": "将 {username} 的昵称从 {old_nickname} 变更为 {new_nickname}",
+                    "nickname_requested": "请求为用户 {username} 设置新昵称 {new_nickname}",
+                    "nickname_request_approved": "同意 {username} 的昵称从 {old_nickname} 变更为 {new_nickname}",
+                    "nickname_request_rejected": "拒绝 {username} 变更昵称",
                     "password_changed": "修改 {username} 的密码",
                     "password_change_requested": "请求修改 {username} 的密码",
                     "provider_connected": "连接提供商 {provider} 到 {username} 账户",

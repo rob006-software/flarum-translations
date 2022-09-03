@@ -1,0 +1,47 @@
+{
+    "fof-pages": {
+        "admin": {
+            "edit_page": {
+                "content_label": "=> fof-pages.ref.content",
+                "content_placeholder": "=> fof-pages.ref.content",
+                "delete_page_button": "Удалить страницу",
+                "delete_page_confirmation": "Вы уверены, что хотите удалить страницу?",
+                "hidden_label": "Сохранить черновик",
+                "restricted_label": "Ограничить доступ (укажите, кто может получить доступ на вкладке \"Разрешения\")",
+                "html_label": "Включить HTML",
+                "set_as_home_page_confirmation": "Вы уверены, что хотите установить страницу в качестве домашней (главной) страницы?",
+                "set_as_home_page_done": "Домашняя (главная) страница обновлена",
+                "slug_label": "=> fof-pages.ref.slug",
+                "slug_placeholder": "=> fof-pages.ref.slug",
+                "submit_button": "=> core.ref.save_changes",
+                "title": "=> fof-pages.ref.create_page",
+                "title_label": "=> fof-pages.ref.title",
+                "title_placeholder": "=> fof-pages.ref.title",
+                "url_label": "=> fof-pages.ref.url",
+                "url_placeholder": "=> fof-pages.ref.url"
+            },
+            "pages": {
+                "create_button": "=> fof-pages.ref.create_page"
+            },
+            "pages_list": {
+                "empty_text": "Похоже, здесь нет страниц.",
+                "title": "=> fof-pages.ref.title"
+            },
+            "permissions": {
+                "restricted": "Смотреть страницы с ограниченным доступом"
+            },
+            "badges": {
+                "hidden": "Черновик",
+                "restricted": "Ограниченный доступ"
+            }
+        },
+        "ref": {
+            "content": "Содержимое",
+            "create_page": "Создать страницу",
+            "pages": "Страницы",
+            "slug": "Путь",
+            "title": "Заголовок",
+            "url": "URL"
+        }
+    }
+}

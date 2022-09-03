@@ -2,55 +2,55 @@
     "fof-doorman": {
         "forum": {
             "email": {
-                "subject": "",
-                "body": ""
+                "subject": "Inviter à rejoindre",
+                "body": "Bonjour,\n\nVous avez été invité à vous inscrire sur {forum}.\n\nLorsque vous serez prêt à créer votre compte, cliquez simplement sur le lien suivant et entrez le code lors de l'inscription :\n\nURL : {url}\nCode d'invitation : {code}\n\nSi vous avez reçu ce message par erreur, veuillez ignorer ce courriel.\n"
             },
             "sign_up": {
-                "invalid_doorkey": "",
-                "doorkey_required": "",
-                "doorman_placeholder": "",
-                "doorman_placeholder_optional": ""
+                "invalid_doorkey": "Le code d'invitation que vous avez saisi n'est pas valide.",
+                "doorkey_required": "Veuillez entrer un code d'invitation.",
+                "doorman_placeholder": "Code d'invitation",
+                "doorman_placeholder_optional": "Code d'invitation (facultatif)"
             }
         },
         "admin": {
             "modal": {
-                "title": "",
-                "group": "",
-                "help": "",
-                "placeholder": "",
-                "invalid_emails": "",
-                "max_use_conflict": "",
-                "send": "",
-                "success": ""
+                "title": "Envoyer des codes d'invitation",
+                "group": "Envoi d'invitations pour le groupe {group}",
+                "help": "Accepte une liste séparée par des virgules, des espaces ou des espaces séparés par des virgules. Saisissez une adresse de courriel individuelle ou collez-en une liste, puis appuyez sur espace pour les ajouter.",
+                "placeholder": "Saisissez les adresses de courriel ici",
+                "invalid_emails": "Les courriels suivants sont invalides : {emails}",
+                "max_use_conflict": "Le nombre d'adresses de courriel dépasse le nombre maximal d'utilisations pour ce code.",
+                "send": "Envoyer les courriels",
+                "success": "Les courriels ont été envoyés"
             },
-            "invalid_doorkey": "",
-            "doorkey_required": "",
+            "invalid_doorkey": "Le code d'invitation que vous avez fourni n'est pas valide.",
+            "doorkey_required": "Vous devez fournir un code d'invitation",
             "nav": {
-                "desc": ""
+                "desc": "Créez des codes d'invitation pour que les utilisateurs puissent s'inscrire et être affectés à un groupe"
             },
             "page": {
-                "title": "",
+                "title": "Doorman",
                 "doorkey": {
-                    "used_times": "",
-                    "title": "",
+                    "used_times": "{remaining, plural, one {{remaining} utilisation restante} other {{remaining} utilisations restantes}}",
+                    "title": "Codes d'invitation",
                     "help": {
-                        "key": "",
-                        "group": "",
-                        "max": "",
-                        "activates": ""
+                        "key": "Clé : code que l'utilisateur saisira lors de l'inscription.",
+                        "group": "Groupe : le groupe auquel l'utilisateur sera ajouté lors de son inscription.",
+                        "max": "Utilisations maximales : le nombre maximal de fois que le code peut être utilisé (réglez à 0 pour une utilisation illimitée)",
+                        "activates": "Activer l'utilisateur : active automatiquement l'utilisateur lorsqu'il s'inscrit."
                     },
-                    "warning": "",
-                    "key": "",
-                    "max_uses": "",
+                    "warning": "Ce code d'invitation a été utilisé le nombre maximum de fois.",
+                    "key": "Clé",
+                    "max_uses": "Utilisations maximales",
                     "heading": {
-                        "key": "",
-                        "group": "",
-                        "activate": "",
-                        "max_uses": ""
+                        "key": "Clé",
+                        "group": "Groupe",
+                        "activate": "Activer l'utilisateur",
+                        "max_uses": "Utilisations maximales"
                     },
                     "allow-public": {
-                        "title": "",
-                        "switch-label": ""
+                        "title": "Autoriser l'inscription publique",
+                        "switch-label": "Rendre le code d'invitation facultatif lors de l'inscription"
                     }
                 }
             }

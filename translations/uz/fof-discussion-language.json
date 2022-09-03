@@ -1,0 +1,45 @@
+{
+    "fof-discussion-language": {
+        "forum": {
+            "change_language": {
+                "edit_title": "{sarlavha} uchun tahrirlash tili",
+                "title": "Tahrirlash tili",
+                "submit_button": "=> core.ref.save_changes"
+            },
+            "composer_discussion": {
+                "choose_language_link": "Til"
+            },
+            "discussion_controls": {
+                "change_language_button": "Tilni sozlash"
+            },
+            "index_language": {
+                "any": "Har qanday til"
+            }
+        },
+        "admin": {
+            "settings": {
+                "native_label": "Ona tilidagi nomlardan foydalaning",
+                "show_flag_label": "Til nomlari bilan mamlakat bayroqlarini ko'rsatish",
+                "composer_default_label": "Muhokama kompozitorida joriy tilni oldindan tanlang",
+                "locale_sort_label": "Standart muhokama filtri uchun aniqlangan tildan foydalaning",
+                "show_any_lang_opt_label": "\"Har qanday til\" ni tanlash variantini ko'rsating",
+                "tags_page_discussion_locale_label": "Teglar sahifasida faqat foydalanuvchining joriy tilidagi muhokamalarni ko'rsating",
+                "errors": {
+                    "missing_assets": "Bu kengaytma uchun zarur bo‘lgan obyektlarni yuklay olmadik. <code>php flarum assets:publish</code>-ni ishga tushirib ko'ring va bu muammoni hal qiladimi yoki yo'qligini tekshiring."
+                },
+                "config": {
+                    "language_label": "",
+                    "country_label": ""
+                }
+            },
+            "permissions": {
+                "allow_change_language_label": "Tilni tahrirlashga ruxsat bering"
+            }
+        },
+        "api": {
+            "discussion": {
+                "validation_error": "Muhokama tilini tanlashingiz kerak."
+            }
+        }
+    }
+}

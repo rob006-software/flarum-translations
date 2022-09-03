@@ -1,0 +1,25 @@
+{
+    "fof-geoip": {
+        "admin": {
+            "settings": {
+                "title": "FriendsOfFlarum GeoIP",
+                "service_label": "Szolgáltatás",
+                "service_freegeoip_label": "FreeGeoIP",
+                "service_freegeoip_description": "Használja a <b>https://freegeoip.app/</b> szolgáltatást, hogy óránként 15000 IP országkódját kérje le ingyenesen.",
+                "service_ipstack_label": "IPStack",
+                "service_ipstack_description": "Használja a <b>https://ipstack.com</b> szolgáltatást, hogy havi 10000 lekérést indítson ingyenesen. A fizetős csomagok kapcsolati információkat (internetszolgáltató, szervezet) és kockázati szintet is tartalmaznak.",
+                "service_ipdata_label": "IPData",
+                "service_ipdata_description": "Használja a <b>https://ipdata.co</b> szolgáltatást, hogy napi 1500 lekérést indítson ingyenesen.",
+                "service_ipapi_label": "IP Api",
+                "service_ipapi_description": "Használja a <b>http://ip-api.com</b> szolgáltatást, hogy percenként 150 lekérést indítson ingyenesen. Ha többet indít, akkor az IP-je feketelistára kerülhet, melyet később feloldhat itt: <b>http://ip-api.com/docs/unban</b>.",
+                "access_key_label": "Hozzáférési kulcs",
+                "security_label": "Biztonsági modul (professional plus szükséges)"
+            }
+        },
+        "forum": {
+            "alerts": {
+                "ip_copied": "IP-cím másolva"
+            }
+        }
+    }
+}

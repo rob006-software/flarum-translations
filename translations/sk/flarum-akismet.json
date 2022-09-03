@@ -1,0 +1,21 @@
+{
+    "flarum-akismet": {
+        "admin": {
+            "akismet_settings": {
+                "api_key_label": "API Kľúč",
+                "title": "Akismet Nastavenia",
+                "delete_blatant_spam_label": "Automaticky odstraňovať očividný spam",
+                "delete_blatant_spam_help": "Ak Akismet usúdi že príspevok je očividný spam, namiesto nahlásenia ho automaticky odstráni"
+            },
+            "permissions": {
+                "bypass_akismet": "Preskočiť kontrolou Akismet"
+            }
+        },
+        "forum": {
+            "post": {
+                "akismet_flagged_text": "Akismet označil ako spam",
+                "not_spam_button": "Toto nie je spam"
+            }
+        }
+    }
+}

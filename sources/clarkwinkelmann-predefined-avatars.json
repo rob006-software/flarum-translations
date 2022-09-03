@@ -1,0 +1,34 @@
+{
+    "clarkwinkelmann-predefined-avatars": {
+        "admin": {
+            "settings": {
+                "predefinedAvatarsOnly": "Only allow predefined avatars",
+                "predefinedAvatarsOnlyHelp": "Removes the ability to upload custom avatar images unless you have the permission below.",
+                "predefinedAvatarsNoRemove": "Prevent setting no avatar",
+                "predefinedAvatarsNoRemoveHelp": "Users who already have a custom or predefined avatar will not be able to go back to the default \"initials\" avatar unless they have the permission below.",
+                "predefinedAvatarsDefault": "Default avatar",
+                "predefinedAvatarsDefaultHelp": "Applies to new users at registration.",
+                "predefinedAvatars": "Available avatars",
+                "predefinedAvatarsHelp": "The files are not resized or converted. Make sure to resize, compress and export them in the format of your choice before uploading. Flarum works best with square 100x100 png or jpg images, but you can take advantage of other resolutions with custom CSS.\n",
+                "defaultOptions": {
+                    "none": "No avatar",
+                    "first": "First avatar from list",
+                    "random": "Random avatar from list"
+                }
+            },
+            "permissions": {
+                "setPredefinedAvatar": "Choose an avatar from the predefined list",
+                "setCustomAvatarAlways": "Set a custom avatar anytime"
+            }
+        },
+        "forum": {
+            "modal": {
+                "title": "Choose an avatar",
+                "imageAlt": "Avatar"
+            },
+            "editor": {
+                "setPredefinedAvatar": "Choose a predefined avatar"
+            }
+        }
+    }
+}

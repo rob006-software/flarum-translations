@@ -1,0 +1,63 @@
+{
+    "clarkwinkelmann-carving-contest": {
+        "forum": {
+            "nav": {
+                "contest": "Faragó verseny"
+            },
+            "page": {
+                "title": "Tökfaragó verseny",
+                "loading": "Bejegyzések betöltése…",
+                "participate": "Részvétel",
+                "already-participated": "Már részt vett",
+                "delete-confirmation": "Biztos, hogy törli {username} bejegyzését: „{name}”?",
+                "like": "Kedvelés",
+                "already-liked": "Kedvelem",
+                "unlike": "Kedvelés visszavonása",
+                "refresh": "Frissítés",
+                "load-more": "További bejegyzések betöltése",
+                "sort": {
+                    "mostLikes": "Legtöbb kedvelés",
+                    "fewerLikes": "Kevesebb kedvelés",
+                    "mostRecent": "Legfrissebb",
+                    "leastRecent": "Legrégebbi"
+                },
+                "likes": {
+                    "you_text": "=> core.ref.you",
+                    "others_link": "=> core.ref.some_others",
+                    "liked_by_self_text": "{users} kedvelte ezt.",
+                    "liked_by_text": "{count, plural, one {{users} kedvelte ezt.} other {{users} kedvelte ezt.}}"
+                }
+            },
+            "modal": {
+                "title": "Részvétel",
+                "name": "Nevezze el az alkotását",
+                "submit": "Elküldés",
+                "tools": {
+                    "circle": "Kör",
+                    "square": "Négyzet"
+                }
+            },
+            "likes_modal": {
+                "title": "Felhasználók, akik kedvelték a bejegyzést"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "view": "Bejegyzések megtekintése",
+                "like": "Bejegyzések kedvelése",
+                "participate": "Részvétel",
+                "moderate": "Moderálás"
+            },
+            "settings": {
+                "maxEntriesPerUser": "Legtöbb beküldés felhasználónként",
+                "colorMode": "Színes mód használata a faragási mód helyett"
+            },
+            "colors": {
+                "simple": "Egyszerű színkészlet",
+                "all": "Tetszőleges szín",
+                "custom": "Egyéni színlista",
+                "custom-help": "#hex vagy rgb() értékek vesszővel elválasztott listája"
+            }
+        }
+    }
+}

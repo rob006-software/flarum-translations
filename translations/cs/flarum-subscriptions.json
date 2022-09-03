@@ -1,0 +1,50 @@
+{
+    "flarum-subscriptions": {
+        "forum": {
+            "badge": {
+                "following_tooltip": "=> flarum-subscriptions.ref.following",
+                "ignoring_tooltip": "=> flarum-subscriptions.ref.ignoring"
+            },
+            "discussion_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "unfollow_button": "Přestat sledovat",
+                "unignore_button": "Přestat ignorovat"
+            },
+            "following": {
+                "meta_title_text": "=> flarum-subscriptions.ref.following"
+            },
+            "index": {
+                "following_link": "=> flarum-subscriptions.ref.following"
+            },
+            "notifications": {
+                "new_post_text": "Uživatel {username} přispěl"
+            },
+            "settings": {
+                "follow_after_reply_label": "Automaticky začít sledovat témata, na která odpovím",
+                "notify_new_post_label": "Někdo přispěje do tématu, které sleduji"
+            },
+            "sub_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "following_button": "=> flarum-subscriptions.ref.following",
+                "following_text": "Být upozorněn na všechny odpovědi.",
+                "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
+                "ignoring_text": "Nikdy nebýt upozorňován. Skrýt ze seznamu témat.",
+                "not_following_button": "Nesledované",
+                "not_following_text": "Být upozorněn jen když jsem @zmíněn.",
+                "notify_alert_tooltip": "Obdržet oznámení na fóru, když se objeví nový příspěvek",
+                "notify_email_tooltip": "Obdržet e-mail, když se objeví nový příspěvek"
+            }
+        },
+        "email": {
+            "new_post": {
+                "subject": "[Nový příspěvek] {title}",
+                "body": "Ahoj {recipient_display_name}!\n\n{poster_display_name} vytvořil příspěvek v diskuzi, kterou sleduješ: {title}.\n\nPro zobrazení nové aktivity se podívej na následující odkaz:\n{url}\n\n---\n\n{content}\n\n---\n\nNebudeš dostávat žádné další notifikace k této diskuzi, dokud nebudeš v obraze.\n"
+            }
+        },
+        "ref": {
+            "follow": "Sledovat",
+            "following": "Sledované",
+            "ignoring": "Ignorované"
+        }
+    }
+}

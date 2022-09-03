@@ -7,14 +7,24 @@
         },
         "forum": {
             "notifications": {
-                "user_suspended_text": "{username} heeft je {timeReadable} opgeschort",
-                "user_unsuspended_text": "{username} unsuspended you"
+                "user_suspended_text": "Je bent geschorst voor {timeReadable}",
+                "user_suspended_indefinite_text": "Je bent voor onbepaalde tijd geschorst",
+                "user_unsuspended_text": "Je schorsing is ongedaan gemaakt"
+            },
+            "suspension_info": {
+                "dismiss_button": "Afwijzen",
+                "indefinite": "Dit is een schorsing voor onbepaalde tijd",
+                "limited": "Deze schorsing is van kracht tot {date}",
+                "title": "Dit account is opgeschort"
             },
             "suspend_user": {
+                "display_message": "Bericht weergeven voor gebruiker",
                 "indefinitely_label": "Opgeschort voor onbepaalde tijd",
                 "limited_time_days_text": " dagen",
                 "limited_time_label": "Opgeschort voor een beperkte tijd ...",
                 "not_suspended_label": "Niet geschorst",
+                "placeholder_optional": "Optioneel",
+                "reason": "Reden voor schorsing",
                 "status_heading": "Opschortingsstatus",
                 "submit_button": "=> core.ref.save_changes",
                 "title": "{username} opschorten"
@@ -24,6 +34,17 @@
             },
             "user_controls": {
                 "suspend_button": "Opschorten"
+            }
+        },
+        "email": {
+            "no_reason_given": "Er is geen reden opgegeven voor deze schorsing.",
+            "suspended": {
+                "subject": "Uw account is opgeschort",
+                "body": "Hoi {recipient_display_name},\n\nU bent geschorst om de volgende reden:\n\n---\n{suspension_message}\n---\n"
+            },
+            "unsuspended": {
+                "subject": "Uw account is niet meer opgeschort",
+                "body": "Hallo {recipient_display_name},\n\nJe schorsing is ongedaan gemaakt. U kunt teruggaan naar het forum door op de volgende link te klikken:\n\n{forum_url}\n"
             }
         }
     }

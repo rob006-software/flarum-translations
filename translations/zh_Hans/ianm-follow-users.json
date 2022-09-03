@@ -3,14 +3,23 @@
         "admin": {
             "permissions": {
                 "be_followed_label": "允许用户关注他人"
+            },
+            "settings": {
+                "button-on-profile-label": "在用户资料卡片头部区域展示以下按钮",
+                "stats-on-profile-label": ""
             }
         },
         "forum": {
+            "followed": "",
+            "followers": "",
             "profile_link": "=> ianm-follow-users.lib.following_link",
+            "profile_page": {
+                "no_following": "您还没有关注任何人。"
+            },
             "user_controls": {
-                "follow_button": "关注",
+                "follow_button": "=> ianm-follow-users.lib.follow",
+                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type",
                 "follow_confirmation": "确定要关注这个用户吗？",
-                "unfollow_button": "取消关注",
                 "unfollow_confirmation": "确定要取消关注这个用户吗？"
             },
             "settings": {
@@ -21,8 +30,8 @@
                 "block_follow": "禁止他人关注我"
             },
             "index": {
-                "follow_tag_button": "关注",
-                "unfollow_tag_button": "取消关注"
+                "follow_tag_button": "=> ianm-follow-users.lib.follow",
+                "unfollow_tag_button": "=> ianm-follow-users.lib.change_follow_type"
             },
             "notifications": {
                 "new_discussion_text": "{username} 发布主题",
@@ -31,19 +40,53 @@
                 "new_unfollower_text": "{username} 取关了你"
             },
             "badge": {
-                "label": "关注的人"
+                "label": {
+                    "follow": "关注主题",
+                    "lurk": "特别关注"
+                }
+            },
+            "filter": {
+                "following": "我的关注"
+            },
+            "modals": {
+                "select_follow_level": {
+                    "title": "关注 {username}",
+                    "description": "您想要如何关注 <em>{username}</em>？",
+                    "follow_levels_heading": "关注级别",
+                    "follow_select_label": "关注类型",
+                    "no_user_attr_provided_err": "哎呀，打开弹窗时发生了错误。",
+                    "no_user_attr_provided_err_debug": "创建选择关注级别 (SelectFollowUserLevel) 弹窗时 `user` 用户属性传入，因此弹窗生成失败。",
+                    "save_btn": "保存",
+                    "cancel_btn": "取消"
+                }
             }
         },
         "email": {
-            "new_discussion_by_user_subject": "【关注的人】{title}",
-            "new_follower_subject": "【关注】你有一个新粉丝！",
-            "new_post_subject": "【关注的人】新回复于 {title}",
+            "new_discussion_by_user_subject": "【关注】{title}",
+            "new_follower_subject": "【关注】新粉丝！",
+            "new_post_subject": "【关注】新回复于 {title}",
             "new_discussion_by_user_body": "{recipient_display_name}，你好！\n\n{user_display_name} 发布了一个新主题：{discussion_title}\n\n点击下方链接查看内容：\n\n{discussion_url}\n\n---\n\n{post_content}\n",
             "new_follower_body": "{recipient_display_name}，你好！\n\n{follower_display_name} 关注了你，当你发布新主题时他们会收到通知。\n\n点击下方链接查看粉丝资料：\n\n{profile_url}\n",
             "new_post_body": "{recipient_display_name}，你好！\n\n{user_display_name} 发表回复于 {discussion_title}\n\n点击下方链接查看内容：\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\n在您已读前，您不会再收到此主题的更多新通知。\n"
         },
         "lib": {
-            "following_link": "关注的人"
+            "following_link": "我的关注",
+            "follow": "关注",
+            "change_follow_type": "修改关注类型",
+            "follow_levels": {
+                "unfollow": {
+                    "name": "取消关注",
+                    "description": "不接收 <em>{username}</em> 的任何活动通知。\n"
+                },
+                "follow": {
+                    "name": "关注主题",
+                    "description": "接收 <em>{username}</em> 发布新主题的通知。\n"
+                },
+                "lurk": {
+                    "name": "特别关注",
+                    "description": "接收 <em>{username}</em> 发布新主题和回复的所有通知。\n"
+                }
+            }
         }
     }
 }

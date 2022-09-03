@@ -1,0 +1,18 @@
+{
+    "clarkwinkelmann-username-blacklist": {
+        "admin": {
+            "settings": {
+                "regex": "Biểu thức chính quy",
+                "regexHelp": "Chuyển từ danh sách miền sang kiểm tra biểu thức chính quy. Mỗi dòng của danh sách phải là một biểu thức chính quy hợp lệ với các dấu phân cách.\n",
+                "message": "Tùy chỉnh thông báo lỗi",
+                "blacklist": "Danh sách đen",
+                "blacklistHelp": "Một biểu thức trên mỗi dòng. Nếu không có danh sách đen nào được cung cấp, mọi thứ không có trong danh sách trắng sẽ bị từ chối.\n",
+                "whitelist": "Danh sách chắn",
+                "whitelistHelp": "Một biểu thức trên mỗi dòng. Sẽ được ưu tiên hơn danh sách đen.\n"
+            }
+        },
+        "api": {
+            "fallbackMessage": "Tên người dùng không có trong danh sách trắng."
+        }
+    }
+}

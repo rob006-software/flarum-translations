@@ -42,9 +42,7 @@
                 "create_secondary_tag_button": "新建次标签",
                 "primary_heading": "主标签",
                 "secondary_heading": "次标签",
-                "settings_heading": "设置",
-                "create_tag_button": "=> flarum-tags.ref.create_tag",
-                "settings_button": "设置"
+                "settings_heading": "设置"
             }
         },
         "forum": {
@@ -53,8 +51,9 @@
                 "meta_title_text": "=> flarum-tags.ref.tags"
             },
             "choose_tags": {
-                "choose_primary_placeholder": "选择一个主标签|最多选择 {count} 个主标签",
-                "choose_secondary_placeholder": "选择一个次标签|最多选择 {count} 个次标签",
+                "bypass_requirements": "跳过标签选择",
+                "choose_primary_placeholder": "{count, plural, one {选择主标签    } other {最多选择 # 个主标签}}",
+                "choose_secondary_placeholder": "{count, plural, one {选择一个次标签} other {最多选择 # 个次标签}}",
                 "edit_title": "更改「{title}」的节点标签",
                 "submit_button": "=> core.ref.okay",
                 "title": "添加标签"
@@ -77,7 +76,7 @@
                 "added_and_removed_tags_text": "{username} 添加标签 {tagsAdded}，并移除标签 {tagsRemoved}。",
                 "added_tags_text": "{username} 添加标签 {tagsAdded}",
                 "removed_tags_text": "{username} 移除标签 {tagsRemoved}",
-                "tags_text": "{tags}|{tags}"
+                "tags_text": "{count, plural, one {{tags}} other {{tags}}} 标签"
             },
             "tag": {
                 "meta_description_text": "{tag} 标签下的所有主题"
@@ -88,8 +87,7 @@
         },
         "ref": {
             "name": "标签名称",
-            "tags": "标签",
-            "create_tag": "新建标签"
+            "tags": "标签"
         }
     }
 }

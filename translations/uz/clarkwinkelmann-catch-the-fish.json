@@ -1,0 +1,188 @@
+{
+    "clarkwinkelmann-catch-the-fish": {
+        "forum": {
+            "moderate": {
+                "add": "Qo'shish",
+                "edit": "Tahrirlash",
+                "delete": "Oʻchirish",
+                "fishes": "Baliqlar",
+                "rounds": "Davralar"
+            },
+            "nav": {
+                "rankings": "Baliq reytingini ushlang",
+                "settings": "Baliq sozlamalarini oling"
+            },
+            "new-round-modal": {
+                "title": "Yangi raund"
+            },
+            "new-fish-modal": {
+                "title": "Yangi baliq"
+            },
+            "edit-round-modal": {
+                "title": "“{name}” raundini tahrirlash"
+            },
+            "edit-fish-modal": {
+                "title": "Baliq \"{nomi}\"ini tahrirlash"
+            },
+            "caught-fish-modal": {
+                "title": "Siz baliq tutdingiz!",
+                "named-by": "tomonidan nomlangan",
+                "placed-by": "tomonidan joylashtirilgan",
+                "congratulation": "Tabriklaymiz, siz baliq tutdingiz! Siz {catch_count} ta baliq tutdingiz.",
+                "name": "Baliq nomi",
+                "name-help": "Agar xohlasangiz, baliq nomini o'zgartirishingiz mumkin. Ism forum qoidalariga mos kelishi kerak.",
+                "placement-help": "Siz so'nggi muhokamalarda va faol foydalanuvchi profillarida forumda kerakli joyda baliqni yashirishingiz mumkin. O'zingiz qo'ygan baliqni tutolmaysiz.",
+                "submit-name-place-later": "Ismni saqlang va yashirin joyni tanlang",
+                "submit-name": "Ismni saqlang",
+                "submit-place-later": "Ha, men yashirinadigan joy tanlayman",
+                "submit-continue": "Davom eting",
+                "submit-name-place-random": "Ismni saqlang va baliq o'zini yashirib qo'ying",
+                "submit-place-random": "Baliq o'zini yashirsin"
+            },
+            "edit-round": {
+                "name": "Nomi",
+                "name-help": "Ushbu turning ommaviy nomi bannerda va reytingda ko'rsatiladi",
+                "starts-at": "Boshlanish vaqti",
+                "ends-at": "Tugash vaqti",
+                "starting-pack": "Boshlang'ich to'plami",
+                "starting-pack-help": "Sizni qisqa vaqt ichida boshlash uchun bir nechta baliqlarni o'z ichiga oladi",
+                "create": "Raundni yarating",
+                "save": "Raundni saqlash",
+                "delete": "Raundni o'chirish",
+                "delete-confirmation": "Raund \"{nomi}\"ni o'chirilsinmi?"
+            },
+            "edit-fish": {
+                "name": "Nomi",
+                "name-help": "Baliqning hozirgi nomi. Agar o'yinchilar baliq nomini o'zgartirishga ruxsati bo'lsa, ularni tahrirlashlari mumkin",
+                "create": "Baliq yaratish",
+                "save": "Baliqni saqlash",
+                "delete": "Baliqni o'chirish",
+                "delete-confirmation": "Baliq \"{nomi}\"ni o'chirilsinmi?"
+            },
+            "moving-fish": {
+                "login": "Baliqni tutish uchun tizimga kiring"
+            },
+            "fish-image": {
+                "alt": "“{name}” baliq tasviri",
+                "missing": "Baliq tasviri yetishmayapti"
+            },
+            "round-alert": {
+                "message": "“{name}” raundda, imkon qadar koʻproq baliq tuting",
+                "rankings": "Reytinglarga qarang"
+            },
+            "basket": {
+                "title": "Baliq savati",
+                "drag-help": "Baliqni muhokama, post yoki foydalanuvchi profiliga sudrab olib tashlang",
+                "time": "Joylashuv vaqti: {time}"
+            },
+            "table-round": {
+                "loading": "Yuklanmoqda...",
+                "title": "Raundlar",
+                "new": "Yangi raund",
+                "name": "Nomi",
+                "start": "dan",
+                "end": "gacha",
+                "actions": "Harakatlar",
+                "edit": "Tahrirlash",
+                "fishes": "Baliqlar"
+            },
+            "table-fish": {
+                "loading": "Yuklanmoqda...",
+                "title": "{nomi} raund uchun baliqlar",
+                "new": "Yangi baliq",
+                "image": "Rasm",
+                "name": "Nomi",
+                "user-name": "Oxirgi martta nomlangan",
+                "user-place": "Oxirgi martta joylashtirilgan",
+                "placement": "Joriy joylashuv",
+                "actions": "Harakatlar",
+                "edit": "O'zgartirish",
+                "no-user-name": "Qayta nomlanmagan",
+                "no-user-place": "Tasodifiy",
+                "upload": "Yangi rasm yuklang",
+                "new-from-image": "Rasmlarni ommaviy import qilish orqali yangi baliqlarni yarating"
+            },
+            "table-ranking": {
+                "loading": "Yuklanmoqda...",
+                "title": "Tur reytingi {nomi}",
+                "rank": "Nomi",
+                "count": "Tutilgan baliqlar",
+                "user": "Foydalanuvchi"
+            },
+            "page-ranking": {
+                "title": "Reytinglar",
+                "permission": "Sizda reytingni ko'rish uchun ruxsat yo'q",
+                "nothing": "Faol turlar yo'q"
+            },
+            "drop-area": {
+                "message": "Siz baliqni bu yerga qo'yishingiz mumkin",
+                "missing-from-store": "Ma'lumotlar omborida baliq topilmadi"
+            }
+        },
+        "admin": {
+            "settings": {
+                "user": "Foydalanuvchilar",
+                "user-age": "Baliq qo'yilishi uchun foydalanuvchi qancha vaqtdan beri faol bo'lishi kerak (kunlar)",
+                "user-probability": "Foydalanuvchi profiliga joylashish ehtimoli (%)",
+                "discussion": "Muhokamalar",
+                "discussion-age": "Unga baliq qo'yish uchun qancha vaqt munozaralar bo'lishi mumkin (kunlar)",
+                "discussion-tags": "Oq roʻyxatga teg",
+                "discussion-tags-unavailable": "Sozlama mavjud emas, chunki Teglar kengaytmasi oʻchirilgan.",
+                "discussion-tags-help": "Agar biror teg tanlamasangiz, yuqoridagi vaqt sozlamalariga mos keladigan har qanday muhokamani tanlash mumkin. Agar biron-bir miqdordagi teglar tanlangan bo'lsa, muhokamada tanlangan teglardan kamida bittasi bo'lishi kerak. Ehtimollik - bu avvalgi barcha variantlar sinab ko'rilganidan keyin tanlanish imkoniyati. Ro'yxatdagi oxirgi teg har doim zaxira rolini o'ynaydi, shuning uchun teg ichida kamida bitta haqiqiy muhokama borligiga ishonch hosil qiling.\n",
+                "tags-header": {
+                    "tag": "Teg",
+                    "probability": "Ehtimollik"
+                },
+                "tags-control": {
+                    "choose": "Tegni tanlang",
+                    "add": "Oq ro'yxatga qo'shish",
+                    "down": "Pastga siljiting",
+                    "up": "Yuqoriga harakatlanmoq",
+                    "delete": "Oq ro'yxatdan o'chirish"
+                },
+                "tags-fallback": {
+                    "last-line": "Orqaga chekinish",
+                    "single-line": "Ehtimollik uchun kamida 2 teg kerak"
+                },
+                "post": "Xabarlar",
+                "post-age": "Unga baliq qo'yish uchun qancha eski postlar bo'lishi mumkin (kun)",
+                "post-probability": "Muhokamaga emas, balki postga joylashtirilish ehtimoli (%)",
+                "general": "Umumiy",
+                "time-to-place": "Baliqni tasodifiy joylashtirishdan oldin joylashtirishga ruxsat berilgan vaqt (daqiqa)",
+                "alert-round": "Bosh sahifada davra nomi va davomiyligi bilan ogohlantirishni ko'rsating",
+                "animate-flip": "Yo'nalish bo'yicha baliq tasvirlarini aylantiring"
+            },
+            "permissions": {
+                "visible": "Baliqlarni ko'ring",
+                "list-rankings": "Reyting sahifasiga kiring",
+                "participate": "Raundlarda ishtirok eting va baliqlarni tuting",
+                "choose-place": "Tutgandan keyin baliqni joylashtirishni tanlang",
+                "choose-name": "Tutgandan keyin baliq nomini tanlang",
+                "moderate": "O'rtacha dumaloq va baliqlar"
+            }
+        },
+        "api": {
+            "default-fish-name": "Baliq #{raqam}",
+            "wrong-catch-placement": "Bu yerda baliq yo'q. Balki siz yetarlicha tez bo'lmagansiz va boshqa birov buni birinchi bo'lib olgan",
+            "too-many-placement-models": "Bir vaqtning o'zida faqat bitta joylashtirish mumkin",
+            "invalid-discussion-id": "Muhokama mavjud emasga o'xshaydi, ehtimol u yaqinda o'chirib tashlangan",
+            "invalid-post-id": "Xabar mavjud emasga o'xshaydi, ehtimol u yaqinda o'chirib tashlangan",
+            "invalid-user-id": "Foydalanuvchi mavjud emasga o'xshaydi, ehtimol u yaqinda o'chirib tashlangan",
+            "model-deleted": "Oʻchirilgan muhokama yoki postga baliq qoʻyib boʻlmaydi",
+            "model-private": "Baliqni shaxsiy muhokama yoki postga joylashtira olmaysiz",
+            "tag-not-allowed": "Bu teg ostida baliq joylashtira olmaysiz",
+            "inactive-discussion": "Baliqni {kunlar} kundan ortiq faolsiz muhokamaga qoʻyib boʻlmaydi",
+            "inactive-post": "{kunlar} kundan koʻproq vaqt oldin yaratilgan postga baliq qoʻyib boʻlmaydi",
+            "inactive-user": "Foydalanuvchiga {kunlar} kundan ortiq faol boʻlmagan baliqlarni joylashtirib boʻlmaydi",
+            "non-comment-post": "Baliqlarni faqat sharh postlariga joylashtirish mumkin",
+            "user-suspended": "To‘xtatilgan foydalanuvchiga baliq qo‘yib bo‘lmaydi",
+            "random-error": "Tasodifiy baliq joylashuvini yaratib bo'lmadi",
+            "cannot-catch-own-fish": "O'zingiz qo'ygan baliqni tutolmaysiz",
+            "cannot-catch-hold-fish": "Oldingi ovchi baliqni qo'lga olishingizdan oldin uni qo'yib yuborishi kerak",
+            "fish-update-wrong-user": "Bu baliqni endi tahrirlay olmaysiz. Ehtimol, kimdir uni tutib olgan",
+            "fish-update-expired": "Juda kech, endi bu baliqni tahrirlay olmaysiz. Ayni paytda u avtomatik ravishda biror joyga joylashtirildi",
+            "round-not-started": "Bu raund boshlanmadi",
+            "round-finished": "Bu raund yakunlandi"
+        }
+    }
+}

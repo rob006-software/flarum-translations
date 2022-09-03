@@ -1,0 +1,27 @@
+{
+    "migratetoflarum-canonical": {
+        "admin": {
+            "settings": {
+                "step": {
+                    "how_to": "Ako povoliť kanonické presmerovanie",
+                    "check_config_url": "Skontrolujte, či je URL adresa definovaná vo Vašom config.php ako preferovaná kanonická URL (v súčasnosti: {url})",
+                    "admin_on_canonical": "Pristupovať na admin panel cez kanonickú URL",
+                    "enable_temporary": "Povoliť dočasné presmerovanie a skontrolovať či všetko funguje",
+                    "enable_permanent": "Povoliť permanentné presmerovanie",
+                    "suggestions": "Ostatné návrhy ktoré tento doplnok nevynucuje alebo nezahŕňa",
+                    "use_https": "Použiť HTTPS kanonickú URL",
+                    "use_hsts": "Použiť HSTS pre prevenciu proti downgrade útokom"
+                },
+                "field": {
+                    "status": "Typ presmerovania",
+                    "wrong_url": "Nastavenia tohto doplnku sa zobrazia akonáhle vstúpite na Vaše fórum pomocou kanonickej URL"
+                },
+                "option": {
+                    "disabled": "Zakázané (doplnok nič neurobí)",
+                    "302": "302 (Dočasné presmerovanie, pre testovanie)",
+                    "301": "301 (Permanentné presmerovanie, produkčné nastavenie)"
+                }
+            }
+        }
+    }
+}

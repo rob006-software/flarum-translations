@@ -1,0 +1,36 @@
+{
+    "flagrow-ads": {
+        "admin": {
+            "buttons": {
+                "save": "Salva impostazioni"
+            },
+            "positions": {
+                "under-header": {
+                    "title": "Posizione dell'annuncio sotto l'header",
+                    "placeholder": "Inserisci il codice dell'annuncio qui."
+                },
+                "between-posts": {
+                    "title": "Posizione annuncio tra i post",
+                    "placeholder": "=> flagrow-ads.admin.positions.under-header.placeholder"
+                },
+                "under-nav-items": {
+                    "title": "Posizione dell'annuncio nella colonna di sinistra sotto i tag in prima pagina",
+                    "placeholder": "=> flagrow-ads.admin.positions.under-header.placeholder"
+                }
+            },
+            "settings": {
+                "adsense-title": "Impostazioni Adsense",
+                "position-title": "Posizione Annunci",
+                "adsense-enable": "Adsense abilitato",
+                "adsense-client-id": "Fornisci il tuo publisher ID",
+                "start-from-post": "Specifica da quale post iniziare a mostrare un annuncio",
+                "between-n-posts": "Specifica dopo quanti post inserire un annuncio",
+                "header-only-frontpage": "Sotto l'intestazione di navigazione l'annuncio viene mostrato solo in prima pagina"
+            },
+            "tab": {
+                "title": "Pubblicità",
+                "description": "Imposta le preferenze e le posizioni degli annunci."
+            }
+        }
+    }
+}

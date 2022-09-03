@@ -8,14 +8,7 @@
                 "title": "Denetim",
                 "free": "Bedava",
                 "pro": "Pro",
-                "upgrade": "Pro'ya yükselt",
-                "documentation": "Tam çevrimiçi belgeler",
-                "discuss": "Flarum Discuss'da Tartışma",
-                "version": "Sürüm {version}"
-            },
-            "menu": {
-                "title": "Denetim Günlüğü",
-                "description": "Son eylemleri inceleyin."
+                "upgrade": "Pro'ya yükselt"
             }
         },
         "forum": {
@@ -89,7 +82,7 @@
                     "user_changed": "{discussion} yazarı {old_user} iken {new_user} olarak değiştirildi"
                 },
                 "extension": {
-                    "disabled": "Devre dışı bırakılan uzantı {package}",
+                    "disabled": "Uzantı etkisizleştirildi {package}",
                     "enabled": "Etkin uzantı {package}"
                 },
                 "fof_ban_ips": {
@@ -132,6 +125,10 @@
                     "logged_in": "{username} hesabına giriş yapıldı",
                     "logged_in_with_provider": "{provider} kullanarak {username} hesabına giriş yaptınız",
                     "logged_out": "{username} hesabından çıkış yapıldı",
+                    "nickname_changed": "{username} adlı kullanıcının {old_nickname} olan takma adı {new_nickname} olarak değiştirildi",
+                    "nickname_requested": "{username} kullanıcısı için {new_nickname} adlı yeni takma ad istendi",
+                    "nickname_request_approved": "Onaylanan {username} adlı kullanıcının takma adı {old_nickname} iken {new_nickname} olarak değiştirildi",
+                    "nickname_request_rejected": "{username} adlı kullanıcının takma adı değişikliği reddedildi",
                     "password_changed": "{username} kullanıcısının şifresi değiştirildi",
                     "password_change_requested": "{username} şifresinin değiştirilmesi istendi",
                     "provider_connected": "Sağlayıcı {provider} ile {username} hesabına bağlandı",

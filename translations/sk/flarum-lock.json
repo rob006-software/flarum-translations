@@ -1,0 +1,28 @@
+{
+    "flarum-lock": {
+        "admin": {
+            "permissions": {
+                "lock_discussions_label": "Uzamknúť diskusie"
+            }
+        },
+        "forum": {
+            "badge": {
+                "locked_tooltip": "Uzamknuté"
+            },
+            "discussion_controls": {
+                "lock_button": "Zamknúť",
+                "unlock_button": "Odomknúť"
+            },
+            "notifications": {
+                "discussion_locked_text": "Používateľ {username} to uzamkol"
+            },
+            "post_stream": {
+                "discussion_locked_text": "Používateľ {username} uzamkol túto diskusiu.",
+                "discussion_unlocked_text": "Používateľ {username} odomkol túto diskusiu."
+            },
+            "settings": {
+                "notify_discussion_locked_label": "Niekto uzamkne diskusiu ktorú som začal"
+            }
+        }
+    }
+}

@@ -12,6 +12,8 @@
                 "selected_category_count": "",
                 "select_categories_button": "",
                 "blog_heading": "",
+                "featured_count_label": "",
+                "featured_count_text": "",
                 "allow_comments_label": "",
                 "allow_comments_text": "",
                 "require_review_label": "",
@@ -31,7 +33,9 @@
                 "redirect_tags_label": "",
                 "redirect_tags_text": "",
                 "default_article_image_label": "",
-                "default_article_image_text": ""
+                "default_article_image_text": "",
+                "add_hero_label": "",
+                "add_hero_text": ""
             }
         },
         "forum": {
@@ -89,12 +93,31 @@
                 "post_article": "",
                 "select_category": "",
                 "edit_categories": "",
+                "update_settings": "",
                 "write": "",
                 "view": "",
                 "nothing_to_preview": "",
                 "comment_section": "",
                 "no_blog_tags_selected": "",
                 "post_without_blog_info": ""
+            },
+            "article_settings": {
+                "title": "",
+                "fields": {
+                    "summary": {
+                        "title": "",
+                        "placeholder": "",
+                        "helper_text": ""
+                    },
+                    "image": {
+                        "title": "",
+                        "helper_text": ""
+                    },
+                    "highlight": {
+                        "title": "",
+                        "helper_text": ""
+                    }
+                }
             }
         }
     }

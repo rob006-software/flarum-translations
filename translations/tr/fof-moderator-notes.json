@@ -18,20 +18,16 @@
                 "noNotes": "Görünüşe göre burada hiç not yok.",
                 "submit_button": "Notu kaydet",
                 "delete": "Sil",
-                "confirm": "Bu notu silmek istediğinizden emin misiniz?",
-                "no_content_given": "Boş bir nota izin verilmez.",
-                "confirmation_message": ""
+                "confirm": "Bu notu silmek istediğinizden emin misiniz?"
             },
             "user": {
                 "notes": "Moderatör Notları"
             }
         },
         "api": {
-            "auto_note": "_Bu kullanıcıya geçtim: _ neden",
-            "auto_note_actor": "@username olarak değiştirildi_: neden",
-            "no_reason_provided": "Sebep belirtilmedi",
-            "auto-note": "",
-            "auto-note-actor": ""
+            "auto_note": "_Bu kullanıcıya geçtim: _ {reason}",
+            "auto_note_actor": "@username olarak değiştirildi_: {reason}",
+            "no_reason_provided": "Sebep belirtilmedi"
         }
     }
 }

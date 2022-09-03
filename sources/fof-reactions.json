@@ -11,7 +11,8 @@
             "modal": {
                 "title": "Reactions"
             },
-            "mod_item": "View Reactions"
+            "mod_item": "View Reactions",
+            "react_button_label": "React"
         },
         "admin": {
             "permissions": {
@@ -35,6 +36,8 @@
                     "converted": "Successfully converted all {number} likes"
                 },
                 "settings": {
+                    "react_own_posts_help": "When enabled, subject to permission, users may react to their own posts on the forum. To prevent users reacting on their own posts, disable this setting.",
+                    "react_own_posts_label": "Users may react to their own posts",
                     "save_settings": "Save Settings",
                     "integrations": {
                         "legend": "Integrations",
@@ -42,14 +45,14 @@
                         "gamification": {
                             "legend": "Gamification",
                             "upvoteLabel": "Convert reactions to upvotes",
-                            "upvoteHelptext": "Input the identifier of the reaction you would like to automatically convert into an upvote",
+                            "upvoteHelptext": "Enter the identifier of the reaction you would like to automatically convert into an upvote",
                             "downvoteLabel": "Convert reactions to downvotes",
-                            "downvoteHelptext": "Input the identifier of the reaction you would like to automatically convert into an downvote"
+                            "downvoteHelptext": "Enter the identifier of the reaction you would like to automatically convert into an downvote"
                         },
                         "likes": {
                             "legend": "Likes",
                             "Label": "Convert reactions to likes",
-                            "Helptext": "Input the identifier of the reaction you would like to automatically convert into an likes"
+                            "Helptext": "Enter the identifier of the reaction you would like to automatically convert into a like"
                         }
                     }
                 }

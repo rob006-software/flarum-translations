@@ -1,0 +1,123 @@
+{
+    "core": {
+        "forum": {
+            "index_sort": {
+                "hot_button": "Trendagilari",
+                "votes_button": "Ijobiy ovozlar"
+            }
+        }
+    },
+    "fof-gamification": {
+        "forum": {
+            "votes": "Ovozlar",
+            "vote_title": "Kim ovoz berganini ko'rsatish",
+            "nav": {
+                "name": "Reytinglar"
+            },
+            "ranking": {
+                "rank": "Joy",
+                "name": "Foydalanuvchi",
+                "amount": "Ochkolar"
+            },
+            "notification": {
+                "upvote": "{username} sizning postingizga ijobiy ovoz berdi",
+                "downvote": "{username} sizning postingizga salbiy ovoz berdi",
+                "prefrences": {
+                    "vote": "Mening xabarlarimdan biri yuqoriga/pastga ovoz berilganda"
+                }
+            },
+            "user": {
+                "card": {
+                    "points": ""
+                },
+                "rank": "{rank}",
+                "votes_link": "",
+                "points": "Ballar: {ball}"
+            },
+            "modal": {
+                "downvotes_label": "",
+                "title": "Ovozlar",
+                "upvotes_label": "Ijobiy ovozlar:"
+            },
+            "mod_item": "Ovozlarni ko'rish",
+            "voters": {
+                "none": "Hali ovozlar yo'q",
+                "label": "Ovoz beruvchilar",
+                "label_none": "Ovoz beruvchilar yo'q"
+            },
+            "post": {
+                "upvote_button": "Postaga ijobiy ovoz berish",
+                "downvote_button": "Postga salbiy ovoz berish"
+            }
+        },
+        "admin": {
+            "permissions": {
+                "vote_label": "Postlarga ijobiy/salbiy ovoz berisih",
+                "see_votes_label": "ijobiy/salbiy ovozlar sonini ko'rish",
+                "see_voters_label": "Kim ovoz berganini ko'rish",
+                "see_ranking_page": "Reyting sahifasiga qarang",
+                "upvote_notifications": "",
+                "downvote_notifications": ""
+            },
+            "page": {
+                "rankings": {
+                    "blocked": {
+                        "placeholder": "CDK2020, Ralkage, AngelAvila",
+                        "title": "E'tiborga olinmagan foydalanuvchilar",
+                        "help": "Bu foydalanuvchilar reyting sahifasida ko'rsatilmaydi. Foydalanuvchi nomlari vergul va keyin bo'sh joy bilan ajratilishi kerak."
+                    },
+                    "title": "Reyting sahifasi",
+                    "enable": "Maxsus tasvirlarni yoqish",
+                    "custom_image_1": "1-o'rindagi rasm",
+                    "custom_image_2": "2-o'rindagi rasm",
+                    "custom_image_3": "3-o'rindagi rasm"
+                },
+                "alt_votes": {
+                    "icon_name": "Alt tartib belgisi nomi"
+                },
+                "votes": {
+                    "points_title": "Ballarni ko'rsatish maydoni",
+                    "points_placeholder": "Ballar: ",
+                    "color_holder": "#ffffff",
+                    "auto_upvote": "Xabarlar joylanganda avtomatik ravishda ijobiy ovoz berish",
+                    "rate_limit": "Ovoz berish tezligini cheklash (10 soniya)",
+                    "discussion_page": "Muhokamalar roʻyxatida asl postning umumiy ovozlarini koʻrsatish",
+                    "alternate_layout": "Munozaralar roʻyxatida muqobil ovoz berish tartibidan foydalaning",
+                    "alternate_post_layout": "Xabarlarda muqobil ovoz berish tartibidan foydalaning",
+                    "title": "Ovozlar",
+                    "vote_color": "Ovoz rangi",
+                    "icon_name": "Ijobiy/salbiy ovoz belgisi",
+                    "icon_help": "-yuqoriga va -pastga qo'shilgan istalgan Font-Awesome belgisini kiriting. Misollar: o'q, bosh barmog'i, chevron",
+                    "upvotes_only": "Faqat ijobiy ovoz berishga ruxsat berish",
+                    "first_post_only": "Muhokamadagi faqat birinchi postga ovoz berishga ruxsat berish"
+                },
+                "save_settings": "Sozlamalarni saqlash",
+                "convert": {
+                    "button": "\"Yoqdi\" larni ijobiy ovozga aylantirish",
+                    "help": "Oldingi yoqtirishlaringizni flarum-ext-layklardan yuqori ovozlarga aylantiring, shuningdek, barcha joriy muhokamalar uchun qizg'inlikni hisoblang.",
+                    "converting": "Sizning yoqtirishlaringiz endi aylantirilmoqda. Jarayon tugaganini ko'rish uchun bir necha daqiqadan so'ng saytingizni yangilang. (Forumni yoqtirishlar soniga qarab konversiya vaqti biroz vaqt olishi mumkin)",
+                    "converted": "Barcha {number} yoqtirishlar muvaffaqiyatli aylantirildi"
+                },
+                "ranks": {
+                    "title": "Reytinglar",
+                    "ranks": "Moslashtirilgan darajalar",
+                    "number_title": "Qancha daraja nishonlari ko'rsatilishi kerak?",
+                    "help": {
+                        "color": "#ffffff",
+                        "help": "Kerakli ijobiy ovozlar sonini, daraja nomini va darajaning olti burchakli rangini kiriting",
+                        "points": "Ballar",
+                        "name": "Ism"
+                    }
+                }
+            }
+        },
+        "email": {
+            "body": {
+                "postVoted": "Salom {recipient_display_name},\n\n{actor_display_name} hozirgina {discussion_title} dagi postingizga ovoz berdi.\n\nBu yerda koʻring: {discussion_url}\n"
+            },
+            "subject": {
+                "postVoted": "Sizning postingizga {display_name} tomonidan ovoz berildi"
+            }
+        }
+    }
+}

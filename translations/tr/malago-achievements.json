@@ -4,7 +4,12 @@
             "achievement_points": "Puanlar",
             "new_achievement_title": "Yeni başarı!",
             "new_achievement_name": "Başarı",
-            "new_achievement_close": "Anladım!"
+            "new_achievement_close": "Anladım!",
+            "list_heading": "Başarılar",
+            "achievement_total_points": "Toplam",
+            "your_achievements": "Başarılarınız",
+            "other_achievements": "Diğer başarılar",
+            "hidden_achievements": "Gizli başarılar"
         },
         "admin": {
             "achievement_modal": {
@@ -12,6 +17,7 @@
                 "name_label": "İsim",
                 "name_placeholder": "Başarı Adı",
                 "active_label": "Aktif",
+                "hidden_label": "Tüm başarılar listesinden gizle",
                 "description_label": "Açıklama",
                 "description_placeholder": "Başarı Açıklaması",
                 "variable_label": "Değişken",
@@ -19,15 +25,15 @@
                 "computation_placeholder": "Sayı",
                 "points_label": "Bu başarının puanları",
                 "points_placeholder": "0\n",
-                "image_label": "Görsel Bağlantısı",
-                "image_placeholder": "Görsel Resim Bağlantısı",
+                "image_label": "Görsel Bağlantısı veya simge kodu",
+                "image_placeholder": "Başarı Görsel Bağlantısı",
                 "row_label": "Satır",
                 "row_placeholder": "0",
                 "col_label": "Sütun",
                 "col_placeholder": "0",
-                "width_label": "Resim genişliği",
+                "width_label": "Görsel genişliği",
                 "width_placeholder": "32",
-                "height_label": "Resim yüksekliği",
+                "height_label": "Görsel yüksekliği",
                 "height_placeholder": "32",
                 "submit_button": "=> core.ref.save_changes",
                 "delete_button": "Başarıyı Sil",
@@ -49,14 +55,32 @@
                     "years": "Kayıt olunan yıl",
                     "meanwords": "Ortalama kelime",
                     "tagposts": "Etiketteki gönderiler"
+                },
+                "tooltip": {
+                    "posts": "Minimum gönderi sayısı (ör. 10) veya kapsamlı aralık (ör. 10,19)",
+                    "likes": "Minimum beğeni sayısı (ör. 10) veya kapsayıcı aralık (ör. 10,19)",
+                    "selflikes": "Alınan minimum beğeni sayısı (ör. 10) veya kapsayıcı aralık (ör. 10,19)",
+                    "discussions": "Oluşturulan minimum tartışma sayısı (ör. 10) veya kapsayıcı aralık (ör. 10,19)",
+                    "edits": "Düzenlenen minimum gönderi sayısı (ör. 10) veya kapsayıcı aralık (ör. 10,19)",
+                    "contains": "Kelime veya kelimeler ve onu içeren minimum gönderi sayısı (ör. tavuk,10) veya kapsayıcı aralık (ör. tavuk,10,19)",
+                    "comments": "Bir tartışmada (ör. 10) veya kapsayıcı aralıkta (ör. 10,19) alınan minimum yanıt sayısı",
+                    "years": "Kayıtlı minimum yıl sayısı (ör. 10) veya kapsayıcı aralık (ör. 10,19)",
+                    "meanwords": "Gönderi başına ortalama kelime sayısı, minimum 10 (ör. 10) veya kapsayıcı aralık (ör. 10,19)",
+                    "tagposts": "Aranacak etiket bilgisi ve minimum gönderi sayısı (ör. konu dışı,10) veya kapsayıcı aralık (ör. konu dışı,10,19)"
                 }
             },
             "achievements_page": {
                 "list_heading": "Başarımlar",
                 "create_achievement_button": "Yeni Başarım Oluştur",
                 "instructions_header": "Talimatlar",
-                "instructions_text": "<li>Bir başarı oluşturmak için bir ad vermelisiniz.</li>\n<li>Açıklama isteğe bağlıdır.</li>\n<li>Başarı için hesaplamak istediğiniz değişkeni listeden seçin.</li>\n<li>Başarının etkinleştirilmesi için aralığı tanıtın. Minimum aralığı ve maksimum aralığı belirtmek için virgülle (,) ayrılmış iki sayı girebilirsiniz (her iki sayı da dahildir).</li>\n<li>İki aralıklı başarılar, sayı üst aralığı aşarsa kaldırılır. </li>\n<li>\"Mesaj içerir\" başarısı için, belirtilen kelimeyi ve ardından virgülle ayrılmış eşiği girmeniz gerekir (ör. minimum ve maksimum eşik için \"ıspanak, 5\" veya \"ıspanak, 5,10\")</ li>\n<li>Bu başarı için kullanılacak simgenin bulunduğu resmin bağlantısını belirtin.</li>\n<li>Simgenin genişliğini ve yüksekliğini belirtin.</li>\n<li>İsteğe bağlı: Resimde birden fazla başarı simgesi varsa, simge için hangi satırı ve sütunun gösterileceğini seçebilirsiniz.</li>\n",
-                "add_delete_users": "Kullanıcıdan başarım ekle/kaldır"
+                "instructions_text": "<li>Bir başarı oluşturmak için bir ad vermelisiniz.</li>\n<li>Açıklama isteğe bağlıdır.</li>\n<li>Başarı için hesaplamak istediğiniz değişkeni listeden seçin.</li>\n<li>Başarının etkinleştirilmesi için aralığı tanıtın. Minimum aralığı ve maksimum aralığı belirtmek için virgülle (,) ayrılmış iki sayı girebilirsiniz (her iki sayı da dahildir).</li>\n<li>İki aralıklı başarılar, sayı üst aralığı aşarsa kaldırılır. </li>\n<li>\"Mesaj içerir\" başarısı için, belirtilen kelimeyi ve ardından virgülle ayrılmış eşiği girmeniz gerekir (ör. minimum ve maksimum eşik için \"ıspanak, 5\" veya \"ıspanak, 5,10\")</li>\n<li>Bu başarı için kullanılacak simgenin bulunduğu resmin bağlantısını belirtin.</li>\n<li>Simgenin genişliğini ve yüksekliğini belirtin.</li>\n<li>İsteğe bağlı: Resimde birden fazla başarı simgesi varsa, simge için hangi satırı ve sütunun gösterileceğini seçebilirsiniz.</li>\n",
+                "add_delete_users": "Kullanıcıdan başarım ekle/kaldır",
+                "show": "Başarım listesini şurada göster:"
+            },
+            "settings": {
+                "show-post-footer": "Her gönderinin altında",
+                "show-user-card": "Kullanıcı kartlarında",
+                "link-left-column": "Yan menüye Başarımlar bağlantısı ekle"
             }
         }
     }

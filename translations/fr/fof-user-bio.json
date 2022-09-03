@@ -2,16 +2,17 @@
     "fof-user-bio": {
         "admin": {
             "permission": {
-                "view": "",
-                "editOwn": "",
-                "editAny": ""
+                "view": "Voir la biographie",
+                "editOwn": "Modifier sa propre biographie",
+                "editAny": "Modifier n'importe quelle biographie"
             },
             "setting": {
-                "bioLimit": ""
+                "bioLimit": "Limite de caractères de la biographie"
             }
         },
         "forum": {
-            "userbioPlaceholder": ""
+            "userbioPlaceholder": "Écrivez quelque chose à propos de vous",
+            "userbioPlaceholderOtherUser": "Rédiger une biographie pour {username}"
         }
     }
 }

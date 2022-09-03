@@ -1,35 +1,39 @@
 {
     "fof-filter": {
         "forum": {
-            "flagger_name": "",
-            "flaged_text": ""
+            "flagger_name": "Modérateur automatique",
+            "flag_message": "Chaînes bloquées contenues"
         },
         "admin": {
-            "title": "",
-            "help": "",
-            "help2": "",
-            "email_help": "",
-            "filter_label": "",
-            "countLabel": "",
-            "cooldownLabel": "",
+            "title": "Filtre",
+            "bad_words_help": "Saisissez du texte ou des mots à filtrer, un par ligne. Si le contenu de la publication d'un utilisateur contient une chaîne que vous souhaitez filtrer, elle sera signalée pour approbation. Résistant contre le 133t.",
+            "help2": "Intervalle en minutes dans lequel les messages du même utilisateur dans la même discussion seront automatiquement fusionnés.",
+            "email_help": "Corps du courriel signalé. Accepte le HTML ou le texte en clair.",
+            "filter_label": "Chaînes à filtrer",
+            "countLabel": "Tolérance de la censure",
+            "cooldownLabel": "Délai de fusion de message",
+            "auto_merge_title": "Fusion automatique",
             "input": {
-                "placeholder": "",
-                "filter_title": "",
-                "email_label": "",
+                "placeholder": "Chaînes à filtrer",
+                "filter_title": "Chaînes à filtrer",
+                "email_label": "Paramètres des courriels",
                 "switch": {
-                    "email": "",
-                    "merge": ""
+                    "email": "Envoyer un courriel à l'utilisateur lorsque le message est filtré",
+                    "merge": "Fusionner automatiquement les messages en double"
                 },
-                "email_subject": "",
-                "email_body": ""
+                "email_subject": "Sujet",
+                "email_body": "Corps"
             },
             "nav": {
-                "text": "",
-                "desc": ""
+                "text": "Filtre",
+                "desc": "Filtrer les messages par mots"
+            },
+            "permission": {
+                "bypass_filter_label": "Ignorer le(s) filtre(s) de mots"
             },
             "email": {
-                "default_subject": "",
-                "default_text": ""
+                "default_subject": "Concernant votre message récent",
+                "default_text": "Merci pour votre publication ! Malheureusement, votre message a été supprimé car il contenait quelque chose que nous ne voulons pas voir sur nos forums.\n\nSi vous pensez qu'il s'agit d'une erreur, vous avez de la chance, chaque message supprimé est examiné par nos modérateurs. S'ils constatent que ce message a été supprimé à tort, ils le rétabliront.                \n\nMerci de votre compréhension."
             }
         }
     }

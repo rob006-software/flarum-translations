@@ -1,0 +1,49 @@
+{
+    "flarum-mentions": {
+        "admin": {
+            "settings": {
+                "allow_username_format_label": "Povolit formát zmínky o uživatelském jménu (@Username)",
+                "allow_username_format_text": "Aktuální formát pro zmínky o uživatelích je @\"Display Name\"#ID.\nToto nastavení umožňuje použití starého formátu @Username, nicméně při uložení bude stále převeden na nový formát.\n"
+            }
+        },
+        "forum": {
+            "composer": {
+                "mention_tooltip": "Zmínit uživatele nebo příspěvek",
+                "reply_to_post_text": "Odpovědět na příspěvek č. {number}"
+            },
+            "notifications": {
+                "others_text": "=> core.ref.some_others",
+                "post_mentioned_text": "Uživatel {username} odpověděl na tvůj příspěvek|Uživatelé {username} odpověděli na tvůj příspěvek",
+                "user_mentioned_text": "Uživatel {username} tě zmínil|Uživatelé {username} tě zmínili"
+            },
+            "post": {
+                "mentioned_by_self_text": "{users} na toto odpověděli.",
+                "mentioned_by_text": "{users} na toto odpověděli.",
+                "others_text": "=> core.ref.some_others",
+                "quote_button": "Citovat",
+                "reply_link": "=> core.ref.reply",
+                "you_text": "=> core.ref.you"
+            },
+            "settings": {
+                "notify_post_mentioned_label": "Někdo odpoví na jeden z mých přípěvků",
+                "notify_user_mentioned_label": "Někdo mě v příspěvku zmíní"
+            },
+            "user": {
+                "mentions_link": "Zmínky"
+            },
+            "post_mention": {
+                "deleted_text": "[unknown]"
+            }
+        },
+        "email": {
+            "post_mentioned": {
+                "subject": "{replier_display_name} odpověděl na tvůj příspěvek v {title}",
+                "body": "Ahoj {recipient_display_name}!\n\n{replier_display_name} odpověděl na tvůj příspěvek (#{post_number}) v {title}.\n\n{url}\n\n---\n\n{content}\n"
+            },
+            "user_mentioned": {
+                "subject": "{mentioner_display_name} tě zmínil v {title}",
+                "body": "Ahoj {recipient_display_name}!\n\n{mentioner_display_name} tě zmínil v příspěvku v {title}.\n\n{url}\n\n---\n\n{content}\n"
+            }
+        }
+    }
+}

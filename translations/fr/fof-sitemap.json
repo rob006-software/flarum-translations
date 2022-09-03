@@ -2,30 +2,29 @@
     "fof-sitemap": {
         "admin": {
             "settings": {
-                "title": "",
-                "mode_label": "",
-                "mode_help": "",
-                "mode_help_runtime_label": "",
-                "mode_help_runtime": "",
-                "mode_help_schedule": "",
-                "mode_help_schedule_setup": "",
-                "mode_help_cache_disk_label": "",
-                "mode_help_cache_disk": "",
-                "mode_help_large": "",
-                "mode_help_multi_label": "",
-                "mode_help_multi": "",
-                "advanced_options_label": "",
-                "frequency_label": "",
+                "exclude_users": "Exclure tous les profils d'utilisateurs du plan du site",
+                "exclude_users_help": "Par défaut, tout utilisateur visible par les invités sera indexé",
+                "mode_label": "Mode de fonctionnement",
+                "mode_help": "Il est essentiel de sélectionner le mode approprié à la taille de votre forum.",
+                "mode_help_runtime_label": "Mode d'exécution",
+                "mode_help_runtime": "Pour les petits forums, très probablement hébergés sur des environnements partagés, avec des discussions, des utilisateurs, des étiquettes et des pages totalisant moins de 10 000 éléments. Le plan du site est généré à la volée à chaque demande.",
+                "mode_help_schedule": "Les modes suivants ajoutent leurs tâches à la planification de Flarum.",
+                "mode_help_schedule_setup": "Si le planificateur de Flarum n'est pas correctement configuré, les modes suivants ne fonctionneront pas. Référez-vous ici <a>pour plus d'informations</a>.",
+                "mode_help_large": "50 000 est la limite technique pour les fichiers de plan de site. Si vous avez plus d'entrées à stocker, utilisez l'option suivante !",
+                "mode_help_multi_label": "Mode fichiers multiples",
+                "mode_help_multi": "Idéal pour les gros forums, à partir de 10 000 éléments. Des fichiers de plan de site compressés en plusieurs parties seront générés et stockés dans le dossier /public",
+                "advanced_options_label": "Options avancées",
+                "frequency_label": "À quelle fréquence le planificateur doit-il reconstruire le plan du site basé sur le cache ?",
+                "risky_performance_improvements": "Activer l'amélioration des performances à risque",
+                "risky_performance_improvements_help": "Ces améliorations accélèrent l'exécution de la tâche CRON sur des ensembles de données de plusieurs millions de lignes, mais peuvent nuire à la compatibilité avec certaines extensions.",
                 "modes": {
-                    "runtime": "",
-                    "cache": "",
-                    "cache_disk": "",
-                    "multi_file": ""
+                    "runtime": "Durée d'exécution",
+                    "multi_file": "Fichiers multiples"
                 },
                 "frequency": {
-                    "hourly": "",
-                    "twice_daily": "",
-                    "daily": ""
+                    "hourly": "Toutes les heures",
+                    "twice_daily": "Deux fois par jour",
+                    "daily": "Quotidiennement"
                 }
             }
         }

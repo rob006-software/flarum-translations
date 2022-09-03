@@ -8,6 +8,10 @@
                 "users_heading": "Tüm kullanıcılarda ara \"{query}\"",
                 "field": {
                     "placeholder": "Tüm kullanıcılarda ara"
+                },
+                "kinds": {
+                    "group": "Grup",
+                    "text": "Serbest metin"
                 }
             },
             "page": {
@@ -16,19 +20,9 @@
                 "load_more_button": "=> core.ref.load_more",
                 "empty_text": "Aramanızla eşleşen bir kullanıcı bulamadık.",
                 "filter_button": "Grupları Filtrele",
-                "sort": {
-                    "relevance": "İlgi",
-                    "default": "Varsayılan",
-                    "username_az": "Kullanıcı adı (a-z)",
-                    "username_za": "Kullanıcı adı (z-a)",
-                    "newest": "Yeniye göre",
-                    "oldest": "Eskiye göre",
-                    "seen_recent": "Son aktif olanlar",
-                    "seen_oldest": "Uzun süredir girmeyenler",
-                    "most_posts": "En fazla mesajı olana göre",
-                    "least_posts": "En az mesajı olana göre",
-                    "most_discussions": "En fazla tartışma başlantana göre",
-                    "least_discussions": "En az tartışma başlatana göre"
+                "usercard": {
+                    "discussion-count": "{count, plural, one { {count} tartışma} other {{count} tartışma}}",
+                    "post-count": "{count, plural, one { {count} gönderi} other {{count} gönderi}}"
                 }
             }
         },
@@ -39,7 +33,8 @@
             "settings": {
                 "link": "Kullanıcı listesinin görülebilmesi için anasayfaya bağlantı ekle",
                 "default-sort": "Varsayılan sıralama",
-                "title": "Kullanıcı Listesi Ayarları"
+                "use-small-cards": "Küçük kullanıcı kartlarını kullan",
+                "disable-global-search-source": "Flarum genel arama alanına Kullanıcı Listesini eklemeyin"
             }
         },
         "lib": {
@@ -53,9 +48,7 @@
                 "most_posts": "Çok gönderiye göre",
                 "least_posts": "Az gönderiye göre",
                 "most_discussions": "Çok tartışmaya göre",
-                "least_discussions": "Az tartışmaya göre",
-                "seen_recent": "Son çevrimiçi olan",
-                "seen_oldest": "Ziyaret etmeyenler"
+                "least_discussions": "Az tartışmaya göre"
             }
         }
     }

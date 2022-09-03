@@ -2,12 +2,13 @@
     "askvortsov-discussion-templates": {
         "admin": {
             "permissions": {
-                "manage_own_discussion_reply_templates": "",
+                "manage_own_discussion_reply_templates": "Beheer antwoordtemplates vanaf de betreffende discussies",
                 "manage_all_reply_templates": ""
             },
             "settings": {
                 "no_tag_template": "",
-                "append_template_on_tag_change": ""
+                "append_template_on_tag_change": "",
+                "append_template_on_tag_change_help": ""
             },
             "tags": {
                 "tag_template_heading": "",

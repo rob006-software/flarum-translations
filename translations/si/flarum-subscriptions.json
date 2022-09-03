@@ -1,0 +1,50 @@
+{
+    "flarum-subscriptions": {
+        "forum": {
+            "badge": {
+                "following_tooltip": "=> flarum-subscriptions.ref.following",
+                "ignoring_tooltip": "=> flarum-subscriptions.ref.ignoring"
+            },
+            "discussion_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "unfollow_button": "",
+                "unignore_button": ""
+            },
+            "following": {
+                "meta_title_text": "=> flarum-subscriptions.ref.following"
+            },
+            "index": {
+                "following_link": "=> flarum-subscriptions.ref.following"
+            },
+            "notifications": {
+                "new_post_text": ""
+            },
+            "settings": {
+                "follow_after_reply_label": "",
+                "notify_new_post_label": ""
+            },
+            "sub_controls": {
+                "follow_button": "=> flarum-subscriptions.ref.follow",
+                "following_button": "=> flarum-subscriptions.ref.following",
+                "following_text": "",
+                "ignoring_button": "=> flarum-subscriptions.ref.ignoring",
+                "ignoring_text": "",
+                "not_following_button": "",
+                "not_following_text": "",
+                "notify_alert_tooltip": "",
+                "notify_email_tooltip": ""
+            }
+        },
+        "email": {
+            "new_post": {
+                "subject": "",
+                "body": ""
+            }
+        },
+        "ref": {
+            "follow": "",
+            "following": "",
+            "ignoring": ""
+        }
+    }
+}

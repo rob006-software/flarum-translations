@@ -1,0 +1,74 @@
+{
+    "fof-terms": {
+        "admin": {
+            "settings": {
+                "title": "",
+                "field": {
+                    "signup-legal-text": "",
+                    "hide-updated-at": "",
+                    "date-format": "",
+                    "date-format-help": ""
+                }
+            },
+            "titles": {
+                "policies": ""
+            },
+            "buttons": {
+                "new-policy": "",
+                "edit-policy": "",
+                "add-policy": "",
+                "save-policy": "",
+                "delete-policy": "",
+                "set-to-now": ""
+            },
+            "messages": {
+                "delete-policy-confirmation": ""
+            },
+            "policies": {
+                "name": "",
+                "name-help": "",
+                "url": "",
+                "url-help": "",
+                "update-message": "",
+                "update-message-help": "",
+                "terms-updated-at": "",
+                "terms-updated-at-placeholder": "",
+                "terms-updated-at-help": "",
+                "export-url": "",
+                "export-url-help": ""
+            },
+            "permissions": {
+                "see-user-policies-state": "",
+                "postpone-policies-accept": "",
+                "export-policies": ""
+            }
+        },
+        "forum": {
+            "signup": {
+                "i-accept": "من <a>{policy}</a> را می‌پذیرم",
+                "must-accept": "{policy} باید پذیرفته شود."
+            },
+            "accept-modal": {
+                "title": "به روز رسانی مقررات",
+                "updated-at": "مقررات در {date} به روز شد",
+                "updated-recently": "مقررات از آخرین بازدید شما به روز شده است",
+                "i-accept": "من <a>{policy}</a> جدید را می‌پذیرم",
+                "accept": "تایید",
+                "close": "با تشکر از پذیرش، اکنون می توانید به انجمن بازگردید"
+            },
+            "state-modal": {
+                "title": "وضعیت پذیرش مقررات برای {username}",
+                "accepted-at": "پذیرش شده در {date}",
+                "not-accepted": "قابل قبول نیست"
+            },
+            "update-alert": {
+                "must-accept-message": "زمانی که مقررات جدید را بررسی می کنید، به طور موقت دسترسی به حساب شما را محدود کرده ایم.",
+                "can-accept-message": "ما اخیراً مقررات را به روز کردیم. برای ادامه استفاده از این وب سایت باید آنها را بپذیرید.",
+                "review": "برای بررسی و پذیرش مقررات جدید اینجا کلیک کنید"
+            },
+            "user_controls": {
+                "state_button": "حالت پذیرش مقررات"
+            }
+        }
+    }
+}

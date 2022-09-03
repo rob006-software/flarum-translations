@@ -1,0 +1,25 @@
+{
+    "flarum-sticky": {
+        "admin": {
+            "permissions": {
+                "sticky_discussions_label": "고정 게시물"
+            }
+        },
+        "forum": {
+            "badge": {
+                "sticky_tooltip": "=> flarum-sticky.ref.sticky"
+            },
+            "discussion_controls": {
+                "sticky_button": "=> flarum-sticky.ref.sticky",
+                "unsticky_button": "고정 해제"
+            },
+            "post_stream": {
+                "discussion_stickied_text": "{username}님이 게시물을 고정했습니다.",
+                "discussion_unstickied_text": "{username}님이 게시물을 고정 해제했습니다."
+            }
+        },
+        "ref": {
+            "sticky": "고정"
+        }
+    }
+}

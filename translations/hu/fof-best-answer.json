@@ -1,0 +1,90 @@
+{
+    "fof-best-answer": {
+        "admin": {
+            "permissions": {
+                "best_answer": "Legjobb válasz kiválasztása (saját téma)",
+                "best_answer_not_own_discussion": "Legjobb válasz kiválasztása (nem saját téma)"
+            },
+            "settings": {
+                "label": {
+                    "general": "Általános",
+                    "reminders": "Emlékeztetők",
+                    "advanced": "Speciális",
+                    "reminders_notice": "Ahhoz, hogy az emlékeztető működjön, a Flarum ütemezőjét jól kell beállítani."
+                },
+                "allow_select_own_post": "Saját bejegyzés kiválasztása",
+                "allow_select_own_post_help": "Engedélyezés, hogy az eredeti szerző a saját bejegyzését válassza legjobb válaszként",
+                "enable_all_tags_button": "A legjobb válasz bekapcsolása az összes címkénél",
+                "enable_all_tags_reminder_button": "A legjobb válasz emlékeztető bekapcsolása az összes címkénél",
+                "select_best_answer_reminder_days": "Emlékeztető gyakorisága",
+                "select_best_answer_reminder_days_help": "Emlékeztető küldése a megadott számú nap után, hogy az eredeti szerző válassza ki a legjobb választ, 0 = emlékeztetők letiltása.",
+                "schedule_on_one_server": "Az „onOneServer()” direktíva használata a feladatütemezőhöz",
+                "schedule_on_one_server_help": "Redis/Memcache szükséges",
+                "schedule_stop_overnight": "Megakadályozza az emlékeztető értesítések küldését az éjszakai órákban",
+                "schedule_stop_overnight_help": "19 órától 8 óráig, a kiszolgáló órája szerint",
+                "schedule_log_output": "Az ütemező kimenetének hozzáfűzése a naplótárhoz",
+                "show_filter_label": "A Legjobb válasz szűrő legördülő megjelenítése",
+                "show_filter_help": "Azoknál a címkéknél, ahol a legjobb válaszok engedélyezettek, jelenjen meg a megoldott/megoldatlan szűrőlehetőség a témalistában",
+                "use_alt_ui": "Alternatív elrendezés",
+                "use_alt_ui_help": "A legjobb válasz gombok a bejegyzés láblécében",
+                "documentation": "Dokumentáció",
+                "introduction": "Állítsa be a <code><a>flarum/tags</a></code> lapon, hogy mely címkék támogassák a legjobb válaszokat, és mely címkék támogassák az emlékeztetőket. Ha egy címkénél engedélyezettek a legjobb válaszok, akkor állítson be engedélyeket, hogy mely felhasználói csoportok állíthassák be a válaszokat (saját téma, bármely téma). A jogosultságok megadhatók globálisan (bármely olyan címkénél, amely engedélyezi a legjobb választ), vagy címkénként.\n",
+                "remind_tag_ids": "Ha bizonyos címkékre szeretnéd korlátozni az emlékeztetőket, írd be a címkéket (vesszővel elválasztva)"
+            },
+            "edit_tag": {
+                "qna_label": "Legjobb válasz bekapcsolása ennél a címkénél",
+                "reminders": "Emlékeztető bekapcsolása ennél a címkénél"
+            }
+        },
+        "forum": {
+            "answered_badge": "Megválaszolt",
+            "this_best_answer": "Legjobb válasz kiválasztása",
+            "remove_best_answer": "Legjobb válasz kiválasztásának visszavonása",
+            "best_answer_button": "Legjobb válasz",
+            "best_answer_label": "<a>{username}</a> állította be {time_set}",
+            "errors": {
+                "mismatch": "A kiválasztott bejegyzés nem létezik ebben a témában."
+            },
+            "notification": {
+                "best_answer_in_discussion": "{username} kiválasztotta a legjobb választ a témában",
+                "content": "Válassza ki a legjobb választ, ha a kérdésére választ kapott",
+                "awarded": "{username} az Ön bejegyzését választotta ki, mint a legjobb válasz",
+                "preferences": {
+                    "awarded_best_answer": "Valaki a legjobb válasznak jelöli a bejegyzésemet",
+                    "best_answer_in_discussion": "A legjobb válasz ki lett választva a témában, amelyben résztvevő vagyok",
+                    "select_best_answer": "Automatizált emlékeztető az általam kezdett téma legjobb válaszának kiválasztásához"
+                }
+            },
+            "index": {
+                "ask_question": "Tegyen fel egy kérdést",
+                "cannot_ask_question": "Nem kérdezhet",
+                "solved_link": "Megoldott témák",
+                "unsolved_link": "Megoldatlan témák"
+            },
+            "filter": {
+                "all_label": "Összes kérdés",
+                "solved_label": "Megoldott kérdések",
+                "unsolved_label": "Megoldatlan kérdések",
+                "accessible_label": "Megoldva/megoldatlan választó"
+            },
+            "composer": {
+                "titlePlaceholder": "Kérdés címe"
+            },
+            "user": {
+                "best-answer-count": "{count, plural, one { {count} legjobb válasz} other {{count} legjobb válasz}}"
+            }
+        },
+        "email": {
+            "subject": {
+                "awarded": "A hozzászólását {display_name} a legjobb válasznak jelölte",
+                "ba-set": "A legjobb választ {display_name} választotta ki",
+                "select": "Sikerült választ kapnia a kérdésére?"
+            },
+            "body": {
+                "awarded": "Kedves {recipient_display_name}!\n\nJó munka, {actor_display_name} épp a legjobb válasznak választotta a bejegyzését itt: {discussion_title}. Köszönjük a segítséget.\n\nNézze meg itt: {discussion_url}\n",
+                "ba-set": "Kedves {recipient_display_name}!\n\n{actor_display_name} beállította a legjobb választ a témában: {discussion_title}, amelyben Ön is részt vett.\n\nNézze meg itt: {discussion_url}\n",
+                "select": "Kedves {recipient_display_name}!\n\nMostanra több válasz is érkezett a kérdésére: {discussion_title}. Reméljük valamelyik válasz segít választ adni a kérdésére.\n\nHa igen, akkor nagyon hasznos lehet a jövőbeli tagoknak, ha kiválasztja a legjobb választ. Ez segít az azonos problémával küzdő embereknek megtalálniuk a szükséges választ, és ez egyúttal köszönet azoknak a tagoknak, akik segítettek. Önként adják idejüket, ezért jó tájékoztatni őket arról, hogy jól csinálják.\n\nLátogassa meg a beszélgetést itt: {discussion_url}, és válassza ki a legjobb választ.\n\nKöszönjük!\n"
+            }
+        }
+    }
+}

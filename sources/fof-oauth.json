@@ -1,6 +1,8 @@
 {
     "fof-oauth": {
         "admin": {
+            "configure_button_label": "Configure with FoF OAuth",
+            "settings_accessibility_label": "{name} settings",
             "settings": {
                 "only_icons_label": "Only show the Log In Button icons (alternative layout)",
                 "providers": {
@@ -46,7 +48,26 @@
         },
         "forum": {
             "log_in": {
-                "with_button": "Log In with {provider}"
+                "with_button": "Log In with {provider}",
+                "with_discord_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_facebook_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_github_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_gitlab_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_google_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_linkedin_button": "=> fof-oauth.forum.log_in.with_button",
+                "with_twitter_button": "=> fof-oauth.forum.log_in.with_button"
+            },
+            "providers": {
+                "discord": "=> fof-oauth.lib.providers.discord",
+                "facebook": "=> fof-oauth.lib.providers.facebook",
+                "github": "=> fof-oauth.lib.providers.github",
+                "gitlab": "=> fof-oauth.lib.providers.gitlab",
+                "google": "=> fof-oauth.lib.providers.google",
+                "linkedin": "=> fof-oauth.lib.providers.linkedin",
+                "twitter": "=> fof-oauth.lib.providers.twitter"
+            },
+            "signup": {
+                "username_help": "Please choose a username to be known by here"
             },
             "error": {
                 "bad_verification_code": "Invalid or expired verification token. Please try again.",

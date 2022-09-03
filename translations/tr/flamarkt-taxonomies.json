@@ -1,0 +1,158 @@
+{
+    "flamarkt-taxonomies": {
+        "admin": {
+            "menu": {
+                "title": "Taksonomiler",
+                "description": "Özel taksonomiler ve terimler oluşturun."
+            },
+            "page": {
+                "title": "Taksonomiler",
+                "create": {
+                    "taxonomy": "Taksonomi oluştur",
+                    "term": "Terim oluştur"
+                },
+                "reset-term-order": "Terimler listesini alfabetik sıraya göre sıfırla"
+            },
+            "edit-taxonomy": {
+                "title": {
+                    "new": "Taksonomi Oluştur",
+                    "edit": "Taksonomiyi Düzenle"
+                },
+                "field": {
+                    "type": "Tip",
+                    "typeDescription": "Taksonomiler birden fazla Flarum kaynağında kullanılabilir. Tür oluşturulduktan sonra değiştirilemez. Farklı türlerdeki taksonomiler için aynı adları ve sümüklü böcekleri (slug) kullanabilirsiniz.\n",
+                    "name": "=> flamarkt-taxonomies.ref.field.name",
+                    "slug": "=> flamarkt-taxonomies.ref.field.slug",
+                    "description": "=> flamarkt-taxonomies.ref.field.description",
+                    "color": "=> flamarkt-taxonomies.ref.field.color",
+                    "icon": "=> flamarkt-taxonomies.ref.field.icon",
+                    "iconDescription": "=> flamarkt-taxonomies.ref.field.iconDescription",
+                    "showLabel": "Taksonomi etiketini terimle birlikte göster",
+                    "showFilter": "Filtreyi ana sayfada göster",
+                    "allowCustomValues": "Özel değerlere izin ver",
+                    "customValueValidation": "Özel değerler için doğrulama",
+                    "customValueSlugger": "Özel değerler için Slugger",
+                    "customValueSluggerDescription": "Slug'un nasıl oluşturulmasını istediğinizi seçin. Bir bilgi zaten varsa, sayısal bir önek otomatik olarak eklenir. Transliterator seçeneği için, diğer uzantıyı önceden yüklemeniz ve yapılandırmanız gerekir.\n",
+                    "countRequired": "Gerekli terim sayısı",
+                    "countRequiredDescription": "Bu sınıflandırmalardan bir tartışmaya uygulanabilecek minimum ve maksimum terim sayısını girin.\n",
+                    "rangeSeparatorText": "ile",
+                    "tagScope": "",
+                    "tagScopeDescription": "",
+                    "tagScopePlaceholder": ""
+                },
+                "delete": "=> flamarkt-taxonomies.ref.delete",
+                "deleteConfirmation": "{name} sınıflandırmasını gerçekten silmek istiyor musunuz? Bu sınıflandırma altındaki tüm terimler silinecektir. Sınıflandırmayı kullanan tartışmalar SİLİNMEZ.\n",
+                "submit": {
+                    "new": "=> flamarkt-taxonomies.ref.submit.new",
+                    "edit": "=> flamarkt-taxonomies.ref.submit.edit"
+                },
+                "type-options": {
+                    "products": "Ürünler",
+                    "discussions": "Tartışmalar",
+                    "users": "Kullanıcılar"
+                },
+                "validation-options": {
+                    "default": "Herhangi bir metin değeri",
+                    "alpha_num": "Alfa-sayısal değerler",
+                    "alpha_dash": "Alfanümerik değerler ve tireler/alt çizgiler",
+                    "regex": "Düzenli ifade"
+                },
+                "slugger-options": {
+                    "random": "Rastgele tanımlayıcı",
+                    "alpha_dash": "ASCII alfasayısal yavaşlama",
+                    "transliterator": "FoF Transliterator uzantısını kullanın"
+                }
+            },
+            "edit-term": {
+                "title": {
+                    "new": "Terim Oluştur",
+                    "edit": "Terimi Düzenle"
+                },
+                "field": {
+                    "name": "=> flamarkt-taxonomies.ref.field.name",
+                    "slug": "=> flamarkt-taxonomies.ref.field.slug",
+                    "description": "=> flamarkt-taxonomies.ref.field.description",
+                    "color": "=> flamarkt-taxonomies.ref.field.color",
+                    "icon": "=> flamarkt-taxonomies.ref.field.icon",
+                    "iconDescription": "=> flamarkt-taxonomies.ref.field.iconDescription"
+                },
+                "delete": "=> flamarkt-taxonomies.ref.delete",
+                "deleteConfirmation": "{name} terimini gerçekten silmek istiyor musunuz? Bu terimi kullanan tartışmalar silinmeyecektir.\n",
+                "submit": {
+                    "new": "=> flamarkt-taxonomies.ref.submit.new",
+                    "edit": "=> flamarkt-taxonomies.ref.submit.edit"
+                }
+            },
+            "permissions": {
+                "heading": "Taksonomiler",
+                "moderate": "Kullanılabilir taksonomileri yapılandırın",
+                "bypassTermCounts": "",
+                "seeOwnDiscussion": "Taksonomileri kendi tartışmalarında görün",
+                "seeAnyDiscussion": "Bütün tartışmalarda taksonomileri gör",
+                "editOwnDiscussion": "Taksonomileri kendi tartışmalarında düzenleyin",
+                "editAnyDiscussion": "Herhangi bir tartışmada taksonomileri düzenleyin",
+                "seeOwnUser": "Taksonomileri kendi kullanıcınızda görün",
+                "seeAnyUser": "Herhangi bir kullanıcıdaki taksonomileri görün",
+                "editOwnUser": "Taksonomileri kendi kullanıcınızda düzenleyin",
+                "editAnyUser": "Herhangi bir kullanıcıdaki taksonomileri düzenleyin",
+                "ownDisabledEveryone": "Aktif olmayan ve askıya alınan üyeler",
+                "ownDisabledMembers": "Aktif üyeler"
+            },
+            "settings": {
+                "goToPage": "Yapılandırma sayfasına git"
+            }
+        },
+        "forum": {
+            "composer": {
+                "choose": "{taxonomy}'yi seçin"
+            },
+            "discussion": {
+                "edit": "{taxonomy} düzenle"
+            },
+            "user": {
+                "nav": "Taksonomiler",
+                "edit": "{taxonomy} düzenle"
+            },
+            "blog": {
+                "widget": {
+                    "title": ""
+                }
+            }
+        },
+        "lib": {
+            "modal": {
+                "title": {
+                    "new": "Tartışmanız için {taxonomy}'yi seçin",
+                    "edit": "{title} için {taxonomy} düzenle"
+                },
+                "placeholder": "{count, plural, one {Bir terim seçin...} other {# terim seçin...}}",
+                "placeholderOptional": "Seçin...",
+                "custom": "{value} kullanın",
+                "bypassTermCounts": "",
+                "submit": "Tamam"
+            }
+        },
+        "api": {
+            "error": {
+                "invalid_filter_taxonomy": "Geçersiz \"{type}\" sınıflandırma filtre anahtarı \"{slug}\"",
+                "discussion_taxonomy_not_in_scope": "",
+                "cannot_use_taxonomies_on_model": ""
+            }
+        },
+        "ref": {
+            "field": {
+                "name": "İsim",
+                "slug": "Slug",
+                "description": "Açıklama",
+                "color": "Renk",
+                "icon": "Simge",
+                "iconDescription": "<code>fas fa-</code> öneki <em>dahil</em>, herhangi bir <a>FontAwesome</a> simge sınıfının adını girin."
+            },
+            "delete": "Sil",
+            "submit": {
+                "new": "Oluştur",
+                "edit": "Kaydet"
+            }
+        }
+    }
+}

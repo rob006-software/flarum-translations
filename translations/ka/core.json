@@ -21,8 +21,7 @@
                 "favicon_text": "ატვირთეთ სურათი, რომელიც გამოვა ფორუმის აიქონად.",
                 "logo_heading": "ლოგო",
                 "logo_text": "ატვირთეთ სურათი, რომლითაც გამოყოფილი იქნება ფორუმის სათაური.",
-                "title": "გარეგნობა",
-                "submit_button": ""
+                "title": "გარეგნობა"
             },
             "basics": {
                 "all_discussions_label": "",
@@ -40,9 +39,7 @@
                 "slug_driver_text": "შეარჩიეთ დრაივერი, რომელიც გამოიყენება ამ მოდელის სლუგინგისთვის.",
                 "title": "საფუძვლები",
                 "welcome_banner_heading": "მისალმების ბანერი",
-                "welcome_banner_text": "ტექსტის კონფიგურაცია, რომელიც აჩვენებს ბანერზე ყველა განხილვის გვერდზე. გამოიყენეთ ეს თქვენს ფორუმზე სტუმრების მისასალმებლად.",
-                "saved_message": "თქვენი ცვლილებები შენახულია.",
-                "submit_button": ""
+                "welcome_banner_text": "ტექსტის კონფიგურაცია, რომელიც აჩვენებს ბანერზე ყველა განხილვის გვერდზე. გამოიყენეთ ეს თქვენს ფორუმზე სტუმრების მისასალმებლად."
             },
             "dashboard": {
                 "clear_cache_button": "ქეშის გასუფთავება",
@@ -99,14 +96,11 @@
                 "send_test_mail_success": "მეილის ტესტი წარმატებით გაიგზავნა!",
                 "send_test_mail_text": "ეს გამოგზავნის ელ.ფოსტას ზემოთ მოცემული კონფიგურაციით, თქვენს ელ.ფოსტაზე - {email}.",
                 "smtp_heading": "STMP პარამეტრები",
-                "title": "",
-                "submit_button": "",
-                "heading": "",
-                "text": "დრაივერის, პარამეტრებისა და მისამართების კონფიგურაცია, რომელსაც  თქვენი ფორუმი გამოიყენებს შეტყობინების გასაგზავნად."
+                "title": ""
             },
             "extension": {
                 "configure_scopes": "",
-                "confirm_uninstall": "ინსტალაციით წაიშლება მონაცემთა ბაზის ყველა ჩანაწერი და აქტივები, რომლებიც დაკავშირებულია გაფართოებასთან. დარწმუნებული ხართ, რომ გსურთ გაგრძელება?",
+                "confirm_purge": "",
                 "disabled": "გამორთული",
                 "enable_to_see": "ჩართეთ გაფართოება, რომ ნახოთ და შეცვალოთ პარამეტრები.",
                 "enabled": "ჩართული",
@@ -122,8 +116,14 @@
                 "no_settings": "ამ გაფართოებას არ აქვს პარამეტრები.",
                 "open_modal": "პარამეტრების გახსნა",
                 "permissions_title": "უფლებები",
-                "uninstall_button": "წაშლა",
-                "saved_message": "თქვენი ცვლილებები შენახულია."
+                "purge_button": "",
+                "readme": {
+                    "button_label": "",
+                    "no_readme": "",
+                    "title": ""
+                },
+                "confirm_uninstall": "ინსტალაციით წაიშლება მონაცემთა ბაზის ყველა ჩანაწერი და აქტივები, რომლებიც დაკავშირებულია გაფართოებასთან. დარწმუნებული ხართ, რომ გსურთ გაგრძელება?",
+                "uninstall_button": "წაშლა"
             },
             "header": {
                 "get_help": "დახმარების მიღება",
@@ -154,14 +154,9 @@
                 "email_title": "",
                 "permissions_button": "",
                 "permissions_title": "",
-                "search_placeholder": "გაფართოებების ძებნა",
-                "appearance_text": "მოირგეთ თქვენი ფორუმის ფერები, ლოგოები და სხვა ცვლადები.",
-                "basics_text": "დააყენეთ თქვენი ფორუმის სათაური, ენა და სხვა ძირითადი პარამეტრები.",
-                "dashboard_text": "თქვენი ფორუმი ერთი შეხედვით.",
-                "email_text": "თქვენი ფორუმის ელ.ფოსტის პარამეტრების კონფიგურაცია.",
-                "extensions_button": "გაფართოებები",
-                "extensions_text": "თქვენს ფორუმს დაამატეთ დამატებითი ფუნქციები და გახადეთ საკუთარი.",
-                "permissions_text": "დააკონფიგურირეთ ვინ რას ხედავს და რას აკეთებს."
+                "userlist_button": "",
+                "userlist_title": "",
+                "search_placeholder": "გაფართოებების ძებნა"
             },
             "permissions": {
                 "allow_post_editing_label": "პოსტის რედაქტირების დაშვება",
@@ -184,14 +179,14 @@
                 "read_heading": "წაკითხვა",
                 "rename_discussions_label": "დისკუსიების სახელის შეცვლა",
                 "reply_to_discussions_label": "უპასუხეთ დისკუსიებს",
+                "search_users_label": "",
                 "sign_up_label": "რეგისტრაცია",
                 "start_discussions_label": "დისკუსიის დაწყება",
                 "title": "ნებართვები",
-                "view_discussions_label": "დისკუსიების ნახვა",
+                "view_forum_label": "",
                 "view_hidden_groups_label": "ფარული ჯგუფის სამკერდე ნიშნების ნახვა",
                 "view_last_seen_at_label": "მომხმარებლის ბოლოს ნანახი დროის ყოველთვის ნახვა",
-                "view_post_ips_label": "პოსტის IP მისამართების ნახვა",
-                "view_user_list_label": "მომხმარებლის სიის ნახვა"
+                "view_post_ips_label": "პოსტის IP მისამართების ნახვა"
             },
             "permissions_controls": {
                 "allow_indefinitely_button": "განუსაზღვრელად",
@@ -211,16 +206,44 @@
                 "remove_button": "",
                 "upload_button": "აირჩიეთ სურათი..."
             },
-            "add_extension": {
-                "developer_text": "თუ დეველოპერი ხართ, შეგიძლიათ <a>წაიკითხოთ დოკუმენტები</a> და გაეცნოთ საკუთარი გაფართოებების შექმნას.",
-                "install_text": "ამასობაში, შეგიძლიათ მოძებნოთ გაფართოებები <a>Flarum Community საიტზე</a> და ხელით დააინსტალიროთ კომპოზიტორის გამოყენებით.",
-                "temporary_text": "არც თუ ისე შორეულ მომავალში, ერთ დღეს, ეს დიალოგი საშუალებას მოგცემთ მარტივად დაამატოთ გაფართოება თქვენს ფორუმში. ჩვენ ვსაუბრობთ ეკოსისტემას!",
-                "title": "გაფართოების დამატება"
-            },
-            "extensions": {
-                "add_button": "გაფართოების დამატება",
-                "settings_button": "",
-                "uninstall_button": "ამოშლა"
+            "users": {
+                "description": "",
+                "grid": {
+                    "columns": {
+                        "edit_user": {
+                            "button": "",
+                            "title": "",
+                            "tooltip": ""
+                        },
+                        "email": {
+                            "title": "",
+                            "visibility_hide": "",
+                            "visibility_show": ""
+                        },
+                        "group_badges": {
+                            "no_badges": "",
+                            "title": ""
+                        },
+                        "join_time": {
+                            "title": ""
+                        },
+                        "user_id": {
+                            "title": ""
+                        },
+                        "username": {
+                            "profile_link_tooltip": "",
+                            "title": ""
+                        }
+                    },
+                    "invalid_column_content": ""
+                },
+                "pagination": {
+                    "back_button": "",
+                    "next_button": "",
+                    "page_counter": ""
+                },
+                "title": "",
+                "total_users": ""
             }
         },
         "forum": {
@@ -280,23 +303,11 @@
             "discussion_list": {
                 "empty_text": "როგორც ჩანს, აქ არანაირი დისკუსია არ არის.",
                 "load_more_button": "",
-                "mark_as_read_tooltip": "წაკითხულად მონიშვნა",
                 "replied_text": "{username} უპასუხა {ago}",
-                "started_text": "{username} დაიწყო {ago}"
-            },
-            "edit_user": {
-                "activate_button": "გაააქტიურეთ მომხმარებელი",
-                "email_heading": "",
-                "email_label": "",
-                "groups_heading": "ჯგუფები",
-                "nothing_available": "",
-                "password_heading": "",
-                "password_label": "",
-                "set_password_label": "დააყენეთ ახალი პაროლი",
-                "submit_button": "",
-                "title": "მომხმარებლის რედაქტირება",
-                "username_heading": "",
-                "username_label": ""
+                "started_text": "{username} დაიწყო {ago}",
+                "total_replies_a11y_label": "",
+                "unread_replies_a11y_label": "",
+                "mark_as_read_tooltip": "წაკითხულად მონიშვნა"
             },
             "forgot_password": {
                 "dismiss_button": "",
@@ -314,7 +325,9 @@
                 "log_in_link": "",
                 "log_out_button": "",
                 "profile_button": "პროფილი",
+                "search_clear_button_accessible_label": "",
                 "search_placeholder": "ფორუმის ძებნა",
+                "search_role_label": "",
                 "session_dropdown_accessible_label": "",
                 "settings_button": "",
                 "sign_up_link": ""
@@ -440,22 +453,59 @@
                 "alert_message": "",
                 "resend_button": "ხელახლა გაგზავნეთ დამადასტურებელი ელ.ფოსტა",
                 "sent_message": "გაგზავნილი"
+            },
+            "welcome_hero": {
+                "hide": ""
             }
         },
         "lib": {
+            "debug_button": "",
+            "alert": {
+                "dismiss_a11y_label": ""
+            },
             "badge": {
                 "hidden_tooltip": "დამალული"
             },
             "dropdown": {
                 "toggle_dropdown_accessible_label": ""
             },
+            "edit_user": {
+                "activate_button": "",
+                "email_heading": "",
+                "email_label": "",
+                "groups_heading": "",
+                "password_heading": "",
+                "password_label": "",
+                "set_password_label": "",
+                "submit_button": "",
+                "title": "",
+                "username_heading": "",
+                "username_label": "",
+                "nothing_available": ""
+            },
             "error": {
                 "dependent_extensions_message": "შეუძლებელია {extension} გამორთვა სანამ არ მოხდება შემდეგი დამოკიდებული გაფართოებების გამორთვა: {extensions}",
+                "extension_initialiation_failed_message": "",
                 "generic_message": "უი! Რაღაც არასწორად წავიდა. გთხოვთ, გადატვირთოთ გვერდი და ისევ სცადოთ.",
                 "missing_dependencies_message": "შეუძელებლია {extension} გაფართოების ჩართვა, სანამ შემდეგი გაფართოებები ჩართულია: {extensions}",
                 "not_found_message": "მოთხოვნილი რესურსი ვერ მოიძებნა.",
+                "payload_too_large_message": "",
                 "permission_denied_message": "თქვენ არ გაქვთ ამის ნებართვა.",
-                "rate_limit_exceeded_message": "ცოტა სწრაფად მიდიხარ. გთხოვთ, სცადოთ ხელახლა რამდენიმე წამში."
+                "rate_limit_exceeded_message": "ცოტა სწრაფად მიდიხარ. გთხოვთ, სცადოთ ხელახლა რამდენიმე წამში.",
+                "render_failed_message": ""
+            },
+            "loading_indicator": {
+                "accessible_label": ""
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
+            },
+            "modal": {
+                "close": ""
+            },
+            "nav": {
+                "drawer_button": ""
             },
             "number_suffix": {
                 "kilo_text": "კ",
@@ -471,6 +521,26 @@
             }
         },
         "views": {
+            "admin": {
+                "extensions": {
+                    "caption": "",
+                    "disable": "",
+                    "empty": "",
+                    "enable": "",
+                    "name": "",
+                    "package_name": "",
+                    "version": ""
+                },
+                "info": {
+                    "caption": ""
+                },
+                "title": ""
+            },
+            "confirm_email": {
+                "submit_button": "",
+                "text": "",
+                "title": ""
+            },
             "content": {
                 "javascript_disabled_message": "ეს საიტი საუკეთესოდ ჩანს თანამედროვე ბრაუზერში, რომელშიც ჩართულია JavaScript.",
                 "load_error_message": "ამ საიტის სრული ვერსიის ჩატვირთვისას მოხდა რაღაც შეცდომა. ცადეთ შეცვალოთ ეს გვერდი შეცდომის გამოსასწორებლად.",
@@ -505,6 +575,10 @@
                 "new_password_label": "ახალი პაროლი",
                 "submit_button": "",
                 "title": ""
+            },
+            "meta_titles": {
+                "with_page_title": "",
+                "without_page_title": ""
             }
         },
         "api": {
@@ -534,6 +608,7 @@
             "change_password": "პაროლის შეცვლა",
             "color": "ფერი",
             "confirm_password": "დაადასტურეთ პაროლი",
+            "confirm_email": "",
             "confirmation_email_sent": "ჩვენ გამოგიგზავნეთ დამადასტურებელი ელ.წერილი {email} -ზე. თუ ის მალე არ მოვა, შეამოწმეთ თქვენი სპამის საქაღალდე.",
             "custom_footer_text": "დაამატეთ HTML, რომელიც გამოჩნდება გვერდის ბოლოში.",
             "custom_footer_title": "დაარედაქტირეთ სასურველი ქვედაკლონტიტული",
@@ -543,10 +618,13 @@
             "delete_forever": "სამუდამოდ წაშლა",
             "discussions": "დისკუსიები",
             "edit": "რედაქტირება",
+            "edit_user": "",
             "email": "ელ.ფოსტა",
+            "extensions": "",
             "icon": "აიქონი",
             "icon_text": "შეიყვანეთ სახელი ნებისმიერი <a>FontAwesome</a> აიქონის კლასის <em>მათ შორის</em> <code>fas fa-</code> პრეფიქსით.",
             "load_more": "მეტის ჩატვირთვა",
+            "loading": "",
             "log_in": "შესვლა",
             "log_out": "გამოსვლა",
             "mark_all_as_read": "ყველას წაკითხულად მონიშვნა",

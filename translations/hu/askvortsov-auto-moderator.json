@@ -1,0 +1,89 @@
+{
+    "askvortsov-auto-moderator": {
+        "admin": {
+            "action_drivers": {
+                "activate_email": "E-mail aktiválása",
+                "add_to_group": "Hozzáadás a csoporthoz",
+                "remove_from_group": "Eltávolítás a csoportból",
+                "suspend": "Felfüggesztés",
+                "unsuspend": "Felfüggésztés visszavonása"
+            },
+            "metric_drivers": {
+                "discussions_entered": "Témák, melyekbe belépett",
+                "discussions_participated": "Témák, melyekben részt vett",
+                "discussions_started": "Elindított témák",
+                "posts_made": "Közzétett",
+                "likes_given": "Adott kedvelések",
+                "likes_received": "Kapott kedvelése",
+                "best_answers": "Legjobb válaszok",
+                "moderator_strikes": "Moderátori büntetőpontok"
+            },
+            "requirement_drivers": {
+                "email_confirmed": "E-mail megerősítve",
+                "in_group": "Csoportban",
+                "suspended": "Felfüggesztve",
+                "email_matches_regex": "Az e-mail-cím megfelel a regexnek"
+            },
+            "in_group_settings": {
+                "regex": "Regex az érvényes e-mail-címekhez (perjel nélkül)"
+            },
+            "group_selector": {
+                "placeholder": "Válasszon csoportot"
+            },
+            "suspend_selector": {
+                "days": "Felfüggesztés ennyi napra",
+                "indefinitely": "Felfüggesztés korlátlan ideig?"
+            },
+            "criterion_status": {
+                "heading": "Állapotellenőrzés",
+                "invalid": "A feltétel jelenleg érvénytelen. Ellenőrizze a lenti meghajtókat hibák után keresve.",
+                "no_actions": "Nincs művelet meghatározva ehhez a feltételhez. Semmi sem fog történni, ha a felhasználókra teljesül vagy már nem igaz a feltétel.",
+                "no_metrics_or_reqs": "Nincs mérőszám vagy követelmény meghatározva ehhez a feltételhez. Ez azt jelenti, hogy az ÖSSZES felhasználó meg fog felelni a feltételnek.",
+                "valid": "A feltétel érvényes.",
+                "action_validation_errors": "A következő műveletmeghajtó-ellenőrzési hibák merültek fel:",
+                "requirement_validation_errors": "A következő követelménymeghajtó-ellenőrzési hibák merültek fel:"
+            },
+            "criterion_page": {
+                "driver_missing_ext": "Ez a meghajtó nem engedélyezett bővítményekre támaszkodik.",
+                "back": "Vissza a követelményekhez",
+                "name_label": "Név",
+                "icon_label": "Ikon",
+                "description_label": "Leírás",
+                "new_criterion": "Feltétel létrehozása",
+                "negated": "Ellentétes?",
+                "loading": "=> core.ref.loading",
+                "delete_button": "=> core.ref.delete",
+                "metrics_and_requirements_label": "Mérőszámok és követelmények",
+                "metrics_and_requirements_help": "Ezek határozzák meg, hogy a felhasználók megfelelnek-e ennek a feltételnek. A mérőszámok értéktartományokat jelölnek, a követelmények logikai feltételek.",
+                "metrics_heading": "Mérőszámok",
+                "requirements_heading": "Követelmények",
+                "add_metric": "Mérőszám hozzáadása",
+                "actions_label": "Műveletek",
+                "actions_help": "A teljesüléskor végrehajtandó művelet akkor történik meg, ha egy felhasználó megfelel egy új követelménynek. Az elvesztéskor végrehajtandók pedig akkor, amikor egy felhasználó már nem felel meg a követelménynek.",
+                "actions_on_gain_heading": "Teljesüléskor végrehajtandó műveletek",
+                "actions_on_loss_heading": "Elvesztéskor végrehajtandó műveletek",
+                "add_action": "Művelet hozzáadása"
+            },
+            "undefined_driver_item": {
+                "text": "HIBA! A(z) <strong>{driverName}</strong> meghajtó nincs meghatározva. A legvalószínűbb az, hogy egy olyan bővítmény adta hozzá, amely jelenleg nincs telepítve. Újra engedélyeznie kell a bővítményt, vagy el kell távolítania ezt a meghajtót, hogy a feltétel újra érvényes legyen."
+            },
+            "automoderator_page": {
+                "criterion_invalid": "A feltétel jelenleg érvénytelen. További információkért ellenőrizze a beállításokat.",
+                "list_heading": "Feltételek",
+                "create_criterion_button": "Új feltétel létrehozása"
+            },
+            "automoderator_instructions": {
+                "header": "Bővítmény utasításai",
+                "text": "<li>Dióhéjban: Ha egy felhasználó megfelel az X feltételnek, akkor Y történik. Ha egy felhasználó már nem felel meg az X feltételnek, akkor Z történik.</li>\n<li><strong>Feltétel:</strong> A feltételek a bővítmény központi elemei. Ezek tetszőlegesen beállított mérőszámok és követelmények. Ha egy felhasználó megfelel egy feltételnek, akkor a „teljesüléskor végrehajtandó” műveletek hajtódnak végre. Ha egy felhasználóra már nem teljesül egy feltétel, akkor az „elvesztéskor végrehajtandó” műveletek lesznek végrehajtva.</li>\n<ul>\n  <li><strong>Mérőszám:</strong> Egy számszerű feltétel. Például a bejegyzések vagy a kapott kedvelések száma. Egy feltétel a mérőszámok tartományát/minimumát/maximumát követelheti meg.</li>\n  <li><strong>Követelmény:</strong> Egy absztrakt logikai feltétel. Például hogy nincs felfüggesztve, vagy egy bizonyos regexnek megfelelő e-mail-címe van.</li>\n</ul>\n<li><strong>Műveletek:</strong> Valami, amely automatikusan történik, ha egy feltétel teljesül, vagy már nem teljesül. Ez bármi lehet, kezdve egy csoport hozzáadásától vagy eltávolításától, egészen egy felfüggesztési e-mail küldéséig.</li>\n<li><strong>Aktiváló:</strong> Egy olyan eseményhalmaz, amely a felhasználó feltételcsoportjainak újbóli kiértékelését okozza. Ezek részei a mérőszámok és feltételek meghatározásainak. Bejelentkezéskor minden feltétel kiértékelésre kerül: ez egy „univerzális aktiváló”.</li>\n<li>Az „elvesztéskor végrehajtandó” műveletek mindig a „teljesüléskor végrehajtandó” műveletek előtt futnak le.</li>\n<li>Vegye figyelembe, hogy a műveletek csak „elvesztéskor” és „teljesüléskor” futnak. Ha akkor módosít kézzel a felhasználón, amikor az megfelel egy feltételnek, akkor az „elvesztéskor végrehajtandó” műveletek nem lesznek újra végrehajtva.</li>\n<li>Ha töröl egy feltételt, akkor az „elvesztéskor végrehajtandó” műveletek NEM lesznek lefuttatva azokon a felhasználókon, akik jelenleg megfelelnek annak a feltételnek.</li>\n<li>Ha a feltételeket csoportok kezelésére használja, akkor azt javasoljuk, hogy külön csoportkészletet tartson fenn a feltételek által kezelt csoportoknak. Ezekhez a csoportokhoz kézileg nem tud felhasználókat hozzáadni, és eltávolítani sem tudja őket.</li>\n"
+            }
+        },
+        "lib": {
+            "group_id": "Csoportazonosító",
+            "managed_groups": {
+                "header": "Kezelt csoportok:",
+                "group_item": "<badge></badge> {groupName}",
+                "groups_not_editable": "Az inkonzisztencia elkerülése érdekében az automoderátor feltételei által kezelt csoportok kézileg nem adhatók hozzá vagy távolíthatók el a felhasználóktól."
+            }
+        }
+    }
+}

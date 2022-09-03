@@ -2,14 +2,19 @@
     "michaelbelgium-mybb-to-flarum": {
         "admin": {
             "content": {
-                "description_text": "Bir Mybb forumunu bu Flarum örneğine dönüştürün. Gerekli verileri doldurun, ardından \"İçe Aktar\" düğmesine tıklayın.",
+                "description_text": "Bir MyBB forumunu bu Flarum örneğine taşıyın. Gerekli verileri doldurun, ardından \"taşı\" düğmesine tıklayın.",
                 "convert_button": "İçe Aktar",
                 "form": {
-                    "general": {
-                        "title": "Genel Ayarlar",
-                        "migrate_avatars_label": "Avatarları aktar",
-                        "migrate_soft_threads_label": "Gereksiz olarak silinen konuları içe aktarma",
-                        "migrate_soft_posts_label": "Geri yüklenebilir şekilde silinen yayınları içe aktarma"
+                    "options": {
+                        "title": "Diğer seçenekler",
+                        "migrate_avatars_label": "Avatarları taşı",
+                        "migrate_soft_threads_label": "Geçici olarak silinen konuları taşıyın",
+                        "migrate_soft_posts_label": "Geçici olarak silinen gönderileri taşıyın",
+                        "migrate_attachments_label": "Ekleri taşı",
+                        "migrate_users_label": "Kullanıcıları içe aktar",
+                        "migrate_threadsPosts_label": "İleti dizilerini ve gönderileri içe aktarın",
+                        "migrate_userGroups_label": "Kullanıcı gruplarını içe aktarın",
+                        "migrate_categories_label": "Kategorileri içe aktarın"
                     },
                     "mybb": {
                         "title": "MyBB ayarları",
@@ -20,52 +25,15 @@
                         "prefix_label": "Tablo öneki",
                         "path_label": "MyBB dizini"
                     },
-                    "options": {
-                        "title": "Genel içe aktarma seçenekleri",
-                        "migrate_users_label": "Kullanıcıları içe aktar",
-                        "migrate_threadsPosts_label": "İleti dizilerini ve gönderileri içe aktarın",
-                        "migrate_userGroups_label": "Kullanıcı gruplarını içe aktarın",
-                        "migrate_categories_label": "Kategorileri içe aktarın"
-                    }
-                }
-            },
-            "nav": {
-                "title": "MyBB'den Flarum'a",
-                "description_text": "Bir MyBB forumunu bu Flarum örneğine dönüştürün"
-            }
-        }
-    },
-    "mybbtoflarum": {
-        "admin": {
-            "nav": {
-                "title": "",
-                "description": ""
-            },
-            "page": {
-                "text": "",
-                "btnConvert": "",
-                "form": {
                     "general": {
-                        "title": "",
-                        "migrateAvatars": "",
-                        "migrateSoftThreads": "",
-                        "migrateSoftPosts": ""
-                    },
-                    "mybb": {
-                        "title": "",
-                        "host": "",
-                        "user": "",
-                        "password": "",
-                        "db": "",
-                        "prefix": "",
-                        "mybbPath": ""
-                    },
-                    "options": {
-                        "title": "",
-                        "migrateUsers": "",
-                        "migrateThreadsPosts": "",
-                        "migrateUserGroups": "",
-                        "migrateCategories": ""
+                        "title": "Genel seçenekler",
+                        "migrate_users_label": "Kullanıcıları taşı",
+                        "migrate_threadsPosts_label": "İleti dizilerini ve gönderileri taşıyın",
+                        "migrate_userGroups_label": "Kullanıcı gruplarını taşı",
+                        "migrate_categories_label": "Kategorileri taşı",
+                        "migrate_avatars_label": "Avatarları aktar",
+                        "migrate_soft_threads_label": "Gereksiz olarak silinen konuları içe aktarma",
+                        "migrate_soft_posts_label": "Geri yüklenebilir şekilde silinen yayınları içe aktarma"
                     }
                 }
             }

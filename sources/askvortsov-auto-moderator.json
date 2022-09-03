@@ -1,0 +1,89 @@
+{
+    "askvortsov-auto-moderator": {
+        "admin": {
+            "action_drivers": {
+                "activate_email": "Activate Email",
+                "add_to_group": "Add to Group",
+                "remove_from_group": "Remove from Group",
+                "suspend": "Suspend",
+                "unsuspend": "Unsuspend"
+            },
+            "metric_drivers": {
+                "discussions_entered": "Discussions Entered",
+                "discussions_participated": "Discussions Participated",
+                "discussions_started": "Discussions Started",
+                "posts_made": "Posts Made",
+                "likes_given": "Likes Given",
+                "likes_received": "Likes Received",
+                "best_answers": "Best Answers",
+                "moderator_strikes": "Moderator Warnings Strikes"
+            },
+            "requirement_drivers": {
+                "email_confirmed": "Email Confirmed",
+                "in_group": "In Group",
+                "suspended": "Suspended",
+                "email_matches_regex": "Email Matches Regex"
+            },
+            "in_group_settings": {
+                "regex": "Regex for Valid Emails (no slashes)"
+            },
+            "group_selector": {
+                "placeholder": "Select a group"
+            },
+            "suspend_selector": {
+                "days": "Days to Suspend For",
+                "indefinitely": "Suspend Indefinitely?"
+            },
+            "criterion_status": {
+                "heading": "Status Check",
+                "invalid": "The criterion is currently invalid. Please check the drivers below for errors.",
+                "no_actions": "No actions are defined for this criterion. Nothing will happen when users gain or lose this criterion.",
+                "no_metrics_or_reqs": "No metrics or requirements are defined for this criterion. This means that ALL users will qualify for this criterion.",
+                "valid": "This criterion is valid!",
+                "action_validation_errors": "The following action driver validation errors were encountered:",
+                "requirement_validation_errors": "The following requirement driver validation errors were encountered:"
+            },
+            "criterion_page": {
+                "driver_missing_ext": "This driver depends on extensions that aren't enabled.",
+                "back": "Back to Criteria List",
+                "name_label": "Name",
+                "icon_label": "Icon",
+                "description_label": "Description",
+                "new_criterion": "Create Criterion",
+                "negated": "Negated?",
+                "loading": "=> core.ref.loading",
+                "delete_button": "=> core.ref.delete",
+                "metrics_and_requirements_label": "Metrics and Requirements",
+                "metrics_and_requirements_help": "These define whether users qualify for this criterion. Metrics represent ranges of values, requirements are boolean conditions.",
+                "metrics_heading": "Metrics",
+                "requirements_heading": "Requirements",
+                "add_metric": "Add Metric",
+                "actions_label": "Actions",
+                "actions_help": "Actions on gain execute when a user qualifies for a new criterion. Actions on loss execute when a user stops qualifying for a criterion.",
+                "actions_on_gain_heading": "Actions on Gain",
+                "actions_on_loss_heading": "Actions on Loss",
+                "add_action": "Add Action"
+            },
+            "undefined_driver_item": {
+                "text": "ERROR! The driver <strong>{driverName}</strong> is not defined. Most likely, it was added by an extension that isn't currently installed. You'll need to reenable the extension or remove this driver for the criterion to be valid again."
+            },
+            "automoderator_page": {
+                "criterion_invalid": "The criterion is currently invalid. Please check its settings for more information",
+                "list_heading": "Criteria",
+                "create_criterion_button": "Create New Criterion"
+            },
+            "automoderator_instructions": {
+                "header": "Extension Instructions",
+                "text": "<li>Tl;dr: When a user meets criteria X, do Y. When a user no longer meets criteria X, do Z.</li>\n<li><strong>Criteria:</strong> Criteria are the core of this extension. They are arbitrary sets of metrics and requirements. When a user meets a criterion, any \"on gain\" actions for the criterion will be executed. When a user loses a criterion, any \"on loss\" actions for the criterion will be executed.</li>\n<ul>\n  <li><strong>Metric:</strong> A numerical condition. For example, post count or number of likes received. A criterion could require a range/minimum/maximum of metrics.</li>\n  <li><strong>Requirement:</strong> An abstract boolean condition. For example, not being suspended, or having an email that matches a certain regex.</li>\n</ul>\n<li><strong>Actions:</strong> Something that happens automatically when a criteria is met or lost. This could include anything from adding/removing a group to sending an email to suspending a user.</li>\n<li><strong>Trigger:</strong> A set of events that would cause a user's criteria groups to be reevaluated. These are part of the definitions of metrics and requirements. All criteria will be evaluated on login: that is the \"universal trigger\".</li>\n<li>\"On loss\" actions will always run before \"on gain\" actions. That way, actions will be taken as long as a user meets at least one of the criteria that do that action on gain.</li>\n<li>Keep in mind that actions only run \"on loss\" and \"on gain\". Manual edits while a user qualifies for a criterion will not trigger the criterion's \"on gain\" actions to be reapplied.</li>\n<li>If you delete a criterion, \"on loss\" actions will NOT be run for the users who currently qualify for the criterion.</li>\n<li>If you are using criteria to manage groups, we recommend maintaining a separate set of groups to be managed by criteria. You will not be able to add/remove users to/from these groups manually.</li>\n"
+            }
+        },
+        "lib": {
+            "group_id": "Group ID",
+            "managed_groups": {
+                "header": "Managed Groups:",
+                "group_item": "<badge></badge> {groupName}",
+                "groups_not_editable": "Groups managed by automoderator criteria cannot be added/removed to/from users manually to prevent inconsistencies."
+            }
+        }
+    }
+}

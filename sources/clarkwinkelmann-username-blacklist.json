@@ -1,0 +1,18 @@
+{
+    "clarkwinkelmann-username-blacklist": {
+        "admin": {
+            "settings": {
+                "regex": "Regular Expression",
+                "regexHelp": "Switch from domain list to regular expression check. Each line of the list must be a valid regular expression with delimiters.\n",
+                "message": "Custom Error Message",
+                "blacklist": "Blacklist",
+                "blacklistHelp": "One expression per line. If no blacklist is provided, everything not whitelisted will be rejected.\n",
+                "whitelist": "Whitelist",
+                "whitelistHelp": "One expression per line. Will have priority over the blacklist.\n"
+            }
+        },
+        "api": {
+            "fallbackMessage": "The username is not whitelisted."
+        }
+    }
+}
