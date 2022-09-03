@@ -15,7 +15,7 @@
                 "watermark": "Válasszon, hogy a képek vízjelet kapjanak-e feltöltéskor. A vízjelek a nem GIF képekhez lesznek adva, a lenti beállítások alapján.\n",
                 "s3_compatible_storage": "A következő beállítások csak akkor szükségesek, ha S3-mal kompatibilis tárolót használ. Ha AWS-t használt, akkor üresen hagyhatja.\n",
                 "s3_acl": "A feltöltött objektumra alkalmazandó ACL (alapértelmezett: privát). A lehetséges értékekhez lásd: https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n",
-                "s3_instance_profile": "",
+                "s3_instance_profile": "Hagyja a kulcsot és a titkot üresen, hogy a példány profiljában lévő hitelesítő adatokat használja.\n",
                 "composer_buttons": "Alapértelmezetten a médiakezelő és a feltöltés gomb is látható. Választhat, hogy csak az egyik gomb jelenjen meg.\n"
             },
             "labels": {
@@ -41,10 +41,10 @@
                 "imgur": {
                     "client_id": "Imgur kliensazonosító",
                     "title": "Imgur képtároló beállításai",
-                    "tos": ""
+                    "tos": "Az Ön felelőssége, hogy a fórum felhasználói betartsák az Imgur <a>szolgáltatási feltételeit</a>"
                 },
                 "local": {
-                    "cdn_url": "Tartalomszolgáltató URL (fájlok előtagja)",
+                    "cdn_url": "Tartalomszolgáltató webcíme (fájlok előtagja)",
                     "title": "Helyi tároló beállításai"
                 },
                 "qiniu": {
@@ -81,7 +81,7 @@
                         "media-btn": "Csak médiakezelő gomb"
                     }
                 },
-                "inspect-mime": ""
+                "inspect-mime": "Fájl MIME-típusának tesztelése"
             },
             "permissions": {
                 "download_label": "Fájlok letöltése",
@@ -100,7 +100,7 @@
                 "markdown-image_description": "A teljes kép megjelenítése soron belül, Markdown használatával. <strong>A működéséhez telepíteni kell a flarum/markdown csomagot, és engedélyeznie kell azt.</strong> Nincs letöltési funkció, nincs statisztikagyűjtés, és a hivatkozásvédelem figyelmen kívül lesz hagyva.\n",
                 "bbcode-image": "BBCode képsablon",
                 "bbcode-image_description": "A teljes kép megjelenítése soron belül, BBCode használatával. <strong>A működéséhez telepíteni kell a flarum/bbcode csomagot, és engedélyeznie kell azt.</strong>Nincs letöltési funkció, nincs statisztikagyűjtés, és a hivatkozásvédelem figyelmen kívül lesz hagyva.\n",
-                "just-url": "Csak az URL",
+                "just-url": "Csak a webcím",
                 "just-url_description": "Csak az URL-t illeszti be. A megjelenítést más, automatikus hivatkozásra képes kiegészítők kezelhetik. Nincs letöltési funkció, és statisztika sem keletkezik, valamint a hivatkozásvédelem is figyelmen kívül lesz hagyva.\n",
                 "text-preview": "Szöveg előnézete",
                 "text-preview_description": "A szöveges fájl előnézetének (első 5 sorának) beszúrása, amely kibontható, hogy a fájl teljes tartalmát megjelenítse.\n"
@@ -113,17 +113,17 @@
                 "qiniu": "QiNiu"
             },
             "inspect-mime": {
-                "title": "",
-                "description": "",
-                "select": "",
-                "laravel-validation": "",
-                "no-file-selected": "",
-                "validation-passed": "",
-                "validation-failed": "",
-                "mime-detector": "",
-                "mime-fileinfo": "",
-                "guessed-extension": "",
-                "not-available": ""
+                "title": "MIME-típus vizsgálata",
+                "description": "A FoF Feltöltés a <a>PHP Mime Detector</a> programkönyvtárat használja a gyakori MIME-típusokhoz, tartaléknak pedig a PHP Fileinfót.\nA Fileinfo által visszaadott MIME-érték különbözhet a különböző kiszolgálók esetén!\n",
+                "select": "Válasszon egy lenti fájlt, hogy megvizsgálja a használandó értékeket. A fájl nem lesz mentve.",
+                "laravel-validation": "Laravel fájlellenőrzés",
+                "no-file-selected": "Nincs fájl",
+                "validation-passed": "Átment",
+                "validation-failed": "Sikertelen: {error}",
+                "mime-detector": "MIME észlelő (elsődleges)",
+                "mime-fileinfo": "PHP Fileinfo (tartalék)",
+                "guessed-extension": "Alapértelmezett fájlkiterjesztés (ha az eredeti nem szerepel a fehérlistán)",
+                "not-available": "Nincs találat"
             }
         },
         "forum": {

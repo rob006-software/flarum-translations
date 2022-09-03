@@ -1,34 +1,34 @@
 {
     "clarkwinkelmann-colorful-borders": {
         "forum": {
-            "edit": "",
-            "default": "",
-            "apply": "",
-            "reset": "",
-            "borderColor": "",
-            "backgroundColor": "",
-            "textColor": "",
-            "borderWidth": "",
-            "borderRadius": ""
+            "edit": "Stílus szerkesztése",
+            "default": "Alapértelmezett",
+            "apply": "Alkalmaz",
+            "reset": "Egyéni stílus eltávolítása",
+            "borderColor": "Szegélyszín",
+            "backgroundColor": "Háttérszín",
+            "textColor": "Szöveg színe",
+            "borderWidth": "Szegély szélessége",
+            "borderRadius": "Szegély sugara"
         },
         "admin": {
             "permissions": {
-                "editOwnPost": "",
-                "editAnyPost": ""
+                "editOwnPost": "Saját bejegyzés stílusának szerkesztése",
+                "editAnyPost": "Tetszőleges bejegyzés stílusának szerkesztése"
             },
             "settings": {
-                "enableBorderColor": "",
-                "enableBackgroundColor": "",
-                "enableTextColor": "",
-                "enableBorderWidth": "",
-                "enableBorderRadius": "",
-                "min": "",
-                "max": "",
+                "enableBorderColor": "Testreszabható szegélyszín",
+                "enableBackgroundColor": "Testreszabható háttérszín",
+                "enableTextColor": "Testreszabható szövegszín",
+                "enableBorderWidth": "Testreszabható szegélyszélesség",
+                "enableBorderRadius": "Testreszabható szegélysugár",
+                "min": "Legalább",
+                "max": "Legfeljebb",
                 "colors": {
-                    "simple": "",
-                    "all": "",
-                    "custom": "",
-                    "custom-help": ""
+                    "simple": "Egyszerű színkészlet",
+                    "all": "Tetszőleges szín",
+                    "custom": "Egyéni színlista",
+                    "custom-help": "#hex vagy rgb() értékek vesszővel elválasztott listája"
                 }
             }
         }

@@ -19,18 +19,47 @@
                     "vertical": "Dikey",
                     "horizontal": "Yatay"
                 },
-                "imageProxy": "Görüntü Proxy'si",
-                "imageProxyHelp": "Tüm resimler, ziyaretçi tarayıcısı tarafından alınmak yerine Flarum aracılığıyla proxy'ye alınacaktır",
+                "imageProxy": "OpenGraph Görüntü Proxy'si",
+                "imageProxyHelp": "Tüm OpenGraph ve favicon görüntüleri, ziyaretçi tarayıcısı tarafından alınmak yerine Flarum aracılığıyla proxy'ye alınacaktır",
                 "cacheProxy": "Proxy'li görüntüleri önbelleğe alın",
                 "cacheProxyHelp": "Görüntüler, HTTP başlıklarına göre diske önbelleğe alınacaktır",
                 "withoutOpengraph": "OpenGraph verileri olmayan sayfalar için zengin yerleştirmeler oluşturun",
-                "withoutOpengraphHelp": "Başlık, açıklama ve resim, sayfa HTML'sinden çıkarılacaktır",
+                "withoutOpengraphHelp": "Başlık, açıklama ve görsel, sayfa HTML'sinden çıkarılacaktır",
                 "blacklist": "URL Kara Listesi",
                 "blacklistHelp": "Biçim için belgelere bakın. Bu URL'ler hiçbir zaman zengin yerleştirmelere sahip olmayacak ve görüntü proxy'si aracılığıyla proxy oluşturulamaz",
                 "whitelist": "URL Beyaz Listesi",
-                "whitelistHelp": "Biçim için belgelere bakın. Bir değer ayarlanırsa, diğer tüm URL'ler kara listeye alınmış olarak kabul edilecektir"
+                "whitelistHelp": "Biçim için belgelere bakın. Bir değer ayarlanırsa, diğer tüm URL'ler kara listeye alınmış olarak kabul edilecektir",
+                "imageEmbeds": "Görseller için Rich Embeds",
+                "imageEmbedsHelp": "Bu özellik, bbcode veya markdown ile gönderilere eklenen harici görüntüler hakkında ek bilgiler alır ve görüntüler. Şu anda zengin bağlantılarla aynı kara listeyi/beyaz listeyi ve izinleri yeniden kullanır. Bu görüntüler, OpenGraph görüntü proxy'si aracılığıyla proxy'ye alınmaz. Bu ayarı değiştirdikten sonra Flarum önbelleğini temizlemelisiniz.\n",
+                "flarumApiPreviews": "Gelişmiş Flarum önizlemelerini etkinleştir",
+                "flarumApiPreviewsHelp": "",
+                "githubApiKey": "",
+                "githubApiKeyHelp": "",
+                "githubOrgWhitelist": "",
+                "githubOrgWhitelistHelp": "",
+                "googleApiAuthConfig": "",
+                "googleApiAuthConfigHelp": "",
+                "googleApiKey": "",
+                "googleApiKeyHelp": "",
+                "youtubePlayer": "",
+                "youtubePlayerHelp": "",
+                "youtubeNoCookie": "",
+                "youtubeNoCookieHelp": "",
+                "youtubeApiPreviews": "",
+                "youtubeApiPreviewsHelp": "",
+                "googledriveApiPreviews": "",
+                "googledriveApiPreviewsHelp": ""
+            },
+            "section": {
+                "siteSpecificHelp": "",
+                "flarum": "",
+                "github": "",
+                "google": "",
+                "youtube": "",
+                "googledrive": ""
             },
             "permissions": {
+                "viewGoogleDriveThumbnails": "",
                 "useOnOwnPost": "Kendi gönderisinde yerleştirme kullan",
                 "disableOnOwnPost": "Kendi gönderisine yerleştirmeleri devre dışı bırak",
                 "refreshOnOwnPost": "Kendi gönderisindeki yerleştirmeleri yenile",
@@ -46,18 +75,106 @@
         "lib": {
             "embed": {
                 "altFavicon": "{website} Simge",
-                "altImageFallback": "{website} Opengraph Görseli"
+                "altImageFallback": "{website} Opengraph Görseli",
+                "altAvatar": "",
+                "missing": {
+                    "retrieving": "",
+                    "other": ""
+                }
             },
             "controls": {
                 "refresh": "Veriyi Yenile",
                 "disable": "Bu yayındaki yerleştirmeleri devre dışı bırak",
-                "disableConfirmation": "Bu gönderideki tüm yerleştirmeler kaldırılacaktır. Devam edelim mi?"
+                "disableConfirmation": "Bu gönderideki tüm yerleştirmeler kaldırılacaktır. Devam edelim mi?",
+                "imgCopy": "Görselin linkini kopyala",
+                "imgCopied": "Kopyalandı!",
+                "imgOpen": "Resmi yeni sekmede aç",
+                "play": "",
+                "expandDescription": ""
             }
         },
         "api": {
             "error": {
                 "blacklistedUrl": "URL {url}, yerleştirme için beyaz listeye alınmadı.",
                 "invalidUrl": "URL {url} geçerli değil."
+            },
+            "embed": {
+                "flarum": {
+                    "discussion": {
+                        "type": "",
+                        "stats": {
+                            "commentCount": "",
+                            "participantCount": "",
+                            "createdAt": ""
+                        }
+                    },
+                    "user": {
+                        "type": "",
+                        "avatarAlt": "",
+                        "stats": {
+                            "discussionCount": "",
+                            "commentCount": "",
+                            "joinTime": ""
+                        }
+                    }
+                },
+                "github": {
+                    "siteName": "",
+                    "privateRepoSuffix": "",
+                    "issue": {
+                        "type": "",
+                        "stats": {
+                            "commentCount": "",
+                            "createdAt": ""
+                        }
+                    },
+                    "pull": {
+                        "type": "",
+                        "stats": {
+                            "commentCount": "",
+                            "reviewCount": "",
+                            "commitCount": "",
+                            "createdAt": ""
+                        }
+                    },
+                    "repo": {
+                        "type": {
+                            "public": "",
+                            "private": ""
+                        },
+                        "stats": {
+                            "openIssueCount": "",
+                            "subscriberCount": "",
+                            "stargazerCount": "",
+                            "forkCount": ""
+                        }
+                    }
+                },
+                "youtube": {
+                    "siteName": "",
+                    "video": {
+                        "type": "",
+                        "thumbnailAlt": "",
+                        "stats": {
+                            "viewCount": "",
+                            "likeCount": "",
+                            "commentCount": "",
+                            "publishedAt": ""
+                        }
+                    }
+                },
+                "googledrive": {
+                    "siteName": "",
+                    "file": {
+                        "type": "",
+                        "thumbnailAlt": "",
+                        "stats": {
+                            "size": "",
+                            "createdTime": "",
+                            "modifiedTime": ""
+                        }
+                    }
+                }
             }
         }
     }

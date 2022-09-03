@@ -6,7 +6,8 @@
                 "driverOption": {
                     "null": "Boş",
                     "algolia": "Algolia",
-                    "meilisearch": "Meilisearch"
+                    "meilisearch": "Meilisearch",
+                    "tntsearch": ""
                 },
                 "prefix": "Dizin adı öneki (isteğe bağlı)",
                 "algoliaId": "Algolia ID",
@@ -15,7 +16,12 @@
                 "algoliaReadTimeout": "Algolia Okuma Zaman Aşımı (isteğe bağlı)",
                 "algoliaWriteTimeout": "Algolia Yazma Zaman Aşımı (isteğe bağlı)",
                 "meilisearchHost": "Meilisearch Host",
-                "meilisearchKey": "Meilisearch Anahtarı"
+                "meilisearchKey": "Meilisearch Anahtarı",
+                "tntsearchMaxDocs": "",
+                "tntsearchFuzziness": "",
+                "tntsearchFuzzyDistance": "",
+                "tntsearchFuzzyPrefixLength": "",
+                "tntsearchFuzzyMaxExpansions": ""
             }
         }
     }

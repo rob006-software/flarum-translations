@@ -2,25 +2,25 @@
     "clarkwinkelmann-mass-actions": {
         "forum": {
             "select": {
-                "all": "Chọn tất cả",
-                "none": "Bỏ chọn tất cả",
-                "read": "",
-                "unread": "",
-                "visible": "",
-                "hidden": "",
-                "locked": "",
-                "unlocked": ""
+                "all": "Tất cả",
+                "none": "Không chọn",
+                "read": "Đọc",
+                "unread": "Không đọc",
+                "visible": "Không bị xóa",
+                "hidden": "Xóa tạm thời",
+                "locked": "Đã khóa",
+                "unlocked": "Đã mở khóa"
             },
             "actions": {
                 "markAsRead": "Đánh dấu đã đọc",
                 "hide": "Xóa đã chọn",
                 "restore": "Khôi phục đã chọn",
-                "delete": "",
-                "deleteConfirmation": "",
+                "delete": "Xóa vĩnh viễn đã chọn",
+                "deleteConfirmation": "{count, plural, one {Bạn có chắc chắn muốn xóa vĩnh viễn cuộc thảo luận đã chọn không?} other {Bạn có chắc chắn muốn xóa vĩnh viễn # cuộc thảo luận đã chọn không?}}",
                 "lock": "Khóa đã chọn",
                 "unlock": "Mở khóa đã chọn",
-                "sticky": "",
-                "unsticky": "",
+                "sticky": "Ghim đã chọn",
+                "unsticky": "Bỏ ghim đã chọn",
                 "tags": "Thẻ",
                 "tags-edit": "Sửa thẻ",
                 "tags-add": "Thêm <em>{tag}</em>"

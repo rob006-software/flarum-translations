@@ -2,20 +2,26 @@
     "clarkwinkelmann-scout": {
         "admin": {
             "setting": {
-                "driver": "",
+                "driver": "Pilote",
                 "driverOption": {
-                    "null": "",
-                    "algolia": "",
-                    "meilisearch": ""
+                    "null": "Néant",
+                    "algolia": "Algolia",
+                    "meilisearch": "Meilisearch",
+                    "tntsearch": "TNTSearch"
                 },
-                "prefix": "",
-                "algoliaId": "",
-                "algoliaSecret": "",
-                "algoliaConnectTimeout": "",
-                "algoliaReadTimeout": "",
-                "algoliaWriteTimeout": "",
-                "meilisearchHost": "",
-                "meilisearchKey": ""
+                "prefix": "Préfixe du nom de l'index (facultatif)",
+                "algoliaId": "Identifiant d'Algolia",
+                "algoliaSecret": "Secret d'Algolia",
+                "algoliaConnectTimeout": "Délai de connexion d'Algolia (facultatif)",
+                "algoliaReadTimeout": "Délai de lecture d'Algolia (facultatif)",
+                "algoliaWriteTimeout": "Délai d'écriture d'Algolia (facultatif)",
+                "meilisearchHost": "Hôte de Meilisearch",
+                "meilisearchKey": "Clé de Meilisearch",
+                "tntsearchMaxDocs": "Documents maximum de TNTSearch (facultatif, il s'agit du nombre maximum de résultats)",
+                "tntsearchFuzziness": "Caractère flou de TNTSearch (erreurs de frappe ou correspondance des variations)",
+                "tntsearchFuzzyDistance": "Distance de Levenshtein du caractère flou de TNTSearch (facultatif)",
+                "tntsearchFuzzyPrefixLength": "Longueur du préfixe du caractère flou de TNTSearch (facultatif)",
+                "tntsearchFuzzyMaxExpansions": "Extensions maximales du caractère flou de TNTSearch (facultatif)"
             }
         }
     }

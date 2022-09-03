@@ -2,15 +2,15 @@
     "datlechin-link-preview": {
         "admin": {
             "settings": {
-                "blacklist_label": "",
-                "blacklist_help": "",
-                "blacklist_placeholder": "",
-                "convert_media_urls_label": "",
-                "convert_media_urls_help": ""
+                "blacklist_label": "רשימה שחורה",
+                "blacklist_help": "כתבו רשימת דומיינים או קישורים המופרדת בפסיקים להתעלמות מצפיה מקדימה של קישור.",
+                "blacklist_placeholder": "כגון: facebook.com,https://domain.com/path",
+                "convert_media_urls_label": "המרת קישורי מדיה",
+                "convert_media_urls_help": "אם מופעל, קישורי מדיה יומרו לקישורי צפיה מקדימה."
             }
         },
         "forum": {
-            "site_cannot_be_reached": ""
+            "site_cannot_be_reached": "אין אפשרות לגשת לאתר."
         }
     }
 }

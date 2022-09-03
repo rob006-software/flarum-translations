@@ -2,19 +2,19 @@
     "blessing-oauth-client": {
         "admin": {
             "popup": {
-                "title": "",
+                "title": "Blessing Skin bejelentkezés",
                 "field": {
-                    "base-url": "",
-                    "app-id": "",
-                    "app-secret": "",
-                    "button-title": "",
-                    "button-title-placeholder": "",
-                    "button-icon": ""
+                    "base-url": "Blessing Skin gyökérwebcím",
+                    "app-id": "OAuth kliensazonosító",
+                    "app-secret": "OAuth klienstitok",
+                    "button-title": "Bejelentkezési gomb címkéje",
+                    "button-title-placeholder": "=> blessing-oauth-client.api.default-login-button-title",
+                    "button-icon": "Bejelentkezési gomb ikonja"
                 }
             }
         },
         "api": {
-            "default-login-button-title": ""
+            "default-login-button-title": "Bejelentkezés a Blessing Skinnel"
         }
     }
 }

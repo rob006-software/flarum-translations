@@ -13,7 +13,7 @@
             "post": {
                 "like_link": "אהבתי",
                 "liked_by_self_text": "{users} אהבת את זה.",
-                "liked_by_text": "{users} אהבו את זה.|{users} אהב את זה.",
+                "liked_by_text": "{count, plural, one {{users} אהב את זה} other {{users} אהבו את זה}}.",
                 "others_link": "=> core.ref.some_others",
                 "unlike_link": "לא אהבתי",
                 "you_text": "=> core.ref.you"

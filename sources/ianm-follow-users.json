@@ -5,10 +5,13 @@
                 "be_followed_label": "Allow users to follow"
             },
             "settings": {
-                "button-on-profile-label": "Show the Follow button directly on the user profile header"
+                "button-on-profile-label": "Show the Follow button directly on the user profile header",
+                "stats-on-profile-label": "Show follower and following counts on user profiles"
             }
         },
         "forum": {
+            "followed": "Followed",
+            "followers": "Followers",
             "profile_link": "=> ianm-follow-users.lib.following_link",
             "profile_page": {
                 "no_following": "It looks like you're not following anyone."

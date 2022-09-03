@@ -2,25 +2,25 @@
     "clarkwinkelmann-external-email-validation": {
         "admin": {
             "settings": {
-                "method": "",
-                "uri": "",
-                "uri-help": "",
-                "body": "",
-                "body-help": "",
-                "headers": "",
-                "headers-help": "",
-                "use-response-status": "",
-                "use-response-status-help": "",
-                "response-success-key": "",
-                "response-success-key-help": "",
-                "default-error-message": "",
-                "default-error-message-help": "",
-                "response-error-key": "",
-                "response-error-key-help": ""
+                "method": "Kérés módja",
+                "uri": "Kérés URI-ja",
+                "uri-help": "Rövid kódokat szúrhat be, amelyek az e-mail értékre lesznek cserélve, lásd a README fájlt.",
+                "body": "Kérés törzse",
+                "body-help": "Rövid kódokat szúrhat be, amelyek az e-mail értékre lesznek cserélve, lásd a README fájlt.",
+                "headers": "Kérés fejlécei",
+                "headers-help": "Soronként egy fejléc",
+                "use-response-status": "HTTP-válasz állapotkódjának használata az érvényességi állapothoz",
+                "use-response-status-help": "A 2xx válaszok érvényesnek lesznek tekintve. A 4xx válaszok érvénytelennek lesznek tekintve.",
+                "response-success-key": "A JSON-attribútum útvonala érvényes állapot esetén",
+                "response-success-key-help": "Az útvonal <code>kulcs1.kulcs2.kulcs3</code> formátumban. A Laravel <code>Arr::get</code> segédmetódusával lesz kinyerve. Az érték logikai típussá lesz alakítva. Csak akkor van hatása, ha a HTTP-állapot nincs használatban. Kivételt dob, ha a válasz nem érvényes JSON.\n",
+                "default-error-message": "Alapértelmezett hibaüzenet",
+                "default-error-message-help": "Ez az üzenet akkor jelenik meg, ha az e-mail-cím ellenőrzése sikertelen és más üzenet nem található. Ha le kell fordítania ezt a bejegyzést, akkor hagyja ezt a mezőt üresen, és szabja testre a beépített hibaüzenetet a Linguisttel.\n",
+                "response-error-key": "A JSON-attribútum útvonala hibaüzenet esetén",
+                "response-error-key-help": "Az útvonal <code>kulcs1.kulcs2.kulcs3</code> formátumban. A Laravel <code>Arr::get</code> segédmetódusával lesz kinyerve. Az alapértelmezett hibaüzenet jelenik meg, ha a kulcs nem található.\n"
             }
         },
         "api": {
-            "email-validation-error": ""
+            "email-validation-error": "Az e-mail nem ment át a külső ellenőrzésen."
         }
     }
 }

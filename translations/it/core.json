@@ -485,14 +485,14 @@
             },
             "error": {
                 "dependent_extensions_message": "Non puoi disattivare l'estensione {extension} finché non disattiverai le seguenti estensioni: {extensions}",
+                "extension_initialiation_failed_message": "Impossibile inizializzare {extension}, controlla la console del browser per ulteriori informazioni.",
                 "generic_message": "Oops! Qualcosa è andato storto. Aggiorna la pagina e riprova.",
                 "missing_dependencies_message": "Non puoi attivare l'estensione {extension} finché non attiverai le seguenti estensioni: {extensions}",
                 "not_found_message": "La risorsa richiesta non è stata trovata.",
                 "payload_too_large_message": "Il payload richiesto era troppo grande.",
                 "permission_denied_message": "Non hai il permesso di farlo.",
                 "rate_limit_exceeded_message": "Stai scrivendo un po' troppo in fretta. Riprova tra qualche secondo.",
-                "render_failed_message": "Spiacenti, si è verificato un errore durante la visualizzazione di questo contenuto. Se sei un utente, riprova più tardi. Se sei un amministratore, dai un'occhiata ai file di registro di Flarum per ulteriori informazioni.",
-                "extension_initialiation_failed_message": ""
+                "render_failed_message": "Spiacenti, si è verificato un errore durante la visualizzazione di questo contenuto. Se sei un utente, riprova più tardi. Se sei un amministratore, dai un'occhiata ai file di registro di Flarum per ulteriori informazioni."
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"

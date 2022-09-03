@@ -100,6 +100,24 @@
                 "comment_section": "Phần bình luận không được hiện khi đang viết bài.",
                 "no_blog_tags_selected": "Không có thẻ nào bạn đã chọn là thẻ blog. Vui lòng chọn ít nhất một.",
                 "post_without_blog_info": "Bạn có chắc chắn muốn đăng bài blog này không? Bạn chưa nhập hình ảnh hoặc tóm tắt blog."
+            },
+            "article_settings": {
+                "title": "Cài đặt bài viết blog",
+                "fields": {
+                    "summary": {
+                        "title": "Tóm tắt bài viết",
+                        "placeholder": "Vui lòng nhập tóm tắt bài viết",
+                        "helper_text": "Bản tóm tắt này sẽ hiển thị trên trang tổng quan của blog và sẽ được sử dụng cho mục đích SEO."
+                    },
+                    "image": {
+                        "title": "Ảnh bài viết",
+                        "helper_text": "Độ phân giải hình ảnh tốt nhất cho mạng xã hội: 1200x630"
+                    },
+                    "highlight": {
+                        "title": "Bài viết được đánh dấu",
+                        "helper_text": "Cung cấp cho bài viết này một hình ảnh lớn trên trang tổng quan blog."
+                    }
+                }
             }
         }
     }

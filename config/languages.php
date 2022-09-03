@@ -19,16 +19,19 @@ return [
 		// '!v17development-seo', https://github.com/v17development/flarum-seo/issues/61#issuecomment-855474306
 	]),
 	'az' => getComponents(),
+	'bn' => getComponents(),
 	'cs' => getComponents(),
 	'da' => getComponents(),
 	'de' => getComponents([
 		// translations included in extension
+		'!archlinux-de-click-image',
 		'!tpokorra-post-notification',
 		'!v17development-seo',
 	]),
 	'es' => getComponents([
 		// translations included in extension
 		// '!clarkwinkelmann-emojionearea', https://github.com/clarkwinkelmann/flarum-ext-emojionearea/issues/28#issuecomment-855995493
+		'!cadiducho-bbcode',
 		'!jslirola-login2seeplus',
 		'!malago-achievements',
 		'!malago-ads',
@@ -45,6 +48,7 @@ return [
 		'!clarkwinkelmann-email-as-display-name',
 		'!clarkwinkelmann-emojionearea',
 		'!clarkwinkelmann-passwordless',
+		'!kilowhat-formulaire',
 		'!tituspijean-auth-ldap',
 		// '!v17development-seo', https://github.com/v17development/flarum-seo/issues/61#issuecomment-855474306
 	]),

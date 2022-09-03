@@ -485,14 +485,14 @@
             },
             "error": {
                 "dependent_extensions_message": "Kan {extension} pas uitschakelen als de volgende afhankelijke extensies zijn uitgeschakeld: {extensions}",
+                "extension_initialiation_failed_message": "{extension} kan niet worden geïnitialiseerd, controleer de browserconsole voor meer informatie.",
                 "generic_message": "Oeps! Er is iets misgegaan. Herlaad de pagina en probeer het opnieuw.",
                 "missing_dependencies_message": "Kan {extension} pas inschakelen als de volgende afhankelijke extensies zijn ingeschakeld: {extensions}",
                 "not_found_message": "Het opgevraagde kon niet worden gevonden.",
                 "payload_too_large_message": "De payload van het verzoek was te groot.",
                 "permission_denied_message": "Je hebt geen permissie om dat te doen.",
                 "rate_limit_exceeded_message": "Je gaat een beetje te snel. Probeer het over een paar seconden nog eens.",
-                "render_failed_message": "Sorry, er is een fout opgetreden bij het weergeven van deze inhoud. Wanneer je een gebruiker bent, probeer het dan later opnieuw. Als je een beheerder bent, kijk dan in je Flarum-logbestanden voor meer informatie.",
-                "extension_initialiation_failed_message": "{extension} kan niet worden geïnitialiseerd, controleer de browserconsole voor meer informatie."
+                "render_failed_message": "Sorry, er is een fout opgetreden bij het weergeven van deze inhoud. Wanneer je een gebruiker bent, probeer het dan later opnieuw. Als je een beheerder bent, kijk dan in je Flarum-logbestanden voor meer informatie."
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"

@@ -505,14 +505,14 @@
             },
             "error": {
                 "dependent_extensions_message": "Cannot disable {extension} until the following dependent extensions are disabled: {extensions}",
+                "extension_initialiation_failed_message": "",
                 "generic_message": "Hoppsan! Något gick fel. Vänligen ladda om sidan och försök igen.",
                 "missing_dependencies_message": "Cannot enable {extension} until the following dependencies are enabled: {extensions}",
                 "not_found_message": "Den begärda resursen hittades inte.",
                 "payload_too_large_message": "",
                 "permission_denied_message": "Du saknar rättigheterna för att göra det.",
                 "rate_limit_exceeded_message": "Du är lite för snabb. Försök igen om några sekunder.",
-                "render_failed_message": "",
-                "extension_initialiation_failed_message": ""
+                "render_failed_message": ""
             },
             "loading_indicator": {
                 "accessible_label": ""

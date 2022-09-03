@@ -21,8 +21,8 @@
                 "empty_text": "抱歉，没有找到匹配的用户。",
                 "filter_button": "筛选用户组",
                 "usercard": {
-                    "discussion-count": "",
-                    "post-count": ""
+                    "discussion-count": "{count, plural, one {主题 {count}} other {主题 {count}}}",
+                    "post-count": "{count, plural, one {回复 {count}} other {回复 {count}}}"
                 }
             }
         },

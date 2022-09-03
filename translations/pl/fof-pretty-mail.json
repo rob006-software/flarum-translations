@@ -6,13 +6,13 @@
             },
             "settings": {
                 "attributes": {
-                    "body": "",
-                    "forumStyle": "",
-                    "url": "",
-                    "settings": "",
-                    "link": ""
+                    "body": "Zawiera faktyczną treść wiadomości e-mail",
+                    "forumStyle": "Zawiera <strong>wszystkie style CSS forum</strong>",
+                    "url": "<code>UrlGenerator</code> Flarum",
+                    "settings": "Pozwala na interakcję z SettingsRepositoryInterface",
+                    "link": "Zawiera link w wiadomości e-mail"
                 },
-                "attributes_label": "",
+                "attributes_label": "Dostępne ustawienia",
                 "label": "Szablony wiadomości e-mail",
                 "reset": "Przywróć domyślne",
                 "confirm": "Czy jesteś pewien, że chcesz wrócić do podstawowego szablonu wiadomości e-mail dla",
@@ -22,8 +22,7 @@
                 "postMentioned": "flarum/mentions - Post został wspomniany",
                 "notifications": "Szablony powiadomień",
                 "notificationHelp": "Zaleca się stosowanie „$forumStyle” dla tych wiadomości e-mail, ponieważ mogą one zawierać BBCODE. Dostępna jest też zmienna „$user”, która zawiera cały model użytkownika, do którego wysyłana jest wiadomość e-mail.",
-                "template_help": "",
-                "help": "\"$body\" zawiera rzeczywistą treść wiadomości e-mail, \"$forumStyle\" zawiera <strong>cały CSS forum</strong>, \"$url\" zawiera <code>UrlGenerator</code>, \"$settings\" zapewnia dostęp do <code>SettingsRepositoryInterface</code>, a \"$link\" zawiera link w wiadomości e-mail. Sprawdź istniejące szablony, aby zobaczyć jak wykorzystywać dostępne zmienne."
+                "template_help": "Sprawdź każdy szablon, aby dowiedzieć się, jak korzystać z dostępnych atrybutów."
             },
             "css_settings": {
                 "label": "Ustawienia CSS",

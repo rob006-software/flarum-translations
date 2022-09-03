@@ -485,14 +485,14 @@
             },
             "error": {
                 "dependent_extensions_message": "{extension} laiendust ei saa keelata enne nende laienduste keelamist: {extensions}",
+                "extension_initialiation_failed_message": "",
                 "generic_message": "Oih! Juhtus ootamatu viga. Palun laadi leht uuesti ja proovi veel kord.",
                 "missing_dependencies_message": "{extension} laiendust ei saa lubada enne nende laienduste lubamist: {extensions}",
                 "not_found_message": "Nõutud ressurssi ei leitud.",
                 "payload_too_large_message": "",
                 "permission_denied_message": "Sul ei ole selle jaoks õigust.",
                 "rate_limit_exceeded_message": "Postitad liiga kiiresti. Proovi mõne sekundi pärast uuest.",
-                "render_failed_message": "",
-                "extension_initialiation_failed_message": ""
+                "render_failed_message": ""
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"

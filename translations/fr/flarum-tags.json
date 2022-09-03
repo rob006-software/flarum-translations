@@ -20,7 +20,7 @@
             },
             "nav": {
                 "tags_button": "=> flarum-tags.ref.tags",
-                "tags_text": "Gérez la liste des étiquettes disponibles pour organiser les discussions."
+                "tags_text": "Gérez la liste des étiquettes disponibles pour organiser les discussions avec."
             },
             "permissions": {
                 "allow_edit_tags_label": "Autoriser la modification des étiquettes",
@@ -37,7 +37,7 @@
                 "title": "Paramètres des étiquettes"
             },
             "tags": {
-                "about_tags_text": "Les étiquettes sont utilisées pour catégoriser les discussions. Les étiquettes primaires sont similaires aux catégories traditionnelles des forums, elles peuvent être organisées selon une hiérarchie à deux niveaux. Les étiquettes secondaires ne sont ni hiérarchisées ni ordonnées, mais sont utiles pour la micro-catégorisation.",
+                "about_tags_text": "Les étiquettes sont utilisées pour catégoriser les discussions. Les étiquettes primaires sont similaires aux traditionnelles catégories des forums et peuvent être organisées selon une hiérarchie à deux niveaux. Les étiquettes secondaires ne sont ni hiérarchisées ni ordonnées, mais sont utiles pour la micro-catégorisation.",
                 "create_primary_tag_button": "Créer une étiquette primaire",
                 "create_secondary_tag_button": "Créer une étiquette secondaire",
                 "primary_heading": "Étiquettes primaires",
@@ -54,18 +54,18 @@
                 "bypass_requirements": "Ignorer les exigences relatives aux étiquettes",
                 "choose_primary_placeholder": "{count, plural, one {Sélectionnez une étiquette primaire} other {Sélectionnez # étiquettes primaires}}",
                 "choose_secondary_placeholder": "{count, plural, one {Sélectionnez une étiquette secondaire} other {Sélectionnez # étiquettes secondaires}}",
-                "edit_title": "Modifiez les étiquettes de {title}",
+                "edit_title": "Modifier les étiquettes de {title}",
                 "submit_button": "=> core.ref.okay",
                 "title": "Sélectionnez les étiquettes de votre discussion"
             },
             "composer_discussion": {
-                "choose_tags_link": "Sélectionnez des étiquettes"
+                "choose_tags_link": "Sélectionner des étiquettes"
             },
             "discussion_controls": {
                 "edit_tags_button": "Modifier les étiquettes"
             },
             "header": {
-                "back_to_tags_tooltip": "Retourner à la liste d'étiquettes"
+                "back_to_tags_tooltip": "Retourner à la liste des étiquettes"
             },
             "index": {
                 "more_link": "Plus…",
@@ -76,7 +76,7 @@
                 "added_and_removed_tags_text": "{username} a ajouté {tagsAdded} et a supprimé {tagsRemoved}.",
                 "added_tags_text": "{username} a ajouté {tagsAdded}.",
                 "removed_tags_text": "{username} a supprimé {tagsRemoved}.",
-                "tags_text": "{count, plural, one {Étiquette {tags}} other {Étiquettes {tags}}}"
+                "tags_text": "{count, plural, one {l'étiquette {tags}} other {les étiquettes {tags}}}"
             },
             "tag": {
                 "meta_description_text": "Toutes les discussions avec l'étiquette {tag}"

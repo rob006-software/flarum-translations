@@ -21,8 +21,8 @@
                 "empty_text": "Aramanızla eşleşen bir kullanıcı bulamadık.",
                 "filter_button": "Grupları Filtrele",
                 "usercard": {
-                    "discussion-count": "",
-                    "post-count": ""
+                    "discussion-count": "{count, plural, one { {count} tartışma} other {{count} tartışma}}",
+                    "post-count": "{count, plural, one { {count} gönderi} other {{count} gönderi}}"
                 }
             }
         },

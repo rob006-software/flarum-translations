@@ -21,8 +21,8 @@
                 "empty_text": "Wir konnten keinen Benutzer finden, der deiner Suche entspricht.",
                 "filter_button": "Gruppen Filtern",
                 "usercard": {
-                    "discussion-count": "",
-                    "post-count": ""
+                    "discussion-count": "{count, plural, one { {count} Diskussion} other {{count} Diskussionen}}",
+                    "post-count": "{count, plural, one { {count} Beitrag} other {{count} Beiträge}}"
                 }
             }
         },

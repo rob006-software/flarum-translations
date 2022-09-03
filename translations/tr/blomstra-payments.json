@@ -1,6 +1,18 @@
 {
     "blomstra-payments": {
         "forum": {
+            "stripe": {
+                "interval_once": "bir kere"
+            },
+            "subscription-card": {
+                "ptv": "Görüntülemek için ödenen",
+                "pta": "Erişmek için ödenen",
+                "ptb": "Yükseltmek için ödenen",
+                "ptp": "Yayınlamak için ödenen",
+                "cancel-control": "İptal",
+                "none": "Ödeme veya aktif abonelik yok",
+                "bounty": ""
+            },
             "pay-to-view": {
                 "purchase-control": "Görüntülemek için Ödeme Yapın",
                 "purchase-log-in": "Giriş Yap ve Görüntülemek için Ödeme Yap",
@@ -12,6 +24,24 @@
                 "purchase": "Yayınlamak için Satın Alın",
                 "purchase_required": "Bu tartışma, ödeme sağlayıcımız olan Stripe aracılığı ile ödemeyi tamamladığınızda yayınlanacaktır. Maliyet ve ödeme seçeneklerini görüntülemek için satın al düğmesine tıklayın.\n"
             },
+            "pay-to-bump": {
+                "description": "{count, plural, one {Bu tartışma havada kaldı} other {{count} kişi tartışmayı engelledi}}.",
+                "purchase-control": "Hortlatmak için ödeme yap",
+                "purchase-log-in": "Giriş Yap ve Hortlatmak için Öde"
+            },
+            "bounties": {
+                "purchase-control": "",
+                "enable-control": ""
+            },
+            "choose-bounty-amount-modal": {
+                "title": "",
+                "checkout-control": "",
+                "description": ""
+            },
+            "backers-widget": {
+                "label": "",
+                "none": ""
+            },
             "tag": {
                 "require-payment-label": "Ödeme Gerekiyor"
             },
@@ -21,10 +51,23 @@
             },
             "access-portal": {
                 "options": "ayarlar",
-                "purchase": "satın al"
+                "purchase": "satın al",
+                "subscribed": "Abone olundu"
             },
             "nav": {
-                "access_portal": "Erişim portalı"
+                "access_portal": "Erişim portalı",
+                "user_subscriptions": "Abonelikler"
+            },
+            "exceptions": {
+                "out-of-bounds-amount": {
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "accept-terms-modal": {
+                "accept_label": "",
+                "continue_button": "",
+                "title": ""
             }
         },
         "admin": {
@@ -34,7 +77,13 @@
                 "select-ptv-product": "(PTV) Gerekli ürün",
                 "select-ptv-product-description": "Bu seçenek ile, gizli içerikler için tüm yayınlara kalıcı olarak erişimi sağlar. Stripe panonuzda bir ürün oluşturun ve <code>prod_</code> ile başlayan kimliği bu alana kopyalayın.\n",
                 "visible-from": "İçeriğin devamını gizle",
-                "visible-from-description": "Burada belirttiğiniz sayı değeri, yayınlar için ödeme yapmayan kullanıcılara hangi noktada içeriğin gizleneceğini belirler. Hepsini gizlemek için 0 değerini, OP sonrası için 1 değerini kullanın.\n"
+                "visible-from-description": "Burada belirttiğiniz sayı değeri, yayınlar için ödeme yapmayan kullanıcılara hangi noktada içeriğin gizleneceğini belirler. Hepsini gizlemek için 0 değerini, OP sonrası için 1 değerini kullanın.\n",
+                "select-ptb-product": "(PTB) Gerekli ürün",
+                "select-ptb-product-description": "Bir ürün seçmek, bir tartışmaya girmeden önce o ürünün ödenmesini gerektirir.\n",
+                "bump-others": "(PTB) Başkalarının tartışmaları hortlatmasına izin ver",
+                "bump-others-description": "Etkinleştirilirse, yalnızca tartışma yazarı değil, tartışmaları bir ödeme ile hortlatabilir.\n",
+                "select-bounty-product": "",
+                "select-bounty-description": ""
             },
             "edit-group": {
                 "select-pta-product": "(PTA) Gerekli ürün",
@@ -44,7 +93,18 @@
                 "pk": "Publishable (api) anahtarı",
                 "sk": "Secret (api) anahtarı",
                 "webhook-secret": "Webhook imzalama secret",
-                "link-access-portal": "Kullanıcı açılır menüsünde erişim portalı için bağlantı"
+                "link-access-portal": "Kullanıcı açılır menüsünde erişim portalı için bağlantı",
+                "link-to-terms": ""
+            },
+            "permission": {
+                "enable-bounties": ""
+            }
+        }
+    },
+    "core": {
+        "forum": {
+            "index_sort": {
+                "mostBacked_button": ""
             }
         }
     }

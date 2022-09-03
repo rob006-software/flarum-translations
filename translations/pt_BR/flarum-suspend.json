@@ -7,9 +7,9 @@
         },
         "forum": {
             "notifications": {
-                "user_suspended_text": "{username} suspendeu você por {timeReadable}",
+                "user_suspended_text": "Você foi suspenso por {timeReadable}",
                 "user_suspended_indefinite_text": "Você foi suspenso indefinidamente",
-                "user_unsuspended_text": "{username} retirou sua suspensão"
+                "user_unsuspended_text": "Você não está mais suspenso"
             },
             "suspension_info": {
                 "dismiss_button": "Dispensar",
@@ -37,13 +37,14 @@
             }
         },
         "email": {
+            "no_reason_given": "Nenhuma razão foi dada para esta suspensão.",
             "suspended": {
                 "subject": "A sua conta foi suspensa",
                 "body": "Olá, {recipient_display_name},\n\nVocê foi suspenso pelo seguinte motivo:\n\n---\n{suspension_message}\n---\n"
             },
             "unsuspended": {
-                "subject": "",
-                "body": "Obter {nome de exibição do destinatário},\n\nVocê foi cancelado. Você pode voltar ao fórum clicando no link a seguir:\n\n{url do fórum}\n"
+                "subject": "Sua conta não está mais suspensa",
+                "body": "Obter {nome de exibição do destinatário},\n\nVocê não está mais suspenso. Você pode voltar ao fórum clicando no link a seguir:\n\n{url do fórum}\n"
             }
         }
     }

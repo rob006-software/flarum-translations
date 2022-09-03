@@ -485,14 +485,14 @@
             },
             "error": {
                 "dependent_extensions_message": "No se puede desactivar {extension} hasta que se desactiven las siguientes extensiones dependientes: {extensions}",
+                "extension_initialiation_failed_message": "",
                 "generic_message": "¡Caramba! Algo salió mal. Por favor, carga de nuevo la página y vuelve a intentarlo.",
                 "missing_dependencies_message": "No se puede activar {extension} hasta que se activen las siguientes extensiones dependientes: {extensions}",
                 "not_found_message": "¡Recórcholis! El recurso solicitado no fue encontrado.",
                 "payload_too_large_message": "La solicitud de carga era demasiado grande.",
                 "permission_denied_message": "¡Nanay de la China! No tienes permiso para hacer eso.",
                 "rate_limit_exceeded_message": "¡Para el carro! Vas tú muy rápido. Por favor, vuelve a intentarlo en unos segundos.",
-                "render_failed_message": "Lo sentimos, ocurrió un problema al intentar mostrar este contenido. Si eres un usuario, por favor inténtalo más tarde. Si eres administrador, revisa los registros de Flarum para obtener mayor información.",
-                "extension_initialiation_failed_message": ""
+                "render_failed_message": "Lo sentimos, ocurrió un problema al intentar mostrar este contenido. Si eres un usuario, por favor inténtalo más tarde. Si eres administrador, revisa los registros de Flarum para obtener mayor información."
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"

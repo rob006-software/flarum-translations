@@ -2,8 +2,7 @@
     "fof-filter": {
         "forum": {
             "flagger_name": "Automatyczny moderator",
-            "flag_message": "Zawiera zablokowane ciągi znaków",
-            "flaged_text": "Zawiera zablokowane ciągi znaków"
+            "flag_message": "Zawiera zablokowane ciągi znaków"
         },
         "admin": {
             "title": "Filtrowanie",
@@ -35,8 +34,7 @@
             "email": {
                 "default_subject": "Odnośnie Twojego ostatniego posta...",
                 "default_text": "Dzięki, że napisałeś! Niestety Twój post został ukryty, bo zawierał jedno ze słów zablokowanych na naszym forum.\n\nJeśli uważasz, że to pomyłka, nie martw się - post wkrótce zostanie zweryfikowany przez moderatora. Post pojawi się na forum zaraz po tym, jak moderator go zaakceptuje.\n\nDziękujemy za zrozumienie."
-            },
-            "help": "Podaj ciągi znaków do odfiltrowania (rozdzielone za pomocą przecinka + spacji). Jeśli post zawiera któryś z podanych ciągów, post zostanie oznaczony do zatwierdzenia przez moderację. Odporne na 133t."
+            }
         }
     }
 }

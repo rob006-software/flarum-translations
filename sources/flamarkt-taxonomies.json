@@ -35,7 +35,10 @@
                     "customValueSluggerDescription": "Choose how you want the slug generated. If a slug already exists, a numeric prefix will automatically be appended. For the Transliterator option, you need to install and configure that other extension in advance.\n",
                     "countRequired": "Required number of terms",
                     "countRequiredDescription": "Enter the minimum and maximum number of terms from that taxonomies that may be applied to a discussion.\n",
-                    "rangeSeparatorText": "to"
+                    "rangeSeparatorText": "to",
+                    "tagScope": "Only in specified tags",
+                    "tagScopeDescription": "The taxonomy will only be available in the selected tags. If you select a single tag, the homepage filter will only be visible on that specific tag.\n",
+                    "tagScopePlaceholder": "Type to search a tag..."
                 },
                 "delete": "=> flamarkt-taxonomies.ref.delete",
                 "deleteConfirmation": "Do you really want to delete the taxonomy {name}? All terms under that taxonomy will be deleted. Discussions using the taxonomy will NOT be deleted.\n",
@@ -83,6 +86,7 @@
             "permissions": {
                 "heading": "Taxonomies",
                 "moderate": "Configure available taxonomies",
+                "bypassTermCounts": "Bypass term count requirements",
                 "seeOwnDiscussion": "See taxonomies on own discussions",
                 "seeAnyDiscussion": "See taxonomies on all discussions",
                 "editOwnDiscussion": "Edit taxonomies on own discussions",
@@ -108,6 +112,11 @@
             "user": {
                 "nav": "Taxonomies",
                 "edit": "Edit {taxonomy}"
+            },
+            "blog": {
+                "widget": {
+                    "title": "Taxonomies"
+                }
             }
         },
         "lib": {
@@ -119,12 +128,15 @@
                 "placeholder": "{count, plural, one {Choose a term...} other {Choose # terms...}}",
                 "placeholderOptional": "Choose...",
                 "custom": "Use {value}",
+                "bypassTermCounts": "Bypass term counts",
                 "submit": "OK"
             }
         },
         "api": {
             "error": {
-                "invalid_filter_taxonomy": "Invalid \"{type}\" taxonomy filter key \"{slug}\""
+                "invalid_filter_taxonomy": "Invalid \"{type}\" taxonomy filter key \"{slug}\"",
+                "discussion_taxonomy_not_in_scope": "Taxonomy \"{slug}\" is not available in the current tag combination",
+                "cannot_use_taxonomies_on_model": "You are not allowed to use taxonomies in this context"
             }
         },
         "ref": {

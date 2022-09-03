@@ -1,0 +1,57 @@
+{
+    "clarkwinkelmann-anonymous-posting": {
+        "admin": {
+            "settings": {
+                "composerHelpTextPosition": "Position du texte d'aide de compositeur",
+                "composerHelpTextPositionVisible": "Visible (sous l'étiquette)",
+                "composerHelpTextPositionTooltip": "Infobulle (après l'étiquette)",
+                "composerHelpTextPositionHidden": "Caché",
+                "avatars": "Avatars anonymes",
+                "avatarsHelp": "Cette fonctionnalité nécessite l'extension premium <a>Formulaire</a>. L'utilisation de cette fonctionnalité entraîne un léger impact sur les performances car des requêtes supplémentaires à la base de données sont nécessaires pour récupérer les discussions et les messages. Veillez consulter le fichier README pour plus d'informations sur le format de chaque entrée.\n",
+                "avatarFormId": "Identifiant du formulaire",
+                "avatarFieldKey": "Clé du champ",
+                "avatarFieldValue": "Valeur du champ",
+                "avatarAvatarUrl": "URL de l'avatar",
+                "avatarAdd": "Ajouter une règle pour les avatars"
+            },
+            "permissions": {
+                "use": "Publier anonymement",
+                "reveal": "Voir les véritables auteurs des discussions et des messages anonymes",
+                "moderate": "Anonymiser ou désanonymiser une discussion ou un message"
+            }
+        },
+        "forum": {
+            "composerControls": {
+                "anonymize": "Publier anonymement",
+                "anonymizeHelp": "Les modérateurs sauront toujours que vous avez créé ce contenu"
+            },
+            "discussionControls": {
+                "anonymize": "Anonymiser",
+                "anonymizeConfirmation": "Cela rendra l'auteur de la discussion anonyme. Le premier message doit être anonymisé séparément. Souhaitez-vous continuer ?",
+                "deanonymize": "Désanonymiser",
+                "deanonymizeConfirmation": "Cela rendra à nouveau public l'auteur original de la discussion. Souhaitez-vous continuer ?"
+            },
+            "postControls": {
+                "anonymize": "Anonymiser",
+                "firstPostConfirmation": "Cela rendra l'auteur du premier message anonyme. La discussion doit être rendue anonyme séparément. Souhaitez-vous continuer ?",
+                "deanonymize": "Désanonymiser",
+                "deanonymizeConfirmation": "Cela rendra à nouveau public l'auteur original du message. Souhaitez-vous continuer ?"
+            },
+            "discussionList": {
+                "genericReplyText": "Dernière réponse {ago}"
+            },
+            "postPrivacy": {
+                "mine": "Moi",
+                "mineHelp": "Vous seul pouvez voir ces informations",
+                "profile": "Visible uniquement par vous",
+                "profileHelp": "Vous êtes le seul à pouvoir voir vos messages anonymes sur votre profil"
+            }
+        },
+        "lib": {
+            "userMeta": {
+                "initials": "?",
+                "username": "Anonyme"
+            }
+        }
+    }
+}

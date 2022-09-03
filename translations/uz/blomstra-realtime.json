@@ -2,7 +2,8 @@
     "blomstra-realtime": {
         "forum": {
             "push": {
-                "discussion-list-new-activity": "{hisob, koʻplik, bitta {# yangilangan muhokamani koʻrsatish} boshqa {# ta yangilangan muhokamani koʻrsatish}}"
+                "discussion-list-new-activity": "{hisob, koʻplik, bitta {# yangilangan muhokamani koʻrsatish} boshqa {# ta yangilangan muhokamani koʻrsatish}}",
+                "discussion-list-new-activity-with-auto-release": ""
             },
             "typing-indicator": {
                 "people-are-typing": "{son, koʻplik, bitta {# kishi yozmoqda} boshqa {# kishi yozmoqda}}",
@@ -12,6 +13,10 @@
         "admin": {
             "permission": {
                 "view-who-types": "Kim yozayotganini ko'ring"
+            },
+            "settings": {
+                "release-discussion-updates-interval": "",
+                "release-discussion-updates-interval-help": ""
             }
         }
     }

@@ -2,15 +2,19 @@
     "flarum-statistics": {
         "admin": {
             "statistics": {
-                "active_users_text": "{count, plural, one {# actif} other {# actifs}}",
                 "discussions_heading": "=> core.ref.discussions",
                 "last_12_months_label": "12 derniers mois",
                 "last_28_days_label": "28 derniers jours",
                 "last_7_days_label": "7 derniers jours",
+                "mini_heading": "Statistiques du forum",
+                "previous_28_days_label": "28 jours précédents",
+                "previous_7_days_label": "7 jours précédents",
+                "loading": "=> core.ref.loading",
                 "posts_heading": "=> core.ref.posts",
                 "today_label": "Aujourd'hui",
                 "total_label": "Total",
-                "users_heading": "=> core.ref.users"
+                "users_heading": "=> core.ref.users",
+                "view_full": "Voir davantage de statistiques"
             }
         }
     }

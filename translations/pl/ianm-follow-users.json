@@ -5,19 +5,20 @@
                 "be_followed_label": "Może być obserwowany"
             },
             "settings": {
-                "button-on-profile-label": "Pokaż przycisk do obserwowania bezpośrednio w nagłówku profilu użytkownika"
+                "button-on-profile-label": "Pokaż przycisk do obserwowania bezpośrednio w nagłówku profilu użytkownika",
+                "stats-on-profile-label": "Wyświetl liczbę obserwujących i obserwowanych w profilu użytkownika"
             }
         },
         "forum": {
+            "followed": "Obserwowani",
+            "followers": "Obserwujący",
             "profile_link": "=> ianm-follow-users.lib.following_link",
             "profile_page": {
                 "no_following": "Wygląda na to, że nikogo jeszcze nie obserwujesz."
             },
             "user_controls": {
                 "follow_button": "=> ianm-follow-users.lib.follow",
-                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type",
-                "follow_confirmation": "Czy jesteś pewien, że chcesz obserwować tego użytkownika?",
-                "unfollow_confirmation": "Czy jesteś pewien, że chcesz przestać obserwować tego użytkownika?"
+                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type"
             },
             "settings": {
                 "notify_new_follower_label": "Ktoś zaczął mnie obserwować",

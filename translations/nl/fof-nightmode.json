@@ -8,6 +8,7 @@
         "admin": {
             "settings": {
                 "modal": {
+                    "always_show_theme_toggle_on_header": "",
                     "default_theme": "Standaard forumthema",
                     "default_theme_helper": "Het standaardthema wordt automatisch ingesteld voor nieuwe gebruikers, gasten en degenen die geen voorkeuren hebben ingesteld.",
                     "theme_auto": "=> fof-nightmode.ref.auto",
@@ -41,6 +42,16 @@
                         "night": "Je bent een beetje een nachtuil. Je waakt 's nachts over het forum, terwijl de vogels slapen en de vossen jagen. Of je hebt gewoon liever de donkere kleuren!"
                     }
                 }
+            }
+        }
+    },
+    "fof-default-user-preferences": {
+        "admin": {
+            "settings": {
+                "fofNightMode": "",
+                "fofNightMode-help": "",
+                "fofNightMode_perDevice": "",
+                "fofNightMode_perDevice-help": ""
             }
         }
     }

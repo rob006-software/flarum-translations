@@ -8,10 +8,15 @@
             "update_category": "Kategorie aktualisieren",
             "edit_category": "Kategorie bearbeiten",
             "nothing_here_yet": "Du hast noch keine Kategorien oder Abzeichen erstellt.",
+            "show_badges_on_user_card": "",
+            "number_of_badges_on_user_card": "",
+            "number_of_badges_on_user_card_help": "",
             "permissions": {
                 "badge_detail_users": "Kann Benutzer auf der Badge-Detailseite sehen",
                 "give_badge": "Abzeichen für Benutzer hinzufügen",
-                "take_badge": "Abzeichen von Benutzer entfernen"
+                "take_badge": "Abzeichen von Benutzer entfernen",
+                "edit_own_card_badges": "",
+                "edit_card_badges": ""
             },
             "confirm_dialog": {
                 "title": "Bestätigen",
@@ -79,6 +84,7 @@
             "user_no_badges": "Der Benutzer hat noch keine Abzeichen erhalten.",
             "no_received": "Kein Benutzer hat dieses Abzeichen verdient.",
             "uncategorized": "=> v17development-flarum-badges.admin.uncategorized",
+            "save_changes": "",
             "badge": {
                 "badge": "Abzeichen",
                 "badges": "Abzeichen",
@@ -92,7 +98,15 @@
                 "received_on": "Erhalten am {date}",
                 "badge_details": "Abzeichendetails",
                 "earned_count": "{count, plural, one {<b># Benutzer</b> hat dieses Abzeichen erhalten} other {<b># Benutzer</b> haben dieses Abzeichen erhalten}}",
-                "earned_by_count": "{count, plural, one {Erworben von <b>#-Benutzer</b>} other {Erworben von <b>#-Benutzern</b>}}"
+                "earned_by_count": "{count, plural, one {Erworben von <b>#-Benutzer</b>} other {Erworben von <b>#-Benutzern</b>}}",
+                "others_link": ""
+            },
+            "badges_in_card": {
+                "title": "",
+                "manage_badges": "",
+                "description": "",
+                "select_limit": "",
+                "hit_limit": ""
             },
             "moderation": {
                 "remove_badge": "Abzeichen vom Benutzer entfernen",

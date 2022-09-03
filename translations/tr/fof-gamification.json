@@ -28,9 +28,10 @@
             },
             "user": {
                 "card": {
-                    "points": ""
+                    "points": "{count, plural, one { {count} puan} other {{count} puan}}"
                 },
                 "rank": "{rank}",
+                "votes_link": "Oylar",
                 "points": "Puan: {points}"
             },
             "modal": {

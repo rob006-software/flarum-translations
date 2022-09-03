@@ -8,6 +8,7 @@
         "admin": {
             "settings": {
                 "modal": {
+                    "always_show_theme_toggle_on_header": "Mostra sempre il pulsante di cambio tema nell'intestazione del forum",
                     "default_theme": "Tema del forum predefinito",
                     "default_theme_helper": "Il tema predefinito viene impostato automaticamente per i nuovi utenti, gli ospiti e coloro che non hanno impostato preferenze.",
                     "theme_auto": "=> fof-nightmode.ref.auto",
@@ -41,6 +42,16 @@
                         "night": "Sei un po' nottambulo. Di notte vegli sul forum, mentre gli uccelli dormono e le volpi cacciano. O preferisci semplicemente i colori più scuri!"
                     }
                 }
+            }
+        }
+    },
+    "fof-default-user-preferences": {
+        "admin": {
+            "settings": {
+                "fofNightMode": "FoF Nightmode: tema colore da utilizzare per impostazione predefinita",
+                "fofNightMode-help": "0 - automatico, 1 - modalità chiara, 2 - modalità oscura",
+                "fofNightMode_perDevice": "FoF Nightmode: utilizzare per le impostazioni del dispositivo",
+                "fofNightMode_perDevice-help": "Usa le preferenze per dispositivo per le impostazioni della modalità notturna"
             }
         }
     }

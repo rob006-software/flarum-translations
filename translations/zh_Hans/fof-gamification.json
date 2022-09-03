@@ -28,9 +28,10 @@
             },
             "user": {
                 "card": {
-                    "points": ""
+                    "points": "{count, plural, one {{count} 👍} other {{count} 👍}}"
                 },
                 "rank": "{rank}",
+                "votes_link": "投票",
                 "points": "👍: {points}"
             },
             "modal": {
