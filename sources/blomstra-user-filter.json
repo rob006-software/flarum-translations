@@ -2,6 +2,7 @@
     "blomstra-user-filter": {
         "admin": {
             "settings": {
+                "intro": "Users without the permission <code>Search users</code> will not see the search box. Set to <code>Everyone</code> for all users, or whatever your preference level is.",
                 "min_length": "Minimum chars to begin searching",
                 "result_count": "Max results in dropdown autocomplete"
             }

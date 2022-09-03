@@ -1,0 +1,41 @@
+{
+    "clarkwinkelmann-discussion-open-position": {
+        "admin": {
+            "settings": {
+                "defaultOpenLastRead": "Tartışmayı en son okunan gönderi varsayılanında aç",
+                "suggestFirstTime": "Kullanıcıya, bir tartışmayı ilk açtıklarında ayarı değiştirmesi için bir seçenek göster",
+                "openLastOptions": {
+                    "always": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.always",
+                    "unread": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.unread",
+                    "never": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.never"
+                }
+            }
+        },
+        "forum": {
+            "firstTimePrompt": {
+                "fromAlways": "Tartışma bağlantıları, son okuduğunuz yayına yönlendirir",
+                "fromNever": "Tartışma bağlantıları ilk gönderiyi açar",
+                "openLastOptions": {
+                    "always": "Bunun yerine her zaman okuduğum son gönderide aç",
+                    "never": "Bunun yerine her zaman ilk gönderide aç"
+                },
+                "more": "Daha fazla seçenek"
+            },
+            "preferences": {
+                "discussionOpenLastRead": "Tartışma Listesi",
+                "openLastOptions": {
+                    "always": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.always",
+                    "unread": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.unread",
+                    "never": "=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.never"
+                }
+            }
+        },
+        "ref": {
+            "openLastOptions": {
+                "always": "Tartışmaları her zaman son okunan gönderide aç",
+                "unread": "Tartışmaları yalnızca son okunan gönderide yeni yanıtlar varsa aç",
+                "never": "Tartışmaları her zaman ilk gönderide aç"
+            }
+        }
+    }
+}

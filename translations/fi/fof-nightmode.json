@@ -8,6 +8,7 @@
         "admin": {
             "settings": {
                 "modal": {
+                    "always_show_theme_toggle_on_header": "Näytä aina teeman vaihtajan nappi foorumin yläosassa",
                     "default_theme": "Foorumin oletusteema",
                     "default_theme_helper": "Oletusteema asetetaan automaattisesti uusille käyttäjille, vieraille ja niille joilla ei ole asetusta asetettu.",
                     "theme_auto": "=> fof-nightmode.ref.auto",
@@ -41,6 +42,16 @@
                         "night": "Olet hieman yökyöpeli. Tutkit foorumeita yöllä, kun linnut nukkuu ja eläimet saalistaa. Tai sinä vain pidät tummista väreistä!"
                     }
                 }
+            }
+        }
+    },
+    "fof-default-user-preferences": {
+        "admin": {
+            "settings": {
+                "fofNightMode": "FoF Nightmode: Oletuksena käytettävä väriteema",
+                "fofNightMode-help": "0 - automaattinen, 1 - vaalea tila, 2 - tumma tila",
+                "fofNightMode_perDevice": "FoF Nightmode: Käytä laitekohtaisia asetuksia",
+                "fofNightMode_perDevice-help": "Käytä laitekohtaisia asetuksia yötilaa varten"
             }
         }
     }

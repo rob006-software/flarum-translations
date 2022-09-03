@@ -1,6 +1,18 @@
 {
     "blomstra-payments": {
         "forum": {
+            "stripe": {
+                "interval_once": ""
+            },
+            "subscription-card": {
+                "ptv": "",
+                "pta": "",
+                "ptb": "",
+                "ptp": "",
+                "cancel-control": "",
+                "none": "",
+                "bounty": ""
+            },
             "pay-to-view": {
                 "purchase-control": "Zum Ansehen bezahlen",
                 "purchase-log-in": "Anmelden & zum Ansehen bezahlen",
@@ -12,6 +24,24 @@
                 "purchase": "Zum Veröffentlichen kaufen",
                 "purchase_required": "Diese Diskussion wird veröffentlicht, sobald Du die Zahlung über unseren Zahlungsanbieter Stripe abgeschlossen hast. Klicke auf Kaufen, um die Kosten und Zahlungsoptionen anzuzeigen.\n"
             },
+            "pay-to-bump": {
+                "description": "{count, plural, one {Diese Diskussion wurde gebumped} other {{count} Leute bumpten diese Diskussion}}.",
+                "purchase-control": "Zum bumpen zahlen",
+                "purchase-log-in": "Anmelden und bezahlen um zu bumpen"
+            },
+            "bounties": {
+                "purchase-control": "",
+                "enable-control": ""
+            },
+            "choose-bounty-amount-modal": {
+                "title": "",
+                "checkout-control": "",
+                "description": ""
+            },
+            "backers-widget": {
+                "label": "",
+                "none": ""
+            },
             "tag": {
                 "require-payment-label": "Zahlung benötigt"
             },
@@ -21,10 +51,23 @@
             },
             "access-portal": {
                 "options": "Optionen",
-                "purchase": "Kaufen"
+                "purchase": "Kaufen",
+                "subscribed": ""
             },
             "nav": {
-                "access_portal": "Zugriffsportal"
+                "access_portal": "Zugriffsportal",
+                "user_subscriptions": ""
+            },
+            "exceptions": {
+                "out-of-bounds-amount": {
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "accept-terms-modal": {
+                "accept_label": "",
+                "continue_button": "",
+                "title": ""
             }
         },
         "admin": {
@@ -34,7 +77,13 @@
                 "select-ptv-product": "(PTV) Erforderliches Produkt",
                 "select-ptv-product-description": "Die Auswahl eines Produkts erfordert die Zahlung dieses Produkts, um dauerhaft Zugriff auf alle Beiträge über den Schwellenwert hinaus zu erhalten. Erstelle ein Produkt in Deinem Stripe-Dashboard und kopiere die ID beginnend mit <code>prod_</code> in dieses Feld.\n",
                 "visible-from": "Beiträge bei dieser Schwelle ausblenden",
-                "visible-from-description": "Die hier angegebene Zahl legt fest, an welcher Stelle Beiträge für Benutzer ausgeblendet werden, die nicht für den Zugriff auf den Inhalt bezahlt haben. Verwende 0, um alle auszublenden, 1 für den nach dem OP.\n"
+                "visible-from-description": "Die hier angegebene Zahl legt fest, an welcher Stelle Beiträge für Benutzer ausgeblendet werden, die nicht für den Zugriff auf den Inhalt bezahlt haben. Verwende 0, um alle auszublenden, 1 für den nach dem OP.\n",
+                "select-ptb-product": "(PTB) Benötigtes Produkt",
+                "select-ptb-product-description": "Wenn Du ein Produkt auswählest, musst Du dieses Produkt bezahlen, bevor Du eine Diskussion starten kannst.\n",
+                "bump-others": "(PTB) Anderen erlauen, Diskussionen zu bumpen",
+                "bump-others-description": "Wenn aktiviert, kann nicht nur der Diskussionsautor Diskussionen mit einer Zahlung bumpen.\n",
+                "select-bounty-product": "",
+                "select-bounty-description": ""
             },
             "edit-group": {
                 "select-pta-product": "(PTA) Erforderliches Produkt",
@@ -44,7 +93,18 @@
                 "pk": "Veröffentlichbarer (API) Schlüssel",
                 "sk": "Geheimer (API) Schlüssel",
                 "webhook-secret": "Webhook-Signaturgeheimnis",
-                "link-access-portal": "Zugangsportal unter Benutzersitzungs-Dropdown verknüpfen"
+                "link-access-portal": "Zugangsportal unter Benutzersitzungs-Dropdown verknüpfen",
+                "link-to-terms": ""
+            },
+            "permission": {
+                "enable-bounties": ""
+            }
+        }
+    },
+    "core": {
+        "forum": {
+            "index_sort": {
+                "mostBacked_button": ""
             }
         }
     }

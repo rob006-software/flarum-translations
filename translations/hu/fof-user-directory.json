@@ -19,12 +19,16 @@
                 "refresh_tooltip": "=> core.forum.index.refresh_tooltip",
                 "load_more_button": "=> core.ref.load_more",
                 "empty_text": "Nem található egyetlen felhasználó sem a keresése alapján.",
-                "filter_button": "Csoportok szűrése"
+                "filter_button": "Csoportok szűrése",
+                "usercard": {
+                    "discussion-count": "{count, plural, one {#} other {#}} téma",
+                    "post-count": "{count, plural, one {#} other {#}} bejegyzés"
+                }
             }
         },
         "admin": {
             "permissions": {
-                "view_user_directory": "Felhasználói címtár megtekintése"
+                "view_user_directory": "Felhasználók"
             },
             "settings": {
                 "link": "Hivatkozás hozzáadása a főoldalhoz, hogy a felhasználók lássak a címtárat",

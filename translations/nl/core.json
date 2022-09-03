@@ -100,7 +100,7 @@
             },
             "extension": {
                 "configure_scopes": "Configureer bereiken",
-                "confirm_uninstall": "Als u de installatie ongedaan maakt, worden alle database-items en assets die betrekking hebben op de extensie verwijderd. Weet je zeker dat je door wilt gaan?",
+                "confirm_purge": "Bij het opschonen zullen alle database-items en assets gerelateerd aan deze extensie verwijderd worden. Het zal de extensie niet verwijderen, dat moet via Composer. Weet je zeker dat je door wilt gaan?",
                 "disabled": "Uitgeschakeld",
                 "enable_to_see": "Schakel de extensie in om instellingen te bekijken en te wijzigen.",
                 "enabled": "Ingeschakeld",
@@ -116,14 +116,14 @@
                 "no_settings": "Deze extensie heeft geen instellingen.",
                 "open_modal": "Open instellingen",
                 "permissions_title": "Rechten",
-                "uninstall_button": "Deïnstalleren",
-                "confirm_purge": "Bij het opschonen zullen alle database-items en assets gerelateerd aan deze extensie verwijderd worden. Het zal de extensie niet verwijderen, dat moet via Composer. Weet je zeker dat je door wilt gaan?",
                 "purge_button": "Opschonen",
                 "readme": {
                     "button_label": "LEESMIJ",
                     "no_readme": "Deze extensie lijkt geen README-bestand te hebben",
                     "title": "{extName} documentatie"
-                }
+                },
+                "confirm_uninstall": "Als u de installatie ongedaan maakt, worden alle database-items en assets die betrekking hebben op de extensie verwijderd. Weet je zeker dat je door wilt gaan?",
+                "uninstall_button": "Deïnstalleren"
             },
             "header": {
                 "get_help": "Krijg hulp",
@@ -303,11 +303,11 @@
             "discussion_list": {
                 "empty_text": "Het lijkt erop dat er hier geen discussies zijn.",
                 "load_more_button": "=> core.ref.load_more",
-                "mark_as_read_tooltip": "Markeren als gelezen",
                 "replied_text": "{username} heeft {ago} gereageerd",
                 "started_text": "{username} heeft {ago} gereageerd",
                 "total_replies_a11y_label": "{count, plural, one {# antwoord} other {# antwoorden}}",
-                "unread_replies_a11y_label": "{count, plural, one {# ongelezen antwoord} other {# ongelezen antwoorden}}. Markeer ongelezen {count, plural, one {bericht} other {berichten}} als gelezen."
+                "unread_replies_a11y_label": "{count, plural, one {# ongelezen antwoord} other {# ongelezen antwoorden}}. Markeer ongelezen {count, plural, one {bericht} other {berichten}} als gelezen.",
+                "mark_as_read_tooltip": "Markeren als gelezen"
             },
             "forgot_password": {
                 "dismiss_button": "=> core.ref.okay",
@@ -459,6 +459,10 @@
             }
         },
         "lib": {
+            "debug_button": "Debug",
+            "alert": {
+                "dismiss_a11y_label": "Melding negeren"
+            },
             "badge": {
                 "hidden_tooltip": "Verborgen"
             },
@@ -481,6 +485,7 @@
             },
             "error": {
                 "dependent_extensions_message": "Kan {extension} pas uitschakelen als de volgende afhankelijke extensies zijn uitgeschakeld: {extensions}",
+                "extension_initialiation_failed_message": "{extension} kan niet worden geïnitialiseerd, controleer de browserconsole voor meer informatie.",
                 "generic_message": "Oeps! Er is iets misgegaan. Herlaad de pagina en probeer het opnieuw.",
                 "missing_dependencies_message": "Kan {extension} pas inschakelen als de volgende afhankelijke extensies zijn ingeschakeld: {extensions}",
                 "not_found_message": "Het opgevraagde kon niet worden gevonden.",
@@ -491,6 +496,16 @@
             },
             "loading_indicator": {
                 "accessible_label": "=> core.ref.loading"
+            },
+            "meta_titles": {
+                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Pagina # - {forumName}}}",
+                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Pagina # - {forumName}}}"
+            },
+            "modal": {
+                "close": "Sluiten"
+            },
+            "nav": {
+                "drawer_button": "Open navigatie"
             },
             "number_suffix": {
                 "kilo_text": "K",
@@ -503,20 +518,6 @@
             },
             "username": {
                 "deleted_text": "[verwijderd]"
-            },
-            "debug_button": "Debug",
-            "alert": {
-                "dismiss_a11y_label": "Melding negeren"
-            },
-            "meta_titles": {
-                "with_page_title": "{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Pagina # - {forumName}}}",
-                "without_page_title": "{pageNumber, plural, =1 {{forumName}} other {Pagina # - {forumName}}}"
-            },
-            "modal": {
-                "close": "Sluiten"
-            },
-            "nav": {
-                "drawer_button": "Open navigatie"
             }
         },
         "views": {

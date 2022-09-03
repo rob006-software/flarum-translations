@@ -3,18 +3,22 @@
         "admin": {
             "permissions": {
                 "be_followed_label": "Autoriser les utilisateurs à suivre"
+            },
+            "settings": {
+                "button-on-profile-label": "Afficher le bouton « Suivre » directement sur l'en-tête du profil de l'utilisateur",
+                "stats-on-profile-label": "Afficher le nombre d'abonnés et d'abonnements sur le profil des utilisateurs"
             }
         },
         "forum": {
+            "followed": "Abonnements",
+            "followers": "Abonnés",
             "profile_link": "=> ianm-follow-users.lib.following_link",
             "profile_page": {
                 "no_following": "Il semble que vous ne suivez personne."
             },
             "user_controls": {
                 "follow_button": "=> ianm-follow-users.lib.follow",
-                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type",
-                "follow_confirmation": "Êtes-vous sûr de vouloir suivre cet utilisateur ?",
-                "unfollow_confirmation": "Êtes-vous sûr de ne plus vouloir suivre cet utilisateur ?"
+                "unfollow_button": "=> ianm-follow-users.lib.change_follow_type"
             },
             "settings": {
                 "notify_new_follower_label": "Quelqu'un me suit",

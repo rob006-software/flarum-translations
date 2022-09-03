@@ -50,8 +50,9 @@
                 "content": "Válassza ki a legjobb választ, ha a kérdésére választ kapott",
                 "awarded": "{username} az Ön bejegyzését választotta ki, mint a legjobb válasz",
                 "preferences": {
-                    "awarded_best_answer": "Ha valaki a hozzászólásomat a legjobb válasznak jelöli",
-                    "best_answer_in_discussion": "Ha a legjobb válasz ki lett választva a témában, amelyben résztvevő vagyok"
+                    "awarded_best_answer": "Valaki a legjobb válasznak jelöli a bejegyzésemet",
+                    "best_answer_in_discussion": "A legjobb válasz ki lett választva a témában, amelyben résztvevő vagyok",
+                    "select_best_answer": "Automatizált emlékeztető az általam kezdett téma legjobb válaszának kiválasztásához"
                 }
             },
             "index": {
@@ -68,6 +69,9 @@
             },
             "composer": {
                 "titlePlaceholder": "Kérdés címe"
+            },
+            "user": {
+                "best-answer-count": "{count, plural, one { {count} legjobb válasz} other {{count} legjobb válasz}}"
             }
         },
         "email": {

@@ -1,0 +1,29 @@
+{
+    "changelog": {
+        "general-changes": "Ogólne usprawnienia",
+        "cleaned-core": "Usunięto przestarzałe frazy dla głównego silnika Flarum (wspierana jest wersja `{version}` lub wyższa)",
+        "updated-core": "Aktualizacja tłumaczeń głównego silnika Flarum",
+        "cleaned-validation": "Usunięto przestarzałe komunikaty walidacji (wspierana jest wersja `{version}` lub wyższa)",
+        "updated-validation": "Aktualizacja tłumaczeń komunikatów walidacji",
+        "updated-config-js": "Aktualizacja tłumaczeń Day.js",
+        "updated-config-css": "Aktualizacja stylów",
+        "updated-file": "Aktualizacja `{file}`",
+        "extensions-added": "Dodano wsparcie dla nowych rozszerzeń",
+        "extensions-cleaned": "Zaktualizowano i/lub usunięto przestarzałe frazy dla rozszerzeń",
+        "extensions-updated": "Zaktualizowano tłumaczenia dla rozszerzeń",
+        "extensions-removed": "Usunięto wsparcie dla przestarzałych rozszerzeń",
+        "all-changes": "Wszystkie zmiany: {link}."
+    },
+    "announcement": {
+        "version": "Wersja {version}",
+        "to-update": "Aby zaktualizować:",
+        "major-warning": "Ta wersja usuwa wsparcie dla starszych wersji Flarum oraz starszych wersji niektórych rozszerzeń. Przed aktualizacją upewnij się, że twoje forum jest aktualne i korzysta z najnowszych wersji rozszerzeń."
+    },
+    "readme": {
+        "status-table": {
+            "header-extension": "Rozszerzenie",
+            "header-status": "Status",
+            "label-translation-status": "Status tłumaczeń"
+        }
+    }
+}

@@ -34,7 +34,7 @@
                 "merge_discussions_label": "Scalanie dyskusji"
             },
             "settings": {
-                "search_result_help": "Ile dyskusji powinno być zwróconych podczas wyszukiwania w okienku \"Scal dyskusje\". Domyślnie 4.",
+                "search_result_help": "Ile dyskusji powinno być zwróconych podczas wyszukiwania w okienku \"Scal dyskusje\".",
                 "search_result_label": "Limit wyszukiwania dyskusji do scalenia"
             }
         },
@@ -43,7 +43,8 @@
                 "merging_failed": "Nie udało się scalić dyskusji.",
                 "updating_failed": "Nie udało się odświeżyć informacji o dyskusji.",
                 "deleting_failed": "Nie udało się usunąć pustej dyskusji.",
-                "fixing_posts_number_failed": "Nie udało się naprawić numerowania postów."
+                "fixing_posts_number_failed": "Nie udało się naprawić numerowania postów.",
+                "fixing_posts_number_meta_failed": "Nie udało się naprawić numerowania postów."
             }
         },
         "ref": {
@@ -51,7 +52,7 @@
         },
         "email": {
             "merged": {
-                "body": "Witaj {recipient_display_name},\n\nTwoja dyskusja \"{merged_discussion_title}\" została scalona z dyskusją \"{discussion_title}\" przez {actor_display_name}.\n\nAby ją zobaczyć, kliknij poniższy link:\n{discussion_url}\n",
+                "body": "Witaj {recipient_display_name},\n\nTwoja dyskusja \"{merged_discussion_title}\" została scalona z dyskusją \"{discussion_title}\" przez {actor_display_name}.\n\nAby przejść do dyskusji, kliknij poniższy link:\n{discussion_url}\n",
                 "subject": "Twoja dyskusja \"{merged_discussion_title}\" została scalona"
             }
         }

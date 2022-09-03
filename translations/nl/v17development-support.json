@@ -151,6 +151,11 @@
                     "confirm": "Weet je zeker dat je deze discussie wilt omzetten naar een ticket?",
                     "event": "De discussie {ticket_title} is omgezet naar een ticket"
                 },
+                "convert_to_discussion": {
+                    "button": "",
+                    "confirm": "",
+                    "event": ""
+                },
                 "status": {
                     "new": {
                         "title": "Nieuw",
@@ -192,7 +197,8 @@
                     "assign_me": "Aan mij toewijzen",
                     "remove_me": "Mij verwijderen",
                     "update_status": "Ticketstatus updaten",
-                    "close_ticket": "Ticket sluiten"
+                    "close_ticket": "Ticket sluiten",
+                    "update_note": ""
                 },
                 "new_tickets_dropdown": {
                     "title": "Ticket notificaties",
@@ -223,6 +229,13 @@
                     "assignees": {
                         "title": "Toegekend aan",
                         "placeholder": "De status van dit ticket"
+                    },
+                    "private_note": {
+                        "title": "",
+                        "info": "",
+                        "tip": "",
+                        "placeholder": "",
+                        "edit_button": ""
                     }
                 },
                 "compose_ticket": {
@@ -267,6 +280,16 @@
                         "recent_activity": "Recentste activiteit",
                         "least_recent": "Minst recente activiteit"
                     }
+                }
+            },
+            "notifications": {
+                "replied_to_ticket": {
+                    "name": "",
+                    "content": ""
+                },
+                "ticket_resolved": {
+                    "name": "",
+                    "content": ""
                 }
             }
         },

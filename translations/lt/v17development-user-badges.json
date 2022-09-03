@@ -8,10 +8,15 @@
             "update_category": "Atnaujinti kategoriją",
             "edit_category": "Redaguoti kategoriją",
             "nothing_here_yet": "Dar nesukūrėte jokių ženklelių ar kategorijų.",
+            "show_badges_on_user_card": "",
+            "number_of_badges_on_user_card": "",
+            "number_of_badges_on_user_card_help": "",
             "permissions": {
                 "badge_detail_users": "Gali matyti naudotojus išsamios ženklelio informacijos puslapyje",
                 "give_badge": "Suteikite ženklelį vartotojui",
-                "take_badge": "Paimkite ženklelį iš vartotojo"
+                "take_badge": "Paimkite ženklelį iš vartotojo",
+                "edit_own_card_badges": "",
+                "edit_card_badges": ""
             },
             "confirm_dialog": {
                 "title": "Patvirtinti",
@@ -53,7 +58,7 @@
                 },
                 "action_drivers": {
                     "badge_id": "",
-                    "give_badge": "",
+                    "give_badge": "Suteikti ženklelį",
                     "remove_badge": ""
                 },
                 "requirement_drivers": {
@@ -72,13 +77,14 @@
             "badge_information": "",
             "all_badges": "",
             "all_users": "",
-            "give_badge": "",
+            "give_badge": "Suteikti ženklelį",
             "update_badge": "",
             "select_badge": "",
             "user_has_badge": "",
             "user_no_badges": "",
             "no_received": "",
             "uncategorized": "",
+            "save_changes": "",
             "badge": {
                 "badge": "Ženkliukas",
                 "badges": "Ženkliukai",
@@ -92,16 +98,24 @@
                 "received_on": "",
                 "badge_details": "",
                 "earned_count": "",
-                "earned_by_count": ""
+                "earned_by_count": "",
+                "others_link": ""
+            },
+            "badges_in_card": {
+                "title": "",
+                "manage_badges": "",
+                "description": "",
+                "select_limit": "",
+                "hit_limit": ""
             },
             "moderation": {
                 "remove_badge": "",
                 "remove_badge_confirm": "",
-                "give_badge": ""
+                "give_badge": "Suteikti ženklelį"
             },
             "notification": {
                 "title": "",
-                "settings": ""
+                "settings": "Gavau ženklelį"
             }
         }
     }

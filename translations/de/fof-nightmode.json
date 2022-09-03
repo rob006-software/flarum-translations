@@ -8,6 +8,7 @@
         "admin": {
             "settings": {
                 "modal": {
+                    "always_show_theme_toggle_on_header": "Schaltfläche zum Umschalten des Themas in der Foren-Kopfzeile immer anzeigen",
                     "default_theme": "Standard Forum Design",
                     "default_theme_helper": "Das Standard Design wird für neue Nutzer, Gäste und solche, die keine Präferenz eingestellt haben, automatisch eingestellt.",
                     "theme_auto": "=> fof-nightmode.ref.auto",
@@ -41,6 +42,16 @@
                         "night": "Du bist eine Nachteule. Du wachst über das Forum in der Nacht, während die Vögel schlafen und die Füchse jagen. Oder du bevorzugst einfach die dunkleren Farben!"
                     }
                 }
+            }
+        }
+    },
+    "fof-default-user-preferences": {
+        "admin": {
+            "settings": {
+                "fofNightMode": "FoF Nachtmodus: Standardmäßig zu verwendendes Farbthema",
+                "fofNightMode-help": "0 - automatisch, 1 - heller Modus, 2 - dunkler Modus",
+                "fofNightMode_perDevice": "FoF Nachtmodus: Einstellungen pro Gerät verwenden",
+                "fofNightMode_perDevice-help": "Einstellungen pro Gerät für die Nachtmoduseinstellungen verwenden"
             }
         }
     }

@@ -2,22 +2,22 @@
     "imgur-upload": {
         "admin": {
             "settings": {
-                "hide-markdown-image": "",
-                "allow-paste": "",
+                "hide-markdown-image": "Markdown-kép gombjának elrejtése",
+                "allow-paste": "A képek beillesztésre történő feltöltésének engedélyezése",
                 "embed-type": {
-                    "title": "",
-                    "preview-with-link": "",
-                    "preview-without-link": "",
-                    "full-with-link": "",
-                    "full-without-link": ""
+                    "title": "Beágyazás típusa",
+                    "preview-with-link": "Előnézet (1024px) hivatkozással a teljes képhez",
+                    "preview-without-link": "Előnézet hivatkozás nélkül",
+                    "full-with-link": "Teljes méretű kép hivatkozással",
+                    "full-without-link": "Teljes méretű kép hivatkozás nélkül"
                 }
             }
         },
         "forum": {
-            "upload": "",
-            "loading": "",
-            "done": "",
-            "error": ""
+            "upload": "Nyomja meg vagy illessze be a feltöltéshez",
+            "loading": "Feltöltés…",
+            "done": "Kész!",
+            "error": "Hiba"
         }
     }
 }
