@@ -151,6 +151,11 @@
                     "confirm": "Are you sure you want to convert this discussion into a ticket?",
                     "event": "Discussion {ticket_title} has been converted into ticket"
                 },
+                "convert_to_discussion": {
+                    "button": "Convert to discussion",
+                    "confirm": "Are you sure you want to convert this ticket into a public discussion? If someone has shared private information, this will become public too.",
+                    "event": "Ticket {ticket_title} has been converted into discussion\n\nDo you want to go to this discussion now?\n"
+                },
                 "status": {
                     "new": {
                         "title": "New",
