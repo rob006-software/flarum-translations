@@ -133,6 +133,9 @@ return [
 	'blomstra-sort-order-toggle' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-sort-order-toggle/0.2.0/locale/en.yml',
 	],
+	'blomstra-trello' => [
+		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-trello/0.2.2/locale/en.yml',
+	],
 	'blomstra-user-filter' => [
 		'tag' => 'https://raw.githubusercontent.com/blomstra/flarum-ext-user-filter/0.1.4/locale/en.yml',
 	],
